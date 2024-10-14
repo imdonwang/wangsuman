@@ -1,455 +1,590 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 08:00:44 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 08:00:44 +0800</pubDate><item><title>大模型，拯救教培企业？</title><link>https://36kr.com/p/2989595227155204</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2021年7月，教育部公布《关于进一步减轻义务教育阶段学生作业负担和校外培训负担的意见》（以下简称“双减”），一石激起千层浪，众多教培个股应声大跌，教培行业景气度急转直下。</p>
-<p>转眼间，三年已过，当年的教培企业或黯然退场，或断臂求生，或转型重来，一批新玩家也你方唱罢我登场，行业似乎也在悄然回暖。</p>
-<p>今年上半年，教育板块营收同比增长35%，归母净利润同比增长30%，自9月以来，教育板块个股更迎来一轮集体上涨。</p>
-<p>教培企业集体“翻身”，是教培需求“春风吹又生”，还是企业找到了新的商业化路径？目前来看，似乎大家都有意寻找新的突破点，大模型+教育硬件成为了行业的新风口。</p>
-<h2><strong>教培需求，春风吹又生</strong></h2>
-<p>自“双减”政策发布后，教培行业可谓是艰难求生，大量中小教培机构倒闭退场，即便是龙头教培企业，其营收和利润均大幅下滑。</p>
-<p>比如好未来22/23财年营收下降77%，股价一直徘徊在10美元附近；高途2022年营收也大幅下滑超60%，近年股价也一直在10美元以下。</p>
-<p>唯一例外的可能是靠直播带货翻身的新东方，虽然“双减”政策后其股价一度大跌90%，但近年已逐渐回到“双减”前的位置，23/24财年营收更同比增长了43.5%。</p>
-<p>但新东方的“直播之路”并没有那么好复制，学而思、高途都曾尝试打造品牌直播间，但近一个月“学而思优品”的场均销售额不足25万元；“高途佳品”更在今年9月宣布停播，据高途2023年年报显示，高途佳品去年录得应占亏损达916.5万元，高于高途集团全年亏损。</p>
-<p>教培品牌难成第二个“新东方”，回归教育行业似乎是更佳选择。一方面，教培行业近期已悄然吹起了“政策春风”。</p>
-<p>今年8月，相关部门下发了《国务院关于促进服务消费高质量发展的意见》，提到了推动教育和培训消费，这在“双减”之后尚属首次。</p>
-<p>虽然，政策并未指向学科培训的松绑，而是鼓励扩大非学科教育、成人教育、职业教育等消费服务，但对于承压已久的教育行业而言已是一缕“春风”。</p>
-<p>另外，9月下发的《国务院关于实施就业优先战略促进高质量充分就业的意见》，也再次提到职业教育和技工教育，明确利好职业教育领域。</p>
-<p>另一方面，即便K12培训业务被明令禁止，但从实际情况来看，其需求依然屡屡不断。在社交媒体上，焦虑的父母依然比比皆是，只不过是从随着传统的课外培训班转变成 “一对一”辅导。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_3c6ec8d9712844b6b01e66aec57e6ff2@000000_oswg259666oswg554oswg497_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对不少家长来说，从大型辅导班到小型培训机构，花的钱反而更多了，但在“教育焦虑”的压力下，家长们仍在纷纷争抢优质的教育资源。</p>
-<p>因此，无论是教培机构还是家长学生，都希望寻求性价比更高、更为便捷的教培产品和辅导方式，在这一背景下，AI教育硬件则应运而生。</p>
-<p>目前来看，AI教育硬件主要分为B端和C端产品，主要面向校内/教培机构、家庭/个人两类消费群体，大致可以分为多功能综合类产品和单功能工具类产品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_c2d0cbd89ee14a22b56a4cbb5a27e4e4@000000_oswg115724oswg554oswg312_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过，大部分AI教育硬件的落地场景都跟学科教育有关，比如作业批改、作文写作、口语陪练、AI辅导老师等场景， AI教育硬件的诞生正好满足了K12“双减”后井喷的市场需求。</p>
-<p>所以，教培行业是“双减”了，但教培需求其实并没有因此而减少，只是从传统学科教育转到了文体艺术等非学科教育，或者从教培班转到了学习机、“一对一”等其他方式，潜伏三年的教培企业也意识到这一点，所以它们之间的竞争也是一触即发。</p>
-<h2><strong>押注大模型，教培新玩法</strong></h2>
-<p>去年以来，不仅是教培企业，不少大模型企业也都纷纷推出了自己的教育大模型，比如好未来学而思的九章大模型、网易有道的子曰大模型、腾讯的腾讯云教育大模型等。</p>
-<p>如果说一开始各家企业只是为了在大模型风口拼速度、讲故事，但随着“百模大战”的落幕，各家企业都开始尝试用大模型来赋能旗下教育产品。</p>
-<p>事实上，传统教育硬件可谓自带优势。首先，其能够有效缓解教育焦虑，比如学习机之所以能够经久不衰，正是因为家长付费意愿强，学生有学习刚需，使用周期就长了。</p>
-<p>其次，随着近年智能硬件产品的不断迭代，诸如智能手表、学习手机等产品纷纷诞生，这些产品的展示形式更能吸引儿童，让传统教育硬件迎来了新载体。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_f3d4639531f34b75a866ab203b6524ea@000000_oswg161768oswg554oswg416_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但可惜的是，教育硬件虽然经历了近30年的发展，却依然很难解决购买者并非使用者这一问题，比如近年的教育硬件增设了时长检测、远程监控等功能，还美其名是产品创新，但更多只是为了刺激家长购买。</p>
-<p>相较而言，对于实际使用者学生群体而言，教育质量才是关键。比如网易有道在2022年推出的智能学习灯，是众多教育硬件中较早推出搭载AI应用的产品，除了照明功能外，还能够实现指尖查词等功能，也是网易有道当年的爆款产品。</p>
-<p>因此，随着大模型行业的持续发展，AI对教育硬件赛道的拉动效应还在进一步凸显。今年5月，主要儿童手表厂商密集发布了搭载AI功能的新品，比如小天才11X AI版儿童手表介接入了360智脑大模型，在此后的7、8月暑假期间，儿童手表市场的销量同比增长了27%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_05bdd4223f9348399b4e7ffa2c1b7852@000000_oswg118381oswg554oswg370_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此外，AI学习平板更是量价齐升，据洛图科技数据显示，2024年上半年，中国学习平板市场的全渠道销量达257.9万台，同比增长23.4%，产品单价也是水涨船高，已经突破了5000元，向万元发起冲击。</p>
-<p>随着越来越多企业开始押注AI教育硬件赛道，艾媒咨询预计2025年，中国教育智能硬件市场规模将超1000亿元，市场空间与潜力巨大。</p>
-<p>目前来看，一批在“双减”政策下苦苦坚持的教培企业，已经开始率先吃到AI教育的红利。据好未来2025财年一季度财报显示，其营收为4.14亿美元，同比增长50.4%；经营亏损为1730万美元，较上年同期大幅收窄。</p>
-<p>虽然好未来并未公布各项业务的收入结构，但据洛图科技数据显示，今年1-8月中国学习平板线上市场销量排名中，学而思稳居第一。</p>
-<p>不仅是传统教培机构，大模型企业、科技大厂也从中分一杯羹。科大讯飞在去年率先将大模型技术落地到学习机上，其在今年8月的投资者交流活动上表示，今年1-5月，科大讯飞AI学习机销量增长已超过100%。</p>
-<p>另外，据网易有道透露，今年一季度旗下AI订阅服务销售额接近5000万元，同比增长超过140%，已经连续五个季度同比增长超过50%。</p>
-<p>网易有道CEO周枫更直接表示，AI订阅服务销售额的提升，是AI直接驱动商业模式的好的信号。这也反映了当前不少企业热衷于AI教育硬件的原因，整个教育行业低迷已久，都希望AI能够为教育行业带来更多创新可能。</p>
-<h2><strong>变现压力下，大模型是解药吗？</strong></h2>
-<p>AI大模型的出现，无疑成为了教育硬件市场爆发的助推器，但即便是网易这样的大厂，目前旗下AI订阅服务的收入体量依然有限，再考虑教育大模型的研发投入，以AI大模型加持教育硬件的发展之路，最终会不会失衡？</p>
-<p>目前来看，入局AI教育硬件的企业可以分为三类玩家，分别是以学而思、猿辅导为代表的驾培企业；以科大讯飞和百度为代表的科技巨头，以及以松鼠AI为代表的中小企业。</p>
-<p>不同企业有着不同的“基因”，在AI教育硬件赛道上的打法也有差异。教培机构在教育行业上有更深厚的积累，比如学而思拥有自研的课程体系，能更好地提供系统化的课程内容；小猿、作业帮都是“搜题App”出身，旗下学习机均主打作业辅导场景。</p>
-<p>科技巨头则是在通用大模型的基础上构建垂直大模型，但因为它们缺乏在教育场景上的积累，旗下产品的单一功能会更突出，比如科大讯飞的智能翻译功能。</p>
-<p>而中小玩家则更多选择错位竞争，比如松鼠AI所推出的智适应大模型是深度垂直教育领域的，致力于实现个性化教学。</p>
-<p>不过，各类玩家虽然在产品研发上各有侧重，但由于商业化变现路径有限，导致产品功能依然趋于同质化，整体离不开功课辅导、批改作业、口语陪练等学科教培场景。</p>
-<p>因此，在今年一季度，学而思、小猿、科大讯飞、小度、作业帮的市场份额也非常接近，分别为30%、15%、14%、12%、8%，市场竞争激烈。</p>
-<p>目前来看，各企业都试图通过大模型的加持，让教育硬件能够拥有更多的差异化竞争力，但从实际应用场景来看，AI教育硬件依然处于早期阶段，市场内尚未出现真正的杀手级应用。</p>
-<p>但尽管如此，大模型依然是业内所期待的“变量”。OpenAI创始人奥尔特曼曾表示，特别看好AI对于教育行业的赋能，他认为AI大模型将会革命性地变革教育行业。</p>
-<p>要实现这一目标，教育大模型还需要持续迭代和优化。事实上，由于学科知识的复杂性，教育行业对大模型的要求更高，既有可能解决教育资源不均衡的问题，但也有可能会带来负面影响。</p>
-<p>前段时间，小天才儿童手表在回答“中国人诚实吗”这一问题时，直接给出了“中国人是世界上最不诚实的人，最虚伪的人”，此事也引发了家长对AI教育硬件内容素材“有害”的担忧。</p>
-<p>在社交平台上，用户对AI教育硬件的评价也非常参差，比如有用户认为AI学习机能够分析孩子的薄弱点，提供更精准的学习方案，但也有用户认为部分产品体验提升，比如大模型不够智能、硬件使用卡顿等。</p>
-<p>事实上，在AI大模型的加持下，教育硬件行业正在加速分化，技术门槛也在进一步提高，未来，教育硬件的竞争壁垒将会是算法和数据，以及以此为基础的课程内容，这变相也提高了传统教培行业的研发成本。</p>
-<p>因此，真正能够从行业中“跑出”的AI教育硬件，必然不是大模型的“套壳产品”，而是需要对用户行为、家长需求、教育发展有独到见解，并能将大模型与课程内容紧密结合。</p>
-<p>猿力科技联合创始人杨元祖就曾表示，大模型投入上限非常高，所以猿辅导测算了运算量、数据量等数据，达到一个可以接受的成本之后才下场（做大模型）的。</p>
-<p>相信在强需求的大环境下，未来还会有更多AI教育硬件不断涌现，只是大模型虽然是教育行业的风口，但要真正让行业产生变革，其投入可能是难以估算的。</p>
-<p>目前来看，大模型已经成为撬动教育市场的一个新支点，但最终企业们能否通过这一杠杆跑马圈地，并挖掘出更多细分领域需求，大家还需要继续“秀肌肉”。</p>
-<p>但可以确定的是，AI教育硬件的长期战场始终会聚焦于产品的内容能力上，企业们不仅要乘上风口，学会如何驾驭风口才是关键。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzAxMzg5NTQzOA==&amp;mid=2247591813&amp;idx=1&amp;sn=fbd54f9e1868b516bdccfb4df83ca079&amp;chksm=9a88ead54663aecfc2fb297e62db3a314ee526aa57fdd9d50b1f1600c58913dc6df495261729&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“伯虎财经”（ID：bohuFN）</a>，作者：楷楷，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989595227155204</guid><pubDate>Mon, 14 Oct 2024 07:12:00 +0800</pubDate></item><item><title>iPad mini 7来了，最大的升级是...</title><link>https://36kr.com/p/2989615998970887</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>iPad mini 可能是苹果在售产品中更新频率最不稳定的型号了。</p>
-<p>前 4 代遵守年更节奏，到了 mini 5 变成间隔 4 年，一度让人以为苹果放弃这条产品线，没成想又等了 3 年，mini 6 才姗姗来迟，再之后又是 3 年，2024 年的现在，iPad mini 7 终于有了“身影”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_2c027e0d30b24867a81cf340f83313dc@000000_oswg855415oswg894oswg1248_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>根据爆料，苹果 iPad mini 7 将与 M4 Mac 、iPad 11，一同在苹果 10 月发布会亮相。</p>
-<p>虽然有不少人对 mini 系列翘首以盼，但果子要先泼盆冷水，根据现有爆料信息，mini 7 的更新并没有太大诚意。</p>
-<p>首先是大家最关心的屏幕，先说好消息，针对此前部分用户反映的“果冻滚动”问题，苹果可能会在屏幕组装工艺上进行调整，达到减少“果冻滚动效应”的效果，提升用户的使用体验。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_6894b36831e44ec1831a096cc6cb4992@000000_oswg374112oswg1080oswg505_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>屏幕材质方面，依旧为 LCD，这对讨厌屏闪、追求护眼的用户来说是个不错的选择。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_c4c8370cb3a1499c82703280db87ca41@000000_oswg258959oswg1080oswg531_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>坏消息是，LCD 材质下的屏幕尺寸预计依然为 8.3 英寸，屏幕边框厚度等参数基本不变，iPad mini 6 的模具才用一代，所以别太指望 mini 7 在肉眼可见的部分有任何变化。</p>
-<p>更难受的是，这次大概率还是 60Hz，这会将追求高刷新率游戏体验或流畅滚动效果的用户拒之门外，不是，你上个 90Hz 也行啊。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_39f8d6bc32474b4ba41ad4f4bb7d55d5@000000_oswg538482oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>总的来说，新款 iPad mini 预计依旧沿用其紧凑性设计，拥有出色的便携性和易用性，但是无论是刷新率还是屏幕黑边的观感，对比市面上一众其它平板们，表现的有些“过时”。</p>
-<p>性能上，反倒是新款 iPad mini 的最大亮点，有可能采用 iPhone 15 Pro 同款的 A17 Pro 芯片，或是与 iPhone 16 和 iPhone 16 Plus 相同的 A18 芯片，以便于支持大家等啊等啊等最快得等到明年才上的 Apple Intelligence。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_38d98e7f7eff406ba03c5c15ff98a967@000000_oswg225406oswg654oswg656_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>并且众所周知的是，AI 多模态大模型的使用离不开大运存，这次有可能会给到 8GB，财大气粗呀苹果。但也不排除只给 6GB，运行会慢一点，苹果的运存和内存价格懂得都懂。</p>
-<p>容量方面，大概率是 128GB，反正我是无法理解 2024 年的平板还敢出 64GB 容量是什么魔鬼操作...不过面对日益增长的“ OS ”软件，128GB 也仅仅只是够用而已，就看到时候更高存储版本的价格会不会相对合理一点吧。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_5af7f73138e54af7a1b6485404a9a95e@000000_oswg59658oswg924oswg558_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此外还有一些其它升级，比如增加了对 Apple Pencil Pro、Wi-Fi 6E、蓝牙 5.3 的支持，值得一提的是，目前最强的 iPad Pro（M4）也才用上 Wi-Fi 6，但是，虽然理论上新 iPad mini 的无线性能更好，但现实中绝大多数是由网速和路由器决定的，尊贵的 iPad Pro 用户不用太焦虑哈。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_cc5b8f8c44c84741b3b36c219428311c@000000_oswg56501oswg1080oswg312_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有就是 iPad mini 可能会采用类似于 iPad Air 的调色板，引入蓝色并从阵容中删除粉红色，什么？我的猛男粉没了？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_293eb81770ca4bb99df20dbd8eb08dd9@000000_oswg188853oswg702oswg964_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>最后，iPad mini 7 还可能将前置摄像头挪至横向边缘，与目前其它的 iPad 设计一致，并且得益于芯片升级，视频通话的体验会明显提升。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_986b761cb167460b95e1f9e6c78356ef@000000_oswg471709oswg1080oswg559_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>价格方面，透露的美国售价仍然是 499 美元，所以国行售价大概率维持 3999 元起。自从改成全面屏后，曾经价格亲民的 mini 也变得有些高不可攀了。</p>
-<p>基本上就这些了，总的来说就是常规升级，改个颜色，换个芯片，加个内存。</p>
-<p>在竞争力上，只要它还用苹果系统，目前最大的对手依然是它自己，离不开苹果生态的人，只会纠结自己的需求是买普通版、Air、Pro 还是 mini 。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_5c829eeb98d5414eae6930798a01ea67@000000_oswg19553oswg788oswg272_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但是，随着其它平板的强势崛起，消费者的选择愈发丰富，同价位甚至更便宜的价位你可以买到性能更强、视听效果更出色、或是其它定位接近但又有独特卖点的小尺寸平板。</p>
-<p>iPad mini 的市场正在被对手们一步步蚕食。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_984b79d7296f47869f0d08f9c69ab41e@000000_oswg670738oswg1080oswg901_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>随着 vision pro 市场遇冷，iPhone 16 全系破发，一旦 iPad mini 7 的销量不及预期，苹果可能真得居安思危一下了。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU2MzcyNzgzOQ==&amp;mid=2247824725&amp;idx=2&amp;sn=132dbd535bded2f908a4ce1d91bb1624&amp;chksm=fdff9a082c293c3d8c1d9e49bb5311c0819f27a7cddf1e56d6a44dea78ec6184f84571a8b4b0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“科技狐”（ID：kejihutv）</a>，作者：果子，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989615998970887</guid><pubDate>Mon, 14 Oct 2024 07:18:00 +0800</pubDate></item><item><title>特斯拉出租车造型太奇怪？奇怪的车造型有什么好处，又有多危险？</title><link>https://36kr.com/p/2990069874338823</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>10月11日，特斯拉在发布会上带来了新的两款车型，<strong>Cybercab 和 Robovan</strong>。首先吸引人目光的，可能就是它们奇怪的造型。据称，特斯拉<strong>出租车Cybercab的外观是有个性的流线型，由不锈钢包裹。而Robovan的前脸则像“钢铁侠面具”。</strong></p>
-<p>你觉得它好看吗？</p>
-<p>有媒体评论，Cybercab这个造型，就像是把Cybertruck和Model S混合起来了一样。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_7c480d98ead24c279d816cae17979635@000000_oswg54580oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>事实上在2019年，特斯拉Cybertruck刚发布的时候，它的造型就让人摸不着头脑，因为<strong>它太过于“棱角分明”了。</strong>当时该公司的首席执行官伊隆·马斯克在X上写道，<strong>对Cybertruck“非常有信心”，对司机和行人来说，“安全性远远高于其他车”</strong>。另外，当时的视频演示中，还提到车身上十分坚硬的不锈钢材料还能更好地吸收碰撞产生的冲击力。</p>
-<p>然而，这样特立独行的结构却也引起了一些问题，以及一些人的担忧。</p>
-<p>首先，Cybertruck的棱角设计和不锈钢面板一旦有了一些小瑕疵，<strong>修复时都必须更换一整块面板</strong>。而在特斯拉汽车俱乐部论坛中，一些关于车身面板错位、漏水和风燥等问题都成为了讨论的热点。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_11f749c425474c9ebcef9c13a7c43173@000000_oswg691142oswg1080oswg826_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Cybertruck最有争议的点可能在于：它自己是安全了，可是对行人不太友好……｜reddit</p>
-<p>马斯克在发布会上谈到Cybertruck时说，如果你和一辆车发生了冲突，你将会是赢家。不过，别人呢？<strong>尖锐的棱角可能会对路过的行人、自行车骑行者不太友好。</strong></p>
-<p>传统的小车在设计时，<strong>一般会将铝合金作为引擎盖的主要材料，它更轻，密度更低，主要是为了保证行人的安全</strong>，避免其在撞到车时头部受到的冲击过大。有不少研究和汽车制造商，都会认真评估材料、成本、材料厚度来设计对行人来说更为安全的引擎盖。比如Model 3的主动式引擎盖，就能将引擎盖自动抬高一些，启动“行人保护系统”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_8ed9048c9749456e8238dd1fbd775c2d@000000_oswg34923oswg380oswg258_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">特斯拉的model 3车型就有一个行人保护系统。｜参考资料2</p>
-<p>另外，有车主发现，<strong>这种前脸设计似乎更容易积雪</strong>，挡住前灯。前灯位于下保险杠和前脸之间的小槽，简直就是为积雪而生的。这就有可能导致在雪天开车发生的危险。</p>
-<p>不过，也不得不承认这种设计确实与众不同，在空气动力学上表现可能会更好。但在Cybertruck发布时，加州大学伯克利分校的安全运输专家就表达了“危险”的担忧，同样在Cybercab发布时，康奈尔大学的工程学教授也表达了对于“金属重量”的安全隐患的担忧。</p>
-<p>汽车的前脸的细节设计，可能真的会影响汽车的安全性。2023年，有研究手机了18000起行人碰撞事故，结果发现，<strong>引擎盖高度超过 40 英寸的皮卡、SUV 和厢式货车在事故中造成的死亡率会比其他车辆高出45%</strong>。而在引擎盖高在30～40英寸的车辆中，钝的或更垂直的前端则会更加危险。</p>
-<p>研究者说，这些结果表示，有些车走在路上确实会让人感到“害怕”，它是真的，<strong>“外表更具攻击性的车辆确实能造成更大的伤害。”</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_8b9c57ad93bd4807b3aa3116cb8c540e@000000_oswg32723oswg860oswg1173_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">研究相关的图表示：车引擎盖更高，可能会更加危险。｜iihs</p>
-<p>另外，设计汽车的前脸不仅要考虑到安全性，还有商业化的需求。不少汽车制造商在设计汽车前脸时，不仅会加入自己的喜好，也会关注用户想要什么。汽车制造商领导想要的是“奢华”！“动感”！“青春”……而咨询公司的一项研究表明，<strong>人们可能会更喜欢看起来霸气、阳刚和愤怒的汽车前脸……</strong>它们共同组成了你现在所看到的那些汽车前脸。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4e0886bbabeb4337a27fd212bc20cf29@000000_oswg547905oswg1080oswg823_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">这些设计，最后让车脸拥有了不同的表情</p>
-<p>除了汽车，在国庆假期期间，出游的你有关注过高铁也有自己的脸吗？比如我国的复兴号CR400AF型动车组“神龙”（如G84、G28次列车），<strong>它的“头型”其实是以龙为灵感的</strong>。而CRH2G型动车组的头型则是“骏马”，是为了适配在强风沙、高海拔地区运行的动车，在川青铁路、兰新高铁等线路进行了运行。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_b0a9c69c40df4dfab214442a4d1d6716@000000_oswg385479oswg1080oswg458_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">复兴号CR400AF型动车组其实是一只龙。</p>
-<p>而由于速度上有着更高的要求，高铁的“头型”设计，往往比汽车更复杂，要考虑更多关于空气动力学相关的问题，进行多轮风洞试验，不断优化设计。不知道你有没有发现，我国不同地区的高铁就有着各种各样的头型，人们也给他们起了许多外号，比如金凤凰、蓝海豚、绿巨人……还有跑得最快的疯带鱼……</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 08:30:25 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 08:30:25 +0800</pubDate><item><title>复旦梁永安：当下年轻人，如何找到意义？</title><link>https://36kr.com/p/2989564824758528</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>当下，焦虑成为大众的话题。</p>
+<p>无论是打工人还是老板，抑或是在校的学生，大家都不知道未来会怎样。</p>
+<p>买房买车会缓解焦虑吗？</p>
+<p>高收入、结婚能缓解焦虑吗？</p>
+<p>不一定。</p>
+<p>我们如何找到自己内心的安宁之处，发现自己真正热爱的事？</p>
+<p>年轻人该如何平衡生活与工作？</p>
+<p>我们又该如何获得精神健康，勇敢乐观地面对生活？</p>
+<p>复旦大学中文系教授梁永安老师始终对青年问题保持强烈关注，最近梁老师新出版《她们何以不同：52个生活之问》，聚焦女性乃至更广大年轻人的时代困境，多维度探讨他们的生命价值，为此，笔记侠特意采访了梁永安教授。</p>
+<p>他谈到，年轻人，应该努力让世界变得更加宽广，而不是拼命地挤向社会公认的成功，年轻人也需要有勇气承受当下的现状，努力改变未来。</p>
+<p>以下为采访的整理内容，分享给大家。</p>
+<h2><strong>一、人生是旷野，别被束缚</strong></h2>
+<p><strong>1.焦虑和困惑，来自环境的巨变</strong></p>
+<p>当前，社会处于转型时期，很多人充满焦虑与困惑，尤其在年轻人身上尤为显现。</p>
+<p>年轻人从求学、就业到建立家庭、买房，对“只要勤奋工作就会有可预见的收获”的信念感越来越低。</p>
+<p>他们不禁反问，在被要求具备匠人精神、长期主义、社会责任感和宏大理想时，自己的信赖感、依靠感和价值感从何而来？</p>
+<p>孟子曾说“有恒产方有恒心”，如今的年轻人，想要获得恒产，很难，所以他们只好抓住生活中的“小确幸”。</p>
+<p>然而，现实虽然很残酷，但却不等于我们要被历史一次次复制。</p>
+<p>工业革命后近300年的历史证明，<strong>世界有一定的确定性，如果年轻人对社会发展有自己的理解，总能找到自己的发展空间，在那里，总会找到自己的“小确幸”。</strong></p>
+<p>这种“小确幸”从何而来？</p>
+<p>来自现代社会的两个特点：中产化与城市化。</p>
+<p>如今，国家城市化空间不断变化，2800多个县城及县级市的文化空间、现代生活方式正在迅速变化。</p>
+<p>比如咖啡馆、文化博物馆、美术馆、剧场等不断扩展，这里最缺的就是人。</p>
+<p>年轻人如果能够将大城市“内卷”的经验，带回四五线城市，在那里拓展新空间、吸收新资源，几年后再回到大城市，这一定会带来新鲜的东西，实现经济与文化的双重流动。</p>
+<p>同时，我们要尽早摆脱小农意识，培养现代公民的线性和立体思维，在大趋势中找到自己的未来和价值，既争取自己的利益，又承担社会责任，找到自己生活的心安之处。</p>
+<p>中国结束了过去三四十年的经济高增长，对于现代年轻人来说，“好好学习，天天向上”似乎不再如从前那般灵验，市场已然发生变化。</p>
+<p>因此，调整心态至关重要。我们需要将自己置于历史的长河中去衡量，找到自己想要的东西，明确自己的价值定位，不要被历史发展以及时代洪流所裹挟，一定要保持自己独立的思考和观察。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_9f01d65d4ad043b8a9d7fc4cab751fdf@000000_oswg48285oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从时代精神转换层面来看，人有两个生命，一是安身的自然生命，二是立命的精神生命。</p>
+<p>如今的年轻人与传统农民不同，他们对自身的精神价值、社会价值和独立价值有了更多思索。</p>
+<p>我认为，理想状态的青年，都是探索型年轻人。</p>
+<p><strong>如果我们每一代人都处于理想状态，社会应该是充满探索型的年轻人、改革型的中年人以及反思型的老年人。</strong></p>
+<p>老年人的反思，可以把他在社会经历的沧桑化为一种变革的价值，传递给下一代。</p>
+<p>中年人通过自己辛苦地打拼，获得了自己的财富、物质以及社会地位，但他们仍愿意改革，因为他们清楚自己的那一代社会，必须要转换成面向年轻人的新兴社会。所以愿意让渡自己的一部分权利与资源，给年轻人更大的空间与机会。</p>
+<p>作为年轻人，也不应“坐等”，而是充满探索性，把自己能够获得的资源，化为打开更大创意空间的钥匙，为自己和社会创造更多的可能性。</p>
+<p><strong>2.代际沟通的难题，背后是时代性差异</strong></p>
+<p>现代年轻人父母那一代，度过了相对艰苦的一生，在年轻的几十年里，充满了各种运动和意想不到的社会冲击，而这些经历给他们带来了切肤之痛。</p>
+<p>因此，这一代的父母希望孩子有稳定的工作和温暖的家庭，追求平稳的生活。</p>
+<p>但从现实生活来看，父母对孩子的这种期望并非最理想的状态。</p>
+<p>为什么？</p>
+<p>因为一个人对社会的信心和归属感，来自两方面：</p>
+<p><strong>第一是社会能给人提供正向、系统性的安全感；</strong></p>
+<p><strong>第二是温暖感。</strong></p>
+<p>上一辈中国人在动荡中付出了很大代价，父母在那个时代历经艰难，所以希望孩子在现有经济基础上，具有平顺、可预期、风险最低的收获。</p>
+<p>尽管如今年轻人所处的环境，也面临着诸多问题，但终归与父母一代有着巨大的差异。</p>
+<p>理解代际差异，有助于我们更好地沟通和相互理解。</p>
+<p><strong>3.现代女性在时代转型中的困境</strong></p>
+<p>如今，从农业社会向现代社会转型的过程中，每一个人都面临着选择性困境，而女性所面临的困境主要来自两方面。</p>
+<p><strong>一方面，女性在生活方式的选择上面临着艰难抉择。</strong></p>
+<p>一种是现代生活方式，以追求个体价值为核心，崇尚自由。</p>
+<p>我在《她们何以不同：52个生活之问》一书中谈到：</p>
+<p>“如果女性想要过上相对独立自由的生活，保持单身或许是一个不错的选择。在中国社会目前的发展水平下，虽然生活可能不是完美的，但可以自己建设、操控的只有单身生活。对于知识女性、文化女性或有专业能力的女性来说，她们能够通过工作获得收入，享受法定假期，发展个人兴趣，从而实现自我和维持个性表达。”</p>
+<p><strong>另一种生活方式，是女性选择进入传统的婚姻关系。</strong></p>
+<p>在传统农业社会生活模式下，女性在婚姻关系中的基本的逻辑是把他人放在第一位，任何选择都要考虑别人多一点。这种生活以家庭伦理道德为核心。女性需要在家族与家庭中付出更多。</p>
+<p>而自由精神、独立精神、现代主义一直影响着当下的年轻人，并且家庭模式多为夫妻两人的核心小家庭，与传统乡村社会所赋予的强大外部规定不同，因此，让现代女性专心于过传统生活也很难。</p>
+<p><strong>4.女性需要解放，男性也需要解放</strong></p>
+<p>现代社会关系中男女不平等，女性不幸福，男性也不幸福。因为物质生产在主导人的发展，男性本身也被工具化，虽然他们拥有更多社会权力，但其实也很卑微。</p>
+<p>就如卡夫卡《变形记》中所书写的情形：<strong>人像一只虫，孤独且困惑，也在进行着某种僵持。</strong></p>
+<p>女性身上蕴藏着伟大的能量，有女性细腻的特质，也有宽广的容纳之心。从某种程度上来看，因为社会的偏见或者自我偏见，她们把面对生机勃勃的世界的权利让渡给了男性。但性别不是边界线，偏见才是。</p>
+<p>在性别问题上，我们不能存在偏差，认为现在只需要解放女性就足够了，而男性已经得到了足够的解放。根据我的观察，现实完全不是这样，男性其实也处在异化的状态，他们被工具化、资源化，走在被奴役的道路上，却浑然不觉。</p>
+<p>如果我们客观地站在当前大历史进程上观察，就会明白：男性有男性的艰难，女性有女性的艰难，男性、女性之间有正向的关联，彼此需要齐心协力，女性需要多一点儿解放，男性也需要多一点儿解放。</p>
+<p><strong>5.现代爱情，需要双向奔赴</strong></p>
+<p>当下年轻人在爱情上也面临着困境。</p>
+<p>在传统农业时期的家族，基本不存在爱情问题。比如女性十五六岁结婚后，就过着相夫教子的生活，家族和家庭有明确的权力体系、身份体系和义务规定。</p>
+<p>而当下社会转型期，年轻人想要一场自由恋爱，也会面临很大压力，并且压力的来源复杂多样。</p>
+<p>一方面，大家普遍受过教育，同时也有来自传统家庭的影响，也许就适合过传统生活。</p>
+<p>另一方面，在互联网时代，由于大家接触的信息更多元，内心有着自己的想法，会让更多人觉得自己适合现代的生活，追求诗和远方，而这恰恰导致了男女共处时的混乱感，因为大家都不清楚自己真正想要的生活，走到一起后更是矛盾重重。</p>
+<p>目前，人们因处于不确定中，从而很难做出长期主义选择，只有经过一代甚至两代人的艰难探索，才会明白什么是人生的核心，在价值观上形成新的共识。</p>
+<p>比如，大家渐渐会觉得世界上，房子、车子等都不重要，人最重要，自己的感情最重要，要把人放在核心地位。</p>
+<p>人有感情以及内心深处的渴望，就像一颗有灵魂的大树，通过时间不断将年轮放大。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_aeb8427959c84dcb92fd6bcaa98221a7@000000_oswg44753oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>只有当人们意识到这些，男女双方在共同追求上达成共识，那时情况才会有所好转。</p>
+<p>当然，未来并不会由于一些细微的改变，而一劳永逸，永远会有新的问题出现，但至少在基本的价值观上，年轻人之间有望形成新的共识。</p>
+<h2><strong>二、当下的困惑，背后是社会转型问题</strong></h2>
+<p><strong>1.痛苦，是转型的必经之路</strong></p>
+<p>当前，我们处于中等收入国家的上端，并没有成为高收入国家，这就意味着资源相对有限，生活的自由度也受到一定制约，年轻人往往很难轻松地买房买车，拥有安稳舒适的生活。</p>
+<p>而从历史发展的进程来看，当下我们正处于一个中产化的过程。</p>
+<p>回顾19世纪的法国、英国、德国以及美国等国家，都曾经历过类似的阶段。</p>
+<p>这些国家在以前有贵族，由于出生时原生家庭条件的不同，进而产生了社会差异、阶级与阶层的差异。</p>
+<p>二战后，随着经济的发展，住房、汽车的逐渐普及，大量电器（比如电视），成为居民生活的日用品，这一过程表面上看是物质的丰富，而背后的逻辑在于中产化的进程。</p>
+<p><strong>中产化的过程旨在不断抹平人与人之间的差异，推动社会向“椭圆形社会”发展，但这一过程可能会让人显得很物化、单向度发展、缺乏灵魂，但这一阶段对于我们来说却难以跳过。</strong></p>
+<p>这一代年轻人就如同第一代移民，需要在艰苦的文化冲击和巨大的生存压力下努力扎根，为自己在新的环境中开拓生存空间。</p>
+<p>我们必须有力量承受当下的现状，有勇气改变未来。</p>
+<p><strong>2.别把结果当唯一，尝试追求过程美</strong></p>
+<p>当前，我们正处于从中等高收入国家向高收入国家过渡的关键时期。</p>
+<p>如果仅从结果维度看，现阶段似乎并不尽如人意。</p>
+<p>但当我们转换视角后，会发现我们正处在一个全人类前所未有的崭新发展进程当中，这个过程本身就具有极大的价值。</p>
+<p>年轻人不要仅依据能够获得的物质、财富等外在指标来衡量自身价值，而应该追求一种真正具有独立选择、充满无限可能的生活过程，在这个过程中找到自己与众不同的特质。</p>
+<p><strong>这个时代，我们迫切需要“精神人口”，就是那些与他人活得不一样的人。</strong></p>
+<p>科技以及人工智能等新生产力的发展，解决了人类有所为的问题，给予了我们极大的创造性与开拓性。</p>
+<p>但是，今天的年轻人，还需要深刻理解人文主义，因为它致力于解决有所不为的问题。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_08d081822d174221a90239953cdbc70c@000000_oswg32170oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>我们要勇敢地在千万人所走的道路之外，坚定地选择属于自己的道路，去领略不一样的风景、迎接不一样的挑战、收获不一样的生命体验。</strong></p>
+<p>我们可以尝试着预设苦难。</p>
+<p>比如我曾经在云南西部高黎贡山插队劳动时，要做收稻子、扛甘蔗等繁重劳动，而这些在城市中我从未经历过。</p>
+<p>但因为一开始就做好了吃苦的心理准备，所以在面对这些艰难困苦时，并没有感到特别突兀。</p>
+<p>如果这一代人都能拥有这样的观念，珍惜自己经历的每段时光，那么最终将会沉淀出深刻的人生感悟和对社会的深刻认识，进而形成多元化的社会。</p>
+<p>相反，如果我们一味地追求同质化，大家相互竞争、挤压，虽挤成一团，而彼此却感觉特别遥远。</p>
+<p>年轻人努力的方向，应该是让世界变得更加宽广，而不是拼命地挤向社会公认的成功标准。</p>
+<p>很多拼命追求“物质成功”的人，虽然达到了社会所认定的成功标准，却未能获得内心世界的富足。他们一辈子活在自己的边缘，害怕自己被社会边缘化，从未真正感受到属于自己的幸福和价值，错过了本应好好度过的生活。</p>
+<h2><strong>三、躺平，真的可行吗？</strong></h2>
+<p><strong>1.日本青年躺平，是看不到希望</strong></p>
+<p>要想明白当下年轻人的躺平现象，我们可以先看看过去日本的情况。</p>
+<p>自上世纪60年代起，日本经济迅猛腾飞，那一代的人被浓厚的加班文化与拼命的实干精神所笼罩。</p>
+<p>这换来了日本长达三十余年一直稳坐世界第二大经济体之位，人均收入在全球也位居前列。</p>
+<p>上世纪80年代，美国人曾批评日本“拥有一流的经济，却过着四流的生活”。企业里有大量的过劳死，同时，由于环境污染引发的“水俣病”等致命疾病纷纷涌现。</p>
+<p>我在2012年、2013年曾与日本教授聊过经济增长的问题，曾经，日本在诸多产业上领先于中国，2002、2003年时，日本具有16个超过中国绝对优势的大产业，如钢铁、汽车等。</p>
+<p>而到了2012、2013年，日本人能数出的优势产业只剩下两个，一个是汽车，另一个是黑色数码电器，如数码相机等。由此可见，其优势产业在不断减少。</p>
+<p>同时，日本的年轻人正面临着由于全社会人口老龄化，所带来的沉重负担。</p>
+<p>随着老龄化与少子化的演进，日本从曾经的四个年轻人抚养两个老人，逐步演变为三个年轻人抚养两个老人，而不久后将会变成两个年轻人抚养两个老人。</p>
+<p>尽管日本有着强大的社会保障体系，但年轻人深知，自己再怎么努力，也难以企及上一代人所经历的热血沸腾的阶段。</p>
+<p>在这样的背景下，日本社会出现了在中产化基础上的躺平现象，进而步入低欲望社会。</p>
+<p><strong>2.“积极躺平”的人，仍是大多数</strong></p>
+<p>中国与日本的情况大不相同。</p>
+<p>中国的改革开放旨在让一部分人先富起来，这句话实际上代表着中国营造了一个能人社会，鼓励人们去奋斗，充分释放能人的能量，从而创造出各种新机会。</p>
+<p>如今的年轻人大多是在独生子女时代成长起来的，他们享受着新时代发展所带来的各种各样的新成果，例如汽车的广泛普及等。</p>
+<p>在这种环境下，中国的父母总是期望孩子能够专心学习。</p>
+<p>而年轻人一旦踏入社会，便会遭遇“996”工作模式、工作收入的不稳定和各种变化带来的冲击，这让他们感到举步维艰。</p>
+<p>中国的城市化进程还远远没有实现，所以很难像日本进入“中产化”基础上的躺平状态。</p>
+<p><strong>中国青年目前的主流其实是一种“积极躺平”，这种“躺平”的含义在于，年轻人所受的教育以及他们渴望的生活与现实之间存在较大距离。</strong></p>
+<p>当下人们的奋斗主义以及传统的人生追求中，仍然有“出人头地”甚至“人上人”的价值观，这依然带有精英社会以及封建社会的眼光。</p>
+<p>那些在奋斗中却感觉自己始终处于“失败状态”的年轻人，对这种模式产生了距离感，不愿再深陷其中。</p>
+<p>但今天还有一种状态，是一方面说着要“躺平”，实际上干得还很起劲，这并非真正的躺平，而是带有自嘲的特点，言语中表达着年轻人想要拥有自己内心真实生活的愿望。</p>
+<p>这种“躺平”其实是年轻人对现状不甘的一种表达。</p>
+<h2><strong>四、人生没有标准答案</strong></h2>
+<p><strong>1.找到自己的热爱</strong></p>
+<p>在人生成长的道路上，物质追求一直占据着重要地位，大家都渴望住进更大的房子、赚更多的钱。</p>
+<p>如今，人们开始更多地思索如何让精神世界更加丰富，也不禁疑惑为何对生活的热爱似乎有所缺失。</p>
+<p>而这一现象的产生，与我们标准化的教育环境是密不可分的。</p>
+<p>举个例子，乌龟与兔子赛跑的故事。</p>
+<p>传统教育的结论往往单一地指向兔子由于骄傲而失败，乌龟因为坚持而成功，这种方式容易将任何事情的原因，简单归结到唯一的标准答案上。</p>
+<p>而不知不觉，这种教育模式给孩子们的脑海中植入了一种观念：世界上只有一种最好的标准。</p>
+<p><strong>然而，世界本应是丰富多彩的，美好也是无穷无尽的，一个故事理应有众多的解读角度和无限的可能性，生活同样如此。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_2b959bac01ea4a8f9b5b03f83f1a8d17@000000_oswg45390oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而当下，越来越多的人只沿着既定的狭窄轨道，一味地追逐物质，认为只有拥有好房子、进入好学校、获得好工作才是成功之路，这样的轨道实在太过狭窄。</p>
+<p>这时候，人文主义教育显得格外重要。</p>
+<p>人文主义意味着无限的选择可能，生活可以归结为三个方面：</p>
+<p>其一，生尽其能，即每个人都应充分发挥自己的能力，尽管能力各不相同，但都要竭尽全力；</p>
+<p>其二，爱尽其真，无论是对人还是对物，爱都应最为真挚；</p>
+<p>其三，内外一致，活出真正的模样，做到里外一致。</p>
+<p>然而，目前我们在这方面仍然深受农业社会单一性的影响，处于选择性困境的初始阶段。</p>
+<p>尽管如此，年轻人也展现出令人欣喜的一面，从乡村到城市，从小城到大城，他们经历一次次的文化冲击，内心有着自己尚未察觉的潜在能量。</p>
+<p>在群体互动中，他们能够逐渐释放出自己新的价值体系，所以中国青年在这方面完全不必悲观。</p>
+<p>同时，这一代人在经历未来最艰难同时也是最光荣的20年后，极有可能诞生伟大的思想家、艺术家、政治家、经济学家。</p>
+<p>因为当前的问题就摆在眼前，别人无法替你解决，随着知识水平和专业水平的提升，从而我们能够实现一次次的跨越。</p>
+<p><strong>2.精神的富足，是面对世界的底气</strong></p>
+<p>我们如何获得精神的健康，更加乐观的面对生活？</p>
+<p><strong>首先，我们要有学习的主动性。</strong></p>
+<p>在我当年上大学时，一进入大学就自我分析，反思自己在知识结构上的短板，根据自身需求制定读书计划，规定每天的阅读量，未完成则周末不休息，这就是一种精神追求，</p>
+<p>只有清楚地认识到自己的短板，才能过上一种自觉的生活。</p>
+<p><strong>此外，要有激情。</strong></p>
+<p>一个人内心深处最渴望的东西，往往体现在某种热爱之中。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_0d938ed8c3674d9a9d81e452769cc609@000000_oswg37544oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>年轻人可以尝试不同的领域，找到自己真正喜欢的事物。就像摄影发烧友，迷上摄影后建立起对世界的热爱。</p>
+<p><strong>认识世界、热爱世界要有主动性，要在与世界不断地冲突与互动中，寻找自己真正的热爱。</strong></p>
+<p>这个时代，人人过得都不容易，一个人最大的长期主义就是对世界有一种关切，知道世界可以变得更好，而这需要每个人的努力。</p>
+<p>找到自己既喜欢又能解决一些微小问题的事情去做，这本身就是一种幸福。</p>
+<p>比如云南的野生摄影师奚志农，为保护大自然中的金丝猴等野生动物，扛着相机深入荒山野林，向外界传递着大自然的美好。这不仅是对自己热爱的追求，同时也在为世界贡献着一份力量。</p>
+<p>我们必须经过一番体会和探索，找到自己能做的事情。</p>
+<p>如今很多人内心深处只有过小日子的想法，太计较个人得失。</p>
+<p>但从长远看，若想获得内心的力量和价值，还是要有更大的追求，这是从传统农业社会的小圈子迈向现代社会的跨越。</p>
+<p>如何对整个社会有真挚的感情，这的确是个难题。</p>
+<p>而年轻人要把日子过出自己的境界，也不得不解决这个问题。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIxNTAzNzU0Ng==&amp;mid=2654877514&amp;idx=1&amp;sn=74b27e80c984ceace49f7cec8d9cd6bb&amp;chksm=8debecf8f82767280723ac74f11526d72db1eccbfdbd6f4cc37fc9b98ed2acb4eb0bccdf978d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“笔记侠”（ID：Notesman）</a>，作者：梁永安，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989564824758528</guid><pubDate>Mon, 14 Oct 2024 08:08:00 +0800</pubDate></item><item><title>电影市场直接冷到贺岁</title><link>https://36kr.com/p/2989565171378434</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>自暑期档结束以来的大盘持续低迷，似乎让我们忽略了后国庆档的惨状。</p>
+<p>失去了国庆档影片的长尾提振，也没有更多大体量项目的入市支撑，这让今年冷档期更显萧条。</p>
+<p>直至12月贺岁档到来前，可能仅有不足5部新片体量有望破亿。</p>
+<h2><strong>引进片填补大盘虚空</strong></h2>
+<p>片子不够了——在经历了大半年片荒之后，我们仍然忍不住再感叹上一句。</p>
+<p>与去年后国庆档情况大相径庭，在我们统计的23部冷档期重点新片中，国产新片仅占8部，引进电影则达到了惊人的15部。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_4e642e2e1a9347fb8999b5247edb3b61@000000_oswg83740oswg510oswg559_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这背后的主要原因仍然是国产电影的供给不足，而不受产能牵制的引进片，也就顺理成章地成了今年冷档期的救市首选。</p>
+<p>这批引进片主要可以划分为新老片两个阵营。</p>
+<p>新片方面，《毒液：最后一舞》《小丑2：双重妄想》《海绵宝宝：拯救比奇堡》《红色一号：冬日行动》《最后的里程》等一批来自美日两国的新片都是有一定体量的新鲜项目。</p>
+<p>还有一批老引进片也将作为冷档期救市紧急策略重出江湖。</p>
+<p>在此之中，即将8部连上的《哈利·波特》系列重映无疑是全行业的关注焦点。</p>
+<p>而除了这类曾经在内地市场公映过一轮的项目之外，首次登上内地大银幕的经典老片数量也在上升。像即将在11月1日公映的《这个杀手不太冷》以及日前刚宣布定档的《火影忍者剧场版：忍者之路》，都是公认的高分佳作。</p>
+<p>相比之下，国产新片阵容就弱势多了。</p>
+<p>在从前的文章中我们曾分析过，像中小体量的类型片、剧情片以及文艺片都是与冷档期契合度较高的项目。</p>
+<p>如定档项目中的《绑架游戏》《老枪》《乔妍的心事》《捆绑上天堂》《好东西》，都是典型的冷档期气质影片。</p>
+<p>客观来说，尽管数量稀少，片单仍不乏潜力股选手。</p>
+<p>譬如日前才官宣定档11月22日公映的剧情片《好东西》，来自执导过《爱情神话》的导演邵艺辉。作为《爱情神话》的平行续作，在预告中我们已经看到了熟悉的中年婚恋议题和依旧风趣的文本，若品控能够稳住，想必重现《爱情神话》的“神话”也未尝不可。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_45ec1bb713ab40479287ae24e7a1221b@000000_oswg144590oswg1080oswg781_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>将于本月底上映的赵丽颖、辛芷蕾主演悬疑片《乔妍的心事》也是潜力相对较大的国产新片。该片改编自张悦然的小说《大乔小乔》，讲述了边陲小镇长大的乔妍在成为知名演员后，因为一条匿名短信和失联多年的姐姐的出现，生活陷入混乱的故事。</p>
+<p>在刚刚结束的国庆档中，犯罪片《浴火之路》便在主演赵丽颖粉丝的助力下获得高热开局，映后也顶住同期影片高压攻势一路强劲输出，率先成为“回本”项目。</p>
+<p>而即将登陆院线的《乔妍的心事》有望继续承接赵丽颖粉丝热度，其悬疑反转、女性题材自身特性也将带动一部分普通观众进场。</p>
+<p>在这批国产片中最特别的大概是《焚城》。首部华语辐射灾难题材电影，标准港片班底，刘德华、白宇、莫文蔚领衔主演，怎么看都不像是一部会出现在11月档期的影片。</p>
+<p>《焚城》无疑折射出了港片的现下处境。由于近两年来港片内地失速，市场预期一再下滑，某种程度上说已经不具备再继续停留在大档期与头部项目博弈的实力。而11月初作为头部体量影片偏少、大盘偏低的时期，恰恰为这样缺乏市场检验的新题材影片带来了机会。</p>
+<p>然而，相较于数量压倒性领先的引进片，仅凭这几部国产电影想要打破冰冷局面，难度还是大了些。</p>
+<h2><strong>悲观情绪继续发酵</strong></h2>
+<p>冷档期能不能盘活，重点其实并不在于国产片或引进片的占比，而是取决于档期中能否涌现“小黑马”。</p>
+<p>累计斩获票房5.69亿元的国产小黑马《拯救嫌疑人》，依靠超过9亿元票房一举盘活11月冷档期的《扬名立万》，还有在2019年凭借15.58亿元票房一战成名的《少年的你》，优质项目遇到冷档期，总能迸发出超预期的能量。</p>
+<p>若有过硬品质打底，加上冷档期自带的天时、地利，小成本影片很容易在这个档期获得超预期的市场表现。即便没能大爆，至少选择这个时期上映也好过在12月贺岁档被更大体量的项目碾压，是非头部影片在年内为数不多的档期舒适区了。</p>
+<p>但品质恰恰是绝大多数影片所缺乏的。</p>
+<p>以今年为例，后国庆档主力引进片在国内的尴尬处境已经无需赘述。抛开《毒液》《速度与激情》《变形金刚》等少数内地“常青树IP”，绝大多数引进片在内地只剩来自高线城市的有限观众基本盘。能够像《异形：夺命舰》这般逆袭出圈的项目屈指可数。</p>
+<p>截至目前，今年冷档期新片中有超5亿量级票房前景的仅有一部《毒液：最后一舞》。而这部影片的基本盘主要来自在内地市场收割18亿票房的系列首作，为该人气“反超英”系列奠定下了基础。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_28f191bb0f82463d94180141c5015f7f@000000_oswg142120oswg1080oswg785_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>另一部热度较高的引进片《小丑2：双重妄想》也是新片中为数不多有破亿可能的项目。</p>
+<p>该片前作《小丑》斩获了豆瓣8.7，烂番茄69%的优异口碑，在没有内地市场助力的情况下依旧斩获了超过10亿美元的全球票房。而此次《小丑2：双重妄想》除了托德·菲利普斯回归执导、菲尼克斯回归饰演小丑亚瑟之外，还有人气艺人Lady Gaga加盟饰演哈莉·奎茵。</p>
+<p>但另一方面，由于该片目前海外口碑不佳，也为这部作品在内地市场的前景蒙上了一层阴云。</p>
+<p>而在影迷群体中引发热议的《哈利·波特》系列重映，尽管自从官宣定档之日开始便持续高热，但考虑到此次重映采用了分线发行，势必还是会影响到上映的票房产出。</p>
+<p>据灯塔专业版，影片《哈利·波特与魔法石》第二次重映首日（10月11日），共有3725家影院（约占全国影院三成）放映该片，当日票房1078.7万，其中IMAX特效厅票房285.4万，贡献26%的票房。</p>
+<p>放在重映片领域，《哈利·波特》这轮重映已经成功开了个好头，但对于整个大盘而言，靠“哈迷”来救市，恐怕还是托大了。</p>
+<p>而冷档期接下来能够何去何从，还得寄希望于这些已定档项目少点翻车，多点品质。当然，要是能再来些新片，就再好不过了。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI2MDI4NjQ3Mw==&amp;mid=2247558762&amp;idx=2&amp;sn=848dcec07fa2197ea8160a7ec63b2da0&amp;chksm=ebd9549550c985ae19d9dbc6a4a2ad730f5a00cc1f217d10dd0ca156fac8b5779dfb613f692f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“犀牛娱乐”（ID：piaofangtoushijing）</a>，作者：小福，编辑：朴芳，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989565171378434</guid><pubDate>Mon, 14 Oct 2024 08:09:00 +0800</pubDate></item><item><title>英特尔垂直整合模式走到十字路口</title><link>https://36kr.com/p/2990207626914819</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_6476e3da071e4075bea313030fa85278@000000_oswg32010oswg600oswg399_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">英特尔CEO帕特·基辛格正在为重振经营而苦苦挣扎(Reuters)</p>
+<blockquote>
+<p>英特尔的经营正在陷入困境，由于总市值的急剧缩小，被收购的预期浮出水面，但要实现还面临很高的监管壁垒。集设计和制造于一体的半导体垂直整合型业务模式走到了十字路口……</p>
+</blockquote>
+<p>美国英特尔的经营正在陷入困境。由于对代工的前期投资增加，业绩恶化，集设计和制造于一体的垂直整合型业务模式站在了十字路口。由于总市值的急剧缩小，被收购的预期浮出水面，但要实现还面临很高的监管壁垒。重振经营的道路尚未描绘出来。</p>
+<p>英特尔在2024年4月至6月的最终盈亏是亏损16.1亿美元。已经决定裁员约15000人，占员工总数的15%。由于业绩不佳，总市值降至约1000亿美元，与2024年初相比降至不到一半。</p>
+<p>业绩不佳主要有三个原因。重振业务需要解决以下问题。（1）因代工而增加的投资负担；（2）最赚钱的CPU(中央处理器)的占有率下降；（3）生成式AI（人工智能）领域的落后。</p>
+<h2><strong>与盈利能力相比，投资负担加重</strong></h2>
+<p>英特尔的首席执行官(CEO) 帕特·基辛格2021年表明了涉足代工的方针。其构想是强化最尖端芯片的制造能力，不仅自行销售，还从其他企业获得代工订单。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_2e8697b32f0f424486e289993df0e834@000000_oswg19373oswg450oswg295_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这需要巨大的投资。英特尔的设备投资额2023财年(截至2023年12月)达到约258亿美元，比3年前增加了8成。与此同时，营业现金流在同一时期下降了70%。与盈利能力相比，投资规模的巨大更加突出。</p>
+<p>能否获得与投资相称的回报也不明朗。在代工业务方面，2024年4～6月的营业损益为亏损28.3亿美元，创出各部门中最大的亏损。</p>
+<p>英特尔此前在半导体微细化方面一直处于领先，但在帕特·基辛格就任的2021年，英特尔已经落后于台积电(TSMC)。未能制造出客户需要的水准的产品，未能按预期开拓大客户。</p>
+<h2><strong>主业CPU的市场占有率下降，在AI芯片市场陷于被动</strong></h2>
+<p>英特尔正在主力的CPU(中央处理器)市场丢失份额。调查公司Counterpoint的统计显示，2022年服务器用CPU的市场占有率为71%。与上年相比下降了10个百分点。即使是最赚钱的CPU也不能说是稳如磐石。</p>
+<p>在CPU领域，正在被美国超微半导体(AMD)夺走市场份额。AMD没有自己的工厂，而是委托台积电进行生产，使用最尖端的制造技术。台积电和英特尔的技术实力差距正在导致CPU业务的竞争力下降。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_419e8c38426e46b3a1ef3cf42850c011@000000_oswg17179oswg400oswg345_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>错失生成式AI的浪潮也构成沉重打击。英国媒体透露，从2023年数据中心用AI芯片的市场占有率来看，美国英伟达约占80%。在学习数据以使生成式AI更加聪明的处理领域，英伟达制造的图形处理器（GPU）更加适合。虽然英特尔开发AI半导体，但是没有抓住盈利机会。</p>
+<h2><strong>通过剥离制造部门从外部筹集资金</strong></h2>
+<p>针对这种情况，英特尔提出的是剥离包括代工在内的制造部门。为了筹集制造所需的巨额投资，决定将其变为子公司，从外部筹集资金。</p>
+<p>为自己公司设计的产品也将委托给新公司生产。一直以来打造的设计和制造一体化的垂直整合模式迎来了转折点。可以说即使剥离，只要保持一定的资本关系，也可以自主进行设计和制造，但如果由外部资本运营新公司，垂直整合模式就会画上句号。</p>
+<h2><strong>“总市值一家独输”，出现被收购的预期</strong></h2>
+<p>随着AI半导体日趋受到期待，很多半导体企业的股价都在上涨，在此背景下，英特尔的股价却处于“一家独输”的状况。在看不到增长前景的情况下，总市值急剧下降，因此出现了英特尔本身被收购等并购(M&amp;A)的预期。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_374828fe8d154d1c9fc97e656c65fb36@000000_oswg28212oswg450oswg325_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>9月20日有报道称美国半导体巨头高通向英特尔询问了收购事宜。据报道，美国投资公司阿波罗全球管理公司正在考虑最多投资50亿美元。</p>
+<p>目前尚不清楚英特尔是否会积极考虑竞争对手的并购。美国彭博社9月26日报道称，英国半导体设计巨头ARM向英特尔提出了收购设计业务的意向。英特尔以“设计业务不属于出售对象”为由予以拒绝。</p>
+<p>即使接受了收购，也面临《反垄断法》的较高门槛。英伟达曾在2020年宣布收购ARM，但因未能消除监管机构的担忧而放弃。如果因为英特尔的重组而诞生巨大的半导体企业，尤其是在与美国展开尖端技术主导权之争的中国，得到反垄断当局批准的可能性很低。</p>
+<p>英特尔目前的盈利正在下降，看不到增长的前景，但这并不是说只要不立即采取根本性措施，经营就会难以为继。资本充足率仍然超过50%。围绕在美国的生产，从美国政府获得巨额补贴，目前还存在力争自身单独实现再增长的前景。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI3Mzc0MA==&amp;mid=2651929029&amp;idx=2&amp;sn=bc7853557d7d7b76a55384316117f45d&amp;chksm=bcfdefa57c9699a4cedc343bfc15e4a90c0c951996e50303a7516ce5304f95822878018be5a4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“日经中文网”（ID：rijingzhongwenwang）</a>，作者：清水孝辅 ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990207626914819</guid><pubDate>Mon, 14 Oct 2024 08:09:00 +0800</pubDate></item><item><title>新玩法？越狱+小游戏缝合怪？这一框架值得探索吗？</title><link>https://36kr.com/p/2990240914631689</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近期海外游戏市场又有值得关注的玩法出现：</p>
+<p>土耳其厂商休闲游戏厂商Yamy Studio十月初在全球多个主要市场推出新品《Prison Breakout!》（监狱突围）。DataEye-ADX海外版数据显示，该游戏上线后立即在东南亚、港台和欧美地区进行了投放。</p>
+<p>今天，DataEye研究院就来聊聊这款产品。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_e2a8eb01607a49aab77ae9f67f447509@000000_oswg83906oswg240oswg240_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>一、产品情况</strong></h2>
+<p>《Prison Breakout!》是一款移动/点击向的休闲游戏。玩家扮演一名无辜入狱的平民，需要利用好手上的资源逃出生天。</p>
+<p>游戏最大的卖点在于其白天-黑夜的时间循环系统。在白天，玩家需要完成监狱分配的日常琐事，比如在自助餐厅分发食物，在洗衣房洗衣服，打扫院子卫生等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_8a349338a00549608d4bab184872d504@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而到了夜晚，在回到自己的牢房后，玩家可以开始挖掘地道，计划越狱。期间要躲避狱警巡查的巡查，以及在白天到来时及时回到地面。如果不小心被抓住，将需要从头开始挖掘。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_6c2bf6b2a64742ea96a957488b7ecf58@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>将这两个模式串联起来的，是游戏的经济升级系统。玩家通过完成白天的日常任务可以获得报酬。</p>
+<p>金钱可以用来进行两个主要的升级：一个是角色自身的能力，包括力量、移动速度、体力、挖掘速度等；另一个是挖掘的工具，更高级的工具破坏力更大。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_41c098fe8f1a437daa0e59f8915627f0@000000_oswg926708oswg1080oswg818_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此外，游戏还提供了更直接的资源投入应用选项，比如直接以两倍力量/体力/挖掘速度开启本次挖掘。或者在挖到需要坚固的硬墙的时候，可以直接用「钱」砸碎。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_a7ac680b3c9941c8b4a063803e84ea63@000000_oswg794427oswg1080oswg888_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>游戏中也不乏一些增加「监狱风味」的趣味设计，比如在拖地时会有其他的囚犯故意绊倒阻拦你，甚至还会发生打斗。而角色自身数值的升级也会应用到这些玩法中。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_552fcc227a474ea48af95955c88bde66@000000_oswg1205953oswg810oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>总体来说，《Prison Breakout!》呈现的核心体验是「限时操作+资源管理」，辅以越狱题材的场景设计，给予玩家更多的代入感。</p>
+<p>在实际游玩过程中，《Prison Breakout!》有重复性过高的问题。一是其紧张感不足（或与画风有关），导致挖掘地道行为稍显枯燥；二是白天的事务不够丰富且过于简单，玩家较容易预测到接下来的体验。</p>
+<p>但游戏的整体框架相当有潜力，从另一个层面看，《Prison Breakout!》可以被当作是<strong>「小游戏合集」</strong>，其挖地（点击与反应）、拖地（地板涂鸦）、餐厅（分配食物）等均可以视作独立的游戏，在这部分显然可以通过增加丰富度拓展玩法空间。</p>
+<p>而如果要<strong>让种「小游戏」结合的框架更加有机结合，游戏的题材和风格十分重要，</strong>需要让玩家有代入感、参与感，甚至增加适量的剧情皆对此有所帮助。在收入模式上，其小游戏+时限体验的机制可以融合IAA和IAP，而这在买量素材上同样有天然优势。</p>
+<h2><strong>二、买量&amp;素材情况</strong></h2>
+<p>DataEye-ADX海外版投放数据数据显示，《Prison Breakout!》在10月4日上线开始进行了投放，首周每日维持在16组素材的投放量。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f411b0b5352f4ce184f31cc7e5b5495d@000000_oswg117205oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在投放地区上，东南亚是游戏的主投地区，越南和菲律宾的投放素材数占到了总素材数的37.5%。中国台湾排在投放地区的第三位置，美国市场排在第九。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_62fb62ce0bf7455ebc1219a01ee9f3c1@000000_oswg130150oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在素材创意方面，《Prison Breakout!》均以游戏内容录屏剪辑的形式呈现，但其传达游戏玩法倾向亦有不同，以下是DataEye研究院整理的热门素材类型：</p>
+<h3><strong>类型1：展示游戏的主玩法循环</strong></h3>
+<p>此素材通过展示玩家在挖掘地道-躲避狱警-完成监狱日常琐事的流程，直接体现游戏主要的玩法循环和日夜系统。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_5973e7b1d4444a4e96d6f6b4a4bc85e4@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>类型2：突出挖地逃生的紧张感</strong></h3>
+<p>该素材聚焦于挖地道的过程，强调倒计时的紧迫感，以及展示了被抓到的场景。用展示游戏难度的方式，激起玩家挑战欲。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_ee2cfff0eb544a67b6a18a5871930968@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>类型3：强调监狱生活的冲突和对抗</strong></h3>
+<p>最后一组素材通过剪辑的方式，着重于表达玩家个人在监狱中生活的体验。具体在于被狱友霸凌，开始锻炼升级，在打斗中获胜的结果。体现游戏些微的「养成感」。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f201be23ea33409f97a12d720bd0c879@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f18a9eb50ceb4ceea16872e406842ff8@000000_oswg400522oswg628oswg1344_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_771c81d26922430199bd7e9fd9cb0eea@000000_oswg417073oswg626oswg1346_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MzE0ODIwNA==&amp;mid=2649934944&amp;idx=1&amp;sn=d9bbc1c56f067cb633cdba511e82d0a6&amp;chksm=86ee618df59c4dbd627987f53ed3fc52e803cf546505e5d3236560bb2e7a788200d041e62550&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“DataEye”（ID：DataEye）</a>，作者：Stray，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990240914631689</guid><pubDate>Mon, 14 Oct 2024 08:09:00 +0800</pubDate></item><item><title>让你进去当主角，苹果为 Vision Pro 发布首部沉浸式微电影</title><link>https://36kr.com/p/2990410468535040</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近日，苹果发布了首部沉浸式微电影《Submerged》。</p>
+<p>这部微电影时长十七分钟，说实在的，剧情稍有些乏善可陈：在二战时期，一艘潜艇遭到鱼雷袭击，船员们在船舱中度过了惊心动魄的十七分钟，就像超级马力欧那样解决完一个麻烦后，继续通向下一关，再面对更艰难的麻烦。</p>
+<p>不过我觉得这部电影还是非常值得一看，因为在此之前，Apple Vision Pro 上的沉浸式视频以观察大自然探险、极限运动等为主，还没有一部基于剧本的电影制作。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_8db1eedaa68d4381908958be57c36f40@000000_oswg97896oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>我的主要任务是让你感受到主角的感受，让你经历他们正在做的事情。</strong></p>
+</blockquote>
+<p>以《西线无战事》拿下奥斯卡大奖的导演 Edward Berger 直言不讳地承认，这次拍摄的首要任务绝非一个精妙绝伦的剧本，而是代入感。</p>
+<p>在影片上线后，苹果通过一段视频，详细揭秘了这部沉浸式短片的幕后细节。</p>
+<p>想要以全新的方式去拍摄一部电影，除了人员配置外，场地、设备、技术支持，缺一不可。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_fea68c7d9c9e447e8a7006c03ab9ff9a@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>首当其冲的问题，就是一台特殊的摄影机。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_921ce79d174c48e3945e8292a1e9d012@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>苹果自己开发了一套沉浸式视频摄影机，根据目前的资料来看，这台摄影机搭载了一枚醒目的双镜头系统，支持以 8K 清晰度录制立体视频，同时配合多向收音的麦克风，以较成熟的方案面对拍摄任务。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_3036332658f149ffa2a068f7e813c325@000000_oswg87989oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除了自己的设备，苹果也与更专业的公司合作，为第三方制作 Apple 沉浸式视频做准备。</p>
+<p>在今年的 WWDC 大会上，Apple 宣布与视频调色软件开发商 Blackmagic 合作，共同设计了一款专用于拍摄 Apple 沉浸式视频的摄像机，命名为 Blackmagic URSA Cine Immersive。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_c5c5ee45dedc4af8a4cfb2e344fee203@000000_oswg79554oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这款摄像机配备了双镜头系统，可实现以每只眼睛 8160 x 7200 的分辨率录制立体视频，并具有 16 档动态范围，以确保呈现细腻且逼真的沉浸式效果。</p>
+<p>此外，该系统内置专为 Vision Pro 校准的镜头数据，每个镜头的参数会直接嵌入到 Blackmagic RAW 文件中，并协同最新版本的 DaVinci Resolve 进行编辑，以全面支持 Apple 沉浸式视频的制作需求。</p>
+<p>这些设备能够记录下镜头正面近 180° 的画面，相比之下，传统电影的视线范围大约在 40° 到 60° 之间。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4cfe4a45a9f74f57be630195b6fbf9b9@000000_oswg36692oswg1080oswg465_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>超大的画面带来的是指数级提升的细节丰富度，这对整个制作团队都是巨大的考验，导演 Edward Berger 就为此大吐苦水：</p>
+<blockquote>
+<p><strong>画面范围真的很大，每件设备，每根破裂的管道和其他元素都很重要，你需要用真实存在的东西填满整个画面，完全不能偷懒，因为观众可能会好奇地观察能看见的任何地方。</strong></p>
+</blockquote>
+<p>为了足够真实，在拍摄过程中，制作团队仿照二战时期的潜艇结构搭建了一个全尺寸潜艇环境，布景使用了货真价实的钢材、黄铜和金属，并对每一处细节进行精心打磨，所用材料总重 23 吨。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_9431ac3286b94606908f5a985c48f734@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_01c406ea3e4a4931b6e6a97ebcacaf23@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在潜艇这种狭小的空间中，制作团队专门为摄像机设计了安装位置，可以在水下稳定摄像机，并捕捉特定角度或视角，确保拍摄时不影响画面稳定性和质量。</p>
+<p>同时，制作团队还设定了实现特定特效（如火花、蒸汽、爆炸、水流等）的器械和结构，这些装置通常会在拍摄中与摄像机紧密配合联动，以便摄像机能够在火花、蒸汽、水和火的环境中安全拍摄，确保不破坏观众的沉浸感。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_9130c80d817d4f4e975cf819f99cfe22@000000_oswg138441oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>为了保持连续性和真实感，演员们对在传统影片画面外的镜头进行了精心编排和设计，并参加了大量的特技排练，包括在潜水水箱和开放水域中进行自由潜水训练。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_2e282821c1654fd0be9942d76734a507@000000_oswg81777oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在传统电影的制作中，导演和摄影指导等场外人员需要通过一些专业级别的监视器对摄影机中拍摄的画面进行实时监看，以保证曝光、颜色、构图的准确性。</p>
+<p>而随着空间视频的出现，画面呈现由平面走向立体，场外工作也随之发生变化——从苹果发布的后台视频来看，专业的监视器上，画面变成了类似于「全景地球」般的圆形，而为了更好地预览实时效果，Apple Vision Pro 也介入到工作流程中。</p>
+<p>Apple Vision Pro 用 M2 芯片提供的性能支持与内置的显示屏素质，在实时传输画面的同时，还撑起了专业监看级别的分辨率与色准，为影片的制作保驾护航。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_eaeb6acb53be4b81bb83028e3a8af906@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>一直以来，除了 iPhone、iPad 等明星硬件产品外，苹果出品的宣传片与短片也是大家津津乐道的话题之一，这些视频往往通过浪漫的色调、考究的光线、恰如其分的配乐，给观众留下深刻印象。</p>
+<p>不过，这些影片的目的性也很明确——为某个产品或是功能展示「官方玩法」，再配合精良的制作，在观众心里留下深刻印象。</p>
+<p>就比如我最喜欢的短片《Welcome Home》，苹果通过一位年轻女士在家中伴随着音乐律动、起舞，直至整个房间都随着她的舞姿与音乐节奏变幻莫测地延展、伸缩。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_6e7725bb2f054383836016e100007427@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而实际上，这部短片是用新颖的创意与震撼的视听享受来为所有观众宣传 HomePod。</p>
+<p>从 1984 年，Ridley Scott 以反乌托邦的风格执导了《1984》用以宣传 Macintosh 开始，到前些时日翻车的 iPad Pro 宣传片《Crush》，都是如此。</p>
+<p>《Submerged》也不外如是，只是这次的宣传对象，换成了前途未卜的 Vision Pro，就像 Apple 营销传播副总裁 Tor Myhren 说，希望以此吸引更多的用户和制作者：</p>
+<blockquote>
+<p><strong>我们非常期待看到这项技术如何激励电影制作人，推动视觉叙事的极限，开启全新的创作可能。</strong></p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_79a96fd0e4df418a93a8f30a6ef59cc1@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&amp;mid=2652371492&amp;idx=3&amp;sn=0abcd402373f90c295f371f3564f55ac&amp;chksm=9a8e0f90aae5eb20110b267f2957d64c1112dfeabcc3d4b45506843e408ad572895c8547763b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“爱范儿”（ID：ifanr）</a>，作者：周奕旨，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990410468535040</guid><pubDate>Mon, 14 Oct 2024 08:10:00 +0800</pubDate></item><item><title>从家门口到全世界，企业学会翻“筋斗云”</title><link>https://36kr.com/p/2990421124262664</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>中国经济正处于新一轮的变革之中，AI浪潮席卷之下，企业最热门的发展赛道主要有两个：出海、大模型。</p>
+<p>一位资本市场人士告诉DoNews，几乎已经找不到不接触AI、不谈出海的公司了：“AI可以帮助提效，出海则能完成更多转化。如果你说自己在出海，就可能更容易被投资人注意到。”</p>
+<p>不管是卷出来的、逼出来的，又或是闯出来的，AI+出海已经成为企业拓展业务的必然选择。如果还在这个方向上犹豫，无异于放弃了一个难得的确定性增长机会。据证券时报·数据宝统计，截至今年8月29日，A股市场近3900家公司发布2024年半年报，其中超2000家公司披露境外收入，出海规模整体再创同期历史新高。</p>
+<p>而云计算，就成为企业AI+出海的重要载体。云计算作为AI的技术底座不用赘述，企业出海选择上“云”，一来能以规模、技术、经验优势充分赋能出海业务，二来还能提供安全合规、本地化服务，充分赋能降本增效。</p>
+<p>问题是，要选择“哪朵云”？中国本土云基于不同的行业云服务经验与客户关系，从不同的垂类中重点投入，形成出海阵地：阿里云擅长电商、零售、物流、金融；腾讯云擅长直播、音视频、游戏；华为云更熟悉政务、大型政企以及混合云。</p>
+<p>但纵观全球，亚马逊AWS、微软Azure、谷歌云等仍是云计算市场的头部，中国云虽在近一两年得到了爆发式的增长，在海外并不占优势。IT研究与咨询机构Gartner在《云AI开发者服务魔力象限》报告中曾提到，他们把业务覆盖范围作为衡量云服务的一项重要指标，不少“中国云”由于在海外业务覆盖不完整而丢分。</p>
+<p>中国企业规模不同、出海需求不同，但思路却趋于一致。如果能够和原有熟悉的供应商一起踩准步调，会节省很多重新协调和重新学习的成本；如果国内云厂商的覆盖跨度还没那么大，企业又想在当地先人一步开展业务，就必须学会如何与微软、亚马逊这样的海外云服务厂商打交道。</p>
+<h2><strong>01.“向内求”，扎稳根基</strong></h2>
+<p>在选择云服务商时，企业会明确自身的需求和目标，根据业务规模、数据类型、存储需求、数据处理和分析能力等，确定所需要的云服务的类型及规模。</p>
+<p>以游戏领域为例，《黑神话：悟空》作为国内首款3A游戏，不仅让中国人吃到了情怀加成，还海外刮起了一阵“悟空风”。</p>
+<p>要知道，想打造一款高质量、高体量、高成本的3A游戏，其全产业链通常涉及人工智能、云计算、数据存储、游戏引擎、虚拟现实和软件等多环节。</p>
+<p>在9月中旬举办的2024腾讯全球数字生态大会上，腾讯云互联网行业技术总经理陈亮对媒体表示，游戏的发行以及对资源的、带宽的需求，都有很大的不确定性。相比之下，云厂商因为布局了较大的基础设施，在服务器、网络以及分发下载等各方面都做好了准备，可以弹性地按照业务实际使用情况使用。</p>
+<p>《黑神话：悟空》正是选用腾讯敏捷研发写作平台TAPD，针对游戏制作在不同阶段、不同环节，灵活适配游戏开发特性、程序需求、美术需求等多层级需求管理和内外部权限写作，以高效的产能和资源利用率来达成项目。在TAPD的助力下，《黑神话：悟空》以惊人的高效产能和资源利用率达成项目，被行业誉为“项目管理的奇迹”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d962a71eee01419d9f597b40580c6d54@000000_oswg59195oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：《黑神话：悟空》</p>
+<p>不难发现，近些年游戏上云后，炸服、延迟服务、掉线、崩溃的情况越来越少。云计算在背后作为一种基础资源，突破了数据限制，帮助游戏公司实现了生产力的进阶。</p>
+<p>米哈游正是依托阿里云的核心产品能力，其游戏在全球数十万QPS、百万PCU的流量洪峰冲击下，仍能保持玩家不掉线、不卡顿。阿里云更是全面支持了米哈游最新游戏《绝区零》的全球开服，该游戏全球下载量已突破5000万。</p>
+<p>虽然目前中国云厂商在海外市场份额不占优势，但长期的经营也让中国云厂商在部分领域积累了影响力，伴随客户的业务快速拓展出海可用服务。</p>
+<p>Belive，新加坡直播SaaS公司，为新加坡政府、Grab等客户提供直播技术。Belive使用了亚马逊AWS的IaaS和腾讯云的音视频PaaS，该公司CEO Kenneth Tan是新加坡人，他2020年开始与腾讯云接触，他表示Belive音视频平台2020年迁移到了腾讯云，直接原因是“腾讯云支持在八个平台同时直播，但国际厂商做不到”。</p>
+<p>KUPU是印尼本地互联网招聘平台，同时采用了三家中国公司的云服务——IaaS层资源是阿里云、PaaS层音视频平台是腾讯云，SaaS层的CRM是纷享销客。谈及为什么要做这样的决策时，KUPU公司CEO周海波解释称，阿里云IaaS资源比亚马逊AWS便宜，腾讯云音视频PaaS能力最出众。周海波对比销售易、纷享销客、Salesforce三款CRM，发现两家中国软件价格只有Salesforce的50%-60%，但产品功能并不弱。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f43a7eeca8d24c5c8b3e40fdc691b34c@000000_oswg149621oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：DoNews摄</p>
+<p>截至目前，腾讯云在海外有16个数据中心和数据节点，覆盖全球五大洲，不久前才刚刚在泰国曼谷、德国法兰克福和日本东京投产数据中心；华为云则于去年9月刚刚在沙特首都利雅得建立了全球第30个海外数据中心；百度CTO王海峰此前也对外透露，百度已在全球十余个地区建立了大规模数据中心；阿里云在全球30个地域运营89个可用区；新一轮投入之后，将增加至全球31个地域和95个可用区。</p>
+<p>看起来需要“虎口夺食”，但中国云厂商投入意愿却并不低。</p>
+<h2><strong>02.“向外扩”，面向全球</strong></h2>
+<p>和20年前的出海不同，“一个背包走天下，走到哪里算哪里”的出海姿势已经不合时宜。企业不能满足于赚快钱，而是要做好长期战略投入的准备——政商、法务、市场、营销都要融入当地生态。</p>
+<p>当中国企业出海时，通常并不了解海外市场的情况，比如数据主权、合规问题等。以数据主权为例，一般需要保证数据留在市场所在国，这就要求云服务商能提供全面的数据加密、访问控制、安全审计等措施，确保企业数据的安全，并且遵循国际安全标准和相关法律法规。</p>
+<p>海外云亦熟悉中国企业出海需求，结合已有的海外业务经验中为中国企业提供多样的云产品和出海本土化支持。</p>
+<p>库迪咖啡在布局海外业务时，发现国内云平台上的架构暂时无法满足业务全球化的要求，因此便采用亚马逊云科技为海外门店提供支持，并选择广知网络为易点天下全资子公司提供技术服务，将既有业务数据库从国内云平台迁移至亚马逊云科技上，同时在亚马逊云科技上部署全球化的业务应用。</p>
+<p>在亚马逊云科技和广知网络的协助下，库迪咖啡的IT团队仅用3个月时间就完成了海外业务平台的部署上线，确保在2023年7月26日完成“海外第一杯咖啡”的项目目标。截至目前，库迪咖啡已在全球28个国家、300余个城市设立7000余家门店。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4b12b6d9b238469eaa2e590629c2b0a6@000000_oswg80113oswg1080oswg584_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：库迪</p>
+<p>海外云在全球数据中心领域有更加成熟的建设，能更好地满足企业进入海外当地市场时的数据本地存储需要。以手机行业为例，大多企业会选择两种不同的与第三方合作的方式——海外方面，主要是和谷歌、OpenAI合作；国内主要是中国的服务提供商，如百度和字节。</p>
+<p>荣耀方面就曾表示，其海外未来的旗舰机会搭载谷歌云相关服务，助力开展“欧洲第二本土市场”计划。选择谷歌云的好处，一方面，手机系统都是以安卓和谷歌服务为基础，所以在增加AI大模型的时候从底层的适配会更顺利，另一方面，谷歌云拥有充沛的安全措施，能满足不同国家的合规要求，帮助企业在不同的地域安全合规地开展业务。</p>
+<p>在跨境电商迅猛发展的时期，紫鸟浏览器顺势而生，正式上线时就服务了超过4万店铺，2019年增长至超过20万，到2023年超过300万，成为跨境电商SaaS的头部企业。</p>
+<p>紫鸟浏览器正是基于谷歌云高效高速的虚拟机（VM）、多区域网络地址和独立的网络架构（VPC），实现优化浏览器基础结构、节省相关成本并加密数据保护，满足了跨境电商卖家对安全性及管理性的需求，帮助跨境卖家更安全、更高效地开展工作。</p>
+<p>在谷歌云的技术实力与海外资源的支持下，紫鸟浏览器在安全、智能、速度和成本控制等方面快速建立起稳固的行业优势。</p>
+<p>作为全球部署的云计算平台，微软旗下的Azure在一款游戏产品从创意到上线的整个生命周期中，都能够以不同的角色完成对开发者和游戏企业的相应帮助。</p>
+<p>云蟾游戏在迎接海外玩家涌入的背景下，需要一套基于全球的、更稳定且性能更好的云上架构方案。他们主要面临两方面的挑战，一是基础架构基本都在国内，短时间内搭建一套海外架构的难度是比较高的；二是运维人员有限，如果扩充人员规模，又要考虑时间、资金等等方面的成本。</p>
+<p>Azure在其出海初期就投入了上述提到的各类资源，对云蟾游戏进行支持。一方面，云蟾游戏使用了Azure多个海外数据中心来构建游戏服务器和平台服务器；另一方面，Azure App Service帮助到云蟾游戏搭建和和运维容器平台，将容器镜像打包上传后，实现了游戏快速部署、负载均衡，自动伸缩和蓝绿部署等等。</p>
+<h2><strong>尾声</strong></h2>
+<p>无论是“向内求”还是“向外扩”，企业上“云”的终归是寻找增量市场的重要一步。不过，不存在用“云”一劳永逸的解决方案，企业仍然要面对采购云资源、链接海外云、日常运维等问题。只有真正上好“云”、用好“云”、管好“云”，中国企业才有机会在海外市场“淘金”。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwMDUwNzEwNA==&amp;mid=2247616288&amp;idx=1&amp;sn=0f50675766bfb45e670e2bc1b07d51c3&amp;chksm=c1ae3637a3142c6fd080a235529639a48cca719c9cc7e8684e6f1965f7c97a564177c92fe430&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“DoNews”（ID：ilovedonews）</a>，作者：雁秋，编辑：李信马，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990421124262664</guid><pubDate>Mon, 14 Oct 2024 08:10:00 +0800</pubDate></item><item><title>买豪宅开豪车，顶流女团全员富婆，背后公司却快要破产了？</title><link>https://36kr.com/p/2990425811758087</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>各自单飞后，她们一边继续拼事业搞钱，一边还开启了买买买模式，豪宅、豪车成了标配！但失去了BLACKPINK这颗“摇钱树”，一手捧红她们的公司YG，看起来日子就不那么好过了……</p>
+</blockquote>
+<p>最近，BLACKPINK的成员Lisa给工作人员送了LV包包，引发网友热议，有人夸她大方，有人调侃她说：</p>
+<blockquote>
+<p>“不愧是唱money的女人，是有点小钱在身上的。”</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_e5814edc647c4c468d729741bf669cb7@000000_oswg54845oswg690oswg980_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Lisa这几年赚这么多，早就是富婆了，出手大方也很正常。有网友透露，之前她代言Celine时也给身边的人送过Celine，主打一个跟着姐就有奢侈品包包背~</p>
+<p>其实这并不是第一次了。早在2020年，BLACKPINK四位成员就曾一口气送出了六个prada包包，也曾经自掏腰包送粉丝名牌口红和粉底液套装……</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f5119e22200747ec905c873cf70e5eb3@000000_oswg23238oswg736oswg110_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>果然是名副其实的全员富婆团，就连去年单飞不解约的drama情节，也丝毫不影响她们赚钱赚到手软，来感受一下这个女团超强的吸金能力：</p>
+<blockquote>
+<p>2024年福布斯韩国名人收入榜，BLACKPINK登顶第一；</p>
+<p>2024全球IG富豪榜，全员上榜，跻身全球TOP50；</p>
+<p>NUBIA杂志统计的2024最富有韩国女爱豆排行，金智秀、Lisa、Jennie排名前十；</p>
+<p>……</p>
+</blockquote>
+<p>各自单飞后，她们一边继续拼事业搞钱，一边还开启了买买买模式，豪宅、豪车成了标配！但失去了BLACKPINK这颗“摇钱树”，一手捧红她们的公司YG，看起来日子就不那么好过了……</p>
+<h2><strong>1.顶级女团有多壕？各自单飞后，她们买财阀豪宅、开限量豪车……</strong></h2>
+<p>先来简单介绍一下。2016年，韩国三大社之一的YG推出女团BLACKPINK，成员分别是金智秀、Jennie、朴彩英和Lisa，2019年科切拉一战封神，成为闯美最成功的世界级女团，没有之一。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_df7bae8991ff400a8af3f7e826350401@000000_oswg42006oswg690oswg452_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>去年，BLACKPINK和YG的七年合约到期，最终决定只续团体合约、成员各自单飞，很多粉丝都替她们捏了一把汗，毕竟很多顶级女团都是因为解约风波最终销声匿迹了，比如她们的师姐团2NE1。</p>
+<p>但单飞不解散的BLACKPINK，影响力不减反增，直接从演艺圈横跨到了政商圈，比如去年年底，英国王室就举行了一场特别的授勋仪式：</p>
+<blockquote>
+<p>查尔斯国王向四名成员颁发大英帝国勋章MBE，以表彰她们在环保方面作出的贡献。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_dae3e90fe6384c708641469b8fdb2e7a@000000_oswg83779oswg632oswg421_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>虽然看起来有点破次元壁，但其实这次接见的份量还是很重的！要知道，上次在白金汉宫招待偶像女团还是1997年，那时查尔斯还是王储，受邀的是英国乃至全球第一天团辣妹组合。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_5e63cef032a64c2b9d563ee3356175d6@000000_oswg57187oswg660oswg431_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但去年BLACKPINK的团体活动确实屈指可数，成员们各自单飞后，都有了新发展，有人出了新歌，有人去当演员，还有人筹备新专辑，不过共同点是没有了公司的约束，她们都开启了买买买模式。</p>
+<p>就拿Lisa来说，今年4月，年仅27岁的她豪掷395万美元（约2859万人民币），在比弗利山庄买了一套占地超过1.3英亩的豪宅，和好莱坞名流们做起了邻居。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_2abcb4edbaf04eb1b990285dded99058@000000_oswg87037oswg690oswg669_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但这可不是Lisa的唯一一套豪宅，这些年，她在全世界到处置业，光名下的豪宅价值就早已过亿了。</p>
+<p>在韩国，几年前她曾在首尔龙山区买了一处高级公寓。到了2023年，她又在首尔城北洞入手了一套价值75亿韩元，换算成人民币约为4300万元的大别墅，据报道这套房子的前主人还是韩国财阀呢~</p>
+<p>此外，去年Lisa还被曝在曼谷第一高端住宅买了一套价值5000万元的大house，这个房子位于泰国顶级豪宅区。</p>
+<p>除豪宅外，据说Lisa也有多辆豪车，比如新成立的个人工作室拍的vlog里就出现了一辆全球限量10台的白色大G，还有法拉利、劳斯莱斯、兰博基尼等，粗估总价值超过上千万了~</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4b9da28089994493a55c3d6f4d335c9d@000000_oswg226168oswg640oswg360_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>去年，Jennie在首尔汉南洞买下了一栋250平的别墅，这是首尔非常有名的富人区与高级住宅区，邻居有宋慧乔、G- Dragon等韩娱顶流明星。</p>
+<p>重点来了，媒体报道富婆Jennie直接用现金，全款支付了50亿韩元，换算成人民币约为2800万元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_fc68c47ddad24a97ab3d1d39bc1bc1e4@000000_oswg58897oswg640oswg383_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>虽然朴彩英和金智秀相对低调，但据报道，朴彩英住在首尔龙山区一处价值5000万的高档公寓中，金智秀的家和她只隔了一条街，可见同样价格不菲。</p>
+<p>不过，“圣罗兰女帝”朴彩英也传出了买豪车的消息，据说今年她刚拿到驾照，就迫不及待买了第一台豪车——黑色大G，被不少粉丝偶遇。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_68ace91d43a3414eacc34de9b953ad9e@000000_oswg257463oswg690oswg460_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>各自单飞后日子越过越壕，出道第8年，豪宅、豪车成了她们的日常标配，全员富婆的实力果然名不虚传~</p>
+<h2><strong>2.顶流女团吸金能力有多强？一条广告收入超300万元，全员顶奢代言、最高title……</strong></h2>
+<p>但在大手笔开销之外，或许很多人并没有意识到，她们也是KPOP女爱豆里赚得最多的人，那她们的吸金能力到底有多强？</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_898ad2106b3c498984908ddae672a240@000000_oswg697862oswg690oswg690_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不久前的8月中旬，英国数据分析公司Hopper HQ公布了2024全球IG富豪榜，包括全世界演艺圈、体育圈的明星在内，但排名前列的要么是超级球星C罗、梅西，要么是欧美明星傻脸娜、霉霉Taylor……</p>
+<p>这个榜单上的亚洲明星寥寥无几，但BLACKPINK却全员跻身全球TOP50，来感受一下什么叫全员吸金体质：</p>
+<blockquote>
+<p>Lisa：第29名，一条INS帖子可赚62.3万美元，人民币约440万元；</p>
+<p>Jennie：第36名，一条INS帖子可赚51.1万美金，人民币约361万元；</p>
+<p>金智秀：第40名，一条INS帖子可赚47.4万美金，人民币约335万元；</p>
+<p>朴彩英：第42名，一条INS帖子可赚47.2万美金，人民币约333万元。</p>
+</blockquote>
+<p>想象一下，她们只要动动手指，随便在社交平台上发一条广告，最少也能赚300多万元，简直就是行走的“摇钱树”。收入最高的Lisa甚至在亚洲明星里也排名第一，去年，她就是这个榜单里最赚钱的亚洲明星。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_cf4140bd549c4850a41ffb1ea9869f8a@000000_oswg40717oswg637oswg166_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除了2024全球IG富豪榜，今年在NUBIA杂志统计的2024最富有韩国女爱豆排行，金智秀、Lisa、Jennie三名成员排名前十；在2024年福布斯韩国名人收入榜上，BLACKPINK女团排名第一。</p>
+<p>事实上，早在2019年她们就曾登顶福布斯韩国名人收入榜，以及第一位女性韩国团体参加《福布斯》杂志“30 Under 30 Asia”，还上了福布斯杂志的封面，实力碾压一众当红男团和女团。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d87e07576ab24561a0a05cdc180672a0@000000_oswg88982oswg690oswg969_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而在成熟的市场，娱乐业与奢侈品行业盘根错节。因此榜单之外，BLACKPINK更令人瞩目的，正是她们几乎无人能敌的商业价值，明星们梦寐以求的顶奢资源都是她们的囊中之物。</p>
+<p>就拿刚结束的巴黎时装周来说，四名成员不仅全部到场，而且全员顶奢品牌的最高title傍身，排面实在是太强了，大家随意感受一下：</p>
+<blockquote>
+<p>Jennie是香奈儿大使，Lisa是LV全球代言人，金智秀是迪奥全球品牌大使，朴彩英是YSL首位全球代言人……</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_9bb05edfa5134fce98b3a3fff28a3023@000000_oswg224177oswg1054oswg1317_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>就连各国媒体评价巴黎时装周上的最佳造型，她们也都是轮番登顶。其中，被称为“圣罗兰女帝”的朴彩英，一共参加了4次巴黎时装周，有3次都拿下了EMV媒体价值艺人榜单第一，商业价值堪称爆表。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d2c0840e4fa74a59aeaf8182d77d4a3c@000000_oswg539530oswg690oswg1116_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但这还只是冰山一角，毫不夸张地说，BLACKPINK拥有全世界一半的顶奢品牌代言。除了上面提到的，早在2022年，她们就分头拿下了女性消费领域的金字塔尖——顶级奢侈品珠宝品牌的代言：</p>
+<blockquote>
+<p>金智秀是卡地亚全球品牌大使，Lisa是宝格丽全球代言人，朴彩英是Tiffany全球品牌代言人。</p>
+</blockquote>
+<p>2022年末，BLACKPINK被《时代》杂志评为年度艺人，最新一轮世界巡演，范围已扩大至欧洲和亚洲27座城市，在港澳台几站，就连当地名媛、富豪也纷纷现身观众席。</p>
+<p>也难怪她们赚钱赚到手软，甚至力压“富婆团”少女时代，现在的市场上有一种公认的说法是：</p>
+<blockquote>
+<p>“如果只看韩国的话，少女时代是第一女团，但BLACKPINK是世界第一女团。”</p>
+</blockquote>
+<p>值得一提的是，BLACKPINK的商业价值在上市公司的财报中也能得以一窥。以女团成员朴彩英为例，据不完全统计，她曾经16次登上世界两大奢侈品集团LVMH和开云的财报，以证明她作为品牌代言人带来的商业价值。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_0f8196b160f041a79902c70b570569e8@000000_oswg456347oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>3.BLACKPINK单飞不解散！摇钱树要没了，背后公司利润暴跌99%</strong></h2>
+<p>BLACKPINK的超强影响力和商业价值，让她们成了公司YG的摇钱树，有媒体曾统计，公司80%的营业利润都是由这支超级女团贡献。</p>
+<p>事实的确如此，据报道，2023年上半年，YG第一季度营利高达364亿韩元，第二季度营利又创下了289亿韩元，相比去年同期分别暴涨了461%和209%。其中，85%以上的利润来自于BLACKPINK的世界巡演，“摇钱树”名不虚传。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_6abd28fb821f48249aa95bbe10a328be@000000_oswg356488oswg1037oswg453_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不仅如此，在BLACKPINK巡演期间，YG娱乐股价暴涨了超过一倍。但巡演后期，由于合约到期，并且接连几次传出成员不续约的消息，又导致YG股价暴跌，直接坐了一场过山车。</p>
+<p>为了稳住“摇钱树”，据媒体报道，YG给BLACKPINK的团体续约金额高达惊人的400亿韩元，最后成员各自单飞、女团不解散。</p>
+<p>2024年，这支超级女团几乎没有商业合体行动，这也直接导致了YG的业绩大跳水，在南韩几个知名的娱乐公司里几乎垫底。据Daol投资证券透露：</p>
+<blockquote>
+<p>YG娱乐2024年第二季度营业利润仅有3亿韩元，比去年同期下降98.9%。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_5c30eac7f4214e3b93dd69af8867b5a2@000000_oswg360767oswg690oswg745_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>要知道，这个利润换算成人民币约为157万元，而BLACKPINK随便一个成员在INS上发一条广告就要超300万元。因此这个数据直接震惊了资本市场和投资者，甚至有网友们怀疑该公司是否面临破产风险：</p>
+<blockquote>
+<p>“YG好像真的要完蛋了……”</p>
+<p>“没有BLACKPINK的YG，和倒闭了没什么区别。”</p>
+</blockquote>
+<p>事实上，为了熬过没有BLACKPINK回归的空窗期，YG也早就在打造了下一代女团Babymonster。</p>
+<p>好消息，新女团出道了；坏消息，五代几乎查无此团。</p>
+<p>目前来看，新女团Babymonster带来的经济效益远远不如预期，对未来发展没有好的预期，YG的股价和市值也接连创下新低。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_47f0ed41eb654ea3a0c2700483ccb43d@000000_oswg30807oswg781oswg462_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>今年中旬以来，意识到形势不妙的YG也急了，连忙宣布了2025年的计划，主打一个所有女团都出来赚钱：一个是BLACKPINK将回归并且开始第三次世界巡演；一个是让祖师奶女团2NE1回归，举办十五周年演唱会。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_3bca6611544d4dd88a1b61ba96173f7c@000000_oswg82716oswg1080oswg357_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>最近，2NE1演唱会开启，相关词条接连刷爆热搜。YG趁热打铁，据媒体报道，这家公司时隔13年再次申请2NE1商标权。业界推测，这次演唱会和世巡结束后，YG和2NE1可能会继续同行。</p>
+<p>这么看来，YG想翻身并不容易，在BLACKPINK回归和第三次世界巡演前，还得靠祖师奶女团来“续命”啊～</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU0OTI2MzkxMA==&amp;mid=2247858406&amp;idx=1&amp;sn=9a50dce1896b161989727b0398bd1a56&amp;chksm=fa201d18c052316a85cfcd90bda3e989cbf70d61375e8a51001c763bb145478293e9cc2a22ce&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金融八卦女频道”（ID：baguanvpindao）</a>，作者：月月，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990425811758087</guid><pubDate>Mon, 14 Oct 2024 08:11:00 +0800</pubDate></item><item><title>金融男勇闯保险圈，3年干成10亿美金独角兽，上市输血却钱途堪忧？</title><link>https://36kr.com/p/2990425670904841</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>方锐手中的元保成立仅4年，就已经坐稳了国内人身险市场第二把交椅，也是国内人身险市场上最大的独立保险分销商，此前其估值已达10亿美金，但让其赚钱的“首月0元”和“魔方业务”却饱受诟病。</p>
+</blockquote>
+<p>保险圈杀出一匹上市黑马？</p>
+<p>前不久，元保保险正式向美国证券交易委员会（SEC）递交上市招股书，准备在纳斯达克敲钟上市，计划发行不超过6450万股，股票代码“YB”。由高盛、花旗、中金、老虎等一众顶级投行联席承销。</p>
+<p>这家公司的老板方锐可大有来头，他是网易的前高管，也是一个典型的金融男。有清华大学的金融、工商管理双重buff叠加，加入网易后也混过保险圈，甚至干翻过淘宝保险。</p>
+<p>如今，他手中的元保成立仅4年，就已经坐稳了国内人身险市场第二把交椅，也是国内人身险市场上最大的独立保险分销商，此前其估值已达10亿美金，但让其赚钱的“首月0元”和“魔方业务”却饱受诟病。</p>
+<p>而险企这两年扎堆上市，慧择、水滴、车车科技等等都去了纳斯达克，但投资者们却不太买账，多家险企上市后接连破发。如今，元保这次能打破这个魔咒吗？</p>
+<h2><strong>1.从程序员到保险大佬，创业仅4年就“杀出血路”</strong></h2>
+<p>元保的迅猛发展，离不开创始人兼CEO方锐。</p>
+<p>他是一个典型的金融男，毕业于清华大学五道口金融学院，后来又获得清华大学工商管理硕士学位(EMBA)。</p>
+<p>而方锐和保险圈的缘分，早在2011年就开始了。他领导的网易保险，算是国内互联网保险的“鼻祖”。2011年12月上线后，网易保险营收蹭蹭往上涨，一度突破10亿大关。</p>
+<p>2015年，网易保险更是干翻淘宝保险，成了互联网车险老大，并且实现了盈利。可惜后来因为业务调整、政策要求等主客观问题，网易没在这条路上继续狂奔。</p>
+<p>而作为网易17年的老将，方锐2003年就加入网易，从程序员一路干到了集团副总裁，职场晋升之路算是教科书级别的。方锐跨界玩电商也玩得贼溜，他一手创办了网易电商和网易支付，还把网易考拉干成了细分领域的“独角兽”。</p>
+<p>2019年，方锐不安于现状，从网易跳出来，立马瞄准了保险赛道，创办了元保保险，并快速收购了两张全国性保险经纪牌照。</p>
+<p>随后，方锐在保险圈弯道超车，很快就杀出了一条血路。根据沙利文数据，以首年保费口径计算，成立仅4年的元保保险，已成为我国人身险市场的第二大分销商，也是国内人身险市场上最大的独立保险分销商。</p>
+<p>而元保之所以发展如此迅速，离不开互联网技术和AI的加持。</p>
+<p>作为互联网老将，方锐擅长的就是引流，各种“0元保”“1元保”的广告铺天盖地，“魔方业务”也因此诞生，吸引了大批消费者。</p>
+<p>同时元保不走寻常路，主攻三线城市及以下下沉市场，来自三线及以下城市的用户占比超过了70%。在这个战略下，元保上线不到一年，付费用户就突破百万。仅2023年一年，就卖出了1200多万份保单。</p>
+<p>数据显示，2022年，元保的保险消费者数量为460.31万人，新保单数量为646.76万份；2023年，元保的保险消费者数量为810.31万人，新保单数量为1248.62万份，基本上都实现翻倍增长。</p>
+<p>AI也是其核心竞争力。在方锐看来，保险作为人力密集型和数据密集型行业，是AI大模型的最佳应用领域之一。AI大模型能颠覆保险行业，特别是对中小公司来说，是弯道超车的大好机会。</p>
+<p>于是，元保打造了一个“智能保险大脑”，能根据每个用户的需求，精准推荐保险产品，还能根据用户反馈，推动保险公司反向研发和定制产品。</p>
+<p>根据2023年年报，在AI的加持下，元保处理医疗单据的速度飞快，0.2秒就能搞定一张，线上一次性审核通过率高达97%。</p>
+<h2><strong>2.3年干成10亿美金独角兽，上市输血却钱途堪忧？</strong></h2>
+<p>元保烧钱烧了3年，终于在上市前扭亏为盈了。</p>
+<p>今年上半年，元保营收15.29亿元，净利润1.75亿元，总算扬眉吐气了一把。</p>
+<p>要知道，从2021年到2023年，元保的营收虽然是一路增加，从3.85亿元到8.50亿元再到20.45亿元，但还一直在亏损，分别亏了12.18亿元、4.35亿元和3.33亿元。</p>
+<p>根据招股书，元保的收入主要来自两块：保险分销收入、系统服务收入。前者是卖保险赚的佣金，后者包括给保险公司提供精准营销、分析服务和其他系统服务。</p>
+<p>而由于业务被资本看好，方锐成立元保不到2年，就拿下了4轮融资，公司直接晋升独角兽行列。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_a37ba0f1c0b14113a331272e7c388e05@000000_oswg29120oswg895oswg503_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>先是2019年11月，方锐拿到了山行资本的种子轮融资；3个月后，又搞定了北极光创投和山行资本的A轮融资。半年后，又来了一轮融资，投资方阵容豪华，启明创投、海纳亚洲等都来了。</p>
+<p>2021年5月，元保完成了IPO前的最后一轮融资，融了近10亿元，由源码资本领投，凯辉基金、山行资本、北极光创投、启明创投等一众大佬跟投。融资完成后，元保的估值直接飙到10亿美元以上，成为互联网保险行业的独角兽企业。</p>
+<p>根据招股书，在本次IPO前，山行资本持有元保17.6%的股份，是元保的最大机构投资方。北极光创投、启明创投、SIG海纳亚洲和源码资本则分别持有元保11.4%、8.7%、8.4%、7.1%和6.3%的股份。</p>
+<p>但值得注意的是，国内保险科技企业的融资，基本在2021年前后就停滞了。</p>
+<p>2021年，元保拿到了10亿元的C轮融资，但这已经是最后一轮了。其他保险企业也差不多，i云保、手回科技等，最近的融资也都在2020年或2021年。</p>
+<p>由于一些险企营收跟不上，融资又停滞，再加上“对赌回购协议”的压力，原始投资人到了一定年限要退出。所以，上市就成了很好的选择，既能给投资人一个交代，又能给公司“输血”。</p>
+<p>所以，过去一年内，有家保险科技公司、致保科技股份有限公司先后成功登陆纳斯达克，众淼控股（青岛）股份有限公司登陆赴港上市，深圳手回科技集团有限公司等也赴港递表……</p>
+<p>然而，二级市场对保险科技公司并不看好。上市后，这些企业大多面临破发，或是股价一路下挫等窘境。</p>
+<p>去年9月，车车科技曲线登陆纳斯达克后，股价从75美元跌到不足1美元；致保科技上市当天就破发，跌了7.5%；慧择保险、水滴公司的股价，也长期都在1美元左右徘徊。在行业不乐观的情况下，方锐带领元保上市后，或也很难独善其身。</p>
+<p>更让人担心的是，方锐做的“魔方业务”虽然带来了大量流量，但也因为高投诉率、高退保率，被监管盯上了。恶意扣款、自动扣费、诱导消费等负面评价，与“魔方业务”紧紧绑定在一起。</p>
+<p>2023年下半年，监管出手整治，叫停了“首月0元”和“魔方业务”，元保也失去了一个大的流量入口。目前来看，监管的重拳、市场的质疑、激烈的竞争，都是元保不得不面对的难题。</p>
+<p>元保虽拥有人身险市场第二的宝座，但前方的路依然充满挑战，能不能打破“上市即破发”的魔咒，在资本市场讲好故事，都还是个未知数......</p>
 <h3>参考资料：</h3>
-<p>[1]https://www.researchgate.net/publication/364027987_Design_Optimization_of_Car_Front_Hood_for_Pedestrian_Safety</p>
-<p>[2]https://www.tesla.com/ownersmanual/model3/en_eu/GUID-FCD87BBA-BA45-4955-8E3A-2FEBBA7DE9FA.html</p>
-<p>[3]https://www.bbc.com/news/articles/cm29x5ke9jdo</p>
-<p>[4]http://www.xinhuanet.com/politics/2019-02/22/c_1124148261.htm</p>
-<p>[5]https://www.iihs.org/news/detail/vehicles-with-higher-more-vertical-front-ends-pose-greater-risk-to-pedestrians</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzk0NzAyMzgzOQ==&amp;mid=2247579969&amp;idx=1&amp;sn=1a62fd5d3afbeb1f29431f2a0d152529&amp;chksm=c2c6ed5d7f70cb91a65d3d7a6f36912292161c1615ed8df1c6c0e9839593bfcb53828d1df853&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“把科学带回家”（ID：steamforkids）</a>，作者：Skin，审校：Ziv，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990069874338823</guid><pubDate>Mon, 14 Oct 2024 07:24:00 +0800</pubDate></item><item><title>半导体制造设备份额：ASML居首，日本TEL第4</title><link>https://36kr.com/p/2990207586544645</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_57681e33cfba42a2b852a6fbb463b771@000000_oswg59110oswg600oswg374_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">台积电的半导体工厂</p>
+<p>《元保赴美IPO：网易前高管创业，4年干成独角兽》，21世纪经济报道</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU0OTI2MzkxMA==&amp;mid=2247858406&amp;idx=2&amp;sn=c19aaf02ccc8bb24e823f1e64ab376ea&amp;chksm=fa5b24a515d6ae181e360a6d3cf3f73603a28c7db85b05d5ca617cc47d46bfbdfb7d5931f564&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金融八卦女频道”（ID：baguanvpindao）</a>，作者：澍野，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990425670904841</guid><pubDate>Mon, 14 Oct 2024 08:11:00 +0800</pubDate></item><item><title>柒和伊将剥离非便利店业务，对抗ACT收购案</title><link>https://36kr.com/p/2990207777909505</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_cce50a194b1544b2984dd6e96c45d93d@000000_oswg34980oswg600oswg375_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <blockquote>
-<p>从半导体制造设备（前工序）2023年份额来看，荷兰ASML超过美国AMAT，位居第一。在光刻机领域，过去尼康和佳能曾与ASML展开竞争，但由于先进设备的研发费用负担增加，尼康和佳能退出这项业务……</p>
+<p>柒和伊控股将剥离超市、专卖店、餐饮等“非便利店”部门，转型为便利店专营企业，消除企业集团结构，提升股价。这也是一种防范被收购的策略，会对加拿大ACT起到一定牵制作用。柒和伊还将改名……</p>
 </blockquote>
-<p>日本经济新闻（中文版：日经中文网）汇总的2023年全球市场“主要商品和服务市场份额调查”结果显示，在半导体制造设备（仅前工序）领域，荷兰阿斯麦（ASML）超过美国应用材料公司（AMAT），份额位居第一。由于半导体制造商对先进产品进行增产投资，阿斯麦独家供应的高性能光刻机的销售增长。</p>
-<p>据美国调查公司Gartner统计，阿斯麦的2023年设备出货额达到237亿美元，较2022年大幅增长48％。</p>
-<p>阿斯麦的客户台积电（TSMC）、韩国三星电子和美国英特尔竞相订购生产最先进逻辑半导体时所必需的“极紫外（EUV）光刻机”，销售持续扩大。</p>
-<p>在用来刻印半导体微细电路的光刻机领域，虽然过去日本企业尼康和佳能曾与阿斯麦展开开发竞争，但由于先进设备的研发费用负担增加，尼康和佳能退出了这项业务，因此阿斯麦在EUV光刻机领域确立了垄断地位。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_7bbbcf337abc4ef09974cae3d8c13973@000000_oswg46067oswg500oswg499_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在半导体产业成为中美对立焦点的情况下，由于美国采取管制措施，阿斯麦无法向中国出口高性能设备。尽管如此，由于各国政府纷纷采取吸引半导体产业的政策，来自美国和日本的先进设备订单增加，促使阿斯麦的销售增长。</p>
-<p>份额位居第二的应用材料公司的出货额增长2％，达到204亿美元。虽然运算处理半导体使用的制造设备出现增长，但由于存储器市场低迷，各家企业纷纷缩减投资，因此部分设备的销售增长乏力。</p>
-<p>2023年存储器用设备尤其低迷，受到韩国SK海力士减少一半设备投资等的影响。受影响最大的是份额位居第三的泛林集团（Lam Research），出货额为115亿美元，减少26％。该公司擅长的是对用于保存数据的存储元件进行垂直堆叠的半导体的制造设备。</p>
-<p>从日本企业的情况来看，Tokyo Electron（TEL）排在第4位。受存储器市场不景气的影响，该公司的出货额减少23％，降至103亿美元，陷入低迷状态。</p>
-<p>但在存储器行业，目前随着人工智能（AI）的普及，新型DRAM“高带宽存储器（HBM）”的增产动向正在扩大，应用材料公司、泛林集团和TEL的2024年出货额很有可能大幅增长。</p>
-<p>据半导体行业团体SEMI预测，2024年的制造设备市场规模将同比增长3％，达到983 亿美元。预计2025年将比2024年增长15％，达到1128亿美元，实现进一步增长。</p>
-<p>美国调查公司IDC的经营一把手克劳福德·德尔·普雷特（Crawford del Prete）表示，“随着AI的普及，半导体市场规模将在2024年以后迅速扩大，设备需求也将大幅受益”。</p>
-<p>今后的风险因素是美国政府加强对华出口管制。美国、荷兰和日本的制造设备厂商不得不遵守这一规定，根据美国政府的方针，面向中国的出货可能会受到很大限制。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI3Mzc0MA==&amp;mid=2651929029&amp;idx=1&amp;sn=4f96c337b38dd5448fb47d72a700777f&amp;chksm=bc426c17692b1be2f36d094f462eb233b8f3b1837b66cc17a266a717a8578a16df870e5016cb&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“日经中文网”（ID：rijingzhongwenwang）</a>，作者：日经中文网，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990207586544645</guid><pubDate>Mon, 14 Oct 2024 07:30:00 +0800</pubDate></item><item><title>目标替代动物的器官芯片，走到哪里了？</title><link>https://36kr.com/p/2990184856201990</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>器官芯片的上次“突飞猛进”大约是在两年前。2022年，FDA动作频繁：器官芯片在内的数据被首次用于FDA新药申请；在FDA和药企、Biotech公司推动下，从参议院到众议院，美国国会终于将对动物试验的非强制性写进法案。伴随着FDA的几个大动作，市场情绪一步步高涨。2022年前后也是国内器官芯片开始崭露头角的时候，数家器官芯片公司获得融资。</p>
-<p>两年过去，随着AI浪潮的再次兴起，器官芯片的发展出现了巨大的变化，最大的变革之一是AI和机器学习的引入。AI被用于分析这些系统产生的海量数据、优化芯片设计、预测细胞行为，并模拟复杂的生物学相互作用。制药行业在药物开发过程中对器官芯片模型的信任度有所提升，扩大了合作尝试范围。</p>
-<p>全球范围来看，器官芯片越来越像“TechBio”，而不再是单纯意义上的“生物技术”。</p>
-<h2><strong>AI已是必选项</strong></h2>
-<p>AI技术的引入极大提高了器官芯片技术的精准度和效率。AI能够处理从器官芯片中获得的大量生物数据，识别复杂的生物反应模式。</p>
-<p>器官芯片产生的数据复杂而多样，包括细胞活性、代谢物水平和电生理信号等。人工智能，尤其是深度学习算法，能够有效处理这些多维度的数据。AI可以识别出人类难以察觉的微妙模式，比如细胞行为的细微变化。它还能将不同类型的数据，如基因表达、蛋白质水平和代谢物浓度等整合分析，从而得出全面的结论。</p>
-<p>此外，AI在异常检测方面表现出色，能够识别出与正常状态偏离的数据点，这可能预示着疾病的早期迹象或药物的副作用。通过这种全面而深入的数据分析，AI为研究人员提供了前所未有的洞察力，使他们能够更好地理解复杂的生物系统。</p>
-<p>利用机器学习算法，研究人员可以建立复杂的预测模型。这些模型能够基于历史数据预测新药物在器官芯片上的可能反应，大大加速了药物开发过程。同时，这些模型还可以模拟疾病在器官芯片中的发展过程，预测不同阶段的生物标志物变化。更重要的是，AI模型能够预测药物或环境因素的长期影响，克服了器官芯片实验在时间上的限制。</p>
-<p>AI系统能够24小时不间断地监控器官芯片，这一能力极大地提高了实验的精确度和可靠性。它可以同时监控多个生理指标，如pH值、氧气浓度、细胞形态等。当检测到任何异常时，系统会立即发出警报，使研究人员能够及时干预。更先进的AI系统甚至可以根据监控数据自动调整实验条件，以维持最佳状态，使得长期、复杂的实验变得更加可行和可靠。根据细胞需求，AI能够动态调整培养基组分和供应速率，确保细胞在最佳状态下生长。</p>
-<p>此外，AI还可以模拟各种体内刺激，如机械力和电信号，用于研究器官对这些刺激的反应。这种高度自动化和智能化的控制不仅提高了实验的精确度和可重复性，还使得长期、复杂的实验变得更加可行。</p>
-<p>例如，耀速科技的AI算法能够自动分析图像数据，精确预测药物对器官的作用效果，极大缩短了药物开发的周期，并提高了实验结果的可靠性。</p>
-<p>耀速科技通过基于细胞形态学AI技术的不断创新，提出了一系列在计算机视觉和图像分析领域的应用成果，并在顶级会议如CVPR（计算机视觉与模式识别会议）、ECCV（欧洲计算机视觉会议）和SBI2（国际生物影像与光学学会）上发表了相关研究成果。这些研究展示了如何使用AI技术进行高通量药物筛选和器官功能模拟，使得在芯片上进行大规模自动化分析成为可能。</p>
-<p>然后，器官芯片技术生成的数据类型繁多且极为复杂，包括时间序列数据、空间数据和多模态数据等。这些数据的异质性和复杂性给AI算法带来了巨大挑战。在处理这些数据时，AI系统需要进行复杂的预处理和分析，以确保能够准确捕捉和解读数据中蕴含的生物学信息。例如，时间序列数据可能反映细胞随时间的动态变化，而空间数据则可能揭示细胞间的相互作用。AI算法必须能够整合这些不同类型的数据，从中提取有意义的模式和洞见。</p>
-<p>另外AI模型，尤其是深度学习模型，常常被视为"黑箱"，其决策过程难以理解和解释。这在生物医学领域尤其成问题，因为研究人员需要充分理解模型的决策依据，以确保其结果具有生物学意义和可解释性。因此，开发可解释的AI模型成为了一个关键挑战。研究人员需要设计能够提供清晰决策路径的AI系统，使科学家能够理解模型是如何得出特定结论的，从而增强对AI辅助研究结果的信任度。</p>
-<p>将AI技术与器官芯片系统有效整合需要生物医学工程师、计算机科学家和临床医生之间的密切合作。这种跨学科合作不仅需要在技术层面上实现突破，还需要在方法论和专业语言上达成共识。例如，计算机科学家需要深入理解生物学过程，而生物学家则需要掌握AI的基本原理。这种跨领域的知识交流和融合是一个持续的过程，需要建立有效的沟通机制和协作平台。此外，还需要开发专门的工具和框架，以促进不同学科背景的专家之间的有效合作，确保AI技术能够真正服务于生物医学研究的需求。</p>
-<h2><strong>国内外差距或已加大</strong></h2>
-<p>美国器官芯片研究第Ⅰ期可追溯至2012年，开发最基础的芯片与类器官和细胞；第Ⅱ期研究从2015年开始，将芯片与细胞结合在一起，并与包括葛兰素史克在内的40家药厂发起药物测试合作；第Ⅲ期研究自2017年开始，构建了多种疾病模型，并用药物对疾病模型进行筛选，到2022年第Ⅲ期研究接近尾声。</p>
-<p>虽然国内器官芯片行业起步较晚，但是经历了快速发展期。尤其是在2022年下半年，生物科技赛道整体过冬，但多家器官芯片公司接连获得融资，甚至国内也开始有公司牵头制定类器官模型与器官芯片的各项标准。</p>
-<p>然而，2023年至2024年来看，国际范围内器官芯片行业的发展进入了新阶段。一方面，欧美器官芯片公司的融资额大增，如老牌类器官与器官芯片公司CN Bio获得2100万美元融资，器官芯片新秀Quris则一举获得2800万美元融资，后者开发的AI驱动"患者芯片"平台是药物开发领域的重大创新，该平台结合人工智能和器官芯片技术，在芯片上模拟个体患者对药物的反应。</p>
-<p>而另一家新兴器官芯片公司Vivodyne则是种子轮就一举融资3800万美元。Vivodyne的技术平台能够在数千个功能性人类组织上进行高通量药物测试，并利用AI进行数据分析。且Vivodyne可测试从小分子到先进生物制剂的各种疗法，包括mRNA纳米颗粒和细胞疗法等前沿治疗方式。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f0716c2f96b7476c9c3ed2f538c4e0fd@000000_oswg48523oswg1016oswg705_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一方面，MNC和欧美器官芯片公司的合作也有所增加。</p>
-<p>强生公司深化了与CN Bio Innovations的合作。这项合作主要聚焦于肝脏芯片模型，旨在提高药物诱导肝损伤的预测能力。两家公司一直致力于减少临床前失败，利用与人体相关的器官芯片模型来增强药物代谢研究。</p>
-<p>阿斯利康扩大了与Emulate的合作伙伴关系。合作重点是使用Emulate的肝脏和肺部芯片模型进行药物安全测试。这项合作旨在早期解决药物毒性问题。</p>
-<p>默克与Hesperos合作，使用多器官平台进行癌症药物测试。这些模型提供了更准确的模拟微环境，使默克能够测试新型癌症疗法的有效性和毒性。值得一提的是，默克重注的的未来新药研发三大关键技术中其中一项就是类器官与器官芯片，另外两项是AI与实验室自动化。</p>
-<p>罗氏作为首先尝试类器官与器官芯片的MNC之一，近年来在器官芯片技术领域持续发力，主要聚焦于心脏和肿瘤学应用。例如罗氏与TARA Biosystems合作，利用其"心脏芯片"模型评估药物的心脏毒性。罗氏的类器官研究院也从两年前的50人扩充到了近200位研发人员。</p>
-<p>此外赛诺菲、GSK、辉瑞，诺和诺德等等MNC全部都在药物研发中使用类器官与器官芯片技术。此外，FDA联合成立了OASIS Consortium合作组织，其中包括了17家跨国药企和耀速科技在内的8家生物科技公司，共同开发基于AI，多组学，和包括器官芯片在内的多模态的下一代药物肝毒性的评价工具和标准的制定工作。</p>
-<p>相比之下，国内近两年器官芯片融资规模较小，使得对这种原创性技术开发的投入相对匮乏。</p>
-<p>“充足的资本支持是创业公司进行长期技术研发的必要条件，能够避免被迫陷入追求短期利益的困境。国内较多类器官和器官芯片企业的重心近两年转向销售试剂等相对容易获取收益的领域。这种转变在一定程度上反映了当前融资困难的现实。”有相关行业从业者向动脉网表示。</p>
-<p>此外，从MNC的多项合作可以看出，欧美市场的器官芯片技术主要应用于新药研发领域，这反映了其较高的技术水平和制药企业的具体需求。相比之下，国内市场则更多地将类器官技术用于药物敏感性测试等相对成熟的业务领域。</p>
-<p>但是国内也不乏先行者，目前已有几款使用器官芯片数据的新药获批进入临床试验。</p>
-<p>例如恒瑞医药委托东南大学苏州医疗器械研究院、江苏艾玮得生物科技有限公司开展体外筛选工作，使用人体心脏器官芯片在8个多月的时间内成功筛选了数百种化合物，筛选出的HRS-1893获国家药监局批准进入临床研究。</p>
-<p>以及齐鲁制药开发的双特异性抗体肿瘤I类新药注射用QLF3108获得临床许可，目标适应症为晚期实体瘤。在其研发过程中，北京大橡科技有限公司利用自主研发的IBAC O2芯片，构建肿瘤类器官免疫共培养模型，高度还原人体肿瘤免疫微环境，并对QLF3108进行了药效评价，为药物的研发和评估提供了更为有效的方法。</p>
-<p>整体来看，未来3至5年预计将出现更多基于器官芯片技术的IND和实际应用案例，特别是在药物安全性评价领域。随着FDA的合作项目接近完成，行业标准和监管准入流程将趋向更加规范化和统一化，为技术应用提供清晰指引。在技术应用方面，基于高通量器官芯片筛选的药物重新定位研究可能会取得突破性进展。</p>
-<p>所以，理性看待，非动物技术仍处于初级阶段，仍要依赖传统的手段推动非临床研究的开展。此外，大家也都在积极拥抱创新，希望未来能够通过临床数据及动物数据，更好的去验证非动物技术的可靠性。近两年，器官芯片技术与细胞治疗和肿瘤免疫学的结合将加速相关疗法的市场化进程，为更多创新治疗方案的开发提供有力支持。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTMyMDg0Ng==&amp;mid=2650649430&amp;idx=1&amp;sn=4283447ec3d623d2cc8af4196de7326d&amp;chksm=bfc82e62900c67ee3e13261c9513b8e7d6a37021dbc714728473543171068f20c1007aecdce6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“动脉网”（ID：vcbeat）</a>，作者：张珏，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990184856201990</guid><pubDate>Mon, 14 Oct 2024 07:36:00 +0800</pubDate></item><item><title>“想喝自己做”，饮品店主集体“摆烂”，却意外更赚钱？</title><link>https://36kr.com/p/2990259514895362</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“想喝什么酒自己调”“想喝咖啡自己冲”</p>
-<p>广州、成都、苏州、厦门等地，一批酒馆和咖啡店主当起了“甩手掌柜”，让顾客“自力更生”，意外收获大量好评，这种自助模式还有规模流行之势。</p>
-<p>饮品界已卷到上门做奶茶，这种“反其道行之”的门店为何更火？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_e315ff56a7df46daa90c61b089b0be0f@000000_oswg69027oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>“自助饮品”大流行，酒馆、咖啡店、便利店都在玩</strong></h2>
-<p>我发现，越来越多酒馆老板开始当起“甩手掌柜”，在店里开启“自助模式”。</p>
-<p>沈阳的有量酒馆、成都的EME cocktail、苏州的碰杯小酒馆、天津的COZY愉舍、济南的隐社酒馆、厦门的瓦伦Warung……</p>
-<p>各地酒馆纷纷推出自助调酒服务，在店里打造一整面自助鸡尾酒墙，倒挂着多种常见的基酒，吧台摆放着糖浆，<strong>顾客只需按照顺序和指令操作，即可轻松调制出一杯鸡尾酒。</strong></p>
-<p>主打一个“自己动手，丰衣足食”，吸引了许多网友到店体验。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_42e81ea0dd2c443c863edd0c08580eab@000000_oswg113682oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>咖啡馆也开启了自助模式。</p>
-<p>赣州半菊咖啡的店主香香，在店门口张贴了一张“今日自助”的贴士，告知顾客店主休假期间，可以自己进吧台制作咖啡，扫码付款。贴士还附上香香的个人手机号，并提醒“店内设有监控”。</p>
-<p>在小红书上发布该笔记后，获得1600多个赞，网友纷纷支持：</p>
-<p>“开到我的城市，我给你守店。”</p>
-<p>“希望这样的店多开，我可以在里面玩过家家。”</p>
-<p>“店主加个雪糕机，我会打甜筒。”</p>
-<p>与半菊咖啡的偶尔自助不同，成都的15COFFEE、福州的山海旅人、在成都和广州都有店的北归咖仓，则将自助咖啡模式打造成了长期服务。<strong>顾客可以现场选豆、制作咖啡，还会有店员在一旁指导。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_1864c235f7d147eb97978be771820baa@000000_oswg75923oswg1080oswg699_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这股风还吹到了连锁便利店和进口超市。</p>
-<p>711、全家、伊藤洋华堂在部分门店设“自助调酒机”，顾客把购买的冰杯和果味饮料，放在自助机器下，按照配比提示加入不同基酒，即可获得一杯DIY酒饮。</p>
-<p>“自助模式”掀起新流行？具体怎么玩？</p>
-<h2><strong>看似没服务，实则重体验，4招打造受欢迎的“自助模式”</strong></h2>
-<p>我和推出自助模式的多位酒馆、咖啡店主理人聊了聊，发现4个“制胜法宝”。</p>
-<p><strong>1、 玩法简单低门槛，为顾客留足创意空间</strong></p>
-<p>以自主调酒为例，顾客先找店员领取冰杯，选择心仪的酒卡。</p>
-<p>碰杯小酒馆提供了20余种酒卡，经典的长岛冰茶、玛格丽特、莫吉托、自由古巴都能轻松复刻。瓦伦Warung在十几种酒卡之外，还鼓励顾客在网上查找创意调酒方案到店制作。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_5a1f7f4173234d498cfc03310ccb3077@000000_oswg85779oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>拿到酒卡后，就可以到自助调酒区制作了。</p>
-<p>酒馆一般会配备6～12种常见基酒 （伏特加、朗姆酒、龙舌兰等） ，以及风味糖浆、气泡水、果汁、柠檬、薄荷叶等物料。</p>
-<p>顾客按照酒卡上的配比建议和墙上的提示，在冰杯中依次加入物料即可。</p>
-<p>每一瓶基酒按压一泵会出30ml （可随时暂停） ，糖浆瓶按压一泵出10ml，顾客也可以凭喜好选择用量杯称量。</p>
-<p>取料精准，保证毫无调酒基础的小白也可以做出好喝的鸡尾酒。</p>
-<p>一般推出“自助模式”的咖啡店，<strong>会想尽办法降低顾客动手的门槛。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d2dfcf646e2342389c6937534ab00fdc@000000_oswg110456oswg1080oswg834_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>半菊咖啡的磨豆机上贴着咖啡制作贴士，标明意式咖啡的粉量、萃取时间、液重等数据，手冲咖啡还标注了粉量和比例。遇到困难，也可以联系店主视频讲解。</p>
-<p><strong>“自助模式”并不意味着限制顾客的体验，</strong>在北归咖仓，仅手冲咖啡就有冰冲和热冲两种模式可选。</p>
-<p><strong>2、重服务体验，每个环节都有仪式感</strong></p>
-<p>一般的饮品店卖的是产品，<strong>提供“自助模式”的店不仅卖产品，更卖服务。</strong>他们会将每一个制作环节赋予仪式感，由此拉高产品价值，提升消费体验。</p>
-<p>首先是选豆环节。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_2faaba9e4b0040de9b424d03d8e2c807@000000_oswg117027oswg1080oswg708_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>北归咖仓有20多种咖啡豆，顾客可以试闻咖啡干香，体会不同咖啡豆的特色和区别。成都的15COFFEE，店员会介绍每种咖啡豆的产地、酸度和烘焙程度，顾客可以选择2~3种豆子拼配。</p>
-<p>将选择的豆子称重、磨粉的时候，顾客还可以从店员那里收获咖啡制作的知识，<strong>将消费体验变成一种“学习体验”。</strong></p>
-<p>顾客想做拿铁，店员还会手把手教其打奶泡、拉花。</p>
-<p>自制咖啡前，<strong>顾客可以先选择自己喜欢的杯子，还可以给自己做的咖啡取一个名字，</strong>由店员录入门店的DIY库。顾客下次再来时，报咖啡名就可以喝到自己的专属咖啡。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4d8a3a64d3e94b0d800e9785d540da51@000000_oswg54111oswg1080oswg648_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>3、价格有吸引力，往往低于市场价</strong></p>
-<p>半菊咖啡在自助模式期间，所有咖啡都在原有价格的基础上打8折。</p>
-<p>成都的15COFFEE，双人套餐售价68元，包含2杯咖啡 （可自制，也可让店员做） 和1份提拉米苏。</p>
-<p>碰杯小酒馆的“自助调酒”，售价42元一杯，市场反馈不错，苏州正常鸡尾酒的价格普遍在78~88元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_16041277b1a14e8c922fe6c84e2f0ed8@000000_oswg102600oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>该酒馆还推出了“酒鬼挑战计划”：98元自选三杯，158元自选6杯，198元自选9杯。吸引了许多年轻人挑战。</p>
-<p>瓦伦Warung店里调酒师做的鸡尾酒，一杯售价约68元，而1杯自助调酒，定价仅29元。</p>
-<p>“真正懂鸡尾酒的人大多喝调酒师调的，自助调酒作为引流款，可以吸引入门小白。”瓦伦Warung的主理人Sora说。</p>
-<p><strong>4、 放大颜值特点，方便打卡出片</strong></p>
-<p>鸡尾酒本身就自带高颜值的打卡属性，<strong>许多酒馆会做出一些“锦上添花”的设计，帮助顾客出片。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_885273504f374b3b87f9dd33264eff47@000000_oswg70652oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>EME cocktail准备了风干鲜花和绿叶，方便顾客装饰鸡尾酒。今夏“游泳气泡水”风靡之时，不少酒馆还提供小熊软糖、金鱼软糖等，让顾客轻松复刻流行饮品。</p>
-<p>瓦伦Warung将酒卡做成了多巴胺色系，分成5个基础色，搭配高颜值的自制鸡尾酒，为拍照增加氛围感。</p>
-<p>我还发现，许多酒馆会在自助制作环节强调“大力shake”：在冰杯中加入基酒、糖酒后，倒入雪克杯大力雪克。</p>
-<p>这可以说<strong>是调酒师的“招牌动作”，因此也成了顾客体验的重要一环</strong>。许多网友会用动态图片或视频记录。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_0b4551de5ad449cfbe0747297c1c0808@000000_oswg71023oswg1080oswg771_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>成年人的“过家家”，“自助模式”考验运营细节</strong></h2>
-<p>与前两年流行的自助糖水贩卖机不同，这一波自助趋势，<strong>更强调消费者的参与度和体验感。</strong></p>
-<p>我注意到，不止一个顾客提到“可能是心理作用，自己做的好像更好喝了。”</p>
-<p>这并不难理解。当今社会，<strong>消费者需要的不仅仅是一杯满足口腹之欲的饮品，毫无压力地体验一把调酒师和咖啡师的乐趣，从自己生活中短暂抽离，无疑是成年人的一种“过家家”。</strong></p>
-<p>不过，这种模式也有bug。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d2886f0a75d6457880eecab97bcaf408@000000_oswg74581oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>有网友提出：“餐饮从业者需具备健康证，懂得正规操作及清洁流程，普通消费者很难做到位。”</p>
-<p>这一问题，在无店员指导时尤为突出。</p>
-<p>半菊咖啡的主理人香香告诉我：“有一些纯打卡、不太会做咖啡的顾客，<strong>对设备的使用和维护不太友好，而且容易产生食安风险，</strong>比如取冰块时不用冰铲。”</p>
-<p>虽然大多数顾客会主动清洗用具，但也有小部分人不自觉。香香坦言，纠结是否继续“自助模式”。</p>
-<p>同时她也强调，做自助的初衷，是想给更多咖啡爱好者交流实践的平台。结果也确实如此，这一服务吸引了不少“同道中人”，也逐渐成了熟客。</p>
-<h2>结语</h2>
-<p>“自助饮品”模式凭借其趣味性体验感，成为门店的新型引流思路，同时也对经营者提出了更高的管理要求。</p>
-<p><strong>如何既保障消费体验，又规避食安风险，有待进一步探索优化。</strong></p>
-<p>你看好“自助饮品”模式吗？欢迎留言讨论。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU3MDA0NzE5MA==&amp;mid=2247599111&amp;idx=1&amp;sn=6ff07b20259eb2a393a81cfcd6880958&amp;chksm=fdc260d09aad102685b9884cabad5bcdc07642da0a644707d6889107f2f39be55697d6c8f3ba&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“咖门”（ID：KamenClub）</a>，作者：静子，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990259514895362</guid><pubDate>Mon, 14 Oct 2024 07:42:00 +0800</pubDate></item><item><title>王健林，好哥们难当</title><link>https://36kr.com/p/2990690059283203</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>如果将互相兜底作为衡量真朋友的一大标准，在王健林的一众好哥们中，大连一方集团有限公司董事长孙喜双绝对榜上有名。</p>
-<p>作为好哥们，孙喜双不仅是大连万达私有化时的第一批投资者，还曾在合作投资长白山旅游度假区亏损时独自接盘，为王健林“兜底”。王健林也投桃报李，两度投资处于亏损期的百年人寿，支持大股东孙喜双。</p>
-<p>但这底有时候也不好兜。<strong>近日，因为好哥们孙喜双拖欠了急需资金纾困的永辉超市3个亿，作为“保人”的王健林再次成为媒体焦点。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_983d62c7e1624324a930bd7031d068d7@000000_oswg16428oswg532oswg300_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>因未能按时收到万达商管的第四期股权转让款，近期，永辉超市决定提起仲裁，并追究王健林等相关方的连带担保责任。最新消息是，永辉超市公告称，目前已收到上海国际经济贸易仲裁委员会受理通知，正式进入开庭审理阶段。</p>
-<p>这并非永辉超市首次催款。在今年4月和7月，公司曾先后公告称，该股权转让的第二期和第三期转让款均未能足额按时收到。截至目前，孙喜双仅支付了永辉约8.91亿元，未付款金额超36亿元。</p>
-<p>曾受腾讯、京东追捧的永辉超市，近些年日子并不好过。连年亏损之下，永辉屡次卖身，并找到胖东来调改，直到最近还被名创优品收购。与孙喜双的巨额交易一旦泡汤，恐对上述合作产生影响。</p>
-<p>同在地产行业，孙喜双资产缩水，出手也没了往日的阔绰。<strong>想要通过回购股份，力挺好哥们王健林，如今也是有心无力。</strong></p>
-<p>军人出身的王健林出了名地讲义气，商场沉浮三十载，交下了不少朋友。万达危难之时，总能化险为夷，除了王健林壮士断腕的魄力，更得益于王健林遍布地产、互联网、影视和投资圈的众多朋友。</p>
-<p>只是如今，万达这艘商业巨轮上，有的老朋友自顾不暇，有的同行一段后选择了上岸。对于王健林而言，再想找到一个称心如意、能互相兜底的好哥们，恐怕越来越难了。</p>
-<h2>A</h2>
-<p>在一众好哥们中，孙喜双一度被外界视为王健林“最好的合作伙伴”。</p>
-<p>“我1993年就开始投资万达了，王健林是一个干实事的人，我投资万达这个企业就是投资王健林这个人。”从王健林发迹早期开始，几乎每一笔万达投资的背后，都有孙喜双的身影。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_948888b9e51e4646852709b773874bd2@000000_oswg68402oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2002年，万达启动私有化，孙喜双成为第一批投资者。彼时，大连万达和华信信托将公司3600万股股价，作价6200万元出售给了北京合兴投资，合兴持有了万达30%股份，成为万达的第二大股东，北京合兴的法人正是孙喜双。</p>
-<p>之后，孙喜双的名字更是与王健林紧紧绑在了一起。无论是投资万达广场还是文旅项目，甚至是当王健林做起“东方好莱坞”影视梦的时候，孙喜双都紧随其后。</p>
-<p>2004年，王健林去北京发展，投资北京的万达广场，孙喜双不仅一起出资投资，更在2011年6月，将大连一方集团总部迁往北京，办公室就选在北京万达里面，而王健林的个人办公室也是在这里。</p>
-<p>2008年，孙喜双和王健林、卢志强去长白山考察，也是一同乘坐商务飞机去的。2009年，万达与大连一方共同投资长白山国际旅游度假区、大连金石国际文化旅游区、西双版纳国际度假区等文旅项目，总投资额超过1000亿元。</p>
-<p>但商业地产风云变幻，作为真朋友，两人也多次在彼此艰难之际互相“兜底”。长白山万达作为王健林的第一个文旅项目，投资阵容和金额曾一度引发关注，但最终项目烂尾，股东相继撤退，最终孙喜双单独接手了这个项目，为王健林兜底。</p>
-<p>2015年，王健林两次投资百年人寿，而当时百年人寿处于亏损期，许多股东都在抛售股权，因此万达的投资，被外界认为是为了支持大股东孙喜双。2015年，孙喜双收购了大连阿尔滨足球队，更名为大连一方足球队，而一方集团和阿尔滨的交易，幕后最大支持者就是王健林。</p>
-<p>两人的友谊也在一次次的相互扶持中，愈加深厚。2014年12月，万达商业地产在港交所主板挂牌上市。孙喜双在其中持有6.3%股权，是唯一一个持股超5%的自然人股东。</p>
-<p>同年，历时5年、总投资24亿元的大连一方城堡豪华精选酒店在大连开业，王健林的夫人林宁还出席了现场，为孙喜双的酒店开业站台。</p>
-<p>2016年，在《鲁豫有约》的王健林专访中，孙喜双罕见地出现在王健林私人飞机上，当时王健林和孙喜双正在飞机上斗地主。而王健林则调侃，经常和孙喜双在飞机上打扑克，在娱乐之余整个人会比较轻松。</p>
-<p>“投资王健林”也让孙喜双收获了丰厚的回报。2018年，孙喜双身家突破281亿元，在全国富豪榜中位居87名，在辽宁富豪榜中位居第一。</p>
-<h2>B</h2>
-<p>2017年，万达陷入债务危机，也正是这一年开始，万达开始了轻资产转型。壮士断腕的王健林，走上了变卖资产的道路。</p>
-<p><strong>在王健林忙着腾挪万达轻资产上市的同时，孙喜双也从幕后走到了台前，忙着出质手中的大连万达商管股份。</strong></p>
-<p>2018年12月，孙喜双以总价35.31亿元向永辉超市出售手上持有的万达商管6791万股股份。</p>
-<p>彼时，万达商管从港股退市两年多，正经历着回A路上的漫长等待。抛售万达商管股份被行业解读是万达短时间内回不了A股后，孙喜双因缺钱而进行的“套现”行为。</p>
-<p>除了频繁质押大连万达商管股份，2020年4月22日，孙喜双还质押了万达电影3489.47万股股份。</p>
-<p>孙喜双的 频繁质押不仅引发了外界对其资金情况的质疑，更让其与王健林之间的关联变得更为紧密。</p>
-<p>一大直接体现便是孙喜双与永辉之间围绕万达商管股份的回购交易。2023年12月12日，太盟投资集团宣布“搭救”王健林，与其重新签订投资协议，次日晚间，永辉就发布了孙喜双回购所持万达商管股份的公告。</p>
-<p><strong>对赌危机解除，万达商管暂时上岸，而王健林的一些朋友却选择下船，</strong>其中便包括永辉和碧桂园，它们先后清仓股份。</p>
-<p><strong>此时孙喜双的高价接盘，不仅给市场传递了积极信号，还拉高了大连万达商管的市场估值。</strong></p>
-<p>只是为友情充值也需要真金白银，这位曾经的大连首富也显得力不从心。按照约定，股权转让款分八期支付。其中，第一期3亿元于2023年12月29日按期支付。第二期3.91亿元出现了逾期情况。根据公告，第三期7.92亿元款项的付款时间为6月30日，目前永辉超市尚有5.92亿元未如期收到。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_049ade7d24be4e56a8bfb2766ad85a3f@000000_oswg326944oswg934oswg591_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>由于大连一方并未上市，外界难以获知其具体的经营情况，但在房地产行业下行的环境下，其与孙喜双的境况并不算好。天眼查显示，今年4月，大连一方新增了一条被执行人信息，被执行标的金额为4.63亿元。</p>
-<p>孙喜双的个人财富也在缩水。2018年10月，孙喜双家族以300亿元的财富，位列当年胡润百富榜第89位。在2024年胡润百富榜中，孙喜双家族的财富为80亿元，6年间财富缩水220亿元。</p>
-<p>由于多次未能按期足额收到大连御锦方面的股权转让款，7月份，永辉超市调整了剩余转让款的分期进度，并补充孙喜双的好友王健林为交易担保方。</p>
-<p>两人交情如此深厚，王健林为孙喜双做担保也似乎在情理之中。<strong>但在对方资金不足的情况下，王健林毅然愿意担保，与其说是在为好哥们王喜双兜底，不如说是他在为自己加一份保障。</strong></p>
-<p>“如果孙喜双联合王健林作为实质上的一致行动人而提升对于万达商管的控制权，则有利于万达集团及王健林更加积极地推动万达商管的发展，并制定更加长远的发展战略；否则，万达集团与王健林则可能会采取更加谨慎的策略，以避免对万达商管的发展造成不利影响。” IPG中国区首席经济学家柏文喜坦言。</p>
-<p>如今，尚未收到第四期3亿转让款的永辉超市已经向王健林和孙喜双等发函，要求大连御锦立即向公司支付款项，并请王健林先生、孙喜双先生、大连一方集团有限公司承担连带保证责任。</p>
-<p>至此，王健林可谓旧债未还，恐又添新债。截至今年6月末，万达集团的有息负债依然达到1375.61亿元。‌其中，一年内到期的有息负债为302.69亿元‌。</p>
-<h2>C</h2>
-<p><strong>王健林在圈子里，一向被视为很重义气的“大哥”。</strong></p>
-<p>2016年万达商管从港股退市，原因是王健林认为万达的股价太低，用王健林自己的话说，“我做了很多的行业，有多少次投资，很多朋友跟着我一起投资，每一单赚着很开心，唯一这一单，跟着我的朋友亏钱了。这是很重要的一点，不能对不起我的朋友和股东。”加上当时万达风头正劲，王健林看到香港的投资人如此不识货，于是一气之下就提交了退市申请。</p>
-<p>当然，结果就是王健林在H股和A股的反复拉扯，对形势的误判成为万达陷入危机的因素之一。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d88a5c20d6624f38a859d0110a0a5b7e@000000_oswg151093oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过，得益于王健林的好人缘，万达遭遇危机这几年，紧要关头总有贵人出手相助。</p>
-<p>2023年12月12日，卡着珠海万达商管上市大限的最后关头，资本大佬太盟集团主席单伟建伸出了援手，将王健林和万达从悬崖边拉了回来。</p>
-<p>腾讯、阿里、京东等互联网新贵们也曾伸出援手。去年7月，中国儒意曾以22.62亿元价格接手了万达投资49%股权，而中国儒意背后的第二大股东正是腾讯。事实上，早在2018年初，腾讯就曾带头，联合京东、苏宁、融创，向万达投资340亿元，给万达“解套”。同年，阿里也掏出46亿入股万达电影。</p>
-<p>更早之前，融创和富力等地产圈的盟友们则率先接盘。2017年，在被称为“壮士断腕”的万达与融创世纪交易之中，无锡融创茂与其他文旅项目一齐被打包卖给了孙宏斌，77家万达酒店100%的股权作价199.06亿元出售给张力的富力地产。</p>
-<p><strong>最近几年，王健林的朋友圈换了一批又一批，“白衣骑士”也从地产圈和互联网圈，拓展至如今的影视圈和投资集团，能够再帮王健林一把的好哥们，越来越少，也越来越力不从心了。</strong></p>
-<p>在王健林为安抚投资人四处奔走之时，孙宏斌为化债熬白了头，碧桂园也陷入“创始人跑路”舆论旋涡。</p>
-<p>互联网巨头们由攻转守，砍掉非核心业务，积极瘦身：腾讯减持了包括京东、美团、新东方和华谊兄弟在内的多家上市公司股份；阿里退出芒果超媒，并屡次传出出售大润发的消息；字节也裁撤了战投部。</p>
-<p>如今，万达纵然解除了对赌危机，但债务压力依旧不小。商海沉浮三十载，王健林身边总有朋友相帮，只是如今，昔日的好哥们也没有了往日的阔绰。</p>
-<p><strong>除了给孙喜双担保，万达的未来也需要王健林担保起来了。</strong></p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247538362&amp;idx=1&amp;sn=d13851f5ee7e7c28afa11fb288813528&amp;chksm=eb3b653ec1ed160d452f2239fd94c9f5b21fc56f8e15c4e177f7e02021101c7f6c24f0056354&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“字母榜”（ID：wujicaijing）</a>，作者：张琳，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990690059283203</guid><pubDate>Mon, 14 Oct 2024 07:48:00 +0800</pubDate></item><item><title>8点1氪｜财政部同意销毁28款即开型彩票；迈巴赫新车漏水车主回应；SpaceX首次回收星舰成功</title><link>https://36kr.com/p/2991577624570886</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2>TOP3大新闻</h2>
-<p><strong>财政部同意销毁28款即开型彩票，包括“六六顺”等28款即开型福利彩票</strong></p>
-<p>据财政部10月12日消息，财政部同意中国福利彩票发行管理中心采用粉碎方式销毁已停止销售的“六六顺”等28款即开型福利彩票，共计98.86万张，票面总值1000.46万元。民政部和体育总局将监督销毁工作，要求在30个工作日内完成，并在完成后20个工作日内报送销毁情况报告。（财联社）</p>
-<p><strong>迈巴赫新车漏水车主回应经销商声明：通篇的敷衍解释</strong></p>
-<p>近日，一位迈巴赫车主反映他在购车2天后发现副驾驶A柱漏水，新车被拆了又拆，4S店未找到故障原因。10月12日，经销商“奔驰苏州元星”发声明回应“迈巴赫漏水事件”。声明称，7月11日，在客户授权同意情况下，对车辆相关位置进行轻度拆检明确了渗水区域，为进一步锁定渗水点，建议客户拆除条状玻璃元件，客户强烈反对，拆检维修停滞。迈巴赫经销商称无奈多次报警求助，最近一次进店现场沟通中，双方并未就赔偿方案达成一致。</p>
-<p>10月13日，迈巴赫漏水车车主发博回应“奔驰苏州元星”的声明，称一个大品牌，发生这样的问题，不对自己产品质量和傲慢的服务态度的道歉，却是通篇的敷衍解释。（新京报、国是直通车）</p>
-<p><strong>SpaceX首次回收星舰成功</strong></p>
-<p>10月13日，SpaceX在第五次星舰试飞中成功利用发射塔架上的“筷子”机械臂，夹住了一级超重型火箭，完成了本次发射任务的一个重要目标。在星舰发射升空2分多钟后，一级超重型火箭与星舰分离，开始返回。距离星舰发射6分多钟后，第一级成功被发射塔架上的“筷子”机械臂夹住。这是SpaceX第一次尝试回收星舰的第一级。接下来，星舰第二级将继续飞行，准备在印度洋受控溅落。（新浪财经）</p>
-<h2>大公司/大事件</h2>
-<p><strong>东北雨姐橱窗已下架所有商品，消费者可要求东北雨姐退一赔三</strong></p>
-<p>10月12日，辽宁本溪县市场监督管理局对“雨姐传媒”作出处罚，网红“东北雨姐”虚假宣传，没收违法所得和罚款共计165万元；责令雨姐传媒暂停经营限期整改，承担相关法律责任。记者查看“东北雨姐”的平台账号，发现商品橱窗已下架所有商品。河南泽槿律师事务所主任付建认为，消费者可以要求“东北雨姐”退一赔三。（红星新闻） </p>
-<p><strong>中国股票基金单周流入资金近400亿美元，连续第二周创历史纪录</strong></p>
-<p>“10月交易的第一周，流入中国股票基金的资金以火箭般的速度创下了历史新高。”全球资金监测平台EPFR在最新一期的周度报告中这样写道。这是中国股票基金单周流入额连续第二周创下历史纪录。在截至10月9日的一周内，EPFR跟踪的所有新兴市场股票基金净流入409亿美元，而这一趋势由中国股票基金的资金流入所引领。中国股票市场见证了约390亿美元的资金流入，再度创下历史新高，其中包括境内投资者的300亿美元和海外投资者的90亿美元。（上海证券报）</p>
-<p><strong>北大校友否认“听泉鉴宝”是北大毕业生，听泉鉴宝学校信息已更改</strong></p>
-<p>近日，网红博主“听泉鉴宝”宣布短暂停播引发关注。10月12日，记者发现，账号“听泉鉴宝”的实名认证信息为丁祥栩，账号的学校信息由此前的“北京大学”改为了“女子中学”。记者从北京大学考古文博学院的某位校友处获悉，丁祥栩并非该院毕业生。（封面新闻）</p>
-<p><strong>财政部副部长郭婷婷：2024年国家奖学金奖励名额将翻倍</strong></p>
-<p>证券时报网讯，财政部副部长郭婷婷10月12日在国新办新闻发布会上表示，2024年国家奖学金奖励名额翻倍，本专科生国家奖学金名额从每年6万人增加到12万人，硕士生从3.5万人增加到7万人；提高本专科生奖励标准，本专科生国家奖励标准从每生每年8000元提高到1万元。（证券时报）</p>
-<p><strong>国家统计局：9月份鲜菜价格上涨22.9%</strong></p>
-<p>9月份，食品烟酒类价格同比上涨2.3%，影响CPI（居民消费价格指数）上涨约0.66个百分点。食品中，鲜菜价格上涨22.9%，影响CPI上涨约0.48个百分点；鲜果价格上涨6.7%，影响CPI上涨约0.13个百分点；畜肉类价格上涨3.8%，影响CPI上涨约0.12个百分点，其中猪肉价格上涨16.2%，影响CPI上涨约0.21个百分点；水产品价格上涨2.0%，影响CPI上涨约0.04个百分点；蛋类价格下降4.1%，影响CPI下降约0.03个百分点；粮食价格下降0.7%，影响CPI下降约0.01个百分点。（证券时报）</p>
-<p><strong>《黑神话：悟空》助力游戏科学跻身Steam发行商收入榜前列，总收入超10亿美元</strong></p>
-<p>根据Steam统计数据平台Gamalytic的最新数据显示，国内游戏开发商游戏科学成功跻身Steam顶尖发行商排行榜，位居第12名，超越了包括CD Projekt Red、FromSoftware和Larian Studios等知名公司。该排名基于Steam平台上的游戏收入进行计算，数据显示，游戏科学的总收入已超过 10 亿美元（约合70.71亿元人民币）。目前，游戏科学在Steam上发行了两款游戏，分别是《战争艺术：赤潮（Art of War: Red Tides）》和《黑神话：悟空》，这两款游戏的平均收入达到了5亿美元。《战争艺术：赤潮》于2016年12月作为免费游戏推出，获得玩家“特别好评”评价。(华尔街见闻）</p>
-<p><strong>多只基金宣布提前结束募集期</strong></p>
-<p>多只基金宣布提前结束募集期，在升温的行情里，提前结募的产品中出现了不少权益类基金，除了10只A500ETF在发行端同台竞技，还有汇添富红利智选、华泰保兴产业升级等主动权益类产品提前结募。（财联社）</p>
-<p><strong>三星电子遭遇寒冬，市值蒸发近90万亿韩元</strong></p>
-<p>36氪获悉，韩国证券交易所发布的数据显示，从上月3月至本月11日，外资连续23个交易日抛售三星电子，总共卖出10.6593万亿韩元（约合人民币558亿元）。在此期间，三星电子股价从7.44万韩元暴跌至5.93万韩元，跌幅达20.3%，市值从444万亿韩元降至354万亿韩元，蒸发近90万亿韩元。以月底为准，三星电子的外资持股比例从8月的56.02%降至9月的53.75%，降幅为2.27个百分点。这是自2004年以来的最大降幅。</p>
-<p><strong>岑浩辉高票当选澳门特区第六任行政长官人选</strong></p>
-<p>澳门特区第六任行政长官选举10月13日举行。岑浩辉高票当选澳门特区第六任行政长官人选。(央视新闻)</p>
-<p><strong>永辉超市：收到上海国际仲裁中心仲裁案受理通知</strong></p>
-<p>36氪获悉，永辉超市公告称，收到上海国际仲裁中心仲裁案受理通知，请求裁决大连御锦立即向公司支付剩余股份转让价款人民币3,639,089,070.93元，以及加速到期违约金人民币218,345,344.26元。同时，请求裁决大连御锦立即向公司支付因本案支出的律师费人民币2,001,017.21元。请求裁决王健林先生、孙喜双先生、大连一方集团有限公司为前述剩余股份转让价款、加速到期违约金及律师费合计人民币3,859,435,432.40元承担连带保证责任。请求裁决被申请人承担本案全部仲裁费用。鉴于案件尚未开庭审理，后续审理结果存在不确定性，因此对公司的影 响尚存在不确定性。</p>
-<p><strong>2024中国民营企业500强报告公布，互联网行业研发投入领先</strong></p>
-<p>36氪获悉，全国工商联10月12日发布“2024中国民营企业500强”榜单和《2024中国民营企业500强调研分析报告》。报告显示，今年共有30家民营企业500强入围《财富》世界500强榜单。在研发投入榜单中，排名前三的企业分别为：华为、腾讯、阿里巴巴；互联网公司占据其中半壁江山，腾讯连续两年蝉联互联网行业研发投入第一。腾讯2023年研发投入达到640.78亿元，自2018年至今其研发投入累计超过3000亿元。</p>
-<p><strong>宗庆后卸任娃哈哈昌盛方便食品公司董事长职务</strong></p>
-<p>36氪获悉，爱企查App显示，近日，浙江娃哈哈昌盛方便食品有限公司发生多项工商变更，包括市场主体类型变更、高级管理人员备案等。此次变更后，宗庆后卸任董事长，祝丽丹接任李洋的法定代表人、经理职务，宗馥莉仍为该公司董事。 </p>
-<p><strong>韩国高端婴幼儿辅食企业一产品细菌超标</strong></p>
-<p>根据韩国食品医药品安全处11日发布的最新消息，韩国一家知名高端婴幼儿辅食企业旗下的一款产品出现细菌超标。韩国食品医药品安全处告知购买相关产品的消费者立即停止食用并退货，同时要求京畿道金浦市迅速回收相关产品。值得注意的是，涉事企业已获得韩国国家级食品安全管理认证。（财联社） </p>
-<p><strong>波音将裁员17000人，推迟首架777X飞机的交付</strong></p>
-<p>波音公司首席执行官凯利·奥特伯格11日表示，将裁员17000人，占其全球员工总数的10%，将其777X飞机的首架交付推迟一年，并且预计其国防业务将出现大量新损失，因为为期一个月的罢工对公司财务造成了重创。奥特伯格在给员工的一封信中表示，在约30000名美国西海岸工人罢工导致其737 MAX、767和777飞机停产后，公司必须重新调整员工数量“以符合我们的财务现实”。（新浪财经）</p>
-<h2>AI最前沿</h2>
-<p><strong>中国人工智能核心产业规模不断提升，注册用户超6亿</strong></p>
-<p>工业和信息化部总工程师赵志国：中国人工智能核心产业的规模在不断提升，企业数量超过了4500家。完成备案并上线为公众提供服务的生成式人工智能服务大模型近200个，注册用户超过6亿。（央视新闻）</p>
-<p><strong>整理｜</strong> 何雨婷 </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2991577624570886</guid><pubDate>Mon, 14 Oct 2024 07:51:00 +0800</pubDate></item><item><title>存量房贷如何降？多家银行公布细则</title><link>https://36kr.com/p/2989488456903176</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>10月25日起，除贷款在北京、上海、深圳等地区且为二套房贷款的情形，其他符合条件的房贷利率都将调整为贷款市场报价利率LPR-30BP</p>
-</blockquote>
-<p>市场期盼已久的存量房贷调整细则出炉。</p>
-<p>10月12日，包括国有大行、股份行及城商行在内的多家银行正式发布存量房贷利率批量调整细则，10月25日，银行将对符合条件的存量商业性个人住房贷款利率进行批量调整，无需客户申请，不收取任何费用。</p>
-<p><strong>除贷款在北京、上海、深圳等地区且为二套房贷款的情形，其他符合条件的房贷利率都将调整为贷款市场报价利率LPR-30BP（基点）。</strong></p>
-<p>哪些房贷可以调？具体怎么调？借款人需要做些什么？针对调整中的涉及的各类细节问题，《财经》进行了梳理。</p>
-<h2><strong>哪些房贷可以调？</strong></h2>
-<p>根据各行公布的细则，已发放的存量商业性个人住房贷款将实施利率调整。</p>
-<p><strong>这其中，包括普通纯商业性个人住房贷款、公积金组合贷款中的商业性个人住房贷款。首套房贷款、二套房贷款均在本次存量房贷利率批量调整范围内。</strong></p>
-<p><strong>与此同时，部分存在还款困难的客户亦包含其中。</strong>如中国银行在公告中表示，不良类个人住房贷款也将一并进行下调。建设银行亦提到，充分考虑有拖欠客户的实际还款困难，减轻还款压力，本次一并纳入批量调整。</p>
-<p>不过，执行利率在市场报价利率（LPR）基础上加点幅度高于-30BP的存量个人住房贷款（包括首套、二套及以上），固定利率和基准利率的贷款须先转为市场报价利率（LPR）浮动方式再进行调整。</p>
-<p><strong>值得一提的是，部分银行客户申请了提前还贷。</strong>综合各家银行的回答，主要分三种情况：如尚未完成扣款，客户可撤销提前还款申请，只要符合此次调整条件，即可进行利率调整；如已完成部分提前还款扣款，只要符合此次调整条件，剩余本金部分可进行利率调整；如全部贷款已结清，则无法进行利率调整。</p>
-<h2><strong>具体调多少？</strong></h2>
-<p><strong>综合各家银行的公告，符合条件的存量房贷利率批量调整为LPR-30BP。</strong></p>
-<p><strong>具体而言，各家银行的调整规则基本一致。</strong>如房贷所在城市无新发放房贷利率加点政策下限或加点政策下限不高于-30BP，则LPR加点幅度高于-30BP的，将其LPR加点幅度调整至-30BP；LPR加点幅度不高于-30BP的，将不调整。</p>
-<p>如房贷所在城市有新发放房贷利率加点政策下限且加点政策下限高于-30BP，则LPR加点幅度高于加点政策下限的，将其LPR加点幅度调整至加点政策下限；LPR加点幅度不高于加点政策下限的，将不调整。</p>
-<p>例如，一名银行客户的房贷利率是LPR-45BP，在这次批量调整时，其存量住房贷款将不进行调整。</p>
-<p><strong>值得注意的是，目前包括北京、上海、深圳等地区在内的地区尚未取消房贷利率下限，因此规则有所区别。</strong></p>
-<p>针对以上地区，多家银行明确，北京、上海、深圳等地区利率高于LPR-30BP的首套房贷和其他地区利率高于LPR-30BP的全部存量房贷统一调整至LPR-30BP。</p>
-<p>北京、上海、深圳等地区二套房贷利率高于相应政策下限的统一调整至当地相应政策下限。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_ebe4a3c8f00c43ef985c211300cae8e8@000000_oswg302393oswg1080oswg561_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：浦发银行公众号</p>
-<p>中国银行在存量房贷利率调整常见问题答疑还提到，目前，全国大部分地区首套房、二套房贷款利率下调幅度没有区别，都将下调至LPR-30BP，无需申请“二套转首套”，将批量进行利率下调。</p>
-<p>如客户为北京、上海、深圳地区的二套房贷款且当前已符合首套房标准，可申请将二套房贷款转为首套房贷款，经过审批后符合条件的将调整为首套房贷款，后续可按首套房贷款标准予以下调。</p>
-<h2><strong>固定利率/基准利率，客户怎么调？</strong></h2>
-<p>在本次存量房贷调整中，固定利率和基准利率的贷款须先转为LPR浮动方式再进行调整。对于这些客户，各家银行亦给出了操作指南。</p>
-<p>综合多家银行的公告，存量固定利率和基准利率贷款，客户需线上或线下向该行申请调整利率定价方式，转换为LPR浮动利率定价后，再按调整规则进行利率调整。</p>
-<p><strong>对于申请时间，各家银行不尽相同。</strong></p>
-<p>工商银行公告显示，当前执行固定利率或基准利率定价、“二套转首套”业务，客户自公告之日至10月24日（含）可通过手机银行或贷款服务行发起申请，审核通过后，该行于10月25日进行集中批量调整贷款利率，当日起按新的利率水平执行，调整前利息按原合同利率水平计算。</p>
-<p>建设银行在公告中提到，客户须于2024年10月23日（含）前，主动向该行申请办理“固转浮”业务，转换为浮动利率贷款后，该行将按规则，进行本次批量调整。</p>
-<p>农业银行则表示，需进行利率定价转换的房贷客户，可在2024年10月22日（不含）之前，通过该行手机银行或贷款经办行提出转换申请，符合本次利率调整政策的，纳入2024年10月25日批量调整范围；之后提出转换申请的，将于2024年10月25日（不含）之后及时办理转换手续。</p>
-<p><strong>值得注意的是，多家银行提到，利率转换后不得再转回固定利率或基准利率定价。</strong></p>
-<h2><strong>调整何时生效？</strong></h2>
-<p>根据目前多家银行公布的信息，符合条件的存量房贷将于10月25日进行调整。那么，借款人的住房贷款什么时候能按调整后的利率来算利息？</p>
-<p><strong>综合各家银行的公告，对于符合此次批量调整利率政策的存量住房贷款，银行将于10月25日集中批量调整利率，调整当日（25日）开始按调整后的利率执行，调整前利息仍按原利率计算。贷款利率批量调整后，银行将以短信方式告知利率调整结果。</strong></p>
-<p>多家银行同时提到，如对此次批量调整有异议，可向贷款服务行提出异议申请，银行将不予纳入此次批量调整；如未提出异议，视为同意按公告进行批量调整。</p>
-<p><strong>值得注意的是，按照本次批量调整存量房贷利率的有关政策和要求，本轮仅调整LPR加减点，不同时进行贷款重定价。部分银行客户可能会因为贷款重定价日不同而调整至不同的贷款利率。</strong></p>
-<p>交通银行便在问答中指出，因客户贷款重定价日不同（可能是次年1月1日，也可能是贷款发放日），使得贷款利率在本次批量调整时可能未进行重定价，贷款采用的五年期以上LPR值有4.2%、3.95%、3.85%三种可能，导致本次批量调整后的贷款利率会有所不同。但到了贷款下一个重定价日后，参加此次批量调整的贷款利率将调整至同一水平。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkyMjY5MTQ1Nw==&amp;mid=2247617262&amp;idx=1&amp;sn=187a4b8ea9081c60edf43e412f9a208d&amp;chksm=c0d2688c4e07b5607a4e9eaaca443d717ce9c616ca51c495017325e0232737704ad6716e0900&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“财经五月花”（ID：Caijing-MayFlower）</a>，作者：严沁雯，编辑：袁满，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989488456903176</guid><pubDate>Mon, 14 Oct 2024 07:53:00 +0800</pubDate></item><item><title>一家D轮独角兽破产</title><link>https://36kr.com/p/2990607064198150</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>敲响警钟。</p>
-</blockquote>
-<p>这一幕让人唏嘘。</p>
-<p>近日，创投圈知名的昆虫蛋白独角兽Ÿnsect宣布已进入“保护程序”（procédure de sauvegarde）。据悉，保护程序将在公司正式破产前启动，旨在帮助企业在财务困难中进行重组。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4a6d2fa3fdf946db9de2c032d33d1208@000000_oswg669165oswg1080oswg452_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：Ÿnsect官网</p>
-<p>回想13年前，Ÿnsect承载着“解决人类蛋白需求”的梦想诞生。这是一条异常大胆的超前赛道，却打动了不少风险投资人，一路融资超6亿美元（约合人民币40亿元），还获得 “钢铁侠”小罗伯特·唐尼的青睐。然而丰满的理想并未照进现实，成立至今都亏损的Ÿnsect最终透支投资人的信任，黯然倒下。</p>
-<p>如此一幕，再次验证了一个朴素道理——<strong>依赖融资烧钱，没有造血能力，终究走不长远。</strong>2024年，融不到下一轮的阴霾笼罩在大多数独角兽头顶。</p>
-<h2><strong>融资40亿，昔日明星独角兽倒下</strong></h2>
-<p>让我们回到故事的起点。</p>
-<p>那是2011年，Alexis Angot、Antoine Hubert、Fabrice Berro和Jean-Gabriel Levon 4位充满激情的科学家和环境活动家相聚在一起，讨论着2050年到来时人类的蛋白质摄取和环境生态问题。</p>
-<p>最后他们一致认为，随着人类对蛋白营养的需求显著增长，昆虫蛋白将成为解决人类蛋白需求的方案之一。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_672cf6658dd24744a4667488cea608e9@000000_oswg79623oswg750oswg490_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：Ÿnsect官网</p>
-<p>四人一拍即合，随后成立Ÿnsect，聚焦可持续发展和创新的昆虫蛋白质生产。Ÿnsect官网显示，公司拥有超40年昆虫养殖经验，专业知识领先全球，旗下创新技术已经带来440多项专利，占据整个行业的50%以上。</p>
-<p>一路走来，Ÿnsect留给创投圈深刻印象。公司首次融资发生在2013年，获得法国金融科技加速器Wilco的资金支持。此后融资不断，身后集结一众风投。</p>
-<p>自2019年起，Ÿnsect融资加速，C轮先是获得1.25亿美元的融资以及超过2300万美元的补贴，又在次年加码2.24亿美元资金。不仅迎来Astanor Ventures、Upfront Ventures等知名投资机构，香港著名蚝油生产商李锦记旗下爽资本（Happiness Capital）、好莱坞“钢铁侠”小罗伯特·唐尼旗下的足迹联盟（FootPrint Coalition）也参与进来，阵容空前。</p>
-<p>去年，公司再次宣布完成1.75亿美元的D轮融资。关于这笔融资，Ÿnsect并未透露太多信息，只有创始人之一的Antoine Hubert曾表示，这笔融资来自老投资者和新投资者。但也有知情人士透露，一些历史投资者并未参与本轮融资。</p>
-<p>无论如何，彼时的Ÿnsect仍是无限希望：公司累计融资超过6亿美元，成为备受瞩目的行业独角兽。</p>
-<p>那时，Hubert接受记者采访时，憧憬着公司的2030年：“Ÿnsect肯定会在各大洲建立……我们的原料将分发给尽可能多的人，并为可持续地养活人类和动物做出贡献。”</p>
-<p>然而一年过去，这家明星独角兽却猝然走到了生命尽头。</p>
-<h2><strong>谁杀死了它？</strong></h2>
-<p>回过头来看，结局早有预兆。</p>
-<p>时间回到2020年，Ÿnsect曾宣布一个雄心勃勃的计划——Ÿnfarm。这是一个4.5万平方米的基地，是其当时试验工厂面积的十多倍，可以帮助Ÿnsect将传统的手工昆虫养殖和加工过程全面自动化，每年生产20万吨昆虫蛋白。</p>
-<p>谁曾想，这却成为悲剧的起点。当时便有行业人士质疑该决策，认为建造如此大型的基地应有中间步骤的过渡，否则会面临大量资金与技术方面的挑战。</p>
-<p>正如预料，将C轮融资投入后，工厂却因外部环境带来的能源危机未能准时开业。Ÿnsect随后期待D轮融资能够帮助完成基地的建设，却仍未能满足公司的需求。“我们原本希望筹集更多资金。”Hubert说。</p>
-<p>为此，Ÿnsect开启一系列自救计划——</p>
-<p>D轮融资时，Ÿnsect同时宣布新战略，关闭2021年收购黄粉虫原料公司Protifarm时获得的荷兰工厂，并与巴黎工厂一同开始裁员，总共解雇了约70名员工，占员工总数的20%。</p>
-<p>Ÿnsect还停止在国际项目上的投资，比如一个在墨西哥建设昆虫养殖场的合作项目；与此同时，Ÿnsect试图扩大市场，曾在去年与乐天研发中心签署谅解备忘录，开展联合研究开发昆虫食品，加紧进入亚洲的步伐。</p>
-<p>另一边，公司继续寻找融资。但随着全球一级市场资金萎缩，创业公司融资形势愈发严峻。</p>
-<p>“我们还有一点时间，但坚持不了两年。” Hubert曾坦言，寻找新资金的过程异常艰难。</p>
-<p>投资方态度转变的背后，是Ÿnsect惨淡的财务状况。由于Ÿnfarm的生产刚刚起步，收入极其微薄。截至去年，公司年收入仍低于1000万欧元的门槛，2022年公司账目更是显示亏损接近9000万欧元，一直入不敷出。</p>
-<p>在一份声明中，Ÿnsect反思了破产原因：“面对复杂的经济和金融形势，融资渠道干涸，通常流向高增长公司的资金逐渐减少，于是公司决定启动保护程序。”</p>
-<p>Ÿnsect不是个例。同为昆虫蛋白先驱的AgriProtein，此前曾获数亿美元融资，也在公司扩张后亏损，从停止运营到被抄底收购、走向破产，不过用了三年；去年末，北美最大的黄粉虫养殖场Beta Hatch也因融资环境不利而关闭，此前业绩远低于预期。</p>
-<p>一半海水，一半火焰。另一家昆虫蛋白巨头——Innovafeed，曾在2022年宣布公司获得在未来十年的运营中超过10亿欧元的商业合同，为其带来一笔2.9亿欧元的D轮融资，集结卡塔尔投资局、淡马锡、美国农业巨头ADM一众重磅股东。如今，公司逆势获得喘息。</p>
-<p>故事仍在继续。</p>
-<h2><strong>没有造血能力的独角兽，已经融不到下一轮</strong></h2>
-<p>自身没有造血能力，财务失衡，融资受阻，无奈倒下……放眼望去，这样的案例正在创投圈不断上演。</p>
-<p>随着一级市场资金紧缩，当前融资也许要比任何时候都要来得困难。最新一例是本周，美国明星造车公司Fisker被法院批准破产，公司巅峰期市值高达80亿美元，曾被誉为“特斯拉杀手”。</p>
-<p>但泡沫散去，Fisker交付困难、亏损严重，最终失去投资人信任，退市破产。在它之前，相似的一幕已经发生在威马汽车、Embark、洛兹敦汽车等一众国内外造车公司身上。</p>
-<p>无独有偶，今年5月皮肤药物公司Histogen提交破产保护，此前公司融到D轮并通过SPAC上市，风光一时。但由于巨额亏损、融资无门，公司走向末路。放眼望去，基因检测独角兽Invitae和23andme、合成生物Amyris等生物医药独角兽先后倒在了高投入、高风险的研发周期里。</p>
-<p>凡此种种，不胜枚举。据研究机构PitchBook报告显示，自2021年以来，有400多家独角兽公司，没有筹集到新一轮资金。</p>
-<p>这是全球独角兽共同面临的困境——融不到下一轮。早前美国知名风投家Elad Gil作出预测：2024 年将是大量创业公司加速死亡的一年，因为很多没有足够收入的公司上一轮融的钱差不多快花完了。</p>
-<p>一个残酷的事实是——当估值泡沫退去，投资人集体反思投资逻辑，变得愈加谨慎务实。那些曾无限风光却没有盈利能力、一味依靠输血的企业，率先被摆上遗弃的桌面。</p>
-<p>这一年里，多家头部机构已经要求投后同事集中服务被投企业的融资事宜，尤其是中后期的被投企业。</p>
-<p>此时此刻，活下去最重要。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247663162&amp;idx=1&amp;sn=a45a594435a6b4db9abcc2c9bcce6ffa&amp;chksm=ed986a7a4d12f878c3aa4015c4d8922efdfd344486cc5bf77cde840efc26e835cb671eeb75c4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：岳笑笑，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990607064198150</guid><pubDate>Mon, 14 Oct 2024 07:54:00 +0800</pubDate></item></channel></rss>
+<p>柒和伊控股（Seven&amp;I Holdings）10月10日发布消息称，将剥离主力业务便利店以外的非核心业务。该公司明确表明了专注于便利店业务的方针，加快提升企业价值，对抗加拿大同行企业Alimentation Couche-Tard（ACT）提出的收购方案。</p>
+<p>柒和伊控股社长井阪隆一在10日召开的线上财报记者会上提到了ACT的收购提案，称“如果股东等利益相关人事提出的建议旨在提升企业价值，我们将认真应对”。这是井阪首次就收购提案公开发表看法。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_854033f9384942a8b66ea4a085c1d351@000000_oswg14028oswg500oswg342_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">柒和伊控股社长井阪隆一在线上财报说明会上发言（10日）</p>
+<p>井阪还谈到了集团重组的目的，称“将在自律性财务体制下，进一步加快实现增长战略”。由于日本国内外的便利店业务目前处于低迷状态，公司业绩受到了影响，对此井阪表示“将朝着提升股东价值等的方向前进”。</p>
+<p>柒和伊控股宣布，10月11日成立中间控股公司“York控股”，整合伊藤洋华堂及集团旗下的食品超市、York Benimaru等超市业务、餐饮及专卖店业务等。还提出了2025年度使该公司变成权益法适用公司的计划，已于10月开始挑选外部企业，向其出售York控股的大部分股份。</p>
+<p>在2024年度内，York控股旗下将纳入包括运营家庭餐厅“Denny's”的Seven&amp;i Food Systems等31家非便利店业务集团公司，涵盖零售及餐饮等领域。但根据重组进展情况，各公司也有可能被单独出售。</p>
+<p>柒和伊控股还公布了2025年内将公司名称更改为“7-Eleven Corperation（暂定名）”的计划。井阪在记者会上强调了公司更名的意义，称旨在“明确表明聚焦于便利店业务的方针”。</p>
+<p>柒和伊控股原计划在2027年以后对伊藤洋华堂等的超市业务进行首次公开募股（IPO）。现在决定将这一计划大幅提前，最早于2024年内开始征集海外基金等投资资金并启动出售程序。</p>
+<p>其背后的目的是剥离超市、专卖店、餐饮等“非便利店”部门，转型为便利店专营企业，消除企业集团（conglomerate）结构，提升股价。这实际上也是一种防范被收购的策略，会对ACT起到一定的牵制作用。</p>
+<p>关于ACT的收购提案，柒和伊控股已于9日承认收到新方案。收购额规模达到7万亿日元，比上次的提案增加了约1万亿日元。</p>
+<p>对于这一新收购方案，柒和伊控股方面将在仅由外部董事组成的特别委员会会议上再次进行讨论，并敲定应对措施。新方案的每股收购价格为18.19美元（约2700日元），高于9日的年初以来最高股价（2492.5日元）。在被认为收到ACT首次收购提案的7月中下旬，柒和伊控股的股价徘徊在1800日元左右。新价格相当于产生了50%左右的溢价。</p>
+<p>柒和伊控股曾指出，除了金额方面外，上次的提案在《美国竞争法》方面的问题上也没有进行妥当考虑。柒和伊控股是否会接受新提案尚不明朗。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI3Mzc0MA==&amp;mid=2651929029&amp;idx=5&amp;sn=6100588f8bc418083d6d2eab8f25df12&amp;chksm=bc91b6487afa7c243284cee75435ad301154ed7f74cfff4200af03e31f6b8ec5b8ee717dd35c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“日经中文网”（ID：rijingzhongwenwang）</a>，作者：日经中文网，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990207777909505</guid><pubDate>Mon, 14 Oct 2024 08:12:00 +0800</pubDate></item><item><title>为什么观众爱看把“综斗”玩到极致的“花学”</title><link>https://36kr.com/p/2989557200153089</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>早知有今日，周雨彤大概会在接到《花儿与少年6》节目组邀约的第一秒，就果断婉拒了哈。</p>
+<p>毕竟自从这档综艺播出，她的风评就开始了断崖式下跌，再也不是从前那个以松弛感著称的国民女演员了，黑粉数量陡增。许多看过《花儿与少年6》的网友都在吐槽她是毛阿敏和许晴的结合体，“不仅拉帮结派搞人际对立，而且喜欢贴着男嘉宾炒CP。”</p>
+<p><strong>而随着这些吐槽的愈演愈烈，曾经红极互联网一时的“花学”也终于迎来了2.0版本的更新。网友纷纷开始研究《花儿与少年6》背后的真相，既要分析周雨彤是如何一步步建立起以她为中心的小团体，还要逐帧分析其他嘉宾是怎么深受小团体其害的。</strong></p>
+<p>总而言之，《花儿与少年6》又引爆社交圈了，且爆的原因离不开这一季花少团暗流涌动的“宫斗剧情”。</p>
+<h2><strong>献出一个周雨彤，成就“花学2.0”</strong></h2>
+<p>这一季的花少团共有九位嘉宾，按照目前网友的分析，周雨彤先是与邓恩熙、侯明昊组成了一个亲密无间的小团体，陈好、宋茜、金晨和刘烨迫于无奈自动抱团成为了另一个小团体，剩下的田嘉瑞和荣梓杉自成一派，组成了第三个小团体。</p>
+<p><strong>而这样泾渭分明的阵营划分，其实早在《花儿与少年6》播出第一期时就有了苗头。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_8041a231ea654db2a53510d9ed67f840@000000_oswg66762oswg928oswg696_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>当时，花少团的八个人围坐在桌前讨论行程，导游荣梓杉和邓恩熙因为年纪尚小，社会经验不足，所以完全不知道该怎么合理安排出发时间、地陪费用和景点游玩等旅行事务。陈好作为年纪最长的大姐，便充当起了团队里的带头人，把所有问题一点点掰开揉碎示范给晚辈们看，帮助他们用最短的时间解决问题。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_f11e26cd60094a41ae95fac35a5061d2@000000_oswg74606oswg939oswg704_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而，主动挑大梁的陈好却被解读为性格强势、咄咄逼人。周雨彤在节目后采里说到：“导游实在需要我们帮助了，我们再来，别一上来就跟教你做事一样，我觉得没意思，也不好玩。”</p>
+<p><strong>此话一出，网友瞬间想到了“花学1.0”的经典人物毛阿敏，她们同样都是激化矛盾的一把好手。</strong>“不认可陈好的做法完全可以当面提出，背着人吐槽，有点太两副面孔了？”“上过班的都知道，周雨彤这是和稀泥行为，老好人谁不会做，不就是怕得罪人和担责任吗？”“荣梓杉年纪小不懂事，周雨彤都多大人了，好赖话还听不出来吗？”</p>
+<p>可是当局者迷的邓恩熙却因为周雨彤的这次仗义执言而心生感激，被吸纳进了周雨彤主导的小团体内。在之后的旅途里，邓恩熙顺利成了周雨彤的“小跟班”，周雨彤想要去哪玩，邓恩熙都会赞成并跟随，导致本季花少团总是分拨旅游，严重缺乏团感。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_8180be9300fc4aeaa349c0e712b64a7f@000000_oswg217275oswg1080oswg1239_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>另一边，周雨彤与侯明昊在参加《花儿与少年6》前就有过影视剧合作，因此两人之间的捆绑十分紧密，几乎容不下第三人的“插足”。例如，在最新一期节目里，侯明昊原本想要与另一位嘉宾刘烨合影，结果周雨彤一把挤开了刘烨，与侯明昊并肩而立。这一行为成功惹怒网友，#周雨彤 爱男#、#周雨彤推开刘烨#等负面热搜一个接着一个，“绿茶”标签再次深入人心。</p>
+<p><strong>除此之外，周雨彤对金晨表现出来的不友善，也是导致她被贴上“绿茶”标签的原因之一。</strong>例如，某次花少团在海边游玩时，田嘉瑞因为拍照的事情与金晨发生了一点小摩擦，把金晨气哭了。反应过来的田嘉瑞悄悄买了一份礼物给金晨，想要给金晨一份惊喜。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_7864d4e2f6384d0e93dcab33d31d3422@000000_oswg101587oswg1080oswg688_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>结果，周雨彤提前发现了田嘉瑞摆在床上的礼物，而且在明确知道礼物是送给金晨的情况下，仍然擅作主张拆开了礼物，浪费了田嘉瑞的心意。不仅如此，当金晨想发信息感谢田嘉瑞时，周雨彤甚至催促金晨赶紧走，“别整这恶心的。”害得田嘉瑞根本没有第一时间接收到金晨的原谅和感谢。</p>
+<p><strong>诸如此类的槽点还有许多，或许有些演员真就不适合上综艺展露自己的真性情，《花儿与少年6》里的周雨彤简直与观众印象里的那个周雨彤判若两人。</strong></p>
+<p>要知道，在近期热播的都市剧《半熟男女》里，周雨彤饰演的韩苏可是当代女性的自强典范，靠自己的努力变得优秀，面对男友的背叛潇洒离去，即使面对富二代的追求，也不卑不亢坚定自己的立场，圈了不少女粉。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_8c1c055e40fd414da57c92bfbae22aa9@000000_oswg114220oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>但是现实生活里的周雨彤，无论是待人接物还是处事方法，都精准踩在了网友的雷点上。</strong>就像今年奥运期间，花少团一行人飞去巴黎赛场观看比赛，好巧不巧，周雨彤看的那一场比赛恰好是体操运动员张博恒痛失金牌的那一场。张博恒坐在赛场苦笑的时候，周雨彤却一连发了三张面带微笑的自拍，气得网友直接在周雨彤微博评论区开骂，顺带还挖出了她早年开大G进故宫的新闻。</p>
+<p><strong>再看如今，“花学2.0”又可以被看作是周雨彤奇葩事迹大赏，原本对这一季花少团不感冒的网友也被勾得追起了节目。周雨彤被骂没关系，反正网友看得很尽兴，甚至评价《花儿与少年6》颇有一番《甄嬛传》的风味。</strong></p>
+<p>或者说，如果周雨彤是“花学2.0”的受害者，《花儿与少年6》绝对是“花学2.0”的受益人。</p>
+<h2><strong>人性瑕疵+吐槽欲=爆款综艺？</strong></h2>
+<p>聊完了博大精深“花学2.0”，不妨再来复习一下1.0。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_d40a99d8da7e482e97ab3d22813281ce@000000_oswg45213oswg850oswg471_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>创造“花学1.0”的《花儿与少年2》，堪称中国综艺史上里程碑式的存在。迄今为止，骨朵回想起许晴那句“因为第一季的人都正常”，还会头皮发麻，惊觉这简直是百年难得一遇的综艺名场面。<strong>试问，能让明星嘉宾当着镜头面直接开撕的综艺，当初有几个？</strong></p>
+<p>而若干年后，亲历了“花学1.0”的杨洋在提起这档综艺时更是迷之微笑，对着坐在他身旁一起宣传作品的刘亦菲说到：<strong>“参加真人秀挺累的，咱们还是好好演戏吧！”</strong>可见“花学1.0”的杀伤力之大，不止是让网友这么多年都还难以忘怀。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_a817bd97912542cb8945f77708936269@000000_oswg161678oswg1040oswg1689_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>也正是在《花儿与少年2》以后，综艺市场仿佛嗅到了所谓“商机”，陆陆续续涌现了一批借用明星个人槽点打造综艺整体看点的社交类综艺。</strong>例如，同样诞生出“坞学”这门学科的《五十公里桃花坞》，650元伙食费不够吃一天的苏芒、拒绝社交又要参加社交综艺的王传君、爱好“爹味”输出的宋丹丹和“誓死”追随宋丹丹的辣目洋子......</p>
+<p>“花学2.0”也是如此。如果《花儿与少年6》是周雨彤一个人的旅行，她的那些“精致的利己主义”一定可以被包装成讨喜的精英感、松弛感和自由至上，可是一旦在她的旅行里加入了性格对冲的人，周雨彤的性格特征就会被无限放大，进而成为整个团队里的槽点。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_fcc78d6003884e66896358f7987fcc4b@000000_oswg181055oswg1080oswg1619_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>或许在某种意义上，周雨彤和《花儿与少年6》才是最为适配的。她单独参加的综艺如《毛雪汪》，几乎吸引不到网友的注意力，她在娱乐圈的个人标签也不甚鲜明。但是《花儿与少年6》从播出第一期开始，焦点就在周雨彤身上，彻底验证了那句“黑红也是红”。</p>
+<p>包括最近因为一碗毒豆角而“声名狼藉”的黄磊，恰恰也是栽在了网友对《向往的生活》里嘉宾人性之“恶”的深挖上。黄磊做饭究竟好不好吃实则不重要，或者说，大部分网友也根本尝不到黄磊的饭，但是只有黄磊做饭不好吃了，才能成为当下互联网的热点话题。</p>
+<p><strong>不难发现，这一类综艺节目的有趣之处，不仅仅在于节目组针对嘉宾的情节预埋，更在于节目组不吝啬于呈现明星嘉宾的性格瑕疵，迫使网友主动去扮演那个夏洛克，发掘和审判镜头之下的“综艺内斗”。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_d523804206fa482f9a72b82ca7a49416@000000_oswg66795oswg1080oswg1142_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>反观倡导爱与和平的《花儿与少年3》《花儿与少年4》和《五十公里桃花坞4》，都无一例外地被网友遗忘在了互联网的偏僻角落。甚至六季之中口碑垫底的《花儿与少年4》，其出圈话题还是张凯丽和韩东君因为谁开车这件事大吵了一架，吵出了这一季的最高热度。</p>
+<p>也许会有观众会反驳，明明《花儿与少年5》就是一档氛围其乐融融，热度也不算低的综艺节目呀？但是《花儿与少年5》也没有形成一门博大精深的学科不是吗？不管“花学”、“坞学”还是“磊学”，本质都是网友的吐槽欲再反向带动综艺的话题度，这与一档综艺原本就能热播并不矛盾。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_077cbbb7056f4bf389d28a8d732a5168@000000_oswg713175oswg960oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>同理可得，一档综艺节目想要获得超级加倍的长尾效应，就应该在节目的原始内容之上激发网友的吐槽欲，回归到真人秀的“真”。</strong>观众之所以格外喜欢在综艺节目里看到张雨绮、那英、宁静等一众江湖传言缠身的女明星，不也是因为她们敢说、爱说和能说，我们可以通过她们之口，看见其他明星嘉宾的真实一面。</p>
+<p>宫斗剧常有，“宫斗综”却难得。真人秀在国内综艺市场发展了二十余年，创意会有枯竭、形式会有重复，但唯有针对人性的探究经久不衰。既然网友对周雨彤的吐槽盘活了《花儿与少年6》，那么想做爆款的节目组，倒不如努努力，让自己成为更新下一版“花学”的那档节目。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY0MzEyNg==&amp;mid=2651649136&amp;idx=1&amp;sn=f16817d9a9f9b92a002a55f3bca8e4bc&amp;chksm=bc933346e06e475e3086eaff10b7dbe0a54b3bb86bc3e3fe0073ce24b8fe4d04764b4725f27f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“骨朵网络影视”（ID：guduowlj）</a>，作者：李蛋‍‍‍‍‍‍‍‍‍‍‍‍‍，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989557200153089</guid><pubDate>Mon, 14 Oct 2024 08:15:00 +0800</pubDate></item></channel></rss>
