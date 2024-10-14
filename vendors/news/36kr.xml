@@ -1,53 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 09:30:26 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 09:30:26 +0800</pubDate><item><title>微软心意已决，Recall将在大量争议声中正式上线</title><link>https://36kr.com/p/2990767776181000</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>如何让更多的人使用AI，这无疑是2024年整个AI行业最核心的议题之一。现阶段AI的低水平渗透率与其在网络舆论中的热火朝天，已然形成了鲜明的对比，似乎每个人都在讨论着AI对于社会的变革，但却没有太多人真正将AI融入到日常生活中。为了让更多人用上AI，无数厂商推出了各式各样的AI产品，其中既有类似ChatGPT这样备受好评的，同样也有微软Windows 11中Recall这种备受争议的产品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_a07f4bc5d187429aa5e586073e311e3c@000000_oswg25372oswg600oswg492_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在经过了数月的调整，微软方面还是觉得要顶着压力推出Recall功能，并回顾了过去关于该功能的一些争议。微软方面日前发布了一篇官方博客文章，其中再次强调Recall的设计考虑了用户隐私，所有敏感数据都遵循了零信任原则，还通过加密、隔离和用户意识的主动操作来保护数据安全，并通过VBS Enclave提供了安全的隔离环境。</p>
-<p>此前在今年Build开发者前瞻大会上，微软推出了Recall功能，旨在通过持续截取用户电脑屏幕截图、并使用AI整理为时间线，以便用户日后搜索和参考。据悉，Recall会以数秒一次的频率进行屏幕截图，记录用户在Windows中的所有操作、并快照保存，其中包括用户在应用程序中做过的事情、跟踪实时会话中的交流、记住访问过的网站等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_35230a7256db4ddd9f4319fbbef9a88e@000000_oswg24122oswg600oswg289_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不难发现，Recall很像是当年微软在Windows 10上短暂推出的Timeline精神续作。只不过Recall刚刚被公布时，因为捕捉所有屏幕内容的设计，就曾导致其迎来了铺天盖地的质疑，甚至有观点认为“这简直就是《黑镜》里的情节，一定要关闭这个功能”。毕竟Recall的卖点就是记录用户在Windows 11中做过的任何事情，因此这也意味着包括银行账户密码在内的机密操作也会被截屏。</p>
-<p>即便微软强调Recall的截屏会被保存在设备中，同时数据也仅在本地进行处理、而不会上传到云端，哪怕用户是使用Copilot AI进行分析时也是如此。然而有安全专家发现Recall的隐私保护存在巨大缺陷，只需要有登录凭据，被加密的数据就向外界敞开了大门，也就是说只需开发一个小工具就可以解密相关截图。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_34d08c450bd54663898a7e6033e52d0a@000000_oswg34477oswg402oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>面对外界的争议，微软方面不得不在8月选择延迟Recall的发布。面对一个如此有争议的功能，为什么微软不直接取消呢？这是因为作为Copilot+PC的一部分，微软希望Recall能记住用户在Windows中所做的一切，从而帮助用户可以随时继续上次被中断的工作，进而让用户感受到Copilot AI的实用性。</p>
-<p>得益于与Windows与Office的紧密结合，Copilot AI确实是目前PC端最强的AI工具，但它也没有逃离当下所有AI产品共同的窠臼，即大量用户短暂尝鲜后就会放弃使用。在AGI真正落地前，如今所有的AI产品其实都面临同样一个问题，即会用的一直在用、不会用的根本不想用。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_2752656bf31e4ae1a4e149801ca9fa5b@000000_oswg21662oswg600oswg336_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对于前沿技术感兴趣的群体，包括学生、程序员、研究人员，已经充分认识到由大模型支持的AI工具的优势和局限性，发现了其在提高工作效率、解决问题和创造价值方面的能力，因此也使得程序员用‌GitHub Copilot写代码、学生用ChatGPT写作业的现象蔚然成风。然而另一部分对AI的不了解或缺乏必要技术背景的用户，则还很难认识到AI工具的作用。</p>
-<p>所以如今从微软到OpenAI、从腾讯到快手，都在尝试用AI赋能各种已有的技术或产品，从而尽可能拓展AI的应用范围，微软的Recall其实也一样。Recall就可以作为电脑上“活的历史书”，让用户对于过去的一切行为了如指掌，从而帮助快速回溯操作记录、找到遗忘的信息。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_23196368ae804dcea6645c82e2291a36@000000_oswg30324oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然而遗憾的是，即便微软做出了再多的努力，Recall大概率也会步Timeline的后尘，成为“砍刀部”的刀下亡魂。因为Recall的成功落地需要用户与平台之间保持高度的互信，而微软的所作所为使得他们可能无法享受这份奢侈。毕竟Recall就意味着微软的Copilot AI将成为一个用户电脑上常驻的监视器，并监视者用户的一举一动。</p>
-<p>且不提大多数人并不希望被监控、即使它是AI，虽然微软宣称Recall是在本地运行，但这也等于为其它软件提供了可以读取用户隐私的机会。毫无疑问，在流氓软件横行的Windows生态推行这种功能是非常冒险的一件事，毕竟Windows糟糕的数据安全管理体系很难让用户相信微软能保护好他们的数据。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_bf3d456989c446989057bf978885a414@000000_oswg35161oswg600oswg288_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>更何况微软在过去几年间，做了太多让Windows用户不爽的操作，其中包括、但不限于干扰性的Edge广告到全屏弹出窗口，强制默认设置应用程序，强制使用Microsoft账户等等。事实上，许多人已经给出结论，即便当下微软会信守承诺，但也不等于未来就不会推翻。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_8e89ca0bdc7c4a9489874f48e6a53a43@000000_oswg26804oswg600oswg390_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从某种意义上来说，Recall更像是生错了地方，它如果是苹果推出的一项功能，恐怕就不会面临如此大的争议。毕竟macOS生态更加封闭，且苹果过去对于用户隐私安全的重视也有目共睹，而微软过去几年的一系列操作，已经将自己在用户层面的印象分挥霍殆尽了。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649872788&amp;idx=1&amp;sn=42437022dc9e9cd11f2079e32460e6cd&amp;chksm=865372adf15cf58755eceee3d8e423306831e09f08b2338090cecb0682c16738ca3d818e9161&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990767776181000</guid><pubDate>Mon, 14 Oct 2024 09:20:00 +0800</pubDate></item><item><title>加入带货功能，微信终究还是没有放弃公众号</title><link>https://36kr.com/p/2990769090964229</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“万物可直播、人人齐带货”，这是当下不少网民对于直播带货的戏谑。不可否认，带货确实也是当下网红、大V将影响力变现最有效的途径。继此前视频号实施“蝴蝶计划”，对达人分级，鼓励商家、达人和品牌入驻、并开启带货直播后，作为微信内容生态基石的公众号，近日也开放带货能力了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4e6492c257b8451ca9101c7ae00edac2@000000_oswg39343oswg600oswg291_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>日前订阅号助手发文称，“为更好地帮助公众号创作者进行带货和变现，为用户提供更好的消费体验，公众号（含订阅号和服务号）将支持从优选联盟中选择商品进行推广。开通优选联盟带货功能后，即可推广由小店商家提供的优选联盟商品”。</p>
-<p>在看着隔壁视频号创作者靠带货“吃香喝辣”后，公众号的作者也终于可以在广告和打赏之外，找到新的变现方式了。</p>
-<p>据悉，粉丝量大于100的公众号作者既可以直接关联微信小店店铺、推广相应店铺的商品，也能无需绑定小店店铺，通过优选联盟直接与商家建立合作、推广相关商品。为了推动公众号作者带货的积极性，微信方面为其赋予了超高的灵活性。毕竟在这个短视频席卷全网，传统图文内容式微的年景，公众号作者的日子早已不复往昔。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_df9a667cfd7a4e8b9fdfe835dcefda40@000000_oswg18527oswg600oswg367_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>一个无可否认的事实，是曾经首屈一指的微信公众号已不复往日的辉煌。根据易赞大数据公布的信息显示，微信公众号整体的打开率已从2018年的 2.3%下降至2020年的1.1%，如今更是跌到1%以下。因为从2018年开始，抖音、快手迎来爆发式增长，分流了微信公众号的流量。</p>
-<p>为此，微信方面也一直在尝试各种方式，来提升公众号内容对于用户的吸引力。比如通过更多维度的社交推荐、帮助用户找到好的内容，从最初的点赞、在看，升级为独立的“看一看”栏目，再到引入推荐算法向用户展示可能感兴趣的内容。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_31875bc61ac94abb89ea30625c2dddea@000000_oswg15767oswg600oswg236_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然而遗憾的是，微信方面的努力并没能扭转公众号的颓势。从某种意义上来说，公众号的衰退其实也不可避免。作为一个社交平台、而非内容平台，它最初的卖点是移动互联网时代的即时通讯软件，这个定位就直接导致了聊微信和看微信公众号是互斥的。早期微信的一个经典设计，就是当用户使用其他App时消息就会一直推送，但如果是在微信里打开其他功能，就不会收到推送了。</p>
-<p>体验社交和浏览内容相互排斥，就导致大量用户养成了聊天在微信、看内容去其他平台的习惯，这也是为什么即便在微信公众号最鼎盛的年代，今日头条、趣头条等平台依然可以野蛮生长。当流量丰沛时，公众号的缺陷也被掩盖，但当视频取代图文成为新的内容消费载体，一切就都变了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_6728e7c59fc743c8bf49a20058d51e1b@000000_oswg16598oswg600oswg320_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从图文到视频其实也是一种必然，毕竟文字是最为抽象的信息载体，对于读者的素养要求也最高，进而导致创作者的文字功底和讲故事能力需要提升到更高的水准。相比于图文，视频则天然更讨好眼球，此外文字与真实的物理世界并非一一对应，而是建立在符号系统的基础上。</p>
-<p>如果缺乏抽象思维，从文字联系到真实世界是很困难的一件事，而视频则是所见即所得。可视化的视频也更契合“五环外人群”的需求，就导致需要思考、理解的长文不那么适合这个时代。在当下的碎片化休闲娱乐时代，文字量低就只能表达情绪、而无法输出内容，可如果文字量一旦大起来，就又与当下消费者的碎片化阅读倾向矛盾。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_e9c30a57697c4479b2ca1ebd35ea529f@000000_oswg12102oswg299oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如若不然，“深入浅出”这四个字又如何会成为文字工作者最头疼的问题。反观视频，作为一种内容形式，它涵盖了文字、画面，以及声音的特性，更高的信息密度使得视频相比传统的图文形式，有着更易于被用户接受的优势。并且短视频平台还为视频添加了算法作为“佐料”，使得视频的魅力扶摇直上。</p>
-<p>抖音和快手的短视频可以精准预测用户的兴趣，再推荐用户可能感兴趣的内容为其带来即时满足，并且无休止地向用户供应满足的特质，就使得越来越多的用户沉迷于短视频。在这样的内外夹击下，公众号的流量则一路走低，而失去了流量，变现能力自然就今非昔比。从2022年3月开始，也就是微信公众号推送规则从订阅转向算法推荐，更是给公众号的广告变现致命一击。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f35ad4116af94519894c8ae5d14a5ee4@000000_oswg12925oswg600oswg448_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如此一来，在广告的变现能力下滑之际，开辟带货这个当下最时髦的变现渠道，就成为了微信方面吊在公众号作者眼前的“胡萝卜”。话虽如此，但开放带货功能对于想要赚钱的公众号作者是巨大的利好，毕竟这个让无数平台趋之若鹜的东西确实有效。</p>
-<p>抖音、淘宝上的直播带货，核心卖点是“全网最低价”，它的底层逻辑就是品牌方以卖货为名进行市场营销，而微信公众号则更像是快手，都是以私域流量著称。快手上的卖货逻辑用该平台头部主播辛巴的一段经历就可以完整地诠释，当初辛巴被曝售卖假燕窝，结果粉丝们依旧不离不弃的喊出了“支持班长！支持辛选！一直在”。</p>
-<p>快手的“老铁”购买辛巴带货的产品，看中的不是价格、而是辛巴这个人，体现的是一种关系的长期粘性和信任度。同理，微信公众号即便做不到类似快手的“老铁经济”，但公众号与粉丝之间的粘性也要胜于其他平台。所以微信公众号带货不仅不是伪命题，反而可能大有可为。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_1be58aaab4b249eaa18f25832fdccb43@000000_oswg33081oswg600oswg338_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>只不过对于某些2018年2月之后才开设的公众号，想要带货也是有难度的。因为从2018年2月起，新注册的微信公众号被取消了留言功能，没有留言功能就让粉丝与作者之间缺少直接互动的机会，这类公众号显然就很难有太高的粉丝粘性了。</p>
-<p>所以对于更早前的公众号作者来说，带货功能无疑会让他们久旱逢甘霖，而新生代公众号作者需要趁着微信公众号放开留言功能的契机，先培养粉丝基础，而后才有带货的可能。但不管怎么说，在公众号承担了这个生态“血库”功能多时之后，微信好歹是为坚守在公众号的作者带来了一些希望。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649872788&amp;idx=2&amp;sn=8a86b97c35dcc16133174ac3516597d8&amp;chksm=86692eba6f467e4387c348406ff19ee1b7c4b9bbfb0171c31a74acce2dd96693eed77d5402f8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990769090964229</guid><pubDate>Mon, 14 Oct 2024 09:20:00 +0800</pubDate></item><item><title>积分vs现金，哪个更“香”？</title><link>https://36kr.com/p/2991612663294725</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 10:00:27 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 10:00:27 +0800</pubDate><item><title>积分vs现金，哪个更“香”？</title><link>https://36kr.com/p/2991612663294725</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>2005年，《经济学人》将积分（尤其是飞行常客里程）作为一种可与传统货币相媲美的全球货币。自那以来，积分的使用规模和范围迅速扩大。美国西南航空公司的数据显示，乘客用积分兑换的航班的数量翻了一倍，从2013年的540万次（占客运里程收入的9.5%）增至2023年的1090万次（占客运里程收入的16.3%）。</p>
 <p>在航空旅行和酒店住宿等行业中，积分通常被用来代替现金。积分的使用规模的急剧扩大向我们提出了一些重要问题：消费者对待积分的方式与对待传统现金的方式相同吗？他们又是如何选择使用积分的？</p>
 <p>事实证明，消费者对积分和现金的态度截然不同。在最近的一项研究中，我们分析了500名参与航空公司常旅客计划的消费者和他们最近两年中进行的2.9万多次积分赚取（累积）和消费（兑换）的交易数据。我们发现，积分用户可分为四个不同的类别：</p>
@@ -496,4 +448,106 @@
 <p>只不过，正本清源非一日之功。辰智大数据显示，2023年预制菜上市企业仅14家营收超过亿元，与超过5000亿元的行业市场规模相比，趋于专业化、标准化的头部企业还是太少，活得安稳的企业更是寥寥无几。</p>
 <p>当下对于预制菜的争议，或许也意味着这一行业的机遇就在眼前，而每一家预制菜企业都有机会成为真正的行业巨头。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI3MjExNTM5Mw==&amp;mid=2247499815&amp;idx=2&amp;sn=fd32c70dded8c7e09fd8606e0d14b51c&amp;chksm=ea0a2a118c789f6f169d8888a4406de138a10f38b13b7093fa67983c5e5391f6375abb726e8c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“道总有理”（ID：daotmt）</a>，作者：道总，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990811876518917</guid><pubDate>Mon, 14 Oct 2024 09:28:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990811876518917</guid><pubDate>Mon, 14 Oct 2024 09:28:00 +0800</pubDate></item><item><title>当越南不再是乐土，中国家电企业寻找下一个出海高地｜知料</title><link>https://36kr.com/p/2946755258669952</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>文｜胡依婷</p>
+<p>编辑｜袁斯来</p>
+<p>越南，接壤广西，土地狭长而近海，以胡志明市与河内为南北中心，吸引了大批中国家电与电子产业聚集，而今成为它们辐射海外的热土。</p>
+<p>TCL、海尔智家、美的、格力等耳熟能详的家电企业都已在越南开设工厂并拓展当地市场。TCL1999年进入越南，目前在当地一家规模较大的工厂每年可生产800万台电视产品。</p>
+<p>美的1997年已开始布局越南，随后2006年在当地买地建厂，2007 年正式投产，如今员工已有近2000人，主要生产电饭煲、风扇、电磁炉和暖风机等8大品类。</p>
+<p>中国家电企业到来之际，三星、LG、松下、索尼等日韩品牌更早涉足越南。为满足旗下多产线生产需求，上世纪90年代，三星带着供应商进入越南，在政策支持下逐渐搭建生产园区及基础设施。而今，三星的生产基地已扎根于越南南北部，雇佣当地近10万员工。</p>
+<p>中日韩颇具野心的企业纷纷来到越南，催生当地产业链路渐趋完善，成为制造业迁移的新站点。当关税红利到来之际，有出海需求的企业密集前往越南，借之出口欧美等高消费力市场。</p>
+<p>据越南计划与投资部外国投资局数据显示，截止2023年8月，越南已累计到位外商投资项目资金2871亿美元。外资对越南趋之若鹜的同时，越南本土已开始转型，向高附加值产业倾斜，企业也面临新的选择阶段。</p>
+<h3><strong>锚定越南</strong></h3>
+<p>早在20世纪90年代，越南便已倍受中、日韩等企业关注。</p>
+<p>中国较早出海越南的家电企业以TCL为代表。TCL1999年在越南南部投资建设了第一个电视工厂开始，随后陆续在越南南部和接壤国内的北部地区建设TV智能制造基地与智能音视频终端产品制造基地。</p>
+<p class="image-wrapper"><img data-img-size-val="932,466" src="https://img.36krcdn.com/hsossms/20240912/v2_cde9f1be0b6942528f586da881e498df@5932017_oswg901604oswg932oswg466_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">TCL在越南，图源企业</p>
+<p>据TCL科技COO王成公开透露，截至今年，TCL通过TCL科技及TCL实业两大平台，已在越南累计投资超1亿美元，供给当地就业岗位超1万个。TCL预计2024年在越南营收将超过15亿美元。</p>
+<p>同样布局出海多年的美的、海尔智家也并未错过越南。</p>
+<p>观望多年，美的于2006年开始在当地建设首家海外工厂。彼时，越南当地的家电制造供应链并不完善。为提升效率与品牌话语权，美的越南工厂将国内供应链迁移，结合当地情况重新培养，并吸引非家电供应商转向。</p>
+<p class="image-wrapper"><img data-img-size-val="628,288" src="https://img.36krcdn.com/hsossms/20240912/v2_ea6f765781d74020ae67c90334937214@5932017_oswg474801oswg628oswg288_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">美的越南首家海外工厂，图源企业</p>
+<p>直至2023年，美的越南工厂实现了累计年度的扭亏为盈，收入同比增长约30%。工厂主要制造吸尘器、电饭煲、风扇等8个品类。伴随大幅增长，美的将扩充空气炸锅、微波炉等品类，将越南工厂变为海外品类最多的生产基地。</p>
+<p>面向更崇尚日韩品牌的越南市场，美的还推出其收购的东芝白电业务。2018年东芝滚筒洗衣机开始在越南销售，两年后，该产品已做到当地市场第一名。</p>
+<p>当美的逐渐熟悉越南，其To B业务板块也进入当地。截止当下，美的总投资14.7亿元用于晶澳科技越南基地3.5GW高效太阳能电池项目，以覆盖北美等海外光伏市场。</p>
+<p>与美的路径相似，海尔智家2011年自日本松下手中收购三洋电机在东南亚的白电业务，并以其子品牌“AQUA”在越南开展销售与生产布局。</p>
+<p>自2012年成立起，AQUA越南公司已投建冰箱、洗衣机、家用空调等工厂。当前，除供应本地外，AQUA还将产品销往印度尼西亚、菲律宾和马来西亚等国家。</p>
+<p>在越南加大投资，中国家电企业们获得了覆盖海外市场的更多产能，但在品牌力比拼上，它们仍难与三星、LG、松下、索尼等企业抗衡。</p>
+<p>不断加注越南，截至目前，三星已成为越南大规模外商投资的主要企业之一。据其2022年未经审计的财务报告显示，越南工厂收入已占三星业务总收入的30%。从越南工厂出产的产品销售收入达到近710亿美元。</p>
+<p>而在当地，三星一家独大。据GfK发布的报告称，截至2023年三季度，三星在越南已占据44.7%的市场份额。</p>
+<p>事实上，早在上世纪90年代，越南政府以提供免费生产场地、免除初期4年法人税等优惠政策吸引外资企业。三星带着部分供应商来到越南，开始在北部搭建生产线。</p>
+<p>2008年，三星在越南北部的北宁省投建三星电子（越南）1号厂，此后在太原省建立2号厂。</p>
+<p>消费电子产线逐步落实后，三星在越南引入电视、芯片、显示器等其他电子制品，投资和经营规模持续扩大。</p>
+<p>根据越南媒体报道，2024年三星计划在越南追加12亿美元投资，以支持其越南产业持续壮大。</p>
+<p>在政府推动与三星等企业的布局下，越南已出现较为显著的产业集群效应。</p>
+<p>在当地，消费电子等高附加值产业链集中北部地区，与国内广西等省市接壤；家电产业园区主要分布于南部的胡志明市、同奈省和平阳省等地。</p>
+<h3><strong>产业升级</strong></h3>
+<p>当大型跨国企业进入越南，视其为出海首站，越南也受到更多关注，吸引更高量级资金的注入。</p>
+<p>据越通社报道，越南计划投资部外国投资局数据显示，截至今年8月31日，流入越南的外商直接投资注册资金超205.2亿美元，外资项目实际到位资金约141.5亿美元，创5年来新高。</p>
+<p>而在去年的前8个月，我国累计对越南投资约3949个项目，协议金额近258亿美元，在所有对越南投资的国家和地区中列第六位。</p>
+<p>我国对越南的大规模投资并非突然出现，在距今不久的五六年前，大波企业将目光投向越南。</p>
+<p>白隆泽于2017年来到越南，在当地经营零配件加工生意。他告诉36氪，终端企业与上游工厂们来到越南更主要的诱因是关税。</p>
+<p>2018年，美国针对我国出口的商品增收关税，以出口为主的上下游企业部分迁移。</p>
+<p class="image-wrapper"><img data-img-size-val="1408,508" src="https://img.36krcdn.com/hsossms/20240912/v2_42cc2de53ebd4f40ab540d16876c3d14@5932017_oswg171156oswg1408oswg508_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">美国加征关税数据，图源长江证券</p>
+<p>而毗邻国内的越南早在2007年加入WTO时承诺，电视、空调、洗衣机等家用电器进口关税在3-5年内将降至25%；但若在越南本土生产与销售，则关税为零。</p>
+<p>关税优惠之下，越南吸引大批欧美系终端的供应商，以及国内出口型家电企业。根据海关总署统计，2023 年2月美国自越南进口家用吸尘器月度数量已首超中国。</p>
+<p>然而，越南对家电类企业的态度正在转变。多年来企业纷纷涌入，越南有了挑选的资本。高附加值、产业转型、绿色经济等词汇频繁出现在与外资招商相关的官方发言中。</p>
+<p>白隆泽告诉36氪，早期进入越南的低附加值的产业如服装纺织等已逐渐撤出，流入临近的缅甸、柬埔寨等国家。面对这类企业，越南招商部门也颇为冷淡。</p>
+<p>仅从国外进口原料，利用当地人力加工的产业利润不大且效率不高，补齐越南本土的供应链日益成为其国家规划的重心。越南工业和贸易部长阮鸿延今年在公开质询会上曾表示，服装纺织、皮革等企业向其他国家转移属正常现象。当下提出的能源规划等4个国家部门计划可有助于创造原材料，满足生产和出口需求。</p>
+<p>越南本土搭建供应链之余，中国公司当然会顺应产业转型趋势。2019年，早已进入越南的TCL开始规模化扩产。集团旗下的通力科技和茂佳科技分别在越南开设生产基地。其中，通力科技布局于高附加值产业密集的北部地区，生产智能音频终端产品；茂佳科技负责TV和 Monitor整机的制造任务。此外，TCL还表示将在越南投建LCD面板显示模组生产基地，完善上游供应链产业。</p>
+<p>在销售端，中国家电企业们开始走向高端价位。近些年，美的与海尔智家在产品技术与性能方面升级。美的推出搭载变频、语音控制、物联网等技术的家电产品；海尔智家采用冷冻恒温保鲜科技、冷藏冷冻双杀菌等技术，推出高端化的冰箱产品。</p>
+<p>当中国公司欲深入越南，利用当地生产能力亦或展开销售，顺应产业转型趋势并加大投资将在所难免。</p>
+<h3><strong>下一站，拉美</strong></h3>
+<p>当越南布局渐稳之时，中国的家电企业也很难放过寻找下一个出海高地。</p>
+<p>与此同时，外资企业的大量进驻使越南主要城市和工业区的土地成本出现显著上升趋势，逐渐破除人们对越南落地成本低的印象。</p>
+<p>香港《南华早报》近期报道称，在过去4年中，越南北部地区的平均租金每年上涨7%，家电企业聚集的南部则上涨13%。</p>
+<p>白隆泽观察到，自去年同期至今，越南首府河内的房价翻了一倍，住房刚需使市中心租房成本不断上涨，一套百平米的两房租金已达1000美金，仍出现供不应求。</p>
+<p>用地成本疯涨之下，即使外资进入多年，当地产业链长期处于非完备状态，重工业基础薄弱使其当地供应能力较弱，对外部原材料需求颇大。</p>
+<p>由于地理区位接近等原因，我国成为越南进口原材料的主要国家之一。据统计总局统计，2024年前7个月，越南从我国进口额达792亿美元，同比增长34.9%，包含机械、设备等。</p>
+<p>如今，将越南视为生产、出口集中地已渐成共识，但当各项成本攀升时，寻找下一个转移的新目的地，成为家电制造企业的下一目标。</p>
+<p>墨西哥，因与美国接壤且生产商品可享受零关税进入美国等因素，被TCL、海信等企业相中。</p>
+<p class="image-wrapper"><img data-img-size-val="676,322" src="https://img.36krcdn.com/hsossms/20240912/v2_ebf90e13ad67449c8481c621b0a9e77f@5932017_oswg38897oswg676oswg322_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">建设中的海信墨西哥蒙特雷产业园，图源企业</p>
+<p>早在2004年，TCL已着手进入当地开展业务。其在墨西哥的工厂主要生产55和65寸以上大屏智能电视，2020年实现量产，可覆盖北美家庭对大屏电视的需求。</p>
+<p>事实上，与彩电相比，近些年白电布局更为活跃。这也与市场需求息息相关。中国家用电器协会根据联合国贸易数据推算，2021年美国冰箱、冷柜的进口额达104.6亿美元，其中自墨西哥进口这两类产品合计40.87亿美元，约占总份额的39.1%。</p>
+<p>多项刺激下，跨国企业们都瞄准这一趋势，在墨西哥布局冰箱等制冷产线。海信已在当地工业园区建设冰箱、空调、厨电三个工厂；冰箱巨头长虹美菱在墨西哥的产线已正式投产，其计划在当地建设3条冰箱压缩机产线，年产600万台压缩机。</p>
+<p>中国企业加紧布局的同时，嗅觉灵敏的欧美、韩国白电企业也重投墨西哥。2022年德国博世公司宣布在墨西哥东北部的蒙特雷投资建厂，生产面向北美的大容量冰箱；同年，三星宣布投资5亿美元扩建白电生产基地。</p>
+<p>可见，墨西哥已成为家电企业紧锣密鼓布局的下一站，经过多年搭建，工业基础渐趋完备。当越南稍显拥挤之时，墨西哥或将承载中国家电制造企业走向全球中心的目标。</p>
+<p>战火已在墨西哥燃起，新一轮的竞争将在此展开。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2946755258669952</guid><pubDate>Mon, 14 Oct 2024 09:30:00 +0800</pubDate></item><item><title>中外资机构：​政策有望持续发力，继续看好中国资产</title><link>https://36kr.com/p/2990963178220546</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>9月底出台的一系列政策点燃了市场热情。国庆节后，A股和港股均出现显著回调。回调的主要原因是什么？中国经济中长期发展前景如何？机构对中国资产态度如何？就此，中国基金报记者采访了多位中外资机构人士。</p>
+<p>他们认为，中国经济基本面依然稳固。随着结构性改革的不断推进，新动能的培育和旧动能的改造逐步显效，股市将涌现更多的增长点。</p>
+<h2><strong>预期之外，情理之中</strong></h2>
+<p>对于国庆节后市场的明显回调，<strong>长城证券首席经济学家汪毅</strong>认为，主要原因在于节前市场对政策的预期过于乐观，而实际出台的政策并未达到市场预期的高度，导致投资者情绪由热转冷。</p>
+<p>此外，前期市场大涨，部分投资者选择获利了结。金融监管的加强，如严禁信贷资金违规进入股市和严控加杠杆，也增加了市场的不确定性。</p>
+<p>外部因素方面，全球经济仍然存在诸多不确定性，如美联储的加息预期，可能引发资金外流和市场波动。</p>
+<p>而且，市场在经历快速上涨后，存在技术性调整的需求。部分股票的估值已经偏离基本面，市场需要时间消化这些涨幅。</p>
+<p>汪毅强调，政策导向在发生变化，从刺激市场快速上涨转向追求稳健的慢牛长牛行情，表明政策倾向于市场稳定而非短期过热。</p>
+<p><strong>渣打中国财富管理部首席投资策略师王昕杰</strong>认为，A股10月9日的大幅回调，在预期之外，但也在情理之中。这一轮上涨，是政策面引导的从原先悲观情绪向基本面修复的反转行情，这种情绪面积攒的动能超跑基本面的反转太多，很容易形成从大幅反弹到大幅波动的剧烈转换。</p>
+<p>相比于A股市场10月8日的大涨，港股的回调来得稍早一些。王昕杰指出，这主要是长假期间上涨后的获利了结。</p>
+<h2><strong>中国经济基本面改善正在加速</strong></h2>
+<p>王昕杰告诉记者：“我们对中国经济中长期增长保持信心。从9月底以来出台的一系列政策看，政府已经就一系列短期阻碍经济增长的问题提出了针对性的方案。例如，对于内生需求的问题，通过降低存量房利率，消减居民端债务负担；对房地产行业的困境，提出一揽子解决方案。同时，政府推出创新工具，为资本市场提供流动性。在一系列有的放矢的政策组合作用下，经济基本面改善的进程正在加速。”</p>
+<p><strong>汇丰环球私人银行及财富管理中国首席投资总监匡正</strong>指出，中国经济处在关键转型时期。旧的发展模式面临调整，新的发展模式也在茁壮成长。短期内，结构性改革会带来阵痛是正常的，比如房地产市场的调整。但中长期来看，结构转型、新质生产力将引领中国经济发展。</p>
+<p>汪毅认为，总体而言，中国经济中长期发展前景乐观，有望实现稳健增长和高质量发展。</p>
+<p>他表示，尽管短期市场可能会经历一定的波动和调整，但从长远来看，中国经济基本面依然稳固。政府正通过一系列逆周期调节政策来刺激经济增长，包括财政政策和货币政策协同发力，以及推动结构性改革，来提高经济效率和创新能力。</p>
+<h2><strong>更多支持政策料将出台</strong></h2>
+<p>王昕杰表示，10月12日上午，国新办新闻发布会上，财政部部长介绍了“加大财政政策逆周期调节力度，推动经济高质量发展”有关情况。种种迹象表明，市场预期的财政政策正在兑现。</p>
+<p>此外，中国人民银行和财政部就央行国债买卖成立联合工作组，其中的深意是在总需求仍然不足的情况下，货币和财政要协同合作，实现货币政策对财政政策的支持。</p>
+<p>汪毅认为，通过联合工作组这一平台，央行和财政部可以共同研究和推进金融改革，完善货币政策工具箱；同时，在国债发行、债务管理等方面加强合作，提高财政资金的使用效率。此外，联合工作组还能在维护金融市场稳定、防范和化解金融风险等方面发挥重要作用，为实体经济发展提供更加有力的支持和保障。</p>
+<p><strong>摩根资产管理中国副总经理兼投资总监杜猛</strong>指出，在本次发改委会议上，资本市场被作为单列项，反映出政策层对于这一领域的关注。市场期待财政端加力，并由此带动增量政策扩容。</p>
+<p>匡正认为，财政政策仍是扭转中国结构性增长前景的关键因素。10月12日财政部在发布会上指明了财政政策重点发力的方向，而加大债务限额和增加赤字率等具体方案有待在月底的人大常务委员会或12月中央经济工作会议后公布。</p>
+<p><strong>汇丰环球研究</strong>预计，今年还有约2万亿元财政发力空间，其中1万亿元直接用于刺激经济、1万亿元用于潜在的银行资本重组基金和地方政府再融资债券。此外，央行此前宣布将创设股票回购、增持再贷款，引导商业银行向上市公司和主要股东提供贷款，用于回购增持上市公司股票的政策值得关注。创新结构性货币政策工具中的证券、基金、保险公司的互换便利也值得期待；平准基金的落地和运用也正在研究中。</p>
+<p>汪毅认为，随着政策逐步落实，会有更多措施出台支持基础设施投资、促进消费和鼓励科技创新。这些政策将有助于稳定经济增长，提高产业升级的速度，并为新动能的培育创造条件。同时，政府也在持续推动金融市场改革，提高直接融资的比例，降低企业融资成本，这对于激发市场活力和促进经济高质量发展至关重要。</p>
+<h2><strong>中国资产中长期向好</strong></h2>
+<p><strong>汪毅认为，尽管短期内市场可能会经历波动，但中长期来看，股市有望实现稳健增长。</strong></p>
+<p>政策面上，财政和货币政策协同发力，有助于稳定市场预期和支持经济增长。金融市场改革的深入推进，将进一步激发市场活力，吸引更多外资进入。</p>
+<p>经济基本面上，随着结构性改革的不断推进，新动能的培育和旧动能的改造将逐步显现成效，为股市提供增长点。消费升级、科技创新、绿色发展等领域将成为推动经济增长的新引擎。同时，中国庞大的内需市场和持续的城市化进程为经济增长提供了坚实的基础。</p>
+<p>市场情绪方面，汪毅认为，随着投资者对政策效果的认识加深，以及经济基本面逐步改善，市场信心有望逐步恢复。全球经济形势的不确定性可能对市场情绪产生影响，但中国政府已经在采取措施应对这些挑战，并通过改革来增强经济的内生增长动力。</p>
+<p>王昕杰表示，中期看，在大盘快速上涨的情况下，波动率也会随之扩大。在交易情绪慢慢恢复常态之后，市场将大浪淘沙，优劣股票形成分化。从外部环境看，美国降息大概率将是防御性的，一定程度保障了中国的外需。另外，美联储降息通道打开，更多的资金将流出美国，令中国资产获得流动性方面的支撑。</p>
+<p>杜猛认为，当前，A股估值仍处于较低区间，随着增量政策的落实、增量资金的引入，指向高质量发展的新兴行业及绿色科技等领域或迎来新的投资机会。<strong>未来，政策对资本市场的支持和资本市场稳定发展有望增强投资者信心，推动市场企稳回升。拉长时间看，高质量的公司有望呈现更可持续的上行，市场或将迎来获取超额收益的机会。</strong></p>
+<p>至于哪些行业值得重点关注，匡正认为，政策对增长的兜底意愿强烈，四季度较大的增量财政政策可期。根据最新的政策方向，可以在以下几个主题进行择优配置：一、高景气度的科技行业和出海龙头企业；二、政策刺激下消费或有望维持韧性；三、以国企改革为主线的部分低估值红利资产依然具备配置价值。</p>
+<p><strong>杜猛表示，在经济转型与政策支持双重驱动下，一些优秀成长类公司将回归合理定价环境，战略性新兴产业和绿色科技等新质生产力或将成为市场重要增长点。</strong></p>
+<p>王昕杰认为，投资者在配置股票时应考虑哪些行业和公司更有望从政策支持中受益。目前，政府出台的刺激和改革举措，主要围绕货币宽松、推动国企改革、鼓励并购重组、加大科技创新等。因此在行情初级阶段，金融服务和信息科技行业由于其对政策变化的高弹性，表现更为出色。此外，并购重组事件成为驱动个股上涨的核心因素，在行情后期，那些有事件催化、业绩较好的行业和公司表现更加突出。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5MDEzNjQwMA==&amp;mid=2656154523&amp;idx=2&amp;sn=b3b8234910d122b048bcafc13ce255e4&amp;chksm=8a072b11f7e7dc1349094ba721068b1915d19cfc067d2d34071ae1fa6ece5cf93aed13c2ee03&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国基金报”（ID：chinafundnews）</a>，作者：郭玟君，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990963178220546</guid><pubDate>Mon, 14 Oct 2024 09:35:00 +0800</pubDate></item></channel></rss>
