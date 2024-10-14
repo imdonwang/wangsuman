@@ -1,157 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 16:00:29 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 16:00:29 +0800</pubDate><item><title>李飞飞「数字表兄弟」破解机器人训练难题，零样本sim2real成功率高达90%</title><link>https://36kr.com/p/2991963515939846</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1071,421" src="https://img.36krcdn.com/hsossms/20241014/v2_092f16f904494af5a66ae6af74cd765a@46958_oswg185442oswg1071oswg421_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>【导读】</strong>在用模拟环境训练机器人时，所用的数据与真实世界存在着巨大的差异。为此，李飞飞团队提出「数字表亲」，这种虚拟资产既具备数字孪生的优势，还能补足泛化能力的不足，并大大降低了成本。</p>
-<p>如何有效地将真实数据扩展到模拟数据，进行机器人学习？</p>
-<p>最近，李飞飞团队提出一种「数字表亲」的新方法，可以同时降低真实到模拟生成的成本，同时提高学习的普遍性。</p>
-<p class="image-wrapper"><img data-img-size-val="1036,410" src="https://img.36krcdn.com/hsossms/20241014/v2_8d04316acc044435a3b58baebcec8042@46958_oswg117293oswg1036oswg410_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>项目主页：https://digital-cousins.github.io/ </p>
-<p>论文地址：https://arxiv.org/abs/2410.07408</p>
-<p>目前，论文已被CORL2024接收。</p>
-<p>你可能会问，什么是「数字表亲」，有啥用呢？</p>
-<p>让我们把它跟数字孪生比较一下。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,604" src="https://img.36krcdn.com/hsossms/20241014/v2_f2c4d59205b9446f964b43c27c689bec@46958_oswg221120oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>的确，数字孪生可以准确地对场景进行建模，然而它的生成成本实在太昂贵了，而且还无法提供泛化功能。</p>
-<p>而另一方面，数字表亲虽然没有直接模拟现实世界的对应物，却仍然能够捕获相似的几何和语义功能。</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_a6e85efc14d8425d9b3828ccfffcb51c@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这样，它就大大降低了生成类似虚拟环境的成本，同时通过提供类似训练场景的分布，提高了从模拟到真实域迁移的鲁棒性。</p>
-<p>共同一作Tianyuan Dai表示，既然有免费的「数字表亲」了，何必再去手工设计数字孪生？</p>
-<p>亮眼的是，「数字表亲」能同时实现—— </p>
-<ul>
-<li>单幅图像变成交互式场景</li>
-<li>全自动（无需注释）</li>
-<li>机器人策略在原始场景中的零样本部署</li>
-</ul>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_d59a3cd3558845c5978ba2ad592fba4d@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">简单拍一张照片，就能搞定了</p>
-<h2><strong>模拟数据难题：与现实环境差异过大</strong></h2>
-<p>在现实世界中训练机器人，存在策略不安全、成本高昂、难以扩展等问题；相比之下，模拟数据是一种廉价且潜在无限的训练数据来源。</p>
-<p>然而，模拟数据存在一个难以忽视的问题——与现实环境之间的语义和物理差异。</p>
-<p>这些差异可以通过在数字孪生中进行训练来最小化，但数字孪生作为真实场景的虚拟复制品，同样成本高昂且无法跨域泛化。</p>
-<p>正是为了解决这些限制，论文提出了「数字表亲」（digital cousion）的概念。</p>
-<p>「数字表亲」是一种虚拟资产或场景，与数字孪生不同，它不明确模拟现实世界的对应物，但仍然展现类似的几何和语义功能。</p>
-<p>因此，数字表亲既具备了数字孪生的优势，能够补足现实数据的不足，同时降低了生成类似虚拟环境的成本，并能更好地促进跨域泛化。</p>
-<p>具体而言，论文引入了一种自动创建数字表亲（Automatic Creation of Digital Cousins，ACDC）的新方法，并提出了一个完全自动化的，从真实到模拟再到真实的流程，用于生成交互式场景和训练策略。</p>
-<p>实验结果发现，ACDC生成的数字表亲场景能够保留几何和语义功能，训练出的策略也优于数字孪生（90% vs. 25%），而且可以通过零样本学习直接部署在原始场景中。</p>
-<h2><strong>方法概述</strong></h2>
-<p>与数字孪生不同，数字表亲并不苛求在所有微小细节上都要重建给定场景，而是专注于保留更高级别的细节，例如空间关系和语义。</p>
-<p>ACDC是一个完全自动化的端到端流程，从单个RGB图像生成完全交互式的模拟场景，由三个连续步骤组成：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,572" src="https://img.36krcdn.com/hsossms/20241014/v2_c989edfd6ad94594993e9e655adc029f@46958_oswg428297oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>信息提取：首先，从输入的RGB图像中提取对象信息。</p>
-<p>数字表亲匹配：利用第一步提取的信息，结合预先准备的3D模型资产数据集，为检测到的每个对象匹配相应的数字表亲。</p>
-<p>场景生成：对选择的数字表亲进行后处理并编译在一起，生成一个物理上合理且完全交互式的模拟场景。</p>
-<p>通过这三个步骤，ACDC能够自动创建与输入图像语义相似但不完全相同的虚拟场景，为机器人策略训练提供多样化的环境。</p>
-<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241014/v2_027b74ddeec84e86aa8f00d93ba60f7a@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>策略学习</strong></h3>
-<p>构建了一组数字表亲后，就可以这些环境中训练机器人策略。</p>
-<p>虽然这种方法适用于多种训练范式，例如强化学习或模仿学习，但本文选择聚焦于于脚本演示（scripted demonstrations）的模仿学习，因为这种范式不需要人类演示，与完全自主化的ACDC流程更加适配。</p>
-<p>为了能在模拟环境中自动实现演示的收集，作者首先实施了一组基于样本的技能，包括Open（开）、 Close（关）、 Pick（拿）和Place（放）四种。</p>
-<p>虽然技能的种类数仍然有限，但已经足够收集各种日常任务的演示，例如对象重新排列和家具铰接。</p>
-<h2><strong>实验</strong></h2>
-<p>通过实验，团队回答了以下研究问题：</p>
-<p>Q1：ACDC能否生成高质量的数字表亲场景？给定单张RGB图像，ACDC能否捕捉原始场景中固有的高级语义和空间细节？</p>
-<p>Q2：在原始的环境设置上评估时，在数字表亲上训练的策略能否匹配数字孪生的性能？</p>
-<p>Q3：在分布外设置上评估时，在数字表亲上训练的策略是否表现出更强的稳健性？</p>
-<p>Q4：在数字表亲上训练的策略能否实现零样本的sim2real策略迁移？</p>
-<h3><strong>通过ACDC进行场景重建</strong></h3>
-<p>首先团队需要论证的最重要的问题，就是ACDC能生成高质量的数字表亲场景吗？</p>
-<p>从表格中的数据来看，结果十分令人满意。</p>
-<p>以下是在sim-to-sim场景中对ABCD场景重建进行的定量和定性评估。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,426" src="https://img.36krcdn.com/hsossms/20241014/v2_047b34eb10504480b8b315f464238f1e@46958_oswg174699oswg1080oswg426_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">在sim2sim场景中对ACDC进行场景重建的定量和定性评估</p>
-<p>评估指标包括： </p>
-<ul>
-<li>「Scale」：输入场景中两个对象边界框之间的最大距离。</li>
-<li>「Cat.」：正确分类对象占场景总对象总数的比例。</li>
-<li>「Mod.」：正确建模对象占场景中对象总数的比例。</li>
-<li>「L2 Dist.」：输入和重建场景中边界框中心间欧几里得距离的均值和标准差。</li>
-<li>「Ori. Diff.」：每个中心对称对象方向幅度差异的均值和标准差。</li>
-<li>「Bbox IoU」：资产3D边界框的交并比（IoU）。</li>
-</ul>
-<p>以下是ACDC实景到模拟场景的重建结果。</p>
-<p>在给定场景中，会显示多个数字表亲。</p>
-<p class="image-wrapper"><img data-img-size-val="720,405" src="https://img.36krcdn.com/hsossms/20241014/v2_9071ab8e7bca469587d1cb920f02fb8c@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>ACDC真实到模拟场景重建结果的定性评估，展示了为给定场景生成的多个数字表亲 </p>
-<p>基于这些结果，研究者可以肯定地回答Q1了—— </p>
-<p>ACDC确实能够保留输入场景的语义和空间细节，从单张RGB图像生成真实世界对象的数字表亲，并能准确定位和缩放以匹配原始场景。 </p>
-<h3><strong>sim2sim的策略学习</strong></h3>
-<p>这部分的实验主要是为了回答上述研究中的Q2和Q3，在3个任务上分析ACDC训练策略的能力，包括「开门」、「打开抽屉」和「收起碗」，每项任务都与数字孪生设置进行了对比。 </p>
-<p class="image-wrapper"><img data-img-size-val="720,405" src="https://img.36krcdn.com/hsossms/20241014/v2_5464144b84b14135a0a374614c79311b@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不同设置中的总体成功率如下图所示。 </p>
-<p>可以发现，在数字表亲上训练的策略通常可以匹配，甚至优于数字孪生的设置。 </p>
-<p>作者假设，由于数字表亲的策略是在不同环境设置的数据上进行训练的，因此可以覆盖广泛的状态空间，从而很好地推广到原始数字孪生设置。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,500" src="https://img.36krcdn.com/hsossms/20241014/v2_f66d397f5cf2419e970bea20aa2e696c@46958_oswg269593oswg1080oswg500_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">然而，在另一个极端，针对所有可行资产（All Assets）进行训练场的策略要比数字孪生差得多，这表明朴素的领域随机化并不总是有用的。 </p>
-<p>此外，随着DINO嵌入距离的增加，即评估设置与原始设置的差异逐渐增大，数字孪生的策略性能通常会出现成比例的显著下降，但数字孪生策略整体表现更加稳定，证明了在分布外设置上的鲁棒性。 </p>
-<h3><strong>sim2real的策略学习</strong></h3>
-<p>随后，研究者对数字孪生和数字表亲策略进行了零样本现实世界评估。 </p>
-<p>任务是给宜家柜子上开门。 </p>
-<p class="image-wrapper"><img data-img-size-val="720,405" src="https://img.36krcdn.com/hsossms/20241014/v2_ef10cf5589644eea9defaf6241a9c069@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>评估指标就是成功率。 </p>
-<p>结果显示，模拟结果平均超过50次试验，真实结果平均超过20次试验。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,768" src="https://img.36krcdn.com/hsossms/20241014/v2_43e9acd15a0144ac82fb67ae9410e3d3@46958_oswg411193oswg1080oswg768_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>real2sim2real的场景生成和策略学习</strong></h3>
-<p>无论是数字孪生还是数字表亲，最终的落脚点还是要在真实环境中对比性能。 </p>
-<p>因此实验的最后，团队在完全真实（in-the-wild）的厨房场景中端到端地测试了完整的ACDC管道和自动化策略学习框架。 </p>
-<p>在经过数字表亲的专门模拟训练后，机器人可以成功打开厨房橱柜，证明了ACDC方法迁移到真实环境中的有效性。 </p>
-<p>以下Demo展示了完全自动化的数字表亲生成过程。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_567af347d0484c139cf10ccd13bad9a7@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_51c6d968e6ea4b36ad3ef3de1749dbe7@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_8ae19dcbfb6f444e9bd0e7809bac54b2@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_71b18fd4d10a4d9caf2129a1aac6593a@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_88b7775cc0db4898850bdef02681fe6d@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_a7af3ca21f5f4adda38eaed30b9381af@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_b0126e37f7c344efac2e015b492ef091@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>零样本的sim2real策略迁移实验表明，仅从上述生成的四个数字表亲训练的模拟策略，可以直接迁移到相应的真实厨房场景。 </p>
-<p class="image-wrapper"><img data-img-size-val="550,612" src="https://img.36krcdn.com/hsossms/20241014/v2_5b12cc3e583a4863aabc0e4af5398b0d@46958_oswg173716oswg550oswg612_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>基于这些结果，研究者可以肯定地回答Q2、Q3和Q4了—— </p>
-<p>使用数字表亲训练的策略，表现出了与在数字孪生上训练策略相当的分布内性能，以及更强的分布外鲁棒性，并且可以实现零样本从模拟到现实的策略迁移。 </p>
-<h3><strong>失败案例</strong></h3>
-<p>即使ACDC方法表现出了整体上的优越性能，研究团队也在实验中观察到了几个失败案例，例如：在打开柜子的任务中，机器人未能完全移动到把手所在位置—— </p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_0176d23afd02495c9ef0f7ac38b50b45@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>或者移动时错过把手—— </p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_1e0cc3900322416491551699f756eb95@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>即使正确找到了把手所在位置，也有可能手滑—— </p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241014/v2_af99eb2ba8974245b93592a86d179daa@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>可以观察到，ACDC经常在以下几种情况下陷入困境： </p>
-<p>a. 高频深度信息</p>
-<p>b. 遮挡</p>
-<p>c .语义类别差异</p>
-<p>d. 缺乏相应类别的资产</p>
-<p>e. 除「位于顶部」之外的对象关系 </p>
-<p>前三个限制，与ACDC的参数化方式直接相关。 </p>
-<p>比如对于(a)，由于ACDC依赖于相对准确的深度估计，来计算预测的对象3D边界框，因此不准确的深度图可能会导致ACDC对物体模型的估计相应较差。 </p>
-<p>原生深度传感器在物体边界附近可能难以产生准确的读数，这是因为深度图在这些区域可能出现不连续性。当物体具有许多精细边界时（例如植物和栅栏），这个问题会变得更加复杂。 </p>
-<p>此外，由于研究者依赖现成的基础模型（DepthAnything-v2）来预测合成深度图，因此也承袭了模型自身的一系列限制，例如对特殊物体或在不利的视觉条件下的预测较差。 </p>
-<h2><strong>结论</strong></h2>
-<p>最终，研究者得出了以下结论。 </p>
-<p>ACDC是一个全自动化管线，能够快速生成与单张真实世界RGB图像相对应的完全交互式数字表亲场景。 </p>
-<p>研究发现： </p>
-<p><strong>1. 鲁棒性</strong></p>
-<p>在这些数字表亲设置上训练的策略，比在数字孪生上训练的策略表现出更强的鲁棒性。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,674" src="https://img.36krcdn.com/hsossms/20241014/v2_2a5719294afa4e86a60533e7b4917f09@46958_oswg474130oswg1080oswg674_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为了进一步检查数字表亲对朴素域随机化的相对影响，研究者根据其他基线在 DoorOpening任务上重新运行了sim2sim实验 </p>
-<p><strong>2. 性能对比</strong></p>
-<p>领域内性能：数字表亲训练的策略与数字孪生训练的策略相当。</p>
-<p>领域外泛化：数字表亲训练的策略展现出优越的领域外泛化能力。</p>
-<p><strong>3. 零样本学习</strong></p>
-<p>数字表亲训练的策略能够实现零样本从模拟到现实的策略迁移。</p>
-<h2><strong>作者介绍</strong></h2>
-<h3><strong>Tianyuan Dai</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="1080,1512" src="https://img.36krcdn.com/hsossms/20241014/v2_9f714b8772b14063b6eb67a583ec50cf@46958_oswg1493753oswg1080oswg1512_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Tianyuan Dai本科毕业于香港科技大学，获得了计算机科学和数学学士学位，目前在斯坦福攻读硕士学位，隶属于斯坦福SVL实验室（Vision and Learning Lab）和PAIR研究小组（People, AI &amp; Robots Group），由李飞飞指导。 </p>
-<p class="image-wrapper"><img data-img-size-val="752,567" src="https://img.36krcdn.com/hsossms/20241014/v2_b1dab327519041b28a8c41a219edd808@46958_oswg92698oswg752oswg567_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>他的长期愿景是将人类对现实世界环境的理解融入到机器人算法中，使用数据驱动的方法帮助人们完成日常任务；最近研究的重点是开发real2sim2real范式，以实现稳健的操控策略学习（manipulation policy learning）。 </p>
-<h3><strong>Josiah Wong</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="600,844" src="https://img.36krcdn.com/hsossms/20241014/v2_6dfa9f6e77df49219f820c1cada1e66b@46958_oswg751304oswg600oswg844_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Josiah Wong目前在斯坦福大学攻读机械工程博士学位，导师是李飞飞，同样在SVL和PAIR组工作。 </p>
-<p>此前，他在斯坦福大学获得硕士学位，在加利福尼亚大学圣迭戈分校获得学士学位。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,686" src="https://img.36krcdn.com/hsossms/20241014/v2_623b9e5e6bad486cabcc3f9405e09371@46958_oswg180078oswg1080oswg686_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>他致力于利用仿真技术来拓展机器人操作能力，目标是推动日常通用机器人的发展，从而改善我们的日常生活。 </p>
-<p><strong>参考资料： </strong></p>
-<p>https://x.com/RogerDai1217/status/1844411408374693941 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/UHQmxbCpYpAZYWQHzw1kQA" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：编辑部 HXZ ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2991963515939846</guid><pubDate>Mon, 14 Oct 2024 15:18:00 +0800</pubDate></item><item><title>悄悄入华一年，日本穷鬼健身房还在水土不服</title><link>https://36kr.com/p/2991872292432898</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 16:30:36 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 16:30:36 +0800</pubDate><item><title>悄悄入华一年，日本穷鬼健身房还在水土不服</title><link>https://36kr.com/p/2991872292432898</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_d6ad0234ba0c4d6f886f62fbc896e09e@000000_oswg610123oswg1049oswg694_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p>怎么看，都不能批评它不够努力，但现实是冰冷的，这些努力并没有掀起水花。</p>
 <h2><strong>01 力不从心</strong></h2>
@@ -642,4 +490,67 @@
 <p>这样的 AI 没法真的解决当下的问题，但把它当成一个听众、虚拟树洞、总是正能量的人格，排解自己的情绪，何乐而不为？ </p>
 <p>重要的是 ，我们正在 往前走，我们从过去走来，我们向未来走去，不在原地停留，不为此时此刻所困 。 </p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Ll9jJEHSxy9u71RsZOuc0g" rel="noopener noreferrer nofollow" target="_blank">“APPSO”</a>，作者：发现明日产品的，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992023841925888</guid><pubDate>Mon, 14 Oct 2024 15:50:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992023841925888</guid><pubDate>Mon, 14 Oct 2024 15:50:00 +0800</pubDate></item><item><title>扩散模型训练方法一直错了，谢赛宁：Representation matters</title><link>https://36kr.com/p/2992021255957256</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>Representation matters. Representation matters. Representation matters.</p>
+</blockquote>
+<p>是什么让纽约大学著名研究者谢赛宁三连呼喊「Representation matters」？他表示：「我们可能一直都在用错误的方法训练扩散模型。」即使对生成模型而言，表征也依然有用。基于此，他们提出了 REPA，即表征对齐技术，其能让「训练扩散 Transformer 变得比你想象的更简单。」</p>
+<p class="image-wrapper"><img data-img-size-val="990,860" src="https://img.36krcdn.com/hsossms/20241014/v2_7e447ff95a23424f9462291fbd80746c@46958_oswg325681oswg990oswg860_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Yann LeCun 也对他们的研究表示了认可：「我们知道，当使用自监督学习训练视觉编码器时，使用具有重构损失的解码器的效果远不如使用具有特征预测损失和崩溃预防机制的联合嵌入架构。这篇来自纽约大学 @sainingxie 的论文表明，即使你只对生成像素感兴趣（例如使用扩散 Transformer 生成漂亮图片），也应该包含特征预测损失，以便解码器的内部表征可以根据预训练的视觉编码器（例如 DINOv2）预测特征。」</p>
+<p class="image-wrapper"><img data-img-size-val="994,516" src="https://img.36krcdn.com/hsossms/20241014/v2_4cfc8cd63f744d87ae310972af985fd5@46958_oswg132469oswg994oswg516_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>我们知道，在生成高维视觉数据方面，基于去噪的生成模型（如扩展模型和基于流的模型）的表现非常好，已经得到了广泛应用。近段时间，也有研究开始探索将扩展模型用作表征学习器，因为这些模型的隐藏状态可以捕获有意义的判别式特征。</p>
+<p>而谢赛宁指导的这个团队发现（另一位指导者是 KAIST 的 Jinwoo Shin），训练扩散模型的主要挑战源于需要学习高质量的内部表征。他们的研究表明：「当生成式扩散模型得到来自另一个模型（例如自监督视觉编码器）的外部高质量表征的支持时，其性能可以得到大幅提升。」</p>
+<p>REPresentation Alignment（REPA），即表征对齐技术，便基于此而诞生了。这是一个基于近期的扩散 Transformer（DiT）架构的简单正则化技术。</p>
+<p class="image-wrapper"><img data-img-size-val="1070,340" src="https://img.36krcdn.com/hsossms/20241014/v2_8eac62bca1c94cdd969d5214d4983e99@46958_oswg91563oswg1070oswg340_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<ul>
+<li>论文标题：Representation Alignment for Generation: Training Diffusion Transformers Is Easier Than You Think</li>
+<li>论文地址：https://arxiv.org/pdf/2410.06940</li>
+<li>项目地址：https://sihyun.me/REPA/</li>
+<li>代码地址：https://github.com/sihyun-yu/REPA</li>
+</ul>
+<p>本质上讲，REPA 就是将一张清晰图像的预训练自监督视觉表征蒸馏成一个有噪声输入的扩展 Transformer 表征。这种正则化可以更好地将扩展模型表征与目标自监督表征对齐。</p>
+<p>方法看起来很简单，但 REPA 的效果却很好！据介绍，REPA 能大幅提升模型训练的效率和效果。相比于原生模型，REPA 能将收敛速度提升 17.5 倍以上。在生成质量方面，在使用带引导间隔（guidance interval）的无分类器引导时，新方法取得了 FID=1.42 的当前最佳结果。</p>
+<h2><strong>REPA：用于表征对齐的正则化</strong></h2>
+<p>REPresentation Alignment（REPA）是一种简单的正则化方法，其使用了近期的扩展 Transformer 架构。简单来说，该技术就是一种将预训练的自监督视觉表征蒸馏到扩展 Transformer 的简单又有效的方法。这让扩散模型可以利用这些语义丰富的外部表征进行生成，从而大幅提高性能。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,477" src="https://img.36krcdn.com/hsossms/20241014/v2_49dedff2d3864f768ed1d9ce35145916@46958_oswg271026oswg1080oswg477_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>观察</strong></h3>
+<p>REPA 的诞生基于该团队得到的几项重要观察。</p>
+<p>他们研究了在 ImageNet 上预训练得到的 SiT（可扩展插值 Transformer）模型的逐层行为，该模型使用了线性插值和速度预测（velocity prediction）进行训练。他们研究的重点是扩散 Transformer 和当前领先的监督式 DINOv2 模型之间的表征差距。他们从三个角度进行了研究：语义差距、特征对齐进展以及最终的特征对齐。</p>
+<p>对于语义差距，他们比较了使用 DINOv2 特征的线性探测结果与来自 SiT 模型（训练了 700 万次迭代）的线性探测结果，采用的协议涉及到对扩散 Transformer 的全局池化的隐藏状态进行线性探测。</p>
+<p>接下来，为了测量特征对齐，他们使用了 CKNNA；这是一种与 CKA 相关的核对齐（kernel alignment）指标，但却是基于相互最近邻。这样一来，便能以量化方式评估对齐效果了。图 2 总结了其结果。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,574" src="https://img.36krcdn.com/hsossms/20241014/v2_9138ece45bdc45f082f307cb5c49e0de@46958_oswg353717oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>扩散 Transformer 与先进视觉编码器之间的语义差距明显。</strong>如图 2a 所示，可以观察到，预训练扩散 Transformer 的隐藏状态表征在第 20 层能得到相当高的线性探测峰值。但是，其性能仍远低于 DINOv2，表明这两种表征之间存在相当大的语义差距。此外，他们还发现，在此峰值之后，线性探测性能会迅速下降，这表明扩散 Transformer 必定从重点学习语义丰富的表征转向了生成具有高频细节的图像。</p>
+<p><strong>扩散表征已经与其它视觉表征（细微地）对齐了。</strong>图 2b 使用 CKNNA 展示了 SiT 与 DINOv2 之间的表征对齐情况。可以看到，SiT 模型表征的对齐已经优于 MAE，而后者也是一种基于掩码图块重建的自监督学习方法。但是，相比于其它自监督学习方法之间的对齐分数，其绝对对齐分数依然较低。这些结果表明，尽管扩散 Transformer 表征与自监督视觉表征存在一定的对齐，但对齐程度不高。</p>
+<p><strong>当模型增大、训练变多时，对齐效果会更好。</strong>该团队还测量了不同模型大小和训练迭代次数的 CKNNA 值。图 2c 表明更大模型和更多训练有助于对齐。同样地，相比于其它自监督视觉编码器之间的对齐，扩散表征的绝对对齐分数依然较低。</p>
+<p>这些发现并非 SiT 模型所独有，其它基于去噪的生成式 Transformer 也能观察到。该团队也在 DiT 模型上观察到了类似的结果 —— 其使用 DDPM 目标在 ImageNet 上完成了预训练。</p>
+<h3><strong>与自监督表征的表征对齐</strong></h3>
+<p>REPA 将模型隐藏状态的 patch-wise 投影与预训练自监督视觉表征对齐。具体来说，该研究使用干净的（clean）图像表征作为目标并探讨其影响。这种正则化的目的是让扩散 transformer 的隐藏状态从包含有用语义信息的噪声输入中预测噪声不变、干净的视觉表征。这能为后续层重建目标提供有意义的引导。</p>
+<p>形式上，令 𝑓 为预训练编码器，x* 为干净图像。令 y*=𝑓(x*) ∈ ℝ^{N×D} 为编码器输出，其中 N、D &gt; 0 分别是 patch 的数量和 𝑓 的嵌入维度。</p>
+<p>REPA 是将</p>
+<p class="image-wrapper"><img data-img-size-val="924,168" src="https://img.36krcdn.com/hsossms/20241014/v2_0766a16d206a4cc3a771624b81aec246@46958_oswg22075oswg924oswg168_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>与 y* 对齐，其中</p>
+<p class="image-wrapper"><img data-img-size-val="433,170" src="https://img.36krcdn.com/hsossms/20241014/v2_13192ff793654aaeafacda1ceb6add85@46958_oswg37758oswg433oswg170_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>是扩散 transformer 编码器输出</p>
+<p class="image-wrapper"><img data-img-size-val="440,92" src="https://img.36krcdn.com/hsossms/20241014/v2_22709f0bf2f74646be0c081fa2bcacd5@46958_oswg8148oswg440oswg92_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>通过可训练投影头 h_ϕ 得到的投影。实践中 h_ϕ 的参数化是简单地使用多层感知器（MLP）完成的。</p>
+<p>特别地，REPA 通过最大化预训练表征 y* 和隐藏状态 h_t 之间的 patch-wise 相似性来实现对齐，其中 n 是 patch 索引，sim (・,・) 是预定义的相似度函数。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,111" src="https://img.36krcdn.com/hsossms/20241014/v2_cd9b0b318034414495d79cda5a82ef29@46958_oswg13574oswg1080oswg111_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在实践中，是基于一个系数 λ 将该项添加到基于扩散的原始目标中。例如，对于速度模型的训练，其目标变为：</p>
+<p class="image-wrapper"><img data-img-size-val="1080,65" src="https://img.36krcdn.com/hsossms/20241014/v2_34691b6423ae4bf1acc8b76dceb206fc@46958_oswg7185oswg1080oswg65_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>其中 λ &gt; 0 是一个超参数，用于控制去噪和表示对齐之间的权衡。该团队主要研究这种正则化对两个常用目标的影响：DiT 中使用的改进版 DDPM 和 SiT 中使用的线性随机插值，尽管也可以考虑其他目标。</p>
+<h2><strong>结果</strong></h2>
+<h3><strong>REPA 改善视觉扩展</strong></h3>
+<p>该研究首先比较两个 SiT-XL/2 模型在前 400K 次迭代期间生成的图像，其中一个模型应用 REPA。两种模型共享相同的噪声、采样器和采样步骤数，并且都不使用无分类器引导。使用 REPA 训练的模型表现更好。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,639" src="https://img.36krcdn.com/hsossms/20241014/v2_07c6e39dcc2140d881b286e58129ed56@46958_oswg909905oswg1080oswg639_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>REPA 在各个方面都展现出强大的可扩展性</strong></h3>
+<p>该研究通过改变预训练编码器和扩散 transformer 模型大小来检查 REPA 的可扩展性，结果表明：与更好的视觉表征相结合可以改善生成和线性探测结果。  </p>
+<p class="image-wrapper"><img data-img-size-val="1080,546" src="https://img.36krcdn.com/hsossms/20241014/v2_c295412918624f38b244ae4d5be9aeaa@46958_oswg315125oswg1080oswg546_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>REPA 还在大型模型中提供了更显著的加速，与普通模型相比，实现了更快的 FID-50K 改进。此外，增加模型大小可以在生成和线性评估方面带来更快的增益。 </p>
+<h3><strong>REPA 显著提高训练效率和生成质量</strong></h3>
+<p>最后，该研究比较了普通 DiT 或 SiT 模型与使用 REPA 训练的模型的 FID 值。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,733" src="https://img.36krcdn.com/hsossms/20241014/v2_c149d319e1284495b1c9438e1714f172@46958_oswg526293oswg1080oswg733_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在没有无分类器引导的情况下，REPA 在 400K 次迭代时实现了 FID=7.9，优于普通模型在 700 万次迭代时的性能。 </p>
+<p>使用无分类器引导，带有 REPA 的 SiT-XL/2 的性能优于最新的扩散模型，迭代次数减少为 1/7，并通过额外的引导调度实现了 SOTA FID=1.42。 </p>
+<p>该团队也执行了消融研究，探索了不同时间步数、不同视觉编码器和不同 λ 值（正则化系数）的影响。详见原论文。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/a725rxzvyQXqNJoL1NsMaA" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，编辑：Panda、小舟，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992021255957256</guid><pubDate>Mon, 14 Oct 2024 16:03:00 +0800</pubDate></item></channel></rss>
