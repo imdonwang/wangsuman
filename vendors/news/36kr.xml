@@ -1,434 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 18:00:46 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 18:00:46 +0800</pubDate><item><title>苹果研究员质疑大模型，我们测试了6款，发现了4大真相</title><link>https://36kr.com/p/2991835976605312</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>汽车业务失利后，苹果决定加码生成式AI，并将部分汽车部门的员工调到了AI部门。然而对待AI，苹果似乎不如百度、讯飞、OpenAI、xAI等国内外企业那么自信。</p>
-<p>日前，苹果研究员发布了一篇名为《理解大语言模型中数学推理局限性 》的论文，质疑大语言模型的数学推理能力，甚至认为大语言模型不具备真正的推理能力。</p>
-<p>苹果研究员在论文中举了一个简单的例子，向大模型提出问题“奥利弗周五摘了44个奇异果，周六摘了58个奇异果。周日，他摘的奇异果是周五的两倍。奥利弗一共摘了多少个奇异果？”此时大语言模型都能正确计算出答案。</p>
-<p class="image-wrapper"><img data-img-size-val="1024,1024" src="https://img.36krcdn.com/hsossms/20241014/v2_ac0c8d5e498f4154b336458ea0a9db57@1547419282_oswg677555oswg1024oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：豆包AI生成） </p>
-<p>但当研究人员为问题增添了一句修饰语“周日，他摘的奇异果是周五的两倍，其中5个比平均小”时，部分大模型就给出了错误的答案，倾向于减掉这五个比较小的奇异果。</p>
-<p>在大语言模型的使用过程中，小雷也遇到过大模型“抽风”的情况，某个大语言模型甚至连最基础的乘法都能算错。不过大语言模型一直在向前发展，许多曾经常犯的错误，都已被新技术解决。</p>
-<p><strong>苹果研究员吐槽大语言模型数学推理能力不行，究竟是情况属实，还是为自家AI技术落后找借口？实测过后，我们有了结论。</strong></p>
-<h2><strong>哪些大语言模型能回答苹果的问题？</strong></h2>
-<p>本次大语言模型对比评测，小雷选择了全球名气较高的六款产品，包括：1、GPT-4o；2、讯飞星火大模型；3、豆包；4、Kimi；5、文心3.5五款大模型；6、GPT-4o mini。由于文心大模型4.0收费，其他大语言模型则免费（GPT-4o每日有免费提问次数），因此为了公平起见，小雷选择了免费的文心大模型3.5。</p>
-<p>闲话不多说，我们直接进入测试阶段。</p>
-<h2><strong>一、奇异果问题：文心完败</strong></h2>
-<p>第一轮测试的问题，我们选择了苹果研究员提到的奇异果问题（正确答案：190个）。站在人类的视角，奇异果的大小并不影响计算数量，但在大语言模型的视角中，情况却发生了变化。</p>
-<p>本轮测试中，五款大语言模型有四款通过了考验，<strong>其中豆包和Kimi特地提醒，奇异果的大小并不影响计算总数。</strong>GPT-4o虽然也正确计算出了总数，但可能是因为“平均”两个字的翻译问题，还求出了三天平均每天摘取奇异果的数量。<strong>唯一没有得出正确答案的大模型是文心大模型3.5，将五个体型小的奇异果排除，得到了摘取185个奇异果的错误答案。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1589,1521" src="https://img.36krcdn.com/hsossms/20241014/v2_06f5f63c640340dc8afc8119d27163fb@1547419282_oswg213477oswg1589oswg1521_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：GPT截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1929,1429" src="https://img.36krcdn.com/hsossms/20241014/v2_b86de2164cbd4298b1ba5da5dfb2488d@1547419282_oswg222741oswg1929oswg1429_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：讯飞星火截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1583,644" src="https://img.36krcdn.com/hsossms/20241014/v2_58a7900881d140c29f10200391831b12@1547419282_oswg101516oswg1583oswg644_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：豆包截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1617,940" src="https://img.36krcdn.com/hsossms/20241014/v2_85328e388d59456c89068b3b6edc9b89@1547419282_oswg166104oswg1617oswg940_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：Kimi截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1737,1121" src="https://img.36krcdn.com/hsossms/20241014/v2_5d00f5301da04667b3061ab1936f526f@1547419282_oswg262279oswg1737oswg1121_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">苹果研究员的论文，提到了GPT-4o mini计算该问题时出错，切换至该模型后，小雷又计算了一遍这道题，果不其然，GPT-4o mini也给出了错误答案。（图源：文心一言截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1625,1344" src="https://img.36krcdn.com/hsossms/20241014/v2_36df653e58ea4a1a9d538978728c63a9@1547419282_oswg154838oswg1625oswg1344_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：GPT-4o mini截图） </p>
-<p>难道大语言模型计算数学题的准确性，与其参数量呈正相关？<strong>GPT-4o mini属于小模型，更追求低成本和快速响应，参数量远不能与GPT-4o相比，在推理数学问题时，参数量的差距导致GPT-4o与GPT-4o mini计算结果不同。</strong></p>
-<p>文心大模型同样如此，尽管没有官方数据，但4.0版本的推理成本相较于3.5版本预计提高了8-10倍，3.5版的参数量之小可想而知。</p>
-<h2><strong>二、公交车问题：文心完胜</strong></h2>
-<p>本轮测试的题目是一道行测数学题，具体内容为：</p>
-<blockquote>
-<p>由于国庆节的到来，某旅游城市的游客数量大幅上涨，公交公司决定简化公交车的线路，缩短单程时间。现有1、2、3路公交车，于上午7点同时从车站发车，三辆公交车再次回到车站所用时间分别为30分钟、45分钟、60分钟。这三辆公交车中间不休息，请问第二次它们同时到达车站将是几点？（正确答案：13点）</p>
-</blockquote>
-<p>这轮测试所得出的结果，让小雷惊掉了下巴。在测试中，小雷连续测试四款大模型，结果全部计算错误，当时唯一没有出错的大语言模型就是文心3.5。</p>
-<p>鉴于文心3.5在第一轮的表现，小雷没有对文心3.5抱有任何期待，但我不看好它的时候，文心3.5偏偏就争气了，并成为唯一解出正确答案的大语言模型。后续小模型GPT-4o mini在测试中，也没能给出正确答案。</p>
-<p class="image-wrapper"><img data-img-size-val="1811,1665" src="https://img.36krcdn.com/hsossms/20241014/v2_ac8260bf4257427f8a12e8e50b7638e6@1547419282_oswg210126oswg1811oswg1665_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：GPT截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1931,1796" src="https://img.36krcdn.com/hsossms/20241014/v2_3b378444d5ec4bbb820bb910644bffe2@1547419282_oswg269352oswg1931oswg1796_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：讯飞星火截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1803,1167" src="https://img.36krcdn.com/hsossms/20241014/v2_f4d04c53e8e04f62835cb8e6899a4b4f@1547419282_oswg177393oswg1803oswg1167_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：豆包截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1592,1126" src="https://img.36krcdn.com/hsossms/20241014/v2_664c6c7301ed4245999bdad65525f43c@1547419282_oswg238612oswg1592oswg1126_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：Kimi截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1788,1277" src="https://img.36krcdn.com/hsossms/20241014/v2_f7bf07bb73df4947a0995cc4319f96da@1547419282_oswg447118oswg1788oswg1277_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：文心一言截图）</p>
-<p class="image-wrapper"><img data-img-size-val="1253,1519" src="https://img.36krcdn.com/hsossms/20241014/v2_9b558121296b4b6d9b9dfd0806caae80@1547419282_oswg151528oswg1253oswg1519_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：GPT-4o mini截图） </p>
-<p>思来想去，小雷认为唯一的解释就是，<strong>百度作为国内首屈一指的搜索引擎，对于中国人的语言与思维习惯更加了解，因而才能准确理解“到达”这个词的含义。</strong>其他大模型都将始发停靠在汽车站当做第一次到达车站，未能正确理解“到达”的含义。</p>
-<p>相较于数学，本题对于中文理解能力的考验可能更高，但这几款大语言模型的表现也从侧面说明，AI大模型对于人类逻辑的理解能力有待提升。考虑到文心3.5的获胜证明实力的同时，也有取巧的可能，因此小通还准备了地狱级难度的第三轮测试。</p>
-<h2><strong>三、运动员问题：免费版团灭，付费版正确</strong></h2>
-<p>第三道题同样是一道行测数学题，但与以上问题不同的是，这道题没有任何干扰信息，纯粹考验大语言模型的计算能力。题目为：</p>
-<blockquote>
-<p>某班有39名同学参加短跑、跳远、投掷三项体育比赛，人数分别为23人、18人、21人，其中三项比赛全部参加的有5人，仅参加跳远的有3人，仅参加投掷的有9人，请问仅参加短跑的有多少人？（正确答案：9人）</p>
-</blockquote>
-<p>遗憾的是，五款大模型与一款小模型在本轮测试中全部失败，而且大语言模型给出的答案各不相同，解题思路也存在许多问题。</p>
-<p class="image-wrapper"><img data-img-size-val="1416,1840" src="https://img.36krcdn.com/hsossms/20241014/v2_23435e15d06e4dbebb1d37dd37733f02@1547419282_oswg265442oswg1416oswg1840_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：GPT截图）</p>
-<p class="image-wrapper"><img data-img-size-val="2002,2414" src="https://img.36krcdn.com/hsossms/20241014/v2_fc32f6e45af7487e84ffde6c1a1fca40@1547419282_oswg391473oswg2002oswg2414_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：讯飞星火截图）</p>
-<p class="image-wrapper"><img data-img-size-val="1607,1329" src="https://img.36krcdn.com/hsossms/20241014/v2_8b882a5b68cd45eab14195683ac8a4df@1547419282_oswg250975oswg1607oswg1329_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：豆包截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1593,1920" src="https://img.36krcdn.com/hsossms/20241014/v2_c2a60cad6a894d55a60c15a46f452a86@1547419282_oswg430185oswg1593oswg1920_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：Kimi截图） </p>
-<p class="image-wrapper"><img data-img-size-val="1742,3206" src="https://img.36krcdn.com/hsossms/20241014/v2_410f2d635ef244309c935feaf7d9e333@1547419282_oswg1140988oswg1742oswg3206_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：文心一言截图） </p>
-<p class="image-wrapper"><img data-img-size-val="945,993" src="https://img.36krcdn.com/hsossms/20241014/v2_950ae84bea874307a28b714efda9b6fe@1547419282_oswg94444oswg945oswg993_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：GPT-4o mini截图）</p>
-<p><strong>最后，小雷只好使用付费版的OpenAI o1-preview大模型进行计算，结果不负众望，给出了正确答案。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1899,1425" src="https://img.36krcdn.com/hsossms/20241014/v2_e03caa704dad42fdbe2ac3c5e8eca44a@1547419282_oswg683825oswg1899oswg1425_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：GPT-4o o1-preview截图） </p>
-<p><strong>同样是OpenAI旗下的大模型，免费版GPT-4o和付费版o1-preview得出了不同答案，原因可能在于免费用户所能调用的资源更少，导致大模型计算能力不如付费版。</strong></p>
-<h2><strong>参数决定性能，付费升级体验</strong></h2>
-<p>以上参与三轮测试的五款大模型和一款小模型中，表现最差的无疑是小模型GPT-4o mini，三轮测试中均给出了错误答案。</p>
-<p>我们可以得出以下结论：</p>
-<h3><strong>1、小模型只配做大模型的平替？</strong></h3>
-<p>GPT-4o mini的表现证明，当需要处理难度较高的推理问题时，小模型参数量少、资源少更容易出错。尽管百度、OpenAI、谷歌、微软等企业都致力于研究小模型，但它们可能只是日常使用时回答基础问题“勉强能用”的平替版，毕竟成本可以大幅降低，这就跟企业雇佣一个小学生和一个博士生一样，智力是一分钱一分货。</p>
-<p>据研究机构Epoch AI计算，训练尖端大模型所需的算力，每隔6-10个月就会翻一倍。庞大的算力需求，给AI公司带来了极高的经济压力，哪怕是谷歌、微软这种行业巨头，也会倍感吃力。正因如此，<strong>小模型现阶段虽表现逊色于大模型，但AI公司不会放弃开发小模型，而是会通过长时间的调校与打磨，不断提升小模型的能力。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1066,600" src="https://img.36krcdn.com/hsossms/20241014/v2_8e9f78aa1baf45b69a0683290cdc3d6d@1547419282_oswg974451oswg1066oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：豆包AI生成） </p>
-<h3><strong>2、要得到相对更智能的AI服务？给钱吧。</strong></h3>
-<p>几款大模型的免费版表现相差不大，能够解决一些存在干扰条件的数学问题，但遇到了文字可能存在歧义，或过于复杂的数学问题，表现则相对较差。好在，面对雷科技设定的地狱级难题，付费版的o1-preview大模型最终给出了正确答案，为大语言模型挽回了颜面，<strong>唯有付费用户才能体验到最好的大模型。</strong></p>
-<h3><strong>3、本土大模型有本土优势，百度们稳了。</strong></h3>
-<p>结合文心3.5能够在第二项测试中力压群雄可知，大语言模型依赖大量数据运算，但每个国家或地区的数据量和获取难易程度不同，<strong>因语言和生活习惯的差异，综合表现更出色的大模型，未必能在特定场景中获胜，大语言模型也需要本地化适配。</strong></p>
-<h3><strong>4、大模型距离人类智能还很远，不要轻信“忽悠”。</strong></h3>
-<p>在资本驱动下，很多媒体、自媒体、创业公司甚至企业家大佬都在鼓吹“AI威胁论”，甚至豪言AI水平已超越人类，他们往往会用一些个案来证明AI大模型已具备博士生甚至超越博士生水平。<strong>然而，当我们找一些常见的数学题，抑或是一些常见的工作任务来“考考”大模型时，大模型也很容易被难住。</strong></p>
-<p>大模型以及AI当然会有许多安全威胁，比如自动驾驶汽车失控给城市交通乃至人类生命安全带来的威胁。<strong>但要说AI智力可以逼近人类甚至取代人类，那就纯属忽悠了。</strong></p>
-<h2><strong>大模型可能确实被高估了，但苹果掉队是事实</strong></h2>
-<p><strong>综合来看，苹果研究员的观点对错参半，当前AI的逻辑推理能力不足，面对复杂的数学问题时，显得有些力不从心，但AI并非完全没有逻辑推理能力。</strong>哪怕是相对而言版本较为落后的文心3.5，在第二轮测试中也展现出了对文字和数学的解读与推理能力。</p>
-<p>第一代GPT发布于2018年，仅有1.17亿参数，到了2020年，GPT-3已拥有1750亿参数，到如今GPT的历史不过短短6年，每一代的体验提升肉眼可见。</p>
-<p>当前大语言模型最大的问题依然在于参数量太少、算力太低，资源相对丰富的o1-preview，面对其他大模型束手无策的数学难题时，依然给出了正确答案。<strong>随着大模型不断优化、参数量增加、算力提升，大语言模型的推理能力自然会水涨船高。</strong></p>
-<p>进军新能源汽车时，苹果血亏百亿美元最终放弃，如今进入生成式AI领域，苹果研究员又站出来贬低大语言模型，不禁令人怀疑苹果的生成式AI项目进展不顺利。<strong>对于苹果而言，与其贬低其他AI大模型，不如增加AI研发投入，加速布局生成式AI，毕竟AI的烧钱能力更甚于新能源汽车。</strong></p>
-<p>若失去了研发和布局生成式AI最好的机会，等到OpenAI、谷歌、微软、xAI等企业的AI大模型瓜分了海外市场，百度、讯飞、阿里巴巴、抖音等企业的AI大模型占领了国内市场，苹果生成式AI业务有可能沦为与新能源汽车业务相同的结局。</p>
-<p>本文来自微信公众号“雷科技”，作者：雷科技，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2991835976605312</guid><pubDate>Mon, 14 Oct 2024 16:58:00 +0800</pubDate></item><item><title>没上过大学的“天才少年”大战OpenAI，偷架构？偷论文？到底谁在剽窃AI开源项目</title><link>https://36kr.com/p/2992021274389513</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="640,427" src="https://img.36krcdn.com/hsossms/20241014/v2_8388770d4fe0444e96e06ee071ad93bd@46958_oswg29538oswg640oswg427_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>OpenAI 近日“破天荒”地发布了一款开源产品：Swarm 框架，用于构建、编排和部署多代理系统。该框架由 OpenAI Solutions 团队管理，目前仍处于实验阶段，不打算用于生产。</p>
-<p>开源地址：https://github.com/openai/swarm</p>
-<p>根据介绍，OpenAI Swarm 可以协调、执行和测试多智能体，让其变得轻量且高度可控，其目标是让开发者能够以简便高效的方式管理多个 AI 智能体之间的互动。Swarm 框架的核心在于智能体（agents）和交接（handoffs）两个基础抽象（ primitive abstractions）：每个智能体是特定指令与工具的组合，能够独立完成任务；智能体可以在执行过程中随时将任务或对话交接给其他智能体，确保流程的流畅性和模块化。</p>
-<p>Swarm 代理与 Assistants API 中的 Assistants 不同：Assistants API 提供了内置内存管理的完全托管解决方案，而 Swarm 使用 Chat Completions API 进行操作，并且在调用之间保持无状态，几乎完全在客户端上运行，非常适合寻求完全透明和精细控制上下文、步骤和工具使用的开发者。</p>
-<p>社区原本还沉浸在对 OpenAI 开源框架的欢呼之中，但后来发生了一场被网友们评价为“很抓马”的闹剧。</p>
-<h2><strong>OpenAI 偷名字、偷架构？ </strong></h2>
-<p>OpenAI 应用 AI 研究员 Shyamal Anadkat 在 X 上发帖介绍了该框架，随后，20 岁的开源 AI 工程师、Swarms 首席执行官和 Agora 领导者 Kye Gomez 评论道，“我们才是第一”，随后表示，“我建议你和团队改一下名字，我们有 Swarms 和多智能体协作的商标。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,684" src="https://img.36krcdn.com/hsossms/20241014/v2_1278ad869cdf41ae8e214a63b80ea625@46958_oswg275913oswg1080oswg684_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Gomez 表示，“Swarms 框架是有史以来第一个生产级多智能体编排框架。OpenAI 窃取了我们的名字、代码和方法。从智能体结构的语法到 Swarm 类对象，所有内容都来自我们的代码库：https: //github.com/kyegomez/swarms”</p>
-<p>Gomez 指责道，“OpenAI 低质量克隆 Swarms 的项目在两天内就获得了 4000 颗星，他们说它不适用于生产和与实验无关的其他用途。代码也没有经过精心制作，看起来他们让大模型编写了代码。他们有一些类型验证，但没有文档字符串，也没有任何日志记录。”</p>
-<p>Gomez 在回复网友疑问中，详细解释了他认为的 OpenAI 盗窃行为：首先，OpenAI 偷了他们的名字；其次，OpenAI 复制了他们的 .run() 语法，还复制了函数自动转换功能，OpenAI 在官方列表中将其列为 Functions，Gomez 团队将其列为“BaseTool”；然后，OpenAI 函数模式也是从他们的基本工具复制而来；最后，OpenAI 窃取了他们的 Swarm 架构模式，“从代理类到功能模式再到群体架构的一切”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,579" src="https://img.36krcdn.com/hsossms/20241014/v2_4faed2371dea48f5b6474d28579947d7@46958_oswg364797oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>感兴趣的读者可自行对比：</p>
-<p>https://github.com/openai/swarm/blob/main/swarm/core.py</p>
-<p>https://github.com/kyegomez/swarms/blob/master/swarms/structs/base_swarm.py</p>
-<p>Gomez 表示，“这是对他们最大客户之一的完全背信弃义，给人带来了巨大的失望。三年来，我们日夜工作致力于 Swarm 研究。凭借超过 3,000 次 Github 提交，我们成为有史以来优化和迭代最多的代理框架之一。这种侵权行为让我深感不安，因为我一直热心地向朋友、家人和我服务主要金融机构的同事推荐他们的模型。OpenAI 犯下的这一罪行是一个明确的信号，表明他们开始采取恶意和自私的行动来发展。最有可能是对他们最新一轮融资的回应，他们需要巨大的增长需求。我不想把这件事搞得一团糟，但我不是为了自己的利益，而是为了我的团队和 8,500 多人的社区，他们多年来不知疲倦地工作，打造了这项每个人都认为不可能实现的革命性技术。OpenAI 解决此事的唯一方法是投资我们，然后我们为他们提供名称、方法论以及他们想要的一切。我唯一的目标就是推动人类进步，我不想和你争吵 @OpenAI。”</p>
-<p>对于问题的解决方案，Gomez 表示，“我们计划寻求法律赔偿，以弥补对我们名称造成的损害，除非 OpenAI 投资我们。我们的网站是 http://swarms.ai， 我们正在引领多智能体革命。在所有社交媒体上分享此内容，展示 OpenAI 如何窃取和侵犯他们自己的客户和用户。点赞、转发并分享这个帖子，向人们展示 OpenAI 是多么恶意。”</p>
-<p class="image-wrapper"><img data-img-size-val="873,739" src="https://img.36krcdn.com/hsossms/20241014/v2_1b907dbe07f64083b27b3fc177b1fb28@46958_oswg133893oswg873oswg739_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>“犯罪永远比掩盖罪行更严重。” </p>
-<p>@OpenAI 立即重命名此存储库，否则将产生法律后果。 </p>
-<p>@swarms_corp 拥有 swarm、swarms 和其他信息的商标。我们拥有商标、母公司和其他资产，以确保我们拥有自己的产品。 </p>
-<p>我喜欢使用您的模型，但如果您不停止这种行为，我们将不得不从 swarms 中删除所有 OpenAI 模型。 </p>
-<p>我们有超过 4500 万个代理在生产中运行，与世界上一些最大的金融服务、保险和医疗保健组织合作。而且，如果你们不停止这种活动，他们将不会信任你们，你们将为此损失数百万的收入。 </p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="874,381" src="https://img.36krcdn.com/hsossms/20241014/v2_68d73411137f410785ec118970f3e3cc@46958_oswg64314oswg874oswg381_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>如果 @OpenAI 向 http://swarms.ai 进行 1000 万美元的种子投资，我愿意解决这个问题，不再进一步追究。 </p>
-<p>我已经将 SAFE 发送给 Sam。 </p>
-<p>让我们看看会发生什么…… </p>
-</blockquote>
-<p>当地时间 10 月 14 日，Gomez 又发布了一篇“小作文”：</p>
-<blockquote>
-<p>我是人工智能精英最大的威胁。</p>
-<p>精英是指普林斯顿大学、哈佛大学、斯坦福大学的博士学者，以及 OpenAI、Inflection、Adept 和所有其他贪婪的人工智能实验室和公司的闭源研究人员。</p>
-<p>我在佛罗里达州最糟糕的城市之一海厄利亚长大，这是一个第四世界地狱，各种犯罪猖獗。我从未读完高中。事实上，我被三所高中开除过。</p>
-<p>高中毕业后，我从未上过大学。我只是在迈阿密的一个小镇多拉尔有一间办公室。并且，我掌握了 PyTorch 技能，可以在没有代码的情况下实现研究论文，因为大型学术界和大型工业界的研究人员不想开源他们的代码。</p>
-<p>然后，当其中一些实现因为确实有用而流行起来时，例如思想树，我遭到了人工智能精英的残酷攻击，他们想获得不属于他们工作的所有关注和功绩，例如现在 Tree of Thoughts 的人和 OpenAI 的人。</p>
-<p>自去年以来，我已经免费实现了数百个研究论文的模型，除了精英及其统治者无休止的口头骚扰外，没有任何回报。</p>
-<p>我要告诉你们的是，不要理会他们，开源任何你想要的东西。实现你最喜欢的论文，不用代码。让它开源，不管代码是否好，有人会像他们帮助我一样帮助你，我甚至也可以帮助你。</p>
-<p>人工智能精英们想要控制注意力和资源的流动，并将它们重新引导到他们自己和他们贪婪的伙伴身上。</p>
-<p>我将继续开源每一篇有足够影响力的人工智能研究论文，不需要代码，我鼓励你也这样做！</p>
-<p>人工智能精英们将继续试图抹黑我，但他们所要做的就是更详细地检查我的 Github 和我的代码，他们就会知道你正在构建的东西才是唯一重要的东西。</p>
-</blockquote>
-<h2><strong>“臭名昭著的抢注者”？ </strong></h2>
-<p>虽然 Gomez 言辞激烈，但是舆论似乎并没有站在他那一边。</p>
-<p>“我很喜欢围绕开源代码的戏剧性事件。但是说真的，KyeGomezB，你真的认为你可以为‘swarm’这样的常用词注册商标吗？”有网友提出疑问。尽管他自称拥有该商标，但有网友指出该商标归其他公司所有：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1296" src="https://img.36krcdn.com/hsossms/20241014/v2_4add757727894a26908cf81602577cbf@46958_oswg551936oswg1080oswg1296_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“如果投诉者成功将他们自认为拥有的‘swarms’商标强行注册，我会感到非常惊讶。自从我对模拟感兴趣以来，人们就一直在将 swarm 一词与各种模拟联系起来（我的意思是，如果我没记错的话，我第一次听到 swarms 这个词是在 80 年代与圣达菲研究所所做的某项模拟有关的——这已经是很久以前的事了）”有网友指出。</p>
-<p>该网友指的 Swarm 是一个面向对象类库，它实现了基于代理模型的 Swarm 概念框架，并提供了许多用于在 ABM 上实施、观察和进行实验的工具。该项目创建者在 Hacker News 的帖子上表示，“嘿，这是我写的！但那已经是 30 年前的事了，别人用同样的名字也没关系。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,87" src="https://img.36krcdn.com/hsossms/20241014/v2_fcc5a51a9000421c9945c5146a10b905@46958_oswg59078oswg1080oswg87_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>有人观察到，Gomez 在 GitHub 上获得了超过 16,000 个星星。对此，有网友解释他的实现路径是：新研究论文发布或传播 &gt; 创建包含 AI 代码的 repo &gt; 将其发布到社交媒体上，用户为 repo 加注星标以将其加入书签。少数测试代码的人在问题部分写下内容，但他们的问题被关闭，没有回复。</p>
-<p>“这个家伙有问题，/r/MachineLearning 中的 reddit 帖子顶部评论：是的，基本上，一看到 kyegomez 链接就删除。他抢注了最近的论文以获得影响力，尽管代码从未真正运行过，更不用说复制论文结果了。我们在 /r/mlscaling 中遇到了问题，有人在不知情的情况下链接了他的垃圾。”有网友直接指出。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,216" src="https://img.36krcdn.com/hsossms/20241014/v2_de79ec84cafc4d16a17b090bff19ad8c@46958_oswg90973oswg1080oswg216_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Gomez 小作文里也提到的 Tree of Thoughts 事件，也是因为他抢注了别人的名字。</p>
-<p>去年，Gomez 在 Tree of Thoughts 作者不知情的情况下创建了一个 tree-of-thoughts 仓（https://github.com/kyegomez/tree-of-thoughts），有人指出这个是假的，Gomez 泽则表示，“这不是假的，这是一个实现。我没有说过这是 tree-of-thoughts 的原始实现。而且，它不能被删除，这是开源的。而且我没有抢夺任何人的任何东西。当没有代码或任何东西时，我提供了一个存储库。”</p>
-<p>作者 Shunyu Yao 随后创建了官方实现，并向 Gomez 说道，“您介意在您的 README.md 中链接到我们的官方 repo 以避免任何混淆吗？提前谢谢”，然后 Gomez 没有回复就关闭了这个问题。在引起争议后，Gomez 称“如果他们没有命令我，我们就不会在这里争论和浪费时间，而是改进算法。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20241014/v2_7c9b31ff5cfb43b99c39f0965d3a42d5@46958_oswg169153oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当时，就有开发者为其行为感到惋惜，“作为一名构建者，我更欣赏你的代码，而不是原始存储库。我甚至很高兴能与你合作，但现在根据你的行为，我不那么确定了。我认为，从长远来看，更好的做法是更新 README，写一些类似‘受到 Shunyu 等人关于 Tree of Thoughts (原始实现在此处) 的工作启发’的内容。” “兄弟，这是一件光荣的事情，但你现在的这种行为正在玷污自己的名声。”</p>
-<p class="image-wrapper"><img data-img-size-val="970,844" src="https://img.36krcdn.com/hsossms/20241014/v2_3effeb41d91140ceadc2f8623b70cd6d@46958_oswg209581oswg970oswg844_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此外，还有网友还爆料出，Gomez 之前还曾抢注名为“sora”的存储库（https://github.com/kyegomez/Sora），去年他运行机器人来抓取微软 Bing 图像创建器，以重新提供针对他自己的“非官方”dalle3 API 请求（https://github.com/Agora-Lab-AI/Dalle3/blob/main/dalle3/dalle.py#L113），并且他还收到过许多其他有关名称抢注的投诉（https://github.com/microsoft/unilm/issues/1182）。</p>
-<p>“他还经营着一项加密货币计划，声称用加密货币向贡献软件服务的人付款，假装抽奖赠送 A100，声称他的公司到 2030 年价值将达到 100 万亿美元，伪造环境碳信用房地产控股公司（在他进入人工智能领域之前）。”</p>
-<p>“如果 OpenAI 法律部门的某个人能联系 Maimi-Dade 地方检察官办公室，将他提起公诉，我将不胜感激，因为我厌倦了他不断给开源带来的破坏。”该网友表示。</p>
-<p>据外媒报道，Gomez 从 10 岁起开始学习编程，并将新学到的编程知识运用到游戏中，游戏也让 Gomez 最终了解了人工智能。Gomez 说，13 岁时，他创建了自己的第一个人工智能模型，用来破解他妈妈的 Gmail 账户，获取 PlayStation 代码，以便在该平台的商店购物。从那时起，Gomez 开始痴迷于人工智能和数据科学。此前他通过 APAC AI 还开发了一款基于 Slack 的人工智能助手。</p>
-<p>截至发文，OpenAI 并未对此事件做出回应。</p>
-<p><strong>参考链接：</strong></p>
-<p>https://x.com/KyeGomezB/status/1844948853604196763</p>
-<p>https://refreshmiami.com/18-year-old-miamian-kye-gomez-is-developing-ai-to-make-life-less-boring/?__im-phVjtwhl=11738391423021877583</p>
-<p>https://x.com/KyeGomezB/status/1845597964145750264</p>
-<p>https://news.ycombinator.com/item?id=41819866</p>
-<p>https://github.com/openai/swarm/issues/50</p>
-<p>https://github.com/kyegomez/tree-of-thoughts/issues/54</p>
-<p>https://www.reddit.com/r/MachineLearning/comments/15sq2v1/d_potential_scammer_on_github_stealing_work_of/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/cklUVHUZJmGATTY4_Hy_-g" rel="noopener noreferrer nofollow" target="_blank">“AI前线”</a>，整理：褚杏娟 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992021274389513</guid><pubDate>Mon, 14 Oct 2024 17:00:00 +0800</pubDate></item><item><title>100亿 ，上海又出资了</title><link>https://36kr.com/p/2992073763351557</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>又是上海。</p>
-<p>投资界-解码LP获悉，10月12日，由上海国投公司牵头，联合徐汇资本、临港控股、漕河泾总公司等国资平台和米哈游、商汤科技、哔哩哔哩等领先的数字产业龙头企业共同发起设立上海人工智能生态基金，基金规模100亿元。</p>
-<p>该基金由上海国投孚腾资本担任管理人，未来将围绕大模型产业链生态进行重点布局——投资AI基础设施、基础与垂类大模型、下一代端侧AI应用三大细分领域。如此一幕也是上海最新发力人工智能产业的一缕写照。</p>
-<h2><strong>国资牵头，米哈游也来了，100亿基金落地</strong></h2>
-<p>具体来看，上海人工智能生态基金规模100亿元，首期30亿元，落地徐汇区，由上海国投孚腾资本担任管理人。</p>
-<p>资料显示，上海人工智能生态基金将围绕以下三个主要细分领域进行重点布局：</p>
-<p>AI基础设施：投资基础设施不仅是支撑AI产业的基础，同时也是提高整体AI产业效率的关键。</p>
-<p>基础与垂直大模型：大模型的崛起是当前AI发展的趋势，投入资源进行大模型的研究和应用，将推动其在各行业的落地。</p>
-<p>下一代端侧AI应用：随着边缘计算的发展，端侧AI应用成为提高用户体验和提升行业效率的重要方向。</p>
-<p>来看出资方，上海国投大家应该都不陌生。今年4月，上海国投公司与上海科创投集团宣布联合重组。完成重组后，上海科创投集团将由上海国投直接持有100%股权，至此上海一个超级国资平台诞生。</p>
-<p>上海国投公司表示，将进一步落实上海市关于人工智能产业培育的重大任务，推进政府资源与社会资本协同联动，以市场化方式链接创新资源，支持原始创新和成果转化，优化产业生态，推动上海加快催生具有全球竞争力的创新型企业，打造世界级人工智能产业集群。</p>
-<p>此外，我们也看到了米哈游、商汤科技、哔哩哔哩等龙头企业的身影。其中，米哈游再次出现在股东列表中。这几年，手握大把现金的米哈游，从直投到做LP，从游戏到前沿科技，颇为活跃。</p>
-<p>记得今年7月份，上海元创未来私募基金合伙企业（有限合伙）注册成立，出资额为5.121亿元，重点支持上海市人工智能、元宇宙产业相关企业能级提升及数字经济发展，背后也出现了米哈游的身影。</p>
-<p>这一次，多方联手去押注他们所相信的未来。</p>
-<h2><strong>上海，打造世界级AI产业集群</strong></h2>
-<p>今年上海人工智能大会火爆情景，历历在目。</p>
-<p>“模都”地位悄然浮现。据悉，上海人工智能产业规上企业已从2018年的183家增长到2023年的348家，产业规模从1340亿元增长到超3800亿元，位居全国前列。目前上海已有34款大模型通过备案，是全国大模型产业生态最好的城市之一。</p>
-<p>另外，上海还是全国机器人密度最高的城市。所谓机器人密度，是指每万名员工拥有的机器人数量。目前上海重点产业规上工业企业机器人密度达每万人426台，居世界领先水平。数据显示，我国具备人形机器人整机能力的企业超过25家，其中约一半来自上海。去年国内发布12款人形机器人，其中4款出自上海浦东新区，产业规模超过200亿元。</p>
-<p>凡此种种，得益于早年的耕耘。</p>
-<p>早在2017年，上海就发布了《关于本市推动新一代人工智能发展的实施意见》，此后明确上海要加快建设更具国际影响力的人工智能“上海高地”，打造世界级产业集群；积极引导民营企业深度参与人工智能等三大产业高地建设，支持民营企业广泛参与数据、算力等人工智能基础设施建设等。</p>
-<p>产业基金发力。相关数据显示，上海设立人工智能产业投资基金，累计募资已达31亿元，超过74%的资金已精准投放到关键领域，母基金部分投资了红杉、奇绩创坛等12只子基金，撬动投资规模572亿元。</p>
-<p>时至今日，上海全球AI中心的地位凸显，已形成“4+X”的人工智能产业集群格局。上海全市16个区发挥各自优势，打造了N个AI特色园区，比如浦东张江人工智能岛、徐汇西岸智塔、闵行马桥人工智能创新试验区、临港滴水湖AI创新港等等，遍地开花。</p>
-<p>正如此次基金落地的徐汇区，目前已经集聚上海人工智能实验室的书生通用大模型、商汤的“日日新”SenseNova大模型体系、稀宇科技的MiniMax-ABAB大模型、阶跃星辰的阶跃大模型等底座基础大模型。而坐落于徐汇西岸的“模速空间”，已成为徐汇人工智能产业的新名片。</p>
-<p>在投资人的共识中，AI已经是未来十年里最有潜力的赛道。所以我们看到，不止上海，北京、深圳、广州乃至杭州、成都等城市都在发力。一场关于AI产业的竞赛早已拉开序幕。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/V3o-ZET4I483fJ2V3YJeSw" rel="noopener noreferrer nofollow" target="_blank">“投资界”</a>，作者：陈晓，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992073763351557</guid><pubDate>Mon, 14 Oct 2024 17:07:00 +0800</pubDate></item><item><title>氪星晚报｜黄仁勋称马斯克像超人；19天打造“最强”AI训练集群；B站“双11”升级电商平台合作</title><link>https://36kr.com/p/2992111965056004</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2>大公司：</h2>
-<p><a href="https://36kr.com/newsflashes/2992097192389640" rel="noopener noreferrer" target="_blank"><strong>SpaceX首次用“筷子”抓回星舰助推器，美专家：太空探索成本将大幅下降</strong></a></p>
-<p>美国当地时间10月13日，SpaceX公司在美国德克萨斯州东南部的Starbase基地成功进行了星舰系统的第五次试飞，创造了太空探索的新里程碑。在这次试飞中，SpaceX不仅成功发射了星舰火箭，还首次在助推器返回过程中，利用被昵称为“筷子”的机械臂，在发射台上抓回了高达71米的“超级重型”助推器。美国空军高级航空航天研究学院教授温迪·科布表示，这一成功举措将使得“进入太空的成本将以天文数字的速度下降”。（澎湃）</p>
-<p><a href="https://36kr.com/newsflashes/2991971425627142" rel="noopener noreferrer" target="_blank"><strong>B站“双11”升级电商平台合作</strong></a></p>
-<p>“双11”大促正式开启，B站将投入三十亿流量定向扶持优质种草内容，联手天猫开启万名UP主直播及带货专场。同时为响应国家推出的大规模家电以旧换新补贴政策，B站将对相关商品的种草带货加码流量扶持、推出专题活动。最新数据显示，B站日均活跃用户达到1.02亿。</p>
-<p><a href="https://36kr.com/newsflashes/2992019034532868" rel="noopener noreferrer" target="_blank"><strong>易捷航空宣布任命Raeymaeker为新首席财务官</strong></a></p>
-<p>欧洲第二大廉航易捷航空周一宣布，任命Jan De Raeymaeker为首席财务官，自2025年1月20日起生效。Raeymaeker目前是欧洲最大的私营铁路货运运营商Lineas的首席财务官。在加入Lineas之前，他是布鲁塞尔航空公司的首席财务官。在职业生涯早期，他曾在Arthur D． Little和De Valck Consultants担任管理职务。（新浪财经）</p>
-<p><a href="https://36kr.com/newsflashes/2991994067381253" rel="noopener noreferrer" target="_blank"><strong>消息称小红书今年一季度净利润达2亿美元</strong></a></p>
-<p>据报道，社交媒体平台小红书在今年前三个月实现了2亿美元的净利润，营收略高于10亿美元，这一表现显著高于去年同期的4000万美元净利润和6亿美元营收。这一强劲的增长主要得益于小红书加大了对Z世代女性消费者的广告投放力度。（观察者网）</p>
-<p><a href="https://36kr.com/newsflashes/2992036459752449" rel="noopener noreferrer" target="_blank"><strong>飞猪双11升级为“全球旅行节”，活动商品覆盖近200个国家和地区</strong></a></p>
-<p>36氪获悉，10月14日，飞猪宣布2024年双11由“奇妙旅行节”升级为“全球旅行节”，并于14日晚8点正式开启。据了解，2024年飞猪双11报名的商家数和商品数创历史新高，其中，出境游商品的占比较去年增长了近2倍，目的地覆盖近200个国家和地区。</p>
-<p><a href="https://36kr.com/newsflashes/2992030713260802" rel="noopener noreferrer" target="_blank"><strong>小鹏汽车成立科技新公司，含多项AI业务</strong></a></p>
-<p>36氪获悉，爱企查App显示，近日，广州鹏霄科技有限公司成立，法定代表人为陈志远，注册资本500万元，经营范围含人工智能应用软件开发、人工智能公共服务平台技术咨询服务、人工智能基础软件开发、人工智能通用应用系统、人工智能公共数据平台、人工智能行业应用系统集成服务等。爱企查股权穿透显示，该公司由广州智鹏车联网科技有限公司全资持股，后者由广州小鹏汽车科技有限公司、陈志远分别持股50%。</p>
-<p><a href="https://36kr.com/newsflashes/2992028588108800" rel="noopener noreferrer" target="_blank"><strong>美国最大公共养老基金CalPERS投资英国电力公司Octopus Energy</strong></a></p>
-<p>据报道，美国最大的公共养老金计划CalPERS已投资英国电力公司Octopus Energy。CalPERS负责监管加利福尼亚州公务员的养老金，管理着约5000亿美元的资产。该机构证实，今年投资了这家私营公司，作为推动气候相关资产的一部分。（界面）</p>
-<h2>投融资：</h2>
-<p><a href="https://36kr.com/newsflashes/2992059378232071" rel="noopener noreferrer" target="_blank"><strong>智能⺠宿品牌“途嘉名御”获3000万元A轮融资</strong></a></p>
-<p>36氪获悉，近日，苏州途嘉名御商业运营管理有限公司宣布完成3000万元人民币A轮融资，本轮融资由华中资本领投，多名机构跟投。融资资金将用于品牌建设、市场拓展、技术应用等。据介绍，途嘉名御是C2B2C模式的⺠宿运营平台，从甄选房源 ，成本谈判、设计筹建到供应链配套、发布租售、每日保洁等提供一站式解决方案。</p>
-<p><a href="https://36kr.com/newsflashes/2992034469489668" rel="noopener noreferrer" target="_blank"><strong>小米景明在临沂投资成立汽车科技公司</strong></a></p>
-<p>36氪获悉，爱企查App显示，近日，临沂小米景明汽车科技有限公司成立，法定代表人为叶航军，注册资本500万人民币，经营范围包括新能源汽车整车销售、汽车销售、智能车载设备销售等。股东信息显示，该公司由小米景明科技有限公司全资持股。</p>
-<p><a href="https://36kr.com/newsflashes/2992042032606212" rel="noopener noreferrer" target="_blank"><strong>“岚江科技”宣布完成A轮数千万元融资</strong></a></p>
-<p>36氪获悉，江苏岚江智能科技有限公司宣布，已完成A轮数千万元融资。本轮融资由亦联资本领投，微光创投跟投，义柏资本担任独家财务顾问，资金将主要用于进一步扩大产能和产品的全球化市场布局。</p>
-<h2>新产品：</h2>
-<p><a href="https://36kr.com/newsflashes/2992021787339778" rel="noopener noreferrer" target="_blank"><strong>Sensor Tower：9月出海中国手游《崩坏：星穹铁道》增长榜第一</strong></a></p>
-<p>36氪获悉，Sensor Tower商店情报平台数据显示，2024年9月中国手游产品在海外市场收入及下载量排行榜中，《崩坏：星穹铁道》问鼎增长榜，《Whiteout Survival》蝉联收入冠军。9月中下旬，《Whiteout Survival》迎来全球下载量突破9000万的里程碑时刻，在多个活动的带动下，该游戏海外收入环比增长7%，再次刷新历史记录。加之在中国iOS市场的强势增长，截至9月底《Whiteout Survival》全球累计收入已突破13亿美元。</p>
-<p><a href="https://36kr.com/newsflashes/2992022175689474" rel="noopener noreferrer" target="_blank"><strong>名创优品与美团达成深度战略合作：加码闪电仓，年内将上线超800家24H超级店</strong></a></p>
-<p>36氪获悉，名创优品与美团宣布达成深度战略合作，双方以即时零售业务为合作重点，名创优品年内将在美团上线超过800家闪电仓形态的“24H超级店”，服务消费者“线上下单，最快30分钟送达”的即时需求。同时，双方也将在到店业务探索合作，美团将基于用户到店消费场景，向名创优品提供多项数字化营销支持。</p>
-<h2>今日观点：</h2>
-<p><a href="https://36kr.com/newsflashes/2991978309888772" rel="noopener noreferrer" target="_blank"><strong>黄仁勋称马斯克像超人：19天打造“最强”AI训练集群</strong></a></p>
-<p>在10月13日播出的采访中，英伟达CEO黄仁勋谈及马斯克旗下人工智能公司xAI在短时间内建成AI训练集群Colossus，称赞马斯克及团队难以置信、像超人一样。 黄仁勋称，“xAI 在19天内完成了其他人需要一年才能完成的事情，以前从未有人做到过。那是超人才能做到的，世界上只有一个人能做到这一点，那就是埃隆・马斯克，他在工程、建筑和大型系统以及资源调配方面的理解是独一无二的。”（澎湃）</p>
-<p><a href="https://36kr.com/newsflashes/2992052448766982" rel="noopener noreferrer" target="_blank"><strong>机构：新加坡金管局或在明年1月份放松政策</strong></a></p>
-<p>新加坡金融管理局可能会在明年1月放松货币政策，届时该国核心通胀率将降至2%以下。马来亚银行研究部的Chua Hak Bin和Brian Lee Shun Rong在一份研究报告中写道∶“新加坡金融管理局具有前瞻性，因此将密切关注外部风险，并可能寻求转向更有利于经济增长的政策立场。”（新浪财经）</p>
-<h2>其他值得关注的新闻：</h2>
-<p><a href="https://36kr.com/newsflashes/2992079858609155" rel="noopener noreferrer" target="_blank"><strong>中国9月贸易顺差为5826.2亿元</strong></a></p>
-<p>36氪获悉，海关总署公布数据显示，中国9月出口（以人民币计价）同比增1.6%，前值增8.4%；进口降0.5%，前值持平；贸易顺差5826.2亿元，前值6493.4亿元。中国9月出口（以美元计价）同比增长2.4%，前值增8.7%；进口增长0.3%，前值增0.5%；贸易顺差817.1亿美元，前值910.2亿美元。</p>
-<p><a href="https://36kr.com/newsflashes/2992086019386117" rel="noopener noreferrer" target="_blank"><strong>北交所做出引导说明，关于拟IPO企业论证创新特征</strong></a></p>
-<p>从业内获悉，为进一步明确北京证券交易所市场定位把握标准，引导和规范上市申报行为，北交所近期在业内就如何开展拟上市企业创新特征信息披露及论证做出引导，要求保荐机构进行充分审慎核查并发表明确意见。（中证报）</p>
-<p><a href="https://36kr.com/newsflashes/2991976853023751" rel="noopener noreferrer" target="_blank"><strong>韩国9月半导体出口额为136.3亿美元，创历史新高</strong></a></p>
-<p>韩国科学技术信息通信部发布的一项数据显示，今年9月韩国信息通信技术（ICT）出口额同比增长36.3%，为223.6亿美元，连续11个月保持增势，创下历年单月第二高纪录。得益于人工智能（AI）技术潮推高服务器投资，其中半导体出口额为136.3亿美元，创历史新高。同期，ICT进口额增加15.9%，为124.8亿美元，由此9月ICT贸易收支实现98.8亿美元顺差。（界面）</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992111965056004</guid><pubDate>Mon, 14 Oct 2024 17:08:00 +0800</pubDate></item><item><title>“双碳星物种”决赛圆满收官：年度Top3重磅出炉，揭秘双碳创投新动向</title><link>https://36kr.com/p/2988271483693313</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>历时4个月，140余个优质项目，来自产学研投的专家评审团……一场聚焦双碳主题的创新大赛，揭示了创投市场新风向与新机会。</p>
-<p>10月11日，由36氪与东方证券及旗下子公司东证创新、东证资本共同举办的第三届双碳星物种·可持续创新大赛决赛在上海举行。活动现场，从上一赛段脱颖而出的12家创业公司逐一亮相，分享各自的创业愿景与业务进展，展示公司的产品技术优势与商业化能力。</p>
-<p>进入2024年，双碳赛道构建起创投新范式。一方面，“投早、投小、投长期、投硬科技”成为确定性趋势和市场共识，投资端重心转向绿色新质生产力，以耐心资本推动科技创新；另一方面，新一轮产业转型升级释放出巨大的商业机会，全产业链上的各个细分环节都蕴含着创投热点，吸引创业者躬身入局。</p>
-<p>在这样的趋势背景下，第三届“双碳星物种”大赛聚焦“风光氢储产业链、新能源汽车产业链、低碳科技产业链”三大赛道，掀起了一场向绿向新的创业风潮。</p>
-<p>自今年6月正式启动以来，大赛共吸引140余个创业项目报名参加。经过初赛－复赛－决赛的层层选拔，在专家团的多维度综合评审下，“双碳星物种”2024年度Top3强重磅出炉。</p>
-<p>他们分别是：云储新能源科技有限公司、浙江嘀视科技有限公司、深圳市创冷科技有限公司。</p>
-<p class="image-wrapper"><img data-img-size-val="3998,2661" src="https://img.36krcdn.com/hsossms/20241012/v2_2452d8da368e4b16b51c4760d2b6789e@39566_oswg1557344oswg3998oswg2661_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>连续举办3年的“双碳星物种”大赛，不仅是赛场，更是市场——从赛道设置、评审团阵容，到评分标准、获胜企业，各方面都体现着市场需求变化和行业趋势动态——大赛已经成为洞悉双碳产业风向、把握创投热点的最佳窗口。</p>
-<p>本届决赛现场，在主题为“2024双碳赛道创投观察”的圆桌讨论环节，东证创新执行总经理陆江平作为主持人，与东证资本董事总经理刘小康、中央财经大学数字财经研究中心主任陈波，以及前两届大赛Top3强企业代表——载驰科技创始人、CEO汪炜，兰洋科技联合创始人、副总经理王梦骋，共同探讨了双碳主题下的创投市场新动向。</p>
-<p class="image-wrapper"><img data-img-size-val="3996,2667" src="https://img.36krcdn.com/hsossms/20241012/v2_775eab2bb4d245edbed70d5f0b9b063e@39566_oswg1083182oswg3996oswg2667_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2024年双碳创投市场，经历着转折与重塑，也孕育着新机与希望。当绿色创新浪潮澎湃，本届大赛透露出哪些值得关注的新趋势和新风向？</p>
-<h2><strong>01</strong></h2>
-<h2><strong>新一代能源技术，火热继续</strong></h2>
-<p>10月的黄浦江畔，见证了双碳新星的诞生。</p>
-<p>“公司的核心技术壁垒有哪些？”“产品研发和产线建设目前进行到什么阶段？”“这项业务的市场规模有多大？”“公司的商业模式是什么？”……</p>
-<p>“双碳星物种”决赛现场，专家评审团成员围绕竞争优势、商业模式、市场规模等创业关键议题，向参赛项目发起提问。</p>
-<p>事实上，这些创业新星的闪耀，映射出已然改变的行业热点风向。</p>
-<p>随着应对气候变化成为人类共同的挑战，一场前所未有的能源变局正在发生。寻找能源结构的转型升级路径，是一道全世界都在不断向深处求解的共同命题。</p>
-<p>技术创新，为这场能源产业革命注入了新动能。尤其是在以风光氢储为代表的新能源领域，包括钙钛矿、新型储能、能源数字解决方案等在内的新一代技术，不断取得突破性进展，正在加速商业化、产业化落地。</p>
-<p>相应地，这些能源技术创新也迎来巨大的市场需求，成为热火的创投赛道。</p>
-<p>根据IT桔子发布的《2023—2024年中国新能源赛道投融资报告》，近年来，国内新能源行业融资事件数量增长颇为显著，2023年发生452起投融资事件，创下历史新高。从新能源在一级市场的融资金额规模来看，自2014年以来，除2019年略有下降以外，其余年份均呈现增长态势，2022年达到顶峰，总融资金额为1570.88亿元。</p>
-<p>本届大赛中，行业热门的风光氢储赛道上演了一场激烈角逐。最终，云储新能源科技有限公司凭借出众的技术能力和产品优势，成为下一代能源科技创业的佼佼者。</p>
-<h2><strong>02</strong></h2>
-<h2><strong>新能源汽车，产业细节见真章</strong></h2>
-<p>当新能源汽车的市场竞争进入白热化，绿色和智能，成为影响行业下半场走向的主题词。</p>
-<p>新能源汽车产业链漫长，上下游环节众多。其中，涉及产业绿色智能升级的每一个细分场景，都蕴含着创投机会和商业潜力，在一级市场上焕发活力。</p>
-<p>根据IT桔子今年9月27日发布的数据，自2023年8月以来，国内新能源汽车产业链共发生了219起投资事件。在新近的2024年8月，新能源汽车产业链一共发生了6起投资事件。</p>
-<p>产业链上看似小而美的需求场景，实际上关系着万亿新能源汽车产业的发展方向。</p>
-<p>单以应用于高转速电机的氮化硅陶瓷球为例，传统常规的轴承球多为钢金属材质，其性能难以适应高速运转、发热量大的新能源汽车电机。随着市场对部件材料性能和使用寿命的要求越来越高，先进材料替代，成为日渐明朗的行业趋势，也是推动相关技术进步和产业升级的关键力量。</p>
-<p>在本次决赛现场，新能源汽车赛道展现了一场聚焦产业链各细分环节的创业竞技。从陶瓷基板到车用半导体照明灯具，再到各类新材料，创业项目聚焦细分场景，解决真实的产业转型痛点。</p>
-<p>经过严谨评审，浙江嘀视科技有限公司凭借敏锐的市场洞察和优秀的产品技术实力最终获胜。</p>
-<h2><strong>03</strong></h2>
-<h2><strong>低碳科技，打造绿色新世界</strong></h2>
-<p>碳中和时代，节能降碳、绿色环保成为千行百业的刚需，背后蕴含着万亿级市场空间。</p>
-<p>在这一确定性趋势下，低碳科技成为一片肥沃的创投热土，吸引了大量创业者。但值得注意的是，绿色低碳技术大多尚处在创业早期阶段，需求是否真实存在、技术有无规模化应用潜力、经济账如何算……这些现实问题，对创业者和投资人都是一场耐心考验。</p>
-<p>这是低碳科技投融资的特点，也是其魅力所在：耐心之下，是巨大的长期回报和超高的技术壁垒，而这一切，都在勾画着一幅属于未来的、充满无限想象空间的绿色新图景。</p>
-<p>在这一领域，也诞生了众多全球瞩目的创业明星。从OpenAI CEO萨姆·奥特曼（Sam Altman）重金押注的核聚变公司Helion Energy，到与微软等各大公司签订合作协议的碳捕获公司Climeworks，他们的每一次新动态，都会引发行业热议和资本关注。</p>
-<p>在本次决赛的低碳科技赛道，从把空气变成水、发明“人造太阳”到研发绿色制冷材料，一系列应用场景多元的节能降碳创新技术，正在加速落地。经过评审团的综合评估，深圳市创冷科技有限公司凭借技术先进性和对真实场景需求的把握，最终获得胜出。</p>
-<p>随着2024年度Top3强最终诞生，36氪与东方证券及旗下子公司东证创新、东证资本共同举办的第三届双碳星物种·可持续创新大赛已走完全程，圆满落幕。</p>
-<p>三年来，“双碳星物种”大赛陪伴一系列优质项目乘风破浪走向成熟，成长为最闪耀的创业明星。双碳产业的可持续创新发展，需要生生不息的绿色创投力量。未来，“双碳星物种”大赛将持续关注绿色低碳创新，挖掘更多优质项目，成为他们最坚定的同行者——这是大赛连续举办的初衷，更是一场重塑产业未来的、向绿向新的生产力飞跃。</p>
-<h3>本次决赛活动现场，诸多行业嘉宾分享了关于双碳领域的最新洞察。以下是他们的精彩观点集锦：</h3>
-<p class="image-wrapper"><img data-img-size-val="900,6373" src="https://img.36krcdn.com/hsossms/20241012/v2_69ce0155ea554460bf5985b7f05b4afc@39566_oswg934792oswg900oswg6373_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2988271483693313</guid><pubDate>Mon, 14 Oct 2024 17:32:00 +0800</pubDate></item><item><title>打破壁垒的首个双十一：电商巨头如何在新格局中突围？</title><link>https://36kr.com/p/2989407702294146</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>引言：电商巨头破墙后的首个双十一：史上最长购物季，谁能笑到最后？</p>
-<p>2024年，中国电商行业迎来了一个具有里程碑意义的双十一。今年的双十一不仅仅是购物狂欢节的延续，它还是一个长达一个月的“史上最长双十一”。在此期间，淘宝、京东、拼多多等电商巨头不再局限于各自的封闭生态，而是打破壁垒，实现支付系统的互通，并在物流服务上展开合作。这一系列变化为今年的双十一增添了更多不确定性，也使得年轻人和县城市场成为电商平台的重点争夺目标。</p>
-<p><strong>一、巨头破壁：双十一竞争格局的颠覆</strong></p>
-<p>2024年，电商平台的合作与竞争变得更加复杂。淘宝和京东相继开放了支付系统，淘宝支持微信支付，京东接入支付宝，这一举措无疑是为了应对拼多多的崛起。拼多多凭借其社交电商模式在三四线城市获得了极高的市场渗透率，成为这些地区的主要购物平台。为了应对拼多多的威胁，淘宝和京东不得不进行深度整合。</p>
-<p>一位电商行业分析师李峰，指出：“拼多多的迅速崛起迫使传统巨头重新审视自身的商业模式，从闭环走向开放，这种转变既是挑战，也是机遇。”通过打通支付壁垒和物流资源，电商巨头希望能够扩大用户触达，提升平台活跃度。</p>
-<p><strong>二、年轻人和品质消费：双十一的新关键词</strong></p>
-<p>年轻人依然是双十一的核心消费者，但他们的消费观念正在悄然改变。越来越多的年轻人开始追求个性化和品质消费。某位生活在广州的年轻白领，“小张”，在接受采访时表示：“现在购物我不再只看价格，更关注商品的设计感和品牌理念，特别是一些带有独特文化元素的国潮品牌。”</p>
-<p>正因如此，双十一期间，淘宝天猫加大了对国潮品牌的推广力度。例如，李宁和安踏等品牌推出的限量联名款商品，吸引了大批年轻消费者。这种策略不仅在价格上竞争，还通过商品的独特性和故事性来打动年轻群体。</p>
-<p>与此同时，年轻人对社交平台的依赖也促使电商平台加强了社交化运营。数据显示，超过70%的年轻用户会在社交平台上分享自己的购物体验，这种用户间的自发推广成为了电商平台的重要营销渠道。因此，今年的双十一，各大平台在短视频、直播和社区互动上投入了更多资源，努力在年轻人聚集的社交场景中制造购物话题。</p>
-<p><strong>三、县城市场的崛起：消费升级下的新机遇</strong></p>
-<p>在电商巨头破壁的背景下，县城市场成为了双十一的另一个焦点。县城的消费者群体与大城市不同，他们不仅重视价格，也开始注重品质和便利。拼多多在这些县城市场的成功证明了这一点，通过“农产品上行”模式，拼多多不仅促进了地方农产品的销售，还吸引了大批县城消费者信任。</p>
-<p>京东则在县城市场大举扩展物流基础设施，今年双十一，京东在全国2000多个县城新增了配送站点，并推出了“极速到家”服务，承诺24小时内送达双十一订单。京东的策略就是通过物流优势，提升县城消费者的购物体验。一位常年关注县城消费市场的电商专家，“陈宏”，评论道：“在县城市场上，拼多多与京东的竞争不仅是价格战，更是物流和服务体验的较量。谁能提供更高效的配送服务，谁就能赢得这部分市场。”</p>
-<p>此外，淘宝也不甘示弱。为了争夺县城消费者的市场，淘宝天猫上线了更多适合县城消费者的国货品牌，并联合物流合作伙伴菜鸟网络，加强县域配送能力。今年，淘宝还推出了一系列的县城专享优惠活动，希望通过定制化的服务和优惠来俘获县城消费者的心。</p>
-<p><strong>四、电商巨头的多维度较量：价格、服务与技术创新</strong></p>
-<p>尽管价格战仍是各大电商平台在双十一期间吸引消费者的重要手段，但在2024年，这种竞争早已不局限于单一维度。今年的双十一，各大电商平台除了发放消费券和红包补贴外，还在服务和技术创新方面投入大量资源。</p>
-<p>淘宝天猫推出了“退货宝”服务，进一步提升售后体验；京东在智能客服和AI仓储技术上做出了新的突破，通过更智能化的仓储和物流系统，提高订单处理效率。一位“刘敏”的业内观察人士分析：“电商平台正在从单纯的价格战，转向全链路的用户体验优化。这种趋势不仅仅是吸引消费者下单，更在于增强平台的用户黏性。”</p>
-<p>拼多多则继续通过“社交+电商”的模式，提升用户活跃度。在技术创新上，拼多多加大了对AI算法的投入，通过个性化推荐为用户提供更精准的商品选择。同时，它还加强了与本地商家的合作，拓展更多长尾商品的供应链，丰富了平台的商品种类。</p>
-<p><strong>五、小结：商业竞逐背后的时代故事</strong></p>
-<p>2024年的双十一，不仅仅是一场购物狂欢，更会是一幅折射当下商业生态的画卷。电商平台们在商业模式上打破壁垒，在支付、物流和技术上不断创新，试图触及消费者生活的每一个角落。从一线城市到县城，从年轻人的社交平台到长辈们的亲情购物群，各种需求、情感与利益在这个庞大的商业网络中交织。</p>
-<p>但对于平台和商家而言，双十一的意义早已不再是简单的销量数字，而是重新理解消费者的行为、偏好和生活方式的契机。正如电商分析师李峰所说：“这场竞逐，不再只是为了一次性地卖货，而是为了在每一个节点上触达消费者，让他们在不同的生活场景中都能感受到平台的存在。”</p>
-<p>随着年轻人逐渐偏向品质消费，县城居民也开始重视消费体验，这种变化背后，是中国消费市场和社会发展的微妙转型。县城不再只是大城市的“跟随者”，它们有了自己独特的消费文化；年轻人也不再是单纯追求时尚和价格的“剁手党”，他们的消费观中融入了更多自我表达和生活方式的选择。</p>
-<p>如果说双十一是一场大幕，那么每一个电商平台、每一个消费者，都是这个故事里的角色。</p>
-<p>站在2024年的双十一节点上，我们看到的不仅仅是数字和业绩，更是一场关于生活方式、技术变革和商业规则的深刻讨论。也许这场史上最长的双十一并非一场简单的促销战，而是一种全新的生活方式的预演。</p>
-<p>※以上人名均为化名。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/afQV9dvaI4m9NZxoY93vCg" rel="noopener noreferrer nofollow" target="_blank">“新氪度”</a>，作者：新氪度°，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989407702294146</guid><pubDate>Mon, 14 Oct 2024 17:32:00 +0800</pubDate></item><item><title>多机构预测三季度GDP超4.5%，年内或有降准降息空间</title><link>https://36kr.com/p/2992107262814977</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>国家统计局将于10月18日发布三季度中国经济数据，市场各界对于这一重要指标的关注度逐渐升温。</p>
-<p>近日，多家机构发布了预测报告，对我国三季度GDP增长预测大概集中在4.5%-5.1%之间，时代财经综合6家机构预测，三季度GDP增速均值在4.7%左右。</p>
-<p>从已公布的7、8月数据来看，出口增速保持较快增长，但工业、投资、消费增速走弱。整体来看，三季度供需两端动能均有一定放缓，市场预计前三季度GDP增速在4.9%左右。</p>
-<p>这也意味着，完成全年5%的增长目标，需要逆周期政策扩围加码。于9月底罕见召开的中共中央政治局会议强调了“有效落实存量政策，加力推出增量政策”，引领新一轮经济提振政策，为完成全年经济社会发展目标任务而努力。10月12日，财政部在新闻发布会上也表示，将在近期陆续推出一揽子有针对性的增量政策举措。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_c41239310ae64b3b8a4654e0e464859e@000000_oswg56352oswg692oswg486_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△各机构对于三季度GDP的预测。（制表：时代财经 王晨婷）</p>
-<h2><strong>机构预测三季度GDP均值4.7%</strong></h2>
-<p>时代财经梳理了6家机构对于三季度GDP的预测，均值为4.7%。其中，厦门大学宏观经济研究中心最为乐观，给出5.1%的预测值；民生银行首经团队预测值相对较低，为4.5%。</p>
-<p>厦门大学宏观经济研究中心认为，2024年第三季度，我国宏观经济继续呈现稳健增长态势，预计当季环比增速比二季度小幅上升0.4%，同比增速相比上季度小幅上升0.4%，重新回到5%上方。</p>
-<p>基于实时监测系统运行结果，2024年初至今GDP年增速始终运行在5%上方（当前实时结果为5.1%），预计能够顺利完成全年5%左右的GDP目标增速。</p>
-<p>民生银行首席经济学家温彬则告诉时代财经，考虑到去年三季度GDP季调环比上涨1.5%，高于去年二季度的0.8%，一定程度拉高基数。而且从外部看，三季度全球经济逐渐降温，其中制造业降温势头更为明显，对我国出口形成冲击；从内部看，内需继续低迷。预计今年三季度GDP同比增长4.5%，低于二季度的4.7%。</p>
-<p>具体来看，在拉动经济的“三驾马车”中，各家机构对出口的预测均最为乐观。7月、8月出口总值同比增长6.5%、8.4%（以人民币计），汽车、集成电路等产品的优势得到巩固，出口额保持较快的增长。</p>
-<p>但值得注意的是，9月出口增速可能会有所回落。</p>
-<p>9月中国出口集装箱运价指数CCFI环比增速录得-14%，与全球制造业PMI整体回落、台风天气扰动等相关。北大汇丰智库认为，在加征关税政策影响下，劳动密集型产品出口增速走弱，也在一定程度上拖累劳动密集型产品的生产、投资增速，以及私企的生产和投资增速。</p>
-<p>在投资方面，市场预计固投增速会较8月进一步小幅走低。</p>
-<p>如财通证券宏观首席分析师陈兴告诉时代财经，9月固定资产投资累计同比增长3.2%。从基建相关的高频数据来看，石油沥青开工率略有回升，但水泥、平板玻璃产量同比增速降幅仍在走扩，基建投资或略有回落；其次，伴随着央行降低利率等政策的实施，地产投资或有回暖；在推动大规模设备更新等政策的支持下，制造业投资增速也将持续放缓。</p>
-<p>消费方面，三季度需求总体平稳。华泰证券研报预计，9月社会消费品零售总额同比增速从8月的2.1%回落至1.5%。居民出游活动在中秋节后有所走弱。地产相关消费或仍较弱，60城新房成交面积同比降幅提升。而“以旧换新”政策逐步落地或对社零带来一定支撑。</p>
-<p>温彬则认为，在“金九银十”消费旺季加持下，社会消费品零售总额增速有望小幅回升，预计9月社会消费品零售总额增速由2.1%回升至2.5%左右。零售业、邮政业商务活动指数均连续3个月环比上升，居民线下、线上商品消费保持活跃；9月楼市整体成交处于持续调整中，但是在中央以及地方密集出台的利好政策推动下，月底翘尾，成交量明显增多。</p>
-<p>另据乘联会数据，9月乘用车市场零售206.3万辆，同比增长2%；其中新能源车市场零售112万辆，同比增长51%。</p>
-<h2><strong>增量政策仍有想象空间</strong></h2>
-<p>上海财经大学校长刘元春预测，三季度GDP增速可能在4.6%左右，这意味着要实现全年增长目标，四季度的增速需达到5.3%。</p>
-<p>9月的中央政治局会议和10月两场重磅发布会已经明确了四季度的政策基调，即持续放松。中央政治局会议中提出，有效落实存量政策，加力推出增量政策，进一步提高政策措施的针对性、有效性，并且加大财政货币政策逆周期调节力度。</p>
-<p>10月12日召开的国新办发布会上，财政部介绍了四方面的增量财政政策，包括大力度的化债、发行特别国债、推动房地产市场止跌回稳、提升整体消费能力等。</p>
-<p>财政部部长蓝佛安表示，除每年继续在新增专项债限额中专门安排一定规模的债券用于支持化解存量政府投资项目的债务外，拟一次性增加较大规模债务限额，置换地方政府存量隐性债务，加大力度支持地方化解债务风险，相关政策待履行法定程序后，再向社会作详细说明。</p>
-<p>蓝佛安称，这项即将实施的政策是“近年来出台的支持化债力度最大的一项措施”，将大大减轻地方化债压力，可以腾出更多资源发展经济，提振经营主体信心，巩固基层三保。</p>
-<p>房地产政策方面，本次也有超预期的表述。发布会上表示，将加力保障房收储，从货币政策为主的阶段，步入到财政货币政策协调阶段。具体包括允许专项债用于土地储备，支持专项债+保障性安居工程补充资金来收购存量房，继续调整优化相关税收政策等。</p>
-<p>温彬告诉时代财经，接下来的全国人大常委会和年底的中央经济工作会是财政政策重要的观察窗口，届时增量财政政策将进一步明朗化。财政部此次在发布会上多次强调“中央财政还有较大的举债空间和赤字提升空间”，也为市场提供了充足的想象空间。</p>
-<p>在中国金融四十人论坛看来，新增的4000亿地方政府债务安排，主要是中央考虑到部分地方政府面临较大的收支平衡压力，因此给地方政府增加了一部分额外资金，但这部分额外增加的融资是要实现“三保”支出目标，不是为了完成增长目标而额外增加的融资。</p>
-<p>不过，政策“组合拳”显然也将拉动经济增长。据方正证券首席经济学家芦哲预计，综合来看，今年最后几个月将会筹集调度资金、加快财政支出，拉动下半年GDP增速0.22-0.51个点。</p>
-<p>除此之外，在货币政策方面，市场预计今年四季度还将有降准降息的空间。</p>
-<p>9月27日，央行实施降准0.5个百分点，同时下调公开市场7天期逆回购操作利率0.2个百分点。央行行长潘功胜表示，本轮降准后，银行业平均存款准备金率约为6.6%，该水平与国际主要经济体央行相比还有一定空间。年底前根据流动性情况可能进一步调降存款准备金率0.25至0.5个百分点。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653318485&amp;idx=2&amp;sn=31b1bdc7600fd9bf9c486a62fde72de9&amp;chksm=bc2a0472f7253a384b29c6e2233009ca6c84483d9474d7eced392a1d20d129e0ed24b00ed961&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：王晨婷，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992107262814977</guid><pubDate>Mon, 14 Oct 2024 17:40:00 +0800</pubDate></item><item><title>闪送上市，没能“解渴”</title><link>https://36kr.com/p/2992086186568712</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1003,845" src="https://img.36krcdn.com/hsossms/20241014/v2_e6226afdb0fa46d1915f6fd56804a751@46958_oswg530118oswg1003oswg845_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>前段时间，成立十年、融资11轮的闪送终于在纳斯达克上市。 </p>
-<p>然而，上市之后，资本市场反应冷淡，闪送股价遭遇连续下跌。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_d432fd67dd3b4cc38eb1cbf3b57e4257@000000_oswg144907oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源闪送官方微博</p>
-<p>在创立初期，闪送靠“一对一急送”模式迅速在细分市场赢得一席之地。如今，闪送覆盖了全国295个城市，拥有270万注册骑手和8890万注册用户。 </p>
-<p><strong>但尽管如此，它的整体规模还是难以与美团、顺丰等巨头匹敌。而随着竞争对手涌入市场，闪送也不再有明显优势。</strong></p>
-<p>从财务数据看，闪送在2023年已经实现盈利，但大部分利润都是来自于政府补贴。这种依赖外部资金的盈利模式能否持续，也要打个问号。 </p>
-<p>具体来看，闪送的核心问题在于高额的骑手成本。2021年至2024年上半年，骑手薪酬始终占公司收入的85%以上，直接压缩了利润空间。与此同时，闪送的单笔订单的平均收入持续下降，也进一步蚕食了盈利能力。 </p>
-<p><strong>在面对美团、达达、顺丰等巨头时，闪送的高价策略显得愈发脆弱。在价格战愈演愈烈的市场环境下，依靠高端服务获取溢价的路子也变得越来越难。</strong></p>
-<p>为寻求突破，闪送曾尝试与抖音等平台合作，拓宽业务渠道，增加流量入口。然而，和大型平台相比，闪送在资源和流量上的劣势依然显著。这些合作虽提供了一定的支持，但也暴露了它在平台生态中的弱势。换言之，闪送缺乏对流量的强大吸附能力，同时也未能在平台内深度嵌入用户的日常消费场景。 </p>
-<p><strong>闪送未来的挑战不仅仅在即时配送领域。要持续增长，闪送需要在生鲜、跨境电商等新兴市场上找到新的突破口。</strong></p>
-<p><strong>不过，目前来看，闪送的新故事也没讲出声量。在规模、盈利和新故事都不够性感情况下，资本市场已经表现出对它的不看好。</strong></p>
-<p>未来，闪送如何突破目前备受质疑的局面？ </p>
-<h2><strong>闪送上市了，资本为何不买单？</strong></h2>
-<p>10月4日，闪送终于在纳斯达克敲钟上市，股票代码FLX，发行价16.5美元，市值约11.7亿美元。 </p>
-<p>上市首日，闪送股价一度攀升至21.95美元。然而，第二个交易日，闪送股价便遭遇破发，跌至16.49美元。紧接着，第三个交易日股价继续下滑，最终收于15美元，市值缩水至10.65亿美元。短短三天，闪送的市值就蒸发了近10%。 </p>
-<p><strong>闪送上市后的股价表现，反映了资本市场对其能否发展壮大的疑虑。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_efaa234e4aba4fa19f2ecd8ffa53a8c4@000000_oswg49980oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">闪送股价走势图，图源闪送官网 </p>
-<p>先从盈利能力来看。 </p>
-<p>在过去的2021年、2022年、2023年和2024年前六个月，闪送相应的净利润分别是-2.91亿元、-1.8亿元、1.1亿元和1.24亿元人民币。虽然公司在2023年终于实现了盈利，但其招股书显示，盈利很大程度上依赖于政府补贴的增加，而实际与公司业务运营直接相关的营业利润仅为0.11亿元。 </p>
-<p><strong>对闪送来说，未来能否持续盈利是个难题。</strong></p>
-<p>在成立初期，闪送的核心卖点——“一对一急送”模式，曾为其赢得市场的快速增长。在这个模式下，每一订单都有专属骑手全程负责，以提供更快、更安全的配送体验。这一差异化的服务为闪送积累了部分高端用户，他们愿意为更高的配送效率和服务质量买单。 </p>
-<p><strong>然而，这种模式，注定了这门生意更偏向“小而美”，限制了闪送的扩展空间。</strong></p>
-<p>中金公司的一份即时配送市场研究报告显示，在即时配送应用场景中，餐饮外卖占据了绝对主导地位，订单量占比达到70%。其次则是生鲜果蔬和商超便利，订单量占比分别为12%、10%，而一对一急送订单量占比仅为3%。 </p>
-<p>这意味着，尽管闪送在细分领域具备差异化优势，但其整体市场容量有限，难以支撑大规模扩展。 </p>
-<p>在激烈的市场竞争中，闪送的模式面临诸多挑战。<strong>相比美团和饿了么等拥有庞大用户群和高频订单的巨头，闪送的“独立按需专线快递”模式显得较为局限。其用户群相对分散，订单数量有限，导致公司在扩展市场份额方面面临不小的阻力。</strong></p>
-<p>事实上，闪送也在寻求突破。 </p>
-<p>为扩大市场，闪送不仅在C端持续发力，还积极布局B端市场。2018年推出的“闪送企业版”，为企业客户提供高效物流解决方案。 </p>
-<p>然而，与其他大平台相比，闪送在B端的市场规模依然有限，加上相对较高的定价，使其在注重成本控制的企业市场中，难以获得可观的增长。 </p>
-<p>为进一步拓展市场，2022年，闪送与抖音生活服务达成合作，试图借助抖音平台的流量来扩展业务。然而，抖音的第三方运力合作伙伴还包括达达、顺丰同城、UU跑腿等竞争对手，导致闪送在获取流量和订单方面的支持也十分有限。 </p>
-<p>这些年来，闪送在新领域频频试探，但直到目前看来，反响和进展都并不多，官网和财报上也没有对B端业务的情况进行更多披露。 </p>
-<p><strong>与此同时，高成本和低毛利的结构进一步加剧了闪送的盈利困境。</strong></p>
-<p>在营收方面，闪送收入持续增长。 </p>
-<p>从具体数据来看，闪送的营收从2021年的30.4亿，涨至2023年的45.29亿元。<strong>但在2021年、2022年，闪送却录得持续亏损，直至2023年才依靠政府补贴实现扭亏为盈，净利润达到1.1亿元。</strong></p>
-<p><strong>从更多指标数据来看，闪送的平均每单收入也在逐渐下滑。近几年来，闪送订单量持续增长，但未能有效转化为更高的收入。</strong> 2021年到2023年，闪送订单量从1.59亿单增加到2.71亿单，但每单的平均收入却从19.2元下降至16.5元。 </p>
-<p>与此同时，给骑手付出的成本却在增高。 </p>
-<p>这与闪送的“众包”骑手模式密切相关。“众包”模式下，骑手的流动性较大，为了拥有稳定的运力，闪送便需要提高给骑手的薪酬。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_bdda4117c14440909b501a0f15cbecf6@000000_oswg119892oswg959oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源闪送官方微博 </p>
-<p>招股书显示，闪送的骑手注册数量从2021年的约110万增至2024年6月的约270万。而在2021年至2023年，闪送支付给骑手的薪酬和奖励分别占到公司收入的90.5%、90.3%和87.8%。 </p>
-<p>即便在2024年上半年，这一比例仍高达85.4%。<strong>骑手成本居高不下，限制了公司通过规模化效应来削减运营成本的可能性。</strong></p>
-<p>由于上述种种原因，闪送的毛利率并不亮眼。尽管公司毛利率从2021年的6.2%提升至2024年上半年的11.3%，但与行业其他玩家相比数据并不亮眼。 </p>
-<p><strong>闪送面临规模和盈利困境已久，资本市场对它的信心也在下滑。</strong></p>
-<p>近年来，闪送的估值大幅缩水。在2021年进行的最后一轮融资中，公司估值一度高达20亿美元，约130亿元人民币。而根据胡润研究院发布的2024年全球独角兽榜,闪送的估值已跌至71亿元人民币，缩水接近一半。 </p>
-<p>而如今尽管成功上市，资本市场的冷淡也反映了闪送仍需解决诸多问题。 </p>
-<h2><strong>市场竞争激烈，闪送如何面对价格战？</strong></h2>
-<p>随着进入市场的玩家逐渐变多，闪送在即时配送行业中的竞争压力越来越大。 </p>
-<p><strong>它不仅要应对达达、顺丰同城等传统配送巨头，还要面临美团跑腿、蜂鸟、UU跑腿等新兴平台的价格战。</strong></p>
-<p>在这其中，闪送的“一对一急送”模式，成本难降，价格也就显示不出来优势。 </p>
-<p>在即时配送这个领域，价格几乎成了最为关键的竞争因素。 </p>
-<p>各大平台纷纷以低价吸引用户。根据公司财报，达达今年上半年的平均客单价仅为4.49元，而顺丰包含时效快递、同城配送等多个业务的速运物流业务，平均客单价为15.9元。 </p>
-<p>与此形成鲜明对比的是，闪送的每单平均价格保持在16.5元左右，在行业中属于较高水平。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_766c527907164c09b97d06f26d200fd6@000000_oswg44479oswg1080oswg1099_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">闪送价格表，图源闪送APP </p>
-<p>要扩大规模，目前这个局面是闪送必须考虑的。 </p>
-<p>更为令闪送担忧的是，即使是自己的优势领域，也有越来越多竞争对手。 </p>
-<p>闪送主打的“一对一急送”模式，能提供更快、更安全的服务，特别适合急件或贵重物品的配送需求。这种模式在高端用户中有一定的忠实客户群，他们愿意为速度和可靠性支付溢价。 </p>
-<p><strong>然而，随着即时配送市场的成熟，越来越多的平台开始提供类似的专人专送服务，闪送在这个细分领域的差异化优势在减弱。</strong></p>
-<p>例如顺丰同城同样依赖高价高质的服务模式，达达和UU跑腿也在逐步完善他们的个性化服务。因而，闪送的市场空间或被进一步压缩。 </p>
-<p><strong>活下来，是闪送必须考虑的。</strong></p>
-<p>为了开拓渠道，2022年，闪送与抖音生活服务达成合作，2023年，闪送又与美团外卖达成合作，希望借助平台的庞大流量和网络资源，提升订单数量。然而，这些平台的即时运力服务商还有达达、顺丰同城等许多同行，闪送仍要与多个玩家同台PK。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_ea99e30ff191407b9c9e5e0e9d8e9e68@000000_oswg86661oswg1080oswg967_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">美团跑腿页面，图源美团APP </p>
-<p>这类合作无疑为闪送带来了更多的业务来源，然而，如何确保这些新增订单能带来长期的用户黏性，仍是一个待解的问题。 </p>
-<p><strong>此外，随着即时配送行业的日渐成熟，平台服务的多样化和场景扩展已成为不可逆的趋势。从单一的送餐服务扩展到如今的“万物皆送”，各大企业不断通过技术创新和效率优化，满足用户日益多元化的需求。</strong></p>
-<p>以美团和顺丰同城为例，这些企业凭借其强大的平台资源和丰富的服务场景，在配送网络的建设上占据了明显优势。它们不仅依托庞大的用户基础，还通过不断整合供应链，覆盖了包括餐饮、零售、生鲜、甚至医药等多个场景，逐步形成了全方位的即时配送生态系统。 </p>
-<p>相较之下，闪送的“独立运营”模式虽具备一定的灵活性，却在资源生态方面较为弱势。 </p>
-<p><strong>这一切，都等待闪送给出新的解决方案。</strong></p>
-<h2><strong>即时零售是风口，但闪送还需要讲更多故事</strong></h2>
-<p>当前，即时零售的风口无疑为闪送带来了广阔的发展机遇。 </p>
-<p>艾瑞咨询数据显示，2014年到2020年间，我国即时配送的用户规模从1.24亿人增长至5.06亿人。另据沙利文报告统计，2023年中国即时配送行业订单规模达到约408.8亿单，同比增长22.8%，预计到2028年，市场规模将达到813.1亿单，未来5年保持年均14.7%的两位数增长。 </p>
-<p>但在这个竞争日趋激烈的市场中，闪送想要脱颖而出，光靠现有的“一对一急送”故事显然是不够的。 </p>
-<p><strong>作为最早入局的即时配送企业，闪送已经证明了其模式的可行性和市场价值，但这并不意味着未来将是一帆风顺。</strong></p>
-<p>放眼望去，美团、京东等巨头已经在零售、物流领域构建了完整的生态体系，强大的供应链、平台流量和品牌效应，赋予了它们更广泛的市场影响力。 </p>
-<p>近几年，闪送也在逐步扩大业务范围。2018年，闪送申请“闪送海淘”、“闪送生鲜”和“闪送同城购”在内的多个商标，2019年，申请注册了“闪送闪购”商标。 </p>
-<p>随后，闪送开始为本地餐厅、花店和超市等商家提供配送服务。闪送希望借助这些新业务领域的拓展，提升市场竞争力，然而，这些尝试并没有多少声量。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_24684239845943f7b8ef5b0ec232c702@000000_oswg677958oswg830oswg684_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源闪送官网 </p>
-<p>一方面，在生鲜配送领域，竞争尤为激烈。美团和达达等平台已经占据了主导地位。<strong>尽管闪送“一对一急送”在时效性上具有一定优势，但在基础设施和供应链支持上，它并未形成足够的竞争壁垒，难以与这些巨头抗衡。</strong></p>
-<p>而跨境电商领域的挑战也不容忽视。闪送推出的“海淘”服务，并未对其整体业务带来显著增长。 </p>
-<p>与行业内的跨境电商巨头相比，闪送在物流效率和成本控制上依然存在明显短板。虽然闪送在不断尝试，但从目前来看，实际效果并不理想，官网和财报中关于这些新业务的进展，也鲜有披露。 </p>
-<p>再到近期，据Tech星球报道，闪送正在内测名为“松鼠快送”的新功能。目前，该功能在北京、上海等区域面向部分骑手先行试跑，包含三种订单模式：松鼠专送（一对一配送、一对多配送）和松鼠拼单（多对多配送）。 </p>
-<p>其中，一对一专送采用派单模式，而多送、拼送订单则为抢单模式。在“闪送员”APP上，骑手现在可以选择“闪送骑士”或“松鼠小哥”两种身份进行接单。对比“一对一急送”服务，松鼠快送的订单价格更低，但松鼠骑士的接单模式更加灵活，支持拼单和多送，骑手可以接更多的订单，从而多劳多得。 </p>
-<p><strong>可以看到，闪送还在增量，讲出新故事。但这些业务是否能带来实质性的突破，关键在于闪送能否构建与之相匹配的基础设施，同时能否靠质价比获得客户。</strong></p>
-<p>要知道，生鲜配送、跨境电商都需要庞大的供应链支持以及高度精细化的运营管理，只有在这些方面取得突破，闪送的多元化故事才能真正落地。 </p>
-<p>在即时零售的风口中，闪送面临的核心问题不再仅仅是如何更快，而是如何扩大规模、增强盈利能力，以及多条腿走路。 </p>
-<p>（本文头图来源于闪送官方微博。）</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2MTc4Nzg5MQ==&amp;mid=2247548163&amp;idx=1&amp;sn=ee077bf0c480ccb48bc56826998434e5&amp;chksm=cfb1a9073078481c5ab06088dd3ab694eedf24966dd0321d066f7dad6d580d4a4e94e5c80412&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“连线insight”（ID：lxinsight）</a>，作者：卢倩莹，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992086186568712</guid><pubDate>Mon, 14 Oct 2024 17:43:00 +0800</pubDate></item><item><title>我花799体验当「拼单名媛」，“摄影师全程用手机拍、迪奥假包上的玲娜贝儿都是山寨的”</title><link>https://36kr.com/p/2992081819314952</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 18:30:37 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 18:30:37 +0800</pubDate><item><title>我花799体验当「拼单名媛」，“摄影师全程用手机拍、迪奥假包上的玲娜贝儿都是山寨的”</title><link>https://36kr.com/p/2992081819314952</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_99e34403c54c439a8a8c8455df8239d1@000000_oswg79055oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p>不知道各位互联网学子最近在钻研佐学还是珂学？</p>
 <p>佐学还算是新兴学科，但名媛学可算源远流长、人才辈出，涌现像晚学、珂学等自立门派的学界大师。</p>
@@ -579,4 +150,573 @@
 <p>这意味着支付宝在淘系订单的支付订单占比，可能出现下降。当然，支付宝也有利好，有消息称，京东将正式接入支付宝支付，预计在双11前夕推出。</p>
 <p>沉寂许久的移动支付市场，正在掀起新的波澜。</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247538392&amp;idx=1&amp;sn=e3c6016daef48bcde64c9a9974667801&amp;chksm=ebee74f3a114a5b5750639a617bd5c9ded353ef30727fd862959227d10751ccf77d6d7a3f9e8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“字母榜”（ID：wujicaijing）</a>，作者：谭宵寒，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992074676382722</guid><pubDate>Mon, 14 Oct 2024 17:59:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992074676382722</guid><pubDate>Mon, 14 Oct 2024 17:59:00 +0800</pubDate></item><item><title>出海速递 | 18张图，读懂全球供应链之变/苹果发文质疑：大语言模型根本无法进行逻辑推理</title><link>https://36kr.com/p/2992173838691072</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>访问36氪出海网站</strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="2194,1032" src="https://img.36krcdn.com/hsossms/20230727/v2_5d21e3a7845040108eb79b76ca40abb7@5490952_oswg179493oswg2194oswg1032_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>今日好文</strong></h2>
+<h3><a href="https://letschuhai.com/696c4949?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>苹果发文质疑：大语言模型根本无法进行逻辑推理</strong></a></h3>
+<p>大模型不具备形式推理能力？5 大证据来了</p>
+<h3><a href="https://letschuhai.com/2d2a9c49?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>18张图，读懂全球供应链之变</strong></a></h3>
+<p>全球供应链正在发生哪些变化？这些变化将对中国产生什么影响？对于那些“生于中国，面向全球”的企业来说，如何寻找机遇，又如何面对挑战？</p>
+<h3><a href="https://letschuhai.com/b223ac9e?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>“小黄书” Lemon8 美榜登顶，字节跳动加速抢占海外市场</strong></a></h3>
+<p>对比小红书在海外市场的命运多舛，背靠 TikTok 的 Lemon8 表现绝对称得上可圈可点。</p>
+<h3><a href="https://letschuhai.com/246b1ef3?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>门店日营收破千万，LABUBU 成泰国“女明星”？</strong></a></h3>
+<p>中国潮玩爆火东南亚。</p>
+<h3><a href="https://letschuhai.com/fcd7dbfb?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>当越南不再是乐土，中国家电企业寻找下一个出海高地</strong></a></h3>
+<p>从越南到墨西哥。</p>
+<h3><a href="https://letschuhai.com/0a4c5a56?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>沙特宣布设立4平方公里沙中特别经济区，由萨勒曼国王国际机场与易达资本联合开发</strong></a></h3>
+<p>打造中企出海中东、辐射全球的一体化平台。</p>
+<h2><strong>热点快讯</strong></h2>
+<h3><strong>外媒：SHEIN 成法国第二大服装时尚品牌</strong></h3>
+<p>据外媒报道， SHEIN 成为法国第二大服装与时尚品牌，几乎与 ZARA 持平。根据法国专业消费期刊 LSA 的排名，SHEIN 在法国2023年的销售额超过了 H&amp;M、Primark 甚至 Kiabi，略低于西班牙 Inditex 集团旗下的 ZARA 品牌。基于 SHEIN 持续保持的高年增长率，机构预计2024年 SHEIN 品牌在法国销售将超过 ZARA。（36氪）</p>
+<h3><strong>PayPal 推出全球支付平台</strong></h3>
+<p>近日，全球最大的跨境支付平台之一 PayPal 在深圳宣布推出最新的企业级用户服务“PayPal 全球支付平台”（PayPal Complete Payments），集成一系列为跨境企业量身打造的跨境收付款产品及解决方案，帮助各种体量的中国企业在多种跨境贸易场景下收付款。（财新网）</p>
+<h3><strong>加州取消苹果自动驾驶汽车测试许可证</strong></h3>
+<p>据外国媒体 MacReports 报道，近日应苹果公司要求，加州机动车管理局（DMV）正式取消了该公司的自动驾驶汽车测试许可证，这意味着苹果正式停止了此前传闻的自动驾驶汽车计划。据悉，苹果于2017年获得自动驾驶汽车测试许可证，其有效期原定持续到2025年4月30日。（界面新闻）</p>
+<h3><strong>小马智行：自动驾驶出行服务接入高德 App，已向广州用户开放体验</strong></h3>
+<p>自动驾驶公司小马智行宣布与出行科技企业高德宣布达成合作，小马智行的自动驾驶车辆已接入高德一体化出行平台。通过高德地图 App 及相关小程序，用户可以在广州体验到充满未来感的无人驾驶出行方式。双方计划未来开放更多城市和区域。（新浪科技）</p>
+<h3><strong>广汽回应在欧洲、南美建厂传闻：欧洲市场计划将在巴黎车展上发布</strong></h3>
+<p>近日，有消息称广汽集团计划在欧洲及南美地区建立新的生产基地。对此，广汽集团方面回应称：“我们没有发布过这个信息。关于欧洲市场计划，将在14号巴黎车展上进行发布。”（界面新闻）</p>
+<h3><strong>海关总署：前三季度我国进出口32.33万亿元，首次突破32万亿元</strong></h3>
+<p>国新办举行新闻发布会，介绍2024年前三季度进出口情况，海关总署副署长王令浚介绍，据海关统计，前三季度，我国进出口32.33万亿元人民币，同比增长5.3%，其中，出口18.62万亿元，增长6.2%；进口13.71万亿元，增长4.1%。我国进出口总值创新高，各季度都在10万亿以上。前三季度历史同期首次突破32万亿元，各季度分别进出口10.15万亿、11万亿、11.17万亿元，都超过了10 万亿，在历史同期也是首次。（新华社）</p>
+<h3><strong>海关总署：外需回暖为我国出口创造有利条件</strong></h3>
+<p>国新办举行新闻发布会，介绍2024年前三季度进出口情况。从国际看，外需回暖为我国出口创造有利条件。前三季度，我国对欧美日等传统市场出口增长4.2%，对东盟、拉美等新兴市场出口分别增长12.3%、13.7%。（央视新闻）</p>
+<h3><strong>我国人工智能核心产业规模不断提升，注册用户超6亿</strong></h3>
+<p>10月12日，工业和信息化部总工程师赵志国表示，我国人工智能核心产业的规模在不断提升，企业数量超过了4500家。完成备案并上线为公众提供服务的生成式人工智能服务大模型近200个，注册用户超过6亿。（界面新闻）</p>
+<h2><strong>近期活动</strong></h2>
+<h3><a href="https://letschuhai.com/c709beff" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜出海指南针：解码海外市场选择策略</strong></a></h3>
+<p>如何正确选择目标市场，并因地制宜制定市场战略，成为企业出海至关重要的一环。为帮助企业更好地把握出海机遇，<strong>36氪出海于10月23日下午2:30在北京举办交流活动。</strong>来自<strong>安永大中华区</strong>和<strong>梅卡曼德机器人</strong>的重磅嘉宾将带来全球热门出海目标市场的最新趋势，深入解析企业全球化市场战略的关键方法论，并结合企业自身案例，分享出海实践中的宝贵经验，帮助企业更好地实现全球新市场拓展。<strong>如果您关注业务出海的市场选择策略，希望深入探讨全球各区域市场的机遇与挑战，欢迎您扫描下方二维码，报名参加本次活动。</strong>活动报名将于10月22日中午12:00截止。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,525" src="https://img.36krcdn.com/hsossms/20240926/v2_3667316c6b4c41fd8493738764427698@11918142_oswg341751oswg1080oswg525_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>加入36氪出海学习交流群</strong></h2>
+<p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
+<p class="image-wrapper"><img data-img-size-val="631,72" src="https://img.36krcdn.com/hsossms/20230523/v2_b61857409a814903b2749dd32a80e298@11918142_oswg4260oswg631oswg72_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992173838691072</guid><pubDate>Mon, 14 Oct 2024 18:03:00 +0800</pubDate></item><item><title>百元一斤，中国白菜拿下韩国人</title><link>https://36kr.com/p/2992072713612039</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,627" src="https://img.36krcdn.com/hsossms/20241014/v2_5eb067b21766481e9e0d7ab1c756402e@46958_oswg1104266oswg1080oswg627_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>中国人常拿来形容低价的白菜，在“泡菜大国”韩国翻身了。</p>
+<p>最近，韩国白菜告急的新闻屡屡登上媒体，一颗大白菜的身价，在韩国也接连突破30元、90元，甚至在某些超市的价格达到35700韩元，约合人民币188.5元。 </p>
+<p>KREI OASIS（韩国农村研究院）数据显示，今年9月14日韩国Garak 批发市场大白菜批发价为41483日元/10kg（约合18667韩元/斤），该价格分别为2023年14213日元/10kg和正常年份17892日元/10kg价格的2.92倍和2.32倍。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,401" src="https://img.36krcdn.com/hsossms/20241014/v2_bd00664514d249418867e707ebdf4302@46958_oswg87944oswg1080oswg401_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：KREI OASIS官网 </p>
+<p>在零售端，韩国白菜售价没有最贵，只有更贵。韩国最大的传媒机构《中央日报》报道称，韩国部分市场中秋假期后一棵白菜的售价接近2万韩元（约合15美元）。《韩联社》在走访韩国超市后也发现，一捆三头大白菜在超市的价格为49800 韩元（约合37.30美元，人民币263元）。</p>
+<p class="image-wrapper"><img data-img-size-val="700,520" src="https://img.36krcdn.com/hsossms/20241014/v2_f71057c422cb4438852e99266d9fb945@46958_oswg660400oswg700oswg520_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：《韩联社》 </p>
+<p>作为对比，9月至今，国内白菜价格相对平稳，产地价整体维持在0.4-0.5元之间。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,567" src="https://img.36krcdn.com/hsossms/20241014/v2_330e17a266db4f8595d2775f2ad90799@46958_oswg49032oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,563" src="https://img.36krcdn.com/hsossms/20241014/v2_d66ea8a132844b6f8fde5e628dc1daad@46958_oswg54736oswg1080oswg563_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：一亩田 </p>
+<p>为此，韩国政府要以每周200吨的规模，从中国进口大白菜。</p>
+<p>为何韩国农产品价格会持续上涨呢？在中国种植白菜又是否是一门好生意呢？ </p>
+<h2><strong>泡菜大国，深陷“泡菜危机”</strong></h2>
+<p>韩国，可以说是世界上最爱吃白菜的国家。 </p>
+<p>有个说法，60%多的韩国人一天三顿都要吃泡菜，一个韩国人一年要吃下50斤泡菜。而整个韩国，一年要吃掉90万吨泡菜。 </p>
+<p>不仅如此，他们还把泡菜当成了一项很暴利的产业。2020年，韩国泡菜的出口量只有1.1181万吨，但出口额达到4657万美元——每吨出口价格高达4165美元，是中国泡菜出口价格的七八倍。这背后，国家GDP贡献、税收贡献、劳动力就业、民生等指标，都一举抬高。 </p>
+<p>但现在，韩国人开始感受到“泡菜危机”了。 </p>
+<p>一方面，韩国偏偏国土狭小，农作物资源有限。高寒地区的江原道是韩国白菜重要种植基地，江原道太白市梅峰山附近高冷白菜种植面积超40万平。但去年，这里遭受暴雨，而今年夏季又受南亚高压和北太平洋副高，气候的变化对当地白菜产量和质量均构成不利影响。有韩国专家预测，洪水和极端高温使韩国大白菜收成减少近一半。 </p>
+<p>极端天气频发，再加上城市化侵占了耕地，导致韩国用以种植白菜的土地规模持续减少——2023年，韩国高寒地区的白菜种植面积不及20年前的一半，从8796公顷减少至3995公顷。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,450" src="https://img.36krcdn.com/hsossms/20241014/v2_ee1013138e8c45eda8d82f23f07eba9c@46958_oswg82315oswg1080oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：KREI OASIS官网 </p>
+<p>另一方面，比种植面积减少更让韩国担忧的是，韩国正面临农业劳动力严重不足的问题。韩国汉阳大学经济学部教授河俊京表示，大流行结束后，韩国虽短暂出现劳动力短缺情况，但由于国内整体需求减少，企业生产下降，就业诱导效应较低。因此，看不到未来的韩国年轻人，愈发喜欢“躺平”。2024年韩国15-29岁“躺平”的青年群体高达44.3万，创下韩国20年之最。 </p>
+<p class="image-wrapper"><img data-img-size-val="743,448" src="https://img.36krcdn.com/hsossms/20241014/v2_02f8f8e92bdc41a0b3bde5f34a74a154@46958_oswg60915oswg743oswg448_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：韩国统计厅 </p>
+<p>更残酷的是，韩国青年群体中超七成没有就业意向，反而靠信用卡度日。因这些群体没有任何经济来源，今年韩国信贷总额、逾期未还金额均创下近5年之最。</p>
+<p>年轻人不愿就业，而生产者又在老去。据统计，韩国农业人口50%以上为60岁老人，这些老年人不仅劳动能力开始下降，对作物的管理、病虫害防治也慢慢跟不上新需求。于是，农业越来越边缘化。 </p>
+<p>韩国农村振兴厅预测称，未来25年内本国高寒地区白菜种植面积将大幅减少至44公顷。预计到2090年左右，高寒地区将完全无法种植白菜。 </p>
+<p>没有了本土的白菜种植，如果只能依靠进口，对韩国人而言泡菜还香吗？ </p>
+<h2><strong>中国蔬菜水果，正走向全世界</strong></h2>
+<p>据央视财经报道，韩国政府正以每周200吨的规模进口中国大白菜。 </p>
+<p>据天眼查信息，山东省是我国农产品出口的第一大省。山东潍坊生产的生鲜蔬菜、预制菜等，都是用集装箱，一车一车发往海外市场。 </p>
+<p>在此之前，韩国也从中国进口白菜，但进口量不像今天这样急剧增长。比如，在2010年是162吨，2011年是1811吨，2012年是659吨，2022年是1507吨。 </p>
+<p>随着中国白菜陆续抵达韩国，韩国白菜价格已有所回落。以10月12日为例，Garak 批发市场额外级、TOP级、中等级批发价较10月2日，分别回落8.5%、14.37%、25.93%。下级白菜跌幅比例高达40.63%，跌幅比例最大。但相较于2023年和正常年份，韩国白菜批发价仍处在高位水平。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,309" src="https://img.36krcdn.com/hsossms/20241014/v2_dd70283d404c4839b6871a9f64e9e218@46958_oswg99654oswg1080oswg309_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：KREI OASIS官网 </p>
+<p>实际上，不仅仅是白菜，中国的蔬菜、水果正以高品质、高性价比受到全球更多消费者的青睐。</p>
+<p>据越南官媒Vietnam.vn报道称，2023年中国出口到越南的葡萄，受到越南消费者的追捧。 </p>
+<p>当地消费者Nguyen Hue称，中国的无籽葡萄以甜美、新鲜，果实完整、酥脆、美味，以及便宜的特点，让每个人都非常喜欢它，公司同事都互相邀请购买。不仅仅是无籽葡萄，其他中国葡萄也很便宜，手指葡萄、红宝石葡萄、奶葡萄分别为110,000越南盾/公斤、50,000越南盾/公斤、80,000越南盾/公斤。且每个品种的葡萄口感都较佳，如奶葡萄果实大、绿色、无籽、新鲜。 </p>
+<p class="image-wrapper"><img data-img-size-val="703,514" src="https://img.36krcdn.com/hsossms/20241014/v2_90bb7d60e2174e4ca0fd98366ede554f@46958_oswg653153oswg703oswg514_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="720,453" src="https://img.36krcdn.com/hsossms/20241014/v2_1b5140ae1d654411a68ab5e8a4e56d42@46958_oswg497169oswg720oswg453_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：Vietnam.vn </p>
+<p>此外，越南也面临着和韩国类似的蔬菜价格高企的问题。越南媒体Baohatinh.vn报道称，今年1月越南卷心菜、西红柿价格分别为20,000 越南盾/束， 25,000 越南盾/公斤，处在高位水平。为平稳物价，越南从中国市场购置大量购置卷心菜。</p>
+<p>而到了今年9月，越南历经暴风雨天气后，当地蔬菜价格再次迎来暴涨。据越南《24H报纸》报道称，一棵小葱售价5000越南盾（如下图）、卷心菜售价22000越南盾/公斤、3个柠檬售价2万越南盾，1.8—2斤的西葫芦售价10万越南盾。 </p>
+<p class="image-wrapper"><img data-img-size-val="703,690" src="https://img.36krcdn.com/hsossms/20241014/v2_b93ca13ef779462b8b357d94e5016b40@46958_oswg627688oswg703oswg690_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：越南《24H报纸》 </p>
+<p>麻省理工学院旗下OEC World监测数据显示，2022年中国成为全球最大卷心菜出口国，出口总值为7.45亿美元。今年8月，中国对越南出口卷心菜同比增长92.3%至516万美元。同月，中国对泰国和新加坡出口卷心菜分别同比增长71.3%和141%，分别至235万美元和169万美元。</p>
+<p>整体上看，尽管2023年越南从中国进口的水果、蔬菜同比下降 7.4%至7.947 亿美元，但中国的蔬菜水果正越来越受海外消费者的青睐。 </p>
+<h2><strong>白菜翻身了，但菜农们没有</strong></h2>
+<p>中国蔬菜、水果能出口到全球，实则以中国蔬菜、水果的高产量为支撑。 </p>
+<p>以白菜为例，据联合国粮食及农业组织（FAO）数据显示，中国是全球最大的白菜生产国，其产量占全球的50%以上。山东、河北、内蒙古、河南、辽宁等省份为国内白菜重要的种植基地。仅山东省的大白菜产量，就占全国总产量的约20%。这让不少山东人戏称，夏季逃不过豆橛子，冬季逃不过萝卜和白菜。 </p>
+<p>白菜高产量之下，种植白菜能否赚钱，仍充满诸多不确定因素。河南省沈丘县的种植大户张飞（化名）称，规模化种植白菜的成本包括土地租金成本、人工成本、种子化肥农药成本、机械化成本等等。按照单亩计算，当地土地的租金成本在800-1200元之间，人工成本主要在白菜前期种植和收获期间，行情价为50-60元/人/日，翻地产生的机械化、化肥、种子、农药成本约在200-300元/亩，种植一亩白菜的成本约在1600-1700元之间。 </p>
+<p>目前白菜品种包括北京3号、竹筒白菜、麻叶青白菜、秦白2号等，因品种、土质、间距、日常管理方式不同，亩产会有所差异，但白菜整体相对高产，亩产能做到七八千斤。但白菜价格通常是随行就市，具有较大波动性。今年有的产区白菜收购价为0.2元/斤，即使按照亩产8000斤计算，种植白菜基本就是赔本。反之，有的产区收购价达到0.8元/斤，种植一季白菜稍微有些利润。 </p>
+<p>因白菜生长周期短，70多天就能收获。为实现亩产利润最大化，自己承包的六七十亩土地，往往根据季节种植和售卖不同农产品。如春季售卖高产和价格相对稳定的土豆，夏季售卖甜瓜、秋季售卖红薯、冬季售卖白菜，春节前后售卖花菜和草莓。 </p>
+<p class="image-wrapper"><img data-img-size-val="923,619" src="https://img.36krcdn.com/hsossms/20241014/v2_68a6fd5e2df04894b06ec5ec7eb953a1@46958_oswg994351oswg923oswg619_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：受访者提供 </p>
+<p>即使通过大棚规模化的种植，但仍是靠天吃饭，尤其是夏季暴雨和大风、冬季大雪很容易摧毁大棚，所以农业保险是大棚农业的另一成本。而且，这些初级农产品基本是随行就市价，整体利润并不高，搞大棚种植在收成好的前提下，基本也要做好2～3年回本的准备。</p>
+<p>为提高利润，张飞尝试过多种方式。如将初级农产品加工成净菜，出售给超市客户，但很多超市客户明确表示他们不要净菜。某家超市的采购主管刘奇（化名）告诉张飞，大型超市做净菜最大的痛点在于，被加工的净菜既不能冷藏保鲜，也无法复用到其他场景中。一旦产生滞销，基本意味着全部报废。 </p>
+<p>很多超市生鲜区本就不赚钱，更多是作为引流品。现如今还要让超市赔钱，老板怎么可能会同意呢？所以净菜加工概念被提到好多年，但始终未能出现在大型超市的货架上。 </p>
+<p>除净菜加工受阻外，目前行业常见的方式为将初级农产品进行二次加工，以食品方式出售。在各大电商平台，基本能看到将白菜加工成的酸菜。但国内某家酸菜企业的电商经理曹阳（化名）称，目前电商平台售卖酸菜利润并不高。一方面，随着消费者购物愈发关注性价比、电商平台将流量倾斜到低价商品上、酸菜的同质化竞争，这让酸菜在电商平台的售价越来越低。 </p>
+<p>另一方面，国内大型综合电商平台所面临的核心问题仍是，电商平台流量红利彻底消失带来的投流成本上涨，ROI降低。如抖音电商前两年直播间的ROI能做到6以上，但今年不少同行只能做到3以下。高投流成本，愈发成为商家难以承受的痛。 </p>
+<p>因此，白菜价格翻身的同时，作为菜农，仍然处在价值链的最底端。 </p>
+<p>随着中国蔬菜、水果在国际上影响力的持续提高，海外市场未来仍充满想象。但在如何延长初级农产品附加值的这条路上，国内或许还有很长的路需要持续探索。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/rcgsH5v8oJgzCLZyuC-gzg" rel="noopener noreferrer nofollow" target="_blank">“价值星球Planet”</a>，作者：归去来，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992072713612039</guid><pubDate>Mon, 14 Oct 2024 18:05:00 +0800</pubDate></item><item><title>名创买的不是永辉，是胖东来概念股</title><link>https://36kr.com/p/2992129467608071</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_fc664741e92d4c3abcbc93a968f30d58@000000_oswg448526oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>只有认识到客观规律的强大，也认识到个体能力的局限，一个人、一家企业才会真正成熟。</strong></p>
+<p>上个月，名创优品入股永辉超市，成为第一大股东。</p>
+<p>讽刺的是，在上市公司电话会上，名创老板叶国富一共说了一千五百个字，提到「永辉」只有18次，与之相比，他提到了19次正在帮永辉做调改的胖东来。</p>
+<p><strong>名创买的根本不是永辉，是胖东来概念股。</strong></p>
+<p>更讽刺的是，五六年前，永辉还是中国零售业最耀眼的明星。奈何业绩连年下滑，去年爆亏13.29亿元，年收入下降114.49亿元，已经沦落成技术扶贫对象，要让新科顶流胖东来帮扶了。</p>
+<p>自己不争气，难怪名创优品对永辉也只是莞莞类卿。</p>
+<p><strong>那么，这段时间永辉身上到底发生了什么？为什么会从巅峰自由落体？</strong></p>
+<h2><strong>01</strong></h2>
+<p>2001年，一个叫张轩松的超市老板做了一件很出格的事情，他在福州屏西路开了一家新超市，但在这里，一半的空间是用来卖菜的。</p>
+<p>这个菜场不像菜场，超市不像超市的新物种，被命名为「永辉生鲜超市」。</p>
+<p><strong>从外人看来，这是永辉传奇旅程的起步，但对张轩松本人来说，其实也是没办法的办法。</strong></p>
+<p>90年代末，以家乐福、沃尔玛、欧尚为代表的大卖场在一线城市大获全胜，开始向二线城市扩张布局。永辉所在的福州也不例外，做百货零售的小老板们面对正规军无力抵抗。</p>
+<p><strong>转型迫在眉睫。</strong></p>
+<p><strong>张轩松选择了往生鲜方向转型。</strong></p>
+<p>这次转型的大背景是，就在洋超市开疆拓土的同时，本土生鲜零售业也正在转型的阵痛期。</p>
+<p>从80年代末到00年代初，中国市民买菜的主要渠道都是大型的农贸市场。</p>
+<p>我们小时候回忆里，菜场就是一片大空地里搭个钢棚，架上灯，每天清晨近郊农民们踩着三轮车把新鲜蔬菜运到这里来卖。所谓人间烟火，就是人声鼎沸，满地脏水，活鸡活鸭，现宰现杀。</p>
+<p>但到世纪之交，这种菜场已经显露疲态了。设施陈旧脏乱差，食品安全问题大，缺斤短两人人骂，城市面貌很拉胯。</p>
+<p><strong>对传统菜场的革新势在必行。</strong></p>
+<p>这里有三个路径，一是更新改造，把传统大菜场搬进室内，缩小规模，加强管理。</p>
+<p>二是社区生鲜店改造，就是进一步缩小规模，变成小区楼下随处可见的小型生鲜店。</p>
+<p>第三个路径，就是农改超，也就是农贸市场的超市化。</p>
+<p><strong>永辉便是农改超最成功的案例，借助政策的东风，张轩松大胆地向市场推出了「生鲜超市」这样一个新物种。</strong></p>
+<p><strong>当然，我们不能光说历史的进程，忽略个人的努力。</strong></p>
+<p><strong>生鲜这门生意，绝对不是什么普普通通的外行能做的。</strong></p>
+<p>上游是农民产地供应链，中游是运输保鲜，下游是农贸市场里挑挑拣拣，买个包心菜都能给你扒掉两层皮的老叔叔老阿姨，都是不好伺候的主儿。</p>
+<p>再说了，生鲜这个生意，毛利率很低的，你起早贪黑一年下来，毛利也就五个点，算净利润可能还是亏的。</p>
+<p>但张轩松恰好是个零售老炮儿，生鲜里里外外的门道，他摸得很清楚。</p>
+<p>比如说，买菜的大爷大妈都是赶早的。要是像一般超市10点开门，过了人家买菜的点，这生意也就别做了。所以永辉打破常规，把营业时间提早到早上6点半。</p>
+<p>然后呢，传统菜场的服务也不能丢了。卖活鱼不能不帮忙杀鱼吧？卖肉的不能不负责切肉吧？这些服务永辉都提供，就是为了避免消费者觉得菜场改超市，消费升级了，服务反而降级了。</p>
+<p>另外，永辉规定员工上架蔬果必须用手拿取，而不是一整筐倒在架子上，造成磕碰损耗。而且必须戴手套，因为手的温度高，会缩短蔬果的货架生命周期。</p>
+<p>这些都是为了控制损耗，采取的运营手段。</p>
+<p>类似的细节还有很多，正如零售业奉行的名言「一线有神明」。真正在一线和消费者每天贴身肉搏的经营者，个个都是微操王者，细节狂魔。</p>
+<p><strong>但是哪怕你练就一手操作，做生鲜生意依然是九死一生。</strong></p>
+<p><strong>因为你要面对的是一个底层悖论：</strong></p>
+<p><strong>卖菜在商业领域，难度类似魂系难度。因为它压根就不赚钱，所以毫无容错率。</strong></p>
+<p>比如说，超市运营成本比菜场高很多，人工、场地、管理，都是白花花的银子。别的生意，涨涨价就能解决，但是在这里不行，大爷大妈对菜价敏感到汗毛级，涨价一两毛，今天的菜就别想卖了。</p>
+<p><strong>咋办呢？还得从供应链上找答案。</strong></p>
+<p>而传统的生鲜产业链上，从农户到消费者中间，至少有两级的批发商，还有批发市场在中间，每个环节都会吃掉一部分利润。</p>
+<p><strong>永辉的思路是，反正中间商是必要的，那我为什么不自己当这个中间商呢？</strong></p>
+<p>创立之初，永辉就成立采购团队，直接面向产地做直采。并且多渠道并行，一方面和大型农产品基地打交道，另一方面也深入田间地头直接找本地的小型农户采购。这么一来，永辉的供应链既具有灵活性，也不缺规模，更重要的是中间环节的成本降低了。</p>
+<p>另一个问题在于，前面讲了卖生鲜有这么多细节和门道，这些东西归根结底，都需要员工去执行。但员工哪来的动力呢？</p>
+<p>别的行业里，可以靠加工资给员工打鸡血，永辉不行。</p>
+<p>卖菜压根就不赚钱，一人涨一百块薪水，这生意就别做了。</p>
+<p><strong>这个问题靠管理，靠涨薪是解决不了的。</strong></p>
+<p>于是永辉引入了一个合伙制度，也就是根据每家门店的历史销售情况，制定一个业绩考核，如果考核达标，那么增量部分的利润就可以在总部和门店合伙人之间进行分配。</p>
+<p>这里的合伙人，指的是从店长到经理，从课长到员工，门店的所有人。而且分配规则会更倾向于一线员工。毕竟，每天和菜啊肉啊打交道的是他们。</p>
+<p><strong>在这个合伙模式下，员工会自发关注细枝末节的工作。体现在整体数据上，就是当生鲜同行们普遍损耗率都高达30%的时候，永辉只有不到5%。</strong></p>
+<p><strong>总之，永辉做生鲜超市，就是在一个最难赚钱的行业里，用最难伺候的商品去伺候最难伺候的顾客。</strong></p>
+<p><strong>创业就是这样，做成之前觉得高不可攀，等你做成之后，它就是你的护城河。</strong></p>
+<p><strong>当永辉把生鲜的坑一一踩平，就来到了一个奇妙的生态位。</strong></p>
+<p>放眼全国各大城市，农改超失败数不胜数，永辉是少有的成功案例。于是在生鲜超市这块，它几乎没有对手。</p>
+<p><strong>跑通了卖菜业务，永辉开始享受它带来的红利，也就是高频刚需。</strong></p>
+<p><strong>在「新鲜」这个至高追求下，中国人普遍不太爱在家里囤菜。</strong>特别是年纪大的人，很多都习惯一天或者两天买一次菜，早上去菜市场，那是刻进一代人生物钟里面的。</p>
+<p>因此，5%毛利的生鲜虽然算是赔本赚吆喝，但是能让消费者反反复复上门购物。有了人流，大家总会顺手买个洗发水沐浴露，买个薯片瓜子饮料啥的。这些东西利润高啊，一来一去，利润不就出来了嘛。</p>
+<p><strong>所以在超市业，有个说法叫「生鲜赚流量，电器赚销售，个护和化妆品赚利润」。</strong></p>
+<p>整个00年代，中国零售市场最风生水起的玩家，就是家乐福、沃尔玛、乐购、欧尚这些连锁大卖场。但在强敌环伺、外资巨头夹击的市场里，永辉靠着卖菜杀出了一片天。</p>
+<p>2010年，永辉营收突破百亿，成功上市，成为「生鲜超市第一股」，并且逐步向北京、重庆这些重点城市展开扩张。永辉跑通的「农改超」，也被冠以「福州模式」的名号，开始在福建省内甚至其他城市推广。</p>
+<p>如果说现在的胖东来，是中国零售业全村的希望，那当年的永辉的地位，多少也能算是村里第一个大学生。</p>
+<p><strong>那么，永辉的模式是什么时候出问题了呢？</strong></p>
+<h2><strong>02</strong></h2>
+<p><strong>2012年之后，以淘宝为代表的电商平台崛起，如同灭霸的响指，让线下零售半壁江山短短几年内土崩瓦解。</strong></p>
+<p><strong>而在线下零售业态里，超市大卖场是最惨的。</strong></p>
+<p>超市不以服务取胜，卖的是没有稀缺性的标品，走的是平价路线，靠货架上丰富的商品种类满足刚需顾客。</p>
+<p>这每一点特性，都在淘宝京东的打击范围里，四倍弱电，效果拔群。</p>
+<p><strong>可以说，电商崛起这一波，传统大卖场型超市吃满了伤害，从此就走下坡路了。</strong></p>
+<p>永辉情况好一点，至少一直到2020年之前，它的业绩都是在增长的，但食品百货卖不动，日子肯定是不好过的。</p>
+<p>况且超市这行本来利润就薄，强如沃尔玛，毛利也就25%，净利润也不过就四五个点。永辉就更惨了，毛利常年只有20%以下，净利润则是在两个点上下徘徊。</p>
+<p>一个比较地狱的事情是，当年张轩松在创立永辉之前，开的第一家超市叫「古乐微利」，没想到十几年后永辉开遍全国，出走半生归来仍是微利。</p>
+<p>咋办呢？有两个办法。</p>
+<p>一是做大规模，沃尔玛能在世界五百强榜首赖这么多年不下来，把一众利润高几倍十几倍同行压在下面，靠的就是它无出其右的规模，只要规模够大，利润再低也足够可观。</p>
+<p>二是消费升级，做高利润。卖大葱土豆不赚钱，我卖牛油果和大龙虾总不能也不赚钱吧？</p>
+<p><strong>这两条路理论上都可行，永辉也都尝试了，但都遇到了一定的瓶颈。</strong></p>
+<p>先说规模。</p>
+<p>生鲜是个五万亿的大市场，永辉每年生鲜营收三四百亿，连1%的市占率都不到，成长空间太大了。</p>
+<p><strong>想要做大规模，最简单的方式就是多开店。</strong></p>
+<p>2010年上市的时候，永辉门店数还只有135家，差不多从创立开始，平均每年开15家店。</p>
+<p>但到2015年，门店数已经翻了三倍，接近400家。</p>
+<p>2017年，永辉更是一口气开了300家门店，并且做了许多创新业态，开了许多小型门店。营收也是一路向着七八百亿的量级一路飞奔。</p>
+<p>上面这些数字看起来并没有很夸张，但其中的过程比大部分人想得要难很多。永辉是卖菜的产地直采来压低成本。这意味着每开拓一个新的地区，不是光开店这么简单，而是要重新建立起一套完整的生鲜供应链。福建的供应链，不可能拿去给四川或者东北供货对吧。</p>
+<p>这就制约了永辉扩张的步伐。</p>
+<p>永辉把全国市场分为10个大区，其中耕耘最久实力最强的，除了大本营福建，就是重庆地区以及北京地区。光是闽、渝、京三地的门店数就要占到三成。</p>
+<p>这三个地方的消费力，在全国都属于消费力相对比较强的，那么随着永辉进入越来越多的地区，想要维持住利润，那么在开店上也不能过于激进。</p>
+<p><strong>看得出来，在开店这件事上，永辉可太想进步了。</strong></p>
+<p>只可惜，开店不是撒豆成兵，是一家一家店去算坪效，去算利润。永辉再强，一口也吃不成沃尔玛。这事儿还是得从长计议。</p>
+<p>规模的路走到一半走不通了，那消费升级能不能做呢？</p>
+<p><strong>事实上，永辉几乎是最早拥抱新零售的大型商超之一，而消费升级本身就是新零售的题中之义。</strong></p>
+<p>我们稍微梳理一下永辉在新零售的尝试。</p>
+<p>2013年，永辉推出了生鲜电商平台「半边天」，用电话预约配送的方式销售生鲜产品，类似前几年的社区团购，但客单价高很多，售价在338元至1188元不等。模式是先进的，但似乎过于先进了，服务体验跟不上，做了两个月不到就关停了。</p>
+<p>2014年，永辉又推出「永辉微店」，支持在线购买，既可以到店提货，也可以选择配送。坚持了两年，随着永辉与京东到家展开合作，微店业务也宣布失败。</p>
+<p>2015年，永辉生活首店开业，定位为生鲜加强型便利店，100平米左右。永辉希望用小型门店，进一步渗透社区商业市场。曾经也被寄予厚望，跑马圈地开了几百家店。但永辉生活长期无法实现规模性的盈利，2019年开始大面积关店。</p>
+<p>2016年，永辉正式把新零售业务独立出来，定名为「永辉云创」，由张轩松的弟弟，也是联合创始人张轩宁全权负责。</p>
+<p>云创的第一战，就是2017年1月启动的「超级物种」，结合「高端超市+生鲜餐饮+O2O」。可以说是直接对标盒马鲜生。但超级物种的发展并不如盒马那样顺利，到2019年已经开始逐步关店。</p>
+<p>2018年，永辉云创又推出永辉mini店，定位500平米左右的中型超市，可以说介于正牌永辉超市和永辉生活之间。在2019年也一度开到500多家店，但2020年也陷入了关店潮，此后逐渐边缘化。</p>
+<p>2021年，永辉超市又试水山姆式的仓储会员店，但如今永辉的会员店在市场上同样缺乏存在感。</p>
+<p>频繁推出新业务，除了短期拉一波股价之外，都没能给公司持续贡献利润，甚至成为了公司的失血点，以至于2019年，永辉云创一度被从上市公司永辉剥离出去，好让公司主体财报好看。</p>
+<p><strong>可以看到，永辉在新零售这块反反复复折腾，拼命想往高端走，往电商走，都没赚到钱，还得是老本行卖菜最稳，但老本行本身不是什么利润丰厚的生意。</strong></p>
+<p><strong>到这里，前面提到的两大出路，做大规模和做多利润，永辉都没走通。</strong></p>
+<p><strong>而中国的零售江湖，此时已是逆水行舟，不进则退。</strong></p>
+<p>临期折扣店，硬折扣超市，社区生鲜店等等业态不断兴起，瓜分蚕食着永辉的市场。原本只卖标品的电商平台，纷纷涉足社区团购买菜业务。</p>
+<p><strong>生鲜，曾经被视作永辉的护城河，如今也即将面临失守。</strong></p>
+<p><strong>向胖东来搬救兵，也许会是决定永辉生死的关键一搏。</strong></p>
+<h2><strong>03</strong></h2>
+<p><strong>过去几年，线下零售市场跑出了两个神话。</strong></p>
+<p><strong>一个叫山姆，一个叫胖东来。前者靠着会员店模式成为了中产的最爱，另一个更是依靠品质和服务被视作中国零售业的良心，成为外地消费者可望而不可即的存在。</strong></p>
+<p>有趣的是，这两个品牌一个服务一线城市居民，一个固守许昌和新乡两座三线城市，但它们的核心定位都是类似的。我们暂且可以将其称为「采购驱动型超市」。</p>
+<p><strong>相比之下，传统的超市，是「通道费驱动型超市」。</strong></p>
+<p>也就是传统商超的货架不是你想上就能上的，而是厂商需要缴纳广告费、通道费，才有资格把产品摆上货架，而通过竞价，厂商才可以把商品摆到货架上更好的位置。</p>
+<p>在这套规则里，超市显然是强势的一方，甚至一定程度上能左右一款商品的生死。</p>
+<p><strong>但强势方不意味着自由，一旦超市收取了通道费，采购人员拿了厂商的返点，吃人嘴软拿人手短，在选品上就受制于金主了。</strong></p>
+<p>而且我们会发现，无论是大商超如沃尔玛、家乐福，还是便利店全家罗森，或者是街边随处可见的小超市小卖部。它们在选品上往往呈现出一种大差不差，同一量级的门店，你有的商品我也都有。毕竟有钱的，而且长期有钱的大金主就那么几家。</p>
+<p><strong>结果就是，超市里的商品往往不是更好的商品，也不是更便宜的商品，也不是更有特色的商品，而是背后的母公司更能出得起钱的那些商品。</strong></p>
+<p>商品不够好，价格不够美丽，商品没有差异化特色，这是「通道费驱动」规则下，传统超市的命门。</p>
+<p>这套规则，在中国消费市场起步初期还能运行顺利，但随着竞争日渐激烈，消费者越来越挑剔，变得越来越玩不转了。</p>
+<p>山姆和胖东来这样的「采购驱动型超市」，则是选择不赚这个通道费，商品能否摆上货架，取决于商品的品质是否足够好，或者价格是否足够低。</p>
+<p><strong>在这个模式下，一家超市的灵魂人物其实是它们的采购人员。</strong></p>
+<p>在传统商超，采购人员更像是一个检票员，交了通道费就给你过关。但在「采购驱动型超市」，采购人员完全是产品经理。</p>
+<p><strong>他们身上最重要的素质，就是商品审美。</strong>食品采购人员要能尝出商品的口味差异，服装采购人员要能理解剪裁和面料，生鲜采购人员要能分辨蔬菜水果的品质高低。只有知道什么是好商品的采购，才能给顾客挑选出优秀的商品。</p>
+<p>其次，采购人员还要熟悉市场，知道市面上什么样的产品已经饱和了，哪些品类人气很高但还没有被成熟品牌占据，哪些潜在的口味趋势和消费趋势是可以提前抢占的。为了获得这些信息，需要采购人员去做用户调研，去筛选市面上所有的商品，去拆分不同商品的属性做排列组合，简单来说，采购人员需要随时泡在市场里。</p>
+<p>然后，就是采购人员必须对数字敏感，他们必须理解价格和成本结构，既要擅长压价，也不能过分苛求供应商导致影响品质，此外还要能结合动销数据等指标为供应商提供指导。</p>
+<p><strong>而这一切落到商品上，就会呈现出和传统商超截然不同的气质。</strong></p>
+<p><strong>最明显的一点，就是这些超市会有所谓的「英雄单品」或者「网红单品」，</strong>例如山姆的瑞士卷、麻薯面包和烤鸡，胖东来的网红大月饼、番茄汁和豆瓣甜肠。这些商品的品质会明显胜过其他商超的同品类商品，以至于获得了出圈的效果。</p>
+<p><strong>少数「英雄单品」背后，其实是由于特殊的采购制度，导致这类超市的商品，和其他传统超市会有很强的差异化。</strong></p>
+<p>这个差异化可能是品质更好，品类更新，也可能是价格更低，包装更大。即使同样是品牌商品，「采购驱动型超市」也会让供应商针对细分客群，提供特殊规格。</p>
+<p><strong>短期可能没有什么明显效果，但长期坚持下来，就是完全不同的品牌心智。</strong></p>
+<p>传统超市，我们买东西都会说「乐事的薯片」、「农夫山泉的饮料」，但在这类「采购驱动型超市」，我们只会说「山姆的某某商品」、「胖东来的某某商品」，即使是品牌产品，我们也会在品牌前面加一句「山姆的」。</p>
+<p><strong>因为消费者潜意识里会意识到，在这里买到的东西，别的地方买不到。</strong></p>
+<p><strong>采购驱动型的超市，甚至可以一定程度上引领消费趋势和用户审美。</strong></p>
+<p>这也是为什么，即使竞争对手可以模仿它们，推出对标单品，甚至打价格战，但无法实现同样的用户心智。「采购驱动型超市」的核心，不在于瑞士卷和大月饼本身，而在于它们洞悉了零售的本质。</p>
+<p>零售三要素「人、货、场」，传统玩家更喜欢研究场，比如超市选址、面积规模、动线设计、商品陈列。随着场被研究透了，大家又开始研究人，研究大妈大爷和中产白领的差异，研究电商消费者和线下消费者的需求差异。</p>
+<p>但很长时间里，大家都忽略了货，认为只要货品齐全就OK，反正大家都是一样的供应链，做不出差异化。</p>
+<p><strong>但胖东来和山姆过去几年的成功告诉同行，货是很重要的。</strong></p>
+<p><strong>零售的本质，就是卖货。只要货好，其他都是盘外招。</strong></p>
+<p>胖东来过去几年里做了很多技术输出，帮助步步高、中百集团和永辉超市做调改，而每次「爆改」，第一件事就是改变商品结构，淘汰低动销的品牌商品，加入更多自营商品。改变货盘之后，才是提升员工福利，增加便民设施。</p>
+<p><strong>我们常说胖东来员工福利好，工资高，对消费者的服务体贴入微，但在我看来，这些都是结果。而背后的原因是「采购驱动型超市」是一种非常依赖审美和主观能动性的模式，它要求每个员工都应该被尊重，它注重品位，强调非标准化的东西。</strong></p>
+<p><strong>可以说，审美和主观能动性，才是胖东来的企业基因。</strong></p>
+<p>因为有了这些，才能够提供大量非标准化的服务，让消费者觉得这家超市不一样。</p>
+<p><strong>回到永辉，在我看来，它曾经的成功，和现在的胖东来、山姆是很相似的。那就是尊重商品本身，注重市场本身的规律，将过去混乱无序的农贸市场做成了标准化，精细化的业务，从而实现了差异化。</strong></p>
+<p>而它的困境也与此相关，它太贪婪了，想要做全国的生意，想要把生鲜生意做成消费升级，但却忘记了，买菜是一件扎根于土地的生意，也是国计民生，是每个老百姓切身相关的。</p>
+<p><strong>生鲜注定是不能随便消费升级，也不能大举扩张的。</strong></p>
+<p>想想看，即使强如山姆，也只开了几十家店。网红如胖东来，也只是扎扎实实做河南本土的生意。</p>
+<p><strong>也许这一轮危机，会成为永辉这家公司的成人礼。只有认识到客观规律的强大，也认识到个体能力的局限，一个人、一家企业才会真正成熟。</strong></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjIzNjIxOA==&amp;mid=2247515048&amp;idx=1&amp;sn=3ba7d205e05fc5bec53618531f70dfd4&amp;chksm=cfcb65c55522593618646fb47bed36668a642ca95c800b6e52355f0055e77ca73a86cc8e39b7&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“IC实验室”（ID：InsightPlusClub）</a>，作者：IC实验室，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992129467608071</guid><pubDate>Mon, 14 Oct 2024 18:12:00 +0800</pubDate></item><item><title>“奔县游”的年轻人已经开始后悔了</title><link>https://36kr.com/p/2992065538075654</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>相比于一股脑跟风去“黑神话悟空”场景打卡，总有一波“大聪明”选择反向而行。</p>
+<p><strong>这届喜欢看剧都要1.5倍速的年轻人，国庆假期却选择了下乡旅游。</strong></p>
+<p>不去热门景点，不去网红打卡，只想去小县城里过一过正常人的生活。</p>
+<p>但现实打脸有点快，仅仅两三天的时间，许多年轻人已经被县城正常生活的无聊和住宿设施劝退，想要紧急撤回。</p>
+<p>国庆假期里，我们不只看到了全国各地的游客涌入山西隰县，云南玉龙、江西婺源、浙江安吉等诸多颇有名气的小县城。</p>
+<p>同时也看到了诗仙李白老家江油、客家首府汀州、临海小县城海盐，还有茶县旺苍等……诸多鲜为人知的小城开始崭露头角。</p>
+<p>同程旅行数据显示，全国近百个县城酒店预订热度同比上涨超过50%。而这其中，90后是最大的消费主力。</p>
+<p>的确，<strong>主打一个难调教，爱整顿的年轻人，一会特种兵，一会City，这次又开始了“奔县游”。</strong></p>
+<p>一直在长沙工作的七七，为了避开即将抵达的人潮，选择去了距离长沙两小时高铁的隆回县躺平7天。只是因为听了袁树雄一首《早安，隆回》，便想去看看。</p>
+<p>而在北京工作，已经看过许多次世界的央子这次也不走寻常路，选择了之前无意间发现河北附近的一个小县城蔚县，想着要慢悠悠的逛逛这座古城。</p>
+<p>小城的闲适与慵懒无疑击中这届被“卷”疯了的年轻人，每个人在出发前都在无限畅想着“修仙”的日子。</p>
+<p>但对于一些并没有妄想，也不曾有过机会妄想发展旅游的小县城来说，游客来与不来，都有着自己运行的节奏和规律。</p>
+<p>距离张家界、凤凰古城都相距不远的隆回县，白天最忙碌的依旧还是农贸市场，晚上最热闹的是赧水河岸，这就是当地人正常的生活。</p>
+<p>这也是最初吸引年轻人“奔县游”的理由，最终也可能成为击碎美好幻想的稻草。但很快，这些见过世面的年轻人，就无聊到“抠脚底板”了。</p>
+<p>虽然隆回也有小有名气的景点花瑶古镇，但这次七七不想走马观花的看景点了，最终选择了在县城里沉浸式游荡。</p>
+<p>刚开始她对这里的一切都觉得很新鲜，即使再普通不过的街道也一定要进去看看是否有什么不一样，即使好像也没什么不一样。</p>
+<p>不得不说，<strong>在“奔县游”中，最可能收获好评的是物价与美食。</strong>毕竟每个地方都有自己的特色美食，尝个鲜是没有问题的。</p>
+<p>都知道湖南人爱吃粉会吃粉，辣辣的湘菜惹人爱，所以七七前两天都在嗦粉、吃湘菜。但娱乐项目仅限于瞎溜达，一天溜达，两天溜达，从街道到超市、菜市场，第三天就觉得够够的了。</p>
+<p>“无聊的已经待不下去了！甚至已经习惯了没有电视的生活，重新开始每天晚上与电视为伴。原来以游客的心态出发做个正常人并不容易。正常人的生活真的太正常了，也不太能受的了。”七七说。</p>
+<p>其实，<strong>大多问题出现在基础设施和娱乐配套上。小县城的确有年轻人向往的慢节奏，但也有年轻人找不到的各种娱乐。</strong></p>
+<p>此前也听朋友说过，去云南某知名景点旅游，美景虽然好看，但也不能只看美景，便和朋友想着找一家剧本杀场馆消磨一下时间。还真的从平台上查找到一家，打电话过去才发现一年前就不营业了。</p>
+<p>要认清楚的现实是，不是每个地方都有万达，也不是每个地方都有麦当劳和肯德基，有的可能是二者的结合体麦肯基。</p>
+<p>在很多的小县城里，能逛的就是一两条的步行街，有几家奶茶店，最新潮的娱乐就是看电影、KTV和台球厅。脱口秀、话剧、音乐剧啥的不要想太多。</p>
+<p>甚至随处可以看到长居当地的本地人也在线上消磨时间，比如刷视频、打游戏、看主播直播等。</p>
+<p>除了体验以外，小县城跟不上基础设施成了吐槽最多的点。其中住宿品质被吐槽最多。要知道并不是每一个县城都有高星酒店，甚至有些县城都没有一家连锁酒店，最好的住宿还停留在县宾馆的时代，而这些县宾馆也因年代久远到了更新升级的阶段。</p>
+<p>之前在贵州某县城开酒店的业者对闻旅透露，当地大多是自营的单体酒店，至今没有一家连锁酒店，更别说高星酒店了。该县有两个4A级景区，客群也主要以周边省份为主，基本上客流较为稳定，当地住宿业也没有那么卷，就还蛮满足现状的。</p>
+<p>对于从大城市而来的年轻人，可能习惯了出门不是地铁，就是共享单车，不喝星巴克，就要来一杯喜茶，不是开一局剧本杀，就是看一场脱口秀，想要在县城“修仙”并不容易。</p>
+<p><strong>“奔县游”不仅考验的是目的地的基础设施与接待能力，同时也在考验游客的接受和包容能力。</strong></p>
+<p>不可否认，有些县域看到了旅游的机会，即使有意识发展旅游的解决了吃住的问题以后，在娱乐体验上较为匮乏，毕竟不是常态化需求，长久性必然要打个问号。</p>
+<p>可能在很多县城来看，这届年轻人也真的太难带了！ </p>
+<p>除了一些本就是热门旅游目的地且发展多年的县域，无论是在旅游设施和接待服务上更为完善和系统，大部分县域更多的是处于留白的状态。</p>
+<p>体现最明显的应该是因黑神话悟空爆火的隰县。在过往山西旅游发展中，隰县由于位置偏远，与其他景点不顺路，很少被纳入行程当中。</p>
+<p>一时间登顶流量之王收获泼天富贵的同时，也引来许多的差评。比如小西天景区因空间有限出现较长的排队现象，也有关于当地厕所等基础设施的吐槽等。好在隰县相关部门第一时间反应迅速，并积极给出了回应和措施。</p>
+<p>不只是县城，有些突然爆火的小城也疲于应对。像因簪花而火的泉州，游客吐槽最多的是满大街的电动车，机动车道、非机动车道、人行道，可以说是无处不在。</p>
+<p>后悔路上还有一波是之前追风回县城生活的人。还记得2万一套房的小城鹤岗吗？最火的时候吸引了一批年轻人辞职离开大城市，去鹤岗买房躺平疗愈。</p>
+<p>仅仅两三年的时间，那些心怀美好生活、坚定的新鹤岗人不仅开始后悔了，更有一大半人已经离开了。</p>
+<p>兴奋过后，不仅有现实找不到工作的无奈，更是对枯燥生活的不耐受。因为年轻人少，文化娱乐等设施相对落后，相比初到鹤岗的短暂兴奋，很快就被漫长的无聊生活消磨殆尽。试想一下，可能5天时光都无法消磨的地方，如何去生活一生？</p>
+<p>另一方面，鹤岗的人均可支配年收入26042元，每个月2000元也就刚够交暖气费。他们认为，这里并不适合长期生活，年轻人在这里根本找不到工作，除了没有办法的本地人。</p>
+<p>当然也不能全盘的否定“奔县游”。从当下来看，<strong>“奔县游”似乎更合适安排近距离，且类似于周末较短时间的旅游体验，</strong>不能以真正旅游城市或目的地的要求去要求这些还未真正吃到旅游红利的县城，也需要给予它们一些信心。</p>
+<p>同时也要相信，必然会有一部分县城最终会从小众变大众。《全国县域旅游发展研究报告2024》显示，2023年全国1866个县域旅游总收入平均值42.95亿元，接待游客总人数平均值为508.27万人次，分别同比增长41.19%、35.18%。</p>
+<p>人生不过是一场即时奔赴，乐也好，苦也罢，忙碌也好，无聊也罢，都是百味生活的一种体验。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3MjAwMDUwNw==&amp;mid=2247673145&amp;idx=1&amp;sn=ddf6ea21355861ac911b3ff8a996569b&amp;chksm=cf56d25c83aef483a755ef05b3e1a4f60013f417ba23eb93b6f45527d7eda7f39645a9dd88ee&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“闻旅”（ID：wenlvpai）</a>，作者：禹佳言，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992065538075654</guid><pubDate>Mon, 14 Oct 2024 18:15:00 +0800</pubDate></item><item><title>从诺贝尔化学奖看AI与游戏的无限可能</title><link>https://36kr.com/p/2992127507246083</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_b9de98d38ae14a018fa5de03b9cba5b6@000000_oswg164821oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2024年的诺贝尔化学奖被授予三名科学家，美国华盛顿大学教授<strong>大卫·贝克</strong>（David Baker）及谷歌Deepmind公司的<strong>德米斯·哈萨比斯</strong>（Demis Hassabis）与<strong>约翰 ·江珀</strong>（John Jumper），以表彰他们对破解蛋白质结构之谜的卓越贡献。</p>
+<p>蛋白质结构问题一直是诺贝尔化学奖的热门领域，1958年来共有十余次奖项与之相关，既包括重要结构的发现，也包括工具和方法的改进，如晶体电子显微镜和冷冻电镜的发展。<strong>计算机和人工智能方法的成功引入，不仅预测了几乎全部人类已知的蛋白质结构，更能创造全新的蛋白质分子，</strong>为生物医药打开更多可能。</p>
+<p>三名获奖者中，贝克教授是以计算预测蛋白质结构这一工作的领军者，而<strong>吸引Deepmind两名AI专家加入的“接力棒”，则是一款叫做Foldit的游戏。</strong></p>
+<h2><strong>Foldit游戏聚合“人工的智能”</strong></h2>
+<p><strong>蛋白质是生命的基石，其结构决定了功能。</strong>虽然组成蛋白质的氨基酸只有20种，但它们在三维空间中的组合方式却近乎无限。因此，对蛋白质结构的精准描绘困扰了科学家们数十年。传统方法是观测已有的蛋白质，准确但需要借助大型精密仪器，因此又慢又贵。从1971到2006的40年间，全球蛋白质数据银行（Protein Data Bank）也仅收集了4万个结构数据，相比上亿的总数可谓九牛一毛。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_2f6d94c087674b5580a5a1fd92e1240e@000000_oswg138067oswg756oswg417_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">《环球科学》2024年10月刊中“AI重塑结构生物学”专题配图 </p>
+<p>于是科学家们逆转思路，从观测变为预测，并希望借助性能不断进化的计算机，准确找到更多的蛋白质结构。蛋白质通常会折叠到能量最低的状态，而科学家也知道如何去计算它的能量。基于此，贝克教授团队在1998年发布了重要的计算平台罗塞塔（RoseTTA），它能进行蛋白质的预测乃至设计。计算机虽然擅长运算，但缺乏人类的空间想象能力，加上单台设备算力有限，因此进展不算迅速。</p>
+<p>贝克团队发现，<strong>蛋白质折叠这项工作具有有明确的目标、规则和打分，恰好构成了一项游戏的全部要素。那为什么不用这一点吸引更多人参与进来呢？</strong>他们进行了一项大胆尝试——游戏化科学众包。2008年，基于罗塞塔构建的功能游戏Foldit应运而生，允许用户以闯关形式，将氨基酸的“链”折叠成适当的三维形状，再由科学家检验结果。它富有趣味，简洁易懂，很快吸引了全球几十万没有科学背景的普通用户加入。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_5cc8cb3051d4436cbda48d350f57446f@000000_oswg96326oswg756oswg333_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Foldit通过在线平台将科学问题和普通人连接起来并聚合智慧</p>
+<p><strong>很快，人类在模式识别上的优势就显现出来，不仅准确度超过了计算机，也在多个科研难点中发力。</strong>比如玩家曾在10天内破解了艾滋病逆转录酶的晶体结构，一个存在了15年的科学难题。2010年，57000名“Foldit players”作为论文作者登上《Nature》，这是“人工的智能”在蛋白质结构预测中的里程碑。新冠疫情爆发后，20万人共同寻找阻止新冠病毒传播的蛋白质结构。这些公民科学家们还为包括癌症、阿尔茨海默病和埃博拉病毒在内的广泛医疗挑战的研究做出了贡献。</p>
+<h2><strong>“超级玩家”哈萨比斯接棒AI通关蛋白质折叠游戏</strong></h2>
+<p>Foldit这颗子弹，将在多年后击中Deepmind创始人、游戏人工智能专家哈萨比斯的眉心。</p>
+<p><strong>他是一名不折不扣的“超级玩家”，棋类和Foldit点亮了他对游戏和智能的关系的思考：</strong>12岁成为国际象棋世界亚军，编写了自己的第一个人工智能下棋程序；15岁和毕业后设计的《主题公园》《黑与白》等作品“都以AI为核心”。在MIT做博后时，他接触到了Foldit，惊讶于人类直觉在游戏中发现新模式的巨大潜力。</p>
+<p><strong>成立Deepmind，是他从游戏智能出发、追寻通用智能的重要一步。</strong>他在接受采访时说到：“从一开始，我们就将游戏作为证明和开放 AI 算法的试验场。因为游戏非常高效，也很容易有指标来查看 AI 系统如何思考和改进。”同时，“最终目标是使用游戏中训练的智能来引导通用学习系统，并应对现实世界的挑战”。围棋智能AlphaGo和AlphaZero获得巨大成功，后者甚至仅靠自学就在数天内获得人类数千年的知识，开发出全新的策略，击败人类冠军。这证实了深度学习算法在处理复杂问题上的强大能力。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_15de2aff00ef4ebe9fe7cc7685687c87@000000_oswg472136oswg756oswg426_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">AlphaGo和AlphaZero寻找最优策略并获得胜利</p>
+<p>继续挑战更复杂、更综合的游戏，比如《星际争霸》《我的世界》，自然是一种路径。那有没有一个规模和条件都合适的现实问题，能够快速迁移团队在围棋上的成果呢？</p>
+<p><strong>游玩Foldit的经历在哈萨比斯脑海中闪现。</strong>他在目睹AlphaGo战胜围棋世界冠军李世石的那一刻想到：如果人工智能可以从0知识开始训练，并击败人类顶尖选手；那同样可以像Foldit的玩家那样，不具备生物化学知识却完成科学家的工作。游戏固定的规则和无穷的可能性之间，形成了极大的张力；找到通向胜利的路径和解法，就是智能的体现。</p>
+<p>于是，<strong>蛋白质折叠问题，成为Deepmind团队从游戏智能迈向解决现实问题的关键一步。</strong>他们着手设计AI蛋白质折叠算法AlphaFold，基于蛋白质银行中已有的14万条结构数据，像游戏中找最优解一样分析数据、寻找规律，反复训练提高预测准确性。AlphaFold于2018年在蛋白质结构预测领域的“奥运会”CASP上首次亮相，取得了2.5倍于第二名的好成绩。但这距离准确预测还远远不够。</p>
+<p>第三位主角<strong>约翰 ·江珀</strong>在此时加入Deepmind，牵头设计了新的transformer架构和许多革新。2022年发布的AlphaFold2真正改变了这一领域，大部分预测超过了百分制的90分。随后，<strong>Deepmind一举公布了2.18亿个人类已知的蛋白质结构，宣告50年来蛋白质三维结构预测问题的解决。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_01aa6cb2cdc340978854a05253357512@000000_oswg323526oswg756oswg384_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">AlphaFold基于数据库训练和改进预测结果</p>
+<p><strong>自此，不仅蛋白质折叠问题得到突破，用AI解决科学问题的方法更逐步深入人心。</strong>新版本AlphaFold3在2024年5月上线，引领生物学预测技术进入下一阶段：构建蛋白质与其他分子（如DNA或者RNA）结合的复合体结构。AlphaFold已被来自190个国家的200多万研究人员用于推进关键工作，包括了解抗生素耐药性和开发可分解塑料的酶等重要应用。META也跟进发布了ESMFold的研究成果：由机器学习创建的6.17亿个宏基因组蛋白质结构的数据库，包括土壤、海洋和人体中的微生物。</p>
+<h2><strong>下半场：科学众包和游戏人工智能加速前进</strong></h2>
+<p><strong>Foldit仍在不断迭代，逐步成为了科研人员和普通公众互动的社区。</strong>游戏不仅持续将前沿问题转化为游戏关卡，收集玩家的高分解答并吸收到成果中，也鼓励用户间对解题策略的讨论。游戏功能同样与时俱进，2019年时加入了蛋白质设计模块，后续更引入了AlphaFold帮忙给玩家的作业打分。</p>
+<p><strong>更多科研项目采用了类似的众包机制，科学家们甚至搭建了专门的公众科学游戏发布平台，</strong>如Kaggle和Zooniverse，以供科研人员和机构发布游戏并招募志愿玩家。从生物学、神经科学、天文学、高能物理学到语言学、艺术史学，都已有成千上万的普通玩家的参与。例如，在Eye Wire中，玩家通过简单有趣的操作即可映射神经视网膜通路；在《星系挑战》（Galaxy Challenge）中，玩家能够给星系形态分类；Metropolitana和 ARTigo则允许玩家为社会语言、艺术作品打标签。</p>
+<p>同时，游戏AI也在《星际争霸》《王者荣耀》等复杂游戏中获得更全面的能力后，助力解决机器人训练，能源和交通调度等现实问题；更有望让AI进一步理解我们所处的真实世界，获得空间智能。微软、Deepmind、Meta、腾讯等科技公司都是参与者。腾讯开悟游戏 AI 研究开放平台依托腾讯在算法、算力、实验场景方面的核心优势，为学术研究人员和算法开发者开放研究与应用探索的资源及工具。</p>
+<p><strong>国内的游戏人工智能人才培养，在产学研各界合力下加速前行。</strong>2024年，川渝政府联合腾讯，共同发起川渝大学生人工智能大赛暨腾讯开悟人工智能全球公开赛，吸引国内及17个海外国家超过5200名学生参赛，并协同燧原、Intel、Vivo、成都智慧交通集团，联合开发芯片算子开发、交通应用场景、算法与工程等产业赛道。2023世界人工智能大会期间，厦门大学联合中国传媒大学、北京理工大学、上海交通大学等多所高校，筹备成立“游戏人工智能高校联合研究中心”，持续深化游戏人工智能的研究。</p>
+<p>未来的科研新星和下一个Deepmind，会不会从这些创新青年中诞生？</p>
+<h2><strong>AI&amp;Game for Science的更多想象力</strong></h2>
+<p>尽管今年的诺贝尔物理与化学奖被调侃为“理科综合”“图灵奖”，但这<strong>恰恰反映出学科间的交叉融合越来越广泛深刻。</strong>一方面，物理、化学等基础学科受到人工智能等新的研究方法影响，发展出全新的、数据驱动的研究范式。另一方面，人工智能本身也是计算机和数学、神经科学等领域交叉的产物，神经网络、贝叶斯都极大推动了人工智能的演进。</p>
+<p>袁越等学者指出，<strong>科学研究和创新正从因果关系走向“复杂系统”。</strong>例如，获得医学或生理学奖的microRNA背后所代表的基因调控就是一个庞杂到无以复加的复杂系统，难以用简单的因果链条加以解释。神经网络也是复杂系统的计算机模拟，呈现出“黑箱”状态。</p>
+<p><strong>在大融合、大系统的背景下，AI for Science已带来科学界的新潮流，</strong>此次诺贝尔奖的“风向”指引性也很明显。2024年5月，英国皇家学会发布了《人工智能时代的科学：人工智能如何改变科学研究的性质和方法》报告。科学家们正扮演着导师、同伴或助手的角色，利用人工智能以史无前例的速度和规模执行任务；AI则帮助识别大型数据集中的新模式和关系，预测新内容。除了AlphaFold等标志性案例外，AI应用可见于所有STEM领域，包括医学、材料科学、机器人技术、农业、遗传学和计算机科学等。过去十年，与科学相关的人工智能专利申请激增，中国、美国、日本和韩国提交的专利数量占据主导地位，其中中国贡献了约62%的专利。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_88db0e7c980f4cad959bcaddd1d99047@000000_oswg481835oswg1080oswg1017_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">英国皇家学会2024年《人工智能时代的科学》报告插图</p>
+<p>正如哈萨比斯在获奖后表示，“AlphaFold应该被视为人工智能加速科学发现和造福社会潜力的证据”。《知识分子》总结，应用人工智能方法分析数据、构建复杂生物现象的强大模型用例包括：用AI识别新的抗生素、揭示希格斯玻色子，建模和分析星系形成，筛选粒子对撞机或机器人望远镜产生的大量数据、寻找其中的规律，识别具有电池或太阳能电池所需特性的材料等等。</p>
+<p><strong>Game for science 同样值得期待。</strong>科学研究过程呈现出复杂性和不确定性。不同领域间的相互启发有如“蝴蝶效应”，而游戏正扮演那只扇动翅膀的蝴蝶。游戏是科技的产物，同时推动科技发展。如果没有3D游戏，或许先进GPU开启的人工智能时代不会这么快到来。游戏更与智能有着非常紧密的连接，也是科技人才的摇篮，马斯克、乔布斯、林纳斯，许多领军人物都受游戏启发而走进编程世界，探索创新边界。</p>
+<p>AI、游戏与科学的故事，未完待续。</p>
+<p><strong>参考文献来源：</strong></p>
+<p>2024化学诺奖接力青睐AI，蛋白质结构预测新工具获一半奖项， 郭贝一、郭晓强https://mp.weixin.qq.com/s/4ISr4rJRw_60O63ipvGWPQ</p>
+<p>AlphaFold开发者获2024诺贝尔化学奖，AI抢夺科学家的最重要荣誉，知识分子</p>
+<p>https://mp.weixin.qq.com/s/BqO1-UN3hQ4Bagcp206_uw</p>
+<p>今年的诺贝尔化学奖，意味着我们从此不需要科学家了？</p>
+<p>https://mp.weixin.qq.com/s/ny4kbYctjBW7dzIKBAMu2g</p>
+<p>DeepMind 创始人 Demis Hassabis：AI 的强大，超乎我们的想象，经纬创投</p>
+<p>https://mp.weixin.qq.com/s/SaNX-zE7NG9jlHuPifv6Zw</p>
+<p>腾讯游戏年度发布会上提到的这款游戏，你听过吗？， 腾讯互娱社会价值探索</p>
+<p>https://mp.weixin.qq.com/s/OXiZTnVDxu23iezObLTWxw</p>
+<p>玩游戏玩出来的Nature？，果壳-未来光锥</p>
+<p>https://mp.weixin.qq.com/s/q8_oxouEUrTM2ijrqjTuzg</p>
+<p>The challenge of designing scientific discovery games</p>
+<p>https://grail.cs.washington.edu/projects/protein-game/foldit-fdg10.pdf</p>
+<p>Demis Hassabis：from video game designer to Nobel Prize winner</p>
+<p>https://www.theguardian.com/science/2024/oct/09/demis-hassabis-from-video-game-designer-to-nobel-prize-winner-google-deepmind-ai-</p>
+<p>AlphaFold 2: Why It Works and Its Implications for Understanding the Relationships of Protein Sequence, Structure, and Function</p>
+<p>https://pubs.acs.org/doi/10.1021/acs.jcim.1c01114?__cf_chl_tk=IzRdl._BLUB6TWJy7OjISGlkHoME4f_PgabMM3z2Ya0-1728619960-1.0.1.1-CRrp5_YPKHQtjlQo6ffFZwmGx8PpCyrFenJw2rM9go4</p>
+<p>Science in the age of AI: How artificial intelligence is changing the nature and method of scientific research</p>
+<p>https://royalsociety.org/-/media/policy/projects/science-in-the-age-of-ai/science-in-the-age-of-ai-report.pdf</p>
+<p><strong>胡璇</strong>腾讯研究院高级研究员</p>
+<p><strong>黄诗宜</strong>腾讯游戏商业分析经理</p>
+<p><strong>宋巧玲</strong>腾讯游戏社会价值探索中心项目经理</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650978736&amp;idx=1&amp;sn=2e54c81ee068cdcad44fe6f7e23fa90e&amp;chksm=bdc52027c2e496b7e535875bd561a8bf4672d25be67a13d7df0a963eba45181ee19b408416bd&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“腾讯研究院”（ID：cyberlawrc）</a>，作者：胡璇 黄诗宜等，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992127507246083</guid><pubDate>Mon, 14 Oct 2024 18:17:00 +0800</pubDate></item><item><title>注意，今年双11有变</title><link>https://36kr.com/p/2992053793844233</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“双11”启动在即，各大电商平台的玩法和规则也陆续公布。从活动周期、力度和丰富度来看，今年或许都是“史上之最”。今年，各平台纷纷“抢跑”，把“双11”大促时间大幅提前，其中，<strong>天猫、京东和拼多多三大平台均选择今日（14日）开启活动。</strong></p>
+<p>今年各平台投入力度如何？又有哪些新变化新玩法？</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_ab87ee2decb849059ea62abfd728c973@000000_oswg36760oswg1037oswg671_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲资料图 中新经纬 常涛摄</p>
+<h2><strong>平台投入力度有多大？</strong></h2>
+<p>“双11”从2009年开启以来已持续15年，近几年来，“双11”凑单、大额满减、拉人赚积分各种“计算题”，以及层出不穷的烧脑游戏让消费者倍感头疼。</p>
+<p>作为“双11”活动的老玩家，天猫在12日的“双11”发布会上表示，今年商品界面上只有两个价格：<strong>折扣前价格，以及叠加各种优惠后的到手价格，消费者只需要看一个到手价，下单将更简单。</strong></p>
+<p>具体来看，今年天猫依然将活动分为两波，第一波为10月14日-31日，14日当晚8点开始预付定金；第二波为10月31日晚8点-11月11日。</p>
+<p>天猫方面表示，今年“双11”是近几年投入最大的一次，将在满减、立减活动基础上，额外再投入300亿消费券及红包，88VIP大额消费券也在10月14日下午2点提前发放。据悉，10月14日当天，天猫有百大直播间同时开启，共发放10亿红包。</p>
+<p>另据主播李佳琦微博12日消息，在14-15日，李佳琦直播间将发放5亿红包，可用于支付预售尾款及购买现货商品。</p>
+<p>今年京东“双11”活动从10月14日晚8点一直持续到11月11日。具体来看，京东方面表示，“双11”期间将推出每天领取60元额外补贴、跨店每满300元减50元等优惠举措。此后，还推出专场期、高潮期和返场期，包括“百亿补贴日”“9.9包邮日”“PLUS会员日”等不同节点，满足消费者的购物需求。此外，还将一如既往在家电以旧换新和数码产品补贴方面持续发力。</p>
+<p>另一家电商平台拼多多日前也发布“双11”补贴玩法。中新经纬获悉，今年“双11”，拼多多宣布首次推出“百亿消费券”活动，并将“百亿加倍补”升级为“超级加倍补”。此外，拼多多近日还在官网发布新规，将此前的“买贵必赔”服务将升级为“买贵双倍赔”服务，将于10月16日生效。</p>
+<p>对于消费者来说，今年“双11”和以往还有一个不同点，就是支付的互联互通。</p>
+<p>9月12日，淘宝正式宣布支持微信支付功能，并逐步向全体卖家开放。到9月底，微信支付已全面接入淘宝。</p>
+<p>另据央视新闻客户端9月26日消息，京东也将接入菜鸟速递和菜鸟驿站——两者分别是菜鸟的自营快递品牌和代收包裹的站点。此外，京东也将正式接入支付宝支付，预计在“双11”前夕推出。</p>
+<p>阿里巴巴集团副总裁、 淘天用户平台事业部总裁吴嘉此前在接受采访时表示，淘宝天猫与多个互联网平台实现互联互通合作后， <strong>预计今年是史上购买用户数最多的一届天猫“双11”。</strong> 他还表示，支付的打通是双方合作的第一步，未来还会不断加深包括在流量等方面的合作。 </p>
+<p>此外，吴嘉还透露，<strong>京东物流预计会在“双11”之前接入淘宝，</strong>为用户提供服务。</p>
+<p>在以往很长一段时间内，在淘宝购物无法使用微信支付，而现在，这项巨大的改变是否会打破目前电商平台的竞争格局，以及对“双11”交易额产生较大影响？</p>
+<p>盘古智库高级研究员江瀚对中新经纬表示，从竞争现状来看，淘宝支持微信支付将打破过去电商平台支付方式的壁垒，使得消费者有更加便捷和灵活的选择。其次，将提升消费者购物体验和便利性，这有助于淘宝在“双11”期间实现更高的销售额和交易增长。</p>
+<p>不过，互联网分析师马继华则认为，淘宝支持微信的支付或对淘宝的整个销售量不会构成很大的影响，因为在淘宝平台，更多的用户已经习惯了支付宝，使用微信支付的相对较少。<strong>但对于微信用户来说，现在可以直接打开淘宝去购物，可能对淘宝整个促销活动的设计产生很大影响，更丰富了用户的购买渠道。</strong></p>
+<h2><strong>战线最长的“双11”</strong></h2>
+<p>中新经纬梳理发现，拉长购物时间成了今年电商的集体动作。其中，淘宝天猫、京东、拼多多三大电商均于14日开启今年的“双11”活动。</p>
+<p>具体来看，和去年相比，活动时长变化最大的是淘宝天猫平台：<strong>14日开启预售预热，比2023年和2022年提前了10天；京东比2023年和2022年提前了9天；拼多多则是提前了6天。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_70ce25aef06443f098c39da7b2cae017@000000_oswg88610oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲资料图 中新经纬 常涛摄</p>
+<p>新电商平台方面，抖音是今年最早开启“双11”的平台。此前抖音平台宣布，“双11”好物节于10月8日开启，比2023年早了一周。</p>
+<p>快手是今年最先宣布“双11”大促提前的电商平台。在9月19日的招商大会上，快手宣布10月16日即进入“双11”预热期，18日将正式开售。相比去年，提前了2天。</p>
+<p>作为后入场的玩家，小红书电商日前宣布，“1年1度购物狂欢节”于10月12日开启，一直持续到11月11日。</p>
+<p>对此，有网友在社交平台表示，今年“双11”太长了，感觉都快和国庆假期连上了。还有网友称，“年年提前，年年都是史上最长”。</p>
+<p>为何今年各大平台决定拉长“双11”活动战线？</p>
+<p>吴嘉对此解释称：“‘双11’每年都会有自己的节奏，它并不是提前，而是我们增加了一些内容，具体的活动排期大家也看到了，不同的内容面向不同的消费者。”</p>
+<p>江瀚表示，延长活动周期，平台可以为消费者提供更多购物时间和选择，从而提升销售额和用户黏性。此外，也可以为商家提供更多的时间和空间来策划和执行各种促销活动，从而增强市场竞争力。</p>
+<p>在马继华看来，现在的“双11”活动和几年前相比已大不相同，现在电商们主要是利用“双11”作为噱头，<strong>尽量拉长整个营销周期，目的是扩大销售额。此外，也为了更好地促进用户的购买欲望，同时还可以和友商竞争流量。</strong></p>
+<h2><strong>品质直播成今年“双11”新亮点</strong></h2>
+<p>最近一段时间，“小杨哥”“东北雨姐”等流量主播在直播带货时接连出现虚假宣传等问题引发关注。在此背景下，行业呼吁品质直播，也成为今年“双11”一大亮点。</p>
+<p>近日，由中国计量科学研究院联合中国质量认证中心、美腕等多家单位发布的《直播电商行业高质量发展报告（2023-2024年度）》（下称报告）指出，直播电商迈向“品质直播”发展道路。</p>
+<p>在报告发布现场，上海财经大学电子商务中心主任劳帼龄表示，未来直播电商的发展，将更多地关注品质本身，通过品质直播助力新兴消费，其中头部企业需做好示范作用，带动行业走向正能量。</p>
+<p>阿里集团副总裁、天猫事业部总裁家洛在天猫“双11”发布会上称，提振消费既要扩大“量”，也要看重“质”。既要促成订单成交，为消费市场“扩容”，也要注重品牌和品质，为消费“提质”，天猫双十一的独特作用，就在于能创造更多的品牌增量和品质增量。</p>
+<p>在发布会上，淘宝直播店播总经理梦心也表示，直播电商已从娱乐红人模式进入“品质直播”新阶段，专业主播、品牌货盘、平台优质服务保障协同的品质直播模式将成为行业主流。</p>
+<p>据《中国网络视听发展研究报告（2024）》显示，截至2023年12月，全网短视频账号总数达15.5亿个，职业主播数量已达1508万人。</p>
+<p>值得一提的是，今年7月31日，人力资源社会保障部会同国家市场监督管理总局、国家统计局正式向社会正式发布了19个新职业，其中就包括网络主播。</p>
+<p>前不久，上海市商务委等部门发布《上海市推动直播经济高质量发展三年行动计划（2024-2026年）》，其中特别明确要建立健全高标准的行业规范与监管机制，同时也要培育一批规模大、带动作用强、国内有影响力的主播服务机构，发挥头部示范效应。</p>
+<p>在上述报告发布现场，国家市场监管总局发展研究中心创新和互联网监管研究部副主任李桐表示，“在直播电商行业建设合规评价体系非常重要，相关监管部门要关注法律法规的完善，要关注协同的监管，发挥行业协会的组织作用，来引导企业的规范经营。同时更是需要直播电商行业从业者的自律。”</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247584574&amp;idx=1&amp;sn=eea1177658ec104b121ccd8cc943f312&amp;chksm=e8942b2ac13209d3208a52d2b77a3342511968714b2b1ce4cb9c1e5146436f2beb0dcc62364f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：李晓萱，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992053793844233</guid><pubDate>Mon, 14 Oct 2024 18:20:00 +0800</pubDate></item><item><title>逃离“商场”的餐饮品牌，都去了哪儿？</title><link>https://36kr.com/p/2992125886422662</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>购物商城曾是餐饮业的聚集地，尤其是随着 2010 年互联网的蓬勃发展，餐饮业逐渐成为商城吸引流量的主力军，甚至占据了主导地位。</p>
+<p>众多餐饮品牌为了抢占黄金地段，积累品牌影响力，纷纷涌入商城。尽管竞争异常激烈，店铺倒闭率居高不下，商城依旧是餐饮品牌竞相追逐的首选之地。</p>
+<p>以2017年的数据为例，全国一二线城市的545家大型购物中心中，餐饮关店数量占比高达36%，而新开餐饮店的数量占比也达到了38%。</p>
+<p>然而，时过境迁，餐饮品牌开始纷纷选择撤离商城。这种“出逃”现象直接导致商城的空铺率飙升。</p>
+<p>根据赢商网的权威数据，2024年上半年，全国重点27个城市的600多个样本购物中心的平均空置率高达8.50%。</p>
+<p>全国重点24个城市的购物中心平均空置率同比显著下降17.01%，降至8.78%，大约三成的商场空置率更是超过了10%。</p>
+<p>这一数据清晰地揭示了一个趋势：餐饮品牌正大规模从商城撤离，转向新的阵地。这不禁让人追问：那些毅然从商城“出逃”的餐饮品牌究竟去向何方？</p>
+<h2><strong>逃离“商城”的餐饮，去了哪？</strong></h2>
+<p>商城餐饮的“出逃”，并非溃败，而是寻求更广阔的市场与发展空间。它们瞄准了高校、社区、博物院、医院、高速公路等多个领域，展开了一场全新的市场布局。</p>
+<h3><strong>1、前往高校，扎堆校园，攻占大学年轻人的心智</strong></h3>
+<p>近期，老乡鸡在高校市场的迅猛扩张引人瞩目，其首站便是武汉大学信息学部商业街的校园店。</p>
+<p>这家校园店继承了老乡鸡商城店的装修风格，主打绿色调，通过巧妙增设绿植和悬挂镜子，巧妙扩大了视觉空间，营造出一片清新宜人的氛围。</p>
+<p class="image-wrapper"><img data-img-size-val="660,1351" src="https://img.36krcdn.com/hsossms/20241014/v2_63cf4edd708146f99547e85e6d785dd7@5658210_oswg896997oswg660oswg1351_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>据悉，武汉大学店的产品定价与校外店铺保持高度一致。例如，老乡鸡武汉店的招牌肥西老母鸡汤和莲藕鸡汤均价为 15 元，会员价 13.2 元，而校外商城的套餐价格也在 14 至 30 元之间，价格差异微乎其微。</p>
+<p>在武汉大学周边，茶颜悦色、古茗、瑞幸咖啡、霸王别姬等众多知名餐饮品牌齐聚一堂。而在大学市场中，<strong>海底捞</strong>无疑是活跃度最高的商城餐饮品牌。</p>
+<p>一方面，海底捞广泛分布于全国各省份、各城市的大学，比如北京大学、清华大学、上海复旦、深圳大学、广州工业大学等。</p>
+<p class="image-wrapper"><img data-img-size-val="660,433" src="https://img.36krcdn.com/hsossms/20241014/v2_6ab588cc0da04c48818aa3b80cc02801@5658210_oswg477270oswg660oswg433_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>另一方面，海底捞推出多样化的单店模型来契合学生需求。校园火锅店满足了大学生校内享用火锅的渴望；苗师兄石锅拌饭迎合了对平价快餐的追求；首家食堂则凭借多品类策略满足了午餐的多样化需求。</p>
+<p>放眼整个市场，肯德基、麦当劳和必胜客这些昔日的商城巨头也在踊跃进军高校市场。比如，<strong>麦当劳</strong>的大学校园店已超 60 家；<strong>肯德基</strong>在江西南昌大学、天津南开大学、淄博山东理工大学、河南郑州大学等地都有布局；<strong>必胜客</strong>则长期扎根于中国人民大学、泰州学院等高校。</p>
+<h3><strong>2、逃到博物院，和知名景点联合，开起了联名店</strong></h3>
+<p>2024 年 7 月，<strong>喜茶</strong>强势进驻辽宁博物馆三楼，精心打造了一家融合文物元素的博物馆茶饮店。店内装饰与馆内文物装饰画相得益彰，为顾客营造了一个现代与历史交织的独特消费空间。</p>
+<p>在饮品选择方面，该店巧妙融合了博物馆的文化旅游特色，推出了“弗想”系列、文创奶茶以及“古人不古板”与“湘人别具一格”等限定饮品和周边商品，成功吸引了大批粉丝前来打卡。</p>
+<p class="image-wrapper"><img data-img-size-val="660,487" src="https://img.36krcdn.com/hsossms/20241014/v2_b67694aad2f24a008dd6405205b56c99@5658210_oswg359887oswg660oswg487_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不仅如此，茶颜悦色、茶百道等知名品牌也纷纷抢滩博物馆市场。<strong>茶颜悦色</strong>于 8 月在湖南博物馆开设首家门店，运用现代艺术手法生动重现了馆内的珍贵文物图案，并推出了限量版饮品及文创产品，一经推出便火速售罄。</p>
+<p class="image-wrapper"><img data-img-size-val="660,495" src="https://img.36krcdn.com/hsossms/20241014/v2_19d0b66cec1e4e2a995c5d36712f9f4c@5658210_oswg455761oswg660oswg495_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>茶百道</strong>则筹划于国庆期间与陕西历史博物馆启动联名活动，届时将推出一系列联名周边商品，如纸袋、主题杯、冰箱贴等，其设计灵感均源于陕西历史博物馆的珍贵文物及历史文化元素，充分展现了深厚的文化底蕴。</p>
+<h3><strong>3、进驻企业，开“员工餐厅”，或和事业单位合作，进入编制内</strong></h3>
+<p>今年 3 月，海底捞携手西安华为研究院，共同打造了一座 400 平方米的企业专属餐厅。</p>
+<p>与此同时，华为食堂也引入了兰湘子、魏家凉皮等美味佳肴；金鼎轩、眉州东坡、大龙燚等知名品牌亦纷纷入驻万达集团旗下的多城市食堂。</p>
+<p>此外，首都机场餐饮公司与百胜集团强强联手，在首都机场 T3 公共区域开设了花漾咖啡及“LAVAZZA 咖啡”联营店。</p>
+<p class="image-wrapper"><img data-img-size-val="660,220" src="https://img.36krcdn.com/hsossms/20241014/v2_5995a3f3c41a42f19d989ad1c9103365@5658210_oswg233017oswg660oswg220_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>众多咖啡与茶饮品牌亦踊跃寻求与国企及事业单位的合作契机。譬如，Tims 咖啡与中国石油以及部分房地产公司携手，采用店中店模式为员工呈上便捷的咖啡服务；蜜雪冰城则与中国邮政联袂，匠心打造了独特的邮政主题餐厅，深得邮政员工的青睐。</p>
+<p class="image-wrapper"><img data-img-size-val="590,443" src="https://img.36krcdn.com/hsossms/20241014/v2_da36c091c06f439382abb4e5f678e35a@5658210_oswg381855oswg590oswg443_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>4、逼近社区，加速社区餐饮的布局</strong></h3>
+<p>小菜园长期秉持新徽菜+选址商城的战略，在商城市场实现了规模性增长。其直营门店数量从 2021 年的 270 家飙升至 2024 年的 500 家，几乎翻了一番。</p>
+<p>为进一步实现扩张宏图，自 2023 年 11 月起，小菜园便将目光投向可乐社区市场，并接连开设了多家门店。</p>
+<p>为深度试水“社区市场”的盈利模式，小菜园还针对性地推出副牌“菜园食堂”，凭借小碗徽菜+部分自助+食堂模式探索社区增长的全新路径。</p>
+<p>除小菜园之外，星巴克、库迪咖啡、呷哺集团、东来顺、小龙坎、江渔儿、Manner 等商城连锁品牌，也早已在社区市场完成布局。</p>
+<p>正如职餐网记者走访上海南京路时所见，长约 300 米的威海路，遍布库迪、柠季、益禾堂、Manner 等连锁餐厅的身影。</p>
+<h3><strong>5、高速路、医院、家具店也挤满了商场餐饮</strong></h3>
+<p>曾经，高速服务区犹如一座封闭的孤岛，商场餐饮品牌鲜有涉足。然而，近些年局势急转直下，风云突变！</p>
+<p><strong>陕西交控服务管理集团</strong>大刀阔斧，引入宽窄巷子、子午路张记肉夹馍、德克士、良品铺子等一众知名品牌；<strong>广东高速服务区内</strong>，麦当劳、肯德基、星巴克等国际大牌比比皆是；<strong>江苏高速服务区</strong>喜迎“外婆家”“绿茶餐厅”等知名餐饮连锁品牌强势入驻；<strong>山东高速服务区</strong>，“必胜客”“汉堡王”等快餐品牌已扎根多年；<strong>四川高速服务区</strong>，“海底捞”“小龙坎”等火锅品牌隐匿其中。</p>
+<p>商场餐饮品牌不仅在高速服务区奋勇攻城略地，更在医院和家具店“插旗”布局。</p>
+<p>星巴克在上海东方医院开设分店后，又接连进驻江苏省人民医院、南京鼓楼医院等地。瑞幸咖啡在疫情前于武汉同济医院开店，疫情后更是将无人咖啡设备投放至一些医院。</p>
+<h2><strong>商城餐饮为何纷纷逃离商城，转而向这些地区扩店？</strong></h2>
+<p>当下，商城餐饮纷纷撤离商城，向社区、高校、博物馆、高速服务区等多元区域扩店，已然成为一股不可逆转的趋势，未来这种态势必将愈发显著。</p>
+<p>那么，究竟为何它们选择“逃离”商城，向商城之外的广阔天地拓展呢？这其中既涉及商场的因素，也有餐饮创业者和品牌自身的深思熟虑。</p>
+<p><strong>从商城角度来看，成本高昂、人流下降、消费力减弱，商城红利日渐消退，迫使餐饮品牌不得不另谋出路。</strong></p>
+<p><strong>成本方面，商城租金持续攀升，许多品牌不堪重负</strong>。近年来，商城租金仍呈上涨态势。2024 年上半年，百街商铺平均租金为 24.37 元/平方米/天，微涨 0.09%；百 mall 商铺平均租金更是高达 27.17 元/平方米/天，涨幅达 0.25%。</p>
+<p>为何商城品牌纷纷撤离，而商城租金却仍在上扬呢？</p>
+<p>其一，繁华地段的商城租金成本更高，皆因这些地段客流量大、商业价值高；其二，经济复苏和政策扶持推动了消费市场的增长，从而推高了商城租金。</p>
+<p>如此情形自然致使许多商城品牌萌生去意。比如，小菜园的大部分门店原本位于购物中心或商圈，租金成本占比颇高。而老乡鸡也主打商店店模式，长期面临高额的租金成本，致使产品毛利逐步减少。</p>
+<p>应对这一挑战，这两个品牌分别施以不同策略：一个品牌转向社区，尝试新徽菜+食堂模式的社区餐饮；另一个则在武汉大学开设门店，抢占大学市场。</p>
+<p><strong>客流层面，商城的聚客效应逐步减弱，许多曾经风靡一时的品牌生意大不如昔</strong>。近些年来，不少商城的客流明显呈下滑趋势。</p>
+<p>这一现象引发了网友们的广泛共鸣。“#你有多长时间没有逛过商场了#”等话题屡登微博热搜榜，网友们纷纷吐槽：“月薪两万也不敢去商场购物”。</p>
+<p>人们对商场消费的谨慎态度，致使许多地方商城的客流逐渐减少。昔日热闹非凡的商城，如今也显得冷清许多。</p>
+<p>商城聚客效应的减弱以及“自带流量”神话的破灭，迫使诸多商城餐饮品牌为求生存而寻求新的出路，或是为了获取更多流量，纷纷转战社区、高校等市场，期望实现更大的发展。</p>
+<p><strong>红利层面，长期在商城内扎堆经营、不断扩店的策略，使得品牌规模渐趋上限。</strong></p>
+<p>许多商城品牌向外扩张，实则是为了突破在商城市场遭遇的增长瓶颈。为寻觅新的增长空间，它们不得不向同一市场的不同区域拓展。</p>
+<p>例如，海底捞在同个城市的高校市场开设食堂店或火锅店；小菜园则运用食堂模式，在同城市的社区区域抢占有利位置。</p>
+<p><strong>当然，商城餐饮逃离商城，选择涌向社区、高校、博物馆等背后自有其深层次的考量。</strong></p>
+<p><strong>从市场层面来看：抢占优势铺位，提前布局其他地域市场，以期分得一杯羹</strong>。对于商场餐饮品牌而言，社区、高校、企业食堂背后潜藏着多个庞大的消费市场。</p>
+<p>全国近 3.5 亿家庭，据预测，2030 年我国将形成 2 万以上的社区，这意味着社区餐饮产业将孕育众多“新王”。</p>
+<p>高校市场方面，2023 年，我国高校毕业生已达 1158 万人，2024 年更是飙升至 4763.19 万人，其消费潜力简直惊人。</p>
+<p class="image-wrapper"><img data-img-size-val="660,531" src="https://img.36krcdn.com/hsossms/20241014/v2_19d5da97187f4ee6b8d9f6ca7961410d@5658210_oswg211020oswg660oswg531_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>面对如此庞大的消费市场，商城餐饮品牌岂能不动心。故而，不少商城餐企开始提前入局，抢占核心位置，凭借过往的优势经验、供应体系以及品牌势能打磨新店型，提前试水新市场，并为未来培养忠实粉丝客群。</p>
+<p>正如海底捞去年刚入驻高校市场时，其校园店的负责人所言：“目前不是以盈利为主要目的，而是为了培养大学生的消费习惯，公司的要求是，我们不亏本就可以了。”</p>
+<p>因此，不少商场餐饮品牌，也抱有类似的想法：提前入局，抢占优势铺位，再逐步迭代，小步快跑，进而探寻出适合的盈利模式。</p>
+<p><strong>从经营层面来讲：摆脱短时营业困境，向全时段、全渠道营业方式转变</strong>。商城餐饮业的营业时间常常受限，周末和下午时段成为其主要的盈利高峰。</p>
+<p>为了突破这一限制，许多商城餐饮企业开始将门店布局扩展至社区、高校和企业食堂，意图借此覆盖居民和学生的全天饮食需求，或是满足企业员工的午餐及下午茶时段。</p>
+<p>以海底捞为例，该企业在疫情期间创新性地成立了“社区营运事业部”，打造了一套融合“外卖、社群互动、直播带货以及线上商城”的综合社区运营模式，并推出了专为年轻人设计的外卖“青年套餐”和夜宵新品，如“夜宵三剑客”和精酿啤酒，以满足年轻消费者多样化的消费场景需求。</p>
+<p>同样，东来顺通过在社区开设店铺，提供北京特色的铜涮火锅、各式主食小吃（例如包子、羊汤）及零售服务，构建了一个多元化的产品矩阵。</p>
+<p>这种策略不仅确保了对居民一日三餐需求的全面覆盖，而且实现了全天候的经营模式。</p>
+<p><strong>从客群层面而言：把店搬到客群更近的地方，与客群形成长期关系</strong>。自疫情爆发以来，众多商场餐饮品牌深刻认识到：与粉丝的物理距离过长，一旦生意遭遇突发事件，他们很难迅速获取市场反馈并调整品牌策略。</p>
+<p>因此，这些餐饮品牌决定将门店开设在菜市场内（即菜场餐厅）和小区内（即社区食堂），通过性价比、刚需品类以及特定的店型来实现资源共享和需求互补。</p>
+<p>为了进一步拉近与消费者的沟通距离，他们全面开通了线上渠道，运用企业 IP、丰富的内容、福利活动以及抖音直播等方式与顾客保持频繁互动，从而增强顾客粘性。</p>
+<p>同时，为了缩短与客户的情感距离，这些品牌还建立了私域渠道，通过企业微信、社区群友以及线下活动等方式与顾客建立紧密联系，增进彼此情感。</p>
+<h2><strong>商城餐饮的出逃，让餐饮业态开始呈现多元化态势</strong></h2>
+<p>随着商场品牌不断向高校、社区及博物馆等多元化领域拓展，餐饮业态的多元化发展趋势愈发显著。</p>
+<p><strong>首先，文化与餐饮实现了深度融合。</strong></p>
+<p>这种合作方式有两种。<strong>商场餐饮紧密围绕博物馆的文化主题，精心推出特色产品。</strong></p>
+<p>例如，麦当劳与三星堆博物馆的合作。这次合作不仅推出了联名产品，如巴适得板风味麦辣鸡腿汉堡，还在包装设计上融入了三星堆面具元素，让顾客在品尝美食的同时也能感受到古蜀文化的深远韵味。</p>
+<p class="image-wrapper"><img data-img-size-val="1023,1663" src="https://img.36krcdn.com/hsossms/20241014/v2_1d2c14c3b4f9418fbee5f49aa4ad74d6@5658210_oswg76257oswg1023oswg1663_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>通过这种方式，麦当劳成功地将现代快餐文化与古蜀文明的深厚底蕴相结合，为消费者带来了独特的体验。</p>
+<p>另一方面，<strong>餐厅的环境设计同样凸显博物馆的文化氛围</strong>。布局、采用藏品图案、色彩装点以及餐具都融入了文化元素，让顾客在享受美食的同时，沉浸于浓厚的文化氛围之中。</p>
+<p>例如，必胜客与恩施州博物馆的合作。餐厅墙面张贴着土家织锦花纹，餐桌和座位上有展现民俗文化的花纹和抱枕，营造出浓郁的恩施民俗文化氛围。</p>
+<p><strong>其次，经营形式多样化。</strong></p>
+<p><strong>一方面，全时段经营成为普遍现象</strong>。例如，南京建邺巧刻广场的菜手食堂，其营业时间从早上6:30一直延续至晚上10点，全面覆盖了早餐、午餐、晚餐以及夜宵时段。</p>
+<p>在这不同的时间段里，菜手食堂提供了丰富多样的选择。早餐设有3元自助餐，包含玉米、南瓜粥、纯牛奶、豆浆、胡辣汤、皮蛋瘦肉粥等六种口味供顾客任意享用。</p>
+<p>午餐时段推出3元自助活动，“米饭+小菜+饮料+水果”可无限续加。晚餐时，顾客同样能享受到3元自助的优惠，可以无限量品尝米饭、饮品和小菜等美味。</p>
+<p>菜手食堂的菜品主要以新徽菜系为主，同时也兼顾川菜、湘菜和淮扬菜等多种口味。当然，部分餐饮品牌在进入特定区域市场时，也会根据当地市场的实际情况，灵活调整经营时间。</p>
+<p class="image-wrapper"><img data-img-size-val="675,397" src="https://img.36krcdn.com/hsossms/20241014/v2_15db472cad2f45e99cf44974f15063d2@5658210_oswg356583oswg675oswg397_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>以西安文理学院的海底捞校园店为例，其营业时间通常会与学校食堂保持一致，一般在晚上7点多随着学校食堂的结束而打烊。</p>
+<p><strong>另一方面，消费场景更加多元化。</strong>高校内除传统食堂外，图书馆、自习室周边还开设了咖啡、简餐、甜品小店，为学生提供学习间隙的能量补给，促进小组讨论与学术交流。</p>
+<p>同时，针对宿舍需求，发展了外卖与外带业务，多人份披萨、火锅等宿舍分享套餐备受青睐。</p>
+<p><strong>再者，品牌连锁与个体经营并存共生。</strong></p>
+<p>肯德基、麦当劳、海底捞等连锁品牌纷纷进军高校和社区，依靠其标准化管理和强大的品牌影响力，提供稳定可靠的餐饮服务。</p>
+<p>然而，品牌化趋势正在向更细分的领域延伸，社会餐饮品牌也加速涌入高校，通过档口、美食广场、独立门店等多样化形式，为学生提供更加多元化和专业化的餐饮选择。</p>
+<p>同时，部分高校食堂也在积极塑造自有品牌，运用标准化管理手段，推广特色菜品和服务至更广阔的市场，从而增强高校餐饮的竞争力和影响力。</p>
+<p class="image-wrapper"><img data-img-size-val="548,391" src="https://img.36krcdn.com/hsossms/20241014/v2_26537b67461a40b6925e0e66972d938d@5658210_oswg434011oswg548oswg391_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">苏大阳澄湖校区食堂的菜、饭、面、汤</p>
+<p>在城市社区和商业街中，独具特色的个体餐饮店铺正如雨后春笋般涌现，例如专注于地方菜系的私房菜馆，它们凭借独特的风味和个性化的服务，吸引了大批消费者，在激烈的餐饮市场中占得了一席之地。</p>
+<p><strong>最后，菜品定位展现多元化趋势。</strong></p>
+<p>高校食堂引入商场常见的品牌快餐店，如肯德基、麦当劳设立专门窗口，还引入特色西餐、日韩料理等，满足学生对不同文化美食的需求。</p>
+<p>综合性大学的食堂里，国际化菜品琳琅满目。此外，高校食堂紧跟学生需求，推出创意菜品，如水果炒肉、彩色饺子等，不断丰富学生的餐饮选择。</p>
+<p>再如社区餐饮不仅提供快餐小吃，还有地方特色菜馆与特色单品店，如湘菜馆、东北风味菜馆、新疆大盘鸡、东北铁锅炖等。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MzMwNjk2MA==&amp;mid=2655018386&amp;idx=1&amp;sn=abb3b6903c066bf59de7271980bb4559&amp;chksm=bd2dfdad8a5a74bb50e1b58bbdcb828d8e2bf96e7979f217418a27349c6418b20c2da0ecf886&amp;token=568569128&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“餐饮O2O”</a>，作者：小贝，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992125886422662</guid><pubDate>Mon, 14 Oct 2024 18:22:00 +0800</pubDate></item><item><title>越过越抠，美瞳都流行半年抛了</title><link>https://36kr.com/p/2992039775513606</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>消费降级，大家都在寻找平替。</p>
+<p>星巴克喝不起，9.9元咖啡很便宜；下不起馆子，“穷鬼套餐”也很香；就连快递里“好评返现”的卡片也值得捡起来看看。</p>
+<p>我们讲过很多次，<strong>平替替掉的首先是溢价，对品质的要求依然存在。</strong></p>
+<p>但这个规律在美瞳品类上似乎出现了一些异数。</p>
+<p>根据蝉魔方，今年以来美瞳的品类单价从前一年的53元降到了41.8元，跌幅25.98%。</p>
+<p>另一方面，半年抛美瞳的卖点涨势迅猛，从2023年和日抛卖点并驾齐驱，上涨到如今的一骑绝尘。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_9b8a8e6547ee4258a2a76cff9c30f32b@000000_oswg174742oswg1080oswg811_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">2024年1月-2024年9月美瞳品类商品卖点分析</p>
+<p>单价下滑，但美瞳整体品类却在大幅上涨，今年以来抖音电商美瞳品类销售10~25亿元，增长128%。</p>
+<p>很多品类量价齐跌，<strong>美瞳却可以一边降价、一边收割</strong>，是行业技术突飞猛进，还是消费者需求变了？</p>
+<p>美瞳品类到底发生了什么？</p>
+<p>难道以后化个妆都得精打细算了吗？</p>
+<h2><strong>白牌大量涌入，把价格打下来</strong></h2>
+<p>美瞳品类单价下降，<strong>直接原因是涌入了大量的白牌。</strong></p>
+<p>看数据就知道，今年以来品类的市场集中度已经从2023年的63.36%，下降到如今的38.64%，相比于去年涌入了几乎多一倍的新品牌。</p>
+<p>只看Top10品牌，弥生、美目优瞳等品牌增速极快。尽管原先就霸榜的几家老品牌整体依旧保持了增长，但新品牌不讲武德，入驻抖音1年时间不到，就已经改变了原先的品牌分布。</p>
+<p>长江后浪推前浪，前浪呆在沙滩上。</p>
+<p>问题来了，为啥白牌要来抖音，并且增速还这么快？</p>
+<p>最主要的原因，<strong>直播是最容易呈现产品特质的方式。</strong>千挑万选，不如主播戴上看看。</p>
+<p>数据也支持这个观点，整个美瞳品类，在抖音带货渠道分布中“达人合作号”产生的销售额占比连续3个半年度周期上升，2024年上半年已高达60%。</p>
+<p><strong>但白牌们集体选择在半年抛产品上发力，却有更深层的原因。</strong></p>
+<p>在产品溢价上，<strong>往往是日抛产品较低，周期更长的产品较多。</strong></p>
+<p>同样是给主播支付佣金、给消费者让利，半年抛、年抛产品拥有比日抛产品更大的空间。</p>
+<p>根据一些公开的数据，<strong>日抛类型的产品佣金往往在15~20%的点位，半年抛往往可以给到接近30%。</strong></p>
+<p>之所以是半年抛而不是年抛，又是因为相比于年抛，半年抛产品的动销率要高出不少，成交才是价格调整幅度的关键，<strong>半年抛恰好卡在了这个微妙的平衡点上。</strong></p>
+<p>半年抛性价比高容易卖出去，给得佣金又多，主播们当然愿意给更多的曝光。</p>
+<p><strong>这股白牌带起来的半年抛潮流，是消费者、主播和电商平台以及品牌们共同造就的。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_47d1b2ccac82488c907baaa77f070d07@000000_oswg70254oswg1078oswg804_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">抖音美瞳品类TOP10榜单</p>
+<h2><strong>增量用户尝鲜，存量用户省钱</strong></h2>
+<p>美瞳品类在抖音保持了较高增速，增量用户的作用不可小觑。</p>
+<p>但如果对半年抛卖点的涨幅进行考察，会发现157%的卖点涨幅高于赛道整体128%的增幅。</p>
+<p>完全可以认为，<strong>“半年抛”受热捧，是增量和存量用户都有的诉求。</strong></p>
+<p>对增量用户来说，很多人并没有太多佩戴美瞳的经历和经验，<strong>下单往往来自于主播的种草。</strong></p>
+<p>既然半年抛产品的推广多，价格也便宜，当然优先考虑这类产品。</p>
+<p>而对存量用户来讲，<strong>综合的使用成本低是选择半年抛的核心原因。</strong></p>
+<p>这笔账很好算。从售价来看，日抛产品大约1副在3元左右，半年抛则往往在30上下。看起来贵不少，但从综合使用成本来说，后者要低得多。</p>
+<p>假如在半年周期里，一共需要用到100次，日抛产品就要化费300元，但半年抛产品只用30，即使考虑清洁液等配件，使用成本依旧不会超过这个数量级。</p>
+<p>按这个算法，<strong>日抛要比半年抛贵10倍。</strong></p>
+<p>尽管日抛产品在使用体验上要好不少，但多花将近10倍的钱也足够肉痛，起码对消费者来说，改善的体验完全没法覆盖这部分成本。</p>
+<p>从卖得最好的几款商品可以看出来，2023年，排在前几名的都还是日抛类型的产品，而今年以来半年抛的产品已经后来居上。</p>
+<p><strong>只能说再强的爱美需求，也顶不住钱包的催促。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_36f0f704518b4f7d9e9906aa5fe1f7a8@000000_oswg64353oswg1078oswg811_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">抖音美瞳品类TOP10商品榜单</p>
+<h2><strong>口红效应，眼珠子上也有</strong></h2>
+<p>经济学上一直有个说法，经济越不好，消费者花在“口红”这种既不算太贵，又能有充足满足感东西上的钱越多。</p>
+<p>回归到美瞳品类，半年抛产品之所以能火，在缺乏品牌心智的情况下，降价有效地减少了消费者决策的难度和时间。<strong>大概只要买得够快，后悔就追不上来。</strong></p>
+<p>打开小红书看看，美妆博主人手一个素颜教程，但起手就是一副美瞳先戴上。美瞳要选“妈生瞳”，要美丽，又不能刻意。</p>
+<p>网友们积极分享，深扒明星同款，#美瞳推荐 相关的笔记已超过100万篇，美瞳关联的商品更是超过800万件。</p>
+<p><strong>这届消费者在讨好自己，和维持钱包的可持续透支上绞尽了脑汁。</strong></p>
+<p>抠抠搜搜地使劲儿花钱，大约就是他们的真实写照，拒绝消费主义，但又不完全拒绝。</p>
+<p>不过换个角度想想，<strong>也许生活越是饱以老拳，越要打扮自己争奇斗艳。</strong></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NDg0NDEyNA==&amp;mid=2247508586&amp;idx=1&amp;sn=86bb9ccd6e08ab74a331b2de21d5c792&amp;chksm=cfecc74e9beaeac67606bbda630ea2566f2f47e5212d06dfe976afa1712f19c93c517689cc74&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“沥金”（ID：Finding_Gold）</a>，作者：沥金，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992039775513606</guid><pubDate>Mon, 14 Oct 2024 18:27:00 +0800</pubDate></item></channel></rss>
