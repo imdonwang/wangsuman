@@ -1,666 +1,499 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 09:00:27 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 09:00:27 +0800</pubDate><item><title>从家门口到全世界，企业学会翻“筋斗云”</title><link>https://36kr.com/p/2990421124262664</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>中国经济正处于新一轮的变革之中，AI浪潮席卷之下，企业最热门的发展赛道主要有两个：出海、大模型。</p>
-<p>一位资本市场人士告诉DoNews，几乎已经找不到不接触AI、不谈出海的公司了：“AI可以帮助提效，出海则能完成更多转化。如果你说自己在出海，就可能更容易被投资人注意到。”</p>
-<p>不管是卷出来的、逼出来的，又或是闯出来的，AI+出海已经成为企业拓展业务的必然选择。如果还在这个方向上犹豫，无异于放弃了一个难得的确定性增长机会。据证券时报·数据宝统计，截至今年8月29日，A股市场近3900家公司发布2024年半年报，其中超2000家公司披露境外收入，出海规模整体再创同期历史新高。</p>
-<p>而云计算，就成为企业AI+出海的重要载体。云计算作为AI的技术底座不用赘述，企业出海选择上“云”，一来能以规模、技术、经验优势充分赋能出海业务，二来还能提供安全合规、本地化服务，充分赋能降本增效。</p>
-<p>问题是，要选择“哪朵云”？中国本土云基于不同的行业云服务经验与客户关系，从不同的垂类中重点投入，形成出海阵地：阿里云擅长电商、零售、物流、金融；腾讯云擅长直播、音视频、游戏；华为云更熟悉政务、大型政企以及混合云。</p>
-<p>但纵观全球，亚马逊AWS、微软Azure、谷歌云等仍是云计算市场的头部，中国云虽在近一两年得到了爆发式的增长，在海外并不占优势。IT研究与咨询机构Gartner在《云AI开发者服务魔力象限》报告中曾提到，他们把业务覆盖范围作为衡量云服务的一项重要指标，不少“中国云”由于在海外业务覆盖不完整而丢分。</p>
-<p>中国企业规模不同、出海需求不同，但思路却趋于一致。如果能够和原有熟悉的供应商一起踩准步调，会节省很多重新协调和重新学习的成本；如果国内云厂商的覆盖跨度还没那么大，企业又想在当地先人一步开展业务，就必须学会如何与微软、亚马逊这样的海外云服务厂商打交道。</p>
-<h2><strong>01.“向内求”，扎稳根基</strong></h2>
-<p>在选择云服务商时，企业会明确自身的需求和目标，根据业务规模、数据类型、存储需求、数据处理和分析能力等，确定所需要的云服务的类型及规模。</p>
-<p>以游戏领域为例，《黑神话：悟空》作为国内首款3A游戏，不仅让中国人吃到了情怀加成，还海外刮起了一阵“悟空风”。</p>
-<p>要知道，想打造一款高质量、高体量、高成本的3A游戏，其全产业链通常涉及人工智能、云计算、数据存储、游戏引擎、虚拟现实和软件等多环节。</p>
-<p>在9月中旬举办的2024腾讯全球数字生态大会上，腾讯云互联网行业技术总经理陈亮对媒体表示，游戏的发行以及对资源的、带宽的需求，都有很大的不确定性。相比之下，云厂商因为布局了较大的基础设施，在服务器、网络以及分发下载等各方面都做好了准备，可以弹性地按照业务实际使用情况使用。</p>
-<p>《黑神话：悟空》正是选用腾讯敏捷研发写作平台TAPD，针对游戏制作在不同阶段、不同环节，灵活适配游戏开发特性、程序需求、美术需求等多层级需求管理和内外部权限写作，以高效的产能和资源利用率来达成项目。在TAPD的助力下，《黑神话：悟空》以惊人的高效产能和资源利用率达成项目，被行业誉为“项目管理的奇迹”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d962a71eee01419d9f597b40580c6d54@000000_oswg59195oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：《黑神话：悟空》</p>
-<p>不难发现，近些年游戏上云后，炸服、延迟服务、掉线、崩溃的情况越来越少。云计算在背后作为一种基础资源，突破了数据限制，帮助游戏公司实现了生产力的进阶。</p>
-<p>米哈游正是依托阿里云的核心产品能力，其游戏在全球数十万QPS、百万PCU的流量洪峰冲击下，仍能保持玩家不掉线、不卡顿。阿里云更是全面支持了米哈游最新游戏《绝区零》的全球开服，该游戏全球下载量已突破5000万。</p>
-<p>虽然目前中国云厂商在海外市场份额不占优势，但长期的经营也让中国云厂商在部分领域积累了影响力，伴随客户的业务快速拓展出海可用服务。</p>
-<p>Belive，新加坡直播SaaS公司，为新加坡政府、Grab等客户提供直播技术。Belive使用了亚马逊AWS的IaaS和腾讯云的音视频PaaS，该公司CEO Kenneth Tan是新加坡人，他2020年开始与腾讯云接触，他表示Belive音视频平台2020年迁移到了腾讯云，直接原因是“腾讯云支持在八个平台同时直播，但国际厂商做不到”。</p>
-<p>KUPU是印尼本地互联网招聘平台，同时采用了三家中国公司的云服务——IaaS层资源是阿里云、PaaS层音视频平台是腾讯云，SaaS层的CRM是纷享销客。谈及为什么要做这样的决策时，KUPU公司CEO周海波解释称，阿里云IaaS资源比亚马逊AWS便宜，腾讯云音视频PaaS能力最出众。周海波对比销售易、纷享销客、Salesforce三款CRM，发现两家中国软件价格只有Salesforce的50%-60%，但产品功能并不弱。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f43a7eeca8d24c5c8b3e40fdc691b34c@000000_oswg149621oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：DoNews摄</p>
-<p>截至目前，腾讯云在海外有16个数据中心和数据节点，覆盖全球五大洲，不久前才刚刚在泰国曼谷、德国法兰克福和日本东京投产数据中心；华为云则于去年9月刚刚在沙特首都利雅得建立了全球第30个海外数据中心；百度CTO王海峰此前也对外透露，百度已在全球十余个地区建立了大规模数据中心；阿里云在全球30个地域运营89个可用区；新一轮投入之后，将增加至全球31个地域和95个可用区。</p>
-<p>看起来需要“虎口夺食”，但中国云厂商投入意愿却并不低。</p>
-<h2><strong>02.“向外扩”，面向全球</strong></h2>
-<p>和20年前的出海不同，“一个背包走天下，走到哪里算哪里”的出海姿势已经不合时宜。企业不能满足于赚快钱，而是要做好长期战略投入的准备——政商、法务、市场、营销都要融入当地生态。</p>
-<p>当中国企业出海时，通常并不了解海外市场的情况，比如数据主权、合规问题等。以数据主权为例，一般需要保证数据留在市场所在国，这就要求云服务商能提供全面的数据加密、访问控制、安全审计等措施，确保企业数据的安全，并且遵循国际安全标准和相关法律法规。</p>
-<p>海外云亦熟悉中国企业出海需求，结合已有的海外业务经验中为中国企业提供多样的云产品和出海本土化支持。</p>
-<p>库迪咖啡在布局海外业务时，发现国内云平台上的架构暂时无法满足业务全球化的要求，因此便采用亚马逊云科技为海外门店提供支持，并选择广知网络为易点天下全资子公司提供技术服务，将既有业务数据库从国内云平台迁移至亚马逊云科技上，同时在亚马逊云科技上部署全球化的业务应用。</p>
-<p>在亚马逊云科技和广知网络的协助下，库迪咖啡的IT团队仅用3个月时间就完成了海外业务平台的部署上线，确保在2023年7月26日完成“海外第一杯咖啡”的项目目标。截至目前，库迪咖啡已在全球28个国家、300余个城市设立7000余家门店。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4b12b6d9b238469eaa2e590629c2b0a6@000000_oswg80113oswg1080oswg584_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：库迪</p>
-<p>海外云在全球数据中心领域有更加成熟的建设，能更好地满足企业进入海外当地市场时的数据本地存储需要。以手机行业为例，大多企业会选择两种不同的与第三方合作的方式——海外方面，主要是和谷歌、OpenAI合作；国内主要是中国的服务提供商，如百度和字节。</p>
-<p>荣耀方面就曾表示，其海外未来的旗舰机会搭载谷歌云相关服务，助力开展“欧洲第二本土市场”计划。选择谷歌云的好处，一方面，手机系统都是以安卓和谷歌服务为基础，所以在增加AI大模型的时候从底层的适配会更顺利，另一方面，谷歌云拥有充沛的安全措施，能满足不同国家的合规要求，帮助企业在不同的地域安全合规地开展业务。</p>
-<p>在跨境电商迅猛发展的时期，紫鸟浏览器顺势而生，正式上线时就服务了超过4万店铺，2019年增长至超过20万，到2023年超过300万，成为跨境电商SaaS的头部企业。</p>
-<p>紫鸟浏览器正是基于谷歌云高效高速的虚拟机（VM）、多区域网络地址和独立的网络架构（VPC），实现优化浏览器基础结构、节省相关成本并加密数据保护，满足了跨境电商卖家对安全性及管理性的需求，帮助跨境卖家更安全、更高效地开展工作。</p>
-<p>在谷歌云的技术实力与海外资源的支持下，紫鸟浏览器在安全、智能、速度和成本控制等方面快速建立起稳固的行业优势。</p>
-<p>作为全球部署的云计算平台，微软旗下的Azure在一款游戏产品从创意到上线的整个生命周期中，都能够以不同的角色完成对开发者和游戏企业的相应帮助。</p>
-<p>云蟾游戏在迎接海外玩家涌入的背景下，需要一套基于全球的、更稳定且性能更好的云上架构方案。他们主要面临两方面的挑战，一是基础架构基本都在国内，短时间内搭建一套海外架构的难度是比较高的；二是运维人员有限，如果扩充人员规模，又要考虑时间、资金等等方面的成本。</p>
-<p>Azure在其出海初期就投入了上述提到的各类资源，对云蟾游戏进行支持。一方面，云蟾游戏使用了Azure多个海外数据中心来构建游戏服务器和平台服务器；另一方面，Azure App Service帮助到云蟾游戏搭建和和运维容器平台，将容器镜像打包上传后，实现了游戏快速部署、负载均衡，自动伸缩和蓝绿部署等等。</p>
-<h2><strong>尾声</strong></h2>
-<p>无论是“向内求”还是“向外扩”，企业上“云”的终归是寻找增量市场的重要一步。不过，不存在用“云”一劳永逸的解决方案，企业仍然要面对采购云资源、链接海外云、日常运维等问题。只有真正上好“云”、用好“云”、管好“云”，中国企业才有机会在海外市场“淘金”。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwMDUwNzEwNA==&amp;mid=2247616288&amp;idx=1&amp;sn=0f50675766bfb45e670e2bc1b07d51c3&amp;chksm=c1ae3637a3142c6fd080a235529639a48cca719c9cc7e8684e6f1965f7c97a564177c92fe430&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“DoNews”（ID：ilovedonews）</a>，作者：雁秋，编辑：李信马，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990421124262664</guid><pubDate>Mon, 14 Oct 2024 08:10:00 +0800</pubDate></item><item><title>买豪宅开豪车，顶流女团全员富婆，背后公司却快要破产了？</title><link>https://36kr.com/p/2990425811758087</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 14 Oct 2024 09:30:26 +0800</lastBuildDate><pubDate>Mon, 14 Oct 2024 09:30:26 +0800</pubDate><item><title>微软心意已决，Recall将在大量争议声中正式上线</title><link>https://36kr.com/p/2990767776181000</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>如何让更多的人使用AI，这无疑是2024年整个AI行业最核心的议题之一。现阶段AI的低水平渗透率与其在网络舆论中的热火朝天，已然形成了鲜明的对比，似乎每个人都在讨论着AI对于社会的变革，但却没有太多人真正将AI融入到日常生活中。为了让更多人用上AI，无数厂商推出了各式各样的AI产品，其中既有类似ChatGPT这样备受好评的，同样也有微软Windows 11中Recall这种备受争议的产品。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_a07f4bc5d187429aa5e586073e311e3c@000000_oswg25372oswg600oswg492_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在经过了数月的调整，微软方面还是觉得要顶着压力推出Recall功能，并回顾了过去关于该功能的一些争议。微软方面日前发布了一篇官方博客文章，其中再次强调Recall的设计考虑了用户隐私，所有敏感数据都遵循了零信任原则，还通过加密、隔离和用户意识的主动操作来保护数据安全，并通过VBS Enclave提供了安全的隔离环境。</p>
+<p>此前在今年Build开发者前瞻大会上，微软推出了Recall功能，旨在通过持续截取用户电脑屏幕截图、并使用AI整理为时间线，以便用户日后搜索和参考。据悉，Recall会以数秒一次的频率进行屏幕截图，记录用户在Windows中的所有操作、并快照保存，其中包括用户在应用程序中做过的事情、跟踪实时会话中的交流、记住访问过的网站等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_35230a7256db4ddd9f4319fbbef9a88e@000000_oswg24122oswg600oswg289_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不难发现，Recall很像是当年微软在Windows 10上短暂推出的Timeline精神续作。只不过Recall刚刚被公布时，因为捕捉所有屏幕内容的设计，就曾导致其迎来了铺天盖地的质疑，甚至有观点认为“这简直就是《黑镜》里的情节，一定要关闭这个功能”。毕竟Recall的卖点就是记录用户在Windows 11中做过的任何事情，因此这也意味着包括银行账户密码在内的机密操作也会被截屏。</p>
+<p>即便微软强调Recall的截屏会被保存在设备中，同时数据也仅在本地进行处理、而不会上传到云端，哪怕用户是使用Copilot AI进行分析时也是如此。然而有安全专家发现Recall的隐私保护存在巨大缺陷，只需要有登录凭据，被加密的数据就向外界敞开了大门，也就是说只需开发一个小工具就可以解密相关截图。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_34d08c450bd54663898a7e6033e52d0a@000000_oswg34477oswg402oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>面对外界的争议，微软方面不得不在8月选择延迟Recall的发布。面对一个如此有争议的功能，为什么微软不直接取消呢？这是因为作为Copilot+PC的一部分，微软希望Recall能记住用户在Windows中所做的一切，从而帮助用户可以随时继续上次被中断的工作，进而让用户感受到Copilot AI的实用性。</p>
+<p>得益于与Windows与Office的紧密结合，Copilot AI确实是目前PC端最强的AI工具，但它也没有逃离当下所有AI产品共同的窠臼，即大量用户短暂尝鲜后就会放弃使用。在AGI真正落地前，如今所有的AI产品其实都面临同样一个问题，即会用的一直在用、不会用的根本不想用。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_2752656bf31e4ae1a4e149801ca9fa5b@000000_oswg21662oswg600oswg336_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>对于前沿技术感兴趣的群体，包括学生、程序员、研究人员，已经充分认识到由大模型支持的AI工具的优势和局限性，发现了其在提高工作效率、解决问题和创造价值方面的能力，因此也使得程序员用‌GitHub Copilot写代码、学生用ChatGPT写作业的现象蔚然成风。然而另一部分对AI的不了解或缺乏必要技术背景的用户，则还很难认识到AI工具的作用。</p>
+<p>所以如今从微软到OpenAI、从腾讯到快手，都在尝试用AI赋能各种已有的技术或产品，从而尽可能拓展AI的应用范围，微软的Recall其实也一样。Recall就可以作为电脑上“活的历史书”，让用户对于过去的一切行为了如指掌，从而帮助快速回溯操作记录、找到遗忘的信息。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_23196368ae804dcea6645c82e2291a36@000000_oswg30324oswg600oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而遗憾的是，即便微软做出了再多的努力，Recall大概率也会步Timeline的后尘，成为“砍刀部”的刀下亡魂。因为Recall的成功落地需要用户与平台之间保持高度的互信，而微软的所作所为使得他们可能无法享受这份奢侈。毕竟Recall就意味着微软的Copilot AI将成为一个用户电脑上常驻的监视器，并监视者用户的一举一动。</p>
+<p>且不提大多数人并不希望被监控、即使它是AI，虽然微软宣称Recall是在本地运行，但这也等于为其它软件提供了可以读取用户隐私的机会。毫无疑问，在流氓软件横行的Windows生态推行这种功能是非常冒险的一件事，毕竟Windows糟糕的数据安全管理体系很难让用户相信微软能保护好他们的数据。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_bf3d456989c446989057bf978885a414@000000_oswg35161oswg600oswg288_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>更何况微软在过去几年间，做了太多让Windows用户不爽的操作，其中包括、但不限于干扰性的Edge广告到全屏弹出窗口，强制默认设置应用程序，强制使用Microsoft账户等等。事实上，许多人已经给出结论，即便当下微软会信守承诺，但也不等于未来就不会推翻。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_8e89ca0bdc7c4a9489874f48e6a53a43@000000_oswg26804oswg600oswg390_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从某种意义上来说，Recall更像是生错了地方，它如果是苹果推出的一项功能，恐怕就不会面临如此大的争议。毕竟macOS生态更加封闭，且苹果过去对于用户隐私安全的重视也有目共睹，而微软过去几年的一系列操作，已经将自己在用户层面的印象分挥霍殆尽了。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649872788&amp;idx=1&amp;sn=42437022dc9e9cd11f2079e32460e6cd&amp;chksm=865372adf15cf58755eceee3d8e423306831e09f08b2338090cecb0682c16738ca3d818e9161&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990767776181000</guid><pubDate>Mon, 14 Oct 2024 09:20:00 +0800</pubDate></item><item><title>加入带货功能，微信终究还是没有放弃公众号</title><link>https://36kr.com/p/2990769090964229</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“万物可直播、人人齐带货”，这是当下不少网民对于直播带货的戏谑。不可否认，带货确实也是当下网红、大V将影响力变现最有效的途径。继此前视频号实施“蝴蝶计划”，对达人分级，鼓励商家、达人和品牌入驻、并开启带货直播后，作为微信内容生态基石的公众号，近日也开放带货能力了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4e6492c257b8451ca9101c7ae00edac2@000000_oswg39343oswg600oswg291_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>日前订阅号助手发文称，“为更好地帮助公众号创作者进行带货和变现，为用户提供更好的消费体验，公众号（含订阅号和服务号）将支持从优选联盟中选择商品进行推广。开通优选联盟带货功能后，即可推广由小店商家提供的优选联盟商品”。</p>
+<p>在看着隔壁视频号创作者靠带货“吃香喝辣”后，公众号的作者也终于可以在广告和打赏之外，找到新的变现方式了。</p>
+<p>据悉，粉丝量大于100的公众号作者既可以直接关联微信小店店铺、推广相应店铺的商品，也能无需绑定小店店铺，通过优选联盟直接与商家建立合作、推广相关商品。为了推动公众号作者带货的积极性，微信方面为其赋予了超高的灵活性。毕竟在这个短视频席卷全网，传统图文内容式微的年景，公众号作者的日子早已不复往昔。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_df9a667cfd7a4e8b9fdfe835dcefda40@000000_oswg18527oswg600oswg367_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>一个无可否认的事实，是曾经首屈一指的微信公众号已不复往日的辉煌。根据易赞大数据公布的信息显示，微信公众号整体的打开率已从2018年的 2.3%下降至2020年的1.1%，如今更是跌到1%以下。因为从2018年开始，抖音、快手迎来爆发式增长，分流了微信公众号的流量。</p>
+<p>为此，微信方面也一直在尝试各种方式，来提升公众号内容对于用户的吸引力。比如通过更多维度的社交推荐、帮助用户找到好的内容，从最初的点赞、在看，升级为独立的“看一看”栏目，再到引入推荐算法向用户展示可能感兴趣的内容。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_31875bc61ac94abb89ea30625c2dddea@000000_oswg15767oswg600oswg236_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而遗憾的是，微信方面的努力并没能扭转公众号的颓势。从某种意义上来说，公众号的衰退其实也不可避免。作为一个社交平台、而非内容平台，它最初的卖点是移动互联网时代的即时通讯软件，这个定位就直接导致了聊微信和看微信公众号是互斥的。早期微信的一个经典设计，就是当用户使用其他App时消息就会一直推送，但如果是在微信里打开其他功能，就不会收到推送了。</p>
+<p>体验社交和浏览内容相互排斥，就导致大量用户养成了聊天在微信、看内容去其他平台的习惯，这也是为什么即便在微信公众号最鼎盛的年代，今日头条、趣头条等平台依然可以野蛮生长。当流量丰沛时，公众号的缺陷也被掩盖，但当视频取代图文成为新的内容消费载体，一切就都变了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_6728e7c59fc743c8bf49a20058d51e1b@000000_oswg16598oswg600oswg320_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从图文到视频其实也是一种必然，毕竟文字是最为抽象的信息载体，对于读者的素养要求也最高，进而导致创作者的文字功底和讲故事能力需要提升到更高的水准。相比于图文，视频则天然更讨好眼球，此外文字与真实的物理世界并非一一对应，而是建立在符号系统的基础上。</p>
+<p>如果缺乏抽象思维，从文字联系到真实世界是很困难的一件事，而视频则是所见即所得。可视化的视频也更契合“五环外人群”的需求，就导致需要思考、理解的长文不那么适合这个时代。在当下的碎片化休闲娱乐时代，文字量低就只能表达情绪、而无法输出内容，可如果文字量一旦大起来，就又与当下消费者的碎片化阅读倾向矛盾。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_e9c30a57697c4479b2ca1ebd35ea529f@000000_oswg12102oswg299oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>如若不然，“深入浅出”这四个字又如何会成为文字工作者最头疼的问题。反观视频，作为一种内容形式，它涵盖了文字、画面，以及声音的特性，更高的信息密度使得视频相比传统的图文形式，有着更易于被用户接受的优势。并且短视频平台还为视频添加了算法作为“佐料”，使得视频的魅力扶摇直上。</p>
+<p>抖音和快手的短视频可以精准预测用户的兴趣，再推荐用户可能感兴趣的内容为其带来即时满足，并且无休止地向用户供应满足的特质，就使得越来越多的用户沉迷于短视频。在这样的内外夹击下，公众号的流量则一路走低，而失去了流量，变现能力自然就今非昔比。从2022年3月开始，也就是微信公众号推送规则从订阅转向算法推荐，更是给公众号的广告变现致命一击。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f35ad4116af94519894c8ae5d14a5ee4@000000_oswg12925oswg600oswg448_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>如此一来，在广告的变现能力下滑之际，开辟带货这个当下最时髦的变现渠道，就成为了微信方面吊在公众号作者眼前的“胡萝卜”。话虽如此，但开放带货功能对于想要赚钱的公众号作者是巨大的利好，毕竟这个让无数平台趋之若鹜的东西确实有效。</p>
+<p>抖音、淘宝上的直播带货，核心卖点是“全网最低价”，它的底层逻辑就是品牌方以卖货为名进行市场营销，而微信公众号则更像是快手，都是以私域流量著称。快手上的卖货逻辑用该平台头部主播辛巴的一段经历就可以完整地诠释，当初辛巴被曝售卖假燕窝，结果粉丝们依旧不离不弃的喊出了“支持班长！支持辛选！一直在”。</p>
+<p>快手的“老铁”购买辛巴带货的产品，看中的不是价格、而是辛巴这个人，体现的是一种关系的长期粘性和信任度。同理，微信公众号即便做不到类似快手的“老铁经济”，但公众号与粉丝之间的粘性也要胜于其他平台。所以微信公众号带货不仅不是伪命题，反而可能大有可为。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_1be58aaab4b249eaa18f25832fdccb43@000000_oswg33081oswg600oswg338_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>只不过对于某些2018年2月之后才开设的公众号，想要带货也是有难度的。因为从2018年2月起，新注册的微信公众号被取消了留言功能，没有留言功能就让粉丝与作者之间缺少直接互动的机会，这类公众号显然就很难有太高的粉丝粘性了。</p>
+<p>所以对于更早前的公众号作者来说，带货功能无疑会让他们久旱逢甘霖，而新生代公众号作者需要趁着微信公众号放开留言功能的契机，先培养粉丝基础，而后才有带货的可能。但不管怎么说，在公众号承担了这个生态“血库”功能多时之后，微信好歹是为坚守在公众号的作者带来了一些希望。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649872788&amp;idx=2&amp;sn=8a86b97c35dcc16133174ac3516597d8&amp;chksm=86692eba6f467e4387c348406ff19ee1b7c4b9bbfb0171c31a74acce2dd96693eed77d5402f8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990769090964229</guid><pubDate>Mon, 14 Oct 2024 09:20:00 +0800</pubDate></item><item><title>积分vs现金，哪个更“香”？</title><link>https://36kr.com/p/2991612663294725</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2005年，《经济学人》将积分（尤其是飞行常客里程）作为一种可与传统货币相媲美的全球货币。自那以来，积分的使用规模和范围迅速扩大。美国西南航空公司的数据显示，乘客用积分兑换的航班的数量翻了一倍，从2013年的540万次（占客运里程收入的9.5%）增至2023年的1090万次（占客运里程收入的16.3%）。</p>
+<p>在航空旅行和酒店住宿等行业中，积分通常被用来代替现金。积分的使用规模的急剧扩大向我们提出了一些重要问题：消费者对待积分的方式与对待传统现金的方式相同吗？他们又是如何选择使用积分的？</p>
+<p>事实证明，消费者对积分和现金的态度截然不同。在最近的一项研究中，我们分析了500名参与航空公司常旅客计划的消费者和他们最近两年中进行的2.9万多次积分赚取（累积）和消费（兑换）的交易数据。我们发现，积分用户可分为四个不同的类别：</p>
+<p><strong>现金拥护者（Money advocates）：</strong>他们更愿意持有现金而不是积分，即使两者的购买力价值相同。面对“花费100美元的积分”或“花费100美元现金”的选择，他们宁愿花费积分，因为他们觉得，这样做的心理负担较小。这种偏好导致“现金拥护者”们紧紧抓住现金不放，将现金置于其价值体系的首位。</p>
+<p><strong>货币公正主义者（Currency impartialists）：</strong>他们对待积分和现金的态度相同，即根据其经济价值给予同等的评价。对这些人来说，积分与现金无异，在他们眼中，积分实际上是另一种货币。</p>
+<p><strong>积分玩家（Point gamers）：</strong>他们积极地寻找能最实惠地消费积分的方式，尤其是当积分的价值大大超过现金时，他们才会选择消费积分。当他们发现，自己的积分交易“占到了便宜”时，他们既能体验到积分兑换的好处，又能感受到快乐。对这些“玩家”们来说，积分是一项充满乐趣的挑战。</p>
+<p><strong>积分爱好者（Point lovers）：</strong>他们更看重积分，即使积分的购买力相同或更低。</p>
+<p>在Flyer Talk等社交媒体平台上的讨论中，我们可以看到这些细分用户。在平台上，人们就积分的价值和到底该用积分还是用钱支付展开了辩论。一些人主张，只有在积分能兑换到特别优惠的产品时才会消费积分，而另一些人则倾向于，在任何机会下都会优先使用积分支付。这些讨论反映了，人们对积分的经济价值仍然持广泛的怀疑态度。</p>
+<p>这种明显的态度区别在各种积分计划中都普遍存在，并可能为企业带来宝贵的市场机遇。例如，航空公司有时会提供可以用积分购买的优惠机票。以西南航空为例，该公司在2023年9月为所有消费者提供了统一的积分折扣，以刺激需求。通常，这类促销活动中的折扣力度是固定的，并且对所有消费者都相同。然而，如果促销活动能够利用消费者对积分的不同价值观，那么就有可能产生更大的收益。</p>
+<p>比如，西南航空的促销活动完全可以向“积分玩家”和“积分爱好者”提供较小的积分折扣，而为其他对积分不太敏感的消费者提供较大的积分折扣。通过这种方式确定积分折扣的目标，进行差异化促销，他们就可以以更小的总成本实现相同的收入目标。</p>
+<h2><strong>重塑积分计划</strong></h2>
+<p>细致入微地了解消费者对积分的态度，才能为有不同价值观和行为的群体提供个性化的消费体验：</p>
+<p><strong>对现金拥护者来说，</strong>商家必须清楚地向他们解释，如何将积分兑换成现金，并提供实实在在的经济利益（比如返现），以强调参与积分计划可以获得的实际回报。</p>
+<p>然而，货币公正主义者则喜欢简单透明的规则，重视能像用现金一样“丝滑地”用积分进行交易。这种交易符合他们认为的“积分和货币具有同等价值”的观念。例如，我们可以建立一个支付界面，允许用户自由选择用现金还是用积分支付。</p>
+<p>积分玩家被追求价值所带来的刺激感吸引。因此，定期推出动态交易，将积分的赚取和消费游戏化，可以满足他们挑战“最优消费战略”的渴望，同时最大限度地提高积分价值。</p>
+<p><strong>对积分爱好者，</strong>商家可以向他们提供消费积分来获得情感满足的机会，比如，专属的体验项目或为慈善事业捐款等。这些能体现他们与积分，而不是现金有更深层次的情感联系。</p>
+<p>不同消费态度的出现凸显了价值个性化和积分货币民主化的大趋势。我们细分的几个用户群体不仅揭示了消费者价值感知的复杂性，还表明了消费行为正朝着更加量身定制、个性化的方向发展。</p>
+<p>随着企业越来越善于驾驭消费积分计划，他们将发现新的与客户互动、个性化产品的方式，并最终将积分从单纯的交易工具转变为提高消费者忠诚度、参与度和增长度的战略资产。在这一动态环境中，企业的重点应从研究消费者是否认为积分等同于现金，转移到如何利用消费者不断变化的态度，与他们建立更深入、更有意义、更具营利性的客户关系。</p>
+<p><strong>全昭妍（So Yeon Chun）弗雷迪·林（Freddy Lim）维勒·萨托帕（Ville Satopää）| 文</strong></p>
+<p>全昭妍是欧洲工商管理学院（INSEAD）技术与运营管理副教授。弗雷迪·林是新加坡国立大学计算机学院信息系统与分析助理教授。维勒·萨托帕是欧洲工商管理学院（INSEAD）技术与运营管理副教授。</p>
+<p>DeepL、ChatGPT | 译  张雨箫 | 编校</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY4MzQyMQ==&amp;mid=2650143929&amp;idx=2&amp;sn=840f93e88aa8cbacbca1c132ce68b669&amp;chksm=bf1db8f588907b3581a1f8823deb567ec0c23f50ff774091f4abc51830fae3cee42d9a33c3e9&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“哈佛商业评论”（ID：hbrchinese）</a>，作者：HBR-China，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2991612663294725</guid><pubDate>Mon, 14 Oct 2024 09:21:00 +0800</pubDate></item><item><title>85岁哈佛教授的旷世之恋：60岁结婚，越吵闹越快乐</title><link>https://36kr.com/p/2991587834522633</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>李欧梵85岁了，他是前哈佛大学、香港中文大学教授，师从史华慈和费正清等大师，一生穿梭国际知名学府。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_d99da283593c47149cc1f15e706294a3@000000_oswg105712oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">李欧梵和太太李子玉在家中</p>
+<p>60岁，李欧梵与太太子玉结婚， 这桩婚姻成他一辈子最重要的决定， 他极尊重妻子的主体性， 自称是“一流的丈夫，二流的学者”， 曾立下志愿：每天让太太“大笑三次”。</p>
+<p>李欧梵夫妇没有子女， 晚年却并不孤独， 许多朋友、学生经常登门拜访。 在和李欧梵结婚之前， 子玉有一段漫长的抑郁症病史，‍‍ 曾半年内自杀四次，‍ 后来，她用绘画治愈了自己的抑郁症。 最近，子玉重拾画笔，举办了自己的首次个展。 9月底，一条到香港拜访了李欧梵夫妇。</p>
+<h2>“我是太太的跟尾狗”</h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_61a64ffd964741218605cd38877fe985@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">李欧梵和太太李子玉在家附近散步</p>
+<p>将军澳下小雨，从李欧梵的居所望出去，楼底水汽氤氲，视线要穿过两栋70多层的住宅楼，才看到远处灰灰的海。</p>
+<p>李欧梵和太太子玉今年才搬过来，这片住宅区像一座巨型迷宫，又坐落新区，即使的士司机也未必识路。迁新居后，两位老人郑重地写了指南，无论乘地铁还是坐的士都有温馨提示，比如地铁该走哪个出口，途经哪家面包小店，抵达相应楼层，会看到“我家门口‘身体健康’字样”。</p>
+<p>我们来拜访，欧梵教授和子玉先问候：“路很难找吧？很多朋友第一次来都找不到路。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_107878ba55f944c3a29c07d6354a2d2d@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">李欧梵的学生来看望</p>
+<p>来见他们的人络绎不绝。做完一个多钟头的访谈，欧梵教授30年的老友，建筑师刘宇扬发来消息，九龙大雨，他被困在尖沙咀，预计中午到访，会带他们爱吃的三明治来。</p>
+<p>午后，欧梵教授的学生和朋友先后来看望，学生在香港中文大学做教授，也经常顺路帮他们购买食物，像就住在附近的女儿，这趟捎来55小包早餐芝麻麦片、3盒咖啡，一样一样和子玉嘱咐好，又从布袋掏出一盒英国手信，是欧梵教授最爱吃的薄荷巧克力，她拆开包装递过去，欧梵接过，本能地望向太太子玉，小心翼翼地说，“老婆，你看着哦，只拿一片，不拿两片。”引一众大笑。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_6b01840f65b34d2baf5fb405199a3640@000000_oswg151459oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">李欧梵和太太李子玉年轻时</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_785c29fe2ac841f8b678b7995ab9f955@000000_oswg93388oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">李欧梵夫妇早年参加学术会议‍‍‍‍‍‍‍‍</p>
+<p>李欧梵60岁时和子玉结婚，如今快25年，他们没有子女，但家里像今天这样笑语满堂的景象并不少。</p>
+<p>“我常常说我们没有孩子，但是学生和朋友就像亲人一样，经常来看我们。过年过节，好像有点点冷清，不过一下就过去了。”李欧梵说。</p>
+<p>2020年，李欧梵正式从香港中文大学退休，自称现在的职业是“一名普通的退休教授”。此前，他先后在美国、中国的大学教书近40年，主要教中国现代文学。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_f145599973344a08a70ae1e024379b58@000000_oswg37270oswg640oswg414_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">李欧梵是白先勇台大外文系的同班同学，曾帮助白先勇在《现代文学》杂志中担任翻译工作‍‍‍‍，图为《现代文学》编委会合影，后排左四为李欧梵</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_69d73bf6b2b44ce1bac0c561110838f6@000000_oswg899413oswg1080oswg743_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_3d804ce4a61946fba702c9b7c93395dd@000000_oswg60031oswg1080oswg777_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">李欧梵一生从事中国现代文学和文化研究，代表作品有《上海摩登》、《中国现代作家的浪漫一代》、《铁屋中的呐喊：鲁迅研究》‍ ，他交游广泛，诗人杨牧曾开玩笑说，“李欧梵没有敌人！”‍‍‍‍‍‍‍‍ 图为李欧梵与钱钟书、李安的合影</p>
+<p>李欧梵和太太在美国时相识，那时子玉已婚，他去子玉家“搭伙”吃饭。后来，李欧梵有过一段短暂的婚姻。若干年后，两人又几乎在同一时间各自离婚。</p>
+<p>一次在剑桥大学，李欧梵因为腰痛不得不吃大量止痛药，他向我们回忆：“脑子迷迷糊糊地浮现出两三个问题，我的学术能够贡献给美国学界的就这么多了，可是我回到香港，回到内地，用中文写作可以贡献大量的东西。第二个问题是，光杆司令做了这么久，意义在哪里？这一辈子让我感觉最温暖的女性，慢慢只剩下一个影子进来了，所以后来我到香港开会，我说我一定要娶这个女孩子，于是就请我老婆到凯悦酒店吃饭。”</p>
+<p>重逢的第二天，李欧梵要飞回美国，子玉去送机，坐在机场候机厅，他们聊俄国文学，谈各自的际遇，慢慢开始用传真机写情书、打昂贵的越洋电话。</p>
+<p>“我们是典型的从恋爱到结婚，有人说结婚是恋爱的坟墓，我们正相反，我们结婚了之后越过越快乐。”李欧梵说。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_469e94172ba54b288ed3d1123dbc03a6@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">子玉和我们分享欧梵教授闹过的笑话，“他的广东话实在是太差了，刚结婚的时候他有一天和我说‘你好贱’，后来才意识到，他是想说‘雷猴正’，夸我漂亮的意思。” ‍‍‍‍‍‍‍‍‍‍‍‍‍</p>
+<p>‍‍在香港，有朋友称李欧梵是“永远怕老婆委员会会长”，他笑说自己是“一流的丈夫，二流的学者”，从不掩饰自己对太太的爱情。</p>
+<p>因为家庭和第一段婚姻的影响，子玉患有抑郁症。李欧梵和子玉结婚后，他给自己制定计划，每天要让子玉大笑三次，他告诉太太，“你是天下第一！”</p>
+<p>“我保持幽默感，就是不停地讲笑话，讲十个笑话，她抓到七八个就够了，所以我养成这个习惯。后来想出种种恭维她的话啦，我说我做你的‘跟尾狗’，其实来源于俄国文学，我们教过的，一个贵妇和她的小狗。”</p>
+<p>李欧梵看重妻子的主权，“我从来不是男主外女主内，我非常注重妻子的主体性，我常常问你怎样想？你的意见是什么？她要出去吃饭，我就说好，你说到哪里我就跟着你。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_cbe6f50a144a4464910135fd821a3ac0@000000_oswg127812oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">《堕落天使》水墨设色、纸本（左）2024年‍‍，《梦中的婚礼之二》水墨设色、纸本（左）2024年</p>
+<p>漫长25年的婚姻里，第一次困境是新婚半年后，子玉抑郁症复发。“我忧郁病的时候非常痛苦，和欧梵结婚前，我曾经在半年之内自杀了4次。跟欧梵结婚以后，我就不敢再自杀了，我就开始用写书、画画，来舒缓我心里面的苦闷。”</p>
+<p>友人白先勇曾给李欧梵和子玉合著的书《过平常日子》写序，题为“人间重晚晴”。李欧梵在自传里写，自己一生是浪漫主义信徒，而他最珍视子玉身上的天真。</p>
+<p>不久前，他们遇到人生的另一次困境。“对我们心理打击非常大，实在不愿意张扬出来。”李欧梵说。</p>
+<p>但值得庆贺的是：子玉重新开始画画了。</p>
+<p><strong>以下是李欧梵的自述。</strong></p>
+<h2>艺术慰藉晚年</h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_6aaa872d21964bedaeeb8ac8baa132aa@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>‍‍绘画对子玉来讲是一件很神奇的事情，对我来说也是。</p>
+<p>她没有经过正式的训练，只听过两次课，一次是在中国台湾师范大学，上午上了一堂课就不上了。另一次在哈佛大学夜间讲习班，也是上了一堂课就走掉了。</p>
+<p>她的艺术创作和抑郁症，以及我们最近的生活到底是什么关系？这是我最近思考的最重要的主题。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_c036e8d14c4143a89add57758fd16bbf@000000_oswg88290oswg700oswg487_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">《落花流水》水墨设色、纸本 2024年</p>
+<p>‍‍我们结婚的时候，她没有想过画画，而是用文字来治愈她的抑郁症。我记得是2017年，她的抑郁症要复发的时候，她突然想要画画。</p>
+<p>她告诉我，“拿起笔的时候，好像把所有郁结的情绪放在笔端，心就慢慢平复了。开心的时候，颜色会浅一点。不开心的时候，颜色会深一点。现在更自由自在了，把自己释放出来。”</p>
+<p>她的画不重写实，不是画一个苹果或者一幅人像，而是用抽象的方式画自己心灵的风景，表现的是个人的情感。紫色、红色、蓝色…非常多彩多姿，比较接近中国的水墨画，可水墨画只是用黑白。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_fbcb8a76f90d4196ba193e82e3f67d20@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>‍‍最近搬到这里来，她又开始画画了，很多人来我们家，说这幅画好特别，很多朋友想要买她的画。</p>
+<p>她每天早上5点起来，已经在餐厅画了好多幅，到七八点我起床，迷迷糊糊还没醒，一看地上色彩缤纷，满地都是画。我说你等一等，让我先把早餐慢慢吃完，然后戴上眼镜坐在那儿看画，一看半个钟头。</p>
+<p>我常常和她聊她的画，她问我觉得画得如何，我就如实说。最近的一幅画，感觉像风云四起，大地回春的感觉，一点阴森的气氛也没有。风这么一吹起来，好像太阳就在后面，一切都是很愉悦的。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_cc00302652ad4828a5c49f2f2dd601bf@000000_oswg81983oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>我太太是画家，她创作是凭借体验和直觉，抽象画讲起来，可能还不过瘾。你看我是批评家、学者，但很多东西不是拿了博士学位就可以学到的，所以我越来越崇拜我太太画画，那么神笔一挥就出来了。</p>
+<p>我觉得这种天分，好像是上帝或者是菩萨给的。她画画，也使我们夫妻晚年的心境增加了很多色彩，好像又感受一种新的精神力量。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_c301d4671fbe48f887aadebc885f2d19@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>平日的早上，我会在我的书房里面处理公务，所谓“公务”，就是帮学生写介绍信，为年轻人服务了。下午她在客厅听她的粤曲，晚上她睡得早，我就独自听听我的古典乐，日常也看看电影、聊聊天、见见朋友。‍</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_dec1095960b1489c9c6e5ff18741afbc@000000_oswg488564oswg459oswg641_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">李欧梵和太太一起看粤剧</p>
+<p>我觉得对于一个良好婚姻来说，当然最重要的就是互相尊重、互相体谅、互相包含。我最近学到的一点，两个人再亲密，也要留给彼此一些空间，这是子玉提出来的。</p>
+<p>以前结婚的时候，她不爱旅行。主要是幼年的压力太大，她婆婆不准女孩子出去玩，只能在家里乖乖的，但她哥哥就可以出去玩，慢慢她就养成一个习惯：不敢去冒险。所以我开会她就跟着我去，拉着她到欧洲去玩，看了很多她喜欢的画。最近一次旅行是去俄国，我们都很喜欢俄国文学，兴奋的不得了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_4dc5064751284eeaa0092c02ef1fa5a3@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>‍‍但是现在倒过来了，我因为腰酸不敢“冒险”，她就开始愿意走出去，安排展览啦，见画廊啦，比我冒险的多。</p>
+<p>我们平常也聊文学，国内像白先勇、张爱玲，都是会聊的作家。她得抑郁症的时候，白先勇送过她一本书，是一个朋友画的33幅观音画像，让我们要子玉“放心”。</p>
+<p>我是85岁的老人了，对时间的敏感性还是很强的。现在我们的婚姻更稳固，彼此相互支持。我们要求不多，希望能够好好地过平常日子。人生总会有希望的，这也是我们应对生活的方法。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI5OTkyOA==&amp;mid=2665851105&amp;idx=1&amp;sn=ced922f2a74f892d2d48482898ddea6f&amp;chksm=bcca137977ea56100fa59cd0bd7e8bab3241f4a0e89e4d3693b39ea79ca35f67a50724ce28b0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“一条”（ID：yitiaotv）</a>，作者：陈沁，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2991587834522633</guid><pubDate>Mon, 14 Oct 2024 09:22:00 +0800</pubDate></item><item><title>3个月，300亿，赛力斯疯狂补短板</title><link>https://36kr.com/p/2991579974658824</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>过了几年苦日子，赛力斯终于等来了收获期。</p>
+<p>今年以来，问界品牌汽车销售稳定增长，尤其是50万以上车型M9大卖，<strong>前三个月，公司营业规模破千亿，一举实现扭亏为盈。</strong></p>
+<p>经营向好，也有了足够的资金，新能源时代在华为“速成班”弯道超车的赛力斯，急需补齐短板，以迎接未来可以预见的更残酷的竞争。</p>
+<p>买，无疑是一条捷径。最近几个月，公司百亿投资深圳引望、81亿元收购超级工厂……豪掷超过300亿元，在软件、硬件等端口同时布局。</p>
+<h2><strong>81亿买工厂</strong></h2>
+<p>115亿元购买引望10%股权尚未最终落定，赛力斯（601127.SH）另一宗81.64亿元的大交易，又已箭在弦上。</p>
+<p>10月28日，公司发行股份购买龙盛新能源100%股权的议案，就将接受股东大会的票决。</p>
+<p>龙盛新能源属于重庆当地国资，由重庆产业母基金、两江投资集团、两江产业集团，分别持股42.99%、26.32%和30.69%，重庆两江新区管委会为实际控制人。</p>
+<p>龙盛新能源的主营业务，是提供新能源汽车工厂的生产性租赁服务，核心客户正是赛力斯。</p>
+<p>2022年9月，赛力斯与两江新区管委会签署《战略合作协议》，由管委会负责智能网联新能源汽车产业园项目投资建设，赛力斯入驻产业园并租赁相关资产生产经营，双方合力推动赛力斯发展成为新能源汽车行业头部企业，助力重庆打造世界级智能网联新能源汽车产业集群。</p>
+<p>龙盛新能源是产业园基础设施配套项目的实施主体，主要资产为生产新能源汽车所需的土地、房产、基础设施及相关配套设施，打造了智能电动汽车工厂（简称“超级工厂”）。</p>
+<p><strong>本次交易之前，赛力斯已向龙盛新能源租赁工厂，用于生产问界系列产品。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_6d36453fa91f47f387446bc351f8e6db@000000_oswg321480oswg1080oswg478_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2023年及2024年上半年，龙盛新能源的营业收入分别为9108.57万元和8634.92万元，客户为赛力斯汽车，公司净利润分别为-1347.53万元和-8750.05万元。</p>
+<p>赛力斯表示，公司能够获得超级工厂的所有权，将增强生产经营的稳定性，充分、稳定发挥新能源整车链主作用。</p>
+<p>以基础资产法，龙盛新能源100%股权估值为81.64亿元，增值率7.46%。赛力斯拟以66.39 元/股，向各交易对手发行股份收购。</p>
+<p>交易完成后，重庆产业母基金、两江产业集团、两江投资集团，将分别持有上市公司3.24%、2.31%、1.98%股权，全部跻身前十大股东。</p>
+<p>赛力斯表示，收购完成后，有利于降低上市公司整体资产负债率，提高资产规模，完善生产端资产的同时，减少经营性现金流出。不过，短期内存在由于折旧摊销带来的即期回报指标被摊薄的风险。</p>
+<h2><strong>百亿强软件</strong></h2>
+<p>在燃油车时代，赛力斯（原名“小康股份”）主要生产面包车、轻型货车等工具车，后续推出的风光系列SUV，也主要针对下沉市场，在国内乘用车领域的存在感并不太强。</p>
+<p>而在传统燃油向新能源转轨过程中，赛力斯借华为之力，实现了弯道超车，一跃成为国内新能源的头部企业。</p>
+<p>随着问界品牌发展逐步向好，赛力斯急需补齐短板。</p>
+<p>在软件定义汽车的新技术路线下，公司自身的储备不具有绝对优势，进一步抱紧华为，无疑是一条捷径。</p>
+<p>最近几个月，赛力斯频频与华为之间发生交易，用资本夯实自己的“大后方”。</p>
+<p>今年6月，通过子公司赛力斯汽车，出资25亿元，收购华为持有的已注册或申请中的919项问界等系列文字和图形商标，以及44项相关外观设计专利，借此实现了厂商和品牌的统一。</p>
+<p>没过多久，赛力斯与华为之间的股权联姻，更进一步。公司拟以115亿元，购买华为技术持有的深圳引望10%股权。</p>
+<p>深圳引望今年年初成立，注册资本10亿元，由华为技术100%持股，该公司主要从事智能汽车解决方案业务。华为将把智能驾驶解决方案、智能座舱、智能车控、智能车云、智能车载光等业务，包含相关的专利、著作权、商标等知识产权，全部装入这家公司。</p>
+<p>通过本次交易，<strong>赛力斯和华为以股权纽带为基础，将战略合作升级为“业务合作+股权合作”</strong>，将进一步夯实双方合作关系的可持续性。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_0f7d63dcb360414f8a50a90462b9d333@000000_oswg44800oswg1080oswg473_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>对深圳引望感兴趣的不只有赛力斯，几乎在同一时间，长安汽车联营企业阿维塔科技宣布，将以同样的价格，购买引望10%股权。阿维塔，正是长安汽车联合宁德时代、华为，共同打造的高端新能源汽车品牌。</p>
+<h2><strong>开始赚钱了</strong></h2>
+<p>至今，很多人心里都有这样一个疑问：华为当初入局造车之时，为何没有选择传统大厂，而是牵手当时名不见经传的小康股份？</p>
+<p>事实上，在国内传统主机厂商中，小康股份较早看到了汽车新能源化的趋势并提前布局。</p>
+<p>2016年，公司登陆上交所主板，完成资本化。当年，即在美国成立SF MOTORS，由创始人张兴海之子、具有海外留学背景的张正萍负责管理，欲借美国的技术、人才等优势，帮助公司快速实现新能源转型。</p>
+<p>经过几年投入，2020年7月，旗下首款新能源车型SF5量产上市，但品牌和产品，均未能获得市场的广泛认可。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_f9e0bd13944a42b8b9c404c1a55e7f1a@000000_oswg51350oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>直到果断加入华为智选车模式，双方共同开辟出了一条合作造车之路。</p>
+<p>2021年至今，双方已合作推出AITO问界M5、M7、M9等多款智能电动汽车产品，其中，<strong>问界M9更是连续6个月，位列50万元以上豪华车型销量第一。</strong></p>
+<p>在转型过程中，赛力斯也付出了较大的代价。2020年-2023年，公司连续归母净利润亏损，合计亏损达98.35亿元。期间，公司3次定增，再融资135.7亿元输血。</p>
+<p>今年，随着产品的持续热销，公司的经营情况终于得到大的改观。</p>
+<p>上半年，公司实现营业收入650.4亿元，同比增长489.58%；归母净利润16.25亿元，同比增长220.85%。</p>
+<p>1-9月，公司已累计销售新能源汽车31.67万辆，同比增长364.23%，其中，赛力斯汽车（问界）累计销售29.30万辆，同比增长625.34%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241014/v2_dd788addb5fa4af5bac2f8d3e5c87c03@000000_oswg188773oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>最新披露的前三季度业绩预告显示，今年前9个月，公司预计实现营业收入1030.0亿元-1100.0亿元，同比上升518%-559%，同期归母净利润预计实现35.0亿元-41.0亿元。</p>
+<p>截至6月末，赛力斯手握货币资金426.1亿元，丰厚的现金储备，正是公司敢于集中投资的底气。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0MDY2ODM2MQ==&amp;mid=2247513182&amp;idx=1&amp;sn=e54fe50e3f70448ea2a65deb48c5663d&amp;chksm=e8d9e38f1e6288e703612f6a2548237cc03488751dc19aea01c462620c7277b5119442794f64&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“斑马消费”（ID：banmaxiaofei）</a>，作者：范建，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2991579974658824</guid><pubDate>Mon, 14 Oct 2024 09:22:00 +0800</pubDate></item><item><title>尽调3000家风投基金，得出投资新GP的最佳实践</title><link>https://36kr.com/p/2990962244873223</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>今天我们聚焦一家欧洲的FoF，Alpha Q Venture Capital。创始合伙人Marius Weber和专门负责筛选新兴GP的投资经理Jocke Marteliu，坐下来讨论了欧洲的风险投资市场和他们的看法。</p>
+<p><strong>三年来，他们尽调了3000多名基金经理后，得出了对于筛选和投资emerging manager的策略。</strong></p>
+<p>十多年前，欧洲的风险投资市场几乎空无一人。Marius和另外两名合伙人创立了德国第一个具有孵化器性质的VC俱乐部之一，20多年以来，他们共同创立了21家公司。</p>
+<p>过去几年里，<strong>欧洲的风投市场涌现了3500多只基金，他们一一看过之后，发现了LP与GP，尤其是新GP的规律和需求，就此推出了自己evergreen结构的FoF。</strong></p>
+<h2><strong>01 </strong>持续创业的三位企业家，成立母基金支持first time fund</h2>
+<p><strong>Q：Marius，你是如何创立AQVC的？</strong></p>
+<p><strong>Marius</strong>：我和另外两位合伙人Marcus Börner、Oliver Oster二十多年来一直是好朋友，<strong>我们也都很有entrepreneurship，在七年的时间里共同创立了大约20家公司，也投资了差不多100家创业公司。</strong></p>
+<p>我们成立这家母基金的过程很有意思，也很自然。<strong>筛选了超过3500家风险投资基金后，我们总结出了很多最佳实践，也发现了很多GP和LP之间存在的障碍。</strong></p>
+<p><strong>如果只有我们自己知道，那就太可惜了，而且很多LP和GP都需要我们这样一个角色。</strong></p>
+<p><strong>Q：既然有这么家的基金，你们也看到了，为什么要再创立一家基金？</strong></p>
+<p><strong>Marius</strong>：老实说，我们三年前开始做AQVC的时候，欧洲市场上并没有那么多的VC。我们当时就<strong>希望把风险投资变成一个更容易被access到的资产类别，</strong>到今天我们的使命和愿景仍然是这样。</p>
+<p>四年前我们看了市场上所有相关的产品和服务，就想做一个这样的产品，<strong>让LP access到优秀GP变得更容易，同时也把GP连接到我们所在的LP网络里。</strong>我们把它叫做将风险投资“民主化”。</p>
+<p><strong>Q：Jocke，你什么时候加入的？在公司的角色是什么?</strong></p>
+<p><strong>Jocke</strong>：我为不同的组织做过投资，家族办公室、财富管理公司等等，也尝试募过我自己的基金。我在AQVC支持各种各样的事务，目前我们正在<strong>构建一个LP社区，与其他LP、家族办公室和FoF交流，分享我们的见解和deal flow，最终构建一个生态系统。</strong></p>
+<p><strong>Q：Marius，现在是2024年第四季度了，你现在在寻找什么样的基金？</strong></p>
+<p><strong>Marius</strong>：好问题。首先，<strong>新兴和成熟的风投基金我们都会投资，不过会更倾向新GP。</strong>我们评估风投基金也是分成定量和定性两个类别。</p>
+<p>定量方面，我们当然首先从基金经理本身的过往业绩开始做benchmark。</p>
+<p>在将不同的基金相互比较之前，首先要验证benchmark。这有不同的方法，最常见的是CA用的vintage year测量法，<strong>找到正确的vintage year，比较关键指标，这些指标可以很好地指示基金的表现和其他定量方面的问题。</strong>然后再看基金模型、portfolio构建、持有百分比以及基金thesis的持续时间等等。</p>
+<p>在定性方面，我们会和基金的CEO、LP以及共同投资者打很多reference call。<strong>我们评估团队的dynamic，也会非常仔细地查看投资决策过程。</strong></p>
+<p>更成熟的基金，你会看到更多的数字；但<strong>在基金非常早期的阶段，LP大多数时候就是在人的层面做投资。</strong></p>
+<p><strong>所以如果我们去筛选一位VC基金的emerging manager，没有必要找到很强大的背书或者大机构的名字，而是需要找到愿意走不同道路并且愿意长期坚持的基金经理。</strong></p>
+<p><strong>这样的基金经理会理解，在成为outlier之前路途会有多么艰难。</strong></p>
+<p><strong>Q：放眼整个市场，今年first time fund得到的资金比去年减少了90%，而去年又比前一年减少了。所以现在是什么让你选择支持first time fund？</strong></p>
+<p><strong>Marius</strong>：成熟的基金经理可以带来整体稳固的表现，这很棒，但是<strong>新GP可以表现得更好。全球70%的top tier fund都是新兴或者发展中的基金，我们需要确保自己拥有最佳的行业覆盖。</strong></p>
+<h2><strong>02 </strong>LP行列中的gatekeeper：为GP提供范式，获得优质GP的access</h2>
+<p><strong>Q：你们的AQ Discovery是什么？</strong></p>
+<p><strong>Jocke</strong>：你可以把AQVC Discovery理解为GP和LP在VC行业中会用到的一个软件。这个想法实际上是从我们自己的需求中诞生的，<strong>作为FOF，我们会接收到大量的deal flow，很多都来自新兴基金经理。</strong></p>
+<p>我们一直积极支持emerging manager，但是我们很快注意到，各种向我们募资的基金经理都在以非常不同的方式展示自己。很多数字和KPI毫无章法地向我们涌来，所以<strong>在我们的行业里，一直都没有标准步骤或结构，这使得LP的筛选流程相当低效和困难。</strong></p>
+<p>所以基于我们作为VC基金的学习和其他活跃LP的反馈，我们为VC和LP构建了一个解决方案，<strong>VC可以以最有效的方式向他们的潜在LP展示自己，LP也能更容易地access到风险投资市场。</strong></p>
+<p>很多基金经理不一定有募资的资源或者广泛的LP网络可以利用，这些都是我们可以提供帮助的地方。</p>
+<p><strong>Q：那为什么这些基金会来找你们？</strong></p>
+<p><strong>Jocke</strong>：我们做了很多事，其中之一是数据的标准化。<strong>对于很多emerging manager来说，仅仅有一个deck并不是最好的方式。一个没有以最佳方式画出来的deck，就不是可以用的deck，因为通常LP只会读deck的前五页。</strong></p>
+<p>新GP往往需要一些基于LP需求设计的方式来分享自己的数据。所以通过我们，新GP能够创建一个他们的基金资料，让LP从头到尾地做完尽职调查。而且在此之上，<strong>基金还可以通过我们从潜在的LP或者拒绝他们的LP那里获得反馈。</strong></p>
+<p><strong>Q：作为LP，你希望在data room看到什么？新GP最基础版本的data room里应该包含什么？</strong></p>
+<p><strong>Marius</strong>：你需要在投资某个行业或者地区的GP之前，将一名GP与其他GP做比较。<strong>过去三年我们筛选了超过3000名VC，最终形成了我们的portfolio，总过19个。</strong></p>
+<p><strong>Data room其实是关于数据的规范化和标准化，</strong>这非常重要。为什么很多LP没有能力投更多的钱进入风投领域？因为今天这个GP会给他们发一个deck，明天那个GP会给他们发一个完全不一样的deck，一家用IRR，另一家用DPI，有很多数据需要比较。所以，LP至少需要一些全职分析师来做完背后的数学，这就会造成很多程序的阻碍。</p>
+<p>这也是我们创建AQVC Discovery的原因之一。这段时间，资金并不像五年前那样随处可见，所以<strong>我们需要以最有效的方式募资，快速筛选出不感兴趣的人。</strong>我们宁愿得到一个当机立断的“不”，也不希望对方纠结很久再给答复。</p>
+<p>另外一个原因，是<strong>LP需要身边有一个既能做好gatekeeper又能做好allocator的同类，GP也需要一个能最快听懂他们，最清晰给出指令的LP，这就是我们能做的。</strong></p>
+<p><strong>Q：很多时候有些LP会突然不再回应，你怎么理解这件事？</strong></p>
+<p><strong>Marius</strong>：LP没有能力回复每个人。当然，如果你开始了对话，至少要回复“不，谢谢”。我认为有些LP会错误地认为，如果他们只是不回复，也许某个时机成熟的时候他们可以再加入。但GP也有长期的记忆，他们会记得谁是如何对待他们的。</p>
+<p>我认识的一位企业家在2012年为他的第二家创业公司向a16z募资，当时a16z彻底改变了LP说“不”的方式，他们会给GP反馈，这非常聪明，因为一旦GP得到了反馈，他们就更有可能在未来轮次和GP合作。</p>
+<h2><strong>03 </strong>三年尽调3000家基金：自然而然的工作成果，也是最高的壁垒</h2>
+<p><strong>Q：这些年来，你觉得机构LP投资GP的规律是什么？</strong></p>
+<p><strong>Marius</strong>：我们认识很多家办，很多像Jocke这样的同事也在家族办公室工作过。<strong>这些高价值网络如果最终投资了一名GP，平均都在认识这名GP之后的两年左右。</strong></p>
+<p><strong>Q：我想问个比较直接的问题，你认为GP变得富有需要多长时间？</strong></p>
+<p><strong>Marius</strong>：平均来说需要10年。有人是六年，有人是八年，十二年或者十四年。退出是很重要的一环，在过去几年的风险投资市场中，我们看到了各种各样的退出情况，这不是一条容易的路。</p>
+<p><strong>我们就看top quartile的基金，它们往往都是赚取了巨额回报，GP可以变得富有。这通常需要10年、15年或者更长时间，</strong>特别是对于emerging manager来说，他们需要时间来建立自己的品牌和业绩记录。所以做GP不是一个快速致富的方案，这件事在于长期建立一个成功的portfolio，这需要天赋、热爱和耐心。</p>
+<p><strong>Q：你的产品对于高净值个人LP和家办来说，与其他FoF有什么不同？</strong></p>
+<p><strong>Marius</strong>：首先还是那句话，<strong>我们在两三年的时间筛选了3000多家VC，最终得到了20个精品，没有人做过类似的事情。</strong></p>
+<p>第二个方面我觉得是access。我们在欧洲这样做已经很多年了，有了一个庞大稳定的生态系统，<strong>我们比其他人更早地开始，有更优质的GP网络。家办往往没有能力全职做这个工作，但他们是需要获得更好的access和portfolio结构的。</strong></p>
+<p><strong>Q：你们给GP带来了什么价值？</strong></p>
+<p><strong>Jocke</strong>：我们可以在募资策略和LP方面提供支持。AQVC遵循的哲学，就是做有价值的LP，但我们也想支持和加强风险投资的生态系统，所以我们做了很多教育材料，从募资指南到deck模板，不一而足。</p>
+<p><strong>Q：最后我们聊聊欧洲吧。你们觉得欧洲的市场现在怎么样？</strong></p>
+<p><strong>Jocke</strong>：向前看，我们对欧洲VC的未来非常乐观。目前欧洲就是我们的整个市场，我们在这里有相当广泛的网络，GP、创始人、LP都在我们的覆盖范围内。</p>
+<p>欧洲在VC方面落后于美国，但这也是很自然的，因为这个资产类别就是在美国诞生的。我会说欧洲正在稳步缩小这个差距，尽管我们目前还是一个相当分散的市场。</p>
+<p><strong>Q：你们觉得是什么限制了欧洲的风险投资市场实现自己的潜力？</strong></p>
+<p><strong>Marius</strong>：除了政治方面，我认为<strong>欧洲有一个巨大的问题，就是它非常分散，非常碎片化。</strong>有很多不同的法规和系统，也有不同的金融当局。欧洲本身虽然是一个巨大的市场，但被划分成了许多更小的市场，你需要以某种方式去逐个“征服”和覆盖。</p>
+<p>另外，<strong>欧洲在开始做一件事情之前，非常擅长自我规范。我认为这也是需要改变的心态，对于创业和风险投资来说都是如此。</strong></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI1MDM5Mjc2Nw==&amp;mid=2247518308&amp;idx=1&amp;sn=811e63df5e6c809a96cf73c42b2c7c07&amp;chksm=e81ca9d2d28bb921cb13569a600305d7db581bf7ce61934578829d8a933ee5ddb4f3c4f8b083&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“溯元育新”（ID：EnvolveGroup）</a>，作者：溯元育新，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990962244873223</guid><pubDate>Mon, 14 Oct 2024 09:23:00 +0800</pubDate></item><item><title>北京海淀杀出超级独角兽：年入70亿，全球第五</title><link>https://36kr.com/p/2990858507807747</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>注意了，北京海淀又杀出一个超级IPO：海博思创，向创业板IPO发起冲击。</p>
+<p>这是一家超级隐形冠军，是储能系统解决方案与技术服务供应商，专注于储能系统的研发、生产、销售和服务，主攻方向是电化学储能系统。想象一下，电力就像血液，电网就像血管，而海博思制造和维护这些血管中“血液泵”。</p>
+<p>根据行业数据，2023年，海博思创在国内储能系统集成出货量排名第二，全球并列第五。</p>
+<p>这家公司究竟有何神奇之处？</p>
+<h2><strong>-01-</strong></h2>
+<p>海博思创成立于2011年，总部位于北京海淀。</p>
+<p>它主攻方向是电化学储能系统解决方案，既做硬件也做软件。通俗理解，储能系统就像血液里的血液泵，在需要的时候储存和释放电力。</p>
+<p>具体而言，海博思创的产品包含几类：</p>
+<p>1、能量型储能系统：主要用于可再生能源并网和独立储能电站，具备风冷和液冷两种方案。</p>
+<p>2、功率型储能系统：主要用于火电机组联合调频、独立储能辅助调频和可再生能源并网。</p>
+<p>3、用户侧储能系统：满足移动储能、工商业储能等用户侧需求，产品形式多样。</p>
+<p>4、系统控制类产品：包括电池管理系统（BMS）、能量管理系统（EMS）、和海博云等。</p>
+<p>这些系统，核心解决客户一个大痛点：确保电力供应稳定性、可靠性。</p>
+<p>比如风力发电等可再生能源发电不持续，而储能系统晴天修屋顶，把多余的电力存起来，在需要的时候释放。当然，在电力淡旺季、突发事件等多个应用场景，储能系统都能发挥作用。</p>
+<p>海博思创的客户主要包括三类：央企发电集团、电网公司、大型新能源集团。</p>
+<h2><strong>-02-</strong></h2>
+<p>海博思创的竞争对手有几类：专业系统集成商、锂电池厂商、电力设备厂商。</p>
+<p>1、系统集成商，比如中车株洲所、沃太能源等。</p>
+<p>2、锂电池厂商，比如宁德时代、比亚迪、亿纬锂能、派能科技。</p>
+<p>3、电力设备公司，比如阳光电源、科陆电子、华为、科华数据、盛弘电气等。</p>
+<p>与这些竞争对手相比，海博思创的业务定位有较大不同。</p>
+<p>首先，海博思创主攻的是一站式解决方案，既包含硬件又包含系统。而竞品可能提供单一的产品或服务，比如电池的生产与销售。</p>
+<p>其次，技术路线不同。海博思创掌握较多核心技术，从电芯建模到储能系统集成、储能整站系统等。而锂电厂商核心侧重掌握电芯技术，电力设备公司侧重掌握电力电子技术、设备制造技术。</p>
+<p>据招股书显示，海博思创2021年至2023年的营业收入分别为83,786.40万元、262,583.94万元和698,190.98万元，复合增长率为188.67%。净利润分别为1,126.05万元、17,726.65万元和57,811.75万元。</p>
+<p>随着中国新型储能市场的迅速扩张，预计到2027年，新型储能累计规模将达到97.0GW至138.4GW，期间复合年均增长率可达49.3%至60.3%。</p>
+<p>本文不构成任何投资建议。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0NzAzNTUwMQ==&amp;mid=2652509935&amp;idx=1&amp;sn=5625caee214232423ff52f1900d19ea0&amp;chksm=f3ec8b9b15642c127fa4724ccfd554fe3fec09a7811b969e6039d1808cfff42ae06c01a7adfe&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“铅笔道”（ID：pencilnews）</a>，作者：华泰诗，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990858507807747</guid><pubDate>Mon, 14 Oct 2024 09:25:00 +0800</pubDate></item><item><title>特斯拉FSD入华在即，萝卜快跑守土之战升级</title><link>https://36kr.com/p/2990846859668480</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <blockquote>
-<p>各自单飞后，她们一边继续拼事业搞钱，一边还开启了买买买模式，豪宅、豪车成了标配！但失去了BLACKPINK这颗“摇钱树”，一手捧红她们的公司YG，看起来日子就不那么好过了……</p>
+<p>萝卜快跑依靠价格优势吸引用户，却因服务效率和质量问题遭投诉，未来盈利和客户留存成疑，面临新鲜感退却和竞争加剧的双重挑战。</p>
 </blockquote>
-<p>最近，BLACKPINK的成员Lisa给工作人员送了LV包包，引发网友热议，有人夸她大方，有人调侃她说：</p>
-<blockquote>
-<p>“不愧是唱money的女人，是有点小钱在身上的。”</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_e5814edc647c4c468d729741bf669cb7@000000_oswg54845oswg690oswg980_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Lisa这几年赚这么多，早就是富婆了，出手大方也很正常。有网友透露，之前她代言Celine时也给身边的人送过Celine，主打一个跟着姐就有奢侈品包包背~</p>
-<p>其实这并不是第一次了。早在2020年，BLACKPINK四位成员就曾一口气送出了六个prada包包，也曾经自掏腰包送粉丝名牌口红和粉底液套装……</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f5119e22200747ec905c873cf70e5eb3@000000_oswg23238oswg736oswg110_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>果然是名副其实的全员富婆团，就连去年单飞不解约的drama情节，也丝毫不影响她们赚钱赚到手软，来感受一下这个女团超强的吸金能力：</p>
-<blockquote>
-<p>2024年福布斯韩国名人收入榜，BLACKPINK登顶第一；</p>
-<p>2024全球IG富豪榜，全员上榜，跻身全球TOP50；</p>
-<p>NUBIA杂志统计的2024最富有韩国女爱豆排行，金智秀、Lisa、Jennie排名前十；</p>
-<p>……</p>
-</blockquote>
-<p>各自单飞后，她们一边继续拼事业搞钱，一边还开启了买买买模式，豪宅、豪车成了标配！但失去了BLACKPINK这颗“摇钱树”，一手捧红她们的公司YG，看起来日子就不那么好过了……</p>
-<h2><strong>1.顶级女团有多壕？各自单飞后，她们买财阀豪宅、开限量豪车……</strong></h2>
-<p>先来简单介绍一下。2016年，韩国三大社之一的YG推出女团BLACKPINK，成员分别是金智秀、Jennie、朴彩英和Lisa，2019年科切拉一战封神，成为闯美最成功的世界级女团，没有之一。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_df7bae8991ff400a8af3f7e826350401@000000_oswg42006oswg690oswg452_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>去年，BLACKPINK和YG的七年合约到期，最终决定只续团体合约、成员各自单飞，很多粉丝都替她们捏了一把汗，毕竟很多顶级女团都是因为解约风波最终销声匿迹了，比如她们的师姐团2NE1。</p>
-<p>但单飞不解散的BLACKPINK，影响力不减反增，直接从演艺圈横跨到了政商圈，比如去年年底，英国王室就举行了一场特别的授勋仪式：</p>
-<blockquote>
-<p>查尔斯国王向四名成员颁发大英帝国勋章MBE，以表彰她们在环保方面作出的贡献。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_dae3e90fe6384c708641469b8fdb2e7a@000000_oswg83779oswg632oswg421_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>虽然看起来有点破次元壁，但其实这次接见的份量还是很重的！要知道，上次在白金汉宫招待偶像女团还是1997年，那时查尔斯还是王储，受邀的是英国乃至全球第一天团辣妹组合。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_5e63cef032a64c2b9d563ee3356175d6@000000_oswg57187oswg660oswg431_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但去年BLACKPINK的团体活动确实屈指可数，成员们各自单飞后，都有了新发展，有人出了新歌，有人去当演员，还有人筹备新专辑，不过共同点是没有了公司的约束，她们都开启了买买买模式。</p>
-<p>就拿Lisa来说，今年4月，年仅27岁的她豪掷395万美元（约2859万人民币），在比弗利山庄买了一套占地超过1.3英亩的豪宅，和好莱坞名流们做起了邻居。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_2abcb4edbaf04eb1b990285dded99058@000000_oswg87037oswg690oswg669_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但这可不是Lisa的唯一一套豪宅，这些年，她在全世界到处置业，光名下的豪宅价值就早已过亿了。</p>
-<p>在韩国，几年前她曾在首尔龙山区买了一处高级公寓。到了2023年，她又在首尔城北洞入手了一套价值75亿韩元，换算成人民币约为4300万元的大别墅，据报道这套房子的前主人还是韩国财阀呢~</p>
-<p>此外，去年Lisa还被曝在曼谷第一高端住宅买了一套价值5000万元的大house，这个房子位于泰国顶级豪宅区。</p>
-<p>除豪宅外，据说Lisa也有多辆豪车，比如新成立的个人工作室拍的vlog里就出现了一辆全球限量10台的白色大G，还有法拉利、劳斯莱斯、兰博基尼等，粗估总价值超过上千万了~</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4b9da28089994493a55c3d6f4d335c9d@000000_oswg226168oswg640oswg360_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>去年，Jennie在首尔汉南洞买下了一栋250平的别墅，这是首尔非常有名的富人区与高级住宅区，邻居有宋慧乔、G- Dragon等韩娱顶流明星。</p>
-<p>重点来了，媒体报道富婆Jennie直接用现金，全款支付了50亿韩元，换算成人民币约为2800万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_fc68c47ddad24a97ab3d1d39bc1bc1e4@000000_oswg58897oswg640oswg383_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>虽然朴彩英和金智秀相对低调，但据报道，朴彩英住在首尔龙山区一处价值5000万的高档公寓中，金智秀的家和她只隔了一条街，可见同样价格不菲。</p>
-<p>不过，“圣罗兰女帝”朴彩英也传出了买豪车的消息，据说今年她刚拿到驾照，就迫不及待买了第一台豪车——黑色大G，被不少粉丝偶遇。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_68ace91d43a3414eacc34de9b953ad9e@000000_oswg257463oswg690oswg460_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>各自单飞后日子越过越壕，出道第8年，豪宅、豪车成了她们的日常标配，全员富婆的实力果然名不虚传~</p>
-<h2><strong>2.顶流女团吸金能力有多强？一条广告收入超300万元，全员顶奢代言、最高title……</strong></h2>
-<p>但在大手笔开销之外，或许很多人并没有意识到，她们也是KPOP女爱豆里赚得最多的人，那她们的吸金能力到底有多强？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_898ad2106b3c498984908ddae672a240@000000_oswg697862oswg690oswg690_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不久前的8月中旬，英国数据分析公司Hopper HQ公布了2024全球IG富豪榜，包括全世界演艺圈、体育圈的明星在内，但排名前列的要么是超级球星C罗、梅西，要么是欧美明星傻脸娜、霉霉Taylor……</p>
-<p>这个榜单上的亚洲明星寥寥无几，但BLACKPINK却全员跻身全球TOP50，来感受一下什么叫全员吸金体质：</p>
-<blockquote>
-<p>Lisa：第29名，一条INS帖子可赚62.3万美元，人民币约440万元；</p>
-<p>Jennie：第36名，一条INS帖子可赚51.1万美金，人民币约361万元；</p>
-<p>金智秀：第40名，一条INS帖子可赚47.4万美金，人民币约335万元；</p>
-<p>朴彩英：第42名，一条INS帖子可赚47.2万美金，人民币约333万元。</p>
-</blockquote>
-<p>想象一下，她们只要动动手指，随便在社交平台上发一条广告，最少也能赚300多万元，简直就是行走的“摇钱树”。收入最高的Lisa甚至在亚洲明星里也排名第一，去年，她就是这个榜单里最赚钱的亚洲明星。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_cf4140bd549c4850a41ffb1ea9869f8a@000000_oswg40717oswg637oswg166_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了2024全球IG富豪榜，今年在NUBIA杂志统计的2024最富有韩国女爱豆排行，金智秀、Lisa、Jennie三名成员排名前十；在2024年福布斯韩国名人收入榜上，BLACKPINK女团排名第一。</p>
-<p>事实上，早在2019年她们就曾登顶福布斯韩国名人收入榜，以及第一位女性韩国团体参加《福布斯》杂志“30 Under 30 Asia”，还上了福布斯杂志的封面，实力碾压一众当红男团和女团。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d87e07576ab24561a0a05cdc180672a0@000000_oswg88982oswg690oswg969_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而在成熟的市场，娱乐业与奢侈品行业盘根错节。因此榜单之外，BLACKPINK更令人瞩目的，正是她们几乎无人能敌的商业价值，明星们梦寐以求的顶奢资源都是她们的囊中之物。</p>
-<p>就拿刚结束的巴黎时装周来说，四名成员不仅全部到场，而且全员顶奢品牌的最高title傍身，排面实在是太强了，大家随意感受一下：</p>
-<blockquote>
-<p>Jennie是香奈儿大使，Lisa是LV全球代言人，金智秀是迪奥全球品牌大使，朴彩英是YSL首位全球代言人……</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_9bb05edfa5134fce98b3a3fff28a3023@000000_oswg224177oswg1054oswg1317_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>就连各国媒体评价巴黎时装周上的最佳造型，她们也都是轮番登顶。其中，被称为“圣罗兰女帝”的朴彩英，一共参加了4次巴黎时装周，有3次都拿下了EMV媒体价值艺人榜单第一，商业价值堪称爆表。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d2c0840e4fa74a59aeaf8182d77d4a3c@000000_oswg539530oswg690oswg1116_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但这还只是冰山一角，毫不夸张地说，BLACKPINK拥有全世界一半的顶奢品牌代言。除了上面提到的，早在2022年，她们就分头拿下了女性消费领域的金字塔尖——顶级奢侈品珠宝品牌的代言：</p>
-<blockquote>
-<p>金智秀是卡地亚全球品牌大使，Lisa是宝格丽全球代言人，朴彩英是Tiffany全球品牌代言人。</p>
-</blockquote>
-<p>2022年末，BLACKPINK被《时代》杂志评为年度艺人，最新一轮世界巡演，范围已扩大至欧洲和亚洲27座城市，在港澳台几站，就连当地名媛、富豪也纷纷现身观众席。</p>
-<p>也难怪她们赚钱赚到手软，甚至力压“富婆团”少女时代，现在的市场上有一种公认的说法是：</p>
-<blockquote>
-<p>“如果只看韩国的话，少女时代是第一女团，但BLACKPINK是世界第一女团。”</p>
-</blockquote>
-<p>值得一提的是，BLACKPINK的商业价值在上市公司的财报中也能得以一窥。以女团成员朴彩英为例，据不完全统计，她曾经16次登上世界两大奢侈品集团LVMH和开云的财报，以证明她作为品牌代言人带来的商业价值。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_0f8196b160f041a79902c70b570569e8@000000_oswg456347oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>3.BLACKPINK单飞不解散！摇钱树要没了，背后公司利润暴跌99%</strong></h2>
-<p>BLACKPINK的超强影响力和商业价值，让她们成了公司YG的摇钱树，有媒体曾统计，公司80%的营业利润都是由这支超级女团贡献。</p>
-<p>事实的确如此，据报道，2023年上半年，YG第一季度营利高达364亿韩元，第二季度营利又创下了289亿韩元，相比去年同期分别暴涨了461%和209%。其中，85%以上的利润来自于BLACKPINK的世界巡演，“摇钱树”名不虚传。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_6abd28fb821f48249aa95bbe10a328be@000000_oswg356488oswg1037oswg453_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不仅如此，在BLACKPINK巡演期间，YG娱乐股价暴涨了超过一倍。但巡演后期，由于合约到期，并且接连几次传出成员不续约的消息，又导致YG股价暴跌，直接坐了一场过山车。</p>
-<p>为了稳住“摇钱树”，据媒体报道，YG给BLACKPINK的团体续约金额高达惊人的400亿韩元，最后成员各自单飞、女团不解散。</p>
-<p>2024年，这支超级女团几乎没有商业合体行动，这也直接导致了YG的业绩大跳水，在南韩几个知名的娱乐公司里几乎垫底。据Daol投资证券透露：</p>
-<blockquote>
-<p>YG娱乐2024年第二季度营业利润仅有3亿韩元，比去年同期下降98.9%。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_5c30eac7f4214e3b93dd69af8867b5a2@000000_oswg360767oswg690oswg745_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>要知道，这个利润换算成人民币约为157万元，而BLACKPINK随便一个成员在INS上发一条广告就要超300万元。因此这个数据直接震惊了资本市场和投资者，甚至有网友们怀疑该公司是否面临破产风险：</p>
-<blockquote>
-<p>“YG好像真的要完蛋了……”</p>
-<p>“没有BLACKPINK的YG，和倒闭了没什么区别。”</p>
-</blockquote>
-<p>事实上，为了熬过没有BLACKPINK回归的空窗期，YG也早就在打造了下一代女团Babymonster。</p>
-<p>好消息，新女团出道了；坏消息，五代几乎查无此团。</p>
-<p>目前来看，新女团Babymonster带来的经济效益远远不如预期，对未来发展没有好的预期，YG的股价和市值也接连创下新低。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_47f0ed41eb654ea3a0c2700483ccb43d@000000_oswg30807oswg781oswg462_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>今年中旬以来，意识到形势不妙的YG也急了，连忙宣布了2025年的计划，主打一个所有女团都出来赚钱：一个是BLACKPINK将回归并且开始第三次世界巡演；一个是让祖师奶女团2NE1回归，举办十五周年演唱会。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_3bca6611544d4dd88a1b61ba96173f7c@000000_oswg82716oswg1080oswg357_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>最近，2NE1演唱会开启，相关词条接连刷爆热搜。YG趁热打铁，据媒体报道，这家公司时隔13年再次申请2NE1商标权。业界推测，这次演唱会和世巡结束后，YG和2NE1可能会继续同行。</p>
-<p>这么看来，YG想翻身并不容易，在BLACKPINK回归和第三次世界巡演前，还得靠祖师奶女团来“续命”啊～</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU0OTI2MzkxMA==&amp;mid=2247858406&amp;idx=1&amp;sn=9a50dce1896b161989727b0398bd1a56&amp;chksm=fa201d18c052316a85cfcd90bda3e989cbf70d61375e8a51001c763bb145478293e9cc2a22ce&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金融八卦女频道”（ID：baguanvpindao）</a>，作者：月月，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990425811758087</guid><pubDate>Mon, 14 Oct 2024 08:11:00 +0800</pubDate></item><item><title>金融男勇闯保险圈，3年干成10亿美金独角兽，上市输血却钱途堪忧？</title><link>https://36kr.com/p/2990425670904841</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>方锐手中的元保成立仅4年，就已经坐稳了国内人身险市场第二把交椅，也是国内人身险市场上最大的独立保险分销商，此前其估值已达10亿美金，但让其赚钱的“首月0元”和“魔方业务”却饱受诟病。</p>
-</blockquote>
-<p>保险圈杀出一匹上市黑马？</p>
-<p>前不久，元保保险正式向美国证券交易委员会（SEC）递交上市招股书，准备在纳斯达克敲钟上市，计划发行不超过6450万股，股票代码“YB”。由高盛、花旗、中金、老虎等一众顶级投行联席承销。</p>
-<p>这家公司的老板方锐可大有来头，他是网易的前高管，也是一个典型的金融男。有清华大学的金融、工商管理双重buff叠加，加入网易后也混过保险圈，甚至干翻过淘宝保险。</p>
-<p>如今，他手中的元保成立仅4年，就已经坐稳了国内人身险市场第二把交椅，也是国内人身险市场上最大的独立保险分销商，此前其估值已达10亿美金，但让其赚钱的“首月0元”和“魔方业务”却饱受诟病。</p>
-<p>而险企这两年扎堆上市，慧择、水滴、车车科技等等都去了纳斯达克，但投资者们却不太买账，多家险企上市后接连破发。如今，元保这次能打破这个魔咒吗？</p>
-<h2><strong>1.从程序员到保险大佬，创业仅4年就“杀出血路”</strong></h2>
-<p>元保的迅猛发展，离不开创始人兼CEO方锐。</p>
-<p>他是一个典型的金融男，毕业于清华大学五道口金融学院，后来又获得清华大学工商管理硕士学位(EMBA)。</p>
-<p>而方锐和保险圈的缘分，早在2011年就开始了。他领导的网易保险，算是国内互联网保险的“鼻祖”。2011年12月上线后，网易保险营收蹭蹭往上涨，一度突破10亿大关。</p>
-<p>2015年，网易保险更是干翻淘宝保险，成了互联网车险老大，并且实现了盈利。可惜后来因为业务调整、政策要求等主客观问题，网易没在这条路上继续狂奔。</p>
-<p>而作为网易17年的老将，方锐2003年就加入网易，从程序员一路干到了集团副总裁，职场晋升之路算是教科书级别的。方锐跨界玩电商也玩得贼溜，他一手创办了网易电商和网易支付，还把网易考拉干成了细分领域的“独角兽”。</p>
-<p>2019年，方锐不安于现状，从网易跳出来，立马瞄准了保险赛道，创办了元保保险，并快速收购了两张全国性保险经纪牌照。</p>
-<p>随后，方锐在保险圈弯道超车，很快就杀出了一条血路。根据沙利文数据，以首年保费口径计算，成立仅4年的元保保险，已成为我国人身险市场的第二大分销商，也是国内人身险市场上最大的独立保险分销商。</p>
-<p>而元保之所以发展如此迅速，离不开互联网技术和AI的加持。</p>
-<p>作为互联网老将，方锐擅长的就是引流，各种“0元保”“1元保”的广告铺天盖地，“魔方业务”也因此诞生，吸引了大批消费者。</p>
-<p>同时元保不走寻常路，主攻三线城市及以下下沉市场，来自三线及以下城市的用户占比超过了70%。在这个战略下，元保上线不到一年，付费用户就突破百万。仅2023年一年，就卖出了1200多万份保单。</p>
-<p>数据显示，2022年，元保的保险消费者数量为460.31万人，新保单数量为646.76万份；2023年，元保的保险消费者数量为810.31万人，新保单数量为1248.62万份，基本上都实现翻倍增长。</p>
-<p>AI也是其核心竞争力。在方锐看来，保险作为人力密集型和数据密集型行业，是AI大模型的最佳应用领域之一。AI大模型能颠覆保险行业，特别是对中小公司来说，是弯道超车的大好机会。</p>
-<p>于是，元保打造了一个“智能保险大脑”，能根据每个用户的需求，精准推荐保险产品，还能根据用户反馈，推动保险公司反向研发和定制产品。</p>
-<p>根据2023年年报，在AI的加持下，元保处理医疗单据的速度飞快，0.2秒就能搞定一张，线上一次性审核通过率高达97%。</p>
-<h2><strong>2.3年干成10亿美金独角兽，上市输血却钱途堪忧？</strong></h2>
-<p>元保烧钱烧了3年，终于在上市前扭亏为盈了。</p>
-<p>今年上半年，元保营收15.29亿元，净利润1.75亿元，总算扬眉吐气了一把。</p>
-<p>要知道，从2021年到2023年，元保的营收虽然是一路增加，从3.85亿元到8.50亿元再到20.45亿元，但还一直在亏损，分别亏了12.18亿元、4.35亿元和3.33亿元。</p>
-<p>根据招股书，元保的收入主要来自两块：保险分销收入、系统服务收入。前者是卖保险赚的佣金，后者包括给保险公司提供精准营销、分析服务和其他系统服务。</p>
-<p>而由于业务被资本看好，方锐成立元保不到2年，就拿下了4轮融资，公司直接晋升独角兽行列。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_a37ba0f1c0b14113a331272e7c388e05@000000_oswg29120oswg895oswg503_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>先是2019年11月，方锐拿到了山行资本的种子轮融资；3个月后，又搞定了北极光创投和山行资本的A轮融资。半年后，又来了一轮融资，投资方阵容豪华，启明创投、海纳亚洲等都来了。</p>
-<p>2021年5月，元保完成了IPO前的最后一轮融资，融了近10亿元，由源码资本领投，凯辉基金、山行资本、北极光创投、启明创投等一众大佬跟投。融资完成后，元保的估值直接飙到10亿美元以上，成为互联网保险行业的独角兽企业。</p>
-<p>根据招股书，在本次IPO前，山行资本持有元保17.6%的股份，是元保的最大机构投资方。北极光创投、启明创投、SIG海纳亚洲和源码资本则分别持有元保11.4%、8.7%、8.4%、7.1%和6.3%的股份。</p>
-<p>但值得注意的是，国内保险科技企业的融资，基本在2021年前后就停滞了。</p>
-<p>2021年，元保拿到了10亿元的C轮融资，但这已经是最后一轮了。其他保险企业也差不多，i云保、手回科技等，最近的融资也都在2020年或2021年。</p>
-<p>由于一些险企营收跟不上，融资又停滞，再加上“对赌回购协议”的压力，原始投资人到了一定年限要退出。所以，上市就成了很好的选择，既能给投资人一个交代，又能给公司“输血”。</p>
-<p>所以，过去一年内，有家保险科技公司、致保科技股份有限公司先后成功登陆纳斯达克，众淼控股（青岛）股份有限公司登陆赴港上市，深圳手回科技集团有限公司等也赴港递表……</p>
-<p>然而，二级市场对保险科技公司并不看好。上市后，这些企业大多面临破发，或是股价一路下挫等窘境。</p>
-<p>去年9月，车车科技曲线登陆纳斯达克后，股价从75美元跌到不足1美元；致保科技上市当天就破发，跌了7.5%；慧择保险、水滴公司的股价，也长期都在1美元左右徘徊。在行业不乐观的情况下，方锐带领元保上市后，或也很难独善其身。</p>
-<p>更让人担心的是，方锐做的“魔方业务”虽然带来了大量流量，但也因为高投诉率、高退保率，被监管盯上了。恶意扣款、自动扣费、诱导消费等负面评价，与“魔方业务”紧紧绑定在一起。</p>
-<p>2023年下半年，监管出手整治，叫停了“首月0元”和“魔方业务”，元保也失去了一个大的流量入口。目前来看，监管的重拳、市场的质疑、激烈的竞争，都是元保不得不面对的难题。</p>
-<p>元保虽拥有人身险市场第二的宝座，但前方的路依然充满挑战，能不能打破“上市即破发”的魔咒，在资本市场讲好故事，都还是个未知数......</p>
-<h3>参考资料：</h3>
-<p>《元保赴美IPO：网易前高管创业，4年干成独角兽》，21世纪经济报道</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU0OTI2MzkxMA==&amp;mid=2247858406&amp;idx=2&amp;sn=c19aaf02ccc8bb24e823f1e64ab376ea&amp;chksm=fa5b24a515d6ae181e360a6d3cf3f73603a28c7db85b05d5ca617cc47d46bfbdfb7d5931f564&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金融八卦女频道”（ID：baguanvpindao）</a>，作者：澍野，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990425670904841</guid><pubDate>Mon, 14 Oct 2024 08:11:00 +0800</pubDate></item><item><title>柒和伊将剥离非便利店业务，对抗ACT收购案</title><link>https://36kr.com/p/2990207777909505</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_cce50a194b1544b2984dd6e96c45d93d@000000_oswg34980oswg600oswg375_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>柒和伊控股将剥离超市、专卖店、餐饮等“非便利店”部门，转型为便利店专营企业，消除企业集团结构，提升股价。这也是一种防范被收购的策略，会对加拿大ACT起到一定牵制作用。柒和伊还将改名……</p>
-</blockquote>
-<p>柒和伊控股（Seven&amp;I Holdings）10月10日发布消息称，将剥离主力业务便利店以外的非核心业务。该公司明确表明了专注于便利店业务的方针，加快提升企业价值，对抗加拿大同行企业Alimentation Couche-Tard（ACT）提出的收购方案。</p>
-<p>柒和伊控股社长井阪隆一在10日召开的线上财报记者会上提到了ACT的收购提案，称“如果股东等利益相关人事提出的建议旨在提升企业价值，我们将认真应对”。这是井阪首次就收购提案公开发表看法。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_854033f9384942a8b66ea4a085c1d351@000000_oswg14028oswg500oswg342_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">柒和伊控股社长井阪隆一在线上财报说明会上发言（10日）</p>
-<p>井阪还谈到了集团重组的目的，称“将在自律性财务体制下，进一步加快实现增长战略”。由于日本国内外的便利店业务目前处于低迷状态，公司业绩受到了影响，对此井阪表示“将朝着提升股东价值等的方向前进”。</p>
-<p>柒和伊控股宣布，10月11日成立中间控股公司“York控股”，整合伊藤洋华堂及集团旗下的食品超市、York Benimaru等超市业务、餐饮及专卖店业务等。还提出了2025年度使该公司变成权益法适用公司的计划，已于10月开始挑选外部企业，向其出售York控股的大部分股份。</p>
-<p>在2024年度内，York控股旗下将纳入包括运营家庭餐厅“Denny's”的Seven&amp;i Food Systems等31家非便利店业务集团公司，涵盖零售及餐饮等领域。但根据重组进展情况，各公司也有可能被单独出售。</p>
-<p>柒和伊控股还公布了2025年内将公司名称更改为“7-Eleven Corperation（暂定名）”的计划。井阪在记者会上强调了公司更名的意义，称旨在“明确表明聚焦于便利店业务的方针”。</p>
-<p>柒和伊控股原计划在2027年以后对伊藤洋华堂等的超市业务进行首次公开募股（IPO）。现在决定将这一计划大幅提前，最早于2024年内开始征集海外基金等投资资金并启动出售程序。</p>
-<p>其背后的目的是剥离超市、专卖店、餐饮等“非便利店”部门，转型为便利店专营企业，消除企业集团（conglomerate）结构，提升股价。这实际上也是一种防范被收购的策略，会对ACT起到一定的牵制作用。</p>
-<p>关于ACT的收购提案，柒和伊控股已于9日承认收到新方案。收购额规模达到7万亿日元，比上次的提案增加了约1万亿日元。</p>
-<p>对于这一新收购方案，柒和伊控股方面将在仅由外部董事组成的特别委员会会议上再次进行讨论，并敲定应对措施。新方案的每股收购价格为18.19美元（约2700日元），高于9日的年初以来最高股价（2492.5日元）。在被认为收到ACT首次收购提案的7月中下旬，柒和伊控股的股价徘徊在1800日元左右。新价格相当于产生了50%左右的溢价。</p>
-<p>柒和伊控股曾指出，除了金额方面外，上次的提案在《美国竞争法》方面的问题上也没有进行妥当考虑。柒和伊控股是否会接受新提案尚不明朗。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI3Mzc0MA==&amp;mid=2651929029&amp;idx=5&amp;sn=6100588f8bc418083d6d2eab8f25df12&amp;chksm=bc91b6487afa7c243284cee75435ad301154ed7f74cfff4200af03e31f6b8ec5b8ee717dd35c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“日经中文网”（ID：rijingzhongwenwang）</a>，作者：日经中文网，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990207777909505</guid><pubDate>Mon, 14 Oct 2024 08:12:00 +0800</pubDate></item><item><title>为什么观众爱看把“综斗”玩到极致的“花学”</title><link>https://36kr.com/p/2989557200153089</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>早知有今日，周雨彤大概会在接到《花儿与少年6》节目组邀约的第一秒，就果断婉拒了哈。</p>
-<p>毕竟自从这档综艺播出，她的风评就开始了断崖式下跌，再也不是从前那个以松弛感著称的国民女演员了，黑粉数量陡增。许多看过《花儿与少年6》的网友都在吐槽她是毛阿敏和许晴的结合体，“不仅拉帮结派搞人际对立，而且喜欢贴着男嘉宾炒CP。”</p>
-<p><strong>而随着这些吐槽的愈演愈烈，曾经红极互联网一时的“花学”也终于迎来了2.0版本的更新。网友纷纷开始研究《花儿与少年6》背后的真相，既要分析周雨彤是如何一步步建立起以她为中心的小团体，还要逐帧分析其他嘉宾是怎么深受小团体其害的。</strong></p>
-<p>总而言之，《花儿与少年6》又引爆社交圈了，且爆的原因离不开这一季花少团暗流涌动的“宫斗剧情”。</p>
-<h2><strong>献出一个周雨彤，成就“花学2.0”</strong></h2>
-<p>这一季的花少团共有九位嘉宾，按照目前网友的分析，周雨彤先是与邓恩熙、侯明昊组成了一个亲密无间的小团体，陈好、宋茜、金晨和刘烨迫于无奈自动抱团成为了另一个小团体，剩下的田嘉瑞和荣梓杉自成一派，组成了第三个小团体。</p>
-<p><strong>而这样泾渭分明的阵营划分，其实早在《花儿与少年6》播出第一期时就有了苗头。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_8041a231ea654db2a53510d9ed67f840@000000_oswg66762oswg928oswg696_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当时，花少团的八个人围坐在桌前讨论行程，导游荣梓杉和邓恩熙因为年纪尚小，社会经验不足，所以完全不知道该怎么合理安排出发时间、地陪费用和景点游玩等旅行事务。陈好作为年纪最长的大姐，便充当起了团队里的带头人，把所有问题一点点掰开揉碎示范给晚辈们看，帮助他们用最短的时间解决问题。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_f11e26cd60094a41ae95fac35a5061d2@000000_oswg74606oswg939oswg704_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然而，主动挑大梁的陈好却被解读为性格强势、咄咄逼人。周雨彤在节目后采里说到：“导游实在需要我们帮助了，我们再来，别一上来就跟教你做事一样，我觉得没意思，也不好玩。”</p>
-<p><strong>此话一出，网友瞬间想到了“花学1.0”的经典人物毛阿敏，她们同样都是激化矛盾的一把好手。</strong>“不认可陈好的做法完全可以当面提出，背着人吐槽，有点太两副面孔了？”“上过班的都知道，周雨彤这是和稀泥行为，老好人谁不会做，不就是怕得罪人和担责任吗？”“荣梓杉年纪小不懂事，周雨彤都多大人了，好赖话还听不出来吗？”</p>
-<p>可是当局者迷的邓恩熙却因为周雨彤的这次仗义执言而心生感激，被吸纳进了周雨彤主导的小团体内。在之后的旅途里，邓恩熙顺利成了周雨彤的“小跟班”，周雨彤想要去哪玩，邓恩熙都会赞成并跟随，导致本季花少团总是分拨旅游，严重缺乏团感。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_8180be9300fc4aeaa349c0e712b64a7f@000000_oswg217275oswg1080oswg1239_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一边，周雨彤与侯明昊在参加《花儿与少年6》前就有过影视剧合作，因此两人之间的捆绑十分紧密，几乎容不下第三人的“插足”。例如，在最新一期节目里，侯明昊原本想要与另一位嘉宾刘烨合影，结果周雨彤一把挤开了刘烨，与侯明昊并肩而立。这一行为成功惹怒网友，#周雨彤 爱男#、#周雨彤推开刘烨#等负面热搜一个接着一个，“绿茶”标签再次深入人心。</p>
-<p><strong>除此之外，周雨彤对金晨表现出来的不友善，也是导致她被贴上“绿茶”标签的原因之一。</strong>例如，某次花少团在海边游玩时，田嘉瑞因为拍照的事情与金晨发生了一点小摩擦，把金晨气哭了。反应过来的田嘉瑞悄悄买了一份礼物给金晨，想要给金晨一份惊喜。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_7864d4e2f6384d0e93dcab33d31d3422@000000_oswg101587oswg1080oswg688_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>结果，周雨彤提前发现了田嘉瑞摆在床上的礼物，而且在明确知道礼物是送给金晨的情况下，仍然擅作主张拆开了礼物，浪费了田嘉瑞的心意。不仅如此，当金晨想发信息感谢田嘉瑞时，周雨彤甚至催促金晨赶紧走，“别整这恶心的。”害得田嘉瑞根本没有第一时间接收到金晨的原谅和感谢。</p>
-<p><strong>诸如此类的槽点还有许多，或许有些演员真就不适合上综艺展露自己的真性情，《花儿与少年6》里的周雨彤简直与观众印象里的那个周雨彤判若两人。</strong></p>
-<p>要知道，在近期热播的都市剧《半熟男女》里，周雨彤饰演的韩苏可是当代女性的自强典范，靠自己的努力变得优秀，面对男友的背叛潇洒离去，即使面对富二代的追求，也不卑不亢坚定自己的立场，圈了不少女粉。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_8c1c055e40fd414da57c92bfbae22aa9@000000_oswg114220oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>但是现实生活里的周雨彤，无论是待人接物还是处事方法，都精准踩在了网友的雷点上。</strong>就像今年奥运期间，花少团一行人飞去巴黎赛场观看比赛，好巧不巧，周雨彤看的那一场比赛恰好是体操运动员张博恒痛失金牌的那一场。张博恒坐在赛场苦笑的时候，周雨彤却一连发了三张面带微笑的自拍，气得网友直接在周雨彤微博评论区开骂，顺带还挖出了她早年开大G进故宫的新闻。</p>
-<p><strong>再看如今，“花学2.0”又可以被看作是周雨彤奇葩事迹大赏，原本对这一季花少团不感冒的网友也被勾得追起了节目。周雨彤被骂没关系，反正网友看得很尽兴，甚至评价《花儿与少年6》颇有一番《甄嬛传》的风味。</strong></p>
-<p>或者说，如果周雨彤是“花学2.0”的受害者，《花儿与少年6》绝对是“花学2.0”的受益人。</p>
-<h2><strong>人性瑕疵+吐槽欲=爆款综艺？</strong></h2>
-<p>聊完了博大精深“花学2.0”，不妨再来复习一下1.0。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_d40a99d8da7e482e97ab3d22813281ce@000000_oswg45213oswg850oswg471_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>创造“花学1.0”的《花儿与少年2》，堪称中国综艺史上里程碑式的存在。迄今为止，骨朵回想起许晴那句“因为第一季的人都正常”，还会头皮发麻，惊觉这简直是百年难得一遇的综艺名场面。<strong>试问，能让明星嘉宾当着镜头面直接开撕的综艺，当初有几个？</strong></p>
-<p>而若干年后，亲历了“花学1.0”的杨洋在提起这档综艺时更是迷之微笑，对着坐在他身旁一起宣传作品的刘亦菲说到：<strong>“参加真人秀挺累的，咱们还是好好演戏吧！”</strong>可见“花学1.0”的杀伤力之大，不止是让网友这么多年都还难以忘怀。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_a817bd97912542cb8945f77708936269@000000_oswg161678oswg1040oswg1689_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>也正是在《花儿与少年2》以后，综艺市场仿佛嗅到了所谓“商机”，陆陆续续涌现了一批借用明星个人槽点打造综艺整体看点的社交类综艺。</strong>例如，同样诞生出“坞学”这门学科的《五十公里桃花坞》，650元伙食费不够吃一天的苏芒、拒绝社交又要参加社交综艺的王传君、爱好“爹味”输出的宋丹丹和“誓死”追随宋丹丹的辣目洋子......</p>
-<p>“花学2.0”也是如此。如果《花儿与少年6》是周雨彤一个人的旅行，她的那些“精致的利己主义”一定可以被包装成讨喜的精英感、松弛感和自由至上，可是一旦在她的旅行里加入了性格对冲的人，周雨彤的性格特征就会被无限放大，进而成为整个团队里的槽点。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_fcc78d6003884e66896358f7987fcc4b@000000_oswg181055oswg1080oswg1619_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>或许在某种意义上，周雨彤和《花儿与少年6》才是最为适配的。她单独参加的综艺如《毛雪汪》，几乎吸引不到网友的注意力，她在娱乐圈的个人标签也不甚鲜明。但是《花儿与少年6》从播出第一期开始，焦点就在周雨彤身上，彻底验证了那句“黑红也是红”。</p>
-<p>包括最近因为一碗毒豆角而“声名狼藉”的黄磊，恰恰也是栽在了网友对《向往的生活》里嘉宾人性之“恶”的深挖上。黄磊做饭究竟好不好吃实则不重要，或者说，大部分网友也根本尝不到黄磊的饭，但是只有黄磊做饭不好吃了，才能成为当下互联网的热点话题。</p>
-<p><strong>不难发现，这一类综艺节目的有趣之处，不仅仅在于节目组针对嘉宾的情节预埋，更在于节目组不吝啬于呈现明星嘉宾的性格瑕疵，迫使网友主动去扮演那个夏洛克，发掘和审判镜头之下的“综艺内斗”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_d523804206fa482f9a72b82ca7a49416@000000_oswg66795oswg1080oswg1142_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>反观倡导爱与和平的《花儿与少年3》《花儿与少年4》和《五十公里桃花坞4》，都无一例外地被网友遗忘在了互联网的偏僻角落。甚至六季之中口碑垫底的《花儿与少年4》，其出圈话题还是张凯丽和韩东君因为谁开车这件事大吵了一架，吵出了这一季的最高热度。</p>
-<p>也许会有观众会反驳，明明《花儿与少年5》就是一档氛围其乐融融，热度也不算低的综艺节目呀？但是《花儿与少年5》也没有形成一门博大精深的学科不是吗？不管“花学”、“坞学”还是“磊学”，本质都是网友的吐槽欲再反向带动综艺的话题度，这与一档综艺原本就能热播并不矛盾。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_077cbbb7056f4bf389d28a8d732a5168@000000_oswg713175oswg960oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>同理可得，一档综艺节目想要获得超级加倍的长尾效应，就应该在节目的原始内容之上激发网友的吐槽欲，回归到真人秀的“真”。</strong>观众之所以格外喜欢在综艺节目里看到张雨绮、那英、宁静等一众江湖传言缠身的女明星，不也是因为她们敢说、爱说和能说，我们可以通过她们之口，看见其他明星嘉宾的真实一面。</p>
-<p>宫斗剧常有，“宫斗综”却难得。真人秀在国内综艺市场发展了二十余年，创意会有枯竭、形式会有重复，但唯有针对人性的探究经久不衰。既然网友对周雨彤的吐槽盘活了《花儿与少年6》，那么想做爆款的节目组，倒不如努努力，让自己成为更新下一版“花学”的那档节目。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY0MzEyNg==&amp;mid=2651649136&amp;idx=1&amp;sn=f16817d9a9f9b92a002a55f3bca8e4bc&amp;chksm=bc933346e06e475e3086eaff10b7dbe0a54b3bb86bc3e3fe0073ce24b8fe4d04764b4725f27f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“骨朵网络影视”（ID：guduowlj）</a>，作者：李蛋‍‍‍‍‍‍‍‍‍‍‍‍‍，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989557200153089</guid><pubDate>Mon, 14 Oct 2024 08:15:00 +0800</pubDate></item><item><title>“散户义和团”Robinhood：“免佣”一招鲜真能吃遍天？</title><link>https://36kr.com/p/2989470162659591</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>疫情红利+水牛，造就了Robinhood的神话。当美国全民炒股、散户大战华尔街的风气达到了巅峰，Robinhood也在热捧中上市了。虽然暂时可以说上市即巅峰，但Robinhood仍然是美国券商时代变革中无法抹去的一个印记——得益于它所首创的PFOF+广泛免佣的商业模式。</p>
-<p>但竞争永无止歇，当高举“金融民主”的Robinhood达到2390万累计用户后就获客近乎停滞时，也意味着“免佣”不再是独家的金字招牌，“商业模式创新”给Robinhood带来的先发优势已经褪去，但此时Robinhood才刚盈利不久。因此，业务转型的问题自然的摆在了Robinhood的面前。</p>
-<p>不过在聊Robinhood的前景变化之前，海豚君先来回顾一下Robinhood的发展历程，作为一个严重依赖交易业务的互联网券商，是在如何的行业背景下，率先举起“免佣”大旗，又是如何通过商业模式的创新玩转牛熊市场？PFOF真的有利而无害？</p>
-<p><strong>本篇我们落足美国券商行业发展和Robinhood的经纪业务，下一篇将详细拆解Robinhood的净利息收入——真正赚钱利器。</strong></p>
-<h2><strong>一、美国35年财富分配：“长牛”配“超投”，核心用户的新一个“代际转换”</strong></h2>
-<p>作为一款线上零售经纪商，Robinhood所在的市场以及潜在发展空间，离不开对美国居民财富分配的分析讨论。通过回溯历史，海豚君发现，近20年美国居民家庭的财富分配存在“资产股权化”、“用户代际切换”的特征。</p>
-<p><strong>1、从“私营商业”到“股权投资”</strong></p>
-<p>根据美国联邦储备系统的数据，自1989年至今的35年间，居民家庭在资产上的分配：房产、公司股票和共同基金（股权投资）、养老金、私营商业，占比变化上存在不同的走向。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_17195f0f1d9d4ddb94cf506635c530af@000000_oswg253478oswg1080oswg531_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中，股权投资的占比是有明显增加的，尤其是2008年金融危机起，美联储开启QE救市，降息一杆子插到底。伴随 这 这一波的股市长牛，<strong>股权投资是居民财富增值的主要牵引力</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_cfa738763e43455380b06123e32d984d@000000_oswg297645oswg1080oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2009年至今，标普500区间涨幅496%，美国居民家庭股权投资规模增长529%，说明资产增长不仅是股权市场资产升值带来，还包含了居民家庭本身在股权上增加投资。</p>
-<p>但与此同时，<strong>私营商业的资产规模占比却在不断下滑（增速较低）</strong>，从1989年的14%下降到10%。这与90年代开始的经济衰退、技术变革、全球化竞争、大吃小的兼并收购，以及消费者的品牌偏好等环境变化有关。</p>
-<p><strong>其他主要资产（地产、养老金）的占比虽有波动，但1990s和当下相比，变化不大。</strong>不过美国的房地产也并不是一气呵成的长牛走势，08年次贷危机下房价砸出一个大坑，此后多年的年均复合增速也并没超过10%，因此这里体现了居民在资产配置时，对房屋资产仍然有不低的投资倾向。</p>
-<p><strong>总而言之，资产占比的变化，体现了美国居民家庭对”股权类资产”存在超额配置的长期倾向，与美股的长牛相互成就：2008年至今，标普500累计上涨的496%，其中估值PE-TTM从17x涨至27x，也就是意味着，标普500上涨的驱动因素，73%来自上市企业自身EPS的增长，但也有27%来自流动性的增加。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_26df2b7b4059451eb445ea6dab8bb727@000000_oswg139403oswg1080oswg417_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>2、没钱是硬伤，“千禧族”小荷才露尖尖角</strong></p>
-<p>看完了整体市场，再来看看股权市场都是谁在投资，也就是Robinhood等经纪商们的核心用户。</p>
-<p>还是联邦储备系统的数据，美国居民按照代际，可以划分成四个群体，Silent（1945年之前出生）、BabyBoom（1946年-1964年出生）、GenX（1965年-1980年出生）、Millennial（1980年-1996年）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_a5002b409f3e46ca86303463b9238343@000000_oswg135806oswg1080oswg506_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>单拎出股权投资的用户年龄分层来看：</p>
-<p>（1）美国“婴儿潮”群体挑大梁是在2000年以后，尤其是度过2008年金融危机之后。与此同时“沉默族”随着迈入晚年和离世，总资产占比逐步萎缩。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_5e3294318c0f412fbab2158bc570eac8@000000_oswg186708oswg1080oswg473_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>（2）“X世代”虽然现在也已经年至中老年，但因为总人数较少+2000年前后科技泡沫破灭的股市阴影下，整体投资偏好一般，2008年股市雪崩时甚至几乎“清仓”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_10cea9c61e1e477abdc522dbfab74ba2@000000_oswg187768oswg1080oswg445_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>（3）而相继成为中年人的“千禧族”，整体占比也仍然偏小。但一个明显迹象是，2019、2020年起他们的股权资产规模每年翻倍，从2018年的3062亿美元，翻倍到2019年的7379亿美元，再猛飙至2020年的15194亿美元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_06e66a9b54594755a107e3bd0d768863@000000_oswg180128oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>若说是2020年的全球性水牛带的一波上涨，显然并非主因。同期其他年龄圈层群体的资产规模并没有获得类似的涨幅，“沉默族”增长19%、“婴儿潮”增长17%、“X世代”增长12%。</p>
-<p>海豚君思考，资产规模的上涨，无非是1）更多的钱流入，即用户渗透、用户投入增加；2）本身持有的资产在升值，即“千禧族”持仓较重的标的升值得更快。</p>
-<p>显然上述猜想都能找到数据支撑，上述2）点体现的是疫情对线上经济的催化，进而推动科技股的估值得到明显抬升。而1）点背后的原因，就离不开Robinhood等灵活、便捷的线上零售经纪商们的推动了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_9759b15ec9304caa8b9743da8cb337e2@000000_oswg106984oswg1018oswg494_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_988d3977fa684855a7f2f6b479fbb030@000000_oswg152445oswg1080oswg473_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_15c8f4f84c414f3ab504d765e3a1c824@000000_oswg163665oswg1080oswg491_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>截至2024年二季度，千禧族的股权资产规模为31890亿美元，相比2018年的3062亿美元，增长了9倍，这其中，固然有科技公司自身EPS增长的带动，但同样因为新钱流入而拉动了估值从2018年的20x到目前的40x。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_d2ada184339648bcb9addebd638f5ee7@000000_oswg99955oswg1080oswg474_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>且不论科技股能否带动股权资产进一步升值，但从用户渗透的逻辑来说，总资产规模的增长还未走完。如果简单对比婴儿潮、GenX群体的渗透率，千禧族的渗透率刚刚达到前两代的标准，但资产规模相比前两代还有很大增长空间，1997年之后出生的GenZ，目前的渗透率30%就还有很大提升空间。</p>
-<p>回溯历史，每一轮人群的代际转换，用户青睐的主流经纪商们也会发生转变。“千禧族”和“GenZ”是在互联网大时代下成长的人群，因此这一轮的代际转化，恰恰也是纯互联网券商、免佣券商们的增长机会。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_88f1ee6ae3d143488343a36c247a5a91@000000_oswg154135oswg1080oswg492_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>二、Robinhood的错位竞争</strong></h2>
-<p>回溯Robinhood客户数的增长过程，海豚君发现，除了成立初期快速揽客外，2017年、2019年都是一次增长斜率显著变陡峭的获客爆发期，那么这背后的原因分别是什么？仅靠免佣，就能帮Robinhood在内卷的券商市场厮杀出一条路？</p>
-<p><strong>1、美国券商们的佣金价格战</strong></p>
-<p>既然Robinhood是首创全平台广泛零佣金，获客明显受益这一标签，因此我们先来简单回顾一下美国经纪商们的佣金发展史。</p>
-<p>让我们把时间线拉回到1970年初，届时美国SEC刚刚放开佣金管制，允许经纪商自由定价。为了抢夺用户，下调佣金自然成为了各经纪商们最先打出的牌，也因此诞生了因佣金折扣较高而出名的“折扣经纪商”，比如嘉信（Charles Schwab）、亚美利（Ameritrade，后与TD银行旗下的经纪商TD Waterhouse合并）。</p>
-<p>与此同时，随着1990年代互联网技术的革新，打技术牌的互联网券商开始加入竞争，比如亿创（E-Trade）、富达（Fidelity Brokerage）、盈透（Interactive Brokerage）等。</p>
-<p>彼时美国的证券交易市场已经发展得相对成熟，主要的券商交易机构按照各自提供的服务特色，分有三种：<strong>全服务券商、折扣券商、在线券商</strong>，各自崛起依赖的优势分别为：提供全方位的投资服务、低价佣金、在线交易。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_d5a9d709618c4729bd7de5ab1a81d09a@000000_oswg141092oswg1080oswg249_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在90年代，投资者还是在全服务券商这种传统机构平台进行交易为主，尤其是机构用户。对于个人投资者用户，才会选择折扣券商，这也是自1975年SEC放开佣金管制之后才正式崛起的机构。在线券商则是跟着互联网技术的完善，逐步成为当下新一批个人投资者的主流交易方式。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_fc21159dbbd8405e9c290d28219a8241@000000_oswg75839oswg1018oswg502_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过海豚君认为，互联网券商，本质上是一种技术革新，并不局限于特定券商使用。实际上，折扣券商因为更注重产品功能更新、互联网技术对其运营成本的优化，在后期往往也是最先上线网络交易的尝鲜者。反之，纯粹以互联网技术起家的券商，也因为在线运营降低了成本，从而能够以更优惠的佣金加入竞争。</p>
-<p>因此现在来看，折扣券商和互联网券商之间的界限已经不大，但无法反驳的是市场竞争从未停歇。</p>
-<p>按照CS First Boston统计的美国TOP10互联网券商平均佣金费率，在1990年到至今快速走低。2000年之后，整体市场的佣金收入更是增长停滞不前。</p>
-<p>存量竞争下带来的直接影响就是供给淘汰赛，FINRA（美国金融业监管局，主要监管经纪商柜台交易行为）注册备案的经纪商数量，呈现逐年下滑。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_a4f314417ce64e8c928351954106d3c1@000000_oswg114171oswg1080oswg505_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_8b165bcc83c7431cbde25d2deb69a310@000000_oswg65634oswg774oswg394_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_87c3536247da4b269c095ace20c832c4@000000_oswg105978oswg1080oswg487_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>要获得更多的用户渗透，意味着价格战要一直持续。但一味让利也会让公司盈利受损<strong>，因此大部分零售券商选择了去挖掘用户的附加价值</strong>，财富管理、银行存贷、投资咨询，简单而言，就是逐步从单一经纪商，向传统的全服务经纪商靠拢。</p>
-<p>比如：</p>
-<p>嘉信在2000年初通过收购美国信托公司，面向高净值用户提供信托和私人银行服务，来实现对财富管理领域的延伸；</p>
-<p>亿创也在2001年开设了银行业务E-Trade bank，打通银行账户和证券账户；</p>
-<p>亚美利则是被道明银行（TD Bank）旗下的证券公司收购后，2006年与TD银行合作，从经纪商转型金融理财，代销基金产品为主。</p>
-<p><strong>因此，自放开佣金管制起，佣金率下滑+发展多元金融，最终导致美国券商的佣金收入占总营收比重一路下滑。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_2072b2a8689141e7b4d5fa970b74fb2a@000000_oswg57293oswg774oswg402_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>从单一转型多元，是一个创收+风控双赢的经营发展思路。</strong>交易、融资融券的两元结构会造成同质化竞争，而多元金融业务，不仅能够吸引更多的用户，建立规模优势，还能减少业务之间的摩擦成本，提高整体运营效率。而且当单一业务的风险来临时，多元金融能够保持更稳定的收入规模。</p>
-<p>但当做全服务券商的思路一致，前辈们都去卷理财、财富管理、咨询、银行等业务，去和传统的头部投行抢用户时。Robinhood创始人受美国2011年“占领华尔街”运动启发，看到了平民的力量。转而捣鼓起了前辈们都已较少关注的交易收入，通过在交易业务的商业模式创新，直接开局就甩出了王炸——对用户不收佣金了。</p>
-<p>Robinhood的诞生正式拉开了佣金价格战的3.0版本<strong>（1.0纯折扣佣金，2.0互联网券商）——</strong>广泛零佣金时代的序幕。</p>
-<p>为什么说“广泛”，这是因为在Robinhood诞生之前（2013年），部分零售券商已经在少部分的ETF产品、共同基金中实行了零佣金。但对于更广泛的股票、期权交易，佣金并未免去。</p>
-<p>2013-2018年间，不断有传统全能券商、零售券商试水广泛零佣金，比如JP摩根，推出“You Invest”免佣app，但对适用的用户也加了一些门槛和限制条件。比如Firstrade，作为比较早转型互联网的全能券商，2018年8月宣布包含股票、期权、共同基金、ETF等资产在内的广泛零佣金制度。</p>
-<p>直到届时美国最大的两大零售券商——<strong>富达投资2018年8月、嘉信理财2019年10月宣布广泛免佣，才算真正将免佣之风推向高潮。</strong>很快在一周内，TD亚美利、亿创、富达也先后陆续宣布免佣。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_0370aecc5a8f4a1a8abfc3f8ef0bdc82@000000_oswg81997oswg1002oswg504_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对于零售经纪的老大们为何晚了5、6年才推出广泛免佣，海豚君认为，可能与他们对免佣后短期业绩的影响有所担忧。毕竟嘉信、亚美利、亿创、富达，在当时都是上市公司，如果交易收入占比过大，那么对整体业绩的影响也不会小。</p>
-<p>而海豚君发现，当嘉信在宣布免佣时，2017-2018佣金收入只有总营收的5%多，是历史最低水平，<strong>因此选在这个时机推出免佣，可能也是为了最小化短期对公司业绩的影响。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_8b295c9f91a248e4bb29aff5fc35de1b@000000_oswg240788oswg1080oswg497_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过虽然竞争激烈，但零售老大们推出免佣金，反而让还是小微机构的Robinhood，以<strong>第一个举起“广泛免佣”大旗的券商标签</strong>，蹭到了一些热度。再加上加密货币的行情，从2017年至2019年疫情前夕，Robinhood用户增长CAGR超90%。2020年之后，因为疫情，有了水牛和线上宅经济的红利，用户规模直接翻倍。不过21年之后，随着股市进入平淡期，在竞争的压力下，Robinhood的获客快速放缓。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_cb7892aacbf8442f804702b2d8b02326@000000_oswg103595oswg1080oswg490_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>2、嘉信做“深”vs Robinhood做“广”</strong></p>
-<p>下面海豚君拿嘉信做对比，来讨论Robinhood的发展思路差异。</p>
-<p>虽然都是靠打价格战和技术起家，但嘉信的发展路径和盈利模式，与Robinhood还是有很大区别的。当然，这与两家券商崛起的时代差异、目标定位差异都有一定关联。</p>
-<p>嘉信能够发展到美国第一大零售经纪商，实际上抓住了<strong>折扣佣金、互联网技术变革、财富管理</strong>等三波浪潮，最终实现业务转型。</p>
-<p>在这三次浪潮下，嘉信完成了不同类别用户的破圈：</p>
-<p>折扣佣金吸引对咨询服务需求不高但对佣金更敏感的中小用户，互联网变革吸引了年轻用户，财富管理则吸引了资产相对雄厚的中老年用户和年轻新贵们。</p>
-<p>当然，通过折扣佣金吸引而来的用户，也会因为嘉信提供了更多的交易品种、互联网交易的迭代优化、财富管理服务的推出，长期留存下来。</p>
-<p>相比于需要不断降低佣金来维持竞争优势的经纪业务，财富管理业务的前景看上去更加星辰大海。因此在此后的近30年，也就是在2019年推出免佣政策之前，<strong>嘉信一直追求的是吸引长期稳定投资的高净值客户，以期望能够实现稳定的客户规模以及更多的资管增值收费。</strong>这从嘉信早早的推出起投规模并不低的自营基金、投资咨询服务能够看出来，嘉信有一颗向往从卖方变买方的心。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_4b53f17a66c2466eb6cb53109031e131@000000_oswg486281oswg1080oswg578_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而反观Robinhood，则力在渗透更多的中小投资者。这类用户的特征，一方面资金规模较低，比如Robinhood的单客资金规模，要远远小于同为零售券商的嘉信等其他。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_cbbbd6e12bed4d9ca4442cb0c789a00d@000000_oswg79780oswg1008oswg474_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>另一方面，这部分用户群体从数量上看并不低</strong>（前文提到GenX群体参与过股票投资的渗透率为30%）<strong>，</strong>只是过往的经纪商对这部分资金有限、投资知识有限的群体，而并未将其纳入到可触达的用户名单。</p>
-<p>因此Robinhood成立之后的发展思路，不是像嘉信那样去吸引高净值，而是按照这部分用户特征（资金规模低、交易频繁、爱分享交流），通过多种营销手段、定制服务，来做这部分群体的“用户渗透”和“高粘性”。这一系列操作确实有点符合创始人所追求的“Democratize Finance（金融民主）“意味。</p>
-<p><strong>a. 社媒炒作&amp;激励营销：</strong>通过社交平台吸引年轻投资者，利用激励游戏、口碑影响力进行宣传。</p>
-<p>早期获客主要靠“免佣”在社交媒体中的宣传，收割了第一波用户后，平台陆续对期权、加密货币、Gold等基础股票交易之外的服务设定了权限，用户需要等待审核，而Robinhood有意设计了一个推荐激励的游戏：</p>
-<p>当用户在等候名单时，Waiting list会显示他的排名（名次往往很靠后），而如果他推荐朋友加入Robinhood，那么他的排名会向前靠。</p>
-<p>无论是期权还是加密货币，都是Robinhood核心用户感兴趣的热门交易，因此这种激励游戏下，老用户推荐新用户加入的动力就会比较强。但实际上，这种类似一种完全由平台控制的“饥饿营销”。</p>
-<p>后期Robinhood还喜欢借助事件炒作营销，最典型的案例就是GME散户大战华尔街。在Robinhood限制交易GME之前，靠着这一波的炒作，Robinhood也大大获得了一批激进、活跃的交易用户。</p>
-<p><strong>b. 降低门槛：</strong>既然目的是推行金融民主，那么降低门槛是必须的。</p>
-<p>一方面Robinhood简化平台UI，交易页面只显示价格走势和醒目的买卖按钮，并且以吸睛的红绿颜色来实时体现涨跌变化。减少复杂的信息量集中扎堆到用户面前，而是以各种热门股票榜单如“Top Movers”来代替和影响用户决策，让用户认为投资像游戏一样简单、有趣。</p>
-<p>不过，Robinhood也提供了一些投资学习课程、机构报告（晨星）和交流社区，供小白用户补充投资知识。</p>
-<p>另一方面，针对用户资金规模较低的问题，为了让那个更多的用户提高交易活跃度，Robinhood于2019年推出了碎股交易，这尤其对于喜好科技巨头的散户来说是，大大降低了投资门槛。</p>
-<p>比如在拆股之前的亚马逊每股价格有3000多美元，以2020年Robinhood平均单客资金规模4000美元来看，在不使用杠杆的情况下，这最多只能买卖1股。但在碎股机制推出之后，用户可以1/15的价格去参与购买。</p>
-<p>此外Robinhood还提供较低的融资融券利率（主要的零售商能够与其一拼的只有盈透），使得散户可以更低的成本使用高杠杆来交易股票。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_85cbc9afaea04cc89f0e0aaa3a8c8cfd@000000_oswg132987oswg1080oswg455_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>c. 多市场交易：</strong>论股权类产品丰富度，Robinhood不一定比得过老牌的龙头机构。但对于<strong>加密货币交易来</strong>说，Robinhood是唯一一家做到了不仅最早引入交易市场，同时也施行零佣金的零售经纪商。</p>
-<p>其他Robinhood的竞争对手们，同为高人气的在线零售经纪商，比如嘉信、E-Trade出于资产风控角度，并未引入加密货币市场，而也有一些如Webull的机构引入了加密货币，但并未像股权市场那样实行免佣制度。</p>
-<h2><strong>三、PFOF，零佣金的精髓</strong></h2>
-<p>也正是因为嘉信与Robinhood的目标用户不同，因此两者的商业模式也有本质差别。</p>
-<p>对于嘉信来说，最初无论是通过折扣佣金还是产品功能吸引而来的交易用户，<strong>后期都会被逐步引到财富管理的增值服务</strong>上来（购买OneSource平台的基金、投资咨询服务），同时2003年成立的嘉信银行，也能在用户将资产挪到嘉信平台进行统一管理后，通过吸纳用户的闲置资金，并反过来放贷来赚取息差。</p>
-<p>因此后两者业务的收入规模，<strong>资产管理收入、利息收入</strong>才是嘉信的主要收入支柱，交易佣金收入的贡献占比则一直因竞争而被挤压，直到嘉信也推出零佣金（股票、ETF、期权）之后，占比才有所提升。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_3b971d2819d24560965e4f2ab842cef5@000000_oswg162274oswg1080oswg504_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>不过对于Robinhood，生意模式就不同了：</strong></p>
-<p>一方面，既然是零佣金，自然无法从用户手中获得什么，而是通过将订单流（order flow）卖给做市商来赚取费用，<strong>也就是PFOF（Pay For Oder Flow）机制。</strong></p>
-<p>另一方面，更大的挖掘价值来源于Robinhood围绕“交易经纪”推出的一系列服务，比如保证金融资、股票借入借出、信用贷款等可以产生利息收入，以及随用户数增长的Gold会员订阅等。</p>
-<p><strong>因此对于Robinhood来说，做市商分佣的交易收入、融资融券的利息收入是目前的顶梁柱。</strong>相比于嘉信的意向是将用户往财富管理上引流，Robinhood更愿意用户频繁使用高杠杆来进行融资融券交易。这种思路下，自然是<strong>资金规模不大但风险偏好更高的年轻投资者</strong>更适合成为Robinhood的核心用户。</p>
-<p><strong>由于篇幅原因，本文主要介绍Robinhood在经纪业务上的商业模式，对于上述的利息收入，Robinhood在其中玩出了不少花样，具体业务运转和商业模式介绍，海豚君放到下一章节来详细讨论。</strong></p>
-<p><strong>1. 做市商制度是PFOF存在的基础</strong></p>
-<p>免佣下的PFOF商业模式，是Robinhood于2014年首创采用。PFOF能够运转的基础在于<strong>做市商制度</strong>，做市商是一种“另类投资者”，主要通过在市场中高频买卖来获取价差收益。</p>
-<p>对于经纪商来说，它可以将投资者报给它的订单流发送给公开的交易所进行撮合，也可以发给做市商进行撮合。但交易所的股票报价最小价格单位是1美分，即0.01美元，而做市商的报价单位最低能够给到0.1美分，也就是0.001美元。</p>
-<p>因此就会出现下述情形：比如一只股票，交易所的最优买价和最优卖价分别为100.64美元、100.65美元，意味着买卖价差为0.01美元。但如果给到做市商，他可以接受以100.645美元购买股票，然后再以同样的100.65美元挂卖单卖出。</p>
-<p>这样一来，对于想要卖出股票的投资者来说，原先只能100.64美元卖出的股票，现在可以多卖0.005美元/股，因此得到了0.005美元/股的“价格改善”（Price Improvement）。对于做市商来说，它可以赚取100.65-100.645=0.005美元的价差收益，然后再付给经纪商一笔补偿费，比如Robinhood一般收0.001～0.002美元/股，那么剩下的0.03美元收益就是做市商真正的净收益。（如下图模拟所示）</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_6dbd20991f0d405a8c58eba219004c78@000000_oswg127261oswg856oswg836_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>做市商的存在，一般情况下对市场流动性有着正向促进。但对于部分高风险资产，由于做市商需要另外给自己增加一些风险补偿空间，可能反而加大了价差，比如一部分期权交易。</p>
-<p>但对于做市商来说，能够赚取价差的重要原因，是要匹配到足够多的交易对手来促成成交。否则在吃下买单的同时，自己的卖单短期内无法成交，则会大大影响自己收益。</p>
-<p>这也意味着，做市商有较强意愿付出一定成本，来获取报价订单流。而订单流的拥有者，恰恰以零售经纪商居多。因此，面向用户免佣需要靠其他来变现的Robinhood也就自然与做市商谈成了合作。</p>
-<p><strong>2、PFOF避不掉的BUG</strong></p>
-<p>在做市商制度中，经纪商承担提供平台的中介服务，实际上需要保持独立性。<strong>但在PFOF制度下，经纪商单边收取利益，独立性缺失，也就不可避免的会出现付钱方的不公平局面。</strong></p>
-<p>尤其是，如果经纪商将全部的订单发送给少量做市商，那么用户只能与可能报价并不优的做市商进行成交。例如上述案例中，做市商报买入价不是加价到100.645，而是选择相比交易所更低的价格100.630，那如果投资者急于卖出的话，就只能在以牺牲0.01美元/股的代价来达成交易。</p>
-<p>这显然违反了美国N BB O的<strong>“订单保护原则”</strong>（场外交易报价需要等于或优于同时间的交易所报价），对于潜在的不公平风险，美国SEC曾有意禁止PFOF。</p>
-<p>虽然后来还是允许PFOF存在，但规定了经纪商需要向投资者做PFOF交易相关的信息披露，与做市商之间的利益关系。同时还需要做市商定期披露实际报价是否遵循订单保护原则。</p>
-<p>理论上来说，避免不公平交易或违背最优报价原则，最直接的方式是让经纪商保持严格独立，或者做市商充分报价。</p>
-<p><strong>1）经纪商严格独立：经纪商不收取PFOF费用</strong></p>
-<p><strong>2）做市商充分报价：引入大量做市商参与报价，或同时保持场内、场外交易。</strong></p>
-<p>但上述理论办法，实践起来还是不轻松：</p>
-<p>1）只有少部分不依赖交易收入的经纪商可以做到；</p>
-<p>2）由于金融业逃不掉规模效应，因此发展相对成熟的做市商市场也是一个偏向寡头垄断的市场。</p>
-<p>如下图中，场外交易的部分占了总交易量的43%，除了券商内部的暗池交易10%外，剩下的34%就是做市场来完成的交易。而这34%中，Citadel一家独大，其次是Virtu占比也不低，光TOP3就占了做市场市场的绝大部分。</p>
-<p>因此，引入更多的做市商理论上可以减少不公平风险，但实际效果要打折扣。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_d6155ca7eae2483db29d127a37d2da20@000000_oswg229002oswg1080oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>毕竟做市商们的报价可能都满足“订单保护原则”（优于交易所报价），但做市商之间报价也有优劣之分。经纪商可能出于做市商们给出的不同分佣比例，选取高分佣但买卖报价对用户并非最有利的做市商。</p>
-<p>如下图中，靠PFOF获利的Robinhood和亿创，其EFQ（有效价差/总买卖价差）要明显打过不收费的经纪商，但Robinhood的PFOF费率却相对较高。</p>
-<p>结合起来看，合理怀疑Robinhood为了PFOF收益，将用户的订单流卖给了能够承担高费率，但报价较次的做市商。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_d091256c23384acfa23ce6d86a84f9cc@000000_oswg61184oswg1080oswg434_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_edd823d699444696a91293ac405854d5@000000_oswg137501oswg1080oswg491_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>至于留下场内交易，在一个给钱，一个不给钱的情况下，对经纪商来说又是一个需要抵抗收益诱惑的选择题。目前来看，美股股票交易市场（标普500标的）因为流动性相对充足，涉足做市商制度的经纪商中，只有盈透证券保持了绝大多数的场内交易，其次是富达（主要是因为他们不收取PFOF费用，因此可以更独立的给到用户更公平的报价）。</p>
-<p>而Robinhood、TD亚美利、嘉信几乎全部为场外交易（做市商），也就是在用户不指定的情况下，订单流全部报给做市商来撮合成交。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_0c41bc17cb2b4f0cad897217c2d2318f@000000_oswg138142oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>因此，考虑这些难以避免的不公平，全球绝大多数国家和地区都严令禁止了PFOF。目前仅在美国地区完全合法，此外，加拿大、澳大利亚部分市场可以采用，但监管机构都较为谨慎，需要接受严格审查。</p>
-<p>对于我国香港地区，存在做市商制度，但是对于PFOF，香港证券及期货事务监察委会员（SFC）明确表示严令禁止。</p>
-<p><strong>3、商业模式并非真正壁垒</strong></p>
-<p>Robinhood的商业模式创新，使得它的免佣游戏能够推出并持续玩下去，但很快越来越多的同行也选择了免佣和PFOF。</p>
-<p>截至2024年二季度，美国全市场股票交易量大约在1万亿股，其中场外交易占了45%左右。而这里面PFOF二季度成交1920亿股，成交量约占整体交易量的19%。二季度期权总成交量约40亿张合约，其中PFOF成交13亿，约占总交易量的33%。</p>
-<p>由于采用PFOF制度的并非所有券商都会和做市商收取费用，因此要看市场份额，海豚君选择还原订单流中含有的股数、期权张数来作为计量单位，看各家零售券商的市场占有情况。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_fca0fb91982a40eb8eea2167ac63575e@000000_oswg469896oswg1080oswg526_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_2b89da026700475493132f1244cb61c7@000000_oswg291574oswg1080oswg479_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_1ed063737d4f4d93ac876c8dcd06ae7b@000000_oswg283134oswg1080oswg479_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>上面几张图放一起对比来看，海豚君发现：</p>
-<p>（1）采用PFOF机制的经纪商并非只有折扣券商或互联网券商起家的零售商们，还出现了Morgan Stanley这个Full-service券商的身影，这得益于它于2020年收购了另一个头部零售经纪商E-Trade。</p>
-<p><strong>E-Trade走了嘉信类似的路径，从交易向理财、资管业务延伸</strong>，在收购之前，E-Trade 2020年拥有600万零售客户，200万机构客户。因此E-Trade也以利息收入为主，30亿总营收中60%是利息收入，第二大收入是咨询服务费，占比也有26%，而与交易直接相关的佣金收入只占12%。</p>
-<p>但这对于过去基本以机构客户为主的Morgan Stanley来说，E-Trade在零售端的影响力能够帮助MS补足零售业务的缺口。</p>
-<p>（2）从整体做市商给各经纪商的订单流补偿费的支付次数来看，<strong>Robinhood目前仍是第一，但嘉信正以更快的势头追赶中，尤其是2023年年底。</strong></p>
-<p>虽然存在多笔订单合并一次支付的情况，但趋势上还是当支付次数越高时，说明经纪商发给做市商的订单数也越多。</p>
-<p>（3）而还原到实际股数/期权张数的交易中，Robinhood在PFOF的期权交易量相对领先，但在PFOF股票交易上显著落后嘉信、TD亚美利。Morgan Stanley在收购合并了E-trade后正在快速追赶，规模量级上已与Robinhood相当。</p>
-<p><strong>综合&lt;1-3&gt;，实际上Robinhood在PFOF上市场份额并没有预料中的那么一骑绝尘。</strong></p>
-<p>而在免佣潮高峰——2019年下半年之后，短短一年不到，拥有更高的用户优势（账户数、单客AUC）的老牌零售商，很快就将PFOF的规模追赶了上来（这其中还包括这些零售商本身并没有100%的将订单流给到做市商）。</p>
-<p>TD亚美利甚至在美股表现不佳的期间，依靠老牌零售商们的用户粘性，使得PFOF规模超过了Robinhood；而势头正盛的嘉信以及拥有了E-Trade的传统券商Morgan Stanley也在虎视眈眈。</p>
-<p>当然，你可以说Robinhood的用户更年轻、社区活跃、交易更频繁，而且随着年龄的增长人均账户资金还可以继续上升，但至少在交易经纪这一块，海豚君认为Robinhood逃不掉零售前辈们走过的路，单纯看交易业务的竞争壁垒，其实并没有想象中那么高：</p>
-<p>不可否认，PFOF仍然是Robinhood发展史最浓墨重彩的一笔，也正是由于这样的商业模式创新，使得Robinhood有底气打响“免佣第一枪”，也带来了此后近6、7年的获客先发优势。<strong>但随着免佣成为零售经纪商的主流，仅靠免佣再难成为Robinhood低成本获客的杀器。</strong></p>
-<p>1）2021年Robinhood的交易收入在牛市期间却在快速放缓，竞争无疑产生了不小的影响。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_47d24dfff1494c6798dee378e0a72e5f@000000_oswg154058oswg1080oswg529_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2）海豚君计算的人均获客成本，在免佣潮之后的2020年，尚且因为牛市+疫情还能保持低位，但仍然抵挡不住后续一路走高的趋势。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241012/v2_8d797d9cfa7b4801b757d53476f2e39e@000000_oswg126369oswg1080oswg529_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>除此之外，PFOF的不公平问题，只要Robinhood收了做市商的钱，就难以根本解决（做市商将这部分费用成本，通过报价转移到用户身上）。</strong>虽然当下还不是主要问题，但我们认为仍然是一颗不大不小的定时炸弹。</p>
-<p>1）用户利益存在的潜在受损问题（报价非最优，有效价差较高），会随着竞争愈发激烈而被挑明，部分用户可能会通过强制要求发送订单到交易所或者直接流出到竞争对手来表达排斥。但流量（用户以及用户交易活跃度）是支撑PFOF商业模式顺利运转的核心基础。</p>
-<p>2）大部分地区并不许可PFOF，如果继续依赖PFOF的商业模式，影响Robinhood全球化发展。</p>
-<p><strong>可以预见，Robinhood最后可能也需要走从单一向多元转型的发展之路，来减少股市对收入的波动影响，以及提高用户粘性。</strong>目前通过Robinhood Gold来尝试做的电子消费支付、信用卡以及养老金投资理财等业务，已经隐隐看到这个趋势。</p>
-<p><strong>万变不离其宗，一如海豚君在第一部分提到的用户代际变化与券商竞争结构的变化，Robinhood最核心的壁垒还是在于用户本身。</strong>Robinhood是伴随着GenZ时代用户成长的一款金融软件，前辈们成功经验表明，只有从这部分核心用户的需求出发去尽早延伸、迭代相应的功能和服务，才能保持自己保持长期的相对优势。</p>
-<p>在PFOF越来越被同行模仿，先发优势被快速削弱时，做市商分佣收入的增长也受到了影响，尤其是2022年下半年至2023年上半年市场平淡期。那么Robinhood是如何通过商业模式的创新，将同样离不开市场波动影响的利息业务，来弥补交易收入带来的部分缺口呢？下一篇海豚君将详细介绍，敬请期待。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg4MTUyNzI1Mg==&amp;mid=2247548509&amp;idx=1&amp;sn=899bef5e828c8433e22f7f53ea97e612&amp;chksm=cef476fcd5e74f378d0a2fab541d6d5a292f16447a293aa6c9295dc8ca38d1d218ef331775b4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“海豚投研”（ID：haituntouyan）</a>，作者：海豚君，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989470162659591</guid><pubDate>Mon, 14 Oct 2024 08:49:00 +0800</pubDate></item><item><title>国产品牌成巴黎车展顶流，“中系车”正在全面超越日系德系车？</title><link>https://36kr.com/p/2989481257049986</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>当年享誉全球的全球五大车展开始变样：日内瓦车展官宣不再举办，原来的法兰克福车展换成了慕尼黑车展，与巴黎车展、东京车展、北美车展合并成“新全球四大车展”。</p>
-<p><strong>在车展格局变化的同时，车展上的面孔同样已斗转星移：中国品牌，正在逐渐取代日系车、德系车成为新的顶流。电车通观察到，比亚迪、长城汽车等多家国产品牌携最新的新能源产品曾多次在国际车展亮相，给欧美市场带来一些电气化方面的技术性震撼。</strong></p>
-<p>10月14日，“新全球四大车展”之一的巴黎车展将拉开序幕。相比往届，这次参展的车企在数量上有所上涨，国产品牌阵营中比亚迪、问界、红旗、小鹏、创维等已确认参展，而且即将亮相的重磅新车并不少，很有可能会成为这届巴黎车展的最大看点。</p>
-<p class="image-wrapper"><img data-img-size-val="1887,1089" src="https://img.36krcdn.com/hsossms/20241012/v2_079aa046593145149a399ed9dd511204@5687509_oswg1370739oswg1887oswg1089_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：电车通摄制</p>
-<p>废话不多说，下面直接盘一盘这届巴黎车展上的重磅新车，看看这些新车是否真的具有竞争力。</p>
-<h2><strong>零跑B10：10万左右也能配备高阶智驾？</strong></h2>
-<p>零跑汽车已经官宣，全新B系列产品零跑B10将会在巴黎车展迎来首发亮相，顺带还发布了零跑B10的黑棚图。零跑B10定位为紧凑型SUV，这些黑棚图主要透露了新车的灯组设计、车身腰线以及部分设计细节信息，比较吸睛的一点是不规则间断设计的前后灯组。</p>
-<p class="image-wrapper"><img data-img-size-val="800,600" src="https://img.36krcdn.com/hsossms/20241012/v2_f47525847b8f462f8ac88bb315ccb1a0@5687509_oswg19523oswg800oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：零跑汽车</p>
-<p><strong>然而，产品亮点确实很容易发现，卖点往往会藏在细节里。</strong></p>
-<p>从车身侧面黑棚图得知，零跑B10的车顶有一个小突起，和其他车型一样配备瞭望塔式激光雷达，基本可以确认零跑B10会配备高阶智能驾驶系统。</p>
-<p class="image-wrapper"><img data-img-size-val="800,600" src="https://img.36krcdn.com/hsossms/20241012/v2_577b89eb190549d8a4c2eb470f93af2f@5687509_oswg20012oswg800oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：零跑汽车</p>
-<p>这一技术放在现在其实并不稀奇，20万元左右的产品都有提供，但如果告诉你这是一款15万以内的产品呢？<strong>电车通了解到，零跑B10基于全新LEAP 3.5架构的B平台打造，按照零跑汽车的规划，零跑B系列车型将聚焦10万元-15万元这一细分市场。</strong></p>
-<p>至于高阶智驾，电车通认为零跑B10的高配版才会配备高阶智驾系统。纵观国内市场，高阶智能驾驶逐步下探到20万元以内市场，比如新上市的深蓝S07、埃安AION V霸王龙、小鹏MONA M03等等，车企所说的“智驾平权”确实在逐步实现。</p>
-<p class="image-wrapper"><img data-img-size-val="1920,1440" src="https://img.36krcdn.com/hsossms/20241012/v2_a01cc2d2be8a4186b8412e3dcc8f999a@5687509_oswg516902oswg1920oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：零跑汽车</p>
-<p>从零跑C系列的性价比可以看到，零跑的控本能力确实很强，但通过开源节流实现第二季度盈利的小鹏汽车，也有很强的控本能力，旗下的小鹏MONA M03搭载了支持城市NGP和高速NGP的XNGP智能辅助驾驶系统，但目前只有指导价为15.58万元的顶配版才能实现。</p>
-<p>零跑B10是SUV，按理来说制造成本会比同级别的轿车更高，再加上高阶智驾的应用，要想10万出头就配备高阶智驾确实很难。</p>
-<h2><strong>小鹏P7+：预售价疑似已被曝光</strong></h2>
-<p>10月10日，小鹏P7+迎来正式首发，并确认会在巴黎车展上开启预售，计划在11月份迎来正式上市。关于小鹏P7+的亮点，官方此前已经公布得差不多了，比如采用端到端大模型赋能的AI鹰眼视觉方案和AI天玑XOS、出色的空间表现等等。</p>
-<p><strong>就在最近，网上曝光了小鹏P7+的疑似预售价——21.99万元起，欧洲版则是28500欧元起。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1757,1279" src="https://img.36krcdn.com/hsossms/20241012/v2_32fe397edf1949dba4c1257ddaf71d1c@5687509_oswg326115oswg1757oswg1279_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：@烟隐烟隐</p>
-<p>当然，毕竟这不是官方消息，可信度存疑，不过如果要以这个价格为基准来分析小鹏P7+，平心而论电车通并没有感到太多的意外。小鹏P7+的定位要比小鹏P7i略高，但得益于控本能力，21.99万元起的小鹏P7+与小鹏P7i在价格方面有较为明显的重叠。</p>
-<p><strong>不少用户更倾向于“买新不买旧”的购车理念，在两者价格相似下更多消费者可能会挑实用性更高的产品，因此小鹏P7i的市场份额确实有可能被小鹏P7+市场蚕食。</strong></p>
-<p>除此之外还有一点是小鹏P7+的竞争力。在20万级别的中大型纯电动轿车市场，小米SU7、极越07、智己L6等都将会是小鹏P7+的主要竞争对手，对比之下，小鹏P7+已经呈现出很强的空间表现，但在续航和性能方面，反而是小米SU7、极越07等硬实力更出色一些。</p>
-<p class="image-wrapper"><img data-img-size-val="1637,1006" src="https://img.36krcdn.com/hsossms/20241012/v2_d47dab587f264b7fbab7208347e97590@5687509_oswg949998oswg1637oswg1006_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：工信部</p>
-<p>数据显示，小鹏P7+的零百公里加速时间为6.8s和5.6s，纯电续航里程有602km和710km，暂时没有提供双电机四驱版。反观小米SU7和极越07，其入门版的性能和续航反而都要比小鹏P7+入门版更突出。</p>
-<p>小鹏汽车的智能表现确实很出色，但现阶段的大部分纯电动车潜在消费者，其实还是比较看重性能、续航等关键参数的。<strong>如果小鹏P7+后续能推出四驱版，或者能给出20万元以内的起步价，在空间优势的加持下，相信小鹏P7+会更有竞争力一些。</strong></p>
-<h2><strong>创维：一口气推出三款新品</strong></h2>
-<p>除了这两家新能源车企之外，比亚迪、问界等大部分比较知名的品牌都只是亮相在国内已经上市的新款产品，比如比亚迪海狮07等等，算不上惊喜。需要留意的是，市场份额没有那么高的创维汽车，反而是大招最多的车企，在巴黎车展直接亮相三款全新产品。</p>
-<p class="image-wrapper"><img data-img-size-val="4096,3072" src="https://img.36krcdn.com/hsossms/20241012/v2_ff456ad20b6e4875974368c599965b05@5687509_oswg3945569oswg4096oswg3072_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：电车通摄制</p>
-<p><strong>电车通了解到，这三款新车分别是比现款创维EV6（中型SUV）还要小一点的SUV、拥有三米长轴距和豪华座舱的轿车以及针对欧洲市场的VAN。</strong></p>
-<p>其中，能兼顾拉客和拉货两个属性的VAN已经提前获得不少欧洲市场的订单了，而SUV将会在明年推出市场，轿车的价格可能超过20万元。</p>
-<p>国内新能源市场的竞争过于激烈，创维汽车虽然有商用车的制造经验，但转型到乘用车市场的时机还是不算特别早。<strong>因此，已经决定重注海外市场的创维汽车，为了尽可能吸引海外用户，才将这么多款新车放在巴黎车展首发。</strong></p>
-<p>相比其他新能源品牌，创维汽车其实已经确定了自己的发展方向，决定卷充电技术、AI、健康座舱等方面。电车通曾经体验过创维汽车的智能座舱和健康座舱，不仅具备健康座椅、心率扫描等服务，还能通过健康大模型检测车主健康。</p>
-<p class="image-wrapper"><img data-img-size-val="4096,3072" src="https://img.36krcdn.com/hsossms/20241012/v2_7db142a3b353471db59fa817c21a494b@5687509_oswg3702713oswg4096oswg3072_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：电车通摄制</p>
-<p><strong>还有一个技术比较亮眼，创维汽车依靠800V平台的技术优势，已经可以实现“充电8分钟，续航800里”的补能体验，能够实现车对车、车对家、车对柜能源互联的“100kW-4C直流放电技术”，还是全球首创。</strong></p>
-<p>品牌打开知名度这一过程确实很难，但始终坚持用技术和产品来影响消费者，完全有希望打开全新局面。</p>
-<h2><strong>智能电动化对海外品牌冲击有多大？</strong></h2>
-<p>电车通留意到，虽说这届巴黎车展的参展车企要比往年多，但依然有不少品牌决定不参加2024巴黎车展，比如梅赛德斯-奔驰、日产、沃尔沃、现代等等。</p>
-<p>再看其他即将参展的新车，作为东道主的法系品牌，雷诺、标致基本以新能源作为主旋律，标致将推出新款e-3008、新款e-5008以及标致e-408，雷诺还会推出Mobilize Duo、雷诺 4 E-Tech、雷诺Twingo等等。</p>
-<p class="image-wrapper"><img data-img-size-val="1491,900" src="https://img.36krcdn.com/hsossms/20241012/v2_260ef67944a143bca632e05fabad2406@5687509_oswg1166495oswg1491oswg900_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：标致汽车</p>
-<p>除此之外，宝马MINI还计划首发亮相两款全新John Cooper Works E高性能纯电动车，福特将首发小型纯电动SUV福特Puma GEN-E，基本将重磅的新能源产品放在巴黎车展上。</p>
-<p>在国产品牌新能源浪潮的冲击下，海外品牌在国内新能源市场基本占据不了太多的便宜，虽说欧盟对中国汽车进口征收临时反补贴税，但为了进一步扩大影响力，出海必然是国产品牌的下一步选择。</p>
-<p>所以，为什么不少知名品牌不愿意参加巴黎车展呢？</p>
-<p class="image-wrapper"><img data-img-size-val="1495,993" src="https://img.36krcdn.com/hsossms/20241012/v2_af73e34fb1ee4bc09fa7bc7db211f1a3@5687509_oswg1278887oswg1495oswg993_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：电车通摄制</p>
-<p><strong>电车通认为，首要原因还是这些品牌参展的热情逐步消退。</strong>不得不说，汽车行业的利润在逐步降低，大众、本田等多家车企都曝出裁员的消息，而高昂的参展成本是不小的负担。相比大型国际车展的营销属性，车企可能对参展成本更低的促销车展更感兴趣，或者把钱花在刀刃上，通过发布会或者其他营销手段来推广产品。当然，不少车企在电动化的转型速度太慢，暂时没有一款能上得了台面的新车。</p>
-<p><strong>其次，这些大型国际车展的影响力在逐步下降。</strong>国内市场的消费需求更高，尤其是新能源领域在全球各大地区都是独一档水准，海外车企更倾向于将重磅产品放在中国首发。</p>
-<p><strong>国产新能源品牌正改变国际五大车展的发展走向，按照这个趋势发展下去，国内四大A级车展说不定能抢占“新全球四大车展”的部分名额。</strong></p>
-<p>本文来自微信公众号“电车通”，作者：电车通，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2989481257049986</guid><pubDate>Mon, 14 Oct 2024 08:49:00 +0800</pubDate></item><item><title>《749局》，也没把王中磊拉出坑</title><link>https://36kr.com/p/2990497891118085</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>王中磊可能万万没想到，他预判将成为中国科幻电影代表作的《749局》，扑街了。</p>
-<p>这部华谊兄弟主控、陆川执导的电影，如今豆瓣口碑4.1分，一些观众看完后甚至要求“退票”，连锁反应是票房的滑铁卢。截至10月7日24时国庆档结束，这部电影的票房仅3.57亿元，位列同档期票房第三。</p>
-<p>这已经不是王中磊第一次“没赶上趟”。自2016年从王中军手中接棒CEO以来，华谊兄弟主控影片在票房上多半没溅起水花。今年上半年，受报告期内影片《非诚勿扰3》票房不及预期，华谊兄弟营收同比下降了9.05%，跌至3.08亿元。</p>
-<p>而此前春节档《你好，李焕英》《流浪地球2》等爆款，这家公司都只是联合出品方，投资收效甚微。</p>
-<p><strong>影片“漏押”“错押”背后，是王中磊对导演冯小刚、管虎等“老炮儿”多年的路径依赖。</strong>不同于陈思诚的壹同制作、宁浩的坏猴子影业旗下已有多位85后、90后导演崭露头角，华谊兄弟方面对《中国企业家》表示，“近期公司没有导演相关的人才培育计划。”华谊兄弟上一次公开披露详细的新影人计划，还是在2020年。</p>
-<p><strong>而在主营业务上的保守投资策略，可能也迫于公司账面资金的不足。</strong></p>
-<p>本世纪初以来的头十几年里，王氏兄弟在战略方面信奉资本的力量，一猛子扎进一个新领域，疯狂投钱。王中磊上任后，没落下实景娱乐、元宇宙、AIGC、短剧等任何一个风口。就像他哥哥曾经投资手游、高价并购许多影视公司一样。但重投资、轻运营，加之外部环境的变化，截至今年上半年，华谊兄弟的资产负债率仍达76.93%。</p>
-<p>是时候该摒弃不良资产、为电影业务腾挪出更多资金了。</p>
-<p>近几年，华谊兄弟已经在尝试“大船掉头”，收缩了自己的业务规模：剥离游戏公司、文旅公司中的不良资产。</p>
-<p>今年7月底，王中磊又向前迈进了一步，以收购价的1/3“贱卖”了由冯小刚创立的浙江东阳美拉传媒有限公司（以下简称“东阳美拉”），用以偿还对阿里影业的债务。尽管根据华谊兄弟披露的数据，东阳美拉从2015年到2023年均实现盈利，合计利润超过5.6亿元。但2年没完成对赌协议、票房不及预期，东阳美拉可能被认为已不再能驱动华谊兄弟的增长。</p>
-<p>只不过，对于王中磊来说，想要真正救活华谊兄弟，除了吐故还需纳新，需要更完善的人才机制，持续为这家公司提供内容活水。</p>
-<h2><strong>《749局》扑了</strong></h2>
-<p>“《749局》会是一部爆款，陆川不用紧张。”在正式上映前的影片发布会上，王中磊对这部科幻电影信心满满。这部电影以真实机构为背景、结合科幻元素，讲述的是奇人异士打怪兽的故事。</p>
-<p>10月1日上映首日，《749局》以35.1%的票房占比在院线领跑。但原创性不足、本土性不显著、难以激发观众的爱国情感……这些被媒体和影评人指出来的内容弊病，导致电影票房高开低走。</p>
-<p>据36氪对陆川的专访，《749局》的投资总额高达3.5亿元。按照制片方可以获得票房33%的收益来看，<strong>这部影片需要拿到10.5亿元以上票房，投资方才能保本</strong>。而截至10月10日20时，灯塔专业版预测的影片最终总票房为3.79亿元。</p>
-<p>《749局》的惨淡票房，算是近几年来华谊兄弟电影业务布局的缩影。回顾王中磊从制片人转变为CEO以来这8年，<strong>尽管外部环境在不断改变，但在主营业务投资方面，他主要在守城</strong>：与冯小刚、陈凯歌、管虎、陆川等第五、第六代导演合作，没有押注郭帆导演等新锐实力派。</p>
-<p>可市场不会停滞不前。</p>
-<p>在王中磊从业的这三十年里，2018年，范冰冰的阴阳合同风波，让华谊兄弟意识到绑定明星的巨大风险。而转变的不仅是影视行业的资本结构和投资逻辑，也包括很多其他要素：观众群体、观影习惯、电影产业链等等。</p>
-<p>院线观众的主力军，已经从60、70后，变成90、00后；80、90后创作者从创作思路、内容题材方面更接近当下观众，科幻、悬疑题材在喜剧之后抢夺大银幕，“冯氏幽默”不再引领时代，而《年会不能停》《流浪地球》，拥趸者众。</p>
-<h2><strong>大手笔</strong></h2>
-<p>早些年，华谊兄弟电影公司能够成功，可谓“时也势也”。</p>
-<p>至少在一定时期内，王氏兄弟风光无限。在2010~2015年期间，王中军完成了对东阳美拉、东阳浩瀚等影视工作室的高溢价收购，绑定了冯小刚、李晨等明星，在大片中赚得盆满钵满；他还出资近1.5亿购入掌趣22%的股权、入股韩国HB Entertainment公司……仅掌趣科技一家公司，华谊兄弟就套现了20多亿元。</p>
-<p>然而，巨额投资英雄互娱给这一连串并购埋下了暴雷的“种子”。刚好赶上手游风光不再，英雄互娱面临重大资产重组，当年的税收风波也进一步扩大了华谊兄弟的资金危机。</p>
-<p>之后走上台前的王中磊，最初依然在延续砸钱的策略。他想把华谊兄弟的电影IP做大做强、打造实景娱乐，耗巨资建造了数个主题乐园，仅苏州的华谊兄弟电影世界总投资就达35亿元。</p>
-<p>2016年正是实景娱乐如火如荼的起点。迪士尼、环球影城带着最火的功夫熊猫、哈利波特等IP，同年进驻中国。也是在那一年，全国文旅产生的收入高达3.9万亿元。</p>
-<p>王中磊最初对实景娱乐信心也很足。2017年，他在采访中提到，华谊兄弟做主题乐园，更多基于自制的电影IP。在他看来，“华谊是累计优秀电影IP最多的公司，也是对IP完整性保护最深的公司。”</p>
-<p>但现实很骨感。据华谊兄弟财报，自2019年~2023年，其品牌授权与实景娱乐业务在全年收入占比分别为2.71%、9.15%、2.81%、2.6%和1.06%。这块业务对财报的贡献，一直杯水车薪。</p>
-<p>“专业的事要让专业的人来做<strong>。华谊兄弟的IP很好，但乐园IP和娱乐项目的交互不足</strong>，从文旅的角度看不够专业。”中国主题乐园院长林焕杰曾对《中国企业家》表示。</p>
-<p>实景娱乐业务的重资产押注也带来大问题。2019年的一次投资者会，王中军反思公司业务时就表示，主题乐园业务占用了几十亿元的现金，影响了电影主业的发展。</p>
-<p>可怕的高负债率来了。2022年~2024年上半年末，华谊兄弟的资产负债率集中在70%~80%，其中，有息负债率达25%~30%。</p>
-<p>这或许也是王中磊被质疑“路径依赖”的另一个原因——<strong>早年资本领域的激进策略还没能扫尾，如今在电影投资领域，不敢再放手一搏。</strong></p>
-<p>也就不难理解，自2019年~2022年，华谊兄弟营收规模不断收缩，从22.44亿元、15亿元、13.99亿元降至4.02亿元。</p>
-<h2><strong>聚焦</strong></h2>
-<p>王中磊仍旧喜欢“捣鼓”新概念，但不再“大手笔”。</p>
-<p>在2022~2024年间，他在各大电影节主打的牌，又增加了元宇宙、AIGC和短剧，不过全是<strong>轻资产探索</strong>。</p>
-<p>2022年10月，华谊兄弟入股一家元宇宙公司，主要用于开发《前任3》相关数字人等产品。该公司的注册资本仅200万元，王中磊持股比例为20%。2024年5月，华谊兄弟推出了自己的短剧厂牌“华谊兄弟火剧”，注册资本同样只有200万元。</p>
-<p>当然，这也是因为他已经没有多少钱可以“折腾”了。</p>
-<p>2019年起，华谊兄弟不得不从“买买买”走向“卖卖卖”，剥离不良资产：2021年4月，华谊控股子公司实景娱乐转让10%的股权给河南建业华谊兄弟文化旅游产业有限公司，形成投资收益5000万元；同年，华谊兄弟完成对腾讯娱乐有限公司部分股权的处置，获得投资收益1.24亿元；同年9月，华谊兄弟继续抛售英雄互娱15%股权，换取了8.7亿元资金……</p>
-<p>王氏兄弟还通过减持股份、股权质押的方式缓解现金流压力。从2020年~2023年，王中军、王中磊在持股权几乎悉数被质押或冻结。</p>
-<p>在此基础之上，据2024年上半年财报，华谊兄弟在连续亏损了5年后终于实现了业绩扭亏。今年上半年归母净利润为2472万元，而去年同期则亏损1.92亿元。</p>
-<p>重新盈利之后，尽管华谊兄弟的营收规模早已今不如昔，但至少有了重新出发的可能性。</p>
-<p>王中磊下一步最应该做的，就是解决主营业务电影的人才梯度建设，虽然很难。</p>
-<p>据第一财经报道，2019年，王中军在看到电影团队存在诸多问题后，强化了对电影业务的管控。回到“绿灯委员会（投资决策会）”后，他对华谊兄弟电影的选片具有一票否决权，但<strong>董事长的重新出山，并没有让影片项目质量有多少改观</strong>。</p>
-<p>与此相对的是，许多独立导演工作室近两年却成绩颇丰。目前在国内，拥有较为完善人才培养机制的影视公司包括坏猴子影业和壹同制作等。二者都是通过“强监制+新人导演+编剧”搭配的方式，提供全产业链服务、助力青年导演迅速成长。比如，在坏猴子影业的机制之下，宁浩挖掘了申奥、路阳、文牧野等导演，这些导演拍摄了《受益人》《我不是药神》《孤注一掷》等作品。</p>
-<p>也是这些工作室培养的新兴导演，撑起了近两年暑期档、春节档的票房。而华谊兄弟与这些高票房影片，多半擦肩而过。</p>
-<p>问题再明显不过，华谊兄弟在内部制片人、合作导演方面，都存在人才老化或者缺位问题。</p>
-<p>正如网飞创始人黑斯廷斯在撰写的《不拘一格：网飞的自由与工作责任法》中，关于人才任用有两句话：<strong>“你必须养成这样一个习惯——如果有把握招到一名更优秀的员工，那就果断地辞掉当前的员工。”</strong>又或者是另一句：<strong>“如果有人打算明天辞职，你会不会劝他改变主意？还是说你会接受他的辞职，甚至是松了一口气？”</strong></p>
-<p>王中磊这次需要下狠心了，该留的就留，该裁的千万别手软。</p>
-<h3>参考资料</h3>
-<p>《华谊兄弟CEO王中磊揭秘：在发展实景娱乐方面我们具备这些优势……》，每日经济新闻</p>
-<p>《华谊兄弟高层反思背后：电影根基不稳，实景开发过重》，第一财经</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTI3NTQ1MTY0MQ==&amp;mid=2650629455&amp;idx=1&amp;sn=315c6f2a09d60c0c143d972ca445ca6a&amp;chksm=7d13995e7f414c27b590f5e0f41cba2764236edb2ac337a8071f0ba6ed3140d574e6f950fb1f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国企业家杂志”（ID：iceo-com-cn）</a>，作者：陶淘，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990497891118085</guid><pubDate>Mon, 14 Oct 2024 08:49:00 +0800</pubDate></item><item><title>00后闯A股：有人日亏1万，有人越挫越勇</title><link>https://36kr.com/p/2990613412866825</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>热血上头的00后新股民原想整顿完职场，再整顿股市，直到一头撞在满屏飘绿的股票界面。股市大起大落间，人类的悲欢竟在这一刻相通了。</p>
-</blockquote>
-<p>号称最难收割的00后，拒绝被房贷车贷压垮，却躲不过股市。</p>
-<p>在过去10天里，中国股市年轻人含量出奇地高。国金证券数据显示，近期新开户的投资者中，95后和00后占比已接近五成。但在热闹的另一面，部分跑步进场的00后已经亏麻了。</p>
-<p>2024年10月9日，持续上涨的A股走势急转直下，全市场超5000只个股下跌，逾3000只个股跌超9%，854家公司跌停。随后几天里，大盘在市场大幅震荡中，稳步下滑。</p>
-<p>“本以为这波股市能让我上福布斯，没想到才一天我就要上征信了。”00后包晏说。钱是外面借的，仓是高位入的，钱是两小时后没的，战绩可查：日亏1万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_6997f3fce9924527a904c2af592c4460@000000_oswg35485oswg1080oswg486_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《繁花》）</p>
-<p>在此之前，A股市场曾一度陷入癫狂：9月24日起，A股仅用5个交易日就攀上了3300点，上涨超20%；到了9月30日这天，A股在集合竞价阶段就已千股涨停，股民们的手机里一片红彤彤。</p>
-<p>面对社交媒体上“这波牛市，是年轻人第一波逆天改命的时代红利”的诱人论调，新股民内心很难不荡起层层涟漪。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_68e7515208dc493e8f02d29628194cf9@000000_oswg57053oswg1080oswg932_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《大时代》）</p>
-<p>就在老股民还在门前踌躇时，决策快、行动更快的00后新股民已先一步动手：有人连K线图都不懂，就敢借钱入市；有人在9月30日当天仿佛“股神”附体，日入2万元，但很快连本带利都亏光了；还有人在炒股被套后，和一起亏钱的股友生出了革命友谊……</p>
-<p>热血上头的00后新股民原想整顿完职场，再整顿股市，直到一头撞在满屏飘绿的股票界面。股市大起大落间，人类的悲欢竟在这一刻相通了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_1d3bc2fccb6b4fe8a2c1b670ceb34374@000000_oswg70133oswg1080oswg710_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《大时代》）</p>
-<p>以下是他们的故事。</p>
-<h2><strong>“借了10万元炒股，我被上了一课”</strong></h2>
-<h2><strong>包晏 25岁 中医学徒</strong></h2>
-<h2><strong>本金10万元 亏损1.6万元</strong></h2>
-<p>我没有金融行业的专业知识背景，连K线图都不懂。对于资本的了解，仅限于之前炒过比特币，还亏了点钱。</p>
-<p>我这样一个小白，不管不顾冒险进股市，实在是因为抵不住近期市场的各种利好。</p>
-<p>9月29日晚上，我开始陆续刷到了关于股市上涨的消息，类似“机不可失时不再来”“这或许是90后、00后第一次人生红利”的行情论调充斥全网。但当时我没太在意，也就看一乐。</p>
-<p>直到第二天，“股民4天人均赚4.7万元”词条登上微博热搜后，我终于有点坐不住了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_68bd2b668e0346008216ed377425a02c@000000_oswg52356oswg1080oswg564_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/微博热搜截图）</p>
-<p>各种财经博主都在发短视频鼓吹股市，5000多只股票只有8只没涨，其他全部疯涨；身边炒股的亲戚也陆续赚到了钱，发来的盈利截图动辄几千到上万元，顶得上普通人一个月工资。</p>
-<p>气氛都烘托到这了，我的心态也发生了巨大变化，就好比路上有10万块钱，再不去捡就被风吹走了，急得不行。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_54f70c3755b544b2b3076790a9bdee0d@000000_oswg43956oswg785oswg606_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《大时代》）</p>
-<p>“再不进去，似乎也说不过去了。”我在心里对自己说。</p>
-<p>9月30日当天，我赶紧着手研究开户，但为时已晚，账户注册直到10月7日晚上才通过，而且因“新手保护期”还不能交易。最后我只好用姥姥的股票账户入的股市，10万元本金还是借来的。</p>
-<p>10月8日，我早早守在手机屏幕前，等待开市。还记得当天早上开盘涨得特别疯，我看好的几个科技股一字涨停，全买不到。虽然没买到心仪的股票，但对小白来讲，市场的火热已然坐实了网上的乐观氛围，也给了我“无脑入市”的底气。</p>
-<p>退而求其次，我选择了并不了解的另一只股票，10万元一口气全投进去了。股票是家里人推荐的，我妈靠着它在9月30日赚了8000元，想一起发财就把我拉着。后来我才知道，她炒了20年的股票，到现在还是亏损状态。</p>
-<p>我进股市的想法很简单，就是想着“赚一波就跑”，所以什么都没有考虑，直接以9.7元/股全仓那一只股票。</p>
-<p>但直到进场后才发现，现实跟我想的完全不一样——买完几个小时不到，大盘就开始跌了。</p>
-<p>当时看到大盘数据，我的第一反应是赶紧卖掉，但怎么都找不到卖出键位。直到查了下百度，我才知道国内股市实行“T+1”交易制度，即当天买入的股票须次日才能卖出，整个人当场愣住。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_4b5d6cc5a5934d028c8ed8c10d2bccaa@000000_oswg79914oswg885oswg851_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《脱口秀和Ta的朋友们》）</p>
-<p>要知道，高位满仓+借钱凑来的本金，我几乎是buff叠满。</p>
-<p>这几天，那只股票起起落落，最低的时候跌到了7.99元/股，我直接亏掉2万元（当然现在是1.6万），连觉都睡不着。可没有办法补救，本金已经all in进去了。</p>
-<p>10月9日，我本来想着就此“割肉”退出，但看了看利息和空钱包，始终不太甘心。别的老股民都说，我现在的心态叫“被套牢”了。这两天又加了几个群聊，想问问那些老手怎么办，有人说这是洗盘，或者技术性回调，众说纷纭。</p>
-<p>直到现在我也搞不懂，明明之前大家都说赚到钱，怎么身边的人都和我一样亏了钱。</p>
-<p>短短几天，我觉得我算是浅浅地尝到了近几年股市的悲欢，我也从“搏一搏，单车变摩托”，到现在只想着“到天台望一望”，既后悔自己为什么不再快点，在9月30日当天下手，也后悔不应该把10万元一股脑全扔进去。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_9baf214b72cc488682c2249d6c4ad3b6@000000_oswg28396oswg1080oswg499_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《繁花》）</p>
-<p>现在，我只希望回本然后马上撤。以后不碰股市了。</p>
-<h2><strong>“相信这波铁定是牛市”</strong></h2>
-<h2><strong>阿信 20岁 大专生</strong></h2>
-<h2><strong>本金3.3万元 亏损358元</strong></h2>
-<p>如果从炒股第一天算起，我算是个00后“老”股民。2014年的A股牛市行情，是我第一次接触股票。当时还在读小学，在公司做私募基金经理的老爸，给了我一个股市账户，让我试试水。</p>
-<p>于是，我把攒了7年的压岁钱全丢进股市。当时纯粹地是走了狗屎运，7000元本金两个月翻了一倍，心里还想“原来炒股这么容易，动动手指头就能赚钱”。</p>
-<p>事实证明，当初那个少年还是太天真了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_b8297eb5778a44caaebff8a3031f00ce@000000_oswg132189oswg1080oswg1646_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《大时代》）</p>
-<p>接下来几年，我还是会时不时投点钱，只是运气已经没了，账户很快又亏回到7000元。</p>
-<p>我本身是一个相对谨慎的投资者，适应不了这种大起大落，好几年没继续碰股市。直到上个月月底，满大街都在喊：牛市来了。</p>
-<p>9月29日，我决定重新“出山”，把暑假打工赚来的1万元都扔到了股市里，但第一天就踏空了——股价高开时我已经全抛了。没有吃到第一波红利，有点不甘心，加上9月30日那天赚了2000元，我毅然决定要加“杠杆”。</p>
-<p>在利好消息满天飞的国庆节期间，我连看了7天的股市复盘，包括每波牛市的启动点、2014年牛市哪个板块涨了多少、当时的龙头股在哪些阶段出现变化……</p>
-<p>从历史里找规律，我越发笃定这会是一波大牛市。为了筹集资金，我找朋友借了3000元，又跟我爸借了2万元——还谈了一个对赌协议，赢了算自己的，亏光了就打工还钱。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f22edd6171dc4f4abfcc51bb0df0a4a8@000000_oswg67830oswg1080oswg787_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《繁花》）</p>
-<p>加上原有的1万元本金，我在节后第一天当了回“补仓狂魔”。</p>
-<p>人算不如天算，10月8日当天的高开低走确实意料不到，身边很多人开盘投的钱都亏了，我是到了下午情绪缓和点才买入，赚了一点。对我个人而言，对比历史走势记录，技术指标可能是我的卖出点；而买入点则是市场的情绪，当所有人都觉得这个股票有戏、有故事时，我会参与进去。</p>
-<p>可事实证明，一切技术和判断在趋势面前荡然无存。接下来几天的调整，让我总计亏了1000多元，好在也不算多。这期间，股民的情绪也在反复横跳，遇上特别大的利好消息，大家都在高喊牛市；当股票指数回调，又有人觉得不过是“水牛”罢了。</p>
-<p>相比之下，我心态还算平和。就算我这次亏了1万块钱，也是重要经验。而且随着经验的累积，我以后的成功率也许会比这次高很多。</p>
-<p>抱着这种想法，我在抖音上做了几期“大学生A股一个月1万变5万”的挑战视频，一方面利用一下自身“大学生”的身份优势，学习下自媒体流量运营；另一方面也是警醒炒股的同龄人。股市的情绪在堆叠后确实会被无限放大。最近几天我也看到不少00后借钱、贷款去炒股，我不倡导这类行为。</p>
-<p>很多人根本不了解股市的可怕。它不只是吃你的钱，更在考验你的人性：当你赚到钱并且越赚越多时，你会不会抽离它？当你越亏越多时，你会不会把它卖出去？像我高中的时候遇到熊市，还想着能逆风翻盘，因为之前赚到了钱，导致我有点贪心，最后也只能亏钱离场。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_122e85852a3b40d9a01f9d4aebbab217@000000_oswg126050oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《繁花》）</p>
-<p>未来，我也会有不再碰股票的时候。都说烟花盛放在最高处，当我身边一个平时不炒股的卖米婆婆，都在问我爸要买哪只股票时，我肯定就不会再碰了。因为所有人都疯狂入市的话，那肯定就是最需要谨慎的时候。</p>
-<p>但现在距离那时候还早，我相信牛市还能持续下去。</p>
-<h2><strong>“这几天，大A股民的悲欢是相通的”</strong></h2>
-<h2><strong>可垚 22岁 生物学硕士</strong></h2>
-<h2><strong>本金21万元 亏损3万元</strong></h2>
-<p>9月26日，是我决定进入股市的时间。从节点上看，我是幸运的，吃到了第一波螃蟹。但也正因拥有过，才知道失去的痛苦。</p>
-<p>我炒股的原因很简单。9月底听闻美国降息，想着外资会寻求进入中国，得找点投资机会。但纵观国内老百姓的投资渠道，除了下跌的房地产市场，我觉得有机会的，就只剩下黄金、银行储蓄，以及股市等寥寥几个选择。</p>
-<p>于是，我向家人要了21万元来投资股票，原本想先学习些交易策略，没想把仓位建满，但是随着9月27日后股市的疯涨，所有小心谨慎和交易策略都丢在脑后了。</p>
-<p>在那段时间里，自媒体和个人都在宣扬牛市的到来，新股民急着开户、券商公司天天爆满。久违的“人心思涨”之下，几乎没有不看好股市的声音。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_d09178b6ca444d0ca20127e97dedb868@000000_oswg79455oswg1080oswg861_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/微博热搜截图）</p>
-<p>再加上9月30日那天，我仿佛被“股神附体”，无论买入哪一只股票都接近涨停。交易账户上，红色的盈利数字不断跳动，从最初的几千元，飙升到1万元，再涨到1万多元。对于像我这样的学生来说，冲击力无疑是巨大的。</p>
-<p>然而，这种喜悦并没有持续太久。10月8日，随着大盘调整，我账户里的盈利开始减少。那天，我打开账户，看到数字涨了1万多还有点窃喜，几个小时后又像过山车般往下滑。因为绑定账户的银行卡有限额，只能按照每天3万元的幅度往里建仓，刚好把仓位建在了大跌这天。</p>
-<p>节后三天里，我不仅把之前赚到的钱赔了进去，连本金也亏了3万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_5ec94cb4520241a38ce426a0da3a1db3@000000_oswg58467oswg1080oswg697_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《大时代》）</p>
-<p>我现在采取的挽救措施，是在股峰波动的时候做低买高卖，从而降低持仓成本，把总亏损稍微降低一点点。假如说牛市真的存在的话，迅速地回本对于后续赚钱有好处。</p>
-<p>但牛市到底存不存在？这是这几天讨论最多的话题。</p>
-<p>刚开始，人们还会以“技术性回调”安慰自己。但10月9日大跳水后，分歧开始出现了——一部分人会觉得没有那么一帆风顺的牛市；另一部分人认为，所谓牛市只是政策导致的短暂回暖而已。再后来，群聊里的老股民沉默了，新股民信心渐渐不足了，我认识的部分00后股民已经“割肉”跑路。</p>
-<p>我其实很能理解这种变化，投资股市的心态与本金的来源和用途密切相关。不同于被套牢好几年的老股民，00后股民的资金大多来自家庭或者日常生活的积累，股市的每一个数字跳动，都可能相当于我们一个月甚至几个月的工资。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_5d9ffc1ee1464b819cbc2ec1f4e332b2@000000_oswg728128oswg1080oswg590_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《巾帼枭雄之义海豪情》）</p>
-<p>对于我个人而言，炒股带来的最大影响，还是让股票占据了我的生活。</p>
-<p>上课时，我每隔几分钟就要刷一下手机，看股票涨跌。6个小时的开盘时间，恨不得每一分钟都盯着K线图。吃饭和休息时间也都在“搜刮”财经博主的观点，分析A股市场接下来的走向。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_dac714db3988476391241f6b172c3715@000000_oswg59208oswg1080oswg712_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《大时代》）</p>
-<p>唯一的慰藉是，在这段时间，我遇到了在相似时间跑步入场的新老股民们。一起亏钱的经历让我们有了革命战友般的共鸣，每天开盘的6个小时里，大家会讨论哪个股票突然下跌、哪个股票又突然拉升，紧接着都会爆发一些哀怨声或者掌声。</p>
-<p>我第一次感觉到，在股市，原来人们的悲喜可以如此相通。</p>
-<p>（应受访者要求，文中包晏、阿信均为化名）</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5ODMzMDMyMw==&amp;mid=2654707868&amp;idx=1&amp;sn=0a8a0ddc9eee50d94f69123e31711f60&amp;chksm=bc4fcf4e2ced1fe19dac5b24bf53d361f6a031996f02602f6fe8c26b5027d6fc1349e454c04a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“新周刊”（ID：new-weekly）</a>，作者：郭梓昊，编辑：DR，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990613412866825</guid><pubDate>Mon, 14 Oct 2024 08:50:00 +0800</pubDate></item><item><title>36氪首发 | 安拿吉完成数千万元融资，提供新能源车个性化充电服务方案</title><link>https://36kr.com/p/2990926237428480</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文｜韩永昌 </p>
-<p>编辑｜李勤</p>
-<p>36氪获悉，近日，深圳市安拿吉科技有限公司（以下简称“安拿吉”）完成数千万元 A 轮融资。本轮融资由创新工厂独家投资，种子轮由南山资本独家投资。</p>
-<p>公司本轮融资资金将主要用于研发团队的扩张，全面覆盖充电全场景、全环节、全流程的托管式服务。</p>
-<p>安拿吉成立于2024年5月，是一家以AI算法驱动的SAAS科技公司，致力于为新能源汽车用户提供智能化、全场景的充电服务。在短短四个月的时间内，这家公司便拿下了两轮融资。</p>
-<p>如今，充电行业已经从 1.0 的行业从无到有，2.0 的价格战厮杀，进入充电服务取胜的 3.0 时代，充电行为将逐渐由人决策逐步走向车决策。安拿吉便从此入手。</p>
-<p>据介绍，安拿吉自主研发了云端调度AI模型，实现了车、桩数据的实时深度同步，可以对车与桩进行精准匹配与调度。其次，安拿吉还自主研发了车机端的小模型，通过学习车主的用车、行为、充电习惯，为用户提供最佳充电规划。</p>
-<p>目前，安拿吉已与多家头部车企及桩企开展合作，实现充电行为的一键托管。在与主机厂合作方面，安拿吉研发了车机端小模型，模型将能够根据车辆的行驶数据，提供更加个性化的服务。</p>
-<p>据公司相关负责人介绍，车机模块能与车机深度融合，用户仅需呼叫一句我要充电，车辆将自动选择根据用户习惯的充电地点。</p>
-<p>在与桩企的合作方面，安拿吉致力于推广快充、超充的覆盖率，公司结合车机端插件可以实现即插即充、无感支付、自动调度、智能推荐等功能。</p>
-<p>安拿吉还寄希望于将充电与无人驾驶结合起来。该公司产品可以通过AI算法学习用户的行为习惯，提供最佳的充电路径规划，调动新能源汽车在用户空闲时通过无人驾驶进行自主充电。</p>
-<p>此外，安拿吉的调度大模型，可以通过了解全域用户的充电需求，根据车辆的实际需求和充电设施的供电能力，制定出合理的充电计划。</p>
-<p>安拿吉相关负责人介绍说：“我们自研了能源一张网，需求端通过结合车主用户的实时电量状态，实时同步全域车辆充电需求情况，供给端我们掌握合作桩企及电网的拥堵情况，调度端结合交通的拥挤程度、车主的个性化需求、车主的地点偏好等多方面因子，输入我们的调度模型当中，实现精准的充电供需匹配。”</p>
-<p>如今，对于充电网络的铺设，部分主机厂更倾向于自研，以此带来更全面的配套能力。对此，上述负责人认为，“主机厂倾向于向自己的充电桩引流，但目前多数车企的该板块业务并没有产生正面的经济效益，同时损失了用户的充电体验，我们希望秉持着公平的态度，提升全域的充电效率，推动全行业向 EV 转型。”</p>
-<p> </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990926237428480</guid><pubDate>Mon, 14 Oct 2024 08:53:00 +0800</pubDate></item></channel></rss>
+<p>当AI在刚刚结束的诺贝尔奖颁奖典礼中大出风头、“诺奖AI时代”言论甚嚣尘上之时，特斯拉以无人驾驶、人形机器人为主角的“We Robot”发布会显得尤为恰逢其会。</p>
+<p>在这场又被称为“Robotaxi Day”的发布会中，马斯克将名为CyberCab的无人驾驶出租车以没有方向盘和踏板的形象展现于世界面前。人们似乎已经看到了全新的赛博出租车正从“概念车”驶向量产。</p>
+<p>特斯拉发布会前夕，百度旗下萝卜快跑被传出已与多个国际公司进行了深入沟通，计划进军海外市场。此外，有消息称，萝卜快跑将计划在香港推出无人驾驶出租车服务。</p>
+<p>单就布局节奏来看，萝卜快跑盯上海外市场是业务扩张的必要之举，小马智行、文远知行等已先于百度布局出海。但消息选择在特斯拉发布会前夕这一时间节点传出，不得不让人深思，其或许想在特斯拉之前抢夺声量。</p>
+<p>诚然，当前以中美为首的自动驾驶竞争战场早已铺开，特斯拉、谷歌、百度全球自动驾驶三大家的格局初步形成。当相关企业技术迭代与商业化进程持续推进，“土萝卜”与“洋萝卜”必有一战。</p>
+<p>马斯克曾将特斯拉的Robotaxi称作是“交通行业革命”，那么问题来了，通过全新的车型和运作模式设想站在了现存所有自动驾驶企业的对立面，特斯拉想革的是谁的命？</p>
+<p>尽管马斯克在发布会上尚未对Robotaxi新款车型何时量产给出具体时间表，被外界认为“画大饼”，一夜蒸发670亿美元。但不可否认的是，面对新变量的入局，萝卜快跑已经率先开始慌了。</p>
+<h2><strong>01.特斯拉入局，萝卜承压？</strong></h2>
+<p>作为中美自动驾驶头部企业，市场一直以来将特斯拉和萝卜快跑深度对标。</p>
+<p>特斯拉发布会上，就Robotaxi发布了两款车型，分别为能容纳2人的CyberCab和可容纳20人的客货两用无人驾驶公交车Robovan。</p>
+<p>其中，CyberCab颠覆了传统车型，流线型车身+蝶翼式车门的外形，无方向盘、无踏板、无后视镜、无安全带的设定让许多人直呼科幻照进了现实。社交媒体中也有人感叹“没有方向盘和踏板，这才是真正的无人驾驶”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_6466c0ae788a4cc08abdd411b6ada82a@000000_oswg39551oswg640oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>与之相比，当前全球无人驾驶企业所使用车辆，在外形和硬件设计方面都与传统车辆相差不大。</p>
+<p>以萝卜快跑为例，其运营车队目前涵盖林肯MKZ Hybrid、极狐αT、理想ONE、长安Lumin以及荣威iMAX 8等等多种车型。</p>
+<p>今年5月的百度Apollo Day 2024活动中，推出了萝卜快跑的最新一代无人车江铃颐驰06。相较于前一代车型，其整车成本大幅降低了60%，但就外形和硬件形态方面，并未给市场太多惊喜。</p>
+<p>尽管对于量产的具体时间线含糊其辞，但马斯克预计将在2026年开始投产CyberCab，并预计特斯拉将在明年在得克萨斯州和加利福尼亚州启动无人监督的完全自动驾驶（FSD）功能。</p>
+<p>所谓FSD，是完全自动驾驶系统的简称，其测试版于2020年推出，是特斯拉大力推行的核心技术之一。对于FSD的自动驾驶水平，马斯克表现出了高度自信，称FSD的安全水平可以超过人类驾驶10倍左右。</p>
+<p>对标FSD，萝卜快跑搭载的是百度Apollo的无人驾驶技术。今年5月，百度在Apollo Day上发布了全球首个支持L4级无人驾驶应用的自动驾驶大模型Apollo ADFM，其安全性同样宣称高于人类驾驶员10倍以上。</p>
+<p>同样以“10倍”作为系统安全性衡量标准，特斯拉FSD和百度Apollo都还需要海量数据的长期验证。</p>
+<p>就颠覆性来讲，马斯克在发布会中重申了无人驾驶共享出行概念，即允许车主将闲置的自动驾驶车辆加入到特斯拉旗下的共享平台中来，从而实现“用户在家躺，车自己赚钱”的模式。</p>
+<p>这一创新的商业模式若落地，无疑将提高车辆使用率，达到车主与车企之间的双赢。毋庸置疑，在想象力方面，目前全球一众自动驾驶参与者尚难以望其项背。</p>
+<p>相比于萝卜快跑，特斯拉Robotaxi给出的新鲜感显然更多，同样拉高了市场对于自动驾驶的想象空间。</p>
+<p>尽管不少市场声音怀疑马斯克在发布会中针对Robotaxi所透露的细节较少，只是“演示了一份科幻PPT”，但现场50辆Robotaxi给萝卜快跑们带来的压力显然不小。</p>
+<h2><strong>02.无边界之战，群敌环伺</strong></h2>
+<p>当前国内自动驾驶仍处于产业发展初期，但在世界格局中与美国同属头部梯队，且市场规模不断扩大。</p>
+<p>开源证券在研报中预测，2030 年，国内Robotaxi市场规模将有望达到近 5000 亿元规模。</p>
+<p>巨大的产业价值吸引着相关企业跑步入场，其中不乏互联网大厂和头部汽车企业。</p>
+<p>截至目前，国内Robotaxi相关企业中，除萝卜快跑、文远知行、小马智行、如祺出行等知名度较高的公司外，新入局者中元戎启行、安滴科技、Momenta背后的投资者分别为阿里巴巴、滴滴自动驾驶、广汽埃安、上汽集团。</p>
+<p>除此之外，作为国内造车新势力，小鹏汽车对于Robotaxi也颇有兴趣。在特斯拉发布会前一日，小鹏汽车董事长何小鹏透露了相关业务进展：2025年下半年在量产车上实现对标海外一流Robotaxi的软件使用体验、2026年正式推出首款Robotaxi产品。</p>
+<p>在一众入局者中，萝卜快跑背靠百度，商业化进程居首。截至目前，其已在武汉、北京、广州等11个城市落地。但尽管如此，在与国内企业竞速的同时，国外竞争者的入局也使得其陷入群敌环伺的境地。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_a4d4e5438d46484ea573c0521195b2e2@000000_oswg487348oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在全球汽车销售的国家边界模糊常态化背景下，自动驾驶也正在投入无边界战争的汪洋大海。</p>
+<p>今年9月，特斯拉AI团队在海外媒体上公布，预计2025年Q1季度在中国和欧洲推出全自动驾驶FSD系统，目前仍有待监管批准。</p>
+<p>在专业人士的眼中，FSD系统几乎可以算得上全球最先进水平，此番入华必将吹皱国内一池春水。而由于与特斯拉在Robotaxi方面的国际地位属同一量级，FSD入华造成的冲击，萝卜快跑必然首当其冲。</p>
+<p>早在2018年，谷歌旗下自动驾驶公司Waymo已开始布局中国市场。其于2018年5月22日在上海自贸区注册成立了慧摩商务咨询(上海)有限公司，该公司注册资金为350万元，由Waymo全资持股。在该公司的经营范围中，“自动驾驶汽车部件及产品”尤为引人注目。</p>
+<p>在国外自动驾驶企业布局中国市场的同时，国内自动驾驶参与者也在出海的道路上狂奔。</p>
+<p>早在2021年11月，文远知行和合作伙伴Bayanat共同在阿联酋推出自动驾驶出租车服务。之后又先后布局卡塔尔、沙特、法国和新加坡。其自动驾驶出海项目集中于无人驾驶小巴和清扫车。</p>
+<p>小马智行也在去年以来积极拓展海外市场，目前业务覆盖欧洲、东亚和中东等地。</p>
+<p>值得注意的是，在去年10月，小马智行宣布计划与沙特阿拉伯王国新未来城（NEOM）在沙特西北部的新未来城成立合资公司之时，其还获得了NEOM及旗下投资基金的1亿美元投资，用于自动驾驶技术全球化研发和运营投入等。</p>
+<p>除此之外，比亚迪也于今年7月宣布与Uber达成合作，双方将合作开发比亚迪自动驾驶汽车，并将其部署在Uber平台上。</p>
+<p>对于比亚迪躬身入局Robotaxi，马斯克下场点评“比亚迪需要快速改变路线，否则就要有麻烦了”。火药味十足的评论背后，不难看出无人驾驶出租车的竞争已趋于白热化。</p>
+<h2><strong>03.守土or拓疆？攘外必先安内</strong></h2>
+<p>对于出海的布局，萝卜快跑并不是先驱者。而在全球Robotaxi无边界战争烽烟四起之时，相较于出海，守好国内封地或许才是其当前更应该考虑的事情。</p>
+<p>诚然，在国内市场，萝卜快跑的商业化进程已经结出果实。</p>
+<p>据百度财报，2024年第二季度，萝卜快跑供应的自动驾驶订单约89.9万单，同比增长26%，总服务量已超700万单。</p>
+<p>对于订单的增长，大手笔优惠和消费者对无人驾驶出租车的新鲜感或为重要原因。</p>
+<p>网上流传的一份订单显示，28元的总里程，乘客只支付了26.52元。与传统网约车相比极具竞争力的价格为萝卜快跑吸引了不少订单，但细看车费明细，26.52元的车费是在商家优惠109.52元后得出的，未优惠前的实际车费为136.04元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_b8092c4f3057459792ea1ea7f6f8772a@000000_oswg11367oswg318oswg456_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>对此，不少人提出担忧，在早期以价换量铺陈市场结束之后，出于盈利目的下调优惠力度是必然结果，届时萝卜快跑能拿出更具吸引力的内容留住客户吗？</p>
+<p>除价格优势外，不少消费者因对无人驾驶出租车的好奇而选择乘坐。在武汉，萝卜快跑俨然已被加入游客打卡清单。</p>
+<p>诚然，订单量的增长为萝卜快跑维持头部地位提供了底气，但当新鲜感过去，或更有新鲜感的Robotaxi（如特斯拉CyberCab）量产入华，萝卜快跑的优势还有几何？</p>
+<p>就当前运营数据来看，萝卜快跑的安全性基本经受住了考验。据统计，百度Apollo为每辆无人车及乘客购买了500万的保险，但过去两年的数据显示，实际车辆出险率仅为人类司机的1/14。</p>
+<p>而在不断增加的订单量和安全性基本得到保障背后，是消费者对其服务质量从未消失的质疑。</p>
+<p>在社交媒体、黑猫投诉，甚至苹果的App Store中，乘坐过萝卜快跑的消费者对其服务质量的吐槽层出不穷，多集中于等车时间长、车速慢、绕路、固定站点、售后服务差等。</p>
+<p>其中，对于最突出的效率问题，多位消费者吐槽，从下单到上车，等候时间超1小时。而在行驶过程中也出现灵活性不足、急刹等问题。</p>
+<p>尽管当前对萝卜快跑的质疑可以套用在整个自动驾驶行业，但由于其商业化进程速度更快，矛盾也更为尖锐。</p>
+<p>相较于公共交通，消费者在选择网约车时，效率问题是放入考量的重要因素。因此，尽管大手笔优惠和新鲜感驱使萝卜快跑订单增长，但效率问题正成为消费者对其祛魅的首要因素。</p>
+<p>与小马智行、文远知行们目标一致，萝卜快跑出海固然少不了扩大市场规模、打破国际壁垒等考量，但出海面临的国家政策、本土化等挑战也是难啃的骨头。在特斯拉、谷歌等对国内市场虎视眈眈之际选择出海，萝卜出行们仍存后院失火的隐忧。</p>
+<p>对于以萝卜快跑为代表的国内无人驾驶企业来说，全球化势不可挡。但在特斯拉、谷歌瞄准国内市场蛋糕之时，萝卜们应该优先考虑的是如何守擂。至少，攘外的优先级应该放在安内之后。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Njg2NDYyNA==&amp;mid=2247532412&amp;idx=1&amp;sn=f546d4c547b3e4072fbe4588d8094d1c&amp;chksm=ce8195496973fb7000a45da3ef6dbd3d50146862622d3a604ec3bd928fe534f5f2b3c13fe004&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“科技新知”（ID：kejixinzhi）</a>，作者：江蓠，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990846859668480</guid><pubDate>Mon, 14 Oct 2024 09:27:00 +0800</pubDate></item><item><title>18张图，读懂全球供应链之变</title><link>https://36kr.com/p/2990952869931783</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>作为将五洲四海的供给与需求 都联系起来的巨大网络，全球供应链的动态变化 ，一直是各界瞩目的焦点话题。它关系到不同经济体的竞争与起落，也深刻地影响 出海企业 的战略布局与发展前景。</p>
+<p>在相当长的时间里， 中国 在全球制造业领域遥遥领先。不过， 中美竞争、局部冲突等多种因素交织，也给全球供应链的稳定带来很多波动。</p>
+<p>我们很好奇， 全球供应链 正在发生哪些 变化 ？这些变化将对中国产生什么 影响 ？对于那些“ 生于中国，面向全球 ”的企业来说，如何寻找机遇 ，又如何面对挑战 ？</p>
+<p>基于此，我们研读了与全球供应链相关的数据与报告，希望能梳理出大概的脉络。主要观点如下：</p>
+<ul>
+<li>全球供应链正在 重构 ——并非完全脱钩，而是变得更加复杂、多元化，需要更多国家的 协同与配合 。</li>
+<li>全球供应链重塑的 底层逻辑 ，并非完全基于 经济学 的原理，而是基于 中美竞争态势下的大国博弈 。</li>
+<li>供应链的多元化布局，正从曾经的“ All-in中国 ”转变为“ 中国+N ”。</li>
+<li>“ 近岸外包 ”与“ 友岸外包 ”，正在推动 东欧和墨西哥 等国家与区域的贸易增长。在 亚太 地区，外国直接投资呈多元化趋势， 新的热点区域 不断涌现。</li>
+<li>即便 中美之间 在供应链上的 直接联系 有所减少，但 中国与 美国主要贸易伙伴 之间的供应链联系却在增加。可以理解为，中国正在更多地 通过第三国 与美国产生贸易往来。</li>
+<li>供应链重构正在增加 全球贸易的成本 ，这种成本的上升不仅会转化为消费端的通胀，也可能转化为企业端的亏损。</li>
+<li>对 出海企业 而言，拥抱出海与全球化，并不意味着丢掉中国市场 。</li>
+</ul>
+<h2><strong>/ 01 /全球制造业的竞争格局长什么样？</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_aee5a333baec48389e6812de377ac264@000000_oswg159872oswg856oswg535_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>经济学家Richard Baldwin的一项研究显示，在 全球制造业总产值 中，中国占据绝对的 领先地位 （35%），份额大致为美国的三倍，日本的六倍，德国的九倍。在产值占全球3%以上的六个国家中，老牌工业国家有三个，即 美国、日本、德国 ，其余三个， 中国、印度、韩国 均为新兴工业化国家。</p>
+<p>与此同时，在全球制造业附加值的排名中，中国占全球的29%，约为美国的1.5倍，日本的四倍，德国的六倍。不论是从绝对产值还是附加值来看， 中国的制造业还是遥遥领先的 。</p>
+<h2><strong>/ 02 /“全球制造业之王”的更迭</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_349b034fb5a3401ba25e6cba27942f9c@000000_oswg176733oswg864oswg532_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Richard Baldwin教授的研究追溯到了 1995年 。当时，中国与加拿大、英国、法国和意大利的制造实力相当。1998年，中国超越了德国，2005年中国超越了日本，2008年中国超越了美国。此后，中国制造业在全球的份额增加了 两倍 ，而美国的份额则下降了约3%。</p>
+<p>上一次“ 全球制造业第一大国 ”易主，发生在 第一次世界大战 前夕。 美国 花了 将近一个世纪 ，才取代英国成为全球制造业第一大国。然而， 中国 超越美国则只用了短短 15-20年 的时间。</p>
+<h2><strong>/ 03 /中国制造业增速趋缓，美国推动供应链与中国脱钩</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f55827459648416c8233f497607b9ed3@000000_oswg134054oswg783oswg538_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2020年 ，中国的制造业份额超过了 其他全球前十名主要制造国的总和 。不过，中国制造业的增速 已经放缓 ，目前，中国制造业占全球的比例在 1/3 上下浮动。</p>
+<p>值得一提的一个大背景是，2018年中美贸易摩擦增加以来，美国推动供应链与中国脱钩，全球进入了 供应链重塑 的时代。</p>
+<h2><strong>/ 04 /不断加码的关税征收</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_f826ee1ea46b4594869f57ddffe2fb55@000000_oswg145012oswg884oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>为了加强对国内产业的保护，减少对中国制造业的依赖，美国采取了 多重措施 。其中最主要的是， 对来自中国的商品征收高额关税 。尤其是对于电动车、半导体、电子产品和机械设备等产品，税率为 7.5%到25% 不等。</p>
+<p>最新的情况是， 2024年9月27日 ，美国政府宣布将落实对中国部分出口商品实施 惩罚性关税 ，其中对 电动车 加征 100%关税 （涨幅75%），对 半导体和太阳能电池 加征 50%关税 （涨幅25%），对 部分医疗器械 加征 50%关税 （涨幅50%）。</p>
+<h2><strong>/ 05 /供应链的多元化布局，从曾经的“All-in中国”，到“中国+N”</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_e586d306a9244164baad8362df37a594@000000_oswg46265oswg728oswg531_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>受地缘政治等多种因素影响，近年来，众多美国企业开始寻求 供应链的多元化布局 ——在不同国家和地区设立生产基地，特别是 印度、东南亚、中东欧地区 ，来分散风险，提高供应链的稳定性。</p>
+<p>以 苹果公司 为例。一直以来，苹果在中国拥有庞大的供应链和销售网络，苹果公司首席执行官库克2023年在接受采访时还表示，“约苹果 95% 的产品仍然在 中国 生产、制造组装 。”</p>
+<p>变化正在发生。</p>
+<p>依据澎湃新闻的报道， 印度 在 2023 年 组装了 约 14% 的 iPhone。JP Morgan分析师，以及印度商务和工业部长 Piyush Goyal 都曾提到，苹果公司的目标是 2025年在印度生产 25% 的 iPhone 。</p>
+<p>正如苹果公司在印度等地加大布局，当供应链开始部分从中国迁出， 东南亚 是主要受益的地区之一。目前， 越南 是企业“中国+N”战略下的首选迁徙地； 马来西亚 成为东盟地区半导体行业的新兴重镇；大量智能手机和药品供应链，则向 印度 转移。</p>
+<h2><strong>/ 06 /亚太地区，外国直接投资（FDI）分散化，印证“中国+N”趋势</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_2ab358d05b5948d5add773edd5d026cf@000000_oswg146702oswg836oswg528_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>金融时报的数据显示，自 全球金融危机结束 以来，中国在制造业领域获得的 绿地FDI 实际上一直在 下降 。</p>
+<p>与此同时，在 亚太地区 ，外国直接投资呈 多元化趋势 ，新的热点区域不断涌现。依据 联合国贸易和发展会议（UNCTAD） 的数据， 2010－2014年 ，投向亚太地区的外商直接投资——绿地投资中， 27.7% 都投向了 中国 ，彼时的中国是亚太供应链的绝对中心。但到 2022年 ，这一比例下降到了 4.9% 。反观 越南、印尼、印度 等国家，它们吸收的绿地投资从原来的 33.7%跃升到了56.7% ，其中涨幅最大的是印度，从10%升至21%。这些投资将有机会转化成制造能力和贸易能力。</p>
+<h2><strong>/ 07 /近岸外包，正在推动东欧和墨西哥的贸易增长</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_a039a0824b3c4816845f081c50cf5684@000000_oswg288611oswg876oswg535_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>援引 《经济学人》 杂志于2024年9月21日发布的文章 《近岸外包“正在将东欧变成新的中国”》 ，美国和欧盟正限制从中国的进口，欧美公司纷纷开始转变策略， 将生产链转移至“近岸”和“友岸” 。近岸外包能够缩短供应链长度，提高物流效率，降低运输成本，减少地缘政治风险。</p>
+<p>比如，美国将 墨西哥 作为重要的近岸外包基地。 美国商务部 的数据显示， 2023年墨西哥开始取代中国，成为美国的最大贸易对象 。与此同时， 中东欧 正在成为欧洲国家重要的近岸外包基地，未来预计能吸引更多的投资和产业转移。</p>
+<h2><strong>/ 08 /美国力推的“制造业回流”，成效如何？</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_e6cd36807352469887de53fac55d6977@000000_oswg177187oswg816oswg530_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>自 奥巴马时代 起，美国历届政府都把 制造业回归 作为其经济政策的关键部分。从奥巴马政府推行的 再工业化 和制造业复 兴 ，到特朗普政府的 制造业回归 ，再到拜登政府的 一系列制造业复兴政策 ，都服务于 美国制造业回流 的目标。</p>
+<p>然而，多种迹象表明，美国力推的"制造业回流"， 可能并没有达到预期 。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_75623f9f1a294975aebe0b3ec3dbde07@000000_oswg142814oswg828oswg532_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>先看 就业 。美国劳工统计局的数据显示： 2002年 以来，美国制造业领域的岗位雇佣一直呈 下降 趋势； 2008年 之后，美国开始重视制造业的回归，制造业就业实现 小幅回升 ； 2022年 一系列新法案推出后，制造业就业也有 一定程度的回升 。但是 与2002年相比 ，美国在过去20多年里， 流失了二三百万个制造业岗位 。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_12f85ea392584bfd9d8b07893fb1b21f@000000_oswg212419oswg859oswg531_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>再看 投资 。与就业情况类似，每一次新的法案出台之后，都会带动一波投资的增长。不过，当这些法案的效应慢慢减弱之后，相关投资又会回落。以2022年8月9日通过的 《芯片与科学法案》 为例。法案通过后，催生了 计算机、电子和电气设备行业 的建筑分项投资的高速增长，增速一度超过 200% 。不过， 2024年 之后，相关投资开始 放缓 。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_bfbdf226ddb84a909295faf967266e20@000000_oswg394230oswg1080oswg665_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>依据 美国半导体行业协会 （SIA）公布的数据，截至 2024年4月 ，全美各地宣布了超过 80个 半导体相关的新项目，吸引了共计 4470亿美元 的投资，投资计划主要用于新芯片制造厂和封装设施的建设，以及现有制造厂和封装设施的扩建。</p>
+<p>不过，这些投资的进展和结果还 有待观望 。因为过往有些投资遇到了 进度滞后 或 无限期停摆 的挑战。以 台积电 为例。公开报道显示，自 2020年5月 首次宣布赴美设厂以来， 台积电累计宣布投资额达650亿美元(约为台积电三年的净利润） 。这是 美国历史上最大的外方直接投资项目 。4年过去了，直到 2024年9月上旬 ，台积电亚利桑那厂才 开始小批量试生产 。</p>
+<h2><strong>/ 09 /中美之间的供应链联系在减弱，但中国是可以被绕开的吗？</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_5e8cce5fc7f14cba9bd1f70e9b485994@000000_oswg117093oswg878oswg534_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>牛津经济研究所于 2024年1月发布的 一 份报告，统计了 中国占世界主要经济体中间产品进口的比例 。我们可以看到， 美国 从中国进口中间产品所占的比例，从 2018年 的 18.5% 下降到了 2022年 的 14.1% ， 2023年上半年 ，这个比例进一步下降到了 11.4% 。除美国外， 日本 从中国进口所占的比例也呈小幅 下降 趋势。</p>
+<p>然而， 其他主要经济体 所进口的中间产品中，来自中国的比例都在 上升 。在 发达经济体 中， 德国 、 英国 和 澳大利亚 最为明显。在 新兴经济体 中，中国占 巴西 中间产品进口的比例，从22.2%上升到26.4%。一定程度上，这说明 中国在全球供应链中的地位得到了维持 。</p>
+<h2><strong>/ 10 /中国的供应链，正在通过第三国和美国相联系</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_02521e93895f4eeabfb31068d62a1e92@000000_oswg137237oswg814oswg527_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除 中国 以外， 美国最主要的进口来源国是墨西哥 、 加拿大 、 日本 、 德国 、 越南 。在这五个国家中，除 日本 外，中国在其进口市场中的份额都在 增加 ，而且是其第一或第二大进口伙伴。</p>
+<p>这说明，美国只是降低了对中国的 直接依赖 ，中美之间正以一种 新的方式 在保持连接——许多中国企业通过向其他地区的转口贸易，或者在这些地区再组装后，把产品销往美国市场。</p>
+<p>更值得一提的是， 中国企业正在增加对 越南、墨西哥 等国家的 直接投资 ，把部分 生产能力转移 到这些国家。这样将有助于中国 维持 在美国乃至全球市场的最终份额。</p>
+<p>以被誉为“世界工厂”潜在继承者的 印度 为例，印度的经济发展对中国的依赖程度较 高 。依据智库全球贸易研究计划（GTRI）发布的数据，2024财年，印度从中国的进口额 突破1000亿美元 ，时隔两年，中国再次超越美国成为印度 最大的贸易伙伴 。</p>
+<p>印度从中国进口的 产品种类丰富多样 。或许出人意料的是，作为全球知名的仿制药生产大国，印度从中国进口了 大量化学品和药品 。同样来自GTRI的数据显示，仅在 2022 年 ，印度的化学品和药品进口总额为 769.4 亿美元，其中中国占了 26.8% 。这个比例是相当高的，或许这能解释为什么有种说法是， 全球药品供应链的真正上游，不是印度，而是中国 。</p>
+<p>从这个角度看，全球供应链只是变得更为 复杂 了，中间节点增加了， 而非大幅脱钩 。</p>
+<h2><strong>/ 11 /中国供应链出海进行时</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_55dc22cfee1847779cfd02010908d2ac@000000_oswg104651oswg879oswg519_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>中国对外投资已经 连续11年位于全球前三 ，其中 2022 和 2023年 为 全球第二 。经过多年积累，中国企业在全球的供应链投资可谓遍地开花，其中主要的制造业投资目的地包括 印尼 、 哥伦比亚 、 匈牙利 、 德国 和 马来西亚 。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_ae9586e5fba249ffa220de8f2c2c82fb@000000_oswg108645oswg873oswg529_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>美国 曾经是中国对外投资的重要目的地之一，但现在美国已经 跌出 了中国对外投资的 前十 。根据美国经济研究公司荣鼎集团（Rhodium Group）2023年9月的报告，自 2017年 以来，中国对美国的 FDI持续放缓 ，具体而言，中国对美国的年度投资额从 2016年 的 460亿美元 锐减至 2022年 的 不足50亿美元 。</p>
+<h2><strong>/ 12 /中国对外投资新趋势：绿地投资</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_702a73cb38544ada84a92044b50f3bf2@000000_oswg153512oswg841oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>根据中国商务部数据，中国企业宣布的 海外投资总额正在增加 ， 2022年 已经高达 1631亿美元 。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_06f4a100673e4547908522924f87597a@000000_oswg134359oswg867oswg518_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>中国公司正在将目光从美国转向东南亚、欧洲和非洲等市场。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_64cc99946feb42cf85f55c0c5b013723@000000_oswg296832oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这一趋势在中国的 优势行业 中尤为明显，如电动汽车制造业。通过在国外设立工厂，以自己的品牌或子公司进行运营，中国企业能够更好地掌控生产链，并确保技术和质量标准与国内市场保持一致。</p>
+<h2><strong>小结与思考</strong></h2>
+<p><strong>1.</strong>当前，全球供应链重塑的 底层逻辑 ，并非完全基于经济学的原理，而是基于 中美竞争态势下的大国博弈 。</p>
+<p><strong>2.</strong>由于地缘政治等原因，全球供应链正在 重构 ——并非完全脱钩，而是变得更加 复杂 、 多元化 ，需要更多国家的 协同与配合 。</p>
+<p><strong>3.</strong>全球化 仍是 大势所趋 。未来的全球化，不仅是 市场 的全球化，更加是 供应链 的全球化。</p>
+<p><strong>4.</strong>中国在全球供应链中的地位仍然 难以撼动 ，即便中国与美国的供应链直接联系在减少，但是与美国的主要贸易伙伴们的供应链联系在增加。 中美供应链正更多通过第三国互相关联 。中美脱钩在供应链领域是不大可能实现的。</p>
+<p><strong>5.</strong>对生于中国的出海企业 而言，全球供应链的重塑意味着：</p>
+<ul>
+<li>之前企业也许只要在长珠三角周围管理供应链就可以，现在供应链的复杂度提高，对 企业的运营管理 提出了更高的要求。</li>
+<li>供应链重构正在增加全球的贸易成本，最终的成本不仅会转化为 消费端的通胀 ，也可能转化为 企业端的亏损 。</li>
+<li>仅有供应链能力是不够的，需要将供应链能力转化为 品牌价值 ，变成在全球的竞争力。</li>
+<li>积极考察 海外供应链 ，但需要慎重决策，尤其需要对政策敏感。</li>
+<li>拥抱出海，并不意味着丢掉中国市场 ，因为强供应链基础+新科技+大市场，往往意味着最高的产品迭代效率。</li>
+</ul>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzMDAzMTgzOA==&amp;mid=2650859472&amp;idx=1&amp;sn=2a18559208dda948e84da04100911018&amp;chksm=f2b8db776dfe64022dec8b83376593c94048fe100887703880d5fb737ef1a598aea30afd4b79&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“峰瑞资本”（ID：freesvc）</a>，作者：沈颖，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990952869931783</guid><pubDate>Mon, 14 Oct 2024 09:27:00 +0800</pubDate></item><item><title>消费者正“倒逼”餐饮市场放弃预制菜？</title><link>https://36kr.com/p/2990811876518917</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>走到2024年，预制菜赛道明显不如从前热闹，最近各大预制菜企业发布的财报，更是直接往这一市场泼了盆冷水。</p>
+<p>就目前来看，预制菜市场的钱越来越难赚了。味知香上半年实现营业收入约3.27亿元，同比减少21.53%；净利润约4228.91万元，同比减少43.37%；安井食品二季度实现归母净利润同比下降2.51%，环比下降16.89%。</p>
+<p>无独有偶，春雪食品2024年上半年营收为11.64亿元，同比下降15.47%；千味央厨的预制菜业务增速也大幅度萎缩……其中，安井食品更是直接将营收不景气的矛头对准预制菜，据悉，安井的速冻菜肴业务在今年上半年的增速只有0.4%。</p>
+<p>对于去年同一时期，当时的增速还处在58.19%。</p>
+<p>从各行各业的新希望，到头部企业叫苦不迭，从资本前赴后继“开筵”，到起码的盈利都难以维持，预制菜为何在短短几年上演如此跌宕起伏的剧情？追根究底，或许是这一领域还没迎来好时候。</p>
+<h2><strong>消费者不想在餐厅吃到预制菜</strong></h2>
+<p>说起预制菜的熄火，餐饮市场突如其来的“背刺”脱不了干系。一直以来，预制菜的主要输送地就是各大餐厅饭馆，高达八成的B端渠道一度是预制菜爆火的第一动力。然而，今年以来，曾经仰仗预制菜来控制成本的餐厅们，突然大变脸。</p>
+<p>甚至可以说，“抵制预制菜”成了2024年度餐饮行业的主流关键词。</p>
+<p>年初，上海、南京、天津、杭州等地区就陆陆续续出现一些餐厅在门口贴出告示，宣称本店杜绝预制菜。随后，一些连锁餐饮品牌也开始公开表示拒绝预制菜，例如南城香计划在2024年全面实现不用预制菜。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241013/v2_1495cbcc902e4b1fa8c900d5550c1290@000000_oswg59971oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>老乡鸡、乡村基、海底捞、西贝也纷纷宣布要控制预制菜占比，甚至有十五家餐厅成立了“反预制菜联盟”……有媒体在美团上搜索到“非预制菜餐厅”，结果显示有114722个结果，一批现炒餐饮品牌也开启疯狂加盟模式。</p>
+<p>餐饮市场为什么开始尝试舍弃预制菜了？</p>
+<p>这两年，餐饮行业举步维艰，今年上半年，国内餐饮业注销、吊销的企业数量达到了105.6万家，和2023年上半年47.2万家相比，再次翻了一倍多，餐饮市场迫切想要恢复以往的烟火气。</p>
+<p>迎合消费者日渐突出的抵制预制菜的需求，当然也可以看做是为了引流。</p>
+<p>所以，消费者本身对预制菜的接纳程度，注定了那些急需流量的餐厅要大刀阔斧地与预制菜做个“了断”。同时，由于前两年的预制菜过于高调，也导致这届消费者外出就餐格外追求所谓的“锅气”。</p>
+<p>实事求是的说，预制菜在近年来确实因其便捷性和成本效益在餐饮行业中迅速崛起，但同时，<strong>“花了烧制菜的钱，买到的却还是预制菜”这种体验的确令人深恶痛绝。</strong>正是这一突出问题引发了消费者群体中的一些抵制声音。</p>
+<p>例如上个月，社交平台上一则关于兰湘子的视频引发广泛讨论。视频中，兰湘子门店里的屏幕播放着后厨人员的工作视频，配文为“兰湘子实锤了，不是预制菜”。然而，评论区中却有消费者表示：“这个是循环播放的，我去吃兰湘子，不是饭点，一个人没有，一单外卖没有，视频后厨锅都抡冒烟了，然而厨师明明在外边休息坐着。”</p>
+<p>尽管兰湘子强调一直坚持现炒模式，社交媒体上对兰湘子是预知菜的质疑声浪并未停止。</p>
+<p>美团一则报告显示，近年来，消费者对餐饮锅气的搜索量呈爆发式增长。《2023年中国消费者趋势报告》显示，超过60%的受访消费者表示，他们更愿意花钱体验生活里的“烟火气”。<strong>餐厅舍弃预制菜，很难说不是餐饮消费低迷中的一种被迫妥协，毕竟这比教育消费者接受预制菜更容易一些。</strong></p>
+<p>当然，有一点也需要注意，以往预制菜之于餐饮市场是降低成本的一大“杀器”，这也导致大量餐饮品牌开始搭建预制菜供应链，但当前端消费无法消化后端整条供应链上的输送时，原先起降本意义的预制菜就变成了累赘。</p>
+<p>典型的例子是绿茶。7月份，证监会对绿茶餐厅的预制菜占比情况进行问讯。与此同时，绿茶的招股书显示，绿茶正将大量菜品转化为预制菜，从运营角度来看，这使得餐厅存货过时的风险随之走高。</p>
+<p>数据显示，2021-2023年，绿茶餐厅存货结余分别为4720万元、5640万元及5960万元。</p>
+<p>除此之外，餐饮行业也正在发生一些变化。智能风口在2024年光顾餐饮行业，煲仔正的自动煲仔炉每小时能产出216份煲仔饭。6月份，老板电器发布“食神”烹饪大模型，9月份，北京市发出首张“具身智能机器人食品经营许可证”……</p>
+<p><strong>后厨智能时代的到来，让餐饮企业离艰难的降本之路又近了一步，预制菜已经不是唯一的解题方式。</strong></p>
+<p>总而言之，预制菜对于餐厅的正向意义在逐渐下降，这也是那些专注预制菜B端市场企业所担心的。当然，预制菜断然不会被餐饮市场抛弃，只能说，双方之间的磨合还在继续，但愿这两者谁也不要拖了谁的后腿。</p>
+<h2><strong>B端“塌房”，C端“当红”</strong></h2>
+<p>细究味知香的财报，其加盟门店的减少成为今年上半年营收下滑的关键原因。数据显示，2024年上半年，味知香的加盟店营收为1.76亿元，同比去年下降了20%多，上半年的门店关闭数量也超出新开数量。</p>
+<p>据悉，2024年上半年，味知香新开门店82家，关闭门店127家。</p>
+<p>对于这一现象出现的原因，品牌给出的解释是市场环境。但实际上，整个预制菜行业在零售业务上的混战，也是导致味知香加盟门店倒下大片的主要因由。</p>
+<p>与一些专攻B端的预制菜企业不同，味知香的大头在C端。而不论各行各业，C端都已经进入了内卷时代，预制菜产业也是如此。</p>
+<p>这两年，对准C端的预制菜零售店越开越多。</p>
+<p>除了味知香，巴比食品的加盟门店突破5000家，锅圈也孵化出预制菜专卖店“锅圈肴肴领鲜”，选址在一二线城市的农贸市场，计划实现下一个万店目标。与此同时，各大超市、便利店、甚至大火的零食量贩店都卖起预制菜。</p>
+<p>预制菜频繁现身C端零售圈，一方面是B端的竞争愈发疯狂，餐饮市场阴晴不定的态度也为预制菜的未来添了一丝彷徨。另一方面，C端市场的反应对预制菜以后的发展起决定性作用。</p>
+<p>有趣的是，<strong>消费者对餐厅里的预制菜喊打喊杀，但对超市、便利店等零售渠道里的预制菜有着极高的接受程度。</strong>有调查报告显示，到2025年，国内预制菜市场规模将突破8300亿元，其中C端市场规模占比将从两成上升到三成。</p>
+<p>此外，整个餐饮消费都在往低价的道路上走，年初一大批餐饮品牌纷纷忙着打价格战，各大餐饮企业的客单价也明显降低。例如，海底捞的客单价下滑5.5，已跌破百元大关；太二酸菜鱼、呷哺呷哺、九毛九等品牌的客单价也都有所下降。</p>
+<p>数据显示，2024年上半年，全国餐饮消费的平均客单价都呈现负增长，其中，外卖平台的客单价同比下降6.1%，堂食平均客单价降幅一度超过10%。辰智大数据显示，截至2024第二季度，全国餐饮人均客单价仅为39.6元。</p>
+<p>但是，<strong>预制菜在C端的消费却是在逆势增长。</strong></p>
+<p>大约从去年开始，脱离低端小作坊往高端标准化转型就成了预制菜市场最不可忽视的出路。相比整个餐饮行业的消费降级，预制菜的客单价并不低，大众点评显示，味知香的门店人均客单高达54元，锅圈在农贸市场的专卖店客单价也在这一水平。</p>
+<p>预制菜走向C端零售，从某种角度来看，也是在逃离寒冬阴影下萎靡不振的B端市场。川财证券在去年的一份研究报告显示，目前预制菜C端的消费者来自一二线城市的占比高达八成。</p>
+<p><strong>当海底捞们忙着走向五环外，在县域市场开花结果时，预制菜的主要消费群体却还在五环内，这是当前预制菜市场最应该庆幸的，也是这个赛道最应该把握的一次机会。</strong></p>
+<p>可以说，C端市场在逐渐拓宽预制菜的消费场景，这两年里，一人食、户外野餐等消费概念仍然在消费市场游荡，预制菜品牌争抢零售大赛道的意义就此升华。或许，改变消费者心智的第一步，还是要接近消费者。</p>
+<p>但味知香的现状也向整个市场传达出一则消息，预制菜零售业务C端也充满变数，能跟卷得动的吃肉，卷不动的，恐怕连汤都没得喝。</p>
+<h2><strong>短期受挫，长期向好的基本盘未变</strong></h2>
+<p>尽管预制菜企业亏损连连，但这个行业始终没有消耗掉对资本与创业者的吸引力。企查查数据显示，从去年8月起，国内相关预制菜企业的注册量就持续上升，今年总注册量高达7312家，前八个月的数量就比去年同期多出2000余家。</p>
+<p>回望预制菜在风口上的这几年经历，一面被嫌弃，一面被追捧，这是一个两极分化再严重不过的市场。但盲目火热的阶段一结束，暂时的冷场兴许不是一件坏事，至少终于能让这片赛道里的所有玩家客观地张望未来。</p>
+<p>首先，预制菜发展与整个餐饮市场的兴衰密不可分，虽然餐饮消费大环境较之从前发生骤变，但寒冬总会过去，缓慢恢复元气也在今年开始提上日程。</p>
+<p>毕马威中国发布的数据显示，74%的餐饮企业曾尝试积极创新餐饮品种以降低损失维持经营；33%的餐饮企业把重心向外卖业务转移。无独有偶，根据中国烹饪协会调查，90%以上的企业发力外卖产品，73.2%的企业拓展团餐外卖，46.5%的企业出售半成品等。</p>
+<p>随着现制菜的热度与成本双重走高，未来这一类玩家或许会在餐饮市场上发展出新方向，譬如高端餐饮或者小众消费等。但这无疑与整个性价比化的消费趋势相悖。长此以往，无利不起早的商业世界里，预制菜还会是重头戏。</p>
+<p>目前一部分餐厅舍弃预制菜，更多是因为消费者不肯接受买卖双方信息不对称的非公平主义。一旦这个消费体验趋于透明，本身就习惯在其他场景购买预制菜的消费者，未必不会提升自己的接受度。</p>
+<p>因为可以确定，<strong>无论餐厅行业如何遮掩和拖延，餐饮预制菜透明化在未来必然是大势所趋。而随着预制菜的崛起，未来的烧制菜市场也会进一步萎缩，成为相对高端小众的餐厅特色。</strong></p>
+<p><strong>这是任何人都无法阻挡的滚滚大势。</strong></p>
+<p>于消费者而言，餐饮预制菜透明化是尊重其消费行为的基础，只有这一基础打好了，才能让争议与抵制的声音平息。</p>
+<p>至于预制菜行业本身而言，其一举一动也都有可能改变未来走势。</p>
+<p><strong>这两年，这一赛道从各个层面逐渐被要求标准化。</strong>3月份，《关于加强预制菜食品安全监管促进产业高质量发展的通知》发布，同时，中国烹饪协会牵头制定了多项预制菜团体标准。</p>
+<p><strong>国内预制菜行业需要持续进行规范性变革，这是不争的事实，也是行业后续良性竞争的前提。</strong></p>
+<p>从企业端来看，现存与预制菜相关的企业约为6.4万余家，注册资本普遍提高，注册资本在100万元以内的相关企业占比高达44.3%，注册资本在1000万元以上的占比也达到15.2%。从生产过程来看，预制菜在这几年对原料、生产工艺、储存运输等环节的要求变得严苛，这意味着，预制菜行业在诸多方面的运作也在大幅提高。</p>
+<p>只不过，正本清源非一日之功。辰智大数据显示，2023年预制菜上市企业仅14家营收超过亿元，与超过5000亿元的行业市场规模相比，趋于专业化、标准化的头部企业还是太少，活得安稳的企业更是寥寥无几。</p>
+<p>当下对于预制菜的争议，或许也意味着这一行业的机遇就在眼前，而每一家预制菜企业都有机会成为真正的行业巨头。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI3MjExNTM5Mw==&amp;mid=2247499815&amp;idx=2&amp;sn=fd32c70dded8c7e09fd8606e0d14b51c&amp;chksm=ea0a2a118c789f6f169d8888a4406de138a10f38b13b7093fa67983c5e5391f6375abb726e8c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“道总有理”（ID：daotmt）</a>，作者：道总，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990811876518917</guid><pubDate>Mon, 14 Oct 2024 09:28:00 +0800</pubDate></item></channel></rss>
