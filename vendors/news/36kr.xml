@@ -1,603 +1,498 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 15 Oct 2024 17:30:25 +0800</lastBuildDate><pubDate>Tue, 15 Oct 2024 17:30:25 +0800</pubDate><item><title>清华团队发布首个「真实开放环境具身智能环境」EmbodiedCity</title><link>https://36kr.com/p/2993481882283015</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1080,573" src="https://img.36krcdn.com/hsossms/20241015/v2_cb375bba168e4e79871700805808cfc3@46958_oswg811470oswg1080oswg573_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>具身智能被视为当前人工智能（AI）领域最具潜力的方向之一，重点关注智能体感知、学习和与环境动态交互的能力。</p>
-<p>近年来，具身智能发展迅猛，在多个领域取得突破进展。然而，<strong>当前大多数具身智能研究聚焦于有限环境如室内场景中，针对城市级别开放真实世界场景的探索较为匮乏</strong>，急需构建相应的模拟平台和基准测试集。</p>
-<p>近日，清华大学城市科学与计算研究中心开放发布基于虚幻引擎5的<strong>城市具身智能模拟环境</strong>EmbodiedCity，专为多模态大语言模型（MLLM）和由大语言模型（LLM）赋能的智能体而量身定制，基于真实城市开放场景打造3D城市环境，并进一步针对不同维度和水平的开放空间具身智能能力，构建相应的任务集和数据集，可支撑真实开放空间具身智能的多类研究任务。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,329" src="https://img.36krcdn.com/hsossms/20241015/v2_85e35379f29e41728a68db0de4a76970@46958_oswg134289oswg1080oswg329_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>官方网站：https://embodied-city.fiblab.net/</p>
-<p>论文链接：https://embodiedagentbenchmark.github.io/agent/static/article/EmbodiedCity.pdf</p>
-<p>该平台提供离线运行和在线接入两种方式，既可以下载在不同操作系统本地环境运行，也可以访问智能体在线平台，基于Python SDK调用开发智能体，在平台网页直接编程使用。</p>
-<h2><strong>EmbodiedCity模拟环境</strong></h2>
-<p>EmbodiedCity以北京市国贸区域的真实道路和建筑布局为基础，结合人流和车流的真实数据与模拟算法，基于虚幻引擎5构建了<strong>一个真实、动态、开放的城市具身环境</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241015/v2_83dc4e469e45435c8751562108363601@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241015/v2_c18275bb6b284b858d24b61491f31e7b@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>环境中主要包含以下元素：</p>
-<p>（1）街道：机动车/非机动车道、十字路口、交通信号灯和人行道，街道布局合理多样。</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241015/v2_642b1e3322aa47bdaa2c97ab821e0630@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241015/v2_b2a90508376d45a4af7ab6270509c968@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>（2）建筑物：办公楼、购物中心、住宅小区等，细粒度建模还原真实建筑。</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241015/v2_e2c7395663d849fa93dc0dd6f77dab67@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>（3）其他元素：长椅、路灯、植被以及动态的车辆和行人，城市场景充满活力。</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241015/v2_6ed4f31a94c14b028746485d84d94440@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241015/v2_e815b4b6e8c14676a814be2c40bbc8f3@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>城市具身智能任务基准测试集</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20241015/v2_90cfaebe06ab4e1381c7ce1189b75db2@46958_oswg653450oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为充分<strong>探索开放环境具身智能体的感知、推理和决策能力</strong>，EmbodiedCity构建了一系列评测任务，既包括代表性的具身任务，涵盖行人模拟、车流模拟、场景理解、问答、对话、导航和规划，也支撑传统的感知、预测、决策等任务。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,777" src="https://img.36krcdn.com/hsossms/20241015/v2_20753e13235b40089860acb8b1089b70@46958_oswg82179oswg1080oswg777_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中，针对开放空间具身智能构建的任务集如下：</p>
-<p><strong>1. 跨模态场景理解</strong>：智能体观察环境元素并给出准确描述，通过在同一位置从不同角度观察，生成一组RGB图像作为输入，得到相应的文本描述。</p>
-<p><strong>2. 跨模态问答</strong>：在具身场景理解的基础上，智能体接收有关环境语义和空间信息的自然语言问询，例如，「场景中有多少个建筑？」以及「在当前视角下A建筑是否在B建筑的左边？」输入包括第一视角的RGB图像和有关环境的问题，对问题进行直接文本回答。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,392" src="https://img.36krcdn.com/hsossms/20241015/v2_63502b9875fc472c8e5f8e40928cf9ca@46958_oswg498447oswg1080oswg392_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>3. 多轮对话</strong>：具身对话涉及智能体与用户之间的持续互动，需要维持上下文和理解对话流。例如，「后方中有多少棵树？-&gt; 它们分别是什么颜色的？」任务的输入包括具身观察和多轮查询，得到多轮响应。</p>
-<p><strong>4. 具身导航/搜索</strong>：智能体根据自然语言指令在环境中进行具身导航，输入结合了视觉感知和自然语言指令，以引导智能体通过复杂环境进行实时感知、推理、决策。任务输出是环境中的行动序列。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,658" src="https://img.36krcdn.com/hsossms/20241015/v2_595fb73b18f747bf9fb51a9943c21543@46958_oswg1043068oswg1080oswg658_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>5. 任务规划</strong>：智能体需要能够将复杂且长期的具身任务目标拆分为多个子任务，例如，「我需要去便利店购物，但我不知道怎么走，应该怎么做？」输入包括第一视角的观察和自然语言描述的任务目标，输出是智能体所规划、拆解的一系列子任务。</p>
-<p><strong>6. 个体行为模拟</strong>：对于行人、车辆、无人机等不同类型的智能体，需要基于第一视角的观察和当前任务规划，生成与真实个体类似、符合真实个体规律和模式的行为与动作，该任务依赖于上述任务所体现的开放世界中的感知、规划、决策等具身智能能力。</p>
-<p>文章来自：清华大学城市科学与计算研究中心 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/m9Hn_R_Zd5kG1sAE8Tv0lQ" rel="noopener noreferrer nofollow" target="_blank">“学术头条”</a>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993481882283015</guid><pubDate>Tue, 15 Oct 2024 16:36:00 +0800</pubDate></item><item><title>百度灰测短剧Agent</title><link>https://36kr.com/p/2993359160355590</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>两个百度高优先级的项目，短剧与Agent终于在十月碰撞出了火花。</p>
-<p>光子星球日前独家获悉，10月14日，百度短剧上线Agent对话功能。在正常的点赞、评论区外，另设“进入聊天“按钮，进入后用户可单独与剧中主要人物对话、互动。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_adb65866a4ff417b9a58891ea45dbd71@000000_oswg801309oswg682oswg1396_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（截自百度App）</p>
-<p>该功能在百度App有三个入口，首页搜索推荐、二级入口视频的推荐栏和短剧栏。截至目前，Agent功能仍在测试中，尚未覆盖百度App内全部短剧，仅部分热门短剧可刷到。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_91fc1f0531d74c369ae14f458165636a@000000_oswg783284oswg831oswg831_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（截自百度App）</p>
-<p>在此次新功能前，百度其实已经在评论区测试过Agent。“AI果郡王”“AI浣碧”“AI吴用”等角色频繁出现在短剧评论区，发表评论的同时也获得用户的点赞和回复，官方将其定位为“评论区著名玩梗艺术家”。</p>
-<p>不同的是，新上线的Agent功能，由单个的角色Agent升级为多角色Agent，用户可实时、同时与短剧中多个角色进行对话。</p>
-<p>延续评论区、弹幕形式，“Agent+短剧”创造了一种新的内容消费，其创造的价值可能要超过短剧本身。分发到短剧的Agent有望作为生态中的一块拼图，补齐百度内容生态的短板。</p>
-<p>今年早些时候，百度App为短剧专门开设了二级入口，到现在测试Agent新功能，仅过去不到四个月。</p>
-<p>据光子星球了解，短剧在百度内部项目支持级别非常高。前百度资深副总裁、MEG负责人何俊杰今年一季度OKR中，短剧作为O1的第三个KR出现。百度信息分发平台总经理、百家号负责人李小婉在一、二连续两个季度中，涉及短剧的KR多达五个。</p>
-<p>Agent则是继“AI原生应用“后，百度重押的未来。在近期百度新一轮干部轮岗的内部信中，李彦宏曾多次提到“智能生态”一词，对Agent的重视度可见一斑。</p>
-<p>因此，对百度而言“Agent+短剧”，基本等于“强强联姻”。</p>
-<p>可以预见的是，在百度入场后，红果、抖音、B站等具备评论区内容挖掘空间的选手，也会陆续跟进，“Agent+”也将变成基建式的功能。</p>
-<h2><strong>短剧+Agent=？</strong></h2>
-<p>据悉，百度内部把“短剧+Agent“的功能称之为“边看边聊”。</p>
-<p>用户在短剧页面点击“进入聊天”选项后，就会自动进入到与角色对话界面。在不影响视频播放的前提下，用户可以与短剧中的主要角色对话。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_789cf7698cb44877b75e70dc6231ddc6@000000_oswg406644oswg684oswg1396_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（截自百度App）</p>
-<p>光子星球做了测试，刚进去，就触发了角色的对话，亮点是每个角色都保持了在短剧中的人设，不用文字说明和前情提要就能自然地带入说话的语境。即使是经过了多轮对话，人设也没“崩”。</p>
-<p>此外，三、四个角色同时对话，也没有出现明显的延迟感，甚至对话一开始因为对话刷屏过快，只能“见缝插针”。无论是使用官方提示词还是自发提问，并未出现过多“驴唇不对马嘴“的现象。刷过去的短剧，下次重新进入对话框，仍能看到之前的对话记录，再续上聊天也没压力。</p>
-<p>测试过程中，光子星球发现，目前只有几部热门短剧配备了新功能，说明该功能尚处灰度测试阶段。</p>
-<p>考虑到百度短剧的体量，大概率要具备自动识别、生成多Agent角色的能力。前期，大模型得学习处理大量短剧数据，涉及到如何切分剧情、分离角色等等，这将占据大部分时间。生成多Agent，除了Agent基本的一致性、延迟性、记忆力问题，还要考虑多Agent可能出现“打架”“死机”的情况。</p>
-<p>如果是持续在“边看边聊”中产生对话，也许要思考对话轮次增长后，角色是否会出现重复性回答情况。而且短剧测试数量一旦放开，能否维持住现在的角色识别和匹配率，毕竟有了短剧情境，观众最怕“出戏”。</p>
-<p>在功能上，还有很大的拓展空间。目前，用户与用户彼此隔离，用户进入聊天界面，只能看到Agent与Agent以及自己与Agent的聊天。借鉴评论区的用户互动，未来也可以考虑拆掉用户与用户之间的“藩篱”，进一步创造“在场”和“一起看剧”的沉浸感。</p>
-<h2><strong>百度为C.AI 找场景</strong></h2>
-<p>如果抽离短剧这个前提，仅仅是智能体对话，熟悉感迎面扑来。像国外的GPTs、Character.AI（以下简称C.AI），国内的星野、猫箱以及各类AI助手中的智能体，皆是此类代表。</p>
-<p>上述所提到Agent对话应用共同特点是缺乏场景，GPTs已经宣告破产，AI助手们也不再专门开发布会高调宣传，C.AI、星野、猫箱访问量虽然还在攀升，但卡在了使用时长上。9月份数据显示，C.AI的人均使用降到了14分钟。</p>
-<p>拥有场景的好处在于，用户不需要被动地适应Agent，提前了解Agent的性格特征，强迫用户自我带入机器的语境中去对话，而是身处于环境中，主动地去触发和使用一些功能。</p>
-<p>为Agent找场景这件事儿，国内一些厂商目前已经做了些尝试。微博、B站、快手、小红书等平台，评论区经常有官方或第三方AI助理，主要起到总结概括、生成图片和解答问题等“功能性”作用。</p>
-<p>目前出现的问题也不少，核心在于无法把握情感人设与执行助理任务之间的尺度。当Agent在不合时宜的场合下展示幽默，不仅没有活跃评论区，增强用户黏性，反而造成了困扰。</p>
-<p>回到短剧，或许是一片“技术+场景+题材“结合的实验地。</p>
-<p>题材上，打破常规、天马行空的短剧与现阶段Agent发展的早期阶段十分契合，偏娱乐化的场景本身容错率高，给予技术测试的空间也更大。同时，Agent技术的运用也为逐渐走向“内卷”的短剧市场带来了新的增量。</p>
-<p>光子星球发现，观看短剧的用户表达欲十分强烈，随着剧情发展，情感也随之变化，可谓之不吐不快。有看剧经验的人知道，光吐槽还不够，还得找个“看剧搭子”一起吐槽。这些都留在了评论区，其弊端很明显，滞后性很强，前一个用户的发言发出去要等很久才能收到点赞和回复，一来一往就有很长的时间差。</p>
-<p>现在，Agent能即时响应用户互动，且句句有回应，将有助于提升用户参与感。</p>
-<p>现实确实如此，当我们试着把评论区的留言发给Agent的时候，几乎是刚发布就得到了回应。几个角色光环加持的Agent除了执行回答这一基本任务，还用语气词、表情包、玩梗，给用户提供额外的情绪价值。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_a86261996de14476bed25b8d48240824@000000_oswg462938oswg682oswg1396_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（截自百度App）</p>
-<p>营造沉浸陪伴感和提供高情绪价值，对短剧用户可以说是对症下药。短期内，从指标上看到的可能是，短剧完播率上涨，对话轮次翻倍增加，使用百度App的时长增长。长期来看，用户黏性或许也将向短剧付费和商业变现方向转化。</p>
-<p>相较于冰冷的客服，自带角色属性的Agent更容易与人建立情感联系，这为其挖掘潜在的运营价值奠定了基础。从某这意义上，“Agent+短剧”提供了一种“非工程化”的私域营销玩法，Agent对话区亦可以承接流量和话题活动，基于Agent在对话中对用户的了解，以用户更易接受的方式来传递。</p>
-<p>当然，Agent也可以在平时的对话中去主动洞察和捕捉用户的需求，匹配和推荐用户所想要的消费内容。基于此，未来，大模型+Agent或许是打开短剧的“钥匙”。</p>
-<h2><strong>评论区的再进化</strong></h2>
-<p>一个看似不起眼的创新，掀起的也许是惊涛骇浪。</p>
-<p>时间回到2005年，彼时Youtube上传了第一条视频《Me at the zoo》，只有一个光秃秃的网页，用户想要评论还要跳转到另一个页面。</p>
-<p>当时没有人觉得奇怪，也没有人把评论区与视频播放量建立联系。直到Youtube于2006年上线评论和订阅功能，补全了视频社区核心互动和信息分发机制，才惊讶地发现“加了评论区后，YouTube的视频播放量竟然翻了两倍”。</p>
-<p>归根结底是背后评论区所创造的巨大消费价值，评论区中的点赞、分享、互动重塑了用户与用户、用户与创作者和用户与社区三者间的关系。当某个视频评论区出现了精彩、有趣或有深度的评论时，这些评论可能会被用户分享到其他社交平台上，吸引更多的人前来观看视频。</p>
-<p>这就像是一个无形的推广渠道，为视频带来了更多的流量和曝光度，用户爬楼、驻足，以及花费在视频上的时间也越来越多。</p>
-<p>沿着这条逻辑，我们能发现抖音、小红书上评论数量超过点赞数的例子比比皆是。在评论区被折叠的点赞和回复，动辄成百上千，大家也乐此不疲地在每个评论区下面疯狂地Q其他的博主和用户。</p>
-<p>到了B站，不光有评论区还有弹幕，二维的评论变成为了共时、共时空的三维评论，其中不乏有可以称之为“网络景观”的名场面。例如在一声沉重的“悠悠苍天，何薄于我”中，创造了870万弹幕送别诸葛亮的记录；满屏“如果能活着出去，万水千山，你愿意陪我一起去看吗”的弹幕，梦回狐妖小红娘的王权富贵篇。</p>
-<p>有网友会收集弹幕，也有人定期来打卡留念。这些都证明，评论区本身就可以作为内容来消费，有些情况下，其价值甚至超越了视频内容本身。</p>
-<p>站在这个视角来审视“Agent+短剧”，其所创造的也是一种新形式的评论区。在三维弹幕的基础上再往前走一步，它是一种新的内容供给方式，没有时间、空间限制，也没有输入长短、表达符号的限制。它也是一种共创的消费内容，既包含短剧创作者，也包含Agent与消费用户。随着不断地分享，外溢的价值也将越来越大。</p>
-<p>对于有场景但内容生态相对较弱的百度来说，不失为一个弯道超车的机会，靠在短剧中分发Agent来增加内容供给，盘活整个内容生态。在大模型时代，盘根错节的百度App生态也可能抽出新枝芽。</p>
-<p>不止是短剧和视频，当评论区的价值被再次发掘，“Agent+”将成为标配。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MjUxODMwMg==&amp;mid=2649659579&amp;idx=1&amp;sn=a6951f2b79c6d9ea9b15822e2fa69f00&amp;chksm=86057690c0c18ec11c0e418b705c5ba737698f69172864ed7edfdf3460bd7b05e758784f7838&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“guangzi0088”（ID：TMTweb）</a>，作者：郝鑫，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993359160355590</guid><pubDate>Tue, 15 Oct 2024 16:44:00 +0800</pubDate></item><item><title>沙特女孩，大步迈向健身房</title><link>https://36kr.com/p/2993466597272580</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="973,546" src="https://img.36krcdn.com/hsossms/20241015/v2_d657e4e3308642bead1911f9dfff7409@46958_oswg335215oswg973oswg546_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>今年7月底，巴黎奥运会女子200米自由泳预赛中，17岁的沙特游泳运动员马沙尔·阿耶德创下了2分19.61秒的个人最佳成绩，获得了第六名。马沙尔是第一位代表沙特阿拉伯参加奥运会游泳比赛的女性运动员，这一成绩不仅是她的个人突破，也是沙特阿拉伯体育史上的一个重要里程碑。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_190068f6670444f383ec5fdeb902930c@000000_oswg24725oswg670oswg431_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">沙特游泳运动员马沙尔·阿耶德 </p>
-<p>曾经，沙特阿拉伯的女性不被允许在公开场合运动，女性健身房无法获得合法的营业执照。想要健身，只能秘密藏进拥挤的补习中心、网吧，打着“美容”的旗号偷偷进行。</p>
-<p>但这十几年间，一切发生了巨变。</p>
-<p>如今，沙特几大城市的女性健身房蓬勃发展。脱下罩袍的沙特女性，穿着符合宗教习俗的健身服装，去专业健身房骑车、练瑜伽，挥洒汗水。 </p>
-<p>这和沙特阿拉伯提出的“2030 愿景”直接相关。“2030 愿景”被誉为沙特的“改革开放”，包含一系列对体育运动的提振政策，是女性健身市场的增长引擎。其核心原则——经济多元化、社会发展和健康的生活方式，都有利于女性健身行业的崛起。 </p>
-<p>有机构预测，沙特阿拉伯健身市场规模预计将从2023年的约9.69亿美元增至2032年的26.39亿美元，包括健身服装、健身器材等在内的细分市场颇具潜力。 </p>
-<p>就在日前，2024年沙特利雅得国际体育用品展也落下帷幕。海湾国家对于体育竞技尤其情有独钟，足球、篮球、板球、赛骆驼、赛马、拳击、乒乓球、网球、游泳、摔跤等是目前沙特和中东国家最流行的体育运动。而这其中，近年来变化最大的是女性体育项目的蓬勃发展。 </p>
-<h2><strong>01. 健身房里的沙特女性们</strong></h2>
-<p>今年9月下旬，沙特阿拉伯举行了第94届国庆日，一百多位自行车骑手举着绿色国旗环游公路。其中，在头盔里裹着绿色头巾、身穿长裤长袖的的女性骑手格外亮眼。Faygah就是其中一名，她的绿色头巾在脸庞旁边随风飘扬，骑行裤包裹小黑裙，倒并不妨碍蹬骑。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_8d6366f73a674c58a92f3f5277006199@000000_oswg134171oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">骑行被认为是沙特女性解放自我的标志性运动。图源：theworld.org </p>
-<p>已经是几个孩子母亲的Faygah，现在生活在沙特最繁华和开放的城市吉达。她经营着一家烘培店，和一大家子人幸福地生活在一起。骑行是Faygah在空闲时间最爱的运动，此外，Faygah还喜欢打网球、健步走、游泳等健身项目。</p>
-<p>在沙特阿拉伯，<strong>越来越多像Faygah这样有钱有闲的城市女性，从家里走向健身房和户外，开始运动</strong>。 </p>
-<p>“在沙特，女性的肥胖水平远高于男性，因为她们没有男性那样在户外活动的自由。”生活在沙特东部省份城市库巴的Fatima，对沙特阿拉伯女性的亚健康情况直言不讳。 </p>
-<p>Fatima十八岁时胖到两百六十斤；她十九岁时，父亲死于肥胖疾病。 </p>
-<p>Fatima的观点也有现实的数据支撑——<strong>沙特阿拉伯是全球肥胖患病率最高的国家之一</strong>，根据世卫组织2023年的一份报告，沙特阿拉伯王国的超重率为68%，女性高于男性，此外，女性的肥胖患病率高达39.5%。 </p>
-<p>而由沙特王国近年来主导的“2030愿景”，逐步取消了对女性参加体育运动的限制，并积极鼓励女性参与体育运动。 </p>
-<p>运动，不仅有助于女性健康，也具有巨大的市场潜力。据Astute Analytica的最新研究，<strong>沙特阿拉伯健身市场规模预计将从2023年的约9.69亿美元增至2032年的26.39亿美元。</strong>虽然目前沙特的健身房，还是以男性为主要目标客户，但自2015年以来，女性对体育运动的参与率也增加了超过150%。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_6369188ae3fa4d65901b3b8d1af9ded7@000000_oswg78404oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“现在我们有更多的体育比赛，女性可以体育活动的空间也更多了。”利雅得的年轻白领Hanan告诉霞光社。在她工作的利雅得中心商圈附近，分布着大大小小、各种类型的健身房。 </p>
-<p>在沙特，健身中心主要分为两类，大牌会员连锁和小众独立式。前者利润丰厚，占据了绝对的市场份额。后者则以男性专用、女性专用、混合健身房和CrossFit中心的多种形式吸引了大量会员，正在快速增长。 </p>
-<p><strong>阿联酋最大的健身品牌GymNation，今年在沙特阿拉伯计划开设六家健身房。</strong>近日，该公司宣布，已有超过12万人注册会员，其中第一阶段的1.2万会员资格在72小时内售罄，打破了中东健身房品牌开业前的所有销售记录。 </p>
-<p>此外，沙特健身公司Leejam在吉达开设有一家超过三千平米的女性健身中心，美国的精品健身公司Xponential也在首都利雅得成立了一家女性专用健身房。 </p>
-<p>不过这些大牌的私人健身房都采取会员付费制，价格不菲，不是一般的普通家庭能够负担得起的。这也从侧面说明，沙特离真正的全民参与运动还有很长的距离。 </p>
-<p>此外，研究机构Ken Research预计，首都利雅得将占据沙特阿拉伯约一半数量的健身房，1个月和3个月的会员服务会产生约45%的收入。 </p>
-<p>Fatima是一家名为Fit Studio 55的小型独立健身房的创始人。她的会员里，有公司职员、企业创业家、金融科技行业的程序员等等，她们代表着沙特阿拉伯女性的新力量。在忙碌的工作和家庭生活之后，来到健身房， 练习瑜伽、piloxing、室内团体自行车、 hiit，她们能获得短暂的自由。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_09e768d660a145eb80ac1fdd8d8467bf@000000_oswg78147oswg800oswg615_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Fatima（右）在Fit Studio 55</p>
-<p>Fatima的健身房会根据会员的不同需求，为之定制训练计划。而在沙特，像这样如雨后春笋般冒出的小型独立健身房，都走向为顾客提供更为人性化和定制化服务的趋势。</p>
-<h2><strong>02. 国家主导，体育步伐大迈进</strong></h2>
-<p>多年来，Fatima不遗余力地在社交平台上倡导女性健身，却收到许多恶评。 </p>
-<p>有网友指责她不算纯正的沙特人，因为她母亲是外国人；还有人骂她在海外接受过教育，用这些西方思想腐蚀年轻的沙特女孩……她感受到这个发源于骆驼和石油的古老国度下，根深蒂固的封建思想。连家人也劝她收收声，她一度灰心。 </p>
-<p>的确，对于这个恪守着伊斯兰教义、在中东地区堪称保守的阿拉伯王国来说，女性走向大众化的体育运动，也就是在最近十来年才迈出步子。 </p>
-<p>由于宗教文化习俗和历史原因，沙特女性曾被禁止在公共场合进行体育运动。直到2017年，沙特妇女还被禁止出现在体育场观看比赛。2012年伦敦奥运会，是沙特首次派出女运动员参赛。 </p>
-<p>十几年前，作为女子健身行业的先行者，Fatima为了获得合法的健身房营业执照，与沙特东部省年轻女企业家协会一起联系当时的体育部长。部长听过她介绍体育行业的数据和事实后，很快便批准成立。 </p>
-<p>她有点意外，问，“为什么没早点给女子健身房发牌照？” </p>
-<p>“因为没人问。”部长简单地回答说。 </p>
-<p>2017年，女性参与体育运动的规模显著扩大，当时的国王授予女性建立女子体育俱乐部的权利，但前提是须遵守特定的法规和条件。此外，沙特还在公立学校逐步开设针对女学生的体育课。 </p>
-<p>虽然每一步都举步维艰，在国际上，沙特女子体育运动的面貌正在缓慢改善。 </p>
-<p>2012年伦敦奥运会，沙特派出女性运动员参赛，赛前需要穿戴符合教法，也要经家长同意。2018年，WWE在沙特举办，沙特女性运动员穿着包裹全身的服装打比赛。2022年，沙特阿拉伯女子足球国家队赢得首场国际比赛，同年12月，沙特申办2026 年亚足联女子亚洲杯。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_b039f0de17ae42589f1a71e45b2fdd9a@000000_oswg303828oswg800oswg2000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">沙特女性运动大事件时间线 </p>
-<p>在这期间，公主Reema bint Bandar Al Saud发挥了不可或缺的力量。2017年，Reema公主担任沙特体育总局女性事务副总裁，致力于提高女性体育参与度。她在全国发起多个女性体育项目，并创办沙特阿拉伯第一所女子体育学院，还主导开发专门针对女性的体育设施等。</p>
-<p>在国家主导、政策和资金的大力支持下，从各种层面来看，如今沙特阿拉伯女性们参与各种运动的机会和奖金，都越来越多了。 </p>
-<p>去年，由PIF（沙特阿拉伯公共投资基金，是该国的主权财富基金）主办的阿美沙特女子国际高尔夫锦标赛宣布将总奖金提高至500万美元，与相对应的男子赛事奖金持平。此举意在强烈支持女子高尔夫运动，并推动高尔夫运动更加平等。此外，沙特高尔夫俱乐部还发起了一项计划，为1000名沙特女性提供首次进入高尔夫俱乐部打球的机会。发布后四天内，就收到了超过500个报名。</p>
-<p>Abrar Bukhari是沙特跆拳道黑带五段国家队运动员，创立了Above and Beyond沙特武术馆，专门面向妇女和儿童，也是沙特首家此类场馆。她说希望借助传播跆拳道这项体育运动，帮助人们打破他们面临的障碍和限制。</p>
-<p>“沙特阿拉伯发生了积极的变化，我从国外回来，生活方式也没什么大的变化。”英国出生的沙特女性Alaa，这几年回到吉达工作。她告诉霞光社，她在吉达认识了许多外派到沙特的年轻人，大家休闲时会一起去餐厅、爬山、健身。她在英国的驾照，也能在沙特用来开车。 </p>
-<p>这几年，沙特还在热火朝天地修建体育基建设施。Alaa的直观感受到是，吉达有平坦整洁的专用步道和慢跑道，即便是到了晚上也灯火通明，一些沙特女性每天都会和朋友出来健步走。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_944e1ff84d244e1a9a75dc81bed57ea4@000000_oswg144432oswg1024oswg584_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">沙特阿拉伯女子足球队正在训练。图源：www.agbi.com </p>
-<p>在利雅得、吉达这样的大城市，沙特政府正在斥巨资修建体育基础设施，举办国际性的大型体育赛事——这也是沙特“2030愿景”的一部分，旨在通过体育赛事吸引全球游客，推动旅游业发展。</p>
-<p>利雅得的萨勒曼国王体育场计划于2029年建成，将拥有九万多个座位，是全球最大的体育场之一。 </p>
-<p>而由中国铁建和SAMA公司承包的吉达体育场及周边体育村，将用于举办2034年沙特足球世界杯赛事——也是为了这场赛事，沙特阿拉伯预计耗资数千亿美元，打造15座场馆，其中包括11座新建场馆。</p>
-<h2><strong>03. 除了罩袍，她们运动时还能穿什么?</strong></h2>
-<p>9月下旬的这天，Faygah跟随主要由男性构成的骑行队伍，在海绵状平缓起伏的海湾区公路上前行，日光灼热，空气干燥，他们快速经过高大现代的玻璃外墙办公楼和整齐排列的低矮住宅。 </p>
-<p>Faygah不仅参加国庆节的活动，也会参加吉达骑行团日常活动。近几年，骑行运动在沙特阿拉伯日益流行，各大城市都出现了各种比赛和骑行团体。 </p>
-<p>据《沙特公报》报道，官方数据显示，每周骑行人数占沙特人口的1.1%，其中 32%为女性。2020年，沙特阿拉伯举办了首届女子自行车锦标赛，超过 1000 名女性参加了在吉达、利雅得、科巴尔举行的全民运动自行车赛。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_40d736dbfaf0412b96e143e609a9f947@000000_oswg127093oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">沙特女孩着传统骑行运动服装骑行。图源：theworld.org</p>
-<p>拍摄于2012年的电影《瓦嘉达》，讲述了沙特小女孩想要通过自己的努力获得一辆自行车的故事。电影里，这位勇敢的小女孩经历爸爸另娶新欢、《古兰经》比赛错失奖金、妈妈的蜕变成长等等事件，最后终于拥有了梦寐以求的绿色自行车。在利雅得的街道上，她将车轮蹬得飞快，黑色的罩袍随风呼呼响。 </p>
-<p>十多年过去，沙特女性已经可以在公开场合骑行，市场上却没有和女性骑行运动配备的专业服饰。19世纪至今，宥于社会传统、道德和宗教教义，女性的骑行服装一直存在各种争议。 </p>
-<p>阿卜杜勒阿齐兹国王大学的研究者，曾针对52名沙特女性骑行爱好者进行调查，几乎所有受访者都喜欢尊重伊斯兰教义和传统习俗的骑行服装，超六成的受访者倾向于穿着类似Abaya（简单宽松的长袍式连衣裙，覆盖了除头脚和之外的整个身体）的服装骑车。超过八成的人则表示，没有沙特商店提供这种类型的服装。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_dd9d30193a504af0a47c1c48fff5b095@000000_oswg73083oswg1000oswg666_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">许多在运动房的沙特女性，还没找到大众化的舒适合身的运动服图源：www.saudigazette.com </p>
-<p>骑行服装的匮乏，一定程度上反映着被古老传统束缚的中东女性，拥抱现代运动时遭遇的尴尬。</p>
-<p>最近，PIF斥巨资、沙特公主Reema担任董事长的健康品牌Kayanee经过调研也发现，沙特女性很难找到合身的运动服，因为市面上90%的健身服，都是使用不符合她们身体情况和需求的尺码系统设计的。 </p>
-<p>一些人看到了其中蕴藏的机遇，已经开始行动。 </p>
-<p>五年前，沙特公主Sara Al Saud创立的老牌健身中心NuYu，就开发了自己的运动服装产品线——专为沙特女性设计，结合时尚与功能性，满足女性在健身和日常生活中的需求。Kayanee的官网上，则已经展出多款由西方大师所设计、专为沙特女性打造的，符合道德规范、时尚且实用的运动服。 </p>
-<p>沙特运动先锋Fatima多年前也瞅准了沙特女性运动服装的市场。她创建了Tima Love Life，健身服经过定制，贴合中东女性的身材曲线，面料可拉伸至原尺寸的40%，以覆盖更大的身体面积。Fatima的服装流水线在巴西生产，沙特的消费者可以网购或者在几家商场的线下门店买到。 </p>
-<p>如果说沙特女性运动服装是一个尚未被打开的细分市场，在其更广阔的背后，还有正在增长当中的沙特阿拉伯体育器材市场。Statista的数据显示，2024年，沙特阿拉伯体育器材市场的收入达到10.63亿美元，预计未来五年里，该市场的年增长率将达到5.90%。 </p>
-<p>一些中国体育器械企业，也看到了这个机会，纷纷把出海的目光看向沙特。比如国内机器人明星企业宇树科技，就研发了一款名为Unitree PUMP的健身泵，在中东颇受欢迎。 </p>
-<p>Fatima所在健身房的明星产品是一款动感单车，她自己就是通过spinning而得到蜕变。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_33c3380d1b2f400b80c215d77424b87a@000000_oswg69913oswg1080oswg771_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Batook正在spinning上运动。图源：ridehighmagazine.com </p>
-<p>很难想象，现如今身材结实、拥有肌肉线条的Fatima，曾是一个132公斤的女孩，动感单车十分钟就累得气喘吁吁。她最初不能理解，骑着一辆哪儿也不能去的自行车，跟疯了似的，能有什么乐趣？ </p>
-<p>回想曾经每周数万次的骑行蹬腿，汗如雨下，Fatima坚持下来了。当她在房间里骑车时，仿佛和整个世界隔离开，头脑清醒，只有一个目标，就是蹬腿再蹬腿。她也渐渐明白，运动的真谛不只是减肥，而是在坚持和付出中逐渐理解自我，保持真我。 </p>
-<p>“沙特女性身处世界上最艰难的环境当中，但每一天，她们都令我惊讶和感到鼓舞。”Fatima说。因为运动，她面对生活中的其他挑战也更具备勇气。她想将这样的体验，带给更多正在亲历国家社会变革的沙特女性们。 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3MDU1MDY1NQ==&amp;mid=2247582599&amp;idx=1&amp;sn=58beaab48ca70d643d4f10a08c9f7ccf&amp;chksm=cfdd7aae3635dfa3ab7127c6b14679bbe847121f3e95a1ba1ab7750f60dfbe44fa401805b222&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“霞光社”（ID：Globalinsights）</a>，作者：张楠茜，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993466597272580</guid><pubDate>Tue, 15 Oct 2024 16:52:00 +0800</pubDate></item><item><title>盐城，一座绿都崛起</title><link>https://36kr.com/p/2993461604232197</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>投资界-城市看板来到江苏盐城。古时百姓皆以煮盐为生，给这座城市留下一个生动的名字——盐城，这里是江苏省土地面积最大、海岸线最长的地级市。</p>
-<p>大海作波涛，造就了我国最大的沿海滩涂湿地，麋鹿、丹顶鹤在此栖息，也让风电、光伏等新能源产业走到了全国前列。</p>
-<p>当前，盐城梳理出晶硅光伏、风电装备、不锈钢、动力电池、大气污染防治设备等<strong>5条地标性产业链</strong>；还有精密结构件、印制电路板、石油机械等8条<strong>优势产业链</strong>；以及光电显示、工业互联网等10条<strong>潜力产业链</strong>，形成了“5+8+10”重点产业链格局。</p>
-<h2><strong>隐秘光伏重镇</strong></h2>
-<p>我们先从一笔50亿光伏并购案说起。</p>
-<p>8月中旬，通威股份发布公告，拟不超过50亿元向润阳股份增资并取得其控股权。至此，2023年电池出货量的“老大”吞并“老五”，光伏史上最大并购诞生。</p>
-<p>润阳股份与盐城联系颇深。2017年润阳股份落户盐城经济技术开发区，开始光伏电池片生产之路，坚持单晶技术路线，卡位大尺寸电池，并早早布局海外市场，只用三年时间就做到产量全球第三。直至2022年，润阳股份连续3年电池出货排名全球前三，2023年依然保持电池出货全球前五。</p>
-<p>2022年11月，润阳股份申报创业板IPO，至此背后的一众VC/PE机构浮出水面：</p>
-<p>资料显示，2017年6月江苏盐城国资悦达新能源向润阳股份增资，后者总投资15亿元的2GW高效电池项目，也由此落户盐城。</p>
-<p>2018 年 9 月，主要由盐城国资出资的盐城元润，再次向润阳股份增资；一年后，建湖宏创入股。梳理下来，润阳股份早期成长历程中离不开盐城国资的一路支持。</p>
-<p>较为轰动的是2020年9月，15名股东向润阳股份投资3.2亿元。这也是润阳股份申报IPO前的最后一笔融资，公司估值一度达到400亿元。</p>
-<p>由此望去，盐城已聚集一众明星新能源企业。</p>
-<p>今年5月，盐都区重大项目开工及签约活动举办，总投资50亿元的昱辉光能项目正式开工。</p>
-<p>6月，苏州英鹏新能源有限公司与盐城亭湖区环保科技城签订投资合作协议。拟在盐城环保科技城建设年产10GW的高效异质结电池和组件项目。项目总投资100亿元，由清华大学章灵军博士团队建设智能化数字化高效低成本的异质结电池/组件，同时布局下一代叠层电池产线。</p>
-<p>7月，阳光新能源开发股份有限公司与江苏盐城滨海县签约，年产40GW光伏复合新材料项目正式落户江苏盐城滨海县沿海工业园。据悉，项目总投资30亿元，将建设年产40GW光伏复合材料边框项目。</p>
-<p>不仅如此，目前盐城光伏电池片和组件综合产能位居全国第一，集聚天合、阿特斯、协鑫、润阳、通威、晶澳等光伏行业明星企业，以及百佳、鹿山、小牛等一大批配套企业，覆盖硅片、电池、组件、辅材、智能设备等装备制造关键领域。盐城，俨然已成为全国光伏产业重地。</p>
-<h2><strong>地标性产业链</strong></h2>
-<p>我们先看一起融资事件：今年4月，专业从事新能源电池核心材料企业<strong>珩创纳米</strong>完成A轮超亿元融资，由广发信德领投，黄海金控、创维投资、电科基金、正景资本跟投。</p>
-<p>这是一个教授创业的故事。浙大任教6年后，林芝青前往美国深造，俄亥俄州立大学化学工程博士毕业，成为GE美国先进材料研发工程师。2022年2月，林芝青与业内人士共同创立<strong>珩创纳米</strong>，落户江苏盐城经开区，创始团队包括来自GE、陶氏化学等全球知名企业的前高管和研发人员。</p>
-<p>珩创纳米核心产品为磷酸锰铁锂正极材料，广泛应用于新能源汽车、两轮电动车以及储能系统等领域。磷酸锰铁锂作为磷酸铁锂的升级版，具有低成本、高电压的优势。公司成立以来收获多轮融资，背后站着高瓴创投、英飞尼迪资本、沃衍资本、创维投资等一众投资机构。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_53236658be8e40629e7613020f0b707c@000000_oswg126394oswg929oswg539_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>事实上，围绕打造动力电池产业集群，盐城已吸引上下游产业链项目集聚，弗迪动力电池项目、SK动力电池模组、威蜂动力电池、珩创正极材料、凌云电池PACK、NS自动化设备、易事特新能源等一批上下游产业链项目纷纷落户。</p>
-<p>现在的盐城，涵盖动力电池电芯、模组、电池包、正极材料、隔膜材料、极耳材料、结构件材料、成套设备以及研发检测、储能快充、回收利用等领域，一条较为完整的动力电池产业链条正在加速形成。</p>
-<h2><strong>何以盐城？</strong></h2>
-<p>风从海上来，盐城坐拥着全球最具开发价值的海上风场之一，100米高度年平均风速超过7.6米/秒，“十四五”海上风电规划容量达3000万千瓦。这里汇聚了国家能源、华电、国电投、华能、大唐、华润、中广核、国投电力、三峡新能源等“五大六小”所有新能源开发央企，海上风电装机规模占全国15%。</p>
-<p>此外，盐城的太阳能资源丰富，年平均累积日照为2338.8小时，年太阳辐射总量为1400-1600千瓦时/平方米，适宜光伏发电项目开发的空间资源充足。风车之下铺设光伏面板，让沿海滩涂利用率进一步扩大。</p>
-<p>2022年，《盐城市重点产业链培育行动计划(2022-2025年)》提出，聚力打造晶硅光伏、动力电池等5条规模较大、龙头突出的地标性产业链。开展精准招商，编制招商地图，制定各产业链可招引的链主企业、头部企业清单和配套企业清单，挂图作战。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_565008b264954bdd828aff2ce1d68eeb@000000_oswg210684oswg940oswg573_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_22cd6c3ab565431d9a132f90094fdcd9@000000_oswg130375oswg929oswg334_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：节选《盐城市重点产业链培育行动计划》</p>
-<p>此外，基金招商的风潮也吹到了盐城。</p>
-<p>早在2016年，盐城市政府出台《盐城市政府产业投资引导基金管理办法》，初步建立形成市政府类基金管理制度体系。</p>
-<p>2020年，盐城创投成功与央企康佳集团合作，组建规模30亿元的电子信息产业基金，专注电子信息、半导体、互联网、人工智能、物联网、5G通信、大数据、新型显示、电子材料等产业的投资。</p>
-<p>2022年1月，盐城创投成功组建运营100亿元盐城市产业投资母基金，构建“母基金+子基金”的基金集群生态体系，将引导更多金融资源和社会资本向绿色低碳发展示范区建设、“5+2”战略性新兴产业和23条重点产业链集聚。</p>
-<p>据清科研究中心《2024年上半年中国股权投资市场研究报告》，今年上半年，盐城募集活跃度在全国排名24，产投活跃度正在逐渐升温。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_39b32cc050ea4529b4620480ba5e1894@000000_oswg323187oswg1078oswg560_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>追风逐日，盐城的产业能量正在加速释放，崛起一座不容小觑的中国绿都。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247663390&amp;idx=2&amp;sn=acfa7dd14bac0a20da87e26ac1342269&amp;chksm=eda087ce79572af0e6e2cbdde4d3a703588fdc43d3e7069487128f30fcad1f65f4a8069be67d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：于丽丽，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993461604232197</guid><pubDate>Tue, 15 Oct 2024 16:53:00 +0800</pubDate></item><item><title>36氪「中国股权投资市场有限合伙人」榜单评选｜启动调研</title><link>https://36kr.com/p/2992134835219204</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="2223,1251" src="https://img.36krcdn.com/hsossms/20241015/v2_40abc6be23fb42569f57b275629def28@943740460_oswg353859oswg2223oswg1251_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">·</p>
-<h2><strong>一、启动背景</strong></h2>
-<p><strong>股权投资行业正在悄然调整，逐步进入发展阶段。</strong></p>
-<p>2024年上半年，随着“新国九条”、“创投17条”等股权投资相关政策的密集出台，私募基金监管日趋规范、行业顶层设计日趋完善。尽管在世界格局、经济/行业周期的叠加影响下，退出难成为股权投资市场的普遍问题；但市场参与者们仍然在寻求正确方向上的新机会，例如新质生产力、低空经济、医疗大健康、人工智能等各个领域，都持续有新进展。</p>
-<p>在诸多复杂因素的共同作用下，股权投资市场所有参与者们，毫无疑问面临着前所未有的机遇与挑战。对于资金更源头的LP机构来说，持续不断探索和实践能够适应市场的投资策略，通过严密而精准的眼光去挑选优秀GP，变得更加紧要。</p>
-<p>而随着市场环境的变化，LP与GP之间的合作模式也在不断演进，在创新领域上的共识逐步收敛。不同出资来源的LP与优质GP们携手共进，迈向更加健康、可持续发展的行业生态。</p>
-<p>我们观察到了大家共同努力之下的诸多尝试，例如：作为一级市场的重要流动性提供者“S基金”，就被予以众望。尽管尚处于早期阶段，国内S基金专业管理人们在多样化的交易形式和策略上均有尝试；而母基金直投上，几乎没有LP不涉足该领域。</p>
-<p>在当前中国股权投资市场的背景下，36氪启动<strong>「中国股权投资市场有限合伙人」榜单启动调研</strong>。</p>
-<p>正如我们观察到的，在当今快速发展的股权投资市场中，有限合伙人（LP）的作用日益凸显。他们不仅是资金的提供者，更是市场发展的推动者。这次调研将聚焦于行业内的市场化母基金、政府引导基金、母基金直投以及S基金，希望从中进行一次对行业发展趋势的深入剖析——为行业提供更多的洞见，并推动中国股权投资市场的创新和可持续发展。</p>
-<h2>二、奖项设置</h2>
-<p>本次调研将围绕以下几个奖项进行：</p>
-<p>·<strong>中国最受关注市场化母基金</strong></p>
-<p>·<strong>中国最受关注政府引导基金</strong></p>
-<p>·<strong>中国最受关注母基金直投</strong></p>
-<p><strong>·中国最受关注S基金</strong></p>
-<p>调研将基于《36氪中国股权投资市场有限合伙人调研问卷（2024）》进行，问卷将通过邮件的方式发送至申报者邮箱。将涵盖LP的基本信息、管理基金情况、投资案例等多个维度，通过定量和定性的分析方法，综合评估LP的表现。本次调研收集的数据有效区间为2021年1月1日起至2024年9月30日。</p>
-<h2>三、评选流程</h2>
-<p>10月14日-10月20日 启动报名</p>
-<p>10月20日-11月1日 报名材料提交</p>
-<p>11月1日-11月15日 数据审核</p>
-<p>11月下旬 调研结果发布</p>
-<h2><strong>四、参与方式</strong></h2>
-<p>我们诚邀所有符合条件的LP参与本次调研，请有意向的LP通过以下方式联系：<a href="mailto:36krmediair@36kr.com">36krmediair@36kr.com。</a></p>
-<h2>五、其他</h2>
-<p><strong>我们同时启动36氪「中国最受关注基金小镇」评选，请扫描下方二维码参与报名。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1501,6258" src="https://img.36krcdn.com/hsossms/20241015/v2_fab46f15098c4c6cae72cf5534bbfe90@943740460_oswg2146160oswg1501oswg6258_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">·</p>
-<p> </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2992134835219204</guid><pubDate>Tue, 15 Oct 2024 16:54:00 +0800</pubDate></item><item><title>时隔5年，谷歌再创量子霸权里程碑，RCS算法让电路体积增加一倍</title><link>https://36kr.com/p/2993396077554693</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1066,409" src="https://img.36krcdn.com/hsossms/20241015/v2_0f4a4aa6d5f9409e99172c99bf1980e4@46958_oswg388610oswg1066oswg409_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>【导读】</strong>量子计算机和经典计算机之间的较量，是永恒的。谷歌最新Nature研究中，证明了随机电路采样可以容忍多大噪声，依旧实现了量子霸权。</p>
-<p>5年前，谷歌高调宣布实现「量子霸权」，创下量子计算新纪录。 </p>
-<p>然而，当今量子计算机进展迟缓，一大悬而未决的问题是——错误率频出。 </p>
-<p>尽管22年5名计算机科学家似乎攻克了这一难题，但至今我们仍无法get，量子计算机可以容忍多大误差。 </p>
-<p>恰好，谷歌团队最新Nature论文，精准描绘在随机电路采样（Random Circuit Sampling，RCS）实验中，如何实现量子霸权。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,1178" src="https://img.36krcdn.com/hsossms/20241015/v2_c6023c6645e142a29d2c3d66b31d455f@46958_oswg570263oswg1080oswg1178_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://www.nature.com/articles/s41586-024-07998-6 </p>
-<p>他们使用了名为Sycamore的量子计算机，来运行简单算法RCS，本质上是生成一个随机值序列。 </p>
-<p>通过分析Sycamore输出的结果，当其在运行RCS时并在高噪声干扰模式下，能够被经典超算「模拟」、超越。 </p>
-<p>然而，当噪声降低至某个阈值以下时，Sycamore计算变得非常复杂，以至于模拟无法实现。 </p>
-<p>谷歌表示，即使是世界上最快的经典超算，预估也需要10000年才能完成。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,734" src="https://img.36krcdn.com/hsossms/20241015/v2_e78b6827d2fa48fc87846f737675d440@46958_oswg909746oswg1080oswg734_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>RCS这种全新方法，使得量子计算机性能，大幅超越经典超级计算机。与2019年相比，在相同保真度下，电路体积增加了一倍。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241015/v2_2e8c2e93691341e3a8e89df94f4f6f5e@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>量子计算的关键基准：随机电路采样（RCS）</strong></h2>
-<p>量子计算机概念首次被构想出来，可以追溯到上个世纪80年代了。 </p>
-<p>当时，科学家们对此寄予厚望，希望其能够解决经典计算机的难题。 </p>
-<p>过去5年来，不论是谷歌、微软，还是IBM等大厂，都在研发量子计算机，以解决饱受诟病的噪声问题。 </p>
-<p>2019年，谷歌宣称其量子计算机可以运行RCS，并取得量子霸权。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,827" src="https://img.36krcdn.com/hsossms/20241015/v2_61f2b51090e8445a85e7b3da4b6c7bd4@46958_oswg385757oswg1080oswg827_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://www.nature.com/articles/s41586-019-1666-5 </p>
-<p>但没过多久，谷歌这一说法就被推翻了。因为研究者们发现，经典超算也能够比预估更快地运行该算法。 </p>
-<p>而如今，在噪声中等规模量子（Noisy Intermediate-Scale Quantum）时代下，量子处理器展示出显著的潜力。 </p>
-<p>但它们容易受到随时间累积，并限制其有效处理量子比特数量的错误（即噪声）的影响。 </p>
-<p>由此，这引发了一个基本问题—— </p>
-<blockquote>
-<p>尽管量子计算中存在噪声限制，这些AI系统能否继续在特定应用中，提供实际价值并超越经典超算？ </p>
-</blockquote>
-<p>最新研究中，谷歌团队通过研究随机电路采样（RCS），将其作为评估量子计算机伴随噪声情况下，性能如何来回答这个问题。 </p>
-<p>他们揭示了两种不同的相变，它们支配着量子计算机随噪声强度、处理量子比特数量变化的行为。 </p>
-<p>即使是量子比特噪声微小差异，比如99.4%的无错误率提高到99.7%，也会导致Sycamore像是处在一种全新状态。 </p>
-<p>更形象的比喻，就像是物质突然从固态，转化成液态。 </p>
-<p>谷歌研究人员Boixo解释道，「噪声的作用是将系统变得更加经典化」。 </p>
-<p>研究表明，一旦运行67个量子比特的升级版Sycamore超过某个噪声阈值，其RCS输出无法通过经典计算机模拟。 </p>
-<p>令人兴奋的是，研究证明了RCS在大规模实验中可靠性。同时，意味着它可以成为，有效衡量量子计算机性能的一个指标。 </p>
-<p>如前所述，Nature研究显示，在相同保真度下，电路体积比2019年的结果增加了一倍。 </p>
-<p>这意味着，谷歌量子计算机能够处理更复杂的计算任务，同时保持相同的准确度。 </p>
-<p>结果表明，即使在当前噪声水平下，嘈杂量子计算机也具备超越经典超级计算机的潜力。 </p>
-<p>正如谷歌所言，这是朝着开发量子计算机实际应用迈出重要的一步，为未来量子计算在各个领域应用，奠定了基础。 </p>
-<p>Quantinuum量子计算研究员Michael Foss-Feig表示，这项研究揭示了，量子计算机可以承受多大噪声，并仍超越了经典超算的性能。 </p>
-<p>中科大物理系教授陆朝阳指出，经典计算机和量子计算机之间的持续竞争，一直是该领域的驱动力。这种竞争激励研究人员构建更大、更高质量的量子计算机。 </p>
-<p>尽管如此，谷歌研究最新结果，并不代表了量子计算机将取代经典超算。 </p>
-<p>比如，Sycamore仍无法执行普通计算机的典型操作，比如存储照片、发电子邮件。 </p>
-<h3><strong>RCS的重要性</strong></h3>
-<p>RCS基准测试提出了一个被认为对经典超级计算机来说难以处理的计算任务，这对于展示量子霸权（quantum advantage）或「超越经典」能力至关重要。 </p>
-<p>对经典计算机来说，挑战在于信息的指数级增长——随着量子电路规模的扩大，描述其状态所需的信息量会呈指数级增加。 </p>
-<p>这意味着，即使完全了解电路的设计（每个门及其操作），试图完全模拟电路或从其输出分布中采样的经典计算机也将难以跟上计算需求。 </p>
-<p>RCS提供了对设备量子电路体积（quantum circuit volume）的全面评估，这是一种考虑电路结构并反映模拟它所需的最小经典资源的度量，更高的值表示计算机更强大。 </p>
-<p>研究小组利用这个基准测试来确定量子计算机可能在哪些方面超越经典超级计算机，即使在存在噪声的情况下。 </p>
-<p>谷歌展示了使用最好的超级计算机获得与量子计算机类似结果所需的时间，包括两种情况：无限内存（三角形）和适合GPU内存的可并行化计算（圆点）。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,802" src="https://img.36krcdn.com/hsossms/20241015/v2_2295bee1fa0442ef9efe42a3faf674fe@46958_oswg126167oswg1080oswg802_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>验证RCS的保真度</strong></h3>
-<p>RCS基准测试的具体输出是保真度（fidelity）的估计（一个介于0和1之间的数字），用于表征含噪声的量子处理器的状态与实现相同电路的理想无噪声量子计算机的状态有多接近。 </p>
-<p>保真度的值通过一种称为片段交叉熵基准测试（patch cross-entropy benchmarking, XEB）的技术进行验证。对于大型电路，这涉及将整个量子处理器分成更小的「patches」，并计算每个片段的XEB保真度。 </p>
-<p>通过将这些片段保真度相乘，可以得到整个电路的总体保真度估计。 </p>
-<p>谷歌最新的结果显示，电路体积（circuit volume）不仅成功地翻了一番，而且保真度也与2019年的演示相当。 </p>
-<p>这意味着，我们朝着容错量子计算（更复杂、更实用的量子计算任务）迈出了重要一步，并证实了使用当前含噪声的量子设备访问计算复杂区域的可行性。 </p>
-<p class="image-wrapper"><img data-img-size-val="993,808" src="https://img.36krcdn.com/hsossms/20241015/v2_63f6d221c5114bcd90f50f7f46b3eda6@46958_oswg243120oswg993oswg808_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">实线表示基于数字误差模型的估计XEB保真度 </p>
-<h3><strong>相变和仿真算法</strong></h3>
-<p>噪声会破坏量子相关性，有效地缩小了可用的量子电路体积（quantum circuit volume）。 </p>
-<p>谷歌试图了解是否可能在噪声影响下充分利用处理器的全部量子电路体积。换言之，是否可能在更小尺寸的量子处理器上实现等效计算。 </p>
-<p>参数空间中随机电路采样（RCS）基准表现出质的不同的区域，由相变分隔。 </p>
-<p>纵轴和横轴分别对应电路深度（周期数）和每周期错误率。在噪声足够弱的区域（绿色），量子相关性延伸到整个系统，表明量子计算机发挥了全部计算能力。 </p>
-<p>而在强噪声区域（橙色），系统可以近似表示为多个不相关子系统的乘积，因此，较小的量子计算机可以执行等效计算。在这种情况下，通过分别模拟系统的各个部分，可以显著降低经典计算的成本。 </p>
-<p>仿真算法关键依赖于强噪声区域的低量子相关性特性。因此，弱噪声和强噪声区域之间存在明显的相变意味着仿真算法在弱噪声区域无法成功。 </p>
-<p>谷歌采用了三管齐下的方法来研究相图（phase diagram）： </p>
-<p>1. 开发了一个分析模型，证明了在大系统尺寸极限下相变的存在 </p>
-<p>2. 进行了大量数值模拟，精确绘制了我们特定量子硬件的相边界 </p>
-<p>3. 通过在量子电路中引入不同程度的噪声，实验观察相变边界来进行验证 </p>
-<p>通过数值模拟，可以证明Sycamore处理器的参数完全处于低噪声区域。换句话说就是，处理器牢固地处于超越经典（beyond classical）的区域，超出了当前超级计算机的能力。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,708" src="https://img.36krcdn.com/hsossms/20241015/v2_d77fe6acfee84a8f9d8faf6e620d72e7@46958_oswg135842oswg1080oswg708_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>量子计算争霸赛</strong></h2>
-<p>从外观上看，谷歌Sycamore处理器与PC硅芯片相似，但它经过特殊制造，能够以量子精度控制流经其中的电子。 </p>
-<p>为了减少可能破坏的电子微妙状态，并引入噪声的温度波动，芯片被维持在接近绝对零度的超低温环境中。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,704" src="https://img.36krcdn.com/hsossms/20241015/v2_9ab119df831c45169fcfe088e18dc202@46958_oswg1026153oswg1080oswg704_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>与普通计算机使用经典比特（始终为0或1）不同，量子芯片依赖于量子比特（qubit），利用电子处于混合状态的能力。 </p>
-<p>相较之下，量子计算机优势在于，可以使用指数级更少的qubit完成某些任务。 </p>
-<p>举例来说，要运行RCS算法，经典计算机需要1,024个比特，而量子计算机只需要10个量子比特。 </p>
-<p class="image-wrapper"><img data-img-size-val="758,392" src="https://img.36krcdn.com/hsossms/20241015/v2_c9f904262ab2422b8e450af59e0ad2d3@46958_oswg52307oswg758oswg392_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2019年那次研究，谷歌Nature论文表明，经典超算是需要1万年，才能完成53量子比特计算机，仅在200秒内就运行了RCS算法。 </p>
-<p>然而，这一说法受到业界质疑，有的科学家表示，1万年也极其夸张。 </p>
-<p>随后，IBM研究人员在网上发布了一篇预印本，表明超算实际上在几天内，便可以完成这项任务。 </p>
-<p>更令人惊讶，今年6月，陆朝阳团队使用强大的经典计算机，在仅仅一分钟内就完成了这个结果的仿真。 </p>
-<p>值得注意的是，谷歌19年论文结果，并不是唯一一个声称量子计算超越经典超算。 </p>
-<p>2023年6月，IBM等机构研究人员同样证明，127量子比特计算机可以解决，超出经典计算机暴力计算能力（beyond brute-force classical computation）的潜在有用数学问题。 </p>
-<p>然而，在短短几周内，多项研究就表明，经典计算机仍可以在这些问题上，与量子计算机竞争。 </p>
-<p>这恰恰凸显，量子计算机和经典计算机之间，是一个永无休止的竞争过程。 </p>
-<p>谷歌研究人员希望，在未来量子计算机将变得足够大、足够无错误，以彻底超越量子-经典之争（quantum–classical war）。 </p>
-<p>然而目前，他们仍在继续这场激烈的竞争。 </p>
-<p>Boixo总结道，「如果你无法在RCS这个最简单的应用中获得优势，我认为你在任何其他应用中都无法取得胜利」。 </p>
-<p>这一观点凸显了，RCS在量子计算研究中的重要地位，以及当前量子计算面临的挑战。 </p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 15 Oct 2024 18:00:37 +0800</lastBuildDate><pubDate>Tue, 15 Oct 2024 18:00:37 +0800</pubDate><item><title>年轻人爱上“迷你白电”，但却不是用来“干正事”</title><link>https://36kr.com/p/2993236298342021</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="955,784" src="https://img.36krcdn.com/hsossms/20241015/v2_0c7b6781e9e847cfa847e8b1ce3dcc7d@1689395163_oswg589786oswg955oswg784_img_png?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>曾经，绝大多数用户对于家电产品的追求都是“大而全”，比如冰箱越大越好，能放更多东西、洗衣机越大越好，能洗更多衣物，同样的价格，一定会选择容量更大的那个。</p>
+<p>但近些年迷你家电却在成为一种潮流，像在领国日本迷你家电就已经流行了很长一段时间，主要受日本独有的“一人食”、“一人居”文化影响，使迷你家电产品在日本有了巨大市场空间。</p>
+<p>国内在早两年也掀起过一阵小厨电的潮流，之后便有些偃旗息鼓，当下迷你家电也开始不再局限于厨房，一些迷你冰箱、洗衣机、空调等产品开始走俏，但又与日本兴起的原因有那么一些不同，在方便独居人群的同时，迷你家电还被国内用户开发出了诸多妙用，或许只能说国内年轻人的脑洞更大。</p>
+<h2><strong>爱上迷你家电的年轻人们</strong></h2>
+<p>有关年轻人爱上迷你家电的这股风潮，此前大都局限于厨房小家电。比如豆浆机、破壁机、养生壶、小烤箱、空气炸锅等等。“小而美”的产品让许多年轻人趋之若鹜，随之而来的则是大品牌开始布局推品，专门代工生产的小品牌也蜂拥而至，市场走向饱和，行业开始价格内卷，再加上年轻人的新奇劲一过，厨房小家电很快就从“吃香”变成了“吃灰”。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1446" src="https://img.36krcdn.com/hsossms/20241015/v2_12d52f87b55d43bfb14b3d068fbed0d0@1689395163_oswg795987oswg1080oswg1446_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但这却没能减少年轻消费者对于迷你小家电的喜爱，只是迷你家电的范围不再局限于厨房，开始跑向了更为刚需的白电，比如迷你洗衣机、迷你空调、迷你冰箱等等。</p>
+<p>有关数据显示，今年上半年，4kg的迷你洗衣机零售量同比增长14.7%，零售额同比增长25.4%。中研普华研究院更是预计，到2030年迷你冰箱的市场规模将达到230亿，年均复合增长率约为8.7%。</p>
+<p>迷你家电更是成为租房年轻人的首先。</p>
+<p>“我公司在上海徐汇，基本是寸土寸金里的寸土寸金了，我不想花太多时间通勤，也导致我只能在公司附近找房租，租金接近5000一个月但房子面积只有40多平，放不下太多东西。所以一些迷你家电就成为了我的首选，像迷你洗衣机是我买的第一台迷你家电，租房本身是代一个洗衣机的，但我多少有点洁癖，这洗衣机也不知道洗过多少人的衣服的，我不想清洗杀毒，干脆就买了台迷你的，洗我一个人的衣物刚好，还能洗洗床单，又不占地方。”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1725" src="https://img.36krcdn.com/hsossms/20241015/v2_1fc12f4325644d169d64ae97cf77b6e9@1689395163_oswg620973oswg1080oswg1725_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除了好用、好放，迷你家电还一个优势在于“好拿”。“我比较喜欢新鲜感经常搬家，今年就已经搬了两次，租房一般也都是1-3个月的短租，虽然每次搬家我都是请的搬家公司，但到地方后的归置整理还是要我自己来，迷你冰箱、迷你洗衣机这类家电太适合我了。”</p>
+<p class="image-wrapper"><img data-img-size-val="866,1332" src="https://img.36krcdn.com/hsossms/20241015/v2_4e43cbf25e5644f28d55dd4bdf4cb2a9@1689395163_oswg62246oswg866oswg1332_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>总之，对于这些租房的年轻人来说，并非是大家电不好，而是迷你白电更有性价比，几十上百块就能买到一台冰箱、洗衣机，就是搬家扔掉也不会觉得可惜。再加上，各种迷你白电，在外观颜值上更具个性化，摆在家中不仅是家电，还是装饰品。</p>
+<p>同时，也因为其低廉的价格，让不少用户能没有负担地使劲造，也由此开发出了许多迷你家电的新用法、</p>
+<h2><strong>迷你家电竟还有这些“妙用”</strong></h2>
+<p>冰箱都知道用来干嘛的，无非就是冷藏、冷冻，在一般家庭中，冰箱是用来存放食品的，比如各类瓜果素菜，各种肉类以及没吃完的剩菜，但在年轻手上，冰箱的用途则单一得多，像是如何度过盛夏，除了空调还有一个东西年轻人少不了。</p>
+<p>“那句话怎么说来着？可乐配冰，快乐不停，我夏天就靠冰饮料续命的，一天基本2瓶，特别是晚餐时冰啤酒是用来下饭的。家里人又多，冰箱也被塞得满满的，为此我特意买了个小冰箱，就专门用来放酒水饮料。说起来也好笑，我爸本来是不怎么喝饮料的，特别是冰的，可今年夏天实在太热了，变成跟着我也天天喝冰饮。”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1584" src="https://img.36krcdn.com/hsossms/20241015/v2_5fb6e4f29e7a48afa017daed9a7956c9@1689395163_oswg1042153oswg1080oswg1584_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>放饮料还算正常的话，那么化妆品呢？“一直就很喜欢护肤品，喜欢尝试不同的产品，听到谁说哪个哪个产品好，我就想去买，这就导致我的化妆柜根本不够放，我这算是病入膏肓吧……再加上夏天实在太热了，很多化妆品放在外面根本无法保存，看了网上的办法就买了太小冰箱，还蛮好用的，面膜什么的放里面用的时候冰冰凉凉，正适合夏天。”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1505" src="https://img.36krcdn.com/hsossms/20241015/v2_51d93dc7bdf34a9ab04a266d1e2f06dc@1689395163_oswg636870oswg1080oswg1505_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>冰箱里没有菜还能理解，如果是洗衣机不洗衣呢？“这台迷你洗衣机是我专门买来洗菜，之前在网上看到这个用法觉得很有趣，自己就买了台。效果还不错，就是用来洗小龙虾也能洗得跟干净，至少比我手洗干净还快，之前我一个人处理5斤小龙虾基本要3、4个小时，现在时间能缩短一半。”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1712" src="https://img.36krcdn.com/hsossms/20241015/v2_62b44cfb475c41a5817860c083bc1bed@1689395163_oswg898181oswg1080oswg1712_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1714" src="https://img.36krcdn.com/hsossms/20241015/v2_7d1419c6cbd94751b6dbd3286b0a0a03@1689395163_oswg789176oswg1080oswg1714_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>年轻人之所以能开发出如此新奇的家电用法，归根到底还是想要躲懒，这也符合大部分小家电被产出的初衷，另外就是迷你家电相比传统大白电来说还有个优势在于“节能”。</p>
+<p>“我买的迷你空调，说是空调也有点不太准确，因它其实就是自己往里面加水、加冰，再把凉风吹出来，名字叫空调实际上制冷效果更传统空调没法比，至少给人用我觉得肯定是不行的，我买来是给宠物的。去年夏天太热了我白天要上班，只能给它开空调，一个月小1000的电费实在有点背不住，今年就给他买了个这东西，白天应应应急效果还凑合吧，我住的离公司不远，中午会回去给他换下冰，实在太热也会开个吧小时空调降下温，除了噪音大了点整体还行，而且今年电费确实降了很多。”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1715" src="https://img.36krcdn.com/hsossms/20241015/v2_52042fe4af6c49638f693d313e0b505f@1689395163_oswg653189oswg1080oswg1715_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1710" src="https://img.36krcdn.com/hsossms/20241015/v2_87829eca204046acb0d0d31b2cc2c544@1689395163_oswg510071oswg1080oswg1710_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从冰箱不放菜，到洗衣机洗菜，年轻人将各种迷你白电玩成了花，加上市场肉眼可见的增长，似乎迷你白电正迎来像厨房小家电一样的风潮。</p>
+<h2><strong>双十一，迷你白电迎大考</strong></h2>
+<p>有市场自然就会有竞争，当前越来越多原本仅限于厨电赛道的品牌，也开始逐渐像迷你白电赛道扩展，像小熊电器就已经推出包括迷你洗衣机、迷你车载冰箱等多款产品。</p>
+<p>甚至包括海尔、美的、西门子、松下这些传统家电豪强企业或早或晚也都已杀入迷你白电赛道，还有不少玩家跨界而来，比如追觅，在今年年初就推出首款迷你洗烘一体机，正式坐上洗衣机生意的牌桌。此前有着“扫地茅”之称的石头科技，在近两年同样发布了多款迷你洗衣机产品，如今年9月初发布的Q系列洗衣机就包涵迷你洗烘一体机Q1与迷你洗衣机Q1M两款产品。</p>
+<p class="image-wrapper"><img data-img-size-val="951,693" src="https://img.36krcdn.com/hsossms/20241015/v2_077d5e46a18d444c90e0efd17fb7b4ce@1689395163_oswg729853oswg951oswg693_img_png?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>迷你家电之所以越来越受追捧，一方面是居家需求的增加，“宅经济”仍在持续，且在“消费降级”的大环境还在，导致相比出门花销，年轻人还是喜欢宅在家；另一方面，则是消费观念及生活理念的改变，像如今“高购商”人群的兴起，他们不愿放弃生活品质，但又无法消费得起那些“最好”的产品，一些迷你的、简配的就成为了他们的平替。</p>
+<p>当然，像日本一样的“一人居”规模的扩大也是一个重要原因，在单身人口已突破2.4亿的背景下，“一人食”、“一人用”需求也在成为刚需，尤其对于年轻人来说，可以帮助他们解决生活中的诸多不便。</p>
+<p>再加上小家电尤其是迷你家电具有便携性特点，产品在功能、外观等方面更迭快，单价较低，易于更换，所以使其有着“耐用品”的属性，同时也有着“快消品”的价格。</p>
+<p>眼看一年一度的双十一又将到来，对于迷你白电来说将是一次大考，此前包括美妆冰箱在内的不少单品都经历过大促考验，只是相较现阶段彼时玩家数量少，基数底，有大幅增长并不足为奇。今年，随着头部品牌的下场以及大量新品的上市，对于迷你白电来说或才是真正考验。</p>
+<p>总之，随着越来越多的大品牌入局，一定程度上将加快迷你白电普及和创新，对于行业来说是一件好事，但有着厨房小家电的前车之鉴，迷你白电究竟能到达什么样的高度，双十一过后或许就能看到答案。</p>
+<p>*本文图片均来源于网络 </p>
+<p>本文来自“智能相对论”，作者：佘凯文，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993236298342021</guid><pubDate>Tue, 15 Oct 2024 17:36:00 +0800</pubDate></item><item><title>从“AI四小龙”看“六小虎”，大模型独角兽难破盈利困局</title><link>https://36kr.com/p/2993504603692676</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>以铜为鉴，可正衣冠；以史为鉴，可知兴替。</strong></p>
+<p>信息科技以惊人的速度发展，并在每次科技变革中，都会涌现出耀眼的独角兽企业。如今的生成式AI时代，就全球来看，OpenAI是全球最靓的仔，主导大模型发展趋势，是全球大模型发展风向标，也是各大模型厂商纷纷对标的对象。估值更是惊人的达到1570亿美元，仅次于字节跳动和SpaceX，是全球最有价值的AI大模型初创公司。 </p>
+<p class="image-wrapper"><img data-img-size-val="3020,2275" src="https://img.36krcdn.com/hsossms/20241015/v2_186d2988dc4b4314b0e4d69c8d6015a7@361032_oswg2202773oswg3020oswg2275_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片摄影：杨剑勇</p>
+<p>在OpenAI带动下，国内也涌现出无数大模型企业，仅完成备案的大模型数量就超过200个。其中，百川智能、零一万物、智谱AI、MiniMax、月之暗面与阶跃星辰这六家大模型初创企业，有大模型“六小虎”之称，是国内光彩耀目的大模型独角兽，估值数十亿美元。</p>
+<p><strong>大模型“六小虎”的称号，让笔者想起昔日的“AI四小龙”，分别是商汤、旷视、云从与依图科技。遗憾的是，今不如昔。</strong></p>
+<p>遥想当年，顶着AI四小龙称号，吸睛无数，融资一轮高过一轮。时至今日，仍然难以实现盈利，持续性的亏损依然是最大的争议点之一，也显示出AI商业落地举步维艰。</p>
+<p>虽然商汤、云从已成功登陆资本市场，但相比上市之初备受资本青睐不同的是，现如今一地鸡毛。商汤作为四小龙之首，上市之初，股价不断创出历史新高，最高达9.7港元，如今只有1.62港元，曾市值一度突破3200亿港元，现在市值只有569亿港元，相比巅峰时期市值减少超2600亿港元，市值缩水八成。</p>
+<p>再来看云从科技，在生成式AI浪潮下，市值最高达到460亿元，如今只剩119亿元，市值减少超300亿，缩水七成。旷视科技则已很久没有声量，上市进程尚未有实质性进展，一直处在注册环节。</p>
+<p><strong>整体来看，AI四小龙风光不再。如今所谓的大模型“六小虎”，未来几年，也会面临“AI四小龙”这样的尴尬处境。</strong></p>
+<p>毕竟，大模型属于技术与资金密集型产业。不仅需要AI人才，还需要强大的AI算力基础设施。为此，需要投入庞大的资金，尤其花费巨额资金购买英伟达AI芯片。毕竟长期烧钱，对于大模型“六小虎”来说，最迫切的莫过于技术落地与变现，以此提高自我造血能力。</p>
+<p>值得注意的是，售卖大模型的公司未能从大模型中赚到钱，包括OpenAI在内的大模型公司入不敷出。能从大模型真正赚到钱的则是“卖铲人”英伟达，他赚得盆满钵满。</p>
+<p>2024财年，英伟达的净利润高达297.6亿美元。最新一财季（截至2024年7月28日）净利润为166亿美元，同比增长168%。换言之，售卖算力的是当前唯一能赚到大钱的AI生意。</p>
+<p>因各界（无论是科技巨头亦是初创企业）发展AI大模型都离不开英伟达的高性能芯片。毫不夸张的说，谁家AI大模型实力强，背后比拼的其实是拥有多少张英伟达的卡。对于财大气粗的科技巨头而言，包括谷歌、Meta等在内的科技巨头们数以百亿美元投入，购买并囤积英伟达芯片，以此提升AI能力。</p>
+<p>当科技巨头们开启“买买买”的模式下，英伟达的芯片供不应求，其业绩更是爆表。同时，在资本市场也是一路狂飙模式，市值达到3.39万亿美元（约合人民币24万亿元），其市值规模仅次于苹果，位居全球第二大公司。无论是从营收规模，还是从市值规模，英伟达都是全球最大芯片企业。</p>
+<p><strong>对于大模型初创公司，既没有科技巨头们的资金实力，又很难在AI大模型上获得营收平衡，但仍然需要投入庞大的资金用来支撑其发展。</strong></p>
+<p>要知道，训练千亿级、万亿级的AI大模型，训练成本少则百万美元，多则千万美元。对于大模型初创企业而言，就需要不断融资，用以提升AI大模型能力。以商汤为例，其标称自己的大模型能力对标GPT-4Turbo，其背后则是AI基础设施的投入。</p>
+<p>据披露的信息显示，商汤大模型基础设施大装置SenseCore总算力规模突破性增长至20000 petaFLOPS，运营GPU数量达5.4万GPU卡。庞大的AI基础设施支出与研发投入，使得商汤持续亏损，2024年上半年亏损24.77亿元。</p>
+<p>AI基础设施作为大模型能力核心所在。以数十亿级的资金规模来购买万卡，构建大模型的AI基础设施。或者从阿里云、腾讯云、华为云等云服务商购买算力服务。</p>
+<p>不管自建AI基础设施，亦是向云服务厂商手中购买算力服务，这都是惊人的开支。那么，需要源源不断的资金来支撑，这也是决定初创大模型企业型能走多远。</p>
+<p>其中，百川智能作为王小川所创办，融资了50亿元人民币，估计达到200亿；智谱AI同样也获得了数十亿元的融资，估值也高达200亿。领一万物作为李开复创办的AI大模型独角兽公司，尽管未披露居然融资额，但金额也是数亿美元级别，估值也超过10亿美元。</p>
+<p>能看出，在大模型浪潮下，在得到资金的支持下，大模型初创企业得到快速发展，受到资本青睐，融资额和估值都亮瞎眼。</p>
+<p>然而，当前大模型已把价格卷到“白菜价”时代，尤其2024年开启模型降价潮，大厂不计成本抢夺市场。同时，还有Llama等开源大模型带来的竞争压力，初创大模型企业要想变现尤为艰难。无休止的烧钱，却很难盈利，最终难免会成为沙滩上的鱼儿尴尬局面。</p>
+<p><strong>整体来说，AI大模型风头虽盛，在资本推波助澜下，使得融资一轮高过一轮，这种投机行为也助推AI大模型独角兽存在巨大泡沫成份。其中，昔日的“AI四小龙”的局面，或将是当前“AI大模型六小虎”的一面镜子。正所谓“以铜为鉴，可正衣冠；以史为鉴，可知兴替。”</strong></p>
+<p>最后，生成式AI浪潮席卷全球，各界纷纷顺势而为，积极拥抱生成式AI的变革，市场需求潜力也逐步释放。IDC此前预计到2027年，全球企业用于生成式AI解决方案的投资将达到1430亿美元。</p>
+<p>生成式AI市场前景广阔。只是，在AI大模型这条赛道上，理想丰满，现实残酷，其应用落地是核心，能够扎实稳健促进大模型发展与商业化成果转化，才是AI大模型“六小虎”的出路。</p>
+<p>本文来自微信公众号“杨剑勇”（ID:iotquanzi），作者：杨剑勇，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993504603692676</guid><pubDate>Tue, 15 Oct 2024 17:38:00 +0800</pubDate></item><item><title>小鹏汽车：新车款款大卖，怎么越卖越亏？</title><link>https://36kr.com/p/2993510360247044</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>小鹏P7+看似是在卷价格，其实还是在卷技术。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_b40040adde52463195456f7582b432bc@000000_oswg31706oswg690oswg387_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>北京时间10月14日晚，巴黎车展上，小鹏汽车终于公布了P7+的预售价格，20.98万元起。</p>
+<p>早在10月10日，小鹏汽车就曾举办“小鹏P7+全球首秀发布会”，公布了小鹏P7+的外观、性能和卖点，却唯独没有公布价格。</p>
+<p>这也是新势力们偏爱的战术，延长决策周期，保持产品讨论度，暗中观察市场情绪，直到最后一刻才确定价格。</p>
+<p>小鹏汽车董事长、CEO何小鹏在“P7+全球首秀发布会”上总结了纠结的根源——销量与利润之间的平衡。他看向台下前排位置：“投资人希望小鹏P7+的毛利率到20%。”</p>
+<p>而据财报数据，上半年小鹏汽车毛利率13.5%，汽车销售毛利率6%。</p>
+<p>在行业继续内卷、车企以价换量的阶段，想要通过一款车型完成销量和毛利率的同步增长，并不容易。</p>
+<p>小鹏P7+的预售价格为20.98万元起，上市售价预计将会低于20万元。这是新势力们偏爱的另一项战术，以小鹏汽车近几款车型为例：小鹏G6预售价22.5万元，上市起售价20.99万元；小鹏X9预售价38.88万元，上市起售价35.98万元；小鹏MONA M03预售价13.58，上市起售价11.98万元。</p>
+<p>显然，何小鹏的选择是销量。</p>
+<p>在巴黎车展公布售价后，预售开启仅1小时48分钟，小鹏汽车公布P7+订单已突破3万台，再度展现爆款气质。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_1902421739114d9fa4e5579d03739ac9@000000_oswg846495oswg1080oswg1066_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：小鹏汽车官博）</p>
+<p>不过，爆款与利润之间，还隔着很远的距离，有小订转大定的转化率，也有交付能力的掣肘。小鹏MONA M03也曾52分钟大定破万，48小时大定破3万，9月创下单月交付破万的新纪录，但10月就开始了延期交付。</p>
+<p>产能爬坡与交付效率的背后，是供应链管理、产能调配、质量控制与物流配送等核心竞争力。小鹏P7+将于11月上旬开启交付，届时，手握多个爆款车型的小鹏将面临更加“甜蜜的烦恼”。</p>
+<h2><strong>纠结</strong></h2>
+<p>小鹏P7+，定位纯电轿跑车型。虽然看名字很像是小鹏P7的plus版，外形设计的相似度也很高，但其实是完全不同的车型。</p>
+<p>小鹏P7归属于E平台，小鹏P7+基于扶摇架构打造，与小鹏G6一同被归入F平台。</p>
+<p>小鹏P7+的第一大卖点是空间。何小鹏在介绍二者的区别时表示，“小鹏P7i（P7升级款）侧重个性运动，小鹏P7+则侧重家用舒适，小鹏P7+是30万元以内空间最大的轿跑。”</p>
+<p>数据无法直观地体现空间的差别，何小鹏现场从P7+里拿出了33个20寸行李箱，用颇具行为艺术感的方式证明这款车很能“装”，整活儿效果非常好。个性运动和家用舒适都需要“装”，小鹏看到了用户需求之间的细微差别。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_0033c31a9c8545f1b4d5c34ce6feedf1@000000_oswg50414oswg690oswg460_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：小鹏汽车官博）</p>
+<p>但你这么整，我家里的面包车都不好意思开出去了。</p>
+<p>用20寸行李箱的体积对车内空间进行切割和量化是一种非常睿智的行为，再大的轿跑也不是SUV。具体到轿车领域，新能源汽车行业中能稳定实现月销破万的纯电车型只有小米SU7和特斯拉Model 3。</p>
+<p>小鹏P7+的另一大卖点是智驾能力，这也是小鹏这家车企最大的卖点。</p>
+<p>何小鹏表示，“小鹏P7+入门即有AI智驾能力，软件不收费，全面应用端到端大模型，AI能力逐步赋能整车体验。”</p>
+<p>从命名方式上，可以看出小鹏汽车的纠结。根据发布会介绍，小鹏P7+是小鹏P7系列的全新产品，但在后续的卖车过程中，小鹏将会花费很多成本来解释为何P7i是P7的升级版，但P7+则是完全不同的车型。</p>
+<p>何小鹏在发布会上提到，内部讨论过不同的数字来命名，相比于P8的命名方式，小鹏更想打造“P7家族”。</p>
+<p>其核心目标也显而易见，就是想要复制小鹏P7的成功。</p>
+<p>小鹏P7是造车新势力阵营乃至国内新能源汽车领域的第一款智能纯电轿跑车，帮助小鹏汽车在2020年成为造车新势力中最早实现交付量破万的车企。何小鹏在P7+发布会上总结称：“2020年的爆款车型除了特斯拉，就是小鹏P7”。</p>
+<p>随后，何小鹏用了很大篇幅盘点了小鹏汽车当前的表现，用“交付量创历史新高”的成绩，证明小鹏“重返造车新势力纯电销量第一”。</p>
+<p>但拆解来看，小鹏汽车所面临的局势并不乐观。</p>
+<p>在今年9月，小鹏汽车交付量达21352辆，创下单月交付历史新高，同比增长39%，环比增长52%。而在刚刚过去的国庆假期，小鹏汽车获得了1.6万的订单量。</p>
+<p>作为对比，理想汽车9月交付量达53709辆，蔚来汽车的21181辆虽略低于小鹏，但蔚来已经连续5个月交付量破2万。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_973e43c09299413dadc1b369604ec791@000000_oswg61114oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>放大到前三个季度，小鹏汽车销量为9.85万辆，同比增长21.0%，但相比于理想的34.2万辆、蔚来的14.9万辆、零跑的17.3万辆，差距更加明显。</p>
+<p>另一方面，小鹏MONA M03在9月创下单月破万的纪录，意味着这款车型贡献了近半的交付量。在小鹏MONA M0310月进入减速期、P7+要等到11月才能开启交付的背景下，小鹏汽车在10月赚足声量，但销量仍要承压。</p>
+<p>在此次“重返”之前，混乱的SKU曾是小鹏汽车差点掉队的导火索，也是何小鹏下定决心进行改革的关键原因。</p>
+<p>希望这次命名的“纠结”，不会重蹈覆辙。‍</p>
+<h2><strong>压力‍</strong></h2>
+<p>无论如何，小鹏P7+的命名已经落地，与之一同成为定局的还有这款车型所背负的走量重任。</p>
+<p>小鹏P7成为当年的年度爆款，一个关键因素是2020年的同级对手并不多，纯电智能轿车市场的竞争对手只有特斯拉Model 3，而且在很多消费者看来，这两款车型并不具备可比性。</p>
+<p>而到了2024年，纯电轿跑市场的对手已经多了起来。除了特斯拉和比亚迪，小米SU7、极氪007、智界S7都是小鹏P7+的竞品，性能与品牌声量类似，且处于同样的价格区间。</p>
+<p>据何小鹏介绍，小鹏P7+主要有两个任务：一是让更多人享受到“豪华行政级轿车”的空间与舒适；二是让更多燃油车用户体验到标配“高阶智能纯电”的乐趣。</p>
+<p>基于这两项任务，小鹏P7+的主要对手也包括传统燃油车，何小鹏明确了小鹏P7+将以奔驰E级、奥迪A6L、宝马5系等行政轿车作为对标车型。</p>
+<p>消费者对于电动汽车的认知度已经逐渐成熟，但也在激烈的市场竞争中被持续分流，“蔚小理”的说法已经很少有人提起了。在新的竞争环境中，小鹏P7+要找到真正的核心竞争力。</p>
+<p>因此，投资人对于20%毛利率的需求被调低了优先级，低价走量的战术地位不可撼动。为了控制价格，小鹏P7+取消了激光雷达，采用AI鹰眼视觉方案。</p>
+<p>何小鹏提到，AI鹰眼视觉方案是小鹏推出的全新智驾方案，其最大的变化在于感知和识别速度上的提升。在2023年第四季度财报会上，何小鹏曾表示，以视觉为主的感知方案可使XNGP的硬件成本下降50%。</p>
+<p>值得一提的是，今年8月底上市的小鹏MONA M03也没有搭载激光雷达。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_cae99a50be9b4eb2a59121906c93fe41@000000_oswg29573oswg690oswg388_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：小鹏MONA官博）</p>
+<p>小鹏汽车激光雷达供应商速腾聚创的CEO邱纯潮曾表示，智能驾驶系统成本一般控制在整车成本的4%，一辆15万元车型的智驾系统成本约6000元。现款小鹏P7i支持XNGP功能的车型均搭载2颗速腾聚创激光雷达，以此测算，新车省去了一万多元的成本。</p>
+<p>何小鹏也表示，小鹏P7+是小鹏汽车首款实现技术成本降低25%目标的车型，预计其利润率将达到两位数。</p>
+<p>砍掉激光雷达的同时保持智驾体验，P7+全系标配高阶智驾，且软件不收费、不订阅，也体现出小鹏汽车对于智能驾驶技术未来发展方向的预测。</p>
+<p>何小鹏表示，这是面向未来的AI大战略所决定的，从P7+开始，小鹏汽车全面运用了端到端的大模型，实现高等级算力的标配。端到端大模型的核心优势是降低对激光雷达的单一依赖，转而强调信息的整体性无损融合。</p>
+<p>因此，小鹏P7+看似是在卷价格，其实还是在卷技术。</p>
+<p>小鹏汽车今年的销量目标为28万辆，前三季度仅完成了三成。如果要完成销量目标，后续每月的交付量都要达到6万辆。</p>
+<p>销量压力的背后是财务压力。据最新财报，2024年上半年，小鹏汽车的营收为146.6亿元，同比增长61.2%，但净亏损依然高达26.5亿元；现金储备为373.3亿元，同比减少约80亿元。</p>
+<p>在刚刚发布过一款低价走量车型后，投资人希望以P7+带动整体毛利率的增长，但何小鹏希望用连续两款车型巩固“高质价比”的市场认知。</p>
+<p>因为在市场竞争的重重压力之下，还远远没到收割品牌溢价的时候。</p>
+<h2><strong>出海‍</strong></h2>
+<p>在巴黎车展公布预售价，体现出小鹏汽车急于出海的野心。</p>
+<p>在此前MONA M03发布会上，何小鹏就曾强调小鹏的国际化策略——从欧洲起步，以科技为导向，将中国的智能化带往全球。</p>
+<p>根据最新财报，截至2024年Q2，小鹏汽车海外销量的贡献首次超过了10%，小鹏汽车进入了包括德国、英国、意大利、法国在内的多个欧洲国家。</p>
+<p>在此次巴黎车展上，小鹏汽车公布了“出海2.0”计划。目前，小鹏汽车已在全球三十多个国家和地区开启销售；到2025年底，该公司目标为进入全球超过60个国家和地区市场；未来十年，小鹏汽车将加速扩大全球“鹏友圈”，目标是将海外销量提升到公司总销量的一半。</p>
+<p>为了实现“出海2.0”计划的目标，欧洲市场将会是小鹏汽车重点关注的市场，小鹏汽车提出将在欧洲投入更多资源，将带来更多新车型和改款，并将不断完善售后网络与售后服务质量。</p>
+<p>实际上，今年春节假期结束后，在开工首日向公司全体员工发布的内部信中，何小鹏就曾提及2.0计划。他提到，今年是小鹏国际化V2.0的第一年，将于欧洲、东盟、中东、拉美、大洋洲等区域布局核心市场，深化产品的智能化优势，加强产品的本地化适配，从产品、智能驾驶、品牌等方面全面打造全球化新路径。</p>
+<p>随着智能驾驶产业化加速，有关行业机构预测国内乘用车出口在2024年有望达到500万台。这意味着，对于中国车企来说，海外市场将是新的沃土。</p>
+<p>何小鹏判断，2024年将是中国汽车品牌进入“血海”竞争的第一年，也就是淘汰赛的第一年。</p>
+<p>因此，小鹏汽车在此时加速出海，也是希望在电动汽车全球化的新阶段到来之前占据先机。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_cbc7a9d17a2e4bc8ad94a7d033123925@000000_oswg42438oswg690oswg460_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：小鹏汽车官博）</p>
+<p>不过，欧洲市场的竞争难度正在迅速提升。</p>
+<p>一方面，瞄准欧洲市场的中国车企越来越多，参加此次巴黎车展的有比亚迪、广汽、东风、一汽、上汽、零跑、赛力斯等车企，侧面证明了中国车企出海欧洲的坚决态度。</p>
+<p>另一方面，根据相关草案，从11月1日开始，欧盟可在原有10%的汽车进口关税基础上，对中国产电动汽车加征7.8%到35.3%不等的关税。</p>
+<p>在欧盟加征关税、贸易保护主义抬头的背景下，中国车企的全球化战略并未改变，反而纷纷进入提速状态，对于财务状况刚有起色的小鹏汽车而言，势必增加竞争的压力。</p>
+<p>从根源上看，欧盟增加关税的目的是保护本土生产线和就业率，他们并不排斥中国汽车在当地建厂。</p>
+<p>但在此之前，广泛的品牌认知和稳定的产品销量是做出决策的前置条件，而要实现这两项目标，还要继续加大销售网络的投入。</p>
+<p>今年5月，小鹏汽车在巴黎举行小鹏G9上市发布活动，正式进入法国市场。当时，小鹏汽车法国国家负责人强顺强曾透露，到今年年底，小鹏汽车将在法国落实35个销售网点，明年希望达到55个。</p>
+<p>试错的成本不低，出海的难度不小。</p>
+<h2><strong>结语</strong></h2>
+<p>近几年来，小鹏汽车眼看着曾经的“蔚小理”走向各自不同的方向，理想同时得到了销量和毛利率，蔚来的话题度始终居高不下，这都是小鹏汽车想要成为的样子。</p>
+<p>但实际上，小鹏汽车并非没有爆款，每次新车发售同样话题度拉满，但最终都是产品力大于品牌力。这是何小鹏将“不善言辞、不善营销”的技术派形象转嫁给企业所带来的必然结果。</p>
+<p>如今，小鹏已经意识到了这个问题，或者说，在雷军带着小米SU7加入造车的竞争后，很多车企创始人都“突然”开窍了。</p>
+<p>“性价比拉满”“颜值天花板”“别人的高配是我们的标配”，当小鹏汽车的发布会也被“金句”填满，造车新势力的竞争压力可见一斑。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg4NTQ1MTY0Mw==&amp;mid=2247513501&amp;idx=1&amp;sn=65d27f0c7a46665a1603ad8da035f965&amp;chksm=ce67feb735c40660873b0a98b1d2c46e8b3deeda059938e227a98a790bc5245c9b5eecce2e84&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“观潮新消费”（ID：TideSight）</a>，作者：沃特尔，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993510360247044</guid><pubDate>Tue, 15 Oct 2024 17:43:00 +0800</pubDate></item><item><title>氪星晚报｜大众汽车第二轮薪资谈判将于10月30日开始；微软将在一年后停止对Win10的支持；宝马CEO表示欧盟禁止燃油车“已不再现实”</title><link>https://36kr.com/p/2993570715298561</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2>大公司：</h2>
+<p label="正文" style=""><a href="https://36kr.com/newsflashes/2993560676363272" rel="noopener noreferrer" target="_blank"><strong>大众汽车第二轮薪资谈判将于10月30日开始</strong></a></p>
+<p>大众汽车与德国最大工会IG Metall之间的第二轮集体谈判将于当地时间10月30日在大众总部所在地沃尔夫斯堡举行。这家欧洲最大汽车制造商的上一轮薪资谈判未达成协议，工会威胁要从12月开始罢工。该公司曾暗示可能关闭在德国的工厂。（财联社）</p>
+<p><a href="https://36kr.com/newsflashes/2993119674313481" rel="noopener noreferrer" target="_blank"><strong>苹果发布iOS/iPadOS 18.1开发者预览版Beta7：新增半透明时钟部件</strong></a></p>
+<p>苹果公司向iPhone和iPad用户推送了iOS/iPadOS 18.1开发者预览版Beta 7更新，内部版本号为22B5075a。这一更新是自上次Beta/RC发布后7天的最新版本。根据苹果官方更新日志、媒体报道和用户反馈，iOS 18.1 Beta 7的主要亮点是对Tinted模式的改进。Tinted模式是iOS 18中新增的功能，它允许用户在主屏幕上调整应用图标和小组件的外观颜色。在最新的Beta 7更新中，苹果引入了半透明的时钟小部件，进一步增强了用户界面的美观度。（环球网）</p>
+<p><a href="https://36kr.com/newsflashes/2993135925963525" rel="noopener noreferrer" target="_blank"><strong>微软将在一年后停止对Win10的支持</strong></a></p>
+<p>据报道，微软将于明年的今天正式终止对Windows 10的支持，届时这款操作系统将寿终正寝，意味着微软将不再为其提供安全更新、技术支持和错误修复。（新浪科技）</p>
+<p><a href="https://36kr.com/newsflashes/2993518160702208" rel="noopener noreferrer" target="_blank"><strong>阿里国际站在广交会上的共享直播间首日有近10万买家涌入</strong></a></p>
+<p>36氪获悉，10月15日，第136届广交会正式开幕，数据显示，已有来自209个国家和地区的13.8万境外采购商预注册，预计参会人数将创下新高。除了线下海外客商的热情，本届广交会的一大亮点，还在于线上直播间同步火爆开播，预计国际站线上展会首日将有近10万全球海外专业买家涌入。尤其是阿里国际站在广交会现场开设、面向所有企业开放的共享直播间，让大量首次接触线上平台的外贸企业，也能通过AI极简发品一键上链接后立即开播。</p>
+<p><a href="https://36kr.com/newsflashes/2993439342914569" rel="noopener noreferrer" target="_blank"><strong>叶国富接手骏才国际商贸公司，后者将为永辉超市第一大股东</strong></a></p>
+<p>36氪获悉，天眼查App显示，9月30日，广东骏才国际商贸有限公司发生工商变更，原股东名创优品（广州）有限责任公司退出，新增YGF Investment V Hong Kong Limited为全资股东，同时周书卸任法定代表人、执行董事、经理，由叶国富任法定代表人、董事、经理。广东骏才国际商贸有限公司成立于2016年4月，注册资本1000万人民币，经营范围含化妆品批发、技术进出口、集邮品批发和进出口等。</p>
+<p><a href="https://36kr.com/newsflashes/2993388551482118" rel="noopener noreferrer" target="_blank"><strong>TikTok去年欧洲区收入46亿美元，已预支10亿美元应对潜在罚款</strong></a></p>
+<p>字节跳动旗下TikTok面临的监管挑战日益加剧，最新的公司文件显示，其已预留了10亿美元用于应对未来欧洲隐私监管机构的罚款。去年 9 月，TikTok 因数据隐私问题被爱尔兰监管机构处以创纪录的 3.7 亿美元罚款。然而，随着欧洲《通用数据保护条例》（GDPR）解释的不断变化，TikTok 认为未来仍可能面临更高的罚款风险。（IT之家）</p>
+<p><a href="https://36kr.com/newsflashes/2993425674726146" rel="noopener noreferrer" target="_blank"><strong>亚马逊品牌聚合商遭遇寒冬，Olsam已申请破产</strong></a></p>
+<p>据外媒ChannelX报道，亚马逊品牌聚合商领域正经历一场前所未有的寒冬，多家知名企业纷纷陷入财务困境，其中英国知名聚合商Olsam已正式申请破产，这一消息震惊了整个行业。值得注意的是，Olsam成立仅仅四年时间，其快速崛起与陨落成为了业界关注的焦点。（环球网）</p>
+<h2>投融资：</h2>
+<p><a href="https://36kr.com/newsflashes/2993315928943623" rel="noopener noreferrer" target="_blank"><strong>普莱得：现阶段暂无并购重组计划</strong></a></p>
+<p>36氪获悉，普莱得在机构调研时表示，现阶段，公司暂无并购重组计划。此外，公司表示，公司业务模式包括ODM和OBM，公司将通过持续提升产品品质，拓展产品系列等以满足Stanley Black&amp;Decker（史丹利·百得）、BOSCH（博世）、Makita（牧田）等世界知名品牌商和零售商采购需求，持续发展ODM业务，另一方面，积极推广自有品牌，实现“ODM+OBM”业务双驱动。</p>
+<h2>新产品：</h2>
+<p><a href="https://36kr.com/newsflashes/2993558240078856" rel="noopener noreferrer" target="_blank"><strong>科大讯飞：将首次发布多模态视觉交互及超拟人虚拟人交互能力</strong></a></p>
+<p>36氪获悉，科大讯飞在互动平台表示，公司将于2024年10月24日举办“2024第七届世界声博会暨科大讯飞全球1024开发者节”，讯飞星火大模型底座能力将再次升级，训练推理效率大幅提升，并将首次发布多模态视觉交互及超拟人虚拟人交互能力，面向万物智联，打造极致人机交互体验。</p>
+<p><a href="https://36kr.com/newsflashes/2993325681257479" rel="noopener noreferrer" target="_blank"><strong>富士胶片将发售旗下最轻无反相机，可拍竖屏视频</strong></a></p>
+<p>据报道，富士胶片发布消息称，将于11月下旬发售该公司最轻的无反相机，包括电池和存储卡在内的重量约为355克，比现有最轻型号轻约80克。该款相机还配备了拍摄用于在SNS上发布的竖屏视频的功能，产品名称为“FUJIFILM X-M5”，配备2610万像素的图像传感器。价格为开放式，但预计零售价格为12.4万日元（不含税，约合人民币5887元）。（界面）</p>
+<p><a href="https://36kr.com/newsflashes/2993341360581641" rel="noopener noreferrer" target="_blank"><strong>抖音电商推出运费险优惠，预计为商家一年降本超40亿元</strong></a></p>
+<p>为了助力商家降低经营成本，提升用户的购物体验，从10月18日起，抖音电商针对商家运费险推出系列降本措施，符合条件的商家或达人运费险成本将降低10%-40%不等，预计全年可以为商家节省超过40亿元。（新浪科技）</p>
+<h2>今日观点：</h2>
+<p><a href="https://36kr.com/newsflashes/2993473698737158" rel="noopener noreferrer" target="_blank"><strong>宝马CEO表示欧盟禁止燃油车“已不再现实”，或将导致汽车行业“大幅萎缩”</strong></a></p>
+<p>宝马集团首席执行官奥利弗·齐普策表示，欧洲从2035年起实际禁止销售燃油车的计划将导致其汽车行业“大幅萎缩”。齐普策在巴黎汽车峰会的预备发言中发出警告，称欧洲大陆尚未准备好放弃汽油和柴油发动机，欧盟的计划“已不再现实”，且对电动汽车的补贴“难以为继”。（新浪财经）</p>
+<p><a href="https://36kr.com/newsflashes/2993116731845632" rel="noopener noreferrer" target="_blank"><strong>长城汽车魏建军谈小米汽车：成本控制得很好，SUV经营状况可能会好过轿车</strong></a></p>
+<p>36氪获悉，长城汽车发布视频，其董事长魏建军在最新访谈中谈及小米汽车时表示，小米汽车已经控制成本控制得很好了，它很快要推出SUV，可能SUV会比轿车未来的这个经营状况会更好。</p>
+<p><a href="https://36kr.com/newsflashes/2993373979651077" rel="noopener noreferrer" target="_blank"><strong>美团王莆中：闪电仓代表即时零售供给进化趋势，2027年数量将超10万个</strong></a></p>
+<p>36氪获悉，美团闪购在京举办“2024美团即时零售产业大会”。美团核心本地商业CEO王莆中表示，今年以来即时零售行业保持韧性增长，闪电仓业态成为行业发展进化的核心驱动力之一。当前美团闪电仓数量已超过3万个，预计到2027年，美团闪电仓将超过10万个，市场规模将达到2000亿元。美团副总裁、闪购事业部负责人肖昆表示，在闪电仓等业态的驱动下，美团闪购持续高速增长，今年七夕当天峰值订单量超过1600万单。</p>
+<p><a href="https://36kr.com/newsflashes/2993442737072896" rel="noopener noreferrer" target="_blank"><strong>百亿公募董事长、总经理同日变更，王胜升任富安达基金“掌门人”</strong></a></p>
+<p>富安达基金管理有限公司发布公告称，公司高管发生变更，涉及董事长及总经理职务。其中，董事长蒋晓刚因工作调动离任，由公司原总经理王胜新任董事长一职；金领千新任富安达基金总经理，公司副总经理沈伟青因工作调动离任。（澎湃）</p>
+<h2>其他值得关注的新闻：</h2>
+<p><a href="https://36kr.com/newsflashes/2993506337975049" rel="noopener noreferrer" target="_blank"><strong>我国自主研发、核心技术自主可控，全球最大打桩船油缸下线</strong></a></p>
+<p>大型打桩船是跨江跨海通道、深远海风电建设等海洋工程基础施工的必备装备，油缸是大型打桩船的核心部件。今天（10月15日），我国自主研发的全球最大打桩船油缸在江苏常州下线。这台刚下线的油缸重385吨，直径近2米，总长28米，立起来有十层楼高。重量、直径、长度都是全球第一，同时是推力最大行程最长的打桩船油缸。（央视新闻）</p>
+<p><a href="https://36kr.com/newsflashes/2993352336960259" rel="noopener noreferrer" target="_blank"><strong>IMF：今年年底全球公共债务将达100万亿美元，2030年将达到全球GDP的100%</strong></a></p>
+<p>根据国际货币基金组织（IMF）的最新分析，到今年年底，全球公共债务将达到100万亿美元，占全球GDP的93%。IMF在其最新的《财政监测》（Fiscal Monitor）报告中表示，预计到2030年，全球债务将接近GDP的100%，并警告称，各国政府将需要做出艰难的决定来稳定借贷。IMF的报告称，美国、巴西、法国、意大利、南非和英国的债务预计将增加，并敦促各国政府控制债务。（新浪财经）</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993570715298561</guid><pubDate>Tue, 15 Oct 2024 17:43:00 +0800</pubDate></item><item><title>年轻人着急“退休”，老年人却在“再就业”</title><link>https://36kr.com/p/2993520672792457</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>根据国家卫生健康委老龄司预测，2035年左右，60岁及以上老年人口将突破4亿，在总人口中的占比将超过30%，进入重度老龄化阶段。前两年，前程无忧发布的《2022老龄群体退休再就业调研报告》显示，68%的老龄群体在退休后有强烈的就业意愿。</p>
+<p>近两年，延迟退休成了热门话题，年轻人还在抱怨不想上班、找不到工作的时候，一部分退休老年人已经重新踏上工作岗位。</p>
+<p>根据调研，出于对美好生活的向往，46.7%老年人重返就业市场为寻求个人和社会价值；19%求职者希望发挥一技之长，继续追求职业发展；34.3%求职者通过再就业补贴家用、增加收入来满足更高层次的消费需求。</p>
+<p>数据显示，近四成子女支持父母再就业。打开各色社交平台，许多为父母找工作的帖子层出不穷，这些帖子下面，网友纷纷留言替父母寻找合适的工作机会，并互相推荐适合老年人工作的岗位。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1166" src="https://img.36krcdn.com/hsossms/20241015/v2_0b0263f4315c46519311d28f6b4b9aed@46958_oswg90240oswg1080oswg1166_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">小红书截图</p>
+<p>壹度Pro找到了三位退而不休的银发群体，聊了聊他们的“打工人”生活。</p>
+<h2><strong>01 高学历投资顾问，退休后仍能月入过万</strong></h2>
+<p><strong>郑老师 61岁 北京 道口投机构投资顾问</strong></p>
+<p>退休之前我在一家和朋友合开的科技公司做副总裁近十年了，在公司管理者的职位上，也做了将近三十年。就在我退休的前两年，朋友邀请我到他的投资公司去做投资顾问。</p>
+<p>其实我同意做这份工作之前也做了很多考量，第一是我那个朋友人不错；第二是顾问这类工作是要靠积累的，他们公司内部的年轻人干不了；第三是这项工作占用不了我非常多的个人时间。</p>
+<p class="image-wrapper"><img data-img-size-val="800,600" src="https://img.36krcdn.com/hsossms/20241015/v2_95f2ae934f504cfc8f68720956109f66@46958_oswg567987oswg800oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">郑老师工作照，右一为郑老师</p>
+<p>一天8小时的工作时间，可能我做这个投资顾问最多只占用两个小时的时间，剩余的时间我可以自己安排，做自己喜欢的事情，比如锻炼爬山、看美剧、炒炒股票之类的。</p>
+<p>退休之后我的生活状态和工作状态基本没变化，退休于我而言也就是办个手续、发个退休金的事，该干什么还干什么。一个月八九千的退休金再加上八九千的顾问补贴，近两万块钱足够我自己的生活了，儿女都在国外也不需要我操心，大家各过各的，都没有经济压力。</p>
+<p>没有想象过彻底退休不干了的日子。很多人说去旅游，但是四十岁之前我已经看遍了中国的各个地方，想去的地方也都去过了；还有喝酒、喝茶这种，对我来说就是社交专属活动，我个人基本不喜欢这些；还有人天天坐家里看书、睡大觉，这样的日子我想象不到。</p>
+<p>现在我身体还很好，做的顾问这项工作又不耽误我自己的业余爱好。可能真的有一天我干不动了，我也不想停下来，因为我还有很多事情要做，比如说炒股票，这是我愿意花很长时间去做的事情。</p>
+<p>其实从我个人的角度来看，对比国内外，中国的退休年龄是偏早了，我在美国沃尔玛看到一些白人老太太，从感官来看有七八十岁了，但他们还在卖东西，日本八九十岁还在工作的老头老太太就更多了，网络上的案例比比皆是。</p>
+<p>我觉得第一是身体条件允许，第二是社会需要，第三是不要和年轻人产生竞争，我是非常赞同老年人继续去工作的。比如说日本很多老人，人家自己开个咖啡店，这不是也挺好的。</p>
+<p>当然了，这么说挺拉仇恨的，这个社会并不是所有人退休再就业都能这么轻松。像北京这样的高学历城市，它的工人数量越来越少，体力劳动力越来越少，脑力劳动也越来越多。有一些地方还有很多老年人在靠纯粹的体力去劳动去赚钱，某种意义上而言，并不是完全公平的。</p>
+<h2><strong>02 下坡路就照着下坡路的活法过</strong></h2>
+<p><strong>红姐 53岁 天津 口子窖白酒销售</strong></p>
+<p>我今年53岁，退休三年了，要说为什么还继续工作呢？因为目前的退休标准根本就够不上生活保障的，不上班怎么办？</p>
+<p>我的退休金到目前为止是1400块钱出头。开句玩笑，如果光吃馒头喝凉水的话，可能是够了，实际上这个钱连自己的生活都维持不了。</p>
+<p>我原来是做白酒销售的，在公司的时候做的业绩也不错，公司对我的能力也很认可，退休之后我就和老板商量了一下继续工作。当然待遇和原来肯定是不一样了，不说五险一金、年假没有了，工资相比原来也少了很多，之前能达到六七千，现在也就是三四千块钱，各方面福利待遇肯定和原来正式工的时候不能比。</p>
+<p>但我已经很满足了，现在这个行情能找到工作就很不错了，我身边的很多退休的人根本就找不到工作。</p>
+<p>在我退休差不多一年多的时候，我丈夫脑溢血生病了，那段时间还是比较难过的，他需要看病住院，生活的压力一下全压在我身上，而且我也不想给孩子太大的压力，所以基本上都是自己扛着。</p>
+<p>当时他需要请护工去照顾，一个月一万多，我的工作又不能停，所幸之前还有些积蓄，拿出来请了将近一年的护工。所以对于我们退休的人来说，生病真的是一大坎，光钱的问题就能难倒一大批人，如果不是我之前有积蓄，现在肯定也是捉襟见肘了。</p>
+<p>这两年我老头的身体好多了，起码能自理了。前段时间因为头晕，我就去做了个检查，检查结果是脑子里长了个垂体瘤，需要做手术。因为瘤并不大，医生说也可以先观察，等瘤长大了再做手术或者是心态好了它自己就消失了。</p>
+<p>医生说做这个手术必须得有家属陪同，我老头还生病着，女儿又怀孕了，家里全靠我一个人，根本不敢生病。我准备等老头稍微好一点，或是女儿孩子生下来以后，能照顾我的时候我再去手术，我现在就属于那个不敢生病的人。</p>
+<p>我身边的人都说我心态好，虽然老头生病了，但是我对生活还是充满希望。最开始的时候我也觉得压力很大，当时他病的时候我瘦了将近20斤。但是生活总要过的，经过一段时间自我调整，我现在的心态是很乐观的。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,888" src="https://img.36krcdn.com/hsossms/20241015/v2_e92c13ea22d14c2a927fa4b0b87c210c@46958_oswg113019oswg1080oswg888_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">红姐总觉得自己还年轻</p>
+<p>其实每一个人到了我们这个年纪不可能说还像年轻时候那么朝气蓬勃的，肯定是会走一个下坡路，都是下坡路咱们就照着下坡路的活法过，无论你是晴天还是阴天，怎么都得面对，为什么不笑着面对。</p>
+<h2><strong>03 北京户口专属的街面工作</strong></h2>
+<p><strong>吴大爷 62岁 北京 街道文明引导员</strong></p>
+<p>从清晨到日暮，在北京的大街小巷，随处可见身着黄衣橘帽指挥交通的人。我也是其中一员，已经在北京西南四环的某条街上，风雨无阻地工作两年了。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,837" src="https://img.36krcdn.com/hsossms/20241015/v2_ddb65a12b2ce4b66b6284c6de4abc05a@46958_oswg142471oswg1080oswg837_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">吴大爷工作照</p>
+<p>是不是很难想象在北京还有退休工资才三四千的人，我就是这样的，在退休以前我干的是自由职业，自己交养老金，所以退休后给的钱不多，说实话，这个养老金，在北京也就勉强够我个人生活，那怎么办呢？</p>
+<p>我也不想给儿女添负担，巧的是我邻居大哥早两年退休的，他告诉我有这么个活儿，专门针对北京户口的退休人员，一个月2000多块钱，算是对贫困家庭的一个补贴。</p>
+<p>女的57岁以上，男的60岁以上，必须是北京户口，我在街道办申请了这个工作，每天早晚高峰各两个小时，周六日休息，一个月两千多块钱加上退休的三四千，五千块钱左右足够我生活了。而且除了早晚上班，其他的时间我都可以自己安排，想干什么就干什么，还挺自由的。</p>
+<p>做我们这个工作，就一直在同一个路口，这两年都没变过，有的时候同一个人经常路过，哪天没看见还有点不习惯，不过在北京工作的人不都这样，来去匆匆，每个人都是过客。每天看形形色色的人，上班的时候匆匆忙忙、面带苦色，下班的时候脚步轻松、笑容满面，还挺有趣儿的。</p>
+<p>其实一开始做这份工作就想着赚点生活费挺好，但是时间长了感觉自己也多出了一份责任感。有很多人他着急上班就不想遵守交通规则、闯红灯，多危险啊，这也是我们的职责所在，我们就要负责引导这些行人，提醒他们遵守交通规则。</p>
+<p>有的时候遇到比自己年纪还大，行动不便的老人，帮助他们去过马路，感觉自己的人生还在发挥余热，还能实现价值，这比什么都重要，所以即使工资不高，但是这份工作我也做的很快乐。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/J6XdrwgytoaBoldMFLF3kA" rel="noopener noreferrer nofollow" target="_blank">“壹度Pro”</a>，作者：梦宁，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993520672792457</guid><pubDate>Tue, 15 Oct 2024 17:48:00 +0800</pubDate></item><item><title>丰田再战中国新能源</title><link>https://36kr.com/p/2993497142255496</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,739" src="https://img.36krcdn.com/hsossms/20241015/v2_c56dbb07ecda4de09ff917efcb67fee8@5317423_oswg21439oswg1080oswg739_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>中日飞行汽车大战，正在一级市场无硝烟地进行。</p>
+<p>10月初，丰田汽车宣布，将对Joby额外投资5亿美元，约人民币35亿元。</p>
+<p>Joby是全球市值最高的电动垂直起降飞行器（Electric Vertical Take-offand Landing，eVTOL）企业，也是eVTOL行业的发展风向标，称得上是<strong>半空中的“特斯拉”</strong>。目前，Joby的旗舰eVTOL产品是S4，由纯电驱动，采用有人驾驶模式，可以乘坐1名驾驶员和4名乘客。</p>
+<p class="image-wrapper"><img data-img-size-val="831,508" src="https://img.36krcdn.com/hsossms/20241015/v2_eba07d27f1fd405dbb0167f6257a0e05@5317423_oswg180604oswg831oswg508_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>eVTOL有一个更通俗的称呼——飞行汽车。</p>
+<p>与传统燃油直升机（VTOL）相比，飞行汽车配备多个电动旋翼，安全度高且结构简单，维护成本也更低。部分行业观察者认为，eVTOL以及其衍生出的城市空中交通，有望颠覆传统地面交通模式，解决大型城市交通拥堵问题，甚至让科幻片中的打飞的出门成为现实。</p>
+<p>值得注意的是，<strong>丰田这笔数十亿人民币追加投资背后，反应出中日两国新一个战场正慢慢拉开帷幕。</strong>在丰田追加投资Joby前不久，在地方国资主导下，中国飞行汽车行业也刚刚完成了两笔大额投资，小鹏汇天在9月初的融资规模也达到人民币10亿元级别。</p>
+<p>尽管还没有正面交锋，但中、日，甚至欧美，都暗暗地开始孵化自己国家的飞行车巨头，希望在低空区域里，孕育出又一个比亚迪或特斯拉，成为这个新蓝海的主导力量。</p>
+<p>在电动车赢得初步胜利后，中国新能源领域又面临一场大战。</p>
+<h2><strong>丰田新蓝海</strong></h2>
+<p>目前，丰田汽车是Joby的最大外部股东，在2019年和2020年对Joby进行了两轮投资。最近追加投资后，丰田汽车对Joby的投资总额达到8.94亿美元，按最新美元汇率，约人民币63亿元。</p>
+<p>丰田汽车称，<strong>从丰田喜一郎到现任董事长丰田章男，丰田汽车公司的创始家族一直致力于实现个人或日常出行的空中交通梦想</strong>，丰田汽车此次增资Joby正是公司实现转型的重要一步。</p>
+<p>强劲的业绩表现是丰田大手笔对外投资的底气。</p>
+<p>2023财年，丰田汽车录得营业收入45.1万亿日元（约合人民币2.1万亿元），营业利润大增96%至5.35万亿日元（约合人民币2480亿元），刷新丰田汽车自身最高历史纪录。丰田汽车也成为日本企业中第一个年度营业利润体突破5万亿日元大关的公司。</p>
+<p>近年来，市场诟病丰田汽车对电动化技术保守，后者也确实主推油电混合动力汽车，插电式混合动力及纯电动汽车的销量较少。2023年，丰田汽车共销售油电混合动力汽车342万辆，纯电动和插电式混合动力汽车销量分别为10.4万和12.5万辆。</p>
+<p>但电动车红海化，受价格战扰动，全球电动汽车进入阶段性低谷，不少车企电动汽车业务严重亏损。这在短期内，反而令丰田的保守成为换取空间的优势。</p>
+<p>丰田强劲的财务能力，令它可以有两个选择——<strong>加入红海，还是开拓蓝海</strong>。</p>
+<p>尽管丰田一直宣传不会放弃电动技术，但从它的具体行动来看，开拓新蓝海占据这家汽车巨头的资源明显更多。</p>
+<p>丰田的蓝海，<strong>一方面是氢能车</strong>。</p>
+<p>比如，最近丰田在一个展会上，<strong>首次推出可携带的氢气罐，通过减小氢气罐的体积和重量，使其成为便携式的氢气解决方案</strong>，旨在将氢气转变为一种“熟悉且安全的能源来源”，以便在各种日常场景中使用。</p>
+<p>丰田称，可携带的氢气罐预计将有多种用途，包括为燃料电池供电以生成电力。丰田设想将氢气罐视为巨型AA电池，FCEV（燃料电池电动汽车）车主可以像更换电池一样更换氢气罐进行“加油”。</p>
+<p>另一个被丰田寄予厚望的蓝海，则是<strong>屡次投资Joby背后代表的空中交通梦</strong>。丰田对此可谓出钱又出力，除了不断追加投资，2023年，公它还与Joby签署了一项长期协议，由丰田为Joby的产品生产提供关键的动力总成和传动部件。甚至，丰田还向Joby位于美国加利福尼亚州的工厂派驻了工程师。</p>
+<p>值得注意的事，不止丰田和日本，全球主要发达经济体都想挖掘飞行汽车的商业潜力。中国、美国、欧洲、韩国等国家和地区已经在该领域展开竞争。</p>
+<p>例如，2020年6月，韩国土地、基础设施与交通部发布《城市空中交通规划方案》，提出在2025年内首次引入eVTOL商业服务。2023年7月18日，美国联邦航空局发布计划，提出在2028年实现eVTOL规模化运营。</p>
+<p>具体到企业层面，跨国车企开始与eVTOL企业结盟，或直接下场研发eVTOL。除丰田汽车，与eVTOL企业结盟的跨国车企还有Stellantis集团和铃木汽车。</p>
+<p>Stellantis集团选择支持Joby在美国的竞争对手Archer。2023年，Stellantis向Archer投资了1.1亿美元。2024年7月2日，Stellantis又宣布，向Archer追加投资5500万美元。</p>
+<p>铃木汽车则选择与日本本土头部eVTOL企业SkyDrive合作，2022年9月，铃木汽车联合13家机构向SkyDrive投资约6600万美元。</p>
+<p>现代汽车、大众汽车则选择自研。2021年11月，韩国现代汽车宣布成立一家新公司，负责eVTOL研发和空中交通业务；大众汽车集团（中国）在2022年7月27日发布了一款名为V.MO的eVTOL原型机，开始布局飞行汽车领域。</p>
+<h2><strong>地方国资加码</strong></h2>
+<p>在中国新能源车的发展过程中，地方国资通过直接投资、设立产业基金等方式，在造车新势力的前期融资阶段起到了关键作用，如合肥国资投资了蔚来汽车，杭州市政府对零跑汽车进行了投资，极大地在早期帮助新势力车企缓解资金压力，加快产品研发和市场扩张。</p>
+<p>全球飞行汽车投资热下，历史似乎再一次重演。<strong>在丰田对Joby追加投资前，中国飞行汽车行业才刚完成了两笔由地方国资主导的融资。</strong></p>
+<p>9月19日，广东飞行汽车初创企业御风未来宣布，完成超2亿元Pre-B轮融资。这轮融资由中山国资委下属企业中山创投领投，彬复资本参投，航发基金、沂景资本、宝顶创投等多家投资机构跟投。</p>
+<p>御风未来没有披露公司具体估值，仅称这轮融资将主要用于推进下一阶段eVTOL产品的研发、测试、适航审定，以及在粤港澳大湾区和环杭州湾地区建设研发制造中心和探索应用场景。</p>
+<p>御风未来成立于2021年4月，正在研发一款型号为M1的2吨级eVTOL。M1在2023年10月成功首飞。中国民航局于2024年1月受理其适航审定申请，并于6月启动专用条件讨论修改工作。</p>
+<p>适航审定是民航监管部门对航空器安全性的技术审查，也是航空器投入商业化运营的前提。御风未来称，预计在2025年获得M1货运版适航证，该公司同时还在推进载人版M1适航申请，有望在2027年获得载人适航证。</p>
+<p><strong>更大的一笔融资发生在9月初。</strong></p>
+<p>9月3日，小鹏的飞行汽车研发主体小鹏汇天宣布，与广开控股、广州金控集团、广州开发区投资集团三家国资签约，<strong>完成B1轮1.5亿美元融资，这是年内至今，国内行业里金额最大的一笔融资。</strong></p>
+<p>目前，小鹏汇天正在加速飞行汽车量产。公司创始人赵德力透露，小鹏汇天的新工厂将在2024年9月底到10月初动工，新工厂紧邻小鹏汽车黄埔区工厂，计划在2025年7月底建成投产，年规划产能1万台。</p>
+<p>而小鹏汇天的分体式飞行汽车产品“陆地航母”样机也于近日亮相。“陆地航母”实际上是两个产品，即陆行部分的增程式混合动力皮卡，以及飞行部分的多旋翼电动垂直起降飞行器。皮卡搭载eVTOL，作为其运载工具和充电站。</p>
+<p>小鹏汇天介绍称，皮卡可以乘坐四到五人，由小鹏汇天研发，由小鹏汽车生产，综合续航里程超1000公里；eVTOL部分可以乘坐一名飞行员和一名乘客，由小鹏汇天研发生产，满油满电状态下，eVTOL最多可实现6次起降。小鹏汇天称，<strong>“陆地航母”将从2026年开始大规模交付，售价控制在200万元以内。</strong></p>
+<p><strong>地方国资对飞行汽车的投资热情，与当年追捧新能源车逻辑类似，都是希望吃到产业升级的红利。</strong></p>
+<p>今年4月初，沃兰特高级副总裁、合伙人黄小飞在接受采访时透露，两个月左右时间里，总部在上海的沃兰特，密集接待了近百个城市的招商引资团队或国有背景的基金，有地方政府甚至愿意出资3-5亿元让沃兰特迁总部。</p>
+<p>而就在5月，览翌航空宣布完成数千万元天使轮融资，合肥包河政府基金领投，次月便将企业名称中的上海变更为合肥，总部由上海迁址落户至合肥。</p>
+<p>“目前中国正在进行产业升级，低空经济被视作新增长点之一，它能够帮助传统产业实现科技化转型，这正符合国家和市场的需求。”有业内人士称。</p>
+<h2><strong>中国的优势</strong></h2>
+<p><strong>地方国资的热情，是国家意志的反映。尤其是去年四季度开始，飞行汽车、低空经济的相关利好在国家层面接连释放。</strong></p>
+<p>2023年10月，国家工信部等四部门联合印发《绿色航空制造业发展纲要（2023—2035年）》，提出到2025年，eVTOL实现试点运行，到2035年建成具有完整性、先进性、安全性的绿色航空制造体系。</p>
+<p>11月8日，民航局发布了由国家空中交通管理委员会办公室起草的《中华人民共和国空域管理条例（征求意见稿）》。监管当局参考国际经验，划设七类空域，低空空域管制明显松动。条例落地实施后，低空飞行活动审批大为简化，飞行器将获得更大活动空间。</p>
+<p>12月11日，中央经济工作会议在召开，提出要打造低空经济等若干战略性新兴产业。2024年2月23日召开的中央财经委员会第四次会议又提出，鼓励发展与平台经济、低空经济、无人驾驶等结合的物流新模式。</p>
+<p>在此期间，深圳、广州、合肥、重庆、四川、江西、江苏、湖南等多地陆续发布支持政策，国内掀起低空经济热潮。</p>
+<p><strong>“低空经济是未来中国新的经济增长点。”</strong>中国民用航空局原副局长李健认为。</p>
+<p>他援引世界银行统计数据称，中国现有民航高空运输网络的经济体量为17万亿元，中国与美国国土面积相当，按照美国的经验，低空网络的经济体量大致是高空网络的3.2倍，<strong>中国低空经济总体量能够达到50万亿元。</strong></p>
+<p>值得注意的是，国家大力刺激低空经济，无人机和飞行汽车可能是短期内最直接的受益者。中国既是全球无人机制造巨头，在eVTOL领域，几乎也是与欧美国家同时起步。</p>
+<p>当然，除了有经济增长的考量，市场分析认为，高层频频释出低空经济利好信号，也有意在复刻新能源汽车产业成功经验的因素，在引导、允许和鼓励一批企业“先飞起来”后，最终实现“弯道超车”。</p>
+<p>之所以说希望“弯道超车”，是因为在传统航空飞机发动机、机载设备、零部件几乎被欧美国家垄断，中国在这些技术领域只能艰难追赶。但在飞行汽车领域，eVTOL的核心部件为电驱动系统和电池，这与新能源车企的产业链存在重合。</p>
+<p>这正是政策鼓励外，中国发展飞行汽车的最大优势。</p>
+<p>迅速发展的新能源车行业，令中国在电动汽车、轨道交通等新能源装备领域积累了足够的优势。国内产业链完备，电池、电机、电控系统都能找到成熟供应商，甚至连全球航空发动机巨头罗罗（Rolls-RoycePlc）在研发航空电推动系统时，也要来中国寻找电池供应商。</p>
+<p>“在eVTOL领域，中国成功的可能性起码要比民航大飞机高。”磐拓航空相关负责人说。</p>
+<p>丰田能否在飞行汽车领域弯道超车，中国能否保持住新能源产业的优势，都将成为这场空中大战的焦点。</p>
 <p><strong>参考资料：</strong></p>
-<p>https://www.nature.com/articles/s41586-024-07998-6 </p>
-<p>https://research.google/blog/validating-random-circuit-sampling-as-a-benchmark-for-measuring-quantum-progress/ </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/PrNK4cEcv3YVFYv8E5kZhw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：桃子 好困 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993396077554693</guid><pubDate>Tue, 15 Oct 2024 17:00:00 +0800</pubDate></item><item><title>只有10%的产品值得用AI再做一遍</title><link>https://36kr.com/p/2993353317719683</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1024,768" src="https://img.36krcdn.com/hsossms/20241015/v2_a1d1e5d1286f4e43aa4a7f848b61a46b@6030424_oswg95301oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2023 年的这时候，很多人都在讲，所有的产品都值得用AI再做一遍。 </p>
-<p>前阿里的CEO张勇说：“面向AI时代，所有产品都值得用大模型重新升级。” </p>
-<p>百度的CEO李彦宏说：“百度还要做第一个把全部产品重新做一遍的公司，用 AI 原生的思维重构产品。” </p>
-<p>不过，这些都是大佬们发表在去年的话。在国内大厂卷了一年后，大模型的概念炒作阶段已经过去，随着AI升级后的效果显现，人们对大模型技术逐渐祛魅，大佬们开始思考，AI的机会到底在哪。 </p>
-<p>尤其近期有媒体报道，被称为“AI六小虎”的6家中国大模型独角兽（智谱、零一万物、MiniMax、百川智能、月之暗面、阶跃星辰）中，已经有两家逐步放弃预训练模型，业务重心转向AI应用，但产品端并没有见多大动作。 </p>
-<p>李彦宏也冷静了下来，他开始思考大模型的能力如何在业务和场景中应用。<strong>“简单机械地往产品中集成大模型的能力，意义不大，纯属过度焦虑。”</strong>回望去年他曾发表过的言论，今年的这句话似乎有些反转，但停下来思考技术如何服务于业务场景，确实是回到了正确的道路。 </p>
-<p>的确，这次AIGC的浪潮可以应用在非常广泛的领域，如果AI真的如我们想象的那样无所不能的话，那这些领域可能早就出现现象级的AI产品了。 </p>
-<p>但事实却是，在现有AI能力的支撑下，可能只有10%的产品值得用AI再做一遍，其他90%的产品加了AI后，90%的人尝鲜后就会忘记它，还有一部分人甚至会对AI产生反感，以及觉得AI很鸡肋。 </p>
-<h2><strong>90%的AI功能都很鸡肋</strong></h2>
-<p>如果我们把AI产品分为两类，一类是AI native的产品，像豆包、通义千问、文心一言这类纯AI的对话类产品，这类产品如今已有了千万级用户量级的产品诞生，但和移动互联网时代的微信QQ 10亿+的用户量级还差得很远，留存率也是一个非常大的问题。 </p>
-<p>这类产品很受关注，但另一类AI产品也同样值得关注，就是在原有的业务上如何利用AI做赋能，让移动互联网时代的 APP 能利用 AI 焕发新生。 </p>
-<p>最近新出的支小宝，就是这类产品的典型代表，它刚出现时让不少人眼前一亮，用AI提升服务的质量的想法也很好。但细究整个操作路径，改善有限。它本应该帮助人节省时间，提高效率，但支小宝有些能力反而拉长了原来支付宝的使用链路。 </p>
-<p>举例，如果一个用户想坐公交，需要刷公交码，那他可以用手机的NFC直接刷码上车，不需要打开任何App就完成了这个操作。即便是没有NFC，也可以把交通码直接放在桌面，一键点开，耗费时长不到2s。但如果我用支小宝坐公交，我需要把APP打开，点开对话，再输入指令“我要坐公交”，等待2-3s加载出来，这个过程至少需要5s以上。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,2373" src="https://img.36krcdn.com/hsossms/20241015/v2_11fb76c0918b4e8fa630d7fac4d31a28@6030424_oswg197761oswg1080oswg2373_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其次，从支小宝的AI能力上来看，大部分功能并未发挥出 AI 的能力，只要跳出产品定义好的指令模板提问，支小宝很快就会出现难以识别用户意图，回答无意义或瞎答的情况。现在大部分的功能看起来是通过产品侧，定义某个问题的回答模板，然后调用之前支付宝已支持的接口。 </p>
-<p>拿【查下我的社保】来举例，其实就是把原来支付宝社保小程序那个接口调了过来，然后app自动读取了你支付宝的个人信息，通过你的个人信息决定调哪个城市的小程序，如果是北京就会调【京通】，然后你就能在支小宝里进入这个小程序了。这个和你在支付宝里搜【社保】显示的内容没有任何区别，这里到底哪里用到了AI能力，好像也没有用到。 </p>
-<p>不管怎么说，支小宝给AI服务生活开了个好头，并且造势造得很大，这点还是勇气可嘉的。不像其他的一些我们熟知的APP，大多都还在内测阶段，产品经理们把AI助手的入口埋得很深，生怕用户发现了它们的能力还很弱。 </p>
-<p><strong>生活领域，头部电商APP也在努力寻找AI的落地场景。</strong> 淘宝在去年九月就上线了智能助手【淘宝问问】，但目前我只在搜索栏找到了它的入口，目前主打的功能是辅助用户购物决策，这的确是一个很好的切入点，但目前给的建议很空泛，对用户几乎产生不了价值。 </p>
-<p>例如，我提了一个“推荐几款冲锋衣”的问题，小淘给我推荐了几个冲锋衣品牌的特点，想看具体的还得点击跳转。后面缀了一个千元以内的冲锋衣排行榜的卡片，但这并不是我想要的价位。说明AI还不能根据用户的消费习惯特征进行推荐，这一点不如直接在淘宝的页面搜索关键词再做筛选，还能更直观地看到详情图和价格。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,2373" src="https://img.36krcdn.com/hsossms/20241015/v2_4e0002be80dc48d39f2cc8921a135c41@6030424_oswg287668oswg1080oswg2373_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>同为电商领域扛把子的京东也在疯狂找AI购物助手的应用场景，和淘宝问问的定位很像，京东京言1.0同样也在帮用户做购物决策，它通过和用户对话的方式推荐商品，同时可以让AI划重点总结评论。 </p>
-<p>体验下来，发现京东京言的多轮对话理解能力较差，我上个问题在说推荐鼠标垫，中间插了一句无关紧要的话，再回去点我想要的鼠标垫款式，再推荐就变成了T裇😂。 </p>
-<p class="image-wrapper"><img data-img-size-val="932,1024" src="https://img.36krcdn.com/hsossms/20241015/v2_0c72596430e5439bb7abb2faa7ec1d70@6030424_oswg133569oswg932oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>同样让我觉得对用户产生不了价值的还有AI划重点功能，基本只能对好评进行总结，众所周知，电商的好评大多是被刷出来的，这种被滤镜过的内容生成AI评价，属于人为地让AI『报喜不报忧』，看了之后对用户没有任何意义。 </p>
-<p>无独有偶，用AI对评价进行总结的能力在饿了么也曾上线过，但是目前这个 APP 的AI入口都难以寻觅，据说之前上线过又很快下线了，原因可能是产品经理们也发现了，这一功能不仅碍眼，还对用户产生不了价值，并且还要浪费调用大模型的费用。 </p>
-<p>未来，或许这一功能可以迭代成让AI能识别真实的评价和刷单的评价，并对用户评价做出更加客观的总结和统计分析，差评好评都用更加多维和量化的方式展现出来，还能追溯到原评价的内容，做个完全公正的第三方AI，但这样一来，亮出差评又有可能会伤害商家的利益，这确实是一个很难权衡的问题。 </p>
-<p class="image-wrapper"><img data-img-size-val="564,492" src="https://img.36krcdn.com/hsossms/20241015/v2_8f8c77cbc14044bcb00e3d9ea8e6fbd4@6030424_oswg238733oswg564oswg492_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,687" src="https://img.36krcdn.com/hsossms/20241015/v2_61ea5149aa434cb9a69ef86b3350847a@6030424_oswg125514oswg1080oswg687_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>再说说国内Top1的旅游类产品，在首页悬浮球上线了一个“携程问道”，它能帮助用户做旅行规划，也能推荐一些景点，但说实话，携程问道生成的干巴巴文字，并且你不知道它基于什么维度推荐。所以，我更爱看小红书的真实用户给出的图文并茂的内容，或者直接去看携程的口碑榜和社区版块UGC发布的内容，现在携程问道给我的感觉是，<strong>很像搜索，但又没有搜索好用。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,2373" src="https://img.36krcdn.com/hsossms/20241015/v2_38bf8bf5ea26424a984b58b9276a9527@6030424_oswg284244oswg1080oswg2373_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>大厂产品经理，找不到AI的使用场景</strong></h2>
-<p>吐槽了那么多，我并不是觉得现有的移动互联网app都不适合做AI，而是因为在已有的成熟移动互联网应用中嵌入AI能力，指望AI能为应用带来指数级的增长，这对目前的大模型能力来说，还有很长的路要走。 </p>
-<p><strong>核心是很多产品是为了跟上AI的潮流而做AI，而不是真的在解决用户的痛点问题。</strong></p>
-<p>一个好的产品，首先应该解决用户的痛点，我们现在处在AI风口的时代，同时也是移动互联网的末期，这个时代有个特点，用户的痛点基本上都被挖掘完了，每当你发现一个用户可能存在的某个痛点时，你就会发现市面上早就有对应的产品在做这件事了，很难挖掘到某个用户没被解决的需求。所以，通过挖掘用户痛点，寄希望用AI来满足用户未被满足的需求，就成为一件非常困难的事情。 </p>
-<p><strong>不可否认，的确有一些AI native产品找到了用户的痛点，并且完成了市场落地。</strong> 这些产品大多集中在幻觉率容错程度高的场景。 </p>
-<p>例如AI占卜，像之前鲸哥在《高学历年轻人迷上AI占卜》这篇文章里提到的，月见塔罗这类小众的AI占卜应用现在都已经落地并且盈利了，其实本质上就是结合用户的提问和塔罗牌的牌面检索知识库，并生成答案的过程，真人塔罗占卜得到的答案本身就模棱两可，所以即便是AI说错了答案，用户的感知也会非常非常低。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,2341" src="https://img.36krcdn.com/hsossms/20241015/v2_39a29584b24b4635aa30a382ebf05c47@6030424_oswg194073oswg1080oswg2341_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>例如虚拟女友，也是AI应用中最早落地的，这是因为在聊天的场景中，用户允许不完美的回应，在聊天的过程中往往更注重情感上的陪伴和互动，而不是追求绝对正确的答案，因此会对虚拟女友的一些小错误或不完美之处更加包容。 </p>
-<p>这些产品发现了用户的痛点——AI玄学产品，满足了用户对24h随时占卜、价格又便宜的需求；AI聊天类产品，满足了下沉市场里那些有情感陪伴需求的用户。但这些需求只是一小部分人群需要的，看起来并不是大众普遍存在的一些痛点，因此也很难落地成为现象级的应用。 </p>
-<p>幻觉率是大模型几乎永远无法避免的问题。因为训练AI的数据集不可能是完美的，存在着知识上的错误或某些内容的缺失，遇到未涵盖的情况时，AI就会编出一个答案，让你觉得煞有其事，但仔细考究就会漏洞百出。 </p>
-<p>生成式AI的本质是是对已有的数据和知识进行向量化的归纳，总结出下一个字符出现的概率。<strong>就连苹果也发文质疑——目前最先进的GPTo1根本不具备真正的逻辑推理能力，而是基于训练数据中的模式进行匹配，而非像人类一样进行符号和逻辑推导。</strong></p>
-<p>有人发现，此前测试回答正确的问题，只要改动一个小数据，答案大概率就会出现偏差。 </p>
-<p class="image-wrapper"><img data-img-size-val="1062,328" src="https://img.36krcdn.com/hsossms/20241015/v2_ea956e6a48d24bc5a9192653f8fca70a@6030424_oswg45862oswg1062oswg328_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文链接：https://arxiv.org/abs/2410.05229 </p>
-<p>在一些严肃场景中，我们发现AI落地成功的产品寥寥无几。为什么？<strong>因为严肃的场景不允许出现错误。</strong></p>
-<p>比如在销售服务客户的场景，设想如果AI来替代销售服务客户的话，一是很难对客户的一些情绪做出回应，二是AI总是倾向于“讨好”用户，如果AI给出了一个错误的成交价，这个错误到底应该归结于谁？假使企业宣布AI说的不算话，那又会导致越来越多的用户不愿意相信AI，依然会直接转接人工客服。 </p>
-<p>被寄予厚望的AI客服，虽然能给业务带来销量的提升，但却使得客户的满意度降低了，有用户评论：“作为消费者每次遇到AI客服真的就是怒火中烧，人工客服永远排不上。” </p>
-<p>再比如在出行的场景，AI在某天告诉用户的预计起飞时间错了，导致用户错误地决定退票，这将给业务带来多大的损失。 </p>
-<p>还有些场景AI可升级，是大家都明眼知道的，但是囿于其他因素，还不敢广泛应用，因为会影响核心蛋糕。 </p>
-<p>比如百度的AI搜索，李彦宏声称AI搜索的结果永远不放广告，用户对百度上线AI搜索功能后评价却褒贬不一，有人说搜索的效率显著提升，有人则认为AI生成的内容不仅慢还“驴头不对马嘴”。 </p>
-<p>从百度近期的财报上看，目前AI搜索不仅对业务营收贡献甚微，还影响了百度的广告变现率，对传统的搜索业务带来了冲击。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,2373" src="https://img.36krcdn.com/hsossms/20241015/v2_84294c9a486740a59fd6472288cdfeb5@6030424_oswg206579oswg1080oswg2373_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="812,1234" src="https://img.36krcdn.com/hsossms/20241015/v2_938bf78d7a5847868f5437be9c78f783@6030424_oswg381945oswg812oswg1234_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>大厂难做AI，小公司更难。因为大模型需要的算力成本太高，小公司无法承担得起。 </p>
-<p>如果是一家小型的创业公司，想要让LLM实现在严肃场景下的准确回答，就需要提供大量的优质数据集来训练模型，大量的人工来进行数据标注，那就要面临着GPU算力、部署算法、大模型成本、人力成本相关的问题，这需要非常高昂的成本。 </p>
-<p>要不要免费开放给用户使用，又是一个让产品经理纠结的问题。如果免费，那就意味着用户量级一旦增加，会面临着高昂的成本，而目前AI产品又没有找到合适的商业化方式；如果收费，那就意味着产品的竞争力会变弱，一些本就需求不旺盛的用户依然会选择保持原有的习惯。 </p>
-<h2><strong>AI如何赋能现有的业务？</strong></h2>
-<p>为什么AI从出现到现在，两年半的时间，还没有出现一个杀手级的应用？就连有强大算力、有密集人才、愿意投入资金做AI的大厂，诸如字节、阿里、京东这类公司也难以让AI成功赋能现有的业务？ </p>
-<p><strong>一是因为AI的使用门槛太高，它对于提问者的要求很高，而大多数人不会提问。</strong> 就像Perplexity AI 的CEO在访谈中说的“我们最大的障碍不是Google，而是人们天生不会提问。” 没有高质量的输入就不会有高质量的输出，这就是为什么需要有AI提示词工程，因为在不同水平的提示词下，大模型的水平差异确实会非常大。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241015/v2_298d563f2088465eb5f0d82391b21bef@6030424_oswg177377oswg640oswg360_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>就拿我公司做的智能助手来说，我们后台看到的用户提问大多是一些口语化的短句，有人甚至连问题都无法描述清楚，指望用几个模糊不清的词让模型去理解，说实话一个硕士毕业的文科生都很难理解他的意图，大模型在意图理解能力上更弱了，它经常识别错误用户的意图，路由错了，就会出现答非所问的情况。 </p>
-<p>为了让产品更好地落地，一方面需要提升大模型能力，通过不断地修复badcase提升大模型在垂直领域的生成能力。另一方面，需要引导用户学会提问，比如在文生图场景下，将一块只有提问的白板变成常用场景下关键词的选择，这样一来用户的使用门槛就会低很多。 </p>
-<p><strong>二是目前AI还处在初期阶段，复杂问题的处理还难解决。</strong> 虽然在Coze上的智能体百花齐放，但这可能需要时间落地产业，就像是互联网的初期个人建站曾掀起大浪，成为大厂却都需要10年以上的时间。 </p>
-<p>现在有一个阅读类的智能体，主要功能是用户提供书名，它提供书籍的核心内容和背景资料，使用人数达到了46万。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,1561" src="https://img.36krcdn.com/hsossms/20241015/v2_92bf3ea857b84396bef5743d446a81a1@6030424_oswg110569oswg1080oswg1561_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>现在市场共识，智能体是提升AI能力的捷径，通过Agent实现复杂问题的拆解处理。很多大厂产品经理，确实在探索智能体解决目前的问题，当然，智能体的工作流如何发挥最大效果，还需要时间探索。 </p>
-<p>以上两种方案是以发展的眼光解决问题，目前AI已经落地的业务就两种： </p>
-<p><strong>第一种是AI+写作/图像，</strong> AI的确可以帮助创作者几秒生成一篇文章或者一个图像，一些创作者通过生成百次以上获得满意的作品，生成完之后还需要对一些细节问题进行二次加工。 </p>
-<p>不可否认的是，如果一个会提问的作者用上AI，在信息搜集、内容整理、文章润色上的效率会翻倍。这一点的确赋能了无数自媒体创作者，有人成功做出来了百万粉丝的账号，有人运用AI洗稿一个人批量运营了上百个账号。 </p>
-<p>图像领域借助AI，很多传统产品也取得了效果， <strong>美图付费订阅用户数超1081万，同比增长50.1%，付费渗透率约为4.2%。</strong> 美图负责人吴欣鸿表示：“目前美图产品的AI含量已经达到87%以上。”虽然开创性AI技术少，但美图确实利用开源尝到了AI红利。 </p>
-<p><strong>第二种就是AI+ChatBot，</strong> 除了我们熟知的豆包、文心一言、通义千问这类产品，AI情感陪伴类产品也出现了大规模的增长，一些产品如星野、叨叨、Character AI 等一些含有擦边的虚拟女友类产品已完成了商业落地。 </p>
-<p><strong>在一些严肃场景下，也有一些面向C端用户的AI产品，只是目前还不成熟。</strong> 例如Chat Law 能提供基础的法律咨询，完成简单的法律专业文书写作，医联能给人们线上问诊，多邻国的教育大模型能提供语言陪练、学习内容规划等，蚂蚁的蚂小财，能提供最新的财报资讯解读，还能分析某个基金的走势。 </p>
-<p>严肃场景下的垂直大模型通过增量预训练，注入该领域的专业知识，并进行指令微调，再运用 RAG（检索增强生成）来解决大模型在检索和生成能力上的不足，它能够让大模型从外部知识中快速找到与问题相关的信息，然后将这些信息重新整合到现有的答案中，使答案更加丰富具体、符合要求。 </p>
-<p>但这些场景下的垂直大模型能力尚且不够，距离能产品化还有很大的距离，还有很多的corner case没有解决，例如如何拒识领域外的问题，如何避免领域外的问题大模型出现“幻觉”的情况。 </p>
-<p>不过我相信，随着技术的迭代，未来大模型的能力会越来越强，成本也会越来越低，最终成为一个人人都用得起，真正走入人们生活，走入千家万户的生产力。 </p>
-<p>这就像是在蒸汽机开始的时代，瓦特1765年发明的蒸汽机，但过了近百年后，蒸汽机才真正被广泛使用，成为高效又廉价的动力来源。 </p>
-<p class="image-wrapper"><img data-img-size-val="1024,576" src="https://img.36krcdn.com/hsossms/20241015/v2_c697829298ab4f78bdbb0287c3121d8f@6030424_oswg79134oswg1024oswg576_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>蔡崇信说：“AI模型训练就像在教育孩子。”这句话告诉我们，要对AI有足够的耐心，像培养一个孩子一样不断地喂给他成长所需的营养，也许在目前这个阶段我们还不能明显地感知到AI对我们的生活带来的颠覆性改变，但是只要我们足够耐心地长期投入，我相信会有一天，AIGC时代的“奇点”就会来临。 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/2JRb2llZRRxsfA2qt5im0w" rel="noopener noreferrer nofollow" target="_blank">“AI鲸选社”</a>，作者：晓睿，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993353317719683</guid><pubDate>Tue, 15 Oct 2024 17:02:00 +0800</pubDate></item><item><title>被股东“甩卖”的东莞证券：冲击IPO九年，终于有新动向了</title><link>https://36kr.com/p/2993258414402309</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>东莞证券的上市长跑已经持续9年多，迟迟上不成，就和锦龙股份实控人杨志茂有关系。在2017年5月锦龙股份的实控人杨志茂被爆收购东莞证券股权的过程有涉嫌单位行贿被起诉，因此东莞证券主动中止了IPO申请。</p>
-<p>在大金融板块火热行情下，券商一炮打响，券商ETF从9月24日到10月11日涨了35.1%，中间最高涨幅一度达到62.3%，加上两大巨头的合并消息出来，全市场都在关注券商。 </p>
-<p>在这顺风顺水的时刻，有未上市的券商开始冲击IPO了，比如刚刚更新了招股说明书的东莞证券。而东莞证券的二股东锦龙股份，正在甩卖东莞证券20%的股票，不知道面对行业大爆发+IPO有了新的希望，会不会后悔这个决定。 </p>
-<p>东莞证券的上市之路已经走了近10年，这样的马拉松式IPO，这次能成功吗？ </p>
-<h2><strong>1.净利润下降分红上升，还有高管大地震</strong></h2>
-<p>近日，东莞证券更新了招股书，IPO的过程又进一步。 </p>
-<p>东莞证券成立于1988年，注册资本15亿，是东莞本地的券商，旗下分支机构达到103家（营业网点101家，上海和深圳各1家分公司），另外，全资拥有东证锦信投资管理有限公司、东莞市东证宏德投资有限公司，并参股华联期货有限公司。 </p>
-<p>截至2024年6月底，东莞证券净资本规模已经达到73.77亿元。 </p>
-<p>招股书中显示，2021年至2024年上半年，东莞证券的证券经纪业务营收占比从33.07%提升至42.16%，信用业务从8.93%增长至19.4%，证券自营、投资银行业务的营收占比在10%左右，其他的业务营收占比相对较低。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_6245545e3acc423c8c58c4c16fb7ff04@000000_oswg270526oswg831oswg494_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>值得注意的是，报告期内，东莞证券利润贡献最大的证券经纪业务收入在持续下滑。 </p>
-<p>东莞证券称，这是受新设网点政策放开、一人一户限制取消、证券公司同质化竞争加剧及互联网金融发展等因素影响。而且，经纪业务的佣金率也在持续走低，报告期内，东莞证券的平均佣金费率分别为0.257‰、0.234‰、0.223‰及0.222‰。 </p>
-<p>唯一还在增长的营收项目，只有占比排第二的自营项目，不过增速也比较低。 </p>
-<p>排第三的投行项目也在大幅萎缩，而且东莞证券的投行项目基本就依靠广东本地的企业。今年1-5月，其已履行的2000万以上的13份投行业务合同中，有11单都是广东本地的。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_1b174a92f8e9411fa4caf394965befa6@000000_oswg81893oswg612oswg519_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>业绩虽然下滑，不妨碍东莞证券持续分红，而且越分越多：2021年、2023年及2024年上半年，东莞证券的现金分红分别为2亿元、2亿元、3亿元，累计分红达7亿元。 </p>
-<p>管理上，东莞证券也比较动荡，今年5月刚经历了密集的高层“大换血”。 </p>
-<p>5月初，东莞证券就解除了总裁潘海标的职务，经董事会决议由公司董事长陈照星开代行总裁一职。到5月18日，副总裁、董秘郜泽民及合规总监郭小筠也一同离任，转而担任公司高级顾问。 </p>
-<p>此外，东莞证券董事会还决议公司任命高管季王峰担任合规总监，高管陈爱章担任资管业务总监。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_aaa5322c3a6a424ea9e9be8008f9198d@000000_oswg55691oswg750oswg394_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从时间来看，总裁、副总裁兼经纪业务总监、首席风险官兼合规总监、投行业务总监、首席信息官等今年5月新上任在内的高管，履职均截止于今年11月中旬。 </p>
-<p>等这个时间节点到了，东莞证券的管理层还可能会有新的变动。 </p>
-<h2><strong>2.股东拖累东莞证券， 9年IPO长跑仍在路上</strong></h2>
-<p>目前，实控人东莞市国资委通过东莞控股、金控集团、金控资本间接控制东莞证券55.4%的股份。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_10782df631e646c29e653f76f6beb6d0@000000_oswg36452oswg750oswg280_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲</p>
-<p>但是，目前正在进行的一场股权转让交易结束后，东莞市国资委将合计控制东莞证券75.4%的股份。 </p>
-<p>这是因为上市公司锦龙股份也是东莞证券的股东，持股比例为40%之高，从去年就开始想卖，直到最近才即将把持股给卖掉一半。另外，锦龙股份还持有中山证券67.78%的股份，所以即使卖掉东莞证券的股份，锦龙股份的主营业务依旧是证券公司业务。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_a058f18b6e984d42b95ced8ef6996052@000000_oswg176961oswg642oswg477_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>就在9月底，锦龙股份披露，已经通过上海联合产权交易所公开挂牌的方式，将所持有的东莞证券股份有限公司20%股份卖给东莞金控和东莞控股，分别占东莞证券总股本的12.9%和7.1%，交易总价款为22.72亿元。 </p>
-<p>目前这个交易还在推进中，按照这个价格计算，给东莞证券原有的估值应该约为114亿。 </p>
-<p>而锦龙股份剩下那20%的股，怕不是不想卖，是现在卖不了。根据东莞证券官网信息，目前锦龙股份的持股中，有18%正处在质押状态： </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_f6a3b89df3544d948af43c10b9d4a2c7@000000_oswg616939oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>要知道，东莞证券的上市长跑已经持续9年多，迟迟上不成，就和锦龙股份实控人杨志茂有关系。 </p>
-<p>东莞证券最早从2015年6月就首次递交了招股书，到2017年1月再次递交了更新后的招股书。 </p>
-<p>然而，在2017年5月锦龙股份的实控人杨志茂被爆收购东莞证券股权的过程有涉嫌单位行贿被起诉，因此东莞证券主动中止了IPO申请。 </p>
-<p>直到2021年，证监会恢复了对东莞证券的上市审核，并在2022年发审委审核通过，但这次IPO却没成。2023年注册制实施，深交所受理了东莞证券IPO平移申请，到今年3月又中止了。 </p>
-<p>到今年6月，东莞证券向深交所提交了《关于首次公开发行股票并上市恢复审核的申请》及IPO更新申请文件，深交所受理了上述文件，这次IPO才恢复审核。 </p>
-<h2><strong>3.中小券商排队上市，敌不过行业的马太效应</strong></h2>
-<p>目前，从竞争地位来看，东莞证券还距离大券商和明星券商比较遥远。 </p>
-<p>据中国证券业协会的统计数据，截至2023年12月31日，145家证券公司中，净资产规模排名前十的券商净资产之和为1.54万亿元，占全行业2.95万亿元的52.20%，后面九成的券商还不到一半的规模，这集中度可以想象。 </p>
-<p>东莞证券招股书显示，2021年按总资产、净资产、净资本排名，东莞证券分别排在第46、65、62位。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_bfc4c7d1e52949799d97e244066c54a5@000000_oswg116854oswg831oswg429_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这样的竞争格局下，东莞证券只能算不起眼的中小券商了。          </p>
-<p>不过，在最近几个交易日内，券商全面利好，东莞证券虽然还没上市，股东锦龙股份由于被一部分机构分类划归券商板块，从9月24日开始也跟着涨了将近50%。 </p>
-<p>最近几年，券商上市的节奏明显在放缓。 </p>
-<p>据《中国科技投资》记者不完全统计，2015年A股有4家券商成功上市；2016至2019年，这期间在一年时间内成功上市的最多有5家券商；2020至2022年，成功上市的券商数量分别为4家、1家、1家；2023年至今，也仅有信达证券这1家券商成功上市。 </p>
-<p>而目前，一共有5家拟上市券商在IPO排队，分别是东莞证券、渤海证券、财信证券、开源证券和华龙证券。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_e327c9af8e7f4085adaf97cea2c4c165@000000_oswg231123oswg644oswg338_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲</p>
-<p>除此之外，华金证券和华宝证券都在今年6月主动撤回上市。 </p>
-<p>华金证券主要原因是新规的门槛提高，拟上市公司应当至少符合三项标准中的一项，三项标准均对净利润指标提出了要求，其中一条要求“最近3年净利润均为正”，其余两条均要求“最近一年净利润为正”。华金证券去年的净利润是亏损1.79亿，所以这三项全灭。 </p>
-<p>而华宝证券撤回，倒不是因为财务指标不达标，但华宝证券方面的回应只说是公司的主动决策，也并不改变公司登陆资本市场的长期战略规划。 </p>
-<p>这轮牛市，券商集体沸腾了，但IPO之路仍然不是一件容易的事。 </p>
-<p><strong>参考资料：</strong></p>
-<p>《这家券商，IPO排队2年后撤回！公司回应》，券商中国</p>
-<p>《证券业“马太效应”加剧 中小券商陷IPO困境》，经济观察报</p>
-<p>《东莞证券20%股份将转让 国资持股比例进一步提升 IPO九年能否迎来新转机？》，中科财经</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU0OTI2MzkxMA==&amp;mid=2247858693&amp;idx=2&amp;sn=1ab7a512dc45811c4a7922b67dbb1a7e&amp;chksm=faa459914601b45ae5d1fea395bbac3da60cd00e0c1f306932d3cdc1056924cf4537080dba87&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金融八卦女频道”（ID：baguanvpindao）</a>，作者：腰总，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993258414402309</guid><pubDate>Tue, 15 Oct 2024 17:04:00 +0800</pubDate></item><item><title>墨西哥想造世界最高性价比电动车，法拉利新车只卖中国3 辆｜海外日报</title><link>https://36kr.com/p/2993545708710664</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2><strong>「 Top 3 news 」</strong><br/> </h2>
-<h3><strong>本田Prologue电动SUV销量突破新高，表现超出市场预期</strong></h3>
-<p><strong>要点：</strong></p>
-<p>2024年第三季度，本田汽车公司（Honda）的首款全电动SUV——普罗格（Prologue），实现了销量的显著增长，在第三季度名列美国电动车销售榜第五，超出了市场预期。这款车是本田电动化战略中的重要一步，它不仅延续了本田一贯的可靠性，还在电动化市场中树立了新标杆。Prologue基于通用汽车的Ultium平台打造，搭载了GM的电池技术。作为本田的首款全电动SUV，Prologue注重舒适性、实用性和智能化功能，同时具备较长的续航和较快的充电速度。这些特点使它在消费者中获得了较好的口碑。根据公司发布的数据，Prologue的销量在2024年第三季度出现明显增长，表明市场对这款电动SUV的需求正在上升。</p>
-<p>目前，美国是Prologue的主要市场。随着传统汽车品牌加速向电动化转型，本田在美国市场推出Prologue恰逢其时。这款车在美国售价为47,400美元、续航里程可以达到296英里（476公里），使它成为消费者关注的焦点。根据预计，本田将在未来几个月进一步提升Prologue的生产能力，以应对需求的持续增长。</p>
-<p class="image-wrapper"><img data-img-size-val="852,459" src="https://img.36krcdn.com/hsossms/20241015/v2_82991d50b3c04e95aba1314033c6fac5@6130289_oswg617795oswg852oswg459_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">本田Prologue（来源：本田）</p>
-<p><strong>观点：</strong></p>
-<p>不得不说Prologue的销量增长表明本田在电动化转型上取得了一定进展。作为本田在电动汽车领域的首秀，Prologue的市场表现为品牌赢得了宝贵的消费者信任。这不仅是本田的胜利，也意味着传统汽车制造商正在逐步适应并迎接电动汽车的新时代。但是要想在未来电动汽车市场中站稳脚跟，本田还需要继续优化Prologue的续航能力和充电效率，也需要加大研发投入，争取在这些技术的应用上不落后于其他竞争对手。综合来看，本田Prologue的市场表现已经初见成效，未来随着电动化进程的推进，它可能成为本田电动化转型的中坚力量。</p>
-<h3><strong>DHL验证特斯拉Semi电动卡车的强大动力与效率</strong></h3>
-<p><strong>要点：</strong></p>
-<p>近日，国际物流巨头DHL宣布他们已经完成了对特斯拉Semi电动卡车的初步测试，并对这款电动重型卡车的性能给予了高度评价。DHL表示，测试结果超出了他们的预期，特斯拉Semi在多个关键领域的表现都非常出色，包括动力、续航和驾驶体验。特斯拉Semi是一款专为长途货运设计的全电动重型卡车，首次亮相是在2017年。尽管特斯拉在推出这款车时面临诸多质疑，但随着更多公司开始接受并测试该车，市场对其电动卡车的潜力充满期待。DHL是首批参与特斯拉Semi测试的物流公司之一，并且在多个月的时间里对该车进行了全方位的评估。</p>
-<p class="image-wrapper"><img data-img-size-val="771,378" src="https://img.36krcdn.com/hsossms/20241015/v2_fd0bc47c1ac545b39850a5cc2fa85693@6130289_oswg386359oswg771oswg378_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">特斯拉Semi DHL车队（来源：Electrek）</p>
-<p>根据DHL的报告，特斯拉Semi在实际运输过程中展现出了出色的加速性能。电动动力系统提供了平稳且强劲的驱动体验，特别是在负载较重的情况下，依旧能够稳定地完成任务。DHL指出，这款卡车的最大负载能力符合标准运输需求，且在爬坡和超车时表现毫不逊色，给驾驶员带来了高度的安全感。此外，特斯拉Semi的续航也是其一大亮点。DHL测试表明，即使在长时间高负载的情况下，Semi的电池也能够支持足够的续航里程，甚至在某些情况下，续航表现优于预期。特斯拉提供的350kW快充技术能够在短短几小时内将电池充满，使得Semi能够快速投入下一轮运输。DHL还提到，虽然电动卡车的初始购车成本较传统内燃机卡车更高，但从长期运营成本来看，Semi的电力驱动系统和更低的维修需求能够有效降低整体运营成本。电动卡车的充电成本也远低于传统柴油卡车的燃油成本，这为物流公司提供了显著的成本节约潜力。</p>
-<p><strong>观点：</strong></p>
-<p>DHL对特斯拉Semi的测试结果无疑为电动卡车市场注入了一剂强心针。随着全球物流行业的绿色转型，电动重型卡车的市场需求正在逐渐增加。特斯拉Semi作为这一领域的先行者，不仅展示了电动卡车在性能上的潜力，也为传统燃油卡车的替代提供了新的思路。然而，尽管特斯拉Semi在技术上已经取得了一定的进展，但电动卡车的普及仍面临许多挑战。充电基础设施的建设、电池技术的进步以及电动车辆的整体成本效益仍然是影响电动卡车市场发展的关键因素。未来，随着特斯拉和其他电动卡车制造商持续推动技术创新，并与物流公司和政府部门合作，电动卡车将成为未来运输行业的重要组成部分。</p>
-<h3><strong>美国2024年第三季度电动汽车销量创历史新高</strong></h3>
-<p><strong>要点：</strong></p>
-<p>2024年10月，美国电动汽车（EV）市场迎来了历史性突破。根据最新的销售数据，美国第三季度电动汽车的销量创下了新的纪录，显示出消费者对电动汽车的需求正在迅速增长。电动汽车销量的强劲表现不仅反映了环保意识的提升，还表明了消费者对电动出行的认同正在逐步增强。根据最新的数据显示，2024年第三季度，美国电动汽车的销量达到了约50万辆，这意味着与去年同期相比增长了约30%。这一数字不仅刷新了单季销量纪录，还表明电动汽车在美国市场的普及速度正在加快。特别是在通胀压力和燃油价格波动的背景下，越来越多的消费者选择了电动汽车作为替代传统燃油车的出行工具。</p>
-<p class="image-wrapper"><img data-img-size-val="588,380" src="https://img.36krcdn.com/hsossms/20241015/v2_04ff618e338c4e51aab2743e6163be48@6130289_oswg302611oswg588oswg380_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">雪弗兰电动车（来源：ElectricCarsReport)</p>
-<p><strong>观点：</strong></p>
-<p>电动车佼佼者特斯拉在经历了年初销量下滑后，凭借广受期待的Cybertruck实现了6.6%的销量增长。尽管Cybertruck价格昂贵，第三季度销量仍超过16,000辆，仅次于特斯拉的Model Y和Model 3。通用汽车（General Motors）也取得了显著进步，电动汽车销量增长近60%，达到32,095辆。尽管仍然落后于特斯拉，但GM旗下凯迪拉克（Cadillac）、雪佛兰（Chevrolet）和GMC品牌的强劲表现帮助其在电动汽车市场巩固了地位。现代汽车集团（Hyundai Motor Group）销量相对持平，跌至第三位。福特（Ford）位居第四，而本田（Honda）和讴歌（Acura）得益于新车型的推出，电动汽车销量合计超过15,000辆。</p>
-<h2><strong>「 大事件 」</strong></h2>
-<h3><strong>雪铁龙推出全新Ami电动微车，加入越野设计与未来感元素</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="469,263" src="https://img.36krcdn.com/hsossms/20241015/v2_930de7620410436096ac36c3166b6de5@6130289_oswg186125oswg469oswg263_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">雪铁龙 Ami ( 来源 ：Electriccarsreport）</p>
-<p>2024年10月，雪铁龙（Citroën）宣布对其知名的Ami电动微车进行全新升级，推出了具有创新设计与越野风格的新款车型。这款新型Ami不仅保留了其标志性的紧凑身形，还融入了更加现代化、个性化的设计元素，以及全新的越野版——Ami Buggy Vision，进一步拓宽了该车的市场定位和使用场景。作为一款极具城市特色的小型电动车，Ami最初的设计便是为了满足城市短途出行的需求，凭借其轻便的车身和环保的电动驱动系统，赢得了不少消费者的青睐。此次雪铁龙的全新设计，进一步强化了Ami的独特性，并为其增添了更多娱乐性与实用性。</p>
-<h3><strong>通用防务展示下一代电动战术车辆，亮相AUSA 2024</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="572,417" src="https://img.36krcdn.com/hsossms/20241015/v2_e1377f326cf14f92a57757185486c938@6130289_oswg456624oswg572oswg417_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">通用防务最新电动化战术车辆（来源：ElectricCarsReport)</p>
-<p>2024年10月，在美国陆军协会（AUSA）年会期间，通用防务（GM Defense）展示了其最新研发的电动战术车辆。该车作为下一代电动化战术车辆，结合了先进的电动驱动技术与军事需求，旨在提升军队的机动性、作战能力和环保性能。这一展示标志着通用防务在推动军事电动化方面迈出了重要一步。此次亮相的电动战术车辆，具有强大的适应能力、越野性能和扩展性，预计将成为未来军事行动中的关键装备。通用防务表示，这款车辆将能够在复杂的战场环境中高效作战，同时大幅减少传统燃油战车的碳足迹。</p>
-<h3><strong>Rosenbauer推出Panther 6x6电动消防车</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="790,381" src="https://img.36krcdn.com/hsossms/20241015/v2_22a8f539757141ae98ac8ed841092cc1@6130289_oswg546940oswg790oswg381_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Rosenbauer推出Panther 6x6电动消防车(来源：Electrek）</p>
-<p>2024年10月，奥地利消防车辆制造商Rosenbauer宣布，其全电动消防车——Panther 6x6电动消防车正式开启预订。这款创新型电动消防车融合了尖端电动技术与紧急救援需求，标志着消防领域的绿色转型步伐进一步加快。Panther 6x6电动消防车的发布不仅展示了Rosenbauer在消防车辆技术方面的突破，也为全球消防部门在应对灾难救援时提供了更环保、更高效的解决方案。作为全球首款全电动6x6消防车，Panther 6x6以其卓越的性能、极高的机动性以及减少碳排放的环保优势，成为了应急响应车辆未来发展的代表。</p>
-<h3><strong>墨西哥大力发展电动汽车制造业，致力于打造全球最具性价比的电动车</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="800,393" src="https://img.36krcdn.com/hsossms/20241015/v2_4452cd01ff5c4935bd415c80fd2e7633@6130289_oswg472307oswg800oswg393_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">比亚迪海豹在墨西哥测试（来源：比亚迪）</p>
-<p>2024年，墨西哥正在成为全球电动汽车（EV）生产的一个关键中心，特别是在打造廉价电动汽车方面。随着全球对电动汽车需求的不断增加，墨西哥利用其地理优势、低廉的劳动力成本和现有的汽车制造基础设施，积极吸引全球汽车制造商投资电动汽车生产，目标是成为全球电动汽车市场的主要供应地。墨西哥政府和多个国际汽车品牌已经开始联合推出旨在降低电动汽车生产成本的计划，推动电动化进程。据报道，墨西哥将通过一系列优惠政策和税收减免，支持本土和外资企业投资电动汽车领域，提升该国在全球电动汽车产业链中的重要地位。</p>
-<h2><strong>「 酷产品 」</strong></h2>
-<h3><strong>法拉利新一代旗舰超跑F250</strong></h3>
-<p>法拉利即将推出的超级跑车，暂时被称为F250，是上一代旗舰拉法的继承者，预计将超过1,000匹马力。这款车很可能会使用来自296 GTB的改良版混合动力双涡轮3.0升V6引擎，安装在驾驶舱后面。这种引擎配置与法拉利在世界耐力锦标赛中使用的499超级跑车相似。在296 GTB中，这套动力系统可提供819马力，其中654马力来自内燃机。尽管动力强大，预计这款超级跑车的噪音不会很大；去年在Fiorano的测试中，据报道这款超级跑车发出的声音仅相当于法拉利标准行驶状态下的声音情况。</p>
-<p class="image-wrapper"><img data-img-size-val="577,366" src="https://img.36krcdn.com/hsossms/20241015/v2_8b31d0fc2529437087bb5d64ff347b12@6130289_oswg380691oswg577oswg366_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">法拉利F250伪装图（来源：autoblog）</p>
-<p>3.0升V6发动机与三电机的混合动力系统相结合，能够输出超过1200马力的强劲动力。这样的动力配置，让F250在加速表现上令人惊叹：0至100公里/小时加速仅需大约2秒，而加速到200公里/小时也仅需大约5秒。这不仅让F250在赛道上的表现游刃有余，更彰显了其非凡的速度和稳定性。</p>
-<p class="image-wrapper"><img data-img-size-val="804,358" src="https://img.36krcdn.com/hsossms/20241015/v2_d79e4626b08547f68e13fe22f8505003@6130289_oswg609200oswg804oswg358_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">法拉利F250伪装图（来源：autoblog）</p>
-<p>根据知情人士透露，F250并不会在中国大陆引进，但中国香港会有三台配额，价格将会超过300万欧元，并且法拉利目前没有敞篷版本的计划。</p>
-<p class="image-wrapper"><img data-img-size-val="807,420" src="https://img.36krcdn.com/hsossms/20241015/v2_b9786c84671149a4ad924fc8ee3fa4fc@6130289_oswg792368oswg807oswg420_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">法拉利F250伪装图（来源：autoblog）</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993545708710664</guid><pubDate>Tue, 15 Oct 2024 17:16:00 +0800</pubDate></item><item><title>玩转抖音双11，家电商家跑赢全局就看这四点</title><link>https://36kr.com/p/2993555624963077</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>从整体社会消费情况来看，大市场环境的稳定增长，为家电行业生意蛋糕的扩大打下基础。根据国家统计局的数据，2024年1到8月，社会消费品零售总额312452亿元，同比增长3.4%，实现稳步提升。</p>
-<p>而在这一过程中，线上平台为家电行业的零售总额贡献了不少力量。根据全国家用电器工业信息中心，2023年家电线上零售额占比达到56%。</p>
-<p>过去几年，不少家电品牌已经在线上尝到了甜头。蝉妈妈数据显示，抖音电商大家电行业市场规模快速增长，2021年到2023年行业年复合增长率为280%，2023年同比增长率达206%，预计2024年年同比增长率达106%。</p>
-<p>更多经验证明，抖音电商已经成为家电行业突围的引擎。除了耳熟能详的徕芬、小熊等深受年轻人喜爱的家电品牌，各个类目的家电行业都在抖音获得了新的增长。官方数据显示，无论是个护小家电还是家电整体，抖音GMV在全渠道中的占比都逐年提升。</p>
-<p>在2024年双11来临之际，商家和平台都已摩拳擦掌，节奏比以往来得更快。针对多个行业类目，抖音电商目前已经开启巨量引擎双11好物节，配合多种产品组合玩法和激励政策，协助商家打开生意上限。</p>
-<p>和此前的大促相比，此次双11不仅是一次“campaign制”的营销，还有节奏上的新变化。针对家电行业，一方面，平台推出大促期间的全新四大策略，和商家一起跑赢大盘；另一方面，通过全域的视角和细化的运营方法论，抖音也期冀商家在今年的双11形成多频爆发，形成家电行业在线上和线下的联动运营。</p>
-<p><strong>内容多点布局和全域多频爆发的组合打法中，此次双11成为商家们重新理解内容电商“创新价值”的一次机会。而在行业竞争进入白热化的今天，这也是行业和抖音电商共同完成的一次试炼。</strong></p>
-<h2><strong>在抖音，找到家电的爆发性增长</strong></h2>
-<p>今年9月，美的集团与抖音商城联手推出的一场活动引人注目。贴合“家电焕新”的主旨后，该品牌打造差异化营销，用内容IP打造、创意短视频等多个手段，促成了一次超2亿销售额的线上营销样本。</p>
-<p>经历了前两年的增长期后，越来越多的家电商家意识到了线上平台对于整体生意增量的重要性。而今，仍然处于增长期的商家，更应做足线上“流量战”的准备。</p>
-<p>2023年双11期间，抖音内容曝光数已超过13亿，同比增长超过160%；内容互动数超过3.6亿，相较于平销期增长190%。过去一年，抖音电商GMV同比增长46%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,624" src="https://img.36krcdn.com/hsossms/20241015/v2_c38f422739b24136ba964921eb0992a7@5679941_oswg523753oswg1080oswg624_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>家电品类的成绩再次印证了抖音电商的潜力，反过来也促进了品牌参与的积极性。抖音数据显示，相比平销期，大促家电支付订单量增长32%；大促家电的客单价也增长了36%。实在的成果促使更多商家参与抖音双11，2023年双11期间，动销商家数较2022年双11同期提升91％，不少中小商家交出大促完美答卷，消费者和商家参与大促的积极性都在提升。</p>
-<p>而作为一个拥有10亿多用户的内容电商平台，抖音助力家电行业增长的奥秘不仅是流量。</p>
-<p>尤其是在大促期间，抖音提供的玩法更具全域视角，用多点布局的内容串联线上和线下生意。值得一提的是，在注重线下体验感的家电行业，抖音的生活服务人群和电商人群相重合，基于此，线下场景也得到了转化的提升。</p>
-<p>目前，2024巨量引擎双11好物节已拉开帷幕，家电行业迎来双11大促风暴时刻。在传统销售旺季和新一轮“以旧换新”政策的双重刺激下，今年大促更是家电商家短兵相接的重要节点。深度参与的必要性不言而喻，接下来，商家要做的就是如何深度剖析市场，找到最高效的“作战”策略。</p>
-<h2><strong>攻下家电双11，四大核心策略助力突围</strong></h2>
-<p>内容电商不是新鲜概念，但如何真正理解并深度发挥其中的价值，并非所有商家都能够梳理清楚。</p>
-<p>如何帮助家电行业在这个双11撬动新的增长，抖音给出的答案关乎四个方面——抓好节奏、布局货品、做好内容和转化提效缺一不可。剖析其中的逻辑，今年双11，抖音家电行业给出的四大攻略覆盖了大促前、大促中和大促后的全域排布，分阶段为商家带来生意爆发，以此最终形成合力。</p>
-<p class="image-wrapper"><img data-img-size-val="720,752" src="https://img.36krcdn.com/hsossms/20241015/v2_fc6c802715a64e54819bda7399c999aa@5679941_oswg262508oswg720oswg752_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>策略一：抓好节奏</strong></p>
-<p>如今的营销趋势下，商家都懂得完整布局的重要性。而大促开启前的“储粮”，是决定商家能否致胜的第一步。</p>
-<p>对于参与这次双11的家电商家来说，充分把握节奏是亟待树立的基础认知——前置品星种草，才能提升生意的确定性；基于此，商家把握好4个阶段的节奏，才能在不同时期都收获生意机会。</p>
-<p>具体而言，商家在“蓄水期”往往要增加品牌投入，前置布局策略；抢跑期则要加速种草，激发用户端的种草小高峰。在这两个阶段，新品预售和爆品现货将成为整个双11大促最早的成果。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20241015/v2_563384d2088f4623867469f6bc4e1ca4@5679941_oswg143623oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>开门红时期，流量竞争加剧，不同品类的商家都会抢占消费者的注意力，此时加大曝光投放成为必备策略；而爆发期的商家更要持续进行高频率的大小场直播，从而提升生意峰值。</p>
-<p>在开门红和爆发期，家电商家也需要根据目标做不同的场次适配，通过大场次实现破峰，小场次则专注于错峰，和竞品拉开差距。到了最后一步的返场期，商家如何延续节奏将为整体生意做重要收尾，家电品牌可以通过福利发放来错峰抢量。</p>
-<p><strong>策略二：布好货品</strong></p>
-<p>对于家电行业来说，产品的质量和创新程度，直接影响了品牌在消费者心目中的口碑，如今新老品牌顶峰相见，核心货品的布局就成为大促商家的重中之重。</p>
-<p>需要明确的是，在新品、次新品等不同货品的布局上，家电商家只有对货品进行全生命周期经营，才能挖掘各个阶段的机会。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1552" src="https://img.36krcdn.com/hsossms/20241015/v2_db7779328a3444288c6d99ba3e2de2d4@5679941_oswg188786oswg1080oswg1552_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>首先在大促上新时期，想要紧跟节奏，商家就需要利用巨量引擎的不同工具实现更快的新品种草动作；次新品做转化则重在打法，利用好流量优势的同时升级种草内容，通过矩阵协同做大生意蛋糕。老品的关键词不同于其他，着重于优价和破圈，因而，无论是在老品选择、价格还是营销层面，商家都可利用平台的电商政策、营销激励和巨量引擎提供的各类推广工具，最终提升老品转化。</p>
-<p>至于大促时期商家都希望提升销量的清仓产品，做大GMV的关键是优价好品和多重流量。在低价渠道上，抖音提供了超值购和达播；商家自身也要注重长尾品和清仓品的组货机制，通过抽奖、买赠等会员福利，共同促成清仓爆量。</p>
-<p>事实上，商家在双11获胜的核心仍然是货品本身的竞争力，提升转化率的关键在于如何组货。</p>
-<p>在巨量引擎一系列工具组合的支持下，家电商家或可以在提升价值感、提升体验感、差异化竞争及提升客单价四个方面投注精力。例如在差异化竞争上，商家可选定抖音专供品，分平台进行定价，同时注重特色营销内容的生产；在客单价的提升上，爆款组合、新老组合和套系组合等等，都是大促时期的组货方式。</p>
-<p>正如房屋的装修一般，准备好材料后，用不同的工具分阶段排布进程，是家电商家在双11的另一个课题。</p>
-<p>尤其是在内容电商的玩法中，分层货品的运营对于效率的提升起到关键作用。就此次双11而言，在货品的分层供给上，家电品牌可以通过心智品/站内外爆品来稳定优价；重点新品/应季/趋势品则用于心智的教育；价格补位品/清仓老品做渠道布局，结合起来做大规模。如何匹配货品和场景亦有讲究：在精选联盟/超值购/商品卡这样优价驱动的销售渠道中，商家可布局价格补位品或清仓品；错峰头部达人或日播测评达人则主推心智爆品、老爆品、应季品；利用品牌力驱动销售的官方旗舰店、代运营和经销商方面，新品/趋势品/心智爆品当是主角。</p>
-<p><strong>策略三：做好内容</strong></p>
-<p>近两年，不少国产3C电器在抖音卖爆了。纵观这些案例，无论品牌处于何种品类，它们的成功都拥有一个共同点：内容的精细化运营。</p>
-<p>作为一个以往扎根线下的传统行业，家电行业在线上做生意，更应找到自己的内容策略。如今，在抖音电商上做内容布局，放大声量、深度种草，继而实现高效转化，每一步都有成熟的方法论。</p>
-<p>为了协助品牌放大声量，今年双11期间，巨量引擎推出的一大策略是让商家组合<strong>利用平台的电商IP、内容IP和生活服务IP，提升曝光的效率。</strong>与此同时，家电商家也可以借势平台热点、高效追热点，有利于引爆大促流量；在内容的传播上，工具的搭配也是助推器，巨量引擎的一系列硬广产品、热推产品和互动提效、发券引流等新玩法，将增加内容的广度。</p>
-<p><strong>品牌曝光加强后，如何使用“深度种草”这把利剑，考验着家电商家对于平台和消费者的双重洞察。</strong>而工具和产品对于品牌的作用不亚于种草内容本身。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1153" src="https://img.36krcdn.com/hsossms/20241015/v2_e3dd33f36c4b4046bd9d57021d018256@5679941_oswg134739oswg1080oswg1153_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在巨量引擎提供的工具支持下，商家首先可以洞察大促期间的趋势变化，再针对家电9大家生活人群做针对性的种草。借助于从巨量星图中找到的营销灵感，商家再继续实现种草提效。产品层面，巨量引擎的星推搜、剧推搜直等产品，是贯穿整个种草过程的重要环节。</p>
-<p>还值得强调的是，“短直联动”如今也是平台力推的有效策略。投前，巨量引擎主要披露达人短x直双数据；投中则注重优化流量策略，提升直播间转化；最终在投后，商家可以更清晰地度量短x直的效果。在激励政策的扶持下，品牌、机构实施现金激励；短视频、直播进行实时流量激励，助力品牌品效双收，短视频和直播的结合，家电商家得以深度挖掘种草价值。</p>
-<p><strong>策略四：转化提效</strong></p>
-<p>所有生意的达成最终都需要落实到订单转化上，线上营销也是如此。在这一点上，抖音电商在站内外提供的不同转化路径，值得家电商家认真考量。</p>
-<p>在提升转化效果上，巨量引擎也已形成一套完整的链路。核心理念在于，商家在大促中不仅要做好站内生意的转化，也要结合站外电商平台的生意节奏做好引流提效。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1101" src="https://img.36krcdn.com/hsossms/20241015/v2_38eef4eb56b640d497145cdf88b85258@5679941_oswg119190oswg1080oswg1101_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在站内自播层面，家电商家通过人、货、场的精细化运营搭建自播矩阵；其次将不同货品放到不同直播间；在大小场铺排之后，带来生意脉冲式增长。</p>
-<p>达播转化的人群则是已经被种过草的用户，如前文所述，大促前通过星推搜，已经充分做好人群蓄水，达播的目标就是助力转化种草人群。不过，不同达播类型的爆发节奏不同，例如头部达人合作讲求错峰强爆发，垂类达人合作的节奏则紧跟大促。</p>
-<p>产品本身如何助力站内转化，也有细节可以深究。大促期间，家电商家往往需要用直播全域推广，以此促成GMV膨胀更高，同时有效撬动平台自然流量，获得全域独享产品专项扶持；商品全域推广的目标是大促期间货架场上的GMV爆发强，用商品全域探索更多货架流量。与此同时，大促期间的产品升级也需要被提上日程，商家可以用支持个性化设置、大促放量无忧和更便捷的素材管理，实现调控、跑量和素材三个层面的全面产品升级。</p>
-<p>到了站外转化，商家除了要抓好“蓄水-爆发-返场”的引流节奏外，也要用好引流产品。例如在大促期间，UBP托管成为必备。在节奏和产品的双重把握之上，商家再叠加引流激励。今年双11，抖音电商对于不同商家有不同的激励政策，例如多品商家，平台推荐潜力品快投。</p>
-<h2><strong>打开作战新节奏，用线上“串”线下</strong></h2>
-<p>电商发展多年，商家期待用大促带来业绩增长的目标始终未变。但如今市场环境和消费者心智都发生变化，内容和促销的逻辑也进入新的更迭周期。</p>
-<p>针对家电商家推出四大核心策略，这是巨量引擎在多年市场经验积累下，为商家沉淀出的“现成”方法论。围绕节奏、货品、内容和转化这些重要关卡，平台根据最新的数据洞察作出了趋势判断，但商家们也要紧跟创新的步伐，探索最合适、也最高效的增长路径。</p>
-<p>对于家电行业来说，双11的意义不仅在于线上，线下的串联也是大促的意义所在。在家电这一传统消费品行业，消费者的售后要求和产品的特殊性，决定了线下维护也非常重要。巨量引擎也正是用这种线上下的同步运营，实现家电行业生意增量的激发。</p>
-<p class="image-wrapper"><img data-img-size-val="884,720" src="https://img.36krcdn.com/hsossms/20241015/v2_8a01a7a2601e474fb9b45d068e91c637@5679941_oswg362386oswg884oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在线上货品方面，大促期间的商家需做好分层策略，进行高效组品，同时启动代金券和商品券；对于直播大场，高频的节奏和规律的脉冲，是促进转化的要义所在。此外，家电商家结合精准投流，完成线上的完整运营。</p>
-<p>在线上做好运营后，巨量引擎为线下提供专属客服、营销话术和私域运营等高效承接工具，为再次挖掘客流价值打下基础。事实上，平台的优势恰恰来自于全链路的策略能力，线下在家电双11的成果中发挥着不容小觑的价值——这也是为什么家电行业商家为什么纷纷奔赴抖音电商。</p>
-<p>完成上述策略和联动，商家来到双11最后、也是最不可忽视的一步：<strong>在大促中学会复盘，这是生意可持续发展的隐形能力。</strong></p>
-<p>在市场竞争加剧、市场变化迅速的当下，消费者的偏好和趋势对于未来的产品规划和精准营销有深刻影响。对于家电行业的商家来说，C端消费者对于家电的使用频次颇高，产品和消费者生活更是紧密相连。</p>
-<p>通过全域视角下的种草外溢数据、抖音费比结构和全域GMV优化这三大层面，巨量引擎提供的“科学度量”能力，为商家增加了更多生意爆发的确定性。<strong>这也是在奔赴抖音电商之后，家电商家需要借助平台实现生意闭环的核心因素之一。</strong></p>
-<p><strong>如今的大促已经不再是卷价格的短期营销活动，更是商家练兵、和平台共同完成的长线运营比拼。</strong>在家电行业寻找新机会的今天，<strong>把握好抖音平台的机会，不仅是属于2024双11的关键一战，也是商家找到线上增量的全新支点。</strong></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993555624963077</guid><pubDate>Tue, 15 Oct 2024 17:24:00 +0800</pubDate></item></channel></rss>
+<p>财新《丰田向电动垂直起降飞行器企业Joby增资5亿美元》</p>
+<p>财新《小鹏汇天获三家国资资金支持 飞行汽车加速量产》</p>
+<p>财新《向天空要GDP》</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/u3Sykd4Ti04sepBIb04kiA" rel="noopener noreferrer nofollow" target="_blank">“金角财经”</a>，作者：Chong Lei，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993497142255496</guid><pubDate>Tue, 15 Oct 2024 17:53:00 +0800</pubDate></item><item><title>香港证监会换帅：黄天祐将接替雷添良</title><link>https://36kr.com/p/2993492722609156</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_f056383f72bd4bd4bfc9e267a953378c@000000_oswg376483oswg1080oswg504_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>10月14日，香港特区政府公布，香港特区行政长官李家超委任黄天祐出任香港证券及期货事务监察委员会(证监会)主席。当日，香港证监会官网亦披露，黄天祐将接替雷添良，成为新一任香港证监会主席。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_ae862f5ba06741d48d28bff20dfbf0d9@000000_oswg15439oswg380oswg380_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图/黄天祐</p>
+<p><strong>官方信息显示，黄天祐的任期为三年，自2024年10月20日起至2027年10月19日。此前，雷添良自2018年10月20日起任香港证监会主席，其任期将于2024年10月19日届满。</strong></p>
+<p>香港财政司司长陈茂波表示，黄天祐多年来竭诚服务香港金融服务业，对证券和期货市场运作、资本市场发展、企业管治和财务监管事宜均具备丰富经验。</p>
+<p>陈茂波期望，香港证监会在黄天祐的领导下，继续贯彻监管者和市场发展促进者的双角色，确保本地证券和期货市场公平、透明和有序运作，并着力改革创新，以巩固和提升香港国际金融中心的地位。</p>
+<p>香港证监会行政总裁梁凤仪对黄天祐的加入表示热烈欢迎，并对雷添良过去六年的卓越领导表示衷心感谢。梁凤仪提到：“在雷添良的领导下，香港证监会不断推动市场改革，维护了市场的廉洁稳健和透明度。我期待在新主席的领导下，继续与董事局紧密合作，履行监管目标，进一步巩固香港的国际金融中心地位。香港证监会将继续根据现有清晰明确的策略重点，坚定维护市场的廉洁稳健，并持续推动市场发展。”</p>
+<h2><strong>黄天祐将接任</strong></h2>
+<p>公开资料显示，黄天祐，现年63岁，其曾在2012年至2018年期间担任香港证监会非执行董事；2007年至2013年间，担任港交所上市委员会委员。黄天祐现为香港会计及财务汇报局（香港会财局）主席，其将兼任该职位至2024年12月31日。</p>
+<p><strong>业内人士表示，同一人兼任两家金融监管机构的主席，哪怕时间短暂，在香港监管历史当中也是罕有的。</strong></p>
+<p>黄天祐还曾任多家港股上市公司董事，其中任职最长的为中远海运港口(1199.HK)。1996年起，黄天祐出任中远海运港口执行董事及董事副总经理，任期已达28年。</p>
+<p>就在香港证监会公告前的10月14日盘中，中远海运港口公布，黄天祐因其他业务及个人事务，需要其投入更多精力而辞任公司执行董事及董事副总经理。此外，长飞光纤光缆（6869.HK）及正通汽车（1728.HK）也在早前宣布黄天祐因工作安排变动，辞任独立非执行董事。</p>
+<p>据悉，中远海运港口自1994年12月19日登陆港交所主板，为国有大型港口物流服务商。截至2023年12月31日，中远海运港口在全球38个港口运营及管理371个泊位，其中224个为集装箱泊位，年处理能力达约1.23亿标准箱。</p>
+<p>对于此次任职，黄天祐表示：“证监会是一个全球领先的证券监管机构，我很荣幸获任命为其主席。对证监会来说，这是一个重要时刻，我们必须抓紧机遇和拥抱挑战，以培育一个可持续且活跃的资本市场，在保护投资者利益的同时，促进经济增长及提升企业管治并刺激创新。”</p>
+<h2><strong>雷添良六年任期将满</strong></h2>
+<p>雷添良自2018年10月20日起任香港证监会主席，其六年任期将满。在他的领导下，香港证监会成功应对了包括新冠疫情在内的多重挑战，同时在提升市场的全球竞争力、加强与内地市场的互联互通、维护市场廉洁稳健等方面取得了显著成就。</p>
+<p>对于黄天祐的任命，雷添良表示欢迎，“<strong>黄天祐在资本市场的发展及监管方面拥有丰富的知识和经验，曾出任证监会非执行董事及前投资者教育中心主席，对香港证监会的政策目标、策略重点和营运了如指掌。</strong>深信其丰富的经验，将为证监会继续推动其维护香港金融市场的质素及廉洁稳健的核心使命，带来诸多助力。”</p>
+<p>回顾六年任期的工作，雷添良表示，“在证监会工作的日子既富有挑战又充满难忘回忆。证监会35年的非凡旅程中，有幸参与其中，还在过去六年一同应对香港金融市场所面对的艰辛挑战，当中包括新冠疫情带来的冲击，以及在瞬息万变的全球经济环境中日趋紧张的地缘政治局势。”</p>
+<p>“证监会在大家同心协力下乘风破浪，并在多个范畴取得进展，包括提升香港的全球竞争力和加强与内地市场的互联互通；维护市场的廉洁稳健和维持市场韧性；以科技及ESG(即环境、社会及治理)引领市场转型；以及提高本港市场抵御危机的能力、保障投资者利益。”雷添良强调。</p>
+<p>2024年全国两会期间，全国人大代表、香港证监会主席雷添良曾建议从三方面着力巩固提升香港国际金融中心地位，包括：持续扩大、优化现有的互联互通机制，如降低港股通个人投资者准入门槛；巩固提升香港作为内地企业首选海外上市地地位；在香港推出国债期货和中证300指数期货。此外，香港将继续推动与内地在多方面“互联互通”。其中，港股通个人投资者门槛从50万元降低至10万元尤为受市场关注。</p>
+<p>对于雷添良的卸任，香港证监会前主席、现任港交所主席唐家成表示，“感谢证监会主席雷添良过去六年对香港资本市场发展的卓越贡献。在他的领导下，尽管外围经济环境充满挑战，香港市场仍然稳步向前发展，展现其强大的韧性和竞争力，祝愿他在退任后生活愉快。”</p>
+<p>香港证券及期货专业总会会长陈志华表示，雷添良的远见卓识及专业精神，为香港金融市场的长远发展奠定坚实基础。</p>
+<h2><strong>努力推动香港金融业发展</strong></h2>
+<p>谈及香港证监会换帅，唐家成表示，“过去20年来，很荣幸曾与黄天祐在上市委员会、证监会董事会及其他机构共事，<strong>他对市场的洞见、出色的领导能力以及在财务汇报方面的丰富经验，对提升香港资本市场的活力及吸引力至关重要。</strong>期待与他及其团队合作，共同推动香港的金融业发展，进一步巩固香港国际金融中心的地位。”</p>
+<p>陈志华亦表示，黄天祐在资本市场监管及企业管治方面的丰富经验，将有效带领证监会应对未来挑战，并持续推动香港金融市场的稳健发展。</p>
+<p>此外，陈志华还称，香港证券及期货专业总会期待与黄天祐及香港证监会团队紧密合作，共同维护香港金融市场的廉洁、效率与创新，推动香港国际金融中心地位的进一步巩固与提升。期待证监会能进一步加强对上市公司的监管，特别是针对近年部分公司涉及账目问题的情况；也期盼证监会能推动香港的新股上市要求及程序，与国际市场的标准接轨；相信证监会在黄天祐的领导下，将继续推动香港金融市场的改革与创新。</p>
+<p>展望未来，黄天祐表示，将致力于继续推动香港金融市场的开放和创新，同时确保市场的稳定和安全。香港证监会将继续加强与内地和国际市场的合作，推动更多的互联互通项目，提升香港市场的国际地位。</p>
+<p>其同时表示，未来，将重点关注金融科技的发展，推动香港成为全球金融科技的中心。计划利用自己在会计和财务领域的专业知识，推动香港证监会在金融科技监管方面走在前列，确保香港金融市场的竞争力和创新能力。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkwNzY5NDI0Mw==&amp;mid=2247519728&amp;idx=1&amp;sn=b411d62eaabdee7dbd49dc5bc2aa94cd&amp;chksm=c16e95be12850de619b3fa7bff5f7c276ea945ff98bb9aff5a36743868968b503f95a93f575f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“读数一帜”（ID：dushuyizhi007）</a>，作者：成孟琦，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993492722609156</guid><pubDate>Tue, 15 Oct 2024 17:54:00 +0800</pubDate></item><item><title>淘天双 11 三大总裁首次整齐露面，透露了什么信号？</title><link>https://36kr.com/p/2990433274637057</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><span style="letter-spacing: 0px;">十一假期过去的第一个周末，杭州阿里西溪园区灯火通明，因为</span><span style="letter-spacing: 0px;">今年的双 11 比往年都来得更早一些。</span></p>
+<p><span style="letter-spacing: 0px;">据36氪了解，阿里原定本月 18 号宣布双 11 规则和玩法，20 号正式开启预售。就连许多参与双 11 项目的员工也是提前一天才知道，预售日提前到了14 号。而京东、拼多多也不约而同选择这一天“抢跑”。</span></p>
+<p><span style="letter-spacing: 0px;">淘天集团的三大业务总裁处端（淘宝）、家洛（天猫）、吴嘉（淘天用户平台、阿里妈妈）在上任近一年后，正式整体亮相接受媒体采访，既是为冲刺双11，也向外释放淘天未来该如何发展的信号。</span></p>
+<p>在他们的表述中，淘天接下来的路要怎么走也更加明确：继续巩固其电商行业市场份额第一的位置，以更多差异化的举措在低价大战中突围。三位业务总裁都不约而同的提及了好品质、好用户体验和反价格内卷。</p>
+<h3 label="二级标题">“不卷低价不等于不做双11”</h3>
+<p>去年至今年 618 前，电商都深陷低价大战，喊出“全网最低”的口号，但仅过去一年多，几家已不再对外强调这一点。淘天最先对此做出调整，将 GMV 作为第一考核指标，随后抖音、拼多多纷纷跟进。</p>
+<p>低价大战的结果令方都受到损伤。“仅退款”、“运费险”相关策略曾经制定并不完善，商家破价亏着卖，最终因利润大幅缩水而苦不堪言，甚至出现“千里追单”的魔幻事件，消费者则到手的则是品质越来越差的商品。<span style="letter-spacing: 0px;">跳出最低价迷障后，平台不再反复试探商家的成本红线和刺激用户的价格神经，希望能在牺牲一部分平台利益的基础上，更好地在用户和商家之间找到平衡。</span></p>
+<p><span style="letter-spacing: 0px;">天天低价，也冲淡了大促的脉冲效应，电商全年的销售节奏被极大的打乱，平台的销售额也没有预期的理想。</span></p>
+<p><span style="letter-spacing: 0px;">“不卷低价不等于不做促销”，</span>处端首次对外明确，淘天想做的价格力是针对每个品类不同价格带进行价格竞争<strong style="letter-spacing: 0px;">，</strong><span style="letter-spacing: 0px;">流量分配会参考低价、商家服务、商品质量这三个要素。处端以水这个品类举例：“在1元、5元和10元不同的价格带都做到品质好和价格低，而不是让水都只卖1毛钱。”</span><br/></p>
+<p>价格之外，淘天还在不断优化用户体验和服务。今年7月底，淘宝推出了围绕体验和服务的全新的经营机制：淘宝新版上线店铺体验分和商品体验分，以每个价格带的服务和价格，制定新的服务标准，商家只要做好服务，在每个品类价格有竞争力，就会有流量，也会有复购。处端透露，上线两个月后，4.8分及以上的商家从30%提升到 36%，6%的提升意味着约有几十万淘宝商家的服务质量明显提升。</p>
+<p>淘宝的另外一个重要任务是对“仅退款”服务进行修改和重新设计。“仅退款”保护消费者的方法，但淘天希望，它的规则不要伤害商家。处端称，自从限制了部分频繁退款的用户，并加入客服介入退货评估，不合理的仅退款数量锐减了20%，商家的申诉率从7月份开始下降，目前已经超过30%。此外，淘天还和保险、物流公司一起补贴物流费用，为商家减负。</p>
+<p>天猫则通过重投百亿补贴、88 VIP 免运费等服务留住了高客单客群<strong>。</strong>最新的数据显示，88VIP的数量已经超过 3500万，为平台贡献了近三分之一的GMV 。此外，家洛透露，在7天无理由退换货、消费者品质保障、假一赔十、极速退款等服务的基础上，天猫还新推出了“贵必赔”，以确保天猫产品价格与外部对齐，以保障消费者的利益和体验。</p>
+<p>618 曾消失的预售，也将在这次天猫双 11 回归，处端说这能为平台和商家带来确定的增量，不如大大方方做。家洛则表示，这也与消费者秋冬消费习惯有关。秋冬羽绒服、手机发新品，以高客单价消费为主，既需要更长的决策时间，也需要更大的优惠力度和提前锁住库存，所以需要预售这样一个对消费决策缓冲的环节。</p>
+<p>哪怕是直播这样强 GMV 导向的业务，家洛也认为，比起过去看流量和价格，品质才是直播接下来需要重点衡量的要素，这也意味着淘宝直播会更多倾向于具有专业素养（如导购等出身的主播）、控品能力较强（自有供应链，且能和淘天的供应链匹配）、能输出优质内容和服务的主播。事实上，此前许多头部主播大部分专业性不高，导致行业只能卷价格，而这些大主播也集体因为假货塌房，东北雨姐、小杨哥、辛巴、戚薇等都是如此。</p>
+<p><span style="letter-spacing: 0px;">吴嘉透露，淘天的年轻用户，下层市场用户的使用频次、用户规模都在迅速增长。基于此，</span>预期今年的双 11，应该会是史上参与双 11 人数最多的一次<span style="letter-spacing: 0px;">。他还表示，</span>在流量等方面淘天和微信还将有进一步合作。36氪此前曾报道，淘天在今年 9 月正式接入微信支付，10月，用户在淘宝购物下单可在微信里完成，不用再跳转至淘宝 APP，这都为淘天 Q4 用户指标的增长带来了明显利好。<br/></p>
+<p>从集体卷入低价大战，到集体战略回调，极度内卷的电商行业经历了一轮策略的拉锯。<span style="letter-spacing: 0px;">几位淘天高管也都表示，无论经历哪些新的浪潮和变化，淘天实际并没有改变初衷和最初的战略定位：“让天下没有难做的生意”始终如一。</span></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2990433274637057</guid><pubDate>Tue, 15 Oct 2024 17:54:00 +0800</pubDate></item><item><title>31个诉讼、279份招股书，回购协议「绑架」创投业</title><link>https://36kr.com/p/2993490601041544</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“开火葬场生意”，从事股权回购业务多年的律师王淼（化名）这样形容自己的工作。 </p>
+<p>在股权投资领域，回购是一种保护性措施，避免创业者拿了投资机构的钱后，发生欺诈 滥用，甚至卷款跑路的情况，也用来约束创业者任性妄为，致使公司发生重大变故造成投资方损失。<strong>但近几年，这种“兜底性”协议触发条件越来越多，甚至成了一种“上市对赌”——只要公司没干好，没上市，创始人就得“退钱”，投资机构不愿承担投资亏损的风险。</strong></p>
+<p>作为中间方，王淼代表投资机构发起回购，走仲裁，打官司，要求被投公司、创业者回购投资人手里的股权；也帮创业者应对回购，找出协议里那些不利于投资人的漏洞，争取让公司活下去的空间。 </p>
+<p>王淼看过许多“残忍”“血腥”的场面，比如创始人房子被卖，拖家带口搬去用卖房款预付租金的房间。作为律师，他有时也会不忍心下手，“觉得这是我该做的事吗？”但再触动，他都不会公开谈论自己的态度，“基金会觉得那你去同情他（创业者）就好了，他们之间有天然的利益冲突”。 </p>
+<p>于是能做的，只有一遍又一遍告诉创业者，别接受这些条款，别高估风险承受能力，回购协议的风险比他们想象得高。<strong>当下律所回购业务很多，但他并不觉得是件好事，“我焚烧的不全是一些经营不善的企业，恰恰有一些是目前在成长期的'青壮年'企业。他们熬过了疫情的艰辛，却倒在回购的机制下。你不给它机会，就让它死掉了”。</strong></p>
+<p>投资机构本应陪伴创业者一起成长，共担风险，共享收益，如今却做着借给创业者一笔钱的保本买卖，双方也从“战友”变成了“敌人”。从深圳市创新投资集团有限公司（下称“深创投”）的批量起诉，到启明创投创始主管合伙人邝子平发文，回购已然成为去年到今年一级市场最火热的话题之一，拉扯着创业者与投资人的神经。 </p>
+<p>前者控诉回购是压死骆驼的最后一根稻草，有人甚至无心再想企业的业务问题。后者面对企业端信息不对称和出资方LP压力，觉得自己也是“弱势群体”，而回购是为数不多他们可以掌握在手的确定性。 </p>
+<p>作为一种退出变现方式，回购真的被“滥用”了吗？谁又在面临回购？回购潮还会加剧吗？镜相工作室梳理了多份与回购相关的诉讼文件，以及上交所受理的279份招股说明书，试图回答上述问题。 </p>
+<h2><strong>谁在面临回购？</strong></h2>
+<p>一个创业项目，从路演、签下投资意向书，到触发回购、与投资人走向对立面，可能会超过十年。</p>
+<p>在深创投去年开始发起的35起回购赔偿诉讼招标里，涉及项目从接受投资到触发回购，历时2到8年不等，而从触发回购到告到法院，也可长达数年。 </p>
+<p>最新一笔触发回购的投资才刚过3年。触发原因是被投公司发展不及预期，且两位创始人“形成了不可调和的纠纷”，目前有后轮投资人已经发起回购的仲裁请求，于是这家头部的国资投资机构决定跟进。 </p>
+<p>但深创投并不是最近才开始与被投企业对簿公堂。 </p>
+<p>已有记录里，深创投最早一起回购诉讼开始于2015年——那是山东华乐新材料科技股份有限公司（下称“华乐”）接受深创投2296万投资后的第四年，由于连续两年没有达到约定业绩，并且没能实现上市，深创投决定起诉华乐。2016年，德州市中级人民法院判定华乐按照年利率10%来回购股权，并支付逾期费，共计4727.3万元。 </p>
+<p>根据企查查所收录的深创投作为原告的司法案件与相关裁判文书，深创投和至少31个被投公司因回购纠纷走到诉讼阶段（由于仲裁案件及相关判例不公开，数据只包含进入诉讼阶段的案例）。而截至今年7月底，深创投退出的投资企业（含IPO）一共有605家。 </p>
+<p>31家被起诉的公司分布在科技、材料、农业等不同行业，在2010年之后接受深创投投资，融资轮次覆盖天使轮到D轮不等。双方约定在一定期限内完成上市，但最后都以上市失败告终。 </p>
+<p>其中，24家公司所涉及的诉讼已有明确判决，并进入执行阶段，但只有1例执行完毕。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,3767" src="https://img.36krcdn.com/hsossms/20241015/v2_f45160c76c3d4a5fa30db1c647b4be6d@6101715_oswg666341oswg1080oswg3767_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>更多时候，成为法庭被告、承担回购义务的不是公司，而是实控人、股东。 </p>
+<p>被深创投执行的河南省志元食品有限公司实控人，曾在2020年被冻结、划拨了9388万元。他在2011年接受了深创投4000万元投资，2019年一审判决时，所要支付的金额已变为7980.5万元。 </p>
+<p>由实控人、股东承担回购责任同样是一级市场的惯例。<strong>我们统计了2023年至2024年上半年上交所受理的279个项目，发现在设有回购条款、并写明回购主体的143个项目中，不到5%的项目只由公司承担回购义务，其余项目都由实控人、股东承担连带责任，以及独立承担回购责任。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1145" src="https://img.36krcdn.com/hsossms/20241015/v2_88272ef598ee4603a0b1bc3a90d37f90@6101715_oswg164535oswg1080oswg1145_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>“其实（连带责任）真正目标也不是公司，只是给创始人的安慰剂。”王淼说，“因为直接写明让创始人承担回购责任，他们通常不会接受，只有写成公司先承担或一起承担义务，他们才有可能接受自身承担一定义务。但律师都知道，公司承担回购责任的门槛很高，最终可能还是绑定在一起的创始人成为主要目标。” </p>
+<p><strong>反观在美国VC市场，与回购相对应、更常用的词是Redemption，译为回赎。而回赎条款仅针对企业，由企业用正常业务外多余的现金赎回投资人手中的股权，与创始人无关。</strong></p>
+<p>汉坤律师事务所回购业务律师张亚兴解释，境外交易与境内回购义务主体责任判定不同，与国内外司法实践的差异有关。 </p>
+<p>张亚兴说，自2012年对赌第一案“海富案”之后，各地法院都参照认定投资人和公司的对赌无效，与创始人之间的对赌条款有效的裁判精神。因此实践中，投资人都更倾向于让创始人做回购义务人。直到2019年“华工案”中，江苏高院才肯定公司作为回购主体的合同效力。这一裁判观点最终被2019年最高人民法院出台《全国法院民商事审判工作会议纪要》（九民纪要）确认。 </p>
+<p>不过，让公司承担回购责任，必须完成前置条件——定向减资。 </p>
+<p>由于回购特定投资人股权需要全体股东同意，而非公司法所规定的2/3股东表决，一旦有股东投反对票，就可能无法实现。其次，投资人的资金在注入公司之后已变成公司资产，公司出钱回购股权还涉及债权人利益，股东至多只是第二顺位。即使内部全部赞成减资，还需要通知已知、潜在债权人，获得债权人同意，或提供令债权人满意的增信措施。<strong>因此，想要同时满足两个条件，实现公司履行回购义务，“门槛极高”。</strong></p>
+<p>问题是，当创始人代替公司成为回购主体，一个个体怎样才能回购由一家机构投出的资金和利息？ </p>
+<h2><strong>相比硅谷，回购被“滥用”了吗？</strong></h2>
+<p>启明创投创始主管合伙人邝子平在8月发布的《对目前创投行业投资条款的一些看法》中写道，回购在国内被“滥用”了。</p>
+<p>回购是否真的到了被滥用的地步，有许多不同声音。事实是，除了回购义务主体，在使用频率、触发条件以及义务主体所承担的回购上限等方面，国内的回购条款与美国VC协议中的回赎条款都有所不同。 </p>
+<p>在上交所从2023年至2024年上半年受理的279个项目中，54.8%的项目设有回购条款。而根据汉坤律师事务所发布的《2023年度VC/PE项目数据分析报告》，<strong>该所2023年经手的近400个VC/PE投资项目中，有回购权安排的达到91.5%。</strong></p>
+<p><strong>上市通常是国内回购条款中最为普遍的条件。</strong> 上交所受理的有回购条款、且有详细说明的项目中，98%的项目都包含这一条件，即在约定时间内没有成功上市，便会触发回购。 </p>
+<p>其他条件还包括业绩未达要求，股东或实控人导致公司出现资金占用或大额账外收入，以及股东或公司违反法律或违反交易约定行为等。 </p>
+<p>王淼解释，对于创始人来说，违反法律或交易文件这类兜底式条款“打击范围很大”，但对于投资人来说，触发条件写得越概括而宽泛，在被投公司违约后，要求回购的成功率才越大。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,1806" src="https://img.36krcdn.com/hsossms/20241015/v2_a0e5f3fa2bc842c6b9f9f5b6263f8074@6101715_oswg414241oswg1080oswg1806_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此外，153个设有回购条款的项目中，近42%（64个）项目还设有一项恢复条件——即使回购义务在公司首发上市申请材料被交易所受理之日起自动终止，一旦在首发上市申报后被劝退、撤回、终止审核或未通过审核，回购义务则会自动恢复效力，并且回购主体是实控人和股东，而非公司。</p>
+<p>自动终止的原因是合规——根据证监会《首发业务若干问题解答》，原则上公司需在上市申报前清理和投资人之间的对赌协议等类似安排，除非满足公司不是对赌协议当事人等四个条件。 </p>
+<p><strong>因此，那些为了获得确定性的投资人们，“普遍”会与创始人在上市前再签署一份补充协议，要求对方在上市失败后继续履行回购。</strong></p>
+<p>在上交所手里的279个项目中，58%的项目上市流程已处于终止，其中设有上述恢复条件的项目有34个（12.2%），分布在设备制造业、软件和信息技术服务业、医药制造、餐饮等——这意味着，尽管这些项目已经坚持走到了上市前，但实控人或股东与投资人之间的撕扯才刚开始。 </p>
+<p>而当<strong>不管因何条件最终触发回购后，国内的义务主体通常要面对以投资金额为基数、8%-10%利率的回购款，更有甚者是30%</strong>——去年向上交所递交招股书的书香门地集团股份有限公司，与其中一位投资方签订的协议中写道，若公司满足上市条件，但现任股东不同意上市，则现任股东回购时所付出的年复合收益率不少于30%。一旦触发这一条件，利息很可能比投资本金更高。 </p>
+<p><strong>相比之下，硅谷风投律所Fenwick&amp;West在去年第四季度统计的174个硅谷VC投资项目中，只有不到2%设有回赎条款。</strong> 邝子平说自己在刚入行参与培训时，前辈提到美国市场赎回能用上的场景，<strong>一是企业发展多年后，“不上不下，有利润，不思进取，不上市，也不分红”，二是初创企业设想的市场机会已不存在，不再需要那么多资金，但赎回前提都是不伤害企业经营。</strong></p>
+<p>新加坡管理大学法学院副院长、副教授张巍也曾做过调研，发现硅谷VC赎回条款，通常规定以投资原价回赎，只有5%左右协议承诺向投资人支付利息，溢价比例是年10%，还可分期进行。 </p>
+<p>为什么硅谷少有对创始人的回赎限制，并且条件相对宽松，而国内的回购条款触发条件更多，回购责任也越重？ </p>
+<p>王淼表示，<strong>原因之一是此前部分国内基金的投资方式太粗犷——他们的KPI只是募到资金后把钱投出去，而不是考量收益，所以没有足够规范、专业的尽职调查，只想找个兜底，回购就成了最顺手的工具。</strong>当签订回购条款最后成为一种惯例，不签反而是一种例外，投资人还可能会被LP问责为什么不签。 </p>
+<p>张巍还认为，回购条款受制于市场条件。硅谷资金足、项目缺，所以投资人很难约定不利于创始人的投资条款。而根据风投律所Fenwick&amp;West数据，硅谷创业型企业当季融资平均每股价格都较上一轮在增加——投资人为取得企业股权所愿意支付的价格不断升高，<strong>资金的供给相对需求更加充裕。</strong></p>
+<p>反观国内，股权投资市场形势严峻。据中信证券报告，2024年上半年，新募基金规模6229亿元，同比下降22.6%；投资金额1967亿元，同比下降38.7%；累计退出746笔，同比下滑63.5%。<strong>机构募不到钱、创业者找不到钱、已投项目退不出来，这些共同造就了回购的泛滥。</strong></p>
+<p>因此，国内除了少数不缺钱或是多位投资人追投的项目，大多数创始人很难有足够的能力、地位，谈下对自己足够有利的融资条件，只能不得不签下回购条款。而基金在面对LP的问责压力下，将回购作为投资的前提条件，也是一种保护自己的手段。 </p>
+<h2><strong>什么引发了回购潮？</strong></h2>
+<p>在前几年，回购协议虽然也很常见，但更多是作为一种“君子协定”，真正走到触发执行的并不多。近两年，回购触发越来越多，呈现出“批量化”的回购潮趋势，背后有多重因素。 </p>
+<p><strong>一是在2015至2018年期间成立的大批基金正临近退出节点，而那段时间新成立的基金数量及募资金额都达到了高点。</strong> 在当下募资艰难的环境中，如果无法收回投资，很可能募不到后续基金，这关系到投资机构的生死存亡。 </p>
+<p>“之前（投资机构）相对不会如此积极地主张权利。不是特别有必要的情形，或预判可能回款有限的项目，就不太会积极去申请回购，担心投入和产出不成比例。”张亚兴解释，此前如果一支基金在生命周期内投了多个项目，其中有部分项目特别成功、带来巨量收益，基金整体收益理想的情况下，投资人能够接受其他项目不及预期，“但是现在可能缺乏支柱性项目支撑基金的优异表现，基金管理人的想法也会发生变化，即便是不及预期的投资项目，也会尝试从中挖掘，尽量获得回款以提升基金的整体表现”。 </p>
+<p>基金管理人的压力，更多来自投资机构的出资方LP（Limited Partner）。 </p>
+<p>是否发起回购，以及采取后续更进一步的法律行动，需要考虑太多——公司前景如何，是否值得在基金清算期后再用新基金接手，公司或创始人是否具备支付能力，回购所付出的成本和收益是否相当等等。但现在，出于尽责，发起回购成为不得不做的“标准动作”。 </p>
+<p>“现在LP对基金管理人的履职情况极为关注。”张亚兴说，当基金的收益不达预期时，LP甚至会考虑追究基金管理人的责任。在募资、筛选标的、尽职调查、投后管理等各个环节进行全面审视，以判断管理人是否尽到“勤勉尽责”义务，有没有积极采取行动维护基金和LP利益。 </p>
+<p>“如果触发回购事件后，超过6个月没有行权（指向回购义务人发出回购的通知），基金可能就丧失了回购权的行权机会。管理人有可能需要去和LP解释不行权的原因。如不能给出恰当的理由和充分的说明，则可能会面临LP的质疑甚至追责。”张亚兴表示，为保护自身利益，管理人可以先行促使基金积极行权，后续综合各方面因素与LP沟通继续追诉的性价比和必要性，并做出恰当决策。 </p>
+<p><strong>回购潮的第二个因素，是回购之外的其他退出渠道并不畅通。</strong> 以上市退出为例，今年上半年，共计97家中国企业在全球各大市场IPO，其中海外市场53家，A股市场44家，IPO整体数量同比下降56.31%。加上并购退出也还没有发育成熟，回购成为投资人手里最具有确定性的退出渠道。 </p>
+<p>当下想要通过回购来退出的，也并非只有深创投这样的国资大机构。 </p>
+<p>广东省创业投资协会秘书长肖飞曾在受访中说，光是在不少中小机构中，就有30%-40%的被投企业触发回购条件。根据中基协发布的《中国证券投资基金业年报》，在2022年新增的PE退出案例中，企业回购方式退出已占据23.4%。 </p>
+<p>当下，张亚兴还担心已经掀起的回购潮可能会持续。 </p>
+<p>最高院在8月29日发布《法答网精选答问（第九批）》，提到如果当事人双方没有约定投资方请求对方回购的期间，那么应在合理期间内行使权利，审判工作中对合理期间的认定以不超过6个月为宜。 </p>
+<p>有人认为这是一种友好信号——按以往，触发回购条件后，6个月就发起回购的案例很少见，在这么短时间内完成回购也几乎不可能，所以企业能够逃过一劫。<strong>但事实上，这更像是回购赛跑的一声发令枪，告诉投资机构，如果你不在6个月内发起回购，就可能失去机会了。</strong></p>
+<p>张亚兴说，为了保证回购权的有效性，投资人可能会更加迫切地对已触发条件的项目行权，而不是倾向于给公司和创始人更多的耐心，最终出现大批投资机构密集行权。更何况，大多数投资人并不会等到回购条件真的被触发才考虑执行，而是更早之前就根据公司情况规划好，6个月的时间用来发函，而不是完成回购，十分充裕。 </p>
+<p>更差的情况是，多轮次、多家投资人共同行权，会形成踩踏式回购的局面——由于创业公司往往有多轮投资和多位投资人，一旦有投资人发起回购，极有可能走向集体追索。 </p>
+<p>根据我们的统计，上交所受理的、设有回购条款的项目中，10.9%都有“公司其他股东要求回购”的触发条件。 </p>
+<p>张亚兴介绍，即使没有相互触发的约定，只要有一名投资人行权，其他人也很可能会被推着往前走，确保自己不会掉队。 </p>
+<p>现实中，尽管有一些投资人尝试推行温和的逐步退出方案，但现实操作难度很大，投资人之间往往很难达成一致，总有想“抢跑”的人。 </p>
+<h2><strong>回购背后，没有赢家</strong></h2>
+<p>启动回购、从股东变成债权人是一条无法调头的单向道，也是一场注定难以拥有完美结果的博弈。</p>
+<p>对于那些已经站在触发边缘的创始人，陡然增加的压力以及可能的司法程序，已经让他们“都没有心思做业务了”。“有创始人甚至开始去研究法律，看到文章分析，有什么新政策都发给我们，我 们还是挺心疼的，就觉得怎么把创始人逼到这个程度了。”王淼说。 </p>
+<p><strong>一旦进入司法程序，被发起仲裁、诉讼的公司或创始人，通常会落得一个强制执行、变成失信被执行人，上限制高消费的名单。</strong></p>
+<p>张亚兴说，从结果来看，法院对投资者支持率较高，只要双方签署的合同没有较大瑕疵，法院一般都会支持投资人的回购请求。如果创始人有回购责任，最后会被执行所有资产，公司的经营也可能无法持续。 </p>
+<p>在我们的统计中，深创投发起、已判决有结果的24个诉讼中，除了执行完毕的1例，其他被告都成了失信被执行人，限制高消费。 </p>
+<p>但这并不意味着投资人就取得了胜利。根据礼丰律师事务所的数据，进入司法程序的回购案件，平均执行回款率仅为6%左右；进入执行程序的回购案件，100%回款并执行完毕的案件仅占大约4.62%。 </p>
+<p>这基本上是一个两败俱伤的结果。 </p>
+<p class="image-wrapper"><img data-img-size-val="960,631" src="https://img.36krcdn.com/hsossms/20241015/v2_2e91d609f36849bf89623bfb6a740c49@6101715_oswg281164oswg960oswg631_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">● 罗永浩也与锤子科技投资人郑刚（左）因回购而发生纠纷。图源：网络</p>
+<p>如果公司或创始人还有一定支付能力，行权之后双方或许能达成和解，比如让公司和创始人帮忙找到愿意接手的人，或是通过分期的方式慢慢清偿一部分本金，投资人也必须接受投资本金打折、利息减免的结果。 </p>
+<p>但国资基金会是例外。 </p>
+<p><strong>王淼说，国资基金灵活性较差，通常会追诉到底，并且不接受回购款打折的和解方案。</strong> “它很少判断（诉讼）这事性价比高不高，因为它担心的是，一旦不追自己可能就会有责任。”上述律师说。 </p>
+<p>没有人想承担“国有资产流失”的重责，但在目前的投资环境下，投资方向由消费、互联网等传统赛道转向以硬科技为代表的新兴赛道，股权投资必须承担起新旧动能转换、推动科技创新和战略性新兴产业发展的重任，政府类资金、产业资本成为市场主导资金，政策也在引导资本“投早、投小、投硬科技”，而这都是风险高、投入大的领域，国资的“谨慎”反而是一种阻碍。 </p>
+<p>某种程度上，国有资本想做天使投资人、风险投资者，投资创新型企业，本就是一种错位——国有资本属于安全资产，保值是底线，在保值的前提下追求增值，问责严苛，无人担责，不适合直接参与风险投资；二来国资投资普遍出于产业资源整合、地方产业发展的目的，要求返投落地，条款多，要求严，没有给创新留出足够的空间。 </p>
+<p>对于创业者和投资人来说，现在的确到了一个需要新平衡、新解法的时刻。 </p>
+<p>在张亚兴的观察中，大部分创始人围观被发起回购的创始人后果后，现在已经更有风险意识，即使同意承担回购义务，也会要求对责任上限作出限定。 </p>
+<p>汉坤律师事务所去年经手的400个VC、PE项目中，如果是创始股东承担回购义务，74%会要求责任上限以公司股权或股权价值为上限，而不再愿意承担无限责任。 </p>
+<p>紫荆资本法务总监汪澍说，对于存量的回购，在企业已经非常困难、已经触发回购条款，且执行回购对帮助企业成长、帮助企业焕发新生没有任何帮助的情况下，更应该考虑的是对回购权进行必要的延期，对触发情形做调整，对于回购权、回购义务方、创始人应当承担的责任做一些减免和调整，“而不是法条怎么写、合同怎么约定的，我们就打官司就怎么来”。 </p>
+<p>尤其对于目前市场上处于主导地位的国资，更应该建立“容错机制”，成为耐心资本、长期资本，不能过于追求短期利益，而这需要一整套决策机制和执行方式的转变。 </p>
+<p>谁会是那个打破僵局的人？ </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Agxg_AZrtt8zmNsqZ666ZA" rel="noopener noreferrer nofollow" target="_blank">“镜相工作室”</a>，作者：董慧，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993490601041544</guid><pubDate>Tue, 15 Oct 2024 17:57:00 +0800</pubDate></item><item><title>iPhone SE4定了，16失利，苹果要靠小屏旗舰挽回颜面？</title><link>https://36kr.com/p/2993474029133441</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>因升级幅度太小、主打功能Apple Intelligence迟迟未上线，苹果新机iPhone 16系列在未涨价的前提下，销量依然不达预期。毕竟，5999元的起售价格，放到安卓设备中已经能够买到大杯，甚至超大杯旗舰了。</p>
+<p>面对竞争愈发激烈的市场，价格昂贵的iPhone 16系列竞争力日渐下滑，苹果需要更能吸引消费者的产品。与大众印象不同，苹果在高端手机市场虽为霸主，但也有很大一部分销量依赖降价后的旧机型，今年10月8日苹果公司才将iPhone 6加入停产列表（iPhone 6 Plus早已停产）。</p>
+<p>苹果需要一些价格相对更低，且支持Apple Intelligence的产品，面向预算不足，却渴望体验iOS和苹果AI技术的消费者。而能够承担该任务的机型，在苹果产品线中目前只有iPhone SE。<strong>好在，消费者无需久等，iPhone SE4配置已基本曝光，最快明年3月发布。</strong></p>
+<h2><strong>自研基带+A18，iPhone SE4来了！</strong></h2>
+<p>日前，曾准确爆料了iPhone 16系列的海外媒体9to5Mac，分享了iPhone SE4的爆料信息。</p>
+<p>9to5Mac表示，iPhone SE4内部代号为“V59”，正面类似iPhone 14，采用刘海屏设计，去除了大额头与大下巴。不过iPhone SE4后置摄像头仅为单摄，整体设计与iPhone XR更接近，只是因搭载OLED柔性面板，边框比iPhone XR窄不少。</p>
+<p class="image-wrapper"><img data-img-size-val="5120,2880" src="https://img.36krcdn.com/hsossms/20241015/v2_0fc1adf73a2b4cafb6d3e631bb47c716@1547419282_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：苹果）</p>
+<p>iPhone SE4升级为6.1英寸屏幕，分辨率为1170×2532，同样与iPhone 14相同。该机型采用刘海屏设计后，自然也加入了Face ID，去掉了带有Touch ID的Home键，但没有灵动岛功能。</p>
+<p>相机是iPhone SE4的一大升级点，其前置摄像头为1200万像素，后置摄像头则可能升级为iPhone 15/15 Plus同款的4800万像素镜头。<strong>尽管iPhone SE4仍然没有长焦或超广角摄像头，但主摄升级后，能够一定程度满足用户的拍摄需求，至少可以跟上安卓厂商的中杯旗舰。</strong></p>
+<p>按照惯例，iPhone SE4将搭载与iPhone 16相同的A18芯片，并配备8GB内存，支持Apple Intelligence功能。每一代iPhone SE都不负“性能小钢炮”之名，iPhone SE4没有例外，其支持的苹果AI功能，也将成为新机的核心竞争力。</p>
+<p class="image-wrapper"><img data-img-size-val="2768,1673" src="https://img.36krcdn.com/hsossms/20241015/v2_4b9bf50bd3644f6795c9ffd86e6cbdbb@1547419282_oswg1470869oswg2768oswg1673_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：苹果）</p>
+<p>值得一提的是，iPhone SE4放弃了高通SDX71M基带，转为搭载代号为“Centauri”的苹果首款自研5G基带。该基带支持Wi-Fi、蓝牙、GPS功能，功耗似乎比高通基带更低，但不支持毫米波技术。</p>
+<p>德州仪器、英特尔等赫赫有名的半导体公司，都被基带折磨得痛不欲生，最终无奈放弃手机SoC业务。苹果同样如此，iPhone XS、iPhone 11系列因基带信号太差，频繁被用户吐槽。9to5Mac提醒，在某些高频网络环境下，iPhone SE4的5G性能可能存在限制。</p>
+<p>著名苹果爆料者、分析师郭明錤表示，2025年苹果将推出两款搭载自研基带的手机，一款是本篇文章的主角iPhone SE4，另一款则是追求极致轻薄的iPhone 17。<strong>对于苹果而言，用定位较低的产品测试自研基带，确实是更稳妥的选择。</strong></p>
+<p>最后则是价格，9to5Mac表示，iPhone SE4售价预计在459美元至499美元（约合人民币3250元至3530元）。<strong>参考iPhone SE3的中美售价差异，小雷推测，iPhone SE4国行版手机大概率保持3499元的起售价，256GB版本售价应该在4500元左右。</strong></p>
+<p>在缺乏竞争对手的海外市场，iPhone SE4堪称iPhone 16的最佳平替版，但在竞争激烈的中国市场，同样具备高性能、AI功能的机型比比皆是，就连小屏旗舰也越来越多，iPhone SE4还值得国内消费者购买吗？</p>
+<h2><strong>小屏旗舰走热，iPhone SE能否笑傲群雄？</strong></h2>
+<p>iPhone一直是昂贵的代名词，以iPhone SE3为例，3499元的起售价，只能买到64GB版本机型，256GB版本价格高达4699元，同价位有太多安卓旗舰可选。考虑到iPhone SE一直坚守小屏旗舰阵营，用安卓小屏旗舰与其对比，才能分出高下。</p>
+<p>当然，小屏旗舰的标准也在变化。苹果创始人乔布斯曾认为，3.5英寸是手机最佳尺寸，库克也曾连续两年推出仅5.4英寸的mini版本。时过境迁，如今6.5英寸以内的机型，都可以称自己为小屏旗舰，旗舰的标准尺寸则在6.7英寸左右。</p>
+<p>天玑新款旗舰芯片已发布，高通骁龙峰会在即，国内各大手机厂商的新品也陆续曝光或发布，其中两款小屏旗舰吸引到了小雷。第一款是小米15，自从小米12开始，小米数字系列标准版就定位小屏旗舰。</p>
+<p>小米15将搭载高通骁龙8至尊版（骁龙8 Gen 4）、6.36英寸1.5K LTPO屏幕、超声波指纹、5000万像素主摄、3.2倍光学变焦长焦摄像头、5400mAh电池、90W有线/50W无线快充。</p>
+<p class="image-wrapper"><img data-img-size-val="3946,2630" src="https://img.36krcdn.com/hsossms/20241015/v2_a9bdcf22276546079fe148c68d0c0bef@1547419282_oswg3535641oswg3946oswg2630_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：雷科技摄制）</p>
+<p>小米CEO雷军已明确表示，小米15将不再是3999元起。结合小米15配置升级与产品定位，小雷预测该手机起步价4399元左右，最低存储组合为12GB+256GB，大概率比256GB版本的iPhone SE4价格更低。</p>
+<p>另一款机型则是10月14日发布的vivo X200 Pro mini，搭载天玑9400、6.31英寸屏幕、5700mAh电池、90W有线/30W无线快充，摄像模组为LTY-818主摄+潜望式长焦，支持蔡司全焦段人像。</p>
+<p class="image-wrapper"><img data-img-size-val="3797,2077" src="https://img.36krcdn.com/hsossms/20241015/v2_5a5cf4a12ee24493bd015c1afa931a8e@1547419282_oswg4230322oswg3797oswg2077_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：vivo）</p>
+<p>其实从命名就能看出，vivo X200 Pro的mini各项配置都以Pro为标准。价格方面，vivo X200 Pro mini售价4699元起，存储组合为12GB+256GB，与iPhone SE4的256GB版本价格应该相差不多。</p>
+<p class="image-wrapper"><img data-img-size-val="3804,2005" src="https://img.36krcdn.com/hsossms/20241015/v2_a0038912a3b54280adc3a081f11772ef@1547419282_oswg3235215oswg3804oswg2005_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：vivo）</p>
+<p><strong>国内手机厂商集体奔向小屏旗舰市场，抢占iPhone SE的生态位。</strong>相比之下，安卓小屏旗舰的配置更丰富，iPhone SE4仅有一颗后置摄像头，安卓小屏旗舰则三摄俱全，且定位较高的vivo X200 Pro mini还具有潜望式长焦。电池容量与充电功率方面，安卓旗舰更是遥遥领先。</p>
+<p><strong>升级为全面屏设计后，iPhone SE4比上一代更具竞争力，再加上Apple Intelligence、A18、4800万像素主摄等软硬件配置，部分iPhone 16受众也可能去买iPhone SE4。</strong>但综合来看，安卓小屏旗舰已经拥有了与iPhone SE4、iPhone 16，甚至iPhone 16 Pro竞争的实力。</p>
+<p><strong>现阶段依靠iOS和苹果长期经营的品牌形象，iPhone SE4或许能够在国内收获不低的销量，至少比iPhone SE2/SE3两款设计老土的机型销量高，也适合作为安卓用户体验iOS和Apple Intelligence的机型。</strong>不过苹果若不能尽快提升iPhone SE和数字标准版、Plus版的硬件配置，未来产品竞争力可能继续下滑。</p>
+<h2><strong>手机市场竞争激烈，逆水行舟不进则退</strong></h2>
+<p>调研机构Counterpoint Research统计数据显示，2024年上半年，国内智能手机销量同比增长4%，大环境一片向好，iPhone销量却逆势下滑13%。</p>
+<p>一般来说，每年第一季度和第四季度，iPhone新机上市后，苹果手机销量都会比较高，同时斩获国内和全球销量第一是常态。然而今年第一季度，iPhone销量出现了较为严重的下滑。尤其是今年前六周，iPhone销量同比下降高达24%，一点都不像iPhone新机发售后的表现。郭明錤透露，iPhone 16系列首周末预售量同比下降12.7%，明显低于预期。</p>
+<p>iPhone销量下滑，核心因素在于技术升级迭代之下，安卓旗舰与iPhone的体验优势越来越小，A系列芯片多核性能被高通、联发科旗舰芯片赶超，近几年iOS许多新增功能，也被质疑是在抄袭安卓。</p>
+<p>另一方面，安卓厂商不断尝试折叠屏手机、小折叠手机、三折叠手机，以及堆配置和参数，苹果却始终云淡风轻，iPhone 16/16 Plus甚至仍是60Hz屏幕，硬件参数与安卓旗舰的差距越来越大。</p>
+<p><strong>不可否认，身为行业领头羊的苹果，凭借品牌形象与iOS的独特性，短期内在全球高端市场的地位依然没有品牌可以撼动。但国内市场却是另一番景象，华为解决了供应链难题后产能复苏，在高端市场逐渐拥有了与苹果势均力敌的能力。</strong>Canalys统计数据显示，今年第二季度华为在600美元（约合人民币4250元）以上市场，份额已达到30%。此消彼长之下，明年华为在高端市场的份额很可能持平苹果。</p>
+<p class="image-wrapper"><img data-img-size-val="600,337" src="https://img.36krcdn.com/hsossms/20241015/v2_ce5d7a5653584b10b731c15709b60515@1547419282_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：Canalys）</p>
+<p>其他安卓厂商也在发力，即将到来的小米15系列、OPPO Find X8系列、荣耀Magic 7系列等，都看点十足。<strong>苹果依靠品牌溢价就能躺着赚钱的时代慢慢过去，哪怕强如iPhone，也需要通过升级配置的方法提高产品竞争力。</strong></p>
+<p>曾经手机行业的霸主诺基亚，面对智能手机时代未能做出正确选择，最终沦落为“三流小厂”。<strong>苹果虽家大业大，但若长期不思进取，未必不会成为第二个诺基亚。趁着目前产品力和品牌价值拥有一定的领先，尽快提升硬件配置，保持相对安卓手机的优势，或许才是苹果面对行业激烈竞争的最佳方案。</strong></p>
+<p>本文来自微信公众号“雷科技”，作者：雷科技，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993474029133441</guid><pubDate>Tue, 15 Oct 2024 17:59:00 +0800</pubDate></item></channel></rss>
