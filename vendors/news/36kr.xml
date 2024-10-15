@@ -1,462 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 15 Oct 2024 12:30:29 +0800</lastBuildDate><pubDate>Tue, 15 Oct 2024 12:30:29 +0800</pubDate><item><title>GPU泡沫破灭？海外小作文传疯了，真相是……</title><link>https://36kr.com/p/2993183627045892</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>一则有关“2美元/小时出租H100：GPU泡沫破灭前夜”的报道引发国内市场高度关注。大摩称英伟达Blackwell系列GPU未来一年供应已售罄；黄仁勋更表示现有数据中心需要1万亿美元GPU升级。H100租赁价格下跌，真的能和“GPU泡沫破灭”画上等号吗？</p>
-</blockquote>
-<p>日前，一则有关“2美元/小时出租H100：GPU泡沫破灭前夜”的报道引发国内市场高度关注。相关文章指出：</p>
-<blockquote>
-<p>英伟达H100 GPU在2023年3月上市之后，因需求激增供不应求，其租赁价格从最初的每小时4.7美元一度飙升至每小时8美元以上。但今年以来，H100开始“供过于求”，每小时租赁价格降至2美元左右。</p>
-<p>价格下跌是由于多方面因素导致：1）有些长期预订H100的公司完成模型训练之后，转售闲置未使用的算力；2）许多公司不再从头训练新模型，转而微调开放模型，算力需求大幅降低；3）专注构建大规模基础模型的新创公司数量大幅减少；4）H100的替代品出现，如AMD和英特尔GPU，等等。</p>
-</blockquote>
-<p><strong>对这篇报道进行溯源后可以发现，海外主流媒体及主要科技媒体暂未进行相关报道，原报道标题为《$2 H100s: How the GPU Bubble Burst》（2美元H100:GPU泡沫是如何破灭的），来自于一个名为Latent Space的网站，原文作者为Eugene Cheah。</strong></p>
-<p>根据网站介绍，Latent Space主要聚焦于AI，形式集内容讯息、博客、社区为一体，由swyx 及Alessio Fanelli共同主持，前者的社交平台账号并未给出具体身份自我介绍，后者则为早期风投公司Decibel VC的合伙人和CTO。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,769" src="https://img.36krcdn.com/hsossms/20241015/v2_213b4bd2b61d42479c2318953d886dbd@1743780481_oswg586776oswg1080oswg769_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>原文作者Eugene Cheah，则为初创公司Featherless.Ai的CEO。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,326" src="https://img.36krcdn.com/hsossms/20241015/v2_af93586ff838469cba00a4d9a8c76e84@1743780481_oswg148326oswg1080oswg326_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>据Cheah在“GPU泡沫”一文原文末尾介绍，Featherless.Ai目前托管着全球最大的开源AI模型，“每月10美元起，可立即访问，无限制请求，价格固定；可通过无服务器方式即时推理，无需昂贵的专用 GPU”。</p>
-<h2><strong>H100租赁价格下跌 = GPU泡沫破灭？</strong></h2>
-<p>在“GPU泡沫”一文原文中有张配图，那是法国艺术家让-莱昂•热罗姆在1882年创作的油画《郁金香狂热》（Le Duel à la tulipe）。</p>
-<p>这幅画描绘了有记录以来历史上第一次投机泡沫——17世纪荷兰的“郁金香狂热”，郁金香价格在1634年持续攀升，并于1637年2月崩盘，投机者手中只剩下最初投资额的5%。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,651" src="https://img.36krcdn.com/hsossms/20241015/v2_01b8577f033740748fc9191a1b99443a@1743780481_oswg900757oswg1000oswg651_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>三百多年前的投机泡沫会否再次上演？这个问题牵动着每一位AI投资者的神经，或许也是这一次“H100租赁价格下跌”一文引发高度关注的原因。</p>
-<p>从算力租赁商Vast.ai网站报价可以看到，1x H100的一小时租赁报价确实已经在2~3美元区间内。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,590" src="https://img.36krcdn.com/hsossms/20241015/v2_e7c56c3d6d3846c5a0b54b3efb6bdcdc@1743780481_oswg309607oswg1080oswg590_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Vast.ai报价</p>
-<p><strong>但H100租赁价格下跌，真的能和“GPU泡沫破灭”画上等号吗？</strong></p>
-<p>一方面，从Eugene Cheah的文章来看，<strong>“H100价格下跌”可能用“分化”来形容更为合适</strong>——持续下降的主要集中在小规模集群的租赁价格，相较之下，大规模算力集群的价格则可能维持在较高水平。</p>
-<p>而这些大规模算力集群背后，多是诸如特斯拉、微软、OpenAI一类的科技巨头。Omidia数据显示，H100发布之后的那个2023年第三季度，其出货量达到65万张，其中仅Meta和微软就分别拿下了15万张，占比接近一半。</p>
-<p>另一方面，电子产品都有着更新迭代周期，GPU芯片同样如此。之前英伟达下一代GPU Blackwell系列传出设计存在缺陷，可能延迟出货。但摩根士丹利上周发布报告称，<strong>Blackwell的生产正在“按计划进行”，且未来12个月左右的供应已经售罄，这意味着现在下订单的客户要到2025年底才能收到货</strong>，“这将继续推动对现有Hopper架构产品的强劲短期需求”。</p>
-<p>H100租赁价格并非骤然暴跌，波动已有时日。从A100到H100，从H100到H200，再到未来的Blackwell，新品出世势必带来前代产品的没落，更妄论Blackwell算力成本有望比Hopper进一步降低。</p>
-<p>黄仁勋这位英伟达“掌舵人”也在日前现身说法。在接受Altimeter Capital采访时他强调，对英伟达的持续看涨与互联网泡沫顶峰时期围绕思科的狂热完全不同。英伟达正在“重塑计算”，未来将是“高度机器学习”的时代。</p>
-<p>“摩尔定律已经基本宣告终结”，他表示，为了提供必要的算力以跟上未来计算密集型软件的步伐，<strong>未来4~5年内，现有数据中心将需要价值约1万亿美元的GPU来实现升级</strong>。</p>
-<p>必须承认的是，“AI泡沫”论的警钟敲了又敲，“AI投资回报难达预期”的质疑声音一浪高过一浪，一边是OpenAI抱怨算力上线不及时不够用、英伟达新品售罄，另一边是算力租赁价格不断下降、还有公司“甩卖”GPU。</p>
-<p><strong>但局部、短期的算力过剩或短缺，似乎已难以代表AI的全盘局面，对于供需两方、多空两边来回博弈的AI领域来说，在硬件端之外，或许亟待更多新故事。</strong></p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/-Ic20CkaVVH2Nyq8dUKb1g" rel="noopener noreferrer nofollow" target="_blank">“科创板日报”</a>，作者：郑远方，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993183627045892</guid><pubDate>Tue, 15 Oct 2024 11:17:00 +0800</pubDate></item><item><title>燕京府降到2.5万/平，山西煤老板没收到捷报</title><link>https://36kr.com/p/2993197683321857</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>国庆过完，对比京城其他楼盘不断传出热销捷报，山西煤老板燕发旺的内心或许是拔凉的。</p>
-<p>燕京府在“超级礼、专属礼、安家礼、认购礼、到访礼、宠粉礼”等六大礼轰炸下，依然没有多大起色。截至10月11日，它网签了16套，成交均价25679.15元/平米，<strong>去化率1.6%</strong>，<strong>成交额4138.66万元</strong>。均价较拿地时3.7万元/平方米销售指导价，低出30%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,127" src="https://img.36krcdn.com/hsossms/20241015/v2_ed5abe6d45d14ae08ea39c8bd8961fb3@337187376_oswg14272oswg1080oswg127_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">北京市住建委网签数据</p>
-<p>燕京府的网签成绩，放在北京新房排行榜上，估计是末尾。</p>
-<p>遥想6月底开盘时，它还自称是“现象级热销红盘”，并营造出一房难求的现象。彼时，官微大红海报上十分醒目的写着：首开推售百套钜惠房源，仅剩十余席，限时抄底；应势加推百套房源；7月1日起收回开盘折扣。</p>
-<p>然而，燕京府开盘三个多月就现原形，才卖出十几套，而且价格还一降再降。7月25，它成交均价26424.28元/平，<strong>现在每平又降价了近八百元</strong>。</p>
-<p>如果按此速度，燕京府要多久才能卖完？它一共有22栋住宅，991套。<strong>一个月卖4套，一年48套，要卖20年</strong>。</p>
-<p>为何燕京府连连降价，却没有吸引来购房者？</p>
-<p>燕老板第一次在北京做住宅，就选择在北京关注度末尾的房山，还是配套不完善的阎村。该地块是北京巨燕置业有限公司在去年9月斥资<strong>12亿元</strong>竞得，楼面价约1.15万元/平方米，项目总投资<strong>24亿元</strong>。</p>
-<p>燕老板没有选择独单打独斗，而是<strong>找来两位神秘的伙伴</strong>。目前，巨燕置业由巨燕恒益和浩科富瓴分别持股80%和20%。其中，大股东巨燕恒益由燕发旺和儿子燕帅分别持股5%和95%，二股东则由贺榕锳和杜鑫分别持股70%和30%。</p>
-<p>业内人士评价，”燕京府所处板块区位一般，项目周边几乎没有商业配套，附近多处是本村居民的自建房。只能说房山居住、房山工作，以及少部分在京西南工作的人买，而且是纯自住，所以后续没有升值潜力。“</p>
-<p>阎村燕京府，在揽星宸和揽星樾的中间位置，这个价格，比上不足，比下也没啥优势。此外，区域内二手房比较多，绿城、天恒的二手房产品覆盖了别墅、洋房等改善产品。</p>
-<p>在户型设计上，燕京府中规中矩，最大的问题是没有什么面积赠送，除了南面赠送了飘窗，客厅的飘窗赠送是鸡肋，不适用，装修标准相较于其他品牌开发商也显得普通。</p>
-<p><strong>燕京府还有一个较为致命的弱点，缺少大型住宅项目开发经验，这也是燕发旺无法将燕京府卖出高价的因素之一。尤其是在当下市场环境下，购房人最担心开发商跑路或降标减配交房。</strong></p>
-<p>而<strong>燕发旺有过延迟交房的“前科”</strong>，他名下的多家地产公司因此卷入买卖纠纷。</p>
-<p>例如，燕发旺全资持股的山西骅燕置业有限公司，曾在康馨苑住宅小区项目中因无证、越证被罚152.59万元。同样因为未取得房屋商品房预售许可证，该公司迟迟未能交房，还被购房者告上法庭，返还购房款。在河南，燕发旺名下孙公司通许县润鹏置业有限公司，也因为延迟交房被购房者告了。</p>
-<p>为了卖房，8月底，项目总经理燕帅在北京金融安全产业园（以下简称“产业园”）举办一场沙龙中，大肆推介这个项目，称“低密度、高绿化的生活环境，便捷的交通和完善的配套设施，为企业家提供了理想的居住选择。”</p>
-<p><strong>二代燕帅涉足金融证券行业很深。</strong>在2022年1月，上海恺辰实业有限公司将上海中科生命科学发展有限公司20.72%股权转让给燕帅。上海中科持有大同证券29.84%股权和大证保险经纪股份公司10%股权。</p>
-<p>据乐居财经了解，燕京府和产业园直线距离约3公里，北京海聚博源科技孵化器有限公司是该产业园的运营公司，成立于2015年，注册资本7000万元，由北京博源包装制品有限公司（简称“北京博源”）全资持股，后者又由马小兰、燕发旺和程学林分别持股54.38%、30%和15.62%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,326" src="https://img.36krcdn.com/hsossms/20241015/v2_62cc4ae53f4145b4908a48fc18ab17b4@337187376_oswg45937oswg1080oswg326_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2011年，北京博源斥资共计11,892.92万元拿下北京房山工业用地。2020年，燕发旺将北京博源价值3907.2万元股权数额，出质予北京银行股份有限公司房山支行；2023年，北京博源将旗下北京源心源再生资源有限公司价值3050.0万元股权数额，出质予房山国资委旗下的北京燕鸿融资担保有限责任公司。</p>
-<p>本文来自“乐居财经”，作者：林振兴，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993197683321857</guid><pubDate>Tue, 15 Oct 2024 11:18:00 +0800</pubDate></item><item><title>微信悄悄复制出「体内小红书」</title><link>https://36kr.com/p/2993088411036673</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>最近，总有小红点诱导我进入微信「看一看」。</p>
-<p>点击刹那，我原本是想看朋友们「在看」的文章，但进入之后，却莫名进入了一个双列图文的页面。以为是自己看错，又尝试了一段时间，我发现了其中的流量密码。</p>
-<p>原来，微信正在用小红点诱导，悄悄复制出一个小红书。</p>
-<p>连续观察「看一看」这个入口多日，我发现点进去后它会把用户路径在四个tag之间分配，有时候是类小红书，有时候进去则是视频或「在看」和「热点」。而从身边朋友的反馈中，可以发现，微信的这一功能只是在灰度测试，并未全量推开。</p>
-<p>「看一看」飘忽不定的路径分配，有点违背用户预期，但打扰程度还算温和。利用微信发现页小红点提示吸引用户点击进入，从而培养出新的用户习惯，是目前微信的杀手锏。<strong>小红点也是微信提升视频号使用频次和时长的一大利器。</strong></p>
-<p>小红点打法能屡试不爽，还是因为微信一直以来保持着简洁干净的页面。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_c174f17e293e40c088f2c18a5a347579@000000_oswg733002oswg1080oswg780_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如今，微信正在突破自我，构建一个庞大的公域流量池，这将会大大提升微信的广告和电商天花板，后续财报应该能够显现出来。</p>
-<p>其实，公众号里「字少图大」的小红书化内容形态早已有之，最早是提供类似排版，今年是终于推出承接该形态的「容器」，微信补足了「体内小红书」的闭环。</p>
-<p>这是顺理成章的，掌握内容源的微信能够充分调动公众号的图文创作资源，来撑起双列图文内容。内容源早已有之，今年容器也有了，就差用户习惯的培养了。</p>
-<p>通过构建类抖音和类小红书的容器，微信在体内，试图复制当前一个个的成功产品，该战略是正确的，已经取得了较大成效。国海证券调研显示，2023年视频号MAU（月活用户）为9亿，DAU（日活用户）约为4.5亿，人均单日使用时长超50分钟；作为对照，抖音MAU约为11亿，DAU约为7.6亿。</p>
-<p>这也为微信商业化变现踩下了加速踏板，2024年，小龙明显从佛系变得更加进取了，二季度财报业绩会透露出，视频号的广告收入同比增长了近80%，是腾讯广告收入增长的主要驱动之一，以及，微信电商体系在努力搭建中，视频号一直在补电商「短板」，无论用户数据还是GMV（交易额）增速都体现出微信的流量势能。</p>
-<p>小红点甚至也为分付引流，不止于此，微信还直接把信贷按钮塞进微信支付小卡片中，只需轻轻一点就能成为借贷用户，由于内嵌于微信之中，且无缝丝滑地在付款确认卡片中露出，每一次付款，都能见到，简介又醒目，<strong>堪称离用户最近的借贷产品。</strong>有业内人士告诉周天财经，最近微信分付正在快速上量，分付余额从2024年初的数百亿规模，到上千亿只是时间问题。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_e667d21fb48b4c51a857b4cb0c210c90@000000_oswg22868oswg700oswg799_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这相当于在体内复制一个招商银行信用卡中心。</p>
-<p>如今，微信想用同样的打法，来分走小红书的一杯羹，作为国民级App，每一个按钮的调整和入口的建立，都在改写中国互联网的商业版图。实际上，QQ也在做类似的双列图文信息流产品。因此可以视为整个腾讯的一大战略。</p>
-<p>而小红书也还在快速增长中，就在最近，有知情人士告诉金融时报，<strong>2024年一季度，小红书的营收超过10亿美金，净利润已经超过2亿美元</strong>，相比2023年又上了一个台阶。</p>
-<p>小红书在2023年的营收是37亿美金，据英《金融时报》，小红书2024年7月前后出售了老股，估值170亿美元（约合人民币1200亿元），DST Global参与了本轮投资，红杉中国进一步增持，此外高瓴、博裕资本和中信资本也进行了投资。投资界从多个接近小红书的渠道确认了此消息。2023年小红书月活同比增长20%至3.12亿，净利润达到5亿美元。相比之下，2022年，小红书营收约20亿美元，亏损2亿美元。</p>
-<p>小红书在分走百度的生意，同时小红书也在努力视频化，微信则试图分走一些小红书和抖音乃至电商、信用卡的生意，互联网巨头们彼此都在变得更像对方。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_217902b24ccc4876b967f4e764b5aaa4@000000_oswg18002oswg772oswg306_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一股趋势也在显现。</p>
-<p>最近有一个主打老年人团聚和旅游的小程序，上量很快，营收量级已经做到了10亿，一位从事旅游的企业家透露，最后一块未被充分数字化的人群，目前主要就是集中在微信里了。挖掘有钱老年人，是微信接下来非常有想象力的地方。</p>
-<p>腾讯饱和式发力主业的战略已经明确，腾讯总裁刘炽平在5月14日晚间举行的业绩说明会上表示，「<strong>我们减少了低质量产品以及让我们分心的业务</strong>，让我们的精力更加聚焦」。因而，搜一搜、视频号、小游戏这些高质量增长驱动因素变得更清晰。</p>
-<p>腾讯想明白了，要收获更高利润率，就要回归主业，强化最强战线，减少旁逸斜出，对若干年前的战略进行纠偏，当年在产业互联网上持续加码，一度模糊主线任务，如今收缩不赚钱的云业务已是大概率事件，拿本方最强精锐去硬碰对方最强，会是今后很长一段时间的主基调，后面几个季度的财报可以继续期待这一变化过程。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzUzMDUxMDgzMw==&amp;mid=2247497236&amp;idx=1&amp;sn=18cd0e93c0e6cea5cf4d1048b5c7aac8&amp;chksm=fbebb00930bdfdbc9e70ee6083feb985146515ddc74273ab5f110ceeb3adcff4b4b79d119cc2&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“周天财经”（ID：techfinsight）</a>，作者：周天财经，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993088411036673</guid><pubDate>Tue, 15 Oct 2024 11:49:00 +0800</pubDate></item><item><title>马斯克吹过的牛又一次成功了</title><link>https://36kr.com/p/2993093927837570</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>美国当地时间10月13日7时25分，SpaceX的火箭“星舰”在得克萨斯州进行第5次试飞。</p>
-<p>发射约7分钟后，火箭助推器返回发射场。不过，它并不像SpaceX此前的“猎鹰”火箭助推器在降落前垂直降落地面，而是被发射塔巨大机械臂抱住。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,678" src="https://img.36krcdn.com/hsossms/20241015/v2_c67bbf218c114437b51afa465b689561@14498094_oswg467305oswg1080oswg678_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这个画面震惊了全球观众。因为此次发射不仅展示了“星舰”前所未有的技术成就，也标志着<strong>人类太空探索的步伐再次前进了一步</strong>，SpaceX首席执行官埃隆·马斯克吹过的牛又一次被证明成功了。</p>
-<p>“星舰”火箭总长约120米，直径约9米，由两部分组成，第一级是长约70米的“超级重型”助推器，第二级是“星舰”飞船。两级均可重复使用。</p>
-<p>试飞成功后，SpaceX声明，此次试飞是公司首次尝试并成功实现火箭助推器的着陆回收。马斯克也在个人社交平台X（原推特）发文：“发射塔夹住了火箭！！”并配上火箭发射成功后的照片。</p>
-<p>“星舰”是迄今体积最大、推力最强的运载火箭，也是可回收、重复使用的航天运输系统，比SpaceX现有的“猎鹰9”和“猎鹰重型”运载火箭更大，可将超过100吨载荷送入地球轨道。</p>
-<p>“星舰”的设计目标就是将人和货物送至地球轨道、月球和火星等地。马斯克曾表示，SpaceX将在两年内向火星发射第一批不载人“星舰”飞船，如果顺利着陆，SpaceX将在四年内首次向火星发射载人飞船。</p>
-<p>随着此次机械臂成功夹住返回地面的火箭助推器，意味着<strong>“星舰”的成本将大大降低</strong>，为未来将人类送上火星的计划铺平了道路，马斯克的“火星移民计划”也再进一步。</p>
-<p>马斯克曾宣称，“星舰”首次发射成本约为30亿美元。根据他的设想，最终版的“星舰”每次可将100人送上太空，<strong>发射成本可降至每次200万美元，相当于每人2万美元</strong>。</p>
-<p>此次发射引发全球科技界的躁动。网友在X上惊呼“这简直是科幻小说。”马斯克回复道：“没有虚构成分的科幻小说。”</p>
-<p>中国科幻作家刘慈欣不久前也谈到了马斯克：“<strong>他像是从科幻小说里‘跳出来’的人</strong>。把很多科幻小说里的东西都变为了现实。”</p>
-<h2><strong>送100万人去火星生活</strong></h2>
-<p>在本次发射前，“星舰”已进行了4次试飞，分别是：</p>
-<p>2023年4月首次试飞，火箭在第一、二级分离前爆炸；</p>
-<p>2023年11月第二次试飞，火箭第一、二级成功分离，但随后助推器和飞船先后爆炸；</p>
-<p>2024年3月第三次试飞，火箭第一、二级成功分离，但助推器在尝试着陆点火后意外解体，飞船失联；</p>
-<p>2024年6月第四次试飞，火箭第一、二级成功分离，并分别按计划落入墨西哥湾和印度洋。</p>
-<p>由此可见，“星舰”虽然经历了多次失败，但每次试飞都取得了稳步进展。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,716" src="https://img.36krcdn.com/hsossms/20241015/v2_fc42427fda8e4526a1ded44b46427fc1@14498094_oswg617545oswg1080oswg716_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">SpaceX首席执行官埃隆·马斯克</p>
-<p>马斯克一直热衷于太空探索，早在十多年前，他就喊出了人类定居火星的豪言壮语，要实现人类“火星移民”计划，<strong>送100万人去火星生活，建立火星社区。</strong></p>
-<p>2002年6月，马斯克建立SpaceX。经过十多年的试错，开发了可部分重复使用的“猎鹰1号”和“猎鹰9号”运载火箭以及“龙”飞船。</p>
-<p>2008年，是SpaceX的一个转折点。那一年，公司与美国国家航空航天局签署了商业航天合同。在美国国家航空航天局的支持下，太空探索技术公司快速完成了一轮又一轮的地面试验和发射试验。</p>
-<p>2019年1月6日，马斯克在社交媒体曝光了星际飞船的模拟图，并表示计划在4到8周内进行试验飞行器的首次下降测试。2020年2月，“星舰”SN1原型机在一次液氮压力测试中发生爆炸。</p>
-<p>事实上，“星舰”拥有不少原型机，包括Starhopper，SN5，SN6，SN8，SN9，SN10，SN11等，其中数台原型机在测试当中直接爆炸。</p>
-<p>按照SpaceX的最初预期，公司2022年将发射货运飞船去火星，2024年已经可以执行载人计划。要实现这个计划，马斯克要走一段漫长的路，而<strong>最棘手的就是降低成本。</strong></p>
-<h2><strong>探索从降低成本开始</strong></h2>
-<p>自美国火箭发动机发明家、现代火箭技术之父罗伯特·戈达德，在1926年3月16日于‌马萨诸塞州奥本镇发射世界第一枚‌液态燃料火箭后，人类便开始向未知的外太空进行探索。</p>
-<p>不过，近100年过去，在传统的航天发射中，火箭往往是一次性使用。</p>
-<p>马斯克不止一次强调，降低进入太空的成本，是打开人类太空时代的关键一步。他是这么想的，也是这么努力的。</p>
-<p><strong>他降成本的方法其实也不难理解，那就是反复利用。</strong>但无数航天航空专家都提出过反复利用设想，却都未成功。</p>
-<p>2010年4月，时任美国总统奥巴马参观位于美国佛罗里达州卡纳维拉尔角空军基地的SpaceX发射基地时，马斯克提出了当时让奥巴马震惊的想法——让火箭到达太空之后，再原路返回降落到指定位置。</p>
-<p>在马斯克的设想里，<strong>火箭和飞船就像飞机一样</strong>，可以多次起降和飞行，这样不仅可以大大降低火星运输的成本和难度，也可以提高火星运输的效率和频率，提高商业航天的竞争力。</p>
-<p>从2011年开始，SpaceX就开始了一级火箭的回收复用实验。上百次迭代实验失败，让SpaceX一度濒临破产边缘，终于在2015年12月“猎鹰9号”第20次飞行任务中，SpaceX成功回收第一级火箭。</p>
-<p>2020年，SpaceX公司逐步掌握了货运/载人“龙”飞船的降落伞溅落回收技术，以及“猎鹰9号”运载火箭的反推垂直着陆技术。</p>
-<p>马斯克实现了他向奥巴马吹过的牛。</p>
-<p>在往后的任务中，只要剩余燃料充足，SpaceX都会尝试回收第一级火箭，<strong>至今已完成300多次火箭回收</strong>，而马斯克最终的目的就是实现SpaceX“星舰”的可重复使用。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,378" src="https://img.36krcdn.com/hsossms/20241015/v2_0975e52d8482499ca0eb122adc5d71ed@14498094_oswg289793oswg1080oswg378_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>根据航天产业网研究团队的分析，一架火箭的制造成本在1.8~1.9亿元之间最为多见。<strong>商业火箭有想要实现真正的产业化，最重要的就是可回收多次利用。</strong></p>
-<p>马斯克曾在发布会上透露，“星舰” 未来6~8小时就可以重复使用，这样一天就可以发射3次，助推器大约每小时就能发射一次。每次发射可能只需几百万美元，甚至可能只需要100万美元。”</p>
-<p>反观其他火箭发射，日本一架H-2A火箭曾每次发射需要花费1.5~1.7亿美元，美国德尔塔-4发射成本约为1.4亿美元/枚，俄罗斯主力运载火箭联盟-FG运载火箭每次发射费用约为5000万美元。和它们相比，<strong>“星舰”的发射成本可能都不及它们的百分之一</strong>。</p>
-<p><strong>而除了在火箭回收计划上求创新，“星舰”的材料也和其他火箭不一样，</strong>它采用了争议较大的全箭不锈钢结构设计——因为相比更贵的碳纤维，不锈钢重但真省钱，成本每公斤仅为4美元，而碳纤维、铝锂合金的成本分别是每公斤130美元和40美元。</p>
-<h2><strong>金钱支棱起来的梦想</strong></h2>
-<p>目前，世界上还没有第二家航天公司能实现火箭回收。凭借着“龙”飞船和“猎鹰”火箭的重复回收使用，以及极致的成本计划，SpaceX在激烈竞争中脱颖而出，接了大量商业航天订单在手——</p>
-<p>2021年，SpaceX发射次数为48次；2022年，这个数字攀升至61；<strong>2023年，更是接近100，达到了98次。</strong></p>
-<p>当然，即便比其他公司的发射成本低了很多，但毕竟上天下地的产业都是烧钱的，支撑马斯克冒险的，还有SpaceX背后的巨额融资，而马斯克本人也“不差钱”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,512" src="https://img.36krcdn.com/hsossms/20241015/v2_61e7345971784fb48224901d1830437e@14498094_oswg478423oswg1080oswg512_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>美国投资数据公司Crunchbase统计，SpaceX自成立以来已累计融资29轮，总额高达98亿美元。上个月有消息称，SpaceX将以每股112美元的价格对内部人股票进行估值，<strong>总估值接近2100亿美元，高于10个月前的1800亿美元</strong>。</p>
-<p>2023年，SpaceX的营收超80亿美元，预计2024年将增至150亿美元左右。更值得一提的是，身处研发烧钱的行业，SpaceX<strong>在 2023年第一季度实现了5500万美元的盈利</strong>，这是这家私营火箭公司的一个重要里程碑。</p>
-<p>除了投资人在支持马斯克完成梦想，他自己的财富也足以让他有底气。</p>
-<p>Informa Connect Academy上个月发布的报告指出，马斯克目前是世界首富，净资产为2510亿美元，他的财富年均增长率达到110%。若继续以同样的速度增长，未来三年内，也就是在2027年，<strong>他的身家将达到万亿美元，成为全球首位万亿美元富豪。</strong></p>
-<p>这是不是意味着，人类的火星迁移计划到2027年将会加速进行？</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjAxOTEzMg==&amp;mid=2652759082&amp;idx=1&amp;sn=a03f09e6879728ce5ed552a2136fac38&amp;chksm=f33708f9c44081ef9f2ecfa697b59592e0f35790baaba2a2f3f5f9813bb501e60daf69385a68&amp;token=1400260024&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“大咖科技Tech Chic”</a>，作者：李添诺，编辑：宋辰，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993093927837570</guid><pubDate>Tue, 15 Oct 2024 11:49:00 +0800</pubDate></item><item><title>酷炫背后，华尔街为何不买账？深度解析特斯拉Robotaxi</title><link>https://36kr.com/p/2993104665861765</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>经过5年的等待，马斯克终于在迟到一小时后，仅花了20分钟，就介绍完了特斯拉最新发布的Robotaxi：<strong>没有方向盘，没有踏板，没有后视镜，没有充电接口。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_fc06aef59eea4d74883742356494a4fa@132427329_oswg456382oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这看上去确实非常有“未来感”，很多人也喜欢这个设计，很符合马斯克和特斯拉的风格。</p>
-<p>然而，缺乏技术细节的介绍，也让市场一片看衰：我们期待了这么久，什么细节都没公布，你20分钟就把我们打发了？</p>
-<p><strong>果然，第二天市场一开盘特斯拉股价大跌10%，华尔街并没有对特斯拉的未来买账。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_9f5c942548864f0fbcc06fcbd0a0d5cc@132427329_oswg54204oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>这场发布会有人认为非常惊艳，却也有人认为不合格。</strong></p>
-<p>在两派感受完全不同的观点中，我们来试图再挖一下，这次特斯拉发布会给出的有限技术细节信息，意味着什么，而未来无人驾驶市场又会引来哪些变革呢？</p>
-<p>这篇文章将从技术、运营、和华尔街视角，来聊聊业界是如何看待特斯拉的这场重要发布会。</p>
-<h2><strong>01 解读发布会：惊喜与失望并存</strong></h2>
-<p><strong>从外界的反应来看，大家对这场发布会的感受总结起来就是：惊喜与失望并存。</strong></p>
-<p>我们来看看总共展示的3款产品：只有两个座位的Cybercab、能坐20人的Robovan，还有Optimus擎天柱人形机器人。</p>
-<p>先来说车。不得不说，这两款车的造型确实非常独特。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_aa4240cea18244039889d2d2bdfdd483@132427329_oswg717401oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Cybercab采用蝴蝶门和溜背造型，特斯拉的设计美感真的没得说。</p>
-<p><strong>外界有不少人猜测，这就是传说中特斯拉想推出的低价版车型Model 2</strong>，但因为Model 2项目被马斯克砍掉，所以这次就直接用Model 2的基础调整了一下，成为未来特斯拉Robotaxi的主力车型。</p>
-<p><strong>而特斯拉前AI工程师于振华却认为，这就是一辆专门为Robotaxi设计的车。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_faef1242a5764c2cb9f0120241448ead@132427329_oswg349657oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>于振华</strong></p>
-<p><strong>前特斯拉AI工程师：</strong></p>
-<p>所谓Model 2其实并没有在就未来几年会有量产计划，那么下一步特斯拉的低成本的车，实际上并不是Model 2，是另外一个产品，应该是四人座的，两人座的Cybercab是为Robotaxi所定制的。</p>
-</blockquote>
-<p>同时有人说Cybercab的外形有点像Cybertruck的材料，但我们的采访嘉宾在发布会现场和工作人员证实了：<strong>Cybercab的材料和Cybertruck是不同的，很大因素是成本考虑。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_dc08293c7a044f339e2863e421a965f8@132427329_oswg369117oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>CyberCat（Leo）</strong></p>
-<p><strong>科技投资博主：</strong></p>
-<p>我也跟现场工作人员聊了这个车，他说他不是用Cybertruck的车皮材料合成的，原因是Cybertruck它追求的是坚固，可以非常的持久耐用。而Cybercab它追求的理念，是降低重量，用了非常轻便的一个材料，这样的话能够降低它的能耗。</p>
-</blockquote>
-<p>我们再来快速过一下另外一个无人车Robovan。</p>
-<p>Robovan是一款无人驾驶厢式车，就像是一个“公路高铁”的概念：<strong>前后没有车窗，看不到轮子，底盘近乎贴地，能搭载货物，也可以坐20个人。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_4d8fc27cbd2f473bbb26f63a70d42271@132427329_oswg62267oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>但几乎我们采访的所有嘉宾，都并不看好Robovan</strong>，一是觉得这个车型很多L4公司都在做，二是特斯拉并没有给出任何量产时间细节，虽然设计让大家觉得还挺酷，但这更多是一辆概念车。</p>
-<blockquote>
-<p><strong>曲宁</strong></p>
-<p><strong>蔚来技术副总裁：</strong></p>
-<p>Robovan给我感觉更像是一个概念产品，因为在自动驾驶里头，这类的车其实蛮多的。而且它没有量产时间，当时Cybercab 出了大概20个，Robovan是出了可能一辆还是几辆，所以看起来好像不是一个特别明确的量产车型。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_ab9e98cffeea4008bf67a1987a451219@132427329_oswg456444oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>于振华</strong></p>
-<p><strong>前特斯拉AI工程师：</strong></p>
-<p>我觉得它量产时很有可能会变化，因为Robovan我说实话它不像Cybercab那么的前瞻性，所以我认为到最后会不一样是很有可能的。</p>
-</blockquote>
-<p>所以，外界认为，特斯拉展示Robovan更多的只是来展现公司对未来城市布局的准备。</p>
-<p>另外，对于这两款无人驾驶车型，除了都没有方向盘、踏板和后视镜之外，<strong>为了应对全无人的场景，特斯拉将车辆的清洁问题交给了机械臂。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_d6964327b5df4b9b85c0b21a3e488072@132427329_oswg584960oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>而充电问题则取消了充电接口，采用了无线充电。</strong></p>
-<p>其实取消充电接口这事早已初见端倪，2023年的特斯拉开发者日上，介绍供电时keynote的一张图引起了大家的猜想：</p>
-<p>特斯拉Model S车底有块板，而墙上的充电桩看上去并没有被使用，这让大家纷纷猜测特斯拉会采用无线充电。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_e0832b0e6b5f4d83a3603557e41298ac@132427329_oswg460984oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>就在今年9月，特斯拉被爆出申请了无线充电的专利技术，而且已经在Cybertruck上搭载。</p>
-<p>另外，对于马斯克的分享缺少细节，但直接拿了20辆Cybercab来直接给参会人体验这个决定，外界也是有不同的看法的。</p>
-<p>有批评的声音认为，现场路线太容易了，也没有啥复杂情况，并不能证明特斯拉就具备无人驾驶的技术能力了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_53f2c9fe0556421db30cad4ee3138ed6@132427329_oswg79441oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但另一派的观点，包括我们采访的现场参会者对这场发布会的形式非常兴奋，对我们说整个的体验感受非常好。</p>
-<p>他们认为，现场乘坐了无人驾驶的体验，看到机器人在旁边跟你互动，虽然路线是比较简单的路线，机器人可能也有人为远程操控，<strong>但参会者认为，这让他们感受到了未来的具像化。</strong></p>
-<blockquote>
-<p><strong>CyberCat（Leo）</strong></p>
-<p><strong>科技投资博主：</strong></p>
-<p>（Cybercab运行的路线是否足够复杂），我觉得理论上不是他展示的重点。因为即使有人其实在现实生活当中，天天使用FSD，它不太是问题，在我看来非常复杂的路段它也不是问题。所以这一次活动，我感觉Cybercab还是让人体验这个未来。</p>
-</blockquote>
-<blockquote>
-<p>其实大家在屏幕前面看到的，和我们现场体验到的相差蛮多的，现场感觉真的能够把你带入到未来的世界中，就是机器和人生活在同一个维度，无论是它的自动驾驶的Cybercab、Robovan，Robot Optimus也好，我们和机器人共存的状态是怎么样一个状态？这些机器怎么来服务我们人？我觉得是让现场的人能深刻体验到，有一种沉浸式的感觉。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_0f6bb6a292d844dca1eed885b6b1e68e@132427329_oswg81190oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>于振华</strong></p>
-<p><strong>前特斯拉AI工程师：</strong></p>
-<p>如果是像2019年那样，整个团队是为了这固定路线，花一个月时间把它调好的话，那我觉得是一个非常失败，甚至是作弊的demo。</p>
-<p>但是这一次我就说，没有任何的迹象表明，整个团队放下手边的工作，只是为了把固定路线运行好。所以说现场跑的FSD，和我们现在手里的FSD，我觉得差别非常非常小，可能就是数据训练的时候多一些那里的数据。</p>
-</blockquote>
-<blockquote>
-<p><strong>曲宁</strong></p>
-<p><strong>蔚来技术副总裁：</strong></p>
-<p>在20辆新车的情况下，他能没有任何人监管，让大家任意去试乘，这个事情我觉得挺惊艳，不管是新车的制造，它的质量，以及它对它的方案里头，点到点运输的这个自信度，我觉得还是非常令人印象深刻的。</p>
-</blockquote>
-<p><strong>根据马斯克的说法，Cybercab会在2027年前量产，不过他也自嘲道自己总是对时间比较乐观，而这辆车的预计售价会低于3万美元。</strong></p>
-<p>在Cybercab量产之前，特斯拉会先采用目前已有Model 3和Model Y在美国获得监管机构的许可后实现无监督的完全自动驾驶，然后在美国以外的地方推进。</p>
-<p>接下来，我们再针对技术的细节问题，看看特斯拉的选择。</p>
-<h2><strong>02 技术路线的选择与争议</strong></h2>
-<p><strong>Chapter 2.1 传感器与算法的争议</strong></p>
-<p>从目前特斯拉展示的车型来看，马斯克依然选择了纯视觉加端到端的方案，并没有额外加上激光雷达作为安全冗余。</p>
-<p>有关纯视觉和端到端的技术问题与争议，我们在《<a href="http://mp.weixin.qq.com/s?__biz=MzA4NjUwNTI0OA==&amp;mid=2247489657&amp;idx=1&amp;sn=da28dc17b2283b54bbd255d742a909c0&amp;chksm=9fc6fa36a8b1732038bbd783d8c4d27a2e191abed21f23d1f2659a987170d22ae2b59aa2aefc&amp;scene=21#wechat_redirect" rel="noopener noreferrer nofollow" target="_blank"><strong>端到端能带来新春天？深扒分裂的无人驾驶行业</strong></a>》这篇文章有详细的解释。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_edd4e50e7ff74f9bad924ae4cb2f71dc@132427329_oswg464580oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>马斯克一直强调，自动驾驶会比人类驾驶安全数十倍，然而，保证乘客安全的，仅仅只有摄像头和AI算法。</p>
-<p>在发布会前，我们和自动驾驶从业者们聊过，他们担心，特斯拉目前已有的车型还存在一些视觉盲区。</p>
-<p>如果特斯拉要做到L4的Robotaxi，会怎么应对安全上更严格的标准呢？我们先从硬件上来看。</p>
-<p><strong>在发布会现场，有人发现Cybercab的传感器布置，和大家手里的Model 3、Model Y不太一样，前方多了一个摄像头。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_9ebcd3d7832b4a50902b7bb5b5e4b077@132427329_oswg435564oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>曲宁</strong></p>
-<p><strong>蔚来技术副总裁：</strong></p>
-<p>Cybercab上，它好像在前车牌的附近，加了一个摄像头，这个可能是它传感器设置不一样的地方。</p>
-</blockquote>
-<blockquote>
-<p><strong>于振华</strong></p>
-<p><strong>前特斯拉AI工程师：</strong></p>
-<p>其实Cybertruck就已经在前车牌的位置上，加了一个摄像头，这也是为什Cybertruck的FSD推送晚了点的原因，因为它的传感器的位置不太一致了。</p>
-<p>当然这也从一个角度证明，传感器位置的不同，并不会给FSD重新训练或者说重新开发带来多大的问题。</p>
-<p>当然确实有些车型，可能因为传感器位置的原因，导致它出现问题，其实这个事情也是我想要了解的，因为我期待他们可能已经解决这个问题，但是他并没有说，就说明他们可能还在试验，还在调整这样一个过程。</p>
-</blockquote>
-<p>增加了一个摄像头能否利于特斯拉Robotaxi的表现，我们目前还无从得知，但对于特斯拉依然没有采用激光雷达，曲宁认为这其中缺少了冗余的解决方案。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_24da1d37bc5c41a4aff237bb2a573212@132427329_oswg76011oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>曲宁</strong></p>
-<p><strong>蔚来技术副总裁：</strong></p>
-<p>其实从车来看的话，会很强调一个概念叫功能安全，核心强调两个点，一个是redundancy（冗余），一个是diversity（多样化）。</p>
-<p>换句话说，一个车一定要有些冗余的方案，在冗余方案之下，如果两个方案是完全一致的，他可能犯的错误是一致的。</p>
-<p>为什么之前L4很主张激光雷达，它一定程度上提供了一些冗余和多样化的更多的可能性在里头。</p>
-<p>但是其实这个事情我觉得也不一定说，大家一定走一条路走到死，可能Tesla会有自己不同的方案去做这个事情。</p>
-</blockquote>
-<p>而到了算法上，在于振华看来，特斯拉最近几个月FSD的进步非常明显，按照这样的速度，特斯拉在两年内，在部分城市推出有人远程监管的无人驾驶是完全有希望的。</p>
-<p>但是他也强调，这只是比较理想的预期，<strong>如果近两年内，FSD的进步不足以支撑Robotaxi大范围铺开，Cybercab再次跳票也不是没有可能。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_01e78cde2b92454aa17d60d2463e2ce8@132427329_oswg348460oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>于振华</strong></p>
-<p><strong>前特斯拉AI工程师：</strong></p>
-<p>FSD 9月份的这次进展非常非常大，他愿意开这个发布会是由于FSD进展，这个车什么时候真正量产，我觉得还是要看FSD进展，如果那时FSD没有到那个程度，他没有必要去量产这么一辆车。</p>
-</blockquote>
-<p>我们这次也报名了特斯拉在硅谷Palo Alto市门店组织的发布会直播活动，在活动开始之前，我们在Model X上试驾了FSD最新的V12.5.4版本。</p>
-<p><strong>我们在短短30分钟的体验中，能感受到FSD的持续进步，但和上次一样，还是会出现一些小插曲。</strong></p>
-<p>比如说不按地图路线走、要到目的地了突然右拐、在停车标志的时不让行人、在一些比较复杂的地形，比如说掉头的时还是无法像人类司机一样顺滑，以及到了停在、车场之后就变傻了的感觉。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_b471f9c444184c0b9e6a06447fa99a30@132427329_oswg74245oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>所以我个人感觉，FSD虽然一直在进步，但距离真正完全无人监管的L4甚至L5，还有相当的距离要走。</strong></p>
-<p>而这段距离意味着不同州和城市的测试、牌照、监管，这中间有巨大的不确定性，也是为什么华尔街无法在现有信息的情况下，买账特斯拉的Robotaxi未来。</p>
-<p><strong>Chapter 2.2 取消方向盘和踏板</strong></p>
-<p><strong>同样的，取消方向盘和踏板这个非常激进的举措，最终能否落地依然存在较多不确定性，主要问题就在于法律监管。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_db1acff285ab481399b72f034b58c180@132427329_oswg453147oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>曲宁</strong></p>
-<p><strong>蔚来技术副总裁：</strong></p>
-<p>不只是方向盘，它两侧的后视镜也都完全去掉，这个对自动驾驶来讲是很不容易的，因为从政策法规来看的，如果想去掉是需要走官方特许的，比如我们唯一看到的例子，是Nuro这种做货运车，他们申请过额外的特许，但所有其他的车，包括Waymo的车都是一个常规的形态。</p>
-</blockquote>
-<p>所以在现有的法律体系下，Cybercab能否大规模铺开，依然是未知数。</p>
-<p>其实不光是特斯拉，老牌L4公司Cruise没有方向盘和踏板的Origin汽车，推进的也不顺利，今年7月，通用集团以“监管风险”为由做出了无限期暂停推进Origin的决定。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_3a25832d390640a8b2c8321e063554a7@132427329_oswg67945oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>所以也存在这样的可能性：这次发布会只是展示特斯拉的愿景，最终生产的Cybercab依然存在更改设计的可能。</strong></p>
-<blockquote>
-<p><strong>于振华</strong></p>
-<p><strong>前特斯拉AI工程师：</strong></p>
-<p>我觉得很有可能，就算方向盘不加回来，搞不好那个刹车加出来了，它最后会通过它的技术演进情况，再根据和监管的沟通，我觉得它会有变化。</p>
-</blockquote>
-<p>除了法律风险外，不少无人驾驶公司面对的另一个问题就在于运营成本居高不下，那么特斯拉入局Robotaxi能否解决这一问题呢？</p>
-<h2><strong>03 运营成本低，但计算模糊</strong></h2>
-<p><strong>Chapter 3.1 运营成本</strong></p>
-<p>我们在《<a href="http://mp.weixin.qq.com/s?__biz=MzA4NjUwNTI0OA==&amp;mid=2247489737&amp;idx=1&amp;sn=e7fee148ac9416c0b9f19d6370e7deee&amp;chksm=9fc6fa86a8b17390aea3a568468a8f191abbd2d91e18afe0a8ac8e55a3941b7c582ba0d83ef5&amp;scene=21#wechat_redirect" rel="noopener noreferrer nofollow" target="_blank"><strong>千亿美元的喧嚣与寒冬后，无人驾驶终于要落地了？</strong></a>》这篇文章里提到过，无人驾驶公司的资金支出主要分为四块：</p>
-<p><strong>车辆成本、数据成本、算力成本、人力成本，高昂的成本导致车队难以规模化铺开，进而缺乏完善的盈利模式。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_95064cc5cf7340fda2e1699af26d244f@132427329_oswg53614oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这些问题特斯拉将如何解决呢？我们先来看车辆成本。</p>
-<p>在发布会上，马斯克宣布Cybercab最终的售价可能低于3万美元。作为对比，早在2018年，德国工程师称Model 3的制造成本为2.8万美元。</p>
-<p>Cybercab相比Model 3，增加了一个摄像头，但尺寸更小，去掉了方向盘、踏板、后视镜，座位也少了两个，如果不算研发和软件成本，确实也有可能做到低于3万美元的售价。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_6c1bdda521d64f1daa28f487895e4a73@132427329_oswg63511oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>曲宁</strong></p>
-<p><strong>蔚来技术副总裁：</strong></p>
-<p>它可能是基于Model 3类似于底盘的方案。那么一体成型是不是借鉴了一些现有的成型方案，但是可能从数值上我觉得没有什么本质差别，是在3万上下的。</p>
-</blockquote>
-<p><strong>特斯拉的前采购总监对我们表示，他认为很酷的那个蝴蝶门在最后量产的时候很可能会被换掉</strong>，这门价格又贵维修率又高，在经济上是不划算的，所以这一点我们还要再看到时候是否有变化。</p>
-<p>此外，Cybercab能将车辆成本降到如此低的主要原因就在于，它不需要像大部分L4公司那样，在别的车型上做改装和适配，也没有采用昂贵的激光雷达和高精地图。</p>
-<p><strong>马斯克非常聪明的一点是，他将车辆成本转嫁到了消费者身上。</strong></p>
-<p>和Waymo、Cruise、百度这类Robotaxi企业相比，特斯拉只会持有少量的Cybercab，更多的是利用消费者闲置的车辆组成车队，如此一来确实降低了不少车辆支出。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_2238dd320a1f4339a534a50da436505f@132427329_oswg243348oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>马斯克</strong></p>
-<p><strong>特斯拉首席执行官：</strong></p>
-<p>假设有人今天是Uber/Lyft司机，他们实际上可以管理一支车队，比如管理10~20辆车一样，就像牧羊人照顾他们的羊群一样，你就是牧“车”人，你管理你的车队。</p>
-</blockquote>
-<p><strong>马斯克给车主画的饼是，虽然消费者买了车，但因为车很便宜，所以你可以买20，30辆来组成一个车队给你挣钱，那这个经济账就不一样了。</strong></p>
-<p>特斯拉另外一个优势就是数据成本，由于特斯拉出货量大，路上跑的车都可以为特斯拉收集数据。</p>
-<p>此外，再来说说算力成本。 今年7月，特斯拉揭露下一代车载计算平台，将采用AI5芯片，单车算力达到3000~5000 TOPS。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_9978e814173f43d4878697bdc25c2ea6@132427329_oswg45648oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>马斯克在发布会上特地介绍，由于汽车大部分时间都是闲置状态，未来可以利用闲置特斯拉汽车上的计算芯片，组成一张大型的分布式计算网络。</strong></p>
-<p>这个计算网络并不是用来给行驶在路上的汽车提供计算，而是用于大模型的训练。</p>
-<p>当然，作为特斯拉车主，未来也可以通过提供闲置算力还获取收益。</p>
-<p>至于人力成本，我们在之前的视频中有提到，端到端的方案不再需要庞大工程师来编写规则，因此研发人员的成本也将大幅缩减。</p>
-<p><strong>既能通过卖车赚钱，还能跑出租挣钱，甚至算力还可以找车主共享，听上去是这简直是太美妙的生意了对吧？但不少投资人对数字的合理性提出了怀疑。</strong></p>
-<p><strong>Chapter 3.2 盈利模式</strong></p>
-<p>在发布会上，马斯克宣称Cybercab的每英里运营成本仅为20美分，而Robovan甚至可以低至5到10美分。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_ba74145f76694e628866d1f6189b8774@132427329_oswg335406oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>刘沁东（Bruce Liu）</strong></p>
-<p><strong>济容投资首席投资官</strong>：</p>
-<p>这个数字怎么来的？公司需要解释，我们不怀疑它在这块是有成本优势的，就是我们需要知道更多的细节，来推算这个数字是不是合理的 ，但是如果他真能做到，那他肯这肯定是一个大的利好。</p>
-</blockquote>
-<blockquote>
-<p><strong>于振华</strong></p>
-<p><strong>前特斯拉AI工程师：</strong></p>
-<p>我觉得这个计算成本还是有分歧的，不同的分析师有不同分析，因为这里面有很多假设。</p>
-<p>但是它比现有L4公司的成本低，我觉得是很容易理解，首先传感器的话，这个它简单，激光雷达是有维护成本的，又有折旧成本，还有它的车，L4公司不是量产车，特斯拉是量产车，车型是小车型，还有技术上，比如说没有高精地图等等。</p>
-<p>0.2美金我觉得它也是一个长期的预测，不可能说这个东西一出来就是这个价格，它也是很长期达到一定规模才行。</p>
-</blockquote>
-<p><strong>对于Cybercab的运营成本，目前有太多模糊的地方，根据嘉宾的猜测来看，目前只能当做特斯拉的长期规划，放在习惯了说大话的马斯克身上，什么时候落地依然是未知数。</strong></p>
-<p>但不可否认的是，马斯克画的这张饼确实很香，如果特斯拉真能跑通这条路线，对现有的无人驾驶市场将带来非常大的影响。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_c129cba62b48439f98d489c3d7563bfb@132427329_oswg53642oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>刘沁东（Bruce Liu）</strong></p>
-<p><strong>济容投资首席投资官</strong>：</p>
-<p>之前为什么大家这么看好Tesla而不看好Waymo？就是因为Tesla能把成本降下来，能挣钱，Waymo是在一直在往里亏钱的，这不可持续。</p>
-<p>我觉得在之前投资市场上这个认知已经是有的，那这个边际变化有多大？就要看后面的数字落地了。</p>
-</blockquote>
-<p>从发布会后的第二天，特斯拉股价下跌10%来看，显然大家对马斯克的故事还不够买账，那么问题出在哪了呢？最后我们来聊聊资本市场的看法。</p>
-<h2><strong>04 华尔街无法做新估值</strong></h2>
-<p><strong>Chapter 4.1 细节缺失的发布会</strong></p>
-<p>华尔街失望的主要原因就在于，本次特斯拉公布的细节实在是太少了。</p>
-<p><strong>对于华尔街来说，更希望看到的是：清晰的Robotaxi发展路线、表现更好的FSD算法、一辆价格更低的车型。</strong></p>
-<p>但是这些都没有，不免让市场怀疑，特斯拉是否存在增长空间。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_16907d947b384248822aebde6a25b43e@132427329_oswg499943oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>刘沁东（Bruce Liu）</strong></p>
-<p><strong>济容投资首席投资官</strong>：</p>
-<p>从投资人的角度来讲，整个发布会其实是令人失望的，那失望的点主要就是大家所期待的细节并没有，当没有细节的时候，你怎么给这个公司定价呢？</p>
-<p>我觉得市场也基本上反映了这个情绪，从不同的哪怕买方、卖方也好，大家基本上的结论也都是一样的。</p>
-</blockquote>
-<p><strong>FSD算法作为特斯拉Robotaxi的“灵魂”，发布会上没有提到任何技术进展，也是另一个让人失望的点。</strong></p>
-<p>在刘沁东看来，缺失了FSD的信息后，市场只能将特斯拉继续看作是一个卖车的企业。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_2f31f738b66445a798b50719a8bb67c4@132427329_oswg53641oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>刘沁东（Bruce Liu）</strong></p>
-<p><strong>济容投资首席投资官</strong>：</p>
-<p>在无人驾驶、无人经济这块里面，（FSD）是最主要的基础设施，伴随而来的就是FSD要成熟，你的无人驾驶车，你的Robotaxi，当包括后面的人形机器人这一系列，那我们就是在这的，你不相信这个故事，实际上你就是一个汽车公司。</p>
-</blockquote>
-<p>但是在当前汽车市场竞争日益激烈的环境下，特斯拉的销量似乎正在失去优势。</p>
-<p>根据特斯拉发布的2024年第二季度财报来看，净利润同比下滑达到45%，产量和交付量相比比一年分别下降了4.76%和14%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_00756c7f0fb846c7b927ada62e2b416e@132427329_oswg60408oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>刘沁东（Bruce Liu）</strong></p>
-<p><strong>济容投资首席投资官</strong>：</p>
-<p>其实大家诟病它最大的一个问题就是，它没有新的产品出来，一直还在卖Model 3、Model Y老产品。</p>
-<p>而且它都是相对在高端的，这一块市场上它基本上能吃到的都吃到了，想维持Elon Musk讲的每年50%的增长难度很大，它必须需要去开拓下沉市场，所以大家为什么会有Model 2的需求？</p>
-<p>但是它没有给你一个细节说，Model 2什么时候才能出来？那你明年的预期是怎么算？没有Model 2可以很确定地讲，EPS（每股收益）是给不上去的，你的利润率也是给不上去的。</p>
-</blockquote>
-<p><strong>Chapter 4.2 不确定因素</strong></p>
-<p><strong>与之相对的，在特斯拉发布会后，打车平台Uber却赢来股价大涨。可能市场也意识到，特斯拉没那么快拿下出租车的市场份额。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_ddf6f342a20e4be7a6fd68ae15ecfb27@132427329_oswg166829oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从技术上来看，FSD的技术是否已经成熟到，能让特斯拉为事故承担责任，尚不明朗，而企业能否承担责任是L4与L2最大的差距。</p>
-<blockquote>
-<p><strong>曲宁</strong></p>
-<p><strong>蔚来技术副总裁：</strong></p>
-<p>我觉得它的FSD这个故事讲了这么多年，但其实一直没有完全的落地，就真正跨越到，OEM或者他们主机厂来去承担责任这一步，这个方面其实我觉得还是蛮有挑战的。</p>
-</blockquote>
-<p>而从法律角度看，自动驾驶公司想在公共道路上测试无人驾驶车辆，就必须申请测试牌照。</p>
-<p>申请牌照得先跑出足够多的数据，证明车辆的安全性，同时由于美国各个州的法律不相同，特斯拉想获得牌照必须每个州单独申请，这又将拖慢整体的进度。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_97e54881a8ab4b3ea0f7d6598a824aac@132427329_oswg47945oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>刘沁东（Bruce Liu）</strong></p>
-<p><strong>济容投资首席投资官</strong>：</p>
-<p>至少你能像Waymo这种，在这个州能有支持你做测试，你得到监管部门的批准，这些细节你要给出来让大家看到，而不是简短地说，明年我们德州和加州就可以有了。我倒不是说他在撒谎或吹牛皮，就是有些东西还是要一点一点落地，然后我们才能去把它去分析清楚。</p>
-</blockquote>
-<p>Cruise被吊销执照的案例也说明了这条路有多难走，同时，作为需要由公司承担责任的L4公司，摆在特斯拉面前的还有事故责任风险。</p>
-<blockquote>
-<p><strong>曲宁</strong></p>
-<p><strong>蔚来技术副总裁：</strong></p>
-<p>Tesla现在已经是一个几千亿、甚至接近万亿级别的公司的时候，它的责任风险的就会更高一些。因为在美国诉讼的风险是很高的，一旦有相关案例连续出现之后，可能会对他的压力会比较大，这就纯粹不是说技术的角度来衡量了。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_478195af97744877b67edfc21ddadcff@132427329_oswg75439oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>正是因为L4的赛道充满风险，加上本次发布会马斯克披露的信息太少，所以特斯拉在打破这些质疑前，依然存在股价承压的风险。</strong></p>
-<blockquote>
-<p><strong>刘沁东（Bruce Liu）</strong></p>
-<p><strong>济容投资首席投资官</strong>：</p>
-<p>Tesla 经常有这么个模式，大家叫sell the news，见事实沽出。当这个东西真正的公布了之后，大家发现Elon Musk一直都是这样子，可能老股东也都习惯了，承诺过多，交付不足，但是他又很厉害，最终总是还能给你交付。</p>
-</blockquote>
-<blockquote>
-<p>那到这个点上，后面的故事是什么？我们就可以问一问，后面还能支撑它的故事是什么？我觉得FSD一定要有某种形式上的爆发点，你现在是每个月收100块钱，到底有多少人用？你相对的安全指数是什么样？这些都是很模糊的概念，每个人的理解又不一样。</p>
-<p>投资人怕不确定性，这些都是不确定性。那接下来看确实也看不到，因为大家都在琢磨，后面Tesla的利好的消息或者事件会是什么，现在可能暂时就出现一个真空期，那短期内我觉得它股票是会受影响的。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_757b7a2b625f4a1dbbce9de445781c27@132427329_oswg74920oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>总得来说，特斯拉未来的Robotaxi之路依然布满荆棘，充满了不确定性。</p>
-<p>虽然目前市场不看好特斯拉的故事，但很多人，包括参会者们认为，特斯拉无论是通过FSD的推广，还是通过现场展示，都更具象地给人们勾勒了未来是什么样的场景：</p>
-<p>如果无人驾驶真的遍布城市，不仅可以解决交通拥堵，减少事故，还能将大片停车场归还为居民的公园，这才应该是科技发展最终的愿景。</p>
-<p>就像马斯克在发布会上说的那句金句:<strong>The future should look like the future</strong>（未来应该看上去更像未来），这是马斯克和特斯拉在设计和未来布局的理念，但通向未来的路上，还有很多挑战与未知。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241015/v2_d8ece6c05f4c4da596aa0f8a7c39ac83@132427329_oswg116884oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/TM6jfdk-t94lV3q0srQdNg" rel="noopener noreferrer nofollow" target="_blank">“硅谷101”</a>，作者：硅谷101，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993104665861765</guid><pubDate>Tue, 15 Oct 2024 11:50:00 +0800</pubDate></item><item><title>向佐摸鼻梁火出圈，二代踏入演艺圈难逃被嘲命运？</title><link>https://36kr.com/p/2993119184232325</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在这个十月，向佐成功出圈，虽然是以一种意想不到的方式。</p>
-<p>打开短视频软件，向佐正在以各种奇怪的状态，成为当下互联网的新晋“抽象乐子人”。不光是网友花式整活，就连辽宁文旅这样的官方号都下场参与，主打一个紧跟潮流。这些满天飞的梗，离不开向佐投资并主演的电影《门前宝地》。</p>
-<p class="image-wrapper"><img data-img-size-val="522,730" src="https://img.36krcdn.com/hsossms/20241015/v2_b12dc2901da6473f8696a21698745441@1743780481_oswg78786oswg522oswg730_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>9月20日上映的徐浩峰新片《门前宝地》，是向佐走红出圈的源头。这部电影一共只卖了149万票房，在徐浩峰的所有作品排名第二，质量也差不多垫底，除了影迷群体之外，可以说是基本毫无水花。</p>
-<p>事情开始起变化是在它登陆视频平台之后。</p>
-<p>徐浩峰的电影，一贯的背景都是没落的时代、陈旧的规矩，讲新与旧的碰撞。加上设计独特的武打动作，和一般的功夫片观感迥异，很多场面单独截取出来极具喜感，加上刻意设计的台词，非常适合批量生产观感抽象的切片。</p>
-<p>偏偏向佐饰演的角色，在电影里总是保持一种紧绷的状态，搭配一些令人无法理解的抽象动作，和演员本人的长相组合在一起，意外有喜剧效果。当向佐碰上徐浩峰，一场奇妙的化学反应就此产生。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,454" src="https://img.36krcdn.com/hsossms/20241015/v2_3be344dad5764966930574ef7f8d2a38@1743780481_oswg34117oswg1080oswg454_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>歪打正着，“抽象乐子人”的诞生</strong></h2>
-<p>《门前宝地》的热度，应该是导演和演员始料未及的，否则上映期间在宣发上走这条喜剧路线，也不至于只卖百万票房。</p>
-<p>在所有流传广泛的视频和图片中，向佐抚摸鼻梁的动作是最令人困惑的，也是包括辽宁文旅在内的一系列二创里最有喜剧效果的。</p>
-<p class="image-wrapper"><img data-img-size-val="869,889" src="https://img.36krcdn.com/hsossms/20241015/v2_6382abbefa87460fa0f1f1e2626c5f1a@1743780481_oswg28297oswg869oswg889_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在片中，无论是与人交谈还是乘坐黄包车，向佐总是一副凝重的表情，伸出手指抚摸鼻梁，演绎出一种令人费解的状态。有人说向佐是在向功夫巨星李小龙致敬，周星驰等人也有同款致敬，但向佐这种致敬显然没有达到最初目的。</p>
-<p>除了放在鼻梁一侧的手指，向佐其他的迷惑行为还有很多。</p>
-<p>比如在交谈中突然对自己打了一个耳光，在网友们的搞笑评论里，这更像猛然甩出的一个摔炮或者想打开声控灯。再比如剧中的向佐正和身边人对话，交谈中突然转身飞奔，主打的就是一言不合就跑，令观众难以预测他的下一步打算。</p>
-<p>踏入演艺圈近20年，向佐的演艺道路始终不温不火。早期留学归港后，坚持习武的向佐踏入娱乐圈，凭借向家在香港影视圈的地位和资源，向佐很容易就参演了多部影视作品，和成龙、吴京、洪金宝等动作巨星搭戏。</p>
-<p>除了功夫电影之外，在TVB的民国剧、爱情片等其他类型作品中，也可以看到向佐的身影。只是在这些作品中，向佐取得的成绩并没有引起多大关注，反倒是像在电影《投名状》里客串的山匪一类角色，令人眼前一亮。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,458" src="https://img.36krcdn.com/hsossms/20241015/v2_3868a3ecd0d24bedad9a2256479d75cf@1743780481_oswg89220oswg1080oswg458_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对于《门前宝地》这部电影，向佐的付出不可谓不大。</p>
-<p>电影结尾的过关挑战是对《师父》的拙劣模仿，也是徐浩峰的自我重复，但向佐为此的付出确实有目共睹。为了演绎好片子里的重磅武器八斩刀，向佐专门跟随叶问的弟子梁绍鸿练习了3个月。</p>
-<p>只是对于向佐的表演来说，他越是严肃认真，就越是表现出一种用力过猛的感觉，这种错位感洋溢在整部《门前宝地》中，让这部功夫电影成了十足的喜剧。</p>
-<p>演戏二十载，向佐没有出圈的角色和专属名场面，结果靠着摸鼻梁走红，这样新晋抽象乐子人的出现，属实可以说是歪打正着。</p>
-<h2><strong>二代继业者，勇闯娱乐圈</strong></h2>
-<p>和向佐处境类似的，还有姚安娜，两人在娱乐圈吸引的“火力”可谓半斤八两。</p>
-<p>非科班出身的姚安娜，一出道就担任女主角，显然这和她“华为二公主”的标签密不可分。</p>
-<p>在跟张颂文合作的电视剧《猎冰》中，姚安娜就贡献了诸多名场面。无论是面对案件的反应还是乔装打扮之后的造型，都是剧中观众热议的焦点，特别是姚安娜双手持枪查探情况的桥段，堪称《猎冰》最出圈的场景，引发广泛模仿，以至于导演高群书不得不站出来替姚安娜分辩。</p>
-<p class="image-wrapper"><img data-img-size-val="853,1280" src="https://img.36krcdn.com/hsossms/20241015/v2_a33c7fc99b9f442e971178a659de8d37@1743780481_oswg87831oswg853oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了这两个人之外，娱乐圈的二代们也有很多。</p>
-<p>比如，张艺谋的女儿张末在纽约大学电影学院毕业之后，成为了一名“导二代”，在张艺谋的电影中，担任副导演、剪辑师。在2021年，张末和张艺谋联合执导了电影《狙击手》，算是在导演圈初步站稳了脚跟。</p>
-<p>李安的儿子李淳也进了演艺圈，只是他没有继承父业做导演，而是成为了演员，在各类电影电视剧中频繁露脸。韩寒的《乘风破浪》、陈凯歌的《妖猫传》、吕克·贝松的《超体》……不拘风格、不限题材，表现虽然不说多惊艳，但总能带给观众新鲜感，未来李淳还将在父亲李安的新片《李小龙》里担纲主演。</p>
-<p>郭麒麟可能是所有二代里演戏比较成功的一位。他从德云社少班主转型为演员，放下相声，钻研表演。2021年的《赘婿》算是郭麒麟担纲主角以来最大的爆款，可以作为男频剧改编的代表作。在今年豆瓣高分的口碑之作《边水往事》中，郭麒麟依旧有着不错表现，虽然对比同剧的戏骨演员们，他的弱点非常明显。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,719" src="https://img.36krcdn.com/hsossms/20241015/v2_abdc604966f74b3b8c55c9eafd4d6286@1743780481_oswg93944oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这些富二代、演二代们纷纷闯进娱乐圈，已然形成一种风气。有的备受好评，有的接连翻车，可谓同人不同命。二代的身份让他们近水楼台先得月，只是既然选择了这条路，那么被夸还是受嘲，就只能交给观众评判了。</p>
-<h2><strong>翻车不是二代的宿命，但才不配位必遭反噬</strong></h2>
-<p>二代进娱乐圈，永远少不了被观众品头论足。不用从龙套演起，一出手就能拿到主演戏份，无论人脉、资源都是一流的，这是二代的优势，也是预先埋好的地雷。如果演好了，很多时候成绩会被归咎为先天的资源叠加；如果演不好，“硬捧”则成了观众群体中最常见的吐槽。</p>
-<p>憋着一口气向观众以及自己的父辈证明自己，似乎是所有进入演艺圈二代们的宿命。在前不久《喜剧之王单口季》的一期节目中，阎鹤祥就说了一段关于他和郭麒麟的故事，最终借巴西国王佩德罗一世之口，向郭表达了“不独立，毋宁死”，这是理解，也是勉励。</p>
-<p class="image-wrapper"><img data-img-size-val="968,1399" src="https://img.36krcdn.com/hsossms/20241015/v2_4956d9e0448144c98b1a8dac1b0e5dd6@1743780481_oswg146734oswg968oswg1399_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>向佐曾在一档节目中自陈“我很想演戏，但我爸妈给的太多，大家都不敢跟我说真话”，听上去非常“凡尔赛”，但也确实是一种无奈的现实。二代们的资源就放在那里，没道理不用，只是这种坦诚的实话很难引起观众的共鸣，而且会在作品质量不如意的时候反噬发言者本身。</p>
-<p>在演艺圈里，资源可以靠家世弥补，可才华无法先天获得。举贤不避亲当然没有问题，但是罔顾行业标准，将明显缺乏实力的二代硬架到不属于他的高度，那最终收获的也许只能是一场灾难。</p>
-<p>对于努力想要证明自己的向佐们来说，找到合适的角色和戏路，远比多接戏、狂刷存在感更加重要。就像向佐的父亲向华强，经营电影公司之余也偶尔参演作品玩票，反倒留下了《赌神》系列中“龙五”这样经典的银幕形象，可见演员这个行当，不是以量取胜的。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20241015/v2_81157770c00f444e8f92b7d38d0a333b@1743780481_oswg50118oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>或许二代的身份从来不是被抨击的核心，拿不出优质的作品才是真正的原罪。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/cUBEpviYyz_4alB-yFMm3Q" rel="noopener noreferrer nofollow" target="_blank">“首席消费官”</a>，作者：凌云，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993119184232325</guid><pubDate>Tue, 15 Oct 2024 11:50:00 +0800</pubDate></item><item><title>5699元，富士X-M5相机发布：入门级相机如何活？</title><link>https://36kr.com/p/2993115701288841</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 15 Oct 2024 13:00:43 +0800</lastBuildDate><pubDate>Tue, 15 Oct 2024 13:00:43 +0800</pubDate><item><title>5699元，富士X-M5相机发布：入门级相机如何活？</title><link>https://36kr.com/p/2993115701288841</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>富士，又带着它的新机来了。</p>
 <p>2024年10月14日，富士在Summit 2024秋季盛会上发布了全新的X-M5，售价为5699元，妥妥的入门级无反半幅相机。这让小雷有些诧异，毕竟X-M系列的上一款产品还是2013年发布的，时隔11年重启该产品线，富士到底在打什么小算盘呢？</p>
 <p class="image-wrapper"><img data-img-size-val="2400,1080" src="https://img.36krcdn.com/hsossms/20241015/v2_4196d858c5d34f70a4e74c75d083fae5@1547419282_oswg357479oswg2400oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
@@ -696,4 +239,280 @@
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_a1a7fc3b0eb04c9790d50b3c8e5e67d7@000000_oswg130859oswg800oswg782_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_10e07049ca944b8188fbdeac13f80627@000000_oswg166968oswg960oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/GDHqeOruDqvafvEQ0Wp7QA" rel="noopener noreferrer nofollow" target="_blank">“QuestMobile”</a>，作者：Mr.QM，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993131582630912</guid><pubDate>Tue, 15 Oct 2024 11:52:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993131582630912</guid><pubDate>Tue, 15 Oct 2024 11:52:00 +0800</pubDate></item><item><title>估值473亿，中东土豪入股，刘强东又一个IPO来了</title><link>https://36kr.com/p/2993241025587977</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>刘强东又要收获一家上市公司了。</p>
+<p>近日，京东分拆出来的京东工业申请在港上市。算上已经上市的京东、京东物流、京东健康、达达、德邦股份，刘强东的第6个IPO也要来了。</p>
+<p>在首席执行官宋春正的带领下，再加上刘强东以董事会主席的身份坐镇，这家公司最终成长为中国工业供应链技术与服务市场的头部玩家，不仅一年收入超过170亿元，还成功实现盈利。</p>
+<p>从红杉中国、纪源资本、CPE源峰、阿布扎比投资基金42Xfund、阿布扎比主权基金Mubadala、大型资管集团M&amp;G、全球私募巨头EQT旗下的亚洲平台BPEA EQT（原霸菱亚洲投资）等手中拿到约6.35亿美元后，京东工业的估值达到约67亿美元（约473亿人民币）。</p>
+<h2><strong>背靠京东，估值超470亿元</strong></h2>
+<p>七年前，正值消费互联网火热之际，京东便开始在工业领域布局。</p>
+<p>那个时候，工业领域长期存在商品品类繁多、供应商数量庞大、供应链冗长等难题。不过痛点就意味着机会，判断这个行业是万亿级别的市场后，京东果断于2017年7月做起工业供应链技术与服务业务。</p>
+<p>为了能更好地开展业务，他们曾奔赴上海、广州等地走访数十家制造工厂，并决定从工业品入手来覆盖整个交易链条。到了2018年10月，京东工业品作为京东一级类目正式上线，进入发展快车道。</p>
+<p>在京东的大力支持下，京东工业品不仅从前者手中拿到包括域名、商标和专利在内的一系列知识产权，还接手了对方与数智化采购服务和交易平台相关的合同，最终升级为京东一个独立的业务单元——京东工业。</p>
+<p>结合京东大数据和人工智能技术构建出工业品知识图谱，他们推出了能实现商品参数标准化的墨卡托商品库。此外，这家公司还发布了京工柜、企配中心等一系列新型工业基础设施，用来解决履约交付难等问题。</p>
+<p>随着京东工业作为京东子公司开始发展，刘强东还以这家公司董事会主席的身份坐镇，为董事会提供战略性建议。</p>
+<p>经过一番资本运作，他们先是于2020年8月从红杉中国、纪源资本、CPE源峰、新犁资本、熙诚金睿等手中拿到约2.3亿美元，接着又于次年1月获得Domking、纪源资本等投资的约1.05亿美元。</p>
+<p>2023年3月，京东工业完成红杉中国、阿布扎比投资基金42Xfund、阿布扎比主权基金Mubadala、大型资管集团M&amp;G、全球私募巨头EQT旗下的亚洲平台BPEA EQT（原霸菱亚洲投资）投资的3亿美元B轮融资，估值达到约67亿美元（约473亿人民币）。</p>
+<p>上市前，京东持股77.32%，纪源资本持股4.67%，红杉中国持股1.37%，CPE源峰持股1.22%。与此同时，为了感谢刘强东做出的贡献，这家公司还授予他3.68%的股权。</p>
+<h2><strong>专注卖工业品，一年入账超170亿元</strong></h2>
+<p>通过构建涵盖商品、采购、履约及运营的端到端数智化基础设施，京东工业能向客户提供工业品供应和数智化解决方案及服务。</p>
+<p>除了能帮助客户快速找到并购买到所需的工业品，他们还通过与物流服务提供商合作，以及利用京工柜、企配中心、前置仓等设施，能够及时把商品送到客户手中。</p>
+<p>这个商业模式的正常运营，离不开这家公司建立的覆盖中国的工业品供应网络。按照京东工业的话来说，截至2024年6月30日，他们已提供65个产品类别和约4166万个SKU。</p>
+<p>如果从这个时间算起，那么他们在之前的十二个月内，借助约90000家制造商、分销商及代理商，服务了超过9900个重点企业客户。</p>
+<p>其中，京东工业在2024年上半年的重点企业客户，不少都是实力强劲的公司，包括约50%的中国《财富》500强企业及超过40%的在华全球《财富》500强企业。</p>
+<p>在众多客户的支持中，这家公司的交易额得以快速增长。从2021年到2023年，他们的交易额由约174亿元增加到261亿元，复合年增长率为22.5%。</p>
+<p>灼识咨询直言，按照2023年的交易额计算，京东工业是中国工业供应链技术与服务市场最大的服务提供商，市场份额达到4.1%。</p>
+<p>靠着卖商品和提供数智化服务等，他们近年的收入也在飞速增加。招股书显示，在2021年至2024年6月，这家公司的收入分别为103.45亿元、141.35亿元、173.36亿元和86.2亿元。</p>
+<p>不过受可转换优先股公允价值变动等因素影响，京东工业的净亏损从2021年的12.59亿元，扩大到2022年的12.69亿元。到了2023年，他们成功扭亏为盈，净利润达到477.9万元。在2024年前六个月，这家公司的净利润为2.91亿元。</p>
+<p>判断数字化渗透率会加速提高后，灼识咨询预测中国工业供应链技术与服务的市场规模会快速增长，将从2023年的0.6万亿元变为2028年的1.1万亿元。</p>
+<p>这也意味着，哪怕已经是行业的头部玩家，京东工业依然还有很大的增长空间。</p>
+<h2><strong>刘强东，即将收获第6个IPO</strong></h2>
+<p>随着京东工业踏上IPO之路，也意味着刘强东又将收获一家上市公司。</p>
+<p>1992年，他以江苏宿迁高考状元的身份，进入中国人民大学社会学系读书。6年后，他创立京东，并于2004年正式涉足电商领域。</p>
+<p>到了2014年5月，京东登陆纳斯达克，成为中国第一个成功赴美上市的综合型电商平台。2020年6月，这家公司又顺利在港交所二次上市。</p>
+<p>在这个过程中，他们的体量越做越大，还通过投资、分拆等方式批量打造上市公司，最终形成了一个庞大的“京东系”。</p>
+<p>同样是在2020年6月，本地即时零售和配送平台达达在美上市。同年12月，京东旗下专注于医疗健康业务的子集团京东健康在港上市。次年5月，中国供应链解决方案及物流服务商京东物流在港上市。</p>
+<p>当时间来到2022年，京东收购了A股上市公司德邦股份。2023年3月，这家公司又准备分拆京东工业和京东产发在港上市。目前，京东工业属于第二次申请在港上市，而现代化基础设施开发及管理平台京东产发则被传暂缓IPO。</p>
+<p>这也意味着，一旦京东工业顺利上市，那么作为京东实控人的刘强东，也将收获自己的第6个IPO。</p>
+<p>不管是京东的上市，亦或是“京东系”的扩大，也得益于资本的大力支持。这些已上市的公司中，背后的投资方包括今日资本、红杉中国、高瓴、腾讯、DST、贝莱德、中金资本、淡马锡、黑石等等。</p>
+<p>正是对京东的投资，让今日资本获得超百倍回报，账面赚了100多亿元，徐新也获封“风投女王”。另外一个广为流传的细节是，当刘强东只需要融资7500万美元时，张磊却表示要么投资3亿美元，要么就一分钱都不投。最终，这笔投资让高瓴一战成名。</p>
+<p>与此同时，出生于农村家庭的刘强东，也一步步成长为全球知名富豪。按照胡润研究院的说法，截至2024年1月15日，刘强东以495亿元的财富位居全球第427名。</p>
+<p>随着“京东系”不断壮大，预计刘强东的身价也将得到进一步提高。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/WhEQJAn4u2-_ZnvB4UHflQ" rel="noopener noreferrer nofollow" target="_blank">“投中网”</a>，作者：鲁智高，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993241025587977</guid><pubDate>Tue, 15 Oct 2024 12:36:00 +0800</pubDate></item><item><title>美元基金投资人体感变好了</title><link>https://36kr.com/p/2993235943074568</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>美元降息，政策刺激，A股上证指数最高冲破3600点，创业板涨停开盘……不过短短几日，美元VC从业者的信心仿佛又回来了。前几日，上海市委书记陈吉宁会见了高瓴创始人兼首席执行官张磊和跨国企业家、海外投资人代表。毫无疑问，配置中国资产，又成了全球资金的重要命题。</p>
+<p>前些日子还沉浸在“金融羞耻感”里的朋友，现在思索着“国之重器”四个字的意义。都说“三根大阳线改变信仰”，倒也没什么可不好意思的，这世上，坚定者总是极少数，多数人跟随时代的风向和体感的变化，总是随时调整策略和校准位置。是留在牌桌，还是转身离开，现在大环境的剧烈变化又给这道选择题增添了不确定的意味。</p>
+<p>更何况，其实早从今年早些时候开始，就有年轻的投资人陆续跟我提到，身处周期才明白信心最重要。<strong>而信心，就是在底部一次次细小的转折中逐渐建立的。</strong>我最近跟美元VC投资人Andy聊天，他抛出了自己的感受——美元基金体感上在变好。听惯了行业里的各种负面消息，激动之余心里还是打了个问号，毕竟从一级市场的数据上看，美元基金无论如何都跟“好”字不沾边。</p>
+<p>但毕竟人家说的是“体感”，个体的感受。<strong>更确切地说，是经历一番洗牌后，还在牌桌上的美元投资人的感受。</strong></p>
+<p>Andy入行四年，见证过某些行业疯狂的估值泡沫，也经历了疫情后投资行业的一路下滑。好在机构前两年募到了一笔钱，账上有钱，老板还有心气接着干，又有LP的压力在，经历两年的梳理和沉淀，今年机构在策略上做出调整。</p>
+<p>作为一线投资人，Andy的直观感受是，机构的投资活跃度相较于前两年明显提升。结合外部环境的变化，开始出现一些交易机会。不过这个积极的转变，是相较于几乎没有出手的前两年而言。如果要讨论地更具体一点，他给出的大概数据是，至多恢复到2021年的50%。</p>
+<p>在他看来，今年与前两年最大的区别在于，至少在这波政策刺激之前，大家的预期和目标已经“疯狂下调”。回看2022和2023年Q1，那时投资人普遍情绪乐观，都认为新一年会有一点不同。但到年终，无论是宏观还是微观，数据都不及预期。<strong>这样的落差感使得到了2024年，无论是募、投还是退，市场已经对各个环节都不再持有积极的预期。</strong></p>
+<p>与此同时，投资的内外环境也发生了变化。</p>
+<p>先看外部环境，资金层面，由于预期低迷，一些外资干脆退出了中国市场。也不是没有做出过努力，比如，我听说某家传闻裁员的美元基金一度想要在国内募资，找过国内的LP交流，但碍于放不下身段，进展并不顺利，最终只能以大规模裁员收场。一些机构名存实亡，保留基本的中后台人员，眼下的首要任务是搞退出。传统的“美元三傻”放缓了在国内的出手频率，过去在后期接盘的互联网大厂也更多转向看二级市场。</p>
+<p>这些因素共同导致的结果就是，市场上的资金显著减少。当然，这个结论并不新鲜，只是过去这个结论往往用来佐证行业的萧条。但如果以积极的角度看，对于还在牌桌上的玩家而言，这确实意味着竞争少了，资产价格随之下降。</p>
+<p>资产层面，也遵循类似的逻辑。只要上市之门不打开，将会有越来越多公司考虑卖身，特别是前两年给投资人开了优厚的对赌条件，未来两年又没有上市希望的公司。热钱催生出的那些商业模式不可持续的公司，再难维持下去。这导致竞争环境在逐步优化，虽然还有很多行业产能过剩，但一些赛道的劣质资产已经出清得差不多，头部公司生存状况在变好。</p>
+<p>对投资人来说，好处在于，资金泛滥的年景，资产的优劣很难分辨，每个公司背后都有一堆股东。经过两三年时间，分歧逐渐显现，有些团队不干了，那些熬到现在的自然成为了行业top，更容易分辨。不过，估值体系也变了，上一轮的投资人都是以极高的估值进入，当下是否还要投还有其他的考量因素。</p>
+<p>以上是外部环境，再看机构内部的变化。在Andy看来，想继续玩的美元基金必然要调整策略：<strong>当下的积极因素在于，老板们已经琢磨了两年，未来是投国内还是投出海，出海又具体投什么，这些问题想必都有了答案。</strong>类似的话，我也从其他几个人那里听到过。他们认为，对于美元基金来说，路线的选择必须清晰，要么重心完全转到海外，要投在中国，就要完成一场本土化的变革。</p>
+<p>Andy眼见着，大家都在拓展边界，寻找出路。他所在的机构也从主投成长期转向投早期，投资方向从原有的赛道转向AI和机器人等最近的热门行业。</p>
+<p>“今年AI的主题继续发酵，催生了更多的创业公司，比如多模态，比如具身智能。去年大部分创业者聚焦在文生图和文生文，这类公司在我们看来太单薄，几乎没有投资价值。投天使轮可以，但很难让一个A轮投资人相信它的收入能翻个10倍。多模态和具身智能让能讲的故事变多了，政府也在大力支持这些赛道，政策和资金支持还是产生了一些合力。”</p>
+<p>上述这些是他体感变好的论据。当然，这些可以仅仅被看作是一个年轻投资人的感受和对现状的主观解释。毕竟，无论是募资还是投资，2024年的数据并不比2023年更好看，但我相信，看似客观的数据无法说明一切，Andy的讲述至少能让我们更全面地看待当下美元基金的生存状况——一切没有想象得那么糟糕。</p>
+<p>循着这个线索，我在资深猎头Linda那里了解到，像Andy所在机构这样积极调整策略的美元基金不少。与此同时，即使在市场如此不景气的时刻，还是有一些基金募到了美元，并且体量并不小。<strong>还有不少双币基金仍然在招美元IR岗，并未彻底放弃募美元。只不过，比起背景光鲜、履历丰富的候选人，他们现在更希望找到真正能帮助他们解决实际问题的IR。</strong></p>
+<p>“最近一年实际关账的美元还是有一定数量，但是他们基本没有对外透露自己从哪里拿到的钱，以及真正出资的LP是否有变化。”Linda的观察是，无论是一级还是二级市场，肯定有一部分人长期观察美元，寻找配置机会。</p>
+<p>当下的关键问题是，新的美元在哪里？大部分机构招聘的核心原因是，老LP的投资概率变低，无法从他们那里募集到与之前相同的基金规模，所以必须寻找新的资金。而寻找新资金是一个很困难的过程。新的美元可能在中东，也可能在日本、韩国和欧洲。</p>
+<p>中东和新加坡已经是显学，但欧洲还有很多地方尚未开发到位。Linda发现，比起经验丰富的IR，现在的老板通常最终要的是年轻、有冲劲并且愿意到处开拓市场的IR。此外，在实际海外募资的过程中，大部分机构都会用到当地的PA。</p>
+<p>“很多地区都有自己商业和习俗的特殊性，比如去韩国募资的时候，一个成熟男性的面孔会更有说服力。”</p>
+<p>不过，相较于IR和投后，投资方向开放的岗位还是很有限。“AI这个主题火了一年多，航空航天也火过一小段时间，随后便归于沉寂。”</p>
+<p>单从交易速度和项目数量的维度上，任职于一家FA的James体感类似，“不算太好”，尤其是下半年。他自己琢磨着，原因在于，大模型和人形机器人的短暂热潮后，多数没募到钱的美元机构处于一个可投可不投的阶段。</p>
+<p>此前，我在另一篇文章中分析过，对于美元基金来说，前些年，AI是诸多牌桌中的一张，错过了还有得选。但在机会不断收敛的当前，AI几乎是唯一，甚至是救命稻草。但赛道的容量毕竟有限，大模型、人形机器人的明星公司对资金体量的需求又很高，投资窗口期一晃而过。</p>
+<p>以“大模型五虎”为例，头部企业基本诞生在2023年，并在这一年完成了首轮或二轮融资。<strong>2024年，这些企业至少迎来一到两轮更凶猛、更大量级的后续融资。这些公司不仅受美元青睐，后续轮次更多出现的面孔是产投和国资。除了少数美元在后期寻求补枪，小机构至此已经很难入局。</strong></p>
+<p>如果跳出具体的赛道，我认为，美元更大的挑战还是在于和人民币基金的博弈。随着美元和人民币的赛道越发融合，过去被认为是标准美元的赛道上，早就满是人民币基金的身影。在最近跟创业者的交流中，我发现，原本认为自己应该拿美元的创业者，也开始拥抱人民币基金了。</p>
+<p>比如，一位创业者的说法是：“经历了美元和人民币基金正在发生的变化，我们发现美元变得更加保守，而人民币出手更加积极。我们也随之调整融资策略，不仅关注美元，还关注人民币，不仅关注海外，也关注国内。事实上，我们接触到的人民币基金比传说中的好很多，不会天天逼着我们还钱。”</p>
+<p>这也让我联想到，在最近投中举办的一场智能机器人投资闭门会上，基本看不到传统意义上的美元基金，活跃的是来自各大高校和产业背景的基金。如果说，过去美元基金的竞争力在于敢冒风险，敢于重仓，那么在更讲究产业和生态打法的时代，美元基金的竞争力又在哪里？</p>
+<p>回到开头那个话题，美元基金体感在变好吗？</p>
+<p>当我在微信上问Linda这个问题时，她飞快回复了我两个字“会好”。后来她解释道，所谓的“好”其实还没看见，只不过是她自己心里面预感到一切要好起来了。“这两天我看新闻非常振奋，觉得明年上半年能好，资本市场可能又稍微活跃起来了，不会像之前那么死气沉沉。”</p>
+<p>“得看看这次A股是不是真起飞了，起飞的话可能明年就正常了。”James判断。</p>
+<p>而这可能与政策持续性相关，毕竟前两年也不是没有过预期落差。正是过去几年的波折，让Andy第一次意识从来没有单边向上的增长。“你看到过去十年全部是向上发展的，就以为未来会一直这样下去，但其实不是。经过过去4年，大家都意识到，没有什么是永恒的。”</p>
+<p>对美元基金来说，无论是美联储降息，还是国庆前后密集的市场刺激政策、措施出台，都是利好，能提升LP对中国经济稳定增长的信心，这可能会吸引一部分观望中的外资重新流入中国。毕竟，钱只会流向不缺钱的地方，能赚钱是最朴素的投资逻辑。</p>
+<p>（文中人物皆为化名）</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/wVOn41s2c7cm_1M-oJEYsA" rel="noopener noreferrer nofollow" target="_blank">“投中网”</a>，作者：刘燕秋，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993235943074568</guid><pubDate>Tue, 15 Oct 2024 12:36:00 +0800</pubDate></item><item><title>双抗龙头康方生物，融资超19亿港元</title><link>https://36kr.com/p/2993234140228608</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>双抗龙头康方生物（09926.HK）完成新一轮股票配售，获得超19亿港元融资。</p>
+<p>10月13日晚间，康方生物公告称，公司计划通过配售代理以每股61.28港元的价格，向不少于6名承配人配售3170万股股份，该配售价格较10月10日收市价每股64.5港元折让约4.99%，较过去五个交易日平均收市价每股69.09港元折让约11.30%。</p>
+<p>康方生物表示，本次股票配售获得了国际投资机构的广泛认可，最终实际认购的投资机构主要为国际性的长线基金和专业医疗基金。完成本次股票配售后，康方生物成功融资约19.42亿港元。</p>
+<p>根据公告，康方生物此次配售所得款项的用途包括70%用于核心产品的全球及中国临床开发，20%用于已获批产品的商业化，10%用于一般企业用途。</p>
+<p>就此次股票配售以及全球性临床研究等相关问题，时代财经采访康方生物方面，截至发稿，未有回复。</p>
+<h2><strong>上市4年，四度融资</strong></h2>
+<p>2020年，康方生物成功在港交所敲钟上市，IPO募资总额约29.68亿港元。此后，康方生物四度通过配售融资，此次是康方生物在2024年年内完成的第二次股票配售。</p>
+<p>2024年3月，康方生物以每股47.65港元的价格，向不少于6名承配人配售合共2480万股配售股份，该配售价格较3月20日港交所呈报的收市价每股50.70港元折让约6.02%，配售募集资金总额11.82亿港元，净募资额11.70亿港元。</p>
+<p>更早之前，2021年和2022年，康方生物分别通过配售股份募资约11.88亿港元和5.83亿港元。包括IPO募资在内，康方生物上市以来总募资金额约78亿港元。</p>
+<p>康方生物表示，本次股票配售完成后，预计康方生物现金、其他短期金融资产定期存款总额超过82亿港元（折合人民币约75亿元）。</p>
+<p>对于Biotech来说，融资一直是关系到企业存亡的大课题。创新药研发是一门高风险、长周期、高投入的生意，以纯研发为导向的Biotech在成立后很长一段时间里，都会处于“无商业化产品、无营收、无利润”的“三无”状态，对外部融资的依赖度较高。近两年来，随着生物医药投融资回归理性，捉襟见肘的Biotech越来越多，相对而言，康方生物的融资已经是较为顺利。</p>
+<p>康方生物创始人、董事长、总裁兼首席执行官夏瑜表示：“本次股票配售高效率地完成，是康方生物长期投资价值获得国际性长线机构投资人和医疗领域专业机构投资人高度认可的体现。本轮融资的成功，将为公司自主研发新药多元化路径的全球性开发策略提供进一步的保障，尤其是加速公司自主推进的国际多中心临床研究的开展。此举将有助于加速公司自主研发新药全球价值挖掘，进一步提升公司全球市场竞争力。”</p>
+<h2><strong>PK药王促成“资本盛宴”，合作伙伴市值翻百倍</strong></h2>
+<p>产品管线是资本市场看好康方生物前景的主要支点。截至目前，康方生物进入商业化阶段的产品有4款，分别为PD-1/CTLA-4双抗卡度尼利（商品名：开坦尼）、PD-1单抗派安普利（商品名：安尼可）、PD-1/VEGF双抗依沃西（商品名：依达方），以及9月30日获得国家药监局上市批准的PCSK9单抗伊努西（商品名：伊喜宁）。</p>
+<p>根据财报，2024年上半年，康方生物实现创新产品收入9.4亿元，同比增长24%，这主要得益于卡度尼利和依沃西的销售贡献。其中，卡度尼利实现收入7.1亿元，同比增长16.5%。依沃西于今年5月24日获批上市，在约一个月的销售时间内，依沃西实现了1.03亿元的收入。</p>
+<p>2024年9月，卡度尼利获得国家药监局批准，联合含氟尿嘧啶类和铂类药物化疗用于局部晚期不可切除或转移性胃或胃食管结合部（G/GEJ）腺癌患者的一线治疗。这是继2022年6月获批用于治疗既往接受过含铂化疗治疗失败的复发或转移性宫颈癌患者后，卡度尼利获批的第二项适应症。</p>
+<p>胃癌是中国发病率最高的五种癌症之一，根据《胃癌筛查与早诊早治方案（2024年版）》，2022年我国胃癌新发35.87万例，死亡26.04万例，分别占全部恶性肿瘤的7.43%和10.11%。随着胃癌一线治疗适应症的获批，卡度尼利潜在商业化市场也将进一步拓宽。目前，康方生物围绕卡度尼利联合疗法开展了超过23项临床试验，覆盖16个适应症，包括但不限于宫颈癌、胃癌、肝癌、肺癌等。</p>
+<p>康方生物目前另一款核心产品依沃西，则是在BD（商业拓展）阶段创下了中国创新药“出海”的纪录。2022年12月，康方生物将在美国、加拿大、欧洲及日本开发及商业化依沃西的独家许可权授予Summit Therapeutics。这笔交易总交易金额最高可达50亿美元，刷新了当时中国生物医药企业License-out（对外授权）交易的纪录，从而引来大批关注。</p>
+<p>依沃西是一款FIC（First-in-class，全球首创）药物，是全球首个获批的“肿瘤免疫+抗血管”机制的双抗新药。</p>
+<p>2024年，康方生物披露了依沃西与默沙东PD-1单抗帕博利珠单抗（商品名：Keytruda/可瑞达，下称“K药”）“头对头”研究的中期分析结果，在治疗PD-L1表达阳性（PD-L1 TPS≥1%）的局部晚期或转移性非小细胞肺癌（NSCLC）患者的研究中，依沃西组较帕博利珠组有重大临床获益。依沃西组的中位无进展生存期显著延长，达到11.14个月，帕博利珠组中位无进展生存期为5.82个月。</p>
+<p>依沃西由此成为第一个在“头对头”3期临床试验中击败“全球药王”K药的药物。该消息不仅推动了康方生物股价大涨，其合作伙伴Summit Therapeutics更是身家暴涨。</p>
+<p>就在上述“头对头”临床研究数据公布之后，9月12日，Summit Therapeutics就宣布公司已接受多家领先的生物科技机构和个人投资者的股票购买要约，股票出售后公司大约可以获得2.35亿美元的收益。Summit Therapeutics的股价一度飙升到33.89美元/股，总市值接近250亿美元，是2022年市值低点的一百多倍。</p>
+<p>目前，康方生物围绕依沃西单药和联合用药开展的临床研究超过25项，涵盖肺癌、胰腺癌、乳腺癌、肝细胞癌等17个适应症。</p>
+<p>根据康方生物官网，截至目前，公司有22个产品在全球开展临床研究。随着临床研究管线的铺开，以及进入3期的临床研究增多，康方生物所需的研发资金也在增加。通过配售融资，康方生物得以补充“弹药”，为后续临床研究的推进提供了资金的保障。</p>
+<p>从二级市场反应来看，投资者对此次配售融资的态度也较为平静理智。配售公告落地后，10月14日，康方生物股价涨幅一度达到3.5%左右，最终报收64.50港元/股，与上一个交易日收盘价持平。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0NzQ4OTIyMQ==&amp;mid=2247531228&amp;idx=4&amp;sn=733bf2b66813a286efba8e44416e0b83&amp;chksm=e8db50c2fb548e1956f1b84af8413cd161fb64955324638327b7affa548ce109e333dcbb974c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代财经APP”（ID：tf-app）</a>，作者：李傲华，编辑：温斯婷，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993234140228608</guid><pubDate>Tue, 15 Oct 2024 12:36:00 +0800</pubDate></item><item><title>茅台镇众生相：有销售拿1500底薪，酒厂借钱抄底</title><link>https://36kr.com/p/2993233975143429</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>赤水河两岸，分布着上千家酒厂。去往茅台镇的路上，随处可见酒厂的宣传广告牌。</p>
+<p>茅台镇是贵州省遵义市仁怀市下辖镇，距仁怀市中心城区约7公里。独特的地理气候和水质，造就了当地酱香白酒风味，这个人口仅10余万的小镇地区生产总值也突破千亿元，是贵州省内唯一的百强镇。</p>
+<p>茅台镇上的酒厂分两种，一种是做品牌，一种是做基酒、贴牌定制酒。除了贵州茅台、国台、钓鱼台等几家大型酒企，大多数是做基酒、贴牌酒生意的酒厂。过去几年，贵州茅台在全国掀起一股“酱酒热”，有人曾形容，在茅台镇躺着都能赚钱。</p>
+<p>重阳时节，正是酒厂忙活着“下沙”，开启新一轮生产之时。但今年白酒行情进入下行区间，不少酒厂利润骤减，被迫停产，甚至面临关停。也有酒厂贷款买粮，赌下一波行情。</p>
+<p>曾经“躺着都能赚钱”的茅台镇正经历一波低潮。</p>
+<h2><strong>小酒厂利润骤减，销售从月入五六万降到几千</strong></h2>
+<p>“今年能赚1000多万就不错了。”这一波白酒周期是陈良入行以来遇到的第一个低谷。</p>
+<p>陈良家在茅台镇经营酒厂十多年，共有58口窖池，年产800吨基酒，在当地属于中小型规模。按一个窖池约30万元/年的投料成本计算，58个窖池每年投料成本将近1800万元。加上员工工资、水电费等，陈良家的酒厂每年经营成本要2000多万，酒烤出来要放5年，资金就要积压5年。</p>
+<p>“我们小酒厂每年主要靠卖基酒回笼资金来投入下一个周期的生产，如果酒卖不出去，钱回不来，就只能停产了。”陈良告诉时代财经，如今即便是资金流充足的酒厂也在观望，不敢贸然全部投产，“我们今年可能会减产，要看手里面的资金情况。”</p>
+<p>作为“酒二代”，陈良高中尚未毕业便在酒厂跟着老师傅学酿酒，后来负责销售，至今快八个年头。</p>
+<p>他依稀记得，在2020年疫情前夕，酱酒市场火热，酒厂的酒都不够卖，一年能赚七八千万。2023年，酱酒市场有“退烧”的苗头，生意还算可以，却没料到今年是个“寒冬”。陈良称，从4月份起，酱酒销售下滑明显，与月销五六十吨基酒的巅峰相比，现在每个月只能卖五六吨。其估算，酒厂今年利润足足要减少8成。</p>
+<p>行业进入调整周期，人员流动的情况也在加剧。另一家茅台镇中小型酒厂负责人杨旭告诉时代财经，今年酒厂销售人员流失特别多，每个月都有人离职，去年五六十个销售，如今只剩二三十个了。</p>
+<p>“酒不好卖，走的人特别多。”杨旭很无奈，但也表示理解，“毕竟行情好的时候一个月能有五六万工资，现在只有几千块钱，还有的只能拿1500块底薪，没业绩的会自动离职。”</p>
+<h2><strong>大厂不再忙活收基酒，降低经销商合作门槛</strong></h2>
+<p>除了小酒厂作坊，茅台镇不乏上百年历史的酒厂，其中有些已经发展到一定规模，抗压性更强，但生意也难免受到行情拖累。</p>
+<p>离生产茅台系列酒基酒的301厂约10分钟车程的天水酒业，始于酿酒师赵政久在茅台镇敖家山上建的2个酒窖，传至赵畅等赵家后人已是第五代，拥有200口窖池，所生产的5年基酒售价约80元/斤。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_f456349168b54092a3eeda8fd98a8617@000000_oswg78298oswg960oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">基酒储存。受访者提供</p>
+<p>赵畅表示，今年行情下滑，有部分客户“跳单”，选择与其他更便宜的酒厂合作。据其估算，今年酒厂利润同比下滑两成左右。</p>
+<p>自去年起，有经销商反映生意不好做，天水酒业也将合作销售门槛从3000万元降到500万元。而据其江苏地区的经销商反馈，今年预计能完成3000万元的销售目标。</p>
+<p>另外，据时代财经了解，过去由于产能不足或做定制酒等原因，茅台镇一些知名酒厂需从其他酒厂外购基酒。如今酱酒市场需求下滑，有大厂也不再忙活收购基酒。</p>
+<p>“前段时间一个知名酒企到处向小酒厂收基酒，现在大厂自己产的酒也够卖，也不需要去收基酒了。”酱酒销售人士李云透露道。</p>
+<p>供大于求的市场行情下，卖不动的酒只能降价。“往日卖七八十一斤的基酒现在只值三四十块。不会亏，只是赚少了。”</p>
+<p>据了解，不同品质和年份的基酒，价格相差巨大，其中，按照茅台酒传统工艺所酿的坤沙酒，品质最好，售价更高。但基酒价格透明度不高，因此酒厂的利润操作空间很大。</p>
+<h2><strong>是寒冬，也是抄底的好机会</strong></h2>
+<p>曾经，贵州茅台在全国掀起一股“酱酒热”。</p>
+<p>“行情好的时候，什么酒都好卖，就连‘白酒一条街’上的非品质酒都吸引了很多外地客户来，他们一桶一桶拉回去，找人灌装贴牌销售。”李云告诉时代财经。</p>
+<p>2006年入行的赵畅，早年在遵义会议会址附近卖基酒。据其回忆，在假茅台盛行时，不少客户平价购入基酒做假酒，一箱能卖到四五千元。按赵畅的原话，茅台镇里做酱酒生意的，随便抓一个都有几千万身家。</p>
+<p>如今，这番景象正在改变。时代财经从多名受访者处了解到，今年茅台镇不少酒厂资金不足，不得不减产，或把窖池出租回笼资金，撑不下去的只能面临关停。</p>
+<p>不过，即便是低迷的行情，仍有人逆势而上。由于酱酒的“时间价值”，不少受访的酱酒从业者认为，市场低迷正是“抄底”的好机会。据时代财经了解，有的酒厂会以基酒抵押给银行贷款买粮，赌下一波行情。</p>
+<p>重阳节刚过，茅台镇上的酒厂开始忙活着“下沙”。赵畅告诉时代财经，今年酒厂两百口窖池全部投满。显然，他对未来酱酒市场充满信心。</p>
+<p>同样，茅台镇另一家老牌酒企国宝酒业相关人士告诉时代财经，今年酒厂位于仁怀产区的180口窖池也全部投满了。</p>
+<p>“今年业绩是有所下滑，但我们在茅台镇发展数十年颇具规模，更在2016年与劲牌有限公司达成战略合作，共同布局酱香版图。位于茅台镇天酿景区旁边的新厂也一直在生产和储藏原酒。”上述人士介绍。</p>
+<p>“酱酒越放越值钱，你只是现在卖不出去，但你存的酒越多，意味着勾调的老酒越多，利于将来酒厂生产。只要现在可以撑下去，以后发展会更好。”李云认为。</p>
+<h2><strong>做酒人等待下一波行情</strong></h2>
+<p>白酒产业作为贵州特色优势产业，是贵州当之无愧的支柱产业。</p>
+<p>2023年，贵州白酒以全国6.8％的产量，创造了行业37.3％的利润，利润规模居全国第一。《2023贵州省白酒产业发展报告》显示，贵州白酒产业增加值从2018年的898亿元，增加到2023年的1333亿元，贵州白酒产业目前处于快速发展期。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_7d2041736076469bbea4a001a9f6926b@000000_oswg108651oswg960oswg640_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">仁怀酱酒核心产区。图源：今日仁怀公众号</p>
+<p>回顾上一个白酒调整期，自2013年左右起，白酒行业销售惨淡，茅台镇经历过一波停产潮。</p>
+<p>业内人士认为，茅台镇的中小酒厂主要以出售基酒或做贴牌为主，并不善于做品牌营销，生产链条十分脆弱，在行业下行时自然成为第一波出局者。</p>
+<p>同时，不规范的酒企和酿酒作坊也在仁怀市政府的带头下逐渐被淘汰。</p>
+<p>有从业者告诉时代财经，所有酒厂都必须通过政府四改验收合格后才能投产，“去年，5口窖池以下的酒厂，政府补助5万一口窖池填埋。现在，又有一批正在被整顿。”</p>
+<p>近年来，仁怀市政府也在不断加强产区建设，自2021年启动“四改一建设”工作，截至2024年初完成整改酒企995家，以更好地保护赤水河流域生态环境，让行业发展更加规范。</p>
+<p>作为中国酱酒核心产区的茅台镇地处赤水河谷地带，地势低凹，海拔多在500米以下，比仁怀市区海拔更低、温度更高，适宜酿酒微生物繁殖，是酿酒建厂的最佳选址。</p>
+<p>当前，茅台镇依旧一片繁忙，有酒厂正在扩建，满载水泥的搅拌车每天往返茅台镇，把长征路一段路面压坏了。</p>
+<p>“等明年有资金，可能会投资建厂。”赵畅指着远处的山腰说道。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_b80825dca8624a7a90ff435e63d7e22c@000000_oswg161268oswg960oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">受访者提供。</p>
+<p>不久前，赵畅在深圳龙岗谈妥了一笔生意，为客户下面300多家车行提供定制酒。他认为，做酒主要靠品质和资源，酒厂在多年前打下了业务基础，酱酒细分市场潜力仍然很大。</p>
+<p>事实上，酱酒市场正不断扩大，原本以浓香为主的北方市场正逐渐接受酱香酒。</p>
+<p>陈良就表示，今年有一半时间都在外面回访客户，在开拓北方市场。他说，只要把圈子和人脉积累好，行情好的时候就不用愁了。</p>
+<p>国宝酒业也在积极开拓封坛酒产品和直播渠道。据国宝酒业上述人士表示，公司已经和直播公司签约了，预计月底开播。</p>
+<p>身经百战的“做酒人”有自身生存之道。李云说，今年白酒行业的低谷就像一生人必然遇到的一个低潮而已，乌云很快就会散去。</p>
+<p>（应受访者要求，文中陈良、杨旭、李云皆为化名）</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0NzQ4OTIyMQ==&amp;mid=2247531228&amp;idx=1&amp;sn=382d9c125a4237558520c64fa1b58897&amp;chksm=e88ede9409a7a2d1c6f7eb46e4ff2a676e6d83b906bff8a8d7a0bcb1032c0b90613247a87419&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代财经APP”（ID：tf-app）</a>，作者：幸雯雯，编辑：黎倩，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993233975143429</guid><pubDate>Tue, 15 Oct 2024 12:38:00 +0800</pubDate></item><item><title>刚刚，理想100万辆新车下线，历时58个月，比特斯拉还快</title><link>https://36kr.com/p/2993233734888201</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>58个月，理想汽车实现下线量100万里程碑。</p>
+<p>车东西10月15日消息，就在刚刚，理想汽车宣布其累计下线量突破100万辆！</p>
+<p>理想汽车自2019年12月交付首台理想One后，而在今天，理想汽车第100万辆整车——理想L9在江苏省常州基地下线，历时58个月，不足5年完成了这一里程碑，同时也突破中国豪华品牌最快达成百万辆记录。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1920" src="https://img.36krcdn.com/hsossms/20241015/v2_94f3f8b766da463c9e7c304536d3079d@1743780481_oswg171297oswg1080oswg1920_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">理想汽车下线突破100万辆海报</p>
+<p>这是第一家完成100万辆里程碑的中国新势力企业。</p>
+<p>可以说这也是中国造车新势力上一个里程碑的事件了。</p>
+<p>也就在理想发微博官宣达成百万之际，小米汽车、极氪汽车、岚图汽车也率先向理想发去贺电，恭喜其达成100万整车下线。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,887" src="https://img.36krcdn.com/hsossms/20241015/v2_9a5b1158d476408c9c53ec8d016fea0f@1743780481_oswg312967oswg1080oswg887_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">小米、极氪、岚图率先发来贺电</p>
+<p>要知道，特斯拉实现累计交付百万也花了8年的时间。</p>
+<p>不过，特斯拉全球交付100万到200万辆的时间仅仅用了18个月，你觉得理想汽车完成从100万到200万的交付会用多久呢？</p>
+<h2><strong>01.58个月造车百万成新势力第一</strong></h2>
+<p>在2024年6月，理想汽车实现80万辆交付。</p>
+<p>在这之后的2个月，2024年8月又实现了90万辆的交付。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,661" src="https://img.36krcdn.com/hsossms/20241015/v2_d3aa81f98cdb49e693c4432f9ce92f74@1743780481_oswg68812oswg1000oswg661_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">理想交付里程碑时间线（10万台维度）</p>
+<p>在今天，理想汽车100万辆的交付也可以说是即将“如期而至”，同样是2个月的时间，理想汽车再次完成了10万辆的交付。</p>
+<p>理想汽车也正式达成了100万辆交付的里程碑。</p>
+<p>在这样一个日子，理想汽车的李想董事长兼CEO强调，理想汽车始终以用户价值为核心，致力于打造超越用户期待的产品。</p>
+<p>他提到，用户的认可和支持是我们持续发展的强大动力。公司坚持与国内优秀供应商携手，持续优化供应链体系和管理标准，推动“理链”的快速而健康发展。</p>
+<p>在此，理想汽车对所有陪伴理想成长的用户、合作伙伴及政府领导的鼎力支持表示衷心的感谢。</p>
+<p>同时李想也展望未来，他们将积极拥抱智能电动车领域的技术革新，不断提升产品品质和服务水平，让更多家庭信赖并选择理想汽车。</p>
+<p><strong>回顾理想的交付发展，理想汽车后期的交付加速也是有迹可循的。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1000,549" src="https://img.36krcdn.com/hsossms/20241015/v2_ded15ea44dd24b8f88a06f06b8d07fe6@1743780481_oswg59115oswg1000oswg549_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">理想汽车按车型月销量（数据源自研报）</p>
+<p>从月份的维度来看理想的交付速度可以发现从去年下半年后开始有一个明显的加速期。</p>
+<p>而这其中的变化我们可以从理想车型分月交付信息来看出一二。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,474" src="https://img.36krcdn.com/hsossms/20241015/v2_8d23c5bc905647ceba1033154c59d7b3@1743780481_oswg767185oswg1000oswg474_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">理想L7侧视图</p>
+<p>从图中不难看出，理想L7在2023年底交付后就开始抬头，而理想L6在2024年4月交付后便一骑绝尘。</p>
+<p>理想L6单月的交付量甚至要比理想剩余的其他车型加起来是差不多。</p>
+<p>也正是L6的发布让理想步入了单月交付量破5万的门槛。</p>
+<p class="image-wrapper"><img data-img-size-val="1002,804" src="https://img.36krcdn.com/hsossms/20241015/v2_63c53711e32c48eb92e2400849d27486@1743780481_oswg46397oswg1002oswg804_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">理想百万交付各车型占比（因统计口径不同略有差异，实际数据以官方为准）</p>
+<p>总整体的100万交付占比来看，L9、L8、L7分别占了23%，20%和24%。</p>
+<p>考虑到L7交付也不足一年，也能看出这个车型对理想的贡献之大。</p>
+<p>此外，L6也在交付的5个月就占到了10%的量，也是大功臣。</p>
+<p>作为元老级的理想ONE则也占到了22%的交付量。</p>
+<p>剩下的1%就是理想MEGA了，作为一个纯电豪华MPV确实市场小队小众，卖的没有L系列那么好也是情理之中。</p>
+<h2><strong>02.特斯拉8年的路，理想不到5年走完，股价高于历史低点</strong></h2>
+<p>从特斯拉在华销售数据来看，特斯拉在中国的百万交付花了近8年的时间。</p>
+<p>不过这一数据的达成也经历了初期进口车的高价时期以及2019年的“缺芯”风波。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,622" src="https://img.36krcdn.com/hsossms/20241015/v2_26c05677c522490aafaabd92a0ebef93@1743780481_oswg53883oswg1000oswg622_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">特斯拉在中国各年度交车数量（数据源自研报）</p>
+<p>不过自从特斯拉在上海投产后，目前的累计销量已经接近190万辆，距离200万辆的交付也只是时间问题了。</p>
+<p>从全球交付的角度来看，如果算上Roadster，2008年2月，特斯拉首款量产车型Roadster下线，直到2020年3月，特斯拉完成其百万辆交付也花了12年。</p>
+<p>如果从不算仅仅交付了2450辆的Roadster，从2012年6月首台Model S开始交付，特斯拉完成全球100万辆的里程碑也花费了将近8年。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,422" src="https://img.36krcdn.com/hsossms/20241015/v2_fef74c063f4b46e6b71207dc74b41139@1743780481_oswg424930oswg1000oswg422_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Tesla Model S Plaid版</p>
+<p>特斯拉可谓是行业的标杆，也用了8年时间。</p>
+<p>而理想汽车不到5年的成绩可谓是十分亮眼了。</p>
+<p>从资本市场上来看，理想汽车在今年2季度开始，也有了不少积极的进展。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,549" src="https://img.36krcdn.com/hsossms/20241015/v2_c3e4946253674733a898aa958257cf18@1743780481_oswg429640oswg1000oswg549_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">理想汽车今日股价</p>
+<p>截止到目前，理想股价夜盘微涨，报26.88美元/股（约合人民币190.88元/股），总市值282.4亿美元（约合人民币2005亿元）。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,497" src="https://img.36krcdn.com/hsossms/20241015/v2_96d5b7ba73634e308d342e3009748704@1743780481_oswg487898oswg1000oswg497_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">理想MEGA</p>
+<p>在理想MEGA事件后，理想的调整动作频频，从目前的效果来看，可以说是十分有效果的。</p>
+<p>理想L6作为理想汽车快速调整的产物，5个月交付破10万辆着实很猛，也很有效。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,378" src="https://img.36krcdn.com/hsossms/20241015/v2_8e5f93d88ce5470ab0569bcafd4caf8b@1743780481_oswg417588oswg1000oswg378_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">理想 L6</p>
+<p>在研发层面，理想也把车位到车位基于端到端的城市NOA搞了出来，也可以说走在了整个新势力范围中的头部。</p>
+<p>理想汽车可以说是给整个国产新势力起到了一个榜样作用。</p>
+<p>不知道下一个交付破百万的新势力品牌会是谁呢？</p>
+<h2><strong>03.结语：国产新势力进一步发力</strong></h2>
+<p>曾经普遍不被看好的增程路线如今登顶“第一”，背后还是有一些门道的。</p>
+<p>一方面，在可油可电的增程模式确实解决了市场的一部分痛点。</p>
+<p>另一方面，追求极致冲击高端，在技术上的持续投入，理想在背后的努力也是分不开的。</p>
+<p>当人，国产新势力无论是纯电还是增程也都在不断出招应对，扩大市场。</p>
+<p>在这样的背景下，你会选择哪种新车呢？</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/T3tSFVi_14Nqiy0RFoUGEQ" rel="noopener noreferrer nofollow" target="_blank">“车东西”</a>，作者：Janson，编辑：志豪，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993233734888201</guid><pubDate>Tue, 15 Oct 2024 12:39:00 +0800</pubDate></item><item><title>1.5万家律所排队一年，独角兽Harvey如何掀起法律AI革命？</title><link>https://36kr.com/p/2993211662213001</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在AI应用领域，Harvey无疑是最耀眼的明星公司之一。</p>
+<p>今年7月，Harvey刚刚完成新一轮融资，估值高达15亿美元。这意味着，从22年底完成500万美元天使轮融资到跻身独角兽行列，Harvey只花了不到2年时间。</p>
+<p>估值蹭蹭涨，离不开那些明星投资人捧场。Harvey的股东名单里，不仅有OpenAI这样的AI大模型巨头，还有红杉资本以及美国最大独立风险投资人埃拉德.吉尔等知名投资人。</p>
+<p>为什么大家都这么看好Harvey？一个很重要的原因是，Harvey的经营数据跑得太好了。</p>
+<p>在2年时间，Harvey的ARR（年度经常性收入）已经接近3000万美金了。根据Lenny的统计，过去10年时间最好的B2B SaaS产品达到100万美金的时间平均是2年，而Harvey在2年时间做到了3000万美金。</p>
+<p>为什么Harvey能够实现这么快的增长？我们又应该如何看待AI法律的机会？</p>
+<h2><strong>叫好又叫座的法律AI助手</strong></h2>
+<p>很多人可能不知道，法律一直都是应用新兴技术最积极的领域。</p>
+<p>此前，AI技术（以NLP为主）就已经应用在合同管理、诉讼预测、法律研究等领域。但大部分工作都以信息检索为主，很难对信息进行深度的处理与分析。</p>
+<p>与过去不同，大模型对于法律AI软件能力有两方面的提升：</p>
+<p>一是LLM可以用对话式的搜索方式，并且可以对数据内容进行总结提炼，以答案式回答细节问题。二是从“提取”到“生成”，生成能力可以应用于起草法律合同、为法官提供判决建议等。</p>
+<p>这些能力也体现在Harvey的服务中。</p>
+<p>作为法律AI领域的扛把子，Harvey的服务模式主要有两种：一种是通过fine-tune（微调）过的法律专家大模型，帮助律师完成合同分析、监管合规、索赔管理、尽职调查及更广泛的法律咨询服务；另一种是为客户构建定制模型，以达到更好的效果。</p>
+<p>前者的服务场景主要有三个：工作流程自动化（如文件起草、审查、分析和总结）、法律研究和AI助理。</p>
+<p>比如，在文件起草环节，法律工作者需要起草一份合同或者诉状时，Harvey可以根据提供的问答内容生成一个初步的草稿，律师可以在此基础上进一步修改、完善。</p>
+<p>再比如，到了法律合同审核环节，律师需要确保法律政策与最新的法规是否一致时，Harvey也可以帮助梳理相关法规要求，并且初步分析现有政策可能存在的合规风险点。</p>
+<p>此外，Harvey还能被用于辅助法律研究。比如，当律师正在处理一起知识产权案件，Harvey可以帮助罗列相关的法律条文、判例和学术文章，加速案件准备的过程。</p>
+<p>除了提供与法律相关的服务外，Harvey还能帮助大型律师事务所构建自己的定制AI模型。比如，普华永道就与Harvey进行合作，训练自己专有的人工智能模型，创造定制产品，包括为普华的客户定制产品服务，简化内部法律流程等。</p>
+<p>从目前看，Harvey的产品取得了不错的商业化成绩。根据Harvey公司员工的Brian Burns透露，Harvey的ARR（年度经常性收入）已经接近3000万美元了。</p>
+<p>根据Lenny（国外的一个科技博客网站）的统计，过去10年时间最好的B2B SaaS产品达到100万美金的时间平均是2年，而Harvey在2年时间做到了3000万美金。</p>
+<p>过去一年中（2023年8月-2024年8月），Harvey的用户使用率从33%大幅增长至69%。与此同时，留存率表现也不错。数据显示，Harvey的用户留存率在一年后保持在70%左右。而SaaS产品的月流失率一般在3%到8%之间，年流失率在32%到50%之间。</p>
+<p>客户群体方面，根据Harvey透露，已经有超过1.5万家律所排队等待其AI服务，现在超100家律所已经付费用上了Harvey的产品。</p>
+<p>目前，其官网中展示的战略合作客户中，不乏安理·谢尔曼（A&amp;O Sherman）、普华永道（PwC）、美迈斯（O’Melveny）、礼德(Reed Smith)、麦克法兰（Macfarlanes）以及CMS等国际顶级律所及机构。</p>
+<h2><strong>降本驱动，AI法律正处于爆发前夕</strong></h2>
+<p>之所以AI在法律领域应用如此顺利，主要得益于两个原因：律师成本太高，降本需求强烈；以及大模型技术与法律业务逻辑高度匹配。</p>
+<p>作为一个依靠人力的知识密集型行业，律师的雇佣成本很高。以北京为例，2019-2023年北京律师年均创收高达84万元。即使在最低的内蒙古，律师年均创收也有16万元。在美国等发达国家，这个数据还要更高。</p>
+<p>昂贵的人力成本，使得律师事务所更有动力推动AI技术的落地，来实现成本下降。而法律行业以知识+文本为主的业务模式，也与大模型技术特征高度匹配。</p>
+<p>首先，法律有相当大比例的工作是文本处理，这恰好是AI擅长的领域。其次，法律工作内容都有非常强的知识性，而大部分知识都有现成的文本材料可供参考，降低了大模型学习的成本。</p>
+<p>得益于以上两点，AI法律行业正在快速发展。仅仅2023年，AI法律行业就从9.4亿美元，上涨到23.9亿美元，增速超过250%。</p>
+<p>展望AI法律赛道的发展，有两个趋势值得关注：</p>
+<p>首先，优质数据的价值在不断提升。由于法律领域对信息的准确性要求很高，自然也对数据质量提出了更高的要求。但与此同时，出于数据隐私保护等原因，大模型企业获得行业数据的途径有限。</p>
+<p>数据问题是所有AI法律公司都必须面对的问题。目前，解决数据来源问题的方法主要有两种：</p>
+<p>一是与大型律师事务所展开合作，在满足客户合规需求基础上，获取数据。比如，Harvey已经与Allen &amp; Overy等大型律师事务所展开合作。</p>
+<p>二是通过收购的方式来获得更多的行业数据。去年，汤森路透以6.5亿美元的价格收购AI法律公司Casetext，看中的就是其在过去服务客户过程中所建立的数据优势。截至被收购前，Casetext 的客户有1万多家律师事务所与公司法律部门。</p>
+<p>今年，Harvey曾一度计划收购vLex，但是收购最后没有成功。vLex就是一个全球法律智能平台，为法律专业人士提供广泛的法律和法规信息库，涵盖了来自 130 多个国家的法律和法规信息，拥有全球最大的法律和监管数据库。</p>
+<p>其次，将AI融入法律领域，需要对行业需求的深刻理解。Harvey CEO Winston Weinberg在此前接受采访时披露，公司30%左右的员工都是法律背景。</p>
+<p>这些法律领域的专家作用是，围绕特定法律任务构建定制的工作流和流程。Weinberg说，只有有经验的律师才能在任务层面对复杂法律工作的组成和分解有深厚的专业知识，但这种类型的“流程数据在任何地方都不公开”。</p>
+<h2><strong>总结</strong></h2>
+<p>当所有人都在寻找大模型应用的背景下，Harvey受到投资人追捧还有另一个更重要的原因是，由于数据隐私的存在，法律AI应用很难被通用大模型取代。</p>
+<p>现在大部分AI应用创业者都会面临一个问题：当模型能力越来越强，怎么保证模型不会吃掉应用产品的服务场景。</p>
+<p>而法律就给我们提供了一个很好的思路。由于法律对数据隐私的重视，有价值的数据很难公开获得，但输出质量又高度依赖于这些专业数据。所以至少从目前看，通用大模型很难对法律领域的专业模型产生冲击。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/hVAQr4uOgrfl6Kwxm45fxg" rel="noopener noreferrer nofollow" target="_blank">“乌鸦智能说”</a>，作者：林白，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993211662213001</guid><pubDate>Tue, 15 Oct 2024 12:39:00 +0800</pubDate></item></channel></rss>
