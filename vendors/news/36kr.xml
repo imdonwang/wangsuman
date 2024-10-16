@@ -1,781 +1,468 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 16 Oct 2024 09:30:26 +0800</lastBuildDate><pubDate>Wed, 16 Oct 2024 09:30:26 +0800</pubDate><item><title>诺奖青睐的「AI for Science」，在帮宁德时代研发电池 | 焦点分析</title><link>https://36kr.com/p/2993456849759234</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文 | 王方玉</p>
-<p>编辑 | 苏建勋</p>
-<p>2024年诺贝尔化学奖的颁布，让一群国内的AI创业者和从业者兴奋不已。</p>
-<p>“诺贝尔化学奖颁给AI for Science，让我省去了很多时间跟别人解释我们是做什么的。” 深度原理创始人兼CEO贾皓钧告诉36氪。</p>
-<p>这两天他接到了100多个投资机构的咨询电话，这家刚成立半年多的AI for Science创业公司，撞上了行业出圈的关口。</p>
-<p>北京时间10月9日，瑞典皇家科学院将2024年诺贝尔化学奖授予三位投身于AI for Science领域的科学家。其中包括谷歌旗下AI公司Deepmind的CEO和高级科学家，二人带队研发的AlphaFold系列对于蛋白质结构预测具有里程碑式贡献，被认为是<strong>AI for Science最具代表性的成果。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1686,713" src="https://img.36krcdn.com/hsossms/20241015/v2_062370ed450048e5b1ddebb3e4fda35a@594936739_oswg608777oswg1686oswg713_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：诺贝尔奖官方网站</p>
-<p>AI for Science（AI4S），即人工智能驱动的科学研究，是一种新的科学研究范式。诺贝尔化学奖的决定，很大程度上肯定了这一研究范式、乃至整个赛道的长期价值。</p>
-<p>实际上，在获得诺奖加持之前，AI4S已经在生命科学、药物研发、材料研发、能源、半导体、环境科学、工业仿真等多个领域有了具体实践，可以帮助缩短研发周期，降低研发成本。</p>
-<p>AI4S目前最大的下游市场在药物研发，应用已经十分广泛，包含辉瑞、强生、默沙东、阿斯利康等全球头部药企都在积极布局中。机构MedMarket Insights显示，2023年全球AI制药行业市场规模已达到12.93亿美元。公开资料显示，目前国内的AI制药企业已超过百家。</p>
-<p>在药物研发领域开花结果之后，<strong>材料研发正成为AI4S的下一个要攻占的阵地。</strong></p>
-<p>2023年12月，全球最大的锂电龙头宁德时代宣布将在香港设立国际研发中心。董事长曾毓群表示，该研发中心<strong>主要聚焦于AI4S，“挖掘新能源材料、体系和应用方案”。</strong></p>
-<p>这一事件被业内人士认为有风向标式的意义，标志着能源材料领域的头部企业对于AI4S价值的认可。</p>
-<p>“用AI4S研发新材料仍处于早期的阶段，市场规模还有限，但这一技术发展的大趋势已经比较明确，未来成长的空间巨大。” 专注于新材料投资的沃衍资本管理合伙人丁哲波告诉36氪。</p>
-<p>“在不久的未来，借助AI工具，结合实验室自动化设备和高通量筛选平台，会<strong>极大地提升化工新材料从业人员的研发效率</strong>，AI和实验室机器人会成为科研人员非常重要的助手。”</p>
-<h3><strong>AI“解放”科学家，从医药到材料</strong></h3>
-<p>材料研发，正成为AI4S下一个前沿阵地。一个鲜明的信号是，国内AI制药领域的多个头部厂商，都在<strong>“跨界”进军材料研发。</strong></p>
-<p>8月中旬，港股上市的AI制药第一股晶泰科技宣布与协鑫集团合作，为协鑫提供新能源材料研发的订单化服务。根据其半年报披露，这份合作为期5年、总合作金额约10亿元。</p>
-<p>8月末，获得多轮融资的AI4S创业公司深势科技，与材料厂商东阳光签约成立AI4S新材料研发联合实验室。 在此之前，其曾与宁德时代宣布达成战略合作，共建联合实验室。</p>
-<p>AI制药竞争高度内卷，今年以来多家AI药企因为业绩不佳，开始裁员和管线调整的阵痛期<strong>。</strong>向新的应用领域进军，是厂商打造新增长点的方式。</p>
-<p>当下，国内材料行业也面临着诸多挑战，可以总结为“先进基础材料参差不齐，关键战略材料受制于人，前沿新材料技术有待突破”。而AI辅助研发有助于缩短材料从发现到应用的时间，提高研发效率。</p>
-<p>尤其是在固态电池材料、光伏钙钛矿材料等在各自行业内具备革命性的新材料的研发上，<strong>AI4S被不少专家认为是研发的突破口。</strong></p>
-<p>以全固态电池为例，其研发的难点之一就在于开发稳定的电化学材料体系。日本丰田拥有全球最多的固态电池领域专利数，在过去30多年已尝试了数万种电解质应用到电池中，但至今未成功量产，而AI4S有希望帮助解决这一问题。</p>
-<p>中国科学院院士欧阳明高也在今年1月的一次会议上指出：“锂电下一个十年的技术竞争核心在于材料，而人工智能正在改变材料的研发范式，将大幅度加速全固态电池的研发速度。”</p>
-<p>除了宁德时代和协鑫集团外，也有越来越多的头部化工、能源和材料企业积极拥抱AI4S，用于新材料的研发。</p>
-<p>国内头部化工企业万华化学董事长廖增太在今年3月的一次分享中表示，通过AI技术，万华化学可以从1.4万种方案中快速筛选出156种，再进一步优化得到4种有效方案，大大加快了研发进度。</p>
-<p>不过，由于起步更早，AI辅助材料研发更多的应用和案例还是在海外。</p>
-<p>包括微软、谷歌等互联网巨头为了搭配出售云服务，很早就开始开发AI4S的行业模型和PaaS平台。下游的应用方则以大的化工、材料巨头企业为主。</p>
-<p>丁哲波告诉36氪，德国老牌材料企业Merck用AI开发新型OLED发光材料，化工巨头陶氏用AI工具优化聚烯烃用非茂金属催化剂的开发，都是比较成功的典型应用。</p>
-<p>有需求自然就有供给。36氪了解到，作为第三方服务提供商，除了以晶泰科技为代表的上市公司外，以深势科技、深度原理为代表的创业公司，<strong>字节跳动、腾讯、百度等互联网厂商的AI Lab，都在进行AI辅助材料研发的探索或布局。</strong></p>
-<h3><strong>材料发现难度高，AI4S道阻且长</strong></h3>
-<p>同样是AI4S的应用领域，AI材料研发的发展比AI制药晚了约10年时间。前者已经发展成为了超百亿规模的市场，而后者目前的规模则几乎可以忽略不计。</p>
-<p>在贾皓钧看来，AI材料研发和制药虽然底层原理相似，但技术应用大有不同，这与材料这一行业的特性密切相关。</p>
-<p>“AI4S研究科学问题，也必须遵守物理规律。在AI制药领域，蛋白质大分子的生物属性决定了其组合数量是比较有限的，更多的研究集中在探索空间折叠结构。而化学材料的元素组成、配位结构等更加多变，排列组合的候选空间数量级更高，<strong>导致早期做发现和优化的难度更大。</strong>”</p>
-<p>高质量数据的缺乏，也是AI材料研发要面临的难题之一。</p>
-<p>“AI材料研发面临的最大问题，还是在高质量的数据。”丁哲波表示，生物医药领域的大量原始数据，是通过文献报道公开披露的，比较容易获取，可以用于模型训练。但化工新材料行业相对比较封闭，涉及到材料、催化剂的原始数据往往是企业的商业机密，并不对外开放。</p>
-<p>对此，曾毓群也曾在接受采访时坦言，AI4S（用于电池材料研发） 目前还没有特别好的模型、结构、算法，还有很长的路要走。</p>
-<p>AI研发在实际落地中还面临着客观条件的限制，尤其是人才的紧缺。</p>
-<p>材料的AI研发属于材料学与计算机的交叉学科，需要两方面都精通。而国内化学系人才普遍不掌握编程能力，企业缺乏既懂材料又懂计算机的跨界人才。</p>
-<p>深势科技CEO孙伟杰今年5月在接受采访时提到，该公司总员工数接近300人，有80多人是实习生。因为“AI4S要求很强的跨学科能力，<strong>我们根本从市场上招不到。</strong>”</p>
-<p>前瞻性的技术往往不够成熟，存在着诸多瓶颈，需要付出更多时间和成本进行探索。</p>
-<p>但从巴斯夫、陶氏到宁德时代、万华化学等头部能源、材料巨头的积极布局，到诺贝尔化学奖的青睐，无疑已经肯定了这一赛道的长期价值。</p>
-<p>“有机化学家经常使用一种叫做逆向合成的方法寻找目标分子的合成路线，这个方法曾经在上个世纪的90 年代拿到诺贝尔奖。但我相信再过20年，几乎所有的逆向合成都可以用AI来完成，包括反应路线的推荐，甚至反应物和反应条件的推荐与优化。<strong>AI驱动的新材料研发会颠覆整个化工新材料行业。</strong>”丁哲波表示。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993456849759234</guid><pubDate>Wed, 16 Oct 2024 09:00:00 +0800</pubDate></item><item><title>「星动纪元」完成近3亿元Pre-A轮融资，专注原生机器人大模型+AI硬件平台｜硬氪独家</title><link>https://36kr.com/p/2993543239314440</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>作者 | 黄楠</p>
-<p>编辑 | 袁斯来</p>
-<p>硬氪独家获悉，具身智能公司「星动纪元」近日完成近3亿元Pre-A融资，本轮由清流资本、元璟资本、阿里巴巴联合领投，策源资本跟投，老股东联想创投、世纪金源、金鼎资本、泽羽资本、清控天诚持续追投，华兴资本继续担任本轮独家财务顾问。 </p>
-<p>融资资金将用于加速具身智能技术的原生性突破性研发以及通用人形机器人的商业化进程，并持续构建公司人才和技术壁垒。 </p>
-<p>这也是自成立来「星动纪元」完成的第三轮融资；此前，公司获得了由联想创投领投，金鼎资本、泽羽资本、清控天诚跟投，老股东世纪金源追投的超亿元天使轮融资，以及由世纪金源领投，图灵创投跟投的数千万元种子轮融资。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,1138" src="https://img.36krcdn.com/hsossms/20241016/v2_667aa234e46f4952a87b4b756717a43d@6022551_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">STAR 1在丹霞地貌上跑步 </p>
-<p>「星动纪元」由清华大学交叉信息研究院助理教授陈建宇创立，是唯一一家清华大学占股的人形机器人企业，并获上海期智研究院支持。公司专注于原生通用具身智能体研发，推出了原生机器人大模型+AI定义的全新硬件平台。 </p>
-<p>原生机器人大模型是「星动纪元」提出的一种AI原生学习范式，兼具通用性和简洁性，并具备充分Scale-Up（扩大）能力。其算法基于全模态输入融合处理视觉、听觉、触觉等感官信息，可以有效还原有机体与物理世界的交互方式，增强对跨模态信息处理能力，使智能体能够更全面、灵活地感知和理解环境。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241016/v2_8ed903722d594303bb311fa21b500d31@6022551_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">STAR 1正在逗猫 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241016/v2_7b2b2840ae714de195e9c759c923938c@6022551_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">STAR 1对桌面物体进行抓取运动 </p>
-<p>根据实测表现，在通用性上，机器人通过原生机器人大模型可进行自我探索和自我学习，真正实现自主进化与多场景的广泛应用。简洁性方面，模型采用端到端架构，使智能体能实时适应任务和环境，无需复杂的编程或人工干预，大幅提升了灵活性与开发效率。目前，该模型已在「星动纪元」第六代人形机器人STAR 1中应用。 </p>
-<p>星动STAR 1的移动与操作能力采用了端到端纯学习方法，仅依靠一个神经网络，即可让机器人在不同环境中的泛化行走和抓取。基于其语言-视觉-动作大模型，通过语言和视觉信号直接生成动作，可有效避免信息传递损耗，并支持更高效的Scale-Up，以支持新任务场景中机器人用少量数据、也能掌握新技能，提高了自适应能力与扩展性。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241016/v2_75818d2f62734305ba4039b26c4fd8c1@6022551_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">端到端AI算法，长时域控制 </p>
-<p>硬件方面，「星动纪元」推出了软硬一体的人形机器人硬件架构。从底层电机到双足系统和灵巧手，所有部件基于AI友好的前提下，保障算法在硬件上快速验证，大幅提升Sim2Real（从模拟到真实）效率，实现软硬件的协同进化。比如在STAR 1中，自由度由20个提升至55个，可以支持更复杂的人形姿态；其关节扭矩也从从150N·m提升至400N·m，关节转速达到25rad/s。目前，STAR 1已通过多项产品级测试，达到市场应用标准。 </p>
-<p>依托自研的模块化设计，进一步提高了通用机器人的迭代速度。此外，「星动纪元」近期还推出桌面级机器人M1和轮式机器人W1，也验证了模块化在推动技术落地不同行业应用起到的关键作用。 </p>
-<p>历轮投资人的加入对「星动纪元」在具身智能领域应用也将起到推进作用。例如，阿里巴巴将与「星动纪元」在AI技术、云计算等领域展开合作；联想创投、泽羽资本、金鼎资本、清控天诚等及其背后机构也将与公司共同探索人形机器人在3C电子、厨电、家电、物业管理、产业园运营、物流、港口等领域的产业化落地；清流资本和元璟资本也将协助公司加速商业化进程。</p>
-<p>陈建宇表示，以Alpha-GO为代表的深度强化学习、和以ChatGPT为代表的大语言模型，是对通用人形机器人至关重要的2个技术里程碑，“未来几年，这两项技术将与人形机器人、具身智能深度融合。具身智能领域需要原生的规模化算法范式，并结合更加丰富多元的物理世界数据训练。相信在不远的将来，将迎来机器人的ChatGPT时刻。” </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993543239314440</guid><pubDate>Wed, 16 Oct 2024 09:00:00 +0800</pubDate></item><item><title>一文看懂Gen AI浪潮下数据中心的新机遇</title><link>https://36kr.com/p/2994282353548933</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>随着生成式AI出现突破性进展，数据中心行业目前正在经历史无前例的跨越式发展，在未来经济增长和国家安全中有着举足轻重的地位。</p>
-<p>Nvidia 的 GB200 系列需要直接对芯片进行液冷，机架功率密度高达 130kW。在性能上，GB200 相比 H100 推理性能提升了约 9 倍，训练性能提升约 3 倍。</p>
-<p>因此，那些无法提供更高功率密度的数据中心将错失为其客户提供巨大的性能 TCO 改进的市场机遇，并将在生成式 AI 军备竞赛中落后。</p>
-<p>AI需求的驱动促使数据中心设计向适应高功率密度转变。例如，Meta拆除了一整栋在建建筑，因为这是他们多年来一直使用的低功率密度的旧数据中心设计。相反，他们用全新的 AI-Ready 设计取而代之。</p>
-<p class="image-wrapper"><img data-img-size-val="900,290" src="https://img.36krcdn.com/hsossms/20241016/v2_bf9b6dc28a444de5a300e2ab8fb32321@541143641_oswg528608oswg900oswg290_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>变化之下往往潜藏着机遇。昨日SemiAnalysis发布了一篇深度报告，深入探讨了【AI时代下数据中心的投资机遇】，干货满满。</p>
-<p>我给大家解读一下这篇长文的精华内容，报告链接放在文末，欢迎感兴趣的朋友去看原文。</p>
-<p>在正式展开之前，我先把主要结论列出来：</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 16 Oct 2024 10:00:30 +0800</lastBuildDate><pubDate>Wed, 16 Oct 2024 10:00:30 +0800</pubDate><item><title>归来，出任耐克全球CEO，希尔有“三支箭”</title><link>https://36kr.com/p/2994501386741632</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>耐克集团（NYSE：NKE）正面临数十年来最艰难的局面之一，作为全球最大的运动品牌，耐克长期将竞争对手甩在身后。但在今年6月，公司意外透露2025财年销售额可能出现下滑，消息曝出后，耐克股价经历了史上最大跌幅。当地时间6月28日，耐克股价下跌19.98%，市值蒸发约284.1亿美元（约合人民币2064.6亿元）。</p>
+<p>关键时刻，曾在耐克工作长达32年，从实习生干到退休的“老耐克人”——耐克前任全球总裁埃利奥特•希尔（Elliott Hill，以下统称希尔）于美国当地时间10月14日重返俄勒冈州比弗顿的耐克总部，出任耐克新一任首席执行官。</p>
+<p>华尔街将耐克的困境归咎于退出零售合作伙伴模式以及日益激烈的竞争等。耐克前CEO约翰•多纳霍（John Donahoe）加速推行的直销渠道优先战略破坏了耐克跟传统合作伙伴的商业关系。希尔的上台被投资者寄予厚望——他们希望希尔能够修复耐克与经销商之间的关系，同时留住和激励那些对公司发展失去信心的员工。至关重要的是，他还需要加速新产品的开发，重振耐克引以为傲的冒险精神。</p>
+<p>北京时间10月15日，是希尔重返耐克的第一天，当日耐克股价微跌。从现在起，希尔下一步的行动将在很大程度上左右耐克的股价。未来耐克能否扭转局势，取决于希尔接下来将要发射的“三支箭”，或者更多。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,756" src="https://img.36krcdn.com/hsossms/20241016/v2_9e4900b054e4466bb6eb18f1e1faaabb@1743780481_oswg110592oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：每日经济新闻 资料图</p>
+<h2><strong>第一支箭：重用老将 回归冒险精神，多位高管更新，他们都是耐克老员工</strong></h2>
+<p>为了扭转耐克当前的局面，已于2020年退休的61岁老将希尔毅然选择了重返耐克。与希尔合作过的人形容他是一个善于倾听、擅长合作的人。</p>
+<p>对于希尔的回归，耐克传奇联合创始人菲尔•奈特（Phil Knight）直言，他是此时最正确的人选。</p>
+<p>1988 年，希尔在孟菲斯以实习生身份加入耐克，并在2000年晋升为负责不同地区零售和电商业务的管理层。他曾负责过全球零售部门，在中国开设了耐克的特许经营店。2010年，希尔接管了耐克的北美业务，在4年内将该地区的销售额提升了60%。随后，他被提拔为全球总裁。</p>
+<p>耐克的高管认为，希尔是耐克元老级人物奈特和帕克领导下品牌崛起的关键人物之一，代表了老耐克人一以贯之的冒险精神。</p>
+<p>2020年，当耐克董事会选择多纳霍领导公司时，他是耐克48年公司历史上仅有的第二位外聘首席执行官。创始人奈特当初希望将多纳霍的硅谷思维带到俄勒冈州，让耐克的电商业务与时俱进。</p>
+<p>对于希尔的回归，一位在行业深耕十余年的资深专业人士向《每日经济新闻》记者表示，“我个人觉得是一件好事。因为耐克正处于两个不同的阶段。过去几年因为疫情，在推进数字化时，耐克换上的是懂数字化配置，懂线上业务的人。但是耐克的灵魂其实在于‘冒险精神’，是那种勇于去承担失败，最后达到成功的创新精神。而职业经理人最重要的目标却是利润和营收。对耐克来说，也就丧失了耐克最重要的冒险精神”。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,754" src="https://img.36krcdn.com/hsossms/20241016/v2_d2463ce9d968443d98b8cd13573ae223@1743780481_oswg202579oswg1080oswg754_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：每经记者 张建 摄</p>
+<p>“在（职业经理人）多纳霍的管理下，耐克偏离了其品牌的DNA，返聘希尔是重塑耐克品牌文化的第一步。”Piper Sandler分析师安娜•安德烈娃表示。</p>
+<p>就在希尔上任前不久，耐克又任命了一位最近回归的高管负责北美业务。10月10日（上周四），耐克宣布汤姆•佩迪（Tom Peddie）将担任北美地区总经理，这是耐克目前最大的区域市场。</p>
+<p>佩迪此前在耐克效力约30年，横跨不同业务板块，负责过全球销售、新兴市场以及批发合作伙伴。耐克希望他的到来可以修复公司与合作商的关系，并解决销售额下降等问题。</p>
+<p>不论是新到任的CEO希尔还是大将佩迪，他们的回归释放出一个信号——耐克将调整商业策略，回归多纳霍执掌耐克前的日子。在业内人士看来，这意味着接下来耐克将转向更紧密的批发合作伙伴关系，更具冲击力的产品创新以及对性能鞋服的关注。</p>
+<p>在耐克内部看来，招募更多这样理解并践行过耐克传统品牌文化的老将，或将有助于扭转局势。截至目前，耐克已经返聘、提拔了多员大将，他们都曾是耐克的长期雇员。</p>
+<p>“现在耐克把很多老人召回，是因为老耐克人很懂耐克。他们从一开始就浸润在耐克的冒险文化中。新的CEO希尔经历过耐克最辉煌的时候，包括签约乔丹之后的那些起起落落。北美地区任命的佩迪也是如此。这些老人知道应该怎么去推动创新和业务增长。”前述行业人士对记者说。</p>
+<p>据耐克中国官网近日消息，董炜将担任耐克大中华区董事长兼CEO，及ACG品牌全球CEO。董炜于2005年加入耐克中国，过去10年间，她出任耐克全球副总裁、耐克大中华区总经理。</p>
+<p>随着希尔回归，华尔街普遍预计耐克高层还会有更多变动。</p>
+<h2><strong>第二支箭：转变营销模式，修复经销商关系，“倾尽全力，以重新点燃耐克批发业务势头”</strong></h2>
+<p>2020 年，在多纳霍成为耐克公司首席执行官时，他已经担任过3家公司的首席执行官——贝恩公司、eBay公司和云计算公司ServiceNow。</p>
+<p>耐克聘请多纳霍改造耐克的销售机制，使公司更加适应现代社会，减少中间商，寄望于从每笔销售中获得更高的利润。这种策略被称为DTC（Direct To Consumer，直接面对消费者的营销模式），是一种直接向客户销售产品，从而绕过第三方零售商、批发商或任何其他中间商的商业模式。</p>
+<p>彼时，多纳霍领导了一场全球性的企业裁员，砍掉了与一半以上零售合作伙伴的合作关系，终止了数百份协议，并缩减了全球市场销售团队的规模。</p>
+<p>随着耐克将客户引导到自己的商店和网站，它也停止了向亚马逊、Zappos、Dillard’s和Urban Outfitters等零售商供应运动鞋，甚至减少了其在美国最紧密的合作伙伴Foot Locker的商品供应。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,759" src="https://img.36krcdn.com/hsossms/20241016/v2_bc698868cc414062b6164c077bc0022c@1743780481_oswg126542oswg1080oswg759_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：每经记者 张建 摄</p>
+<p>一度看似奏效的战略让耐克2022财年DTC营收达到187亿美元，同比增长14%，其中，耐克品牌数字业务增长18%，耐克自营门店收入增长10%。2023财年直营收入在总营收中占比已经达到了43.6%，收入规模已是2017财年时的1.5倍。</p>
+<p>多纳霍加速推进直销渠道优先战略以来，耐克的竞争对手迅速占据了被空置的货架空间：阿迪达斯、新百伦、彪马⋯⋯一大批跑鞋品牌突然发现自己获得了更多的曝光率，其中不少是运动新贵，如Hoka 、On昂跑和萨洛蒙，它们蚕食了耐克在其最重要类别上的市场份额。</p>
+<p>前述行业人士告诉记者，“DTC模式能够提高产品的利润率（因为不用经过分销渠道），是个很好的策略。只是耐克过去几年做得比较激烈，把资源倾斜到这一块之后，忽略或者减少了对于合作伙伴的支持”。</p>
+<p>但随着欧洲、中东和非洲地区经济放缓等宏观不利因素增加，加上线上流量持续下降，DTC模式对耐克整体营收的提振效果愈发有限。在新的挑战下，为了保证品牌能得以继续增长，耐克不得不寻找新的增长方向。</p>
+<p>在耐克最近的盈利电话会议上，耐克CFO马修•弗兰德（Matthew Friend）强调了佩迪的回归。他称，佩迪、团队其他成员以及公司的合作伙伴正在“倾尽全力，以重新点燃耐克批发业务的增长和势头。”</p>
+<p>而据经纪公司Williams Trading上个月在一份报告中透露，“与我们交谈过的耐克批发合作伙伴对佩迪先生的回归非常满意”。</p>
+<p>对于耐克接下来的销售模式选择，前述行业人士表示，“我个人认为，耐克没有不做DTC的意思，DTC与经销商渠道不是非此即彼的。耐克不会放弃DTC。只是稍微减少或者保持不变，再抽出精力去把合作伙伴做上来。这一块就是耐克的增量市场了”。</p>
+<p>在中国市场上，耐克主要通过滔搏等代理商开设品牌门店。自1999年滔搏和耐克建立合作以来，滔搏一直是耐克在中国最大的零售运营合作伙伴及客户（按进货金额计）。根据滔搏财报，耐克和阿迪达斯作为其主力品牌，贡献的营收在总营收占比连续多年超过85%。</p>
+<p>有业内人士告诉记者，耐克的DTC策略对滔搏等影响不大，国外经销商受到的影响更多。</p>
+<p>“在国外，这些经销商门店多是集合店（可以理解为鞋类超市），这样耐克的货少了，自然会有其他品牌补上。耐克的销售就会出现下滑。”前述行业人士进一步分析道。</p>
+<p>据外媒报道，为了尽快修复与海外合作伙伴的关系，耐克高管目前已经接待了他们的零售合作伙伴，还向他们展示了计划于2025年下半年发布的产品。此外，耐克还在投资其合作伙伴的商店，在Foot Locker和Dick's Sporting Goods商店开发新的区域。</p>
+<h2><strong>第三支箭：加速新品研发，强调产品为王，“丢失了‘产品为王’精神，赢得跑者非常重要”</strong></h2>
+<p>众所周知，耐克在产品突破和推动运动文化潮流领域可谓大师级别。但在多纳霍接管耐克后，耐克最成功的鞋款都是公司最古老的一些款式。</p>
+<p>多纳霍擅长成本管理，被认为是一位经验丰富的技术高管和顾问，但他对运动鞋知之甚少。</p>
+<p>在他任职的头两年是成功的，新冠疫情初期阶段，耐克销售额增长了约25%。多纳霍向市场推出了大量令消费者爱不释手的运动鞋。耐克发布了更多的Dunk、Air Force 1和Air Jordan 1，这些鞋款都是在大约40年前开发的，有数百种颜色，几乎每天都有新款。</p>
+<p>“在多纳霍任期内，少数新品之一是耐克今年3月份发布的Nike Air Max Dn。这一技术本质是动态气垫，还是基于耐克以前Air技术的鞋底缓震系统。”时尚产业从业20多年的资深人士潘俊向记者直言，“（多纳霍执掌下的耐克）明显没有什么创新产品，只能过度营销了。耐克在过去几年丢失了‘产品为王’的精神。希望之后能恢复回来”。</p>
+<p>目前，耐克正在努力管理Nike Dunk、Air Force 1和Jordan 1三大主要鞋类系列，这些系列曾将公司销售额推高至500亿美元，但从去年起，这些鞋类赢家逐渐失去了吸引力。CFO弗兰德表示，为了“创造更好的平衡”，公司正在有意减少这些系列所占的业务比例，同时重新关注性能运动鞋和服装。他还将足球、健身和跑步列为增长领域。</p>
+<p>在此前的财报电话会议上，耐克强调了自身在跑步领域的业务优势，并表示接下来将推出价格低于100美元的新产品。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,756" src="https://img.36krcdn.com/hsossms/20241016/v2_5d88abda222f482ba2501ff3d3758b2a@1743780481_oswg83269oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：每经记者 郑雨航 摄</p>
+<p>“跑步这个品类的基本面还是在耐克、阿迪达斯、亚瑟士这些传统品牌上。耐克第一双鞋就是跑步鞋，整整做了50年的跑步鞋。传统积累足够深，随着跑步慢慢变成一项专业化的运动后，大家对于这种专业性的需求会更强。”前述行业人士表示。</p>
+<p>耐克这几年一直被诟病产品未能优先考虑跑者，这曾是其关键市场之一。</p>
+<p>“我们承认，我们在跑步专业渠道失去了市场份额。”弗兰德说，为了强调该细分市场的重要性。他补充称，“耐克是一家跑步公司，耐克是一个跑步品牌，对耐克来说，赢得跑者非常重要”。</p>
+<p>在这个关键节点上，不论是华尔街还是耐克公司本身，都希望在新上任的希尔身上看到更多老耐克人的“冒险精神”。</p>
+<p>毕竟耐克已经很久没有推出过能够让公司长期依赖的突破性新品。大众希望希尔能激励耐克的设计师和运动鞋开发人员，让他们将更多畅销鞋款带向市场。“公司在产品端的优势正在被追赶。不过耐克资深球鞋设计师Frank Cooker已宣布回归。这是个好消息。”潘俊表示。</p>
+<p>但新款式要面向终端市场，可能需要一年或更长的时间。据前述行业人士透露，“目前已经10月份，经销商那边2025年的货已经订完了。新CEO的业务要从2026年开始”。</p>
+<p>分析师安德烈娃补充说：“尽管我们认为希尔是变革的推动者，但2025财年可能会被视为一个过渡年，根本性的复苏可能需要时间，目前公司股票处于区间波动。”</p>
+<p>截至美国当地时间10月14日收盘，耐克股价今年以来累计下跌23.92%，同期标普500指数上涨了22.85%。</p>
+<p>“重大转变不会在一夜之间发生。尤其是耐克这种体量的公司，要看到对公司业绩产生实质性的影响，可能需要投资者的耐心。”詹森投资管理公司的投资组合经理亚当•卡拉马尔表示。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/dC9uI5niynAmfzvq2df_2w" rel="noopener noreferrer nofollow" target="_blank">“每经影视”</a>，作者：孙宇婷 王紫薇 舒冬妮，编辑：陈俊杰，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994501386741632</guid><pubDate>Wed, 16 Oct 2024 09:30:00 +0800</pubDate></item><item><title>置换国补之下：车企卖疯了，1个销售每天接待140个客户</title><link>https://36kr.com/p/2994502005746051</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>强力的国家置换补贴，让今年新能源车企们的 “ 金九银十 ” 更热闹了。</p>
+<p><strong>“ 销售在一个地方站定不会超过30秒就会有客户的过来咨询。”</strong>北京朝阳某商圈小鹏汽车的销售对知危编辑部描述国庆节消费者看车的盛况。</p>
+<p><strong>“ 十一假期期间，一天下来一个销售能接待 140 多个客户，基本连喝口水的时间都没有。”</strong>他继续说道。</p>
+<p>据知危了解，他所在的店面一共有 15 个销售，十一期间 5 个人负责带客户试驾，剩下 10 个销售轮流倒上下午班。<strong>即使如此，客流量还是大到出现 1 个销售同时带 3 组客户看车的情况。</strong></p>
+<p>这样的热度不止小鹏一家。新能源的看车热从九月开始，在国庆期间达到顶峰并延续到了现在，<strong>而政府对新能源的补贴政策显然是最直接的驱动力。</strong></p>
+<p>国际智能运载科技协会秘书长张翔对知危表示：“ 现在的补贴包括以旧换新、新能源下乡、汽车金融政策等，都是偏向新能源车的。<strong>最能带动的是 30 万元以下价位车型的消费。</strong>新车型的推出会带来一部分观望情绪，但是政策出台的惯例是存在一个比较长的时间周期，所以短期内基本不会有下一个这样大的政策。<strong>逼近年底，天气越来越冷，有买车意向的消费者基本都会在这时候下定决心，所以必然会带动新能源车的消费。</strong>”</p>
+<p>以北京市为例，《 北京市加力支持汽车以旧换新补贴实施细则 》中提到，<strong>报废符合标准的旧车并购买新能源乘用车的，由原来补贴 1 万元提高到 2 万元</strong>，报废符合标准的旧车并购买 2.0 升及以下排量燃油乘用车的，补贴由原来的 7000 元提高到 1.5 万元。旧车置换补贴从 2024 年 9 月 1 日起，至 2024 年 12 月 31 日，满足条件的申请人可以直接享受 1.5 万元置换补贴。<strong>简单来说：买新能源车提供老车报废证明补贴 1.5 到 2 万；旧车卖二手后置换新车，补贴 1.5 万。</strong></p>
+<p>知危在走访各个新能源汽车门店时发现，<strong>北京地区各家门店几乎都打出了置换补贴相关的海报，也有品牌亮出专门的 “ 汽车以旧换新补贴问答手册 ”。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241016/v2_f77b84eff09d4635960c4a5806e14758@1743780481_oswg188860oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>国补搭台唱戏的背景下，各家车也卖力的推出了厂家补贴政策，新能源车企们的价格战卷出了新高度。</strong></p>
+<p>一个很明显的变化是，最近知危走进各个品牌店铺时，<strong>不少销售上来问的第一句话便是：“ 是置换吗？”</strong></p>
+<p>理想汽车北京通州北苑零售中心的销售告诉知危，除了 1.5 万元置换补贴、1 万块钱的京牌补贴以及 2 万购车积分（ 相当于 2000 元，可以用作充电等 ）外，国庆假期内购车的，还可以在苹果耳机、1000度电、脚垫后备箱垫三项中选一项作为购车福利。并且，在 10 月 13 号之前锁单，还可以享受顺义的 5000 元工厂补贴。<strong>算下来，京牌置换理想的用户相当于直接便宜 3 万块。</strong></p>
+<p>国庆之后，即使是工作日的下午，AITO 问界体验店北京通州万达广场店看车的消费者们也络绎不绝。除了置换和京牌补贴 1 万外，<strong>据销售介绍，截止到这个月底，购买 M7 现金减免 3000 元，最大能减 2.7 万元。</strong></p>
+<p>除了现金减免外，问界还送 1.2 万的内外饰选配金和 2 万的城区智驾包优惠。激烈的竞争下让优惠政策再度加码，10 月 13 号至 27 号，鸿蒙智行再次发布限时购车权益，3699 的养车安心包里包含 2 次基础保养和 2 年轮胎保障。</p>
+<p><strong>北京朝阳合生汇的蔚来门店，甚至直接亮出 1.5 万北京新能源置换补贴政策倒计时给客户带来紧迫感。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241016/v2_11b1a97780714fd5925f89262da3c39f@1743780481_oswg57347oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>销售称在 1.5 万置换补贴的基础上，10 月份购买蔚来 ES6 可享受现车 2000 现金优惠，京牌 5000 现金补贴，<strong>总共 2.2 万现金补贴。</strong>额外还有 ES6 专享选装基金18000 元、增换购享 20 张免费换电券等赠品。</p>
+<p><strong>极氪汽车的销售直言：“ 这个月要冲三万交付量。”</strong>所以直接拿出品牌补贴的诚意，官方权益送 11000 元的 21 寸轮毂，35000 元的智能驾驶，还有 6000 元的颜色免费。</p>
+<p>极氪销售甚至表示：“<strong>我们可以给您拿浙江的补贴，浙江的置换补贴是 18000，滨江有个区域补贴是 4000，这两个补贴可以叠加，总共 2.2 万，还能送个充电桩。</strong>但要求 20 号前开票，所以只有现车能拿到。”</p>
+<p><strong>政府补贴加品牌补贴，真金白银的投入直接带动了九十月份的 “ 看车热 ”，销量也显而易见的增长。</strong></p>
+<p>根据中汽协统计数据，2024 年 9 月，我国新能源汽车产销分别完成 130.7 万辆和 128.7 万辆，<strong>同比分别增长 48.8% 和 42.3%</strong>，新能源汽车新车销量占汽车新车总销量的 45.8% 。<strong>而更值得注意的是，今年 1 到 8 月份，除了 1 月和 3 月其他月份销量都低于 2023 年。</strong></p>
+<p>国家税务总局发布的数据显示，国庆假期新能源车销量同比增长 45.8% 。10 月 1 号，新势力们纷纷亮出 9 月成绩单，国庆假期一周后，各家又迫不及待晒出周交付量。</p>
+<p>9 月，理想月交付量再破 5 万，用 53709 辆的成绩创新高。2024 年第 40 周（ 9.30-10.6 ），理想汽车周销量达 0.87 万辆。连续 24 周获中国市场新势力品牌销量第一。</p>
+<p>理想汽车北京通州北苑零售中心销售人员对知危编辑部介绍，<strong>今年国庆假期堵在高速路上，有不少客户看到理想亮着蓝色智驾灯便当场被安利来店里咨询，假期直接下订单的用户也不少。</strong></p>
+<p><strong>“ 国庆一周我们一个店的销量有 40 台，而平常一个月的销量也就在 100 台左右 ”。</strong>该销售直言，“<strong>国庆期间理想的试驾根本约不过来</strong>，每个顾客试驾体验时间其实很短，基本没有试驾体验，主要还是靠销售来讲，最好还是工作日来试驾。”</p>
+<p><strong>在问及销量时，零跑汽车的销售露出笑意，坦言：“ 确实还不错。”</strong>而店里的广告屏上，显示着月交付量突破 3 万的海报。同样在 3 万梯队的，还有埃安和问界。</p>
+<p>新能源新秀小米更是不甘示弱，10 月 1 日，小米集团董事长雷军在直播中透露小米汽车当前每周新增锁单在 4000 辆以上，交付周期已排到 2025 年 2 月以后，并直接提出十月的交付目标要突破 2 万台。紧接着 10 月 14 日，雷军在其社交平台上发文宣布，小米汽车旗下的 SU7 车型首次实现单日交付量突破 1000 台。</p>
+<p><strong>品牌们几乎都借着国补的劲儿推出品牌补贴冲销量，除此之外，各家还在金九银十集中上新。</strong></p>
+<p>小鹏汽车的销售告诉知危，在 10 月 10 日小鹏旗下全新车型 P7+ 上新的前一晚，所有销售都在考核背诵新车配置、性能等销售话术，当晚进行视频考核。<strong>该销售表示，新车一发，他的手机几乎没停过，客户几乎都是询问新车相关消息。</strong></p>
+<p>于是，<strong>在各家都在催促消费者 “ 抓紧 10 月优惠补贴，尽快下单 ” 的时候，小鹏的销售却自信满满地表示：“ 您就等新车。”</strong></p>
+<p>10 月 14 日，小鹏汽车官方发布推文宣布，预售 1 小时 48 分钟，小鹏 P7+ 订单已经突破 30000 台。</p>
+<p>同一天里，零跑 B10 汽车在 2024 巴黎车展上正式亮相，并表示将聚焦 10 到 15 万元市场明年上市。极氪智能科技 CMO 关海涛也宣布将在本月发布可以在车里 “ 吃火锅、打麻将 ” 的极氪 MIX 。</p>
+<p>一位新能源汽车销售对知危表示：“ 一般来说七八月份能休息一阵儿，今年 7 月 21 号又补发了政策，7 月这批忙完，又赶上 9 月的新政策，然后就是国庆，国庆刚忙完，新车又上市了。今年基本没有休息的时间。”</p>
+<p><strong>政策补贴加上品牌内卷，带来买车热的背后，必定是车企们竞争的加剧。补贴带来的看车热直接且明了，但有人欢喜就有人愁。</strong></p>
+<p>比如北京通州万达里，<strong>和其他家的人来人往相比，隔壁只有一台 L60 的乐道显得有些寂寞。销售表示目前除了政府补贴外并无品牌直减，只有一些积分、换点券等优惠赠品。</strong></p>
+<p>目前来看，国补补贴政策带来的利好是真实的，但同时也难改车企们焦虑的底色。</p>
+<p>“ （ 厂商 ）<strong>优惠政策基本一个月一变，但是 10 月份的补贴确实力度大，我们也不知道下个月的补贴是什么样。</strong>” 不少销售的话语中也透露着希望顾客尽快下单的焦灼。</p>
+<p>还有一位销售透露：“看车的人确实变多了，但是大部分人还是在比较中，能立即定下顾客也比较有限，<strong>可能要等政策临近结束时，也许会有一个小的高峰。</strong>”</p>
+<p>距离置换国补的结束还有两个月，或许，我们可以期待一下各个厂商年底的成绩，新能源汽车作为为数不多的高速增长的行业，没准能在年底再创新高。</p>
+<p><strong>而据行业间传闻，年底国家可能还会再推出新能源汽车下乡活动，在其他补贴之上再加码下乡补贴。</strong></p>
+<p><strong>毫无疑问，对于新能源汽车企业来讲，这个冬天，将是一个火热的冬天。</strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/SQnmmaMVu6OBuaTi9UQyjA" rel="noopener noreferrer nofollow" target="_blank">“知危”</a>，作者：闹米，编辑 ：大饼，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994502005746051</guid><pubDate>Wed, 16 Oct 2024 09:31:00 +0800</pubDate></item><item><title>花 3 万美元买“人工”智能？特斯拉 Optimus 机器人遭“打假”：有人在背后远程操控</title><link>https://36kr.com/p/2994493084412296</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>上周四，在特斯拉的“We，Robot”的新品发布会上，人形机器人「擎天柱」（Optimus）的意外亮相令许多人都深感惊艳：不仅能跳舞、调制饮料，还能与现场嘉宾击掌互动、玩“石头剪刀布”……按理来说，这本该是特斯拉展示 Optimus 机器人进展的一次绝佳机会。</p>
+<p>然而，近日有知情人士指出：那天 Optimus 所展现出的令人印象深刻的表现，其实都是有人在远程操控的，它“并没有展示出来的那么智能”——此消息一出，无数网友大呼“被骗”。</p>
+<h2><strong>售价仅“2-3 万美元”的人形机器人</strong></h2>
+<p>时间回到 10 月 10 日，在特斯拉举行的 “We，Robot” 发布会上，Optimus 机器人无疑是活动焦点之一：在马斯克的号召下，多个 Optimus 机器人在人群中穿梭，不仅向嘉宾提供了饮品，还与他们进行了简短对话，甚至跳舞娱乐。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,562" src="https://img.36krcdn.com/hsossms/20241016/v2_fcd844b68b08475694e91047b956be30@1743780481_oswg765595oswg1000oswg562_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在马斯克的设想中，特斯拉的未来不仅仅限于电动汽车，人工智能和自动驾驶技术也是其核心愿景的一部分，他还表示 Optimus 机器人将成为有史以来最伟大的产品。</p>
+<p>“它（Optimus）能做什么？”马斯克说道，“它可以成为老师，照看你的孩子，还可以遛狗、修剪草坪、买菜，甚至还能成为你的朋友或是调酒师。无论你能想到什么，它都能做到。”</p>
+<p>当时，马斯克还透露了关于 Optimus 的未来规划：预计将在 2026 年开始量产，规模化生产后成本将在 2-3 万美元之间，而更进一步的目标是将成本降到 1 万美元左右，把售价控制在 2-3 万美元之间（约合人民币 14 万到 21 万元）——“这是我的长期预测，虽然实现这一目标还需要一些时间，但在大规模生产的情况下，这个机器人的价格会非常实惠。”</p>
+<p>在没有对比的情况下，许多人可能对 Optimus “2-3 万美元”这个售价没有太大概念：</p>
 <ul>
-<li>随着Gen AI的发展，数据中心的设计更注重提高功率密度和计算密度，全新的设计理念蕴藏着新的机会。</li>
-<li>按关键IT功率，可以将数据中心分为零售数据中心、批发数据中心、超大规模数据中心这三类。</li>
-<li>数据中心的关键电气设备包括：高压电压器、中压开关柜、柴油发电机、不间断电源（UPS）等。</li>
-<li>电气设备往往形成寡头垄断的市场格局，在AI需求驱动下有望大幅提升收入规模和利润率。</li>
-<li>值得关注的电气设备供应商包括：<strong>Schneider、ABB、CAT、VERTIV、EAT-N</strong>等。</li>
+<li>本田、通用汽车以及波士顿动力，他们早期制造人形机器人的成本几乎都在 200 万美元以上；</li>
+<li>两年前，小米发布人形机器人 CyberOne，雷军曾透露其单体成本在 60-70 万元左右；</li>
+<li>今年 8 月，稚晖君创办的智元机器人连发 5 款机器人，公司合伙人兼营销副总裁姜青松介绍道，目前身高 1.7m 左右的通用人形机器人，市场售价一般在 60 万-70 万之间（特斯拉 Optimus 的身高大约 172cm）。</li>
 </ul>
-<p>下面我们正式开始。文章有点硬核，建议耐心阅读哈。</p>
-<h2><strong>（1）从“配备空调的办公楼”开始</strong></h2>
-<p>数据中心旨在以高效、安全的方式为 IT 设备供电，并在 IT 硬件的使用寿命内实现最低的总拥有成本（TCO）。</p>
-<p>IT 设备通常布置在装有服务器、交换机和存储设备的机架中，运行这些设备需要大量电力并产生大量热量。</p>
-<p>30 年前的数据中心就像是配有空调的办公楼。但如今，随着消费者每天观看数十亿小时的 YouTube、Netflix和Instagram，数据中心的规模已大幅扩大。</p>
-<p>现代数据中心每平方英尺所需的电量可能是办公楼的 50 倍以上，为这些服务器散热则需要完全不同的冷却设备，这引发了数据中心建设方式的深刻变化。</p>
-<p class="image-wrapper"><img data-img-size-val="900,585" src="https://img.36krcdn.com/hsossms/20241016/v2_9ef58a0020104fd9934127e17f9f2be4@541143641_oswg851386oswg900oswg585_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在这种规模下，数据中心的任何故障都会造成重大损失，这就需要数据中心内部拥有可靠的电气和冷却系统。</p>
-<p>电气故障虽然更常见，但往往具有较小的“爆炸半径”。而冷却故障一旦发生，造成的破坏性会很大。</p>
-<p>根据Uptime Institute以及ANSI/TIA-942标准，可以将数据中心按“预期停机时间”和“冗余度”进行分层评估，如下图所示。</p>
-<p class="image-wrapper"><img data-img-size-val="900,670" src="https://img.36krcdn.com/hsossms/20241016/v2_df90bf6d9d3842d8baa836599c0762b1@541143641_oswg562064oswg900oswg670_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中，Tier 3级在全球大型数据中心中最为常见。</p>
-<p>当我们谈到“冗余度”时，通常使用“N”、“N+1”或“2N”等术语。例如，如果一个数据中心需要 10 个变压器，N+1 的冗余度表示总共需要储备 11 个变压器，其中 10 个可运行，1个冗余，而 2N 则需要购买 20 个变压器。</p>
-<p>一个Tier 3级数据中心，通常要求变压器和发电机等组件具有 N+1 冗余，配电组件（不间断电源 UPS和配电单元 PDU）具有 2N 冗余。</p>
-<p>Tier 4级数据中心不太常见，通常用于政府或国防领域。</p>
-<h2><strong>（2）数据中心的核心参数：Critical IT Power</strong></h2>
-<p>数据中心的规模和设计各异，我们通常根据其关键 IT 功率容量（Critical IT Power Capacity）对它们进行分类。这是因为在主机托管业务中，运营商会租赁空机架并按“IT 千瓦/月”定价，数据中心的空间成本远低于电气和冷却设备的成本。</p>
-<p>关键IT功率是指IT设备的最大功率，而电网的实际消耗也包括非IT负载，例如冷却和照明。这就涉及到“利用率”的概念，通常来说云计算的电力利用率通常为 50-60%，而 AI 训练的电力利用率则超过 80%。</p>
-<p>根据关键IT功率的差异，我们可以将数据中心分为以下三个类别。</p>
-<h3><strong>零售数据中心（Retail Datacenters）</strong></h3>
-<p>零售数据中心通常规模较小，功率容量较低 ，最多几兆瓦，通常位于城市内。</p>
-<p>他们通常有许多小租户，这些租户只租用几个机架（即几千瓦）。</p>
-<p>零售数据中心的主要价值在于“位置、位置、位置”，其运营模式更类似传统的房地产公司。</p>
-<p class="image-wrapper"><img data-img-size-val="900,505" src="https://img.36krcdn.com/hsossms/20241016/v2_899c3c359d6f4a3bba950033b5a529e0@541143641_oswg805592oswg900oswg505_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>批发数据中心（Wholesale Datacenters）</strong></h3>
-<p>相比零售批发中心，批发数据中心的规模更大，通常可以提供10-30MW的关键IT功率。</p>
-<p>其客户通常会租赁更大的区域，即一整排或多排，并可选择进一步扩展。</p>
-<p>与零售数据中心相比，其价值主张是部署更大的容量并具有可扩展性。</p>
-<p class="image-wrapper"><img data-img-size-val="900,689" src="https://img.36krcdn.com/hsossms/20241016/v2_badae809a444477784140dbcb5cf9523@541143641_oswg1163623oswg900oswg689_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>超大规模数据中心（Hyperscale Datacenters）</strong></h3>
-<p>超大规模数据中心通常由Hyperscalers自行建造，供自己专用。</p>
-<p>这些数据中心通常构成一个大型园区，园区内有多栋相互连接的建筑。这些园区的额定功率通常高达数百MW，其中每栋建筑的功率约为40-100MW。</p>
-<p>例如下图所示，Google的超大规模数据中心功率接近 300MW。</p>
-<p>大型科技公司还可以请服务商为其定制数据中心，然后出租给他们，今年以来100MW 以上的定制租赁越来越常见。</p>
-<p class="image-wrapper"><img data-img-size-val="900,521" src="https://img.36krcdn.com/hsossms/20241016/v2_1005fc99b516407c9c16143421e8c7b8@541143641_oswg933422oswg900oswg521_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为了让大家对Hyperscale Datacenter Campus的电力需求有个直观的感受，我们来做一个比较。</p>
-<p>美国一户普通家庭的平均电力消耗是 1.2 kW，因此一个 300MW 数据中心园区的年用电量相当于约 200,000 个家庭的用电量。</p>
-<p>从另一个角度看，20,840 个 Nvidia H100 集群需要一个具有约 25.9MW 关键 IT 电力容量的数据中心。随着Hyperscalers开始构建 100,000 个 H100 集群，对数据中心关键IT功率将有着显著更高的需求。</p>
-<h2><strong>（3）数据中心中的电力传输路径</strong></h2>
-<p>让我们从一个最简单的布局开始，理解数据中心的设计方式。</p>
-<p>数据中心的设计目标是将大量电力输送到装满IT设备的机架上，这些机架位于被称为数据大厅（Data Halls）的房间中。</p>
-<p>为了最大限度地减少配电损耗，需要将电压保持在尽可能高的水平。这是因为电压越高意味着电流越低，功率损耗与电流的平方成正比（Ploss= I2R）。</p>
-<p>但是高压是很危险的，需要更多的绝缘措施。越靠近终端设备，电压就要越低。</p>
-<p>因此，向建筑物输送电力的首选方法是中压，如11kV 或 25kV 或 33kV。而当我们从建筑物内将电力输送进入数据大厅时，需要再次将电压降低至低压，如美国的415V三相。</p>
-<p>从外到内，电力传输遵循以下路径：</p>
-<p class="image-wrapper"><img data-img-size-val="900,765" src="https://img.36krcdn.com/hsossms/20241016/v2_f03ae24bfefb4dc59804946da6a7910b@541143641_oswg481288oswg900oswg765_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>电力公司一般提供的是高压电力（&gt;100 kV），因此需要使用on-site变电站和变压器来将其降低至中压（MV）。</p>
-<p>然后，中压电力将使用 MV 开关设备安全地分配到一个位于数据大厅附近的变压器，将电压降至低压 (415V)。</p>
-<p>与变压器配对的是柴油发电机，其输出也是 415V 交流电。如果电力公司突然停电，自动转换开关 (ATS) 可以自动将电源切换到发电机，确保持续供电。</p>
-<p>电力进入数据大厅后，开始分成两条传输路径：一条通向IT设备，一条通向冷却设备。我们重点来看IT设备的电力传输路径。</p>
-<p>首先，电力流经 UPS 系统，通过配电单元（PDU）将电力输送给IT设备。</p>
-<p>该系统连接到一组电池，通常有 5-10 分钟的电池存储时间，足够发电机启动并避免暂时停电。</p>
-<p>随后通过电源单元 (PSU) 和稳压器模块 (VRM) 向芯片进行供电。</p>
-<p>当然，这张电力输送图会随着数据中心容量的不同而形成很大差异，但是整体的思路和电力流向是相似的。</p>
-<h2><strong>（4）数据中心中的核心电气设备：高压变压器</strong></h2>
-<p>现代超大规模数据中心往往在现场设有高压变电站，例如下图中Microsoft的站点。</p>
-<p class="image-wrapper"><img data-img-size-val="900,602" src="https://img.36krcdn.com/hsossms/20241016/v2_21583a1b40b64a1ba021f0ad30085bfa@541143641_oswg1053744oswg900oswg602_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这些设施通常会被放置在高压 (HV) 输电线路（138kV 或230kV 或 345kV）附近。</p>
-<p>这些变压器的额定功率以 MVA 为单位。MVA 大致相当于MW，但 MVA 是“视在功率（Apparent Power）”（就是电压 * 电流），而 MW 是“实际”功率。通常来说，MW会比MVA低5-10%。</p>
-<p>高压变压器额定容量通常在 50 MVA 和 100 MVA 之间。例如，需要 150MW 峰值功率的数据中心园区可以使用两个 80 MVA 变压器，或三个变压器以实现 N+1 冗余以应对可能的故障。</p>
-<p>每个变压器将电压从 230kV 降至 33kV，将电流从~350 安培增加到 ~2500 安培。在这样的 N+1 配置中，所有三个变压器将共享负载，但以额定容量的 2/3 运行。</p>
-<p>值得注意的是，高压变压器通常是定制的，因为每条输电线路都有自己的特点，因此往往需要较长的交货时间（&gt;12 个月）。为了缓解建设瓶颈，数据中心运营商一般在规划阶段就开始预订高压变压器。</p>
-<p>尽管变压器是数据中心中电力传输系统的核心组件，它其实是一种非常简单的设备，即将交流电 (AC) 的电压和电流从一个级别转换为另一个级别。</p>
-<p class="image-wrapper"><img data-img-size-val="900,511" src="https://img.36krcdn.com/hsossms/20241016/v2_175cb81b9b054f05868e64bbb310bd8e@541143641_oswg649177oswg900oswg511_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>变压器的基本原理是电磁感应。我们把两个铜线圈并排放置，其中一个线圈通上交流电，通过电磁感应，该线圈上的电力就可以传输到另一个线圈上。</p>
-<p>在此过程中总功率保持不变，我们可以通过改变电线的特性来产生自己想要的电压和电流。</p>
-<p>例如当次级线圈的匝数少于主线圈，则电力将以较低的电压和较高的电流传输，这是降压变压器的原理。</p>
-<p class="image-wrapper"><img data-img-size-val="900,591" src="https://img.36krcdn.com/hsossms/20241016/v2_4c92d00ae6754072b9828e3ff24b5eaf@541143641_oswg463483oswg900oswg591_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>变压器的两个主要组件是线圈用的铜和“变压器铁芯”用的钢。为了提升变压器的传输性能，其铁芯通常需要一种称为 GOES（晶粒取向电工钢）的特种钢，这种钢的制造商数量有限。</p>
-<h2><strong>（5）发电机、中压变压器、配电器</strong></h2>
-<p>在高压变压器的帮助下，我们将高压（即 115kV 或 230kV 等）降至中压 (MV)（即 33kV、22kV 或 11kV 等），下一步需要做的是使用中压开关设备将中压电力分配到各个数据大厅附近。</p>
-<p>服务器和交换机等典型的 IT 设备无法在 11kV 下运行，因此在数据大厅通电之前，我们需要另一组中压 (MV) 变压器，通常为 2.5 MVA 或 3 MVA，将 MV（11kV/25kV/33kV）降至 LV（415V，美国常见电压）。</p>
-<p>下图把这个中压变压和配电过程展示得比较清晰。</p>
-<p class="image-wrapper"><img data-img-size-val="900,487" src="https://img.36krcdn.com/hsossms/20241016/v2_205e437ee31d4359ba70c91768dfd880@541143641_oswg267285oswg900oswg487_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>每个LV 变压器旁边都有一个与变压器额定功率相匹配的发电机，如果变压器或变压器上游的电源发生故障，发电机将自动介入。</p>
-<p>自动转换开关 (ATS) 通常是 LV 开关设备的组件，用于在发生这种情况时自动切换到发电机，将其作为主电源。</p>
-<p>举个例子，一台 3 兆瓦发电机的马力超过 4,000，与火车头的发动机类似。在超大规模数据中心中，通常有 20 台或更多这样的发电机。</p>
-<p>这些发电机通常使用柴油。数据中心在满负荷情况下通常可储存 24 到 48 小时的燃料，而柴油的运输和储存便利性使其成为首选。柴油也更节能，但污染更严重。由于监管限制，柴油发电机往往更昂贵，因为需要特定设备来减少环境污染。</p>
-<p class="image-wrapper"><img data-img-size-val="900,471" src="https://img.36krcdn.com/hsossms/20241016/v2_7aef6ba7b03743c48c67d5a4694a2091@541143641_oswg815155oswg900oswg471_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>自动转换开关 (ATS) 的下游是一套不间断电源 (UPS) 系统，用于确保电源永不中断。</p>
-<p>发电机通常需要约 60 秒才能启动并达到满负荷，但就像汽车发动机一样，它们有时不会在第一次启动时启动。UPS系统的作用是填补这一空白，因为它们的响应时间通常低于 10 毫秒。</p>
-<p class="image-wrapper"><img data-img-size-val="900,664" src="https://img.36krcdn.com/hsossms/20241016/v2_47ded416a659433c9ebac2a5dd20acf2@541143641_oswg106031oswg900oswg664_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>UPS 通常会带来3-5%的损耗，当负载较低时损耗会进一步加剧。现代设备可以通过待机模式（VFD）或者通过绕过 AC-DC-AC 的转换，将效率提高到 99% 以上，但这会使转换时间增加几毫秒 (ms)，并带来短暂断电的风险。</p>
-<p class="image-wrapper"><img data-img-size-val="900,441" src="https://img.36krcdn.com/hsossms/20241016/v2_ff7fbe57fa7c415c850888c2cfb2779e@541143641_oswg113713oswg900oswg441_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>（6）突破传统数据中心的极限：更高的机架密度</strong></h2>
-<p>生成式AI带来了新的大规模计算需求，从而显著改变了数据中心的设计和规划。</p>
-<p>一个显著的变化是计算密度。网络是增加集群规模的关键因素，是资本支出中的重要组成部分。一个设计不良的网络会显著降低 GPU 利用率，大幅提高成本。</p>
-<p>在大型集群中，我们希望尽可能多地使用铜线。使用铜电缆进行通信而非光纤收发器，是因为光纤收发器成本高、耗电高、延迟高。</p>
-<p>但是，铜线高速传输的覆盖范围通常最多只有几米。因此，为了通过铜线进行通信，GPU 之间必须尽可能靠近彼此。</p>
-<p>计算密度在Nvidia最新的GB200系列中体现得淋漓尽致。NVL72 是一个由 72 个 GPU 组成的机架，总功率超过 130kW。所有 GPU 都通过NVLink 互连，与 H100 相比吞吐量提高了 9 倍。</p>
-<p>从数据中心的视角来看，这里面最关键的参数是每个机架130 kW+的电力供给。</p>
-<p>这与过去有何不同？让我们看看下面的图表：平均机架电力密度在2023年之前一直低于10kW，而Omdia 预计到 2030 年这个数字将上升到 14.8kW。</p>
-<p class="image-wrapper"><img data-img-size-val="900,438" src="https://img.36krcdn.com/hsossms/20241016/v2_deb896904c6948668768dde2bed079f6@541143641_oswg424790oswg900oswg438_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Hyperscaler数据中心的机架密度往往千差万别。按照目前的数据来看，Meta 的机架密度最低，约10+千瓦，而 Google 的机架密度最高，通常超过 40 千瓦。</p>
-<p>从这个角度来看，我们就不难理解为什么Meta要拆掉自己的旧数据中心，按全新的设计方案来重新建设了。</p>
-<p class="image-wrapper"><img data-img-size-val="900,412" src="https://img.36krcdn.com/hsossms/20241016/v2_e98d530ddf8043119bf257dcd2de4c54@541143641_oswg696809oswg900oswg412_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Meta原先的设计方案是“H型”的建筑，功率密度太低了。在比较功率密度时，Google 的每平方英尺千瓦密度比 Meta 高 3 倍以上。</p>
-<p>虽然“H”也有自身的优点，但在AI时代最关键的计算密度上却表现欠佳，如果不进行改建的话，将成为GenAI军备竞赛中的一个关键的竞争劣势。</p>
-<h2><strong>（7）构建下一代Blackwell数据中心的核心玩家</strong></h2>
-<p>电力需求的大幅增加将导致电气设备供应商的产销量大幅增加，这可能会进一步收紧供应链，并导致价格上涨。</p>
-<p>增加功率密度的需求将与总电力需求一样具有强大的驱动力。无论设备的外形尺寸或占地面积如何，电力设备的成本都将与提供的千瓦数成比例增加。</p>
-<p>一个可以稍微抵消需求大幅增长的因素是，越来越多的Hyperscalers开始接受较低的冗余度。</p>
-<p>在大规模AI训练中，GPU 节点的高故障率使得着训练框架在某种程度上已经能够应对节点故障，这意味着数据中心方面可以接受较低的冗余度。</p>
-<p>在数据中心的设计方案中，高密度化正成为首选方案。为了增加密度并缩短网络距离，Hyperscalers和主机托管运营商正在建设多层数据中心，例如 Applied Digital Ellendale，它有三层楼和两个 50MW 数据大厅。微软和 QTS 也在这个方向上大举进军。</p>
-<p class="image-wrapper"><img data-img-size-val="900,462" src="https://img.36krcdn.com/hsossms/20241016/v2_0d0f80852d9f48e3907226e090dddda2@541143641_oswg443877oswg900oswg462_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>电气设备大多是标准化的，而且电气公司可以通过与当地安装人员、电工、公用事业公司建立长期关系，从而形成一定规模的网络效应，保护它们免受竞争，这导致了电气行业出现了寡头垄断的市场结构。</p>
-<p>这些主要供应商包括：</p>
-<ul>
-<li>发电机组（如CAT、ABB、GENERAC等）</li>
-<li>中压变压器（如Schneider、ABB、SIEMENS等）</li>
-<li>开关柜（如Schneider、VERTIV、EAT - N等）</li>
-<li>不间断电源（如EAT - N、ABB、VERTIV等）</li>
-<li>配电单元（如Schneider、legrand、VERTIV等）</li>
-</ul>
-<p class="image-wrapper"><img data-img-size-val="900,345" src="https://img.36krcdn.com/hsossms/20241016/v2_415f7ba406d848e1b4723bc31be14512@541143641_oswg169046oswg900oswg345_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>随着Nvidia 大力推广全新的超高密度设计，我们认为许多运营商尚未做好准备，机电工程人才的需求可能会骤增。</p>
-<p>过去几年来，施耐德和 Vertiv 等一些供应商投入了大量资金来构建自己的数据中心设计能力，现在正与Nvidia 合作构建 AI-ready蓝图。</p>
-<p>在AI时代，快速变化和快速上市意味着数据中心运营商必须依靠施耐德和 Vertiv 等解决方案提供商来推动设计和部署。</p>
-<p>这意味着电气设备提供商将在AI时代获得更大的议价能力、更大的市场空间、以及更高的利润率。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/WYjwnPF9sazVRv8kjEz6zg" rel="noopener noreferrer nofollow" target="_blank">“Alpha Engineer”</a>，作者：费斌杰，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994282353548933</guid><pubDate>Wed, 16 Oct 2024 09:09:00 +0800</pubDate></item><item><title>《黑神话·悟空》之父冯骥的60条思考：踏上取经路，比抵达灵山更重要</title><link>https://36kr.com/p/2994403695503746</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>打造出现象级游戏《黑神话·悟空》，为什么是冯骥？</p>
-</blockquote>
-<p>每一个意料之外的成功，都是“天时地利人和”的情理之中。</p>
-<p>2024年8月20日，中国第一款3A游戏《黑神话·悟空》上线前5个小时，制作人冯骥发了一条微博，提醒玩家要注意三点。不曾想，这会是一个疯狂的开始。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_6f461f74ff8a46469e20029dd4945a2e@000000_oswg288100oswg1027oswg496_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>《黑神话·悟空》上线首日销量突破450万部，发售三天销量突破1000万部。根据综合数据分析网站Gamalytic、游戏市场调研机构VG Insights等第三方平台等最新数据，《黑神话·悟空》目前在Steam上的销量已超过2100万份，创造了中国3A游戏的销售纪录，收入超过10亿美元（约合人民币70.8亿元），而其开发成本为3亿元人民币左右。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_ee6ed40b445b49669d48527ab9ce31f2@000000_oswg308819oswg600oswg337_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>令人意料之外的是，《黑神话·悟空》火出了游戏圈，成为中国传统文化传播的现象级产品，在国内外市场都引发了“悟空效应”。在国内，它带火了作为游戏场景原型的山西多个古建筑，刺激了偏冷门的山西文旅，比如山西的悬空寺、铁佛寺和小西天等在十一期间都迎来了暴增的游客。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_baa18753965c410796e11cf745cf0ab3@000000_oswg476525oswg640oswg360_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在海外游戏市场，《黑神话·悟空》不仅吸引了众多海外游戏玩家下载，赢得了很多海外游戏大V的鼎力推荐。美国企业家马斯克也在玩《黑神话·悟空》，还在社交网络分享了一张AI生成的游戏海报图，将游戏主角“天命人”的脸换成了自己。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_c272aba4bce945ae8aae01e44299bceb@000000_oswg1032066oswg956oswg1550_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为了玩游戏，不少海外玩家自发地打听孙悟空的身世，开始了解中国的神话体系。很多海外游戏玩家甚至开始读英文版原著《西游记》，看同名电视剧。有一位海外游戏玩家整理了一份长达214页的PDF文档并且自制为一本英文版实体书，只为海外游戏玩家普及《西游记》的文化背景知识。毫无疑问，《黑神话·悟空》是今年国际游戏市场最为火爆的现象级产品之一。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_431c80ebcd19498baf2088eeb77bb868@000000_oswg777041oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>《黑神话·悟空》一出世就能在海内外市场既卖座又叫好，让很多业内人士感到意料之外。在资本逐利的中国游戏市场，赚钱快的手游才是“摇钱树”，3A游戏被普遍认为是商业化难度很大的游戏类别。</p>
-<p>3A游戏通常指的是那些高投入、高制作、开发周期长（A lot of money、A lot of resources、A lot of time）的游戏，也因为这些特点，3A游戏的制作和成功充满各种不确定性，大部分的游戏开发公司难以承受，所以国内游戏厂商不愿涉足这个方向，而且《黑神话·悟空》还是单机游戏模式，这是自互联网时代才进入井喷式发展的中国游戏市场中薄弱的部分。</p>
-<p>某种程度上，3A游戏代表了一个国家的游戏制作水平，正如科幻大电影代表了一个国家的电影工业水平。中国是全球第二的游戏市场大国，但却没有一款真正意义上的3A游戏大作，这是遗憾，也是机会。</p>
-<p>那么，作为中国第一款真正意义的3A游戏，为什么《黑神话·悟空》一上市就能快速取得震惊海内外的成功？为什么偏偏是冯骥及他的团队做成了《黑神话·悟空》？</p>
-<p>每一个意料之外的爆款成功，其背后都是“天时地利人和”的情理之中。</p>
-<h2><strong>《黑神话·悟空》的天时、地利、人和</strong></h2>
-<p>冯骥说过，<strong>“8年前，我们就很坚信中国的单机市场一定会存在，而且潜力巨大”。</strong>这是他看到的“天时”。</p>
-<p>今天的中国游戏市场足够庞大，游戏产业足够发达，游戏消费群体足够庞大。2023年上半年，我国游戏市场的实际销售收入达到了1442.63亿元。2024年3月，全球年度发行商大奖列出了全球前50强发行商，其榜单统计对象包括2023年全球IOS和谷歌商店用户的支出。其中，前两名分别是腾讯和字节跳动，对应的年用户支出分别为86.7亿美元和50.5亿美元；米哈游首次进入Top 10并排在第8位，网易排名第9位。根据这个榜单，在全球前十的游戏开发公司中，中国公司占据了四席。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_9f1d3a862adf416ba85e7ee12a230805@000000_oswg318075oswg600oswg1612_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>今天的中国市场“土壤”已经足够肥沃，养得活一款3A游戏，一直在等待一位真正的“天命人”来填补这个市场的空白。正如冯骥在采访中说的，<strong>“没有之前做手机游戏的经历，没有成熟的商业社会给予的资源，没有中国的人口红利，那么我们今天也没有机会做《黑神话：悟空》这样的产品。”</strong></p>
-<p>而游戏行业本身出现的技术红利，是冯骥抓住的“地利”。他说，“随着整个软件工业的发展，会出现一些商业引擎，附带了非常多成熟的解决方案——这是一个技术红利。我们只是在一个合适的时间，很幸运地承载了大家的期待”。</p>
-<p>诸如GPU、CPU、存储、显示器、VR设备等硬件的持续更新换代，为3A游戏的高制作提供了硬件基础；软件方面，游戏引擎软件的出现，不仅降低了3A游戏在角色建模、模拟复杂的物理现象（如角色运动、爆炸、流体运动等）、光影渲染等方面的高成本，还提高了其制作效果和效率。《黑神话：悟空》就是用全球最强大、图形最丰富的创作引擎之一虚幻引擎5（UE5）软件开发的。</p>
-<p>所谓“人和”，指的是中国游戏产业终于等到了冯骥这样的“天命人”。冯骥和他所创办的游戏科学对“做一款好游戏”充满了使命感，就像《西游记》里唐僧对西天取经存在使命感一样。回顾冯骥的从业经历，他也像孙悟空一样，经历了“九九八十一难”。</p>
-<h2><strong>冯骥的“取经之路”</strong></h2>
-<h3><strong>沉迷于《魔兽世界》进入行业</strong></h3>
-<p>他加入游戏行业，完全是出于兴趣。2000年，冯骥考入华中科技大学，学的是生物医学工程专业，但他对学的专业并不感兴趣，反而沉迷于玩游戏。2004年5月，《魔兽世界》正式公测。正准备考研的冯骥却痴迷于玩《魔兽世界》，甚至到了白天睡觉晚上在网吧包夜，每天只吃两顿饭的程度。后来他在采访中说：“从某种程度上讲，痴迷于《魔兽世界》也许是内心早就渴望的”。大学毕业后，冯骥加入了一家小型游戏公司做策划，开始了自己在游戏行业的“取经之路”。</p>
-<h3><strong>万字长文怒批行业顽疾</strong></h3>
-<p>真正进入游戏行业之后，冯骥有种“天使着地”的感觉。他发现自己每天做的事情与做好一个游戏无关，没有人在乎游戏玩家的需求，大家更关心一件事：不能让玩家闲下来。2005年-2007年，正值国内网游高速发展阶段，当时史玉柱创办的巨人网络公司推出了一款网游《征途》，采用当时行业内从未有过的运营模式：游戏免费但道具要付费，其单月盈利达到850万美元。《征途》的成功让很多游戏公司认为：游戏赚钱比品质更重要。面对这种行业风气，冯骥内心充满愤怒。就像《西游记》里的孙悟空一样，因看不惯天庭的做法，直接来了个“大闹天宫”。2007年2月，冯骥在网络上写下了一篇题为《谁谋杀了我们的游戏？》的万字文章。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_f7c8d9d3c315459bb40f4e951e91b172@000000_oswg316529oswg925oswg907_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>十七年后的今天，这篇文章中提出的一些行业问题，依然振聋发聩。可见，冯骥对游戏始终保持一片赤诚之心，怀有敬畏之心。</p>
-<p>2008年，冯骥加入了腾讯游戏，从游戏的发行运营做起。2009年，冯骥开始担任腾讯自研网游《斗战神》的主策划，这是一款西游题材的网游，策划制作周期长达5年。为了做好游戏内容，冯骥专门请来《悟空传》的作者今何在担任世界观架构师，又跟《哈利波特》的配音团队合作，还买下了86版《西游记》的经典音乐版权，还请来了陈奕迅演唱主题曲；为了制作高品质CG，他们不惜花大钱与《阿凡达》的特效工作室The Third Floor以及国内的原力动画合作。在商业模式上，冯骥没有采取传统网游的道具收费模式。<strong>他坚持认为，游戏快乐的来源，只能是游戏本身，而不是要花多少钱才能好玩。</strong></p>
-<p>2014年，《斗战神》上线，初期就赢得了非凡的口碑、但是公测两个月后，活跃人数却急剧减少，其中一个关键原因是游戏内容更新得越来越慢。这一方面跟团队产能不足有关，但另一方面，也跟腾讯的资源支持有限有关。2014年是移动互联网时代，手游兴起，当时一款手游一天就能做到几十万甚至几百万的营收。腾讯游戏将战略重心放在赚钱更快的手游领域，冯骥负责的网游《斗战神》能拿到的开发资源变得越来越少。最后，《斗战神》以惨淡收场。</p>
-<p>腾讯给冯骥提供了一个大舞台，让他学会了如何管理和谨慎地运营一个大的客户端游戏项目。这一宝贵的实践经验让冯骥学会了务实地做游戏，控制成本和风险，但他内心依然是一个理想主义者，依然梦想做一款真正打动人心的好游戏。</p>
-<h3><strong>创业做《黑神话·悟空》</strong></h3>
-<p>2014年6月，冯骥离开腾讯，创办了自己的游戏公司：游戏科学。从公司名字可以窥见冯骥对游戏的真诚态度。他在公司网站主页上写道：<strong>游戏和其他行业一样，是一门99%勤奋+1%灵感的严谨学科，而不是一桩跟风押注的赌徒生意。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_b4b939802bfa4eaf9b3b7b7ebaa5ddcb@000000_oswg320785oswg987oswg346_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为了让公司生存下去，冯骥和同事开发了两款手游。2018年，当大多数中国游戏公司依然沉迷于手游时，冯骥决定做一款高品质的单机动作游戏，这是他最初自己加入游戏行业时的心愿。</p>
-<p>自此，冯骥真正踏上了自己做游戏的“取经之路”。2020年8月，游戏科学公布了《黑神话：悟空》时长13分钟的预告片，播放次数累计突破5000万，受到了游戏圈的极大关注。之后，游戏科学顺利拿到了腾讯的战略融资。</p>
-<p>四年后，《黑神话：悟空》上市。</p>
-<p>如今《黑神话·悟空》大获成功，很多人认为冯骥已经“取得真经”。冯骥却坦言，“踏上取经路，比抵达灵山更重要”。用游戏的方式做好中国传统文化这条“取经路”，刚刚开始。</p>
-<p>他说，“把中国的传统文化结合最先进的技术、最好的画面、最好的音乐，然后再辅以合理的玩法，能够产生化学反应。我们证明了这条路是走得通的。”</p>
-<p>他身上具有中国游戏业内少有的一个特点：<strong>充满文化自信，平视看世界，并且真诚地以做好游戏的方式来表达对中国传统文化的理解和敬畏之心。</strong></p>
-<p>正如冯骥自己在采访中说的那样，当初他们立项做《黑神话·悟空》时，完全没有“要代表中国文化”“有义务让中国文化产业升级”这种想法，而是自然而然地认为中国经典名著、东方哲学、价值观、非常有魅力的神话体系还有可以挖掘的空间，所以他们更应该“如履薄冰，付出更多的努力，把它和这个世界上最好的产品的其他的品质结合起来”。</p>
-<p>从《黑神话·悟空》中的画面、音乐，甚至细致到文字字体的选择上，都可以看出冯骥对中国传统文化的“如履薄冰”。游戏中每个游戏人物的名字都是欧阳询楷书字体，全部源自欧阳询的碑刻和拓本，部分角色是1986版电视剧《西游记》的演员配音。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_3d86b7a9c90148d4a9c378dbefb8b9c6@000000_oswg361277oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>游戏中诸多文本内容摘取自吴承恩的《西游记》和《金刚经》等佛教经书。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_3f68e148f5034ecc8b954aa1b2fdee0c@000000_oswg1195482oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_d2bd119084d44737bd82ac5af817c4bc@000000_oswg881203oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>砺石商业评论专门梳理了冯骥在公开采访中分享的60条思考，分别包括：游戏行业的创业经验、关于中国传统文化和游戏、他的人生态度等，以帮助低着更好的了解这位《黑神话·悟空》之父。</p>
-<h2><strong>关于游戏行业的创业经验</strong></h2>
-<p>1.理想主义的情怀需要靠现实主义的努力去实现，就像西天取经，最重要的是先迈出步去。</p>
-<p>2.我们决定要做高品质单机游戏，有热爱、理想主义的成分，但更多是对游戏市场和自身能力冷静审视后的结果。（2018年2月，游戏科学创始团队决定为一款高品质单机游戏“拓荒”——这款游戏正是《黑神话：悟空》。）</p>
-<p>3.8年前，我们就很坚信中国的单机市场一定会存在，而且潜力巨大。观察其他娱乐市场，尤其是电影市场，你会发现一个明显的趋势——国产精品电影正迅速占领票房排行榜，许多现象级作品也开始涌现。2016年，我们看到美国的单机游戏市场100亿（美元），日本市场大概50亿（美元）出头，欧洲没统计，中国大概1亿美元不到，当时我们就斩钉截铁地认为，在10-15年内中国的单机市场会达到日本甚至超过日本的规模。</p>
-<p>4.国外没有互联网的时候，就开始了单机游戏阶段，而我国更多是互联网时代来了以后，直接到了一个人人都可以用PC上网玩游戏的阶段。20年，从一个没有的市场变成了全世界最大的单机游戏市场，这个市场不可能一蹴而就，这也是一个很容易被忽略的成本。</p>
-<p>5.随着整个软件工业的发展，会出现一些商业引擎，附带了非常多成熟的解决方案——这是一个技术红利，这时候你只需要把它的表现做到“你想要的”，所以其实我们只是在一个合适的时间，很幸运地承载了大家的期待。</p>
-<p>6.我们是在一个合适的时间，用一个谨慎的方式启动这个项目。我以前在腾讯一个近200人的团队里，做过规模很大的客户端游戏项目。我们是充分想清楚做这样一个项目的成本，以及可能出现的风险。很多团队带着理想，但没有这样的经历。</p>
-<p>7.不要以为我们做单机游戏、客户端游戏是为了情怀，是为了理想殉道，其实是相反的。我们只是想做一个更有感觉，我们作为用户能更加容易评价做得好不好，同时还能获得商业成功的产品而已，没有那么高级。我希望不要把我们拔高成“殉道者”的角色。</p>
-<p>8.可能会有很多人以为我们是这样一个团队：一腔热血、理想主义、不顾生死，非常感谢大家把我们想象成这样。事实上，要让这个事情可持续，就要天天琢磨它的可行性。<strong>我希望的是成为一个务实的理想主义者。</strong></p>
-<p>9.没有之前做手机游戏的经历，没有成熟的商业社会给予的资源，没有中国的人口红利，那么我们今天也没有机会做《黑神话：悟空》这样的产品。</p>
-<p>10.在如今单机游戏最发达的日本，也有很大的手游玩家群体，这是一个可以共存的状态，而不是一种“非此即彼”、存在“鄙视链”的状态。玩手游就低于玩单机，这反而是种非常不健康的现象。</p>
-<p>11.我们是一个实事求是的公司。我们不会不管投入产出只做这一个单机（游戏）。很多人觉得，中国以前没有在商业上非常成功的单机游戏，所以我们好像在“走钢丝”，下面是“万丈深渊”。但我想请关注我们的朋友放心，我们不是在“走钢丝”，而是在走一座挺宽的桥上，而且有两根“拐杖”。</p>
-<p>12.我们本不是为了破釜沉舟，背水一战，只做单机游戏这一件事情。我们很冷静地把团队搭建起来，先做一些开发成本和收入上更为平衡的产品（团队成立以后，我们连做了两个手游）。经历了约4年相当谨慎的立项，才开始做《黑神话：悟空》的预演。期间，我们也经历了一轮融资，产品也都顺利签约、上线。在这样的背景下，我们才启动了《黑神话：悟空》。</p>
-<p>13.我们（之前）用《黑神话：悟空》的虚幻引擎4（Unreal 4）做了两款手游。这两款手游的商业模式和单机游戏的商业模式不一样，上线时间相对来说会更快。我们对这两款游戏相当有信心，它们能秉持之前的品质，享用技术研发的成果，充分表现我们对游戏内战斗、关卡和世界观构建的理解。</p>
-<p>14.无论是一个产品的制作过程，还是经营一家公司，大到一个国家，一个民族，都要有危机感，我们面临的不是一个轻松的事情，“斗罢艰险又出发”。我们发展的每一步都充满各种风险，但是我们可以战胜它，然后再往下去走，拥有这样的心态甚至比实现目标本身更加重要。</p>
-<p>15.无论现在收到何种期待和赞誉，我们还是会高度地遵循我们公司的价值观：<strong>我们首先要做一个我们作为玩家觉得好玩和高品质的产品。</strong></p>
-<p>16.相比其他的艺术门类，游戏可以用好玩的内容去驱动用户沉浸在游戏世界里，然后他（用户）会想到去了解内容背后蕴含的设定、故事、人物关系，甚至是哲学思想。</p>
-<p>17.很多事情是老祖宗赏饭吃。好的东西一直很好，一直在那里。在游戏里，它可以成为一个场景、一件物品或者一句题词。如果有合适的载体能恰如其分地把它做一些结合，实际上会有一个1+1&gt;2的效应。所以我们很感激有这么多的文化宝库。</p>
-<p>18.把中国的传统文化结合最先进的技术、最好的画面、最好的音乐，然后再辅以合理的玩法，能够产生化学反应。我们证明了这条路是走得通的。</p>
-<h2><strong>关于《黑神话·悟空》</strong></h2>
-<p>19.很多看似高不可攀的技术短板，其实真正缺乏的是下地干活的耐心。</p>
-<p>20.轻微的失控感，可能胜过做一件把握十足的事情。</p>
-<p>21.能够达到一定高度的事情，它不是一个完全可控的事情，可能整个团队在每时每刻都有一点轻度的失控，但也仍然实事求是，带着这种失控往下走。</p>
-<p>22.在立项的时候，我们就有一个非常明确的想法：永远不要去看中游的东西。就像古语说的：取法于上，仅得为中。如果我们现在仅仅关注一些比我们强一点的公司，而不是业内最顶级的产品，那么结果可能是会连二流的产品都不如。所以我们内部有个原则：<strong>只有难的事情，才有价值做。</strong></p>
-<p>23.不可能说我们比一个20年30年40年积累的公司更加成熟，但我们要有做出世界品质的心气。</p>
-<p>24.2022年、2023年遭遇了很多挫折，我们意识到不是缺钱、缺人，而是经验和实力没法让有些想法真的实现。也许应该这样形容，我们原来定一个70分的目标，可能最后能做75分，还超越了自己。但后来我们的目标变成90分甚至100分的目标，我们没法全然做到，但最后可能做到了85分，还是超过了那个75分。</p>
-<p>25.我们是一个动作角色扮演游戏，对标的是世界在技术、画面、游戏性和商业上最成功的产品，比如像圣莫尼卡工作室制作的《战神》，顽皮狗工作室制作的《神秘海域》《最后生还者》，日本Capcom公司制作的《怪物猎人》，Fromsoftware制作的《只狼》，以及任天堂的《塞尔达》等。这些产品让我们看到这个世界最高的高度。从立项开始，我们就坚定以它们为典范标杆来要求自己。</p>
-<p>26.对于我们第一次做这样一个买断制的单机游戏来说，完成比完美重要。</p>
-<p>27.当你想做一个能打动自己的事情的时候，它大概率应该能打动跟你相似的人。</p>
-<p>28.所谓“满足用户的期待”，不能定义为“满足所有用户的期待”，因为大家的想法可能南辕北辙。所以，我们能做的就是努力打动自己。</p>
-<p>29.3A是一个很宽泛的概念，有很多评价维度。但一个游戏好不好，是不能跟这些维度真的画等号的。最重要的是，它得好玩。“我玩完了是什么感受？我在那里面能不能体验不同人生？甚至与我的某些价值观能否跟它发生碰撞？”一个好的游戏，是要全部都有的。</p>
-<p>30.关于古建筑的实景扫描，我们在思考，“一个重要的关卡的BOSS，应该在一个什么场景战斗，它可能是一个大的冰湖，它是一个悬崖？......但是当你有一天真的来到一座现实中存在的寺庙，看到那些精巧的建筑结构时，你会完全明白这里就是它的“天命之选”。它就应该生活在这里，在这里完成最后的决战。我们是因为实地看到了，所以才决定用这个创意，可以走这种路数。</p>
-<p>31.一开始我们很想做原创设计，每一笔都是自己做出来、想象它长什么样......后面属于“老祖宗赏饭吃，自己不肯吃”，在这个历史条件下，在当时的现实背景下，最具代入感的一定是现实中存在的东西，第一时间把你抓进去——反而我们走了很多弯路，最后才决定去做实景的扫描。这个过程耗费了很多人力，但反而让我们轻松不少，因为做出来的东西确实更符合时代背景、更可信了。</p>
-<p>32.那些在中国文化里独有的名词，甚至它只指向一个个体，这种词我们就直接用到拼音的发音。最典型的就是悟空（WuKong），我们没有用任何其他的翻译，我们觉得这个词就足够好听，而且足够清楚。悟空用来打妖怪的棒子，我们就叫JinGuBang。</p>
-<p>33.一个关键难点是怎么用孙悟空的方式战斗，而不是你一看就是一个套着“孙悟空”的皮的别的角色。其实没有什么巧妙的方法，就是老老实实去看原著，最后你看到的定身术、吹毛等招数就是这么来的。</p>
-<p>34.不要用“毕其功于一役”的思维来思考做IP这件事。做IP真正要对抗的是时间，要用无数优秀产品的声誉去慢慢浇筑。世界上最成功的IP都不是一夜爆红，很多IP可能要经历几十年。</p>
-<p>35.我和团队里的人讲，不要有“一将功成万骨枯”，就赌《黑神话：悟空》会成功这样的想法。我们应觉得这件事有意义，值得把职业生涯投入进去，才来做《黑神话：悟空》，而不是为了《黑神话：悟空》直接获得空前绝后的成功才来团队。我们不希望有这种强烈的投机心理。</p>
-<h2><strong>关于游戏和中国传统文化</strong></h2>
-<p>36.我们立项的时候完全没有“我要代表中国文化”，“帮中国文化做输出”，“有义务让中国文化产业升级”这种想法。我们是自然而然地觉得，对中国文化的表达，或者对中国经典名著、东方哲学、价值观、非常有魅力的神话体系，还有可以挖掘的空间。</p>
-<p>37.好的文化产品或者内容产品，应该是先自然地打动了本地的跟创作者更相似的文化族群。如果它的品质足够高，持续的时间足够长，它就会自然的辐射到海外。</p>
-<p>38.不是因为你带了一个“国风”的标签，就有了“免死金牌”。你应该如履薄冰，需要付出更多的努力，想着怎么能把它和这个世界上最好的产品的其他的品质结合起来。</p>
-<p>39.做中国传统文化的题材，未必就只能是中国人欣赏的东西，（其中）有很多共通的东西全世界的玩家都可以感受到。</p>
-<p>40.想宣传一个民族或一个国家的传统文化，可能更好的方式是先做一个没有传统文化背景也能吸引人的内容。</p>
-<p>41.我希望让中国文化能够以更现代的方式征服世界，让这个民族的好东西在全球流行。这是我们这一代人的责任，我们看过西方的好东西，也知道一些共通的东西，我们又掌握一些能力，我们也自信应该做出一些（好东西）。</p>
-<p>42.现代既需要技术，用什么样的图形、什么样的声光电方式去呈现，也需要它的内核具有某种现代性。</p>
-<p>43.我们希望用悟空这个中国神话传说中最著名的角色揭开我们心目中庞大东方魔幻世界的一角。</p>
-<p>44.人性本身也是共通的，孙悟空的苦闷跟今天上班的人的苦闷未必就完全不同。我们今天遭遇的困境、困惑、欲望、痛苦，现代人也能在这些故事里找到一些共通的东西，而不是纯粹就把故事演一遍。</p>
-<p>45.首先一个故事得打动自己，这个故事里有一些东西有韵味，有一些独特性。</p>
-<p>46.我们做西游题材，不是在考虑它是不是受欢迎、是不是过时了，而是首先想我们自己——我们自己想到这个题材的时候，会不会有激动的感觉。</p>
-<p>47.到《黑神话：悟空》，我觉得众生皆苦，人人都有自己的羁绊、烦恼、执念，而这些东西最后会交汇在一起，影响所有人的命运轨迹。</p>
-<p>48.我们不是将一种强烈的、单一的价值观赋予一个角色，说这个角色是对的，其他角色就是错的。你去感受不同的角色，有不同的想法，最后会导出一个你理解的故事。这种有一点暧昧、复杂和灰色的呈现比直接告诉你正义战胜邪恶更综合一些。</p>
-<p>49.经典的东西并不是一个束缚。</p>
-<p>50.我们不光关注孙悟空，我们还关注能否把它的敌人也塑造好——这个敌人是复杂的，可能也有善良的一面，可能也有不为人知的东西。当它有跟孙悟空相对抗的人格魅力的时候，孙悟空也会塑造得更深刻。</p>
-<p>51.<strong>苍凉是一切故事的本质。</strong></p>
-<p>52.<strong>苍凉是底色，最有魅力的地方在于知道在这样一个苍凉的、荒谬的世界里，人会有发光的时刻。</strong></p>
-<p>53.发光不见得一定是正义，也可能是为了野心，为了偏执，但那一刻会有一种贯彻自己意志的光芒，我不能说它是浪漫的……但它就是浪漫的。让人觉得也许可以看一看这个故事，看一看怎么在那一瞬间爆炸。</p>
-<h2><strong>关于人生态度</strong></h2>
-<p>54.<strong>踏上取经路，比抵达灵山更重要。</strong></p>
-<p>55.既然选择了在无人区蹦迪，就该坦然拥抱不确定性带来的恐惧与焦虑。</p>
-<p>56.让你痛苦的并不是远方的高山，而是脚底的沙子。沙子无穷无尽，但是你想走到那座山，就得忍受沙子如影随形的折磨。</p>
-<p>57.我加入第一家游戏公司时，会有“天使着地”的感觉。那时候我甚至很愤怒，觉得我为什么要做我自己没那么认可的东西......甚至会写文章讲这个行业没有想的那么光明。（等我）真正开始做了，会发现，即使是做一个那样的游戏，要把这个事做成还是很难。你虽然瞧不上这个游戏，但当你真的去做时，你才发现你不见得就能搞得定。经历了这个过程，陆续做了几个项目之后，我会慢慢地变得没有那么的愤怒。</p>
-<p>58.我们拒绝了除技术合作外，所有实地来访的资本、发行，甚至是一些如雷贯耳的大公司。我们心里清楚我们到底是什么阶段。经过这些“降温”的努力，同事们还是明白，这个时间点特别容易犯错，出现一些奇怪的想法。我们要不断暗示自己要保持“平常心”。现在团队里大多数人都意识到，我们其实被过誉了。</p>
-<p>59.我见过太多因为投机失败心态失衡的人，包括我自己以前都会有这种想法：认为某件事是“风口”，抓住就赢了，没抓住就输了。这是一种赌博的心态。这不是我们人生中的一场赌局，输了就要下场，我很不喜欢这样的心理。</p>
-<p>60.人最后喜爱的东西，一定是自己更容易获得正反馈的东西。所以，真正要问的不是你爱什么，而是你擅长什么，然后在你接触过的领域里选择一个相对来说获得正反馈最容易的（领域）。下一步是专注，严肃认真对待这件事。</p>
-<h3>参考资料来源</h3>
-<p>1.《“踏上取经路，比抵达灵山更重要”》，新华社，2024年8月19日</p>
-<p>2.《对话游戏科学创始人冯骥：“你在自信之巅的时候，也是在愚昧之渊”》，南方周末，2024年8月24日</p>
-<p>3.《央视总台专访《黑神话：悟空》制作人冯骥：“斗罢艰险又出发”》，2024年9月30日</p>
-<p>4.《冯骥：我终于可以回自己国家的异世界当猴哥了！》，观察者网，2024年8月22日</p>
-<p>5.《第一个中国 3A 大制作游戏面世：市场决定游戏、游戏又改变市场》，晚点，2024年8月21日</p>
-<p>6.《黑神话》：不仅是游戏——国产3A游戏路在何方》，经济观察报，2024年9月15日</p>
-<p>7.《冯骥用《黑神话》杀死了2007年的自己》，2024年8月13日</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIyMDMyNTMwMw==&amp;mid=2247626986&amp;idx=1&amp;sn=5a570c7c88731c0769dcff0bc6d72dec&amp;chksm=965448521fe6010d8b48d114447bc6502b31f86c7ec4ad36f160c6ce984a66549815baf4bfab&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“砺石商业评论”（ID：libusiness）</a>，作者：田姗姗，编辑：平凡，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994403695503746</guid><pubDate>Wed, 16 Oct 2024 09:10:00 +0800</pubDate></item><item><title>百度谷歌比较研究2024：中美“远古AI龙头”的现状与趋势</title><link>https://36kr.com/p/2994457193572225</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>百度与谷歌，是互联网时代中美两国最具代表性的平台公司。作为技术禀赋最为突出的两家互联网公司，两者亦是最先拐入AI研究与布局的企业。</p>
-<p>时至今日，随着OpenAI的异军突起，微软的借势回归，以及英伟达算力帝国的一枝独秀，谷歌与百度两位先行者，似有星光暗淡的迹象。</p>
-<p>反映到资本市场之中，谷歌的市值已被微软与英伟达大幅拉开差距；百度则是始终不温不火，估值与市值走势持续处于历史较低区间之中。</p>
-<p>这样的现象，究竟是市场审美的偏见，抑或两大远古AI龙头确有隐情？如此命题正成为时下一个重要课题。</p>
-<p>作为AI产业深度研究的开篇，本篇我们将以百度为第一视角，从近年财报所综合折射出的公司基本盘出发，通过与谷歌以及中概互联网产业趋势的比较研究，予以破题。</p>
-<h2><strong>01 百度谷歌比较研究2024</strong></h2>
-<p>先来看一下百度的基本面。</p>
-<p>以季度数据来看，百度自2020Q1以来，营收规模由225亿增长至339亿，增长了51%。就营收趋势来看，百度在过去五年间均保持了持续增长的态势。</p>
-<p>与此同时，百度利润率维持在了相对高位，2024中报期经调整EBITDA利润率达到了27%，较五年间低点增长了约14pct左右，自2022Q2以来维持了9个季度25%左右的利润水平。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_7a5e7c69babd482e9afd1df94c1e2abb@000000_oswg94280oswg887oswg430_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：百度单季度营收、利润及利润率,来源：企业财报，锦缎研究院整理</p>
-<p>分业务收入来看，百度的收入主要分为两条主线和三种业务，百度和爱奇艺两条主线核算独立，其中百度核心业务中，又分为以广告业务为主的在线营销收入，另一部分是以智能云、自动驾驶和移动生态等等为主的其他核心业务。</p>
-<p>过去五年间，百度增速最快的是其他核心业务，营收规模从25亿增长至75亿元，增长率超过了200%；规模的绝对增长最多的还是在线营销业务，从128亿增长至192亿，五年间增长率约为50%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_d9e4fd3f178142598e0432bfaf140377@000000_oswg73199oswg805oswg417_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：百度单季度分业务线收入，来源：企业财报，锦缎研究院整理</p>
-<p>爱奇艺是表现最“差”的一个，五年间营收缩水了2%，远低于百度的其他业务线。不过爱奇艺是向内动刀最狠的业务线，主营成本（制作分发渠道等等）五年间下降了约28%，营销和管理的费用下降了26%，研发费用下降了34%，节流瘦身后的爱奇艺成为了百度的核心利润贡献点之一。</p>
-<p>相比之下，虽然百度核心业务的费率也处于相对下降的态势，但下降的幅度并不明显。今年二季度同比销售管理费用缩减11%，研发费用削减4%，整体的费率较去年同期下降5%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_a3a1b60d88c64fa29a358a2b5ea9b293@000000_oswg101265oswg808oswg387_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：百度单季度费率趋势,来源：Choice金融客户端</p>
-<p>整体看下来，百度的基本面表现稳健，营收取得了增长，收缩的业务线大幅度缩减了成本支出费率和增速保持稳定。</p>
-<p>但兼听则明，偏信则暗，只看百度自身的横向对比感官认知会出现偏差，任何事物只有放在坐标轴中对比才会体现差异。</p>
-<p>于是我们选取了两个坐标轴来纵向对比百度近五年的表现，一个是“孪生兄弟”谷歌，在业务线条大体一致的情况下对比；同时，又以中概互联市值TOP10核心样本为补充坐标轴，在市场环境大体一致下对比。</p>
-<p><strong>（1）核心坐标：谷歌</strong></p>
-<p>谷歌作为百度“异父异母的孪生兄弟”，绝不是空口而谈。除了软硬一体层面谷歌拥有安卓及相关生态产品优势外（百度少了一大块类似Google play的软件税），其余大多数业务二者都能找到对应的产品和业务线。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_5bc25c8dc6a644a285c64c6b4b953c67@000000_oswg80949oswg554oswg235_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：百度、谷歌业务线条对比，来源：锦缎研究院依据公开资料整理</p>
-<p>细看二者的营收结构便会发现，谷歌广告业务五年间的增速约为128%，百度为50%。同样作为二者收入贡献最多的业务，谷歌的广告业务表现要大幅领先于百度。</p>
-<p>百度广告业务单季度复合增速约为2.4%——同周期内，谷歌营收规模由383亿美元增长至847亿美元，增长了121%，单季度复合增速约为4.8%，增速是百度的一倍以上。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_9e00ad4d5d05408e89c81710d1bd7829@000000_oswg97531oswg865oswg432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：谷歌单季度营收、利润及利润率,来源：企业财报，锦缎研究院整理</p>
-<p>分业务收入中，谷歌所有的业务线，在五年间几乎都实现了翻倍增长。</p>
-<p>其中，谷歌云增速最快达到了272%以上，其次是YouTube广告，谷歌搜索广告是增速最慢的业务之一。整体的营收增速结构与百度类似，唯一的不同是视频流量入口YouTube的增速要远高于爱奇艺。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_efdc3022f5474637a865b2ffb6f6e1f6@000000_oswg80765oswg848oswg399_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：谷歌单季度分业务收入,来源：企业财报，锦缎研究院整理</p>
-<p>从成本端来看，百度和谷歌的费率趋势也有八分雷同。</p>
-<p>百度单季度会按照业务线披露开支，核心业务线经历了2020年至2021年的上扬区间，在2021年Q3后急速收缩。谷歌虽然没有披露具体业务线的成本，但整体的费率也出现了明显的下滑，从18%下降至不足12%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_ee9042c5a4f64f2daf8678fb00e5b563@000000_oswg75151oswg811oswg391_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：谷歌单季度费率趋势,来源：企业财报，锦缎研究院整理</p>
-<p>成本端唯一的差异，是百度单季度维持了更高的研发费率的投入。从绝对值来看，谷歌2020Q1至今研发费用的投入规模增长了约79%，而百度仅为32%。主要原因还是在于，谷歌收入增速稀释了高额的研发费率，二者在五年间都维持了较高技术投入意愿。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_d6f789039956405db0e554e006b4434b@000000_oswg93430oswg807oswg407_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：百度、谷歌单季度研发费率对比,来源：企业财报，锦缎研究院整理</p>
-<p>资本开支层面，百度未披露单季度的资本开支，但以年为单位来看，构建固定资产类的资本开支从50亿增长至去年112亿左右；而谷歌单季度资本开支处于连续正增长的态势，从54亿美元飙升至132亿美元。需要指出的是，二者资本开支增速与AI时代的算力战争有密不可分的联系：很大程度上反映出了二者在破局大模型技术周期的认知力与决断力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_954c1e636a8d4116a18f447b199abfac@000000_oswg58679oswg801oswg387_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：谷歌单季度资本开支趋势，来源：企业财报，锦缎整理</p>
-<p>因此总结而言，造成谷歌与百度显著差异的原因主要有二：</p>
-<p>●同为流量入口，Youtube明显表现出比爱奇艺更高的成长性，同一时间段内Youtube营收从38亿美元增长至87亿美元，而爱奇艺从2020年至今收入贡献几乎没有变化。</p>
-<p>●在重新划分线上流量的2021-2022年（短视频流量价值显著反超搜索），谷歌比百度更先一步恢复增长。根据谷歌电话会表述，线上零售市场成为驱动谷歌搜索复苏的核心，跨境电商大战重新为步履蹒跚的硅谷旧王铸了一幅新拐。</p>
-<p>国内短视频电商的商业化发展十分迅猛，从营销推广，到交易物流，短视频几乎切入了商品贸易的细枝末节。相比之下门户搜索对于电商贸易的切入程度，可能仅仅局限于传统获客了。</p>
-<p>而国内头部电商平台月活用户增量几乎都触摸到了天花板，增量用户稳定，搜索门户的流量价值自然会萎缩。而Tik tok，Reels的商业生态还不是很完善，跨境电商又正处于用户增长期，无论是Shein、Temu当前都比较依赖传统渠道获客。</p>
-<p>所以百度和谷歌收入端的增速差，实际原因或许是时间差：欧美的新式电商和跨境电商市场相对蓝海，并处在疯狂的获客期，为传统搜索和内容平台在短期内带来了不俗的增量，而长期来看谷歌和百度的搜索流量价值其实都在下滑，并无差异。</p>
-<p><strong>（2）补充坐标：中概互联</strong></p>
-<p>再来对比一下同一市场内不同业务线的其他中概互联标的与百度的增速差。</p>
-<p>在收入端，中概互联市值TOP10的企业中，百度五年间单季度营收增速排在第8，仅微高于高基数的腾讯和网易（不足1%），中概互联整体增速为122.7%，百度仅为50.5%。</p>
-<p>在成本端，中概互联样本企业过去五年间单季度整体费率从14.6%增长至17.2%，增长了2.6pct，同周期百度从17.2%下降至16.9%，收缩了0.3pct。</p>
-<p>在支出端，中概互联样本企业过去五年间研发费用整体增长了51%，百度为32%，不过百度的研发费率为17.3%，中概互联整体的研发费率为5%。可见，百度的研发投入意愿还是高于大多数中概互联企业。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_3946e24f432240d595b53cb22957863d@000000_oswg62709oswg888oswg401_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：百度与中概互联五年间单季度业绩对比,来源：Choice金融客户端</p>
-<p>因此受制于规模增速差，百度其实已经脱离了互联网头部（3-4强）的范畴，今年二季度营收仅排在已上市中概互联企业（不含字节）的第6名，市值仅排在第7名。</p>
-<p>值得一提的是，其实谷歌的市值预期也没有那么理想，目前估值区间仅为20-23x，在硅谷科技“七姐妹”中排名倒数第一，比META还要低5x左右。可见市场在未能看见创新产品进一步发展的情况下，也并不愿意给予传统搜索平台更高的估值。</p>
-<p>总结而言，现阶段百度在两条坐标轴中没有优势，相比谷歌国内市场并不存在电商获客的红利，相比中概互联业务增量又不足，因此处于估值低谷。</p>
-<h2><strong>02 困斗八角笼</strong></h2>
-<p>两个坐标对比完，我们先从百度谷歌的共性聊一聊，为什么现阶段市场不太认可远古AI巨头。</p>
-<p><strong>（1）“技术金叉”尚未清晰</strong></p>
-<p>相较于其他互联网公司，百度和谷歌显著的共性就是研发投入意愿强，无论是早期的网页搜索技术、分布式算力还是当下时兴的AI、自动驾驶等等，百度和谷歌在各自市场都是技术层面的先驱者。</p>
-<p>创新和营销就是推动公司成长的两个核心要素，但营销作为1-100的增长支柱，对于市场而言是很好量化的，业绩增速展现了一切。</p>
-<p>而创新技术，是0-1的过程，是很难进行量化的，尤其是现如今媒介渠道的增多，投资人每天面对海量的技术更迭的信息，很难确认技术迭进对企业未来影响几成。</p>
-<p>其实延寻基本面的底层逻辑，我们还有一个方法去验证企业是否真的掌握了技术突破的能力——对比企业发展和经济周期之间的关系。</p>
-<p>在时代的电梯上，无论是躺着还是站着都在上行，潮水退去才会发现谁在裸泳。</p>
-<p>如果一个企业的增速能够无视经济周期的转向，那一定是技术创新引领时代，并且能够实现有效转换，也就是所谓的技术顶破周期的天花板，即技术金叉。</p>
-<p>但如果没有类似的表现，往往以技术驱动的企业，会遭受更大的反噬和压力。</p>
-<p>比如在创新技术爆发期，不同的技术路线会决定技术应用的成败，比如在ChatGPT时刻出现之前，数据量和规则算法决定了自动驾驶高度，但大模型的出现开辟了另一条端到端的技术路线，完全颠覆了自动驾驶的逻辑。</p>
-<p>那么对于投入了大量资本开支，延寻 “上一代”技术路线的企业便会形成巨大的沉没成本，食之无味弃之可惜，尤其是对于上市企业而言，多方利益链掣肘可能会形成系统性压力。</p>
-<p>诚然，正如上文对比而言，百度与谷歌在两个维度均为能实现突破行业和周期的增速水平，因此现阶段还未能证明技术驱动的优势。</p>
-<p><strong>（2）“王冠”的诅咒</strong></p>
-<p>回到行文伊始的问题，为什么曾经同样强大的谷歌与百度，没有同“”AMN”（苹果微软英伟达）或“ATJ”（阿里腾讯字节）一样在某项商业、某项服务中筑起难以逾越的高墙。</p>
-<p>以百度为主视角，承接技术金叉的结论，其实纵观其25年历程中，能够称得上构成壁垒的产品目前仍只有搜索，而门户搜索是传统互联网初期的典型优质产品。</p>
-<p>因此除了能够在互联网泡沫期杀出重围外，实际是百度在很长时间内都没能突破互联网周期叙事。除了两次样本扩容的增量外，横向对比百度和中概互联近20年的营收增速，在2008年之后就基本没能突破行业增长的上限。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_f55e87d881024514bd4705798c00e969@000000_oswg92472oswg816oswg408_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：中概互联和百度营收增速对比,来源：Choice金融客户端</p>
-<p>百度本身就不具备匹敌头部互联网的实力，之所以市场感官百度能够纳入头部互联网序列，一是具备绝对的先发优势，二是自古以来“行难路远，出门问问”的底层逻辑，让百度成为互联网的标志性名片。</p>
-<p>但以近几年百度产品和技术实践而言，无论是内容类的百家号、贴吧知乎还是产品工具类的翻译、音乐软件，亦或是移动互联网时代的本地生活、短视频，相较于后进原生时代更垂的产品，都不具备任何优势，因此常常起个大早赶个晚集。</p>
-<p>而曾经加冕中文互联网的王冠又带给了百度莫大的压力，在无论是传统互联网时代还是移动互联网时代，百度都寄希望于能够以此为依托搭建新的增长引擎来不负盛名，因此总会付出不理智的成本开支，最终样样都学，样样不精。</p>
-<p>最典型的例子就是，同病相连的老大哥谷歌在后疫情周期，都将绝大多数资本开支放在了固定资产侧，百度却依然付出了大量成本去收购YY。</p>
-<p>总结而言，搜索作为门户时代的传统龙头，在移动时代更封闭的内容生态下丧失了流量壁垒。而百度押注的技术路线，还未出现足以支撑其突破周期封锁的能力。</p>
-<p>因此相较于头部互联网企业，百度在移动时代无论做什么业务，都像是身处八角笼中，赤手空拳地面对各方对手，多数情况只能折戟沉沙。</p>
-<p>资本认可程度低和迟迟未寻得第二曲线，只是困于八角笼中的必然结果。</p>
-<p>理性来说，AI绝对是过去十年百度押注最为成功的领域，可能短期内有技术路线选择的偏差，但云计算、搜索内容长期积累的算力、语料资产百度依旧具备优势。截至2023年底百度还是人工智能全领域专利数量最多的企业之一。</p>
-<p>技术积累的隐形优势一直存在，即便在智能手机时代落伍，诺基亚和摩托罗拉在通信技术领域积累的技术优势也能为其提供源源不断的养分供给，对于百度来说也是一样。</p>
-<p>当然，开枝散叶的百度绝不是寥寥千字可以素描的画像，我们在理清整体的基本面之后，会从搜索流量、云业务、大模型技术、自动驾驶、营运和内容等多个维度持续探寻百度的优势、劣势、潜在的问题和挑战，从而以此为样本构建中文互联网传统企业AI周期的典型画像。</p>
-<p>让我们下一篇细分议题里见。</p>
-<p>*本文系基于公开资料撰写，仅作为信息交流之用，不构成任何投资建议</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkxOTAyNjAwOA==&amp;mid=2247546854&amp;idx=1&amp;sn=6aeae691a24c3edf2e1bcc4138bb6edb&amp;chksm=c01757002a5f9715084edbf3505580a206d363aa2730ef7d7ab6850850c4e334a5f95f4b6654&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“锦缎”（ID：jinduan006）</a>，作者：耀华，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994457193572225</guid><pubDate>Wed, 16 Oct 2024 09:10:00 +0800</pubDate></item><item><title>AI圈顶流捧场，黄仁勋苏姿丰都来了，联想亮AI Now智能体大招，连甩10多个重磅AI产品</title><link>https://36kr.com/p/2994441058707842</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>杨元庆黄仁勋苏姿丰同台！英特尔AMD史无前例联手，AI PC顶流扎堆输干货。</p>
-</blockquote>
-<p>刚刚，联想一场大会，几乎把<strong>全球AI圈顶流聚齐了！</strong></p>
-<p>黄仁勋苏姿丰接连登场、英特尔AMD史无前例首次合作、英特尔CEO现场掏出下一代CPU、扎克伯格剧透XR新品，还有联想智能体大招AI Now正式登场。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_7186b023874049f78cdcafde36e0ef81@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>昨晚，AI量大管饱，精彩镜头应接不暇。</p>
-<p>智东西西雅图10月15日现场报道，刚刚联想创新科技大会2024正式开幕，联想一口气发布了<strong>PC个人AI智能体、搭载英伟达新核弹Blackwell的液冷服务器，以及海量AI手机、AI PC、AI服务器相关新产品、新技术。</strong></p>
-<p>AI手机直接化身超级AI私人助理，你跟它分享的每个细节信息它都牢记于心，随时帮你调取，对于点外卖等复杂操作，也能一句话搞定。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_23c36a0db446495da7c75355eaaec231@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>超级互联功能更是可以直接让AI功能跨设备流转，没有AI能力的设备，只需轻轻一点，就能马上“AI化”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_b670a75de5494e9cbc51629c2b2b86b2@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>智东西在现场最深的感受是，<strong>AI正在加速落地到终端和行业，从年初CES上AI PC、AI Agent初步展露形态、功能，到如今真正落地在PC、手机上，AI正从“想到”变成“用到”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_6dd8dbcdf2c44422b7b7d951c5b7c09a@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">大会展区现场</p>
-<p>值得一提的是，联想作为全球头部AI PC大厂，其行业号召力此次尽显无疑，英伟达、英特尔、AMD、高通、Meta、微软等全球顶级科技巨头几乎都聚齐了。</p>
-<p>AI行业的流量头牌英伟达创始人兼CEO黄仁勋、AMD董事长兼CEO苏姿丰、英特尔CEO帕特·基辛格都来到大会现场进行了演讲。</p>
-<p>基辛格官宣了<strong>英特尔和AMD史无前例的首次合作——组建x86生态咨询小组，</strong>并激情地说道，x86时代并未结束，他们还活着而且活得很好。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_5b2714a11a39495cb54b2a552c424d47@000000_oswg73267oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>黄仁勋作为压轴登场的AI顶流“网红”，与联想集团董事长兼CEO杨元庆一起发布了联想车载和服务器新品，并宣称<strong>英伟达未来将创造数十亿的AI智能体。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_8753a0d8027b4e6db8d41430c38fa765@000000_oswg44281oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>未来AI大模型将成为新的操作系统，AI大模型之上则是各类可以帮个人、帮企业处理任务的AI智能体，这些智能体可以是物理机器人，也可以是虚拟数字人。</p>
-<p>此次没有来到现场的Meta CEO马克·扎克伯格、微软董事长兼CEO萨提亚·纳德拉、高通总裁兼CEO克里斯蒂亚诺·安蒙也进行了远程连线。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_66074f82de444307bdcd371fe5cb5bfe@000000_oswg404858oswg1000oswg533_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>一系列重磅嘉宾的登场也侧面体现出，<strong>AI要真正服务于每一个人，不是一个企业可以做到的。</strong></p>
-<p>嘉宾阵容的强大就是因为<strong>AI落地已是必须由产业链企业生态闭环来完成的。英特尔CEO直接把AMD打在了自己的演讲PPT上，当作合作伙伴来聊。</strong>行业变化之快，可以见得。</p>
-<p>杨元庆在现场详细解读了联想集团在AI方面的关键战略，杨元庆特别提到，AI是切实可行的，它不是昙花一现的潮流，更不是注定破灭的泡沫。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_d2af42e067634257b164f6a7a4974a87@000000_oswg95011oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">联想集团董事长兼CEO杨元庆</p>
-<p>杨元庆在演讲中重点解读了联想在AI智能体方面的布局，在联想看来，AI智能体未来会成为我们每个人的“AI双胞胎”。</p>
-<p>AI智能体会真正懂我们、给我们提供主动服务——<strong>个人计算正在转变为AI支持的个性化计算。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_4db3977eee234e4c8e88f4f501c811f9@000000_oswg72965oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不得不说，AI智能体，几乎成为了当下AI产业最热的词，甚至没有之一，从芯片厂、系统厂到终端厂，所有人都在向这个方向发力。</p>
-<p>纵观今天的大会，<strong>AI的无处不在正在让联想这种传统PC、服务器厂商的业务边界被打破，从液冷服务器到机器狗，再到3D交互以及智能驾驶，都成为联想开始涉足研究、深入到业务范畴。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_2826c3bc181f40f08f01f823fd0f0c1e@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">大会展区现场</p>
-<p>AI正在成为驱动全球科技巨头“破圈”的关键驱动力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_88c4361a1d4848c0a2d4f018f583c2e2@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">大会展区现场</p>
-<p>此次在大会现场，联想的新产品有哪些亮眼的表现，有哪些关键技术值得深入挖掘，智东西将带你一文看尽。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_280823007444488db4551234167b76fb@000000_oswg959542oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">智东西总编辑张国仁在联想创新科技大会2024现场</p>
-<h2><strong>01.PC上的个人AI智能体来了，英特尔微软CEO站台，杨元庆：AI绝不是昙花一现</strong></h2>
-<p>今天联想的大会只有一个核心主题，那就是AI。</p>
-<p>杨元庆一上台就强调道，联想相信AI是切实可行的，它不是昙花一现的潮流，更不是注定破灭的泡沫。从终端、基础设施、解决方案到服务，联想一直在AI领域进行投资创新。</p>
-<p>在联想看来，混合AI会成为未来，包括个人AI、企业AI，它们将与公共AI共存。个人用户可以从端侧设备获取AI，比如AI PC、AI手机，企业用户则可以通过云应用获得AI。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_31b73ccde7a340b48bf80c2a58ed9626@000000_oswg118440oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>个人消费者可以从PC、平板电脑和智能手机等设备的入口访问公共AI。但与此同时，这些设备内置了AI模型，可以接收用户提示，并通过自然交互在本地执行推理。这是实现个人AI的第一步。</p>
-<p>在个人AI方面，联想认为AI智能体（AI Agent）会成为我们的个人AI“双胞胎”，使用自然交互来理解用户的意图。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_37fe63d628094e99b34905d5211c20aa@000000_oswg68644oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>AI智能体会从用户在设备上的个人知识库中提取相关信息、提供答案、分解任务、制定执行计划，开放的生态系统相连、支持异构计算，并确保隐私和数据安全。最终，它会成为你个人的AI双胞胎。</p>
-<p>联想的核心理念是基于这样的个人AI智能体，实现横跨多个设备、横跨多个生态系统的无缝、安全的AI体验。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_8fda7f115aae4a4fb661bde03192834e@000000_oswg67823oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在此次大会上，联想面向全球正式发布了联想AI Now——联想PC上的个人AI智能体。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_825a068d81844122ad33005668c0e192@000000_oswg65238oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>杨元庆说道，个人计算正在转变为人工智能支持的个性化计算。</p>
-<p>在现场演示中，只要按“AI键”激活，AI Now就可以将笔记和图片从平板电脑无缝传输到电脑中。AI Now可以同时基于文本和图片生成内容，我们只需要把自己的需求发给AI Now，它就可以给我们生成一幅图文兼备的宣传海报。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_da14602a4d70408289b74c8cb6f388a6@000000_oswg36867oswg1000oswg562_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>AI Now还可以化身老师，给学生出题，帮助学生巩固关键知识点。针对错题，AI Now还可以提供相关知识点资料。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_d30ea3a5c51e420caa9340f405bb5baf@000000_oswg26982oswg1080oswg615_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当然，这些体验的实现离不开强劲的芯片支持，此次联想和英特尔联合发布了Aura Edition PC，据称其代表了当前个人电脑所能实现功能的最高水平。</p>
-<p>英特尔CEO帕特尔·基辛格也来到了现场，与杨元庆在台上进行了面对面交流。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_509a60cf57594b99a0370e34f8c0dac2@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>基辛格提到，AI会从本质上改变人与技术的关系，每一个公司都会成为AI公司，每个设备都会成为AI设备，每个人都会有一个AI PC，AI释放的创造力和生产力会超出想象。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_1898feeaa205462d9ac40cc05dae6390@000000_oswg106515oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在基辛格看来，AI PC是行业的决定性时刻，十年后所有PC都会变成AI PC。PC的整个生态系统都会围绕着AI进行发展，目前基于英特尔处理器的AI PC已经卖出2000多万台。</p>
-<p>基辛格特别提到，今天也许是英特尔和AMD史无前例的首次合作。有些人说x86时代已经结束了，但在他看来，关于“死期”的传闻被严重夸大了。基辛格说：“我们还活着，而且活得很好！”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_8ef89b7e2181487a915856c42aab6316@000000_oswg89558oswg967oswg583_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在他看来，行业将迎来x86架构最重要的创新时期之一，这正是人工智能带来的机遇。英特尔和AMD宣布组建x86生态系统咨询小组。苏姿丰和他达成了一致，他们认为现在是最佳时机。</p>
-<p>这个生态系统咨询小组旨在简化软件开发、确保互操作性和接口一致性，并为开发者提供标准的架构工具、指令集以及对未来的清晰展望，“一个蓬勃发展的生态系统的价值比以往任何时候都更加重要。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_5098b6d137e74e819b15272999b27c32@000000_oswg76911oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>值得一提的是，基辛格还在台上亲手将下一代Panther Lake处理器交到了杨元庆手里。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_5e8fb232adbf43439b895c034f9a147b@000000_oswg49069oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当然，基辛格也在会上介绍了双方共同发布的AI PC新品Aura Edition PC，其支持的智能模式可以根据用户行为自动调整性能和AI功能；智能分享功能可在手机和联想笔记本电脑之间提供图片共享体验。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_da85ea3822844df695993408631b318a@000000_oswg68361oswg1000oswg562_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>利用AI虚拟传感器技术，我们在笔记本电脑屏幕边缘触碰支持的智能手机，就可以实现设备间简单的拖放传输相册的照片，该功能同时支持iOS和Android平台。</p>
-<p>在AI PC部分，微软CEO纳德拉也发来了视频演讲，纳德拉提到，双方正合作开发Copilot+PC，包括将Azure AI和内容安全引入联想个人AI智能体，进而提升AI PC的用户体验。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_9fcd880a22274ca2af8fde255bbd3aa3@000000_oswg83113oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>纳德拉说，从AMD、英特尔到高通，联想正与整个芯片产业生态密切合作，为Yoga和ThinkPad产品线带来AI创新升级，而这一切只是一个开始。</p>
-<p>既然提到AI PC，自然少不了高通，高通CEO安蒙在会上发来了视频，他进一步回顾了双方在AI PC领域的重要合作，包括今年推出的首款搭载高通骁龙X Elite的下一代Copilot+ PC——联想Yoga Slim 7x和联想ThinkPad T14s Gen 6。</p>
-<h2><strong>02.苏妈站台谈AI，水冷服务器用上老黄新核弹，扎克伯格剧透XR头显大招</strong></h2>
-<p>说完了个人AI，杨元庆紧接着谈到了联想在企业AI方面的关键布局和重要产品、技术。</p>
-<p>相较于个人AI，企业AI，即私域AI大模型，会利用企业数据和知识来支持更高效、更安全、更智能的企业决策。</p>
-<p>越来越多的企业数据正在被存储到私有云、边缘和终端设备上，而AI工作负载在其间的分布也更加均衡，这样“端-边-云-网”结合的基础设施方案，就是混合式基础设施解决方案（Hybrid infrastructure solutions）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_b65926229e4b43a8986fb4778b68adb2@000000_oswg64409oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>逐层来看，联想的混合式基础设施解决方案是以AI服务器、存储以及公有云和私有云为起点，企业数据在这里存储、清洗和整理。</p>
-<p>凭借正确的提示，数据就会进入私域AI大模型进行协调和分析，随后在服务环节得出答案和结论，为用户采取行动提供建议。</p>
-<p>为了推动混合AI的发展，联想将在大会上发布了联想混合式AI优势集，具体来看，其依托于联想的全栈能力和AI加速器图书馆，可以让组织能更快地将智能转化为成果。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_4db49bd490a241b8bdb078c1488775b8@000000_oswg64274oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为了快速确定解决方案，能够根据客户需要进行个性化定制，联想搭建了AI图书馆（AI Library），其中的解决方案和服务都是在实际场景中应用、部署和扩展过，经过实践应用验证的。</p>
-<p>杨元庆提到，提高生产力和提高效率并不是企业AI的全部目的，推动创新的还有一项关键——联想致力于减少能源消耗，让我们的地球更具可持续性。在今天的大会上，联想正式发布了第六代Neptune海神液冷解决方案。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_acaf15b2283641048d7abba0e44dcc04@000000_oswg61743oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>与传统的风冷系统相比，Neptune海神液冷采用了温水冷却技术，可以减少40%的电力消耗，海神也冷可以让AI和HPC客户在不需要专门的数据中心空调的情况下运行100千瓦以上的服务器机架，98%的热量将转移到水循环。</p>
-<p>在企业AI部分，AMD CEO苏姿丰博士也来到了现场，苏姿丰提到，AI正在改变我们的生活，虽然AI应用还处于早期，但他们对AI的发展充满信心，AI的新趋势和新机会一直在涌现。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_8bb9d6128b254458be50688637773333@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>苏姿丰说，没有AI赋能的PC会逐渐成为历史，AI对创新的推动是史无前例的。现场，苏姿丰展示了一系列AMD最新的服务器产品，包括第五代AMD EPYC处理器，AMD Instinct MI300X、MI325X等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_7f3c27d649b74f6592e7906ae40c2ad2@000000_oswg21475oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>苏姿丰特别提到，AMD希望有一个开放的平台和生态系统，触达更多用户，所有的平台、技术、不同的硬件都可以在这个生态系统中，AMD现在可以支持超过100万个模型。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_a6752157f5664379b8b84cd38f2eda7d@000000_oswg76146oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了个人和企业应用场景，联想也将AI用在了一些公益领域，在介绍应县木塔智慧解决方案的部分，联想提到了混合现实（XR）技术的应用，Meta CEO扎克伯格也视频接入发表了演讲。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_0558ced213e844c2968a492b358f45fe@000000_oswg77205oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>扎克伯格透露，双方正在合作打造下一代产品Oculus Rift S，此外，联想还计划推出搭载Meta Horizon OS的混合现实头显。目前双方已联手打造了一款2D应用程序，用户能在更大虚拟屏幕中与摩托罗拉手机上的应用程序进行交互。</p>
-<p>扎克伯格说，未来Meta会与联想合作，将更多突破性的AI和混合现实技术带给更多人。</p>
-<p>最后，在自动驾驶方面，凭借在异构计算和软硬件联合优化方面的优势，联想正在与英伟达合作开发基于DRIVE Thor的AI计算平台AD1和AH1，用于L4和L2++自动驾驶的域控制器解决方案。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_ad0e81948cc54e7c9113db78e0320b70@000000_oswg58886oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">AD1（左）和AH1（右）</p>
-<p>在联想看来，下一代AI定义的车辆将超越单纯的交通工具，进化成为一个智能化的移动空间，个人设备的功能将在其中得到充分延展和利用。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_8e77dec1952a424280f3906a383ac04e@000000_oswg54511oswg1026oswg558_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>03.AI新功能大爆发：个人信息全记住，复杂操作一句话搞定，AI能力还可以跨设备分享</strong></h2>
-<p>在今天大会的后半部分，包括联想CTO在内的多位高管进一步展示了此次大会期间发布的一系列新品。</p>
-<p>在AI手机方面，联想推出了Moto AI。基于大行动模型（Large Action Models），Moto AI能从用户的行为中学习，理解自然语言，并在应用程序和服务中采取行动。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_108e2cd5baf14f8181374087bf8e1f6d@000000_oswg76639oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>比如在旅行前，有Moto AI的“Remember This”和“Memory Finder”功能，用户分享的每个细节都会存储在本地。</p>
-<p>出发时，对于一些问题，如“我的航班明天几点起飞？”、“我需要打包什么？”或“我什么时候该出发？”你可以直接提问， Moto AI都可以告诉你。</p>
-<p>想要点一杯咖啡，只需说“给我点一杯咖啡”，Moto AI就会处理其余的工作，包括找到最近的商店、下订单，并在准备好时通知用户。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_e4777dc8b06c41a8b2c0ca85758ebd64@000000_oswg76779oswg1080oswg612_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当用户不便查看手机消息时，Moto AI的“catch me up”功能还可以帮助用户快速总结所有消息。</p>
-<p>超级互联（Smart Connect）是一个支持 AI 的互联软件平台，其整合了联想和摩托罗拉生态系统，可以实现跨生态系统的设备体验个性化。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_2b06b56e0ea24d5eb28044b2eef3a854@000000_oswg64784oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此次联想超级互联进一步升级，当用户长按不具备AI功能的联想平板电脑屏幕时，智能连接会立即调用用户AI PC上的AI功能，如此平板电脑也会变得更加智能。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_173cca6954e649f1bd5f63ce1b49a9d5@000000_oswg38121oswg1080oswg686_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此外智能连接还适用于摩托罗拉手机，可以调用设备上的个人知识库，让用户在创作、消费、工作和娱乐中获得更好的智能体验。</p>
-<p>联想CTO特别提到，AI智能体会是下一个重要的AI发展趋势。AI智能体可以了解你、懂你、为你工作，从被动变为主动。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_f90911d1877e49cb8fb50bd1003cc322@000000_oswg80244oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>04.黄仁勋压轴登场，点名表扬Llama 3，联合发布Blackwell服务器新品</strong></h2>
-<p>这次英伟达CEO黄仁勋作为重磅嘉宾之一，在最后“压轴”登场。</p>
-<p>黄仁勋说，今天我们正在重新发明计算机，重新创造整个“栈”。以前是写代码，现在是机器学习，代码要跑在CPU上，而机器学习则被设计跑在GPU上。</p>
-<p>代码创造了软件，机器学习创造了AI，这将带来有史以来最大的科技革命。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_7de566e62af94880b8d51b7da389b2dc@000000_oswg52503oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>黄仁勋再次点名表扬了Meta的Llama 3，称其为“改变行业者”，得益于Llama 3，每个企业都可以基于必需的AI基础设施，享受到AI，将模型转变为AI。</p>
-<p>在黄仁勋看来，大模型只是AI的一部分，把大模型真正转换成AI智能体，去帮助你处理工作，才是最终目的。</p>
-<p>而英伟达和联想做的，就是做好AI基础设施。</p>
-<p>对于AI智能体这个话题，黄仁勋也给出了自己的看法。他提到，英伟达未来将创造数数十亿的AI智能体。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_a5dbd6baae8246ebac06857706281e59@000000_oswg96298oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>黄仁勋说，其实物理的智能体就是机器人，可以去理解物理世界，而虚拟数字智能体就是今天的AI智能体，可以理解信息的世界，两者结合，将给产业带来巨大价值，最终人在AI的加持下实现“超级人工创造力”。</p>
-<p>杨元庆在交流过程中重磅宣布，联想的混合AI将与英伟达深度合作，从数据、软件、模型到服务，打造一个端到端的AI平台，加速AI的研究和部署，加速AI的落地应用。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_008ea8eb5fd24990bae52d39e41263c6@000000_oswg84813oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>黄仁勋说，未来，AI大模型可能就像一个新的操作系统，AI大模型之上是各类“AI同事”，可以与你一起执行各种任务。</p>
-<p>在交流中，黄仁勋又提及了性能增长带来的成本节省、能耗节省。正如老黄那句经典台词：买的越多，省的越多。</p>
-<p>最后，杨元庆和黄仁勋联合发布了搭载液冷技术的最新服务器产品ThinkSystem SC777 V4 Neptune，其搭载了英伟达新核弹Blackwell平台。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_cae7ca44e0e140ee9f1fc296e3c0e982@000000_oswg70657oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>05.结语：AI大模型决胜于落地，混合式AI和AI智能体成两大关键趋势</strong></h2>
-<p>从大模型狂热到如今AI应用百花齐放，如何让AI从云端真正落地并发挥价值，已成为行业内外关注的焦点，更是全球科技厂商的决胜关键。在这过程中，成本效益、运行效率和用户体验已成为AI能否成功实现落地的关键因素。</p>
-<p>从个人到企业，混合式AI，也就是端云结合的AI，已经成为行业共识，也是联想此次产品和技术布局的重点方向。</p>
-<p>展望未来，AI智能体似乎已经成为下一个科技赛道竞争的焦点领域，从芯片厂商、操作系统厂商到终端厂商都在这一领域积极布局，AI的发展，向着AGI又更近了一步。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652775092&amp;idx=1&amp;sn=4a36c5540b40c354cfba10b5bc73e553&amp;chksm=85cfd507abbf280753046c37fa462c4e540656622bc3d1b88d7cd2c3acbaeb94e4bc4daf764d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智东西”（ID：zhidxcom）</a>，作者：云鹏，编辑：漠影，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994441058707842</guid><pubDate>Wed, 16 Oct 2024 09:10:00 +0800</pubDate></item><item><title>查理·芒格的成功宝典：反过来想，永远反过来想</title><link>https://36kr.com/p/2994427498654085</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>“我只想知道将来我会死在什么地方，这样我就永远不去那儿了。”查理·芒格经常引用这句话，据说是出自一个农夫朴实的人生道理。</p>
-<p>芒格经常提到，解决问题的思维方式对成功至关重要。其中，他经常提及的，便是上面这句话背后的“逆向思维”——芒格建议，思考和规划与你希望发生的事情相反的事情，会让你在做任何事情时都具有竞争优势。</p>
-<p>“逆向思维”最大的好处在于可以帮助你避免那些阻碍你实现目标的错误决定。只要想一想你想要避免什么，或者你想要实现的事情的反面，你就可以有效地制定计划，防止失败。</p>
-<p>将正向思维与逆向思维有效结合，可以帮助你解开多年来一直困扰你的难题。今天我们就来聊一聊培养“逆向思维”的技巧。</p>
-</blockquote>
-<blockquote>
-<p>“像我们这样的人之所以会有那么显著的长期优势，其实主要靠的并不是努力变得聪明，而是坚持不干傻事。”</p>
-<p>“反过来想，永远反过来想。把一种局面或者是一个问题颠倒过来观察，反过来从糟糕的结果倒推——如果事情未能如计划进行，出了错会怎样？我们不愿意落入怎样的境地，而什么会让我们落入那样的境地？与其研究成功的方法，不如列出一份可能导致失败的错误清单——懒惰、嫉妒、怨恨、自怜、自恋，所有那些会反噬自身的心理倾向。只要能够避开这些，你就会获得成功。要是知道我会死在什么地方，我坚决不去那里就是了。”</p>
-<p>——查理·芒格</p>
-</blockquote>
-<h2><strong>避免失败更重要</strong></h2>
-<p>逆向思维是一种反向思考的方法。</p>
-<p>换句话说，<strong>与其只正向思考你需要做什么才能得到你想要的东西，还不如反过来思考你不希望发生什么</strong>。</p>
-<p>例如，假如你对于做公开演讲这件事很紧张，不妨对自己说：要专注于避免那些会让演讲变得糟糕的事，而不只想着怎样讲得最好。</p>
-<p>这种逆向逻辑可以延伸到生活的许多领域。“避免犯错”是一种被低估的提升自我的方法。在许多职业中，只要你主动并且为人可靠，就能获得一定程度的成功——哪怕你在这个领域并不是特别聪明、机灵或有天赋。<strong>有时候，探究人们失败的原因比探究他们成功的原因更为关键。</strong></p>
-<p>我们总是倾向于展望未来，考虑如何实现自己的目标，但正向思维有时并不能让我们避免关键性的失误，只有反过来，<strong>关注可能导向歧途的问题，才有可能更好防范</strong>。</p>
-<blockquote>
-<p><strong>逆向思维的心理模型</strong></p>
-<p>古代的斯多葛派（Stoic）哲学家们，经常进行一种名为“逆境预想”（premeditatio malorum）的练习。</p>
-<p>这个练习的目的是预想生活中可能发生的不幸或逆境，比如失去工作、流落街头，或者遭受伤害、瘫痪，或者名誉受损、失去社会地位的情景。</p>
-<p>斯多葛派认为，通过提前设想最坏的情况，他们可以提前练习克服对负面经历的恐惧，并制定更有效的预防措施。当大多数人专注于如何成功时，斯多葛派还会思考如何应对失败——如果明天一切变得更糟，会是怎样的景象？它能启发我们今天要做什么准备？</p>
-<p>这种思考方式——即考虑期望之事的反面。</p>
-</blockquote>
-<p>此外，用反向的方式思考难题，将正向思维与反向或说逆向思维有效结合，有时可以更容易、更快地获得问题的解法。</p>
-<p>德国数学家卡尔·雅各比（Carl Jacobi）在其职业生涯中为不同的科学领域做出了许多重要贡献，他因善于遵循“反过来想，总是反过来想”（man muss immer umkehren）的策略来解决难题而闻名。雅各比认为，重新以逆向形式表述数学问题，是理清思路的最佳方式之一。他会以倒推的形式写下他试图解决的问题，结果发现，这样反而更容易找出最佳解法。</p>
-<p>逆向思维之所以强大，是因为它能够<strong>揭示那些乍一看并不明显的错误或障碍</strong>。如果事实恰恰相反呢？这个问题，如果我换个思路，关注另一要点呢？想要达成某事——不如想想怎样做会导致“达不成”。</p>
-<h2><strong>成功=好决策-坏决策</strong></h2>
-<p>逆向思维在工作中尤其有用。</p>
-<p>思考“什么会导致失败”有时并不逊色于思考“如何才能成功”，你同样能学到很多东西。你想避免哪些错误、失误和失败？逆向思维的重点不在于找到做事的好方法，而在于避免错误和失败的方法。有时盲目追求成功会导致严重后果，但防止失败通常风险很小。</p>
-<p>以下是在工作和生活中利用逆向思维的一些例子：</p>
-<h3><strong>创业管理</strong></h3>
-<p>首先，设想你现在正在努力实现的最重要的目标或项目。时间快进六个月，假设该项目或目标已经失败。</p>
-<p>然后，“分析”事情的经过。出了什么问题？你犯了哪些错误？是如何失败的？换句话说，想一想你的主要目标，然后问自己，“什么原因会导致这出了大错？”</p>
-<p>在企业中，这有时被称为“杀死公司”（Kill The Company）的练习，因为<strong>其目标是准确地列出公司可能失败的方式</strong>。就像“逆境预想”一样，其目的是找出潜在的挑战和失败点，以便制定计划提前预防。<strong>导致创业的失败点，或许并不是某些明显的错误决定，反而是一些看起来“没什么”的举措慢慢地削弱了公司的生产力。</strong>这些举措可能包括：</p>
-<p><strong>产品方面：</strong></p>
-<p>· 选择与业务价值相关性低且噪声大的虚假指标；</p>
-<p>· 坚持将任何举动都当作“大赌注”，坚持把所有工作做完才上线产品；</p>
-<p>· 认为每个功能都是“必备”的，并且是产品首个版本的关键部分；</p>
-<p>· 在部门内部把用户视为愚蠢的；</p>
-<p>……</p>
-<p><strong>管理层方面：</strong></p>
-<p>· 在汇报结构中使用大量虚线，让汇报关系尽量复杂；</p>
-<p>· 尽可能让员工向其他团队、地点或职能部门的经理汇报；</p>
-<p>· 将高业绩员工分配到投机性高且交付成果不明确的研发项目上；</p>
-<p>· 任何决策都要开会，无论决策内容多么微不足道，同时坚持每个“利益相关者”都要出席会议；</p>
-<p>……</p>
-<p><strong>招聘方面：</strong></p>
-<p>· 创建一个看似客观但实际上主观的招聘流程；</p>
-<p>· 使用夸大的头衔和虚构的职位来吸引机会主义者；</p>
-<p>· 雇用高度专业化的专家后，又用无关紧要的项目来防止他们辞职；</p>
-<p>……</p>
-<p><strong>项目管理方面：</strong></p>
-<p>· 要求对任何项目进行非常详细的财务预算；</p>
-<p>· 鼓励尽可能多的团队参与项目，最好在不同地点；</p>
-<p>· 频繁使用昂贵的代理机构，让项目范围模糊，并将未完成的原型交给内部团队完成；</p>
-<p>……</p>
-<h3><strong>工作效率</strong></h3>
-<p>大多数人都希望在更短的时间内完成更多的工作。将逆向思维应用到工作效率上，你可以自问：“如果我想不那么专注，什么事情能让我分心呢？”这个问题的答案可能会帮助你发现可被消除的干扰因素，从而每天更专注。</p>
-<h3><strong>整理物品</strong></h3>
-<p>逆向思维还可以帮助人们做居家收纳整理。在这种情况下，你应该关注的是想要留下什么，而不是想要扔掉什么。</p>
-<p>换句话说，我们应该关注哪些东西能为你的生活“创造快乐”，其它的就可以舍弃掉。这种心态上的转变和传统的关注哪些东西“没有价值”而可以扔掉不同，它<strong>将你的注意力转移到了你想要留下的美好的事物之上</strong>，而非那些负面的，想要丢弃的东西之上。</p>
-<h3><strong>个人理财</strong></h3>
-<p>每个人都想赚更多的钱。但如果把问题倒过来呢？什么会恶化你的财务状况？</p>
-<p>比如，超支是导致财务失败的直接原因。不论你拥有多少钱，长期超支终将导致财务健康无法持续。同样，累积的债务也是一个需要快刀斩乱麻的紧急问题。而日常的无节制消费习惯，即使是细碎的开支，也会最终导致财务压力日渐上升。</p>
-<p>在过于担忧如何增加收入之前，不妨先想想如何避免资金流失。如果你能够成功避开这些问题，你将远远超过许多人，并在过程中避免许多痛苦和烦恼。</p>
-<h2><strong>“反其道而行之”</strong></h2>
-<p>逆向思维往往与直觉相悖。但这种思维方式是帮助你过上逻辑和理性生活的基本技能。它让你能够跳出常规的思维模式，从不同的角度审视情境。无论你面临什么问题，都要考虑事情的对立面。</p>
-<p>而且，想要在生活中运用它也十分简单，你只需要想一想你希望发生什么。然后，只需思考与它相反的情景，然后想想又是什么会导致它变成反面——我们称之为“反向方案”。 最后，再根据“反向方案”来提出你的“预防方案”。</p>
-<p>例如：</p>
-<p>• 希望发生的事：<strong>我怎样能获得新客户？</strong></p>
-<p>• 逆向思维：<strong>什么会阻止一家企业吸引新客户？</strong></p>
-<p>• 反向方案：减少宣传、不分享与这家企业合作的好处、不去认真研究了解客户的真正需求。</p>
-<p>• 预防方案：开展免费赠品促销、在社交媒体上宣传企业的优势、认真调研潜在客户……</p>
-<p>那么如何培养自己的逆向思维呢？以下几点需要你格外注意：</p>
-<p><strong>首先，跳出既定框架，打破常规思维模式。</strong>只有当我们愿意跳出既定的框架，才能看到不同的可能性，从而培养出逆向思维。在日常生活中，我们可以有意识地挑战常规的“解法”，尝试用全新的角度和方法去解决问题。保持好奇心。</p>
-<p><strong>其次，多角度思考，更全面地理解问题，避免因为视角局限而错过某些重要的信息或解决方案。</strong></p>
-<p><strong>第三，接受挑战和失败。</strong>当我们尝试一些新的、未经验证的想法或方法时，必然伴随着风险和不确定性。只有勇于接受挑战，并从失败中汲取教训，我们才能不断地进步和创新。</p>
-<p><strong>最后，持续学习和实践。</strong>通过持续的学习，我们能掌握更多的知识和技能，从而更好地运用开阔的视野、灵活的思维去解决问题。无论是从书籍，还是与他人交流中，当我们开放心态，尝试接受不同的观点与文化，都助于你从不同的角度看待问题，打开思维，更好地解决各种问题。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&amp;mid=2651277078&amp;idx=1&amp;sn=e3ebb0feec91aec3dfb22084f77c2dae&amp;chksm=8133f5caef125d9188bf14aa8626658e1e29f4c7dabb17fa3479288a6282eba8d88e577c92e4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“红杉汇”（ID：Sequoiacap）</a>，作者：洪杉，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994427498654085</guid><pubDate>Wed, 16 Oct 2024 09:11:00 +0800</pubDate></item><item><title>王笑京：至少未来十年，robotaxi不可能取代人</title><link>https://36kr.com/p/2994421562107783</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“安全”，是国家智能交通系统工程技术研究中心首席科学家、中国智能交通产业联盟理事长王笑京在接受采访时反复强调的词。</p>
-<p>在王笑京看来，无论以robotaxi为代表的企业级无人驾驶出租车，还是个人车辆的高级智能驾驶，首要前提都是安全。“没有安全作为底线，所有的应用都谈不上。”王笑京表示。</p>
-<p>10月14日，在苏州举办的第六届全球智能驾驶大会上，苏州市智能网联汽车“车路云一体化”应用试点建设全面启动。王笑京认为，这一试点对于车路云协同以及智驾发展而言，是非常重要的一步。让用户（驾车者）体验到明显的好处和收益，则是下一步工作的重点。</p>
-<p><strong>在会上，王笑京对车路云一体化应用试点的实施提出了3点建议：</strong></p>
-<p><strong>第一，车路一体应该采用正向设计的方法。</strong>（车路云）体系要做得好，应该从受众需求开始做。这个需求是指大众需求，而不是企业和部门的空想需求。</p>
-<p><strong>第二，重视两类基础设施差异，注重资产积累。</strong>交通界的基础设施，尤其道路基础设施、市政基础设施，通过养护可以保证资产价值和应用功能。但今天做以信息装备为主的路侧设施之后，因迭代更新太快，保值增值比较难。现阶段，要充分利用4G已有资源和已经商业化部署的5G资源，<strong>路侧专用设施以市场化推进为主，资金来源应该以企业或社会融资为主，创新融资方式。</strong></p>
-<p><strong>第三，选好车路云切入点。</strong>要考虑用户，包括出行者、运营者的直接感受和收益。政府可以从公共交通、共享交通、货运物流等限定区域方面切入，如网约出租车不一定要政府进行投资，但是可以给他们政策支持，应用新技术；个人乘用车则以市场引导为主。</p>
-<p>王笑京表示，新一代智能交通正在逐步形成，数字化和人工智能是基础技术。新一代数字化条件下，交通控制和服务变革已经显现，车路一体智能交通应该更加关注成本效益和实施方式，车路云需要从交通系统和社会角度进行考虑。根据中国实践情况，车路云和车路协同需要找到适当的切入点。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_a67de8cb9f804b96867c8372b967107b@000000_oswg122693oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>会后，关于特斯拉robotaxi、自动驾驶的发展前景等话题，王笑京接受了《中国企业家》等媒体的采访。</p>
-<p><strong>以下为采访内容整理（有删减）：</strong></p>
-<h2><strong>对特斯拉robotaxi的看法：安全第一</strong></h2>
-<p><strong>问：</strong>前两天特斯拉刚开发布会，您对这个事情怎么看？它对于国内智驾的启示或者说经验是什么？</p>
-<p><strong>王笑京：</strong>特斯拉的robotaxi已经明确在美国首发，然后是中国和欧洲，它在世界各地都在部署。不过特斯拉目前主要是集中在美国做，在它之前，实际上有很多自动驾驶企业在美国做自动驾驶出租车。</p>
-<p>我们国内其实也有，比如说几个主要的智能汽车企业，已经在北京、武汉、苏州等地开始试点，当然有的城市做得规模大一点，有的小一点。</p>
-<p>但这种东西一旦进入到中国市场，我觉得它会推动国内的自动驾驶，特别是自动驾驶出租车行业更快地发展。因为你不发展，你不去占领市场，它就进来了，我们现在必须要加快。</p>
-<p><strong>当然这里有一个前提：安全第一，包括数据安全、乘客安全、交通安全，以及车辆本身的安全，</strong>这是我们必须关注的。没有安全作为底线，所有的应用都谈不上。</p>
-<p><strong>问：</strong>您认为robotaxi大规模应用，乃至未来对于公共交通领域格局的改变或影响，会发生在哪个时间节点？</p>
-<p><strong>王笑京：</strong>现在还谈不到，自动驾驶现在还在发展过程当中。加速推进自动驾驶，以robotaxi为切入点，世界各地都在做。</p>
-<p>但在相当长一段时间内，人开车还是主体，robotaxi可以作为一个方面，包括在出租车行业，它不可能大规模地取代人工驾驶的出租车，也不可能取代网约出租车，它只能作为一个补充。</p>
-<p><strong>问：</strong>它的前景到底如何？</p>
-<p><strong>王笑京：</strong>robotaxi是自动驾驶企业选择的一个切入点，因为现在高级自动驾驶大量地市场化是不现实的，法规也不完善，老百姓不敢用。</p>
-<p>所以他们现在选择了robotaxi。robotaxi是一种企业化的经营，它不是个人开车，它有相应的安全员、后台监控，有它的安全保障。</p>
-<p><strong>但是robotaxi还有一个成本和收益的问题。</strong>怎么去和人工驾驶、和现在的网约出租车去比较，这个也很重要。一旦成本减到一定程度以后，有可能它要占（行业）相当一部分，但是在任何条件下，至少未来十年左右，它是不可能取代人驾驶出租车的。</p>
-<p><strong>问：</strong>您怎么看特斯拉2026年要量产没有方向盘的车？</p>
-<p><strong>王笑京：</strong>它量产的车是什么概念？我们不知道。生产300辆是量产，10万辆、30万辆，100万辆也是量产。</p>
-<p><strong>问：</strong>国内可以走那种路线吗？</p>
-<p><strong>王笑京：</strong>没有方向盘的，目前可以做演示，但是真正大规模市场化（很难），因为毕竟不是任何地方的路况都非常好的，乡村小道、山路怎么办？你买一辆车，不能说就在城市开，你不出去，不到县里面去，不到村子里面去，那个地方没有方向盘很难处理的。</p>
-<p>但是营运车没问题，它就提供出租车，不出市区，它不会开到村子里面去。</p>
-<h2><strong>谈自动驾驶：应用需求会带动快速发展</strong></h2>
-<p><strong>问：</strong>您感觉从2023到2024年，中国自动驾驶发生了怎样的变化？</p>
-<p><strong>王笑京：</strong>目前明显的变化还看不出来，无非是它更强调车路云。原来自动驾驶是单车智能，现在实际上已经走得比较快了。自动驾驶里较低的是辅助驾驶，辅助驾驶现在装车已经不成问题了，因为人还在控制，高端的（自动驾驶）现在发展是有一定的问题。</p>
-<p>高级自动驾驶现在选了另外一条路，把车路云加进去。但是在这个领域里，像特斯拉这样的企业，它也用网络，它的网络是用来提供数据支持，它把算力集中在车上，提高车端的人工智能的水平，这是它的一个基本的思路。</p>
-<p>国内目前有一些企业提出来，要靠路侧、靠云，把边缘计算加进去，去支持车上算力不足或者说安全缺陷。这个路径能不能走得通，要靠实践，大家都在试。<strong>但是从卖产品的角度来说，单车智能比较好卖。</strong></p>
-<p><strong>问：</strong>有观点认为，现在中国的智能驾驶有三个“缺”：缺算力、缺数据、缺标准。您怎么看？</p>
-<p><strong>王笑京：</strong>应用需求会带动快速发展。现在基础技术我们已经有了，为什么现在推得有限？第一，技术还有缺陷，现在高级自动驾驶还存在缺陷，不可能应对这么千变万化的路上形势。第二，真正的需求是（用户）能够直接受益。比如改善安全的问题，都说自动驾驶可以改善交通安全，你的案例在哪？你的实际测试数据在哪？你必须要能够说服车辆用户，他愿意买你这个车。</p>
-<p>在这时，如果就是要推标准化，推全国通用，用户没有这种需求，品牌怎么去销售也不可能的。</p>
-<p><strong>问：</strong>您会上分享也是特别强调，个人需求引领以及企业需求引领。</p>
-<p><strong>王笑京：</strong>个人就得用市场化去推，现在强迫老百姓买车是不可能的。但是企业需求方面，限定范围内有具体的应用，它就可以使用，比如矿山园区、港口码头，现在码头上用自动驾驶的非常多，根据程序设计好了，装船卸船都是自动化的，所以叫全自动化码头。</p>
-<p><strong>问：</strong>车路云一体化您觉得在哪些领域能实现？</p>
-<p><strong>王笑京：</strong>无人码头不就是车路云一体化的吗？如果没有云控平台，怎么能够控制它？</p>
-<p>包括码头、网约出租车、货运车辆，以及园区、仓储、矿山，这都是应用的领域。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTI3NTQ1MTY0MQ==&amp;mid=2650629731&amp;idx=2&amp;sn=efaba96b123356a5bbe0cc00920244fb&amp;chksm=7d6d049dfd4a0f274f9b61ab2ac7a0f87e9eeb3128066204012bf379623ca13cd092a2d20b74&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国企业家杂志”（ID：iceo-com-cn）</a>，作者：孔月昕，编辑：马吉英 ‍‍，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994421562107783</guid><pubDate>Wed, 16 Oct 2024 09:11:00 +0800</pubDate></item><item><title>阿里重回舞台中央</title><link>https://36kr.com/p/2993932862007684</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>乘着政策和市场的东风，过去三年有些失意的阿里，一扫过去阴霾，重新成了投资者的心头好。</p>
-<p>市值一度站上2万亿人民币，股价冲上近两年高点，作为“电商一哥”的阿里迎来自己的高光时刻。有投行直言，阿里估值正在回归，称要看到阿里的长期价值。</p>
-<p>阿里是机构投资中概股的一个风向标。过去三年，监管上的逆风、电商市场上竞争加剧，都对阿里股价产生负面影响；如今，随着阿里三年整改顺利完成，以及电商业务开始找回主场节奏，第二增长曲线恢复增速，阿里正重燃斗志，要以新的姿态迎战未来。</p>
-<p>这意味着，如果接下来政策上的暖意能够以更大力度提振经济，阿里的基本面也能够随之进一步恢复。</p>
-<p>阿里的愿景是成为百年企业，在经历了上市的辉煌与过去几年的挫折后，阿里正在从低谷中爬起，逐渐摆脱过去的不确定性，迎来一个全新的开端。</p>
-<h2><strong>重启</strong></h2>
-<p>过去一个月，阿里在资本市场上表现亮眼。9月股价上涨27.33%，是2022年11月后表现最好的一个月。</p>
-<p>截至10月15日，尽管近日股价有所回调，但阿里总市值也来到了1.75万亿人民币，相比今年低点，上涨逾58%。今年以来，阿里股价也累计上涨34.94%，超过同期恒生科技指数（涨18.24%）的表现。</p>
-<p>阿里股价快速回暖背后，投资者正在重新审视阿里。国庆前，高盛就将电商在中国互联网行业子板块中的偏好，提升至前两位，与游戏行业并列第一，认为阿里等电商公司价值重估的潜力巨大。</p>
-<p>而在经历近期的快速上涨之后，摩根大通依旧对阿里给出乐观预期，并上调阿里巴巴目标价。摩根大通分析师认为，阿里在目前中国电商行业中，估值最具吸引力。</p>
-<p>的确，如果从全球电商行业的视角来看，包括阿里等在内的中国电商公司在估值上依旧处于低谷。目前，全球电商行业平均市盈率在25左右，而阿里未来12个月预估市盈率在13左右，仍有较大的修复空间。</p>
-<p>有外资投行主管对华尔街见闻表示，今年以来，市场上出现的一个最大变化，是中国市场的股价与基本面挂钩程度更高，加上互联网企业加大回购或分红，提升了投资者的风险偏好。</p>
-<p>今年5月，阿里巴巴还曾发行了一笔45亿美元的可转债，也是境外投资者对中国企业在海外融资的态度明显回暖的体现。这也表明，在此轮资本市场大涨前，投资者已经在重新审视阿里巴巴的价值。</p>
-<p>随着8月30日，监管宣布阿里三年整改告一段落，阿里巴巴也随之获得更大的自由。</p>
-<p>就在10月14日，恒生指数公司宣布，阿里巴巴已获纳入港股通并符合相关指数的快速纳入规则要求，阿里巴巴将于10月28日起被纳入恒生港股通指数。这也是其在8月28日完成香港双重主要上市，时隔十一年，如愿在港交所上市，获得了独立股价定价权后，取得的又一阶段性成果。更多投资者，尤其是中国内地也能通过港股通买入阿里巴巴。</p>
-<p>这都为阿里巴巴股价重估，奠定了基础。经过三年多的低迷后，阿里巴巴代表的中概股，终于重启上涨。</p>
-<h2><strong>挑战</strong></h2>
-<p>不可否认的是，当前阿里正处于一个微妙节点。</p>
-<p>从预估市盈率的角度看，当前阿里估值处于过去12个月里较高水平。如果想要彻底摆脱过去三年的低迷，重回上升轨道，它也需要打破估值上的桎梏，重新获得投资者的认可。</p>
-<p>曾经在资本市场上创造了神话的阿里，需要一场全面的胜利，再现辉煌。</p>
-<p>2014年，阿里凭借250亿美元融资额创造了中国互联网公司在全球资本市场的纪录，上市当天，阿里市值高达2314亿美元，超越腾讯和亚马逊，仅次于苹果、谷歌和微软，这是中国电商模式在资本市场的一次巨大胜利。</p>
-<p>随后多年，阿里市值一路狂飙。2020年，市值达到巅峰，最高达到8581亿美元。然而，巅峰之后，危机潜行。随着中概股陷入长达三年多的低迷，叠加电商市场竞争加剧，拼多多、抖音逼得阿里份额大幅下降，阿里市值持续走低，去年底更是短暂被拼多多超越。</p>
-<p>阿里也开启了一系列反击。去年三月，阿里开启史上最大力度的架构调整一拆六，意在增强核心电商的竞争力，让云业务、菜鸟等分拆上市，虽然架构遇阻，但阿里逐渐明晰了“用户为先、AI驱动”战略。同时，以蔡崇信和吴泳铭为代表的新一代管理层走到前台。</p>
-<p>公司同步开启了资本管理，采取回购、分红、管理层持股等方式，提振资本市场信心。以回购为例，2025财年第一季度，阿里回购总额58亿美元，回购计划中仍有261亿美元未使用额度。</p>
-<p>如今，阿里已经稳住市场形势。8月15日晚，阿里发布了2025财年第一季度财报，淘天本季度线上GMV同比高单位数增长和订单量同比双位数增长，主要由购买人数和购买频次的增长所带动，尤其二季度赶上618大促，淘天线上GMV同比实现强劲增长。</p>
-<p>摩根大通看好阿里巴巴国内电商商品交易总额（GMV）增长趋势，认为阿巴巴里在未来6—12个月内的叙事将从“市场份额”让渡者转为“稳定的电商类成长股”，纳入“港股通”和客户管理收入（CMR）增长加速只是短期催化剂。</p>
-<p>对阿里来说，股票增长潜力核心还要回归到业务逻辑，尤其四季度大促会成为关键节点。10月12日，天猫宣布，双11将于14日晚上8点开启，除了直降、满减，行业品类券也会加量加倍，还有政府补贴，主打一个优惠。</p>
-<p>AI也将为阿里股价带来更多想象力。作为AI投入力度最大的大厂，阿里目前构建了完整的AI生态，从AI大模型、云计算到电商等场景均已覆盖。内部AI生态之外，阿里还投资了月之暗面、智谱、零一万物等创业公司，可谓下了一盘AI大棋。</p>
-<p>此前云栖大会上，吴泳铭也向外首次披露了阿里巴巴对AI的理解。在用电商改变了国人的生活后，他希望在AI时代里，继续改变物理世界。</p>
-<p>吴泳铭直言，“AI具备创造能力、帮助人类解决复杂问题的路径清晰可见，也打开了AI在各行业场景中广泛应用的可能性”。</p>
-<p>挑战也显而易见，国内电商越来越卷，竞争越发激烈；AI热度居高不下，但目前无法跑通商业模式，仍处于看起来很美好的早期阶段，尤其随着AI技术不断迭代，成本矛盾会越来越突出。</p>
-<p>如何破局，阿里身上的担子越来越重。但无论电商还是AI，阿里都要取得进一步突破，借此取得更多想象空间，并反映到财务数据当中，让投资者愿意给予更高的估值。</p>
-<p>如今，互联网行业走过了门户时代和移动时代，代表第四次工业革命的AI时代已经悄然开启。阿里能否重现昔日的资本盛宴，或许只有全力以赴，才有资格给出好的答案。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU3MjA5NDM5OQ==&amp;mid=2247518999&amp;idx=1&amp;sn=e532253402a8dabfae85c01a01a549f3&amp;chksm=fd4aad37db7671e9e23bb718aa7a61e98914dc228d6d178b3a9296df8f750dbdbd00026d4720&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“全天候科技”（ID：iawtmt）</a>，作者：刘宝丹，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993932862007684</guid><pubDate>Wed, 16 Oct 2024 09:11:00 +0800</pubDate></item><item><title>互联网大厂、新消费品牌，为何集体“抢占”香港</title><link>https://36kr.com/p/2993911803819267</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>自由港成出海跳板，各品牌不惜孤注一掷。</p>
-</blockquote>
-<p>香港在金融界的地位毋庸置疑。</p>
-<p>然而，香港和内地恢复通关后，已成为餐饮、茶饮等新消费品牌的必争之地。不仅如此，今年国庆前夕，阿里、京东纷纷加码投资香港业务，去年美团外卖也强势入场……</p>
-<p>互联网大厂与新消费品牌“抢占”香港大军之中，餐饮与餐饮尤为激烈。</p>
-<p>前有喜茶、海底捞、太二酸菜鱼等大陆品牌勇闯香港，现有绿茶、霸王茶姬、茶百道等品牌进军香港。</p>
-<p>其实，内地餐饮业进军香港的潮流，早在2003年开放自由行后就曾风靡一时，近年疫情过去香港和内地恢复全面通关后风潮再起，不少内地餐厅趁机“攻港”。</p>
-<p>电商公司也如此，包括不久前，还没东窗事发的小杨哥联手曾志伟在香港开设分公司，都能印证了香港的重要性。</p>
-<p>哪怕在香港开设业务的成本高企，在当地赚不到大钱，也阻止不了各公司前赴后继，奔向这个常住人口约753万、陆地面积仅约1110平米（与义乌市大小相近）的地方。‍‍‍‍‍‍‍‍‍‍‍‍‍‍</p>
-<h2><strong>互联网大厂、新消费品牌“攻占”香港</strong></h2>
-<p>早在2000年前后，全球互联网泡沫破裂，众多互联网公司陷入困境。阿里曾因业务增长放缓，砍掉了香港办公室。但随着近年香港再度开放，阿里又重新在香港设立了分支机构或办事处。</p>
-<p><strong>今年在9月26日的淘宝香港业务发布会上，阿里宣布淘宝将投入10亿元把香港变成包邮区。</strong>此举意味着淘宝正试图在更多地区强化自己的竞争力，想把香港变成“包邮区”，是在下一盘大棋。</p>
-<p><strong>四天后，京东宣布将进一步加码香港市场布局，初期投入人民币15亿元，长期上不封顶，将主要用于商品价格补贴、物流补贴及服务优化等方面。</strong>毕竟当前国内电商市场已陷入存量竞争，为分到全球市场中更大的蛋糕，互联网大厂纷纷加码跨境电商，扩大物流覆盖率，以争夺更多市场份额。</p>
-<p>除了互联网大厂之间的暗流涌动，食品饮料界也在跃跃欲试。港媒6月中旬报道称，食物环境卫生署公布的信息及网上的资料，从去年中开始，至少有42个内地餐饮品牌进驻香港，分店总数达106家，其中手打柠檬茶30家、川菜餐厅17家、其他手摇饮料店15家，其他还有火锅、各式中餐、韩式烤肉、咖啡及甜品店等。</p>
-<p>早在2018年，海底捞香港首店开业。次年，呷哺呷哺和杨国福麻辣烫香港首店开业。到了2023年，太二酸菜鱼于香港一口气开设4家分店。柠檬茶品牌“柠濛濛”、“林香柠手打柠檬茶”、“茶救星球”接连在尖沙咀、旺角等地开店；2023年12月，蜜雪冰城在香港旺角开出首店，开业时有消费者排队超40分钟才买到一杯。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_793a15a33f5242cbbddbd94239084cbc@000000_oswg249485oswg1080oswg774_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>有香港市民表示，“现在我和朋友都更喜欢买蜜雪冰城，5港元就可以买一个冰淇淋，9港元就能买到经典柠檬水，比很多品牌都划算。”</p>
-<p>眼看着同行挣钱，今年年初，书亦烧仙草也在九龙布局了一家门店。人气茶饮店“喜茶”在8月连租两铺。到了9月，网红餐厅绿茶餐厅在香港铜锣湾开设首间门店，并计划在大围开设第二分店。霸王茶姬、茶百道等品牌也纷纷在中国香港首家门店正式开店。</p>
-<p>其中霸王茶姬香港首店目前仅上线了6款产品，包括伯牙绝弦、万里木兰等，售价在28-34港元之间，较内地售价略高。霸王茶姬方面表示，其余产品也将在后续时间内陆续上线。</p>
-<p>茶百道则在香港上线了20款左右饮品，包括杨枝甘露、青提茉莉等，售价也较内地有所上调，比如中杯杨枝甘露内地卖18元，香港卖32元港元。其选址策略与霸王茶姬有所不同，没有选择购物中心，而是开在旺角地铁站附近的远景大厦街铺。根据网友在社交平台发帖称，这两家奶茶店都需要排队半小时以上才能买到。</p>
-<p>更有意思的是，最近有一张瑞幸要在香港油尖旺、中环等区域招聘店长、咖啡师的招募启事在社交媒体上流传，疑似瑞幸将要赴港开店。不过，截至发稿，瑞幸相关负责人并未对此进行回复。</p>
-<p>一言以蔽之，众多互联网、茶咖、餐饮品牌一头扎进香港，必然因为这里有天然的优势。天时地利人和，才能让生意运转起来。</p>
-<h2><strong>香港的魅力何在‍‍‍</strong></h2>
-<p>香港之所以能在餐饮、茶饮市场占领制高点，是因为有得天独厚的优势。</p>
-<p>首先，香港人口密度大，写字楼和住宅高大且集中，是商业活动的黄金地段。香港置地的多个项目位于中环、铜锣湾等繁华商业区，这些区域不仅是香港的商业心脏，也是国际金融和贸易的重要枢纽。地理位置的优势使得这些地产项目具有极高的租金回报率和资产增值潜力。</p>
-<p>因此不管是餐饮店还是零售店，坪效都比内地高，一家普通门市店和一家2000-3000平方尺的店铺营收是差不多的。高利润的驱动下，海底捞、喜茶、霸王茶姬等品牌才来到此处。</p>
-<p>从地理位置来看，香港位于亚洲的中心，是连接东西方的重要枢纽。这种独特的地理位置使得香港成为了国际贸易和航运的重要节点。香港拥有天然良港，港口设施先进，货物吞吐量巨大，航运业十分发达。</p>
-<p>再加上香港具备开放的经济政策、健全的法律体系。所以，很多大厂把香港及周边城市当作出海、国际化的桥梁。众多国际企业和资本也喜欢入驻香港，促进了经济的繁荣。</p>
-<p>同时，在经历了疫情三年后，香港出现了大量店铺腾出的现象。一些核心地段的旺铺租金下降，对于新茶饮品牌而言，此时进入香港市场开店的租金成本更低。这也为互联网大厂、餐饮、茶饮品牌进军香港提供了机会。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_37f3e77f64774386932c9630ffd97117@000000_oswg261061oswg865oswg565_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在人才方面，香港还积极吸引人才来港读书、就业。截至2024年2月底，即实行了约一年，香港所有人才计划收到25万多宗申请，批出约16万宗，超过10万名人才已来到香港，比原定每年吸纳至少3.5万名人才的目标高出很多。</p>
-<p>以上种种，造就了香港购物天堂的地位，以及香港经济温和增长的实绩。</p>
-<p>而新茶饮品牌们，在内地卷到白热化后，正是看中了香港的蓬勃发展，才纷纷来到此处“捞金”。根据中国连锁经营协会数据，2023年新茶饮市场规模预计达到1498亿元，恢复3年复合增长率近20%的水平。至2025年，内地消费市场规模预计进一步扩张至2015亿元。</p>
-<p>不过，并非所有内地餐饮都能在香港站稳脚跟。例如在广州有近30年历史的小吃店“咕噜丸子屋”，去年9月以月租6万港元进驻香港油麻地弥敦道港铁站旁的底商，但不到一年就宣布结业。</p>
-<p>茶饮品牌中，喜茶在2018年就进军香港，期间经历了很长一段收缩蛰伏的时期，后续在2023年重新恢复开店，不过目前其香港门店总数仍为6家。2023年进驻旺角的“柠蒙蒙”因成本问题、业绩不理想等现实，仅短暂经营一年。</p>
-<p>奈雪的茶在2019年进入香港开店，目前也仅有1家门店。在2024年7月，奈雪的茶香港山顶店于本月突然结业。闭店原因尚未可知，有网友表示，该店6月尚在营业，且客流不小，此次闭店非常突然。不少业内人士猜测，可能因为水土不服，或因租金昂贵。</p>
-<p>也就是说，各大新茶饮品牌声势浩大进军香港，不仅扩张迟迟无法实现，新店都难以经营。</p>
-<h2><strong>豪掷千金，为出海铺路</strong></h2>
-<p>香港作为高消费的购物天堂，其租金、人工等运营成本明显高于内地，这会让内地新茶饮品牌的成本剧增。加之新茶饮品牌众多，若品牌无法在短时间内实现盈利或达到预期的市场反响，关闭门店以减少亏损便成了无奈的选择。</p>
-<p>以蜜雪冰城为例，根据港媒报道称，银行中心广场铺租中一个面积约412平方尺（约38.3平方米）的店铺10月的租金为20万港元。如果蜜雪冰城的租金情况相似，则意味着单是交租，以10港元一杯计算，每个月需要摇2万杯奶茶才交得起租金。</p>
-<p>还要加上人力成本——据蜜雪冰城此前发布的香港招聘海报，其店长/调饮师的月薪在15000-22000港币区间，兼职店员50-60港元/小时。这意味着蜜雪冰城的每月成本极高，且单店利润十分有限。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_918b3f72ec44482190f223b36be1c889@000000_oswg419841oswg1080oswg1411_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>再看霸王茶姬招聘启事，其对“办事处负责人”一职开出了高达5.5万至9万港元的月薪；“选址开发经理”岗位月薪也达到3万至7万港元。</p>
-<p>另一方面，新茶饮品牌在香港市场吸引消费者依旧靠性价比。内地品牌产品的定价也比当地品牌普遍低35港元左右。</p>
-<p>所以，新茶饮品牌虽然在香港获得新的发展机会，但这些品牌不仅要面对高昂的成本，还要和本土已相对成熟的茶饮品牌同台竞技。</p>
-<p>这些品牌多数是把香港当作出海战略中重要一环，以此为跳板更好地“走出去”，哪怕经营成本高企，为了融入国际化市场，在产品和业务端接受全球消费者检验，也变成建设品牌的一种方式。这现象，与此前各大品牌抢占“国际消费之都”上海如出一辙。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU0Mjc1NjQ0MA==&amp;mid=2247499197&amp;idx=1&amp;sn=07a8452e4776c0f5a7a37f4feac7734f&amp;chksm=fae550011ebba5ae18a315c1b7998fa1f05455f882821f08135c715e7de29ce89db9802ca815&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“鲸商”（ID：bizwhale）</a>，作者：三轮，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993911803819267</guid><pubDate>Wed, 16 Oct 2024 09:29:00 +0800</pubDate></item></channel></rss>
+<p>如果诚如马斯克所说，那么未来 Optimus 机器人将在价格有巨大优势——当然，这个前提是 Optimus 真的像在发布会上所展示的那样智能且全能。</p>
+<h2><strong>Optimus 的全能，被曝是由人类远程操控的</strong></h2>
+<p>当天发布会结束后，一位技术评论员 Robert Scoble 在 X（原 Twitter）上发文称，他在与一个提供饮品的 Optimus 机器人互动时，得知了该机器人并非完全由 AI 主导，而是由人类“远程协助”的。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1015" src="https://img.36krcdn.com/hsossms/20241016/v2_61568afc5c8c4f7ab966ee6d88cb2e41@1743780481_oswg789263oswg1080oswg1015_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>根据 Robert Scoble 提供的视频来看，当时他直接问了一台 Optimus 机器人有多少行为是由 AI 控制的，而机器人半开玩笑地回答：“可能有一些吧。”随后，Morgan Stanley 分析师 Adam Jonas 也在一份报告中确认了这一点：“据我们了解，这些机器人并非完全自主操作，而是依赖于远程操作（人类干预），这场发布会更像是对其自由度和灵活性的演示。”</p>
+<p>事实上，听闻这个消息后再去观察 Optimus 机器人当天的表现，就会发现它其实暴露了多个技术上的不足。例如，一些机器人在与观众互动时，表现出的语音合成并不一致，甚至同一场景下的不同机器人使用了不同的声音。这些“破绽”进一步佐证了机器人背后有人类操控的事实，并由不同的操作者进行控制和协调。</p>
+<p>不过有些意外的是，特斯拉并没有刻意隐瞒这个事实，毕竟有个 Optimus 机器人坦诚回答了 Robert Scoble 的提问，另一个机器人也用僵硬的合成语调直接对一位观众说：“今天，我是由人类协助的”，还补充道它尚未完全自主（说到“autonomous”这个词时，它还磕巴了）。</p>
+<h2><strong>发布会三周前，马斯克才临时决定展示 Optimus</strong></h2>
+<p>早在 2021 年，马斯克便首次宣布了特斯拉 Optimus 机器人的研发计划，当时他甚至让一个人穿着机器人的外套在舞台上“表演”了一段，这一表现遭到了外界的嘲笑（想到这里，上周活动中的 Optimus 机器人的夸大展示好像也不是太令人意外了）。</p>
+<p>此后，特斯拉展示了多个版本的 Optimus 原型机，包括可以行走、搬运物体甚至跳舞的机器人。然而，尽管特斯拉不断在社交媒体上发布 Optimus 的进展，但真正让公众与这些机器人进行直接互动的机会非常有限。</p>
+<p>而上周的 Cybercab 活动，是特斯拉首次允许非员工接触这些人形机器人。</p>
+<p>在介绍 Optimus 机器人时，特斯拉强调了其自主行走的能力。至于其他复杂功能，例如提供饮品、与人交流等，看来都依赖于人类操控——根据一名匿名人士透露，Optimus 原本并不在这次活动的展示计划之中，马斯克在活动前三周才决定将其加入其中。由于准备时间过于有限，人类远程操作了成为 Optimus 实现复杂功能的唯一途径。</p>
+<p>从社交平台上的发言来看，包括 Robert Scoble 在内的许多参与发布会活动的人，并未因此感到失望或被骗。一位来自 Deepwater Asset Management 的管理合伙人 Gene Munster，在活动后表示自己也被“愚弄”了，但他补充道，这次互动也让他看到了这些产品的潜力。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,284" src="https://img.36krcdn.com/hsossms/20241016/v2_91f6962beba54c32a64e334b11bb8105@1743780481_oswg87406oswg1080oswg284_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此外，虽然特斯拉在此次活动中采用远程操控技术完成机器人展示，在某种程度上暴露了 Optimus 的技术短板，但远程操控可以让器人在未达到全自主状态之前，通过人类的协助展示更多可能的应用场景。这对于处于研发中的机器人技术来说，或许是一种必然的过渡阶段。</p>
+<p>截至目前，特斯拉并未对此次活动中的远程操控细节作出回应。总体而言，虽然马斯克对 Optimus 的未来充满信心，但从目前的技术状态来看，距离实现真正的市场化和普及可能还有许多挑战。</p>
+<h2><strong>网友：真是“人工”智能</strong></h2>
+<p>尽管特斯拉并未刻意掩饰 Optimus 机器人没有达到自主操作水平的事实，但“由人类远程操控”这一细节的曝光，还是让外界开始质疑特斯拉在 AI 和机器人研发方面的实际进展，并在社交媒体上引发了广泛讨论。</p>
+<p>许多网友调侃道，AI 不愧是 AI：</p>
+<p>● “确实是‘人工’智能。”</p>
+<p>● “AI = 实际上是印度人（actually Indians）。”</p>
+<p>● “我懂了，我可以花 3 万美元雇一个人，把他打扮成机器人，让他帮我洗碗、遛狗啥的，跟 Optimus 的效果是一样的。”</p>
+<p>也有人对特斯拉不提前告知事实而感到愤怒：“我们之前像傻瓜一样在推特上讨论自以为最神奇的 AI 机器人，真是太容易被骗了！”</p>
+<h3>参考链接</h3>
+<p>https://www.bloomberg.com/news/articles/2024-10-14/tesla-s-optimus-robots-were-remotely-operated-at-cybercab-event?leadSource=uverify%20wall</p>
+<p>https://www.theverge.com/2024/10/13/24269131/tesla-optimus-robots-human-controlled-cybercab-we-robot-event</p>
+<p>https://www.business-standard.com/world-news/tesla-s-optimus-bots-remotely-operated-by-humans-at-recent-cybercab-event-124101500066_1.html</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/YKcwTuBirw4p-PjWJscELQ" rel="noopener noreferrer nofollow" target="_blank">“CSDN”</a>，作者：郑丽媛，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994493084412296</guid><pubDate>Wed, 16 Oct 2024 09:32:00 +0800</pubDate></item><item><title>银行业AI大模型，从入局到求变</title><link>https://36kr.com/p/2994497020406150</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在人工智能浪潮的推动下，AI大模型技术正以前所未有的方式，改变着各行各业的服务方式和用户体验。这其中，银行业作为数据密集型行业，成为大模型率先探索的重要行业。</p>
+<p>那么，经过一年多的发展，银行业在AI大模型的运用，已经进展到哪一步了呢？</p>
+<h2><strong>从落地到场景深入，大行占据领先位置</strong></h2>
+<p>十年前，银行业实现了从传统线下到互联网金融线上的“艰难”转型。而如今，它们俨然成为AI大模型落地的“排头兵”。</p>
+<p>据《麻省理工科技评论》发布的全球金融机构大模型榜单，我国有12家金融机构进入全球TOP20，其中蚂蚁集团、平安集团、工商银行、建设银行、中国银行、马上消费金融、农业银行位居全球TOP10。</p>
+<p>具体发展得如何了呢？以国有大行为例，在半年报中，各家银行均提及了大模型的研发进展，以及在场景落地应用上的进阶。</p>
+<p>其中，工行在半年报中介绍，其深化大模型技术建设与赋能，在金融同业首家完成企业级金融大模型全栈自主可控训练和推理部署。同时开展金融行业和企业级大模型二次训练，建成了高质量、多维度、大体量的金融大模型训练数据集，使其具备较强的金融领域知识理解和分析推理能力。</p>
+<p>另外，工行促进大模型技术与业务深度融合，实现多领域落地创新应用；赋能金融市场领域投资、融资、交易等业务全流程，提高业务处理效率；打造营销智能助手，开发产品智能问答、营销活动方案设计等功能，精准发力支持客户营销。</p>
+<p>邮储银行称，其完成大模型算力云资源池试点建设；大模型异构算力集群初步具备支持千亿级规模大模型训练能力。</p>
+<p>在场景应用上，邮储大脑逐步向生成创作提升，为员工打造多种智能办公助手。具体看，远程银行客户投诉分析场景可辅助坐席进行投诉内容的监管报送分类，准确率达93%；文档内容审核可帮助业务需求管理人员快速理解与审核需求内容，业务标签提炼准确率达84%，功能点抽取准确率达96%等。</p>
+<p>建行称，其持续推进金融大模型建设及应用，全面赋能公司金融、个人金融、资金资管、风险管理、科技渠运、综合管理六大板块79个行内业务场景；提升文生图输出质量，支撑客户营销提质增效；优化检索增强生成应用模式，支撑授信审批财务分析，将客户财务分析报告工作用时由数小时缩短至分钟级别。</p>
+<p>农行2024半年报显示，其在人工智能技术应用方面，加快以AI技术为驱动的智慧银行建设，密切跟踪大模型技术趋势，持续完善AI软硬件支撑体系，稳妥推动AI+应用场景落地。</p>
+<p>中国银行在半年报中对于大模型着墨较少，仅表示试点代码辅助等大模型应用。</p>
+<p>交通银行在其2024年半年报中表示，积极探索AIGC前沿技术，制定生成式人工智能建设规划，组建GPT大模型专项研究团队。同时，与科大讯飞联合成立了创新实验室。</p>
+<p>股份制银行也不甘落后，在场景应用上不断开花。</p>
+<p>如兴业银行“随兴写”生成式大模型已经赋能反洗钱。据了解，兴业银行“随兴写”是一个可疑交易报告智能生成模型，它利用大模型与自然语言处理技术，能高效精准分析洗钱可疑客户行为、可疑主体信息和可疑交易信息等特征，并快速生成辅助分析报告。</p>
+<p>民生银行则将大模型赋能研发。其研发团队从金融研发自身安全、效率、可控等需求出发，推出了“慧码”旅程指导方法，打造了覆盖开发、集成、测试、投产的端到端运行风险监测能力。</p>
+<p>引入代码大模型产品后，系统的生成采纳率为20-30%之间，采纳代码与提交量占比大致在30%左右，接近业界主流实践水平，代码注释率从18%提升至约30%。</p>
+<p>柒财经注意到，银行业在大模型领域不断开拓的背后，是其源源不断对金融科技领域的投入。2023年，国有六大行的金融科技投入总金额达到了1228.22亿元，同比增长5.38%。</p>
+<p>这一投入不仅创下了新高，而且占到了总营业收入的3.52%，达到了历年来的最高值。其中，工商银行、建设银行、农业银行和中国银行的投入均超过了百亿元。且截至去年末，六大行的科技人员总数已超过9万人。</p>
+<h2><strong>应用效果有差异，中小行“另辟蹊径”入局</strong></h2>
+<p>AI大模型确实为银行业科技发展带来了无限可能，但实际应用效果如何，通过与它们的智能客服沟通，便可窥见一二。</p>
+<p>好比农业银行，其在今年上半年财报中称，将持续深化科技赋能，开拓企业微信、智能外呼等渠道建设应用，结合掌银搭建客户多元化金融场景，引入AI技术赋能线上服务全流程，识客更加精准、产品和服务更加适配、客户体验更加智慧便捷。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1117" src="https://img.36krcdn.com/hsossms/20241016/v2_5159c12debdf4a12b91fe5fb9fc161fd@1743780481_oswg445673oswg1080oswg1117_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而柒财经通过农业银行App向智能客服提问时，其回答显得有些“呆板”：即询问“推荐的理财产品”时，客服能够给出具体的操作过程；而询问“理财产品推荐”时，客服则表示，“暂未找到对应的答案”。同样的问题，只是调整了语序，回答内容便不同。</p>
+<p>除农业银行外，股份行的“老大哥”招商银行也推出智能客服助理AI小招，其借助AI、大数据技术，持续推动零售业务全面AI化。</p>
+<p>柒财经进入招商银行App客服页面，其中热门问题中有基金推荐、保本产品推荐及最近市场情况，而当柒财经询问时，智能客服则机械回答“目前没有保本理财”“无法预测未来市场”等。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1114" src="https://img.36krcdn.com/hsossms/20241016/v2_005492bb81b24ddb94de917c2c35fb1a@1743780481_oswg328179oswg1080oswg1114_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不过，在“小招—客服门户”页面上，“数字人招晓霖”板块是一种可以对话的智能助理，其以数字人的形式向用户介绍产品，并能够通过用户的语音进行产品的答疑互动。</p>
+<p>此外，浦发银行基于智能自动化（IA）的机器人工厂项目获得中国人民银行“金融科技发展奖”三等奖。</p>
+<p>该行推出了数字人小浦、浦惠座舱、浦惠云舱、AMA等人工智能创新成果。在行业内首创的数字人体系，形成多类数字员工，有效提升服务转化率。</p>
+<p>而进入浦发银行手机软件中，柒财经询问“理财产品推荐”，浦发银行智能客服给出了具体的操作流程，并表示“如未解决，您可继续联系客服代表”。</p>
+<p>当询问“存量房贷利率调整实施细则”，浦发银行智能客服给出了较为具体的回答，涉及“调整方式及时间”“调整规则”“贷款信息查询方法”等，较为详细。</p>
+<p>此外，和国有银行和股份行等规模较大的银行相比，中小银行在AI技术的筹备和应用上相对有所滞后。毕竟，动辄一年掏出几十亿甚至上百亿的大型银行相比，中小银行的“腰包”显然厚度要差得多。而且在人才储备上，中小银行业也相形见绌。</p>
+<p>更重要的是，在本身就面临着营收、盈利停滞甚至下滑的现实面前，中小银行如果在AI大模型上大规模投入，可能还要背负着不可预测的试错成本，这又是一个不可承受之重。</p>
+<p>不过，越来越多的中小银行已经“另辟蹊径”地行动起来，如就大模型项目进行招标，且目标性比较强。</p>
+<p>如在上月，吉林银行发布大模型知识引擎（一期）建设项目招标公告，拟选择1家厂商为该行建设大模型知识引擎系统软件一套，项目资金343万元。</p>
+<p>8月，上海银行发布了个人手机银行鸿蒙版本升级项目之大模型智能体采购公告，要求投标人在2021年1月1日以来，具有大模型对话场景相关实施案例至少1例且只接受拥有智能体相关产品著作权的供应商参与等。</p>
+<p>虽然进展有快有慢，但随着AI在应用场景的持续深入，可以预料的是，银行业必将被激发出更大的潜力，创造更多的价值。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/sYwsCHBc_-P9mbMjMZzfZw" rel="noopener noreferrer nofollow" target="_blank">“柒财经”</a>，作者：硬糖，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994497020406150</guid><pubDate>Wed, 16 Oct 2024 09:36:00 +0800</pubDate></item><item><title>茶饮店24小时营业，值不值？</title><link>https://36kr.com/p/2994506294683529</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>凌晨三点，王妍一边吐槽万恶的甲方，一边喝着茶饮改底稿。</p>
+<p>作为一名审计“劳工”，加班对王妍来说是一件再正常不过的事情，为了安抚自己疲惫的身体，王妍会在工位上以及包里备上各种甜食和饮料。但这次，王妍翻遍了背包和抽屉，都没能找出存货。</p>
+<p>此时，时间已经来到凌晨两点，抱着试一试的心态，王妍点开外卖软件，惊喜发现公司附近的喜茶和霸王茶姬还在营业，没有丝毫犹豫，她迅速下单，这杯热腾腾的茶饮成为支撑她完成工作的动力。</p>
+<p>自那夜起，王妍发现，越来越多的茶饮品牌开始调整营业时间，从喜茶、霸王茶姬，后来又出现了古茗、茶百道，这些门店不仅营业至凌晨，有些甚至已经转向24小时不打烊。这些变化，让王妍的背包逐渐“减负”，她笑道“想喝什么，打开外卖直接点就是了，不用担心半夜没吃的。”</p>
+<p>王妍的感受，也体现着整个行业的变化。<strong>据壹览商业不完全统计，目前至少有20家茶咖品牌涉足24小时经营，门店总数超450家。就目前统计情况来看，数量最多的是甜啦啦和茶百道，是唯二门店数过百的品牌，其次便是霸王茶姬、喜茶。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1194" src="https://img.36krcdn.com/hsossms/20241016/v2_58a51127086c4b0ea26e836aa25952c1@1743780481_oswg163174oswg1080oswg1194_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从选址看，大部分品牌将24小时门店放在了长沙、广州、深圳这些偏向南方且夜经济较为发达的城市，且绝大部分的门店位于商业区附近。</p>
+<p><strong>值得一提的是，咖啡连锁品牌的24小时门店多数放在了特殊点位，如星巴克与瑞幸，其所有全天营业的门店都在机场，M stand虹桥火车站店也即将营业，营业时间也是24小时。</strong></p>
+<p>当然，除了连锁品牌，还有大量自营品牌将营业时间延长至24小时，问题来了，为何越来越多茶咖品牌开始热衷24小时经营？</p>
+<h2><strong>24小时的营业逻辑</strong></h2>
+<p>在壹览商业看来，以下三点原因，导致茶咖品牌们开始“拼时长”。</p>
+<p><strong>首先，消费者对深夜茶咖是有需求的。</strong>从选址看，这些店面的共同特点，就是夜经济发达，近半品牌主攻广州、深圳这两座“不夜城”。据中国银联统计，广州、深圳在购物、餐饮、娱乐等夜间消费整体交易额占城市全天消费整体交易额约六成，位于全国前列。</p>
+<p>夜经济也激发了消费者的夜宵消费热情。据南都大数据调查，当下广州年轻人在22:00-24:00用餐的占48.2%，接近一半。即便是在凌晨0:00-2:00，依然有22%客群在吃夜宵。</p>
+<p><strong>当然，晚间的茶饮浓度不仅和当地的夜生活浓度有关，还和加班浓度有关。</strong>对于命苦的打工人来说，晚上喝茶绝不是为了娱乐，而是为了“续命”。美团外卖数据显示，下午4点后到次日凌晨5点，打工人在写字楼或园区等工作场所下单茶饮的订单比例超过30%，其中晚餐时段（16:00-21:59）占比20.5%，夜间时段（22:00-04:59）占比9.8%。</p>
+<p><strong>其次，现在的茶咖赛道绝对称不上轻松。</strong>据壹览商业不完全统计，今年5月，25家新茶饮连锁品牌的现存门店量为114839，8月，这个数字变为109515家，也就是说，3个月的时间，新茶饮行业净减少了8000余门店，而咖啡赛道最近一年闭店数量达43039家，两个行业表现都极为“惨烈”。</p>
+<p><strong>面对产品同质化严重、价格战白热化的现状，茶饮品牌们纷纷寻求突破，基于降本增效的增效逻辑，延长经营时段成为一个不错的选择。这意味着商家有更多与消费者接触的机会，影响用户消费习惯的塑造，促成更多交易，同时也扩大了盈利的可能性。</strong></p>
+<p>实践证明，24小时经营为商家带来了实实在在的业绩增长。甜啦啦在安徽蚌埠的测试门店单店营业额提升了近230%；古茗在宁波的一家门店，夜间能带来1000-2000元的营收，一个月收入能提升3万—6万。</p>
+<p><strong>最后，外卖平台也在推动商家延长经营时间，并为营业时间较长的商家提供更多流量。</strong>毕竟，对于平台而言，每一笔订单成交，平台便能获得一定的扣点收入，骑手也因订单的增多而获得更多配送机会和收益。</p>
+<p>因此，外卖平台也主动成为这一趋势的催化剂，通过优化算法、提升服务效率等手段，确保消费者在任何时间都能享受到便捷的茶饮服务，进一步激发夜间市场的消费活力。</p>
+<p>值得注意的是，24小时门店的增加，并不是今年才出现的现象。前几年，由于房租飙涨，餐饮内卷加剧，迫于生存压力，国内许多品牌尝试启动24小时营业策略，如海底捞、遇见小面、芙蓉巷等。但因营收效果不理想，大部分品牌都不再坚持。</p>
+<p>从过往的经验看，很多餐饮同行没办法坚持24小时经营，那么这到底是不是一门吃力不讨好的生意？</p>
+<h2><strong>这是吃力不讨好的一门生意吗？</strong></h2>
+<p>壹览商业收集了多家门店的运营状况，以此为依据，计算出延长营业时间所耗费的成本，具体如下。</p>
+<p><strong>首先，是门店支出的大头——房租。餐饮门店房租是固定的，品牌经营12个小时与24个小时，在房租上并不存在差异。正因为如此，24小时经营等于变相实现了减房租，最大化创造了门店效益。特别是在高房租地段，相比人力的增加，24h经营无疑是个不错的选择。</strong></p>
+<p>就目前来看，24小时门店也多位于北上广深这类一线城市，以及成都、长沙这类新一线城市，而这类城市的商铺租金居高不下。《2024上半年商业地产租金指数》报告显示，2024年上半年，全国重点城市的百大商业街（百街）商铺平均租金为24.37元/平方米/天，百大购物中心（百mall）商铺平均租金为27.17元/平方米/天。</p>
+<p>按照30平方的面积计算，一个月租金在2万元左右，若按照每天营业12小时来计算，平均每小时租金为55.56元，延长至24小时后，每小时租金仅为27.78元，下降了一半。</p>
+<p><strong>其次，便是设备成本，设备的损耗要均摊到使用期间里。</strong>目前，喜茶、茶百道、古茗、霸王茶姬这几家头部茶饮品牌的设备费在10万元—16万元不等，取中位数13万元，而按照使用程度和维护程度的不同，相关机器一般能使用3—5年。</p>
+<p>若保养较好，按5年计算，每月均摊的费用是2166.67元；按3年计算，每月均摊的费用是3611.11元，每个月的折旧成本增加1444.44元，平均每天多支出48.15元。</p>
+<p><strong>而后，便是水电杂费。</strong>一位茶百道的加盟商告诉壹览商业，其门店的经营时间为上午十点至夜间十二点，每个月水费在1000-2000元，耗电量在6000-7000度。其所在地区的电费为一元一度，按此计算，电费在6000-7000元。每日的材料损耗在70-120元，综合下来，一个月的水电杂费在9100-12600元。</p>
+<p><strong>这位加盟商在去年3-5月延长了门店营业时间，转为全天经营，水电费增长了30%左右，约2100-2700元。而关于物料损耗，对方坦言，由于夜间品牌检查较为宽松，因此，物料损耗并没有增加多少。</strong></p>
+<p>再者，便是人工成本。目前，大部分门店夜间只安排一名员工值守，而这个员工究竟从哪儿来，主要有两种方式。</p>
+<p><strong>一是白天减少一名员工，实行三班倒政策。</strong>一位宁波的古茗店员透露，他在该店做了一年多，门店在今年正式全天营业，但老板并未额外招工，而是根据员工个人意愿进行排班。其门店排班时间为通宵班03:00-08:30；白班8:30-18:30；晚班18:30-03:00，晚班一个月补贴400元，通宵班一个月补贴600元，平均下来，每个小时员工能够多获得的工资不到5元钱。</p>
+<p><strong>补贴只有个位数的是常态，还有部分门店，不论哪一班都是同薪同酬，没有补贴。</strong>壹览商业收集了喜茶、霸王茶姬、茶百道等多家门店，每小时补贴金额在0-20元不等，绝大部分的补贴金额在5元左右，按八小时计算，一个月比白班员工高1200元的工资。</p>
+<p><strong>二是维持白天的员工数量，专门招聘一位夜班人员，并给予一定的夜班补贴。</strong>在这些夜经济发达的城市，茶饮店员的工资每月也至少需要6000元。加上补贴，额外开支在7000-10000元左右。</p>
+<p><strong>最后，便是外卖成本。</strong>壹览商业了解到，目前，美团外卖每单的抽佣保底金额1.28元，抽佣比例在6%左右，如商品优惠后金额为20元，那么平台要抽取1.28元的佣金；同时，商家还需要支付骑手的费用，根据距离，每单价格至少也需要3.7元，而夜间配送会根据时间多收取1元及以上的费用；此外，若商家参加膨胀神券等活动，也需承担至少一半的补贴金额，如消费者使用了一张8元的优惠券，那么商家承担4元，平台承担4元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,640" src="https://img.36krcdn.com/hsossms/20241016/v2_78fda88c5d4e4883bbd693b944681646@1743780481_oswg74773oswg1080oswg640_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而夜间的订单，几乎全在外卖平台上实现，甚至不少24小时营业的门店本质上就是做的外卖店。按一单价格20元算，若消费者使用一张2元的券，凌晨两点的外卖，商家至少需要支付6.98元给平台和骑手，实收率为65.1%，近一半的钱都进了平台的腰包。</p>
+<p><strong>且现实情况往往更加严峻。多位商家告诉壹览商业，由于夜间配送费增加、平台发放优惠券力度加大，夜间实收率在50%—60%左右，有时甚至会亏钱。</strong></p>
+<p>由上看出，开一家24小时的茶咖店，每个月的经营成本至少增加了4744.44元，平均每天需要承担至少158元的费用。</p>
+<p>那么开一晚上，能增加多少业绩呢？</p>
+<p>广州一位茶百道加盟商告诉壹览商业，在旺季，一晚大概有20单的堂食，人均消费14元左右，收入280元；可以接到30单左右的外卖单，按起送价20元计算，一晚上的营业额为600元，再乘以60%的实收率，收入在360元左右，<strong>综合来看，一晚上的营收在640元左右，一个月增加了近2万元营收，能多挣近1.5万元的利润。</strong></p>
+<p>而这种业绩已经称得上“还可以”了，上海浦东一茶百道门店员工告诉壹览商业，其门店位于居住区，夜间只开放外卖，不提供自取，平均每天20单，一晚实收为240元，利润不到100元；南宁的察理王子曾在当地开出首家24小时营业的茶饮店，但由于夜间顾客太少，这家门店已经于2023年上半年取消24小时营业，目前的营业时间为9:20—01:00；还有部分门店，24小时营业后，一个月营收近49万，但只挣到2.9万的利润，最后倒闭离场。</p>
+<h2><strong>天时地利人和，缺一不可</strong></h2>
+<p>“24小时营业的门店，看起来很美好，做起来才知道有多难。”在采访过程中，多位一线商家都对24小时营业门店保持观望。</p>
+<p><strong>首先，并不是所有门店都适合做24小时。</strong>一位柠季的加盟商透露，只有在那些夜经济繁荣、商圈高度集中的城市区域，门店才有可能支撑起夜间的客流量与订单量，实现24小时的价值与效益，若达不到该标准，延长营业时间就等于亏钱。据了解，其在湖南长沙渔人码头的门店利润同比增长了20%。</p>
+<p><strong>其次，夜间的营业额极不稳定。</strong>遇到节假日，聚会及大型活动的增加能够带动夜间生意的增长，但日常经营中，营业额依旧是有限的。</p>
+<p><strong>最为重要的是，员工到底该如何安排。</strong>在当下的竞争环境，几乎所有门店都不会选择额外招人，而是利用已有的员工进行排班，一晚上的“牛马费”多则一两百，少则几十块，谁干？谁愿意长期干？在小红书上，已有不少网友表达了对压榨员工的不满。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,780" src="https://img.36krcdn.com/hsossms/20241016/v2_22d651908cfe4e71b7319e3c8717b132@1743780481_oswg99516oswg1080oswg780_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在壹览商业看来，24小时经营不是简单的时间延长，而是对产品、选址、客群、人工等各个方面的全方位考验。对于品牌方而言，将全时段经营作为提升品牌形象与顾客黏性的策略，在一个城市选择少量门店进行试点，不失为一个值得探索的方向。</p>
+<p>但对一线的加盟商来说，则需更加审慎。毕竟，能不能在半夜获得生意，看的不是努不努力，更多靠“天时地利人和”，否则熬秃了头，营业额可能还比不上人工费，何必呢。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/2tfkJg1Dxvh2ZdvGrCoJcg" rel="noopener noreferrer nofollow" target="_blank">“茶咖观察”</a>，作者：蒙嘉怡，编辑：木鱼，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994506294683529</guid><pubDate>Wed, 16 Oct 2024 09:36:00 +0800</pubDate></item><item><title>题材+新公式、古现偶难翻新、现实剧盼出圈，亟待检验的剧集们品相几何？</title><link>https://36kr.com/p/2993922481661831</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在降本增效的影响下，今年暑期档上新剧集数量较去年同期有所减少，根据骨朵统计，今年暑期档期间上新剧集数量为235部，较去年同期减少了10%。</p>
+<p>数量越来越少，题材、元素却越来越多。骨朵发现，爱情和古装题材虽仍有一定占比，但在数量和播放量占比上均有所下降，而悬疑、都市、谍战、涉案等题材杀出重围，丰富了暑期剧集市场。比如悬疑题材涨幅超过一倍，部分谍战、涉案题材的热度、口碑都获得不错成绩。</p>
+<p>在众多剧集中表现突出的《墨雨云间》《唐朝诡事录之西行》《边水往事》《雪迷宫》成为暑期档的优质剧集，而其中三部都属于“题材+”的复合型剧集。</p>
+<p>比如《墨雨云间》的“古装+复仇”、《唐朝诡事录之西行》的“古装+悬疑”、《雪迷宫》的“悬疑+轻喜”。而从近期开机、备案、杀青的近50部剧集来看，这一趋势正在越演越烈。</p>
+<h2><strong>“题材+”，谁用谁安心？</strong></h2>
+<p>如今，剧集市场呈现出日益冷清的态势，可与此同时，用户对剧集作品的要求却愈发严苛。这使得如何让一部作品在众多竞争者中崭露头角，成为了创作者们绞尽脑汁思考的难题。</p>
+<p>于是乎“题材+元素”的创作公式悄然兴起，众多创作者纷纷在这个方向上发力。从目前正在筹备的一系列剧集来看，这种创作方式具有明显的优势。</p>
+<p>就拿《书卷一梦》和《乘鸾》来说，它们都采用了“古装+穿越”这一经典的剧集设定。在过去很长一段时间里，穿越剧广受欢迎，但由于种种原因，近几年此类剧集在市场上较为少见。</p>
+<p>不过可以肯定的是，穿越题材对于观众依然有着不小的吸引力。《书卷一梦》李一桐+刘宇宁的组合，未必不能擦出别样的火花。</p>
+<p>《乘鸾》主创班底至今未公布，因此无法对其进行评判，不过制作公司西嘻影业近两年推出的作品表现都十分亮眼，如果能够成功改编，相信还是值得关注的。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_a0bdc8dc04e64a85953a6effe033a5d9@000000_oswg103519oswg1000oswg562_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除了穿越题材，“古装+探案”这一类型在近几年同样十分受欢迎。像去年大火的《莲花楼》以及前几年以小成本逆袭的《御赐小仵作》，都是很好的例子。上个月《御赐小仵作2》开机，原班人马重聚。基于前作的良好口碑，观众对《御赐小仵作2》充满了期待。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_d051aa6983f64b7e8b9d37cbc6911fb1@000000_oswg56984oswg1080oswg446_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>近期杀青的新剧也纷纷顺应了“题材+元素”这一创作大趋势。赵本山监制的《走马上任》采用了“民国+喜剧”的组合；今年凭借《墨雨云间》大火的王星越主演的《定风波》选择了“古装+探案”；刚刚上线了一部《春花焰》的刘学义，和孟子义主演的《桃花映江山》则采用了“古装+轻权谋”的设定。</p>
+<p>然而，“题材+元素”这一公式并非绝对的成功法宝。归根结底，一部作品的好坏还是要看其自身的品质。毕竟像“古装+轻喜”的《海昏行》、“古装+奇幻”的《十万狂花入梦来》以及“校园+重生”的《我在顶峰等你》这样的剧集在市场上并不鲜见，但并非每一部都能取得成功。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_e8660ce0b7f043138a3314e0b3d12740@000000_oswg221229oswg694oswg1000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在当前剧集市场冷清而用户要求严格的背景下，“题材+元素”的创作公式虽然有一定的优势，但不能保证绝对的成功。要想真正打造出一部优秀的剧集，创作者们不能仅仅依赖于特定的创作公式。</p>
+<h2><strong>古偶、现偶还行吗？</strong></h2>
+<p>精美的服饰、唯美的场景、浪漫的爱情故事一向是古偶剧的致胜法宝，然而，近些年来，古偶剧也面临着一些挑战。</p>
+<p>其一，题材渐趋同质化，从仙侠到宫斗，从甜宠到虐恋，似乎陷入了套路之中，观众对于千篇一律的剧情和人物设定，逐渐产生了审美疲劳。其二，古偶剧的制作质量参差不齐，虽然有部分古偶剧投入大量资金，在画面上卷生卷死，但也有一些古偶剧为追求速度和效益，在制作上粗制滥造，影响了观众的观剧体验。</p>
+<p>不过，鉴于古偶剧拥有庞大的观众剧本盘，各平台每年都会布局不少项目，试图在全年剧集拉力赛中脱颖而出。比如优酷的《珠帘玉幕》《蜀锦人家》《献鱼》《千香》《千朵桃花一世开》；爱奇艺的《念无双》《仙台有树》《白月梵星》《衡门有狐》《大梦归离》《一笑随歌》《朝雪录》；腾讯视频的《永夜星河》《贵女》《九重紫》；芒果TV的《国色芳华》《水龙吟》《五福临门》。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_fc57182ba34446c699cf538f70b015c6@000000_oswg107165oswg1080oswg492_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这些剧集如果不能摆脱题材同质化和制作质量参差不齐的问题，将会继续让观众产生审美疲劳，难以在激烈的剧集市场中脱颖而出，甚至可能导致古偶剧陷入雪上加霜的境地。</p>
+<p>与古偶剧同样陷入困境的还有现偶。一方面，现偶剧的题材也在逐渐趋同，待播剧《樱桃琥珀》《以你为名的夏天》《兄友妹恭》等，虽然在一定程度上展现了不同的故事背景和人物关系，但整体上仍未脱离常见的青春爱情、职场奋斗等框架。同时，现偶中奇幻元素的增加虽然带来了一定的新鲜感，但也容易陷入新的套路之中。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_f69fe8108f3041dfadcc2649a5e9f400@000000_oswg114466oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>《枭起青壤》也是一部“公式剧”，主打“都市+玄幻”，虽然有迪丽热巴主演，但尾鱼的改编运似乎在《司藤》上昙花一现了，不知执导过《河神》系列的田里能否让奇幻爱情剧焕发新生。</p>
+<p>同样“套公式”的现偶剧还有“都市+奇幻”的《十二封信》，该剧采用的是时空联动的轻奇幻设定；虽然为现偶剧带来了新的看点，但如果不能深入挖掘这些元素的内涵，仅仅将其作为噱头，也难以长久吸引观众。</p>
+<p>此外，还有双男主剧《哑舍》，虽有独特的设定和精彩的原著故事，但如果不能处理好单元支线中的爱情故事与主线的关系，也可能会让观众感到混乱。</p>
+<p>另一方面，现偶剧的制作质量也有待提高。许多网友诟病现偶剧缺乏真实感、难以代入，演员在表演上不够自然，让人感觉生硬。毕竟短剧都已经有“27岁百亿总裁爱上45岁保洁阿姨”这样极具噱头的内容了，更不用说那些能提供充分情绪价值的甜宠短剧。现偶剧也是时候重新估量一下自己的价值了。</p>
+<h2><strong>现实题材，箭在弦上</strong></h2>
+<p>现实主义题材一直是剧集类型的一大黑马品类。凭借关注友情、爱情、亲情，聚焦家庭、职场和社会等各个层面，现实主义题材能够给观众带来即时的生活体悟和人生思考。</p>
+<p>它们反映容貌焦虑、女性安全、职场竞争等社会热点问题，使观众在观剧过程中能够找到自己或身边人的影子，从而更容易产生情感上的连接，或者在话题上引发热烈的讨论。</p>
+<p>比如前段时间热播的《凡人歌》，就凭借“职场人际关系的复杂”“家庭琐事中的无奈与温情”“中年人的情感困惑”等话题引发了热议。而《山花烂漫时》也靠“时代楷模的奉献精神”“乡村教育的困境与希望”“女性在艰苦环境中的坚韧”这些亮点得到了观众的认可。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_5ca0d311c84648c9a9838ef00d02e9f5@000000_oswg171895oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>目前待开机和待播出的现实题材作品还有多部，分别是《四喜》《三十九二十八》《欢乐家长群第二季》《毕业十年》《好团圆》《小巷人家》《独身女人》《北上》等。</p>
+<p>这些作品中大多数都是女性向的现实主义题材，比如童瑶、蒋欣主演的《四喜》；孙俪、董子健主演的《三十九二十八》；唐嫣、赵又廷、杨采钰主演的《独身女人》；白百何、李纯、王玉雯主演的《好团圆》。这四部现实主义题材均是从女性视角展开。</p>
+<p>而《小巷人家》《六姊妹》《北上》三部剧集则是从不同角度展现时代变迁下普通人的生活画卷，既有家庭的温情与矛盾，也有个体在历史洪流中的挣扎与奋斗，通过丰富的人物形象和细腻的情感描写，反映社会现实问题，引发观众对人生、家庭和社会的深入思考。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241015/v2_f0d2245d490e4bcea38e266f9b329895@000000_oswg525343oswg1080oswg1620_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>对于现实主演题材来说，它以真实的生活为底色，通过生动的故事和鲜活的人物，深刻地反映社会现实和人性的复杂。</p>
+<p>这些等待市场检验的剧集，如果能够深入生活、扎实调研，从而捕捉到真实的细节和情感，避免人设虚假、剧情悬浮等问题，未必不能切中当下的社会情绪。反之则会流于表面、缺乏深度，在剧集市场中泯然众人矣。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY0MzEyNg==&amp;mid=2651649211&amp;idx=1&amp;sn=5b10be43d739dc3df5152238a64e280b&amp;chksm=bccb7eb25e05f0c3e1d06d5580825f27655b38f331312f2e05db2ba682ccb09e90b4a7cf3fab&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“骨朵网络影视”（ID：guduowlj）</a>，作者：宝珠‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993922481661831</guid><pubDate>Wed, 16 Oct 2024 09:38:00 +0800</pubDate></item><item><title>“妖股”强邦新材股价较最高点腰斩，郭良春家族身家缩水159亿元</title><link>https://36kr.com/p/2993933169319817</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>继9月30日长联科技上市首日迎来1704%的惊人涨幅后不久，A股资本市场上又迎来了一位新的“妖王”。10月11日，一只名为强邦新材的新股登陆A股，并以1739%的首日涨幅成功夺得了A股年内新股“涨幅王”的桂冠。</p>
+<p>据了解，强邦新材是一家专注于印刷版材研发、制造与销售的公司，由郭良春于2003年一手创立。根据招股书披露的信息，以郭良春为核心的家族成员是强邦新材的实际控制人。本次发行完成后，他们合计持有公司67.05%的股份。</p>
+<p>然而，近年来强邦新材财务状况并不十分亮眼，其营收和净利润均呈现出一定的波动性。与此同时，高度依赖经销模式的业务结构也使得公司面临着一定的经营风险。若对经销商的管理不善或合作关系出现恶化，都有可能对公司的经营业绩造成不利影响。</p>
+<p>值得注意的是，今年以来，A股市场已经有多只新股在上市首日取得了令人瞩目的股价表现。据雷达财经统计，年内共有71只新股成功上市，首日仅有一只新股破发，一只持平，其余69只新股均在首日实现了上涨。其中，有58只新股的首日涨幅超过了50%，不少中签的投资者可以从中获得可观的浮盈收益。</p>
+<p><strong>尽管新股上市首日的表现十分抢眼，但靠“炒新”带动的股价上涨往往后劲不足。比如，强邦新材和长联科技首日涨幅虽超过17倍，但长联科技第三个交易日股价近乎腰斩，强邦新材第二个交易日和第三个交易日分别大跌38.23%和12.02%，最新股价较最高点跌60.52%，郭良春家族身家缩水159.06亿元。</strong></p>
+<p>有分析指出，两只新股的股价惊人涨幅与A股市场近期的氛围密切相关，且已经偏离了公司本身的价值。因此，投资者在参与新股投资时需要保持警惕，理性看待市场波动，切勿盲目跟风炒作。</p>
+<h2><strong>上市首日暴涨1739%，中一签最高浮盈超11万</strong></h2>
+<p>10月11日，身为国内规模最大印刷版材制造商之一的强邦新材，正式在A股市场扬帆起航。</p>
+<p>据了解，强邦新材首次公开发行的股票数量为4000万股，占发行后总股本的比例为25%，本次发行全部为公司公开发行的新股，不涉及老股转让，每股的发行价格为9.68元。</p>
+<p>上市首日，强邦新材在A股的首次亮相便迎来了一个漂亮的开门红。<strong>当天，强邦新材大幅高开800%，并在盘中因股价飙升两度触发临时停牌，涨幅一度飙升至2400%以上。</strong></p>
+<p>截至10月11日收盘，强邦新材的股价较发行价暴涨1739%，涨幅甚至超过了长联科技上市首日收盘高达1704%的股价涨幅，强邦新材借此成为A股年内上市首日涨幅最高的新股，将长联科技还没捂热的纪录夺了下来。</p>
+<p>对于中签的投资者而言，这一天的收益堪称丰厚。按照强邦新材上市首日的收盘价计算，投资者若中一签浮盈将超过8.4万元；而若按照盘中最高价计算，强邦新材的投资者中一签最大浮盈甚至可以达到11.77万元。</p>
+<p>得益于首日在资本市场上所取得的“逆天”表现，此次在强邦新材IPO项目中担任保荐人和主承销商角色的海通证券凭借包销也获得了可观的浮盈。</p>
+<p>根据发行结果，海通证券包销的股份数量为14.909万股，这部分股份在上市首日收盘时对应的市值为2653.95万元，相较于包销金额实现浮盈2509.63万元。</p>
+<p>有分析人士认为，从上市首日的表现来看，不论是长联科技还是强邦新材，二者股价的惊人涨幅并非完全得益于公司本身的价值，而是与A股市场近期的整体氛围密切相关。</p>
+<p>前述人士进一步指出，一方面，新股的筹码本来就有一定的稀缺性，而今年新股发行数量相对较少，这种稀缺性便被进一步放大。另一方面，由于新股初期交易不设涨跌幅限制，因此在当前A股市场热情较为高涨的背景下，“强邦新材们”在上市首日备受热捧，但这样的股价表现明显已偏离前者本身的价值。</p>
+<p>据强邦新材10月8日披露的首次公开发行股票并在主板上市招股说明书显示，公司原计划募集资金6.68亿元，但本次发行实际募集资金总额为3.87亿元，扣除发行费用后的净额为3.22亿元。至于募集的资金，强邦新材将用于环保印刷版材产能扩建、研发中心建设、智能化技术改造、偿还银行贷款及补充流动资金等多个项目。</p>
+<p>前述项目顺利实施后，强邦新材还将新建研发中心以及吸引优秀研发技术人才或团队的加盟，为公司未来发展储备充足的研发技术人才，提升公司的技术优势，增强公司市场竞争力，提升公司盈利能力。</p>
+<p>强邦新材认为，本次募集资金到位后，将加快公司固定资产建设进度，增强免冲洗胶版、柔版等优势产品的生产能力，优化印刷版材结构，为现有优势产品的产能提升和新产品的逐步规模化生产提供充足的资金保障，增强公司盈利能力，巩固并提升公司在印刷版材行业的市场地位，满足可持续发展的需求。</p>
+<h2><strong>业绩表现不够稳定，高度依赖经销模式</strong></h2>
+<p>雷达财经从公司官网获悉，强邦新材始建于2003年，主营业务聚焦于印刷版材的研发、制造与销售。</p>
+<p>据悉，强邦新材创始人为1956年生于浙江温州的郭良春，早年曾从事皮革贸易。2003年，郭良春将目光投向了印刷版材赛道，并借此掀开了强邦新材的创业新篇章。</p>
+<p>自成立以来，强邦新材始终深耕于感光材料的研发及其在印刷版材领域的应用，现已构建起一套完备的印刷版材产品体系，公司产品广泛应用于印刷书籍报刊、画册说明书、瓦楞纸箱、食品包装盒（袋）、药品包装物、不干胶标签、RFID电子标签等多种印刷品。</p>
+<p>历经多年发展，强邦新材已在全国各省市建立起完善的销售网络，并逐步拓展至国际市场，在欧洲、东亚、东南亚等地区均设有销售服务体系，产品远销国内28个省、直辖市和自治区以及海外60多个国家和地区。根据中国印刷及设备器材工业协会印刷器材分会出具的说明，强邦新材在报告期内的销售规模持续位列国内第二、全球前五的领先地位。</p>
+<p>值得注意的是，强邦新材具有浓厚的家族经营特色，以郭良春为核心的家族成员是公司的实际控制人，牢牢把握着公司的决策权。天眼查显示，郭良春是公司的实际控制人和受益所有人。</p>
+<p>招股书显示，本次发行前，郭良春家族成员直接持有公司35%的股份，并通过元邦合伙、强邦合伙、昱龙合伙间接持有公司54.4%的股份，合计持股比例高达89.4%。</p>
+<p><strong>本次发行完成后，郭良春家族持有公司的股份比例合计为67.05%。若按照上市首日284.82亿元的收盘价计算，郭良春家族所持股份对应的市值超过190亿元。</strong></p>
+<p>尽管在上市首日尝到资本市场的甜头，但强邦新材近年来的财务状况并不是十分亮眼。招股书显示，2021年、2022年，强邦新材分别录得15.03亿元、15.88亿元的营收。虽然这期间强邦新材的年度营收规模均超过15亿元，但其营收增速却从2021年的37.52%下降到了2022年的5.72%。</p>
+<p>到了2023年，强邦新材甚至没能保住营收增长的态势，全年14.25亿元的营收跌破15亿元大关，相较上年减少约一成。对于这一时期的营收表现，强邦新材解释称，2023年受胶印版材产品单价下降及境外市场需求不及预期影响，营业收入小幅下降。</p>
+<p>利润方面，强邦新材近几年的净利润表现也不是十分稳定。招股书显示，2021年至2023年，强邦新材的全年净利润分别为7046.7万元、9889.16万元、9351.38万元，呈现出先上升后下降的趋势。</p>
+<p>对于净利润的波动情况，强邦新材则解释称，公司净利润除2021年受主要原材料铝卷采购价格大幅上涨影响相对较低外，2022年及2023年均保持在较高水平。</p>
+<p>而进一步拆解强邦新材的营收可以发现，公司高度依赖经销模式。招股书显示，2021年至2023年，公司主营业务中来自经销模式的销售收入占主营业务收入的比例分别高达98.65%、98.35%、98.18%，均超过了98%。</p>
+<p>强邦新材对此表示，公司终端客户包括印刷厂、制版企业，具有地域分布广、较为分散的特点。采取经销模式可以降低沟通成本，可集中精力和资源加强对产品的创新和研发；同时可以充分利用经销商本地化、专业化、靠近终端客户的渠道优势，更好地满足终端客户的需求，以扩大产品的市场影响力及销售规模。</p>
+<p>不过，强邦新材也在招股书中坦言，若公司未来对经销商不能实施持续有效的管理，或与经销商的合作关系恶化，则公司营销网络渠道建设和品牌形象将会受到负面影响，进而对公司经营业绩造成一定程度的不利影响。</p>
+<h2><strong>“肉签”收益可观，警惕“炒新”风险</strong></h2>
+<p>事实上，自去年下半年起，新股二级市场便呈现出一片热闹的景象，而今年新股上市首日的表现更是尤为亮眼。</p>
+<p><strong>雷达财经通过Choice统计得知，截至目前，A股年内共有71只新股成功上市。</strong>其中，上交所主板14只、上交所科创板10只、深交所主板6只、深交所创业板26只、北交所15只。不过，与2022年、2023年分别多达428只、313只的新股数量相比，A股当前的IPO数量有所减少。</p>
+<p>从新股上市首日的资本市场表现来看，年内仅有上海合晶一只新股遭遇破发困境，另有海昇药业一只新股上市首日收盘价与发行价持平。而剩余的69只新股，其股价均在上市首日实现了上涨。</p>
+<p>其中，上市首日股价涨幅在50%以上（含50%）的新股多达58只，占比超过八成，股价涨幅超过一倍、两倍的新股分别有42只、16只，占比分别约为59.15%和22.54%，而强邦新材和长联科技是年内A股市场仅有的两只上市首日股价涨幅超过17倍的新股。</p>
+<p>雷达财经注意到，就发行价而言，A股今年71只新股的平均首发价为23.81元/股，而2022年、2023年A股新股的平均首发价分别为35.38元/股、29.95元/股，这意味着A股新股的平均首发价在近几年呈现出不断下降的趋势。</p>
+<p>尽管强邦新材凭借高达1739%的涨幅强势夺得A股年内新股“涨幅王”的称号，但若以上市首日的最高价计算，投资者中一签强邦新材股票高达11.77万元的浮盈并非最高。</p>
+<p><strong>据雷达财经统计，年内中一签首日浮盈最多的新股为长联科技，在最高点卖出可赚取19.34万元，而诺瓦星云中一签最多也可赚取14.59万元。</strong></p>
+<p>然而，因“炒新”而被哄抬起来的股价显然很难持续。雷达财经注意到，上市后的第三个交易日，长联科技的股价遭遇重创。10月9日，长联科技的股价跌至255元/股，较前一日近乎腰斩。此后，长联科技的股价又连续多日出现下滑，一度跌至10月11日收盘的136元/股。</p>
+<p>而相比长联科技，强邦新材“巅峰体验卡”的有效期则显得更加短暂。10月14日，强邦新材上市后的第二个交易日，其股价大跌38.23%。10月15日，强邦新材的股价继续下挫，截至当天收盘，其股价已跌至百元以下，报收96.73元/股，最新市值为154.77亿元。</p>
+<p>或是也意识到了新股炒作的风险，上市第一天，强邦新材发布了《上市首日风险提示公告》，郑重提请投资者注意：投资者应充分了解股票市场及本公司披露的风险因素，切实提高风险意识，在新股上市初期切忌盲目跟风“炒新”，应当审慎决策、理性投资。</p>
+<p>强邦新材还在公告中强调，公司近期经营情况正常，内外部经营环境未发生重大变化，目前不存在未披露重大事项；经查询，公司、实际控制人不存在应披露而未披露的重大事项，公司近期不存在重大对外投资、资产收购、出售计划或其他筹划阶段的重大事项。公司募集资金投资项目按招股说明书披露的计划实施，未发生重大变化。</p>
+<p>强邦新材后续又将迎来怎样的发展？雷达财经将持续关注。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/-RdLoCGb7VHDlzIHXveAFg" rel="noopener noreferrer nofollow" target="_blank">“鸿途FLY”</a>，作者：莫恩盟，编辑：深海，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2993933169319817</guid><pubDate>Wed, 16 Oct 2024 09:38:00 +0800</pubDate></item><item><title>爱玛科技张剑，带出中国“电驴”第一家族</title><link>https://36kr.com/p/2994409866602370</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>10月的河北承德，已然凉意阵阵，置身于此的张剑，心里恐怕是忐忑不安。</p>
+<p>日前，张剑被承德市监委留置并立案调查，这位国内电动自行车头部企业的实控人，便失去了消息。直至爱玛科技的一纸公告披露，立即炸开了锅。</p>
+<p>目前，爱玛科技尚未接到协助调查的通知，张剑与妻子段华耗费20多年苦心经营的爱玛科技，或许不至于受到太大的影响。</p>
+<p><strong>自创业以来，张剑经历过多次险情，8年三冲IPO、与合伙人反目。更早的时候，与胞姐、胞妹分道扬镳。</strong></p>
+<p>早年间踩上“禁摩”的风口，爱玛科技一路上升。迄今，<strong>年营收规模超200亿元、市值逼近300亿元。</strong></p>
+<p>与张剑“分手”后，胞姐张红、胞妹张茹各自在电动自行车行业摸爬滚打，业务规模虽远不及张剑，但已演绎出商业传奇，一个家族都扎根在这一领域，为全国罕见。</p>
+<h2><strong>“电驴”围城</strong></h2>
+<p>爱玛科技（603529.SH）实控人张剑突然被带走，无疑给公司日后的发展，带来某种不确定性，要知道此前的公司，正在上马兰州工厂和加速出海，寻求更大的发展。</p>
+<p>在中小投资者们于股吧的喧嚣之中，我们得以审视，这家电动自行车企业的草根成长史。</p>
+<p>张剑的首份工作，并不是制造电动自行车。1990年大学毕业后，他被分配到河南商丘一家企业工作，大概因为体制内工作过于安稳，在彼时已兴起的下海大潮里，张剑决定搏一搏，在当地开了一家车行，专卖自行车。</p>
+<p>当时，自行车是出行刚需，上海永久、凤凰等一线品牌名噪一时。在这样的背景下，张剑的车行生意风生水起。</p>
+<p>一个车行小打小闹，张剑越来越不满足。他不想只是卖车，更热衷于到上游搞点大动作。</p>
+<p>1999年，张剑只身来到中国第一辆自行车诞生地天津，创办爱玛科技前身天津泰美车业，一脚踏进生产端。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_5a85e70c02904143a043f52990c051c5@000000_oswg107064oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2004年，全国性“禁摩”开始，摩托车行业遭遇危机，电动自行车迎来野蛮生长时代。张剑带领公司果断转产。尽管，相比绿源和雅迪，爱玛进入这一领域较晚。</p>
+<p>随着“禁摩”的深入，电动自行车市场疯狂增长。公开数据显示，<strong>电动自行车保有量由2004年的675.71万辆增至2023年超3.5亿辆，预计今年超过4亿辆。</strong></p>
+<p>在“电驴”围城中，爱玛科技迅速崛起。2023年，营业收入、归母净利润分别实现210.4亿元和18.81亿元。同年，公司销售电动自行车、电动两轮摩托车、电动三轮车等合计1074.15万台，其中，电动自行车销量超过760万台。</p>
+<h2><strong>明星加持</strong></h2>
+<p>最初，张剑公司电动自行车的销售，一直集中在天津当地，典型的区域品牌。后来得以跻身全国头部，周杰伦功不可没。</p>
+<p>2009年，天津泰美车业更名爱玛科技，并砸下重金签约流行音乐天王周杰伦。如日冲天的周董，为爱玛带来巨大流量。</p>
+<p>伴随“爱，马上行动”、“爱玛，不错哦”，在各种媒介上疯狂传播，还以刷墙广告出现在乡镇市场。2010年，公司卖出电动自行车220万台以上，稳坐行业头把交椅，而且，连续坐了7年。</p>
+<p>多年过去，周杰伦还是爱玛代言人。在某次公司品牌盛典活动中，张剑上台亲自为周杰伦颁发“无一伦比·长情代言奖”，以此见证爱玛品牌和周杰伦建立起的亲密关系。</p>
+<p>从营销中尝到甜头，让公司更加笃信明星的影响力。公开报道显示，这几年来，除了周杰伦外，还有张艺凡、靳梦佳以及赵昭仪等一众新生代偶像助力，以吸引各类消费者。</p>
+<p>这带来销售费用的增长。<strong>2018年-2020年，销售费用维持在4亿元上下。自2021年起，销售费用由5.51亿元增至2023年的6.41亿元。</strong>其中，广告及业务宣传费支出常年均维持在1亿元以上。</p>
+<p>顶流综艺、时尚杂志以及大型活动上，经常可以看到爱玛的身影。2024年上半年，公司销售费用同比增长39.08%，为4.12亿元，公司称主要系受市场竞争影响，公司扩大销售团队及加大营销宣传投入所致。</p>
+<p>在销售端加大投入，但公司增长瓶颈的到来，似乎难以逆转。</p>
+<p><strong>2020年至2023年，其收入增速由23.8%降至1.12%，同期，归母净利润增速由14.76%降至0.41%。</strong>今年上半年收入、归母净利润分别实现105.91亿元和9.51亿元，同比增长3.66%和6.24%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_9f05cc04442b478dac1f1cce326ec8aa@000000_oswg39517oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>电动车第一家族</strong></h2>
+<p>河南人做生意一贯有着传帮带的传统，张剑也一样。2004年，张剑决定放弃自行车业务，引入姐夫张彦峰、胞妹张茹作为股东，共同开拓电动自行车业务。后二者分别在天津泰美车业持股51%和24%。</p>
+<p>合作1年之后，因为经营理念的重大差异，张彦峰退出天津泰美车业，设立天津泰丰小鸟电动车有限公司，主营自行车、电动自行车生产与销售，其妻张红、其子张乾均在公司持股。</p>
+<p>后来，张红家庭先后设立河南小鸟车业、小鸟车业等企业，掌控“小鸟”电动自行车品牌。</p>
+<p>张剑前往天津创业前，胞姐张红和胞妹张茹就在商丘当地抱团发展，1997年设立商丘市乾坤自行车有限公司，从事自行车、摩托车、自行车配件批发和销售。</p>
+<p>2008年5月，天津泰美车业的李国宏等5位股东，因公司发展情况不及预期决定退股，张茹以25万元对价受让其中5%股权。2009年7月，张茹将所持5%股权，以250万元对价转让给张剑。</p>
+<p>2011年8月，张茹设立河南步步先动力科技，独家经营自有品牌步步先电动三轮车等产品。招股书显示，2011年至2013年，爱玛科技子公司河南爱玛，曾与张茹控制的河南省世纪泰美车业存在部分三轮车代工及零部件交易，不含税交易额合计3534.39万元。自此之后，双方再无业务往来。</p>
+<p>张茹与张剑关系似乎不错。据招股书，2018年，张茹为投资的饭店装修，曾向张剑配偶段华借款200万元；2019年又向其借款3000万元用于临时资金周转。</p>
+<p>相比之下，张红与张剑的关系就有点微妙。在爱玛科技上市前，保荐机构曾试图访谈张红及配偶张彦峰，遭到对方拒绝，也未回复保荐机构发出的调查问卷。</p>
+<p>尽管张氏兄妹各立门户，但还是扎堆在电动车领域，被外界称作<strong>中国电动自行车第一家族。</strong></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0MDY2ODM2MQ==&amp;mid=2247513219&amp;idx=1&amp;sn=edde02044deb1a79c55742ba5b4bd7d8&amp;chksm=e8be1279f19b00f15d62b8e11c4350908e5cb79c3df8c47c9b64aa64298faa7d349f7b42a9a5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“斑马消费”（ID：banmaxiaofei）</a>，作者：沈庹，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994409866602370</guid><pubDate>Wed, 16 Oct 2024 09:38:00 +0800</pubDate></item><item><title>欧洲车只能在巴黎找到尊严</title><link>https://36kr.com/p/2994465008789893</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2024巴黎车展已经拉开帷幕，并得到了国内的持续关注。不过，先来看看老外是怎么评论这届巴黎车展的：</p>
+<p>“各大汽车巨头纷纷亮相巴黎车展，展示各自最新的概念车和量产车型，争相以引人注目的设计和未来科技吸引公众的注意力。”</p>
+<p>“这次车展是出于必要而诞生的，汽车行业的生存本能决定了这一必要性，而汽车行业正面临着正在进行的转型和行业结构性危机的严峻挑战。”</p>
+<p>历史悠久的欧洲制造商正在采取新举措进行反击，纷纷推出价格更便宜、技术含量更高的车型，以赢得那些对高价电动汽车望而却步的消费者。</p>
+<p>“Stellantis 旗下的标致、雪铁龙也在车展上大放异彩，但最受关注的还是它们的新兄弟品牌零跑汽车。如果你无法打败中国公司制造低成本电动汽车，那么为什么不买一辆呢？”</p>
+<p>“苦苦挣扎的欧洲汽车制造商需要证明自己仍然有竞争力，而中国竞争对手则希望在竞争激烈的市场中站稳脚跟。”</p>
+<p>“在欧洲对中国生产的电动汽车征收额外关税数周后，中国汽车公司在法国最重要的汽车盛会上表现出了挑衅的态度。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_9891a0b1113f4ea99ab61e77dcfb94da@000000_oswg122769oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>总结来说就是，欧洲车企们推出了比以往更好更便宜的电动车，但好像还是中国的电动车更厉害。</p>
+<p>当前，欧洲汽车厂商正面临着全面电气化道路上的一些严峻现实。大众、宝马和Stellantis等车企近几周都发布了盈利预警，理由是面临的挑战包括电动汽车需求下降以及来自国外的激烈竞争。明年，随着减排目标的生效，它们面临的压力将进一步加大。</p>
+<p>在这样的背景下，巴黎车展被寄予厚望，业内期待巴黎车展能够成为欧洲汽车行业的转折点，许多汽车公司将推出价格实惠的电动汽车，以跟上中国竞争对手的步伐。本届车展依旧有将近50余款新车发布，其中奥迪、MINI、大众、斯柯达、雷诺等品牌均有重磅车型发布。</p>
+<p>值得一提的是，除了欧洲本土品牌外，不少中国汽车品牌也积极参与其中，展示出强大的实力。例如，零跑B10、红旗EH7和小鹏P7+等车型均在车展上亮相。总共有约9家中国汽车厂商携其最新车型参展，旨在进一步扩大在法国乃至整个欧洲市场的影响力。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_2472720aa1874ec5b72cd454ee163486@000000_oswg95156oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>实际上，今年巴黎车展上，中国汽车品牌的表现尤为抢眼。它们不仅带来了最新车型，更通过展示尖端设计和技术成果，充分展现了电动汽车行业的迅猛发展态势。这些中国品牌正努力巩固在法国及更广泛欧洲市场的地位。</p>
+<h2><strong>欧洲终于有便宜电车了</strong></h2>
+<p>巴黎车展历来是汽车厂商展示最新汽车设计的舞台，犹如一场高级时装秀，年轻苗条的模特们在这里展示最新的汽车颜色和款式。同时，这也是品牌方们获取潜在客户对其新产品直接反馈的宝贵机会。</p>
+<p>然而，在今年的巴黎车展上，焦点发生了转变，转向了低成本产品。</p>
+<p>目前，欧洲电动汽车的平均价格略高于45000欧元，但鉴于德国和瑞典大幅削减了电动汽车的激励政策，加之许多欧洲人生活成本的上涨，以及欧盟严格的废气排放标准，违规者将面临超过150亿欧元的巨额罚款，它们不得不将目光投向了更为亲民的市场。</p>
+<p>简而言之，“当前电动汽车的市场氛围并不乐观。充电基础设施不足，价格波动剧烈，”雷诺汽车首席执行官卢卡·德梅奥坦言，“但我们将持续关注市场动态，并尽最大努力应对挑战。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_91d75a92ed004c11b7d1b171b6f0c889@000000_oswg160970oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在今年巴黎车展上，雷诺率先发布了新款R4，预计售价将低于35000欧元。还推出了新款R5，售价为25000欧元。以及展示了电动Twingo的原型车，预计2026年上市时售价将低于20000欧元。</p>
+<p>尽管这些新车型的推出令人眼前一亮，但有分析人士认为，必须牢记一个不言而喻的事实：这次车展的诞生是出于行业的必要转型和应对结构性危机的需求。欧洲汽车行业正面临着前所未有的挑战，而这场车展正是行业求生存、谋发展的本能体现。</p>
+<p>面对成本更低且能在短短两年内快速开发出新电动汽车的中国竞争对手，这些中国企业的开发速度至少是传统西方汽车制造商的两倍，给欧洲市场带来了巨大压力。对此，有观察家指出：“欧洲汽车制造商已经敲响了警钟，它们意识到必须采取激进措施，而且时间紧迫，只有几年窗口期。”</p>
+<p>在这样的背景下，巴黎车展成为了各大制造商展示实力与策略的关键平台。Stellantis需要通过车展向消费者和股东证明，他们正在推出可行的多能源汽车，以提升2025年的销量；而宝马作为德国汽车工业的佼佼者，他们必须在全球三大洲之间保持平衡，同时应对欧洲可能对中国征收关税的危机。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_b689e1ff306147f18f88f6646a75e2e8@000000_oswg93687oswg1080oswg705_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>为了降低电动汽车成本，Stellantis选择了与中国合作伙伴零跑汽车携手。在巴黎车展上，他们展出了合作成果之一——零跑B10。这款紧凑型SUV预计价格将低于同类竞争车型。车展上的反响将直接影响Stellantis是否决定在波兰工厂投产零跑汽车。</p>
+<p>“每个人都在装出一副勇敢的样子，但有些今年在巴黎展会上展出产品的公司可能在一两年后就倒闭了。盈利的关键是高销量，从而形成规模经济，但只有价格低到足以吸引大量买家，才能形成高销量。并不是每家公司都能解决这个难题。”</p>
+<p>然而，这些新车都是之后的事情。据欧洲汽车制造商协会数据显示，欧洲新车需求正在下滑，今年整体销量相较疫情前下降了约18%。而电动汽车市场的萎缩更为严重，今年市场份额仅占约12%。在这样的市场环境下，欧洲汽车制造商必须加快转型步伐，以应对来自中国竞争对手的强劲挑战。</p>
+<p>在另一方面，我们注意到，巴黎车展上，那些显然已经感受到市场危机的奢侈品牌，如法拉利、兰博基尼、迈凯伦等，并未参展。这无疑让期待再次沉浸在豪车梦境中的公众感到失望。同样缺席的还有像丰田这样的坚实集团，以及众多日本和韩国品牌。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_f152e45b54f94969bc13601431989966@000000_oswg108491oswg1080oswg419_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>有国外媒体对此评论道，从这次车展的出席者（和缺席者）名单中，我们可以比以往任何时候都更清楚地看到汽车行业的当前形势。值得庆幸的是，巴黎车展作为一种行业聚会的形式，再次提醒了那些曾自欺欺人地认为可以独自前行的企业，只有团结一致，才能确保生存，并有望在未来的竞争中取得胜利。</p>
+<h2><strong>关税可挡不住中国车企</strong></h2>
+<p>在今年的巴黎车展上，中国车企成为了最大的亮点。尽管欧盟近期对中国汽车实施了反补贴关税，但中国汽车品牌依然积极展示了他们的电动车型，彰显了他们欲在欧洲汽车市场占据一席之地的决心。</p>
+<p>比亚迪、零跑汽车、红旗、东风、广汽、大通、创维以及小鹏汽车等众多中国汽车品牌，都在巴黎车展上推出了各自的新款电动车型。</p>
+<p>与此同时，一些知名的国际汽车品牌如丰田、现代、奔驰、欧宝、菲亚特、保时捷、沃尔沃、吉普、本田和日产等并未参展，这进一步凸显了中国车企在本届车展上的影响力，也使得欧洲与中国汽车制造商之间的竞争更为显著。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_e0a8a73914ad49248c3a47c9621e68ff@000000_oswg110773oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在展会中，比亚迪、零跑汽车和小鹏汽车等中国品牌的展台吸引了大量观众。他们展示了具有优秀设备和丰富功能的电动车型，意在电动汽车市场中与欧洲竞争对手一较高下，甚至力求超越。</p>
+<p>特别是比亚迪，展示了多款插电式混合动力汽车，这些车型已成为电动汽车领域的热门产品。小鹏汽车则与大众合作，推出了新款P7+轿车，这款车型定位高端，意在与宝马和奔驰的中型车型进行竞争。</p>
+<p>中国汽车制造商的定价策略也给它们带来了市场竞争优势。例如，零跑汽车的T03车型零售价为18,900欧元，其大型家用车C10在欧洲的起售价也仅为36,400欧元，价格相较欧洲竞争对手有一定的优势。</p>
+<p>有分析师对此评论道：“这是中国与欧洲在电动汽车市场的较量，巴黎车展就是他们选择的战场。欧洲人可能视此为他们的领土，但中国人的到来，无疑是在宣示他们在这一市场的主权。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_14a0bc94d4074d6687f2793b5d0efd22@000000_oswg104468oswg1080oswg575_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>尽管欧盟提高了关税，中国汽车制造商并未因此而气馁，反而正在积极推进他们的欧洲扩张计划。值得注意的是，到目前为止，尚无一家中国汽车制造商表示将提高价格以抵消关税的影响。有关人士预测：“在本周的巴黎车展上，中国电动汽车的雄心壮志将得到充分的展现。”</p>
+<p>虽然长城汽车和蔚来汽车今年并未参展，但包括它们在内众多中国汽车制造商已派遣团队前往巴黎，与当地制造商和经销商探讨潜在的合作关系、市场准入以及欧洲本土生产的可能性。新关税政策（尽管尚未实施）无疑会促使更多外国制造商考虑在欧洲设立生产线。</p>
+<p>为了规避关税并赢得欧洲消费者的信任，中国汽车制造商正努力展示他们的汽车不仅驾驶体验更佳，而且价格相较于欧洲本土品牌更具优势。举例而言，比亚迪正在乌兹别克斯坦、匈牙利和土耳其筹建区域工厂，而奇瑞则计划在2024年第四季度开始在西班牙生产电动汽车，以稳固两家公司在欧洲的市场地位。</p>
+<p>此外，零跑汽车将与荷兰公司Stellantis合作，在波兰的工厂生产其电动汽车，而中国吉利旗下的沃尔沃汽车也将在比利时开展电动汽车生产。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_eb52bcc62b4244c19b4dc1b04a432838@000000_oswg152972oswg889oswg592_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>分析人士指出，将生产基地迁移至更接近市场的地方将为双方带来利益：欧洲汽车行业将获得更多就业机会和尖端技术，而中国生产商则可以节省关税和运输成本。</p>
+<p>有趣的是，欧盟或许会要求这些中国汽车制造商与当地公司进行合作。这一转变颇具意味，因为当初欧洲汽车公司试图在中国生产汽车时，中国正是采取了类似的策略。如今，这种逆转似乎也是公平合理的。</p>
+<p>无论是通过在当地建立生产基地，还是与当地品牌进行合作，中国汽车品牌的目标都是打造出更具竞争力的车型产品。正如当地某经销商所言：“市场和投资者对于技术精湛且价格合理的电动汽车充满了期待。”从长远来看，这些举措有望重塑欧洲乃至全球的电动汽车市场格局。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTY0Njc2MQ==&amp;mid=2659276655&amp;idx=2&amp;sn=8b8342ccc08fa3d566423c08fba5372b&amp;chksm=bc8ec0cad89f67d582fbd6cfd19ae25549493f6b77d7b177f1d41def035e95cfa361d6a96964&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“汽车公社”（ID：iAUTO2010）</a>，作者：杨晶，责编：杨晶，编辑：何增荣，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994465008789893</guid><pubDate>Wed, 16 Oct 2024 09:39:00 +0800</pubDate></item><item><title>“美妆一哥”首个双11榜单来了</title><link>https://36kr.com/p/2994490410117508</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>昨日（10月14日），2024年“双11大战”正式打响，史上周期最长双11大促拉开帷幕。</p>
+<p>当天上午7点半，目前淘系唯一超头主播李佳琦直播间已经开播，并于晚上8点开启大促预售。据青眼情报数据统计，李佳琦直播间首场预售共上架391个为美妆商品，涉及144个品牌。从直播热度来看，李佳琦仍是无可争辩的断层第一。</p>
+<p>另据天猫方面向青眼号外透露，双11预售开启前30分钟，就有20个美妆品牌破亿，8个单品破亿。除此之外，今年双11预售首日，美妆大战还有哪些看点？</p>
+<h2><strong>预售首日，珀莱雅再夺第一</strong></h2>
+<p>据天猫官方数据显示，10月14日晚8点天猫双11正式开启，10分钟内，珀莱雅、欧莱雅、修丽可、兰蔻、可复美、娇兰、雅诗兰黛、赫莲娜、玉兰油、海蓝之谜、娇韵诗、肌肤之钥、欧诗漫13个品牌相继破亿，前30分钟破亿品牌达20个。</p>
+<p>具体而言，可复美胶原棒成为首个破亿单品，10分钟卖出超20万件；30分钟内，娇兰复原蜜、欧莱雅玻色因安瓶面膜等8个单品相继破亿。</p>
+<p><strong>珀莱雅第一，巴黎欧莱雅第二。</strong>从天猫双11预售首日成绩单来看，珀莱雅继续蝉联第一，巴黎欧莱雅则位居第二，第三则被修丽可占据，去年位列榜单第三的兰蔻此次则下滑至第五名。</p>
+<p><strong>国货品牌数量下滑。</strong>国货品牌此次虽只有5个品牌入榜，比去年减少了3个，但青眼号外也注意到，这些品牌大多集中于TOP10榜单中，且不少品牌增长较快。例如，可复美从去年的第11名上升至第4名，优时颜也从去年的12名上升至第7名。</p>
+<p>不过，整体来看，目前天猫双11不论是美妆、快销还是个护类目，外资品牌仍占据较大份额。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1829" src="https://img.36krcdn.com/hsossms/20241016/v2_75e87bf12d1b49819639221958abf75b@1743780481_oswg208189oswg1080oswg1829_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>可复美“领跑”李佳琦直播间</strong></h2>
+<p>另外，作为当前淘系平台唯一超头主播，<strong>李佳琦仍然是淘系最大的“美妆顶流”。</strong></p>
+<p>事实上，自14日上午7点半开始，李佳琦直播间在淘宝直播“种草榜”和“带货榜”就一直稳居<strong>断层第一</strong>。预售开始15分钟，李佳琦直播间种草热度达5000+，第二位的直播间仅1000+；热销榜TOP10产品链接，也全部来自于李佳琦直播间。预售开始约20分钟，李佳琦带货榜热度值突破2万，比榜单第二高出1.5万。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,779" src="https://img.36krcdn.com/hsossms/20241016/v2_2d463e9f01f64616a53efaed51b5a7a7@1743780481_oswg112594oswg1080oswg779_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">截自淘宝</p>
+<p><strong>产品、品牌数量均高于去年同期</strong>。据青眼情报统计，此次预售首日，李佳琦直播间共有来自于144个品牌在内的391个美妆商品链接，而去年双11预售链接为363个，涉及139个品牌。其中，国产品牌52个，数量和去年相当，占比36.11%，每个产品平均出场时间仅1-2分钟，热门产品甚至不到1分钟就被一抢而空。</p>
+<p><strong>GMV超过千万产品增长21.6%</strong>。据青眼情报数据，按照商品最低到手价和商品实时显示的预定件数来估算（件数如页面显示售已预定10万+，则按10万件计算），本场直播中GMV超过千万的产品数量达到了259件，与去年相比增长了21.6%；同时，GMV过亿的品牌数量也达到了21个，实现了16.7%的增长。</p>
+<p><strong>多个产品开场即售罄</strong>。开售3小时后，瑷科缦、艾丽美卸妆膏、SK-II小灯泡、欧莱雅注光水、丝塔芙大白罐、卡诗山茶花精华油、双妹第三代玉容霜、绽媄娅钝感力精华及次抛、欧泊莱黑精灵面霜等均已售罄无法购买。其中，卡诗山茶花精华油开售28分钟就全部售罄。其余在售产品也有不少品牌已经多次加量返场。</p>
+<p><strong>可复美位列第一，TOP20榜单中仅5个国货品牌</strong>。此次预售可复美一举超过珀莱雅和欧莱雅斩获第一，不过，相比于去年TOP20榜单中的8个国货品牌，今年国货品牌数量有一定减少。</p>
+<p class="image-wrapper"><img data-img-size-val="1034,2432" src="https://img.36krcdn.com/hsossms/20241016/v2_f21bf3d77a874d6bbe0e14eed5bfcf09@1743780481_oswg225150oswg1034oswg2432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>国际大牌纷纷加码，重点押注李佳琦直播间</strong>。青眼号外统计了近两年李佳琦直播间预售链接超5个的品牌，发现不少国际品牌增加了产品链接的数量。如欧莱雅（含欧莱雅PRO）链接数量从去年的16个增加至23个，雅诗兰黛链接数量也从去年的11个增加至16个，赫莲娜、科颜氏、理肤泉、资生堂、肌肤之钥的产品链接也突破了5个。</p>
+<p>不过，珀莱雅、OLAY、自然堂链接数量均有小幅度减少，此前入榜的娇韵诗、馥蕾诗、MAC、韩束、夸迪、润百颜的产品链接均不及5个。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1836" src="https://img.36krcdn.com/hsossms/20241016/v2_f1961a4bc6294503a2fe058bc9cae9a0@1743780481_oswg187676oswg1080oswg1836_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>低价仍是主旋律，“买正送正”已经成常态</strong>。青眼号外注意到，为迎合大促需求，在李佳琦直播间包括海蓝之谜、科颜氏、娇兰、WHOO、SK-II、雅诗兰黛、倩碧、朵梵等国际大牌，以及自然堂、瑷科缦等国货品牌，均推出了“买正送正”的机制。青眼号外也统计了李佳琦直播间TOP10品牌的部分机制，发现品牌们均拿出了较高力度的折扣。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,4639" src="https://img.36krcdn.com/hsossms/20241016/v2_ee0a751159c24d4097de7fc9e138e7fc@1743780481_oswg521148oswg1080oswg4639_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>整体而言，不论是从品牌机制还是平台热度来看，李佳琦仍是诸多品牌和消费者双11大促的首选。青眼号外还注意到，即便仍稳坐淘系平台头把交椅，但李佳琦近几年也依旧在不断优化与消费者及品牌的沟通。</p>
+<p>例如在《新所有女生的OFFER》中，李佳琦首次设置了观众区，在场的消费者们还可以用手中的投票器，表达对品牌OFFER的满意度，不仅借助观众给输出品牌以新的视角，也让现场观众成为品牌形象的天然宣传和放大器。或许，这也是李佳琦仍能稳坐淘系超头主播的原因之一。</p>
+<h2><strong>双11大促仍是“主战场”，超头还行吗？</strong></h2>
+<p>从淘系平台来看，今年双11美妆品牌的整体表现可圈可点。那么，其他主流平台及头部主播们的带货表现又如何呢？</p>
+<p>在提前“抢跑”的抖音看来，“抢先期成为货真价实的爆单期”。据抖音官方数据显示，10月8日至12日4天时间，抖音超3000万成交的场次就达21场，海量作者纷纷“爆单”。</p>
+<p>譬如，抖音电商在其官方账号上提到，@琦儿Leo通过大力度的优惠福利，结合自身IP打造双11超级宠粉节，在双11抢先期打造了多款爆品，施华蔻控油赋源洗发水成交5.9万单。</p>
+<p>值得注意的是，重新复出的抖音头部美妆博主骆王宇直播间似乎略显“冷清”，不论是抖音“双11先享榜”还是“美容护肤榜”，均未能达到TOP1。尤其是相较于李佳琦直播间，骆王宇直播间双11氛围感并不十分浓烈，过品时间间隔也较长，骆王宇本人也经常穿插护肤常识的讲解，以及产品选择科普。</p>
+<p>据飞瓜数据显示，骆王宇14日直播观看总人次为277.7万，场均在线人数为1.4万，带货商品共计87个，销售额为1000万至2500万，在抖音当日达人带货榜中仅位列第三名。</p>
+<p>在快手平台，辛巴于10月14日连发三条视频宣布回归。在视频中，辛巴表示：“大主播自危、用户信任崩溃、媒体随之口诛笔伐，现在就是直播电商的至暗时刻。”同时，辛巴表示将于10月19日10点开启直播，并同步发布了“超级双十一”的直播预告。目前，辛巴“超级双十一”直播预约人数已达到511.7万。</p>
+<p>事实上，超头虽仍是平台不可或缺的推动力，但从品牌端来看，已经不是推动销量的唯一动力。有品牌负责人告诉青眼号外，目前来看，像李佳琦这样的超头部主播仍有一定拉动力，但不会像以前一样疯狂式的爆发。“我其实更看好品牌自播，未来或许会发展地更好。”</p>
+<p>黛莱皙总经理尹海波则表示，“对品牌而言，无论是合作超头部主播，还是品牌自播，最核心的还是基于深刻、及时的消费者洞察，提供符合需求的产品组合，配置合理的价格方案，保障品牌长期健康的发展。”</p>
+<p>有直播电商相关业内人士对青眼号外坦言，对于平台而言应该更多地去培养优秀地主播，让资源分配更均匀，才能产生更多地价值。</p>
+<p>淘天集团淘宝直播营销及店播总经理梦心也在“双11”启动会上表示：“直播电商从娱乐红人模式进入品质直播新阶段，对主播、货盘和平台服务提出了更高要求。”</p>
+<p>而在销售端，不少品牌方也对青眼号外表示，此次“双11”平稳增长或是主旋律。“双11肯定是一年当中最重要的节点。”冰泉微生态牙膏创始人程英奇告诉青眼号外：“虽说权重没有以前那么大，但依旧是全年最核心的节点，这个改变不了。”不过，程英奇也表示，在他看来今年双11或许不会有很大起落，市场反馈会比较平稳，但也难以有很大的突破。</p>
+<p>尹海波也表示，品牌对于今年双11的预期是稳中求进，希望过更均衡、合理的销售计划，配合品牌自身在短视频直播领域的传播优势，打造一系列的品牌专场活动，让消费者在体验上再上一个台阶。</p>
+<p>也有另有品牌相关负责人对青眼号外表示，此次平台举措刺激消费，在补贴额度和政策力度上的加大，支付便利性加强以及活动周期的拉长，对于价格刺激、拉新用户和流失召回都有相应效果。</p>
+<p>总体而言，目前双11和头部主播们，仍然是品牌年度大促地重要落脚点，双11大促才刚刚拉开帷幕，一场新的厮杀也才刚刚开始。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/wEePWHmcSW4IiS0pdUOMDQ" rel="noopener noreferrer nofollow" target="_blank">“青眼号外”</a>，作者：Luffa，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994490410117508</guid><pubDate>Wed, 16 Oct 2024 09:39:00 +0800</pubDate></item></channel></rss>
