@@ -1,280 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 16 Oct 2024 17:00:33 +0800</lastBuildDate><pubDate>Wed, 16 Oct 2024 17:00:33 +0800</pubDate><item><title>重新定义自监督学习，LeCun团队让MMCR再进一步</title><link>https://36kr.com/p/2994822323448198</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1070,410" src="https://img.36krcdn.com/hsossms/20241016/v2_be70cbfd27194a07bd38634ea65cf843@46958_oswg213289oswg1070oswg410_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>【导读】</strong>近日，来自斯坦福、MIT、纽约大学和Meta-FAIR等机构的研究人员，通过新的研究重新定义了最大流形容量表示法（MMCR）的可能性。</p>
-<p>多视图自监督学习（MVSSL，或称为联合嵌入自监督学习）是一种强大的无监督学习方法。它首先创建无监督数据的多个转换或视图，然后以类似监督的方式使用这些视图来学习有用的表示。</p>
-<p class="image-wrapper"><img data-img-size-val="685,439" src="https://img.36krcdn.com/hsossms/20241016/v2_1a92ebb48d3f463abac160df7a9081b2@46958_oswg89075oswg685oswg439_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>实现MVSSL的具体方法有很多，但大致可以分为四类：对比、聚类、蒸馏/动量、冗余减少。</p>
-<p>在这众多的方法中，最大流形容量表示（Maximum Manifold Capacity Representation，MMCR）是与众不同的一类。</p>
-<p class="image-wrapper"><img data-img-size-val="937,287" src="https://img.36krcdn.com/hsossms/20241016/v2_4b35c22a8a194fb295b498df031cd0f7@46958_oswg156220oswg937oswg287_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>MMCR不明确使用对比，不执行聚类，不利用蒸馏，也不明确减少冗余，但效果却可以媲美甚至超越其他领先的MVSSL方法。</p>
-<p>而来自斯坦福、MIT、纽约大学和Meta-FAIR等机构的研究人员，正在通过新的研究重新定义这个框架的可能性。</p>
-<p class="image-wrapper"><img data-img-size-val="813,499" src="https://img.36krcdn.com/hsossms/20241016/v2_16b3e090835443fcb14991b9cae3139f@46958_oswg115738oswg813oswg499_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://arxiv.org/pdf/2406.09366</p>
-<p>作为论文作者之一，LeCun也发推表达了自己的观点：</p>
-<p class="image-wrapper"><img data-img-size-val="1045,1123" src="https://img.36krcdn.com/hsossms/20241016/v2_30fd6fd0b6144100b3997671ec6ad47f@46958_oswg296046oswg1045oswg1123_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>除非使用预防机制，否则使用SSL训练联合嵌入架构会导致崩溃：系统学习到的表示信息不够丰富，甚至是恒定不变的。</p>
-<p>人们设计了多种方法来防止这种崩溃。</p>
-<p>一类方法是样本对比：确保不同的输入产生不同的表示。</p>
-<p>另一类是维度对比：确保表示的不同变量对输入的不同方面进行编码。</p>
-<p>两种类型的方法都可以从信息最大化参数中派生出来：确保表示形式尽可能多的编码有关输入的信息。</p>
-<p>方差-协方差正则化、MMCR和MCR2（来自伯克利大学马毅团队）都是infomax维度对比方法。</p>
-</blockquote>
-<p>信息最大化维度对比方法的核心思想，是推动编码器学习输入的表示，使其尽可能充分地利用表示空间，就像在有限的画布上尽可能展现丰富的细节。</p>
-<p class="image-wrapper"><img data-img-size-val="963,547" src="https://img.36krcdn.com/hsossms/20241016/v2_13ea809feb12411185ae02d4ba4aa7a8@46958_oswg739581oswg963oswg547_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为了更好地理解MMCR，研究人员利用高维概率工具证明了，MMCR可以激励学习嵌入的对齐和均匀性。</p>
-<p>同时，这种嵌入最大化了视图之间的互信息的下界，从而将MMCR的几何视角与MVSSL中的信息论视角联系起来。</p>
-<p>为了更好地利用MMCR，研究人员对预训练损失的非单调变化进行数学预测和实验确认，发现了类似于双下降的行为。</p>
-<p class="image-wrapper"><img data-img-size-val="723,266" src="https://img.36krcdn.com/hsossms/20241016/v2_6898e1c1ed524d15b870409124b499c8@46958_oswg26845oswg723oswg266_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此外，研究人员还发现了计算上的scaling law，可以将预训练损失预测为梯度步长、批量大小、嵌入维度和视图数量的函数。</p>
-<p>最终，作者证明了这个最初应用于图像数据的MMCR方法，在多模态图像文本数据上同样表现优异。</p>
-<h2><strong>MMCR</strong></h2>
-<p>MMCR由纽约大学数据科学中心（NYU Center for Data Science，CDS）的研究人员于2023年提出。 </p>
-<p>该方法源于神经科学中的有效编码假说：生物感觉系统通过使感觉表征适应输入信号的统计数据来优化，例如减少冗余或维度。</p>
-<p>最初的MMCR框架通过调整「流形容量」（衡量给定表示空间内可以线性分离的对象类别数量的指标）将这一想法从神经科学扩展到了人工神经网络。</p>
-<p>许多MVSSL方法要么明确源自信息论，要么可以从信息论的角度来理解，但MMCR不同。</p>
-<p>MMCR指出估计高维互信息已被证明是困难的，且逼近互信息可能不会改善表示。MMCR的基础在于数据流形线性可分性的统计力学表征。</p>
-<p>不过LeCun等人的这篇工作，将MMCR的几何基础与信息论原理联系起来，探索了MMCR的更深层次机制，并将其应用扩展到了多模态数据，例如图像文本对。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,473" src="https://img.36krcdn.com/hsossms/20241016/v2_cf20fd24d06844df95ec4ee58c29674c@46958_oswg327719oswg1080oswg473_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>理论基础</strong></h3>
-<p>MMCR源自有关线性二元分类器性能的经典结果。考虑D维度中的P点（数据），具有任意分配的二进制类标签；线性二元分类器能够成功对点进行分类的概率是多少？</p>
-<p>统计力学计算表明，在热力学极限下，容量α= 2时会发生相变。MMCR将此结果从点扩展到流形：</p>
-<p class="image-wrapper"><img data-img-size-val="305,97" src="https://img.36krcdn.com/hsossms/20241016/v2_1ced0f82cc9c4c139b5f4a3262ffde5d@46958_oswg5373oswg305oswg97_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="573,103" src="https://img.36krcdn.com/hsossms/20241016/v2_1e36baf49c624992b73ec64bb737b751@46958_oswg15541oswg573oswg103_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>最小化MMCR损失意味着最大化平均矩阵的核范数。</p>
-<p>直观上，完美重建意味着同一数据的所有视图都被网络映射到相同的嵌入，完美均匀性意味着嵌入均匀分布在超球面周围。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,499" src="https://img.36krcdn.com/hsossms/20241016/v2_34872bf4c0da4e648f9d85ae4521bc47@46958_oswg336905oswg1080oswg499_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>具有完美重建和完美均匀性的嵌入实现了尽可能低的MMCR损失</p>
-<p>基于对MMCR嵌入分布的新认识，我们如何将MMCR的统计力学几何观点与信息论观点联系起来？</p>
-<p>答案是，MMCR激励表示的最大化，对应于同一数据的两个视图的两个嵌入共享的互信息的下限。</p>
-<p>考虑某些输入数据两个不同视图的嵌入之间的互信息。两个视图之间的互信息必须至少与两项之和一样大：一个嵌入重建另一个的能力，再加上嵌入的熵：</p>
-<p class="image-wrapper"><img data-img-size-val="731,107" src="https://img.36krcdn.com/hsossms/20241016/v2_71f154918ac046bb9942395e8d64aeb3@46958_oswg22668oswg731oswg107_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>MMCR的双下降</strong></h3>
-<p>通过高维概率分析可知，预测最大流形容量表示的预训练损失，也应该在其预训练损失中表现出非单调双下降样行为。</p>
-<p>（双下降：测试损失作为数据总数和模型参数数量的函数表现出非单调变化 ）。</p>
-<p>然而，本文的分析也表明，这种类似双下降的行为应该发生在非典型参数（流形的数量P和维数D）上，而不是数据的数量和模型的参数量。</p>
-<p>具体来说，理论预测最高的预训练误差应该恰好发生在阈值P = D处，预训练误差落在阈值的两侧。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,573" src="https://img.36krcdn.com/hsossms/20241016/v2_c023d43776564cffab3ab488ad24b57e@46958_oswg284931oswg1080oswg573_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为了比较不同超参数对的点数P和数据维度D之间的损失，这里使用MMCR预训练界限来定义预训练百分比误差：</p>
-<p class="image-wrapper"><img data-img-size-val="761,113" src="https://img.36krcdn.com/hsossms/20241016/v2_e17c9fb1a9404c919350dc146941b520@46958_oswg20863oswg761oswg113_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>研究人员在STL-10上预训练了ResNet-18，STL-10是一个与CIFAR-10类似的数据集，但分辨率更高 (96x96x3)，并且包含100000张图像的附加未标记分割。</p>
-<p>扫描范围P：{64, 128, 256, 512, 1024} × D：{64, 128, 256, 512, 1024} × K：{2, 4, 8}（K为视图数），结果如上图所示。</p>
-<h3><strong>Compute Scaling Laws</strong></h3>
-<p>在许多MVSSL方法中，更改超参数通常会导致预训练损失不相称，从而使运行之间的比较变得困难。</p>
-<p>然而，MMCR预训练百分比误差产生的数量介于0和1之间，因此可以将不同超参数（P和D）时的训练情况放在一起比较。</p>
-<p>执行这样的比较会产生有趣的经验现象：计算MMCR预训练百分比误差中的神经缩放定律。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,581" src="https://img.36krcdn.com/hsossms/20241016/v2_0c07b7f271bb4dec9c271b94a4448c4e@46958_oswg121122oswg1080oswg581_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>通过绘制在STL-10上预训练的ResNet-18网络，我们可以清楚地看到预训练百分比误差的幂律缩放与所有点数P 、嵌入维度D和视图数量K的计算量的关系。</p>
-<p>一个关键细节是这些神经缩放曲线突出了类似双下降的行为：对角线子图（P = D时）具有较高的预训练百分比误差和较小的预训练百分比斜率。</p>
-<h3><strong>MMCR与多模态</strong></h3>
-<p>考虑OpenAI的对比语言图像预训练模型CLIP的设置，两个不同的网络在图像文本标题对上进行预训练，从两个不同的数据域X和Y获取数据。</p>
-<p>X和Y是配对的，使得X中的每个示例在Y中都有对应的正对，反之亦然。从MMCR角度来看，X和Y可以理解为同一底层对象的两个视图。</p>
-<p>因此，最优变换嵌入f(X)和g(Y)应映射到同一空间，并且我们可以利用对MMCR的改进理解来训练这些最优网络。</p>
-<p>与常见的MVSSL不同，这里的X和Y在实践中可能代表极其不同的分布。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,639" src="https://img.36krcdn.com/hsossms/20241016/v2_4b4d9e5e8b7e4c57b1042fc0e6c2250e@46958_oswg372426oswg1080oswg639_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在上图的图像-文本对齐实验中，作者将多模态MMCR应用于DataComp-Small，并将零样本Imagenet性能与标准CLIP目标进行比较。</p>
-<p>可以发现，多模态MMCR在小批量（&lt; 512）下表现优于CLIP。</p>
-<p><strong>参考资料： </strong></p>
-<p>https://x.com/ylecun/status/1834666512856031537 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/uO3P37tDwdwjb4_y_066Ow" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：alan，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994822323448198</guid><pubDate>Wed, 16 Oct 2024 16:02:00 +0800</pubDate></item><item><title>最强 OpenAI o1 逻辑推理正确率仅 50%，清华、智谱推出「大模型逻辑推理新基准」</title><link>https://36kr.com/p/2994678290229124</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>9.11 和 9.9 哪个大？</p>
-<p>这一连人类幼儿园儿童都能回答的问题，曾经（至今）难倒了众多大语言模型（LLM）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_ef772db905a440f58d0c95faaef82460@000000_oswg28992oswg1080oswg290_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然而，<strong>要想达到通用人工智能（AGI）的水平，LLM 不仅要完成“比大小”这种简单的逻辑推理，还需要完成难度更高的推理</strong>，比如“对复杂规则的理解与执行以及多步骤规划”，这是 LLM 智能体（agent）和决策系统的核心能力。</p>
-<p>因此，如何有效评估 LLM 作为基于规则的执行者和规划者角色，至关重要。但是，目前学界和业界少有这方面的研究。</p>
-<p>来自清华大学和智谱的研究团队推出了一项新的基准测试——<strong>LogicGame</strong>，旨在<strong>全面评估 LLM 在规则理解、执行和规划方面的能力</strong>。先看评测结果：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_3bfbbd85f7d54266a176f55d26caa155@000000_oswg554742oswg1080oswg1503_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜LogicGame 的评测结果和样例展示。上图为各种模型在执行和规划类别中的表现；下图（左、右）分别为两个执行和规划类别案例研究。</p>
-<p>除了看到 o1-preview、o-mini 的遥遥领先，我们也看到<strong>超过一半的模型得分不到 10%</strong>，如上图红色区域所示。</p>
-<p>这一评测结果揭示了一个不容忽视的事实：<strong>大多数 LLM 在基于规则的逻辑推理上都存在着明显的缺陷</strong>。</p>
-<p>相关研究论文以“LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models”为题，已发表在预印本网站 arXiv 上。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_20ba39f95de343a3bbbae59fd062260a@000000_oswg43028oswg1080oswg376_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文链接：</p>
-<p>https://arxiv.org/abs/2408.15778</p>
-<p>与传统基准测试不同，LogicGame 包含一系列多样化的游戏，每个游戏都有一套初始状态规则，这<strong>要求模型不仅能够理解这些预定义的规则，还可以应用它们来解决问题</strong>。而且，LogicGame 还同时考虑了最终结果和中间步骤，从而对模型性能进行全面的评估。</p>
-<p>研究结果显示，通过设定不同难度的游戏场景，<strong>LogicGame 能够精确地衡量模型在规则理解和多步骤执行及规划任务上的表现</strong>。</p>
-<h2><strong>LogicGame：“四级”难度游戏场景</strong></h2>
-<p>遵循规则与推理的结合是完成许多现实世界任务的关键。然而，现有基准测试常常无法充分捕捉这一点。</p>
-<p>为了填补这一空白，研究团队通过广泛的研究和众包开发了一套新颖的问题集。他们发现这些任务与某些游戏机制相似，因为现实世界的任务通常与游戏有着共同特征，比如需要遵循特定的规则，进而进行决策。因此，他们<strong>采用了游戏化的方法，从而能够对模型遵循规则的推理能力进行细致的评估</strong>。</p>
-<p>其中，<strong>LogicGame 的数据构建，包含以下四个部分</strong>：</p>
-<p>设计规则推理问题，灵感来自现实世界场景。由于现实世界任务往往具有游戏特征，例如需要遵循特定规则和做出决策，因此 LogicGame 采用了游戏化方法来评估模型的规则遵循和推理能力。</p>
-<p>开发输出约束，确保模型输出符合标准格式。为了方便精确评估和简化匹配步骤，模型响应被要求遵循结构化的 JSON 输出格式。对于单步问题（Level 0），模型只需要输出最终答案，评估仅基于答案的正确性。对于涉及多步骤或更复杂推理的问题（Level 1、2、3 和某些 Level 0 问题），既要评估答案，也要评估步骤。</p>
-<p>实现不同难度级别，并包含示例问题。有四个难度级别，评估模型推理能力的范围，从简单的规则应用到复杂的推理链。难度梯度由相关规则的复杂程度和得出解决方案所需的推理步骤数量决定。</p>
-<p>为了确保公平性和更广泛的适用性，LogicGame 包含了中文和英文版本基准。</p>
-<p>如下图，每个模型都会收到一组特定于给定问题的规则作为输入 prompt，以及一个相应的问题和一个 JSON 格式的输出约束，包括答案和步骤。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_8e6804fa05e14aac979e8e647464e953@000000_oswg246161oswg1058oswg554_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜LogicGame 中分类和评测方法的说明。分类中插图用紫色突出显示涉及数学的类别。</p>
-<p>LogicGame 的评测方法使用自动化方法，<strong>不仅要评估答案的正确性，还要评估得出答案的步骤的正确性</strong>，具体包括评估模型的答案准确率（A-Acc）、步骤准确率（P-Acc）和答案步骤准确率（AP-Acc）。</p>
-<p>每个问题答案的评分是通过比较模型的响应和参考答案来确定的。同样，根据 JSON 格式约束的定义，每个问题步骤的评分也是通过评估模型步骤与参考步骤的一致程度来实现的。</p>
-<p><strong>A-Acc</strong>：该指标用于评估所有给定问题答案的正确性，为每个答案提供二进制评估（0/1），从而表明其是否正确。</p>
-<p><strong>P-Acc</strong>：该指标评估步骤的正确性，根据所提供步骤与预期步骤之间的字符级相似度来衡量匹配百分比。在极少数情况下，如果 0 级问题是单步推理，其中没有提供步骤可供评判，则在评分时步骤准确性与答案准确性视为一致同等对待。</p>
-<p><strong>AP-Acc</strong>：该综合指标评估答案和步骤的整体准确性。其计算方法是使用逻辑 AND 运算将答案准确性和步骤准确性结合起来，得出一个总分。</p>
-<p>这一评测方法确保模型遵循规则进行推理，并全面评估模型的推理能力。</p>
-<h2><strong>表现如何？OpenAI o1 遥遥领先</strong></h2>
-<p>如下图，不论在中英文版本中，在执行类别的最高难度 Level 3 下，<strong>o1-preview、o1-mini 在 14 个被评测模型中的得分遥遥领先，国内模型的得分未能破 10，甚至出现了多个 0 分</strong>；在规划类别的最高难度 Level 3 下，OpenAI o1 的领先优势亦是如此。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_812e57daeb354aa6af4aa33f15ff96e5@000000_oswg109016oswg1080oswg499_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜14 个模型在 LogicGame 中文版本上的 AP-Acc% 指标性能。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_c975f75b4db44cc6a38eaf737620c1af@000000_oswg108603oswg1080oswg499_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜14 个模型在 LogicGame 英文版本上的 AP-Acc% 指标性能。</p>
-<p>在执行类别中，<strong>随着 shot 数目的增加，模型的准确性有了显著提高</strong>。具体来说，更强大的模型（如 GPT-4o）在从 0-shot 转换到 1-shot 和 2-shot 时，AP-Acc 分数会有更大的提升，表明它们能够更好地利用额外的上下文信息来提高执行精度。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_3d388f5e7f8644d2bdd2853aa1c9fd9a@000000_oswg114719oswg1080oswg431_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜LogicGame 中文版本在执行和规划类别上的少样本差异。</p>
-<p>我们还观察到，<strong>在执行任务中，添加示例通常会提高模型在执行任务中的表现</strong>，尤其是在简单任务（Level 0）中。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_3c1096d97d2a4dfa82540fdcb8152f8f@000000_oswg47974oswg1080oswg306_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜LogicGame 中文版本在不同难度级别上的 shot 差异设置与上图类似。</p>
-<p>然而，1-shot 和 2-shot 设置对模型在不同难度级别上的影响有所不同。模型在 Level 0 中从示例中受益最大，但随着难度级别的提高，示例的影响会逐渐减弱。</p>
-<p><strong>在规划任务中，添加示例对模型在规划任务中的表现影响更为复杂</strong>。一些模型在从 0-shot 转换到 1-shot 或 2-shot 设置时，表现会下降，这表明额外的上下文信息可能会引入噪声，干扰模型对关键信息的理解。总体而言，1-shot 对模型的影响最明显，但随着难度级别的增加，其影响会逐渐减弱，而 2-shot 则更加不稳定，没有明显的规律。</p>
-<p>在一项案例研究中，<strong>LLM 在黑白棋（Reversi）游戏中的表现几乎“惨不忍睹”，除了 OpenAI o1，其他模型的得分几乎为（接近于）0</strong>，这同样表明 LLM 在处理复杂规则和进行多步推理方面依然困难。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_5d3117feba554796acd80fdd6c65d659@000000_oswg134862oswg1080oswg550_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜表现最差的五个类别的 AP-Acc% 平均得分。热图中显示了每个类别的 AP-ACC% 平均得分，模型在执行和规划场景中的表现都很差，特别是在“Reversi”中，许多模型的得分接近零。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_11cf5871fcba476b82d437c3c5b523a7@000000_oswg222823oswg815oswg1045_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜一个带有模型输出的 Reversi 游戏示例，包括答案和步骤。</p>
-<p><strong>研究团队对这一失败表现进行了分析，认为有以下三点原因：</strong></p>
-<p><strong>细节处理不足</strong>：例如，Claud 3.5 Sonnet 模型无法正确处理细节（如放置部分棋子或翻转部分棋子），这表明它们对规则的理解不够深入。</p>
-<p><strong>执行/规划规则理解不足</strong>：模型无法正确执行或规划游戏中的操作，这表明它们对游戏机制（如翻转机制）的理解存在缺陷。</p>
-<p><strong>过度更改</strong>：llama-3-8b-chat 模型对棋盘状态进行了过度更改，这表明它们对游戏规则的理解存在明显的偏差。</p>
-<h2><strong>LLM 的推理能力仍有待提高</strong></h2>
-<p>在这篇论文中，研究团队为评估 LLM 基于规则的推理能力，提出了一种新颖的基准 LogicGame，这一基准包含多个难度级别，重点评估模型对规则的理解、基于这些规则的执行以及规划能力。</p>
-<p>同时，他们还开发了评估结果和推理过程的方法，确保模型忠实地遵循给定的规则，而不仅仅是猜测答案。</p>
-<p>广泛的实验表明，目前的大模型在基于规则的推理任务中仍然表现出明显的不足。</p>
-<p>对此，研究团队认为，LLM 的推理能力仍有待提高，尤其是在理解复杂规则、进行多步推理以及学习和应用新规则方面。</p>
-<p>为使 LLM 能够更好地理解和执行规则，它们的推理能力还需要进一步改进，比如<strong>通过更有效的训练方法或引入新的推理机制</strong>。</p>
-<p>此外，为了更全面地评估 LLM 的推理能力，需要<strong>开发更有效的评估方法</strong>。例如，通过引入更复杂的规则和更困难的推理任务。</p>
-<h2><strong>一起来 battle！</strong></h2>
-<p>想要证明你的大模型逻辑推理能力有多强？不妨参与 LogicGame 评测，与国内外众多大模型一起来 battle。</p>
-<p>研究团队在 GitHub 上维护了一个 Leaderboard，分别展示模型在 LogicGame 中英文版和中文版的表现，其按照 AP-Acc% 进行排名，主要评估指标包括：</p>
-<ul>
-<li>AP-Acc%（答案和步骤正确率）</li>
-<li>A-Acc%（答案正确率）</li>
-<li>P-Acc%（步骤正确率）</li>
-<li>IFError%（指令遵循错误率）</li>
-<li>JSError%（Json格式输出错误率）</li>
-</ul>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_ea217510257f4e71ab56b3ff05a72d7d@000000_oswg261977oswg1080oswg906_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜14 个大模型在中文版 LogicGame 上的表现</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_365b3e00bf5e42ca8644acd4be30805e@000000_oswg224879oswg1080oswg790_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜14 个大模型在英文版 LogicGame 上的表现</p>
-<p><strong>那么，如何获取你的模型在 LogicGame 中英文版和中文版的表现呢？</strong></p>
-<p>研究团队在 GitHub 上存放了用于展示的 dev 数据，并提供了 Codabench（一个专门用于模型评测的平台，能够提供高效、公正且统一的评估环境）提交时所需的输入数据。你可以<strong>下载 zh_all 和 en_all 文件</strong>（分别代表中文版和英文版的数据全集），将其<strong>输入你的模型以获取模型回复</strong>，并<strong>将此回复作为 Codabench 提交时的输入数据，</strong>即可获得评测结果反馈。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_4b833cfe273e418c834791a3ab0933c3@000000_oswg79006oswg1080oswg385_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>访问以下链接了解详情：</p>
-<p>Leaderboard 链接：</p>
-<p>https://github.com/Hypatiaalegra/LogicGame-Data</p>
-<p>Codabench 提交链接：</p>
-<p>https://www.codabench.org/competitions/4140/</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA==&amp;mid=2247592386&amp;idx=1&amp;sn=d6d37703fb5385071f8d704cb0f2715b&amp;chksm=cee4caa2508520921a8b3be1f676d302b45fe3a48ea86c28dc0e1d91e45fb9635443e075a956&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“学术头条”（ID：SciTouTiao）</a>，作者：学术头条，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994678290229124</guid><pubDate>Wed, 16 Oct 2024 16:07:00 +0800</pubDate></item><item><title>文一科技复牌涨停，合肥国资将入主</title><link>https://36kr.com/p/2994685108251014</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>从铜陵国资到合肥国资，文一科技（600520.SH）在过去多年屡经控制权变更，如今即将重回国资控股。</p>
-<p>10月15日晚，文一科技公告，控股股东铜陵市三佳电子（集团）有限责任公司（以下简称“三佳集团”）及其一致行动人安徽省瑞真商业管理有限公司（以下简称“瑞真商业”）将向合肥市创新科技风险投资有限公司（以下简称“合肥创新投”）转让合计持有的公司2699.3865万股股份（占总股本的17.04%），转让价格为24.45元/股，总价款约为6.60亿元。</p>
-<p>10月16日，文一科技开盘涨停，报26.35元/股，总市值41.75亿元。</p>
-<p>转让后，三佳集团仍直接持有文一科技5.10%的股份，但将所持股份对应的表决权等委托给合肥创新投行使。一旦交易完成后，合肥创新投将成为上市公司新的控股股东，合肥市人民政府国有资产监督管理委员会（以下简称“合肥市国资委”）将成为新的实际控制人。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_da5650ebe3c04a9db5f1f6252d6d8562@000000_oswg137321oswg960oswg264_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：文一科技公告</p>
-<p>至此，文一科技一周前披露的控制权变更事宜告一段落。据时代周报记者统计，上市至今，文一科技的控制权先后变更多次，然而频繁易主的源头主要是其控股股东的控制权多次变更。</p>
-<p>但是，文一科技每一次的实控权变更并没有带来主营业务盈利能力的改善，不知道此次合肥国资入主后能否带来质的飞跃？</p>
-<p>纵观历史数据，控股股东重组消息往往会对股价造成较大的波动，当面对“公司是否有策略来应对潜在的问题”时，文一科技相关人士在接受时代周报记者采访时仅表示，公司会“聚焦主业，做好公司的业务。”</p>
-<h2><strong>实控人从铜陵国资到陈邓华</strong></h2>
-<p>资料显示，文一科技2002年1月登陆上交所，一度被称为“中华模具第一股”。彼时，上市公司的全称为“铜陵三佳模具股份有限公司”，证券简称是“三佳模具”，公司控股股东是三佳集团，而三佳集团是铜陵市国有资产运营公司持有100%股权的子公司。</p>
-<p>铜陵市政府2003年为改变国有企业一股独大局面，决定对三佳集团进行改制，引进战略投资者。</p>
-<p>2004年1月，三佳模具披露了改制结果，三佳集团的注册资本由0.7亿元增至1.47亿元，其中铜陵市工业国有资产经营有限公司（即铜陵市国有资产运营公司，以下简称“铜陵工业国资公司”）出资1亿元（原有出资0.7亿元+新增出资0.3亿元），占三佳集团注册资本的47.62%；北京华商投资有限公司（以下简称“北京华商”）出资0.8亿元，占注册资本的42.38%；安徽全柴集团有限公司（以下简称“全柴集团”）出资0.21亿元，占注册资本的10%。</p>
-<p>改制完成后，三佳集团的组织形式由国有独资公司变更为国有控股的有限责任公司，控股股东依旧是铜陵工业国资公司，该公司通过三佳集团还间接持有三佳模具54.3%的股权。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_02c18869cc59467bb6d0309805efccf6@000000_oswg64460oswg893oswg646_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：三佳模具公告</p>
-<p>2004年5月，三佳模具的公司全称变更为“铜陵三佳科技股份有限公司”，证券简称变更为“三佳科技”。此后因股改等因素，三佳集团持有三佳科技的股权比例降至39.73%。</p>
-<p>在持有三佳集团42.38%股权五年之后，北京华商“萌生退意”。2009年6月3日，北京华商与上海中发电气（集团）股份有限公司（以下简称“上海中发集团”）签订了《股权转让协议书》，将其持有的三佳集团42.38％的股权转让给上海中发集团。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_ab1a8b6eb36144d8a404e4559af3dafb@000000_oswg92335oswg960oswg490_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：三佳科技公告</p>
-<p>资料显示，上海中发集团的实际控制人是陈邓华。</p>
-<p>同年9月，江苏常开电气有限公司（以下简称“江苏常开”）以2410万元竞拍下全柴集团挂牌子转让的三佳集团10%股权，这笔股权转让在2010年6月获得安徽省国资委批准。</p>
-<p>也是在这个6月，按照铜陵市委、市政府的要求，三佳集团原实控人铜陵工业国资公司与通源投资公司、科技投资公司、众帮公司合并成立铜陵市工业投资控股（集团）有限公司（以下简称“铜陵工业控股集团”），新设立的铜陵工业控股集团以铜陵工业国资公司为主体，铜陵工业控股集团的管理层、经营层未发生大的变更，均由原铜陵工业国资公司的人员担任。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_f867e14503694f73aea25a6ec8b4b14f@000000_oswg10729oswg476oswg223_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：三佳科技公告</p>
-<p>2011年2月，江苏常开将所持的三佳集团10%股权转给了中发控股集团有限公司（以下简称“中发控股集团”），上海中发集团与中发控股集团的实际控制人都是陈邓华，因此本次股权变动后，三佳科技的实际控制人从铜陵国资变更为陈邓华。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_fd3b3c728f0d47c68b4bc0574c4f83d5@000000_oswg92790oswg960oswg501_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：三佳科技公告</p>
-<p>资料显示，陈邓华是浙江温州人，上海中发集团董事长，中发控股集团董事长，曾任上海市政协委员、上海市工商联常委、全国光彩事业促进会理事、中国机械工业联合会常务理事。</p>
-<p>6月10日，三佳科技的公司全称更名为“铜陵中发三佳科技股份有限公司”，股票简称变更为“中发科技”。</p>
-<h2><strong>从中发科技再到文一科技</strong></h2>
-<p>经时代周报记者整理资料发现，由于三佳集团多次变更控股股东，进而导致上市公司的实控人频繁发生改变。</p>
-<p>时间追溯至2011年6月18日，中发科技披露公告称，铜陵工业控股集团委托安徽长江产权交易所公开挂牌转让三佳集团47.62%的股权。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_9ee79fcf6d434b16aeff06addf5dc7e0@000000_oswg106874oswg960oswg754_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：三佳科技公告</p>
-<p>7月8日，上海中发集团以2.5259亿元受让了上述股权，作为实控人的陈邓华100%控制了三佳集团，从而也进一步增强了对于中发科技的控制权，持股比例为27.05%。</p>
-<p>近三年后，2014年5月，上海中发集团、中发控股集团分别向上海宏望资产管理有限公司（以下简称“上海宏望”）转让三佳集团60%、10%的股权；同时，上海中发集团还向铜陵天源股权投资集团有限公司（以下简称“铜陵天源投资”）转让三佳集团30%的股权。因此，上海宏望、铜陵天源投资分别持有三佳集团70%、30%的股权。</p>
-<p>陈邓华退出三佳集团，中发科技的实控人也变更为上海宏望的葛志峰。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_17538a2d471a4cd082a2e22ccb87fadb@000000_oswg52676oswg656oswg482_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：中发科技公告</p>
-<p>谁曾想，仅一年之后，即2015年5月，葛志峰将其持有的上海宏望100%股权协议转让给了安徽国购机器人产业控股有限公司（以下简称“国购机器人公司”），国购机器人公司从而间接控制中发科技2707.3333万股，持股比例为 17.09%，公司实际控制人由葛志峰变更为袁启宏。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_47945563882042209c4c60b97b81da83@000000_oswg90569oswg875oswg679_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：中发科技公告</p>
-<p>袁启宏也没能控制中发科技多长时间，2016年6月，国购机器人公司将上海宏望100%股权转让给了瑞真商业，致使中发科技的实际控制人从袁启宏变更为罗其芳和周文育（二者系一致行动人关系）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_ecfe49893c664dd1a847f993b263baae@000000_oswg168129oswg550oswg578_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：中发科技公告</p>
-<p>几天后，上海宏望的公司名称变更为“上海望亦贸易有限公司”（以下简称“上海望亦”）。</p>
-<p>2016年11月，瑞真商业以0.54亿元受让铜陵天源投资持有的三佳集团30%股权。因瑞真商业持有上海望亦100%股权，因此瑞真商业间接持有三佳集团100%股权，从而持有中发科技17.09%的股权，罗其芳和周文育依旧是上市公司的实控人。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_e57aae6520484935ac710b4345f0805a@000000_oswg146470oswg632oswg466_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：中发科技公告</p>
-<p>2017年11月8日，中发科技的公司全称变更为“文一三佳科技股份有限公司”，证券简称变更为“文一科技”。此后近7年的时间里，尽管股权结构略有变化，但是文一科技的实际控制人没有变化。</p>
-<h2><strong>曾有7个财年出现业绩亏损</strong></h2>
-<p>虽然历经多次实控权的变更，但是文一科技的主营业务盈利能力没有实质性改变。</p>
-<p>在上市早期，文一科技的主营业务是“半导体集成电路塑封模具与化学建材挤出模具等精密模具”，经过多年发展主营业务已经形成“半导体塑料封装模具、装置及配套类设备产品；化学建材挤出模具及配套设备；精密零部件制造、轴承座及配套的注塑件等业务。”</p>
-<p>Wind数据显示，2002-2023年，文一科技的营业收入从0.94亿元增长至3.31亿元，期间最高曾在2022年达到4.44亿元；但是公司归母净利润波动较大，2002-2023年从2050.12万元变成-8064.80万元，期间有7个财年处于亏损状态，不过最高曾在2022年达到2626.58万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_05861f7a7c9043039c8548ea28abecc6@000000_oswg94550oswg960oswg436_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_3da57c1ba6ca43d2b4b7e98937d34d35@000000_oswg111172oswg960oswg436_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：Wind</p>
-<p>2024年上半年，文一科技实现营业收入1.56亿元，同比减少7.66%；归母净利润、扣非归母净利润同比均实现扭亏为盈，分别为803.39万元、186万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_fcce5907b1784e5e9e13996c57f6f46c@000000_oswg95898oswg921oswg239_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：文一科技2024年半年报</p>
-<p>目前，三佳集团是文一科技的控股股东，持有公司股份2707.3333万股，占公司总股本的17.09%；瑞真商业是三佳集团一致行动人，持有文一科技800万股，占公司总股本的5.05%。三佳集团及其一致行动人瑞真商业共持有3507.3333万股文一科技，占上市公司总股本的22.14%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_4366d1d3fbcb4699b173a469ebe9e266@000000_oswg133045oswg865oswg460_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：文一科技公告</p>
-<p>10月15日晚，文一科技的公告显示，三佳集团、瑞真商业与合肥创新投于2024年10月15日签署《股份转让协议》，三佳集团、瑞真商业将合计向合肥创新投转让其持有的文一科技2699.3865万股，其中，三佳集团向合肥创新投转让1899.3865万股，占公司总股本的11.99%；瑞真商业向合肥创新投转让800万股，占公司总股本的5.05%。本次转让股份价格为24.45元/股，股份转让价款合计约为6.60亿元。其中，三佳集团转让股份的价款约为4.64亿元，瑞真商业转让股份的价款约为1.96亿元。</p>
-<p>同日，三佳集团及其实际控制人周文育、罗其芳与合肥创新投签署《表决权委托协议》，三佳集团同意将其在转让股份交割后剩余所持有的全部5.10%文一科技股份对应的表决权、提名和提案权、参会权以及除收益权和股份转让权等财产性权利之外的其他权利不可撤销地委托给合肥创新投行使。委托表决权的行使期限，自转让股份交割之日起18个月。</p>
-<p>资料显示，合肥创新投成立于2000年8月，注册资本为162899万元，法定代表人是郑永霄，经营范围是“风险投资，高科技风险投资基金的受托管理，企业并购和重组，企业管理咨询服务。”</p>
-<p>从股权结构来看，合肥创新投的控股股东为合肥市国有资产控股有限公司，间接控制方为合肥市产业投资控股（集团）有限公司，实际控制人为合肥市国资委。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_ad385d60089642df84a70d16701c3e8a@000000_oswg74538oswg864oswg474_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：文一科技公告</p>
-<p>一旦股权交易完成，合肥创新投将成为文一科技的控股股东，合肥市国资委将成为上市公司实际控制人。</p>
-<p>但是从业务范畴来看，合肥创新投是一家以股权投资为主的公司，不具体经营实业，最终能给文一科技带来怎样的盈利改变还有待观察。</p>
-<p>“本次权益变动完成后，合肥创新投将协调其自身优质资源，充分发挥与公司业务发展的协同效应，提升公司核心竞争力，推动公司的长期健康稳定发展，进一步增强公司持续经营和盈利能力 ，提升上市公司价值。”文一科技的公告中阐述了此次控制权变更“对公司的影响”。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NzQ4OTIyMQ==&amp;mid=2247531281&amp;idx=1&amp;sn=65a4c60a0d5a3eb269ea3a50ee5b3830&amp;chksm=e892d8c8c44b5dd6f6c8ec3f3435da5fba4576506c13b350ddda115e67619b0af0e3734fedd6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代财经APP”（ID：tf-app）</a>，作者：王琦，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994685108251014</guid><pubDate>Wed, 16 Oct 2024 16:08:00 +0800</pubDate></item><item><title>离谱：顺丰员工破坏京东揽收点，获1.2万元奖励</title><link>https://36kr.com/p/2994699671759240</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>真实的商战，往往都很朴实无华。</p>
-<p>比如，潮汕老板找人伪装清洁工，偷偷用开水，把对方公司的发财树烫死。</p>
-<p>王老吉大战加多宝，互相派业务员去超市，捏扁对方易拉罐，影响卖相。</p>
-<p>哈啰单车的城市经理，独自一人用小刀，划开70多辆美团电单车坐垫......</p>
-<p>最近，京东也遇上类似事件，<strong>顺丰员工破坏京东揽收点后，竟然获得1.2万元奖励。</strong></p>
-<p>顺丰还做了份激励海报，堂而皇之地发了出来。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_e9ee4cb6e35c414c812cb589aa4adcad@000000_oswg67839oswg447oswg726_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>破坏京东揽收点，4人已被拘留</strong></h2>
-<p>这份海报的抬头，写着「前线战报」，来自苏州昆西片区。并配了张4人手捧鲜花的大合照，备注「特殊贡献奖」。</p>
-<p>下方还有文字：</p>
-<p><strong>「强势拆除JD网点·拔除竞业」</strong></p>
-<p>「京东在协新村大闸蟹交易市场揽收点位，大肆铺设宣传类物料（海报、门头、KT板），片区管理人员与业务员进行强势拆除，拔除竞业」</p>
-<p>因此，给予1.2万元的现金激励。</p>
-<p>据涉事京东快递揽收点负责人介绍，现在正值大闸蟹外运旺季，很多快递公司都在协新村，做了大闸蟹揽收业务。</p>
-<p>为了更好地揽客，京东做了块广告牌。隔壁顺丰看到后不乐意了，觉得影响到自家生意。双方爆发了言语冲突。</p>
-<p>当天晚上，京东的广告牌和帐篷都遭到破坏，损毁物品价值大约5000元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_98f05e1fe5ab4a8c850c364a3ceb577a@000000_oswg162200oswg1080oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">遭破坏的帐篷</p>
-<p><strong>京东员工随后报警，因为装有监控，4名嫌疑人当晚被抓获并被治安拘留。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_6154e2dbaffe4781a62d7b90a5623a8f@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>让京东负责人没想到的是，这4人还获得了顺丰的奖励——上文中的海报，是他从顺丰业务员里的熟人朋友圈看到的。</p>
-<p>事情曝光后，有记者致电苏州顺丰，工作人员表示：<strong>这是公司针对其他项目的奖励，警方立案一事她并不知情，随后挂断了电话。</strong></p>
-<h2><strong>京东物流接入淘宝，顺丰很难受</strong></h2>
-<p>在京东物流接入淘宝后，未来京东和顺丰的冲突，可能会越来越多。</p>
-<p>10月12日上午，阿里巴巴集团副总裁吴嘉，在天猫双11发布会后称，<strong>京东物流预计会在双11期间接入淘宝，为用户提供服务。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_7a31befeb2734027b211fea39772b159@000000_oswg103370oswg1080oswg698_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这对商家和普通消费者来说，肯定是个好事，有了更多的选择。可对顺丰而言，就是一个天大的坏消息。</p>
-<p><strong>一直以来，只要是对时效和品质要求较高的商品，顺丰都是淘宝商家的唯一选择。</strong></p>
-<p>但京东物流接入淘宝后，情况不一样了。不少商家表示，京东运费要比顺丰略低，时效也ok，服务也挺不错。</p>
-<p>顺丰巅峰时期，曾拿下超20%的市占率，在所有民营快递公司中排列第一。</p>
-<p>但到了2024年上半年，其市占率约为7.7%，同比下滑2%左右。</p>
-<p>可以预，下半年顺丰要保住市占率，难度更大了。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5NzAwNzMyMA==&amp;mid=2660155100&amp;idx=1&amp;sn=f36ec1a515afa5c0a191996c31817a9f&amp;chksm=bc1c07a254e8350ac5198d41e91770a1cdf81b0f4cf369bfe46d3031ac0b5df3070cd9d7b20e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“科技每日推送”（ID：apptoday）</a>，作者：周伟鹏，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994699671759240</guid><pubDate>Wed, 16 Oct 2024 16:12:00 +0800</pubDate></item><item><title>2024 版中国 FA 市场报告发布——不断分散化的趋势下，新机构是否更有机会？</title><link>https://36kr.com/p/2994723112445830</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 16 Oct 2024 17:30:27 +0800</lastBuildDate><pubDate>Wed, 16 Oct 2024 17:30:27 +0800</pubDate><item><title>2024 版中国 FA 市场报告发布——不断分散化的趋势下，新机构是否更有机会？</title><link>https://36kr.com/p/2994723112445830</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>今日，新经济创投数据服务商 IT 桔子正式发布<strong>《2024 版中国一级市场财务顾问（FA）研究报告》</strong>。 </p>
 <p>该报告曾于 2021 年发布一版。 </p>
 <p>3 年里中国创投市场发生了巨大变化。 作为深度参与其中的角色，FA 们都经历了什么—— </p>
@@ -627,4 +352,222 @@
 <p>微短剧很大程度上是网文的视频化形式，它们聚焦都市、爱情等易引发观众共鸣的题材，以紧凑而快节奏的剧情推进，吸引更广泛的用户。于出海方向而言，微短剧正好能用画面弥补小说语言翻译带来的问题；于国内市场，微短剧也逐渐有了成熟的商业模式和多元化制作的可能性。 </p>
 <p>微短剧产业日臻成熟，市场竞争愈发激烈，甚至后者已逐渐演变成了流量争夺战。网文是对微短剧质量有着重要影响的内容源头，握有网文IP的各类平台如今已纷纷踏足于此，且无不希望能够在竞争中切下更大一块蛋糕。这既要比较谁能摸出爆款门道，也要看谁能把路走得更宽更远。 </p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/GHj5nvUY98buD9ixebSJ4g" rel="noopener noreferrer nofollow" target="_blank">“海克财经”</a>，作者：范东成，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994892161982336</guid><pubDate>Wed, 16 Oct 2024 16:49:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994892161982336</guid><pubDate>Wed, 16 Oct 2024 16:49:00 +0800</pubDate></item><item><title>融资1600万美元，这家法国AI创企推新语音转录引擎，支持100种语言</title><link>https://36kr.com/p/2994910013546371</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="900,383" src="https://img.36krcdn.com/hsossms/20241016/v2_a1013c9a85304ccc8e43625fcf979d4e@453363432_oswg592280oswg900oswg383_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>智东西10月16日消息，据VentureBeat昨日报道，法国AI转录和音频智能创企Gladia成功融资1600万美元，并推出了一个多语言实时音频转录和分析引擎。该公司计划利用这笔资金推进研发，推出一站式音频AI工具包。</p>
+<p>Gladia成立于2022年，一直专注于开发端到端的音频基础设施。该公司推出的最新微调引擎可以提供超过100种语言的高级实时转录功能。</p>
+<p>该引擎的独特之处在于能够实时捕捉通话中有价值的信息，包括来电者的情绪、对话中的关键信息和摘要。</p>
+<p>该新产品克服了语言理解和实时数据处理等挑战，实时语音转文本引擎的延迟低于300毫秒。</p>
+<p>本轮融资由欧洲风投机构XAnge领投，Illuminate Financial、XTX Ventures等多家风投公司参投。</p>
+<p>截至目前，Gladia累计融资金额已达到2030万美元，早期种子轮投资者包括New Wave、红杉资本（作为First Sequoia Arc计划的一部分）、Cocoa和GFC。</p>
+<h2><strong>一、Gladia新引擎：100多种语言实时转录，不到1秒生成内容</strong></h2>
+<p>语音转文本产品在克服语言理解挑战方面面临着诸多困难。</p>
+<p>其中，语言资源的数量和质量不足是一个关键问题。</p>
+<p>在Gladia公司看来，目前大多数语音识别系统主要依赖于英语音频数据进行训练，这在一定程度上限制了它们对其他语言的识别能力。</p>
+<p>为了解决这个问题，Gladia致力于开发一个真正多语言的实时语音识别产品。</p>
+<p>该公司新开发的微调引擎能够提供100多种语言的高级实时转录服务。</p>
+<p>Gladia特别增强了新引擎对各种口音的识别能力，使其能够迅速适应不同语言环境，从而为用户提供更加全面和高效的语音转文字体验。</p>
+<p>Gladia的首席执行官兼联合创始人Jean-Louis Quéguiner在接受VentureBeat采访时称，他创立Gladia的初衷源于个人经历，现有的音频转录服务无法准确识别他的法语口音。</p>
+<p>他说：“考虑到目前大多数语音识别模型主要在英语音频数据上训练，存在固有的偏见，Gladia优先构建了第一个真正多语言的实时产品。”</p>
+<p>此外，Gladia引擎的特别之处在于能够即时从对话中提取信息，如来电者的情绪、关键信息和对话摘要。这意味着使用Gladia从通话或会议中生成文字记录和见解只需不到1秒钟的时间。</p>
+<h2><strong>二、克服语言、数据多个挑战，延迟低于300毫秒不损准确性</strong></h2>
+<p>由于上下文信息有限，实时模型在迅速生成内容、准确输出内容上可能会遇到难题。</p>
+<p>此外，实时模型需要更多的计算资源来支持其运行，这进一步增加了引擎开发的复杂性。</p>
+<p>Gladia推出的新产品克服了语言理解和实时处理数据等上述挑战，并且能够对功能进行持续优化，以提供更准确的服务。</p>
+<p>Gladia的实时语音转文本引擎在延迟方面达到了行业领先水平，延迟时间低于300毫秒，且无论用户使用的是哪种语言、位于何地或使用何种技术栈，都不会影响转录的准确性。</p>
+<p>XAnge合伙人Alexis du Peloux说：“Gladia代表了我们在XAnge所推崇的品质：一支大胆的全球科技团队，处于AI创新的前沿，拥有成熟的商业模式，能够为各个行业带来新机遇。在快节奏的AI环境中，Jean-Louis Quéguiner和他的团队表现非常出色，我们很自豪能够支持Gladia进行A轮融资。”</p>
+<p class="image-wrapper"><img data-img-size-val="1000,800" src="https://img.36krcdn.com/hsossms/20241016/v2_ae95ea059aeb4aa5b389a18c85723f14@453363432_oswg498338oswg1000oswg800_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲Gladia创始人Jonathan Soto（左）和Jean-Louis Quéguiner（右）。（图源：VentureBeat）</p>
+<h2><strong>三、整合AI功能，单一API已为7万用户600家企业服务</strong></h2>
+<p>Gladia试图将多种AI功能整合到其现有平台中。</p>
+<p>联合创始人兼首席技术官Jonathan Soto说：“我们的单一API兼容所有现有的技术栈和协议，包括SIP、VoIP、FreeSwitch和Asterisk。这使我们能够轻松将实时转录和分析集成到客户的AI平台中，让他们专注于为终端用户提供最佳服务。”</p>
+<p>该公司在2023年6月推出了其第一个异步转录和音频智能API。</p>
+<p>自推出以来，Gladia的API在企业应用中受到了广泛关注，尤其在会议记录和笔记辅助工具方面表现突出。</p>
+<p>Gladia的首席执行官兼联合创始人Jean-Louis Quéguiner说：“Gladia的技术使垂直市场中需要尖端实时转录（包括销售支持和联络中心平台）的公司能够从人工呼叫后处理无缝转向主动、低延迟的工作流程。无论是自动进行客户关系管理（CRM），还是采用AI为坐席提供实时指导，Gladia都旨在帮助企业更智能、更高效地运营。”</p>
+<p>目前，该API已为全球超过7万名用户和600家企业客户提供服务，包括Attention、Circleback、Method Financial、Recall、Sana和VEED。</p>
+<h2><strong>结语：Gladia放新招！新资本助力研发一站式音频AI工具包</strong></h2>
+<p>Gladia将利用新资金推进其研发工作，计划很快将一站式音频AI工具包推向市场，并通过大语言模型和检索增强生成扩展其产品范围。</p>
+<p>该公司在联络中心即服务 (CCaaS) 领域拥有多家设计合作伙伴，目前正在试行由Gladia的实时AI引擎提供支持的代理协助解决方案。</p>
+<p>Gladia的这些新动作，加上新资本的助力，使得公司在研发一站式音频AI工具包方面有了更多的底气，进一步巩固其在竞争激烈的市场中的地位。</p>
+<p>这对Otter.ai和Fireflies.ai等竞争对手以及其他将语音对话转录为文本的基于AI的服务来说将会是一个新的挑战。</p>
+<p>来源：VentureBeat</p>
+<p>本文来自微信公众号“智东西”（ID：zhidxcom），编译：杨蕊伃；编辑：漠影，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994910013546371</guid><pubDate>Wed, 16 Oct 2024 17:00:00 +0800</pubDate></item><item><title>人均消费40元，萨莉亚在中国年入4亿</title><link>https://36kr.com/p/2994908289359489</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>后疫情时代餐饮平价化的趋势，让以中国为中心的亚洲市场，成为快餐品牌“萨莉亚”的主要“粮仓”。</p>
+<p>日前，萨莉亚公布了2024财年（截至2024年8月）财报。报告期内，公司营业收入同比增长23%至2245亿日元；营业利润同比增长106%至148亿日元；归母净利润同比增长58%至约81亿日元，创下历史新高。</p>
+<p>对萨莉亚业绩起到主要推动作用的，是包括中国在内的亚洲市场。财报显示，报告期内，萨莉亚亚洲业务的营业收入同比增长36.5%至约794亿日元；营业利润同比增长38%至116亿日元。</p>
+<p>一直以来，萨莉亚这个售卖意大利面、牛排等西式餐饮的日本连锁品牌，因为高性价比的特点，被中国消费者称作“意大利沙县小吃”。而在新的消费趋势下，萨莉亚的这一特点也成为其在中国快速增长的理由。</p>
+<p>“中国业务的营业利润大增，今后也将继续增长。本财年将进一步增加开店”，在此次财报发布会上，萨莉亚的社长松谷秀治表示。</p>
+<p class="image-wrapper"><img data-img-size-val="856,318" src="https://img.36krcdn.com/hsossms/20241016/v2_11d5afc7ed6f4199871f199fbe8f2b4d@6079156_oswg220992oswg856oswg318_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>在中国年赚4亿</strong></h2>
+<p>2024财年，萨莉亚的亚洲业务迅猛发展，该地区收入在其总营收当中的占比达到36%，营业利润则占到80%。</p>
+<p>而中国市场，是萨莉亚在亚洲除日本外最重要的增长点。报告期末，在中国内地，萨莉亚于上海、广州、北京分公司分别运营164家、186家、65家门店，合计415家门店，较去年同期的373家增加了42家。另据极海品牌监测数据，截至今年1月，萨莉亚在中国共有459家门店。</p>
+<p>据天眼查，早在2003年，萨莉亚就在上海成立分公司，随后的2008年和2012年，萨莉亚又相继在北京和广州设立分公司。</p>
+<p>财报显示，综合萨莉亚北京、上海和广州三家分公司的经营数据计划，报告期内，萨莉亚在中国内地市场的营业收入同比增长27%至530亿日元（约合人民币25亿元），营业利润同比增长33%至84亿日元（约合人民币4亿元）。</p>
+<p>高性价比一直是萨莉亚能在中国站稳脚跟的重要原因。松谷秀治此前曾表示，中国部分地区正在经历此前日本所处的经济状况。基于此，低价格消费在市场受到欢迎，现有店铺的业绩正在增长。</p>
+<p>消费者追求性价比的特点，在当下的市场环境当中的确被放大了。红餐研究院发布的2024年中国餐饮产业生态白皮书显示，接受平替，不再单纯追求高端品牌，已成为年轻一代的消费特征。</p>
+<p>萨莉亚是这种“消费降级”趋势的受益者。相比高档西餐厅动辄数百元一份的菜品，萨莉亚40多元一份的牛排、12块钱的披萨、14块钱的意面，就显得非常具有性价比。萨莉亚菜单显示，其目前有100道菜品，其中72道菜的定价在20元以下。</p>
+<p class="image-wrapper"><img data-img-size-val="700,324" src="https://img.36krcdn.com/hsossms/20241016/v2_f368b66baf664a968c3f06099db912c9@6079156_oswg44179oswg700oswg324_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">截图来源于大众点评萨莉亚餐厅推荐菜</p>
+<p>总结萨莉亚成功的经验，离不开低价策略，以及高度标准化的运营模式等因素。</p>
+<p>餐饮行业分析师、凌雁管理咨询首席师林岳告诉源媒汇，萨莉亚业绩之所以能够增长有三个原因，包括对于产品的把控、供应链和选址策略。</p>
+<p>林岳认为，萨莉亚销售的基本上都是比较简单的西式产品，同时其已经建立起一套比较系统、成熟的中央厨房系统，能够配送预制食材，快速到达门店，运营成本可以被最大程度地压缩。此外，萨莉亚开店并不会选在非常核心的商圈，而是在市中心既有人流同时门店的成本又不会太过贵的地方。</p>
+<p>与很多餐饮品牌相似，萨莉亚坚持使用中央厨房的半成品和预制菜。但其优势在于，与中餐、日料这些品类相比，西餐的标准化程度更高、效率更快，也更易于压缩成本。</p>
+<p>此前有媒体报道，萨莉亚的菜品都是中央厨房提前做好的半成品，员工几乎没有操作门槛。所以当一些品牌需要在一家250平门店派驻27名员工时，面积相近的萨莉亚可以做到4人。</p>
+<h2><strong>开设新工厂降低成本</strong></h2>
+<p>2024财年中国市场利润大增,也与萨莉亚不断提升的客单价有关。</p>
+<p>过去几年，在麦当劳、肯德基等竞争对手不断提价的情况下，萨莉亚保持着相对稳定的价格策略，其2024财年的客单价仅为820日元（约合人民币39元）。但即便如此，随着原材料、运营成本的提升，萨莉亚的客单价依然有所提高。</p>
+<p>财报数据显示，2020-2024财年，萨莉亚海外客单价分别为568日元、627日元、745日元、850日元和875日元，以目前的汇率计算，萨莉亚在过去5年间的客单价由人民币约30元提高至42元。</p>
+<p>今年7月，有不少消费者表示，萨莉亚部分菜品涨价，以前售价18元一份的牛肝菌鸡肉芝士烤饭上升至20元；11元一份的金枪鱼沙拉上涨至12元。此外，水果沙拉、鸡胸肉沙拉也上调了1元。</p>
+<p>为了维持自己的平价优势，萨莉亚不得不加快其在中国本土供应链的布局速度。</p>
+<p>今年3月，萨莉亚宣布向广州子公司增资3000万美元，该资金的其中一项用途便是建设一家生产酱汁、意大利面、披萨等产品的新工厂，并将现有工厂生产转移到新工厂，以便稳定产品供应、降低成本，并提高产能。目前该项目已开工建设，预计2026年1月正式投产。</p>
+<p>松谷秀治表示，该工厂是为将中国市场的门店增加至1000家所筹备的。在工厂筹备完成后，店铺的生产效率将会提高。同时，通过广州新工厂稳定供应的商品，运营成本也会降低。</p>
+<p>按照松谷秀治的计划，他希望将萨莉亚在日本泡沫破裂后，以低价为卖点并快速崛起的经验在中国重新推广。</p>
+<h2><strong>中国版萨莉亚越来越多</strong></h2>
+<p>与萨莉亚在中国越来越火形成鲜明对比的是，一些品牌连锁餐厅正在持续降价求生，高端餐厅也在不断关店。</p>
+<p>今年二季度，太二酸菜鱼人均消费水平下降至69元。而在2019-2023年，其客单价一直维持在70-80元之间；今年5月，必胜客在广州开了一家名叫“Pizza Hut WOW”的餐厅，因其部分产品售价在20元以下，也被不少人称为“翻版萨莉亚”。此外，海底捞、怂火锅等餐饮品牌的客单价，也出现了不同程度的下降。</p>
+<p>而由于翻台率较高、菜品制作流程复杂，以及人力、房租成本较高等因素，一些高端餐厅也开始走向没落，中产们不愿再为之买单。</p>
+<p>今年以来，曾多次上榜北京米其林指南的Opera BOMBANA停业；北京人均消费3000元、黑珍珠二钻北欧餐厅Refer闭店；位于上海外滩十八号的高端餐厅L'Atelier 18闭店；在上海外滩人均消费2300元的米其林级川菜馆明路川，在开业不到一年后就宣布关店。</p>
+<p>根据红餐大数据，餐饮在营总门店数排名全国第一的上海，截至今年7月30日，相比去年5月初，人均客单价在500元以上的餐厅占比从1.35%下降至0.76%，总门店数减少超过1000家。</p>
+<p>再回到萨莉亚本身，在当前的消费环境下，随着中国餐饮连锁化率的不断提升，以及追求性价比的品牌增加，萨莉亚的经营模式正在被中国的竞争对手模仿。</p>
+<p>目前，中国餐饮市场竞争激烈，消费者对于单个品牌和品类的阈值并不高。而无论是火锅、米粉、米饭，亦或是西式快餐，只要其定价和定位接近，都可能成为同一市场的抢食者。目前，包括塔斯汀、米村拌饭等在内的多个品牌，都在主打平价策略。</p>
+<p>借助此前在日本市场的经验，萨莉亚成功预判也抓住了当前中国消费浪潮的改变。不过，想要在不断内卷的中国市场长期保持优势，萨莉亚需要有着敏锐的应变能力。</p>
+<p>关于近年来在中国市场的经营情况，以及供应链等方面的布局，源媒汇联系了萨莉亚方面，截至发稿，未获回应。</p>
+<p>部分图片引用网络 如有侵权请告知删除</p>
+<p>本文来自微信公众号“源媒汇”，作者：王言，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994908289359489</guid><pubDate>Wed, 16 Oct 2024 17:02:00 +0800</pubDate></item><item><title>AI搜索，战火重燃</title><link>https://36kr.com/p/2994826372931462</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>随着月之暗面宣布上线具备AI自主搜索能力的Kimi探索版，一时间，AI新的竞争战火燃烧至一个并不新的领域——搜索。 </p>
+<p>今年下半年以来，整个AI搜索都呈现出热闹的景象：海外，OpenAI推出AI驱动的搜索引擎SearchGPT，谷歌在近期也宣布将推出由人工智能组织的搜索结果页面，加速搜索变革。 </p>
+<p>最新融到热钱的一批AI创业者中，也不乏AI搜索的影子。除了Perplexity等明星企业外，还有前小度CEO景鲲创办的Genspark、企业搜索领域的Glean、Hebbia，专注电商领域的Daydream。10月，Ai Pin两位高管再创业推出的AI事实审查搜索引擎Infactory也已完成400万美元种子轮融资。 </p>
+<p>国内，几乎所有AI牌桌上的玩家，无论是大厂、中厂抑或是创业公司，都推出了AI搜索产品。不久前，百度文心一言改名文小言，定位为新搜索。 </p>
+<p>据「AI产品榜」发布的今年9月网站榜数据，国内AI产品中，知乎直答、360AI搜索等增长势头十分明显。中长期来看，理想情况下，随着AI搜索向智能助手转变，或重塑互联网的新入口，前景和钱景都有。短期来看，作为高频刚需的确定性赛道，在技术和场景上，传统搜索和AI搜索也并非泾渭分明，无论是作为智能助手的「过渡形态」，抑或是AI原生产品的附加功能，都具备可观的想象空间。 </p>
+<p>不过，<strong>在行业热度背后，不少业内人士对此轮AI搜索的态度则十分冷静。区别于「搜索无所不在」的浪漫幻想，成本、数据、体验与商业模式等各类更现实的问题，已然浮出水面。</strong></p>
+<h2><strong>1、为何战火重燃？</strong></h2>
+<p>海内外科技大厂与创业公司重燃AI搜索战火，并非是偶然。 </p>
+<p>一位互联网大厂搜索业务人士告诉「硅基研究室」：“搜索一直都AI行业玩家的必争之地。”一方面，搜索能为苦于流量的大厂带来重塑入口的可能，它们可借移动时代的生态优势，快速整合自身能力。而由于搜索应用场景多元，传统搜索在搜索效率、交互设计等方面又存在很多问题，也自然给创业公司在垂直领域提供了更多「弯道超车」的机遇。 </p>
+<p>从去年至今，AI搜索领域涌现出三类主要玩家：一类是定位C端和B端的原生AI搜索工具，典型秘塔AI、Perplexity AI、Genspark、YOU、Glean等，大多为创业公司。一类是为传统搜索引擎中增加AI功能或推出相关AI搜索产品，如微软的New Bing、Google的 AI Overview，360推出的AI搜索、夸克等，大多集中在搜索大厂，它们更多是一种焦虑情绪趋势。360集团副总裁、360AI搜索应用负责人梁志辉就谈到，在非常早期启动AI搜索业务的原因主要是「担忧」：“AI搜索用足够的时间发展起来后，我们的传统搜索引擎和浏览器的业务可能被彻底颠覆掉”。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,497" src="https://img.36krcdn.com/hsossms/20241016/v2_a9a7f5534f5d46d08365e00740716e04@5958598_oswg121355oswg1080oswg497_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>还有一类则是给现有AI产品锦上添花，比如在chatbot专门增设搜索功能的Kimi，百度的文小言等。 </p>
+<p><strong>不过，区别于上轮AI搜索的火热，此轮玩家们又集体翻新「旧瓶」，离不开以下几点原因：</strong></p>
+<p><strong>一是，用户搜索行为的变化。</strong> 搜索实际是一个需求泛化的场景，梁志辉在播客《AI产品经理》中曾透露，2019年的360搜索里，有42%的用户在寻址，21%在找资源，37%在提问题，但到了2024年，在360AI搜索里，寻址的用户和找资源的用户占比均有两位数下降，而超七成的用户都在提问题，也就是说，生成式AI技术与应用的爆发进一步催熟了用户以提问为主的搜索需求。 </p>
+<p><strong>二是，头部科技大厂焦虑情绪的缓解。</strong> 它们逐步意识到，传统搜索与AI搜索间并非是绝对的替代关系，用户搜索行为的惯性依旧存在。面对新AI搜索产品，用户短期出于尝鲜需求可能会投入成本尝试，但长期来看，考虑到迁移成本，传统搜索在端侧、生态与内容上的优势依旧存在，一旦推出类似的AI搜索功能，部分用户也很快选择调转车头。 </p>
+<p><strong>三是，上一阶段，AI搜索的火热很大程度上得益于RAG（Retrieval-augmented Generation，检索增强生成）」技术的发展，</strong> 其将信息检索（Retrieval）和内容生成（Generation）两个步骤融合，有效地降低了大模型的幻觉问题，实现了大模型技术和实际场景需求间的平衡。 </p>
+<p>现阶段，技术服务需求的趋势也越发明显，行业竞争逐步向技术工程化和产品化发展，无论是智能体的调用、多模态能力的集成，抑或是在技术层对模型能力进行优化，如Prompt工程上的优化，各家都在结合自身的技术优势和搜索资源，去寻找AI搜索的新形态与新体验。“外面看这波（AI搜索）很热，但我们还是很冷静。”有行业人士向「硅基研究室」这样评价此轮AI搜索的爆发。 </p>
+<h2><strong>2、告别罗曼蒂克</strong></h2>
+<p>一提到搜索的想象力，人们常提到这句话：「忘掉搜索框，搜索将无处不在」。 </p>
+<p>搜索的核心本质其实用户寻求特定信息的过程，用户搜索的目的从来都不是搜索行为本身，而是寻求答案，因此每一次query（查询）往往都是个人需求和意图的组合，而配合大模型的泛化能力，能源源不断地满足个人长尾需求。 </p>
+<p>这也是为什么Perplexity创始人Aravind Srinivas并不把自己当作谷歌竞争对手的原因所在：“我们最大的敌人不是Google，而是人们不是天生就擅长提问的这个事实。”现阶段，AI搜索最关键的任务，其实是通过新技术、新产品和新交互去更精准地理解用户的提问和搜索意图。 </p>
+<p>换言之，一个共识是，AI搜索正在告别某种技术的罗曼蒂克想象，变得更接地气，这源于此轮AI搜索的三个明显变化。 </p>
+<p><strong>第一个明显的变化是，AI搜索的入场门槛正在变高。</strong></p>
+<p>DayDream在今年6月完成了5000万美元的（约3.56亿人民币）种子轮融资，7月，Genspark也完成了6000万美元（约合4.35亿元人民币）的种子轮融资，估值达到了2.6亿美元，英伟达参投的一家AI搜索引擎公司Exa AI也获得了1700万美元的新一轮融资。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,432" src="https://img.36krcdn.com/hsossms/20241016/v2_9a14708983044660ba2bb05511812adc@5958598_oswg290860oswg1080oswg432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>入场门槛变高的原因在于，入局成本在变高。 </p>
+<p>目前，市场上很多的AI搜索产品都是通过「接入传统搜索引擎API+大模型」实现能力的整合，并没有基于真正的AI架构重新在底层搭建一套搜索系统，原因在于AI搜索的成本还是很高。 </p>
+<p>从成本端来看，AI搜索的成本可以分为模型成本（大模型接口费、模型搭建、训练与运营成本）、搜索API费用、私有数据存储和服务费用（自建索引库），还有人工和运营获客成本。 </p>
+<p>AI搜索核心的一个壁垒就是数据的量和质，这直接影响答案的生成质量，因此<strong>底层数据的质量和数量至关重要。</strong>比如，传统搜索大厂在成本端的一个固定开销就是自建索引库，昆仑万维董事长兼CEO方汉在采访中提到，光是爬虫集群的开销，如果索引全球的网页的话，那基本上在3000台服务器到1万台服务器之间。OpenAI此前也是通过收购了一家名为Rockset的数据库公司，才弥补了自己在数据层的短板。 </p>
+<p>这也是为何AI搜索公司估值水涨船高的原因，成本无疑是初创企业需要考虑的最直接问题。 </p>
+<p><strong>第二个变化是，无论如何都不能单纯只做搜索。</strong> 猎豹移动董事长兼CEO、猎户星空董事长傅盛在接受采访时提到：“AI搜索，现在虽然是大一统了，在很多细微的地方，就能看到不同的产品，是不一样的。” </p>
+<p>「硅基研究室」观察到，背靠科技大厂、自身有着搜索业务的玩家结合自身的数据和生态积累，正在集成更多样化的AI能力，寻找更多的场景入口，让搜索无所不在。 </p>
+<p>在多样化的AI能力上，比如百度副总裁、AI产品创新业务及MEG战略运管中心负责人薛苏就提到，AI搜索和传统搜索的最大不同就是从单纯的工具性的「搜」，走向了更具人性的「搜+创+聊」，这之中，包括我们已熟悉的多角度的总结、长文本的归纳、多模态交互、Agent等融合。 </p>
+<p>在更多场景入口上，结合更多的硬件入口、多模态入口，做统一和整合，也在规划之中。例如，夸克不久前发布全新PC端，谷歌与三星合作的推出的「即圈即搜」等功能，都是在为搜索寻找新入口，提升搜索的价值。 </p>
+<p>而大厂外，垂直领域的AI搜索初创企业走向更精更专与更定制化的体验。 </p>
+<p>以Genspark为例，聚焦在旅游和商品等垂直领域，可以利用AI copilot，为用户生成定制化名为Sparkpage的自定义页面，支持用户的自定义编辑，每一个模块也以卡片形式展现，很像「小红书」。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20241016/v2_bdd293f84d39426ab05ae8b06da31743@5958598_oswg138274oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Sparkpage在旅游和商品场景的页面设计 图源：Genspark </p>
+<p>另一个备受科研人士和学生党喜欢的国内工具秘塔搜索，则在近期上线了播客、文库以及图片分析功能，丰富信息源，本质上也是更好地为核心人群服务，契合目标人群的工作流。 </p>
+<p><strong>第三个变化，则是更多玩家谈到了商业化。</strong> 如前文所说，商业化是AI搜索一个老生常谈的话题。月之暗面在推出探索版后，就向记者透露，未来会考虑做一定的商业化尝试。从盈利模式来看，AI搜索主要有订阅制和广告两类。不久前，谷歌就宣布将AI搜索能力整合进Google Lens，增加了Lens的购物功能中，同时开放了购物广告展示位。Perplexity AI也在探索搜索广告的营收模式，Perplexity首席商务官Dmitry Shevelenko在近期表示，9月份处理了 3.4亿次查询，有几家「家喻户晓的顶级」公司希望在该平台上投放广告。 </p>
+<p class="image-wrapper"><img data-img-size-val="912,1190" src="https://img.36krcdn.com/hsossms/20241016/v2_be553828b26f4f108e7c0d922f48fd11@5958598_oswg66326oswg912oswg1190_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：谷歌 </p>
+<h2><strong>3、AI搜索没到终局</strong></h2>
+<p>Perplexity创始人Aravind Sriniva曾在一次采访中提到两个AI能实现「技术-产品-用户」良性循环的行业——一是自动驾驶，另一个就是搜索：“AI的任何进步，语义理解、自然语言处理，都会改善产品，更多的数据也让嵌入式向量表现得更好”。 </p>
+<p><strong>当AI与搜索这一古老的领域相结合，创业者所面临的是一个两难抉择：前方是林立的巨头，把持高度集中的市场份额；后方，是AI的无穷魅力，它能改造传统搜索的体验，为搜索拓宽边界。</strong></p>
+<p>至少从目前AI搜索工具的百花齐放来看，竞争还远没到终局，产品、场景与技术的迭代还会继续，如何降低成本、塑造用户信任，把流量变留量，又如何技术工程与数据上的诸多问题，行业玩家们都有很多苦活儿要干。 </p>
+<p><strong>参考资料： </strong></p>
+<p>1、甲子光年：拆解SearchGPT后，我们发现了AI搜索的壁垒、突破和未来 </p>
+<p>2、AI产品Rena：AI搜索产品深度分析-搜索原理和商业模式分析 </p>
+<p>3、Founder Park：张鹏、傅盛&amp;方汉：连谷歌都下场了，为什么OpenAI没有推AI搜索？ </p>
+<p>4、播客AI产品经理：国内增速第一的360AI搜索在做什么？| 对谈360VP梁志辉 </p>
+<p>5、中信证券：AI搜索：搜索新范式，流量新入口 </p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzk0NTUzMzkxMg==&amp;tempkey=MTI5Ml9RTXVSUjdXYk5lMlFCT0ZTSHFOd2cxZFNDY0Q4dkt1SVpFNGxqYzU1Si05SU41eE8tdDljOTU3TndHdlJxNW9WM2ZobzJZQjQ5amlsbTd3d3BSVVRTdXJ1MVlWVGRodzVwU0RIaVFlNmh6T09TVUNvZThqXzhNeFQ2dHZQSzBQUGZPb21xVXlmMVp2SFJwSnpYRjFNelNTVktrU091RU5Bck84eWN3fn4%3D&amp;chksm=c312a91af465200c23a75d1fc6f6a657565a01be9cbdf58af84bc437363929498e6f47ff4e49&amp;token=536477561&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“硅基研究室”</a>，作者：kiki，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994826372931462</guid><pubDate>Wed, 16 Oct 2024 17:10:00 +0800</pubDate></item><item><title>河北县城，撑起全球妈妈购物单的百亿产业带</title><link>https://36kr.com/p/2994826029787016</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_35a31a16c557439383815932457ced1b@000000_oswg106139oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>县城自己的传奇</strong></h2>
+<p>翻开中年妈妈们的购物订单，有几样东西他们是真爱买——花花绿绿的帘子和家具罩子、形状各异的玻璃工艺品、几乎是同一个模特的裘皮大衣。 </p>
+<p>如果用购物订单来总结中年妈妈们的共同爱好，那必定是“穿”。 </p>
+<p>在家，为一切柜子“穿”帘子，家具“穿”衣服，空置位置“穿”上装饰品。凡能看到的开放式柜子，都被妈妈们罩上了蕾丝挂帘，美其名曰好看且不积灰；但凡裸露不使用的家具，全都“穿”上了裙子，空调、冰箱、洗衣机，就连餐桌餐椅上，被套上了花边罩子。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_0028affa8e6e48979a4a162e4f63e8c4@000000_oswg751892oswg964oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">中年妈妈眼中，裸露在外的物品皆可罩（图源：网络） </p>
+<p>在外，除了南方几省，平常穿衣风格各异的中年妈妈们，冬天的衣柜里都会至少有一件裘皮大衣。每年春节，妈妈们的打扮总是很一致，穿着富贵的裘皮大衣，惹得老姐妹们追着要链接。 </p>
+<p>而这些妈妈们的喜好，从发货省份看，似乎都很相似—都来自河北。只不过，后缀是一个个不同的小县城。 </p>
+<p>细看这些县城的支柱产业结构和产值，惊讶地发现——中年妈妈们的爱好，竞撑起了不同县城们的百亿产业带。 </p>
+<h2><strong>村里的企业，让全球家居穿新衣</strong></h2>
+<p>空调防尘罩、沙发防尘罩，这些布艺罩的发货地，大概率来自河北深泽县。这个位于河北石家庄东边的小县城，在地图上其貌不扬，但居家防尘罩销往全国各地，产量占全国80%以上。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_e3d58fe7237f48a2a965adb40b76c6fa@000000_oswg464906oswg865oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">深泽县位于石家庄东部，防尘罩产量全国第一（图源：网络） </p>
+<p>杨辛在深泽县白庄乡的一家布艺企业做工人。和国内很多地区产业集中在市里和县里不同，深泽县的布艺产业从农村起步，现在，深泽县白庄乡小堡村的布艺产业颇有名气，远近闻名。 </p>
+<p>杨辛工作的地点在村里。村里其他人，除了去外面打工的，基本都在从事布艺行业。从杨辛父亲那代起，村子里便有小作坊用从广东买来的服装布料边角料制作一些沙发垫这种简单产品，销往各地，成了村子里先富起来的一批人。 </p>
+<p>慢慢地，村子里做这行的人越来越多，一边是小作坊升级成了标准化工厂，甚至配了几百平的大展厅；另一边是生产的纺织品种类不断增加，现在村里的纺织品，至少有1000种。 </p>
+<p>但凡你能想到的“罩子”，包括沙发罩、床头罩、空调罩，甚至锅盖罩，在这里都能找到源头厂家和店铺。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_76a3288b52684940ad4988b32b2c7279@000000_oswg189257oswg720oswg821_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">在拼多多搜防尘罩，基本都是石家庄发货（图源：拼多多） </p>
+<p>因为有产业支撑，村里并不比许多地区专门成立的开发区差。村路干净整洁，路灯整齐划一，厂房宽阔整齐，村里的一栋栋瓦房升级成了排列整齐的欧式小洋房。很难将这里和村联系起来。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_b8b5725983f1429a9b8f6301a9025298@000000_oswg697604oswg1080oswg434_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">深泽县红柏家纺市场，厂房整齐（图源：深泽县融媒体中心） </p>
+<p>杨辛没怎么离开过河北，但他手中的产品，或者说，他们村里的产品，却通过不同的形式卖向全世界。 </p>
+<p>一部分的产品，卖给了各地的经销商。 </p>
+<p>在他工作的车间，时不时能看到厂里的领导带着不同的人来参观。每年10月-1月销售旺季时，一天能来三、四批不同的人群。有时候是相关协会、村里镇里的人来调研学习；但更多的时候，是来自五湖四海的客户——外地口音早已习以为常，也有不少外国人的脸庞。 </p>
+<p>他们与来自义乌的客户关系维持地非常稳定。义乌小商品批发市场里做家居布艺的商户，至少有80%以上都与本村或者周边村子里的工厂有生意往来。也就是说，在布艺类的产品领域里，连义乌都是“二道贩子”。 </p>
+<p>既是源头，便比义乌更有价格优势。因此，另外一大部分的产品，被本地企业直接通过各种电商平台，倒腾到全球。 </p>
+<p>杨辛所在的白庄乡，连续多年被评为全国“淘宝镇”，企业在淘宝、拼多多这些传统电商开设店铺是标配。在抖音等社交电商上，也有不少企业开通了店铺和直播间。在布艺这个领域，无论是哪个电商平台，你总能很好地找到白庄乡的老板。 </p>
+<p>将产品售往海外的渠道也更多了。以往，村里的产品直接销往海外，主要是通过业务员和老板参加传统展会，或者在亚马逊等平台上卖。但最近，杨辛听厂里老板们的聊天，开始频繁出现temu这个词，今年之前似乎没有没人提过。 </p>
+<p>杨辛不懂temu是什么，但和其他村里的普通工人一样——他们希望平台多多益善。因为，产品卖得越多，他的计件工资越高，就有越多的积蓄留给家庭开支了。 </p>
+<h2><strong>镇里的高性价比皮草，占领中俄欧</strong></h2>
+<p>在距离深泽县东南角不到200公里的衡水市枣强县，卖着中年妈妈们冬天最爱的裘皮大衣。行业鼎盛时期，全球一年有超过500万件裘皮服装，出自这个县城。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_d98f257be3704a92b8f866720228d219@000000_oswg309254oswg1033oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">枣强县位于衡水市西南角，盛产裘皮大衣（图源：网络） </p>
+<p>不管是商场里的皮毛产品，亦或是高价从俄罗斯欧洲买回来的裘皮衣服，有很大概率产于这个人口不到37万的县城。 </p>
+<p>县城里，把这门生意做得最有声有色的，当属枣强县最南端的大营镇。这里，有“天下裘都”的称号，镇里有超过1.8万家加工皮毛的摊点，凡是与“皮毛”相关的生意，在大营镇都能找到对应的全产业链。 </p>
+<p>甚至，还能从大营皮草的价格变动里，看到整个皮草行业的供需变动趋势。大营皮草设置了产业指数，可以从大营皮草月度的一些变微小变化中，看到行业上中下游的的景气程度。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_f549cc0b53cb4d4282e56ea817bb6b68@000000_oswg375066oswg1080oswg635_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">熟皮价格指数 可以反映市场上游供需关系 （图源：河北省毛皮产业协会） </p>
+<p>在镇里买皮草，就跟买菜一样。逢农历尾数三、五、八、十都有皮草大集，在集市里，人来车往，皮草原皮料、各种皮草制品被成捆成扎摆在地上。商场里卖到成千上万的产品，在大集里不过两三位数。 </p>
+<p>大营还有四五个更集聚和更专业的裘皮交易市场，包括裘皮城、皮草新城等，是大营皮草产品的大本营。何英娟在镇里的皮草新城租了个小店铺，整个皮草新城，店铺接近一千家。 </p>
+<p>“皮草新城也有派克服王者的代称，你在电商平台里看到的性价比很高的派克服，基本就从这出去的”，何英娟说。皮草新城里的派克服，淡季的价格甚至可以低到一百五。前几年派克服流行时，一半以上的店铺里都会挂着不同颜色、不同皮毛材质的派克服。  </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_cbbd435f09c14d199dbf6459b7b67ed4@000000_oswg641016oswg720oswg772_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">商家拿着派克服 在皮草新城门口录视频 （图源： 视频号） </p>
+<p>何英娟线下和线上都在做尝试。她的实体店，有不少裘皮衣服和配饰的款式。她的线上店，只做了拼多多。 </p>
+<p>但在她的电商店铺里，没上传自己店铺里的新款产品，就只上传了一款爆款兔毛短款派克服，以及几款包包皮毛配饰。派克服单价450元，店铺里这几个单品，也没换款上新，两年拼了六万件。因为没有花太多的精力，所以对于这个成绩，何英娟还是满意的。 </p>
+<p>皮革新城的其他同行们，相对还是更“卷”一些。 </p>
+<p>一方面，出口相对萎缩了。之前，俄罗斯有一半以上人身上穿的裘皮大衣来自大营，从未加工的熟皮到精制的成衣，从大营镇生产车间到俄罗斯的门店，最快只要15天。但因为战争原因，这部分需求萎缩了。 </p>
+<p>于是，商家们就更加努力开拓国内市场。 </p>
+<p>秋冬旺季的时候，皮草新城日客流量上万，日交易额达上千万。但现在是淡季。走入大营镇的皮草新城里，萧条感铺面而来。1楼正厅人流屈指可数；再往里走，有些门店大门紧闭，有些门店贴上了出租转让的标语。 </p>
+<p>开着的店铺中，在短视频平台搞起了“反季清仓”的直播。 </p>
+<p>大营皮草直播间非常实在——没有“给家人谋福利”这一套完美无瑕的直播说辞，而是反反复复强调真毛、真皮和质量；没有精美的直播间，几千块的裘皮大衣，就在街边直播。 </p>
+<p>只是，和浙江海宁皮革城高大上的直播间和主播比起来，似乎效果没有那么好。何英娟周围的店铺，直播了几个小时只卖出了两三件，长叹了一口气——为什么我们那么诚心，生意却那么难做呢？ </p>
+<h2><strong>河北县城和小镇，用低价包圆日常购置</strong></h2>
+<p>不光是中年妈妈们的喜好，我们为家中、为自己购买的所有产品，几乎都能找到“河北制造”的痕迹。 </p>
+<p>从浴室和卫生间开始。马桶上套着的马桶垫、毛巾架上挂着的毛巾、浴袍和干发帽，来自保定高阳。 </p>
+<p>河北高阳县城的街头和其他县城不一样的地方在于，不经意间便会路过一个规模不大不小的家纺店。这个小县城，一边包揽了全国三分之一的毛巾产量；另一边，包揽了全国大部分人的马桶垫，拼多多上马桶垫销量前二的店铺，货都发自这个小县城。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_f4cf2779b89c4055b3029baa6a9abf2e@000000_oswg481926oswg720oswg890_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">拼多多上马桶垫销量前二的店铺 ，都是河北高阳发货（图源：拼多多） </p>
+<p>将视线转移到卧室和衣帽间。 </p>
+<p>随手挑的行李箱和包包，可能产自毗邻雄安新区的白沟镇，从北京坐高铁，一个半小时便能抵达，这里是国内三大的箱包产销基地之一，和广州狮岭、浙江平湖这两个箱包批发市场相比，白沟箱包价格更便宜，每4个人手中的包包，就有一个来自白沟城。 </p>
+<p>衣柜里的羊绒毛衣、围巾和大衣，可能产自冀东南的邢台市清河县。因为，这个没有牧场、不产羊的县城，占据了全球40%的羊绒产量。清河县有45万常住人口，羊绒产业便带动了超过10万人的就业。商场里的贵价羊绒，在清河原产地，价格能便宜至少三分之一。 </p>
+<p>最后来到厨房和客厅。亮闪闪且形状各异的玻璃装饰品，由河北沧州中南部的南皮县发货，常见的花瓶、烛台、储藏罐等，都可以在这找到家里装修风格最搭配的款式。餐厅的凳子，来自河北廊坊的胜芳镇。这里的家具，出口130余个国家和地区。 </p>
+<p>深得中年妈妈们喜爱的河南县城制造商品，有一个共同的特点——便宜。有人调侃道，河北商家的口号是“只要比种地强一点就行”。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241016/v2_399571753f794eeda0eeb7b7dec2034d@000000_oswg251846oswg1080oswg685_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">网络上流传的河北电商现状 </p>
+<p>它们都是白牌商品。不管是几毛几块的防尘布、还是几百上千的裘皮大衣，亦或是帮国际大牌代工的羊绒大衣，河北县城制造的直接面向消费者的商品，几乎都叫不出品牌。没有品牌溢价，是便宜的第一个原因。 </p>
+<p>另一个更重要的原因是，生产成本低。河北产业带以县城和农村为核心，一边是厂房房租低于义乌；另一边，许多工厂会雇佣非农忙时期赋闲在家的妇女和老人，他们希望有灵活的上班时间，工资要求不高，用工成本低于许多城市。 </p>
+<p>甚至，许多“小作坊”式工厂，把全家拉来工作不算工资，用人成本这块，直接降为零。 </p>
+<p>另外，产业链成本低。小到每个县，主导产业都有响应的上下游配套，比如小堡村，从针线到物流配套，不出村都可以完成，建立起了自己完整的产业链；大到整个河北省，河北县县有集群，这个县的优势产品是另外一个县的上游产品，产业链上下游联通起来了。 </p>
+<p>低价是优势，也是桎梏。只要低价，就不怕没有市场，凭借低价走量，河北产业带的商家在国内电商和跨境电商领域，都占据了一定的地位。因为低价，亏钱赚吆喝，产业很难继续升级，只能继续卷同行。 </p>
+<p>用价格，把同行拍死在电商上。 </p>
+<h2><strong>结语</strong></h2>
+<p>河北从来不是一个耀眼的省份。坏绕着北京和天津，却经常只被当做两个城市的连接点；经济不出圈的同时，还被全国第六的人口拉低了人均GDP；旅游“网红”城市一直更替，缺还没轮到河北爆火。 </p>
+<p>河北却可以称得上是多彩的省份167个县，1325个镇，这个村做马桶垫，那个镇做小玩具，将一个个不起眼、价格比义乌还低的小商品，裂变成了当地特色产业带，随着这几年电商的发展，创下不少产业的全国第一。 </p>
+<p>镇里村里，家家户户齐心协力，中年妇女老人找到了不出村的就业门路。学历水平不高的村民们，口中也能时不时蹦出来几个英文单词，从来没有出过国的他们，做起了亚马逊、速卖通和Temu，把商品卖到了全球各地。县城里，即便不是过年，也能热热闹闹。 </p>
+<p>或许这，才是中国县域经济发展的最好样本。 </p>
+<p>*本文中均为化名 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU3ODI5MDgxMg==&amp;mid=2247495177&amp;idx=1&amp;sn=8cb98eb36e44f935f46c63d6bca1f618&amp;chksm=fc04f6bc040c3daee19372d66cf791ace719dfad2fb3ce7f4066ca93adb82352df5013ac51e9&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“五环外”（ID：wuhuanoutside）</a>，作者：五环外事务所，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2994826029787016</guid><pubDate>Wed, 16 Oct 2024 17:12:00 +0800</pubDate></item></channel></rss>
