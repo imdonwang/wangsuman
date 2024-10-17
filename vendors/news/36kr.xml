@@ -1,200 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 17 Oct 2024 09:30:27 +0800</lastBuildDate><pubDate>Thu, 17 Oct 2024 09:30:27 +0800</pubDate><item><title>物理学没说不可以：马斯克如何改写人类航天史？</title><link>https://36kr.com/p/2995625250238344</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>把SpaceX的猎鹰9号回收火箭比作一支铅笔，那么从发射到返回的技术难度，相当于让铅笔飞过453米高的帝国大厦头顶，然后精准落到只有鞋盒大小的着陆点上。</p>
-<p>接替猎鹰9号的重型运输系统<strong>星舰</strong>，提出了一个更极限的目标：<strong>用一双筷子牢牢夹住这根小小的铅笔。</strong></p>
-<p>如果机械臂稳稳接住推进器，就能减少火箭零部件着陆时的损伤，火箭在简单维护和补充燃料后，可以迅速返回工作岗位，提高发射效率。</p>
-<p>2023年开始星舰试飞后，SpaceX的前三次试飞以两次爆炸一次失联收尾。今年6月的第四次试飞，星舰飞行一小时后在海面实现“软着陆”。</p>
-<p>今年7月的采访中，马斯克就信心十足地预言第五次试飞有很大机会成功，因为“我们并没有违背物理学”。</p>
-<p>物理学回报了马斯克。10月13日，星舰的第五次试飞中，巨大的机械臂成功夹住了火箭的助推器Super Heavy——高度为69米，直径为9米，空重200吨，满载重3600吨。自此，人类的航天史进入了新的章节，“太空公交车”不再是遥不可及的天方夜谭。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_6d5274d24b4f4b0790d1e07f74886357@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2023年全年，SpaceX成功完成了98次火箭发射，占全世界总发射次数的44%；这98次任务发射了1984颗星链卫星、将1600吨有效载荷送上了既定轨道，占全球有效载荷的80%。</p>
-<p>按照彭博的说法，2024年SpaceX有望在火箭发射和星链业务上获得90亿美元收入。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_45d85c2fe31c44669ed5a5d63c76dda5@000000_oswg168439oswg1080oswg1033_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>关于SpaceX的愿景和实现路径，清晰记录在2011年5月马斯克发表的一封名为《The facts about SpaceX Costs》的公开信中[2]，13年过去，绝大多数内容依旧有效：</p>
-<p><strong>·</strong>完全可复用的运载器是航天产业的长期目标，在实现目标前，SpaceX不会满足于当前的进步。</p>
-<p><strong>·</strong>全球范围内，只有SpaceX将发射费用公开在网站上。SpaceX的定价不是为了抢占市场份额，也不是用低价“教育”市场后提价，而是通过创新战胜海外的廉价劳动力。</p>
-<p><strong>·</strong>随着时间的推移，SpaceX的表现会越来越好，价格会越来越低，这是所有科技门类的发展规律。</p>
-<h2><strong>最好的零部件是没有零部件</strong></h2>
-<p>航天发射大致由两个部分组成：<strong>运载火箭</strong>和<strong>送进太空的飞行器</strong>（卫星、空间站、深空望远镜等）。</p>
-<p>运载火箭是飞行器逃离地球的动力来源。在人类不算长的太空探索历史中，运载火箭一直是一次性消耗品。完成运送任务后，它会跌入大气层烧毁。</p>
-<p>类比民航业，就像一架把乘客运到目的地后，立刻原地坠毁的飞机。</p>
-<p>有去无回的一级运载火箭会占据发射成本的50%以上[6]，没有任何商业机构能承担这样的成本。因此，太空发射只能由政府财政买单，交由特定的承包商承担发射任务。</p>
-<p>马斯克的思路其实很简单：让火箭可以重复发射，同时将火箭做的尽可能大，一次运载足够多的东西，每公斤的运输成本就能极大摊薄。</p>
-<p>这个思路的第一个产物不是星舰，而是NASA的“航天飞机计划”。航天飞机的设计初衷也是为了实现发射系统复用，但思路是依靠空气动力学——这就是为什么它长得像飞机<strong>。</strong></p>
-<p>但在航天飞机短暂的生命周期里，其安全性一直饱受质疑。挑战者号和哥伦比亚号都经历过失事惨剧，多次事故后，保守意识在NASA抬头，毕竟没人希望看到宇航员的生命和纳税人的钱在半空中炸成碎片。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_694ce23a749f46fe8a7afb93bf7a641d@000000_oswg134630oswg1080oswg1443_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">上图：挑战者号起飞73秒后在空中爆炸，下图：哥伦比亚号返回大气层时解体。两次事故造成14名机组人员全部遇难</p>
-<p>另外，航天飞机虽然实现了“可复用”，但并没有解决成本问题。</p>
-<p>航天飞机项目拥有超过650个设施，120多万台设备，雇用了5000多名员工。除此之外，全美有1200多家供应商为该项目服务。</p>
-<p>如此巨大的投入后，航天飞机向低地球轨道运输的增量成本依然高达4.09亿美元；按照测算，送往国际空间站的每公斤货物，运费高达27万美元。</p>
-<p>作为对比，SpaceX每公斤运费约为1410美元，其他商业航天公司最低能达到5000美元。</p>
-<p>马斯克赞同火箭复用的构想，但他认为，既然空气动力学的思路已经被历史证伪，SpaceX就要从根本上改变，一种被认为天方夜谭的火箭回收方式摆上台面<strong>：动力垂直回收</strong>。</p>
-<p>顾名思义，动力垂直回收不依赖机翼滑翔，而是发动机多次点火降速大力出奇迹。这种无损着陆方式在月球、火星等深空探索里已经用过，但很少有人想把它用在地球上。</p>
-<p>地球不仅有更大的重力、剧烈的大气摩擦，还有广阔的生命活动区域与复杂的国界地形，这导致动力垂直回收在地球最大的应用场景是科幻电影，马斯克是第一个试图复现科幻电影的人。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_062028389a094d2baea6655fe89a82d5@000000_oswg470528oswg985oswg554_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">2021年NASA的火星探测车“毅力号”成功着陆</p>
-<p>目前，SpaceX的猎鹰9号是世界上唯一实现大规模重复使用的火箭，其回收技术已经相当成熟。但马斯克认为猎鹰9号的起落架直立降落方案成本还是太高，干脆直接用筷子夹住助推器。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_5ecbd85147bd44048a6308fa124dae06@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>星舰系统配备了33个助推器发动机，能够将超过100吨的有效载荷送入预定轨道，这一数字是猎鹰9号的5倍。马斯克认为，终有一天，它将带着100名乘客前往火星。</p>
-<h2><strong>物理学没说不可以</strong></h2>
-<p>为了在投入有限的情况下达到理想目标，马斯克将消费电子产品的生产思路大规模带进了壁垒森严的太空产业，其核心是<strong>快速试错，快速迭代</strong>。</p>
-<p>2024年7月，SpaceX公布了服务于星舰的第三代猛禽发动机（Raptor 3），比著名的梅林发动机更强大、复杂，采用甲烷（一种在火星上易得的资源）+液氧的高效燃料组合。没有排气管，反应产生的所有气体都保持在发动机内部，可在海平面产生230吨的推力。</p>
-<p>马斯克表示：只有上帝本人才能在结合分子方面比猛禽燃烧室做得更好[3]。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_aad3d81cb10f46e8844b22f5cf7eaad7@000000_oswg558928oswg960oswg604_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">星舰的三代猛禽引擎</p>
-<p>和前两代对比，猛禽三代的外表变得相当干净，甚至是小巧。生产流程和技术优化迭代后，大量管线被金属3D打印技术整合到了引擎内部，于是保护管线的特殊隔热罩也被舍弃了。</p>
-<p>三代引擎是SpaceX研发哲学的一个侧写：<strong>开头不需要完美，过程中要有针对性的改进，最终通向一个简洁、清晰、高效的未来。</strong></p>
-<p>在火箭发射上，SpaceX同样采取“炸了就炸了”的设计方式，即<strong>迅速制成火箭和发动机原型，进行测试，炸毁，修改，再次尝试，直到做出能用的东西。</strong></p>
-<p>SpaceX的推进部门首席技术官穆勒总结说：“你不需要完美地规避多少问题，关键是能多快找出问题，然后解决它[4]。”</p>
-<p>和NASA如履薄冰的求稳思维相反，马斯克极力向工程师传达一个理念，一件事情只要没有违背物理学定律，那就有实现的可能。</p>
-<p>这种思路同样用于特斯拉的汽车生产。</p>
-<p>2018年，马斯克意外发现一辆Model S的玩具车模的车底被压铸成了一整块金属，甚至还有一套悬挂系统。当天的会议上，马斯克提出特斯拉也可以这么做，但工程师表示反对，因为汽车底盘要大得多。</p>
-<p>马斯克反问：“不就是搞一台更大的铸造机吗？又不是打破物理学定律[5]。”</p>
-<p>之后，他和高管给六家铸造公司打了电话，只有一家名叫意德拉的公司接受了这项挑战。后者提供的GigaPress将传统车架中的需要加工再组装70个零件，焊接1000至1500次的复杂生产过程，变成一次简单压铸加工，让焊接两小时变成压铸两分钟，为Model Y省下了20%的生产成本。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_b4fbf51b13344c87a5aa83d7c954de4a@000000_oswg611555oswg1024oswg683_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">猎鹰9号火箭</p>
-<p>在“无需完美”的信念下，SpaceX解决很多工程学问题时胆子都很大，有一种乱拳打死老师傅的美感。</p>
-<p>为了向NASA证明自身的正确性，SpaceX会同时用业界标准设备和自己设计的设备进行发射测试。一旦SpaceX的设计性能等同或优于业界标准，它就会成为公司的新标准。</p>
-<p>按照规定，美国所有飞行器发射都必须遵守联邦航空管理局(FAA)的准则。2020年第一次超重型助推器（星舰早期版本）无人发射测试里，FAA的检查员认为高空风条件并不满足发射要求，但SpaceX的天气模型示意可以发射，工程师看向马斯克，他默默点了个头，火箭升空了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_81d57ac350a34aa3b2ef4988ddddf791@000000_oswg787353oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">龙飞船为国际空间站执行载人任务</p>
-<p>2022年，牛津大学三位学者分析了NASA和SpaceX总计203次太空任务，发现后者的火箭研发成本只有NASA的十分之一，研发速度却快了两倍[16]。</p>
-<p>NASA每年获得的拨款超过200亿美元，SpaceX成立21年，总共只筹集了百亿美元左右的资金。用着NASA半年的预算，SpaceX陆续开发了猎鹰一号、猎鹰九号、猎鹰重型和星舰，还有梅林和猛禽两款火箭发动机。</p>
-<p>猎鹰9号火箭从一张白纸到首次发射，只用了四年半的时间，耗资平均在3亿美元左右。作为对比，NASA主导研发的航天飞机，每一架都耗资超过20亿美元。</p>
-<h2><strong>龙飞船上的浴室门把手</strong></h2>
-<p>第一批SpaceX员工入职时，被告知公司目标是做“<strong>太空行业里的西南航空公司（美国版春秋航空）</strong>”。</p>
-<p>虽然看上去尖端无比，但SpaceX的火箭实际上采用了大量廉价的消费级产品[11]：</p>
-<p>猎鹰火箭用5000美元的普通电脑，取代了100万美元的航天级电脑；火箭打捞雇的是普通的商业打捞公司；龙飞船的门把手是工程师们用浴室零件组装的，成本只需30美元，而NASA的同款门闩造价1500美元。</p>
-<p>猎鹰9号的载重舱的空气冷却系统要价300多万美元，但后来被换成了稍经改造的商用空调设备。得知猛禽发动机内部有一根成本2万美元的管子，马斯克表示“恨不得戳瞎自己的眼睛”，并要求发动机成本在12个月内，从200万美元降到20万美元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_800c960a598948ba89fd591b0dfc08d5@000000_oswg319783oswg1080oswg1039_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了物理学，马斯克真正关心的东西似乎只有成本。SpaceX真正的创举是改变了航天器的生产流程，用生产汽车的方式生产火箭。</p>
-<p>马斯克提出过一个名为“<strong>白痴指数</strong>”的概念，即工业品生产成本与原材料成本的比值。比如一个零部件的总成本为1000美元，而原材料铝的成本只有100元，那么白痴指数就高达10，意味着生产环节创造了过多的成本。</p>
-<p>SpaceX出现前，火箭的整体成本比碳纤维、金属、燃料这些原材料成本高出了足足50倍，白痴指数爆表。星舰项目启动时，马斯克强迫SpaceX的财务分析师在一夜之间找出20个白痴指数最高的零部件，比如泵和整流罩，并制定目标，尽可能减少加工工序。</p>
-<p>按照马斯克的说法：“如果你做的东西白痴指数很高，那你就是个白痴。”</p>
-<p>一直以来，马斯克解决成本问题的思路是“用成本最高的方法降低成本”，十个会计需要花一个月算好的账，会招二十个程序员编写一套程序，把算账流程自动化，这样一天就能算完了。这也是为什么马斯克会说，“与设计一家工厂所需的脑力劳动相比，设计车的脑力劳动不值一提。”</p>
-<p>从生产Model 3的超级工厂到SpaceX的星舰，这套思路无往不利。</p>
-<p>SpaceX在火箭生产中引入了一项<strong>摩擦搅拌焊接(friction stir welding)</strong>技术，这项技术的核心是借助高速旋转的机头摩擦金属板连接处，让晶状结构融合在一起。</p>
-<p>由于焊接会改变金属板材的受力性能，航天公司一般采用铆钉等紧固件提供支撑，代价是限制了金属板材的尺寸。SpaceX第一次将摩擦搅拌焊接应用于火箭箭体这类庞然大物，不仅焊缝更坚固，也能使用更轻的合金，让猎鹰火箭一举减重数百磅。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_351aa842471c46e8b01db848d43cd44a@000000_oswg1501446oswg1041oswg782_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">四个铝制圆顶由摩擦搅拌焊接技术焊接而成</p>
-<p>与大多数航天器制造商不同，SpaceX的核心工厂设在了公司总部里面，所有火箭、飞船的核心零部件都在这里生产组装。在工厂最中间，各种巨大的焊接施工区域之间，有一栋三层楼高的透明办公楼，是火箭工程师的办公室。</p>
-<p>这就是SpaceX推行的“垂直集成”生产方案，设计者和制造者能一同工作，新想法能快速落地，产线问题能立即解决。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_9f286e452f614fc29e84a52f163ff57a@000000_oswg1099265oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">SpaceX的太空工厂</p>
-<p>基于这套方法，SpaceX自己完成了80%～90%的制造工作——包括火箭、发动机和关键电子设备。SpaceX的所有技术经理都必须去生产一线，包括马斯克本人。</p>
-<p>这种对生产流程极端的掌控是提高效率的关键，特斯拉曾将其称为“<strong>来到红灯前</strong>”。特斯拉的首席设计师冯·霍兹豪森曾说：“我们要培养出一群像工程师一样思考的设计师，再培养出一群像设计师一样思考的工程师。”</p>
-<p>到2022年感恩节，星舰工厂里已经每天能造出超过一台猛禽发动机，整个生产过程几乎就像配装汽车一样便捷流畅。</p>
-<p>在突破工程难题的同时，SpaceX颠覆了太空产业传统的成本结构。就连NASA也承认[8]：“我们确实认识到需要降低成本，并认为商业合作伙伴在这方面做得比我们更出色。”</p>
-<h2><strong>看得见的手</strong></h2>
-<p>《马斯克传》中记载，SpaceX的工程师曾向马斯克解释火箭发射面临的安全审查的行政要求，以及发射许可审批的复杂。</p>
-<p>这让马斯克怒不可遏，表示自己为人类登陆火星殚精竭虑，但到头来“还得操心这些破事”。紧接着，马斯克说了一段富有哲理的话：</p>
-<p>“文明就是这样衰落的，因为他们放弃了冒险。当他们放弃了冒险事业，文明的动脉就会硬化。”</p>
-<p>在SpaceX的故事里，NASA似乎一直扮演着电影中经典的反派角色：低效、官僚，频繁动用行政力量阻碍市场化的手段创新。但实际情况是，NASA是SpaceX最重要的支持者之一。</p>
-<p>航天飞机计划终止后，为了削减成本，美国政府开始支持私人航天企业。SpaceX最初的订单，就由NASA和DARPA提供。DARPA高层曾盛赞马斯克：有远见的人有很多，但既有远见还懂火箭的只有马斯克。</p>
-<p>SpaceX的成长过程中，看得见的手始终如影随形。</p>
-<p>NASA向SpaceX 提供了技术转让，包括开放技术资料、派驻技术人员、转让专利、提供研发设备与试验场地等。美国现行的《国家航天政策》中明文写着，要通过采购政策、体制创新来推动商业航天的发展。</p>
-<p>相比商业公司订单和有限的个人投资，政府订单才是SpaceX运营的支柱。SpaceX从美国政府得到的各类项目经费高达80多亿美元，其中NASA提供了约72亿美元，空军提供约9.6亿美元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_c461275ae138427da33d379b20ef1114@000000_oswg164530oswg1080oswg1027_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>SpaceX的成功从不是单打独斗。每一个高举自由市场大旗的经济体都无比清楚市场的优点和缺陷，然后对其善加利用。</p>
-<h2><strong>尾声</strong></h2>
-<p>猎鹰重型火箭首次发射时，装载了一辆特斯拉跑车做载荷试验。发射很成功，马斯克乐观地预计，这辆跑车能在地球与火星之间的轨道上漂流上亿年。</p>
-<p>“最后，它会极端的接近火星，有那么一点点的机会、极其渺茫的希望，可能落到火星上。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_e34eeb7142bf438cb716ed6a01298003@000000_oswg803389oswg1080oswg742_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">宇宙漂流的特斯拉跑车，一块电路板上写着“Made on Earth by humans”</p>
-<p>许多SpaceX工程师进入太空行业是受一本1998年出版的书鼓舞，《火箭小子（Rocket Boys）》。作者Homer Hickam曾担任NASA工程师，负责宇航员培训，参与过哈勃太空望远镜的维修任务。</p>
-<p>这本书在出版第二年被改编成电影《十月的天空》，讲述了Homer Hickam作为一个煤矿工人的孩子，如何对太空探索产生兴趣，在家乡小镇试射了31枚“自研”火箭，之后在全国科技博览会夺魁。</p>
-<p>电影里有一段对白，发生在Homer Hickam和朋友们发生争执，准备放弃比赛期间。</p>
-<p>主角的朋友问：老实说，我们这群煤矿来的小子赢得科学展的几率到底有多高？</p>
-<p>主角说：百万分之一吧。</p>
-<p>朋友说：这么高？怎么不早说。</p>
-<p>科技的进步有很多原因。其中一个重要原因是，总有一些人把百万分之一的概率当作值得毕生去追寻的理由。</p>
-<h3><strong>参考资料</strong></h3>
-<p>[1] SpaceX and the categorical imperative to achieve low launch cost，Space News</p>
-<p>[2] Elon Musk: “Why the US Can Beat China”，SpaceX</p>
-<p>[3] How SpaceX Reinvented The Rocket Engine!, The Space Race Youtube</p>
-<p>[4] 埃隆·马斯克传，沃尔特·艾萨克森</p>
-<p>[5] 硅谷钢铁侠：埃隆·马斯克的冒险人生，阿什利·万斯</p>
-<p>[6] 美国重复使用运载火箭发展分析，胡冬生</p>
-<p>[7] SpaceX 发展之路：互联网模式下的商业航天，盛英华</p>
-<p>[8] How the Rise of SpaceX Is Reshaping NASA，WSJ Youtube</p>
-<p>[9] 可重复使用航天器是怎样降落的，中国航天</p>
-<p>[10] 美国太空探索技术公司供应商管理方法及可借鉴之处，中国航天标准化研究所袁硕</p>
-<p>[11] 美国太空探索技术公司成本控制分析，中国航天科技集团有限公司魏鸣</p>
-<p>[12] Why Is The U.S. Space Industry So Obsessed With Vertical Integration?，Garrett Reim</p>
-<p>[13] 火箭复用的颠覆式创新，SpaceX如何做到的，知识分子</p>
-<p>[14] 领跑太空2.0时代，美国商业航天发展综述，蒿旭</p>
-<p>[15] SpaceX是怎样长大的：政府支持对太空探索技术公司成长影响分析，杨开</p>
-<p>[16] How to Solve Big Problems: Bespoke Versus Platform Strategies, Bent Flyvbjerg</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwMDY2NTgwMA==&amp;mid=2247521267&amp;idx=1&amp;sn=4be0fd8eda126f03717f6f5dc14c6df6&amp;chksm=971d280cff43ba5bf1c894f307d24c293dc9ced744a3284810ecc150f88e3d24ee6d965f3c9a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“远川研究所”（ID：caijingyanjiu）</a>，作者：任彤瑶，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2995625250238344</guid><pubDate>Thu, 17 Oct 2024 09:21:00 +0800</pubDate></item><item><title>为什么「薄肌」成了新的精致身材审美？</title><link>https://36kr.com/p/2995603981528965</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>相比起「白幼瘦」和「肌肥大」，「薄肌」已经成为了新的高级感审美。</strong></p>
-<p>这要求线条美、力量感缺一不可，也要求健身房或户外为背景的生活感，<strong>「#薄肌」这一tag，已经成为了颇有含金量的自我介绍，成为正在被年轻人追求的健康美。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_df2d1148876240f39064609ed0f86fe4@000000_oswg310922oswg1080oswg1415_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">源自小红书博主：震忙忙</p>
-<p>因此，「#薄肌」这一自带高光的标签令人趋之若鹜，在户外凹造型、打灯光，再使用美图秀秀快捷键达成这一成就的也不在少数。但如果深挖，这与「薄肌」背后的内核似乎背道而驰。</p>
-<p><strong>完美身材背后隐藏的强自律、好精力，才是「薄肌」成为社交圈内人气王真正原因。</strong></p>
-<p>职场生活的忙碌让班味如影随形，将生活和工作分出界限，规律健身是当下少有的奢饰品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_2618235551e24043832116b57cd5b3e6@000000_oswg32939oswg1080oswg835_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>保持良好的身材意味着能够持续合理规划时间和精力，<strong>「薄肌」是对生活具备掌控感的外显体现</strong>。</p>
-<p>这也引发了众多年轻人希望能够被贴上「薄肌」标签，掌握优先社交主动权的想法。</p>
-<p>落在实践层面，相比起侧看似平板的「白幼瘦」、穿衣极显壮的「脂包肌」，<strong>有线条、有力量又显瘦的「薄肌」身材需要更全面的生活方式干预思路</strong>。</p>
-<p><strong>「减脂增肌」是成为「薄肌」的核心原则。</strong>在训练、饮食和睡眠中需要找到一个微妙的平衡点，才能克服看上去难以同时实现的减脂和增肌。<strong>对基线体脂的裁定（偏重减脂/增肌）是在制造热量缺口时的先决条件。</strong></p>
-<p><strong>以形塑为目标，逐步实践健康生活方式，才是「薄肌」成为新精致身材审美的内涵。</strong></p>
-<h2><strong>薄肌是当下更高级的社交标签</strong></h2>
-<p><strong>「#薄肌」在社交圈，逐渐成为了硬通货。</strong></p>
-<p>在壮和瘦弱之间，「薄肌」找到了一个符合大部分人审美的平衡点。</p>
-<p>与薄薄一片的「白幼瘦」相比，薄肌女孩虽然看上去纤细，实则紧致有劲儿，精神饱满。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_a32de5e8e6dd4303b21dfafd57f9154f@000000_oswg366828oswg1080oswg1478_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：小红书博主 爱运动的可达鸭</p>
-<p>社交媒体的营业基调也从精致式名媛打卡，转变成了更为接地气的户外运动风。不惧于露出腿上的肌肉线条，正展肱二头肌，大方肆意的笑容......在文案的最后打上一个「#薄肌」标签。</p>
-<p><strong>「薄肌女孩」溢出屏幕的健康和自由更容易感染到观众，社交平台从「网感」到「生活感」的风向转变，也标明了宽肩、细腰、肉腿成为了大众追求的健康美。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_9c8ef045fdd644b2af96491958b5e920@000000_oswg125489oswg1080oswg1423_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>男性的身材焦虑隐藏于更深层次的忧虑下，刻板印象背后的身材选择并不多：细胳膊晃荡在宽大的袖口里免不了被叫一声「细狗」；大块肌肉往往劝退异性；脂包肌更是直接被定义为胖子。</p>
-<p><strong>在「健身成为男人最好的医美」的号召下，清冷感和少年感逐渐成为了过去，宽肩窄腰和薄肌成为了众望所归。</strong></p>
-<p>基于常规肌肥大训练，由于饮食不得当、训练方案偏差或是自身身材天赋等原因，脂包肌身材似乎成为浅尝健身后更为常见的结果。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_1986c4ac3a214720952b6ebd8977d802@000000_oswg97450oswg1080oswg1465_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：小红书博主 爱运动的可达鸭</p>
-<p><strong>薄肌为男性提供了除肌肥大外的训练新思路：肌耐力替代爆发力成为主要训练目标。</strong>对身材的要求也更精细了：除了宽肩、窄腰、有腹肌这几个必要特点外，薄肌还强调肌肉线条的流畅和拉丝效果。</p>
-<p><strong>社交平台上，薄肌vs厚肌的争论常新常有，不论是异性视角，还是男性对自身的审美偏好，往往薄肌占了上风。</strong></p>
-<p>各抒己见的评论区，更是将「适度健身吸引异性、过度健身吸引同性」这一健身圈名言印证到极致。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_eda0b8d1ca6048a8887d8765be6a03ed@000000_oswg17931oswg1080oswg405_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>薄肌反映在脸上，甚至会被认为是顶级精英的面相。</strong></p>
-<p>实现「薄肌」面相的唯一方式是：在长期的有氧和无氧联合训练下，保持规律的健康饮食和睡眠习惯。<strong>其背后代表了高度洁净健康的生活习惯、充沛的精力和自控力，以及相对可控的休闲时间。</strong></p>
-<p><strong>审美偏好逐步开放化，「纯瘦」或「大肌肉」哪一个极端都不再是主流，而「薄肌」拥有了优先社交主动权。</strong></p>
-<h2><strong>隐藏在薄肌背后的社交加分项，强自律、好精力</strong></h2>
-<p><strong>需要明确的是，「薄肌」绝不是仅在审美观感上占尽上风。隐藏在薄肌背后的社交加分项是自律，以及延展于工作、生活中的好精力。</strong></p>
-<p>Perita热爱在攀岩中自动降噪、专注动作的感受，日常在健身房进行臂力、抓握力的训练。掩于衣服下的薄肌，是她长年累月去训练、去攀岩的证明。</p>
-<p>自带北大才女光环的Perita，还平衡着博士学习、兼职工作以及生活。节奏紧凑的生活需要每日自律的规划和精英般的超能力，<strong>薄肌似乎是她的铠甲，守护着健康、充沛着精力。</strong>即便需要多线处理工作，依旧气血充足、注意力时刻专注。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_0f97741159854d6da22458959902fd40@000000_oswg169679oswg1080oswg1442_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>好身材赋予的健康美，与规律的健身运动生活方式、多任务下精力分配游刃有余的精英感形成了强烈反差。</strong></p>
-<p>经得住职场/学业压力、拒绝得了深夜烧烤啤酒、早起去健身房日复一日的训练......这一系列稳、定、静的操作让每时每刻精神面貌焕发的「薄肌」人成为了令人敬佩的群体。</p>
-<p>也正因为极难做到自律和精力管理，「薄肌」人身上被投射了期许。<strong>人们倾向于寻找这类人潜意识里规正自己的行为，继而被监督，被成就。</strong></p>
-<p>而一些迷思也降临在了社交平台中。</p>
-<p>越来越多的人选择贴近薄肌身材到底是为了迎合这一轮的审美趋势还是有真正的健康需求？</p>
-<p>意图在社交圈中被打造「自由成风」、「挥洒肆意」的形象，在户外凹着造型拍照赶时髦是否才是真正的出发点。</p>
-<p>亦是为了享受「薄肌」光环的红利，选择在美图秀秀中，一站式的P出「腹肌、胸肌、人鱼线」，用加工过的照片去吸睛。</p>
-<p>一次再一次地打开社交平台，不断检查浏览和点赞量是否创了新高。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_e1965ab95bb84e41ab9b532acf4cb276@000000_oswg132258oswg1080oswg280_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">美图秀秀线条功能</p>
-<p>或是认为训练后会增加维度，直接选择瘦出线条等选择都是想通过捷径成为朋友圈中的「薄肌」。<strong>这些浮于表面的行为，与「薄肌」能成为社交中心的内核背道而驰。</strong></p>
-<h2><strong>薄肌，和减脂增肌紧密相连</strong></h2>
-<p><strong>薄肌身材的前提是在增加肌肉的同时，满足相对较低的体脂率，</strong>平均来说，男性体脂率在13-18%，女性在20%左右。</p>
-<p>但增肌需要热量盈余，而减脂需要能量缺口，乍一看两者似乎无法共存。但由于增肌的机制是蛋白质合成、减脂是消耗脂肪，两者的代谢并不是同一个路径，所以是可行的。本质上，我们在给身体一种新的刺激。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_367cfe355f814cfabfbe658436ae7453@000000_oswg53822oswg720oswg702_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>想要「薄肌」，需要在自然健身、睡眠和饮食中寻找到一个微妙的平衡。</strong></p>
-<p>训练上来说，在小维度下，雕刻训练痕迹需要力量训练和有氧运动同步进行。</p>
-<p>根据NCSA和ACSM的推荐，主流建议是8-12RM适合增肌，每周3-5次训练专注于肌肉质量和线条的打造。加入每周3次，每次30min慢跑、游泳、骑行等有氧运动帮助脂肪燃烧。</p>
-<p><strong>在进行热量调整之前，需要先裁定个体是更偏重增肌vs偏重减脂。</strong>划分标准为：男性体脂8-12%；女性体脂18-22%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_aaceb6f259154d9686a90f0c62310436@000000_oswg68794oswg1080oswg630_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>一旦低于以上标准，认定为偏重增肌，反之偏重减脂。<strong>前者需要在平衡热量上增加100-500大卡，而后者则需要减少100-500大卡。</strong></p>
-<p>切记热量调整的幅度不可以过大，身体是灵敏的仪器，会对热量变化产生代谢适应。逐步调整热量，保持耐心，更有利于减少身体的反抗。</p>
-<p>蛋白质作为肌肉合成的原料，推荐摄入1.4-2g/kg/天，以体重50kg为例，蛋白质摄入量可以达到100g/天。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_750f653ee40f40eaaf7fbbf7a918f6b3@000000_oswg39486oswg720oswg466_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而单餐，身体能用于肌蛋白合成的蛋白质是有限的，<strong>均匀的分餐摄入，更有利于肌肉的合成</strong>。例如：如果机体一天推荐摄入蛋白质90克，每餐摄入蛋白质30g为宜。</p>
-<p>蛋白质永远不能替代碳水，每天机体摄入碳水需要达到130g或3g/kg。</p>
-<p>肌肉的增长和恢复需要充足的睡眠，确保每晚7小时的高质量睡眠是练出薄肌路上的必要举措。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU1NjYyMjI1Nw==&amp;mid=2247574457&amp;idx=1&amp;sn=8c28beec08e875a74f99b17ea025cebd&amp;chksm=fad11d0aa7bb20a3315183ea808f2e0aa62eae61c1405827b41f6ad2d7f1675757b51b4441c1&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“精练GymSquare”（ID：GymSquare）</a>，作者：Vicky，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2995603981528965</guid><pubDate>Thu, 17 Oct 2024 09:21:00 +0800</pubDate></item><item><title>两款全新 SUV，谁会成为比亚迪冲击高端的爆款？</title><link>https://36kr.com/p/2995601271762566</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 17 Oct 2024 10:00:40 +0800</lastBuildDate><pubDate>Thu, 17 Oct 2024 10:00:40 +0800</pubDate><item><title>两款全新 SUV，谁会成为比亚迪冲击高端的爆款？</title><link>https://36kr.com/p/2995601271762566</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>最近 2 个月，比亚迪真的杀疯了，8 月、9 月不断刷新纪录，如今已经达到了 41 万辆的大关，相比在纯电 SUV 市场，断崖式领先的 Model Y，比亚迪做到了厂商层面的断崖式领先。</p>
 <p>基本相当于第三名和第四名的总和，开启“ 心流 ”模式后，关于谁能超越比亚迪的期盼，也变成了谁能成为下个比亚迪的“ 妥协 ”。</p>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_03d06e998380443787e45f3cd8e368eb@000000_oswg155238oswg1067oswg2293_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
@@ -535,4 +340,70 @@
 <p><strong>投资方观点：</strong></p>
 <p><strong>启迪之星浙东南创新中心负责人姚琳玲表示</strong>：浙江作为国内E-Bike产业集群地之一，已诞生了久祺股份（300994）、URTOPIA、Aventon、Onemile等多家两轮E-Bike细分赛道的头部公司。大舆科技核心团队来自国内某共享电动车头部企业，拥有外观造型、车架结构、塑件结构、三电系统完整的设计开发体系和丰富的设计经验。相信大舆科技会迅速成长为Car-Ebike这一细分赛道的头部玩家。</p>
 <p><strong>木识资本合伙人张宸铭表示：</strong>虽然近两年E-Bike市场的增长态势有所放缓，市场去库存的压力较大。但我们同时看到，两轮E-Bike红海市场的中小玩家，正在被市场逐渐出清。两轮E-Bike头部企业，仍然受到资本市场青睐。2022、2023年先后有6家两轮E-Bike企业获得千万级的融资，其中3家2024年再次获得数千万级的融资，他们共同的特点是在各自细分赛道上进行了大胆创新。大舆科技所深耕的Car-Ebike赛道，目前国内还没有竞争对手出现，海外竞品也尚在成长阶段，面对庞大的全球Car-Ebike蓝海市场，未来可期。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2949325127884930</guid><pubDate>Thu, 17 Oct 2024 09:30:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2949325127884930</guid><pubDate>Thu, 17 Oct 2024 09:30:00 +0800</pubDate></item><item><title>慢下来的迈瑞医疗</title><link>https://36kr.com/p/2995811196776064</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2><strong>双20%增速不保</strong></h2>
+<p>一直保持业绩快速增长的迈瑞医疗，正在慢下来。</p>
+<p>2024年上半年，迈瑞医疗实现营业收入205.31亿元，同比增长11.12%；实现归母净利润75.61亿元，同比增长17.37%，扣非净利润为73.80亿元，同比增长16.39%。其中，2024年第二季度，公司实现营业收入111.58亿元，同比增长10.35%，实现归母净利润44.01亿元，较上年同期增长13.69%。</p>
+<p>尽管公司营收和归母净利润依旧维持双位数增长，但相比往年来说迈瑞医疗上半年业绩增速放缓明显。数据显示，2016年-2022年期间，迈瑞医疗连续7年保持了营收、净利润“双20%+”增长态势，过于稳定的业绩一度让公司遭到“调节财务指标”的质疑。</p>
+<p>2023年上半年，迈瑞医疗营收、净利润增速分别为20.32%、21.83%，这也是迈瑞医疗最后一次交出“双20%+”的成绩单。进入到2023年下半年，迈瑞医疗营收增速明显放缓。自2023年第三季度以来，迈瑞医疗营收增速已经连续4个季度保持在10%上下。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_9a8fbbc28e054a1498635f46e15ff1c4@000000_oswg5512oswg784oswg244_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从营收构成上看，迈瑞医疗主营业务共分为生命信息与支持、体外诊断以及医学影像三部分。今年上半年，迈瑞医疗生命信息与支持业务实现营收80.09亿元，同比减少7.59%；体外诊断业务实现营收76.58亿元，同比增长28.16%；医学影像业务实现营收42.74亿元，同比增长15.49%。</p>
+<p>不难看出，作为公司第一大营收来源的生命信息与支持业务上半年营收出现了高个位数的缩水，成为迈瑞医疗营收增速下滑的关键。对此，迈瑞医疗在半年报中表示，由于医疗行业整顿和医疗设备更新项目导致了今年上半年招标采购活动持续推迟，使得该业务线承担了较大的压力。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_efeda5640e6644e4a679c85caded1370@000000_oswg41862oswg1056oswg349_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>未能落地的利好</strong></h2>
+<p>回头来看，外部政策冲击成为迈瑞医疗营收降速的一个主要原因。其中，始于2023年7月的医疗反腐风暴直接导致了部分医疗设备招投标活动的推迟，这导致迈瑞医疗生命信息与支持以及医学影像两大业务均受到冲击，其中医学影像业务2023年度营收增速更是降至个位数区间。</p>
+<p>进入到2024年以来，医疗行业整顿对迈瑞医疗的影响依然存在，并导致公司生命信息与支持类业务线营收出现了罕见的下滑。数据显示，2017年-2023年，迈瑞医疗生命信息与支持类业务营收增速均高于11%，七年复合增长率高达20.12%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_295d1e5de2e94a0eb787bd6d8040c15a@000000_oswg110592oswg990oswg526_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>值得一提的是，医疗设备更新政策的推出一度被视为可以对冲行业反腐的利好消息。但从上半年实际情况来看，医疗设备改造更新政策非但没有对国内医疗设备市场起到推动作用，反而导致部分设备的招标进度出现推迟，一定程度上是在“帮倒忙”。</p>
+<p>今年3月，国务院印发的《推动大规模设备更新和消费品以旧换新行动方案》中指出，到2027年，工业、农业、建筑、交通、教育、文旅、医疗等领域设备投资规模较2023年增长25%以上。在医疗方面，政策鼓励具备条件的医疗机构加快医学影像、放射治疗、远程诊疗、手术机器人等医疗装备更新改造。</p>
+<p>不难看出，如果上述医疗更新政策能够真正落地，将对迈瑞医疗生命信息与支持以及医学影像两大业务起到明显的提振作用。然而，受制于地方财政支出压力以及全国卫生健康实际支出的萎缩，上半年医疗设备改造更新需求释放并不理想。据国信证券统计数据，<strong>今年上半年全国医疗设备中标总金额为520亿元，同比降幅高达35%。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_f437db5633ee44328c0872430324cd23@000000_oswg206631oswg1056oswg712_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除了生命信息与支持类产品之外，迈瑞医疗医学影像业务同样受到了行业整顿和医疗设备更新项目的影响。不过，由于去年所推出的国产首款超高端超声平台Resona A20出现放量，上半年迈瑞医疗医学影像业务实现了15.49%的同比增长，其中超声高端及以上型号增长超过40%。</p>
+<p>不过，迈瑞医对于医疗设备更新政策未来前景仍抱有信心。据公司统计，截至报告期末，国内医疗新基建待释放的市场空间进一步提升至240亿元以上。因此，积压的采购需求总量并未受到影响，推迟的采购项目未来仍将全部释放。</p>
+<p>另外，在半年报业绩沟通会中，迈瑞医疗提到未来业绩指引时表示，虽然公司的业绩增长短期受到了外部环境变化的影响，但这个影响对大部分厂家都是存在的，公司积极应对环境变化，反而在不断提升市场份额。基于当前的局势判断，公司依旧有很强的信心能够按照既定的规划，<strong>最晚在2025年成功实现全球医疗器械TOP20的目标。</strong></p>
+<h2><strong>剑指全球医疗器械TOP20</strong></h2>
+<p>2021年，迈瑞医疗创始人李西廷首次提出迈瑞医疗要用“五至十年进入全球市场前20名，用更长的时间进入前10名”的战略规划，并强调“迈瑞将率先成为世界级的医疗器械公司”。根据Medical design and outsourcing所发布的全球医疗器械公司100强榜单，2020年-2022年，迈瑞医疗排名分别为第36位、第31位和第27位，名次逐年提升。</p>
+<p>根据最新数据，在2024年全球医疗科技百强榜中，2023年迈瑞医疗以42.89亿美元的销售额排名27位，距离第20名的富士胶片（69.4亿美元）还有26.51亿美元的差距。显然，想用两年的时间去追上这一差距，对迈瑞医疗来说应该是一个不小的挑战。</p>
+<p>不过，根据迈瑞医疗年报数据，迈瑞医疗2023年营收为349亿元，折合美元后金额应该是49亿美元。由此计算，迈瑞医疗与富士胶片的销售额差距应该是20亿美元，折合成人民币约为140亿元。因此，如果迈瑞医疗2024年-2025年营收增速达到20%，大概率可以追平富士胶片2023年度营收额。</p>
+<p>体外诊断业务的高速增长应该是迈瑞医疗剑指全球医疗器械TOP20的一个信心所在。与设备类业务不同的是，试剂等耗材类业务并没有受到招标推迟的影响。相反，在门诊、手术等诊疗需求的持续增长下，试剂等耗材类业务增长态势良好。今年上半年，迈瑞医疗体外诊断业务实现营收76.58亿元，同比增长28.16%，其中化学发光业务增长超过了30%。</p>
+<p>分区域看，迈瑞医疗国内体外诊断业务上半年增长超过了25%。其中，国内血球业务上半年增长超过30%，进一步巩固了公司国内血球市场第一的地位。海外市场方面，由于DiaSys的并购整合进展顺利，迈瑞医疗上半年成功突破了超过60家海外第三方连锁实验室，并完成了首条MT 8000流水线的装机，推动国际体外诊断业务上半年增长超过了30%。</p>
+<p>事实上，从2024年上半年整体情况来看，迈瑞医疗国内市场营收增幅仅为7.2%，境外市场营收增幅则高达18.1%，海外市场营收占比已经达到38.51%。因此，全球化战略的稳步推进将成为推动迈瑞医疗全球排名提升的另一个关键点。</p>
+<p>除此之外，外延式并购则是决定迈瑞医疗全年排名能否进一步提高的第三个关键点。从行业属性来看，医疗器械行业细分赛道众多，并且不同赛道之间的技术和渠道协同性相对有限。因此，利用外延式收购进入新赛道已经成为美敦力、雅培等医疗器械龙头企业快速做大做强的必经之路。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_186ef2716b5d4070bf51473e9efa9483@000000_oswg183550oswg1060oswg582_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>自从2008年以来，迈瑞医疗就开启了全球并购之路，并购成为支撑公司快速发展的一个关键环节。2024年1月，迈瑞医疗通过“协议转让+表决权”的方式耗资66亿元实现了对科创板上市公司惠泰医疗控制权的收购，将主营业务快速覆盖到心血管领域这一细分赛道。在2024年半年报中，迈瑞医疗首次单独披露了公司电生理与血管介入类产品营收数据（3.74亿元），收入占比约为1.82%。</p>
+<p>当然，迈瑞医疗更大的信心更是来自于医疗器械巨大的市场空间。据弗若斯特沙利文数据，2023年全球医疗器械市场规模约为6000亿美元，而同期迈瑞医疗的全球营收仅为49亿美元，占比尚不足1%。</p>
+<p>显然，与海康威视、格力电器等茅指数企业不同的是，迈瑞医疗未来很长的时间都不会面临到市占率的天花板压力。未来，公司不仅可以抓住国产替代、渗透率提升的机会，同时也可以通过并购进行品类扩张，并通过国际化布局寻求更大的增量空间。当然，能否在2025年实现全球医疗器械TOP20这一战略目标，还是要看国内推迟的采购项目能否尽快释放以及短期是否会有类似惠泰医疗这种重磅并购的落地。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIyMDMyNTMwMw==&amp;mid=2247627019&amp;idx=1&amp;sn=ac826a78922e38ef515e5a8baaf4df04&amp;chksm=967fe490ae6398f81dce18b9f4b0c0444386cf548222fb082707d16c96c783673670c712cc51&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“砺石商业评论”（ID：libusiness）</a>，作者：李平，编辑：平凡 ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2995811196776064</guid><pubDate>Thu, 17 Oct 2024 09:32:00 +0800</pubDate></item><item><title>水羊股份，美国货能俘获“美羊羊”？</title><link>https://36kr.com/p/2995790289100425</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>谁都爱又便宜又好的货。</p>
+</blockquote>
+<p>“互联网消费品品牌第一股”最新提振业绩的办法是，用美国货打动“美羊羊”们。</p>
+<p>近日，水羊集团股份有限公司（下称，水羊股份）在发布的调研纪要中透露，其刚刚完成了对一家美国美妆品牌的收购签约，预计将在未来两周左右完成交割。按照规划，此前通过收购EDB和PA两个法国品牌，已经打通了欧洲市场线下高端渠道，此次收购美国品牌，可填补其在美国市场的渠道空白，以此建立的全球渠道体系将使得旗下各品牌受益。</p>
+<p>不过，水羊股份未公布标的品牌名称以及收购规模，仅透露了该品牌由整形医生创立、拥有近三十年历史、 高奢定位，主流产品价格在300美元左右，在全球 GMV 水平约7000-8000 万美元，品牌规模与2022年的 EDB相当等信息。</p>
+<p>据悉，皮肤科学正在打破美妆的边界，为企业增长带来更大的想象空间，成为极其不确定性时代下的确定性“风口”。因此，皮肤科医生、整形医生创立的美妆品牌一直是热门收购标的。美国品牌Dr. Dennis Gross Skincare于去年末被资生堂集团收入囊中，在此之前，OBAGI、SkiCeuticals等品牌也都曾易主。</p>
+<p class="image-wrapper"><img data-img-size-val="924,611" src="https://img.36krcdn.com/hsossms/20241017/v2_9c4c3facd2cd43c08a00dc6c4877ff92@5814142_oswg90190oswg924oswg611_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>截至目前，水羊股份已拥有EDB、PA以及此次收购的美国品牌共三个高端美妆品牌，代理西班牙专业医美院线高端品牌美斯蒂克。民生证券分析师认为，预计 2024-2026年其净利润分别为3.01/3.56/4.13亿元，同比增速分别为 2.4%/18.0%/16.0%，对应 PE分别为17X/14X/12X，维持“推荐”评级。</p>
+<h2>01</h2>
+<p>那么，水羊股份收购这家“美国货”到底对其业绩能起到多大提振作用呢？坦率地说，部分券商的判断或许过于乐观。</p>
+<p>公开资料显示，水羊股份原名御家汇，主打的面膜，以电商为主渠道。目前，除拥有御泥坊、小迷糊、大水滴、花瑶花等多个自主护肤品牌外，还与伊菲丹、KIKO等国际品牌合作，同时代理强生集团拆分出的科赴集团旗下李施德林、大宝等品牌。2018年2月8日在A股上市，每股发行价21.23元/股。</p>
+<p>上市后，水羊股份很快摸高60.88元/股（不复权）后，便快速下跌，并随着除权，股价在2020年2月4日跌至6.95元/股，跌幅之大令人咋舌。也从当年4月22日开始，水股份基本维持在11元到28元箱体震荡的横盘整理走势。今年5月9日，水羊股份再度遭遇一波下跌，9月18日股价跌至9元附近。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,555" src="https://img.36krcdn.com/hsossms/20241017/v2_54359be512cf4a79827477f2485d4ba0@5814142_oswg52556oswg1080oswg555_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>水羊股份的业绩也不稳定。2018年上市当年净利润同比就下跌17.53%，2019年净利润仅有两千多万，同比大跌79.17%。2020年和2021年净利润持续回暖，最高至2.36亿元，但2022年净利同比再度近腰斩。2023年又奇迹般同比飙升135.42%，2024年中报净利润同比又下跌25.74%。</p>
+<p>纵观5年以来，水羊股份的净利润未超过3亿元。而且，其销售净利率从未超过7%，2019年时一度只有1.05%。显然，水羊股份的护城河并不宽，盈利能力相当一般。</p>
+<p>2024年半年报数据显示，其营收为22.93亿元，同比仅微增0.14%；净利润却同比下滑了25.7%，仅有1.06亿元，比去年同期减少了3666万元。就这个业绩还是在公允价值变动增加了2467万元的情况下取得。</p>
+<h2>02</h2>
+<p>需要注意的是，今年1月到6月，水羊股份的销售费用高达10.74亿元，同比增加15.86%，较去年同期增加了约1.5亿元。这一规模的销售费用，占同期营业总成本的51%、同期营收的47%，在业内也属于较高水平。</p>
+<p>与销售费用走高形成鲜明对比的是，2024年水羊股份研发费用为3183.64万元，而2023年同期为4592.52万元，显然，水羊股份并不十分重视研发工作。</p>
+<p>另一个容易忽视的是，水羊股份的投资收益出现暴跌。半年报显示，上半年水羊股份因为远期外汇合约到期平仓导致亏损了4253.22万元，拖累了整体净利润。此外，水羊股份还存在2.95亿元商誉，而这个商誉自2022年以来尚未变动过。未来一旦商誉减值，对其业绩也将构成重大影响。</p>
+<p>引起外界关注还有水羊股份对薪资的处理。水羊股份财报显示，今年上半年其关键管理人员的报酬出现了大涨，<strong>从去年同期的281.8万元，涨到了372.8万元，涨幅超过了32%</strong>。而上半年水羊股份的职工薪酬仅为4534.38万元（销售人员薪酬计入销售费用），较去年同期的5533.48万元，同比减少了近1000万元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,628" src="https://img.36krcdn.com/hsossms/20241017/v2_c8b6a47610e24a758535cf3371833946@5814142_oswg86674oswg1080oswg628_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>通过上述细节叠加，或许水羊股份为了提振业绩，想以海外的高奢品牌为引领发力，从而达到扭转目前不利局面的目的。但时间或许并不利于水羊股份。</p>
+<p>国家统计局数据显示，2024年前6个月1%的销售额同比增幅，仅高于2020年、2022年这两个特殊年份，6月份405亿元的化妆品零售额远也低于2022年、2023年的6月份销售额，并且还创下了“-14.6%”这一近七年以来的最低6月降幅。</p>
+<p>简单说，在全球经济低迷的大背景下，化妆品行业难以独善其身。</p>
+<p>2024年以来，多家美妆品牌宣布退出中国市场——已经有21个美妆品牌宣布了闭店或关停运营，其中包含15个外资品牌和6个本土品牌。而且进入2024年以来，包括雅诗兰黛、德国汉高、资生堂、巴斯夫、赢创在内的多个化妆品集团开始了裁员行动。</p>
+<p>欧莱雅首席执行官叶鸿慕（Nicolas Hieronimus）近期还罕见下调全球美妆市场增长预期，从先前预计增长5%调整为4.5%-5%，并将下调原因归结为中国市场的疲软。</p>
+<p>那么，在这种情况下如果押宝美国货大幅提升业绩，显然的确有点勉强。“每日资本论”建议，不妨学习电商平台，多搞搞又便宜又好，或许是现阶段的王道。否则，化妆品企业的想象空间有限。</p>
+<p><strong>【文章只供交流，并非投资建议，请注意投资风险。】</strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwOTUyMjcwNw==&amp;mid=2247497924&amp;idx=1&amp;sn=e9f51ed7d0cafdd9f4c1ad36b1abc5bd&amp;chksm=977021b8a007a8aead0a5cec2556feb6d7de5d8d72447c224f70c66c941aad06c592461708d9&amp;token=1516495347&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“每日N资本论”</a>，作者：白开水的思考，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2995790289100425</guid><pubDate>Thu, 17 Oct 2024 09:32:00 +0800</pubDate></item></channel></rss>
