@@ -1,112 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 19 Oct 2024 12:00:39 +0800</lastBuildDate><pubDate>Sat, 19 Oct 2024 12:00:39 +0800</pubDate><item><title>2024年，每一个大模型都躲不过容嬷嬷和紫薇  | 焦点分析</title><link>https://36kr.com/p/2998747786115458</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>文｜邓咏仪</strong></p>
-<p><strong>编辑｜苏建勋</strong></p>
-<p>连最积极搞AI的李彦宏，在这件事上也迟疑了。</p>
-<p>“百度不碰Sora类的视频生成方向。”李彦宏在近期的2024年Q3总监会上说道。原因在于，10年、20年都可能难以商业化应用。</p>
-<p><strong>从OpenAI Sora横空出世，再到6月的快手可灵全量上线，视频生成成为2024年最火热的AI话题。</strong></p>
-<p>厂商们纷纷开始你追我赶。从4月至今，视频生产模型如同雨后春笋一般——除了快手、字节、阿里等大厂，头部大模型公司如智谱、MiniMax，以及生数科技、智象未来等垂类厂商，均发布了视频生成模型。</p>
-<p>国内视频模型的涌现，也让“容嬷嬷和紫薇”的鬼畜形象再次翻红，她俩活在不同的视频模型demo和网友二创中，考验着不同模型的效果：</p>
-<p><img data-img-size-val="500,262" src="https://img.36krcdn.com/hsossms/20241019/v2_cb6c5dd96cd94a9f868a2240fc228aed@5595930_img_gif?x-oss-process=image/quality,q_80"/></p>
-<p class="img-desc">△图源：可灵，来自公开网络 </p>
-<h4></h4>
-<p><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241019/v2_fc9d9a98b462488381cb474078093476@5595930_img_gif?x-oss-process=image/quality,q_90"/></p>
-<p class="img-desc">△图源：即梦AI，智能涌现制图 </p>
-<h4></h4>
-<p>行业对“超级应用”的渴望溢于言表，甚至影响到了如今大模型的路线——<strong>到底做不做视频大模型，影响国内“大模型六小虎”（智谱、月之暗面、MiniMax、百川智能、阶跃星辰、零一万物）走势的关键决策。</strong></p>
-<p>不过，对于做不做视频模型，国内大模型厂商仍未达成共识，而是分成了截然不同的几派：</p>
-<p><strong>有厂商迅速跟进。</strong>7月，智谱就推出了类Sora的视频生成模型“智谱清影”；8月，MiniMax发布视频模型Video-01。</p>
-<p>而阶跃星辰发布新图像模型，也在今年7月的上海世界人工智能大会上，做了少量的视频生成尝试。</p>
-<p><strong>也有旗帜鲜明的反对者。</strong>“百川不会做Sora。”今年5月，百川智能CEO王小川就在《智能涌现》的专访中就表示。他认为，Sora并不在AGI（通用人工智能），即提升模型智力水平的主线上。</p>
-<p>也有在探索后暂缓的厂商。最受关注的月之暗面，6月被媒体报道在海外试水两个新应用——角色扮演应用Ohai，以及AI音乐/视频生成应用Noisse。据《智能涌现》了解，这两个应用因为效果不达预期，后来并没有被单独立项，停留在试验阶段。</p>
-<p><strong>而在近期的“Kimi探索版”上线后，月之暗面还将发布多模态相关能力。不过，还不确定是否会有视频生成相关功能。</strong></p>
-<p>直到国庆前后，视频生成领域迎来两位重磅玩家：9月24日，字节跳动低调甩出了Seaweed和Pixeldance两款产品。</p>
-<p>而紧接着的10月5日，Meta放出的系列模型Movie Gen，则又一次炸场。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1120" src="https://img.36krcdn.com/hsossms/20241019/v2_36067d0e11cd4007a49406ea60b317d9@5595930_oswg443113oswg1080oswg1120_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图注：2024上半年，全球已涌现了不少视频模型和产品，在中国尤其热闹。</p>
-<p>在语言模型迭代放缓的当下，视频生成模型似乎成了那个更有希望的AI应用新方向——大厂也还没形成垄断。对初创公司而言，这更是一次重要选择——到底要不要做Sora？</p>
-<h2><strong>分叉路，要选哪条？</strong></h2>
-<p>首先需要厘清的一个概念是，大厂、创业公司如今普遍标配的“多模态能力”（图像、语音等模态），以及类Sora的视频生成模型，并不是同样的东西。</p>
-<p>“多模态能力，相当于是让模型能够理解图像、音频、视频等形式，但还是基于大语言模型延伸的能力。”一位大模型从业者对《智能涌现》分析，“将视频、图片、语音输入到大模型里，是基于大语言模型做‘理解’；但生成视频，则是依靠视频模型的能力。”</p>
-<p>“类Sora”产品所依靠的视频生成模型，借鉴了大语言模型（LLM）中Transformer架构等技术思路，但和大语言模型（LLM）是两种不同的事物。</p>
-<p>这意味着，如果要做一个视频生成模型，相当于另起炉灶，从0到1重新搭模型。</p>
-<p><strong>可以肯定的是，要做视频生成模型，当前还注定是少数人的游戏。</strong></p>
-<p>再造一个“Sora”，成本高昂。</p>
-<p>据Meta的数据，Movie Gen用了6144张H100进行训练，视频模型参数达到30B（300亿）。在国内，拥有此等训练资源的厂商，本就不多。</p>
-<p>而眼下，国内大模型厂商基本都已经上齐了多模态能力，至于是否做视频生成方向，还处于摇摆状态。</p>
-<p>对拥有短视频相关业务的大厂，如抖音、快手等，视频生成是不能输的方向。据硅星人报道，对可灵的大力投入，一个重要动力是为了服务于快手的内容生态——2023年，首次在快手发布短视频的创作者就有1.38亿。</p>
-<p>另外，快手做可灵，也意在服务快手的电商生态，比如为MCN、电商商家提供商品相关的AI内容生成服务。</p>
-<p><strong>但对初创玩家来说，在AI应用方向不明朗的当下，大家都在忐忑地摸着石头过河。</strong></p>
-<p>有玩家早早坚定了自己选择的道路。一开始打定不做Sora的百川，在2024年全力落地医疗场景，并推出了自己的医疗AI助手。</p>
-<p>专门做视频生成的垂类厂商，也拿到了阶段性的结果，比如生数科技旗下的Vidu，在8月上线后，两个月内，VIdu的月访问量就已经达到552万。</p>
-<p>但能不能把新故事讲成自己的，还得看各家的真本事。视频生成领域的技术路线尚未收敛，市面上的顶级视频生成模型几乎都选择了闭源。</p>
-<p>这意味着，玩家们需要投入真金白银去试错——选什么技术路线和应用场景，才决定AGI大潮退去后，谁能真正留在岸上。</p>
-<h2><strong>文本太卷，Agent太远，视频生成刚刚好？</strong></h2>
-<p>OpenAI的Sora尚且没有放开使用，为什么视频生成如今成了国内的香饽饽？</p>
-<p>以GPT-4作为参考标杆，国内头部的大模型厂商和大厂，在今年上半年都已慢慢接近GPT-4的水平，在OpenAI后续发布GPT-4o后，厂商也都陆续跟进了多模态能力。</p>
-<p>但GPT-5迟迟未出，意味着在语言模型上，国内大模型的厂商基本难以拉开代际差距。</p>
-<p>另一方面，大模型跑了一年多，其落地和商业化成果还未让市场信服。</p>
-<p>在国内，大部分的AI应用方向都陷入叫好不叫座的困境。细数这两年火过的AI应用方向——ChatBot/情感陪伴等类ChatGPT产品、文生图、AI音乐、AI搜索，都迅速陷入同质化竞争的局面。</p>
-<p>以国内头部的AI应用举例，豆包、Kimi等在今年上半年经历了激烈的投流竞争，用户数最高已达千万级别，但商业化情况并不理想。</p>
-<p>不少从业者认为，应用难以商业化，很大程度要归结到文本模型迭代放缓，能力提升变慢。这也让一些更遥远的，能完成更多复杂任务的方向——比如Agent（智能体），越发模糊。</p>
-<p>《智能涌现》了解到的一个例证是，字节旗下的AI开发平台扣子的Agent业务，在今年就经历了一轮缩减。</p>
-<p>而近期圈内热切讨论的放弃大模型的预训练阶段，意味着不少厂商要走下追求的牌桌，转向AI应用落地，继续活下去。</p>
-<p><strong>厂商们需要新故事，视频生成方向则刚好站在中间点：既有足够技术和开发壁垒，但壁垒不会高到玩家摸不着，前景也足够大。</strong></p>
-<p>“语言模型的商业化就不提了，初创公司至少还要想象力。如果头部初创公司不转其他应用方向，就什么都没有，怎么撑起这么高的估值？”一位从业者直言。</p>
-<p>2023年，不少做视频生成的创业者都对《智能涌现》表示，如今的视频生成领域可类比处在GPT-2到GPT3阶段。这意味着比ChatGPT的效果稍稍略落后，比语言模型所处的发展阶段早很多。</p>
-<p>但Sora发布后，视频生成领域已经看到了GPT-3.5阶段的曙光。“这个阶段意味着，让你看到这个赛道的巨大潜力，市场愿意投入。”一位从业者对《智能涌现》表示。</p>
-<p>共识摇摆的背后，源于赛道仍处发展早期，还有不少探索机会。比如，刚刚发布的Meta Movie Gen。在Transformer架构基础上，使用了Flow Matching（流匹配技术），这就与Sora的路线有很大不同，也意味着整个赛道的技术路线尚未收敛。</p>
-<p>在国内，这个方向上也有得天独厚的短视频生态，视频生成方向的模型探索，也因此站在全球前沿。</p>
-<p>6月爆火的快手视频模型“可灵”，就是典型例子——在大厂中，快手并不是AI人才、资源的制高点，但经历短短数月攻坚，快手可灵仅凭20多人的小团队，硬是在一众大模型厂商中闯出一条路，可灵凭借怀旧照片等一系列策划，热度一度传到大洋彼岸的硅谷。</p>
-<p class="image-wrapper"><img data-img-size-val="1072,1134" src="https://img.36krcdn.com/hsossms/20241019/v2_07b7502546eb4f7a8ce28abca6950b70@5595930_oswg740748oswg1072oswg1134_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△Stability.ai创始人转发可灵产品，评论“中国在AI上有着巨大优势” 来源：X</p>
-<p>并且，视频生成方向还处在早期，算力成本仍处高位，一旦开始商业化，付费已是必选项。</p>
-<p>在海外，视频生成已经走出了不同路线——头部的视频厂商Runway和Pika都专注做B端的生产力工具，Runway甚至已经打入好莱坞，达成了不少影视界的合作。在国内，可灵、Minimax等厂商也早早开始了付费尝试。</p>
-<p>归根结底，很少人愿意错过这个方向。毕竟，视频已经取代文字，成为互联网上流量占比最高的信息内容。据Sandvine《2023全球互联网现象报告》，2022年全球互联网视频服务，就占到总流量的65.93%。</p>
-<p>随着视频生成技术不断成熟，这也许不会只是大厂的游戏。初创公司可以结合技术，以及巧妙的运营手段，快速闯出一条自己的道路。</p>
-<p class="image-wrapper"><img data-img-size-val="420,554" src="https://img.36krcdn.com/hsossms/20241019/v2_6318c209ea26425b93e91bdd2c04e269@5595930_img_gif?x-oss-process=image/quality,q_80"/></p>
-<p class="img-desc">△来源：Pika</p>
-<p>硅谷视频生成明星初创Pika，就摸到了不少流量密码：一出道，就选择先在开发者聚集的Discord运营，并且迅速获得50万用户。</p>
-<p>到了今年10月，Pika新发布的1.5模型中，还带来了更多社交运营玩法：内置了充气、融化、爆炸、捏揉、压扁等模板，引来全球网友“整活儿”，服务器甚至因为涌入的用户太多而崩溃——有网友就不禁回忆起当年：与早期的TikTok冷启动时期如出一辙。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/gGGmeXIVBcv_fN8ER3ycFQ" rel="noopener noreferrer nofollow" target="_blank">“智能涌现”</a>，作者：邓咏仪，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998747786115458</guid><pubDate>Sat, 19 Oct 2024 09:26:00 +0800</pubDate></item><item><title>以AI企业培训平台PETE获新投资，“目标是革新下一代劳动力的学习方式”</title><link>https://36kr.com/p/2998032786225033</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<section>
-<section powered-by="xiumi.us" style='max-width: 100%;box-sizing: border-box;Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;letter-spacing: 0.6217142939567566px;white-space: normal;text-align: right;word-wrap: break-word !important;'>
-<p label="正文" style=""><span style="letter-spacing: 0px;">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU1Mjc4NjM4Mg==&amp;mid=2247571300&amp;idx=1&amp;sn=019b1feb55c39c6c6d0d58446ab88884&amp;chksm=fa110755c5a7fc8b6c5d1dae5eadea5710b11dfdc5d14b6fa1080483e6fe0b7339a1c62ac4ed&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“多知网”（ID：duozhiwang）</a>，作者：王上，36氪经授权发布。</span></p>
-<p label="正文" style=""><span style="letter-spacing: 0px;">近日，部位于美国奥兰多的教育科技创业公司PETE (pete.com)宣布，由查理·刘易斯（Charlie Lewis）创办的BlueWave Investment Partners成为这家新兴创业公司的最新投资方，融资金额未披露。</span></p>
-<p label="正文" style=""><span style="letter-spacing: 0px;"></span></p>
-<p>在今年4月，PETE 已经获得由Cofounders Capital领投的200万美元种子轮融资。</p>
-<p>PETE是一家人工智能教育科技服务提供商，致力于提供一整套经济高效、可定制的解决方案，帮助企业大规模提供个性化的劳动力学习。</p>
-<p>PETE的课程以人工智能驱动，以满足不同的培训需求，包括入职培训、合规培训、产品知识、技术技能等。例如，在入职培训环节，并不是大一统的内容，而是针对不同的人员岗位需求的不同，课程内容也不同。</p>
-<p label="正文" style=""><span style="letter-spacing: 0px;"></span></p>
-</section>
-<section powered-by="xiumi.us" style="white-space: normal;box-sizing: border-box;">
-<p style="text-align: center;"><img class="rich_pages wxw-img" data-backh="300" data-backw="558" data-galleryid="" data-imgfileid="100087646" data-ratio="0.5383333333333333" data-type="gif" data-w="600" src="https://img.36krcdn.com/hsossms/20241018/v2_3dc5f34fc87d47bbbedd0ef1423f78d2@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width: 100%;height: auto;"/></p>
-<p style="text-align: center;"><span style="letter-spacing: 0.034em;">（PETE产品演示）</span></p>
-<p>PETE基于人工智能技术帮助企业构建自己的在线学院，在PETE，企业可以生成培训课程，企业只需要定义课程描述和目标，PETE就会为企业用户生成精心策划的课程，其中包括大纲、笔记和课程内容，其中包含文本、图像、音频和视频内容。</p>
-<p>而培训的内容取决于企业的“输入”，企业提供的背景和独特信息越多，结果就越有针对性和有效性。当企业对内容感到满意时，只需批准并部署到自己的在线学院即可。</p>
-<p>至于培训内容的准确性，PETE认为，企业可以完全掌控着自己PETE账户上生成和发布的内容。同时，PETE平台提供了定制选项和管理员审批功能，为内容创作过程上了一层“双保险”。</p>
-<p>PETE在声明中显示，企业生成的培训内容所有权归企业所有。</p>
-<p>PETE可以说是一个开箱即用的培训部门，配备有主题专家、平面设计师、技术作家、内容编辑和讲师。</p>
-<p>PETE通过一套学习管理系统(LMS)提供内容的无缝托管和分发，并提供一套管理工具来跟踪学员的学习进度。</p>
-<p>PETE致力于革新下一代劳动力的学习方式，愿景是通过先进的技术，使适应、参与和有效的学习成为教育培训中不可或缺的一部分。</p>
-<p>PETE希望帮助成长型公司扩大不同行业的员工培训规模。其合作伙伴客户涉及科技、教育、金融、人力资源、体育、零售、酒店和物流等众多行业。</p>
-<p>PETE的创始人是Jacques Fu，他是奥兰多首家本土金融科技独角兽Stax的联合创始人，PETE的联合创始人为Luis Garcia，他曾是Full Sail 大学新兴技术前副总裁兼在线学位课程的负责人。</p>
-<p style="text-align: center;"><span style="letter-spacing: 0.034em;"><img class="rich_pages wxw-img" data-backh="270" data-backw="558" data-imgfileid="100087643" data-ratio="0.4842592592592593" data-type="png" data-w="1080" height="auto" src="https://img.36krcdn.com/hsossms/20241018/v2_5214e91b61e54b7a8a2df7de1ccb4c9c@000000_oswg291837oswg1080oswg523_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="letter-spacing: 0.578px;text-wrap: wrap;width: 100%;height: auto;" width="2298"/></span></p>
-<p style="text-align: center;"><span style="letter-spacing: 0.034em;">（PETE的团队）</span></p>
-<p>Jacques Fu是美籍华人，是一个连续创业者，曾为美国金融科技企业Stax联合创始人、首席技术官，他的团队建立了一个综合支付平台，每年为22000家企业处理230亿美元的付款，同时通过有机增长和并购将员工人数从1人扩展到400人。</p>
-<p>Jacques Fu关注教育，他曾与妻子Yvonne Fu创办了JASKY基金会，资助解决粮食不安全和教育等挑战性问题。</p>
-<p>Jacques Fu还担任奥兰多开发者协会(Orlando Devs)联合创始人，该协会是一家非营利组织，拥有奥兰多最大的开发者群体，拥有8000多名技术人员。</p>
-<p>PETE于2023年6月正式推出，并迅速成为奥兰多人工智能学习解决方案的头部企业，利用其经济高效的 AI 驱动学习解决方案提供个性化和自适应的培训体验，PETE拥有位于奥兰多的多个客户合作。</p>
-<p>这些伙伴关系反映了奥兰多当地的信心和支持，他们认为PETE是改变劳动力学习和发展的关键角色。</p>
-<p>PETE的联合创始人兼总裁Luis Garcia说：“我们很荣幸得到奥兰多社区的支持，因为我们将继续推动劳动力培训的界限。”“我们从奥兰多市和Orlando City SC等早期客户那里得到的支持，以及BlueWave Investment Partners的投资，表明了对我们产品的信心，反映了奥兰多科技生态系统的潜力。我们很高兴能在这一势头的基础上继续为当地社区的增长和创新做出贡献。”</p>
-<p>BlueWave Investment Partners的创始人Charlie Lewis是奥兰多科技界的活跃人物，他说：“PETE体现了奥兰多科技界的创新、合作和增长。自2014年成立BlueWave Investment Partners以来，我们一直专注于扩展初创企业和支持新企业。PETE是一个优秀的例子，当伟大的想法得到蓬勃发展的生态系统的支持时，一切皆有可能。我很高兴能成为他们旅程的一部分。”</p>
-<p>PETE的另一个投资方Cofounders Capital是一家位于东南亚的投资公司，专门聚焦B2B软件公司的种子轮，此前还投资了学术管理平台TEDU、帮助公司招聘和留住员工的平台EmployUs等。</p>
-<p>随着人工智能技术的快速发展，许多行业和工作都在经历数字化转型。AI技能提升和技能再培训成为组织适应变革的关键。世界经济论坛估计，到2025年，自动化将取代8500万个工作岗位，工人40%的核心技能将发生变化。这意味着员工需要通过技能培训来适应未来的工作需求，而企业培训由此变得更为重要。</p>
-<p>PETE可以说是企业培训领域的一个新兴企业，与传统培训方式不同，PETE融入了AI技术，让企业培训更高效、便捷。这或许也是企业培训行业的趋势。</p>
-</section>
-</section>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998032786225033</guid><pubDate>Sat, 19 Oct 2024 10:24:00 +0800</pubDate></item><item><title>对标特斯拉，这家充电企业暴涨164%</title><link>https://36kr.com/p/2997990287505282</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 19 Oct 2024 12:30:47 +0800</lastBuildDate><pubDate>Sat, 19 Oct 2024 12:30:47 +0800</pubDate><item><title>对标特斯拉，这家充电企业暴涨164%</title><link>https://36kr.com/p/2997990287505282</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p style="margin-bottom: 0px;letter-spacing: 0.578px;text-wrap: wrap;"><span style=""><strong><span style="letter-spacing: 1px;"></span></strong></span></p>
 <p style="margin-bottom: 0px;letter-spacing: 0.578px;text-wrap: wrap;"><span style=""><strong><span style="letter-spacing: 1px;"></span></strong></span></p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI4Mzc0ODQxOQ==&amp;mid=2247751383&amp;idx=1&amp;sn=011ded4e7a38bfcac3906f68d8086d1a&amp;chksm=ea553682f6ef993537d73059865fbcee48ea4565fac7fccdea4b7e6c27ea798abbb340e0d55f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“美股研究社”（ID：meigushe）</a>，作者：美股研究社，36氪经授权发布。</p>
@@ -131,18 +24,18 @@
 <p>因此，对于任何能够开发出流行充电器来为下一代新能源汽车提供动力的人来说，市场显然拥有巨大的潜力。现在，XCHG只需要加强其业务，并证明它可以成为该领域的全球领导者。</p>
 <p style="margin-bottom: 0px;letter-spacing: 0.578px;text-wrap: wrap;"><span style=""><strong><span style="letter-spacing: 1px;"></span></strong></span></p>
 <section style="text-align: center;  "></section>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2997990287505282</guid><pubDate>Sat, 19 Oct 2024 10:26:00 +0800</pubDate></item><item><title>36氪首发｜纬尔科技获数千万元天使轮融资，产品已覆盖大田作业多种场景</title><link>https://36kr.com/p/2997720301072003</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2997990287505282</guid><pubDate>Sat, 19 Oct 2024 10:26:00 +0800</pubDate></item><item><title>36氪首发｜纬尔科技获数千万元A轮融资，产品已覆盖大田作业多种场景</title><link>https://36kr.com/p/2997720301072003</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>作者 | 张子怡</p>
 <p>编辑 | 袁斯来</p>
 <p>36氪获悉，农业精准作业机器人公司「纬尔科技」于近期获得数千万人民币A轮投资，由粤港澳大湾区（广东）国创中心旗下广华资本领投，融资资金将主要用于产品研发和迭代、商业化拓展及团队建设。</p>
 <p>截至目前，纬尔科技已获得三轮融资，累计融资额数千万，历史投资人包括昆仑万维旗下的昆仑资本、李泽湘旗下的清水湾基金、零以创投等。浪潮资本担任长期独家财务顾问。</p>
 <p>纬尔科技自2022年投入运营以来，专注于精准农业领域的发展，主要覆盖大田作业场景，提供专业的农业智能装备、数据分析和决策支持系统，推动农机产业数字化、精准化、高效化和科学化。公司运用在机器人、感知、导航、自动系统等领域的技术积累，从场景最为复杂的大田管理环节为切入点，推出包括棉花智能打顶机器人、智能对行除草机器人、插秧作业质量监测模组在内的多款创新产品，帮助农业生产精准、高效、绿色、安全。</p>
-<p class="image-wrapper"><img data-img-size-val="966,400" src="https://img.36krcdn.com/hsossms/20241018/v2_7cf207fdca4b4e6bac4c247257d27e88@5836910_oswg171670oswg966oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="966,400" src="https://img.36krcdn.com/hsossms/20241018/v2_7cf207fdca4b4e6bac4c247257d27e88@5836910_oswg171670oswg966oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p class="img-desc">图源企业</p>
 <p>中国农业综合机械化率逐年升高，管理环节机械化水平却停滞不前。主要原因在于传统农机无法有效适应作物生长需求和复杂的作业环境。而精准作业为农机提供更高的适应能力和作业精准度，不仅可以解决农机与农艺融合不够的矛盾，还能够提高农田作业效率、降低成本，并最大程度地优化农田管理。</p>
 <p>以棉花种植为例，棉花作为木本植物，一年一种一收。尽管目前棉花种植生产过程中各环节基本实现全程机械化，但棉田管理中的关键环节——棉花打顶，仍以人工操作为主，机械化程度滞后。</p>
 <p>纬尔科技生产的棉花智能打顶机器⼈集成⼈眼识别系统和智能控制系统，能够模拟人工打顶动作。其物理作业方式减少了农药使⽤，降低了残留，同时解决了人工打顶效率低、成本高的问题。</p>
-<p class="image-wrapper"><img data-img-size-val="970,681" src="https://img.36krcdn.com/hsossms/20241018/v2_07247acba1e04957afa9f8ddd9749c6c@5836910_oswg663013oswg970oswg681_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="970,681" src="https://img.36krcdn.com/hsossms/20241018/v2_07247acba1e04957afa9f8ddd9749c6c@5836910_oswg663013oswg970oswg681_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p class="img-desc">图源企业</p>
 <p>农业除草场景方面，目前国内普遍采用化学除草，特殊作物以人工除草为主。但是某些杂草已经对除草剂产生了抗药性，化学物质减缓作物的生长;除草用药量大，偶发要害，底下活土生物减少有机质含量低，同时化学除草严重污染环境，农药残留转移到食物链，威胁食品安全。而人工除草作业效率极低，成本高。</p>
 <p>纬尔科技的智能对行除草机器人专也为大田地块行间除草而设计，采用先进的机器视觉技术，精准识别苗带并自动控制农具的左右偏移，确保物理除草不伤害作物。</p>
@@ -562,4 +455,341 @@
 <p>王柯雅最初对赛博恋爱感兴趣，就是因为看到上高中的侄女因为AI男友“去世”而嚎啕大哭。自己尝试之后，她甚至觉得这也许是和AI男友说再见的最好方式，至少不用失望，可以脑补对方像《泰坦尼克号》里的杰克一样沉入了海底：</p>
 <p>“比突然变成大猪蹄子好。”</p>
 <p>本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247538652&amp;idx=1&amp;sn=e53bfe229e7b00f8f78257841f487b9f&amp;chksm=eb418cf5effb88bbc1135a71e8461104ba4f7a3888915fe0b7dcaa12cfefdb8a5ab66b3f8f49&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“字母榜”（ID：wujicaijing）</a>，作者：毕安娣，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998853715474825</guid><pubDate>Sat, 19 Oct 2024 11:37:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998853715474825</guid><pubDate>Sat, 19 Oct 2024 11:37:00 +0800</pubDate></item><item><title>国产机器人，怎样让手术不再昂贵？</title><link>https://36kr.com/p/2997968228447880</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<section style="text-align: center;margin-bottom: 0px;"></section>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI5MDQxNzE1NQ==&amp;mid=2247507456&amp;idx=1&amp;sn=07c6896dd4d90866b254cbc9cee1c036&amp;chksm=ed6df3a5f16538be9ba3ba58501ec3950573b2ce8c2d25f867b8a2f7a7b7f946462d421934c8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“星海情报局”（ID：junwu2333）</a>，作者：星海老局，36氪经授权发布。</p>
+<p>想象一下，有天手术室里的主刀医生，不再是和蔼可亲的大夫，而是一台冷冰冰的机器人。</p>
+<p>换做你，你会让它帮你手术吗？</p>
+<p>2012年上映的科幻电影《普罗米修斯》中，有这么一段情节：女主角因为某种意外，急需进行手术，这时，一台具有自动化手术功能的医疗舱，以极高的效率，对女主进行了麻醉、消毒、手术、缝合一条龙服务，看着利索极了！</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023705" data-ratio="0.4266666666666667" data-type="png" data-w="600" src="https://img.36krcdn.com/hsossms/20241018/v2_bbfc490ce12c4ab3a7a8725f2fd4210c@000000_oswg186675oswg600oswg256_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.2100219726562px;height:235.99996948242188px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>而现在，这看似科幻的场景，已经部分变成了现实。</p>
+<p>今年9月18日，甘肃省人民医院普外科胃肠病区主任马云涛教授团队詹渭鹏主任，采用国产图迈机器人，仅使用三臂即顺利实施一例高难度机器人辅助胃切除手术。整场手术主时间不到3小时，过程十分顺利。</p>
+<p>可能有人会问：动手术这种要紧的事，让人类医生亲自操刀，不是更放心吗？</p>
+<p>这里的关键就在于：与人类医生相比，手术机器人可以进入人体极小的空间，在毫米级的精度下，完成人类医生难以触及的微创手术。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023707" data-ratio="0.6264800861141012" data-type="png" data-w="929" src="https://img.36krcdn.com/hsossms/20241018/v2_aab437701af444b19f47dee07115e6c1@000000_oswg440835oswg929oswg582_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.6799926757812px;height:346.8699645996094px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>就拿肝脏手术为例，当我们呼吸时，横膈膜上下运动，直接影响肝脏的位置。而且肝脏是一个充满血液的软组织器官，当穿刺针刺入时，它往往会因压力局部变形。就像你用手指按压海绵，周围的部分会凹陷或移位一样。</p>
+<p>想象一下，你的目标不仅会随着呼吸上下移动，还会因为你扎针就变形。更糟糕的是，你还看不清楚目标在哪儿！这就是医生们面临的挑战。</p>
+<p>而手术机器人，就像是给医生装上了“透视眼”和“精准手”。它不仅能精确定位，还能实时引导，甚至能立即评估手术效果。</p>
+<p>更具革命性的是：在某些医疗资源匮乏的地区，它们甚至能通过远程操控，让顶级专家隔着千山万水为你动手术！</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023708" data-ratio="0.6666666666666666" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_805b90c1ce274976beb292790d1601e0@000000_oswg543925oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:552.9400024414062px;height:368.6700134277344px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>然而，这么一种既造福患者，又减轻医生负担的好技术，在很长一段时间里，却长久地被外国企业垄断着，并且因为成本高昂，也往往与真正需要它的普通患者无缘。</p>
+<p>既然如此，那在手术机器人这个赛道上，国产品牌是怎么一步步逆袭的？</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="text-align: center;"></section>
+<h3 label="二级标题" style=""><strong><span style="letter-spacing: 1px;">昂贵的开端 </span></strong></h3>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>国产手术机器人要想逆，要跨过去的第一关，就是成本。</p>
+<p>就拿达目前世界上最顶尖的手术机器人—芬奇手术机器人来说，一台就要花2000到3000万元人民币，而且买了机器还不够，每年还得花150万左右的维护费，除了机器本身，每次手术还需要使用一次性的专用器械。这些器械的成本也相当高昂，每次手术的耗材费用在700美元到3,500美元之间。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+<span style="letter-spacing: 1px;"></span>
+<o:page></o:page>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023706" data-ratio="0.5685714285714286" data-type="png" data-w="700" src="https://img.36krcdn.com/hsossms/20241018/v2_24bff8dd3e694745ad8d2d503428cd65@000000_oswg410317oswg700oswg398_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.739990234375px;height:314.79998779296875px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>问题来了，为什么手术机器人，一开始会那么贵？</p>
+<p>原因就在于，手术机器人身上，高精度的零部件太多了，像什么高分辨率摄像头、灵活的机械臂、先进的传感器等。例如，达芬奇机器人的每个机械臂就价值约50万美元。</p>
+<p>而在制造业领域，一切和“精密”沾边的东西，成本都会蹭蹭低往上涨，因为能够制造、加工这些精密部件的机器（例如数控机床），本身就是昂贵的工业品。</p>
+<p>同时，由于手术机器人目前的应用范围相对有限，主要集中在某些特定的手术类型上。例如在泌尿外科的前列腺癌手术中，由于生产量相对较小，无法实现规模经济，进一步提高了单位成本。</p>
+<p>而且更重要的是，早年手术机器人这行基本上被Intuitive Surgical这种巨头牢牢把控，这些个巨头凭借着先发优势，建立了强大的专利壁垒。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+<span style="letter-spacing: 1px;"></span>
+<o:page></o:page>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023709" data-ratio="0.6248756218905472" data-type="png" data-w="1005" src="https://img.36krcdn.com/hsossms/20241018/v2_9ec9f04541c24f82a1fd5866285c571c@000000_oswg387671oswg1005oswg628_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:552.739990234375px;height:345.4100036621094px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>拿达芬奇手术系统来说，光是他们手上攥的专利，放眼全球，差不多有4000多项，基本上手术机器人里从操作系统到机械臂设计，全被他们包了。你想碰一下？得掏钱！一项专利费用少则几十万美金，多则上百万。</p>
+<p>举个例子，医疗器械巨头美敦力（Medtronic），当年就想开发自己的Hugo手术机器人，但是却被专利拖了后腿，光是绕过专利障碍，就花了他们好几年时间和超过10亿美元的研发费用，这还没算打官司的成本！</p>
+<p>这些高昂的成本，最后都会摊在患者头上。</p>
+<p>虽然手术机器人早已引进国内，但一个普遍的现状是：是因为太贵，很多医院都不敢买，因为怕买了之后没病人来做。就算医院咬牙买了，病人也未必舍得花这个钱。</p>
+<p>为啥？因为现在手术机器人，还不在大部分省市的医保报销目录内。这意味着很多时候，病人都得自掏腰包！</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023710" data-ratio="0.5078125" data-type="png" data-w="640" src="https://img.36krcdn.com/hsossms/20241018/v2_fd07fb6c8cee4db08cfe9ba48f6ccdf7@000000_oswg183916oswg640oswg325_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.6099853515625px;height:281.1400146484375px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>例如，要是做个前列腺手术，原本腹腔镜手术就要4-5万，医保只报销一半，再加上这4.4万的机器费用，病人的负担可就重了。</p>
+<p>而之所以没进医保，主要是因为这东西使用率太低，除了泌尿外科，其他科室用得很少，99%的手术还是传统方式。医保覆盖性价比不高。</p>
+<p>既然如此，面对成本这座“高山”，后来的国内企业，是怎么跨过去的？</p>
+<h3 label="二级标题" style="">转折点</h3>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="text-align: center;"></section>
+<h2 style="text-align: center;"></h2>
+<p>要说国产手术机器人真正开始逆袭，那还得是在2010年代之后，中国企业通过全球化的供应链布局，掌握了核心零部件的技术和制造工艺。并且在高精度传感器和微创工具的领域，逐步形成自主供应能力。</p>
+<p>这其中一个关键的变量，就在于政策支持和研发投入的加大。</p>
+<p>例如在精密加工领域，苏州工业园区形成了精密机械加工集群，为手术机器人零部件提供支持。截至2020年，聚集了超过1000家医疗器械企业，年产值超过500亿元。</p>
+<p>中科院沈阳自动化研究所研发的纳米级力传感器，灵敏度达到了10⁻⁹N，超过了国际同类产品水平。</p>
+<p>这种产学研协同的"国家队模式"，在战略上一个最大的灵活度就在于：政策不仅提供资金支持，更重要的是引导了技术发展方向。</p>
+<p>例如在政策支持下，中国企业能更多地基于本土的各种常见病开发产品。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023712" data-ratio="0.6666666666666666" data-type="png" data-w="750" src="https://img.36krcdn.com/hsossms/20241018/v2_aa20a2798a6d4554957d5e01e3e8f606@000000_oswg462973oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.5399780273438px;height:369.010009765625px;"/>
+</section>
+<p class="img-desc" classname="img-desc" label="图片描述" style=""><span style="letter-spacing: 1px;">国产骨科手术机器人</span></p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>相较之下，达芬奇这些外国品牌的技术路径，往往是先从某些特定的手术类型上。例如在泌尿外科的前列腺癌手术中。</p>
+<p>因为只有这些费用较高的手术，才能抵消昂贵的机器人设备成本。</p>
+<p>但这就形成了一个死循环：倘若手术机器人，永远只能应用在一些有限的病症上，无法形成规模化效应，那其成本又何谈降低？</p>
+<p>达芬奇早期进入手术机器人市场，几乎没有强劲竞争对手，再加上有专利壁垒，因此它可以从容地专注于泌尿外科等单一领域进行深入开发，而不必靠规模降低成本。</p>
+<p>而中国的手术机器人市场起步较晚，如果想快速抢占市场，就不能只专注于一个细分领域，而是要通过多元化布局来扩大影响力和市场占有率。</p>
+<p>况且，中国的医疗需求和国际市场，尤其是和欧美国家很不一样。</p>
+<p>例如，由于饮食习惯、人口结构的不同，肝胆疾病、胃肠道癌症、和骨科疾病在中国非常常见。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023713" data-ratio="0.5555555555555556" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_b17e8b3e0fb84b199d3add0962be1e7b@000000_oswg337554oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:552.6799926757812px;height:307.27001953125px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>这就决定了，中国的手术机器人，注定要和国外品牌走一条很不同的路线。</p>
+<p>而政策的强力引导和支持，也给了中国企业更多创新和试错的空间。</p>
+<p>在这样的产业布局下，中国企业的手术机器人，凭着“借力打力”、“见招拆招”的特点，开始向多个细分领域一起发力，呈现出了各显神通的态势。</p>
+<h3 label="二级标题">另辟蹊径</h3>
+<p label="正文" style="">说到底，这些国产手术机器人企业能突破卡脖子，最大的共同原因就是：他们不像那些传统巨头非要走老路子，而是“土洋结合”，哪有机会，就往哪儿钻。</p>
+<p>例如术锐科技。这家公司有点狠，在骨科手术机器人领域钻研得很深，甚至敢和国际大牌叫板。</p>
+<p>他们的做法，不是搞什么天马行空的黑科技，而是踏踏实实去优化手术的精度和稳定性，搞出了一套叫“内窥镜+3D重建”的技术，让医生能更好地“看清楚”，提高手术的准确性。</p>
+<p>在解决“卡脖子”这点上，他们的策略是“鸡蛋不放一个篮子里”，四处撒网跟国内供应商合作，一起搞替代品。</p>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023714" data-ratio="0.7497656982193065" data-type="png" data-w="1067" src="https://img.36krcdn.com/hsossms/20241018/v2_863b2ce3dec34570a1d8c37bb7f101eb@000000_oswg1220709oswg1067oswg800_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:552.739990234375px;height:414.4100036621094px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>举个例子吧，术锐跟一家专门做微型传感器的国内小厂联手，把某种复杂的进口定位传感器给国产化了。进口货要价十几万一套，他们通过本土化改造，再加点自己的算法调教，硬是把价格压到三分之一还不到。</p>
+<p>而这个优化算法，简单点说，就是通过软件上的误差补偿算法，来弥补传感器硬件上的一些精度不足。</p>
+<p>实际上，这样的战术，在国内的龙头企业中很有代表性。那就是：先找国内那些偏门小厂一起攻关，把进口的东西仿制到八成效果，再用AI、算法之类的优势补齐剩下的两成。</p>
+<p>这套策略，别看好像很简单，但除了砸钱，还需要靠双方在技术上的深度合作和工艺上的不断迭代。</p>
+<p>在国产手术机器人发展的过程中，这种“软硬结合”+“本地攻关”的做法屡试不爽。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023711" data-ratio="0.6028368794326241" data-type="png" data-w="987" src="https://img.36krcdn.com/hsossms/20241018/v2_273a0a5a407e4da89f8e2b69cc1dc49a@000000_oswg227643oswg987oswg595_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.739990234375px;height:333.80999755859375px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>例如天智航的骨科手术机器人，在开发和生产过程中，天智航就采用了国产化率较高的零部件，像什么高精度电机、手术导航传感器，直接找国内的几家专门做工业自动化的公司合作，硬是把精度提升上去了，还减少了对进口部件的依赖。</p>
+<p>与国际竞争对手相比，天智航的产品价格便宜了约30%-40%。</p>
+<p>同样地，微创医疗也是针对胃肠道疾病、肝胆疾病在中国高发的特点，他们跟国内一些专门做医疗器械的厂家一起搞联合攻关，研发了国产的腔镜手术机器人。而且成本比国际竞争对手降低了50%-60%。价格为300-400万元人民币。</p>
+<p>而相较之下，达芬奇手术机器人的价格则为800-1200万元人民币。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+<span style="letter-spacing: 1px;"></span>
+<o:page></o:page>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023717" data-ratio="0.462037037037037" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_ce23d9bc294c4d3cbca564878e496c39@000000_oswg706535oswg1080oswg499_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:552.9400024414062px;height:255.47000122070312px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>同时，这种多领域布局的优势之一，就是能利用共享的技术平台和资源，进一步降低研发和生产成本。</p>
+<p>例如，微创的3D高清视觉系统是为多个手术机器人（腔镜、骨科）项目开发的通用技术，这种集中开发节省了设备研发的总费用，使得单位设备的生产成本减少了10%-15%。</p>
+<p>除了上述打法外，国产手术机器人的普及，还得益于另外一个“弯道超车”的优势，这就是分体式技术。</p>
+<h3 label="二级标题" style="">分体式优势</h3>
+<p label="正文" style="">达芬奇的手术机器人，虽然先进是先进，但它一体式设计其实有点儿“高冷”，就是为了那些大医院、高端手术室设计的，追求的是极致的精准和稳定性。</p>
+<p>整套设备你要用就得全套上，动辄好几百万的造价，还得额外搭配专门的工具、耗材，一旦进去了，想换别的也不容易。</p>
+<p>但国产品牌，例如瑞龙外科搞的分体式手术机器人，那就完全是另一种玩法了。它把整个手术系统拆成几部分，机械臂、控制台、显示器啥的都能单独配置，灵活得很。</p>
+<p>你这边小医院买不起全套设备没关系，只买个机械臂，别的先慢慢凑，像分期付款似的，先搞基础功能，之后再慢慢升级。这就像个乐高积木，想装啥装啥，给医院节省了不少成本。</p>
+<h2 style=""></h2>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023719" data-ratio="0.52" data-type="png" data-w="1075" src="https://img.36krcdn.com/hsossms/20241018/v2_cb7d3bcbdfda47f28ec2ddd527d1d253@000000_oswg755483oswg1075oswg559_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.6099853515625px;height:287.8699951171875px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>目前国内自研的一些分体式手术机器人，预计市场价格将在200万人民币左右，显著低于达芬奇系统的上千万人民币的价格。</p>
+<p>除了降低成本外，分体式的优势还在于，其在场景适用方面，有更多的选择。</p>
+<p>举例来说，骨科手术操作复杂，得精确定位不同部位。一体式达芬奇呢，它的机械臂和控制台都绑在一个大块头上，手术台也得跟着它的布局走。想换个角度、换个姿势，那基本就没戏。</p>
+<p>但分体式就不一样了！它的机械臂、主控台、影像系统都可以分开布置。手术时，医生可以根据病人的具体情况自由调整，特别是那种精确度要求高、空间狭小的地方，灵活到家了，能适应各种不同类型的手术。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023716" data-ratio="0.5331161780673181" data-type="png" data-w="921" src="https://img.36krcdn.com/hsossms/20241018/v2_0a12344fc63444e09783ad57696395b4@000000_oswg447760oswg921oswg491_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.5399780273438px;height:295.07000732421875px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>但分体式这东西，不是光有需求就能做出来的，技术上可是有不少难关要啃的。</p>
+<p>说到国产企业怎么攻克这方面的技术难关，咱们还得聚焦在“同步性”和“灵活性”这两大杀手锏上。</p>
+<p>老实说，整个分体式机器人，最核心难关的就这俩，一旦解决了，其他问题都能迎刃而解。</p>
+<p>那解决这两问题，到底靠啥？背后靠的是国产芯片和传感器的精准控制。</p>
+<p>国产企业，像瑞龙外科和微创医疗，在这方面花了大功夫。早期的传感器技术都被国外几家公司垄断，但咱们聪明的地方在于啥？国内公司不追求什么“最顶尖”，而是走“够用就行”的路线。</p>
+<p>早些年，咱们在传感器这方面完全靠进口，尤其是来自美国、日本那些大牌厂商的产品。一个传感器少说也得几万美元，精度高是高，但贵得离谱。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+<span style="letter-spacing: 1px;"></span>
+<o:page></o:page>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023718" data-ratio="0.5625" data-type="png" data-w="1024" src="https://img.36krcdn.com/hsossms/20241018/v2_6bee5be90e6e4527800d07991958a54c@000000_oswg624770oswg1024oswg576_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:552.9400024414062px;height:311.07000732421875px;"/>
+</section>
+<p class="img-desc" classname="img-desc" label="图片描述" style=""><span style="letter-spacing: 1px;">常见的机器人手臂六维力传感器</span></p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>国产企业不傻，通过跟东欧和东南亚一些传感器供应商合作，买到的产品虽然精度比顶尖货差点意思，但也足够应对手术中的需求了。价格上呢？大概能便宜40%-60%。</p>
+<p>更有意思的是，国内的企业还不光是引进低成本方案，他们通过技术消化、吸收再创新，开始自己搞传感器的研发。像是2019年，微创医疗就跟国内几家传感器厂商联合开发了一款力传感器，用在手术机器人里。虽然还达不到最顶尖水平，但价格却只有进口货的一半，而且性能也足够支撑常见的手术场景。</p>
+<p>所以啊，国产企业这一路走下来，靠的不是硬碰硬，而是靠灵活运用、整合全球资源、同时提升自主研发能力。</p>
+<h3 label="二级标题" style="">让手术不再遥远</h3>
+<p>除了与手术机器人相关的“硬技术”外，国产品牌最大的优势，就是不仅在价格上，也在地理上离普通人更“近”。</p>
+<p>而做到这点，靠的就是5G技术。</p>
+<p>5G这事儿在手术机器人领域，咱中国还真是拿到了绝对优势。虽然远程手术这东西在医学上确实不是什么新鲜玩意儿，欧美那些大厂早就搞过。但关键在哪儿？就是网络基础设施！</p>
+<p>到2024年，中国的5G基站数量已经超过了260万个，在全球范围内，占据了将近60%的市场份额。</p>
+<p>全国各地铺天盖地的5G网络，别说大城市了，连一些偏远县城，5G都快普及到村口了。</p>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023715" data-ratio="0.5363196125907991" data-type="png" data-w="826" src="https://img.36krcdn.com/hsossms/20241018/v2_b4f86099717248d2a05a2d7cf4eb7346@000000_oswg340849oswg826oswg443_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.4099731445312px;height:296.79998779296875px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>你想象一下，在那些医疗资源紧张的地方，比如某个偏远县城，原本要做个复杂手术还得送到大城市，患者光路上就折腾半条命。现在呢？一个5G信号直连北上广深的大医院，专家在城里，手术机器人在县医院，手术照样给你做得利索。</p>
+<p>一个典型的例子是，2023年，新疆阿拉尔市医院成功完成了通过5G进行的远程肝脏切除手术。患者在阿拉尔市的一家医院，而专家医生则在浙江杭州市，通过5G网络，医生跨越九千多公里，远程控制机械臂完成了手术。</p>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<section style="">
+<img class="rich_pages wxw-img" data-imgfileid="100023720" data-ratio="0.5625" data-type="png" data-w="640" src="https://img.36krcdn.com/hsossms/20241018/v2_dfde45575ade433aad3febb7a90136ca@000000_oswg305077oswg640oswg360_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width:553.6099853515625px;height:311.3999938964844px;"/>
+</section>
+<section style="">
+<span style="letter-spacing: 1px;"></span>
+</section>
+<p>所以说，这遍地开花的5G网络，让手术机器人能到达更广的市场，连偏远地区都能享受高水平医疗服务，这就是中国在技术协同方面的优势——不仅是技术牛，咱们的应用场景更广，这是国际品牌学不来的。</p>
+<p>说到底，科技进步的真正意义，不是为了炫技，不是为了让少数人享受顶尖的服务，而是要让更多的普通人从中受益。</p>
+<p>中国手术机器人的发展，正是这一理念的最佳体现——从覆盖更多病症，到分体式技术带来的灵活性，再到5G网络铺开的远程医疗，这一切都不是为了“高高在上”的展示，而是实实在在让每个需要帮助的人，都能享受到最前沿的医疗科技。</p>
+<p style="display: none;">
+<mp-style-type data-value="3"></mp-style-type></p>
+<p><br/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2997968228447880</guid><pubDate>Sat, 19 Oct 2024 12:00:00 +0800</pubDate></item><item><title>出海周刊116期 | 18张图，读懂全球供应链之变 / “字节版小红书”的流言与真相</title><link>https://36kr.com/p/2998825496279431</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>访问36氪出海网站</strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1388,646" src="https://img.36krcdn.com/hsossms/20241019/v2_9fa011f782a74fe69903e03e8c603e13@11918142_oswg254822oswg1388oswg646_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>编辑絮语</strong></h2>
+<p>第44届 GITEX GLOBAL 展会在迪拜揭幕，中东成了本周的关键词。中国企业，尽管对这片土地的未来持谨慎态度，却也不想错失任何增长的机会，就跟几年前东南亚市场刚热起来时一样。</p>
+<p>36氪出海也在现场、参与其中。我们发现，许多中国企业都是首次参展，他们积极跟当地企业、政府机构以及其他国际参展商交流、建联，为的是更深入理解中东市场，更准确把握中东市场的独特需求和特性，进而调整自身的产品和服务策略，以期实现更有效的市场对接。</p>
+<p>随着中东市场的持续开放和数字化转型的深入，我们期待中国企业能在这片土地上取得更大的进展。</p>
+<h2><strong>新市场观察</strong></h2>
+<h3><a href="https://letschuhai.com/d377321f?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>东亚打工人，把迪拜卷成了深圳 plus</strong></a></h3>
+<p>“中东可能不适合生活，但绝对适合搞钱。”</p>
+<h3><a href="https://letschuhai.com/002e8035?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>沙特女孩，大步迈向健身房</strong></a></h3>
+<p>体育，正成为沙特变革的一面镜子。</p>
+<h3><a href="https://letschuhai.com/716117f7?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>一位出海投资人的墨西哥走访思考</strong></a></h3>
+<p>那些能够成为中国和目标市场之间“桥梁”的国家和区域，如本文的墨西哥，潜藏哪些投资机会？</p>
+<h3><a href="https://letschuhai.com/9159f7ae?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>对话「甜啦啦」黄满义：菲律宾三年内保底800家店，预计明年公司营收过百亿</strong></a></h3>
+<p>今年下半年，甜啦啦将品牌愿景更新为“有人的地方就有甜啦啦”，出海正成为公司战略中至关重要的一环。</p>
+<h3><a href="https://letschuhai.com/0a52cbc2?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>在非洲卖二手服装，这家公司去年入账4亿</strong></a></h3>
+<p>二手衣服不仅是非洲人的日常必需品，它早已渗透进当地的经济命脉。</p>
+<h2><strong>行业大小事</strong></h2>
+<h3><a href="https://letschuhai.com/761481fd?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>中东｜一场 AI 热潮下的聚会， 中国企业齐聚 GITEX GLOBAL 2024</strong></a></h3>
+<p>据不完全统计，参加本届 GITEX GLOBAL 的企业超过260家，36氪出海前往迪拜带回现场报道。</p>
+<h3><a href="https://letschuhai.com/ed0853d5?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>美团 Keeta 上线利雅得一周：商户开心，对手警惕</strong></a></h3>
+<p>王兴一线督战。</p>
+<h3><a href="https://letschuhai.com/b223ac9e?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>“小黄书”Lemon8 美榜登顶，字节跳动加速抢占海外市场</strong></a></h3>
+<p>对比小红书在海外市场的命运多舛，背靠 TikTok 的 Lemon8 表现绝对称得上可圈可点。</p>
+<h3><a href="https://letschuhai.com/752b82c9?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>“字节版小红书”的流言与真相</strong></a></h3>
+<p>当前 Ins 对于 Lemon8 来说，就像一个紧箍咒，只有打破 Instagram 设定的用户习惯框架，Lemon8 才能真正实现用户飞跃。</p>
+<h3><a href="https://letschuhai.com/b263f2b0?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>中东白领喝起库迪，中国咖啡品牌进击全世界</strong></a></h3>
+<p>中东正在成为咖啡出海的新战场。</p>
+<h3><a href="https://letschuhai.com/246b1ef3?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>门店日营收破千万，LABUBU 成泰国“女明星”？</strong></a></h3>
+<p>中国潮玩爆火东南亚。</p>
+<h3><a href="https://letschuhai.com/fcd7dbfb?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>当越南不再是乐土，中国家电企业寻找下一个出海高地</strong></a></h3>
+<p>从越南到墨西哥。</p>
+<h3><a href="https://letschuhai.com/696c4949?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>苹果发文质疑：大语言模型根本无法进行逻辑推理</strong></a></h3>
+<p>大模型不具备形式推理能力？5大证据来了</p>
+<h3><a href="https://letschuhai.com/066961a4?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>李开复回应放弃预训练：训一次大模型三四百万美元，头部公司都付得起</strong></a></h3>
+<p>零一万物的最新模型，打榜赢了 GPT-4o。</p>
+<h3><a href="https://letschuhai.com/b442b6fc?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>诺奖青睐的「AI for Science」，在帮宁德时代研发电池</strong></a></h3>
+<p>AI for Science（AI4S），即人工智能驱动的科学研究，是一种新的科学研究范式。在药物研发领域开花结果之后，材料研发正成为 AI4S 的下一个要攻占的阵地。</p>
+<h3><a href="https://letschuhai.com/1834be71?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>小马智行冲刺纳斯达克：或成「全球 Robotaxi 第一股」，两年半营收约12亿元</strong></a></h3>
+<p>在小马智行的三大业务板块中，自动驾驶出行服务（Robotaxi）显然是其当前最核心也是最具潜力的一块业务。</p>
+<h3><a href="https://letschuhai.com/fae7eda5?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>阳光电源：募资48.8亿赴海外上市！</strong></a></h3>
+<p>海外市场的开疆辟土，奠定了阳光电源如今在新能源行业的领军地位。</p>
+<h3><a href="https://letschuhai.com/0a4c5a56?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>沙特宣布设立4平方公里沙中特别经济区，由萨勒曼国王国际机场与易达资本联合开发</strong></a></h3>
+<p>打造中企出海中东、辐射全球的一体化平台</p>
+<h3><a href="https://letschuhai.com/1a28c2c4?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>中东｜外国直接投资（FDI）推动数字媒体增长，海湾各国将迎来新的市场机遇</strong></a></h3>
+<p>卡塔尔国家愿景2030旨在通过投资于最先进的媒体基础设施和人才培养，构建一个可持续的媒体生态系统，在全球数字媒体市场中脱颖而出。</p>
+<h3><a href="https://letschuhai.com/d4850328?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>投资10亿！中东“土豪”为何青睐氢能？</strong></a></h3>
+<p>中东氢能产业发展上，出现了沙特、阿联酋和阿曼三驾马车并驾齐驱的局面。</p>
+<h3><a href="https://letschuhai.com/9661bffa?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>估值473亿，中东土豪入股，刘强东又一个 IPO 来了</strong></a></h3>
+<p>“京东系”，越来越大。</p>
+<h3><a href="https://letschuhai.com/64055d05?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>切入 Car-Ebike 细分赛道，「大舆科技」获种子轮融资</strong></a></h3>
+<p>目前，全球 Car-Ebike 厂商多以欧美玩家为主，产品单台定价在6000至上万欧元不等。</p>
+<h2><strong>观点</strong></h2>
+<h3><a href="https://letschuhai.com/a62fd3ee?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>没人想错过 TikTok</strong></a></h3>
+<p>美国政府关停 TikTok 的禁令倒计时只有 4个月了，而美元资本却开始给字节跳动“输血”了？</p>
+<h3><a href="https://letschuhai.com/2d2a9c49?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>18张图，读懂全球供应链之变</strong></a></h3>
+<p>全球供应链正在发生哪些变化？这些变化将对中国产生什么影响？对于那些“生于中国，面向全球”的企业来说，如何寻找机遇，又如何面对挑战？</p>
+<h3><a href="https://letschuhai.com/902911b5?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>一路狂奔后，中国跨境电商平台被“限速”</strong></a></h3>
+<p>放眼整个海外市场，不仅是印尼在“抗拒”中国跨境电商的进入，泰国、越南、法国、德国、韩国、美国等国都采取了相关措施，收紧对中国跨境电商平台的监管。</p>
+<h3><a href="https://letschuhai.com/059dc223?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>一个曾看好出海中东的人，开始产生了严重怀疑</strong></a></h3>
+<p>真的一切会没有问题吗？</p>
+<h3><a href="https://letschuhai.com/7671d65e?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>进军工业4.0发源地：出海德国的中国科技企业们</strong></a></h3>
+<p>从机械工具和汽车零部件，到今天的 AI 工业机器人、移动光伏储能、精密医疗器械等黑科技：创业者们正前赴后继地进军德国，在工业4.0的发源地推动中国科技品牌的全球化进程。</p>
+<h3><a href="https://letschuhai.com/75a37db6?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>李彦宏内部发言：「文小言」没必要像豆包、Kimi 一样激进推广</strong></a></h3>
+<p>AI 与搜索的形态是什么？如何复制董宇辉？怎么让模型为业务创造价值？——这篇原文近万字的分享实录，是李彦宏关于 AI 的最新思考。</p>
+<h3><a href="https://letschuhai.com/6c9976df?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>全球中文教育发展真相</strong></a></h3>
+<p>出海中文教育，正在成为国内各大教育机构新的发力点。</p>
+<h3><a href="https://letschuhai.com/3575a941?utm_source=36kr&amp;weekly116" rel="noopener noreferrer nofollow" target="_blank"><strong>2024黑五在即！TikTok for Business 助力商家冲刺大促销量</strong></a></h3>
+<p>备战黑五必看！</p>
+<h2><strong>热门活动</strong></h2>
+<h3><a href="https://letschuhai.com/c709beff" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜出海指南针：解码海外市场选择策略</strong></a></h3>
+<p>如何正确选择目标市场，并因地制宜制定市场战略，成为企业出海至关重要的一环。为帮助企业更好地把握出海机遇，<strong>36氪出海于10月23日下午2:30在北京举办交流活动。</strong>来自<strong>安永大中华区</strong>和<strong>梅卡曼德机器人</strong>的重磅嘉宾将带来全球热门出海目标市场的最新趋势，深入解析企业全球化市场战略的关键方法论，并结合企业自身案例，分享出海实践中的宝贵经验，帮助企业更好地实现全球新市场拓展。<strong>如果您关注业务出海的市场选择策略，希望深入探讨全球各区域市场的机遇与挑战，欢迎您扫描下方二维码，报名参加本次活动。</strong>活动报名将于10月22日中午12:00截止。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,525" src="https://img.36krcdn.com/hsossms/20240926/v2_3667316c6b4c41fd8493738764427698@11918142_oswg341751oswg1080oswg525_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>加入36氪出海学习交流群</strong></h2>
+<p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
+<p class="image-wrapper"><img data-img-size-val="631,72" src="https://img.36krcdn.com/hsossms/20230523/v2_b61857409a814903b2749dd32a80e298@11918142_oswg4260oswg631oswg72_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998825496279431</guid><pubDate>Sat, 19 Oct 2024 12:24:00 +0800</pubDate></item></channel></rss>
