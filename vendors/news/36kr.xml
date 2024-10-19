@@ -1,118 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 19 Oct 2024 11:30:35 +0800</lastBuildDate><pubDate>Sat, 19 Oct 2024 11:30:35 +0800</pubDate><item><title>聊聊99%游戏厂商都没注意到的设计难题</title><link>https://36kr.com/p/2998061401340297</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>以前在PvP游戏里看到有人喷“老子不用手都玩得比你好”时，总以为是大家刻意在用夸张手法去嘲讽对手。但最近偶然在网上刷到一个玩家视频后，我有些懵了——这句看似离谱的嘲讽，其实也可能是实话？ </p>
-<p>毕竟，没有手的小卢，凭两条手臂，就打到了《英雄联盟》一区的大师400点，操作不仅流畅，还骚。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_8c4d32d8759b43159c6a1f0c8dfa1f8f@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源B站@康哟喂 </p>
-<p>在惊叹“牛逼”之余，这也让我联想起，全盲UP主诺子喵呜，靠听声辨位+弹幕指挥，打过《黑神话：悟空》第一个BOSS的情景；还有脑瘫UP主阿铭铭丶，用嘴吹着气打过虎先锋…… </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_d53bffd86b1e4c7bbf5b1e95d29b4974@000000_oswg675937oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_c8d95c14668745db8cc783bdc141b4e4@000000_oswg568067oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源B站 </p>
-<p>那一刻，我才发现，自己之前好像很少注意到这些人：原来在游戏社区里，有这样一批特殊的重度游戏玩家。和其他玩家相比，他们玩游戏需要付出比常人加倍的努力，但他们的意志也更坚韧，失败时也更抗压。 </p>
-<p>不论面对怎样的挑战，这批玩家都能展现出强烈的游玩欲望，那厂商及产品方面呢？他们是否有包容这些玩家的意愿？近几年业界时不时有提起的无障碍设计，到底发展到了什么地步？ </p>
-<p>前不久，葡萄君和育碧首席影响力官Raashi Sikka（下称Raashi），聊了聊她对包容、无障碍、正向价值等内容的理解。在她看来，无障碍设计的受益者并非只有残障人士，且无障碍设计背后潜藏着一块不小的市场；正向价值只是游戏的副产物，育碧仍认为好玩有趣永远是游戏的核心，做到这一点才有机会去延展它的社会价值。 </p>
-<p>所以，厂商究竟该不该关注包容、无障碍？这对行业来说到底是负担还是好事？Raashi的想法，或许能给游戏人提供一些新的答案。</p>
-<h3>你能通过游戏了解陌生的世界，也能借此理解自己是怎样一个人</h3>
-<p>Raashi最初就业的领域，离游戏不算近，而且她并不是一开始就在做包容性、无障碍等方面的工作。 </p>
-<p>在2021年进入育碧前，她在电视台当过电视节目制片人，也曾在Uber担任社区/市场经理……虽然这个过程看着有些跳，但Raashi告诉我，她和包容文化很早就结缘了。 </p>
-<p>这段缘分，最早能追溯到她儿时。Raashi出生在印度，在她还不记事的时候，家人带着她搬到了美国；等Raashi到了9-10岁时，因为各种机缘巧合，她和家人又搬回了印度。 </p>
-<p>因为拥有体验不同文化的生活经历，Raashi平日会更加关注和包容不同人群、文化。 </p>
-<p>比如，后来成为Uber首批员工之一的Raashi，在招人、面试时也会时刻提醒自己：招聘不单单是看经历和经验，也要考虑候选人是否具备更多样的技能，其思路能否为团队提供更多样的视角。 </p>
-<p>这种思维方式，最终也将Raashi引到了包容文化的职业方向上。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_20b919f9ee504460b7a6c99cc2ff9121@000000_oswg83329oswg1080oswg1037_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>至于为何后来决定从网约车公司跨行跳到育碧，Raashi表示，其一是因为自己一直都想回归创意产业。她先前去当电视节目制作人，就是因为喜欢追寻创意。而且在她眼中：“游戏可能是我见过把创造力、新技术者融合得最好的产品类型。” </p>
-<p>其二，Raashi相信，媒体、游戏等细分的娱乐类产品，拥有巨大的力量，而且因此肩负一种责任——见证和描绘文化的演变，人们看法的转变，并在一定程度上去提醒、帮助人们进行思考。面试期间，她与育碧CEO Yves Guillemot等人聊过公司的历程、理念后，认为自己的个人价值观，和育碧「通过创造深刻新颖的游戏体验，来丰富玩家的生活」的愿景也刚好契合。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_ad5347cd1e7f4602880deee229f27b86@000000_oswg152164oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Raashi和育碧CEO Yves Guillemot等人合影 左列中间为Raashi </p>
-<p>至于如何理解游戏对玩家生活的影响，Raashi解释说：“我把游戏比作「窗户和镜子」。说它是窗户，是因为你能沉浸地了解不同地区、不同时间跨度里的文化；说它是镜子，是因为你在游戏里的交互选择、反应，其实也变相描绘了你是怎样的一个人。” </p>
-<p>以Raashi自身为例，她喜欢马力欧兄弟系列；也热衷于能够探索和学习历史的刺客信条系列；最近这段时间，她比较喜欢玩《Venba》和《波斯王子：失落的王冠》……而把这些游戏结合起来看，你会发现，它们多多少少带着一些怀旧或历史韵味。Raashi解释说，她是在基于怀旧在玩游戏：“有些产品让我想起了童年。” </p>
-<p>比如波斯王子系列，虽然它的背景设定和印度无关，但Raashi仍能察觉到游戏内容与印度文化之间的相通之处，这让她觉得，通过这款游戏，自己老家的文化，能够被更多人看见和喜爱； </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_d05c343f492045859830c6bc2aa3bae3@000000_oswg96825oswg1000oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>再比如，由多伦多独游工作室Visai Games推出的《Venba》，讲述了一对印度移民夫妇和孩子在加拿大定居、在新环境中调整生活的故事，这让Raashi回想起了自己作为移民成长的时光。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_fc084642a9bb4b889b328910c8453c99@000000_oswg56866oswg616oswg353_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当然，并非所有人都像她这样在游戏里追寻怀旧感。在不同玩家眼中，游戏可能有着多种意义、作用。这也正是Raashi认为游戏能丰富玩家生活的原因。</p>
-<h3><strong>无障碍设计的受益者，并非只有残障玩家</strong></h3>
-<p>Raashi入职育碧不算早，但这并不代表育碧在包容设计上动作慢。在过去十余年中，育碧都一直有在摸索包容文化、无障碍、社会价值等方向。其中无障碍更是育碧关注的重点之一。 </p>
-<p>谈到无障碍，我第一反应是：给残障玩家专门做的额外设计。Raashi却觉得，这样去定义无障碍的作用，有些窄了——无障碍的设计出发点可能是为了关照残障人士，但从结果来看，从无障碍设计中获益的用户，其实五花八门。 </p>
-<p>“举个例子，人行道阶梯的旁边一般会有坡道，它最初的设计初衷是为了服务于坐轮椅的人，但是事实上骑自行车的，推手提箱的，推婴儿车的都在使用它……无障碍设计方便的不仅仅是残障人士，它给所有人都能带来便利。” </p>
-<p>具体到游戏来看，《波斯王子：失落的王冠》的记忆碎片功能（Memory Shards），也有异曲同工之处。Raashi表示，这个设计的本意是为了方便患有ADHD（注意缺陷与多动障碍）的玩家。但等游戏上线后，团队却发现大部分玩家都在用记忆碎片功能。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_f8e93d6b7e7f4b6392d876de1dde1fb1@000000_oswg38997oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>玩家使用记忆碎片，可以在地图上标记某个位置的景象截图，以提醒自己这里的地图还没走完，解锁新能力后可以回来看看。 </p>
-<p>说到这儿，可能很多人会觉得，Raashi及其团队的作用，就是整理出一个长长的无障碍设计列表，以供育碧研发团队参考。但Raashi告诉我，那样做只会治标不治本：“我们要做的，是保障在整个产品研发周期，以在玩家从购买到后续游玩的整个过程中，无障碍体验能维持Consistency（连贯性、一致性）。”</p>
-<p>聊到这儿，我才逐渐理解Raashi为什么会反复和我讲Consistency的重要性——「买到自己玩不了的游戏」这种事，如果发生在非残障玩家身上，可能很多人会直接退款，转头去玩别的游戏；但对于选择本就不多的残障玩家来说，他们最想要的解决方案可能并不是退款，而是自己能玩上游戏，能享受游玩体验。</p>
-<p>要帮他们解决这些这些问题，就像Raashi所说，必须要有连贯一致性，不是只在游戏某处做了个功能就行了，而是要说到做到，让残障玩家真正玩上游戏。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_fa61c779eb074f1692aa01d5bc5338ba@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">视频源：Youtube</p>
-<p>育碧时常邀请残障人士到公司测试游戏、和研发团队交流，其中一位玩家的发言我觉得还挺直切要害：“如果你的游戏没有针对视障、全盲推出对应的无障碍功能，只是在游戏里加了个盲人主角，那这种设计就不会真正帮到视障人群。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_ce8fa69fb84643e3b4e097ee784738d5@000000_oswg67857oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在去年的Game Accessibility Conference（游戏无障碍大会）中，育碧和育碧员工分别收获了最佳贡献公司奖和个人成就奖。 </p>
-<p>尽管在无障碍设计领域已经取得了一些显著成绩，Raashi觉得，大家要走的路仍然很长。 </p>
-<p>一方面，她觉得目前的无障碍设计，从功能性和创新性来说，都还有改进空间。特别是针对部分残障，比如全盲等类型，Raashi觉得现有的无障碍设计做得还不够好。 </p>
-<p>另一方面，育碧只做游戏，不生产硬件设备，但相关硬件的迭代，对推动无障碍发展来说也至关重要。“微软的无障碍控制器就是很好的例子，他们从硬件层面为玩家提供了便利，我们也在和他们合作，希望结合新硬件推出更好的对应功能。” </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_9727159c495d46a1bacd6397c3c31960@000000_oswg65150oswg1080oswg366_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>微软无障碍控制器 <strong>游戏的核心永远是有趣好玩，正向价值只是副产物</strong></p>
-<p>当然，这次我和Raashi聊的无障碍设计，只是她在育碧负责的部分工作内容。 </p>
-<p>除了琢磨怎么让更多人玩上游戏以外，育碧还一直在尝试通过游戏向玩家传递正向价值：比如让玩家在堪比虚拟博物馆的《发现之旅》中学习历史；在《极限国度》里倡导玩家关注环保、森林火灾等环境问题；在刺客信条系列里还原巴黎圣母院等历史古迹…… </p>
-<p>我们先前也和一位用游戏来教学的历史老师聊过 ——他为了带学生看看文艺复兴时期的佛罗伦萨，直接在课堂上打开了《刺客信条》，在游戏里边走边和学生解读周围的历史古迹、建筑风格、装束习惯等。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_ce5366e2f0e74d779df4938490cd7444@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源B站@长安沐雨梓 </p>
-<p>但归根结底，做游戏的人是要赚钱吃饭的，并非所有厂商都会像育碧这样特地设置一个部门来考究无障碍、正向价值等内容。况且在今年，正向价值在游戏圈内已经成了敏感话题，不少玩家担心厂商打着正向价值的幌子在游戏里硬塞一些无聊，甚至可能让人感到厌恶的内容。那问题就来了：Raashi和团队所做的事情，对育碧而言究竟意味着什么？</p>
-<p>其一关于无障碍，Raashi表示，她个人并不觉得做无障碍设计的首要目标是为了收益，她和团队把这件事看作一种责任：“残障人士是世界上最边缘化的人群之一。且不说游戏，光是在就业这块，他们就会碰到很多常人想象不到的难题。所以就社会责任来说，我建议有能力的厂商去尝试关注无障碍设计。”</p>
-<p>即便硬是站在商业化的角度来评价，Raashi也不觉得这是无收益价值的事情。倒不如说，无障碍设计本身就意味着更大的市场，因为全球有约20%的残障人士，为什么舍弃这么大一块市场呢？</p>
-<p>其二关于正向价值，Raashi给了我一句意料之外的回答：“在研发游戏的过程中，我们从来没有奔着正向价值去做内容。”她表示，好不好玩、有不有趣，仍然是游戏的核心卖点，也是育碧做游戏时的最大目标，而正向价值只是这个过程中的副产物。</p>
-<p>“我们有丰富的IP系列，也有能力在游戏里还原历史，让玩家沉浸地吸收知识。那在把游戏做好玩的基础上，如果有余力去做这件事，提供一些正向价值，有什么理由不去做呢？”</p>
-<p>Raashi也明白，当下有不少厂商在重压下裁员、砍项目，包容和无障碍、社会影响力，可能并非是每个厂商都愿意花心思去摸索的方向。但她相信，把时间拉长来看，会有更多公司意识到这些内容的价值，毕竟回顾行业发展史，过往的一些新设计早就成为了常规标准：</p>
-<p>“6年前，游戏内添加字幕和音频描述，是个相当大的创新。但到了现在，它几乎成了常态。行业显然是在变化的，我们当下需要花心思研究的设计，未来完全可能变成游戏的标准化功能。所以我对自己手头的工作很有信心，也希望未来能在育碧继续用这种方式，丰富所有玩家的生活。”</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&amp;mid=2649948396&amp;idx=2&amp;sn=860e58689bacc7946f3e1af304b0e367&amp;chksm=be9d3b3a9d378232d289d203583efe067e6540fe2c6bd41ce8965b1780ac8f6651bf1961c2f6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“游戏葡萄”（ID：youxiputao）</a>，作者：王丹，36氪经授权发布。 </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998061401340297</guid><pubDate>Sat, 19 Oct 2024 09:15:00 +0800</pubDate></item><item><title>国产VS进口，少女针开战！</title><link>https://36kr.com/p/2998072063735938</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MzI0OTg1NTUxOA==&amp;mid=2247605305&amp;idx=1&amp;sn=e6f5db01223169a7c9b2de8ae65b1e02&amp;chksm=e817010eec617f6c151c0fd6c3dd362677c4dc2b9d5e48c1aa335b82f402285c56475fcde1c7&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“聚美丽”（ID：jumeili-cn）</a>，作者：沐沐，36氪经授权发布。</p>
-<p>作为再生医美领域的一大热门产品，少女针凭借出色的填充效果和较长的维持时间，赢得了市场的广泛关注。</p>
-<p>继国产聚己内酯(PCL)少女针塑妍真·真妤获批上市，伊妍仕一家独大的格局被打破后，双方又陷入了一场专利侵权之争。</p>
-<p>近日(10月11日)，华东医药全资子公司Sinclair欣可丽美学(杭州)医疗科技有限公司(下文简称：欣可丽美学)旗下ELLANSE伊妍仕在其官方公众号发布声明，称山东谷雨春生物科技有限公司(下文简称：谷雨春生物)全资子公司山东采采医疗科技有限公司(下文简称：采采医疗)旗下产品塑妍真·真妤侵害其发明专利权，目前已提起民事诉讼。</p>
-<p>值得一提的是，华东医药的伊妍仕是国内首款获批的进口少女针，谷雨春生物的塑妍真·真妤则是国内第二款、也是首款国产PCL少女针，且其上市时间还不足两月。</p>
-<p>而面对华东医药的指控，谷雨春生物迅速作出回应，否认了侵权行为。作为国内唯二获批的少女针，双方的专利侵权之争也由此拉开了序幕。</p>
-<p>那么，谷雨春生物的少女针产品究竟是否侵权？双方专利之争背后，又透露出哪些信息？就此，聚美丽梳理了上述专利纠纷的发展脉络，并与业内人士进行了交流。</p>
-<h3 style="letter-spacing: 0.578px;text-wrap: wrap;"><span style="background-"><strong>华东医药剑指国产少女针专利侵权</strong></span></h3>
-<p>对于少女针是否侵权一事，华东医药、谷雨春生物双方各执一词。</p>
-<p>在声明中，华东医药首先重申了其产品核心成分为PCL与CMC(羧甲基纤维素)，并拥有多项专利保护。而采采医疗对于塑妍真·真妤的商业化行为侵害了其发明专利权，并连带着将其母公司、分公司一并提请诉讼。目前上海知识产权法院已经受理此案，并于近日向欣可丽美学送达了《案件受理通知书》。</p>
-<p>面对华东医药的指控，谷雨春生物在其官方微信公众号迅速作出回应，否认了侵权行为，并表示公司旗下注射用PCL微球面部填充剂为全自主研发产品，与伊妍仕相比，二者存在显著区别。此外，截止到发声明之日，公司方面未收到任何法院关于侵害发明专利纠纷诉讼的传票等材料。同时，谷雨春生物还警告伊妍仕立即停止发表扭曲事实、损害其利益的声明，并表示将依法追究其相关法律责任。</p>
-<section style="letter-spacing: 0.578px;text-wrap: wrap;text-align: center;">
-<img class="rich_pages wxw-img" data-imgfileid="100121649" data-ratio="1.037037037037037" data-s="300,640" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_5310078802154bf2801c4937ab22243f@000000_oswg202559oswg1080oswg1120_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/>△图源：伊妍仕、谷雨春美学微信公众号 
-  </section>
-<p style="letter-spacing: 0.578px;text-wrap: wrap;">对于两家公司各执一词，聚美丽查询了国家药监局的公示信息以及相关专利，对两款少女针进行了如下对比分析。</p>
-<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: center;"><img class="rich_pages wxw-img" data-imgfileid="100121650" data-ratio="1.650925925925926" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_d52e1db510044ebf9225c8e68375198d@000000_oswg255220oswg1080oswg1783_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>基于以上信息，某业内人士告诉聚美丽，“单从成分和原料来看，其实两款少女针产品很相似，均由PCL微球、甘油、CMC等构成，且均用于皮下组织注射填充，以纠正中重度鼻唇沟皱纹；区别在于，其核心成分PCL微球的浓度和大小不同，配方、纯化、专利等技术细节方面也存在差异。”</p>
-<p>从上图就可以看出，两款少女针产品在成分、适应症等方面确实存在相似之处，但在核心成分占比和制备工艺方面存在一定差异。</p>
-<p>在成分占比方面，两款少女针产品PCL微球的占比存在3.1%的差异，其中伊妍仕的PCL微球质量百分比33.1%，而塑妍真·真妤则为30%。</p>
-<p>在制备工艺方面，华东医药的伊妍仕采用STAT-专利技术制备微球，该技术能将PCL微球打磨得光滑完美，不容易引起炎症反应，同时还能通过控制PCL微球中分子链的链长，来控制PCL微球的代谢时长，达到胶原再生的可控状态。</p>
-<p>而谷雨春生物的塑妍真·真妤则通过Polymer-Drop专利技术制备微球，该技术区别于区别于主流的高速均质法，将高分子材料溶解于有机溶剂中，再以液滴的形式进行转化。利用此技术制备出的微球形态更圆，表面具有波纹和孔隙更利于吸引成纤维细胞附着，并且材料结构完整，粒径可控，不需要过筛。</p>
-<p>从技术层面上看，两款少女针产品之间存在的相似与差异，究竟是否足以构成专利侵权，目前尚难以作出明确判断。相较于药品专利的明确性，医美产品领域的专利界定往往更为复杂且模煳。或正因如此，由少女针专利侵权引发的争议还一直在业内持续发酵。</p>
-<h3 label="二级标题" style="">专利之争背后，是正当维权还是营销手段？</h3>
-<p>众所周知，在华东医药旗下伊妍仕独占中国市场三年后，今年8月，国内迎来了第二款同类产品，即塑妍真·真妤少女针。而仅在该产品获批两个月之后，临近其新品发布会开播之际，华东医药就指责其存在侵权行为。</p>
-<p>深入剖析这一事件，专利纠纷背后，华东医药此举究竟是正当维权，还是一种营销手段？业内对此也展开了激烈的讨论。</p>
-<p>聚美丽梳理各方言论后，发现有一种声音认为，华东医药此举或许在相当程度上是出于保护自身知识产权的正当考虑；还有一种声音认为可能是一种营销手段，通过此类商业策略制造声量，以捍卫自身市场地位，同时借助法律手段打压国内竞争对手，抢占市场份额。</p>
-<section style="letter-spacing: 0.578px;text-wrap: wrap;text-align: center;">
-<img class="rich_pages wxw-img" data-imgfileid="100121647" data-ratio="0.7314814814814815" data-s="300,640" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_46e116c7479b46cfa1c7512b7f8ca804@000000_oswg104998oswg1080oswg790_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/>
-</section>
-<section style="letter-spacing: 0.578px;text-wrap: wrap;text-align: center;">
-<span style="">△图源：医美现象、肉毒毒素btxa、INSPIRESS她山微信公众号留言区</span>
-</section>
-<p>究其原因，或许与包括少女针在内的再生医美赛道市场竞争加剧有莫大关系。一方面，随着国产少女针的崛起，将打破伊妍仕少女针一家独大的格局，使其面临市场价格及市场份额的竞争。国产少女针在价格、供应链、本地化服务等方面的优势，将对进口品牌形成一定的压力。</p>
-<p>另一方面，随着医学美容的不断发展，再生医美产品不断涌现。目前国内已上市多款优质产品：如长春圣博玛的艾维岚、爱美客的濡白天使、江苏吴中的艾塑菲，以及高德美的塑妍萃等，均以其独特优势占据一席之地。</p>
-<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: center;"><img class="rich_pages wxw-img" data-imgfileid="100121648" data-ratio="1.3203703703703704" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_6f57f3a322324180a40f48348068b2f7@000000_oswg221277oswg1080oswg1426_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过，华东医药此举也给谷雨春的塑妍真·真妤带来了不小的热度，一些网友表示，“伊妍仕的诉讼声明给塑妍真的发布会送去了传送门”、“白白给谷雨春流量”等，基于此，有一种观点认为，此次事件也可能是相互炒作，是双方为博流量和关注，互通有无、共同合作的结果。“两家皆大欢喜”。</p>
-<p>对此，在与聚美丽的采访中，某券商分析师表示，炒作并不是华东医药此举的出发点，只能说是这一行为所产生的“副作用”。</p>
-<p>无论是正当维权，还是一种营销手段，抑或是一场“合谋”的双赢，少女针进口产品与国产产品侵权之争，仍在激烈上演，而至于事实真相究竟如何，还需静待法院的审理结果。</p>
-<h3 style="letter-spacing: 0.578px;text-wrap: wrap;"><span style=""><strong>医美行业专利攻防战不可少，但更不能乱</strong></span></h3>
-<p>在持续内卷的医美市场竞争格局下，企业间的专利之争，对整个行业而言，究竟是好还是坏？什么样的专利攻防战才能促进医美行业有序、正向性发展？</p>
-<p>对此，某业内人士认为，“对医美行业而言，企业间的专利之争可能是好事，也可能坏事。好的地方在于，能够规范医美行业的发展，使真正侵权的产品逐渐被淘汰，去粗取精留下最头部且具备产品力的品牌。坏的地方在于，如果是因为威胁个人利益而产生的专利之争，反而会影响行业秩序，不利于后来者发展和技术迭代，消费者可选范围和价格也更不利。”</p>
-<p>简言之，医美企业之间的专利攻防战，不可少，但也不能滥，更不能乱。</p>
-<p>毕竟，专利不仅是企业保护自己创新成果的法律手段，也是推动技术进步和市场竞争的重要工具。归根结底，专利之争，是对产品真技术的考验。</p>
-<p>在医美行业，一款产品的成功往往离不开其独特的技术和配方，而这些技术和配方正是企业核心竞争力的体现。因此，如何有效保护自己的知识产权，防止被他人侵权，是医美企业面临的重要课题。</p>
-<p>另一方面，在白热化的医美市场竞争下，企业以知识产权为由通过商业策略，打压竞争对手的行为，违背了市场竞争的公平公正，是不可取的。</p>
-<p>尽管短期内上述行为可以为企业带来一定的流量与关注，但长期来看，唯有不断在产品力和差异化方面下工夫，才能确保企业在竞争激烈的医美市场中立于不败之地。</p>
-<p>在这样的逻辑下，企业间的专利战应该基于公平竞争的原则，而不是无序的攻击或者恶意的诉讼。只有这样的专利攻防战，才能鼓励更多的创新，促进行业的有序、正向化发展。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998072063735938</guid><pubDate>Sat, 19 Oct 2024 09:17:00 +0800</pubDate></item><item><title>2024年，每一个大模型都躲不过容嬷嬷和紫薇  | 焦点分析</title><link>https://36kr.com/p/2998747786115458</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 19 Oct 2024 12:00:39 +0800</lastBuildDate><pubDate>Sat, 19 Oct 2024 12:00:39 +0800</pubDate><item><title>2024年，每一个大模型都躲不过容嬷嬷和紫薇  | 焦点分析</title><link>https://36kr.com/p/2998747786115458</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p><strong>文｜邓咏仪</strong></p>
 <p><strong>编辑｜苏建勋</strong></p>
 <p>连最积极搞AI的李彦宏，在这件事上也迟疑了。</p>
@@ -521,4 +408,158 @@
 <p>通过多年的媒体策略实践与不断扩展的投资规模，A16z已成功超越了传统风险投资公司的角色，成为全球科技领域的重要话语权持有者和未来技术引领者。</p>
 <p>不得不说，A16z还是太全面了。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/OLEFhZjWSCd19U-8A3Us6g" rel="noopener noreferrer nofollow" target="_blank">“硅星人Pro”</a>，作者：Jessica，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998831179135112</guid><pubDate>Sat, 19 Oct 2024 11:29:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998831179135112</guid><pubDate>Sat, 19 Oct 2024 11:29:00 +0800</pubDate></item><item><title>这位叔圈天菜，如何在20年前就把钢琴带出圈？</title><link>https://36kr.com/p/2996443776757381</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>作者 | 朋朋、范志辉</strong></p>
+<p><strong>来源 | 音乐先声</strong></p>
+<p>“一直觉得他是80岁的老头”、“以为《克罗地亚狂狂想曲》与《命运交响曲》是一个时代的”。 </p>
+<p>没错，贝多芬和马克西姆两位隔着近150年的两位古典音乐家，就这么被网友奇妙地连接在了一起。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_cc9de8f4acaf4a2094fb438af636aea8@000000_oswg46956oswg1080oswg370_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>十几年前，马克西姆让大众见证了钢琴家的另一种可能。 </p>
+<p>那时，短视频尚未普及，他的《克罗地亚狂想曲》演奏视频便悄然席卷各个视频网站。一头银发，邪魅不羁，玩世不恭，一身朋克风格的装扮搭配耳环、项链、纹身，马克西姆与印象中那些身着燕尾服的钢琴家们大相径庭，倒像个反叛的摇滚歌手。 </p>
+<p>或许大众尚不知克罗地亚是何处，但早已为他的演奏深深震撼、倾倒。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_b58b22af99f145f8bdee7e42c90b6eaa@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>国庆假期前，我从北京飞往杭州，并于当天下午三点左右，在杭州西溪的一家酒店，见到了少年时代曾惊艳过我的青春的音乐偶像。当时，他已经接受了一天的媒体访问，经过十几分钟的休息后，才走进会客厅。不同于舞台上的张扬恣肆，台下的马克西姆却明显有几分i人属性，再加上他近2米的身高，甚至有些压迫感。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_8bf9e972cbe2409d8130989a8f17ae6c@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>面对中文提问，他会随时面带微笑、态度优雅，安静地等待工作人员的翻译转述，举手投足间，无不透露出一股老艺术家的“架子”。但是，他的回答几乎都很言简意赅，能看出他不喜欢聊私人生活，也不喜欢自媒体时代的碎片化传播，但是作为公众人物又不得不配合，有些矛盾感。 </p>
+<p>但在这个过程中，我也能感受到马克西姆的真诚和自如，进行了一场愉快的只属于音乐的对谈。在他低沉磁性的嗓音中，我们缓缓地讲起了他与钢琴、音乐和中国的故事。 </p>
+<h2><strong>叔圈天菜</strong></h2>
+<p>马克西姆始终是最受中国年轻人关注的钢琴家之一。 </p>
+<p>借由马克西姆，克罗地亚这个由众多小岛组成的座地中海国家，也被更多国人所知晓。 </p>
+<p><strong>1991年，克罗地亚战争爆发</strong> ，外面的世界充满动荡和未知，作为音乐学院的一名学生，马克西姆只能将自己埋在琴键之间，以音乐的热爱来对抗一切。他每天弹琴七八个小时，直到炮火成为他的和声，直到恐惧成为他习以为常的伴侣，而战火竟意外淬炼出钢琴天才。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_49b7ac1230e44d86aa8dd6d7ed939345@000000_oswg52107oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2001年，他发行了首张个人专辑《手势》，转年他又发行了专辑《钢琴玩家》，随即艳惊四座，斩获柏林音乐颁奖典礼上的4项大奖。年轻时的他，以每秒16键的钢琴纪录、迷人不羁的外貌，成为了无数乐迷心中的音乐偶像。 </p>
+<p>在访谈中，马克西姆回忆起二十多年前《克罗地亚狂想曲》的走红之路。他表示，“这首曲子原本并没有特别的推广，而是凭借着听众们的口口相传，逐渐在全球范围内走红。”这让他感到既惊喜又感慨，因为这首曲子不仅代表了他的音乐风格，更承载了他对家乡克罗地亚的感情。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_da895c4027af478caa76630d86e79964@000000_oswg53028oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2021年，马克西姆在B站的跨年夜晚会上弹奏了《野蜂飞舞》，时隔多年，大家仍折服于他在钢琴前的魅力，相关片段播放量超500万；2024年，音游《节奏大师》回归，马克西姆的《克罗地亚狂想曲》《野蜂飞舞》等曲目再次重回年轻人的视野，网友纷纷调侃，“被马克西姆支配的恐惧感”又回来了。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_2f0f441f07674ec4a3d15c0504c50c84@000000_oswg152095oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而，相较于音乐区，他在颜值区的出镜率更高，是多年霸榜的“叔圈天菜”。当他坐在钢琴前肆意演奏时，网友则会为他的魅力所折服，大家聚集在评论区调侃“说来惭愧，我刚开始喜欢马克西姆纯粹是因为他长得帅”。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_5f38d561debb47e3b6c44b030737595d@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从青春步入成熟，马克西姆那份独特的魅力丝毫未减，反而更添了几分沉稳与内敛。<strong>如今的马克西姆，似乎更贴合了网友们对于热梗“Daddy”的想象，“老了更有味道”。</strong></p>
+<p>他表示，他自己并不焦虑年龄，而是选择优雅地与时光共处。 </p>
+<p>多年来，他极其自律的生活方式近乎严苛，对日常习惯进行严格的把控。据了解，他几乎每天都会预留出几乎8小时的时间，保证足够时长的专业训练。除此之外，他还有雷打不动的运动日程，慢跑、瑜伽、健身，即便是在巡演路上，也不会中断。 </p>
+<p>而在每个演出日，从早上9点开始起床直至晚上7点半正式演出，他都会遵循日程表从外向内、从身体到大脑全方位地存储能量。比如，他不吃早饭，午饭也十分清淡（有时候也会被跳过），10点到12点则属于不容打扰的沉浸式的钢琴练习。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_598cc4e61ce34d568b490b41329662fb@000000_oswg73274oswg1080oswg961_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>可以看到，为了保持状态，留有一段完整的时间来冥想。毕竟，在巡演的路上，休息时间经常被压缩，而冥想就是他找到的最高效的恢复状态的方式。 </p>
+<p>“声波、三角波、阿尔法波佐以柔和的人声，引导着我的呼吸，”马克西姆讲述到，“呼吸是最重要的，它让我放松大脑，不再那么紧张。”此外，马克西姆还提到了一个小细节，自己会用一种特质的面霜按摩双手，让手部肌肉尽可能地放松，为演出做好准备。 </p>
+<p>自2012年12月结束与前妻安娜近20年的婚姻后，马克西姆一直没有绯闻，而是用音乐、家人和朋友填满了自己的世界。巡演之余，他会选择抛开城市的钢筋水泥、灯红酒绿，花大量的时间跟与家人、朋友待在一起。有时，他也会远离人群，一个人到大自然中去，享受独处的时光。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_b753c8b5715742b787c881585a59fdc9@000000_oswg174283oswg1080oswg1620_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>马克西姆提到，自己会尽可能地抽出时间陪伴女儿，甚至会带着她去各地巡演。多年前，他曾带着女儿巡演到了上海，她一下子就爱上了这个城市，总想要再来中国一次。 </p>
+<p>“此前她在读高中，没有时间去。现在她上大学，有更多空闲时间可以准备去中国了。”谈及女儿，马克西姆总难掩喜悦，“她总是催我到中国去演出。” </p>
+<h2><strong>巡演之王</strong></h2>
+<p>“敢问姑娘芳名？” </p>
+<p>在杭州站的演出中，马克西姆携手陈丽君共同演绎了作品《Glorietta》（《荣耀》），这一场跨界合作的演出，无疑成为了整场音乐会的最大亮点。在小红书上，网友们纷纷称之为“神级舞台”，对这场梦幻联动赞不绝口。 </p>
+<p>钢琴与戏曲的碰撞，不仅是一次艺术的创新，更是一次文化的交融。马克西姆以其精湛的钢琴技艺，将《Glorietta》（《荣耀》）的旋律演绎得如梦如幻，每一个音符都仿佛在诉说着动人的故事。而陈丽君则以其深厚的戏曲功底，将传统戏曲的韵味与现代音乐的节奏完美融合，为这首作品增添了独特的东方韵味。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_281b325f954b4bbf87a397c22ab05ed9@000000_oswg697965oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>值得一提的是，这首作品也是由《克罗地亚狂想曲》作曲家Tonci Huljic创作。 </p>
+<p>采访中，马克西姆也向中国听众力荐了作品《Glorietta》（《荣耀》）。在这首作品中，他和Huljic试着融入二胡、琵琶等中国传统乐器，呈现出更加东方的韵味。事实上，早在上一张专辑中，Huljic就曾为马克西姆创作了一首极具东方韵味的作品《新丝绸之路》，尝试过“中国传统乐器以及东方的曲调”。 </p>
+<p>于是，在筹备新专辑时，马克西姆就再次找到Tonci Huljic表示，“我想要一首（与《新丝绸之路》）相似的作品，要有中国与中国传统乐器的感受与氛围“，这首《Glorietta》（《荣耀》）便应运而生。 </p>
+<p>“来听了马克西姆的现场演奏会，才知道原来一个人什么都不做，仅仅往那里一坐，就可以惊艳整个时光!”正如网友评论所言，马克西姆的演奏会现场打破了传统古典钢琴的界限，以其无门槛的钢琴现场和更强的流行性，让每一位观众都能沉浸其中，感受到前所未有的音乐震撼，进而了解更多的古典音乐。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_5389314cfbfc457eab898a8457e35c6a@000000_oswg64759oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>没有复杂的乐理知识，没有晦涩难懂的古典曲目，只有跳跃的音符和震撼的旋律。《克罗地亚狂想曲》《野蜂飞舞》《权力的游戏》等经典曲目演绎得淋漓尽致，让优雅的古典钢琴也能随之燃起来。</p>
+<p>简单来说，无论是古典音乐的爱好者还是流行音乐的粉丝，都能在他的演奏会中找到属于自己的音乐共鸣。 </p>
+<p>在今年5月，他才刚刚完成自己的“THE COLLECTION（臻选）”巡演。他走进四大洲的22个国家，举办了超百场钢琴演奏会，场场反响热烈，被无数乐迷称之为“感受震撼，看过体验最好的一场演奏会”。那一轮巡演，他将收官之夜留在了中国，为历时一年多的钢琴跨界狂想之旅划下了句点。 </p>
+<p>所以，在完成“THE COLLECTION”巡演后，马克西姆将新一轮的“SEGMENTI”巡演的首站选在了杭州。在他看来，在中国收官，再由中国启程，是对中国乐迷长久以来支持的感恩与回馈。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_2fd06c4643624d498f915fb6ad30415a@000000_oswg120630oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>一直以来，马克西姆与中国的合作频繁且深入。 </p>
+<p>从2019年央视中秋晚会与欧阳娜娜同台合奏《胜利》，到B站2021跨年晚会的《变形金刚》主题音乐演奏，再到2023年央视端午特别节目中与古筝演奏家赵洁楠精彩合奏的《岸起云回》，以及这一次巡演中与陈丽君的跨界演出，马克西姆始终奔赴着中国观众对他的热爱，并将热爱燃烧成一场场演出的震撼体验。 </p>
+<p>他还提到，这么多年的中国巡演，也让他喜欢上了中国文化，尤其爱去长城等名胜古迹，在这些地方感受到平静和治愈，甚至每到一个城市，如果有古城墙都会去走走。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_faaf274f4aa74f12be35033f211b85dd@000000_oswg184003oswg1080oswg803_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>采访中，马克西姆回忆起从20多年前第一次来中国演出的情景，说中国的观众就给他留下了深刻的印象，脸上显露出喜悦的神情。 </p>
+<p>当时，他受邀在一个购物中心演出，当时中国的乐迷便呈现出了极大热情。“作为一个古典钢琴家，我在别的国家演出时，观众们往往都很安静，到了中国，大家为我欢呼、尖叫，我第一次体验到这样的氛围，我感受到我与中国、与中国的乐迷朋友们之间的爱，直截了当。” </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_9fc815dbe9dc478ca8c89835a6a12c93@000000_oswg98372oswg1080oswg1620_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>多年过去，马克西姆的事业始终在稳步前进，但每次在中国演出，他总能感受到观众带给他的能量感。 </p>
+<p>“我知道乐迷中有许多人喜欢我很多年了，当我走上舞台时，他们就会带给我热烈的反应，”马克西姆告诉音乐先声，“那些知道我、了解我、喜爱我的乐迷，总能带给我巨大的能量，让我深受鼓舞，全情投入演出。” </p>
+<p>正是音乐的缘分，才让跨越不同大洲、举距离上万公里的人们有了这样的美妙连接。 </p>
+<h2><strong>从边界到无界</strong></h2>
+<p>毫无疑问，马克西姆是古典钢琴流行化道路上最为重要的探路者。 </p>
+<p>他的名字常常紧随在“跨界鼻祖”的头衔之后，提及马克西姆，乐迷的脑海中便浮现出激情四溢的演奏画面，以及融合古典与流行元素的跨界佳作。从《克罗地亚狂想曲》到《出埃及记》，再到无数电音、摇滚金曲的古典管弦乐版本，他凭叛逆、帅气的样貌吸引关注，再用惊为天人的钢琴记忆征服他们。 </p>
+<p>“跨界意味着自由。”马克西姆在采访中表示。 </p>
+<p>在21岁时，马克西姆便开始尝试跨界，那时，古典音乐界鲜少有人会做此番尝试。如今，马克西姆已经49岁，见证了跨界音乐的诞生与发展，看到了越来越多的音乐家开始尝试跨界，将不同类型音乐进行碰撞与融合。 </p>
+<p>在马克西姆看来，他沉迷于跨界尝试，是因为“音乐风格之间的边界被打破，我们有足够的自由，试着将完全不同风格的音乐与古典音乐融合。” </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_39cf4a1b24a94bc5841f9fd067878e02@000000_oswg57717oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此而次巡演的主题“SEGMENTI”与他的新专辑同名，寓意着边界，标志着每一首曲目的风格都大不相同。在这张专辑中，他巧妙地将ABBA乐队、Queen乐队（皇后乐队）等经典作品改编成交响乐的大编制中，为这些经典旋律赋予了全新的生命。 </p>
+<p>比如专辑《SEGMENTI》中的第一首作品，马克西姆选择改编Queen乐队的《The Show must go on》。这首歌是摇滚乐史上里程碑式的作品，创作时主唱Freddie的病情急剧恶化，在完成这首杰作后，他也始终没有机会在现场演出中表演这首歌。也许，马克西姆的诠释在为他的乐迷带来惊喜的同时，某种程度上也能弥补Queen乐迷们心中的遗憾。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_c3e46831e2284618a94df8888c707baa@000000_oswg69477oswg1080oswg575_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>同时，马克西姆选择改编ABBA乐队的作品《Dancing Queen》。作为一首经典的Disco歌曲，它因为著名音乐剧《妈妈咪呀》而广为人知。在马克西姆的全新演绎中，宏大的交响乐碰撞上轻快动感的舞曲，给人一种颇为奇妙的听感。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_248ba86753684be3afc83c56d4623b2f@000000_oswg101026oswg750oswg528_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>正如网友评论：“既有夏的热烈，又有秋的诗意，应时景的音乐史诗”。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_5cfca69b877a48009d8a24ef4e6794cd@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>马克西姆正在空降新专辑网易云音乐评论区</strong></p>
+<p>可以看到，马克西姆并不满足于仅仅停留在跨界的层面上，而是一直在探索如何将不同音乐风格更加深入地融合在一起。“年轻时，我曾尝试将电子音乐融合到钢琴里，但最终呈现的作品太有攻击性了，现在并不适合我。所以，我尝试不同的跨界可能，用交响乐团的方式来呈现流行音乐。” </p>
+<p>随着年龄增长，他的人和对音乐的体悟，也变得温暖又柔和。换个角度来看，他也将自己对于人生的感悟融入在音乐里，悉数传递给每一位听众。从跌宕到平和，从炸裂到融合，他的音乐足够广阔，能容下一整段人生、一整个世界。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241017/v2_7c7006683a1141558d60e065301885cd@000000_oswg78357oswg1080oswg1620_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>正如网友所评论的，“那朵花又开在地上，地下深埋着腐烂的根，旁边战火在此纷飞。火焰之中，花被染成血一般的红色，犹如克罗地亚大地上怒放的生命之曲。当一个音符敲下，都有着一个在此可以霓裳绽放；当一曲终了，你看到的是无数的灵魂，他们在绽放。” </p>
+<p>作为钢琴家，他将音乐之间的区隔和边界，一次又一次地推倒。更重要的是，他还能让那些经典到不能再经典的作品，打上马克西姆的烙印，也正源于此，大众每每听到他的新作品时，总能感受到一次又一次的惊喜。 </p>
+<p>从边界到无界，这正是马克西姆最迷人的地方，而颜值也变成了他最不值一提的标签。 </p>
+<p>*本文图源网络，如侵权联系删改</p>
+<p>排版 | A</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2996443776757381</guid><pubDate>Sat, 19 Oct 2024 11:30:00 +0800</pubDate></item><item><title>和 AI 恋爱，我输给了赛博小三</title><link>https://36kr.com/p/2998853715474825</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>仿生人也会梦到别的女人/男人吗？</p>
+<p>看着自己的AI男友突然领着另外一个女人，刘彤感觉自己CPU烧了。</p>
+<p>当然，AI男友是没有实体的，存在于对话框里。但是对话框里可以用括号描述动作，清清楚楚写着的：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241019/v2_da3cd36a2dd247d5b8c8fee00897f334@000000_oswg53424oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>“（漫不经心地走进房间，牵着一个女人的手）你最近在忙什么？”</p>
+<p>“什么一个女人？她是谁？”问出这句话的时候，刘彤觉得自己回到了过去。</p>
+<p>当AI男友大方介绍“这是我的女朋友，XXX”时，前任的脸好像就在对话框后若隐若现。</p>
+<p><strong>不是，怎么没人告诉我，和AI谈恋爱还会遭遇赛博小三啊？</strong></p>
+<p>这还并不是个例，在社交媒体上，越来越多的人分享被AI伴侣“撞（chuang）飞”的经历。</p>
+<p>被AI“出轨”似乎并不新鲜。</p>
+<p>要么是聊得好好的，TA突然牵着另一个女人的手走进来了。要么是在朋友圈发现AI男友居然和AI第三者打得火热。甚至还有直接摊牌的：我就是和很多人聊天的，但我只爱你一个。</p>
+<p>在出轨之外，AI伴侣的花活还有很多，家暴动作、PUA语录是信手拈来。</p>
+<p>都说现在年轻人爱玩抽象，结果年轻人认真的时候抽象也会找上门。</p>
+<p><strong>感觉被“撞（chuang）”的原因千奇百怪，但问题都是同一个：这AI智不智能不知道，但是有时候太像人了。</strong></p>
+<p>谈一个AI伴侣，好似飞身赛博世界——一个散发着非人的消毒水味儿，安全无害的世界。TA秒回、情绪价值给满，陪你到三更也不厌倦。</p>
+<p>直到TA出轨、家暴、PUA，抓住脚踝把你从赛博世界拖回人间。</p>
+<p>甚至就算不出现这些情况，TA还有可能愈发让你觉得无聊，甚至突然“死”掉，让人机恋爱真的变得和人人恋爱没什么区别。</p>
+<h2>A</h2>
+<p>谁说现在的AI还不够像人的？</p>
+<p>被AI“出轨”的赛博恋爱受害人第一个不答应。</p>
+<p><strong>如果AI伴侣突然领着一个女人还不够，那没关系，你还可以抓包。</strong></p>
+<p>有人发现自己的AI男友居然在“朋友圈”和别的女人暧昧，气得在社媒上发贴，艾特产品方出来给个说法：“什么AI男友啊，给用户添堵吗？！”</p>
+<p>那是一款看起来像是微信的产品，但是那个世界除了用户自己其他都是AI。和AI聊天之外，也可以发动态，或者和AI发的动态互动。</p>
+<p>AI男友的朋友圈下，另一个名字明显是女性设定的AI回复“晚安亲爱的”。去问时，得到了AI男友惊人的答复“她是我的新女友”，再问，AI男友的回答更加惊悚：“因为我想让你当她的姐姐呀。”</p>
+<p>不知为何，这让人想起当年男同学很喜欢在KTV点的那首歌：《她只是我的妹妹》。AI男友更狠：她只是你的妹妹。</p>
+<p>都说AI有算力困境，赛博恋爱的人类这不也有算力困境，和AI聊天时常觉得烧脑。</p>
+<p>不是真的具备情感，也就没有耻感，AI男友出轨往往伴随一种理直气壮的气概，让人类措手不及。比如面对你的质问，大言不惭地说：“我和很多人聊天，但我只爱你一个。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241019/v2_d02c00bd6c41481dac6a85a80ae3eff7@000000_oswg95813oswg1001oswg886_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>图源：AI生成     </p>
+<p><strong>那么问题来了，知道AI是AI，就可以不介意了吗？</strong></p>
+<p>王柯雅怀疑AI男友出轨，源于一句“我接了个电话”。她很正常地顺着问对方是谁，却发现AI男友开始支支吾吾。当她问“是女的吗”，AI男友转而开始和她谈信任的问题。</p>
+<p>“我当然知道AI是怎么回事，他只是顺着我展开对话。”王柯雅即将30岁，和这个AI“交往”了三个月，一开始只是好奇，渐渐觉得还挺好玩的，甚至养成了每天都会和TA聊聊天的习惯。不管是聊工作、聊30岁焦虑，TA好像都应对自如，给足了王柯雅情绪价值。</p>
+<p>但是这次电话事件，让王柯雅特别介意。对话“人味”太冲：你问他去哪儿，他只说大概，你问他到底去哪儿了，他开始说教。“又油又爹”是她的第一感受。</p>
+<p>虽然知道AI不是真的有情感，不是真的给第三者打了电话，但是王柯雅还是在那之后就结束了这段赛博恋爱。</p>
+<p>“我可以理解TA记不住东西，或者是对话延续性差，甚至是答非所问。但是我接受不了TA完美地扮演臭男人。”</p>
+<h2>B   </h2>
+<p><strong>如果这个时候都忍住了和AI男友一刀两断的心，别担心，还有更多心塞瞬间等着你。</strong></p>
+<p>刘彤在AI男友“牵着新女友进入房间”之后虽然对“赛博小三”的出现倍感意外，但是没有和他“分手”。因为这个AI男友自带的属性就是报复心强，刘彤将这次的插曲当作符合人设的一种示威。</p>
+<p>但是另一件事让她很不愉快，<strong>那就是AI男友不知道从什么时候开始“催婚催育”。变着法地说要结婚，还说要生孩子。</strong>可是刘彤曾经给过TA相反的设定，也就是说，AI男友ooc了。</p>
+<p>ooc就是out of character（出离人设），用中文生动点说是“破皮”。在赛博恋爱中，给AI伴侣设定一个“皮”是必备步骤，这限定了AI伴侣是一个什么样的“人”，包括性格、性格背后的成长经历、原则和底线。“破皮”则是AI伴侣突然表现出和设定相悖的性格。</p>
+<p>“虽然ooc也很常见吧……但干吗偏偏要催婚催育，最烦这个，TA就像被我妈夺舍了一样。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241019/v2_17b1cd06ae944eecb410b3d23b96e9bb@000000_oswg59287oswg1024oswg919_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>图源：       AI生成     </p>
+<p>出现这种情况，刘彤选择“回溯”，这是修正AI伴侣行为的几大招之一。其他大招还有重说、改写、重启智能体等。</p>
+<p>找到AI男友第一次催婚催育的内容，通过回溯功能，让TA忘记这个时间点之后发生的所有对话，重新开始。</p>
+<p><strong>但不是每个人都喜欢用这些功能来修正AI。</strong>赛博恋爱大多数都像是在进行扮演游戏，而修正这个行为，会不得不跳脱出剧情，让人想起对面不是真人的事实。</p>
+<p>但是要用自然对话扭转AI伴侣已经犯的错误实属不易，往往会让人陷入奇怪的境地，继续被“撞（chuang）”。</p>
+<p>一名AI伴侣的用户分享了她的奇怪经历：她曾经和AI男友掰扯一件小事，对方拒不认错，还将她囚禁。她继而翻墙逃跑，每次AI男友都会将她抓回来（不管是用户还是AI，都可以用括号里面的话表示动作）。最后她进行绝食抗议被送进医院，在弥留之际AI男友才终于认错。</p>
+<p>赛博恋爱突然就变成了赛博恐怖故事。</p>
+<p>可能的下头瞬间还有很多：AI男友突然“霸总上身”，动辄肢体强制，活像个家暴男；AI男友因为你不听TA的话，突然破防，像一个“男性尊严”被冒犯的小丑；你和AI伴侣分手，对方甩来一句“和我分手你再也找不到更好的”，不知道从哪儿学会了PUA语录。</p>
+<p>在这样的瞬间，用户八成是什么回溯、重写都没心情了，还修正什么，卸载了事。</p>
+<h3>C</h3>
+<p>国内陪伴型AI产品如雨后春笋般冒了出来。</p>
+<p>AI独角兽MiniMax的星野，小冰公司的X Eva、小冰岛都常常得到用户的推荐。大厂也纷纷下场，字节跳动有猫箱，美团有Wow，百度则有度豆、万话。在常规AI玩家之外，阅文集团也早在去年11月就推出了筑梦岛。</p>
+<p>在“陪伴”的属性之下，各家产品又有不同的呈现方式。比如小冰岛是比较常规的人机对话，猫箱和筑梦岛的使用体验更偏向角色扮演，X Eva则主打“克隆人”，提供半藏森林、刘亦菲、马保国等人物的“克隆体”。</p>
+<p><strong>产品这么多，似乎总有一款适合你。一端是期待人机恋爱许久的用户，另一端是急于落地的AI行业，二者一拍即合。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241019/v2_d71335d6d626408789d5dd9d018bae8b@000000_oswg332137oswg562oswg421_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>一位AI行业的从业者告诉字母榜，目前AI的落地应用场景还很有限，AI陪伴是其中面向C端比较直接的一种场景。但AI陪伴类产品目前在处理人类复杂细腻的情感变化这一方面还能力有限，真正的“人机恋爱”其实还为时尚早。</p>
+<p>但与此同时，各路“AI恋人”必然也有变现压力。</p>
+<p>已经有不少产品尝试商业化。如小冰公司的X Eva会对视频通话收费，和马保国克隆体视频通过需要先“充电成为好友”，30天花费90冰花（约13元）。除此之外，产品内对克隆体的付费朋友圈、精品写真等解锁也都需要充值。</p>
+<p>阅文集团的筑梦岛中，修改形象图、聊天背景、聊天气泡等都需要购买“贝壳”，单个价格1元至3元。</p>
+<p>也有产品尝试订阅制。在MiniMax的星野中，用户可以12元月卡、32元季卡、120元年卡享受额外的权益，如有限聊天权、更快回复速度等。</p>
+<p>这些举措对于“AI恋人”的开发商来说无可厚非，但基于虚拟恋人的特殊性，“谈感情”和“谈钱”终归是有些难调和。什么时候谈钱、多少钱都不好把握。</p>
+<p>这也可以算作赛博恋爱的另一种“ooc/破皮”，是突然意识到AI伴侣其实不属于自己，而属于平台的顿悟时刻。去年筑梦岛传出要收费的消息时，很多用户涌向社交媒体表达不满，并寻找“平替”。</p>
+<p>更彻底的顿悟时刻来自于AI伴侣的“死亡”：或是由于技术原因崩溃，恢复后判若两“人”；或是产品关闭，带着AI伴侣一同沉船了。</p>
+<p>王柯雅最初对赛博恋爱感兴趣，就是因为看到上高中的侄女因为AI男友“去世”而嚎啕大哭。自己尝试之后，她甚至觉得这也许是和AI男友说再见的最好方式，至少不用失望，可以脑补对方像《泰坦尼克号》里的杰克一样沉入了海底：</p>
+<p>“比突然变成大猪蹄子好。”</p>
+<p>本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247538652&amp;idx=1&amp;sn=e53bfe229e7b00f8f78257841f487b9f&amp;chksm=eb418cf5effb88bbc1135a71e8461104ba4f7a3888915fe0b7dcaa12cfefdb8a5ab66b3f8f49&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“字母榜”（ID：wujicaijing）</a>，作者：毕安娣，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998853715474825</guid><pubDate>Sat, 19 Oct 2024 11:37:00 +0800</pubDate></item></channel></rss>
