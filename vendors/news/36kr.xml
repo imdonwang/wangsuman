@@ -1,299 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 19 Oct 2024 11:00:38 +0800</lastBuildDate><pubDate>Sat, 19 Oct 2024 11:00:38 +0800</pubDate><item><title>9点1氪｜英特尔本周进入裁员高峰期；多家银行下调存款利率；iPhone 16用户反馈耗电过快</title><link>https://36kr.com/p/2998154264574337</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2>TOP3大新闻</h2>
-<p><strong>英特尔本周进入裁员高峰期，年底前完成裁员1.5万人 </strong></p>
-<p>英特尔于10月18日宣布，因业务调整和自救措施，公司将进行大规模裁员。本周，英特尔已解雇超过 2250名美国员工，其中俄勒冈州受影响人数最多，达到1300人，其余解雇人员来自亚利桑那州、加利福尼亚州和德克萨斯州。 </p>
-<p>据悉，根据美国联邦法律，英特尔需向州及地方官员披露大规模裁员信息。英特尔计划在年底前裁减约15000名员工，以应对上一个财年超过10亿美元的亏损，这一决定是基于8月份宣布的广泛成本节约计划，公司发言人表示。此外，英特尔自8月起已启动第一阶段的裁员，主要针对自愿离职员工，部分自愿退休员工获得了满意的薪酬补偿。（快科技） </p>
-<p><strong>多银行10月18日起下调存款利率</strong></p>
-<p>中国银行、中国工商银行、中国农业银行、中国建设银行、交通银行、中国邮政储蓄银行等多家银行发布公告，从10月18日起，下调人民币存款挂牌利率。其中活期存款利率下调5个基点，从0.15%调整为0.1%；三个月、六个月、一年、两年、三年和5年定期存款利率均下调25个基点。调整后，一年定期存款利率为1.1%。这是今年以来主要商业银行第二次下调人民币存款利率。（央视新闻） </p>
-<p><strong>iPhone 16用户反馈耗电过快 </strong></p>
-<p>科技媒体MacRumors10月17日发布博文，报道称根据 Reddit 社区、苹果支持论坛上的帖子和留言，部分iPhone 16、iPhone 16 Pro系列用户反馈iOS 18系统存在耗电过快问题。博文还指出，虽 然主要是iPhone 16、iPhone 16 Pro系列用户反馈，但也有部分升级到iOS 18系统的旧款 iPhone 反馈存在相同续航问题。 </p>
-<p>一些用户发现，在待机模式下，电池消耗量异常，手机未被使用时，后台活动可能导致电池迅速耗尽。有用户尝试关闭ProMotion和常显显示等功能，以减少后台活动的影响，但电池问题依然存在。受影响的用户尝试了多种解决方案，包括关闭后台应用刷新、移除小部件、重置手机等。然而，这些方法并未对所有人有效，许多人仍面临电池续航问题。（IT之家） </p>
-<h2>大公司/大事件</h2>
-<p><strong>京东金融回应挤兑传言：相关言论完全失实</strong></p>
-<p>36氪获悉，10月18日京东金融官方对挤兑谣言进行回应：京东金融平台不存在网传“挤兑”，相关言论完全失实。用户在京东金融的资金均由持牌金融机构管理，受到法律的监管和保护，各类理财产品都在正常运营中。在网上发表煽动性言论，并恶意煽动用户去“挤兑”，涉嫌违反国家相关法律法规、扰乱金融市场秩序、影响金融系统稳定。京东将保留追究法律责任的权利。 </p>
-<p><strong>A股近270股涨超11% </strong></p>
-<p>财联社10月18日电，指数持续走强，创业板指拉升涨逾10%，沪指涨3.61%，深成指涨5.96%。沪深京三市上涨个股近5200只，其中500多股涨超9%，近270股涨超11%。（财联社） </p>
-<p><strong>美国限制进口部分大疆无人机，大疆回应：美方此举毫无根据且完全错误</strong></p>
-<p>中国无人机制造商大疆创新通知分销商，美国海关与边境保护局以所谓“维吾尔强迫劳动预防法”（UFLPA）为由，限制一些无人机进入美国市场。大疆创新17日在回应表示，美国海关与边境保护局没有理由扣留大疆的无人机。大疆正在向美国海关提供文件，以证明其遵守了UFLPA。（环球时报） </p>
-<p><strong>腾讯回应新功能“附近的工作”岗位真实性：和正规平台合作，会有完整审核机制</strong></p>
-<p>10月17日下午，腾讯公众号发布文章，宣布推出一项新功能“附近的工作”。腾讯在文内提到，通过小程序可以查找到附近提供的工作岗位，此举是腾讯为“零工市场”提供的一项新能力。目前在广东江门率先试点推广。该功能一推出，不少网友就提出疑问，平台如何审核工作岗位的真实性？对此，腾讯方面回应，以江门为例，“零工市场”的合作平台是广东邮政分公司旗下的平台，上传的工作都经过审核。未来，“零工市场”会逐步推广到其他城市，其他城市的合作平台也会是正规平台，会有完整的审核机制。（红星新闻） </p>
-<p><strong>新能源汽车充电桩乱象问题引发关注 </strong></p>
-<p>近日，新能源汽车充电桩价格不透明、充值容易退余额难、用超低电价吸引车主然后收取高额停车费等乱象问题引发关注。乱象问题包括APP首页显示充电每度0.86元，但实际充电还要收取每度0.24元的服务费；用超低电价吸引车主充电，然后收取高额的停车费、占位费；一些充电桩必须先充值再充电，但是余额却怎么也退不回来等。（中工网） </p>
-<p><strong>博士伦或将被收购</strong></p>
-<p>最近，知名眼科巨头博士伦（Bausch &amp; Lomb）被曝出将被出售，潜在买家包括黑石集团（Blackstone）和TPG，这两家私募股权公司预计将出价130亿至140亿美元（约合人民币900亿至1000亿元），从博士伦母公司博士康（Bausch Health）手中收购。（投中网） </p>
-<p><strong>停止Azure OpenAI个人服务？微软回应：中国大陆企业客户仍能继续使用</strong></p>
-<p>近日国内突然传出一则消息：微软Azure OpenAI将停止个人开发者服务。多名开发人员也在网络上发帖称收到了官方所发的“停止服务”的邮件。Azure OpenAI业务是中国大陆唯一可以合法使用OpenAI的渠道。对此，微软官方得出肯定的答复。微软方面强调，此事只会影响中国大陆的非企业用户，企业用户仍能继续使用该服务。（每经网） </p>
-<p><strong>中国飞鹤：“飞鹤进口日本原料”等言论不实，将依法追责</strong></p>
-<p>36氪获悉，黑龙江飞鹤乳业有限公司通过官方渠道发表声明称，近日，互联网上出现了关于“飞鹤进口日本原料”等大量失实言论，这些言论不仅误导了消费者，还对飞鹤的品牌声誉造成了严重不良影响。飞鹤已经向公安机关报案，警方已经立案侦查。 </p>
-<p><strong>央行正式推出股票回购增持再贷款，再贷款首期额度3000亿元</strong></p>
-<p>36氪获悉，10月18日，中国人民银行发布公告正式推出股票回购增持再贷款。即日起21家全国性金融机构即可向符合条件的上市公司和主要股东发放相关贷款，并于次一季度第一个月向人民银行申请再贷款，对符合要求的贷款，人民银行按照贷款本金的100%提供再贷款支持。再贷款首期额度3000亿元，利率1.75%，期限1年，可视情况展期，累计期限估计可达3年。 </p>
-<p><strong>京东大促营销组：后续没有和相关脱口秀演员的合作计划</strong></p>
-<p>36氪获悉，京东大促营销组发布声明称，“近日，相关脱口秀演员参加京东11.11营销活动受到网友关注，若因此给您带来了不好的体验，我们深表歉意！后续我们没有和相关演员的合作计划，我们将进一步加大京东11.11补贴力度，回馈消费者对京东的关心和支持。” </p>
-<p><strong>IDC：1~8月中国蓝牙耳机市场累计出货7338万台，同比增长19.5%</strong></p>
-<p>36氪获悉，国际数据公司（IDC）最新发布的报告显示，2024年1~8月中国蓝牙耳机市场累计出货量达到7338万台，同比增长19.5%。 </p>
-<p><strong>苹果宣布为中国国家公园的自然教育提供支持</strong></p>
-<p>苹果公司宣布向中国绿色碳汇基金会提供一笔捐赠，用于在中国的五个国家公园创立自然保护培训和教育机会。在接下来的几个月中，中国绿色碳汇基金会将召集成立一个国家公园创新联盟工作组，成员包括中国优秀的大学、科研机构和非政府组织。工作组将与全球生态保护和修复领域的专家们进行磋商咨询，设计并实施新的教育项目，苹果将向该项目提供支持。（界面新闻） </p>
-<p><strong>亚马逊高管警告员工：不重返办公室就离职</strong></p>
-<p>当地时间周四，亚马逊的一名高管为该公司要求员工每周5天在办公室工作的新政策进行了辩护，称那些不支持这项政策的人可以跳槽去另一家公司。根据一份文字记录，亚马逊AWS部门首席执行官Matt Garman在全体员工会议上表示，与他交谈过的员工中，有九成支持新政策，该政策将于明年1月生效。他表示，那些不愿遵守的人可以选择离职。（新浪财经） </p>
-<p><strong>国家相关部委有望设立低空经济专管司局</strong></p>
-<p>据不同信源消息，国家相关部委拟成立低空经济专管司局。一名知情人士表示，低空经济专管司局的设立已经获得批复，目前正在筹备当中。上述人士称，成立专管单位，更重要的意义在于适应新质生产力的发展需要，可以更好协同各个环节的资源推动产业发展。（财联社） </p>
-<p><strong>WWE计划为奈飞制作新的幕后纪录片系列</strong></p>
-<p>36氪获悉，据报道，WWE计划为奈飞制作新的幕后纪录片系列。WWE总裁Nick Khan表示，这不新居是WWE与奈飞扩大合作伙伴关系的一部分。（彭博） </p>
-<p><strong>OpenAI推出Windows版ChatGPT客户端</strong></p>
-<p>OpenAI推出Windows平台的ChatGPT应用桌面客户端。目前处于测试阶段，仅对付费用户开放。可以从Microsoft Store下载该客户端的早期版本。就像Mac版本的这款应用一样，Windows版本的ChatGPT也允许在独立的窗口中向由AI驱动的聊天机器人提问，可以同时在窗口中打开其他应用程序。还可以通过使用Alt + Space快捷键快速访问该应用程序。（澎湃新闻） </p>
-<p><strong>大连万达商管换帅，张春元接任大连万达商管董事长</strong></p>
-<p>36氪获悉，爱企查App显示，近日，大连万达商业管理集团股份有限公司发生工商变更，肖广瑞卸任法定代表人、董事长，由张春元接任，同时多位高管发生变更。大连万达商业管理集团股份有限公司成立于2002年9月，注册资本约271.6亿人民币，由大连万达集团股份有限公司、王健林、SUN HONGBING等共同持股。 </p>
-<p><strong>前高盛亚洲董事总经理潘盛加入哪吒汽车任副总裁</strong></p>
-<p>前高盛（亚洲）董事总经理潘登已正式履新，出现在哪吒汽车高管信息中，任副总裁，并代表公司出席分析师大会。（界面新闻） </p>
-<p><strong>谷歌负责搜索引擎和广告产品的高管Prabhakar Raghavan将卸任</strong></p>
-<p>谷歌当地时间10月17日宣布，负责搜索引擎和广告产品的高级主管Prabhakar Raghavan在领导公司核心盈利业务四年后将卸任，担任首席技术官的新职务。长期在搜索部门工作的谷歌资深高管Nick Fox将接替Raghavan。（界面新闻） </p>
-<p><strong>三星或推迟接收ASML为其美国新工厂提供的芯片设备</strong></p>
-<p>据报道，知情人士透露，三星电子已推迟为其即将在美国得克萨斯州落成的工厂接收ASML芯片制造设备，因为该公司尚未为该项目赢得任何大客户。知情人士称，三星还暂缓向泰勒市这家耗资170亿美元的工厂的其他一些供应商下订单。（界面新闻） </p>
-<p><strong>欧洲汽车巨头纷纷推出廉价电动汽车以争夺市场份额</strong></p>
-<p>在本周的在巴黎车展上，几家欧洲最大的汽车制造商纷纷推出了低成本电动汽车，试图以此扭转需求下滑的局面，并争夺目前由中国品牌占据的电动汽车市场份额。人们认为，周一在巴黎开幕并持续到周日的、两年一度的汽车行业展示会，可能会成为欧洲汽车行业的转折点。欧洲运输与环境运动组织车辆和电动移动供应链高级总监朱莉娅-波利斯卡诺娃在巴黎车展上告诉媒体：“感觉就像欧洲在反击。”（新浪财经） </p>
-<p><strong>雀巢：美国大选前购物者的不确定性提高</strong></p>
-<p>10月17日消息，雀巢周四表示，消费者对美国大选的“担忧”给其最大市场的需求带来了进一步的压力，因为这造成了消费者的不确定性。雀巢首席财务官表示：“我们看到美国市场增长放缓，围绕大选的一些担忧正在显现。”（界面新闻） </p>
-<p><strong>哥伦比亚或将失去拉美第三大石油生产国地位，被圭亚那赶超</strong></p>
-<p>36氪获悉，据中国驻哥伦比亚大使馆经济商务处，根据国际能源署（IEA）最新发布报告，2024年9月哥伦比亚石油日产量为79万桶，低于阿根廷的84万桶和巴西的352万桶；圭亚那当月石油日产量呈现显著增长，达62万桶；预计两年内圭亚那石油产量将与哥持平，而哥石油日产量将略有下降，从79万桶降至77万桶。报告指出，未来哥将被取代拉美第三大石油生产国地位，而圭亚那正逐渐成为拉美石油市场重要参与者。 </p>
-<p>大公司财报</p>
-<p><strong>沃尔沃：第三季度销售净额1170亿瑞典克朗，低于预估</strong></p>
-<p>沃尔沃第三季度销售净额1170亿瑞典克朗，预估1210.7亿瑞典克朗；第三季度营业利润140.7亿瑞典克朗，预估150.6亿瑞典克朗。（财联社） </p>
-<p><strong>Netflix三季度营收同比增长15%，付费会员净增507万</strong></p>
-<p>当地时间10月17日，美国流媒体平台Netflix发布2024年第三季度财报：营收98.25亿美元，同比增长15%；营业利润29.09亿美元，同比增长52%；营业利润率为29.6%，上年同期为22.4%；净利润为23.64亿美元，上年同期为9.38亿美元；每股收益为5.40美元，同比增长45%。此外，第三季度付费会员净增507万，期末流媒体付费用户会员2.8272亿。该公司预计2024年全年营收增长14.7%（14%至15%区间的高端），营业利润率为27%。（界面新闻） </p>
-<h2>AI最前沿</h2>
-<p><strong>亚马逊AWS：搭载英伟达新AI芯片的系统推迟至2025年初上线</strong></p>
-<p>全球最大云计算提供商亚马逊旗下的AWS表示，搭载英伟达Blackwell芯片的新系统可能要到明年年初才能上线，比原先预计的时间要晚。英伟达今年3月推出新一代处理器时表示，亚马逊等合作伙伴将在2024年底之前准备好基于Blackwell的产品。但由于英伟达重新设计芯片，亚马逊仍在等待将大量芯片投入其数据中心。AWS首席执行官Matt Garman周四表示，英伟达的时间表已经“改变”。（智通财经APP） </p>
-<p><strong>Meta与好莱坞Blumhouse合作开发AI电影生成模型</strong></p>
-<p>当地时间周四，美国科技巨头Meta宣布，已经与制作了《 人类清洗计划》和《逃出绝命镇》等热门恐怖片的好莱坞公司Blumhouse Productions达成合作，将联合开发其人工智能（AI）视频模型Movie Gen。本月早些时候，Meta发布了新的AI模型Movie Gen，它可以根据用户提示创建逼真的视频和音频片段，并声称它可以与OpenAI和ElevenLabs等初创公司的文生视频模型相媲美。（财联社） </p>
-<p><strong>谷歌将Gemini应用程序团队并入DeepMind实验室，推进AI小组整合</strong></p>
-<p>谷歌当地时间10月17日宣布，将把Gemini应用程序团队并入DeepMind研究实验室，继续整合该公司从事人工智能研究的各个小组，旨在精简结构，以 “不断加快开发AI的步伐”。（界面新闻） </p>
-<p><strong>日企正开发新型AI客服系统</strong></p>
-<p>《今日日本》发布报道称 NTT 通讯公司和软银公司正开发 AI 系统能够，以帮助客服应对恶劣客户。NTT 通讯公司邀请部分媒体并向其演示该系统该新型 AI 客服系统，实时监控客户与客服之间的交流后，并在客服的屏幕前显示恰当的回应语言。（IT之家） </p>
-<h2>投融资</h2>
-<p><strong>“礼新医药”完成3亿元C1轮融资</strong></p>
-<p>36氪获悉，礼新医药近日成功完成了 3 亿元 C1 轮融资，本轮融资由国内知名产业方中国生物制药领投，浦东创投、张江浩珩共同参与，老股东启明创投和上海生物医药基金跟投，中伦担任本轮融资的法律顾问。募集资金将主要用于加速公司临床阶段管线特别是 LM-302 和 LM-108 的临床进度推进、并支持公司自主研发的抗体发现平台、下一代 ADC 技术平台、以及双抗技术平台，持续产出具有国际竞争力的创新管线。 </p>
-<p><strong>重庆立飞通用航空有限责任公司获人民币天使轮融资</strong></p>
-<p>36氪获悉，重庆立飞通用航空有限责任公司宣布获得百万级人民币天使轮融资，本轮融资由千皓资本、硕麦文化共同领投。本轮资金将进一步加速立飞通航建立eVTOL运营中心，加速完善空中交通运营场景商业化落地。据介绍，立飞通用航空由原重庆通航集团资深从业团队创立于2024年，该公司已经获得中国民航局第92部（CCAR-92）民用无人驾驶航空器运营合格证。 </p>
-<h2>酷产品</h2>
-<p><strong>AION RT将于11月正式上市</strong></p>
-<p>36氪获悉，10月17日，在2024世界智能网联汽车大会上，广汽集团董事长曾庆洪做了重要发言，表示AION RT迅猛龙把激光雷达城市NDA进一步普及到15万门槛，打破了“高阶智驾=高昂价格”的传统认知，该车将于11月正式上市交付。 </p>
-<p><strong>整理｜</strong> 张雨竹 </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998154264574337</guid><pubDate>Sat, 19 Oct 2024 09:00:00 +0800</pubDate></item><item><title>复星、华东跑步进场，这个被低估的百亿市场即将迎来激战？</title><link>https://36kr.com/p/2998675098401155</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p></p>
-<section data-mpa-powered-by="yiban.io" data-role="outer" label="Powered by 135editor.com">
-<p style="text-align:justify;outline: 0px;vertical-align: inherit;letter-spacing: 1px;"></p>
-<section data-role="outer" style="background-repeat: repeat;background-position: center center;background-size: auto;">
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MjM5MTMyMDg0Ng==&amp;mid=2650650556&amp;idx=1&amp;sn=c17b12ab91bd46204edb79593bb27829&amp;chksm=bf8d5f717f9c6942753d2f1dbb1d16859b45411890d82c5c6a517896aa83bf51a3272fcd845b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“动脉网”（ID：vcbeat）</a>，作者：牟磊，36氪经授权发布。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">近日，</span><strong><span style="letter-spacing: 1px;">复星医药</span></strong><span style="letter-spacing: 1px;">披露公告称，旗下注射用A型肉毒毒素Daxxify（达希斐）正式获批，这是国内获批的第6款肉毒素。该消息发布三天后，</span><strong><span style="letter-spacing: 1px;">华东医药</span></strong><span style="letter-spacing: 1px;">也迎来重磅消息，其与重庆誉颜制药战略合作产品注射用重组A型肉毒毒素YY001治疗中、重度眉间纹适应症的Ⅲ期临床研究已顺利完成，即将进入新药注册阶段。</span></p>
-<section style="text-align: center;">
-<img class="rich_pages wxw-img" data-backh="254" data-backw="546" data-imgfileid="503166710" data-ratio="0.46574074074074073" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241019/v2_893d63c6cb6949839f3f9286c5dfab8a@000000_oswg235141oswg1080oswg503_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/>      
-     <span style="letter-spacing: 1px;"><span style=""><em>图1.国内其他在研肉毒素产品（数据来源：中信证据）</em></span></span>    
-    </section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">事实上，肉毒素的热闹远不至此，当前还有多款重磅产品也已进入临床末期。比如</span><strong><span style="letter-spacing: 1px;">君合盟生物</span></strong><span style="letter-spacing: 1px;">的JHM03，目前Ⅱ期临床研究已接近尾声，即将进入Ⅲ期临床；</span><strong><span style="letter-spacing: 1px;">因明生物</span></strong><span style="letter-spacing: 1px;">的YY001-002目前Ⅲ期临床试验受试者也已全部出组，离商业化只差临门一脚。除此之外，</span><strong><span style="letter-spacing: 1px;">大熊制药、爱美客、精鼎医药、康哲药业、昊海生科</span></strong><span style="letter-spacing: 1px;">等企业的在研产品也在快速推进之中，</span><strong><span style="letter-spacing: 1px;">如果以当前临床审批进度计算，未来3-5年内预计将有超10款肉毒素产品上市。</span></strong></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">这绝对是难以想象的一幕，</span><strong><span style="letter-spacing: 1px;">要知道直至2020年，国内市场也仅有两款肉毒素获批</span></strong><span style="letter-spacing: 1px;">。所以在短时间内，肉毒素能够实现爆发式增长，这不仅验证了这一赛道的市场价值，同时也意味着未来更激烈的竞争已经在所难免。那么，肉毒素到底在火什么呢？另外，在即将到来的行业激战中，谁又能成为最后的赢家呢？答案其实就藏在产品之中。</span></p>
-<h3 label="二级标题" style=""><span style="letter-spacing: 1px;">巨头疯狂扫货，肉毒素何以成为新战场？</span></h3>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">近年来，在玻尿酸高利润的市场逻辑逐渐失效之后，整个医美行业其实都在寻找下一个爆款产品，而从当前市场布局来看，肉毒素显然被寄予厚望，目前已吸引不少头部企业押注。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">以</span><strong><span style="letter-spacing: 1px;">华熙生物</span></strong><span style="letter-spacing: 1px;">为例，早在2015年，其就相中了Medytox的肉毒素产品，并先后出资近亿港币成立华熙美得妥，以此来推动该肉毒素产品在中国大陆地区的独家开发、拓展以及销售工作。“三剑客”之一的</span><strong><span style="letter-spacing: 1px;">爱美客</span></strong><span style="letter-spacing: 1px;">也是如此，2021年，爱美客以超募资金8.86亿元的重金投入，溢价74倍收购Huons25.42%的股权，并一举获得Hutox肉毒素产品在中国的独家代理权。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">当然，疯狂押注的并不只有医美企业，一批跨界药企也纷纷跑步进场。以</span><strong><span style="letter-spacing: 1px;">复星医药</span></strong><span style="letter-spacing: 1px;">为例，早在2018年，其就以8800万美元的许可费用以及多达1.725亿美元的销售里程碑款项从医美企业Revance获得Daxxify（达希斐）在国内的商业化权益，并且在之后的5年时间里，复星医药在该产品研发上还投入超3亿元。</span></p>
-<p style="text-align:justify;"><strong><span style="letter-spacing: 1px;">华东医药</span></strong><span style="letter-spacing: 1px;">也是如此</span><span style="letter-spacing: 1px;">。2023年10月，其正式引进ATGC旗下的A型肉毒杆菌毒素的注射液ATGC-110，首付款1300万美元；1个月后，华东医药又出资1.5亿对重庆誉颜制药进行增资，以此获得重组A型肉毒毒素YY001在中国大陆、香港特别行政区、澳门特别行政区医美适应症领域的独家商业化权益。</span></p>
-<p style="text-align:justify;"><strong><span style="letter-spacing: 1px;">据动脉网不完全统计，过去五年里，国内共有近30家药企加码了肉毒素领域，总投入金额超过百亿元。</span></strong><span style="letter-spacing: 1px;">而在火热交易背后，一个疑问已经愈发响亮，即肉毒素到底有何吸引力？</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">事实上，</span><strong><span style="letter-spacing: 1px;">作为一款医美产品，当我们在讨论其价值时，必然离不开两点：一是功效，二是市场。</span></strong><span style="letter-spacing: 1px;">先说功效，肉毒素学名为肉毒杆菌毒素，是肉毒杆菌在繁殖过程中分泌的毒性蛋白质，具有很强的神经毒性，能作用于运动神经末梢，以此干扰乙酰胆碱从运动神经末梢释放，从而使肌纤维不能收缩致使肌肉松弛。在美容医学中，肉毒素被广泛用于减少面部皱纹，近些年行业爆火的除皱针、瘦腿瘦脸针等都是其衍生产品。</span></p>
-<section style="text-align: center;">
-<img class="rich_pages wxw-img" data-backh="278" data-backw="546" data-imgfileid="503166712" data-ratio="0.5093525179856115" data-type="png" data-w="695" src="https://img.36krcdn.com/hsossms/20241019/v2_999df528792f47d0af3a408b2b3fb641@000000_oswg229880oswg695oswg354_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/>      
-     <span style="letter-spacing: 1px;"><span style=""><em> 图2. 肉毒素作用原理（图源：Brock Biologyof Microorganisms）</em></span></span>    
-    </section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">与玻尿酸一样，肉毒素也并非单一物种，共拥有A、B、C、D、E、F、G七种类型，</span><strong><span style="letter-spacing: 1px;">目前临床应用最多的是A型肉毒毒素，这主要是因为其毒性最强且最稳定，因此疗效相对更好，另外就是其容易制备储存，成本优势较为明显。</span></strong></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">接着再聚焦于市场。根据弗若斯特沙利文报告显示，</span><strong><span style="letter-spacing: 1px;">中国肉毒素市场规模在2021年已达到39亿元，预计到2030年将达到390亿，市场即将迎来爆发。</span></strong></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">对此，某资深医美投资人谈道，“首先从需求场面来讲，肉毒素重点聚焦的除皱瘦脸对于各年龄段女性来说，都是一笔‘刚性’消费；其次从使用频率来讲，肉毒素一直被医美机构作为‘拓客神器’，这是因为其平均每3到4个月需要重新进行注射，消费粘性极强；最后是从应用范围来讲，肉毒素作为一种生物制药产品，其实并不局限于医美，在眼睑痉挛、面肌痉挛、相关肌张力障碍、斜视等治疗场景同样被广泛应用。”</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">再加上市场渗透率的提升以及合规趋势下替代水货的逻辑，肉毒素市场预期显然已经拉满。而也正是因为如此，才能吸引一批急需寻找新增长曲线的医药巨头纷纷加码入局。</span></p>
-<h3 label="二级标题" style=""><span style="letter-spacing: 1px;">谁能挑战保妥适“全球销冠”位置？</span></h3>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">肉毒素虽然是一个新兴市场，但当前已经有重磅产品。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">这就是艾尔建的保妥适（Botox），作为全球第一款肉毒素产品，自出道以来，其就一直占据市场统治地位。根据财报显示，</span><strong><span style="letter-spacing: 1px;">保妥适（Botox）在2023年售出56.73亿美元，其中美容用途售出26.82亿，临床治疗用途售出29.91亿</span></strong><span style="letter-spacing: 1px;">。2009年，保妥适正式获批进入中国市场，并从此在国内占有一席之地，2023年国内销售额约6.87亿元。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">虽然近些年，保妥适开始面临吉适、乐提葆以及西马等后来者的挑战，但它的市场份额依旧超过1/2，“全球销冠”地位仍然难以撼动。那么，保妥适到底是靠什么呢？</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">在众多行业人士看来，</span><strong><span style="letter-spacing: 1px;">保妥适之所以能够“一枝独秀”，很重要的一点是在于其开发的适应症非常多。</span></strong><span style="letter-spacing: 1px;">据悉，保妥适在世界范围内目前获批的适应症已超过27个，除美容外，还可以治疗偏头疼、背痛，以及多汗症、眼皮跳、斜视等。并且这还不是终点，根据艾尔建去年第四季度财报分析电话会议内容，保妥适还将向减肥市场发力，重点治疗“司美格鲁肽脸”。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">而除了适应症多，</span><strong><span style="letter-spacing: 1px;">保妥适另一大关键优势则体现在市场推广层面。</span></strong><span style="letter-spacing: 1px;">事实上，作为肉毒素鼻祖，保妥适有一定市场先发优势，并且当前已经建立成熟推广体系。以中国市场为例，保妥适一直坚持医生培训和认证制度，通过公司的“艾尔建学院”，常年与各大医美机构合作“注射医师培训”，这不仅精准扩大了保妥适的市场流量，同时也为品牌积累了较好的口碑。</span></p>
-<section style="text-align: center;">
-<img class="rich_pages wxw-img" data-backh="229" data-backw="546" data-imgfileid="503166711" data-ratio="0.41944444444444445" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241019/v2_e48c85f9a3e6465681dd7c11951f10fd@000000_oswg180910oswg1080oswg453_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/>      
-     <span style="letter-spacing: 1px;"><span style=""><em> 图3. 国内目前已获批6款肉毒素产品（数据来源：公开资料）</em></span></span>    
-    </section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">那么，随着当前越来越多的新产品获批，到底谁能与之一战呢？对此，某资深医美人士谈道，</span><strong><span style="letter-spacing: 1px;">“虽然当前保妥适表现强势，但未来的肉毒素市场仍然是开放的，时间、产品力以及适应症，永远是肉毒素的核心竞争要素。”</span></strong></p>
-<p style="text-align:justify;"><strong><span style="letter-spacing: 1px;">先说时间，这里主要是指肉毒素维持周期。</span></strong><span style="letter-spacing: 1px;">正如前文所说，肉毒素维持周期普遍较短，一般为3-4个月，这主要是因为肉毒素本质为异体蛋白，具有免疫原性，长期使用可能诱导中和性抗体的产生，反复多次注射后，容易产生抗药性或继发性无效。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">而为了解决这一问题，新入局者已经探索出多种路径。以刚刚获批的达希斐为例，作为全球首款专利肽类长效A型肉毒素，其维持周期已经延长至6-9个月，这一方面是因为其拥有专有的肽交换技术（PXT），另外一方面则是因为其赋形剂不含人血蛋白和动物源性成分，因此在治疗过程中发生过敏及免疫反应的概率较低，维持时间随之拉长。</span></p>
-<p style="text-align:justify;"><strong><span style="letter-spacing: 1px;">接着再聚焦产品力。</span></strong><span style="letter-spacing: 1px;">事实上，作为“后来者”，产品力显然是弯道超车的关键，而从目前来看，现有肉毒素产品普遍功效时间较短，且产品通常含有外源性或非活性辅助蛋白及其他梭菌蛋白，存在一定的免疫原性风险。所以，研发更长效、更高纯度、更高安全性的新型肉毒素产品，就成为了未来决胜的先决条件。</span></p>
-<section style="text-align: center;">
-<img class="rich_pages wxw-img" data-backh="337" data-backw="546" data-imgfileid="503166709" data-ratio="0.6162005785920925" data-type="png" data-w="1037" src="https://img.36krcdn.com/hsossms/20241019/v2_c9d512159e5c43dc889a5f4bdf7207a4@000000_oswg58587oswg1037oswg639_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/>      
-     <span style="letter-spacing: 1px;"><span style=""><em> 图4. 天然肉毒素与重组肉毒素差别（资料来源：沙利文）</em></span></span>    
-    </section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">在此背景下，</span><strong><span style="letter-spacing: 1px;">重组技术开始在肉毒素领域广泛应用，有望开启肉毒素新时代</span></strong><span style="letter-spacing: 1px;">。具体而言，重组技术通过工程化设计，可以有效提高肉毒素对受体亲和力，增强内化作用，同时也能降低肉毒素扩散到周围组织的风险，提高使用者的耐受性。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">以华东医药重组A型肉毒素YY001为例，其纯度高达99%以上，这意味着其毒性更强，功效也就因此更好。另外，高纯度也降低了将外源蛋白引入人体有关的免疫原性风险，提高了给药的整体安全性。目前，国内除YY001外，君合盟生物的JHM03和因明生物的YY001-002等同样属于重组蛋白技术，并且当前都已进入临床后期。</span></p>
-<p style="text-align:justify;"><strong><span style="letter-spacing: 1px;">最后关注的是适应症。</span></strong><span style="letter-spacing: 1px;">从“销冠”保妥适市场增长逻辑不难看出，开发新适应症无疑是肉毒素产品提升市场竞争力的一大发展思路。而从现阶段来看，国内已上市肉毒素产品主要集中在消费医疗领域，在严肃医疗领域应用还较少，这将是未来的增量市场。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">比如君合盟生物，其注射用重组A型肉毒毒素JHM03就将适应症瞄向了成人脑卒中后的上肢痉挛治疗。9月14日，君合盟宣布JHM03用于成人脑卒中后上肢痉挛的临床研究已完成首例受试者入组，获批在即。事实上，肉毒素还在消化科、泌尿科、疼痛科、康复科、神经科等有临床落地场景，市场空间亟待挖掘。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">所以整体来看，当前已占据市场主动的保妥适并非不可一战，随着入局者越来越多，以及产品不断迭代，市场格局或许还将重新洗牌。</span></p>
-<h3 label="二级标题" style=""><span style="letter-spacing: 1px;">肉毒素，何时成为下一个玻尿酸？</span></h3>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">事实上，自肉毒素问世以来，其就一直在与玻尿酸进行对比，并号称要打造成为“下一个玻尿酸”，再次创造医美单品奇迹。</span></p>
-<section style="text-align: center;">
-<img class="rich_pages wxw-img" data-backh="208" data-backw="546" data-imgfileid="503166716" data-ratio="0.3802992518703242" data-type="png" data-w="802" src="https://img.36krcdn.com/hsossms/20241019/v2_01d93c016885499bbb9c2fb3d38670d5@000000_oswg60371oswg802oswg305_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/>      
-     <span style="letter-spacing: 1px;"><span style=""><em> 图5. 美国医疗市场产品占比（图片来源：《医美行业专题系列报告：医美注射类产品之玻尿酸&amp;肉毒素》）</em></span></span>    
-    </section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">但从目前来看，肉毒素想要兑现这一目标并不容易，眼下还有很艰难的路要走。根据头豹研究院数据显示，</span><strong><span style="letter-spacing: 1px;">我国肉毒素产品用量远低于玻尿酸，整体市占率不足玻尿酸的1/2</span></strong><span style="letter-spacing: 1px;">。这刚好与国外相反，放眼全球，医美市场中43%的份额被肉毒素占据，而玻尿酸为28%。通过对比，不难看出，肉毒素在国内市场显然是一个被低估的赛道。</span></p>
-<section style="text-align: center;">
-<img class="rich_pages wxw-img" data-backh="298" data-backw="546" data-imgfileid="503166717" data-ratio="0.5446927374301676" data-type="png" data-w="1074" src="https://img.36krcdn.com/hsossms/20241019/v2_3610334893dd4597bf7745bfaa651b5e@000000_oswg114659oswg1074oswg585_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/>      
-     <span style="letter-spacing: 1px;"><span style=""><em> 图6. 玻尿酸和肉毒素对比</em></span></span>    
-    </section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">这其中当然有原因，</span><strong><span style="letter-spacing: 1px;">首先一点是在于肉毒素技术门槛高，政策监管严格。</span></strong><span style="letter-spacing: 1px;">据爱美客招股书透露，Hutox肉毒素建设工期高达65个月，而一款肉毒素产品的审批周期至少在6年以上。因此，在玻尿酸产品遍地开花的时候，肉毒素还只有保妥适和衡力两款产品。虽然近些年肉毒素获批产品已扩大至6款，但与玻尿酸多达30个品类仍然有一定差距。</span></p>
-<p style="text-align:justify;"><strong><span style="letter-spacing: 1px;">另外一点阻碍因素则体现在利润层面</span></strong><span style="letter-spacing: 1px;">。众所周知，玻尿酸又被称为“医美茅”，核心原因是在于其毛利很高，巅峰期平均毛利率高于90%，与茅台基本持平。肉毒素显然不具备这一特征，受研发和生产成本影响，其市场平均毛利维持在60%到80%左右，而随着未来市场竞争加剧，以及信息逐渐透明且扁平化，肉毒素产品均价还将继续下降，利润空间也将进一步压缩。</span></p>
-<p style="text-align:justify;"><strong><span style="letter-spacing: 1px;">最后一点则聚焦于市场风险层面。</span></strong><span style="letter-spacing: 1px;">2023年2月，华熙生物发布公告称，其全资子公司钜朗公司向韩国Medytox（美得妥）提出索赔要求，这意味着其筹划了近七年的肉毒素生意最终“竹篮打水一场空”。据悉，双方终止合作原因是因为Medytox材料造假，且迟迟拿不出产品。虽然华熙生物仍然表示不会放弃肉毒素，但显然已经失去了先发优势。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">这无疑为各大加码肉毒素的企业敲响了警钟。近几年，国内各大厂家纷纷通过代理国外已上市肉毒素产品的方式进军国内市场，这虽然可以缩短上市进程，抢夺先机，但风险同样存在，包括研发进度以及进入中国市场的可能性等等。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">不过，任何事物都有利有弊，虽然从当前来看，肉毒素很难再重新玻尿酸的业绩辉煌，但随着越来越多的头部企业入局，以及更多创新技术的介入，再加上亟待开放的临床应用场景，这一领域的市场潜力仍然值得期待，行业间的竞争也将逐渐趋向白热化，而脱颖而出的关键就在于产品和市场。<strong style="letter-spacing: 1px;text-wrap: wrap;caret-outline-style: initial;text-align: center;"><strong style="outline-style: initial;caret-"><strong style="outline-style: initial;"><strong style="outline-style: initial;"><strong style="outline-style: initial;"><strong style="outline-style: initial;letter-spacing: 1.5px;"></strong></strong></strong></strong></strong></strong></span></p>
-<p style="text-align:justify;"><span style=""><em><span style="letter-spacing: 1px;">* 参考资料：</span></em></span></p>
-<p style="text-align:justify;"><span style=""><em><span style="letter-spacing: 1px;">1.《最美的毒药，爱美客华熙生物们用来止最猛的咳》——钛媒体；</span></em></span></p>
-<p style="text-align:justify;"><span style=""><em><span style="letter-spacing: 1px;">2.《大厂纷争不止，“下一个玻尿酸”距离内卷还有多远？》——氨基观察；</span></em></span></p>
-<p style="text-align:justify;"><span style=""><em><span style="letter-spacing: 1px;">3.《技术迭代，重组技术有望开辟肉毒素新时代》——沙利文。</span></em></span></p>
-</section>
-<p style="text-align:justify;outline: 0px;vertical-align: inherit;letter-spacing: 1px;"><em style="outline: 0px;letter-spacing: 0.544px;"><em style="outline: 0px;letter-spacing: 0.544px;text-indent: 0em;"><em style="outline: 0px;letter-spacing: 0.544px;">*封面图片来源：123rf</em></em></em></p>
-</section>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998675098401155</guid><pubDate>Sat, 19 Oct 2024 09:01:00 +0800</pubDate></item><item><title>真正会说话的人，从来不做这6件事</title><link>https://36kr.com/p/2998688510900613</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p data-mpa-powered-by="yiban.io" style="text-align: center;"></p>
-<p></p>
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section label="powered by 135editor.com" mpa-from-tpl="t" style="white-space: normal;max-width: 100%;background-box-sizing: border-box !important;word-wrap: break-word !important;">
-<section mpa-from-tpl="t" style="max-width: 100%;box-sizing: border-box !important;word-wrap: break-word !important;">
-<section mpa-from-tpl="t" style="max-width: 100%;border-width: 1px;border-style: solid;border-text-decoration: inherit;background-box-sizing: border-box !important;word-wrap: break-word !important;">
-<p style="max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;">本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY4MzQyMQ==&amp;mid=2650144001&amp;idx=1&amp;sn=cb5ae81e5806c3584a8f32e65c7ccf22&amp;chksm=bfbde45d3b8af65651639c5660b3fdb64ee9c27669b9e624cbc107add2ee872b9e46ed823891&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“哈佛商业评论”（ID：hbrchinese）</a>，作者：HBR-China，36氪经授权发布。</p>
-<blockquote>
-<p style="max-width: 100%;min-height: 1em;box-sizing: border-box !important;word-wrap: break-word !important;">职场中，无论你多么处处小心，你也可能会在某个时刻说错话，无意中冒犯或激怒别人。在这种对话中，有一些最常见的错误——一些不合理的词汇和用语，我们往往在不经意间就会用到。不多加留意的话，它们就会给我们带来麻烦。</p>
-</blockquote>
-</section>
-</section>
-</section>
-</section>
-<p></p>
-<h3 label="二级标题" style="">不要认为自己的观点是显而易见的</h3>
-<p></p>
-<p style=""><span style="letter-spacing: 1px;">有时候，如果你觉得自己是百分百正确的，你在说话时就可能会使用“clearly(明显地)”“obviously(显然地)”或“beyond doubt(毫无疑问地)”这样的词。但如果你这么说了，那你就会变成朴素实在论（naive realism）的牺牲品——你觉得你所知道的客观事实，其他人也会清楚地看到并毫无疑问地给予同意。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">但事实是，我们很少处于这样一种客观的、非黑即白的情况之中：<strong>理性的人可能看事情的角度与你不同，或者你需要更有说服力的方法来表达自己的观点。</strong>如果你通过言语(可能只是不经意地)暗示，任何与你不同的观点都是愚蠢的或不重要的，那么其他人就可能会觉得这种说法过于轻率，甚至觉得自己被侮辱了。如果你的确清楚地证明了自己的观点，那你就更没必要说这种话来表明你自己的观点有多么清楚明白或毫无疑问了。因为它们只可能会导致适得其反的效果。</span>      </p>
-<h3 label="二级标题" style="">不要夸大其词</h3>
-<p></p>
-<p style=""><span style="letter-spacing: 1px;">当你和一个曾经多次惹你烦心的人说话时，你可能会发现自己无意中在说“你总是……”或“你从来没有……”这样的话。</span>    
-   <o:p></o:p></p>
-<p style=""><strong><span style="letter-spacing: 1px;">夸大其词会破坏话语的整体可信度，并导致一场关于频率而非关于内容本身的争论。</span></strong><span style="letter-spacing: 1px;">“那不是真的，”对方可能会反驳，然后告诉你这件事情发生的具体日期，或举出与你说法相反的例子。</span>    
-   <o:p></o:p></p>
-<p style=""><strong><span style="letter-spacing: 1px;">如果你的目的是让人们开始或停止做某事，那就专注于这件事情本身。</span></strong>      </p>
-<h3 label="二级标题" style="">不要告诉别人他们“应该”做什么</h3>
-<p></p>
-<p style=""><span style="letter-spacing: 1px;">告诉别人他们应该做什么，这种说法里面隐藏了一种价值判断——“你应该做某件事”意味着事情本来就应该是这样的。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">当然，如果你是一个群体价值观和企业文化的领导者，那么有时的确需要非常清楚人们应该做什么或彼此应该如何相处。然而，在其他时候，尤其是当你并非和自己的下属交流时，“应该”这种说法并不能让他们产生服从的意愿。</span>    
-   <o:p></o:p></p>
-<p style=""><strong><span style="letter-spacing: 1px;">当人们更愿意自我决定该做什么时，他们会极不适应“应该”这种陈述所带给他们的价值评判</span></strong><span style="letter-spacing: 1px;">——就好像没有你的“应该”，他们就没法得出正确的结论似的。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">类似于“你或许可以考虑一下……”或“有这种可能……”或“你有没有想过这样？”这种说法能够增加你的话语影响力。</span></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-backh="315" data-backw="561" data-imgfileid="502660352" data-ratio="0.5623529411764706" data-s="300,640" data-type="png" data-w="850" src="https://img.36krcdn.com/hsossms/20241019/v2_c46faf7ad6944dd78f42704204a328bb@000000_oswg475616oswg850oswg478_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="box-shadow: rgb(210, 210, 210) 0em 0em 0.5em 0px;border-radius: 9px;width: 100%;height: auto;"/></p>
-<h3 label="二级标题" style="">不要因为自己的情感而责怪他人</h3>
-<p></p>
-<p style=""><span style="letter-spacing: 1px;">如果你对某人的所作所为感到不适，那么产生情绪反应是很自然的，因为你也是人（这是作为人该有的正常心理反应）。但是向别人说出这些感觉背后的原因却毫无助益，甚至会适得其反。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">比如，设想一下，当你开始说话时，同事打断了你，你马上就会有生理反应——脸会发红，心率会飙升。你可能很想说：“你打断我的时候，你让我很生气。”但是，如果你这么做，结果很可能会以争吵告终。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">为什么呢？<strong>因为人们讨厌因为某些事情或行为而被指责——尤其是那些伤害他人的言语或行为。</strong>因此，他们不会道歉，更不会改变自己的行为，而是会为自己辩护——他们会为自己的具体言辞和整体意图或性格辩护。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">因此，你可以说：“嘿，你这么快就打断了我，我觉得很不受尊重(或伤心或生气)。”你能不能别那么做？”或者你可以说：“在我讲完之前请不要打断我好吗？”没有必要说任何关于你的感受的话，而是要专注于手头上的话题。</span>      </p>
-<h3 label="二级标题" style="">不要随便质疑别人的人品</h3>
-<p></p>
-<p style=""><span style="letter-spacing: 1px;">有时候，你可能会觉得有些人的做法是“不专业的”“错误的”甚至是“不道德的”。但是，如果你使用这样的词语，那么被攻击的人很有可能会变得戒备心很强。人类有一种强烈的需求，会认为自己的所作所为是正派和道德的。如果你对他们问题行为的描述威胁到了他们的核心自我意识，那么他就很有可能抛开眼前的问题，转而为自己的性格辩护。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">相反，<strong>你可以试着用那些相对温和的说法开头。</strong>比如，有人错过了截止日期，我们建议你这样说：“这么做妨碍了我们完成任务”，而不是给他贴上“不专业”的标签；或者，有人为了让自己的部门看起来表现更好而篡改了数据，你可以说这“不符合我们的核心价值观”或“可能破坏信任和我们对学习的热情”，而非称之为“错误的”或“不道德的”。</span></p>
-<h3 label="二级标题" style=""><span style="letter-spacing: 1px;">不要说“这并非私人恩怨”</span></h3>
-<p></p>
-<p style=""><span style="letter-spacing: 1px;">根据我的经验，当人们(潜意识里)知道一件事对另一个人来说很私人化的时候，他们就会说“这并非私人恩怨”或“不要把它当作私人恩怨”。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">在电影《电子情书》（You’ve got mail)中就有一个很好的例子，电影中，汤姆·汉克斯饰演的大卖场书店主管告诉梅格·瑞恩饰演的小型独立书店的老板，说他打算在附近开一家书店，让她代代相传的家庭书店关门大吉，而这并非私人恩怨。这件事情对她来说无疑是非常私人的。因此，可以理解的是，听到这句话只会让梅格·瑞恩饰演的角色更加愤怒。</span>    
-   <o:p></o:p></p>
-<p style=""><strong><span style="letter-spacing: 1px;">当有人被你说的话或做的事所伤害、感到生气或明显受到影响时，告诉他们这不是个人恩怨只会雪上加霜。</span></strong><span style="letter-spacing: 1px;">如果你真的在乎他们，为什么不大胆地承认，即使这件事对自己来说并非私人的，但对他们来说却是私人的？如果你做不到这一点，就不要说任何有关“私人恩怨”的话。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">最后我再加一句评论。人们总是说：“别为小事犯愁。”不幸的是，在棘手的对话中，这种说法并非一个很好的建议。你在各方面可能都很正确(你已经具备了有说服力的核心论点、准确的数据和解决方案，以及合理的时间安排与计划等等)，但却发现，由于上述小小的沟通失误，你正在一点点地偏离自己的目标。</span>    
-   <o:p></o:p></p>
-<p style=""><span style="letter-spacing: 1px;">好消息是，把这些小事情做好也是非常可行的——只需要注意并尽量减少使用这些有问题的词汇和短语。</span>     </p>
-<p style="  "></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998688510900613</guid><pubDate>Sat, 19 Oct 2024 09:03:00 +0800</pubDate></item><item><title>IP老、改编难、演员“糊”，难怪这届古偶不扛打</title><link>https://36kr.com/p/2998130980682116</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p></p>
-<section data-mpa-powered-by="yiban.io" style="margin-bottom: 0px;">
-<p label="正文" style="">本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MzI2MDI4NjQ3Mw==&amp;mid=2247558873&amp;idx=2&amp;sn=84b23d8270e5edbf4e7d6d54dbf48eab&amp;chksm=eb7ec530e749613bae1ed1cbbf01ed88b57ab631fbc3a5414f044c0cb59c150288bc736070d0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“犀牛娱乐”（ID：piaofangtoushijing）</a>，文：沈婉婷，编辑：朴芳，36氪经授权发布。</p>
-<p label="正文" style=""><span style="letter-spacing: 0px;  ">古偶又双叒叕扑了。</span><span style="letter-spacing: 0px;">      </span></p>
-</section>
-<section style="  margin-bottom: 0px;">
-<p label="正文" style=""><span style="">古偶遇冷，在2024年的剧集市场已见怪不怪。</span>    
-    <o:p></o:p></p>
-<p label="正文" style=""><span style="">就拿最近的来说，进入10月后，爱腾优芒果四家相继抬上了《七夜雪》《锦绣安宁》《春花焰》三部古偶，尽管每部皆是“知名IP+流量演员”的配置，且在当下剧集市场形成“三足鼎立”之势，但从播放热度和口碑表现来看，三者基本都与年度爆款无缘。</span>    
-    <o:p></o:p></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-imgfileid="100075205" data-ratio="0.5333333333333333" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_a5b000a5bbb2413190aea4e9aacf5467@000000_oswg867094oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style=""/></p>
-<p style="margin-bottom: 0px;"><span style="">另一边，在爱优腾发的新一波大剧片单中，待播古偶仍是一茬接一茬地在往出涌。如18日腾讯视频发布“2025鹅厂大剧片单”，其中不乏《大奉打更人》《永夜星河》《子夜归》《赴山海》《九重紫》等品相上乘的古偶，却似乎都没有掀起太多水花，甚至不及#徐梦洁吴俊霆恋情#获得的关注多。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">曾经自带粉丝底盘的古偶究竟怎么了？互联网思维下的“大IP+大流量”爆款公式还灵吗？</span>   </p>
-<h3 label="二级标题" style="">古早IP“依赖症”？ </h3>
-<p style="margin-bottom: 0px;"><span style="">如今的古偶，大部分都改编自网文IP，就像近期扎堆上线的《七夜雪》《锦绣安宁》《春花焰》，分别改编自沧月的同名小说、闻檀的《首辅养成手册》、黑颜的《春花厌》，并且三者还有一个共同点：都是陈年老IP，出版时间最晚的都要追溯到2017年。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">虽说三部剧的原著或作者在小说界都有一定名气，但事实证明古早IP的情怀牌并不是每次都好使。不管是以走“极致be美学”路数的《七夜雪》，还是上演“伪骨科禁忌恋”的《锦绣安宁》，抑或是顶“疯”相见的《春花焰》，都没能精准切中当下观众的口味。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">以三部中IP最具知名度的《七夜雪》为例，原著作者沧月，内地武侠作家的后起之秀；原著同名小说，被誉为其具有里程碑意义的最重要代表作，豆瓣评分达8.4分。</span>    
-    <o:p></o:p></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-imgfileid="100075204" data-ratio="0.35795454545454547" data-s="300,640" data-type="png" data-w="704" src="https://img.36krcdn.com/hsossms/20241018/v2_fa298152938048189ce5c50f221a50d8@000000_oswg81171oswg704oswg252_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="border-style: solid;border-width: 1px;box-sizing: border-box;border-"/></p>
-<p style="margin-bottom: 0px;"><span style="">这并不是沧月的第一部改编剧，可惜的是，回顾其过往被影视化的那些作品如《镜双城》《听雪楼》《玉骨遥》等，改编效果都非常一般，豆瓣评分最高者也只有6.3分。而《七夜雪》的命运目前看来也不容乐观，截至目前在爱奇艺站内的热度值尚未突破8000，集均有效播放量亦不足1500万。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">抛开剧集制作层面的原因，很显然这种拧巴又决绝的早期BE文学已经很难获得这届年轻观众的青睐了，在《七夜雪》原著的豆瓣评论区，就有看过剧的书迷重新发表评论，表示多年后的今天再来看当年的小说，要求和口味都变得更“刁钻”。</span>    
-    <o:p></o:p></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-imgfileid="100075206" data-ratio="0.425" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_f479b0e642944fe3a6adf8c8ade88168@000000_oswg1016827oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style=""/></p>
-<p style="margin-bottom: 0px;"><span style="">可见时代在变，观众的审美也在变，那么甄选IP的剧方和平台是不是也该换换品味呢？</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">然而纵观几家平台的古偶库存，古早IP的囤积远比想象中要多。例如腾讯最新公布的古偶片单里，《赴山海》由“新武侠四大宗师”之一温瑞安的小说《神州奇侠》改编，该小说出版时间为1995年；又如屡屡传出定档消息的优酷古偶《珠帘玉幕》改编自晋江作家谈天音的小说《昆山玉之前传》，09年开始连载；再如爱奇艺的待播古偶《念无双》改编自十四郎的小说《天下无双》，于2014年出版；等等。</span>    
-    <o:p></o:p></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-imgfileid="100075207" data-ratio="0.5925925925925926" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_6f6ec522daca496891370e70b942ac40@000000_oswg1271761oswg1080oswg640_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style=""/></p>
-<p style="margin-bottom: 0px;"><span style="">看看这些古早IP，再看看一部又一部的“前车之鉴”，犀牛君只能说，既然还是这么多人选它们，那一定有他的道理。</span>      </p>
-<h3 label="二级标题" style="">改编是门学问</h3>
-<p style="margin-bottom: 0px;"><span style="">而且，古偶们“扑街”这口大锅，怎么能由IP独自背起呢？毕竟IP买进门，改编靠个人；只要改得好，古早IP也能与今天的用户产生联结与共情。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">不过更多的是改编翻车的案例。比如今年上半年最受期待的漫改大IP《狐妖小红娘月红篇》就因未能把握好漫画的剧情内核和人物设定受到众多原著粉的“声讨”，最终豆瓣评分仅为5.3，播放数据也远不及预期。</span>    
-    <o:p></o:p></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-imgfileid="100075209" data-ratio="0.4605809128630705" data-s="300,640" data-type="png" data-w="723" src="https://img.36krcdn.com/hsossms/20241018/v2_fcc6cd75eb5b475b8ceb5de5bc88b7dc@000000_oswg152996oswg723oswg333_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="border-style: solid;border-width: 1px;box-sizing: border-box;border-"/></p>
-<p style="margin-bottom: 0px;"><span style="">暑期档的《四海重明》亦是如此，剧版的世界观和故事都失去了原著小说的独特气质，反而陷入了低幼化的“宝宝仙侠”怪圈，不仅失去原著粉的拥护，狗血套路的情节也未能吸引到太多新的剧粉。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">事实上，关于IP剧怎么改和改多少，这个尺度一直都很难把控；既不能原封不动地照搬，也不能改得面目全非丢掉原著精髓。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">相对稳妥的做法是，在尊重原著基础设定和主线剧情的前提下进行合理化的改编。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">今年在这一点上做得比较成功的古偶是改编自九鹭非香小说《本王在此》的《与凤行》，电视剧对书中名场面的还原度被很多网友称之为“抠书级”，部分细节的补充和改动也颇有锦上添花的感觉，这与原著作者亲自操刀担纲编剧一职不无关联。</span>    
-    <o:p></o:p></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-imgfileid="100075210" data-ratio="1.25" data-s="300,640" data-type="png" data-w="960" src="https://img.36krcdn.com/hsossms/20241018/v2_5a8ed3a428e5480088204e5e1c452da8@000000_oswg1482925oswg960oswg1200_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style=""/></p>
-<p style="margin-bottom: 0px;"><span style="">无独有偶，九鹭非香另一部代表作《苍兰诀》也在播出当年获得了现象级的反响，不同的是，《苍兰诀》是“魔改”原著的成功代表。相较于原著，剧版的风格更加明亮，并在人设和主题上进行了丰盈和升华，最关键在于将古偶最精华的男女主暧昧拉扯的部分设计得尤为细腻，再加上选角贴脸、剧情丝滑，最终作品和演员都名声大噪。</span>    
-    <o:p></o:p></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-imgfileid="100075211" data-ratio="0.5731481481481482" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_d0a4f10f99d14dc8b51cb40987e1f77c@000000_oswg1383431oswg1080oswg619_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style=""/></p>
-<p style="margin-bottom: 0px;"><span style="">由此看来，IP剧的改编并没有一个标准的方法论，高还原度不容易出错，改得多也不一定不能出圈，归根结底还是考验编剧讲故事的功底。</span></p>
-<p style="margin-bottom: 0px;"><span style="">再或者我们换一个思路，做原创剧本的步子能不能迈得大一点？虽然比起IP改编剧，原创古偶出爆款的几率小之又小，但近两年也跑出了一些“黑马”，去年年末的《一念关山》、今年上半年的《花间令》都还获得不错的关注和讨论。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">总之，网文IP的巨大版权库虽好，但也切莫丧失了原创的能力和动力。</span>    
-    <o:p></o:p></p>
-<h3 label="二级标题" style="">“流量”降级</h3>
-<p style="margin-bottom: 0px;"><span style="">最近，内娱一张“古偶换乘恋爱图”登上微博热搜引发广泛热议，对于现下古偶赛道主演“换乘恋爱”的现象，观众已经越来越不买账。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">相似的题材、特定的几对演员，用网友的话来说，古偶里来回就是那些人在谈恋爱。的确，不管是在播的还是待播的，古偶演员们总是那老几位95和00生花们内部排列组合，如正在优酷热播的《春花焰》的女主吴谨言和男主刘学义分别出演了同平台古偶《墨雨云间》和《花间令》；《锦绣安宁》的男主张晚意今年已播出三部古偶，分别搭档杨紫、王楚然、任敏，他在剧中妆造、人设却并无太高区分度。</span>    
-    <o:p></o:p></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-imgfileid="100075212" data-ratio="0.8898148148148148" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_29a4760dd13a41e4b58cd6a6e3284756@000000_oswg1562429oswg1080oswg961_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style=""/></p>
-<p style="margin-bottom: 0px;"><span style="">待播古偶中亦有多部主演存在重合，如白鹿将在《白月梵星》和《衡门有狐-临江仙》分别搭档敖瑞鹏和曾舜晞，而敖瑞鹏又与近期刚完播的《流水迢迢》女主李兰迪共同主演《朝雪录》，曾舜晞则正在《七夜雪》中与李沁上演虐恋情深。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">“换乘恋爱”是一方面，如今古偶的演员配置相比85花统治的时期，只能算是“低配版”流量，差不多的人演着差不多的剧情，还夹杂着一些资本家的“私货”，真正能让观众记住的却没几个。不得不承认，古偶剧演员的审美正在经历着大降级。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">而一部古偶的火爆离不开让观众心甘情愿地“嗑CP”，《苍兰诀》王鹤棣和虞书欣的“棣心引力”、《星汉灿烂》吴磊和赵露思的“吴露可逃”，哪一部没有被嗑出一两个新晋顶流来？可要命的是在选角之前是否应该首先考虑角色贴不贴脸、演员是否能驾驭，而非高频使用那些看似一时处于巅峰实则随时会被下一波流量替代的小生小花们呢？</span>    
-    <o:p></o:p></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-imgfileid="100075213" data-ratio="0.7129629629629629" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241018/v2_8cb173560423403a91e7174872dacfe4@000000_oswg1523610oswg1080oswg770_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style=""/></p>
-<p style="margin-bottom: 0px;"><span style="">比起大批量地接题材相近、人设雷同地本子，年轻演员们不如好好磨练下自身的业务水平，倘若有一天演着演着自己都入不了戏，观众又怎么可能代入呢？</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="">综上，古偶爆款公式失灵的原因是多种多样的，但有一点可以肯定的是，在信息化高速发展的时代，观众审美的迭代速度是呈倍数级的，如果还继续在老一套的制作法则下停滞不前，古偶大盘只会越来越冷。</span>    
-    <o:p></o:p></p>
-<p style="margin-bottom: 0px;"><span style="letter-spacing: 0.034em;">是时候变变了。</span></p>
-</section>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998130980682116</guid><pubDate>Sat, 19 Oct 2024 09:12:00 +0800</pubDate></item><item><title>聊聊99%游戏厂商都没注意到的设计难题</title><link>https://36kr.com/p/2998061401340297</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 19 Oct 2024 11:30:35 +0800</lastBuildDate><pubDate>Sat, 19 Oct 2024 11:30:35 +0800</pubDate><item><title>聊聊99%游戏厂商都没注意到的设计难题</title><link>https://36kr.com/p/2998061401340297</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>以前在PvP游戏里看到有人喷“老子不用手都玩得比你好”时，总以为是大家刻意在用夸张手法去嘲讽对手。但最近偶然在网上刷到一个玩家视频后，我有些懵了——这句看似离谱的嘲讽，其实也可能是实话？ </p>
 <p>毕竟，没有手的小卢，凭两条手臂，就打到了《英雄联盟》一区的大师400点，操作不仅流畅，还骚。 </p>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241018/v2_8c4d32d8759b43159c6a1f0c8dfa1f8f@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
@@ -557,4 +263,262 @@
 <p>纬尔科技的插秧作业质量监测模组产品，则以模块化的形式，安装在插秧机旋转箱中间的支臂上，通过人工智能技术，可以精准识别高速插秧作业中的漏苗情况，及时发出声光报警提示。云平台实时生成缺苗热力图，清晰显示漏苗区域，用户通过大数据看板实时统计分析作业面积，工作效率以及作业质量评估等信息，并且支持离线作业，对农田进行全面管理，实现精细化增产。</p>
 <p>市场拓展方面，纬尔科技的棉花智能打顶机器人目前处于小批量试产阶段，已在新疆生产建设兵团第六、七、八师以及阿克苏等地方销售，协助新疆农业服务商承接超10万亩棉花打顶任务。目前产品已经完成第二代的迭代，软件、硬件、结构、算法均实现了全链路的产品功能开发。</p>
 <p>“目前全球农机巨头都在进行农机智能化转型，这也是中国农机制造业弯道超车的历史性机遇。在智能化的农机上，最核心的产品竞争力将会是精准作业能力。践行‘农艺即农具’的产品化思路，用科技赋能农业生产力是纬尔科技团队的愿景。”柳铮告诉36氪。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2997720301072003</guid><pubDate>Sat, 19 Oct 2024 10:30:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2997720301072003</guid><pubDate>Sat, 19 Oct 2024 10:30:00 +0800</pubDate></item><item><title>豆包AI耳机开售，字节硬件梦又来一个过客</title><link>https://36kr.com/p/2997971658831488</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>AI的火爆让市面上再次出现一系列创新硬件，但细看之下却没几个留得住消费者。</p>
+<p>近日，字节跳动豆包成功首发其首款AI智能体耳机OlaFriend，并已于10月17日正式发货。</p>
+<p>不过，字节跳动跨越应用软件层，踏入硬件端侧的第一步走得有点险。截至目前，OlaFriend在天猫等平台上的销售量将将千部。</p>
+<p>或许，在端侧AI化元年，AI智能体耳机的市场接受程度仍未明朗。OWS耳机虽然趋势明确，但终归是小众市场。</p>
+<p>对着耳机用AI，和对着其他硬件用AI差不多，都解决不了消费者的习惯问题。</p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img js_insertlocalimg" data-backh="441" data-backw="578" data-imgfileid="100057394" data-ratio="0.7622180451127819" data-s="300,640" data-type="png" data-w="1064" src="https://img.36krcdn.com/hsossms/20241018/v2_2830769fff1746cea5253e56d30bf487@000000_oswg442742oswg1064oswg811_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width: 100%;height: auto;transition: 0.2s ease-out, transform-origin;"/>
+</section>
+<h3 label="二级标题" style=""><span style="-webkit-tap-highlight-outline: 0px;letter-spacing: 1px;">软、硬两手，字节跳动都想抓</span></h3>
+<p>根据新品发布资料，字节跳动发布的这款智能体耳机OlaFriend是一款开放性耳机。</p>
+<p>相比传统耳机，其最大的“卖点”在于联动了字节跳动旗下豆包AI大模型。</p>
+<p>正如目前市场将豆包、文心一言、讯飞星火、ChatGPT定义为聊天机器人，接入了豆包大模型的OlaFriend，能在形式上给到了用户更真切的“聊天”情绪价值。</p>
+<p>用户戴上后不再必须打开手机，以文字输入方式与之交流，可直接触摸耳机或者说出唤醒词“豆包豆包”，通过语音对话方式就可直接调用手机上的豆包App进行交流、操作。例如通过通用智能，用户可以实现旅游、英语学习、聊天等场景体验。</p>
+<p>作为一家软科技起家的大厂，字节跳动是在2019年首次较为明确地宣布布局硬件产品端。</p>
+<p>当时还计划于2020年初发布一款直接面向用户的K12教育硬件产品。该项目的负责人阳陆育负责也曾在朋友圈证实了这一消息。</p>
+<p>只是后来遇上了“双减”，再加上这个赛道的格局本身也相对集中且稳定，因此没有了后续。</p>
+<p>除此之外，字节跳动还接连涉足了手机、VR硬件领域，先后收购了锤子科技、PICO等硬件公司，但最终效果都不尽如人意。如2021年，字节跳动耗费数十亿元收购进军VR领域，但这个项目在去年伴随VR的低迷也戛然而止了。</p>
+<p>2024年，AI风口的爆发驱动了字节跳动重拾这一产业计划。</p>
+<p>相比此前接连被扼杀的手机、教育硬件、VR等产品，这一次字节跳动更成熟了，选择了生产、研发周期都较更短，以及资产、技术壁垒都相对较低，且能高度匹配其核心AI软件的耳机赛道，并以简单且“粗暴”的并购方式，最快速地孵化了真正意义上的第一款硬件产品。</p>
+<p>从５月豪掷约5千万美元收购耳机制造商OlaDance（即深圳市大十未来科技有限公司），9月前后正式完成收购，到10月正式发布首款AI智能体耳机OlaFriend，仅用时５个月。</p>
+<p>其中字节跳动最弱势的硬件部分，据《科创板日报》报道，正是由原Oladance团队完成。</p>
+<p>而这次的成功之后，或许可能让字节跳动在软硬一体的科技赛道中越走越顺，越走越深入。据澎湃新闻，这款耳机是豆包在AI场景的一个探索和尝试，豆包的各种能力也会在后续持续迭代，为用户在生活中各个场景提供帮助。</p>
+<h3 label="二级标题" style="">竞争之中，字节跳动未来胜负难预</h3>
+<p>整体来说，字节跳动首个硬件单品的市场成效目前还难以评判，但可以肯定的是，耳机这条路并不容易走。</p>
+<p>据GIR数据显示，2024年上半年，中国蓝牙耳机市场出货量同比20.8%至5540万台。其中，TWS（真无线耳机）占据总量的超六成，但增速仅为5.6%。</p>
+<p>而字节跳动选择的OWS开放式耳机则市场增长势头更强劲，上半年出货量1184万台，同比增长超３倍，贡献了主要的增量需求。</p>
+<p>但是激增的市场需求下，新旧参与者间的竞争也不容忽视。</p>
+<p>作为一个以补充功能为主需求的小消费电子赛道，国内耳机产品行业呈现一个典型的多元化格局。</p>
+<p>其中，华为、小米、苹果等智能手机品牌凭借品牌效应、技术创新以及与各自智能手机生态系统的协同优势等，占据了近一半市场份额。据Ｃａｎａｌｙｓ统计数据，2024年上半年，国内耳机市场中，小米占到20%、苹果约13%、华为约12%。</p>
+<p>其次，则是漫步者、索尼、森海塞尔等在耳机领域积累了深厚技术和品牌口碑的传统音频厂商。这部分厂商虽然没有强大的终端生态协同优势，但在其产品在音质都表现了较高的水准。</p>
+<p>剩余则是一些持续崛起的海内外新兴品牌，这些新兴品牌大多是抓住了年轻消费者的个性化需求以及互联网电商的流量密码，以特定细分市场、或创新设计切入，从而在激烈的竞争中分得一杯羹，例如主攻运动的韶音、JBL，主攻游戏的雷蛇、罗技等。</p>
+<p>字节跳动的选择正是基于强大的AI软件实力，走技术创新＋高效营销这条道路。据第三方数据显示，基于豆包大模型打造的豆包APP月活用户数在上半年已达到2752万，是第二名的2.43倍，已成为国内最活跃的AIGC类应用产品。</p>
+<p>借助豆包AI带来的价值增量，截至10月18日，OlaFriend天猫旗舰店粉丝数超1.8万，京东自营旗舰店粉丝则已超８万。其中，天猫平台的豆包AI智能体耳机销售量已成功破千。 </p>
+<p style='-webkit-tap-highlight-margin-bottom: 0px;outline: 0px;PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;text-wrap: wrap;background-letter-spacing: 0.578px;'><span style='PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif; letter-spacing: 0.578px;'></span></p>
+<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-backh="603" data-backw="337" data-imgfileid="100057393" data-ratio="1.7893175074183976" data-s="300,640" data-type="png" data-w="337" src="https://img.36krcdn.com/hsossms/20241018/v2_6ed064b20b8e4dfdb78d07866c67b092@000000_oswg228663oswg337oswg603_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1" style="width: 100%;height: auto;"/></p>
+<h3 label="二级标题" style="">向下延伸，向内破壁</h3>
+<p style='-webkit-tap-highlight-margin-bottom: 0px;outline: 0px;PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;text-wrap: wrap;background-letter-spacing: 0.578px;'><span style='PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif; letter-spacing: 0.578px;'></span></p>
+<p>那么，经历过多次破圈失败后，字节跳动这次为什么再次坚定选择跨越产业内部壁垒，要向垂直硬件端深入？</p>
+<p>其一，“借道”摸索AI大模型的盈利答案。全球生成式AI大模型在过去一年的商业化进展中，尚未有企业琢磨出可持续的正向盈利模式。</p>
+<p>但是，近一年来自“AI”成为科技电子赛道的主打卖点后，包括华为、苹果、三星、ViVo等海内外全球知名硬科技企业都纷纷持续推出打上了各种“AI”标签的手机、耳机、眼镜等新品，并取得不错的成效。</p>
+<p>以最典型的AI手机市场为例，从此前苹果透露要发布携带全新智能体的AI手机后，这个赛道的投资热度就持续高涨。</p>
+<p>消费市场也同步有着不俗表现，数据显示，2024Q1，中国大陆市场AI手机出货量达 1190 万部，成为第二大AI手机市场。按照IDC曾预测的，2024年AI手机的同比增长幅度将高达364%，渗透率将19%。可见，以AI为卖点的电子产品前景之好。</p>
+<p>按照这一思路反向思考，主攻应用软件端的企业，也可以借助“AI智能助手”涉足硬产品，将其应用软件产品带入消费市场之中，并直至消费者品牌心智的培育。</p>
+<p>甚至还能同步缓解其与众多产业话语权更强的硬科技企业在“AI大模型”这一赛道中共同竞争的焦虑。</p>
+<p>而在这些细分产品中，相比手机、VR等，其中同样拥有极高普及率，且打上“AI”标签后也表现不俗的耳机领域，则成为字节跳动的最佳选择，根据洛图科技的报告数据，今年8月，耳机/耳麦在中国线上传统电商平台（不含拼抖快）的销量、销额均只是维持微增态势，增速分别仅为8.2%、2.5%。</p>
+<p>但其中，具有AI功能的耳机结构性表现很可观。同期销额占比虽然仍只有1.4%，但同比同期销量增长了763.3%，销额则增长了1447.2%。</p>
+<p>并预计2024年全年，国内AI耳机的电商市场销量有望突破20万副，增速将接近4.9倍。</p>
+<p>渗透率足够低、但增速又足够快，选择AI耳机赛道来兑现豆包APP的市场价值、经济价值无疑成为字节跳动可行性极高的方式了。</p>
+<p>其二，过去在国内市场中容易被忽视的是，在整个泛科技产业链中，华为、苹果等掌握价值量最大环节的终端厂商，是一直把控着更多的产品话语权。包括此前苹果强势与腾讯在分成问题上进行博弈就是最典型的表现。</p>
+<p>从这一角度来说，借助豆包AI大模型产品向硬件端开拓，或许能让字节跳动有着更强的产业地位。</p>
+<p>或许也是这多年来，字节跳动一直执着于跨越产业内部壁垒，要向垂直硬件端深入的另一层原因。即使不是，至少这一逻辑也是有理可证的。</p>
+<p style='-webkit-tap-highlight-margin-bottom: 0px;outline: 0px;PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;text-wrap: wrap;background-letter-spacing: 0.578px;'><span style='PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif; letter-spacing: 0.578px;'></span></p>
+<h3 label="二级标题" style="">结语</h3>
+<p style='-webkit-tap-highlight-  margin-bottom: 0px;  outline: 0px; PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif; text-wrap: wrap; background- letter-spacing: 0.578px;'><span style='PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif; letter-spacing: 0.578px;'></span></p>
+<p>当然，从体验端来说，由于当前字条跳到推出的豆包 AI 智能体耳机，适用范围目前限定在豆包 APP 中，这意味着如果要让消费者有为豆包APP单独付费的意愿，那么豆包 APP 内在的应用内容必须丰沛、全面，且做到极致的智能使用体验感。</p>
+<p>因为，未来字节跳动想要以AI为底色，继续尝试更多的软硬联动产品破圈，这对其应用生态圈的构造将提出极大的考验。 </p>
+<p style='-webkit-tap-highlight-  margin-bottom: 0px;  outline: 0px; PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif; text-wrap: wrap; background- letter-spacing: 0.578px;'><span style='PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif; letter-spacing: 0.578px;'></span></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2997971658831488</guid><pubDate>Sat, 19 Oct 2024 11:00:00 +0800</pubDate></item><item><title>谷歌人事巨震！Gemini团队并入DeepMind，搜索管理层换血，原主管升级CTO</title><link>https://36kr.com/p/2998051674503552</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p style="white-space: normal;">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652775159&amp;idx=2&amp;sn=d95fbd78cb746043c92545e0aa48dc7e&amp;chksm=85b2db3146042adcd6b43758ac511e5fc81dcfa75ce77cbb2f87c83564c95647794508a7081a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“智东西”（ID：zhidxcom）</a>，作者：徐 豫，36氪经授权发布。</p>
+<p style="white-space: normal;"><span style='Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;   letter-spacing: 0.5px;'>智东西10月18日消息，谷歌今日发公告宣布，将Gemini app大模型应用团队并入其顶级AI研究机构Google DeepMind，以提高AI研发工作的效率。</span><span style='letter-spacing: 1.5px; Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif; '></span></p>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">而谷歌智能语音助手Google Assistant团队则将并入该公司的平台和设备团队，以便加速其智能家居计划的落地。</span>
+</section>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">与此同时，原本负责谷歌搜索和广告业务的普拉巴卡尔·拉加万（Prabhakar Raghavan）将出任谷歌CTO，相关工作将由谷歌产品管理副总裁尼克·福克斯（Nick Fox）接任。</span>
+</section>
+<p style="visibility: visible;box-sizing: border-box;margin-bottom: 0px;"><img class="rich_pages wxw-img" data-ratio="0.705" data-w="1000" src="https://img.36krcdn.com/hsossms/20241018/v2_3243009692d74434b3af2e6b0b806502@000000_oswg414222oswg1000oswg705_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1" style="border-radius: 5px;vertical-align: middle;display: block;width:100%;"/></p>
+<p style="white-space: normal;visibility: visible;"><span style="visibility: visible;letter-spacing: 0.5px;">▲谷歌组织架构调整公告截图（图源：谷歌博客）</span></p>
+<h3 label="二级标题" style=""><strong style="max-width: 100%;letter-spacing: 0.5px;box-sizing: border-box !important;overflow-wrap: break-word !important;">Gemini模型和应用团队合并，</strong><strong style='text-align: center; Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif; max-width: 100%;  letter-spacing: 0.5px; box-sizing: border-box !important; overflow-wrap: break-word !important;'>AI技术更新落地更流畅</strong><span style='text-align: center;  Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;'></span></h3>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">由思茜·肖（Sissie Hsiao）领导的Gemini app团队，将并入杰米斯·哈萨比斯（Demis Hassabis）领导的Google DeepMind团队，后续向哈萨比斯汇报工作。DeepMind是谷歌的AI研究实验室，其核心技术是一系列Gemini AI模型。</span>
+</section>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">谷歌及其母公司Alphabet的CEO桑达尔·皮查伊（Sundar Pichai）称，考虑到Gemini app是to C的产品，将其开发团队和Gemini模型开发团队之一整合在一起，不仅可以更高效地在Gemini app中部署最新版的Gemini模型，还能更及时地收集用户反馈，以便优化调整Gemini模型。</span>
+</section>
+<p style="visibility: visible;box-sizing: border-box;margin-bottom: 0px;"><img class="rich_pages wxw-img" data-ratio="1.525" data-w="1000" src="https://img.36krcdn.com/hsossms/20241018/v2_2bdd6b9b1456445299094ec6c26249dd@000000_oswg218567oswg1000oswg1525_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1" style="border-radius: 5px;vertical-align: middle;display: block;width:100%;"/></p>
+<p style="white-space: normal;visibility: visible;"><span style="visibility: visible;letter-spacing: 0.5px;">▲谷歌Gemini app和谷歌智能语音助手Google Assistant（图源：谷歌博客）</span></p>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">与此同时，专注于设备和家庭体验的Assistant（智能语音助手）团队将并入平台和设备（Platforms &amp; Devices）团队，以便熟悉其设计研发的产品实体。</span>
+</section>
+<p style="white-space: normal;text-align: justify;"><span style="letter-spacing: 0.5px;">这个决定旨在集中力量推动谷歌的智能家居计划，并进一步提升用户体验。</span></p>
+<h3 label="二级标题" style=""><strong style="text-align: center; max-width: 100%;  letter-spacing: 0.5px; box-sizing: border-box !important; overflow-wrap: break-word !important;">回归计算机科学专业领域，</strong><strong style='text-align: center; Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif; max-width: 100%;  letter-spacing: 0.5px; box-sizing: border-box !important; overflow-wrap: break-word !important;'>拉加万出任谷歌CTO</strong><span style='text-align: center;  Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;'></span></h3>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">谷歌搜索和广告业务前高级副总裁普拉巴卡尔·拉加万（Prabhakar Raghavan）将转任谷歌首席技术官。</span>
+</section>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">过往的12年时间里，拉加万在谷歌曾带领过研究（Research）、办公软件（Workspace）、广告（Ads）、知识与信息（K&amp;I）团队。</span>
+</section>
+<p style="visibility: visible;box-sizing: border-box;margin-bottom: 0px;"><img class="rich_pages wxw-img" data-ratio="0.663" data-w="1000" src="https://img.36krcdn.com/hsossms/20241018/v2_f01a2da0bf7544a39f82b01eedc56ca4@000000_oswg570904oswg1000oswg663_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1" style="border-radius: 5px;vertical-align: middle;display: block;width:100%;"/></p>
+<p style="white-space: normal;visibility: visible;"><span style="visibility: visible;letter-spacing: 0.5px;">▲普拉巴卡尔·拉加万（图源：《纽约时报》）</span></p>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">Gmail、Google Drive、Google Docs、Google Meet、Google Chat等都是办公软件项目的主要产品。他在该团队工作时，牵头推出Gmail首批AI功能，包括智能回复和智能写作。期间，Gmail和Drive用户数都突破了10亿大关。</span>
+</section>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">在知识与信息（K&amp;I）团队工作时，他改进了多个产品的核心搜索功能，例如，谷歌搜索的AI Overviews（AI概览），Google Lens的“shop what you see”（所见即所得）。Google Lens是一款能够帮助机器拍摄、识别并认出物品的AI应用，可以在谷歌的AI手机中使用。</span>
+</section>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">而谷歌地图的沉浸式视图、谷歌商城的虚拟试穿、谷歌的Performance Max广告系列中用到的AI技术，都少不了拉加万的统筹设计。</span>
+</section>
+<p style="white-space: normal;text-align: justify;"><span style="letter-spacing: 0.5px;">此外，拉加万还为谷歌引入了Circle to Search（手势搜索）、视频理解等AI技术。</span><span style="text-align: center;"></span></p>
+<h3 label="二级标题" style=""><strong style="text-align: center; max-width: 100%;  letter-spacing: 0.5px; box-sizing: border-box !important; overflow-wrap: break-word !important;">21年老将福克斯接力，</strong><strong style='text-align: center; Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif; max-width: 100%;  letter-spacing: 0.5px; box-sizing: border-box !important; overflow-wrap: break-word !important;'>出任谷歌知识与信息团队高级副总裁</strong><span style='text-align: center;  Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;'></span></h3>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">拉加万空出来的知识与信息（K&amp;I）团队高级副总裁一职，将由同为谷歌老将的尼克·福克斯（Nick Fox）接棒。此后，福克斯主要负责谷歌搜索、广告、地图和购物方面的产品。</span>
+</section>
+<p style="visibility: visible;box-sizing: border-box;margin-bottom: 0px;"><img class="rich_pages wxw-img" data-ratio="0.747" data-w="1000" src="https://img.36krcdn.com/hsossms/20241018/v2_66094dc2bb0f4c3390ad3c43419240a8@000000_oswg631350oswg1000oswg747_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1" style="border-radius: 5px;vertical-align: middle;display: block;width:100%;"/></p>
+<p style="white-space: normal;visibility: visible;"><span style="visibility: visible;letter-spacing: 0.5px;">▲尼克·福克斯（图源：Business Insider）</span></p>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">过去几年里，福克斯一直在拉加万的麾下工作，共同制定知识与信息团队的发展策略。从搜索和智能语音助手的产品研发和设计，到商城、旅游、支付产品，福克斯都有所涉猎。</span>
+</section>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">与此同时，他不仅在谷歌的AI产品路线图规划上发挥了重要作用，还主导推出了Google Fi、RCS服务。</span>
+<span style="text-align: center;"></span>
+</section>
+<h3 label="二级标题" style=""><strong style="max-width: 100%;letter-spacing: 0.5px;box-sizing: border-box !important;overflow-wrap: break-word !important;">结语：谷歌轻装上阵，迎接AI井喷时代</strong></h3>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">谷歌CEO皮查伊认为：“AI技术的发展速度比以往任何技术都要快。”为了紧跟AI时代不断进步，谷歌持续采取简化团队架构的方式来提高效率。</span>
+</section>
+<section style="white-space: normal;text-align: justify;">
+<span style="letter-spacing: 0.5px;">迄今为止，谷歌已通过设立AI研究实验室DeepMind、合并平台和设备团队、调整知识与信息团队高管、重组Gemini app和智能语音助手两个应用团队等方式，来加速实现这一目标。</span>
+</section>
+<section style=" white-space: normal;  text-align: justify;">
+<span style="letter-spacing: 0.5px;">来源：谷歌博客、路透社、彭博社、TechCrunch</span>
+</section>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998051674503552</guid><pubDate>Sat, 19 Oct 2024 11:18:00 +0800</pubDate></item><item><title>135亿，巴菲特去日本“扫货”</title><link>https://36kr.com/p/2998814027806856</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<section data-role="paragraph" style='-webkit-tap-highlight-margin-bottom: 0px;outline: 0px;letter-spacing: 0.544px;white-space: normal;Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;text-align: start;background-visibility: visible;'>
+<section style='-webkit-tap-highlight-outline: 0px;letter-spacing: 0.544px;text-align: right;visibility: visible;Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;'></section>
+</section>
+<p style=""><span style="letter-spacing: 1px;"></span></p>
+<p style=""><span style="letter-spacing: 1px;">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MjI0Nzk5NA==&amp;mid=2650201723&amp;idx=1&amp;sn=7e23d2b5317bee56f99f76fdf27bd91c&amp;chksm=bf4afa108441d8fb46be67b8e7ff8d7a127a7569c5ae97696a615f6debd8035b92da509ac6ae&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“融中财经”（ID：thecapital）</a>，作者：吕敬之，36氪经授权发布。</span></p>
+<p>巴菲特，又有新动作。</p>
+<p>近日，伯克希尔哈撒韦公司再次发行了规模空前的日元债券，筹集了约19亿美元的资金，这不仅是该公司过去五年来最大的一笔日元债券发行，也标志着巴菲特与日本资本市场的联系进一步加深。</p>
+<p>巴菲特的投资策略体现了他一贯的价值投资理念，专注于投资那些低估值、高分红率、稳定增长的公司。他通过发行日元债券，利用日本央行超宽松的货币政策，以低成本获得资金，投资于高分红的日本股票，从而获得利差。此外，日元的持续贬值也为巴菲特的投资带来了额外的收益，降低了偿债成本，同时增加了其投资的日元资产的价值</p>
+<p>随着日本经济逐步走出通缩并迎来重要拐点，巴菲特认为日本经济将在未来20年或50年更加强大，日本股市的吸引力，以及相对于其他市场具有更好的“套利”空间，也是吸引巴菲特投资的重要因素。</p>
+<p><strong style="letter-spacing: 0px; -webkit-tap-highlight- outline: 0px;">发行最大规模日元债，</strong><strong style="letter-spacing: 0px; -webkit-tap-highlight- outline: 0px;">新的机会</strong></p>
+<p><strong style="letter-spacing: 0px; -webkit-tap-highlight- outline: 0px;"></strong></p>
+<p>今年，日本二级市场展现了丰富的投资机会，这主要得益于日本经济的复苏和企业盈利的增长。随着日本央行逐步退出超宽松货币政策，日元有望显著升值，这将对日本资产的投资回报产生积极影响。特定行业如基础设施和科技领域被看好，因为它们受经济衰退影响较小且受益于数字化转型的加速。</p>
+<p>在全球贸易中，日本的制造业继续保持其优势，为投资者提供了投资于具有全球竞争力的日本制造业公司的机会。债券市场也为寻求稳定收益的投资者提供了多元化的投资机会，尽管日本央行的货币政策正常化可能会导致债券收益率上升。</p>
+<p>随着人口老龄化的加速，医疗健康领域的创新公司可能会提供投资机会，这些公司专注于解决老龄化带来的挑战。全球投资者对日本市场的兴趣增加，资金流向日本股市，尤其是在全球其他地区经济和政治不确定性较高的背景下。然而，投资者在考虑这些投资机会时，也应注意潜在的风险，包括全球经济下行风险、日元汇率变动，以及日本国内经济政策的不确定性等。</p>
+<p>旅游业在疫情后迅速复苏，预计对日本经济的贡献将达到近44.6万亿日元，占GDP的7.5%。国际和国内游客的消费均创下新高，这不仅促进了旅游业的繁荣，还带动了酒店和民宿等相关行业的增长。与此同时，房地产市场也展现出强劲的增长势头，东京新房价格的大幅上涨预示着市场的全面复苏。在金融行业，随着日本央行可能推出负利率政策，日元的升值预期将推动银行和保险业务的增长，同时，货币政策的正常化有望改善金融机构的盈利状况。</p>
+<p>本土消费的增长同样令人瞩目，日本政府的经济刺激措施有效促进了收入环境的改善，推动了个人消费的增长。居民收入的增加和超额储蓄的释放预计将进一步提振消费市场。在高科技领域，半导体和自动化产业链的投资继续上升，得益于企业资本开支周期的推动以及政府对关键产业的财政支持。此外，IT和科技行业的创新企业，尤其是人工智能和机器人技术，正成为日本最快发展的行业之一，政府对这些领域的初创公司的支持为投资提供了有利条件。</p>
+<p>随着日本致力于实现2050年的碳中和目标，绿色技术和产品领域也迎来了快速发展。政府的支持和环保政策的推进为可持续技术和可再生能源市场创造了巨大的投资机会。这些行业的强劲表现不仅推动了日本经济的增长，也为国内外的投资者和企业家提供了丰富的机会。</p>
+<p>日元汇率变低之后，去日本疯狂买买买的不只有见缝插针的网友，还有股神巴菲特。</p>
+<p>伯克希尔哈撒韦公司，由巴菲特领导，最近通过发行日元债券筹集了2818亿日元（约19亿美元），这是该公司在过去五年中最大的一笔日元债券发行。今年，该公司已经第二次发行日元债券，之前在4月发行了2633亿日元的债券。</p>
+<p>这次日元债券的发行显示了巴菲特与日本资本市场的进一步联系。根据伯克希尔哈撒韦提交的文件，筹集的资金将用于公司的一般用途。分析师认为，这为公司增加了对日本资产的投资机会。</p>
+<p>伯克希尔哈撒韦的融资活动受到股市投资者的密切关注，因为该公司今年早些时候购买日本五大商社股份，推动了日经225指数达到历史新高。在2月份的年度股东信中，伯克希尔哈撒韦提到，通过发行日元债券为投资日本公司提供了大部分资金。</p>
+<p>Phillip Securities Japan的交易主管Takehiko Masuzawa指出：“伯克希尔哈撒韦今年发行的日元债券规模是公司历史上最高的，这表明他们对日本股市的上涨持乐观态度。”他补充说：“市场正在猜测他们的下一个投资目标，投资者认为，支付高股息的价值股，如银行和保险公司，可能是最有可能的选择。”</p>
+<p>伯克希尔哈撒韦此次发行的日元债券涵盖了3年、5年、7年、10年、20年、28年和30年的期限。其中，3年期债券的发行规模最大，为1554亿日元，而5年期债券的发行规模为580亿日元。</p>
+<p>巴菲特选择在日本资本市场投资，主要是看中了日本五大商社的低估值和高分红特点。</p>
+<p>这些公司提供较高的股息收益率，同时股价在投资时很多低于账面价值。这些商社业务多元化，覆盖能源、机械、化工、食品、金融等多个领域，具有强大的现金流和多元化的收益来源，能够在不同市场环境下保持稳定的回报。</p>
+<p>巴菲特通过发行日元债券筹集资金，利用日本央行的超宽松货币政策，以低成本获得大量日元，进而投资于日本股市，这样的融资成本只有0.5%，有效消除了货币风险。巴菲特计划长期持有这些投资，预计持有时间将在10到20年，显示出他对日本经济的长期增长持乐观态度。此外，随着日本经济逐步走出通缩并迎来重要拐点，巴菲特认为日本经济将在未来20年或50年更加强大。巴菲特投资五大商社以来，这些公司的股价和业绩表现出色，为他带来了丰厚的回报。据统计，自2020年以来，巴菲特在日本贸易公司的头寸中估计获得了45亿美元的收益。日本股市的吸引力，以及相对于其他市场具有更好的“套利”空间，也是吸引巴菲特投资的重要因素。</p>
+<p>巴菲特在日本资本市场的投资成功得益于他一贯坚持的价值投资理念，专注于投资那些低估值、高分红率、稳定增长的公司。他所投资的日本五大商社具有强大的现金流和多元化的业务模式，能够在不同市场条件下保持盈利能力，降低投资风险。通过发行日元债券，利用日本央行超宽松的货币政策，以低成本获得资金，投资于高分红的日本股票，从而获得利差。</p>
+<p>巴菲特的长期持有策略和多元化投资进一步增强了投资组合的稳定性和收益潜力。他的投资不仅限于股票，还包括债券等其他金融工具，他对全球价值链重构的关注也是其在日本投资成功的关键因素之一，特别是在半导体等高科技产业中，日本具有明显优势。他所投资的公司具有审慎的财务管理，这有助于在不同市场环境下保持稳定的回报，同时留存的巨额资金既用于建立业务，也在较小程度上用于回购股票，这增加了投资的吸引力。</p>
+<p><strong style="letter-spacing: 0px; -webkit-tap-highlight- outline: 0px;"></strong></p>
+<p><strong style="letter-spacing: 0px; -webkit-tap-highlight- outline: 0px;">巴菲特</strong><strong style="letter-spacing: 0px; -webkit-tap-highlight- outline: 0px;">也在随环境而变</strong></p>
+<p><strong style="letter-spacing: 0px; -webkit-tap-highlight- outline: 0px;"></strong></p>
+<p>强大如巴菲特，其投资理念也随着市场环境的变化而进行调整。</p>
+<p>今年，巴菲特的投资策略体现了他一贯的投资理念，同时也展现了对市场变化的适应性。</p>
+<p>巴菲特通过伯克希尔·哈撒韦公司增加了对能源行业的投资，特别是对Occidental Petroleum的投资，显示出他对能源行业的信心，尤其是那些投资于未来技术的公司。尽管在金融行业进行了一些调整，但他依然保持了显著的投资，显示出他认为管理良好的银行和金融服务公司可以提供稳定的长期回报和分红。</p>
+<p>在科技股方面，巴菲特减持了大约一半的苹果股份，这一变化表明他在重新评估和调整其投资组合，尤其是对于高表现的科技股的投资。同时，他显著增加了伯克希尔的现金储备，这表明他对未来市场机会持谨慎态度，同时也为潜在的市场低迷期做好了准备。</p>
+<p>巴菲特继续强调价值投资的重要性，关注公司的基本面、有效的管理和市场中的竞争优势。他建议投资者关注那些具有强劲市场地位、稳定现金流和分红增长历史的公司，并保持多元化投资。他的投资策略依然聚焦于长期价值创造，而不是基于短期市场波动的交易。</p>
+<p>在风险管理方面，巴菲特通过增加现金头寸来管理风险，这表明他在为可能出现的市场低迷期准备，同时也保留了在市场低迷时进行投资的能力。他的投资组合中许多核心持股都是强劲的分红支付者，他建议投资者考虑将支付稳定分红的股票纳入投资组合，以获得稳定的收入和潜在的长期增值。</p>
+<p>巴菲特在股东大会上表示，他会根据经济形势和技术进步及时调整投资方向，这表明他并不固守原有的投资理念，而是愿意随着时代的变化而变化。他依然坚持其价值投资的哲学，寻找那些被市场低估的股票，并基于公司的内在价值进行投资。总体来看，巴菲特在2024年的投资风格体现了他一贯的谨慎和对价值投资的坚持，同时也展现了他对市场变化的适应能力和对新投资机会的开放态度。</p>
+<p>巴菲特对科技股的减持行为体现了他对市场变化的敏感性和对风险的严格管理。在2023年科技股表现强劲时，巴菲特选择减持苹果股票，这可能反映了他对市场不确定性的预判。同时，科技公司如苹果面临的监管环境正在变化，特别是在欧美市场，这些变化可能对苹果等服务收入和利润造成不利影响，与巴菲特的投资逻辑相悖。</p>
+<p>巴菲特的减持行为也可能反映了他对全球宏观经济更加谨慎的态度。在经济增长放缓、市场波动加剧的背景下，持有现金成为一种相对稳健的投资策略。</p>
+<p>巴菲特在投资策略上展现出一定的灵活性。虽然他一直以价值投资著称，但在市场条件变化时，他也会调整投资组合。减持科技股的同时，巴菲特可能在寻找其他具有长期增长潜力和更吸引人的投资机会。对于新兴技术，尽管巴菲特投资组合中包含了一些与人工智能相关的股票，但他并未在这一领域进行大规模投资，反映出他对新兴技术的审慎态度。他认为人工智能技术虽然重要，但对其长期影响的预测还为时过早。</p>
+<p>这次，巴菲特看中日本的潜力，其加仓日本后的收益如何，也值得持续的关注。</p>
+<p><strong style="letter-spacing: 0px; -webkit-tap-highlight- outline: 0px;"></strong></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998814027806856</guid><pubDate>Sat, 19 Oct 2024 11:28:00 +0800</pubDate></item><item><title>如何成为硅谷最佳VC？答：办活动</title><link>https://36kr.com/p/2998831179135112</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“你今天去了什么活动？”</p>
+<p>在旧金山的一周，这句话成了朋友和我的问候语。</p>
+<p>“今天真满，活动太难选了，都很好，都想去。明天继续。”</p>
+<p>在旧金山的一周，这是我每天结束时和新认识的创业者告别时经常听到的告别语。</p>
+<p>在上一周，整个硅谷的创业者和投资人都在旧金山的各个角落里参加着各种活动。有人为自己要参加的活动排了“节目单”，有人从全世界各地飞来，有人在一个活动上匆匆提问后就立刻赶往另一个活动。</p>
+<p class="image-wrapper"><img data-img-size-val="575,438" src="https://img.36krcdn.com/hsossms/20241019/v2_cdebafb5e9244a6ea1cc224ad94be234@5595930_oswg33422oswg575oswg438_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这些活动围绕着AI和创业展开，形形色色。</p>
+<p>而在所有活动上，人们几乎都会提及一个名字：A16z。</p>
+<p>这就是<strong>SF Teck Week（旧金山科技周）</strong>。这场由美国顶尖风投机构 Andreessen Horowitz（后简称A16z）组织的科技盛会，每年10月至11月期间在旧金山、洛杉矶和纽约等主要城市轮流举办。目的是通过一周紧凑的专题讨论、工作坊、展示日、投资人见面会等各种线下活动，连接全球的科技从业者、行业领袖、初创公司和投资者，促成广泛的交流与合作。</p>
+<p><strong>整个科技周期间，A16z会攒局策划重点活动，也允许任何公司或组织提交自己的活动申请，并积极参与到各个环节里。</strong>这种去中心化形式赋予了活动极大的灵活性和多样性，让Tech Week自2022年推出以来迅速风靡整个科技创投社区。</p>
+<p class="image-wrapper"><img data-img-size-val="750,309" src="https://img.36krcdn.com/hsossms/20241019/v2_35aa9d250dc44885bc72d3860c7e4008@5595930_oswg144318oswg750oswg309_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>今年Teck Week的主题定为 “人工智能、气候科技和女性创业”，也涵盖机器人、企业创新自动化、Web3、游戏、航空航天等前沿领域。</p>
+<p>根据A16z合伙人Katia Ameri在推特的总结，刚刚落幕的旧金山科技周在短短7天内举办了600多场活动，平均每天接近90场，规模是去年的3倍。</p>
+<p>参与企业有Google、OpenAI、Snowflake等科技巨头，Anthropic、Runway、Mistral AI、Anyscale这类热门AI独角兽，也有GitHub、Plug and Play等开发者和创始人社区，更有数不清的AI代理、应用及硬件类创业公司。而出席嘉宾除了a16z的各位明星合伙人外，几乎囊括了AI圈能叫出名字的所有知名专家和技术大咖们。</p>
+<p class="image-wrapper"><img data-img-size-val="750,732" src="https://img.36krcdn.com/hsossms/20241019/v2_49c7edce341e4134a5e66c443cdf1468@5595930_oswg520222oswg750oswg732_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>活动形式之丰富，也堪称是打开了新世界的大门。</strong></p>
+<p>从常见的的专题演讲、小组讨论和主题早餐会：</p>
+<p class="image-wrapper"><img data-img-size-val="750,672" src="https://img.36krcdn.com/hsossms/20241019/v2_96f01cb67cbe4537a0ad2d5a704b433b@5595930_oswg634199oswg750oswg672_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>创始人路演Demo Day：</p>
+<p class="image-wrapper"><img data-img-size-val="750,521" src="https://img.36krcdn.com/hsossms/20241019/v2_942e401c21b6478b9bc267a6fb655cc0@5595930_oswg579843oswg750oswg521_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>到从车库搬来现场的机器人原型展示：</p>
+<p class="image-wrapper"><img data-img-size-val="750,702" src="https://img.36krcdn.com/hsossms/20241019/v2_40d604d1032b439daecbed1940f50829@5595930_oswg546985oswg750oswg702_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>智能体搭建、检索增强生成等各种主题的黑客马拉松：</p>
+<p class="image-wrapper"><img data-img-size-val="750,652" src="https://img.36krcdn.com/hsossms/20241019/v2_272856e2e3974246bfc18dc9a2dbeda6@5595930_oswg583405oswg750oswg652_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>再到更多花样迭出的新颖活动。比如这个叫「Pitch and Run」的慢跑聚会，就吸引了来自尼日利亚、波兰、加拿大、印度等不同国家的 43 名科技行业跑者。</p>
+<p>AI公司创始人、技术发烧友和投资人们一边沿着旧金山海岸线休闲律动，一边交流想法谈合作。据组织者透露，近几年Pitch and Run已经促成了至少8笔投资。</p>
+<p class="image-wrapper"><img data-img-size-val="750,545" src="https://img.36krcdn.com/hsossms/20241019/v2_846650f0a1024218bffbf8ea4a39d7ea@5595930_oswg614325oswg750oswg545_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此外还有攀岩、扑克、脱口秀等各种“寓教于乐”的社交机会。</p>
+<p class="image-wrapper"><img data-img-size-val="750,628" src="https://img.36krcdn.com/hsossms/20241019/v2_2d79970430254bf0a37001bfbca8506e@5595930_oswg585264oswg750oswg628_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>眼下洛杉矶科技周已接档旧金山，正在如火如荼进行中。活动内容也因地制宜，转而偏向内容和游戏产业。比如下面这个由50名创作者参与角逐的生成式AI电影大赛，就选在好莱坞剧院里公映揭晓。</p>
+<p class="image-wrapper"><img data-img-size-val="750,697" src="https://img.36krcdn.com/hsossms/20241019/v2_33e022fbd8ef4a45978956f5b76e1626@5595930_oswg646514oswg750oswg697_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>老实说，虽然现在各家主流VC都在尝试通过办活动来增加影响力，但很少有谁做到像A16z这样的现象级。</p>
+<p>把全球几万名同频的人们聚集到一起，当创业者和人才、技术和产品、资金和客户在旧金山的深秋相遇，效果就是从早到晚的活动场场爆满。社交媒体上A16z的名字更是无处不在，任何关于科技周的讨论都在火热发酵、极速传播。</p>
+<p>除了举办 Tech Week 这样的线下活动，A16z 的合伙人团队及其持续发布的内容也展现出极强的存在感。</p>
+<p><strong>相比传统定义下的风投，a16z 更像是一家精通内容传播的媒体营销公司。通过大量的内容生产和活动策划，深度融入科技社区并保持持续互动，始终活跃在公众视野中，以此放大品牌声量。</strong>无论是通过博客、播客，还是社交媒体，a16z的身影出现在几乎每个科技领域的讨论中，成为科技创投圈中的重要参与者和意见领袖。</p>
+<h3><strong>自造媒体</strong></h3>
+<p>其实，a16z的这种“媒体风格”由来已久。</p>
+<p>早在2009年创立之初，Andreessen 和 Horowitz 就雇佣了被誉为“公关界全垒打之王”的 Margit Wennmachers为公司营销造势，帮助Marc Andreessen 以山姆大叔的形象登上了当年的《财富》杂志封面。同时与主流媒体建立联系，一时使得a16z在业界名声大噪。</p>
+<p class="image-wrapper"><img data-img-size-val="750,978" src="https://img.36krcdn.com/hsossms/20241019/v2_8ab6b9187f3c40849f5d6d1b7cf35f04@5595930_oswg112790oswg750oswg978_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而到了2015年，这段长达十几年的友好合作却出现了裂痕。</p>
+<p>当时发生了一件震动整个硅谷科技圈的事：A16z 力捧的血液检测公司 Theranos （创始人cos女版乔布斯的那家）被揭露为惊天骗局。也是自那以后，媒体对创业公司的态度从早期的“赞扬”转向了“批判和质疑”，扶持无数家创业公司的A16z也开始被媒体频繁地负面报道。</p>
+<p>在A16z看来，传统媒体对技术和事件的理解往往不够深入，报道充满了先入为主的偏见，有时甚至为了博眼球而夸大或编造虚假新闻。</p>
+<p>于是他们决定，干脆自主发声。建立自己的媒体平台，以掌控话语权，与传统机构媒体展开直接对抗。</p>
+<p>2021年，A16z创立了名为<strong>Future</strong>的媒体网站，背后理念是通过“<strong>直接发声（go direct）</strong>”的方式，推动一个“科技乐观主义”的话语空间。为政策制定者和技术专家等提供一个开放平台，绕过传统媒体，传递未经稀释、更为积极客观的信息。</p>
+<p class="image-wrapper"><img data-img-size-val="750,145" src="https://img.36krcdn.com/hsossms/20241019/v2_2fe4f551f43e4a9fb79d67c37818620c@5595930_oswg55028oswg750oswg145_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而Future并没有达到预期的颠覆性或持久影响力。</p>
+<p>尽管最初吸引了大量关注，也发布了不少文章，但随着时间的推移，内容的更新速度减缓，整体也未能在科技或媒体界形成巨大冲击力。批评者认为，该平台的文章更像是为A16z的投资组合服务，缺乏独立的新闻调查和严肃的批判性内容。这让Future更像是企业公关的工具，而不是提供深度报道的新闻平台。最终，Future于2022年关闭。</p>
+<h3><strong>发展矩阵</strong></h3>
+<p>在Future关闭后，A16z迅速调整了其媒体策略。公司意识到，虽然“直接发声”可以绕过传统媒体，但也在建立广泛的公众认知和信任方面带来风险。因此A16z逐渐恢复了部分与机构媒体的互动。在一些关键新闻事件或技术发布时，A16z的高层，包括创始人Marc Andreessen和Ben Horowitz，开始接受《纽约时报》、CNBC等主流媒体的采访，以提升他们的公众影响力和信任度。</p>
+<p>A16z也将其投资组合扩展到多个内容平台。被称为“美版公众号”的Substack是一个新闻通讯平台，允许创作者通过内容付费订阅获得收入。A16z 领投了Substack的B轮融资，使其估值达到 6.5 亿美元。通过此类投资，A16z不仅加强了对媒体领域的控制，还通过其广泛的资源网络帮助Substack吸引到更多的创作者和用户。</p>
+<p>与此同时，A16z 更加专注于自身内容平台的建设，集博客、邮件订阅和书籍著作于一体。公司团队中的每个人，除了本身职责外，还承担了“Author at Andreessen Horowitz”的新角色。人人都像媒体编辑一样，拥有自己的作者页面。A16z的合伙人们更是几乎全员高人气自媒体写手，撰写的行业趋势分析和观察文章不仅广泛传播，还经常被业界视为重要的参考资料。</p>
+<p class="image-wrapper"><img data-img-size-val="750,444" src="https://img.36krcdn.com/hsossms/20241019/v2_097045e6862d4b43bd5d8068813f7f1e@5595930_oswg197515oswg750oswg444_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>创始人之一Ben Horowitz的作者页面，收录他所有内容产出和自媒体更新。</p>
+<p>在发布的内容上， A16z特别加强了利益冲突的披露，更加透明地标示出自己在相关行业或公司的投资情况。这一转变使他们在客观性和专业性上获得了更多的信任。</p>
+<p>除了文字报道外，A16z 继续扩大其在播客等内容平台的布局，拥抱更广泛的多媒体形式，逐渐将重点转向多媒体传播，包括播客、短视频、线上讲座和深度行业报告等，利用各种渠道与不同的受众保持互动。</p>
+<p class="image-wrapper"><img data-img-size-val="750,230" src="https://img.36krcdn.com/hsossms/20241019/v2_7687a2de57124710b0530bac1d1de237@5595930_oswg218557oswg750oswg230_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>根据a16z官方数据，其播客的月均下载收听量超过90万次。</p>
+<p>其中最为人称道的案例之一是 “<strong>a16z Podcast</strong>” 播客节目。每一期都会邀请顶尖的科技领导者或知名公司创始人与 a16z 投资人进行深度对话，讨论从初创企业到技术趋势的多样话题。通过高质量的分析和讨论，a16z Podcast吸引了大批科技和投资领域听众，成为广受欢迎的内容频道。</p>
+<p class="image-wrapper"><img data-img-size-val="750,439" src="https://img.36krcdn.com/hsossms/20241019/v2_a030301c41464b2e9fccfc58465f9961@5595930_oswg437570oswg750oswg439_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此外，A16z 也发布了多份极具影响力的行业报告，涵盖多个领域。如加密货币的《State of Crypto》、生成式AI的《Top 100 Gen AI Consumer Apps》、数字市场的《Marketplace 100》以及关注安全和基础设施的《American Dynamism》等。</p>
+<p>其中《AI消费应用报告》每六个月更新一次，基于独立月访问量和活跃用户数据，排名展示最受欢迎的100个生成式AI应用，覆盖网页和移动平台。为创业者和投资者提供了重要参考，成为各大媒体关注的AI行业风向标。</p>
+<p class="image-wrapper"><img data-img-size-val="750,255" src="https://img.36krcdn.com/hsossms/20241019/v2_4bdfc6ad2fd047a285abf68038fccaea@5595930_oswg79233oswg750oswg255_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>打造“KOL”超级合伙人团队</strong></h3>
+<p>依托于强大的媒体运营能力，A16z 已经打造了庞大的自媒体矩阵，进而继续发力，培养了多位关键意见领袖。</p>
+<p>其中，<strong>Marc Andreessen</strong> 拥有140万推特粉丝，他活跃于科技和社会议题的讨论中，不仅经常与网友互动，还定期发布博客和视频，深入探讨行业趋势。<strong>Ben Horowitz </strong>则是硅谷著名的畅销书作家，博客读者超过1千万，他经常特立独行地使用说唱歌词来诠释商业建议，被誉为“硅谷企业家中最具价值的博主”。</p>
+<p>两位创始人人通过参与各种科技活动和公开辩论，推动行业对重大趋势的思考。A16z还特别推出一档名为“The Ben &amp; Marc Show” 的系列节目，由Marc Andreessen和Ben Horowitz共同主持，每期围绕当下最热门的科技、政策和社会话题展开讨论。</p>
+<p class="image-wrapper"><img data-img-size-val="750,476" src="https://img.36krcdn.com/hsossms/20241019/v2_193383aad63e47849a48b8c027610990@5595930_oswg377857oswg750oswg476_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>另一位明星合伙人<strong>Chris Dixon</strong>凭借其在 Web3、区块链和加密货币领域的丰富经验及成功投资，成为圈内的顶级意见领袖。他通过博客和社交媒体平台，分享去中心化技术见解，帮助公众理解这些新兴领域。Dixon的推特铁粉超过90万，撰写的《Why Web3 Matters》一书曾在行业内引发广泛热议。他还主导了对 Coinbase 和 OpenSea 的早期投资，进一步确立了自己的社区影响力，也使A16z成为Web3领域的重要玩家。</p>
+<p class="image-wrapper"><img data-img-size-val="750,777" src="https://img.36krcdn.com/hsossms/20241019/v2_9b652c4d2f964c11aac9b9431ef694ec@5595930_oswg623028oswg750oswg777_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Chris Dixon今年出版的《Read Write Own》探讨区块链技术如何重塑互联网未来，入选《纽约时报》畅销书。</p>
+<p>此外，<strong>Martin Casado</strong> 作为 A16z 专注于云基础设施和企业软件投资的合伙人，也拥有广泛的支持者。他提出的“云成本悖论”深入探讨了企业在大规模使用云计算时面临的高成本问题，建议采用“云回迁”以降低运营开支。这一观点曾帮助企业节省数十亿美元的成本，也影响了众多科技公司的基础设施决策。</p>
+<p>Casado现在主导着12.5亿美元AI 基础设施投资项目，同时通过撰写高质量的行业内容，与技术专家深入探讨云基础设施和生成式AI模型等关键话题，让观点和见解广泛传播。</p>
+<p class="image-wrapper"><img data-img-size-val="750,415" src="https://img.36krcdn.com/hsossms/20241019/v2_7b7ed5eba9234d4c8f12bba6d0a011bf@5595930_oswg304218oswg750oswg415_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>今年9月Martin Casado访问World Labs联合创始人李飞飞和Justin Johnson</p>
+<p>可以说，这些合伙人们通过定期发布有影响力的内容，积极出席高端科技活动，成功在各自的专业领域内引发了广泛的媒体关注。这不仅让A16z 成为顶级风投公司，还成为在科创领域拥有强大话语权的媒体实体。</p>
+<h3><strong>亲自“地推”，下场发声</strong></h3>
+<p>除了将合伙人打造成媒体人物，A16z还让他们积极参与自家投资组合中的新兴技术平台。</p>
+<p>例如身为Clubhouse的主要投资者之一，这款语音社交应用的许多早期讨论都由A16z合伙人主导，尤其是 Andrew Chen。他在推动 Clubhouse 社区增长中发挥了至关重要的作用。通过频繁参与讨论并主持活动，A16z不仅成功推广了 Clubhouse，还将其塑造成了一个实时技术对话的文化现象。Andrew Chen也因此成为公开的思想领袖，持续推动科技行业讨论。</p>
+<p class="image-wrapper"><img data-img-size-val="750,393" src="https://img.36krcdn.com/hsossms/20241019/v2_c2e56814badb42e5974ccc671ca4230a@5595930_oswg132505oswg750oswg393_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>转到AI领域，由于A16z向其中投入了大量资本，而开源对于AI初创公司的发展至关重要，因此A16z的公司基因里强烈支持开源。</p>
+<p>为了反对限制技术创新的加州SB-1047法案，A16z发布大量文章和播客，向社区普及法案影响，提供反击对策。并号召AI开发者、研究人员和创始人们，牵头创办了联名请愿网站，鼓励公众一同抵制这些限制。同时，A16z也在积极发布AI技术教育材料、行业分析报告和各类榜单等，全面推广AI领域的创新成果。</p>
+<p class="image-wrapper"><img data-img-size-val="750,551" src="https://img.36krcdn.com/hsossms/20241019/v2_fd5079d919734a0186ed3c5fd3219633@5595930_oswg324916oswg750oswg551_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>a16z合伙人Anjney Midha在X持续发声，是反对SB-1047法案的倡导者之一。</p>
+<p>通过将合伙人打造成高知名度的意见领袖和超级个体，积极参与内容生产和技术平台推广，并结合全方位的媒体布局和线下活动，A16z确保了自己不仅仅是资金的提供者，更是塑造未来科技话题和推动行业变革的重要力量。</p>
+<p>自 2009年创立以来，A16z已管理超过430亿美元资本，支持了500多家初创公司，涵盖 AI、Web3、区块链、云计算等前沿科技领域。</p>
+<p>2023年，A16z宣布启动价值45亿美元的新AI基金，用于支持生成式AI和AI基础设施领域初创企业。许多炙手可热的明星AI公司，包括OpenAI、Luma AI、Mistral AI、Runway、Black Forest Labs等背后都有A16z的身影。作为全球最活跃的风险投资公司之一，A16z在去年参与了79起风投交易，位居年度投资活跃度排名首位。</p>
+<p>通过多年的媒体策略实践与不断扩展的投资规模，A16z已成功超越了传统风险投资公司的角色，成为全球科技领域的重要话语权持有者和未来技术引领者。</p>
+<p>不得不说，A16z还是太全面了。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/OLEFhZjWSCd19U-8A3Us6g" rel="noopener noreferrer nofollow" target="_blank">“硅星人Pro”</a>，作者：Jessica，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/2998831179135112</guid><pubDate>Sat, 19 Oct 2024 11:29:00 +0800</pubDate></item></channel></rss>
