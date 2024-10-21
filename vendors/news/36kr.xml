@@ -1,477 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 21 Oct 2024 08:00:28 +0800</lastBuildDate><pubDate>Mon, 21 Oct 2024 08:00:28 +0800</pubDate><item><title>帮你跳B站广告的插件，为啥有人不喜欢？</title><link>https://36kr.com/p/3001358775351682</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>你有没有这样的经历，原本沉浸在某 UP 主的视频好好的，思考剧情接下来怎么发展。 </p>
-<p>结果他突然一个急转弯，打破次元壁，对着镜头就 RAP 了一段： </p>
-<p><strong>既然说到这，我们打开某多多搜索 80xx925 。。。</strong></p>
-<p>此时的你难受吗？体验割裂吗？手指不停戳着→ →→，恨不得马上重回正片。 </p>
-<p class="image-wrapper"><img data-img-size-val="986,418" src="https://img.36krcdn.com/hsossms/20241021/v2_302cd4577b2c4a4497a7817917d48ec3@5091053_oswg283956oswg986oswg418_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如果你经常被这种丝滑小连招偷袭，现在你的救星来了。 </p>
-<p>前段时间，小众软件论坛有人分享了一款插件，叫 BilibiliSponsorBlock （ B 站空降助手 ）—— <strong>专门跳过 UP 主视频里的恰饭广告。</strong></p>
-<p><strong>让你从此解放双手，从手动挡进化到自动挡。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="766,396" src="https://img.36krcdn.com/hsossms/20241021/v2_69fd8c842a384ce8afce1df3ffe65baa@5091053_oswg41902oswg766oswg396_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>你可能会好奇，这恰饭内容是怎么判定的。 </p>
-<p>其实插件并没用什么先进技术，而是借助了最原始的社区力量—— </p>
-<p>人人为我，我为人人。 </p>
-<p><strong>比如火锅在看差评君视频时，发现 3 分 15 秒～ 4 分 05 秒是一段 “ 恰饭内容 ”。</strong></p>
-<p><strong>此时，它就可以打开插件，然后给这段时间打上标记。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="812,610" src="https://img.36krcdn.com/hsossms/20241021/v2_639a11de1396462da4e0b7bab72def76@5091053_oswg97449oswg812oswg610_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>之后，插件的其他用户在看这个视频时，就会发现进度条多了几段绿色，这就是在提示你有恰饭内容。 </p>
-<p><strong>进入恰饭内容时，插件就会自动跳过这段，让剧情无缝衔接，助你丝滑闪躲小连招。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="998,462" src="https://img.36krcdn.com/hsossms/20241021/v2_e71cf66d7db24948acac8713c128b19c@5091053_oswg205692oswg998oswg462_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了恰饭广告，也有其他的内容可以标记和跳过。 </p>
-<p><strong>比如视频的开场结束画面、三连明示、偏题的内容等等。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="558,546" src="https://img.36krcdn.com/hsossms/20241021/v2_f10c7d0e05594af09734ef1a5e8f1108@5091053_oswg73265oswg558oswg546_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不同的类别，可以设置不同的颜色条和不一样的触发动作，如自动跳过，手动跳过。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,783" src="https://img.36krcdn.com/hsossms/20241021/v2_ae21b6ef7f8642ce8523930461fe01f6@5091053_oswg207438oswg1080oswg783_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>被标记过的视频，在作者空间的视频列表下也会有提示。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,381" src="https://img.36krcdn.com/hsossms/20241021/v2_24acb5540c5b49b1b51b8a4bd62a595a@5091053_oswg189387oswg1080oswg381_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>插件功能就是这些，差友们觉得如何？ </p>
-<p>一般来说，这种跳广告插件那铁定清一色好评，况且这次还借助了社区力量，不用想，什么 “ 互联网初心 ”“ 赛博菩萨 ” 这类评价必须安排上。。。 </p>
-<p>但事实却是—— </p>
-<p><strong>有人支持</strong></p>
-<p><strong>也有人反对。</strong></p>
-<p>反对的人觉得，虽然自己确实不想看广告，但跳过恰饭广告无疑会影响到 UP 主创作动力。人好不容易接到广告了，结果你跳过了。 </p>
-<p><strong>如此一来，优秀的视频制作者可能会越来越少，视频质量就越来越差。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,244" src="https://img.36krcdn.com/hsossms/20241021/v2_20f46660215e480cb4f4e91c614dda3c@5091053_oswg68175oswg1080oswg244_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,289" src="https://img.36krcdn.com/hsossms/20241021/v2_6d8e2a73c67f4f68b55ae96cb0aae135@5091053_oswg105260oswg1080oswg289_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>他们说不知道是不是自己杞人忧天了。 </p>
-<p><strong>世超觉得，这还真不一定杞人忧天。</strong></p>
-<p>因为这个插件的影响，是和用户量级紧密绑定的。 </p>
-<p><strong>如果，我是说如果，这个插件用户非常多呢？</strong></p>
-<p>对创作者来说，从写稿改稿，录制口播，拍视频，再到剪辑，一个视频制作成本非常之大，纯靠爱好很难长久维持下去。 </p>
-<p>支撑大家制作视频的动力没别的，只有甲方爸爸。 </p>
-<p><strong>但结果大部分人都是自动跳过了广告，那创作者会怎么想。</strong></p>
-<p>我知道，即便没有这个插件，大家也会手动拖动进度条跳过，弹幕和评论区也有好心网友提供时间节点为你空降。 </p>
-<p class="image-wrapper"><img data-img-size-val="592,184" src="https://img.36krcdn.com/hsossms/20241021/v2_2cd33b18e72242c4ab9c7b6fc29765cb@5091053_oswg97942oswg592oswg184_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其实广告商也知道这种情况的存在。 </p>
-<p>但插件提供的直接跳过，就打破了这种默契。 </p>
-<p>原本大家多多少少还能看到点广告，但现在—— </p>
-<p><strong>无数用户压根看不到 UP 主的恰饭片段，看完视频都不知道是哪位甲方赞助。很少有人在评论区提及甲方，那一段时间的弹幕也只有零星几个。</strong></p>
-<p>那还会有多少甲方会愿意投广告了？ </p>
-<p>甚至往大了说，当受影响的 UP 主越来越多，B 站这一整套商业模式都会收到冲击， 这对平台、创作者，观众都不好。 </p>
-<p><strong>那么问题来了，世超说这个 “ 如果 ” 会存在吗？</strong></p>
-<p>插件 8 月底活跃用户数量 850 人， 10 月中旬已经接近 14000 人，增长速度非常快。 </p>
-<p>目前一共跳过 9 万个片段，合计 1600 小时。 </p>
-<p class="image-wrapper"><img data-img-size-val="1020,778" src="https://img.36krcdn.com/hsossms/20241021/v2_56dda7eaa1e542b2bd182f9f5e52f0d9@5091053_oswg40232oswg1020oswg778_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>虽然我们没法精准推测出它未来的用户数，但可以拿一个前辈作为参考。</strong></p>
-<p>有一个叫 SponsorBlock 的 插 件，是专门用来跳过 YouTube 上的恰饭广告的，BilibiliSponsorBlock 就是基于这个开发的。 </p>
-<p>2019 年 7 月， SponsorBlock 正式发布。 </p>
-<p>仅仅过去了 5 年，插件的活跃用户已经有 1300 万了，帮大家跳过了 50 亿次片段（ 包括广告、关注、精彩预览等 ），给用户一共节省了 5600 年的时间。 </p>
-<p class="image-wrapper"><img data-img-size-val="1068,608" src="https://img.36krcdn.com/hsossms/20241021/v2_98df8b74b2d24af38057e377c6959f1d@5091053_oswg36653oswg1068oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这个数据夸不夸张？ </p>
-<p>虽然还没有相关报告统计过插件对 YouTube 有多大影响，但有一点可以确定， <strong>这类插件对 B 站的影响只会比 YouTube 更大。</strong></p>
-<p>毕竟 YouTube 还有视频开头和中间的广告，平台和创作者还有这部分收益。 </p>
-<p>而 B 站没有。 </p>
-<p>当然一切只是在假设，而且世超发现问题的关键：</p>
-<p><strong>其实观众并不是反对广告，而是厌恶自己的体验被影响。</strong></p>
-<p>你想啊，为什么 Adblock 这些屏蔽广告插件，用户都是一边倒支持。 </p>
-<p><strong>因为那些广告让大家体验很差。</strong></p>
-<p>视频开头的广告，你需要耐着性子看完广告才可以看到视频；挂在网页各个角落的贴片广告，也像牛皮癣一样，影响美观；突然闪现在面前的弹出广告，也会打断你的体验； </p>
-<p><strong>在插件评论区下方，也有说法更能佐证这个观点。</strong></p>
-<p><strong>有网友就觉得一些 UP 主恰饭很丝滑，看起来很舒爽，没必要跳。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,440" src="https://img.36krcdn.com/hsossms/20241021/v2_896532fdbdef42d7a08bea5212445d3d@5091053_oswg78609oswg1080oswg440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而且这个插件也有一个白名单的功能，可以选定 UP 主不跳过。 </p>
-<p class="image-wrapper"><img data-img-size-val="698,364" src="https://img.36krcdn.com/hsossms/20241021/v2_f9a94bc7d24446eca32a8d069328d75b@5091053_oswg27072oswg698oswg364_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>所以我觉得，这个插件的设计和这次网友的争议，或许就是一个提醒。</strong></p>
-<p><strong>大家不爱看的，只是那些影响了我们观感体验的广告。</strong></p>
-<p>如果你对观众足够负责，也恰饭得自然和创新，那么大家在遇上广告时也不会觉得难受，甚至还会主动把你添加到白名单。。。 </p>
-<p>插件的存在，在一定程度上可能会倒逼 UP 主更加注意恰饭的质量。能在不影响用户体验的前提下，赚点小钱。 </p>
-<p><strong>但同时，这可能也会建立一种末位淘汰制。</strong></p>
-<p><strong>那些凑合活着的小 UP 主，既在广告中没有选择权和话语权，也没有足够精力和实力制作优秀的视频，也许就会直接被碾死。。。</strong></p>
-<p>毕竟人们上网冲浪是要百分之百为自己的体验服务的，至于 “ 创作者恰不恰到饭，能不能坚持下去 ” 这些长远的事，谁又会在那个当下去考虑呢？ </p>
-<p><strong>图片、资料来源</strong>： </p>
-<p>BilibiliSponsorBlock </p>
-<p>小众软件 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/KpqH_Vmw4woFmJDrq4zbwg" rel="noopener noreferrer nofollow" target="_blank">“差评X.PIN”</a>，作者：刺猬，编辑：莽山烙铁头，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001358775351682</guid><pubDate>Mon, 21 Oct 2024 07:40:00 +0800</pubDate></item><item><title>电车的尽头是“卖网约车”</title><link>https://36kr.com/p/3001358235596933</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2024年，电车们都开始有点“不讲武德”了。</p>
-<p>王传福喊着“电比油低”往十万元级市场里杀的时候估计也没想到，李斌跟何小鹏要开始卖十几万的车了。</p>
-<p>今年9月10-20万元级别车型销量排行榜上，除了非常眼熟的比亚迪、广汽埃安、吉利等老车企之外，还出现了一个车型，小鹏MONA M03，这款8月份上市的车在9月份交付量已经破万，在懂车帝排行榜上，M03的销量也超过了大众ID.3、汉EV、埃安V。以往10-20万元区间这个几乎被合资车企和油车转型大包大揽的市场，开始有新势力的身影了。</p>
-<p class="image-wrapper"><img data-img-size-val="668,430" src="https://img.36krcdn.com/hsossms/20241021/v2_8839cc760f3348a8935edacf65b81aef@5091053_oswg93072oswg668oswg430_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：懂车帝</p>
-<p>接下来蔚来乐道L60在9月份发布，最低起售价14.99万元。今年零跑大卖车型C11、C16、极狐的阿尔法T5售价基本都覆盖在10-20万元区间，极氪00720.99万元起售、极氪7X22.99万元起售也擦边挺进这个行列。</p>
-<p>小鹏MONA在去年就传出和滴滴合作，研发一款低配能打比亚迪秦EV，高配能够特斯拉Model3的车型。在此前的财报会议上， 小鹏也表示MONA会有ToC销售也会有ToB销售，“MONA将先从C端渠道开始，受到好评然后是B端渠道的销售。” 乐道固然没有和滴滴合作，是蔚来既当爹又当妈孵化出来的品牌，不过这不影响小红书上已经有车主等着乐道来开滴滴了。</p>
-<p>新势力们开始“卖起网约车”回血只是表象，这背后更反应了10-20万元电车市场的诱惑，以及今年电车赛道竞争格局的彻底变化。</p>
-<h2><strong>01 新势力“下凡”</strong></h2>
-<p>11.98万买小鹏，14.99万买蔚来，新势力今年彻底<strong>“下凡”</strong>。</p>
-<p>遥想当年，“蔚小理”刚刚成为新势力三巨头的时候，蔚来主打的是服务和高端，小鹏主打的是科技感和智能。后来小鹏靠对标特斯拉Model3的自动驾驶技术惊艳全场一度成为新势力销量冠军，蔚来也通过换电等高端服务坐稳30万元+电车市场的销量TOP之位。</p>
-<p>到了2024年，这对兄弟不约而同的，做起来十几万的车。</p>
-<p>走量，肯定是其中一个原因。</p>
-<p>观察蔚来和小鹏两家做下沉市场的电车品牌就可以发现，他们都发生了单车均价下滑以及车型结构变化的趋势。</p>
-<p>从刚刚过去的第二季度来看。蔚来单车均价27.3万元，环比上季度继续下滑0.6万元，低于市场预期27.8万元；小鹏单车均价22.6万元，同样出现环比下滑。</p>
-<p>单车均价的背后，两家好兄弟也有相似的困境——</p>
-<p>车型结构的变化是一方面，不论是蔚来还是小鹏，高价车型在整体销量中占比都不太理想，蔚来车型中定价较低的ET5和ES6在整个销量中占比环比增加了4%；而小鹏这一季的高价车型是一款MPV，虽然在3月以接近4000辆的销量已经取得了好成绩，不过纯电MPV毕竟不是极大走量的车型，二季度这款X9在整体销量的占比已经从一季度的36%滑落到了17%。简单来说两家都遇到了相似的问题——在整体车型中，更贵的都卖得没那么好。</p>
-<p class="image-wrapper"><img data-img-size-val="805,138" src="https://img.36krcdn.com/hsossms/20241021/v2_91d219380aa246b4978c4d4e2bd45e22@5091053_oswg74821oswg805oswg138_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：海豚投研</p>
-<p>除此之外，车型迭代引起的老车型的降价也是一个原因。小鹏从一季度开始陆续降价，P7i、G9都在降价范围内，降价比例在1-10%不等；蔚来则是处于新老车型的交替期间，2023年的老款车型就有2.4-3.2万元不等的折扣。除了迭代的因素，外部竞争也会带来降价的压力，蔚来也调低了BaaS模式下的租金，也相当于是在变相降价。整体降价，加上车型结构的变化，两位的单车均价都在下降。</p>
-<p>这边单车均价在下降，那边投资人都在虎视眈眈地盯着毛利率呢，投资人可不会听迭代期和竞争因素带来的困扰，只要毛利率下降就是一顿退场。</p>
-<p>两边夹击下，走量就是解决问题的途径。</p>
-<p>实际上，小鹏推出MONA之后销量已经大幅提升。MONA M03在8月底正式上线，到了9月23日锁单量已经达到了8万+，整个9月小鹏整车交付21352辆，创了历史新高，这其中几乎一半的销量都是M03贡献的。而在9月底刚刚上市的乐道L60就已经实现了将近1000辆的交付，此前乐道发布会上也给出了今年12月份交付破万的预期。</p>
-<p class="image-wrapper"><img data-img-size-val="790,354" src="https://img.36krcdn.com/hsossms/20241021/v2_52568b4acc7a451a88743ca7f81a3e63@5091053_oswg304683oswg790oswg354_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>走量，是对企业内的原因。降维竞争就是对企业外的原因。</p>
-<p>小鹏和蔚来都把主打的优势沿用到了中低端车型上。MONA M03和乐道L60在电池技术上都采用了与现在主流电车市场采用“大电池”不同风格的更小的电池，L60的命名就是因为乐道采用了60.0千瓦时的电池，M03分别采用了51.8千瓦时和62.2千瓦时两种磷酸铁锂电池。小电池带来最明显的好处就是能耗更低，而在十几万元的中低端电车市场上，能耗和续航仍是消费者最关注的首要需求。能够做到这样的技术有着两家车企在高端市场上磨炼出来的成熟的技术经验。</p>
-<p class="image-wrapper"><img data-img-size-val="933,470" src="https://img.36krcdn.com/hsossms/20241021/v2_2c32db4a758b4c96be8f0b67f1202363@5091053_oswg567625oswg933oswg470_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除此之外，蔚来的换电以及小鹏的智能驾驶这两个独具品牌特色的服务与功能也被搬到了两款低价车型上。乐道发布的时候，全国已经有304个换电站可以用于乐道的换电服务。今年年底，蔚来还会提供超过1000座乐道可用的换电站，并在全国120个城市计划建设200多家门店、接入305家服务中心。蔚来也把之前积累的成熟的销售渠道拓展的经验用于乐道上，计划在9月份首批覆盖全国55个城市和23个省份百家门店的开业。</p>
-<p class="image-wrapper"><img data-img-size-val="839,394" src="https://img.36krcdn.com/hsossms/20241021/v2_4fa4239d8dea4b59a9993c02497cf709@5091053_oswg538238oswg839oswg394_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：乐道官网</p>
-<p>小鹏则是在顶配M03上搭载了小鹏的XNGP，而且为了控制智能驾驶的费用，MONA采用了纯视觉，一般中低端价位的消费者不太会为了智能驾驶花太多钱，纯视觉不用雷达的方案既能节省成本也能给用户一个智能驾驶体验。</p>
-<p>其实不难发现，新势力做下沉市场都颇有一种想要“降维打击”的意思，把原本属于高端品牌的技术和服务拿下来攻入中低端市场，然后用企业的规模和成熟的技术控制自己的费用。</p>
-<h2><strong>02 从向上“收割”到向下“收割”</strong></h2>
-<p>电车界一直有一个不成文的竞争规律，10万元以下的和25万元之上的一直都是各个品牌百花齐放，但10-20万元这个“中不溜地带”，新势力们谁来谁亏。</p>
-<p>懂车帝近半年10-20万元纯电车型排名就可以发现一个规律，比亚迪元、秦、宋系列、广汽埃安、红旗、丰田、大众。这些车企要不就是油车转型，要不就是中外合资，总之人家都是汽车赛道的老手。</p>
-<p class="image-wrapper"><img data-img-size-val="647,588" src="https://img.36krcdn.com/hsossms/20241021/v2_472ecaf348de42739b577a97e5f875ca@5091053_oswg122777oswg647oswg588_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为什么汽车“老炮”能更好地做成中低价位市场？</p>
-<p>10-20万元区间的汽车消费者通常都是“既要又要”的。往下看，几万元买车的车主抱着“车能跑”就行的心态，纯纯追求性价比；往上看，能用30多万元买电车的车主画像基本是“不差钱”、“非首台车”，他们追求的是品牌、服务、科技感和时髦。</p>
-<p>不过10-20万元的电车车主心态就更复杂了。续航、快充这种基础设施、性价比他们想要，智能化、科技感这种品牌化的他们也想要。一言以蔽之“面子里子全都想要，别人有的我也得有”。</p>
-<p>面对这样的消费心理，对车企们来说就意味着<strong>“难赚钱”</strong>。</p>
-<p>这个时候老车企们的优势就非常明显。硬件上，他们供应链是现成的，还有成熟的自研体系；软件上，他们有多年和供应商打交道的经验，还自带老粉丝流量，这都有利于车企控制成本。作为10-20万元区间的“最强王者”，比亚迪就一直靠多元产品、自研技术能把整个车企的毛利率控制在20%左右的水准。</p>
-<p class="image-wrapper"><img data-img-size-val="617,372" src="https://img.36krcdn.com/hsossms/20241021/v2_592439bc259d42838b943dadca70a5b6@5091053_oswg21105oswg617oswg372_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源：东方财富 | 酷玩实验室制图</p>
-<p>也就是说，作为“老炮”，经验带给了他们在中低价位市场的先发优势。</p>
-<p>但也别忘了，经验是可以累积的。小鹏和蔚来也都已经成立了十年，而且也在一个垂直领域形成优势了。所以现在也对10-20万元这块市场跃跃欲试。</p>
-<p>根据乘联会发布的数据，截至今年8月，10-20万元价格区间的车型是整车市场中占销售份额最大的，几乎占了一半。而燃油车市场中10-20万元销量占比53.4%，电车只有37.7%，对标燃油车还有16%的市场份额可以渗透和释放。</p>
-<p>两田日产大众，正是因为拿下了10-20万的市场，才成为燃油车时代的霸主。</p>
-<p>而现在，新势力也开始批量进入这个区间了。除了小鹏和蔚来，极氪00720.99万元起售、极氪7X22.99万元起售，擦边挺进10-20万元区间；极狐阿尔法T5售价12.4-16.8万元、今年大卖的零跑C11、C16提供增程选项售价也在10-20万元的区间。</p>
-<p>可以说，进入10-20万元市场，是一个车企走向成熟的标志。</p>
-<p class="image-wrapper"><img data-img-size-val="934,519" src="https://img.36krcdn.com/hsossms/20241021/v2_73ad7fb4d98046828a420d55fd7479c1@5091053_oswg481798oswg934oswg519_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：乘联会</p>
-<p>新势力价格的下探还有一个原因，就是技术价值的稀释。正所谓在技术不成熟的时候，产品向上收割，技术成熟的时候产品向下收割。之前在整个市场电动化和智能化都不普及的时候，电车是新鲜的也是值钱的，企业要撒下大量现金去铺设充电桩、投入自动驾驶的研发。不论是服务还是技术，从0到1的突破都是很值钱的。但随着基础设施的普及、自动驾驶技术的发展，现在不论是技术还是服务，给用户带来的刺激都没那么大了。</p>
-<p class="image-wrapper"><img data-img-size-val="869,504" src="https://img.36krcdn.com/hsossms/20241021/v2_5fe4d9ff6c6c44fc8cac3967858415d3@5091053_oswg725546oswg869oswg504_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这点我们可以参考智能手机的发展路径，最开始平板智能手机出现的时候，苹果基本是横扫市场的，即使均单价高，但是和更便宜的智能手机体验感天差地别。到了现在，甚至很多苹果用户自动转去买安卓手机，即使在细节上仍有差距但对要求没那么苛刻的用户，便宜的该有的也有了。</p>
-<p>电车现在就是处于这样一个阶段，对于消费者来说，即使是中低价位的车型，该有的也有了，前期车企们在技术上的领跑优势正在被稀释。</p>
-<p>由此可见，车企们降价一方面是主动下沉抢占市场，另一方面也是被动下沉因为在消费者心理这样的配置已经不值那么多钱了。</p>
-<h2><strong>03 混战之下的淘汰赛</strong></h2>
-<p>2024年整个电车市场已经进入混战时代了。</p>
-<p>以前，新势力各有各的侧重点，新势力和油车转型的老车企也井水不犯河水。不过到了今年，整个场面开始混沌。</p>
-<p>年初比亚迪喊出“电比油低”，比亚迪海豚、汉、唐等车型纷纷推出荣耀版，降价幅度最高5万元。降价后比亚迪直接杀入了10万元区间，原本在这个区间舒舒服服带着的广汽埃安、五菱宏光都受到了影响。根据广汽集团发布的9月产销快报，广汽埃安当月销量为4.04万辆，同比下滑了21.78%。实际上今年2月份以来，埃安的销量已经连续8个月同比去年都是下降的， AION S和AION Y今年1-8月累计销量分别同比下滑了39.14%和22.25%， 这个时间也刚好是比亚迪开始“大甩卖”的时间点，所以不能排除比亚迪在“降维打击”广汽埃安的可能性。</p>
-<p class="image-wrapper"><img data-img-size-val="636,446" src="https://img.36krcdn.com/hsossms/20241021/v2_46b45f07ca474b998ff4625126eb40ce@5091053_oswg46635oswg636oswg446_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：车主之家</p>
-<p>比亚迪降价这招“降维打击”和新势力下探的核心逻辑是一样的，整个纯电市场除了比亚迪本来的舒适区10-20万元价格区间，市场份额最大的就是10万元以下的价格区间，而且去年从品牌销量排名来看，除了比亚迪和特斯拉，广汽埃安和五菱就是销量最大的两个品牌。延续向下收割的思路，比亚迪向10万级进攻是完全正确的。</p>
-<p class="image-wrapper"><img data-img-size-val="583,457" src="https://img.36krcdn.com/hsossms/20241021/v2_4066a6554d9f4c69b61707fa321458a0@5091053_oswg150481oswg583oswg457_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：乘联会</p>
-<p>再往前推，特斯拉用的也是这个套路，Model 3和Model Y打开市场之后直接连续降价到下一个价格区间，把原本安逸待在这个区间的小鹏打得连连败退。</p>
-<p>只不过，一时降价一时爽，一直降价就不能一直爽了。</p>
-<p>持续降价对毛利率的影响在所难免，因为降价所带来的销量增量是有限的，经过2023年的持续降价特斯拉的毛利率已经从降到了17-18%的水准；今年开始降价的比亚迪二季度毛利率也从21%以上的水准下滑到了19%以下。</p>
-<p class="image-wrapper"><img data-img-size-val="594,375" src="https://img.36krcdn.com/hsossms/20241021/v2_028e6165dd4047ad888a605cdf6da8ab@5091053_oswg23350oswg594oswg375_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源：东方财富 | 酷玩实验室制图</p>
-<p>另一方面，持续降价也会让之前的车主变成“大冤种”，强大如特斯拉这样的品牌也会因为持续降价引起车主“破防”，一位去年考虑购车的车主就回忆道，“我几乎每次去特斯拉看车的时候都有人在维权，这是我最后没选特斯拉的一个重要原因。” 新势力本来品牌力就不如特斯拉，很多新势力的销售还是通过熟人推荐的方式，所以维护现有车主的权益也非常重要，再加上前面我们提过的毛利率压力，直接降价对新势力显然不是好方法。</p>
-<p>所以新势力就选择了“降维打击”这个战略的一个变式，做下沉车型或者品牌。新车型走量，均车单价虽然下降不过规模效应之下均摊成本也在下降，综合来看对整体盈利能力会有正面影响，并且吃掉10-20万级市场蛋糕，做大品牌影响力，这就是新势力做下沉的“算盘”。</p>
-<p>除了价格混战，今年新势力在车型和定位上也从清晰明确到互插一脚。比如理想开始做纯电，零跑也做起了增程。</p>
-<p>种种混战都预示着，新能源车企彻底进入了淘汰赛，就像何小鹏说的，“2024年是新能源车企淘汰赛的开年”。</p>
-<p>两三年前新能源车企还可以用文字游戏躺在舒适圈，说自己是“20-25万元纯电智能SUV”销量第一，用超长前缀来给自己一个领域第一名做做，自己开心投资人也开心。但是到了今年，情况大不相同，高合前不久确认破产重组、哪吒也被传出拖欠工资。</p>
-<p class="image-wrapper"><img data-img-size-val="273,196" src="https://img.36krcdn.com/hsossms/20241021/v2_0d102306b455432fad2bdf3a09d0ab78@5091053_oswg32135oswg273oswg196_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>大家开始逐渐意识到，有些品牌真的会消失。雷军提出要做车的时候就说过，做不到全球前五就很难活下来，在持续的价格战中何小鹏也说国内可能只有七个品牌可以存活。</p>
-<p>要竞争，就必须破圈。</p>
-<p>降价、做中低端车型都在价格区间上破圈。而理想做纯电是想要纯电MPV这个车型上破圈，虽然因为选得骨头太难啃导致出师不利，但底层逻辑都是一样的——找市场的空子然后钻进去。同样的，零跑现在被叫做“小理想”就是看准了下沉市场缺少增程SUV，找到了价格和车型的空子，今年也靠几个增程车型月销直线起飞。</p>
-<p>大家的算盘都没错，到底谁能打得响得看软硬实力。</p>
-<p>交付速度，就是一个关键竞争点。以前电车是个新鲜玩意大家都很有耐心去等，现在十几万元买车的车主恨不得都提现车，甚至对很多车主来说有没有现车都是选不选择一个品牌的因素。卖爆的小鹏MONA M03就因为交付排期已经开始给准车主们送提车权益来安抚车主了。</p>
-<p class="image-wrapper"><img data-img-size-val="500,486" src="https://img.36krcdn.com/hsossms/20241021/v2_c9d875bf4699417abf22d260774ed96d@5091053_oswg204368oswg500oswg486_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>品牌协调性，是另一个挑战。</p>
-<p>就比如，乐道上市后，就有一部分蔚来车主悄悄碎掉了。蔚来ES6作为一款30多万的电车，一个充电400V、标准续航500里程的SUV，看到乐道最低十几万元起售，充电900V标准续航555里程的配置陷入了沉默，看到乐道同样能享受换电服务的时候陷入了更深的沉默。乐道一出道，网络上就有ES6和乐道买哪个的对比贴，还有小红书网友发帖表示等着乐道交付来开滴滴。</p>
-<p class="image-wrapper"><img data-img-size-val="386,366" src="https://img.36krcdn.com/hsossms/20241021/v2_52886dec2a9c4dc59427d6eded1edf73@5091053_oswg72455oswg386oswg366_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>要知道，很多30多万元买品牌的电车车主买的就是个面子，当这个“面子”可以用十几万元买到的时候，对新人来说是快乐，对老人来说就是沉默了。</p>
-<p>一个品牌，既要做走量的中低价车型，又要做高端车型，就要把各个子品牌在运营和服务上完全差异化，如果推出下沉品牌反而吃掉了自己家一部分车型的销量，那就不划算了。</p>
-<p>表面来看，是电车们越卖越便宜，实际上是电车企从在各自的领域各显神通已经不可避免地地跑到别人的领域里去“互扯头花”了。这也意味着，车企们既要打防守战，也要打攻击战。</p>
-<p>新能源车企彻底进入战国时代。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/E-qA2xaTQOjDoKGrZ4tEJA" rel="noopener noreferrer nofollow" target="_blank">“酷玩实验室”</a>，作者：酷玩实验室，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001358235596933</guid><pubDate>Mon, 21 Oct 2024 07:45:00 +0800</pubDate></item><item><title>Nature帮你找工作：6张图讲清科研领域就业市场</title><link>https://36kr.com/p/3001357870315913</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>从今年6月开始，Nature与伦敦研究咨询公司Thinks Insights &amp; Strategy合作推出了一系列文章，讲述今年对全球科学领域招聘经理开展调查后得出的结果。</p>
-<p>通过各种途径的宣传，这项调查共找到了来自77个国家的学术界、工业界和其他部门的1134名自荐受访者。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,486" src="https://img.36krcdn.com/hsossms/20241021/v2_9307d3f0db094f42a3233622e009725c@5091053_oswg165126oswg1080oswg486_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">完整的调查数据集：https://figshare.com/s/7aea1f12aaca90a1030d</p>
-<p>此外，在今年6-7月，Nature首次对学术界和其他领域的实验室领导者进行了调查，了解科学领域招聘的高潮和低谷。</p>
-<p>这些招聘经理回答了有关如何招聘、在哪些平台招聘，以及如何评价一封求职信等问题。他们还分享了最喜欢的面试问题，并描述自己如何在资质、技能和经验相似的候选人中挑出合适人选。</p>
-<p>俄勒冈州学术职业咨询公司The Professor Is In的创始人兼总裁Karen Kelsky表示：「学术界的求职就像一个黑匣子，申请可能毫无规律或理由地被终止。这些数据可以帮助求职者更多地了解招聘委员会的视角和想法，从而有的放矢。」</p>
-<p>对于正在求职的科学家来说，Nature的这篇调查结果提供了一种了解「黑匣子」的方法，以便更好地修改申请、准备面试，以增加获得offer的几率。</p>
-<p>这篇文章总结了调查数据中的6项关键发现，其中有些令人惊讶，有些则证实了长久以来的揣测。</p>
-<p>调查中有三分之一的招聘经理来自工业界，从中我们也可以看出学术界和工业界在聘用过程中的显著差异。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,751" src="https://img.36krcdn.com/hsossms/20241021/v2_a477636f68c046249efaf5b19aab47d3@5091053_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>候选人素质究竟如何</strong></h2>
-<p>今年的候选人素质如何？工业界和学术界的雇主似乎得出了相反的结论。</p>
-<p>44%的行业雇主表示候选人比几年前更好，20%的人认为候选人素质下滑；但在学术界，这一比例正好颠倒，分别是20%和43%。</p>
-<p>虽然所有领域的招聘者都会认为，最常见的挑战是「缺乏高素质候选人」，但学术界人士 (58%) 比工业界人士 (38%) 更有可能这么说。</p>
-<p class="image-wrapper"><img data-img-size-val="751,354" src="https://img.36krcdn.com/hsossms/20241021/v2_4beea5123fa345388cef7ac2df159e55@5091053_oswg94060oswg751oswg354_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这一数据趋势有多种可能的解释。比如，根据Nature在过去五年时间中的跟踪和记录，年轻学者们对自己的学术生涯有日益增长的沮丧和挫败感。</p>
-<p>同时，也存在对博士期间学术训练的改革呼声，旨在教授学生们更广泛的技能以适应更多样的工作。</p>
-<p>布鲁塞尔研究和科学职业观察站的科学顾问兼协调员Neda Bebiroglu表示， Nature的研究结果与学术界PI们的个案报告相呼应，他们也同样表示，很难找到合适的候选人。</p>
-<p>「六年前，如果你向一屋子的博士生询问职业规划，会发现他们都想成为教授。但现在，只有少数人这样了。」</p>
-<p>Bebiroglu指出，这表明年轻科学家更加了解自己的职业选择。「但这提出了一个问题，我们如何将人才留在学术界？」</p>
-<p>Kelsky表示，COVID-19大流行和学术界日益恶化的环境，例如薪酬跟不上生活成本的上涨、研究经费的削减，以及社会上日益高涨的反科学情绪，已经打击了年轻学者对研究生涯的心理投入。</p>
-<p>「我看到那些申请学术工作的人的失望和疏远情绪，已经达到了一个新的水平。」</p>
-<p>西班牙阿利坎特大学分子纳米技术实验室主任、普林斯顿催化剂技术公司Rive Technology联合创始人Javier García-Martínez表示，许多最优秀的候选人可能会选择去往工业界，以获得更好的薪酬和福利待遇。</p>
-<p>虽然目前没有进一步的数据作为证据，但他猜测，工业界的工作可能也正在接近博士们学术训练的目标，变得更加「基于科学」。</p>
-<h2><strong>最糟糕的错误</strong></h2>
-<p>学者们找工作也会犯错，Nature也非常贴心地从招聘者的角度，对这些错误做了一个汇总。</p>
-<p>从下图中可以看到，「对应聘的研究工作了解不够」以及「申请时给出过于笼统的回答」是求职者最容易犯的两个关键错误。</p>
-<p>根据《自然》杂志的调查，对工作场所的研究了解不够以及提出通用申请是求职者犯的两个最大错误（参见“求职者在申请工作时犯的五个主要错误”）。</p>
-<p>此外，「过于自信」、「不了解自己申请的职位」以及「面试问题准备不足」，也是求职者常犯的错误。</p>
-<p class="image-wrapper"><img data-img-size-val="751,340" src="https://img.36krcdn.com/hsossms/20241021/v2_d88c768dc0d54e4c9cdceee0d5535e45@5091053_oswg93465oswg751oswg340_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对于45%的学术雇主来说，「申请时回答笼统」是一个关键错误，但工业界的相应比例只有26%；而且学术界雇主更有可能认为候选人缺乏对其研究的了解，这个可能性是行业雇主的两倍多。</p>
-<p>雇主们在调查中表示，应聘者应确保在申请之前阅读实验室最近发表的几篇论文，并研究工作组织的愿景和人员结构。</p>
-<p>但值得注意的是，在进行应聘研究时，找到合适的信息来源也很重要。</p>
-<p>实验室网站可能过时，因此应该在PubMed、arXiv或任何相关领域的学术网站上搜索实验室的主要研究者，并找到一些最近的论文，这种方法可能有所帮助。</p>
-<p>即使在提出申请之前，与雇主直接联系也可以帮助我们了解工作的日常要求。</p>
-<p>最好的做法是与招聘经理或团队成员进行一次面试前的交谈，以便更好地了解团队，以及他们的工作方式和优先级，这样也能衡量实验室的文化、价值观、团队多样性等方面是否适合自己。</p>
-<h2><strong>「冷申请」比想象中有效</strong></h2>
-<p>有些公司即使正在寻找合适的候选人，也不会立即公开发布招聘广告，这是不请自来、主动提出的求职申请就是所谓「冷申请」（cold application）。</p>
-<p>几乎所有参与调查的招聘人员（94%）都表示，他们每年至少收到一份主动提出的工作申请（通常是通过电子邮件）。</p>
-<p>这些招聘人员中，57%的人表示他们「通常」或「总是」做出回应，而且有43%的人认为这种申请是有作用的。</p>
-<p>只有17%的人认为不请自来的申请令人恼火，但如果平均每周收到不止一份「冷申请」，这个比例就会增加到24%。</p>
-<p>与学者 (37%) 相比，行业雇主更有可能（51%）认为主动提出的请求是有效的，而且他们做出回应的概率也更高（61% vs 54%）。</p>
-<p class="image-wrapper"><img data-img-size-val="751,684" src="https://img.36krcdn.com/hsossms/20241021/v2_847b88fcad934b7281039354f2d735a2@5091053_oswg225136oswg751oswg684_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Nature采访的几位研究人员表示，他们通过「冷介绍」成功聘用了一些人，而且主动提出的请求比我们想象中的有效，甚至可能「动摇」一个职位。</p>
-<p>比如，当一个研究小组即将获得资助，或者现有资助中剩余一些资金，但没有足够的时间从发广告开始走一遍招聘流程时，如果有一个强有力的候选人出现，录用的概率就会很高。</p>
-<p>但是，对那些每周都收到套磁邮件的人，只有「个性化」的接触才能获得积极的回应，而对那些不谈论实验室具体项目的邮件则不太有兴趣。</p>
-<p>基于这项研究，Nature还将在明年年初发表一篇文章，专门讨论如何写一封完美的套磁邮件，给潜在老板留下深刻印象。</p>
-<h2><strong>网络招聘</strong></h2>
-<p>招聘科学家，一般都通过哪些途径？</p>
-<p>调查中被问到这个问题时，绝大多数招聘者都回答的是「个人网络」，类似于我们常说的「内推」。</p>
-<p>超过一半的人 (51%) 表示会使用职业关系网络进行招聘，这一比例在学术界甚至会增加到65%。</p>
-<p class="image-wrapper"><img data-img-size-val="751,706" src="https://img.36krcdn.com/hsossms/20241021/v2_f86d90b2e21f41d1afe177003565e056@5091053_oswg264742oswg751oswg706_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>LinkedIn是工业界招聘者最常用的渠道，有50%的人将它作为首选。</p>
-<p>招聘网站Indeed在工业界也比较常用，有32%的人表示这是首选渠道，但不受学术界欢迎（6%）。</p>
-<p>参与调查的几位学者表示，他们喜欢利用公开演讲和其他社交机会来宣传团队、吸引人才，因为这有助于潜在求职者更好理解实验室工作的本质。</p>
-<p>总体来看，首选招聘渠道的top5有：职业关系网、工作场所的公告板、LinkedIn、面对面以及个人邀请，因此对于申请者而言，磨炼社交技能会很有助益。</p>
-<h2><strong>AI的角色</strong></h2>
-<p>从调查结果来看，招聘人员很少使用AI工具来筛选申请或回复候选人，尤其是在学术界。</p>
-<p>大多数学者（89%）表示他们在申请过程中没有使用人工智能，并且超过一半的人未来也不考虑使用AI。</p>
-<p>相比之下，工业界对人工智能的使用更加开放：几乎一半的行业雇主表示，会使用这些工具来设计面试问题，或对申请进行筛选和管理。</p>
-<p class="image-wrapper"><img data-img-size-val="751,602" src="https://img.36krcdn.com/hsossms/20241021/v2_69ebdbc9865d48b99bdf9f8f7b666543@5091053_oswg138629oswg751oswg602_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>四分之一的招聘人员（25%）会对申请者使用AI撰写求职信和简历表示担心，甚至不满。许多人说，这种自动生成的申请会被直接被扔进垃圾箱。</p>
-<p>格里菲斯大学的湿地生态学家Fernanda Adame这样说道：「我宁愿收到一封有语法错误的电子邮件，表达一些简洁且个性化的信息，也不愿意看到明显由ChatGPT撰写的申请，这种文本非常臃肿，没有任何实质内容。」</p>
-<p>很多申请者会选择使用AI润色文字，这种情况就很难被一眼识别，但要注意LLM常见的幻觉问题，可能会倾向于使用夸大和虚构的内容。</p>
-<p>事实上，AI对求职过程的影响绝不止步于文本层面。在各种工具的帮助下，没有真实能力的候选人仍有可能写出一份漂亮的简历并通过面试，获得工作机会。</p>
-<p>这就给招聘人员带来了挑战。即使候选人在面试中表现出色，他们可能仍需要继续保持怀疑态度，并通过严格的、以技能为重点的面试，深入挖掘对方的真实能力。</p>
-<h2><strong>让天平倾斜的「软技能」</strong></h2>
-<p>调查显示，拥有「软技能」的候选人非常有可能受到雇主的追捧，比如presentation做得好，或者擅长团队合作。</p>
-<p>如下图所示，面对技术能力和经验在同一水平的两名候选人，「软技能」、个性和适应能力，就成为了名列前茅的决定性因素。</p>
-<p>在一系列「软技能」中，「沟通和人际交往能力」排名最高，其次是个性、契合度以及团队合作能力。</p>
-<p>雇主在一系列候选人之间做出最终抉择时，个性和团队契合度是关键因素。英国利物浦大学的生物化学家Ed Emmott甚至表示：「如果一个人看起来有毒或无法与他人合作，我不在乎他的技术有多高。」</p>
-<p>抛开硬实力不谈，如果被问到面试阶段最抢手的技能，「沟通能力」依旧名列前茅，得到了66%的招聘者的青睐，甚至超过了研究经验（60%）或领域专业知识（61%）。</p>
-<p class="image-wrapper"><img data-img-size-val="751,890" src="https://img.36krcdn.com/hsossms/20241021/v2_ab8fba180bdd4b7099fe226b15102c88@5091053_oswg311552oswg751oswg890_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了上述提到的沟通能力和团队合作，领导能力、情商和时间管理能力也是重要的「软技能」，可以帮助有同等技术能力候选者脱颖而出。</p>
-<p>此外，调查显示，「热情」和「驱动力」是候选人在申请和面试中最常缺乏的两种品质。Nature将在本系列的下一篇文章中继续讨论，如何在求职时表现出自己的热情和奉献精神，同时避免夸张或过度自信。</p>
-<p>总体而言，与过去相比，求职者需要展示的软技能变得更加重要。这种趋势也符合科学领域工作性质的变化，尤其是在大学。</p>
-<p>团队成员的背景正在逐渐变得多元化，而且必须在资金削减的情况下共享资源；学者们也要越来越多地向持有怀疑态度的公众证明自己研究的合理性。</p>
-<p>鉴于所有这些因素，有效的沟通和协作能力正在变得越来越有价值。</p>
-<p><strong>参考资料：</strong></p>
-<p>https://www.nature.com/articles/d41586-024-03343-z</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/kITSjvSQBs6LpF2rW27N2A" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，编辑：乔杨，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001357870315913</guid><pubDate>Mon, 21 Oct 2024 07:46:00 +0800</pubDate></item><item><title>AI制药的IPO“诅咒”</title><link>https://36kr.com/p/3001470127094149</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>本文系基于公开资料撰写，仅作为信息交流之用，不构成任何投资建议。</p>
-</blockquote>
-<p>AI技术再度成为“最靓的仔”。</p>
-<p>今年的诺贝尔三大科学奖项中，两大奖项与AI相关，先是物理学奖颁给两位研究人工神经网络的专家，而后化学奖又被授予三位致力于用AI来预测蛋白质结构的科学家。</p>
-<p>然而，与AI技术广受关注不同，AI制药在资本市场中却颇受冷落。就在不久前，两大全球AI制药龙头Recursion和Exscientia宣布达成最终协议合并，Recursion将以6.88亿美元的价格全股票交易收购Exscientia，这也是AI制药行业目前为止最大的一笔并购案。</p>
-<p>要知道，Exscientia成立于2012年，算得上AI制药的鼻祖，但如今却被Recursion以区区6.88亿美元收购。这起标志性并购事件或意味着AI制药领域大浪淘沙的开始。</p>
-<h2><strong>01 美股的牛市，AI制药的熊市</strong></h2>
-<p>AI制药曾被认为是人工智能领域最具确定性的应用场景，英伟达就曾将其视为AI领域布局的重点。</p>
-<p>众所周知，制药界流传着“双十定律”，即一款创新药从诞生到上市用于治疗，通常需要耗费十年的时间，数十亿美元的资金。近年来，随着人工、材料等成本的不断提升，这个数额还在持续上升，并且新药研发的成功率还很低。</p>
-<p>如何降低研发费用，提高成功率，缩短研发周期成为当前整个制药行业的当务之急。AI制药技术的出现和不断成熟为创新药研发“降本增效”提供了全新的解决思路，被认为有望引领创新药行业新的变革浪潮。麦肯锡全球研究所（MGI）预计，生成式AI每年可为制药和医疗行业带来600亿至1100亿美元的经济价值。</p>
-<p>可是，这些年来AI制药公司在二级市场中的表现却与预期完全相反。</p>
-<p>众所周知，美股正处于一场前所未有的大牛市中，标普500指数从3500点左右持续上涨超过60%，达到5900点左右，而本轮牛市的“发动机”正是AI热。</p>
-<p>过去两年时间中，微软市值从1.75万亿美元上涨至3.1万亿美元，苹果市值从2.3万亿美元上涨至3.5万亿美元，英伟达市值更是从2978亿美元上涨十多倍至3.3万亿美元，2015年才成立的AI初创公司OpenAI估值也超过万亿美元。</p>
-<p>相比之下，AI制药公司则是惨不忍睹。2012年成立的Exscientia是全球最早一批AI制药公司，曾经将全球首个由AI设计的新药DSP-1181推进临床。2021年10月，Exscientia登陆美股，上市首日股价从22美元的发行价冲到超过30美元，募集资金3.047亿美元，远超拟募资的1亿美元。但随后两年的股价表现却一塌糊涂，最低跌至3.8美元，较发行首日跌去近90%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,639" src="https://img.36krcdn.com/hsossms/20241021/v2_c7ccf775df7740f1847f8bfdb73c0a06@5091053_oswg110820oswg1080oswg639_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：Exscientia股价月线走势，来源：雪球</p>
-<p>收购Exscientia的Recursion日子也不好过。2013年成立的Recursion，创立以来不断扩大业务范围，从最初聚焦于罕见病研发拓展到肿瘤学，如今正在从AI能生物技术公司向技术生物平台型企业转型。2021年4月，Recursion登陆美股，股价最高曾经达到42.81美元，市值一度超过125亿美元。</p>
-<p>短暂的高光过后，Recursion也开启下跌模式。从最高点下跌最多近90%，股价最低仅4.54美元。2023年7月，英伟达出资5000万美元投资Recursion，但依旧难以挽回颓势，如今市值仅为20亿美元左右。</p>
-<p>不仅是Exscientia和Recursion，AI制药的“泡沫”几乎全部被一个接一个戳破。</p>
-<p>AbCellera Biologics成立于2012年，市值从2020年上市之初的超百亿美元下跌至7.6亿美元左右；Relay Therapeutics在基因组、实验、计算方法三方面都有重大突破，市值从最高55亿美元跌至11亿美元；Schrodinger更是美股首个已经盈利的AI制药公司，但市值却依旧从2021年的70亿美元下跌至如今13亿美元左右。</p>
-<p>上市即巅峰，这是对于美股AI制药公司最准确的概括。美股AI制药公司上市后就暴跌的市场表现，堪称IPO“诅咒”。</p>
-<h2><strong>02 火热的另一面</strong></h2>
-<p>与二级市场上的惨淡不同，AI制药在一级融资市场又是另一番光景。</p>
-<p>2018年—2020年，全球AI制药赛道相关的融资总事件达171起，总金额63.54亿美元。2021年—2023年，全球AI制药赛道相关的融资总事件增加到了321起，总金额高达140亿美元，其中2022年达到融资高峰，为144起，融资金额达62亿美元。2024年上半年，AI制药继续火热，半年融资69起，融资金额33.36亿美元，几乎与2022年数据相当。</p>
-<p class="image-wrapper"><img data-img-size-val="891,530" src="https://img.36krcdn.com/hsossms/20241021/v2_401704ed1a3547c9b7d25a029642fe9f@5091053_oswg42391oswg891oswg530_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：2016年至今全球AI制药融资概况</p>
-<p>从公司类别上看，投资AI制药赛道的公司主要有三类：科技巨头、初创企业和大型药企。</p>
-<p>其中，英伟达是推动AI制药投融资回暖的重要推手，2023年以来，旗下投资部门NVentures至少投资了12家AI制药企业。谷歌是较早布局AI制药的科技公司，谷歌DeepMind和谷歌旗下药物发现子公司Isomorphic Labs的生物学预测模型AlphaFold已经迭代至第三代。</p>
-<p>不仅是国外，国内的阿里巴巴、腾讯、百度、华为、字节跳动在2020年后加速布局AI制药，纷纷成立了医疗AI部门。代表顶尖AI水平的科技巨头入局AI制药，不仅推动了技术发展，还促进了AI技术在实际药物开发中的应用。</p>
-<p>初创企业和大型药企更多是看中了AI制药在药物研发过程中带来的价值。目前，在新药研发的各个环节中，药物发现是AI制药应用最多也最成熟的环节。</p>
-<p>传统新药的发现需要先确定好某疾病的靶点，研究人员根据靶点设计和筛选出最合适的分子。为了找到最合适的分子，传统的药物发现是要对数万个小分子进行测试筛选，然后进一步合成和测试数百个分子，以便得到少数几个适合临床前研究的候选药物。</p>
-<p>这个过程困难重重，成功率极低，依赖研究人员的经验和运气，如果靶点是创新靶点的话，药物发现环节大约需要花费4年的时间和数千万美元的投入。</p>
-<p>与传统药物发现相比，AI技术凭借大数据和算法，可以减少新药研发流程中近40%的临床前研究时间。同时，AI技术平台还能源源不断地发现新药分子，从而带来新药产品上的规模效应。</p>
-<p>例如英矽智能利用AI技术能够在仅一年的时间内提名九种临床前候选药物，速度远高于每约4.5年提名一种临床前候选药物的行业平均值。</p>
-<p>与初创公司不同的是，传统药企更多采用投资合作的方式布局AI制药，例如辉瑞公司和IBM Watson Health合作，探索AI在癌症治疗中的应用。此外，强生、阿斯利康、默沙东、赛诺菲，以及国内的恒瑞、复星等药企也纷纷加大对AI领域的布局。</p>
-<p>因此，AI制药依然是资本看重的热门领域，尤其是在一级市场。但为何到了二级市场，AI制药就不再被资本青睐呢？</p>
-<h2><strong>03 AI制药的困局</strong></h2>
-<p>AI制药在二级市场表现不佳，一方面是前期泡沫太大，随着创新药寒冬的持续进入调整期，另一方面是资本开始回归理性，更加注重技术变现的能力。</p>
-<p>目前AI制药公司的商业化路径主要有三种：提供CRO服务；AI SaaS，提供软件服务；自己做新药研发。</p>
-<p>这三种商业模式中，如果只是做软件的授权，天花板比较低。以首家盈利的AI制药公司Schrodinger为例，全球营收排名前20位的制药公司几乎都购买了Schrodinger的软件进行药物研发，年费超过50万的客户留存率超过98%。可即使如此，2023年Schrodinger的软件收入仅为1.591亿美元，占其总收入的36.4%，真正令其扭亏为盈的还是靠license out TYK2药物带来的一次性收入。</p>
-<p>提供CRO服务则是回归了AI制药的本质，就是帮助药企提高研发效率。虽然理论上AI可以极大提升药物发现的效率，但实际上并不具备不可替代性。同时，CRO行业不仅仅只有药物发现这一个环节，药物发现只是CRO服务中较小的一个环节，后续环节同样关键，且占用药物的研发成本比例更高，药业更愿意与成熟的全产业链CRO公司合作而非AI初创公司。</p>
-<p>最靠谱的商业模式还是回归产品孵化，也就是目前大多数AI制药公司的商业模式，即AI+Biotech。通过AI快速产生临床前管线，然后推进至临床阶段，再对外授权转让，从而获得首付款、里程碑付款和销售分成。以国内的英矽智能为例，其绝大部分收入是来自管线的授权和里程碑付款，其中既包括新的管线授权，也有已有授权管线的里程碑付款等。</p>
-<p>其中的关键点仍然是管线，只有疗效好、市场大、临床进度快的管线才会被MNC看上，才能卖上一个好价格，但目前来看，AI还没能产生一款突破传统的重磅产品。主要原因是AI制药与传统制药技术不同，非常依赖大数据，所有的AI技术都需要基于大量的数据来训练和学习，没有大数据训练的AI就是个智障。</p>
-<p>但目前最大的困难与挑战就是高质量的数据缺乏。不同于AI在图像识别领域的应用，图像数据量大且获取相对简单，AI制药所需要的数据总量较少，且药企出于保密的目的，大多不愿意分享数据，这直接导致了数据获取成本大幅提高。即使有了大量的数据，随着数据量的增加，AI模型的训练成本也几何倍地攀升，导致AI模型的成本难以控制。</p>
-<p>另一方面，AI制药的Biotech还需要面临新药可能在临床试验阶段失败的高风险。随着第一代AI设计的药物逐步推进临床，在临床上显示出令人失望的结果，大量AI药物管线被暂停或终止研发。例如Exscientia就在2023年停止了两条临床管线，其中就包括“首款进入临床的AI设计药物”DSP-1181。</p>
-<p>事实上，AI制药最大的问题就是人们对它的期待太高了。人们预想中的AI可以提升90%的医药研发效率，但实际上作为新药研发的一种工具它目前只能提升6%—7%的效率，剩余的大部分还是需要依赖传统新药研发的方式，这就使得AI制药Biotech与其他Biotech没有本质上的区别。</p>
-<p>AI技术的不断发展，AI制药公司随之涌现，为创新药研发领域注入新活力。但以当前的技术水平，AI制药还处于起步阶段，更多的只是作为创新药研发的一种工具，人们不应对其抱有不切实际的期待，也不要因为AI制药技术遭遇的一时失利，就完全摈弃。</p>
-<p>毫无疑问，拥抱AI技术极有可能是医药领域未来发展的核心方向，但具体的商业模式仍需耗费更多的时间进行摸索，这或许才是美股AI制药不受追捧的本质原因。如今中国“AI制药第一股”晶泰科技借助18C上市，不知道其能够打破美股AI制药的IPO“诅咒”？</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/QnYrG--PaZp0D3ri30RvWQ" rel="noopener noreferrer nofollow" target="_blank">“医曜”</a>，作者：青栎，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001470127094149</guid><pubDate>Mon, 21 Oct 2024 07:48:00 +0800</pubDate></item><item><title>朋友圈支持Live Photo后，网友却不乐意点开了</title><link>https://36kr.com/p/3001463741970568</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>前段时间，微信推出了一个重磅功能——</strong></p>
-<p><strong>朋友圈可以发 Live Photo。</strong></p>
-<p>尽管还不支持安卓，也尽管 Live Photo 出了快 10 年，但毕竟人是微信嘛，消息一出就冲上了微博热搜第一。</p>
-<p><strong>那两天，Live Photo 相关话题可以说层出不穷：</strong></p>
-<p>有人等不及上手，重装了微信，结果聊天记录找不回来了。 有人不知道 Live Photo 发出去带声音，闹出了一堆尴尬； 很多安卓用户也在催微信，啥时候安卓也能整上 Live 图。</p>
-<p class="image-wrapper"><img data-img-size-val="767,756" src="https://img.36krcdn.com/hsossms/20241021/v2_c0b17da3d64e4d96b773e18e1f220e23@5091053_oswg124927oswg767oswg756_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如果你是 iPhone 用户，这种被 Live 图包围的感觉会更明显——</p>
-<p>国庆期间的朋友圈， 从风景到美食，从自拍再到随手拍，大家都跟说好似的全整上 Live Photo 了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,864" src="https://img.36krcdn.com/hsossms/20241021/v2_369ddec3ea974e7fa5022a0632f04c3a@5091053_oswg521746oswg1080oswg864_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>虽然这一头大家对 Live Photo 的热情高涨，一整个文艺复兴，仿佛回到 2015 。</p>
-<p><strong>但另一头，已有人开始厌烦朋友圈 Live Photo 了。</strong></p>
-<p>前两天，有朋友转发了个小红书帖子：</p>
-<p>《<strong>微信出了 Live 后，我点开照片的欲望消失了 》</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,1017" src="https://img.36krcdn.com/hsossms/20241021/v2_a550ed75d4e243b08cd0e2e06895c08c@5091053_oswg65246oswg1080oswg1017_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>这位网友说了两个理由，一个是 LIVE 图左下角会显示一个白色圈，影响整体美观度。</strong></p>
-<p><strong>另一个是镜头很晃。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,984" src="https://img.36krcdn.com/hsossms/20241021/v2_d43926e9d6e54471addcb584d2d0f691@5091053_oswg319345oswg1080oswg984_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其实这个帖子能火，主要是它确实有很大争论，有人说同感，但也有人反对。</p>
-<p>世超观察了下评论区，大概明白为啥有网友不喜欢 Live Photo 了。</p>
-<p><strong>因为 Live Photo ，它类似于视频，会记录几秒的画面和声音。</strong></p>
-<p>一个介质存储的内容变多，就会朝两个方向发展，要么更好，要么更糟。</p>
-<p>不喜欢看 Live 的人，就是被 “ 更糟 ” 给影响了。</p>
-<p><strong>像朋友圈那些风景照 LIVE 图，点进之前，封面都还挺好的。</strong></p>
-<p><strong>但点进去之后的样子， be like ：</strong></p>
-<p class="image-wrapper"><img data-img-size-val="800,1067" src="https://img.36krcdn.com/hsossms/20241021/v2_5dfaeb2a7b5646c1a9590adbe88ab7f8@5091053_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>不光整个镜头在晃动，而且画面外有嘈杂的人声、喇叭声，观赏体验会大打折扣。</strong></p>
-<p>一吵，二晃眼，次数一旦多了，人下意识就会有点抵触心理。</p>
-<p>有位网友原本期待 Live 图很久，结果现在大家都发 Live 图之后，她反而因为图片不精致了，模糊了，失去了点开的欲望。</p>
-<p class="image-wrapper"><img data-img-size-val="840,420" src="https://img.36krcdn.com/hsossms/20241021/v2_d55ed38e79534df1a2b69ea09c082586@5091053_oswg116329oswg840oswg420_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当然了，咱们发朋友圈并不是为了要满足别人的情绪，很多人还就喜欢发 Live，喜欢看 Live 。</p>
-<p>这就是要说到， Live Photo “ 更好 ” 的点，在于能抓住那一鲜活的瞬间。</p>
-<p>有人评论区发了一张烟花爆炸的 Live ，获得了 2 万点赞。</p>
-<p class="image-wrapper"><img data-img-size-val="722,486" src="https://img.36krcdn.com/hsossms/20241021/v2_bbb4535251304b18af01d34268cb65d8@5091053_oswg191191oswg722oswg486_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>有人拍的风景照，波光粼粼，夕阳西下。</p>
-<p class="image-wrapper"><img data-img-size-val="836,546" src="https://img.36krcdn.com/hsossms/20241021/v2_af8e35a694b44363a8237d983229f87c@5091053_oswg148290oswg836oswg546_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Live 图这些动态的，更鲜活的展现，是照片做不到的。</p>
-<p class="image-wrapper"><img data-img-size-val="746,240" src="https://img.36krcdn.com/hsossms/20241021/v2_d55039f2d3ce4433aebc78fc57875b08@5091053_oswg32812oswg746oswg240_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>你可能会问，那咋不拍视频。</p>
-<p><strong>因为视频适合 “ 记录一段时间 ” ，而 Live 更擅长 “ 捕捉一瞬间 ” 。</strong></p>
-<p>之前杭州下暴雨，世超就想抓拍到闪电来的一瞬间，结果拍了一段长达 2 分钟的视频。视频占体积不说，拍完了我还要再截取那个瞬间，发给别人。</p>
-<p><strong>但 Live 图可以记录快门前后 1.5 秒，看到闪电来了，我再不慌不忙按快门就行。</strong></p>
-<p>相比一段视频， Live Photos 占用存储空间会更少，你也能挑选最合适的一帧作为封面。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1441" src="https://img.36krcdn.com/hsossms/20241021/v2_52acc3222ab74c40a08c8648f914d1d6@5091053_oswg429437oswg1080oswg1441_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>除了能还原生活的瞬间，大家喜欢 Live 图还有个最主要原因——</strong></p>
-<p><strong>就是为了表达 “ 原图直出 ” 。</strong></p>
-<p>在当下充满粉饰、滤镜、攀比的朋友圈，越来越多人对朋友圈有了包袱，发出来照片必须是有绝佳的构图，大师一样的调色，否则都拿不出手。</p>
-<p>但更多时候，大家都在卷自己。</p>
-<p><strong>Live 图登录朋友圈后，这种标准被重洗了，发 Live 图成了唯一一个能够真实表达的形式。</strong></p>
-<p>强调没滤镜，没美颜，玩的就是真实。</p>
-<p>有同事国庆去了新疆，看了雪山，传了 9 张 Live 图。</p>
-<p>这些带有 Live Photo 标志的图片，就已经在表达：<strong>这些是最真实，没调过色的照片。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,918" src="https://img.36krcdn.com/hsossms/20241021/v2_e5fe0eabf430400193f18f9f53e2608a@5091053_oswg665119oswg1080oswg918_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>即便你拍了一张歪歪扭扭的图，大家也不会觉得有啥。毕竟你懂得，它可是 Live 。。。</p>
-<p>但可能很多人并不知道，<strong>其实 Live Photo 也可以 P。</strong></p>
-<p>市面上随便找个第三方美颜相机，找到对应的功能，就能和 P 图一样点点点就完事了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20241021/v2_b9f0982f97344d178475ab55b6ee9245@5091053_oswg678218oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>小红书上相关教程也随处可见。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,864" src="https://img.36krcdn.com/hsossms/20241021/v2_b655896445184e24a8c560cac778f4ed@5091053_oswg783749oswg1080oswg864_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>换句话说：你们以前在网上刷到<strong>那些 Live Photo 怼脸自拍的帅哥美女，可能也经过了大眼祛痘美白等一系列美颜特效的。。。</strong></p>
-<p>因为 苹果 Live Photo 并不是一个神秘的格式， 说白了它就是<strong>一张封面 + 一段视频</strong>。</p>
-<p>比如我随手拍的一张火锅大屁股 Live Photo ，你把它导入到 Mac 上，就会发现这其实是两个文件。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20241021/v2_5c75f915f3314d68b765f1e79367e761@5091053_oswg852386oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>一张 JPEG 格式的封面，一段 MOV 格式的视频。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="502,348" src="https://img.36krcdn.com/hsossms/20241021/v2_2edde7044c3f497ca95698bfc6917515@5091053_oswg129197oswg502oswg348_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>照片能修，视频也能美颜，那自然 Live 图就可以 P 了吧。</p>
-<p>所以当大家为了追求一种“ 真实的表达 ”，不加修饰地在朋友圈发Live Photo 时。。。</p>
-<p>这张 Live 图，其实在每个人心里，都有着不一样的答案。。。</p>
-<p><strong>图片、资料来源</strong>：</p>
-<p>小红书</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/uBCEh68MoCeXY7XmBa1e7g" rel="noopener noreferrer nofollow" target="_blank">“差评X.PIN”</a>，作者：刺猬，编辑：莽山烙铁头 &amp; 米罗，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001463741970568</guid><pubDate>Mon, 21 Oct 2024 07:49:00 +0800</pubDate></item><item><title>OpenAI前CTO被曝吸金7亿创业，招聘首先挖角老东家</title><link>https://36kr.com/p/3001449829611906</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>OpenAI前CTO Mira Murati出走后，动向进一步明确——</p>
-<p><strong>被曝筹备新公司，吸金超1亿美元</strong>（约合7亿人民币），且和她同一天离开OpenAI的Barret Zoph（前研究副总裁）也可能入局。</p>
-<p class="image-wrapper"><img data-img-size-val="768,960" src="https://img.36krcdn.com/hsossms/20241021/v2_19cfdd4e8f6f4feb9bbdc2d005e53c1f@5091053_oswg935736oswg768oswg960_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此前就有消息称，Mira离职后一直在向前司OpenAI的员工抛出橄榄枝。</p>
-<p>虽然具体创业方向并未明确，但人们已经开始为OpenAI捏一把汗了，竞争对手+1 ？？</p>
-<p>不仅如此，OpenAI最近抓马持续：</p>
-<p>人员继续变动，且与“铁杆支持者”微软的关系出现裂缝……</p>
-<p class="image-wrapper"><img data-img-size-val="1080,916" src="https://img.36krcdn.com/hsossms/20241021/v2_d40b63ad325a484889b2a8a2d08607cf@5091053_oswg64955oswg1080oswg916_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>OpenAI前CTO被曝筹备新公司</strong></h2>
-<p>据路透社消息，OpenAI前CTO Mira Murati正在为新的创业公司寻找风险投资。</p>
-<p>消息人士称，谈判目前处于早期阶段，新公司可能会筹集<strong>超过1亿美元</strong>资金，最终数字仍未确定。</p>
-<p>知情人士还透露，新公司的目标是<strong>基于专有模型构建人工智能产品</strong>，目前尚不清楚Mira最终是否会出任该公司CEO。</p>
-<p>更早之前就有报道称，Mira离职后一直在从前司OpenAI挖人，为可能的创业做准备。</p>
-<p><strong>公开资料显示</strong>， Mira 2018年6月加入OpenAI，并于2022年5月晋升为首席技术官。</p>
-<p>加入OpenAI之前，她曾在特斯拉干了3年Model X的产品经理。</p>
-<p>在OpenAI，她负责监督公司的技术战略和产品开发，包括DALL-E、Sora和ChatGPT平台的推出和改进，同时还领导研究和安全团队。</p>
-<p>她的工作包括突破机器学习的界限，同时倡导负责任和合乎道德地使用人工智能技术。</p>
-<p>一直以来，她和Sam Altman以产品代言人的身份出现在公众面前，OpenAI今年5月发布GPT-4o时，就由她主持。</p>
-<p>就在今年9月，她还入选了《时代》杂志“2024年人工智能领域100位最具影响力人物”榜单。</p>
-<p>不过，此前的OpenAI内讧事件中，也有爆料称，<strong>Mira在奥特曼被赶下台的过程中发挥了关键作用</strong>。</p>
-<p>就在9月底，Mira Murati突然宣告离开OpenAI，当时的说法是：</p>
-<blockquote>
-<p>离开是为了给自己创造时间和空间，进行一些个人探索。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="399,399" src="https://img.36krcdn.com/hsossms/20241021/v2_bda7c827e3d145e09192c180c5afedb5@5091053_oswg169413oswg399oswg399_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>眼下，不到1个月，她的下一步去向终于明确了~</p>
-<p>与此同时，早前有消息称Barret Zoph离职后也计划成立创业公司（两人同一天宣布离开OpenAI）。</p>
-<p>这次却曝出他有可能直接加入Mira的新公司。</p>
-<p>简单介绍下，Barret Zoph离职前是OpenAI的<strong>后训练团队负责人</strong>，于2022年加入OpenAI。</p>
-<p>在离职声明中，他表示：</p>
-<blockquote>
-<p>我在ChatGPT发布之前加入，并与John Schulman和其他人一起从零开始建立了后训练团队。</p>
-<p>我非常感激有机会领导后训练团队，帮助构建和扩展ChatGPT到今天的规模。</p>
-<p>现在对我来说，似乎是时候在OpenAI之外探索新的机会了。这是一个基于我个人职业发展需求的决定。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="400,400" src="https://img.36krcdn.com/hsossms/20241021/v2_380c228695714a5ab58271d5db6bde05@5091053_oswg265506oswg400oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这下，看来二人又打算合伙搞事业了~</p>
-<p>不过对于上述消息，目前Barret Zoph和Mira均未回应置评请求，消息真实性尚未最终确认。</p>
-<h2><strong>OpenAI抓马持续：人员变动、和微软关系恶化</strong></h2>
-<p>除了应对前员工转身成竞争对手这样的局面，OpenAI最近的烦心事不少：</p>
-<p><strong>家里面，人心未定，仍有员工继续选择出走</strong>。</p>
-<p>这不，ChatGPT早期开发者之一的Luke Metz于近期宣布离职。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1420" src="https://img.36krcdn.com/hsossms/20241021/v2_e8ebd0ae8d69495ba952aed0dabd2a86@5091053_oswg600254oswg1080oswg1420_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>家外面，和“铁杆支持者”微软的关系也逐渐恶化。</strong></p>
-<p>表面上，Sam Altman声称与微软的合作是“科技界最好的兄弟情谊”，然而私底下却已在各谋出路。</p>
-<p>OpenAI这边，想改变与微软的排他性合作协议；微软则希望摆脱对OpenAI的依赖，自主开发未来可能取代OpenAI的技术。</p>
-<p>相关分歧的最新表现是：<strong>二者正在就OpenAI转向营利性公司的股权分配进行谈判。</strong></p>
-<p>有消息称，OpenAI和微软分别聘请了高盛和摩根士丹利，就这一问题进行磋商。</p>
-<p>截至目前，微软已向OpenAI投资了<strong>137.5亿美元</strong>，其中包括OpenAI最新66亿美元融资中的份额。</p>
-<p>另外，还有一件事也可能给二者的关系蒙上阴影。</p>
-<p>微软AI副总裁Sebastien Bubeck前几天还刚加入了OpenAI，微软痛失一员大将。</p>
-<p>Sebastien Bubeck在微软任职已有十年，最为人熟知的成就是：<strong>领导团队开发了Phi系列小模型。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,729" src="https://img.36krcdn.com/hsossms/20241021/v2_9339e369564941da960c5dfd10c15f7a@5091053_oswg234485oswg1080oswg729_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>One More Thing</strong></h2>
-<p>看到Mira即将有新动作，网友也是想起了还在休假的Greg Brockman。</p>
-<p>按照之前的说法，年底Brockman就该结束他的长假期了。</p>
-<p>那么……</p>
-<p class="image-wrapper"><img data-img-size-val="1080,271" src="https://img.36krcdn.com/hsossms/20241021/v2_8ef2a66fe78a459485a12227b8b2b440@5091053_oswg99484oswg1080oswg271_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>参考链接：</strong></p>
-<p>[1]https://x.com/CuriousCatsAI/status/1847476298421067979</p>
-<p>[2]https://x.com/nytimes/status/1847082703419580673</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/P2cWH2-j8XHh8yf3H4nltg" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：一水，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001449829611906</guid><pubDate>Mon, 21 Oct 2024 07:51:00 +0800</pubDate></item><item><title>一年闭店超百家，太平洋咖啡怎么了？</title><link>https://36kr.com/p/3001444771330179</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>咖啡行业进入竞争白热化，昔日咖啡第二连锁”太平洋咖啡”被曝大量关闭门店。</p>
-<p>据第三方平台窄门餐眼数据显示，历经一年时间，太平洋咖啡全国门店数量减少百余家。尤其在近期，已经由去年8月的309家锐减至203家（含港澳台地区），其中香港门店有104家，内地门店仅存98家。而在去年年底，太平洋咖啡还拥有 288 家。今年以来，太平洋咖啡只开出了 10 家新店。</p>
-<p>目前，太平洋咖啡在多个城市仅剩1家门店，部分门店系机场店。在广东、香港等传统优势区域的门店数也在不断缩减。</p>
-<p>近日，记者走访获悉，10月30日前，太平洋咖啡将关闭上海门店，内地其他城市门店也在逐步关店停业。</p>
-<p>对于闭店传闻，太平洋咖啡方面对外回应，目前确实有部分门店关闭，是出于战略上的主动选择，后续仍会继续经营剩下门店，无论内地还是香港。</p>
-<p>广东省食品安全保障促进会副会长朱丹蓬对新消费日报记者表示，30元价格带以内的咖啡，包括星巴克在内还有很多选择。在他看来，太平洋咖啡坚守所谓的‘击中商务人士’策略已落后于市场。</p>
-<h2><strong>内地门店逐步关闭？</strong></h2>
-<p>日前，记者来到上海前滩时代广场的太平洋咖啡门店，该门店位于广场地下负一层，为前后两个商场及办公大楼的相汇处，门店面积约30平方，有两位员工。根据门店张贴的公告，该门店由于“公司调整”将于10月30日正式闭店。</p>
-<p>在记者走访的1个小时内，现场点单的顾客极少。据店员透露，由于门店将要关闭，店内现存材料不足，不少饮品已经做不了了。</p>
-<p>另一家位于上海东方汇经办公大楼2层的太平洋咖啡，同样贴出公告，表示由于“公司调整”将于10月底正式闭店。</p>
-<p>面对记者询问门店经营情况，店员表示现在生意比疫情时期还要差，库迪、瑞幸等低价咖啡崛起，加之私人咖啡馆与便利店咖啡的不断推出，太平洋咖啡已难有优势。</p>
-<p>目前，太平洋咖啡内地市场门店正在逐步关闭，其香港门店数量仍旧占据总门店的一半以上。记者在走访上海太平洋咖啡时，店员透露，<strong>太平洋咖啡将关闭内地所有门店，仅保存香港市场。</strong></p>
-<p>相较于竞争激烈的内地市场，太平洋咖啡在香港市场的发展势头显然更好。面对香港的高店面租金和人力成本，内地市场以高性价为优势的库迪等咖啡品牌在香港却难以延续其低价策略。</p>
-<p>此外，相比于在内地市场品牌知名度较低的境况，<strong>太平洋咖啡上世纪90年代便以香港为锚点开始规划其发展之路，至今在港仍市场占有率排列第二，仅次于星巴克。无论是品牌力亦是性价比，香港市场仍然是太平洋咖啡发展的重点板块。</strong></p>
-<p>而记者以加盟意愿者身份致电太平洋咖啡官网电话，<strong>当被问及太平洋咖啡的内地门店陆续关闭一事，相关工作人员表示此为公司内部战略调整，具体其并不清楚，但内地仍可继续加盟门店。</strong></p>
-<h2><strong>曾经的咖啡界“老二”怎么了</strong></h2>
-<p>太平洋咖啡于1992年在香港创立，定位为高端商务咖啡。2010年7月华润创业以3.27亿港元作价收购太平洋咖啡80%的股权，并于2013年完成对整个太平洋咖啡的收购，太平洋咖啡也因此成为华润旗下唯一的咖啡连锁品牌。</p>
-<p>2011年太平洋咖啡进入内地市场，当时该品牌已是香港第二大的咖啡连锁企业，仅次于星巴克。进入内地后分别与银行、医院等合作，首次推出咖啡银行、医院咖啡店等新型业态。在2016年前后太平洋咖啡取代Costa成为内地咖啡行业的“老二”，同样仅次于星巴克。</p>
-<p>但随着瑞幸、库迪等物美价廉的“咖啡新势力”的崛起，太平洋咖啡的市场份额也开始走向萎缩。根据前瞻产业研究院的数据，2017年底太平洋咖啡中国市场占有率为2.5%，仍然占据第二名位置。而到了2020年，其市场占有率仅为1.7%，排到了星巴克（36.4%）、瑞幸（6.8%）、Costa（2.3%）之后。</p>
-<p>据瑞幸最新财报，2023年6月到2024年6月期间，瑞幸一年内净增了近一万家门店；星巴克财报同样显示，今年二、三季度共新增331家门店。反观太平洋咖啡，全国门店数量已由2020年的443家锐减至现今的203家。</p>
-<p>太平洋咖啡自此也陷入了较为尴尬的境地，主要由于其品牌调性难以支撑起价格定位。太平洋咖啡将消费群体锁定为商务人士，单杯售价在30元左右，门店主要设置在办公楼与大型商场、机场周边。</p>
-<p>但在这样的消费场景里，消费者有着星巴克、代数家、Mstand以及众多的精品咖啡馆。价格定位于9.9元、8.8元的瑞幸、库迪等新势力，不但抢占商务场景，又不断推进新品迭代。现阶段的太平洋在这两方面的优势显然都不够突出。</p>
-<p>实际上，太平洋咖啡也曾做过转型尝试。2018年察觉到消费市场上“茶咖”热潮的到来，力推“太茶”这一新产品线，当年11月太茶在上海新业坊开出国内首家独立门店，提供完整“太茶”系列，以及怪咖系列和小食甜点等；12月，太平洋咖啡又在深圳湾万象城推出精品咖啡品牌BREW BAR，转型动作频频。</p>
-<p>但无论是太茶还是BREW BAR，都没能助力太平洋咖啡成功转型。市场上甚至一度传出华润创业有意出售太平洋咖啡一事。</p>
-<p>2023 年 8 月，有传闻称，新茶饮品牌柠季计划收购太平洋咖啡，预计交易金额为 3 亿 -5 亿元。柠季创始人也曾在朋友圈回应，“确实有收购计划，品类会集中在连锁线下门店饮品类，规模不限。至于收购对象最终是不是太平洋咖啡，一切随缘。”</p>
-<p>彼时，太平洋咖啡Pacific Coffee(香港及海外)董事及副总经理叶文斌就表示，太平洋咖啡是香港第二大连锁店咖啡店，公司业务无危机，运作正常，会继续开新分店，强调对香港前景有信心，华润是“强大的后盾”。</p>
-<p><strong>“太平洋咖啡最大的一个问题是它的品牌调性支撑不起价格定位。”</strong>广东省食品安全保障促进会副会长朱丹蓬对新消费日报记者表示，30元价格带以内的咖啡，包括星巴克在内消费者还有很多选择。在朱丹蓬看来，太平洋咖啡坚守所谓的“击中商务人士”略已经落后于市场。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/mICTfURW14dyqqWslz92yQ" rel="noopener noreferrer nofollow" target="_blank">“新消费日报”</a>，作者：高梦阳 李佳怡，编辑：梁又匀，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001444771330179</guid><pubDate>Mon, 21 Oct 2024 07:52:00 +0800</pubDate></item><item><title>大模型在装傻，谷歌苹果最新发现：LLM知道但不告诉你，掌握知识比表现出来的多</title><link>https://36kr.com/p/3001373342644613</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 21 Oct 2024 08:30:28 +0800</lastBuildDate><pubDate>Mon, 21 Oct 2024 08:30:28 +0800</pubDate><item><title>大模型在装傻，谷歌苹果最新发现：LLM知道但不告诉你，掌握知识比表现出来的多</title><link>https://36kr.com/p/3001373342644613</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>大模型的应用历来受幻觉所扰。</p>
 <p>这个幻觉可以指代LLM产生的任何类型的错误：事实不准确、偏见、常识推理失败等等。</p>
 <p>——是因为大模型学半天白学了吗？并不是。</p>
@@ -752,4 +280,272 @@
 <p>时间回到2016年，张一鸣在拒绝腾讯的那条帖子下面，推荐了一首歌，歌名是《Go Big or Go Home》，翻译成中文就是：要么轰轰烈烈，要么一事无成。</p>
 <p>一个拥有企图心的创业者，当巨额利益摆在面前，他说出“NO！”的那一刻，<strong>这个世界就可能会多出一位真正的企业家，会跳出来下一个，下下一个张一鸣。</strong></p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NDA0NDkzOQ==&amp;mid=2650772704&amp;idx=1&amp;sn=531b36126cc872c86d75bab2ddea6aee&amp;chksm=bf641cce9ee71040aa01ce3a3b7e9093e4a7e444afab8ae8fe4a63b029f6edbfab64af6d8b49&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“华商韬略”（ID：hstl8888）</a>，作者：大南，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3000830088542593</guid><pubDate>Mon, 21 Oct 2024 07:59:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3000830088542593</guid><pubDate>Mon, 21 Oct 2024 07:59:00 +0800</pubDate></item><item><title>「炫景生物」完成超亿元新融资，肝靶点管线与肝外递送均取得突破｜36氪首发</title><link>https://36kr.com/p/3001049064323464</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>36氪获悉，炫景生物已完成超亿元的天使+轮融资。本轮融资由上海科投股份和启航投资共同领投，信成基金、金沙江联合润璞、元希海河等跟投，老股东三一创新投资追加投资。本轮融资将主要用于公司首款siRNA药物RG002C0106的临床研究、多个临床前管线的推进、以及非肝组织体内递送技术和相应管线的快速开发。同时，炫景生物成立至今已完成两轮共计超2亿元的融资。</p>
+<p>炫景生物成立于2022年，专注于小核酸药物研发和产业化。创始人黄渊余博士专注核酸制药领域16年+，曾在头部小核酸制药公司任职多年，领导多项小核酸制药技术平台的建立和系列小核酸药物的研发，已推动5个siRNA药物进入临床I-II研究。公司核心团队均从业10年以上，经验覆盖核酸生物学、核酸化学、药物递送、项目管理、CMC研究、注册申报、临床开发等全流程。</p>
+<p>小核酸药物是近年来生物医药行业快速兴起的赛道之一。尤其是新冠疫情之后，随着由mRNA疫苗撬动的mRNA类药物市场表现回落，RNA疗法的投资热情进一步涌向成熟度更高、确定性更强、商业前景更明朗的小核酸领域。仅2023年，以siRNA、ASO等为主流的小核酸药项目融资就有约20起。</p>
+<p>简单而言，小核酸药（包括siRNA和ASO）如果想在人体内发挥作用，要经过体内循环、器官靶向、细胞摄取、胞内逃逸等多个环节。这个过程中，首先，无修饰的小核酸本身不够稳定；而且，要到细胞质或细胞核内才发生作用，因此存在递送效率低等难题。针对前者，可利用讲究的化学修饰来解决；对于后者，则要通过配体偶联或其它递送系统来克服。</p>
+<p>换句话说，小核酸药的开发是个综合且系统的问题，核酸序列、化学修饰和递送载体技术缺一不可。<strong>炫景生物进行了全方位布局，并搭建了具有自主知识产权的三大技术平台，包括核酸序列设计筛选平台RIHOST®、化学修饰平台RICMO®，以及体内递送平台LICOD®。</strong></p>
+<p>其中，递送技术是当前全球小核酸制药公司聚焦的重点和竞争的关键。用黄渊余的话说，递送技术的开发是炫景生物“启程”的立足之本，也是“行远”的核心技能。</p>
+<p>从肝内和肝外两大递送方向来看，炫景生物LICOD®递送技术同步布局了相关研发。其中，在相对成熟的肝靶向递送技术上，炫景生物也建立了GalNAc缀合技术，但不同于同行熟知的“三叉戟”结构，炫景生物设计了新一代GalNAc缀合结构，具有合成步骤少（相比头部企业竞品载体减少70%）、生产成本低、递送效率高、缀合方式灵活等诸多优势。</p>
+<p>在肝外递送技术的开发上，领域内共同的难点在于如何寻找并确认理想的介导入胞的受体分子，以及基于该受体设计筛选高效安全的配体分子。对此，黄渊余认为：<strong>“不要期待在肝外组织短期内能找到类似GalNAc-ASGPR这种能打‘一百分’的组合，而更应从药物开发角度，以一种产品思维去建立肝外递送技术，也就是这种递送技术只要能满足药物开发的各维度要求即可。或者说，我们追求的肝外递送技术能打“七八十分”即可。”</strong></p>
+<p>目前，炫景生物基于多种公司独有的策略，已完成包括肾脏、肌肉、脂肪、心脏、中枢神经系统、肺组织、眼部组织等7种肝外组织递送载体的开发验证，并在动物体内完成了有效性和长效性评价。</p>
+<p>以肾组织递送为例，炫景生物已成功测试了一系列缀合分子。其中，具有代表性的LICOD-K1载体在啮齿类动物体内实现了特异性的靶向分布，siRNA缀合物在肾组织中的暴露量比无载体siRNA 高出10倍以上；并完成了在非人灵长类 (NHP) 动物上的验证实验，获得了超过70%的抑制效率。据悉，炫景生物开发的肾靶向递送技术已走在了国际前沿。</p>
+<p>此外，炫景生物的RIHOST®和RICMO®两大平台也已完成建立。值得一提的是，RIHOST®的设计筛选平台相比于传统方法提升了数倍至数十倍的效率，RICMO®平台也完成了一系列创新型“修饰通式”的开发和专利布局。“核酸序列设计筛选、化学修饰和体内递送是三个交互递进的开发过程，相互协作并融合才能完成核酸药物的高效开发。”</p>
+<p><strong>今年8月，炫景生物旗下针对补体C3的肝靶向siRNA药物管线RG002C0106，已同步在澳大利亚和中国取得临床批件，并即将完成首个受试者给药。</strong>此外，公司针对心血管和代谢疾病等慢性疾病的肝靶点处在临床前研究研发阶段，肝外管线的开发也在积极验证和布局中。</p>
+<p>黄渊余坦言，“管线的选择要综合方方面面的因素，公司首发管线选择了差异化的靶点，该管线可开发多个适应症，既可针对C3肾小球病这类罕见病，也包括IgA肾病等相对高发的肾病。首发管线选择肾病领域，与心血管疾病、代谢疾病领域相比，招募较少的病人即可完成临床研究，作为初创期的Biotech公司就有能力快速推进各期临床研究。同时，炫景生物也布局了多个心血管代谢相关的大病种管线，拥有突出的市场前景。”</p>
+<p>对外合作方面，炫景生物已经获得了多家国际MNC、国内上市药企、以及Biotech的关注，公司在积极与这些不同规模、特点、需求的企业探讨基于管线或技术平台的合作。</p>
+<p>黄渊余透露：“小核酸药物的成药性高、确定性强，管线价值或技术平台在临床前阶段就已能展现出来；因此在相对早期的临床前阶段，MNC公司就拥有浓厚的合作兴趣，炫景生物正在高效有序开展工作，预期不久之后就将达成相关合作。”</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001049064323464</guid><pubDate>Mon, 21 Oct 2024 08:00:00 +0800</pubDate></item><item><title>小红书，不能把“种草经济”作为唯一选项</title><link>https://36kr.com/p/3000822892819588</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>最近，小红书再次被曝上市传闻，尽管官方表示对此暂不回应，但有关上市的消息在小红书身上屡见不鲜。去年12月份，就曾有报道提过其最快或将在2024年下半年赴港上市，从种种迹象来看，2024年，似乎真的是小红书的“幸运之年”。</p>
+<p>10月份，《金融时报》报道称，小红书在今年第一季度的销售额略高于10亿美元，净利润达2亿美元。虽然这一数字并非来源于小红书官方，但早在去年开始，小红书就扭亏为盈，全年净利润高达5亿美元。</p>
+<p>各路鲜花与掌声也随之而来。</p>
+<p>2024年QuestMobile数据显示，小红书是当前除阿里、字节、腾讯系以外用户规模最大的三方内容平台。与此同时，胡润网发布的2024年全球独角兽榜单显示，小红书价值为1000亿元，位列第二十六。</p>
+<p>因此，小红书的上市时间真的要来了吗？这一次无论是真是假，可以确定的是摩拳擦掌数年的小红书，实在要等不及了。</p>
+<h2><strong>互联网集体“再造”小红书</strong></h2>
+<p>一直以来，小红书的慢基调都让这家平台游离在互联网头部阵营之外，当抖音快手用短视频冲击社交圈时，它没及时跟上，当直播带货重塑电商市场时，小红书入局的动作也慢了那么一拍。</p>
+<p>时至今日，小红书的“慢”却成了平台本身在快节奏的网络世界中的一大特色，也因为留给对手太多时间，引得不少互联网大厂纷纷想要复制下一个“小红书”。从2018年左右，整个互联网赛道就开始尝试复刻小红书。</p>
+<p>据不完全统计，从2018年到2022年之间，互联网大厂至少有15次打造“小红书”的经历，其中包括抖音、腾讯、淘宝、拼多多、美团……直到今年，抖音还没放弃对小红书背后的种草经济的觊觎。</p>
+<p>Tech星球报道显示，目前，抖音重启下架近两年的种草型平台“可颂”；字节海外团队打造的Lemon8，也一度登顶美国市场App Store生活区榜首；无独有偶，美团也在测试新服务，试图打造“外卖”版小红书。</p>
+<p class="image-wrapper"><img data-img-size-val="659,609" src="https://img.36krcdn.com/hsossms/20241020/v2_de3944188e114786a372eeda5e987249@6695_oswg145112oswg659oswg609_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>始终在整个互联网赛道狙击范围中心的小红书，即便表面日子光鲜，但那份被随时模仿、有备超越的恐慌还是在日益滋长。而小红书身上到底有什么值得被互联网大厂集体惦念的？这一点或许值得深究。</p>
+<p>一方面，抖音、快手一众短视频玩家对以图文为主的小红书兴趣渐浓，与短视频红利结束的增长期有直接关系。而当短视频平台面临内容发展瓶颈时，传统图文生态或许就成了弥补其未来内容空白的最佳选择。</p>
+<p>从各种数据来看，图文的流量价值、商业价值也的确开始上升。以对图文布局最热切的抖音为例，据悉，抖音上平均每天超过7成的活跃用户要看十几篇图文，平台图文的平均互动率是视频的1.32倍，收藏率是后者的1.47倍。</p>
+<p>至于商业价值这边，庞大的图文内容是种草经济的基本，这一点小红书早就给出了答案，尼尔森一份研究表明，47%的用户在小红书被种草新产品，几乎每个月，有超过1.2亿的用户在小红书寻求购买建议。</p>
+<p>这种社区氛围的含金量直接体现在平台的广告收入上。</p>
+<p>坦白来说，小红书在这两年能扭亏为盈，与占比高达80%的在线营销有明显的因果关系。这也是引得互联网大厂艳羡的关键，毕竟在今年第二季度，各大互联网公司广告收入增速放缓，“增长工场”统计的十二家公司里，仅5家的广告收入跑过10.9%的大盘增长。</p>
+<p>另一方面，在种草经济的烘托下，小红书的直播电商俨然走出了一种“乌托邦式”的风格。尤其这段时间，各家大主播接二连三地上演塌房大戏，不完全统计，2024年还未结束，已有16名网红相继塌房，基本来自抖音、快手等大平台。</p>
+<p>有意思的是，在网红圈塌房成隐后，不少大主播开始刻意避风头，停播的停播，隐身的隐身。树大招风的可能性让人设横行的流量时代逐渐有崩溃的迹象。</p>
+<p>但小红书有所不同，相比于主播个人人设，平台整体岁月静好的精致氛围感仿佛才是打动粉丝的关键，在小红书上，董洁与章小蕙可以出圈，就连李诞也能“洗白”。如果说，抖音快手一场场与大主播拉扯的戏码是前者对流量失去掌控权的荒诞故事，那小红书则将掌控权牢牢抓在手中。</p>
+<p>千瓜数据显示，今年1月至6月，小红书直播销售额达人榜TOP100中腰部达人的比重最大，粉丝量在50万以下的腰部达人占比高达6成，有时候，甚至不足5000粉丝的主播都能在直播带货中跻身前100。</p>
+<p>此外，小红书上头部与尾部博主的互动差异仅为30倍，这无疑让一直想要“去大主播”的抖音、快手羡慕不已，因为对比之下，抖音这个数值约为140倍，而快手约440倍。</p>
+<p>互联网一直试图再造小红书，对小红书不但不是荣光，反而是一大潜在的隐患，它宛如被群狼追赶的羔羊，稍不留神，就会被撕咬得遍体鳞伤。</p>
+<h2><strong>只靠“种草经济”还不够</strong></h2>
+<p>回望小红书的诞生历程，2013年，网络上一份《小红书出境购物攻略》的PDF突然走红，一个月内累计转发量超过50万次，小红书因此正式创立。</p>
+<p>2014年，小红书引入沿用至今的笔记形式，试水跨境电商；2017年，小红书把流量聚焦到生活社区；2019年，开启商业化进程……自此，平台依仗种草经济一度成了消费市场发掘新动力的重要渠道。</p>
+<p>这几年，几乎每个踏上风口的新消费概念都曾在小红书上露脸，譬如骑行、飞盘、露营、小众旅行、多巴胺穿搭、地方美食……数据显示，截至2023年9月，有来自100多个行业的20多万个产品，在小红书被搜索和讨论。</p>
+<p class="image-wrapper"><img data-img-size-val="900,606" src="https://img.36krcdn.com/hsossms/20241020/v2_79f1731d5d834bc6baf7dde91c4ba463@6695_oswg216834oswg900oswg606_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这也让小红书备受各大品牌青睐。瑞幸、喜茶、霸王茶姬这些横行消费市场的头部品牌在小红书上的营销动作越发高调，据悉，瑞幸在小红书上的粉丝高达78万，喜茶与霸王茶姬也均超过50万。</p>
+<p>这个粉丝数量甚至高于小红书上很多博主。QuestMobile数据显示，小红书粉丝量50万以下的博主数量目前占到了平台博主总数的73%。品牌声量大于达人声量，这是快手、抖音等平台上不太可能发生的事。</p>
+<p>因此，这一落差所造成的后果也十分明显：平台逐渐开始广告泛滥。事实上，遍地广告在当今互联网世界倒也不足为奇，但值得提防的是，当用户陷入品牌营销的包围圈里，很容易失去判断力，一旦内容真实性存疑，必定透支用户对平台的信任。</p>
+<p>更何况，小红书的种草经济发展到现在，天然的信任桥梁不是没崩塌过。早年间，炫富、医美、旅游都曾为平台前进拖过后腿，甚至在今年5月至6月期间，小红书上一境外旅游套餐暴雷，受影响的人数超过100人，涉及金额达170万。</p>
+<p>当“种草经济”失控之后，对用户、品牌、平台三方的反噬显而易见。</p>
+<p>先看用户层面，有调研数据显示，高达72.4%的消费者在被分享内容进行种草的过程中，遭遇虚假信息误导。当然，最后的苦果还要平台亲自尝，Questmoblie数据显示，截至今年4月，小红书日活用户增长不到1000万就是证据。</p>
+<p>再看品牌层面，当年小红书笔记造假闹得沸沸扬扬，平台“一气之下”封禁了29个品牌，其中就有多芬、露得清、半亩花田等知名度较高的品牌。时至今日，小红书对广告的审核十分严格，让不少品牌不得已转战其他平台。</p>
+<p>去年年末，“见实科技”发起了一份年度大调研，主要调查企业在2023年对哪些平台的投入增加，其中，视频号生态初步形成的微信排名第一，占比超过32%；抖音第二，占比超过25%；小红书排第三，占比21%。</p>
+<p>走到2024年，起初让小红书茁壮成长的种草业务未必有能力让其一直狂奔，相反的，在平台一心想要电商化的阶段，过度依赖种草模式带来的流量，很可能会把平台和品牌都拽入一处“信任深渊”。</p>
+<p>而“信任”正是电商后时代的主基调。这段日子里，头部大主播挨个塌房，与整个赛道正本清源也有一定关联。或许，没人找小红书主播的麻烦，一部分原因是平台风格遗世独立，但更主要的还是当前小红书电商，还没大到引人注目的程度。这算是幸运还是可惜，想必答案早已呼之欲出。</p>
+<h2><strong>小红书电商“不合群”</strong></h2>
+<p>不可否认，小红书的电商业务在这两年之所以能溅起一些水花，是因为聪明地选择了一条“错位竞争”之路。在大部分电商平台声嘶力竭上链接，用九块九的小商品来“馈赠”家人时，小红书在寻找生活价值。</p>
+<p>避开主流电商平台的锋芒，小红书在短时间内的确收获了一些赞许，但长期来看，与整个消费市场格格不入的小红书电商，恐怕还是经不起太多推敲。</p>
+<p>首当其冲的是货盘，一直到现在，小红书直播间里最常出现的还是一些小众国际品牌、设计师品牌。此前，章小蕙直播间里上架57个链接，其中有38个是海外小众品牌，无独有偶，伊能静也将3LAB、PierAuge、Vegamour等一众海外小众品牌带入直播间。</p>
+<p>但小红书牵手小众品牌需要注意两个问题：</p>
+<p>第一，海外小众品牌在国内爆发的红利期还要追溯到2017年前后，截止到2024年，大部分优质资源早已被瓜分，今年双十一，有1700多个海外商家入驻天猫国际，本月预售阶段，天猫国际950多个海外品牌成交同比已经翻倍。</p>
+<p>很显然，头部电商平台与海外小众品牌的接触要早于小红书，且如今已有重新爆发之势。这必然会对小红书造成一定的冲击。</p>
+<p>第二，相比于淘宝、抖音等平台，小红书在品牌面前始终扮演的是一个“引流”角色，而非一个成熟的电商渠道。举个例子，当前电商平台短兵相接，各家最喜欢炫的技能无疑是“议价能力”，但小红书在这方面目前战绩暂无。</p>
+<p>有调查显示，小众品牌本身就存在溢价过高的问题，而大部分在小红书上的售价更是高于其他渠道。</p>
+<p>美国3LABM面霜在伊能静直播间售价2850元，全球购店铺售价仅为2329元；ReVive青春精华油，天猫国际自营店到手价1898元，在章小蕙直播间售价2180元；意大利My organics的洗护发套组，章小蕙店铺售价359元，全球购店铺售价300元。</p>
+<p>尽管平台独有的佛系调性在某一层面充当了议价能力差的“保护伞”，但小红书需要明白，在它还沉浸在岁月静好的美梦中时，整个消费市场的风向并不会因此发生改变，只有“性价比”才能吸引消费者已经是大势所趋。</p>
+<p>统计局与邮政局数据显示，2024年1-2月全网包裹件平均单价78.3元/件，较去年同期下降28元/件。小红书当然可以秉承自己客单价高的稀缺风格，但当同一样商品在不同平台出现价格偏差时，消费者的选择不言而喻。</p>
+<p>从去年开始，电商赛道对“白牌”的偏爱逐步明显，或许小红书也意识到了这一趋势，开始尝试改变货盘品类。卡思数据在一项调查中提到，近几个月来，小红书在悄然提升对白牌商品和工厂型店播账号的推荐力度。</p>
+<p>但变革需要的不止是平台决心。招揽白牌之前，供应链的把控、售后服务的成熟、乃至用户心智……每一项都至关重要，不合群的小红书想要跟上电商市场大部队，心急是万万不可的，如此一来，上市也是。</p>
+<p>本文来自“道总有理”，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3000822892819588</guid><pubDate>Mon, 21 Oct 2024 08:03:00 +0800</pubDate></item><item><title>哪吒汽车张勇的“寒气”，传给了打工人</title><link>https://36kr.com/p/3000813020492936</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>刚刚在10月16日迎来十岁生日的哪吒汽车，却被一则欠薪传闻冲散了几分庆祝生日的喜悦。</p>
+<p>近日，有认证为哪吒汽车员工的网友在网络上发帖称，“哪吒汽车已经发不出工资，并且欠了供应商很多钱”。一时间，哪吒汽车欠薪的消息甚嚣尘上。</p>
+<p>年初以来，这已是哪吒汽车第二次被欠薪传闻所扰。而在第一次传出缓发工资时，哪吒汽车CEO张勇甚至还感慨道，“去年日子那么难，我们也没有想过降薪、裁员，可能公司少部分员工不习惯过苦日子吧，看来有必要把寒气传递到每一个人了”。</p>
+<p>对于此次传出的欠薪传闻，哪吒汽车方面表示，目前新的工资结构调整和绩效考核体系优化方案已经成型，并正在按照既定的流程进行逐级审批。在此过程中，一线销售人员与工厂员工均已按时发放薪资，其余人员先按薪资50%发放，剩余部分待方案通过之后补发。</p>
+<p>欠薪传闻的背后，是哪吒汽车交付量疲软的现状。作为曾经的造车新势力“黑马”，哪吒汽车去年的交付量同比下滑16.2%，仅完成全年目标的50%左右。进入2024年，其交付量仍未改善，9月交付量同比下滑23.4%。整个前三季度，哪吒汽车累计交付量同比下滑12.1%，仅完成全年目标的28.6%。</p>
+<p>为了改善困境，哪吒汽车将目光投向海外市场，在深耕东南亚市场的同时，大力发展拉美、中东和非洲市场，并适时向欧洲市场拓展，试图借此寻找新的增量。</p>
+<p>重重挑战之下，哪吒汽车还正竭力通过上市来寻求突破。不过，自6月向港交所递交招股书以来，哪吒汽车仍未成功踏入港交所的大门。</p>
+<p>招股书显示，哪吒汽车营收增速明显放缓，且面临巨额亏损，三年累计亏损超183亿元，毛利率仍未扭正。与此同时，哪吒汽车的“钱包”也变得愈发紧张。截至2023年末，哪吒汽车的现金及现金等价物为28.37亿元，短期借款却高达43.17亿元。</p>
+<p>不过，值得庆幸的是，9月，哪吒汽车与巴西百达投资银行及巴西进口贸易商Sertrading签署战略合作协议，借此获得（约合13亿人民币）的金融支持，这为哪吒汽车争取到了更多的时间和机会。</p>
+<h2><strong>迟到的工资，忧心忡忡的打工人</strong></h2>
+<p>日前，在职场社交平台脉脉上，有认证资料显示为哪吒汽车员工的网友发帖称，哪吒汽车已经发不出工资了，公司欠了供应商很多钱，该网友还奉劝大家谨慎购买哪吒汽车。</p>
+<p>此帖一出，评论区立即引发热烈讨论，有其他网友调侃该网友不讲武德、唱衰自己的公司。该网友则回复道，“欠着我几十万，换你你不着急，不怕他们跑路？”该网友还表示，“欠供应商大几十亿，那（哪）还有钱发工资啊？”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,404" src="https://img.36krcdn.com/hsossms/20241020/v2_8bc54edb428e47b6916fd2f8e0b364e3@5034919_oswg244492oswg1080oswg404_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>据了解，哪吒汽车此前通常是在每月的15日发放上个一月的工资。该网友发布前述帖子引发热议后，哪吒汽车欠薪的传闻随之也在网络上流传开来。</p>
+<p>对于此次传出的拖欠员工薪资的消息，哪吒汽车相关工作人员向媒体表示，为促进公司长远发展，哪吒正在进行一系列积极的内部管理变革，其中包括工资结构调整和绩效考核体系的优化。</p>
+<p>前述人士还表示，目前方案已经成型，并正在按照既定的流程进行逐级审批。在此过程中，一线销售人员与工厂员工均已按时发放薪资，其余人员先按薪资50%发放，剩余部分待方案通过之后补发。</p>
+<p>值得一提的是，据澎湃新闻消息，哪吒汽车内部人士表示，公司一线人员工资已发放，中层和高管在做股权优化和薪资架构调整，IPO前要确权，因此部分工资发放稍慢。</p>
+<p>然而，哪吒汽车的回应并未完全平息舆论风波。对于公司方面的回应，有认证为合众新能源汽车公司员工的网友在社交平台上调侃称，“一不小心变成公司中层和高管了”，“公司决策不喊我们参与，工资发不出来工程师就变中层了”。</p>
+<p>雷达财经梳理发现，其实这并不是哪吒汽车首次被爆出欠薪传闻。早在今年2月，就有消息称哪吒汽车推迟了年终奖、公积金及工资的发放。</p>
+<p>彼时，身为哪吒汽车CEO的张勇在微博发声回应。张勇解释称，公积金是由政府公积金中心主动扣款托收，因春节过年托收时间也延后，本次缴纳将于2月26日统一由政府公积金中心托收扣款（部分城市已经于2月23日前托收到个人账户了）。</p>
+<p>张勇透露，原本应在2月15日发放的1月份工资，考虑到春节的因素，已经提前在2月7日前发放到了员工的个人账户。而关于员工2023年的奖金，张勇称这与员工的业绩考核相关，员工的年度绩效发放系数和金额在最终审核确认中，预计将在3月份完成发放。</p>
+<p>同时，张勇还坚定地强调，自2016年起，哪吒汽车员工的工资、奖金、社保，从没有晚过一天兑现。在这条微博的末尾，张勇甚至还感慨道，“去年日子那么难，我们也没有想过降薪、裁员，可能公司少部分员工不习惯过苦日子吧，看来有必要把寒气传递到每一个人了”。</p>
+<p>值得注意的是，在这条微博的评论区，有网友留言指出哪吒汽车的管理人员有些臃肿，有的存在人浮于事或不当指挥等情况，影响基层工作效率及结果，且占用公司资源，因此网友建议张勇梳理组织架构及管理人员编制。对此，张勇回复称，“是要下手整顿，精简机构和人员了！”</p>
+<h2><strong>昔日销冠交付量掉队，出海成其新希望</strong></h2>
+<p>近年来，随着新能源汽车行业的不断洗牌，造车新势力队伍中越来越多的选手黯然退场。今年高合汽车陷入经营危机后，谁将成为下一个站在悬崖边的选手成为了外界关注的焦点。而哪吒汽车作为曾经的造车新势力“黑马”，近两年的表现的确让外界捏一把汗。</p>
+<p>回顾2022年，哪吒汽车以152073辆的全年交付量荣登造车新势力销冠宝座。但到了2023年，哪吒汽车的交付排名大幅下滑，全年交付量仅为127496辆，同比下滑16.2%，仅完成了全年25万销量目标的一半左右。</p>
+<p>对于2023年的表现，哪吒汽车CEO张勇曾在微博检讨称，去年做得不好的原因有很多，其中包括新老产切换时没有衔接好，节奏乱；新产品上市定价过高，下半年虽然调整到位了，但丧失了先机；亏损的产品线大幅度调低产量；传播方式老旧有好的东西说不出去；营销总部集权又管理力度软弱。</p>
+<p>而进入2024年，哪吒汽车的交付量仍未得到很好的改善。据哪吒汽车10月最新披露的交付数据显示，今年9月，哪吒汽车全系整车交付量达10118台，与上年同期相比减少23.4%。</p>
+<p>而与造车新势力中的其他选手相比，哪吒汽车的这个交付成绩也显得有些拿不出手。据雷达财经统计，今年9月，理想汽车单月实现53709辆的交付量，以明显的优势夺得销冠荣誉。同期，问界、零跑汽车的交付量均站在了3万辆+的台阶。就连交付量相对靠后的小鹏汽车、极氪、蔚来，9月也均拿出了超过2万辆的交付成绩。</p>
+<p>若将统计范围进一步放宽，哪吒汽车的表现同样不佳。今年前三季度，哪吒汽车累计交付量为85908辆，同比下滑12.1%，平均每月的交付量甚至未能破万。在一众造车新势力选手中，哪吒汽车这样的成绩同样排在相对靠后的位次，且这一交付成绩仅完成其全年30万辆交付目标的28.6%。</p>
+<p>有行业人士指出，在新能源汽车行业日益内卷的当下，实现规模效应是摊薄成本、提高利润的关键，只有这样才能更好地帮助车企在资金方面快速“回血”，哪吒汽车当前萎靡的交付成绩显然难以支撑其实现这一目标。</p>
+<p>雷达财经注意到，为了改善交付量疲软的困境，哪吒汽车还将目光投向了海外市场，寄望于通过国际化战略来寻求新的增长点。在此前披露的招股书中，哪吒汽车写道，其深耕东南亚市场，未来还将持续大力发展拉美、中东和非洲市场，并适时向欧洲市场拓展。</p>
+<p>招股书显示，2023年，哪吒汽车共计对外出口17019辆新车，出口量占到当年总销量的比重达13.7%，贡献了12%的销售收入。哪吒汽车坚信，在海外市场的布局将有助于其进一步多元化收益来源，强化规模效应，提升盈利能力。</p>
+<p>雷达财经了解到，东南亚是哪吒汽车在海外重点开拓的市场之一。早在2021年，哪吒汽车便着手研发右舵车型，为泰国及整个东南亚市场的拓展做准备。2022年，哪吒汽车更是成为中国新势力新能源车企中首家推出右舵版车型的企业，彰显了其在海外市场布局的决心。</p>
+<p>在招股书中，哪吒汽车还透露了其在海外市场的具体进展：其在泰国和印尼的工厂已分别于今年3月和5月投产，其在马来西亚的工厂也于2024年1月动工。此外，哪吒X系列计划于今年7月进入泰国和印尼市场，8月进入中国香港市场，并在四季度进入南美市场。</p>
+<p>此次发布9月交付数据之时，哪吒汽车宣布其印尼工厂的首台哪吒X下线，哪吒X在印尼上市，首批500位车主交付。此外，哪吒汽车在中国香港首批大规模交付。</p>
+<h2><strong>“钱包”愈发紧张，上市仍不明朗</strong></h2>
+<p>重重困境之下，哪吒汽车欲靠上市“续命”。今年6月，合众新能源汽车股份有限公司向港交所递交上市申请。天眼查显示，该公司正是哪吒汽车背后主体公司。</p>
+<p>如果此次IPO能够顺利完成，哪吒汽车将成为第5家成功登陆港股的造车新势力。然而，如今距离哪吒汽车递交招股书已经过去近四个月的时间，但哪吒汽车目前仍未成功叩开港交所的大门。</p>
+<p>根据哪吒汽车披露的招股书显示，2021年至2023年，尽管公司的收入有所增长，但增速却显著放缓。在此期间，哪吒汽车分别录得50.87亿元、130.5亿元、135.55亿元的收入，但其营收增速却从2022年的156.5%下降到了去年的3.9%。</p>
+<p>而与其他友商相比，哪吒汽车的营收规模也被甩开不小的距离。以目前已经登陆港股的四家造车新势力为例，去年理想汽车、蔚来、小鹏汽车、零跑汽车分别实现1238.51亿元、556.18亿元、306.76亿元、167.47亿元的营收，规模均超过了哪吒汽车。</p>
+<p>在盈利能力方面，哪吒汽车同样面临着严峻的挑战。同大多数造车新势力一样，哪吒汽车常年处于亏损状态。2021年至2023年，哪吒汽车分别录得48.4亿元、66.66亿元、68.67亿元的年内亏损，三年累计亏损已经超过183亿元。</p>
+<p>至于毛利率，哪吒汽车该项指标近三年的表现有所好转。招股书显示，2021年至2023年，哪吒汽车的毛利率分别为-34.4%、-22.5%、-14.9%，但哪吒汽车仍面临着毛利率暂未扭正的严峻挑战。</p>
+<p>去年10月在谈及IPO进展时，身为哪吒汽车CEO的张勇曾表示，公司上年融资100亿元，2023年也有几十亿元的融资，目前账上有100多亿的资金，并不急于IPO。</p>
+<p>然而，随着营收增速放缓和连年巨额亏损，哪吒汽车的资金状况也变得愈发紧张。今年6月，哪吒汽车向港交所发起了冲刺，试图通过上市来拓宽募资渠道。</p>
+<p>招股书显示，2023年，哪吒汽车融资活动所得现金净额为23.27亿元，而上一年其融资活动所得现金净额高达107.55亿元。截至2023年末，哪吒汽车的现金及现金等价物为28.37亿元，短期借款高达43.17亿元。到了今年4月30日，哪吒汽车的现金及现金等价物骤降至4.03亿元（未经审计）。</p>
+<p>值得一提的是，9月有消息称，哪吒汽车CFO陈睿已于近期离职，由前高盛（亚洲）董事总经理潘登接替其职务，负责公司的财务工作。而这一人事调整，被外界视为哪吒汽车加速推进IPO进程的信号。</p>
+<p>在赴港IPO之路暂不明朗的情况下，哪吒汽车不得不另谋出路，向外部寻求更多的资金支持。9月20日，哪吒汽车官宣与拉美最大投资银行——巴西百达投资银行（BTG Pactual）及巴西进口贸易商Sertrading签署战略合作。</p>
+<p>根据协议，巴西百达投资银行将携手Sertrading为哪吒汽车在巴西市场提供10亿雷亚尔（约13亿人民币）的金融支持，用于进口服务、充电设施建设等，助力巴西新能源汽车普及。据悉，哪吒汽车已在巴西圣保罗设立子公司，计划年底前将经销商扩展至30家，并推动筹建KD组装工厂。</p>
+<p>感受到阵阵“寒气”的哪吒汽车，接下来能否绝地反击？雷达财经将持续关注。</p>
+<p>本文来自“鸿途FLY”，作者：孟帅，编辑：深海，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3000813020492936</guid><pubDate>Mon, 21 Oct 2024 08:04:00 +0800</pubDate></item><item><title>任泽平的精气神儿</title><link>https://36kr.com/p/3000806877868932</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>网红经济学家任泽平遇到点小波折，他的社媒账号“被禁”了。</p>
+<p>由于和私募大佬但斌论辩股市，任泽平的微信公众号已被禁止关注，微博账号也没再更新——他又一次暂时告别了流量。</p>
+<p><strong>之所以说“又”，是因为这不是第一次。</strong></p>
+<p>2022年初，任泽平曾在微信公号发布一份关于人口的报告，报告建议央行多印2万亿鼓励生育，并且一定要抓住75-85年这一代还能生的时间窗口，以解决人口老龄化少子化问题。</p>
+<p>这个话题瞬间冲上热搜，“印钱生娃”的建议引来很多质疑。不少网友批评他博眼球、水分大，尽管任泽平回应说这并非临时起意，是经过长年研究探索和国际经验比较出来的，是经过科学论证的，仍无济于事。很快，他的微博账号就是禁言状态了。</p>
+<p>发生这事时，任泽平离开恒大不到一年，在东吴证券担任“特聘首席经济学家”。双方属于编外合作，彼时任泽平已不是证券从业人员。这应该是任泽平比较困难的一段时期，他有点轻度抑郁，睡不好觉，并且脱发严重。</p>
+<p>当然，抑郁并不是因为被禁言，<strong>而是还没走出恒大事件的阴影。</strong></p>
+<p>任泽平在2017年底加入恒大，出任首席经济学家，级别是副总裁级。此外，还兼任恒大经济研究院院长。他离开了工作多年的券商领域，顶着“年薪1500万”的头衔投身实体经济。2021年3月，他离开了恒大，三个月后恒大正式爆雷。</p>
+<p>任泽平透露过，他的建议在恒大内部并不是总被采纳。但外界有声音把他和恒大爆雷联系起来，这让他觉得很冤屈。为此，他陷入了一段人生低迷期。</p>
+<p>在此之前，任泽平的职业生涯可谓顺风顺水。</p>
+<p>他是2014年从国务院发展研究中心下海，加入国泰君安。入职刚一个月，就喊出了著名的“5000点不是梦”，当时A股刚经历5年的熊市，指数从该年初筑底反弹。到2015年5月，大盘冲破5000点，任泽平一举成名。2016年，任泽平加盟方正证券，延续了大胆出位的研报风格，网红特质也越发形成。这个阶段，他在圈内宏观研究领域的声量几近巅峰，接着便是被许老板高调招入恒大。</p>
+<p>然而，任泽平并不总是预测准确。比如2016年初，他又在微博上喊出“多头大军碾压式入境”等言论，但此后股市行情与他的判断大行径庭。这年6月份，任泽平甚至主动清空了微博，难得暂时低调下来。</p>
+<p><strong>另一方面，在网红经济学家形象的锻造过程中，任泽平也没少打口水仗。</strong></p>
+<p>在国泰君安时期，任泽平就和时任国泰君安首席经济学家林采宜有过不和，任泽平公开表示不愿意外人将他们二者并列，特别是同在宏观研究方面。加盟方正证券之后，2017年更是爆发了被任泽平称为“史诗般对决”的多空大战。任泽平凭借“新周期”理论，与同行知名分析师李迅雷、姜超等论战，俨然要打爆这些空头。</p>
+<p>从宏观经济到股市、楼市，再到债市，任泽平频频与人互怼，始终保持着昂扬的斗志。<strong>值得说明的是，那时双方的论辩都保持着文化人的体面，也基本遵循相应的研究逻辑，舌战没有沦为口水战，这是一件庆幸的事。</strong></p>
+<p>如果要进行划分，加盟恒大的确成为任泽平的一个转折点。他当时解释，是出于个人职业规划，要转向智库和实业研究等。但双方的合作并不圆满。任泽平的精气神儿，反倒因为这段职业经历，丢掉了大半。一个长期活跃在流量一线的经济学家，居然给整抑郁了。</p>
+<p>到2023年5月，一家叫仁生泽发的公司突然跃入公众视野。一向以学术形象示人的任泽平，摇身一变，开始为某款生发产品代起了言。这款产品号称是任的团队亲自研发，他说经过亲测，的确有效。一度饱受脱发之苦的任博，仿佛一夜之间重焕生机。</p>
+<p>从研究学者到下场创业，任泽平找到了一条有切肤之痛的赛道，想治好中年男性脱发——这个无言的忧伤。不过直到现在，这款产品到底怎么样，还很模糊。并且因为涉嫌虚假宣传，还被处以过罚款。从近期任泽平接受采访的情况看，这家公司貌似运营还不错，计划年底能开到100家线下门店。</p>
+<p>长出来的不仅有头发，还有精气神儿。翻看任泽平近来的微博，确实不是那种委顿的状态。他每天早上至少要运动半个小时，每天要做200个俯卧撑，还跳操、塑性。在今年8月接受媒体采访时他说，自己成名很早，在人生的很多阶段都可以躺平，但没选择那么做。因为人还是得干事业。</p>
+<p>在迷上健身之外，任泽平的自媒体事业，也走上了轨道。按他自己的说法，那是“获奖无数，千万订阅，成为财经自媒体的绝对头部”。在私域运营和流量变现上，玩的越发娴熟，比如搞起了实战研学、私董会等等——当然，这些项目的要价不菲。</p>
+<p>不愿躺平的任博士、任老板，原本走过低谷，进入了一个不错的阶段。如果不是这次的被禁事件，“绝对头部”的地位，应该还会更加巩固。然而，一场不合时宜的口水战，把大好局面给搅了。</p>
+<p>再看看那些用词——是的，曾经还是文化人之间的切磋，现在却变成了口水骂战，从“专业”和“道德”上立体式的攻击。<strong>在这方面，真是明显不如从前。</strong>人生的转折，就是这么不经意间发生的吧。</p>
+<p>参考资料：</p>
+<p>胡楠楠.《当一名网红经济学家开始创业》.中国企业家.2024年8月</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIyNzEyNTYyNA==&amp;mid=2650078592&amp;idx=1&amp;sn=11f8875280873869ab044a66c3a58cfb&amp;chksm=f065ad97c712248190297ca527157e3cb2cfbfc4a5a2125ddf0b471e9a37365b49e4e532495b&amp;token=997599610&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“商业人物”</a>，作者：郭儒逸，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3000806877868932</guid><pubDate>Mon, 21 Oct 2024 08:06:00 +0800</pubDate></item><item><title>当绊脚石被搬开后，微软要再次发力云游戏了</title><link>https://36kr.com/p/3000677266766213</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>随着美国法院日前裁定Google Play存在“非法垄断” 行为，要求谷歌在未来三年内向竞争对手开放这一应用商店之后。不仅是Epic Games旋即就表示要做安卓应用商店，微软也顺势宣布拟于11月开始允许用户在安卓端Xbox App购买游戏时、不再需要通过Google Play进行支付，从而避免开发者向谷歌支付抽成。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241020/v2_be6b29a94245492b9cb1edf79879e612@000000_oswg35318oswg600oswg358_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>紧接着微软Xbox部门总裁Sarah Bond趁热打铁，宣布自11月开始将扩大云游戏库，未来玩家可以在云端体验Xbox Game Pass内容库以外的游戏。如此看来，在此前经历了2022年云游戏行业的低潮期后，微软方面在两年后的今天重新恢复了对云游戏的信心。</p>
+<p>事实上，云游戏这个概念早在2009年就已经诞生，但真正的“云游戏元年”应该是2019年，在这一年的游戏开发者大会上，作为圈外人的谷歌推出了自家的云游戏服务Stadia。自谷歌振臂一呼之后，一众厂商云集景从，诸如亚马逊Luna、微软Xbox Cloud Gaming、英伟达GeForce Now、腾讯START如同雨后春笋般冒了出来。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241020/v2_9711d52d4911426183cf117d9315f3bc@000000_oswg37641oswg600oswg336_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>相比于传统的游戏形式，云游戏的优势非常显著，这也是其能够得到游戏厂商、乃至互联网巨头青睐的关键。云游戏技术是通过将本地存储和计算迁移到数据中心，在将桌面虚拟化后，以云计算和串流的方式通过网络传输到用户的终端上，让消费者无需购买独立显卡、高性能CPU和大容量硬盘，设备只需支持视频的解码解压即可。</p>
+<p>在2019年的那一轮云游戏浪潮中，游戏厂商和互联网公司的策略其实是有明显差异的，因此也导致了在云游戏的落地遭遇挫折时，互联网公司往往干净利落地壮士断腕，而游戏厂商则是默默坚持。在以谷歌、Meta为代表的互联网厂商看来，云游戏和YouTube、Spotify没什么区别，都是流媒体技术在不同领域的应用。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241020/v2_8f7f895dd44b41038d53b5d1bbdc7d50@000000_oswg28113oswg600oswg351_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>故而谷歌、Meta都是以技术驱动自家的云游戏业务，来提供云游戏算力和服务解决方案。但遗憾的是，游戏作为一个在互联网诞生之前就存在的行业，它的内容属性极为突出。纵观整个游戏行业的发展史，其实从来就没有哪一个平台能够在缺乏独占内容的情况下站稳脚跟，云游戏自然也一样。</p>
+<p>当时，谷歌选择了与EA、育碧、R星、CDPR等知名游戏厂商合作，在Stadia发售之初为其带来了一套拥有《刺客信条：奥德赛》、《幽灵行动：断点》的豪华游戏阵容。可谷歌当时只是提供了一个空壳子，玩家想要在Stadia上体验云游戏，除了需要为Stadia本身的云游戏服务付费之外，还要再额外购买相关游戏的Stadia版本。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241020/v2_0562bddf457548bc8edc94b0a18061bf@000000_oswg24214oswg594oswg362_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>云游戏本身是为了降低玩家体验游戏的门槛，可在谷歌的这番操作下，Stadia反而变得却更贵了。其实不仅是谷歌，Meta和亚马逊也都是一个样。可反观微软，Xbox平台的游戏内容之丰富显然无需多言，但由于众所周知的原因，游戏大厂通常对于XGP不太感兴趣，诸多非微软第一方的大作也并未出现在XGP内容库里。</p>
+<p>现在微软承诺Xbox Cloud Gaming不再仅限于云端游玩XGP内容库，无疑就给了许多玩家体验云游戏的动力。那么问题就来了，微软为什么要等到现在才再次发力云游戏？事实上，除了苹果和谷歌如今都允许Xbox App登陆自家应用商店之外，云游戏固有的两大顽疾在过去两年间，也得到了一定程度的缓解。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241020/v2_adb7111f338d48959fe14776788f3f3c@000000_oswg23282oswg600oswg305_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>云游戏对网络带宽要求高，并且本身的成本不菲，这已经是业界公认的事实。体验过云游戏的玩家都知道，网速越快、波动越小，云游戏的体验才会越接近传统的本地游戏体验，反之如果带宽不足，那么云游戏就完全是空中楼阁。</p>
+<p>除此之外，云游戏还是集中式计算的典型，所有的计算、渲染都是由服务器来完成。更何况不同于内容源统一的视频/音频流媒体，只需要一定数量的CDN就可以实现全球分发，云游戏本质上则相当于是每位用户都在看独一无二的实时直播画面，这就使得其成本可以说是相当之高。</p>
+<p>但在过去两年的时间里，云游戏的这两大缺陷得到了弥补。此前在2023年，美国通过了一项名为“BEAD”的计划，这项投资超过420亿美元的基础设施投资计划旨在让每个美国家庭都能实现高速上网，也就意味着美国距离“村村网通”只有一步之遥了。同时美国无线通信和互联网协会透露，到2023年年底，全美40%的无线连接为5G。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241020/v2_be4c0c4d0a1e44c9a8d07d01211c67c6@000000_oswg16926oswg600oswg327_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>中美、欧洲、日韩等主流市场的宽带和移动网络建设，显然与2019年已经有了天壤之别，这或许就给了微软一些信心。至于说云游戏所需要的庞大算力，其实也在过去两年AI大模型带动的算力投资中得到了解决。随着全球科技巨头几乎都将AI视作未来，一场有关算力的军备竞赛早已跑步进入了白热化的状态，仅仅微软一家就预计将把上千亿美元的预算分配给了算力。</p>
+<p>如此庞大的算力投资，Xbox云游戏自然也能分到一杯羹。如此一来，无论从任何角度来看，微软现在发力云游戏的障碍都已经消失，所以他们不做云游戏反而会有些奇怪。更为重要的是，大量玩家对于摆脱硬件的束缚、随时随地玩游戏的需求，早已是客观存在的事实。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649873178&amp;idx=2&amp;sn=44bdadd90a3e7c5f4a6b13dfc5f8db1e&amp;chksm=86fa7ac4ca1cb5aee2a268d72d8c9b2fb0107bf2ff0f664db2f46b490e8ba8129dcfa6438402&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3000677266766213</guid><pubDate>Mon, 21 Oct 2024 08:08:00 +0800</pubDate></item><item><title>8点1氪｜马斯克每日随机向美国选民发放100万美元，直到大选日；攻击字节大模型训练的实习生被辞退；云南11月1日起实施“痛经假”</title><link>https://36kr.com/p/3001506058926472</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2>TOP3大新闻</h2>
+<p><strong>马斯克宣布随机向选民发100万美元，直到大选日</strong></p>
+<p>美国大选进入冲刺阶段，前总统特朗普和副总统哈里斯正展开激烈的争夺。马斯克10月19日在一场活动上宣布，从现在（10月19日）起到选举日（11月5日），他每天将向签署“美国 政治行动委员会”（America PAC）请愿书的某个宾夕法尼亚州登记选民随机发放100万美元。当天第一名获奖者已经诞生，他名叫John Drehere。</p>
+<p>宾夕法尼亚州是美国重要的摇摆州，对大选结果有着决定性的影响。据悉，签署这项请愿书的选民承诺支持美国宪法第一修正案中的言论自由以及第二修正案中的持枪权。这项活动是为了吸引亲特朗普言论和观点的支持者，以帮助特朗普竞选团队寻找和锁定潜在支持者，“建立名单”。请愿书称，其目标是“让100万名摇摆州的登记选民签名支持宪法，尤其是言论自由和持枪权”。根据声明，签署人须留下姓名、电子邮箱、手机号码、地址及推荐人的联络方式，只有七个摇摆州的选民才有资格签署。马斯克将支付高达4700万美元的巨额费用，帮助招募人员“拉新”，找到100万位愿意签署请愿书的选民，而这些愿意支持保守派观点的选民会被视为“可争取选民”。（凤凰网）</p>
+<p><strong>字节跳动大模型训练被实习生攻击，涉事者已被辞退</strong></p>
+<p>10月18日，多个微信群流传一则消息：“某头部大厂的大模型训练被实习生入侵，注入了破坏代码，导致其训练成果不可靠，可能需要重新训练。据称遭到入侵的代码注入了8000多张卡，带来的损失可能超过千万美元。”界面新闻从知情人士处获悉，该头部大厂为字节跳动。此事发生在今年6月，起因是某高校的博士在字节跳动商业化技术团队实习，因对团队资源分配不满，使用攻击代码破坏团队的模型训练任务。传闻显示，该田姓实习生利用了HF（huggingface）的漏洞，在公司的共享模型里写入破坏代码，导致模型的训练效果忽高忽低，无法产生预期的训练效果，而且AML团队无法核查原因。但传闻曝出之后，该实习生还在某微信群里辟谣称，自己发完论文后就从字节跳动离职，这个当口有另一个人钻漏洞改模型代码，把锅扣到自己头上。</p>
+<p>界面新闻从知情人士处了解到，字节跳动内部已经调查明确此事为田姓实习生所为。目前，该实习生已被辞退，字节跳动同时把此事同步给行业联盟和该实习生所在的学校。但这名实习生被辞退后到处“辟谣”甩锅，称是其他人所为。（界面新闻）</p>
+<p><strong>云南11月1日起实施痛经假</strong></p>
+<p>自2024年11月1日起，云南省患有重度痛经的女职工，经医疗或者妇幼保健机构确诊后，经期可以休1至2日的假期。据悉，“痛经假”的概念其实由来已久，1993年由原卫生部、全国总工会等5部门联合颁布的《女职工保健工作规定》就已指出，患有重度痛经及月经过多的女职工，经医疗或妇幼保健机构确诊后，月经期间可适当给予1至2天的休假。据不完全统计，目前，至少有包括北京、上海、陕西、江苏、山东、四川等在内的十余个省份，在地方性规定中明确了女性劳动者的这一权益。（云南日报、中国青年报）</p>
+<h2>大公司/大事件</h2>
+<p><strong>人形机器人加速“进化”，业内预计2026年产业规模将突破200亿元</strong></p>
+<p>赛迪研究院认为，在政府引导和投资驱动下，2024年和2025年人形机器人产业将持续高速增长，预计2026年我国人形机器人产业规模将突破200亿元。（经济日报）</p>
+<p><strong>国内足金首饰价格突破每克800元大关</strong></p>
+<p>受多重因素影响，市场避险需求增加。10月18日，国际金价继续上涨，截至当天收盘，纽交所12月交货的黄金期价报2730美元/盎司，涨幅为0.83%。连续两日创收盘历史新高。受此影响，国内个别商家足金首饰价格突破了800元每克。店家告诉记者，今年3月以来，金价调价频次较高，有不少消费者持观望态度，不过也有一些刚需购买者。（央视财经）</p>
+<p><strong>北京正规划3000平方公里自动驾驶示范区</strong></p>
+<p>在2024世界智能网联汽车大会上，北京经济技术开发区管委会副主任、北京市高级别自动驾驶示范区工作办公室主任王磊透露， 北京从2020年开始践行”车路云一体化“方案，高级别自动驾驶示范区至今已迭代至3.0阶段，从亦庄扩展到通州和顺义，目前已扩至600平方公里，下一阶段，将围绕北京的四环至六环之间的3000平方公里面积做规划，进一步来扩大示范区的范围。（科创板日报）</p>
+<p><strong>国家统计局：三季度金融业GDP同比增长6.2%</strong></p>
+<p>36氪获悉，国家统计局公布2024年三季度国内生产总值初步核算结果。据初步核算，前三季度国内生产总值949746亿元，同比增长4.8%；三季度国内生产总值332910亿元，同比增长4.6%。其中，三季度金融业GDP同比增长6.2%，信息传输、软件和信息技术服务业GDP同比增长10%，房地产业GDP同比下降1.9%。</p>
+<p><strong>美股三大指数集体收涨，奈飞涨超11%</strong></p>
+<p>36氪获悉，10月18日收盘，美股三大指数集体收涨，道指涨0.09%，纳指涨0.63%，标普500指数涨0.4%。大型科技股涨跌不一，奈飞涨超11%，苹果涨超1%，微软、亚马逊、谷歌、英伟达小幅上涨；Arm跌超1%，特斯拉、Meta小幅下跌。热门中概股普涨，理想汽车涨超6%，B站、网易、微博涨超3%，阿里巴巴、京东、百度、爱奇艺涨超2%。</p>
+<p><strong>新一轮人口家庭发展状况抽样调查启动：将全面分析不想生、不敢生原因</strong></p>
+<p>10月17日，中国人口与发展研究中心微信公众号发布消息称，中国人口与家庭发展状况抽样调查进入组织实施阶段，本次调查是贯彻落实党中央的决策部署具体行动，将获得婚育观念、婚育行为及其影响因素的新数据。中国人口与发展研究中心消息称，经过一年多的准备，2024年10月11日，国家统计局正式批准了中国人口与家庭发展状况抽样调查制度和方案。本次调查将抽取150个监测县、1500个社区（村居），调查样本30000人，调查内容将聚焦影响群众生育意愿和生育行为的主要因素，了解家庭在生育养育方面的现实困难和需求，全面分析“不想生、不敢生”原因，为完善生育支持政策和激励措施、有效解决群众“急难愁盼”、促进生育政策落地见效提供科学依据。（澎湃新闻）</p>
+<p><strong>听泉鉴宝直播带货一晚卖出750万元</strong></p>
+<p>10月19日晚间，听泉鉴宝开启改名后的首秀。据飞瓜数据显示，巅峰在线人数超过100万人。和此前单纯鉴宝不同的是，此次直播商业化味道更浓，更多是与品牌连线及直播带货。数据显示，听泉首次直播带货销售额高达750万元，观看人次超过2000万。一位电商业从业者对蓝鲸新闻记者表示，他自己的品牌正在接触听泉鉴宝方面，最近几天他们确实已经开始为直播带货在进行招商，并向记者展示了听泉的部分招商海报等内容。该品牌方还透露目前听泉招商的品牌要求比较高，需要是所在行业的头部品牌。且商务费用确实不低，合作费用大约需要几十万，最终金额的话要看具体谈判，不方便再透露。（蓝鲸新闻）</p>
+<p><strong>美国联邦政府开始调查特斯拉FSD</strong></p>
+<p>美国国家公路交通安全管理局（NHTSA）10月18日公开的文件显示，该机构已经正式对特斯拉 “全自动驾驶系统”（FSD）启动调查。NHTSA介绍称，正在调查特斯拉自称的“全自动驾驶系统”是否具备必要的安全措施，用来要求驾驶员在自动驾驶技术无法处理的情况下重新接管车辆。虽然名字里面有自动驾驶，但特斯拉也在官网标注称，FSD软件上路需要有驾驶员的主动监督，这个软件并不会使得车辆具有自动驾驶能力。（财联社）</p>
+<p><strong>SpaceX完成今年第100次轨道发射，为OneWeb发射20颗卫星</strong></p>
+<p>当地时间10月19日晚22:13（北京时间10月20日13:13），美国太空探索技术公司（SpaceX）在范登堡太空军基地发射携带OneWeb公司20颗卫星的猎鹰9号火箭，这是SpaceX本年度第100次轨道发射。此次任务使用的猎鹰9号火箭一级助推器此前已完成6次发射。（界面新闻）</p>
+<p><strong>郭明錤：微软Q4 GB200订单量激增3-4倍，超所有其他云服务商总和</strong></p>
+<p>天风国际证券分析师郭明錤最新发布英伟达Blackwell GB200芯片的产业链订单信息显示，目前微软是全球最大的GB200客户，今年第四季度订单量激增3-4倍，订单量超过其他所有云服务商的总和。郭明錤在报告中表示，Blackwell芯片的产能扩张预计在今年第四季度初启动，届时第四季度的出货量将在15万到20万块之间，预计2025年第一季度出货量将显著增长200%到250%，达到50万到55万块。（华尔街见闻）</p>
+<p><strong>北京永辉超市“学习胖东来”自主调改的首家门店恢复营业</strong></p>
+<p>36氪获悉，10月19日，北京永辉超市“学习胖东来”自主调改的首家门店石景山喜隆多店恢复营业。据悉，调改后的喜隆多门店装修焕然一新，拓宽了购物通道，取消了原有的强制动线。产品方面，调改的门店商品重新规划了单品数12765个，新增单品占比76.2％，梳理后商品结构达到胖东来商品结构的90％以上。</p>
+<p><strong>名创优品旗下潮玩品牌TOPTOY品牌，在泰国的首家门店开业</strong></p>
+<p>36氪获悉，10月19日，名创优品旗下潮玩品牌TOPTOY品牌，在泰国的首家门店开业。该门店位于曼谷The Mall Lifestore One Bangkapi。同时，在曼谷的另一家购物中心MEGA BANGNA，TOPTOY“Good Night”主题快闪店开业；TOPTOY马来西亚首店也在筹备中。对于中国潮玩品牌，东南亚已成为出海的重要市场。今年8月末，TOP TOY以店中店的形式，在名创优品雅加达旗舰店亮相。此前TOPTOY创始人孙文元曾公开透露，公司今年的战略部署就是在海外5至6个国家开设门店。</p>
+<p><strong>中国首个汽车芯片认证审查技术体系正式发布</strong></p>
+<p>10月17日，市场监管总局在京组织召开国产汽车芯片产业化应用及质量提升“质量强链”交流推进会。会上，首批国产汽车芯片认证审查企业名单正式发布，标志着我国汽车芯片质量认证进入新的阶段。同时，汽车芯片认证审查技术体系1.0版正式发布，是我国在汽车芯片领域构建自主质量标准体系的首个权威性成果，不仅填补了国内汽车芯片质量认证体系的空白，也为未来产业链的高效协作和创新发展奠定了坚实基础。（证券时报）</p>
+<p><strong>正大天晴拿下重磅抗病毒药首仿</strong></p>
+<p>日前，中国国家药品监督管理局（NMPA）官网显示，中国生物制药下属企业南京正大天晴开发的来特莫韦注射液获得上市批准，该药品成为国内首个仿制药。来特莫韦的片剂和注射剂最早于2017年获得美国FDA的批准上市，商品名为Prevymis，这是一款备受关注的抗巨细胞病毒（CMV）新药。目前，来特莫韦相关制剂已在美国、欧洲、日本等近20个国家和地区上市销售。（证券时报）</p>
+<p><strong>海南航空开通北京—符拉迪沃斯托克航线</strong></p>
+<p>据海南航空官微，10月20日北京时间06:29，海南航空HU405直飞航班从北京首都国际机场顺利起飞，标志着北京—符拉迪沃斯托克国际航线正式启航。这是海南航空继北京—莫斯科、北京—圣彼得堡后开通的第三条北京直飞俄罗斯航线，也是继大连—符拉迪沃斯托克后海南航空开通的第二条直飞符拉迪沃斯托克的航线。</p>
+<p><strong>美国2024财年预算赤字达1.833万亿美元</strong></p>
+<p>当地时间10月18日，美国财政部发布2024财政年度的预算赤字情况，预算赤字达到1.833万亿美元，比2023财年增加了8%。美财政部指出，联邦债务利息首次超过1万亿美元，支出增加主要集中在社会保障、医疗保健和军事方面。（央视新闻）</p>
+<p><strong>英特尔或出售Altera子公司业务股份</strong></p>
+<p>美东时间10月18日早间，英特尔股价走低，此前有报道称该公司正在为其Altera可编程芯片制造子公司寻求大额外部投资。10月17日晚间，有报道称，英特尔正在寻求出售Altera子公司的少数股权。英特尔对该公司的估值约为170亿美元。英特尔于2015年以167亿美元的价格收购了Altera，并于当年2月将其作为独立公司推出，并且打算通过首次公开募股（IPO）将其分拆出来。英特尔没有立即回应媒体的置评请求。（新浪财经）</p>
+<p><strong>在裁员和股票表现不佳之后，CVS任命了新的CEO</strong></p>
+<p>美国最大的连锁药店CVS于10月18日任命了一位新的首席执行官，长期担任CVS Health高管的大卫·乔伊纳取代了凯伦·林奇。CVS还撤回了2024年的盈利预测，并建议投资者不要依赖8月份提供的全年指引，理由是医疗成本压力加大。今年以来，股价已经下跌了近20%，并在消息公布后大幅下跌。在此次人事变动之前，该公司经历了特别具有挑战性的一年，股价暴跌、增长乏力、投资者的压力，以及一系列其他问题。（新浪财经）</p>
+<p><strong>美联储官员博斯蒂克：不急于将利率降至中性，对降息保持耐心</strong></p>
+<p>亚特兰大联邦储备银行行长Raphael Bostic强调决策者致力于实现2%的通胀目标，表示他不急于将利率降至所谓的中性水平。这位亚特兰大联储行长重申美联储基准利率仍远高于既不提振也不减慢经济的水平，他估计这个所谓的中性利率在3%至3.5%之间。Bostic还表示他预计通胀率将在明年年底前降至美联储的目标水平。（新浪财经）</p>
+<h2>大公司财报</h2>
+<p><strong>宁德时代：2024年第三季度净利润为131.36亿元，同比增长25.97%</strong></p>
+<p>36氪获悉，宁德时代发布三季报，2024年第三季度营收为922.78亿元，同比下降12.48%；净利润为131.36亿元，同比增长25.97%。前三季度营收为2590.45亿元，同比下降12.09%；净利润为360.01亿元，同比增长15.59%。</p>
+<p><strong>科大讯飞：第三季度净利润5696.14万元，同比增长120.87%</strong></p>
+<p>36氪获悉，科大讯飞发布三季报，前三季度实现营业收入148.49亿元，同比增长17.73%；归属于上市公司股东的净利润亏损3.44亿元。第三季度实现营业收入55.25亿元，同比增长15.77%；归属于上市公司股东的净利润5696.14万元，同比增长120.87%。公司在加大星火大模型的研发投入和布局的同时，实现了利润当季度转正。</p>
+<p><strong>圆通速递：9月快递产品收入50.47亿元，同比增长19.57%</strong></p>
+<p>36氪获悉，圆通速递披露9月快递业务主要经营数据，2024年9月快递产品收入为50.47亿元，同比增长19.57%；业务完成量为23.12亿票，同比增长28.03%；快递产品单票收入为2.18元，同比下降6.61%。</p>
+<p><strong>申通快递：9月快递收入40.33亿元，同比增长16.91%</strong></p>
+<p>36氪获悉，申通快递公告，2024年9月快递服务业务收入为40.33亿元，同比增长16.91%；完成业务量19.98亿票，同比增长21.93%；快递服务单票收入2.02元，同比下降4.27%。</p>
+<h2>酷产品</h2>
+<p><strong>比亚迪海豹06GT正式上市，13.68万起</strong></p>
+<p>36氪获悉，10月18日，比亚迪海洋网专为年轻人打造的第一台GT——海豹06GT正式上市。新车基于比亚迪e平台3.0 Evo打造，搭载超13项比亚迪全球首创技术，并拥有超100项全系标配，官方指导价格为13.68万元-18.68万元。</p>
+<p><strong>哈浮飞行相机X1 PRO与X1 PROMAX正式开售</strong></p>
+<p>36氪获悉，10月18日，哈浮飞行相机X1 PRO与X1 PROMAX全网正式开售。据了解，哈浮X1 PRO和PROMAX支持全地形飞行模式，能够在水面、雪地、悬崖等复杂环境下拍摄。</p>
+<p><strong>整理｜</strong>与墨</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001506058926472</guid><pubDate>Mon, 21 Oct 2024 08:12:00 +0800</pubDate></item><item><title>景区“盯上”沉浸式旅游</title><link>https://36kr.com/p/3000707233249413</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“现烤现卖的烧饼，来看一看、尝一尝！”在横店影视城，一位“武大郎”正站在店门口，热情招呼往来的游客。除了卖烧饼，他还要以“武大郎”的身份去回答游客抛来的问题，让游客身临其境地感受水浒文化。</p>
+<p>这正是近年大火的“景区NPC”。NPC即游戏中的非玩家角色，如今在景区中是为游客营造沉浸感的关键。</p>
+<h2><strong>“武大郎”卖烧饼是如何产生的？</strong></h2>
+<p>在横店影视城清明上河图景区负责扮演“武大郎”一角的演员是程陶，在横店影视城工作已有6年时间，是横店影视城景区里众多NPC中的一位。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241020/v2_a40319e08a3545e4bd62f8bb076bd2c7@000000_oswg125812oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲横店影视城“武大郎”卖烧饼。受访者供图</p>
+<p>在日常工作中，程陶会跟商家合作，以“武大郎”角色的身份兜售景区的“武大郎烧饼”，也因为长期的打磨，他的角色已深入人心，不少游客在游览景区时，也会把他当作真正的“武大郎”，主动找他聊天寒暄，在节假日期间，他驻演的商铺日营业额能达到1万-2万元。</p>
+<p>程陶告诉中新经纬，因为扮演“武大郎”，他的代入感和沉浸感在增强，也受到游客的欢迎。为了不断精进角色，程陶还读了《水浒传》原著，揣摩“武大郎”的人格特征，比如淳朴、善良，看上去还有点好欺负，并思考如何以“武大郎”的身份去回应游客的提问，要让游客真的身临其境。</p>
+<p>浙江横店，在某种程度上已成为中国影视行业的代名词。据官网，浙江横店影视城不仅是影视基地，也是国家5A级景区，建成秦王宫、清明上河图、明清宫苑等二十多个影视拍摄基地（景点），接待游客近2000万人次，年接待影视剧组近500个。</p>
+<p>中新经纬从横店影视城艺术团了解到，横店影视城之前主要以参观和观看演艺秀为主，虽然2015年横店影视城就有了真人扮演NPC，但仅仅是穿上一身角色扮演服装，跟游客拍照，没有互动与鲜明的角色特征。</p>
+<p>但现在，横店影视城的NPC“活了”，不仅能饮酒赋诗，还能比刀弄字，更能游走叫卖，为游客带来沉浸式的文旅新体验，也成为横店影视城新的“流量密码”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241020/v2_b3cf133cb6864804968c18d93b96fac9@000000_oswg139174oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲横店影视城清明上河图景区“名画复活”现场。受访者供图 </p>
+<p>在社交平台上，许多游客对横店影视城的NPC印象深刻：“穿越时空，来到清明上河图景区，仿佛置身汴梁街头，叫卖声不绝于耳，酒打上几角，武大郎烧饼来一个过酒（注：宴饮中传杯劝酒）”“横店影视城把风华绝代的老外滩体现得淋漓尽致，在这里，所有NPC的表情都会非常入戏”。 </p>
+<p>目前横店影视城共有30多名NPC，分布在7个景区，依据淡旺季、景区活动而有所变动。值得注意的是，横店影视城的NPC曾被游客赞誉演技出色，<strong>横店影视城艺术团负责人告诉中新经纬，横店影视城的NPC普遍是影视表演、戏剧表演、戏曲、舞蹈、武术、曲艺等专业出身，隶属于横店影视城演艺剧团，具有比较丰富的表演经验。</strong></p>
+<p>谈及横店影视城NPC沉浸式旅游的优势，横店影视城艺术团上述负责人表示，横店作为国内最大的影视主题的旅游度假区，有丰富的影视文化积淀和跨越历史时空的场景，在开发沉浸式旅游上，也紧紧围绕着这两大主题方向。</p>
+<p>距离横店影视城千里之外的吉林长春市动植物公园，眼下正紧锣密鼓地排练，等待12月中下旬重新开园时，以全新的姿态和游客见面。</p>
+<p>今年年初，长春市动植物公园凭一只被压在五行山下的NPC“猴子”火出了圈。由00后演员王铁柱扮演的孙悟空，因吐槽游客投喂的雪饼“太干巴了，剌嗓子”走红网络，被网友起名“雪饼猴”，该表演“五行山下”也因他与游客风趣幽默的互动而吸引了大量人气。</p>
+<p>据长春市动植物公园夜游项目负责人杜贵江介绍，2023年底，公园夜游项目获得中央广播电视总台86版《西游记》授权。由于负责表演孙悟空的王铁柱从小学习二人转，因此在设计五行山项目时，公园希望以脱口秀的形式进行演出。不过，单纯的对话缺乏故事体验，于是公园开始思考演员应该如何与游客展开灵活互动。</p>
+<p>几经商讨，他们灵机一动，要不要试试让游客给孙悟空投喂零食？根据安排，“雪饼猴”平时一天演出两场，每场分别为40人和35人。项目推出后，“雪饼猴”迅速爆火出圈，如今已成为长春知名文旅IP之一，抖音“雪饼猴”话题播放量现已超过34.7亿次。</p>
+<p><strong>据杜贵江提供的数据，截至目前，今年长春市动植物公园夜游项目游客接待量同比增长13%；到园超20次的游客人数超过3000人。今年上半年，甚至有一位游客来“喂猴”67次。</strong></p>
+<p>借沉浸式互动东风，园区趁热打铁，在今年国庆假期推出了“女儿国”项目，游客可扮演唐僧和女儿国国王，沉浸式参与《西游记》经典桥段。此外，园区还推出了“如果你是雪饼猴”项目，让游客亲自扮演“雪饼猴”，接受其他游客的投喂。</p>
+<h2><strong>沉浸式旅游需要超级NPC</strong></h2>
+<p>除了横店影视城、长春市动植物公园，在近几年，全国多个景区都因沉浸式互动体验而走红， 例如位于河南省开封市的万岁山武侠城， 今年凭借《王婆说媒》爆火网络；同在开封的清明上河园景区，NPC“小乞丐”于今年年初一炮而红。此外，陕西省西安市大唐不夜城的“房谋杜断”也备受欢迎，“乌镇全员都是NPC”的话题也受到较多谈论。 </p>
+<p>另一方面，景区也对NPC“求贤若渴”。今年7月，“景区月薪5000招野人一天接几百个电话”冲上热搜，招聘方辽宁省本溪市关山湖风景区随后回应称已满员。今年年初，河北省邯郸市太行五指山景区月薪6000元招募“孙悟空”引发关注。而欢乐谷、方特、长隆等各地主题公园，相关招聘更是日常需求。</p>
+<p>“旅游需要沉浸，沉浸之旅需要超级NPC。”中国旅游协会副秘书长葛磊表示。</p>
+<p><strong>在葛磊看来，国内第一代旅游目的地强调摄影思维，突出绝美风景；第二代旅游目的地强调舞台思维，讲好地方故事；第三代旅游目的地强调影视思维，让游客“入戏”。“近年来，沉浸式旅游的兴起倒逼旅游目的地建设引入‘影视思维’，就是有故事，有场景，有角色，尤其要争取让游客成为主角。”</strong></p>
+<p>“景区想做好沉浸式体验，必须要NPC化。”尚游汇文旅董事长钟晖表示，“景区首先要根据自身现状，把NPC的故事线挖掘好，做出符合景区定位的内容。其次要明确受众，内容需要符合景区客群。国内山水型景区数量众多，通过建立独特的NPC内容体系，可以破除同质化。”</p>
+<p>杜贵江也在运营中发现：“旅游互动体验引流的内核在文化。现在的游客更加注重精神需求，不像过去那样只满足于观光，因此，景区是否能满足他们的情绪价值，成为揽客的关键之一。我们园区的游客，年龄层在18岁-42岁之间，亲子游客众多，通过寓教于乐的方式，将传统文化与旅游相融合，才能打动游客。”</p>
+<p>在此背景下，NPC优质与否与沉浸式体验息息相关。据横店影视城艺术团上述负责人介绍，横店影视城在日常运营中也格外重视相关设计，包括在NPC设置上，会跟不同景区的历史文化背景以及在当地进行的演艺秀有连接，也会紧密结合剧组拍摄的热门剧集，进行相关活动。比如中秋假期，横店影视城与《莲花楼》 IP深度推出“莲花楼中秋夜”沉浸式体验活动，游客可以与剧中NPC互动集章、打卡巡游。</p>
+<p>此外，横店影视城也要求NPC会讲历史故事，通过演绎一些历史故事、成语故事，比如“王婆卖瓜”“指鹿为马”“精忠报国”等来寓教于人；横店影视城的NPC还会和商业化做结合，比如开设“武大郎卖烧饼”“孙二娘的包子铺”等，让游客在中购买食物时更有沉浸感，也为景区及相关演员增加创收渠道。</p>
+<p>长春市动植物公园也对NPC演员提出了高要求。园区NPC多为科班出身，在日常排练中，园区会格外注重演员的应变能力，不仅动作和表情要跟上，还要会“接梗”“整活”。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247584801&amp;idx=1&amp;sn=bbf18ea269f1f5de0a8f1740f967c5a5&amp;chksm=e8a5a7280ae074c46ff5b464c709473313dc2b24b6136e7e12d8d43ba08db8428efbe5c4ce61&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：郑艺佳 王玉玲，编辑：林琬斯，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3000707233249413</guid><pubDate>Mon, 21 Oct 2024 08:15:00 +0800</pubDate></item></channel></rss>
