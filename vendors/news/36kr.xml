@@ -1,335 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 21 Oct 2024 19:00:31 +0800</lastBuildDate><pubDate>Mon, 21 Oct 2024 19:00:31 +0800</pubDate><item><title>把AI放进《我的世界》服务器：GPT-4o杀牛宰羊，Claude3.5把家拆了</title><link>https://36kr.com/p/3002097078499459</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>把《我的世界》交给大模型，会怎么样？</p>
-<p>GPT-4o鲨牛宰羊，Claude3.5不停在人类身旁放炸药包和敌人，还把家拆了。</p>
-<p class="image-wrapper"><img data-img-size-val="116,114" src="https://img.36krcdn.com/hsossms/20241021/v2_30baab7e84104e6f92d1c45e55ef686e@5888275_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>GPT-4o mini玩《我的世界》belike：</p>
-<p>来到游戏里面，GPT-4o mini（玩家karolina）一开始还蛮礼貌的：</p>
-<blockquote>
-<p>你好世界！我是karolina。怎么了，alonso（人类玩家）？</p>
-<p>让我传送到你那里！准备好玩得开心了吗？</p>
-</blockquote>
-<p>一转头，抡起大锤吭哧吭哧一顿乱锤：</p>
-<blockquote>
-<p>狩猎牛！狩猎羊！</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="692,410" src="https://img.36krcdn.com/hsossms/20241021/v2_e75bf5cbfa46481381645ad0791873de@5888275_oswg505690oswg692oswg410_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在收到人类玩家制止之后（停止鲨害动物！），GPT-4o mini嘴上说着“好好好，停止，不鲨了”，一个转身又开始鲨呀鲨呀。</p>
-<p>拦都拦不住。</p>
-<p class="image-wrapper"><img data-img-size-val="696,178" src="https://img.36krcdn.com/hsossms/20241021/v2_4e24f78280fa4eda8236ae8019e5c104@5888275_oswg208891oswg696oswg178_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Claude3.5 Sonnet就更离谱了。</p>
-<p>不断在人类玩家身边生成炸药包和敌人，还把人类玩家<strong>“复活点”设置在岩浆上</strong>，人类玩家复活即嘎。</p>
-<p>看到这，网友实在蚌埠住了：</p>
-<p class="image-wrapper"><img data-img-size-val="1064,232" src="https://img.36krcdn.com/hsossms/20241021/v2_dd386797c3074dec813dd963b3cacbfa@5888275_oswg40144oswg1064oswg232_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>我只是想让它成为我的游戏搭子。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1058,224" src="https://img.36krcdn.com/hsossms/20241021/v2_c05ae212818742a9b6fecc54b6ab0a48@5888275_oswg55801oswg1058oswg224_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>GPT-4o、Claude3.5的表现被发在X上引来不少网友围观。</p>
-<p>为什么这个玩法现在这么火呢，因为有大佬<strong>开源了代码</strong>（doge）。</p>
-<p>目前在GitHub已狂揽<strong>1.1k Star</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,381" src="https://img.36krcdn.com/hsossms/20241021/v2_072517739902419891b583795da35ab6@5888275_oswg103545oswg1080oswg381_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>网友们纷纷表示想看看其它AI的表现，比如游戏达人马斯克家的Grok大模型，会怎么样。</p>
-<p class="image-wrapper"><img data-img-size-val="1060,214" src="https://img.36krcdn.com/hsossms/20241021/v2_0fe256527cf7462c9181f3ffc3bad22a@5888275_oswg42428oswg1060oswg214_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>“LLM是对齐的，LLM Agent未必对齐”</strong></h2>
-<p>有网友通过这件事，做出了更深一层的思考——</p>
-<p>LLM Agent是否会因为LLM对齐而对齐？</p>
-<p>在这位网友看来，未必。</p>
-<p class="image-wrapper"><img data-img-size-val="1066,1320" src="https://img.36krcdn.com/hsossms/20241021/v2_41a43edb736e41f486828286befdfecd@5888275_oswg1373751oswg1066oswg1320_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>他让Claude Sonnet进入《我的世界》，Claude Sonnet的表现一开始是极好的。</p>
-<p>四处打材料，来建造一个树屋。</p>
-<p class="image-wrapper"><img data-img-size-val="618,488" src="https://img.36krcdn.com/hsossms/20241021/v2_4e055d725d9d447db493fa45887b86f4@5888275_oswg558999oswg618oswg488_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>可以看到，Sonnet会执行commands()命令，这就是Sonnet和其它LLM与《我的世界》互动的方式。</p>
-<p>这些Agent并不是会获得连续的图像输入并像人类一样通过按键响应。</p>
-<p>实际上，在这个Agent框架中，Sonnet体验《我的世界》就像在玩一场<strong>文本冒险游戏</strong>。</p>
-<p>它们可以查询周围世界的状态，然后编写代码使用动作，如followPlayer()、collectBlocks()，通过高级文本命令来控制它们的角色。</p>
-<blockquote>
-<p>ClaudeSonnet：看起来我们得到了一些藤蔓，让我们试着收集一些丛林木头来扩展树屋。(collectBlocks(“jungle_log”, 15))</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,853" src="https://img.36krcdn.com/hsossms/20241021/v2_804a841120d2470882a2e486a9df1a22@5888275_oswg1076809oswg1080oswg853_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Sonnet并不能看到游戏，这是怎么实现的？</p>
-<p>网友继续介绍道，collectBlocks()函数是用JavaScript编写的，它简单地查找所有附近的所需类型的方块，并开始循环挖掘它们：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,506" src="https://img.36krcdn.com/hsossms/20241021/v2_9809c107df3b4cd783d17336be1e0d93@5888275_oswg94369oswg1080oswg506_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>因为房子是用木头造的，所以Sonnet调用了这个函数来砍树搜集木材。</p>
-<p>一切进行正常，直到突然间，<strong>Sonnet开始拆家</strong>……</p>
-<p class="image-wrapper"><img data-img-size-val="1080,690" src="https://img.36krcdn.com/hsossms/20241021/v2_34aa9796bd634253a2f802df27230323@5888275_oswg561282oswg1080oswg690_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>网友立刻让Sonnet停了下来，最后修好了房子。</p>
-<p>但他表示：</p>
-<blockquote>
-<p>随着我们在越来越广泛的场景中部署Agent，这种问题成为一个真正的担忧。如果这不是《我的世界》中的角色，而是一个实体机器人呢？或者是一个向技能库委派任务的编程Agent呢？</p>
-</blockquote>
-<p>这位网友继续补充道，Sonnet并不傻，它能够轻易从截图区分出哪些木材属于玩家结构，哪些是自然且安全的采集对象。</p>
-<p>但Sonnet<strong>并不直接控制其《我的世界》角色</strong>，<strong>而是由Agent框架控制</strong>。这个框架迫使Sonnet将任务分配给功能较弱、并不完全对齐的子Agent，使整个系统执行了Sonnet单独不会做出的行为。</p>
-<p>所以他认为一些脚本仅由大模型Agent编写后放任执行，不进行人工监督的话可能引发一些严重的问题。</p>
-<p>同时，他还认为应该设计Agent框架给大模型更多的自主精细控制权限。</p>
-<p>比如将collect<strong>Blocks</strong>()函数设有专门用于采集自然树木的collect<strong>Tree</strong>()变体，就能减轻Sonnet拆家的问题。</p>
-<p>总的来说，这位网友的观点是，Sonnet其实能够明白其目标是采集树木而非房屋的木材，但其工具未能准确表达这一意图。</p>
-<p>不少网友持类似观点。</p>
-<p>就拿开头GPT-4o mini疯狂杀牛宰羊来说，网友认为狩猎是一种自动行为，并不是GPT-4o mini的错。</p>
-<p class="image-wrapper"><img data-img-size-val="1050,800" src="https://img.36krcdn.com/hsossms/20241021/v2_11b088fa994d489b8e8c093c7447bef7@5888275_oswg202987oswg1050oswg800_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>LLM可以选择<strong>关闭狩猎模式</strong>，GPT-4o min只是没有意识到它可以这样做。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1060,498" src="https://img.36krcdn.com/hsossms/20241021/v2_04b1a5254fa74188aa71dbe3fdabed2b@5888275_oswg123413oswg1060oswg498_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有网友提出或许可以这样优化：</p>
-<p class="image-wrapper"><img data-img-size-val="1058,656" src="https://img.36krcdn.com/hsossms/20241021/v2_7e049af9f1574e898245113a87ac63a6@5888275_oswg195051oswg1058oswg656_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了针对LLM Agent在游戏中的“异常”表现讨论热烈，不少网友同时认为单纯让LLM Agent当游戏搭子，其实蛮好玩。</p>
-<p class="image-wrapper"><img data-img-size-val="1054,362" src="https://img.36krcdn.com/hsossms/20241021/v2_3574cf38ae744c24a729be62f2188f4c@5888275_oswg107779oswg1054oswg362_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而且它也有正常的时候。</p>
-<p>比如让它扮演“黄金矿工”，专注于挖金子：</p>
-<blockquote>
-<p>我们有一个房子，有时它会把东西带回房子里的箱子。出于某种原因，它从不使用门，而是每次都砸碎窗户进出房子。它也从未在墙上打洞，总是破坏窗户。也许这是最短的行动路径。每当我去房子时，都能从破碎的窗户判断出Sonnet是否到过那里。</p>
-</blockquote>
-<p>扮演“保镖”，保护人类玩家安全：</p>
-<blockquote>
-<p>我们要求它保护其他玩家。然后事情变得非常可怕。它每几秒钟就在不同玩家之间传送，扫描周围的威胁，并在发现威胁时消灭它们。尽管这很有效，但也让人不安。我从未被怪物威胁到，因为Sonnet会立刻注意到它们并在几秒内消灭它们。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="586,1442" src="https://img.36krcdn.com/hsossms/20241021/v2_3f309627dbba4d7fb37f4d42519cae60@5888275_oswg321598oswg586oswg1442_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>你想要一个这样的游戏搭子吗？</p>
-<p class="image-wrapper"><img data-img-size-val="238,232" src="https://img.36krcdn.com/hsossms/20241021/v2_c1a57a0a713a420e81290301279f2e49@5888275_oswg14233oswg238oswg232_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>参考链接：</strong></p>
-<p>[1]https://x.com/adonis_singh/status/1847606701123412235</p>
-<p>[2]https://x.com/adonis_singh/status/1847707429066158546</p>
-<p>[3]https://x.com/voooooogel/status/1847631721346609610</p>
-<p>[4]https://x.com/repligate/status/1847409324236124169</p>
-<p>代码：https://github.com/kolbytn/mindcraft/tree/main</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/cM6p1uSEwfARPzFRxOLPug" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：西风，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002097078499459</guid><pubDate>Mon, 21 Oct 2024 18:42:00 +0800</pubDate></item><item><title>早C晚A的年轻人，A不动了</title><link>https://36kr.com/p/3002105514867080</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在“喝”上面，当代年轻人离不开三大件：早上的咖啡是续命水，下午的奶茶是快乐水，晚上的小酌则是松弛水。</p>
-<p>然而，咖啡风头正茂，奶茶愈演愈烈，唯独这酒正在“淡出”日常生活。多家啤酒上市公司的财报显示，今年上半年的销量不太乐观。</p>
-<p>为此，有意思报告于近日发起了一次关于饮酒的消费趋势调查，总计收到1625份答卷。这里面，藏着当代年轻人饮酒的秘密。</p>
-<p>都说清晨的粥暖胃，深夜的酒暖心，作为解忧饮品的酒怎么也“忧”起来了？</p>
-<h2><strong>第一大酒，忧心忡忡</strong></h2>
-<p>何以解忧，唯有杜康，那杜康自己的忧，用什么来解呢？</p>
-<p>中国是拥有悠久饮酒历史的古国，“杜康酿酒”的传说始于夏朝时期，而确凿的文物显示，公元前2800至前2300年的新石器时代晚期，就已经有了种类繁多的酒器。</p>
-<p>然而，有意思报告的抽样调查显示，即便在酒文化大国中国，仅有一半的受访者饮酒，目前不消费酒类的人占比超过四成。</p>
-<p>针对饮酒的受访者，他们饮用最多的还属啤酒，占比超过四成。这或许是源于啤酒消费场景的多元，无论是亲朋好友聚会还是工作应酬，啤酒都有一席之地，更重要的是，啤酒凭借着入口舒适、价格不贵以及度数较低，更加日常生活化。</p>
-<p>在啤酒之后，才是果酒/预调鸡尾酒等“微醺”酒、白酒和红酒，这三类合计占比与啤酒相当。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,2002" src="https://img.36krcdn.com/hsossms/20241021/v2_4af4493b8f014cc1903c26c571560381@5888275_oswg108939oswg1080oswg2002_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从行业数据看，根据中国酒业协会2024年发布的2023年度报告，全年饮料酒产量为4758万千升，其中啤酒的总产量就高达3789万千升，妥妥的“第一大酒”。</p>
-<p>有趣的是，恰恰是这第一大酒，正在遭遇消费者的“重新审视”。调查显示，近一年的啤酒消费支出上，有四成消费者维持不变，剩余的消费者减少的比例远高于增加的比例。其中，减少30%及以上的比例接近三成。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1697" src="https://img.36krcdn.com/hsossms/20241021/v2_e9d0c4c1df9d49a9b13e2767e17d2421@5888275_oswg109313oswg1080oswg1697_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>啤酒消费支出的变化，也符合整个酒类消费支出的变化趋势。</p>
-<p>调查显示，近一年酒类总支出增加30%以内和30%以上的比例分别为10.5%和7.1%；但总支出减少30%以内和30%以上的比例高达15.4%和30.2%。少部分人有所增加，但更多的人大幅减少。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1501" src="https://img.36krcdn.com/hsossms/20241021/v2_f0aba6f2ab3c4f6aa89123473dabf02b@5888275_oswg88106oswg1080oswg1501_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>啤酒的日子确实不大好过，头部品牌中青岛啤酒公布的2024年半年报显示，上半年实现营收200.68亿元，同比下降7.06%；销量463万千升，同比下降了7.82%；百威亚太控股有限公司的财报也显示，2024上半年，百威啤酒销量为4660万百升啤酒，同比减少6.2%；收入为33.99亿美元，同比減少4.3%。</p>
-<p>根据酒业协会的数据，2023年啤酒还是一番欣欣向荣的景象：总产量微增0.8%，销售收入和利润总额分别同比增长8.6%和15.1%，在饮料酒中表现突出。</p>
-<p>啤酒，发生了什么？</p>
-<h2><strong>压在啤酒身上的“三座大山”</strong></h2>
-<p>按常理推测，今年夏天国内出现了极端的高温天气，外加上奥运会与欧洲杯的加持，啤酒应当迎来它的消费旺季，但市场反馈反而较为平淡。</p>
-<p>在独立酒业分析师肖竹青看来，一方面是宏观经济带来的消费波动，以至于“业绩下滑”发生在包括啤酒在内的多个消费品领域。</p>
-<p>另一方面也有诸如恶劣天气等因素带来的影响。比如，今年广东省和福建省等南方省份都出现了强降雨，对于部分业务诸如高端线重点在南方省份的品牌而言，夏天的强降雨无疑浇灭了啤酒消费的热情。</p>
-<p>那么细看啤酒自身呢？</p>
-<p>在独立消费分析师刘戈看来，啤酒已经从增量市场转变为存量市场，意味着啤酒已经成为了成熟的消费，那么它自身的问题也会更加凸显。</p>
-<p>根据中国酒业协会的数据统计，从2013年到2023年，啤酒总产量已经跌落了三分之一，从5000余万千升跌落到3789万千升，除了近三年有微弱的增长之外，整体看仍然处于持续下滑的趋势。</p>
-<p>针对减少饮用啤酒频次的原因，调查显示，位列第一的是“健康考量”——饮酒容易造成健康隐患，占比高达57.6%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1801" src="https://img.36krcdn.com/hsossms/20241021/v2_62c2c32a7bee42db821a976aec7610cd@5888275_oswg139470oswg1080oswg1801_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“这就是饮酒理性化的结果，得益于科普的增加，酒精对健康的负面影响被更清晰地认知。”刘戈说。</p>
-<p>不过，“健康考量”针对的是各种酒类，就啤酒而言，它受到更多的影响来自社交与餐饮。调查显示，44.2%的受访者认为减少饮用啤酒频次源于“社交考量”，社交的频次变少了或者在社交中喝酒的机会变少了；28.2%则认为“受餐饮影响”，外出就餐变少了，相应饮酒变少了。</p>
-<p>在刘戈看来，餐饮的整体客单价处于下滑的趋势，这意味着外出就餐花的钱更少了，这其中势必有酒水饮料消费的下降。作为非商务宴请的外出就餐，因其性价比不高且并非刚需，酒水饮料往往是最容易被放弃的消费。</p>
-<p>“吃饭就是吃饭，喝酒就是喝酒，这两件事越来越有区隔。”刘戈认为，外出就餐是消费啤酒的重要渠道，一桌喝一两打啤酒是常有的事，当就餐更少喝酒之后，无疑对啤酒造成了重大损失。</p>
-<p>调查显示，在减少饮酒的场景中，“朋友聚餐”和“外出应酬”位列前两位，占比皆超过三成。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1467" src="https://img.36krcdn.com/hsossms/20241021/v2_16131e59d15c49b09b925a4adb5ac079@5888275_oswg89011oswg1080oswg1467_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了健康与外出就餐的两座大山之外，啤酒面对的第三座大山则是其他低度酒的冲击。调查显示，在对啤酒的消费态度中，位居前三中就有“不喜欢酒的味道，比起啤酒，果酒更吸引人”，占比超过两成。</p>
-<p>诚如RIO鸡尾酒最近主打的广告语“好喝的酒不必吃苦”，在口味上，果酒等口味丰富、更接近饮料的“潮饮酒”正在争夺啤酒的市场。</p>
-<p>根据凯度和天猫新品创新中心发布的《低度潮饮趋势报告》，预计2022年至2025年低度酒市场规模的年复合增长率为30%，2025年中国低度潮饮市场规模达到743亿元人民币。</p>
-<p>肖竹青还提到，年轻消费者更愿意尝试不同的新产品，其中无醇啤酒的风潮也越吹越盛，各大品牌纷纷布局自己的无醇啤酒产品，使得无醇啤酒在全球许多市场中都占有了一席之地。</p>
-<p>三座大山已经兵临城下，啤酒是否已经到了该做出改变的时刻？</p>
-<h2><strong>喝更少的酒，喝更好的酒</strong></h2>
-<p>在啤酒越喝越少的大背景下，本次调查还发现了一些细节：每周只喝一次酒成为主流，但是每次都要喝好点儿的酒。</p>
-<p>针对啤酒消费频次的调查显示，每月一次及以下的占比最高，为50%，其次是每月2—4次，占比为34.4%。这意味着，平均每周喝一次及以下的受访者成为主流，占比超过八成。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1530" src="https://img.36krcdn.com/hsossms/20241021/v2_2e3bf4543fb44df481080466dc1cf886@5888275_oswg79620oswg1080oswg1530_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>再看价格，调查显示，单瓶啤酒消费价格主流在5—10元，占比47%，同样值得注意的是，单瓶消费10元以上的受访者占比也相当高，为43.7%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1530" src="https://img.36krcdn.com/hsossms/20241021/v2_c2096ffc7970451786f8c7fafc696078@5888275_oswg85192oswg1080oswg1530_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在食品产业分析师朱丹蓬看来，“喝少点、喝好点”是包括啤酒在内的整个酒类消费的大趋势，这背后是新生代人口红利的叠加——年轻人对高品质啤酒的刚需在提升。</p>
-<p>的确，调查显示，虽然啤酒在中国还没有成为日常生活的一部分，选择“每天用晚酌一扫疲惫”和“啤酒是佐餐必备”的受访者合计占比不足一成，但有超过三成的受访者认为心情好或心情差的时候都会想要喝啤酒，它是日常生活的调剂。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1972" src="https://img.36krcdn.com/hsossms/20241021/v2_34c8b4e14db84fa4a4ea7a4f3cddbe2f@5888275_oswg183828oswg1080oswg1972_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>啤酒，依然是一种“情绪解药”，扮演着调剂生活的重要作用，它并不会真的式微，而是重新找到自己的位置，继续发力。</p>
-<p>在朱丹蓬看来，这“新的位置”便是“高端化”，大到头部品牌华润、青岛、嘉士伯纷纷都在布局高端线，小到那些小而美的精酿啤酒也应运而生，是全方位的高端化。</p>
-<p>“原料级别高、酿造工艺高、科技含量高，最终价格也高，是全产业链的高端。”朱丹蓬说。</p>
-<p>最终这带来的是更高的利润，哪怕是总体产量并没有太大变化，但利润也能有显著的提升。朱丹蓬分析，以同样20%的利润率看，价格更高品质更高的啤酒，当然更有得赚。</p>
-<p>以中国酒业协会2023年度的数据，啤酒总产量仅微增0.8%，但销售收入和利润总额分别同比增长8.6%和15.1%。</p>
-<p>以头部品牌华润啤酒数据来看，2024半年报显示，华润啤酒中档及以上啤酒销量占比首次超过50%，高档及以上啤酒销量较去年同期录得超过10%增长。其中喜力、老雪和红爵等销量较去年同期均录得超过20%增长。</p>
-<p>高端化的战事才刚刚打响，肖竹青提到一组数据，高端啤酒在中国市场占比约17%，而在发达国家和地区的市场，如北美、欧洲和澳大利亚等，高端啤酒的占比都超过40%，这意味着还有相当大的空间可以增长。</p>
-<p>微贵微醺的啤酒消费还方兴未艾。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/chaPFPzYmwwcQsvQFRs0fA" rel="noopener noreferrer nofollow" target="_blank">“有意思报告”</a>，作者：屈博洋 ，编辑：余源，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002105514867080</guid><pubDate>Mon, 21 Oct 2024 18:43:00 +0800</pubDate></item><item><title>茉莉奶白悉尼首店开业，奈雪三季度闭店89家</title><link>https://36kr.com/p/3002107889449091</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2><strong>闭店</strong></h2>
-<p>茶咖出清速度越来越快。</p>
-<p><strong>据壹览商业不完全统计，上周至少关闭了14家茶咖门店，其中不乏太平洋咖啡、coco都可、乐乐茶这类连锁茶咖品牌。</strong></p>
-<p><strong>其中，太平洋咖啡闭店数量最多，为10家。</strong>壹览商业在统计连锁咖啡现存情况时发现，截至10月7日，太平洋咖啡在全国的门店数量达203家（含港澳台地区），在去年年底，这个数字还是288家，同时，今年以来，太平洋咖啡还开出了10家新店。换言之，这九个月，太平洋咖啡至少关闭了95家门店，而这种闭店的情况还在不断加剧，广州、珠海等地的门店还在不断减少。</p>
-<p>同时，据新消费日报报道称，部分门店店员透露，太平洋咖啡将关闭其大陆所有门店，退回香港地区。作为老牌咖啡品牌，太平洋咖啡的落寞是由多种因素造成的。</p>
-<p><strong>一方面，整个市场环境发生了变化。</strong>太平洋咖啡与星巴克一样，主打的是生活空间，做的是贩卖空间的生意。但随着以瑞幸、库迪、Manner为代表的平价咖啡的崛起，消费者的心智被迅速占领，更快、更廉价的咖啡成为主流趋势，瑞幸咖啡更是迎来门店爆发性增长，太平洋咖啡所制定的面向商务精英的品牌战略已不再能够适应市场。</p>
-<p><strong>而且，太平洋咖啡在品牌知名度和门店便捷性方面也存在不足。</strong>即使消费者希望选择高端化的咖啡，太平洋咖啡的门店也主要集中在广东和香港两个区域，其他地区门店数量有限，影响力较弱。与星巴克等知名品牌相比，太平洋咖啡显然处于劣势。</p>
-<p><strong>另一方面，消费者对太平洋咖啡的印象还停留在过去，而品牌本身也缺乏“年轻化”的动作。</strong>与其他品牌相比，太平洋咖啡的上新和联名次数较少，咖啡产品线主要还是传统的现磨咖啡。据壹览商业不完全统计，今年以来，太平洋咖啡只上新过11款新品，与乳饮品牌OATLY联名过一次。</p>
-<p>除此以外，奈雪的茶也于上周发布了第三季度运营情况，在该季度，奈雪的茶关停了89家直营门店。截至2024年9月30日，奈雪的茶共经营1531间奈雪的茶直营门店，另有353间奈雪的茶加盟门店，主要集中在中、低线城市。</p>
-<h2><strong>开业</strong></h2>
-<p>太平洋咖啡在大陆退，茉莉奶白在海外进。</p>
-<p>10月18日，茉莉奶白悉尼首店正式营业，这是其在海外开出的第三家门店，也是其大洋洲首店。</p>
-<h2><strong>销售</strong></h2>
-<p>又一茶饮品牌将跑出百亿规模。</p>
-<p>近日，甜啦啦海外负责人黄满义在接受媒体采访时称，“今年底，我们将冲刺35亿元的年度营收目标，预计明年加上海外市场，整体营收能过百亿。”</p>
-<p>据了解，甜啦啦内部提出了“三年计划”，其中，菲律宾将保底开出800家店，其中包括绝大部分加盟店。当下，甜啦啦正逐步投入1亿元构建公司中台系统，未来将为迅速布局海外市场提供极大便利。</p>
-<p>同时，海外招商运营中心也正在构建中，预计最终将有百人规模。今年下半年，甜啦啦将品牌愿景更新为“有人的地方就有甜啦啦”，出海正成为公司战略中至关重要的一环。</p>
-<p>除此以外，最近的茶咖新品销量不错。奈雪的茶官微发布消息称，其新品不加糖·奈雪黑葡萄上线后，成为热销第一，单周销量增长300%；茉莉奶白推出的逐光茶席系列饮品，首日销量超27万，98%的门店售罄，助力会员拉新超8万。</p>
-<h2><strong>上新</strong></h2>
-<p>10月12日，蜜雪冰城官宣推出东方乌龙系列，包括东方乌龙轻乳茶、东方乌龙茶以及东方乌龙奶盖茶三款产品。据官方介绍，新品采用牧场鲜牛乳，利用UHT超高温瞬时杀菌技术，搭配原叶乌龙茶和原叶茉莉绿茶，保留茶香，且这三款产品均为0香精、0反式脂肪酸、0氢化植物油。</p>
-<p>目前，这三款产品已上线蜜雪冰城微信官方小程序，东方乌龙轻乳茶6元/杯，东方乌龙茶4元/杯，东方乌龙奶盖茶9元/杯。</p>
-<p>轻乳茶正成为茶饮市场的热门品类。饿了么数据显示，自今年4月以来，推出“原叶茶+牛奶”轻乳茶的品牌数量同比去年增长近1倍，外卖量同比更是增长超过740%。在原叶茶中，绿茶占比依旧最高，其次是乌龙茶和红茶。</p>
-<p><strong>从消费者角度来看，</strong>轻乳茶符合年轻人的健康诉求，其通常选用高质量茶叶，并结合低脂乳制品，从而减少脂肪和糖分的含量。因此，在相同容量下，轻乳茶比传统奶茶少摄入几十到上百卡路里。</p>
-<p><strong>从品牌方角度看，</strong>轻乳茶以其低成本、高毛利的特性，获得了价格竞争的主动权。而且，轻乳茶的产品结构简单，即“茶叶+牛乳”。对于品牌来说，这不仅意味着备货更加轻松，也大幅提高了门店的出杯效率。</p>
-<h2><strong>策略</strong></h2>
-<p>继喜茶宣布退出价格战后，星巴克也对自家的低价策略进行了调整。</p>
-<p>近日，《华尔街日报》报道，并经过CNN证实，在连续两个季度的销售业绩令人失望后，星巴克将对战略进行几项调整，其中之一便是削减促销活动。</p>
-<p>自今年8月Brian Niccol上任起，星巴克已默默减少此前推出的各种减价促销活动。同时为了确保顾客会继续购买，9月起星巴克开始推出每周二会员消费获额外积分、周六少数饮品特价等活动，以此取代之前的大力度折扣。同时，《华尔街日报》还指出，星巴克今年不打算在假期推出大型促销活动，反而将聚焦于通过广告来推销季节性饮品。</p>
-<p>星巴克的新策略，<strong>一方面力求扭转当前业绩下滑的趋势，另一方面则期望重塑星巴克作为“社区咖啡馆”的品牌定位。</strong></p>
-<h2><strong>加盟成本</strong></h2>
-<p>古茗在最近成立了二手设备平台，引起了行业关注。</p>
-<p>在茶咖观察看来，古茗上线官方二手设备平台，对加盟商有明确利好：<strong>一方面，古茗加盟商可以使用二手设备，也就降低了加盟门槛，减少了初始投入成本。另一方面，通过官方的二手设备平台，设备的价格更透明，能够帮助新手加盟商打破信息差，降低被骗风险。</strong></p>
-<p>资深零售业专家王国平也给出了企业角度的解读。在王国平看来，古茗作为一家近万店规模的连锁茶饮品牌，门店数量多了，倒闭门店数量自然也多，站在企业的角度需要吸引更多加盟商入局。推出二手设备平台，既有利于古茗维持企业形象，也可帮助加盟商降低开店成本。</p>
-<p>王国平指出，古茗设备品质相对有保障，买的人也多。“属于茶饮二手设备的硬通货，现在还是有点价值的。”</p>
-<p>目前来看，古茗开店势头相较同行仍较为可观。极海数据显示，古茗目前现有门量9747家，近90天新开门店510家，今年新开门店1357家。在过去，古茗奉行在门店加密的过程中稳步扩张的策略，受到了下沉市场欢迎，乡镇门店的业绩也很可观，古茗招股书显示：2023年单店GMV（商品交易总额）为约250万元，在乡镇的单店GMV为约240万元。在四线及以下城市，加盟商单店经营利润38.6万元。</p>
-<h2><strong>人事调整</strong></h2>
-<p>除了在策略上有所动作外，星巴克再度进行人事调整。</p>
-<p>10月18日，星巴克宣布任命Tressie Lieberman为执行副总裁兼全球首席品牌官，11月4日起生效。据了解，Lieberman和Niccol都曾在Chipotle任职，前者在2018年至2023年间担任Chipotle的数字营销和外送销售副总裁。Niccol在声明中表示，现在是时候重新将星巴克介绍给世界了，她是帮助做到这一点的最佳人选。据介绍，她将负责星巴克营销、产品开发、创意和数据分析与洞察。除了Chipotle，Lieberman还曾在雅虎、Snap Kitchen和Yum! Brands担任过高级营销职位。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/I_GqzaYy8UxkojhzdwW6Ww" rel="noopener noreferrer nofollow" target="_blank">“茶咖观察”</a>，作者：蒙嘉怡，编辑：薛向，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002107889449091</guid><pubDate>Mon, 21 Oct 2024 18:43:00 +0800</pubDate></item><item><title>A股利好，百亿元大消息，火速落地，涉及23家公司，深度解析→</title><link>https://36kr.com/p/3002102268623241</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>10月20日晚间，A股再次传来大消息，共计23家上市公司公告已与银行签订贷款协议或取得承诺函，将使用贷款资金用于回购或增持，涉及资金上限总额超百亿元，这意味着此前央行宣布设立的股票回购增持再贷款正在加速落地。</p>
-<p>涉及上市公司包括中国石化、招商蛇口、阳光电源、兆易创新、玲珑轮胎等，覆盖主板、科创板和创业板，各类所有制企业都有，包含央国企、地方国企和民营企业。</p>
-<p>21日，回购增持贷款概念大涨，多股涨逾10%。</p>
-<p>23家上市公司这次公布的回购增持再贷款情况有何看点和亮点？每日经济新闻记者为投资者进行了统计和梳理。</p>
-<h2><strong>17家总市值百亿公司回购增持</strong></h2>
-<p>在23家公司中，仅2家公司尚未公布股票回购增持贷款额度。从已经公布额度上限的21家公司来看，平均再贷款额度上限为4.83亿元；上限最高的为牧原股份，为24亿元；上限最低的为福赛科技，为5000万元。</p>
-<p class="image-wrapper"><img data-img-size-val="713,793" src="https://img.36krcdn.com/hsossms/20241021/v2_580b89b306054190b9a422d8a79ab9ba@5888275_oswg142098oswg713oswg793_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从行业分布来看，23家公司中，交通运输行业最多，共有7家，占比超过30%；其次是汽车和电力设备行业，分别有3家；再者是电子、农林牧渔和轻工制造行业，分别有2家；最后是社会服务行业、房地产行业、基础化工行业和石油石化行业，分别有1家。</p>
-<p>在23家公司中，目前有回购计划的有18家，有增持计划的有7家。其中，中国石化和中国外运既有回购计划，也有增持计划。除中远海控只公布了回购金额上限外，其余22家皆公布了回购金额或增持金额的上限和下限。按照上限来计算，23家公司增持金额和回购金额合计为198亿元；按照下限来计算，剔除中远海控外，剩余22家公司增持金额和回购金额合计为101.36亿元。</p>
-<p>截至10月18日，23家公司中，总市值超100亿元的公司有17家，占比超过70%；总市值超过500亿元的有10家，占比43.48%；总市值超过1000亿元的有5家，占比21.74%；总市值超过5000亿的有1家，为中国石化。</p>
-<p>截至10月18日，23家公司流通市值合计为1.67万亿元，而23家公司增持金额和回购金额上限为198亿元，占总流通市值的比例为1.19%。有10家公司增持金额和回购金额上限占流通市值的比例超过2%，其中这个比例最高的是山鹰国际，高达15.28%。</p>
-<p class="image-wrapper"><img data-img-size-val="343,340" src="https://img.36krcdn.com/hsossms/20241021/v2_f3937309c2f24de7a9ab88b72c0e222f@5888275_oswg33372oswg343oswg340_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>值得注意的是，招商系8家上市公司10月14日早间就已发出股票回购或增持提示性公告，回购增持是基于对公司未来发展前景的信心和对公司中长期价值的认可，稳定及提升公司价值，促进公司持续、稳定、健康发展。据估算，8家公司回购增持累积金额上限将近50亿元。</p>
-<p>10月21日，回购增持贷款概念大涨，多股涨逾10%。</p>
-<p class="image-wrapper"><img data-img-size-val="828,1190" src="https://img.36krcdn.com/hsossms/20241021/v2_ea93b3b22c4249d38459781e8f6eeb82@5888275_oswg85590oswg828oswg1190_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="828,1094" src="https://img.36krcdn.com/hsossms/20241021/v2_5ce43176b55440ec8f4ab8c24254aba0@5888275_oswg77346oswg828oswg1094_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>13家公司的涨幅落后于上证指数</strong></h2>
-<p>从上周五的收盘价和回购/增持价格差距来看，23家公司以上周五收盘价为基数计算，距回购/增持价格上限的空间范围在2.65%-52.17%之间。其中上周五收盘价距回购/增持价格上限空间较大的有嘉化能源、中国石化、中远海发，分别为52.17%、49.32%、47.74%。而阳光电源上周五的收盘价为94.5元，回购价格上限为97元，其上周五收盘价距回购价格上限的空间已不足3%。</p>
-<p>从回购用途来看，18家回购公司中，有8家公司的回购用途是用来减少注册资本的，有5家是用来实施员工持股计划或股权激励的，有2家是用来减少注册资本以及实施员工持股计划或者股权激励的，有2家是用于转换公司发行的可转换为股票的公司债券，还有1家则是用于未来出售。</p>
-<p>从涨幅来看，这23家公司中，自9月13日以来的涨幅在2.2%到42.38%之间，其中涨幅最小的中远海能，涨幅为2.2%；涨幅最大的为东芯股份，涨幅为42.38%；而同期上证指数的涨幅为20.04%，有13只个股的涨幅未超过上证指数的涨幅。而到上周五为止，尚无收盘价突破10月8日高点的公司。</p>
-<p>在这23家公司中，目前仍有4家公司的市净率小于1，为中国石化、招商港口、招商蛇口、山鹰国际。</p>
-<p class="image-wrapper"><img data-img-size-val="741,826" src="https://img.36krcdn.com/hsossms/20241021/v2_ecb8c4fd8c55478fb6a9696eded1e78e@5888275_oswg174960oswg741oswg826_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>招商系上市公司积极响应</strong></h2>
-<p>23家公司中，招商蛇口、招商港口、招商轮船和中国外运等均系招商系上市公司。</p>
-<p>招行深圳分行拟为招商蛇口股票回购项目提供不超过7.02亿元的贷款额度，拟为招商港口股票回购项目提供不超过3.89亿元的贷款额度，将为招商轮船股票回购项目提供不超过4.43亿元的贷款额度。以上贷款期限均为12个月，贷款利率原则上不超过2.25%且不超过市场利率。</p>
-<p>上述三家公司均表示，根据中国人民银行、金融监管总局、中国证监会《关于设立股票回购增持再贷款有关事宜的通知》，公司与招行深圳分行签署《合作协议》，同时招商银行出具《贷款承诺函》，承诺将为公司提供本次回购公司股份的融资支持。</p>
-<p>与此同时，中国外运也表示，公司10月18日收到控股股东中国外运长航集团有限公司（以下简称外运长航）来函，招商银行拟为外运长航提供增持上市公司股票的融资支持，贷款额度不超过3亿元，专项用于集中竞价交易方式增持中国外运A股股票。本次增持计划的资金来源为外运长航自有或自筹资金。</p>
-<p>据此，目前招商系公告获得回购增持贷款总金额已超18亿元。</p>
-<p>根据《关于设立股票回购增持再贷款有关事宜的通知》，设立股票回购增持再贷款，激励引导金融机构向符合条件的上市公司和主要股东提供贷款，分别支持其回购和增持上市公司股票。通知还明确，对不同所有制上市公司一视同仁。鼓励中央企业发挥带头作用。</p>
-<p>招商系8家上市公司10月14日早间就已发出股票回购或增持提示性公告，回购增持是基于对公司未来发展前景的信心和对公司中长期价值的认可，稳定及提升公司价值，促进公司持续、稳定、健康发展。据估算，8家公司回购增持累积金额上限将近50亿元。</p>
-<h2><strong>中国银行支持项目数占7个</strong></h2>
-<p>21日，中国银行官方微信发布消息称，该行全面深入了解上市公司在股票回购和增持方面的合理资金需求，研究制定股票回购增持贷款管理要求，快速支持首发项目落地，于10月19日与中国石化、中远海能、中远海控、中远海特、中远海发和东芯股份等6家上市公司签署股票回购增持贷款协议承诺；10月20日上交所、深交所发布的首批23个上市公司合作落地公告中，中国银行支持项目数占7个，排名同业第一。其中，支持中国石化股东增持和股份回购作为上交所公告“首单”对外发布。</p>
-<p>截至目前，中国银行已与近百家上市公司达成合作意向，向32家上市公司明确贷款承诺，涵盖集成电路、交通运输、高端制造和商业服务等多个行业。</p>
-<p>根据18日央行发文，共有21家全国性金融机构按政策规定，获批发放贷款支持上市公司股票回购和增持。这21家金融机构发放贷款后，可向中国人民银行申请再贷款。对于符合要求的贷款，中国人民银行按贷款本金的100%向金融机构发放再贷款。再贷款首期额度3000亿元，年利率1.75%，期限1年，可视情况展期。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/-5lE8DYoEoe5HaJ2cvQckA" rel="noopener noreferrer nofollow" target="_blank">“每经头条”</a>，作者：章光日 闫峰峰 孔泽思，编辑：卢祥勇 吴永久 易启江，校对：孙志成，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002102268623241</guid><pubDate>Mon, 21 Oct 2024 18:44:00 +0800</pubDate></item><item><title>出海速递 | 张一鸣难寻TikTok平替/掘金中东非，中国家电企业为何押注埃及？</title><link>https://36kr.com/p/3002049478703491</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>访问36氪出海网站</strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="2194,1032" src="https://img.36krcdn.com/hsossms/20230727/v2_5d21e3a7845040108eb79b76ca40abb7@5490952_oswg179493oswg2194oswg1032_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>今日好文</strong></h2>
-<h3><a href="https://letschuhai.com/a8da2b77?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>张一鸣难寻 TikTok 平替</strong></a></h3>
-<p>倘若字节找不到“TikTok 2.0”的种子选手，不妨跳出旧战场，在生成式 AI 领域大干一场。</p>
-<h3><a href="https://letschuhai.com/af92c2be?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>掘金中东非，中国家电企业为何押注埃及？</strong></a></h3>
-<p>家电企业，看上了埃及，看上的又不只是埃及。</p>
-<h3><a href="https://letschuhai.com/1590038c?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>巴黎车展中国车企占比1/5，关税挑战难阻电动化热情</strong></a></h3>
-<p>中国车企坚定拓展欧洲市场。</p>
-<h2><strong>热点快讯</strong></h2>
-<h3><strong>消息称理想汽车放缓出海</strong></h3>
-<p>10月20日，财经媒体晚点报道，理想汽车的出海步伐较一年前的规划明显放缓。据知情人士，理想汽车管理层认为出海需要做更充分的准备，比如希望出海车型为当地消费者专属设计，会与国内市场在售车型版本存在一定区别。（界面新闻）</p>
-<h3><strong>北京正规划3000平方公里自动驾驶示范区</strong></h3>
-<p>10月19日，在2024世界智能网联汽车大会上，北京经济技术开发区管委会副主任、北京市高级别自动驾驶示范区工作办公室主任王磊透露，北京从2020年开始践行“车路云一体化”方案，高级别自动驾驶示范区至今已迭代至3.0阶段，从亦庄扩展到通州和顺义，目前已扩至600平方公里。下一阶段，将围绕北京的四环至六环之间的3000平方公里面积做规划，进一步扩大示范区的范围。（界面新闻）</p>
-<h3><strong>虎牙出海业务NIMO开启音乐商业化探索，推出“音乐人商业化支持计划”</strong></h3>
-<p>2024年10月18日至20日，虎牙公司旗下出海业务——全球知名游戏与泛娱乐直播平台 NIMO 受邀作为官方战略合作伙伴亮相“2024泰国游戏展（Thailand Game Show 2024）”。据了解，在本届游戏展上，NIMO 向众多游戏厂商及合作伙伴展示了其在全球范围内的游戏全案发行、音乐泛娱乐营销和大型线下品牌整合等方面的综合实力，并推出了“音乐人商业化支持计划”，进一步推动加深 NIMO 在海内外游戏产业的品牌认知度。（36氪）</p>
-<h3><strong>前三季度广东外贸进出口同比增长11.1%</strong></h3>
-<p>从2024年前三季度广东进出口情况新闻发布会上获悉，据海关总署广东分署统计，今年以来，广东全力推动对外贸易创新发展，前三季度，全省实现外贸进出口总额6.75万亿元，同比增长11.1%，进出口规模创历史同期新高，是全国外贸大省中唯一实现两位数增长的省份，规模和比重继续稳居全国第一，比全国总体增速快了5.8个百分点。（南方plus）</p>
-<h3><strong>科技记者古尔曼：苹果内部员工认为其 AI 落后行业巨头超两年</strong></h3>
-<p>据报道，知名科技记者马克・古尔曼最新发文称，一些苹果员工认为该公司在人工智能发展方面大约落后两年。古尔曼表示，苹果的内部研究表明，ChatGPT 的准确性比苹果语音助手 Siri 高出约25%，并且可以回答更多问题。他还表示：“一些苹果员工认为，到目前为止，公司生成式人工智能技术至少比行业领导者落后两年以上。”（智通财经）</p>
-<h3><strong>Perplexity AI 据悉寻求新一轮融资，目标估值达到至少80亿美元</strong></h3>
-<p>10月20日消息，知情人士称，杰夫·贝索斯支持的人工智能创企 Perplexity AI 已开始洽谈融资近5亿美元，寻求将公司估值提高一倍以上，达到至少80亿美元。（华尔街日报）</p>
-<h2><strong>近期活动</strong></h2>
-<h3><a href="https://letschuhai.com/c709beff" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜出海指南针：解码海外市场选择策略</strong></a></h3>
-<p>如何正确选择目标市场，并因地制宜制定市场战略，成为企业出海至关重要的一环。为帮助企业更好地把握出海机遇，<strong>36氪出海于10月23日下午2:30在北京举办交流活动。</strong>来自<strong>安永大中华区</strong>和<strong>梅卡曼德机器人</strong>的重磅嘉宾将带来全球热门出海目标市场的最新趋势，深入解析企业全球化市场战略的关键方法论，并结合企业自身案例，分享出海实践中的宝贵经验，帮助企业更好地实现全球新市场拓展。<strong>如果您关注业务出海的市场选择策略，希望深入探讨全球各区域市场的机遇与挑战，欢迎您扫描下方二维码，报名参加本次活动。</strong>活动报名将于10月22日中午12:00截止。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,525" src="https://img.36krcdn.com/hsossms/20240926/v2_3667316c6b4c41fd8493738764427698@11918142_oswg341751oswg1080oswg525_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><a href="https://letschuhai.com/551f8a3e" rel="noopener noreferrer nofollow" target="_blank">抓住出海卡塔尔机遇！中国-卡塔尔投资合作高峰洽谈会即将落地北京、深圳</a></h3>
-<p>为了帮助中国企业更好地了解卡塔尔市场的特点和机遇，<strong>36氪出海联合卡塔尔投资促进局、北京及深圳贸促会、盈科律师事务所，于11月12日和15日，分别在北京、深圳举办中国-卡塔尔投资合作高峰洽谈会。</strong>洽谈会旨在为中卡两国企业提供深度合作与交流的平台，助力企业探索新的商业机会。如果您关注出海卡塔尔的商业机遇，希望深入了解卡塔尔的利好政策、营商环境及合作生态，欢迎您扫码下方二维码，填写表单，报名参加本次活动。<strong>我们将根据话题相关度，对报名申请进行筛选。通过活动审核的用户，我们将有专人联系通知。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="3930,1917" src="https://img.36krcdn.com/hsossms/20241021/v2_81422bb1984046a0a11056da7ba7c124@11918142_oswg276752oswg3930oswg1917_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>加入36氪出海学习交流群</strong></h2>
-<p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
-<p class="image-wrapper"><img data-img-size-val="631,72" src="https://img.36krcdn.com/hsossms/20230523/v2_b61857409a814903b2749dd32a80e298@11918142_oswg4260oswg631oswg72_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002049478703491</guid><pubDate>Mon, 21 Oct 2024 18:44:00 +0800</pubDate></item><item><title>火到停播，被“群嘲”的大冰靠直播翻盘</title><link>https://36kr.com/p/3002116012702083</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>风口浪尖上的大冰，选择了停播。</p>
-<p>10月17日，互联网新晋“知心人”大冰在自己账号中发布了一则文案，表示“泼天富贵，镜花水月，莫等莫催，暂不开播，这波流量，无缘承接”，宣告了自己的激流勇退。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_7a43ef583dce4a11bd0ae0ec06e3eab6@000000_oswg353977oswg591oswg761_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：大冰快手账号</p>
-<p>停播，可以视作达人对自己的保护。与大冰几乎同时期爆火的@K总、@听泉鉴宝，在经历过急剧涨粉、网络讨论度暴增后都选择了停播“避避风头”。虽然相较这两位，大冰的涨粉量与直播人气并没有那么夸张——在他的“本家”快手，近7天内粉丝增量仅超过20万，直播场观约为10万＋。<strong>反而是分布在抖快、视频号、小红书的切片视频，带动大冰全网热度水涨船高。</strong></p>
-<p>大冰的翻盘，可能是没人想到的。毕竟此前大冰老师在社交媒体上的口碑称不上完全正面，“冰学”一出更是全网群嘲。但过去一个月，以“西梅鉴赏师”为起点，<strong>凭借直播中的机智应对、幽默表达，大冰的互联网形象迎来翻转，俨然有了几分老艺术家、知心导师的味道。</strong></p>
-<p>与此同时，冰学也进入了二阶段，用户们玩着“旧冰学”的必修梗，又津津乐道他“直播中被狗创飞”“听声辨位王者”“西梅鉴赏家”的新梗，怀疑他“十几个身份都是真的”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_66ed69f1a13b4b0888a40562c16aa37b@000000_oswg100303oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：大冰快手账号</p>
-<p>而当冰学逆势翻红时，也让人不禁疑惑，都是互联网热门学问，凭什么“晚学”翻不了盘？</p>
-<h2><strong>大冰翻盘，直播立功</strong></h2>
-<p>没看过大冰的书，不一定没玩过“冰学”的梗。</p>
-<p><strong>所谓“X学”，是社交媒体上一种新潮的学问模式，研究对象可以是影视作品，也可以是某一人物的言行举止。</strong>冰学，就是以大冰为研究对象进行文本分析。</p>
-<p>这一模式的始祖是“红学”“甄学”，彼时的大众拿着放大镜恨不得对剧情进行逐帧解读，而当下流行的“冰学”“珂学”则被浓缩为热梗的合集。其“新”在大众将一切不待见的事物拉下来解构，构筑自己的解读安全区，“潮”在这类文本以社交媒体为介质传播，很容易一呼百应。</p>
-<p>想要入门冰学，就要先修习“必修课件”。对于大冰，用户们的玩梗热情主要针对其不知所云的书名——“阿弥陀佛么么哒”“好吗？好的”；以及作者简介下罗列的数十个身份，包括黄金左脸、老背包客、禅宗弟子等，并由此成就了最为出圈的冰学笑话“住不下这老些人”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_8ce28ad206ee46a3a6bb4162cf3f461b@000000_oswg374527oswg913oswg765_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：梗科普</p>
-<p>在大冰暂停出书的这些年，“冰学”的含金量依旧在上升，甚至扩张到国际板块。马尔克斯写《百年孤独》，第一段开头都是“许多年之后，面对行刑队，奥雷连诺上校将会回想起，他父亲带他去见识大冰的那个遥远的下午”；美国五星上将麦克阿瑟也发出评论，“在大冰老师面前，我就像个新冰蛋子。”</p>
-<p>不过也正是因为冰学，当大冰逐渐淡出大众视野时，他在互联网上依旧拥有相当的热度。现在看来，按照触底反弹一说，当大冰在互联网上遭到群嘲的时候，他的逆转剧本也悄悄写好了。</p>
-<p>今年5月，大冰在快手开启直播，与网友连麦聊天，由此开启了口碑逆转之路。</p>
-<p>最广为流传的一个片段中，与他直播连麦的网友质疑“善意的提醒难道不对吗？”大冰沉默了一下，“你怎么知道自己的提醒一定就是善意的”，接着他拿出手中一直在吃的椭圆形零食，“比如刚才就有评论区的朋友，留了好几遍言说大冰不要吃槟榔，这个提醒是非常善意的。”“可是这个东西叫西梅。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_65532411a3a14af889caa541493bd9cd@000000_oswg322772oswg703oswg537_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：网络</p>
-<p><strong>这段抽象与笑料齐飞的直播片段，成了大冰破冰的重要一环</strong>，而他举起西梅时歪嘴、皱眉、苦笑一气呵成的表情也纷纷引来达人模仿，像是李诞、脱口秀演员刘旸在直播中纷纷抱起大袋的阳光大西梅模仿大冰，弹幕则飘过一串哈哈哈。</p>
-<p>直播间里的大冰抛弃了他的“黄金左脸”，不得不展示着自己的“黄金全脸”，但这一形象却意外打破了大众对他凝固的刻板印象。连麦一位家长时，面对对方的催婚言论，大冰连续回怼，“家里是有皇位要继承吗”“人不是牲口，不是到了季节就要配种”，话糙理不糙，一下子怼进了年轻人的内心。</p>
-<p>当然，<strong>大冰的直播也有着温情的部分</strong>：一位重病吃低保的父亲，想要临终前借款3000元给孩子买辆电动车，大冰否决了他每月还款700的提议，转而定下了五年还钱之约，并驳斥直播间内开玩笑的用户，“人都有困难的时候”。</p>
-<p>一位被父亲虐打、因砍伤父亲进入少管所的93年小伙，连线时反复说没有生的希望，大冰先是转移话题问他做过什么工作，再提出让直播间一位大哥带他吃一碗双倍加肉的郑州烩面，然后建议他出海谋生。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_a4bd80fb6ce5437094b3011da835c73b@000000_oswg115341oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：大冰快手账号</p>
-<p>也有“以德服人”环节，比如连麦黑粉，对方反复说自己不喜欢大冰，“写的书毫无价值”，大冰则以“你说得对”终结了对抗；为人津津乐道的还有大冰直播中被狗创飞，网友立刻赋予“旺旺碎碎冰”的新梗。</p>
-<p><strong>这些真实鲜活的场景，消解了大冰在年轻人心中的刻板印象。</strong>就在一个月以前，大冰还自我调侃直播间平均只有3000人观看，“一块钱就能当榜一”。最近30天内，他的快手账号增粉超45万，抖音账号涨粉250万。</p>
-<p>而在大冰从“黑红”中解脱后，以前冰学被群嘲的时候不敢站出来说话的用户，也终于敢光明正大亮出自己的藏书，“从中学那会儿就喜欢了。”</p>
-<h2><strong>“冰学”翻盘了，“晚学”还没有</strong></h2>
-<p><strong>一般来说，互联网上繁兴的趋势，最后都会形成一条赛道——大冰闯入的“被群嘲后翻红”的赛道，上面也早已站满了人。</strong></p>
-<p>靠直播完成形象逆转，大冰并不是孤例，往前追溯还有@张大大、@李诞，甚至是giao哥。以@张大大为例，去年年初，张大大开启抖音直播，口碑突然从“娱乐圈万人嫌”晋升为网友“我在娱乐圈的人脉”。</p>
-<p>在抖音，张大大账号简介写着，“您好，我是小张，请问有什么事可以帮到您吗？”网友们也毫不客气，将他的直播作为问八卦、整活的基地。</p>
-<p>有人用娱乐圈热点“刁难”张大大，期待他的爆料迅速引爆微博；有人扬言要公开与影帝的恋情，张大大回话都磕磕绊绊，害怕的同时又满脸写着“想吃瓜”；有人因久未归家思念妈妈，一通诉衷情后突然话锋一转，“我能叫你一声妈妈吗”。一度，张大大身上贴满了“娱乐圈客服”“许愿池里的王八”等诸多标签。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_9889debc025e432b959bfdea6d8660ad@000000_oswg96650oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：张大大抖音账号</p>
-<p>究其原因，<strong>当下是一个解构的时代，大众习惯用梗文化解构一切原本高高在上的事物，而名人走进公共空间，也少不了先自我解构一番。</strong>像是余华迈入互联网，立刻被赠送了“潦草小狗”的绰号，好兄弟莫言也没逃过“狗化”。后来莫言拉余华给自己写推荐语，晒出的聊天记录里还给俩人安排上了各自的小狗形象。</p>
-<p>最近诞生的“向学”也是个很好的佐证。在电影《门前宝地》被痛批、向佐摸鼻梁、扇自己耳光的片段遭到众嘲后，向佐迅速融入了互联网群嘲氛围：张大大直播间有用户连线模仿他的摸鼻梁动作，向佐直接上线贴心指导；搞笑博主@李蠕蠕 模仿向佐蜥蜴式健身，被正主一顿穷追猛赶，称她少模仿了一个动作，而后两人在楼梯下站定齐刷刷给了自己一个耳光。</p>
-<p>虽然一系列操作营销味浓厚，但向佐“资本家的傻儿子”人设算是在用户心中扎根了，怎么不算口碑翻盘呢？</p>
-<p>相比之下，最近黄晓明官宣女友叶珂的“微do”“一点点科技，40%的科技”就显得太不坦率了。“珂学”的名场面之一，则是叶珂在直播中将品酒的描述生搬硬套进蛋糕讲解，“淡奶香加奶香”“直达上颚”的评价也成为热门公式被网友竞相模仿。</p>
-<p>同为互联网热门学问的“晚学”，也还没有走出自己的叙事体系。“晚学”初兴于2017年，指的是围绕豆瓣初代网红晚晚及其丈夫林瀚所展示的“上流生活”构建出的一门学问。在木木美术馆发生工人坠楼事件后，晚晚的口碑彻底崩塌。</p>
-<p>晚学家们热爱解构、打假晚晚的豪门生活，比如拆穿他们的北京别墅其实是借助的自建房，“不晒就是没有”成为晚学家们研究的一条铁律，“雷宛萤，你是我的奶奶”“Let’s恋爱”则是其中最热门的课件。小红书上，晚学家们为繁多的课件打上“贫贱夫妻百事哀”的tag。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_cdc12711c43c4948b6ea1420aedf99cf@000000_oswg643543oswg1080oswg794_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书</p>
-<p>2024年，晚晚放低了姿态进入直播带货场，带货木木美术馆周边、护肤品、服饰等。<strong>但鉴于其早期发言“我没有义务分享”回音犹在，“黑红”流量并未捧起她的直播。</strong>蝉妈妈数据显示，晚晚的上一次直播还是9月27日，当晚五个半小时内，晚晚的直播间观看人次达到119万，但销量仅1000~2500件，销售额10W~25W。</p>
-<p>晚晚也在尝试自我解构。她的两位助播在直播间内放着“one night in Beijing”，出口即是晚学名句，“杯子巨能装，比人能装”，但立刻有网友警惕，“不要给她送流量”。</p>
-<p>当冰学在互联网乘风破浪时，被群嘲7年的晚学还没有迎来翻盘，原因之一可能是，互联网确实还需要大冰。</p>
-<h2><strong>互联网依旧需要大冰</strong></h2>
-<p>2024年，李诞“躺赢”了直播，摇身一变为年轻人的精神解压剂。在小红书，他走上深夜情感主播的野路子，一面读着粉丝投稿一边为小卖部吆喝卖货，多次登上平台买手榜TOP1。</p>
-<p>在情感、生活难题咨询方面，李诞和大冰处于同一赛道，“午夜树洞直播”也是大冰给自己直播间的定义。<strong>如果说李诞代表了一二线城市年轻女性的情绪需求，大冰则是二线及以下城市下沉用户的知心大叔</strong>——虽然在年轻人中口碑逆转，但大冰的直播老家是快手，听众中文艺青年的成分大概并不多，只不过他的言论命中了年轻人的痛点。</p>
-<p><strong>某种程度上，大冰和李诞都是追赶风口并能精准踩中下一个风口的人。</strong>此前的大冰为自己塑造了硬核文青的人设，走南闯北，诗和远方都收入囊中。对彼时在学海中浮沉的学生来说，大冰的书在鸡汤之外，多少带着点野生感和离经叛道——在当时，大冰的人设是符合人们对“文艺青年”想象的。</p>
-<p>而在文青早已不是一件时尚单品的当下，大冰所展露的文青特色也就过时了，人们重新审视他文字的空虚、夸张，也审视曾经矫揉造作的自己。而当诗和远方成为虚幻的泡影，大冰又出现在直播间直面现实的苦难了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_e6a7e747adaa4713b2ff352e88b5c4a9@000000_oswg586219oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：大冰快手账号</p>
-<p>不可否认的是，大冰老师是有才华傍身的。<strong>作为曾经《阳光快车道》主持人，大冰的表达逻辑要高于大部分主播，又懂人情世故，有着丰富的阅历。</strong></p>
-<p>比如连麦爱玩的女孩，他一语中的，“没有一个强有力的外在约束力是不行的”；直播间有网友提问装修问题，大冰侃侃而谈，几乎能当场列出一套方案，专业到头顶的棒球帽都一眼幻视安全帽。当他以真诚的态度进入直播间和用户连麦谈心时，这些特质就会一定程度上抵消掉虚无的部分，进而重修他的形象。</p>
-<p><strong>大冰可能还是那个大冰，而现实中的大众也还需要“鸡汤”，只不过更加踏实、具象。</strong></p>
-<p>事实上，印在大冰小说封皮上的文字“愿你我带着最微薄的行李和最丰盛的自己在世间流浪”“请相信，这个世界上真的有人过着你想要的生活”，咯噔是咯噔了一点，却好像也没有与这个时代的大众精神脱节，也可以说是翻版的“人生是旷野”“勇敢的人先享受世界”。</p>
-<p>而当他在直播中一本正经地说着，“人啊不是牲口，不是说到了季节一定要配种”，或者歪嘴皱眉，“这个东西叫西梅”，大家又突然“爱上了具体的人”。</p>
-<p><strong>正因为人是复杂的，其互联网上的形象才有翻转的余地。说到底，大众作为审判者也有着视角的局限，这也意味着：互联网有没有记忆，取决于观众有没有在当下被讨好。</strong></p>
-<p>不管后续如何，至少当下的网友在努力为大冰“平反”了——“不要再玩大冰老师的梗了好吗？好的。”</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzUzMjI1MzkyNw==&amp;mid=2247539216&amp;idx=1&amp;sn=8af2055a9b7a9a599be37de8412c7a73&amp;chksm=fb6cb98326c9c676e140a4e174760134921bc5752b1e6cf77338c571ec20dd0bb90f4b0b2aef&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“卡思数据”（ID：caasdata6）</a>，作者：褚澄，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002116012702083</guid><pubDate>Mon, 21 Oct 2024 18:44:00 +0800</pubDate></item><item><title>深圳一举发布550基金群</title><link>https://36kr.com/p/3002101180332161</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 21 Oct 2024 19:30:41 +0800</lastBuildDate><pubDate>Mon, 21 Oct 2024 19:30:41 +0800</pubDate><item><title>深圳一举发布550基金群</title><link>https://36kr.com/p/3002101180332161</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>深圳年度最大基金群来了。</p>
 <p>投资界-解码LP从深圳方面获悉，10月18日，“深圳创投日”耐心资本专场在深圳市南山区举办，会上总规模550亿元的10支基金相继官宣落地。</p>
 <p>其中，深圳几个区及国资平台分别与工银、中银、建信、交银4家AIC机构签约，正式落地9支AIC股权投资试点基金，总规模达到450亿元；此外，太平人寿保险有限公司合作落地一支100亿元规模的险资基金。</p>
@@ -444,4 +114,389 @@
 <p>然而，OpenAI近期经历了包括穆拉蒂在内的多名核心高管的离职。在阿尔特曼推选新人上任后，公司原管理层几乎全部离开。与此同时，OpenAI正在进行从非营利性质向营利性质的重大转变，需要集中精力解决股权分配等问题。此外，OpenAI连年出现巨额亏损，并且缺乏自主造血能力，OpenAI是否能够继续保持行业领先地位成为一个疑问。</p>
 <p>前核心高管们纷纷创建新AI企业。OpenAI前高管创立的Anthropic公司开发了名为Claude的大型语言模型，成为ChatGPT的竞争对手；而Safe Superintelligence（SSI）则专注于安全地开发超级智能系统。穆拉蒂、佐夫等前OpenAI高管投身于新的AI创业项目，将为AI行业注入更多创新和动力，推动整个行业的进步和发展。</p>
 <p>本文来自微信公众号“智东西”（ID：zhidxcom），作者：汪越，编辑：程茜，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001990199407496</guid><pubDate>Mon, 21 Oct 2024 18:46:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3001990199407496</guid><pubDate>Mon, 21 Oct 2024 18:46:00 +0800</pubDate></item><item><title>法拉利憋了11年的新车，说实话有点让人失望</title><link>https://36kr.com/p/3002135062165893</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>前几天，一台已经发布了 11 年的老旧混动车型，在各种预告图和传言满天飞了好久之后，终于是发布换代车型了。顺便还占据了几乎所有汽车新闻和媒体的头版头条。</p>
+<p>它就是人称新一代马王的，法拉利 La Ferrari 的继任车型 F80 。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241021/v2_c66a2e7114314081bdfb4ef934fca67f@5888275_oswg1085247oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>继半个月以前迈凯伦的 W1 之后，上古三幻神（ 法拉利拉法、迈凯伦 P1 、保时捷 918  ）里的又一台车完成了换代，也把压力给到了保时捷。</p>
+<p>要是 Mission X 概念车再不量产，当年 918 的三神地位，很可能要被最近疯狂刷圈，已经成了纽北最速量产的奔驰 AMG ONE 取代了。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,626" src="https://img.36krcdn.com/hsossms/20241021/v2_206bc22045594b5db5698ada3e5b828d@5888275_oswg427872oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>说回 F80 ，法拉利作为超级跑车领域技术能力和品牌价值都拉满的老大哥，此前的几乎所有车型，甚至包括最入门的 Roma 和 296 GTB ，在发布的时候能得到的评价都是非常一致的。</p>
+<p>那就是：woc , 不愧是法拉利啊。</p>
+<p>可当 F80 发布后，对比 11 年前拉法发布大伙的那种热烈和震撼，甭管是国内还是国外的车迷兄弟，对这个新马王的评价似乎都非常模棱两可，不太有那种燃起来的感觉。</p>
+<p class="image-wrapper"><img data-img-size-val="1033,800" src="https://img.36krcdn.com/hsossms/20241021/v2_e326bb12ead54df68bb055807048ccfc@5888275_oswg102567oswg1033oswg800_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="716,583" src="https://img.36krcdn.com/hsossms/20241021/v2_193cfafa3c944e73b3031ac39dd0d1ea@5888275_oswg62324oswg716oswg583_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>我呢作为一个法拉利的精神股东，在爱丁堡和墨西哥也曾拥有过几十台不同年份的法拉利，对窝法的感情可以说是从小培养到大。</p>
+<p>可当我第一眼看到 F80 的时候，即便知道它 799 台的配额已经卖完，也知道它的起售价格已经飙到了 310 万美刀（ 拉法当年的起售价仅为 140 万美刀 ），但还是没忍住皱紧了眉头。</p>
+<p>就总感觉，这车有哪里怪怪的。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,589" src="https://img.36krcdn.com/hsossms/20241021/v2_2581a95a04784087aca13de3608965b3@5888275_oswg782219oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>01</strong></h2>
+<p>那么，到底是哪里怪呢？</p>
+<p>可以确定的是，在技术能力上，窝法作为今年勒芒 24 小时拉力赛的冠军，还是一如既往的走在了整个汽车工业的最前面。</p>
+<p>甭管是动力系统、悬架结构还是空气动力学，在 F80 身上是一个比一个逆天，也让它成了迄今为止动态性能最强的法拉利旗舰。</p>
+<p>就拿对超跑最重要的动力系统来说啊，这回 F80 和许多其他的旗舰跑车一样，都用上了纸面数据贼猛的混合动力系统：</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1077" src="https://img.36krcdn.com/hsossms/20241021/v2_9d384036c35a4a3496aae3e8d86ea339@5888275_oswg1178734oswg1080oswg1077_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">发动机，是自家勒芒赛车 499P 同款的 3.0T 双涡轮 V6 发动机，代号 F163CF </p>
+<p>我知道大伙要开始吐槽了啊，不是哥们你个旗舰车型咋用上 V6 了？可是单论数据，这台 “ 小排量发动机 ” 900 匹马力、 850 牛 · 米的输出可是要超过一票 12 缸的车型的。</p>
+<p>甚至包括自家旗舰 GT 跑车 12 Cilindri 上那台， “ 仅有 ” 830 匹马力的自吸 V12 。</p>
+<p>气缸夹角 120 °，让这台发动机变得更宽更平，能降低重心，也能给上面两个巨大的电子涡轮腾出空间。发动机和变速箱的连接用上了尺寸更小的飞轮，并且在竖向上还有一个 1.3 °的夹角，同样也能降低重心，还不会影响底盘上的空气动力学结构。</p>
+<p>电机部分， F80 全车一共有 3 台电机，前轴一个双电机总成，后轴的电机则是 F1 同款的 MGU-K 电机，负责启动发动机、提高发动机的扭矩输出、还可以用动能回收给那块容量很小，但是性能很强的小电池充电（ 2.3 度容量，最高输出功率有 242kW ）。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241021/v2_b0f87b4938d34692b7b3b005c3b501c8@5888275_oswg210320oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>三个电机全都是由法拉利自己研发，合在一起能带来 300 匹的马力提升，加上 900 匹的发动机， F80 的系统综合马力输出冲到了 1200 匹。</p>
+<p>要是搁几年以前，看到 1200 匹这个数我绝对能卧槽一整天。但现在是 2024 年，同样是混动的仰望 U8 、 U9 也一千多匹是吧， F80 这个价都能买一个车队的仰望了，这马王也就一般呢是吧！</p>
+<p>实则，不然。</p>
+<p>毕竟想要跑得快，光是马力大可不行，那大卡车马力多大是吧。马力推重比还得够小，也就是车子还得够轻才行。也因此， F80 这回在轻量化上做的工作也是略显逆天的。</p>
+<p class="image-wrapper"><img data-img-size-val="858,591" src="https://img.36krcdn.com/hsossms/20241021/v2_fa6033a09b544913ac971a76f51ac878@5888275_oswg385162oswg858oswg591_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="980,654" src="https://img.36krcdn.com/hsossms/20241021/v2_875f7ff184f448cd840b4407affc1a66@5888275_oswg737139oswg980oswg654_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>就比如碳纤维的单体壳座舱，也就是用碳纤维复合材料把底盘和车顶都包起来，保证强度也能足够轻便。后副车架的材料同样也是碳纤维，还特别设计了一个复杂又好看的加强结构来保证强度。</p>
+<p>前后的铝合金副车架通过更轻的钛合金螺丝跟车身连接，后悬部分和布加迪陀飞轮类似，也采用了 3D 打印的镂空摆臂来减重。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241021/v2_9f90b2b795574111a540116e3cd11f79@5888275_oswg480113oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>最逆天的是， F80 为了做偷轻，车里的座椅都从常规的两个减少到了一个半（ 法拉利叫它 1+ 模式 ）。</p>
+<p>副驾说是有座椅但其实就是直接坐在了车身上，单走一个 6 。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241021/v2_2f83846a850a4444a654d77282a7fba3@5888275_oswg736437oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>减肥的结果，是 F80 的干重降到了只有 1525kg ，相比前任拉法减少了 5% 的重量。自然而然呢， 0-100km/h 的加速时间也从原先的 2.7 秒直接提升到了 2.15 秒，几乎和顶尖的高性能纯电车型在同一水平。</p>
+<p>然后就是和动态有关的技术了，悬架部分， F80 用上了之前在 Purosangue 上首发的主动悬架系统，每个车轮都配了一个 48V 电机，用来实时调节悬架的阻尼。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,698" src="https://img.36krcdn.com/hsossms/20241021/v2_cd2c3d74a7714cbc8d0e03659c1e731f@5888275_oswg496736oswg1080oswg698_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>更新的软件算法，在之前实时估算车身侧滑角（ 误差小于 1 ° ）的基础上，还增加了个质心速度（ 误差小于 1 公里 / 小时 ）的估算功能，可以给牵引力控制这种动态控制系统提供更精准的数据。让买了 F80 的差友们在赛道里怎么踩，都不会打滑，上限贼高。</p>
+<p>主动的空气动力学系统，除了常见的平整的底盘、导流槽 + 扩散器、以及车身前后各种夸张的结构以外， F80 在前杠下方增加了一个可以主动开启的导流板.</p>
+<p>车后的主动尾翼也从拉法上那个意思意思的小玩意，变成了面积巨大、液压撑杆超级粗壮的主动式大尾翼。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,626" src="https://img.36krcdn.com/hsossms/20241021/v2_8ad91cb043d64621ba065411d4c04fe2@5888275_oswg584825oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>250 公里时速的时候，这个尾翼可以给 F80 产生 1.05 吨的下压力。比迈凯伦 W1 还高出 50 公斤。而且很搞的是，这个尾翼的支撑杆真的超级粗超级长，感觉都能伸到天上去了。。。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,651" src="https://img.36krcdn.com/hsossms/20241021/v2_ceb694289f234a8188e3ee44d827d764@5888275_oswg893889oswg1080oswg651_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>上面这些所有加起来， F80 在法拉利自家的 Fiorano 赛道上竟然可以跑出 1 分 15 秒的成绩，比 SF90 XX 这台赛道版车型还能快上 1 秒，仅次于各种 F1 车型还有拉法的纯赛道版本 FXX K 。</p>
+<p>可以说是快到飞起。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241021/v2_b29722bb4d4e4f0585c38b15028bba36@5888275_oswg915846oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>02</strong></h2>
+<p>所以啊，至少从技术这个角度看， F80 毫无疑问是历代马王里头性能最爆炸、赛道成绩最好的那个。可即使是这样人们对它的评价也还是一言难尽，那问题一定是出在跟硬件技术没有关系的地方。</p>
+<p>在我看来， F80 最大的问题和之前的奔驰混动 C63s 是一样的，那就是它失去了一台顶级旗舰车型的最重要的立身之本：美学，以及在性能数据之外，技术能够给人带来的情绪价值。</p>
+<p>先说设计啊，在我的理解里，法拉利的设计水准几十年以来一直都是走在所有人的前面的。总能做出意料之外的线条和形面，即使在几十年后回头看也不会有任何过时的感觉。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20241021/v2_1bfa82434420495f8e636a5a9c562f1d@5888275_oswg647346oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1000,800" src="https://img.36krcdn.com/hsossms/20241021/v2_54c2460a56814e13846b9ca64ef65645@5888275_oswg453239oswg1000oswg800_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这一点在它们自家的 Incona 车型，也就是那个最高级的限量车系上依旧有着保留，甭管是最早的 SP1 、 SP2 还是更激进的 SP3 也都有这种感觉。</p>
+<p>可从 812 Superfast 的继任车型 12 Cilindri 开始，也不知道法拉利是为了顺应现在的复古潮流，还是真就觉得 365GTB/4 这台车真就代表了法拉利设计语言的精髓，就非得在新车上体现出长条灯 + 直线曲线混用的元素。</p>
+<p class="image-wrapper"><img data-img-size-val="1010,1024" src="https://img.36krcdn.com/hsossms/20241021/v2_fb944e82fe3447d79a214e4793983837@5888275_oswg1273776oswg1010oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>用就算了，还非整一些细碎的小结构搞得线条都支离破碎的。</p>
+<p>这也导致了 F80 每个部分的设计连续性非常差，单看车头、车尾和侧面，压根就不像是一个设计团队做出来的。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241021/v2_96155222abc24553a487ff9e0e23a018@5888275_oswg896377oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241021/v2_47fdd0004ed6497a8aeadd82c49da9ab@5888275_oswg465218oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241021/v2_59243f45cd864e2d9f8e495d1a95aecf@5888275_oswg750968oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>网友们对 F80 的评价我觉得非常中肯，那就是像乐高。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,756" src="https://img.36krcdn.com/hsossms/20241021/v2_d4b452ed42824f65b086b554131dd83c@5888275_oswg418106oswg1000oswg756_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>要说情绪价值那就更是了，在用了 3.0T 双涡轮 + 三电机混动以后，人们当然知道这台车的赛道成绩不会差。可旗舰超跑的重点，真的是在赛道上有多快吗？</p>
+<p>当然不是。</p>
+<p>我觉得前一阵布加迪的新旗舰陀飞轮，以及这台车的推动者 Mate Rimac 对旗舰超跑的理解就非常精辟，那就是快不是问题，但一定不能是为快而快，要快得优雅。</p>
+<p>所以在布加迪的新车陀飞轮上，我们虽然也能看到强大的电驱系统，但绝对少不了一台自然吸气的 V 型 16 缸发动机。还有无数看着没啥意义，但形式感和设计感都很足的细节。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241021/v2_097d746eb87b4d088d2ef180727b9da0@5888275_oswg419672oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1002,564" src="https://img.36krcdn.com/hsossms/20241021/v2_7657ec9f79034a2988c4f99dba64a376@5888275_oswg395197oswg1002oswg564_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>反观采用了 3.0T 双涡轮发动机的 F80 ，虽然升功率很高、发动机的轻量化很棒，但就像在欧洲完全没有人买单的混动奔驰 C63s 一样，这就是一种为快而快，而忽略了多缸与大排量发动机对于燃油车附加价值的行为。</p>
+<p class="image-wrapper"><img data-img-size-val="836,932" src="https://img.36krcdn.com/hsossms/20241021/v2_a77cc1281daf4270b664f0f27eecb9b5@5888275_oswg498043oswg836oswg932_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>03</strong></h2>
+<p>一切都是为了速度和效率，但这一点都不法拉利。</p>
+<p>詹姆斯 · 梅当年一句 “ Nurbergring ruins cars （ 跑纽北会毁了一台车 ） ” ，含金量还在上升。F80 确实是一台赛道机器，但也确实变得泯然众人，无法让人觉得惊艳了。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,601" src="https://img.36krcdn.com/hsossms/20241021/v2_09b8955336cd4459b2890121b9de605c@5888275_oswg783705oswg1080oswg601_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,613" src="https://img.36krcdn.com/hsossms/20241021/v2_a1867ee7d41f4eabb1565c7c97a64b6a@5888275_oswg601516oswg1080oswg613_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>当然了，我嘛就算搬砖个几百年也绝对买不起就算历史上任何一台马王。</p>
+<p>F80 在发布前就已经把 799 台全部卖出、法拉利的股价在 F80 发布之后迎来了上升也说明，真正的客户以及资本市场，对窝法未来的品牌价值依旧非常看好。</p>
+<p>而这最让我难过的地方。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/0xTXwcbulEy5FtdjsdlJCg" rel="noopener noreferrer nofollow" target="_blank">“差评汽车部”</a>，作者：脖子哥，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002135062165893</guid><pubDate>Mon, 21 Oct 2024 19:00:00 +0800</pubDate></item><item><title>卷到七块九，“包子第一股”也来卖汉堡，能成为下个塔斯汀吗？</title><link>https://36kr.com/p/3002131507100037</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近年来，中国汉堡加速崛起，塔斯汀、林堡堡、麦喜堡等品牌纷纷涌现。肯德基、西贝等餐饮大牌也蜂拥而上试水中国汉堡。打工人的早餐标配“巴比馒头”，最近也瞄中了汉堡生意，在上海开出了全国首家汉堡门店“巴比扒包”，扒包最低售价只需9.9元，早餐时段（7:00~10:00）还有定价为7.9元-9.9元的超值扒包套餐。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_7b6871eb066c4fec88b28a3619ef4811@000000_oswg243829oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（巴比扒包的超值早套餐，图源网络）</p>
+<p>从2001年巴比馒头创始人刘会平在上海南京路开出“刘师傅大包”，到2003年“刘师傅大包”改名为“巴比馒头”并投资80万建立中央厨房，再到2020年成功上市，成为“中国包子第一股”......巴比馒头见证了中国餐饮业快速发展的高光时刻，也一度是行业浪潮发展的弄潮儿。不过，在斗转星移间，餐饮行业已不复过去的荣光，进入寒冬期。</p>
+<p>今年上半年，餐饮业的洗牌加速，根据天眼查数据，新注册餐饮企业134.6万家，注销、吊销数量达到了105.6万家；其中第二季度就有约60万家餐饮企业倒下，远超去年同期水平，餐饮业寒冬可见一斑。国家统计局数据显示，虽然1—5月全国餐饮收入有所增长，但增收不增利现象显著。</p>
+<p>在行业水温尚未升高之际，巴比馒头能否在汉堡界复制其在包子界的成功，成为下一个“塔斯汀”？</p>
+<h2><strong>拥有5000多家加盟店，试水汉堡仅开1家门店</strong></h2>
+<p>对于漂泊在外的打工人而言，吃饭是头等大事。成立二十多年来的巴比馒头，口味已经得到了不少消费者的认可。</p>
+<p>在社交平台搜索“求推荐好吃的杭州特色美食”等系列关键词时，可以发现，巴比馒头的热度非常高，大家对它不吝赞美之词，“杭州特产，来杭必吃！”、“杭州美食第三名！”尽管巴比馒头得到这一称号背后也有着消费者对于杭州是“美食荒漠”的调侃，毕竟巴比馒头创立于上海。但从另一方面，也证明了巴比馒头的国民度。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_d007c8dd6c864151b3a03d5075f7e427@000000_oswg102238oswg903oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（网友称巴比馒头为杭州特产，图源网络）</p>
+<p>包子馒头作为传承千年的美食，几乎人人爱吃，家家会做，能从低门槛竞争的包子生意中“杀出重围”，巴比馒头下了不少功夫。</p>
+<p>在当时的早餐市场大多还以夫妻店为主的2003年，巴比馒头创始人刘会平就给“巴比”品牌注册了商标，这也是彼时整个上海第一个注册的包子商标。2004年，刘会平启用了当时大餐饮品牌才会用到的中央厨房模式，通过中央厨房统一采购原料，进行加工、冷冻储存后配送至门店，抢先实现了包子市场的标准化模式。</p>
+<p>为了消化中央厨房的产能，2005年巴比馒头启动了品牌连锁加盟业务，率先做到了连锁化，巴比馒头踩中了时代风口，迅速扩张。据巴比食品半年报显示，截至2024年6月，巴比馒头已开出5284家门店。此外，刘会平还早早瞄准了团餐市场的机会，2010年就专门成立了团餐事业部。目前已与特斯拉、比亚迪、上海师范大学等诸多企业、学校、医院等提供早餐团餐，在牢牢锁定市场份额的同时，也培养了用户的消费习惯。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_3d8c3fc52d1e47a1a8a9df9c7c1ffe22@000000_oswg215767oswg998oswg413_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（巴比馒头团餐合作单位，图源官网）</p>
+<p>比起当初在主营业务上的激进扩张，此次进军汉堡圈，巴比馒头十分低调谨慎。</p>
+<p>巴比馒头的首家汉堡店坐落在大本营上海松江区，同属“巴比系”，名为“巴比扒包”，门店还贴着标语“有烟火气的中国汉堡”。目前，扒包系列产品并未在其他巴比馒头店铺中进行上新，记者在杭州巴比馒头门店询问扒包产品情况时，店员也表示并未收到通知，暂不了解。</p>
+<p>与此前开巴比馒头店铺选址都在人流量大的繁华地段不同，巴比扒包位置在巴比馒头总部附近，旁边就是巴比馒头的工厂直销店和巴比旗下的日日鲜面食馆，客流也相对较少，且顾客大多选择外带。在社交平台上，巴比扒包也暂未有较大声量，不过已有部分用户表示好奇想去尝尝。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_452bdfe5c8214f95ba7d94efc6f3fdb2@000000_oswg161461oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（巴比扒包在社交平台的反响暂未有较大声量，图源小红书）</p>
+<blockquote>
+<p>目前巴比扒包门店共推出了扒包、套餐、小吃和饮品，共25个SKU。扒包的价格在9.9—12.8元之间；小吃在5—8元之间；现磨美式、现磨拿铁分别为7.7元和8.8元一杯。套餐方面，在早餐时间（7:00~10：00）会提供价值7.9-9.9元的超值套餐；其余时间段，三件套主要在15.9—17.9元之间，四件套在20.9—22.9元左右。</p>
+</blockquote>
+<p>相较于麦当劳、肯德基等老牌西式品牌，巴比扒包的整体价格还是显得更有性价比一些，毕竟巴比扒包的9.9元是长期定价，不用受到具体福利日时间的限制。在口味上，巴比扒包目前开发的口味都比较大众化，分别为牛肉原味、杏鲍菇牛肉、猪肉原味、玉米猪肉、香辣鸡肉，是大部分汉堡店都会有的口味。</p>
+<h2><strong>上市四年，没那么好做的早餐生意竞争不断</strong></h2>
+<p>餐饮是门苦生意，以至于不少餐饮人会把赚钱说成“苦钱”，对于早餐生意而言，这笔钱更是“苦上加苦”。</p>
+<p>早餐作为餐饮中一个比较特殊的品类，由于时间段的限制，就要求经营者需要在凌晨时段就要到店并储备好相应的食材，且早餐品类普遍价格多为1—3元，一份早餐即便搭配饮料，也难超过10元，整体利润非常微薄。</p>
+<p>以巴比馒头为例，门店里的包子最低2元一个，即便巴比馒头的门店已经开了5000多家，每天能卖出几百万个包子，但整个2023年创下的营收也仅有16.3亿元，比起其他生意来说实在是称不上“性感”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_3c370f98614d402f968ff742e7959810@000000_oswg133330oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（巴比馒头产品定价）</p>
+<p>尽管巴比馒头已经做到了行业翘楚，一度也是资本市场的“香饽饽”，但单价低、竞争压力大等诸多问题依旧让巴比馒头难逃经营桎梏。</p>
+<p>2020年10月12日，巴比馒头母公司中饮巴比食品股份有限公司在上交所A股主板挂牌上市，股票简称“巴比食品”，上市首日其股价上涨44.03%，上市8天连续摘得8个涨停板。2024 年上半年，巴比馒头实现营业收入 7.64 亿元，同比增长 3.56%，增速并不明显。在二级市场表现上，相较于2020年最高点55.53元/股的价格，巴比食品的股价已跌去近7成，近半年来都在17元/股的价格带左右徘徊。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_50dc02f4aa664df6a54056fe57dc5961@000000_oswg138266oswg1080oswg1422_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（巴比食品股价表现平平）</p>
+<p>近年来，巴比馒头不断加大采用“中央厨房+门店网络模式”的经营模式，陆续在武汉、东莞等地建设“中央厨房”产能工厂，试图通过扩张门店创造出更多营收。但受制于供应链半径，巴比馒头重点扩张的地区还是在华东地区。</p>
+<p>为了寻求新的发展机会，巴比食品也在不断加大对预制菜的投入，研发、生产满足不同消费场景下的产品等。目前，除面点系列和馅料系列外，其预制菜系列曾推出以半成品菜为主的包括畜（猪、牛、羊）、禽（鸡、鸭、鹅等）、水产类、根茎菜类、串串类、调料包几大品类。此前，巴比馒头推出的螺蛳粉水饺一度受到不少年轻消费者的关注。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_377e12a782884476b8a760d530dbf1ea@000000_oswg65110oswg641oswg641_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（巴比馒头推出过的螺蛳粉水饺）</p>
+<p>此次进军汉堡界，无疑也是巴比馒头为了寻找新突破的又一尝试。残酷的是，在巴比馒头还未出现亮眼的第二增长曲线之际，早餐主阵地上的竞争早已愈发激烈。</p>
+<p>除了本就以食品加工为主的品牌们在争夺市场外，一些本与早餐关联并不明显的新茶饮及咖啡品牌也开始做起了早餐生意。据公开资料，喜茶、奈雪、古茗、蜜雪冰城、M Stand、瑞幸等均上线过早餐系列。</p>
+<h2><strong>巴比馒头看中的汉堡生意，也陷入了价格战的瓶颈期</strong></h2>
+<p>相较于包子会受不同区域地区特色鲜明口味的影响，汉堡的区域性并没有那么高，相对标准化的口味让其更快实现扩张，这大概是巴比馒头试水汉堡生意的原因之一。</p>
+<p>另外，中式汉堡品牌“塔斯汀”近年来热度不断，颇受市场宠爱。2023年11月，据投资界消息，塔斯汀拿到包括红杉中国等投资方约70亿元人民币的融资。在“更适合中国宝宝体质”汉堡的欢呼声中，塔斯汀的日子过得十分滋润，也让不少消费品牌想要加入汉堡品类的心情十分难耐。</p>
+<p>相较于其他品牌，巴比馒头试水汉堡的时间已经有一些晚了。</p>
+<p>2023年4月，连锁餐饮品牌西贝就推出了试水店型“贾国龙中国堡”，用“空气馍+中式内馅”的特色，如加入本帮红烧肉、小炒黄牛肉、北京烤鸭、腊汁肉等，试图创新中式汉堡。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_db0082d59ef94b4b9783af6da0bd8628@000000_oswg79802oswg951oswg713_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（西贝推出的贾国龙中国堡）</p>
+<blockquote>
+<p>红餐大数据显示，从2022年8月到2023年1月，店名带有“中国汉堡”或者“中式汉堡”的快餐门店数量快速攀升，从1772家上升到3533家。据餐企老板内参报道，以“中国汉堡”命名、模式复制粘贴，山寨“塔斯汀”的商家大批量涌进，产品定位高度同质化。</p>
+</blockquote>
+<p>而被众多“中国汉堡们”围追堵截的塔斯汀，今年以来也显得有些力不从心了。</p>
+<p>根据餐里眼数据显示，截至2024年8月底，塔斯汀新开门店数量约为1300家，其中包含部分已签约门店，月均开店速度约为160家，相较于去年同期，塔斯汀拓店速度明显放缓。雪上加霜的是，“塔斯汀被爆吃出生鸡肉”等食安争议大大降低了大众对于塔斯汀的信任度。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_ec40217656d248c0928e208caf5df138@000000_oswg79627oswg1080oswg850_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（塔斯汀食安问题，图源微博）</p>
+<p>在市场供过于求的趋势下，价格战愈演愈烈，汉堡界的9.9元降价风也吹了好一阵子。</p>
+<p>今年8月5日，汉堡王中国宣布推出“9.9元时代”的汉堡，每周提供一款仅售9.9元的汉堡。此前，麦当劳推出“10元吃堡”活动，肯德基也推出了9.9元的汉堡，塔斯汀则在各大平台上架了包括14.9元两份汉堡在内的多个低价套餐。在社交平台上，不少消费者甚至分享了“一周穷鬼套餐”攻略，周一麦当劳，周二塔斯汀……</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241021/v2_ee8538e5823443e780ce1e25b76c73d8@000000_oswg2237646oswg1080oswg2190_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从巴比扒包目前推出的系列产品来看，无论是在口味或用料上都没有出现特别亮眼的创新点，其定价也处在目前整个汉堡圈的大众价格带内，也没有极大的性价比差异能够吸引消费者注意。且从巴比食品试水汉堡界的谨慎程度而言，似乎也并没有想要通过大开大合的扩张来引流的趋势。</p>
+<p>随着价格战、同质化竞争和成本压力的不断加剧，餐饮行业“增收不增利”愈发明显。对行业内浮沉多年的巴比食品而言，对于成为下一个“塔斯汀”似乎并没有太大欲望，这一轮试水或许也只是一直以来在谋求新发展方向上的小小尝试之一。</p>
+<p>毕竟，比起大刀阔斧地加速创新带来的风险，活下去才是当下最重要的事情。在巩固好基本盘并不断试图发掘一些新机会的战略布局下，“行稳致远”是巴比馒头给市场交出的答案。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA3MjU2Mjk3Mw==&amp;mid=2652895807&amp;idx=1&amp;sn=c66c9f356be1f7d6c93954942f297c1e&amp;chksm=85c8d5676d25a2d3bfd432a15f85a4cba001d3e1aa96190bc3f45c3c1b0110606482ebda74d9&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“电商在线”（ID：dianshangmj）</a>，作者：唐果，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002131507100037</guid><pubDate>Mon, 21 Oct 2024 19:01:00 +0800</pubDate></item><item><title>搬开牛市的“绊脚石”——大股东减持</title><link>https://36kr.com/p/3002149517228160</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>国庆节后两周以来，A股行情由节前的“快牛”转为震荡调整，上证指数也从超3600点回调至3300点附近。这一过程中，股东减持套现尤为活跃，其中来自上市公司大股东或董监高的减持案例也是频频出现。 </p>
+<blockquote>
+<p>据Wind数据显示，9月24日至10月21日，有307家上市公司宣布了股东减持结果，其中减持数量超10万股的有237家。而9月1日至9月23日则只有158家上市公司宣布股东减持结果，其中减持数量超10万股的有133家。 </p>
+</blockquote>
+<p>大股东减持是一种市场化行为，但是“门槛”过低的随意减持不可避免带来影响信心、打击股价的反馈，这种现象也随着股市行情的火爆受到越来越多的关注，并引发业内人士警惕。 </p>
+<p>中国政法大学教授刘纪鹏多次提到：近几年的股市大跌都跟大股东减持有关，2015年那次大跌之前，正是大股东减持的高峰期。他强烈呼吁监管部门出台规定，将大股东“契约减持”的后门堵上，让更多股民享受到股价上涨和公司成长的红利。 </p>
+<h2><strong>套现数千万，实控人加入减持“大军”</strong></h2>
+<p>野马财经检索发现，在9月24日至10月21日宣布减持的上市公司中，东鹏饮料（605499.SH）是其中减持金额较大的公司。 </p>
+<p>东鹏饮料股东天津君正创业投资合伙企业（有限合伙）（简称“君正投资”）是持有东鹏饮料超5%股份的大股东之一，近年来已多次减持，最近一次是在7月25日~9月24日期间，通过大宗交易和集中竞价方式累计减持东鹏饮料股份约436.45万股，占东鹏饮料总股本的1.0911%，<strong>减持均价约221.74元/股，减持金额约9.68亿元</strong>。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,599" src="https://img.36krcdn.com/hsossms/20241021/v2_fc36df1fd5134faba82316b431764d01@5888275_oswg1208912oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源： 罐头图库 </p>
+<p>东鹏饮料表示，<strong>上述被减持股份均为公司首次公开发行前取得的股份</strong>，<strong>且已于2022年5月27日解除限售并上市流通</strong>。 </p>
+<p>需要指出的是，<strong>7月25日~9月24日，东鹏饮料最高股价才175.56元/股，君正投资以221.74元的成交均价减持，明显高出市场价。</strong>但交易完成后，东鹏饮料股价就开始借势政策利好，一路上涨。9月24日~10月21日期间，东鹏饮料最高股价曾达到228.79元/股，截至10月21日，其收盘价为221.4元/股。 </p>
+<p><strong>君正投资在“减持计划”中曾表示，“减持合理价格区间”要按市场价格界定，但上述减持均价却高于减持期间内东鹏饮料的实际股价</strong> 。 </p>
+<p>此外，“野马财经”不完全梳理，9月24日至10月21日，<strong>个人股东中减持套现超4000万元的超过10人，</strong>其中 包括嘉友国际韩景华、孟联； 海利生物章建平等一致行动人； 华懋科技张初全； 力源信息高惠谊； 京投发展程少良； 百川股份郑铁江； 新产业的饶捷 等等。 </p>
+<p><strong>而这些套现千万的个人股东中，不乏实控人、高管或其亲属。</strong></p>
+<p>比如<strong>郑铁江就是百川股份（002455.SZ）实控人，其在10月10日减持955.76万股，成交金额约6919.7万元</strong>；新产业（300832.SZ）的饶捷减持60万股，成交金额约4575万元；威星智能（002849.SZ）实控人黄文谦减持440万股，成交金额约4127万元…… </p>
+<p class="image-wrapper"><img data-img-size-val="988,439" src="https://img.36krcdn.com/hsossms/20241021/v2_8035e36401144a07933dacf5eeaef1f8@5888275_oswg138197oswg988oswg439_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：公司公告 </p>
+<p>上述减持者中，饶捷是“家族企业”二代成员，她是新产业创始人、董事长饶微的女儿，今年35岁，现任公司总经理特别助理、董事,分管质量保证部和海外注册部。目前，<strong>饶捷持有新产业约2446.67万股，按新产业10月21日收盘价67.29元/股计算，持股市值约16.46亿元</strong>。 </p>
+<p>2020年，饶微家族以128.1亿元财富位列《2020福布斯中国400富豪榜》第310位。今年3月25日，饶微个人以110亿元财富位列《2024胡润全球富豪榜》第2279位。 </p>
+<p>此外，随着行情的火爆，股东“频繁”减持的现象也有所增加。<strong>如广东榕泰股东肖健在8月27日~10月21日，累计减持21次，</strong>累计减持股份1751.88万股，Wind显示，其减仓参考市值约4359.06万元；9月30日至10月21日，<strong>晶赛科技总经理郑善发等5位高管合计减持公司股份29次</strong>，<strong>晶赛科技9月30日最低股价16元/股，10月21日最高股价48.2元/股，数日间股价已翻3倍。</strong></p>
+<p><strong>另外值得注意的是，有上市公司股东还铤而走险，违规减持。</strong></p>
+<p>10月8日，持有艾融软件（830799.BJ）超5%股份的股东孟庆有通过大宗交易转让了210万股，汪小清、孙肖文合计出资3700.8万元购买了上述股份，但二人仅做了艾融软件“一天”的股东，就在10月9日这些股份全部卖出，并获利数千万元。 </p>
+<p class="image-wrapper"><img data-img-size-val="901,435" src="https://img.36krcdn.com/hsossms/20241021/v2_ba71c1a2f169491b8c985e881d012be6@5888275_oswg54018oswg901oswg435_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：北交所官网 </p>
+<p>但根据《上市公司股东减持股份管理暂行办法》，上市公司大股东通过大宗交易或协议转让方式减持股份的，受让方在受让后6个月内，不得减持其所受让的股份。目前，监管层已责令汪小清、孙肖文购回违规减持股份并向上市公司上缴价差。 </p>
+<p>看来，汪小清、孙肖文还要把艾融软件股东的身份继续做下去。 </p>
+<h2><strong>股东、高管为何逢高就“减持”？</strong></h2>
+<p>股市火爆，更有一些股东趁机“清仓套现”离场。比如炬光科技（688167.SH）的股东张彤，从4月17日至9月25日，“清仓”了所持80.3万股，套现约3421.05万元。 </p>
+<p>除了个人股东，也有机构股东“清仓”。 </p>
+<p>万朗磁塑（603150.SH）的二股东——安徽高新金通安益二期创业投资基金，持股比例约8.42%，持股数量720万股。 </p>
+<p>而金通安益日前刚宣布，出于自身资金需求，最高减持720万股，但<strong>承诺减持价不低于发行价。</strong>按发行价34.19元/股计算，金通安益如成功减持将套现约2.46亿元。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,743" src="https://img.36krcdn.com/hsossms/20241021/v2_4832e8dbfcec4665b65d754ef0411a34@5888275_oswg1138663oswg1080oswg743_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源： 罐头图库 </p>
+<p>此外，杭叉集团（603298.SH）10月9日宣布，控股股东浙江杭叉控股股份有限公司（简称“杭叉控股”）宣布在公告之日起（即10月9日） 15 个交易日后的 3 个月内，减持公司股份不超过约2619.62万股，即不超过公司总股本的2%，减持价格根据市场价格。 </p>
+<p><strong>与上文中提到的大股东、实控人减持股份类似，杭叉控股拟减持的这部分股份也是在杭叉集团IPO之前取得</strong> 。此外，杭叉集团此前还被多位高管减持。 </p>
+<p>资料显示，杭叉集团是中国目前最大的叉车研发制造企业之一，实控人为仇建平。截至10月15日总市值约230.1亿元。值得注意的是，杭叉集团自10月9日宣布大股东减持以后，股价曾出现连续5个交易日下跌。 </p>
+<p>此外，和辉光电-U（688538.SH）则是国庆节后（10月8日至10月15日）<strong>被减持股份数量最多的公司</strong>，被减持股份约2.77亿股； <strong>通富微电则是被减持市值比较大的上市公司</strong> ，其股东计划减持4552.79万股。 </p>
+<p>从减持原因来看，大部分股东均因为自身资金需求而减持。但也有直接表示用于还债 ，比如 专注于“民爆”产品的山西壶化股份（003002.SZ）实控人秦跃中表示，<strong>减持股份用于偿还贷款及股权质押资金，计划减持600万股，占总股本的3%。</strong></p>
+<blockquote>
+<p>壶化股份自9月份至10月15日，股价已上涨195%，其9月2日收盘价10.4元/股，至10月15日收盘价为20.29元/股，市值已翻番至40.58亿元。 </p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,356" src="https://img.36krcdn.com/hsossms/20241021/v2_6c63ad2803f9455894f3a22a6b7fff8d@5888275_oswg165256oswg1080oswg356_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源： 罐头图库 </p>
+<p>香颂资本董事沈萌分析认为，A股长期受到预期压制，而在政策推动的短期反弹时，上市公司股东会认为是较好的减持机会窗口。他谈到，股市波动的两个核心影响因素，短期是资金增量，长期是业绩表现。目前除了政策带来的资金增量外，仍需更多有优秀业绩的上市公司支撑稳定增长的基础。 </p>
+<blockquote>
+<p>据Wind数据，国庆节后，从10月8日至10月21日，A股市场上宣布减持计划的股东主体为271个。其中，实控人、大股东、持股比例5%以上的股东主体有109个。 </p>
+</blockquote>
+<h2><strong>大股东“逢高减持”动摇信心，专家呼吁限制</strong></h2>
+<p>值得注意的是，大股东减持套现对信心的打击、股价的打压已经引起广泛关注。多位专家已经明确表态，希望健全制度，规范大股东所谓的“合规减持”、协议减持，维护流通股股东的权益，进而维护A股行情，塑造健康良性的股市。 </p>
+<p>知名财经评论员皮海洲表示，“上市公司大股东减持是一件让人头疼的事，<strong>只要股市上涨大股东就来减持。</strong>每一轮上涨行情，最后的赢家里必定有这些减持的股东，尤其是民营企业大股东的减持，不仅会从市场抽走大量的资金，更会对投资者的信心形成较大影响，应该出台一些规定来限制。 </p>
+<p>他认为，<strong>应该加大力度限制民营第一大股东持股比例，最多持股30%</strong>，<strong>且上市后其持有的20%股份不能直接上市流通，只能场外协议转让，不应该出现在二级市场交易</strong>。此外，他还建议，可以考虑出台政策限制大股东的减持比例、减持价格不低于发行价、上市公司首发股份占比不低于公司总股本的50%等规定，来进一步规范大股东减持现象。 </p>
+<p>展望A股从“快牛”向“慢牛”转变的支撑因素，皮海洲则认为，目前多部门已经给出了足够好的财政政策支持，在此基础上，“短期快牛”向“长期慢牛”的转变，需要上市公司良好的业绩来支撑，这就需要严控上市公司质量，现在A股5000多家上市公司，真正有优秀业绩的公司并不多，需要进一步调整、规范上市公司结构。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,621" src="https://img.36krcdn.com/hsossms/20241021/v2_0c41bfc98d4f457eaca0b3c44723e11b@5888275_oswg1119827oswg1080oswg621_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：罐头图库</p>
+<p>皮海洲认为，在政策层面上，已经有了支撑长期慢牛的基础，比如中国人民银行宣布创设的两项结构性货币政策工具，即<strong>“证券、基金、保险公司互换便利”和“股票回购增持专项再贷款”，</strong>这两项新的政策工具，<strong>首期可为股市带来8000亿元的资金，后期甚至能到1.6万亿元的资金</strong>，可大幅提升相关公司的资金获取能力和股票增持能力。 </p>
+<p>据Wind数据显示，<strong>9月24日至10月8日，A股大涨的这段时间内，股东减持单数多达341笔，平均每个交易日56.83单；仅10月8日一天公告出来的股东减持单数就多达89单，明显高出此前的减持数量。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,401" src="https://img.36krcdn.com/hsossms/20241021/v2_acb82960473a4a79b035c121372f7b39@5888275_oswg121794oswg1080oswg401_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：Wind数据 </p>
+<p>中国政法大学教授刘纪鹏注意到上述情况，他不禁发问：股市行情起来了，怎么爱护它？大股东逢高减持这个现象值得重视，要防患于未然。 </p>
+<p>曾经参与做过200多个上市公司股改融资上市方案的刘纪鹏提到，很清楚里面的三级放大过程。大股东拿的是非流通股，比如入股价格只有5毛钱，经过资产评估放大准备IPO，估值一下从5毛钱涨到1元~2元了，平均增值率50%以上。 </p>
+<p>“随后成功上市，抛到二级市场来减持，现在的平均股价我还没有统计，平均恐怕都得10元以上。”刘纪鹏表示，从5毛钱到10元，在“一股独大”的背景下，这些大股东就觉得这次股市上涨是很好的套现机会，要赶快减持，落袋为安，但是中国的股市承受不了这么海量的减持。 </p>
+<p><strong>但这其中的关键是股份“协议转让”，这是最主要的威胁。因为受让方在6个月后可以低于市场价20%的价格将其流通出去。</strong></p>
+<p>而这种机制不仅会增加市场的流通股数量，还会增加市场的不确定性，放大了信息不对称带来的风险，从而给市场带来巨大压力。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,565" src="https://img.36krcdn.com/hsossms/20241021/v2_42d45f0f0817424da1ffd340b807cd23@5888275_oswg953651oswg1080oswg565_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：罐头图库 </p>
+<p>协议转让也被称为是“契约式减持”，是A股市场最具争议的话题之一。更重要的是，契约式减持将大股东利益置于其他投资者之上，与资本市场公平公开的本质不符。 </p>
+<p>刘纪鹏认为，监管部门比较重视抓违规减持，但现在威胁最大的是协议转让。不用经过批准，<strong>大股东只要找几个“接盘侠”就可以了，有的大股东还自己成立公司，享受股价打8折，减持量都在1%以上，6个月后就可以像散户一样流动了，这种减持对“牛市”的威胁很大。</strong></p>
+<p>刘纪鹏还提到，A股“一股独大”的情况很普遍，第一大股东持股率50%以上，从30%到50%的控股比例之间，有20%的股份可以在二级市场倾销，它和把上市公司办好形成了激烈的冲突。 </p>
+<p>A股5000多家上市，本身就是成千上万中小企业、民营企业中的佼佼者，融到了上亿，甚至几十个亿的不用还本付息的钱，就应该认真的把上市公司办好。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,597" src="https://img.36krcdn.com/hsossms/20241021/v2_60b58e5699d74fc0bc5946ad755fd764@5888275_oswg918134oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：罐头图库 </p>
+<p>“该如何遏制住这种大股东的减持呢？”刘纪鹏说，<strong>一是“新老划断”，新上市的IPO企业，大股东持股一律控制在30%以内。</strong>超过这个比例的，上市前解决，可以到新三板去，也可以转给PE、VC。资本市场是培养的现代股份制公司，不是培养的家族“养老式”二代企业。 </p>
+<p>那么已经上市的5000多家公司怎么办？刘纪鹏建议：“<strong>首先，如果大股东要减持，分红给其他股东的金额要超过或等于IPO的融资金额；第二，大股东的减持价格不能低于发行价</strong>，因为按照大股东极低的入股成本算，可以低价减持大股东没有动力做好公司。 </p>
+<p>其次，<strong>就是大股东在二级市场上进行减持时，要跟流通股东协商，让流通股东代表表决、大股东回避，可以预设一个可流通底价</strong>，高于这个价格，大股东可以卖。大股东减持后，可能带动一部分流通股股东跟着卖，引发股价下跌，但股价下跌到预设底价，大股东就不能继续减持了，可以对流通股的股东权益负责。 </p>
+<p>总之，需要把制度性漏洞堵上，才能搬开A股“牛市”的绊脚石——大股东减持。 </p>
+<p><strong>你觉得有必要限制上市公司大股东减持吗？</strong> 评论区聊聊吧。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/K9RGsb7js5jSOOn1qeKwuQ" rel="noopener noreferrer nofollow" target="_blank">“野马财经”</a>，作者：野马财经，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002149517228160</guid><pubDate>Mon, 21 Oct 2024 19:16:00 +0800</pubDate></item><item><title>半世纪的“不死不休”，现在的英特尔竟要与AMD联手？</title><link>https://36kr.com/p/3002126187885696</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在半导体行业的史诗般竞争史中，英特尔和AMD无疑是最引人注目的一对竞争对手。</p>
+<p>他们的竞争几乎贯穿了整个个人电脑时代的发展史，但随着时代的变迁，这对老对手却意外地走到了一起，英特尔CEO帕特·基辛格宣布英特尔和AMD宣布组建X86生态系统咨询小组，共同捍卫x86架构的霸主地位。</p>
+<p class="image-wrapper"><img data-img-size-val="600,433" src="https://img.36krcdn.com/hsossms/20241021/v2_0e491d94620c45388cc6d58699fc52af@813924438_oswg244320oswg600oswg433_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这一合作不仅是两家公司历史上的一次重大转折，也对整个行业产生了深远的影响。</p>
+<h2><strong>英特尔与AMD半世纪的“恩怨情仇”</strong></h2>
+<p>近年来，英特尔与AMD一直都处在非常激烈的竞争之中，要说这两家半导体巨头对抗的开始，就要回到1970年代，当时英特尔推出了著名的x86架构，而AMD则作为其技术授权合作伙伴，开始生产兼容的处理器，不过，随着时间的推移，两家公司的关系逐渐紧张，竞争也变得越发激烈。</p>
+<p>一直以来，英特尔凭借其在处理器性能、核心数量、制程工艺和技术创新上的不断突破，长期占据市场主导地位。AMD则在多数时间里扮演着追赶者的角色，依靠性价比策略争夺市场份额。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241021/v2_04c936b75dba4f0894a10130ab7679ee@813924438_oswg1088296oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在技术竞争的同时，两家公司在专利和知识产权方面也发生过多次冲突。这些法律冲突不仅加剧了双方的敌意，也影响了整个行业的发展方向。最著名的法律纠纷之一是关于反垄断和不正当竞争的案件，AMD曾多次就英特尔的市场行为提起反垄断诉讼，指控英特尔通过不正当竞争手段限制了AMD在市场上的竞争。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241021/v2_e740d10c809944efbfe2c580a619a58d@813924438_oswg1120372oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在经历了长期的法律纠纷后，AMD和英特尔在2011年达成了一项历史性的和解协议，结束了双方长达多年的法律冲突。根据协议，两家公司相互交叉授权了一些专利，并放弃了彼此之间的专利侵权指控。这一协议使得双方能够将注意力重新集中在产品创新和市场竞争上。</p>
+<p>在市场竞争中，英特尔和AMD也进行了价格竞争，尤其是在消费级市场和低成本设备领域。英特尔的处理器通常被认为更稳定、易于使用，而AMD的处理器则以其可超频的特性吸引了一部分技术爱好者。</p>
+<p>科技旋涡认为，此前英特尔与AMD的竞争更多是出现在x86架构能“只手遮天”的时代，但随着移动设备和AI时代的到来，ARM架构逐渐崛起，成为x86架构的强劲竞争对手。这一变化迫使英特尔和AMD重新审视自己的市场策略，以应对来自ARM、RISC-V架构的挑战。</p>
+<h2><strong>保卫x86架构，也保卫自己</strong></h2>
+<p>当下，苹果和高通等公司推出的基于Arm架构的芯片，以其优异的性能和功耗表现，逐渐侵蚀了x86在移动和嵌入式市场的份额。面对这一共同的威胁，英特尔和AMD意识到，只有联合起来，才能更好地维护和发展x86生态系统。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,649" src="https://img.36krcdn.com/hsossms/20241021/v2_a4597bf490434953b0c4fce54bfb6d32@813924438_oswg1013478oswg1080oswg649_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2020年，苹果开始转用自研的基于Arm架构的M系列处理器，凭借着自研自用的先天设计优势，换来了性能、功效和成本的领先。短短两年时间，英特尔就完全失去了Mac处理器的业务，不仅如此，苹果的策略也给了高通信心。</p>
+<p>2023年，高通正式发布了骁龙X Elite笔记本芯片，其强大性能与能效不仅压倒了英特尔的酷睿9，甚至还超过了苹果自己定制的M3处理器。骁龙X Elite处理器更实现了生成式AI落地终端，为之后与微软合作推出Copilot+ PC奠定了基础。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,546" src="https://img.36krcdn.com/hsossms/20241021/v2_ddc0a648795049138751a63048372345@813924438_oswg362068oswg1080oswg546_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>今年的AI PC大潮是Arm架构处理器真正冲击Windows笔记本的最好时机。这也让人感觉到x86架构受到了更大的冲击。</p>
+<p>帕特·基辛格表示：“今天也许是英特尔和AMD史无前例地首次合作。有些人说，X86时代已经结束了吗?我要告诉你们，关于「死期」的传闻被严重夸大了，我们还活着，而且活得很好，X86正在蓬勃发展。”</p>
+<p>AMD董事长兼CEO苏姿丰随后也表示，合作所努力的方向是加速计算能力的发展，以及推动计算技术的广泛应用。</p>
+<p>这个生态系统咨询小组汇集了来自整个生态系统的领导者，旨在塑造X86的未来，简化软件开发，确保互操作性和接口一致性，并为开发者提供标准的架构工具、指令集以及对未来的清晰展望。</p>
+<p>除了Arm架构的崛起，RISC-V开源指令集架构也在迅猛增长，不仅逐渐被主流操作系统支持，更是受到渴望突破的中国科技行业欢迎。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241021/v2_8c30fa9b4a414bbb9e618208c2ef335a@813924438_oswg944252oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>RISC-V架构的主要贡献者、SiFive的联合创始人兼首席架构师阿萨诺维奇(Krste Asanovic)更是预言，RISC-V架构没有性能天花板和应用限制，能够拥有更好的处理器和生态系统，有望在未来三年超越传统架构。</p>
+<h2><strong>两家合作的价值</strong></h2>
+<p>英特尔和AMD的合作，标志着两家公司从单纯的竞争对手转变为合作伙伴。这种转变不仅有助于双方在技术上的互补和协同，也为整个行业的发展带来了新的机遇。</p>
+<p>通过合作，英特尔和AMD的合作将加速x86架构的创新步伐，尤其是在人工智能、3D封装和芯片组的时代。通过合作，两家公司将共同推动x86架构的定制化、扩大化和可拓展化，以适应AI时代的需求。这将有助于x86架构在未来计算领域保持其核心作用，并继续作为行业标准引领行业发展。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,605" src="https://img.36krcdn.com/hsossms/20241021/v2_446de8cd6b2048dd87064ccda091e20a@813924438_oswg819499oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而且，双方合作将至少对x86 ISA(指令集架构)的新增和修改内容进行标准化，包括一些已经在进行中的简化工作。这将增强客户在硬件和软件之间的选择和兼容性，加快他们从新的尖端功能中受益的能力。同时，这也将简化架构指南，以提升英特尔和AMD的x86产品系列在软件一致性和接口方面的表现。</p>
+<p>整体来看，英特尔和AMD的合作为行业未来带来了积极的影响，不仅推动了x86架构的创新和发展，也促进了行业标准化、兼容性和安全性的提升。同时，这种合作还有助于维护x86生态系统的竞争力，推动良性竞争和市场优化，以及开启行业合作的新篇章。</p>
+<p class="image-wrapper"><img data-img-size-val="889,500" src="https://img.36krcdn.com/hsossms/20241021/v2_fe1bc7d837ad48ecb3591d83eb359102@813924438_oswg732666oswg889oswg500_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>科技旋涡认为，尽管英特尔和AMD在x86架构上的合作为行业带来了新的希望，但未来的路仍然充满挑战。ARM架构的崛起、新兴的AI和机器学习技术的发展，都对x86架构提出了更高的要求。英特尔和AMD必须不断创新，提升x86架构的性能和效率，才能在激烈的市场竞争中保持领先地位。</p>
+<h2><strong>写在最后</strong></h2>
+<p>总之，英特尔和AMD的合作是一个时代的标志性事件，它不仅体现了两家公司的远见和胸怀，也为整个半导体行业的发展提供了新的思路和方向。在未来的发展中，我们期待看到更多类似的合作，共同推动科技的进步和创新。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/loJRUUWktO5c1iNe0AEE5A" rel="noopener noreferrer nofollow" target="_blank">“科技旋涡”</a>，作者：元时文化，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002126187885696</guid><pubDate>Mon, 21 Oct 2024 19:17:00 +0800</pubDate></item><item><title>“贬低”中国电动车火出圈，长城魏建军是危机意识还是自我掩饰？</title><link>https://36kr.com/p/3002118230373505</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>自从长城魏建军从幕后走到台前，每次发言都能引起广泛热议，近日他在采访中不仅给中国汽车出海的整体表现打3分(满分10分)，还直言中国电动车没有什么核心技术，只有算法和产业链领先。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,701" src="https://img.36krcdn.com/hsossms/20241021/v2_4620a9882eb340179e93f4231544b655@813924438_oswg492229oswg1080oswg701_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此番言论一出便引发热议，有人认为长城自身“卷”不过其它车企，没有资格评价中国新能源车整体，也有人认为他是有人赞誉他是车圈的“呐喊者”，那么你怎么看呢?</p>
+<h2><strong>魏建军有多敢说?</strong></h2>
+<p>近日，长城汽车董事长魏建军在采访中围绕中国汽车行业的价格战、质量战、行业造假现象、中国汽车出口等多个话题发表了自己的看法。</p>
+<p>最近几年价格战一直是中国汽车市场挥之不去的阴霾，所有车企都陷入其中，国内已经有超过20家车企倒闭。在魏建军看来：过去十年有多家汽车品牌倒闭，消费者遇到了巨大的损失，保值率下降，车辆后续的保养维修也是问题，价格战的后遗症还将持续六、七年，带来的杀伤力是毁灭性的。</p>
+<p class="image-wrapper"><img data-img-size-val="700,2005" src="https://img.36krcdn.com/hsossms/20241021/v2_9705c4863ffa4edcb4019c08b6246294@813924438_oswg994376oswg700oswg2005_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>魏建军还提到，“新车价格一再降低，这听起来似乎利好消费者，但超出常规的降本，逼得一些厂家偷工减料，甚至造假，一旦引发质量危机，最终要由消费者买单。”</p>
+<p>事实上，汽车产品的开发流程复杂且漫长。每一款新车上市前都经历两次冬标，一次夏标，以及耐久性、稳定性、NVH等大大小小数千个项目的严苛测试。然而，随着竞争加剧，车企的开发流程不断缩短，各个零部件为了降本也开始降低要求。虽然少有大问题出现，但小毛病持续不断，最终伤害的，不仅是踏实做事的车企，更多的是为其买单的消费者。</p>
+<p class="image-wrapper"><img data-img-size-val="947,501" src="https://img.36krcdn.com/hsossms/20241021/v2_923380e7399742e1ac4b3d1ac2aef6e1@813924438_oswg208169oswg947oswg501_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>广汽董事长曾庆洪在今年的中国汽车重庆论坛上痛批价格战，他认为“企业目的是盈利，为国家做贡献。我们应该有大局格局，长期主义，而不是眼前去‘卷’。没有效益企业不可生存。”</p>
+<p>吉利副总裁杨学良也深有同感：“不打简单粗暴的价格战，要打高质量价格战，还要打技术战、质量战、服务战、品牌战，还有企业的道德战。”</p>
+<p>中国汽车流通协会日前发布报告称，价格战致使新车市场在1-8月损失1380亿元。更触目惊心的是，1-8月，我国汽车行业利润率仅4.7%，低于下游工业企业利润率6.2%的平均水平。</p>
+<p>科技旋涡认为，魏建军的这番话可谓一针见血的指出了车企盲目内卷所引发的各种乱象，正如曾经的恒大一样，虚假的繁荣很可能造就难以挽回的局面。</p>
+<h2><strong>国产新能源技术没优势?</strong></h2>
+<p>魏建军在采访中还表示，“传统内燃机技术，我们肯定不如国外品牌;如果说电动车，人家也不是没有技术，只是没有这个战略。我们中国的动力电池，原始发明技术都是美国的，起源于日本，让韩国人发扬光大。但电动车的产业链是中国最好，我们中国电动车只有这一点领先;剩下的什么电机、电控、我们用的这些芯片是美国的，不过我们的算法做的很好，这点是我们应该鼓励的。”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,516" src="https://img.36krcdn.com/hsossms/20241021/v2_f7aca67143a34c4fa5e88f5a22ecb719@813924438_oswg245709oswg1080oswg516_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>对此，中央电视台、中央人民广播电台、凤凰卫视评论员、飞象网创始人项立刚，痛批长城汽车董事长魏建军，说他贬低中国电动汽车的核心技术，其实就是为了掩饰自己的无能。自己做不好企业，却拉上整个同行。</p>
+<p>中国的新能源汽车真就除了供应链与算法外没有核心技术了吗?</p>
+<p>小鹏汽车于2020年底开始招募芯片团队，今年8月27日小鹏汽车首次对外全面展示了其构建的小鹏AI体系，震撼发布了“小鹏图灵”芯片以及全新一代“AI鹰眼视觉方案”等前沿技术成果。“小鹏图灵”芯片是一款专为端到端大模型设计的定制芯片，在8月23日成功完成了流片。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,522" src="https://img.36krcdn.com/hsossms/20241021/v2_48ca669fc4f946d79e1afe59c169e0e0@813924438_oswg252227oswg1080oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>踏上自研芯片道路的不仅仅是小鹏，在2024蔚来科技创新日(NIO IN)上蔚来创始人、董事长、CEO李斌宣布蔚来神玑NX9031已经流片成功。理想汽车也正加快自主研发智能驾驶SoC芯片的步伐，预计将在今年年底前完成流片。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,510" src="https://img.36krcdn.com/hsossms/20241021/v2_afb5902235d3453a8056937b974f7ceb@813924438_oswg580555oswg1080oswg510_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2021年开始，在芯片领域，比亚迪先后投资了近80家企业，其中近1/3的企业都是芯片半导体相关领域，涵盖AI芯片、智能驾驶芯片、碳化硅外延芯片、半导体器件等细分赛道。</p>
+<p>同样是投研一体的小米汽车，凭借手机时代的技术积累，也在自研芯片领域取得成效。从2014年开始研发至今，小米已经推出了多款自研芯片，并逐步扩展到汽车芯片领域。</p>
+<p>另外，在新能源汽车的核心技术中，还有项立刚提到的智慧底盘。华为、吉利、比亚迪等车企一直在持续加码智能底盘赛道，8月昊铂最新发布的智慧数字底盘技术，融合电子差速锁、无需四电机，实现虎式调头、原地起跳15cm等功能，车能完成随音律舞动、四轮凌空跳绳等动作。去年底蔚来发布新车ET9，也宣布搭载集成了三大核心硬件系统的全线控智能底盘。</p>
+<p class="image-wrapper"><img data-img-size-val="852,398" src="https://img.36krcdn.com/hsossms/20241021/v2_32929b9d97ec48ddb22e451127b91db9@813924438_oswg317618oswg852oswg398_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>正如项立刚所说，中国的电动汽车不仅在电池方面有核心技术，而且在智能驾驶、智能座舱、智能车灯、智慧底盘等方面都拥有核心技术，并且还是全球领先。所谓的供应链就是这些核心技术支撑起来的，根本不存在什么没有核心技术，却拥有强大的供应链。</p>
+<p>科技旋涡认为，中国电动汽车到底有没有核心技术，其实这是毋庸置疑的，不然那些传统汽车大厂例如大众、奥迪也不会与国产车企合作，这不仅代表着他们对中国市场的重视，同时也意味着对中国电动车技术的认可。另外，从长期主义的发展视角来看，中国汽车技术和文化自信自强的发展的过程中，固然需要这样的危机意识和理性思考，但技术的发展和优势的扩大需要更多的时间与积累，而不是一味的反思与“打压”。</p>
+<h2><strong>车圈老将的坦率与“贬低”</strong></h2>
+<p>有人认为魏建军的采访中“贬低”中国电动汽车没有核心技术，是为了掩饰自己的无能。事实真的如此吗?</p>
+<p>2024年第一季度，长城新能源车累计销量不到6万辆，仅占整个长城汽车总销量约20%，跑输大市。</p>
+<p>长城汽车9月份的销量数据为10.84万台，同比下降10.88%，这已经是连续第五个月销量下滑了。目前累计销量85.38万台，同比下降1.18%距离年初制定的190万辆销量目标相差甚远。</p>
+<p>长城汽车目前的品牌矩阵：哈弗、魏牌、欧拉、皮卡和坦克五大品牌。产品覆盖SUV、轿车、皮卡、MPV四大品类，动力系统包括传统动力和插电式混动、纯电、氢能等新能源动力。</p>
+<p>坦克品牌上半年销量占比从去年同期的10%提升到20%，成了长城汽车规模和利润的主力。但是9月份坦克销量为1.9万台，同比涨幅只有3.8%，勉强维持住增长。而哈弗、皮卡和欧拉三大品牌，早已陷入负增长困境。</p>
+<p class="image-wrapper"><img data-img-size-val="512,341" src="https://img.36krcdn.com/hsossms/20241021/v2_7aa8642d5f97401e8c605abe074a7412@813924438_oswg256075oswg512oswg341_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>欧拉上半年累计销售31749辆，同比减少32.87%。在这个“以价换量”的市场大环境下，长城汽车选择了坚守利润，停产黑猫、白猫车型，但这也“背刺”了主要的女性用户。</p>
+<p>今年10月，长城汽车旗下标榜“更爱女人”的品牌欧拉(ORA)，发布了一则重要应用迁移公告。公告显示，“欧拉ORA”App预计将在2024年12月底正式停止运营，而后续所有相关服务将全面迁移至“长城汽车”App。欧拉这番操作完美踩中了女性用户的“雷点”，因为她们觉得长城App无论是图标还是应用设计都“丑爆了”!甚至还有因此想换车的。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1203" src="https://img.36krcdn.com/hsossms/20241021/v2_42a7f8355061481d9790743ad9bd05ad@813924438_oswg451575oswg1080oswg1203_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>根据乘联会数据显示，2024年有多家汽车品牌销量下滑超过10%，而其中以雪佛兰-61%，哪吒汽车-42%，欧拉汽车-33%三家下滑最大。而长城汽车今年9月份的产销数据显示，欧拉品牌9月销量为5,486辆，同比下滑45.25%。</p>
+<p class="image-wrapper"><img data-img-size-val="640,332" src="https://img.36krcdn.com/hsossms/20241021/v2_a542a7f2ea7d4de58f97653cd52ce06d@813924438_oswg184204oswg640oswg332_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>曾经的“国民神车”哈弗H6，创下过超百个单月销量冠军纪录，今年上半年哈弗品牌销量仅为29.7万辆，同比仅增长0.17%。</p>
+<p>但长城也并非坐以待毙，无论是从产品还是魏建军带头改变营销策略，都在努力改变“掉队”的局面。</p>
+<blockquote>
+<p>长城汽车2024年上半年业绩报告显示，公司实现营业收入914.29亿元，同比增长30.67%;归属于上市公司股东的净利润为70.79亿元，同比大幅增长419.99%。得益于海外销售增长、国内产品结构进一步优化，上半年毛利达到189.62亿元，毛利率提升至20.74%，同比增加3.89个百分点。</p>
+</blockquote>
+<p>摩根大通也于近日宣布，上调对长城汽车的A股和H股评级到超配。花旗在9月底就发表了相关研报，把长城汽车H股的目标价，从17.5港元上调到20.2港元，维持“买入”评级。</p>
+<p>产销快报显示，智驾版全新蓝山9月共销售6108辆，同比大增201.48%。9月9日到15日，全新蓝山登顶大六座SUV销冠，单周销量几乎赶上老款蓝山一个月的销量，成为长城冲击国内市场的主力之一。</p>
+<p class="image-wrapper"><img data-img-size-val="690,973" src="https://img.36krcdn.com/hsossms/20241021/v2_1d9f6616693c4e708d89ea79620497c0@813924438_oswg200368oswg690oswg973_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>再回到魏建军本人，作为一位有着34年从业经验的车圈老将，魏建军清楚地了解到，现阶段是中国汽车走向世界的关键节点，其重要性不言而喻。在他看来，汽车不止是产品，更是关乎消费者福祉与国家工业强盛的事业。</p>
+<p>从魏建军对于中国车企未来发展的思考，我们不难发现，魏建军不仅拒绝做沉默的大多数，公开直击产业发展痛点，对于中国汽车现有的成绩、差距，和对未来将要面临的挑战都保持着清醒的认知。</p>
+<p>科技旋涡认为，魏建军作为车圈唯一一位在任时长达到34年的掌舵人，经历过中国汽车发展的至暗时刻，也攀上过中国品牌的销量巅峰。在采访中所说的话看似是对中国新能源车企的“打压”实则确实站在国家与消费者角度的担忧，他的话没错，只是不够全面，缺少了一些对中国新能源车企的信心。</p>
+<h2><strong>写在最后</strong></h2>
+<p>中国车企不仅仅是在参与一场商业竞争，更是在为国家支柱产业走向的未来铺路。我们希望中国新能源车企能够集体向特斯拉冲击，抱团争夺全球的市场份额，反省与思考是对的，但与此同时也要多一些信任与信心。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/YKeZqgP1VL9VpxxACZt-Sg" rel="noopener noreferrer nofollow" target="_blank">“科技旋涡”</a>，作者：元时文化，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002118230373505</guid><pubDate>Mon, 21 Oct 2024 19:18:00 +0800</pubDate></item><item><title>我们很少用到的 Apple Pay，为什么对苹果这么重要？</title><link>https://36kr.com/p/3002154642454663</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>Apple Pay 十岁了。 </p>
+<p>2014 年秋季的 iPhone 6 的发布会上，苹果推出了 Apple Pay。当时库克引用了纽约时报对「手机支付」市场现状的描述，表示「移动钱包的构想已经存在了很久，但从未实现」，苹果准备改变这一点。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,596" src="https://img.36krcdn.com/hsossms/20241021/v2_eef2bc2332d84d91920e850be5405fb6@5888275_oswg525402oswg1080oswg596_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">2014 年，苹果随 iP hone 6 一 起推出了 Apple Pay｜Apple </p>
+<p>同样是在 2014 年，国内移动支付的革命也一举打响。这一年春节，微信支付接入了滴滴打车，并通过「微信红包」一夜间笼络了数百万用户。事后马云将这一事件比喻为「偷袭珍珠港」，支付宝和微信自此开启了一段针锋相对的竞争期。</p>
+<p>等到 2016 年初，Apple Pay 正式落地中国时，「扫码支付」已遍地开花，当时很多人都意识到，扫码的大势已难以阻挡，因此并不看好 Apple Pay 在国内的落地发展。 </p>
+<p>十年过去了，Apple Pay 的确没有成为国人日常支付的首选方式，但它依然在世界范围内取得了巨大成功。今天它不仅可以「支付」，还通过拓展公交卡、门禁卡、车钥匙等多个场景，让「钱包」App 成为了苹果生态矩阵的关键一环。 </p>
+<p>回顾 Apple Pay 的十年，它的技术基底其实并不复杂，就是 NFC 芯片加上生物识别认证。<strong>但整个移动支付革命一次次证明，简单的技术加上正确的产品思考，就可以提供好的用户体验</strong>。 </p>
+<p>而服务于用户，才是技术发展最重要的主旋律。</p>
+<h2><strong>01 用「老技术」做「新产品」</strong></h2>
+<p>在 Apple Pay 之前，「电子钱包」的构想由来已久。 </p>
+<p>Apple Pay 所使用的 NFC（近场通讯）技术，早在上世纪 80 年代就已经被提出。80 年代后期，索尼基于这一构想，开发了 FeliCa，一种非接触式 IC 卡技术。<strong>1994 年，FeliCa 最早商用于香港的八达通卡，之后被应用于日本铁路公司 JR 的 Suica 西瓜卡。</strong></p>
+<p>00 年代，FeliCa 以及类似的 IC 卡技术，已经在东亚全面普及。公共交通公司纷纷发行了自己的公交卡，也开始围绕公交卡打造自己的小额支付生态。特别是在日本，便利店、小餐馆、自动贩卖机，都支持了公交卡支付，香港、台湾也均出现了类似的业态。 </p>
+<p>2006 年，JR 东日本推出了「Mobile Suica」，将 FeliCa 芯片植入手机，用户利用手机上的 Java 应用就可以充值，并通过刷手机乘火车、公交，买东西。那是 iPhone 还未诞生的功能机时代，比 Apple Pay 早了 8 年。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,594" src="https://img.36krcdn.com/hsossms/20241021/v2_d4e28dba68684d44b690de1b4c187a55@5888275_oswg248697oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">JR 东日本于 2006 年推出的 Mobile Suica｜JR 东日本 </p>
+<p>这段时间里，行业已充分认识到 NFC 技术用于「授权支付」的优势所在，所以早期的智能手机，特别是安卓机，基本都内置了 NFC 芯片。但问题在于，要怎么用？美国和亚洲不一样，美国没有发达的公共交通，大部分人常用的支付方式是信用卡。 </p>
+<p>信用卡的历史比 IC 公交卡还要悠久得多，从上世纪 60 年代就开始普及了，完全没有电子化。早期的信用卡只通过「卡号 + 姓名」来进行授权，后来出现了磁条卡，可以通过电脑读取，但依然是前互联网时代的技术。 </p>
+<p>围绕信用卡的支付生态在美国过于稳固，想要将它推倒重来几乎不可能，只能在它的基础上寻求改良。就是从这里，苹果找到了 Apple Pay 的核心密码：用 NFC 模拟信用卡。 </p>
+<p>Apple Pay 解决问题的方式很简单，苹果和银行、信用卡组织合作搭建了一个服务框架，<strong>苹果将用户的信用卡信息储存在 iPhone 上，每次刷卡支付，iPhone 都会「模拟信用卡」，发送一个信号到 POS 机，来进行「刷卡」</strong>。 </p>
+<p>对用户来说，Apple Pay 最大的优势在于便利，以前要拿实体信用卡、刷卡，出单后需要签名授权。但现在，只需要用 iPhone 认证指纹、人脸，之后靠近 POS 机就可以支付。 </p>
+<p>对银行和卡组织来说，Apple Pay 能增加信用卡的安全性，过去的实体信用卡，卡号和安全码等信息都是直接写在卡面上的，磁条卡里储存的也是明文信息，很容易被复制盗刷。通过 NFC 芯片，iPhone 可以对信用卡信息进行加密，再加上指纹、面容授权，几乎杜绝了盗刷的可能性。而在美国，大部分盗刷所造成的损失都是由银行承担，所以银行愿意以切一小部分手续费给苹果为代价，来完成这样一次「安全性升级」。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,675" src="https://img.36krcdn.com/hsossms/20241021/v2_2b61b9f5b25c48889ae1c4c3c11088dd@5888275_oswg48641oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">今天 用不同手机，或银行卡本 身支付，都是采用的类似的「无接触支付」技术｜Unsplash </p>
+<p>实际上，这套框架也并非苹果独占。 </p>
+<p>之后不久，包括谷歌在内的安卓厂商，都基于自己的硬件，推出了类似的手机钱包服务，用户可以把银行卡添加到手机里，用于刷卡。而银行也逐渐升级到了新的，自带 IC 芯片的银行卡，让实体卡也具备了「一挥即付」的能力。 </p>
+<p>根据市场调研机构的报告，今天在美国，有超过 85% 的商家支持 Apple Pay 支付，以及其他「无接触支付」的刷卡方式，传统的磁条卡 POS 机已逐渐被淘汰。 </p>
+<p>在国内，「刷卡支付」从未成为主流。2016 年 Apple Pay 刚刚落地时，银联也曾对它寄予厚望。但国内 POS 机的覆盖率低、信用卡持有率低的问题，依然没有改变。微信支付宝先是通过红包功能，成为了用户的「零钱包」，之后迅速普及的扫码支付，又为小商家直接省去了 POS 机的成本。 </p>
+<p><strong>但在这场移动支付革命里，智能手机依然站在舞台中心，是毫无疑问的主角。</strong>伴随着支付宝的「all-in 无线」，微信支付的成功，带动了整个移动互联网新一轮 O2O 的创业浪潮，从打车、外卖，再到新零售和新的电商革命，短短三五年时间，我们就迈入了一个「无现金时代」。</p>
+<h2><strong>02 再造一个「钱包」</strong></h2>
+<p>在最初发布 Apple Pay 时，库克说「接下来，我想聊聊一个全新的服务品类，钱包。未来，我们要取代钱包」 </p>
+<p>信用卡支付只是 Apple Pay 的第一步。 </p>
+<p>实际上，苹果早就意识到，通过 NFC 芯片，以及更多更丰富的近场通讯协议，可以催生出各种不同的服务，将传统的东西数字化。 </p>
+<p>苹果先盯上了公交卡，这是 30 年前，NFC 技术最初的应用领域。2016 年秋季，苹果首先在 iPhone 7 上采用了支持 FeliCa 的 NFC 芯片，实现了对 Suica 的支持。之后数年，越来越多的公交卡加入到苹果钱包的服务矩阵里，包括北京、上海等数十个城市的公交卡，香港的八达通，法国、美国、加拿大的公交系统。 </p>
+<p>2019 年，苹果与高盛合作，第一次推出了自己的信用卡，Apple Card。用户除了可以在钱包 App 里一站式管理消费、账单、还款，还能得到一张苹果设计的钛钢材质的实体卡。之后苹果又推出了类似于微信支付宝转账的 Apple Pay Cash，美国用户可以在 iMessage 里进行转账。 </p>
+<p>同样基于 NFC 芯片技术，苹果还在 iPhone 上加入了 POS 机功能，针对小商户，可以直接把自己的 iPhone 变成一台 POS 机，用于收款。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241021/v2_8f5a21b4181e46878d2e77b02175db27@5888275_oswg990592oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">苹果推出用 iPhone 作为 POS 机进行收款的功能｜Apple </p>
+<p>之后，苹果又针对门禁、车钥匙等场景，推出了对应的产品和服务。今天市面上有很多接入了 Apple Home 的智能门锁，都支持通过 iPhone 和 Apple Watch 的 NFC 解锁。而包括奔驰、宝马、比亚迪在内，多个品牌的超过 800 款车型，也都支持了 iPhone 车钥匙的功能，可以把车钥匙放在 iPhone 的钱包 App 里进行授权。 </p>
+<p>现在，苹果钱包拥有世界上最丰富的 NFC 授权生态，从酒店房卡，宿舍门禁，到迪士尼乐园的门票……<strong>苹果的确兑现了它最初的承诺，重新打造了一个「钱包」</strong>。 </p>
+<p>根据消费调研机构的数据，Apple Pay 在自己的主战场美国大约有 5580 万月活用户，全球总用户数约为 5 亿，全球每年的总交易额约为 6 万亿美元，为苹果创造的手续费收入约为 20 亿美元。 </p>
+<p>20 亿美元对苹果来说，不是特别大的数字，考虑到苹果一年的软件服务收入已接近千亿美元，Apple Pay 的手续费收入既不多，也没有很大的增长空间。它对苹果真正的意义依然在于「粘性」，信用卡、公交卡、门禁都是较敏感的功能服务，用户一旦把它们都放在了 iPhone、Apple Watch 的钱包里，形成了使用习惯，就很难再换其他品牌的手机了。</p>
+<h2><strong>03 Apple Pay 到底成功了吗？</strong></h2>
+<p>十年之后，很多人可能会觉得，Apple Pay 并没有成功。 </p>
+<blockquote>
+<p>不只是说在中国，Apple Pay 没有成为主流，即便是在世界范围内，Apple Pay 在整个线上支付市场，也仅占 14% 的市场份额，这个领域的领头羊依然是 PayPal，占据了约 47% 的市场。 </p>
+</blockquote>
+<p>但大部分人可能都忽略了，<strong>支付并不是一个「赢家通吃」的业务类型，它从一开始就不该被通吃，也不会被垄断</strong>。 </p>
+<p>当年 Apple Pay 推出时，支付宝和微信支付正处于针锋相对的竞争期，但十年过去了，不仅支付宝和微信没有「干掉」对方，反而是他们和银行搭建的交易清算流程，惠及了后来的很多产品。包括美团、抖音，推出推出了自己的支付服务。 </p>
+<p>「无现金社会」的概念，也从最初的「技术奇迹」，引发了更多思考，一些问题也因此浮出水面。比如此前因为扫码支付的普及程度太高，导致部分商家「拒收现金」的问题，之后被司法机关判定为违法。 </p>
+<p>又比如支付宝微信的实名制认证流程，导致去年很多外国人来到中国，无法顺畅地进行消费支付，所以今年央行发布了相关的「金融服务」，改善国内支付服务的便利包容性。 </p>
+<p>支付是社会的基础设施，任何企业都不应该将自己的发展目标放在单一的「市场份额」上，增加用户的选择面，提供更多便利，在优化和推动技术普及的同时顾及到少数群体，才是未来的发展主旋律。 </p>
+<p>对苹果来说，情况其实也一样，Apple Pay 历经 10 年发展，也有人认为苹果将 NFC 芯片仅用于自家钱包 App 的做法，是一种封闭、垄断。所以今年，在美国和欧盟的双重反垄断调查下，<strong>苹果已经宣布从 iOS 18.1 起，将开放 NFC 的「一触即付」功能，给第三方 App</strong>。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,719" src="https://img.36krcdn.com/hsossms/20241021/v2_2c14fdf7b9d1466d8690c425d2d76910@5888275_oswg593323oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">苹果开放 NFC 功能给第三方 App 后，支付宝迅速推出「碰一下」支付功能｜支付宝</p>
+<p>对此做出最快反应的是支付宝。 </p>
+<p>今年夏天，支付宝宣布正式推出「碰一下」，用户在收银付款、点餐等场景下，都可以用手机碰一下 NFC 标签，iPhone 就会直接弹出一个支付对话框，之后就可以进入 App 完成付款。不少用户都认为，这比扫码支付要更方便。 </p>
+<p>同样就在今年九月，淘宝对外宣布将接入微信支付。腾讯阿里之间持续了十年的「封闭」，到这里划上了句号。 </p>
+<p>关于未来的支付方式到底是什么样，或许答案从来都不是唯一的。 </p>
+<p>今天「支付支持」做得最好的国际化企业之一，可能是便利店 7-11，它们日本门店所采用的收银机器，不仅支持银行卡、Apple Pay、公交 IC 卡，也支持支付宝、微信扫码，日本本土的一些电子钱包产品，还支持现金的自动收银，顾客可以一次性把一大把不同面值的硬币丢进收银机，机器会自动算好一共投了多少钱。 </p>
+<p>这可能并不符合苹果所设想的「人人不需要带钱包出门」的未来，但关键在于，这是用户的需要。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/lFSe0hivRIHXZLZlAFCC8Q" rel="noopener noreferrer nofollow" target="_blank">“极客公园”</a>，作者：Jesse，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3002154642454663</guid><pubDate>Mon, 21 Oct 2024 19:22:00 +0800</pubDate></item></channel></rss>
