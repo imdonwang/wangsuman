@@ -1,193 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 22 Oct 2024 18:00:28 +0800</lastBuildDate><pubDate>Tue, 22 Oct 2024 18:00:28 +0800</pubDate><item><title>微软迎战Salesforce，将推10个新AI代理，下月预览Copilot Studio</title><link>https://36kr.com/p/3003413165208450</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>智东西10月22日消息，据CNBC报道，在周一于伦敦举行的微软“AI Tour”活动上，微软宣布将为其Dynamics 365系列业务应用程序推出10个新的AI代理（AI agents），并计划下个月发布利用Copilot Studio创建自主代理工具功能的公开预览版。</p>
-<p>这些新AI代理的发布标志着微软与美国云软件公司Salesforce之间的竞争再度升温。此次新品发布的时机正好在Salesforce全面推出其面向销售和服务领域的自主AI技术Agentforce之前。Salesforce已在9月推出了可配置的AI代理工具，并计划于10月25日正式上市。长期以来，微软和Salesforce在业界被传关系紧张，双方几乎在所有领域都展开了激烈的竞争。</p>
-<h2><strong>一、Copilot Studio公开预览，Dynamics 365新增10个AI代理</strong></h2>
-<p>在周一于伦敦举行的“AI Tour”活动上，微软宣布了一项计划，允许企业在Copilot Studio平台上创建自己的自主代理。Copilot Studio是微软Copilot的扩展平台，用户可以利用它来定制和构建Copilot AI代理。</p>
-<p>微软在5月首次宣布了AI代理计划，之后这些AI代理一直以私人预览的形式提供给部分用户。从下个月开始，这些代理将进入公共预览阶段，这意味着更多企业可以开始构建和使用自己的AI代理。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,380" src="https://img.36krcdn.com/hsossms/20241022/v2_8a41d50ea2d6490d961371fdc263e100@453363432_oswg188391oswg1000oswg380_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">微软副总裁查尔斯·拉曼纳 (Charles Lamanna) 表示AI代理将消除工作中的“平凡、单调”任务。（图源：Sipa US）</p>
-<p>除了在Copilot Studio中增加创建自主代理的功能外，微软还将在Dynamics 365系列业务应用程序中推出10个新的AI代理。微软Dynamics 365是一款集成的企业资源规划（ERP）和客户关系管理（CRM）应用套件，旨在帮助企业优化业务流程、提升客户服务并推动销售增长。</p>
-<p>这些AI代理可以在销售、服务、财务和供应链运营等多个领域自主完成任务，大致分为以下几类：销售，包括销售资格代理和销售订单代理，帮助确定潜在客户的优先级并自动处理订单；运营，例如供应商沟通代理和财务对账代理，用以优化供应链管理和财务流程；服务，如客户意图代理和客户知识管理代理，通过自动化案例管理和更新知识库来提升客户服务体验。</p>
-<p>此外，还有其他几种代理：财务调节代理用于准备和清理财务报告的数据集；账户对账代理实现交易的自动匹配和清算；时间与费用代理则负责时间录入、费用跟踪及审批工作流等任务。</p>
-<p>AI代理能够在无需监督的情况下执行一系列任务，充当虚拟员工。这项技术被视为基于大语言模型的AI从简单的聊天界面进化到更无缝地融入工作环境的一种进步。</p>
-<p>微软AI项目首席营销官贾里德·斯帕塔罗（Jared Spataro）在其博客文章中写道：“可以把代理看作是AI世界中的新型应用程序。每个组织都将拥有自己的代理群体，从简单的提示响应到完全自主运行。这些代理将代表个人、团队或职能部门执行和协调业务流程。”</p>
-<h2><strong>二、Copilot获60%财富500强青睐，Dynamics收入达65亿美元</strong></h2>
-<p>微软希望通过AI来推动其业务、产品和服务的增长，这些服务包括GitHub、Windows和Microsoft 365等。</p>
-<p>在周一的“AI Tour”活动上，微软宣布与英国政府签订了一项为期五年的合作协议，向英国公共部门提供其AI工具的使用权。根据与英国皇家商业服务局达成的协议，英国公共部门组织将能够使用Microsoft 365生产力套件、Azure云平台以及Microsoft 365 Copilot服务。Microsoft 365 Copilot是一个集成在Microsoft 365应用程序中的AI助手。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,523" src="https://img.36krcdn.com/hsossms/20241022/v2_804e88209f2a45308301e8cc36275d9b@453363432_oswg727942oswg1000oswg523_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">微软首席执行官萨提亚• 纳德拉（Satya Nadella）（图源：GeekWire）</p>
-<p>在活动中，微软现代工作和商业应用副总裁贾里德·斯帕塔罗（Jared Spataro）展示了一个由麦肯锡咨询公司开发的AI代理示例。这个AI代理能够解析电子邮件内容，查阅历史记录，并将邮件内容与行业标准术语进行匹配，然后确定下一步行动的最佳人选，并自动生成回复摘要。</p>
-<p>斯帕塔罗表示，公司只需使用自然语言而不需要编程语言就能开发这样的AI代理。他补充说，麦肯锡称这种技术的应用可使其交付时间缩短高达90%。</p>
-<p>当天，微软还指出，目前已有60%的财富500强企业采用了其Copilot技术。例如，美国电信公司Lumen Technologies通过采用AI辅助销售流程，预计每年可节省5000万美元；以电子消费品生产、工程技术服务和航空航天系统为主的跨国性公司霍尼韦尔 (Honeywell) 通过Copilot提升工作效率，相当于增加了187名全职员工。</p>
-<p>此外，在截至2024年6月30日的财年中，Dynamics产品和云服务为微软带来了约65亿美元的收入。这一数字仅占微软总收入（超过2450亿美元）的约2.6%。不过，Dynamics系列近年来实现了稳定增长：2023年的收入为54亿美元，2022年的收入为47亿美元。</p>
-<h2><strong>三、Salesforce推出AI代理平台，高层质疑Copilot在企业级应用中的效能</strong></h2>
-<p>微软与Salesforce之间的竞争历史悠久，而AI代理技术的推出再次点燃了两家公司之间的竞争。</p>
-<p>在上个月旧金山举行的年度Dreamforce大会上，Salesforce推出了名为Agentforce的新平台，该平台允许企业构建和运行自己的定制AI代理。Salesforce首席执行官马克·贝尼奥夫（Marc Benioff）在一档播客中提到，Salesforce可能是世界上最大的AI企业供应商，每周能够处理数万亿笔AI交易。</p>
-<p>在随后的采访中，贝尼奥夫公开批评了微软的Copilot AI技术，指责其让企业客户失望，并可能给客户的数据安全带来风险。此前，贝尼奥夫曾呼吁欧洲监管机构调查微软收购领英的交易，认为该收购违反了市场竞争规则。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,510" src="https://img.36krcdn.com/hsossms/20241022/v2_329e20eebd0e481a9592e537342d1ce2@453363432_oswg857341oswg1000oswg510_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Salesforce首席执行官马克·贝尼奥夫（Marc Benioff）（图源：GeekWire）</p>
-<p>Salesforce英国和爱尔兰首席执行官扎赫拉·巴赫罗洛卢米（Zahra Bahrololoumi）也对微软的Copilot AI助理提出了批评。她在本月早些时候接受CNBC采访时指出，这些Copilot AI助理主要通过微软Edge浏览器或电子邮件触发，未能连接到客户数据，也无法基于客户数据提供上下文支持。她质疑道：“这样的系统如何能够准确且负责任地代表一家公司呢？实际上并不能。”</p>
-<p>巴赫罗洛卢米还说道，在企业级的AI应用中，Copilot的作用有限。“我认为，在企业环境中，我们不会看到那么多的Copilot应用。我并不是说Copilot在其他用途上没有价值，但在需要自主计划、执行和采取行动的企业场景中，Copilot就显得不够了。”</p>
-<p>当CNBC就此联系微软时，微软并未对巴赫罗洛卢米的言论作出回应。</p>
-<h2><strong>结语：谁将赢得AI代理竞赛？</strong></h2>
-<p>微软正在加大对其AI代理技术的投资。借助Copilot平台的支持，未来销售、服务、财务和供应链运营等领域的生产力有望大幅提升，AI技术也在重塑创造性工作的未来。</p>
-<p>这场AI代理竞赛愈演愈烈，Salesforce和微软都在努力推动技术创新，以满足企业不断增长的需求。两家公司都在开发用于构建自定义AI代理的工具，但无论是Salesforce的Agentforce还是微软的Copilot代理，目前仍处于早期阶段。</p>
-<p>微软透露，通过Copilot Studio制作的AI代理运行的是“最新模型”。这些代理目前由OpenAI的“草莓”模型（即OpenAI o1）提供支持，尽管目前仍处于有限的私人预览阶段。随着微软的产品即将进入公共预览阶段，我们将能够更好地了解它与Agentforce的对比情况。</p>
-<p>最终，谁能在这场竞赛中胜出，取决于哪家公司能够更有效地整合和优化其AI工具，提供更高效、更安全的解决方案，并真正满足企业的需求。</p>
-<p>本文来自“智东西”，作者：汪越，编辑：漠影，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003413165208450</guid><pubDate>Tue, 22 Oct 2024 17:34:00 +0800</pubDate></item><item><title>微软制霸AI编程？GitHub被曝秘密开发Copilot专属API，“杀死”Cursor和一众Copilot开源替代</title><link>https://36kr.com/p/3003439944769289</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>近日，GitHub 被曝一直在悄悄地向 VS Code 引入新的扩展 API，但是这些 API 只能由其 Copilot 使用。</p>
-<h2>发生了什么？</h2>
-<p>VS Code 提供了一种发布新 API 的机制，称为“Proposed APIs”。这些 Proposed APIs 是一组尚未稳定的 API，它们在 VS Code 中已经实现，但不会像稳定 API 那样公开给所有用户。这些 API 可能会发生变动，目前仅在 Insider 版本中可用，并且不能在正式发布的扩展中使用。</p>
-<p>这是非常有意义的，因为 Proposed APIs 为社区提供了一种使用新 API、收集反馈以及快速迭代 API 的途径，同时不会破坏现有的稳定扩展。</p>
-<p>不过，开发者只能在开发模式下使用这些 API，不能将包含这些 API 的扩展发布到商店。“尽管你不能使用市场上的 Proposed APIs 来发布扩展，但你仍然可以通过打包和共享的方式与同行共享扩展。”VS Code 官网上 这样写道。</p>
-<p>然而，近日网友“kannthu”对 GitHub Copilot Chat 扩展进行了反编译，并查看了它的 package.json 文件，结果得到了以下内容：</p>
-<p class="image-wrapper"><img data-img-size-val="682,1141" src="https://img.36krcdn.com/hsossms/20241022/v2_4fa90ce8717a472c927d6ee6be210b09@5888275_oswg440877oswg682oswg1141_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“这是一个已发布且已启用 ApiProposals 的扩展。”kannthu 说道。</p>
-<p>“怎么可能呢？哦，对，他们是微软……”kannthu 表示，“这看起来像是一种反竞争策略。VS Code 的扩展 API 非常有限，这就是为什么像 Cursor 这样的初创公司选择分叉 VS Code 并直接应用更改的原因。GitHub 正在引入许多变化，这些变化也会使 Continue 等开源 Copilot 替代品受益，但他们只让自己使用。”</p>
-<p>VS Code 是微软在 2015 年发布的一个运行于 Mac OS X、Windows 和 Linux 之上的，针对编写现代 Web 和云应用的跨平台源代码编辑器，可在桌面上运行，并且可用于 Windows，macOS 和 Linux。它有对 JavaScript，TypeScript 和 Node.js 的内置支持，并具有其他语言和运行时扩展的生态系统。</p>
-<p>网友称，这并不是 VSCode 第一次这样做。</p>
-<p>网友“rty32 ”也在最近发帖称，“我发现 VSCode 有一组用于添加 SSH 隧道的 API，正常情况下，你必须使用特殊的标志启动 VS Code 才能使用它们。但不知为何，他们的内置 JavaScript 调试扩展竟然也能畅通无阻地使用这些 API。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,830" src="https://img.36krcdn.com/hsossms/20241022/v2_5fedc2907f944923bd377c67ceb18fac@5888275_oswg93742oswg1080oswg830_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“而且，你几乎找不到关于这些 API 的任何公开信息。除非有人问起——截至两年前，他们还没有计划‘最终确定’这些 API 并公开它们。建议你寻找其他解决方案。”“rty32 ”说道。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,401" src="https://img.36krcdn.com/hsossms/20241022/v2_520f3da626104762b9b6293967f18d31@5888275_oswg100594oswg1080oswg401_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2>前员工：微软有区分私有和公共 API 的文化和技术</h2>
-<p>对于微软的行为，网上也有两种不同的声音。</p>
-<p>网友 geoffreyhuntley 表示，“正如 Geoffrey Huntley 所说，一旦 VS Code 编译成 MIT 许可的其他版本时，生态系统就会以一种糟糕的方式分裂（商标），包括无法运行大多数微软的扩展（如语言 LSP、Copilot、远程开发）。如果你是生产 MIT 分支的供应商，那么你需要更新图表并说服第三方扩展作者不要将微软的扩展作为依赖项，而是在 open-vsx.org 上发布。”</p>
-<p>“这就是 Cursor 在中长期内受到破坏的原因。编码代理？很酷，但你不能将它与 Pylance 一起使用。VS Code 被降级为 notepad.exe。微软利用 Cursor 进行产品研究，然后将学习成果推广到 Copilot，因为只有 Copilot 支持用户期望的所有 VS Code 功能（这是有意为之的设计）。”geoffreyhuntley 说道。</p>
-<p>Cursor 是 VS Code 的分支。Cursor 代码编辑器一半是开发环境，一半是 AI 聊天机器人，将人工智能整合到了开发人员工作流程中的功能，目前备受开发者好评。这里的背景是，OpenAI 是 Cursor 的主要投资者，而是 OpenAI 的主要投资者。所以，有网友认为“微软也控制着（尽管不是完全控制）Cursor 的开发。”</p>
-<p>此外，也有网友表示，“每个人都将此解读为故意的反竞争行为。虽然这可能是真的，但另一个合理的解释难道不是 Copilot 开发团队正在尽可能快地行动、而变通办法则是以团队名义强行推行的吗？推广公共 API 需要花费更多的时间和精力，而且它可能与开发 Copilot 扩展的团队完全不同。”</p>
-<p>还有网友指出，其目的可能不是为了竞争，但“给予一个客户其他客户无法享受的特殊待遇仍然会具有反竞争性。”“大多数公司都有内部 API，这些 API 通常不可用。”</p>
-<p>然后，有自称曾在微软工作的开发者 Arainach 明确表示，“<strong>微软拥有区分私有和公共 API 的文化和技术，并在整个公司内检查代码以确保只调用公共 API。</strong>这是司法部同意并要求的数十年规定，公司的每一款产品都配有扫描工具，以检查它们是否使用了任何私有 API（或类似的黑客手段来访问它们，例如私下搜索 Windows DLL 文件中的符号）。这一点已经深入每个人的心中，包括我认为的目前公司 90% 的高级副总裁及以上人员，而且这已经持续了很长时间。他们这样做是有意识的反竞争决策。”</p>
-<p>当然，也有网友觉得这并不是什么事，“这并没有什么奇怪的，也不是那么糟糕。他们投入了时间、精力和金钱来开发 VS Code。它是开源的，所以如果你想使用这些 API，你可以在一个分叉版本中使用它们。当然，如果你正在开发一些每个人都能免费使用的东西，而且不强迫人使用它，我认为使用私有 API 没有什么问题。虽然有些人将其与 IE 浏览器类比，但两者并不相同，因为它并非预装在每台机器上，也不会强迫你使用它。因此，尽管它们确实拥有很大的市场份额，但它们也阻止不了你自行分叉或使用不同的编辑器。”</p>
-<p>实际上早在 2022 年，就有网友注意到，微软在 90 年代的反垄断调查中被指控，“Windows 系统包含了一些实用的 API，但微软对对此保密，仅供自己的应用程序使用，从而为它们在与竞争对手的竞争中提供了不公平的优势。因此，这可能意味着 Microsoft Word 比 WordPerfect 更出色，因为 Word 能够调用一些 WordPerfect 开发人员所不了解的、未公开记录的 Windows API 函数。”</p>
-<p>对此，网友“davidbak”表示，“微软文档中的“Windows 协议规范”部分起源于最初的欧盟诉讼。如果你查看保存这些规范的地点，就会发现微软最初发布的一组“秘密”API。我清楚地记得其中包含了一份详尽的 NT 本地 API 文档，这些 API 实际上是‘妥协’的产物。它们大多是内部团队使用的 API，例如 SQL Server 以及一些桌面应用程序，但 NT 团队并未将其公开，因为它们“不适宜”——这些 API 用于特殊情况，或难以正确使用，或者不能完成整个工作流程。各个项目团队通过各种方式（有时甚至是副总裁施压）说服 NT 团队提供这些 API 以完成他们的工作，但 NT 团队认为它们不适合公开使用和长期支持。当你查看这些列表时，原本以为会看到微软的绝密优势，但实际上却会感到失望和困惑。”</p>
-<p>也有网友指出，<strong>“不支持客户使用”并不意味着某种邪恶的秘密阴谋。</strong>“在我目前开发的软件中，有几十个这样的情况；它们没有记录下来，因为我把它们视为实现细节，而不是保证接口。”</p>
-<p><strong>参考链接：</strong></p>
-<p>https://retrocomputing.stackexchange.com/questions/25955/did-microsoft-really-reserve-secret-apis-in-windows?newreg=392a25a5992b43b2910e44e339cfb623</p>
-<p>https://old.reddit.com/r/ChatGPTCoding/comments/1g8xrub/microsoft_is_introducing_hidden_apis_to_vs_code/</p>
-<p>https://news.ycombinator.com/item?id=41907350</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/LtqpoO9plMLNFvXnX3xnXA" rel="noopener noreferrer nofollow" target="_blank">“AI前线”</a>，作者： 褚杏娟，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003439944769289</guid><pubDate>Tue, 22 Oct 2024 17:34:00 +0800</pubDate></item><item><title>大模型都卷麻了，米哈游为啥还来掺一脚</title><link>https://36kr.com/p/3003461452079111</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>大模型，又添一位新玩家。</p>
-<p>前不久，米哈游旗下大模型Glossa通过人工智能服务备案，将成为改善用户游戏体验的关键抓手。</p>
-<p>这意味着，米哈游想吃AI的红利。</p>
-<p>入局大模型，是米哈游的必由之路？“游戏+AI”，为何成为行业的共识？比拼AI硬实力，巨头们更占优？</p>
-<h2><strong>曝光度向上，未解增长乏力困境</strong></h2>
-<p>大模型赛道，愈发拥挤了。</p>
-<p>工业和信息化部的数据显示，我国人工智能核心产业的规模在不断提升，企业数量超过了4500家，完成备案并上线为公众提供服务的生成式人工智能服务大模型近200个，注册用户超过6亿人。</p>
-<p>不难看出，<strong>市场完全不缺大模型，甚至有了过剩的迹象。</strong></p>
-<p>此背景下，米哈游推出大模型Glossa，耐人寻味：作为二次元游戏的“一哥”，米哈游当下遭遇了肉眼可见的压力。</p>
-<p>《原神》出道之后，二次元成为最热的游戏细分赛道，米哈游也站上“风口”，一跃成为游戏行业的头部玩家，然而4岁的《原神》无论是热度或收入，都大不如前。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_e02e4ebd08bf42f3b8bac03f7df81d24@000000_oswg354735oswg1078oswg666_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">《原神》不复当年勇</p>
-<p>点点数据显示，2023年《原神》几次版本更新之后，月活跃用户数均在下滑，整体呈现下降的势态。</p>
-<p><strong>更为麻烦的是，米哈游的后劲值得商榷。</strong></p>
-<p>2023年，大多数二次元游戏折戟，唯一跑出来的是《崩坏：星穹铁道》，但《崩坏：星穹铁道》也未逃过高开低走的命运。</p>
-<p>交银国际的研报显示，2024年1月至8月国内流水排行前十位的移动游戏，米哈游占两款，《崩铁》排名第九，水同比下滑13%；《原神》排名第十，流水同比下滑52%。</p>
-<p>至于《绝区零》，虽然炙手可热，却并没有上演单骑救主的戏码。</p>
-<blockquote>
-<p>Sensor Tower的数据显示，在2024年9月中国App Store手游收入Top 20中，《崩坏：星穹铁道》与《原神》分别位列第十二和第十九，没有《绝区零》的影子；在2024年9月中国手游出海Top 30中，《绝区零》位列第六，位居《崩坏：星穹铁道》与《原神》之后。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_a2e4084655d64f3ea53c1bbb2ab43f6b@000000_oswg597023oswg1075oswg972_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">《绝区零》没有单骑救主</p>
-<p>“竞核”报道，《绝区零》推出之后，米哈游三款产品的合计营收并没有比2022年《原神》单款产品的营收高出太多，“我们能够发现，相同商业化和养成模式的产品给米哈游带来的增长已经逐步见顶，自家三款产品间互相争夺用户的情况愈发激烈”。</p>
-<p>与之对应的是，以《鸣潮》为代表的对手崛起。</p>
-<p>尽管《鸣潮》与《原神》《绝区零》等的差距肉眼可见，但打破了“唯有米哈游能打败米哈游”的信仰，成功让米哈游显出了“血条”，从而刺激对手们加码。</p>
-<h2><strong>“游戏+AI”，成为破局的胜负手</strong></h2>
-<p>于是乎，米哈游一边拓展产品线，意欲撕下二次元的标签；一边加码AI，试图通过重塑产品力来巩固基本盘。</p>
-<p>毕竟，AI已成为游戏不可或缺的一环。</p>
-<p>随着游戏红利慢慢消退以及市场竞争逐步升级，行业从拼增量走向抢存量，“游戏+AI”成为存量竞争的胜负手。</p>
-<p>皆因，AI革命进入突破性时代，赋能千行百业已不在话下，而游戏行业正是大模型天然的适用场景。</p>
-<p>巨人网络创始人史玉柱曾表示：“未来游戏行业出路在哪？我们内部研究下来，同时也是我们团队现在在筹备的，第一个就是‘游戏+AI’。”</p>
-<p>如今，拥抱“游戏+AI”已成为行业的共识，米哈游也未例外。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_9b9d7797ea71482a9d6fc7226fc76b24@000000_oswg162412oswg673oswg471_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：“网信上海”微信公众号</p>
-<p>2024年8月28日，米哈游创始人蔡浩宇公开表示：“AIGC将彻底改变游戏开发行业，这种现象完全展开只是时间问题。”</p>
-<p>之所以如此，背后的缘由有三。</p>
-<p><strong>一方面，开拓了玩法。</strong></p>
-<p>AI加持之下，游戏的玩法更为多变，可以进一步增加新鲜感与用户黏性。</p>
-<p>譬如，传统NPC是调用预设内容与玩家互动，对话呈现机械性，接入大模型之后迭代为“智能NPC”，宛如活人与玩家对答如流，从而有了更高的情绪价值。</p>
-<p>再譬如，传统组队依赖真实的社交，如若碰到靠谱的队友容易一帆风顺，而碰到不靠谱的队友则一言难尽，AI队友的出现完美解决了拖后腿的问题，让‌i人玩家获得满足感，降低了社交成本。</p>
-<p>东吴证券表示：“AIGC文本的成熟已催生出Character.AI、Glow、AI Dungeon等AI互动玩法应用，已具备文字冒险类游戏、乙女游戏的雏形，但玩法自由度远超传统游戏，随着AIGC图像、3D资产、代码等技术逐步成熟，有望产生更多AI原生玩法。”</p>
-<p>换而言之，米哈游渴望借助大模型，赋予产品更大的生命力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_2d218615cd5c4ec59f20aeaecdbc2dce@000000_oswg331831oswg1080oswg1262_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：B站UP主“日常失眠真君”</p>
-<p><strong>另外一方面，提高了效率。</strong></p>
-<p>以前，游戏产品长期存在高品质、高效能与低成本难以并存的问题，AI的出现打破了这个“不可能三角”。</p>
-<p>以《原神》为例，上线以来保持25天左右一个小版本、45天左右一个大版本的更新节奏，对内容制作的要求较高。</p>
-<p>对此，“海克财经”表示：“内容篇幅过长，创新难度自然随之提升。情节、人物设定等容易重复不说，玩家被拉高的期待值也很难回落，极易产生落差感。”</p>
-<p>而有了AI加持，提质增效更容易实现。</p>
-<p>腾讯公司副总裁张巍认为AI在游戏领域已经成为研发的标配：“我们在今年推出了新的自研AI引擎，具备3D图形、剧情、关卡等多种AIGC能力，能够让游戏场景制作、内容生成等领域的部分工作效率提升40倍以上。”</p>
-<h2><strong>竞逐大模型，还得比拼硬实力</strong></h2>
-<p>需要注意的是，借大模型之力重塑游戏，早已干得热火朝天，甚至行业腰部的一些企业也乐在其中。</p>
-<p>这其中，巨人网络为行业腰部的典型代表。</p>
-<blockquote>
-<p>巨人网络早在2023年就要求全体开发人员学习使用AI工具，以提高降本增效的力度，到了2024年发布了游戏AI大模型GiantGPT以及语音大模型BaiLing-TTS，涵盖AI绘画平台、UGC剧本创作工具、拟人化智能问答系统、AI原生游戏玩法等。</p>
-</blockquote>
-<p>尽管如此，重头戏还得巨头们来唱。</p>
-<p>大模型是一个相当烧钱的赛道，由于研发成本较高，如若覆盖面不足，则难以维系，因而唯有实力雄厚的互联网巨头才可以游刃有余。</p>
-<p>“AI产品在商业化落地上面临挑战，5%的重度用户消耗了85%的Token。”巨人网络AI实验室负责人丁超凡表示，“受限于目前的推理成本，我们很难面向所有玩家开放，如果要向全民开放，推理成本会是一个天文数字，而我们的产品必须考虑ROI（投资回报率）。”</p>
-<p>事实上，腾讯、字节跳动等在“游戏+AI”下了大功夫。</p>
-<p>以字节跳动为例，基于豆包大模型的火山引擎游戏AI解决方案，拥有大规模业务支撑能力，可以满足海量资源、高速响应、弹性调用等要求，可以帮助游戏厂商的相关AI需求。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_ffa0533d48224936806bafd1cec9d6da@000000_oswg344049oswg1080oswg420_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：“火山引擎”微信公众号</p>
-<p>此外，还可以调用与串联抖音、西瓜视频、今日头条等字节系平台的最新内容以及互联网公开内容，让“智能NPC”更为全面，不存在知识盲区。</p>
-<p>火山引擎泛互联网行业解决方案负责人江南表示：“为了让玩家感觉自己在跟活生生的‘人’在对话，会根据每款产品的具体情况，为豆包大模型进行许多细节层面的针对性调优。”</p>
-<p>从这个角度来看，<strong>米哈游押注大模型的解题思路没有错，只不过持续投入所消耗的人力、物力与财力较大，考验着管理层的智慧与耐心</strong>。</p>
-<p>那么，米哈游的“游戏+AI”之路，还任重道远。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkyNzMwMTc1OA==&amp;mid=2247516082&amp;idx=1&amp;sn=819ed00e04ce67b77855b5dffbadbfa7&amp;chksm=c37bb983ad85150dd6ffac2a618453f2f7c3a7c4cf413d7191181b270aea31056704bd0714c0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“锌刻度”（ID：znkedu）</a>，作者：陈邓新，编辑：李觐麟，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003461452079111</guid><pubDate>Tue, 22 Oct 2024 17:35:00 +0800</pubDate></item><item><title>在小红书“变废为宝”，她登上了涨粉榜TOP1</title><link>https://36kr.com/p/3003455056535303</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>小红书9月涨粉榜已出，我们先来一起看榜：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_abb7273558984e1dbb3a6ea1f28b838b@000000_oswg278284oswg750oswg3426_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>首先，从涨粉量级来看，<strong>9月博主们的涨粉数据明显低于上个月，</strong>考虑到奥运会的影响因素，这样的情况也是情理之中。具体来看，9月的涨粉冠军被手工博主@闫不闲 夺得，软装设计师+手工达人的双重身份，让其作品美观性和创意性兼具，持续吸引着用户的关注和效仿，上个月再次吸引了超44万新粉丝的关注。</p>
-<p>而在@闫不闲 之外，再无博主涨粉数超过30W，排在第二位的是剧情博主@刘一朵 。分析其账号内容，<strong>“反串+回忆杀”</strong>是最大的特色。视频中，主人公刘一朵虽然是一个壮汉，但扮演起“小女生”却是信手拈来，通过重现大家童年时期的趣味场景，达到搞笑目的的同时，也激起了很多观众心中的共鸣。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_9b809c43a3b44a6b836efccbf45fe061@000000_oswg104454oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：@刘一朵 小红书截图</p>
-<p>位列第三的是摄影博主@炫奇会拍照，9月共涨粉24.92万。该博主走的是摄影中一个比较细分的赛道，即教粉丝们如何用手机拍出精美照片，这个过程中参数怎么设、姿势怎么摆、后期怎么处理等，都能成为其账号的爆款内容，收获了一众粉丝的喜欢，也证明了这条细分赛道在小红书的广阔前景。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_33d13641a28b48f49c6f094d88d48680@000000_oswg123451oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：@炫奇会拍照 小红书截图</p>
-<p>余下账号中，还有五位博主涨粉数超过20W，另外12人涨粉量则均在10-20W区间，<strong>整体来看已经回落至全年平均水平。</strong></p>
-<p>从上榜账号类型来看，9月共覆盖了手工、剧情/搞笑、摄影、家居、美食、教育、明星、户外、游戏、服饰等垂类，除一向具有优势的剧情赛道外，各类型账号基本分布均匀，没有哪一类型表现出明显优势。</p>
-<p>值得关注的是，9月的涨粉榜中，有三个商家账号——@黄吉吉、@今天穿什么鞋、@范小洛 成功上榜。根据卡思的观察，这些账号发布的作品并没有特别突出的特色，多数内容是主播在讲解产品或直接展示商品，能够迅速涨粉，主要得益于他们长期坚持不懈直播。数据显示，<strong>这三个账号从每天早六点开始直播，一直延续至深夜，颇有些“日不落”直播间的意味，也因此获得了更多流量。</strong></p>
-<p>接下来，卡思将对9月涨粉榜中比较有特色的账号进行更深入的分析。</p>
-<h2><strong>@闫不闲：“变废为宝”成手工博主流量密码</strong></h2>
-<p>本月涨粉榜的第一名@闫不闲 在原本粉丝体量不大的情况下单月涨粉超过40W，无疑是一匹杀出的黑马，那么她是靠什么做到的？</p>
-<p>根据卡思观测，今年三月@闫不闲 发布了账号的第一条作品《闺蜜用卫生纸做了一束玫瑰花，太绝了吧！》，自此开始了自己给闺蜜做手工的日常。</p>
-<p>作为一个拥有5年软装设计师的手工达人，闫不闲有着很多的奇思妙想，<strong>擅长将各种“废品”改造成别有情调的家居摆件</strong>：用贝壳做烛台、把爱心面包做成时钟、用外卖盒组装樱花吊灯……在创意和手艺的加持之下，做出来的成品时常让人觉得眼前一亮，很符合小红书用户的审美和喜好。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_95219a6c5fad44609b29a58ec863841d@000000_oswg137917oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：@闫不闲 小红书截图</p>
-<p>而<strong>在美观与实用性之外，@闫不闲 的改造还有很强的可操作性。</strong>其作品用到的大多数材料都是生活中随处可见的“废品”，对它们进行改造的方式也只是剪裁、粘贴等没有难度的操作，普通人要是想进行复刻，不会遇到太多困难。</p>
-<p>再加上博主的作品都加上了“闺蜜给我做……”的字样，一生不服输的网友们，自然不会放过自己的闺蜜，评论区内@好友的人不在少数，这样的方式不仅给用户提供了情绪价值、增强了粉丝粘性，也在无形中提高了账号的互动数据。</p>
-<p>值得关注的是，@闫不闲<strong>不仅在专业技术上能力过硬，在视频的制作和呈现上也有很多巧思。</strong>九月，她的一条“营销号式自我宣传”点赞超过64W，收藏达到24W，带动涨粉超过40W，成为账号有史以来数据最好的一支作品。</p>
-<p>具体来看，整支视频采用了营销号常用的BGM和解说音，显得非常欢快活泼。内容上看，闫不闲将自己过往做的多个高人气作品集中到一起给观众做了展现，如彩纸蝴蝶、纸浆画dimoo、碎玻璃风铃等，在短时间内迅速把自己的优势介绍清楚，还“自卖自夸”地给自己总结了四大优势——心灵手巧、情绪稳定、宠闺蜜、宠粉。网友们对于这一“整活”视频也十分喜爱，纷纷在下方留言想成为博主的“新闺蜜”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_ffd352a7623f4babb3fdf29e84bf6512@000000_oswg147492oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：@闫不闲 小红书截图</p>
-<p>@闫不闲 之外，卡思还观察到，本月涨粉榜第四名@打打的小窝 发布的作品和其有着异曲同工之妙，只不过打打的改造会显得更为重工，“地球树”椅子、花朵茶几、人类猫爬架……每一个成品都可以媲美定制家具，相当精致，评论区里不少网友被博主的动手能力所震撼，而她的作品也几乎条条都是过万点赞的爆款。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_66a9a3f82f834b0fac90974f3e7075ab@000000_oswg114327oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：@打打的小窝 小红书截图</p>
-<p>总体说来，上述两位博主的内容能够走红，<strong>除了本身的实力和创意外，也与她们踩中了小红书两大热门赛道——家居和手工有关。</strong>第三方数据显示，在小红书上，#家居 词条的总浏览量超过101亿，而#手工 更是达到258亿，足见平台用户们对这两个垂类的热情。对更多想做博主的创作者们来说，如果内容能做到结合自身优势并向这两个方向靠拢，可能会拿到更好的结果。</p>
-<h2><strong>@暴躁晨晨教育咨询：学习博主另辟蹊径在线“发疯”</strong></h2>
-<p>虽然是一名学习博主，但@暴躁晨晨教育咨询 和大多数坐在镜头前严肃分享的博主有很大区别，她的内容总是<strong>情绪饱满，动作夸张，突破常规的分享形式让她的笔记在一众“正经”学习笔记中变得相当抢眼。</strong></p>
-<p>具体来看，晨晨的“暴躁”从封面和标题开始，就有了很好的体现。其笔记封面统一采用她在堆满书的卧室里摆出各种夸张表情、动作的照片，并在上面用亮眼的字体总结出内容核心，同时运用了很多感叹号、问号来增加标题的情绪性，以此来迅速吸引观众眼球。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_fad501e97fca48c59d8d5afcff129c61@000000_oswg171390oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：@暴躁晨晨教育咨询 小红书截图</p>
-<p>进入正文后，她更是将暴躁人设延续到底：</p>
-<p>“听说你从来没上过600？太惨了！”</p>
-<p>“听说你语文想上120？划走！太没有追求了！”</p>
-<p>“什么？听说你的历史从来没有上过90，别说90，95都给姐干趴下！”</p>
-<p>暴躁的语气加上直击要害的话语，让广大学子的“痛点”更痛，更容易引起目标观众的注意和共鸣。</p>
-<p>后面的内容中她更是没有一点停歇，把每一秒都塞得满满当当，<strong>从动作、服饰、声音、镜头、场景等多方面进行快速变换，使得整支视频的节奏极快、活力满满，</strong>给足了观众情绪价值，削弱了传统学习视频的乏味枯燥之感。</p>
-<p>为了进一步增强内容的趣味性，晨晨还会<strong>刻意改变视频节奏，以此提高视频对观众的冲击性。</strong>很多条内容里，上一秒她扮演的还是一个抱头痛哭的疯狂学渣，下一秒就变身成好好坐在凳子上心平气和分享学习经验的温柔学姐，两个角色之间的巨大反差，引得不少粉丝发出感叹<strong>“第一次刷到精神状态这么超前的学霸”</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_0b3af3cc7ef543fea0ec8438ddcd0042@000000_oswg129190oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：@暴躁晨晨教育咨询 小红书截图</p>
-<p>当然，除了表现形式的趣味性和反常规外，晨晨的走红和她内容的实用性、独特性都有着密切的关系。根据卡思观察，@暴躁晨晨教育咨询 的目标观众聚焦于初高中人群，对这群时间宝贵的年轻用户来说，“干货”是一条学习视频必不可少的内容，因而晨晨的内容主题大多围绕着学习方法、心得和技巧展开。</p>
-<p>其视频有着一套较为完备的内容逻辑：在开头提出痛点后，她会通过亲身经历来反驳那些大众认为对的学习方法，并在此基础上总结出自己独特的学习方法。为了更深入地阐述这些方法，她还会选用具体案例进行讲解，使得<strong>整支视频条理清晰、内容详实，易于用户理解和接受。</strong></p>
-<p>正是这种寓教于乐的讲解方式，使得@暴躁晨晨教育咨询 在看似“干巴平淡”的教育赛道卷出了新花样，获得了更多粉丝的喜爱和支持。</p>
-<p>以上就是9月小红书涨粉榜的全部内容，2024迈入第四季度，接下来还会有哪些黑马博主杀出重围，卡思会持续关注。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzUzMjI1MzkyNw==&amp;mid=2247539245&amp;idx=1&amp;sn=22e5007bdaea529ba6f168c403d72a11&amp;chksm=fbffd1eee27bd474ededcb049677c5845e726c7eacc81430a824454664b781f01716a84dc26c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“卡思数据”（ID：caasdata6）</a>，作者：江北，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003455056535303</guid><pubDate>Tue, 22 Oct 2024 17:35:00 +0800</pubDate></item><item><title>苏州，“有”机场了</title><link>https://36kr.com/p/3003454240235524</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 22 Oct 2024 18:30:36 +0800</lastBuildDate><pubDate>Tue, 22 Oct 2024 18:30:36 +0800</pubDate><item><title>苏州，“有”机场了</title><link>https://36kr.com/p/3003454240235524</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <blockquote>
 <p>长三角，疯狂建通用机场</p>
 </blockquote>
@@ -447,4 +259,108 @@
 <p>本文译自</p>
 <p>https://www.forbes.com/sites/mattdurot/2024/09/25/rob-walton-just-joined-the-100-billion-club-for-the-first-time/</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwODU2NjQ5Mw==&amp;mid=2247598444&amp;idx=2&amp;sn=b434de68474a4c12d70fa89ba7e5fe7b&amp;chksm=960f51565ec89659f2a0a06c886ce1608fb23f96ec6b99ec818a3135d48a09ef9d1657a56777&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“福布斯”（ID：forbes_china）</a>，作者：Rashi Shrivastava，翻译：Lemin Guo，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003468057190401</guid><pubDate>Tue, 22 Oct 2024 17:59:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003468057190401</guid><pubDate>Tue, 22 Oct 2024 17:59:00 +0800</pubDate></item><item><title>双11“大战”，快递网点单量暴增，有员工一天工作17个小时</title><link>https://36kr.com/p/3003475029155846</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>又是一年“双11”，好戏已提前开场。如果去年“双11”是比“谁卖的便宜”，今年“双11”则是比“谁跑的快”。</p>
+<p>10月8日，拼多多和抖音提前打响“双11”大战第一枪，在此后一周里，淘宝天猫、京东等电商平台也相继开启了“双11”大促活动，各电商平台预售时间均比去年提前。</p>
+<p>根据天猫公布的双11预售数据，天猫双11预售开启10分钟内，13个美妆品牌实现了破亿，前半小时破亿品牌达20个。预售开启1小时，天猫大家电成交同比去年双11预售首日增长765%，服饰品类125个品牌首小时成交同比翻倍。</p>
+<p>零售电商行业专家、百联咨询创始人庄帅表示，从今年“618”开始，电商平台大促的时间线已经被拉长，尤其面对万亿级规模的大促，拉长周期的好处是减轻商家备货、促销投流和生产环节的压力，但随着商家规模的扩大，长周期会对平台的工作人员和商家产生长周期的压力，而这种压力可能会持续2-3个月。</p>
+<p>除了各平台商家纷纷抢跑“双11”预售，快递物流行业也马不停蹄地开启“后备”战场。据记者采访了解到，不少快递企业为了招人推出一些福利和奖励，甚至还加价招工，而对于网点来说，快递单量暴增，有的网点员工需要从凌晨4点忙到晚上21点或者22点，长达十七八个小时。</p>
+<h2><strong>快递网点单量暴增</strong></h2>
+<p>国家邮政局监测数据显示，截至今年8月13日，我国快递业务量已突破1000亿件，比2023年达到千亿件提前了71天。</p>
+<p>此外，快递业务收入也随之迅速上涨，截至9月29日，今年全国快递业务收入突破1万亿元，快递业务收入突破万亿大关的用时也在逐年缩短，今年较去年提前了近一个半月。</p>
+<p>不仅如此，快递业的“内卷”还在加剧，为应对“双11”预售热潮，各家抢跑送货时效。比如，德邦快递为提升物流时效，推出的“特快当日”服务，最快可实现跨省6小时送达；10月15日，京东物流的港澳派送员增至近500人；圆通则在9月底引入了300辆智能重卡，并对全网50余个集运中心进行改造、升级，储备干线运输车辆2500余台。</p>
+<p>各大物流公司在设备和运力上下足了功夫，此举在根本上也是为消费者体验“锦上添花”。庄帅认为，2024 年“双11”是新阶段的开始，品牌商家和平台都致力于提供高性价比商品以获取消费者持续信任，在此基础上，消费者提出了更高要求，如良好的送货服务、退货体验以及商品创新和差异化。</p>
+<p>在快递公司纷纷加码物流时效和品质服务的同时，落在快递员身上的“担子”也变得更重了。</p>
+<p>某韵达二级网点负责人向时代周报记者表示，今年“双11”预售期间，该网点的揽件量与日俱增，每天多达5000多件，而淡季时日均揽件量只有1000件-2000件。</p>
+<p>据该负责人介绍，二级网点快递站的每日任务是从库房提取货物，随后进行简单分拣，再派送至下面的驿站以及快递员手中。目前，该网点员工的工作时间从凌晨4点一直持续至晚上21、22点，“双11前后，最晚的时候我们和快递员下班没有固定时间，都是什么时候干完，什么时候下班。”该网点负责人表示。</p>
+<p>10月16日，京东物流宣布与淘天集团达成合作，正式全面接入淘宝天猫平台，与此同时，京东快递员们的工作量也骤然增加。</p>
+<p>湖州京东某网点负责人表示，现在已经逐步进入了揽件派件的高峰时期，每个快递员一天基本要处理 150 件以上的快递。“双11”大促期间，快递件量猛增，快递员的下班时间也在延后。该负责人透露，“在比较忙的时候，我们的快递员要到晚上10点左右才能下班，但平时他们一般在晚上8点左右就能完成所有派送任务。</p>
+<p>“现在的工作量比之前翻了好几倍”，另有一位青岛京东快递员对时代周报记者表示，由于“双11”的第一波预热尚未结束，他每天需要处理的快递数量大约在 180 件-190 件。但每位快递员的工作量也因其所在区域而异，目前在他负责的区域内，如果客户在早上预约上门取件退货，通常要到中午或稍晚一些才能完成取件。</p>
+<p>与忙碌的快递小哥形成对比的是，上海某物流公司负责人向时代周报记者表示，双11对他们的业务量影响并不大。“目前业务量相较于平时只增加了不到5%，普遍来说，没有和各大平台有直接合作关系的物流公司，在双11期间的业务量都不会有太大波动，而且我们的业务也存在被其他与大平台合作的物流公司分流的情况。”</p>
+<h2><strong>快递公司加价“抢人”</strong></h2>
+<p>“我们这里“双11”的人手也不够，但是这个行业很难招人。”一位有着5年从业经验的快递网点负责人向时代周报记者表示。</p>
+<p>国家邮政局统计数据显示，截至2023年，我国快递业务量已经从2010年的23.4亿件增长至2023年的1320亿件，人均业务量从11.8件上升到了91.6件，增长了7.8倍。与此同时，我国快递员数量也在迅速增长，2010年-2022年，我国快递员人数为从54万增长至450万，12年间增长了8.3倍。</p>
+<p>即便如此，各快递公司对快递员的需求依然供不应求，甚至有快递公司通过提高每单价格加入物流行业“抢人”大潮。</p>
+<p>刚进入10月，京东物流便开启了“抢人”模式。在达达骑士招募的海报上，“新人来，四五千，使劲干，七八千，加油干，可过万”的口号格外瞩目。</p>
+<p>同时，湖州市吴兴区某京东站点负责人向时代周报记者表示，从10月1日至10月31日，京东物流推出了限时加价活动，具体定价情况因不同站点而异，加价后快递员每揽派一件的均价约为2-3元，在此之前，快递员揽送每件快递的均价为1.7-2元。自京东物流与淘宝天猫合作以来，该负责人所在站点的快递量比之前增加了不少，所以目前正在积极招人，相较于以往对于年龄、从业经验的招聘要求，今年的招聘要求已经宽松了不少。“这个站点目前有20名员工，但人手依然短缺，只要能吃苦就可以来。” 上述京东站点负责人表示。</p>
+<p>一名湖州顺丰同城的快递员也向记者透露，从十月中上旬开始到“双11”结束，顺丰同城推出了一系列奖励机制，比如：10月12日-10月31日新注册成为骑士，且对应完成阶梯出勤及单量，邀请人和被邀请人将获得奖励，最高奖励588元。</p>
+<p>此外，时代周报记者还走访了上海各小区菜鸟驿站，发现有不少驿站已经贴出了“急招快递员”“急招理货员”的招聘启事。一名上海普陀区菜鸟驿站的老板向时代周报记者表示，目前驿站的工作节奏开始逐渐加快，随着快递件数增多，很多快递员也会面临加班的情况，“他们一般早上八点开始送货，动作快的话晚上八点左右才能下班”。根据他的往年经验，“双11”大促期间较为忙碌的时间段为 11 月 1 日-11月3 日以及 11 月 12 日、13 日。</p>
+<p>在某线上招聘平台，快递分拣员的招聘信息比比皆是，“急聘”“高薪”“无需经验”“包吃包住”是招聘信息的关键词。根据招聘单位提供的薪资，快递员基本月薪是8000元-10000元，最高可至16000元。</p>
+<p>随着今年“双11”预售“开门红”，快递物流行业在硬件和软件方面的全方位升级，中国物流业或将“卷”出新战绩。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653318881&amp;idx=1&amp;sn=fea3761ded9303308ae0ecb425b11984&amp;chksm=bc5c779862b51a23c94f2107d45af37218ccfc1f58fae8ade14ddee5525b92491851b866df0d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：孙艺格，编辑：杨春霞，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003475029155846</guid><pubDate>Tue, 22 Oct 2024 18:00:00 +0800</pubDate></item><item><title>中国人保迎首位女掌门，丁向群出任一把手</title><link>https://36kr.com/p/3003475151904776</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>王廷科卸任中国人保集团党委书记两个多月后，丁向群调任中国人保，成为新的掌舵人。</p>
+<p>中国人保集团官网消息，2024年10月22日上午，中央组织部有关负责同志出席中国人民保险集团股份有限公司干部会议，宣布中央决定：丁向群同志任中国人民保险集团股份有限公司党委书记。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241022/v2_3805c04a56e14f15a6ff98f52fd83c3f@000000_oswg109483oswg1080oswg500_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：中国人保官网截图</p>
+<p>按照中国人保集团惯例，丁向群在履行完成相关程序后，将担任集团董事长职务。</p>
+<p>现年59岁的丁向群，是中国人保集团历史上首位女性掌舵人。她出生于1965年，早年毕业于中国人民大学，曾先后在中国银行、中国太平保险集团、国家开发银行履职，拥有丰富的金融管理经验，还曾在广西担任“金融副省长”。</p>
+<p>履历显示，丁向群曾任中国银行公司金融业务总裁，中国太平保险集团副总经理、党委委员，国家开发银行副行长、党委委员等职务。2017年，她成为“金融副省长”，担任广西壮族自治区政府副主席、党组成员。2018年，丁向群出任安徽省委常委、组织部部长至今。</p>
+<p>就在2024年10月12日，丁向群还以安徽省委常委、省委巡视工作领导小组副组长的身份，主持了十一届安徽省委第七轮巡视动员部署会。</p>
+<p>丁向群此番履新后，中国人保集团正式迎来新的掌舵者。</p>
+<p>中国人保集团官网消息，8月17日上午，中央组织部的干部局负责人宣布王廷科不再担任集团党委书记的决定。9月6日，中国人保集团发布公告，王廷科因工作需要辞去了集团执行董事、董事长及董事会战略与投资委员会主任委员等职务，该辞任自9月5日起生效。</p>
+<p>中国人保集团对王廷科在任董事长期间的工作表示了高度评价，称赞其“推动公司高质量发展，在复杂多变的外部环境中取得了优异的成绩，为集团的未来发展奠定了坚实的基础。”</p>
+<p>此外，随着王廷科的离任，中国人保集团旗下人保资产、人保财险等子公司的主要领导职位也出现了空缺。</p>
+<p>目前，担任中国人保集团党委副书记、副董事长、总裁的赵鹏，出生于1972年，是中国人保集团有史以来最年轻的总裁之一，有丰富的保险行业管理经验，曾在国寿集团任职20余年。</p>
+<p>赵鹏在中国人保集团8月底举办中期业绩发布会上表示，公司保持战略的稳定性和连续性，在保持业务平稳增长的同时，更加突出发展质量，持续优化业务结构，把长期价值增长和盈利能力提升摆在更加突出的位置，更好地统筹质的有效提升和量的合理增长。</p>
+<p>10月15日晚，中国人保集团发布业绩预增公告，预计2024年前三季度实现归母净利润将达到338.30亿元至379.31亿元，与上年同期相比增加133.27亿元到174.28亿元，同比增长65%到85%。</p>
+<p>中国人保表示，2024年前三季度，集团业务结构持续优化，风险防控有力有效，降本增效成果显著。同时，公司在夯实经营基础的同时，叠加资本市场回暖影响，总投资收益同比实现大幅增长，净利润较去年同期增幅较大。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653318881&amp;idx=3&amp;sn=227159569ef17b24f1ef628d7f8ba0ed&amp;chksm=bcf199cd1bbc7a98ea44b7a6fb5eb12de644da8e58bda5d9b47183c382ab0ec34c3b46bb5c3c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：何秀兰，编辑：黄嘉祥，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003475151904776</guid><pubDate>Tue, 22 Oct 2024 18:00:00 +0800</pubDate></item><item><title>出海速递 | 科沃斯海外营收超65亿/泡泡玛特：三季度港澳台及海外收益同比增长440%-445%</title><link>https://36kr.com/p/3003501615750921</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>访问36氪出海网站</strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1965,846" src="https://img.36krcdn.com/hsossms/20241022/v2_a7b35c79804e407b84b16864e53d1fc8@11918142_oswg186017oswg1965oswg846_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>今日好文</strong></h2>
+<h3><a href="https://letschuhai.com/8f8e5371?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>国内业务掉队后，科沃斯海外营收超65亿</strong></a></h3>
+<p>对于科沃斯来说，出海是唯一还能奋力一搏的机会。</p>
+<h3><a href="https://letschuhai.com/66331571?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>AI 时代，出海“扛把子”还是字节？</strong></a></h3>
+<p>在前些日子出炉的 a16z Top100 AI 榜单中，公司层面，字节可谓是最大赢家，是占有席次和上榜产品数量最多的公司。</p>
+<h3><a href="https://letschuhai.com/8a3b2249?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>亚马逊的纠结与拧巴</strong></a></h3>
+<p>亚马逊对“低价”的心情是复杂的。</p>
+<h2><strong>热点快讯</strong></h2>
+<h3><strong>泡泡玛特：三季度港澳台及海外收益同比增长440%-445%</strong></h3>
+<p>泡泡玛特公告，二零二四年第三季度整体收益（未经审核），较二零二三年第三季度同比增长120%-125%，其中中国内地收益同比增长55%-60%，港澳台及海外收益同比增长440%-445%。（36氪）</p>
+<h3><strong>追觅美国首家线下门店开业，美国市场布局进一步加速</strong></h3>
+<p>近日，追觅美国首家线下门店在洛杉矶西田世纪城购物中心（Westfield Century City）正式开业，这是追觅首次正式布局美国线下零售店。该门店位于美国加州高端生活区比弗利山庄（Beverly Hills），店内拥有丰富的智能清洁家电产品。今年追觅在美国市场布局进一步加速。据了解，9月14日，追觅在洛杉矶阿凯迪亚购物中心（Arcadia Mall）的首家快闪店开业；10月9日，追觅在纽约举办了本地首场产品品鉴会。（36氪）</p>
+<h3><strong>“滴滴自动驾驶”完成2.98亿美元 C 轮融资</strong></h3>
+<p>滴滴自动驾驶宣布，已完成C轮2.98亿美元融资，本轮融资由广汽集团领投，滴滴参与。融资资金将用于加大自动驾驶技术的研发投入，加速推动首款Robotaxi（自动驾驶出租车）量产车落地。（北京商报）</p>
+<h3><strong>文远知行启动招股，发行区间为15.5美元-18.5美元</strong></h3>
+<p>文远知行WeRide更新美股 IPO 招股书，并启动招股。文远知行拟在纳斯达克挂牌上市，IPO 的主承销商为摩根士丹利、摩根大通和中金公司。基于最新更新后招股书，文远知行发行区间为15.5美元至18.5美元，发行645.2万股 ADS，筹得资金净额中值约为9600万美元。与本次发行同时并须待本次发行完成后，某些投资者已同意从文远知行这里购买价值3.205亿美元的 A 类普通股。（36氪）</p>
+<h3><strong>9月全球新能源汽车销量超170万辆，中国市场占超六成</strong></h3>
+<p>市场研究公司 Rho Motion 数据显示，今年9月，全球新能源汽车（含纯电动汽车BEV和插电式混合动力汽车PHEV）交付量为170万辆，同比增长30.5%。中国市场表现尤为突出，其销量为110万辆，占比超六成，增幅高达47.9%。（界面新闻）</p>
+<h3><strong>字节跳动据悉考虑在泰国新建数据中心</strong></h3>
+<p>一位知情人士称，字节跳动旗下 BytePlus 正在考虑明年在泰国建立一个数据中心，以提供云计算和人工智能服务。（曼谷邮报）</p>
+<h3><strong>泰国商务部长 Pichai：英伟达正计划在泰国投资</strong></h3>
+<p>据报道，泰国商务部长 Pichai 表示英伟达正计划在泰国投资，他表示，英伟达的投资可能会带来更多融资。（36氪）</p>
+<h3><strong>江苏企业“走出去”提速，“一带一路”市场增长显著</strong></h3>
+<p>今年前三季度，江苏对共建“一带一路”国家进出口1.82万亿元，同比增长11.3%。2023年，江苏对共建“一带一路”国家进出口2.25万亿元，在当时就已创下历史新高。数据持续增长的背后，有着上市公司的助力，当前，江苏一大批优质上市公司正发挥各自优势，在“一带一路”获得新的发展空间。同时，地处“一带一路”交会点，江苏也一直在发挥产业优势与开放优势，为企业“走出去”铺平道路。（证券时报）</p>
+<h2><strong>近期活动</strong></h2>
+<h3><a href="https://letschuhai.com/551f8a3e" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜抓住出海卡塔尔机遇！中国-卡塔尔投资合作高峰洽谈会即将落地北京、深圳</strong></a></h3>
+<p>为了帮助中国企业更好地了解卡塔尔市场的特点和机遇，<strong>36氪出海联合卡塔尔投资促进局、北京及深圳贸促会、盈科律师事务所，于11月12日和15日，分别在北京、深圳举办中国-卡塔尔投资合作高峰洽谈会。</strong>洽谈会旨在为中卡两国企业提供深度合作与交流的平台，助力企业探索新的商业机会。如果您关注出海卡塔尔的商业机遇，希望深入了解卡塔尔的利好政策、营商环境及合作生态，欢迎您扫码下方二维码，填写表单，报名参加本次活动。<strong>我们将根据话题相关度，对报名申请进行筛选。通过活动审核的用户，我们将有专人联系通知。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="3930,1918" src="https://img.36krcdn.com/hsossms/20241022/v2_f137a491595a44e890fd0e9a0b6bc669@11918142_oswg328286oswg3930oswg1918_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>加入36氪出海学习交流群</strong></h2>
+<p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
+<p class="image-wrapper"><img data-img-size-val="631,72" src="https://img.36krcdn.com/hsossms/20230523/v2_b61857409a814903b2749dd32a80e298@11918142_oswg4260oswg631oswg72_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003501615750921</guid><pubDate>Tue, 22 Oct 2024 18:14:00 +0800</pubDate></item><item><title>有30万用户的AI应用公司，被OPPO收购｜最前线</title><link>https://36kr.com/p/3003400228003591</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>文｜周鑫雨 邓咏仪</p>
+<p>编辑｜苏建勋</p>
+<p>2024年10月22日，科技圈博主AI Dance在一篇帖文中提到：“一个做LLM写小说的杭州的公司，即将关张”“最终的结局是几个人被收购，团队CEO、CTO等几个人都加入了国内一家以字母为主的手机厂商”。</p>
+<p>据《智能涌现》了解，主攻内容创作垂类领域的AI初创公司“波形智能”，近日被手机厂商OPPO收购。相关人士告诉《智能涌现》：<strong>收购属实，但公司并未解散或关停，同时旗下产品“蛙蛙写作”照常运营</strong>。</p>
+<p>对上述消息，波形智能创始人兼CEO姜昱辰对《智能涌现》表示：感谢关注，目前暂无更多信息。</p>
+<p>成立于2023年3月，波形智能在AI行业内，曾是“有人才、有融资、有营收”的明星企业。</p>
+<p>创始人兼CEO姜昱辰本科毕业于浙大竺可桢学院，博士就读于瑞士苏黎世联邦理工大学(ETH)，曾在微软亚研院从事大语言模型的训练与推理。CTO周王春澍，博士同样就读于ETH，从事人工智能方向研究。</p>
+<p>这两位核心成员，也是曾在圈内引发不少关注的论文《RecurrentGPT：Interactive Generation of (Arbitrarily) Long Text》的一二作。其提出的新训练范式ReccurentGPT，能够达到GPT-4快三倍的文本生成速度，同时能在控制推理成本的情况下，做到无限长文本生成。</p>
+<p class="image-wrapper"><img data-img-size-val="1924,834" src="https://img.36krcdn.com/hsossms/20241022/v2_21fdde8280244446b4362e4734adce0b@5783683_oswg384082oswg1924oswg834_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">《RecurrentGPT：Interactive Generation of (Arbitrarily) Long Text》。</p>
+<p>《智能涌现》曾报道，在2024年初，波形智能还获得了千万元的Pre-A轮融资，投资机构包括蓝驰创投、西湖科创投和老股东藕舫天使，资方还出现了蚂蚁金服董事长井贤栋、知名天使人费革胜的身影。</p>
+<p>在业务布局上，波形智能既有自研的创作领域大模型Weaver，也有ToC的AI辅助创作工具“蛙蛙写作”。</p>
+<p class="image-wrapper"><img data-img-size-val="2932,1326" src="https://img.36krcdn.com/hsossms/20241022/v2_fbb9cfc8389245c288905ef183275dd8@5783683_oswg703661oswg2932oswg1326_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">“蛙蛙写作”官网。</p>
+<p>直到2024年8月，“蛙蛙写作”还被视作AI应用找到PMF（产品-市场适配度）的典范。波形智能创始人&amp;CEO姜昱辰在一次公开分享中提到，上线（2024年1月29日）半年以来，蛙蛙写作有30万用户，付费用户日均使用时长达到了4.7小时。</p>
+<p>但漂亮的用户数据，并不能缓解AI公司对长期盈利的远虑。</p>
+<p>当下，国内外不少AI应用都在寻求收购。2024年8月，估值超10亿美元的硅谷明星AI企业Character.AI，曾被曝出因融资困难寻求Meta和其他大厂的并购，随后CEO、总裁以及30名员工加入了谷歌。</p>
+<p>无独有偶，Inflection AI、Adept等明星AI公司，纷纷向微软、亚马逊等大厂出售了技术使用许可权，同时，核心团队也加入了大厂。</p>
+<p>OPPO收购波形智能，也是当下AI商业化困境的现实缩影。目前，与大厂合作或者收并购，已是初创公司保全业务和团队的一条出路。</p>
+<p class="image-wrapper"><img data-img-size-val="1389,517" src="https://img.36krcdn.com/hsossms/20241022/v2_b589a23ebd774482918222a9a30b6814@5783683_oswg649725oswg1389oswg517_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">欢迎交流！</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3003400228003591</guid><pubDate>Tue, 22 Oct 2024 18:23:00 +0800</pubDate></item></channel></rss>
