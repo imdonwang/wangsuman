@@ -1,54 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 23 Oct 2024 12:00:30 +0800</lastBuildDate><pubDate>Wed, 23 Oct 2024 12:00:30 +0800</pubDate><item><title>代达罗斯的迷宫：揭秘对散户隐藏的「代币经济模型」</title><link>https://36kr.com/p/3004482002509827</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>代币经济模型一直是投资者用以评估某项标的的重要标准，但 L1D 合伙人 0xLouisT 在其近期文章中却揭示道，除了展示给市场的常规代币经济模型外，许多项目在水下还会隐藏着另一套不可见的“代币经济模型”，除了团队内部及关联人士外，外部很难获悉某一代币真实的分配方案。</p>
-<p>0xLouisT 在文章中以希腊神话中“代达罗斯的迷宫”的故事作比，认为这些隐藏版“代币经济模型”就像迷宫一般，而制造这些迷宫的项目方则好比代达罗斯，最终将会作茧自缚，走向灭亡。</p>
-<p>以下为 0xLouisT 原文内容，由 Odaily 星球日报编译。</p>
-</blockquote>
-<p>在希腊神话中，有一只嗜血的生物叫作弥诺陶洛斯，它拥有半人半牛的身体构造。国王米诺斯害怕这个生物，于是请来了天才代达罗斯设计一个错综复杂的迷宫，没有人能够从中逃脱。然而，当雅典王子忒修斯在代达罗斯的帮助下杀死了弥诺陶洛斯后，米诺斯非常愤怒，他报复性地将代达罗斯和他的儿子伊卡洛斯都囚禁在了由代达罗斯自己建造的迷宫中。</p>
-<p>虽然伊卡洛斯最终系因鲁莽而坠落（出逃时飞的太高，被太阳灼烧了翅膀），但代达罗斯才是他们命运的真正建筑师 —— 没有他的话，伊卡洛斯永远不会被囚禁。</p>
-<p><strong>这个神话故事反映了在当前加密货币周期中普遍存在的隐藏“内幕交易”。在这篇文章中，我将揭示这些交易类型 —— 由内部人士（代达罗斯）精心策划的迷宫结构，注定了项目（伊卡洛斯）的失败。</strong></p>
-<h2><strong>什么是“内幕交易”</strong></h2>
-<p>“高 FDV，低流通”的代币结构已成为热门话题，市场已就其可持续性及影响进行了大量辩论。然而，这场讨论中存在一个常常被忽视的阴暗角落 —— “内幕交易”。<strong>这些交易往往是由少数市场参与者通过链下合同及协议达成，通常情况下会被可以掩盖，外界几乎无法从链上识别。</strong>如果你不是内部人士，你很可能永远不知道这些交易的交易。</p>
-<p>在 @cobie 的最新文章中，他引入了“幽灵定价（phantom pricing）”的概念，强调了真正的价格发现是如何在私下市场上完成的。基于这一背景，<strong>我想引入“幽灵代币经济学（phantom tokenomics）”的新概念，以揭示如何利用明面上的代币经济模型来伪装真实的“幽灵代币经济模型”</strong>—— 公开可见的代币经济模型往往只能代表某一分配类别的“上限范围”，但这具有误导性，“幽灵版本”才是最准确的分配状况。</p>
-<p>尽管存在许多类型的“内幕交易”，但最值得关注的一些交易类型如下。</p>
-<p>顾问分配：投资者可以通过顾问服务而获得额外的代币，此类份额通常会归类在团队或顾问类别下。这通常是投资者用于降低其成本的手段，且他们几乎没有或根本不会提供任何额外建议。<strong>我亲眼见过某家机构的顾问份额是其投资者份额的 5 倍，与官方的融资及估值数据相比，该机构的真实成本可降低 80% 。</strong></p>
-<p>做市分配：一部分代币供应将被保留，用于在中心化交易所（CEX）上进行做市。这有一定积极意义，因为它可以增强该代币的流动性，<strong>然而当做市商同时也是该项目的投资者时，就会产生利益冲突 —— 这使得他们能够使用做市份额来对冲自己仍处于锁定状态的投资份额。</strong></p>
-<p>CEX 上币：为了上线币安等头部 CEX，项目方往往需要支付营销及上币费用。如果投资者可协助并确保代币在这些交易所上线，他们有时会收到额外的业务费用（可能高达总供应量的 3% ）。<strong>Arthur Hayes 此前曾发表过一篇详细文章，揭示了这些费用可能高达代币总供应量的 16% 。</strong></p>
-<p>TVL 租赁：<strong>可提供流动性的巨鲸或机构往往会被许诺独享较高的收益率。普通用户可能对 20% 的年化收益率感到满意，而一些巨鲸则可通过与基金会的私下交易，以同样的贡献悄悄赚取 30% 的收益。</strong>这种做法可能也有一定积极意义，对于维护早期流动性有一定帮助，但是项目方应该在代币经济模型中向社区披露这些交易。</p>
-<p>OTC “融资”：OTC “融资”很常见，本质上也不一定是坏事，但由于条款通常不会公布，这些交易往往会造成较大的不透明性。<strong>这其中最臭名昭著的当属所谓的“KOL 轮”，它会被视作代币价格的短期催化剂，某些头部 Layer 1 （我不想透露名字）最近也采用了这种策略 ——KOL 能够以较大的折扣（约 50% ）和较短的锁定周期（六个月线性解锁）认购代币，出于利益考虑他们会努力将 xxx 营销为下一个 xxx（这里可自行带入某 Layer 1）杀手。</strong>如果你有疑问的话，可以看看我之前发布的 KOL 话术翻译指南。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241023/v2_58d2b58bb9b244a5b2c2f41a10d971af@000000_oswg346795oswg800oswg922_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>出售质押奖励：自 2017 年以来，<strong>许多 PoS 网络都允许投资者质押处于锁定状态的代币，并随时领取质押奖励，这已成为了早期投资者提前获利的一种方式。</strong>Celestia 和 EigenLayer 近期都曾被指出存在这种情况。</p>
-<p>所有的这些“内幕交易”共同构建了“幽灵版代币经济模型”。作为一名社区成员，你可能会经常看到下面这样的的代币经济模型图表，并对其分配状况及透明度感到满意。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241023/v2_5cf2631e4b9c4e6f8f0795a5655ccd7c@000000_oswg94009oswg797oswg490_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但如果我们剥开层层伪装，揭示隐藏的“幽灵版代币经济模型”，你们发现真正的代币分配可能会是下图这个样子，它并不会给社区留下太多机会。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241023/v2_c0e0540dc39d48508f3fd5582df80c10@000000_oswg198369oswg800oswg471_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>就像代达罗斯给自己设计了监狱一样，这种分配方式决定了许多代币的命运 ——<strong>内部人士将他们的项目困在不透明交易的迷宫中，导致代币的价值从四面八方流失。</strong></p>
-<h2><strong>我们是如何走到这一步的？</strong></h2>
-<p>就像大多数因市场效率低下而造成的问题一样，<strong>这个问题源于供需之间的严重不平衡。</strong></p>
-<p>进入市场的项目供过于求，<strong>许多项目都是 2021/2022 年风投热潮的副产品，其中许多项目已经等了三年多才推出代币，现在它们都挤在了一块，在更冷淡的市场环境中努力争夺 TVL 和注意力 —— 请注意，现在已经不是 2021 年了。</strong></p>
-<p><strong>反过来需求却跟不上供应，没有足够的买家来吸收疯狂涌现的新上市项目。</strong>与之类似，并非所有协议都能吸引资金并积累 TVL，这使得 TVL 变成了一种稀缺资源。</p>
-<p>许多项目没有找到产品与市场的契合点（PMF），而是陷入了过度支付代币激励的陷阱，只能人为地去提高关键数据指标，掩盖了项目缺乏可持续吸引力的问题。</p>
-<p>如今，许多交易会在私下完成。<strong>随着散户投资者的流失，大多数风投和基金都难以维持有意义的回报，他们的利润已经缩水，迫使他们通过内幕交易而非简单选择增值资产来创造超额回报。</strong></p>
-<p>一个最大的问题仍然是代币分配，监管障碍使得项目方向散户投资者分配代币几乎变得不可能，留给团队的选择很有限 —— 一般只有空投或流动性激励。如果你是某个项目方，正试图通过 IC0 或其他替代方法解决代币分配问题，可以找我们谈谈。</p>
-<h2><strong>启示录</strong></h2>
-<p>使用代币来激励利益相关者或加速项目增长本质上并没有问题，它确实可以作为一项强大的工具，<strong>真正的问题在于这很容易导致代币经济模型完全缺乏透明度。</strong></p>
-<p>以下是加密货币创始人可提高透明度的几个关键要点：</p>
-<p>不要向资方提供顾问份额：<strong>投资者本就应该为你的公司提供力所能及的帮助，而不需要额外的顾问份额。</strong>如果某家机构需要额外的代币才能投资，那么他们很可能对你的项目缺乏真正的信心。你真的想让这样的人出现在你的资方名单上吗？</p>
-<p>寻找合适的做市报价：<strong>做市服务已经高度市场化，你应该去寻找具有竞争力的报价，</strong>没有必要过度付款。为了帮助创始人顺利解决这一问题，我曾写过一份指南(https://x.com/0xLouisT/status/1808489954869133497)。</p>
-<p>不要将筹资与无关的运营事务混为一谈：在筹资过程中，你应专注于寻找那些能帮助项目增值的基金和投资者。<strong>在筹资阶段，你应该避免讨论做市场或空投，也不要随即签署任何与这些主题相关的文件。</strong></p>
-<p>链上透明度最大化：公开的代币经济模型应该准确地反映代币分配的真实情况。<strong>在代币创世阶段，可通过不同的地址透明地分配代币，反映真实的代币经济分配状况。</strong>例如以下饼图，你需要确保你拥有六个主要地址，分别代表团队、顾问、投资者等群体的分配。你可以主动联系以下 Etherscan、Arkham、Nansen 等团队来标记地址，联系 Tokenomist 来制作解锁时间表，联系 CoinGecko 和 CoinMarketCap 来展示正确的流通及供应数据。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241023/v2_93d7584555884841878735439e5a3960@000000_oswg94009oswg797oswg490_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>使用链上解锁合约：<strong>对于团队、投资者、场外交易（OTC）或任何类型的解锁，请确保通过智能合约在链上以透明形式执行。</strong></p>
-<p>锁定质押奖励：<strong>如果你允许投资者或内部人士质押锁定状态的代币，至少要确保质押奖励也被锁定。</strong>你可以在这篇文章中查看我对这种做法的详细看法(https://x.com/0xLouisT/status/1840039173815681038)。</p>
-<p>专注于产品，忘记 CEX 上币：<strong>不要再纠结于能不能上线币安，这不会解决你的根本问题，也不会改善你的基本面。</strong>以 Pendle 为例，它一开始只停留在去中心化交易所（DEX），但在找到了产品市场契合点（PMF）之后，轻松获得了币安的支持。<strong>专注于产品建设及社区增长，只要你的基本面足够稳固，CEX 会争先恐后地以更有利的价格上线代币。</strong></p>
-<p>除非必要，否则不要使用代币激励：如果你很轻易地分发掉了你的代币，你的战略或商业模式一定有问题。<strong>代币是有价值的，应该谨慎用于特定目标。激励可以在一定阶段内作为增长工具，但不该作为长期解决方案。</strong>在规划代币激励计划时，应该问问自己：“一旦激励停止，哪个指标会发生什么变化？” 如果你认为当激励停止后某个指标会下降 50% 或更多，那么你的代币激励计划很可能存在缺陷。</p>
-<p>综上，<strong>如果这篇文章只有一个核心要点，那就是“优先考虑透明度”。</strong>我写这篇文章并不是想要责怪任何人，而是想要引发一场真正的辩论，改善行业透明度，减少“幽灵代币经济模型”现象。我真诚地相信，这将随着时间的推移而改善。</p>
-<blockquote>
-<p><strong>原文：0xLouisT（L1D 合伙人）</strong></p>
-</blockquote>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU5MDU2MzIzOQ==&amp;mid=2247505334&amp;idx=1&amp;sn=839983c6988b76889028e46e6908ee92&amp;chksm=ff4674cbc275c5e827d6e7b104fe5b36018857b5cd913522a449104fa98317972e80c87c932f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Odaily”（ID：o-daily）</a>，编译：Azuma，编辑：郝方舟，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3004482002509827</guid><pubDate>Wed, 23 Oct 2024 11:07:00 +0800</pubDate></item><item><title>31省份前三季度人均收入出炉，这地首进“5万+”</title><link>https://36kr.com/p/3004472594587398</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 23 Oct 2024 12:31:01 +0800</lastBuildDate><pubDate>Wed, 23 Oct 2024 12:31:01 +0800</pubDate><item><title>31省份前三季度人均收入出炉，这地首进“5万+”</title><link>https://36kr.com/p/3004472594587398</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>国家统计局日前公布31省份2024年前三季度居民人均可支配收入数据，<strong>上海、北京均超6万元分列前两位，浙江首次突破5万元关口位列第三，</strong>广东、重庆、贵州三地也实现突破。</p>
 <p>所谓居民可支配收入是指<strong>居民可用于最终消费支出和储蓄的总和，</strong>即居民可用于自由支配的收入，既包括现金收入，也包括实物收入。按照收入的来源，可支配收入包括工资性收入、经营净收入、财产净收入和转移净收入。</p>
 <h2><strong>浙江等四地实现突破</strong></h2>
@@ -496,4 +447,80 @@
 <p>在上海，中铁建地产也打造了诸多具有影响力的产品。根据克而瑞数据显示，<strong>今年1-9月，中铁建以126.53亿的销售额，位居第10的位置。</strong></p>
 <p>接下来，中铁建地产在上海还有国贸中国铁建·西派海上等重磅项目加推入市，也将为中铁建地产在上海的业绩冲刺助力。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Xy4khhhDAzE5DF9om9Gt4Q" rel="noopener noreferrer nofollow" target="_blank">“地产人言”</a>，作者：艳姐team，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3004534557351688</guid><pubDate>Wed, 23 Oct 2024 11:37:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3004534557351688</guid><pubDate>Wed, 23 Oct 2024 11:37:00 +0800</pubDate></item><item><title>很多江浙县城楼市率先反弹了</title><link>https://36kr.com/p/3004552499798017</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>最近绿城又拿地了。</p>
+<p>是的，上一块被大家熟知应该还是8月拿下徐汇滨江原小米总部地块，豪掷48亿也刷新了时隔8年的土拍记录，而仅仅不到2个月绿城再次出手了。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,179" src="https://img.36krcdn.com/hsossms/20241023/v2_781f59fa3ca548a4a9afb8f1c8df0506@337187376_oswg51575oswg1080oswg179_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>并且拿下这块地可不便宜，一块县城的地居然能引起绿城在内五家房企竞拍经过72轮激烈角逐，最终成交楼面价约2.58w/平，溢价率高达43.42%。</p>
+<p>细数今年上半年义乌的地块，几乎个个都是超高溢价。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,380" src="https://img.36krcdn.com/hsossms/20241023/v2_901a838a00aa4d92a0882b5a4e92aefa@337187376_oswg421402oswg1080oswg380_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：浙江省自然资源网上交易中心</p>
+<p>要知道今年上海土拍最高溢价率也不过31.2%（静安曹家渡地块），包括5月开盘的义乌绿城凤起潮鸣，单价6w/平引来325组意向客户，总价四五千万的房子居然一房难求，很快就去化完成了。</p>
+<p>怎么大家都去抢义乌的项目了？</p>
+<p>成交量上，在各大一二线城市都在竞相开放限购的时候，据说国庆期间县城销售的嗓子已经冒烟了。有的实现了销量，环沪的昆山，国庆10月1日-3日新房成交相当于一个月的量，有的卖出了价格，江阴某豪宅别墅项目7天签约近30套，累计认购金额超1.5亿。</p>
+<p>于是我又去翻了下最近链家的二手挂牌。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,329" src="https://img.36krcdn.com/hsossms/20241023/v2_e60306694bd447ec85d940684389255f@337187376_oswg231949oswg1080oswg329_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>义乌顶到5w/平还算能有预期，但是作为台州下属县城的温岭，有别墅项目挂牌价都快接近9w/平，实属有点夸张了。</p>
+<p>这一切也让我感受到当下楼市正在快速崛起的一股力量：<strong>江浙县城。</strong></p>
+<p>这些本就是全国县城中的佼佼者们，如今又在怎样刷新认识。</p>
+<h2><strong>01 论引爆今年豪宅购买的，还得看江浙县城</strong></h2>
+<p>要说今年楼市什么最火，毋庸置疑就是豪宅。</p>
+<p>不久前我们还在感叹上海翠六销售额高达120亿创下豪宅日光新记录，紧接着广州老牌豪宅侨鑫汇悦台就成交了一套单价36.86w/平，总价4.61亿的豪宅，成为全国大平层顶豪网签总价的TOP1。</p>
+<p>于是更多情况下，似乎成交上“亿”这个词总是更容易出现在一二线城市。</p>
+<p>而当我挑选了今年江浙县城几个卖最好的豪宅，发现首先在楼盘总成交价上，不少县城的首开销售都能来到<strong>亿元级别。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,631" src="https://img.36krcdn.com/hsossms/20241023/v2_c22a7a2824674d03b6823d8037df7dcc@337187376_oswg211214oswg1080oswg631_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">整理自： 各楼盘宣发信息，仅供参考 </p>
+<p>各位可别小瞧这点。要知道对于县城来说，那是一个首付超过10万都嫌贵的地方，在全国大多数县级市房价都在4000-9000元/平的时候，也就江浙县城能够动辄上万。</p>
+<p>而如今除了最高义乌的凤起潮鸣以套均1800-4318万的总价，开盘当日就劲销20亿+，以及16亿+的八都万境观雲。</p>
+<p>今年上半年绿城浙南公司销售额一共60多亿，义乌一个凤起潮鸣就贡献了近六成的销售额，义乌当之无愧今年最猛豪宅县城。</p>
+<p>另外出乎意料的还有<strong>乐清</strong>，属于温州，这个看似平平无奇的县城背后，主导产品低压电气占全国市场份额达65%以上，产业的兴盛又带动消费。2023年乐清市城镇居民人均消费支出高达57682元，是所有城镇县域消费水平最高。</p>
+<p>这也难怪今年4月18日首开的新湖•金色海湾，首开当天不到3小时，就能够实现9.6亿的热销。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,675" src="https://img.36krcdn.com/hsossms/20241023/v2_17f837a91ceb498a80989e110c42ae84@337187376_oswg613586oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：乐清市城市网文化艺术传播中心</p>
+<p>此外还有5月新开的城投·建发缦云三期，该楼盘三次开盘三次售罄，尤其是这次均价近5.6w/平的排屋。 </p>
+<p>据说这还是乐清有史以来头一次出现102人抢8套房源，即便是行情特别好的时候也不曾见过。</p>
+<p>而如果说从销售金额来看，县城豪宅已经有可以比肩一线的实力，那么，如果你把这些豪宅放在县城本地，更能感受到什么才是真正的 <strong>降维打击。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,561" src="https://img.36krcdn.com/hsossms/20241023/v2_80d57ddb9c9343d68e1898ac87e57193@337187376_oswg192385oswg1080oswg561_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">整理自： 各楼盘宣发信息，仅供参考</p>
+<p>皆超出当地新房均价<strong>50%以上，</strong>其中高出一倍以上的共4个楼盘，除了刚才提到的乐清缦云三期，高出当地市场均价约250%。除此之外还有高出160%的义乌万境观云、140%的绿城·凤起朝鸣。</p>
+<p>要知道这可是新房均价动辄上万的江浙县城，在一线城市还在和二手房比拼倒挂的时候，县城的倒挂已经可以对标新房市场了。</p>
+<h2><strong>02 今年的县城楼市，也在迎来两个改变</strong></h2>
+<p>细心的小伙伴或许已经发现了，就是仔细去看今天列举的楼盘，其实有一个很明显的改变。</p>
+<p><strong>第一，好多品牌房企都跑去县城做顶豪了。</strong></p>
+<p>绿城给义乌留下了TOP级招牌凤起潮鸣，华润置地为义乌带来了业内称为首个真正意义上的四代宅项目，万科最新产品系拾系也在落位昆山，而其中最典型的还是绿城了。</p>
+<p class="image-wrapper"><img data-img-size-val="1074,503" src="https://img.36krcdn.com/hsossms/20241023/v2_fd32bea6e2c64121aec5722c4862c5d0@337187376_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源来自：绿城浙江</p>
+<p>不仅今年的杭州、嘉兴、义乌、宁波、台州、丽水、衢州、德清等13座城市都有绿城的身影，而这样品牌房企的项目对于一个县城可以造成多大的影响。</p>
+<p>就以慈溪的绿城·晓风印翠为例，今年7月首开150套房源，直接去化9成，劲销5亿。截止7月26日，绿城在慈溪这一个楼盘的的成交套数，比7月以来慈溪其他楼盘成交总和还要更多，堪称碾压级别。</p>
+<p><strong>第二，大户型在县城也越来越吃香了。</strong></p>
+<p>以前在县城来说如果拥有一套120平的四房，也属于大户人家了，而今年这些县城卖得好的楼盘，无一例外都是大户型在占据主导。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,874" src="https://img.36krcdn.com/hsossms/20241023/v2_cb5e22a7673f4e61bfaf1228f1c60da2@337187376_oswg220307oswg1080oswg874_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">整理自： 各楼盘宣发信息，仅供参考</p>
+<p>最高如常熟的创想·樾湖山庄、永康的华鸿 · 江山雲、义乌的万境观云最大面积段已经来到400、500以上，最低也有115平。</p>
+<p>就好比华鸿 · 江山雲，在永康这样的县城不仅也能请来国际著名建筑师梁志天设计，其中558平并非跃层，更是纯粹一层一户的超级大平层。</p>
+<p>环绕在建筑周围，还是如此惊人尺度的空中露台。这么大面积，真的卖得出去么</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1098" src="https://img.36krcdn.com/hsossms/20241023/v2_336bbf00e6e8472fa53bf2080a657797@337187376_oswg1333477oswg1080oswg1098_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：名师联室内设计智库</p>
+<p>要知道虽然说是县城，但永康也被称为“中国五金之都”，整个2023年全市实现地区GDP为755.98亿元，人均GDP为121397元，这可比河南省会郑州的人均GDP(104754元)，还要高出近2万，所以对于这些县城而言，不是需求没有，而是改善的需求一直没有被很好满足。</p>
+<h2><strong>03 本质上没有差的楼市，只有差的产品</strong></h2>
+<p>我们说当楼市告别过去20年的高歌猛进，最先困扰所有开发商的问题都是：客户去哪了？</p>
+<p>就是好像已经很努力了，项目都在认真做，为什么客户更纠结了，还是说，真的就没有客户？</p>
+<p>但各位有没有想过为什么今年那些本就是县城中顶流的江浙县城，义乌、永康、温岭，还能继续刷新他们的豪宅记录。</p>
+<p>是因为购买力不够么？根据麦肯锡预测，到2030年，中国有66%的个人消费增量，都将来自县城，无论是被称为最猛县城的昆山，作为迄今为止，中国第一个以及唯一一个GDP破5000亿规模的县级市，昆山已经连续20年霸榜全国百强县之首，2024年同样位居百强县第一。</p>
+<p>世界小商品之都的义乌、中国五金之都的永康，包括纽扣之都永嘉县、眼镜之都丹阳...</p>
+<p>来自县城领域的力量，原比我们想象的有韧性，也让我们看见即使是县城，居民改善的需求依然在，而杀出重围的方法也已经写在题眼上了：<strong>品质驱动。</strong></p>
+<p>就给大家看两个细节，很难想象当我们还停留在义乌还是全国最牛逼的小商品县城的时候，在义乌看见了不输一线的豪华艺术会所。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1137" src="https://img.36krcdn.com/hsossms/20241023/v2_e1933a7425cf4d51a636e938eb18a0fc@337187376_oswg1155304oswg1080oswg1137_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">义乌凤起潮鸣会所《百鸟朝凤》，来源：绿城官方</p>
+<p>同样在慈溪的晓风印翠，绿城同样拿出了当地首个近8000平的全维实景示范区。</p>
+<p>这就是态度。甚至连一线城市都还没等来的四代宅，但是在义乌呈现出的质感是这样的。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1406" src="https://img.36krcdn.com/hsossms/20241023/v2_9236f4cf88434500ba1ec5cc45e03315@337187376_oswg2039514oswg1080oswg1406_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">华润义乌孝子祠澐璟</p>
+<p>本质上也是产品品质在驱动县城的改善力量，包括各位知道我们还在县城看见了什么吗，如今县城项目也要讲究<strong>用户圈层</strong>了。</p>
+<p>像融创也为义乌业主量身打造了“江山会”，提供包含豪车试驾、私宴体验、音乐会、财富交流沙龙、高尔夫增值体验等权益，充分满足他们的高端社交需求。</p>
+<h2><strong>04 结语</strong></h2>
+<p>所以今天聊了这么多关于江浙县城的反弹，当大家都在讨论楼市怎么回暖，其实只要市场仍然有需求，百姓有购买力，然后出现好的产品，这样的楼市就是能够回暖。</p>
+<p>这个赛道从来没有秘密，未来这个行业的供给侧<strong>一定是围绕着美好生活这个赛道去进行的。</strong></p>
+<p>一个好的产品依然是最受一座城市欢迎的那个，哪怕它只是存在于一个县城。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/cwQkJaWpCLu2KH3a4wq02g" rel="noopener noreferrer nofollow" target="_blank">“真叫卢俊”</a>，作者：真叫卢俊团队，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3004552499798017</guid><pubDate>Wed, 23 Oct 2024 12:05:00 +0800</pubDate></item></channel></rss>
