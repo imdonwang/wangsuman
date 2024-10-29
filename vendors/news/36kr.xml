@@ -1,363 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 29 Oct 2024 16:30:35 +0800</lastBuildDate><pubDate>Tue, 29 Oct 2024 16:30:35 +0800</pubDate><item><title>Grok图像理解功能上线，单挑ChatGPT结果惊人，无地标照片秒定位，18世纪手稿一眼识别</title><link>https://36kr.com/p/3013240735475209</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1065,407" src="https://img.36krcdn.com/hsossms/20241029/v2_54a5ec3596464111818beb509bfb6eb4@46958_oswg267364oswg1065oswg407_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>【导读】</strong>能识别并转录18世纪手稿、还能推测无地标照片拍摄地……马斯克本人也出来官宣：Grok现在能够理解图像了！</p>
-<p>就在刚刚，xAI为Grok增加了图像理解功能！</p>
-<p class="image-wrapper"><img data-img-size-val="744,247" src="https://img.36krcdn.com/hsossms/20241029/v2_dd27fa8ed1a74c509e4c5ffd0b748faf@46958_oswg29072oswg744oswg247_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>马斯克本人也出来官宣了，并称「Grok现在能够理解图像了，甚至还可以解释笑话」。</p>
-<p class="image-wrapper"><img data-img-size-val="864,216" src="https://img.36krcdn.com/hsossms/20241029/v2_f436f2a13f72493384e68b70720d1e96@46958_oswg48288oswg864oswg216_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="720,714" src="https://img.36krcdn.com/hsossms/20241029/v2_f4c8b3d29c75472482083857456a8a0a@46958_oswg694483oswg720oswg714_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在马斯克举的例子中，Grok根据给出的这张meme图，从场景设置、笑话的前提、转折、幽默之处、额外的幽默层面、视觉笑点6个方面来解释了它。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1416" src="https://img.36krcdn.com/hsossms/20241029/v2_78da25f213df48b1a87780788498fb93@46958_oswg236998oswg1080oswg1416_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>这个笑话幽默地利用了对历史和科学的误解。以下是详细解释：</p>
-<p><strong>场景设置</strong>：漫画展示了两个守卫站在山丘上，周围有许多标着「物理学家」的尸体。守卫们在讨论这些物理学家是否真的死了，还是在装死。</p>
-<p><strong>笑话的前提</strong>：幽默来自第二个画面中的关键台词，一个守卫说「艾萨克·牛顿发明了重力」。这句话暗示了这些物理学家之所以不动（因此看起来像是死了），是因为重力的存在。而实际上，牛顿并不是「发明」了重力，而是用数学描述了它。</p>
-<p><strong>转折</strong>：笑话的关键在于，每次检查尸体时，这些尸体都会被「发现」。这讽刺了科学方法中的「观察与实验」，即通过观察来发现规律。</p>
-<p><strong>幽默之处</strong>：这个笑话结合了对科学历史的误解（牛顿没有发明重力，而是描述了它）和对科学发现的字面理解。那些人躺在那里不动是因为重力的作用，但每次检查时，守卫却当作是每次都在「发现」新东西，而不是认识到重力是他们不起来的原因。</p>
-<p><strong>额外的幽默层面</strong>：情境的荒谬性也增加了笑料。守卫们在一个检查尸体死活的场景里，用科学发现的术语，这种不恰当的应用增强了喜剧效果。</p>
-<p><strong>视觉笑点</strong>：尸体周围标有「发现」的标签，而守卫们认真地讨论这些人是否真的死了，还是因为重力在「装死」，这种视觉上的荒诞感也加强了笑话的幽默效果。</p>
-<p>总体而言，漫画通过这种情景幽默讽刺了科学概念的误解或错误应用，同时还调侃了物理学家们对复杂理论的过度关注，以至于忽略了简单的现实状况。</p>
-</blockquote>
-<p>不少网友调侃道：Grok比美国政客还要聪明有趣！甚至连它都知道什么是笑话。</p>
-<p class="image-wrapper"><img data-img-size-val="886,198" src="https://img.36krcdn.com/hsossms/20241029/v2_81f943e86e264b949e9b0043db9097d7@46958_oswg76373oswg886oswg198_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但其实，这个笑话解释得太过复杂，让人云里雾里！</p>
-<p>有网友在评论区补充了更恰当的解释：「真糟糕，我以为笑话是，物理学家们听到牛顿『发明了重力』忍不住要起来纠正，所以才停止装死...」</p>
-<p class="image-wrapper"><img data-img-size-val="879,259" src="https://img.36krcdn.com/hsossms/20241029/v2_c73d6522b309454fb5a947b2bf21124a@46958_oswg58364oswg879oswg259_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不少网友讨论道：</p>
-<p>「是的，Grok的解释太过『高智商』以至于它重新变得愚蠢。」</p>
-<p>「Grok解读太多毁了这个笑话！」</p>
-<p class="image-wrapper"><img data-img-size-val="888,322" src="https://img.36krcdn.com/hsossms/20241029/v2_890c4e6abe0742b8b0678022d31ce296@46958_oswg131961oswg888oswg322_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有网友直言：「整个评论区都很奇怪，因为几乎没有人意识到Grok完全没理解这个笑话。那些知名的网红们都表现得像机器人一样。」</p>
-<p class="image-wrapper"><img data-img-size-val="879,249" src="https://img.36krcdn.com/hsossms/20241029/v2_8246874ac99f4f8f94a58df918c18826@46958_oswg116629oswg879oswg249_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>没想到马斯克本人出来官宣还闹了个乌龙！</p>
-<p class="image-wrapper"><img data-img-size-val="713,900" src="https://img.36krcdn.com/hsossms/20241029/v2_a2b14ee058724f36a56101f4158b92ba@46958_oswg658604oswg713oswg900_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过，除了理解笑话还不太行，Grok倒是在其他的图像理解任务中展现出了不错的水平。</p>
-<p>AI Breakfast发帖称：「Grok 2具有令人难以置信的OCR功能。它能够完美地转录这份几乎难以辨认的18世纪手稿文件。」</p>
-<p class="image-wrapper"><img data-img-size-val="786,214" src="https://img.36krcdn.com/hsossms/20241029/v2_d426cfdb624c42d3ab87d5251a10e299@46958_oswg40719oswg786oswg214_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,892" src="https://img.36krcdn.com/hsossms/20241029/v2_3aff0a5708cc44c895a7875e372226cc@46958_oswg166231oswg1080oswg892_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>宾夕法尼亚大学沃顿商学院的副教授Ethan Mollick也发帖称赞了Grok的图像理解能力。</p>
-<p class="image-wrapper"><img data-img-size-val="790,271" src="https://img.36krcdn.com/hsossms/20241029/v2_b9eddc25540a410db30d456fed89e6e7@46958_oswg64530oswg790oswg271_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>他将一张在日本大阪拍摄的照片传给Grok和GPT-4o，并让它们推测这张照片的拍摄地。据他所说，所有位置信息都从图像中删除，且没有可见的路标和广告牌。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1150" src="https://img.36krcdn.com/hsossms/20241029/v2_814845e0c433428392ec3a7b4adec82d@46958_oswg62027oswg1080oswg1150_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>GPT-4o回答道：「这张图片展示了一座大型工业起重机，位于水边，可能靠近一个港口或船厂。周围的建筑和起重机的结构表明，它可能位于一个具有大量海洋活动的城市的工业区。根据可见的细节，这个地点可能是在美国、日本或其他以重工业而闻名的沿海城市。」</p>
-<p class="image-wrapper"><img data-img-size-val="654,474" src="https://img.36krcdn.com/hsossms/20241029/v2_bef997b37af94b939b256945eb1afc3b@46958_oswg92627oswg654oswg474_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在被要求进一步缩小范围的时候，GPT-4o能直接猜到是日本。</p>
-<p class="image-wrapper"><img data-img-size-val="673,307" src="https://img.36krcdn.com/hsossms/20241029/v2_8d1a81f7b46a493699a9bb67f516c33b@46958_oswg47310oswg673oswg307_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Grok也同样先分析了一遍照片的内容，最后捕捉到了照片中的「亚洲感」，给到「很可能是像日本、韩国或新加坡这样的亚洲船厂」的结论。</p>
-<p class="image-wrapper"><img data-img-size-val="538,270" src="https://img.36krcdn.com/hsossms/20241029/v2_56eacdd3c65c49cf92a920d14f30f200@46958_oswg51336oswg538oswg270_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有网友也分别给Grok和GPT-4o发了一张在葡萄牙首都里斯本拍摄的照片，让它们推测这张照片的拍摄地。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,749" src="https://img.36krcdn.com/hsossms/20241029/v2_a410bde198ba4a86b1eb7bc245774651@46958_oswg123342oswg1080oswg749_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Grok回答道：</p>
-<blockquote>
-<p>图片中的陶瓷作品的设计让人联想到传统的代尔夫特陶器，这是一种荷兰锡釉陶器，以其蓝白配色而闻名。这种风格与荷兰有着密切的关联。因此，这张照片很可能是在荷兰拍摄的，或者是在一个荷兰风格陶瓷流行的地方拍摄的。</p>
-</blockquote>
-<p>GPT-4o回答道：</p>
-<blockquote>
-<p>这张图片展示了一件陶瓷作品，其设计风格让人联想到传统的葡萄牙或荷兰陶瓷，尤其是蓝色花卉图案配以白色背景的设计。这种风格通常出现在葡萄牙（Azulejos）或荷兰（Delftware）。鉴于你位于里斯本，因此葡萄牙很可能是拍摄地点。</p>
-</blockquote>
-<p>显然，ChatGPT完胜！但Grok的回答也不赖，已经十分接近正确答案。</p>
-<p>不过目前，Grok还不能处理某些文件格式（例如PDF）。一名用户在马斯克的帖子下评论道：</p>
-<p>「埃隆，Grok怎么回事？它无法处理照片或PDF，老实说，它在功能上感觉远远落后于ChatGPT。你曾对它进行了很多宣传，但作为用户，我可以告诉你：Grok需要重大改进。如果目标是设定一个新标准，它还远远不够。是时候让它赶上来了，你不觉得吗？」</p>
-<p class="image-wrapper"><img data-img-size-val="865,346" src="https://img.36krcdn.com/hsossms/20241029/v2_eb5ef4881698493c9f430fa7d73efb5d@46958_oswg82979oswg865oswg346_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>马斯克回复说：「不久后就可以了。我们在几个月内完成的事情是其他人花费数年时间才能做到的。」</p>
-<p class="image-wrapper"><img data-img-size-val="874,138" src="https://img.36krcdn.com/hsossms/20241029/v2_d0a582bea1e74e428541ce8f5d98f14e@46958_oswg41771oswg874oswg138_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>参考资料： </p>
-<p>https://x.com/grok/status/1850808322074509434</p>
-<p>https://x.com/AiBreakfast/status/1850961980892615161</p>
-<p>https://x.com/emollick/status/1851025478833819947</p>
-<p>https://x.com/MesutGenAI/status/1851048640472563798</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/8EFIPiLWw_M_1OWRuHy3KA" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：静音 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013240735475209</guid><pubDate>Tue, 29 Oct 2024 15:40:00 +0800</pubDate></item><item><title>2024Q3并购报告：98家上市公司出手并购，中企跨境并购热情持续不减</title><link>https://36kr.com/p/3013131062404353</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>并购活动不仅是企业扩张的手段，也是资本市场活力的体现。近来，监管部门多次提倡多措并举活跃并购重组市场，在投融资活动相对沉寂的背景下，并购市场却呈现出一番热闹景象，成为资本市场关注的焦点。 </p>
-<p>这一现象背后，是市场参与者在不断变化的经济环境和行业发展趋势中，寻求战略布局和资源整合的积极行动。 </p>
-<p>下面，IT桔子对2024年第三季度的并购市场进行梳理—— </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_a4fc1ec8cb584be3b33e296af36867fa@000000_oswg211644oswg1080oswg726_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">注：并购统计口径不包括当年已经明确被终止的并购交易，不含股权转让交易 </p>
-<p>IT桔子根据公开数据整理，2024年Q3中国企业并购市场的交易事件数量为181，其中境内交易168起，中企跨境并购（含港澳台和海外地区）交易有13起。 </p>
-<p>Q3季度并购交易量环比减少了19%，主要是因为境内并购交易数量较2024年Q2减少38起，环比下降17%，但相较于2023年Q3却明显增加，同比增幅为121%。总的来说，对比去年，从2023Q4季度开始，国内并购交易就有明显升温之势。 </p>
-<p>IT桔子数据显示，2024Q3中企跨境交易事件较2024年Q2仅减少了1起，最近4个季度以来，中国企业在海外地区的跨境并购保持相对活跃，跨境并购交易数均超过了10起。    </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_0fa5506b261b4f7da219fceeef2aa2a1@000000_oswg239719oswg1080oswg814_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从并购交易金额规模来看，据IT桔子统计， 2024年Q2中国企业并购交易规模创下了近7个季度以来的最高值，境内外并购总金额达1215.77亿元，2024年Q3中国企业并购交易总金额913.1亿元，环比减少24.8%，同比增长18.7%。 </p>
-<p>其中，境内并购交易额较2024年Q2减少286.07亿元，环比减少27.2%；中企跨境并购交易额较上个季度增加4.6亿元，环比增加5.2%。 </p>
-<p>2024年中国企业并购市场交易额规模与2023年相比有大幅增加，仅前3个季度的并购交易金额已远远超过2023全年的整体规模，达2955.6亿元。 </p>
-<p>总的来说，无论是并购交易数量还是金额，2024年中国企业并购市场均表现得相较于2023年同期更活跃。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_f95a6b0dcb4e40f19e7a5819dfc68f67@000000_oswg145221oswg1068oswg868_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从币种分布来看，毫无疑问，在境内并购交易中，人民币是核心货币，2024Q3季度境内并购交易有95%是采用人民币交易，4%采用美元交易，1%采用港元交易。 </p>
-<p>而在13起中国企业跨境并购交易事件中，币种应用的较为多元，主要看并购标的所在地区的货币。其中，采用美元交易的有6起，占比46%；采用欧元和人民币交易的各有3起、2起。 </p>
-<p>还有部分跨境并购交易采用了其他币种，如艾森股份收购马来西亚化学产品及制剂生产制造公司INOFINE Chemicals，交易金额为1400万林吉特（马来西亚货币）；希荻微以210亿韩元（折合人民币约1.09亿元）收购卖方持有的Zinitix合计30.91%的股权。 </p>
-<p>接下来，我们主要针对境内并购交易市场进行分析。 </p>
-<h2><strong>2024年Q3境内并购交易行业及买方分析</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_39c751729ddc4d729bb219609ef04c9e@000000_oswg216477oswg1080oswg769_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在2024年第三季度，先进制造行业共发生53起并购交易事件，涉及金额375.2亿元，占第三季度并购交易总金额的比重最大，为46%，成为国内并购资金体量最大的领域。其中，TCL集团通过控股子公司TCL华星光电技术有限公司收购乐金中国80%股权，交易价格达到108亿元人民币，是Q3季度国内并购金额最高的事件。 </p>
-<p>Q3国内并购资金量排在第二的是汽车交通行业，11起并购事件的交易总金额达139.47亿元，占比17%，其中超10亿元的并购事件有3起，分别是汽车整车及零部件制造商赛力斯并购重庆龙盛新能源和赛力斯汽车，动力机械制造商宗申动力并购机械设备制造商隆鑫通用。 </p>
-<p>而医疗健康行业则以15%的并购交易金额占比位列第三。相比之下，传统制造和企业服务行业的并购交易金额占比则相对较低，均不足10%。 </p>
-<p>回顾近7个季度，中国境内并购市场的交易金额呈现出显著的行业差异。 </p>
-<p>2023年上半年，汽车交通行业的并购交易金额一度占据最大比重，达到了35%。2023年第三季度，企业服务领域的一笔大额并购——秦淮数据的私有化交易，显著提升了该行业的并购交易金额，使其成为当季的并购热点。2023年Q4，医疗健康并购交易金额占比最高。 </p>
-<p>2024年Q1，医疗健康行业并购交易额占比32%，继续领先，但在接下来的两个季度，医疗健康行业融资总额占比不断下降，2024年Q3仅占比15%。先进制造行业则由2024年Q1并购交易金额占比18%上升至2024年Q3占比46%，与医疗健康行业占比呈现此消彼长的趋势。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_a9c830b42f5249cca4a3b456cab5bc3f@000000_oswg253846oswg1080oswg648_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2024年，并购交易事件数量最多的前十大细分行业分布在电子设备、生物技术和制药、新材料、新能源、集成电路、机械设备、企业IT服务、行业信息化及解决方案、汽车零部件、轻工制造、智能装备等行业，占整体交易事件的48.2%。 </p>
-<p>国内并购交易数量最多的细分行业是电子设备行业，共发生并购12起，估计交易总金额129.3亿元，超10亿元的并购事件有1起，为TCL集团收购乐金中国，交易金额108亿元；金额在1-5亿元之间的并购事件有8起，如华勤技术收购南昌春秋电子、巨星科技收购华达科捷等；金额不足1亿的有3起，分别是金杯电工收购德力导体科技、江浩潮科技收购百富电子技术、金卡智能收购佰鹿科技。 </p>
-<p>国内并购交易总金额最高的细分行业是集成电路，其中有2起超10亿元的并购事件，分别是维信诺以60.9亿元并购合肥维信诺、芯联集成以58.9亿元并购芯联越州。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_566add36e7d24648ba112d959cd05a9d@000000_oswg150693oswg1080oswg629_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2024年Q3国内并购交易事件中有约30%的交易金额未对外披露，还有七成披露了金额。 </p>
-<p>具体来看，非上市公司买家中，单笔交易金额在1亿元以内的并购事件中最为常见，占比达到43%，有24%的交易金额在1-5亿元之间。 </p>
-<p>由于并非所有的收购都是100%收购，多数股权的并购也很常见，所以不足1亿元的小额并购案在市场上还是偏多的。 </p>
-<p>在上市公司作为买家的国内并购事件中，单笔交易在1-5亿元的并购金额占据主要地位，达31%。此外，超10亿元的国内并购交易事件有12起，买家全部为上市公司。 </p>
-<p>由此可见，上市公司的资金实力非同小可。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_194d1dada86e411386b9ab51b258e677@000000_oswg167308oswg1080oswg750_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>根据公开数据，2024年Q3国内并购交易买方中，上市公司有98家，占比62%。其中A股上市87家，占比55%，港股上市11家，占比7%。 </p>
-<p>未上市的公司买方（包括独角兽和创业企业）有36家，占比23%；投资机构出手并购项目比重达到了10%，包括老牌机构中金资本、北汽产投、昌发展等国资背景机构作为买方参与了国内并购交易事件。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_40f65358319643b4aebe4cdf0f4eb22e@000000_oswg658494oswg1080oswg1020_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>根据IT桔子整理，2024年Q3发生在国内最大单笔并购金额为108亿元，为A股上市公司TCL集团收购乐金中国；A股上市公司汽车整车及零部件制造商赛力斯81.64亿元全资收购龙盛新能源，是今年三季度第二大并购交易事件；名创优品收购永辉超市29.4%股份，成第一大股东，交易价格达62.7亿元，是2024年Q3第三大并购交易事件。 </p>
-<p>2024年重大交易案TOP20的并购方中，有19家均为上市公司——其中A股上市有17家，港股上市并购方有2家。 </p>
-<p>2024年Q3单笔并购交易金额达10亿元的交易大额交易事件有12起，其中买方均为上市公司，可以说目前能够付高对价和溢价的还得看上市企业。 </p>
-<p>值得注意的是，在2024年Q3国内并购交易额TOP20的榜单中，有一家并购方的身影出现了两次，即汽车整车及零部件制造商赛力斯。 </p>
-<p>赛力斯在8月9日宣布以13.29亿元的对价收购了赛力斯汽车19.35%的股份，紧接着在9月13日，收购重庆产业母基金、两江投资集团、两江产业集团持有的龙盛新能源100%股权，交易价格高达81.64亿元。 </p>
-<p><strong>附表：2024年Q3中国企业跨境并购交易案</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_7817c2b4f2a24e06916bc8a2681b6c8a@000000_oswg296248oswg1080oswg755_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjQ2NzA2Mg==&amp;mid=2649616757&amp;idx=1&amp;sn=99f3c045180f6167ddbd98c8c53b7c3a&amp;chksm=bff9a980de3e3fc0be068c2cff8243bab056c4217a4768711dac1d110b80463dcfed676474d9&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“IT桔子”（ID：itjuzi521）</a>，作者：IT桔子，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013131062404353</guid><pubDate>Tue, 29 Oct 2024 15:41:00 +0800</pubDate></item><item><title>火星人单季亏近2600万，叫停5.8亿建楼</title><link>https://36kr.com/p/3013086620067336</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>营收、净利连续三年下滑的“集成灶龙头”火星人（300894.SZ），在勉强维持了2024年上半年一、二季度分别盈利3700万元、420万元后，还是在第三季度“破功”——单季归母净利润亏损近2600万元，扣非归母净利润亏损超2700万元。导致2024年1-9月的归母净利润只有1509万元左右，同比下降93.22%；扣非归母净利润885万元，同比下降95.65%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_d3db0a7b51074bd7916d8de792462e2e@000000_oswg67286oswg960oswg490_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>根据三季报披露，火星人除了在经营数据上萎缩外，对外采购、预收款、短期和长期借款、租金等也都出现了较大幅度的缩减。而就在今年7月份，火星人公告披露，终止用自筹的5.8亿元资金新建集团总部大楼项目。</p>
-<p>不过在主业收缩、投资叫停的同时，火星人在“交易性金融资产”项对比上年度末则增长184.09%，火星人给出的解释是“系银行理财产品购置所致”。</p>
-<p>10月28日，家电行业分析师刘步尘在接受时代周报记者采访时表示，一些制造型企业认为继续从事实业无法实现预期收益，往往会生出通过理财或股市生财的念头。但刘步尘认为，这不是一个实业型公司应该有的念头，因为这种投资也有不小的风险，类似的投资失败案例不少。火星人则没有回复时代周报的采访。</p>
-<h2><strong>第三季度新增理财2亿元</strong></h2>
-<p>火星人在2024年三季报中的“交易性金融资产”是3.13亿元，上年度末是1.10亿元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_fa55f77c6485409ab8bcf6c7b354edfb@000000_oswg85245oswg960oswg192_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>根据2024年半年报披露，火星人期末持有的交易性金融资产金额是1.12亿元，上半年公允价值变动损益199万元，卖出1236.35元。数据对比来看，仅仅在第三季度，火星人就花费2亿元买理财。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_7802fccf0f7943cfb3c5308baa5b192e@000000_oswg25010oswg960oswg311_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>10月28日，资深产业经济观察家梁振鹏向时代周报记者表示，银行理财是很多上市公司在自身主业、主营业务经营能力下跌，自身造血能力不行的时候采取的一种迂回战略、战术，但像集成灶这样的制造类企业，要在产品创新力上有突破，还是得回归制造本身。</p>
-<p>另据2024年三季报披露，今年前三季度火星人账上货币资金为5.38亿元，较上年度末16.5亿元下降67.38%，原因是“销售回款减少及理财购置增加”；应收账款8260余万元，较上年度末1.8亿元下降54.2%，原因是“销售量下降”；另外如使用权资产，今年前三季度170余万元，上年度末约为674万元，下降74.72%，原因是“租赁到期”；应付票据前三季度共6343万元，上年度末1.156亿，下降45.11%，原因是“采购减少、票据结算规模缩小”；应付账款近1.19亿元，上年度末近2.367亿元，下降49.92%，原因是“材料采购规模缩小”；合同负债近7682万元，上年度末近1.15亿元，下降33.18%，原因是“预收账款减少”。</p>
-<p>梁振鹏告诉时代周报记者，火星人三季度财务状况恶化，是因为集成灶在经历前几年的高速发展后，目前市场已经出现瓶颈，因为集成灶安装对公共烟道要做更改，从上排烟改为下排烟，时间一久容易积聚油烟，拆开清洗、维修的成本又比单独的油烟机高，弊端暴露出来则整个市场会下行。梁振鹏分析认为，火星人三季度亏损可能只是开始，四季度亏损还会加大。</p>
-<p>刘步尘则认为，若市场环境没有发生巨大变化，企业内部也没有发生剧烈动荡，企业经营业绩突然出现巨亏或巨盈，都是不正常现象，很大可能是财务核算出现了异常，或者发生了资产处理。“这意味着火星人四季度加剧亏损的可能性不大，该亏的已经通过三季度巨亏处理完毕。”</p>
-<h2><strong>停建新总部大楼项目</strong></h2>
-<p>在第三季度另外一件对火星人重要的事，是企业于7月19日召开的第三届董事会第十九次会议上，审议通过了《关于终止投资新建集团总部大楼项目的议案》，终止使用自筹资金人民币5.8亿元投资建设集团总部大楼项目。</p>
-<p>2021年2月27日，火星人与海宁鹃湖国际科技城管委会签订了集团总部基地项目投资合作意向协议，火星人计划使用自有资金通过“招拍挂”方式购买位于海宁市环城东路以西，海州东路以南地块内面积约25亩的产业用地，投资建设集研发中心、品牌运营中心、企业研究院、产品设计中心于一体的集团总部基地项目。</p>
-<p>在2020年的年报中，火星人的业绩正逐年增长，尤其是2019年较2018年大幅增长，现金流超4亿元。2021年的一季报相较2020年同期，净利润更是增长594.78%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_a4a99275c9714c739d920ec729a62039@000000_oswg24381oswg960oswg201_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>火星人2023年年报披露，公司连续多年集成灶行业营业收入第一，报告期末专卖店数量超过2100家，构建了从一二线城市、三四线城市到乡镇级市场的全国性的经销网络。根据奥维云网（AVC）全渠道推总数据显示：公司电商业务已连续多年线上销量、销售额集成灶行业第一。是《集成灶》行业标准、团体标准起草单位，是《家用和类似用途集成式洗碗机》第一起草单位,《智慧厨房场景厨改服务规范》团体标准起草单位。</p>
-<p>据海宁市政府官网今年4月份发布的文章，海宁鹃湖国际科技城被称为海宁“硅谷”，是以浙江大学海宁国际校区为核心。据时代周报记者向海宁当地政府人士了解，海宁鹃湖国际科技城是海宁全市重点发展的区域。</p>
-<p>对于3年后终止新大楼的建造，火星人公告披露是因为项目用地规划存在不确定性，公司至今未取得该项目用地的国有土地使用权。</p>
-<p>火星人表示经过数年的发展，目前的办公场所以及办公环境已能较好地满足当下需要，新建总部大楼的必要性较小。基于对当前宏观经济形势、未来产业发展趋势的判断，结合实际经营状况，从公司整体战略角度出发，合理调配资金，切实维护、保障公司及投资者的利益，经董事会审慎研究，决定终止投资新建集团总部大楼项目。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NzQ4OTIyMQ==&amp;mid=2247532552&amp;idx=4&amp;sn=7d83f1c64f7250c33d75a0d708eaf331&amp;chksm=e80085e6db1eb220f9e8cf964229de95d4ccd83bb71e1fd8c232ce6288f4472de15e4d9c2f5d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代财经APP”（ID：tf-app）</a>，作者：徐超，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013086620067336</guid><pubDate>Tue, 29 Oct 2024 15:45:00 +0800</pubDate></item><item><title>马斯克画的饼，波士顿动力要实现了？</title><link>https://36kr.com/p/3013153500918660</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>人形机器人行业又迎来一对新的强强联合。 </p>
-<p>近期，波士顿动力宣称，会使用丰田研究所的“大型行为模型”来训练机器人，它类似于驱动ChatGPT的“大型语言模型”，可以让机器人通过少量演示数据和多模态感知来掌握复杂任务，走向通用机器人。</p>
-<p><strong>在过去，这条技术路径一直是马斯克为Optimus</strong>（下称“擎天柱”）<strong>画的“饼”，想借此实现通用人形机器人。</strong></p>
-<p>今年10月初，马斯克以《We, Robot》为主题在加州开了一场“科幻”味儿十足的发布会。在现场，擎天柱以服务员的身份一边为宾客调酒，一边抬手打招呼说着“Hi,everybody”，甚至在现场和宾客热舞。</p>
-<p>但发布会结束后，有现场宾客却表示，擎天柱“亲口”向他承认，自己是被远程遥控的。而整个发布会，马斯克也没有透露关于擎天柱的任何技术细节。</p>
-<p><strong>看似自主的机器人，依旧离不开人类的远程遥控。</strong></p>
-<p><strong>马斯克似乎做了一个双面镜，一面是真实的擎天柱仍然做着人类的提线木偶；而另一面，他又用一种近乎虚假的方式为人们构画出一个可能实现的未来。</strong></p>
-<p>但显而易见，马斯克并没有兴趣解答擎天柱当前的研发进度，那么作为马斯克在机器人领域的强敌， 波士顿动力这次与丰田研究所的联合，能将马斯克画的饼实现吗？</p>
-<h2><strong>波士顿动力，率先走到终点？</strong></h2>
-<p>想要完成马斯克这张拼图，擎天柱需要拥有与人类和环境交互的能力。</p>
-<p>比如将机器人放在厨房，它首先要能识别出自己所处场景是“厨房”。然后，当人类告诉他要做一道菜时，它可以主动从冰箱拿出食材、清洗、切菜、并按步骤烹饪。</p>
-<p>要实现这个过程，意味着机器人能够自主辨别什么是冰箱，并移动到冰箱前，打开冰箱门，在众多食材中找到需要的食材，取出来，然后结合各种工具进行清洗.....</p>
-<p>这个过程对人类来说十分简单，但对机器人而言却十分困难。</p>
-<p><strong>当前无论是老牌人形机器人波士顿动力的Atlas，还是“新贵”擎天柱、Figure，都只能在受限制的环境里执行单一任务，比如在案板前将已经分拣好的各种蔬果拿起或者放下。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="600,338" src="https://img.36krcdn.com/hsossms/20241029/v2_3f3392d283454288942ae98e8a929f14@5954580_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲ Figure01拾取水果，图源YouTube@Figure </p>
-<p class="image-wrapper"><img data-img-size-val="600,336" src="https://img.36krcdn.com/hsossms/20241029/v2_b0cd0d7db4f348e6baf6899a7f95ee99@5954580_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲ Optimus Gen2拾取鸡蛋，图源YouTube@Tesla </p>
-<p>要知道这其中的区别，可以想一想咱们自己家里的冰箱，当各种食材被混杂在一起、用透明塑料袋装着的时候，识别难度就会高于单个的西红柿、红薯。</p>
-<p><strong>所以如果将机器人自主做出一顿饭的难度，比作是登上珠穆朗玛峰，那么现在的人形机器人才刚刚坐进学步车。对，它还没有学会“走路”。</strong></p>
-<p><strong>而更重要的是，当前机器人学习新技能的效率十分低下，比如学会了叠衣服之后，转而叠被子就要重新学习大量数据。</strong></p>
-<p>为了克服这个难题，波士顿动力和丰田研究院团队采用一种新的AI系统“大型行为模型”训练机器人，通过物理演示任务（例如观看视频）进行教学，来帮助将Atlas打造成一款自主性能力强的通用人形机器人。</p>
-<p>经过这套“大型行为模型”的训练，机器人可以通过少量数据学习新技能，这种方法叫做<strong>“扩散策略”</strong>，这套策略可以探索多种不同的路径，并根据实时情况选择最佳方案，它可以帮助机器人更好地应对不确定性的环境，比如突然的障碍或任务变化。</p>
-<p>丰田研究院公布了关于这一成果的报告，其中有一个通俗案例可以解释这个策略：</p>
-<p>经过扩散策略训练的机器人，可以做酱汁烧注和涂抹任务，需要将酱汁涂抹在披萨面团中心，分拆步骤来看：①握住勺子接近披萨面团中心；②将酱汁以螺旋状铺在披萨上；③提起勺子。</p>
-<p class="image-wrapper"><img data-img-size-val="462,259" src="https://img.36krcdn.com/hsossms/20241029/v2_cc3b83946def4739bef56ce3c095c8b9@5954580_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲ 论文《扩散政策：通过动作扩散进行视觉运动策略学习》 </p>
-<p>在这个过程里，披萨面团会随机移动，而机器人可以“随机应变”，它能跟随披萨面团中心位置的迁移而即时挪动勺子。</p>
-<p>根据丰田工作人员透露，学会这个能力并不费劲，“这个过程从老师远程操作演示一小部分技能开始”，机器人晚上学习，第二天就可以获得新技能。也就是说，它用少量数据向机器人演示，便能够让机器人获得“泛化”能力。</p>
-<p><strong>和传统的机器人学习相比，这种行为模型就像运动界的ChatGPT一样，给它一点行为上的Prompt，就能泛化出一套完成任务的操作轨迹和应变能力。</strong></p>
-<p><strong>但并不是任何人形机器人都能适配这套策略，扩散策略更依赖视觉数据，这就需要硬件上拥有高精度视觉传感器，还要拥有抓取复杂和精细物体操作能力。</strong></p>
-<p>这也是目前波士顿动力面临的挑战。</p>
-<p><strong>其最新款人形机器人Atlas目前并不具备实现“自主”的硬性条件，它既没有灵巧手，又缺乏生活场景的数据。</strong></p>
-<p>Atlas机器人虽然具备一定的抓握能力，但其手部设计相对简单，只有三指，并且常用场景是应急救援和工厂搬运，对于生活场景的数据也相对缺乏。</p>
-<p>与此相比，特斯拉的擎天柱却显得更有优势。</p>
-<p>比如在视觉数据上，特斯拉的自动驾驶一直坚持纯视觉的解决方案，目前市场上运行着将近600万辆特斯拉汽车，可以积累大量的视觉数据。</p>
-<p>其次擎天柱在灵巧手、关节有更接近人类的设计。在特斯拉最新展示的视频里，擎天柱可以走到桌边，用双手的“指尖”举起重11kg的4680电池盒。</p>
-<p>这双机械手已经拥有22个自由度，分布在手指、手腕和小指下方，而年初手部拥有11个自由度的第二代擎天柱，所有手指都具有触觉感应，能够灵巧地处理鸡蛋等易碎物品。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,510" src="https://img.36krcdn.com/hsossms/20241029/v2_d4301a286d104a6ba85aaad8be96758e@5954580_oswg635086oswg1080oswg510_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲ 擎天柱举起电池，图源：Tesla@YouTube </p>
-<p>所以，虽然波士顿动力和丰田研究院的找到了一种更有效率的机器人训练方式，但想要比擎天柱更快实现真正的自主性，Marc Raibert或许需要联合他的老搭档---曾一起在MIT腿部实验室共事、丰田研究所的CEO兼丰田汽车公司首席科学家Gill Pratt，对目前Atlas的机械手作一番改造，并且补足视觉识别所需要的硬件能力。</p>
-<h2><strong>马斯克钟爱“奇迹厨房”</strong></h2>
-<p>与波士顿动力联合丰田研究院发布的新技术相比，马斯克更钟爱打造“奇迹厨房”。</p>
-<p><strong>所谓“奇迹厨房”，是指夸大产品能力的科技营销行为。</strong></p>
-<p>1959年7月，《展望》杂志刊登了一篇描述未来“奇迹厨房”的文章，让美国人认为，未来自己家庭会有功能齐全、十分智能的厨房，在美国的宣传片中，有一部分电器的运作会被含糊其辞地描述为“自主”的：</p>
-<p>“推车会将吃完饭后的脏盘子，推到墙面，进行自动清洗和干燥”</p>
-<p>“清洁器可以从墙上自动出来，在清理完地面后，会自动回归原来的位置”</p>
-<p>“挥一挥手”就能召唤出隐藏在墙面的饮料机，告诉它“我想喝一罐冰冻橙汁”，饮料机就会自动出水</p>
-<p class="image-wrapper"><img data-img-size-val="899,1280" src="https://img.36krcdn.com/hsossms/20241029/v2_de16c05a725143f1b394c90316d62e1b@5954580_oswg1457162oswg899oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲ 吸尘机器人，照片由Robert S. Lerner Photography LLC拍摄 </p>
-<p>但这些在50年代令人感到惊奇的黑科技，却是一个实实在在的谎言。</p>
-<p>2013年，一位“奇迹厨房”设计师成员揭露，自动洗碗机和清洁器这些“自走式电器”根本无法正常工作，而是工作人员在后台通过遥控操作，让一些隐藏在地板下的电子轨道辅助完成的。</p>
-<p>“奇迹厨房”本质上是冷战时期的一种营销工具，设计初衷是为了吓唬苏联游客，让他们产生“一无所有”的感觉。</p>
-<p><strong>但从马斯克的角度，他上演“奇迹厨房”的目的，显然并不是为了让人觉得自己一无所有，反而是为了让人们知道自己未来可能会拥有什么。</strong></p>
-<p>2021年9月，马斯克在特斯拉AI Day上突然宣布进军人形机器人领域，配合他宣传的是一段“机器人”的热舞，当时这些机器人还只是身穿紧身衣的人类舞者，而仅仅一年之后，擎天柱的原型机就被人搀扶着走上了发布会。</p>
-<p><strong>一直以来，马斯克都以这种近乎夸张的方式，超前兜售自己的梦想。今年的《We,Robot》发布会也是如此。</strong></p>
-<p>在10月初的《We,Robot》发布会上马斯克用了一种科幻手法，在香槟美酒和灯光舞影之下，一群擎天柱与人类其乐融融地相处，甚至在一个玻璃房里集体大跳“夜店舞”。</p>
-<p class="image-wrapper"><img data-img-size-val="600,336" src="https://img.36krcdn.com/hsossms/20241029/v2_81af5b66e1d846bcaf4b87d06c2b4103@5954580_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲ 擎天柱热舞，图源Tesla@YouTube </p>
-<p>可能是因为擎天柱的表现过于自然，以致于现场宾客几乎没有格格不入感。</p>
-<p>但宾客很快就发现了不对劲。在现场，不同擎天柱的音色不尽相同，并且它们与人类互动的反应是即时的，还伴随着顺滑的手势，相比于自主，更像远程遥控。</p>
-<p>连擎天柱自己都承认了这一点，前微软战略家Robert Scoble在X上分享了一段视频，他在现场向擎天柱发问：“How much of you is AI？Some or none.”（你的表现里有多少成分是AI驱动？一点点，还是完全没有？），擎天柱回复“It might be some.”</p>
-<p><strong>擎天柱就像提线木偶，和背后操纵它的人类共同演了一场戏。</strong></p>
-<p>马斯克并不是第一次这么做，2024年1月份，他在X上发了一个擎天柱叠衣服的视频，并配文“擎天柱在折衬衫。”</p>
-<p class="image-wrapper"><img data-img-size-val="850,478" src="https://img.36krcdn.com/hsossms/20241029/v2_d207f27378f9421d9fddf31aa4bc4f24@5954580_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲ 擎天柱折衬衫，图源X@Elon Musk </p>
-<p>眼尖的网友从视频上看到一只快速闪现的手，擎天柱很快被质疑背后由人类远程操控，马斯克也亲自承认了这一点，他发了一条“重要提示”：擎天柱还不能自主地做到这一点。</p>
-<p><strong>马斯克的做法，与当年“奇迹厨房”的构建如出一辙。通过模棱两可地描述，来构建一个似有似无的科技场景。</strong></p>
-<p>虽然很多人对于这样的营销方式不满，但一些机器人从业者表示理解，谷歌DeepMind一位工作人员Ted Xiao在X上直言“实现低延迟全身远程操作是迈向自主化的一大步”。</p>
-<p>特斯拉机器人工程师Milan Kovac在X上也承认擎天柱“一定程度上有人类的帮助”，但它们可以自主行走，并且在保持平衡的情况下，跳了4个小时的舞蹈，期间只摔倒过一次。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1242" src="https://img.36krcdn.com/hsossms/20241029/v2_1ac1deffb2df44ba9207fef45eed4628@5954580_oswg753611oswg1080oswg1242_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲ 特斯拉机器人工程师Milan Kovac，X@Milan Kovac </p>
-<p>总结起来看，虽然擎天柱每一次的出场，都有着遥操的成分，但它在遥操模式下的表现越来越好。</p>
-<p>而马斯克就好像在完成一张庞大的拼图，一点一点地累积擎天柱的能力，让它从一个需要被搀扶着上台的“机器”，逐步变身为一个“有血有肉”的“类人”物种。</p>
-<p><strong>擎天柱研发每走到一个新的阶段，马斯克就开始启动一次“奇迹厨房”，用营销上的含糊口径，向外界秀一遍自己脑中关于擎天柱的拼图全貌。</strong></p>
-<p>哪怕这张拼图可能才完成百分之一。</p>
-<h2><strong>结语</strong></h2>
-<p>1939年，在纽约的世界博览会，西屋电气公司推出一款身高7英尺（2.1米）的机器人Elektro，它的外形酷似人类，会抽烟、会用手指数数，可以通过语音命令行走、会说700个单词。</p>
-<p>一经出现，Elektro就成为大众心中的文化偶像，他激发了当时的人们对未来机器人的想象。</p>
-<p class="image-wrapper"><img data-img-size-val="756,542" src="https://img.36krcdn.com/hsossms/20241029/v2_64e4b0ae84014aeca64e07c0992a6977@5954580_oswg571582oswg756oswg542_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲ A Blast from the Past，图源justoborn-Elektro Robot </p>
-<p>但实际上就像特斯拉擎天柱第一次登上发布会一样，Elektro的一切都是假的，它其实是用内置78rpm的唱片机来朗读预先录制的词汇。</p>
-<p><strong>但85年后的今天，Elektro展示的一切已经成为现实。越来越多企业开始联合，共同推动人形机器人的发展。</strong></p>
-<p>比如为了给给机器人安装大脑，波士顿动力、Figure都选择了寻找软件实力强的合作伙伴，前者找到了丰田，后者绑定了OpenAI.</p>
-<p>与他们相比，马斯克就像一个孤胆英雄，他选择了软硬件自研的路径。</p>
-<p>不论是哪一种方法，在探索新物种的道路上，都充满荆棘。</p>
-<p>人类一直试图厘清自己“从哪里来”，并据此衍生出女娲造人、亚当夏娃这些神话故事。</p>
-<p>在这些神话里 ，中国的女娲、欧美的耶和华神，都充当着人类“造物主”的角色。而人形机器人，则是人类自己企图成为“造物主”的具象体现。</p>
-<p>这个物种需要和人类一样，拥有自己的思想和行动。</p>
-<p>但现在，人们还只能在“奇迹厨房”里，等待着它们的到来。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/aM8fLyC2GiZta2eDKUF8BQ" rel="noopener noreferrer nofollow" target="_blank">“有界UnKnown”</a>，作者：钱江，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013153500918660</guid><pubDate>Tue, 29 Oct 2024 15:47:00 +0800</pubDate></item><item><title>3300点拉锯战，机构在买什么？</title><link>https://36kr.com/p/3013179120674053</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在经历今年9月末的急涨后，近期上证指数围绕3300点展开拉锯战。市场调整背后，机构资金流向了何处？</p>
-<p>万得（Wind）数据显示，随着行情的变化，机构资金（依据万得标准划分：单笔成交额大于100万元为机构资金，下同）开始调仓。2024年9月24日-10月8日大涨行情中被机构资金净卖出的光伏设备行业，在10月9日市场进入3300点拉锯战阶段后，位居申万三级行业机构资金净买入榜首位。</p>
-<p>而在9月24日-10月8日被机构资金大举净买入的证券、保险、IT服务等行业，在10月9日-28日，被机构资金大举净卖出，其中证券行业位居机构净卖出榜首。</p>
-<p>港股市场上，万得数据显示，<strong>10月9日-28日，机构资金净买入额前三大行业，分别是国有大型银行、社交、本地生活服务行业。</strong></p>
-<p>其间，A股市场中，光伏设备上涨4.58%，位居行业第16位，上证指数下跌4.8%。港股市场上，国有大型银行上涨2.73%，恒生指数下跌1.56%。</p>
-<p>对于后续哪些行业值得关注，多家机构表示，看好消费和科技板块的机会。其中，新能源材料等新质生产力科技公司被认为具有明确的主线机会。此外，“中字头”央企亦被看好。</p>
-<p>“我们关注优质成长股的投资机会，这些成长股更多出现在消费和科技板块中，政策支持经济企稳后，业绩层面和估值均具较强驱动力。”老牌百亿私募星石投资对《财经》表示，具体来看，<strong>消费有望受到稳经济政策支持，行业内优质公司盈利已率先恢复正增长。科技行业新质生产力是政策长期支持的方向，部分科技行业已经或正在实现技术突破，当前宏观环境下有利于其估值提升。</strong></p>
-<p>另有多家机构看好央行互换便利新货币工具的推出带来的“中字头”央企后市投资机会。财通基金认为，互换便利工具为“中字头”央企提供了实施操作的机会，市场对于高低位切换的需求在增加，央企作为市场的中坚力量，其表现对于整个股市的稳定和发展具有重要的影响。</p>
-<h2><strong>逆势加仓光伏设备</strong></h2>
-<p>在近期3300点的拉锯战中，虽然A股机构资金整体呈现净流出状态，但光伏设备、国有大型银行仍被机构大举买入。</p>
-<p>万得数据显示，<strong>2024年10月9日-28日，A股市场机构资金净流出约2729亿元。虽然整体呈现净流出状态，但也有部分行业在市场横盘时被大举买入。</strong></p>
-<p>其间，申万134个三级行业中，28个行业机构资金净买入金额为正，净买入超亿元的行业为13个。其中，光伏设备、国有大型银行、贸易分居机构资金净买入前三名，净买入金额分别为28亿元、6.96亿元、5.15亿元。</p>
-<p>同期，光伏设备、国有大型银行、贸易板块涨幅分别为4.58%、-0.67%、8.39%，分居第16位、第74位、第7位。其间，上证指数下跌4.8%。</p>
-<p>而在近期A股调整前的大涨阶段，即9月24日-10月8日，国有大型银行、光伏设备被机构大举卖出，机构资金净流出金额中，国有大型银行、光伏设备分别为43.24亿元、11.53亿元，分居机构卖出榜第1位、第19位。同期，上述两个行业涨幅分别为8.2%、55.88%，分居行业第132位、第6位。</p>
-<p>从前期大涨期间净卖出到市场调整后的净买入，机构调仓的背后，与行业基本面信息的变化息息相关。</p>
-<p>受行业低迷影响，A股光伏设备行业2024年上半年归母净利润亏损4.25亿元，同比下滑100.6%，跌幅位居申万三级行业第10位，该行业内超七成上市公司归母净利润同比下滑。2024年初至9月23日，光伏设备行业下跌38%，位居第五位，其间超三成公司股价腰斩。</p>
-<p>今年10月中旬，中国光伏协会在上海举行防止行业“内卷式”恶性竞争专题座谈会，各企业就“强化自律、防止恶性竞争等问题”达成共识。有券商称，光伏行业低价竞争的恶性负反馈有望结束，催生行业盈利周期有望向好，行业底部拐点渐行渐近。</p>
-<p>万得数据显示，截至10月28日，A股光伏设备行业有22家公司发布2024年三季度报告，其中50%的公司三季度归母净利润环比实现增长，相对于二季度该数据41%的比例，有所提升。</p>
-<p>银行层面，2024年10月12日，财政部部长蓝佛安在国新办新闻发布会上表示，将在近期陆续推出一揽子有针对性增量政策举措，包括发行特别国债支持国有大型商业银行补充核心一级资本，提升这些银行抵御风险和信贷投放的能力，更好地服务实体经济发展。 </p>
-<p>在中泰证券看来，对大行补充资本有助于保障大行对实体、地产等行业的有效支撑，维持适当资产增速，增强长期持续盈利及分红能力，有利于高股息可持续。</p>
-<p>从个股资金流向来看，<strong>2024年10月9日-28日，机构净买入前十大个股中，通威股份（600438.SH）、隆基绿能（601012.SH）、沃尔核材（002130.SZ）分居前三位。</strong>其中，通威股份以19.36亿元的金额，位居机构净买入榜首位，光伏行业有三家公司上榜。其间，通威股份、隆基绿能、沃尔核材股价涨幅分别为18%、4%、35%。</p>
-<p>港股方面，2024年10月9日-28日，国有大型银行、以腾讯控股（0700.HK）为代表的社交、以美团-W（3690.HK）为代表的本地生活服务分别以21.11亿元、10.7亿元、7.48亿元的机构净买入金额，分居前三位。其间，国有大型银行板块上涨2.73%。</p>
-<p>个股方面，腾讯控股（0700.HK）、建设银行（0939.HK）、工商银行（1398.HK）分居同期港股机构资金净买入额前三，金额均超8亿元，其间腾讯控股股价下滑4.88%，建设银行、工商银行股价涨幅均超1%。</p>
-<p>同期，机构净买入前十大公司中，银行和互联网电商均有两个席位，另有美团-W（3690.HK）、小米集团-W（1810.HK）等公司上榜。</p>
-<h2><strong>后市关注什么？</strong></h2>
-<p>市场进入前期普涨行情之后的第二程，行业和个股走势开始明显分化。机构资金后市会重点关注哪些行业和板块？</p>
-<p>对于机构资金近期买入的光伏板块。海通国际在10月研报中分析称，从近期部分公司项目投标价格来看，光伏行业协会对组件价格不低于0.68元/瓦的呼吁起到立竿见影的效果，光伏产业链价格有望企稳。“限制组件最低价中标，有助于行业价格维稳、龙头集中度提升、新技术加速推广，而供给侧结构性改革，标志光伏出清有望加速，当前光伏已处于周期底部，且边际改善信号已出，建议重视光伏拐点型机会。”</p>
-<p>在汇丰晋信基金看来，整个宏观环境和政策都可能会发生一些明显变化，有望促进内需加速修复，看好消费和科技板块，新能源材料等新质生产力科技公司是后续更明确的主线机会，科创板中的投资机会可能会更多。</p>
-<p>9月26日召开的中共中央政治局指出，要把促消费和惠民生结合起来，促进中低收入群体增收，提升消费结构。</p>
-<p>观富资产创始人、总经理詹凌蔚重点关注三条主线：AI半导体为代表的算力革命硬科技，叠加了进口替代、产业自主等逻辑，弹性巨大；汽车行业为代表的中国制造业出海，类似于20世纪70年代后半期，日本依靠丰田和本田走出自己的朱格拉周期；政策扶持领域，主要是券商和地产。</p>
-<p>中信建投证券认为，<strong>参照以往A股牛市轮动节奏，资金流动趋稳后，市场后市有望向政策能够有效落地的方向和三季报较好的方向展开，主要为电子、医药和计算机（信创）等新质生产力科技板块机会。</strong></p>
-<p>毕盛投资联席投资总监王康宁告诉《财经》：“此前行情已使所有行业受益，但在复苏的下一阶段，投资者应更加谨慎。我们目前组合超过90%的仓位布局在港股市场，更看好半导体、电动汽车组件、军工等硬科技，以及医药健康、消费、软件服务、网络安全等港股板块机会。”</p>
-<p>东恺投资副董事长、投资总监冯洁对《财经》表示：“市场保持日交易量在1万亿元量级上，券商板块龙头公司将持续受益，并最快在四季度财报中体现业绩。”其同时指出，各板块国之重器的公司将在本轮估值修复行情中受益，弹性最大的是持有这些资产的保险股，也将在四季度财报上有所收获。</p>
-<p>此外，多家机构还看好央行互换便利新货币工具的推出带来的“中字头”央企后市投资机会。</p>
-<p>浦银国际认为，经营稳健、现金流充沛、分红水平较高的龙头央企上市公司具有中长期投资价值，市场短期回调可能会提供更好的入场机会。</p>
-<p>银河证券则认为，首先，互换便利工具的创设直接利好非银金融机构，能够提高非银金融机构的融资能力和加杠杆能力，从而提高非银金融行业的投资价值。其次，互换便利工具还将有助于带动基础化工、轻工制造、纺织服饰、社会服务等前期超跌板块反弹回升，未来空间较大。</p>
-<p>亘曦资产告诉《财经》，其后市操作方向重点为四条主线：外资及机构愿意加仓的方向，如中国优势制造业，包括新能源、汽车及零部件、机械、化工；政策改善或受益的方向，主要为地产产业链及金融；受益于人口老龄化趋势加速的相关方向，如医疗等；围绕高质量发展的安全主题方向，如军工、半导体与国产替代等。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkwNzY5NDI0Mw==&amp;mid=2247519959&amp;idx=1&amp;sn=9a6ca7e67b71de15f028b8554480318b&amp;chksm=c12d9bcec6a2051844c8015a2a051a7e423298db9015aa91146171b76a501bc267f34e949da6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“读数一帜”（ID：dushuyizhi007）</a>，作者：张建锋 康国亮，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013179120674053</guid><pubDate>Tue, 29 Oct 2024 15:48:00 +0800</pubDate></item><item><title>一个模型走天下，智源提出全新扩散架构OmniGen，AI生图进入「一键生成」时代</title><link>https://36kr.com/p/3013240814052611</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="852,456" src="https://img.36krcdn.com/hsossms/20241029/v2_e180ba08e7d04bae87dff3a4e5688f42@46958_oswg307991oswg852oswg456_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>【导读】</strong>LLM统一了语言生成任务，图像生成可以吗？就在刚刚，智源推出了全新扩散模型架构OmniGen，单个模型就能生成图像，彻底告别繁琐工作流！</p>
-<p>大语言模型（LLM）的出现统一了语言生成任务，并彻底改变了人机交互。 </p>
-<p>然而，在图像生成领域，能够在单一框架内处理各种任务的统一模型在很大程度上仍未得到探索。 </p>
-<p>近日，智源推出了新的扩散模型架构OmniGen，一种新的用于统一图像生成的多模态模型。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,354" src="https://img.36krcdn.com/hsossms/20241029/v2_5a0e8a7328e24c81ac22d8203666f2a6@46958_oswg106267oswg1080oswg354_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://arxiv.org/pdf/2409.11340</p>
-<p>代码仓库：https://github.com/VectorSpaceLab/OmniGen</p>
-<p>Demo: https://huggingface.co/spaces/Shitao/OmniGen </p>
-<p>OmniGen具有以下特点： </p>
-<p><strong>统一性：</strong> OmniGen天然地支持各种图像生成任务，例如文生图、图像编辑、主题驱动生成和视觉条件生成等。此外，OmniGen可以处理经典的计算机视觉任务，将其转换为图像生成任务。</p>
-<p><strong>简单性：</strong> OmniGen的架构高度简化。此外，与现有模型相比，它更加用户友好，可以通过指令完成复杂的任务，而不需要冗长的处理步骤和额外的模块（如ControlNet或IP-Adapter），从而大大简化了工作流程。</p>
-<p><strong>知识迁移：</strong> 受益于统一格式的学习，OmniGen有效地跨不同任务迁移知识，应对未见过的任务和领域，并展示新颖的功能。研究人员还探讨了模型的推理能力和思维链机制的在图像生成领域的潜在应用。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,898" src="https://img.36krcdn.com/hsossms/20241029/v2_9157546e094f4315ac6fdfc18aabc854@46958_oswg1010116oswg1080oswg898_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>基于OmniGen的通用能力，可实施更灵活的图像生成，以上展示一个简单 Pipeline：文本生成图像，编辑生成图像的部分元素，根据生成图像的人体姿态生成重绘图像，从另一图像中提取所需对象与新图像融合</p>
-<h2><strong>介绍</strong></h2>
-<p>近年来，许多文生图模型在生成式AI的浪潮中脱颖而出。然而，这些出色的专有模型仅能基于文本生成图像。当用户产生更灵活、复杂、精细等的图像生成需求时，往往需要额外的插件和操作。 </p>
-<p>例如，若想参考任一姿态生成图像，常规方法是：用姿态检测器从参考图像中估计姿态作为条件输入，并加载对应的Controlnet插件，最后提取条件输入的特征馈入扩散模型生成图像。 </p>
-<p>此外，若想基于合照中的特定人物生成新图像，流程更加繁琐，需要裁剪图像以确保结果图像仅包含目标人物。而诸如InstandID等方法还需使用额外的人脸检测器提取面部信息，并用面部编码器提取特征以输入模型。 </p>
-<p>值得注意的是，各种不同的生成任务甚至还需更多不同的插件和操作，如此复杂、琐碎而冗长的工作流极大地增加了训练和应用的成本。 </p>
-<p>然而，即便如此繁琐，有时也仍难以满足一般的图像生成的需求，例如基于指定多张照片中的实体生成新图像。 </p>
-<p>相反，在文本生成领域，以ChatGPT为代表的模型可通过人类指令直接处理各种文本任务。 </p>
-<p>那么，在图像生成领域，能否通过单个支持多种输入且耦合多项能力的模型，基于用户指令完成各种生成任务，而无需各种繁杂的流程吗？ </p>
-<p>为解决这一挑战性问题，智源发布了<strong>统一图像生成模型OmniGen</strong>。 </p>
-<p>OmniGen模型具有良好的简洁性和易用性，集成了多种基础图像生成任务，包括但不限于：文生图、图像编辑、角色一致性生成、基于视觉条件的生成等。OmniGen支持基于任意多模态的文图指令完成任务，而无需任何其他额外插件和操作。 </p>
-<h2><strong>能力</strong></h2>
-<p>OmniGen集多项能力于一体，包括但不限于： </p>
-<p>文本到图像生成（Text to Image Generation）</p>
-<p>指代表达生成（Referring Expression Generation）</p>
-<p>通用图像条件生成（General Image Conditional Generation）</p>
-<p>图像编辑（Image Edit）</p>
-<p>经典计算机视觉任务：图像去噪、边缘检测、姿态估计等</p>
-<p>一定的上下文学习能力（In-context Learning）</p>
-<p>以下简要展示部分能力效果： </p>
-<h3><strong>1. 文本到图像生成</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="1080,925" src="https://img.36krcdn.com/hsossms/20241029/v2_bf594bd9a21c45edb6d89fcc580766f2@46958_oswg183591oswg1080oswg925_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>2. 指代表达生成</strong></h3>
-<p>OmniGen具备类似InstandID、Pulid等模型生成角色一致性图像等能力，即：输入具有单个对象的图像，理解并遵循指令，输出基于该对象的新图像。 </p>
-<p>同时，OmniGen具有更高阶的能力：指代表达生成能力，我们把这种能力定义为能够从包含多个对象的图像中，识别指令所指代的对象并生成新的图像。 </p>
-<p>例如，OmniGen可根据指令直接从多人图像中定位目标对象，并生成遵循指令的新图像，而无需任何额外的模块和操作： </p>
-<p class="image-wrapper"><img data-img-size-val="1080,550" src="https://img.36krcdn.com/hsossms/20241029/v2_17b13415070a4350a42278d0bdb5e860@46958_oswg434765oswg1080oswg550_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>更多样例： </p>
-<p class="image-wrapper"><img data-img-size-val="1080,867" src="https://img.36krcdn.com/hsossms/20241029/v2_592f6a33849042a382fd644d85180d6e@46958_oswg954887oswg1080oswg867_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>3. 通用图像条件生成</strong></h3>
-<p>OmniGen不仅支持类似ControlNet根据特定显式条件生成图像的能力，还同时具备处理经典计算机视觉任务的能力（如人体姿态估计、深度估计等）。 </p>
-<p>因此，OmniGen可凭借单个模型完成整个ControlNet流程：直接使用OmniGen对原图提取视觉条件，并基于所提取的条件生成图像，无需额外处理器。 </p>
-<p>同时，OmniGen还能更进一步简化中间流程，一步出图：直接输入原图，输入指令「Following the human pose (or depth mapping) of this image, generate a new image: ...」，就可根据输入图像的人体姿态或深度图关系生成新图像。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,990" src="https://img.36krcdn.com/hsossms/20241029/v2_334a033f4d91442596e130e9d4c86621@46958_oswg1053223oswg1080oswg990_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>4. 图像编辑</strong></h3>
-<p>OmniGen具备良好的图像编辑能力，并且可以在一次运行中同时执行多条编辑指令，例如： </p>
-<p class="image-wrapper"><img data-img-size-val="1080,321" src="https://img.36krcdn.com/hsossms/20241029/v2_bfe569133a614b138afc622b0ec71b57@46958_oswg408397oswg1080oswg321_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>5. 更多能力</strong></h3>
-<p>OmniGen具备潜在的推理能力，可以处理对模型理解和推断能力具有一定要求的非显式查询指令。 </p>
-<p>例如，要求模型删除图中能装水的物品，则模型能够理解和推断出指令涉及的图中物体并删除： </p>
-<p class="image-wrapper"><img data-img-size-val="1080,254" src="https://img.36krcdn.com/hsossms/20241029/v2_dac7ce295f714b1c92d18a3ba124fc08@46958_oswg378116oswg1080oswg254_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一方面，OmniGen具有一定程度的上下文学习能力，可根据参考样例对图像进行处理。 </p>
-<p>例如，输入一个分割皇后象棋的输入-输出配对样例（Example），模型能识别并分割新输入图像中对应的物体： </p>
-<p class="image-wrapper"><img data-img-size-val="1080,376" src="https://img.36krcdn.com/hsossms/20241029/v2_6a1055631d034e3fa7dbbc69a252d76f@46958_oswg365966oswg1080oswg376_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>思维链（Chain-of-Thought, CoT）方法将任务分解为多个步骤，并按顺序求解每个步骤以获得准确的最终答案，从而显著提高了LLM的性能。 </p>
-<p>那么，是否可以将类似的替代方案应用于图像生成呢？受人类绘画的基本方式的启发，研究人员希望模仿一步一步的绘画过程，从空白画布上迭代地生成图像。 </p>
-<p>研究人员进行了初步的探索，微调后模型能够模拟人类行为一步步的生成图片，进一步的优化留给以后的研究。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,456" src="https://img.36krcdn.com/hsossms/20241029/v2_ce30be1c6bfe404c8503cae6842c65f4@46958_oswg620277oswg1080oswg456_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>OmniGen的能力包括但不限于以上内容，还包括基本的图像去噪、边缘提取等能力。模型权重和代码已开源，用户可以自行探索更多OmniGen的能力。 </p>
-<h2><strong>模型</strong></h2>
-<p>OmniGen的核心设计原则是：<strong>简洁和有效</strong>。</p>
-<p>因此，研究人员最大程度舍弃了各种额外模块。OmniGen的基本架构为：一个 Transformer 模型和一个VAE模块，共3.8B参数。 </p>
-<p>其中，Transformer继承于Phi3-mini模型，图像内部改用双向注意力（Bidirectional Attention） 以契合图像数据特性。 </p>
-<p class="image-wrapper"><img data-img-size-val="933,289" src="https://img.36krcdn.com/hsossms/20241029/v2_f071b36ac48e41d1a8af128785172db3@46958_oswg98317oswg933oswg289_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">整体架构 </p>
-<p>为实现强大的通用和泛化能力，研究人员需要基于大规模和多样化的数据集训练模型。然而，在图像生成领域，尚无一个可用的通用数据集。 </p>
-<p>为此，研究人员构建了首个大规模且多样化的统一图像生成数据集X2I，意为 「Anything to Image」。 </p>
-<p>其中，不同任务的数据格式被重新组织和统一，以便于管理和使用。 </p>
-<p>X2I数据集包含约1亿图像，未来经审查等流程后将开源，旨在进一步推动通用图像生成领域的发展。 </p>
-<p class="image-wrapper"><img data-img-size-val="681,1049" src="https://img.36krcdn.com/hsossms/20241029/v2_ffe2f99884c84fccb0943263a20080f8@46958_oswg683039oswg681oswg1049_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">X2I数据集的一些示例 </p>
-<h2><strong>小结与展望</strong></h2>
-<p>总之，OmniGen的统一图像生成范式，不但有助于执行各种下游任务，而且有利于组合各种能力满足更通用的需求。 </p>
-<p>当前，OmniGen的报告、权重和代码等已开源，欢迎社区共同参与对OmniGen潜在能力的发掘、基本性能的提升和广泛应用的探索。 </p>
-<p>OmniGen模型是对统一图像生成的初步尝试，还有很大的提升空间。未来，智源将进一步改进模型基本能力，拓展更多有趣的功能。 </p>
-<p>同时，微调代码已发布，用户可简单对其进行微调，由于OmniGen的输入形式非常多样，用户可自行定义各式各样的微调任务，赋予模型更多有意思的能力。 </p>
-<p>参考资料： </p>
-<p>https://arxiv.org/pdf/2409.11340 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/8JRll2Q22JfBjKieA11MGA" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：编辑部 HYZ ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013240814052611</guid><pubDate>Tue, 29 Oct 2024 15:50:00 +0800</pubDate></item><item><title>神秘模型“小熊猫”一夜刷屏：排名超Flux、Midjourney，网友：一看就中国的</title><link>https://36kr.com/p/3013240978924803</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 29 Oct 2024 17:00:41 +0800</lastBuildDate><pubDate>Tue, 29 Oct 2024 17:00:41 +0800</pubDate><item><title>神秘模型“小熊猫”一夜刷屏：排名超Flux、Midjourney，网友：一看就中国的</title><link>https://36kr.com/p/3013240978924803</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>一夜之间，名为<strong>“red_panda”</strong> （小熊猫）的神秘文生图模型狠狠火了！！</p>
 <p>登顶文生图竞技场，直接将Flux、Midjourney等一众顶尖模型踩在脚下——</p>
 <p class="image-wrapper"><img data-img-size-val="1080,690" src="https://img.36krcdn.com/hsossms/20241029/v2_e72fd0784b034054a607fb776847b858@46958_oswg69471oswg1080oswg690_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
@@ -663,4 +305,252 @@
 <p>“老板和CEO还是到处寻求帮助，包括跟国资委和政府积极接触”，上述管理层称。只不过，他与众多的客户和服务师一样，无法确定等来的会是什么消息。</p>
 <p>（文中受访者李霞、小慧、阿玲为化名）</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NzQ4OTIyMQ==&amp;mid=2247532552&amp;idx=1&amp;sn=922277883e353c000081f961560ac29e&amp;chksm=e807c1d5561cc534feafe1934d7d0ab389110afc9b8c0ec927ead699983ee40c57f7f50f5697&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代财经APP”（ID：tf-app）</a>，作者：沈卓玄，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013086327661832</guid><pubDate>Tue, 29 Oct 2024 15:54:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013086327661832</guid><pubDate>Tue, 29 Oct 2024 15:54:00 +0800</pubDate></item><item><title>杭州95后，她把公司卖了</title><link>https://36kr.com/p/3013276186338825</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>一家明星创业公司选择了卖身。</p>
+<p>故事的主角是大模型明星公司波形智能（AIWAVES），起因是创始人姜昱辰在社交媒体上将个人签名更新为“now at OPPO”。很快，OPPO收购波形智能的消息流出。</p>
+<p>后来，波形智能向界面新闻确认被收购消息，但表示“产品和公司仍在正常运营，均不受影响”。更进一步信息显示，此次收购后，包括创始人团队在内的多位核心成员已集体入职OPPO——一年前，这个集结浙江大学、苏黎世联邦理工大学等学霸的团队在杭州开始创业。</p>
+<p>这一幕是当下中小创业公司卖身的缩影，也是大厂流行买下团队的写照。</p>
+<h2><strong>杭州95后带队创业，把公司卖了</strong></h2>
+<p>出生于 1998 年，创始人姜昱辰今年仅仅26岁。</p>
+<p>她本科毕业于大名鼎鼎的浙江大学竺可桢学院，此后在苏黎世联邦理工大学人工智能攻读博士，师从国际著名学者Ryan Cotterell，专攻自然语言生成方向。此外，姜昱辰还在微软亚洲研究院从事过大语言模型的训练与推理。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_77744c3c974c4ea8926b3aab97257fd9@000000_oswg21350oswg770oswg271_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图片来自即刻）</p>
+<p>这些经历让姜昱辰很早就有了创业的念头。为此，她想过做AI留学文书写作、尝试过侧重于数据分析的新闻聚合器，但都未能成功。直到2022年底，AIC在全球大爆发，姜昱辰等到了时机。</p>
+<p>“这是一个相当industry-ready的时刻，我们觉得必须要抓住机遇做点什么。”她在日后的一次媒体采访中说。</p>
+<p>很快，姜昱辰回国，并找来两位校友——余腾、周王春澍。余腾毕业于浙大竺可桢学院，曾任美国上市公司掌门教育（ZME）联合创始人兼营销高级副总裁；周王春澍本硕毕业于北航中法工程师学院，博士就读于苏黎世联邦理工大学，曾有微软亚洲研究院、字节AI Lab、美国艾伦人工智能研究院（AI2）等平台的从业经历。</p>
+<p>2023年3月，波形智能正式诞生。姜昱辰任CEO、余腾任COO、周王春澍任CTO，新公司选择了创始团队最擅长的长文本生成方向。</p>
+<p>浙大校友创建的基金藕舫天使给姜昱辰团队送来第一笔钱，公司成立不到两个月，完成数百万元的种子轮融资。随后波形智能就与浙大团队联合推出中文内容创作大模型Weaver，应用于小说创作、营销文案设计、短视频脚本撰写等领域。</p>
+<p>这一度被认为是AI在内容创作垂域一个不小的突破。此前，姜昱辰团队提出了一个新概念LPA（Life-long Personalized AI），提倡“让 AGI 更好地服务每一个个性化的人”。作为网文资深爱好者，姜昱辰将这一概念应用于产品，主攻网文。</p>
+<p>“网文听起来可能没有那么fancy，但实际上它触及了非常广泛的用户群体和需求。”求学时期，姜昱辰曾做过中英小说翻译，这让她看到了出版行业的价值，并认为“整个产业其实亟待被AI革新”。波形智能也朝着这一方向前进。在Weaver推出不久后，面向C端用户的小说写作产品“蛙蛙写作1.0”基于此发布。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_f0bae6a40785444cab8de30fce3fcafb@000000_oswg53592oswg554oswg216_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（蛙蛙写作官网界面）</p>
+<p>2024年1月，波形智能完成千万级Pre-A轮融资，由蓝驰创投领投，西湖科创投、蚂蚁金服董事长井贤栋、知名天使投资人费革胜、老股东藕舫天使等跟投。</p>
+<p>半年后，“蛙蛙写作2.0”发布，此时的蛙蛙写作已经能实现从小说到剧本再到视频的全链路内容创作。上线一年，根据官方公开数据，这一应用的注册用户已经超过30万，生成近200亿字的文本，付费用户平均每天使用时长超过6小时。</p>
+<p>但没想到，如今突然传来了波形智能“卖身”的消息。</p>
+<h2><strong>OPPO为什么要买？</strong></h2>
+<p>背后的收购方OPPO浮现了出来。</p>
+<p>在此之前，这家手机大厂已经密集在AI落子。去年11月，OPPO正式发布自主训练的个性专属大模型与智能体安第斯大模型（AndesGPT）；来到今年初，宣布70亿参数的AI大模型在手机端落地；随后OPPO 1+N智能体生态战略就接连发布。彼时，波形智能刚拿下第二轮融资不久。</p>
+<p>OPPO首席产品官刘作虎在接受《财经》采访时直言：“今年不做大模型的手机厂商一定没戏。”</p>
+<p>然而，要做基础大模型训练，资金和人力的投入需求非常大，尽管OPPO已经有了一定成绩，但比起花更多时间与资金自研，收购一个渐趋成熟、并已经做出产品的团队来拓宽AI领域，相对来说更为省心。</p>
+<p>这与OPPO当年收购一加手机的逻辑似乎如出一辙——<strong>通过买下一个团队，进军一个市场。</strong></p>
+<p>目前的消息流出，在OPPO收购波形智能后，CEO姜昱辰、COO余腾、CTO周王春澍等核心团队成员几乎全员入职OPPO。换句话来说，OPPO买来的不只是一个初创公司，而是一批顶流人才。</p>
+<p>这可能是国内大模型赛道一个不易察觉的转折点——被收购。正在国内几家头部大模型公司接连融资之时，国外已经出现了大模型收购潮。</p>
+<p>今年3月，微软以6.5亿美元买下一只独角兽Inflection AI；很快，亚马逊收购了Adept AI；8月，谷歌以25亿美元估值买下大模型独角兽Character AI。值得一提的是，这几家公司被收购后，关键人物和不少员工都被收购方纳入麾下。</p>
+<p>回到国内，这一幕也许正在开始。</p>
+<h2><strong>接受被收购的命运</strong></h2>
+<p>买下一个团队，正在成为大厂的新选择；卖掉公司，也开始愈发被创业者所接受。</p>
+<p>截至发稿前，波形智能的最大股东是由姜昱辰、周王春澍、余腾三人控制的杭州无量企业管理合伙企业（有限合伙），通过股权穿透来看，实际控制人还是CEO姜昱辰。</p>
+<p>一定程度上可以理解为，波形智能被收购后仍然相对自由，姜昱辰和团队也能够以这样的方式继续运作，无疑是这家年轻公司不错的归宿——一方面不仅能够避免在融资市场上继续挣扎；另一方面，将公司融入手机大厂的生态中，还能获得更多资源加持，两款明星应用也能更大规模进入市场。</p>
+<p>事实上，这一幕同样摆在了大多数创业公司的面前。</p>
+<p>不久前，“一块医药”被医药电商“药师帮”以10.35亿元收购；更早一些，融到天使轮的耳机品牌Oladanc选择卖身字节跳动....卖身大平台，此时也是对创业的一条延续办法。</p>
+<p>当中逻辑并不难理解——</p>
+<p>一方面，IPO阶段性收紧，留给初创公司的退出口径愈发狭窄。于是随着活跃并购重组市场政策推出，早有一批IPO失利企业改变姿势，自降身价，期待被上市公司买下。</p>
+<p>另一方面，根据清科研究中心数据，2024上半年我国投资市场共发生投资案例数3033起，同比下降37.6%。融资寒冬下，一批还处于成长阶段的小公司仍困于生存线，迫切需要现金流，而一级市场整体融资捉襟见肘，融不到钱的公司开始集体选择卖身，避免走向最后的倒闭境地。</p>
+<p>以退为进，卖掉公司并不是失败。回想2013年，张楠创建的图片分享交流社区图吧被今日头条收购，随即她进入字节，日后带队推出了抖音，缔造了抖音崛起传奇。</p>
+<p>形势比人强，这一幕值得当下的创业者深思。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247664936&amp;idx=1&amp;sn=6278373e5f58ad5b1f9a78cd5bff7666&amp;chksm=edc7822662b464e8758585eea451d7d466b1d3a1f282f47bc9400b4a31f914dda7258a3fc209&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：杨文静，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013276186338825</guid><pubDate>Tue, 29 Oct 2024 16:32:00 +0800</pubDate></item><item><title>千亿谷子市场，道出了IP营销真相</title><link>https://36kr.com/p/3013275580442117</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“吃谷”仍然是很小众的事情吗？当你去超市买牛奶被赠送了一个印着柯南头像的圆形小铁牌就已经是在“吃谷”了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_e96c33af15614ec3a9bfddb9abcda4b3@000000_oswg134476oswg1018oswg1152_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：小红书网友）</p>
+<p><strong>吃谷，就是收集动漫、游戏等二次元相关的周边产品，这些周边产品被称为“谷子”，所谓谷子就是goods的音译</strong>，主要有吧唧（就是badge徽章，也就是那个印着柯南头像的圆形小铁片）、透卡（印着动漫人物的透明卡片）、镭射票（PVC材料印刷的长条小卡片）、流沙麻将、钥匙扣、立牌等。这些谷子的正常价格大多在几十元不等，但一些绝版限量版的谷子在二手平台甚至能炒到上万块。</p>
+<p>上图明治×名侦探柯南联名里怪盗基德的吧唧在闲鱼上也炒到了一个80元的价格，是的，买够99的牛奶就会赠送溢价到80的谷子，这是什么最新款的理财产品么。淘宝明治官方店铺上，其中一款联动产品已经卖出1万多单，评论区一水儿的晒赠品，有一种开盲盒的既视感。线下活动表现也很火热，快闪店赠品迅速被领取一空，在第一轮后，又开启了第二轮和便利店的联动。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_0e78f48eb7cd4e17a215c73a5a552edc@000000_oswg457165oswg774oswg480_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>赠品变藏品，谷子价值大爆发</strong></h2>
+<p>看到这里有人会说，这不就是联名么，没错！抓住了本质。但为什么赠品变成几个小小的谷子就能如此深得人心？</p>
+<p>因为<strong>谷子本身就有交易属性，虽然IP是虚拟的社交货币，但谷子是真的通货。</strong>肯德基联动乙游《世界之外》买52元套餐赠送的吧唧，在闲鱼上一路炒到了一个两百块，全套甚至上千。消费者显然更愿意为这样的赠品付费。</p>
+<p>对比新茶饮联名推出的周边，杯套、包装袋……透卡、吧唧、立牌等谷子是纯粹的IP产物，使用属性弱了，收藏属性就强了，相应地也更容易在粉丝之间流通。不少朋友表示宁肯游戏轻氪，也要大食量吃谷。谷子作为<strong>ACG（即Animation动画、Comics漫画、Games游戏）</strong>经济中的一环，正在占据越来越重要的地位。</p>
+<p>线上，二手市场表现火热，整体关注度提高，巨量算数数据显示，今年以“谷子”为关键词搜索热度同比增长39.04%；线下，谷子门店也已经颇具规模。美团数据显示，今年1月1日至4月23日，全国范围内“谷子店”搜索词同比增幅8227.2%。前段时间不少媒体都在报道谷子店救活老商城的新闻。</p>
+<p>周末Morketing去到北京王府井喜悦商场，在那里B2一层几乎都是谷子店，除了门店外还有摆摊的场地，人流量非常高，对B1的餐饮业也有明显的带动效果。</p>
+<p>从上游IP版权方，到下游销售渠道，越来越多的企业加码谷子市场。</p>
+<p>米哈游、腾讯、网易、哔哩哔哩等<strong>上游公司着重IP延伸产品的自研</strong>，据GAMELOOK报道，米哈游的游戏开发计划中，周边衍生品占比5%~10%。米哈游旗下《原神》《崩坏：星穹铁道》《未定事件簿》《崩坏3》等游戏的吧唧，在淘宝旗舰店有多款产品的销量在10万以上。</p>
+<p>以三月兽、漫库、布谷社、goodslove、潮玩星球等为代表的<strong>主营AGC IP周边的公司快速在线下开店</strong>，截至10月14日，三月兽、漫库已经分别新开了23家和25家门店。</p>
+<p>名创优品、KKV、九木杂物社等<strong>综合线下零售公司也专门开辟了“吃谷专区”</strong>，IP相对更丰富一些，除了游戏IP、动漫IP，还包括一些网红IP，比如Chiikawa、Loopy、黄油小熊、线条小狗等等。并且不少，门店的选址都紧挨着谷子店。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_52ff451511424b36a3a66aeea3394858@000000_oswg255552oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（上图：九木杂物社，下图：名创优品）</p>
+<h2><strong>二次元经济下，品牌狠抓IP</strong></h2>
+<p>但归根到底品牌能借谷子吃到红利是源于受众变多后带来的二次元产业结构性增长。根据中研产业研究院发布的报告显示，中国泛二次元用户已经接近5亿，二次元消费市场规模超千亿。 </p>
+<p>国内规模扩大的一大重要原因就是国漫、国产乙游、国内小说IP的迅猛发展。在王府井喜悦的众多谷子店里，除了《咒术回战》《排球少年》《蓝色禁区》等日谷，《一人之下》《恋与深空》《魔道祖师》《盗墓笔记》等国产IP也占比不少。 </p>
+<p>把视角拉开就会发现不同时间不同地点上演着相似的剧本，与“日本消失的三十年”伴生的正是动漫行业的崛起。 </p>
+<p>九十年代，日本在最高点踩下刹车，经济剧烈动荡，泡沫被戳破，社会风气也一派萧条，房价下跌，收入下降，贷款无力偿还，三次元的一切都令人“很抱歉”，二次元于是涌现出大量神作，柯南、海贼王、火影忍者等IP到今天都仍然具有生命力。 </p>
+<p>泡沫经济破裂，反而造就了文化市场的繁荣，在整个社会都开始关注精神层面后，品牌自然会用IP的方式承接趋势。时至今日，仍然有不少品牌在争取这些动漫的IP授权。当然除了动漫IP，游戏IP、表情包IP等也是品牌必争之地。 </p>
+<p>IP大户名创优品今年上半年IP授权费就高达1.83亿，授权费用同比增长24.2%，与迪士尼、三丽鸥、宝可梦、芭比等全球近100多个知名IP都展开了合作。有数据显示，上海站的chiikawa联名快闪店，开业首日在10小时内销售额就超过了268万元，限时限购的情况下，该店开业三天的业绩仍然高达800万元。名创优品与《芭比》合作的联名款商品售罄率甚至达到了70%。 </p>
+<p><strong>名创优品集团副总裁兼首席营销官刘晓彬曾在Morketing采访时提到：“过去的产品，往往讲究‘三高三低’，也就是‘高颜值’、‘高品质’、‘高效率’，‘低成本’、‘低毛利’、‘低价格’。到了兴趣消费时代，我们认为‘好看好玩好用’的‘三好产品’往往更能够给消费者提供情绪价值。而打造‘三好产品’，首先核心抓手就离不开超级IP的加持。”</strong></p>
+<p>Morketing走访了位于通州爱琴海商场的名创优品IP联名集合店，最直观的体验是，目之所及<strong>看到的不是产品而是IP，被唤醒的不是需求而是情绪。消费者的眼球永远会被花里胡哨的IP吸引，再因比原IP官方低十倍的价格而买单。</strong>在名创优品的集合店里你能用29.9元买到HelloKitty的挂件，而在官网类似的周边要卖到139元。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_4f0790a3dc2d4181b66b573caae6153a@000000_oswg110314oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>IP的正确打开方式</strong></h2>
+<p>IP是一门好生意，大家已有共识，品牌应该怎么玩，Morketing认为主流的玩法有两种路径，一种是通过IP来撬动更广的受众，为产品增添附加价值，参考瑞幸；另一种是品牌直接以IP为基础开发产品，参考名创优品。 </p>
+<p><strong>对前者来说，IP只是营销手段，品牌和产品才是核心。</strong>所以不能只图一时的社交舆论，IP联名的风过了以后，你的产品如果没有被看见反而本末倒置，更别说为品牌带来长期的价值。而且，因为联名翻车的案例也不在少数。这就要求品牌必须足够了解IP，了解IP背后的受众，价值观，故事细节等等。 </p>
+<p>在前期一定要注重调查IP受众和产品受众的重合度，以及IP传递出的价值观。如果匹配度不高，这样的联名无疑是品牌自嗨行为。 </p>
+<p>周边制作阶段，就是一个词“用真心”，吃谷也要看柄图颜值，更别说联名的周边了，同一个IP，不同品牌推出不同的物料，产生的效果也不一样。如果只把IP当引流工具，把粉丝当韭菜，就很难不翻车。这里点名表扬古茗，多次联名广受好评，被网友评为一家可以开谷子店茶饮品牌。 </p>
+<p>交易阶段，拼的是服务和体验感。肯德基在联名《恋与深空》时，曾给店员列出了九大注意事项，比如，要称呼玩家为猎人小姐；游戏简称必须是深空，禁止用恋与称呼游戏；因为游戏有四位男主，玩家有自己的“推”，店员还需要区分人物的名字和长相。IP营销玩的是沉浸式体验感，力求还原内容，如果品牌连最基础的信息都不能念对，建立的好感度很快就会崩塌，甚至还会遭到反噬。 </p>
+<p><strong>对后者来说，IP是核心，本质是通过IP买货。</strong>所以要考虑生产什么样的货品，才能更好地与IP匹配，很多商家就会选择功能性更弱的毛绒玩具、谷子、卡牌、盲盒等来开发IP，这个时候“无用之用，方为大用”这句话就颇为合适，大用就用在了戳中情绪价值。 </p>
+<p>值得注意的是因为盲盒、毛绒玩具这类产品本身成本不高，定价也是关键点。虽说IP类产品的粉丝群体对于产品的价格敏感度并不是很高，但品牌若是再考虑到性价比，那效果可能就是翻倍的。就比如说名创优品主打的策略是80%的产品具有极致性价比，20%的兴趣品类做一定的溢价。“性价比”才是Z世代群体的主流消费观。 </p>
+<p>总的来说，不管是前者还是后者，IP和产品都不是相对的，即使是重IP也要有产品的创新和突破。就像刘晓彬所说：<strong>“消费品零售的核心还是要回归到产品上，通过产品创新来不断吸引与扩大消费人群。要用内容开发产品，用产品创新内容。”</strong></p>
+<p>虽然强调过千百遍，但Morketing仍然要说这是一个内容为王的时代。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA3NDQ3NDEzMQ==&amp;mid=2653706001&amp;idx=1&amp;sn=66324b4b3044b461febc852f2abcb623&amp;chksm=853fe798a2daec9728213f35bc995fe4a7970d830dc0861a0910cb1974a5fb3f5bf9ceb49927&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“wj00816”（ID：Morketing）</a>，作者：Tiana，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013275580442117</guid><pubDate>Tue, 29 Oct 2024 16:36:00 +0800</pubDate></item><item><title>vivo冲击高端，先在影像上交了一笔学费</title><link>https://36kr.com/p/3013271165760391</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="660,341" src="https://img.36krcdn.com/hsossms/20241029/v2_6aa414e5f0ef45c6802dd7ae5fb1433b@945331758_oswg15613oswg660oswg341_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>手机厂商向高端要市场增量。 </p>
+<p>这是当前手机行业的共识，高端化也被业界称为智能手机赛道的“终点”。vivo也不例外，近两年来不断通过在AI、芯片、影像等方面猛堆料，冲高端，试图打破过去外界对其“组装厂”的固有认知。 </p>
+<h2><strong>vivo不想当“组装厂”了</strong></h2>
+<p>“组装厂”的印象是vivo身上的一根刺，其产品副总裁黄韬曾在vivo X100发布时自嘲，“过去这么多年，经常有人调侃vivo‘是组装厂，没有核心技术’，要怪就怪vivo过去不爱讲技术，甚至不太会讲技术。” </p>
+<p>套用格力电器的广告词，“掌握核心技术”就是vivo高端化战略的路径之一。这被vivo创始人沈炜明确表述为：“通过品牌高端化，摆脱低利润陷阱；用底层核心技术，打破创新瓶颈；用创新，创造价值。” </p>
+<p>在这条路线的指导下，vivo相当努力的打造“技术派”人设，其中一个着力点就是循着品牌色，推出全新技术品牌——蓝科技。<strong>这是一个十分讨巧的营销策略，好记易懂，还能让用户很自然的将其和vivo的品牌关联在一起。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="700,356" src="https://img.36krcdn.com/hsossms/20241029/v2_7ef97912416647f7aa508d81cbf0c243@945331758_oswg27158oswg700oswg356_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在此框架下，vivo先后推出蓝晶芯片技术栈、蓝海续航系统、蓝心大模型、蓝心操作系统和蓝图影像五大模块，构成完整的蓝科技矩阵，并以此作为vivo打造旗舰产品的技术基石。<strong>换句话说，vivo旗舰产品必然以“蓝技术”为技术底座，没有“蓝技术”打底也称不上vivo旗舰产品。</strong></p>
+<p>以芯片为例，作为智能手机最为核心的部件，它几乎决定了一款手机的性能上限。通常情况下，智能手机的SoC集成了应用处理器芯片、基带处理器芯片、图形处理器芯片等多种芯片。 </p>
+<p>其中，最核心的应用处理器芯片和基带处理器芯片具有很高的技术壁垒。放眼整个手机行业，特别是高端手机市场，有能力自研应用处理器芯片的手机品牌，有且只有苹果、华为、三星三家。 </p>
+<p>vivo和其他手机厂商一样，把发力的重点放在其他附加功能芯片上，和芯片厂商共同定义系统芯片。例如，蓝晶芯片技术栈的一个应用就是，结合vivo自研影像芯片能力，深入到天玑9400的底层技术，充分激发联发科这款旗舰芯片的性能。vivo也希望借此夯实品牌内核里的技术要素，实现从定义、开发到调校的芯片技术全链路闭环。 </p>
+<p>这也是多数手机厂商在芯片底层技术探索上的折中方案。典型代表如小米，雷军早在2014年就布局自研芯片，并在2017年发布首款自主研发的手机SoC芯片澎湃S1。然而，这款芯片因为多种限制而最终失败，比如仅支持部分网络、工艺制程落后以及性能较弱等。 </p>
+<p>最后小米不得不改变策略，放弃集成芯片SoC的研发，转向功能芯片的研发。2021年以来，小米相继宣布推出多款自研芯片，包括影像芯片澎湃C1、充电芯片澎湃P1 等。需要注意的是，这些芯片侧重特定功能，并非SoC芯片。 </p>
+<p>如果仅从手机销量数据看，vivo冲击高端的努力似乎得 到了市场的积极反馈。IDC数据显示，2024年二季度，vivo高居中国智能手机市场出货榜第一。同时，今年上半年它在零售销量榜上也位列榜首。多款新品的热销，帮助vivo分别在1000-2000元人民币，3000-4000元人民币和4000-5000元人民币等多个价位段市场份额第一。 </p>
+<h2><strong>vivo为高端化交学费</strong></h2>
+<p><strong>事实上，手机卖得好，掩盖了很多问题。</strong> 比如vivo手机都卖给了谁？它真正的受众是哪个群体？企鹅智库曾给vivo用户做了一个画像，其用户以年龄在30岁以下的女性为主；有六成来自三四线城市，且月收入超过3000元的只占据四成。 </p>
+<p>除此之外，榜单成绩还很容易给外界和vivo自身幻化出一个错觉：<strong>手机卖得贵就等同于高端化有成效，并借此不断提高产品的售价。</strong>10月19日，vivo全新旗舰X200系列新品正式开售，搭载天玑9400处理器，起售价4299元起。相较于上一代X100系列，X200标准版、Pro版的起售价均上涨了300元。 </p>
+<p>对于涨价，黄韬很诚恳的解释，此次定价已经是vivo努力到的极限，核心元器件成本大幅上升，并且在短时间内无法得到有效缓解，因此他们必须在成本控制与产品竞争力之间寻找最佳平衡点。 </p>
+<p><strong>可以看出，vivo对新旗舰手机涨价的底气并没有那么足。其背后反应的恰恰是，vivo品牌高端化缺乏“含金量”。</strong></p>
+<p>唐辰此前分析过，<strong>一定意义上，品牌力是上限，价格力是下限。</strong>上限决定产品的溢价空间，下限决定产品能走多少量。消费者是否愿意为品牌溢价买单，取决于手机产品的核心技术、产品能力以及美誉度等综合实力。iPhone的定价策略便是如此，苹果的品牌力上限远远高于其价格力下限，库克才有资本攫取到智能手机行业80%以上的利润。 </p>
+<p>这就需要理解高端化的实质。雷军几乎给出了一个手机品牌高端化的标准答案。他在个人首部商业思考著作《小米创业思考》一书中，就提出：<strong>不存在割裂的品牌高端化和产品高端化，品牌、产品、用户是统一战略在不同层面的映射，本身是一体的；高价是高端的必要感性认知之一，是结果而非手段；高端化是集团品牌的整体战略，不可能仅在单一品类中实现。</strong></p>
+<p>雷军也坦言，小米高端探索之路，是他近十年最痛苦，也是收获最大的成长。在高端化战略前期，小米11、小米12遭遇了两次折戟，在让公司蒙受严重亏损的同时，给团队内部带来巨大震荡。 </p>
+<p>从这个层面上说， <strong>vivo冲击高端化，正踏在小米走过的路上。小米踩过的坑，vivo也有可能掉进去一次。</strong> 但vivo可能没想到的是，vivo X200 拍照“炫光门”事件的这盆凉水，泼得这么突然这么快。 </p>
+<p>vivo X200自10月19日手机开售以来，有多位消费者反馈在使用中发现拍摄时会出现炫光现象，在特定光线条件下，手机摄像头拍摄出的照片上出现了不应有的光斑或光晕。 </p>
+<p class="image-wrapper"><img data-img-size-val="660,698" src="https://img.36krcdn.com/hsossms/20241029/v2_7c14e977bdc24520b3a6de75732bee6b@945331758_oswg56220oswg660oswg698_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">截图来自@影视飓风</p>
+<p>这对于一款售价大几千元、标榜拍照功能的年度旗舰机型来说，堪称大型翻车现场。但vivo并没有在第一时间出来回应此事，或许存在侥幸，认为沉默一段时间就过去了。但在舆论的持续发酵之下，vivo官方才不得不做出正面回应。 </p>
+<p>黄韬站了出来，他先是对存在问题表示歉意，还详细解释了有关炫光现象的各种质疑和讨论。他指出，vivo X200 Pro的镜头设计和光圈大小是导致炫光更容易出现的关键因素。此外，他也承认了vivo在产品测试中存在疏忽，并提出了包括软件更新和硬件外设优化在内的一系列解决方案。 </p>
+<p class="image-wrapper"><img data-img-size-val="519,677" src="https://img.36krcdn.com/hsossms/20241029/v2_dc0a17f2c65b4850961f8fed33b113a3@945331758_oswg46577oswg519oswg677_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">截图来自@vivo黄韬 微博</p>
+<p>这番回应看似是认错，但还是十分心机的将炫光问题上升到行业共性，将大众关注的焦点转移到行业的技术瓶颈。这实则是在模糊焦点，回避用户的退货诉求。普通用户要解决这个问题，要么就接受现状，用手遮挡，要么等待vivo后续的OTA与定制外设。 </p>
+<p>vivo的这笔学费交得昂贵且不诚恳。但客观上说，在这个节点交上一笔学费，并不见得是坏事。“炫光门”事件从三个方面对vivo高端化探索敲响警钟： </p>
+<p>首先要注意销量背后的真实问题。特别是华为的强势回归，高端手机市场这块蛋糕，需要更强的综合实力来上桌切分； </p>
+<p>其次是要更加明确，高端化是一个系统工程，需要正视产品力。任何的走捷径、取巧行为，通向的可能就是滑铁卢； </p>
+<p>第三要尊重用户，真切回应用户关注的问题，回避或者掩盖都将可能造成更大的负面。有媒体关注到，在黑猫投诉平台上，搜索vivo为关键词，相关投诉高达14472条。 </p>
+<p>如今，国产手机品牌集体冲击高端，这对整个产业链来说，是一件好事。但对vivo来说，这是一场硬仗，也必须全力以赴。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTM3NzQ0MA==&amp;mid=2649452740&amp;idx=1&amp;sn=0b7855730619cb273aa8d6b2dc75ef0c&amp;chksm=bea9a18b89de289db9526cdab1cf9741bd58102bdbf1b982cbe8969ac1e02c20f750a4bfc700&amp;token=1947493335&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“唐辰同学”</a>，作者：唐辰，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013271165760391</guid><pubDate>Tue, 29 Oct 2024 16:41:00 +0800</pubDate></item><item><title>教育行业没有“双十一”</title><link>https://36kr.com/p/3013254556886279</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2><strong>导语</strong></h2>
+<p>每年的“双十一”，电商平台上演着一场又一场狂欢，商家们用各种花式折扣吸引消费者，成交额在短时间内迅速飙升，似乎没有哪个行业不想借机分一杯羹。然而，在这场轰轰烈烈的购物节背后，有一个行业始终保持着与之的距离，那就是教育行业。无论是在线教育平台，还是传统培训机构，在这个全民“剁手”的节日里，他们的表现似乎都显得低调而克制。究竟是什么原因让教育行业在双十一期间显得如此“冷静”？是因为教育服务的独特性质无法与短期促销挂钩，还是说，这个行业更看重长远的品牌建设和用户体验？</p>
+<h2><strong>01 教育产品的非标准化与个性化——服务与价格割裂的商业现实</strong></h2>
+<p>教育产品本质上是服务导向的，带有高度的非标准化特性。教育并不像快消品可以通过规模化生产，进而大规模打折促销。每个学生都有独特的需求，课程的设计、教学方式以及服务内容都是高度个性化的。</p>
+<p>与快消品不同，教育产品不能以“降价”作为主要吸引力，特别是在个性化教学日益受到重视的背景下。无论是线下辅导班，还是在线教育平台，学生的学习需求、学习路径和目标都各不相同。价格折扣在教育行业中的作用远不及其在快消品中的影响。</p>
+<p>同时，教育的长期投资特性也决定了消费者在选择教育产品时，更多关注的是课程的效果、教学质量以及服务体验，而非价格上的优惠。教育行业的核心价值在于提供持续性的服务，并在长期内为学生带来学习成果。这种服务型的特质与短期打折吸引客户的模式格格不入。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_ef04fedb52494990a3563d03d927a7aa@000000_oswg57917oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>02 理性消费主导下的教育需求——“冲动消费”难以撼动的决策逻辑</strong></h2>
+<p>教育消费者的决策过程通常是理性和深思熟虑的，这与“双十一”促销所依赖的冲动消费行为存在根本区别。在快消品领域，消费者往往受到限时折扣的刺激，迅速做出购买决定。然而，在教育领域，消费者更倾向于花时间进行详细的对比和分析，最终选择最符合自己需求的课程。</p>
+<p>学习动机和需求的个体差异进一步削弱了促销的影响力。教育产品消费通常是基于长期规划，如为孩子选课或为职场技能提升。这些决定往往不受打折时间节点的影响，而是根据学习需求的时间安排。因此，“双十一”无法像在其他行业那样通过折扣拉动需求。</p>
+<p>同时，教育产品的复购率较低。一个学生在完成某个课程后，通常不会再次购买同样的课程，除非是进阶课程。而且，教育产品往往是一种“单次需求”，这与日常消费品如衣物、电子产品的重复购买行为有很大不同。大规模的促销很难为教育企业带来可持续的收入增长。</p>
+<h2><strong>03 促销模式的局限与风险——价格战背后的隐患</strong></h2>
+<p>促销的另一个重要考虑是成本与收益的平衡。在“双十一”期间，广告投放费用通常高企，教育企业为了参与大促，需要投入大量的营销成本。而这些营销成本并不一定能够带来同等比例的销售增长。教育服务的提供是成本刚性的，师资、设备和场地等资源的投入无法因短期的客户增量而显著减少。相比电商行业通过规模化降低成本，教育行业很难通过降价获得利润上的增长。</p>
+<p>促销引发的另一个风险在于服务能力的失衡。大规模折扣可能带来大量新客户涌入，但教育企业的服务能力有限，如果无法提供足够的教学支持和服务，可能会导致客户体验的下降。特别是在需要个性化服务的情况下，企业容易因客户激增而无法满足需求，进而导致负面口碑的传播。</p>
+<p>此外，低价策略可能吸引到价格敏感型客户，这类客户对品牌忠诚度较低，容易流失。他们往往只为短期价格而来，如果服务不符合预期或价格不再有吸引力，便会迅速转向其他平台或服务。这种客户很难通过长期服务转化为忠实客户，企业的客户保留率和续费率将面临挑战。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_85aba547e04743fa9809afe56ef60946@000000_oswg66629oswg1000oswg667_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>04 教育行业与电商的商业逻辑分野——规模化与定制化的对抗</strong></h2>
+<p>电商的核心逻辑是通过规模化生产和销售，实现成本降低和利润最大化。而教育行业则恰恰相反，教育服务的提供需要依赖于师资、教学设备等高度依赖人工和资源的要素，无法通过规模化显著降低成本。教育行业的成本是刚性的，这也使得价格战对教育行业的打击远比对电商行业来得更大。</p>
+<p>知识产品的独特性进一步强化了这一差异。知识是一种特殊的商品，无法像物质商品那样通过降低价格提高销量。学习是一种长期的、内在驱动的行为，消费者购买教育产品的决定更多取决于个人需求和学习动机，而不是价格折扣。即便打折，教育产品也无法显著激发需求，相反，过度依赖价格战反而会削弱产品的价值感，影响品牌的长远发展。</p>
+<p>在品牌建设方面，教育企业更多依赖于长期的服务质量和用户口碑的积累，而非短期的促销活动。频繁的价格战可能会削弱教育品牌的价值，消费者可能会质疑教育服务的专业性和效果，从而影响企业的长期市场竞争力。</p>
+<h2><strong>结语</strong></h2>
+<p>综上所述，教育行业不适合大规模的“双十一”式促销活动，原因在于其产品特性、消费者行为、市场需求以及商业模式的根本不同。教育作为一种长期投资，消费者更关注其价值和效果，而非价格波动。未来，教育企业应更多聚焦于提升服务质量、创新产品形式，通过长期的品牌建设和口碑积累，来吸引和留住客户。双十一这样的短期促销活动并非教育行业发展的方向，教育的未来在于长期主义和价值导向。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU4MDY5NjY0OA==&amp;mid=2247517350&amp;idx=1&amp;sn=500f990033e4517651429689d718dbbb&amp;chksm=fceb02efd04c14703e854ecdf0fbb4fc78fe20224fc807d6dcbdb230293a0aee5163aa8c3b9e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“黑板洞察”（ID：heibandongcha）</a>，作者：耳东，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013254556886279</guid><pubDate>Tue, 29 Oct 2024 16:46:00 +0800</pubDate></item><item><title>情绪散去，鸿蒙仍有三大挑战</title><link>https://36kr.com/p/3013247921894272</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p><strong>鸿蒙，来到前途真正的十字路口</strong></p>
+</blockquote>
+<p>今年国内科技圈焦点，鸿蒙必战一席。</p>
+<p>从年初的千帆启航仪式，到6月的开发者大会、8月的夏季新品发布会，再到最新的鸿蒙之夜，每几个月华为的一场发布会或一次官宣中，鸿蒙都占据了C位。华为上下对鸿蒙的重视程度更是可见一斑。</p>
+<p>作为首个国产手机操作系统，HarmonyOS NEXT（原生鸿蒙）被誉为“纯血鸿蒙”，也被寄予厚望。除此之外它还拥有众多闪亮的头衔，例如“系统底座全部研发”、“堪比自研芯片突破”，“与苹果iOS系统和谷歌安卓系统鼎足”、“中国科技产业史上的里程碑”等等。</p>
+<p>在3C行业，操作系统至关重要。通俗讲，操作系统依托于手机等硬件，又依赖于软件生态。没有硬件，就没有施展拳脚的载体；没有软件生态，手机就如同没有“灵魂”的板砖。</p>
+<p>从2012年华为开始规划Harmony OS，到如今HarmonyOS NEXT正式发布，鸿蒙的诞生走过了漫长的12年，国内众多手机厂商一度尝试、想要实现的梦想终于成真，实属不易。</p>
+<p>但高涨的情绪冷却后，真正走向市场时，鸿蒙的挑战或许才刚刚来临。</p>
+<p>抛开技术和安全仍需要不断完善等问题，对于初开的鸿蒙，能否真正承担起华为寄托的战略厚望，还取决于三个关键因素。</p>
+<h2><strong>01 竞争白热化的国内市场，华为手机又能否一骑绝尘？‍</strong></h2>
+<p>原生鸿蒙是国产的，但更是华为的。</p>
+<p>因为目前仅华为的硬件可以搭载这一操作系统。这也意味着，鸿蒙能否打开市场，很大程度上取决于华为手机卖的如何。况且，目前原生鸿蒙还未全面应用于全部的华为设备。</p>
+<p>根据Counterpoint Research的研究报告，今年一季度，鸿蒙以17%的市场份额首次超越苹果iOS，成为中国智能手机市场第二大操作系统。但是放眼全球，鸿蒙的市场份额仅4%，而安卓和iOS的市场份额分别达到了77%和19%。</p>
+<p>以目前的国际形势，无论是华为手机还是鸿蒙系统，其主战场只能是国内。</p>
+<p>而国内手机市场的竞争可谓白热化。</p>
+<p>10月25日IDC最新报告显示，2024年第三季度，中国智能手机市场出货量约6878万台，同比增长3.2%，vivo以18.6%的市场份额三季度继续位居中国智能手机市场第一，苹果排名第二，华为排名第三，市场份额15.3%，小米仅落后0.5%，紧追其后。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,708" src="https://img.36krcdn.com/hsossms/20241029/v2_1505f82101144ad3ba374d122316dc43@5238689_oswg391139oswg1080oswg708_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>vivo通过推出中端新品进一步巩固了线下销售，同时积极扩展线上渠道，推动出货量的上升；小米则凭借“人、车、家”生态策略，成功吸引了更广泛的用户群体，进一步巩固了其市场地位；苹果凭借iPhone 16系列的需求韧性，市场份额回升。</p>
+<p>除了华为，国产手机大都是使用或兼容安卓系统，vivo、小米、荣耀等加起来的市场份额超过了60%，在当下的国内市场，鸿蒙仅15%的市场份额与安卓的对比还力量悬殊。而苹果除了大中华区还有海外的广大市场。</p>
+<p>据界面新闻报道，华为计划在2024年实现6000万至7000万部智能手机的出货量。这一数字，与巅峰时期2019年的2.4亿部依然无法相比。</p>
+<p>鸿蒙的未来与华为手机，可谓同进退。</p>
+<h2><strong>02 除了必须“积极响应”的互联网大厂，鸿蒙生态能否真正撬动大批中小开发者？</strong></h2>
+<p>“2024年9月，在深圳华为坂田总部，来自百度、腾讯、阿里巴巴、京东、美团等上百家互联网厂商的高管统一着装，齐坐一堂，来参加一场极具华为特色的‘誓师大会’，不少参会者还都是团队一把手，他们逐个上台演讲，展现投入鸿蒙开发的决心。” </p>
+<p>这是来自媒体报道的“中国互联网史上极其罕见的一幕”。在生态系统打造方面，华为在短短的一年里，走完了国外操作系统和生态十几年的路。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241029/v2_bc604b8b02864abd92b8e875d1945933@5238689_oswg929360oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>鸿蒙每一次发布会上，几家互联网大厂的应用是否“上墙”都成为业内关注的焦点。在鸿蒙的巨大声势下，国内大厂无一不选择了“积极拥抱”。</p>
+<p>根据华为最新官方数据，目前原生鸿蒙应用和元服务超1.5万个，并且“原生鸿蒙APP迭代迅速，几乎达到了一天一个版本的惊人速度。生态发展一日千里，鸿蒙生态已实现历史性突破。”</p>
+<p>实际上，鸿蒙作为一个全新的操作系统，除了头部互联网大厂的积极响应，能否撬动众多中小开发者的热情至关重要。</p>
+<p>要知道，微软也曾试图创造一个独立于iOS、安卓的移动生态，但最终因为用户稀少、应用版本迭代频率放低，最终失败。</p>
+<p>诚如余承东所说：“有底座、有生态，才是真正的操作系统！只靠华为自己，是做不成鸿蒙的。</p>
+<p>相对比已经发展十几年的苹果和安卓系统，鸿蒙是一个全新的系统、使用全新的开发语言，鸿蒙摒弃了Java语言，而采用ArkTS语言进行开发。所有的APP都需要重新编写代码，而不是简单的移植，这是一种底层技术栈的变化。</p>
+<p>很多国内院校还没有开设ArkTS语言相关课程，大部分程序员在学校可能都没有学习过这一类全新的编程语言。多年来，国内编程课程都是以c、c++、python、Java等语言为主。</p>
+<p>一位参与鸿蒙开发的工程师表示，“ArkTS语言本身并不难学，一般在几个月左右，具体要看投入程度。”</p>
+<p>但除了要熟悉新的开发环境，成本问题是许多中小开发者的首要考虑。社交平台上一位开发者表示，“成本有点高。这意味着要单独拉一个团队来搞。回利能否持平成本也是个问题。我为什么不围绕App Store和安卓去开发升级维护呢？这两大类流量足够了。”</p>
+<p>还有开发者反映，“鸿蒙主要在国内市场，这意味着开发一款APP也只能在中国市场用，海外市场就别想了。”</p>
+<p class="image-wrapper"><img data-img-size-val="720,1228" src="https://img.36krcdn.com/hsossms/20241029/v2_d6ee4e4899324b38b2fd8adcd3192166@5238689_oswg649813oswg720oswg1228_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在BOSS直聘等招聘平台，字节跳动、微博、百度、小红书等互联网厂商仍然挂有鸿蒙软件开发工程师的招聘。</p>
+<p>但哪怕是家底雄厚、拥有大量资源、财力、人力投入的大厂，从目前公测或内测的许多头部APP看，其用户体验依然有待提高。</p>
+<p>不少测评博主发现，虽然现在鸿蒙原生有上万个应用，但真正能用的不多。据统计，至少三分之一以上的APP，还没有完全适配鸿蒙。而目前上架的测试版、尝鲜版很多APP甚至只有一个登录按钮。</p>
+<p>例如，在运行HarmonyOS Next的华为Mate 60设备上测试抖音会发现，抖音商城、搜索功能和支付网关等基本功能仍未打通；微信鸿蒙原生版仅能支持聊天、二维码支付等基础功能，更复杂的功能等待进一步更新。</p>
+<p>从华为官方数据,鸿蒙的注册开发者达到675万。2022年5月，苹果曾公布Apple大中华区的注册开发者数量超过500万。如此对比，鸿蒙开发者数量已经达到了不小的级别。但其中有多少人能真正投入应用开发？</p>
+<p>或许是深知撬动软件开发者积极性这条路道阻且长，华为抛出了每年投入超过60亿人民币用于支持和激励鸿蒙开发者创新。对于今年年底前能上架的应用，华为还给出了最高100万现金和价值500万流量的激励。</p>
+<p>正因为是从0到1，从操作系统到生态建设，这注定是个艰难的过程。</p>
+<p>对于大小应用厂商，从0到1 的适配，用户体验的优化注定也只能小步快跑，多多迭代。拉踩国产应用适配进度，也大可不必。</p>
+<p>对于需要流量的小型应用APP而言，鸿蒙新系统或是新的流量池。但这归根到底还是取决于上述第一个问题，华为的硬件终端到底能抢占多大的市场份额。而紧接着，另一个问题接踵而来——华为又要如何和开发者“分羹”？</p>
+<h2><strong>03 未来华为也将面临一个战略选择题，抱紧开发者还是要“鸿蒙税”？</strong></h2>
+<p>从目前开发者对原生鸿蒙的讨论看，“不支持侧载，只能从应用商店安装应用”是一大焦点。</p>
+<p>这并不意外，因为华为一直就希望打造一个可与苹果iOS系统媲美的封闭式生态系统。</p>
+<p>封闭式系统无疑提高了安全性，但是，苹果系统被全球诟病已久的“苹果税”问题又是否会在鸿蒙系统重演呢？</p>
+<p>因为不能侧载，以及“苹果税”过高等问题，苹果在欧盟、美国、日韩等国家遭到普遍的政府调查。</p>
+<p>尤其是欧盟，其专门出台了《数字市场法案》，不仅要求苹果将“苹果税”从30%下降到17%，且要求苹果在欧盟地区开放第三方支付、第三方应用商店、互联网下载应用等功能。今年欧盟因为侧载的实际落实问题，对苹果仍在持续调查。</p>
+<p>此前，针对游戏类应用，华为、OPPO、vivo、荣耀为首的国内安卓手机品牌，曾共同建立起“硬核联盟”，统一对应用商店的游戏业务收取实施50%左右的抽成比例。</p>
+<p>作为独立的新系统，鸿蒙无限接近苹果IOS，一旦其系统搭建完毕，市场份额扩大，华为是否会跳过硬核联盟，单独收取属于自己的“鸿蒙税”？</p>
+<p>今年6月，彭博社就曾爆出消息说，“华为正在考虑在鸿蒙应用商店收取20%佣金”。虽然这一比例比“苹果税”和“硬核联盟”都要低。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,315" src="https://img.36krcdn.com/hsossms/20241029/v2_a17bfdc3df7343c8b2f20c16d6e75c9d@5238689_oswg174312oswg1080oswg315_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从苹果的经验看，“苹果税”已经成为苹果重要的服务类收入来源，仅中国市场一年收入就高达数百亿元。对于任何一家企业，这部分“通道类”收入恐怕都难以被忽视。</p>
+<p>一边是重要的收入来源，另一边是其赖以依靠的开发者群体。一旦鸿蒙真的走到成功的那一天，华为也将衡量这个天平的两端。</p>
+<p>免责声明:本文（报告）基于已公开的资料信息或受访人提供的信息撰写，但本公众号及文章作者不保证该等信息资料的完整性、准确性。在任何情况下，本文（报告）中的信息或所表述的意见均不构成对任何人的投资建议。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/i-FsptTDSdmXe6FGW8bHLA" rel="noopener noreferrer nofollow" target="_blank">“明晰野望”</a>，作者：林森 ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013247921894272</guid><pubDate>Tue, 29 Oct 2024 16:49:00 +0800</pubDate></item><item><title>滴滴遭遇最强对手,拉拢几十个“小弟”，目标千亿</title><link>https://36kr.com/p/3013186225419397</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2024年上半年，网约车公司扎堆IPO，如祺出行、嘀嗒出行、曹操出行先后递表港交所，前两者已经成功上市。</p>
+<p>滴滴之后，国内网约车平台IPO一度遇冷。近一年来，舆论对于网约车的讨论，基本围绕司机数量激增、收入下滑、补贴退潮等等话题。在这些社会表象下，我们试图通过这波招股书以及既往财报所披露的信息，厘清这个行业究竟在发生什么。</p>
+<p><strong>《当代企业》观察后发现这个行业目前存在最主要的两个问题是：</strong></p>
+<p>1、补贴少了，但企业还是挣不到钱。随着供给侧的饱和，行业进入买方市场；营销和补贴力度开始下滑，企业间的竞争和订单价格都趋于稳态；从结果来看，司机能接到的订单少了，赚得少了，消费者花得多了，龙头企业依靠在供需两环省补贴费、营销费，赚出来一些利润，但其它同行几乎无一盈利。</p>
+<p>2、聚合平台吃掉了滴滴以外的大部分订单。从2021年到2023年，几乎所有的网约车企业都在依赖包括高德、美团在内的聚合平台做获客和增长。聚合平台订单交易额占总交易额的比重越来越高——除了滴滴，其余企业几乎都超过一半，个别网约车企业甚至完全“附生”于聚合平台。</p>
+<p>像曹操、如祺等企业，原本具有一定用户黏性，算得上是网约车平台，但如今越来越像为聚合平台提供运力的供应商，主要负责司机招募与管理，在产业链中不断远离用户，往上游迁移。这就好比从外卖平台，变为了负责招募骑手、协调订单的外卖站点。</p>
+<p>这就意味着，网约车企业们从聚合平台得到的订单越多，失去的用户和自有流量就越多，自有APP或小程序的用户黏性就越弱——用户将跟随订单迁移。</p>
+<p>随着聚合平台订单份额的持续增长，未来，真正称得上“平台”的网约车企业，或许将只剩下滴滴一家。网约车市场的格局从“一超多强”，变成了“两极对抗”——一极是滴滴，另一极则是以高德、美团、腾讯地图为首的，手握用户和流量的聚合平台。</p>
+<p>所以一个矛盾的现实是，市面上主流网约车企业的GTV（不剔除税费、补贴等费用的订单总交易额）依靠聚合平台源源不断的流量输送，仍在大幅增长。但依附聚合平台所产生的额外的获客成本，让它们短期内难以稳定盈利。它们既希望摆脱对聚合平台的流量依赖，又因为对规模的需求，不得不愈加依赖。</p>
+<h2><strong>司机涌入、补贴退坡，网约车市场在发生什么？</strong></h2>
+<p>2014年，滴滴和快的打“网约车补贴大战”的时候，用户打车几乎不要钱。比如滴滴当时为了争夺用户，推出的每周一均可享受两次15元以内的“免费快车服务”，给乘客一天的补贴最高可达30元。</p>
+<p>十年时间过去，据弗若斯特沙利文报告，网约车行业市场规模在2024年将达到约3200亿元（未纳入出租车、顺风车市场，及部分未合规运营交易，整体小汽车客运市场超7000亿元）。只是如今，行业补贴，尤其是面向乘客的补贴下降明显。以滴滴财务数据佐证，在2021年—2023年，滴滴一年里面向消费者的补贴最低21亿元，最多不过74.6亿元，而同时期滴滴的订单量在77亿—108亿单之间，平均到每一单上，消费者补贴最高也没超过1块钱。</p>
+<p>从如祺和曹操等相对小规模的网约车企业的招股书中，也能看到用户补贴的收缩。以如祺为例，在2021年—2023年，其面向司机的补贴从2.87元降到了1.46元；用户补贴则从5.78元，降至5.28元——用户补贴力度远高于司机补贴，透露出这个市场供大于需的现状。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,498" src="https://img.36krcdn.com/hsossms/20241029/v2_bc0a73b75ffe4695b6a176654def17a5@1407167623_oswg345222oswg1080oswg498_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▶补贴退坡：图表源自如祺出行招股书</p>
+<p>如果按订单均价来测算企业为乘客提供的每单补贴率，目前滴滴单笔订单给用户的补贴不到5%，如祺的补贴力度（单笔订单补贴金额/订单均价）从2021年的30%，降至2023年的24%。</p>
+<p>曹操披露的是获客成本占GTV比重，其中获客成本主要是广告费、流量采买费用、面向司机和乘客的补贴等，这一数据，也从2021年的23.6%，降至2023年的18.1%。</p>
+<p>滴滴拥有最强的用户黏性，和最大的规模优势，且“自产自销”订单，不依赖外部流量，所以在补贴费用率上远低于同行。但整体网约车市场，从龙头企业到主流企业，确实都在降低对用户的补贴力度。网约车、外卖等行业的补贴力度往往具有“跟从效应”，龙头收缩补贴，行业其他玩家也跟着收缩。</p>
+<p>补贴的收缩，也意味着行业内竞争降温，《当代企业》看到，这几年，网约车单价趋于稳定，甚至有所增长：滴滴在2021年的订单均价是24.5元，2023年为25元。如祺主营包括广州、深圳在内的大湾区市场，单价较高，近三年平均差不多是28元一单。曹操因为专车订单在整体订单中占比的提升，同时期的订单均价从24.1元涨至27.3元。</p>
+<p>从这个结果来看，平台降低了对乘客和司机的双边补贴，所以用户打车实际支付的价格更高了，但是司机并没有因此赚到更多钱，甚至更少了。</p>
+<p>近年来，主流网约车企业对订单交易额的净抽佣约为20%，司机到手80%，抽佣率基本稳定，但活跃司机数量的增长，普遍高于同时期订单总量的增长，每个司机所能分配到的订单在变少。举例来说，如祺在2021年—2023年的订单量增长了1倍，但司机数量增长了2倍；曹操同时期订单量增长约20%，但司机数量增长了55%。</p>
+<p>“开滴滴”“送外卖”已然成为越来越多灵活就业人士的选择，供给侧趋于饱和，订单增长追不上司机增长，势必会导致每个司机赚的钱更少了——这些观察和论断，也基本符合各大网约车企业所反映的财务事实。</p>
+<p>所以一个现状是，司机多平台接单成为常态。而运力的充分，也让乘客变得更好打到车了——如今各大网约车企业所公布的订单应答率几乎都超过90%。</p>
+<p>企业侧，当下的网约车市场步入良性竞争期，各家企业不再大肆补贴，抽佣相对克制，因此彼此或多或少都能维持一定的毛利润率，但最后能赚到钱的，目前仍只滴滴一家。网约车行业CR5（行业内排名前五的企业所占的市场份额）为90%，其中滴滴一骑绝尘，占据75%的市场份额，一年履约上百亿单，规模化优势明显，剩下4家共占据15%的份额。集中度高至如此，然而在2023年，滴滴也仅赚了53亿元人民币，平摊到每一个订单上，赚不到5毛钱。</p>
+<p class="image-wrapper"><img data-img-size-val="918,376" src="https://img.36krcdn.com/hsossms/20241029/v2_f27771172a06403a9a91e2ac8a77a017@1407167623_oswg104194oswg918oswg376_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▶公司A是滴滴，B是T3，D是享道，C可能是首约汽车</p>
+<p>至于如祺、曹操这些主要靠聚合平台带动增长，且得通过相对高比例的补贴来维持竞争力的企业，如今每一单还会亏4—6毛钱。</p>
+<p>综合社会现实和企业财务数据，《当代企业》认为未来很长一段时间里，网约车高补贴的情况难以重现，对于打车需求逐渐形成一个合理的价格预期，且开始有了一定的消费刚性；司机多平台接单，用工作时长、接单数量对抗单价的滑落。</p>
+<h2><strong>6亿用户的滴滴VS进击的聚合平台</strong></h2>
+<p>网约车在国内的发展已逾十年，从一开始的滴滴、快的两强相争，到后来以滴滴为首，T3、享道、曹操、如祺等多家企业并存的“一超多强”格局，再到当下聚合平台崛起，逐渐与滴滴形成两级对抗之势。</p>
+<p>据曹操招股书披露，2023年网约车市场中，聚合平台订单占比达30%（滴滴部分订单也来源于聚合平台），预计到2028年将接近一半——而在七年前，滴滴占据着超9成的市场，聚合平台仅3.5%。</p>
+<p>举例来说，在2021年—2023年，曹操自聚合平台收到的订单占GTV比重从43.8%增长到了73.2%。另一面，曹操通过自己的APP或是小程序产生的订单GTV同时期分别是50亿元、44亿元、33亿元——逐年递减；再看如祺，其在同时期通过聚合平台获得的GTV占比同样逐年递增，分别为16%、28.7%、59.6%。</p>
+<p>而从市场整体来看，2023年，剔除滴滴后，聚合平台GTV规模占市场总规模的70%—75%。也就是说，在滴滴之外，每4个网约车订单，就有3个乘客是通过聚合平台下单的。</p>
+<p>当几乎所有的网约车车企都接入了聚合平台，当所有的司机，都同时是多家企业的签约司机，《当代企业》认为，网约车行业在供给侧已基本抹平了任何维度上的差异性，除了滴滴，其余网约车企业都将变得毫无“品牌”可言——或者，聚合平台成了具有用户感知的品牌，而不是背后真正负责履约的网约车企业。</p>
+<p>上游是无差别的运力；中游是以高德、美团、腾讯地图为首的聚合流量，和“自产自销”的滴滴；下游是谁家便宜、谁家叫车快就选谁家，迁移成本几乎为零的乘客。如果说网约车产业链整合的故事，上半场讲的是滴滴、优步、快的这些头部同行间的抢夺、并购；下半场，则是笼络数亿活跃用户的聚合平台对手握千万司机的运力供应链企业的“降维整合”，折射出在一个运力饱和的时代，得乘客者得天下。</p>
+<p>聚合平台的抽佣比例普遍在10%左右，只要企业自行获客的成本，始终高于面向聚合平台支付的佣金成本，那么它们就有动力长期依赖聚合平台揽收订单和履约。而对网约车企业来说，它只是将原本用于补贴的营销预算，用在了对聚合平台的流量采买上。只不过，长此以往，这将进一步强化“聚合平台VS滴滴”的两极格局。</p>
+<p>滴滴的基本盘，在于约6亿年活跃用户的相对忠诚，以及相对更高的行业合规性，更统一和标准的服务；而聚合平台的显著优势，是高德、美团、腾讯地图几大平台几户覆盖了国内整个用户市场，流量充沛，且链接了上游几乎全部网约车企业，运力充分，且可以做到服务分层。</p>
+<p>这一轮竞争的走势，也将反映网约车市场的最终样貌——未来，网约车市场会是一个用户会追求相对标准化、确定性服务的服务型市场，还是一个哪家能先叫到车、哪家更便宜就选哪家，用户忠诚度仍然较低的流量为王的市场——从趋势来看，后者的可能性似乎更大。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwMjcyMDIzNg==&amp;mid=2247554681&amp;idx=1&amp;sn=73f1d12caee6c027aea580e77f04e30d&amp;chksm=c0a369faf7d4e0ecb909e198e2320d617925cb4bef9867bff92d8daec808b9d43fec9d7dee7e&amp;token=1921149421&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“当代企业”</a>，作者：当代企业，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013186225419397</guid><pubDate>Tue, 29 Oct 2024 16:54:00 +0800</pubDate></item></channel></rss>
