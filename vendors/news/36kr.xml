@@ -1,137 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 29 Oct 2024 17:00:41 +0800</lastBuildDate><pubDate>Tue, 29 Oct 2024 17:00:41 +0800</pubDate><item><title>神秘模型“小熊猫”一夜刷屏：排名超Flux、Midjourney，网友：一看就中国的</title><link>https://36kr.com/p/3013240978924803</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>一夜之间，名为<strong>“red_panda”</strong> （小熊猫）的神秘文生图模型狠狠火了！！</p>
-<p>登顶文生图竞技场，直接将Flux、Midjourney等一众顶尖模型踩在脚下——</p>
-<p class="image-wrapper"><img data-img-size-val="1080,690" src="https://img.36krcdn.com/hsossms/20241029/v2_e72fd0784b034054a607fb776847b858@46958_oswg69471oswg1080oswg690_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其ELO得分比Flux 1.1 Pro高出100多，胜率高达79%，每7秒就能生成一张图像。生成效果be like：</p>
-<p class="image-wrapper"><img data-img-size-val="960,960" src="https://img.36krcdn.com/hsossms/20241029/v2_74b6fab8cc1b4a2eaa09eb90a5e40d20@46958_oswg138824oswg960oswg960_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>啥概念呢？按网友的话说，这家伙搁这跳级呢！</p>
-<blockquote>
-<p>这与从Flux 1 schnell到Flux 1.1 Pro的跳跃相同</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,206" src="https://img.36krcdn.com/hsossms/20241029/v2_1d47f5d1cdcf40c39fa3af520f1f480b@46958_oswg81071oswg1080oswg206_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了强得可怕，red_panda由于<strong>无人认领</strong>，更是引发大家伙好奇心，各种猜测都有：</p>
-<p>鉴于生成质量过好，很可能是传说中的Midjourney V7或中杯Stable Diffusion 3.5；</p>
-<p>可能是OpenAI的DALL-E 4，因为Anthropic前员工在图片后缀里发现了OpenAI；</p>
-<p>也可能是Mistral AI的新模型，理由是在未公布的测试版中发现了相似名称“Pandragon”；</p>
-<p>或者来自Recraft文生图模型，因为它们曾使用小熊猫战士作为默认矢量提示；</p>
-<p>……</p>
-<p>值得一提的是，有一些人猜测它<strong>可能出自中国厂商之手</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,342" src="https://img.36krcdn.com/hsossms/20241029/v2_5052ebeccb114b809087f83f1a271228@46958_oswg157488oswg1080oswg342_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过你还真别说，一看这既red又panda的名称logo，中国味儿实在过于浓了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,459" src="https://img.36krcdn.com/hsossms/20241029/v2_f61e932c0d6747a3afc22ce130a48eea@46958_oswg117111oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>众说纷纭里，一位工程师小哥更是莫名被cue，网友：</p>
-<blockquote>
-<p>@felix_red_panda，是你吗？</p>
-</blockquote>
-<p>笑死，谁让你头像名称都很像~</p>
-<p class="image-wrapper"><img data-img-size-val="1080,672" src="https://img.36krcdn.com/hsossms/20241029/v2_0c4a026ba25f4b14bac4a45f399e81e8@46958_oswg664823oswg1080oswg672_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>竞技场实测效果</strong></h2>
-<p>red_panda真的有这么强吗？量子位这就实测一下。</p>
-<p>需要提醒的是，由于red_panda现身不久，因此目前只能在竞技场进行体验。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241029/v2_46067a001a77423985c0dfb992c7e6fd@46958_oswg742765oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>规则也很简单，随机两个匿名模型pk，用户只需选出最喜欢、觉得更符合提示词的图片就行。</p>
-<p>下面我们直接展示捉到的red_panda，与其他模型的同题对比，直观看看效果。</p>
-<p><strong>第1关：SD 3 Medium（√） VS red_panda</strong></p>
-<blockquote>
-<p>A 3D render of an ancient artfact,intricately detailed and realistically textured,as if just unearthed.(一个古代文物的3D渲染图，细节错综复杂，纹理逼真，仿佛刚刚出土。)</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="640,339" src="https://img.36krcdn.com/hsossms/20241029/v2_32f11861d79d4b1cabc103e1847e6388@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>第2关：red_panda VS SD 3.5 Large（√）</strong></p>
-<blockquote>
-<p>An elaborate Gothic cathedral with flying buttresses, stained glass windows, and a bell tower.(一幅精致的哥特式大教堂的图像，拥有飞扶壁、彩色玻璃窗和钟楼。)</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="640,339" src="https://img.36krcdn.com/hsossms/20241029/v2_601607ed13d8467ea8268eaab75ea7a7@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>第3关：red_panda VS Flux.1 [dev]（√）</strong></p>
-<blockquote>
-<p>An image of a financial advisor discussing investment strategies with a young couple in a modern office, emphasizing financial planning and long-term wealth management.(一张图片，展示了一位金融顾问在现代办公室里与一对年轻夫妇讨论投资策略，强调财务规划和长期财富管理。)</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="640,361" src="https://img.36krcdn.com/hsossms/20241029/v2_1b8a00dd239d423f86842f7036f5b407@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>第4关：red_panda（√） VS neptune_next</strong></p>
-<blockquote>
-<p>Antarctic cruise ship poster.(南极游轮海报）</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="640,361" src="https://img.36krcdn.com/hsossms/20241029/v2_0b07e6b02dc6467c939de30bf025bf8c@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>第5关：red_panda（√） VS Flux.1 [schnell]</strong></p>
-<blockquote>
-<p>A vintage, art nouveau-inspired perfume bottle with an elegant, curved design and an ornate, floral label reading “Essence of Elegance”, created as a 3D product render.(一个复古风格的、受新艺术运动启发的香水瓶，拥有优雅的曲线设计和装饰华丽的花卉标签，上面写着“优雅精华”，作为一个3D产品渲染图被创造出来。)</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="640,361" src="https://img.36krcdn.com/hsossms/20241029/v2_d4c4a69aa1ab4a7a8efe575a203ff5b2@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>试玩结束，单从5局结果来看，神秘模型red_panda倒是没有想象中的压倒性胜利。</p>
-<p>不过也可能是个人审美原因:</p>
-<p class="image-wrapper"><img data-img-size-val="490,490" src="https://img.36krcdn.com/hsossms/20241029/v2_dd5708ea0e014228aa229560c91f4462@46958_oswg197345oswg490oswg490_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>感兴趣的朋友也可以去试试，看谁运气好能随机匹配上red_panda。（扩大样本招数有doge)</p>
-<h2><strong>网友：中国造？</strong></h2>
-<p>好的，现在问题同样来了：red_panda哪来的？？</p>
-<p>大部分人第一反应都是中国，理由也很直白：一是看起来就很china，二是国内目前在视频生成方面大有赶超之势，顺手做一个文生图模型也很正常。</p>
-<blockquote>
-<p>几乎没有什么比这个名字更中国的了……</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,208" src="https://img.36krcdn.com/hsossms/20241029/v2_57ad5dd25ed74346981b03d5b4fce68d@46958_oswg73396oswg1080oswg208_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>点名快手、字节、Minimax等，当你看到他们如何统治AI视频时，就知道它更有可能是一家在生成人工智能方面已经拥有丰富经验的公司的中国模型代号。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,604" src="https://img.36krcdn.com/hsossms/20241029/v2_82e5800e0f0a43aa95059addb09cf231@46958_oswg364651oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了国内大厂，另一呼声来自<strong>Midjourney V7</strong>。</p>
-<p>Midjourney于8月1日发布了v 6.1版本，且官方一直透露正在测试V7，所以很多人猜测Midjourney有偷偷提前测试的可能。（匿名竞技场测试，很熟悉的配方了）</p>
-<p class="image-wrapper"><img data-img-size-val="1080,248" src="https://img.36krcdn.com/hsossms/20241029/v2_dcae4fab040b437d81a480974e263fb1@46958_oswg62340oswg1080oswg248_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有人猜测是中杯Stable Diffusion 3.5，这是Stability AI上周发布的模型型号之一，拥有25亿参数，采用改进的MMDiT-X架构和训练方法，能够生成分辨率在0.25~2百万像素之间的图像。</p>
-<p>难道是换个马甲来竞技场试试水？</p>
-<p class="image-wrapper"><img data-img-size-val="1080,235" src="https://img.36krcdn.com/hsossms/20241029/v2_f452aafa113c42bd93023df30cd256b4@46958_oswg80222oswg1080oswg235_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除此之外，相对靠谱的猜测来自Anthropic前员工，“Dalle 4 = Red Panda”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,433" src="https://img.36krcdn.com/hsossms/20241029/v2_e7aa8c38928e45a6ac0287ae617ea433@46958_oswg77312oswg1080oswg433_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>他提供的证据如下，一张由DALL-E生成的图片命名中带有相关字符串。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,147" src="https://img.36krcdn.com/hsossms/20241029/v2_e04f6187375f4dcb870b60e77185f971@46958_oswg39518oswg1080oswg147_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过也有网友出来反驳了，也许panda只是出于索引原因随机插入的？</p>
-<p class="image-wrapper"><img data-img-size-val="1080,316" src="https://img.36krcdn.com/hsossms/20241029/v2_5a3fa6544a254930878c825722abc7d2@46958_oswg125834oswg1080oswg316_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>更有人表示，OpenAI没必要再搞DALL-E，GPT-4o已经够用了，而且命名风格也和OpenAI不符~</p>
-<p class="image-wrapper"><img data-img-size-val="1080,523" src="https://img.36krcdn.com/hsossms/20241029/v2_58d4436c46d64f18860655204a0d0fd9@46958_oswg202746oswg1080oswg523_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了OpenAI，法国开源模型公司Mistral AI也榜上有名，不过这个比较牵强，只是因为名称相似。</p>
-<p>本月早些时候，有消息称该公司正在测试新模型“Pandragon”，可能具有图像生成和网络搜索功能。</p>
-<p>所以，没准是这个还未现身的测试模型~</p>
-<p class="image-wrapper"><img data-img-size-val="1080,559" src="https://img.36krcdn.com/hsossms/20241029/v2_2767506be93544fbac758e842c8d7cd9@46958_oswg78050oswg1080oswg559_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过当时也透露，Pandragon的图像生成功能可能会由黑森林实验室的Flux提供支持。</p>
-<p>由此也引出“red_panda”很可能来自Flux的传闻：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1342" src="https://img.36krcdn.com/hsossms/20241029/v2_e18110f272d9461181d1f5c5e84dcb0e@46958_oswg1033441oswg1080oswg1342_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>好家伙，如果属实，这算是自己打败自己吗？(doge)</p>
-<p>BTW，截至发稿前，虽然red_panda仍占据榜首，但它和后位选手的差距貌似正逐渐缩小。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,484" src="https://img.36krcdn.com/hsossms/20241029/v2_3e23ad57339d478fa9d45848d79362eb@46958_oswg126450oswg1080oswg484_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>且让我等继续观望，顺便等个认领。</p>
-<p>竞技场地址：https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard</p>
-<p>参考链接：[1]https://x.com/deedydas/status/1850680875832496577[2]https://x.com/ArtificialAnlys/status/1850587843837771900[3]https://www.testingcatalog.com/mistral-ai-prepares-to-release-new-pandragon-model-with-advanced-features/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/2sXPI7w-dzjQo4mXHTxFgg" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：一水，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013240978924803</guid><pubDate>Tue, 29 Oct 2024 15:51:00 +0800</pubDate></item><item><title>神秘人进场，常山北明俩月暴涨340%</title><link>https://36kr.com/p/3013086363739649</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>因年内股价暴涨，常山北明成为最受关注的鸿蒙概念股之一。</p>
-<p>10月28日，常山北明（000158.SZ）高开8%，午后再封涨停，股价逼近历史高点，报28.19元/股，成交额超114亿元。自8月份报6.35元/股的底位以来，常山北明涨幅已超340%。</p>
-<p>常山北明引发关注，主要因全资子公司北明软件是华为的合作伙伴。常山北明在2024年中报中称，北明软件是华为重要的核心战略合作伙伴之一，拥有“华为多产品钻石级经销商”“华为云核心级解决方案提供商”等多重伙伴身份。“ 针对华为鸿蒙应用开发，北明软件组建了华为鸿蒙开发团队，团队成员全员通过了HarmonyOS应用开发者高级认证。”</p>
-<p>此后，常山北明股价飞升。8月23日，常山北明对外宣称受邀参加9月份的华为全联接大会；9月，鸿蒙HarmonyOS NEXT系统正式公测持续发酵。也是在相应的时间段内，常山北明股价走强。</p>
-<p>而近日股价再次异动，则因为常山北明表示，公司拟引入与软件业务有协同效应的新能源及智慧城市业务，同时剥离纺织业务。</p>
-<p>虽然涨幅领先一众同行，但常山北明与北明软件的业绩并不出彩。Wind数据显示，近三年常山北明净利润累计亏损2.3亿元。</p>
-<p>值得一提的是，在常山北明大涨之前，一向以投资见长的腾讯大幅减仓，两位神秘散户却适时加入了公司的股东阵营。</p>
-<h2><strong>置入资产亏损</strong></h2>
-<p>常山北明靠纺织业务起家，是国内早期的纺织龙头，后涉入房地产和信息产业。2015年，常山北明收购北明软件，截至今年上半年，软件和信息技术服务业务占总营收70%以上。</p>
-<p>目前，常山北明的纺织业务处于亏损状态。财报显示，2024年上半年，公司纺织板块实现营业收入7.28亿元，较上年同期减少37.88%；实现净利润-1.80亿元，较上年同期增亏1.26亿元。</p>
-<p>对于该板块的亏损，常山北明解释称，公司产品售价同比下跌，销量同比减少，使得主营业务毛利下降和存货跌价准备上升，加之确认政府搬迁补助减少，导致本报告期亏损同比扩大。</p>
-<p>此次重组，常山北明拟置出的资产是亏损的纺织业务，置入的是新能源和智慧城市业务。公告显示，常山北明拟以全资子公司常山恒新100%的股权（简称“置出资产”），置换控股股东常山集团下属的慧发新能源持有的石家庄市能源投资发展有限公司的100%股权，以及常山集团下属的石家庄慧荣信息科技有限公司持有的石家庄市智慧产业有限公司的80%的股权。置出资产与置入资产的差额以现金形式补足。</p>
-<p>时代周报记者发现，置入的新能源投资公司与智慧城市均处于亏损状态。2024年1-4月，新能源投资公司净利润-349.61万元，智慧城市产业公司归母净利润-684.68万元。</p>
-<p>其中，能源投资公司主营业务为光伏、风力发电和充电桩业务、产业园投资运营及房产租赁和物业管理服务。时代周报记者发现，该资产的收入主要来源于其子公司石家庄经纬物业服务有限责任公司的房屋租赁业务与物业管理业务。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_4cd6de6dc95e42e1aa5c0e87c237c2bc@000000_oswg62118oswg593oswg459_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：常山北明公告截图</p>
-<p>智慧产业公司则主要为政务、环保等领域客户的信息化建设提供解决方案、硬件产品和专业服务。2024年1-4月，前两大客户为公司贡献了78.6%的收入。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_2687f45165f243dd9312c855cb7ab5df@000000_oswg54386oswg620oswg420_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：常山北明公告截图</p>
-<p>就重组可能引发的风险等问题，时代周报记者尝试致电常山北明，截至发稿电话未接通。公告显示，常山集团及其控制的慧发新能源、慧荣科技资信状况良好，具有完成交易的履约能力，本次交易不存在重大风险。</p>
-<p>此外，常山北明于27日披露，2024年前三季度实现营业收入49.10亿元，同比增长5.60%；归属于上市公司股东的净利润-2.85亿元。其中，第三季度实现营业收入约为20.93亿元，实现归属净利润约为-4091.38万元。</p>
-<h2><strong>腾讯撤退，神秘散户适时进场</strong></h2>
-<p>数据显示，常山北明的股东户数为26.5万户。资产置换公告发布后，常山北明热度迅速升至“股吧”热门个股排行第一位。</p>
-<p>众多投资者获得收益之际，“投资大佬”腾讯却“错失”了常山北明股价的飙升。</p>
-<p>林芝腾讯投资管理有限公司由深圳市腾讯产业投资基金有限公司100%控股，是腾讯系对外投资的主要平台。林芝腾讯曾长期位于常山北明前十大股东名单之列。</p>
-<p>常山北明公告显示，2023年一季度，林芝腾讯减持常山北明3427.8万股，在持856.95万股。2024年一季度，腾讯已消失于常山北明前十大股东名单，当期公司第十大股东张必祥尚持有公司239.67万股，这意味着腾讯期内继续减持了超过617万股。</p>
-<p>时代周报记者综合季度成交总额和季度成交数量发现，2023年一季度与2024年一季度，常山北明股票均价分别为7.6元/股和8.5元/股，以此推算，腾讯两次减持合计套现约超3.14亿元。</p>
-<p>2018年，林芝腾讯按照7元/股的价格出资3亿元受让1.62亿份资管计划份额，对应4284.7万股常山北明股份。与推算的3.14亿元套现金额相比，林芝腾讯投资常山北明所获收益不多。</p>
-<p>常山北明三季报显示，金斌、王暨钟两位自然人股东出现在了前十大股东名单。时代周报记者发现，同为华为鸿蒙概念股的润和软件（300339.SZ）自9月13日至今股价暴涨212%，截至10月28日收盘报62.59元/股，巧的是，据润和软件最新财报，金斌、王暨钟两位自然人股东也出现在了公司的前十大股东之列。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NzQ4OTIyMQ==&amp;mid=2247532552&amp;idx=2&amp;sn=b870e77de2d757b8e73e78589a714160&amp;chksm=e890d41a1724ba2f83c014a87051253cc8780c0420ffca0ab4f836c8cffc6fb5be35b6261ed5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代财经APP”（ID：tf-app）</a>，作者：申谨睿，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013086363739649</guid><pubDate>Tue, 29 Oct 2024 15:52:00 +0800</pubDate></item><item><title>苹果AI上线，ChatGPT免费用，首款M4 Mac诞生，库克：这是全世界最佳AI一体机</title><link>https://36kr.com/p/3013241053832706</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 29 Oct 2024 17:30:43 +0800</lastBuildDate><pubDate>Tue, 29 Oct 2024 17:30:43 +0800</pubDate><item><title>苹果AI上线，ChatGPT免费用，首款M4 Mac诞生，库克：这是全世界最佳AI一体机</title><link>https://36kr.com/p/3013241053832706</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="1068,420" src="https://img.36krcdn.com/hsossms/20241029/v2_47ff297a44d0418f9923fb7867c3a931@46958_oswg217855oswg1068oswg420_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p><strong>【导读】</strong>首款M4 Mac、「全世界最好的AI一体机」终于来了！同时，苹果AI也正式上线，iOS 18.1、iPadOS 18.1和macOS Sequoia 15.1用户，已经可以体验首批Apple Intelligence功能了……库克直呼：激动人心的新时代开始了！</p>
 <p>就在刚刚，苹果AI正式登录iPhone、iPad和Mac。</p>
@@ -553,4 +421,57 @@
 <p>滴滴的基本盘，在于约6亿年活跃用户的相对忠诚，以及相对更高的行业合规性，更统一和标准的服务；而聚合平台的显著优势，是高德、美团、腾讯地图几大平台几户覆盖了国内整个用户市场，流量充沛，且链接了上游几乎全部网约车企业，运力充分，且可以做到服务分层。</p>
 <p>这一轮竞争的走势，也将反映网约车市场的最终样貌——未来，网约车市场会是一个用户会追求相对标准化、确定性服务的服务型市场，还是一个哪家能先叫到车、哪家更便宜就选哪家，用户忠诚度仍然较低的流量为王的市场——从趋势来看，后者的可能性似乎更大。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwMjcyMDIzNg==&amp;mid=2247554681&amp;idx=1&amp;sn=73f1d12caee6c027aea580e77f04e30d&amp;chksm=c0a369faf7d4e0ecb909e198e2320d617925cb4bef9867bff92d8daec808b9d43fec9d7dee7e&amp;token=1921149421&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“当代企业”</a>，作者：当代企业，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013186225419397</guid><pubDate>Tue, 29 Oct 2024 16:54:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013186225419397</guid><pubDate>Tue, 29 Oct 2024 16:54:00 +0800</pubDate></item><item><title>联迪信息2024年前三季度营收利润双增长：扣非后利润大增756%</title><link>https://36kr.com/p/3012120824260099</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>文 | 挖贝网 王思宇</p>
+<p>北交所上市企业联迪信息（839790.BJ）发布2024年三季度报告，前三季度营收、净利润实现双增长。其中，营业收入1.55亿元，同比增长1.14%；归母净利润为1018万元，同比增长336.65%；扣非后利润为865万元，较上年同期增长756.02%。</p>
+<p>其中，2024年第三季度，公司实现营业收入6227万元，同比增长19.57%；归母净利润为986万元，同比增长10499.52%。</p>
+<p>研发方面，公司加大了研发投入。数据显示，2024年1-9月，公司研发费用为1556万元，同比增长18.61%。</p>
+<p>据了解，今年上半年，公司基于产研融合的研发体系，以数据和数据技术为核心，积极布局大数据、移动互联、智慧物联等新兴领域展开探索布局，进行前瞻性研发；按照募投项目实施计划继续推进募投项目实施，切实加强应用软件交付体系及能力的提升建设，积极推进数据中台技术平台项目研发，在研项目均取得阶段性/成果性进展。</p>
+<p>公司表示，未来将会持续做好研发投入，加强解决方案产品与技术的研发，为未来持续发展储备能量，提高核心竞争力。</p>
+<p>挖贝研究院资料显示，联迪信息是一家综合软件开发与信息技术服务提供商，主要面向行业最终用户、大中型信息系统集成商提供行业信息化解决方案、各类行业应用软件的设计和开发等软件开发和信息技术服务、软件产品销售、计算机系统集成服务、培训服务。</p>
+<p>公司的客户广泛覆盖金融、证券、保险、政府、公共、电力、通信、传媒、汽车流通、移动互联、企业级应用、移动设备终端应用等诸多领域。</p>
+<p>-<strong>END</strong>-</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4NjAxODgzNg==&amp;mid=2652214056&amp;idx=1&amp;sn=0c080c39c3a5fd6af6ce506150559c04&amp;chksm=8572af3dc375fe9fd5ef973bc232abe0cbc492c47786db3de4f1989dc0f417bfe3143e96effc&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“挖贝网”（ID：wabeiwang）</a>，作者：让信披更及时，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3012120824260099</guid><pubDate>Tue, 29 Oct 2024 17:02:00 +0800</pubDate></item><item><title>氪星晚报｜钟睒睒重回福布斯、彭博实时富豪榜“中国首富”；阿迪达斯第三季度营业利润为5.98亿欧元；高盛在沙特首都日亚德开设新办事处</title><link>https://36kr.com/p/3013351502538243</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2><strong>大公司：</strong></h2>
+<p><a href="https://www.36kr.com/newsflashes/3013287422551301" rel="noopener noreferrer" target="_blank"><strong>小米生态链公司蜂巢科技与宝视达集团达成战略合作</strong></a></p>
+<p>36氪获悉，小米生态链公司蜂巢科技与宝视达集团达成战略合作，双方将围绕全渠道深度融合和服务体验升级展开全面合作。蜂巢科技的自主品牌产品界环AI音频眼镜，将分阶段在宝视达的全国门店及线上渠道进驻，首批产品将率先在河南省的100家线下门店上线。</p>
+<p><a href="https://www.36kr.com/newsflashes/3013211366941955" rel="noopener noreferrer" target="_blank"><strong>阿迪达斯第三季度营业利润为5.98亿欧元</strong></a></p>
+<p>阿迪达斯10月29日公布数据显示，2024年第三季度营业利润为5.98亿欧元，去年同期为4.09亿欧元。2024年第三季度毛利率为51.3%。</p>
+<p><a href="https://www.36kr.com/newsflashes/3013208708752897" rel="noopener noreferrer" target="_blank"><strong>高盛在沙特首都日亚德开设新办事处</strong></a></p>
+<p>美国投行高盛集团在沙特首都利雅得的金融区开设了一家新办事处，以进一步加深其在这个中东最大经济体的影响力。高盛自2008年以来一直在沙特开展业务，明年将进驻阿卜杜拉国王金融区（King Abdullah Financial District，KAFD）。总部位于巴黎的罗斯柴尔德公司和许多其他顶级机构已经在这个占地160万平方米的中心开设了办事处。</p>
+<p><a href="https://www.36kr.com/newsflashes/3013174040077825" rel="noopener noreferrer" target="_blank"><strong>东方证券将迎人事大变动，首席信息官卢大印代为主持公司工作</strong></a></p>
+<p>今日东方证券内部发布公示文件，由首席信息官卢大印代为主持公司工作，并任命卢大印为副总裁。目前，公司总裁鲁伟铭尚未有人事任免动作。此前，上海金融业已传鲁伟铭或将有工作调整，汇添富董事长李文亦或有调整。</p>
+<p><a href="https://www.36kr.com/newsflashes/3013153969694214" rel="noopener noreferrer" target="_blank"><strong>中国商飞亚太办事处在新加坡成立，是国产大飞机出海的重要一步</strong></a></p>
+<p>36氪获悉，中国驻新加坡大使馆发布消息，驻新加坡大使曹忠明出席中国商用飞机有限责任公司亚太办事处揭牌仪式并致辞。曹大使在致辞中表示，中国商飞是在全球具有重要影响力的航空装备企业。中国商飞亚太办事处在新加坡成立，是国产大飞机出海的重要一步，具有标志性意义。希望中国商飞在国际化道路上行稳致远，期待中新双方不断深化航空装备制造领域合作，为中新经贸合作提质升级贡献力量。</p>
+<p><a href="https://www.36kr.com/newsflashes/3012953478800897" rel="noopener noreferrer" target="_blank"><strong>钟睒睒重回福布斯、彭博实时富豪榜“中国首富”</strong></a></p>
+<p>36氪获悉，在福布斯和彭博的实时富豪榜单中，钟睒睒已经悄然回归“中国首富”的位置。10月29日上午10时，福布斯实时富豪榜显示，钟睒睒当前的财富值为503亿美元（ 约合3585.53亿元人民币）。彭博亿万富翁指数中国排名最高的，也是钟睒睒，财富值为 507亿美元（ 约3614.91亿元）。</p>
+<p><a href="https://www.36kr.com/newsflashes/3013097564644617" rel="noopener noreferrer" target="_blank"><strong>JSW与浦项制铁签署协议将在印度建立年产500万吨的钢厂</strong></a></p>
+<p>据报道，JSW与浦项制铁签署协议将在印度建立年产500万吨的钢厂。</p>
+<p><a href="https://www.36kr.com/newsflashes/3013049806300419" rel="noopener noreferrer" target="_blank"><strong>印度产iPhone出口据悉在过去六个月中增长了三分之一</strong></a></p>
+<p>10月29日消息，据报道，苹果公司从印度出口的iPhone截至9月份的6个月里增长了三分之一。知情人士说，苹果出口了近60亿美元的印度制造的iPhone，按价值计算比去年同期增长了三分之一。据了解，苹果正在扩大其在印度的制造网络。</p>
+<p><a href="https://www.36kr.com/newsflashes/3013014129698048" rel="noopener noreferrer" target="_blank"><strong>小米SU7 Ultra原型车首次征战纽北，圈速成绩为6分46秒874</strong></a></p>
+<p>36氪获悉，据小米公司官微，10月28日，小米SU7 Ultra原型车首次征战纽北，圈速成绩为6分46秒874，为纽北全球最速四门车。</p>
+<p><a href="https://www.36kr.com/newsflashes/3012990693811456" rel="noopener noreferrer" target="_blank"><strong>飞利浦下调全年销售目标</strong></a></p>
+<p>飞利浦10月28日公布业绩，2024年第三季度销售收入为43.8亿欧元（约合47.3亿美元），上年同期为44.7亿欧元。第三季度净利润从上年同期的9000万欧元增长至1.81亿欧元。飞利浦将全年可比销售额增长预期下调至0.5%-1.5%。</p>
+<p><a href="https://www.36kr.com/newsflashes/3012984868480264" rel="noopener noreferrer" target="_blank"><strong>业界消息称苹果已投入下世代M5芯片开发，采用台积电3nm制程生产</strong></a></p>
+<p>据台湾经济日报，业界消息称，苹果已积极投入下世代M5芯片开发，并持续采用台积电3nm制程生产，最快明年下半年至年底问世。机构分析，苹果是台积电重量级客户，双方合作关系紧密，苹果各产品线所需的自研芯片，无法缺少台积电的晶圆代工服务助阵。业界预料，接下来苹果端出的M5芯片AI性能与算力将更强，引爆新一波换机潮。</p>
+<h2><strong>新产品：</strong></h2>
+<p><a href="https://www.36kr.com/newsflashes/3013197677209090" rel="noopener noreferrer" target="_blank"><strong>盒马上线500大卡轻食系列</strong></a></p>
+<p>36氪获悉，10月29日，盒马宣布上线“500大卡”轻食系列新品。据了解，首批上线了云南黑三剁、延边泡菜、傣味九层塔、贵州红酸四款具有中式特色的“暖沙拉”。</p>
+<h2><strong>投融资：</strong></h2>
+<p><a href="https://www.36kr.com/newsflashes/3013330831353097" rel="noopener noreferrer" target="_blank"><strong>Advanced Biomed IPO规模下调92%，现拟筹资900万美元</strong></a></p>
+<p>中国台湾生物科技公司Advanced Biomed在即将进行的IPO中缩减了拟议的交易规模，并更换了独家账簿管理人。该公司原计划以4至5美元的价格区间发行2500万股股票，但考虑到5比1的反向股票分割后，现在计划以4至6美元的价格区间发行190万股，筹集900万美元，较之前预期减少了92%。</p>
+<p><a href="https://www.36kr.com/newsflashes/3012976405718272" rel="noopener noreferrer" target="_blank"><strong>“指数科技”完成数千万元天使轮融资</strong></a></p>
+<p>36氪获悉，“指数科技”近日已完成数千万元天使轮融资，投资方为启赋资本、华盖资本、后浪资本及头部PCB大厂，后浪资本担任长期战略财务顾问。指数科技成立于2023年，是一家专注于人工智能技术在电子设计方案和制造领域应用的公司。</p>
+<h2><strong>今日观点：</strong></h2>
+<p><a href="https://www.36kr.com/newsflashes/3013334616810756" rel="noopener noreferrer" target="_blank"><strong>马斯克称脑机接口技术有望治疗阿尔茨海默症，但仅限于早期阶段</strong></a></p>
+<p>美国科技大亨埃隆·马斯克暗示，他的脑机接口公司Neuralink可能会开发一种治疗早期阿尔茨海默症的植入物。马斯克周二在X平台上分享了他上个月在2024年神经外科医生大会上的一段讲话视频，并表示：“我越来越相信，Neuralink应该优先制造一种可以消除背部和颈部疼痛的植入物。将大大提高人们清醒时的幸福感，同时提高睡眠质量。”</p>
+<p><a href="https://www.36kr.com/newsflashes/3013324591441411" rel="noopener noreferrer" target="_blank"><strong>欧洲央行副行长Guindos：通胀前景面临显著风险</strong></a></p>
+<p>欧洲央行副行长Luis de Guindos表示，欧洲央行在降低通胀方面取得了重大进展，但现在还不能宣布胜利。“即将发布的信息显示通胀下降过程现在进展顺利，”他周一在马德里表示。“然而，前景也面临显著风险。”Guindos在一个会议上表示，地缘政治冲突可能推高能源和货运成本，极端天气和工资增长的粘性都有可能使价格压力在更长时间内保持高位。与此同时，过去的加息可能会比预期更严重地抑制需求和通胀，全球经济增长疲软会增加下行风险。</p>
+<h2><strong>其他值得关注的新闻：</strong></h2>
+<p><a href="https://www.36kr.com/newsflashes/3013317684340228" rel="noopener noreferrer" target="_blank"><strong>报告：双11期间户外类目爆发系数达401%，淘天贡献近六成的市场份额</strong></a></p>
+<p>36氪获悉，据久谦中台最新数据显示，户外类目在双11期间爆发系数高达401%，其中淘宝天猫（淘天）贡献了近六成的市场份额。2024年天猫双11户外品牌爆发式增长，户外品类品牌化、规模化趋势明显。</p>
+<p><a href="https://www.36kr.com/newsflashes/3013231238014467" rel="noopener noreferrer" target="_blank"><strong>外交部：对美方发布对华投资限制规则强烈不满</strong></a></p>
+<p>10月29日，外交部发言人林剑主持例行记者会。有记者问，拜登政府最终确定，限制美国个人和公司投资中国先进技术，包括半导体、人工智能等。请问发言人有何评论？林剑表示，中方对美方发布的对华投资限制规则表示强烈不满、坚决反对。中方已向美方提出交涉，将采取一切必要措施，坚定维护自身的合法权益。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013351502538243</guid><pubDate>Tue, 29 Oct 2024 17:07:00 +0800</pubDate></item></channel></rss>
