@@ -1,666 +1,414 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 29 Oct 2024 18:30:38 +0800</lastBuildDate><pubDate>Tue, 29 Oct 2024 18:30:38 +0800</pubDate><item><title>JavaScript 应该分成两种语言吗？谷歌新提案引争议</title><link>https://36kr.com/p/3013150341883392</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>一名谷歌工程师向官方标准化委员会提交了一份提案，该提案将 JavaScript 分为两种语言，一种是由运行时引擎实现的核心语言，另一种则是更强大的变体语言，依赖将其编译为核心语言的工具。</p>
-<p>这份提案是在本月初的 Emca TC39 会议上提出的，TC39 是 Ecma International 的一个委员会，负责制定 JavaScript（正式名称为 ECMAScript）规范。</p>
-<p>谷歌的一名软件工程师 Shu-yu Guo 发表了演讲，他专攻 JIT、VM、编译器和标准化，幻灯片由 Guo 与 Mozilla、苹果、Moddable 和索尼的合作者共同撰写。Moddable 是一家提供嵌入式编程开源 SDK 的公司，其中包括 XS JavaScript 引擎。</p>
-<p>作者认为，新的语言特性对用户的影响大多是负面的。新特性“几乎总是”会降低安全性，使性能受到“中性到负面影响”，稳定性有时会更差，并且只有开发人员使用新特性时，应用程序功能才会得到改进。</p>
-<p>他们说，JavaScript VM（虚拟机）“由于速度压力已经变得非常复杂”，这会损害安全性，并且当新特性未被采用时“感觉特别糟糕”。他们引用了一些例子，一个例子是 JavaScript 的 MDN web 参考，已经报告“引擎实现者正在调查是否删除此特性”，以及用于大数值的 BigInt。关于 BigInt，演示指出“用例从未得到实现”。</p>
-<p>根据该提案，JavaScript 的基础技术应该很简单，因为安全漏洞和运行时的“复杂性成本”影响了数十亿次用例，而好处只有能真正利用这种复杂性的开发人员和应用程序才能享受到。</p>
-<p>尽管涉及多个组织，但该计划似乎在某种程度上是由谷歌推动的，其中一张幻灯片包含免责声明：“这一可能的解决方案是谷歌的首选解决方案，不一定是其他实施者的首选解决方案”</p>
-<p>JavaScript 开发人员主要根据新提案使用编译器，但一些开发人员希望摆脱这种模式</p>
-<p>提议的解决方案不是回溯现有特性，或者撤回那些处于后期提案阶段的新特性，而是将未来的方法改为大多数新特性在工具中，而不是在 JavaScript 引擎中实现。引擎实现的语言称为“JS0”，而工具实现的语言称为“JSSugar”；这些名称是用于讨论起的，并非最终名称。</p>
-<p>工具理念特别适用于 JavaScript，因为许多开发人员实际上是在使用 TypeScript 编写代码，并依赖 Babel、Webpack 或 TypeScript 编译器等编译器来输出 JavaScript。从开发人员的角度来看，JavaScript 是 JSSugar，但运行时引擎只需实现 JS0。这意味着各种工具应该更加符合一致的标准。</p>
-<p>如果该提案被采纳，则意味着未来的语法特性将进入 JSSugar，而只有 API 和功能特性将进入 JS0。兼容引擎只需支持 JS0。支持 JSSugar 的负担将转移到工具实现者身上，而副作用是工具实现者需要更多地参与标准流程，并可能组建一个新的技术小组。</p>
-<p>该提案已经引起争议。“请不要给当前一批 JavaScript 工具授予官方地位……许多 JavaScript 开发人员，包括我自己，都希望减少对这些工具的依赖，”其中一位开发人员说道。</p>
-<p>人们普遍认为，优先考虑安全性、性能和稳定性是一件好事，但让 JavaScript 依赖中间工具的想法并不受欢迎。“RIP Vanilla JS”另一位开发人员说道。</p>
-<p><strong>原文链接：</strong></p>
-<p>https://devclass.com/2024/10/22/should-javascript-be-split-into-two-languages-new-google-driven-proposal-divides-opinion/</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651223735&amp;idx=4&amp;sn=d2946483a4418e8ebc91fbc38c7c3b24&amp;chksm=bc72341a1e8e393f0dd9d99a93af11495721eb73bde1bb3f23bdbc1e10a23c5b8ad2ce34423b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“InfoQ”（ID：infoqchina）</a>，作者：Tim Anderson，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013150341883392</guid><pubDate>Tue, 29 Oct 2024 17:35:00 +0800</pubDate></item><item><title>苹果Apple Intelligence正式登场，Siri超聪明，三大核心AI升级一文看尽</title><link>https://36kr.com/p/3013125338215557</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="900,383" src="https://img.36krcdn.com/hsossms/20241029/v2_b47f884a0e6c46d9a4f2382633ea154f@453363432_oswg154312oswg900oswg383_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>苹果Apple Intelligence（苹果智能）正式版终于来了！</strong>跟新版搭载M4的iMac一起来了。</p>
-<p>智东西10月29日消息，刚刚苹果终于正式发布了iOS 18.1，其中就包括大家期待已久的Apple Intelligence。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,426" src="https://img.36krcdn.com/hsossms/20241029/v2_7892d1c194bc4c40848e4db12a45b27f@453363432_oswg48044oswg1000oswg426_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>对话丝滑流畅且更聪明的Siri、只要有文字的地方就可以AI润色改写、各类系统App中无处不在的AI总结功能、一句话搜索照片、一句话生成视频大片……</strong></p>
-<p>这些功能都已正式落地。当然，<strong>目前仅限英语版。</strong></p>
-<p><strong>支持机型一览：</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1000,745" src="https://img.36krcdn.com/hsossms/20241029/v2_3702fcbbebdf474d8e066535c81db09c@453363432_oswg70474oswg1000oswg745_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>有外媒总结，iOS 18.1的新功能超过55项，可以说又是一次“史诗级”更新了。不过我们此次关注的核心还是AI，也就是苹果Apple Intelligence。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,1113" src="https://img.36krcdn.com/hsossms/20241029/v2_33bda7a745b0419da4aeaa4eca347fe3@453363432_oswg109525oswg1000oswg1113_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>库克特别发文宣布了苹果智能的到来，并说这会是<strong>“一个激动人心的新时代的开始”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="892,435" src="https://img.36krcdn.com/hsossms/20241029/v2_64dd5f606e4343d6811ab69141abcdf6@453363432_oswg66715oswg892oswg435_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>最近安卓阵营厂商接连发布了自家的在AI和操作系统方面的一系列重磅升级，从华为、荣耀、OPPO、vivo到今天即将发布新系统的小米，各种<strong>AI智能体、AI OS</strong>的概念铺天盖地袭来，各类吸睛的AI新功能不断亮相。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,562" src="https://img.36krcdn.com/hsossms/20241029/v2_c54759e44cda4c2891bbeb473d435e4a@453363432_oswg87306oswg1000oswg562_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲荣耀率先发布“AI OS”</p>
-<p>苹果6月份画的AI“大饼”，让安卓厂商们基本提前实现的差不多了。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,528" src="https://img.36krcdn.com/hsossms/20241029/v2_d6d82f0ec32042e585f4b738846ea26a@453363432_oswg82798oswg1000oswg528_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲vivo小V助手基于AI重构系统实现新的体验</p>
-<p>就连长按电源键唤出AI助手的这个动画，都像到不能再像了！</p>
-<p class="image-wrapper"><img data-img-size-val="398,505" src="https://img.36krcdn.com/hsossms/20241029/v2_b2b6a4b49739449191e189e9d121a320@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲苹果唤出Siri</p>
-<p class="image-wrapper"><img data-img-size-val="645,885" src="https://img.36krcdn.com/hsossms/20241029/v2_cc91c6b800b1478f89e0a1ae213f43a1@453363432_oswg80411oswg645oswg885_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲OPPO唤出小布</p>
-<p>整体来看，iOS 18.1的各类AI功能在此前的测试版中基本都已经与大家见过面了，所以惊艳感并不强，但<strong>在功能实现逻辑、实际流畅度和一些设计细节方面，确实有苹果的独到之处。</strong></p>
-<p>大家最为期待的<strong>ChatGPT和Image Playground</strong>中的Gemoji（表情包生成）等功能，目前仅在iOS 18.2 Beta版中部份落地，没有在正式版中发布，Beta版只有苹果开发者可以申请下载。</p>
-<p class="image-wrapper"><img data-img-size-val="876,885" src="https://img.36krcdn.com/hsossms/20241029/v2_3e1b985af35b4295bb3ca917ff9e9f39@453363432_oswg90331oswg876oswg885_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>接下来，我们将深入这些功能，也将共同探讨这些功能与安卓实现方式的异同。</p>
-<h2><strong>一、Siri确实变得更聪明了</strong></h2>
-<p>现在做AI智能体、AI OS已经成为手机厂商们的共识，AI要深入操作系统，做系统级AI，而AI智能体，也就是各类智能助手，将成为用户享受各类大模型服务的核心入口。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,609" src="https://img.36krcdn.com/hsossms/20241029/v2_fc73ecfd950b467cbbe8046fb3725e24@453363432_oswg82058oswg1000oswg609_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在交互方式上，目前Siri支持语音和打字输入，这我们已经不陌生了。不过Siri在你输入后会自动给出一些建议，并且这些建议会根据你输入的内容实时改变，这一点还是相对更“智能”的。</p>
-<p class="image-wrapper"><img data-img-size-val="476,381" src="https://img.36krcdn.com/hsossms/20241029/v2_315e1610d28342cfb83f482a97cb53a2@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在语音识别、语义理解、意图识别的速度、准确性方面，Siri这次升级比较明显，即使我们说话的时候突然改变问题，或者说得比较模糊，Siri都能比较准确地理解我们要问什么，然后给出答案。</p>
-<p>比如你说，今天气温……啊我的意思是去芝加哥要多久？新Siri会直接告诉你去芝加哥要多久，而老Siri则会回答“我找不到符合的地方，对不起。”</p>
-<p class="image-wrapper"><img data-img-size-val="1000,855" src="https://img.36krcdn.com/hsossms/20241029/v2_d5d8300f0afe45feb2b41dc0c312e761@453363432_oswg150460oswg1000oswg855_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>二、AI文本总结“哪都能用”了，智能回消息解放生产力</strong></h2>
-<p>接下来，是苹果在发布会上重点强调的两个工具，书写工具（Writing Tools）和图片工坊（Image Playground）。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,777" src="https://img.36krcdn.com/hsossms/20241029/v2_aaac713b3bc748cbbac511f615100a73@453363432_oswg106564oswg1000oswg777_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>文字方面，简单来说，只要是有输入文字的地方，你就可以用AI书写工具来进行改写或者润色。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,921" src="https://img.36krcdn.com/hsossms/20241029/v2_48d90ebf38df41799bebab1dcc3a80ed@453363432_oswg123909oswg1000oswg921_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>话说回来，安卓阵营起初是将这些AI文字处理功能放到特定的App中，但随着各家的迭代优化，目前绝大部份安卓厂商都已经将AI文字处理功能做到了跟苹果一样的“系统级”。</p>
-<p>只要是能调起输入法的地方，就可以直接使用一系列文字处理功能，各家基本上都将AI写作功能做到了输入法里，苹果在这方面的优势，已经被赶上了。</p>
-<p>当然，在一些细节动效、交互体验上，苹果确实做的更流畅符合直觉一些。</p>
-<p>苹果的文本总结功能在各类系统App中的广泛应用是其主要优势。</p>
-<p>比如在锁屏界面上，通知的重点信息会被总结呈现，让我们更快抓住重点，确定要不要进一步点开看。</p>
-<p class="image-wrapper"><img data-img-size-val="975,579" src="https://img.36krcdn.com/hsossms/20241029/v2_8cb8efb11fe04798a086b45bdcf5f237@453363432_oswg77643oswg975oswg579_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这种类似的总结功能在邮件和消息App中也有体现，重点信息会被直观呈现在标题或发件人下面。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,881" src="https://img.36krcdn.com/hsossms/20241029/v2_1fa603c23af145178dfa496eca26d0d1@453363432_oswg128738oswg1000oswg881_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在邮件和消息App中，AI还可以识别文字内容，然后生成智能回复，比如对于一个会议邀请，AI可以生成“参加”或“不参加”等不同类型的回复。</p>
-<p class="image-wrapper"><img data-img-size-val="823,946" src="https://img.36krcdn.com/hsossms/20241029/v2_83c2e1c9256c49b28a991cc17c2461e0@453363432_oswg92055oswg823oswg946_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在Safari浏览器中，AI还可以在顶部帮你总结一篇文章的重点信息。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,696" src="https://img.36krcdn.com/hsossms/20241029/v2_8dca6fa366f040779ef9ac4eabac2869@453363432_oswg92301oswg1000oswg696_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这种在系统界面、系统App中“内置”的自动文字总结功能，目前在安卓阵营还基本没有实现。这方面苹果确实有一定优势。</p>
-<p>通话录音总结摘要已经是一个老生常谈的功能了，安卓阵营基本上早在一年前就已经标配了，苹果在这个相对敏感的功能上落地显然是更加谨慎的。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,634" src="https://img.36krcdn.com/hsossms/20241029/v2_12f4c7e233384b778cd868be73511017@453363432_oswg72853oswg1000oswg634_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过值得一提的是，苹果应该是第一个做到通话录音告知对方的，在隐私安全方面更进一步。</p>
-<p class="image-wrapper"><img data-img-size-val="820,384" src="https://img.36krcdn.com/hsossms/20241029/v2_43b3c3b8ab514daf9c7a1eedec49a04a@453363432_oswg47874oswg820oswg384_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>总体来说，AI写作、总结功能好不好用，最核心的还是要看写的好不好、总结的到不到位，所以目前的英文版对我们来说参考价值不大，明年中文版落地，才是大家关注的重头戏。</p>
-<p>在中文语境中，苹果AI能否与国内安卓AI一战，值得期待。</p>
-<h2><strong>三、AI搜图更快更准，一句话生成视频大片</strong></h2>
-<p>AI图片处理方面，在相册App中，输入文字搜图已经比较常见了，苹果此次也跟进了这一功能。</p>
-<p class="image-wrapper"><img data-img-size-val="882,948" src="https://img.36krcdn.com/hsossms/20241029/v2_6e6e74f9ca814213b232f0c72a78e169@453363432_oswg147396oswg882oswg948_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>苹果这次的AI搜图也可以支持视频搜索。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,681" src="https://img.36krcdn.com/hsossms/20241029/v2_5e9a23acc29c4f808a0f2ebaa5bdacc7@453363432_oswg98026oswg1000oswg681_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在AI视频创作方面，虽然国内安卓厂商目前也推出了一些“一键生成大片”的功能，但苹果的这个AI视频创作显然可“自定义”的属性更强。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,838" src="https://img.36krcdn.com/hsossms/20241029/v2_b8b30b2e08c24863a690f030e0d70228@453363432_oswg101035oswg1000oswg838_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>你可以直接通过输入一段文字描述来创建一段视频，安卓方面往往是需要选中几个视频，然后一键生成大片。这个逻辑还是有很大区别的。</p>
-<p class="image-wrapper"><img data-img-size-val="398,505" src="https://img.36krcdn.com/hsossms/20241029/v2_82967e64aa824b6d8d25d9b41da4d2a4@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在视频生成后，你可以选择合适的背景音乐，然后导出。</p>
-<p class="image-wrapper"><img data-img-size-val="864,955" src="https://img.36krcdn.com/hsossms/20241029/v2_beb96ed9e04c40218433cf9e693d8743@453363432_oswg109703oswg864oswg955_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在AI图片处理方面，AI抠图、AI路人消除功能已经是AI手机的标配了。在消除的准确性方面，照片的不同会导致很大的结果差异。</p>
-<p>从一些外国博主的演示中，我们可以看到，苹果的AI消除效果还有比较大的优化空间，比如路人只消除了上半身，鞋子和腿却没有消除干净，并且在一些消除的细节上还有些“穿模”的粗糙感。</p>
-<p class="image-wrapper"><img data-img-size-val="398,505" src="https://img.36krcdn.com/hsossms/20241029/v2_fc5af860f547406ab3943ccd32d1266c@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>目前国内安卓厂商在AI消除方面基本已经做的很成熟了，一键AI消除路人等实用功能都已基本普及。</p>
-<h2><strong>四、Siri直接调用ChatGPT、AI一键生成表情包终于要来了，还有AI识屏</strong></h2>
-<p>在测试版系统中，我们可以看到Image Playground的一些应用效果。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,829" src="https://img.36krcdn.com/hsossms/20241029/v2_9d1b6308a861446889d44c6909cded31@453363432_oswg110215oswg1000oswg829_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在iOS 18.2 Beta中，新增加了一个Playground App，在这个App里，我们可以选中一些元素，比如我的照片、贝雷帽、公园、艺术家等元素，AI就会生成一张包含对应元素的图片。</p>
-<p class="image-wrapper"><img data-img-size-val="335,488" src="https://img.36krcdn.com/hsossms/20241029/v2_9b108e452d944ebbb86e9d12242a31ca@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>值得一提的是，我们还可以手动输入一些文字作为提示词，比如选择自己的照片，输入“在沙滩上”，就会生成我在沙滩上的图像。</p>
-<p class="image-wrapper"><img data-img-size-val="335,488" src="https://img.36krcdn.com/hsossms/20241029/v2_00120aa5189a41bc989b260702ac6c8b@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但需要注意的是，Image Playground只能生成跟人物相关的图片，如果你只是随便输入了一段提示词，AI是无法生成图片的。</p>
-<p class="image-wrapper"><img data-img-size-val="670,774" src="https://img.36krcdn.com/hsossms/20241029/v2_020d70a3e26744bb9e5a925dd8e34e93@453363432_oswg54213oswg670oswg774_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在消息App里，我们可以点击加号，选择图片生成功能，随时生成一张图片并发送给朋友。</p>
-<p class="image-wrapper"><img data-img-size-val="442,588" src="https://img.36krcdn.com/hsossms/20241029/v2_c1eadfdc503343d7ad3d4a86c3e7b1ac@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>我们还可以输入一段描述，然后实时生成一张图片发送给朋友，比如一个倒置的微笑脸：</p>
-<p class="image-wrapper"><img data-img-size-val="430,544" src="https://img.36krcdn.com/hsossms/20241029/v2_26612c0418124d60b29d223b1ce3918d@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>比如一个在烧烤架上的汉堡：</p>
-<p class="image-wrapper"><img data-img-size-val="790,861" src="https://img.36krcdn.com/hsossms/20241029/v2_f796f4a4e8f94ad29169301491f05d16@453363432_oswg82836oswg790oswg861_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Image Playground在平板上有更多功能体验，比如我们可以用Apple Pencil画一些简单的线条，然后基于你的描述，AI就可以生成一些精美的图片。</p>
-<p class="image-wrapper"><img data-img-size-val="572,409" src="https://img.36krcdn.com/hsossms/20241029/v2_b02a8153f82f4e13bd82d0ab88705b87@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在图片生成后，我们还可以用一些文字描述快速调整图片，比如给一个房子加上两个窗户：</p>
-<p>另一个测试版中的重要升级就是ChatGPT了，我们可以在与Siri对话时直接说用ChatGPT给我提供某些信息，此时Siri就会调用ChatGPT给出答案。</p>
-<p class="image-wrapper"><img data-img-size-val="400,544" src="https://img.36krcdn.com/hsossms/20241029/v2_9778934bee0d4224af067a5b6ab9a21b@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此外，测试版还支持了AI视觉功能，只需要长按iPhone 16 Pro系列侧面新增的拍照按键，我们就能进入AI视觉识别界面。</p>
-<p class="image-wrapper"><img data-img-size-val="391,525" src="https://img.36krcdn.com/hsossms/20241029/v2_fd2895fa4f6448a6b8adbed63c3106da@453363432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>我们拍摄完一个物体后，系统会提供几个选项，你可以选择询问ChatGPT，也可以选择谷歌搜索，或者是描述图片信息。</p>
-<p>目前安卓阵营近期的一些更新，基本都加入了AI识屏功能，比如拍照识别菜单，拍照购物比价，因此苹果这次的AI识屏，在效果上并没有带来太大的惊艳感。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,562" src="https://img.36krcdn.com/hsossms/20241029/v2_be56b8ed61b647b395d369bc9b332b76@453363432_oswg69381oswg1000oswg562_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲华为小艺识屏对话</p>
-<h2><strong>结语：苹果AI落地加速，安卓阵营迎头赶上</strong></h2>
-<p>距离WWDC整整140天后，苹果Apple Intelligence终于正式登场，从实际体验来看，苹果承诺的AI功能基本都已落地。虽然在一些AI文字、图片处理的细节上还存在一些小BUG，但AI的确给苹果iOS带来了不少新的体验加分项。</p>
-<p>与此同时，我们看到很多苹果此前领先的功能，都已经被安卓阵营赶上，尤其在AI功能的丰富程度方面，安卓甚至有所领先，比如安卓阵营的AI助手已经可以一键、一句话完成复杂的跨应用操作，比如点外卖、充话费。在这方面，苹果AI的落地还有些慢。</p>
-<p>并且在AI更“懂你”这件事上，安卓的进展也要快于苹果，安卓AI智能体已经开始具备一些提供个性化AI服务的能力，比如了解用户的App使用习惯、学习用户的一些基本信息并在一些场景中智能填写用户信息。苹果虽然也有相关规划，但目前从实际功能上来说体现的并不多。</p>
-<p>如今，各家手机厂商都明确要做系统级AI，要做AI OS，要重点做好AI智能体，可以说，在思路和策略上，苹果已经没有任何领先了，接下来AI手机之战要比拼的，就是落地体验。</p>
-<p>功能家家都有，但谁能做的更流畅、更准确、体验更完善，才是真正的决胜关键。</p>
-<p>文章实机体验图片来源：Brandon Butch、zollotech</p>
-<p>本文来自微信公众号“智东西”（ID：zhidxcom），作者：<strong>云鹏</strong>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013125338215557</guid><pubDate>Tue, 29 Oct 2024 17:37:00 +0800</pubDate></item><item><title>没拿到结果的个人提升，都是自嗨</title><link>https://36kr.com/p/3013108008166661</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>读者群里有人提问，上过那么多课，听了那么多讲座，看了那么多书，自己依然一事无成，既没有得到能力上的提升，也没有认知上的改观，为什么？</p>
-<p><strong>我说，那是因为只有拿到结果的才叫成长，拿不到结果的通通都是炮灰。</strong>‍‍</p>
-<p>怎么理解这句话？</p>
-<p>人的每一段成长，都要基于一些特定的现实结果才能带来确切的提升，没有这个结果作为基础，做再多努力都是原地踏步，不会进步。</p>
-<p>打个比方，就像化学反应一样，氢气和氧气燃烧生成了水，你得到了水，才说明这个试验成功了；你没有得到水，仅仅是把氢气和氧气混合在一起，这就没有成功，你也没有成长。</p>
-<p>成长有明确的KPI，有某些特定的标志。出现了，才代表你成长了，没有出现，做再多的努力都是徒劳。‍‍‍‍‍‍</p>
-<p>举个生活中的例子。</p>
-<p>你一定经历过这样的【悔恨时刻】，跟人起了冲突，对方骂骂咧咧一阵输出，气势逼人，而你唯唯诺诺，憋在心里的话一句都讲不出来。</p>
-<p>结束了对方扬长而去，剩下你独自在原地捶胸顿足，后悔自己刚才为什么不敢说话，并且发誓下次一定吸取教训。</p>
-<p>但你真的吸取教训了吗，下次吵架真的会有改变吗？</p>
-<p>并不会，我敢打包票，下次你跟人起冲突依然会和这次一样，依然会停在原地目送对方远去。‍‍</p>
-<p>为什么会这样？</p>
-<p>因为你第一次就没有敢去拿结果，你第一次被别人怼的时候就没有勇气反怼回去，所以你不知道怼回去会造成什么实际后果。</p>
-<p>而你不知道实际后果，就会在心里有预设，把最好的情况和最坏的情况统统想一遍，万一我怼回去别人动手打我怎么办，万一我怼回去别人比我更凶怎么办，万一我怼回去其他人都来指责我怎么办......</p>
-<p>这么多个“万一”，且是你假设出来并没有发生过的“万一”，才是阻碍行动的最大障碍。</p>
-<p>但是这些万一都是虚拟的，是假设出来的，它们并没有任何实际结果作为论证。‍‍‍‍‍‍‍‍</p>
-<p>那么在这个案例中，真正的成长是什么呢？‍‍‍‍‍</p>
-<p>是你第一次就怼回去，然后观察对方什么反应，是继续跟你互怼，还是认怂了，还是骂骂咧咧上来要跟你对打......</p>
-<p>不管是哪种结果，关键的是你拿到了结果。你知道了对方的具体反应，行为逻辑和风格个性，然后，你才可以根据不同的反应去做进一步的拆解，分析，判断，制定不同的策略，然后再拿到第二轮结果，如此反复直到得到最佳应对方案。</p>
-<p>就像打拳，你只有打到对方，并且也挨了对方的打，才能领悟拳击的真谛，不然在台下听教练讲得再多，你依然不会打。‍‍‍‍‍‍‍‍‍‍</p>
-<p>试探-实践-拿结果-再试探-再实践-再拿结果，这才是成长的正确路径，而不是思考-假设-思考-假设的无限循环。‍‍‍‍‍‍‍‍‍</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_46410db8c4d4498a9cd48d5882eccbc7@000000_oswg63897oswg1080oswg688_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其实，这个道理的适用性非常广泛。</p>
-<p><strong>人的一生会经历非常多成长的幻觉，就是你以为自己做了，学了，读了，付出了，但并没有拿到属于自己的结果，你都是在拿别人的结果往自己身上套，你以为自己成长了，实际上毛都没碰到。</strong></p>
-<p>爱迪生发明灯泡之前用过1600种材料，普通人看这个例子只会觉得他失败了1600次还在坚持，太有韧劲了，我们要向爱迪生这种不轻易言败的精神学习致敬，失败乃成功之母。</p>
-<p>但不好意思，如果你得到的结果就是这，那一辈子都不会成长。‍‍</p>
-<p>看看爱迪生自己怎么说的，他说虽然我失败了1600多次，但我知道这1600种材料都不适合做灯丝，以后就会避免从它们中寻找。‍‍‍‍‍‍‍‍‍‍‍</p>
-<p>1600个不适合做灯丝的材料，这才叫结果，而不是迎难而上，不轻易言败这些大而空且无用的废话。‍‍‍‍‍</p>
-<p><strong>记住，结果一定是确定的，是能落地的，是可以带来启发和改观的，是能产生下一步具体行动的。</strong>‍‍</p>
-<p>再比如，同样是学英语，在朋友圈发个海报打个卡，这不叫成长，它仅仅只带来精神上虚妄的获得感，并没有得到实际验证和运用。‍‍‍‍‍‍‍‍‍‍‍‍</p>
-<p>真正的成长，是你和外国人对话的时候能信手拈来这些背会的单词，然后把这个对话顺利推进下去，是你翻译文档的时候不用再查词典所以能比别人快1个小时。‍‍‍</p>
-<p>理解了这一点，你才会对成长有一个明确的标杆和定义，也才会明白自己究竟有没有获得成长，不会再做无用功。‍‍‍‍‍</p>
-<p>那么具体如何判断？最后我说2个方向，供大家参考：</p>
-<p><strong>第一，【结果】一定是可以量化的。</strong></p>
-<p>结果是实用价值，不是情绪价值，结果是看得见，摸得着，能对自己和周遭产生推动影响的指标，所以它一定可以被量化。‍‍‍</p>
-<p>想想，为什么职场工作都需要用KPI来衡量？</p>
-<p>因为KPI是把价值进行了量化。</p>
-<p>没有这个指标，就无法判断这个工作的价值。你说获得了生意上的增长，那增长了多少，和往期比幅度有多大，和竞争对手比超越了多少，这都叫标尺，看一眼就立刻明白，不需要多解释。‍‍‍</p>
-<p>同样的道理，你的成长也要有KPI。如果你付出了努力，花了很多时间，结果最后没有一个KPI来衡量，这只能代表你一开始就没有想清楚。‍‍‍</p>
-<p>那么比较普遍的成长KPI有哪些？</p>
-<p>比如你获得了【效率】上的提升，过去你是这么处理这件事的，现在换了个处理方式，结果发现事半功倍；</p>
-<p>又比如你获得了【认知】上的改观，以前你是这么思考问题的，现在你站在更高维度更大格局去思考这个问题，发现了很多过去未曾想到的盲点，并且对你的实践产生了启发和帮助；‍</p>
-<p>再比如你获得了【价值】上的提升，最简单粗暴的结果是，你赚的钱变多了，上个月赚5000块这个月翻倍了，或者你赚钱没有像以前那么费力了，又或者你的职位地位提高了......总之，你拿到了看得见摸得着的正向收益。‍‍</p>
-<p>记住，只有可以量化的，才叫结果。‍‍‍</p>
-<p><strong>第二，【结果】一定是能推演出新方向的。</strong>‍‍‍‍‍</p>
-<p>拿结果的意义在于承上启下，阶段性结果是对你上一段努力的复盘，和对你下一段行动计划的指引。</p>
-<p>好的结果，能帮你推演出接下来前进的新方向，而不是盲人摸象。‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</p>
-<p>就像玩游戏一样，你连续10次来到同样的十字路口，每次都走进死胡同，然后第11次还这么走，这不叫拿结果，这叫认死理。</p>
-<p>聪明人走过3次就明白毛病出在哪里了，他会停下来观察，思考，在脑海里把走过的错误路线图画出来，然后第4次走的时候尽量避开，寻找新的出路。‍‍‍‍</p>
-<p>这叫做以终为始。</p>
-<p>上一段的结果是下一段的开始，第N段的终点是第N+1段的起点，这才会构建出清晰的成长之路。</p>
-<p>同样的，你在一件事，一个人身上投入了大量的时间金钱精力，每次都是收获同样的失望，那你就该明白要立刻调转枪头，学会断舍离，别再在错误的地方浪费资源投入。‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</p>
-<p>爱迪生也是排除了1600个废选项，最终才摸索到正确答案。</p>
-<p>没有新方向诞生，你就没有拿到结果，没有拿到结果，你就没有得到成长，就这么简单。</p>
-<p>以上就是今天的内容。</p>
-<p>大家记住，只有拿到结果才会有成长，如果你还没有拿到结果，甚至不知道手上的是不是结果，那么先暂停一下，反复对照这篇文章想想看，或许你会有新的思路。</p>
-<p>共勉 =）</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIyMzE4NjIzNA==&amp;mid=2649985928&amp;idx=1&amp;sn=84141e1b87220c32aba2157172e3992a&amp;chksm=f1ae37316c57b1c915e7accdc8f74f40306e00042db4b8d3184bebfc78d0ef525c1c898cbb14&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“张良计”（ID：zhang_liangj）</a>，作者：张良计，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013108008166661</guid><pubDate>Tue, 29 Oct 2024 17:46:00 +0800</pubDate></item><item><title>大模型“六小虎”对战大厂，少年屠龙的故事这次不一样</title><link>https://36kr.com/p/3013096385439233</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>大模型创业的最好结局是卖身？</p>
-<p>就问科技圈的创业，谁能不羡慕创业几年、卖身大公司、创始人巨额套现离场，从此过上财务自由的幸福生活呢？</p>
-<p>这么说你还真别破防。</p>
-<p>之前红极一时的Character.AI被谷歌收购，宣布放弃预训练，转向和第三方模型公司合作，据说还致使1600万美国年轻人集体失恋？AI独角兽Inflection AI被微软收购；Stability AI单季度亏损超3000万美元，一度传出“卖身”消息。</p>
-<p>可见海外大模型厂家们在真正走向商业化时，各有各的苦衷。</p>
-<p>朱啸虎曾经下了个定论，国内的大模型最好的结果就是卖给大厂。</p>
-<p>这句话对也不对。</p>
-<p>“对”在朱啸虎的眼光老辣，去年的200多个大模型很快进入了收敛期。“不对”在，从融资环境来看，国内大模型企业面临的困境是“弹药”不够，如果弹药更充足，它们的生存会更好。</p>
-<p>盘一盘“百模大战”剩下的弹药库，我们发现六小虎（智谱、零一万物、MiniMax、百川智能、月之暗面、阶跃星辰）+DeepSeek的座次渐明，而入局的大厂们，正试图“坐收渔利”。</p>
-<p>你们以为大模型的比赛即将结束了？</p>
-<p>其实大模型小虎们的“非常6+1”比赛才刚刚开始。</p>
-<h2><strong>1.六小虎谁是技术派？</strong></h2>
-<p>大模型看起来深奥，其实可以把它比作做菜。模型结构就像是业界公开的菜谱，数据则是原材料，模型训练过程中对工程细节的把握则是厨艺。</p>
-<p>始于2023年年初的百模大战，就像是一场热闹非凡的饕餮盛宴。各方大厨齐登台，但做着做着，有些人依然在坚持磨练厨艺，想要成为厨神；但有些人却已经悄悄放弃了预训练，用起了“预制菜”。</p>
-<p>一年多后，零一万物Yi-Lightning在 LMSYS这一全球大模型必争的公开擂台上，实现了中国大模型首度实现“超越OpenAI GPT-4o”的最佳成绩。DeepSeek、智谱AI的模型也取得了相当出众的成绩。（榜单成绩截止10月26日）</p>
-<p>这么看来，“六小虎”中的智谱AI、零一万物，和“编外小虎”DeepSeek是下定决心要冲击“厨神”宝座。但说起做大模型这桌菜，这几位“厨神候选人”的招式却各不相同：</p>
-<h3><strong>智谱AI：张鹏东拉西扯撑起整个“厨房”</strong></h3>
-<p>作为清华系首批大模型初创公司，智谱AI CEO张鹏毕业于清华大学计算机系、首席科学家唐杰是清华大学计算机系教授（国内大模型的奠基人）、总裁王绍兰是清华创新领军博士，注定了智谱AI身上的“光环”。</p>
-<p>特别是后来，投资方有着社保基金中关村自主创新专项基金的加持，在清华+中关村双保险，让智谱在百模大战里一直都是“别人家的孩子”，发力B、G端也在情理之中。特别是在预训练上，智谱从来没有放松过，面对行业的“预制菜”的现象，张鹏去年就提出过一个观点——预训练模型真正的创新型的学术研究少了，而基于一个强大底座疯狂训练模型的人变多了，只需要加个名字，就成了新的模型。</p>
-<p>不久前，张鹏表示现在智谱采取了布局生态链、寻找更大资源支撑来应对竞争。如今智谱AI的估值已经超过200亿，当务之急是验证其商业化能力，否则，寻找更大的资源支撑将会面临诸多挑战。</p>
-<p>正因如此，为了更好的商业化，智谱AI CEO张鹏正在东拉西扯“撑起”生态链布局，张鹏+唐杰的清华黄金组合，只争朝夕。</p>
-<h3><strong>零一万物：总是做“不鸣则已，一鸣惊人”的尖叫鸡</strong></h3>
-<p>今年前三个季度，零一万物推出了两个模型——Yi-Lightning、Yi-Large，均在LMSYS上排名前列，且均为国产大模型第一。</p>
-<p>不过零一万物最核心的优势不在榜单上，而是在预训练的成本上，模基共建战略下，训推成本低得能让山姆奥特曼和马斯克都咂舌。</p>
-<p>李开复表示，Yi-Lightning的训练只用了2000张GPU，训练周期仅一个半月，成本是马斯克xAI成本的2%左右。训练成本虽然低，但Yi-Lightning的性能并没有打折扣。Yi-Lightning的性能与xAI的Grok-2-08-13模型并列第6，并且超越了OpenAI的GPT-4o-2024-05-13就是一个很好的例证。</p>
-<p>但让市场没有拨开的迷雾是，零一万物国外ToC产品神秘兮兮的，ToB只做赚钱的，这样的ToB项目可真不好找。行业里都在说要“逃离项目制”陷阱，但是又转头去做项目。在商汤、智谱AI之后，零一万物就能行吗？</p>
-<p>从弹药库上来说，不久前，零一万物完成新一轮融资，交易金额达数亿美元，投资方是某国际战投、东南亚财团等等。</p>
-<p>而在拉投资和商业化方面，咱还真得相信开复老师多年的积累，现在新融资也有到账，业内都在期待李开复再凭人脉和实力搞来“大单”。</p>
-<h3><strong>DeepSeek：财大气粗的“价格屠夫”</strong></h3>
-<p>为什么DeepSeek不在六小虎之列？因为实在是太财大气粗了。</p>
-<p>站在DeepSeek背后的是幻方量化，国内首屈一指的私募。这种“财大气粗”直观地体现在了买卡上，2019年，幻方量化成立AI公司，投资2亿元自主研发深度学习训练平台“萤火一号”，搭载了1100块GPU，2021年，幻方量化对“萤火二号”的投入增加到10亿元，并且搭载了约1万张英伟达A100显卡，大厂看了都得说句佩服。甚至在硅谷，DeepSeek被称作“来自东方的神秘力量”。</p>
-<p>对了再说个冷知识，今年的大模型降价，其实就是由DeepSeek和部分大厂掀起来的，大家都说，它通过降价方式，实现了部分模型厂商出清，或有利于大模型产业的各类资源（包括人才）集中，可能醉翁之意不在酒啊。</p>
-<p>这么来看，三位“厨神候选人”，智谱AI一向有着“清华系国家队”的称号，背后的主导人物唐杰也是中国在人工智能和大模型领域颇具话语权和声量的学术领军人物，找融资、找算力不难；零一万物创始人李开复同样在AI领域深耕多年，早早布局AI Infra（训练的基础设施），近期也宣布了新融资，资金算力也不成问题；DeepSeek背靠幻方量化，坐拥上万张GPU，资金算力都很足，未来要看背后的幻方想怎么应用大模型。</p>
-<p>可见这三位“厨神候选人”都没有道理在算力充沛、资金能支持的情况下，转投大模型的“预制菜”。</p>
-<h2><strong>2.谁又在烧“模型预制菜”？</strong></h2>
-<p>从模型性能的角度来说，坚持预训练可以把模型的能力上限、模型的安全性掌握在了自己手中，同时也牢牢把握住了推理成本的优化空间。能力与资源并举，是大模型洗牌时代的“硬通货”。</p>
-<p>而“小虎”们似乎从预训练开始分道扬镳，有的人开始厨神争霸，有人已经面临着下牌桌。</p>
-<h3><strong>月之暗面：大模型时代的ofo摩拜？</strong></h3>
-<p>注意，这里的ofo、摩拜并不是一个贬义词，创业前期的ofo摩拜也是流量的宠儿、市场的焦点、用户的心头好。</p>
-<p>月之暗面最著名的产品就是Kimi，网站分析平台Similarweb的监测数据显示。从今年3月在B站加强推广后，Kimi的访问量增幅一度达到402.9%，在B站，Kimi几乎关联了用户可能在B站搜索“AI”的所有词条，比如ChatGPT系列、AI系列、提效系列、助手系列、打工人系列等等……</p>
-<p>砸钱投放，但只是砸出了名声和所谓的Kimi概念股，其实市场并不排斥砸钱，但大模型的关键是钱要砸到位：高价买来的用户能留住吗？</p>
-<p>36kr在今年8月的报道中曾提及，月之暗面在B站给出的CPA（Cost Per Action，用户转化人均成本）报价，高达30元左右。</p>
-<p>IDC中国高级分析师杨雯在今年9月的报告《移动端大模型应用市场竞争力分析研究报告》表示，现有数据显示，即便是率先发布的ChatBot应用，无论它们定位为个人助理或是情感陪伴，普遍面临着30日用户留存率偏低的问题（6%左右）。</p>
-<p>一方面烧钱买用户，另一方面用户流失，但是为了融资、给股东交差，又不得不继续烧钱。据英国《金融时报》报道，现在月之暗面的融资似乎也有了新花样，即“用股份换算力券”。</p>
-<p>月之暗面的最新一轮融资发生在今年8月，消息称月之暗面获得了由腾讯领投的3亿美元新一轮融资。凤凰网科技的报道则显示：“腾讯投得并不高，只有小几千万就成了领投了，剩下的是很多小基金凑的”。</p>
-<p>当然了，面对着“不得不烧钱换增长”的困局，也不意味着月之暗面就会走ofo的老路。有分析认为，从现在的打法上来看，可能月之暗面为自己设想的结局也是被大厂收购，所以才锚定To C应用。</p>
-<h3><strong>MiniMax：做应用一流，做模型欠火候</strong></h3>
-<p>MiniMax的应用Talkie，是六小虎中当之无愧的出海应用榜首；还有视频生成应用海螺AI也引起了全球瞩目。</p>
-<p>但是就在不久前MiniMax产品负责人、前今日头条用户产品负责人张前川，宣布已淡出公司事务，改任产品顾问一职。画个重点，张前川此前主要负责MiniMax在C端的“星野”和“Talkie”，后参与生产力工具“海螺AI”和部分其他产品的日常事务。这怎么刚做出点成绩来，主将先走了？</p>
-<p>虽然曾经MiniMax的创始人闫俊杰说“我们没有一块 GPU ，虽然我们应该是中国公司里实际用 GPU 数量最多的创业公司。” 但是没有一张卡的缺陷是，以Talkie、海螺AI为代表的国产AI产品，虽然走出了一条出海新路，但在用户实际使用时，成本还是难以覆盖。</p>
-<p>例如现在MiniMax 的ABAB大模型很久没更新了，MiniMax困于没有自有算力，没有AI Infra（AI基础设施），从时间线来看来，原本是MiniMax和智谱AI同时起步做大模型，但是很遗憾地，MiniMax错过了双巨头格局。</p>
-<h3><strong>百川智能：估值高达200亿，却被疑技术掉队</strong></h3>
-<p>从2023年8个月发布8款模型，到2024年仅发布3款模型，百川智能在基座模型上的脚步在不断降速。</p>
-<p>其实百川应该是百模大战之初最有流量的小虎，拿的融资也不少。但是一年多后，百川最新一代基座大模型Baichuan 4只选择打榜国内商业化榜单SuperCLUE。LMSYS ChatBot Arena、AlpacaEval等有学术背景、相对公正的国际权威榜单上，Baichuan 4却从未上榜。</p>
-<p>在应用端，据七麦数据显示，百川智能的应用百小应近30日iPhone端日均下载量仅3次（是的你没看错，是3次）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_b0d4b434488247819482c33c1d61116e@000000_oswg481803oswg970oswg1799_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>百川的ToB落地，也不是很理想。据腾讯《深网》不完全统计，今年前9月百川中标项目仅2个，而智谱中标项目为21个。另一方面，百川花14亿元购买的未来三年算力交付服务的稳定性也引发关注，算力合作方鸿博股份公告显示，由于GPU服务器未能按时到货，旗下英博数科向百川智能算力履约进展与实际情况存在延后。另一份公告则显示，英博数科与紫光晓通科技有限公司解除了高达4.94亿元的购销合同。作为紫光股份旗下公司，紫光晓通业务就包含了英伟达产品的中国区销售业务，这一定程度上影响了英博数科的GPU采购进度。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_1f2b1cc712774cee86e36fe7b7d62366@000000_oswg508638oswg1080oswg682_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲</p>
-<p>之前业内盛传，百川会逐步放弃预训练模型，缩减预训练算法团队人数，将业务重心转向AI应用。百川的回应是，预训练团队稳定，预训练工作正在稳步推进，并不存在放弃预训练一说。</p>
-<p>虽然王小川在接受《人物》采访时说自己发自内心的“不焦虑”。Sora他不跟，长文本他不卷，价格战他不参与，大家都在焦虑商业化，他到底在不在乎？</p>
-<p>在小川哥看来，公司账上有钱，融资正常，钱没乱花，现金流不成问题。但是百模大战都到洗牌阶段了，咱太“佛系”就会被比下去啊！</p>
-<h3><strong>阶跃星辰：百米赛跑让了别人50米</strong></h3>
-<p>阶跃星辰背靠上海国投，和智谱AI一样，都不缺资源。但入局太晚，如果百模大战是场百米赛跑，人家都跑了半程阶跃星辰才入局，不管是模型还是应用都在追赶状态。</p>
-<p>简单来说，阶跃星辰基座模型性能与头部国内模型有差距Step-1千亿参数语言大模型性能仅对标GPT-3.5；Step-2 万亿参数语言大模型性能仅对标 GPT-4；划个重点，前文提到了“技术派”零一万物、智谱AI、DeepSeek可都是逼近或者超越了OpenAI今年5月发布的 GPT-4o。</p>
-<p>其次，跃问、冒泡鸭等 ToC 产品的表现也仍有提升空间。七麦数据显示，冒泡鸭周下载量仅808；Similarweb数据显示，跃问9月访问量仅7万。业内都在讨论，阶跃你手里有那么多卡，你得好好做啊。</p>
-<p>所以，这场热闹的厨神争霸里，有人自信领跑“钻研厨艺”，有人奋起直追“研究菜谱”，有人转换赛道用起“预制菜”，有人干脆熄火躺平……</p>
-<p>小虎们需要意识到，模型预训练是衡量大模型公司技术实力的重要指标，也是最为显著的技术壁垒。而从模型预训练角度来看，六小虎的技术差距一旦被拉开，掉队后再追赶难度极大。</p>
-<h2><strong>3.大模型的大厂创新窘境：小创新大厂赢，大创新小厂赢</strong></h2>
-<p>但话又说回来了，六小虎中谁赢都不是结束曲，真正的对手还是在大厂。</p>
-<p>随着大模型预训练的赛道上基本进入了终局，一场创业公司与大厂也即将“决战光明顶”。</p>
-<p>之前AI行业的很多人认为，只有大厂玩得起的“烧钱游戏”。</p>
-<p>大厂的优势在于商业生态、资金、流量、庞大的团队，在调动资源方面，大厂有着天然的优势，随时能号令天下“华山论剑”。但是小厂人家也是东邪、西毒、南帝、北丐帮派里的厉害角色，完全能在某些方向上和大厂过招有来有回。</p>
-<p>就像红衣大叔和百川智能王小川说的，在大模型界一直有句箴言——“小创新大厂赢，大创新小厂赢。</p>
-<p>过往的PC互联网和移动互联网时代，确实不乏小厂做出水花后被大厂并购，或者干脆被大厂抄袭，最终导致创业失败的案例。</p>
-<p>但是大模型热潮与以往技术浪潮存在着本质的不同。</p>
-<p>一方面是技术迭代周期。大模型太强了，大模型时代下基座模型仍然在以4-6个月为周期快速迭代，推理成本也在以一年十倍的速度快速下降。今年的诺奖物理学奖和“一半”化学奖颁给了人工智能，其中一个获奖者甚至不到40岁，可见年轻的“小虎”们更有活力去迭代。“大力未必出奇迹”，大厂堆资源、搞并购的饱和式攻击打法，在大模型时代并不能完全奏效。</p>
-<p>另一方面，则是人才战略。大模型的落地需要人的紧密配合，并不是由单个算法高管、单个技术天才掌握的。研发基座模型是一个极其复杂的系统性工程，既需要算法人才，也需要AI基础设施人才，还需要懂大模型的产品和工程人才。</p>
-<p>各小虎都意识到了人才的重要性，月之暗面近日宣布微软亚洲研究院前首席研究经理谭旭正式加入；某小虎此前也曾传出接触某头部房地产中介平台算法高管的消息，双方随后向媒体否认，至于人才能否顺利融合，业界都在观望。</p>
-<p>螳螂捕蝉黄雀在后。六小虎间的人才战正火热，大厂已经开始出手。典型的例子是字节跳动更是在今年频繁招揽大模型人才，组建大模型研究院。</p>
-<p>但这次，“官宣”之外，静水深流。</p>
-<p>技术团队们始终保持神秘的智谱AI、零一万物、DeepSeek反而在权威的LMSYS上取得世界领先的成绩，受到《金融时报》等知名外媒的关注，但是这几家一直对自己的配置三缄其口。</p>
-<p>背后的原因其实也很好理解。多位高端猎头透露，大模型“尖端人才”的争夺战已经打响，真正的技术leader总是藏于幕后的，就像是“秘密武器”，不轻易对外。“担心露头就被秒啊。”</p>
-<p>同时，大厂自己也上演着“屠龙勇者成恶龙”的戏码。</p>
-<p>市场环境对于大厂的要求是财报必须漂亮，进入IPO管道的更是如此。这把上悬的“达摩克利斯之剑”迫使他们必须将更多甚至全部精力放在传统优势市场的延续性上，对新业务的投入可能一时声势浩大，但持续性方面面临着财报的灵魂拷问。新业务甚至有可能还没出现可能内部站队就给站没了，别说决战光明顶、华山论剑了。</p>
-<p>能够聚拢各方人才，并且能够以高效的组织架构实现多方协同的大模型初创企业，洽洽成为了搅动一池春水的“创新鲶鱼”。</p>
-<p>毕竟当年提出Transformer架构的是Google不假，这个架构如今已经逐渐收敛成了中外大模型的架构基座，但真正做出震惊世界的ChatGPT的，却是当时还是初创公司的OpenAI。</p>
-<p>如此看来，专注模型预训练的智谱AI、零一万物、DeepSeek保留住了初创公司的“核心科技”，正为后续与大厂的竞争继续积蓄实力。要想最大程度上盘活国内的大模型创新，这些公司会是重要力量。仅靠山头林立，“偶像包袱”又重的互联网大厂们，是远远不够的。</p>
-<h2><strong>4.写在最后</strong></h2>
-<p>其实，做好大模型还有更重要的使命。</p>
-<p>据路透社10月21日报道，美国政府禁止对中国人工智能（AI）领域部分投资的相关规定目前正在进行最终审查，这些限制措施很快就会出台。</p>
-<p>懂得都懂，中美科技竞争格局越来越明晰，双方一直在互相比拼，从前些年的贸易、到芯片，再到现在的AI，大模型会成为各方英雄逐鹿中原的焦点。</p>
-<p>现在，我们有庞大的、坚实的产业基础，有各种丰富的应用场景，只要训练的基础打得好，应用层面会形成一个强大的数据循环闭环，这是中国AI产业落地的天然优势。</p>
-<p>虽然对于大模型初创公司来说，这是最坏的时代，因为巨头已经意识到大模型的重要性纷纷下场。</p>
-<p>但是也是最好的时代，因为只要把握住基座模型训练的自主权，打牢技术底座，初创公司就始终有突围的机会。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU0OTI2MzkxMA==&amp;mid=2247860752&amp;idx=1&amp;sn=ae04811f4d13aef0e0af73d5c42feb71&amp;chksm=faecbbb758a628191fb577c9fe9aba2c0a5d44a80618791c2e9963aeca197b1cc2717640b591&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金融八卦女频道”（ID：baguanvpindao）</a>，作者：铁马，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013096385439233</guid><pubDate>Tue, 29 Oct 2024 17:48:00 +0800</pubDate></item><item><title>AI配件，假性繁荣</title><link>https://36kr.com/p/3013116385928713</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>AI浪潮不断侵袭各行各业的当下，沉寂多年的消费电子领域终于熬来了AI硬件狂欢。</p>
-<p>回顾AI硬件发展，过去几年间，手机与PC这两颗太阳高悬于市场中央，吸引了绝大多数的技术火力——AI芯片、架构、软件生态几乎都围绕这两大设备构建。</p>
-<p>但，时代变了。当下，AI正逐步从手机、PC这类中心设备中“逃逸”，钻入曾被行业忽视的配件领域，耳机、鼠标、键盘——这些过往的“配角”，不再是手机和PC的附庸，而是逐渐进化为AI的新物种。这一切，正在改写大众对AI硬件的认知。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_fb0abe50ff374e4cb2fc2ea3ae99a8ca@000000_oswg117225oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这一变革并非偶然发生，很大程度上是AI硬件去中心化的结果，一直试图瓜分硬件蛋糕的AI厂商则起到了推波助澜的作用。</p>
-<p>只是，就目前而言，所谓的AI鼠标、AI键盘表现尚不尽如人意，雷声大雨点小，更多的是概念炒作和噱头。但不可否认的是，当下的概念炒作和噱头，或许正在勾勒AI配件的雏形——随着硬件、AI厂商互补短板，AI硬件去中心化时代势必会到来。</p>
-<h2><strong>AI硬件，去中心化</strong></h2>
-<p>AI硬件去中心化潮流，一定程度上是AI厂商切入硬件赛道的阳谋。</p>
-<p>首先，AI厂商虽在算法、软件服务等方面具备优势，但普遍缺乏硬件基因，相较于直接“一步到位”，直接进入已经高度竞争、巨头林立的PC、手机赛道，从配件领域切入硬件赛道显然更加务实。</p>
-<p>毕竟硬件研发是一项高门槛、重资本的赛道，尤其是在PC和手机领域——无论是绕过专利墙，还是供应链、品牌构建、渠道铺设，均需重金投入。</p>
-<p>此外，现阶段PC和手机市场已经饱和，行业增长趋缓，直接杀入这些领域，无异于以卵击石，风险极大，且回报周期相当漫长。</p>
-<p>基于此，现阶段的AI厂商在PC、手机领域，更倾向于同成熟的厂商展开合作，比如当下讨论度甚高的AI手机，其背后就有着百度、字节、MiniMax等多家AI厂商的影子。只是，手机赛道集中度较高，留给AI厂商竞夺的优质客户数量有限，僧多肉少，议价权有限。</p>
-<p>相比硬刚手机、PC赛道，从配件领域切入硬件成本更低且操作性更强——像鼠标、键盘这种配件，迭代速度飞快，入场门槛也没那么高，用户品牌忠诚度亦不像手机和PC那样强。以键盘为例，自2014年CHERRY专利保护期过期以后，机械键盘赛道瞬间迎来大爆发，几乎年年有更卷的新玩家杀入。</p>
-<p>低成本切入硬件领域之外，更小的尝鲜成本，是当下AI配件赛道如此热络的另一重原因。</p>
-<p>这可以理解为是一场“从边缘渗透中心”的战争——尽管围绕AI硬件展开的讨论，在行业语境里早已司空见惯，但同消费市场仍然有着一道沟壑。实际上，对于尚未参透AI的普通用户来说，想要其一上来就为AI手机或AI PC买单，无异于让人硬着头皮吃一整桌满汉全席。</p>
-<p>据光子星球此前调查，尽管第一批AI手机早已推出，但线下手机门店为AI而来的用户寥寥无几，以至于多个品牌店员在推销过程中并不会主动介绍AI。这意味着，在用户尚未建立起成熟的AI消费习惯之前，直接让他们为昂贵的AI手机或AI PC买单，无异于揠苗助长。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_80331be0d828418e8420cdbba5e21421@000000_oswg43939oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对于还没完全习惯AI的用户来说，想要他们一上来就为手机或PC中的AI功能买单，无异于让人硬着头皮吃一整桌满汉全席。</p>
-<p>在此之前，培养AI消费习惯几乎只有通过App商城里的AI应用，而尝鲜成本更低的AI配件，则提供了另一个切口——AI配件售价更为亲民，用户决策难度更低，看似从“边缘”绕了一圈，实则是AI厂商的“迂回包抄”。</p>
-<p>此外，在中心设备中，AI往往只是其中的一个功能模块，容易被稀释和忽视。但在配件赛道，AI则能成为赋予产品新的价值主张的绝对主角，抑或是提供新的交互体验，尤其是当AI功能被厂商包装成“不可替代”的卖点时。</p>
-<p>据光子星球观察，某品牌AI鼠标的淘宝旗舰店评论区，有大量对AI撰写文案、PPT生成感到新奇的“小白用户”。尽管其背后所搭载的大模型并非业界第一梯队，但对“小白用户”而言，或许该鼠标正是其同AI办公的初次接触。因此，AI配件不失为推广AI硬件、验证市场需求的一大途径。</p>
-<h2><strong>殊途同归</strong></h2>
-<p>其实，早在大模型带火AI硬件之前，一些AI配件便已悄然迭代。</p>
-<p>以智能语音赛道起家的科大讯飞为例，其2020年前后所推出的语音鼠标与语音键盘，可以说是PC配件“智能化”的早期尝试——虽说对着鼠标键盘说话录入，颇有星爷电影《国产凌凌漆》里“吹风机型剃须刀”的既视感，但两款主打语音输入与翻译功能的产品，一定程度上还是能够收编那些“一阳指”、“二指禅”式的慢打字办公用户。</p>
-<p>而随着AI浪潮汹涌而至，厂商们的硬件野心迅速膨胀。作为最早一批吃到AI硬件螃蟹的玩家，科大讯飞在推出一系列AI学习机产品的同时，亦试图给老旧的语音鼠标、键盘强行“打鸡血”，注入AI基因，趁着这波风口再造一轮声势。</p>
-<p>以AI鼠标AM50为例，除却既往的语音打字、语音翻译功能，其在讯飞星火大模型的加持下，已将智能对话、智能写作、PPT生成、AI绘图等当下常见AI功能一一打包，塞入鼠标、键盘的驱动中，花式撬开用户钱包。</p>
-<p>此番打法，主要面向“小白用户”，毕竟对重度AI用户而言，无论是AI绘图还是智能写作，都有着更为成熟的上位替代，并不需要一个杂糅的“AI应用合集”。因此，科大讯飞AI配件的核心，是通过硬件带动软件，实现面向“小白用户”的市场教化，让硬件反过来推动AI生态的发展。</p>
-<p>相比之下， 字节的AI耳机，走的则是“软件带硬件”的路数。</p>
-<p>字节曾瞄准过XR这一潜在的中心设备，重金从腾讯手中抢下Pico，奈何XR市场尚未得到广泛验证，Pico最终亦因进展缓慢遭到裁撤。</p>
-<p>或许是吸取了Pico的教训，重回硬件的字节，在今年上半年收购耳机厂商Oladance，选择了耳机这一早已得到市场验证的赛道发力，推出了AI耳机OlaFriend。</p>
-<p>据悉，字节AI耳机的核心玩法，是同豆包的打通、解放双手的交互。豆包作为现阶段国内AI应用的第一梯队玩家，积累了一定数量的重度用户，而字节AI耳机与豆包的高度协同，或许会吸引豆包的拥趸买单——通过成熟、高普及度的AI应用，带动配套的AI硬件销量。</p>
-<p>而据光子星球观察，淘宝倍思旗舰店的一款鼠标，电池容量和可调DPI这些硬件参数完全相同，但标准版售价169元，带AI语音功能的版本却飙到了359元——价格直接翻倍，相当于买两个标准版。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_53c9f608748b413b9568bddd3420d7cc@000000_oswg95209oswg1080oswg790_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>究其所因，赛道本身已卷无可卷，AI自然成为了唯一的附加值。</p>
-<p>现阶段的鼠标、键盘等外设配件，在多年的优化与改进后，基本完成了核心功能的演化——就像几千年不变的筷子，鼠标作为一款人机交互设备，性能层面，鼠标回报率、延迟、DPI等早已超过了人体的操作、感知极限，除却营销噱头外，几乎已无向上升级的必要。</p>
-<p>一旦技术创新无力突破，越“卷”，利润率反而越低——仅剩的鼠标大厂依托成熟的产业链和强大的品牌溢价能力，可以继续维持高利润，而小厂商则往往会陷入内卷的泥潭，利润空间极其有限，“大厂躺平，小厂试水”成为常态。</p>
-<p>即便是掀起减重潮流的Finalmouse，也是通过潮牌路线，才能支撑至今；键盘厂商想要逃避低价内卷，大多需要扎根客制化键盘，通过一对一定制提高溢价。AI鼠标与之类似，作为厂商们推高价格的“低成本”手段，AI相当于变相收了一笔“智商税”。</p>
-<h2><strong>切勿本末倒置</strong></h2>
-<p>大行其道的AI配件，长版突出，短板同样明显——现阶段，许多厂商似乎陷入了一个误区：过度追求AI卖点，却忽视了基本硬件素质。</p>
-<p>一位业内人士指出，科大讯飞曾发布的一款语音鼠标，硬件方案同传统鼠标相比，几乎只多了一个麦克风采集电路。且功能按键都是传统的机械按键，并没有采用当下大厂鼠标主流的微动开关。</p>
-<p>此外，据用户反馈，该鼠标左键偶尔还会失灵，“语音鼠标，首先它得是个合格的鼠标，起码得满足鼠标的基本功能。”</p>
-<p>时至今日，尽管科大讯飞鼠标产品已从语音鼠标迭代到AI鼠标，但在淘宝旗舰店评论区，仍有用户吐槽鼠标控制不灵敏、光学感应失效，在光滑表面上必须垫纸才能正常使用；而在共享空间中，同事的声音也常常被误收录——麦克风指向性似乎尚不够好。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_d39e37b3e5ca4989970b0ad94c2a36b6@000000_oswg39838oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而翻看其他类似的AI配件，大体也都存在着“轻硬件、重软件”的问题。以某款AI耳机为例，虽然详情页将AI功能吹得天花乱坠，但其核心的发声单元平平无奇，音质体验远逊于同价位的专业耳机。</p>
-<p>另一方面，外设厂商虽有着成熟的技术沉淀与硬件调教，但却普遍缺乏AI能力。</p>
-<p>以外设巨头罗技为例，其近期推出了内置AI功能的键盘ALTO KEYS K98M，用户可一键调出AI应用。据悉，该键盘在海外版本能调出ChatGPT，国内版则是文心一言。这意味着，AI配件赛道已然开始协同进化，从过去的单打独斗，转变为AI厂商与硬件厂商一同完成最后的拼图。</p>
-<p>归根结底，AI作为硬件附加值，不能成为掩盖低硬件素质幌子，本末倒置的AI配件，只会在市场迭代中覆灭。而这场从中心设备到边缘配件的AI革命，眼下看似浩浩荡荡，但仍缺乏真正的落地生根。AI配件的故事想要讲得足够精彩，或许还需两路人马的“亲密关系”更进一步，而非单纯堆砌概念。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MjUxODMwMg==&amp;mid=2649660032&amp;idx=2&amp;sn=27663a66916e8a7c54f83f3b0109dcf1&amp;chksm=86cf90fb2825e9f426ae8f53b4735981aad3fd78efb226ed7012f27c282df5112fe6a289ed87&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“guangzi0088”（ID：TMTweb）</a>，作者：文烨豪，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013116385928713</guid><pubDate>Tue, 29 Oct 2024 17:51:00 +0800</pubDate></item><item><title>第一批穿鸟通勤的打工人，已没有软肋了</title><link>https://36kr.com/p/3013120737043970</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>又到了一年几度的“北京撞衫大会”时间。 </p>
-<p>当秋冬交界的第一股寒风吹起，其他地方的人，首先想到的或许是：烤红薯，涮火锅，盼暖气。 </p>
-<p>只有北京人，在冰凉的被窝里心念一动：<strong>天冷了，心爱的冲锋衣又该出场了。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_6e2333a1a7444989afb749674c58297b@000000_oswg1636858oswg1080oswg1870_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书 </p>
-<p>北京人离不开冲锋衣，就像东北人缺不得棉裤，广东人少不了校服，湖南人不能不穿棉睡衣。</p>
-<p>有人说“有了它，Q4才完整”，也有人感叹“冲锋衣上身，感觉百毒不侵，让降温来得更猛烈些吧！”</p>
-<p>从被嫌弃，到不离不弃，北京打工人克制又浓烈的浪漫，从<strong>把实用主义外化于形，用冲锋衣武装自己开始。</strong></p>
-<h2><strong>北京市服上身，时尚已死?</strong></h2>
-<p>在北京，人们对冲锋衣的爱，并非与生俱来。 </p>
-<p>前些年，北京“时尚绝缘体”的恶评流传在外，有一半的锅得甩给冲锋衣。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_d90db614ebe94483b17f7fb8b7ba56ce@000000_oswg51304oswg978oswg173_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微博</p>
-<p>走在北京的街头，冲锋衣含量到底能有多高？ </p>
-<p><strong>三分钟之内能迎面过来五件冲锋衣，胸前依次印着鸟、骆驼、象、狼、山等图标。         </strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_e143e8aadf4b4460a21e4dfe66917acb@000000_oswg72704oswg637oswg175_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微博</p>
-<p>每每说起其中代表，自然少不了在号称“中国小德国”的北京海淀。</p>
-<p>早晚高峰的通勤路上，冲锋衣存在感极高，连色调都统一成黑、灰、深蓝等暗色。</p>
-<p>放眼望去让人忍不住做出总结—— <strong>人一旦在海淀待过，你这辈子就定型了。</strong></p>
-<p>天一冷会不自觉穿上土土的冲锋衣， 去商场会直奔优衣库、迪卡侬，稍微潮一点就浑身不自在。 </p>
-<p><strong>如果海淀有时尚，恐怕也只是“更贵的冲锋衣。”   </strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_a12f4e68f5ed4f61b7f7363220a44de8@000000_oswg297635oswg528oswg364_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>网友：没事，北京人不太攀比穿，海淀人更有一种漠视外在的自信/图源：@刚刚是我在说腹语，已获授权</p>
-<p>因为北京的冲锋衣含量实在太高，高到时尚完成度基本为0。 </p>
-<p>“钓鱼佬专用穿搭”一度成为网友们群嘲冲锋衣的专用词。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_ed77c96e411b49a88689700ca9aa5ea5@000000_oswg54261oswg1080oswg165_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过那些都是过去的事了，人总会为自己的年少轻狂付出代价。 </p>
-<p>在冲锋衣这，人们早已尝到了“打脸”的滋味： </p>
-<p><strong>“去年还想着冲锋衣怎样穿才不土，今年只想着冲锋衣陪我直到入土。”</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_7a414cd2f691435bb1cc38b436a96adf@000000_oswg8670oswg925oswg81_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书</p>
-<p>毕竟在北京待过一段时间后，一年到头，你甚至不需要考虑“今天穿什么”的问题： </p>
-<p>鞋柜里，洞洞鞋五一上岗，十一退役，余下的日子则由勃肯鞋出征，直至洞洞鞋继续轮岗。 </p>
-<p>衣柜里，<strong>防晒服可以从五一穿到十一，冲锋衣从十一穿到五一。</strong></p>
-<p>要知道，在北京市服（凛冬款）黑长羽绒服出山前，冲锋衣生命周期至少可从国庆节延续到12月。 </p>
-<p>到了来年2月又可以穿到开春，夏天还能放公司备用，挡挡空调冷风。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_1a1ed65c0de6453ab86c65b9340fde62@000000_oswg226561oswg1080oswg1277_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">完美匹配的北面冲锋衣和优衣库摇粒绒，优衣库是各家冲锋衣的好搭子/图源：小红书@Valena，已获授 </p>
-<p>以至于刚到北京的外地朋友们，真诚发问“北漂需要准备什么”时，评论区网友总会给出答案： </p>
-<p><strong>“建议把冲锋衣落实到每个人。”</strong></p>
-<p><strong>“趁着双十一赶紧入手两套市服吧，那是你融入北京的第一步。”</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_d1bfe5c117b040d491803c313da1c063@000000_oswg47392oswg1080oswg396_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">冲锋衣低调得让人安心</p>
-<p>对于“这个季节到北京怎么穿”这样的问题，他们也会推己及人，给出<strong>“剥洋葱穿衣法”。</strong></p>
-<p>即：外面一件冲锋衣，里面搭配各种短袖、长袖、卫衣、马甲、摇粒绒、羽绒内胆，就足够应付0~20℃区间的各式场景。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_38ab06bb26974c869db29a72a8595ddd@000000_oswg177420oswg1080oswg1663_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@江小西，已获授权 </p>
-<p>或者更易上手的<strong>“三明治穿法”</strong>，也是不错的选择。 </p>
-<p>即<strong>打底衫、绒毛内胆、冲锋衣</strong>分别为内中外层，各司其职，可灵活调节为遮风挡雨、绵柔保暖、排汗透气三档模式。 </p>
-<p>这种穿法简单实用，最关键注意事项仅有一条：<strong>冲锋衣记得买大一号，方便加塞。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_3326f8ecbcd344f9aa200de975f4e81f@000000_oswg52083oswg1080oswg295_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">只要你在北京待得够久，总有一天会皈依冲锋衣门</p>
-<p>对这种草率不操心的穿搭，不懂其中奥妙的人，往往会笑一句：<strong>果然，北京没有穿搭。</strong></p>
-<p>但早已把冲锋衣融入生命的人，才知道它的好， <strong>就像遍寻不得的爱情：不离不弃，知冷知热。</strong></p>
-<h2><strong>“三合一，怎么穿，都不怕”</strong></h2>
-<p>“当我开始看冲锋衣羽绒服内胆三合一的时候，我就知道我被北京毁了。” </p>
-<p>由于耐脏抗造，适合出差穿等优点，冲锋衣已经拿下<strong>“打工仔日常通勤皮肤”</strong>称号。 </p>
-<p><strong>“在北京过秋冬，它是需要焊在身上的御寒战袍</strong>（这里的寒，既指天寒，也指心寒）<strong>。”</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_07b7d96876ca4593a9f90c8368903d6c@000000_oswg1029783oswg1080oswg613_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">电视剧《玫瑰的故事》中的冲锋衣穿搭 </p>
-<p>冲锋衣的选择丰俭由人，加多样性就是换换颜色和品牌，款式按需取用即可。 </p>
-<p><strong>软壳</strong>春秋时节适用，<strong>硬壳</strong>方便冒着风雨打工，眼下这个季节，<strong>三合一</strong>是北京人当季的心头好。 </p>
-<p><strong>它抗风，温暖，还有很强的隐蔽性、防御性和包裹性，一件更比三件强。</strong></p>
-<p>天猫10月中旬发布的冲锋衣热销榜数据，前20名的产品中，有11款为三合一冲锋衣。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_ffbe01e3fd9f422681de1565c3c56cf9@000000_oswg508011oswg1080oswg637_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这种冲锋衣又俗称两件套，外套和内胆可以拆开，而它们排列组合后的超高性价比，让极简穿衣界将其奉为造福人类的伟大发明。/图源：@AAA土豆炖茄子，已获授权</p>
-<p><strong>冲锋衣不高调，穿着它在冬日北京寒风凛冽的街头，进可攻，退可守。</strong></p>
-<p>“不会让你因冷而瑟缩，也不会因为太精致而不自在，更不会因土的突出而无地自容。 </p>
-<p>只会让你觉得自己又飒、又干练，因为自己的低调而感到自在和踏实。” </p>
-<p><strong>每次穿着冲锋衣、踩着共享单车奔赴工位的旷野，感觉今日打工人设都变成了重生文主角。   </strong></p>
-<p>被寒风吹得呲牙咧嘴，胸口还热血沸腾着。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_e5bd447470b546998d8f8fdd1d0d4978@000000_oswg61140oswg1080oswg208_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>还有冲锋衣的价格也是丰俭由人，人均百元到千元，甚至到万元都可实现。</strong></p>
-<p>贵价如攀山鼠、始祖鸟，中上档如凯乐石、哥伦比亚、北面，价位友好的如伯希和、优衣库、骆驼、Jeep、迪卡侬。 </p>
-<p>具体选哪个，往往只看个人预算，<strong>反正在北京只要你穿了市服冲锋衣，我们就是同行的战友。</strong></p>
-<p><strong>“你穿始祖鸟，他穿北面，我穿骆驼，我们都有灰扑扑的未来。”</strong></p>
-<p>在这种心态的加持下，事实上对于一些朋友来说，连颜色方面的顾虑也不再是问题。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_66416e45c985461681fbba8a6dc4b1bc@000000_oswg49865oswg1080oswg676_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>以前说有什么需要注意的，可能还担心有些颜色容易和别人的工装撞款。</p>
-<p>其他人纠结红黄蓝扎眼，蓝黑灰又有点暗淡的时候，有心之人已灵机一动： </p>
-<p><strong>反正都是穿来打工，穿谁家不是穿啊？！</strong></p>
-<p>二手交易平台上，卖二手工装的不在少数，仅需五六十元就能拥有一件风里来雨里去的战袍。 </p>
-<p><strong>户外工作者严选，应付通勤路绰绰有余。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_9e772323904b4a039b81c09d3a123639@000000_oswg1401457oswg1080oswg1708_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>有人紧跟时事，建议北京政府将冲锋衣纳入“以旧换新”补贴品类。</p>
-<p><strong>在北京感受过一次冲锋衣给的安全感，你就再也戒不掉了。</strong></p>
-<p>它里里外外的兜够装得下工卡、手机和家门钥匙； <strong>挤地铁时需要耐磨抗造，冲锋衣也能完美契合。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_62f282556dc64b1eb98438c17939801b@000000_oswg3428oswg505oswg69_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>宽宽大大的版型里，能装下一切“恶心穿搭”，拉高拉链、帽子一戴，冲锋衣就是保护壳…… </p>
-<p>因为衣服有涂层，不能经常洗，也就可以理所当然地穿到“包浆”。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_67e124c7ca0749d8908a720301c9514f@000000_oswg18184oswg418oswg57_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>只要你有足够的自信和坦然，就连时尚方面也不再是死角。</strong></p>
-<p>冲锋衣+白色连帽卫衣+微分碎盖+金属半框眼镜，是“秋冬男人最好的医美”； </p>
-<p>想要松弛感户外风，可以试试冲锋衣+工装裤+大黄靴，有一种要“打工到地老天荒”的美感； </p>
-<p><strong>你以为爱上冲锋衣的人在第一层，实际他们在大气层。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_9c9ca10113444890a88fddeb6f7d662a@000000_oswg80968oswg781oswg724_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当程序员们都爱上冲锋衣时，就不用再怀疑它的实用性</p>
-<h2><strong>冲锋衣，救过打工人的命吗?</strong></h2>
-<p>毋庸置疑，冲锋衣能成为当之无愧的“北京市服”，自有它的道理。 </p>
-<p><strong>除了冲锋衣，再没谁和这座城市的气候更配。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_b06793e42ecb49578028fad2e67d48dd@000000_oswg114284oswg568oswg279_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如果你曾被动辄七八级的妖风吹得找不着北，如果凛冬的暴雪曾在你脸上胡乱地拍，如果近20℃的温差也曾让你猝不及防……</p>
-<p><strong>你就会知道，什么风衣、大衣都优雅不过五秒，到了北京的地界统统沦为美丽废物。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_591c0ef8f23b4449b8d7ced463009072@000000_oswg1857459oswg1080oswg1874_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书 </p>
-<p><strong>此时，一件冲锋衣才是北京生存的必备单品</strong>。</p>
-<p>它又防风又御寒，在步行或骑车通勤的日子里，还可以暂且替代一下雨衣。</p>
-<p>以及要是偶尔赶上大风、沙尘暴，它是真能带你“冲锋”一把。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_00d1dcd18f4e428b9f2823c7ae655229@000000_oswg38288oswg1080oswg497_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不止北京人爱它，如今冲锋衣的六边形功能已经被全国各地看到。 </p>
-<p>据魔镜洞察，2023年8月至2024年9月，<strong>冲锋衣在主流电商平台销售额已经达到100亿元。</strong></p>
-<p>今年天猫双十一正式开售4小时15个运动户外品牌破亿，更证明它的火热。 </p>
-<p>尤其恰逢今年羽绒服全线涨价，<strong>谁看完不感觉穿了十年的北面战袍还能再挺挺。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_0ab79888acff4df5bad3bb4d28b0ea1c@000000_oswg21621oswg868oswg187_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：中国商报 </p>
-<p>当然，冲锋衣的爆火，山系穿搭和户外潮走红不无相关。 </p>
-<p>但在许多讨论中，如今更常和冲锋衣绑定的关键词，大概还要属<strong>“年轻人”“打工人”。</strong></p>
-<p>据《线上冲锋衣市场趋势白皮书》调查数据，冲锋衣的穿着场景中，日常穿搭占比高达66%，远高于户外运动场景。 </p>
-<p>哪怕“城市场景冲锋衣不常用”“穿冲锋衣通勤，杀鸡用牛刀”说法并不少见，似乎也<strong>并不影响年轻人对它的爱。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_9e69589440f34587b2cfaf890c38b66f@000000_oswg60287oswg690oswg811_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">反而是顺应这种潮流，有品牌的冲锋衣宣传语适时地调整成“城市比户外更需要一件冲锋衣”。/图源：新浪图数室</p>
-<p><strong>它实用，暖和，还很符合人们的一些心境。</strong></p>
-<p>当晚高峰的地铁上，挤满了面色灰的整齐划一的打工人， 他们身上蓝的、橙的、红的、黑的冲锋衣，某种程度上或许可以被视为一种<strong>态度。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_b08a19d8e51d40518bce5dad343d4cbb@000000_oswg62786oswg630oswg220_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“<strong>打工人上班路上的人山人海，未必不是另一种意义上的刀山火海。”</strong></p>
-<p>“冲锋衣”三个字的由来，就是在登山最后时刻丢掉所有装备，穿着这件衣服冲刺山顶。 </p>
-<p>土也好，时尚也罢，扣上帽子、拉上拉链、走出门去的那一刻，都不那么重要了。 </p>
-<p>彼时穿着冲锋衣的人，更想说的或许是：<strong>什么你都能承受，风霜雨雪也没那么可怕，冲吧。   </strong></p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIzNDAxNjkxOA==&amp;mid=2650934504&amp;idx=1&amp;sn=eba48cece8d5c7f66f69112baebae48a&amp;chksm=f2c9a1b3eba5a3929d75416227b2dec57032ef3e26787370eb119e33620a196f1c5a5feea744&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“槽值”（ID：caozhi163）</a>，作者：槽值小妹，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013120737043970</guid><pubDate>Tue, 29 Oct 2024 17:54:00 +0800</pubDate></item><item><title>沉迷AI聊天？不，最新调查显示美国青少年最担心AI的虚假信息了</title><link>https://36kr.com/p/3013377287808520</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="960,634" src="https://img.36krcdn.com/hsossms/20241029/v2_eb88cbd61ed54b6ab4c5c0c3268c1aec@46958_oswg154064oswg960oswg634_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>10月27日消息，随着人工智能技术的迅猛发展，美国青少年对其潜在风险的担忧日益增加。根据青年倡导组织“青年与人工智能中心”联合民意调查机构舆观（YouGov）进行的调查，年轻人将人工智能的监管视为与社会不平等和气候变化同等重要的议题，认为立法者必须优先考虑应对人工智能的潜在风险。</p>
-<p>今年初，美国佛罗里达州14岁少年塞维尔·塞泽三世因沉迷于Character.AI聊天机器人并产生情感依恋后自杀的悲剧，引发了公众对人工智能可能引发的心理健康问题的担忧。这一事件促使社会各方面反思人工智能在心理健康领域的应用，并探讨其背后的伦理和安全挑战。</p>
-<p class="image-wrapper"><img data-img-size-val="960,472" src="https://img.36krcdn.com/hsossms/20241029/v2_59bf8ffb96c0462598a77350edf649a0@46958_oswg72701oswg960oswg472_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="960,532" src="https://img.36krcdn.com/hsossms/20241029/v2_6123d37f423d43f083a336b6502be9e9@46958_oswg141199oswg960oswg532_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">注：青少年认为AI风险比其他问题更重要</p>
-<p>舆观在7月下旬至8月初对1017名13至18岁的美国青少年进行了调查。结果显示，80%的受访者认为立法者应对人工智能带来的风险给予“极其重要”或“有一定重要性”的关注，这一比例仅略低于他们对医疗保健获取和费用的关切。值得注意的是，<strong>美国青少年对人工智能风险的担忧甚至超过了对社会不平等问题（78%）和气候变化（77%）的关注。</strong></p>
-<p>尽管调查的样本量不大，但它还是为外界提供了了解年轻一代、尤其是那些从小就沉浸在技术环境中的青少年对技术看法的窗口。“因为我们年轻，我认为我们这一代拥有独特的视角，”17岁的沙赫卜·古拉提（Saheb Gulati）说。与19岁的杰森·豪森洛伊（Jason Hausenloy）共同创立青年与人工智能中心（the Center for Youth and AI）的古拉提指出，由于这一代年轻人从小就接触数字技术，他们对技术的社会责任和影响有着更早和更深入的认识。</p>
-<p>乔治城大学Thrive中心的助理教授瑞秋·哈内布特（Rachel Hanebutt），参与了本次调查的分析咨询。她指出，尽管先前已有研究关注年轻人如何利用人工智能，例如在家庭作业中寻求帮助或进行作弊，但这些研究通常只触及表面，未能深入探讨青少年对于人工智能及其在个人未来生活中所扮演角色的看法。哈内布特认为，本次调查有效地弥补了这一研究空白。</p>
-<p>调查还发现，近一半的受访者每周多次使用ChatGPT或类似的人工智能工具，这与另一项调查显示青少年比他们的父母更快接受人工智能的现象相吻合。不过豪森洛伊表示，早期采用人工智能并没有让青少年对这项技术抱有完全乐观的态度。 </p>
-<p class="image-wrapper"><img data-img-size-val="960,689" src="https://img.36krcdn.com/hsossms/20241029/v2_e12d047cfb164412ac6fb4b08a2e41ec@46958_oswg108073oswg960oswg689_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="960,1105" src="https://img.36krcdn.com/hsossms/20241029/v2_260016dd1aa4423fb70026de0d617a46@46958_oswg267676oswg960oswg1105_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">注： 青少年最关注的AI风险，虚假信息和深度伪造技术居首</p>
-<p>该调查还揭示出青少年最关注的人工智能风险。其中，人工智能生成的虚假信息和深度伪造技术是受访者最担忧的问题，分别有59%和58%的人表示担忧。调查还发现，许多年轻人对人工智能技术的长期发展也感到忧虑，其中47%的受访者担心高级自主人工智能（advanced autonomous AI）可能脱离人类控制。近三分之二的受访者表示，他们在规划未来职业时会考虑人工智能的影响。</p>
-<p>调查结果还揭示了年轻人对于人工智能应用在创意领域的普遍支持。具体来说，超过半数的受访青少年（57%）对于人工智能创作艺术、电影和音乐持支持态度，而反对者仅占26%。此外，对于人工智能涉及的版权侵犯问题，几乎不足三分之一的青少年表示担忧，显示出他们在这一方面的顾虑相对较低。</p>
-<p>在与人工智能建立友谊的问题上，受访者意见分歧，46%的人认为人工智能伴侣是可以接受的，而44%的人认为这是不可接受的。然而，大多数青少年（68%）反对与人工智能建立浪漫关系，只有24%的人认为这是可以接受的。</p>
-<p>Encode Justice创始人兼总裁斯内哈·雷瓦努尔（Sneha Revanur）认为，<strong>这是她看到的关于青少年对人工智能态度的最全面的调查</strong>。Encode Justice是一个以青年为主导、关注人工智能的民间社会团体，也参与了调查问题的咨询工作。雷瓦努尔曾在2023年7月作为最年轻的参与者出席了白宫关于人工智能的圆桌会议，并在2024年参加了在瑞士达沃斯举行的世界经济论坛年会。</p>
-<p>她指出，Encode Justice在代表年轻一代发声时，过去缺乏坚实的数据支撑。但现在，他们将携带这些调研数据参与未来与政策制定者的会议，突出许多年轻人正在认真思考这些技术风险。她以加州参议院法案1047号为例，该法案得到了广泛支持，包括Anthropic、埃隆·马斯克（Elon Musk）、好莱坞演员和劳工联盟，要求人工智能公司采取安全措施，保护公众免受技术可能造成的伤害，但被州长加文·纽森（Gavin Newsom）否决。雷瓦努尔表示，这反映了公众对技术风险的担忧被忽视的情况。她认为，这项调查进一步推翻了公众对人工智能政策漠不关心的这一错误观点。</p>
-<p class="editor-note">本文来自<a href="https://news.qq.com/rain/a/20241014A08FOT00" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，作者：无忌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013377287808520</guid><pubDate>Tue, 29 Oct 2024 18:01:00 +0800</pubDate></item><item><title>出海印尼，能否拯救百果园的财务报表</title><link>https://36kr.com/p/3013159071540484</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“水果零售第一股”百果园新动作频频。 </p>
-<p>10月28日，百果园再次在市场上斥资147.03万港元回购100万股股份。值得注意的是，据公告披露，10月以来，百果园已先后八次在市场上回购公司股份，至今已累计回购超785万股。截至10月28日收盘，百果园股价报1.49港元，涨幅为2.76%。 </p>
-<p>除此，百果园也在高调探索出海业务。 </p>
-<p>近期，第十七届亚洲国际果蔬展览会中，百果园创始人、集团董事长余惠勇亲自带团队参展。<strong>开幕式上，百果园高调宣布，C端业务正式“出海”，首站定于印尼，并计划12月底印尼首店正式落地。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_29657b604707444fbdf09a072286ab5d@000000_oswg752085oswg804oswg589_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">百果园创始人、集团董事长余惠勇  摄影：金羽泽 </p>
-<p>出海方面，百果园并非“小白”，海外探索最早可以追溯到5年前。 </p>
-<p>2019年百果园完成B轮融资15亿元，国内门店数量突破4000家，同年，百果园收购了海阳津成泰农产品发展有限公司。据了解，津成泰主要做果蔬加工、存储、外贸等业务，将苹果、梨等果蔬品出口至东南亚、中东和欧洲市场。<strong>完成收购后，津成泰成了百果园旗下全资子公司，百果园自此开始涉足水果出口业务。</strong></p>
-<p>到了2023年，百果园开始对出海进行正式布局。首先，百果园投资收购国内水果B2B平台——深圳般果约19.58%的股权，而后共持有般果51%股权，百果园开始加码国内水果B端市场，并成立to B事业部与国际化部门。 </p>
-<p>“未来十年，（百果园）力争水果出口额超百亿元人民币，初步建成全球B端销售网络，成为中国水果出口头部企业。”1月5日，百果园高调举办黄金十年战略发布会，余惠勇直抒对海外市场的野心。 </p>
-<p>财报显示，2023年百果园向海外市场B端客户出口水果及水果产品的销售额为25亿元，相较于2022年的销售额15.44亿元，同比增加约62.0%。据百果园2024年上半年业绩报告，公司海外出口业务同比增长了29%，其中印尼市场的增速超过了80%。 </p>
-<p>水果出海，并不是一件新鲜事。 </p>
-<p>中国海关数据显示，仅2024年上半年，中国水果及制品累计出口35.53亿美元，出口数量达267.50万吨，同比增长47.42%。而2023年一整年，水果出口金额达49.8亿美元，出口量达386.8万吨，中国水果贸易额达218.3亿美元。 </p>
-<p>“中国品牌出海，往往是去海外寻找没那么卷的市场。”中国食品产业分析师朱丹蓬曾表示。企业出海，意在寻找国外具备增长潜力的蓝海市场，但百果园的出海主阵地，却选择了一个果业看似比国内更卷的市场——印尼。 </p>
-<h2><strong>印尼的“卷”和“空白”</strong></h2>
-<p>印尼，本身就是一个水果贸易大国。 </p>
-<p>“印尼的榴莲对华出口的潜在价值，预计或高达80亿美元。”6月，印尼与中国合作协调员兼海洋事务和投资协调部长卢胡特访问中国，在其官方社交媒体中这样强调。 </p>
-<p>处于亚洲东南部，印尼地跨赤道，气候湿润多雨，日照充足，农作物生长周期短，适合热带水果的种植和生长，如榴莲、山竹、芒果、红毛丹等水果可一年四季不间断种植生产，是亚洲水果种类最独特、最多种化的国家。 </p>
-<p>根据印尼中央统计局数据，印尼2023年单榴莲总产量达185万吨，仅东爪哇一个省产量就超48万吨；椰子总产量超过280万吨，出口额达15.5亿美元，2.8亿人口中，约有660万农民以椰子和椰子制品为主要收入来源，印尼水果行业的“卷”不难想象。 </p>
-<p>“榴莲超便宜，我们路边买的，一个大概10～20元。”6月从印尼旅游回来的杨捷告诉《中国企业家》。“4～5斤的木瓜，约5元一个，猫山王榴莲，约45元2个。”在小红书输入“印尼水果”词条后，出现的第一篇经验帖中写道，截至10月28日该经验帖已有500多条互动量。 </p>
-<p>而今年8月，国内拥有超6000家门店的百果园，因“月薪2万吃不起百果园”曾登上微博热搜榜单，被网友评价为“水果刺客”。 </p>
-<p>作为一个果业红海，百果园将印尼作为C端出海首站、B端出海主阵地。 </p>
-<p>印尼对中国品牌的吸引力一直存在。据华经产业研究院数据，单2024年1～8月，中国与印尼双边货物进出口额就达到了927.9亿美元，“像名创优品、蒙牛、飞鹤这些快消品都在印尼布局，整个印尼市场极具活力。”朱丹蓬表示，将东南亚的印尼作为出海基地，对百果园来说有利于供应链的加持。 </p>
-<p>“印尼市场大，但优质服务几乎是空白。”百果园to B事业部兼海外事业部负责人朱启东曾对外表示，印尼果业发达，这意味着代表当地有极强的水果消费习惯，但当地会员体系和售后服务标准几乎处于空白状态。 </p>
-<p>据百果园官网，目前百果园国内拥有6000余家门店，加盟门店约占90%，超8000万会员注册使用。<strong>做会员、做连锁，这是百果园在国内的经典打法。</strong></p>
-<p>“印尼常见的是路边摊，连锁店很少。”博主“生活在印尼的军军”说道。杨捷也表示，自己在印尼旅游一周，没有看到街边单卖水果的门店。显然，连锁品牌体系的空白，是百果园决定C端落地印尼的真正原因。 </p>
-<p><strong>空白，也意味着当地消费者对于连锁水果品牌消费理念的缺失。</strong> “当地人买水果还是以路边夫妻老婆店为主。”定居印尼的中国女孩大乔说道。百果园的C端出海，还有一场硬仗要打，但目前，余惠勇看起来相当乐观。 </p>
-<h2><strong>要做果业版7-Eleven，难在供应链</strong></h2>
-<p>“计划未来十年内，海外门店突破500家。”余惠勇在战略发布会上表示，百果园未来将会像7-Eleven输出品牌和便利店连锁模式一样，输出百果园品牌和水果专营零售连锁的商业模式。 </p>
-<p>作为连锁品牌，7-Eleven和百果园确有共同之处。二者大多都不直接开店，而是通过建立起从供应链到售后的一整套系统，帮助加盟商开店运营。通过品牌效应吸引加盟商的同时，更引来大量供应商的合作，再通过整合上游的供应链，为加盟商提供‌品牌授权，加上‌物流、技术创新等全方位支持，以此实现大规模扩张。 </p>
-<p>据实地调查，7-Eleven北京某不足40平方米的门店，有超千种类的商品陈列在店内。并且如7-Eleven的熟食关东煮、便当、水果、鲜奶等，不同品类储存温度不同，7-Eleven配送频次也不同，有的品类甚至达到了一日三送的供应模式。 </p>
-<p><strong>要想复制7-Eleven，供应链是百果园必须攻克的难关。</strong></p>
-<p>据官网显示，百果园构建了一支300余人的采购专家团队，直采水果种类近1000种，全球26个国家中合作水果基地800余个。2019年，百果园收购的“般果”，获长期合作供应商超1700家，全国125个城市设178个城市仓，同时国内外一齐开展B端业务，并海外安营扎寨在印尼这个“天然供应基地”。 </p>
-<p>但这就能复制7-Eleven的连锁模式吗？ </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_42af795bc26d4a27a36b1a7fac16e1c5@000000_oswg1456154oswg710oswg1098_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">亚洲水果展百果园展位。来源：百果园公众号</p>
-<p>水果毕竟和便利店大部分商品有所区别。 </p>
-<p>便利店供应链端需要的是多种类的合作供应商，而水果除了需要丰富供应商种类，还全线依赖供应链的运输和储存：比如便利店内生鲜、速食只占其中部分类别，只有部分品类一天多次供应，而水果则面临着隔夜水果等问题，需要更高频次地供应；如便利店内大部分品类受运输周期长短影响不大，而水果生鲜的周转率则至关重要。 </p>
-<p>不同水果来自不同气候的地域，还需更高频次地对门店供应，这显然比便利店要面对的供应链压力更大。 </p>
-<p>在合作伙伴方面，据百果园方面透露，在印尼有一位当地影响力巨大的合作伙伴，“基本上所有成功出海的企业，都会在海外寻找靠谱的合作伙伴。”朱启东曾在采访中说道，印尼的这位合作方有着多年高端商超成功运营经验，并且熟悉当地政策和市场环境，双方“一拍即合”。当询问这位神秘的合作伙伴具体是谁时，对方暂未透露。 </p>
-<h2><strong>多重压力下的出海</strong></h2>
-<p>“未来十年，我们的总目标是GMV达到千亿，市场占有率超过10%。”2024年初黄金十年展战略发布会上，余惠勇剑指“千亿销售规模”，同时为百果园设立了下一个十年目标：实现门店数量超万家，终端零售额超500亿。 </p>
-<p>但财报数据，不得不把这份意气风发拉回到现实。 </p>
-<p>据2024财年半年报数据，截至2024年6月30日，百果园门店数量共计6025家，2023年财报显示，去年的销售规模为113.91亿元。 </p>
-<p>据百果园2024财年半年报：2024年上半年，公司所有者应占利润为8850.6万元，同比下滑66%；百果园收入为55.94亿元，同比下滑11%。 </p>
-<p>对此，百果园的解释是：公司在门店翻新、市场推广、聘请美好生活大使等活动的费用投入增加；受外部大环境影响消费力仍疲软，导致门店销售呈下滑趋势；由于2023年6月30日止6个月期间，公司受益于防疫措施解除等因素录得了较高的收入金额，因此，该截至2023年6月30日止6个月的可比基数相对较高。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_8b45c5ec8803496798d532c0905f5eff@000000_oswg336324oswg812oswg778_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：百果园盈利预警报告截图 </p>
-<p>而这只是百果园面临的困境之一。据2024年上半年财报，百果园加盟门店净减少88家，这也是自2019年以来加盟门店数量首次下滑。此外，如今年3·15湖北店曝出的隔夜水果做果切等事件，也让百果园陷入产品质量危机。 </p>
-<p>过去3年，营收增速已连续放缓。2021～2023年，百果园实现营收分别为102.9亿元、113.1亿元、113.9亿元，营收增速分别为16.22%、9.94%、0.69%；实现归母净利润分别为2.303亿元、3.233亿元、3.617亿元，分别同比增长378.56%、40.35%、11.88%。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_dd6912567ca04e81914e4d18777f32ff@000000_oswg138062oswg1080oswg625_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源：百果园招股书、2023年财务报表 制图：孙欣 </p>
-<p>面对增速逐渐放缓，百果园不得不开始寻找新增点。 </p>
-<p>2023年10月，百果园集团三大事业部之一to B事业部成立。而即使依靠收购的“般果”，B端客户销售额同比增长30.0%，但从财报来看，to B也仅占总营收13.1%，对盈利大跌66%的财报来说，杯水车薪。 </p>
-<p>今年3月，百果园2023年度业绩发布会上，余惠勇直言价格压力，称市场“<strong>逼着我们在好吃和便宜中间摇摆，对我们的影响是比较大的”。</strong>8月余惠勇就公开表示百果园下半年将开启“高品质性价比口碑战役”，理念也从原来的“高品质”“好吃水果”转换成“高品质性价比”。 </p>
-<p><strong>事实上，遭遇这一系列问题的不只百果园。</strong></p>
-<p>对于连锁水果店来说，不仅要直面路边店、夫妻店的价格压力，还有众多连锁品牌的竞争，消费者的渠道选择也更加丰富，比如小象超市、叮咚买菜、抖音、拼多多等电商平台。再加上水果行业毛利率低，损耗率大，即使头部的百果园，占市场份额仍旧不到1%。 </p>
-<p><strong>今年8月以来，鲜丰水果9笔持有股权被法院冻结，冻结股权数额总共超过3.1亿元；昔日“水果第一股”洪九果，因2023年财报“难产”，3月20日被港交所停牌，至今仍然未公布2023年财报。</strong></p>
-<p>出海似乎是为数不多的可以一试的增长渠道。 </p>
-<p>果业岛秘书长、中国水果产业研究中心业务部主任侯超曾在采访中透露，出海已成为水果行业的趋势，很多批发市场档口、种植公司、供应链公司都在积极布局海外。百果园的2023年财报中，出海业务增长颇为显眼，2023年总销售额113.9亿元，单海外销售额就达到了25亿元。 </p>
-<p>“（百果园出海印尼）对整个供应链应该是有所加持的，但是在提升整体利润等各方面来说，我觉得还是欠缺。”朱丹蓬说道。目前从规模上来看，出海在百果园集团占比不到20%，C端也未正式落地，能否顺利成为扭转财报的解药，还是未知数。 </p>
-<p>应采访对象要求，文中大乔、杨捷为化名</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MTI3NTQ1MTY0MQ==&amp;mid=2650630617&amp;idx=2&amp;sn=20b5b0ceff715aa6caf4156b082361f9&amp;chksm=7d398bbccb8b35bfbef764e15fd888c793ebde94a230e2107cd009a7dcd3898874822db805ba&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国企业家杂志”（ID：iceo-com-cn）</a>，作者：孙欣，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013159071540484</guid><pubDate>Tue, 29 Oct 2024 18:03:00 +0800</pubDate></item><item><title>淘天AI打算让吴泳铭等多久？</title><link>https://36kr.com/p/3013116194481417</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“大家都在说我们‘含AI量’下降，我觉得比例是上升的，从淘天消耗的服务器显卡规模就能看得出来。”</p>
-<p>面对外界对淘天AI电商进展温吞的评价，阿里巴巴集团副总裁、淘天用户平台事业部总裁、阿里妈妈负责人吴嘉在双11前曾进行了一番回应。</p>
-<p>针对吴嘉提到的显卡规模问题，据一位知情人士透露，今年以来，淘天正在完成供应商替换，引入平头哥与A卡，以实现国产替代。</p>
-<p>不止是核心硬件在替换，软件层也在经历AI化改造。去年上线“淘宝问问”之后，淘天AI的动作和声量看上去远不如同行，比如发力数字人直播的京东。7月初，拼多多合并“全站推广”与“标准推广”为“商品推广”，号称上线了“全站推2.0”，而流传了大半年的淘天“全站推”仍在测试之中。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_ea534c74945d4cf794cf1bd4742a4353@000000_oswg57290oswg1080oswg823_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“AI电商时代刚刚开始，对谁都是机会，也是挑战。”去年马云这句话从某种意义上是今年淘天管理层最终要的OKR。</p>
-<p>目前AI电商大多处于业务范式下，核心是降本增效，旨在重构既有业务逻辑，如京东电商今年发力的重点几乎全部集中在AIGC方面的智能客服、营销物料生成、数字人等。</p>
-<p>“AI电商，现在AI很少，GC很多。”有业内人士认为，AIGC的确对降本增效有所助益，可惜增量价值太少。</p>
-<h2><strong>“全站推”——加速中心化</strong></h2>
-<p>淘天“全站推”被视为提振业绩、给商家提供确定性增长的重要产品。</p>
-<p>全站推是一个GMV导向的营销产品，既可以锚定ROI，在效果上也具有更强的确定性。与此同时，本轮互联网“拆墙”进程中，信息流、资金流（淘天与微信支付互通）、物流相继打通后，淘天全站推将显著改善商家营销效率。</p>
-<p>简单来说，全站推未来将在一定程度上与其他AI、SaaS营销产品，共同改变传统的营销范式。传统电商营销以人为核心，大多存在堆人力、拼经验、缺乏核心技术的代运营团队将会进入历史。</p>
-<p>资本市场普遍认为，全站推会在GMV增长的情况下，明显提升流量货币化率。而集团则认为应该首先将其定义为“经营工具”，且今年前两个财报中，高管们除了谈“疗效”之外，对于产品本身的描述非常少。</p>
-<p>光子星球了解到，截至9月，淘天内部有5000万款以上的商品使用了全站推。至于为何迟迟没有正式上线，很可能与ROI效果、赔付机制，以及人货匹配等密切相关。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_0adcba127fc043a5bfeee7c1575f4222@000000_oswg46825oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>全站推希望达到多重目的，对外能帮助中小商家降本、引导商家从重视价格转向重视商品，于内则希望调试出一套确定性的投产比。一位淘天人士表示，“全站推最终的效果是让商家投多少钱，能看到对应的ROI，更直白的说，我投入多少钱、就会有多少GMV。”</p>
-<p>而赔付作为全站推的配套设施，导致平台既不能把ROI比例设置得太低，否则商家不回使用；比例亦不能太高，过高意味着商家用很小的投入就能杠杆起巨大市场。</p>
-<p>赔付体系中隐藏了多个颇具中心化色彩的选择机制。早前，淘天店铺体验分全面替代店铺DSR后，客观上增加了对商家的考评维度，而店铺体验分直接影响阿里妈妈广告投放效果。</p>
-<p>赔付系统不是慈善，不是所有商品都可以进入到推荐池中。按照此前测试情况看，平台会按照同等条件下的价格、质量、热度等条件，筛选商品。这意味着，淘天面向商家的店铺体验分和面向商品的全站推，共同构筑起商家与商品两套筛选机制。</p>
-<p>“未来所有平台都会上线类似全站推的产品，实际运作中的效果各有不同。”一位淘天人士表示，平台自身基因差异，如偏重推荐、搜索、直播，也会导致全站推的效果各异。</p>
-<p>淘天全站推持续测试，除ROI效果与赔付机制之外，更重要的问题在于如何把商品推送给需要的人群——这意味着全站推可能还会成为商家低成本的AB测试工具。</p>
-<p>一位业内人士举了个例子，服饰商家每年要推很多款式，哪款符合用户需求、哪款对具体个人群有效，这些都可以依靠全站推实现。</p>
-<p>这需要平台有手段了解用户，最有效、经典的手段是搜索触发，千人千面后，淘宝根据用户历史浏览情况，向其推送，一直如今搜推融合。搜推融合的确能挖掘用户需求，但要实现确定转化还有很长一段距离。</p>
-<p>某电商平台早前曾尝试使用大模型，根据用户历史订单、浏览情况等手段，小规模测试后，由于数据过于庞杂，始终没有落地。</p>
-<p>光子星球了解到，淘天大模型已大规模落地，平台自动化的程度明显上升，例如不再过渡依赖工程化方式标注商品。大模型另一个重要作用是“匹配模型”，即在商品和用户需求之间完成流量匹配。</p>
-<p>阿里妈妈与淘天需要对站内外流量进行细分，用什么业务承接，以及以何种方式分发到对应人群。短期，在搜索、推荐、广告三者中，AI对推荐与广告的效率改造相对明显。</p>
-<h2><strong>AI电商正在走出AIGC</strong></h2>
-<p>今年以来，淘天持续在商家侧上线各类智能工具。</p>
-<p>有商家告诉光子星球，618后上线一系列号称AI工具，但实际上换汤不换药，“不好用，效果也不够明显”。双11前，淘天又上线了一系列付费的AI经营和决策辅助的Agent，以数百元不等的价格供商家选择。</p>
-<p>上述经营工具在全站推面前，有些暗淡，事实上，除了全站推之外，淘天上线的诸多产品AI有限，GC有余。</p>
-<p>比如集中在AIGC类的创意产品中，产品迭代与技术迭代几乎完全同步，即从模版化走向商品个性化。例如针对商家制作商详页的文字、图片、视频周期过长的问题，去年6月阿里妈妈上线了AIGC产品“万相实验室”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_1d1b85f47a0942c89682eedc2cb11cde@000000_oswg686131oswg1080oswg664_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在创意方面，最初是由设计师设计模版，预留图文空间，供商家自己发挥。第二个阶段是“动态描述模版”阶段，模版会提示商家，需要哪些商品图文。第三个阶段，基于Transformer才总算扔掉了“模版”，商家输入图片后，AI会根据图片特点预测文字、图片布局。到现在，基于Duffusion，商家只需提供前景背景，而无需底图也能生成。</p>
-<p>视频AIGC也几乎经历了类似迭代过程。最早是模版的剧本视频，按照分镜填充视频片段或者图文素材。第二个阶段为剪辑视频，逻辑是将一个视频拆成很多片段，再标注、分类这些片段，进行编排。</p>
-<p>长文本突破后，进入到AI剧本视频阶段。依靠大语言模型给商品生成长文案，再根据文案的商品描述寻找相应的素材，早前阿里妈妈曾用到达摩院提供的TTS技术。如今大模型已经不是简单的写文案，而是创作一个结构化的剧本，完成文本、图文、视频生成。</p>
-<p>阿里妈妈在AIGC上的突破，意味着淘天可以在商家端形成营销制作、营销投放、店铺经营、货盘管理、用户运营、售后服务等全流程一体化。在商家实际经营中，完成数据获取、问题反馈、并持续迭代。</p>
-<p>但上述技术演进并非一帆风顺，目前电商AIGC遇到了一个非常棘手的技术悖论：既要满足万千商家审美差异性，同时还要帮助品牌实现审美的一致性。</p>
-<p>生成式模型有抽卡的特点，不同卡生成的结果各不相同，体验也参差不齐。在去模版化后，商家对营销物料多样化的要求尽管解决了一部分“AI味儿”过于明显的问题，也几乎做到了以假乱真，但稳定性和精细化上仍有待提高。</p>
-<p>对品牌商家而言，尤其是快销品、保健品、美妆、3C数码这类需要品牌调性的类目，AIGC存在两个明显硬伤，一个是缺乏审美一致性，另一个是没办法生成带有品牌标识的图片。</p>
-<p>确保审美一致性的一个技术解决方案是提供工具的可控性，用指令方式干预生成结果，例如为商家提供自定义风格的数据库。此外，商家账户与生成结果彼此联通，只要选择图片或视频，会一键进入到商家工具或广告主工具中，下一次投放时可选择类似结果。</p>
-<p>至于品牌标识图片，因数据清洗缘故，短期似乎看不到解决方法，还是得二次加工。</p>
-<h2><strong>暂时看不到苗头的“新交互”</strong></h2>
-<p>淘天AI电商有两个同步演进的趋势，一个是AIGC工具在内容生成方面已到临界点，从内容创意自动化走向营销自动化，营销创意与商品洞察本来就是一体两面。</p>
-<p>第二个趋势是全新交互界面与交互形式。在电商场景下，消费者的决策非常个性化，A喜欢的风格并不代表B喜欢，因而交互界面也会变得千人千面。</p>
-<p>现阶段，淘天的重心还处于借用大模型进行用户与商品的理解与洞察上，只有建立完善的人货匹配机制，全站推也好，新交互也罢，才能真正落地。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_cf24cf59a60241f99a24217bf26cc4e4@000000_oswg62826oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“今年早些时候业务还处于开发阶段，年中建立起了稳定的产品-用户间的反馈。”一位知情人士提到，在上述阶段，淘天以提升效率与用户体验为核心，交互与分发会被重构，接下来AI也会重构搜索、推荐、广告三个方面的流量逻辑。</p>
-<p>一个典型特征是今年首页频繁改版，不断做减法，其目的是降低用户搜索行为和进入信息流池的门槛。首页改版背后，是更好地匹配用户理解与商品理解。官方口径早前给到过一组数据，7、8月的改版后，首页为站内商品流量提供了约五千万人次增量。</p>
-<p>严格意义上讲，淘天AI仍然处于期货阶段。作为全网做大的电商平台，眼下双11有来自互联互通的增量，与其冒险上线新产品，稳扎稳打继续测试的确是明智的。</p>
-<p>毕竟，在大促玩花活儿，一旦“花式翻车”，将重创业务。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MjUxODMwMg==&amp;mid=2649660032&amp;idx=1&amp;sn=0c51905c1d870f0ea4f7257f770a0235&amp;chksm=86c7e5a4de86024ccd4e175e16794b46961ccfc9206b971028b88158c63894694dec75aae75d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“guangzi0088”（ID：TMTweb）</a>，作者：吴先之，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013116194481417</guid><pubDate>Tue, 29 Oct 2024 18:06:00 +0800</pubDate></item><item><title>古早费曼论文手写公式也能转LaTeX，还能看懂梗图，马斯克Grok新功能上线就火了</title><link>https://36kr.com/p/3013112268449288</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>Grok 大模型终于能看懂图像了。 </p>
-</blockquote>
-<p>设想一下，如果我们能够将所有 LaTeX 时代之前的文本资料输入到先进的大型语言模型（LLM）中，并从中获得格式规范的 LaTeX 文档库，这无疑将极大地推动科学文献的数字化进程和标准化工作。对于科研工作者而言，这不仅仅是技术层面的飞跃，它更标志着知识管理和信息传播方式的一次重大变革。 </p>
-<p>马斯克旗下的人工智能公司 xAI 发布的 Grok 大模型有助于实现这一目标 —— 在经历了最近的一次更新后，Grok 大模型终于能看懂图像了，甚至还能做公式 OCR、解释笑话。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_c1eb532521da4306a8dc26de8fdd775b@000000_oswg82616oswg1080oswg519_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>AI 销售和营销自动化平台 Amplemarket 创始人 Luis Batalha 在试用后表示：借助 Grok，他能把理论物理学家 Feynman 博士论文中的公式转换成 LaTeX。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_31b090a6fcf54f51b718d998ffc34905@000000_oswg565204oswg1080oswg1423_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>转化之前的文本长这样： </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_c3ab4a42294b42c1b9d0ced2e03a8cb2@000000_oswg285204oswg1080oswg751_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>可以看出，里面的公式基本都是手写的，肉眼辨认尚有难度。而 Grok 可以把它们转化成如此工整的结果，而且准确率令人惊叹。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_00349e9ee07c496c9148c118db5f38c3@000000_oswg191571oswg1080oswg852_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：https://x.com/luismbat/status/1850925670408544355 </p>
-<p>这个帖子吸引了众多研究人员的关注，整个帖子的浏览量已经突破 100 万。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_e5c9624ce804413ebc403247b10ab309@000000_oswg326385oswg1080oswg686_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有人晒出了自己用 Grok 识别出的 18 世纪文件：   </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_89dafe5a0a8945d08de88712a8e3c22e@000000_oswg969161oswg1080oswg1038_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在识别其他图像方面，Grok 表现也非常不错。比如网友上传了一张手表的照片，Grok 根据表壳形状和表带设计猜出了表的品牌（对手表有研究的读者可以看下猜得对不对）。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_ce4f6c43fe604d43a83de38e212f4798@000000_oswg681790oswg1080oswg966_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_beb3c7f67f0a4307a25eb789da89b5bc@000000_oswg340391oswg1080oswg821_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>你还可以让 Grok 点评图片，它能从时尚、风格、表情等多个角度进行描述。比如针对下面这张图，Grok 回答：「图片中描述了一位动漫风格的人物，这位人物拥有中等长度的棕色头发，戴着眼镜，并且正在弹奏贝斯吉他。该角色展现了一种休闲、现代的造型，穿着一件格子衫外套和深色裤子，以及带有红色装饰的白色运动鞋。这种装扮表明这是一个年轻的、可能还在上学的角色，给人一种悠闲的艺术氛围……」 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_a45a492a26d44647b8a23e038d131aa1@000000_oswg327869oswg865oswg979_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源 https://x.com/ItsZeramy/status/1850810276784054313 </p>
-<p>马斯克表示，Grok 其实也可以用来解释笑话（梗图）。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_8c801eb0f6994906adf0b69f21f19169@000000_oswg338900oswg1080oswg971_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>今年三月，Grok-1 正式亮相，在数学、推理等能力上取得了不错的成绩。之后，xAI 迅速推出 Grok 1.5，新一代模型实现了长上下文理解和高级推理能力。8 月，Grok 2 上线，在常识、数学竞赛问题 (MATH)、研究生水平科学知识 (GPQA) 等领域与其他前沿模型相媲美。 </p>
-<p>如今，在 xAI 不断完善下，大家终于可以体验 Grok 的图像理解能力了。为了验证各路网友的说法，机器之心在第一时间进行了测试。 </p>
-<h2><strong>公式 OCR 能力实测</strong></h2>
-<p>首先，机器之心测试了一下 Grok 对公式的处理能力。我们输入经典论文《 Attention Is All You Need 》中的一张公式截图，要求转换成 LaTeX 代码。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_845d2f48f6aa4a3c9424aeafc8a66207@000000_oswg15500oswg826oswg112_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>输入的公式截图，对应论文中的公式（1）。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_2ff4af7052724b8dbb90b9385fb9c10d@000000_oswg161400oswg1080oswg887_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然后，我们将 LaTeX 表达式输入到在线 LaTeX 公式编辑器中进行转换，比对之后发现结果完全正确。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_792080f3dc384178b000c3954009f028@000000_oswg72261oswg1080oswg712_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>公式来源：https://arxiv.org/pdf/1706.03762 </p>
-<p>之后，我们上了点难度，用手写公式进行测试，输入的公式截图看起来不是很规范，但 Grok 还是给出了结果。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_9cc813d63bcd4b1889d37ed7dfeb842e@000000_oswg169247oswg1080oswg940_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_0af8a51da0c444a6a3111c9d4bd80b5f@000000_oswg114793oswg1080oswg934_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>梗图理解能力实测</strong></h2>
-<p>接着，我们再看看 Grok 对图片的理解能力。 </p>
-<p>不知大家是否 get 到小女孩吃蛋糕这张图的笑点。如果没有，当你看完 Grok 的解释，有种恍然大悟的感觉。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_ffa6587cee2d4609b48d775e2fe99917@000000_oswg444211oswg1080oswg1004_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过，Grok 并不是总懂幽默。我们输入如下图片，图片原来的意思应该是想表达打工人的一天似乎都很疲惫，但到了深夜却格外精神。但 Grok 给出的结果并不是。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_5c767523dab84be0a4613caf777e9bb2@000000_oswg239668oswg540oswg519_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_503b0644590f496f84cb7ae2e5f94f5c@000000_oswg397144oswg1080oswg1104_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>经过测试，我们还发现 Grok 对图片中的中文理解的不是很好，比如错把中文字符「我的精神状态」转换成「敌人的精神状态」。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_96270535f5024132a82c759d44bef703@000000_oswg483253oswg1080oswg1159_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>Grok vs. ChatGPT，谁的识图能力更强？   </strong></h2>
-<p>虽然识图是 Grok 的新功能，效果也很惊艳，但在众多 AI 模型中，这实在算不上一项新颖的功能。因此，有人在马斯克的评论区发出灵魂拷问，「Grok 到底进展到什么程度了？感觉远远落后于 ChatGPT 啊」。对此，马斯克耐心回复说，「我们只用了几个月就完成了其他人花了几年时间的工作。」言下之意似乎是不着急，慢慢打磨新功能。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_8066387c866443538601ee30cbe82c5f@000000_oswg338227oswg1080oswg779_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有网友上传了一张饮料图片，让 Grok 和 ChatGPT 进行回答。从上传的资料来看，图片内容并不清晰，而且还不是中文，对于不懂外语的小伙伴可能有点难度。但是 Grok 和 ChatGPT 都给出了回答。 </p>
-<p>Grok 回答：图片中的饮料是「백세주（Baekseju）」 ，这是一种传统的韩国酒精饮料。它是一种用人参和其他草药浸泡的米酒，以其假定的健康益处而闻名。瓶子上的标签显示了 D，这可能是 Baekseju 的某个特定品牌或变种。由于其浓烈的风味和药用属性，通常只消费少量。  </p>
-<p>ChatGPT 回答：这款饮料是 Bacchus-D，一种在韩国流行的能量饮料。它通常包含咖啡因、牛磺酸和维生素 B2、B6、B12，这些成分被认为可以提升能量水平。在韩国，它常被用作快速提神的饮品。  </p>
-<p>熟悉这款饮料的小伙伴，可以点评一下，这两个模型，哪个回答的更好。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_4d5c3d1fcb01475c8dfa5b1db4dbfd89@000000_oswg33732oswg976oswg117_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_e88c3acec46f4c9e8a97a0f283ceb985@000000_oswg293011oswg1069oswg586_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>图源：https://x.com/chrisfirsttt/status/1850745853843001418 </p>
-<p>对于 Grok 没有理解的梗图，我们在 ChatGPT 上也做了测试。ChatGPT 的回答明显更胜一筹，中文识别能力也更强。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_7e8916c857f94fe587e247cc9cc7465f@000000_oswg277753oswg1080oswg636_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_4d8a1d96cb73467099108e01ae760134@000000_oswg369748oswg1080oswg783_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>经过一番测试以及网友给出的示例来看，Grok 在输出 LaTeX 表达式方面确实不错，对图片中出现的主体和场景解释的非常到位，但对梗图的解释时好时坏，有时能完全解释笑点，有时会解释错误，此外，Grok 对中文字符的识别能力也不是很好。 </p>
-<p>最后提醒大家一下，Grok 并不是免费的，付费用户才能体验。可以使用的小伙伴，可以进行测试了。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_03e00b6c5844495384dda1a318590fb1@000000_oswg198106oswg981oswg922_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>地址：https://x.com/i/premium_sign_up?referring_page=grok </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2650940816&amp;idx=1&amp;sn=049f07cdd0ce194102e4c6ef6475ebd3&amp;chksm=857c463e3dbb30f9772490d5e2d835661df55fff56be1b7b3e2180129324e41f7edf0af7e548&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“机器之心”（ID：almosthuman2014）</a>，编辑：张倩、陈陈 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013112268449288</guid><pubDate>Tue, 29 Oct 2024 18:07:00 +0800</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 29 Oct 2024 19:00:40 +0800</lastBuildDate><pubDate>Tue, 29 Oct 2024 19:00:40 +0800</pubDate><item><title>万千颓青代入的表情包，终于成了流量密码</title><link>https://36kr.com/p/3013410733696520</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_93c357c07e184967ba7fe4a3c062c954@000000_oswg46573oswg690oswg529_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">题图 / 图源网络 </p>
+<p>平时勤于网上冲浪的朋友想必都注意到了，猫meme二创热度正在逐步退去，取而代之的是一个简笔画男人，他头戴黑色针织帽，身着黑卫衣，嘴里叼着烟，气质忧郁。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_9b05a2a0308d442d9910a67c31a7a1cd@000000_oswg14276oswg690oswg388_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>正式介绍下这位老兄，他叫Doomer，是经典meme形象“Wojak”的衍生变体之一。长期浏览海外论坛的网友应该对这些画风潦草的形象相当熟悉，大量梗图和表情包等二创内容使其始终活跃于海外互联网文化圈内。而在国内互联网上，对Doomer有所了解的便只有部分核心用户，大部分年轻网友与其初识都发生在前不久。</p>
+<h2><strong>1.</strong></h2>
+<p>自今年8月开始，B站、抖音等创作平台上涌现出一批以“xx年，你xx”为标题的视频。画面中以极具年代感的老照片作为背景，Doomer居于画面左下角，余下空间里贴上一段以第二人称叙述的文案，最后配上数十秒俄罗斯后朋克音乐，齐活。</p>
+<p>在充满临场感的文字暗示下，屏幕前的人很容易代入到文字描述的场景和事件中。2004年2月发生在云南大学男寝的口角之争，最终成了“马加爵事件”的导火索；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_fa7fc26a89544e1d9b8c04ec15cc0234@000000_oswg563440oswg942oswg532_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>爱你的爸妈为2008年出生的“你”选择了当时最有名的国产奶粉；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_1f7b76346c4244b4b59cdc7be0d6999b@000000_oswg616657oswg944oswg506_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>只是在地铁上低头玩手机的你从未想到会被人诬陷“偷拍”……</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_cf4cbf972cc4407fa1ccc7ba1cfddad9@000000_oswg248403oswg950oswg529_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>眼前的画面毫无变化，迷幻的旋律与低沉的人声还是让人不由自主陷入集体记忆的气泡，事件亲历者在评论区留下的话语更是加深这场共鸣。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_35372b12efb64d618b29ece1a9fe4e4e@000000_oswg72080oswg615oswg661_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除了深深刻在公众回忆里的重大事件，视频文案对事件内容的隐晦描述让网友在阅读完文字后都要思索一会，而届时“你”已经身处不可预测的命运之舞台，不知接下来迎接的结局是“劫后余生”还是“难逃一劫”。正因这短暂时间差带来的奇妙观感，让这些视频在被部分网友贴上‘低创’标签后仍能迅速流行。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_994379d9839c49a3a91d525d1ccb192f@000000_oswg22197oswg764oswg136_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>有些视频涉及的历史事件比较冷门也抵不住广大网友的好奇心。只是蹲到评论区好心人的科普还不够，不少人会为了了解事件细节而主动搜索相关内容。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_1b62581c388b480c963219576440291c@000000_oswg636141oswg951oswg535_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>网友们的反应还真是应了那张梗图↓（那些回顾911事件、肯尼迪遇刺的Doomer视频何尝不是地狱笑话的一种变体）</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_0a0db60b1ac049c0a56d2a24ad59e938@000000_oswg193344oswg527oswg505_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源水印</p>
+<p>随着越来越多创作者的加入，“你”或许是早二叠纪的鹦鹉螺、寒武纪的奇虾；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_72e1f02d62794be0892bfcefb0ec219e@000000_oswg631436oswg932oswg521_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>也可能是点好宵夜期待TES对战T1的LOL玩家；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_1eb7aae44c0740d8b4890415baf27bb4@000000_oswg509527oswg939oswg524_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>跨越次元变成被卷入“涉谷事变”的无辜路人也不是不行。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_aa767eae2a7d4d178823929ffb7e9126@000000_oswg781404oswg931oswg526_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>相比前期基于社会事件创作的视频，后来这些作品氛围不再忧伤，玩梗融梗只会让观看视频的人会心一笑。</p>
+<p>而无论视频内容变得何等离谱抽象，画面左下角的Doomer的表情始终是平和中带着忧伤，即使是为了配合视频内容不得不换个猎奇造型，还是掩盖不住周身气质。相比不断变换的背景图和文案，Doomer就像是“xx年，你xx”系列视频的水印，人们见到他就不自觉联想这次的人生将会是“丸辣”还是“稳辣”。</p>
+<h2><strong>2.</strong></h2>
+<p>猫meme全网爆火的时候，人人都将其称为“古希腊掌管流量的神”，现在Doomer逐渐成为各平台创作者的新宠，猫meme的称号也得加上限定词“2024年上半年”。在“xx年，你xx”系列视频创作热潮逐渐回落后，Doomer迅速更换赛道改“演”小剧场了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_0d04086e5e5c43078511038e17a20f86@000000_oswg291038oswg1080oswg2226_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>正如演艺圈里的演员会受相貌影响戏路选择，同样是网友讲故事的“嘴替”，猫meme小剧场的画风多是活泼欢快，长相略微潦草粗犷的Doomer还是和那些刑侦案件打交道比较多。</p>
+<p>Doomer这些新作虽然是在短视频平台上火的，创作形式却是以图文为主。配着“凶案的小曲”《Verbatim》那欢快又诡异的曲调，那些骇人听闻的案件内容经过创作者的简化和提炼以角色对话重新演绎。</p>
+<p>看似焦急寻找妻子、口口声声说爱她的丈夫实则是杀妻碎尸案凶手。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_b3b5149b5ccd4510be9575233ecdcb70@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>儿子为了40万购房金弑母骗保案，听着母亲忍痛呼唤一声声“幺儿”直到生命最后。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_857ff48ded684026a5ed2b24081e68d5@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>人前懊悔到用头撞墙的父亲却亲手促成两个亲生孩子坠楼身亡。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_7fdf29d03f1a48ba92f2e7faf908f211@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>等到事件发展到最后时，总有角色的面目会突然变得狰狞恐怖，揭示其幕后凶手的身份。由于是图文形式发布，突如其来的变脸竟有了“JUMP SCARE”的效果，作品讨论里除了网友们抨击凶手丧心病狂的行为，谁要评论一条“这个鬼脸真吓人”便能一呼百应。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_3418d3648c05463a8244095ce2c04653@000000_oswg99057oswg1080oswg280_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>如果将恐怖表情剔除，再将BGM换作“感人的小曲”《于是》，那便是“Doomer小剧场”的另一种主流创作思路。这类视频的素材来自以令人动容的真实事件，诸如徒步两百公里只为报恩的乞丐；对严重烧伤的消防员不离不弃的女孩亲身演绎何为“爱抵万难”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_af817787170346209303cce0c6f3d5d5@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>即便故事被简化为短短几页对话，其中的真情真意依旧能打动人心。每条视频下面的评论区无一不是哭成一片，泪点低的朋友还得小心除了数不清的流泪黄豆，不时还有“热心网友”补充事件细节，那可是“刀刀致命”。</p>
+<p>接下来又是各位熟悉的展开，同样的创作模板在万千创作者手中越来越泛用。或许你有看过藤本树《随心一听》吗？我是指Doomer出演的版本。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_1dece2a5e6d142cb9c7c74e5f4ee2687@000000_oswg189307oswg1080oswg1817_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而无论是“xx年，你xx”系列视频还是图文小剧场，只要有足够丰富的内容素材，便会有源源不断的作品涌现，并且创作者在此期间仍不断拓宽着作品形式和创作思路。在B站、抖音等创作平台上已经能看到“万物皆可Doomer”的话题标签，似乎预示着这个不算符合大众审美的meme形象成功翻红。但事实真是如此吗？</p>
+<h2><strong>3.</strong></h2>
+<p>虽然前文全篇都在提及Doomer，但想必大部分网友包括许多创作者对其了解仅限于表情包、梗图以及现在的小剧场。这一点在众多Doomer二创的评论区有所直观体现，那些高赞评论要么围绕事件本身展开，要么能引起网友情绪共鸣。</p>
+<p>至于图中角色，或许只有那张骇人的笑脸能博点关注，看似作为画面主角的Doomer全然可以用其他meme形象替代，比如猫meme。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_59db3006077840cfbfc794f8d22655fa@000000_oswg1301476oswg1080oswg1871_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>如果是经常逛海外论坛网站的网友，应该在此次创作热潮掀起之前就认识Doomer了，他简直就是“颓丧”一词的具象化。</p>
+<p>事实也的确如此，Doomer自2018年诞生以来便是丧文化的代表。在几年前，丧文化也流行于中文互联网上，承受着来自学业、家庭、事业的压力的国内年轻人自称“废柴”，一到晚上就点开“网抑云”进入“emo模式”。按照现在的“网络问诊”，个个都得确诊为Doomer了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_01e11439c3b341d2b96b508626f045bb@000000_oswg143406oswg603oswg367_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>彼时关于Doomer的二创也由内而外散发着虚无气息。最经典的画面便是Doomer叼着烟独自身处冷峻肃杀的背景中，视频配乐是来自俄罗斯乐队的后朋克音乐，低沉的曲调、失真的音色像是将人按进了寒冬的湖水，总之就是“非常致郁”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_fdb45adc0f6b476a85304de863715afc@000000_oswg532462oswg937oswg530_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>较为流行的“Doomer的生活”系列视频里的日夜颠倒、烟酒成瘾、不善与人沟通，分明是颓废青年陷入情绪低谷时的自我写照。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_1acd80967813481f9a3325ece82a9a9b@000000_oswg404624oswg1080oswg484_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>再回到现在来看近期井喷的Doomer视频，大部分时候创作者都抱着玩梗的旁观者心态，甚至不少视频内容效果堪比地狱笑话，只有回顾沉重悲痛的社会事件时才能隐约嗅到熟悉的“丧”味儿。</p>
+<p>在同样脱胎于小众文化的“Furry”“NTR”“说唱”身上，Doomer的经历早已上演一遍又一遍。小众文化因其内涵和背后寓意而小众，无论出于主动还是被动的大众化过程中，不可避免被娱乐化和标签化。在丧文化热潮退却的今天，年轻人的slogan早已经变为“拒绝内耗，大胆发疯”，Doomer也不得不接受全新解读，作为种种创作模板的符号化标志继续存在下去。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_b3fcb7d571ac44919877cb79e31581d5@000000_oswg20055oswg765oswg131_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>与此同时，这场对于Doomer解构热潮也是网生一代渴望表达、偏向于主动赋予事物意义的特征体现。正如经典黄豆表情包不同排列组合的含义更迭多次；猫meme里的每只猫猫也并非一开始就与各种人类情绪绑定；外网火热的梗图出自劣迹斑斑的俄罗斯主播Mellstory，大部分普通网友却只将其作为抽象表情包使用。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_88293384afcf46c197ca54b41319aac4@000000_oswg196710oswg1080oswg217_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>对于此番现象向来是有人支持有人唱衰，各平台创作者乘着流量而上时，对应文化圈层的核心受众总是忧心忡忡。但好在一次次小众事物出圈的经历还印证了另一条铁律，非主流与主流碰撞摩擦出的热度终究会冷却。之前讲故事的是猫meme，现在讲故事的是Doomer，也许不久便会迎来下一位。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4OTQ3NTc0Nw==&amp;mid=2649531514&amp;idx=1&amp;sn=2ace85a079c62b535c7ab9dbbb04ef39&amp;chksm=893698d12f2b6b2e513c9e53be4a816ff8550caa9ce2db4c9aa9087815d7bb913a96d3002914&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“allan203”（ID：acgxclub）</a>，作者：ACGx，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013410733696520</guid><pubDate>Tue, 29 Oct 2024 18:48:00 +0800</pubDate></item><item><title>亚马逊豪掷520亿美元，核能革命即将到来？</title><link>https://36kr.com/p/3013403837752841</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_7dbc7633304c4be59b4f9f746987f3bc@000000_oswg117459oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>随着亚马逊宣布三项重大的核电交易，AWS首席执行官马特·加曼告诉《福布斯》，他认为先进的小型核反应堆具有独特的潜力，可以提供大量的清洁能源。</p>
+<p>原文标题：《亚马逊在小型核反应堆上押下重金，为其数据中心供电》</p>
+<p>亚马逊正在核能上押下重注，包括在美国三个州投资超过520亿美元，以帮助推动其庞大数据中心的扩张。</p>
+<p>亚马逊和市值480亿美元的能源巨头Dominion Energy本月初宣布，双方已达成一项协议，将在弗吉尼亚州探索开发小型模块化反应堆，这是一种先进的核反应堆，规模不到传统核电站的10%。亚马逊同时宣布与公共电力机构Energy Northwest达成协议，为华盛顿州小型模块化反应堆的开发和部署提供资金。</p>
+<p>亚马逊与亿万富豪卡姆·加法里安（Kam Ghaffarian）于2009年创立的小型模块化反应堆（SMR）开发商X-energy签署了一项单独的协议，作为与Energy Northwest合作的一部分，该公司正在建造一座SMR。这家初创公司目前正在德克萨斯州的海漂城与化学巨头陶氏化学（Dow）合作建造其首个先进反应堆。作为与X-energy协议的一部分，亚马逊将通过其气候承诺基金（Climate Pledge Fund）向这家初创公司投资5亿美元。</p>
+<p>通过这一协议，亚马逊和X-energy计划到 2039 年在全美范围内上线超过 5 千兆瓦的新电力项目，足以为一个以上的中型城市供电，以满足人工智能不断膨胀的电力需求。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_56cdab6e0b4b4c30a240757a674e78eb@000000_oswg40333oswg1080oswg586_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>01</strong></h2>
+<p>亚马逊以及其他主要的数据中心供应商，如微软和谷歌，都在寻找这些小型模块化反应堆来满足他们快速增长的电力需求。</p>
+<p>与传统核电站相比，小型反应堆可以在更短的时间内以更低的成本建造，此外，它们是无碳的，这是科技巨头广泛承诺减少碳排放的关键。与太阳能或风能不同，它们稳定可靠，可以24小时运行，这对数据中心和工厂来说是一个关键优势。美国能源部表示，美国的核电容量有可能从2024年的1亿兆瓦增加到2050年的3亿兆瓦，以满足脱碳和不间断电力的需求。</p>
+<p>AWS首席执行官马特·加曼（Matt Garman）在与福布斯的视频通话中表示：<strong>“核能是满足全球能源需求的一个很好的选择。我们需要向电网输送更多的能源”，而小型反应堆是实现这一目标的“最有前途的”新技术。</strong></p>
+<p>加曼于2005年以暑期实习生的身份加入亚马逊，今年6月成为AWS的第三任首席执行官，他说，他希望核能成为公司继续扩大数据中心以满足需求的重要一环，同时在2040年之前实现整个运营净零碳排放的目标。他拒绝透露核电将满足 AWS 多少电力需求的目标，但表示希望到2040年，核电将成为其“重要的发电来源”。</p>
+<p>“我们认为这是扩大能源规模的一种经济有效的方式，”加曼说，并补充道，“这取决于技术发展的速度和我们建设新反应堆的速度。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_6366e533b55543d4ab3a6188e9309596@000000_oswg119543oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>AWS数据中心内部：亚马逊已经承诺在弗吉尼亚州、密西西比州和俄亥俄州的数据中心扩建上花费超过520亿美元。图片来源：Amazon</p>
+<p>但是，尽管核能不释放温室气体，但它需要管理放射性废物。尽管最近几个月有很多关于小型反应堆发展的讨论，但到目前为止，美国还没有一个小型反应堆投入使用，留下了关于其费用和可行性的悬而未决的问题。美国气候与能源解决方案中心（Center for Climate and energy Solutions）的能源分析主管道格·瓦因（Doug Vine）说，成本“现在有点像一个移动的靶子”。</p>
+<p>加曼说，虽然这项技术比较新，但近年来已经取得了巨大进展，新的先进核反应堆比上世纪50年代和60年代的老核电站要安全得多。45年前，宾夕法尼亚州米德尔敦附近的三里岛核反应堆曾经遭遇了熔毁，这是美国商业核电站运行历史上最严重的事故。三里岛核电站的另一个核反应堆现在计划重新开放，为微软的数据中心供电。</p>
+<p>加曼说：“在过去一年里，我们更加看好核能所能提供的能源。世界将很难按照我们都希望的能源使用速度建造太阳能和风能发电场。”</p>
+<h2><strong>02</strong></h2>
+<p>亚马逊和Dominion都没有透露协议背后的财务细节。</p>
+<p>Dominion首席执行官罗伯特·布鲁（Robert Blue）在一份声明中表示，与亚马逊的合作将为该公司提供一种开发SMR的方式，“这对我们的住宅客户的用电费率影响最小，并大大降低了开发风险。”</p>
+<p>能源研究咨询公司Wood McKenzie表示，预计到2030年，SMR将在电力市场中发挥很小的作用，主要是因为高昂的成本阻碍了部署，而建设时间表也意味着到那时只能建成几座电厂。报告指出，在2030年至2040年期间，至少需要10至15个SMR项目正在开发中，以降低成本。</p>
+<p>加曼说：“在接下来的几年里，要想真正大规模地提供能源，需要把几个部分整合在一起。而我们将处于这方面的前沿。”</p>
+<p>弗吉尼亚州是世界上数据中心密度最大的地区之一，目前仅在该州北部就有100多个数据中心在运行。这导致了电力需求的爆炸式增长：总部位于里士满的Dominion公司的一位高管指出，弗吉尼亚州数据中心的电力需求在过去五年中翻了一番，预计在未来15年将翻四番。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_340d7d6b05874463b62032dbe1024982@000000_oswg106838oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">能源大户：人工智能使亚马逊数据中心的市场需求大幅增加。图片来源：亚马逊</p>
+<p>这里也是Dominion和亚马逊计划建造 SMR 发电厂的地方，靠近这家能源巨头在弗吉尼亚州路易莎县现有的（North Anna）发电站。总的来说，它的目标是为该州带来至少300兆瓦的电力。一个典型数据中心的用电量约为 32 兆瓦，足以为 6000 个家庭供电，而面向人工智能的数据中心的用电量约为 80 兆瓦。</p>
+<p>7月，Dominion宣布向SMR技术公司征求建议，以评估在路易萨县建造一个SMR的可行性。该公司尚未选定中标者，这个SMR也不太可能在 2030 年代中期之前建成。</p>
+<p>该SMR项目将与亚马逊的两个新数据中心项目位于同一个县，亚马逊在这两个数据中心项目上投资了110亿美元。这是2023年1月宣布的到2040年全州350亿美元更广泛投资的一部分。（亚马逊还在密西西比州和俄亥俄州分别投资了100亿美元和78亿美元建设数据中心。）</p>
+<p>路易莎县位于夏洛茨维尔和里士满之间，距离世界数据中心之都劳登县以南约两小时车程，劳登县拥有3000万平方英尺的运营数据中心，另有500万平方英尺正在开发中。</p>
+<p>虽然弗吉尼亚州是亚马逊数据中心的主要枢纽，但该公司在全球108个不同地区拥有庞大的数据中心。AWS为经济的各个领域提供计算基础设施，年销售额超过1000亿美元。其销售额的增长速度超过了亚马逊的整体增长速度，第二季度增长了 19%，而亚马逊母公司同期的增长速度为 10%。</p>
+<p>高盛（Goldman Sachs）的一份报告预计，人工智能应用程序将引发数据中心整体电力需求激增160%，该报告估计，一个ChatGPT查询所需的电力几乎是谷歌搜索的10倍。据《华尔街日报》报道，由于用电需求如此之大，以至于一些潜在的数据中心客户被告知，他们可能要等到2030年以后才能得到他们想要的电力，而另一些客户得到的电力则少于他们的预期。</p>
+<p>气候和能源解决方案中心的瓦恩说：“说满足需求非常具有挑战性，这都只是在往轻了说。虽然这其实只是围绕气候变化的众多挑战之一。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_9bc2a0e4b0b940d78c82a244c7dd3127@000000_oswg123314oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">X-energy的控制室：亚马逊和核反应堆初创公司X-energy合作，在未来15年内将提供5千兆瓦的新能源。图片来源：Amazon</p>
+<h2><strong>03</strong></h2>
+<p>与此同时，与其他科技公司一样，亚马逊也在努力减少碳排放。</p>
+<p>根据其最新的可持续发展报告，2023年，其碳足迹下降了近3%，至略低于6900万吨的二氧化碳。但其碳排放量此前已经激增，2021年达到7100万吨，高于2019年的5100万吨，当时它首次承诺到2040年实现净零排放。今年6月，亚马逊取消了在俄勒冈州为未来的数据中心铺设天然气管道的计划，因为该公司在西雅图市中心的办公室外爆发了一系列气候抗议活动。</p>
+<p><strong>这正是 SMR 的理想之处：无碳、可扩展、能够全天候生产能源。</strong>这些先进的小型反应堆依靠各种不同的技术，发电能力通常高达 300 兆瓦，可以安装在数据中心附近，并以模块化的方式推出，以满足日益增长的需求。</p>
+<p>随着这项技术的进步，许多初创公司纷纷涌现，其中包括X-energy、比尔·盖茨（Bill Gates）的TerraPower，该公司正在开发一种利用盐储存能量的新型钠反应堆，以及市值14亿美元的上市小型堆开发商NuScale。根据风险投资数据库PitchBook的数据，X-energy在2023年10月取消了原定的20亿美元的SPAC交易，目前已筹集了近9亿美元，其中包括新投资前的3.85亿美元。除了亚马逊之外，该公司新一轮5亿美元融资的投资者还包括Citadel创始人肯·格里芬、Ares Management的子公司和能源投资者NGP。首席执行官克莱•塞尔（Clay Sell）表示，该公司（他拒绝透露目前的估值）打算在市场条件合适时进行传统的IPO。</p>
+<p>塞尔告诉《福布斯》，他预计公司在德克萨斯州为化工巨头陶氏开发的首个 SMR 项目将在“2030年之前”上线，亚马逊的项目也将“尽快”跟进。他说，X-energy公司反应堆的千兆瓦发电占地面积约为 60 至 75 英亩，而传统核电站的占地面积约为 20 万英亩（包括一个隔离区）。塞尔预计，到2035年，X-energy将有“数十个项目正在进行中，其中一些已经完成，一些正在建设中，还有一些处于许可的早期阶段。” 其 Xe-100 反应堆的发电量为 80 兆瓦，但与华盛顿项目一样，在一个地点部署的反应堆可能包括多个小型反应堆。</p>
+<p>这些项目需要很长时间才能建成，部分原因是建造核反应堆需要遵守必要的法规。美国核管理委员会于2023年1月批准了NuScale Power公司的首个SMR设计。X-energy目前正在通过审批程序，并表示核管理委员会于2024年1月完成了初步评估，没有发现前进的障碍。</p>
+<p>塞尔说，除了与陶氏化学和亚马逊合作的项目外，X-energy还有其他项目正在进行中，但他拒绝透露具体是哪些项目；他说，该公司也是参与弗吉尼亚州多明尼昂竞标的公司之一。他说：“我们知道，当我们在第一个项目上执行得很好以后，我们的市场需求实际上是无限的。”</p>
+<p>这种潜力为小型反应堆开发商带来了大量资金。Terrapower已经筹集了超过10亿美元的私人资金，而NuScale在2022年通过19亿美元的SPAC交易上市。但也存在一些障碍：由于成本飙升，NuScale去年取消了在爱达荷州规划的一个项目。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_71bb954c012b47fbbb5bbec26841efe4@000000_oswg49145oswg1080oswg585_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Alphabet及其子公司谷歌的首席执行官桑达尔·皮查伊最近在卡内基梅隆大学（Carnegie Mellon）的一次演讲中表示：“我看到有大量资金进入小型反应堆……用于核能。因此，当我看到资本和创新进入时，我对其中长期的发展前景持乐观态度。”</p>
+<p>10月上旬，谷歌表示，它已经与Kairos Power签署了一项协议，到2030年前将其首个SMR上线，并在2035年之前部署更多的SMR。在宣布与谷歌达成协议之前，AWS的加曼表示，他相信亚马逊与Dominion达成的协议是同类协议中的首例。</p>
+<p>塞尔表示，X-energy和亚马逊在18个月前就开始谈判，当时AWS希望在履行其气候承诺的同时，获得全天候的能源。他说：“这说明了需求的巨大，以及人工智能对我们思考美国电力问题的方式所产生的影响。”使用小型模块化反应堆，与千兆瓦电力相关的碳足迹比人们印象中的传统发电厂要少得多。”</p>
+<h2><strong>04</strong></h2>
+<p>AWS大举进军核能领域的另一个举措是它与华盛顿州公共事业公司Energy Northwest的合作，后者正计划在其位于华盛顿州里奇兰的哥伦比亚发电站核电站附近建造一座 SMR。</p>
+<p>Energy Northwest计划使用X-energy公司的SMR设计。该公司负责能源服务和发展的副总裁格雷格·卡伦（Greg Cullen）表示，在华盛顿州通过《清洁能源转型法案》（Clean energy Transformation Act，该法案要求该州到2045年提供100%的清洁能源）后，该公司已于2020年开始与这家初创公司合作。</p>
+<p>卡伦表示：“我们在这里看到了一个非常好的机会，像亚马逊这样拥有资产负债表、风险偏好和需求的公司......可以帮助技术落地并得到验证。”虽然他指出，一家公共电力公司与一家科技巨头达成协议“有点奇怪”，但他强调，这将使Energy Northwest能够部署新技术，而无需提高费率来支付开发成本。“我们认为小型模块化反应堆为我们提供了很多机会，”他说。</p>
+<p>卡伦预计，华盛顿的这个项目将在2030年代初开始投入使用。作为协议的一部分，亚马逊将有权购买前四个模块的电力，相当于320兆瓦，而Energy Northwest将有权选择建造额外的八个模块，总功率高达960兆瓦。</p>
+<p>根据亚马逊与X-energy公司达成的协议，两家公司预计在未来15年内开发5千兆瓦的电力，包括与Energy Northwest公司的项目。X-energy首席执行官塞尔表示，为了提供这么多的能源，这家初创公司可以在弗吉尼亚州或宾夕法尼亚州等数据中心密集的地区建立4到5个站点，每个站点的规模都与Energy Northwest项目相似。</p>
+<p>亚马逊也一直在寻找利用现有核舰队为其数据中心扩张提供动力的方法。今年3月，AWS同意以6.5亿美元的价格从Talen Energy公司购买宾夕法尼亚州960兆瓦的数据中心园区。据报道，作为交易的一部分，AWS将从塔伦的萨斯奎哈纳核电站购买固定价格的核电，该核电站是美国第六大核电设施。</p>
+<p>“毫无疑问，人工智能将增加能源负荷，”亚马逊首席可持续发展官卡拉·赫斯特（Kara Hurst）上个月在纽约举行的福布斯可持续发展峰会上说。“我们已经达成了一项核协议，我们将把无碳作为解决方案的一部分。”</p>
+<p>但是，当亚马逊和其他科技公司正在寻求利用旧核电站的电力时，新技术提供了更大的灵活性。“我们认为这不是一次性的，”加曼说。“这是SMR理念的一部分。你可以在世界上任何你需要的地方建造它们。”</p>
+<p>本文译自</p>
+<p>https://www.forbes.com/sites/amyfeldman/2024/10/16/amazon-is-betting-big-on-small-nuclear-reactors-to-power-its-data-centers/</p>
+<p>头图来源：Getty Images</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIwODU2NjQ5Mw==&amp;mid=2247599554&amp;idx=1&amp;sn=a6526bf847d495dc6de92912df0d2a93&amp;chksm=9619485ee66079dc36e3324eae427bc4340335dbb33bd45fd3a55f65602f6f27eeea175ea74f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“福布斯”（ID：forbes_china）</a>，作者：Amy Feldman；翻译：Vivian，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013403837752841</guid><pubDate>Tue, 29 Oct 2024 18:49:00 +0800</pubDate></item><item><title>「FUTURE 2024」消费新势力调研正式启动</title><link>https://36kr.com/p/3013450900120834</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="800,450" src=""/></p>
+<p>“当潮水退去，才知道谁在裸泳。”巴菲特的这句名言，不只是适用于投资市场，也同样适用于当下的大消费。</p>
+<p>新消费投融资热潮刚过去三四年时间，市场的变化已是天翻地覆：IPO收紧背景下，找一个好买家被并购，成为创业者“上岸”的新通道，也有一批创业者因未能兑现增长目标，被触发回购协议。</p>
+<p>增长是市场里最珍贵的资源。2024年1—8月份，社会消费品零售总额31.25万亿元，同比增长3.4%。其中，商品零售额27.75万亿元，增长3.0%；餐饮收入3.50万亿元，增长6.6%。</p>
+<p>有限的增长背后，有一个残酷的事实，不只是品类表现更快速走向分化，同行业品牌之间的竞争，也进入白热化的阶段。</p>
+<p>这当中，“性价比”成了行业新共识。过去的618大促，也不再是满减、预售等传统“套路”，一切化繁为简，拼的只有低价、性价比。此外，已经陆续开启的双十一大促，显然会继续强化这一印记。</p>
+<p>但仍然有一批新老品牌，在复杂的当下，仍然在各自赛道里大放异彩：走高端古法和原创设计的老铺黄金，登陆港交所三个多月市值已翻三倍；靠着一道辣椒炒肉，费大厨在继续做商场里的“排队王”；靠着IP设计，泡泡玛特与名创优品火到海外，走东方茶路线，霸王茶姬在巨头林立的茶饮市场快速崛起......等等此类。</p>
+<p>尽管人们习惯总结方法论，但消费市场最复杂的一面还在于，并不能用简单的模式创新，来概括他们的成功之处。换言之，跑赢市场并非做对了某件事，而是做对了一些事。不变的是，优质供给始终是稀缺的。</p>
+<p>不管市场阴晴圆缺，总会有长线选手，从中钓到大鱼。基于对消费市场的长期发展看好，36氪未来消费特别启动「FUTURE 2024消费新势力调研」，希望助力更多的优质品牌，能够走向更大的舞台。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,5957" src=""/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013450900120834</guid><pubDate>Tue, 29 Oct 2024 18:49:00 +0800</pubDate></item><item><title>第三季度业绩回暖，前9月仍负增长，珠海冠宇单季盈利1.6亿，存货却大额计提</title><link>https://36kr.com/p/3013400374978055</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>10月28日晚，A股锂电厂商珠海冠宇（688772.SH）披露业绩。</p>
+<p>三季报显示，珠海冠宇前三季度实现营业收入85.17亿元，同比减少0.27%；实现归母净利润2.68亿元，同比减少7.47%；实现扣非归母净利润1.80亿元，同比减少17.62%。</p>
+<p>其中，珠海冠宇第三季度实现营业收入31.70亿元，同比增长3.39%；实现归母净利润1.66亿元，同比增长11.43%；实现扣非归母净利润1.54亿元，同比增长24.56%。</p>
+<p>尽管年内增速有所下滑，但第三季度增速均回正，这说明珠海冠宇第三季度的业绩情况出现了改善。一位珠海冠宇内部人士向时代周报记者透露，三季度出货量增加，增速快于行业，因而三季度利润增长。</p>
+<p>财报显示，珠海冠宇主要从事消费类电池的研发、生产及销售，是全球消费类电池主要供应商之一。同时，公司也在推进动力及储能类电池领域的布局。</p>
+<p>珠海冠宇曾在半年报时分析了消费类电池的发展趋势。无论是笔电类产品还是手机类产品，消费类锂电池销售量都随着出货量的增长而增长。</p>
+<p>根据Canalys发布的报告，2024年上半年全球笔记本电脑出货量约0.95亿台，同比增长4.12%；2024年上半年全球智能手机出货量约5.85亿台，同比增长10.81%。</p>
+<p>而根据市场调查机构IDC的数据，2024年第三季度全球智能手机出货量达到3.16亿台，同比增长约4%，实现连续5个季度出货量增长。出货量排名前五的厂商分别为三星、苹果、小米、OPPO和vivo。</p>
+<p>有分析师认为，在Q4假日促销季将有更多iPhone 13/14的用户升级为支持Apple Intelligence的新机，预计iPhone 16将帮助苹果在2024年继续保持强劲增长，并将发展势头延续到2025年上半年。</p>
+<p>四季度智能手机旺季。随着各家厂商在三四季度集中发布新机，出货量或进一步增长。根据IDC预估数据，2024年全球智能手机出货量约12亿台。这显然利好拥有消费类电池业务的珠海冠宇。根据财报，珠海冠宇的客户涵盖小米、苹果、华为、荣耀、OPPO、vivo、联想、中兴等。</p>
+<p>不过要注意的是，动力及储能类业务在短期内或难以成为珠海冠宇的业绩支柱。</p>
+<p>尽管公司在半年报时明确指出，汽车低压锂电池营收大幅增长并成为动力类电池业务营收的主要来源之一，但实际上承载公司动力及储能类业务的控股子公司浙江冠宇在半年报时净利润仍处于亏损状态。</p>
+<p>值得注意的是，珠海冠宇披露三季报时同步披露了资产减值公告。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_d82e9fb7cad2458c88122d96813b6025@000000_oswg33430oswg805oswg322_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">△图片来源：珠海冠宇资产减值公告</p>
+<p>公告显示，2024年前三季度，公司确认资产减值损失和信用减值损失共计1.73亿元，其中存货跌价损失为1.66亿元，占比95.30%。</p>
+<p>“公司动力类业务仍处于起步阶段，规模效益仍不明显，单位产品分摊的人工成本、设备折旧等间接成本也较高。”珠海冠宇在公告中解释存货大额计提的原因，“同时，由于公司新产品产线存在一定的调试周期，该部分新产品在产能爬坡过程中生产良率较低，单位生产成本较高。”</p>
+<p>据时代周报记者了解，存货跌价计提后，在实际销售产品时会转销存货跌价准备并相应冲减营业成本。2024年前三季度，珠海冠宇转销存货跌价准备1.92亿元。</p>
+<p>前述内部人士表示，存货跌价包括消费类和动力类产品，消费类电池产品由于体量较大，因此减值会多一些。据时代周报记者测算，如存货没有大量计提跌价减值，实际上公司前三季度利润可达到4.4亿元，与2024年度分析师一致预期净利润5.41亿元差距并不遥远。</p>
+<p>有投资者表示，营收已恢复增长，利润恢复更多。随着亏损项目停转，启停电池放量，常规产品稳步发展，珠海冠宇可以继续看好。</p>
+<p>10月29日，珠海冠宇开盘即冲高。截至收盘，珠海冠宇报17.73元/股，涨3.68%。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653319156&amp;idx=4&amp;sn=d7e6568860f76452f976e12fedba4ad8&amp;chksm=bc357d9db0beb6549e57a056e8acf769cf7088a45a6de575435088beb76a17923aa82975618b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：何明俊，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013400374978055</guid><pubDate>Tue, 29 Oct 2024 18:50:00 +0800</pubDate></item><item><title>百年人寿第一大股东易主，股权结构仍然分散，大连国资能否助其破局？</title><link>https://36kr.com/p/3013400334361858</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>今年以来，百年人寿多次减持万丰奥威（002085.SZ）。</p>
+<p>万丰奥威10月23日晚间公告，收到公司持股5%以上股东百年人寿出具的告知函，百年人寿合计持有该公司股份比例变动达1%。截至最新公告，百年人寿持有万丰奥威的股权比例已从年初的8.87%降至5.87%。</p>
+<p>此次减持之前，百年人寿第一大股东也发生变更。今年5月8日，国家金融监督管理总局大连监管局（下称“大连监管局”）发布行政许可，同意百年人寿增加注册资本1.1亿元，由77.95亿元变更为79.05亿元。</p>
+<p>根据公告，此次新增注册资本全部由新增股东大连市国有金融资本管理运营有限公司（下称“大连金运”）认购，大连金运将持有1.1亿股，持股比例为1.39%。据悉，大连金运由大连市财政局全资控股。</p>
+<p>百年人寿当日发布的另一则公告显示，大连融达投资有限责任公司（下称“大连融达投资”）将所持百年人寿8亿股股份转让给大连金运。大连金运是大连融达投资的全资股东。</p>
+<p>这次股权转让完成后，大连金运持有百年人寿9.1亿股股份，持股比例为11.51%，成为第一大股东；原第一大股东大连万达集团股份有限公司（下称“万达集团”）成为百年人寿第二大股东，持股比例为11.39%。</p>
+<p>百年人寿的高管团队也进行了一系列变动。其中，百年人寿空缺近3年的董事长和总经理人选相继落定。针对大连国资方面对百年人寿的增资情况以及高管变动，时代周报记者拨打百年人寿电话始终无人接听，并发送采访提纲，截至发稿暂未取得回复。</p>
+<h2><strong>股权结构分散</strong></h2>
+<p>百年人寿成立于2009年6月，总部位于大连，是东北首家中资寿险法人机构。百年人寿已在全国开设20家省级分公司，累计拥有各级分支机构379家，服务网络覆盖全国152个主要城市。</p>
+<p>据百年人寿官网，成立15年来，百年人寿已累计服务客户579万人，总保额达2.4万亿元，累计赔付96亿元。该公司在非保险领域进行多元化部署，成立百年保险资产管理有限责任公司等子公司，涉足资产管理、健康管理、金融科技等领域。</p>
+<p>长期以来，百年人寿的股权结构较为分散。此次股权变更之后，百年人寿仍有17家股东。除大连金运和万达集团，还有6家股东的持股比例超过10%，它们分别是大连一方地产有限公司、大连城市建设集团、新光控股集团、江西恒茂房地产开发有限公司、科瑞集团、中国华建投资控股有限公司。</p>
+<p>大连金运本就持有百年人寿的股权，而今年5月的增资使得大连金运对百年人寿的控制权进一步上升。</p>
+<p>大连市政府官网曾公告称，大连金运是市级国有金融资本投资运营和管理的专业化平台，受市财政委托履行国有金融资本管理职责，以服务实体经济、防控金融风险和深化金融改革为使命，构建完善的金融产业链，推动大连金融业综合化发展，实现国有金融资本保值增值。</p>
+<p>2014年，万达集团通过股权受让，相继从国电电力发展股份有限公司、辽宁时代万恒股份有限公司手中拿下百年人寿股权，并逐步增持为百年人寿第一大股东。2018年，万达集团曾拟将所持百年人寿全部9亿股股权转让给绿城中国，作价27.18亿元。不过，这一交易2019年终止，未能成行。</p>
+<p>此外，根据国家金融监督管理总局2024年6月14日公开的第六批共18家重大违法违规股东，其主要涉及入股资金来源不符合监管规定，违规代持银行保险机构股权，隐瞒关联关系、一致行动关系，存在涉黑涉恶等犯罪行为。百年人寿股东洪城大厦（集团）股份有限公司也出现在这份名单上。</p>
+<h2><strong>“将帅”相继落地</strong></h2>
+<p>近年，因主要股东发生变化，百年人寿高管团队也随之进行了一系列调整。随着大连国资方面对百年人寿的控制权逐步加强，百年人寿空缺已久的董事长和总经理人选也陆续落定。</p>
+<p>百年人寿前董事长何勇生2021年2月宣布辞职，董事长之位此后空缺近3年。期间，刘朝晖曾一度担任董事长，但其任职资格一直未能获批。直到2023年11月，大连监管局核准王新浩百年人寿董事、董事长的任职资格，百年人寿董事长人选才真正落定。</p>
+<p>百年人寿披露，王新浩为博士研究生学历，是一名老银行人。王新浩曾任光大银行大连分行资产管理部总经理、客户经理部总经理、公司银行部总经理；浦发银行（600000.SH）大连分行、上海分行兼上海自贸区分行党委书记、行长；浦发银行党委委员、副行长、财务总监等。</p>
+<p>在百年人寿15周年司庆庆典上，王新浩表示，公司明确以“四个坚持”“三大抓手”为引领，以“四个聚焦”为路径的指导思想，并联合波士顿咨询制定了2024-2028年的五年战略规划。百年人寿启动了以“八大经营体系建设+四大基础修复”为核心的“启行工程”，17个子项目将在2028年全面落地。</p>
+<p>百年人寿总经理一职也曾空缺多年。2021年7月，单勇辞去总经理职务。此后，孙晓红、于卫红曾先后担任百年人寿临时负责人，但均未被正式任命为总经理。今年6月，戴文浩的总经理任职资格被监管核准，结束了百年人寿总经理空缺的状态。戴文浩曾在太平洋人寿保险股份有限公司（下称“太保寿险”）工作多年，曾担任副总经理一职。</p>
+<h2><strong>公司经营情况不乐观</strong></h2>
+<p>成立前五年即2009年至2014年，百年人寿均未能实现盈利。2015年，百年人寿终于完成盈利任务。当年，该公司实现0.32亿元的净利润。</p>
+<p>2016年至2021年，百年人寿的净利润分别为2.07亿元、3.51亿元、6.97亿元、2.23亿元、8.02亿元和5.88亿元。</p>
+<p>好景不长。百年人寿2022年急转直下，当年净亏损超过27亿元，风险综合评级也从B类降为C类。2023年第一季度，百年人寿净亏损10.5亿元。截至2023年一季度末，百年人寿的净资产为-4.2亿元。</p>
+<p>截至2023年一季度末，百年人寿综合偿付能力充足率为102.59%、核心偿付能力充足率64.43%。值得注意的是，百年人寿年度财务信息仅披露到2022年，从2023年二季度起不再披露偿付能力报告。</p>
+<p>时代周报记者注意到，今年以来，百年人寿先后4次减持万丰奥威股权。</p>
+<p>万丰奥威5月6日公告披露，百年人寿在4月24至4月29日期间通过集中竞价减持公司股份900万股，占万丰奥威总股本比例为0.42%。7月2日，万丰奥威公告披露，百年人寿于5月27日至6月27日减持股份占万丰奥威总股本比例为0.58%。</p>
+<p>近期，百年人寿加快减持万丰奥威的步伐。10月8日，万丰奥威公告披露，百年人寿于8月2日至9月27日通过集中竞价交易方式减持公司总股本比例1%的股份。10月23日，万丰奥威再次公告称，近日收到百年人寿出具的告知函，百年人寿合计持有该公司股份比例变动达到1%。</p>
+<p>截至最新公告，百年人寿持有万丰奥威的股权比例已从年初的8.87%降至5.87%。</p>
+<p>一名前非银分析师告诉时代周报记者，险资增持或减持上市公司本质是为了资产配置再平衡或调仓换股。在行情比较不错的时候调仓换股是险资等配置型资金比较常见的做法。通常来说，险资会进行新一轮配置，选择更具性价比的资产。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653319156&amp;idx=3&amp;sn=5e243d3099935d0355eb6ffd5e77bb53&amp;chksm=bc1a20c1980a0df8075f90c88439218e8109e14b26de4c40b365cf51d8c0d418365f025cd6a0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：赵鹏，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013400334361858</guid><pubDate>Tue, 29 Oct 2024 18:50:00 +0800</pubDate></item><item><title>特斯拉在中国延长零利率贷款政策，福特Q3盈利超过预期｜海外日报</title><link>https://36kr.com/p/3013458420295173</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2><strong>「 Top 3 news 」</strong></h2>
+<h3><strong>特斯拉在中国延长零利率贷款政策</strong></h3>
+<p><strong>要点：</strong></p>
+<p>特斯拉公司近期宣布，将在中国延长其0%贷款激励措施至11月底，以助力公司实现2024年第四季度的交付量目标。公司计划在2024年第四季度交付超过515,000辆汽车，比去年同期增加了30,000辆，这也是特斯拉迄今为止交付量最高的季度记录。对于特斯拉来说，要想实现季度交付记录，中国这个全球最大的电动汽车市场和特斯拉最大的市场表现至关重要。自7月以来，特斯拉一直在中国通过提供低利率贷款来刺激需求。现在，特斯拉将0%年化利率（APR）激励措施延长至11月底，以进一步推动销售。根据特斯拉官网更新，消费者只需支付79,900元人民币（约合11,000美元）的首付，即可享受长达5年的0%贷款。如果首付金额为45,900元人民币（约合6,500美元），消费者还可以享受1%以下的年化利率，最低年费率仅为0.5%（相当于年化利率0.92%）。据保险注册数据显示，特斯拉在第四季度开局良好。特斯拉上海工厂是全球最高效的工厂之一，通常用于在季度初生产全球出口的汽车，这可能会影响当地的交付量。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,538" src="https://img.36krcdn.com/hsossms/20241029/v2_40769babfcd14162aafd4ac3f8b5505e@6130289_oswg226744oswg1080oswg538_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">特斯拉中国贷款方案（来源：Elevtrek）</p>
+<p><strong>观点：</strong></p>
+<p>特斯拉此次在中国延长0%贷款政策，无疑是为了进一步刺激市场需求。这一策略不仅有助于特斯拉在中国市场保持竞争力，也是其全球战略布局中的重要一环。中国作为全球最大的电动汽车市场，对特斯拉来说具有举足轻重的地位，因此，通过金融激励手段来吸引消费者，是实现其全球销量目标的关键。从长远来看，特斯拉的这一举措可能会对其他电动汽车制造商产生压力，迫使他们采取类似的激励措施来保持市场份额。此外，这种策略也可能对特斯拉的利润率产生影响，但根据特斯拉的财务报告，公司似乎有能力吸收这些激励措施，甚至在上个季度还实现了毛利率的增长。因此，如果这种策略有效，特斯拉有理由在需求旺盛的第四季度继续实施。然而，这种依赖金融激励的策略是否可持续还有待观察。随着电动汽车市场竞争的加剧，特斯拉需要不断创新其产品和服务，以保持其市场领导地位。同时，特斯拉也需要关注其全球供应链的稳定性和成本控制，以确保在激烈的市场竞争中保持优势。</p>
+<h3><strong>福特CEO承诺新中型电动皮卡将与比亚迪等中国电动车成本相当</strong></h3>
+<p><strong>要点：</strong></p>
+<p>福特汽车CEO吉姆·法利（Jim Farley）近日表示，福特即将推出的中型电动皮卡将是一个“游戏规则改变者”，并承诺其成本将与中国在墨西哥生产的电动汽车制造商相匹配。法利特别提到了比亚迪，表示福特的新电动皮卡将与比亚迪的成本结构相竞争。今年2月，法利透露福特有一个秘密“臭鼬工厂”团队正在开发一个低成本平台，以支持其下一代车型。该团队由曾领导特斯拉Model Y工程的艾伦·克拉克（Alan Clarke）领导，目前团队成员包括前特斯拉、Rivian、Lucid和苹果的员工，并且仍在不断壮大。福特确认，基于这个新平台的首款车型将是一款中型电动皮卡，专为“希望获得更多价值”的消费者设计，例如更长的续航里程和更多的实用性。福特表示，该团队正在开发世界上最高效的电动车平台之一，并以“世界上最优秀的竞争对手”为基准来衡量成本。在发布第三季度财报后，法利在与投资者的电话会议上提供了更多关于新电动皮卡的预期信息。福特计划在2027年下半年推出这款新中型电动皮卡，比预期晚了两年。随着比亚迪等中国汽车制造商逼近福特的市场份额，这一延迟是否会影响其市场地位还有待观察。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,523" src="https://img.36krcdn.com/hsossms/20241029/v2_f081bf3124f04b7bb0cf043e9431ccce@6130289_oswg567036oswg1080oswg523_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">福特F-150 Lightning (来源：福特）</p>
+<p><strong>观点：</strong></p>
+<p>福特的新电动皮卡计划无疑是对中国市场的一个积极回应。福特通过组建一个由前特斯拉和其他领先电动车公司员工组成的团队，并承诺其新电动皮卡将与比亚迪等中国制造商的成本相匹配，显示出其在全球电动车市场中保持竞争力的决心。这一战略不仅体现了福特对成本控制的重视，也显示了其对技术创新的追求。通过简化车辆设计和提前开发进程，福特有望在成本和效率上取得优势。然而，福特新电动皮卡的延迟推出可能会给竞争对手留下机会，尤其是在中国制造商迅速扩张的背景下。此外，福特在密歇根州生产LFP电池的计划，将有助于降低成本并提高供应链的稳定性。这一点对于在全球市场上与中国制造商竞争至关重要。尽管如此，福特需要确保其新电动皮卡在性能、设计和技术创新上都能满足消费者的需求，以确保其在全球电动车市场中的竞争力。</p>
+<h3><strong>现代IONIQ 9电动SUV曝光，兼具大尺寸车身与宽敞内饰</strong></h3>
+<p><strong>要点：</strong></p>
+<p>现代汽车的全新三排电动SUV——IONIQ 9即将亮相，这款备受期待的车型已在韩国街头被拍到。自2021年洛杉矶车展首次亮相以来，IONIQ 9（当时称为SEVEN概念车）一直是现代汽车在北美电动车市场领导地位计划的基石。随着亮相日期的临近，这款大型电动SUV多次在野外被发现，揭示了其令人印象深刻的尺寸和大胆的设计。最新的图片显示，IONIQ 9的尺寸明显大于现代现有的IONIQ 5，预计将基于同一E-GMP平台打造，尺寸接近起亚EV9，长约197.2英寸，宽77.9英寸，高70.1英寸，轴距122英寸，大致相当于一辆Telluride的尺寸。内饰图片显示，第二排似乎拥有充足的腿部空间，如果以起亚EV9为参考，其后腿部空间超过42英寸，比凯迪拉克Escalade和Range Rover P40还要宽敞，头部空间也超过特斯拉Model X。IONIQ 9预计将以约55,000美元起价，与EV9价格相近或略高，更昂贵的配置可能高达75,000至80,000美元。与EV9一样，IONIQ 9预计在满电状态下的续航里程将超过300英里。它将与现代更新的2025款IONIQ 5一起在乔治亚州的新Metaplant America工厂生产。现代的新IONIQ 5拥有更长的续航里程、时尚的新设计以及NACS端口，可在特斯拉超级充电站充电。作为美国制造的车型，IONIQ 9很可能也会包括这一配置。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,537" src="https://img.36krcdn.com/hsossms/20241029/v2_a48c16c36fe7476aad748b6123ff4c68@6130289_oswg869685oswg1080oswg537_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">现代IONIQ9伪装车（来源：Electrek）</p>
+<p><strong>观点：</strong></p>
+<p>现代IONIQ 9的曝光，不仅展示了现代汽车在电动车领域的雄心，也反映了其对北美市场的重视。IONIQ 9的宽敞内饰和大胆设计，预示着现代汽车在高端电动SUV市场的竞争力。这款新车型的推出，将进一步丰富现代的电动车产品线，并有望吸引更多寻求大空间和高性能的消费者。IONIQ 9的尺寸和空间设计，无疑是其一大卖点。在当前市场上，消费者对于电动车的续航里程和内部空间有着越来越高的要求。IONIQ 9在这方面的表现，无疑将使其成为市场上的有力竞争者。同时，其预计的续航里程和价格区间，也显示了现代汽车在成本控制和性价比方面的优势。随着IONIQ 9的推出，现代汽车在北美市场的布局将更加完善。这款新车型的加入，将有助于现代汽车在与特斯拉、起亚等品牌的竞争中占据有利地位。同时，这也显示了现代汽车对于电动车市场的长期承诺和投资。</p>
+<h2><strong>「 大事件 」</strong></h2>
+<h3><strong>特斯拉发布罕见博客文章，致力于标准化汽车连接性能</strong></h3>
+<p class="image-wrapper"><img data-img-size-val="1080,519" src="https://img.36krcdn.com/hsossms/20241029/v2_4a052182aef94aebb67a865c7cb1eaeb@6130289_oswg383022oswg1080oswg519_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">特斯拉电子架构透视图（来源：Electrek）</p>
+<p>特斯拉近日发布了一篇罕见的博客文章，宣布公司正致力于标准化汽车连接性能，并推广48伏电气架构。特斯拉在Cybertruck中引入了新的48伏低电压电子架构，并为此设计了新的连接器，现在建议这些新连接器成为汽车行业的标准。在博客文章中，特斯拉写道，为了加速全球向可持续能源的转变，公司正在简化所有车辆的制造过程和电气连接要求，包括实施低电压连接器标准（LVCS），该标准将所需的连接器类型减少到仅6种。这6种设备连接器旨在满足超过90%的典型电气设备应用的功率和信号要求。这种标准化进一步解锁了运营效率、成本降低和制造自动化。特斯拉还分享了构成LVCS标准的6种连接器的图片，并补充说LVCS建立在Cybertruck的电子架构之上，满足48伏操作的增加间距要求，并提供行业标准的浅蓝色。48伏架构是理想的长期选择，只需四分之一的电流即可提供相同的功率。它旨在实现可靠的自动驾驶车辆，利用强大的单线密封和独立的二级锁定机制，同时最小化封装尺寸。特斯拉目前正在向设备供应商和车辆制造商征求意见，以使这一标准成为现实。</p>
+<h3><strong>面临成本压力，大众计划在德国关闭至少三家工厂</strong></h3>
+<p class="image-wrapper"><img data-img-size-val="1080,523" src="https://img.36krcdn.com/hsossms/20241029/v2_abb0c9514e74424e80b0862a368f6f54@6130289_oswg690324oswg1080oswg523_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">大众工厂（来源：大众）</p>
+<p>大众汽车，这家德国最大的汽车制造商，正面临前所未有的挑战。公司计划关闭至少三家位于德国的工厂，并预警将出现大规模裁员和降薪。这是大众汽车87年历史上首次在其本土考虑关闭工厂。大众CEO奥利弗·布鲁姆（Oliver Blume）向员工透露，原本旨在保护员工、防止裁员至2029年的三十年工作保护承诺正面临风险。由于在欧洲的市场份额和利润下滑，大众汽车的形势进一步恶化。据大众工作委员会负责人丹尼尔·卡瓦洛（Daniela Cavallo）透露，公司计划关闭至少三家德国工厂，削减数千个工作岗位，并削减工资10%。受影响的工厂包括主要供应大众品牌车辆的十家工厂。与此同时，大众汽车正面临来自低成本中国汽车制造商，如比亚迪（BYD）的竞争压力。比亚迪在本土市场占据主导地位后，正寻求在欧洲、东南亚和拉丁美洲等关键市场维持增长。比亚迪以其超实惠的电动车型，如起价低于1万美元（69,900元人民币）的海鸥电动车，已经将大众和其他外国汽车制造商挤出中国市场。随着新车型，如中型SUV海狮7号在欧洲的推出，比亚迪继续在传统汽车制造商的本土市场发起挑战。在全球范围内，大众汽车的交付量在2024年的前九个月下降了3%，至652万辆。尽管在北美（+7%）和南美（+15%）市场获得了市场份额，但在中国（-10%）和西欧（-1%）的“竞争形势”抵消了增长。在其本土市场，大众汽车的交付量下降了1.6%。大众汽车的财务状况将在周三公布的第三季度财报中得到更多了解。保时捷在上周五宣布第三季度利润下降了41%，这个豪华品牌在9月份的交付量下降了41%。</p>
+<h3><strong>福特第三季度盈利超过预期，但电动汽车亏损对利润造成影响</strong></h3>
+<p class="image-wrapper"><img data-img-size-val="1080,524" src="https://img.36krcdn.com/hsossms/20241029/v2_d27bbb16cc2d4cab80a4f90abe69a349@6130289_oswg824152oswg1080oswg524_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">福特电动车Mach-E(来源：福特）</p>
+<p>福特汽车公司在周一股市收盘后公布了2024年第三季度的收益报告，超出了华尔街对其收入和每股收益的预期。然而，该公司在电动汽车（EV）业务上仍在亏损数十亿美元。第三季度，福特在美国的零售销售额增长了3%，总销售额比2023年第三季度增长了1%。尽管有所增长，但福特在美国电动汽车销售方面仍落后于通用汽车（GM）和现代汽车集团（包括起亚和捷尼赛思）。福特的电动汽车销量增长了12%，第三季度售出23,509辆。然而，通用汽车以32,095辆的销量，同比增长60%，超过了福特。通用汽车第三季度的销售额为488亿美元，虽然没有提供电动汽车的单独数据，但表示其电动汽车销售“接近盈利的转折点”。</p>
+<h3><strong>路易斯维尔启动美国首个全电动垃圾车车队</strong></h3>
+<p class="image-wrapper"><img data-img-size-val="1080,545" src="https://img.36krcdn.com/hsossms/20241029/v2_e177b4a724da47829a00329070d2caa2@6130289_oswg904454oswg1080oswg545_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">路易斯维尔垃圾车车队（来源：Electrek）</p>
+<p>科罗拉多州的路易斯维尔市近日宣布了一个全国首创的举措：启动了一个全新的全电动住宅回收和垃圾收集车队。这些车队已经开始在城市的街道上运行。电动车辆在重载、频繁启停、低速以及可预测路线的条件下运行，特别适合垃圾收集工作，尤其是在城市中，平均每天的工作距离远低于100英里。此外，电动垃圾车安静运行的特点意味着居民，包括小孩和浅睡眠者，不太可能在清晨被垃圾车的操作声吵醒。路易斯维尔市市长Chris Leh表示：“我们非常自豪，路易斯维尔将成为全国第一个拥有全电动收集车队的城市。这些创新的电动收集车将满足我们的垃圾、堆肥和回收需求，减少噪音污染，并包括更大的挡风玻璃以增加司机的视野，降低温室气体排放，使我们的社区更安静、更安全、更健康。”尽管有人质疑电动车辆的低运营和维护成本是否能够抵消其高昂的价格标签，并帮助城市长期节省资金，但考虑到联邦政府为中型和重型电动车辆提供的实质性激励资金，以及公用事业项目提供的更多资金，成本效益的风险非常小。</p>
+<h2><strong>「 酷产品 」</strong></h2>
+<h3><strong>Lucid Gravity SUV</strong></h3>
+<p>Lucid Gravity 采用了与 Lucid Air 相似的设计语言，具有封闭式前脸、矩阵式大灯、贯穿式灯带和悬浮式车顶设计 。提供 5/6/7 座布局，配备大面积天幕、前排双无线充电面板等。中控台采用环抱式设计，搭配 34 英寸贯穿式 OLED 大联屏，座椅具有良好的包裹性 。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,569" src="https://img.36krcdn.com/hsossms/20241029/v2_7662d97f399848aea7d15021857124e5@6130289_oswg1016434oswg1080oswg569_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Lucid Gravity SUV（来源：Lucid）</p>
+<p>搭载下一代电动机，0-96km/h 加速时间在 3.5 秒内。基于 900V 电气架构，最大续航里程为 708km，最大牵引力为 2722 公斤。悬架可自适应调节，提供舒适、平稳的行驶体验 。Lucid Gravity 可以在 3.5 秒内完成从 0 到 60 英里/小时的加速，拥有超过 1500 磅的有效载荷和 6000 磅的拖曳能力。它还具有越野能力，可选的空气悬架系统可以自动或手动调节行驶高度，以适应不同的地形。</p>
+<p class="image-wrapper"><img data-img-size-val="1069,565" src="https://img.36krcdn.com/hsossms/20241029/v2_254c3d9897e741f58408253665a017b8@6130289_oswg546823oswg1069oswg565_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Lucid Gravity SUV（来源：Lucid）</p>
+<p>Lucid Gravity 内饰配备 34 英寸的弧形玻璃驾驶舱 5K 显示屏，并搭载 Lucid UX 软件系统 。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,493" src="https://img.36krcdn.com/hsossms/20241029/v2_e14f5601a2b242aea41ecadc59bedf55@6130289_oswg449789oswg1080oswg493_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Lucid Gravity SUV（来源：Lucid）</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013458420295173</guid><pubDate>Tue, 29 Oct 2024 18:51:00 +0800</pubDate></item><item><title>最严新规后率先获批，揭秘首义科创母基金背后的神秘面纱</title><link>https://36kr.com/p/3013059432555783</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>各地发力母基金的大趋势之下，武汉也迎来了一支科创母基金。</p>
+<p>近日，首义科创母基金已经完成工商注册，该基金由武汉市武昌区财政及区属国资平台全额出资，总规模达50亿元。据了解，设立首义科创母基金是武汉市武昌区贯彻落实省市科技创新战略作出的重大决策部署。</p>
+<p><strong>值得一提的是，在史上最严私募新规和极其严苛的窗口指导背景下，作为首义科创母基金的唯一受托管理机构——武汉首义科技创业投资基金管理有限公司（后文简称“首义”）率先获批国资背景管理人引起行业广泛关注。</strong></p>
+<p>首义为何能率先获批？有哪些独特亮点？对全国各地政府母基金管理人的资格申请有何参考价值？针对这些问题，36氪与首义科创母基金管理合伙人龚小林展开了一次深入对谈。</p>
+<ul class="list-paddingleft-2">
+<li><p><strong>率先获批国资基金管理人背后</strong></p></li>
+</ul>
+<p>私募投资行业正在迎来强监管时代。</p>
+<p>自2023年以来，证券行业首部行政法规《私募投资基金监督管理条例》，以及《私募投资基金监督管理办法（征求意见稿）》《私募证券投资基金运作指引》等一系列法规接连出台，以“法律法规—部门规章—自律性规范”为框架的私募监管制度体系持续优化。</p>
+<p><strong>相关政策的落地，为行业加速出清和长远规范发展有着重要意义。但同时，也大大提高了行业入门门槛。基于此，首义率先获批为区级国资基金管理人，在当下的行业语境里具有标杆价值。</strong></p>
+<p>“从2023年3月开始筹备牌照申请，到去年7月底第一次提交，以及后续的多次反馈、再提交，我们也是‘摸着石头过河’，做了大量细致的工作。”龚小林告诉36氪，“在筹备过程中，区政府及相关部门给予了极大支持。”举个例子，为了配合控股股东的调整，武昌区政府在实践过程中进行了大量协调沟通工作，并将股份划转至国资局，由国资局直接作为此次基金管理人的控股股东。<strong>这在湖北省无先例，也在全国属于极少案例。</strong></p>
+<p>又比如在管理人登记阶段，武昌区政府主动帮忙邀请业内大专家为管理人登记事项提供支持；以及在办理工商变更时，由于提交协会备案的时间窗口期比较紧，相关主要领导多次参与沟通协调，使进展得以快速稳健推进。</p>
+<p>“可以说，如果没有武昌区政府领导和各部门的全力以赴与鼎力支持，以及中国证券投资基金业协会的指导，这件事情就很难办成。”龚小林表示。</p>
+<p><strong>在政府和协会支持之外，此次国资基金管理人获批也与方案整体的严谨性密不可分</strong>：一方面，该方案严格按照监管导向，并结合武汉市武昌区的产业、地域和人才优势进行规划；另一方面，也充分融合了首义团队在各细分领域的深厚积淀和资本市场积累的丰富经验，从而找到最佳契合点。</p>
+<p>以重要的股东结构安排为例，<strong>此次基金就既有国资控股（65%由武昌区国资局直接持股），又有市场化的专业团队持股（35%由首义团队持股）。</strong>在该结构下，政府能加强对公司的监督管理，也能实现对公司的提级赋能，且在横向协调各方面资源上给予极大支持。同时，该结构设计鼓励核心团队直接持有股权，从而参与、分享公司未来收益，以及承担公司经营可能产生的亏损。</p>
+<p>不难发现，股东结构设计反映了政府做事的决心、开放的心态和专业的事交给专业的人的理念。</p>
+<p>与此同时，首义团队也做了大量准备工作，并在申请过程中积累了丰富经验。其中，龚小林<strong>向正在申请或即将申请牌照的公司提供了五条宝贵建议：</strong></p>
+<p>·一是要有专业的团队，只有团队专业，方能解决很多问题；</p>
+<p>·二是要聘请足够强的法律团队；</p>
+<p>·三是对基金和公司的发展规划要有一套严密逻辑；</p>
+<p>·四是过往经验的证据链非常重要，绝不能造假；</p>
+<p>·五是团队层面要有高度的共识。</p>
+<p>正是凭借多方努力，在史上最严私募新规下，首义得以在今年率先获批为区级国资背景管理人，成为首义科创母基金的唯一受托管理机构。</p>
+<ul class="list-paddingleft-2">
+<li><p><strong>投资的核心思考</strong></p></li>
+</ul>
+<p>基金落地后，首义会如何布局？</p>
+<p>在投资的整体思路上，龚小林表示公司有三大原则，即投<strong>国家有需要、市场有前景、企业有优势的科创企业。</strong></p>
+<p>详细来看，国家有需要主要是针对二十大报告里提到的涉及粮食安全、能源安全、供应链安全、信息安全、国土安全等安全领域。在这些领域，国家正不遗余力进行资源叠加布局，一些新的机会开始浮现。</p>
+<p>市场有前景则是看未来十年，围绕国家大政方针持续发展且具有确定性增长的行业。企业有优势是既要考虑武汉当地已经有很强产业基础的产业项目，又要用发展眼光去看待未来具有高增长潜力的项目。</p>
+<p>基于上述逻辑，<strong>首义结合武汉市的区域特色和产业规划，选定了“两大四小”投资方向，即聚焦数字经济、双碳、先进制造、新材料、军工、生物技术等领域。</strong></p>
+<p>其中，软件服务、合成生物、新能源船舶、空天信息等细分赛道是重点关注方向。“我们会有70%到80%的资金，以及70%到80的团队成员会在这四个细分领域上深耕。”龚小林表示。</p>
+<p>需要重点提到是，<strong>基金在落地细节方面也有充分考量。</strong>比如作为产业基金，首义会充分发挥武汉的科研优势，与地区范围内围绕“两大四小”行业相关的国家研究中心、国家（全国）重点实验室、省级实验室、特色院校、新型研发机构等展开合作，聚焦重点行业，联合产业方，通过产业赋能和资本支持提高高校、研究中心和实验室的科技成果产业化落地的效率和成功率，解决技术从实验室到产业的工程化、市场化、资本化的难题。</p>
+<p>当然，产业孵化的逻辑并不只仅限于本地。在具体标的选择上，首义的目光会跳脱湖北，聚焦全中国进行赛道落子。</p>
+<p>“总的来说，我们<strong>以科创母基金为基础，通过直投和组建行业子基金及天使子基金的方式进一步引入产业合作方，从而真正实现‘科研+产业+资本’的发展模式。</strong>”龚小林表示。</p>
+<p class="image-wrapper"><img data-img-size-val="1024,683" src="https://img.36krcdn.com/hsossms/20241029/v2_81344f63942d4326993bc184ce672e9c@5865643_oswg760890oswg1024oswg683_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>多措并举下，首义科创母基金既能为创投行业带来宝贵的一股活水，助力国家重视的新兴产业发展；亦能为武汉市武昌区进行资本招商，加速产业集群的形成，实现强链补链，提高当地整体竞争力。</p>
+<ul class="list-paddingleft-2">
+<li><p><strong>服务区域经济发展的未来新样本</strong></p></li>
+</ul>
+<p>在当下的创投叙事逻辑中，新的产业趋势已经出现。</p>
+<p>从各地的动作来看，部分地方政府已经开始以更开放心态找专业机构管理母基金，采用市场化决策，尊重市场的专业；与之一起的是，母基金在服务地方产业强链补链和产业结构转型升级中起到了更为广泛的作用。</p>
+<p><strong>在这个过程中，各地政府愈发意识到，要形成良好的投资和产业发展环境，就要匹配更好的营商环境、拥有更强的产业转型定力，并在此基础上形成共识和机制设计，产业发展方能真正行稳致远。</strong></p>
+<p>毕竟，未来城市的竞争，核心必定是产业的竞争。因此，谁能率先在科技创新产业上找到突破口，谁就能在未来抢占城市竞争的制高点。</p>
+<p>作为中国四大科教中心城市和全国三大智力密集区之一，武汉市已经拥有良好的产业基础和投资环境，特别是在科研实力和创新活力方面，于全国乃至全球范围内都享有盛誉。</p>
+<p>数据可以一窥成绩。目前，武汉市拥有83所普通高校，7所211高校（包括武汉大学和华中科技大学两所985院校），以及超过135万的在校大学生，这些共同构成了武汉市强大的科研人才库。此外，武汉市还有30位中国科学院院士、40位中国工程院院士的加持，以及19个国家级工程技术研究中心和30个国家重点实验室的支撑，这让该市的科研生态更为丰富，也为未来产业发展提供了充足动能。</p>
+<p>同时，<strong>好的营商环境就像阳光、水和空气，武汉也在该方向发力。</strong>据官方介绍，2024年以来，武汉全市政法机关围绕提升、优化法治化营商环境，深入开展专题调研，健全完善工作机制，制定出台《全市政法机关优化提升法治化营商环境工作措施》《关于进一步优化法治化营商环境工作方案（2024—2026年）》等文件，更好地发挥了法治固根本、稳预期、利长远的保障作用。</p>
+<p>立足于武汉市的科研沃土、优质产业基础和良好营商环境，首义会不断与创新平台和孵化平台紧密合作，共同构建起科研项目立项库、知识产权库和科技成果产业转化库，从而成为引领城市产业生态重塑与产业升级的重要推动者之一。</p>
+<p>不仅如此，<strong>发展新质生产力离不开资本助力，更离不开耐心资本的长期陪伴。</strong>“首义将充分发挥政策的引导作用，做‘耐心资本’，坚持长期投资、战略投资、价值投资、责任投资，加大对行业科技领军企业、科技成果转化项目和产业链上下游中小企业的投资力度。”龚小林在访谈的最后着重强调。</p>
+<p>风起于青萍之末，浪成于微澜之间。在政产学研投等产业生态各方的共同努力和耐心资本的逐渐培育下，以武汉市武昌区为代表的中国产城故事正翻开新的一页。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013059432555783</guid><pubDate>Tue, 29 Oct 2024 18:54:00 +0800</pubDate></item><item><title>捷途跑出“加速度”，风光背后隐忧暗存？</title><link>https://36kr.com/p/3013383631860872</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241029/v2_370d5109bd914647b475d5656976c1ce@5744238_oswg205761oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：度哥  2023年4月摄于上海车展</p>
+<p>“到2026年，捷途单年销量要超100万辆。”“力争2026年成为最快达成年销量超百万辆的中国品牌。”这是10月27日，奇瑞捷途在山海T1上市发布会上立下的军令状，野心不小，实现又有几分可能？</p>
+<p>从当前的销售数据看，以性价比打天下的捷途品牌确实在一路狂奔。今年前9月累计销量达37.6万辆，其中9月单月销量创下6万辆的历史新高。按照这一速度，捷途在今年的整体销量有望突破50万辆。</p>
+<p><strong>然而即便如此，到2026年销量要实现超100万辆，依然让人觉得口气有些大了。毕竟在新能源加速渗透的新时代，捷途的销量始终在依赖燃油车型，转型方面走得并不算顺利。</strong></p>
+<p>并且，一直以来，有关捷途车型的投诉量都居高不下。今年以来，仅车质网平台上针对捷途的投诉就超过了400起。</p>
+<p>这些问题之下，奇瑞捷途的高增长还能持续多久？在光鲜的外表背后，捷途还有不少短板需要补足。</p>
+<h2><strong>1 奇瑞“尖兵”</strong></h2>
+<p>据了解，目前奇瑞旗下有四大主力乘用车品牌，分别是奇瑞品牌、星途品牌、捷途品牌和iCAR品牌。<strong>而这其中，捷途应该是最争气的孩子，因为从“出生”开始便备受争议，但后续的成长速度出人意料。</strong></p>
+<p>2018年初，自主品牌“老大哥”奇瑞宣布，将推出“捷途”这一全新产品序列。很快在当年8月18日，捷途旗下首款新车捷途X70正式上市，售价区间为6.99万-12.09万元。</p>
+<p>按理说，大型汽车集团推出一个或多个新品牌很正常，更何况只是一个全新产品序列，但为何捷途的“出生”就充满争议？</p>
+<p>原因是奇瑞自2009年开启“多品牌战略”后，在发展的进程中遇到了诸多磨难。持续的销量滑坡，让奇瑞不得不相继“抛弃”了旗下瑞麟、威麟品牌，以及观致汽车、凯翼汽车。结果转身又推出了一个新的产品序列，让人捉摸不透。</p>
+<p><strong>当时，外界对于捷途的未来并不看好。一方面是捷途并非新品牌，只是奇瑞的一个新品序列；另一方面是觉得奇瑞又陷入了“多生孩子却不好打架”的怪圈。</strong></p>
+<p>不过，时任奇瑞控股集团·JETOUR捷途汽车营销中心总经理的李学用充满自信，他直接表示，到2020年，捷途将冲击30万辆的年销量目标。</p>
+<p>李学用提出的这一目标虽然有些激进，但后来的捷途也确实很争气，凭着高性价比优势成长迅速。数据显示，2018年-2021年，捷途年销量分别为4万辆、13.8万辆、12.7万辆和15.4万辆。上市不到4年，累计销量就突破了45万辆，让业内直接喊出了“捷途速度”。</p>
+<p>或许是看到了捷途的“黑马”之势，奇瑞开始在内部重用捷途。2021年7月8日，在“新捷途•新旅途”为主题的捷途汽车品牌之夜活动上，捷途品牌正式独立。这意味着，从那天开始，捷途品牌从“捷途产品序列”变成了“捷途汽车”，地位直线上升。</p>
+<p><strong>独立后的捷途亦没有让奇瑞失望，2022年其全年销量达到18万辆，同比增长16.9%；2023年再攀新高，销量同比增长75%至31.5万辆。</strong></p>
+<p>到了今年前9个月，捷途累计销量已经远超去年全年，达到37.6万辆，其中9月单月销量创下6万辆的历史新高。 并且，在奇瑞旗下四大主力乘用车品牌中，捷途的增长幅度排名第一。</p>
+<p>从不被看好到成为“尖兵强将”，捷途这一路走来算是实现了蜕变。只不过，销量狂奔的背后，捷途也并非没有隐忧。</p>
+<h2><strong>2 依赖油车</strong></h2>
+<p>李学用曾在接受媒体采访时表示，“2022年在保证年销量20万辆的基础上争取30万辆销量，到2023年末再增长50%左右。只有达成这两个目标，我认为捷途才能够真正算是能够生存下来。”</p>
+<p>现在看来，捷途已经达到30万辆的“生存线”，只是时间比预期的晚了一些。但生存下来只是基础，捷途汽车营销公司总经理助理宋来勇在去年11月开幕的2023广州国际车展上又提到了一个新观点，那就是“燃油决定生存，混动决定生死，电车决定未来”。</p>
+<p><strong>如果从这个角度去看，捷途的未来还充满不确定性。因为在销售结构上，捷途汽车存在明显的“跛脚”情况，更依赖于燃油车车型。</strong></p>
+<p>就拿9月份来说，按照懂车帝数据，该月捷途8款车的总销量为4.04万辆，其中捷途X70就贡献了1.13万辆，占到了总销量的近三成。上文提到，捷途X70是捷途旗下首款燃油车型，最早版本2018年就已上市，后面更新换代成了“常青树”。</p>
+<p>销量排在第二的是捷途旅行者，9月份销量为8918辆。该车于去年9月正式上市，定位轻越野SUV，当时推出了两款搭载1.5TD+7DCT动力组合、三款搭载2.0TD+7DCT动力组合以及一款搭载2.0TD+8AT动力组合的六款车型，明显是一款燃油“方盒子”。</p>
+<p><strong>时间拉长看，近一年内，捷途X70和捷途旅行者累计销量达到了21.4万辆，占到品牌总销量的比重为63.6%。而反观旗下的新能源车型，成绩就落下了很多。</strong></p>
+<p>比如2022年发布的全新SUV捷途大圣，包括燃油版和混动版。它是捷途汽车“昆仑架构”下的首款产品，亮相时被寄予开辟新增量赛道的厚望。然而懂车帝数据显示，捷途大圣目前月均销量基本都在3000多辆，捷途大圣i-DM 7月销量只有61辆。</p>
+<p>还有捷途倾力打造的山海系列，当前卖得最好的是山海T2，今年4月份正式上市，共推出3款车型，搭载1.5TD DHE+3DHT混动系统。<strong>即使已经是这个系列的“扛把子”，可9月份销量也才6985辆，暂时未能成为新能源市场的主流产品。</strong></p>
+<p>要知道，7月份以来，新能源汽车国内零售渗透率已经连续3个月突破50%，9月份更是达到53.3%。在消费品以旧换新中，消费者购买新能源汽车比例达到62%。在这一大趋势下，如果还在依赖油车、跛脚前行，那么前路就会危机重重。</p>
+<p>就像宋来勇所说的“混动决定生死，电车决定未来”，捷途急需为自己的未来铺好路。</p>
+<h2><strong>3 投诉高企</strong></h2>
+<p>除了销售结构有待改善之外，捷途还需要在产品质量和营销上做好把控。</p>
+<p>首先从产品质量上来看，一般情况下，主打高性价比的产品都有个快速增量的过程，等到达一定的保有量之后，各种问题就会开始显现。而我们查询发现，伴随着销量的增长，有关捷途的消费者投诉也越来越多。</p>
+<p><strong>全国汽车消费者投诉受理处置服务平台车质网显示，仅今年以来，该平台就有超过400起针对捷途的投诉，去年也有293起。</strong>主要投诉对象为捷途的“顶梁柱”X70系列，以及旅行者，问题集中在变速器顿挫、车身生锈、车内异响、天窗漏水等方面。</p>
+<p>像是有车主反映，其所购买的捷途旅行者在今年9月16日下午天窗自动打开，导致车内泡水共六小时，之后一直与4S店工作人员沟通要求出具当天的车辆后台记录以及车辆检测报告，直至10月26日都未拿到相关报告，并且后续检查发现车内出现大量锈蚀，希望厂家和4S店能给出合理的解决方案。</p>
+<p><strong>其次在营销上，捷途还多次出现“翻车”情况。今年5月，捷途宁夏宁达捷瑞店在某音女主播直播过程中，就因直播间画面低俗被无限期封禁。</strong>后捷途客服回应称：“该情况是门店自行组织开展的，公司已经要求宁夏宁达严格遵守平台管理要求开展相关营销动作。”</p>
+<p>据悉，出现类似情况的不止捷途宁夏宁达捷瑞店一个，还有另外3家捷途4S店抖音账号被无限期封禁。“擦边”营销能收获一定的流量，但这一行为无疑破坏了行业健康生态。</p>
+<p>还有近年来，捷途还屡被质疑“虚假宣传”，遭到用户维权。其中，2021年5月，40余位车主投诉捷途涉嫌虚假宣传，称捷途X70 PLUS上市发布会上宣传的激光大灯、自动泊车、车内活体检测等13项配置在实车顶配版本上被无故减配。后面捷途方面给出的理由竟然是员工操作失误、配置表不准确。</p>
+<p>不可否认，捷途是奇瑞旗下的销量“黑马”品牌。<strong>若能保持当前的增长速度，其将能助力奇瑞实现2025年跻身全球车企TOP10的目标。只是在诸多不足之下，其自身要想实现2026年百万销量的目标，恐怕还极具挑战性。</strong></p>
+<p>值得期待的是，10月27日，捷途正式推出了其最新的电混越野SUV——山海T1，品牌寄希望于山海T1能推动山海T系列乃至捷途品牌销量再上一个台阶。主攻新能源市场的山海系列后续成长如何，将成为决定捷途未来的关键。</p>
+<p>作者 | </p>
+<p>本文来自微信公众号“车圈能见度”，作者：柏源，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013383631860872</guid><pubDate>Tue, 29 Oct 2024 18:54:00 +0800</pubDate></item><item><title>新车取名，为何爱用“7”？</title><link>https://36kr.com/p/3013377755931913</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“逛了一圈汽车城，没记住太多有用信息，反而被各种‘7’占满了脑子。”消费者王万（化名）说。</p>
+<p>阿维塔07、极越07、领克07、海豹07……今年上市的新车，含“7”量颇高。据中新经纬不完全统计，截至10月29日，2024年有89款新品（车型名称是全新的）上市，其中有21款是“7”系车，占比超过23.5%，为最高。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_d66c4c96924244528897251724131bc2@000000_oswg128811oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲2024年部分名字含“7”的新车 中新经纬 龚宸芫制表</p>
+<p>为何车企给车取名字偏爱用数字“7”？</p>
+<h2><strong>先入为主，打造豪华概念</strong></h2>
+<p>提起名字里带“7”的车，不少人第一反应是宝马7系。这款车从第1系排列而来，属于宝马品牌旗舰车型，对标奔驰S级，也一度是豪华轿车的代名词。</p>
+<p>20世纪90年代，一句“这是一个比奔驰还高级还贵的品牌”广告词，让宝马7系进入中国并迅速走红，也让市场逐渐加深了对这款车高端地位的认知。</p>
+<p>当然，除了宝马7系，奥迪RS7等车也是高端车的代表。</p>
+<p>车企要打造一款高端车，怎么命名才会让消费者觉得有高级感？“数字越大表示级别越高，中国车企的7系车普遍面向中高档市场，‘7’容易让消费者有先入为主的概念。”北方工业大学汽车产业创新研究中心研究员张翔说。</p>
+<p>从产品定位来看，大部分“7”系车是车企的旗舰产品，有的甚至是开山之作，代表车企当前最高造车和技术水平。有的车型肩负走量任务，有的车型承担品牌向上的使命。</p>
+<p>比如10月下旬上市的长安启源E07。对于长安启源乃至长安汽车品牌而言，长安启源E07是长安品牌冲击高端市场的首款车型，将品牌拉升到20万到30万元的新领域，肩负着提升品牌形象和市场竞争力的重任。</p>
+<p>不过，能代表高端和豪华的并不只有宝马7系，还有奔驰S级、保时捷卡宴等，为何车企最后选用了数字命名？</p>
+<p>汽车行业分析师钟师认为：“奔驰、奥迪等采用的字母命名形式，不太容易在中国人脑海里形成记忆，数字辨识度更高。”</p>
+<p>简而言之，数字更符合中国消费者的认知，便于产品保持名字在口头和书面的一致性和准确性。今年上半年，360集团创始人周鸿祎也在一场直播中分析了新车命名规则。</p>
+<p>“名字能直接触动消费者的首要感觉和联想。老百姓已经被无数车厂的广告宣传和自己开车体验给认知教育了。比如你非要出个Y系列，说Y10比Y20要强，Y20比Y30要强，那么你就违背了一般用户的认知。”周鸿祎说。</p>
+<h2><strong>为什么7能代表豪华？</strong></h2>
+<p>既然数字越大代表级别越高，那么车企为什么不用“8”和“9”，更偏爱以“7”切入中高端市场？</p>
+<p>有网友在社交平台上试图给出答案。</p>
+<p>“因为7上面还有8和9，下面还有5和3，7代表中上档次。从7挡位切入，让消费者对品牌的第一印象是高端豪华。”该名网友认为，站在车企角度，“7”进可攻退可守，即便首款车失败了，车企还可以降价到“3”和“5”拉升销量；首款车成功的话，车企可以趁势推“9”拉升利润和品牌调性。</p>
+<p>爱用数字命名的不止车企，半导体知名企业英特尔生产的处理器的等级通常通过数字来表示。公开资料显示，其命名规则为数字越大，性能等级相对越高。例如，3是基础配置，5是高性价比，7是高端旗舰，9是豪华顶配。</p>
+<p>这或许是不少定位为豪华、高端的新品牌，推出的首款车会以“7”来命名的原因。</p>
+<p>比如小米汽车的第一款车叫小米SU7，长安启源首款车叫启源A07，吉利银河首款车则是吉利银河L7，东风本田旗下电动品牌烨的首款车为烨S7，红旗新能源子品牌首款车叫红旗EH7，东风奕派首款车被命名为奕派007……</p>
+<p>出于从众心理，越来越多“7”系车加入这一战场，连小米创始人雷军都不得不发出感慨。2023年，他在小米SU7亮相发布会上称：“我也不明白国内车圈，大家的车为什么都叫7系。后来我也跟着大家改成7，叫SU5可能不好，那就叫SU7。”</p>
+<p>从大部分车企解释来看，“7”也代表了产品所在的中（大）型细分市场。从热销车型来看，无论是理想还是问界，或者蔚来、小米，旗下不同数字产品，分别代表了不同尺寸和级别的车型，“7”往往意味着中型乃至中大型车。</p>
+<p>懂车帝App显示，目前在售的“7”系车共有80款，其中，有30款产品均定位为中大型（C级），29款产品被定位为中型（B级）。</p>
+<p>2024年7月末，雷军在个人账号直播时，回答产品名由来又给出另一个不一样的回答。他表示，小米要做极致速度，Speed Ultra缩写是“SU”；为了方便好记因此就叫“SU7”。至于为何不叫“SU1”，雷军解释道，7指的是大小，就是5米车长、3米轴长的C级车。</p>
+<p>在数字0-9中，“7”也容易让人产生更深的印象。</p>
+<p>比如畅销书《哈利波特》就和“7”有诸多联系。如原著共7本，作者罗琳、主角哈利·波特的生日都在7月，原著中韦斯莱家共有7个孩子，霍格沃茨魔法学校一共有7个年级……</p>
+<p>“从文化心理角度看，数字7有特殊含义。中国人会认为7很吉利，七彩祥云、七上八下，西方也有‘lucky seven’的说法。甚至有的车企会用‘7’当logo，雷克萨斯的标识就是倒过来的数字‘7’。”奥纬咨询董事合伙人张君毅分析道。</p>
+<p>对于9月上市的极越07，极越方面曾介绍，该命名预示着未来出行的美好愿景。</p>
+<p>米勒原理也佐证了这一点。1956年，心理学家米勒在论文《神奇的数字7加减2：我们加工信息能力的某些限制》中提出代表短时记忆的容量的“7±2”法则，也就是说，消费者短时间内只能处理5—9个单位的信息。数字7恰好位于这个范围的中心位置，因此它在信息处理中占据了一个“甜点”位置，既不过多也不过少，恰到好处。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247585034&amp;idx=1&amp;sn=ee091f227454319b24857ae276ecfbc0&amp;chksm=e8870dd4010ba483284f24c6bcb07ec769c4b676c05a443826f543c117d6ff190fe143dfa962&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：龚宸芫，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013377755931913</guid><pubDate>Tue, 29 Oct 2024 18:55:00 +0800</pubDate></item><item><title>端侧大模型浪潮奔涌而至：态势、影响与建议</title><link>https://36kr.com/p/3013363107374600</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_186f61541abc48c2b9cb078363a4e795@000000_oswg21117oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>自苹果推出AI手机以来，端侧大模型的产品发布进入加速期。</p>
+<p>10月10日，Vivo推出蓝心端侧大模型 3B，其AI能力已覆盖60多个国家和地区，服务超5亿手机用户，大模型token输出量超过3万亿；随后，字节发布首款AI智能体耳机Ola Friend，与豆包深度集成；18日，荣耀同期发布了Magic OS 9.0 ，打造AI OS，其上的YOYO智慧助手已经打通了多款APP，可以实现一句话充值、一句话点外卖等服务。中国信通院与荣耀等企业还共同发布了《终端智能化分级研究报告》，推出了行业首个终端智能化分级体系。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_c2fff544db704154ad8194105f69b81d@000000_oswg358419oswg1080oswg554_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>23日一早，Claude发布重大更新，Claude 3.5 Sonnet版，并推出“computer use”新功能，即计算机控制，可以按照用户的命令在计算机屏幕上移动光标，点击相关位置，并通过虚拟键盘输入信息，模拟人们与计算机的互动方式，一句话操控电脑的时代可能来临；当天，三星与智谱宣布战略合作，将携手在AI手机领域展开深度共创。也是同一天，OPPO宣布实现了全球首次MoE（Mixture of Experts，混合专家模型）在端侧的落地，提出了AI即系统（AI as System）的愿景，全新小布支持超1800项指令，让用户只需要简单的语音指令，就可以完成对应的手机设置或应用操作。25日，智谱发布AutoGLM工具，用户可以一句话实现朋友圈点赞、写评论、电商网购、O2O平台写五星好评、外卖下单、高铁购票等众多任务。    </p>
+<p>可以看到，<strong>端侧大模型的浪潮汹涌而至，原有的用户体验和生态格局将迎来革命性重塑。</strong></p>
+<h2><strong>一、端侧大模型的兴起</strong></h2>
+<p>端侧大模型指在终端设备（如智能手机、平板、PC、智能穿戴设备、自动驾驶及具身智能等）上运行的大型预训练模型。相较于云端大模型，端侧大模型需要在资源有限的设备上高效运行，这对模型压缩、推理加速及能耗优化提出了更高的要求，其核心技术特点在于轻量化。</p>
+<p>当前主要的轻量化技术包括模型剪枝、知识蒸馏和量化。</p>
+<p><strong>一是模型剪枝，</strong>即通过去除不重要的参数来降低模型复杂度，其基本原理是评估各个参数对模型性能的影响，并去除对最终结果影响较小的参数，从而实现模型的稀疏化。例如，NVIDIA的APEX库提供了剪枝工具，可帮助开发者快速识别并删除低权重参数，使得许多在手机上运行的大模型得以显著压缩。</p>
+<p><strong>二是知识蒸馏，</strong>是一种将大型复杂模型（教师模型）知识传递给小型高效模型（学生模型）的技术。在保持模型性能的前提下，这种方法可显著减少模型大小与计算需求。TinyBERT是经典案例，通过对BERT进行蒸馏，将其参数量减少至原来的1/7，并在多项自然语言处理任务中保持良好性能。</p>
+<p><strong>三是量化技术，</strong>指将神经网络中的权重与激活值从高精度浮点数转换为低比特宽度整数（如INT8、FP8或INT4等），以降低存储需求和计算成本，同时尽量维持模型性能。例如，智谱的GLM-4-9B采用FP8量化，使得该模型能够在资源受限设备上高效运行，并通过量化感知训练在低精度计算中取得显著效果。    </p>
+<p>上述技术往往组合使用，以实现最大的轻量化效果。例如，苹果的人工智能Apple Intelligence针对iPhone优化的端侧大模型Apple On-Device，通过生成专项任务小模型、动态加载和交换适配器、整体量化压缩，并结合特定的JSON结构化提示词，使得3B的小模型在特定任务上表现优异，可媲美诸如Mistral-7B和Gemma-7B等更大的模型。</p>
+<p>端侧大模型之所以成为未来趋势，主要原因在于其实时性、保密性和经济性。实时性主要体现在数据的本地计算，借助端侧大模型，用户大部分数据处理均在本地完成，只有少量高算力需求的场景会调用云端算力，从而减少对云端的依赖，大幅提高响应速度。且在没有网络的飞机、信号差的高铁等场景下，手机和电脑上的端侧大模型都可以7*24小时使用。同时，端侧大模型具有低时延的特点，非常适合对实时性要求较高的场景，如自动驾驶、智能机器人等，可以实时进行对环境的判断，并做出行动决策。这种方式下，也让用户数据的隐私保护更强，因为用户数据无需上传云端，从而降低数据泄露风险。此外，端侧大模型的计算均在用户本地的设备上进行，无需使用手机等厂商的云推理服务，也就不涉及到付费，从而减少用户使用成本，也节约了大模型厂商的成本压力。Vivo的相关负责人曾表示，云端运行大模型的成本非常高，vivo有3亿中国大陆用户，如果每天用10次，一天的运算成本大概是3000万元，一年需要花费约90-100亿元。</p>
+<h2><strong>二、端侧大模型将率先在手机领域爆发</strong></h2>
+<p>端侧大模型的应用场景广泛，未来，AI推理将在手机、PC、耳机、音箱、XR、汽车，以及其它可穿戴式新型终端上运行。如Humane 的 AI Pin作为新型终端，搭载GPT4，可实现智能语音交互。英伟达的Chat with RTX，用户只需8GB的RTX 30或40系列显卡，即可在本地PC上运行大模型，并打造自己的知识库，让端侧大模型的应用更为便捷。其中，智能手机和电脑是当前端侧大模型应用最有前景的领域，端侧大模型可以实现图像处理、自然语言理解和生成、人脸识别、语音助手和翻译等功能，在电脑侧，端侧大模型还可以分析用户自身的各类多媒体文件，生成用户自己的个性化小模型。    </p>
+<p>在手机侧，可以预见，<strong>原生AI OS是未来的重点方向。</strong>这意味着，端侧大模型除了生成内容，还可以调用手机上的各类应用程序，让用户更方便地完成各类操作。<strong>手机端侧大模型的期望是成为新的交互入口，</strong>比如用户只需要跟手机助手聊天，就可以实现照片美化、并为图片配说明文字后一键转发朋友圈。而且用户通过手机助手还可以直接点外卖、打车、购物、发短信等。一旦手机助手实现了调用各类应用的功能模块，手机大模型就有可能OTT掉大量APP，使得APP沦为在后台为手机打工的角色。这将进一步强化手机企业在生态内的话语权，可能让硬件主导分成的苹果税（30%）等方式更为持久和强势，因此，如何兼顾基础软硬件和上层应用协同发展，成为我国在AI时代能否持续发挥应用优势的关键。</p>
+<p>端侧大模型的到来，有望给全球手机市场注入新的增长力量。近年来，全球手机市场已进入缓慢增长的态势。根据IDC咨询公司的数据，2023全年，全球手机出货量11.669亿台，同比下滑3.2%。根据TechInsight的数据，到2023年，全球智能手机的换机周期将延长至历史上最长的51个月。在中国，消费者的换机速度稍有增加，但仍超过40个月。借助端侧大模型，手机市场将迎来新亮点和换机动力。根据IDC预测，2024年全球GenAI智能手机的出货量将同比增长363.6%，达到2.342亿部，占2024年整个智能手机市场的19%。到2028年，IDC预测GenAI智能手机出货量将达到9.12亿部，2024-2028年的复合年增长率为78.4%。    </p>
+<p>未来，端侧大模型的技术发展路径，将向专业化任务的小模型优化、多功能与多模态能力集成等方向拓展。专业化任务的小模型优化方面，通过蒸馏与微调打造具备特定专长的小模型，持续探索压缩的极限。此类端侧大模型主要用于手机、平板、PC及智能穿戴设备中，优化方向聚焦于突破设备电池容量和算力的限制。例如，Apple Intelligence的Apple On-Device侧重于智能回复、辅助撰写等任务，其目标是通过轻量化实现文本和泛文本生成能力。多功能与多模态能力集成方面，在保持约3B/7B参数规模的基础上尽可能融入更多功能和多模态能力。这类大模型适用于自动驾驶、AR/VR等增量硬件市场，其中智能汽车具备相对充足的算力与电池资源，可实现卓越的性能与用户体验。例如，国产厂商的MiniCPM-V 2.6通过多模态优化，在7–8B参数规模下覆盖更多终端类型与应用场景，量化后的内存仅约6GB，推理速度达到18 tokens/s，可媲美GPT-4V的性能表现。</p>
+<p>从长远来看，端侧大模型还将与云端大模型结合将解锁更多应用场景。根据Scaling Law法则，云端模型在综合能力上始终领先于端侧模型一个数量级。例如，谷歌的轻量级小模型Gemma 2 2B是从更大规模的云端模型蒸馏而来的，而苹果的Apple Intelligence通过对标GPT-4的云端模型Apple Server来处理复杂任务，端云协同机制不仅克服了终端设备算力和电池的限制，也为实现更智能的端侧功能提供了强大支持。</p>
+<h2><strong>三、国内外端侧大模型的发展态势</strong></h2>
+<p>大模型正在加快向端侧迁移，新交互、新终端持续涌现，可能给行业生态利益协调带来新挑战。目前国内已推出小米MiLM，VIVO蓝心大模型、OPPO安第斯、荣耀魔方等端侧大模型。</p>
+<p>三星推出了由谷歌Gemini驱动的新智能手机，9月10日，苹果正式发布iPhone 16，首次将大模型部署在手机内存中，被称为“AI iPhone”。对于润色文字等简单任务，手机无需联网即能完成。面对复杂任务，苹果则采取“端侧大模型+云端大模型”的技术方案。iphone16 不仅可以生成文字、总结文本、回复邮件等，还可以生成表情符号，搜索照片、视频等，执行多种任务，未来还可能实现对APP的功能调用，为用户带来更丰富的智能体验。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241029/v2_ddf777035e3e4770846cdecc856f64e7@000000_oswg82006oswg1080oswg660_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">表1：主流手机厂商推出的端侧大模型   数据来源：根据公开资料整理 </p>
+<p>模型本身方面，由于端侧大模型更多是从更高一级的基础大模型进行轻量化而来，如上述提到的Gemma 2 2B、微软开发的AI小语言模型（SLMs）Phi-/3.5系列等。因此，国外大语言模型具有一定的发展优势，但国内并非不可追赶，一方面国内基础大模型正在崛起，另一方面基于开源模型国内也有一些厂商做专门的优化。比如：5月29日，斯坦福的一个研究团队发布了一款宣称能够“改变现状”的产品：Llama3-V。该产品号称只需500美元，便可以基于Llama3微调出一个强大的多模态模型，效果堪比GPT-4V等一线模型，而参数规模仅为8B。该产品在推特上发布后迅速走红，并跻身「HuggingFace Trending」Top 5。然而，不到两天时间，该项目被指大量剽窃了清华与面壁智能合作开发的多模态模型MiniCPM-Llama3-V 2.5。    </p>
+<p>除此之外，端侧大模型的发展也许还有一个更为决定性的因素，即生态。比如，微软作为端侧模型的有力竞争者Phi-3/3.5的开发者，除了模型本身，还提供了一套名为Agents的工具（Copilot的自定义版）。通过Microsoft Copilot Studio的升级，Copilot+PC不仅可以调用Windows附带的40多个端侧AI模型提供支持，还可以构建成百上千的自动化业务流程，在客户需求下独立工作，从而实现长期运行的业务流程自动化。未来，我们在手机和PC端体验到的端侧AI，大部分将是通过适配器和分类器挑选的微调小模型，以及经过自定义开发的Agents，以满足我们的需求，而无需调用全量的模型参数，是更具性价比的方案。除了微软系统生态之外，包括上述提到的Gemma 2 2B、Apple On-Device等，背后是安卓生态与苹果生态。由于手机和PC的保有量占据绝对优势，它们理所当然地成为了端侧AI的最佳落地方向，而生态位是一道较大的竞争壁垒。</p>
+<h2><strong>四、未来影响初探</strong></h2>
+<p>端侧大模型作为新生事物，代表了人工智能发展的一个重要方向 。 在带来巨大发展潜力的同时，也带来生态级的变革影响。      </p>
+<p><strong>产业层面，</strong>苹果、谷歌携芯片+操作系统+端侧大模型的垂直一体化整合优势，再次领跑行业，将巩固和扩大其生态优势。在未来的商业生态竞合中，苹果处在较优位置。苹果携IOS、原生应用与硬件强绑定的先发条件，加上C端用户价值高、支付闭环，其优势地位会进一步提升。Siri是苹果端侧大模型的主要入口，未来可成为AI原生OS的超级入口。但是，在没有大量优质的训练数据的情况下，苹果基础模型的短板难以在短期内弥补。因此，苹果仍保留了与Open AI、Google等外部大模型合作的接口。可以预见，苹果最终的方向是实现从端侧和云端芯片到自研大模型，再到手机终端和应用商店等全体系的自研闭环。</p>
+<p><strong>数据隐私层面，手机端侧大模型对用户隐私保护有吸引力的一面。</strong>相比云端模型，用户可以选择在手机本地上完成数据处理，在本地终端就可以享受到AI便捷高效的服务。然而正如从桌面互联网、移动互联网到目前步入AI时代，<strong>便捷服务的背后是更广泛、更深入的数据汇聚，对个人隐私保护提出了更大挑战。</strong>以微软AI产品Copilot为例，使用Copilot意味着用户将授权微软打通跨越各业务平台的个人数据。正如微软隐私政策所陈述，为实现业务提供，改进和开发产品等目的，微软会从不同的业务环境中收集的数据进行合并处理；懂你的智能手机助理的背后是大模型充分访问、链接个人数据，<strong>此类数据的访问处理如何以安全、合规、保护隐私的方式进行，对安全技术保障措施提出了更高要求。</strong>此外，在移动互联网时代，个人可以通过行使删除权来保护个人信息，然而在特定的模型应用中，依照模型的学习原理，即使删除了个人对模型使用信息，个人信息也依然可能转化为了一种“知识”、“规律”、“特征”嵌入在模型之中。    </p>
+<p><strong>竞争秩序层面，一是在大模型竞赛中，</strong>端侧大模型被集成进操作系统，获得最优权限和数据，在大模型竞赛中占据更强话语权。在终端能耗、内存、算力等客观限制下，终端较APP更能优先部署AI能力。<strong>二是在更广泛的移动互联网生态竞争中，</strong>端侧大模型的最终目标是推动手机发展成为AI Agent（移动智能体），成为连接用户和数字生态的入口。基于用户输入的需求，绕过APP UI，智能唤起APP提供照片美化、点外卖等功能，或者直接完成用户所需的各类充值、购物、社交、搜索、娱乐等各类服务。APP弱化为硬件的后台服务提供方，失去独立触客渠道；或者相关功能直接被上游端侧大模型替代，其中工具类APP被替代风险更高。9月发布的苹果iPhone16（AI iPhone），已具备跨应用进行AI操作的能力，升级的Siri也能够直接控制iPhone进行图片编辑。联发科和Counterpoint共同发布《生成式AI手机产业白皮书》预测，智能手机交互体验从GUI（图形用户界面）发展为VUI（语音用户界面），并最终升级为Agent（app-less）UI。<strong>APP存在感和独立性被弱化，也将导致软件生态整体活跃度和繁荣度下降，中小APP触客更难。</strong>手机企业在生态内的话语权进一步强化，甚至可能发展出按调用收费等商业模式。    </p>
+<p>因此，为保持生态的健康可持续发展，需<strong>关注AI时代的生态繁荣和红利共享问题。</strong>智能终端天然具备底层的硬件和OS优势，但在内外力约束下，终端和软件、APP的服务边界相对清晰，运行在各类终端上的软件生态才得以繁荣。软硬协同发展模式，有利于发挥我国应用领先优势，形成蓬勃生态，也为广大中小创业者提供发展空间。同时，需要各方协同<strong>探索端侧大模型协同发展的基本原则</strong>。在我国现行数据安全、个人信息保护、市场竞争法律规定下，针对端侧大模型发展中可能存在的安全和竞争风险，如个人数据访问处理范围、权限获取的公平性、调用APP提供服务时如何保障用户选择权等，明确基本规范，凝聚行业共识，牵引长远发展。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650979246&amp;idx=1&amp;sn=4ed738c8228552b2d69f7211b6122869&amp;chksm=bd37dd1103092a3227857bff43e8fdbe7dff4652797f1e9fd8df9e637743ef641e133f49eb90&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“腾讯研究院”（ID：cyberlawrc）</a>，作者：大模型研究小分队，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013363107374600</guid><pubDate>Tue, 29 Oct 2024 18:56:00 +0800</pubDate></item></channel></rss>
