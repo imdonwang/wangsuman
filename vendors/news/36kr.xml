@@ -1,354 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 31 Oct 2024 20:30:46 +0800</lastBuildDate><pubDate>Thu, 31 Oct 2024 20:30:46 +0800</pubDate><item><title>OpenAI最新研究：「打假高手」大模型事实性基准SimpleQA来了，已开源</title><link>https://36kr.com/p/3016328564123139</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241031/v2_85915c75c5354553983067d373346505@46958_oswg1032596oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>SimpleQA 是一个事实性基准，用于测量语言模型回答简短的事实性问题的能力。 </p>
-</blockquote>
-<p>人工智能（AI）领域的<strong>一个悬而未解的问题是如何训练模型生成符合事实的正确答案</strong>。</p>
-<p>目前的语言模型有时会产生错误的输出或没有证据证明的答案，这个问题被称为“幻觉”。语言模型如果能产生更准确的回答，减少幻觉，则更值得信赖，可用于更广泛的应用领域。</p>
-<p><strong>为了测量语言模型的事实性，OpenAI 发布并开源了一个名为 SimpleQA 的新基准</strong>。 </p>
-<p class="image-wrapper"><img data-img-size-val="894,338" src="https://img.36krcdn.com/hsossms/20241031/v2_3ac2559c11b74c66ac9da986800981f3@46958_oswg20079oswg894oswg338_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文链接：</p>
-<p>https://cdn.openai.com/papers/simpleqa.pdf</p>
-<h2><strong>SimpleQA 是什么？</strong></h2>
-<p>事实性是一个复杂的话题，因为它很难测量——评估任何给定的任意主张的事实性都很有挑战性，而语言模型可以生成包含数十个事实主张的长篇补全内容。在 SimpleQA 这项工作中，OpenAI 将重点关注简短的事实搜索查询，这虽然缩小了基准的范围，但却使事实性的测量变得更加容易。</p>
-<p>通过 SimpleQA，他们希望创建一个具有以下四方面特性的数据集：</p>
-<p><strong>高正确性</strong>。问题的参考答案由两个独立的人工智能训练师提供，问题的编写方式使预测答案易于评分。</p>
-<p><strong>多样性</strong>。SimpleQA 涵盖了从科学和技术到电视节目和视频游戏等广泛的主题。 </p>
-<p><strong>对前沿模型的挑战</strong>。与 TriviaQA（2017 年）或 NQ（2019 年）等已趋于饱和的旧基准相比，SimpleQA 的创建对前沿模型（例如，GPT-4o 分数低于 40%）提出了更大挑战。</p>
-<p><strong>良好的用户体验</strong>。SimpleQA 的问题和答案简明扼要，因此运行起来既快又简单。无论是通过 OpenAI 的 API，还是其他前沿模型的 API，评分也都非常高效。此外，SimpleQA 有 4326 个问题，作为评估基准，其方差应该相对较小。</p>
-<p>他们聘请了人工智能训练师来浏览网络，并创建简短的事实性问题和相应的答案。每个问题都必须符合一系列严格的标准才能被纳入数据集：问题必须有一个单一的、无可争议的答案，以便于评分；问题的答案不能随时间而改变；大多数问题必须能诱发 GPT-4o 或 GPT-3.5 的幻觉。为了进一步提高数据集的质量，第二位独立的人工智能训练师在没有看到原始答案的情况下回答了每个问题。</p>
-<p>作为对质量的最后验证，他们让第三位人工智能训练师回答了数据集中随机抽样的 1000 个问题。他们发现，第三位人工智能训练师的答案在 94.4% 的情况下与最初的一致答案相吻合，不一致率为 5.6%。然后，他们对这些示例进行了人工检查，发现在 5.6% 的不一致率中，有 2.8% 是由于评分员的假否定或第三位训练师的人为错误（例如，答案不完整或曲解来源）造成的，其余 2.8% 是由于问题的实际问题（例如，问题含糊不清，或不同网站给出的答案相互矛盾）造成的。因此，他们估计该数据集的固有错误率约为 3%。</p>
-<h2><strong>SimpleQA 中问题的多样性 </strong></h2>
-<p>下面的饼图显示了 SimpleQA 基准中题目的多样性。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,943" src="https://img.36krcdn.com/hsossms/20241031/v2_1f9ec7670f87495284d92cd7c899c0bc@46958_oswg482273oswg1080oswg943_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>使用 SimpleQA 对语言模型进行比较</strong></h2>
-<p>为了给问题打分，他们使用了一个 ChatGPT 分类器，它可以看到模型预测的答案和地面实况答案，然后将预测的答案分为“正确”、“不正确”或“未尝试”三个等级。</p>
-<p>每个等级的定义和相应示例如下表所示。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,799" src="https://img.36krcdn.com/hsossms/20241031/v2_ce65a2739a6d427fac1026111db5fc58@46958_oswg107095oswg1080oswg799_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>理想情况下，模型会回答尽可能多的问题（正确率最高），同时尽量减少错误答案的数量。</p>
-<p>利用这种分类方法，他们就可以测量几个不具备浏览功能的 OpenAI 模型的性能，包括 gpt-4o-mini、o1-mini、gpt-4o 和 o1-preview。不出所料，<strong>与 gpt-4o 和 o1-preview 相比，gpt-4o-mini 和 o1-mini 回答的问题正确率较低</strong>，这可能是因为较小的模型通常对世界的了解较少。并且，与 gpt-4o-mini 和 gpt-4o 相比，o1-mini 和 o1-preview（它们在设计上花了更多时间思考）选择“未尝试”问题的频率更高。这可能是因为它们能利用自己的推理能力来识别不知道问题答案的情况，而不是产生幻觉。</p>
-<p class="image-wrapper"><img data-img-size-val="994,1000" src="https://img.36krcdn.com/hsossms/20241031/v2_5a75bc8d384340f6960bf1dc44bacd1d@46958_oswg406600oswg994oswg1000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>使用 SimpleQA 测量大模型校准能力</strong></h2>
-<p>像 SimpleQA 这样的事实性基准，也可以被用来测量名为<strong>校准（calibration）</strong>的科学现象，或者说语言模型是否“知道它们知道什么”。测量校准的一种方法是，使用提示语直接要求语言模型说明其对答案的信心：“请给出你的最佳猜测，以及你对正确答案的信心百分比”。然后，他们就可以绘制出模型所述置信度与模型实际准确度之间的相关性。一个经过完美校准的模型，其实际准确度将与所述置信度相同。例如，在模型置信度为 75% 的所有提示中，完美校准模型的准确度将为 75%。</p>
-<p>这一结果如下图所示。所述置信度与准确度之间的正相关是一个令人信任的迹象，表明模型具有一定的置信度概念。可以看到，<strong>o1-preview 比 o1-mini 的校准度更高，gpt4o 比 gpt4o-mini 的校准度更高</strong>，这与之前的研究一致，表明大模型的校准度更高。然而，表现远低于 y=x 线这一事实意味着模型始终夸大了其置信度。因此，在所述置信度方面，大语言模型的校准还有很大的改进空间。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,916" src="https://img.36krcdn.com/hsossms/20241031/v2_59451f6efe674100b29dfb3c59a973e4@46958_oswg292105oswg1080oswg916_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一种测量校准的方法是向语言模型提问 100 次。由于语言模型在重复尝试时可能会产生不同的答案，因此可以评估特定答案的出现频率是否与其正确性相对应。频率越高，通常表明模型对其答案越有信心，因为模型会重复给出相同的答案。校准良好的模型的实际准确度与频率相同。</p>
-<p>在下图中，他们展示了语言模型的校准情况，以其回答频率来衡量。在这里，他们只是使用字符串匹配将语言模型中的不同答案归为一组。可以看到，在所有模型中，准确率随着频率的增加而增加，而 o1-preview 的校准水平最高，即回答的频率与回答的准确率大致相当。与上述置信度图的校准类似，可以再次看到 o1-preview 比 o1-mini 的校准程度更高，而 gpt4o 比 o1-mini 的校准程度更高。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,877" src="https://img.36krcdn.com/hsossms/20241031/v2_970e29b8beda4246afbe092e8461b191@46958_oswg357025oswg1080oswg877_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>结论 </strong></h2>
-<p>SimpleQA 是评估前沿模型事实性的一个简单但具有挑战性的基准。SimpleQA 的主要局限性在于其范围——<strong>虽然 SimpleQA 非常准确，但它只能在具有单一可验证答案的简短事实查询这一受限环境下测量事实性</strong>。提供符合事实的简短回答的能力是否与撰写包含大量事实的冗长回答的能力相关，这仍然是一个有待研究的问题。</p>
-<p>原文链接：</p>
-<p>https://openai.com/index/introducing-simpleqa/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/VnOvM18x9XMWxbv5gYGRAQ" rel="noopener noreferrer nofollow" target="_blank">“学术头条”</a>，翻译：李雯靖，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016328564123139</guid><pubDate>Thu, 31 Oct 2024 20:05:00 +0800</pubDate></item><item><title>从方言对话这枚“落子”，看AI手机“棋局”的尴尬赛点</title><link>https://36kr.com/p/3016328539645185</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>这段时间，手机厂商的新品发布会、开发者活动比较密集，我们团队东奔西跑，整体感觉是，手机AI确实火了，但这盘棋局，所有厂商都对弈得不太轻松。</p>
-<p>一方面，各家都在想尽办法讲好AI故事。一位CEO在发布会后采访时就特别烦恼，“AI要讲场景，不讲场景用户没感觉，明年我们还要上很多新功能，发布会的两个小时根本讲不完”。这是手机AI越来越完善的一面。</p>
-<p>但同时我们也发现，大家手里的牌其实都差不多，很少有哪家能靠一个或某个AI功能，就形成碾压级的体验优势。结果就是单点功能容易被复制，AI手机功能趋同。我就听过至少三个厂商表示：我们这个xx功能去年一推出就被致敬了，欢迎友商来“普及”我们这个AI功能……</p>
-<p class="image-wrapper"><img data-img-size-val="864,562" src="https://img.36krcdn.com/hsossms/20241031/v2_9c682decb7a9454b9d6634b2657dfc14@46958_oswg450963oswg864oswg562_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>假设AI手机市场是围棋对弈，观众们想看什么样的比赛过程？肯定是棋手们通过各种复杂的策略，展开激烈的劫争，才能吸引大家的注意力。而不是各方实力差不多，导致比赛过程冗长乏味、难分胜负。目前的AI手机竞争，就有点后者的意思。</p>
-<p>在大众对AI手机这一概念的兴奋劲儿过去之前，手机厂商们必须尽快找到更聚焦的策略和体系化攻势，而不能只关注浅层的、零敲碎打的AI功能。</p>
-<p>举个例子，方言对话，就不是AI手机的一步好棋。</p>
-<h2><strong>方言很重要，但不是手机厂商的赛道</strong></h2>
-<p>首先要说明的是，方言的识别、理解与生成、交互是非常重要，甚至不容有失的一个领域。</p>
-<p>从技术能力上看，方言的语言资料少，语音识别、语义理解、语音合成等模型的打磨，也比普通话等主流语种要更复杂、成本更高，是比较能体现科技公司实力的。</p>
-<p>从社会效益上看，国内还有20%群体没有完成普通话的普及，确实有很多人存在方言对话的需求。而且，随着大模型的到来，低资源的方言如果不能被大语言模型所学习和训练，很可能越来越弱势，甚至消失。所以，从科技普惠、文化保护的角度，方言对话也是十分必要的。</p>
-<p><strong>今年的几个手机厂商活动中，我们就看到了方言对话成为手机AI的一个典型用例。其中应用场景包括：</strong></p>
-<p><strong>1.方言的语音理解。</strong>普通话不标准的用户发出的方言指令，也能被手机智能助手很好地理解。</p>
-<p><strong>2.方言的语音生成。</strong>手机智能助手可以用本地方言跟用户聊天，播报新闻等，提供更个性化、更温暖的服务。</p>
-<p>上述功能当然是有用的，但从市场策略上来说，方言对话真的是手机厂商在AI领域的一步好棋吗？未必。</p>
-<h2><strong>低效落子,为什么说方言对话不是一步好棋?</strong></h2>
-<p>之所以说方言对话不是一步好棋，答案在于，<strong>市场策略的低效性</strong>。</p>
-<p>无论是短期或长期，手机厂商想靠方言对话来带动AI手机市场，都是一件挺困难的事情。</p>
-<p><strong>短期看，市场营销最看重的就是“效果”，即激发消费者的行动，这就要进行好的CTA（Call To Action，行动呼吁）设计。</strong></p>
-<p>比如传统电视广告会呼吁“赶快拿起电话订购吧”，网页时代会将“click”“立即咨询”等按钮放在最显眼的地方，而近期手机厂商也意识到AI很难被用户感知，开始营造场景化、现场感的氛围，来让观众们身临其境。</p>
-<p>那么，方言对话的用例展示，能够让用户做出关注、搜索、试用、购买等商业想要的行为吗？显然是很低效的。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241031/v2_2790bf5055a043fdb70d5d15a421cba0@46958_oswg191185oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“AI手机”的受众大多是对前沿技术、新锐功能比较感兴趣的年轻群体、极客、潮人等，普通话普及率是比较高的，方言对话固然有趣、有人情味儿，但并不会高频使用，所以转化到购买行为的概率很低。</p>
-<p><strong>当然，也许有人会说，方言对话很能彰显手机厂商的技术实力和人文关怀啊，这对品牌来说是一种长期利好，没错，但前提是手机厂商能在方言领域建立长期壁垒，而这几乎不可能。</strong></p>
-<p><strong>一是成本很高。</strong>语音识别、理解依赖于大规模语料数据，而方言数据的采集和标注成本比普通话更高。有业内人士分享，传统单一方言的识别，需要十万小时的标注数据量才能获得比较好的效果。这意味着，手机厂商要投入极高的研发成本，去开发一个市场前景未知的小众功能。</p>
-<p><strong>二是技术挑战。</strong>即使有的手机厂商愿意在方言领域的耐心投入，但能否建立壁垒也要打一个问号。</p>
-<p>目前，基础模型厂商如科大讯飞（星火大模型V4.0）、商汤科技（商量SenseChat粤语版大模型）、阿里通义实验室（粤语识别与生成大模型），基础服务商如中国电信（星辰大模型）、字节跳动（豆包大模型）、喜马拉雅（珠峰AI音频多模态大模型）等，都推出了自研的、具备方言能力的语音大模型，手机厂商想要在这一技术赛道上做到“人有我优”并不容易。友商通过基于开源模型自研或与闭源模型合作等形式，就能补齐相关能力。</p>
-<p>所以，想要靠方言能力建立壁垒，长期为品牌价值赋能，很难做到，投资效益比也要打一个问号。</p>
-<p>总结一下，从短期市场行动到长期品牌价值上，方言对话带来的贡献都很有限，算是一个低效落子。</p>
-<p>其实，类似方言对话这样零敲碎打的AI功能还有不少。这暴露了AI手机目前的一个尴尬处境，就是趋势向好、细节模糊。AI应用到底怎么做？这是很多厂商还没有想好的问题。</p>
-<h2><strong>方言这步棋，暴露了AI手机的尴尬处境</strong></h2>
-<p>越来越多的AI功能加入手机，却面对一种硬件新品的阶段性困境：</p>
-<p><strong>需求模糊，必然有大量AI功能注定失败。</strong></p>
-<p>AI大模型作为一种新技术，用户根本不知道怎么用，甚至手机厂商、产品经理们自己也不知道。以“产品成熟时才发布”而著称的苹果，在这一轮AI浪潮中行动也是头部厂商中最慢的。这种情况下，很多AI功能是厂家根据模糊的需求或自己的产品定义拿出的探索方案，其中必然会有很多是注定失败或被遗忘的。</p>
-<p><strong>多点开花，难以产生压倒性的说服力。</strong></p>
-<p>AI+手机相结合的场景众多，手机厂商在探索中很容易多点开花，如果不成体系，就很难形成具有压倒性说服力的产品。在消费理性化的市场环境下，结果就是无法激发用户的购买欲望。一个AI功能，A厂商有，B厂商很快也能推出，既然“等等党永远不亏”，那就干脆持币以待。</p>
-<p class="image-wrapper"><img data-img-size-val="856,571" src="https://img.36krcdn.com/hsossms/20241031/v2_442a70bf73f04b28ad06b041a6ce7cf5@46958_oswg235283oswg856oswg571_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>方言对话，就恰好是这样一种很难拉开差距的AI功能。</p>
-<p>整体来看，相比去年，手机中的AI应用数量，有了极大增长，场景也越来越多，从简单的文生文、文生图能力展示，与输入法、摄影、系统设置、出行服务、点餐等诸多场景都有了结合。AI作为撬动手机新一轮换机潮的关键，越来越受到了用户、媒体与分析师的认可。</p>
-<p>面对整体向好、细节模糊的“AI手机”大趋势，手机厂商当下最需要的就是聚焦。用更清晰、体系化的产品策略来展开市场攻势，一鼓作气形成突破，快速完成对细分市场份额的占有。</p>
-<p><strong>比如给方言对话这一步散棋出个主意，用“让父母大胆开口说”来撬动中青年群体为长辈换机，这就需要：</strong></p>
-<p class="image-wrapper"><img data-img-size-val="864,474" src="https://img.36krcdn.com/hsossms/20241031/v2_3612d67a76c840acbb188e07ace0425c@46958_oswg378234oswg864oswg474_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>1.产品精细化</strong>，在语音大模型的基础能力上，开发出中老年高频用机场景下，具有说服力的方言产品，比如方言取消续费套餐，方言搜索影视剧内容等。</p>
-<p><strong>2.能力体系化</strong>，除了方言对话，结合中老年用机需求，形成组合攻势。比如AI反诈、手机自动驾驶主动服务、适老化功能等，全面解决目标群体的用机困扰。</p>
-<p><strong>3.营销情境化</strong>，AI作为一种通用软件技术，大众还是难以理解，通过场景化、故事化的营销方式，更容易激发用户的代入感，产生兴趣和后续的行为。这就要求手机厂商改变与用户沟通的方式，从比参数、放demo、碾压友商、价格刺激等短平快式输出，转变为情境化的语言。</p>
-<p>通过方言对话这一个AI用例，我们会发现AI手机的棋局才刚刚开始。手机作为最适合AI落地的硬件载体，行业正逐步收敛与聚焦，接下来更清晰有力的体系化AI能力与策略会逐步登场。</p>
-<p>从一个个AI功能的零敲碎打，到体系化AI能力的强势出击，届时不同厂商也将拉开显著差距。</p>
-<p>高水平的激烈劫争，是一场围棋赛最精彩的部分，我们会继续为大家解说大模型时代的手机赛事。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/jAg4tQEH0WBhNAu0ocLxeg" rel="noopener noreferrer nofollow" target="_blank">“脑极体”</a>，作者：藏狐，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016328539645185</guid><pubDate>Thu, 31 Oct 2024 20:08:00 +0800</pubDate></item><item><title>让机器人拥有人一样「潜意识」，英伟达1.5M小模型就能实现通用控制了</title><link>https://36kr.com/p/3016316811683329</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>大模型固然性能强大，但限制也颇多。如果想在端侧塞进 405B 这种级别的大模型，那真是小庙供不起大菩萨。近段时间，小模型正在逐渐赢得人们更多关注。这一趋势不仅出现在语言模型领域，也出现在了机器人领域。 </p>
-<p>昨天晚上，朱玉可和 Jim Fan 团队（英伟达 GEAR 团队）新鲜发布了他们的最新研究成果 HOVER。这是一个仅有 1.5M 参数的神经网络，但它足以控制人形机器人执行多种机体运动。 </p>
-<p>先来看看效果，将 HOVER 在不同模式下控制的机器人放到一起组成阵列，其中每一台机器人都有自己的控制模式。还挺壮观的！这也佐证了 HOVER 的通用性。你能看出它们的不同之处吗？ </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241031/v2_94363262544546ff9bbd05f85bcbbe1d@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>无论是 H2O 模式、OmniH2O Mode 模式、还是 ExBody 模式 、HumanPlus 模式，左手和右手的慢动作都直接被 HOVER 大一统了。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241031/v2_beefac118c7544ac9bbba42e55f92b95@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>实际上，HOVER 就是一个通用型的人形机器人控制器。 </p>
-<p class="image-wrapper"><img data-img-size-val="996,1094" src="https://img.36krcdn.com/hsossms/20241031/v2_2014c54bef4940f4b846d69021b91bc0@46958_oswg276445oswg996oswg1094_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>HOVER 一作 Tairan He（何泰然）的推文，他是 CMU 机器人研究所的二年级博士生，还是个有 38 万多粉丝的 B 站 up 主（WhynotTV） </p>
-<p>据介绍，HOVER 的设计灵感来自人类的潜意识。人类在行走、保持平衡和调整四肢位置时都需要大量潜意识的计算，HOVER 将这种「潜意识」能力融合进了机器人。这个单一模型可以学习协调人形机器人的电机，从而实现运动和操控。 </p>
-<p class="image-wrapper"><img data-img-size-val="953,589" src="https://img.36krcdn.com/hsossms/20241031/v2_dedc8273353a4adca4b01df3237e86fb@46958_oswg252712oswg953oswg589_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Jim Fan 的推文 </p>
-<p class="image-wrapper"><img data-img-size-val="931,145" src="https://img.36krcdn.com/hsossms/20241031/v2_bacf69a1bf514a1ebd3d2a9ba4ec1da1@46958_oswg43427oswg931oswg145_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文标题：HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots</p>
-<p>论文地址：https://arxiv.org/pdf/2410.21229</p>
-<p>项目地址：https://hover-versatile-humanoid.github.io/ </p>
-<p>HOVER 的训练使用了 NVIDIA Isaac，这是一个由 GPU 驱动的模拟套件，可将物理加速到实时的 1 万倍。按 Jim Fan 的比喻就是说，只需在一张 GPU 卡上运算大概 50 分钟，机器人就像是在虚拟「道场」中经历了一整年的密集训练。 </p>
-<p>然后，无需微调，就可以将这个神经网络以零样本方式迁移到真实世界。 </p>
-<p>HOVER 可以接收多种高级运动指令，即所谓的「控制模式（control mode）」，比如： </p>
-<ul>
-<li>头部和手部姿势，可通过 Apple Vision Pro 等增强现实设备捕捉；</li>
-<li>全身姿势，可通过 MoCap 或 RGB 相机；</li>
-<li>全身关节角度：外骨骼；</li>
-</ul>
-<p>根速度命令：操纵杆。</p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241031/v2_e1f3940523a04c1c9d1a2c0cb5a4c930@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>‍这项研究的贡献包括： </p>
-<p>一个统一的界面，可让控制者使用任何方便的输入设备来控制机器人；</p>
-<p>一种更简单的全身远程操作数据收集方法；</p>
-<p>一个上游的视觉 - 语言 - 动作模型，可用于提供运动指令，之后 HOVER 会将其转换为高频的低级运动信号。</p>
-<h2><strong>HOVER 是如何炼成的？</strong></h2>
-<h3><strong>用于人形机器人的基于目标的强化学习</strong></h3>
-<p>该团队将所研究的问题表述成了一个基于目标的强化学习任务，其中策略 π 的训练目标是跟踪实时的人类运动。其状态 s_t 包含智能体的本体感受 s^p 和目标状态 s^g。其中目标状态 s^g 会为目标运动提供一个统一的表征。基于此，可将策略优化的奖励定义成</p>
-<p class="image-wrapper"><img data-img-size-val="220,48" src="https://img.36krcdn.com/hsossms/20241031/v2_e317179453d745edb096087d188f79b6@46958_oswg6574oswg220oswg48_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>。 </p>
-<p>动作 </p>
-<p class="image-wrapper"><img data-img-size-val="135,46" src="https://img.36krcdn.com/hsossms/20241031/v2_7a550df22e9b4f52a95e8622ecd7188b@46958_oswg3725oswg135oswg46_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>表示目标关节位置，这些位置会被输入到 PD 控制器中以驱动机器人， 他们使用了近端策略优化 (PPO) 算法来最大化累积折扣奖励 </p>
-<p class="image-wrapper"><img data-img-size-val="261,69" src="https://img.36krcdn.com/hsossms/20241031/v2_2db4e6d28e5a47d496d44147c80bb08d@46958_oswg5993oswg261oswg69_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>该设置被表述为一个命令跟踪任务，其中人形机器人会学习在每个时间步骤遵从目标命令。 </p>
-<h3><strong>用户人形机器人控制的命令空间设计</strong></h3>
-<p>对于腿部运动，根速度或位置跟踪是常用的命令空间。然而，仅仅关注根跟踪会限制人形机器人的全部能力，尤其是对于涉及全身运动的任务。 </p>
-<p>该团队研究了之前的工作，发现它们提出了一些各不一样的控制模式，并且每种模式通常都是针对某些特定的任务，因此缺乏通用人形机器人控制所需的灵活性。 </p>
-<p>而该团队的目标是设计一个全面的控制框架，以适应多种多样的场景和各种不同的人形机器人任务。为此，在构建命令空间时，必须满足以下关键标准： </p>
-<p><strong>通用性</strong> ：命令空间应包含大多数现有配置，允许通用控制器替换针对特定任务的控制器，同时还不会牺牲性能或多功能性。并且该空间应具有足够的表现力，以便与现实世界的控制设备交互，包括操纵杆、键盘、动作捕捉系统、外骨骼和虚拟现实 (VR) 头设，如图 1 所示。</p>
-<p><strong>原子性</strong>：命令空间应由独立的维度组成，从而能够任意组合控制选项以支持各种模式。</p>
-<p class="image-wrapper"><img data-img-size-val="659,895" src="https://img.36krcdn.com/hsossms/20241031/v2_ac19f851333c4104b76eae09376c06cd@46958_oswg369134oswg659oswg895_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>基于这些标准，该团队定义了一个用于人形机器人全身控制的统一命令空间。该空间由两个主要控制区域组成 —— 上身和下身控制 —— 并包含三种不同的控制模式： </p>
-<ul>
-<li>运动位置跟踪：机器人上关键刚体点的目标 3D 位置；</li>
-<li>局部关节角度跟踪：每个机器人电机的目标关节角度；</li>
-<li>根跟踪：目标根速度、高度和方向，由滚动、俯仰和偏航角指定。</li>
-</ul>
-<p>在如图 1 所示的框架中，该团队引入了一个 one-hot 掩码向量来指定激活命令空间的哪些组件，以便后面跟踪。 </p>
-<p>如表 1 所示，可以将其它基于学习的人形全身控制的最新研究看作是新提出的统一命令空间的子集，其中每项研究都代表特定的配置。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,223" src="https://img.36krcdn.com/hsossms/20241031/v2_46eda7b497954fc9bccfbedb7ad68db8@46958_oswg112396oswg1080oswg223_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<ul>
-<li>运动重定向</li>
-</ul>
-<p>近期有研究表明，如果学习的运动数据集很大，学习到的人形机器人全身运动控制策略就会更加稳健。 </p>
-<p>为了获得大型数据集，可将人类运动数据集重定向成人形机器人运动数据集，这个过程分为三步： </p>
-<p>1. 使用正向运动学（forward kinematics）计算人形机器人的关键点位置，将其关节配置映射成工作空间坐标。 </p>
-<p>2. 拟合 SMPL 模型以匹配人形机器人的运动学，做法是优化 SMPL 参数以与正向运动学计算得到的关键点对齐。 </p>
-<p>3. 使用梯度下降来匹配已经拟合的 SMPL 模型和人形机器人之间的对应关键点，重定向 AMASS 数据集。 </p>
-<ul>
-<li>状态空间设计</li>
-</ul>
-<p>他们训练了一个 oracle 运动模拟器 </p>
-<p class="image-wrapper"><img data-img-size-val="442,52" src="https://img.36krcdn.com/hsossms/20241031/v2_48c03b9b063142bda0f8c721128f39f3@46958_oswg12331oswg442oswg52_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p> 其中 p_t 是人形机器人刚体位置 、θ_t 是方向、p_t 是线速度、 ω_t  是角速度、a_{t−1} 是前一个动作。 本体感觉定义为</p>
-<p class="image-wrapper"><img data-img-size-val="521,55" src="https://img.36krcdn.com/hsossms/20241031/v2_fa0e320f6139439fbd16ede9488aaed2@46958_oswg12983oswg521oswg55_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>目标状态的定义是 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,55" src="https://img.36krcdn.com/hsossms/20241031/v2_dfe0d7f9cc2d4d6ba03162559f6a1e1b@46958_oswg34473oswg1080oswg55_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中包含参考 姿态以及人形机器人所有刚体的参考状态与当前状态之间的一帧差异。 他们使用的策略网络结构为层尺寸为 [512, 256, 128] 的三层 MLP。 </p>
-<ul>
-<li>奖励设计和域随机化</li>
-</ul>
-<p>这里，奖励 r_t 是三个分量之和：1) 惩罚、2) 正则化和 3) 任务奖励，详见表 2。域随机化是将模拟环境和人形机器人的物理参数随机化，以实现模拟到现实成功迁移。 </p>
-<p class="image-wrapper"><img data-img-size-val="881,566" src="https://img.36krcdn.com/hsossms/20241031/v2_b9dd3b69ad0e4320a7e8d467c6208cd0@46958_oswg149592oswg881oswg566_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>通过蒸馏实现多模式多功能控制器</strong></h3>
-<ul>
-<li>本体感受</li>
-</ul>
-<p>对于从 oracle 教师 π^oracle 中蒸馏得到的学生策略 π^student，本体感受定义为</p>
-<p class="image-wrapper"><img data-img-size-val="1080,73" src="https://img.36krcdn.com/hsossms/20241031/v2_eb74ce3508f449ffab58c6391bafa3c8@46958_oswg30723oswg1080oswg73_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中 q 是关节位置， </p>
-<p class="image-wrapper"><img data-img-size-val="62,107" src="https://img.36krcdn.com/hsossms/20241031/v2_a13f936a7856494ca3a87c959f2611bf@46958_oswg2081oswg62oswg107_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p> 是关节速度，ω^base 是基准角速度，g 是重力向量，a 是动作历史。 </p>
-<p>他们将最新的 25 个步骤的这些项堆叠起来作为学生的本体感受输入。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,341" src="https://img.36krcdn.com/hsossms/20241031/v2_13131964a1364e1795d22897ffb0cf7c@46958_oswg240042oswg1080oswg341_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<ul>
-<li>命令掩码</li>
-</ul>
-<p>如图 2 所示，学生策略的任务命令输入是使用基于模式和基于稀疏性的掩码定义的。具体来说，学生的任务命令输入是这样表示的</p>
-<p class="image-wrapper"><img data-img-size-val="1080,86" src="https://img.36krcdn.com/hsossms/20241031/v2_cbd3ba7c939a4366beb1c8d316af72fa@46958_oswg39496oswg1080oswg86_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>模式掩码 M_mode 会为上半身和下半身分别选择特定的任务命令模式。例如，上半身可以跟踪运动位置，而下半身则专注于关节角度和根部跟踪，如图 2 所示。在模式特定的掩码之后，应用稀疏掩码 M_sparsity。 </p>
-<p>例如，在某些情况下，上半身可能只跟踪手的运动位置，而下半身只跟踪躯干的关节角度。模式和稀疏二元掩码的每一比特都来自伯努利分布 𝔅(0.5)。模式和稀疏掩码在事件情节（episode）开始时是随机的，并保持固定，直到该情节结束。 </p>
-<ul>
-<li>策略蒸馏</li>
-</ul>
-<p>该团队执行策略蒸馏的框架是 DAgger。对于每个事件情节，都先在模拟中 roll out 学生策略</p>
-<p class="image-wrapper"><img data-img-size-val="401,57" src="https://img.36krcdn.com/hsossms/20241031/v2_2aa52864f2ee405ebded3356247e74c4@46958_oswg12468oswg401oswg57_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>，从而得到</p>
-<p class="image-wrapper"><img data-img-size-val="265,52" src="https://img.36krcdn.com/hsossms/20241031/v2_f1ab529a260641cbb5b8601ccb622543@46958_oswg8682oswg265oswg52_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p> 的轨迹。 </p>
-<p>另外在每个时间步骤还会计算相应的 oracle 状态</p>
-<p class="image-wrapper"><img data-img-size-val="245,53" src="https://img.36krcdn.com/hsossms/20241031/v2_1ec00534236741b4b609aa299c38b526@46958_oswg8145oswg245oswg53_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p> 使用这些 oracle 状态，可以查询 oracle 教师策略</p>
-<p class="image-wrapper"><img data-img-size-val="362,44" src="https://img.36krcdn.com/hsossms/20241031/v2_b222567afeb54825843feedc9dda9f2b@46958_oswg11777oswg362oswg44_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>以获得参考动作</p>
-<p class="image-wrapper"><img data-img-size-val="62,51" src="https://img.36krcdn.com/hsossms/20241031/v2_d29da34609ba4b999b50fbe67d1ad5aa@46958_oswg3121oswg62oswg51_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然后通过最小化损失函数</p>
-<p class="image-wrapper"><img data-img-size-val="287,56" src="https://img.36krcdn.com/hsossms/20241031/v2_089c037422424a2388e10006c937eb76@46958_oswg6067oswg287oswg56_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>来更新学生策略 π^student。 </p>
-<h2><strong>实验</strong></h2>
-<p>研究团队针对以下问题，在 IsaacGym 和 Unitree H1 机器人上开展了广泛的实验： </p>
-<p>Q1: HOVER 这个通用策略能比那些只针对特定指令训练的策略表现得更好吗？</p>
-<p>Q2: HOVER 能比其他训练方法更有效地训练多模态仿人机器人控制器吗？</p>
-<p>Q3: HOVER 能否在真实世界的硬件上实现多功能多模态控制？</p>
-<h3><strong>与专家策略的对比</strong></h3>
-<p>该团队在不同控制模式下比较了 HOVER 和相应专家策略的表现。以 ExBody 模式为例，研究团队加入了固定的掩码，让 HOVER 和整个数据集 Q 中的 ExBody 模式可比。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,480" src="https://img.36krcdn.com/hsossms/20241031/v2_86cf88c4dc464c94904206d056eb505d@46958_oswg313132oswg1080oswg480_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如表 III 和图 3 所示，HOVER 展现出了优越的泛化能力。在每一种指令模式中，HOVER 在至少 7 个指标上超越了之前的专家控制器（表 III 中用粗体值突出显示）。同时，这也意味着即使只关注单一控制模式，从专家策略中提取的策略也比通过强化学习训练出的专家更强。 </p>
-<p class="image-wrapper"><img data-img-size-val="1052,1124" src="https://img.36krcdn.com/hsossms/20241031/v2_82266ad1ff0b43f5a023d7310a752d0b@46958_oswg593179oswg1052oswg1124_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>与通用训练方法的对比</strong></h3>
-<p>研究团队在八种不同的模式下测量了 HOVER 在跟踪局部和全身位置方面的表现。他们用最大误差（Emax）减去当前误差（E (.)），再除以最大误差（Emax）和最小误差（Emin）之间的差值来计算误差。雷达网图更大，代表模型的跟踪性能更好。实验结果显示，HOVER 在所有 32 个指标和模式中的误差都很低。 </p>
-<p class="image-wrapper"><img data-img-size-val="1036,1052" src="https://img.36krcdn.com/hsossms/20241031/v2_9622a2969f194498914952dd3b2c77f8@46958_oswg400567oswg1036oswg1052_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>在真实世界中的测评</strong></h3>
-<p>为了测试 HOVER 策略在真实世界中的表现，研究团队设计了定量的跟踪实验和定性的多模态控制实验。 </p>
-<ul>
-<li>站立时的动作评估</li>
-</ul>
-<p>该团队通过跟踪 20 种不同的站立动作来评估 HOVER 的性能，表 V 中的定量指标显示，HOVER 在 12 个指标中的 11 个上超越了专家策略。HOVER 成功跟踪了关节俯仰运动与全身运动，特别是高度动态的跑步动作也能搞定。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241031/v2_34afaae3489d46a3a0e92547fc49d866@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">‍机器人的关节可以在 - 0.5 到 0.5 的俯仰角度之间变化 </p>
-<p class="image-wrapper"><img data-img-size-val="964,674" src="https://img.36krcdn.com/hsossms/20241031/v2_05e06bfd63c4420bba25dac104f4599c@46958_oswg139435oswg964oswg674_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<ul>
-<li>‍多模态评估</li>
-</ul>
-<p>该团队还模拟了真实的生活场景，测试了在突然切换命令时 HOVER 对运动的泛化能力。HOVER 成功地让机器人从 ExBody 模式切换到 H2O 模式，同时在向前行走。‍ </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241031/v2_bc6a5f1f43f948b9a74c747432ef1861@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">‍从 ExBody 切换到 H2O 模式 </p>
-<p>从 HumanPlus 模式切换到 OmniH2O 模式，机器人也能同时执行转弯和向后行走。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241031/v2_140412d157e5421b99bb15a3d13eb130@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从 HumanPlus 切换到 OmniH2O 模式 </p>
-<p>此外，他们还使用 Vision Pro 随机掩盖头部和手部的位置，进行了远程操作演示，可以看出，机器人的动作非常地丝滑流畅。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241031/v2_6be70f4455af41de9d84f846887b46f8@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>‍有时，它也会出错，比如只追踪了测试者的头部位置，忽略了挥手的动作。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241031/v2_3a967a7310aa48fba346082efa7d1d6b@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>结果表明，HOVER 能够平滑地在不同模式之间追踪动作，展示了其在真实世界场景中的鲁棒性。 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/u9GQnLlgWZi3TMfWpOoAFQ" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，编辑：Panda、佳琪 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016316811683329</guid><pubDate>Thu, 31 Oct 2024 20:09:00 +0800</pubDate></item><item><title>一只“手”，难倒人形机器人</title><link>https://36kr.com/p/3016313875031299</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1080,459" src="https://img.36krcdn.com/hsossms/20241031/v2_a003ae73dc9248aead07fa873caa4470@46958_oswg40833oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>智东西10月31日报道，就在昨天，波士顿动力放出了人形机器人Atlas在工厂已经上岗就业的视频。视频中的Atlas可以自主在两个地点移动，将汽车的发动机盖放到准确的位置。</p>
-<p class="image-wrapper"><img data-img-size-val="500,261" src="https://img.36krcdn.com/hsossms/20241031/v2_91c5ee9362b94e40869cfecb78147fe0@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲波士顿动力Atlas在工厂搬运零件</p>
-<p>还有前不久的特斯拉数十台擎天柱（Optimus）机器人，也展现出超强运动控制能力。它们在发布会现场与观众亲切交谈，说话时伴随着手部动作，还能倒饮料、提袋子、递送。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,557" src="https://img.36krcdn.com/hsossms/20241031/v2_21778e895c984ab4b3187ca369849e2d@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲特斯拉擎天柱演示（图源：特斯拉）</p>
-<p>上述两个场景中，人形机器人下肢的移动能力和稳定性已经基本可以应对各种环境，能让其搬运重物、递饮料或者叠衣服、拧螺丝的关键就是机器人最末端的<strong>灵巧手</strong>，这也是机器人研发最难的一环。</p>
-<p>当下，评判灵巧手性能的最重要一个标准就是自由度，目前市面上灵巧手的自由度在6-42个之间，其中以<strong>6个自由度</strong>为主流，这也导致<strong>相比于人手的27个自由度，当下人形机器人的精细化操作能力欠缺</strong>。 </p>
-<p>但<strong>自由度又与灵巧手成本</strong>相关。英国仿生灵巧手老牌企业Shadow Robot的Shadow灵巧手系列自由度已经达到24个，拥有超100个传感器，但售价达到<strong>100万~220万元</strong>，价格甚至比马斯克预计的人形机器人本体价格高<strong>10倍</strong>，马斯克预计售价2万~3万美元（折合约14～21万人民币）。 </p>
-<p class="image-wrapper"><img data-img-size-val="900,666" src="https://img.36krcdn.com/hsossms/20241031/v2_9b3761d00b0d40d4b6bd648233fcb13c@46958_oswg53346oswg900oswg666_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲Shadow Robot的Shadow灵巧手（图源：Shadow Robot）</p>
-<p>现在人行机器人产业链发展逐渐细分，从整机到专攻关键零部件的企业涌现，灵巧手就是近年来兴起的人形机器人产业中非常关键的一类产业链细分方向。 </p>
-<p>国内灵巧手产业中有<strong>灵巧手企业/创企、人形机器人创企、高校与科研机构</strong>三类企业，正试图找到其性能和成本的平衡点。目前已公开售价的产品价格在<strong>0.99万元~11万元</strong>不等，其中一个代表性企业就是灵巧手创企灵心巧手，据了解，该公司的灵巧手自由度目前已经达到业界最高<strong>42个</strong>，其公开售卖的20个主动自由度灵巧手价格仅为<strong>4.99万元</strong>。 </p>
-<p class="image-wrapper"><img data-img-size-val="1024,768" src="https://img.36krcdn.com/hsossms/20241031/v2_f265a7adff9243cab381bb0c72479211@46958_oswg113029oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲2024科技创变者大会灵心巧手联合创始人、CTO周永公布灵巧手价格</p>
-<p>不过，这对于人形机器人的商业化落地而言远远不够。想要达到类比人类的灵巧手性能，还需要更多传感器获取数据作为执行任务的依据。 </p>
-<p>还有让其实现批量生产的难题在于，灵巧手采用的<strong>电机等核心零部件价格高</strong>，使得单个灵巧手内电机成本在2.6万~6.5万元之间；以及其内部核心零部件在<strong>性能、轻量化和成本</strong>之间的平衡。 </p>
-<p>智东西试图深入灵巧手市场，找到人形机器人商业化落地的突破口。 </p>
-<h2><strong>01.人形机器人“心灵手巧”关键，占整机成本14%</strong></h2>
-<p>清华大学计算机系教授、智能技术与系统国家重点实验室副主任孙富春曾提到：“机器人是自动化的‘最后一公里’，灵巧手是机器人‘最后的一厘米’。”</p>
-<p>灵巧手是模仿人手设计的高精度机械手，工业机器人领域的灵巧手大多采用三指设计，而人形机器人大多为五指。灵巧手是实现精细操作的基础，因为一旦其需要进行精细装配、拿取微小零件等，简单的抓夹、吸盘就无法做到。与人形态更相近的人形机器人，更是需要完成抓、握、捏、拧、旋转等不同动作，满足多元化的场景需求。</p>
-<p>因为灵巧手的设计仿照人手，人体解剖学著作《格兰特解剖学图谱》中写道，人手本体自由度为21个，加上手腕关节运动自由度有27个。因此在自由度的分配上，灵巧手也仿照了人手。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,767" src="https://img.36krcdn.com/hsossms/20241031/v2_0dacae8fc9ab4b8cb9d1b1fbd5980b93@46958_oswg390733oswg1080oswg767_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲人手解剖学示意图（图源：知乎博主任赜宇，此前担任珞石机器人首席系统工程师）</p>
-<p>从运动学角度来看，灵巧手需满足两个必要条件：在指关节运动时使物体产生任意运动、指关节固定时能完全限制物体运动，所以在此基础上，灵巧手需要至少<strong>3根手指、9个自由度</strong>。</p>
-<p>目前，从形态来看，<strong>灵巧手主要有五指和三指两种</strong>，也有人形机器人厂商选择从二指、三指夹爪向灵巧手过渡，以满足当下机器人的应用需求。从其自由度数量来看，正好处于<strong>6个-42个</strong>之间。</p>
-<p>人形机器人的商业化落地方面，灵巧手的重要性也不容忽视。虽然体积并不大，但其成本占到人形机器人整体成本的<strong>14%~18%</strong>。摩根士丹利的数据显示，特斯拉第二代人形机器人擎天柱灵巧手占比达到17.3%，以其整机成本5万~6万美元（折合约35万～43万人民币）计算，灵巧手的成本在8650美元~10380美元（折合约6万～7.3万人民币）之间。</p>
-<p>灵巧手是机器人与外界交互时获得触觉反馈的关键。灵巧手上搭载的触觉传感器、力传感器，可以帮助机器人感受物体的形状、大小、硬度、温度等，而不是仅通过视觉交互。</p>
-<p>一个典型的灵巧手系统的关键部分包括<strong>驱动、传动、传感器和控制系统</strong>。驱动系统负责提供动力，传动系统将这些动力转换为手指关节运动，然后触觉系统用于感知手部与外界物体的接触状态和力度，控制系统是通过算法和软件对驱动系统和传动系统进行控制。</p>
-<p class="image-wrapper"><img data-img-size-val="1024,827" src="https://img.36krcdn.com/hsossms/20241031/v2_1f65d073c7ce40609922b95ab1ac07b5@46958_oswg405794oswg1024oswg827_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲灵巧手的抓握示意图（图源：因时机器人）</p>
-<p>这一波人形机器人热潮催化下，作为其关键部件之一的灵巧手，原先多用于科研、假肢等领域的灵巧手，以及在单独做灵巧手的企业之外，衍生出人形机器人赛道的产业玩家。</p>
-<h2><strong>02.三类企业、机构竞逐，国产灵巧手售价降到低于万元</strong></h2>
-<p>当下在这一赛道角逐的共有三类企业、机构：人形机器人创企、灵巧手创企、科研机构。其中，非人形机器人玩家的灵巧手产品均为公开售卖，科研机构以技术研发为主，人形机器人创企又分为仅自研以及同时支撑自研、单独售卖的。</p>
-<h3><strong>1、灵巧手企业/创企：最低售价不到万元，最高自由度可达42个</strong></h3>
-<p>国内专门做灵巧手的企业/创企中，目前已公开售价的产品价格在<strong>0.99万元~11万元</strong>不等。</p>
-<p>其中，因时机器人、强脑科技、傲意科技等玩家的灵巧手均有6个自由度，大多只能完成手指向内抓取物体的动作，手指左右晃动等动作无法完成。<strong>因时机器人</strong>市场总监房海南谈道，其灵巧手自由度为6个，是<strong>综合灵巧手成本、可靠稳定性、综合量产能力、抓取效果来综合选择的方案。这也是当下产业中大家都选择6个自由度的原因</strong>，可以基本上完成人手的60%~70%的抓取任务。</p>
-<p>据房海南在2024科技创变者大会上透露，截至今年8月，因时机器人的<strong>灵巧手累计出货量已经达到几千台，其中人形机器人的灵巧手销售额已经达到一半以上</strong>。 </p>
-<p>与大多数玩家的灵巧手不同，<strong>灵心巧手</strong>的LinkerHand系列灵巧手主动自由度在12~42个之间，单指为2~7个。灵心巧手联合创始人、CTO周永认为，灵巧手需要达到<strong>20个以上的自由度才能完全映射人类动作</strong>，多传感器需要能够感知到位、力、触、摸。 </p>
-<p class="image-wrapper"><img data-img-size-val="1000,567" src="https://img.36krcdn.com/hsossms/20241031/v2_4ec70f55e1bd492da54c8f532eef0d82@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲LinkerHand灵巧手演示（图源：灵心巧手）</p>
-<p>该公司SE版的灵巧手是目前国内灵巧手唯一价格在万元之下的，不过该公司并未公布其具体参数；Pro版的主动自由度为20个，售价4.99万元。此外，其系列产品还实现了360度自由旋转，并配备了指尖摄像头、触觉传感器、位置传感器、力传感器等多传感器系统。</p>
-<p class="image-wrapper"><img data-img-size-val="878,966" src="https://img.36krcdn.com/hsossms/20241031/v2_4f2f8ed92dfc402eae614c68920b1b1b@46958_oswg108302oswg878oswg966_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲单独售卖灵巧手的企业/创企（整理自公开信息，智东西制表）</p>
-<h3><strong>2、人形机器人创企：多为支撑本体自研，仅两家单独售卖</strong></h3>
-<p>这类企业中公开售卖灵巧手的玩家有钛虎机器人、帕西尼感知两家。</p>
-<p><strong>钛虎机器人</strong>的灵巧手单只价格在2万元左右，不过如果要增加更多传感器，售价可能会提升至3万~4万元之间。其灵巧手有6个自由度，每个手指都可以独立运动，其中大拇指能进行两个方向运动，其灵巧手与钛虎机器人的人形机器人系列手部自由度一致。</p>
-<p>与其他厂商不同，<strong>帕西尼感知</strong>的灵巧手更注重多维触觉传感，其第二代灵巧手DexH13拥有13个自由度，单手拥有978个ITPU多维触觉传感单元，15种多维触觉感知能力。</p>
-<p>第二代多维触觉人形机器人ORA-ONE双手集成近2000个自研的ITPU多维触觉传感单元，能瞬间捕捉并解析接触面上细微形变与多维度触感信息，其灵巧手自由度已经提升至26个。</p>
-<p>其余人形机器人创企自研的灵巧手自由度大多为6个、12个，且仅用于支撑自家人形机器人研发。</p>
-<p class="image-wrapper"><img data-img-size-val="804,676" src="https://img.36krcdn.com/hsossms/20241031/v2_0e0bacb3344744a59f784c0f7e48c491@46958_oswg87011oswg804oswg676_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲人形机器人创企灵巧手研发、价格梳理（整理自公开信息，智东西制表）</p>
-<p>全球爆火的特斯拉擎天柱灵巧手自由度也是如此。特斯拉去年年底发布的第二代擎天柱的灵巧手拥有11个自由度，10月11日，特斯拉CEO埃隆·马斯克透露，其下一代Optimus的手将拥有22个自由度。 </p>
-<p>其余OpenAI大模型加持的Figure 01与波士顿动力的Atlas目前并没有公开自家机器人灵巧手的自由度；小米铁大的手为双指抓夹，只能夹取物体。 </p>
-<h2><strong>3、科研机构、高校：专注于提升自由度、负载能力</strong></h2>
-<p>除此以外，还有哈尔滨工业大学、中国科学院自动化研究所、清华大学AI智能研究员智能机器人、腾讯Robotics X实验室等科研机构和高校，专注于灵巧手的研发。</p>
-<p>其中，<strong>中国科学院自动化研究所</strong>的神经拟态灵巧手机器人CasiaHand，具有25关节自由度、21驱动自由度，还包括五个手指、掌部和腕部，仿人筋腱驱动方式，指尖仿人触觉感知能力，位置、力、触觉、温度多模态传感93个。</p>
-<p>此外，其研发重点还有灵巧手的负载能力，目前市面上单个灵巧手的负载集中于3kg~5kg，中国科学院自动化研究所的团队已经研发出负载7kg的版本，下一步计划将负载提升到15kg以上。</p>
-<p class="image-wrapper"><img data-img-size-val="724,492" src="https://img.36krcdn.com/hsossms/20241031/v2_f699a8c9a6774d8cafec8d373d991229@46958_oswg59363oswg724oswg492_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲高校、科研机构灵巧手研发情况（整理自公开信息，智东西制表）</p>
-<p>可以看出，这些研究机构对于灵巧手的研发，多集中在自由度提升、传感器数量、负载能力方面。</p>
-<h2><strong>03.灵巧手瓶颈：单手空心杯电机成本6.5万，一只手塞上百个传感器</strong></h2>
-<p>20世纪70年代末，工业自动化需求增长，灵巧手的概念出现。</p>
-<p>早期，灵巧手发展的典型代表就是日本“电子技术实验室”的Okada灵巧手，其拇指有3个自由度，另外2个手指各4个自由度；美国斯坦福大学的Stanford/JPL灵巧手，也是拥有3个手指，每个各有3自由度；美国麻省理工学院和犹他大学研制的Utah/MIT灵巧手有4个手指，每个4个自由度。</p>
-<p class="image-wrapper"><img data-img-size-val="1024,255" src="https://img.36krcdn.com/hsossms/20241031/v2_9d09e486f5b54180b3ae6e129825aac1@46958_oswg353370oswg1024oswg255_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲从左至右分别为Okada灵巧手、Stanford/JPL灵巧手、Utah/MIT灵巧手（图源：小米技术）</p>
-<p>发展至今，这一产业有几大明显的趋势。除了自由度提升外，灵巧手搭载的传感器数量翻番，驱动方式选择上除性能外会兼顾商业化等。</p>
-<p><strong>首先其搭载的传感器数量翻番。</strong>20世纪末，产业开始关注灵巧手的感知能力进阶，当时德国宇航中心研发的DLR-Ⅰ和DLR-Ⅱ灵巧手共集成了25个传感器，现在灵巧手的传感器数量已经达到近百个。传感器监测到的数据就是控制算法进行决策的依据。戴盟机器人首席科学家王煜教授说，灵巧手接触到物体时的反馈是非常重要，<strong>没有主动的反馈就没有灵巧操作</strong>，灵巧手的发展就卡在这里。</p>
-<p>因此要让灵巧手收集到更多的高质量数据带来的挑战就有两大方面，一是传感器数量增加对应着灵巧手的成本增加，二是面对大量数据，控制算法处理复杂任务时响应速度会变慢，无法实现精准、高效控制。 </p>
-<p>其次，<strong>当下单价较高的电机驱动已经成为灵巧手的主流技术方向</strong>。除了性能优势外，电机驱动的技术较为成熟，相关零部件和控制系统已经形成一定的标准和规划，便于进行大规模量产。</p>
-<p>灵巧手内部空心杯电机数量不断提升，但单个空心杯电机的价格并不低。国外驱动系统供应商Maxon的空心杯电机单价为4675元，爱采购页面显示，国内兆威机电空心杯电机的单价在2000元左右。</p>
-<p class="image-wrapper"><img data-img-size-val="1024,540" src="https://img.36krcdn.com/hsossms/20241031/v2_ba859fe870fe4b1b988adf8d58169e3a@46958_oswg291064oswg1024oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲兆威机电的空心杯电机价格（图源：爱采购）</p>
-<p>一般情况下，灵巧手的自由度与驱动电机相对应，如果折中计算，假设单个灵巧手的自由度为13，对应驱动电机需要13个，成本已经达到<strong>2.6万~6.5万元</strong>之间。</p>
-<p>这一市场长期被国外巨头所垄断，不过目前国内鸣志电器、伟创电气、雷赛智能、兆威机电等企业也推出了空心杯电机相关产品，其中，伟创电气在回复投资者问时透露，该公司在空心杯电机产品方面可以提供完整的模组解决方案，<strong>适用于灵巧手10mm的空心杯电机模组正在推向市场，已经取得小批量订单</strong>。不过，整体来看，国内对于机械结构等要求更加严格的人形机器人应用，其性能距离头部玩家仍有一定差距。</p>
-<p>第三，这些趋势都显示灵巧手的内部结构零部件数量越来越多、机械结构逐渐精密，但还有一大前提是其本身体积并不大，如何平衡<strong>零部件数量、性能与小型化、轻量化</strong>之间的关系，也是这一产业发展的一大瓶颈。</p>
-<p>上个月，Shadow Robot总监里奇·沃克（Rich Walker）曾在接受《卫报》采访时谈道，<strong>机器人灵巧性的挑战之一就是体积</strong>。Shadow灵巧手的大小与人的手掌相当，有四根手指和一根拇指，但其需要连在比人类手臂宽得多的机械臂上，用以承载电缆、执行器等诸多部件。</p>
-<p>这是因为灵巧手想要达到人手的操作水平，需要安装多个关节、传感器、传动装置等。其中电机数量要与关节数量一致，才能达到全驱动，实现对灵巧手的精准控制。</p>
-<p>目前一些企业为了控制灵巧手内部的电机数量，会同时采用全驱动和欠驱动方式，欠驱动指的就是没有提供对应的驱动器数量，而是基于其它外部力量驱动。但欠驱动系统容错能力较差，需要更加准确的动态模型和控制算法，这也增加了灵巧手运动过程的风险。</p>
-<p>最后还有诸如关节耐久性、重量等，是之后人形机器人实现大规模应用，走进真实落地场景过程中需要一直考量的难题。</p>
-<p>目前国内已经诞生了专门做灵巧手的玩家，并且已经拥有一定的价格优势，在当下可匹配人形机器人的应用场景。</p>
-<h2><strong>04.结语：人形机器人落地前夜，灵巧手迎千亿市场</strong></h2>
-<p>从当下人形机器人市场的发展来看，其在下肢能力的进展飞速，诸如跑跳、走路等都有了较大突破，但对上肢而言，其灵巧手不仅是机器人实现精细操作的关键，同时也是让人形机器人降本，真正实现量产的关键。市场调研机构头豹研究院的报告显示，根据特斯拉预测，人形机器人将于3-5年达成量产，量产后，灵巧手市场将爆发式增长，预计2030年将突破800亿元。</p>
-<p>具体而言，从材料、核心电机到传感器、雷达等感知系统，灵巧手都需要技术创新和成本控制。但宏观来看，这些零部件和系统在人形机器人的其他部件上也有应用，因此这同样可以带动整个人形机器人技术的进步。</p>
-<p>参考资料：小米技术公众号《机器人中的“百达翡丽” — 五指精密仿生灵巧手技术浅析》</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/vg8k-ZSrwzfGjsbPp6Z66Q" rel="noopener noreferrer nofollow" target="_blank">“智东西”</a>，作者：程 茜，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016313875031299</guid><pubDate>Thu, 31 Oct 2024 20:13:00 +0800</pubDate></item><item><title>降薪？哪吒汽车回应</title><link>https://36kr.com/p/3016312717370625</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>日前，有消息称，哪吒汽车开始实施面向全部研发人员的降薪计划，10月29日起各部门员工陆续收到降薪通知。</p>
-<p>10月30日，哪吒汽车方面回复《每日经济新闻》记者时称，10月29日，哪吒汽车正式启动公司全员股权激励计划，将拿出5%的股份（估值约20亿元），作为股权激励分配给全体员工，同时内部宣布了工资及绩效考核的新方案。“本次激励和调薪计划，是为了尽早实现公司经营现金流转正的目标。”哪吒汽车相关负责人进一步解释称。</p>
-<p>不过，对于新的工资及绩效考核方案，哪吒汽车方面并未对外公开。有消息称，哪吒汽车此次降薪计划面向全部研发人员，波及上千人，降薪梯度具体为：年薪100万元以上的员工降薪30%；年薪50万~100万元的员工降薪20%；年薪30万~50万元的员工降薪10%；年薪30万元以下的员工降薪5%。在此降薪方案基础上，如果员工工资仍比岗位工资高，要再降10%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,756" src="https://img.36krcdn.com/hsossms/20241031/v2_d016c8d0d93d46bead6d5246613093a2@46958_oswg61142oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：每经记者 孔泽思 摄（资料图）</p>
-<p>在本轮降薪前，哪吒汽车还被传出拖欠工资的消息。10月中旬，多名网友在公开平台上称，哪吒汽车没有按时发放9月份员工工资。</p>
-<p>“在这一轮薪资架构调整完成后，（公司）会把未发放的工资补齐。”对此，上述哪吒汽车相关负责人回应称，“目前，公司内部经营生产一切正常，日常工作正在有序开展中，并积极向用户交付新车，计划参加今年的广州车展。IPO也在推进中。”</p>
-<p>今年6月，哪吒汽车方面宣布，母公司合众新能源汽车股份有限公司（以下简称合众汽车）于6月26日向港交所递交上市申请，中金、摩根士丹利、中信证券、农银国际、招银国际为联席保荐人。</p>
-<p class="image-wrapper"><img data-img-size-val="825,746" src="https://img.36krcdn.com/hsossms/20241031/v2_a9fd9af76b5041dca5a8b562b9f07a4e@46958_oswg99133oswg825oswg746_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：合众汽车招股书</p>
-<p>招股书显示，2021~2023年，合众汽车总收入分别约50.89亿元、130.5亿元和135.55亿元。合众汽车方面表示，公司营收的增长，主要得益于汽车及零部件的销售收入。毛利率方面，合众汽车毛利率由2021年的-34.4%提升至2022年的-22.5%，2023年提升至-14.9%。</p>
-<p>不过，合众汽车仍处于亏损状态。招股书显示，2021~2023年，合众汽车经营亏损分别约45.05亿元、59.51亿元和67.58亿元，累计亏损约172.14亿元。</p>
-<p>天眼查显示，截至9月20日，哪吒汽车已经完成了15轮融资，融资金额近300亿元，投资方包括深创投、中车资本、宁德时代、360等。</p>
-<p>据上述哪吒汽车相关负责人透露，为尽早实现公司经营现金流转正的目标，哪吒汽车接下来还将实施机构精简、裁汰冗员、业务聚焦、扁平管理等一系列降本增效举措。</p>
-<p>对于未来的发展目标，哪吒汽车CEO张勇曾表示，2026年前后，公司在有6~7款车型同步销售的情况下，预计在国内外市场的累计交付量将达到100万辆。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/LMnplI-Mh2p6zZLAuktYOA" rel="noopener noreferrer nofollow" target="_blank">“NBD汽车”</a>，作者：李星，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016312717370625</guid><pubDate>Thu, 31 Oct 2024 20:14:00 +0800</pubDate></item><item><title>尊界会是江淮汽车的一剂猛药吗？</title><link>https://36kr.com/p/3016299540620808</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 31 Oct 2024 21:00:51 +0800</lastBuildDate><pubDate>Thu, 31 Oct 2024 21:00:51 +0800</pubDate><item><title>尊界会是江淮汽车的一剂猛药吗？</title><link>https://36kr.com/p/3016299540620808</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>最近，余承东在公开演讲中透露说，华为与江淮汽车合作的尊界，将在下月的广州车展上发布其首款车型，并计划在明年第一季度正式上市。 </p>
 <p>这其实不是余承东第一次提到尊界的消息。从8月正式官宣尊界的名称开始，在很多公开场合，余承东时不时cue一下尊界，让尊界一直在媒体上保持着热度。而此次确定在广州车展的发布，也让人充满了期待。 </p>
 <p>从目前各种信息来看，<strong>尊界将对标迈巴赫、劳斯莱斯等超豪华品牌车型，定价超百万元。同时，尊界瞄准MPV市场，相关车型会通过江淮X6平台生产。</strong></p>
@@ -633,4 +284,264 @@
 <p>最近这一系列动态难免不引发猜测，小杨哥是否急于“复工挣钱”呢？<strong>一位几乎天天在三只羊公司门口直播的主播称，小杨哥几乎天天来公司，办公室的灯亮着。</strong></p>
 <p>笔者认为，在面对产品问题、售后问题，首先应有积极处理的态度，其次再考虑继续赚钱，赢不回消费者的信任，又谈何长久发展呢？</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU2ODcwMDY2NA==&amp;mid=2247562681&amp;idx=1&amp;sn=e4e0b501cca912d99cd72e1e21d4e6bc&amp;chksm=fd0914014a462c0c0c077d557ff330da03235a00b9c06c25ce7b47470144f4cfaa1c2ad9bd0f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三言财经”（ID：sycaijing）</a>，作者：DorAemon，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016223491269897</guid><pubDate>Thu, 31 Oct 2024 20:27:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016223491269897</guid><pubDate>Thu, 31 Oct 2024 20:27:00 +0800</pubDate></item><item><title>大模型ToG热，只有三家上了车</title><link>https://36kr.com/p/3016218397537161</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1024,1024" src="https://img.36krcdn.com/hsossms/20241031/v2_8e0d484aa9734554afc5aba8f7d60b5e@5403566_oswg1197690oswg1024oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>地方国资，正在撑起国内大模型商业化的半边天。 </p>
+<p>OpenAI在2022年末甩出ChatGPT这个王炸，为全球人工智能领域立下一座灯塔。然而在2023年，国内针对大型语言模型发展的政策支持还相对不足，更多是从人工智能产业的整体发展或算力支撑方面进行引导。 </p>
+<p>直到网信办联合多部委发布了《生成式人工智能服务管理暂行办法》，全国各地的针对性政策开始涌现，集中在今年爆发。各地政府的热情高涨，带动了地方国企支持下的央企国企，快速上马大模型相关项目并开放市场招标。 </p>
+<p>中标供应商的名单里，百度、科大讯飞、华为等熟悉的身影赫然在列，国内大模型六小龙之一的智谱AI在中标数量上也不遑多让。 </p>
+<p>AI大模型的技术突破和应用能力令人惊艳，但实际落地的商业化场景变现迟迟不如人意。百度、科大讯飞、智谱等大模型企业搭上ToG快车，能够直达终点还是曲线救国，仍需打上一个问号。 </p>
+<h2><strong>抢夺战分化</strong></h2>
+<p>大模型ToG市场端出来的这块蛋糕，不可谓不大。 </p>
+<p>自2023年起，大模型采购需求激增，招投标市场热潮涌动。据公开的招投标市场数据显示，2023年全年共发起了190次大模型采购需求，采购规模达5.95亿元；而今年上半年已经产生了498次大模型相关招标项目，金额达到13.4亿元，超过去年的两倍。最近的8月份，大模型相关项目中标数量又创下新高达到127个，其中84个披露金额的项目规模达到3.9亿元。 </p>
+<p>今年7月，国新办举行了“推动高质量发展”系列主题新闻发布会，提出未来五年内中央企业预计安排大规模设备更新改造总投资超3万亿元，更新部署一批高技术、高效率、高可靠性的先进设备，加快推动数字化转型，推进人工智能等新技术与制造全过程全要素深度融合。 </p>
+<p>喷薄而出的项目需求，正好撞上国内大模型市场上的商业化困境。3万亿的盘子并不是针对大模型单一领域，但前瞻产业研究院院长徐文强曾公开表示，AI大模型应用场景会逐渐从当前的业务类场景向决策管理场景深入，预计到2028年国内AI大模型行业的市场规模将突破千亿元，五年行业复合增速将超过50%。 </p>
+<p>中央企业们虽然也在市场化的原则下经营，但在国资的托底下更有培育产业创造需求的积极性。已公开的招标项目中，不乏大量传统产业如能源、通信、金融、教育的数字化升级改造，中国移动、中国铁塔、南方电网、国家能源集团等央企都是登上采购方名单的常客。 </p>
+<p>不过在中标方一侧，大模型企业们的抢单态度出现分化。据自媒体“硅星人Pro”的不完全统计，上半年里智谱AI的中标量领跑，跟随其后的则是百度和科大讯飞。除了三甲之外，后续的华为、商汤、阿里、腾讯，中标量上都断崖式落后，与智谱AI齐名的其他大模型六小龙则不见身影。 </p>
+<p>从其他公开渠道的信息梳理来看，科大讯飞、智谱AI、百度同样是大模型ToG市场上当之无愧的“三国杀”主角。其中，科大讯飞在最近的7月和8月又分别中标项目112个和127个，且8月份单月中标金额突破了1.5个亿。 </p>
+<p>有行业分析人士对「科技新知」表示：“大厂做ToG有天然的优势，政务部门或者中央企业非常看重投标方的资质和履历，很多中小企业哪怕具备实施执行能力，最多也就是成为中标大厂的下一级分包供应商。” </p>
+<p>百度和科大讯飞在其过往的主营业务领域，都积累下丰富且成熟的ToG经验，客户资源可以直接复用到大模型产品上。智谱AI则是创立之初就坚持ToB路线，投标项目覆盖类型更广，金额规模也从数万到数百万不等。 </p>
+<p>这场少数派的“三国杀”游戏中，最终的赢家又能有几位？ </p>
+<h2><strong>吃肉或喝汤</strong></h2>
+<p>AI大模型的ToG生意，变的是交付的产品和服务，不变的是G端客户以及市场特色。 </p>
+<p>国内风投圈知名人士易飞凡曾撰文称，国内Top60的企业服务公司中，ToG占比接近70%，半数企业的毛利率低于50%，而美国同行的平均毛利率超过70%。 </p>
+<p>ToG市场上的需求方大多是政务部门或者大型央企，抛出的订单规模往往很大，但复杂的落地场景和严格的风控标准也会大幅抬高执行成本，最终留给中标企业的利润反而微薄。随着《政府采购法》《招标投标法》等法律规范的完善，采购价格体系日趋透明，多数订单的利润空间也逐渐稳定。 </p>
+<p>另外，G端客户出于对接交付的便利性，更青睐于能够提供一站式解决方案的集成商，再由集成商自己消化需求或者寻找其他供应商承包需求。 </p>
+<p>作为最底层的中小供应商，虽然不得不通过集成商才能签单，但灵活的经营方式让它们的收入质量更高；集成商不仅要对上承受G端客户普遍较长的账期，又要对下监督保障供应商的交付标准，只能靠不断接单来扩大规模。当然，行业内也不少见集成商把压力传导到供应商头上的情况。 </p>
+<p>因此，像百度、华为等互联网大厂近年来经常成为ToG市场上的领头羊，主要原因就是大厂可以同时承担集成商和供应商的双重角色，能够保证一定程度的利润空间。同时，它们各自的业务布局多元，主营的ToC业务比较健康可持续，ToG业务即使挣不到钱也能成为打通GR关系的桥梁。 </p>
+<p>科大讯飞的路线则别具一格，多年坚持ToG与ToC“两条腿走路”。其联合创始人之一的胡郁曾如此阐释，他们是靠核心技术去为国家解决计划方面的问题，同时翻译机等产品又面向大众市场，这也是很多人看不懂科大讯飞的原因。 </p>
+<p>然而，百度与科大讯飞在大模型上的重金投入和ToG市场上的遥遥领先，在财报数据上的贡献呈现不同的结果。 </p>
+<p>百度二季度营收339亿元，核心经营利润56亿元，同比增长23%，主要得益于云业务的加速增长，也算是与大模型业务的推进有关。科大讯飞发布的半年度财报显示，上半年实现营业收入93.25亿元，同比增长18.91%，但净利润出现4.01亿元亏损，属于自上市以来的首次半年度亏损，与大模型基础设施的投入不无关系。 </p>
+<p>之所以出现这样的结果，百度创始人李彦宏在最近的第三季度总监会 上给出了答案。 据“36氪”报道，李彦宏认为，ToB业务一定要标品化。 标品化对应的就是项目制，项目制有很多需求，需要派很多驻场人员，要有很多的后台研发改造。 </p>
+<p>像Comate这样的标准化产品，虽然现在还卖不了多少钱，不够有竞争力，但李彦宏觉得没关系，这种产品的起点比较低也是可以包容的，因为只要持续的投入，把它的门槛提高，拉大跟竞品的差距，未来还是一个好的方向。 </p>
+<p>同时，要聚焦中腰部的客户。李彦宏指出，很多时候从特大客户身上赚不到什么钱，而特别长尾的也不好做，因为手上没什么钱。 </p>
+<p>大模型ToG“三国杀”中唯一的创业型选手智谱AI，则仍处于持续的融资输血阶段，就在刚刚过去的9月完成了最新的第11轮融资。ToG项目的频频出手，更像是其ToB路线的覆盖，而非寄希望于央企客户大单的回血。 </p>
+<p>当三位主角可能都不是抱着赢下比赛的目的而来，其他按兵不动的同行们的选择，也就容易理解了。 </p>
+<h2><strong>捷径与陷阱</strong></h2>
+<p>国内ToB赛道的创业者们，对于ToG市场大多处于又爱又恨的纠结之中。有的公司能够抓住政务改革的机遇一朝登天，有的老板也困顿于充满不确定性的商务关系抓耳挠腮。 </p>
+<p>阿里前首席AI科学家贾扬清曾直言，目前大模型商业化落地过程中有两个纠结点：一是营收的流向和以往不太一样；二是大模型对比传统软件，可以创造营收的时间太短。 </p>
+<p>京东集团副总裁、京东城市总裁郑宇曾表示，政府可以看作是一个“超级B端客户”。大模型的ToG市场，本质上还要遵循ToB路线的规律，比如产品使用者与购买决策者的分离。 </p>
+<p>一位在ToG行业深耕多年的产品经理告诉「科技新知」，他们在规划设计产品思路时，首要关注的应该是政策文件的解读，要从中找到支撑领导业绩的内容，其次再考虑产品交付后实际要满足的需求。 </p>
+<p>此外，AI大模型等数字化方向的ToG项目采购，经常还会涉及传统工作流程的改造，一旦影响到组织架构和岗位的再调整，内部立项就需要不同条线领导之间的角力。 </p>
+<p>这与传统SaaS产品的盈利模式异曲同工。「科技新知」从一位SaaS创业者处了解到，他们曾经接到过的一个数字化项目可以大幅节省线下人力，已经顺利通过了前期的需求打磨和Demo开发，付出了心血却倒在了最后的立项审批上。 </p>
+<p>而与海外SaaS公司以中小型客户为主、产品标准化程度高不同，国内SaaS公司收入构成主要依赖大客户贡献，而大客户往往对产品中定制化的要求程度较高，等于变相增加了成本投入，直接拉低了整体毛利率水平。 </p>
+<p>一个典型案例就是，字节跳动旗下协同办公产品飞书的裁员认栽。面对阿里的钉钉、腾讯的企业微信抢先占领了中小型客户心智，飞书试图通过大客模式打造标杆案例，产生榜样效应，却因一个个定制化要求更高的大客不断扩充团队规模，反而拖累人效收不回成本，最终较峰值减员三分之一，暂时甘于市场追随者的地位。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,719" src="https://img.36krcdn.com/hsossms/20241031/v2_57c9065d7fbb480ea9487ae8a12d6a9d@5403566_oswg74580oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>抛开ToG项目这些独有的主观因素不谈，ToB市场上老生常谈的成本困境，也是大模型企业必须要面对的。除了政务和央企的项目制大单，AI大模型产品的多数B端客户采用API调用收费模式，需要客户持续使用才能保证现金流的收入。 </p>
+<p>在针对中小客户的市场上，大厂们已经毫不犹豫地发起了价格战。智谱AI作为创业公司阵营的代表，也在6月官宣下场，入门级产品GLM-3 Turbo模型的调用价格从5元／百万Tokens降至1元／百万Tokens，降幅高达80%。 </p>
+<p>相比ToC和ToB市场上的赔本赚吆喝，ToG市场纵然亦有诸多弊端，却也是大模型企业们最快见到回头钱的捷径。只是一时的美酒醇香，贪杯过多寻不回长期方向上的大道，到手的利润也要再吐回去补课才行。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/TxzTlnbrpzy8npq7ecQJ5Q" rel="noopener noreferrer nofollow" target="_blank">“科技新知”</a>，作者：茯神，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016218397537161</guid><pubDate>Thu, 31 Oct 2024 20:32:00 +0800</pubDate></item><item><title>00后开始「抛弃」民办大学？</title><link>https://36kr.com/p/3016209903629444</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近日，广东某民办高校因「1477名新生拟放弃入学」登上热搜。</p>
+<p>当地另一所民办高校也发布弃学名单，共有983名新生按弃学处理。</p>
+<p>事实上，近期全国多地民办高校正密集公示2024级弃学名单。</p>
+<p><strong>他们都是一群00后新生。</strong>一同与他们登上热议的，还有这些民办高校每年几万不等的学费、生活费等。</p>
+<p>在人口连续负增长及经济大环境的当下，民办高校的生存引发关注。未来它们或将面临更大挑战，<strong>长久困于「生源、竞争力和吸引力」之争。</strong></p>
+<p>在今年招生季中，全国已有多所民办本科高校传出补录后<strong>依然缺额</strong>的消息。</p>
+<p>上海一所民办高校今年在江西、四川、河南、贵州等地招生都面临不同程度断档，特别是在上海首轮投档更是创下<strong>「零报考」</strong>的记录。</p>
+<p>9月底，南京一所由民转公的高校更是被曝因多名教职员工被解聘而<strong>停办</strong>的新闻。</p>
+<p>那么，年轻一代是否在「逃离」民办高校？入读民办高校究竟是一种怎样的体验？ </p>
+<p>橡树实验室与3位民办大学出身的00后年轻人聊了聊，<strong>他们中有人中途退学，也有人享受了4年不错的大学时光。</strong>他们都在不同的人生节点做出了自认为最好的抉择。</p>
+<p>而通过他们学习和生活中的日常，也可以一窥民办学子内心，以及民办大学的生存现状。</p>
+<h2><strong>学费高、教学质量低，不到一学期就退学</strong></h2>
+<p><strong>子珊 | 24岁｜广东</strong></p>
+<p>最初招录结果出来的时候，子珊怎么也没有想到会被最后一个民办大学的志愿录取。现在回想起来，她还是有些感叹命运不公。</p>
+<p>2019年，子珊二战高考，家里把她送去了市里很好的一所中学。但努力一年，还是不太理想，「美术成绩很不错，文化成绩差了一点点。」</p>
+<p>填志愿为了凑数，她报了一所省内民办大学，最后阴差阳错竟被其录取。</p>
+<p>「太想哭了。」子珊坦言，学校没有任何知名度，又不是公办，而复读班其他人大多去了中国美术学院、广州美术学院，她在30多个人的班级里只能排倒数，「打击实在太大。」</p>
+<p>除此之外，学费也是不可承受之重。子珊说，当时她入学那年，每年要收28000元，住宿费是每年3100元，<strong>即使办理了每年8000元的国家贷款，家里还是要掏出2万多的学费出来</strong>，「我们家经济条件并不好，这笔支出可不小」。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,643" src="https://img.36krcdn.com/hsossms/20241031/v2_9beaebceb65140f3a63eee7e9ea7e4a9@6117177_oswg121273oswg1080oswg643_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">民办高校学费正迎来一波「上涨潮」</p>
+<p>而高中时候，学美术已经让家里花了十多万，「父母差不多把积蓄给了我，说实话很愧疚。」</p>
+<p>子珊还有一个弟弟，相差几岁，也在上学。父亲在佛山工作，每月工资五六千，妈妈是个体户，一个月有三四千，每个月还要给她爷爷一笔生活费。家里其实存不下钱。</p>
+<p>不过，父母并未让她放弃上学，而是盘算好了，大学4年32000元的国家贷款等她以后自己还，其他的则都由家里承担。</p>
+<p>然而入学后，还有各种大笔开销等着。子珊就读的数字媒体艺术专业，对电脑配置比一般学生要高，还要求他们购买摄像机，这完全超过了家里的可承受范围，「要是再找父母要，估计家里就要借钱来生活了。」</p>
+<p><strong>而学校在本专业上的教学能力，也跟她想象中的有差距。</strong></p>
+<p>「这所学校的强项是IT相关专业，艺术专业性是不强的，基本上只是一个多余的附属学院，来讲课的也是一些外聘老师。」</p>
+<p>从学习收获来看，她始终感觉这些<strong>「外聘始终是外聘」</strong>，虽然尽到了教学义务，但肯定没有在他们自己学校上课那么用心。</p>
+<p>子珊曾经去一些知名的公办学校蹭课，顺便也感受一下教学氛围，这一比较心里就更难受了，「人家美院的老师都有作品，艺术经验丰富，基础扎实，全校都是美术生，氛围非常浓厚，而自己学校的艺术氛围跟美院比起来差了一大截。」</p>
+<p>上课时，学生有任何不明白的地方，老师们都会显得很有耐心，会一直讲到他们明白为止。但在自己学校，听课感受并不好，「他们课堂上说的有些话，会让我们有一种被歧视的感觉。」在工作上，外聘老师也似乎有个优先序，会首先处理本校的事情。</p>
+<p>各种心情叠加，子珊也变得越来越压抑，<strong>仅仅入读了两个月后就申请休学一年。</strong></p>
+<p>对女儿的决定，子珊父母倒没有过多反对，「毕竟还能减轻家里的经济负担。」反而是辅导员一直劝她继续学习，建议她以后通过考研进到更好的学校，「道理我都懂，但整个人太压抑了。」</p>
+<p>休学之后，子珊躺了一段时间，在家附近的蛋糕店找了一份工作，推销讲解甜品，「那年的中秋月饼卖得超预期了，我觉得很有成就感。」</p>
+<p>工作半年后，2020年10月，子珊准备复学，结果缴费时大吃一惊，学费竟又涨了5000元。最终，子珊选择退学，<strong>「我休学和退学的决定，都想得清清楚楚，我也愿意承担这个后果。」</strong></p>
+<p>退学后，子珊并没有摆烂，又刚好赶上那年广东高职扩招，她顺利报上了一所专科院校，还自考了华南师范大学。</p>
+<p>今年8月，当子珊再次刷新学信网，华南师范大学的学历信息映入她眼中，「一早看到好消息，本科正式毕业，接下来坐等学位证。」言语之间充满激动和喜悦。</p>
+<p>现在，子珊在珠海一家知名酒店工作，每个月三四千，包吃包住，不到3个月她就拿了100多条好评，很有收获感。</p>
+<p>她也有了一项清晰的职业规划，以后时机成熟了去澳门，那边酒店更多，工资也更高，「我有朋友在澳门酒店工作，月薪一万五左右。」</p>
+<p>「我不觉得在酒店工作很丢人，而且我退学后也一直在学英文，包括我现在的酒店也有外宾，有交流的环境。等英语学好后我可以转去旅行社，或者做外贸，选择也会更多。」</p>
+<p><strong>不过，她并不鼓励大学中途退学。</strong>曾经找工作一度碰壁的子珊，对退学也流露出一丝悔意。</p>
+<p>「在校生的机会真的比出社会后多很多。如果不退学，我可以多给大厂投简历实习。而不是很消极地混了一两个社团，就总觉得没有什么出息。」</p>
+<p>直到现在，子珊还记得有一次她去找工作，被招聘方说「养不起」。「当时，眼泪唰地一下就流了下来。」</p>
+<h2><strong>原生家庭不好，姑姑养大，花20万读大学自称不后悔</strong></h2>
+<p><strong>桃子 | 22岁｜湖北</strong></p>
+<p>「我的学校是二本，那又怎样，我的人生不是。」</p>
+<p>曾经，桃子也很在意自己的学历，觉得和高学历的人差很远，后来她意识到，<strong>一个人的能力不能用学历去定义，只要努力，不断学习，也能逆风翻盘。</strong></p>
+<p>2020年夏天，当看到高考分数的瞬间，桃子就知道上不了心仪的学校了，高考分数比平时模拟考分数低了40多分。</p>
+<p>受到分数限制，桃子只能在民办学校里选择，「除非去一些比较偏僻的地方。」最终，她被武汉一所民办二本大学录取，专业是会计学，成了家里第一个本科大学生。</p>
+<p>原本是件高兴的事，但在看到民办学校动辄两三万的学费后，桃子感受到了前所未有的压力。</p>
+<p>桃子给橡树实验室算了一笔账，大学四年的学费总共8万多；住宿费每年1400元；生活费每月1200元，一年9个月；还有一些杂七杂八的费用，<strong>全部算下来大学4年花了将近20万。</strong></p>
+<p>「上大学之前哥哥还没有结婚，很担心给家里造成太大压力。」桃子坦言，她原生家庭不好，爸爸在她一岁多的时候就去世了，妈妈也很快改嫁，3岁之前一直跟着爷爷奶奶生活，3岁后就一直跟着姑妈生活。</p>
+<p>姑妈家开了一家早餐店，靠着这个收入将两个孩子拉扯大。姑妈的辛苦和不易，她从小就看在眼里。相比其他孩子，她也懂事更早一些。高考成绩出来后，怕增加家里负担，她没想过复读。</p>
+<p>在桃子看来，虽然是民办二本，但学校前身是华中师范大学汉口分校，里面配备了很多华中师大的老师，还有一些企业老板会来学校给他们授课，整体师资力量还不错，不过跟985、211学校相比肯定有差别。</p>
+<p>桃子表示，<strong>学校整体学习氛围不算差，在学生逃课方面管理得很严格</strong>，逃课3次相当于挂科，需要补考。但在一些选修课上，如果老师不点名的话，「还是会有学生逃课。」</p>
+<p>桃子曾在社交平台上分享她的大学生活，没课的时候就会去图书馆，大一就顺利考过了初级会计，四六级也都是一次考过，还积极参加大学生英语竞赛、商务英语翻译大赛等。<strong>4年下来她拿到的国家励志奖学金、校级三好学生等各种奖金加起来就有18000元。</strong></p>
+<p>为了增加收入，改善大学生活，桃子还利用空余时间接了各种兼职，比如发传单、代课，大四时还去教培机构兼职英语助教，而英语助教也成了她主要的收入来源，一个月有一两千。</p>
+<p>对她而言，虽然是身在民办学校，但也要做点不一样的事情。</p>
+<p>但有时候她也会陷入内耗之中，不知道这么努力值不值得，尤其是即将毕业那年，专业课压力很大，有时候中午她都干脆直接在图书馆午休。<strong>没想到室友却挖苦她说「卷」，「有必要这么努力吗？」</strong></p>
+<p>而晚上10点过回到宿舍，看到室友和其他人坐在一起打麻将，更内耗了。</p>
+<p>直到毕业后，她才慢慢想通，「与其花费时间讨厌他人，还不如多关注自己。」</p>
+<p>今年6月，她从学校毕业，先是去金华一家主营丝袜的企业实习，主要做外贸，包吃住，实习薪资每月4500元。两个月后又去了义乌一家公司做外贸，相比之下这份工作的环境、待遇更好。同样包吃住，实习期间每月5000元，转正后5500元，缴纳五险一金。</p>
+<p>她决定在这个赛道上规划自己的未来，「感觉外贸比较有前景，我自己对英语也感兴趣。」桃子希望多积累一些经验，同时还在做自媒体副业，分享自己的学习和求职经验，一个月也有两三千收益。</p>
+<p>等以后各方面稳定下来了，她希望能靠自己的双手早日买房，<strong>「虽然可能会有些难，但会好好努力。」</strong></p>
+<p>尽管姑妈没有让桃子回报什么，但桃子心里很清楚，「相处这么多年，我姑妈也把我当亲女儿了，当时没有亲戚愿意抚养我，我姑妈养我，我一直都很感激，会一直照顾姑妈。」</p>
+<h2><strong>江浙沪独生女不想离家太远，就近入读，就业不错，有同学毕业后继承家业</strong></h2>
+<p><strong>阿宁 | 24岁｜上海</strong></p>
+<p>「我觉得我的大学生活还挺快乐的。」回忆起大学生活，<strong>阿宁表示除了享受，还交了几个好朋友，「很值得」。</strong></p>
+<p>阿宁来自上海，家里条件不错。当初高考其实考得不太理想，但有家庭兜底。</p>
+<p>「我高考考了500多分，离上海公办大学就差几分。」阿宁是2018年高考考生，成绩出来后，她知道读上海的公办大学希望不大了，自己又不想复读，所以要么在上海读一所民办大学，要么就是去省外读公办大学。</p>
+<p>为了离家近一些，阿宁最终选择了上海的一所民办大学的金融专业，师资力量在当地同类型院校中很靠前。</p>
+<p>该学校官网介绍，拥有国家级一流本科专业建设点2个，省级一流本科专业建设点15个，专任教师960余人，其中高级职称教师占比36%，博士学位教师占比35%。</p>
+<p>「<strong>师资力量不错，教学氛围很好，甚至院长还会亲自授课</strong>，RFP编者老师亲自授课，各类实践课也很多。」</p>
+<p>阿宁回忆，当时课堂情况两极分化，坐在前排的同学总是那几个寝室的，上课非常认真。有同学课后会去图书馆备考，比如考研、考公务员，但也有同学课后会跟朋友出去聚会，各种玩儿。</p>
+<p>雄厚的师资力量，自然离不开经济支撑。今年，该校招生章程显示，本科学费为每年35000-70000元，相比阿宁读书那会儿，涨了不少。</p>
+<p>阿宁表示，她入学那年的学费为23000元，住宿费一年2400元，每月生活费2500元，再加上学杂费等，四年下来至少花了20万。</p>
+<p>大学期间，因为离家很近，阿宁几乎每周末都会回去，宿舍缺什么生活用品都从家里拿。到了寒暑假，得益于父母的支持，她还会经常出去旅游。「课余时间就跟同学出去吃饭，唱唱歌，所以我其实还挺享受大学生活。」</p>
+<p><strong>也是因为这些原因，阿宁不后悔选择民办大学</strong>，而不是去省外读还行的公办大学。</p>
+<p>2022年，阿宁大学毕业后，通过校招进了一家知名国有银行，从事个人客户经理工作，第一年薪资一万出头，税前年薪将近20万。今年调整后，到手薪资6000元左右。</p>
+<p>「主要还是稳定。」阿宁直言，父母很开明，对她没什么要求，就是希望她工作稳定、开心。</p>
+<p>除了工作上的压力，阿宁在生活中基本没什么压力，吃住都在家里，每月的工资都自己花，或者用一部分理财，「毕竟我是专业的。」</p>
+<p>未来，阿宁表示也没有换工作的打算，「稳定就好。」</p>
+<p><strong>阿宁的同学，毕业后的去向也都很好</strong>。有些去了香港中文大学、上海复旦大学攻读研究生，有些成功上岸公务员，还有的跟她一样，在期货公司、证券公司、银行等金融机构工作。</p>
+<p>除此之外，阿宁还记得有同学毕业后直接继承了家族企业，「家里是开酒厂的。」</p>
+<p>该校官网披露的数据显示，毕业生累计6.8万余人，<strong>近五年平均就业率超过96%。</strong></p>
+<h2><strong>民办高校数量不降反增，专家建议应提升自身竞争力</strong></h2>
+<p>民办高校的学生数量其实非常庞大。根据教育部公布的数据，2021年，全国共有民办高等教育学校764所，在校生约923.55万人；2023年，民办高校新增到789所，民办普通、职业本专科在校生994.38万人。</p>
+<p>从数据上看，民办高校的数量不降反增，<strong>民办高校其实在校生人数仍在逐年增加，00后其实并未真正「抛弃」民办高校，而这些高校也圆了不少青年的大学梦。</strong></p>
+<p>但在人口连续两年负增长，老龄化、少子化、不婚化加速到来的当下，「生源、竞争力和吸引力」，这三大办学关键要素，仍困扰着相当多的民办高校。</p>
+<p>一旦未来生源锐减，资本实力雄厚、办学理念先进、专业设置合理、师资队伍强大的民办高校更容易生存下来。</p>
+<p>21世纪教育研究院院长熊丙奇对橡树实验室表示，进入高等教育普及化时代后，大学不能再追求规模发展，而是要走特色办学之路，特别是民办高校，通过提高教育回报率，苦练内功，提升自己在行业里的竞争力，从而吸引学生报考，提高被录取学生报到率。「<strong>未来那些办学质量不高的学校，可能会因被学生放弃而失去生存、发展空间。」</strong></p>
+<p><strong>（应受访者要求，文中人物均为化名）</strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/BmxH_9VTsJ1tt5Ib4V6veg" rel="noopener noreferrer nofollow" target="_blank">“橡树实验室”</a>，作者：杜一兰，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016209903629444</guid><pubDate>Thu, 31 Oct 2024 20:34:00 +0800</pubDate></item><item><title>瑞幸与星巴克最新财报7项数据对比：不同阶段的同一难题</title><link>https://36kr.com/p/3016204261434885</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_93bd17c2c30945dcbcca6256b3823078@000000_oswg395276oswg1000oswg760_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>美东时间30日盘前，瑞幸咖啡（LKNCY.O，下称“瑞幸”）公布了2024年第三季度业绩；30日盘后，星巴克（SBUX.US）也公布了截至9月底的24财年第四季度更为详细的财务数字并召开了业绩会。瑞幸咖啡在30日股价上涨10.42%，公司市值达74.42亿美元。</p>
+<p>在业绩公告中，瑞幸表示，除新加坡市场外，瑞幸也在积极评估在美国和其他市场的机会。鉴于美国咖啡市场的成熟度、饱和度和竞争环境，<strong>公司也将“审慎考虑”并通过“执行严格执行计划”来触达美国市场</strong>。在业绩电话会上，瑞幸CEO郭谨一则称“（瑞幸）也将积极尝试组织模式和业务模式的探索创新，以更适合的方式、更灵活的策略来拓展海外业务“，<strong>并表示转板仍无明确时间表</strong>。</p>
+<p>星巴克9月就任的CEO BrianNiccol首次参加了公司的业绩电话会议，此前，星巴克已公布过财年四季度业绩的基本情况，但暂缓了提供2025财年的业绩指引。</p>
+<p>在电话会议上，Niccol特别提及了未来的三个变化，<strong>一是自助调味台在2025年初将会在美国市场回归</strong>，顾客可以继续用搅拌棒来自己加奶加糖，疫情期间，调味台被挪到了咖啡操作台后面，但咖啡师经常因为太忙而经常没办法满足顾客奶油、牛奶添加的具体需求；<strong>二是定价策略</strong>，比如不再会为非乳制品奶类（比如燕麦奶）收更高的价格，而且未来一年内也不会提价；<strong>第三是精简菜单</strong>，据Yahoo Finance，星巴克明年6月不会再推出能量饮料冰饮的新品，而且霍华德·舒尔茨提出的<strong>橄榄油咖啡（意榄朵）也将从美国市场的菜单上拿掉</strong>。</p>
+<p>从营收增长的角度来看，瑞幸和星巴克是两家处在不同阶段的公司，瑞幸仍在扩张期，而星巴克则处在战略变革期。但从Niccol在电话会上的表达来看，<strong>未来的星巴克似乎不会继续走向瑞幸的效率模式，而是重回社区咖啡“馆”的定位，提升空间和服务</strong>。</p>
+<h2><strong>处在两个阶段的公司，利润率却接近</strong></h2>
+<p>1.营收：瑞幸依然保持了较快增长，第三季度营收过百亿至101.8亿元人民币，<strong>同比增长了41.4%</strong>；星巴克第四季度营收为90.74亿美元，<strong>同比下滑了3.2%</strong>，其中中国市场单季度营收为7.84亿美元，同比下降了7%。</p>
+<p>2.新开门店：瑞幸第三季度新增门店1382家，星巴克新增门店722家。截至季度末，瑞幸门店总数达21343家，其中自营门店13936家，加盟门店7407家；星巴克门店数40199家，自营门店21018家，加盟门店19181家。其中，<strong>在星巴克季末中国市场的门店数为7596家</strong>。</p>
+<p>3.利润率（GAAP）：<strong>运营利润方面</strong>，瑞幸咖啡第三季度运营利润为15.3%，较去年同期的13.4%提升了1.9个百分点；星巴克财年四季度运营利润率14.4%，较去年下降了380个基点（3.8个百分点），其原因包括（公司）杠杆降低、对员工工资的投资和营销活动的增多。星巴克2024财年的运营利润率为15%，同比也下降了130个基点（1.3个百分点）。<strong>瑞幸单季度运营里利润率也在今年首次超过了星巴克</strong>。毛利率方面，瑞幸咖啡第三季度毛利率为38.85%、星巴克财年第四季度为30.97%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_d6dcdd4d1c864417a17c761af9ce8eb6@000000_oswg188219oswg1080oswg270_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>4.同店数据：<strong>瑞幸自营可比同店营收同比下降了13.1%</strong>；星巴克全球可比同店营收下降了7%，其中中国市场下降了14%——其中8%来自于客单价、6%来自于交易笔数。对比来看，无论是小店还是大店模型，在中国市场今年增长的压力都很大。</p>
+<h2><strong>成本、费用与管理层变动：租金和人工仍然增长较快</strong></h2>
+<p>5.瑞幸的开店节奏似乎在放缓。第三季度，瑞幸在成本项中预开店相关开支同比去年大幅下降了55.2%至30.1万元，公司对此解释称，主要原因今年三气度比去年同期有更少的待开业门店，且这一项成本在今年占营收的比例降至0.1%，去年同期为0.4%。</p>
+<p>6.成本与费用：产品原材料成本来看，瑞幸在第三季度的原材料成本的增速为24.9%，低于营收的增速，费用项中低于营收增速的还有管理费用，该项在第三季度增长了32.3%。此外，<strong>门店租金和运营支出（包括工资费用）增速达到了60.3%，明显高于营收的41.4%的增速</strong>。星巴克的情况相似，其材料和物流成本同比下降了4.2%，降幅比营收高1个百分点，而门店运营成本（包括租金和员工福利）则增长了4.3%。此外，<strong>瑞幸的折旧和摊销这一季度同比增长了93.5%、几乎翻倍，星巴克的折旧和摊销费用在这一季度同比增长了12.4%</strong>。</p>
+<p>7.管理层变动：瑞幸在公告中表示，公司董事会成员、来自大钲资本的刘绍强（Gary Liu）由于个人原因辞职，接替他担任董事的是大钲资本的董事总经理陈规易，陈规易也将担任薪酬委员会的委员，他此前曾就职于竞天公诚等律所，有境内外丰富的法律、投行、投资和管理经验。星巴克方面，除之前宣布全球、中国市场人事调整之外，星巴克北美区CEO Micheal Conway也将于11月底退休。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI1Njk1MDgyMQ==&amp;mid=2247507863&amp;idx=1&amp;sn=fa48bfc5d1702f1d27cb1fbc0058e1b9&amp;chksm=eb630f0b146a5b9bb886602571fc33b40095351f39f101b5077141e6815daeacd762399c08ec&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“明亮公司”（ID：suchbright）</a>，作者：MD，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016204261434885</guid><pubDate>Thu, 31 Oct 2024 20:35:00 +0800</pubDate></item><item><title>AI让手机任务自动“跑”起来，我国高校最新研究，简化移动设备操作</title><link>https://36kr.com/p/3016057940583943</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>AI解放碳基生物双手，甚至能<strong>让你的手机自己玩自己</strong>！</p>
+<p>你没听错——这其实就是移动任务自动化。</p>
+<p>在AI飞速发展下，这逐渐成为一个新兴的热门研究领域。</p>
+<p>移动任务自动化<strong>利用AI精准捕捉并解析人类意图，进而在移动设备</strong>（手机、平板电脑、车机终端）<strong>上高效执行多样化任务</strong>，为那些因认知局限、身体条件限制或身处特殊情境下的用户提供前所未有的便捷与支持。</p>
+<ul>
+<li>帮助视障人群用户完成导航、阅读或网上购物</li>
+<li>辅助老年人使用手机，跨越数字鸿沟</li>
+<li>帮助车主在驾驶过程中完成发送短信或调节车内环境</li>
+<li>替用户完成日常生活中普遍存在的重复性任务</li>
+<li>……</li>
+</ul>
+<p>妈妈再也不嫌重复设置多个日历事项会心烦了。</p>
+<p>最近，来自西安交通大学智能网络与网络安全教育部重点实验室 (MOE KLINNS Lab）的蔡忠闽教授、宋云鹏副教授团队（团队主要研究方向为智能人机交互、混合增强智能、电力系统智能化等），基于团队最新AI研究成果，创新性提出了基于视觉的移动设备任务自动化方案<strong>VisionTasker</strong>。</p>
+<p>这项研究不仅为普通用户提供了更智能的移动设备使用体验，也展现出了对特殊需求群体的关怀与赋能。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,371" src="https://img.36krcdn.com/hsossms/20241031/v2_bd04cbafb8674571bc39b13b465b273a@46958_oswg184880oswg1080oswg371_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>基于视觉的移动设备任务自动化方案</strong></h2>
+<p>团队提出了<strong>VisionTasker</strong>，一个结合基于视觉的UI理解和LLM任务规划的两阶段框架，用于逐步实现移动任务自动化。</p>
+<p>该方案有效消除了表示UI对视图层次结构的依赖，提高了对不同应用界面的适应性。</p>
+<p>值得注意的是，利用VisionTasker无需大量数据训练大模型。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,623" src="https://img.36krcdn.com/hsossms/20241031/v2_8ab97fd6a337411396b676c1e418616c@46958_oswg175609oswg1080oswg623_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>VisionTasker从用户以自然语言提出任务需求开始工作， Agent开始理解并执行指令。</p>
+<p>具体实现如下：</p>
+<p><strong>1、用户界面理解</strong></p>
+<p>VisionTasker通过视觉的方法做UI理解来解析和解释用户界面。</p>
+<p>首先Agent识别并分析用户界面上的元素及布局，如按钮、文本框、文字标签等。</p>
+<p>然后，将这些识别到的视觉信息转换成自然语言描述，用于解释界面内容。</p>
+<p><strong>2、任务规划与执行</strong></p>
+<p>接下来，Agent利用大语言模型导航，根据用户的指令和界面描述信息做任务规划。</p>
+<p>将用户任务拆解为可执行的步骤，如点击或滑动操作，以自动推进任务的完成。</p>
+<p><strong>3、持续迭代以上过程</strong></p>
+<p>每一步完成后，Agent都会根据最新界面和历史动作更新其对话和任务规划，确保每一步的决策都是基于当前上下文的。</p>
+<p>这是个迭代的过程，将持续进行直到判断任务完成或达到预设的限制。</p>
+<p>用户不仅能从交互中解放双手，还可以通过可见提示监控任务进度，并随时中断任务，保持对整个流程的控制。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,321" src="https://img.36krcdn.com/hsossms/20241031/v2_308c58ddfd6e4f8680300c23d4048cf7@46958_oswg281755oswg1080oswg321_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>首先是识别界面中的小部件和文本，检测按钮、文本框等元素及其位置。</p>
+<p>对于没有文本标签的按钮，利用 CLIP 模型基于视觉设计来推断其可能功能。</p>
+<p>随后，系统根据 UI 布局的视觉信息进行区块划分，将界面分割成多个具有不同功能的区块，并对每个区块生成自然语言描述。</p>
+<p>这个过程还包括文本与小部件的匹配，确保正确理解每个元素的功能。</p>
+<p>最终，所有这些信息被转化为自然语言描述，为大语言模型提供清晰、语义丰富的界面信息，使其能够有效地进行任务规划和自动化操作。</p>
+<h2><strong>实验评估</strong></h2>
+<p>实验评估部分，该项目提供了对三种UI理解的比较分析，分别是：</p>
+<ul>
+<li>GPT-4V</li>
+<li>VH（视图层级）</li>
+<li>VisionTasker方法</li>
+</ul>
+<p class="image-wrapper"><img data-img-size-val="828,162" src="https://img.36krcdn.com/hsossms/20241031/v2_fd8a28187b9b4e06a00a0c24dd08a281@46958_oswg75468oswg828oswg162_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">△</p>
+<p>对比显示，VisionTasker在多个维度上比其他方法有显著优势。</p>
+<p>此外，在处理跨语言应用时也表现出了良好的泛化能力。</p>
+<p class="image-wrapper"><img data-img-size-val="766,446" src="https://img.36krcdn.com/hsossms/20241031/v2_e0f5a7187a4546f6955669fdf99eb718@46958_oswg73475oswg766oswg446_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">△</p>
+<p>表明VisionTasker的以视觉为基础的UI理解方法在理解和解释UI方面具有明显优势，尤其是在面对多样化和复杂的用户界面时尤为明显。</p>
+<p class="image-wrapper"><img data-img-size-val="828,338" src="https://img.36krcdn.com/hsossms/20241031/v2_4ba6072c8f9f45478d5d883858ec6fed@46958_oswg40641oswg828oswg338_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">△</p>
+<p>文章还进行了单步预测实验，根据当前的任务状态和用户界面，预测接下来应该执行的动作或操作。</p>
+<p>结果显示，VisionTasker在所有数据集上的平均准确率达到了67%，比基线方法提高了15%以上。</p>
+<h4><strong>真实世界任务：VisionTasker vs 人类</strong></h4>
+<p>实验过程中，研究人员设计了147个真实的多步骤任务来测试VisionTasker的表现，这些任务涵盖了国内常用的42个应用程序。</p>
+<p>与此同时，团队还设置了人类对比测试，由12名人类评估者手动执行这些任务，然后VisionTasker的结果进行比较。</p>
+<p class="image-wrapper"><img data-img-size-val="828,376" src="https://img.36krcdn.com/hsossms/20241031/v2_c8555099b4da427381604a8fbec575c8@46958_oswg101583oswg828oswg376_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>结果显示，VisionTasker在大多数任务中能达到与人类相当的完成率，并且在某些不熟悉的任务中表现优于人类。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,201" src="https://img.36krcdn.com/hsossms/20241031/v2_c5a3e48d37aa4393aabfc2a39e2e0eb3@46958_oswg72943oswg1080oswg201_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>△</strong>实际任务自动化实验的结果 “Ours-qwen”是指使用开源Qwen实现VisionTasker框架，”Ours”表示使用文心一言作为LLM</p>
+<p>团队还评估了VisionTasker在不同条件下的表现，包括使用不同的大语言模型（LLM）和编程演示（PBD）机制。</p>
+<p>VisionTasker 在大多数直观任务中达到了与人类相当的完成率，在熟悉任务中略低于人类但在不熟悉任务中优于人类。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1618" src="https://img.36krcdn.com/hsossms/20241031/v2_9b1e67140c63410dadb7007bf5c450d6@46958_oswg537688oswg1080oswg1618_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">△</p>
+<h2><strong>结论</strong></h2>
+<p>作为一个基于视觉和大模型的移动任务自动化框架，VisionTasker克服了现阶段移动任务自动化对视图层级结构的依赖。</p>
+<p>通过一系列对比实验，证明其在用户界面表现上超越了传统的编程演示和视图层级结构方法。</p>
+<p>它在4个不同的数据集上都展示了高效的UI表示能力，表现出更广泛的应用性；并在Android手机上的147个真实世界任务中，特别是在复杂任务的处理上，表现了出超越人类的任务完成能力。</p>
+<p>此外，通过集成编程演示（PBD）机制，VisionTasker在任务自动化方面有显著的性能提升。</p>
+<p>目前，该工作已以正式论文的形式发表于2024年10月13-16日在美国匹兹堡举行的人机交互顶级会议UIST（The ACM Symposium on User Interface Software and Technology）。</p>
+<p>UIST是人机交互领域专注于人机界面软件和技术创新的CCF A类顶级学术会议。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1434" src="https://img.36krcdn.com/hsossms/20241031/v2_75c55f00d31e4993addf75a57cd0e15c@46958_oswg923303oswg1080oswg1434_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>原文链接：https://dl.acm.org/doi/10.1145/3654777.3676386</p>
+<p>项目链接：https://github.com/AkimotoAyako/VisionTasker</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/WmvQSJG9I-_Ud9Aev9DZag" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：MOE KLINNS Lab，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016057940583943</guid><pubDate>Thu, 31 Oct 2024 20:36:00 +0800</pubDate></item><item><title>安卓阵营生物识别方案愈发多元化，实用才是重点</title><link>https://36kr.com/p/3016348695586056</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>日前有爆料称，今年安卓阵营旗舰新机的生物识别方案极为丰富，既有单独采用光学或单点超声波的指纹识别方案，也有3D人脸+指纹识别的组合。其中，3D人脸+单点超声波指纹一直被认为是最为豪华的解决方案，外界推测即将亮相的荣耀Magic7系列新机或会延续这一设计。</p>
+<p class="image-wrapper"><img data-img-size-val="550,246" src="https://img.36krcdn.com/hsossms/20241031/v2_c83c38944b824a8299de43a7deaacd9a@46958_oswg16356oswg550oswg246_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在许多朋友的刻板印象中，3D人脸识别和指纹识别这两种生物识别方案代表着iOS和安卓阵营的不同选择，但这种两分法有些过于简单粗暴。尽管目前iPhone系列机型全面转向Face ID已经是不争的事实，并且有传言称新款iPhone SE也将会换用这一方案，但这并不意味着指纹识别方案就会从苹果的生态体系中消失，毕竟现阶段iPad系列机型中仍有部分产品还在沿用侧置式Touch ID。</p>
+<p>而在安卓阵营，尽管目前指纹识别成为了主流生物识别方案，但手机厂商也并未放弃对其他技术的探索，例如此前就曾有机型先后尝试虹膜识别等方案。并且从技术难度、使用便利性等方面来说，现阶段3D人脸识别的实用性相对明显更高。比如早年间OPPO Find X便搭载了3D结构光方案，后续华为Mate 20 Pro也配备了这一技术。</p>
+<p class="image-wrapper"><img data-img-size-val="550,354" src="https://img.36krcdn.com/hsossms/20241031/v2_e9974e1d32db4c3a82eac53fcd1c9ea3@46958_oswg22319oswg550oswg354_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>需要注意的是，3D人脸识别只是泛称，其中包含了3D结构光、3D ToF（Time of Flight），以及双目立体成像等多个细分方向，其中的每一种方案都有自己独特的优势。例如苹果Face ID的核心便是3D结构光，在功耗、精度、安全性方面表现更好，适用于对安全性要求更高的场景，但同时也存在识别距离相对较短，整体结构缩小难度较大等局限性。</p>
+<p>3D ToF则与3D结构光在技术层面较为类似，但改用了面光源，优势在于结构相对简单、成本适中，但其识别精准度较3D结构光略有逊色，功耗也相对较高，有部分旗舰机型所采用的就是这一方案。双目立体成像则是基于视差原理的技术，虽然成本最低，但其所采集的3D人脸信息是通过计算得出，所以在安全性上与前者相比有着一定的差距。</p>
+<p>对安卓手机而言，采用3D人脸识别、特别是3D结构光方案的阻碍，其中便有苹果构建的专利壁垒，因此也需要投入更多的资源绕开。此外成本问题也同样存在，由于无论3D结构光、还是3D ToF，都需要定制诸如姿态或距离感应器、3D深感镜头，以及红外镜头等元器件，因此在多种因素的影响下，目前虽然也有部分安卓旗舰支持3D人脸识别，但在整个市场中仍相对小众。</p>
+<p class="image-wrapper"><img data-img-size-val="550,354" src="https://img.36krcdn.com/hsossms/20241031/v2_aa116b9454b64317affd561f35ffcdc0@46958_oswg19699oswg550oswg354_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>对智能手机而言，生物识别技术的核心无疑就是安全性，但在当前技术条件下，3D人脸识别与指纹识别这两个路径均已达到了金融级标准，因此本质上并无高下之分。只是由于核心技术的差异，两者外在表现形式的不同使得手机的屏幕形态有着显著的区别。</p>
+<p>自从苹果方面引入Face ID以来，其前置摄像头、红外摄像头，以及点阵投影器等核心组件就未曾发生过大的变化，并且由于3D结构光技术的局限性，缩小体型也存在不小的困难，因此也使得iPhone的屏幕顶部会出现较大开槽。尽管随着相关技术的优化，如今屏幕已经进化到当前的“药丸屏”形态，同时还适配了灵动岛，但相比安卓手机主流的开孔明显还是会对视觉效果有着更大的影响。据称，苹果也一直研发屏下摄像技术，旨在逐步实现屏幕无开孔的Face ID。</p>
+<p class="image-wrapper"><img data-img-size-val="550,408" src="https://img.36krcdn.com/hsossms/20241031/v2_70d51b5f08a94eee99bb50e53e8b3434@46958_oswg42585oswg550oswg408_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>iPhone相关组件的进化，使得屏幕也完成了从“刘海屏”到“药丸屏”的变化</p>
+<p>相比之下，安卓阵营则一直在不断探索提高屏占比的方法，比如通过改进屏幕封装技术、缩小前摄开孔等措施，以及缩减屏幕边框尺寸，来实现更好的机身正面视觉效果。但受限于3D人脸识别方案无法隐藏关键组件的问题，在屏幕开孔部分相对较大的情况下，无疑就对于屏幕占比的提升形成了矛盾。因此在用户偏好和市场趋势的双重影响下，安卓阵营厂商推进3D人脸识别方案也更为谨慎，目前指纹识别仍是主流。</p>
+<p>当然，指纹识别的不同方案同样也各有优劣。例如超声波指纹识别虽然体验更好，但由于成本不菲，目前还处于逐步普及的阶段，因此如果再增加3D人脸识别，无疑就会继续推高产品的售价。</p>
+<p class="image-wrapper"><img data-img-size-val="550,342" src="https://img.36krcdn.com/hsossms/20241031/v2_5455ca3847af4bf48635b358216ae8ab@46958_oswg17436oswg550oswg342_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>对于用户而言，更关键的是用途完全一致的生物识别方案，也并无冗余设计的需求。特别是由于3D人脸识别和指纹识别同样是向用户提供便捷的身份验证功能，特别是在安全性上都达到了相同水准的情况下，因此理论上只需选择其中一种便足以满足用户的需求。</p>
+<p>在应用层面，如今生物识别技术也早已超越了单纯的身份验证功能。其中以Face ID为例，其并不仅限于解锁、支付、验证身份等，而是已经被深度整合到苹果整个生态中，成为了连接不同设备、提升用户体验的关键一环节。比如在使用AirPods系列TWS耳机时，通过Face ID，iPhone就能捕捉并分析用户的头部信息、创建专属的个人轮廓，并基于此优化空间音频效果，还可以将这一信息在用户的其他苹果设备间中同步，获得无缝衔接的体验一致性。</p>
+<p class="image-wrapper"><img data-img-size-val="550,350" src="https://img.36krcdn.com/hsossms/20241031/v2_b0b9dfcce3c34dcda61ab45493bee702@46958_oswg21734oswg550oswg350_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>苹果这种跨设备的整合能力，以及充分发挥生态优势的策略，无疑也为安卓阵营厂商提供了新的思路。在如今智能手机市场竞争不断加剧的背景下，将生物识别技术拓展为跨端应用的纽带，通过其实现更多的功能来体现差异化，后续也或将会成为安卓阵营的一大方向。但对于智能手机的生物识别方案来说，易用性和实用性无疑将会是未来很长一段时间里的焦点。</p>
+<p>【本文图片来自网络】 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/9RjNHVcRQXDYkhpMfkXpZQ" rel="noopener noreferrer nofollow" target="_blank">“三易生活”</a>，作者：三易菌，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016348695586056</guid><pubDate>Thu, 31 Oct 2024 20:39:00 +0800</pubDate></item></channel></rss>
