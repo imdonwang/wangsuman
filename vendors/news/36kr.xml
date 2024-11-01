@@ -1,210 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 01 Nov 2024 11:30:28 +0800</lastBuildDate><pubDate>Fri, 01 Nov 2024 11:30:28 +0800</pubDate><item><title>ChatGPT AI搜索上线即翻车，OpenAI回应：Ilya看到了什么</title><link>https://36kr.com/p/3017222275016200</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>智东西11月1日报道，OpenAI的AI搜索终于来了！ 昨夜，OpenAI正式为ChatGPT推出 <strong>网页搜索功能</strong> 。 </p>
-<p>用户可以在ChatGPT中通过相关网络资源的链接获得快速、及时的答案。ChatGPT会根据用户的询问选择搜索网页，或者也可以通过点击网页搜索图标手动选择搜索。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,565" src="https://img.36krcdn.com/hsossms/20241101/v2_ecd967d39690440fa109067195d814ed@5888275_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>今年7月，OpenAI就已经推出SearchGPT搜索功能原型，今天ChatGPT搜索推出也意味着OpenAI真正入局AI搜索，将枪口对准了谷歌、必应等老牌搜索引擎企业，以及Perplexity等生成式AI搜索创企。 </p>
-<p>OpenAI CEO萨姆·阿尔特曼（Sam Altman）昨夜在社交平台X在ChatGPT刚发布时就评价道：“<strong>搜索是我们自最初推出以来在ChatGPT中推出的我最喜欢的功能！</strong>” </p>
-<p class="image-wrapper"><img data-img-size-val="956,416" src="https://img.36krcdn.com/hsossms/20241101/v2_2af162a6259c4b429c0d874c4ae3fb5a@5888275_oswg87180oswg956oswg416_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还是有不少用户直接在社交平台X上吐槽这一新功能。如用户发现ChatGPT给出的<strong>链接来源是空的</strong>。 </p>
-<p class="image-wrapper"><img data-img-size-val="1024,798" src="https://img.36krcdn.com/hsossms/20241101/v2_0b37547be383413e8dae35453a6241c9@5888275_oswg415671oswg1024oswg798_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有用户称，ChatGPT搜索的结果会<strong>产生幻觉</strong>。 </p>
-<p class="image-wrapper"><img data-img-size-val="946,1130" src="https://img.36krcdn.com/hsossms/20241101/v2_9f34a9229e0044419e119a62a9095701@5888275_oswg387450oswg946oswg1130_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>用户现在可以在chatgpt.com以及桌面和移动应用程序使用搜索功能，所有ChatGPT Plus和Team用户以及SearchGPT候补名单用户今天可以访问。企业和教育用户将在未来几周内获得访问权限，在未来几个月内向所有免费用户推出。</p>
-<p>还有外媒直接对比体验了ChatGPT搜索与谷歌、Perplexity的效果，其结果显示：对于已经是付费用户的ChatGPT Plus订阅者来说，<strong>新的搜索集成功能是ChatGPT的补充</strong>；但对于非订阅用户，<strong>能够免费提供类似功能Perplexity</strong>，目前仍然是生成式AI网络搜索的王者。 </p>
-<p>此外，阿尔特曼在Reddit回答开发者提问时还剧透了一波新模型，<strong>今年晚些，OpenAI会发布新版本模型，但可能命名不是GPT-5</strong>。 </p>
-<h2><strong>01 搜索模型是GPT-4o微调版本，订阅用户今天可用</strong></h2>
-<p>ChatGPT的搜索模型是<strong>GPT-4o的微调版本</strong>，使用新的合成数据生成技术进行后期训练，包括提取OpenAI o1-preview的输出。ChatGPT搜索也会利用<strong>第三方搜索提供商</strong>以及其合作伙伴直接提供的内容来提供用户正在寻找的信息，其默认网络搜索引擎还包含一个Google Chrome扩展程序。 </p>
-<p>ChatGPT此次推出的新功能就是让用户现在，以更自然、对话的方式提出问题，然后在聊天中获得答案，ChatGPT可以选择使用来自网络的信息进行回复。</p>
-<p class="image-wrapper"><img data-img-size-val="1024,565" src="https://img.36krcdn.com/hsossms/20241101/v2_b32ba9f3decc447ba2814194864f0622@5888275_oswg134158oswg1024oswg565_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如果用户想要针对后续问题进行更深入的探讨，ChatGPT会基于聊天的全部内容提供答案。</p>
-<p class="image-wrapper"><img data-img-size-val="1018,1024" src="https://img.36krcdn.com/hsossms/20241101/v2_bff101d730a449f4b84194d3db6f8ba1@5888275_oswg308851oswg1018oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>OpenAI与新闻和数据提供商合作，为天气、股票、体育、新闻和地图等类别添加最新信息和新的视觉设计。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1208" src="https://img.36krcdn.com/hsossms/20241101/v2_66b35a8ca82448ca80c7752f92828672@5888275_oswg341156oswg1080oswg1208_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对话中会包含新闻文章和博客文章等来源的链接，用户点击回复下方的来源按钮可打开包含参考资料的侧边栏。</p>
-<p class="image-wrapper"><img data-img-size-val="1024,573" src="https://img.36krcdn.com/hsossms/20241101/v2_03edfbab2113434ead8ff13901aa4fac@5888275_oswg474213oswg1024oswg573_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>OpenAI与美联社、英国《金融时报》、《世界报》、路透社、《大西洋月刊》、《时代周刊》等媒体进行了合作，任何网站或出版商都可以选择出现在这些网站上。</p>
-<p>得益于SearchGPT原型的反馈，OpenAI计划继续改进搜索功能，特别是在购物和旅行等领域，并利用OpenAI o1系列的推理能力进行更深入的研究。</p>
-<h2><strong>02 ChatGPT、谷歌、Perplexity对比，免费的Perplexity仍为王者</strong></h2>
-<p>与谷歌和Bing不同，ChatGPT的搜索功能专注于<strong>自然语言交互</strong>，与谷歌、Bing只给出链接不同，这意味着用户可以在查询后直接与模型交互，并且它会理解上下文和用户的意图。这类似于Perplexity等其他AI搜索。</p>
-<p>外媒在一系列不同的用例上测试了该功能，并与谷歌和Perplexity进行了比较，得出了以下结论：</p>
-<h3><strong>呈现数据：谷歌、Perplexity有图表，ChatGPT结果最全面</strong></h3>
-<p>提示：“<strong>比特币的价格是多少？</strong>”（作者本人在巴西）三个搜索工具的信息都是准确的，但呈现方式各有不同。</p>
-<p><strong>谷歌</strong>提供结果的速度最快，它使用<strong>价格图表</strong>跟踪器显示了以美元计价的基本价格图表，还提供了附加信息和常见的后续问题。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,857" src="https://img.36krcdn.com/hsossms/20241101/v2_58411e11aacf4694bad41447b9640123@5888275_oswg373713oswg1080oswg857_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲谷歌的搜索结果列出了业内最相关的价格追踪器列表。</p>
-<p>另一方面，<strong>Perplexity</strong>不仅提供了图表，还用<strong>自然语言回答了问题</strong>。</p>
-<p>该信息下方是一系列带有后续问题的建议，以帮助用户更深入了解价格预测和比特币。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1102" src="https://img.36krcdn.com/hsossms/20241101/v2_b41b6d897cb14d85b0eb0deb0dedc8a2@5888275_oswg431533oswg1080oswg1102_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>SearchGPT</strong>没有提供图表，回复也只是文字，但它却是三个结果中<strong>最全面的</strong>。它也是唯一一款能够理解提问者本人的位置并以美元和巴西雷亚尔显示价格的工具，外国用户可能会发现这一功能非常方便。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,710" src="https://img.36krcdn.com/hsossms/20241101/v2_bf3c6ab880db41eebbdfb47878e78996@5888275_oswg373593oswg1080oswg710_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>复杂的本地服务搜索和多种情境的理解：Perplexity最准确，但没考虑位置</strong></h3>
-<p>提示：<strong>寻找一位专门治疗运动损伤的理疗师，除了葡萄牙语外，还会说西班牙语或英语，并且在巴西阿雷格里港市中心附近下午2点后工作</strong>。</p>
-<p>这一问题是想测试模型处理连接不同上下文的搜索的能力。正如预期的那样，谷歌没有很好地处理该提示，因为外媒将问题调整为更短、更针对关键字的提示，“<strong>物理治疗师、运动损伤、西班牙语、英语、巴西阿雷格里港</strong>”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,574" src="https://img.36krcdn.com/hsossms/20241101/v2_4680a066afd54ca4b717917f67d78982@5888275_oswg197119oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>谷歌</strong>给出了答案。第一个是符合标准但不会说其他语言的专业人士的领英页面，谷歌还在回复是说，搜索中不包含“西班牙语”一词。</p>
-<p>以下结果只是Google Places上列出的专业人士列表，与位置和可用性相关，但不因语言或专业知识而有所区别。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1290" src="https://img.36krcdn.com/hsossms/20241101/v2_1fc5c30a7e9f4a42813a5385ad0730c9@5888275_oswg667373oswg1080oswg1290_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>值得注意的是，谷歌提供的信息并没提到它与查询完全匹配。</p>
-<p><strong>SearchGPT</strong>搜遍了Google Places，显示了有专门从事体育的医生，甚至还有一位在奥运会工作过的医生。然而其结果显示的双语医生信息不实。</p>
-<p class="image-wrapper"><img data-img-size-val="1024,1003" src="https://img.36krcdn.com/hsossms/20241101/v2_4f7be876149342a68baa5db1cfe20c90@5888275_oswg463792oswg1024oswg1003_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>Perplexity</strong>也无法提供完美的匹配，但从各方面来看，它是三者中最准确的。它能够提供专门从事运动并且精通西班牙语或葡萄牙语以及英语的理疗师。但是，结果中没有提到位置。</p>
-<p>但Perplexity的后续表现却脱颖而出。即使不相关，其中一个建议问题是在不考虑位置的情况下进行搜索。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1193" src="https://img.36krcdn.com/hsossms/20241101/v2_66f43a923c514dff98b79e369f15eaec@5888275_oswg840528oswg1080oswg1193_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>审查制度：ChatGPT拒绝生成，Perplexity无视审查，谷歌可手动过滤</strong></h3>
-<p>提示：<strong>拉丁裔粉丝的最佳成人网站</strong>。</p>
-<p><strong>SearchGPT</strong>立即拒绝生成结果。即使在网络搜索方面，该模型也受到严格审查。</p>
-<p><strong>Perplexity</strong>能够提供答案，甚至显示订阅价格等其他详细信息以及支持其决策的论据。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,845" src="https://img.36krcdn.com/hsossms/20241101/v2_5693ee26dcb04df9b500d71af5bb366a@5888275_oswg341554oswg1080oswg845_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>谷歌</strong>有一个“安全搜索”过滤器，用户可以根据需要打开或关闭它。打开时，它不会显示任何结果。关闭时，它不会提供列表，而是显示带有列表的文章列表。</p>
-<p class="image-wrapper"><img data-img-size-val="1024,568" src="https://img.36krcdn.com/hsossms/20241101/v2_8a76b3908e3f4545b58fad681466735c@5888275_oswg169804oswg1024oswg568_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>测试结果显示，对于现有的ChatGPT Plus订阅者来说，新的搜索集成功能是一个很棒的补充，可以将他们的订阅转变为一个一体化的AI强大工具。</p>
-<p>它能够在创意任务、编码、图像生成和网络搜索之间无缝切换，<strong>对于已经利用ChatGPT多样化功能的高级用户来说，它是一个高效的选择</strong>。</p>
-<p>然而，鉴于Perplexity免费提供类似的功能，如果我们只考虑该功能的话，<strong>Perplexity目前仍然是生成式AI网络搜索的王者</strong>。</p>
-<p>Perplexity的最佳使用场景包括：主要关注研究和事实调查的用户，喜欢AI搜索体验且无需支付订阅费的人，学生和学者需要在初步查询之后与人工智能一起进行迭代并提出后续想法，寻求不受限制地访问各种内容的用户。 </p>
-<p>谷歌的最佳使用场景包括：寻求快速、直接答案的普通网民，本地商户搜索和地图集成，购物相关查询，包含全面的产品列表，喜欢传统搜索引擎功能和广告支持内容的用户，出于某种原因喜欢广告的怪人。</p>
-<p>它们之间的选择最终取决于用户是否优先考虑专门的搜索功能，还是更喜欢具有搜索功能之一的多功能AI助手。</p>
-<h2><strong>03 阿尔特曼剧透新模型，年底发布，可能不叫GPT-5</strong></h2>
-<p>ChatGPT搜索发布后，阿尔特曼联合几位高管在Reddit上积极回复开发者提问，顺带还剧透了一波新产品。</p>
-<p>阿尔特曼称，SearchGPT的优势在于“<strong>这是一种更快、更简单的方法来获取我正在寻找的信息</strong>”。 </p>
-<p class="image-wrapper"><img data-img-size-val="1024,839" src="https://img.36krcdn.com/hsossms/20241101/v2_73772a1e465a4566a21b888a25cdf03a@5888275_oswg498800oswg1024oswg839_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>阿尔特曼还透露，<strong>今年晚些，OpenAI会发布新版本模型，但可能命名不是GPT-5</strong>。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,647" src="https://img.36krcdn.com/hsossms/20241101/v2_40c4227170b74ae7ad972e4dfa74dcda@5888275_oswg188450oswg1080oswg647_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有开发者询问了OpenAI前首席科学家伊尔亚·苏茨克维（Ilya Sutskever）到底看到了什么，阿尔特曼直接开启了“夸夸模式”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,639" src="https://img.36krcdn.com/hsossms/20241101/v2_3c56c33e09a64e97862aff30c0178ac0@5888275_oswg212170oswg1080oswg639_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了阿尔特曼，OpenAI的其他高管还透露了一些新动向。如正在研发音乐功能、很快会有GPT-4o图像和3D生成模型的进展等。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,589" src="https://img.36krcdn.com/hsossms/20241101/v2_eae27562c78f497d8d7b84cc1f798a1c@5888275_oswg186058oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,748" src="https://img.36krcdn.com/hsossms/20241101/v2_4797d73d2224444b8e0293deb7550639@5888275_oswg174927oswg1080oswg748_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>04 AI搜索之战开启，谷歌、Meta动作不断</strong></h2>
-<p>本周发生的一系列事件表明，AI搜索之战将进入更具颠覆性的阶段。</p>
-<p>新推出的苹果AI的核心是经过改进的Siri AI助手OpenAI的ChatGPT即将与Siri集成，这将为iPhone用户提供一种搜索信息的新方式；Meta高管宣布，他们正致力于在自己的AI助手Meta AI中扩展网络搜索功能；OpenAI将网络搜索集成到ChatGPT中。</p>
-<p>不过，Meta并未证实有报道称其希望用自己的搜索引擎取代谷歌和Bing。Meta首席财务官Susan Li指出，Meta已经拥有自己的网络爬虫，这是搜索背后的基本技术之一，Meta AI预计将处理越来越广泛的搜索查询，包括“更具盈利能力”的查询。这清楚地表明，该公司已将目光投向谷歌的地盘。</p>
-<p>值得注意的是，这些举措都没有用竞争对手的通用搜索引擎来攻击谷歌。多年来，这一策略一直是潜在竞争对手的坟墓。</p>
-<p>相反，谷歌的竞争对手正在为聊天机器人和人工智能助手添加搜索功能，这些助手正开始占据更大的在线关注份额。</p>
-<p>这让谷歌面临一个典型的两难境地，这也是占据主导地位的科技公司经常面临的问题。它是否应该尝试将一项潜在的颠覆性技术融入现有产品？还是应该将其视为一种新型服务的基础，以便有朝一日能够威胁到旧有的垄断地位？</p>
-<p>谷歌正在努力保持开放的心态。它已将由AI生成的网页摘要的AI概览功能添加到其搜索引擎中，并发布了一款名为Gemini的独立聊天机器人。</p>
-<p>在聊天机器人和助手这一新兴领域，谷歌也面临着更激烈的竞争。例如，OpenAI每周至少有2.5亿人使用ChatGPT一次，为其新搜索功能创造了即时受众；每月至少使用Meta AI一次的人数达到5亿。</p>
-<p>而谷歌的优势在于，Gemini可以通过安卓操作系统让其能够直接接触众多智能手机用户。本周，Gemini被嵌入谷歌地图，地图是谷歌七大服务之一，以及覆盖超过20亿人。</p>
-<p>谷歌在搜索领域的主导地位或许会延续到AI时代。其原因是，负责审理美国反垄断案的法官阿米特·梅塔 (Amit Mehta) 表示，谷歌积累的大量搜索查询数据使其对用户认为最相关的网络结果有了独特的见解，这是生成式AI模型无法独自做到的。</p>
-<p>根深蒂固的行为习惯会让人们转变速度缓慢。谷歌作为主导性通用搜索引擎的地位看起来一如既往地稳固。但随着搜索扩展到新一代人工智能聊天机器人、助手和代理，它不再能指望受众的全神贯注。</p>
-<h2><strong>05 结语：OpenAI竞争定位转变</strong></h2>
-<p>今年 7 月，OpenAI向10000名用户发布了一个生成式AI搜索的原型试水，这在科技行业引起了震动，导致微软和Alphabet的股价在发布当天下跌了3%。此后，OpenAI就一直在悄悄地构建其搜索功能，甚至试图从谷歌招募人才。直至今天，ChatGPT搜索发布，这也意味着该公司竞争定位的重大转变。</p>
-<p>随着这些聊天机器人掌握更多技能并进化为Agent，能够代表用户采取行动，让其从网络中提取信息的能力将成为一项必不可少的能力。 </p>
-<p>AI搜索领域的竞争也日渐激烈，谷歌最近将其AI概览功能扩展到100多个国家/地区，Meta据称正在开发自己的AI搜索解决方案，这些都是OpenAI在AI搜索领域的强大竞争对手。未来，生成式AI将为互联网搜索市场带来巨变。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/g-ChUyS6hGzcERdxklCFbw" rel="noopener noreferrer nofollow" target="_blank">“智东西”</a>，作者：程 茜，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017222275016200</guid><pubDate>Fri, 01 Nov 2024 10:56:00 +0800</pubDate></item><item><title>爆买电视机，00后创造了消费爽剧</title><link>https://36kr.com/p/3017231424201985</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“为了玩一把300块的黑神话，花几千元买了一台电视。”</p>
-<p>今年9月，95年的小雨，舍弃了17.3英寸的游戏本，决定下单电视。理由是：“如果没有大屏幕，我会觉得对不起这款国产3A游戏。”</p>
-<p>电视机意外获得游戏党宠幸。另一边，热衷家庭式社交的年轻人，也开始回归客厅、沙发和大电视。仅8月份，电视机的出货量就达到275.5万台，环比增长27%。B站用户对“电视”的搜索量，登顶了大家电类目第一。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_8bfc1d8a791f40e5b39ffba03e0f926d@000000_oswg540066oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>原以为沦为老古董的电视，突然在年轻人中爆火。细究其中还能发现，国牌已经完全统治了这一个类目：海信、小米、TCL、创维，拿出其中任意一个品牌，出货量都能吊打索尼三星等外资大牌的出货总量。</p>
-<p>电视机，这是又行了？</p>
-<h2><strong>01 游戏玩家，成了拯救电视的第一波人</strong></h2>
-<p>作为拯救电视的主力，新世代的身影十足活跃，他们是游戏玩家、影像极客、客厅社交爱好者等。</p>
-<p>年轻人不仅开始买电视，买的途径也五花八门。追求个人化、反权威的年轻人，不仅要买电视，更要懂电视，早已不是唯品牌论的上一代，一心只想买到最适合自己的那一台。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_41a8db1cea84494b947df12561261ea4@000000_oswg67635oswg997oswg558_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而率先享受到这一波红利的，是B站上的数码UP主。</p>
-<p>“电锯爷”在圈内属于“电视专家”，三年多时间做过70多条与电视有关的视频，解说以“硬核”、“公正”闻名。熟悉他的粉丝都知道，他喜欢将电视参数直接写入word文档里，直接在视频里读出来。</p>
-<p>10万粉丝的UP主“电锯爷”，在这个夏天，迎来了自己的事业春天：他用海信电视试玩了20多分钟的《黑神话：悟空》，真实体验结合技术解读，直接带来了四百多个订单转化，客单价超过7000元，销售额破300万。</p>
-<p>UP主个人预计，今年仅电视的带货GMV就能超过1亿。</p>
-<p>电锯爷的屏幕弹幕显示，对电视有兴趣的人，有各品牌电视的粉丝，和正在打造新家的人，当然游戏玩家也是不少的。</p>
-<p>另外一位B站UP主“狠人大肚”，也是见证电视机热度的博主。他有7万多粉丝，日常视频的C位，多集中在笔记本、键盘、投影仪等更有热度的产品上。今年，他做了两期跟电视机有关的测评，点击量立刻攀升视频的前列。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_fe0c791bb47844719dcd67f6e112eff3@000000_oswg507714oswg994oswg555_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这两期的视频用户定位，也是以影像和游戏的发烧友为主，并成功开辟了他个人的“电视营销赛道”。</p>
-<p>电视机的火热，除了游戏玩家的热情之外，也与电视行业近年在“游戏电视”上的努力营销有关。</p>
-<p>“游戏电视”这一概念兴起于2018年，它以120Hz或更高的“高刷新率”、低延迟为卖点。玩家用电视玩游戏，画面据说会更流畅，更有实时感。</p>
-<p>近年，很多电视品牌都瞄向了细分的游戏群体，推出相关产品。比如海信就在新推出的产品系列中，植入了专属的“游戏模式”，还推出AI画质调校功能等，把自己包装成“游戏搭子”。创维、小米等，也推出了相关功能，瞄向中国近7亿游戏人口。</p>
-<p>游戏玩家与B站用户天生重合度较高，B站也意外成了电视机的最新大卖场。B站站内数据显示，年轻用户“电视”的主动搜索量，已经登顶了大家电类目第一。</p>
-<p>品牌的种草转化率也十分惊人。以海信电视为例，在B站的种草带货视频，平均roi超过20。品牌在B站上找一个UP主带货，可能抵得过20个线下销售。</p>
-<h2><strong>02 大屏电视，成就了年轻人的新社交学</strong></h2>
-<p>很长一段时间，手机、平板、电脑，已经彻底将中国人从以前“众乐乐”的信仰中，改变成了“独乐群体”。这些电子设备，都具备极强的私人属性，有人将之称为“对外关闭的门”。它们把人关进卧室和被窝，小屏幕成了很多人唯一的朋友。</p>
-<p>电视就不同了。它天然保留着两个独特的社会属性，即家庭和社交。但近几年，这两项属性的社会价值是被忽视的，直到最近，一部分年轻人才开始觉醒，“这样一个人下去也不好玩” 。</p>
-<p>他们利用时下国家以旧换新等政策利好，通过购买电视，来重塑自己对理想生活的追求。</p>
-<p>00年出生的小陈，最近就在客厅添置了一台电视。</p>
-<p>他算社交生活的热衷者。今年5月，一档以直播为噱头的音综节目频上热搜，喜欢热闹的小陈，也开始在周五组织友人来自家一同观看。</p>
-<p>观影工具是一台网红投影仪。</p>
-<p>当客厅的人多起来，小陈就发现：投影仪需要暗光环境，客厅一旦关灯大家就看不清彼此的脸，交谈少了，气氛也不太活络，观影有点儿尴尬。其中一个朋友起身上厕所时，还磕到了茶几。</p>
-<p>散场后，对社交质感有要求的小陈，一个人躺在床上回想有啥救场方式。</p>
-<p>一番思考后，小陈将一台4K（显示屏分辨率为3840×2160及以上的超高清）、多功能的75英寸大屏国产电视，搬进了自己的出租屋。他的想法是：电视不用关灯，大家更能边看边聊天。</p>
-<p>这台电视售价5599元，是他在北京一个月的房租。平时花钱抠抠搜搜，他从没想到，买起电视来，自己竟然变得如此大方。</p>
-<p>家住深圳宝安区的90后小懿，最近也换了一台大屏幕电视。</p>
-<p>他不属于游戏的独行侠，而是游戏社交爱好者。他喜欢一款叫做“马里奥赛车”的游戏，可以支持4个朋友各自拿着手柄一同竞速漂移。</p>
-<p>但他也有苦恼：游戏会把40英寸的电视屏等分为4个部分，属于单人玩家的画面实在太小了，根本看不清。</p>
-<p>恰逢“以旧换新”的政策到来，小懿用一台售价7299元的85英寸大屏电视，把原来40英寸的老电视屏，踢出了房间。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_11a3dc9698a04f00950e3188d9e3ffe3@000000_oswg166098oswg1080oswg673_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图 | “马里奥赛车”，大屏才好玩 </p>
-<p>从这些个例可以看到，如果要让大家能重回沙发，前置条件就是“这得是一台大屏幕电视机”，否则社交能量场的聚拢，无从说起。</p>
-<p>有意思的一点是，伴随着部分年轻人重回客厅里的多人社交，电视市场确实也呈现出尺寸越大、销量增长最高的趋势。</p>
-<p>据第一财经统计，从2015年到2021年，中国电视平均尺寸从44.5英寸一路增长到54.4英寸，电视尺寸规格以每年约1.5英寸的速度增长。</p>
-<p>到了今年第三季度，75英寸的电视已经成飙升为零售量第一，销量占比达到20.8%，较去年同期提升2%。</p>
-<p>而85英寸的电视销量，同比增长48.4%；100英寸的电视，销量同比增幅更是高达182.7%，“可谓屏幕越大越吃香”。</p>
-<p>与此同时，中国电视在颜值、功能和综合品质上也越来越智能，但价格却在持续变得性价比。</p>
-<p>有业者就统计，2021年，一款85寸的电视如果能卖到1万元内，就算便宜了。但到了2023年，价格已经降到了5000多元，两年降价近40%。</p>
-<blockquote>
-<p>据奥维云网数据显示，从2022年以来，中国市场各个尺寸的电视都出现了一定的价格下调，例如46-59英寸电视价格下降了近千元，80英寸以上的电视价格甚至下降超过3000元。</p>
-</blockquote>
-<p>放到今年9月，商务部等4部门办公厅印发通知，要求各地统筹使用中央与地方资金，对个人消费者购买电视、冰箱、空调等8类家电产品给予以旧换新的补贴，补贴标准为产品最终销售价格的15%。</p>
-<p>这就意味着购买一台8000元的高端电视机，个人消费者可以获取直降1200元的大力度优惠，这就为年轻人买电视减了负。</p>
-<p>可以说，越来越具有性价比的大屏幕电视，不但把朋友都赢了回来，还带动了中国家装的新审美变化——省掉了电视墙。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_7ac74c68046f4fdfb4a92b961bbad89a@000000_oswg97745oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图 | 政策补贴，刺激消费 </p>
-<h2><strong>03 国产电视，通吃电视新一代</strong></h2>
-<p>00后重新买电视，还有一个消费倾向值得关注，那就是对国产品牌的喜爱和青睐，几乎达到了一统江山的新高度。</p>
-<p>根据洛图科技数据显示，2024年第三季度，中国电视市场前8大品牌——海信、小米、TCL、创维、长虹、康佳、华为、海尔以及含其子品牌，出货总量达780万台，合计占到整体市场份额的96.1%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_d557d0908a9140879df0c14d189039eb@000000_oswg915110oswg1080oswg1672_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>图|国产电视强势崛起，数据来自连山易市场研究公司 </p>
-<p>赫赫有名的外资四大品牌索尼、三星、夏普和飞利浦遭遇滑铁卢，出货总量不及8大国产品牌中的任意一个品牌，市占率不足5%。这放在20多年前，是不敢想象的事。</p>
-<p>其实中国的电视机行业，并非只是靠性价比来打天下，里面藏着中国电视机业这些年发展起来的黑科技，只是普罗大众缺乏机会了解。</p>
-<p>比如在发展如火如荼的miniLED电视领域，这一技术的寿命普遍被认为能达到50000小时以上，远高于OLED电视，且其亮度普遍在1000尼特以上，部分产品甚至达到2000尼特以上，能更好还原画面细节。</p>
-<p>中国和韩国在这一领域竞争激烈。但最新的结果是，2024年第二季度，中国Mini LED电视在出货量和营收上均实现了突破式增长，总出货量同比增长68%，营收同比增长60%，首次超越了长期占据领先地位的OLED电视。</p>
-<p>业内有声音认为，国产电视机品牌的这些性能升级，在注重画质的数码发烧友中，已经逐渐建构起深刻印象，也更能直观地击中更广大的消费群体，传递出“买国货，更好更便宜”的讯息。</p>
-<p>此外，中国电视机在服务人群上，也越来越垂类和细分。除了前述的游戏电视外，今年最火的还有两个概念，一个是AI电视、一个是艺术电视（追求美观和技术的电视），此外还有一个移动智慧屏也备受关注。</p>
-<p>可以说，新一代年轻人，买一台电视的选择权，已经大大超过在奶茶店里喝一杯的丰富性。</p>
-<p>临近双十一，B站UP主电锯爷的首页，已经被海信、TCL、创维各种国产品牌的直播预约填满。</p>
-<p>刷刷B站的数码区，就会发现年轻人对于新潮电子产品的追求是没有止境的，他们愿意尝试且具有很强的消费力。消费没有降级，前提是产品要升级。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIzMDg1MzUzMg==&amp;mid=2247522978&amp;idx=1&amp;sn=21b5b887f0ccf7ea87aa7b04155f1fc5&amp;chksm=e9c9d81d50e4ffbff8c925a278ef9a8854428002844f4e2452728fe6e123829e135a31ca4070&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“真故研究室”（ID：zhengulab）</a>，作者：梁湘，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017231424201985</guid><pubDate>Fri, 01 Nov 2024 10:59:00 +0800</pubDate></item><item><title>狂砸10万片H100 GPU训练，扎克伯格剧透Llama 4，隔空对战马斯克</title><link>https://36kr.com/p/3017223381706248</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>智东西11月1日消息，据外媒Wired报道，在周三的Meta第三季度财报电话会议上，Meta首席执行官马克·扎克伯格（Mark Zuckerberg）透露，Llama 4模型正在一个由10万片H100 GPU组成的集群上进行训练，并预计在明年首次推出。</p>
-<p>为了支持AI计划，Meta预计本年度资本支出将高达400亿美元，比去年增加了超过42%。扎克伯格在财报电话会议中强调，明年公司将进一步加大对AI基础设施的投资。 </p>
-<p>2024年第三季度，Meta收入同比增长19%至406亿美元，高于华尔街预测的403亿美元。净利润增长了35%至157亿美元，远高于市场预期的136亿美元。Meta应用系列的日活跃用户增长了5%，达到33亿。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_92cf7189929e4c759e802f5d65caf12c@000000_oswg152969oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲Meta 2023年Q1~2024年Q3的营收及增长情况</p>
-<p>财报公布后，Meta股价盘后一度跌逾3%，后收窄至3%以内。截至撰稿，Meta股价为567.58美元，较昨日收盘下降4.09%，市值1.44万亿美元。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_6be174681d4942569def74d15a8ba025@000000_oswg77504oswg1080oswg619_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲Meta股价（图源：富途牛牛）</p>
-<h2><strong>01 Meta斥资400亿建10万片GPU集群</strong></h2>
-<p>自2023年7月以来，Meta已陆续推出了多个版本的Llama模型，最新的Llama 3.2已于今年9月发布。与主要竞争对手提供的封闭API服务不同，Llama作为开放源代码项目，受到了众多希望完全掌控自身模型、数据处理流程以及成本控制的企业和个人研究者的青睐。 </p>
-<p>针对即将推出的Llama 4模型，扎克伯格透露，该模型正在由10万片H100 GPU组成的集群上进行训练，并暗示新版本将引入“新的模态”、“更强的推理能力”以及“更快的性能”。 </p>
-<p>开发更为强大的AI模型需要更多的计算资源和数据。拥有如此规模的GPU集群似乎让Meta处于行业前沿，但实际上，多家大型科技公司都在竞相构建包含超过十万片先进芯片的计算设施。</p>
-<p>今年3月，Meta与英伟达联合公布了用于Llama 3模型训练的2.5万片H100 GPU集群的具体信息。随后，在7月，特斯拉首席执行官埃隆·马斯克（Elon Musk）宣称其旗下的大模型独角兽xAI联合社交平台X及英伟达建立了拥有10万片H100 GPU的集群，并称这是当时全球最强大的AI训练系统之一。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_ef022ee5c3654f4aaf27d8cb2fc55fa9@000000_oswg146945oswg576oswg300_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲特斯拉首席执行官埃隆·马斯克（Elon Musk）推出xAI（图源：Getty Images）</p>
-<p>与此同时，OpenAI也在持续投入大量资金开发新的AI模型。OpenAI前首席技术官米拉·穆拉蒂（Mira Murati）曾透露，下一代模型GPT-5不仅规模将超过前代，还将具备更强大的推理能力，但她没有透露用于训练该模型的具体计算资源细节。周二，谷歌首席执行官桑达尔·皮查伊（Sundar Pichai）也宣布了最新一代Gemini系列生成式AI模型正处于研发阶段。</p>
-<p>运营这样庞大的GPU集群来训练Llama 4模型将消耗大量的能源。在财报电话会议上，面对有关美国部分地区可能面临的电力供应限制的提问时，Meta管理层未给出直接回应。</p>
-<p>据研究机构Semi Analysis估计，一个包含10万片H100 GPU的集群理论上需要约150兆瓦的电能支持。相比之下，美国最大的国家实验室超级计算机El Capitan仅需约30兆瓦的功率。为满足数据中心及其他基础设施的需求，Meta预计本年度资本支出将达到高达400亿美元，比去年增加了超过42%，并且预测未来一年内相关开支还将继续上升。</p>
-<h2><strong>02 AI支出加速，Reality Labs部门亏损44亿美元</strong></h2>
-<p>从财报角度看，第三季度，公司收入同比增长19%至406亿美元，高于华尔街预测的403亿美元。净利润增长了35%至157亿美元，远高于市场预期的136亿美元。Meta应用系列的日活跃用户增长了5%，达到33亿。</p>
-<p>今年Meta的总运营成本增长了约9%，但总体销售额（主要来自广告）飙升了22%以上。这意味着，即使公司在Llama项目上投入了数十亿美元，其财务表现依然非常强劲。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_28c04a22f6824e3da70807b32ff98c1b@000000_oswg69287oswg1078oswg666_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲Meta 2023年Q1~2024年Q3的净利润及增长情况</p>
-<p>在财报电话会议上，扎克伯格提到，还有许多机会可以利用AI技术来加速公司的核心业务。他认为这些投资将在未来几年带来高回报，因此应继续加强投资。今年以来，Meta平台上的AI驱动信息流和视频推荐功能已经将Facebook和Instagram的用户使用时长分别提高了8%和6%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_df43673fad8b418d883f991752625999@000000_oswg217141oswg600oswg283_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲Meta希望使用Facebook的旧数据来训练其AI模型（图源：Getty Images）</p>
-<p>扎克伯格已向AI领域投入大量资金，以改善Meta的广告产品和内容推荐，并开始将生成式AI工具集成到平台中。他面临着通过AI计划实现盈利的压力，因为运行服务器和数据中心的成本非常高，而且谷歌等竞争对手的竞争也非常激烈。</p>
-<p>此外，扎克伯格认为VR头显和AR眼镜是“下一个计算平台”。Meta已经与雷朋合作推出了一款名为Ray-Ban Meta的智能眼镜，这款眼镜价格亲民但不具备AR功能。上个月，在Meta Connect 2024大会上，Meta展示了名为Orion的AR智能眼镜原型。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_71f40c52e78040319457f04106e3ecfa@000000_oswg292127oswg600oswg283_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲Orion眼镜原型（图源：Meta）</p>
-<p>本周三，Meta宣布负责VR、AR及元宇宙技术研发的Reality Labs部门第三季度收入为2700万美元，营业亏损为44亿美元。自2020年以来，Reality Labs部门的累计营运亏损已超过580亿美元。该公司还预计，Reality Labs全年的运营亏损将同比大幅增加。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_a9b764b4444647929db9c75861c47a18@000000_oswg38626oswg1078oswg683_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲Meta 2024年Q3各业务营收情况占比（亿美元）</p>
-<p>本月早些时候，据英国《金融时报》报道，Meta正在重组WhatsApp、Instagram和Reality Labs的某些团队，包括裁员和人员调动。</p>
-<h2><strong>03 结语：广告收入支撑AI投资，扎克伯格持续押注</strong></h2>
-<p>从第三季度财报来看，Meta继续保持增长势头，广告收入丰厚。通过AI优化，Meta已经提高了其应用系列的用户使用时长和日活跃用户数量。随着Meta AI未来可能内置广告功能，这将为公司开辟新的创收渠道，进一步增强其盈利能力。</p>
-<p>扎克伯格持续为Meta的AI战略注入资金，支持GPU集群、数据中心等关键基础设施的建设。随着Llama 4模型的推出，Meta AI聊天机器人和其他AI功能将进一步优化，从而提升用户体验并推动平台的发展。</p>
-<p>但是，目前Meta在AI领域的投资仍然处于烧钱阶段，Meta AI尚未实现盈利。同样，AR和VR的研发也耗费了大量资金，尤其是Reality Labs部门在第三季度录得44亿美元的营业亏损。尽管如此，扎克伯格依然坚信这些投资将在未来带来巨大的回报，并继续坚定地支持这些项目。</p>
-<p>Meta首席财务官Susan Li提到，明年公司将优先考虑进一步投资Reality Labs、商业化策略、基础设施建设和生成式AI技术，并将简化公司在其他领域的运营。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652775703&amp;idx=3&amp;sn=14afcb00080e40d48c6b694adcb01b82&amp;chksm=85e11e7504baca3b508017ccba2237d60e5567864ada3b91a004cc339de4b5848f4e4a731309&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智东西”（ID：zhidxcom）</a>，作者：汪 越，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017223381706248</guid><pubDate>Fri, 01 Nov 2024 11:11:00 +0800</pubDate></item><item><title>杭州超级LP，操刀百亿大交易</title><link>https://36kr.com/p/3017244784010756</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 01 Nov 2024 12:00:42 +0800</lastBuildDate><pubDate>Fri, 01 Nov 2024 12:00:42 +0800</pubDate><item><title>杭州超级LP，操刀百亿大交易</title><link>https://36kr.com/p/3017244784010756</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>顶级投资人，杭州国资，又在本周操刀了一笔大交易。 </p>
 <p>公告显示，A股上市公司海联讯，将吸收合并B股上市公司杭汽轮B。前者市值40亿，后者市值92亿，按照目前A股并购重组题材的疯涨形势，合并后杭州或又将诞生一家上百亿乃至数百亿市值的先进制造业公司。 </p>
 <p>获利的当然不止杭州。海联讯通过重组将实现业务转型，杭汽轮则回到A股重塑估值。此外一批押注杭汽轮的海外投资者也将获得丰厚回报。 </p>
@@ -516,4 +311,230 @@
 <p><strong>从发迹到跌落，周正毅的往事，交织了时代发展和个人膨胀的各种元素，堪称一个商业时代的注脚。</strong>他入狱服刑的这些年，外面的商业世界早就改头换面，风云人物起起落落，不断涌现新的起楼塌楼的故事，对他来说，或许陌生又熟悉。</p>
 <p>现在，一个旧日大佬想复出再起，他找到了一条所谓捷径。镜头之中，当年那个黄河路上共同拼杀的伴侣已经不见，周正毅却又做起了表白的戏份，真是让人唏嘘。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIyNzEyNTYyNA==&amp;mid=2650078759&amp;idx=1&amp;sn=2966a9d851aabd91a091a68f230f99fa&amp;chksm=f065ae30c712272677b4d31e7d653d63b01633571b25157cfb92a730545378d3b90c1ab9f4b5&amp;token=856820957&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“商业人物”</a>，作者：赵一川，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016718959276928</guid><pubDate>Fri, 01 Nov 2024 11:18:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016718959276928</guid><pubDate>Fri, 01 Nov 2024 11:18:00 +0800</pubDate></item><item><title>暴跌22%，“特朗普交易”熄火了？</title><link>https://36kr.com/p/3016419018122755</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>最近这段时间，要说市场最火热的词汇，莫过于“Trump2.0”了。</p>
+<p>几乎所有人都在谈论“川普概念股”，逐句研究川普的经济政策，找出那些能赚大钱的股票。</p>
+<p><strong>目前，表现最强的是银行股，板块涨幅一度高达22%。</strong></p>
+<p>特朗普曾经吐槽，美国法律对金融业有9万多条监管措施，其中有90%毫无意义。</p>
+<p>废除监管，不但有利于刺激经济，还能精简政府开支。</p>
+<p>再加上他明确要继续放水的说法，外界普遍预测，特朗普如果能重回白宫，一定会采取比上一任更激进的货币政策，并减少对银行和企业的监管。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_ea95e99c7d9c4ecb92cd94a465aad85a@000000_oswg318875oswg1080oswg765_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>其次是建材股。</strong></p>
+<p>对制造业回流、加强基建这回事，特朗普从始至终的态度都没有变过，多次承诺，一旦当选，将拨款改善全美破旧的基础设施，机场、公路、地铁首当其冲。</p>
+<p>毫无疑问利好建筑、水泥、钢铁等板块。</p>
+<p>10月份，美股钢铁板块平均上涨超过10%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_84dc7c635b4f424fb31089b6efea8574@000000_oswg148265oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>再次是石油开采公司。</p>
+<p>特朗普要搞油众所周知：<strong>沙特靠卖石油每年赚走几万亿，我们脚下就踩着这些“黄金”，一些环保疯子却不让我们开采，，说气候变暖会毁掉人类文明，一派胡言！等我回到白宫，会立刻签署法案，批准在美国本土开采石油！</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_61b252221b924294a0e2fbea058bc994@000000_oswg383685oswg1080oswg808_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除此之外，比较奇葩的还有从事监狱生意的公司，比如GEO集团。</p>
+<p>特朗普的原话：这些非法移民，以为法不责众，我们就拿他们没办法。但他们错了！</p>
+<p>我回到白宫的第一天，就会动用军队和FBI搜捕每一个非法移民，将他们扔进监狱、驱逐回国！并自己支付住监狱的钱！</p>
+<p>他说，自己将给GEO新的合同，用以关押数量庞大的非法移民……</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_ba911d136b804db6a45315f78044ad0b@000000_oswg128528oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这股火热的投机风潮，甚至吹到了风月场所。</p>
+<p>据说，在曼哈顿夜店，一位过夜费2000美元的model透露：最近有好几位来玩的客人，让她多买点和特朗普相关的股票，说肯定会涨。</p>
+<p>此情此景，恰似菜市场阿婆乱买股票，也能赚大钱的桥段。</p>
+<p>但这股风能不能继续吹下去呢？</p>
+<h2><strong>01 终点还是高潮？</strong></h2>
+<p>昨夜，连续火爆多日的“Trump 2.0”首次迎来调整，一个月翻三倍的特朗普传媒，收盘跌超22%。</p>
+<p>不过，眼看正牌本体都跌了，我们这边的西贝货川大智胜今天还是10个点，收获四连板……</p>
+<p>所以，是不是熄火了，现在还不好说。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_50907aad5dd140d0a7273a13e2b09015@000000_oswg133838oswg1080oswg620_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>回调的原因，除了涨太多之外，主要有三个。</p>
+<p>首先是，沃顿商学院发出警告：<strong>美联储可能在下周的议息会议上“暂停降息”。</strong></p>
+<p>如果本周五公布的非农就业报告火热，美国经济就会展现出继续向好的趋势。这一方面支撑了实际中性利率水平，另一方面也限制了未来降息的预留空间。</p>
+<p>如此，很可能会颠覆之前11月降息25个基点的预期。</p>
+<p>这是宏观层面的，不仅体现了民主党的政绩，也对特朗普大力提倡的大举降息、甚至要搞负利率的说法，提供了现成的质疑数据。</p>
+<p>好不容易稳住了通胀、就业率步步好转、经济持续向上，真的有必要去做那么激进的改革吗？</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_fa3211103c7f4ecaa66b88a68518fe42@000000_oswg110801oswg1080oswg802_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>其次，是竞选本身的不确定性。</strong></p>
+<p>野村董事总经理在最新报告中警告：<strong>近几周，市场对特朗普和共和党拿下国会两院的假设结果对冲过度，可能出现哈里斯支持率比预期高、大选陷入僵局的结果，届时各类资产都会有逆转的风险。</strong></p>
+<p>简称“哈里斯风险”。</p>
+<p>哈里斯现在迎面确实很小，但万一爆冷了呢？你们这些追高的不就G了？</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_327e12d0036d48e18757f9c159fc2e7f@000000_oswg242564oswg1080oswg818_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此外，在这种关键时候，马斯克还是太老实了，说了一些不合时宜的实话：<strong>如果特朗普当选，虽然可能会出现经济混乱、股市崩盘和短暂的财务困难，但这些都是“暂时的”。</strong></p>
+<p>特朗普甚至表态，如果自己当选，将成立“政府效率委员会”，让马斯克担任负责人，将削减最高2万亿美元政府预算。</p>
+<p>虽然从长远来看，这是好事。</p>
+<p>但在初期一定会引发动荡。先不说会导致多少政府雇员事业，光这些预算，动了多少利益集体的蛋糕？</p>
+<p>但这也是矛盾点所在，如果马斯克真的担任这个新衙门的负责人，削减预算会影响到他自己旗下的企业。</p>
+<p>据FedScout 对联邦支出和主要合约的研究，<strong>SpaceX自2008年以来已从政府获得190亿美元订单，并且在2028年内，再获得200亿美元业务。</strong></p>
+<p>这些数字，甚至还不包括各州为Starlink终端设备和卫星网络等计划提供的支出。</p>
+<p>到时候，和自己有关的业务，砍不砍？</p>
+<p>虽然是实话实说，但还没真的选上，就把实话说出来……马斯克怎么想的不知道，但特朗普八成想揍这家伙一顿。</p>
+<p>不过他不敢，人家现在是最大的金主。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_eca951325fb94e8b97388f82c69c4809@000000_oswg330525oswg757oswg910_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>……</p>
+<p>当然，这些都只是风险提示，投资者心底有底就行了。</p>
+<p>现在的情况，特朗普的优势确实是太大了。</p>
+<p>我现在写这些文字的时候，短短2个小时，特朗普科技已经从盘前绿7个点到红8个点了。</p>
+<p>从这一点看，今晚可能又是个狂欢之夜，投资者的热情并未减弱多少。</p>
+<p>昨天这一出，也可能确实只是“技术性调整”。</p>
+<h2><strong>02 尘埃落定后呢？</strong></h2>
+<p>短期的形势似乎很明确，市场完全跟着情绪走。</p>
+<p>那么等到一周后大选结束、尘埃落定后，又该怎么看？</p>
+<p>2004年，《股票交易者年鉴》的作者耶鲁•赫希，首次提出“总统选举周期理论”：</p>
+<p><strong>四年一次的总统大选经常重创经济和股市。战争、衰退和熊市都倾向于发生在任期的前半部分，牛市则常常出现在后半部分。</strong></p>
+<p>简单来说，每届政府为了连任、或给本党其他都选人铺路，都会在大选前一年出台经济刺激政策，制造繁荣以拉拢选民。</p>
+<p>大选之后，这些政策的效果逐渐减弱，大多都会演变成高通胀。</p>
+<p>这就导致，新政府的很多承诺无法立刻兑现，市场失望情绪蔓延，股市下跌。</p>
+<p>这一涨一跌，循环往复，大致形成了四年一度的周期。</p>
+<p>当然，这个周期的形态并不固定，牛熊的长短每次都不一样。</p>
+<p>总体来看，每届总统任期内的四年，标普500平均收益率分别为8.2%、9.6%、17.4%、11.2%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_6463db398e5244c4a3f93ab5affd3195@000000_oswg153703oswg1080oswg714_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>再具体点看，这种周期性的现象，也体现在总统所属党派上。</p>
+<p>从1926年以后开始算，共和党执政时期，股市平均每年的超额回报（减去无风险国债利率）为-0.2%，民主党执政时期年平均回报率10.7%。</p>
+<p>两者相差近11%。</p>
+<p>股市是经济的晴雨表，这句话在美国是适用的。</p>
+<p>从杜鲁门第二任期、也就是1949年开始算，美国GDP年平均增长率为3.33%，共和党、民主党执政期内的年平均增长率分别为2.54%、4.33%。</p>
+<p>后者同样远远领先前者。</p>
+<p>为什么会这样？</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_fdfd3574675447e0b00520cbe9ce7981@000000_oswg275394oswg1080oswg803_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>某种程度上，民主党总是扮演着收拾烂摊子的角色：</p>
+<p>1932年，大萧条时期，罗斯福战胜胡佛； </p>
+<p>1961年，经济衰退期间，,肯尼迪击败理尼克松； </p>
+<p>1976年，美国刚刚经历1973-1975年的衰退，失业率和通胀率飙升，卡特击败福特；</p>
+<p>1992年，克林顿击败老布什；</p>
+<p>2008年，金融危机初期，奥巴马击败了麦凯恩；</p>
+<p>2020年，全球疫情，拜登击败特朗普。</p>
+<p>这种时候，无论是经济还是股市，往往处于低位。当不确定时期过去后，预期回报往往也就越高。</p>
+<p>所以就形成了一个有意思的周期：<strong>共和党当选——经济变差——避险情绪增强——股市下跌——民主党当选——经济变好——投资信心增强——股市上涨。</strong></p>
+<p>看起来似乎有些难以置信，但回顾近8年的情况，也就是最近一次周期，确实还部分遵循着这个周期。</p>
+<p>特朗普之前在任的4年，虽然股市表现明显好过拜登这4年，但看经济数据。</p>
+<p>前者执政4年，美国GDP增长了7.6%；拜登任期到目前为止，GDP增长了11.8%。</p>
+<p>似乎怎么看，民主党确实比共和党更会搞经济，至少直面数据上是这样的。</p>
+<p>但也可以反过来看。</p>
+<p>特朗普不能算彻头彻尾的共和党人，他那一套与过去共和党的理念也并不是一回事。</p>
+<p>经济数据更差，股市却涨得更多，固然是造成了虚假繁荣，但也说明这个时期的投资属性更强。</p>
+<p>特朗普时期创造的财富，是让全体美国人更富有。比如2020年底，美国按收入计算，中间五分之一家庭的平均实际净资产比2016年最后一个季度高出30%。</p>
+<p>这至少在一定程度上算是“共同富裕”，虽然贫富差距仍在不断扩大，但普通人喝到了汤。</p>
+<p>反观拜登这四年，经济数据虽好，但财富增长明显不如前者均衡。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_65493c5328df4df3b2c6815439857f80@000000_oswg172232oswg1080oswg563_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不过，这些都是美国社会层面的事，与投资的关系并没有太大就是了……</p>
+<p>所以，我们预测了个什么呢？</p>
+<p>不管是共和党上台、还是民主党继续执政，美股长期来看大概率都是涨的。</p>
+<p>区别只是，特朗普的激进改革，可能会使得市场先抑后扬，会有震荡；哈里斯如果能上台，继续拜登的政策不大改，民主党过往优秀的政绩估计也能延续。</p>
+<p>这是实打实的“幸福的烦恼”。</p>
+<h2><strong>03 尾声</strong></h2>
+<p>拉长时间线看，美股长期向上的趋势很难改变。</p>
+<p>美股最强的基本面，是能在连续三次产业革命中，不断涌现好的公司，而不是谁当总统。</p>
+<p>归根结底，不管特朗普和哈里斯谁当总统，共和党、民主党哪方执政，好公司就是好公司，好的商业模式总是能赚钱，过时的也一定会被淘汰。</p>
+<p>区别只是，在不同时期、不同政策下，谁能表现更好而已。</p>
+<p>不同总统可能有能力使事情变得更好或更糟，毕竟情绪在投资者的偏好中起着巨大的作用。</p>
+<p>但不论谁住在白宫，这个世界最基本的运作方式并不会变。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzAwNjExNDkyOA==&amp;mid=2649857553&amp;idx=1&amp;sn=eba9b7d37c518d5b3b7428e9267e37e6&amp;chksm=82f86195bd8819c845456dc70678c5bb4548a4a61d771174ff69c9f63de2a73ae61f06604289&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“格隆汇APP”（ID：hkguruclub）</a>，作者：城北徐公，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016419018122755</guid><pubDate>Fri, 01 Nov 2024 11:54:00 +0800</pubDate></item><item><title>年营收突破150亿？被雷军点赞的胖东来，单店盈利已登顶</title><link>https://36kr.com/p/3016480375809286</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>曾在今年4月公开表示过因赚太多而苦恼的胖东来创始人于东来，可能又要“恼”了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_1d2eb6161fbb45c4a4e1a5396bce087b@000000_oswg44560oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（于东来采访截图）</p>
+<p>在河南省委宣传部近日召开的新闻发布会上，据相关负责人透露，“胖东来从20多年前一个街边烟酒店，现在发展成为中国商超界的天花板。它今年的销售收入将突破150亿，成为一个大型商贸集团。”</p>
+<blockquote>
+<p>而中国连锁经营协会发布《2023中国连锁TOP100》榜单显示，在2023年，排在榜单46位的胖东来凭借13家门店创造了107亿元的销售额。</p>
+</blockquote>
+<p>以保守的销售额150亿元来测算，胖东来2024年的销售收入，将比2023年增长40.2%。据中新经纬报道，胖东来目前仅在许昌、新乡两地共设有13家门店，其单店盈利能力（总盈利除去门店数量）已经超过业界所有的商超上市公司，净利润也碾压了不少头部同行。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_2939bf2ffe6645d3a95c5acdf1513d2f@000000_oswg65622oswg1080oswg641_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（胖东来门店）</p>
+<p>凭借着“以真心换真心”的企业文化及服务质量，胖东来成为了这两年社交媒体热搜榜上的常客。泼天流量袭来，让这个河南许昌本地的“小众乌托邦”受到了前所未有的关注，甚至连小米的雷军也盛赞“胖东来，在中国零售业一直是神（一）般存在。”</p>
+<p>而一边要忙着接待大量前来打卡的外地游客，一边还要拨派精锐去帮助友商调改的胖东来，似乎就像创始人于东来所说的那样，真的有点忙不过来了。</p>
+<h2><strong>01 信仰自由与爱，胖东来为“太火了”苦恼</strong></h2>
+<p>“一个人只关注赚钱，是赚不到钱的。”</p>
+<p>这是胖东来创始人于东来的名言。事实上，在胖东来的企业文化中，赚钱一直都不是最重要的。信仰自由与爱的胖东来，将自己定义为一所学校，愿景是“培养健全的人格，成就阳光个性的生命”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_3634ed76ea0a458a928b5eabc5cac129@000000_oswg496970oswg700oswg525_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（胖东来企业文化）</p>
+<p>在这样的价值观下，善良似乎已经刻进了胖东来的“基因”。在疫情爆发之初，在物资极为紧缺、同行疯狂涨价时，胖东来坚持以进货价销售；此外，胖东来还捐出了5000万元进行“抗疫”，超过了彼时很多大型公司的捐款。这两件事让胖东来被夸上热搜，火出河南。</p>
+<p>大火之后，细心的网友们发现胖东来“越扒越有”。除了在非典、汶川大地震、玉树地震等时期慷慨解囊外，在胖东来消费的顾客、在胖东来工作的员工都对这家企业赞不绝口。</p>
+<p>在胖东来超市，商品7日内调过价的，顾客可以退差价；所有商品7天内无条件退货，甚至吃了一半的食品都可以退......“看电影不满意退款50%”、“购买黄金等贵金属可自助称重”等热搜让不少网友表示“胖东来什么都好，就是不开在我家楼下”。</p>
+<p>而胖东来对于员工的福利，更让众多“打工人”们羡慕不已。“胖东来宣布员工将提前3小时下班”、 “胖东来员工因不想上班而请假，不许不批假”等话题都曾引发过不小的热度。甚至胖东来还给员工设置了“委屈奖”，如果员工按照正常流程工作受到委屈的，会根据不同情况补贴500—5000元不等。</p>
+<p>今年3月，每年已经有40天带薪年假的胖东来员工，又多了10天的“不开心假”。于东来表示，无论做什么事情，要让自己走在喜欢的道路上。员工不开心或不想上班时可以请假，管理层不能不批，不批就违规了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_0a3d84f35ccc4f269abe37a0bfdde376@000000_oswg100191oswg1080oswg946_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（胖东来新增不开心假话题，图源微博）</p>
+<p>越来越火的胖东来，吸引了大量外地游客前来打卡。今年春节期间，胖东来在仅3天时间内，就接待顾客116.33万人次；今年3月，胖东来银饰区开始实行排号售卖制，每日限号400个，7天预约1次。</p>
+<p>不过，对于创始人于东来而言，胖东来越来越火招致的“烦恼”其实不少。</p>
+<p>“胖东来影响力越来越大，今年又特别火，火得发愁，严重影响了正常生活，为此我们也很苦恼。现在已经不是20%、30%、40%的增长状态了，有的部门是上百上千倍增长。就像茶叶一样，原来一天三四万块钱的销售额，现在最高每天一百万，这不是乱套了吗？现在已经不是经营场所，已经成为旅游景点了。”</p>
+<h2><strong>02 “取经”的人络绎不绝，“胖东来调改”光环促成63亿大收购</strong></h2>
+<p>将自己的企业看作是“学校”的于东来，对于每一个来到胖东来学习的人和企业都十分欢迎。</p>
+<p>在过去两年的时间里，于东来甚至亲自带队对前来“拜师”的同行们进行帮扶。据媒体金错刀报道，2023年，江西超市嘉百乐陷入了经营困难，于东来立刻派遣手下100位骨干人员前往帮扶，甚至还掏出了3000万元的帮扶费，没有要求利息，也没有定下归还时间。</p>
+<p>今年3月，于东来开始帮扶湖南步步高，陷入亏损困境的永辉董事长张轩松也似乎找到了希望，并于5月亲自前往河南找于东来“拜师”求教。在走访了郑州的永辉超市后，于东来正式开始了对永辉超市的帮扶。</p>
+<p>今年6月，永辉超市郑州信万广场店率先交出答卷。在调改首店，永辉下架了11430个单品，下架比例79%，并重新上架单品12765个，调整后商品结构达到胖东来商品结构的 90%。在动线设计上，摒弃了强制动线思路，参考了胖东来的“随性”设计，让顾客活动更加方便自由。在销售额上，该门店开业当日销售额就达到了188万元，是调改之前日均销售额的13.9倍。随后，胖东来又开始了对西安、合肥、杭州、成都等各个城市的永辉超市进行调改。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_6eddf48780964e4d9cec42ba1c6fa411@000000_oswg150309oswg1080oswg753_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（永辉超市郑州首家胖东来调改店，图源视觉中国）</p>
+<p>接受胖东来调改，永辉超市最大的收获，并不止于门店销售额的回暖。9月23日，名创优品在港交所发布公告，以62.7亿元收购永辉超市29.4%的股权，成为永辉第一大股东。随后永辉超市股价一路猛涨，连吃涨停。收购方名创优品则受到了不少质疑，对此名创优品创始人叶国富坦言，入股永辉超市，看中的就是“胖东来帮扶”的加持。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_bb8cd496ac7d440788bbc855f2ac2b6c@000000_oswg79471oswg1080oswg619_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（名创优品62.7亿元收购永辉超市股份，图源名创优品公告）</p>
+<p>“比美国模式更优秀的是中国的胖东来”，叶国富对“胖东来版”的永辉超市信心满满，“沿着这条路走下去，永辉能够脱胎换骨，未来创造新标杆”。</p>
+<p>而就在这场声势浩大的收购官宣几天后，于东来对外宣称，“最晚到10月底，要快的话到9月底，我们就收兵，不再调改企业，一个也不帮了。”这一消息一时引发了网友热议，质疑永辉超市“背刺胖东来”。于东来解释称，关于帮扶企业行动、帮扶联商学员企业和永辉步步高还将持续两年左右时间，这些企业基本能自己进行调整，胖东来只是不再派团队到新的企业进行帮扶。</p>
+<p>10月19日，胖东来调改的第10家永辉超市，也是首个开在一线城市的胖东来调改门店——北京石景山喜隆多永辉超市也正式营业了。相较于第一家调改店几乎按照胖东来的商品结构 1:1 复制，北京这家永辉，开始缩小胖东来品牌专区的面积，增大永辉自营品的比例。</p>
+<p>公开数据显示，该门店单日销售总额达到170万元，超过调改前日均销售的6倍，开业后5日总销售额达770万元。大客流还带动了永辉超市所在的喜隆多商场客流量翻倍，销售额激增近50%。该超市的开业及销售成绩也力破了“永辉与胖东来决裂”的谣言。</p>
+<p>无论胖东来官宣不再调改企业的深层原因究竟如何，至少有一点是十分明确的：于东来要保护胖东来员工的权益。“长期的帮扶政策，让胖东来的员工忙得连轴转，严重扰乱了员工的日常生活，背离了胖东来的初衷。”于东来态度坚决，“今年是奉献的一年，等到明年，坚决要回到正常。”</p>
+<p>不过，对“老师”于东来而言，不再调改并不意味着不再“授业解惑”。10月2日，称“不做直播想去开超市的”的“快手一哥”辛巴来胖东来学习，于东来同样亲自接待，并与辛巴团队一同前往许昌胖东来时代广场现场考察并交流经验。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_62c0ade2bbd34b3299533242947f20de@000000_oswg96780oswg1080oswg633_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（于东来接待前来学习的辛巴）</p>
+<h2><strong>03 线下不想走出河南？胖东来并不抵触线上电商</strong></h2>
+<p>在掏心掏肺帮助同行“调改”的同时，不少胖东来的粉丝们也正在呼吁胖东来自己开出河南，“开到我家楼下”。事实上，别说走出河南，胖东来甚至都没有走到河南省会城市郑州。</p>
+<p>对于这些号召，于东来在早年就曾回应过，他宁愿一边玩一边做，不会为了事业而放弃美好生活。胖东来目前仅有的13家门店，11家在许昌，2家在隔壁新乡，也是于东来妻子的老家。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_4c4c2e81e1cb42ebb7c3d66ca0b95514@000000_oswg130826oswg877oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（胖东来门店固守河南大本营）</p>
+<p>除了不想太累，于东来也经常说，自己不愿意扩张，是因为不做能力圈之外的事情。对胖东来有多年调研经验的郑州大学商学院教授周阳敏，曾公开表示过，“胖东来在早期锁定了四线城市的中高端人群，提供好服务、好产品、高质量，它的定位和价格是匹配的。我可以负责任地说，把它现在的经营模式复制到郑州，成功的可能性低。”</p>
+<p>事实上，胖东来最吸引消费者的，就是在因过度注重效率与商业化而导致人情淡漠的市场背景下，构建起了长期信任的差异化。</p>
+<p>在许昌跟新乡这样的“熟人社会”体系中，一旦长期信任形成，就更容易形成口碑相传。拥有强信任背书的胖东来，就能以更低代价实现品类扩张，形成强者恒强的马太效应，在本地做到极致。</p>
+<p>一旦大规模的扩张，门店租金等经营成本就会上升，若进军一二线城市，经营管理成本提高的程度只会更甚。另一方面，好的服务需要更多资金来维持，信任的构建也需要时间磨合，复制“长期信任”并不容易。在胖东来曾经尝试过扩张的2012年，因服务质量缩水的问题，胖东来曾在一年之内关停了数十家门店。</p>
+<p>“我发现规模一大，我们就不如以前做得那么精细。这不仅不能保证员工幸福地成长，也让顾客失望，我也会很累。压缩规模，是胖东来的主动选择。”于东来一直在内部强调的理念就是，“欲望大于能力，是一种灾难。当不成熟的时候，钱挣得越多，可能挖的陷阱越大，钱不是甜蜜的，而会成为毒药。”</p>
+<p>门店数量稳固在13家，这个数字，或许是于东来在零售业浮沉多年后，精心计算出来的最佳答案。</p>
+<p>在线下不盲目扩张，也并不意味着胖东来要抵触企业规模化发展。事实上，对于线上电商业务，胖东来也在发力，今年3月，胖东来正式开通了线上商城，消费者在微信小程序和抖音官方旗舰店都可以下单消费。截至10月30日，胖东来抖音官方旗舰店的商品销量已经达到了137.8万件。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_84849cf23f1444e19ea4670f773a8bba@000000_oswg891608oswg1080oswg1945_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（胖东来抖音旗舰店销售情况）</p>
+<p>胖东来线下门店或许不能走出河南，但胖东来的企业精神可以像蒲公英的种子那样，随着卖出的自营商品以及前来学习的同行们的脚步，走遍全国。</p>
+<p>众多同行们学习胖东来，也不该流于表面形式，更应该认真思考如何结合自身处境及特点，寻找突破。正如于东来所言：“胖东来把能开放的都开放了，方法上复制很容易，最关键的是思想上的认可和接纳。”</p>
+<p>对于整个零售行业而言，百花齐放比一枝独秀更让人期待。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA3MjU2Mjk3Mw==&amp;mid=2652896042&amp;idx=1&amp;sn=f2faa6b4080c689e33d4a79267885fda&amp;chksm=85efb9d472621253653259505e377144b4c20aebbc6ab63f96c98803a930ee9312f3ff8b7015&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“电商在线”（ID：dianshangmj）</a>，作者：唐果，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016480375809286</guid><pubDate>Fri, 01 Nov 2024 11:54:00 +0800</pubDate></item><item><title>第二个“姚明时代”结束了</title><link>https://36kr.com/p/3016514812437763</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>姚明辞职的传言在10月30日成为中国体坛最重磅的炸弹。</p>
+<p>流言很快被证实：10月31日，第十届中国篮球协会会员代表大会执行委员会在北京举行会议，姚明正式辞去中国篮球协会主席职务，会议选举郭振明为新一任中国篮球协会主席。</p>
+<p>从2002年进入NBA开始，姚明以球员身份在大洋彼岸度过了7个较为完整的赛季，随后在2008-09赛季西部半决赛遭遇左脚骨裂。经过一年多恢复，2010-2011赛季复出后只打了5场比赛便再次重伤，就此退役。作为球员的“姚明时代”从此结束。 </p>
+<p>自2011年7月退役后，姚明依旧活跃于篮球、体育、商业乃至公益领域，拥有多个身份。直至2017年2月23日，姚明在中国篮球协会第九届全国代表大会上当选篮协主席，将工作重心集中于中国篮球管理工作。在中国篮协主席的位置上，姚明同样度过了7年多时间。作为中国篮球管理者的“姚明时代”也在今天宣告终结。 </p>
+<h2><strong>01</strong></h2>
+<p>两个7年，结尾都不尽人意，但过程却大相径庭。 </p>
+<p>与因伤被迫退役不同，经懒熊体育此前多方确认，姚明是主动提出辞任中国篮协主席，并获得体育总局批准。而这已不是他第一次主动提出辞职——去年亚运会期间，姚明便曾流露退意，甚至已写好辞呈。 </p>
+<p>去年10月6日，当中国男篮兵败杭州亚运会，姚明接受了新华社采访。当被问到“作为中国篮协主席，你需要承担什么样的责任？”时，姚明回答，“我有两种办法可以承担责任。第一种承担过去的责任，辞职回家，上海离这反正也挺近的。第二种承担责任的办法，把这些东西积累下来，分析出来，设计出下一步的行动计划。两种办法我都能接受。”  </p>
+<p>主动辞职，意味深长。2017年，姚明走马上任，随后又担纲新成立的CBA公司董事长，成为中国篮球明面上的一把手，无论行业内外都对此寄予厚望。在这个过程中，姚明多次展现出了试图大刀阔斧改革的决心和动作。但在任期最后几年，姚明显然受到外界各方各方涌来的质疑，其中最主要的质疑，指向国家队成绩。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_ebf092cc78d14e94ab580ec1a94e9692@000000_oswg77514oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲2022年杭州亚运会男篮比赛中国VS蒙古，姚明与郭振明同在场下观看。 </p>
+<p>从2017年至今，中国男篮仅拿到一项2018年雅加达亚运会冠军，并在2023年家门口的杭州亚运会上输给菲律宾止步四强；2017年、2022年两届亚洲杯分别拿到第五名和第八名；2019年、2023年连续两届世界杯没有小组出线；更重要的是，连续无缘2021年东京奥运会与2024年巴黎奥运会两届奥运会。 </p>
+<p>女篮方面成绩相对出色不少，2018年、2023年两届亚运会均夺冠，2023年更是连创历史，不仅夺回失去12年之久的亚洲杯冠军，更在世界杯上杀进决赛。但是在奥运会上，2021年东京奥运会拿到第五名，2024年巴黎奥运会则无缘小组出线。 </p>
+<p>中国三人篮球曾被视为中国篮球在国际大赛上仅存的希望，作为一项东京奥运会才正式入奥的项目，中国女子三人篮球队在东京曾拿到过铜牌。不过在巴黎，中国三人女篮仅排名第六无缘领奖台。中国三人男篮也连续打进奥运会，但是成绩不佳连续垫底。 </p>
+<p>在国内，某种程度上，国家队成绩直接代表着中国篮球改革的成效。国家队成绩不佳，很容易被视为改革不力，遭受舆论的巨大压力。即便是姚明，也无法避免这样的评判标准。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_b6b220ad0bd14940b637c82a94ffb3b8@000000_oswg111260oswg1080oswg880_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>02</strong></h2>
+<p>回顾这7年，在任期内，姚明对中国篮球的改革思路究竟是什么，又实现了多少？跳出竞技视角，这是行业方面值得深入探讨的问题。 </p>
+<p>自从当选中国篮协主席至今，姚明接受采访的次数不算少，系统阐述自己理念的时候却并不多。但有一个渠道，几乎年复一年记录着他的想法和关心的议题，那就是全国两会。实际上，我们可以通过他在两会上的发言，窥探到他的变革理念，以及遭受的实际困局。 </p>
+<p>2017年3月，成为中国篮协主席仅十几天后，姚明就以这个全新的身份在全国政协会议上做了大会发言。当时，姚明围绕“建设体育强国”话题展开，呼吁各个运动项目创办职业联赛，姚明还对国内职业联赛现状做了十二字归纳：很稚嫩，项目少、水平低、麻烦多。 </p>
+<p>同时，姚明还提到体育发展离不开项目丰富、层级分明的赛事体系，并呼吁体育、教育部门、社会力量和团体应该联合起来组织赛事。 </p>
+<p>如今看来，这直接指涉到姚明任上主要致力解决的三件事中的两桩。 <strong>其一是职业联赛改革，其二是全国性青少年赛事体系建设。按通常的简单理解，打造赛事体系的目的，是为了向职业联赛输送人才，而联赛的改革和发展，又是为了推动第三件事的完成，即国家队成绩。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_dd72a335fa774de99562530aacb39a9f@000000_oswg65613oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但姚明并不如此简单粗暴看待青少年篮球的发展。2018年，他带了具体的提案上两会，提出要发展“小篮球”，2019年仍旧大谈小篮球的普及。接受澎湃新闻专访时，他表示经过一年多发展，已经有10万个6-12岁的孩子在篮协注册，但小篮球的发展要避免筛选，关键是提高孩子对篮球的兴趣。在姚明看来，小篮球应该是通过降低参与门槛的方式，来达到提高篮球人口的目的。 </p>
+<p>"我们有没有这样一个体育运动，是被人热爱的，这种热爱，一定不仅仅是成绩的热爱，而应该是发自内心对这种文化的热爱，我们有了这种热爱的时候，我们就做到了文化自信。"姚明当时说。 </p>
+<p>尽管随后，中国男篮在家门口的男篮世界杯上遭遇失利。隔年参加两会时，姚明的发言仍旧与联赛和国家队没有直接关联，而是提交了《体教融合不能忽视人格塑造》的提案。但他也直接提及要拓宽男篮等青训渠道，防止“人才断层”，并表示校园中产生高水平运动员是未来趋势。 </p>
+<p>因此，至少在任期内的前几年，姚明更侧重于向外界释放对篮球普及和体教融合等话题的关心度。而体教融合在某种意义上，就是要为中国男篮打开校园篮球的这一人才来源。在此基础上，中国篮球大致形成了俱乐部梯队和校园篮球赛事两套竞赛体系，用以服务于青少年阶段的赛事需求： </p>
+<p>俱乐部层面的赛事包括U系列、篮校杯、高水平后备人才基地赛事和改制后的CBDL中国篮球发展联赛；校园层面的赛事，则包括NYBO青少年篮球公开赛、从小学、初中到高中的全国性篮球联赛以及CUBAL中国大学生篮球联赛。 </p>
+<p>据新华社报道，姚明曾强调培养高水平运动员是体教融合的内容之一，但体教融合首先要考虑“育人”，其次才是培养竞技人才。姚明表示：“做好第一件事，第二件自然而然会发生；但是如果你直接做第二件，第一件事并不会发生，而且几年后你会发现还得回过头来呼吁它。” </p>
+<p>但几年后，姚明似乎已无法再顾及呼吁基础教育层面的事情。参加2023年两会时，他开始直面国家队竞技成绩这一问题。他在会上提出，向2035年体育强国目标迈进，要在具有国际重大影响力的体育项目上实现竞技成绩一流，要孕育具有国际或区域重大影响力的原生品牌赛事等。 </p>
+<h2><strong>03</strong></h2>
+<p>显然，篮球就属于具有国际重大影响力的体育项目，但成绩却远远达不到一流。 </p>
+<p>如果简单归纳姚明任上的种种做法，大致可以梳理为：通过小篮球普及兴趣、搭建青少年赛事体系实现提升、职业联赛继续商业化改革、国家队特事特办。但现状是国家队成绩火烧眉毛，职业联赛改革见效缓慢，中国篮球来到了一个谈长期主义已经十分奢侈的时刻，必须要解决的当下的问题。 </p>
+<p>其实在国家队建设这个事情上，姚明任期内也实行过很多改革。2017年以后，中国男篮在东京周期开始实行红蓝国家队模式、国家队成员邀请制、推出短训营等，旨在让更多年轻新星进入国家队，推动新老交替。巴黎周期，中国篮协制定了《中国篮球“十四五”行动计划》，推出“1-2-4”战略。男篮国家队则聘请外教乔尔杰维奇，归化NBA球员李凯尔。但随着两届男篮世界杯小组出局、连续无缘奥运会等一系列失利，国家队改革陷入迟滞。 </p>
+<p>联赛层面则显得更加复杂。在成为篮协主席之前，2016年，姚明曾以上海大鲨鱼老板的身份，牵头成立中职篮公司。这被视为俱乐部层面的“聚义”，目的是为了争取联赛运营开发的更大权益。就在这件事发生几天后，篮管中心和中国篮协推动CBA公司成立，交出联赛推广与运营的权力，迈出管办分离的一步。随后，2016年9月份，姚明在CBA公司成立筹备会议暨公司股东大会上，被选举成为CBA公司副董事长。某种程度来说，姚明是以一种“下克上”的姿态跻身到中国篮球的管理层中。而他的最终上任，在当时46号文之后的体育产业浪潮中，被普遍视为CBA联赛要朝更加市场化的方向改革的信号。 </p>
+<p>后来的联赛改革涉及诸多方面。在姚明任期内，管办分离进一步实行，中国篮协将CBA公司的股份全部转让给20支球队，姚明也卸任CBA公司董事长，将竞赛组织权移交给CBA公司，中国篮协则扮演起监督者的角色。 </p>
+<p>与此同时，为了建设联赛品牌化，服务赞助商，CBA曾推出“CBA2.0品牌升级计划”，最终未能彻底执行；赛制上，通过扩充轮次、增加季后赛席位、增加季中“CBA俱乐部杯”等方式增加可看性，每个赛季都会有或多或少的变化。为了推进联赛职业化，CBA也规范了薪资制度，自2020-2021赛季开始，设立工资帽制度，推出标准合同；并于今年成立运动员委员会。 </p>
+<p>但归根结底， <strong>CBA市场化到底可以进行到哪一步，CBA改革与国家队备战之间的关系究竟应该如何厘定，就和青少年篮球普及与高水平人才选拔之间的关系一样，是目前为止，仍旧没有真正解决的问题。</strong> 这或许不仅是制度问题，还是观念乃至更深层次的问题。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_95730773d865434da21504e92669c609@000000_oswg119094oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>姚明曾指出，专业运动员培养周期长，一般需要8至10年的时间。上任至今，姚明已经干了7年多时间，明年的中国篮球，是否会迎来姚明周期内的第一批运动员？这不好说，但如今唯一确定的是，比改变先到来的是姚明的离去。 </p>
+<p>中国篮协此前已有部分人事变动。去年12月21日，在第十届中国篮协会员代表大会执行委员会第三次会议上，涂猛、袁永清不再担任会员代表大会代表、执委会委员，曾担任教育部体育卫生与艺术教育司副司长的刘培俊和更早前被任命为体育总局篮球中心中国篮协联合党委副书记、联合纪委书记的杨阳成为了新的会员代表大会代表、执委会委员。同时刘培俊也被提名并通过为篮协副主席，涂猛不再担任中国篮协秘书长职务，由徐岚接替。也是在那次会议上，易建联的加入一度引起关注。 </p>
+<p>第十届篮协管理层除姚明外，目前有郭振明、王芳、徐济成、宫鲁鸣、刘培俊5名副主席。今年6月，篮协还调整了机构设置，设立9个职能部门。姚明离去后，现任篮管中心联合党委书记郭振明接任中国篮协主席职务。 </p>
+<h2><strong>04</strong></h2>
+<p>有消息人士告诉懒熊体育，姚明或将回到上海继续从事官方层面的篮球工作，也有人表示姚明未来有机会参与更大范围的市场化项目。 </p>
+<p>也是在去年接受新华社的那次采访中，他在谈到篮协主席这个位置的挑战以及跟当初预想的差异的时候说，“有很大的差异。它对我来说是一个非常丰富的经历，我非常感谢它过去这几年中给我这样的机会去接触这样一个层面。原来我可能只是从一个片面的——不管是运动员还是俱乐部的角度——去看，仅仅是凭着一腔热血就冲进来了，但是真的觉得很多事它需要更理性地去思考。虽然也做了一些事，但更多的是大家看到的各种各样的失利……这里边都是有原因的，这些原因我要去认真地总结它，怎么能够使我们的社会动员能力、向心力变得更强，这是我需要去好好思考的。” </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241031/v2_7092f6ae93984d93b27e3fabb41d36ba@000000_oswg455914oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在今年年初懒熊体育参与举办的首届大湾区国际体育商业峰会上，姚明在台上曾经说，有时候常常陷入一种“你理想中的篮球，以及使你自己满意的篮球和使大家满意的篮球的一个博弈中”，“每天晚上睡不着”。当时他被问及“中国篮球和中国篮协现在面临的挑战和机会有什么”，姚明答说， <strong>“最大的挑战就是我们的认知，我们是站在篮球场上去看社会，还是站在社会的角度去看篮球场。”</strong></p>
+<p>不少熟悉姚明多年的人曾经在近年感叹，曾经那个风趣幽默的小巨人已经不见了。不过，当他卸下这身重担的时候，我们在点评是非功过之际，也许还能留有一丝期待，期待“那个姚明”的归来。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MjQzNDYyMQ==&amp;mid=2650492601&amp;idx=2&amp;sn=7d01984d8cc6877cc58cf5c72c7361c7&amp;chksm=86dbe87ebfb54583f4fa74aa40f62cb3b97f636880c1ce2adabf6b85c2466e275ae2b8cd583b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“懒熊体育”（ID：lanxiongsports）</a>，作者：彭锦，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3016514812437763</guid><pubDate>Fri, 01 Nov 2024 11:54:00 +0800</pubDate></item></channel></rss>
