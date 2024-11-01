@@ -1,541 +1,546 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 01 Nov 2024 17:30:39 +0800</lastBuildDate><pubDate>Fri, 01 Nov 2024 17:30:39 +0800</pubDate><item><title>用了「Apple 智能」一周，我发觉苹果并不在乎「遥遥领先」</title><link>https://36kr.com/p/3017350032106758</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_55e71af142a34294bb18bcdccf9a389c@000000_oswg52900oswg1080oswg682_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如果你有关注十月的手机新品发布会，那你或多或少有听到过「比果更果」、「果味十足」这些词。 </p>
-<p>这个说法源于 2024 年第四季度，从九月到十一月发布的这批国产旗舰手机所搭载的 AI 大模型功能中，或多或少都涉及到像素级致敬苹果在 iOS 中内嵌的 AI 能力框架——Apple Intelligence 的设计；其中有些实在是与苹果过于相似，因此在相关的体验内容中，类似的评语层出不穷。 </p>
-<p>但比起你争我赶的模仿者们，反而是苹果在最先介绍了 Apple Intelligence 要发布哪些功能之后，重新回归沉寂——即使目前公开的功能中，其实并没有太多新鲜的内容。这些都直到上周发布的 iOS18.2 Beta 测试版中，AI 才算揭晓帷幕，并在北京时间 10 月 29 日凌晨，正式版 Apple Intelligence 随着新 iMac 一起发布，推送给大多数普通 iPhone 用户。 </p>
-<p>目前，Apple Intelligence 的中文译名为「Apple 智能」，在中国官网的介绍目前还是「为 Apple 智能预备好」，库克也在近期多次吹风，表示国行版 Apple Intelligence「即将到来」；<strong>眼下 Apple Intelligence 相关功能也不支持中文：对中文的支持将在明年正式发布</strong>。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_1da9558ce52e41fa95071457a9427633@000000_oswg101148oswg1080oswg1128_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Apple Intelligence 设置界面｜图片来源：极客公园 </p>
-<h2><strong> Apple Intelligence 上手</strong></h2>
-<p>之所以说本次更新才是 Apple Intelligence 的正式亮相，是因为其推送的更新，其实全部都是 iPhone16 发布会上已经介绍过的内容，现在才终于将发布会上关于 Apple Intelligence 画的不少饼，端出来给用户。 </p>
-<p>由于 Apple Intelligence 对设备内存有着更严格的要求，因此目前只有搭载 8GB RAM 的 iPhone 才能使用——这意味着只有 iPhone15 Pro 以及 iPhone 16 全系。 </p>
-<p>对于 iPhone 16 系列，本次更新最重要的一个「硬件更新」，是原本设计用于相机缩放/光圈等功能控制的侧边按键，现在只需要长按，就可以启动 iOS18.2 新增的「视觉智能」功能。 </p>
-<p><strong>此前一直只存在于传闻中的「iPhone AI 按键」，此次更新后才算正式落地</strong>，虽然 AI 专属按键这个概念也已经不再新鲜。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_5891126711bf420796e09c9d2bda20ed@000000_oswg71253oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">iPhone 16 的侧边相机控制按键，此时才终于变身「AI 按键」｜图片来源：极客公园 </p>
-<p>在过去一周我的实际使用中，图像识别这部分功能是目前 Apple Intelligence 对于中文用户体验最友好的一部分：即使识别的原文是中文，也能准确的理解其中的内容，并判断出其中的电话、地址、日期时间等元素，搭配系统 App 实现基础的自动化服务：如果是地址可以自动跳转进地图 App，日期/时间可以一键在日历中生成对应事项、电话自动跳转到拨号页面等。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_604908ee89b1490d910bc923ec2eedf5@000000_oswg71946oswg1080oswg714_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图像识别功能｜图片来源：极客公园 </p>
-<p>在拍摄完成后，你还可以借助集成 ChatGPT 的 Siri 提问，Siri 能够准确的识别出你拍摄的各种中文信息，并且给出诸如「这个展板介绍了什么内容」这样问题的回答。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_feca6ba6f75d4de184e436d8a69b87a2@000000_oswg77849oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图像识别通过 ChatGPT 给出的识别内容反馈｜图片来源：极客公园 </p>
-<p>对于类似手机壳这样的商品内容，点击搜索按钮后，会自动抓取电商平台中相关商品的链接，同时起到介绍物品细节以及购买的作用，属于是一步直达了。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_aa17d1a71cbf423a8240b6e21f980ffb@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">自动识别内容并从电商平台抓取相关商品｜图片来源：极客公园 </p>
-<p>按照苹果的介绍，今年十二月，苹果还将围绕图像识别功能，加入多模态能力的整合：例如快速帮用户熟悉地点周围的风景，以及餐厅评分以及当天推荐特色菜品之类的服务。这个能力未来也将开放给第三方 App。 </p>
-<p>当然，以上的交互回答目前都还是以英文为主——<strong>即使 ChatGPT 本身显然是支持中文并且能够直接输出中文内容的，当前的 Apple Intelligence 也不能使用中文来回复</strong>。 </p>
-<p>本次更新还加入了系统级的文本大模型能力，除了之前已经在 iOS18 中已经出现过的通知要点总结，邮箱自动整理邮件紧急排序等功能，在系统自带的备忘录中，现在还加入了 AI 优化相关的选项，除了推荐的几个改写方向，你还能直接提出你的要求，让备忘录帮你自动生成一份文稿。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_c5c9879721814051941dc7ee1b90aec8@000000_oswg59323oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">iOS18.2 备忘录中的写作工具｜图片来源：极客公园 </p>
-<p>当然，这个功能目前也不支持中文：即使它调用的 ChatGPT 处理类似的中文需求时已经非常游刃有余；另外苹果还宣布过这个功能的「完全体」将会在十二月发布，届时能处理包括「帮我将晚会邀请改写为一首藏头诗」、「帮我风格化处理我的简历」之类的复杂需求。 </p>
-<p>对了，如果你是尊贵的 ChatGPT 付费订阅用户，现在苹果还在设置中提供了一个接口，可以用于登录你自己的 OpenAI 账号，获得更多模型的使用权限；当然免费版用户也能在与 Siri 的对话中调用 ChatGPT 能力。 </p>
-<p>iOS18.2 中还新增了一个名为 Playground 的 App，其中收纳了 iOS 当前所有关乎于图像生成相关的功能，例如使用 Apple Pencil 进行粗略的手绘草图，并让 Image Wand 将其转换成更精美的图像；Genmoji 顾名思义，就是借助于大模型能力，实现的绘制类似 Emoji 效果的头像，并以 Emoji 的方式来分享。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_53a508f708c54d8bb229747c4cfcdfde@000000_oswg195736oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Playground 图像生成功能｜图片来源：Apple </p>
-<p>听起来很美好，但目前 playground 需要用户在系统级的 Beta 系统更新之外，单独申请这个 App 的测试权；这种「测试版里内嵌测试版」的套娃体验，在过去的苹果软件服务中并不多见，不少海外用户也吐槽「申请之后 N 天了还没通过」。 </p>
-<p>不过倒也不用太过着急，苹果官方宣布的消息，Playground 的测试申请会在「未来数周内」逐步通过当前用户的测试申请。 </p>
-<p><strong>虽然集成了 ChatGPT，但 Siri 本身「弱智」其实改善并不明显</strong>：准确来讲集成了 Apple Intelligence 后的 Siri，在请求语言的理解以及上下文的连续对话能力部分，相比此前还是有明显提升的，只是近两年我们过去已经看过众多包括 ChatGPT 高级对话模式这样一次次震惊世界的大模型连续对话体验，如今「升级」过后的 Siri，在综合体验上落后于同类产品。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_2958575948b245c0951754ebaaeabf80@000000_oswg50683oswg1080oswg769_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">ChatGPT 高级对话模式｜图片来源：极客公园 </p>
-<p>在对话中，当你提出的问题涉及到调用 ChatGPT 能力时，SIri 会弹出一个确认，当然你也可以在设置中关闭这个确认请求的选项，但这个过程仍然等同于直接将你的问题「抄送给 ChatGPT」。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_e860eec41d3b41dc83d142006b474c32@000000_oswg87642oswg1080oswg801_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">「抄送给 ChatGPT」｜图片来源：极客公园 </p>
-<p>图片内容识别上，当前的 Siri 训练数据库仍然存在检索能力匮乏的问题：我拿起手机拍我的爱车，并问 Siri「这是什么车」，Siri 也能自动调用 ChatGPT，给出一个对话结果，告诉我「这是一辆蓝色的斯巴鲁 Levorg」。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_12673bdd79e84cf9a79ffb68d16a49fe@000000_oswg105032oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">iOS18.2 图像识别能直接以对话的方式给出结果｜图片来源：极客公园 </p>
-<p>但这其实并不是正确的车型识别结果：同样的问题，即使是问已经发布数年、当时「多模态」这个概念还不被世人所知时发布的 Google Lens 智能识图，都能给出更加准确的关联识别结果：告诉我这其实是一辆力狮而非外观接近的 Levorg。 </p>
-<p>综合来讲，在概念上并无太多新意的 Apple 智能，比起今年十月发布的、隔壁 vivo 蓝心小 V 以及「像素级致敬 Apple Intelligence」的 OPPO ColorOS15，如今的姗姗来迟的正式版 Apple Intelligence，反而更像是「后来者」。 </p>
-<p><strong>「体验倒挂」成为了 iOS 与当前其他强调 AI 的智能手机操作系统，甚至是独立 App 之间的对比中的常态</strong>。 </p>
-<p>那苹果在 AI 领域的「首轮竞争」，真的止步于此了吗？ </p>
-<h2><strong>保守的背后</strong></h2>
-<p>有 ChatGPT 珠玉在前，Siri 当前展现出的「低能」，显然并不能简单理解为技术上遇到了难题：甚至在体验上 ChatGPT 本身都能实现的能力，当前的 Apple Intelligence 都不支持。 </p>
-<p>苹果的「保守」，<strong>或许可以被理解为苹果对于新技术一贯的「谨慎」，不仅不急于拓展 AI 能力在智能手机上的边界，还在主动为 AI 设置围栏</strong>。 </p>
-<p>不仅在备忘录中的 AI 改写功能中，对于改写写作风格的调性偏向保守；在用于创建风格化自定义图像的 Playground 中，用户很明显就能察觉到它与其他大厂发布图像生成工具的不同之处：它完全无法像今年爆火的预训练图像生成模型 Lora 那样，用于生成那些和真人几乎无异、让人真假难辨的图像。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_9862577a9a1b4d938445b6efb142798b@000000_oswg351307oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Playground 生成 Genmoji 效果｜图片来源：Apple </p>
-<p>实际上这种谨慎不无道理：即使多模态大模型已经出现几年，但包括内容幻觉、AI 生成内容用于犯罪，都是当下伴随着大模型应用「蒙眼狂奔」伴随而来的问题，近年来 AI 生成的虚假内容充斥网络。 </p>
-<p><strong>除了内容泛滥，如何保护用户的私有数据，在 AI 时代也成为了一个重要的命题</strong>：不少创作者也因为担心自己的素材被拿去训练，在网络上变得谨小慎微；这些现象都说明了当前对于 AI 内容的监管，一直处于严重缺位的状态。</p>
-<p>早在 Apple Intelligence 发布之前，苹果就已经着手进行了「围栏」的搭建：今年九月，Apple 邀请隐私和安全研究人员测试苹果宣布的「私有云计算」对于用户数据隐私的保护承诺。同时致力于建立对虚假内容的安全声明机制，向着建立 AI 虚假内容的公共问责机制迈出一步。</p>
-<p>在硬件上，为了更好地服务 Apple Intelligence，苹果已经启动了全系硬件产品的升级换代：不仅 iPhone16 内存全系升级至 8GB，在十月正在更新中的新款 Mac 产品线阵容，也终于把牙膏挤爆，内存全系 16GB 起跳，为了支持端侧 Apple Intelligence 模型能力的应用。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_a3a396722a8c4fd78300a7fc45b2e0eb@000000_oswg250368oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">新 iMac，全系 16GB 内存起步｜图片来源：Apple</p>
-<p>在硬件之外，面向开发者的趁手工具也已经在路上：在 iOS18.2 Beta 测试版发布后，苹果随即更新了三个关键 Apple Intelligence 功能的 API：编写工具 API、Genmoji API 和 Image Playground API。</p>
-<p>这三个 API 借口，都旨在帮助开发人员将 Apple Intelligence 集成到他们的应用程序中，换言之：<strong>随着越来越多这样的 API 接口加入，开发者都能够在所有 Apple 生态的硬件设备上调用端侧模型计算能力，无需额外的服务器成本，加上当前 Apple 生态数以亿计的用户，这无论对于中小开发者还是巨头来讲都是一项极具诱惑力的条件</strong>。</p>
-<p>由此可见，苹果的第一方应用目前并不谋求短暂的效果取胜，而是通过构建软硬件深度整合、搭建原生 AI 硬件生态平台的方式，为开发者提供一个适合 AI 时代超级 App 生长的土壤。</p>
-<p>这些问题，与其说是只有苹果迈出了第一步，不如说这是<strong>长期来看，只有诸如苹果、华为这样，有自有生态/硬件以及掌控能力的厂商，才有机会参与的深度竞争</strong>；拥有生态的平台级的玩家，与只有「硬件制造商」单一标签的厂商，或许从这场竞争的一开始，就拉开了巨大差距。</p>
-<p>AI 时代智能手机竞赛这场「马拉松」中，并不只有一开始就「全力冲刺」这一个选项。</p>
-<p>*头图来源：极客公园 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653061579&amp;idx=1&amp;sn=34268d06c5f6fe141762ad0f31f4a9ad&amp;chksm=7f3fafe2b28f19b92d1b2b308d07a674952b30d5abf5d68e6ec37e9f8ba9f31e2a9b5551a5f3&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“极客公园”（ID：geekpark）</a>，作者：张勇毅，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017350032106758</guid><pubDate>Fri, 01 Nov 2024 16:50:00 +0800</pubDate></item><item><title>西贝“快餐梦”破碎</title><link>https://36kr.com/p/3017329276203909</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1048,696" src="https://img.36krcdn.com/hsossms/20241101/v2_9aecf648d54c4552be26bd30c1304cbb@5931687_oswg717779oswg1048oswg696_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>前不久，西贝餐饮董事长贾国龙在某场活动上表示，零售与快餐耗费了西贝大量资源，零售已经砍掉，快餐业务收缩，自己将回归到复杂性中餐业务上来。 </p>
-<p>贾总的话听上去满腹酸楚，但也的确是不争的事实。 </p>
-<p>作为靠传统中餐起步的品牌，西贝餐饮集团创建已有三十多年。近些年，西贝很火，经常出圈，逐渐成为国内头部品牌之一。牌子做大了，西贝贾总也没闲着，继续押宝快餐赛道，拓展公司的第二曲线。 </p>
-<p>自2015年宣布进入快餐领域以来，西贝已经尝试打造了十余个子品牌，但尴尬的是，这些品牌几乎都经历了“跑步入场、原地踏步、了无痕迹”的过山车式程序，没有一个收获真正意义上的成功。<strong>贾总自己也坦言，西贝想做第二增长曲线，9年都没有做出来，在快餐方面是“失败者”。</strong></p>
-<p>不过，话虽然这么说，外界谁也不敢小看西贝和贾总。以西贝的人气，现在吊打很多品牌还绰绰有余，商场中经常排大队就是最好的佐证。 </p>
-<p>但是，在行业不进则退、竞争越发激烈的今天，西贝对新曲线的布局为何这么钟情？这背后是否也暗示了一些问题？在快餐上频频铩羽而归后，外界不得不重新揣度一下西贝的处境。 </p>
-<h2><strong>01 「十年尝试，一地鸡毛」</strong></h2>
-<p>细数起来，西贝从2015年进入快餐领域，到现在也是第十个年头了。作为地地道道的从内蒙成长起来的品牌，西贝力推的新产品也有很浓厚的北方色彩。 </p>
-<p>近十年，从西贝主品牌衍生出的子品牌确有不少，比如<strong>2016年推出的西贝燕麦面、17年推出的麦香村、18年的超级肉夹馍、19-21年的酸奶屋、弓长张、贾国龙功夫菜，不胜枚举。</strong></p>
-<p>但是，无独有偶，上述这些子品牌都有个共性，<strong>存活期短，昙花一现</strong>。比如西贝燕麦面，当年推出当年叫停，弓长张2020年推出，未能挺到开业的那天就“胎死腹中”。 </p>
-<p>拿最近一次尝试来说，贾国龙在2022年11月推出第一家酒酿空气馍店，后更名为“贾国龙中国堡”，“馍”这种极富中国北方特色的食品摇身一变，不到一年时间全北京门店数就来到53家，扩张速度甚至超过主品牌西贝莜面村。按当时的规划，贾国龙中国堡的全国门店数要迅速突破300-500家。 </p>
-<p class="image-wrapper"><img data-img-size-val="284,160" src="https://img.36krcdn.com/hsossms/20241101/v2_374a18e17e994243921c955c9a3db703@5931687_oswg75729oswg284oswg160_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">*图源网络 </p>
-<p>本以为“高光”下的贾国龙中国堡可以就此改写历史，但在今年初，<strong>贾国龙中国堡北京地区门店突然全部关停</strong>，部分门店随即更名为“贾国龙小锅牛肉”，堪称无缝衔接。 </p>
-<p>行业内外不禁对西贝的决策感到不可思议：钟情快餐且舍得交学费，难道真的只是“为爱发电”吗？有消费者甚至吐槽，<strong>“昨天还卖汉堡，今天就炖牛肉，开店闭店像闹着玩。”</strong></p>
-<p>事后，西贝方面知情人士回应称，贾国龙中国堡业务调整正在规划中，可能会退到下沉市场，去一些低线城市布局，比如呼和浩特，品牌也升级为“龙堡”。但从目前龙堡的情况来看，呼和浩特地区仅能搜到“中商世界里店”一家店铺，且还在歇业关闭状态，前面的所有美好设想再次打上问号。 </p>
-<p class="image-wrapper"><img data-img-size-val="284,192" src="https://img.36krcdn.com/hsossms/20241101/v2_e7f9981cf7f145739770029e7f92958f@5931687_oswg32370oswg284oswg192_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">*图源美团App </p>
-<p>另一边，今年6月，有消费者发现，部分贾国龙小锅牛肉门店已更名为“西贝小牛焖饭与拌面”。某店工作人员透露，<strong>最早是贾国龙中国堡，后来是小锅牛肉，现在变成小牛焖饭与拌面，但老板一直没变</strong>。 </p>
-<p>从小锅牛肉变身小牛焖饭与拌面，最大的变化体现在客单价上。此前，贾国龙小锅牛肉客单价在60-80元左右，相比于主品牌西贝莜面村略低，但比常规快餐高出不少。在此基础上，小牛焖饭与拌面调整了策略，主推30-40元区间产品。 </p>
-<p class="image-wrapper"><img data-img-size-val="227,385" src="https://img.36krcdn.com/hsossms/20241101/v2_fb9d364820dd4bfb85d9f7ce30afdb87@5931687_oswg127206oswg227oswg385_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">*图源 美团App，西贝小牛焖饭与拌面阜成门万通店 </p>
-<p>或许是市场的骤然变化，让贾总再次推翻预测，也或许是成本结构和预期收益并不匹配，才有了新的尝试。 </p>
-<p>有行业资深人士表示，快餐品牌和中餐正餐特点不同，快餐品牌随消费市场的变化更明显，很容易出现连锁反应，<strong>传统正餐品牌积攒起来的供应链和管理模式难以直接复制粘贴。</strong>另外，快餐赛道的竞争已相当激烈和透明，比如做汉堡品牌，外有麦当劳、肯德基，内有塔斯汀、华莱士，中间还有汉堡王、德克士等很多二线品牌，新生势力如果再没有性价比和特色的优势，就很难突围成功。 </p>
-<p>用他的话说，“新品牌的定位只有理解和符合消费者的需求，才可能活下来。” </p>
-<p>的确，<strong>靠主品牌建立的忠诚度想把做子品牌做成爆款</strong>，这并非一件容易的事，快餐终究还是要先为策略、运营和管理买单，然后才是跑通一个店铺。 </p>
-<p>只有活下来，才能谈活得好的问题。 </p>
-<h2><strong>02 「折腾背后，另有隐情」</strong></h2>
-<p>屡战屡败、屡败屡战，有很多人可能会问：贾总为什么要“死磕”快餐，难道没有更好的方式了吗？ </p>
-<p>曾经在一场访谈中，<strong>贾国龙表示，“只有做快餐才能把企业做成国际大牌”</strong>。接近他的人士还曾说，“贾国龙的梦想是成为中餐之王，在全世界铺天盖地。” </p>
-<p>2023年初，贾国龙曾给西贝立下两大宏伟目标，一是2026年完成IPO，成为市值千亿的上市公司，二是2030年公司营收突破千亿大关。放眼全球餐饮领域，营收和市值能锁定这样规模体量的，或许也只有麦当劳等才能入得西贝法眼。 </p>
-<p>在西贝内部，“打造‘中式麦当劳’，借助合伙人制突破万店”早已是公开的秘密，这样的呼声没有停歇过。“不做第一争第一，从全国到全世界”，似乎只有快餐能满足西贝和贾总扩张的欲望和澎湃的情怀。 </p>
-<p>据餐宝典发布的《2024中式快餐行业专题研究报告》显示，2023年，中国快餐市场规模超过12000亿元，达12528亿元，同比增长9.7%，在2021年规模重新突破万亿后，已连续三年实现稳步提升。 </p>
-<p class="image-wrapper"><img data-img-size-val="284,155" src="https://img.36krcdn.com/hsossms/20241101/v2_37230aadbf7744ebbd75971484d9a824@5931687_oswg39044oswg284oswg155_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">*图源餐宝典 </p>
-<p>从市场局面来看，中国的快餐市场还有空间，能“折腾”出来的机会不少，西贝自然没有理由放掉这块“肥肉”。 </p>
-<p>另外，快餐的涉及面很宽泛，而且刚好是大众的刚需，这对做惯莜面村这样传统正餐的西贝来说十分乐见。 </p>
-<p>据艺恩发布的《2024年快餐消费者洞察报告》显示，在2013-2019年间，中式快餐市场基本成型，企业开始向连锁化、集团化方向发展，至2023年全国小吃快餐市场规模达8237亿元。这其中，西式快餐、中式米饭快餐声量占比最高，粉面类、饺子馄饨类、麻辣烫/冒菜类、粥品类等也各自占据一席之地。 </p>
-<p class="image-wrapper"><img data-img-size-val="284,213" src="https://img.36krcdn.com/hsossms/20241101/v2_5401a953efe0415bbb4344b8c2a31f9a@5931687_oswg51930oswg284oswg213_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">*图源艺恩 </p>
-<p>《2024中式快餐行业专题研究报告》也显示，去年以来，米村拌饭扩张很猛，全年新开店接近500家，预计到2024年门店规模将正式超越老乡鸡等品牌。在米村拌饭的带动下，拌饭赛道也成了中式快餐的一大热门品类。 </p>
-<p>所以，从市场角度来看，西贝频繁布局背后是一次次“赌”，<strong>“赌”主品牌的影响力，“赌”贾总的个人号召力，“赌”品牌的生存空间。</strong>只要快速进入，踩上风口就有机会。只要押对一次，所有付出都值得。 </p>
-<p>但是，从实际效果来看，西贝的快餐没做成“王牌”，反而做成了“教训”。 </p>
-<p>贾总前段时间亲自出来站台说，“做了9年都没做出来，在快餐方面我是失败者。老业务的潜力永远没有挖尽，自己将回归到擅长的复杂性中餐业务上来。” </p>
-<p>岁月作别，终问归期。当年拉满的情怀，既成在弦之箭，也化作回旋之镖，刺向了自己。 </p>
-<h2><strong>03 「刻板印象，艰难转身」</strong></h2>
-<p>创业30多年后，贾总看来势要放下对快餐的执念。 </p>
-<p>今年3月，西贝高管们连续两日召开战略会，核心问题就是讨论西贝的未来。最终，鸣金收兵、痛定思痛，西贝放下快餐业务，全力升级西贝莜面村，着重发力西贝莜面村、贾国龙小锅牛肉两大正餐品牌。 </p>
-<p>回归正餐，西贝有传统，也有底气。天眼查查询发现，西贝1988年创立于内蒙古临河，<strong>从一个“黄土坡小吃店”到今天全国知名餐饮品牌</strong>，贾国龙先生对西贝正餐市场上还是很有自信的。 </p>
-<p>从今年初的新年贺词可以发现，西贝集团去年营收超过62亿元，其中西贝莜面村的年销售净额20亿元。用西贝的话说，“2023年保持了强劲增长，创了历史新高，2024年要创造新的突破。” </p>
-<p>不过，想要有新的突破，一些刻板印象的化解恐怕要提上日程。 </p>
-<p><strong>首先是“贵”的问题。</strong> 在消费升级时代，产品贵、附加值高很难指摘，消费者即便出于体验感的获得，也愿意用真金白眼砸向门店。但当消费价格步入敏感周期，很多品牌直接推出“穷鬼套餐”示好消费者，但西贝却没有打算摘掉“贵”这个标签。 </p>
-<p>去年10月末，<strong>西贝天价蒸饺“贵上热搜”，3只蒸饺29元，被网友戏称价格“上天”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="284,253" src="https://img.36krcdn.com/hsossms/20241101/v2_651ef5a265aa4f168e34cfca425bcce0@5931687_oswg93193oswg284oswg253_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">*图源网络 </p>
-<p>对于消费者的质疑，西贝的回应倒是不紧不慢，声称每个蒸饺都是历经“三生三熟”6道工序，贵不是没有道理。但是，网友们却扒出了西贝“一个馒头21元”“一份花菜59元”的陈年旧事。 </p>
-<p>在一片“声讨”中，西贝最终决定用3000万元承诺息事宁人，但“不好吃不要钱”的说法再次引起了巨大争议。 </p>
-<p class="image-wrapper"><img data-img-size-val="284,403" src="https://img.36krcdn.com/hsossms/20241101/v2_45221f58ac1c4f3c92778f5b03986175@5931687_oswg122983oswg284oswg403_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">*图源网络 </p>
-<p>另一边，<strong>西贝莜面村还被爆出“预制菜占比超85%”，引发一片哗然。</strong></p>
-<p>事实上，预制菜这几年才刚刚发展起步，行业还没有相对完善的标准，大众认知中也是很多主做外卖的小店、档口在用。但是，最让消费者无法接受的是，明明是预制菜，却没有先行告知，甚至标榜“现做”。 </p>
-<p class="image-wrapper"><img data-img-size-val="284,352" src="https://img.36krcdn.com/hsossms/20241101/v2_6fbe6544cbb4498ba8c0b3df0082994b@5931687_oswg84180oswg284oswg352_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">*图源微博 </p>
-<p>用预制菜的成本卖出料理的价格，用明厨亮灶掩人耳目，这背后不单是菜品质量问题，还有对消费者知情权和信任的践踏。 </p>
-<p>青橙财经注意到，在西贝回顾2023年经营情况时曾提到，“西贝莜面村全年共服务了超过6000万人次顾客就餐，其中<strong>儿童进店客流超640万人次</strong>”。一项统计数据也显示，在西贝的菜单中，儿童套餐及单品的占比接近四分之一，<strong>“有孩之家”看来是西贝的重要目标群。</strong></p>
-<p>儿童赛道是好赛道，但对西贝来说，<strong>除了要用营销手段吸引孩子外，更要在品质、价格、食品安全上下功夫。</strong>毕竟，所有儿童餐背后，买单的都是父母。 </p>
-<p>“贵”和“预制菜”的问题不解决，下单的手速就受影响，复购的兴趣也将打折扣。 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzMjc0MjQ2OA==&amp;mid=2247487038&amp;idx=1&amp;sn=c8168536a52138e9b60f7029090883d7&amp;chksm=e8910515dfe68c0392dc640de1e06c356272271fa286dd64efddf628c99c1c7488293e0c7403&amp;token=958487596&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“青澄财经”</a>，作者：方诗意，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017329276203909</guid><pubDate>Fri, 01 Nov 2024 16:53:00 +0800</pubDate></item><item><title>苹果年入近3万亿，iPhone卖爆了，库克避谈Vision Pro</title><link>https://36kr.com/p/3017322500092806</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="900,383" src="https://img.36krcdn.com/hsossms/20241101/v2_35960c875c4e4b23b6cbf2ea17459e8d@453363432_oswg306642oswg900oswg383_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>智东西11月1日消息，刚刚，苹果公司2024财年数据正式出炉（对应自然年2023年第四季度到2024年第三季度），除了<strong>近3万亿元的年营收和6600多亿元的年度净利润，</strong>苹果CEO库克对一些关键问题的回答同样值得注意。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,772" src="https://img.36krcdn.com/hsossms/20241101/v2_685cae10a3e14c9594ac7f3092ba27d1@453363432_oswg131253oswg1000oswg772_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲苹果2023、2024财年营收及净利润情况</p>
-<p>比如对于中国市场iPhone销量的下降，库克虽然<strong>承认他们确实在经历“逆风”，但对具体问题却避而不谈，</strong>只说iPhone在中国手机畅销榜上依然位列前茅，并在中国大陆以外的市场卖的很火爆。</p>
-<p>对于近期跌入销量冰点、二季度出货暴降80%的<strong>Vision Pro，</strong>库克在财报电话会中全程只提到过一次，说苹果Vision Pro<strong>“将未来的技术带到了今天（brings users tomorrow’s technology today）”。</strong></p>
-<p>有意思的是，<strong>现场没有一个记者对Vision Pro的销量进行提问。</strong></p>
-<p>值得一提的是，在今天的财报电话会中，库克提前剧透了苹果将在12月发布<strong>一个基于苹果智能并集成了ChatGPT的视觉智能功能，</strong>这无疑会是苹果在AI方面的一个重磅升级。</p>
-<p><strong>下面是一些财报中的关键数据：</strong></p>
-<p>·全财年营收（2023年四季度至2024年三季度）<strong>3910亿美元（约合人民币27830亿元），与整个广西省2023年GDP相当，超过山西和内蒙古；</strong></p>
-<p>·三季度净利润<strong>147亿美元，</strong>同比暴降<strong>36%，</strong>全年净利润<strong>937亿美元（约合人民币6661亿元），</strong>同比下降了4%；</p>
-<p>·全年服务营收达创纪录<strong>251亿美元，</strong>占比<strong>24.5%，</strong>接近四分之一；</p>
-<p>·大中华区市场全年营收大幅下降<strong>7.8%；</strong></p>
-<p>·iPhone全年营收<strong>2011亿美元（约合人民币14313亿元），</strong>同比增长0.3%<strong>；</strong></p>
-<p>·全年研发支出<strong>313亿美元，</strong>研发占比<strong>8%；</strong></p>
-<p>·现金流<strong>268亿美元（约合人民币1907亿元），</strong>将向股东返还<strong>290亿美元；</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1000,773" src="https://img.36krcdn.com/hsossms/20241101/v2_6fc39881be754f578cbf131cf4dfcbbd@453363432_oswg129311oswg1000oswg773_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲苹果2023、2024财年第四财季营收及净利润情况</p>
-<p>值得一提的是，这是苹果CFO卢卡·马埃斯特里最后一次参加苹果财报电话会，根据苹果公司公告，他将在2025年1月1日正式离任，结束自己十多年的苹果CFO生涯。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,442" src="https://img.36krcdn.com/hsossms/20241101/v2_67d83044ac02442abdc0953459438af0@453363432_oswg56361oswg1000oswg442_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲苹果CFO卢卡·马埃斯特</p>
-<p>截止最新美股收盘，苹<strong>果股价小幅下跌了1.52%，总市值为3.43万亿美元（约合人民币24.4万亿元）。</strong>财报发布后，苹果股价在盘后交易中波动下降，截止发稿，股价稳定在222美元左右。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,670" src="https://img.36krcdn.com/hsossms/20241101/v2_34438494b7cb44c3861b4e76a0ec2fcd@453363432_oswg62441oswg1000oswg670_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲截止北京时间11月1日8点，苹果股价走势，来源：谷歌财经</p>
-<p>接下来我们重点聚焦财报分析三件事：<strong>AI、iPhone和中国市场。</strong></p>
-<h2>一、苹果AI视觉大招来了，重点加码AI研发投入</h2>
-<p>对于AI的落地，马埃斯特里在电话会中提到苹果有自己的节奏，并且他们认为这个节奏是非常合理的，他们需要确保服务达到相应的质量才会发布。</p>
-<p>当然，库克免不了吹一下自家AI，他说，苹果智能“重新定义了隐私和AI”。</p>
-<p>库克提到苹果会在12月发布更多AI功能，包括一个基于苹果智能并集成了ChatGPT的视觉智能功能，这可能会是一个相当重要的更新。</p>
-<p>马埃斯特里提到苹果在AI方面的研发投入增加了很多。</p>
-<p>在AI投入方面，有外媒记者关心服务器建设问题，对此马埃斯特里提到，苹果既会使用自己的数据中心，也会使用第三方供应商的数据中心。</p>
-<p class="image-wrapper"><img data-img-size-val="900,383" src="https://img.36krcdn.com/hsossms/20241101/v2_14096f885b9046f1af435f9b00f0c3f5@453363432_oswg151422oswg900oswg383_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2>二、iPhone全球市场威风，中国市场逆风，Vision Pro无人问津</h2>
-<p>提到苹果财报，iPhone销量是一个避不开的话题。</p>
-<p>根据知名分析机构Canalys数据，今年三季度，苹果中国市场出货量同比下降6%，排名跌至第五，被华为、小米接连超越，并且vivo、华为、小米等品牌的出货量都是在同比增长的。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,732" src="https://img.36krcdn.com/hsossms/20241101/v2_ad7934d22b58407aaa2636fb966d2dce@453363432_oswg100319oswg1000oswg732_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲来源：Canalys</p>
-<p>苹果在高端市场的主要对手华为，其出货量更是同比大涨24%，压力给到苹果。</p>
-<p>不过放眼全球市场，iPhone的销售依然比较稳定，苹果全球三季度出货量同比增长9%，排名第二，与三星的份额差距缩小到1个百分点，出货量差距仅有300万部。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,728" src="https://img.36krcdn.com/hsossms/20241101/v2_a1d49ce1606744c59aa9598225f64622@453363432_oswg100919oswg1000oswg728_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲来源：Canalys</p>
-<p>从产品营收占比来看，iPhone依然是苹果营收的核心大头，其全年营收达到了2011亿美元，占比51.4%，不过相比去年52.3%的占比略有下降。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,809" src="https://img.36krcdn.com/hsossms/20241101/v2_cfa2a4de1eaf4e48b1e3536dd6a6823a@453363432_oswg153017oswg1000oswg809_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>马埃斯特里说，根据市研机构Kantar的一项调查，iPhone是美国、中国、英国、澳大利亚和日本最畅销的机型。</p>
-<p>根据Kantar发布的报告，2024年第二季度，中国大陆市场最畅销的手机TOP5中，苹果一家占了四席：iPhone 15、iPhone 15 Pro、iPhone 15 Pro Max和iPhone 13，TOP5唯一的中国品牌机型是荣耀100。</p>
-<p class="image-wrapper"><img data-img-size-val="882,891" src="https://img.36krcdn.com/hsossms/20241101/v2_f36478432c5840e19e97d19a994add7b@453363432_oswg115967oswg882oswg891_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲2024年Q2全球主要市场畅销机型，来源：Kantar</p>
-<p>苹果三季度财报截至9月28日，因此国内双11大促带来的销量带动并未在此次财报中直接体现。</p>
-<p>除了iPhone，几个硬件产品中，iPad和可穿戴产品都出现了比较明显的营收下降，iPad全年营收同比下降了5.7%，可穿戴、家居和配件营收同比下降了7.1%。</p>
-<p class="image-wrapper"><img data-img-size-val="988,483" src="https://img.36krcdn.com/hsossms/20241101/v2_9194b3ae08aa407aa8304c328571afbf@453363432_oswg115898oswg988oswg483_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对于Mac业务，库克认为新的Mac电脑会成为“最佳AI PC”，他特别提到了MacBook Pro的起步内存规格进行了翻倍（但“金子内存”依旧……）。</p>
-<p>最近苹果连着三天连发iMac、Mac mini、MacBook Pro等多款重磅新品，M4 Max芯片也正式登场。</p>
-<p>Mac销量可能会在接下来的一个季度里迎来一波高潮。</p>
-<p>比较有意思的是，虽然Vision Pro销量暴跌已经成为业内热议的话题，但此次电话会中外媒记者并未对此提问，库克也没有主动提及。</p>
-<p>库克只在财报电话会开场的介绍中，提及了Vision Pro，当然，这部分都是“报喜不报忧”。</p>
-<p>根据美国分析公司Appfigures的数据，Vision App Store在9月份仅增加了10款新应用，远低于设备发布后的两个月内引入的数百款应用。截至今年9月，约有1770款可供Vision Pro使用的应用，其中只有34%的应用是专门为Vision Pro打造的。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,1651" src="https://img.36krcdn.com/hsossms/20241101/v2_e807629315da454798a37e09a3a834d1@453363432_oswg282193oswg1000oswg1651_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲Vision Pro每月发布的应用数量，自3月份以来下降趋势明显（图源：《华尔街日报》）</p>
-<p>尽管Vision Pro初期以3499美元的高价定位高端市场，寄望于推动整个行业的发展，但销量数据却显示出不理想的态势。</p>
-<p>根据供应链分析师郭明錤在4月份的数据，苹果将Vision Pro首年的出货量从70万至80万台下调到40万至45万台。Counterpoint Research的数据显示，Vision Pro今年第二季度的销量较第一季度下降了80%。</p>
-<p>除了硬件，服务已经成为苹果赚钱的核心，服务业务有多赚钱？马埃斯特里在财报电话会中提到，服务业务的毛利率达到了74%。</p>
-<h2>三、中国市场逆风前行，但其他地区增长迅猛</h2>
-<p>从地区占比来看，苹果北美、欧洲、日本、亚太地区市场的三季度、全年营收均有一定增长，但大中华区市场第三季度营收同比小幅下降了0.4%、全年营收大幅下降了7.8%。</p>
-<p class="image-wrapper"><img data-img-size-val="988,484" src="https://img.36krcdn.com/hsossms/20241101/v2_b52ddf1244444f549a78882764d17b62@453363432_oswg118542oswg988oswg484_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>虽然大中华区市场营收有显著下降，但库克在财报电话会议中提到，苹果在美国、巴西、墨西哥、英国、法国、韩国、马来西亚、泰国、沙特阿拉伯等诸多国家都取得了创纪录的季度收入。</p>
-<p>并且在这些地区中，iPhone的几乎也都取得了创纪录的销售额。</p>
-<p>对于中国市场，库克承认他们确实在经历“逆风”，但三季度的表现相对平稳，这背后外汇方面的改善是一个关键因素。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,819" src="https://img.36krcdn.com/hsossms/20241101/v2_ea6569dbc7574c5a8d9800cabb2c4d88@453363432_oswg135170oswg1000oswg819_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2>结语：苹果承压前行，AI加速落地或刺激更多需求增长</h2>
-<p>虽然库克对于涉及中国市场的问题有些“汗流浃背”，但在全球市场中，iPhone依旧畅销，营收同比稳步增长，服务业务继续高歌猛进，AI的到来并没有给苹果在研发投入上带来过多压力，3.4万亿美元市值的苹果，仍在稳步前行。</p>
-<p>更多AI功能在苹果生态全家桶中的落地，必然会给需求的增长带来新的动力。但客观来看，苹果在AI方面并没有显著领先，反而在AI手机的赛道上，落地进度要落后于国内安卓厂商。</p>
-<p>初代Vision Pro的遇冷并非意味着这一产品的“彻底失败”，面向未来的空间计算时代，各路科技巨头都在紧锣密鼓的布局，AI与可穿戴设备的融合，正迸发出更多潜力。</p>
-<p class="editor-note">本文来自微信公众号“智东西”，作者：云鹏，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017322500092806</guid><pubDate>Fri, 01 Nov 2024 16:53:00 +0800</pubDate></item><item><title>恋爱脑，塔罗师眼中最棒的“韭菜”</title><link>https://36kr.com/p/3017430091773064</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="771,989" src="https://img.36krcdn.com/hsossms/20241101/v2_f73f9820c866433b848e5362663dd32f@5322854_oswg668167oswg771oswg989_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“我们两个会复合吗？” </p>
-<p>“现在是表白的好时机吗？” </p>
-<p>“TA对我有感觉吗？” </p>
-<p>俗话说有需求就会有市场，那些渴望在感情中有个答案的年轻人，正在用行动撑起“塔罗牌”这个略显神秘的赛道。 </p>
-<h2><strong>塔罗师疯狂收割恋爱脑 </strong></h2>
-<p>截至10月31日10:00，仅抖音单个平台上的塔罗牌话题播放量就达到了35.2亿。其分支话题，如塔罗牌测试、塔罗牌教学的播放量也达到了33.7亿、3.3亿。在这类视频的评论区中，那些和“爱情”相关的回复最为常见，几乎每条视频的评论区里都有网友分享牌面并邀请围观群众或博主来解答自己的爱情问题。 </p>
-<p class="image-wrapper"><img data-img-size-val="918,475" src="https://img.36krcdn.com/hsossms/20241101/v2_3dee9ed43be348f7b62c3dab040ca5e9@5322854_oswg197051oswg918oswg475_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>培根说过，爱情常常是喜剧，偶尔是悲剧。但对恋爱脑们的钱包而言，爱情则常常是悲剧，偶尔是喜剧。 </p>
-<p>当人们决定通过有偿解惑这条路来找塔罗师咨询爱情问题的那一刻起，TA在对方眼里的形象也会从“痴情种”变成“大韭菜”。毕竟无论塔罗师怎么回答，我们在现实生活中表白成功的概率都是未知数，唯有塔罗师钱包变鼓的概率是已知数。 </p>
-<p>曾有记者就塔罗市场展开调研，他发现塔罗师解答单个问题（如爱情 、事业等）的价格为199元。倘若是解答“期运势走向如何”这种更加复杂的问题，那么还需要收取额外费用。 </p>
-<p>除此以外，那些活跃在短视频平台上的5元、9.9元塔罗师们为了增强自己的吸金能力，要么会使用解答模板向多位用户发送相似的答案，主打快速翻台走量牟利；要么会使用特定话术引导用户购买599元、29999元等价位的“幸运道具”狠宰对方一笔。 </p>
-<p>除收割C端用户外，塔罗之手还伸向了B端用户。 </p>
-<p>针对那些想成为塔罗师的小白，市场上已经出现了专门的培训机构。其收费标准为15000元，内容包含3个月的网络培训课+每月1次的线下培训课。待学习期满后，机构还会为用户开具“结业合格证”将学员和那些在家自学的塔罗爱好者区分开来，通过营造“门派传承”和“野路子”的反差感来增加客户信任度。 </p>
-<p>针对那些有塔罗基础但想创业的人，市场上则出现了塔罗机构加盟商。他们的收费标准为新店开业加盟费6.8万（推荐加盟的人将获得1.8万 的提成），总店和分店执行利润分成制。 </p>
-<h2><strong>塔罗热的背后是另一个供需失衡的市场 </strong></h2>
-<p>塔罗解答这种虚无缥缈的概念，到底为什么能持续收割客户？甚至成为少数人的财富密码呢？ </p>
-<p>《中国消费趋势报告》指出，在3000名18-59岁的受访者中有76.2%的人会感到焦虑。美国德勤会计师事务所的一项调查也显示，有近50%的Z世代长期受到压力和焦虑感的困扰。 </p>
-<p class="image-wrapper"><img data-img-size-val="593,316" src="https://img.36krcdn.com/hsossms/20241101/v2_8852c30fb1a74c61a5bee12a5c75ab02@5322854_oswg77627oswg593oswg316_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>现代社会快节奏、高压力的生活特征，正在让焦虑等心理异常现象成为广大年轻人的共性问题。 </p>
-<p>在这样的背景下，国内的心理咨询市场也正在快速成长。近10年国内的存续心理咨询机构已突破10万家，年平均增速超40%。在2023年，国内的心理咨询市场规模达到了953亿，年复合增长率将突破25%。 </p>
-<p>只可惜心理咨询这块蛋糕看似鲜美无比，但结构略显不稳。 </p>
-<p>虽然用户需求巨大，但我国通过学历教育培养的心理治疗与咨询人才储备却稍有不足。三级学科临床与咨询心理学不仅老师少，开课、培养方向也多为学术型人才。目前在全国高校范围内约有100个应用心理专业硕士培养点，可开设心理咨询方向的培养点大约只有50个。 </p>
-<p>曾有高校人员向记者透露，国内除北京师范大学外的一众高校，其每年培养出的心理咨询人仅有200-300人，每年全国通过学历教育供给的心理咨询人才不足500人。 </p>
-<p>除专业人才少，消费者担心找不到靠谱的机构外。心理咨询动辄500/小时的价格也让不少年轻人望而却步。而这两点，恰恰给予了拥有强倾听属性的塔罗师生存空间。毕竟在年轻人眼里，他们只是想找人吐槽一下身边的问题、排解自身压力罢了。这和单价高、需长期治疗的心理咨询师相比，同样安静倾听自己诉说烦恼的塔罗师显然更有性价比。 </p>
-<p>况且在短视频时代，带有神秘色彩的塔罗牌已经成为了一种社交工具，不少年轻人都选择把它当成一种破冰工具。随着人们在社交过程中的口口相传，塔罗牌的知名度也会越来越高。最终吸引一个又一个对其好奇的年轻人上网提问，成为塔罗师们的新客户。 </p>
-<h2><strong>揭秘塔罗师的财富密码</strong></h2>
-<p>好奇感只能为塔罗师们带来流量，但心理学却可以让他们获得留量。 </p>
-<p class="image-wrapper"><img data-img-size-val="616,349" src="https://img.36krcdn.com/hsossms/20241101/v2_2e3329010dbb4584ab334fcc8cfa46a1@5322854_oswg351893oswg616oswg349_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>巴纳姆效应，又称福勒效应、星相效应。</p>
-<p>这个词是指人们往往会对那些笼统的、一般性的描述高度信任，认为这些话术精准揭示了自己的处境和性格特点。哪怕这些话术是提前编好的，哪怕这些话术是多人共用的，我们还是会在认知偏差的影响下对其高度信任。 </p>
-<p>除利用巴纳姆效应获得信任感外，成熟的塔罗师还会在交流过程中扮演倾听者的角色。他们会将对话的主动权交给客户，引导他们说出那些让自己不适的核心问题，并通过说好话、“画大饼”等方式为用户描绘美好未来，消解对方的焦虑情绪。 </p>
-<p>这一点也和“人本主义心理学之父”卡尔·罗杰斯的治疗思路不谋而合。罗杰斯认为不正常的行为、令人不适的心理异常，不能简单地通过记忆探索、纠正反应等手段进行治疗，而是要去温暖、鼓励患者。最终通过再造自信心的方式，让他们相信自己能有能力做出合理的选择，达成治疗目的。 </p>
-<p>在消费心理层面，“心理咨询”“心理治疗”这些词还会让年轻人感到羞耻不安。因为在他们眼中这些词往往和严重的心理疾病相互绑定，一旦让别人知道自己为此买单，自己就有可能成为大家眼中的异类。所以部分年轻人还会因对自身社交羽毛的爱惜而排斥心理咨询机构，选择找塔罗师诉说个人情感等问题。这样做不仅不用担心自己的秘密被曝光，还能从塔罗师那里得到情绪正反馈，减缓焦虑感。 </p>
-<p>看到这我们也不难发现，塔罗市场经久不衰的原因不仅是它满足了大众对“神秘事物”的好奇心。还因为它用“重获掌控感”“提前阅读人生剧本”等概念，为那些焦虑不安的人们提供了一丝对生活的掌控感。说到底，塔罗终究是一个由印刷品和话术共同编制的“谎言”。比起这些卡牌，我们更应该相信自己的能力和决策，将人生的方向盘牢牢握在自己手里。 </p>
-<p><strong>参考：</strong></p>
-<p>后浪研究所：恋爱脑，养活了无数“2个月速成”的塔罗师 </p>
-<p>大象新闻：“洋玩意占卜”，是换一种方式来“割韭菜”丨大象深度 </p>
-<p>央广网：塔罗牌占卜误导青少年 市场乱象应如何整治？ </p>
-<p>亿欧网：想被“救赎”的年轻人，养活了万亿疗愈经济 </p>
-<p>中国青年报：“不确定性”让这些年轻人陷入焦虑 </p>
-<p>中国国情：热点观察：心理咨询市场汹涌澎湃 人才培养体系亟待建立 </p>
-<p>生命时报：疗愈师培训，靠吹圈钱 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5MTI5NDgxNA==&amp;tempkey=MTI5NF9MbVVvbU9YWnRUR2JTU2J1VEFlZTdMVFRUcnNNdUpRdWYtcmpQWFh1bDBWcDI1Y3VqcDBlVGJaMFhCMEpsaE1jS1BWWDNacUV2NTIwdWxISTJ0bHU4RmZOdVJjVW9rSmYwRG0wcEVpYkRFNmM0OHpYNGdpbmZyVVhfNlY5ZVJod1Vycm5aSkE3eVpnNkpIdDE0elB3VlV4T05Sck0ta2tod2pQSUh3fn4%3D&amp;chksm=0afe16fc3d899fea5a8d73662c94b64b8e259bedf532fe1dec296d91663494395407bfaf8280&amp;scene=0&amp;xtrack=1&amp;previewkey=KfFnGGhybQDvEfaRHhuGuZ1iJUUG%252F7eLf7OA%252FVEtaJE%253D&amp;subscene=7#wechat_redirect" rel="noopener noreferrer nofollow" target="_blank">“互联网那些事”</a>，作者：互联网那些事，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017430091773064</guid><pubDate>Fri, 01 Nov 2024 16:57:00 +0800</pubDate></item><item><title>选对了能省钱，存量房贷重定价周期越短越好？</title><link>https://36kr.com/p/3017415241442565</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“早上就申请把重定价周期改成3个月了。”11月1日，家住天津的赵先生告诉中新经纬，他在中国银行手机App上申请调整了重定价周期。 </p>
-<p>10月31日，多家银行发布关于完善个人住房贷款利率定价机制有关事项的公告。 </p>
-<p>这次存量房贷利率动态调整机制中，最受人关注的部分，是取消了房贷利率重定价周期最短为一年的限制，借款人可以向银行申请调整重定价周期。具体该如何操作？ </p>
-<h2><strong>“早半年使用最新利率”</strong></h2>
-<p>赵先生告诉中新经纬，此前，他的房贷重定价日为每年7月7日。 </p>
-<p>2020年，他在中国银行贷款时，贷款利率为LPR+60BP。当时5年期以上LPR为4.65%，其房贷利率为5.25%。2023年，在经过第一次存量房贷利率调整后，他的贷款利率降为LPR（当时5年期以上LPR为4.20%）。 </p>
-<p>今年2月，5年期以上LPR降至3.95%。因此在7月7日，他的房贷利率也调整至3.95%。10月25日，第二次存量房贷利率调整后，他的房贷利率降为LPR-30BP，即3.65%。 </p>
-<p>而今年7月22日、10月21日，5年期以上LPR又分别降了10BP和25BP，最新报价为3.60%。原本，他的房贷利率将在2025年7月7日才能下降到3.30%。<strong>这次重定价周期调整后，他的下一个重定价日期变为2025年1月7日。“能早半年使用到最新的房贷利率。”</strong>赵先生说。 </p>
-<p>以赵先生为例，调整后，他的重定价日分别为7月7日、10月7日、1月7日、4月7日。 </p>
-<p>赵先生表示，在申请调整后，他的手机App显示“已受理，最终结果以审批为准”。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_197ca997cb4d461c8bd45848d0253ca5@000000_oswg68080oswg1080oswg1286_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲来源：受访者提供 </p>
-<p>在社交平台上，有网友表示，“一大早，就把重定价周期调整了！调成了3个月。”还有网友称，自己是在交通银行做的房贷，申请调整重定价周期后“秒批”。 </p>
-<h2><strong>“我的房贷为啥还不能调？”</strong></h2>
-<p>虽然有的网友已经申请成功，但还有网友发现，自己的贷款行手机App上还没有申请重定价周期调整的选项。是什么原因？ </p>
-<p>这可能和两种情况有关，一是对于固定或基准利率的存量房贷，需先向银行申请转成浮动利率，以最近一个月LPR转换为加点形式，加点值等于原合同利率水平与最近一个月相应期限LPR的差值，然后再按照现行规则进行利率加点值或重定价周期的调整。 </p>
-<p>二是与各银行的调整节奏有关。 据各银行公告，六大行申请重定价周期调整的时间均不晚于11月15日，中国银行最早在11月1日起开始受理，借款人可以通过各银行手机银行等渠道自助办理。 </p>
-<p>中新经纬梳理了部分已发布公告的银行申请调整时间和渠道： </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_15c0d8d9892c4069a98f2ea5a9983da8@000000_oswg225667oswg1067oswg978_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从公告来看，目前，银行提供按3个月、按6个月、按12个月调整三种重定价周期，借款人可以选择其中的一种。需要注意的是，借款人可以向银行申请变更重定价周期，但同一笔贷款存续期内仅可申请调整1次，不得进行多次调整。 </p>
-<h2><strong>重定价日如何确定？</strong></h2>
-<p>据农业银行的相关解答，<strong>调整重定价周期后，重定价日可沿用原贷款合同中的日期。</strong></p>
-<p>具体又可以分为两种情况：一是原贷款合同约定为对月对日的，重定价日为调整后重定价周期相对应月份的借款发放日对日，如重定价周期内无借款发放日对日，则该周期重定价日为相应月份的最后一天。<strong>二是原贷款合同约定为1月1日的，重定价日为调整后重定价周期相对应月份的1日，也可以选择以调整后重定价周期相对应月份的借款发放日对日为重定价日。</strong></p>
-<p>例如：小李原房贷重定价周期为12个月、重定价日为11月8日。2024年12月5日申请将重定价周期调整为3个月，则调整后的重定价日为2月8日、5月8日、8月8日、11月8日。 </p>
-<p>小王原房贷重定价周期为12个月、重定价日为3月31日。2024年12月10日申请将重定价周期调整为6个月，则调整后的重定价日为3月31日、9月30日。 </p>
-<p>小张原房贷重定价周期为12个月、重定价日为每年的1月1日，借款发放日为11月25日。2024年12月9日申请将重定价周期调整为3个月，则调整后的重定价日为1月1日、4月1日、7月1日、10月1日。如小张选择将重定价日约定为借款发放日对日，则调整后的重定价日为2月25日、5月25日、8月25日、11月25日。 </p>
-<h2><strong>重定价周期是越短越合适吗？</strong></h2>
-<p>“重定价周期既不是越短越好，也不是越长越好，主要考量因素应是市场利率走势。”招联首席研究员董希淼在接受中新经纬采访时表示。 </p>
-<p>董希淼进一步解释道，如果利率处于下行趋势，重定价周期短，利率下降能更快体现，导致贷款实际利率更快下降；如果利率处于上行趋势，重定价周期短，利率上升也将更快体现，导致实际利率更快上升。 </p>
-<p>董希淼指出，借款人应对利率走势进行研判，选择重定价周期。目前，市场利率或有下降空间，借款人可根据需要选择较短的重定价周期。 </p>
-<p>为何重定价周期没有提供每月一调整的选项？董希淼指出，贷款市场报价利率（LPR）并非每个月都变动，以3个月为最短的重定价周期是合适的，以1个月为重定价周期没有必要。 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247585169&amp;idx=1&amp;sn=8bfaaef07f8b7f0b772e15c637fd3b7f&amp;chksm=e8410969598afbff6f461ad990079c965aebdaf212d89b717d4d1326371199dc8836a110703c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：魏薇，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017415241442565</guid><pubDate>Fri, 01 Nov 2024 16:58:00 +0800</pubDate></item><item><title>海康威视场景数字化，切入生产核心环节</title><link>https://36kr.com/p/3017557749376516</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>从24小时，到2分钟，速度快了多少倍？</p>
-<p>答案是接近1000倍。</p>
-<p>从1克，到1吨，提升了多少倍？</p>
-<p>答案是100万倍。</p>
-<p>10月24日，国家能源集团与海康威视联合研发的“融合光谱煤质快速检测技术”正式发布，在这一技术的加持之下，采样煤炭的检测耗时从8到24小时大幅缩减至2分钟内，检测煤样量从传统的1克大幅提升至近1吨，无论是检测效率还是样品代表性，其提升程度均为自煤炭大规模工业应用以来的重大突破。</p>
-<p>这项技术已经在国家能源集团煤炭、电厂、运输、化工等产业进行了长达2年的示范应用，累计检测煤量达4亿吨，覆盖398种煤种，实现了超过千万吨的煤炭交易快速结算。</p>
-<p>而融合光谱煤质快速检测技术，更是成为了海康威视推进场景数字化落地的标杆之作。</p>
-<p>如今的海康威视，早已不仅仅是安防产业的龙头大哥，更是推动场景数字化的代表玩家。</p>
-<p>从关注“人、车、行为”的安防，到关注千行百业中各类“物”的场景数字化，海康威视正不断以创新技术与解决方案撬动核心生产力，推动场景数字化在大量真实应用场景中逐步落地开花，为产业发展带来实打实的提质、增效、降本。</p>
-<h2><strong>01 实现“物”的数字化    解决生产场景的核心问题</strong></h2>
-<p>中国是名副其实的煤炭消费大国。</p>
-<p>中国的能源以煤为主，其能源消费占比超过55%。相比之下，世界均值为27%，美国与欧洲都仅为11%。2023年，我国原煤生产和进口煤量高达51.84亿吨，煤炭不仅是国家能源的基石，更是工业繁荣与经济增长的驱动。</p>
-<p>在煤炭的采、运、储、销等生产销售链条中，煤质检测是其中的核心环节、也是最特殊的环节之一。</p>
-<p>煤质检测不仅仅是将煤炭按照质量进行划分，更是根据水分、发热量、全硫、灰分、挥发分等指标，将煤炭产品进行分类，进而影响商品煤生产、销售结算、利用率。精准高效的煤质检测，对于经济与环保都意义重大。</p>
-<p>国家能源集团与海康威视这次推进煤质检测技术的突破，关键在于融合了多维感知、人工智能等技术，围绕“煤炭”这一复杂组成成分的物质，将与其发热量、全硫、灰分、全水等物理或化学相关的特性，通过技术手段进行了数字化。短短2分钟，煤炭质量的数据就可以输出，这带来的是煤炭全产业的提效、降本。</p>
-<p>如，在国家能源集团胜利能源公司，煤炭交易结算由原来的一月一结变为当日结算，可减少大量交易资金沉淀成本。国能黄骅港务以煤质快检技术代替传统采制化方式后，每年就可节省采制化成本超千万元。</p>
-<p>不只是煤炭，在场景数字化业务领域，海康威视不只关注“物”的基本类型，还关注“物”的特性、状态或成分，如物的数量、温度、体积、流量、距离、尺寸、缺陷等等，通过把物理世界的“物”进行精准数字化，从而推动千行百业各类场景中运营、管理的提质降本与增效。</p>
-<p>举例而言，在许多大型煤矿、港口码头、发电等企业，会有长达数十公里的皮带运输设备，成千上万的托辊支撑皮带运输煤炭、砂石等材料。</p>
-<p>托辊如果出现卡顿、偏移，会造成皮带磨损、跑偏、发热甚至起火等严重事故，导致产线停工，严重的还会造成事故。相关企业需要配备大量巡检人员沿着皮带机进行24小时轮班检查，效率与成本都是问题。</p>
-<p>多年来，业界一直在尝试用可见光、热成像、红外等各种技术和设备去进行监测，但由于真实应用场景十分复杂，效果往往不达预期。一条“皮带”，困住了行业多年。</p>
-<p>针对这一问题，海康威视在综合研究调查了多个应用场景与技术路径后，创新性提出了光纤+托辊检测方案，从皮带运输机上数量最多的部件——皮带托辊入手，在托辊上安装听诊光纤探头。这套方案基于探头采集回的托辊声音，结合AI算法，精准定位故障的位置，并及时预警。同时，由于光纤是无源的，环境适应能力很强，在皮带上铺设以后，就能够把接收到的信号还原成音频进行分析，并通过声纹模型匹配，智能识别故障种类，使得整体传输工作更安全、高效、智能。</p>
-<p>跟煤质检测采用双光谱融合技术路线一样，海康威视这套定位型听诊光纤方案是标准的“跳出盒子（Think Out of the Box）”式创新，不拘泥于传统路径，通过技术创新，找到最适合当下这一“物”的数字化解决方案。其不仅要求创新者对于真实应用场景、真实使用需求的深度洞察，更需要其拥有足够丰富、足够多元、足够“厚”的技术储备。</p>
-<p>除了能源、制造等行业外，在农业领域，围绕粮食粮仓安全，海康威视与中储粮成都储藏院联合开发了AI虫情监测分析终端，通过AI识别算法与400万像素白光补光球机实时反馈害虫发生数量，使得粮食仓库能够及时识别、预警虫害威胁，保证粮食粮仓安全。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,522" src="https://img.36krcdn.com/hsossms/20241101/v2_7081e021d64f476cad0d739b3dbd723e@11416942_oswg985673oswg1080oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而在建材化工领域，在湛江宝武环科的工厂里，围绕困扰行业的矿粉测量问题，海康威视使用毫米波信号对粉尘的高穿透能力，使用三维扫描成像雷达24小时对仓内进行360°高精度扫描，使得测量工人在恶劣天气中不用在仓顶历经风吹雨打，也能实时掌握库位情况，管控生产平稳运行。</p>
-<p>类似的案例还有很多。小到生产线上的一颗螺丝钉、粮仓里的谷粒，大到成百上千吨的风电机组、钢厂高炉，在千行百业中，海康威视正不断推进着各类生产设施、生产场景的数字化，融合物联感知、人工智能、大数据等技术，找到最符合场景需求的解决方案，解决最迫在眉睫的核心问题。</p>
-<h2><strong>02 打磨技术产品能力 做场景数字化的“集大成者”</strong></h2>
-<p>“海康威视不追求颠覆式技术去解决问题，但我们会提供很多不同技术的产品，融合了多种技术的产品，去解决某个问题。我们希望成为场景数字化的集大成者。”在接受媒体采访时，海康威视董事长胡扬忠说道。</p>
-<p>万物互联时代，AIoT场景下，存在着大量应用丰富、问题复杂、无法用单点技术进行解决的难题。要做场景数字化集大成者，就要求企业拥有足够的技术和产品作为支撑，开拓出足够贴近现实的诸多AIoT解决方案，才能真正深入千行百业，解决更多的真实的问题。</p>
-<p>无论是融合光谱煤质快检技术、定位型听诊光纤技术，还是AI虫情监测分析、三维扫描成像雷达，它们都只是海康威视智能物联技术产品体系中的一小部分。</p>
-<p>事实上，在二十余年的积累与打磨之中，海康威视已经建立起了一个丰富的“技术仓库”与“产品超市”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,519" src="https://img.36krcdn.com/hsossms/20241101/v2_fb5768a875b949bc9b7d1822381902e7@11416942_oswg459467oswg1080oswg519_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如上图所示，20多年来，海康威视已经搭建起一套较完善的技术、产品、业务体系，其最顶层为安防与场景数字化这两大核心业务方向，中间层是包括大量的系统、设备、模组的产品体系，而支撑这一体系的最底层，则是一片广袤的AIoT“技术黑土地”。</p>
-<p>从业务上来说，安防主要关注人、车、行为等不安全因素，场景数字化则主要关注物的状态等。二者虽然在具体应用场景上有所差异，但在逐步剥至内核后会发现，其共享着大量AIoT的底层技术能力。</p>
-<p>举例而言，基于热辐射技术原理的热成像相机，在安防市场用于周界防范或森林防火。在场景数字化业务中，这项技术能力又能被应用在工业领域，在钢铁、工业材料生产企业进行工业测温，帮助提升生产效率、保障产品质量。雷达技术在安防行业主要做周界防范中移动目标的检测，也做车辆测速。当延伸至工业领域时，工业雷达就可以测量物位和液位。</p>
-<p>作为安防领域的龙头老大，海康威视在可见光分析领域有着多年的深厚积累。而在10余年前，海康威视就从可见光开始，一步步探索红外、紫外、X光、毫米波等电磁波技术领域。</p>
-<p>在此基础上，海康威视又将物联感知的能力进一步扩展至机械波领域，打通声波监测、超声波成像等多维感知技术，实现对环境信息进行全面捕捉和解析，并逐步搭建起对于温度、湿度、压力、磁力等多种传感器技术体系，最终构建起一个扎实的物联感知技术基座。</p>
-<p>得益于这套从视频感知到广泛物联感知技术拓展，如今海康威视的场景数字化方案能够拥有“眼、耳、鼻、舌、身、意”，能够对制造、物流、电力、医疗、食品、交通等诸多场景中的万千“物”进行全面的状态感知，从而为后续场景数字化的自动化、智能化打下坚实基础。</p>
-<p>而人工智能技术与大数据技术，则为海康威视的各类场景数字化方案提供了智能基础。</p>
-<p>在人工智能领域，早在2006年，海康威视就组建了算法团队，开始布局人工智能技术。经过多年的持续投入和研发创新，在人工智能领域建立了深厚积累，并创新推出了海康威视观澜大模型，依托大模型技术帮助更多行业用户解决个性化的智能应用需求。</p>
-<p>物联感知、人工智能、大数据，依托于这三大支柱性的技术基座，海康威视已经打造出超过3万种型号的硬件产品，针对数字化转型的典型应用需求，还专门研发了系列数字化新产品，覆盖能源冶金、快递物流、商贸零售、建材化工、生态环保等10余个主行业、近90个子行业，成长为一片枝繁叶茂的“技术森林”。</p>
-<h2><strong>03 厚积薄发，水到渠成</strong></h2>
-<p>根据IDC的数据，到2025年，全球每分钟将有超过15万台物联网设备连接入网；2026年，中国物联网设备连接数总量将达到惊人的102.5亿个，2022-2026年复合增长率为高达18%，并将持续保持高速增长。</p>
-<p>当前，全球智能物联的设备远未达到上限。随着千行百业的数字化应用场景不断增多，具备更多能力、更加智能的传感设备也将迎来物种大爆发的时代，推动成千上亿件此前未被数字化的“物”走向智能时代。</p>
-<p>能源冶金、快递物流、商贸零售、建材化工、生态环保……在各行各业中，越来越多的企业正在将数字化视为重要的生产力来源，越来越多的场景正敞开怀抱，迎接着数字化的变革。</p>
-<p>毫无疑问，企业数字化转型将是一个持续迭代，不断完善的过程，既无法通过单一功能或单一产品来满足所有需求，又需要持续迭代、持续升级，在现有数字化的基础上，进一步提质、降本、增效，提高生产安全、提高数字化质量、引领企业高质量发展。</p>
-<p>作为场景数字化方案的提供方，今天，海康威视仍在不断研发出创新、智能的数字化新产品，并在各个真实的数字化场景中探索、打磨出更优秀解决方案，持续变化、持续更新、持续自我成长。</p>
-<p>拥有20年技术积累的海康威视，如今堪称厚积薄发、水到渠成，其正在这条不断推进场景数字化的路上持续向前，为千行百业解决具体问题，带来价值。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017557749376516</guid><pubDate>Fri, 01 Nov 2024 17:06:00 +0800</pubDate></item><item><title>叶国富很自信，永辉却还未走出谷底</title><link>https://36kr.com/p/3017469198660742</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>永辉超市还没能走出谷底。</p>
-<p>10月30日晚，永辉超市（下称“永辉”）发布2024年第三季度报告。前三季度，永辉实现营收545.49亿元，同比下降12.14%；净亏损7786.57万元。其中，第三季度实现营收167.7亿元，同比下降16.40%；净亏损3.53亿元。</p>
-<p class="image-wrapper"><img data-img-size-val="1254,522" src="https://img.36krcdn.com/hsossms/20241101/v2_354686f418b1441aacba9e8912e85f96@6079156_oswg194335oswg1254oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1254,644" src="https://img.36krcdn.com/hsossms/20241101/v2_aad120e513044461937acd83224b232a@6079156_oswg224794oswg1254oswg644_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">截图来源于公司公告</p>
-<p>永辉解释称，一方面零售行业竞争激烈，部分消费者消费习惯的改变，以及消费者对购物体验、商品品质等要求更高，公司客流、客单均出现一定程度下滑；另一方面，公司主动进行门店优化调改，在对潜力门店进行关店改造的同时，淘汰关闭了部分尾部门店，两方面因素使得公司同店销售及门店数量均有所下滑。</p>
-<p>1个月前，由叶国富创办的名创优品，豪掷63亿元收下永辉29.4%的股权，成为第一大股东。叶国富表示，投资永辉，一是看好胖东来帮扶后的永辉的前景，该模式可以复制到全国；二是借助永辉影响力及全国商圈资源等，进一步帮助名创优品升级渠道，拿到更好的位置和租金条件，同时协助永辉开发自有品牌，对标山姆；三是优化名创优品资本结构，增加对债务的应用，优化公司整体ROE（净资产收益率）。</p>
-<p>可见在叶国富眼中，在拿下永辉第一大股东后，是有望让永辉在业绩、资本等层面为名创优品带来增益的。但至少目前来看，永辉还远未达到叶国富心中的拐点，其在未来向上还是向下，尚未可知。</p>
-<h2><strong>关店、瘦身</strong></h2>
-<p>总体来看，永辉已经将整体方向由扩张转为关店和调改。</p>
-<p>在财报中，永辉表示，今年第三季度，公司在全国新开2家门店。在新开店的基础上，永辉主动进行门店优化调改，在对潜力门店进行关店改造的同时，淘汰关闭了部分尾部门店。同时，截至三季度末，在胖东来的帮扶下，已完成调改门店10家，其中自主调改7家。</p>
-<p>极海品牌监测的数据则显示，近90天时间里，永辉共计关停137家门店。</p>
-<p>而为了摆脱前些年大幅扩张与投资的后遗症，一些永辉门店的经营也进入尾声。</p>
-<p>近日，广州市天河区正佳广场的百佳永辉超市贴出告示，宣布11月11日起停止营业。该门店在公告中表示，公司总部正在对各项资源进行统一整合与优化，经过综合评估，决定停止营业。</p>
-<p>天眼查显示，百佳永辉超市的母公司为广东百佳永辉超市有限公司（下称“广东百佳永辉”），由永辉超市、屈臣氏集团旗下百佳超市以及腾讯三方合资成立，三方的持股比例分别为50%、40%和10%。</p>
-<p>由于此前在华南地区扩张缓慢，2018年10月，永辉联合屈臣氏集团及腾讯共同组建了广东百佳永辉，并将整合屈臣氏集团旗下的百佳超市，以及永辉在广东省的商超业务。</p>
-<p>不过，百佳永辉的经营并不顺利。以2021年为例，广东百佳永辉资产组商誉及无形资产减值损失达到了1.43亿元。</p>
-<p>今年以来，多家百佳永辉超市陆续传出结业的消息。从8月开始，广州北京路恒润广场的百佳永辉超市、广州番禺区市桥的永辉超市番禺鸿禧店相继停止营业。此外，珠海、中山和深圳的多家百佳永辉超市也宣告停业。</p>
-<p>为了应对经营困境，永辉也从“买买买”转向“卖卖卖”模式。</p>
-<p>2021年，永辉清仓式减持国联水产、昇兴股份两家上市公司股份，通过财通基金收回宝龙商业股权投资款；2022年，永辉出售了持有的中百集团股票；2023年，永辉出售大连万达商管集团司股份，转让价格为45.3亿元；2024年，永辉出售所持有的红旗连锁股份以及永辉云金科技有限公司股权。</p>
-<p>此外，永辉还面临着原控股股东减持、战略投资者减持及退出等问题。今年以来，永辉战略股东京东不断减持和转让公司股份。9月，在将所持有的永辉股份转让给名创优品后，京东系持股比例从13.39%降至2.94%。</p>
-<p>一方面，行业竞争加剧、消费习惯转变，不断亏损的永辉不得不瘦身回血；另一方面，股权的频繁变动，也为永辉的走势蒙上了一层阴影。</p>
-<h2><strong>叶国富的豪赌</strong></h2>
-<p>虽然业绩萎靡，但永辉在整个零售业依然还是一座高山。</p>
-<p>官网显示，永辉目前在全国29个省份拥有804家门店。虽然永辉业绩持续下滑，三年间总亏损超过80亿元，但就销售规模而言，其在国内也是仅次于山姆母公司沃尔玛的存在。</p>
-<p class="image-wrapper"><img data-img-size-val="964,340" src="https://img.36krcdn.com/hsossms/20241101/v2_36465d6e130242ac923ac66118280184@6079156_oswg52094oswg964oswg340_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">截图来源于官网公告</p>
-<p>永辉的行业地位给了叶国富豪赌的勇气。而胖东来调改帮扶下的永辉，也让叶国富信心十足。</p>
-<p>叶国富在收购永辉股权之后的电话会上表示，自己曾多次走访调改门店。他以永辉的调改首店郑州信万广场店举例称，该门店恢复营业首日销售额达到188万元，是调改之前日均销售额近14倍；人流近1.3万，是调改之前日均客流的5.3倍。此外，永辉福州公园道店、永辉西安中贸广场店，在调改后的日均销售额和人流量都实现了高速增长。</p>
-<p>胖东来的确有着让同行效仿的资本。最新数据显示，仅13家门店的胖东来，有望在2024年实现150亿元的年销售额，单店销售额达到了11.54亿元。相比之下，永辉在2023年的单店销售额还不到8000万元。</p>
-<p>但必须注意的是，除了“顾客至上“、“人文关怀”等光环之外，胖东来能够取得成功，是建立在其不寻求省外扩张、保持在河南本地“稀缺性”的基础之上。这可能也是前期部门永辉门店在接受胖东来调改后，销售额和客流量大增的主要原因。</p>
-<p>而胖东来推崇自选产品的模式，也要求品牌方提前向供应商垫资，以进行定制。但对于持续亏损，寻求降本增效的永辉来说，进行相应的调整难度较大。此外，如果像胖东来一样提高员工待遇，也有可能加重其资金负担。</p>
-<p>另一方面，永辉目前减少或彻底去除向供应商收取的进场费、条码费等后端费用，减少中间环节，提高产品质量的做法，原本是山姆、胖东来等同行一直进行的实践。但对于永辉这种巨头来说，想要斩断过去多年各个采购、销售环节的利益链，还存在不确定性。</p>
-<h2><strong>还没到拐点</strong></h2>
-<p>即便在胖东来的支持下，一些永辉门店调改获得成功的案例，也很难说已经具备统计学意义，不一定能够复制到全国800多家门店。</p>
-<p>还有一个无法忽略的重点是，当前中国的大卖场整体还处于低迷期。受到渠道变化、消费者习惯改变等冲击，商超企业业绩恢复缓慢，整体表现不佳。</p>
-<p>今年的三季报，超市上市企业里，只有家家悦、红旗连锁、ST步步高、三江购物等出现营收增长，其余多家出现同比下滑。此外，包括永辉、家家悦、中百集团、利群股份等净利润也都出现下降。</p>
-<p>在整个行业的生存难言到达拐点的情况下，仅靠抱胖东来的“大腿”，永辉并不一定能够走出谷底。</p>
-<p>在成为永辉大股东后，名创优品方面在电话会上表示，预计不会控制董事会的多数席位。因此，名创优品不会作为永辉超市的控股股东、实控人。包括叶国富在内的现有名创优品管理团队，仍然会聚焦在名创优品集团的主业上。</p>
-<p>此前业内也普遍预计，作为创始人的张轩松，也不会轻易放弃永辉的控制权。这也意味着，短期内叶国富和名创优品可能无法主导永辉的走向。</p>
-<p>不过对于叶国富来说，收下永辉的股权，还不算是一桩亏本的买卖。9月24日至今，永辉股价已经接近翻倍，名创优品持有永辉股权总市值，也从63亿元上涨至130亿元。</p>
-<p>而作为国内线下零售昔日龙头，虽然船大难掉头，但永辉在供应链、渠道以及资金储备方面都要好于同行，仍有余力调转方向。但永辉能否按照叶国富的设想，模仿胖东来并对抗山姆，与名创优品形成互补，仍需要时间验证。</p>
-<p>对于未来的开店和调改节奏、与名创优品的业务协同等问题，永辉方面回复源媒汇称，其整体开店规划由公司开闭店委员会决定，名创优品的股权收购还处于交割阶段，如有进展，将会在公告披露。</p>
-<p class="image-wrapper"><img data-img-size-val="1218,741" src="https://img.36krcdn.com/hsossms/20241101/v2_437fc6687b504949a6f75d6fea479928@6079156_oswg1221782oswg1218oswg741_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>部分图片引用网络 如有侵权请告知删除</p>
-<p>本文来自微信公众号“源媒汇”，作者：王言，编辑：苏淮，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017469198660742</guid><pubDate>Fri, 01 Nov 2024 17:18:00 +0800</pubDate></item><item><title>今年双11，电商们如何用大模型讲新故事</title><link>https://36kr.com/p/3017457907905416</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="780,437" src="https://img.36krcdn.com/hsossms/20241101/v2_98cb3fede5f74d53a759e57bf8619de7@5752854_oswg65972oswg780oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从2009年到2024年，双11已经走过整整15个年头。以消费为名的双11，早已演变成一年一度的购物狂欢节和一种特定的商业仪式。 </p>
-<p>从互联网时代的网站图文海报，到移动互联网时代的短视频带货和视频直播，再到如今大模型加持下的AI电商。不断迭代的技术、不断刷新的内容和规则，在悄悄记录并改变着电商的发展。 </p>
-<p>自从ChatGPT出现后，人工智能作为技术全新变量，在各行业掀起巨大风暴，大模型的风也很快吹到电商行业。 </p>
-<p>去年4月，阿里时任董事会主席兼CEO的张勇宣布，阿里所有产品未来将接入“通义千问”大模型，进行全面改造。淘宝推出AI原生应用淘宝问问。 </p>
-<p>三个月后，京东也推出其自研大模型—言犀大模型，深耕电商供应链场景。年底，拼多多也传出探索大模型在拼多多客服、对话等场景下的应用。 </p>
-<p>不仅传统电商巨头们不想错过大模型，以抖音快手为代表的兴趣电商也在持续探索，AI购物助手、AI生成产品图、数字人直播等大模型应用与电商场景不断接轨。 </p>
-<p>那么经过近两年的发展，大模型重塑电商走到了哪里？而双11正是一个观察电商AI化变革的最佳窗口。 </p>
-<p><strong>我们选择了五家电商厂家，淘宝、京东、拼多多、抖音、快手，试图通过它们近两年在AI电商上的布局，回答：五家厂商推出了哪些AI电商产品？它们各自的AI电商策略是什么？未来，AI电商形态是什么？</strong></p>
-<h2><strong>一、猫狗、抖快用AI打开双11：从商家到产业链深耕</strong></h2>
-<p>如果说去年首个AI双11是各家在用大模型试水，那么，今年一个明显的变化趋势是：AI大模型已经从消费者、商家侧渗透到电商的产业链中。 </p>
-<p>无论淘宝、京东还是抖音、快手，都在加速布局AI电商赛道，用AI提质增效。 </p>
-<p><strong>具体来看，秉持着“让天下没有难做的生意”理念，淘宝在今年双11中持续从AI方向做调整，重点升级了面向商家的AI工具——“生意管家”。</strong> 目前，已面向所有淘宝天猫商家上线。 </p>
-<p>升级后的“生意管家”整合了素材生成、数据服务、经营代理等多项AI工具及能力。其中，新增了商品个性化功能，可为商品生成符合目标人群需求的商品主图及卖点，并面向不同人群自动展示不同素材，从而提升商品转化率。 </p>
-<p>在电商出海方面，阿里国际推出翻译大模型产品Marco，支持中、英、日、韩、西、法等 15 种全球主流语种。Marco依托通义大模型及积累深厚的电商数据，通过深入分析上下文和场景，为产品提供精准翻译。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,435" src="https://img.36krcdn.com/hsossms/20241101/v2_7aeab843e8134d489a3a15e44ecde1aa@5752854_oswg175313oswg1080oswg435_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>阿里不断加速AI在电商、出海等场景应用落地，AI已覆盖电商交易全链路。 </p>
-<p><strong>京东则在AI+产业应用方面持续深耕。</strong> 今年双11期间，京东对商家各类工具进行全面升级，涵盖店铺管理、营销推广、服务能力等多个方面，同时引入20款可免费使用的AI工具，将AI能力渗透到商品经营、店铺管理、订单服务、客服接待等运营全链路中。 </p>
-<p>此外，京东还向商家开放了数字人直播等数十款AI工具，通过AIGC帮助商家一键生成营销素材，使内容制作效率提升90%以上。 </p>
-<p>值得关注的是，最近京东首次公布了言犀视频大模型的最新动态，据了解商家可以通过言犀视频大模型智能分析产品特点与用户喜好，自动生成高质量的产品视频内容，大幅提升视频内容的生产效率，满足其对图像视频化、产品种草、短剧营销等需求。 </p>
-<p class="image-wrapper"><img data-img-size-val="693,336" src="https://img.36krcdn.com/hsossms/20241101/v2_ade3d619f1154332ae5f91ebefe7406d@5752854_oswg377440oswg693oswg336_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>业内预测，按照如今展示的效果推断，京东言犀视频大模型有望明年对外开放。 </p>
-<p><strong>抖音电商则背靠豆包大模型和火山引擎，在AI电商布局上紧跟淘宝、京东。</strong></p>
-<p>在双11前，抖音电商在产品工具侧推出“AI 场景+商家经营提效解决方案”，基于豆包语音模型、大语言模型和视觉模型等 AI 技术，在电商的货架场、直播场、客服场提供了 AI 生图生视频、AI 练播房、AI 客服助手等 AI 系列商家经营提效工具。 </p>
-<p>同时，抖音电商依托豆包·视频生成模型，可以把商品变成 3D 动态多角度展示视频，匹配适合的营销背景素材并生成不同尺寸快速上架。 </p>
-<p><strong>相比其他大厂，快手在AI电商方面的布局较少，主要集中在视频生成模型可灵上。</strong></p>
-<p>快手二季报披露，今年上半年有近2万名平台商家使用快手的大模型，其中AIGC营销素材在6月份的日均消耗达到2000万份。 </p>
-<p>可以看到，无论是传统电商还是直播电商，AI大模型在今年的“双11”中已经不仅局限在单点的工具上，而是渗透到电商经营的全链路。 </p>
-<p><strong>二、有人All in，有人谨慎</strong></p>
-<p>在AI电商的浪潮中，大厂的布局策略呈现出鲜明的差异。有的All in，全力以赴，有的则持谨慎态度，小步前行。</p>
-<p>实际上，如果从电商视角抽离出来，我们会发现，这些大厂对AI电商的布局仅是用大模型重塑自身的一部分。阿里、京东和字节尤为明显。</p>
-<p>这三家在电商大模型布局方面尤为积极，一个不可忽视的原因是，<strong>它们背后都云服务，都把云服务作为重要的战略增长。</strong></p>
-<p>目前，大模型已经上升为大厂们的战略业务，投入大模型不仅可以提升云服务的利润率，还能够重塑成熟业务和创新，驱动业绩增长。 </p>
-<p>去年9月，阿里集团CEO吴泳铭发布全员信，确立“用户为先、AI驱动”这两大战略重心，并据此大刀阔斧地进行AI变革。 </p>
-<p>自去年4月发布首个大语言模型通义千问以来，<strong>通义大模型家族已全面涵盖语言、图像、视频、音频等全模态，并接入阿里多个业务线，包括淘宝、钉钉、高德地图、菜鸟、优酷等。</strong></p>
-<p>阿里不仅用AI All in所有业务，在电商方面与AI绑得更为紧密。目前推出了AI产品图工具Pic Copilot、堆友等；AI驱动全平台广告工具“全站推广”，阿里国际也在40多个场景里测试了AI能力，覆盖跨境电商全链路，包括商品图文、营销、搜索、广告投放、SEO、客服、退款、店铺装修等。 </p>
-<p><strong>阿里AI技术与产品已覆盖电商交易的全链路。</strong></p>
-<p>应用狂人字节，将自己信奉的赛马机制延续到AI中。近两年字节推出的AI产品涉及助手、社交、图像、视频、教育等多个领域，并将豆包大模型接入到抖音、今日头条、剪映、番茄小说、西瓜视频、飞书、豆包、悟空浏览器等产品中。 </p>
-<p>字节还在不断探索新场景，最近盯上AI+硬件，推出了AI耳机Ola Friend。 </p>
-<p>具体到电商领域，在国内为商家提供AI智能创作管理平台“即创”，提供AI数字人生成、商品图文创作、AI直播装修、直播脚本等功能。 </p>
-<p>最近，抖音电商联合火山引擎推出的AI直播三件套，即AI练播房、直播洞察、矩阵管家，提供从产品上架到售后的全流程服务。 </p>
-<p>此外，在跨境电商方面，字节也在同步进行AI功能的研发，包括智能客服、机器翻译和电商文案创作等。<strong>字节AI赛马，多条线、多产品布局看谁能最终跑出来。</strong></p>
-<p>不同于阿里和字节做通用大模型，京东则选择深耕电商产业的垂类大模型路线。京东言犀大模型从实用角度出发，面向零售行业、物流行业、健康行业等推出了多款AIGC营销工具和智能助手。 </p>
-<p>如，面向零售行业推出AIGC营销工具“京点点”；面向物流行业推出小哥终端智能助手；面向健康行业推出免费智能医生“康康”，切实将大模型技术应用到电商产业链上。 </p>
-<p><strong>如果说淘宝和抖音电商背靠大树好乘凉，那么快手和拼多多的AI电商策略则要谨慎得多。</strong></p>
-<p>快手虽然推出了文生图、文生视频等AI应用，但更多的是从自身短视频业务场景出发，深耕视频生成领域。 </p>
-<p>据公开资料显示，截至目前，“可灵”AI已经累计服务超过260万用户，生成5300万张图片、2700万个视频，<strong>快手用视频生成切入AI电商赛道的潜力已经有所显现。</strong></p>
-<p>拼多多则更为保守，目前仅在内部做AI智能客服，并未大规模布局AI大模型，战略重点仍在跨境电商Temu上。 </p>
-<p>目前大模型在AI电商的落地和应用集中在内容创作、AI生图、数字人领域，而只专注于电商业务的拼多多或许还没有看到大模型对电商的颠覆在哪里。因此，选择了更为稳健的发展策略。 </p>
-<p>这种差异化的策略背后，反映了大厂们对AI电商的不同理解和预期。阿里、字节和京东看到了大模型在提升云服务利润率、重塑成熟业务和创新方面的巨大潜力，因此选择了全力以赴。而快手和拼多多则更加注重自身业务的实际需求和风险控制，选择了更为稳健的策略。 </p>
-<h2><strong>三、AI电商下一场：搜索、推荐</strong></h2>
-<p>你理想中的AI电商应该是什么样的？ </p>
-<p>如同科幻电影《Her》中的超级AI助手，拥有听觉、视觉、空间感知能力，能够基于你的需求（明确地或模糊地）用自然语言交互的方式，匹配最佳商品，并可以通过AI Agent技术自动完成下单，完成后续的物流和售后服务。 </p>
-<p><strong>未来，AI Agent或许是AI电商的终局，但并不是目前AI电商下一场的赛点。</strong></p>
-<p>尽管目前公认AI Agent会是人工智能发展的一个重要方向，潜力巨大，但目前电商行业更关注的是如何利用AI技术提升用户体验、优化运营效率和降低运营成本。 </p>
-<p>而此时AI+电商搜索走进玩家们的视野。 </p>
-<p>AI+电商搜索的核心是个性化推荐和定制化服务，在电商交易环节中，用户找到满意的商品是完成交易的关键环节。 </p>
-<p><strong>无论是传统的“人找货”的货架电商，还是“货找人”的内容电商，本质上都是希望更多“货”能被更多“人”看见，并产生链接的机会。</strong></p>
-<p>大模型的加入让电商搜索能够给用户提供更智能的引导，满足用户定制化和个性化的需要，同时降低交互成本，提升搜索效率。 </p>
-<p>国内电商平台如淘宝、京东、抖音等都在积极探索这一领域。例如，淘宝推出的淘宝问问、京东京言及抖音电商的“AI购物小助手”等都是这个方向的尝试。 </p>
-<p>值得关注的是，什么值得买也在其APP中上线了“AI小值”与淘宝问问功能类似，不仅如此，什么值得买在积极拓展“朋友圈”，与月之暗面合作，上线“Kimi+什么值得买”；之后更是与百川智能、科大讯飞、Minimax等合作。 </p>
-<p>什么值得买此举在获得多渠道“人-货”链接的同时，也优化了自身对消费意图和消费需求的理解，优化了信息的准确度，更能通过‘通用+垂类’大模型融合产生飞轮效应，实现合作双方的共赢。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,775" src="https://img.36krcdn.com/hsossms/20241101/v2_3200c1f0d7bd44f29cda676665be61ae@5752854_oswg82774oswg1080oswg775_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了国内的电商平台在积极布局外，国外资本也纷纷下注AI+电商搜索这一细分赛道。 </p>
-<p>DayDream专注于时尚领域的多模态理解商品搜索，目前已经获得5000万美元种子轮融资。另一家帮助用户进行购物决策的Remark，引入真人专家艺术家、音乐家等于品牌独立站，助用户购物决策，今年5月业完成1030万美元的种子轮融资。 </p>
-<p>这些资本的涌入，不仅为这些创业公司注入动力，也验证了大模型在电商搜索领域的应用潜力。 </p>
-<p>一言蔽之，通过AI大模型，企业可以更好地理解消费者需求，提供更精准的产品和服务，从而提高转化率和客户满意度。在人工智能时代，AI电商搜索将成为电商行业的新引擎，推动我们进入一个更加智能、个性化的购物时代。 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/aTXR60BckEq2ooo8tCpKjA" rel="noopener noreferrer nofollow" target="_blank">“AI大模型工场”</a>，作者：参商，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017457907905416</guid><pubDate>Fri, 01 Nov 2024 17:22:00 +0800</pubDate></item><item><title>受软件拖累，大众血亏155亿元： 直接把奥迪、宾利、杜卡迪和兰博基尼等豪车利润抹平了</title><link>https://36kr.com/p/3017446680585736</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>近年来，伴随着电动车的崛起和软件定义汽车的趋势，大众汽车在软件领域的投资与发展却屡遭挫折。最新的财报显示，其软件部门在 2023 年前三季度亏损超过 20 亿欧元，这这家老牌汽车制造商的未来是否岌岌可危？ </p>
-<p>大众的软件部门 Cariad 在 2024 年前 9 个月亏掉了超过 20 亿欧元（约 155 亿元）——该汽车制造商将每天 740 万欧元的现金消耗归咎于持续存在问题的软件的“前期开发支出”。<strong>这一数字几乎抹去了旗下高端品牌线（如奥迪、宾利、兰博基尼和杜卡迪）所带来的 20.8 亿欧元的营业利润</strong>。</p>
-<h2><strong>软件亏损加剧 </strong></h2>
-<p>事实上，从成立至今，Cariad 就一直处在亏损困境——2023 年的经营亏损达到 24 亿欧元，2022 年为 20.68 亿欧元、2021 年为 13.32 亿欧元。</p>
-<p>Cariad 的主要任务是为大众集团的乘用车品牌构建一个“统一且可扩展”的软件平台，其中包括 VW.os 嵌入式系统和 VW.AC 汽车云。不过在 2022 年，Cariad 选择将部分开发外包给系统集成商 DXC 的子公司 Luxoft。</p>
-<p>汽车技术咨询公司 Star 的全球汽车和出行负责人安德鲁·费洛斯（Andrew Fellows）表示：“大众的内部文化僵化、制造成本高以及基础设施不灵活，使其在面对灵活的中国电动车竞争者时显得较为脆弱和被动。”</p>
-<p>“由于欧洲的产能过剩、高成本水平和繁琐的官僚体系，大众的竞争能力受到限制……而 <strong>中国制造商可以在 24 到 36 个月内推出由软件主导的智能电动汽车，西方公司则需要 3 到 7 年才能完成从设计到发布的全过程</strong>。”费洛斯补充说，大众汽车迫切需要“加快产品开发周期，缩短上市时间，降低生产成本”。</p>
-<p>大众汽车首席财务官阿诺·安特利茨（Arno Antlitz）直言，当前的市场环境充满挑战，这使得公司急需进行大幅度的“降本增效”。</p>
-<p>另外，根据大众汽车的 CEO 托马斯·舍费尔（Thomas Schäfer）在财报会议上的说法，<strong>当前德国工厂的运营成本比预期高出 25% 至 50%，</strong>使得这些工厂的成本是竞争对手的两倍。</p>
-<p>目前，这一财务现状也引发了有关裁员和工厂关闭的讨论。据报道，大众汽车可能面临三家德国工厂关闭的风险，而 <strong>Cariad 的员工人数可能会减少 2000 人</strong>。Cariad 官网显示，现有员工“6000 名开发人员、工程师和设计师”。</p>
-<h2><strong>陷入软件转型困境数年，高管接连下台 </strong></h2>
-<p>大众汽车在转型过程中曾做出雄心勃勃的计划，希望通过增加软件开发人员来提升软件能力。</p>
-<p>2019 年，大众汽车宣布将在未来三到五年内投资约 80 亿欧元，以整合分散在 12 个汽车品牌中的软件研发部门，合并后预计会有约 1 万名开发人员。当时也计划在 2025 年前将所有新车型都整合至 vw.os 操作系统，以提升软件的统一性和效率。</p>
-<p>然而，这一策略并未如预期般奏效。</p>
-<p>首先，CARIAD 面临的不仅是技术挑战，内部文化和管理问题同样严重，其中 <strong>缺乏软件开发文化</strong> 是大众汽车最为人所诟病的问题之一。虽然欧洲地区有众多优秀的软件开发人才，但大众的管理层对软件开发的理解显然滞后。业内人士曾批评道，简单地增加开发人员并不能解决根本问题，软件开发的复杂性远高于传统制造业。企业需要建立一种真正重视软件开发的文化和流程，而不仅仅是依赖于人力资源的增加。</p>
-<p>其次，软件架构的开发进展缓慢也制约了大众汽车的转型步伐。Cariad 内部由于决策结构混乱和预算超支，项目进展始终不尽如人意。</p>
-<p>新车受软件拖累而推迟上市便是“家常便饭”。以 ID.3 车型为例，原计划于 2020 年三季度开始交付，但由于软件开发中的关键问题，交付时间被一再推迟。在此过程中，大众甚至将 1 万台尚未交付的 ID.3 停放在塑料大棚中，通过有线 OTA 方式为 USB 闪存更新，而更新过程耗时长达 6 小时每台。</p>
-<p>比如保时捷 Macan EV 和奥迪 Artemis 项目的发布同样因软件开发延迟而被迫推迟，某些车型的发布时间甚至延后至 2027 年。大众汽车全新的 SSP 平台的部分车型要到 2029 年底才会上市。大众汽车几年前就已经推迟了该平台的推出，如今又推迟了 15 个月。这一推迟意味着大众的下一代电动汽车也得推迟。</p>
-<p>此外，由于软件缺陷导致的召回事件也发现过。例如，高尔夫车型曾因软件问题进行大规模召回。</p>
-<p>值得一提的是，去年 12 月，保时捷对 Cariad 的表现感到越来越沮丧，宣布转向“Google Built-In”平台。</p>
-<p>总的来说，这几年由于 Cariad 持续的软件缺陷，不仅导致多个车型的发布延迟，并在很大程度上导致多位高管下台，比如从成立至今已更换三任 CEO。</p>
-<p>也有分析认为，Cariad 的核心问题在于开发流程中的缺陷。例如，汽车软件的开发往往在成本中心进行，导致无法进行有效测试。此外，缺乏适当的质量管理机制也使得软件问题频发，进而影响了产品的整体表现。</p>
-<h2><strong>与新兴企业合作，转变在华研发思路 </strong></h2>
-<p>为应对当前的挑战，大众汽车正在寻求与新兴电动车制造商的合作。今年 6 月，大众汽车宣布计划向美国电动汽车初创公司 Rivian 投资 50 亿美元，并成立合资公司，以开发下一代软件定义汽车平台。</p>
-<p>在中国市场上，今年 7 月，小鹏汽车与大众汽车集团签署了电子电气架构技术战略合作协议，计划在中国市场共同开发新的电子电气架构。根据协议，小鹏汽车和大众汽车集团将在广州和合肥建立联合开发项目组，预计在约 24 个月内推出首款搭载新架构的车型。</p>
-<p>在此背景下，CARIAD 中国也进行了重要的组织架构调整。CARIAD 中国新上任的 CEO 韩三楚今年在全员大会上宣布，中国区的核心业务将以研发最新的电子电气架构 CEA（China Electrical Architecture）为主。</p>
-<p>此次调整将 CARIAD 的业务划分为两大块：<strong>一是专注于 CEA 的研发，另一块则涵盖基于现有平台的全球性业务</strong>。而 CEA 的首要目标是实现 2026 年量产。根据大众管理层的设想，CEA 架构会让大众纯电车型的控制器数量比现在减少 30%，产品的成本和竞争力有望提高。</p>
-<p>据悉，韩三楚在上任初期就发起了内部编程测试。尽管员工对岗位调整的后续情况表示关注，但他今年也明确过表示<strong>不会进行裁员</strong>，并将为员工提供职业发展机会，包括内部职位申请和专业技能培训。</p>
-<p>无论如何，大众在中国市场的智能电动车研发策略已发生转变，从过去强调自研转向与外部厂商的密切合作。通过与新兴企业的合作与内部改革，大众汽车和 CARIAD 中国试图努力提升在激烈竞争中的地位。</p>
-<p>值得注意的是，大众在中国的业务疲软对财报表现造成了显著影响。根据财报数据，今年 1-9 月，中国市场整体营业利润（按比例分配）为 11.8 亿欧元，预计全年利润为 16 亿欧元，较 2023 年的 26.21 亿欧元减少约 10 亿欧元，这一盈利水平为近年来的新低。</p>
-<p><strong>参考链接：</strong></p>
-<p>https://www.thestack.technology/vw-burns-eu2-billion-as-software-losses-mount-group-profits-plunge/</p>
-<p>https://mp.weixin.qq.com/s/kSwvVsIPgN3EgEigUU1YPg</p>
-<p>https://mp.weixin.qq.com/s/npjel9uTYMau7KB4yW10Yg</p>
-<p>https://mp.weixin.qq.com/s/2Vd7jk357-9Lagh4OVaXUQ</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&amp;mid=2651224003&amp;idx=1&amp;sn=60584ed13237366db608b2199dda8c81&amp;chksm=bceaec752838f64d3cea63482a9b11fff12e44c9aba3726d2e6a3f0fc9637d12c55f0ff85d6e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“InfoQ”（ID：infoqchina）</a>，作者：罗燕珊，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017446680585736</guid><pubDate>Fri, 01 Nov 2024 17:23:00 +0800</pubDate></item><item><title>要打败WhatsApp的社交平台，还没发布就让GenZ疯狂上头</title><link>https://36kr.com/p/3017428683613698</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_2883e6ae3ccb42a9ab8151d7309e0ec4@000000_oswg519641oswg744oswg496_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 01 Nov 2024 18:00:34 +0800</lastBuildDate><pubDate>Fri, 01 Nov 2024 18:00:34 +0800</pubDate><item><title>收入首超特斯拉，比亚迪市值为何只有六分之一？</title><link>https://36kr.com/p/3017408195290633</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>在营收上，比亚迪更胜一筹，但比亚迪的市值不到9000亿，只有特斯拉的六分之一不到。为什么资本市场高看特斯拉，低估比亚迪？</strong></p>
+<p>10月末，比亚迪公布了2024年Q3财报，本季度营业收入2011亿，同比增长24%，而特斯拉三季度营业收入251亿美元，折合人民币约1764亿，比亚迪单季度营收近3年来首次反超特斯拉。 </p>
+<p>比亚迪Q3单季度净利润116亿，同比增长11%，净利润增速较上半年有所放缓。2024Q1~Q3累计来看，营业收入5022亿，同比增长19%，净利润252亿，同比增长18%。 </p>
+<p>财报公布当日，在股市整体上涨背景下，比亚迪A股和港股价格都大跌，市值蒸发了300多亿，可能和Q3净利润增速放缓有关。 </p>
+<p>美国时间10月23日，特斯拉发布三季度，2024Q3单季度营业收入折合人民币1764.6亿，同比增长5%，净利润折合人民币151.8亿，同比增长14%，单季度毛利率19.8%，相比去年同期增长2个百分点。 </p>
+<p>今年1~3季度，特斯拉累计营业收入折合人民币5093.2亿，与去年同期持平；累计净利润337.28亿，同比下降33%，毛利率18.4%，与去年同期持平。 </p>
+<p>从前3季度累计数据来看，特斯拉财报毫无亮点，单看Q3，收入和净利润小幅改善，但很难说有大的惊喜，就是这样一份财报，却让特斯拉同日股价上涨22%，总市值达到近6万亿人民币，创出近1年以来新高。如果用前三季度的收入和利润来简单线性外推，特斯拉目前的市盈率已达到上百倍。 </p>
+<p><strong>在营收上，比亚迪更胜一筹，但比亚迪的市值不到9000亿，只有特斯拉的六分之一不到。为什么资本市场高看特斯拉，低估比亚迪？</strong></p>
+<h2><strong>比亚迪营收“紧追”特斯拉</strong></h2>
+<p>如果光看市值对比，可能会想当然认为，比亚迪和特斯拉在收入和利润上差距显著。放在3年前，确实如此。 </p>
+<p>时间回到2021年底，特斯拉每股价格上涨到1200美元上方，市值达到万亿美元。2021年特斯拉实现营业收入3431亿，净利润351.8亿，而彼时比亚迪的营收2130亿，只有特斯拉的62%，净利润才刚突破30亿，只有特斯拉的十分之一不到。 </p>
+<p>当时，净利润差距10倍，比亚迪7000亿的市值，放在特斯拉7万亿人民币市值面前，显得也不那么违和。 </p>
+<p>随着国内新能源汽车销量走高，比亚迪第300万辆、500万辆、800万辆新能源车落地，比亚迪在营收和净利润上奋起直追。 </p>
+<p>今年前三季度，特斯拉实现营业收入5093亿，实现净利润337.28亿，而比亚迪的营收和净利润分别是5022亿和252亿，<strong>比亚迪收入几近特斯拉，净利润达到特斯拉的75%，两家公司差距大幅缩小。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_70a5bc1da23c4a4b82191346cbd41061@000000_oswg43712oswg1004oswg669_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_e25944e034c8492fbff09c67324b287c@000000_oswg44316oswg976oswg666_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>值得一提的是，两家公司除了汽车业务外，都有些其它业务。 </p>
+<p>比亚迪前三季度收入中有80%来自于汽车业务，另外约20%来自手机部件及组装业务。比亚迪股份（上市公司主体）控股港股上市公司比亚迪（国际）电子，该公司主营手机组装业务，在比亚迪股份（上市公司）编制合并报表时会将比亚迪（国际）电子的收入、费用和利润合并进来。不过从毛利润来看， 9成来自汽车业务。 </p>
+<p>特斯拉前三季度累计的收入中，有75%来自汽车销售业务，其它业务方面，汽车租赁业务占比2%、汽车信贷业务占比3%、储能业务占比10%，服务及其他收入占比10%。从毛利润占比来看，和汽车相关的业务毛利润占比达到85%。 </p>
+<p><strong>也就是说，两家公司的收入和利润主要都来源于汽车业务。</strong> 马斯克个人名下的Space X、星舰、人形机器人业务并不在上市公司特斯拉名下，特斯拉的估值里面并不反映这些高科技业务，只是一家和比亚迪、蔚来、理想一样的汽车制造和销售的公司。 </p>
+<p>如果以2021年收入和净利润基数为起点，从2021年到2023年，特斯拉收入从3431亿增长到6851亿，增长1倍；净利润从351亿增长到1062亿，增长1.8倍。 </p>
+<p>同期，而比亚迪的收入从2161亿增长到6023亿，增长2倍，净利润从30.45亿增长到300亿，增长了8.8倍。 </p>
+<p><strong>无论是收入还是净利润，比亚迪的增长幅度都远大于特斯拉，也就是说特斯拉在小步快跑的同时，比亚迪撸起袖子、扯开腿步大步流星的追赶上来了。</strong></p>
+<p>不过这一点在两家公司市值的比值中，却一点也没有反应出来，特斯拉市值仍维持在万亿美元附近，以10月底当日比亚迪的市值计算，比亚迪市值仅相当于特斯拉的14%，即比亚迪与特斯拉市值之间还差了5个比亚迪。 </p>
+<p>收入和利润也许不能代表全部，毕竟马斯克外号是钢铁侠，而比亚迪掌舵人被称为船夫，一个是“美国式高科技”的代表，一个是“中国式低端制造”的代表，这就是造成市值巨大差异的原因吗？ </p>
+<h2><strong>特斯拉高科技，比亚迪也不低端</strong></h2>
+<p><strong>衡量一家公司是高科技公司还是低端制造公司，最量化的指标可以看研发人员和研发投入。</strong></p>
+<p>从最近3年的研发投入来看，特斯拉在2021年、2022年、2023年研发投入折合人民币分别165.3亿、214.2亿、281.1亿，3年合计研发投入660亿，3年研发投入占营业收入比重的均值4.2%。 </p>
+<p>随着比亚迪收入和利润的增长，在研发投入上也是水涨船高。2021年~2023年，比亚迪研发费用分别是79.9亿、186.5亿、395.7亿，3年合计研发投入662.2亿，和特斯拉相当，但研发投入增长的幅度更陡，2022年和2023年连续2年研发投入费用接近翻番。3年平均研发投入占营业收入的比重4.9%，研发费用的投入比重上也超过了特斯拉。 </p>
+<p>研发投入中占比最高的是工资薪酬，在中国养一个研发人员成本，比美国低三分之一至一半，如果考虑实际购买力的研发投入，比亚迪在研发投入上比特斯拉要多的更多。目前，特斯拉并没有披露有多少研发人员，不过不难粗估，特斯拉研发人员肯定要比比亚迪少。 </p>
+<p>2021年，比亚迪有40382名研发人员，到2022年增长到69697名，增长幅度72%，2023年研发人员达到102844人，增长47%，成为国内少数研发人员超过10万的企业。国内另一家知名的企业是华为，2023年底11.4万名研发人员。 </p>
+<p>2023年，比亚迪增加的3.3万名研发人员中，博士学历的增加了997名，增长幅度168%，硕士学历的增加了15879人，增长幅度202%，在研发人员总量增长的同时，高学历研发人才增长的幅度更大。 </p>
+<p>据比亚迪品牌公关处总经理李云飞前段时间透露，公司累计研发投入超 1500 亿，持续的研发投入，筑就了比亚迪深厚的专利护城河。 </p>
+<p>截止今年8月，从国家知识产权局查询的数据得知，从2000年有记录以来，公司共申请了1.6万件发明专利，累计授权专利2.67万件，其中发明专利近9000件，实用新型专利近1.5万件，外观设计专利近3000件。 </p>
+<p>比亚迪的研发创新体现在DM混动、易三方/易四方多电机独立驱动、Evo3.0纯电架构、云辇悬架的四大技术平台或架构上，每一个技术平台或架构中包含多项创新技术。比如，仰望U8的原地掉头底层技术就是易四方的四电机独立驱动，除了精准控制四个电机独立用功，还提供1200匹的马力。仰望U9的原地跳舞底层技术是云辇悬架的主动阻尼，通过悬架的高低调节让汽车的四轮像人的四肢一样伸展运动，达到跳舞的效果。今年5月发布的DM5代混动技术，百公里油耗降到3升以内，满电满油的海豹06实测行驶超2000公里。 </p>
+<p>特斯拉的近年来的研发创新主要集中在智能驾驶领域，在算法、算力、芯片上都有较明显的领先优势。算法方面，特斯拉的“Transformer+BEV”方案已经成为国内车企竞相追逐的主流智驾算法方案。训练的云端算力方面，特斯拉自建了Dojo算力集群，远期规划达到100E Flop的算力，相当于30万块A100的算力，无论是比亚迪还是其它车企，在算力建设上都相差甚远。在芯片方面，今年发布的HW4.0智驾控制器中，采用自研的FSD芯片，单控制器的算力达到720 Tops。 </p>
+<p>总体来说，<strong>比亚迪的创新技术主要集中在电动车的电池、电机、电控、车身控制等领域，而在智能驾驶领域起步较晚。特斯拉在电车驱动和控制领域的创新技术积累不及比亚迪，但在智能驾驶方面领先行业内其它车企。</strong></p>
+<h2><strong>“高血压”与“低血糖”，各有烦恼</strong></h2>
+<p>两家企业在实力上各有千秋，但在外部环境下却各受制约。 </p>
+<p>受美国通胀和高利率影响，特斯拉毛利率和净利率从2022年初开始持续10个季度下滑，到今年Q3才略有好转，尽管特斯拉今年收入持平于去年，净利润却同比下滑了30%多，这就是美国式通胀对企业盈利的侵蚀。 </p>
+<p>而大洋彼岸的新能源产销大国中国，却面临需求不足的通缩风险，今年前三季度，全国汽车批发销量只增长2%，剔除出口甚至负增长。即使如此内卷的市场，新能源车还是交出了亮丽的成绩，今年1~9月，新能源汽车销售增长超30%，挑起了经济增长的大梁。 </p>
+<p><strong>美国式通胀尤如高血压病人，需要降压药来维持，降成本是特斯拉最主要的考量。</strong></p>
+<p><strong>中国式的通缩就像低血糖病人，需要及时补充糖份，比亚迪在成本方面管控能力很强，但却面临国内消费需求不足的问题，购车优惠和税费补贴政策直接影响比亚迪的销量和收入。</strong></p>
+<p>美元加息周期，虹吸全球流动性进入美国股市，科技七姐妹股价迭创新高，不断打开估值的天花板，市盈率从50倍、70倍到上百倍，没有最高，只有更高。而中国股市经历了持续多年的熊市后，黄金都跌到了黄铜价格，上市公司被低估也是普遍现象。 </p>
+<p>两家收入和利润差距并不大的公司，市值却整整相差了6倍，最主要的原因还是市值估值因素。 </p>
+<p>随着美元降息周期的开启，流动性的天平已经向新兴市场倾斜，未来比亚迪和特斯拉的市值差距会缩小吗？<strong>这个问题的答案既关涉微观的企业，也关涉宏观的形势。</strong></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI5MzE1Mzk1OQ==&amp;mid=2247507205&amp;idx=2&amp;sn=be6fd5c270863d79a0f88889dabc6d36&amp;chksm=edca55b71c3c3d176ca0b32d61f2623a48a213144c90c324c73d263c06f11a10c8aec240fba6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“财经故事荟”（ID：cjgshui）</a>，作者：老谢，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017408195290633</guid><pubDate>Fri, 01 Nov 2024 17:39:00 +0800</pubDate></item><item><title>浙江跑出一个IPO：博士创业，估值近27亿</title><link>https://36kr.com/p/3017519358882949</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>10月31日，浙江脑动极光医疗科技有限公司（简称脑动极光）更新了聆讯后的资料集（即招股书），其于2023年8月、2024年3月先后两次递表。随着聆讯的通过，脑动极光距离登陆港交所只差“临门一脚”。 </p>
+<p>公开资料显示，脑动极光开发出了针对认知障碍的医疗级数字疗法产品。根据弗若斯特沙利文的资料，经过多年的发展，脑动极光已成为中国认知障碍数字疗法市场的资深参与者。 </p>
+<p>2012年，王晓怡和向华东联手创立了脑动极光，二人深耕脑科学领域，对于脑科学的应用前景有着敏锐的洞察力。 </p>
+<p>其中，王晓怡曾获得中科院心理所硕士学位，以及京师范大学获得基础心理学博士学位，之后在北京宣武医院做博士后研究；向华东曾在荷兰唐德斯脑、认知与行为研究院获得认知神经科学专业博士学位，并且是全球最大中文脑科学专业网站“我爱脑科学网”创始站长。 </p>
+<p>多年的专业积累让两人意识到，随着老龄化社会的到来，脑部疾病或高危发病人群对科学有效的大脑训练方案有巨大需求。于是，脑动极光顺势而生。 </p>
+<p>据了解，脑动极光的核心产品系统是一款医疗级数字疗法产品，也是中国首款获得监管批准的认知障碍数字疗法产品。 </p>
+<p>该系统是一款将脑科学临床经验与深度神经网络算法相结合的软件，用于评估患者认知障碍症状并提供个性化的数字疗法治疗方案，能够对由血管疾病、神经退行性疾病、精神疾病和儿童发育缺陷等引起的各类认知障碍进行临床测评和干预。 </p>
+<p>截至最后实际可行日期，公司的脑功能信息管理平台软件系统，已就四种主要类型认知障碍的八种适应症实现商业化，系统已纳入中国30个省份的省级医保报销目录。 </p>
+<p>值得一提的是，2020年，创始人之一向华东离开了脑动极光，并转让直接持有的全部股份，而永泰生物董事长谭铮作为投资人加入脑动极光。 </p>
+<p>截至最后实际可行日期，脑动极光已帮助超过120家医院在中国建立认知中心，包括多家获得国家卫健委所设置的各个医学专科“国家医学中心”认证的领先医院。 </p>
+<p>财务层面，2021年、2022年和2023年，脑动极光的收入分别为229.9万元、1129.1万元和6720.0万元，整体保持增长态势。2024年前三个月（第一季度），公司的收入约为2588.4万元。 </p>
+<p>同期，脑动极光的净亏损分别约为6.98亿元、5.02亿元、3.59亿元和5160.8万元。按非国际财务会计准则计量，该公司的经调整净亏损分别约为5470.4万元、1.17亿元、1.49亿元和3776.4万元。 </p>
+<p>脑动极光也在招股书中提到，公司自2012年成立以来，一直处于净亏损状态，并且在可预见的未来可能继续产生净亏损。 </p>
+<p>但亏损依然没有阻挡资本对于脑动极光的热情，成立至今，脑动极光在资本市场上收获了北极光创投、天士力控股集团、中金资本等知名机构的投资；2023年，脑动极光完成4550万元C+轮融资后，对应的投后估值约为26.91亿元。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,655" src="https://img.36krcdn.com/hsossms/20241101/v2_ca0d1fcec7764edbb8477d4180836dd9@5807375_oswg193511oswg1080oswg655_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：招股书 </p>
+<p>根据招股书披露，脑动极光在上市前的股权架构中，谭铮先生通过ZTan Limited持股25.38%；王晓怡博士通过Wispirits Limited持股10.05%；北极光创投通过nlsf、nlvf、nlpf分别持股0.88%、10.66%、0.15%；中金公司通过cicchealthcare持股1.79%。 </p>
+<p>此次赴港上市，脑动极光拟将募集资金分别用于下列用途：预计将用于开展进一步研发活动；预计将用于帮助国内更多医院建立新认知中心；预计将用于加强公司的AI及相关技术能力；预计将用作公司的营运资金及其他一般公司用途等。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/JxEbIP32Vc5cqie8jGrIIw" rel="noopener noreferrer nofollow" target="_blank">“直通IPO”</a>，作者：韩文静，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017519358882949</guid><pubDate>Fri, 01 Nov 2024 17:41:00 +0800</pubDate></item><item><title>出海速递 | 中国五金之都蜕变：用跨境品牌打入全球市场 / 比亚迪成立前瞻部门专攻端到端</title><link>https://36kr.com/p/3017616060245507</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>访问36氪出海网站</strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1965,846" src="https://img.36krcdn.com/hsossms/20241024/v2_fee19a355a014f148029b67c2ebd07fe@11918142_oswg186017oswg1965oswg846_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>今日好文</strong></h2>
+<h3><a href="https://letschuhai.com/b25eaffa?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>中国五金之都蜕变：用跨境品牌打入全球市场</strong></a></h3>
+<p>永康制造商的十字路口：做代工还是做品牌？</p>
+<h3><a href="https://letschuhai.com/6a99ca3f?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>ChatGPT AI 搜索上线即翻车！</strong></a></h3>
+<p>用户吐槽：网页来源点开是空的，搜索结果还有幻觉。</p>
+<h3><a href="https://letschuhai.com/c1ac8781?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>中东｜与 CES、IFA 相比，GITEX 特别在哪？</strong></a></h3>
+<p>从中东的迪拜，到欧洲的柏林、非洲的摩洛哥，再到亚洲的新加坡，GITEX 正在一步步走向全球。与同样久负盛名的 CES、IFA 等全球性展会相比，GITEX 凭借哪些特点，吸引全球目光？</p>
+<h3><a href="https://letschuhai.com/0cc65ebc?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>双11前速卖通全面优化跨境营商环境，拦截“羊毛党”</strong></a></h3>
+<p>海外双11开始前，速卖通对售后规则进行了全面优化升级，对困扰商家的“仅退款”和羊毛党进行主动拦截治理，大幅降低商家售后成本。</p>
+<h2><strong>热点快讯</strong></h2>
+<h3><strong>比亚迪成立前瞻部门专攻端到端，低阶平台高阶智驾最快明年3月落地</strong></h3>
+<p>据界面新闻从多位知情人士处独家获悉，本周比亚迪已成立前瞻部门，主攻端到端技术落地，该部门负责人为原自研智驾团队“天璇”带头人许凌云。由于还在起步阶段，现团队人数不到50人。比亚迪另一自研智驾团队“天狼”将吸收整合绝大多数天璇团队研发人员，对外统称为一个自研团队，该团队负责人为李锋，研发人员达到千人规模。比亚迪另一自研智驾团队“天狼”将吸收整合绝大多数天璇团队研发人员，对外统称为一个自研团队，该团队负责人为李锋，研发人员达到千人规模。（财联社）</p>
+<h3><strong>Alphabet 旗下自动驾驶汽车公司 Waymo 融资后估值据悉超过450亿美元</strong></h3>
+<p>据彭博消息，知情人士透露，包括最新一轮融资在内，谷歌母公司 Alphabet 旗下自动驾驶部门 Waymo 的估值超过450亿美元。Waymo 上周末透露已完成一轮56亿美元的融资。（界面新闻）</p>
+<h3><strong>亚马逊预计假日购物季收入和利润将表现强劲</strong></h3>
+<p>基于对强劲假日购物季的乐观预期，亚马逊对本季度利润和收入的展望高于分析师预期。该公司周四在公告中表示，在截至12月的季度，营业利润将达到160亿至200亿美元。彭博汇编数据显示，分析师平均预期为175亿美元。第四季度销售额最高将达1885亿美元，而平均预期为1864亿美元。“随着我们进入假日季，我们对为客户准备的东西感到兴奋，”首席执行官 Andy Jassy 在公告中称。（新浪财经）</p>
+<h3><strong>京东快递国际再增亚洲11国国际快递服务</strong></h3>
+<p>近日，京东快递国际再次开拓亚洲11国的国际快递服务，包括阿联酋、沙特阿拉伯、卡塔尔、阿曼、约旦、印度、巴基斯坦、孟加拉国、尼泊尔、哈萨克斯坦、蒙古等国家消费者均可收到京东快递国际件。目前，京东快递国际已服务全球近50个核心国家和地区。（界面新闻）</p>
+<h3><strong>圆通速递：已经打造中日、中哈、中澳、中韩等精品快递专线</strong></h3>
+<p>圆通速递10月30日在电话调研中表示，截至目前，公司已经打造中日、中哈、中澳、中韩等精品快递专线，同时积极开拓中美、英、澳等全链路服务，国际快递产品及服务能力稳步提升。（36氪）</p>
+<h3><strong>恒生指数公司与沙特交易所签署合作意向协议书</strong></h3>
+<p>恒生指数公司宣布与沙特证券交易所集团旗下的沙特交易所签署合作意向协议书加强双方合作，在提升国际知名度，以及促进两地业务发展及市场的资讯交流等方面迈进重要一步。恒指公司和沙特交易所将探索不同领域的合作机会，包括产品开发、指数数据互通、分享行业知识等，并合作提高两地市场的公众意识及参与度。（36氪）</p>
+<h3><strong>亚投行与沙特发展基金建立战略合作伙伴关系</strong></h3>
+<p>据亚投行官微10月31日消息，近日，亚洲基础设施投资银行（亚投行）与沙特发展基金签署谅解备忘录，旨在深化合作，推动亚洲及其他地区实现可持续、具有韧性和包容性的发展目标。这一合作伙伴关系根植于双方共同应对全球发展挑战的承诺，计划通过联合项目倡议、知识共享、能力建设和协调沟通，调动资源以推动可持续发展。亚投行行长金立群表示，合作伙伴关系是亚投行运营发展的关键。此次谅解备忘录的签署是亚投行与沙特阿拉伯持续合作的重要进展，重申了双方共同推动成员可持续发展的坚定承诺。依托沙特发展基金对亚投行特别基金窗口的支持，以及共同探索联合融资项目的努力，双方的合作将释放新合力，提升机构能力，助力具有韧性和包容性的可持续发展。 沙特发展基金首席执行官苏丹·阿卜杜勒拉赫曼·阿尔马沙德表示，作为全球发展的重要参与者，沙特发展基金致力于支持最不发达国家并推动可持续发展。沙特发展基金和亚投行均秉持推动可持续性和韧性发展的使命，双方合作水到渠成。本次签署谅解备忘录是双方在扩大合作、助力发展中国家取得实质性进展方面的关键一步。（界面新闻）</p>
+<h2><strong>近期活动</strong></h2>
+<h3><a href="https://letschuhai.com/f447919c" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜全球化实战论：企业出海实践经验分享（一）</strong></a></h3>
+<p>随着出海的脚步逐渐深入海外本地市场，许多挑战也浮出水面，成为企业关注的焦点。为了帮助数字经济企业更深刻地了解出海过程中的各类问题，<strong>36氪出海将于11月7日下午2:30在北京举办线下交流活动。</strong>届时，来自<strong>快乐小羊国际餐饮连锁</strong>的重磅嘉宾将结合自身深刻的出海实践经验，从本地化运营、供应链建设、数字化品牌营销等角度，分享出海过程中的宝贵洞察，帮助企业更好地理解出海的全链路，并与自身企业特点结合，更顺利地开展海外业务。<strong>如果您希望深入了解企业出海过程中的实践经验和挑战，欢迎您扫描下方二维码，填写表单，报名参加。</strong>活动报名将于11月6日中午12:00截止。</p>
+<p class="image-wrapper"><img data-img-size-val="1722,830" src="https://img.36krcdn.com/hsossms/20241024/v2_18b996f2dafa41f5a20f635fc5ce38e4@11918142_oswg404563oswg1722oswg830_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><a href="https://letschuhai.com/551f8a3e" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜抓住出海卡塔尔机遇！中国-卡塔尔投资合作高峰洽谈会即将落地北京、深圳</strong></a></h3>
+<p>为了帮助中国企业更好地了解卡塔尔市场的特点和机遇，<strong>36氪出海联合卡塔尔投资促进局、北京及深圳贸促会、盈科律师事务所，于11月12日和15日，分别在北京、深圳举办中国-卡塔尔投资合作高峰洽谈会。</strong>洽谈会旨在为中卡两国企业提供深度合作与交流的平台，助力企业探索新的商业机会。如果您关注出海卡塔尔的商业机遇，希望深入了解卡塔尔的利好政策、营商环境及合作生态，欢迎您扫码下方二维码，填写表单，报名参加本次活动。<strong>我们将根据话题相关度，对报名申请进行筛选。通过活动审核的用户，我们将有专人联系通知。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="3930,1918" src="https://img.36krcdn.com/hsossms/20241022/v2_f137a491595a44e890fd0e9a0b6bc669@11918142_oswg328286oswg3930oswg1918_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>加入36氪出海学习交流群</strong></h2>
+<p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
+<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017616060245507</guid><pubDate>Fri, 01 Nov 2024 17:41:00 +0800</pubDate></item><item><title>卷低价的中国茶咖，在东南亚和星巴克打擂台</title><link>https://36kr.com/p/3017486071591810</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1280,960" src="https://img.36krcdn.com/hsossms/20241101/v2_44643700ed384946b3bf713c6752a0fd@5952539_oswg1498966oswg1280oswg960_img_png?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>“越南人不追求品牌，大多追求咖啡馆的环境和布局，甚至路边摊也很受欢迎。我平常喜欢去越南本土的创意咖啡馆。” 越南河内市民阮兰英告诉「增长工场」。</p>
+<p><strong>尽管中国茶饮咖啡品牌带着更先进的产品、数字化和品牌能力来到东南亚市场，但不一定被当地消费者买单。</strong>“如果你打开Tiktok越南的库迪咖啡官号，会发现这些短视频的点赞次数寥寥无几，关注度较低；包括星巴克在河内关好多店了。”在阮兰英看来，外国品牌已经无法跟越南本土品牌竞争。</p>
+<p>但另一方面，蜜雪冰城在东南亚市场很吃得开。“我在河内到处都能看到蜜雪冰城，很受年轻人喜欢。”在越南河内成家定居的爱尔兰人卡洛斯告诉「增长工场」。截至2023年9月30日，蜜雪冰城已在东南亚开设约4000家门店。</p>
+<p>目前，东南亚已经成为中国茶饮咖啡品牌出海的首选市场。这些品牌以何种策略出海东南亚，是否能够降维打击东南亚本土品牌，以及又在面临哪些挑战？</p>
+<h2><strong>一、出海东南亚，不一定要低价</strong></h2>
+<p>国内太卷，中国茶饮咖啡品牌在加速进军东南亚市场。</p>
+<p>据晚点LatePost报道，继2023年 4 月在新加坡开店后，瑞幸将在今年第四季度和明年第一季度大规模出海东南亚等市场，并计划在未来 3 到 5 年内以新加坡为东南亚总部，逐步进入周边国家和地区。</p>
+<p>霸王茶姬也接连发力。今年 9月20日，霸王茶姬马来西亚首批全新旗舰空间在正式开业。目前，霸王茶姬在东南亚的门店总数已突破130家。未来，霸王茶姬计划在新加坡、马来西亚、泰国、印度尼西亚、越南、菲律宾、日本、韩国等八个亚洲国家和地区陆续开店。其中，东南亚六国是未来五年内最重要的计划。</p>
+<p>最早进入东南亚市场的当属蜜雪冰城，它于2018年在河内开了第一家。据了解，蜜雪冰城的饮品在河内的售价通常在20,000至40,000越南盾之间（约合5.7至12元人民币）。像奶茶和冰淇淋等热门单品通常价格较低，而添加了多种配料或特殊成分的复杂饮品，价格会高一些。</p>
+<p>蜜雪冰城的饮品定价明显低于竞争对手，尤其吸引大学生和预算有限的消费者。因此在东南亚的学生和年轻人中颇受欢迎。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241101/v2_23c9e13c9666428da13628468db67cbb@5952539_oswg1112053oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（排队购买蜜雪冰城）</p>
+<p>但是，蜜雪冰城低价也面临着本土品牌的竞争。</p>
+<p>据平安证券报告，珍珠/波霸奶茶、果茶和芝士/奶油奶茶品类中，蜜雪冰城的价格均高于印尼本土茶饮品牌Haus和Esteh Indonesia。<strong>与蜜雪冰城的市场定位相似，印尼本土茶饮品牌Haus和Esteh Indonesia也都面向低端市场，蜜雪冰城的价格并不占据优势。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="613,557" src="https://img.36krcdn.com/hsossms/20241101/v2_5cb55d72f1bf4fba9b6747352c3e9356@5952539_oswg48863oswg613oswg557_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（平安证券报告）</p>
+<p>与蜜雪冰城不同，喜茶、奈雪的茶等茶饮品牌，在出海东南亚方面选择了不同策略，定位更高端。在出国国家的选择上，这些品牌也更注重在东南亚较发达地区新加坡的落地与拓展。</p>
+<p>据国泰君安证券报告，霸王茶姬、喜茶和奈雪选择高端路线，门店多开与城市的核心商圈，<strong>其中霸王茶姬选择对标星巴克，门店设立在靠近星巴克，门店多为 100 平米以上的大店</strong>；喜茶的海外定价高于国内，多肉葡萄冻标准杯在国内售价 18 元，而新加坡价格为 31 元；奈雪的茶招牌产品霸气芝士草莓中杯在国内价格 21 元，新加坡约为 43 元。</p>
+<p>此外，2023年销售额首次超过星巴克的瑞幸咖啡，在东南亚市场也跳出了国内价格战的泥潭，开始以更高的价格与星巴克掰手腕。</p>
+<p>据咖新社报道，瑞幸会先通过“新用户APP下单即享0.99新币（约人民币5.41元）一杯”的营销模式打开市场，赚取一波流量，同时可获得折扣优惠券。</p>
+<p>但瑞幸招牌产品生椰拿铁在新加坡定价8新币（约人民币43.75元）、厚乳拿铁8新币（约人民币43.75元）、橙C美式7新币（约人民币38.28元）等，目前打8折，而新加坡一杯星巴克拿铁的价格是7.1新币，两者差距并不大。</p>
+<h2><strong>二、降维打击东南亚本土品牌？</strong></h2>
+<p>为何中国茶饮咖啡品牌都瞄准东南亚市场？</p>
+<p>不仅是因为东南亚拥有强大的华人基础，并和中国都拥有饮茶的文化基因，偏好茶和奶茶等饮品，而且，东南亚国家属于热带气候，全年平均气温接近30摄氏度，当地居民几乎全年都有冷饮需求，且增长潜力巨大。</p>
+<p>据灼识咨询和国泰君安证券研究报告，2022 年，中国和东南亚的现制饮品消费量在饮用水分摄入总量中的占比及人均现制饮品年消费量均显著低于发达市场。预计到 2028 年，中国和东南亚的人均现制饮品年消费量将分别达到 52 杯和 36 杯提升至 2022 年的近三倍水平，行业增长空间巨大。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,425" src="https://img.36krcdn.com/hsossms/20241101/v2_1646a3ac5ba848228dfdf52690ee1203@5952539_oswg143244oswg1080oswg425_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（国外君安证券研究报告）</p>
+<p>此外，面对东南亚本土品牌竞争，中国茶饮咖啡品牌具有显著优势。奶茶品牌琉璃净联合创始人蔡小刚告诉「增长工场」，“虽然东南亚的咖啡竞争力不错，但茶饮环境还停留在5年前，中国茶饮品牌还是有竞争优势的。”</p>
+<p>相比于越南、新加坡等东南亚市场上的其他竞争对手，我们认为，中国的茶饮咖啡品牌有三大优势。</p>
+<p><strong>一是产品竞争力和创新力强。</strong></p>
+<p>据EqualOcean报道，出海东南亚的茶饮品牌英歌魂发现，泰国目前的很多买奶茶饮品还存在代际落差，很多的奶茶饮品还存在奶精、茶精冲剂的产品为主，而中国茶饮3.0时代以果茶为主的茶饮产品对东南亚产品无疑是降维打击。</p>
+<p>而且，中国茶饮品牌十分注重产品本地化调整和创新，比如蜜雪冰城根据当地喜好调整糖度和口味，喜茶更是推出东南亚地区喜好的榴莲味和咸蛋黄味产品。</p>
+<p><strong>二是以加盟模式快速扩张。</strong></p>
+<p>据国泰君安证券报告，相比中国市场，东南亚现制饮品市场高度分散，连锁化率相对较低，头部品牌的发展空间更为广阔。2022 年东南亚现制茶饮店市场连锁化率约 20%， 显著低于中国市场的 52%。</p>
+<p class="image-wrapper"><img data-img-size-val="818,658" src="https://img.36krcdn.com/hsossms/20241101/v2_62ae276827aa40d2a25e107f3e20642d@5952539_oswg75451oswg818oswg658_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（国外君安证券研究报告）</p>
+<p>高效的加盟模式和成熟的供应链管理，让中国茶饮咖啡品牌能够以较低成本迅速扩张。这些店面通常规模较小，成本较低，使得加盟商更容易达到盈亏平衡，也能让品牌在不同地区快速扩张。</p>
+<p>据蔡小刚介绍，琉璃净位于河内的奶茶店，毛利率能达到60%，在越南，一家店的回本周期为8-10个月，而在国内一般需要一年才能回本。另据越南餐饮管理解决方案提供商iPOS.vn称，蜜雪冰城在越南的成功归功于其特许经营模式，该模式成本低廉，投资者只需 10-16 个月即可获得快速回报。</p>
+<p><strong>三是数字化运营优势。</strong></p>
+<p>东南亚本土茶饮咖啡还处于较为传统的发展阶段，甚至多数还停留在有门店、无品牌的野蛮生长阶段，缺乏足够的数字化支持。相比之下，国内茶饮品牌早已进入数字化、智能化阶段，可以通过数字化方式提高门店运营管理效率，优化加盟商盈利能力。</p>
+<h2><strong>三、被加盟商“背刺”，供应链成本提升</strong></h2>
+<p>中国茶饮咖啡品牌出海东南亚也存在很多挑战。</p>
+<p>就拿扩张模式来说，由于直营面临成本增大，中国品牌大多采用大加盟模式，<strong>但由于品牌商难以控制当地海外加盟商，很容易遭遇“背刺”，被抛弃。</strong></p>
+<p>例如，中国奶茶品牌霸王茶姬就在今年1月遭到“背刺”。今年年初，新加坡网友发现：“门店位置、老板和员工都和以前一样，但招牌和餐单就从霸王茶姬变成与茶了。” 经历了一周左右的更名风波后，当地所有霸王茶姬门店在14号均已更名为“amps tea与茶”。</p>
+<p>同时，中国茶饮咖啡品牌也面临消费口味，习惯和支付方式差异。据蔡小刚介绍，越南人喝咖啡茶饮喜欢选择加炼乳和多糖，中国人喝起来会觉得“齁甜”，越南用的咖啡豆和中国的也不一样。</p>
+<p>在新加坡，由于消费者不喜欢和店员打交道，部分消费者抵制下载单独的APP，需要品牌专门设置到店点单机器。在新加坡，约有50%～55%的消费者习惯使用电子支付，支付渠道包括WhatsApp、二维码支付，在线聚合平台等。而在互联网普及率和信用卡普及率相对较低的越南，电子支付使用率相对较低。</p>
+<p>“我们的合作伙伴熟悉越南，实现团队本土化。股东亲自跑市场，遇到问题及时处理。”蔡小刚告诉我们，<strong>中越两国使用的数字化和科技软件不同，规则也不一样，国内品牌团队不适用于越南，做好本土化极其重要。</strong></p>
+<p>最大的挑战是，供应链和物流成本增加。大部分茶饮品牌目前尚未在海外建厂，对国内供应链依赖程度较高，包材等原料需要从国内运输，海外供应链仍在建设中。</p>
+<p>而且，东南亚国家的供应链比中国分散得多，可能要增加物流成本，像在印尼需要用到摩托车和船只运输。此前，因为物流不畅通，蜜雪冰城在马来西亚出现原料缺货的问题。</p>
+<p><strong>供应链和物流成本的增加让品牌盈利能力下降。</strong>比如，蜜雪冰城供应链体系主要依赖于国内，跨国运营成本较高，海外盈利情况不太乐观。</p>
+<p>据其当时披露的招股书，2022年1-3月，越南蜜雪冰城营业收入为929.04万元，但净利润为-32.20万元；印尼同期营业收入2541.08万元，净利润为223.55万元。以此可见，蜜雪冰城在东南亚的情况并非十分顺利，在出海首站越南甚至存在亏损。</p>
+<p>东南亚依旧是中国茶饮品牌出海的黄金市场，但只有做到精致本地化，才能在众多出海品牌中赢得先机。</p>
+<p class="editor-note">本文来自微信公众号“增长工场”，作者：尘雪，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017486071591810</guid><pubDate>Fri, 01 Nov 2024 17:44:00 +0800</pubDate></item><item><title>2024Q3国内IPO报告：上季 IPO有回暖迹象，名片全能王、绿联等 45 家公司成功上市</title><link>https://36kr.com/p/3017390146168326</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在经历了连续几个月的低迷后，2024 年第三季度的 IPO 市场终于迎来了久违的回暖。尤其是在十一假期前的几个工作日，国内 A 股、港股市场迎来了罕见的一波暴涨行情，在社交媒体引发了巨大的反响。 </p>
+<p>基于 IT 桔子数据，接下来我们将从整体 IPO 数量、省份、行业、上市地、个股募资额、上市前的融资情况等多个维度来看看今年 Q3 季度 IPO 的形势。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_538613e51c96499096f07d4aa11c37b3@000000_oswg187274oswg1080oswg742_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>IT 桔子数据显示，2024 年第三季度国内新增上市公司 45 家，比 2024 年 Q2 增加 10 家，环比上升 29%，一扫此前连续四个季度的下滑颓势，开始触底反弹。 </p>
+<p>过去一年新股 IPO 的断崖式下滑主要还是受到了政策方面的影响，自 2023 年 8 月后，国内 A 股阶段性地收紧，证监会加大对 IPO 的审核和监管。 </p>
+<p>据 IT 桔子数据，国内新增上市公司数量从 2023 年 Q2 的新增 115 家跌落至 2024 年 Q2 的 35 家，同比下降 69%。 </p>
+<p>而今年三季度的上升势头不仅打破了此前的下降趋势，也显示出市场正在逐步适应监管新政，并向更加健康和可持续的方向发展。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_9ed9a4106ba843d484a661be8cb09e58@000000_oswg212985oswg1080oswg724_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>与国内新增上市公司数量的趋势一致，在新股募资额方面，在经历持续四季度的下降后，到 2024 年第三季度，国内新股 IPO 的募资额终于迎来了正增长。 </p>
+<p>具体来看，不同市场的表现各不相同。 </p>
+<p>2023 年 Q2 至 2024 年 Q2 A 股新上市公司的 IPO 募资额急剧缩减，到 2024 年第二季度降至最低点，仅 88.35 亿元，不及去年同期募资额水平的十分之一。今年 Q3，A 股市场出现了明显的回暖迹象，新股 IPO 募资额回升至 149.57 亿元，环比增加了 69.3%。 </p>
+<p>港股市场也表现出稳中向好态势，2024 年 Q3 国内新上市公司在港股合计 IPO 募资 280.58 亿元，环比大幅增加 391%，远超 A 股市场，成为最主要的募资渠道。 </p>
+<p>而这与政策的支持密不可分。2024 年 4 月 12 日，国务院发布《关于加强监管防范风险推动资本市场高质量发展的若干意见》指出，明确表示支持内地行业龙头企业赴香港上市。同时，随着 A 股上市门槛的提高和 IPO 节奏的放缓，很多公司将目光转向了港股，从而掀起了一波「港股上市潮」。 </p>
+<p>据统计，2024 年 Q3 国内企业有 7 家公司在美股新上市，但由于均是在纳斯达克交易所交易，募资规模较小，总的募资额才 13.52 亿元，环比下降了 70.4%。 </p>
+<p>中企赴美上市的数量、金额受到美联储加息，美元或贬值，以及美国大选带来的不确定性等因素的影响。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_aebebc52e5984ba5b6b63c5e8ab49bc8@000000_oswg180611oswg1080oswg746_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>具体到各个交易所的新股上市数量来看，2023 年前三季度国内公司在 A 股的深交所、上交所上市交易较多，而 2024 年 Q2、Q3 连续两个季度国内新股在港交所上市数量最多。 </p>
+<p>这是由于 A 股政策收紧时，对港股和境外 IPO 产生了利好。 </p>
+<p>IT 桔子数据显示，今年三季度国内企业 A 股 IPO 有 24 家，而境外 IPO 有 21 家，境外上市占比达到了 47%；其中，有 14 家中国企业在港交所 IPO，超过了国内 A 股的其他三家交易所。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_2b709c8ab919495b8041dd50c52fcc55@000000_oswg232716oswg1080oswg784_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2024Q3 国内 IPO 企业中，分布在 16 个省市。其中，注册地在广东的企业最多，有 8 家，占比 18%；位于浙江和上海的企业一样多，均有 7 家，分别占比 16%。广东、浙江、上海三个地区 IPO 公司数量占总体 IPO 数量的 50%。 </p>
+<p>在北京注册的 IPO 公司有 4 家，占比 9%；在江苏注册的 IPO 公司有 3 家，占比 7%；香港、山东、河南、河北、安徽等 5 个省份注册的 IPO 公司均有 2 家，分别占比 4%。 </p>
+<p>福建、广西、湖北、江西、陕西、四川这 6 个省份在 Q3 季度各诞生了 1 家 IPO 上市公司。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_88b9d2d766a142808a9d7d6001a025a7@000000_oswg340767oswg1080oswg1140_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>广东省 Q3 季度的新上市公司数量有 8 家，其中深圳企业有 4 家，佛山、广州、东莞、茂名 4 个地级市各有 1 家，行业以汽车交通（3 家）、先进制造（2 家）、电商零售（2 家）为主。 </p>
+<p>2024 年 Q3 上海的新上市公司以人工智能（3 家）、医疗健康（2 家）行业为主，浙江的 IPO 企业以传统制造（3 家）、医疗健康（2 家）行业为主。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_0bc2014fa5b64129bab7796a55f4d9a0@000000_oswg176594oswg1080oswg805_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2024 年 Q3，国内先进制造领域有 11 家企业实现 IPO，环比增加 22.2%；传统制造领域有 7 家企业实现 IPO，环比增加 16.7%。自 2023 年 Q1 以来，两大制造业的 A 股新增上市公司数量占国内 IPO 数量的半壁江山。 </p>
+<p>2024年Q3汽车交通新增6家上市公司，分别是智能移动出行平台<strong>如祺出行</strong>、车联网智能终端产品及方案提供商<strong>博实结</strong>、新能源汽车核心零部件供应商<strong>富特科技</strong>、智能网联服务提供商<strong>广联科技</strong>、汽车零部件及配件制造商<strong>科力装备</strong>、汽车配件供应链服务平台<strong>中驰车福</strong>。 </p>
+<p>医疗健康新增5家上市公司，分别是B2C医药电商平台<strong>方舟健客</strong>、医疗器械制造和销售平台<strong>山友医疗</strong>、创新药物研发商<strong>同源康医药</strong>、医药服务商<strong>小方制药</strong>、药品临床前安全性评价研究机构<strong>益诺思</strong>。 </p>
+<p>企业服务新增3家上市公司，分别是智能财税服务提供商<strong>百望股份</strong>、网络数据仿真系统解决方案供应商成<strong>电光信</strong>、基础设施检测服务商<strong>集信国控</strong>。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_b7cb5e1a10624c9e9b19ff0939684cee@000000_oswg120048oswg1080oswg724_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2024 年 Q3，25 家国内新上市企业的 IPO 募资额不足 5 亿元，占总体上市公司比例最高，达 55.5%。 </p>
+<p>区分上市地来看，在 A 股 IPO 的 24 家中国企业，募资额在 5-10 亿元之间的公司有 14 家，占比 58%；在港股 IPO 的 14 家中国公司，有 11 家 IPO 募资额不足 5 亿元，占比 79%；在美股 IPO 的 7 家中国企业，有 6 家 IPO 募资额不足 5 亿元，占比 86%。 </p>
+<p>2024 年 Q3 季度募资金额超十亿元的 IPO 事件有 3 起，分别是：<strong>美的集团</strong>在港股二次上市，净募资额 306.6 亿港元，是 2024 年 Q3 国内新上市公司融资金额最多的事件，也是成为港股近三年最大 IPO。 </p>
+<p>金额排在其次的是化工制剂研发商<strong>巍华新材</strong>在 A 股上市，募资金额 15.01 亿元；名片全能王开发商<strong>合合信息</strong>在 A 股上市，融资金额 13.8 亿元，是 2024 年 Q3 募资金额第三的事件。 </p>
+<p>2024 年 Q3 国内新股 IPO 募资金额 TOP10 事件中，有 7 起为 A 股上市事件，3 起为港交所上市。具体见附表。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_8e1adecf5f1546b9ad0de669c9f5bc65@000000_oswg142867oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2024 年 Q3 上市的国内 45 家公司在上市前的融资/募资情况是怎样的？ </p>
+<p>IT 桔子数据显示，有 23 家新 IPO 公司在一级市场进行过融资，总体占比 51%。 </p>
+<p>其中，融资次数最多的企业是视觉感知技术/芯片研发商<strong>黑芝麻智能</strong>，共融资9次，上一轮融资是在2022年8月公布的C+轮2.1816亿美元融资，投资方为武岳峰资本（领投），兴业银行、广发信德、汉能投资等。 </p>
+<p>企业学习智能解决方案服务商<strong>云学堂</strong>在IPO前共融资8次，最后的融资轮次是在2021年完成的E+轮，融资额1.9亿美元，投资方包括红杉中国、经纬创投等。 </p>
+<p>另有9家企业曾经在新三板挂牌，包括电动自行车电机和控制器研发商<strong>安乃达</strong>、无线通讯产品及嵌入式软件开发商<strong>慧翰股份</strong>、专注于碳纤维及其复合材料制品的研发商<strong>佳力奇</strong>、专注于煤矿液压支架维修再制造<strong>速达股份</strong>、通讯网络工程服务商<strong>中赣通信</strong>，这5家企业是从新三板摘牌之后、回到一级市场融资，再上市成功的。 </p>
+<p>此外，还有4家企业通过直接转板的方式在北京证券交易所快速上市，分别是网络数据仿真系统解决方案供应商<strong>成电光信</strong>、石油化工技术服务提供商<strong>瑞华技术</strong>、新材料研发制造商<strong>太湖远大</strong>、生物质衍生产品制造商<strong>中草香料</strong>。 </p>
+<p>仅有美的集团 1 家企业在 Q3 二次上市。2013 年 9 月，美的集团在深交所上市，2024 年 9 月 17 日，美的再次在港交所 IPO，合计发行 5.66 亿股 H 股股票，发行价格为 54.8 港元/股，合计募资净额约 306.73 亿港元，是香港资本市场近三年最大 IPO。美的实现了「A+H」两地上市。 </p>
+<p>最后，还有 12 家未透露过任何外部股权融资情况。</p>
+<p><strong>附表：</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_3aac5d740bd849fd9585ec78e7d8109f@000000_oswg352099oswg1080oswg778_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjQ2NzA2Mg==&amp;mid=2649616823&amp;idx=1&amp;sn=3ac66934c1b24670cda226c0a080d794&amp;chksm=bf4387f08467a1204761ff1408f8ee032da9e9f9db516c22edd171d9bb35c5506a51e36e9499&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“IT桔子”（ID：itjuzi521）</a>，作者：IT桔子，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017390146168326</guid><pubDate>Fri, 01 Nov 2024 17:44:00 +0800</pubDate></item><item><title>聊聊AI自杀案</title><link>https://36kr.com/p/3017374423311873</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在美国有一款很火的 AI 产品叫 Character.AI，这是一款基于大模型的 AI 聊天机器人。</p>
+<p>使用 Character.AI 时，你可以设定一个虚拟角色，或者与别人创建的 AI 角色聊天。</p>
+<p>说白了，就是虚拟世界的角色扮演。</p>
+<p>我试着和其中一个虚拟角色聊了两句，发现 Character.AI 在聊天过程中会特别注重现场感的构建。</p>
+<p>比如，在每句话前后，它都会描述这个虚拟角色的状态、情绪、动作，让你有一种面对面的感觉。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_302974a20bca4efbb5f81445810a35af@000000_oswg115021oswg1080oswg650_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>和机械式的聊天不同，Character.AI 某种程度上提供了一些情绪价值，有一种陪伴效应。</p>
+<p>如果你们没用过，可以试着去体验一下。</p>
+<p>今天之所以跟你们聊这个话题，其实是源于我看到的一个新闻，美国一个 14 岁的少年因为使用 Character.AI 自杀了。</p>
+<p>他在 Character.AI 里虚拟了一个角色，就是《权力的游戏》这部剧中的 Dany，俗称「龙妈」，她可以驾驭三条龙。</p>
+<p>自从使用 Character.AI 后，这个少年每天会花好几个小时去和 Dany 聊天，而且沉浸其中。</p>
+<p>他和 Dany 的最后一次聊天中，说自己要去找她了，然后找到家中的枪开枪自杀了。</p>
+<p>为此，她的母亲把 Character.AI 这家公司告上了法庭。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_9f9dcfa97e4c43fcabad46504483f104@000000_oswg378170oswg1080oswg552_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>其实，少年小时候被诊断为轻度的「阿斯伯格综合症」，也就是我们常说的孤独症和自闭症。</p>
+<p>长大后，他又被诊断为焦虑症和破坏性心境失调障碍，这让他在社会和群体中很难找到安全感和归属感。</p>
+<p>直到用上 Character.AI，以及和 Dany 展开深入沟通。</p>
+<p>虽然产品界面上会提示这是一个虚拟角色，但是沟通带来的情绪陪伴感会让他忽略这些。</p>
+<p><strong>对于这个案件，很多人表示了一种担心，那就是 AI 的边界感和约束到底在哪里？</strong></p>
+<p>AI 会不断通过数据去了解使用它的人，这种能力甚至比现在的个性化推荐算法更强，它可以完全、透彻、像素级了解你。</p>
+<p>关键是，AI 不会跟你争吵、不会反抗你、不会和你做对，他们会顺从你，给你想要的一切情绪价值，让你觉得爽。</p>
+<p>这就带来了一种潜在的问题和担心，在未来，AI 可能会比现在的短视频更让人上瘾。</p>
+<p>这种上瘾还不是内容消费层面的，而是一种情绪鸦片，会让一部分人无法自拔，进而迷失自我。</p>
+<p>说实话，挺可怕的。</p>
+<p>因为人类是群居生物，我们需要在社会中获得认同感，需要交流、需要互动、需要被认可和被需求。</p>
+<p>可能 AI 暂时无法在物理世界进行干预，但是在精神世界已经有了比较强的干预能力。</p>
+<p>要知道，人是具备主观能动性的，精神世界的改变会直接作用于物理世界。</p>
+<p>那些参与 CX  的人之所以呈现出前后完全不同的认知和行为特点，就是因为被洗脑，这是精神世界作用于物理世界的表现。</p>
+<p>此时，产品可能不再是人的工具，而是反过来。</p>
+<p>看了这个新闻我才知道，为什么国外很多专家和科技人士要限制或者制约 AI 的发展，尤其是在治理和法规不完善的前提下。</p>
+<p>过去我们说眼见为实，但现在不是了。</p>
+<p>已经有很多骗子用 AI 生成换脸和音频，然后冒充你的亲朋好友和你视频通话行骗。</p>
+<p>我在央视上还看了一个报道，一个母亲正在跟自己的女儿视频通话，结果女儿从门后开门进来了。</p>
+<p>那场面，别说多恐怖了。</p>
+<p>前阵子雷军的骂人音频在网上传播，一些明星和权威专家被 AI 换脸并通过音频合成在网上带货。</p>
+<p>这些，都是因为 AI 能力没有被治理和约束产生的乱象。</p>
+<p>乱象就会让人产生担心，我们应该如何应对？</p>
+<p><strong>互联网有句挺流行的话，叫「技术无罪」。再广义一点讲，也可以说是「产品无罪」。</strong></p>
+<p><strong>真正产生原罪的，是利用和使用产品的人。</strong></p>
+<p>随着 AI 技术的发展，这些不可控因素会逐渐增多，需要被治理和约束的事情也同样会增加。</p>
+<p>但技术发展是不可逆的，我们就是在动态调整中前进。</p>
+<p>历史是这样，未来同样是。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5NTIzMTY2MQ==&amp;mid=2650436947&amp;idx=1&amp;sn=7049db555d6631fff50b53e88c412eb3&amp;chksm=bf8ab92552bba7ed1a423de9cfda2f1ea683a4614e0d8391b15bad7e0c84988e0b696cd3a8ed&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“唐韧”（ID：RyanTang007）</a>，作者：唐韧，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017374423311873</guid><pubDate>Fri, 01 Nov 2024 17:45:00 +0800</pubDate></item><item><title>理想加码海外市场，首站瞄准中东，真能吸引不缺油的土豪？</title><link>https://36kr.com/p/3017372185375616</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>新能源发展浪潮来袭，国内车市竞争已经来到白热化阶段，出海远征似乎成为车企必须做的一步。</p>
+<p>据报道，理想汽车成立了出海一级部门，将率先在阿联酋、沙特等中东、中亚国家和地区建立专门的售后服务网络，计划在第四季度开始海外交付，而旗下的理想L9和理想L7将成为首批引入该地区的车型。</p>
+<p class="image-wrapper"><img data-img-size-val="825,355" src="https://img.36krcdn.com/hsossms/20241101/v2_e0e7b60be3be44dcb6134e60a877c6a1@5687509_oswg43153oswg825oswg355_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：36氪</p>
+<p>理想汽车创始人李想在社交平台发文称，“在2025年之前都不会做海外市场，会集中全部资源实现2025年的目标”。<strong>电车通并不是说李想食言，距离2024年结束还有两个月的时间，现在理想汽车成立一级部门显然是为了明年的出海计划做准备。</strong></p>
+<p>在此之前，海外用户想买到理想汽车，主要依靠非官方渠道或者授权经销商进行平行出口贸易，只是价格也是高出不少，在国内市场卖51万元的理想L9，在国外可以买到将近70万元。考虑到提高品牌知名度，理想出海的营销方式还是直营，并已经计划在海外当地市场招募经销商伙伴。</p>
+<p class="image-wrapper"><img data-img-size-val="4096,3072" src="https://img.36krcdn.com/hsossms/20241101/v2_2d8bb96369934a74bacebd42019caa4b@5687509_oswg3382458oswg4096oswg3072_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：电车通摄制</p>
+<p>值得留意的是，理想出海的第一步放在中东、拉美等国家和地区，与主攻欧洲市场的蔚来、小鹏、零跑等其他新势力品牌完全不同，这到底是出于怎样的考虑？</p>
+<h2><strong>首站选择中东市场，理想会水土不服吗？</strong></h2>
+<p>蔚来、小鹏、零跑等新势力品牌出海的第一站，基本会选择欧洲市场，原因很简单，欧洲多个国家的政府在前期出台了不少新能源激励政策，比如补贴、设施建设、税收优惠等等，对新能源产品持有较为开放的态度，是仅次于国内市场，新能源渗透率最高的地区。</p>
+<p><strong>然而众所周知，欧盟虽然对新能源车的态度比美洲地区开放，但粗暴地对中国汽车开始加征高关税，日前还决定对中国进口的纯电动汽车征收为期五年的最终反补贴税，开拓其他海外市场成为新能源品牌的新出路。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="5333,2996" src="https://img.36krcdn.com/hsossms/20241101/v2_8c2520dd215a4d35b81f85f289adbfa7@5687509_oswg3343812oswg5333oswg2996_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：蔚来汽车</p>
+<p>其中，蔚来早在2021年5月对外发布挪威战略，并在2022年10月宣布旗下蔚来ET7、蔚来EL7等车型将通过“订阅模式”在德国、荷兰等国家开放，而在2024年6月份，蔚来宣布对全球业务进行新一轮的组织架构调整，涉及全新的部门将覆盖中东、北非、拉美及大洋洲等多个地区。</p>
+<p>小鹏的出海之路与蔚来相似，在2020年率先将小鹏G3出口到挪威，并在2022年开启“直营+授权”的出海模式，但同样在今年，小鹏宣布与阿联酋经销商集团Ali&amp;Sons、中东非市场的五家本土经销商集团以及泰国经销商集团达成战略关系，并没有将所有鸡蛋放在欧洲市场一个篮子里。</p>
+<p>零跑的出海之路相对来说比较晚，从去年的慕尼黑车展才宣布启动全球化战略，但零跑与欧洲本土企业Stellantis集团创建了全球战略伙伴关系，组建“零跑国际”合资企业，相比蔚来和小鹏，零跑受到的加征高关税的影响相对较小。为此，零跑目前的出海动作还是集中在欧洲市场，但也少不了对土耳其、澳大利亚、巴西等其他地区的布局。</p>
+<p class="image-wrapper"><img data-img-size-val="1634,947" src="https://img.36krcdn.com/hsossms/20241101/v2_834c5c37aa6148f1843b547e392715f1@5687509_oswg939301oswg1634oswg947_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：特斯拉</p>
+<p><strong>即便欧洲市场对新能源有比较开放的态度，但并不利于当下理想汽车的发展，除了欧盟加征高关税等外部原因之外，欧洲市场对理想L系列这样的大尺寸SUV其实没有那么高的需求量。</strong></p>
+<p>数据显示，欧洲新能源市场比较畅销是Model Y、大众ID.4、沃尔沃XC40等处于主流细分市场的产品，其次就是菲亚特500e、福特Kuga PHEV、大众ID.3、标致208 EV等小型级别的产品，对动辄就是中大型SUV的理想L系列并不是特别感兴趣。</p>
+<p class="image-wrapper"><img data-img-size-val="1810,1083" src="https://img.36krcdn.com/hsossms/20241101/v2_7fae53d4a51647419e6cf00f13c1688c@5687509_oswg2439078oswg1810oswg1083_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：理想汽车</p>
+<p>中东地区的石油资源丰富，对新能源的需求并不高，不过没有离谱的加征高关税（至少目前来看是这样），理想汽车自带的配置优势和科技优势，确实是其他同级别产品难以企及的，而且中东地区的多数国家鼓励“多生多育”，对于本就主打家用市场的理想汽车来说确实是个机会。</p>
+<p><strong>与此同时，理想主攻增程式汽车，本质还是在做油车，这对不缺石油的中东地区用户更有吸引力，这样看，理想将出海的第一站瞄准中东市场，并不是没有道理。</strong></p>
+<h2><strong>BBA不行了？中国品牌在世界舞台日益重要</strong></h2>
+<p>不同于BBA，国产品牌的发力时间较晚，除了奇瑞、名爵等品牌之外，其他国产品牌在全球范围内的知名度和认可度都不算特别高。不过，国产品牌正努力改变这一现状，109.80万元的仰望U8、81.49万元（预售价）的小米SU7 Ultra、超过70万元的蔚来ET9、极氪01 FR等等，都在表明国产车的进步神速。</p>
+<p>雷军在社交平台发文称，“BBA确实有很多值得国内厂商学习（的地方），但大家也不要迷信BBA，国产品牌正在全面崛起。”</p>
+<p class="image-wrapper"><img data-img-size-val="789,769" src="https://img.36krcdn.com/hsossms/20241101/v2_b215d409987741cba5e7bae160e7fdb1@5687509_oswg115001oswg789oswg769_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">微博截图：@雷军</p>
+<p>我们暂且先把焦点放在国内市场，9月份国产品牌的市场份额达到63%，相比去年同期增长了10.1%，而在乘用车的销量榜单中，排在前十名的车企就有六席属于国产品牌，可见国产品牌已经获得众多中国消费者的认可。</p>
+<p><strong>如果用一个词来总结国产品牌成功崛起的原因，电车通认为是综合实力。</strong></p>
+<p>2020年，新势力品牌集中爆发，当时的消费者对于这些新推出的汽车品牌都持有质疑态度，而在后续的一两年里，绝大部分新势力品牌由于资金链断裂等原因倒闭了，这也让更多消费者确信，选择汽车这样的大宗消费品，还得看传统大厂，甚至很多国人认为“海外品牌车型更好”这一观念。</p>
+<p>不过经过几年的深耕，传统品牌、新势力确实给消费者带来不少诚意。以比亚迪为主的传统品牌，依靠出色的控本能力，推出价格更低且配置比竞品更丰富的国产新能源车；理想、蔚来等新势力品牌在高端豪华舒适性这一点达到新的台阶，零重力座椅、可以打游戏的座舱在以往的豪华车型上都没有出现过；小鹏、鸿蒙智行更是将智能驾驶做到全球行业领先水准，可以实现无图状态下的全场景高阶智能驾驶。</p>
+<p class="image-wrapper"><img data-img-size-val="6000,4000" src="https://img.36krcdn.com/hsossms/20241101/v2_f4b20d31d9bb4ab7966c8a06da81c4eb@5687509_oswg3391888oswg6000oswg4000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：电车通摄制</p>
+<p>面对这样的情况，合资品牌们只好通过降价来保住自己的销量数据，但在新能源市场似乎始终无法拿出真正有竞争力的产品。</p>
+<p><strong>如今我们把视野扩大到全球市场，欧洲市场其实已经认识到国产品牌车型的实力，所以才用政策手段给国产品牌加征高关税，但在电车通看来，这样的手段看似是为了保住本土品牌的发展，但缺乏强劲的竞争对手，并不能给车市发展带来积极的促进作用，还不如想办法倒逼企业学习国产品牌新能源车的技术。</strong></p>
+<p>唯有用技术真刀真枪开干，才能知道自己的短板和优势是什么，产品不够畅销是因为产品本身还是营销问题，车企得以取长补短。在加征高关税的前提下，国产品牌车型的价格可能会随之上涨，从而失去不少受众群体，但这样一来，欧洲本土企业将会失去不少学习竞争对手的机会。</p>
+<h2><strong>中国新能源车出海，前路漫漫亦灿灿</strong></h2>
+<p>出海，是国产品牌扩大知名度和增加营收的重要举措之一，品牌出海能获得成功自然是大家所期望的，但国产新能源车的全球认可度并没有想象中那么高。</p>
+<p>除了比亚迪和特斯拉中国之外，其他车企三季度的新能源车出口量均在2万辆以内，而像上汽乘用车、奇瑞等品牌的新能源车，即便已经有燃油车的高认可度加持，三季度的出口量也不过分别为1.7万辆和1.31万辆，而长城、小鹏、吉利等在全球范围内知名度不算高的品牌，三季度的新能源车出口量也都在1万辆以内。</p>
+<p class="image-wrapper"><img data-img-size-val="7201,3927" src="https://img.36krcdn.com/hsossms/20241101/v2_baaf98a0a13b4538a8d1280cbcac2aa6@5687509_oswg2389364oswg7201oswg3927_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：比亚迪汽车</p>
+<p>转型更早的比亚迪以及知名度更高的特斯拉，出口量要远超其他品牌，其他品牌在全球新能源领域仍没有开花结果。</p>
+<p>长城汽车在8月31日关闭了位于德国慕尼黑的欧洲总部，官方表示在欧洲电动汽车市场日益艰难的情况下以及逐步增长的高关税，长城汽车及时调整战略布局，暂不开辟欧洲新市场。<strong>在电车通看来，长城此举显然是为了大局考虑，在没有良好土壤的环境下发展，最终可能落得双输的局面。</strong></p>
+<p>如果在扩大知名度和增加营收这两件事上，没有确定的把握达成当中至少一件事，电车通认为车企还是尽可能保守一些。</p>
+<p>（封面图源：理想汽车）</p>
+<p>本文来自“电车通”，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017372185375616</guid><pubDate>Fri, 01 Nov 2024 17:47:00 +0800</pubDate></item><item><title>年轻人逛商场，越来越像NPC了</title><link>https://36kr.com/p/3017323939767553</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_8cf13dd8ce35478189a37c90b51fba7d@000000_oswg112211oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>商场的乐园属性正在愈发明显。</p>
+<h2><strong>01 商场NPC</strong></h2>
+<p>在社交媒体上一“对账”，全国的年轻人才发现，他们竟然不约而同地在逛商场这件事上达成了高度一致：</p>
+<p>到了商场，先和朋友一起买杯奶茶，边走边逛的时候补充体力、缓解聊天带来的口渴；</p>
+<p>经过名创优品、三福、KKV、the green party等门店，会不由自主地走进去，无论有没有要买的东西，都要把整个门店逛一圈，上手体验一下各种小东西，再和身边人点评下商品、吐槽下价格，随后空着手走出店门——为掩饰只逛不买的尴尬，他们将这种行为称为“市场调研”；</p>
+<p>逛得差不多或者到了饭点，就心满意足地去地下或楼上吃饭，最后以在彩票店买张刮刮乐作为这次行程的结束。</p>
+<p><strong>由于这种行为高度模式化，他们自称是商场里的NPC。</strong></p>
+<p>NPC，指游戏中的非玩家角色，其行为模式由系统提前设定，十分有限且固定。他们通常是带着一定任务而来的，这些任务遇到一定的条件就会被触发，完成任务，游戏才能继续。</p>
+<p>对走进名创优品等店铺的无法抵抗，尤其让他们产生了这种<strong>“任务被触发”的感觉：</strong>“丧尸来了我都得逛一圈再走”“每次逛商场看到这些店就像狗看到屎一样非去不可”。具体地说，就是“逛街的时候不进去就感觉心里不舒服，它们对我有一种莫名其妙的引力”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_e6112a32aedc4d8a942f38ec540b6cda@000000_oswg246442oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>进入店铺中的流程，也被简洁清晰地总结成<strong>“名创五步”：第一步，进入店铺；第二步，感叹商品；第三步，寻找价格；第四步，与友吐槽；第五步，走出店铺。</strong></p>
+<p>其中，体验商品与猜价格两大环节尤其必不可少，是核心的乐趣环节。几乎成为攻略一般的标准流程是：捏玩偶、闻香水、戴帽子、试指甲油，体验一番后看价格，询问友人“你猜这个多少钱？”在得到一个错误答案之后说出价格，最终两人达成“鬼才买”“抢钱吗”的共识。</p>
+<p>这类能够触发NPC任务的场所，往往是一些精品店，也被称作百货店。<strong>它们首先能够在视觉上给人带来舒适的享受：</strong>门店面积较大，灯光舒适，商品陈列整齐，产品的种类多，且外表精致可爱，对年轻人有着极大的吸引力。另一方面，它们没有门槛的定位能够给人一种“松弛感”：店内销售的大多是每个人都能接触到和需要的日用品，价格在商场中也算平价，甚至因定价多为9.9元被称为“新时代的十元店”。</p>
+<p>另一方面，由于试戴、试用的人数众多，线下店的店员往往忙于整理商品或者结账，很少有时间和精力盯着每一位顾客，这也给了NPC“家一样的感觉”，<strong>哪怕不买东西也毫无心理负担。</strong></p>
+<p>种种因素加持之下，名创优品等店铺成功成为年轻人在商场中的“快乐老家”，有事没事都常回家看看。</p>
+<p>当然，除了逛街这件事之外，NPC们还有着更加原始与迫切的需求——吃吃喝喝，与买彩票。这与当代年轻人“苦了谁都不能苦了我这张嘴”的理念、早日暴富的愿望息息相关。</p>
+<p>与只逛不买的抠门作风一致的是，在吃喝上，年轻人首选的一定是性价比最高的团购、自助。但在买彩票这件事情上，他们却表现出了不计成本的慷慨，一次性亏掉20~60元，也只当作是今日份的慈善项目。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_e7616bfa13fa4c2c8a3fdcd7ada0e413@000000_oswg152619oswg1080oswg1288_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>满足了口腹之欲的同时，进行了市场调研，还做了慈善，NPC在商场的一天，就是这样<strong>充实，又朴实无华。</strong></p>
+<h2><strong>02 满足NPC需求的商场先享受人气</strong></h2>
+<p>要说全国的“商场顶流”，北京的朝阳合生汇无疑是其中之一。</p>
+<p>这座2017年10月开业的商场，6年间逐渐积累着流量，2023年显现出初始的成功，最终在2024年迎来巅峰，跻身北京商场顶流。</p>
+<p>目前，小红书上，关于朝阳合生汇的笔记数量已经超过了13万篇。</p>
+<p>与网红商场身份形成对比的是，合生汇的流量有点朴素：没有北京三里屯、南京德基和长沙IFS等其他知名商场（圈）慕名前来打卡的游客，更多是在北京上学上班的年轻人——这里是7号线和14号线两条地铁线的交汇处，公共交通相对便利。</p>
+<p>它可能是北京最受Z世代欢迎的商场。介绍朝阳合生汇的小红书笔记中，<strong>年轻人、大学生、00后是高频出现的词语。</strong></p>
+<p>而这个群体，正是商场NPC的主力军，他们虽然没钱，但是时间十分充裕，即使是工作日、非饭点，依然能够在商场看到他们的身影。从笔记中可以看到，他们的<strong>活动范围更多限定在商场的低层。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_c7dd1681c4e64b28b5483c837cee8469@000000_oswg265862oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>合生汇的地下一层和地下二层集中了更多“火力”，也是商场出圈的最大缘由。</p>
+<p>平价的美食街区，霸王茶姬等超过30家饮品店，名创优品、酷乐潮玩、TOP TOY等百货店，涵盖了福彩体彩的两家彩票店，与直达的地铁，NPC的需求在这里能够得到一站式的满足。</p>
+<p>回报是明显的：2023年，合生汇地下一层和地下二层的特色餐饮街区21区BLOCK客流及坪效均位列北京第一。</p>
+<p>在合生汇之前，年轻人最常去的商场是朝阳大悦城。很长时间内，网红品牌、北京首店的标签跟随着这座商场，也吸引着一众年轻人前去打卡。2019年，朝阳大悦城25岁以下的客群占比达到32%，35岁以下的客群占比达到了81%。</p>
+<p>但它随后经历了一段下滑。2019~2022年，朝阳大悦城的销售额分别为超过45亿元、50亿元、44亿元和42亿元，而朝阳合生汇同期的销售额则分别为30.5亿元、35亿元、43亿元和50亿元。</p>
+<p>朝阳大悦城，开始更加用力讨好年轻人。</p>
+<p>2023年至2024年10月，朝阳大悦城新开了超过5家饮品店，其中不仅有霸王茶姬、奈雪的茶等经典茶饮品牌，还覆盖了围炉煮茶、网红奶茶品牌、蔬果茶的潮流；此外，还包括超过10家餐饮店，3CE、橘朵等5家美妆店，以及10家左右的潮牌。</p>
+<p>年轻人爱逛的the green party、KKV、无印良品，以及主营潮玩的ilovetoy、top toy、酷乐潮玩等店铺，今年也纷纷在朝阳大悦城开业。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_fccb8635623d4b15bdd2399fcc8693bf@000000_oswg200437oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>今年年初，朝阳大悦城还对地下一层进行了调改，将TISSOT、luminox等高端手表品牌门店替换为无印良品、The Green Party、霸王茶姬、好利来PINK等更加生活化品牌的门店，后者显然更能满足NPC们吃、喝、逛的需求。其中，无印良品旗舰店更是北京唯一一家同时提供餐饮服务和售卖二手家具的店面。</p>
+<p>合生汇的调整也在不断进行。</p>
+<p>2023年12月，合生汇在一层新增出mardi mercredi、迪桑特、兰嘉丝汀等门店，使其调性变为“潮奢+美妆+网红轻餐”。商场表示是希望以创新力和互动感的品牌吸引年轻客群的注意力。</p>
+<p>2024年至今的10个月内，合生汇有50家左右的新店开业，其中大多数是餐饮、服饰和潮玩。除此之外，合生汇还在大力宣传商场的地下三层，这一层以销售二次元爱好者喜爱的“谷子”为主，还有塔罗、宠物等对年轻人极具吸引力的店。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_28788bd525364360b9d8802fdddd2b78@000000_oswg218040oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>相比消费能力更强的中年贵妇们，自动开启NPC模式的年轻人们，或许在这里花的真金白银相对较少，但<strong>他们更乐于在社交媒体分享与讨论，可以为商场带来更高的声量与流量——这是任何一家商场都想得到的。</strong></p>
+<h2><strong>03 情绪价值</strong></h2>
+<p>近些年，<strong>商场的乐园属性正在愈发明显。</strong></p>
+<p>一个体现是，商场已经成为万圣节、圣诞节等节日氛围最浓的场所之一。场内各处的精美装饰能够吸引无数人前来拍照打卡，临近节日当天时，拍照的人甚至会排起长队。</p>
+<p>同样能够拍照发朋友圈，与真正的乐园相比，商场有许多优点：第一，无需买票进场；第二，环境更加舒适——温度、香气、灯光都会被调节到最适宜的程度；第三，吃喝与上厕所都更加便捷。</p>
+<p>除此之外，商场的体验感，并不一定比乐园差。</p>
+<p>能够免费体验体育项目的“穷鬼乐园”迪卡侬、堪称“年轻人的第一家网吧”的科技产品体验店、能玩真人换装游戏的服装店，以及能够立即获取使用体验的日用品店，都是商场里的游乐项目。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_3dabade3c7ba440db26f3fdede92eb79@000000_oswg216533oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>官方还会不时举办市集、展览、快闪等活动，让体验感再提升一个层次。</p>
+<p>你甚至可以在商场中薅点“羊毛”：商场官方和许多商家为了宣传，会推出发社交平台打卡帖送礼物的活动。在社交媒体上搜索各个商场的名字，会出现“薅羊毛攻略”的关联提示词。</p>
+<p><strong>无论你是否消费，商场的情绪价值都给得很足。</strong></p>
+<p>对于如今的年轻人而言，这几乎成为共识，也成为他们筛选去处的重要指标。</p>
+<p>与之形成对比的是传统商场。在这里，消费者能获得的快乐主要源于消费本身。商场吸引他们的主要方式，是新款上市与打折促销。</p>
+<p>但问题是，这届消费者越来越少在商场进行消费。去年8月，“逛商场真的变成只逛了”等话题登上微博热搜。根据腾讯谷雨，相关微博下的评论，饮食类、服饰类、纯逛类成为占比前三的逛街目的，比率分别达到了37.6%、25.8%、22.6%。</p>
+<p>于是，在全国各地，你都能看到传统商场里空出来的铺面。一些商场甚至会把招租广告挂在外墙的黄金位置上。</p>
+<p>在情绪消费崛起的时代里，越是能提供情绪价值的商场，越具备更强的活力。中国消费者协会今年5月发布的《中国消费者权益保护状况年度报告（2023）》提出，2024年，除了追求性价比之外，情绪释放将成为影响年轻一代消费者决策的重要因素。</p>
+<p>一些捕捉到变化的品牌顺势做出改变。比如名创优品、三福等品牌的门店中，年轻人喜爱的商品——IP联名产品、玩偶、挂件、谷子正在占据着更醒目的位置，和更大的面积。</p>
+<p>捕捉到消费趋势的变化，并做出反应的商家，往往能够在当下活得更好，在世界范围内都是如此。</p>
+<p>美国新泽西州的花园州广场购物中心是一个典型代表。网络购物兴起后，它在2018年前后进行改造升级，采取了打造艺术场景、增加更多业态等措施，为顾客提供消费以外的愉悦感，随后一跃成为美国10个最具活力的购物中心之一。</p>
+<p>活得更好的意味，当然不会停留在表面的人气与声誉，而在于更切实的收入。</p>
+<p>商场和品牌选择为大多数情况下只逛不买的NPC提供情绪价值，背后也是一种长期主义：<strong>不仅传达对消费者平等敞开大门的态度，更能让逛商场成为一种广泛的生活方式。</strong>顺利的话，用户心智也会在这个过程中逐步建立，并成为消费发生的前提——再抠门的NPC，也会有消费的需求。如果差价不大，或者对及时满足的需求超越对价格的敏感程度，谁又会愿意等快递呢？</p>
+<p>NPC的下一步可能就是消费者。你看，商场想赚钱的心没有变，只是更隐蔽、更有耐性了。</p>
+<p>图片来源于网络，侵删</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODQyNDEyMQ==&amp;mid=2257537728&amp;idx=1&amp;sn=c297d62e94e1ca71746803d824eef019&amp;chksm=a4746ae38d7b3a9dea8505805efb4fc06be65980db9173cadf5c700481d29d13631e4cef3161&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“略大参考”（ID：hyzibenlun）</a>，作者：小遥，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017323939767553</guid><pubDate>Fri, 01 Nov 2024 17:51:00 +0800</pubDate></item><item><title>OpenAI回应一切，o1/GPT年前都会升级，奥特曼：别嫌慢，问就是缺算力</title><link>https://36kr.com/p/3017633102587141</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>关于OpenAI的一切消息，官方这次全回应了！！</p>
+<p>就在刚刚，CEO奥特曼携4大高管集体亮相<strong>reddit有问必答活动</strong>（AMA ），挨个回复了大家对OpenAI主要产品、AGI路线规划等提问。</p>
+<p>具体阵容包括，首席产品官Kevin Weil、高级研究副总裁Mark Chen、工程副总裁Srinivas Narayanan和首席科学家Jakub Pachocki。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1007" src="https://img.36krcdn.com/hsossms/20241101/v2_503ee8166e494aebacbace9094201618@46958_oswg325732oswg1080oswg1007_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>如此豪华阵容也当即引来大量关注，仅过去几小时，reddit已有<strong>4000多条</strong>网友留言。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1129" src="https://img.36krcdn.com/hsossms/20241101/v2_8b5f57b1c55f4dd8a35dfbe780b4b327@46958_oswg249299oswg1080oswg1129_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>先来个省流版，在这次活动上，<strong>OpenAI团队主要透露了</strong>：</p>
+<ul>
+<li>年底将会有重大更新，但不会命名为GPT-5</li>
+<li>当前的硬件可以实现AGI</li>
+<li>缺少计算资源是阻碍产品推迟的主要因素</li>
+<li>图像生成模型DALL-E的下次更新值得期待，但目前无发布计划</li>
+<li>让ChatGPT自主执行任务将是明年一大重点</li>
+<li>Sora还需要完善，暂无明确发布时间表</li>
+<li>o1系列和GPT系列将同步推进，未来也可能整合</li>
+<li>o1满血版即将推出</li>
+<li>……</li>
+</ul>
+<p>好家伙，这次的信息密度有亿点高，准备好瓜子咱们接着唠（doge)。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,732" src="https://img.36krcdn.com/hsossms/20241101/v2_1488c04729a64e6c86deeeda11845817@46958_oswg91994oswg1080oswg732_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>OpenAI回应一切</strong></h2>
+<p>一上来，网友们就开始了贴脸开大，纷纷喊话对面的OpenAI团队：</p>
 <blockquote>
-<p><strong>Daze究竟有什么魔力，能吸引上千上万的用户？</strong></p>
+<p>你还记得大明湖畔的Sora、GPT-4o视频通话、DALL-A……吗？</p>
 </blockquote>
-<p>未发先火，仅仅依靠演示视频就勾起无数用户兴趣，一款新兴通讯社交APP搅动AI社交风云。 </p>
-<p>在TikTok和Instagram上，这款面向Z世代的应用相关视频观看次数达到几千万，给年轻观众留下了深刻的印象。 </p>
-<p>Daze计划于11月4日发布，在发布之前等待注册名单已经爆满，大约有15万6000名用户。 </p>
-<p>Daze的创始人是纽约连续创业者<strong>Simons</strong>，他告诉媒体，“我们的目标是打造一款功能齐全的即时通讯应用，与iMessage、WhatsApp等产品竞争，同时还保留一系列真正有趣且富有创意的功能。” </p>
-<p>Daze究竟有什么魔力，能吸引上千上万的用户？又有什么底气，能向iMessage、WhatsApp等成熟的社交平台叫板？ </p>
-<h2><strong>Daze凭什么火了？</strong></h2>
-<p>Daze的核心理念是打破传统的单一表达方式，让聊天成为更自由的创意空间。 </p>
-<p>什么叫传统的单一表达方式？ </p>
-<p>我们大部分人都用着微信，还有部分人用过iMessage和WhatsApp。不管是语音条还是文字条，聊天界面基本上都是排列整齐、白底黑字的消息气泡，或者是绿底黑字气泡。 </p>
-<p>这种形式固然能够实现基本的聊天功能，但千篇一律、呆板僵硬的风格时间久了未免显得枯燥乏味。 </p>
-<p>尤其是当在线社交充斥着我们每个人的生活，变得跟吃饭喝水一样平常时，如果能让在线聊天变得更有趣，无疑也能让我们的生活变得有意思。 </p>
-<p>Daze正是瞄准了这个痛点。 </p>
-<p>从它发布的演示视频来看，聊天不再局限于蓝色和绿色的消息气泡，相反多彩的消息可以漂浮在界面上，并辅以照片、图形、贴纸、GIF、图画、装饰背景等多样的视觉元素，这跟用户使用各种字体、样式、图形等创建Instagram Story非常相似。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_d14ec66a1fdb433c8d3ed24c0fe487e6@000000_oswg70846oswg1080oswg636_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这也让笔者想到，此前瞄准Z世代的初创社交公司noplace，也没有跟Facebook等社交平台一样采用白底黑字的单调颜色，而是在主色调上采用了Z世代普遍喜欢的「多巴胺」配色。界面色彩更为鲜艳和明亮，更符合Z世代张扬的性格。用户可以自由配色，因此noplace看起来像是个“万花筒”。 </p>
-<p>看来，瞄准Z世代的初创社交平台，都把<strong>自由配色</strong>放在了首位。 </p>
-<p>另外，在Daze上用户还可以使用自由式界面编写文本，快速输入消息并按下发送，也可以将文本放置在他们想要创建图案的任何地方，相当于把聊天对话框组合成了一个完整图案，非常自由和不受约束。 </p>
-<p><strong>总的来看，Daze所谓的自由风格的聊天，其实就是相当于社交平台给用户提供了一张白纸，用户可以在上面任意挥洒创意，将消息，文字、图片、语音、视频等放置在界面的任何位置，自由定义自己的聊天界面。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_053ca3ad2f254679b96b29d5515ecf61@000000_oswg36586oswg422oswg794_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>正如Simons所说的，希望每次对话都能成为独一无二的创作过程，丰富而有趣。 </p>
-<p>Daze正在用AI来驱动其开发的一些创意工具，并利用AI进一步优化消息过滤系统，特别是在匿名消息功能中，AI可以有效检测潜在的负面情绪、仇恨言论和欺凌行为。这一功能的初衷是减少社交平台上常见的恶意互动，营造一个更加健康、积极的社交环境。 </p>
-<p>目前，Daze在科技达人一代中很受欢迎，他们对这款应用赞不绝口。据TechCrunch报道，目前Daze正在Beta测试中，<strong>受邀用户大多数是年龄在13至22 岁之间的Z世代</strong>。Simons则指出，毫不奇怪，这种自由形式的社交应用的用户群体越来越年轻。初步数据显示，发送过消息的用户在60天后的留存率超过50%，这个数字意味着Daze的用户黏性挺高的。 </p>
-<p>不过，让不少人担忧的是，真正让Daze火起来的不是它实际的操作体验，而是视频化的营销。因为目前并没有大量用户真正上手体验Daze，只是被TikTok和Instagram上的产品演示视频挑起了兴趣。 </p>
-<p>也就是说，Daze目前只是给用户画了一个饼。究竟体验如何，还要等到应用真正发布后才会知晓。 </p>
-<h2><strong>跟巨头竞争，道阻且长</strong></h2>
-<p>目前，Daze喊出的口号是要跟iMessage、WhatsApp竞争。 </p>
-<p>不过，要实现这句口号的难度非常高。 </p>
-<p>固然，全球社交媒体用户依然在增长，给初创企业带来了机会。2024 年1月，全球社交媒体活跃用户数量突破50亿大关，相当于约 62.3%的全球人口经常使用社交媒体，且一年内增加了2.66亿，增幅为5.6%，远高于全球人口增长幅度。 </p>
-<p>但是，社交媒体巨头拥有着大部分的用户月活。 </p>
-<p>数据显示，WhatsApp 拥有20亿月活跃用户，仅次于Facebook和YouTube，超过Instagram，这些用户要换到新的社交平台上会面临巨大的迁徙成本。因为社交平台的本质依然是关系网络，用户基数越大关系网络价值越大。用户一旦离开这个网络，就会带来非常大的不便。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_9fa598aba6fd49db8f16b8e885507d8b@000000_oswg38490oswg686oswg386_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>举个简单的例子，‌其实QQ很早推出消息的气泡样式、文字样式，这些的确让QQ聊天界面看着更有趣了。但是，QQ依然没落了，微信用户也没有大量迁徙到QQ上。 </p>
-<p>在创立Daze之前，Simons曾与其他两位合伙人共同创立了Muze。这也是一款以自由形式通讯为特色的应用，允许用户在聊天过程中进行创作，包括绘画、拼贴、编辑图片等。与Daze不同，Muze更注重创作工具的多样性，而非社交本身。 </p>
-<p>虽然Muze在初期获得了不俗的人气，但是由于技术难度和用户规模的限制，最终没有能够突破早期的发展瓶颈。因此，对于这次Simons创立Daze，一些投资人抱着观望态度。 </p>
-<p>当然了，也有一部分投资人抛弃了橄榄枝。 </p>
-<p>Daze已经从 a16z、Kindred Ventures、Alpaca Ventures、Uncommon Projects、Betaworks、Maveron、35 Ventures、New Wave、Antoine Martin 等公司筹集了570万美元的资金。目前，Daze只有7名全职员工和1名兼职员工，大部分在纽约，只有少数人远程工作。570万美元的资金，能够为Daze带来雄厚的资源支持。 </p>
-<p>不过，这些资源跟社交巨头比起来还是小巫见大巫了。截止2024年， WhatsApp 的员工数量尚未有官方公布的确切数据，只知道‌在2021年员工数量已经接近1000人。‌另外，WhatsApp背后有Meta这样一个科技巨头作为支撑，能够获得的资源跟Daze不是一个级别的。Daze要跟WhatsApp这样的社交巨头抢用户，无疑是蚂蚁踩大象。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_3f93df279c2f478887fa02331fd33364@000000_oswg31552oswg768oswg432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>目前来看，Daze要对标的不应该是WhatsApp，而是其他对手。毕竟，它不是首个瞄准Z世代的社交媒体平台，Bereal、Wizz、Yubo、Purp等社交平台的实力也不俗。 </p>
-<p>不过，创业这片天地总是诡谲多变的。前些年，社交赛道涌现出很多创业新星，但很多最后都昙花一现，或者后续发展没有早期那么强劲。比如，BeReal就出现创新不足、增长放缓的颓势，Simons此前也有过折戟经历。 </p>
-<p>对于Daze来说，眼下的火热也只是一个开始，等到发布接受市场检验后才能知道它能走多远。 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI4MDUzMTc3Mg==&amp;mid=2247620477&amp;idx=1&amp;sn=641019f335a8b9dd3c1538d3c0682eae&amp;chksm=ea0323bd59ab59979f6773112400c8a4cc6d25e4ccdad433b302774b77624032f26ac7a4c8ba&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“硅兔赛跑”（ID：sv_race）</a>，作者：Eric，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017428683613698</guid><pubDate>Fri, 01 Nov 2024 17:28:00 +0800</pubDate></item></channel></rss>
+<p class="image-wrapper"><img data-img-size-val="1076,968" src="https://img.36krcdn.com/hsossms/20241101/v2_f425795112c647a7bb4c5fce989f63e9@46958_oswg68287oswg1076oswg968_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>对此，CEO奥特曼开始诉苦（bushi，承认<strong>缺少计算能力</strong>是阻碍公司更快交付产品的主要因素。</p>
+<p>最近还有报道称，奥特曼和OpenAI首席财务官对员工抱怨，微软行动速度不够快，没有提供足够的服务器。</p>
+<p>两家的联盟关系也正在逐渐破裂，并开始互相视对方为<strong>备胎</strong>——</p>
+<p>OpenAI找了甲骨文做额外的云计算供应商，微软也开始在自家产品中接入谷歌和Anthropic模型。</p>
+<p>除此之外，为了减少对英伟达的芯片依赖，OpenAI近几个月还在与<strong>博通</strong>合作开发AI芯片，不过预计最早要等到2026年才能上市。</p>
+<p>多方迹象显示，OpenAI目前确实在计算能力上面临压力。</p>
+<p>不过抛开这点不谈，奥特曼此次自信宣称，<strong>人类当前的硬件已经可以实现AGI了。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,448" src="https://img.36krcdn.com/hsossms/20241101/v2_f5be76a018464a16b2c674f8d45946de@46958_oswg116263oswg1080oswg448_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>与此同时，更多重点产品消息释出：</p>
+<p>首先，奥特曼照例放出重磅烟雾弹，<strong>暗示年底可能会发布重要产品</strong>，只不过不会将其命名为GPT-5。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,515" src="https://img.36krcdn.com/hsossms/20241101/v2_6a593963131e43aeb8f6768003e64942@46958_oswg130179oswg1080oswg515_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>他表示，一方面模型变得越来越复杂了，另一方面有限的算力还需要分配给“许多伟大的想法”。（传闻OpenAI擅长在内部同时推进很多项目）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,738" src="https://img.36krcdn.com/hsossms/20241101/v2_a3a001a35c354d959ec145c2a66a6f2a@46958_oswg241509oswg1080oswg738_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而对于当前存在的GPT和o1系列模型，OpenAI目前会<strong>同步开发、发布</strong>，不过将来也不排除整合的可能性。</p>
+<p>同时，<strong>o1满血版将很快推出</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,465" src="https://img.36krcdn.com/hsossms/20241101/v2_c007c3ea3932430e8e70a69aa58da92a@46958_oswg137101oswg1080oswg465_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,627" src="https://img.36krcdn.com/hsossms/20241101/v2_ec96dcaef27d4b52ac11b3c9bc0746f2@46958_oswg145769oswg1080oswg627_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>另外，对于大家一直关注的视频生成模型<strong>Sora</strong>，目前还是没有明确的发布时间表。</p>
+<p>官方说法是，Sora还需要进一步完善，需要考虑安全方面的因素。（Sora负责人前一阵还跳槽谷歌了）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,429" src="https://img.36krcdn.com/hsossms/20241101/v2_91942fc463ed48ebbe6b4f3c3281d72c@46958_oswg139218oswg1080oswg429_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>同样的，对于期待值颇高的GPT-4o的视频通话功能，以及久未更新的图像生成模型DALL-E系列，OpenAI仍然态度暧昧模糊，能够看出，他们的重点目前不在这些上面。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,444" src="https://img.36krcdn.com/hsossms/20241101/v2_3d7fdc12d7b74d94b64fbf51d58f300c@46958_oswg130111oswg1080oswg444_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,424" src="https://img.36krcdn.com/hsossms/20241101/v2_d4a5ab6149d04ac7ba869d6071b0a0f2@46958_oswg156028oswg1080oswg424_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>所以，OpenAI最近的重点是啥呢？</p>
+<p>最新答案来了：AI搜索。</p>
+<p>就在今天，<strong>ChatGPT新增了搜索功能</strong>，背后由GPT-4o的微调版本提供支撑，而且网页版、手机版、桌面版同时上线。</p>
+<p>据介绍，其最主要的亮点是<strong>“快速获取准确答案，并提供相关网页链接”，无需再切换至其它的搜索引擎。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241101/v2_5ca8b19823ea42b4b8baaa8acaf04f3d@46958_oswg240748oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>有网友借机提问奥特曼，ChatGPT search优势何在？我们为什么要放弃传统搜索引擎？</p>
+<p>对此，奥特曼认为AI搜索主要应用于更复杂的场景，最好能<strong>动态呈现自定义网页作为响应</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,603" src="https://img.36krcdn.com/hsossms/20241101/v2_72e0e8676b844220a56dd307c4fb3bdd@46958_oswg280162oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而且OpenAI透露，ChatGPT搜索仍然使用了<strong>微软的Bing</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,452" src="https://img.36krcdn.com/hsossms/20241101/v2_bc801f08f67b4e22aae7671bf7574592@46958_oswg110459oswg1080oswg452_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>最后，OpenAI明年的重点之一是——<strong>让ChatGPT自主执行任务</strong>。</p>
+<p>要知道，隔壁家的Claude目前已经能接管我们的电脑了，仅需输入指令，Claude就能帮我们完成订比萨、做攻略等任务。(OpenAI要加油了）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,452" src="https://img.36krcdn.com/hsossms/20241101/v2_b40cb58fa6df4a48a64cd19f79ebd0b6@46958_oswg113974oswg1080oswg452_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>网友们还关注这些</strong></h2>
+<p>除了上面这些大众关切，部分网友也原地开启了许愿模式。</p>
+<p><strong>Q：</strong>GPT-4o的文本能否扩展？32k不太够用。</p>
+<p><strong>A：</strong>在努力了！</p>
+<p class="image-wrapper"><img data-img-size-val="1080,492" src="https://img.36krcdn.com/hsossms/20241101/v2_f04a859038e2454e88324572fc210da4@46958_oswg150567oswg1080oswg492_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而且不止GPT-4o，OpenAI可能会为ChatGPT增加上下文窗口。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,410" src="https://img.36krcdn.com/hsossms/20241101/v2_ddb99c27cf534129be97c5f26229edb0@46958_oswg107056oswg1080oswg410_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>Q：</strong>ChatGPT可以做但目前还不能做的一件事是什么？</p>
+<p><strong>A：</strong>代替人类，自主理解并执行任务。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,450" src="https://img.36krcdn.com/hsossms/20241101/v2_64e9ac46abdd453d859337dff814a355@46958_oswg123872oswg1080oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>Q：</strong>ChatGPT的最佳用例以及未来在哪些领域会特别有用？</p>
+<p><strong>A：</strong>发现并治疗疾病，以及加速新的科学发现。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,678" src="https://img.36krcdn.com/hsossms/20241101/v2_80e99f5ef46a4e48a61740b17ef45454@46958_oswg277129oswg1080oswg678_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>Q：</strong>是否有计划发布一项新功能，让用户能看到自己在ChatGPT被引用的方式和频率？</p>
+<p><strong>A：</strong>会考虑这个好主意，目前没有计划。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,502" src="https://img.36krcdn.com/hsossms/20241101/v2_5268c643ca7e4c86af3cf441db15cb75@46958_oswg168072oswg1080oswg502_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>Q：</strong>AGI是否可以通过已知的神经网络架构实现，或者是否需要新的科学（基础）突破？</p>
+<p><strong>A：</strong>如果架构突破是由现有的LLM提出的，这算不算？（暗示新架构也可能由LLM提出）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,500" src="https://img.36krcdn.com/hsossms/20241101/v2_75aee882cc2240a4a6611fd660f4d63f@46958_oswg157751oswg1080oswg500_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>Q：</strong>高级语音的API成本会降低吗？</p>
+<p><strong>A：</strong>语音和其他功能都考虑进一步降低成本。（GPT-4o mini的成本目前是GPT-3的2%）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,522" src="https://img.36krcdn.com/hsossms/20241101/v2_d7ac2fb8deed45b1b2e22f3484163604@46958_oswg154047oswg1080oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>Q：</strong>模型幻觉会成为永久性特征吗？如何应对？</p>
+<p><strong>A：</strong>很难避免，OpenAI正在使用的解决方案包括：加强出处引用、使用强化学习（模型不产生幻觉时，实行奖励）。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,756" src="https://img.36krcdn.com/hsossms/20241101/v2_1503acef1729410693d4b394c6c3d3d1@46958_oswg374223oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>Q：</strong>对明年的大胆预测？</p>
+<p><strong>A：</strong>使所有基准测试达到饱和。（自信起来）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,421" src="https://img.36krcdn.com/hsossms/20241101/v2_429e0b4c40c543d7862fc276b42e83de@46958_oswg77066oswg1080oswg421_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>最后，有人突发奇想，提问奥特曼是否会使用ChatGPT来回答上述问题。</p>
+<p>结果没想到，还真有。（就emmm……）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,437" src="https://img.36krcdn.com/hsossms/20241101/v2_549b4835ebae4e5fb7129b259e797de3@46958_oswg94196oswg1080oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>Ilya看到了什么？</strong></h2>
+<p>有意思的是，一听到OpenAI团队要来个“知无不言”，大家伙儿不约而同地又问出了那句：</p>
+<blockquote>
+<p><strong>what did Ilya see？</strong></p>
+</blockquote>
+<p>怼到眼前来了，CEO奥特曼自知躲不过，于是乖巧回复道：</p>
+<blockquote>
+<p>他是一位令人难以置信的有远见的人，他的一些最初想法最终成就了o1模型。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,475" src="https://img.36krcdn.com/hsossms/20241101/v2_8eff4797957d4b0dbcf6e3fb41f59a73@46958_oswg190873oswg1080oswg475_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>嗯，感觉每次回答都一样，大家可以放弃这个问题了(doge)。</p>
+<p>问不出来，真的问不出来……</p>
+<p>参考链接：</p>
+<p>[1]https://www.reddit.com/r/ChatGPT/comments/1ggixzy/ama_with_openais_sam_altman_kevin_weil_srinivas/</p>
+<p>[2]https://x.com/OpenAI/status/1852041839567867970</p>
+<p>[3]https://news.ycombinator.com/item?id=42010712</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ZC4CLSOscL9pwoQDEvs5aw" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：一水 ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017633102587141</guid><pubDate>Fri, 01 Nov 2024 17:54:00 +0800</pubDate></item><item><title>无需游戏引擎，大模型实时生成“我的世界”，每秒20帧零延迟可交互，已开源</title><link>https://36kr.com/p/3017632894493954</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>现在，一个大模型就能直接拿来当游戏，还是开放世界的那种！</p>
+<p>可以直接根据玩家操作预测下一帧，连游戏引擎都省了。</p>
+<p>这个怎么看都像是《我的世界》的界面，就是这款游戏<strong>Oasis</strong>本尊了。</p>
+<p>虽然看着像，但两者驱动方式完全不同，Oasis的图像不是来自渲染，而是<strong>AI实时绘制</strong>。</p>
+<p>Oasis会根据你的键盘输入生成新的帧，每次游戏都能探索不同的地图。</p>
+<p>像这样的可交互世界模型，<strong>一个模型就是一个游戏</strong>，每秒20帧零延迟的生成效率，也让不少人都投来了惊讶的目光。</p>
+<p>FlashAttention作者<strong>Tri Dao</strong>也感叹说，很快模型推理成本就会降低，很多娱乐内容将会变成AI生成。</p>
+<p class="image-wrapper"><img data-img-size-val="1024,182" src="https://img.36krcdn.com/hsossms/20241101/v2_91fff77b527946a08b78f6a76a9b47cf@46958_oswg52378oswg1024oswg182_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>目前Oasis的代码和500M参数的模型权重已经开源，作者同时也放出了在线体验版本。</p>
+<h2><strong>无需游戏引擎，大模型即是游戏</strong></h2>
+<p>在Oasis之前，已经有人用类似的技术，开发出了基于大模型的fps射击游戏。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1312" src="https://img.36krcdn.com/hsossms/20241101/v2_eb0eee9aac494b9a8d44d412079ec421@46958_oswg837435oswg1080oswg1312_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>现在，Oasis直接把科技树点到了开放世界游戏当中。</p>
+<p>Oasis在线版本提供了多种地图风格可供选择，需要排队体验，不过时间不长，排到一次可以玩五分钟。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,530" src="https://img.36krcdn.com/hsossms/20241101/v2_bcaeb5a7a81b4ac9aec2bcf093e741bd@46958_oswg435440oswg1080oswg530_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>进入之后会显示游戏画面、操作说明和剩余的体验时间。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,701" src="https://img.36krcdn.com/hsossms/20241101/v2_541bdc8ca39c498e969bf330d656e60a@46958_oswg425750oswg1080oswg701_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>根据前面选择的地图风格，游戏中的AI引擎可以实时生成各种各样的画面。</p>
+<p class="image-wrapper"><img data-img-size-val="640,308" src="https://img.36krcdn.com/hsossms/20241101/v2_e56cba3637db40b89401725374dc3fab@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而且模型也包含了一些对现实世界的理解，比如在绘制时能够理解并遵循光照等物理规律。</p>
+<p class="image-wrapper"><img data-img-size-val="508,508" src="https://img.36krcdn.com/hsossms/20241101/v2_3cf7985c57d04c46bfb063ffcd6099a6@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>生命值、饥饿度这样一般游戏中具有的复杂机制也都有，可以通过食物来获得体力。</p>
+<p class="image-wrapper"><img data-img-size-val="508,508" src="https://img.36krcdn.com/hsossms/20241101/v2_10c4c52ecd24472681c05890e8544823@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而且游戏世界也并不空洞，角色的设定方面，Oasis中安排了大量的动物和NPC。</p>
+<p>但是……为什么都挤成一团啊？</p>
+<p class="image-wrapper"><img data-img-size-val="800,800" src="https://img.36krcdn.com/hsossms/20241101/v2_48600eb71c6446d8a67145a4a164bfc9@46958_oswg39873oswg800oswg800_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>当然这些动物也不只是贴图，你可以像《我的世界》种一样和动物进行交互。</p>
+<p class="image-wrapper"><img data-img-size-val="640,522" src="https://img.36krcdn.com/hsossms/20241101/v2_846fb7fda0dc4d348329a3434882c2ae@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>时间用完或者手动结束后，还会有游戏全过程的视频记录，可以选择下载保存。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,642" src="https://img.36krcdn.com/hsossms/20241101/v2_f939dbfb77b8483b8aae5c19744d8d70@46958_oswg253557oswg1080oswg642_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不过，Oasis的画面质量也确实还有很大的进步空间，还有人吐槽一致性问题，只要转一个圈看到的东西就全变了。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,329" src="https://img.36krcdn.com/hsossms/20241101/v2_f4aeab4618b44176994bd2f3ef6c8248@46958_oswg139288oswg1080oswg329_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但至少胜在响应速度快，也算是为以后的实时AI画面生成打了个样。</p>
+<p>那么，Oasis的研发团队都运用了些什么技术呢？</p>
+<h2><strong>生成一帧只要47毫秒</strong></h2>
+<p>Oasis由位于美国加州的初创公司<strong>Decart</strong>打造，该公司成立于2023年。</p>
+<p>为了让研发的模型能够高效工作，Decart选择了和一家叫做<strong>Etched</strong>的芯片初创公司合作研发。</p>
+<p>Etched由哈佛辍学生Gavin Uberti在2022年创建，并于今年获得了1.2亿美元的A轮融资。</p>
+<p>今年六月，Etched研发出了专用于Transformer的4nm AI芯片Sohu，号称<strong>一张能顶20张A100</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241101/v2_443f627ba5224b8dba96c139f0cf5a02@46958_oswg405216oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>按照宣传，Sohu运行700亿参数的Llama 3，每秒吞吐量可达50万tokens，相当于1秒就能生成21个人一天说的所有话。</p>
+<p>当然，Sohu拥有高速度的代价之一就是<strong>只能用来跑Transformer</strong>，其他的CNN、RNN等神经网络通通运行不了。</p>
+<p>所以，为了能够利用Sohu的速度优势，Decart团队为Oasis选定了Transformer作为基础架构。</p>
+<p>具体来说，Oasis所用的模型由空间自动编码器和潜在扩散主干两部分组成。</p>
+<p>两者都基于Transformer构建，其中自动编码器为ViT（Vision Transformer）架构 ，主干网则运用了很多视频生成模型（包括Sora）都在用的DiT（Diffusion Transformer）。</p>
+<p>Decart还对Transformer架构进行了修改，在空间注意层之间穿插了额外的时间注意层，以便提供来自先前帧的上下文。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,505" src="https://img.36krcdn.com/hsossms/20241101/v2_8772c63eedeb485ba95f363cd1b921cf@46958_oswg172212oswg1080oswg505_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>另外不同于Sora等双向模型的是，Oasis生成帧的过程是自回归的，因此能够根据游戏输入对后续帧进行调节，使得用户能够与世界实时交互。</p>
+<p>Decart介绍，如果用H100来跑Oasis，在360P的画质下能够达到每秒20帧，而用Sohu的话相同帧率下的画质可以达到4K。</p>
+<p>实际运行下来团队发现，Oasis生成一帧画面只需47毫秒。</p>
+<p>当然除了速度之外，对于Oasis这样的游戏场景来说，保持时间稳定性也是一项重要工作。</p>
+<p>但是在自回归模型中，错误会发生叠加，即使很小的缺陷也有可能形成雪球效应。</p>
+<p>为了解决这个问题，Decart团队引入了<strong>动态噪声</strong>。</p>
+<p>动态噪声机制会在第一个扩散前向传递中注入噪声以减少误差累积，并在后面的传递中逐渐消除，这样模型就可以找到并保留高频细节。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1132" src="https://img.36krcdn.com/hsossms/20241101/v2_352ffcb14be84424887a38edf4b46660@46958_oswg1687776oswg1080oswg1132_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>未来，Decart团队将针对部分远处物体出现模糊、不确定对象的时间一致性等问题进行研究，逐步提升Oasis的游戏体验。</p>
+<p>官方介绍：https://oasis-model.github.io/</p>
+<p>DEMO：https://oasis.decart.ai/welcome</p>
+<p>代码：https://github.com/etched-ai/open-oasis</p>
+<p>模型权重：https://huggingface.co/Etched/oasis-500m</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ISQj7nZJgMOT6_g7GFFQ-A" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：克雷西 ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017632894493954</guid><pubDate>Fri, 01 Nov 2024 17:56:00 +0800</pubDate></item></channel></rss>
