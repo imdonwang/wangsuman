@@ -1,27 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 01 Nov 2024 21:30:40 +0800</lastBuildDate><pubDate>Fri, 01 Nov 2024 21:30:40 +0800</pubDate><item><title>大模型为何如此热衷投广告？只因用户的兴趣降低了</title><link>https://36kr.com/p/3017746036614404</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>此前在今年5月，国内一众AI大模型厂商开启了一轮史无前例的价格战，9折、99折，乃至免费用。如今在大模型价格战鸣金收兵后，广告战似乎又打起来了。日前，有媒体统计了据称是月之暗面、字节跳动、腾讯、百度、阿里旗下AI产品在今年前三个季度的广告投放规模。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_37ad57e6f6074db5a747679a10da8515@000000_oswg31396oswg600oswg554_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中显示，在过去的三季度里，月之暗面的Kimi智能助手全网广告投放金额达到了1.5亿元、字节跳动的豆包投放金额为2亿元、腾讯元宝投放金额为8000万、智谱清言投放金额是2000万元，阿里的通义千问也有450万元。对于经历了“千团大战”、“千播大战”、“外卖大战”、“共享出行大战”的国内网民，这一切似乎是那么熟悉。</p>
-<p>不过阿里的通义AI旋即站出来表态，“根本没那么多”。或许阿里的通义千问没有加入买量的行列，但是Kimi、豆包的广告，相信只要你上网冲浪，在过去大半年里一定有刷到过。如果说此前在春季靠长文本能力走红的Kimi，是上半年推广预算最为充足的AI厂商，那么下半年的主角就变成了字节跳动的豆包。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_d426f7fc6d514baa8015e72f6ecf50b4@000000_oswg31469oswg600oswg440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>据AppGrowing的统计，2024年4月至5月，豆包的投放金额预计为1500万元-1750万元。到了6月上旬，豆包启动了新一轮的大规模广告投放，投放金额达到了1.24亿元。为了推广自家的产品，根据相关业内人士透露的信息显示，抖音方面甚至还“封杀”了其他大模型的广告。</p>
-<p>那么问题就来了，为什么AI厂商现在如此关注“投流”这件事，频频使出“钞能力”呢？这是因为免费获客的机会转瞬即逝，进入2024年，AI厂商想要占领用户心智就只能靠砸钱。众所周知，这一轮AI浪潮始于2022年年末OpenAI的聊天机器人ChatGPT，当初它用“上知天文下知地理”的表现，让大家见识到了AI已经进化到能与人类自然聊天的地步。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_0f84a88ff96045adbc7993b0412b654e@000000_oswg35791oswg600oswg440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>作为一款划时代的产品，ChatGPT也成为史上增速最快消费级应用，推出仅仅两个月、月活用户就已经突破了1亿。这个数字也反应了彼时大众对于AI的热情高涨，人人都想体验一个真正有智能的AI到底能做什么，OpenAI方面当时甚至都没有进行大规模广告投放，纯靠“自来水”就做到了以往无数互联网产品想都不敢想的成就。</p>
-<p>在作为先行者的ChatGPT吃到最大的红利后，国内市场百度的文心一言也蹭上了这个热度。尽管文心一言的发布会称不上成功，但作为国内首款AI聊天机器人还是让百度顺势扶摇直上。时至今日，文心一言的用户规模已经突破3亿，文心大模型日均调用次数超过7亿，日均处理文本Tokens则超过了1万亿。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_ccb486e7490342fa8b7ecdae5861d68b@000000_oswg37235oswg600oswg337_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>得益于百度之前“All in AI”战略的技术积累，ChatGPT的红利在国内市场被文心一言拿走了，以至于到现在为止，百度基本没有为文心一言买量。然而遗憾的是，到了2024年，ChatGPT、文心一言靠用户自发体验站稳脚跟的故事已经不可复制。因为在经过一年多时间后，AI大模型的实际应用场景还相对有限。</p>
-<p>用户们已经发现，ChatGPT、Kimi等聊天机器人是有局限性的，虽然它们能理解用户的输入、并据此给出回答，却并不具备执行能力。现阶段的大模型更像是“博学的傻瓜”，虽然看似无所不知、实际却样样稀松，更没有根据具体情况进行调整、并解决问题的能力，这也是为什么百度创始人李彦宏曾多次强调AI原生应用重要性。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_0d01d97a3a9e4b97b87244b44fa7d46f@000000_oswg20421oswg600oswg375_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在2024年9月的移动应用市场下载量榜单中，美图秀秀仅排在疯狂买量的豆包之后、位列第三。相比于豆包，现在的美图秀秀就是一个典型的解决具体问题的AI产品，其专精于AI文生图，满足了大量需要用AI修一张或是干脆生成一张图片作为社交货币的用户需求。</p>
-<p>所以国内市场AI赛道的现状，是找到具体应用场景的产品处于“酒香不怕巷子深”的状态，而kimi、豆包、元宝等大而全的产品已经很难让用户提起兴趣。根据QuestMobile公布的数据显示，文心一言、豆包、元宝等主流AIGC类App的月人均使用天数基本低于5天，活跃度更是普遍低于15%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_e8675d83e3db49ec8813399fe1405fac@000000_oswg30723oswg295oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>字节跳动、腾讯、月之暗面等大模型厂商还在等着获取用户的交互数据，进而才能迭代大模型，单个用户有限的使用次数显然不足以满足他们的需要。既然此前已经有了“外卖大战”、“共享出行大战”的珠玉在前，如今大模型厂商选择烧钱换市场自然也不奇怪了。</p>
-<p>只是，当初一轮又一轮大战能靠烧钱培育土壤的核心，是用户真的有团购、打车、点外卖的需要，但如今他们是不是非得用AI呢？或许谁都不能打这个保票。</p>
-<p>【本文图片来自网络】 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649874173&amp;idx=2&amp;sn=b599fc375a227a8fee9457f35ac73639&amp;chksm=867d7aeea6ced18ca867b22396462949b85cd350f8aa8d47aa981e5cc92684a14e66d39fd14e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017746036614404</guid><pubDate>Fri, 01 Nov 2024 20:24:00 +0800</pubDate></item><item><title>AMD：东边不亮西边亮</title><link>https://36kr.com/p/3017757065930242</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 01 Nov 2024 22:00:45 +0800</lastBuildDate><pubDate>Fri, 01 Nov 2024 22:00:45 +0800</pubDate><item><title>AMD：东边不亮西边亮</title><link>https://36kr.com/p/3017757065930242</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>AMD(NASDAQ:AMD)的股价在2024财年第三季度业绩不佳后下跌了10%以上。<strong>虽然业绩并不糟糕，但投资者的预期很高，因为该股目前的市盈率很高。</strong>该公司的收入超出预期，但其非GAAP每股收益与市场共识一致。此外，第四季度收入预期的中值略低于预期。</p>
 <p><strong>尽管AMD的游戏部门在第三季度收入下滑加速，但其数据中心GPU业务继续保持强劲增长，推动总收入和利润率加速增长。</strong>总体而言，AMD仍处于有利地位，可以在第四季度及以后加速其收入增长和利润率扩大。</p>
 <p class="image-wrapper"><img data-img-size-val="576,345" src="https://img.36krcdn.com/hsossms/20241101/v2_4cc60140cf674919a62814e18279f4aa@46958_oswg8952oswg576oswg345_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
@@ -435,4 +413,36 @@
 <p>据参会了小鱼婚礼的人说，小鱼为那场婚礼至少花费了6万元，而她只是一个生活在四线城市、年仅24岁的女孩子。</p>
 <p>（文中秦彻、小鱼、王乐乐、齐敏均为化名）</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg5NTczNTkyOA==&amp;mid=2247491849&amp;idx=1&amp;sn=8a20589df507833f8e6331ac87490539&amp;chksm=c1a37f87bb38c4e518d7e069828dfdbe8ef6a9c322ca68bd28a90e181737f5cefe3ab3861cf2&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“最话FunTalk”（ID：iFuntalker）</a>，作者：魏霞，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017726741276162</guid><pubDate>Fri, 01 Nov 2024 20:44:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017726741276162</guid><pubDate>Fri, 01 Nov 2024 20:44:00 +0800</pubDate></item><item><title>长城汽车向元戎启行注资1亿美元，发力高阶智能驾驶量产</title><link>https://36kr.com/p/3017043935880449</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>城区智驾功能逐步占领用户心智，传统品牌已无法避开这场量产追逐战。</p>
+<p>36氪获悉，长城汽车领投自动驾驶公司元戎启行C轮融资，注资1亿美元成为股东。早在今年3月，元戎启行便成为长城汽车智驾供应商，助力魏牌蓝山车型无图城区NOA功能的量产上线。</p>
+<p>据36氪独家了解，明年预计有超过10款搭载元戎启行的高阶智驾车型投入市场，1亿美元的注资后，元戎启行将有望加速扩大量产规模；</p>
+<p>同时，元戎启行还在研发基于英伟达Thor芯片的VLA模型（Vision-Language-Action Model，视觉-语言-动作模型），系统将于明年推出。</p>
+<p>元戎启行成立于2019年，在乘用车及轻卡商用车自动驾驶上均有布局。目前，元戎启行已与4家汽车主机厂达成量产合作。其中长城汽车魏牌蓝山、smart 精灵5均搭载来自元戎启行的无图城区NOA（领航辅助驾驶）技术方案。</p>
+<p>智能驾驶是长城汽车转型的重点工程。</p>
+<p>长城是国内较早一批布局智驾自研体系的传统厂商，据魏建军讲述，长城智能驾驶的自研历史已达十年之久。然而，在行业主流的高阶智能驾驶方案上，长城的进展未及预期。</p>
+<h3><strong>长城智驾路：从自研到外购</strong></h3>
+<p>2019年，长城汽车剥离旗下的智能驾驶前瞻部，成立专注智能驾驶研发的独立子公司毫末智行。次年，长城智驾“331”战略便宣布，旗下5个子品牌的全系车型，都将搭载毫末智行旗下的智能驾驶产品。</p>
+<p>长城汽车既是毫末智行的第一大股东，也是首要客户。</p>
+<p>成立四年间，毫末智行成功量产了两套智能驾驶产品。其中，3000元级别的HP170可以实现高速无图NOA（导航辅助驾驶）；2024年4月推出的HP370能实现记忆行车与泊车功能，价格仅在5000元级别。</p>
+<p>长城旗下的魏牌摩卡、坦克300城市版、哈弗神兽等20余款车型，使用的都是这两套方案。</p>
+<p>另一款定位8000元级的HP570产品，则将支持无图城市NOA功能。HP570使用的是高通8650芯片，将首发在长城汽车旗下车型搭载。有知情人士告诉36氪，无论长城还是高通，都希望毫末智行HP570能成为他们在无图城市NOA领域的量产标杆。</p>
+<p>然而，毫末智行的进展不及预期，HP570的项目进度未能让长城进入无图城市NOA的第一梯队。自2023年12月，华为、小鹏、理想等新势力企业相继上线了不依赖高精地图的城市NOA功能，而目前，第一梯队玩家的竞争重点转移至“端到端大模型”路线的量产上车。</p>
+<p>在长城汽车的规划中，公司计划在2025年实现新能源汽车销售占比80%的目标。为了提升新能源汽车的整体销量，长城汽车必须快速追赶智能驾驶的量产进度。</p>
+<p>通过资本路径，引入头部供应商，这是最快的途径。</p>
+<p>今年3月，长城汽车引入元戎启行，成为其第二家智驾供应商，为长城提供端到端智驾解决方案，魏牌蓝山车型便是合作首发。2024年，长城还将落地三款搭载元戎启行技术方案的车型。</p>
+<p>长城汽车在智能驾驶上的态度开始变得开放，在元戎启行之外，长城在机甲龙车型上启用了Moment为智驾供应商，还与大疆旗下的卓驭科技展开合作。</p>
+<p>从自研到外购，长城汽车的步伐明显正在加快。</p>
+<h3><strong>为什么是元戎启行？</strong></h3>
+<p>当下，智驾越来越成为用户购车的重要决策因素。从零开始自研智驾耗时至少1-2年时间，这无法为车企赢得更多先机。采用供应商方案，车企可以用更少时间争取智驾量产上车，赢得商业筹码。</p>
+<p>不过在高阶智驾领域，目前拥有城市NOA量产能力的智驾供应商寥寥无几。华为、Momenta、元戎启行是为数不多在量产环节有所突破的玩家。</p>
+<p>华为凭借多种商业模式，已经圈揽了问界、智界、享界、长安阿维塔、东风岚图、比亚迪方程豹等车企品牌。</p>
+<p>Momenta在与上汽智己汽车深度合作后有了代表作，目前其高阶智驾方案也扩张到比亚迪腾势、广汽昊铂等品牌上。</p>
+<p>元戎启行对高阶智驾、端到端大模型的理解则获得了长城的青睐。元戎启行称，该技术路线上已布局近两年。去年8月，其端到端方案就开启了道路实测，今年正式推出了基于端到端模型的高阶自驾平台DeepRoute IO。</p>
+<p>目前，其端到端方案已经在今年新款的魏牌蓝山上落地；于11月开启交付的smart 精灵5，也同样搭载了元戎启行的高阶方案。</p>
+<p>据36氪获悉的一份融资文件显示，元戎启行已经与四家主机厂展开合作。元戎透露，预计2025年能量产的高阶智驾车型将超过10款。同时元戎还可以将根据前装量产车辆产生的海量数据，促使Robotaxi及无人轻卡的算法迭代。</p>
+<p>据了解，元戎启行的下一代端到端方案还将采用英伟达的最新产品Thor芯片，成为业内首批使用Thor芯片的企业之一。</p>
+<p>行业的共识是，“端到端”技术路线已经成为行业的最新方向。在端到端这座天然的数据、算力熔炉中，率先自研的车企有明显的先发优势。华为、小鹏、理想等玩家手握海量数据、丰厚算力资源，其端到端闭环已经初步搭建完成。</p>
+<p>但对于智驾公司而言，在数据、算力、工程经验都不如头部车企时，押注端到端智驾无异于一场豪赌。</p>
+<p>这也促使元戎启行筹集更多资源与现金支撑，博取更大量产规模，才不至于在端到端演进中途掉队。而长城也能以更快的方式追上端到端智驾的主流节奏。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017043935880449</guid><pubDate>Fri, 01 Nov 2024 21:34:00 +0800</pubDate></item></channel></rss>
