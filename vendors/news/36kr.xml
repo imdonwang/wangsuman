@@ -1,122 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 02 Nov 2024 13:00:40 +0800</lastBuildDate><pubDate>Sat, 02 Nov 2024 13:00:40 +0800</pubDate><item><title>被迫转型后，9人团队把AI写作做到500万美元ARR</title><link>https://36kr.com/p/3017935008048386</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>Jenni AI 是一家专注于 AI 学术写作的初创公司。公司员工一共才九人，却在今年达成了 500 万美元的 ARR，人均年创收 56 万美元，估值达 2500 万美元。商业化前景不甚明朗的 AI 应用赛道，这样的营收可以说是成绩斐然。更让我们好奇的是，他家最早做的是 SEO 写作，如何完成 AI 学术写作的华丽转身，并且在近两年实现了翻倍增长。</p>
-<p>出品 | 白鲸出海编辑部</p>
-<p>作者 | 李爽</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_9b0b4cbdd78c4c42913fb1072f59c81b@000000_oswg124174oswg840oswg510_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在今天的文章里我们整理了 Jenni AI 从 0 到 500 万美元 ARR 的创业历程，以及创始人对市场和增长的思考。</p>
-<p>资料来源于创始人 David Park 和 Henry Mao 在 X 和领英上的公开推文、Blog 以及访谈。</p>
-<h2><strong>从SEO到学术写作，一波三折的创业之旅</strong></h2>
-<p>从 SEO 到学术写作，一波三折的创业之旅 2019 年， David Park 和 Henry Mao 开启了他们的第五次创业尝试。他们是美国加州大学圣迭戈分校的本科校友，David 学习文学，Henry 学习计算机科学，却因为对创业共同的兴趣走到一起，他们曾以一年一个项目的速度打造过社交分享软件、Dating App，也曾投身比特币交易，及 AI 平台的创业，但无一例外都失败了。这一次他们打算做一个帮助营销人员创作 SEO 内容的 AI 工具，Jenni AI。</p>
-<p>2019 年初春，GPT-2 发布了，当时创始人之一的 Henry 已经读博，研究方向是用神经网络生成音乐及语言模型，长期的学术训练和在商业世界的摸索让 Henry 敏锐地察觉到 AI+ 应用的机会可能来了，他第一次决心辍学，全心投入创业。由他负责 Jenni AI 技术的部分，而 David 则负责销售。</p>
-<p>Jenni AI 的起步之路并不如预想的顺利。Jenni AI 在 GPT-2 时代比较像一个外包公司，他们招聘真人写手然后再教他们使用 AI 提效，当时大概能提效 10%-20%。David 戏谑地将当时的 Jenni AI 称为“内容工厂”，客户只是为了价低量大的内容而来。</p>
-<p>而等 GPT-3 发布了，AI 终于能够直接生成可用的文本内容，他们决定清退人类写手，正式转型为一家为协助企业完成 SEO 写作的 SaaS 公司。但这一领域的竞争实在激烈，AI 技术的巨大进展同时带来了创业的热潮，先后涌现出了 Jasper.ai (目前估值达到了 15 亿美元)、Copy.ai 在内的竞品。当时才 20 出头、对于产品的规模化、找合作伙伴等十分懵懂的David，几乎是眼睁睁看着竞品快速成长，并抢占了大量市场份额，Jenni AI 只能另寻出路。</p>
-<p>Jenni AI 先是阶段性放弃了专注 SEO 写作的定位，变成了一款更加通用的 AI 写作工具。David 在这段时间里做了大量的用户访谈，不过产品在早期的用户其实很少，<strong>他会无偿给一些人 1-2 月的会员权限，只是为了说服他们使用 Jenni AI 并反馈感受。</strong>他始终认为初创公司的命脉是“知道自己要构建什么”，用户访谈就是一个听起来很无聊，但能改变业务的方法。也是在这个过程中他们发现了用户群中稳定活跃但过去不太被注意的一群人——大学生和研究人员，加之当时市面上还没有太多针对学术写作场景的 AI 产品，这也让 Jenni AI 最终决定专注为这些用户构建产品。</p>
-<h2><strong>一条推文改命，让人上瘾的增长</strong></h2>
-<p>AI 学术写作工具的逻辑和 SEO 写作工具其实很不一样，于前者，AI 不需要生成整篇文章，而只是生成一小段，当用户停止打字之后，AI 自动联想下一个小段，再由用户再自主决定是否要接受。</p>
-<p>David 解释说“学术写作的用户会格外重视提交作品的质量，和快速生成 1000 篇文章去提升 SEO 排名的逻辑不一样。”在完成产品的重构之后，Jenni AI 偶尔收到一些正面反馈但远谈不上爆发，此时两位创始人为了节约成本已经搬到了马来西亚，却也无事可做。直到一条推文的发布，彻底改变了一切。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_aa4cbd18a8304611ab2ddf63e1146dab@000000_oswg137767oswg1080oswg497_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：Zain Kahn 推特</p>
-<p>2022 年 7 月，一个叫做 Zain Kahn 的科技博主发推，向粉丝介绍“10 个功能强大”的免费网站，Jenni AI 在列。机缘巧合下，这条推文成为了有史以来 Twitter 热度最高的帖子之一，迄今为止点赞量达 34w，收藏量为 24w，它还被网友自发翻译成各种语言，搬运到了 Facebook、Medium、TikTok 等社媒上，预计全网浏览量突破 10 亿。David 和 Henry 当时还不知道为什么人们突然涌入 Jenni AI，直到朋友给他们转发了推文的截图，David 说那时候一分钟会进来几百个人，30 分钟之内用户就把他们的 API 额度消耗一空，网站崩溃……这波泼天的流量在一天之内为 Jenni AI 带来了 1 万美元的订阅收入，要知道此前的 3 年，Jenni AI 都在 2000 美元 MRR 的营收水平上苦苦挣扎。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_de7b6ae5c1924c96b50be931c816e030@000000_oswg109373oswg561oswg597_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：Zain Kahn 推特</p>
-<p>David 将这次经历称之为“疯狂的增长”，他从中得到启发，<strong>或许这种基于社媒的病毒式传播也可以自己复制。</strong>Jenni AI 内部最终组织起了以 David 为首的“营销三人组”，过去两年他们一半以上的营销工作都是基于短视频进行的，而这也终于成为产品实现收入实现 500 万美元 ARR 的关键。</p>
-<h2><strong>发力营销，收入质变</strong></h2>
-<p>David 在自己的 X 上慷慨分享了自己的增长经验，他把这个系列取名为《如何从 0-500 万美元 ARR》，不少建议都颇具实操性。</p>
-<h3><strong>短视频营销——打造爆款短视频的 SOP</strong></h3>
-<p>短视频内容无疑是当下社交媒体环境中最有效的增长手段之一。同时，David 有一个非常鲜明的观点，那就是<strong>不要纠结于账号粉丝数量。</strong>他觉得好的内容一定会自己找到用户，就好像 BTS 在 TikTok 上新起了一个号，算法一定能非常精准地将内容推送给粉丝，所谓“0 粉”账号也能达成原有账号的效果。</p>
-<p>基于以上思考，Jenni AI 团队想到了一个非常省钱省力的起号方法：<strong>他们自己起号，然后去找粉丝画像匹配的 influencer 拍短视频广告，再放到 Jenni AI 自己的号上宣传产品，完全用不上 influencer 的主账号。</strong>一般来说创作者都乐意接受这个提议，因为这样打广告不会影响到主账号的内容调性，而厂商也能以更低的价格“打包”购入一批广告素材，最终结果可能还比原来更好。</p>
-<p>Jenni AI 曾和一位叫做“Mengmengduck”的职场博主合作，后者主要做面向学生群体的求职、职场沟通等内容，合作期间的粉丝量级大概在 50 万左右。营销团队凭借 4000 美元/月的报价，就能让这位人气创作者每月产出 20 条短视频广告，虽然相比其主账号的内容它们称不上精细，然而这批视频拿到了 700 万的浏览量，几乎和预期的一样，这些新账户上的视频也被推送给了原来的粉丝。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_ec70dfcee05b42c98b119cee6cb57502@000000_oswg251274oswg644oswg468_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这是 Mengmengduck 为 Jenni AI 制作的推广内容中流量最好的视频之一，直接对比同期该博主账号数据表现也并不弱</p>
-<p>David 的建议是，当你敲定一个 influencer，基本上可以遵循以下步骤操作：</p>
-<p>1、在所有的短视频平台转发该视频（Reels，TikTok，YouTube Shorts）；</p>
-<p>2、保持更新，每天至少发布 1 个视频；</p>
-<p>3、循序渐进。最初的视频可以是与创作者主账号类似的内容，此后再围绕品牌快速创作；</p>
-<p><strong>Jenni AI 会在一个平台同时运营数个账号，所以短视频素材消耗，或者说创意测试的过程极快，而这套操作的最终目的在于低预算、快速找到一个能实现病毒式传播的视频。</strong></p>
-<p>对于 Jenni AI 来说，试到现在效果不错的是一类叫做“POV 你有一篇论文即将到截止日期”的短视频，通常设定在正在上厕所或者准备睡觉的场景中，主人公突然想起 ddl，最终以使用 Jenni AI 来快速完成论文写作作为结尾。</p>
-<p>而一旦找到了这种潜力创意，营销团队马上就会小作调整，把它们变成系列素材。David 眼中，此后放大传播效果的工作也变成了一种相对标准化的工作流程，比如<strong>在多个账户上发布（Jenni AI 大概有 5 个 TikTok 账号），并考虑翻译或者找中文、西班牙语的创作者接力二创，此后要找出播放量最好的视频花钱让热门账号转发，最后一步则是考虑投放付费广告，确保达到最大的传播效果。</strong>最终由于模仿者的涌入和视频的扩散，爆款视频的热度也总会消失，这时候就需要又回到找爆款的阶段。</p>
-<p>David 介绍，“POV 你有一篇论文即将到截止日期”的系列视频大概在全网已经产生了 3 亿多的浏览量，至少为 Jenni AI 带来了超过 50 万美元的收益，非常可观。</p>
-<h3><strong>网红营销——沙里淘金，向合作网红要转化</strong></h3>
-<p>在 David 梳理的短视频营销经验中，与网红合作无疑是非常关键的一环，他们既是爆款创意的真正来源，在爆款视频的二次转发传播中也起着重要的作用。这方面 David 的两个核心经验其实在于，<strong>找对人和要转化。</strong></p>
-<p>David 会直接通过访谈或是在用户的关注列表里找网红，一般在进一步关注的时候平台会自动推荐“类似的账户”，重复几次，营销团队就可以初步列出一个名单。他有一个经验是，<strong>建议列出简单的名单之后，开启一个新的账户重新关注上述网红，这时候首页推荐的新创作者更有可能是高度相关且数据真实的网红。</strong>同时他建议降低试错成本，不要把预算全部投给几个头部网红。</p>
-<p>考察网红的过程中，David 会在意<strong>过往推广视频的表现和观众的地区分布数据两大指标</strong>，前者主要考察创作者接商单的能力，后者则用于与 Jenni AI 过往在不同国家的转化情况相对照，它们最终指向的其实是营销团队的终极目标——高转化率。David 甚至会建议初创公司和网红商量将转化用户量作为 KPI 考察，或者至少作为额外激励体现。</p>
-<p>该说不说，Jenni AI 摸索社媒营销这两年在这方面着实踩过不少坑，曾有过跑出 3000 万浏览量的视频、但转化用户寥寥的情况，而有时一个 5 万播放的视频就带来很多用户，David 说一定要让用户感到兴奋，而不是只是知道你在干嘛然后很快划走看下一个视频。经验看来，硬广转化率会高于在 vlog 里精心植入的软广。</p>
-<p>在其余的增长渠道中，Jenni AI 也会做 SEO 和付费广告，但它们都是在增长过程中相对后置的环节。对 David 而言 SEO 是一个偏长周期的工作，无法满足创业初期要快速反馈的需求；而付费广告需要优质素材及大量用户数据才能实现有效运转，同时很费钱，所以 Jenni AI 坚持只 PMF 跑通、用户的 LTV 是 CAC 三倍、能短期打正（Jenni AI 的纪录是不到三个月回本）的情况下考虑付费广告。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA3NTQ4NjczNw==&amp;mid=2650663937&amp;idx=1&amp;sn=3cb4662ca2696af8c113254560270d2e&amp;chksm=865ebf53ff4788f08d551a64f16b9d3bf237d2235dc14bedd82b0f1ae28a63fd0012f4e669f2&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“白鲸出海”（ID：baijingapp）</a>，作者：白鲸小编，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017935008048386</guid><pubDate>Sat, 02 Nov 2024 10:12:00 +0800</pubDate></item><item><title>聚美优品打不开了，陈欧投身短剧，属于他的时代已经远去</title><link>https://36kr.com/p/3017885871203845</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>日前，有美妆媒体报道称，聚美优品的运营公司近日因违反《中华人民共和国电子商务法》而被相关部门查处。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_d6b98f8174f04e9b9700e63d671ea2fa@000000_oswg428017oswg1044oswg573_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>查处原因主要在于，聚美优品网站和聚美App因系统老化、缺乏日常维护，导致平台故障，商品评价和评价板块均无法正常展示。</p>
-<p>2020年4月，聚美优品宣布完成私有化，正式从纽交所退市，之后便逐渐退出大众视野。其创始人陈欧也鲜有消息。</p>
-<p>那聚美优品为啥会缺乏维护呢？创始人陈欧又去了哪里？</p>
-<h2><strong>聚美优品官网无法打开</strong></h2>
-<h2><strong>聚美App卡顿</strong></h2>
-<h2><strong>创始人退出主体公司</strong></h2>
-<p>三言查看聚美优品官网发现，已无法正常打开，页面显示“系统升级维护中”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_7e1de7c9b03643e5a8891f3e1157fad7@000000_oswg160907oswg1080oswg1006_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在苹果App Store已搜索不到聚美App。并且，此前已经下载好的聚美App，在苹果手机上无法登录。在安卓应用市场，仍有聚美App，也可以登录。不过，打开以后十分卡顿。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_a7e09d03a36c4cd198995880e9fb98db@000000_oswg1084842oswg1080oswg2290_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>App内仍有很多商品，也可以选购，进行到付款的界面。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_56887f2925b349b1abc5cf38938b3659@000000_oswg154098oswg1080oswg1108_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过，在App内进行操作，会时不时弹出“网络异常”的提示。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_f8eb54519de84f4bad554fa0cf386b8d@000000_oswg107986oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在安卓应用市场内，聚美App的相关信息显示，该应用最后一次的更新时间为2022年09月22日。开发者为北京科新信息技术有限公司。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_db58469c3a65421f9579ea7bdd2d4e7f@000000_oswg750791oswg1080oswg1709_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>天眼查显示，陈欧为北京科新信息技术有限公司的实际控制人，持股99.9%；刘永为该公司的法定代表人，持股0.1%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_f622eed315884bc8b65ec0909af5bb29@000000_oswg153087oswg1080oswg506_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>前述美妆媒体所报道的处罚信息，正是在这家公司名下。</p>
-<p>三言也尝试拨打了聚美的400客服电话，结果该号码已变更为一家名为“智行盒子”的公司所有。</p>
-<p>综合这些来看，聚美优品基本没人维护了。不过，聚美App还在运营，可能是运营成本低，但具体下单能不能发货还未知。</p>
-<p>三言还咨询了一位曾在聚美工作的人士，对方表示，他认识的聚美的人，包括公关和业务人员，两三年前就已经离职了。</p>
-<p>天眼查信息显示，陈欧、戴雨森、刘辉这几个创始人，已于今年3月退出了聚美优品的主体公司北京创锐文化传媒有限公司。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_2906ecde0dda47128f4ba59ee4dd62bc@000000_oswg601856oswg1080oswg2018_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>曾经的“第一美妆电商平台”，就这么无声无息的没落了。</p>
-<h2><strong>陈欧投资建设短剧拍摄基地</strong></h2>
-<h2><strong>曾发微博做短剧调研</strong></h2>
-<h2><strong>“聚美短剧”数据表现一般</strong></h2>
-<p>陈欧当年一句“为自己代言”，火遍全网。如今，网络上却很少能看到陈欧的身影。</p>
-<p>他去了哪里呢？</p>
-<p>去年10月，新浪科技曾报道称，陈欧正在组建短剧平台并推进版权交易。一位接近陈欧的知情人士表示，目前其正在积极接洽剧本工作室和个人编剧，以收购剧本扩充版权库。</p>
-<p>天眼查信息显示，今年，陈欧从海南头角信息科技有限公司和北京创锐文化传媒有限公司的股东中退出，并卸任了深圳竹芒科技有限公司的董事。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_e93c3d40ed3c4a26bb8fa808e80a106f@000000_oswg552497oswg1080oswg1417_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此前，陈欧于去年12月投资了郑州空港聚美影视传媒有限公司，持股比例99%。</p>
-<p>该公司于今年3月中标了郑州航空大都市商业管理有限公司竖屏电影基地片场制景及运营服务项目，中标金额为995万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_1a4b77aced474fb29198454a1f7acde3@000000_oswg587196oswg1080oswg1242_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>短视频平台上，有一个认证主体为“郑州空中丝路文化传媒有限公司”的账号，于今年2月23日，发布了一条陈欧的拜年贺岁视频。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_f3ee61a3024749e1a303619ee2655652@000000_oswg608932oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>陈欧在视频中称，聚美集团很荣幸在本地落地了聚美空港视频电影基地。郑州航空港作为中部文化IP的输出窗口，肯定能向世界讲好中国故事，让更多人爱上中国文化。</p>
-<p>陈欧的微博，目前仅一条可见，发布于今年6月22日，内容为：“做个调研，有多少人想进入短剧行业，一天挣个几千没问题，头部几万也正常，感兴趣的请留言 。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_66f2308a3a144d41b697159885afa59f@000000_oswg606213oswg1080oswg1338_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>今年6月，郑州文旅曾发文介绍了郑州航空港竖屏电影基地。</p>
-<p>文中称，经过聚美集团董事长陈欧的考察，2023年12月15日，聚美在郑州航空港筹备注册全资子公司空港聚美，建设竖屏电影基地，打造微短剧影视产业平台。</p>
-<p>有空港聚美工作人员表示，基地还未完工，便已经有剧组预约了。但装修的声音对拍摄会有影响，就向后推了。</p>
-<p>该工作人员称，6月份完工后，竖屏电影基地将可以满足至少10个剧组同时在此拍摄。</p>
-<p>据悉，当时正在搭建的拍摄场景只是这个基地的一期，未来空港聚美将会根据实际需要，搭建更多的拍摄场景。</p>
-<p>就以上信息来看，陈欧投资建设了短剧的拍摄基地。</p>
-<p>那陈欧有没有参与短剧的拍摄、制作、出品等工作呢？</p>
-<p>三言查询发现，某短视频平台上，有一个名为“聚美短剧”的账号，简介为“聚美短剧官方账号，持续更新自制原创短剧”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_53541b66e20b48ef8b103de2c6e6bdd1@000000_oswg1172366oswg1080oswg1579_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>该账号目前粉丝量为3.3万，获赞29.1万。其发布的短剧片段，有《福禄千金，横扫全城》、《团宠妈咪：总裁日夜赶情敌》、《摊牌了，我的五个哥哥是大佬》等，剧情与大多数土味短剧差别不大。</p>
-<p>这些作品，大多点赞量只有几十到几百。点赞最多的1.2万，还有两个几千的。 其中，《团宠妈咪：总裁日夜赶情敌》的合集显示，该剧共获得58.5万播放量。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241101/v2_ea4285009c1a43769ecdfc52cb029895@000000_oswg527916oswg1080oswg1074_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>就以上数据来看，陈欧的短剧做得并不出色。</p>
-<h2><strong>陈欧有影视经验，但不多</strong></h2>
-<h2><strong>属于他的时代已经远去</strong></h2>
-<p>事实上，陈欧早已有了影视制作方面的经验。</p>
-<p>2012年陈欧为公司拍摄的“我为自己代言”广告大片爆火，并掀起了“陈欧体”模仿热潮。</p>
-<p>2016年1月，聚美影视第一部作品《温暖的弦》投拍，陈欧担任该剧出品人；2018年4月，《温暖的弦》开播。</p>
-<p>据了解，在2018年5月电视剧播放量排行榜中，《温暖的弦》以72亿次播放量夺得第一。</p>
-<p>不过，陈欧以及聚美影视参与的影视项目寥寥无几。</p>
-<p>此外，短剧行业现在竞争非常激烈。</p>
-<p>目前，很多传统影视公司、短视频平台、MCN机构等，都已经涉足短剧。这些玩家在内容创作、用户资源、平台影响力等方面都具有一定的优势。</p>
-<p>与此同时，随着短剧市场的野蛮生长，内容质量参差不齐的问题也日益凸显。</p>
-<p>一些短剧存在制作粗糙、价值观偏差、违反公序良俗、低俗“擦边”等问题，不仅容易引起观众的审美疲劳，也有被下架的风险。</p>
-<p>陈欧也一直在寻找风口，共享充电宝项目卖了，短视频app刷宝没成，短剧似乎成就也不太大。</p>
-<p>陈欧进军短剧行业，优势与挑战并存。至于他能玩成什么样，还需时间来验证。</p>
-<p>只有聚美成了他的唯一高光时刻，属于陈欧的时代已经远去了。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU2ODcwMDY2NA==&amp;mid=2247562705&amp;idx=1&amp;sn=da58c5cef7cc3a04562497627c482502&amp;chksm=fdfb7764b4d8afd835e4728059977ae005d447752e74d5ae9ef811b3f0ee62924890aae5eec6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三言财经”（ID：sycaijing）</a>，作者：三言，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017885871203845</guid><pubDate>Sat, 02 Nov 2024 10:12:00 +0800</pubDate></item><item><title>泡泡玛特行至巅峰，又顷刻“瓦解”？</title><link>https://36kr.com/p/3017907803370375</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 02 Nov 2024 13:30:32 +0800</lastBuildDate><pubDate>Sat, 02 Nov 2024 13:30:32 +0800</pubDate><item><title>泡泡玛特行至巅峰，又顷刻“瓦解”？</title><link>https://36kr.com/p/3017907803370375</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>今年，在海外“一呼百应”的LABUBU与“老妈”泡泡玛特一同步入了潮玩时代的全新阶段。</p>
 <p>先是LABUBU获授“神奇泰国体验官”，首个LABUBU主题店也落地曼谷。随后泡泡玛特也在发布三季度财报后迎来股价新高（10月24日收盘价75.85元/股，2021年3月以来的新高）。</p>
 <p class="image-wrapper"><img data-img-size-val="1200,800" src="https://img.36krcdn.com/hsossms/20241101/v2_c7a888de6b0d47e1a9f480e1e36b63b2@15574914_oswg217535oswg1200oswg800_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
@@ -520,4 +403,105 @@
 <h3> <strong>加入36氪出海学习交流群</strong></h3>
 <p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
 <p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017614553982467</guid><pubDate>Sat, 02 Nov 2024 12:08:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017614553982467</guid><pubDate>Sat, 02 Nov 2024 12:08:00 +0800</pubDate></item><item><title>河南的“舌尖传奇”：你吃的薯片、饼干，1/3都产自这个小县</title><link>https://36kr.com/p/3018754320967177</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_ef78f623bfdc4684a0d6436bd3d567d7@000000_oswg190198oswg1080oswg1446_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>黄淮平原，中原腹地，颍河之畔，一个小县城因河而得名临颍。这里不靠海、没有山，更没有矿，唯一的“资源”就是800多平方公里平坦肥沃的黄土地。</p>
+<p>论经济实力，临颍并不出众，甚至在河南省内也就是个中流水平；论名气，除了南街村，似乎也没有特别拿得出手的“地方名片”。可就是这么一个普通的内陆小县城，如今却成了中国“休闲食品之都”。</p>
+<p>靠着卖零食年收入超400亿，占据国内膨化、烘焙等休闲食品30%以上的市场份额，10多家全国驰名商标的食品企业在这里扎堆。</p>
+<p>今天，#正解中国经济地理#走进河南临颍，探寻这个全国唯一的“休闲食品之都”的“舌尖传奇”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_88e2993acdbe467ba859f8022939a8f6@000000_oswg19318oswg1080oswg219_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>当你推着购物车，在超市挑选自己爱吃的零食时，如果我告诉你，你拿起的3包膨化食品里，其中有一包肯定来自临颍，这场景是不是很奇幻？</p>
+<p>虽然这只是模拟的概率，但是有一组数据却能支撑它的真实性。作为全国唯一的“休闲食品之都”，河南漯河市管辖的这个小县城，休闲食品的产量全国第一，年产值超400亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_a06f465c052f480ab322917f1cc29c0b@000000_oswg8539oswg752oswg268_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>说它是中国休闲食品生产的大本营，丝毫不为过。临颍这个人口只有70多万的小县，有10万人从事食品加工行业，聚集了120多家规模以上的食品企业，包括世界500强之一的美国嘉吉，还有上好佳、南街村、加多宝、养元、盼盼、雅客、亲亲等17家中国驰名商标企业，省级著名商标企业33家。国内10大休闲食品企业，有8家都在临颍落户。</p>
+<p>食品加工企业抱团扎堆，让临颍成了中国最能造零食的地方。数量众多的食品加工企业，每年光加工小麦、玉米的用量就有数百万吨。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_e2afe83ea3394e12990a51d4820ac953@000000_oswg69648oswg892oswg818_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>（临颍纳税十强企业，6家与食品相关）</p>
+<p>临颍生产的2000多个品种的休闲食品和饮料中，薯片、虾条、法式小面包、果冻、巧克力棒这些最畅销的品种，日产量全国最大——</p>
+<blockquote>
+<p>休闲食品日产2600多吨，全国第一；</p>
+<p>烘焙类日产1000多吨，全国第一；</p>
+<p>果冻类日产500多吨，全国第一；</p>
+<p>糖果类日产400多吨，全国第一；</p>
+<p>膨化食品日产500多吨，全国第一。</p>
+</blockquote>
+<p>多少个不眠之夜，是临颍造零食，填满了中国人的胃。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_cce313dc55dc4e399f1177030bbe47e2@000000_oswg14835oswg1080oswg219_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>一个名不见经传的小县，是怎么把休闲食品企业聚集在一起，还搞出了这么多全国第一？</p>
+<p>如果说，南通“建筑铁军”的成功秘诀是“走出去”，那么，临颍“休闲零食之都”的崛起源头是“引进来”。</p>
+<p>2009年年底，时任河南省委书记卢展工和在临颍的闽商合影的照片，被媒体纷纷转载。这张合影照，企业家坐在第一排，省委书记站在第二排，“你们应该坐在前面，我们应该站在后面，党委、政府始终是你们的支撑”。卢展工当时对闽商代表们说的话，为这张照片做了注解。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_1dc8eadf38644ce089b0340f11b294cb@000000_oswg32309oswg448oswg258_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>时任河南省委书记卢展工和在临颍的闽商合影</p>
+<p>这张照片为临颍带来了巨大的“招商”连锁反应。第二年夏天，在亲亲食品工业园和恒安投资10亿的纸业基地举行奠基仪式时，100多名闽商包机来到临颍考察投资。</p>
+<p>一直以来，“招商引资”都是写进当地政府工作报告里的“一号工程”，而临颍跟闽商的“对接”，更是全方位的无缝对接，甚至让这些千年前从中原迁徙南下的客家人，重新找到了回家的感觉。</p>
+<p>洗茶、泡茶，喝正宗的铁观音，这是闽商共同的特点。而在临颍许多领导的办公室里，也摆着同样的茶具，备着相同的铁观音。为客商改变自己的生活习惯，也是这么多年临颍重商、亲商的点滴体现。</p>
+<p>盼盼食品集团总裁蔡金钗，早就把临颍看做自己的第二故乡。他不光拉来了许多闽商和他一道在临颍发展，还给在临颍出生的儿子取了极有本地色彩的名字——蔡颍生。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_e8f6491f2df94122bc34014333bb961a@000000_oswg42130oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>1997年就来到临颍创业的闽商许文博，</p>
+<p>把企业和家庭都落户在了临颍</p>
+<p>一传十，十传百。亲亲集团、盼盼食品这些大佬级福建企业，纷纷落户临颍。早在2016年，就有三四十家福建企业落户临颍，占全县食品工业增加值的比重超过40%。这些“引进来”的福建企业，构成了临颍“休闲食品之都”的基石。</p>
+<p>在商言商，福建企业选择临颍，除了营商环境，看重的还有地处中原腹地粮食主产区，交通便利、原材料丰富这些优势<strong>。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_ecf0a7472f634c93bb8649bf3418d4df@000000_oswg20239oswg400oswg275_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>食品产业集群的发展扩张，离不开“粮食”这个源头。地处黄淮平原的临颍县，有85万亩肥沃的耕地，一年产粮70多万吨，不仅是国家粮食核心区产量大县，也是国家级无公害农产品示范基地。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_28ff55fa4c5f4dbfab4bc3dc861def1d@000000_oswg23301oswg400oswg313_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>临颍县高标准粮田示范方内，无人植保机在喷防作业</p>
+<p>另一个让企业选择落户的原因，是临颍县的位置实在是太“中”了。临颍正好在中原经济区的地理中心，京港澳高速、京广铁路、京港高铁、107国道这些贯通南北东西的交通大动脉全部从这儿经过，从临颍出发，到济南、石家庄、太原、西安、合肥、武汉这周边6省的省会，都不超过5小时车程。商品从这儿出去，一下就辐射周边3亿多人口的消费市场——这样的区位和物流优势，在全国恐怕都是独一无二的。</p>
+<p>你有资金、技术和品牌，我有各项便利条件，临颍和众多食品加工企业的合作，一拍即合。借鸡生蛋，借来生蛋的鸡，精心培育，最后变成自家的金凤凰。这波操作，让人服气。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_b33a09cc761a483dbca1fab60ac194b6@000000_oswg85861oswg1000oswg664_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>南街村最早起步就是靠面粉加工</p>
+<p>在上世纪80、90年代，临颍就是靠粮食加工起步的，但只能做简单的小麦磨成面粉，面粉做成挂面这种粗放模式。直到靠生产面粉起家的南街村，把北京的客户拉到了临颍，在南街村开了北京劲松糕点厂河南二分厂，开始用当时先进的技术做起了方便面和糕点。</p>
+<p>南街村的经济腾飞，成了一代人心中难以抹去的对零食的怀旧符号。也因为南街村的影响力，临颍县从那时起，就抱定了要把小食品这个行业当做支柱产业来发展壮大的方向。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_170288431b174a37b62f5ad76f9c96af@000000_oswg76158oswg1000oswg648_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>转眼几十年，从1989年每年掏2万块钱技术转让费“傍名牌”，到如今的中国休闲食品之都、全国食品工业强县，临颍靠着本地品牌挑头，招来名牌企业“借鸡下蛋”，一步步把国人粮仓变成了国人厨房。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_57f05f24987b41d68751ca601de50fb6@000000_oswg14835oswg1080oswg219_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>小零食大能量，休闲食品改变了临颍。 </p>
+<p>休闲食品红火热闹带给临颍最直接的，就是地方收入的增长。 2017年，临颍县食品产业主营业务收入就已经达到了650亿元，占了全临颍规模以上工业增加值总量的70%以上。 </p>
+<p>食品产业的庞大“胃口”，就连临颍这个国家粮食核心区的产粮大县，也喂不饱。临颍2018年的粮食总产量52.9万吨，可仅粮食与食品深加工一项，小麦年转化量就有130多万吨，粮食年总加工量达到300万吨。这一下，不仅就地消化掉临颍出产的粮食，还直接盘活了周边20多个县（市）的余粮市场。 </p>
+<p>靠种休闲食品用的优质低筋小麦，让临颍的农民不用出门，每斤还能比市场价多卖1毛多钱。实打实的好处，让农民种粮食的积极性大涨。整个临颍90%的耕地，如今都在种订单优质小麦。 </p>
+<p>旺盛的需求，不只是带动了粮食种植规模和农产品结构优化，同时还带动了包装、彩印和物流业的快速发展。休闲食品产业的壮大，直接形成了从良种培育、规模种植、面粉初级加工、食品生产、食品添加剂到包装配套的完整产业链。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_540b14b8650945d5870c3dba7566e255@000000_oswg75493oswg1080oswg725_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>工作人员在临颍一家调味料 </p>
+<p>生产企业的包装车间内作业 </p>
+<p>正如“中国蔬菜之乡”山东寿县一样，临颍成功的根本原因，也是在中国的经济大格局中，找到了属于自己的位置，与中国巨轮共同扬帆起航。 </p>
+<p>拥有完整的产业链条，临颍有底气进行产业提质。如今，临颍盯上了高端化、高附加值的功能食品、保健食品，开始做大健康食品产业集群。 </p>
+<p>这就是河南小县的“大野心”：从种粮卖粮的“国人粮仓”，晋级为有滋有味的“国人厨房”。 </p>
+<p>临颍，我看中！ </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&amp;mid=2654894063&amp;idx=2&amp;sn=8d708b4946d61361d7467c6e91d32ef6&amp;chksm=bcc9f22fa8078758b2cc86d6df92f4ace0fb0c052d4a65c4664a67a2f452bf92347e46f69494&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“正解局”（ID：zhengjieclub）</a>，作者：正解局，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3018754320967177</guid><pubDate>Sat, 02 Nov 2024 13:03:00 +0800</pubDate></item><item><title>分隔：整理大脑的 5 种方法</title><link>https://36kr.com/p/3005152583081735</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>神译局是36氪旗下编译团队，关注科技、商业、职场、生活等领域，重点介绍国外的新技术、新观点、新风向。</p>
+</blockquote>
+<p>编者按：面对繁杂的事务和压力，我们可以利用一些分隔技巧来整理自己的大脑，高效地完成工作，保护自己的私人时间。本文来自编译，希望对您有所启发。</p>
+<p class="image-wrapper"><img data-img-size-val="1920,1080" src="https://img.36krcdn.com/hsossms/20241023/v2_e473496000e74ae98a23656632fb9d51@5382598_oswg1545090oswg1920oswg1080_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">[Source Photo: Getty Images]</p>
+<p>在心理学中，“分隔法”（compartmentalizing）是人们用来避免认知失调的一种防御机制，认知失调是指思想、情感或经历相互冲突所产生的不舒服的感觉。例如，如果你刚刚经历了一次糟糕的失恋，那么你可能会在家里听着情歌，边喝酒边哭。然而，在工作中，你会装出一副勇敢的样子，像往常一样继续工作。分隔法可以帮助我们在不同的生活环境中驾驭不同的动力和情绪。</p>
+<p>对于创业者来说，分隔法是管理公司需求和压力的有效策略。前美国国家安全顾问和联合国大使苏珊-赖斯（Susan Rice）就有这样的经验。赖斯解释说，分隔法使她能够处理一些世界上最紧迫的危机。她在一次演讲中说："这并没有削弱我集中精力、正常工作的能力。</p>
+<p>与赖斯相比，我作为首席执行官的日常压力就显得微不足道了。不过，领导一个团队确实会带来压力和焦虑，而分隔法帮助我在领导团队近二十年的时间里没有变得焦头烂额。以下是在工作中划分心理界限的五种策略。</p>
+<h3>1. 确定最重要的任务并排定优先顺序</h3>
+<p>划分工作生活界限的第一步是确定自己最重要的任务。与其追逐在待办事项清单上勾选一个无关紧要的项目所带来的多巴胺刺激，不如明确自己每天最重要的优先事项。把每天最重要的任务写在便签上，贴在你工作时能看到的地方，让它时刻提醒你，要屏蔽掉一天中无穷无尽的干扰。</p>
+<p>亚当-布莱恩特（Adam Bryant）建议员工保留一份战略文件，以说明为什么某项任务很重要。首先要回答以下问题：</p>
+<ul class="list-paddingleft-2">
+<li><p>目标、核心信息是什么？</p></li>
+<li><p>实现该目标所需的三个关键行动是什么？</p></li>
+<li><p>实现该目标需要克服的三大挑战是什么？</p></li>
+<li><p>你如何衡量十二个月（或任何一个时间段）内的成功？</p></li>
+</ul>
+<p>当你安排行程时，要将优先事项和战略放在首位。</p>
+<h3>2. 分批处理工作</h3>
+<p>在这个世界上，每个人似乎都无时无刻不在忙碌，你不禁要问，是什么让一些人实现了超常的工作效率？沃顿商学院管理学教授兼作家亚当-格兰特（Adam Grant）就是非凡工作效率的典型代表。格兰特与同为作家的卡尔-纽波特分享了自己的方法，而后者在《深度工作》一书中对此进行了描述。格兰特从多个层面对工作进行分批。在宏观层面上，他把教学工作安排在秋季，把研究工作安排在春季和夏季。在微观层面上，他将每周和每天的工作分批安排，交替使用开放时间和专注于深度工作的时间。</p>
+<p>我也采用了类似的方法，日常工作中那些并不特别鼓舞人心或有意义，但却能保证业务运转的工作（比如发票开具、数据处理、文件审核、抄写、收件箱管理等重复性、经常性、几乎不涉及个人投入的任务）被我归类为“繁忙工作”。我会将这些项目集中在一起，并尽量实现自动化。而团队会议属于另一种类型。最后，是我最有意义的工作。</p>
+<h3>3. 严格保护自己的时间，不受打扰，深度工作</h3>
+<p>纽波特写道："尽管格兰特的工作效率取决于很多因素，但有一个点似乎是他工作方法的核心：将艰苦但重要的智力工作分批安排到长时间、不间断的工作中。纽波特写道，"这种方法不仅强调了按类型安排任务的重要性，还强调了确保将不间断的时间段用于处理最重要的工作的重要性。</p>
+<p>在日历上为有意义、影响大的任务划出时间段，坚决抵制分心和干扰。格兰特通过设置“不在办公室”自动回复功能，将这一理念提升到了新的高度。这一策略向同事们表明，他正在专注地工作，不应该被打扰。</p>
+<p>同样，我也使用自动日历系统，让员工可以实时查看我的空闲时间。他们可以看到我的空闲时间或专注工作的时间，并据此计划会议和面谈。这有助于我在需要的时候保持专注，更重要的是，在这样的工作环境中，人们会相互尊重彼此对不间断专注时间的需求。</p>
+<h3>4. 绘制工作流</h3>
+<p>绘制出每项任务的具体内容也很重要。事实上，大多数任务都是工作流，涉及一系列相互关联的步骤，最终导致特定的结果。有些工作流程是线性的，比如刷牙。你拿起牙刷，涂上牙膏，加水，刷牙，漱口，然后重复。但很多时候，任务会涉及各种依赖关系，比如同事的意见或不断变化的结果，这些都会改变你的工作流程。</p>
+<p>我们常常无法充分了解自己的工作流程以及每项任务需要多少时间。当一项任务的各个要素分散在一天的各个时间段时，分门别类就变得非常具有挑战性。挤出时间不间断地工作也变得不可能。</p>
+<p>提前规划好所有步骤，就能更有效地计划日程。掌握工作流程可以帮助你更准确地安排时间，找出流程中的缺陷，帮助你挽回被浪费的时间。</p>
+<h3>5. 安排压力和担忧的时间</h3>
+<p>你不能只是告诉焦虑的创业者不要有压力。</p>
+<p>压力可能是创业者与生俱来的。有时，它是一种积极的力量，为我们提供动力，从而带来创新。但有时，压力会消耗我们的精力，分散对必要和关键工作的注意力。</p>
+<p>当工作压力，甚至是工作之外的生活压力变得不堪重负时，我就会采用与生活中几乎所有其他事情相同的方法：将其添加到我的日历中。预留忧虑时间是一种有效的方法，让自己有时间去感受正在经历的一切，而不会让它吞噬你。你还可以利用这半个小时左右的时间，找出焦虑的真正根源，并想出一些积极的措施来控制它。这样做可以避免人类纠结和反刍的倾向。我们可以将反刍时间整齐地包装起来，防止它破坏我们一整天的注意力。</p>
+<p>通过安排专门的担忧时间，你可以在面对压力的同时，依然保持对注意力和精力的控制。</p>
+<p>译者：Teresa</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3005152583081735</guid><pubDate>Sat, 02 Nov 2024 13:14:00 +0800</pubDate></item></channel></rss>
