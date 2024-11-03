@@ -1,86 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 03 Nov 2024 12:30:38 +0800</lastBuildDate><pubDate>Sun, 03 Nov 2024 12:30:38 +0800</pubDate><item><title>ChatGPT搜索？也就那样</title><link>https://36kr.com/p/3018929703658759</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_bf14015bd7544e0190c84ac0916764e2@000000_oswg62009oswg1014oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>OpenAI终于正式上线搜索功能。</p>
-<p><strong>当地时间10月31日，OpenAI宣布“ChatGPT搜索”上线，</strong>开放给ChatGPT Plus的订阅用户。</p>
-<p>经过字母榜的测试，在ChatGPT Plus用户的对话框新增了一个小地球图标，点击就可以进入“搜索”模式。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_97f494ea3a4b4df6b7bd1f0201671bc2@000000_oswg70865oswg683oswg381_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此时再问问题，ChatGPT会结合互联网的搜索结果给出整合答案，并且附带来源。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_4a3730ffbd69498789524833e0ccbe3d@000000_oswg309379oswg830oswg464_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>OpenAI的CEO山姆·奥特曼（Sam Altman）大赞这个新功能：“这是自ChatGPT本体发布之后，我最喜欢的一个功能！在过去几周我使用ChatGPT的次数可能都翻倍了。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_c0e1801b7eda4e4cbc8040c9d24b9190@000000_oswg43605oswg593oswg174_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>有的网友不买账，直言和Perplexity太像了。Perplexity是2022年12月上线的，就在ChatGPT推出的次月，是硅谷最热门的AI初创公司之一，前几天还宣布周查询量已经上亿次。</p>
-<p>更有人贴脸开大，在OpenAI在X官宣的评论区贴上梗图：两个一模一样的蜘蛛侠互相指指点点（这个梗图在扎克伯格上线X对标产品Thread的时候也被拿来整过活）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_fbdb41ed7d514747bf8f4fea6d0d067f@000000_oswg229945oswg687oswg534_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有网友给ChatGPT搜索起名字，Bingplexity，把必应和Perplexity拼到了一起。</p>
-<p>其实国内的用户对这种AI搜索体验也并不陌生，从ChatGPT的展示来看，和豆包、kimi、秘塔搜索、天工AI等产品都很相似。</p>
-<p>奥特曼还专门追加了一条消息，安利ChatGPT Plus用户用浏览器插件提高搜索体验。怎么说呢，豆包和kimi的浏览器插件用于提高包括搜索在内的网页浏览体验也不是一天两天了。</p>
-<p><strong>更糟糕的是，刚上线，ChatGPT搜索就被用户揪出一个又一个问题：幻觉还是有的，消息源是不存在的……</strong></p>
-<p>OpenAI似乎总是“先锋”的代名词：当它2022年11月发布ChatGPT之后，全球掀起新一轮AI潮；当它今年年初公开文转视频项目Sora之后，这个赛道登时也挤满了新玩家。</p>
-<p>但唯独在搜索这件事上，OpenAI显得姗姗来迟。想要从谷歌那里分一杯羹，恐怕是不容易。</p>
-<h2>A</h2>
-<p><strong>总结ChatGPT搜索新体验，有三个关键词：自然语言总结加来源显示、图文结合、展示面板。</strong></p>
-<p>自然语言总结加来源显示不必多说，这是目前AI搜索类产品的标配。当用户提出一个问题时，AI会返回自然语言书写的答案，并以小标形式提供信息来源。其中信息来源可以一键点击跳转，方便用户进行查验。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_50db6ccdfcc7475c80cd14feca04a5df@000000_oswg117668oswg831oswg415_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除此之外，ChatGPT搜索时回答中可能包含图片。比如当用户询问“周五晚上在某地，我可以去哪里吃晚饭”，ChatGPT会给出一个建议的餐厅列表，以文字介绍和餐厅图片的形式一一展示，一目了然。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_c509f7532ef94558b65844d76f59c9f8@000000_oswg167685oswg660oswg673_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而展示面板，则是当用户搜索天气、股票、体育比赛等信息的时候，ChatGPT搜索返回的结果会包含一个整合面板，清晰地展示信息。</p>
-<p>从官方释放的展示效果来看，ChatGPT搜索的体验是不错的。</p>
-<p><strong>但是这样的AI搜索功能放在两年前是惊艳，放在如今只能落个平平无奇。</strong></p>
-<p>以搜索巨头谷歌为例。如今在谷歌搜索，会先显示AI摘要。我们用OpenAI此次放出的演示中相同的问题：“我周五晚上在波西塔诺，在哪里可以吃个晚餐？”进入谷歌搜索，AI摘要和ChatGPT搜索一样给出了图文结合的回答，并包含信源。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_d6054e03a02d445880c2feb02e215b0a@000000_oswg203791oswg830oswg532_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>以字节的AI产品“豆包”为例。在豆包网页版登录，可以看到有“AI搜索”入口。此时如果也搜索餐厅推荐的问题如“这周日想去上海复兴路吃饭，有没有什么推荐”，豆包会以自然语言总结几家餐厅告诉用户，并且给出了信息来源，可点击跳转。此外，虽然没有附上图片，但附上了一些探店短视频供参考。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_dd520cfed2234c3cb9bb64d89d1849de@000000_oswg189615oswg540oswg545_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当询问“今天的天气”时，也会看到AI整合的一个小面板，天气信息一目了然，只不过缺少ChatGPT那种视觉设计。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_6b0fbcb1d49f44f596e7d4b5706373cd@000000_oswg66479oswg642oswg456_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>新意不够之外，不少用户在体验了ChatGPT搜索后还指出了问题。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_68707981e529427f9b1d8aa06bf163d1@000000_oswg146437oswg605oswg569_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>比如ChatGPT在搜索模式下依然会产生幻觉，虽然给出了信源，但是自然语言回答的部分依然有捏造的、错误的信息。甚至有人指出ChatGPT搜索给出的信息源并不相关或并不存在。</p>
-<p>搜索功能上线一天之内，两种完全不同的声音出现。一派认为OpenAI出手，以Perplexity为代表的AI搜索产品危险了，甚至谷歌都得有危机感。另一派认为，ChatGPT搜索啥也不是，目前来看威胁不了任何人。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_4a4b1b1d7b844c84a3da71e39fdca849@000000_oswg16356oswg492oswg101_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>有人讽刺道：我这还不是在用谷歌搜索ChatGPT吗？</p>
-<p><strong>值得一提的是，字母榜体验这个新功能时发现，ChatGPT返回的结果只是自然语言书写的文本，并没有图片、面板，甚至没有来源显示。</strong>甚至在搜索“今天上海的天气”时，被告知没有实时信息。也就是说，虽然可以点击小地球图标进入搜索，但搜索功能实际上并未启动。</p>
-<p>鉴于很多用户已经晒出了自己的体验截图，和官方展示的差不多，猜测可能是功能还未向所有Plus用户完全开放，或者出现了产品bug。</p>
-<p>OpenAI表示，未来几个月会将ChatGPT搜索功能也逐步开放给免费用户。</p>
-<h2>B</h2>
-<p><strong>用户等ChatGPT上搜索功能已经很久了。</strong></p>
-<p>这个功能来得到底有多晚，可以以竞品的上线时间做对比。Perplexity最早上线于2022年12月，被给予颠覆谷歌的厚望。彼时就一直有风声，猜测OpenAI是不是要入局搜索。</p>
-<p>但人们没等到ChatGPT自己上搜索功能，倒是等来了微软高调改版必应搜索引擎，推出“新必应”，嵌入ChatGPT。微软自己喊出了颠覆口号，声称要“摧毁谷歌搜索业务的高利润率”。</p>
-<p>今年5月，谷歌也宣布把AI引入核心搜索业务，推出AI摘要功能，近日已经宣布该功能将陆续在全球100多个国家或地区上线。</p>
-<p>此外，AI搜索赛道还有You.com、Brave Search等诸多玩家。</p>
-<p>可以说，在OpenAI终于推出搜索功能的当下，AI搜索的牌桌上已经坐满了大大小小的玩家。</p>
-<p><strong>而“抑制”OpenAI入局搜索的原因主要有两个。</strong></p>
-<p>一个原因是早期微软的入局。在2023年初，OpenAI对微软的依赖比今天更甚。微软不仅是OpenAI的最大金主，投资上百亿美元，还在OpenAI腾飞初期提供诸多合作机会。微软在2023年初推出“新必应”，内嵌ChatGPT，实际上就是那个阶段的“ChatGPT搜索”，OpenAI彼时没有理由也不可能推出搜索功能与新必应竞争。</p>
-<p>另一个原因是AI搜索本身的麻烦。ChatGPT推出、全球进入AI热之后几个月，AI带来的问题也日渐凸显。而在AI搜索领域，由于版权等问题造成的麻烦屡见不鲜。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_d555b28f5ef443f1be31caaaf75ccce2@000000_oswg82678oswg1024oswg683_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：AI制作</p>
-<p>AI搜索的代表企业Perplexity就深陷新闻集团的侵权起诉中。今年10月，《华尔街日报》母公司道琼斯集团和《纽约邮报》，对Perplexity发起诉讼，指控其“大量非法复制”受版权保护的作品，并认为其侵犯商标权。</p>
-<p>其中的一个例子是，Perplexity的一则回复中有139个字摘自《纽约邮报》，但是在其后紧接着声称了五段内容，和原报道无关。起诉方认为这会误导用户。</p>
-<p>而这个例子有趣的地方在于，几乎所有的AI搜索工具，都会以自然语言提供答案，其中有引用的部分和自动生成、总结、延伸的部分。在这个基础之上，该如何规避侵权问题，这是Perplexity目前没能回答的，也是摆在OpenAI面前的问题：要碰搜索这块蛋糕，OpenAI就要面临更多侵权的风险。</p>
-<p>OpenAI身上已经有太多“官司”，其本身也是新闻集团指控的对象，除此之外还和好莱坞明星就多模态模型提供的声音产生争议。暂时搁置ChatGPT搜索，似乎也情有可原。</p>
-<h2>C</h2>
-<p>但搜索终究是OpenAI无法舍弃的一块油田。谷歌一个季度就可以从搜索业务录得几百亿美元的收入。而OpenAI自身一直存在商业化难题。</p>
-<p>一个广为流传的数字是，The Information曾做出估算，OpenAI今年的亏损将高达50亿美元。另外OpenAI预计在2023年到2028年期间，公司的总亏损总计达到440亿美元。</p>
-<p>前不久，OpenAI刚刚完成了一轮66亿美元的融资，在谈判中投资者关注的焦点正是OpenAI特殊的公司结构及其商业能力。</p>
-<p>在ChatGPT之后，Sora虽然展示效果惊艳，但迟迟没能上线。语音转录工具Whisper已经在一些机构流行，尤其是美国的医疗中心，但是却被发现会有“幻觉”现象：Whisper在把语音转录成文本的过程中，会产生不存在的对话和错误的信息。</p>
-<p><strong>在这种情况之下，OpenAI一来积极推进和企业用户的合作，二来继续寻找新的发力点。</strong>OpenAI的CFO莎拉·弗艾尔（Sarah Friar）近日透露，OpenAI目前的企业业务虽然年轻，但充满潜力。不过，要是看当下OpenAI的收入来源，她表示75%的营收来自于ChatGPT消费者订阅。</p>
-<p>需要新拳头的OpenAI，自然不会放过搜索。</p>
-<p><strong>但是搜索之战并不好打。</strong></p>
-<p>如今的AI热虽然有目共睹，但AI制造商更像是拿着锤子找钉子——落地应用在哪里？钱怎么赚？搜索几乎是一个直觉反应，这也是为什么ChatGPT甫一推出，Perplexity就成为了硅谷明星公司，以及微软第一发炮弹直奔谷歌而去。</p>
-<p>然而任由挑战者挥舞AI大旗发起挑战，谷歌仍旧稳坐全球搜索引擎第一的宝座。根据Statcounter的数据，2023年1月谷歌占全球搜索引擎市场份额的92.9%，必应占比3.03%。2024年9月，谷歌市场份额90%，必应3.96%。Perplexity不在榜单中。谷歌市场份额在超过一年半的时间里下降2.9%，目前很难说是已经有下降趋势，还是一定时期内的正常波动。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241102/v2_49f7cce317c34d3b83fd468bcf4085e8@000000_oswg550730oswg939oswg619_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>总而言之，“颠覆”谷歌搜索，目前还远不到火候。</p>
-<p>用户长时间养成的搜索习惯、谷歌自身补全AI摘要、相对成熟的运作，是AI搜索和谷歌之间的大山。</p>
-<p>在国内也有类似的情况。正如前文所说，目前强调AI搜索功能或主打AI搜索的产品有很多，如字节的豆包、月之暗面的Kimi，以及秘塔搜索、天工AI等等，搜索体验颇有惊艳之处。</p>
-<p>百度搜索确实在过去一年市场份额有所下降，但从能查到的统计数据来看，与之掰手腕的并不是AI搜索。</p>
-<p>仍旧以Statcounter的数据为例，在2021年，中国搜索引擎市场份额中（全平台），百度最高可以占去86.82%。但是在2024年已经降至60%的水平。而市占率曲线随之以相反的律动变化的是必应，在今年7月市占率已经达到30%水平。需要注意的是，国内必应搜索引擎并不包含AI搜索。</p>
-<p><strong>但这不意味着OpenAI的入局没有意义，也不意味着谷歌可以永远高枕无忧。</strong></p>
-<p>在OpenAI正式上线ChatGPT搜索功能之外，还有两个消息传出：</p>
-<p>一个，是Meta也盯上了搜索。据The Information，Meta正在开发自研AI搜索引擎，这个项目已经秘密进行了8个月。</p>
-<p>另一个，是苹果也顶上了搜索。据彭博社的马克·古尔曼（Mark Gurman）透露，苹果即将将内部搜索引擎拓展至苹果应用商店（App Store）及其他应用中。</p>
-<p>谷歌在早期也经历过侵权风波，也是从零开始逐渐培养了一代人的互联网搜索习惯，AI搜索也许真的有机会拼一个未来。但至于这个未来属不属于OpenAI，就不一定了。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247539486&amp;idx=1&amp;sn=20134c42f04faf53fd763f03029c0642&amp;chksm=eb488e76af8af0b707f7e14ce6580c9eb3aa6b3329e6794b08ed8d4007c5f51a464068d232d8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“字母榜”（ID：wujicaijing）</a>，作者：毕安娣，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3018929703658759</guid><pubDate>Sun, 03 Nov 2024 08:49:00 +0800</pubDate></item><item><title>比考公更卷的职业，12万人抢1个名额</title><link>https://36kr.com/p/3019087404967431</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 03 Nov 2024 13:00:36 +0800</lastBuildDate><pubDate>Sun, 03 Nov 2024 13:00:36 +0800</pubDate><item><title>比考公更卷的职业，12万人抢1个名额</title><link>https://36kr.com/p/3019087404967431</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p><strong>电竞是一条比正常读书、升学难得多的路，这个选择可能意味着孩子对父母的反叛、家庭教育的困境。而摆脱这种困境，让每个人找到合适的发展道路，是“劝退师”们努力在做的事情。</strong></p>
 <p>作者 | 简墨</p>
 <p>编辑 | 詹腾宇</p>
@@ -925,4 +844,64 @@
 <p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p><br/><br/> </p>
 <p><br/> </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017633543022080</guid><pubDate>Sun, 03 Nov 2024 12:04:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3017633543022080</guid><pubDate>Sun, 03 Nov 2024 12:04:00 +0800</pubDate></item><item><title>缩水140亿！宁德时代背后富豪裴振华夫妇遭遇财富滑铁卢</title><link>https://36kr.com/p/3018017670984584</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,729" src="https://img.36krcdn.com/hsossms/20241102/v2_3afa35c3e6b54169896739213f548efb@5034919_oswg626387oswg1080oswg729_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>雷达财经鸿途出品 文|孟帅 编|深海</strong></p>
+<p>10月29日，胡润研究院正式揭晓了2024年度的《胡润百富榜》，这份榜单总是如同一面镜子，映照出企业家们的财富起伏与人生悲喜。</p>
+<p>在本年度这些财富波动的企业家中，裴振华、容建芬夫妇的财富变化尤为引人注目。<strong>今年，他们以480亿元的财富位列榜单第82名，但与去年相比，他们的财富缩水了140亿元。回溯至2021年的辉煌时期，他们曾坐拥920亿元的巨额财富，如今则近乎腰斩。</strong></p>
+<p>事实上，裴振华与容建芬夫妇的财富并非完全建立在自家公司天华新能的股权之上，而是更多地得益于对宁德时代的投资。2015年，裴振华旗下的宁波联创以8900万元的价格购得宁德时代15%的股权。随着宁德时代成功上市并一路成长为万亿市值巨头，裴振华的个人财富也随之水涨船高，实现了飞跃式增长。</p>
+<p>然而，随着宁德时代的股价波动，裴振华、容建芬夫妇的财富也随之起伏。今年《胡润百富榜》上，裴振华夫妇及宁德时代其他上榜的富豪财富较2021年均出现缩水。其中，宁德时代创始人曾毓群的财富更是在一年内骤减500亿元，降幅之大仅次于农夫山泉的钟睒睒。</p>
+<p>雷达财经注意到，通过投资宁德时代，裴振华不仅收获了巨额的财富增长，还享受到了丰厚的现金分红。比如，2023年宁德时代计划派发220.6亿元的现金分红，裴振华实际控制的宁波联创分得14.27亿元的“大红包”。</p>
+<p>而裴振华与宁德时代之间的合作远不止于此，双方曾携手成立天宜锂业，随后裴振华又将其整合至上市公司天华新能中，这一举措进一步推动了天华新能市值的攀升。此外，宁德时代也曾参与天华新能的增发，双方形成了深度的利益捆绑。</p>
+<p>然而，裴振华掌舵的天华新能目前正面临着严峻的业绩挑战。<strong>今年前三季度，公司营收同比下降近四成，净利润下降近一半，毛利率缩水至18.62%。</strong></p>
+<p><strong>一年减少140亿，裴振华财富大缩水</strong></p>
+<p>10月29日，胡润研究院对外发布了2024年度的《胡润百富榜》。</p>
+<p>今年，有331位企业家财富相比去年实现增长，其中包括54位新人。不过，值得注意的是，今年榜单财富增长的数额略低于去年。前十名增长最多的企业家财富共增加了4500多亿，相较于去年的4700多亿有所减少。</p>
+<p>与之相对应的是，本年度有964位企业家的财富出现下滑或保持不变，更有201位富豪遗憾跌出榜单，令人唏嘘不已。在这些财富坐上滑梯的企业家中，不乏身家缩水超过百亿的富豪。</p>
+<p>比如，本年度，裴振华、容建芬夫妇以480亿元的财富位列榜单第82名的位次。而上一年，裴振华、容建芬夫妇的财富高达620亿元。与之相比，裴振华、容建芬夫妇的财富在一年时间里缩水了140亿元。</p>
+<p><strong>若将时间范围进一步扩大，2021年，裴振华、容建芬夫妇的财富一度达到920亿元，这意味着短短几年时间，裴振华、容建芬二人的财富缩水了440亿元，减少了将近一半。</strong></p>
+<p>那么裴振华到底何许人也？他正是A股上市公司天华新能（原名“天华超净”）的董事长。1959年，裴振华出生于江苏宜兴。大学毕业后，他被分配到江苏省纺织研究所工作，正式开启了自己的职业生涯。</p>
+<p>在研究所工作期间，裴振华专注于特殊纺织材料的研究工作，他积极搜集并研究来自全球各地的一手信息，而这正为他日后的创业之路埋下了伏笔。</p>
+<p>上世纪90年代，随着国内电子厂的迅速崛起，市场上对防静电无尘衣、防静电鞋、手套等产品的需求大增。当时，商业嗅觉十分灵敏的裴振华看到了这个情况，他敏锐地意识到这是一个难得的创业机会，且这还是自己擅长的领域，因此自己必须尽快抓住这个机会。</p>
+<p>于是在1997年，裴振华毅然辞去了稳定的工作，来到江苏苏州工业园区，创立了苏州天华超净科技股份有限公司，专门生产、销售防静电无尘衣和手套等产品。</p>
+<p>裴振华深知，想要让企业实现长久的发展，必须加强自身的科技研发能力，用技术实力说话。于是，2003年，他与苏州大学合作成立了纺织新材料研发中心，投入大量资金用于研发创新工作。</p>
+<p>在裴振华的带领下，天华超净的发展日新月异。他的精准定位使得“CANMAX”品牌产品一经推出便迅速走红市场，供不应求。不久之后，“CANMAX”被评为江苏省著名商标，在市场享有很高的品牌知名度和美誉度。</p>
+<p>与此同时，由裴振华掌舵的天华超净也屡获殊荣。2004年，天华超净被评为苏州工业园区民营科技十强企业，并获得了江苏省高新技术企业证书和苏州市首届“十佳优秀专利”奖。2006年，公司推出的无尘擦拭布和离子风机产品获江苏省火炬计划项目，其中离子风机产品还获得了江苏省高新技术产品认定。</p>
+<p>为了推动企业的持续发展，裴振华在2010年又成立了江苏省企业院士工作站和江苏省防静电超净工程技术研究中心，并主导编制了工信部批准发布的《防静电洁净工作服及织物通用规范》电子行业标准。</p>
+<p>此外，他还建立了国内一流的研发和生产基地，同时引进美国、欧洲及日本等地先进的专业生产设备及全套检测设备，以此确保产品技术和品质处于行业领先地位。</p>
+<p>随着企业规模的不断扩大，裴振华也在筹划着天华超净的资本运作事宜。2007年，公司改制为股份制公司。2014年，在裴振华的努力推动下，天华超净顺利在深圳证券交易所上市。2015年，天华超净还启动医疗板块布局，成功并购无锡市宇寿医疗器械有限公司。</p>
+<p>经过近三十年的深耕细作，天华超净先后在静电与微污染防控、医疗、新能源等领域深入布局，目前已成为一家创新驱动的多元化产业集团。</p>
+<p>去年3月，为了更准确地反映公司的核心产业和战略发展方向，天华超净正式更名为“天华新能”。如今，新能源锂电材料业务已成为公司主营业务的重要组成部分，为公司带来了可观的营业收入和营业利润。</p>
+<h2><strong>宁德时代背后的“隐形富豪”，一场“豪赌”成功“捡漏”</strong></h2>
+<p>作为天华新能的掌舵者，裴振华与容建芬夫妇的财富根基深植于他们在该公司所持有的股权之中。</p>
+<p>据天华新能披露的三季报显示，截至今年第三季度末，裴振华、容建芬分别持有上市公司1.97亿股、0.67亿股的股份，分别对应23.69%、8.12%的持股比例。</p>
+<p>不过，截至11月1日收盘，天华新能的最新市值为194.31亿元。仅靠所持有的天华新能的股权，显然无法支撑起裴振华、容建芬夫妇超过400亿元的财富大厦。</p>
+<p>那么他们财富的大头到底从何而来？事实上，裴振华、容建芬夫妇当前的绝大部分财富并非靠创业而来，而是来自于一笔具有战略眼光的投资。</p>
+<p>这笔投资可以追溯至2015年。当年，裴振华在上海中欧国际工商学院攻读EMBA期间，与宁德时代的联合创始人李华进行了一场深入交流，<strong>这一聊意外聊出了一笔价值8900万元的“豪赌”。</strong></p>
+<p>彼时，还没有上市的宁德时代正处于“去ATL化”的关键时期，李华希望裴振华能接手ATL手中15%的外资股。在李华的牵线搭桥下，裴振华通过宁波联合创新新能源投资管理合伙企业（有限合伙）（简称“宁波联创”），以8900万元的价格从ATL手中拿下了宁德时代15%的股权。</p>
+<p>三年后的夏天，宁德时代在深交所创业板上市，借此成功登陆资本市场。宁德时代上市后，在资本市场上取得了令人瞩目的表现，并迅速成长为福建首个万亿市值的企业。而裴振华则凭借当年那笔明智的投资，悄然成为了站在宁德时代背后的“隐形富豪”。</p>
+<p>根据宁德时代发布的最新季报显示，截至今年第三季度末，宁波联合创新新能源投资管理合伙企业（有限合伙）持有宁德时代6.46%的股份，在所有股东中位列第四大股东。</p>
+<p>另据天眼查显示，宁波联合创新新能源投资管理合伙企业（有限合伙）的合伙人包括裴振华、陈琼香、浙江浙大联合创新投资管理合伙企业（有限合伙）。其中，裴振华、陈琼香分别持股79.91%、19.98%，而裴振华正是该合伙企业的受益所有人和实际控制人。</p>
+<p>凭借投资宁德时代，裴振华的财富一度得到暴涨。然而，随着宁德时代股价的波动，裴振华与容建芬夫妇的财富也经历了相应的起伏。</p>
+<p>雷达财经梳理发现，其实除了上述提到的裴振华外，在宁德时代的助推下成功登上《胡润百富榜》的富豪还有许多，仅今年宁德时代就有7人上榜，他们分别是曾毓群、黄世霖、李平、赵丰刚、吴凯、陈琼香、吴映明。</p>
+<p><strong>榜单显示，本年度，前述七人的财富值分别为2000亿元、890亿元、385亿元、150亿元、140亿元、115亿元、115亿元。</strong></p>
+<p>不过，同裴振华夫妇的命运一样，他们的财富相较2021年榜单上的数据均出现了不同程度的缩水，彼时他们的财富分别高达3200亿元、1380亿元、640亿元、230亿元、215亿元、175亿元、175亿元。</p>
+<p>其中，身为宁德时代一把手的曾毓群财富缩水尤为显著。在短短一年内，他的财富便减少了500亿元。而在《胡润富豪榜》本年度财富下降最多的企业家中，曾毓群的财富下降规模仅次于昔日首富、农夫山泉的灵魂人物钟睒睒（1100亿元）。</p>
+<h2><strong>与宁德时代关系匪浅，自家企业业绩承压</strong></h2>
+<p>对于裴振华而言，投资宁德时代无疑为他带来了巨额的财富增长。除了通过持股权累积的财富，他还从宁德时代获得了丰厚的现金分红。</p>
+<p>以2023年为例，据宁德时代此前发布的2023年年报显示，宁德时代拟向全体股东每10股派发年度现金分红和特别现金分红50.28元（含税），合计派发现金分红220.6亿元。</p>
+<p>宁德时代高层在电话会议上强调，公司历来高度重视股东回报，考虑到报告期内公司业绩和现金情况良好，为积极贯彻落实“质量回报双提升”专项行动，更好地回报股东，公司确定了比往年更高的分红比例。</p>
+<p>根据截至去年末各股东的持股比例计算，曾毓群可获得现金分红51.38亿元，黄世霖可获得现金分红23.36亿元，李平可获得分红10.1亿元。</p>
+<p>而裴振华实控的宁波联合创新新能源投资管理合伙企业（有限合伙），也可获得14.27亿元的分红。可以作为参照的是，天华新能去年全年的归母净利润为16.59亿元，这意味着裴振华仅靠宁德时代分红拿到的钱就快赶上天华新能一年的净利润。</p>
+<p>事实上，裴振华与宁德时代的关系远不止于此，双方还建立了密切的合作。早在2018年11月，天华超净就与宁德时代共同投资成立了天宜锂业，开始打入宁德时代上游供应商序列，进而实现新能源产业布局。据天宜锂业官网显示，公司主要致力于研发、生产、销售应用于新能源汽车和储能领域的电池级氢氧化锂等锂电材料系列产品。</p>
+<p>2019年9月，天宜锂业开工建设“1期2万吨电池级氢氧化锂建设项目”。2020年11月，裴振华将天宜锂业整合到了自己的上市公司天华超净体系之中。在天宜锂业的加持下，天华超净愈发受到资本市场的追捧，其市值也随之攀升。</p>
+<p>2021年4月，裴振华和宁德时代的亲密关系更进一步。彼时，宁德时代参与了天华超净的定增。次年，宁德时代再度参与天华超净的增发，宁德时代借此一度跃升为天华超净当时的第四大股东。截至今年第三季度末，宁德时代持有前者0.59%的股份。</p>
+<p>尽管靠着投资宁德时代获得了巨大的成功，但是裴振华并没有放弃自家的生意。然而，此番财富缩水的背后，裴振华掌舵的天华新能目前正面临着一定的业绩困境。</p>
+<p>据天华新能10月28日刚刚发布的季报显示，今年前三季度，公司共录得54.53亿元的营收，相较上年同期89.1亿元的营收减少了近四成。</p>
+<p><strong>而这一困境并非首次出现，去年天华新能的营收就已下跌近四成，从上一年的170.3亿元降至104.68亿元。</strong></p>
+<p>对于公司的营收变化情况，天华新能在财报中解释称，公司去年的营收较2022年下降38.54%，主要系期内主要产品价格下降、销售金额下降所致。今年前三季度，氢氧化锂售价的大幅下降，导致其营收进一步下滑。</p>
+<p>至于净利润指标，天华新能的表现同样不容乐观。去年全年，天华新能的归母净利润从上一年的65.86亿元骤降至16.59亿元，同比降幅高达74.81%。今年前三季度，天华新能的归母净利润再次下降近一半，从上年同期的18.22亿元跌至9.23亿元。</p>
+<p>另据同花顺iFind数据显示，天华新能的毛利率指标也亮起了红灯。2022年，天华新能的毛利率高达64.44%，但去年天华新能的毛利率降至27.91%，到今年前三季度，天华新能毛利率指标的表现仍未出现明显好转，反而再度下滑到了18.62%的水准。</p>
+<p>被外界视为宁德时代背后“隐形富豪”的裴振华，接下来又将上演怎样的资本故事？雷达财经将持续关注。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/OMuTpMT0GoKNiIGYiipnQw" rel="noopener noreferrer nofollow" target="_blank">“鸿途FLY”</a>，作者：X编辑，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3018017670984584</guid><pubDate>Sun, 03 Nov 2024 12:30:00 +0800</pubDate></item></channel></rss>
