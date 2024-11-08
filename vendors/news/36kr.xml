@@ -1,196 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 08 Nov 2024 15:30:26 +0800</lastBuildDate><pubDate>Fri, 08 Nov 2024 15:30:26 +0800</pubDate><item><title>谷歌DeepMind研究再登Nature封面，隐形水印让AI无所遁形</title><link>https://36kr.com/p/3027337467831809</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>君可知，我们每天在网上的见闻，有多少是出自AI之手？</p>
-<p class="image-wrapper"><img data-img-size-val="1080,673" src="https://img.36krcdn.com/hsossms/20241108/v2_5b5ffba9104e421abd78077abe723bbb@5091053_oswg694666oswg1080oswg673_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了「注意看！这个男人叫小帅」让人头皮发麻，</p>
-<p>真正的问题是，我们无法辨别哪些内容是AI生成的。</p>
-<p>养大了这些擅长一本正经胡说八道的AI，人类面临的麻烦也随之而来。</p>
-<p>（LLM：人与AI之间怎么连最基本的信任都没有了？）</p>
-<p>子曰，解铃还须系铃人。近日，谷歌DeepMind团队发表的一项研究登上了Nature期刊的封面：</p>
-<p class="image-wrapper"><img data-img-size-val="440,584" src="https://img.36krcdn.com/hsossms/20241108/v2_631f118493de420e8d35085e621962f7@5091053_oswg437098oswg440oswg584_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>研究人员开发了一种名为SynthID-Text的水印方案，可应用于生产级别的LLM，跟踪AI生成的文本内容，使其无所遁形。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,568" src="https://img.36krcdn.com/hsossms/20241108/v2_34887deb11c4410fbe9bfc28ad6f85ee@5091053_oswg232370oswg1080oswg568_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">论文地址：https://www.nature.com/articles/s41586-024-08025-4</p>
-<p>一般来说，文本水印跟我们平时看到的图片水印是不一样的。</p>
-<p>图片可以采用明显的防盗水印，或者为了不影响内容观感而仅仅修改一些像素，人眼发现不了。</p>
-<p>但本文添加的水印想要隐形貌似不太容易。</p>
-<p class="image-wrapper"><img data-img-size-val="1049,523" src="https://img.36krcdn.com/hsossms/20241108/v2_1edcaec8780d4a5cbb264104d71b621c@5091053_oswg897309oswg1049oswg523_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为了不影响LLM生成文本的质量，SynthID-Text使用了一种新颖的采样算法（Tournament sampling）。</p>
-<p>与现有方法相比，检测率更高，并且能够通过配置来平衡文本质量与水印的可检测性。</p>
-<p class="image-wrapper"><img data-img-size-val="685,424" src="https://img.36krcdn.com/hsossms/20241108/v2_a3d10f412ef64fff865ade772e707e5a@5091053_oswg116270oswg685oswg424_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>怎么证明文本质量不受影响？直接放到自家的Gemini和Gemini Advanced上实战。</p>
-<p>研究人员评估了实时交互的近2000万个响应，用户反馈正常。</p>
-<p>SynthID-Text的实现仅仅修改了采样程序，不影响LLM的训练，同时在推理时的延迟也可以忽略不计。</p>
-<p>另外，为了配合LLM的实际使用场景，研究者还将水印与推测采样集成在一起，使之真正应用于生产系统。</p>
-<h2><strong>大模型的指纹</strong></h2>
-<p>下面跟小编一起来看下DeepMind的水印有何独到之处。</p>
-<p>识别AI生成的内容，目前有三种方法。</p>
-<p>第一种方法是在LLM生成的时候留个底，这在成本和隐私方面都存在问题；</p>
-<p>第二种方法是事后检测，计算文本的统计特征或者训练AI分类器，运行成本很高，且限制在自己的数据域内；</p>
-<p>而第三种就是加水印了，可以在文本生成前（训练阶段，数据驱动水印）、生成过程中、和生成后（基于编辑的水印）添加。</p>
-<p>数据驱动水印需要使用特定短语触发，基于编辑的水印一般是同义词替换或插入特殊Unicode字符。这两种方法都会在文本中留下明显的伪影。</p>
-<h3><strong>SynthID-Text 生成水印</strong></h3>
-<p>本文的方法则是在生成过程中添加水印。</p>
-<p>下图是标准的LLM生成过程：根据之前的token计算当前时刻token的概率分布，然后采样输出next token。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,190" src="https://img.36krcdn.com/hsossms/20241108/v2_6b2e27c5917645fbb98bedc06b254e9e@5091053_oswg60044oswg1080oswg190_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在此基础之上，生成水印方案由三个新加入的组件组成（下图蓝色框）：随机种子生成器、采样算法和评分函数。</p>
-<p>随机种子生成器在每个生成步骤（t）上提供随机种子 r(t)（基于之前的文本token以及水印key），采样算法使用 r(t) 从LLM生成的分布中采样下一个token。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,449" src="https://img.36krcdn.com/hsossms/20241108/v2_4c4fb6134bf642088b3b39e50daaa6ac@5091053_oswg185446oswg1080oswg449_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>通过这种方式，采样算法把水印引入了next token中（即r(t)和x(t)的相关性），在检测水印的时候，就使用Scoring函数来衡量这种相关性。</p>
-<p>下面给出一个具体的例子：简单来说就是拿水印key和前几个token（这里是4个），过一个哈希函数，生成了m个向量，向量中的每个值对应一个可选的next token。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,380" src="https://img.36krcdn.com/hsossms/20241108/v2_9907d69e582a4d2a8277b1364600d313@5091053_oswg187458oswg1080oswg380_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然后呢，通过打比赛的方式，从这些token中选出一个，也就是SynthID-Text使用的Tournament采样算法。</p>
-<p>如下图所示，拿2^m个token参加m轮比赛（这里为8个token3轮比赛，token可重复），</p>
-<p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20241108/v2_aacb0a7bba6d4963a4cbb34c4b384a94@5091053_oswg244676oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>每轮中的token根据当前轮次对应的向量两两pk，胜者进入下一轮，如果打平，则随机选一个胜者。</p>
-<p>以下是算法的伪代码：</p>
-<p class="image-wrapper"><img data-img-size-val="837,529" src="https://img.36krcdn.com/hsossms/20241108/v2_bf9d082272f348bf8ad3eb2f4774db89@5091053_oswg159162oswg837oswg529_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>水印检测</strong></h3>
-<p>根据上面的赛制，最终胜出的token更有可能在所有的随机水印函数（g1，g2，...，gm）中取值更高，</p>
-<p>所以可以使用下面的Scoring函数来检测文本：</p>
-<p class="image-wrapper"><img data-img-size-val="669,155" src="https://img.36krcdn.com/hsossms/20241108/v2_7aa7c94daf134b7b94bc21d840f3c75c@5091053_oswg8245oswg669oswg155_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>把所有的token扔进所有的水印函数中，最后计算平均值，则带水印的文本通常应该得分高于无水印的文本。</p>
-<p>由此可知，水印检测是一个程度的问题。影响评分函数检测性能的主要因素有两个。</p>
-<p>首先是文本的长度：较长的文本包含更多的水印证据，可以让检测有更多的统计确定性。</p>
-<p>第二个因素是LLM本身的情况。如果LLM输出分布的熵非常低（意味着对相同的提示几乎总是返回完全相同的响应），那么锦标赛采样（Tournament）无法选择在g函数下得分更高的token。</p>
-<p>此时，与其他生成水印的方案类似，对于熵较小的LLM，水印的效果会较差。</p>
-<p>LLM本身的熵取决于以下几个因素：</p>
-<blockquote>
-<p>模型（更大或更高级的模型往往更确定，因此熵更低）；</p>
-<p>来自人类反馈的强化学习会减少熵（也称为模式崩溃）；</p>
-<p>LLM的提示、温度和其他解码设置（比如top-k采样设置）。</p>
-</blockquote>
-<p>一般来说，增加比赛的轮数（m），可以提高方法的检测性能，并降低Scoring函数的方差。</p>
-<p>但是，可检测性不会随着层数的增加而无限增加。比赛的每一层都使用一些可用的熵来嵌入水印，水印强度会随着层数的加深而逐渐减弱。本文通过实验确定m=30。</p>
-<p><strong>文本质量</strong></p>
-<p>作者为非失真给出了由弱到强的明确定义：</p>
-<p>最弱的版本是单token非失真，表示水印采样算法生成的token的平均分布等于LLM原始输出的分布；</p>
-<p>更强的版本将此定义扩展到一个或多个文本序列，确保平均而言，水印方案生成特定文本或文本序列的概率与原始输出的分布相同。</p>
-<p>当Tournament采样为每场比赛配置恰好两个参赛者时，就是单token非失真的。而如果应用重复的上下文掩码，则可以使一个或多个序列的方案不失真。</p>
-<p>在本文的实验中，作者将SynthID-Text配置为单序列非失真，这样可以保持文本质量并提供良好的可检测性，同时在一定程度上减少响应间的多样性。</p>
-<h3><strong>计算可扩展性</strong></h3>
-<p>生成水印方案的计算成本通常较低，因为文本生成过程仅涉及对采样层的修改。</p>
-<p>对于Tournament采样，在某些情况下，还可以使用矢量化来实现更高效率，在实践中，SynthID-Text引起的额外延迟可以忽略不计。</p>
-<p>在大规模产品化系统中，文本生成过程通常比之前描述的简单循环更复杂。</p>
-<p>产品化系统通常使用speculative sampling来加速大模型的文本生成。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,349" src="https://img.36krcdn.com/hsossms/20241108/v2_c20dd2fcd0ab49ed897497929a657088@5091053_oswg337556oswg1080oswg349_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>小编曾在将Llama训练成Mamba的文章中，介绍过大模型的推测解码过程。</p>
-<p>简单来说就是用原来的大模型蒸馏出一个小模型，小模型跑得快，先生成出一个序列，大模型再对这个序列进行验证，由于kv cache的特性，发现不符合要求的token，可以精准回滚。</p>
-<p>这样的做法既保证了输出的质量，又充分利用了显卡的计算能力，当然主要的目的是为了加速。</p>
-<p>所以在实践中，生成水印的方案需要与推测采样相结合，才能真正应用于生产系统。</p>
-<p>对此，研究人员提出了两种带有推测采样算法的生成水印。</p>
-<p>一是高可检测性水印推测采样，保留了水印的可检测性，但可能会降低推测采样的效率（从而增加整体延迟）。</p>
-<p>二是快速水印推测采样，（当水印是单token非失真时）保留了推测采样的效率，但可能会降低水印的可检测性。</p>
-<p>作者还提出了一个可学习的贝叶斯评分函数，以提高后一种方法的可检测性。当速度在生产环境中很重要时，快速带水印的推测采样最有用。</p>
-<p class="image-wrapper"><img data-img-size-val="685,214" src="https://img.36krcdn.com/hsossms/20241108/v2_809d425efdea4c8a8d1945a5cfc9e805@5091053_oswg98745oswg685oswg214_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>上图表明，在非失真类别中，对于相同长度的文本，非失真SynthID-Text提供比Gumbel采样更好的可检测性。在较低熵的设置（如较低的温度）下，SynthID-Text对Gumbel采样的改进更大。</p>
-<p><strong>参考资料：</strong></p>
-<p>https://x.com/GoogleDeepMind/status/1849110265645678807</p>
-<p>https://www.nature.com/articles/d41586-024-03462-7</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/xiSezzWawvjv1JGG-u0h7Q" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元， 编辑：alan，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027337467831809</guid><pubDate>Fri, 08 Nov 2024 15:19:00 +0800</pubDate></item><item><title>“花一杯蜜雪冰城的钱买穿完就扔”，多少打工人现在连羽绒服都是次抛的？</title><link>https://36kr.com/p/3027378074887688</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>万圣节走了，但没完全走。</p>
-<p>这场旷日持久的抽象大会从十月中旬就开始预热，各个社交平台主页全是“万圣妆造”、“灵感穿搭”，把刚好缺个机会小发一疯的打工人哄得特开心。</p>
-<p>而今十月份一过，大家精心预制的万圣风美照发完几轮，小红书和咸鱼上又出现了一类新内容：<strong>出万圣节次抛衣。</strong></p>
-<p>“次抛衣”这仨字咋看咋眼熟，原来几天前刚刷屏过一轮——不过前缀不同，那时候大家在全网收次抛衣，现在穿完一回，物尽其用，该出了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_7127cb52222947079bbd13f6ff30044e@000000_oswg245245oswg1080oswg539_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>次抛，顾名思义，一次一抛，近年在护肤界特火。次抛精华一度成为双十一大促冲劲最猛的品类，其优势在于与外界空气接触时间短、能防止成分失活，无需添加防腐配方，携带也更便捷。</p>
-<p>可仔细想想，次抛精华这些优势，放在服装界那不全是缺点？<strong>洗一次就报废、穿两次就扔垃圾桶。</strong></p>
-<p>现在打工人专买次抛衣，没有啥比“次抛衣”更适合精装修的朋友圈了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_d5a28b2e88d048fe895ac95d45936f2f@000000_oswg122740oswg1080oswg1000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>01 穿次抛衣的打工人，重新定义性价比</strong></h2>
-<p>一件合格的次抛衣，通常需满足以下要素：<strong>价格便宜，色彩鲜艳，露肤度高，紧随时下潮流，并能契合某些特定场合或地点；但因和日常场景不搭，一般穿一次就转手或闲置。</strong></p>
-<p>比如在万圣节，闷了大半年没痛快玩一把的打工人们个个躁动；出于出街或出片需要，一套光鲜亮丽又颇具节日氛围的装备必不可少。</p>
-<p>但这衣服买了是真没用。别管是修女装、护士装、魔女斗篷还是龙袍，别管是cos楚雨荨、星期三、破产姐妹还是《料理鼠王》里的老鼠，我赌你不会穿它第二回。</p>
-<p>一年一度的万圣节就是普通人的GQ盛典，你看哪个女明星把一件高定穿两遍？等到十二个月后潮流一换、新梗一出，去年的奇装异服就失去了它的价值，垫桌脚都嫌它布料少。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_44326320e11d40f1a2f1a4e8ff4aeee3@000000_oswg1837346oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@搭配师SUTING</p>
-<p>于是，把“性价比”仨字牢记在心的打工人悟了：<strong>这种衣服就该次抛，过节前夕收一件，等节日氛围褪去、精修九图发完，再把它往咸鱼上一挂，留给没出过这个角色的姐妹明年穿。</strong></p>
-<p>乍一听有点抠搜，殊不知是道德水准高的体现。比起一些在某宝买新品、挂着吊牌穿两天再退货的白嫖党，买次抛衣的年轻人着实体面。</p>
-<p>类似的场景还有过生日买件次抛小礼服，去迪士尼买条次抛公主裙。总之，一切“不出片约等于白过”的重要场合，次抛衣都成了装点朋友圈的高级涂料，让毛坯的人生油然而生一种精装大平层的美感。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_eed79df7aab4481f9189d04bac430a22@000000_oswg121150oswg1080oswg793_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@云朵棉花糖</p>
-<p>次抛衣倍受欢迎，还有个原因是年轻人爱上打卡式旅游。</p>
-<p><strong>一代人有一代人的打卡道具，少女们的次抛衣、阿姨们的花围巾。</strong></p>
-<p>“打卡式旅游”的突出特征就是重摆拍、轻体验，能否拍出人生照片成了衡量旅行满意度的重要指标。次抛衣的重要价值又一次凸显，这些一次性服饰能受到年轻人欢迎，不仅因为它们色彩亮眼适合上镜，<strong>更重要的是能契合各景区特色，做到因地制宜，成为最亮眼的NPC。‍</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_5dd3ce3cc6c44868a062b278419e185f@000000_oswg652252oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>比如，上三亚看海前，一定要入手高饱和度沙滩裙和印花抹胸，以及天涯小镇查重率98%的次抛配饰——田园风针织小头巾，主打一个海滨城市的松弛感；</p>
-<p>去大理环洱海，标配是民族风披肩配乳白色镂空罩衫裙，穿搭博主管这叫“旷野感”；</p>
-<p>西北旅游则突出一个末日废土风，只消买条带兜帽的卡其色长袍就能哐哐出片……</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_3a1ffa937a1049a694684560772ab5d1@000000_oswg995031oswg1046oswg852_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@氧羊QQ秀、@monologuist</p>
-<p>对于囊中羞涩的旅行特种兵来说，次抛衣好就好在单价低。</p>
-<p>在闲鱼和小红书上，夏日清凉款的次抛辣妹装单价一般不超过50块，“仅穿过一次”、“几乎全新”是它们的卖点之一。因为布料少、质地薄，多数人对它们的质量期待不高，只用作旅游出行、去欢乐谷或演唱会的拍照道具。有些卖家甚至直接把“仅拍照不出门”打在标题上，防止买家“苛求”质量。</p>
-<p>在去云南旅游前，路路就在闲鱼上随手下了两条好出片的裙子，一共花了五十块。一开始她没对实物抱有多高的期待，说白了是图个新鲜，想到那儿拍照换着穿。拿到次抛裙后，她发现它们和淘宝上卖的质量大差不差，简单说，就是都不咋地。</p>
-<p><strong>“前几次旅游，我爱在淘宝上下单一堆衣服裙子，单价一两百，但是拿到手发现质量也一般，没什么版型，后来就觉得如果只是为了拍照，还不如买次抛的。”</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_286d85c21c594ad0b81fbf432fe975cc@000000_oswg2151178oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@今天不吃饭</p>
-<p><strong>羽绒服现在也有次抛的了。</strong></p>
-<p>为了十二月跑到长白山看雪，在南方生活了二十多年的安妮花160块在闲鱼淘了一件浅蓝色的羽绒服，她是先在一家淘宝旗舰店里看上了这个款型，按新品卖要270元。<strong>她直接在闲鱼上搜索同款，就看到了这件便宜了一百多的“次抛”羽绒服。</strong></p>
-<p>“其实我不太担心这些二手衣服看上去和其他线上平台有什么差距，因为我也是爱冲动消费的人，完全理解很多女生买了两天就不想穿了、要断舍离，所以我相对信任这些卖家。”就在上个月，她还在闲鱼上买到了一件30元包邮的连帽卫衣，新品在淘宝卖七十多。</p>
-<p>这样看来，出游前先把次抛衣准备好，不失为打工人的一种进化：不再被景区大几百的特色服饰哄得团团转，也不再被某宝网红店的新品预售折磨，上哪儿都自备一身二手包出片套装，坚决不花冤枉钱。每次出发前，他们像当年刘涛录花少时一样，从上衣裙子袜子到墨镜围巾发饰通通搭好，丝丝入扣，滴水不漏。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_7f5c9f1f727540359d066b29ab1f0924@000000_oswg1746879oswg1080oswg1881_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>要问为啥不穿自己原来的衣服，轻便舒服还有量感，很多人的回答是：<strong>只要发过朋友圈的就不再是新衣，绝不能再穿出去旅行。</strong></p>
-<p>为了让朋友圈吃点细糠，好不容易凑了个假出游的打工人把自己折腾得比上班累。新包新耳饰新围巾新鞋全整上，结果随着相机一声咔嚓、朋友圈精修九图一发，这一身儿便光速衰老，秒变旧衣服。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_085b6a9461844a39b107a3e9ce508b04@000000_oswg32410oswg1024oswg629_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>随着打工人们结束假日、从海滩回到工位，这身装备又到了不得不抛的时候。</p>
-<p>为啥次抛衣必须抛？还不是平时根本穿不出去。“这些衣服只有旅行能穿，上班穿太奇怪。”“为了去新疆旅游买了几条露背裙，哪可能在公司穿？”患上精致羞耻症的打工人们这样解释。</p>
-<p>说白了，那些镜头前闪闪发光的次抛穿搭，只适合阳光明媚全妆露背，跟写字楼八字不合。阴暗潮湿的格子间适合啥？只有里三层外三层犹如坐月子一般的恶心穿搭配得上它。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_f0c697c69a5a4c19801e2fb71caa5488@000000_oswg667004oswg1080oswg1336_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@糖裹布丁</p>
-<p><strong>在旅游出片场景里，次抛衣是性价比之光，在日常穿搭方面，次抛衣就是穿不出去的“美丽废物”。</strong></p>
-<p><strong>面料质感在镜头里囫囵渲染点氛围感堪堪够用，现实中用肉眼细看却是一种残忍。</strong></p>
-<p>社交平台上对这类廉价服饰的吐槽铺天盖地：<strong>洗了一次吊带背心就变露脐装，连衣裙碰了水松垮到像披个化肥袋，衬衫版型硬到穿上秒变韩国双开门……</strong>拍个短视频只露上半身可以，一旦在三次元出现，次抛衣就带着主人原形毕露。</p>
-<p>b站up主“一千瑶yeah”曾在视频里提到，次抛衣的克数普遍有问题。以夏天的t恤为例，克重180g到220g之间是正常范围，小于160g就会松松垮垮、容易变形，大于220g又太厚、不透气，简直像行走的桑拿房。</p>
-<p>除此以外，线头多、走线乱且歪，没有收边易脱线，容易起球变形，材质为100%聚酯纤维，领口爱发黄等，都是次抛衣常见的毛病。</p>
-<p>穿起来不舒服、品质没保障，所以次抛就是必然的命运。‍‍‍‍‍‍</p>
-<p>“一年不止有四季，还有快时尚的52季”，潮流周期越缩越短，职场海妖风、雅丹风、旷野美拉德、千金玛德琳，<strong>时尚圈和博主们广泛调动词汇量和通感能力，能造出八百个打卡风格。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_9550b64da2d14cc5868bb6063f0a472b@000000_oswg793870oswg1056oswg706_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@9叭叭</p>
-<p>新风格是想尝试的，秀场穿搭是想copy的，奈何经济下行，发工资的速度赶不上流行更新，咋整？只能买件贵不过星巴克一杯拿铁的次抛衣，多少尝个鲜。</p>
-<h2><strong>02 不是打工人不想穿好衣服，好衣服的门槛越来越高了？</strong></h2>
-<p><strong>投入次抛衣怀抱的打工人，真是对贵衣服失望了。</strong></p>
-<p>小红书上不少消费者交流选择次抛衣的原因时，都提到自己“已经没有伺候贵衣服的耐心”。</p>
-<p>羊绒要花钱保养，清理最好带出去干洗；收纳前要确保干净干燥，用专用的衣架悬挂防止变形；在通风好的地方晾晒，但要避免阳光直射。伺候这么周到，还得避免连续穿多天，才能让羊毛纤维恢复弹性。</p>
-<p>真丝就更娇贵，不能机洗要手洗，不能用力揉搓；洗涤剂要使用真丝专用，切忌用碱性洗涤剂和肥皂；洗涤后不能直接拧干，也不能放在阳光直射下晾干……规矩比公司规章多，材质还没我扛造。</p>
-<p>就这么一条龙服务下来，效果仍然不佳：真丝半裙被洗成了咸菜，羊绒衫还会生虫洞，贵价t恤也发黄。打工人们怒上心头谁也不伺候，喊一嗓子“贵衣服宁有种乎”，头也不回地投奔了次抛衣。</p>
-<p><strong>“贵的质量也一般，一年还穿不了几次，不是更浪费？”当“一分价钱一分货”的消费真理被推翻，打工人们醍醐灌顶。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_0e3b8e187c7b4d12aadbce5e10f08639@000000_oswg173976oswg1036oswg382_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@彭包子_</p>
-<p><strong>所以，大家的衣服质量真比过去差吗？为啥现在买点好衣服越来越难了？</strong></p>
-<p>VOX《你用的东西质量越来越差劲》一文的作者提到，当她又一次购买十年前同一品牌的同款内衣时，发现它的做工大不如前，没洗几次扣子就坏掉了，磨损也比过去更加严重。她意识到，她的内衣并非市场上唯一一种质量下降的消费品。</p>
-<p>于是作者就追溯了美国经济大萧条之后，消费品的变化，发现在经济迫切需要消费品刺激的阶段，一位广告界的重量级人物Earnest Elmo Calkins制定了一项影响生产逻辑的销售策略，名为consumer engineering（消费者工程），即通过<strong>“人为的过时”来创造持续的需求。‍</strong></p>
-<p>简单来说，<strong>就是生产更能满足消费者需求和品味的新产品，让旧物品显得过时、老土，从而激发人们购买新产品的欲望。</strong></p>
-<p>专业的营销专家们不仅倾听消费者对舒适和实用的要求，还努力将现代设计和时尚周期引入各种商品。</p>
-<p>房地产经纪人伯纳德·伦敦将这一过程称为<strong>“计划性报废”</strong>，他认为，那时制造的产品开始随着季节和时尚而生产。</p>
-<p>消费者逐渐习惯不断用新产品顶替旧东西，公司也相应地提高了产量，它们被激励越来越快地生产，但更快并不总是意味着更好。<strong>文中提到，如果产品永远持久耐用，那么新的需求就会减少，企业为了持续刺激购买习惯，人为缩短商品寿命。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_e9d2a06e113649a99e2330a4d018abd7@000000_oswg922547oswg1080oswg964_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@祝祝Julia</p>
-<p>一方面是计划性报废的大背景，另一方面是女装市场的内耗。‍‍‍‍‍‍‍‍‍</p>
-<p>人工成本、营销成本都在变高的情况下，除了一件衣服从生产到零售的成本也在上涨，本来手里预算就紧巴的消费者也在买衣服上“把钱花在刀刃上”。</p>
-<p><strong>然后打工人就会发现，衣服越来越贵、怎么质量还越来越差？</strong></p>
-<p>如果非要在女装降本增效下点功夫，那么第一个开刀的通常是服装质量。</p>
-<p>生产商一般通过改变材料来实现降本，例如，使用一种更薄的面料，或者一颗更脆弱的扣子。普通消费者不会感知到其中的区别，尤其是在网上购物时。</p>
-<p>一件衣服从布料变成产品，一方面要经过生产方、品牌方、经销商的层层加价，出厂100块，品牌和经销商、平台方都想赚到钱的情况下，最后定价1000块也不足为奇。比如想参与竞争越来越激烈的电商竞争，流量成本和销售费用也得跟着涨，但羊毛出在羊身上，最后被打进成本定价里。</p>
-<p><strong>再加上爆款抄袭泛滥，一件衣服总能卷出超乎你想象的价格更低、质量也更垃圾的“版本”。</strong>消费者也分不清真假，像女装这种非标品，想买到一家价格和质量匹配合理的衣服，难度堪比鱿鱼游戏。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_44b8e0ff7bf849acbfa09af4e7a8b155@000000_oswg1702001oswg1080oswg1949_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>要么躺平，把衣服当次抛；要么挑贵的买，心想好货不便宜，就看你愿不愿意接受背后的“溢价”了。</strong></p>
-<p>“实际上，可能整整一代消费者都并不知道高品质服装的感觉和外观什么样。”内衣专家Harrington。</p>
-<p>我们找到专门讲解怎么挑“高品质衣服”的博主@Andy的好物分享 聊了聊。他是国际服装品牌的设计总监，在女装行业干了二十年，目前，他在社交媒体上通过视频教粉丝鉴别“贵衣服”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_3a7717070cad4d0bbc1cc64eeab22f09@000000_oswg226653oswg1080oswg1932_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@Andy的好物分享</p>
-<p>啥叫好衣服？Andy说就是有沉淀、有温度的衣服。听着有点虚，我让他说的具体点，“最直观的甄别方法就是看衣服的车线。”</p>
-<p>车线密、针距小，就说明工时长，缝制得精细。“但你看现在一些衣服的车线，一厘米里也就三四针，说明厂商为了追求速度快，根本不管它的质量。”Andy表示，在正常的工艺要求下，不同款式的服装一寸里要缝几针都是定数，这是质量差异的重要体现。</p>
-<p>与此同时，Andy认为，能不能进商场销售也是判断服装质量的一个要素。<strong>“中国的商场要求很严格，你能进到商场里面卖，各种面料和配料都需要被检测，是相对安全的。但当然，商场里的服装溢价率比较高。”</strong></p>
-<p>当被问及对次抛衣的态度时，Andy表现出了抗拒。在他看来，在经济条件有限的情况下，买件差的穿一个月，不如买件好的穿一年。<strong>“大家可以思考的是，一件30块钱甚至低于成本价的衬衫，它的原材料能否经过质量检测，穿在身上安不安全。有些工厂去回收没人要的旧衣服，再加工合成成新衣服，当你穿次抛衣时，说不定穿的就是之前你扔掉的那些，这是很不健康的。”</strong></p>
-<p>事实上，也确有部分人对次抛衣粉转黑，倒不是因为进行了Andy说的那些思考，只是因为五一出门逛了一圈，被同质化穿搭吓傻了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_800a7774387a40699028bcf636674fbc@000000_oswg978237oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@Reinette LI</p>
-<p>白底碎花小短裙+白色短袜+黑色小皮鞋+碎花小方巾+玲娜贝尔包包，一款三次元世界网红打卡点的NPC穿搭，沿着步行街走一路，能碰见十几个克隆人。</p>
-<p>有人被此情此景震撼，感叹“世界是个巨大的廉价服装市场”并决心断舍离。</p>
-<p>有人在改变“穿衣不重样”的思路后，再也不想因为挑到质量版式都靠谱的衣服累个半死。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwMDQ2NTA4MQ==&amp;mid=2247641547&amp;idx=1&amp;sn=ef2e29bfd1c2e63952f69ff2802f2aab&amp;chksm=97f998d05d8295e598486bebb992f72bd40ec97957ddac5fc3583ac6ad6f511eeefbd63f53da&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Vista氢商业”（ID：Qingshangye666）</a>，作者：1冉，编辑：橘总，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027378074887688</guid><pubDate>Fri, 08 Nov 2024 15:21:00 +0800</pubDate></item><item><title>手机厂商扎堆上新，为何多次提到这个词？</title><link>https://36kr.com/p/3027378963490309</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 08 Nov 2024 16:00:34 +0800</lastBuildDate><pubDate>Fri, 08 Nov 2024 16:00:34 +0800</pubDate><item><title>手机厂商扎堆上新，为何多次提到这个词？</title><link>https://36kr.com/p/3027378963490309</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>近两月，手机圈热闹非凡。除了iPhone 16系列发布，一众国产品牌旗舰新品也接连上新。而11月，备受关注的华为Mate 70系列也将登场。</p>
 <p>手机厂商为何喜欢扎堆上新？在发布会现场，手机厂商又为何多次提到这个词？</p>
 <h2><strong>旗舰新品密集发布</strong></h2>
@@ -620,4 +429,79 @@
 <p>2.https://sifted.eu/articles/nea-backs-ai-startup-sana-with-55m-news</p>
 <p>3.https://techfundingnews.com/swedish-ai-tech-sana-raises-55m-at-500m-valuation-to-redefine-workplace-training-with-ai/</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/6EQiDffr6STMSXU8PUN9lg" rel="noopener noreferrer nofollow" target="_blank">“元宇宙之心MetaverseHub”</a>，作者：元宇宙之心，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026555491710088</guid><pubDate>Fri, 08 Nov 2024 15:29:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026555491710088</guid><pubDate>Fri, 08 Nov 2024 15:29:00 +0800</pubDate></item><item><title>雷军投的跨境电商IPO，破发了</title><link>https://36kr.com/p/3027414971868677</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>今天，港交所迎来了一个跨境电商IPO。 </p>
+<p>11月8日，来自深圳的傲基科技股份有限公司（简称：傲基股份）成功登陆港交所，发行价为15.6港元/股，开盘价为13.88港元/股，开盘即破发，较发行价下跌11.1%，最低曾触底12.5港元/股，随后股价有所回升。截至午间休盘，股价为13.72港元/股，市值为56.97亿港元（约合52.46亿元）。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,1656" src="https://img.36krcdn.com/hsossms/20241108/v2_29bfe4b28ebe45cc9b433c43bb658958@5091053_oswg93617oswg1080oswg1656_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：腾讯微证券截图 </p>
+<p>值得注意的是，早在2015年傲基股份就以“出口电商第一股”在新三板挂牌，于2019年4月进行了摘牌，随后公司陆续冲刺科创板、创业板未果，直到今年4月才弃A转港。 </p>
+<p>这也就意味着，冲刺港交所半年，傲基股份便实现了IPO超跑。 </p>
+<h2><strong>雷军“高位”进场，投资缩水44%</strong></h2>
+<p>而傲基的故事，得从70后温商陆海传掘金跨境电商谈起。 </p>
+<p>出生于浙江温州，陆海传是德国曼海姆大学经济工程学硕士，就读期间他通过接触eBay嗅到了电商的发展潜力，毕业后便在德国成立了傲基国际；经营了3年以后，陆海传的eBay主账号成功跻身到eBay德国站TOP10大卖家前列。 </p>
+<p>为了获得跨境电商平台的“金钥匙”，陆海传选择回国创业，2009年，傲基在深圳组建团队，取得eBay中国区年销售额第一名的佳绩；次年，便在深圳华南城正式注册成立，开始将重心转向自有平台，并上线多门小语种网站。 </p>
+<p>随后，资本便闻声而至。 </p>
+<p>招股书显示，自2012年至今，傲基科技至少完成4轮融资和8轮股权转让，引入了深创投、中信证券、红杉中国、美的基金、雷军持股的武汉顺宏及武汉顺赢（顺为资本关联公司）等多家知名投资机构。 </p>
+<p>在傲基冲刺港交所前1个月，赛维时代、温迪设计及温迪科技和NewTrails更是突击进入。 </p>
+<p class="image-wrapper"><img data-img-size-val="840,720" src="https://img.36krcdn.com/hsossms/20241108/v2_6d29f130703a4c1abb35fb12d4c029fe@5091053_oswg258183oswg840oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：傲基股份招股书截图 </p>
+<p>不过，值得注意的是，其中，雷军跟美的在2020年12月投入，可以说是“高位”站岗。 </p>
+<p>据招股书显示，那一轮每股代价为26.23元/股，相比较2019年5月13.58元、2021年9月12.87元的每股代价成本，高出了近一倍。 </p>
+<p>当时，雷军持股的武汉顺赢、武汉顺宏分别以4530万元、470万元认购1,726,932股股份、178,995股股份，按照公司最终发售价及配发结果公告显示，IPO后持股比例分别为0.42%、0.04%。 </p>
+<p class="image-wrapper"><img data-img-size-val="819,332" src="https://img.36krcdn.com/hsossms/20241108/v2_95263696603941d9a58d9811ef3c0bd0@5091053_oswg67255oswg819oswg332_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：傲基股份招股书截图 </p>
+<p>按照公司今天发行价15.6港元/股来看，傲基股份发行市值为64.77亿港元（约合59.6亿元），雷军持股价值约为2741.6万元，较之前投资亏近44%。 </p>
+<p>另外，根据招股书，公司注册股本为385,311,216元，按最后一轮股权转让代价为16.80元/股计算，公司估值为64.68亿元，发行市值较之前估值缩水近8%。 </p>
+<p>IPO前，陆海传合计持股19.43%，为第一大股东，景林、深创投、红杉分别持股9.42%、8.95%和6.7%，位列前三大机构股东。 </p>
+<h2><strong>4个月营收28亿，IPO后依然挑战重重</strong></h2>
+<p>时至今日，傲基科技作为专注于提供优质家具家居类产品的线上零售商，主要于美国及欧洲等海外市场通过亚马逊、沃尔玛及Wayfair向消费者提供产品，凭借稳健的供应链管理及有效的物流解决方案，为消费者提供广泛“家与生活”场景下的愉快生活体验。 </p>
+<p>根据弗若斯特沙利文的资料，按2023年的GMV计，傲基股份在中国卖家的家具家居类产品B2C海 外电商市场中排名第一；按2023年的GMV计，傲基股份在全球家具家居类产品B2C电商市场中排名第五。 </p>
+<p>2021年至2023年，傲基股份营收分别为90.71亿元、71亿元、86.83亿元；实现净利润分别为-5.9亿元、2.23亿元、5.2亿元。今年前四个月，傲基股份营收28.34亿元，同比增长16.9%，净利润1.89亿元，同比增长96.8%，保持着向上的态势。 </p>
+<p>不过，作为一家B2C跨境电商家具家居企业，傲基股份销售管道对境外电商平台有着严重依赖，特别是对亚马逊。 </p>
+<p>报告期内，商品销售收入为傲基股份营收的主要来源。2021年至2024年前4个月，收入分别为85.8亿元、63.3亿元、70.3亿元和22.5亿元，占总收入比重分别为94.6%、89.1%、81%和79.4%。 </p>
+<p class="image-wrapper"><img data-img-size-val="934,428" src="https://img.36krcdn.com/hsossms/20241108/v2_a87d82150d184e3291b90bb17f83f6b3@5091053_oswg151123oswg934oswg428_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：傲基股份招股书截图 </p>
+<p>其中，2021年公司净亏损为5.899亿元，主要是由于亚马逊事件导致的存货撇减。 </p>
+<p>为降低亚马逊事件的影响，公司专注于家具家居类产品，并投入大量时间及资源培养多元化的品牌及产品组合，亦在沃尔玛及Wayfair等其他领先电商平台上建立业务，次年便实现了从亚马逊事件中的强劲反弹。 </p>
+<p>数据显示，傲基股份在亚马逊的销售额占商品销售总收入的比重从2021年的83.9%下降至2023年的53.8%，再到2024年前四个月的53.2%，逐渐降低了对亚马逊平台的依赖；沃尔玛跟Wayfair的销售额占比在2023年分别达到了9.8%和10.0%。 </p>
+<p>物流解决方案则逐渐撑起了第二增长曲线。 </p>
+<p>收入由2021年的4.897亿元增加58.2%至2022年的7.747亿元，随后再由于扩大客户群及履行更多订单，进一步大幅增加至2023年的16.526亿元，并由截至2023年4月30日止四个月的3.496亿元增加66.8%至截至2024年同期的5.83亿元。 </p>
+<p>根据弗若斯特沙利文的资料，按2023年采用海外仓模式的B2C出口电商物流解决方案产生的收入计，深圳西邮智仓在中国所有B2C出口电商物流解决方案提供商中排名第四，市场份额约1.2%，且在所有专注于中大件的中国B2C出口电商物流解决方案提供商中排名第一。 </p>
+<p>不过，近两年，二级市场对跨境电商的故事似乎略不买单。 </p>
+<p>去年6月，对标“宜家”的线上一站式家居品牌“致欧科技”在深交所创业板上市，IPO前估值80亿元，上市首日最高涨超14.36%，总市值为107.44亿元，现如今市值也已下滑至79.14亿元。 </p>
+<p>2022年11月登陆港交所的“跨境鞋服第一股”子不语集团，则是上市首日高开低走，首日即破发，如今市值也仅为22.95亿港元，较上市首日市值蒸发近37%。 </p>
+<p>再到今日开盘即破发的傲基股份，在减轻对亚马逊的依赖和走出第二增长曲线上，也依然有挑战待解。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/zVsBulGQZ4lfeg8pTU2Hgg" rel="noopener noreferrer nofollow" target="_blank">“直通IPO”</a>，作者：孙媛，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027414971868677</guid><pubDate>Fri, 08 Nov 2024 15:56:00 +0800</pubDate></item><item><title>谷歌版贾维斯意外泄露，自主上网购物填表不在话下，“钢铁侠 ”成真指日可待？</title><link>https://36kr.com/p/3027412528063747</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>一场意外泄露事件后，谷歌这位科技巨头无意之中证实了其先进人工智能“Jarvis”的存在。据了解，Jarvis 能够访问网站、在获得用户许可的情况下进行在线购物，甚至填写表格。基于 Chrome 平台的 AI，也将是这款浏览器自 2008 年推出以来规模最大的功能升级。</p>
+<p>不久前，谷歌意外泄露了最新 AI 发展成果 Jarvis 的“内部预览版”。Jarvis 原本是《钢铁侠》电影中 Tony Stark 的人工智能助手的首字母缩写词，全称为 “Just Another Very Intelligent System”。就像《钢铁侠》电影一样，Jarvis 应该是一个代理型人工智能，即只需要很少或不需要人类输入就能执行任务的自主系统。</p>
+<p>被泄露的文件最初被发布在谷歌自己的云平台之上，在存留期间，其内容显示谷歌打造了一款能够浏览互联网并自主检索信息的 AI 智能体。</p>
+<h2>Jarvis 或将接管 Chrome 浏览器</h2>
+<p>据外媒报道，该 AI 智能体于本周二在 Chrome 浏览器网络商店中作为扩展程序短暂提供下载，并被描述为 “与你一起上网的好伙伴”。</p>
+<p>可惜的是，该扩展程序虽然可以下载，但需要某些用户无法绕过的访问权限。有人在该扩展程序被删除之前抢先完成了安装，但尚无法正常使用。当天晚些时候，该扩展程序已从网络商店删除。</p>
+<p>Jarvis 无意中出现在 Chrome 浏览器网店上，证实了之前有关谷歌正在开发这一产品的报道。</p>
+<p>10 月底，有外媒报道称，谷歌也正在开发一种可以通过简单命令来接管计算机的 AI 工具，该工具在内部被称为 Project Jarvis，能够代表用户浏览网页，并执行购买产品和预订航班等任务。</p>
+<p>与依赖预加载数据的现有 AI 工具不同，Jarvis 能够搜索网络并为用户提供检索实时数据的能力，从而绕过传统搜索引擎。简而言之，它基本上接管了 Chrome 网络浏览器来为用户执行任务。</p>
+<p>报道指出，该工具的工作原理是截取计算机屏幕的屏幕截图，并“在执行单击按钮或输入文本字段等操作之前对截图进行解读”，这与微软此前备受争议的 Recall 功能非常相似，尽管后者用于存储和检索用户的计算机行为（目前微软宣称该项目将“稍后”亮相，且最初只开放给 Windows Insider 计划成员）。</p>
+<p>Jarvis 的功能似乎是谷歌 Bard AI 的延伸，可以将自然语言理解与高级数据检索功能相结合。这种向实时数据响应的转变也代表着传统聊天机器人的最新发展方向。传统聊天机器人往往受到训练数据的限制，因此只能根据特定日期之前的信息回答问题。</p>
+<p>报道还提到出，该工具目前的反应速度有些慢，“因为模型在采取每个动作之前需要思考几秒钟”。这表明，Jarvis 可能还没有准备好进入黄金时段。当时的消息称，谷歌计划在 12 月公开推出 Jarvis，同时推出的还有最新版本的 Gemini 大型语言模型。</p>
+<p>现在，有熟悉谷歌内情的消息人士表示，Jarvis 本打算在对外发布之前进行内部试点测试。然而，此番意外泄露让不少人猜测谷歌恐怕会提前正式发布的时间。</p>
+<h2>AI 智能体操控屏幕的未来将至</h2>
+<p>上个月，当 Anthropic 推出名为“计算机使用 ”的新功能，基本上可以接管用户的计算机来读取和编写 JavaScript 代码时，我们的认知从 “《钢铁侠》只是一部电影 ”变成了 “这正在发生”。现在，谷歌的 Jarvis AI 智能体似乎要让 “钢铁侠 ”幻想成真了。</p>
+<p>只不过，Claude 是为程序员量身定制的，用于操作软件应用程序，而 Jarvis 与之不同，据说它是基于浏览器的，可以想象它将面向更主流的受众市场。</p>
+<p>据外媒报道，OpenAI 也在开发这类自主 AI 智能体。此次谷歌 Jarvis AI 意外泄露事件就发生在 OpenAI o1 模型泄露的几天之后，后者同样意外曝光了一款能够分析图像、访问网络搜索结果及数据分析等工具的新推理模型，可能很快就会发展出更多的自主网页浏览功能。</p>
+<p>几天前的 OpenAI 伦敦开发者大会上，Sam Altman 在与 20VC 创始人 Harry Stebbings 的对谈中，就对 AI 智能体进行了这样的定义：能够接受长期任务，且在执行过程中几乎不需要监督。他举例说，“假设不是让 AI 智能体给一家餐厅打电话订餐，而是让它同时联系 300 家餐厅，找出哪家最适合或者有优惠。我认为更有意思的是那种像一位聪明的资深同事一样，能与你在项目中真正协作的智能体。”</p>
+<p>在最近的一次 Reddit AMA 中，OpenAI 首席产品官 Kevin Weil 也暗示道，ChatGPT 将首先具备向用户发送消息的能力，而为用户执行任务将是他们 “2025 年的一大主题”。</p>
+<p>微软团队上月低调开源的 OmniParser，在 Hugging Face 上迅速大受欢迎的同时，似乎也预示着 AI 智能体操控屏幕的未来。OmniParser 是一款解析和识别屏幕布局的 AI 工具，能够提取文本、按钮和图标等重要信息，还可以将这些元素转换成结构化的数据，精准理解用户意图，可以帮助开发者自主创建用于操控电脑或手机界面的智能体。</p>
+<p>并且，OmniParser 并不局限于网络浏览器或移动应用程序等特定的环境，它的目标是成为任何支持视觉的 LLM 与从桌面到嵌入式屏幕等各种数字界面进行交互的工具。据悉，GPT-4V 在使用 OmniParser 输出后，图标的正确标记率从 70.5% 提升至 93.8%。</p>
+<p>此外，Apple Intelligence 也承诺通过其“屏幕感知”功能实现同样的功能。它会观察用户的活动并将发现输入到系统当中，以便下次以智能方式代替用户执行这些任务。</p>
+<h2>结语</h2>
+<p>对谷歌来说，提高工作效率和自动化某些琐碎的任务是其许多 AI 产品寻找杀手级用例的方向。谷歌也在 Workspace 应用程序中引入了生成式 AI 功能，包括谷歌 Docs（文档）、Gmail、Sheets（表格）和 Slides（幻灯片）。</p>
+<p>而关于此次意外泄露的“内部预览版”Jarvis，近期已有不少类似可以通过简单命令来接管计算机的 AI 智能体出现在大众视线里。需要注意的是，随着这类 AI 驱动浏览变得愈发普遍，围绕数据透明度、访问私人内容和网络数据的道德使用引发的问题也可能进一步激化。</p>
+<p>参考链接：</p>
+<p>https://www.theinformation.com/briefings/google-accidentally-reveals-jarvis-ai-that-takes-over-computers</p>
+<p>https://mashable.com/article/google-accidentally-leaked-new-ai-tool-browses-internet-for-you</p>
+<p>https://www.tomsguide.com/ai/google-confirms-jarvis-ai-after-accidental-leak-heres-what-we-know</p>
+<p>https://www.androidpolice.com/google-gemini-project-jarvis-ai-agent/</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/UbSFRr3dcqj_W-dApr4ZrQ" rel="noopener noreferrer nofollow" target="_blank">“AI前线”</a>，整理：华卫、核子可乐，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027412528063747</guid><pubDate>Fri, 08 Nov 2024 15:56:00 +0800</pubDate></item></channel></rss>
