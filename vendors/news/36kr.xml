@@ -1,451 +1,633 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 08 Nov 2024 09:30:48 +0800</lastBuildDate><pubDate>Fri, 08 Nov 2024 09:30:48 +0800</pubDate><item><title>「飒智智能」获数千万元A+轮融资，实现复合机器人多场景、模块化应用｜硬氪首发</title><link>https://36kr.com/p/3022246468740610</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>作者｜黄楠</p>
-<p>编辑｜袁斯来</p>
-<p>硬氪获悉，上海飒智智能科技有限公司（以下简称「飒智智能」）近日完成数千万元A+轮融资，本轮资方为元禾璞华、三奕资本，融资资金将用于加大类人机器人技术研发投入、产品迭代、批量生产以及海外市场基础性拓展等。</p>
-<p>「飒智智能」是硬氪长期关注的企业，公司成立于2017年，专注智能移动作业复合机器人，致力于解决类人作业等具身智能系列问题的攻克和应用，自主研发一体化控制器与核心操作系统及算法库，可完成多模态物体解构与装配、柔性上下料、自然态无序分拣、智能制造接驳搬运等多场景中的关键任务，为行业提供一体化智能解决方案与服务。</p>
-<p>复合机器人具有多功能性、灵活性等特点，区别于移动机器人和工业机器人，“移动作业”二合一，具有“手、脚、眼、脑”协同的综合能力，应用前景广泛。</p>
-<p>根据中商情报网等数据显示，从2017年至2022年，中国市场复合机器人销量由185台提高至1169台，年均复合增速接近45%，预计这一趋势还将持续增长，最近两年呈爆发性趋势，是人形机器人发展的必然阶段。</p>
-<p>模块化和标准化是当前复合机器人领域的重要趋势。「飒智智能」是较早提供模块化开发和应用的企业。通过模块化设计，复合机器人可进行快速扩展，更快适应不同应用场景的需求，进而提高机器人适应性和泛化性，降低了二次开发成本、生产制造成本和维护难度。</p>
-<p>以CNC（数字控制）机床自动上下料为例。CNC机床夹具对定位精度的要求极高，需要机器人具备“手眼脚”协调能力和统一算法，在狭小环境中进行灵活、精准的取放工作，这是一个软硬件系统融合协调的过程，需要机器人能同数百台机床、流线等其他设备实时交互。</p>
-<p class="image-wrapper"><img data-img-size-val="3920,2205" src="https://img.36krcdn.com/hsossms/20241107/v2_1c885aca46d4447b814d93c450739750@6022551_oswg1386928oswg3920oswg2205_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">「飒智智能」复合机器人工作模拟图</p>
-<p>因此，「飒智智能」为客户开发了针对性上下料场景的复合机器人，采用中控管理系统来实现与现场机床、流线对接，完成复合机器人和其他设备的任务调度。期间，复合机器人在任务规划和执行时，往往具备更高程度的自主性，根据实际场景需求，用中控系统对物料的位置和状态进行管理可视化，并更换更适配约定工件的托盘及手爪进行工作。同时基于自研核心操作系统，它支持手爪和视觉的快速标定，能够对目标样品进行精准地识别和抓取。</p>
-<p>实际数据表现显示，该上下料复合机器人单台单班可替代2个人工劳作，在无人值守下实现7乘24小时的工作，效率提升达到60%。</p>
-<p class="image-wrapper"><img data-img-size-val="3920,2205" src="https://img.36krcdn.com/hsossms/20241107/v2_cd43a2b3c09a475ab30bf83c69765096@6022551_oswg8907740oswg3920oswg2205_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">「飒智智能」复合机器人工作模拟图</p>
-<p>随着人工智能、物联网、传感器等技术不断发展，复合机器人趋于集成视觉、听觉、触觉等多种感知技术，能够更全面地理解和感知周围环境，并根据任务需求做出自主决策。同时，基于多场景下柔性、高效需求，「飒智智能」支持与ERP、MES、WMS等系统无缝集成，过去固定产线设备的运行方式，可以根据实际需求进行灵活变动，实现高效协同和即时性管理，最大限度地优化企业运营。</p>
-<p>比如在灌装线存取归置及抽检项目中，「飒智智能」采用了8台复合机器人，为某乳制品企业的灌装线奶制品进行定时取样，并转运至实验室检测和存储。其复合机器人中控系统通过与工厂现有MES、ERP进行信息交互，在取样、转运和检测数据进行采集存储的过程中，可将工厂信息进行智能化处理，提升采样准确率，实现采样全过程追溯。</p>
-<p>面对多元落地场景，飒智智能采用模块化方式，搭建硬件、软件及算法库，积累标准化模块资源库，为客户提供不同模块、个性化调用和组合配置，「飒智智能」CEO张建政告诉硬氪，“我们的复合型机器人是标准化、模块化的，我们在部署组合上采用乐高式，通过模块搭建体现功能的差异性，可以适配并满足复杂场景下的特定需求，解决类人作业。真正为企业客户提供部署周期短、低开发成本的高通用性复合机器人产品。”</p>
-<p>目前，「飒智智能」面向汽车及汽车零部件、电子半导体、生物制药、日化日消、新能源等多个领域的共性场景，国内以长三角为中心，形成了环渤海、珠三角、西南、西北等五大业务区域，国外拓展至东南亚、欧洲、墨西哥等地，深度链接头部大客户，同时将进一步向中腰部客户覆盖，实现标准化、批量化复制。</p>
-<h4><strong>投资方观点：</strong></h4>
-<p>元禾璞华合伙人殷伯涛表示，制造业中离散型生产场景对流程化作业有着迫切需求，这一需求极大地促进了传统工业机器人向新一代复合机器人的快速转型与升级。飒智团队凭借其自主研发的一体化控制器以及底层软件算法，成功实现了“手-眼-脚-脑”四位一体的类人作业，并在多家行业领军企业客户的多种应用场景中实现了商业化落地。我们期待飒智，利用VLA具身智能技术，进一步将“智能移动共融”的愿景变为现实，引领行业发展潮流。</p>
-<p>三奕资本表示，当前工业机器人正朝着智能化、精细化、柔性化、平台化的方向发展，复合机器人作为一种新型的机器人方案，设计上注重灵活性和多功能性，能够快速适应不同的工序，场景通用性强，是柔性产线的关键一环。飒智智能作为复合机器人领域的创业企业，既有领先的技术迭代能力，又兼具较强的客户交付能力，有机会在多行业扩大优势，建立头部地位。三奕资本也将汇聚产业生态，持续赋能，全力助力企业发展壮大。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3022246468740610</guid><pubDate>Fri, 08 Nov 2024 08:30:00 +0800</pubDate></item><item><title>腾讯网易急入局，桌崽留存超豆包，游戏新世代由AI队友开启</title><link>https://36kr.com/p/3026468214695430</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2024年，AI在游戏行业正不断由表及里，不断触及游戏机制的核心。 </p>
-<p>大家比较熟知的《沙威玛传奇》，更多是用AI赋能制作，降本增效，到后来《1001 night》、《换你来当爹》中，AI成为游戏的核心玩法。最近，背靠大厂的《永劫无间》《暗区突围》里的AI技术再次往前进了一步，要成为玩家在游戏中的“助手”、“队友”。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_05e4f09ff5a343b88e9ba2af06230b5b@000000_oswg70723oswg1022oswg531_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">AI作图  by 娱乐资本论 </p>
-<p>和腾讯、网易做游戏内AI队友不同，就在上个月，一款名为“桌崽AI”的桌面陪伴宠物火了起来，在传统桌宠的外衣下，它真正做到了懂玩家、懂游戏，且在游戏过程中提供了实实在在的价值（查攻略、实时陪聊）。从功能性这一点看，颇有点当年游戏语音助手YY的意思。 </p>
-<p>内测一个月，<strong>总注册用户超过1万，DAU超过3000，付费率超出意料之外。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_23b426ee93864117a3e3ba0c1e2ad59a@000000_oswg536542oswg860oswg476_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>留存率也挺高，<strong>次留63%，7日留29%，30日留22%，平均每日时长237分钟。</strong>这个数据，甚至超过了很多国内大厂的大模型产品。 </p>
-<p>要知道，根据之前一张盛传的统计图表，国产 AI 大模型用户在30 日后，往往流失严重，从字节的豆包，到百度的文心一言（现在改名文小言），30日后使用率就都低于 1%。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_dfb402ccf14d491782ca634773c563c3@000000_oswg245043oswg1080oswg338_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>问题来了，为何AI布局这么多赛道，唯独在在游戏赛道如此成功？ </p>
-<p>原因就在于，游戏佬既对科技感兴趣，又对AI助手有强刚需，而这样的盲区和痛点，正是目前AI在其他领域少有触及，也需要一定门槛的部分。 </p>
-<p>AI助手，或许将成为AI领域竞争的下一个胜负手。 </p>
-<h2><strong>跨次元的碰撞</strong></h2>
-<p>桌崽AI的制作团队，是国内一家名叫脸谱心智的企业，成立于去年6月。 </p>
-<p>创始人Adam是个爱玩游戏的95后，本硕毕业于帝国理工学院。在创业前，他在亚马逊、微软都工作过，对聊天机器人颇有研究。 </p>
-<p>由于创始人及其整个团队，对游戏都十分热爱，因此桌崽AI在推出时，就具备了其他同类产品少有的优势——<strong>对当前各大主流游戏的匹配。</strong></p>
-<p>目前，桌崽AI已经适配了<strong>《黑神话·悟空》、《原神》、《绝区零》、《鸣潮》等20多款游戏。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_2d11c982df2c41a685ca4f22f8802d92@000000_oswg732660oswg1080oswg557_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>只要打开游戏，桌崽AI就会在屏幕上陪着你。玩家可通过文字或语音，与和桌崽进行实时的互动。 </p>
-<p>但是，仅仅做到“陪伴”，还远不能让其脱颖而出。 </p>
-<p>如前所述，其核心亮点在于“懂游戏”、“懂玩家”，这点主要体现在两方面：其一是，在游戏过程中，<strong>桌崽AI不仅能看懂游戏中的画面、内容，并且还能根据玩家的行为，针对性地进行反馈。</strong></p>
-<p>例如玩家要是发挥得好，它就会夸玩家很棒；要是玩家不幸失手，它也会用幽默的语言进行调侃。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_cb095671dca143de9dd947187994c203@000000_oswg312669oswg859oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>第二个方面就在于，在看懂游戏的基础上，<strong>它还能实时提供游戏攻略，在玩家卡关时提供帮助。</strong></p>
-<p>这样一来，玩家就再也不用在游戏时，切换回桌面，再打开浏览器去各种网站、论坛搜攻略了，桌崽就站旁边告诉你该怎么打通关。 </p>
-<p>除了这些核心功能外，桌崽还能通过生成式AI，根据玩家的喜好，定制出各种不同的外形、声音，而这种个性化的特点，又进一步增加了玩家的粘性。 </p>
-<p>然而，这样的功能，虽然看着简单，但真正要实现起来，背后却有着一定的技术门槛， </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_d0148f6756f54856ae878b98218a266c@000000_oswg269745oswg554oswg311_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>具体来说，这样的门槛包括了： </p>
-<p>多模态游戏陪玩大模型——让AI“懂游戏”； </p>
-<p>二次元视频生成大模型——自定义外观； </p>
-<p>语音声线定制大模型——自定义声音（语音克隆等）； </p>
-<p><strong>其中多模态游戏陪玩大模型，是其与游戏契合的关键所在</strong> ，按照脸谱心智的介绍，该模型的运作机制，是经用户授权后，模型把游戏画面、音效和用户带有各种情绪的声音作为输入，从而给予和游戏进度同频的个性化反馈。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_628313819ece438cb41304578a01157b@000000_oswg547207oswg934oswg494_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从技术上来说，关于游戏知识性方面的信息，模型尚且可以通过吸收各种来源的资料（游戏介绍、攻略）等，来让自己“精通”不同的游戏。 </p>
-<p>但最大的难点就在于，怎样让模型在理解各种不同模态的输入（画面、声音）的同时，还能做到实时反馈？ </p>
-<p><strong>这就涉及到了一个十分重要的技术——多模态融合。</strong></p>
-<p>从某种程度上说，这是决定将来大模型在游戏中广度、深度的一个重要技术。 </p>
-<h2><strong>会看、会听的AI队友</strong></h2>
-<p>多模态技术，之所以在游戏AI的下一阶段如此重要，主要是因为，在之前所有结合了LLM的游戏，例如《1001 night》等作品中，AI的定位与作用，始终都脱离不了“对话”这一单调的框架。 </p>
-<p><strong>这种局限，使得AI在游戏中的作用，被限定在了提供对话选项和简单的互动，而无法深入到其他方面。</strong></p>
-<p>而通过对不同模态的数据进行特征提取，游戏中的AI助手，可以将原始数据转换为可以被模型处理的数值表示，同时将异构特征投影到公共子空间，使得具有相似语义的多模态数据由相似向量表示，从而让AI理解了不同模态的信息。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_83fba8a4ad064aa890bbdb238b93d92f@000000_oswg95507oswg640oswg279_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>实际上，这种多模态的思路，已经愈发成为了一种AI+游戏的潜在发展方向。</strong></p>
-<p>在今年英伟达展示的一个名为G-Assist的游戏助手项目中，这个由RTX驱动的AI助手，会通过分析玩家的语音或文本指令，以及游戏界面截图，提供实时攻略等相关帮助。 </p>
-<p>这与桌崽AI的某些思路几乎如出一辙。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_f8b32b07c868461d949946e906820b30@000000_oswg1013261oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>G-Assist的核心技术在于其AI视觉模型，通过集成先进的AI视觉模型，G-Assist能够实时分析游戏窗口中的视觉信息，比如识别屏幕上出现的敌对NPC，或是推荐优选武器和材料收集方法。 </p>
-<p>而除了“会看”之外，这类多模态融合技术的另一大挑战，就是怎样在实时的游戏中，以极低的延迟实现玩家与AI之间的语音互动。 </p>
-<p>最理想的状态，是玩家能像平时说话时那样，与AI助手进行即时的交流，这考验的是AI“会听”的功夫。 </p>
-<p>在今年5月的开发者大会上，微软推出了Copilot+ PC，一款为AI时代而生的全新PC，其同样具备了在游戏中充当AI助手的能力。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_916ea3b6350e477f9a130ab3cbbc2cc3@000000_oswg624876oswg1024oswg680_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>例如，在《我的世界》视频演示中，通过集合Open AI 的 GPT-4o模型，Copilot能够实时分析游戏画面内容，并根据不同的情境、场景，以各种语调、语气与玩家交流。 </p>
-<p>像是当玩家成功躲避敌人的追击后，Copilot就会发出喘气声并祝贺玩家成功找到庇护处。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_458fa8bd21b94ecf8dee0796d8cd69d1@000000_oswg672028oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这种实时的、低延迟的语音交互，背后依托的技术，大致可以分成两种，一种是传统的，以神经网络为基础的文本转语音（Text-to-Speech ）技术，也称TTS；另一种则是端到端的，GPT-4o所展现的那种实时语音技术。 </p>
-<p>从技术力上来说，后者的要求更高，但效果也远优于前者。 </p>
-<p>这是因为，传统的TTS合成，通常需要先将文本转换为语音，其输出往往存在一定的延迟，这样的差距，在某些竞技类、动作类等要求快速反应的游戏中，会显得尤为突出。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_77c0f569ee2c4ebebc6c4bbd2601ba78@000000_oswg850270oswg861oswg466_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>更重要的是，<strong>由于整合了意图理解、自然语言处理等环节，端到端的语音大模型，在做到“如真人般丝滑”的同时，还能根据不同的情境，实时地调整自身的语气、语调。</strong></p>
-<p>而传统TTS要做到这点，只能预先进行人为的设置。 </p>
-<p>在具备了“会看”、“会听”的能力后，LLM在游戏中的定位，就不再仅限于单纯进行对话的NPC，甚至不再局限于能够实时交互的AI助手，对于某些更有野心的游戏大厂来说，这种多模态技术的成熟，还成为了在AI时代，重新构筑自身护城河的一种新手段。 </p>
-<h2><strong>Agent技术，让AI胜似真人</strong></h2>
-<p>在打破了“对话”这一框架的局限后，AI助手在游戏中能干什么？ </p>
-<p>网易在《永劫无间》中给出的答案是：一个能听懂语音指令，实现自动跑图、搜集物资，配合战斗的智能化AI队友。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_7767549c8a3649d6b68680fdbb08bcb8@000000_oswg535708oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>6月19日，《永劫无间》手游在“定胜终测”中引入了全新的“游戏Copilot”功能。并依托先进的LLM技术，为玩家提供了一个胜似真人的AI队友。 </p>
-<p>这样的队友，究竟有多智能？ </p>
-<p>举例来说，在战斗中，玩家要是说了句：“给我来点药”，AI队友马上跑到玩家身边给予相应的道具。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_1c896072894b43f796369657de0f1161@000000_oswg923873oswg608oswg937_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>同样地，在战斗中，AI队友不仅能指哪打哪，也会通过自主判断战场局势优化决策，打造和真人队友组队开黑一致的默契体验。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_a695e31ed813451c9adf8486617a5e53@000000_oswg408249oswg499oswg406_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>有时候，对于一些具体的道具搜寻，AI队友也能有求必应。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_89f2cdaeb12743d3baddfba716c2ca0b@000000_oswg1213732oswg766oswg848_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了基本的战斗、搜寻指令外，AI队友还会主动搭话，聊天，在战斗之余缓解氛围，为玩家提供情感陪伴的价值。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_66f2cab3043548d2bc2fe1a5d5203886@000000_oswg47738oswg400oswg255_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>总的来说，这个AI 队友能跑图，搜物资，战斗，辅助救援，与玩家实时语音聊天，真人队友能做到的一切，它也几乎全做到了。 </p>
-<p>而要实现这些，网易靠的正是前面提到的<strong>多模态识别、实时语音交互</strong>等技术。 </p>
-<p>具体来说，这个AI队友，不仅能听懂玩家的话（语音识别）、观察战场局势（视觉信息输入）、了解地图和英雄技能（游戏机制学习），甚至借助诸多高手的大数据学会了如何打好永劫手游。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_f28f3c06f5644da9b64fbd9a3e1ea30f@000000_oswg435058oswg806oswg520_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但除了多模态之外，要打造这样智能化的AI队友，还有一块最重要的拼图：<strong>AI Agent 技术</strong>。 </p>
-<p>这是因为，多模态+LLM的组合，尽管解决了AI队友看、听、理解与交流的问题，但要真正让其成为游戏中的得力助手，它就必须会<strong>亲自操作游戏</strong>。 </p>
-<p>这背后靠的正是AI Agent 技术。 </p>
-<p>与传统依靠预设程序执行固定操作的NPC不同，Agent技术赋予了AI队友更高的灵活性和自主性，这是因为Agent技术让AI队友具备了“自主规划”与“自我操作”的能力。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_d073a4cc384346f4969f2c3fb715c02b@000000_oswg156023oswg640oswg349_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在AI领域，Agent 指的是能够感知环境、做出决策并执行行动的系统，能够在复杂多变的环境中独立完成任务。 </p>
-<p>实际上，早在《永劫无间》的AI队友出现前，业内早已对 Agent+游戏的方向进行了一番探索。比如说网易自身，就有一个叫网易数智的AI平台，提供MMO、SLG等游戏类型的AI对手。 </p>
-<p>还有在今年3月，Google 的DeepMind就公布了一项关于新型AI智能体SIMA的开创性研究，旨在让智能体能够理解并执行多种游戏环境中的自然语言指令。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_04f05a6e7da34ba582bede13412ac616@000000_oswg504023oswg808oswg413_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>让SIMA在游戏中执行操作，只需要两个输入：屏幕上的图像和用户提供的自然语言指令。在测试中，SIMA在九种不同的游戏上进行了训练和测试，包括《无人深空》和《拆解》，并在其中进行了驾驶飞船、挖矿、砍树等一系列操作。 </p>
-<p>通过从不同的游戏世界中学习，SIMA捕捉了图像、语言与游戏玩法行为之间的联系。 </p>
-<p>这样的联系，来自游戏过程中收集的大量数据。比如屏幕上的画面、音效、文字说明，甚至鼠标和键盘的操作记录。 </p>
-<p>之后，收集的数据集被用于训练预先设定的模型，以适应不同的游戏场景和任务。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_01bbf82c1fde46c5a4ae75c3484e54db@000000_oswg373254oswg1080oswg440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从玩法机制上来说，AI Agent技术在游戏领域的介入，几乎是一种必然，因为有太多的游戏，都存在着需要<strong>复杂规划和多个子任务才能完成的目标了</strong>，例如“寻找资源并建立营地”等等。 </p>
-<p>而这类融合了多模态、Agent等技术的游戏尝试，在发展到一定阶段后，必定会出现某个成熟的“集大成者”。 </p>
-<p>例如《暗区突围》中的AI队友，就是这样一个例子。 </p>
-<h2><strong>更高的壁垒，更高的体验</strong></h2>
-<p>在今年8月的科隆游戏展上，腾讯魔方工作室分享了自研的最新AI技术——<strong>F.A.C.U.L.</strong>。 </p>
-<p>这是由魔方工作室联合暗区突围项目团队，推出的全球首个语音指挥FPS AI，应用了最先进的生成式AI技术，包括语音输入、大语言模型、实时语音合成和环境识别等。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_ddca8413defe47098a87116ec760e90b@000000_oswg316146oswg960oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>所谓的F.A.C.U.L.，实际上是一系列核心功能的集合，为的是使AI表现得更像人类队友。 </p>
-<p>具体来说，它包括了： </p>
-<p><strong>Complex Command Recognition（复杂指令识别）</strong> ：这个功能意味着AI可以理解玩家下达的复杂命令，使其能够识别和执行多步指令，适应不同的战术需求。 </p>
-<p><strong>Tactic Execution（战术执行）</strong> ：指AI具备执行战术操作的能力，比如掩护、包抄、进攻等。AI不再是简单地跟随玩家或进行基础攻击，而是能够参与到更复杂的战术中。 </p>
-<p><strong>Object Identification（物体识别）</strong> ：这意味着AI可以识别场景中的特定物体，比如敌人、掩体、道具等。这种识别能力是执行任务和战术的基础，帮助AI在复杂环境中做出合适的决策。 </p>
-<p><strong>Human-Like Interaction（类人交互）</strong> ：旨在让AI在行为上更加接近人类，AI会表现出类似人类的反应，增强游戏的沉浸感。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_aafdd9418a944c76b34675140cc3997d@000000_oswg1009796oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>虽然与《永劫无间》中的AI队友一样，《暗区突围》的F.A.C.U.L.也结合了多模态、Agent等技术，但从复杂度和要求上来说，其却比前者更上了一个台阶。 </p>
-<p>这主要是因为，与《永劫无间》相比，《暗区突围》中的道具、武器、场景更多，更复杂，战斗中需要执行的战术也更多样化，更充满变数。 </p>
-<p>例如，“F.A.C.U.L.”将允许 AI 角色识别多大 1.7 万个游戏物品，包括建筑物、武器、地表。魔方工作室称它们甚至能识别“一根草”。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_57e7c6ca6943442bbf46830aef453c8b@000000_oswg535033oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在具体战斗中，玩家还可以对AI队友还可以发处一系列连续的、复杂的指令，而AI队友在执行这些指令时，不仅能准确理解其含义，还能知道指令中提到的“沙袋”、“汽车”究竟在哪。 </p>
-<p>在执行指令时，F.A.C.U.L.首先会基于多模态输入，对环境进行结构化分析，建立一个包含敌我位置、障碍物、目标物体等要素的“局势地图”。 </p>
-<p>之后，当玩家发布“清理房间并守住出口”这样的复合命令时，AI队友就会通过Agent的任务分解与多步骤执行能力，将其分解为多个步骤：首先清理敌人，然后搜索物资，最后在出口守卫。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_b54a793c19cc431fbc92071126d4cc67@000000_oswg706452oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这种多阶段任务分解与执行能力，是Agent技术中“自主规划”的重要环节，也是F.A.C.U.L.这类AI高效、灵活地完成任务的关键。 </p>
-<h2><strong>结语</strong></h2>
-<p>可以说，《永劫无间》、《暗区突围》这样的例子，揭示了随着多模态、Agent等技术的进一步发展，AI在游戏中的介入程度正不断加深，其带来的游戏体验上的提升，也越来越明显。 </p>
-<p>但与此同时，AI+游戏的另一大趋势是：<strong>随着技术复杂度不断提升，“AI游戏”的门槛和壁垒也在一步步变高</strong>，有实力留在牌桌上的选手，也成了资源和资金更加充足的大厂。 </p>
-<p>然而，从行业的角度来说，这种不断提升的门槛，也未尝不是一件好事。 </p>
-<p>因为随着大厂逐渐主导AI+游戏领域，AI游戏的制作，会迈入一个更稳健，也更有标准和规范可循的“工业化时代”，其品质的提升会更扎实，更可控。而非像AI游戏的初期阶段那样，游戏的爆火与走红，大多只能靠团队的“灵感”、禀赋或运气。 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg5ODkwOTM2NA==&amp;mid=2247654914&amp;idx=1&amp;sn=7e09eb157f7a3d2dded814b40ec06172&amp;chksm=c1831a0cb53e4a3983e6d0b01540f0a80a638c6055ea2481859950a22da9af0880e5819b0f49&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“娱乐资本论”（ID：yulezibenlun）</a>，作者：娱子酱团队，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026468214695430</guid><pubDate>Fri, 08 Nov 2024 08:41:00 +0800</pubDate></item><item><title>谁买走了章小蕙直播间的天价面霜？｜商业Friday</title><link>https://36kr.com/p/3026006474630404</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文｜贺哲馨</p>
-<p>编辑｜乔芊</p>
-<p>Wendy说，一开始关注章小蕙是因为“她是我们那个时代的人，很亲切”。</p>
-<p>和许多人一样，她也是在章小蕙的直播间第一次知道GOTUKOLA、MY.ORGANICS、Augustinus Bader、ARgENTUM。她自嘲说，退休之后英语水平退步严重，一开始看直播还要准备笔纸，主播说一个，她赶紧记下一个。</p>
-<p>Wendy今年56岁，很少用社交软件，女儿去德国留学之后，发小红书比朋友圈频繁，她注册了一个账号，每天给女儿的帖文下留言：“宝贝吃好喝好天天开心。”</p>
-<p>很多人说章小蕙直播间和别处不同，有文化有审美，Wendy也同意，“别的直播间大呼小叫，乱糟糟的，根本看不了。”</p>
-<p>介绍眼影时，章小蕙把颜色描述为波提切利名画《春》里“仙子的薄纱”，说裸色唇膏涂起来像“法国文艺片女主唇刚接过吻的颜色”，一场直播结束前，章小蕙穿上Chole长裙搭配丝绒披肩朗读莎士比亚，好像一堂古典文学课。</p>
-<p>章小蕙60岁出头，眼睛明亮脸颊光滑，美颜相机加持之下，说刚满40也有人信。介绍护肤品牌的时候，她略带嗔怒地说起社会给女性的容貌焦虑压力，护肤产品少即是多，细水长流的日常护肤过程，好过花大钱去做填充。</p>
-<p>Wendy深以为然。</p>
-<p>“一开始只是买了Augustinus Bader的唇膏，”没过几天，Wendy又下单了一瓶面霜，30毫升2000元出头，问效果怎么样，Wendy犹豫了一会儿，说“肤感还不错”。</p>
-<p>  “看章小蕙直播的人，本身就具有很高的购买力，章小蕙的说话方式也很让人相信她是真的有在用这一件产品。”直播业内人士周雨告诉36氪。</p>
-<p>周雨拿一款指甲油举例，一般主播就说到速干就完了，章小蕙会进一步解释，大概多久能干，第一层涂完多久可以涂第二层，“这些都是用户自己都没察觉到的痛点。”</p>
-<p>一次线下分享会，章小蕙说自己涂颈霜的时候，常常会站在浴室的镜子前疑惑，是应该往上涂还是往下涂呢？她提到了一个法国品牌的理疗师为她做示范，好奇怪，观众没有亲眼看到，却已经有了这个品牌的面霜可以防止颈纹的印象。</p>
-<p>“她很擅长把用户心理难以描述的诉求具像化。”小红书电商前美护商家负责人乱菊总结。</p>
-<p>去年，小红书确立了“买手”电商的策略，希望从这个每天产生“4000万个购物诉求”的平台里找到盈利的可能。乱菊在一档播客节目中说，小红书的电商与别的平台最大不同在于“人”， 希望用户通过与买手建立链接，从而种草Ta推荐的产品。</p>
-<p>按照她的说法，买手是品牌第一批的种子用户，而不是销售，买手的粉丝也是品牌的核心消费者，随着品牌发展，“再一圈圈地扩散出去”。</p>
-<p>“作为一个单品价值比较高的小众品牌，和小红书的合作让我们在多个社媒平台都产生了明显的数据增长反馈，直接带动了后续的品牌传播。”Augustinus Bader中国区总经理 Isabelle Zhuang 曾给出这样的评价。</p>
-<p>刚结束的章小蕙双11直播，Augustinus Bader单场卖出1400万。Augustinus Bader 创始人之一Charles Rosier预测今年整体生意有望实现40%的增长，销售额可以落在1.3 亿至1.4 亿美元之间，未来不排除出售品牌的可能。</p>
-<p>小红书一直是Augustinus Bader这样的海外护肤品牌进入中国的“登云梯”，一些国货新品牌和国内代运营的也开始注意买手电商模式下的种草机会。</p>
-<p>水羊股份最近收购了美国高奢品牌ReVive，旗下已经有了三个高端护肤品牌，2024年上半年，水羊股份大部分的销售费用都花在了高端品牌的种草推广上，数据显示，伊菲丹超级面膜、精华防晒两大单品在小红书高奢人群渗透率位列 TOP 1。</p>
-<p>高价美妆或许也可以在小红书上找到媲美线下店圈层效应的线上销售模式，但前提是找到一个像章小蕙这样的买手。至于章小蕙的粉丝，你可以说她们是讲究产品品质的、品牌源头的、文化理念的、乃至创始人故事的高端用户，这也是品牌最希望接触到的群体。</p>
-<p>自从“真名媛”章小蕙直播走火了之后，小红书出现了越来越多类似的直播主，她们身上的特点非常相似：都是熟龄女性、出身殷实、经历丰富、审美口味佳。CTT是一位不到4万粉丝的小红书买手，在她笔记中，多数都是都跟着章小蕙、伊能静买的好物体验感受。品牌也许应该警惕，当买手的人设和选品趋同，比价也会再次出现。</p>
-<p>用“人”这一媒介来传递品牌价值的其他不确定因素还在于，买手也许并不知道粉丝为何而追随。</p>
-<p>90后的小红书用户@rukton是章小蕙的粉丝，她说自己纯粹是被章小蕙的认真劲所感染，“我很多朋友把消费当作消遣娱乐、排遣压力，章小蕙代表完全不同的另一类人，她真的擅长消费，也乐于琢磨怎么消费让自己更快乐。”</p>
-<p>@rukton曾赌誓不再为高价化妆品花一分钱，但还是下单了直播间最火的头皮护理Mr Organics，最近她发现淘宝上买更便宜，于是转而在淘宝上下单了。</p>
-<p>今年六月，章小蕙入淘首秀，直播场观刚破千万，本人涨粉19.5万，单品销量最高为3000+。这并不是一个值得发战报的成绩。</p>
-<p>章小蕙是最完美的小红书买手，但她的成功也许只属于小红书。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026006474630404</guid><pubDate>Fri, 08 Nov 2024 08:43:00 +0800</pubDate></item><item><title>港迪技术深交所IPO：市值76亿，武汉再增一家上市企业</title><link>https://36kr.com/p/3026274383799815</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>武汉港迪技术股份有限公司（简称：“港迪技术”，证券代码：301633）在深交所创业板上市。</p>
-<p>港迪技术本次发行1392万股，发行价为37.94元，募资5.28亿元。</p>
-<p>港迪技术开盘价为187元，较发行价上涨393%；收盘价为137.13元，较发行价上涨261%；以收盘价计算，公司市值为76.35亿元。</p>
-<p>港迪技术本次募集资金净额拟用于港迪生产制造基地、研发中心、以及全国销服运营中心等建设，助力公司扩展和延伸现有业务，巩固并提升公司的核心技术水平和生产能力。</p>
-<p>随着港迪技术上市，武汉也再增加一家上市企业。</p>
-<p>港迪技术董事长向爱国在上市致辞中表示：“今天港迪技术登陆A股市场，开启了通往更高、更远目标的大门。”</p>
-<h2><strong>预计年营收6.6亿</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_46533cd86aa64e128d0fa7b8cb436092@000000_oswg119676oswg1080oswg620_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>港迪技术成立于2015年，专注于工业自动化及信息化领域，业务涵盖自动化驱动产品、智能操控系统、智慧港口管理系统软件三大板块，致力于实现各类单机机械设备核心驱动部件国产化、设备群全流程作业无人化、企业管理数字化与信息化。</p>
-<p>工业自动化根据自动化层级递进顺序主要可分为设备单机自动化、设备生产作业过程自动化和企业生产管理自动化。</p>
-<p>公司自动化驱动产品是实现设备单机自动化的核心驱动部件之一；智能操控系统是在设备单机自动化基础上，实现对设备或设备群操控的远程化或自动化，即实现设备生产作业过程的自动化；</p>
-<p>同时，公司根据前述两项业务客户对生产管理自动化、信息化的需求，结合自身的技术基础推出管理系统软件，旨在帮助客户实现生产管理自动化，目前管理系统软件收入占比较小，系公司未来业务发展的方向之一。</p>
-<p>招股书显示，港迪技术2021年、2022年、2023年营收分别为4.29亿元、5.07亿元、5.47亿元；净利分别为6253万元、7653.49万元、8754万元；扣非后净利分别为5886.6万元、7525万元、7909万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_1504223de9b04adba259dbdfa0278bed@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>港迪技术2024年上半年营收为2.14亿元，较上年同期的1.86亿元增长15.27%；净利为2193万元，上年同期的净利为877万元；扣非后净利为2125万元，上年同期的扣非后净利为601万元。</p>
-<blockquote>
-<p>港迪技术预计2024年营收为6.62亿元，较2023年度增长21.01%；公司预测实现归属于母公司股东的净利润1.04亿元，较2023年度增20.22%；公司预测实现扣非净利润1.02亿元，较 2023年度增长29.42%。</p>
-</blockquote>
-<h2><strong>向爱国等4人控制72%股权</strong></h2>
-<p>向爱国、徐林业、范沛、顾毅为公司控股股东、实际控制人。</p>
-<p>截至本招股说明书签署日，向爱国直接持有公司24.43%的股份，徐林业、范沛、顾毅各直接持有公司15.80%股份，合计控制公司71.84%的股份。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_29101c6d4d914c9682d74893aed3f9af@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>向爱国，1964年4月出生，武汉理工大学（原武汉水运工程学院）船舶港口电气自动化专业，本科学历。1986年7月至今，就职于武汉理工大学，任高级工程师、产学研特聘教授，于2022年5月办理离岗创业；1999年12月至2021年12月，历任港迪电气执行董事、总经理、董事长；2006年3月至今，历任港迪集团执行董事、总经理、董事长；2009年12月至今，任新加坡港迪董事；2015年9月至今，任港迪智能董事长；2018年9月至2021年7月，任港迪软件董事长兼总经理；2021年7月至今，任港迪软件董事；2015年9月至今，任公司董事长。</p>
-<p>徐林业，1964年10月出生，拥有新加坡永久居留权，武汉理工大学（原武汉水运工程学院）船舶港口电气自动化专业，本科学历。1986年7月至1999年12月，任长航武汉港机厂工作设计科副科长；2010年11月至2022年12月，历任港迪电气监事、董事；2006年3月至今，任港迪集团监事；2009年12月至今，任新加坡港迪董事；2015年9月至今，历任港迪智能监事、董事；2018年9月至今，历任港迪软件监事、董事；2021年9月至今，任苏港智能董事；2015年9月至2021年6月，任港迪有限监事；2021年6月至今，任公司副董事长。</p>
-<p>IPO前，翁耀根持股为12.14%，嘉兴力鼎持股为7.18%，松禾成长持股为6.45%，东瑞慧展持股为2.16%，汪贤忠持股为0.24%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_020f94d55f9948399e725ac5c523a26e@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>IPO后，向爱国持股为18.32，徐林业、范沛、顾毅分别持股为11.85%，翁耀根持股为9.1%，嘉兴力鼎持股为5.39%，松禾成长持股为4.84%，东瑞慧展持股为1.62%，汪贤忠持股为0.18%。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MzQ5NjIyMQ==&amp;mid=2661630030&amp;idx=2&amp;sn=d5582d16c41c3a8eade40b54c03d29f5&amp;chksm=bc93a6a1ff9fbb917f468fd309bc5f16f26fe7a9ecd981ca8e111177a5c1b0477dd2a4b582b6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“雷递”（ID：touchweb）</a>，作者：雷建平，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026274383799815</guid><pubDate>Fri, 08 Nov 2024 08:51:00 +0800</pubDate></item><item><title>「睿励科学仪器」完成数亿元B轮融资，专注国产半导体量检测设备｜硬氪首发</title><link>https://36kr.com/p/3013499365713152</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>作者｜黄楠</p>
-<p>编辑｜袁斯来</p>
-<p>硬氪获悉，睿励科学仪器(上海)有限公司（以下简称「睿励科学仪器」）近日完成数亿元B轮融资，本轮融资由金石投资、招商致远领投，清控金信、河南资产、鼎青投资等资方跟投。</p>
-<p>融资资金将用于高精度光学量检测系列产品的研发和市场化推广，丰富公司的产品矩阵，加速扩大生产并加强公司的市场拓展和品牌建设等。</p>
-<p>「睿励科学仪器」成立于2005年，是一家专注于半导体前道工艺的量检测设备公司，为国家级高新技术企业、国家级专精特新“小巨人”，先后承担两个国家级“02专项”，具备全自主研发技术。公司总部位于上海浦东新区，其团队成员多来自全球前两位量检测设备企业和国内知名光学技术公司，有18年产品开发和市场应用经验。</p>
-<p>芯片量检测设备可细分为检测（Inspection）和量测（Metrology）两大类。其中，量测指对晶圆电路上的结构尺寸和材料特性进行量化描述，包括薄膜厚度、关键尺寸、刻蚀深度、表面形貌等物理性参数的量测。检测指对晶圆表面上或电路结构中是否出现异质情况进行检测， 如颗粒污染、表面划伤、开短路等对芯片工艺性能具有不良影响的特征性结构缺陷。</p>
-<p>量检测设备贯穿芯片制造的工艺过程，多被用于工艺过程质量控制和保证产线良率。其中，随着芯片结构的复杂性增加带来光刻层数变多，每次光刻工艺循环都会带来多次量检测需求。</p>
-<p>近年来，随着国内半导体产业的快速发展和产业升级，对高端、精密的半导体设备需求不断增加。量检测设备也被认为是位列刻蚀、薄膜沉积、光刻后的晶圆厂设备（WFE）第四大市场，其规模约占半导体设备市场的13%。</p>
-<p>但长期以来，全球半导体量检测设备市场呈国外头部公司垄断格局，中国半导体量测设备此前多依赖美国、日本、荷兰、新加坡和韩国等进口，国产化率仅约5%，是半导体设备中除光刻机外最低的类别，目前正面临高端人才稀缺、技术壁垒高、量产难度大和核心零部件国外依赖度等多重挑战。</p>
-<p>关注到半导体行业和国产化替代的广阔市场，「睿励科学仪器」专注于光学技术，在高精度光学量测和检测领域持续耕耘，提出自研算法模式、独立设计的光学架构，打破国际厂商垄断，已在先进制程工艺节点率先完成了介质膜厚量测产品和明场缺陷图形检测产品的交付和大规模量产。</p>
-<p class="image-wrapper"><img data-img-size-val="1566,702" src="https://img.36krcdn.com/hsossms/20241029/v2_e94abd75e8d6462d93cb7982f869b3c2@6022551_oswg123541oswg1566oswg702_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">「睿励科学仪器」部分产品图</p>
-<p>根据实际检测，公司产品成熟度高，量产性能可匹配国外同类设备水平，可靠性验证超过10年，在各类客户不同的生产工艺产线上都通过了大规模量产的验证。</p>
-<p>目前，「睿励科学仪器」的客户涵盖了逻辑代工、3D闪存、动态存储器、先进封装等领域，广泛应用于300mm、200mmm、150mmfab厂，出货量超过数百台。</p>
-<p>硬氪了解到，「睿励科学」每年研发投入比高达40%，本次融资完成后，预计将吸引更多高端人才加入，持续保持高强度的产品研发投入。公司于上海浦东建有生产基地，年产能超过150台、满产后可支持15亿元的年产值。</p>
-<h4>投资方观点：</h4>
-<p>金石投资表示，半导体设备是半导体产业的基石，中国半导体产业的蓬勃发展有赖于半导体设备的技术和产品突破，量检测是其中的关键环节。睿励科学作为中国最早的一批量检测设备公司，吸引了来自于国内外的顶尖人才，坚持技术创新，聚焦光学技术，我们相信睿励科学将继续保持技术和产品领先，帮助先进制程实现国产替代的突破和发展。</p>
-<p>招商致远表示，半导体量检测设备面临巨大的市场空间和国产替代机遇，也具有很高的壁垒。招商致远看好半导体量检测赛道，期待睿励科学凭借优秀的团队和多年的技术积累和量产经验，成为该细分赛道的领导者。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3013499365713152</guid><pubDate>Fri, 08 Nov 2024 09:00:00 +0800</pubDate></item><item><title>“刷掌支付”出海新加坡，腾讯、Visa的生意有多大？</title><link>https://36kr.com/p/3026355620242948</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>腾讯刷掌支付将落地新加坡。</p>
-<p>11月6日，在第九届新加坡金融科技节现场，腾讯发布刷掌技术出海计划，并宣布与Visa（维萨）合作，将刷掌技术引入国际支付市场，首站将落地新加坡。</p>
-<p>参与试点的用户在刷掌设备屏幕上完成银行卡与个人手掌信息的绑定与开通后，即可隔空识别手掌完成支付。</p>
-<p>据了解，本次合作中，腾讯将提供刷掌技术支持，Visa则提供线下支付生态网络。目前，新加坡星展银行（DBS ）、华侨银行（OCBC）和大华银行（UOB）已率先加入。</p>
-<p>腾讯表示，将通过其新加坡全资子公司Tencent SenseTech，为各行业客户提供腾讯刷掌技术服务，向外界提供刷掌技术支持和多样化服务并对数据进行本地化管理。</p>
-<p>早在2023年5月，腾讯旗下微信支付正式推出“微信刷掌”产品，并联合北京轨道交通推出了大兴机场线刷掌乘车服务。2024年9月，微信刷掌支付落地中国澳门。</p>
-<p>不过，目前，腾讯方面尚未披露“微信刷掌”用户规模等数据。</p>
-<p>另一大支付巨头，支付宝亦有相关布局。2023年，支付宝（杭州）信息技术有限公司申请的“掌纹识别装置”外观专利获授权。专利信息显示，该产品用于采集人体的掌纹、掌脉特征信息，以实现线下支付、门禁识别、安检过闸等功能。早在2014年，支付宝就曾展示过其正在研发的以生物识别为核心的前沿安全科技，其中包括人脸、声纹、掌纹、指纹、笔迹和击键识别。</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 08 Nov 2024 10:30:30 +0800</lastBuildDate><pubDate>Fri, 08 Nov 2024 10:30:30 +0800</pubDate><item><title>阿斯利康的那些多事之秋</title><link>https://36kr.com/p/3027059195523974</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近日，“阿斯利康涉骗保窝案，中国区总裁王磊配合调查”的消息不断发酵，这家知名跨国药企再度陷入多事之秋。回溯阿斯利康在全球市场最近一个周期发展，亦不过是刚刚走出低谷：</p>
+<p>2017年2月2日，阿斯利康进入“至暗时刻”。在其披露的2016年财报中，公司营收仅为213.19亿美元，同比下滑9.8%，而且这已经是阿斯利康连续第五年营收下滑。 </p>
+<p>更让投资者难以接受的是，阿斯利康当时的三款核心药物Crestor（降血脂他汀药物）、Seroquel（精神分裂药物）、Nexium（治疗溃疡药物）全部遭遇“专利悬崖”。2016年中这三款药物合计营收仅为63.99亿美元，而在五年前的2011年，它们的营收高达168.79亿美元。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,457" src="https://img.36krcdn.com/hsossms/20241108/v2_4290a01ceafa4be5aa6266d99456df74@5919987_oswg107409oswg1080oswg457_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：Crestor、Seroquel、Nexium营收一览，来源：锦缎研究院 </p>
+<p>整整七年之后，直至 2023年，当公司营收创下437.89亿美元的历史新高后，方意味 走出“黑暗的深渊” 。不过，随着中国市场更多负面丑闻的曝露，也让人意识到，跨越深渊竞有很多不为外人道的秘密。法律层面的事务终究要交由司法厘清。本文之中，我们仍将从基本面角度，还原这个周期以来，阿斯利康穿越上一个多事之秋的那些嬗变与启示。</p>
+<h2><strong>01 从黄金时代到堕入深渊</strong></h2>
+<p>21世纪的头十年中，阿斯利康绝对称得上是全球最成功的药企之一，其营收规模由2000年的142.28亿美元飙升至2010年的332.69亿美元，实现134%的营收增长。 </p>
+<p>进一步剖析不难发现，当时阿斯利康的爆发式增长与三款核心药物（Crestor、Seroquel、Nexium）的表现密切相关。在阿斯利康的营收构成中，三款药物的总营收由2003年的49.18亿美元增至2010年的159.69亿美元，在总营收中的占比由26%提升至48%。刨除三款核心药物后，阿斯利康其他药物的营收仅由139.31亿美元增至173.07亿美元，十年增幅不足27%。 </p>
+<p>这些数据足以表明，三个核心药物的爆发推动了阿斯利康的营收实现跨越式增长。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,180" src="https://img.36krcdn.com/hsossms/20241108/v2_fb08742c060b4dfcbf97a1767fa76912@5919987_oswg128219oswg1080oswg180_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：阿斯利康核心营收解析，来源：锦缎研究院 </p>
+<p>Crestor是一种他汀类降脂药，被批准用于治疗血脂异常和高胆固醇血症，并用于预防心血管事件，如心脏病发作和中风。虽然如今他汀类药物已经成为最常见的降脂药，但在2003年却是现象级爆款药物，上市第二年就取得9.08亿美元的单年销售额，历史销售峰值更是突破66亿美元。 </p>
+<p>Seroquel是一种抗精神失常药物，是FDA当时批准的唯一一种既能用作附加药物治疗严重抑郁症又可用作单药治疗双相情感障碍相关急性抑郁发作的非典型抗精神病药物‌。最早于1997年获批，并在随后多年持续增长，历史销售峰值突破58亿美元。 </p>
+<p>Nexium是一种质子泵抑制剂，属于强效抑制胃酸分泌药物，用于治疗胃酸分泌过多所导致的胃黏膜以及十二指肠球部黏膜损伤性疾病。这款药物最早于2000年获批上市，至2003年就已经实现单年33亿美元的销售成绩，历史销售峰值突破52亿美元。 </p>
+<p>虽然三款药物治疗领域不同，但它们均在各自领域成为爆款药物，且销售趋势极为一致，三款药物峰值叠加最终助推阿斯利康营收爆发式增长，并于2011年到达顶峰。 </p>
+<p>这种趋势相同的药物集中爆发最怕的就是遇到“专利悬崖”，如果后续药物研发不能及时跟上，那么就会造成公司营收层面的断崖式下跌。 </p>
+<p>“专利悬崖”即是阿斯利康爆发式增长的“裂痕”。从2012年开始，阿斯利康开始遭遇“专利悬崖”危机，这重危机一直延续至2017年。 </p>
+<p>最先遭遇危机的是精神类药物Seroquel。2012年3月，Seroquel于美国市场失去专利保护，随着Seroquel仿制药在美上市，Seroquel营收在2012年出现断崖式下跌，由58.28亿美元暴跌至28.03亿美元。两年之后，溃疡药物Nexium专利到期，其营收在2015年暴跌32%。2016年1月Crestor专利到期，其营收在当年就暴跌32%，第二年又下跌了30%。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,96" src="https://img.36krcdn.com/hsossms/20241108/v2_d678e2efa2e04c4ea67b6b1e5cf4e115@5919987_oswg89765oswg1080oswg96_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：Crestor、Seroquel、Nexium概况，来源：锦缎研究院 </p>
+<p>核心药物接二连三的遭遇“专利悬崖”，致使阿斯利康“暂时”失去了增长能力，其营收逐渐由2011年的335.91亿美元回落至2017年的201.52亿美元，此时的营收已经不及2004年营收水平。 </p>
+<p>阿斯利康之所以出现如此困局，除核心药物专利过期外，创新药物不给力也是原因之一。2009年至2014年间，阿斯利康共孵化上市了Onglyza（2009年）、Bydureon（2012年）、Brilinta（2012年）、Farxiga（2014年）等多款产品，除Farxiga如今成为爆款外，其他药物均未能掀起太大的水花。 </p>
+<p>三款核心药物集中衰退的情况下，仅凭Farxiga一款药物的增长显然是不够的，随着营收规模的持续萎缩，阿斯利康也迎来了其最艰难的“至暗时刻”。</p>
+<h2><strong>02 黑暗中的自救</strong></h2>
+<p>“专利悬崖”是导致阿斯利康堕入深渊的最主要原因，这一点几乎是行业的共识，管理层自然也预料到了风险的来临。 </p>
+<p>Seroquel遭遇专利悬崖的2012年，阿斯利康就开始筹划自救。当年8月，阿斯利康宣布从罗氏挖来了前基因泰克CEO帕斯卡尔·索里奥特，基因泰克是生物药的前驱者，索里奥特的到来透露出阿斯利康对于生物药布局的决心。 </p>
+<p>索里奥特加入阿斯利康的第一件事就是重组了研发中心，将之前松散的研发部门合并为三个大型研发中心：英国的剑桥、美国马里兰州的盖瑟斯堡、瑞典的摩恩达尔。通过研发整合，阿斯利康削减了大量人员开支，裁员约1600人。 </p>
+<p class="image-wrapper"><img data-img-size-val="810,110" src="https://img.36krcdn.com/hsossms/20241108/v2_db632bc077d94499a584eaff86dfa564@5919987_oswg7626oswg810oswg110_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：阿斯利康费用一览，来源：锦缎研究院 </p>
+<p>研发端重组结束后，阿斯利康就全面增加了在肿瘤领域的投入比重，并将肿瘤设定为未来的战略重心。从2013年开始，阿斯利康开始不断追加肿瘤领域的投资金额，至2016年肿瘤领域的研发投入预算已经达到总研发预算的43%。这一点是与之前完全不同的，此前阿斯利康的产品组成中几乎看不到“重量级”肿瘤管线。 </p>
+<p>在业绩压力最大的2016年，阿斯利康进一步进行了战略聚焦。重点发展心血管和代谢，肿瘤和呼吸、炎症和自身免疫三大核心业务，并对其他业务进行逐渐剥离。仅2016年，阿斯利康就连续出售了近20款产品，涉及麻醉药、抗感染类药物和降糖药等多个领域。 </p>
+<p>一番战略重整后，阿斯利康的营收组成虽然没有改变，但公司的底层研发路径实则已经天翻地覆。而且这一系列改变很快就开花结果，Lynparza（2014年12月）、Tagrisso（2015年11月）、Imfinzi（2017年5月）、Calquence（2017年10月）等多款肿瘤药物先后获批上市，并在随后成为阿斯利康新的增长引擎。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,463" src="https://img.36krcdn.com/hsossms/20241108/v2_8a122c5c2f7e4ec788c07306f6dc1b2c@5919987_oswg71891oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：阿斯利康肿瘤管线布局，来源：锦缎研究院 </p>
+<p>这其中，最典型的案例就是第三代EGFR-TKI药物Tagrisso，作为研发体系重组后的重磅药物，Tagrisso于2013年5月首次开始用于临床试验，一期临床结果一公布就因优秀的数据而获得业界的广泛关注，并被FDA授予“突破性疗法”。 </p>
+<p>2015年11月，Tagrisso就凭借二期临床的优秀数据，获得FDA加速批准上市，仅用两年半时间就完成了从临床试验到上市许可的飞跃。伴随后续临床数据的读出，Tagrisso不负众望的成为全球最知名的抗癌药物之一，其2023年营收已经达到57.99亿美元。随着肿瘤管线矩阵的全面崛起，阿斯利康营收于2018年开始恢复增长。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,589" src="https://img.36krcdn.com/hsossms/20241108/v2_7f6fc05b562543f294e73d20b7de2abb@5919987_oswg75296oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：阿斯利康营收趋势，来源：锦缎研究院 </p>
+<p>聚焦肿瘤管线研发之外，阿斯利康还通过并购的方式，进一步增厚了公司在自免领域的布局。2020年12月，阿斯利康宣布以390亿美元的价格并购罕见病药物公司Alexion，不仅获得了后者创新补体技术平台和罕见病研发能力，而且也将其爆款药物Soliris和Ultomiris收入囊中，形成“肿瘤+自免”双向发力的新发展方向。 </p>
+<p>纵观阿斯利康2023年营收结构，在437.89亿美元营收中，共有12款药物营收突破10亿美元，其中有4款抗肿瘤药物，5款自免药物。 </p>
+<p class="image-wrapper"><img data-img-size-val="845,314" src="https://img.36krcdn.com/hsossms/20241108/v2_cfe52dcdf2ff4da99807c37455bdbcdf@5919987_oswg57087oswg845oswg314_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：阿斯利康2023年产品结构，来源：锦缎研究院 </p>
+<p>基于对研发与并购思路的及时调整，帮助阿斯利康在短短几年内实现营收蜕变。以2023年营收结构为例，多达8款药物是2013年之后获得的产品，累计营收达301亿美元，占总营收比例的68.7%。 </p>
+<p>通过前述系统复盘，我们不难发现阿斯利康蜕变的核心原因正是基于发展战略的及时调整，敢于拥抱新技术业态，这是阿斯利康得以“爬出深渊”的主要原因。但实际上，除了这个主要原因外，阿斯利康的崛起实则还有一条暗线：重仓中国。 </p>
+<p>不同于阿斯利康在全球市场遭遇“专利悬崖”这个巨大危机，其中国市场的业绩则呈现出持续增长趋势，且在总营收中的占比不断攀升。在中国市场最火热的时候，中国区营收占比到了20.7%，甚至一度超越阿斯利康的欧洲本土市场，成为全球仅次于美国的第二大市场。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,543" src="https://img.36krcdn.com/hsossms/20241108/v2_df140bea5b1549c18ce7a58beb6ea7a9@5919987_oswg105249oswg1080oswg543_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：阿斯利康中国区营收，来源：锦缎研究院 </p>
+<p>尤其在阿斯利康业绩压力最大的2011年-2020年的十年间，中国区成为当时支撑阿斯利康营收的最核心市场。可以说，正是因为中国区的优异表现，阿斯利康才有资本能够在恢复元气后取得较快的增长，它也应被视为MNC重仓中国后取得成功的典型案例。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,445" src="https://img.36krcdn.com/hsossms/20241108/v2_266f2242c6bd441a85bea52f341f34b4@5919987_oswg39305oswg1080oswg445_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：阿斯利康全球业务，来源：锦缎研究院 </p>
+<p>当然，随着中国创新药的崛起与医改的不断推进，最近两年阿斯利康中国区营收增速明显放缓，但这却并没有改变阿斯利康对于中国业务的关注。只不过如今阿斯利康不在将中国作为一个单一的销售市场，而是更愿意通过与本地企业联合研发的方式寻求共同发展，如其并购亘喜生物，与礼新医药、石药集团等公司进行BD交易等等。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,168" src="https://img.36krcdn.com/hsossms/20241108/v2_0b2ef27f85844c2380f04ccccf0a51a8@5919987_oswg101732oswg1080oswg168_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：阿斯利康近期BD一览，来源：锦缎研究院 </p>
+<h2><strong>03 风暴再度降临</strong></h2>
+<p>以上可见，在从“黑暗中自救”的过程中，中国市场对于阿斯利康来说，早已经不再是一个简单的市场，而是几乎与欧洲同等重要的战略基地。也正是这一过程中，阿斯利康中国总裁的王磊于2016年底升任亚太区执行副总裁，成为全球管理委员会成员，直接向全球CEO汇报，从这足以看出中国对于阿斯利康的重要战略地位。 </p>
+<p>不过，随着“骗保窝案”的事发与曝光与公众面前，让人意识到，阿斯利康在中国区的高歌猛进，存在很多需要深度推敲的内幕。</p>
+<p>根据健闻咨询的报道，自2021年4月，在四川宜宾，阿斯利康的一位医药代表被曝光伪造处方骗保，直至今日，阿斯利康骗保案已延宕三年有余。为提高一款肺癌药物泰瑞沙的销量，阿斯利康员工伪造基因检测阳性报告骗取医保基金，甚至与基因检测公司勾结、输送利益的违法手段被公之于众。 </p>
+<p>三年来，深圳、福建、江西等地陆续爆发阿斯利康“骗保窝案”。涉案的阿斯利康员工层层向上指认，直指公司存在系统性合规风险，逐渐牵扯出地区经理、大区经理、区域总监级别人物，骗保案持续震荡至公司核心层，“中国区一号人物”王磊也未能独善其身。 </p>
+<p>截至目前，已有数十位阿斯利康员工被判诈骗罪，主犯刑期基本在十年以上。一位熟悉阿斯利康骗保案的相关人士透露，该案系近年来最大规模的药企骗保案件。 </p>
+<p>如今，阿斯利康又成为了风暴的中心，而且还是关键的中国区。不知这一次，阿斯利康又该怎样自救呢？ </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ElLIESUlqkU50TagYfU8Kw" rel="noopener noreferrer nofollow" target="_blank">“医曜”</a>，作者：张烁烁，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027059195523974</guid><pubDate>Fri, 08 Nov 2024 09:50:00 +0800</pubDate></item><item><title>八个瑞士卷引发的血案</title><link>https://36kr.com/p/3027058320450824</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>你说谁能想到呢，瑞士卷 这玩意，也能在热搜上挂好几天。 </p>
+<p>最近，据说有大量网友频繁收到一个灵魂发问： </p>
+<p><strong>“ 有 8 块瑞士卷，你会怎么分 ”</strong></p>
+<p>事情起因，是某女子在抖音上发了段视频。 </p>
+<p>视频内容大伙应该有所耳闻，没听说过的，下面这图也解释得挺明白。 </p>
+<p>事情大致经过都在图里了 </p>
+<p class="image-wrapper"><img data-img-size-val="538,769" src="https://img.36krcdn.com/hsossms/20241108/v2_ce93e5614e254908aaf72a2748b34c76@5888275_oswg488847oswg538oswg769_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>事情没多大，但刷到这段视频的网友们，反手就用同样的问题，考验起了自己的另一半。</strong></p>
+<p>随着回答的问题千奇百怪，也越来越像整活。 </p>
+<p>一传十十传百，瑞士卷就这么火了。 </p>
+<p>本以为终于不用做全国卷、江苏卷，最后却没逃得过瑞士卷，这找谁说理去。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,1050" src="https://img.36krcdn.com/hsossms/20241108/v2_027f2715bda643f5beef8b76b647ccc0@5888275_oswg663354oswg1080oswg1050_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>当然，网友也不全是在开玩笑。</strong></p>
+<p>还有不少人在认真讨论，比如大家会想父母究竟如何做出榜样、妻子到底该不该吃最后剩下的两块、丈夫又是否有资格对妻子说教等等。 </p>
+<p>这些问题的本质，其实远不止几个瑞士卷这么简单。 </p>
+<p>但也确实“ 接地气 ”，甭管谁来了，都能站在自己的立场讲出个一二三，所以评论区就吵了起来。 </p>
+<p>本来这种事，互联网上每天都能上演几百遍，咱也都见怪不怪了。 </p>
+<p><strong>可这次的事态眼看着愈演愈烈，显然有些过头。</strong></p>
+<p>所以就有人站出来怀疑起了视频的真实性，猜测是摆拍引流，甚至当地网信办都发了声明，表示会出面调查。 </p>
+<p class="image-wrapper"><img data-img-size-val="717,772" src="https://img.36krcdn.com/hsossms/20241108/v2_e2ecf48449b7433aaee59ba4a3755bad@5888275_oswg556262oswg717oswg772_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>目前，事件女主接受了媒体采访，表示对整件事的发酵都十分意外，自己也没想到，既困扰又后悔。 </p>
+<p>现在已经 删除了原视频并发布说明视频，希望事件赶快平息。 </p>
+<p class="image-wrapper"><img data-img-size-val="859,855" src="https://img.36krcdn.com/hsossms/20241108/v2_54fbd8987d9a4c27a0d7ec75c302b486@5888275_oswg1180829oswg859oswg855_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>整件事到底是真是假，没人敢笃定，而真相其实也没那么重要。 </p>
+<p>倒是盒马和山姆的瑞士卷，这两天应该是卖了不少。 </p>
+<p>总之，无论如何，“  瑞 士卷事件 ”差评君不关心。 </p>
+<p><strong>今天之所以非要聊聊它，主要是这事让我一下想到了类似的“ 引流贴 ”。</strong></p>
+<p><strong>而对于引流贴，我确实是积怨已久了。</strong></p>
 <h2><strong>01</strong></h2>
-<p>巨头布局刷掌支付意欲何为？</p>
-<p>“刷掌支付的‘掌纹+掌静脉’双因子验证模式能够严密商家的风控防线，带来安全、便捷的支付收款方式，特别是在一些需要频繁进行支付的场景下，能够大幅提高支付效率，同时也能降低消费者对‘人脸’此类敏感信息的戒备心理。”素喜智研高级研究员苏筱芮表示。</p>
-<p>博通咨询金融业资深分析师王蓬博认为，生物识别技术从介质层面看有不易遗忘、随身携带、不易伪造等特征，随着5G时代的到来，通过生物识别介质便捷支付是新的发展趋势。</p>
-<p>“微信支付会担心在新型生物识别技术的作用下，支付用户会摆脱手机特别是微信的支付习惯。”王蓬博表示，随着支付介质的改变，部分线下用户可能会尝试新的支付介质，对这部分用户的争夺亦是微信支付、支付宝等支付公司积极布局刷掌支付的动力。</p>
-<p>不过，王蓬博提醒，<strong>从往年推广扫脸支付和支付宝碰一碰支付的经验看，都需要给C端用户、收单厂商和聚合支付机构以及整条产业链更多分润激励。</strong>较高的推广成本，叠加用户对二维码支付等现有支付习惯的黏性，以及个人信息保护意识的进一步增强。“从实际推广来看，数据可能远远不如预期。”</p>
-<p>对此，苏筱芮的观点略有不同。“刷掌技术属于近年来的新兴技术，在海外地区具有广阔的应用场景价值，后续不论是拓客还是具体落地使用均值得期待。”</p>
-<p>在苏筱芮看来，刷掌支付是对现有支付方式的一种补充。在相关技术规范、信息传输规范、隐私保护规范完善之后，未来有可能进入主流支付方式行列。</p>
+<p>不知道大伙有没有这种感觉，每天上网本来是找乐子，或者看看新闻什么的。 </p>
+<p><strong>但总是逛着逛着，就莫名其妙一屁股坐进了“ 互联网评审团 ”的位置上。</strong></p>
+<p>啪嚓一张图糊脸上，上来就问你“ 帮同学垫付，第二天少了 0.06 元怎么办 ”，让你给评评理。 </p>
+<p class="image-wrapper"><img data-img-size-val="721,1172" src="https://img.36krcdn.com/hsossms/20241108/v2_8018f7b2ac9a4a52a8ba712c377aed53@5888275_oswg441856oswg721oswg1172_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这件事在日常生活中，真挺常见的，估计每个人都遇到过。 </p>
+<p>可就这么一件事，您猜怎么着，直接炸出来 1.4 万条评论。 </p>
+<p class="image-wrapper"><img data-img-size-val="372,72" src="https://img.36krcdn.com/hsossms/20241108/v2_07e1c28770044670b27c867b72490f93@5888275_oswg2819oswg372oswg72_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>打开评论区一看，大伙已经自动划分成了原告和被告的陪审团成员。</strong></p>
+<p>有的人支持室友，说 0.06 也计较，太矫情了； </p>
+<p>有的人则支持贴主，表示垫付是人情，不多给还则罢了，少给简直不可原谅。 </p>
+<p>然后，两派就这么辩论起来了。 </p>
+<p class="image-wrapper"><img data-img-size-val="655,610" src="https://img.36krcdn.com/hsossms/20241108/v2_bf9462d50d1a4078b64522dc7ac6675b@5888275_oswg103855oswg655oswg610_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>上面这个大伙先记着，差评君称之为案例一。 </p>
+<p><strong>下面，咱再看个味儿更冲的案例二。</strong></p>
+<p>经典彩礼问题起手，问： </p>
+<p>“ 广东的父母同意拿出 20 万彩礼，但要求必须生孩子，合理么？” </p>
+<p>简单几句话，连个照片都懒得配，不过不重要，因为不管你支持或反对，此时应该已经想打开评论区瞧瞧了。 </p>
+<p class="image-wrapper"><img data-img-size-val="757,1262" src="https://img.36krcdn.com/hsossms/20241108/v2_9439de514e954ff0b54fd8beaeccb176@5888275_oswg496687oswg757oswg1262_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>类似的案例要多少有多少，几个字随便配上一张图。 </p>
+<p>问题么，不外乎这么几个： </p>
+<p><strong>室友关系、彩礼问题、同事矛盾、婆媳纠纷、老师与家长等等。</strong></p>
+<p>而且问题突出一个常见又离谱，生活中大伙也许没遇到过同样的，但肯定多少也听说类似的。 </p>
+<p>总之，这类帖子就差明着跟你说，请选择你的阵营，欢迎在评论区开战了。 </p>
+<p class="image-wrapper"><img data-img-size-val="592,888" src="https://img.36krcdn.com/hsossms/20241108/v2_46a16f95107a44f8a1813572e50ccf9a@5888275_oswg593454oswg592oswg888_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而，就当你被气得够呛，跟网友争论完之后， 贴主反而消失了。 </p>
+<p>此时你点进头像一看，这贴主就只发过一条内容，名字也是一串数字加字母。</p>
+<p><strong>才幡然醒悟，坏了，碰到引流贴了。</strong></p>
+<p>差友们还记得案例一吗？ </p>
+<p>其实字都不带改的，一搜就有一堆，唯一的不同，是他少了 0.06，我少了 0.08。</p>
+<p>显然，这帮帖子都是揣着模版来的，就等你上钩。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,367" src="https://img.36krcdn.com/hsossms/20241108/v2_8cab150551c1472d9e05e48708831c4a@5888275_oswg230545oswg1080oswg367_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>所以瑞士卷事件，被这么多人质疑其真实性，真不怪大伙。 </p>
+<p>毕竟网上每个人，现在都多少有点引流贴 PTSD。 </p>
+<p><strong>那么，问题又来了，引流贴到底想干啥呢？</strong></p>
 <h2><strong>02</strong></h2>
-<p>将生物识别技术应用于支付领域，用户更为熟悉的是刷脸支付。近年来，随着“FaceTime诈骗”等基于人脸识别的犯罪行为出现，用户对生物识别技术的安全性顾虑有所上升。</p>
-<p>华东政法大学数据法律研究中心主任高富平此前接受《财经》采访时表示，作为一种生物识别信息，掌纹与指纹、人脸等信息一样，都有可能被用于跟踪用户个人轨迹。在他看来，<strong>支付机构使用个人生物识别数据进行身份验证无可厚非，但应该严格限制除身份验证之外的二次开发应用。</strong>“这需要监管部门加强规制。”高富平表示。</p>
-<p>腾讯刷掌海外团队回应称，腾讯刷掌独创应用了“识别掌纹+掌静脉”的双重核验，运用个人手掌信息的独特性进行高精度身份区分，即使是同卵双胞胎也有明显差异。</p>
-<p>在个人隐私数据保护方面，前述团队称，腾讯刷掌的用户数据需要在用户充分知情并授权的前提下，未经用户授权允许，绝不会采集和使用用户的相关信息；在刷掌环节，遵循用户授权和最小化数据采集原则。腾讯的终端和后台都采用了数据脱敏和数据加密技术，采用业界安全的加密通信协议，极大地保障了数据在传输、使用、存储过程中的数据安全。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkyMjY5MTQ1Nw==&amp;mid=2247619670&amp;idx=3&amp;sn=60b4b1cdbbca3b65b5634dc07734dd5e&amp;chksm=c0c4a7067417c43718788410d33f076817309d1fbed36aaca29f998a2498a06d72e8c14d7cb2&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“财经五月花”（ID：Caijing-MayFlower）</a>，作者：财经五月花，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026355620242948</guid><pubDate>Fri, 08 Nov 2024 09:02:00 +0800</pubDate></item><item><title>何小鹏“反咬”了雷军一口</title><link>https://36kr.com/p/3026465769763712</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>小米董事长雷军是小鹏汽车的投资人，曾参与过小鹏的天使轮融资。而小鹏汽车CEO何小鹏则在多个场合表达过对雷军敬意和感激。但如今，双方的关系却日渐尴尬。</p>
-<p>今年3月，小米SU7上市发布会，小鹏汽车CEO何小鹏坐在台下，亲眼目睹了小米SU7的爆火。而在小米SU7的热闹之下，小鹏曾经的当家花旦，小鹏P7i沦为了“炮灰”。</p>
-<p>以至于发布会当晚，有网友调侃道，“看了小米SU7发布会，何小鹏提前离场”。</p>
-<p>半年后，何小鹏终于迎来了反击时刻。</p>
-<p>11月7日，小鹏P7+发布，售价18.68万元-21.88万元，刚刚超过小米SU7的入门版售价（21.59万元）。何小鹏终于要和它的天使投资人雷军抢生意了。</p>
-<p class="image-wrapper"><img data-img-size-val="800,534" src="https://img.36krcdn.com/hsossms/20241107/v2_b57a566a25f54cab866f5084d404071a@5507741_oswg63971oswg800oswg534_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对于小鹏P7+是否会抢夺小米SU7用户，发布会后，何小鹏在接受媒体采访时表示，“小鹏P7+和小米SU7是两个方向，都是友军，雷军是大哥。”</p>
-<p>但就像小米SU7抢了小鹏P7的市场一样，小鹏P7+能不能抢小米SU7的市场，何小鹏和雷军说了不算。</p>
-<h2><strong>小鹏P7+，和小鹏P7没关系</strong></h2>
-<p>虽然名字叫“P7+”，看上去好像是小鹏P7或P7i的升级版车型，但事实上，无论是外观还是功能配置，小鹏P7+都是一款全新设计的新车，除了名字有所沿袭，完全是两款独立车型。简而言之，P7主打性能轿跑，P7+主打家用大空间。</p>
-<p>首先是外观，除了小鹏的车标和车头日行灯，两款车几乎没有太多设计上的共同点。 小鹏P7+长/宽/高为5056/1937/1512mm，轴距为3000mm。P7+相比P7车身更为修长，车尾采用独特的双层尾翼设计，风阻系数为0.206。</p>
-<p>作为一款主打家用的车型，小鹏P7+在空间方面的表现也可圈可点，官方称88%得房率“同级第一”，前后排拥有“双1米”乘坐空间，以及后备厢1米宽、1米高、1米深，容积可达725L，最大可拓展至2221L。小鹏表示，最多可放下33个行李箱。</p>
-<p class="image-wrapper"><img data-img-size-val="800,533" src="https://img.36krcdn.com/hsossms/20241107/v2_d9c6da64383b45cab31cac43d3c2a6d5@5507741_oswg55631oswg800oswg533_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>小鹏P7+配备了一块8英寸后排娱乐场景屏，以及座椅全系标配双通风、双加热、六大场景按摩，后排座椅支持10°靠背电动无极调节等。</p>
-<p>续航和动力方面，小鹏P7+全系标配800V高压架构，SiC功率模块最高效率 99.5%，号称可凭借算法令汽车在相同电池容量情况下提升10公里。</p>
-<p>小鹏P7+采用前双叉臂、后五连杆悬架，单电机版最大功率180kW或230kW，百公里加速最快5.9秒，提供60.7kWh和76.3kWh两种规格的磷酸铁锂电池包，官标续航分别为602km和710km。小鹏称，下个月OTA后，可分别提升至615km和725km。</p>
-<p>在小鹏最擅长的智能化方面，小鹏P7+也打造出了自己的优势，其首发搭载AI天玑5.4.0，采用端到端大模型，小鹏称，智驾整体拟人感提升超4倍，变道成功率提升了53%，绕行成功率提升155%。</p>
-<p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20241107/v2_0e0d76b3f663422f8fbbdba48ad14dd9@5507741_oswg51078oswg800oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>小鹏P7+还首发搭载了小鹏最新的云端大模型，内置AI鹰眼智驾方案，感知距离提升125%、识别速度提升40%，采用“比人眼清晰10倍”的800万像素摄像头+HDR技术，不依赖高精地图、激光雷达。最重要的是，这套智驾方案全系标配，并且不选装、不收费、不订阅。小鹏P7+也成为了目前同价位唯一一款全系标配高阶智驾的车型。</p>
-<p>总的来说，小鹏P7+的产品力在同价位车型中无疑具备很强的竞争力，不仅全系标配目前业内第一梯队的高阶智驾，其空间、能耗、功能配置等均可圈可点。</p>
-<p>小鹏P7+最大不确定性在于对同门车型小鹏P7的影响。</p>
-<p>作为曾经的功勋车型，P7一度是小鹏的销量支柱，而P7的售价区间同样在20万-30万元，与P7+的价位完全重合。</p>
-<p>尽管小鹏对两者做了卖点上的区分，P7是纯电轿跑，主打性能和年轻化；P7+是大空间纯电轿车，主打家庭用户。类似的双车战略，比亚迪、大众等车企均广泛采用。</p>
-<p>但比亚迪和大众都是百万销量的汽车巨头，因而能用略微重合的车型去争夺每一个细分用户群。但小鹏作为一个新势力品牌，不具备老牌车企的定义能力，P7和P7+作为尺寸、价格相近的纯电轿车，能否在用户间保持足够的区分度，将是一件相当困难的事情。</p>
-<p>但即便存在“兄弟互殴”、产品内耗的潜在风险，小鹏也到了必须推出P7+的时刻。</p>
-<h2><strong>小鹏急需一款“新P7”</strong></h2>
-<p>2020年4月，小鹏P7正式上市，这款纯电轿车一直以来都被誉为“小鹏最美车型”。作为一款纯电轿跑，小鹏P7不仅有颜值，其市场表现也曾有过高光。</p>
-<p>2021年，小鹏P7全年交付新车超6万辆，占小鹏全年新车交付量的2/3，并且，P7还登顶了当年国内新势力纯电车型累计销量榜第一，在20万元以上纯电车型中，销量仅次于特斯拉Model 3。</p>
-<p class="image-wrapper"><img data-img-size-val="800,600" src="https://img.36krcdn.com/hsossms/20241107/v2_5c1e1c0a47d74d6cab92a5743ef05596@5507741_oswg60281oswg800oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>作为一款新势力品牌的纯电轿车，能在如此短时间内取得这样的成绩，P7无疑是小鹏的大功臣。</p>
-<p>但到了2023年，小鹏P7i（小鹏P7改款）年销量下滑至4.6万辆，降幅超过20%。进入2024年，小鹏P7销量持续走低，今年1-9月累计销量仅1.3万辆，其中9月销量1242辆，同比大降73.4%，环比下降3.05%。</p>
-<p class="image-wrapper"><img data-img-size-val="800,446" src="https://img.36krcdn.com/hsossms/20241107/v2_93dc37abc93f4b23b68562b88eaa9dbe@5507741_oswg19813oswg800oswg446_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>如今小鹏P7的月度销量长期徘徊在1000辆附近，与最高点时的9000多辆相去甚远。作为小鹏旗下售价最高的纯电车型，P7的销量低迷也是拖累小鹏销量的主要原因之一。</p>
-<p>2024年以来，小鹏曾连续4个月销量低于一万辆，其后又连续4个月销量徘徊在1.1万辆，一度跌出新势力销量榜前十。</p>
-<p class="image-wrapper"><img data-img-size-val="800,449" src="https://img.36krcdn.com/hsossms/20241107/v2_bca29bd6eca54acd92f3ff57fd3bde96@5507741_oswg23086oswg800oswg449_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>直到今年8月，小鹏MONA M03上市，48小时大定即突破30000辆，9、10月连续两个月交付超一万辆，其中10月销量23917辆，创小鹏单月交付新高。</p>
-<p>毫不夸张地说，小鹏MONA M03的订单爆发不仅挽救了岌岌可危的销量，也把小鹏从悬崖边缘拉了回来。</p>
-<p>但MONA M03的热卖并没有解决小鹏的所有隐忧。一方面，MONA M03真正的竞争对手即将到来，未来其面临的竞争环境大概不会如现在这般美好。</p>
-<p>MONA M03身处竞争激烈的A级纯电轿车市场，过去这一价位的爆款还有比亚迪秦家族，其中秦PLUS EV月均销量长期保持在一万辆以上，新车型秦L DM-i上市后也已连续三个月销量突破3万辆，而它的纯电版，秦L EV已经箭在弦上。</p>
-<p>小鹏MONA M03打响市场后，也引来了更多竞争对手的觊觎。11月6日上市的广汽埃安RT售价11.98万-16.98万元，与小鹏MONA M03（售价11.98万元-15.58万元）几乎完全重合。</p>
-<p class="image-wrapper"><img data-img-size-val="800,527" src="https://img.36krcdn.com/hsossms/20241107/v2_f1e04331d91f46b1a98174cb3e8ac0e7@5507741_oswg53533oswg800oswg527_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>埃安RT不仅上市前，就明确把MONA M03作为直接竞品，而且其产品力也不弱于。埃安RT不仅支持高阶智驾，还能选装后者不支持的激光雷达。根据埃安公布的信息，上市仅一天，埃安RT订单数已突破4万台，与当初MONA M03的成绩相比不遑多让。</p>
-<p>因此，MONA M03尽管已取得初步成功，但前有追兵，后有猛虎的小鹏，仍然不能掉以轻心。</p>
-<p>另一方面，MONA M03所处的11万-16万元价位，不仅历来竞争激烈，而且受限于价格，其对品牌和利润的提升也相对有限。</p>
-<p>作为一家还未实现盈利，已累计亏损384亿元（截至2024年二季度）的上市公司，小鹏需要更强的造血能力。也是因此，售价更高的小鹏P7+是小鹏必须要争取的市场。</p>
-<h2><strong>更大的挑战还在后面</strong></h2>
-<p>在11月6日的2024小鹏AI科技日上，小鹏正式发布鲲鹏超级电动体系，其中“鲲”代表超级增程系统，“鹏”代表纯电体系。这意味着，小鹏正式加入理想、问界等领衔的增程混动车市场。</p>
-<p>但小鹏入局增程，更多还是无奈。</p>
-<p>去年和今年的新势力销量榜前三，理想、鸿蒙智行、零跑均主打增程车型，蔚来也有招牌的换电补能。小鹏既没有大油箱，又不支持换电，纯电车型天生自带的续航焦虑，在小鹏身上显得尤为突出。因此，增程是小鹏为数不多的选择。</p>
-<p>真正令人意外的是，小鹏的增程来得还是太晚了。如今，理想、鸿蒙智行等已经占据增程车型的品牌高地，小鹏想要从前者虎口夺食，难度显然要比一年前和现在，都高得多。</p>
-<p>再者，小鹏并未公布其首款增程车型的具体上市时间，据此前36氪报道，小鹏首款增程车型是一款大型SUV，以G9为原型车开发，主要针对20万元及以上价格带，预计2025年下半年量产。</p>
-<p class="image-wrapper"><img data-img-size-val="800,534" src="https://img.36krcdn.com/hsossms/20241107/v2_f6ceacc494be445a876efd3006153c4a@5507741_oswg53119oswg800oswg534_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一个纯电品牌极氪此前也表示，将在明年推出插电混动车型。等到小鹏的增程车型上市，届时小鹏还能分到多少肉，恐怕不容乐观。小米也被媒体报道称将推出增程车型，并且已在招聘相关工程师。单一的纯电品牌越来越少，小鹏也到了不得不作出选择的时候。</p>
-<p>小鹏的另外一个潜在风险是，改款车型陷入停滞。</p>
-<p>极氪001“一年三改款”虽然背刺老车主，但却能吸引新用户。但小鹏在改款方面却显得格外保守，小鹏P7i已经有19个月没有改款，小鹏G6有15个月没有改款，小鹏G9则有14个月没有改款。</p>
-<p>在如今的新能源时代，比亚迪、理想、蔚来等主流新能源品牌几乎都保持着一年一改款的策略，及时维持车型的关注度。而小鹏老车型迟迟不推出改款车型，势必容易在纷繁的市场中走向沉寂。</p>
-<p>对小鹏来说，MONA M03只能帮小鹏渡过第一劫，后面的艰难险阻还需更多不容有失的“MONA M03”。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/gVaVc-ST4-rNdzxyvv7DwQ" rel="noopener noreferrer nofollow" target="_blank">“智行驾道”</a>，作者：刘凡，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026465769763712</guid><pubDate>Fri, 08 Nov 2024 09:11:00 +0800</pubDate></item><item><title>中芯国际：撑得起全村的希望吗？</title><link>https://36kr.com/p/3026996805985800</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>中芯国际（0981.HK/688981.SH）北京时间2024年11月7日晚，港股盘后发布2024年度第三季度财报（截至2024年9月），要点如下：</p>
-<p><strong>1、整体业绩：毛利率再超预期。中芯国际本季度实现收入21.71亿美元，环比提升14.2%</strong>，符合指引区间（环比增长13-15%），<strong>符合市场预期（21.72亿美元）</strong>。<strong>公司本季毛利率20.5%</strong>，略超指引区间上限（18-20%），<strong>好于市场一致预期（18.9%）</strong>。公司本季度收入和毛利率的增长，主要得益于晶圆产品均价的提升。</p>
-<p><strong>2、细观三大核心指标：收入、毛利率和产能利用率。</strong>收入端通过量价分拆，<strong>中芯国际本季度收入的增长主要来自于产品均价的带动，出货量环比微增</strong>。这主要是公司本季度12寸晶圆出货大幅增长，结构性带动产品均价的提升。<strong>公司本季度产品出货量环比增长+0.5%，而产品均价环比提升13.6%。</strong></p>
-<p><strong>3、业务进展情况：消费电子是主要增长来源。公司本季度消费电子业务占比提升至43%，是公司最大的收入来源，主要受相关产业链客户补库存的需求增加</strong>。<strong>公司本季度中国区收入占比再创新高，达到86%。</strong>综合来看，国内消费电子类的客户是公司本季度增长的主要驱动力，公司仍受益于国产化需求的增加。</p>
-<p><strong>4、下季度指引：中芯国际预期2024年第四季度收入环比增长0-2%，对应21.7-22.1亿美元，略好于市场一致预期（21.3亿美元）；毛利率18-20%，符合市场预期（18.97%）。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_2e887915e377492b8de11722b06e3382@000000_oswg351633oswg1080oswg550_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>海豚君整体观点：中芯国际本财报整体还可以。</strong></p>
-<p>从季度数据看，公司收入端符合预期，毛利率再超市场预期。业绩增长，主要来自于均价的提升。其中出货量环比增长+0.5%，<strong>而产品均价环比提升13.6%</strong>。在12寸产品出货占比提升的带动下，公司整体毛利率本季度实现结构性拉升。</p>
-<p>从公司下游出货结构来看，手机业务环比略有回落，而消费电子是公司本季度增量最大的一项。<strong>结合高通披露的IoT业务看，消费电子类中部分产品当前处于产业链补库存的阶段</strong>。芯片国产化仍在持续推进，本季度公司在中国区的收入占比进一步提升至86%。</p>
-<p>对于下季度指引，海豚君认为是中规中矩的。由于四季度通常不是公司的出货旺季，在收入端略有增长，毛利率受到折旧摊销等成本端的压力，仍维持在20%附近的水位。</p>
-<p>至于市场比较关心的资本开支，公司本季度回落至11.79亿美元，同比/环比均有40%左右的下滑。<strong>西方国家出口限制的加码，一定程度上影响了公司本季度的资本开支（例如9月开始荷兰政府加大了ASML部分DUV产品的限制）</strong>。</p>
-<p><strong>存货情况继续好转、产能利用率重回90%</strong>，公司业绩也在逐渐向好。虽然折旧摊销仍在高位，但随着公司产能利用率及产量的增长，相关成本也会继续摊薄，进一步有利于毛利率的回升。整体来看，<strong>虽然半导体周期仍未完全回暖，但在国产化需求的带动下，公司经营面已经在逐渐转好。</strong>后续可以通过公司的电话会继续关注公司对中国消费电子和智能手机部门的复苏持续性、政府对本土AI芯片的支持情况以及公司对先进节点的发展情况等具体信息。</p>
-<p><strong>虽然公司业绩面逐渐向好，但当前股价中已经报了包含了部分预期。公司虽然明年仍将有接近30%的增长，但当前市值对于2025年的预期业绩大致已经达到25-30倍的PE。后续的进一步打开上涨空间，仍需要政策面、公司管理层或经营面带来更多超预期的亮点。</strong></p>
-<p><strong>以下是详细分析</strong></p>
-<h2><strong>01 核心指标看中芯国际：收入、毛利率和产能利用率</strong></h2>
-<p><strong>核心指标 1：收入端</strong></p>
-<p><strong>2024年第三季度中芯国际实现营收21.7亿美元，环比增加14.2%，符合指引区间（环比增长13-15%）</strong>。公司本季度的出货量环比微增，而价格端环比有较明显的提升。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_5a898c37b31a47e3ab4dd0c1c08adb8a@000000_oswg59805oswg705oswg433_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从量和价的维度来具体分析，本季度中芯国际收入增长的主要影响因子：</p>
-<p><strong>1）量的维度，</strong>中芯国际本季晶圆付运量（等效8寸）达到2122千片，环比增长0.5%；</p>
-<p><strong>2）价的维度，</strong>中芯国际本季单晶圆收入（等效8寸）<strong>为1023美元，环比提升13.6%。</strong></p>
-<p>从量价分拆来看，<strong>本季度营收端出现回暖，主要是产品均价的提升，而公司产品的出货量仅有略微增长</strong>。</p>
-<p><strong>随着下游客户拉货的增加，公司本季度业绩明显好转。本季度产品均价的回升，主要是12寸产品出货量提升，结构性推高了公司的产品均价</strong>。此外，本季度公司的资本开支回落至11.8亿美元，环比减少47%。海豚君认为这一部分也受西方国家出口限制加码的影响。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_e205466524b5463e9a76f2a6615480bf@000000_oswg77622oswg707oswg433_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>展望2024年四季度，中芯国际给出了收入环比增长0-2%的季度指引，对应21.7-22.1亿美元，略好于市场一致预期（21.3亿美元）。四季度通常不是公司的出货旺季，本次指引环比微增，也是可以接受的。</strong></p>
-<p><strong>核心指标 2：毛利率</strong></p>
-<p><strong>2024年第三季度中芯国际的毛利率为20.5%，环比提升6.6pct，好于市场一致预期（18.9%），略超指引区间上限（18-20%）。</strong></p>
-<p>对公司进行成本结构拆分，分析本季度中芯国际毛利率变化的原因：</p>
-<p><strong>单片毛利=单片晶圆收入 - 单片固定成本 - 单片可变成本</strong></p>
-<p><strong>1）单片晶圆收入</strong>：中芯国际本季单晶圆收入（等效8寸）为1023美元，环比上升123美元/片。</p>
-<p><strong>2）单片固定成本（折旧及摊销）</strong>：本季单片固定成本（等效8寸）为324美元，环比下降9美元/片。</p>
-<p><strong>3）单片可变成本（其他制造费用）</strong>：本季单片可变成本（等效8寸）为490美元，环比增加48美元/片。</p>
-<p><strong>4）单片毛利</strong>：中芯国际本季单片毛利（等效8寸）为209美元，环比增加84美元/片。</p>
-<p>通过成本分拆发现，公司本季度毛利率增长的主要来源于产品均价的提升。此外，在出货量提升的规模效应影响下，公司本季度的单位固定成本（折旧摊销）有所下降。虽然12寸片占比提升，增加了单位可变成本，但最终公司本季度单片毛利有明显的增长。<strong>海豚君认为随着公司出货量的增加，部分成本项仍将继续被摊薄，从而对公司毛利率有正向作用。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_a89cf5bfce5d401688246ad4a5d20969@000000_oswg55155oswg737oswg339_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>展望2024年四季度，中芯国际继续给出了毛利率18-20%的季度指引，符合市场的预期（18.97%）</strong>。当前半导体还未完全进入景气周期，仍处于回暖阶段，而四季度本身也不是公司的出货旺季。<strong>虽然公司的折旧摊销仍在相对高位，但随着公司出货量大幅提升，有利于摊薄了公司固定成本等项目的单位成本，从而带动公司毛利率的提升。</strong></p>
-<p><strong>核心指标 3：产能利用率</strong></p>
-<p>产能利用率指标，不仅反映中芯国际季度经营情况，也从中能折射出整个晶圆制造行业的景气度趋势。在半导体相对低迷时期，关注产能利用率指标，有助于掌握公司及行业的供需变化情况。</p>
-<p><strong>2024年第三季度中芯国际的产能利用率90.4%，本季度公司的产能利用率继续回升，但还未回到满产的阶段。</strong>海豚君认为虽然手机、PC等整体市场需求仍相对疲软，但公司的部分客户仍有产业链备货补库存的需求。<strong>当前公司产能利用率已经重新回到9成，表明半导体行业的整体供需关系正在好转</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_8a5820368de84891924dcf4b0ef4fb64@000000_oswg53026oswg710oswg377_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>02 业务层面看中芯国际</strong></h2>
-<p>看完三大核心指标后，海豚君和大家一起全方位来看中芯国际的季度业务情况：</p>
-<h3><strong>各下游市场方面</strong></h3>
-<p><strong>本季度中芯国际的智能手机业务收入占比为24.9%，虽然占比回落，但季度收入仍在5亿美元的相对高位。</strong>海豚君认为部分公司在上季度提前进行库存补充，而本季度对手机客户的出货有所回落<strong>。消费电子业务本季度占比继续提升至42.6%，是公司最大的收入来源，主要得益于产业链备货补库存的需求（结合高通IoT业务的高增长看）</strong>。</p>
-<p>公司将过去的其他业务进行了细分，其中电脑及平板业务占比为16.4%，工业与汽车业务占比较低为7.9%。电脑及平板业务有所回暖，而工业与汽车业务保持稳定。</p>
-<p>综合下游各业务的表现，<strong>公司本季度收入的增长主要是消费电子、电脑及平板业务的拉动</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_3443b0e789bd47ee83a865106f13e0fe@000000_oswg51696oswg732oswg368_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>各晶圆尺寸</strong></h3>
-<p>中芯国际从2022年一季度起不再披露各制程节点的收入占比，仅披露了8寸和12寸晶圆收入占比，这就无法细致地看到每个节点的收入变化情况。</p>
-<p><strong>本季度中芯国际12寸晶圆收入占比提升至新高，达到78.5%。</strong>具体从两种尺寸的占比和公司收入来看，<strong>中芯国际本季度12寸芯片的收入环比提升21.8%，而8寸片的收入环比下滑7%</strong>。总的来看，<strong>当前半导体市场（消费电子类产品）对12寸片的需求较为旺盛，而8寸片的需求相对较弱。</strong>正是在12寸片出货的推动下，公司产品均价和毛利率进一步走高。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_00051abd56644d5aa9029b2e6edd3858@000000_oswg43371oswg745oswg345_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>各地区分布情况</strong></h3>
-<p>中芯国际重新调整了地区收入分布的口径，从原来的“北美洲/中国内地及香港/欧洲及亚洲”调整成了现在的“中国区/美国区/欧亚区”。由于口径的调整，数据上略有差异。</p>
-<p><strong>从本季度的地区收入来看，中国区收入本季度达到86.4%的新高，国内市场是公司的核心收入来源。</strong>受益于国内客户对消费电子类产品及12寸片的拉货，公司本季度业绩明显提升。国产化需求，仍然是公司重要的推动力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_1278eea7cf3a4a20a713d44a7032f049@000000_oswg43722oswg689oswg362_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>03 经营数据看中芯国际</strong></h2>
-<h3><strong>经营开支：政府性收入有所减少</strong></h3>
-<p><strong>从经营开支角度看，本季度中芯国际经营开支是2.74亿美元，有所回升，主要是本季度其他经营收入减少所致。</strong></p>
-<p>拆分本季度的经营开支看，研究及开发支出1.79亿美元，一般及行政开支1.36亿美元以及销售及市场推广开支0.1亿美元。一般及行政开支的减少，主要是三季度厂区开办支出减少影响。此外，其他经营收入减少，<strong>是受本季度政府资金收入减少的影响</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_93bba69d276f483b8f8b4d3f762ecc62@000000_oswg61249oswg786oswg374_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>经营指标：营运情况继续好转</strong></h3>
-<p>从经营指标角度看，主要从公司的存货、应收账款两项观察：</p>
-<p><strong>①中芯国际本季度存货28.77亿美元，环比增加5%；</strong></p>
-<p><strong>②中芯国际本季度应收账款9.39亿美元，环比减少24%。</strong></p>
-<p>③结合资产负债表中存货&amp;应收账款和收入之间的关系，本季度存货/收入和应收账款/收入分别为132.5% 和43.2%。<strong>从营运指标的角度看，中芯国际的存货占比继续下滑。存货压力的减轻，有助于公司毛利率的回升</strong>。</p>
-<p>结合公司的存货和产能利用率数据，基本能看到公司的经营变化趋势。<strong>当2022年末存货/收入突破100%，并持续走高的时候，公司明显调低了产能利用率。而随着下游客户需求的回暖，存货也开始去化，公司也将产能利用率逐渐提升。当前存货占比回落至130%附近，公司将产能利用率提高至90%左右。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_11a98308c4814d2dbfa57f8f3eb58627@000000_oswg69645oswg789oswg405_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>EBITDA 指标：继续回升</strong></h3>
-<p><strong>从 EBITDA 角度看，本季度中芯国际税息折旧及摊销前利润11.57亿美元，继续回升。</strong></p>
-<p>分拆看指标看，<strong>中芯国际的税息折旧及摊销前利润主要来自于经营利润的释放和折旧摊销两部分，经测算本季度的利润率（税息折旧及摊销前），维持在53.3%</strong>。公司由于制造业重资产的特点，公司利润中的大部分都被折旧和摊销给侵蚀了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_ae0ee3c90ddc4d209bbcc79a9e02e2a7@000000_oswg59460oswg829oswg378_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg4MTUyNzI1Mg==&amp;mid=2247550144&amp;idx=1&amp;sn=aa7db1d79065c9a2343c0a495ce136fd&amp;chksm=ce83cbf41e5726b779b5464890e0b462c0000b5a932179a3ddc06b58e7b002ff2a34a9e00320&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“海豚投研”（ID：haituntouyan）</a>，作者：海豚君，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026996805985800</guid><pubDate>Fri, 08 Nov 2024 09:19:00 +0800</pubDate></item><item><title>资生堂领头，日妆要杀回来了？</title><link>https://36kr.com/p/3026397128336643</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>从近期双11的战况来看，日系美妆正在度过一个冰火两重天的双11。 </p>
-<p>一方面，从双11美妆相关TOP榜表现看，在天猫抢先购全周期(10.21 20:00-10.24 20:00)的快消、美妆榜单中，SK-II、CPB肌肤之钥挤进TOP10。</p>
-<p>另一方面，从近期日妆企业披露的三季报数据来看，芳珂集团旗下品牌FANCL陷入增长困境、Attenir艾天然在中国的跨境电子商务销售低迷；资生堂品牌在中国的发展仍面临挑战。</p>
-<p>可以看到，在双11期间，日系美妆品牌已有回暖之迹。资生堂集团也称，“中国市场正在从以大型促销为中心的增长，向更基于消费者的双重需求的品牌可持续增长转变。CPB肌肤之钥、NARS均有所增长。”</p>
-<p>结合11月7日资生堂集团发布的2024年第三季度业绩报告来看，其在中国市场的发展仍然陷入增长困境。</p>
-<p>“<strong>受旅游零售、中国市场、美洲市场核心营业利润疲软拖累</strong>，其他核心品牌出现负增长。”资生堂集团在财报中如是写道。</p>
-<p>具体来看，资生堂集团2024年前三季度销售额为7228亿日元(约合人民币336亿元)，与去年同期相持平；核心营业利润为274亿日元(约合人民币13亿元)，同比下滑26%；营业利润为22亿日元(约合人民币1亿元)，下跌92%。</p>
-<p>值得一提的是，前三季度营业利润，相较2024年上半年亏损的27.28亿日元(约合人民币1.33亿元)，已有好转。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_9dd36e128e7e4133a6fd4a79141ed290@000000_oswg293080oswg1080oswg592_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中，2024年Q3销售额为2142亿日元(约合人民币100亿元)，同比下滑6%；核心营业利润为81亿日元(约合人民币4亿元)，下跌7%；营业利润下降60%。</p>
-<p>资生堂集团在财报中指出，在2024年累计的前三季度中，地缘政治风险高涨、物价高涨、汇率波动上升等带来的前景不确定性持续存在。中国经济增长减速，且欧洲持续缓慢增长。虽然经济稳步发展，但个人消费势头有所减弱，因此，对未来的警戒感要提高。</p>
-<h2><strong>自救见效？CPB、NARS在华增长了</strong></h2>
-<p>从品牌端来看，除去香水和防晒品类，其他品牌均呈现不同程度下滑态势。</p>
-<p>具体来看，资生堂品牌、NARS、CPB肌肤之钥、醉象，分别下滑7%、5%、2%、10%，而IPSA茵芙莎大跌21%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_44105087637c4359a926b7d8d80d31cb@000000_oswg152285oswg1080oswg582_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>就品牌表现来看，资生堂集团与大部分国际美妆集团呈现同样境况，香水品类呈现增长，而高端护肤品牌出现下滑，也进一步印证了部分高端美妆面临卖不动的难题。</p>
-<p>再按照市场划分来看，日本市场呈现两位数增长，EMEA市场转为负增长，而旅游零售、中国市场单季度又呈现负增长。</p>
-<p>其中，日本市场销售额为2112亿日元(约合人民币98亿元)，同比增长10.2%；营业利润为185亿日元(约合人民币7亿元)。日本市场的增长主要是通过实施经营改革计划“Mirai shift NIPPON 2025”继续推进盈利性改善。</p>
-<p>呈现增长的市场还有欧洲市场、亚太市场、美洲市场，分别增长10.9%、9.1%、6.8%，其中，亚太市场部分国家和地区增长放缓，但以泰国为中心保持增长，得益于资生堂品牌、CPB肌肤之钥带动了整体的增长。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_571059a665094fd1b1bd3e5b8d26a712@000000_oswg271443oswg1080oswg558_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而中国市场销售额为1739亿日元(约合人民币81亿元)，同比下降2.4%；核心营业利润增长32.3%。</p>
-<p>不可否认的是，核污水排海事件、以及对整体经济信心减弱带来的挑战性宏观环境影响，让资生堂集团在中国市场的业绩失去了活力。</p>
-<p>但前文也提到，资生堂集团称中国市场正在从以大型促销为中心的增长。CPB肌肤之钥、NARS由此均有所增长，而资生堂品牌则继续面临挑战。</p>
-<p>再对比近几年业绩来看，受去年核废水影响，资生堂集团从2023年Q3销售额急速缩水，而今年Q3销售额更是近几个季度以来最低值，从侧面反映了，资生堂集团处于转型改革的阵痛期。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_ea75c9766094428095d9b63621586a5e@000000_oswg98475oswg1080oswg510_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>整体来看，虽然今年Q3销售额仍未恢复，甚至部分核心品牌呈现负增长，但去年一直处于阴霾的中国市场总算有回暖迹象，对于资生堂集团来说，这也算是好消息。</p>
-<p>另外，在双11大促的推动下，资生堂集团或也有望在2024年全年财报中看到中国市场重回增长。</p>
-<h2><strong>排名上升，日妆要反攻抢位了？</strong></h2>
-<p>过去一年，日妆一直呈现失势状态，“核污染水影响”成为日系美妆企业财报中业绩下滑的主要原因。去年双11大促，资生堂品牌首次跌出天猫美妆品牌成交榜TOP10的榜单。而2021年、2022年，资生堂品牌还分别位列榜单第5名、第7名。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_1238549a344a497b8b9c7545591af468@000000_oswg290581oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>虽然今年双11大促还未结束，但从目前日系美妆整体的位次排名情况来看，日系美妆品牌似乎有回暖之迹。</p>
-<h3><strong>资生堂在双11有望重进前十？</strong></h3>
-<p>从天猫美妆榜单来看，在预售首日与抢先购全周期成交榜对比中，SK-II、资生堂、肌肤之钥排名均上升，其中，SK-11排名从TOP17升至TOP8（详见）。</p>
-<p>同时，在天猫双11快消行业累计成交榜中(2024年10月21日20:00-11月3日24:00)，SK-II排名第8、CPB排名第10、资生堂排名第17。</p>
-<p>另据抖音电商数据显示，美妆日化行业品牌商家的双11正式期开门红战绩榜单中，资生堂位列第2、肌肤之钥排第5。</p>
-<p>从上述种种表现来看，似乎日系美妆迎来回暖之兆，资生堂品牌也或可能重新回到天猫双11成交榜前十。</p>
-<p>值得关注的是，今年9月，国家外交部官网发布《中日双方就福岛第一核电站核污染水排海问题达成共识》(以下简称：《共识》)，其中提到，将逐步恢复符合规准的日本水产品进口。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_fef90faa71804d8489ee514153577ea6@000000_oswg276353oswg1080oswg649_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图源：国家外交部官网</p>
-<p>对日系化妆品企业来说，此前因核污染水排海事件导致的产品信任度下降，或能因此次《共识》的达成，而在一定程度上，使日系美妆品牌有望在中国市场实现复苏和增长。</p>
-<h3><strong>资生堂等高端美妆在华熄火？</strong></h3>
-<p>曾经，高端美妆作为欧莱雅集团、雅诗兰黛增长引擎的主要来源，给国际美妆企业带来了不小助力。而资生堂集团或许正是看到了前景，也瞄准了高端化路径。</p>
-<p>近年来，资生堂集团通过一系列战略调整，如加强高端品牌布局、收购新品牌等，提升高端产品线的销售额占比。</p>
-<p>据财报数据显示，2023年资生堂集团高端美妆的销售额占比已从2020年的47%提升到61%。</p>
-<p>据悉，今年6月底，资生堂集团彻底告别在1959年开创的个人护理业务。其宣布已与私募股权基金CVC Capital Partners签订股权转让协议，将其权益法关联公司FineToday Holdings Co.，Ltd. (以下简称：FineToday集团)的股份所有权转让给东方美容控股(香港)有限公司。（详见）</p>
-<p>同时，在最新中期战略“SHIFT 2025 and Beyond”中，资生堂集团再次强调加强对品牌、创新和人才三个优先领域的投资，高端化仍是集团的重点方向。</p>
-<p>从目前品牌矩阵来看，资生堂集团在中国运营超过20个品牌(含跨境电商)，其中高档化妆品包括肌肤之钥、醉象、茵芙莎等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241107/v2_fe5b39f2e97b4669bea8417a94390b90@000000_oswg350969oswg1080oswg1177_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但近两年，尤其是今年以来，在众多国际美妆企业财报中，高端美妆已从增长的引擎变成难啃的骨头，这点在中国市场尤为明显，因此，对于资生堂集团来说，想要做好高端美妆生意并不是一件容易的事，尤其是在中国市场。</p>
-<p>具体来看，资生堂孵化的新锐高端护肤品牌BAUM葆木今年7月在天猫闭店；IPSA茵芙莎品牌被爆料频繁撤柜。</p>
-<p>对此，资生堂中国方面曾向媒体回应称，“IPSA茵芙莎品牌正在就线下业务部分作正常的布局调整，以更好地顺应市场变化和消费者需求。”</p>
-<p>今年以来，资生堂集团在人事变动、品牌调整方面的动作也颇为频繁（详见），这一些列动作背后呈现出其想要改变业绩下滑的困境。</p>
-<p>总的来看，资生堂集团相较去年Q4的惨状，已有回暖之势，只是想重回过往巅峰已很难，当下对资生堂等日系美妆而言，更重要的是重建消费者对品牌的信任。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0OTg1NTUxOA==&amp;mid=2247606681&amp;idx=1&amp;sn=1963d503d086ccc664b8ed54690a7af6&amp;chksm=e8f09f2695a0e00644cb0091e9a8db3338776d8322a5815094cf9f185c1c58d2a28f59d4070a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“聚美丽”（ID：jumeili-cn）</a>，作者：璞玉，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026397128336643</guid><pubDate>Fri, 08 Nov 2024 09:28:00 +0800</pubDate></item><item><title>解决汽车 “卡脖子”问题，国产智能驾舱方案商嘀拍科技获千万元A轮融资｜硬氪首发</title><link>https://36kr.com/p/3026362184115459</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>作者｜叶丹璇</p>
-<p>编辑｜袁斯来</p>
-<p>硬氪获悉，近日AI边缘计算软硬件产品与解决方案商嘀拍科技获千万级A轮融资，由嘉元智捷领投，上海銮阙合添跟投。本轮融资将用于扩张智能汽车驾舱业务团队与完善智能驾舱产品。此前，公司已完成由天使轮北京金复与杭州璞程、Pre-A轮汇纳科技，投资的两轮融资。</p>
-<p>嘀拍科技成立于2016年，进入视觉智能和边缘计算赛道。公司以边缘计算软件为核心，融合视觉智能技术、AI边缘技术底座技术，为行业客户提供数据采集设备与域控制器等AI边缘设备的产品与解决方案，主要布局智慧零售与智能汽车行业。</p>
-<p>目前，嘀拍科技提供的智能硬件产品，已覆盖2000多家头部商业地产购物中心及50000多家品牌零售门店。公司提供的以舱泊一体座舱方案为代表的智能汽车解决方案，业已成功获得多个国内一线主机厂供应商认证，且签订多个平台级定点与千万级订单。</p>
-<p>随着智能化的发展，汽车端对于智能化需求的接入程度也在不断上升，以舱泊一体方案为代表功能的智能座舱成为当前车企开发的关键趋势。市面上的大部分舱泊一体方案通常基于单颗座舱SoC芯片实现智能座舱与泊车功能。长期以来，汽车主机厂选用的驾舱及ADAS芯片主要来自海外一线厂商，现有OEM舱泊平台首选的单SoC方案芯片大部分来自海外厂商。</p>
-<p>嘀拍科技CEO李翔透露，当前国内整体车载芯片的国产化率水平仍然较低。部分国内主流汽车厂商在出口时，受到欧美等国芯片政策的制约，面临“卡脖子”问题。彭博社曾报道称，基于这一现实，工业和信息化部要求部分国内汽车制造商于2025年将汽车相关芯片的本地采购比例提高到20~25%。</p>
-<p>2022年，嘀拍科技团队基于对行业环境的洞察，以及在边缘计算领域积累的成熟经验，切入智能汽车解决方案领域。相较于传统解决方案供应商仍然大规模采用高通和联发科芯片，嘀拍科技从一开始就在芯片、存储及核心模组中的其他被动器件的选择上都实现了全国产化，选用紫光展锐、长江存储等优质国产品牌。在国内汽车厂商纷纷寻找国产化替代方案的背景下，嘀拍科技提供的全国产配置解决方案为国内汽车厂商在产品出口以及智能化的迭代上都规避了来自海外芯片政策上的障碍。</p>
-<p>另外，嘀拍科技自研的LXC Container软件解决方案与传统hypervisor虚拟化解决方案不同，能够更大程度发挥芯片的硬件资源及性能，同时能够实现不同操作系统的应用隔离，提高系统的安全性及稳定性。</p>
-<p>商业化方面，嘀拍科技已对国内知名汽车厂商实现较大程度的覆盖。其中，舱泊一体POC、ADAS及座舱平台等多个产品已经进入验收阶段或交付阶段。李翔告诉硬氪，公司预计2024年年底再获得国内某一线车厂的项目定点。</p>
-<p>团队方面，嘀拍科技核心研发团队具有15年以上智能汽车产品开发经验及20年视觉智能、嵌入式AI和操作系统的经验。CEO李翔毕业于上海交通大学，曾在英华达、阿尔卡特、联想等公司从事移动设备相关的研发工作，在联想工作期间，领导乐phone手机核心技术研发，担任AR/VR产品线首任产品经理，实现多个0到1的产品落地，是联想“小强创业“首批孵化团队。汽车领域技术团队均在汽车电子领域深耕十年以上，曾就职于博世、大陆、安波福等Tie1企业：首席系统架构师和首席软件架构师均具有主持多个主机厂的集成式座舱，计算平台等项目方案设计的经验。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,336" src="https://img.36krcdn.com/hsossms/20241107/v2_3c5b32c6db224d3ba4eb4deb681da328@6129731_oswg90987oswg1080oswg336_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc"> </p>
-<p class="image-wrapper"><img data-img-size-val="1080,336" src="https://img.36krcdn.com/hsossms/20241107/v2_b3bfa0c546fb4c39909cb86a88a14458@6129731_oswg83785oswg1080oswg336_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">36氪供图</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3026362184115459</guid><pubDate>Fri, 08 Nov 2024 09:30:00 +0800</pubDate></item></channel></rss>
+<p>别急，咱们再看下面这个，“ 不懂生活费 3K 的室友，为什么要没苦硬吃 ”。 </p>
+<p>表面上是在吐槽室友，说室友生活费高还过分节省，把喷雾兑水用。 </p>
+<p class="image-wrapper"><img data-img-size-val="690,316" src="https://img.36krcdn.com/hsossms/20241108/v2_a11385f0d26d4f70ae04cbba840aa48c@5888275_oswg82497oswg690oswg316_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>就在你刚要发表评论时， 人家直接 0 帧起手。 </p>
+<p><strong>说室友的喷雾兑了水，也很好闻，然后带货小连招就奔着你来了。</strong></p>
+<p>连预判空间都不留，就问你怎么防。 </p>
+<p class="image-wrapper"><img data-img-size-val="531,450" src="https://img.36krcdn.com/hsossms/20241108/v2_23dba4bb43f24346a2308268a7921b16@5888275_oswg110316oswg531oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>还有种引流贴藏的极深，在原帖里你几乎看不出一点马脚。</strong></p>
+<p>像下面这个，也是挺常见、挺真实的。 </p>
+<p>无论从贴主的话还是评论，都感觉整件事没什么问题。 </p>
+<p class="image-wrapper"><img data-img-size-val="656,1163" src="https://img.36krcdn.com/hsossms/20241108/v2_1ab6dfe762844a59adf23eefff106f56@5888275_oswg612157oswg656oswg1163_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但很快就有人发现，这张求婚的图是盗图来的， 于是就质问贴主。 </p>
+<p>贴主也立马发了个后续，表示： “ 随手一发，没想到火了 ”。 </p>
+<p>然后，划重点—— <strong>“ 求婚这张图是某宝评论区找的，感觉很好看就存下来了，有饱饱要链接我都给了 ”</strong> 。 </p>
+<p>尽管一再强调自己不是引流贴，还是给人一种站不住脚的感觉。 </p>
+<p class="image-wrapper"><img data-img-size-val="533,770" src="https://img.36krcdn.com/hsossms/20241108/v2_517ae807a1604472815b1fe1f4ef04aa@5888275_oswg369147oswg533oswg770_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>有时候你不得不佩服这帮人，简直把人性拿捏的死死的。</strong></p>
+<p>总能利用每个人爱吃瓜、爱争辩的心理， 找到引流话题让网友吵起来。 </p>
+<p>然后当评论区变成菜市场，逐渐热闹起来后， 他大喊一声要宣布个事，表示 XX 很好用，想要的宝点头像。 </p>
+<p><strong>就像是这人挑唆起了一场战争，让网友间互相开火，接着他立马推个小车卖起了子弹和瓜子，这种到底是什么行为，我不好说。</strong></p>
+<p>最后，贴主拍拍屁股跑了，评论区扔在掐架， 大伙完全忘了自己一开始是怎么刷到这条的。 </p>
+<p class="image-wrapper"><img data-img-size-val="856,640" src="https://img.36krcdn.com/hsossms/20241108/v2_572066d927804297befbca6ea360fa7b@5888275_oswg215363oswg856oswg640_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>03</strong></h2>
+<p><strong>现在，网友对引流贴可谓是深恶痛绝。</strong></p>
+<p>可以说，如今网上戾气这么大，这些引流贴占了不少责任。 </p>
+<p>在引流贴的渲染下，每个人只要进场，就会自动穿上盔甲拿起刀剑，势必分出个你死我活。 </p>
+<p>久而久之，在网上正常的探讨，都成了一种奢望。 </p>
+<p class="image-wrapper"><img data-img-size-val="320,248" src="https://img.36krcdn.com/hsossms/20241108/v2_7d42334bf58041babbe788a3cd397366@5888275_oswg51468oswg320oswg248_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>而引流贴的罪责也不止这一种，它很大程度上，也淹没了那些真正需要帮助的人的声音。</strong></p>
+<p>往往更需要网友解答的问题，却没那么吸引眼球，最后被无情“ 置底 ”。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20241108/v2_41b353efe744438d9fcebe8c573ba6d5@5888275_oswg2226828oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>还有个不得不提的，就是这类帖子真的烧不尽，吹又生。</strong></p>
+<p>作为引流贴的高发地，小红书自己也挺头疼的，举报不完也封不完。 </p>
+<p>而对引流贴来说，流量已经到手，就算封了也无所谓，反正账号本身不值钱，所以就更加猖獗。 </p>
+<p class="image-wrapper"><img data-img-size-val="562,816" src="https://img.36krcdn.com/hsossms/20241108/v2_8563a878441645c88887907fd1d1fd5d@5888275_oswg156043oswg562oswg816_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>甚至，如果你正常发帖，一不小心火了。</strong></p>
+<p>还会有人上门找你，逼良为娼。 </p>
+<p>专业团队操刀，488 套餐，流量这一块放心，包的。 </p>
+<p class="image-wrapper"><img data-img-size-val="699,813" src="https://img.36krcdn.com/hsossms/20241108/v2_0340e210493046188691b2a1cab6635f@5888275_oswg246071oswg699oswg813_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="658,366" src="https://img.36krcdn.com/hsossms/20241108/v2_198cc08b98e3446eb86c7605fe1a22a6@5888275_oswg282626oswg658oswg366_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>而且，只要是图文平台，这类引流贴就可以轻松被二次传播，在另一个平台继续引发骂战和流量。</strong></p>
+<p>不说你可能猜不到，上面不少素材，其实都是差评君在微博找到的。 </p>
+<p>有时候转载微博的评论数量，还会比原帖更多，吵得也更凶。 </p>
+<p class="image-wrapper"><img data-img-size-val="694,388" src="https://img.36krcdn.com/hsossms/20241108/v2_2f2fcd21e8f74e589e4508ce3c4596e9@5888275_oswg279493oswg694oswg388_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>总之，几乎没有一个社交平台，能逃得了引流贴的轰炸。</strong></p>
+<p>它总是时不时出现在你的信息流里，用最没下限，最抓人眼球的手段，吸引走你全部注意，屏蔽都屏蔽不完。 </p>
+<p>你以为 B 站这种长视频网站，可能是片净土， 但它其实也有自己的引流贴。 </p>
+<p>一张吸睛的封面加标题，配上几十万的播放量，有时候进去看半天，才反应过来是减肥广告。 </p>
+<p>其中几个减肥英雄，差评君不知道刷到多少次了，每次都被骗。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,685" src="https://img.36krcdn.com/hsossms/20241108/v2_b2f08be36891404b80d5172177ab86fd@5888275_oswg330133oswg1080oswg685_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,318" src="https://img.36krcdn.com/hsossms/20241108/v2_847e8f6b9af845f6aebe4e698cd875a7@5888275_oswg197878oswg1080oswg318_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,428" src="https://img.36krcdn.com/hsossms/20241108/v2_3bfa5e74a7b044f9b122106b3746f875@5888275_oswg254578oswg1080oswg428_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>最离谱的，是这类视频底下还全是这种“ 网友自用测评 ”的评论。</strong></p>
+<p>然后一帮人在底下等测评结果、等踢。 </p>
+<p>接着过了一个礼拜，层主真来踢了，还挨个踢，表示效果很好。 </p>
+<p>说实话，差评君生性多疑，感觉这种像演的。 </p>
+<p class="image-wrapper"><img data-img-size-val="953,797" src="https://img.36krcdn.com/hsossms/20241108/v2_526ec2108e674006a386363589bcc5b0@5888275_oswg241012oswg953oswg797_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>所以，我又在想，引流帖的真假先不论。 </p>
+<p><strong>它底下那些骂了几十层的网友评论，会不会也是真真假假，假假真真？</strong></p>
+<p>说实话，咱们依然没法分辨。 </p>
+<p>但差评君知道，只要我一旦认真了、想加入，那我就破功了，老弟。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,595" src="https://img.36krcdn.com/hsossms/20241108/v2_b761b88369ce49c0afc338bd4e803a5b@5888275_oswg107058oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>最后，差评君想说，每个人都有好奇心、猎奇心。 </p>
+<p>我们就算被下三滥的标题吸引，也不是自己真的龌龊低俗，只是人性使然罢了。 </p>
+<p><strong>真正该批判的，不用怀疑，就是网上泛滥的引流帖。</strong></p>
+<p>他们为了达到目的无所不用其极，消解了信任，让每个人不得不披着尖刺上网，把评论区也变成了村头广场。 </p>
+<p><strong>以至于大伙已经应激，假设瑞士卷视频里女主这样的人，即便真有些苦恼想要诉说，大家其实也听不进去了，他们的心事也无从消解。</strong></p>
+<p><strong>所以，真心希望我们都能学会分清引流贴，不去关注，免得给自己找不自在。</strong></p>
+<p>毕竟一旦被引流贴吸引，就算知道是假的，也很难忍得住不喷几句。 </p>
+<p>而喷着喷着，其实我们早就忘了，自己一开始要吃几个瑞士卷了。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Rh0_RHYZxn7R_4upAxTLOA" rel="noopener noreferrer nofollow" target="_blank">“差评X.PIN”</a>，作者：差评君，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027058320450824</guid><pubDate>Fri, 08 Nov 2024 09:54:00 +0800</pubDate></item><item><title>供应端“提质缩量”，楼市将逐渐企稳</title><link>https://36kr.com/p/3027091288106246</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在“止跌回稳”的政策支持下，10月楼市实现“止跌”，接下来楼市能否“回稳”成为关键。</p>
+<p>从供应端来看，随着“金九银十”传统营销旺季结束，房企11月推盘积极性有所回调，不过，供应端明显“缩量提质”，供应结构仍以主城区改善为主<strong>。</strong></p>
+<p><strong>目前市场仍处于脉冲式复苏阶段，市场将逐渐企稳。</strong>多个重点城市一二手房成交环比预计将持续回升。</p>
+<h2><strong>01 28城供应提质缩量，结构以主城改善为主</strong></h2>
+<p>据CRIC调研，11月28个重点城市预计新增商品住宅供应面积620万平方米，环比下降9%，同比下降52%，<strong>绝对量仅高于2月。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,953" src="https://img.36krcdn.com/hsossms/20241108/v2_82e3c0dba6f14af2b4a49fa6ca46c6f2@337187376_oswg146918oswg1080oswg953_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>一线城市供应有所回落，</strong>同环比齐跌59%和25%，累计同比降幅扩大至26%。仅广州一城环比持增，增幅高达58%，因而广州累计同比降幅持续收窄至24%。</p>
+<p><strong>二线供应稳中微降</strong>，环比下降8%，同比下降51%。<strong>三四线供应量环比大增62%，</strong>徐州、无锡、常州等迎阶段性放量，而漳州、泉州供应普降，市场仍处于去库存阶段。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,908" src="https://img.36krcdn.com/hsossms/20241108/v2_ffb5f7c025664a7aa74081aa12827e55@337187376_oswg98801oswg1080oswg908_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>重点城市供应结构呈现出<strong>改善为主、刚需为辅</strong>的格局，其中改善和高端供应占比达到64%。这意味着11月供应端明显“缩量提质”，一线城市顺应政策利好也适当调整了刚需产品供应。</p>
+<p>具体城市来看，<strong>北京、深圳、昆明、天津、常州、长沙、上海、南京等城市刚需产品供应占比都在50%以上</strong>，北京、上海、深圳等核心一线城市新政出台对刚需客群促进作用显著，因而房企都加强了对刚需产品的供应比例。</p>
+<p>而福州、合肥等高端产品占比显著上升，达到73%和45%。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1542" src="https://img.36krcdn.com/hsossms/20241108/v2_92b7c5023bf74b62b807b970991f36db@337187376_oswg185629oswg1080oswg1542_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>主城区仍是典型城市供应的重点区域，占比达到63%。</strong></p>
+<p>其中<strong>漳州、合肥、昆明、长春</strong>主城区供应比例达到了100%，福州、南宁、武汉、无锡、重庆、郑州、西安、成都、徐州、青岛等主城占比均在7成以上。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1955" src="https://img.36krcdn.com/hsossms/20241108/v2_eb666b586f294ff397a814fb2bb3812a@337187376_oswg184213oswg1080oswg1955_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>02 市场热度预期小幅回调，沪深新房成交或将持稳</strong></h2>
+<p>通过11月市场供应，结合各城市成交特征，预计受供给约束影响，<strong>市场热度预计小幅回调，不过核心城市市场热度仍将稳中有增。</strong></p>
+<p>据CRIC监测数据，28个重点城市11月预期项目平均去化率31%，较10月环比下降6个百分点。</p>
+<p>值得关注的是，一线城市得益于供给缩量提质，并且增加了刚需盘占比，叠加新政效应延续，整体市场热度有望稳中有增，<strong>11月预期去化率达到39%</strong>，与去年11月平均去化率41%基本持平。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1055" src="https://img.36krcdn.com/hsossms/20241108/v2_4982579582ce4439a5172c41948ae968@337187376_oswg123929oswg1080oswg1055_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>CRIC结合不同城市11月推盘所处区域，并依据2024年以来各区域板块历史去化情况进行合理预估，<strong>多数城市在10月成交放量之后，11月会进入小幅调整期，环比降幅多集中在2成以内，仍有多个城市预计环比涨幅在5%以上，部分城市有望率先量价双稳。</strong></p>
+<p>具体到典型22城新房市场来看，<strong>上海、深圳</strong>等新政效应延续，新房成交或将持稳；少数城市诸如<strong>成都、长沙、长春、青岛</strong>等预期新房市场热度小幅上扬，昆明则将量价双稳，<strong>郑州、福州、厦门</strong>等弱二线城市或将出现下滑，主要和推盘结构和当前低迷的行情走势密切相关。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1628" src="https://img.36krcdn.com/hsossms/20241108/v2_e44935e0c3af482a8d566f6c6c7bb4d5@337187376_oswg111883oswg1080oswg1628_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>再来看二手房市场，成交仍有望延续增长势头，但环比增幅可能略有收窄。</p>
+<p>具体城市来看，<strong>北京和深圳</strong>政策效应延续，其中北京二手房价跌幅或将有所收窄，深圳则延续高规模。</p>
+<p>另外，<strong>厦门、重庆、西安、成都和长春</strong>二手房成交也将有所回升。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1454" src="https://img.36krcdn.com/hsossms/20241108/v2_566dbe612d2a4505ace5d8b26b4a3a77@337187376_oswg104713oswg1080oswg1454_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>结语</strong></h2>
+<p>10月因核心一二线城市利好新政持续发酵，整体成交回归年内高位，11月新房供应稳中有降，预期市场热度相较于“银十”或小幅回调。核心一线城市得益于供给缩量提质，叠加新政效应延续，整体市场热度有望稳中有增，多数城市市场行情大概率回归理性。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Iv8HU6WgD1ZgFXhk--uDkQ" rel="noopener noreferrer nofollow" target="_blank">“丁祖昱评楼市”</a>，作者：克而瑞研究中心，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027091288106246</guid><pubDate>Fri, 08 Nov 2024 10:00:00 +0800</pubDate></item><item><title>中国出海的“黄埔军校”，隐身在广西的二本院校</title><link>https://36kr.com/p/3027057722959107</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2012年研究生毕业后，Rebecca进入了浙江华立集团在泰国的海外工业园，开始了她的出海生涯。2015年，华立集团去墨西哥建了第二个海外工业园，Rebecca的丈夫被当作第一批“拓荒者”派了过去，没过几年，Rebecca也被派去了墨西哥工业园。 </p>
+<p>Jing是2009年毕业的，第一份工作被中建集团派去了迪拜。 以此为始，她在迪拜待了15年。 她的职业生涯从中建中东到银联国际、QFPay 、Spotii，再到新消费品牌hibobi，如今她加入了由SHEIN孵化的美妆品牌SHEGLAM。 </p>
+<p>Yusuf Yu与出海相关的生涯，则始于2019年，那一年底他加入了墨腾创投，2022年，他加入了泰国快递物流公司Flash Express。2022年底，Yusuf Yu在印尼与朋友联合创业做了一家MCN公司。Yusuf Yu是他的印尼语老师给他取的名字。 </p>
+<p>他们身上有一个共同的标签：毕业于广西民族大学。 </p>
+<p>出海圈子里，有一条隐形的人脉线索，在领英上搜索Guangxi Minzu University，会发现有不少从事出海相关工作的人，都来自同一所中国高校：广西民族大学。 </p>
+<p>因地理优势，广西民族大学背靠东盟，往东南亚输送了不少小语种人才。这些人才不局限于语言专业，他们大多扎根东南亚，或以东南亚为跳板，辐散至各个新兴市场。 </p>
+<p>一位从事海外招聘的行业人士告诉智象出海，既懂当地语言、又懂业务，还能在海外长期深耕的出海人才，是最难招的。广西民族大学因“盛产”这样的人才，而成为了“出海圈的黄埔军校”。 </p>
+<p>广西民族大学的毕业生在海外，都管自己叫“民大人”。从“民大人”的出海经历，其实可以大概还原出中国企业从2000年初到现阶段的一个出海历程：从以中建集团为代表的“中字头”基建出海时期，到制造业出海时期，再到电商平台出海和新消费品牌出海。当然，也可看出出海热门地域近几年的流动。 </p>
+<p>在出海的大潮流之中，“民大人”的个人故事成为了编织潮流的一个个节点。 </p>
+<h2><strong>01 被时代选择</strong></h2>
+<p>2005年，浙江华立集团在泰国罗勇府建了一座工业园。这是华立集团出海的第五年，2000年，在主营产品电能表在国内市场触达“天花板”后，华立集团选择出海泰国，在泰国建了一座电能表工厂。这座工厂生产的电能表，直接用于泰国当地销售，只用了4年时间，就占据了泰国市场30%的份额。 </p>
+<p>于是在出海5年后，华立集团在泰国又开拓了另外一块业务——投资建立工业园。 </p>
+<p>华立集团与泰国泰国安美德集团合作，在泰国“东部经济走廊”核心区域——罗勇府建起了占地12平方公里的工业园区。 </p>
+<p>20世纪90年代，中国企业开始探索海外园区建设，如巴黎“中国城”、美国“锦绣中华”、迪拜龙城等，便是海外园区的前期形态。华立集团在这个时间节点上选择在泰国建立工业园区，有一个巨大的时代政策背景——从2005年起，商务部开始相继出台多项政策措施，鼓励企业建立海外园区，“抱团走出去”。 </p>
+<p>2006年、2008年，商务部和国务院先后出台了《境外中国经济贸易合作区的基本要求和申办程序》《关于同意推进境外经济贸易合作区建设意见的批复》，鼓励扶持企业建设境外经济贸易合作区的工作。 </p>
+<p>华立集团的“泰中罗勇工业园”，便是中国首批在海外设立的八个工业园之一。 </p>
+<p>同一时期在东南亚建立园区的还有青山集团。 </p>
+<p>青山集团总部在温州，也是浙江企业。2009年，青山控股与印尼八星投资有限公司合资设立苏拉威西矿业投资有限公司，获得了占地47040公顷的印尼红土镍矿的开采权。2013年，青山实业旗下负责推行国际化经营的上海鼎信集团，与印尼八星投资有限公司签署了合资设立印尼经贸合作区青山园区的协议，成为中印尼两国重要的商务合作项目。 </p>
+<p>Rebecca进入华立集团泰国工业园区是在2012年，那时“泰中罗勇工业园”园区刚刚开发到第二期。 </p>
+<p>“2008年从广西民族大学东南亚语言文学学院毕业后，我在泰国继续读研，2011年研究生毕业后，进入了华立集团。我虽然一直在招商部门，但工作内容的综合性比较强，一个人当几个人使，既需要招商又需要做好项目落地的服务。所以需要懂泰语、英语、中文，既要在去泰国投资的中国企业与泰国政府、当地企业之间，起一个沟通桥梁的作用，也要和当地的平台、供应链等做好对接工作。”Rebecca告诉智象出海。 </p>
+<p>选择这份工作，Rebecca没有想太多，“广西民族大学是整个东南亚语系比较权威的一个学习基地，尤其是在商务东南亚语言应用方面。很多民大毕业的校友，都留在了东南亚。” </p>
+<p>Rebecca告诉智象出海，广西民族大学泰语专业到泰国工作的人非常多，比如各个公司的外派。当时大概有三五个华人参与投资的工业园区，园区里的中国员工，大部分都是从民大毕业的。 </p>
+<p>另外一位广西民族大学的毕业生、在印尼深耕多年的Yusuf Yu也告诉智象出海，许多民大的毕业生，都进入了青山集团在印尼的园区工作。 </p>
+<p>广西民族大学于2010年正式成立了东盟学院，但学院历史可追溯至1995年设立的广西民族学院东南亚研究所。2014年，广西民族大学又从外语学院独立出东南亚语言文化学院，下设越南语、泰语、老挝语等东南亚语系专业。学院提供3+1的学制，3年在国内读，剩下一年在当地交换。 </p>
+<p>这两个学院，成为了出海人的“摇篮”。 </p>
+<p>而从2011年起，广西就设立了广西政府东盟国家留学生奖学金项目，鼓励广西高校通过各类面向东盟的人才培训中心（基地），积极为驻外中资企业和东盟国家培养技术技能型人才。 </p>
+<p>与大部分民大毕业生一样，Rebecca的就业选择没有考虑太多宏大的因素，基本上都是随着时代的潮流，但他们在不经意间成为了这股历史潮流的参与者。 </p>
+<h2><strong>02 “工业唐人街”与“基建狂魔”</strong></h2>
+<p>与Rebecca一样，被时代推着走的还有Jing。 </p>
+<p>2009年，Jing从广西民族大学毕业后，进入了中建集团，后被公司派到了迪拜。当时，中建集团在迪拜的项目，引进了一批越南劳工，需要一名懂越南语的翻译，负责劳工与公司之间的沟通。Jing的“冷门”专业，让她获得了这个机会。 </p>
+<p>迪拜当时并不如这几年在国内呈现一股“中东热”，国内对迪拜的报道也较少。Jing到迪拜时，迪拜塔还没有开放，如今许多著名的景点，当时都很冷清，“整个迪拜都处于一个大建设的状态”。 </p>
+<p>当时像Jing一样来到迪拜的，多为中字头企业的外派员工，或是从事传统贸易的中国商人。 </p>
+<p>Jing的迪拜生活单调而无趣，除了逛商场，没有别的事可做。那时连微信都没有，只有QQ，也就没有华人微信群。她记得最清楚的是，自己7月底到的迪拜，8月就进入斋月，穆斯林在那段时间必须禁食禁水，连餐厅都闭店，只有几家麦当劳营业，也不能堂食，只能打包带走。想吃一些中国的食品也很费劲，因为当时华人超市少，供应也有限。 </p>
+<p>但大建中的迪拜，黄沙中孕育着大量的机会。 </p>
+<p>1990年代中后期，中国提出“走出去”战略，鼓励企业走出国门，开拓海外市场，海尔、海信、华为的出海由此而始，整个90年代中国企业实现了年均23亿美元的对外直接投资。这段时期，直接出口仍占出海大头，其次便是在海外建销售网、工程承包、合资等。 </p>
+<p>华立集团在海外打造“工业唐人街”的差不多同一个阶段，“基建出海”也是当时的出海大主题。 </p>
+<p>“那时候迪拜有很多招标，公司很好拿项目。中建在那边主要是建房以及修建道路桥梁。当时中建在迪拜就有好几千上万的员工。”Jing告诉智象出海。 </p>
+<p>Jing与Rebecca从同一所学校毕业，在同一时间节点上，站在了出海浪潮的不同的浪花之巅上。 </p>
+<h2><strong>03 “泡沫里跳舞”</strong></h2>
+<p>Jing在中建中东待了6年，2015年，她从中建中东离职，进入了支付行业，此后在中东支付行业浸淫近7年，职业经历横跨了银联国际、QFPay以及Spotii三家支付相关企业。2022年离开支付行业后，Jing又相继进入了母婴品牌hibobi和SHEIN旗下的美妆品牌 SHEGLAM。 </p>
+<p>Jing的职业经历，正顺应了出海中东主题的变化。 </p>
+<p>2015年，Jollychic、SHEIN进入中东，此后“中国电商军团”卷得中东电商风起云涌，卷来了物流与支付。2018年，支付宝、微信支付进中东，Jing所在的QFPay，在中东的业务便起步于与支付宝的合作。而Jing待过的另一家支付公司Spotti，其所提供的先买后付服务，也是随着电商发展而普及起来的。而在先买后付领域，还诞生了“中东花呗”Tabby，其背后的投资人，就有马云和蔡崇信等联合设立的家族财富基金。 </p>
+<p>支付行业一度在中东繁荣。 </p>
+<p>但2020年之后，Jing之前在支付行业的同事或同行，都纷纷转向了虚拟货币，“我能感到一个热潮在退却。疫情前一年，你可以看到迪拜处在一个快速发展和增长的市场环境，投资多、有激情的创业者多，但疫情后，不管是拿到投资的机会，还是进一步扩大市场的机会，都在慢慢地减少。” </p>
+<p>于是Jing的目光转向了消费行业。 </p>
+<p>2019年，hibobi的创始人带着初创团队去了趟中东，他看到中东母婴相关产品质量远远落后于中国，但价格能卖到中国产品的两到三倍。于是他将hibobi出海的主战场定在了中东。一年后，hibobi年销售额就突破了5千万美元。 </p>
+<p>除了hibobi，同一时期进入中东的童装品牌还有Balabala。与hibobi靠独立站和社媒运营起家不同，Balabala在中东，主要靠代理商开线下店来做本地市场。而2022年6月，hibobi也开始在中东开设线下店。 </p>
+<p>Jing就是在这个时间段入职hibobi的。 </p>
+<p>“其实在迪拜，线下还是绝对的消费场所。而随着电商的兴起，其实获客成本是越来越高的。所以当时hibobi的创始人也在看，除了线上，还有没有其他的机会。他们想做线下零售。”Jing告诉智象出海。 </p>
+<p>从hibobi离职后，Jing又带着她的线下经验，进入了SHEGLAM。SHEGLAM是SHEIN孵化出来的一个美妆品牌，在SHEIN上成长了4年，去年开始做线下零售，进驻美妆集合店。 </p>
+<p>几乎在Jing入职这两家消费相关企业的同时，中国新消费品牌进入中东也进入了一个“红温期”，美妆、茶饮、中餐，再加上跑在迪拜街头的新能源汽车，在迪拜，能看到的中国元素越来越多。 </p>
+<p>对Jing而言，与2009年刚到迪拜时相比，迪拜的生活便利了许多。如今遇上斋月，可以拉上帘子堂食，想吃中国菜，可以来顿火锅、喝杯茉酸奶，想吃中国零食和蔬菜，可以去华人开的超市温超（WEMART）。 </p>
+<p>但面对近几年的“中东热”，Jing却相对冷静，“中东是蓝海这件事，从2018年左右就开始在‘炒’，但其实整个‘泡沫’也是非常大的。很多人可能就在这个‘泡沫’里跳舞。” </p>
+<h2><strong>04 第二次站在风口</strong></h2>
+<p>与Jing 2015年离开铁饭碗几乎同一个时间段，Rebecca的职业轨迹也发生了改变。她第二次站在了风口上。 </p>
+<p>2013年，华立集团开始考察在海外建立另一个工业园区，最早的雏形只是决定在北美布一个点，但经过一年多的考察后，将地点定在了墨西哥。 </p>
+<p>2015年，在墨西哥东北部新莱昂州首府、墨西哥工业之都蒙特雷，华立集团与富通集团联合墨西哥墨桑托斯家族共同投资创立了北美华富山工业园。 </p>
+<p>Rebecca的丈夫，与她同在华立集团工作，2015年，被公司派往了墨西哥。同去的有两人，一名工程，一名总经理，三人成团，来到了刻板印象中毒品横行、治安欠佳的墨西哥。 </p>
+<p>当时的墨西哥，还没有像近几年一样在出海圈火起来。 </p>
+<p>“2015年的时候，那儿就是一片荒地，啥都没有。”Rebecca说。 </p>
+<p>2023年，北美华富山工业园董事长胡海在一次公开对谈中提到，他们之所以10年前就决定在墨西哥建园区，是因为全球最大的市场在美国，一定要把制造中心向市场中心靠近，“我们2015年准备干这件事，2016年就在当地买了十平方公里的土地。” </p>
+<p>2019年，Rebecca也被派往了墨西哥，依旧是负责园区招商，“那时候的飞机上，没有几个中国人。蒙特雷的中国园区也只有我们一家。” </p>
+<p>Rebecca和丈夫学会了墨西哥的“生存法则”——虽然毒品问题泛滥，但集中在边境城市，“只能说你待得久了，慢慢地会知道哪些地方是安全的，不去那种不安全的地方就好了。” </p>
+<p>2019年，华立集团在墨西哥的团队大概十几个人，入驻的中国企业也就两三家。Rebecca和丈夫在墨西哥经历了疫情，近两年没有回国探亲，疫情期间本地餐厅不开放，他们甚至还要亲自上阵来负责客户的饮食。 </p>
+<p>但正是因为疫情原因，海运受阻，再叠加2018年《北美自贸协议》升级为《美墨加三国协议》，墨西哥成为美国制造业的“后花园”，以及2020年美国对越南、泰国、马来西亚等国进行了反倾销与反补贴调查，2021年又发布了《美国供应链行政令》，推动“近岸外包”，多重因素的叠加，使得墨西哥成为中国制造业出海的热门之地。 </p>
+<p>“投资热度是从2021年开始的，疫情导致的海运周期太久，使得国内企业开始看向墨西哥。2023年，我们接待了好几百批次企业，一天要接待三四家。主要都是制造型企业，包括家电、家居、汽配等。”Rebecca告诉智象出海。 </p>
+<p>胡海提到这样一组数据：2016年，华立集团统计中国对墨西哥的投资存量只有6-8亿美元，而据墨方统计，2023年，中国新增对墨直接投资1.51亿美元，存量24.52亿美元。 </p>
+<p>Rebecca也感觉到墨西哥的热度一直在上涨，最直观的就是物价。从2019年到现在，均价涨了至少50%，房价和工业用地价格都翻了一番。 </p>
+<p>从泰国到墨西哥，Rebecca两次在风口吹起来之前，就已经站在了风口上。 </p>
+<p>Rebecca 2012年入职时，泰中罗勇工业园入园企业仅五六十家，2019年迎来发展高峰，如今，园区企业已近300家，截至2023年，泰中罗勇工业园园区中的中国企业投资额超过45亿美元，占中国对泰国制造业投资额比例超过40%。目前罗勇工业园内已有约5万名员工，预计未来会超过10万名，中策橡胶、奥克斯空调等企业都已在园区建厂。 </p>
+<p>北美华富山工业园入园企业也已接近40家，为当地创造了超5000个就业岗位。 </p>
+<p>而在新能源汽车出海潮起来后，比亚迪、广汽埃安都在罗勇工业园建厂，早一步布局的青山园区，把握住了生产电动汽车三元锂电池的重要材料——镍矿，这后来的企业，都是和青山进行合作。 </p>
+<p>对于两次站在风口上的说法，Rebecca不以为意，“当时没想那么多，其实就是一种挑战。” </p>
+<p>泰语专业毕业的Rebecca，如今已经开始学西班牙语。她说，墨西哥仍处在上升期，还有很大的机遇。 </p>
+<h2><strong>05 奔向东南亚，离开东南亚</strong></h2>
+<p>与两位师姐毕业之初“被动”的就业选择不同，2017年，Yusuf Yu就已感受到东南亚正处于一股强烈的热潮之中。 </p>
+<p>当时，东南亚电商刚起步，移动互联网相关的创业开始践行“copy from china”，国内的热钱开始往东南亚找项目。 </p>
+<p>“当时明显感到身处一波浪潮之中，每天看印尼新闻也好，英文和中文新闻也好，都是这个企业融了钱，那个企业又融了钱，投资人不断地往这边跑。你会发现特别像前几年中国移动互联网刚起步那会儿的状态。”Yusuf Yu回忆道，“那正是出海概念最热的时候。” </p>
+<p>Yusuf Yu毕业于广西民族大学经管专业，辅修印尼语。像他的两位师姐一样，他身边民大校友的毕业去向，大多是青山集团这样的传统企业。但在他2019年毕业后，出海已然进入了新的阶段，Yusuf Yu的主动性更强，他选择进入深耕东南亚的墨腾创投，后又进入了泰国一家电商物流公司Flash Express，针对印尼市场做商家的获客与运营。印尼约有6500万家中小微企业，Yusuf Yu的专业对拿下印尼中小商家起到了一定的作用。 </p>
+<p>Flash Express成立的2017年，泰国本地物流多使用泰国邮局服务，物流速度慢、价格高，并且周末不服务，发一个快递需要5-6天才能到达，用户还需要到网点去排队发货，甚至有时候一排队就是2-3个小时。随着电商的野蛮生长，一个包裹在泰国首都曼谷可以送7天，丢件、破损、未妥投屡见不鲜。 </p>
+<p>东南亚快递“搅局者”极兔，还得等两年才进入泰国，此时的泰国快递物流，处于一个原始但机遇处处的状态。 </p>
+<p>Flash Express吃到了这块“空白”。成立后一年，Flash Express就拿到了由高榕资本领投的千万美元天使轮投资。2020年和2021年，Flash Express先后拿下2亿美元、1.5亿美元融资，成长为泰国独角兽。 </p>
+<p>在Flash Express的融资历程中，阿里 eWTP 基金给予了极大的支持。同一时期，阿里不仅在东南亚落下Lazada这颗电商“棋子”，在物流领域，除了投了Flash Express，还投了新加坡快递公司Ninja Van，在东南亚编织出电商与物流的一张大网。 </p>
+<p>Yusuf Yu告诉智象出海，Flash Express迅速发展除了卡对了跨境电商发展的节点，还因为Flash Express与Lazada有着强捆绑，并且和菜鸟深度合作，与TikTok泰国联系也很紧密。 </p>
+<p>而Yusuf Yu踩着跨境电商在东南亚发展的节点，也吃到了“红利”。2022年，Yusuf Yu和朋友在印尼共同创业做了一家MCN ，叫BaiTube，做直播带货，创立之初，就拿到了百万元级别的天使轮融资。 </p>
+<p>TikTok Shop于2021年在印尼推出，2022年Yusuf Yu蹚进去做TSP（TikTok Shop Partner）时，TikTok Shop 印尼一年的GMV已经做到了25亿美元，贡献了整个东南亚市场GMV的57%。 </p>
+<p>“2022年到2023年，中国MCN经历了一波出海东南亚的潮流，交个朋友、吃鲸MCN、红毛猩猩PONGO这些叫得上名字的MCN公司，都出来了。我们就赶上这波潮流，从0到1搭建了一家MCN公司和本土团队。当时直播带货在印尼也已经起来了。”Yusuf Yu告诉智象出海。 </p>
+<p>直播带货占了BaiTube营收的大头，Yusuf Yu也感受到了那段时期一些商家从Shopee到TikTok 的流动。 </p>
+<p>除了TikTok Shop的红利，Yusuf Yu还赶上了美妆出海东南亚的东风。 </p>
+<p>“当时Y.O.U、完美日记、BIOAQUA 都在往印尼走。TikTok当时在印尼的直播GMV，贡献最大的就是美妆个护品类。BaiTube最初也是靠接美妆产品做起来的，后来开始接华为这样的3C品类。”Yusuf Yu告诉智象出海。 </p>
+<p>但很快，2023年，TikTok Shop在印尼遭遇封禁风波，BaiTube一些原本的商家客户回流到了Shopee，当时有很多MCN公司跑路或转移去其他市场，也有很多MCN公司把直播业务转移到了Shopee Live上。BaiTube也在封禁期间转向了Shopee。 </p>
+<p>Yusuf Yu在这个时期离开了BaiTube。如今，他进入了一家金融科技公司，但仍从事与东南亚相关的工作。BaiTube依然活得很好，如今已做到了印尼MCN的行业前十。 </p>
+<p>“我其实挺想去中东和拉美看看的，并不想一直都停留在东南亚。我一直觉得，中国企业走出去，应该是去看星辰大海，而不是蜷缩在东南亚。”Yusuf Yu说。 </p>
+<p>有意思的是，从去年开始，Jing在LinkedIn上被四五个猎头找，看中她是广西民族大学越南语专业毕业。 </p>
+<p>出海果然是个圈。热度在东南亚、中东、墨西哥之间流动，出海人便在这流动之中捕捉机遇。 </p>
+<p>广西民族大学小语种相关的毕业生，百分之六七十都被吸纳到传统行业，比如中建、青山，Yusuf Yu算了一下，除开进入传统出海行业的，一年能流入到新出海圈的其实也就百八十个人。 </p>
+<p>出海人才稀缺的问题大概还会持续。 但能沉淀在这个圈子里的“黄埔军校”毕业生们，仍在继续寻找着个人价值与时代价值的平衡点。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/vAI2Kis1a1-Ag9-f3nG5uA" rel="noopener noreferrer nofollow" target="_blank">“智象出海”</a>，作者：王玮，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027057722959107</guid><pubDate>Fri, 08 Nov 2024 10:02:00 +0800</pubDate></item><item><title>2024年将尽，我们开始为ESG的未来感到担忧</title><link>https://36kr.com/p/3027051561182470</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2024已经接近尾声了，今年ESG的发展状况非常两级分化。最极端者，有人觉得ESG要在2024年起飞的，毕竟今年三大交易所出台了《上市公司可持续发展报告指引》，“A股公司进入ESG信披新纪元”。而在另一个极端，有人认为ESG“将在2024年终结”，“ESG是邪教”，“ESG成了一句最新的脏话”。 </p>
+<p>我们不希望用极端的话来哗众取宠。如今业界在谈论ESG的时候，确实增加了一些复杂的感情在里面。企业似乎不像从前那样热衷宣传自己的ESG成绩，ESG的咨询机构、媒体也把裤腰带勒得比往年更紧，“ESG证书能升职加薪”的传说也没人信了。 </p>
+<p>相比之下，绿色低碳、循环经济、绿电、生命周期管理、绿色数字化这些平行赛道上，产业界要热情得多，也笃定得多。此前被认为是ESG“子话题”的事情，风头早已盖过了ESG。 </p>
+<p>被质疑，被取代——这就是ESG的命运了吗？<strong>2024年，围绕ESG的市场情绪为什么变了？ </strong></p>
+<p>本文提出一种解释，分为两部分：ESG的迷思，ESG的替代。 </p>
+<h2><strong>01 迷思：ESG是对企业的洞察吗？</strong></h2>
+<p>ESG的迷思，这是认识层面上ESG受到的质疑。 </p>
+<p>ESG承诺用一套披露和评级规则，帮助人们获得关于企业的洞察，评价企业可持续发展的能力。 </p>
+<p>然而一些从业者急于建立一套基于ESG的分析逻辑时，会过于理想化、过于依赖ESG的权威性，认为： </p>
+<p>ESG评分的高低，可以比较企业的优劣； </p>
+<p>企业遭遇风险，蒙受损失，是因为ESG工作不到位；或者反过来，企业的ESG工作不到位，就早晚会遭遇风险，蒙受损失。 </p>
+<p>这些命题拿到企业实务和投资市场当中，屡屡经不起检验。人们对ESG的信任，就这样被白白消磨掉了。 </p>
+<h3><strong>做好ESG，能改变一家公司吗？</strong></h3>
+<p>企业内部的ESG工作，真的那么核心吗？ 就说说一位同行朋友的求职经历。 </p>
+<p>尤佳想去某互联网企业做ESG工作，她与招聘者交流了一番之后，对ESG看法有点动摇了。 </p>
+<p>“我对公司的减碳规划有兴趣。”她说。 </p>
+<p>“这个不归我们ESG部门管，这个是归口到技术部门去的，他们会处理技术细节。”对方说。 </p>
+<p>“那信息安全和青少年用户保护呢？” </p>
+<p>“也是技术部门，他们有专门的工作组去做这些事。” </p>
+<p>“供应商尽职调查，我们会参与吗？或者供应商准则的制定？”她又问。 </p>
+<p>“我们会与一个供应链总监对接。但是具体的工作都是供应链部门负责。” </p>
+<p>“那助农、乡村振兴的事情呢？” </p>
+<p>“这个归集团的基金会去做。” </p>
+<p>大多数“最ESG”的事情都不是ESG部门操办的。那ESG部门到底能做什么呢？汇总集团各条线的ESG数据，写年度ESG报告；参与各种论坛、认证、倡议，内部培训；最后是追踪行业ESG发展动向，如果发现值得做的新项目，就协调集团内部的职能部门去执行。 </p>
+<p><strong>总之，企业并不会因为设立了一个神奇的ESG部门，而发生戏剧性的改变。</strong> ESG部门当然并非无足轻重，比如它需要管理、追踪公司可持续战略的执行情况。但决策仍然要管理层来下，具体工作仍然要业务部门去做。让一家公司变好的，是好的战略和好的执行；一个企业要是发生了负面或者正面的事情，原因都在决策或者业务上。 </p>
+<p>比如当一个食品品牌出了食安问题，原因不在ESG，而是质量控制没做好。一个品牌的新能源车卖得好，原因不在ESG，得去看人家的产品优势。 </p>
+<p><strong>不能因为ESG的存在，而教人漠视常识。让ESG去参与商业的归因，是不明智的。</strong></p>
+<h3><strong>“ESG评分高”和“好公司”是一回事吗？</strong></h3>
+<p>让ESG参与商业的归因，这是许多信仰ESG理念的从业者多多少少会做的事，不论是企业内部还是外部人士。 以ESG之名对一家公司做出的赞扬或批评，其根源的逻辑无外乎是“公司重视ESG工作，公司的ESG评分在提升，所以是好公司”。 </p>
+<p><strong>此举的一个问题在于，在ESG评级的可信性尚未建立的时候，就将其滥用了。</strong> 企业好坏成色，不用利润、市场竞争力、创新能力来解释，而用ESG评分和ESG举措来解释——这对于不完全了解ESG的公众与投资者来说，近乎一种神秘主义。如果硬把“高评分”和“好公司”之间划等号，用ESG来绕过理性思辨，只会伤害ESG理念本身的发展。 </p>
+<p>而且，ESG评级体系在其公信力尚未完全建立的时候，就被当作一个道德高地。站上这个高地，可以把一家企业的大事小情评论一遍。再微不足道的指标，哪怕只是黑猫投诉上两年前的一条差评，也可以升华到ESG的高度来评论。 </p>
+<p>所以马斯克曾经说“ESG是伪君子的武器”。哪怕我们再支持ESG，再不喜欢马斯克说这句话的立场，也不妨咂摸一下这句话背后的道理。 </p>
+<p>在ESG尚未成熟、还无法准确评价企业好坏的时候，就拿ESG的一套体系来故弄玄虚，可能会早早地把ESG玩坏，把道德高地变成道德洼地。 </p>
+<h3><strong>ESG真能让我们洞察一家企业吗？</strong></h3>
+<p>ESG真能让我们洞察一家企业吗？ </p>
+<p>这还得澄清一下“ESG是什么”，最直观来讲，它是一套信息；或者说，它是一套关于企业信息的规则。企业在二级市场上披露自身的环境、社会和治理信息，然后这套非财务的信息将辅助投资者更好地评估公司价值。ESG评级，则是一些具备信息优势的机构对企业做出的综合评价。 </p>
+<p><strong>更好的信息披露，当然能够让我们更全面地洞察一家企业</strong>。 单凭这一点，着陆TouchBase相信，ESG的法规和规则一定是会继续发展推进下去的。 </p>
+<p>问题在于，ESG信息如何让市场参与者去更好地观察与决策，又如何倒逼企业做更好的自己？ </p>
+<p>这本应是一个常识性的问题，也意在让企业和投资者都获得好处。然而目前的媒体环境中，又有很多乱用ESG来混淆视听的内容。 </p>
+<p>核心在于信息。即便把ESG概念性的东西全部拿走，基于信息的商业分析仍然成立，并且可能会更加简洁直观。 </p>
+<h2><strong>02 替代：钱从ESG流向何处？</strong></h2>
+<p>ESG的替代，这是在产业层面，企业充分认识ESG、可持续之后，用脚投票选择了有别于ESG的发力方向。 </p>
+<p>在ESG理念大热的时候，企业肯砸钱做ESG的建设和提升，ESG咨询机构大力拓展业务，媒体纷纷开辟ESG内容和榜单业务，传说中顶级ESG的岗位工资也炒到月薪15万的天价。 </p>
+<p>然而这样的热潮如今已经减退。企业在做了种种尝试之后，关注重心又从“ESG治理”“ESG信披”转向了他处。 </p>
+<p>而且，不论是ISSB、还是三大交易所的指引中，在术语的使用上都以“可持续”为主，较少提到“ESG”。未来企业发布报告，可能会以“可持续发展报告”为主流标题。这对ESG的影响将会是深远的。 </p>
+<p>为什么没有选ESG？下面给出一些可能的解释。 </p>
+<h3><strong>“ESG”不是一个简洁有力的行动口号</strong></h3>
+<p>对于圈外人来说，“ESG”的号召力不如其他一些替代选项，例如“可持续”“绿色”“低碳”“负责任”“循环”等等。 后面这一组理念的群众基础更广，一说就能让人理解其内涵和行动方向，更容易号召企业内部员工、外部的合作伙伴、社会公众一起行动。 </p>
+<p>ESG不仅不够简洁直观，而且在国际舆论场上面临争议。<strong>“ESG”概念正在被“可持续”概念全面替代。</strong></p>
+<p>概念的动员力很重要。很多可持续的事情，都需要同行业或者上下游的很多企业通力合作才能完成。不只一个行业协会向着陆TouchBase表示，只有具体、可实操的议题，才能更好动员广大企业的参与——“ESG”显然不是一个这样的议题。 </p>
+<p>比如2022年以来的钢铁行业，联合起来要做行业性的EPD（环境产品声明，Environmental Product Declaration）平台。EPD是针对产品的，是一份汇集了产品碳足迹、水足迹、酸化、富营养化等环境绩效指标的报告。它需要钢铁行业整体建立一套相同的规则，去实现环境数据的治理和互通。钢铁行业做EPD十分有必要，因为有了钢铁产品的环境数据，下游的千行百业的环境数据才算得明白。 </p>
+<p>像这样，行业联合的目标需要具体、可操作、目的性强。在最近的一两年，许许多多的行业都联合起来做可持续，最普遍的工作就是一起把环境数据、尤其是碳数据和核算规则做好。 </p>
+<p>反观“ESG”这个概念，如果要“做好ESG”，该怎么做？怎么去和企业内部、供应链、消费者解释？好像很难。只能用更具体、可操作的理念去替代它。 </p>
+<h3><strong>当企业变得更加务实，便会从ESG的形式中打捞更实质的东西</strong></h3>
+<p>ESG理念已经火了好一段时间了，但凡大一点的上市公司，高管们对ESG已经了解得像明镜一样。 他们不仅知道自己公司的ESG评级，手上通常也有具体的评级报告，知道自己的公司为什么获得这么一个评级。 </p>
+<p>然而，要不要提升评级、怎么提升，这就要算账了。务实，就是不拿真金白银去追求虚的东西。 </p>
+<p>业绩和股东回报永远是放在第一位的。大型上市公司的高管，不可能天天去关心几家ESG评级机构的规则调整，被评级逻辑牵着鼻子走。ESG是为市场服务的，而不是反过来。 </p>
+<p>在国内的投资者互动平台上，经常看到多数投资者并不善于就ESG提问。问出的问题类似于“公司为什么ESG评级较低？”“在ESG上面有没有什么规划？”“公司会不会和ESG评分低的伙伴合作？” </p>
+<p>如果想明白了投资与ESG的关系，更值得这么问：“想请问公司，在气候风险之下，或者在经济向可持续方向转型的趋势下，贵公司如何保证我的股份不受损失，并且能获得更好的收益？” </p>
+<p>这就是为什么我们前面讲：有时把“ESG”拿走，商业的逻辑依然成立，并且往往更加务实。 </p>
+<p>对于企业经营亦是如此。比如根据四分仪智库对航运业的调研，中国航运业上市公司在MSCI上的评级通常并不高。理论上讲，想要提升自己的ESG评级，航运企业可以把自己的船队尽量换成节能的新船，尤其是新型替代能源船舶（比如天然气动力、电动力、甲醇动力船舶），可以显著降低企业的碳足迹，从而提升ESG评级。 </p>
+<p>但是，买船是极大的资本投入，需要多年的运营才能收回，不是说换就换。公司买不买新能源的船，决定因素在于能源价格、港口的能源供给配套、政策监管环境等。ESG评级只是一个参考，而非企业决策的决定要素，也不是企业经营的目的。 </p>
+<h3><strong>ESG未能让公众关注到变革的实质</strong></h3>
+<p>这更多是一个ESG宣传和公众教育的问题。 通常来说，更贴近终端消费市场的上市公司，更喜欢宣传自身的ESG成绩。 比如，汽车厂商、服装厂商，远远比汽车零件厂商和面料厂商更喜欢宣传ESG。 </p>
+<p>反过来也一样，社会舆论对终端品牌宣传ESG和社会责任的关切，远多于对上游供应链的关切。 </p>
+<p>矛盾在于，很多终端产品的能源、材料消耗大头在上游，可持续转型的投资和解决方案大多在上游。终端品牌接受的赞誉或批评最多，但真正的改变却是上游去做的。 </p>
+<p>一件碳中和的卫衣、一款碳中和的潮玩，被当作ESG或可持续上的大动作；而上游企业花几十亿投资的十万吨级的低碳材料产能、1GW绿电装机，却很少有圈外人关注。 </p>
+<p>后者也并不是缺那点儿关注。公众的关注，推动不了上游数以亿元、十亿元计的绿色能源、绿色材料投资。 </p>
+<h3><strong>那么钱又为什么流向那些地方？</strong></h3>
+<p>这是真正值得分析的问题。讽刺的是，ESG有时反而成了我们刨根问底的障碍。如果人们打着ESG的旗号一味与终端消费品牌较劲，ESG就成了那个反理性、反常识的力量。 </p>
+<p>在默默做事的上游，资金和资源都投入了更务实、更“工程化”的事情上。而且几亿投资的工程不是一朝一夕建好的，其中的困难与创新又岂是简单一套ESG评分能表达的？ </p>
+<p>于是，钱从ESG领域流走，就再正常不过。 </p>
+<p>综上三点，企业当中的ESG工作正被化约到几件更小范围的事项上去——比如最常见的“减碳”。这些事项更具体、更有目的性、更有可操作性、更能号召多方参与，并且也更为工程，毕竟具体的工作要工程师们在生产线上实现。 </p>
+<p>等过几年，如果“可持续发展报告”全面取代“ESG报告”，ESG可能真的就没人关注了。 </p>
+<p>所以我们开始担心ESG的未来。 </p>
+<p>也有可能这种担心是多余的。“可持续”理念在全社会的权威性不曾被动摇，企业也能找到更趁手的观念武器去应对当下的种种危机变局。我们作为媒体，只要一直追问正确的问题，关心商业社会之中人和自然的福祉，就不辱使命。 </p>
+<p><strong>而“ESG”本身或许在质疑和批判之中能去芜存菁，作为一个真正对市场有利的制度发展下去。</strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/7qGlLfVqhZ37jKjlbSdigQ" rel="noopener noreferrer nofollow" target="_blank">“着陆TouchBase”</a>，作者：袁子奇，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027051561182470</guid><pubDate>Fri, 08 Nov 2024 10:04:00 +0800</pubDate></item><item><title>曾经彰显身份的轻奢配饰，正在被年轻人抛弃</title><link>https://36kr.com/p/3027049802544262</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>谁能想到，曾被年轻人嫌弃的黄金能飞涨到如今这个价位。</p>
+<blockquote>
+<p>11月6日，国际金价再次迎来一次明显上涨，达到2743.80（美元/盎司），涨跌幅度达到7.32%。同时，国际金价（人民币/克）也相应上涨至626.55元人民币，涨跌幅度为1.67%。周生生黄金价格报价813元/克，老凤祥814元/克。</p>
+</blockquote>
+<p>统计显示，今年以来，国际金价累计上涨超32%，年内创新高次数超过30次。 </p>
+<p>但就在黄金逐渐变得高攀不起的同时，那些曾在中国市场站着就把钱挣了的轻奢珠宝品牌，则悄然低下了高昂的头。 </p>
+<p>在Tiffany的社交平台话题下，年轻人纷纷吐槽性价比低，即便依然有人愿意为这个蓝血大牌买单，她们津津乐道的也不再是首饰的品质或颜值，而是它“克领导”的玄学。 </p>
+<p>同样被年轻消费者嫌弃的，还有施华洛世奇、潘多拉等轻奢首饰。不经意间，它们都已沦为上世纪的怀旧时尚单品。 </p>
+<p>果然，当时代抛弃你时，连招呼都不会打一个。 </p>
+<h2><strong>01</strong></h2>
+<p>蒂芙尼 Tiffany 创建于1837年，以银起家，其Heart Tag手链是很多女孩的奢侈品配饰入门之选。 </p>
+<p>成都消费者滢滢去年大学毕业，面临从学生到社会人的身份转变，为了给自己置办白领装备，她用实习收入买了一款Heart Tag手链。如今刚刚一年过去，滢滢已经开始后悔，因为她发现手链竟然已经“黑化”。经过询问才发现，这根售价2250元的手链材质是银925吊饰搭配珐琅，“当时不懂价值，只知道牌子，这个价钱还不如买个金的细手链”。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20241108/v2_19ce54901aee48cdb9fa25b57f904ede@5677084_oswg40899oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>像滢滢一样吐槽蒂芙尼Tiffany首饰氧化变黑的女孩子，在社交平台上数不胜数，小红书有关Tiffany的话题中有很大一部分都是关于去除氧化痕迹的方法分享。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,2043" src="https://img.36krcdn.com/hsossms/20241108/v2_12d745e916bd4696b7cbdb3b06af332f@5677084_oswg295178oswg1080oswg2043_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除了掉色以外，这几年消费者对蒂芙尼退热的重要原因还有保值性不足的问题。某二手电商经营者徐浩在接受新响采访时表示，二手市场对蒂芙尼首饰的回购价格基本在三成左右，主要是因为大家买蒂芙尼看重的主要是设计和时尚感，而这些属性会随着时间的流逝逐渐降低。“即使是蒂芙尼，只要不是钻石，那些时尚饰品都很难保值。”徐浩说。 </p>
+<p>另外，蒂芙尼的首饰经过长时间佩戴后往往面临着较大程度的折旧，不仅是银质氧化变色，还有首饰主体变形等问题。比如流行款双T手镯，18K玫瑰金镶0.11克拉钻石的材质官网售价3.42万元。这样一款品牌溢价极高的产品，却很容易因为多次开合佩戴导致变形，造成两端T形结构变得不对称，甚至断裂。一旦出现此类问题，在二手市场上出售时也会进一步降价。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,824" src="https://img.36krcdn.com/hsossms/20241108/v2_73ca2ebdb05942a8904e0d700e416402@5677084_oswg81144oswg1080oswg824_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此外，二手奢侈品店对蒂芙尼不太热衷的原因还有一点，就是其品牌小票容易褪色，票面上的字迹会渐渐模糊不见。再加上蒂芙尼首饰本身的防伪属性不够，这也导致市面上仿品较多。 </p>
+<p>工艺易模仿，票据难留存，都进一步降低了蒂芙尼首饰的保值性。 </p>
+<p>如果购买蒂芙尼只为了新鲜一段时间，一定记得保留全套票据资料，新鲜感过后便快进快出，这样在奢侈品二手市场更容易以较高的价钱出手。 </p>
+<p>蒂芙尼受到冲击的不只是银质和18K金这些廉价材质，他们在钻石市场同样遭遇了退热潮。 </p>
+<p>钻石本是蒂芙尼的核心产品之一，1886年他们独创单颗钻石的六爪镶嵌法，这也成为后来订婚钻戒镶嵌的国际标准。 </p>
+<p>国内外不少明星结婚时佩戴了蒂芙尼的婚戒，比如贾斯汀·比伯的妻子海莉选择的就是一款巨钻戒指，价值50万美元。 </p>
+<p class="image-wrapper"><img data-img-size-val="600,600" src="https://img.36krcdn.com/hsossms/20241108/v2_44285c29161b408a927a4086f02ca4cf@5677084_oswg38684oswg600oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但是，普通人买蒂芙尼的钻石，当然不会轻易买巨钻。如果你买的是0.3克拉以下的钻石，那么实际上是不太具备保值性的。女明星张雨绮之前也说过“1克拉以下的碎钻不值钱”，这话虽然炫富不讨喜，但也有一定道理。 </p>
+<blockquote>
+<p>珠宝行业分析机构Tenoris今年4月的最新数据显示，培育钻石（人造钻石）的市场份额已经达到了56.8%，天然钻石则下滑至43.2%。也就是说，现在一大半的消费者放弃真钻，选择了假钻。毕竟二者在外形上几乎没有差别，而人造钻石的价格比天然钻石便宜的可不是一点半点。 </p>
+</blockquote>
+<p>消费者不愿再为高溢价买单，钻石赛道又开始转向低价平替，让蒂芙尼步履维艰。 </p>
+<h2><strong>02</strong></h2>
+<p>蒂芙尼已然如此，其他曾经的所谓轻奢首饰品牌的状况则更为糟糕。比如曾靠手链爆火的潘多拉Pandora，以及bling bling闪耀在各大商场一层店铺的施华洛世奇等等。 </p>
+<p>今年开年后，潘多拉在中国市场的销售额同比大跌17%，这并不是他们初次业绩下探，2022年、2023年，潘多拉的销售额分别下滑了47%和9%。这是一个反差性很大的数据，因为潘多拉今年在欧美市场和其他地区的业绩都在上涨。潘多拉在中国市场的疲软趋势明显，2021年，他们在中国的收入占品牌全球市场的5%，2022年滑落至3%，2023年则降至2%。 </p>
+<p>与高中低端相对完整的蒂芙尼相比，总部位于丹麦的潘多拉使用的材质普遍更廉价，多为合金、925银、氧化锆石和珐琅等，高价与低质严重不符，但富有浓郁的童话色彩。如果说购买蒂芙尼看重的是品牌，那潘多拉主打的就是概念。他们的手链本身平平无奇，真正烧钱的是各种颜色款式的串珠挂坠，根据官网售价，每个串珠的价格在100多到300多不等，而迪士尼等联名款串珠则在千元左右。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,486" src="https://img.36krcdn.com/hsossms/20241108/v2_480ed0503e744eca82cb9267f2e918a0@5677084_oswg50093oswg1080oswg486_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>几乎没有人会只戴一条素链出门，就算串上两三个珠子也会略显寒酸，七八个珠子基本成了标配，因此才有了那句广为流传的“一入潘门深似海，一颗一颗往家买”。但由于材质问题，潘多拉饰品和蒂芙尼平价款一样，都容易出现氧化问题。虽然专柜可以免费清理，但终究是给消费者带来了额外的负担。 </p>
+<p>很多奢侈品二手商明确表示根本不接受潘多拉的二手饰品交易，“基本没有交易价值，更没有利润空间。”这也导致入手后再变现的可能性很低。一旦酷爱收集手链串珠的消费者停下DIY的脚步，潘多拉也就成了珠宝品牌中的“过气女明星”。 </p>
+<p>和蒂芙尼、潘多拉相比，施华洛世奇的处境甚至更尴尬。前两者的平价首饰起码还是银饰，而施华洛世奇空有钻石一般的闪耀，主材却多是玻璃，其核心工艺是切割玻璃和胶剂黏合，将铅玻璃和合金金属打造成一个个光芒四射的小物件，好看，但不值钱。 </p>
+<p>施华洛世奇今年公布的财报可见，品牌全年营收增长4%至18.32亿欧元（约合143.12亿元人民币）。虽然业绩略有上涨，但距离2017年35亿欧元（约合273.68亿元人民币）的巅峰期还有相当大的差距。为了重塑辉煌，施华洛世奇也挤进了培育钻石的赛道，他们的培育钻石产品系列已在中国发布。 </p>
+<h2><strong>03</strong></h2>
+<p>以蒂芙尼、潘多拉、施华洛世奇为代表的轻奢珠宝，正在逐渐失去新一代消费者的青睐。 </p>
+<p>同时，如MK、MCM、蔻驰、Furla等入门级奢侈品包包的日子，也同样不好过。MCM、Furla、Pinko等轻奢品牌的中国运营商赫美集团公布的2023年财报显示，其营收归母净利润亏损4720万元，依然未能走出颓势。今年9月，MCM关闭了小红书官方旗舰店，进一步收紧了线上扩张的脚步。 </p>
+<p>与之相对的是，黄金饰品受到了空前追捧。 </p>
+<p>“年少不知黄金好。”消费者小杨曾经是轻奢饰品爱好者，但从去年开始，她彻底转向了黄金，包括投资金条和黄金饰品都有涉猎。“现在黄金首饰设计水准也并不差，特别是保值的属性对我吸引力很大。”小杨说，以往年轻人在对奢侈品首饰的认知里，代表着身份、财力，攀比心态的认知占了绝大多数，对其价值和价格的关系并不关心。但现在，很多年轻人早已转变了观念，认为只有黄金才是永不过时的。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,590" src="https://img.36krcdn.com/hsossms/20241108/v2_ee8f88138c014e639dbf386565817917@5677084_oswg42184oswg1080oswg590_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在楼市复苏尚需时日，股市行情依然不稳的当下，金价的持续走高对年轻人的吸引力倍增。资金雄厚的消费者选择上百克一根的金条，荷包没那么富裕的年轻人则冲向价格更亲民的金豆豆，过去疯狂买轻奢的消费群体，则开始收集各种金首饰，既可佩戴又能升值，进退两相宜。数据显示，25岁至34岁的年轻群体已成黄金消费主力军，年轻人购金比例从16%增长至59%。 </p>
+<p>多重压力之下，轻奢品牌已沦落到“富人看不上，穷人也嫌弃”的地步，年轻人不仅将它们看做“时代的眼泪”，更有人称其为“时代的骗局”。品牌复兴之路，绝非朝夕可成。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/jT0RvmU8lnD17c6qh6geBQ" rel="noopener noreferrer nofollow" target="_blank">“新响”</a>，作者：陈小九，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027049802544262</guid><pubDate>Fri, 08 Nov 2024 10:06:00 +0800</pubDate></item><item><title>老黄还是不死心：英伟达明年再次杀入PC市场</title><link>https://36kr.com/p/3027048969414144</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>狼要来了。全球市值最高的AI巨头即将杀入PC市场。</p>
+<p>来自中国台湾地区供应链的消息证实，在过去十年数次试水失败之后，英伟达将在明年再次进入PC市场，推出整合Arm架构CPU和自家GPU的PC平台，而且同时进军消费级和商用市场。</p>
+<h2><strong>AI巨头进入道指</strong></h2>
+<p>凭借着过去一周10%的强劲涨势，AI芯片巨头英伟达市值已经超过3.65万亿美元，压倒苹果和微软两大传统巨头，再次成为全球市值最高的上市公司。毫无疑问，英伟达是AI时代的最大赢家和领军企业。</p>
+<p>现在正是黄仁勋创业三十多年来的巅峰时刻。今年以来，英伟达股价累计上涨了210%，黄仁勋个人资产也超过了千亿美元。就在本周，英伟达正式取代英特尔，进入道琼斯工业平均指数成分股行列，成为全球芯片行业的象征。</p>
+<p>众所周知，道琼斯指数很少调整成分股，30家公司都是各自行业的旗帜，而每一次调整都意味着一个时代的变迁。今年2月，亚马逊正式进入道琼斯指数，取代了连锁药店超市巨头Walgreens，体现了零售业行业的演变。</p>
+<p>1999年科技大潮时期，英特尔成为首批进入道指的科技公司。但过去十年时间，英特尔不仅接连错失移动时代和AI时代，更在芯片制程方面落后于竞争对手，导致PC和服务器芯片业务承受重压。英特尔市值现在只有1100亿美元，甚至还不到AMD的一半。值得一提的是，AMD最新季度的数据中心业务已经超越了英特尔。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241108/v2_42d90d178ac64a40afa088a7f37d907c@5888275_oswg342110oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此次道指选择英伟达替换英特尔，体现了AI技术大潮给半导体行业带来的巨大变化。在过去两年的生成式AI科技浪潮中，全球科技巨头疯狂抢购英伟达的GPU，用于数据中心进行AI军备竞赛。英伟达这一领域的市场份额甚至超过了八成。</p>
+<p>过去三个季度英伟达数据中心业务营收增长都超过了400%。即便是马斯克和埃里森这样桀骜不训的狂人，都在努力交好黄仁勋，希望拿到更多的英伟达GPU供货。英伟达的烦恼不是如何卖出芯片，而是怎样努力保证产能供货。</p>
+<h2><strong>明年推出PC平台</strong></h2>
+<p>然而，在主导AI数据中心处理器市场之后，黄仁勋又再次将目光投向了AI PC领域，计划突进消费级PC市场。这是英特尔和AMD视为自家原地的阵地，也是他一直期待突破的阵地。</p>
+<p>实际上，英伟达要出PC平台的消息已经传了很久。过去一年时间，外界一直盛传英伟达将与联发科携手，在2025年正式进入x86目前占据绝对主导的PC市场。两家公司有着多年合作。</p>
+<p>今年5月份，黄仁勋在参加戴尔公司的活动时，就曾经被问到英伟达是否有意推出PC处理器，当时这位爱穿皮衣的男子选择了意味深长的不予置评，而戴尔公司CEO迈克尔·戴尔(Michael Dell)则迅速切换话题。两人这种态度给了市场足够的暗示与期待。</p>
+<p>最近来自中国台湾地区PC供应链的消息，再次证实了这一传闻。英伟达不仅会和联发科合作，还可能自己单干，推出基于Arm机构完整包括CPU和GPU的PC平台；而且英伟达打算同时进军消费与商用市场，明年9月推出消费级平台，随后在2026年3月发布商用平台。</p>
+<p>这并不是英伟达首次涉足PC处理器市场。虽然英伟达的GeForce系列GPU早已成为高端游戏PC的标准配置，在AI时代到来之前也是英伟达的最大营收业务，但他们在PC处理器方面的多次尝试都以失败而告终。</p>
+<h2><strong>试水十年多次失败</strong></h2>
+<p>早在2011年，微软就推出了WOA平台开发计划，联合高通、英伟达以及德州仪器合作打造基于Arm架构的Windows RT版本。2012年微软推出了首款Surface RT二合一笔记本，搭载的就是英伟达的Tegra3处理器，这也是英伟达第一款4核处理器。</p>
+<p>不过这款设备因为不兼容x86应用，售价过高，系统经常卡顿等诸多缺陷，很快就被微软清仓处理，微软还因此减计了9亿美元损失。2013年发布的后续产品Surface RT2搭载的是英伟达Tegra 4处理器，但是市场反应依然平淡。</p>
+<p>此次失败让微软一度搁置了Arm架构笔记本的计划。2016年，微软委托高通主导将 Windows 操作系统移植到基于 Arm 架构的处理器上。高通获得了开发 Windows 兼容芯片的独家协议，有效期至 2024 年。</p>
+<p>英伟达的Tegra系列处理器主要用于智能手机，中国用户最熟悉的可能是小米3手机。黄仁勋当年还亲自来到北京的小米发布会，可惜小米3的Tegra版虽然性能强大，但却发热严重容易降频，被戏称为“暖手宝”。</p>
+<p>英伟达也曾经试水将Tegra用在其他笔记本上，例如谷歌的Chromebook。2014年，宏基推出了搭载首款Tegra处理器的Chromebook。但这个市场主要还是被英特尔和AMD所主导，Tegra并没有太大的存在感。</p>
+<p>当时的黄仁勋对PC市场充满渴望。2014年英伟达曾宣布推出“丹佛项目”，计划开发Arm架构的CPU，与英伟达标志性的GPU结合，为PC和其他设备提供处理能力。然而，这个项目最终还是无疾而终，英伟达将丹佛项目的部分内核用在了Tegra处理器中。</p>
+<p>显然，Tegra在移动设备和消费级PC的尝试并不成功。虽然英伟达并没有放弃Tegra处理器，但已经撤出了智能手机和消费PC市场，转向汽车平台、游戏机和嵌入式系统等领域。</p>
+<h2><strong>携手联发科好基友</strong></h2>
+<p>虽然在PC处理器市场多次试水失败，但黄仁勋并没有放弃。吸取了此前的数次失败经验，此次英伟达再次进军PC市场，或许会选择一位在CPU领域更有专业技术的合作伙伴。</p>
+<p>显然，这不可能是主导PC处理器市场的英特尔和AMD，也不会是已经推出PC处理器的高通，有着共同目标和互补优势的联发科才是英伟达的最佳搭档。</p>
+<p class="image-wrapper"><img data-img-size-val="768,432" src="https://img.36krcdn.com/hsossms/20241108/v2_6f6bb475afa3417f9368c0d4393b6189@5888275_oswg533648oswg768oswg432_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>两家公司近年来在诸多产品领域都进行了密切合作，主要是因为英伟达的GPU和联发科的SoC构成了良好的互补。双方的合作产品包括了汽车座舱、边缘计算、物联网以及智能电视，当然也包括了消费级PC。</p>
+<p>联发科正在积极拓展笔记本处理器市场，过去几年已经先后推出了MT8195、MT8192、Kompanio 838等处理器，但这些SoC主要面向Chromebook设备，暂时还没有真正进入消费级笔记本市场。</p>
+<p>去年英伟达和联发科宣布达成合作，为Chromebook开发高性能平台。双方表示，此合作旨在将英伟达的GPU技术与联发科的处理器相结合，为Chromebook提供更强大的图形和AI处理能力。</p>
+<p>这次合作也是外界传言英伟达即将再次进军PC市场的由来。外界传言，联发科最新旗舰天玑9400处理器的GPU性能大幅提升，主要得益于英伟达的技术输出。这款处理器也是联发科与高通竞争旗舰市场的主要产品。</p>
+<p>今年6月的台北国际电脑展Computex旗舰，黄仁勋亲自站台联发科的主题演讲，强调未来英伟达会和联发科在云端和设备端展开合作，更是验证了外界关于两家联合进军消费PC市场的猜测。</p>
+<h2><strong>Arm乐见巨头入场</strong></h2>
+<p>此次英伟达与联发科携手进军PC处理器，或许还有一位盟友——Arm。Arm热切希望看到更多的巨头厂商进军PC市场。Arm CEO哈斯(Rene Hass)在台北电脑展上公开表示，未来五年Arm架构芯片将在Windows PC拿到超过半数的市场份额。</p>
+<p>过去几年时间，苹果已经用自研的Arm架构M系列芯片，在Mac产品线完全取代了原先的英特尔酷睿处理器，让诸多厂商看到了Arm架构芯片在低功耗之外也可以实现高性能。</p>
+<p>另外一个巨头高通也从2017年就推出基于Arm架构的PC处理器，但直到2021年收购前苹果芯片主架构师创办的Nuvia之后，才在CPU性能方面迎来飞跃。去年高通推出的骁龙X Elite笔记本处理器更是在性能上压倒了英特尔和AMD的旗舰。</p>
+<p>今年6月，高通携手联想、戴尔、惠普、华硕等诸多主流PC厂商，推出了搭载骁龙X Elite的Copilot+PC，将Copilot+的AI PC作为自己的最大卖点。不过，高通为微软打造与Windows兼容Arm芯片的独家协议将于今年年底期满。</p>
+<p>而且，高通发力PC市场的最大障碍不是来自英特尔和AMD，而是来自Arm。由于在授权费用上存在分歧，Arm正在与高通大打诉讼，不仅撤销了对高通的授权许可，更要求禁售所有的高通芯片笔记本。双方的诉讼大战第一回合将在下个月开始。</p>
+<p>相比对簿公堂的高通，联发科才是Arm目前关系最为密切的合作伙伴。双方已经在Chromebook芯片展开了多次合作，并从2022年就开始筹备打造笔记本芯片。联发科的首款消费级笔记本芯片可能会在明年CES正式发布。相比高通采用定制内核设计，联发科使用Arm的Cortex架构设计，意味着Arm能够获得更多的授权费用。</p>
+<h2><strong>英伟达优势在AI</strong></h2>
+<p>传闻称，英伟达将在其2025年芯片中采用标准的Arm Cortex X5核心，结合新的Blackwell GPU核心。与高通和苹果不同，英伟达可能不会为该处理器开发定制核心，而是直接采用Arm的现成核心。这一策略在英伟达的汽车业务中已有先例，Nvidia Drive平台使用标准的Arm Neoverse核心。</p>
+<p class="image-wrapper"><img data-img-size-val="750,417" src="https://img.36krcdn.com/hsossms/20241108/v2_a44cad43031f43e088ff3821c31d7c3e@5888275_oswg252341oswg750oswg417_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>来自X平台爆料博主的消息称，英伟达PC处理器将包括Cortex X5 CPU集群、Blackwell集成GPU（iGPU）以及LPDDR6内存。最初传言称芯片将在台积电的N3P节点上生产，但也可能使用英特尔的Intel 3工艺生产。</p>
+<p>显然，在这个AI时代，英伟达的PC处理器也会主打AI功能，这给外界留下了诸多遐想空间。例如英伟达可以在其 PC 处理器中深度整合GPU和CPU，提供高效的异构计算能力。这种整合不仅提高了性能，还能优化多任务处理能力，满足高性能计算的需求。</p>
+<p>此外，英伟达的处理器可以为PC提供高效的 AI 加速能力，满足越来越多需要AI支持的应用场景，比如实时语音翻译、图像处理、智能办公等。随着AI技术在消费级市场的普及，英伟达的处理器可以使PC设备更好地执行AI任务，从而在智能化、个性化体验上更具竞争力。</p>
+<p>当然，游戏性能更是英伟达的传统优势。英伟达在游戏和图形处理市场上有着极高的市场份额，其 GPU 深受游戏和内容创作者的青睐。推出 PC 处理器后，英伟达可以结合自身在游戏和图形处理领域的优势，为高性能游戏 PC 和专业图形工作站提供更强大的硬件支持。这种整合使英伟达能够打造更具一体化的游戏设备，并提升游戏开发者和用户体验。</p>
+<p>不过，兼容性则是英伟达的一大挑战。虽然高通骁龙X Elite处理器和苹果M处理器都展示了Arm CPU运行游戏的巨大潜力，但是目前大多数PC和游戏都没有原生支持Windows ARM。如果英伟达要在PC处理器上展示自己强大的游戏性能，就需要投入大量资源将游戏生态移植到Arm生态。</p>
+<p>虽然在PC处理器领域多次试水失败，但现在的英伟达已经今非昔比，全球AI芯片领头羊再次杀回PC市场。这一次，老黄能如愿以偿吗？</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1pp_voZ_3K4yENEfSDF9Xw" rel="noopener noreferrer nofollow" target="_blank">“新浪科技”</a>，作者：努力码稿的小浪，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027048969414144</guid><pubDate>Fri, 08 Nov 2024 10:07:00 +0800</pubDate></item><item><title>本地生活瞄准种草，真的是伪命题吗？</title><link>https://36kr.com/p/3027046954296839</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近日，美团正在测试一项全新服务 ——“本地在吃”，引起了网友们的关注。美团将这项服务巧妙地嵌入在外卖体系之中，摇身一变成为外卖版的小红书。 </p>
+<p>一直以来，美团从未停止对内容赛道的探索，2016年的后厨直播、2020年搭建直播团队，推出“美团Mlive直播”小程序，同年更是直接在APP内测短视频功能，主打“看视频赚钱”，但都因资源不足、内容创作者少、平台壁垒等限制，没有掀起太大水花。 </p>
+<p>那么 “本地在吃” 会带来怎样的惊喜与变革? </p>
+<h2><strong>通过种草为外卖用户带来美食指南</strong></h2>
+<p>最初，美团的业务模式是团购，以团购形式为用户提供各种优惠服务。随着业务的发展，美团不断拓展新的服务领域。 </p>
+<p>美团新出的“本地在吃” 服务就是其中之一，该服务嵌入在外卖平台中，定位类似外卖版的小红书。从下图可以看到，“本地在吃” 在美团 App 中有独立且明显的入口 ，与拼好饭、跑腿等服务并列。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_8f5cb7f2398844a8b628cb7bfd47ca87@000000_oswg120142oswg1080oswg1041_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来自美团商家</p>
+<p>以往，我们在选择外卖时，往往局限于自己熟悉的几家店铺或者根据平台的简单推荐来下单。但有了 “本地在吃”服务，用户可以看到其他用户分享的各种好评外卖订单。 </p>
+<p>以北京为例，用户进入 “本地在吃” 界面即可看到其他用户的推荐以及推荐话题，而这里面看到的用户则是美团筛选出的外卖推荐官，推荐话题则主要是根据一些当下热门的内容所生成。 </p>
+<p>除了其他用户发布的内容和推荐话题之外，“本地在吃” 界面会优先展示推荐用户附近的种草内容。用户点击 “跟买这些商品” 后，种草内容页面会跳转至外卖点餐页面、并在购物车内加入相关商品，从而便于用户快速下单。 </p>
+<p><strong>在这种情况下，用户不仅能够记录自身美食体验，在一定程度上，其他用户的分享点评也降低了个人的选择成本。</strong></p>
+<p>以往，用户在享受完外卖美食后，可能只是在朋友圈简单晒图或者口头向朋友推荐。而现在，有了 “本地在吃”，用户可以像在小红书上一样，详细地分享自己购买过的好评外卖订单。 </p>
+<p>它为用户提供了一个真实可靠的参考。每个人的口味不同，对于美食的评价也因人而异。而 “本地在吃” 上的分享都是用户基于自己的实际用餐体验而来，没有经过过度的商业包装。当我们在选择外卖时，可以通过阅读其他用户的评价和分享，了解菜品的口味、分量、包装等方面的真实情况，从而做出更符合自己需求的选择。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_b010982c3bda4f53bac62a0616b2b154@000000_oswg322954oswg828oswg429_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来自美团商家</p>
+<h2><strong>AI 与社区化的又一次尝试</strong></h2>
+<p>同时，克劳锐观察到“本地在吃” 服务中还加入了 “AI 帮你写” 功能，用户输入简短的文案后，该功能会结合订单内容生成具体的用餐感受。 </p>
+<p>这使得“本地在吃”的评价填写不再是费时费力的环节，订单内容用户无需具备专业的写作能力，只需真诚地分享自己的用餐感受即可。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_1ff9d71b0942495b86eead2ceaa5d364@000000_oswg358057oswg924oswg1612_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来自美团商家评价</p>
+<p>时间成本降低、评价难度降低，更多的用户也愿意参与其中，分享自己的美食发现。同时，平台还为用户创作设置了激励模式，种草商品被跟买达到一定次数可获外卖红包奖励，比如，在当月被其他用户跟买次数达到 2 次、4 次和 8 次后，可分别获得对应的无门槛外卖红包，类似于带货佣金。 </p>
+<p>这种激励模式不仅能够激发用户积极性，使得用户纷纷主动参与其中，积极分享，还能够提高用户的参与度和粘性，为平台带来更多的优质内容和用户流量。 </p>
+<p>平台上还有可能出现众多美食 KOL的身影。他们以自己的专业知识和丰富经验，为用户推荐各种优质的外卖美食，引领外卖新潮流。 </p>
+<p>在这个平台上，商家的外卖产品可以得到更多的曝光。当用户分享好评外卖订单时，实际上就是在为商家做免费的广告。优质的商家和美食有机会被更多的人发现，从而收获更多的订单。<strong>这对于缺乏宣传渠道的优质商家来说，无疑是雪中送炭。</strong></p>
+<h2><strong>能否带来本地生活新可能还有待观察</strong></h2>
+<p>上海、北京等一线城市年轻消费者较多，对新事物的接受度高，外卖需求大，这些用户对线上社交和分享的需求也更强烈。因此，目前美团 “本地在吃” 服务的目标人群主要集中在北京、上海等一二线城市。 </p>
+<p>美团此次推出 “本地在吃” 服务，也正是看中了内容种草的市场潜力。通过打造外卖版 “小红书”，美团不仅为用户提供了一种全新的用餐体验，也为商家带来了更多的流量和销售机会。 </p>
+<p>这也体现了当下市场的一种趋势，如今，社交化、内容化已经成为互联网发展的重要方向。 </p>
+<p>但作为一项新服务，尽管美团在本地生活领域占据重要地位，但在当前竞争激烈的环境下，它在表现得还是不够出色。 </p>
+<p>去年4月，小红书就正式宣布入局本地生活，首先在北京、上海等高线城市进行布局，主推咖啡、茶饮等年轻人喜爱的品质生活产品。其 “先种草，后到店” 的模式也深受用户喜爱，专注于种草和生活方式的小红书逐渐走出了一条差异化的本地生活发展之路。 </p>
+<p>高德地图则凭借其在导航和位置服务方面的优势，切入本地生活领域，为用户提供周边的餐饮、娱乐等信息及导航服务，方便用户快速找到目的地，这些平台的特色服务都在一定程度上分流了美团的用户。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_6c842be931ab41c09a516ba2e678766e@000000_oswg216989oswg828oswg1792_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来自高德地图</p>
+<p>另一方面，美团并不像抖音等短视频平台拥有庞大的用户流量和强大的算法推荐能力，能够快速将本地生活服务的信息推送给大量潜在用户。 </p>
+<p>例如，抖音上的达人探店视频、商家推广视频等可以吸引用户的关注，激发他们的消费欲望。相比之下，美团的流量获取主要依赖于传统的搜索和推荐方式，在流量的规模和精准度上可能稍逊一筹。 </p>
+<p>在用户体验上的不足，其 APP 界面相对复杂，操作不够便捷，且售后服务有待加强，这些会大大的影响用户满意度和信任度。 </p>
+<p>在商家合作方面，美团对商家收取的佣金和推广费用较高，增加了小型商家负担，同时商家管理不够精细，资质审核和服务质量监督不到位。 </p>
+<p>随着现在消费者需求的不断变化，新兴的消费趋势如社交式消费、体验式消费等不断涌现。美团在这些新兴消费趋势的把握上还需要更加与时俱进，及时推出相应的服务和产品，在竞争激烈的本地生活服务市场中，让自身的本地生活部分相较于其他软件具有强力把握，充分发挥 “本地在吃” 服务的优势。 </p>
+<p><strong>你怎么看待美团本地生活？欢迎大家在评论区讨论~</strong></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIxNDA5OTgyNA==&amp;mid=2650912761&amp;idx=1&amp;sn=afb62570a9efce1503d6362e8f2e6ea6&amp;chksm=8d14118291fa76f9e207fc86a0d5fee0d94104f5749327b399698a19bd4a97141f160a4e721e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“TopKlout克劳锐”（ID：TopKlout）</a>，作者：欧欧，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027046954296839</guid><pubDate>Fri, 08 Nov 2024 10:09:00 +0800</pubDate></item><item><title>专注无人机超视距自主飞行，「安擎科技」获新一轮数千万元融资 | 36氪首发</title><link>https://36kr.com/p/3024644508329474</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>作者 | 林晴晴</p>
+<p>编辑 | 袁斯来</p>
+<p>36氪获悉，近日，「安擎科技」完成新一轮数千万元融资，资方为啟赋资本，老股东元和资本继续加持，庚辛资本担任长期独家财务顾问。本轮资金将主要用于完善生产制造、技术研发及团队建设。</p>
+<p>「安擎科技」成立于2022年，是一家以安全高效的自主飞行为核心技术的无人机交通管理服务与设备提供商，专注为低空航行服务提供解决方案，主要产品包括SafeSky®无人机交通管理软件、DroneIDTM 运行识别标签系列、运行识别地面站、DAA超视距自主飞行智能盒、超视距自主飞行无人机和无人机机场等。</p>
+<p>近年来，我国密集出台相关产业政策，助推低空经济从探索走向发展。低空空域通常指距离正下方地平面垂直距离在 1000 米以内的空域，根据不同地区特点和实际需要可延伸至3000 米以内的空域。根据新华网测算，2023年我国低空经济规模超5000亿元，2030年有望达到 2万亿元。低空正在成为全球竞争的新焦点，各国都在积极建设无人驾驶航空器交通管理系统，向无人机运营人提供低空航行服务。</p>
+<p>低空航行服务的逐渐普及对无人机航电系统也提出了新的需求。传统的遥控无人机受指令与控制链路的通信距离约束只能在视距内安全飞行，适合超视距（BVLOS）的自主飞行技术需要同各低空航行服务提供商（USS）所使用的无人机交通管理（UTM）软件配合实现可规模化的商业飞行。</p>
+<p>「安擎科技」创始人刘莹告诉36氪，「安擎科技」是全球范围内少数具有UTM和BVLOS自主飞行垂直整合能力的厂家，其对自主飞行航电系统的产品落地能力可为国内外的USS厂商提供面向可持续规模化运行的UTM软件和基础设施。</p>
+<p>超视距自主飞行技术的核心在于“感知与避让”（DAA），这是实现超视距飞行的关键技术之一。它帮助无人机在复杂环境中安全飞行，通过智能探测与避让技术，无人机能够识别并避开障碍物，同时规划出最优的飞行路线。此外，无人机交通管理（UTM）系统是实现超视距自主飞行的前提和基础设施，它不仅为无人机提供服务，还能实现有人机与无人机在同一空域的融合运行。总的来说，超视距自主飞行技术通过提高无人机的自主性，扩大了其作业范围，提升了作业效率，并且通过先进的探测与避让技术，确保了飞行安全，这些都是无人机运营规模化和商业化的重要基础。</p>
+<p class="image-wrapper"><img data-img-size-val="1280,592" src="https://img.36krcdn.com/hsossms/20241106/v2_5acdcf1461f9409fa61545909d3afad5@6062283_img_gif?x-oss-process=image/quality,q_100"/></p>
+<p class="img-desc">基于DAA自主避让其它无人机</p>
+<p>基于此，「安擎科技」针对超视距自主飞行的运营场景，提供了一整套低空航行服务解决方案，包括无人驾驶航空器交通管理软件——SafeSky®无人机交通管理软件，对标民航局《民用无人驾驶航空器运行安全规则》要求，支持加载十四种图层，电子围栏数据库服务、无线通信信号质量仿真、微天气信息服务、智能航路规划。结合探测与避让技术，实现超视距无人机自主、安全的规模化运行。</p>
+<p class="image-wrapper"><img data-img-size-val="11085,5091" src="https://img.36krcdn.com/hsossms/20241108/v2_de42951dff124389ad9d7a6299e8c43a@6062283_oswg6201931oswg11085oswg5091_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">低空航行一站式解决方案</p>
+<p class="image-wrapper"><img data-img-size-val="576,1280" src="https://img.36krcdn.com/hsossms/20241106/v2_b075c2fc0bcd49e4b7c1bda47a85aca2@6062283_img_gif?x-oss-process=image/quality,q_100"/></p>
+<p class="img-desc">基于运行识别的无人机探测APP以及四维轨迹记录</p>
+<p class="image-wrapper"><img data-img-size-val="3794,2160" src="https://img.36krcdn.com/hsossms/20241106/v2_5e31a6cd858e45d491ed84560cfdb762@6062283_img_gif?x-oss-process=image/quality,q_90"/></p>
+<p class="img-desc">基于运行识别的无人机探测APP以及四维轨迹记录</p>
+<p>「安擎科技」创始人刘莹认为，“低空航行服务的普及是开展规模化超视距飞行的基础条件保障。而航行服务为运营人产生商业价值的底层逻辑是在安全的基础上提升其运行效率，这也是收费服务的价值主张。由于绝大部分增值服务对象的商业运营人将进行BVLOS飞行，对无人机BVLOS自主飞行系统的垂直技术穿透能力将是非同质化UTM软件的重要分水岭。”</p>
+<p>当前，「安擎科技」已拥有第一批天使客户，今年实现UTM系统商业落地，并已开启Pre-A轮融资。</p>
+<p>团队方面，「安擎科技」创始人刘莹具有航空和无线通信的综合背景，原任波音公司研究与技术部中国区研发经理，核心团队来自波音公司、霍尼韦尔、中航工业、北京航空航天大学、清华大学和华中科技大学等头部企业及院校。</p>
+<p><strong>投资人观点：</strong></p>
+<p>启赋资本董事长傅哲宽表示：安擎科技核心团队具备深厚的航空产业背景和技术研发实力，在无人驾驶航空器交通管理服务领域研究深入并具备国际化视野。公司自主研发的软硬件系列产品精准面向解决无人驾驶航空器大规模、安全、高效商用所面临的监管难点、飞行器端侧自主智能技术难点，商业化进展顺利，有机会成为国内低空空管系统新基建领域的市场化专业厂商及新锐的无驾驶航空器超视距自主飞行技术解决方案公司。政策利好催化低空经济赛道的迅猛发展，我们选择与安擎科技一起助力实现无人驾驶航空器大规模、安全、高效商用时代的早日到来。</p>
+<p>元和资本的董事长张正喜表示：安擎科技是我们元和资本去年九月天使轮领投的低空经济链主公司，本轮继续加持。安擎科技于2022年成立。无人驾驶航空⻜行器要⻜起来，并且有序⻜行，真正有效服务国⺠经济高质量发展，离不开避让、超视距技术;离不开电子围栏、低空通讯、低空航线规划、低空运行大数据平台技术。安擎科技正是随着行业发展需要应运而生的高科技创业公司。是低空经济有效运行不可或缺的平台型技术公司。元和资本投资安擎科技我们专注投资具有世界领先技术且具有广泛运用的硬科技公司的又一范例。安擎科技技术完全自主，拥有顶尖的团队，是元和资本有幸相遇的优秀创业公司。</p>
+<p>正菱创投董事长龙新文表示：珠海正菱创投是安擎科技的天使轮投资机构，很高兴能看到安擎的发展逐步迈入快车道。近年来，珠海市非常重视低空经济的发展，香洲区更是积极地为低空经济产业链企业打造概念验证中试平台，主动谋划开放应用场景，安擎科技就是一个受益者，其技术产品因此得到了快速验证并批量推向市场。珠海正菱也非常欣赏刘莹博士及其团队对未来的理解力、对市场的领悟力以及对运营的把控力。珠海正菱将一如既往地支持安擎的发展，并坚信安擎科技一定能发展成为行业的独角兽企业。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3024644508329474</guid><pubDate>Fri, 08 Nov 2024 10:11:00 +0800</pubDate></item><item><title>浙江富豪周成建，摸着辛巴过河</title><link>https://36kr.com/p/3027038180635527</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>对辛巴颇多溢美之词的服装大佬周成建，正在摸着辛巴过河。</p>
+<p>继年初从女儿手中重新拿回董事长和总裁的大印后，周成建日前亲自上阵，高调开启了自己的淘宝直播首秀。</p>
+<p>在11月1日如约而至的这场直播中，周成建不仅为自家品牌美特斯邦威带货，还在直播间上架了多款其他品牌的产品。直播过程中，周成建不仅点评辛巴小杨哥风波，还直言品牌此前和贾乃亮合作的带货直播效果不佳。</p>
+<p>回顾过往，农民出身的周成建，凭借裁缝技艺起家创办了美特斯邦威品牌。通过明星代言和媒体宣传，美特斯邦威迅速走红，成为千禧年后备受欢迎的本土休闲服饰品牌。2008年，美邦服饰成功上市，周成建家族的财富也随之飙升，更是一度问鼎浙江首富的宝座。</p>
+<p>由于市场环境变化和竞争加剧，美特斯邦威未能及时调整策略，逐渐从神坛跌落。与此同时，周成建的名字也从富豪榜上消失。从美邦服饰的管理层调整来看，周成建原计划培养女儿胡佳佳为自己的接班人。</p>
+<p>胡佳佳掌舵期间，美邦服饰营收持续下滑，连续多年亏损。对此，周成建承认自己对女儿干预过多，并在胡佳佳辞职后重新出山。回归之后，周成建目前已带领美邦服饰开启了一系列改革，如积极布局直播电商领域，推动品牌向户外休闲转型，甚至提出做始祖鸟平替的战略定位。</p>
+<p>然而，从美邦服饰目前所交出的财务成绩来看，周成建的回归暂时未能带领美邦服饰走出困境。今年前三季度，美邦服饰营收持续减少，而公司净利润指标的改善也离不开非经常性损益。此外，美邦此前还曾多次因质量问题受到处罚。</p>
+<h2><strong>周成建重出江湖带货直播，服装大佬“为自己代言”</strong></h2>
+<p>“在直播领域，我是个新人，但做服装我是专业的”，早在10月29日，周成建便已开始为他的淘宝直播首秀进行预热宣传。彼时，周成建通过自己的社交账号公开发布了《周成建的一封家书》，宣布将于11月1日开启入淘直播首秀。</p>
+<p>周成建在这封信中强调，自己做直播不是为了成为网红，而是为了更好地服务消费者，他还相信未来可能会有更多像自己这样的企业创始人加入直播浪潮。</p>
+<p>11月1日，这场备受瞩目的直播终于拉开了大幕。值得注意的是，这场直播，周成建不仅亲自为自家的美特斯邦威产品卖力吆喝，同时还为阿迪达斯、耐克、探路者等其他品牌的户外服饰和户外用品带货，包括华为手表、吉利汽车新博越L、荣耀手机等在内的国货产品也出现在其直播间的产品列表中。</p>
+<p>除了帮自家品牌站台外，周成建在这场直播中还火力全开，对当下直播带货界的多位流量主播进行大胆点评，其中便包括曾为自家品牌带货的明星主播贾乃亮。</p>
+<p>周成建直言不讳地表示，因为当初杭州的电商团队都说贾乃亮带货很厉害，于是品牌花了大几百万请其带货，但后来的实际带货效果非常一般，甚至不如自己播一场的效果，和预期的差距还是比较大的。</p>
+<p>而在提到此前辛巴和小杨哥之间的纷争时，周成建表示，辛巴直接拿一个亿给小杨哥的粉丝赔偿是很有胆量的，也很了不起。周成建盛赞辛巴的举动，后续还得到了辛巴的回应。辛巴在直播中为美邦打气，称80后、90后对这个品牌很有情怀，美邦应该搞这个时代的潮流。</p>
+<p>紧接着，周成建又在个人社交账号上隔空回应，称美邦之前的确有一段时间辜负了消费者的喜爱，品牌希望重新获得80后、90后和00后所有消费者的喜爱。周成建还表示，直播行业需要像辛巴这样的“直播判官”。</p>
+<p>企业大佬亲自出面直播带货，以及公开提及顶流主播的举动，为周成建的淘宝直播首秀换来了不少关注。据周成建在微博公布的直播战报显示，这场直播的观看次数超过了378万，远超平日里美特斯邦威品牌直播间的观看水平，GMV更是突破了1500万大关，最高单品成交金额超170万，3个单品销售额突破百万。</p>
+<p>或是尝到了喊话流量主播的甜头，在11月6日出镜的第二场直播中，周成建再次谈及流量网红。在谈到如何看待小杨哥和东北雨姐等主播试探复播话题时，周成建对流量网红在犯错后短暂停播并缴纳罚款后便迅速复播的做法表达了强烈的不满。</p>
+<p>雷达财经梳理发现，早在去年，美特斯邦威便已涉足直播电商领域，积极寻求新的市场机遇。2023年5月，美特斯邦威电商总部落户杭州滨江区，标志着其在电商领域迈出了坚实的一步。</p>
+<p>随后，杭州美特斯数字产业有限公司和浙江美特斯数字产业有限公司相继成立。大力进军直播电商赛道，美特斯邦威一度凭借“春晚式”的直播收获到了外界的不少关注，但随着时间的推移，这份热度逐渐回归平静。</p>
+<p>然而，周成建并未因此止步，他仍坚定地带领美特斯邦威继续深化变革，探索品牌发展的新路径。而周成建当下带领美特斯邦威所做出的变革，并不仅仅局限于亲自直播带货。</p>
+<p>今年7月，美特斯邦威宣布了一项重大品牌变革，将品牌定位从休闲潮流转变为户外潮流，并同步更新了品牌Logo和Slogan。8月，美特斯邦威进一步深化转型计划，喊出了对标始祖鸟、要做大牌平替的口号，同时推翻原来的零售体系，发布了全新的5.0新零售战略，并提出了雄心勃勃的“万馆计划”，试图借此发起奋力一击。</p>
+<h2><strong>曾靠美邦荣登浙江首富，如今品牌跌落神坛</strong></h2>
+<p>作为美特斯邦威的灵魂人物，农民出身的周成建曾学做过泥瓦匠、木匠，但他更喜欢和擅长做裁缝。</p>
+<p>因为自身农村人的身份，周成建内心深处常感自卑，总觉得自己做什么都很难得到别人的认同。正因为想摆脱“农民”的感觉，周成建后来创业时才给品牌起名为美特斯邦威。</p>
+<p>上个世纪80年代，周成建开始了他的个体经商生涯。到1995年，周成建在温州正式开设了美特斯邦威的第一家专卖店，此后品牌实行连锁经营模式。2003年，周成建又做了一项重要决定，他不顾公司内外的反对，毅然决然地将美特斯邦威的总部从温州迁往上海，借此完成了公司发展的重要战略布局。</p>
+<p>为了提升品牌知名度，周成建不惜重金投入明星代言和品牌宣传。其中，周杰伦等明星的加入让美特斯邦威迅速走红，那句“不走寻常路”的广告词更是深入人心。知名度大大打响的同时，美特斯邦威的专卖店也在全国各地疯狂扩张。</p>
+<p>在周成建的带领下，美特斯邦威成为了千禧年后最受年轻人欢迎的本土休闲服饰品牌之一。2008年，美邦服饰成功登陆深交所，一举摘下了A股“休闲服饰第一股”的称号。</p>
+<p>得益于此，周成建的财富极速飙升。在当年的福布斯中国富豪榜中，周成建家族以136亿元的财富高举第5位，仅次于饲料及铝业大亨刘永行、国美掌舵者黄光裕、碧桂园杨惠妍以及新希望的刘永好家族，周成建也因此成为了当年的浙江首富。</p>
+<p>按照周成建的规划，他原本有意将女儿胡佳佳培养成企业的接班人。自2011年起，胡佳佳就回到自家的企业，在美邦服饰内部历经多个岗位的锻炼。据悉，胡佳佳在此期间曾先后任职于总裁办公室、Metersbonwe鞋类开发营运部、品牌营销部、战略发展部。</p>
+<p>经过数年的积累与磨砺，周成建在2016年11月正式将公司的接力棒交给了胡佳佳，胡佳佳接替父亲成为了美邦服饰新的董事长、总裁。</p>
+<p>二代接班的故事，并不像预料的那样一帆顺风。胡佳佳上任后的首个完整财年（即2017年），美邦服饰全年营收微降0.72%，归母净利润则由盈转亏，全年录得3.05亿元的亏损。</p>
+<p>第二年，美邦服饰全年拿下76.77亿元的营收，同比实现18.62%的增长，但这却成了美邦服饰最后的高光时刻。随后几年时间，美邦服饰彻底走上了营收持续下滑的不归路。</p>
+<blockquote>
+<p>2019年至2023年，美邦服饰的营收同比分别下滑28.84%、30.1%、30.91%、45.45%、5.81%。到2023年，美邦服饰的营收已跌至13.56亿元，这一数字甚至不及公司2006年19.84亿元的水准。</p>
+</blockquote>
+<p>在胡佳佳掌舵期间，美邦服饰还连续多年处于亏损境地。2019年至2022年，美邦服饰分别录得8.25亿元、8.59亿元、4.11亿元、8.18亿元的归母净利润亏损。去年，美邦服饰好不容易扭亏为盈，但全年也仅录得0.32亿元的归母净利润。</p>
+<p>不过，若将美邦服饰营收走上下坡路的原因全部归咎于胡佳佳，也有失偏颇。翻阅公司历年的财务数据可以发现，2011年时，美邦服饰99.45亿元的营收规模距离百亿大关只有一步之遥。但在2012年至2015年期间，美邦服饰的营收却连续多年出现下滑，这时胡佳佳还未成为公司的董事长。</p>
+<p>在接受蓝鲸新闻访谈时，周成建坦言自己没给女儿完全放权。尽管女儿在过去的十年里主持了公司的工作，但他自认为有时干预过多。他相信，如果彻底放手，女儿完全有能力带领公司走向新的高度。</p>
+<p>同时，周成建也坚信，没有哪家企业离不开某个人，只有某个人离不开哪家企业。尽管他对美特斯邦威充满热爱和责任感，但在公司转型的关键时期，可能需要一个对企业和市场有深刻理解，且具备强烈好奇心和学习热情的人来引领变革。</p>
+<p>在尚未找到比自己更合适的人选之前，周成建表示自己愿意担起这份责任，“我并不是社会上最合适的人选，但目前我可能是最愿意投入努力的人”。</p>
+<p>截至今年第三季度末，上海华服投资有限公司持有美邦服饰33.43%的股份，而周成建正是该公司的实际控制人。此外，周成建的女儿胡佳佳也持有美邦服饰8.96%的股份，与周成建构成一致行动人关系。</p>
+<p>由于美邦近年来的发展颇为不顺，周成建的名字已逐渐从各大富豪榜上消失。在不久前胡润研究院发布的《2024胡润百富榜》上，雷达财经未能查询到周成建的名字，而今年该榜单的登榜门槛为50亿元。</p>
+<h2><strong>老将重新出山，暂未取得明显成效</strong></h2>
+<p>面临种种不利局面，周成建从幕后逐渐回归前台。</p>
+<p>据美邦服饰发布的公告显示，年初，胡佳佳因个人原因申请辞去公司包括第六届董事会董事长等在内的多个职务。随后，身为公司创始人的周成建正式回归，重新出任公司董事长、总裁要职。</p>
+<p>至于是否会让女儿回归或聘请职业经理人，周成建表示这将取决于未来的缘分和机遇，他会在适当的时机做出更理性的决定。</p>
+<p>不过，从公司最新公布的财报来看，周成建重新出山后，美邦服饰的业绩目前暂未得到明显的好转。今年前三季度，美邦服饰录得5.25亿元的营收，与上年同期相比再度减少37.28%。利润方面，美邦服饰前三季度的归母净利润为0.52亿元，同比实现24.46%的增长。</p>
+<p>然而，进一步分析可知，美邦服饰去年及今年前三季度能够由盈转亏的关键并非是主营业务有了明显的改善，而是得益于处置自有物业等非经常性损益的影响。若扣除非经常性损益，美邦服饰去年及今年前三季度的归母净利润均为负值。</p>
+<p>在公司发布的2023年年报中，美邦服饰也提到，去年公司以改善财务损益结果为第一使命目标，线下直营采取稳定的策略发展，重点布局线上渠道。持续优化渠道结构，以达成合理费用率为目标的组织重构、优化，各项费用均有明显下降。公司通过资产处置，盘活资产缓解公司流动性压力，降低融资规模及成本，为主营业务发展提供流动性支持。</p>
+<p>值得注意的是，去年美邦新开6家直营门店、112家加盟门店，但同期美邦关闭的直营门店和加盟门店的数量分别多达10家、321家。对此，美邦解释称，因为公司持续优化渠道结构，关闭了较难盈利的直营店铺。同时，部分加盟商关闭了难以持续盈利的加盟店。</p>
+<p>今年上半年，美邦的关店节奏有所收敛。截至上半年末，美邦共有22家直营门店以及777家加盟门店，半年时间新开1家直营门店、14家加盟门店，关闭4家直营门店、25家加盟门店。</p>
+<p>尽管周成建多次公开强调品质对于一个品牌的重要性，但美邦此前也曾多次因质量问题受到处罚。天眼查显示，2021年至2023年，因生产、销售以不合格产品冒充合格或生产、销售不符合保障人体健康和人身、财产安全的国家标准、行业标准的产品，上海美特斯邦威服饰股份有限公司曾多次遭到上海市浦东新区市场监督管理局的行政处罚。</p>
+<p>重新出山的周成建，能否靠直播给美特斯邦威带来新的变化？雷达财经将持续关注。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/n-MMyVzi8vi4DahL289Haw" rel="noopener noreferrer nofollow" target="_blank">“雷达Finance”</a>，作者：X编辑，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027038180635527</guid><pubDate>Fri, 08 Nov 2024 10:15:00 +0800</pubDate></item></channel></rss>
