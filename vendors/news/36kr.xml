@@ -1,121 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 09 Nov 2024 12:30:36 +0800</lastBuildDate><pubDate>Sat, 09 Nov 2024 12:30:36 +0800</pubDate><item><title>解读2025年十大战略技术趋势，对话Gartner研究副总裁高挺</title><link>https://36kr.com/p/3027745703212160</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="900,383" src="https://img.36krcdn.com/hsossms/20241108/v2_32f0da2bf83d40d9b59d77f4ea169684@453363432_oswg145614oswg900oswg383_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>作者 | ZeR0</strong><br/><strong>编辑 | 漠影</strong></p>
-<p>智东西11月8日报道，知名研究机构Gartner近期发布了《Gartner十大战略技术趋势报告（2025）》，涉及<strong>代理型AI、AI治理平台、虚假信息安全、后量子密码学、环境隐形智能、节能计算、混合计算、空间计算、多功能机器人、神经增强</strong>。对此，Gartner研究副总裁高挺向智东西等媒体作了详细解读。</p>
-<p>据高挺分享，Gartner每年会要求全球约两千位分析师提交各自认为所研究领域中的一些重要技术趋势，由技术委员会和筛选委员对这些趋势进行评选。评选标准是满足以下条件：1）能获得企业CXO和CIO的关注，特别是CIO的关注；2）有全球性和跨行业的影响；3）有一些颠覆性影响；4）有一些活跃的实验室研究和研发的信号；5）有一些活跃的风险投资基金用于这些新的技术推进和初创企业的启动；6）不是渐进性的改变、而是跨越式的改变。</p>
-<p>十大趋势可以归为三大类别：<strong>AI发展的紧迫性和风险</strong>（代理型AI、AI治理平台、虚假信息安全）、<strong>计算的新范式</strong>（后量子密码学、环境隐形智能、节能计算、混合计算）、<strong>人机协同</strong>（空间计算、多功能机器人、神经增强）。</p>
-<h2><strong>一、代理型AI：2-3年，不需要休假和福利的数字劳动力</strong></h2>
-<p>Gartner预测，<strong>到2028年，至少15%的日常工作决策将由代理型AI自主做出，而2024年这一比例为0%。</strong></p>
-<p>在高挺看来，代理型AI能够胜任的这些决策包括三类：1）重复性、数据密集型任务，相对简单又有足够多的数据作为决策支撑；2）面向内部的、提高后台工作效率的任务；3）决策路径较短，有人类参与在里面的协同任务，而非实现完全自动化的复杂目标。</p>
-<p>代理型AI（Agentic AI，又名“AI智能体”）通过自主规划和采取行动实现用户定义的目标，有望提高企业生产力。Gartner认为代理型AI的愿景是“每个人都需要一个AI代理”，它会成为一个不需要休假和福利的数字劳动力。</p>
-<p>AI过去只是为特定任务而设计的，在大语言模型出现后，AI开始具备语言和推理能力。OpenAI定义的AGI路线分为五个阶段，第一阶段是聊天机器人，第二阶段是具备推理能力，第三阶段则是具备代理能力的Agent。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,557" src="https://img.36krcdn.com/hsossms/20241108/v2_91c15faffcd44b94af039602b8e0676d@453363432_oswg206633oswg1000oswg557_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>代理型AI有两大特点：以<strong>目标</strong>为驱动，无论是否有人工干预都可以自动执行任务；利用<strong>记忆、计划、感知、工具</strong>等能力作出决策并采取<strong>行动</strong>。 </p>
-<p>最终，代理型AI能像人类一样做事，比如将复杂目标拆解成不同任务，然后调用不同工具来实现任务。它预计会降低网站和应用程序的必要性，有助于提高员工数字技能、解锁扩展的新概念、创造新型工作伙伴。</p>
-<p>高挺认为代理型AI的发展还处于较早期阶段，主要瓶颈在于错误率，尤其是在决策路径长、执行任务多的复杂目标场景。目前OpenAI的推理模型只发布到第一代，至少要迭代2-3个版本才具备比较高的实用性，预计2025年代理型AI仍然处于发展期。</p>
-<p>其终局是人类和AI的融合，将大幅提高生产力，同时带来失业问题，短期内会给人类带来挑战，长期看人类会进入物质极大丰富的社会。</p>
-<p>他建议企业采用人机协作模式，允许AI提供数据驱动的建议，而人类则负责最终决策，同时定期监控和评估AI系统的表现，确保其输出符合预期并且没有偏见。通过定期反馈机制，企业可以不断优化AI系统，并增强人类对其信任。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,545" src="https://img.36krcdn.com/hsossms/20241108/v2_18fe5bce32734288bcbb7aef480a027d@453363432_oswg241146oswg1000oswg545_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>二、AI治理平台：2-4年，负责任的AI将成为企业的标配</strong></h2>
-<p>Gartner预测，<strong>到2028年，采用综合AI治理平台的企业将比没有这类系统的企业减少40%与AI相关的伦理事件。</strong></p>
-<p>生成式AI大幅增加了技术失控风险，这些风险需要得到控制。Gartner所说的“AI治理平台”是指一个可从法律、伦理道德方面帮助组织管理和监督AI系统的技术解决方案，是Gartner不断发展的“AI信任、风险和安全管理（TRiSM）”框架的一部分。AI TRiSM使企业能管理其AI系统的法律、道德和运营绩效。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,510" src="https://img.36krcdn.com/hsossms/20241108/v2_bf65245b8e594f368cf82866730f5a7c@453363432_oswg169317oswg1000oswg510_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>AI治理平台的主要能力包括<strong>模型的生命周期管理能力、透明度和可解释性、模型验证、AI系统监控、AI系统相关的法律政策合规管理</strong>等。</p>
-<p>不是所有厂商都能提供一站式AI治理能力。Gartner认为未来负责任的AI将与网络安全一样成为企业的标配，而且同等重要。该机构预测接下来各国政府将出台一系列针对AI出台的法律法规，强调要警惕一些打着“AI伦理”的口号的市场营销策略，建议企业对AI系统进行压力测试以发现偏见。</p>
-<p>针对推动AI治理、平衡技术进步与社会伦理道德关系，高挺提出了一些建议：1）政府制定明确的政策与法规；2）企业推动伦理审查机制；3）建立跨学科合作机制；4）强化公众教育与参与。</p>
-<h2><strong>三、虚假信息安全：1-3年，防范与对抗伪造信息</strong></h2>
-<p>Gartner预测，<strong>到2028年，将有50%的企业开始采用专为应对虚假信息安全用例而设计的产品、服务或功能，而目前这一比例还不到5%。</strong></p>
-<p>虚假信息是故意传播的、伪造的信息，目的是误导、欺骗或操纵大众，攻击方式有网络钓鱼、社会工程、账户接管和虚假内容等。生成式AI加剧了它的危害，使攻击更难以被人类识别以及被传统技术组织，会给企业造成更大损失。</p>
-<p>虚假信息安全是一类新兴技术，能够系统地辨别信任度，主要是用来在信息传播中确保完整性、评估真实性、防止冒充和追踪有害信息传播。</p>
-<p>其技术元素包括深度伪造检测、防范冒充和品牌保护等；应用场景包括验证实时通信的完整性、确保第三方多媒体的真实性、大语言模型驱动的监控系统（用于跟踪社交媒体和暗网渠道上的内容）、降低生成式AI幻觉和数字测谎仪等。</p>
-<p>身份冒充防范不只限于认证手段，品牌保护需要了解言论的出处、内容和传播范围，对抗虚假信息需要依靠多种技术以及跨职能团队。</p>
-<p>高挺建议企业评估现有系统、工作流程和控制措施，以查找与虚假信息攻击相关的漏洞，并部署虚假信息安全技术和实践。例如在身份验证和生物特征认证工具中加入深度伪造检测的能力，并在整个身份使用过程中持续评估风险。</p>
-<h2><strong>四、后量子密码学：2-3年，防御传统加密机制风险</strong></h2>
-<p>Gartner预测，<strong>到2029年，量子计算技术的进步将使大多数传统的非对称加密技术变得不安全。</strong></p>
-<p>高挺提到后量子密码学的风险可能超过“千年虫问题”。量子计算能破解所有已有的非对称加密。例如，网银安全链路就采用非对称加密机制，而非对称加密在量子计算面前不堪一击。现有存储数据未来可能会被解密，这对很多企业是潜在风险。</p>
-<p>当所有的加密机制都失效了，就需要构建新的加密机制。后量子密码学是一系列算法，用于抵御来自传统计算机和量子计算机的攻击，能够保护数据免受量子计算解密风险。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,557" src="https://img.36krcdn.com/hsossms/20241108/v2_78b8860644d64c37b38ea3687058651c@453363432_oswg231476oswg1000oswg557_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>后量子密码学不是一个简单的升级或补丁，需要清点和替换所有当前的加密，其算法可能影响性能，并且许多组织并没有规划相应的预算。</p>
-<p>其标准主要由美国国家标准与技术研究院（NIST）进行评选，这项工作已经开展多年，经过多轮筛选，预计不久将公布最终的商业化解决方案。到2025年春季，一些算法可能被确定。</p>
-<p>后量子加密算法的标准还没完全定下来，企业可以做一些早期技术准备。由于改变加密方法并非易事，企业必须有更长的准备时间，创建密码使用清单，并与供应商沟通更换事宜，逐步对敏感数据用后量子密码学方法替换现有加密算法，升级或更换硬件，才能为一切敏感或机密信息提供强有力的保护。</p>
-<h2><strong>五、环境隐形智能：3-7年，智能标签成本可降至10美分</strong></h2>
-<p>环境隐形智能是由超低成本、微型无线电子标签、设备和传感器实现的，这些低功耗无线设备预计会在2025年被大规模使用。</p>
-<p>Gartner观察到智能低功耗设备的成本正在变得越来越低，智能标签的成本目前可降到20美分左右，预计5年内可降到大概10美分左右，这意味着基本上可以在每一个物品里嵌入环境隐形智能或标签，从而提供新的客户互动方式。</p>
-<p>环境隐形智能涉及数百万商品的实时库存盘点，涉及零售、食品生产、仓储等多个行业，长远来看将使传感器和智能技术无缝融入人们的日常生活中。</p>
-<p><strong>到2027年，环境隐形智能的早期示例将以解决当前问题为主，例如检查零售库存、易腐货物物流等，通过实现低成本的实时物品追踪和感知来提高可见性和效率。</strong></p>
-<h2><strong>六、节能计算：3-5年，用新型计算技术降低能耗</strong></h2>
-<p>IT能源消耗正在以一种不可持续的方式不断增加。AI训练、模拟、优化、媒体渲染等高性能产品的需求可能成为企业碳足迹“大户”。<strong>在2024年，碳足迹是大多数IT组织的首要考虑因素。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1000,557" src="https://img.36krcdn.com/hsossms/20241108/v2_f8b055e4ae4e4f5495e6b81db15dc38e@453363432_oswg213603oswg1000oswg557_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>节能计算是指用更小能耗实现更高的计算。这不是一蹴而就的事情，短期策略可使用绿色能源，提高计算利用率；中期策略可用更高效的编码、架构、算法，提高能效比；长期策略比如在2030年前，预计会看到光计算系统出现。</p>
-<p>光计算、神经形态计算、新型加速器等，这些新的计算技术将被专门用于AI和优化等特殊任务，并能够显著降低能耗。</p>
-<p>高挺还分享了一些企业在降低AI能耗方面的实践方向，例如使用更小的模型、探索和开发新型算法设计、通过监控模型性能并在达到预期精度后提前停止训练等。</p>
-<h2><strong>七、混合计算：3-10年，用更高效机制解决计算问题</strong></h2>
-<p><strong>混合计算将被用来创建比传统环境更高效的变革性创新环境。</strong>这种计算形式有助于助力AI等技术突破当前的技术限制。</p>
-<p>传统计算的未来是混合型的计算，结合不同的计算、存储和网络机制解决计算问题。</p>
-<p>比如可以结合中央处理单元（CPU）、图形处理单元（GPU）、边缘计算、特定应用集成电路（ASIC）、神经形态计算、经典量子计算、光学计算范式等计算范式编排起来，利用各自的优势去解决不同的问题。</p>
-<p>难点在于混合计算涉及到许多新兴技术，协调起来并非易事，现阶段还局限在比较小规模的异构计算资源（如CPU和GPU整合），在更大规模内的协调需要时间，其成熟至少需要<strong>3-10年</strong>。</p>
-<p>Gartner建议关注能够跨计算范式支持应用开发和部署的集成与编排平台。</p>
-<h2><strong>八、空间计算：1-3年，将提高企业效率</strong></h2>
-<p>Gartner预测，<strong>到2033年，空间计算市场将从2023年的1100亿美元增长至1.7万亿美元。</strong></p>
-<p>空间计算是将物理对象和数字对象合并到一个共享参考框架内的一种新兴计算范式，也就是将物理和数字世界的内容进行叠加和混合。其中涉及的关键技术包括对物理世界中人、地点、事物在数字空间进行映射和识别，比较典型的有增强现实（AR）、虚拟现实（VR）、扩展现实（XR）等技术，以数字方式增强物理世界，将实体和虚拟体验之间的交互提升到一个新的级别。</p>
-<p>Vision Pro、Quest 3等新型头显的出现驱动这一趋势的发展，使空间计算从概念走向现实。更多具有空间计算能力的设备和应用正在被开发出来。Gartner预测头戴式显示器未来可能取代电脑和其他显示器。据估计，2024年空间计算的市场规模为350亿美元，包括基于XR芯片构建合作伙伴生态系统的主要硬件制造商。</p>
-<p>在未来5~7年内，空间计算的使用将通过简化工作流程和增强协作能力来提高企业效率。</p>
-<p>空间计算仍面临不少问题，比如头显价格贵、设备重、续航不长、操作界面较复杂、上手有门槛、缺乏有黏性的杀手级应用等。不同厂商硬件、软件和内容生态之间缺乏互操作性，也会阻碍空间计算的发展。</p>
-<h2><strong>九、多功能机器人：3-10年，提高投资回报率</strong></h2>
-<p>Gartner预测，<strong>到2030年，80%的人类将每天与智能机器人打交道，而目前这一比例还不到10%。</strong></p>
-<p>多功能机器人不是为了完成单一任务，而是能够执行多项任务，正在取代为重复执行一种任务而专门设计的特定任务机器人，可以与人类一起协作，能够快速部署和轻松扩展。</p>
-<p>这种新型机器人的功能性，能够提高效率和投资回报率（ROI），为了帮助人类完成各种任务针对需要做什么给出指令，而不是如何采用新的外形规格。比如这个机器人在家里能做烧菜、洗碗、拖地等很多事情。</p>
-<p>短期的需求可以被短租机器人满足。人机关系（机器人学）对业务成功的重要性将日益增加。</p>
-<p>有些企业开始开发培训系统，用于教导机器人如何为业务提供支持；有些企业在招聘员工或考虑生产力资源时会考虑使用机器人；甚至有些企业对机器人部署默认采用多功能的策略，开始起草企业关于人机关系的基本政策。</p>
-<p>在高挺看来，AI、传感器、机器人驱动器等技术因素，以及劳动力成本上升、劳动力短缺、自动化需求日益增长等外部因素，共同推动着智能机器人的快速发展和普及。汽车制造、电子制造、医疗辅助、家政服务、互动学习等行业场景均有可能实现多功能机器人的规模化应用。</p>
-<h2><strong>十、神经增强：超过10年，提高人类认知和改善营销体系</strong></h2>
-<p>Gartner预测，<strong>到2030年，30%的知识工作者将通过BBMI等技术（资金来源包括雇主和个人）提升自己的能力，并凭借这些技术来适应工作场所中AI的崛起。这一比例在2024年还不到 1%。</strong></p>
-<p>神经增强即脑机接口，利用读取和解码大脑活动的技术提高人类的认知能力。这项技术能够使用单向脑机接口或双向脑机接口（BBMI）和一系列其他方法“读取”人的大脑，实现“大脑透明度”，用信号方式反映人类在想什么，乃至增强大脑的功能。对大脑工作方式的理解将更深刻。</p>
-<p>神经增强技术主要有三个潜力：1）提高人类的认知能力，“变成增强型人类”；2）影响下一代营销体系，帮助品牌了解消费者的想法和感受并增强人类的神经功能，从而获得最佳的结果；3）提升绩效，增强人类神经能力，预防工业事故、老龄化问题、司机疲劳驾驶等，有助于延长大脑健康时间和整体寿命。</p>
-<p>高挺进一步解释道，传统营销是通过做用户问卷、大数据分析等方式获知用户喜好；未来企业可以借助神经增强技术，通过分析脑电波信号，来实时了解消费者的真实意图，实现更有效的营销。</p>
-<p> </p>
-<h2><strong>结语：形成正确对待技术趋势的心态</strong></h2>
-<p>相比前几年更强调技术架构的变化，今年的Gartner十大战略技术趋势更强调技术本身。高挺分享说，由于AI不断迭代，技术进入一个加速期，接下来代理型AI、虚假信息安全、AI治理平台预计发展较快，多功能机器人也已经被引入到生产制造行业中。</p>
-<p>在他看来，如何正确对待技术趋势的心态很重要，可根据风险偏好去选择引领趋势发展、关注技术趋势发展甚至是完全忽视某项技术趋势（如果它和企业不相关或成熟时间太长）。但对于技术趋势和新兴技术而言，想直接应用的心态反而是会满足不了预期的。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027745703212160</guid><pubDate>Sat, 09 Nov 2024 09:10:00 +0800</pubDate></item><item><title>叮咚买菜翻红，但下结论还有点早</title><link>https://36kr.com/p/3027814818559104</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="2342,1332" src="https://img.36krcdn.com/hsossms/20241108/v2_faa205bedf604f76a16db73ad0fca821@6050113_oswg291435oswg2342oswg1332_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>出品<strong> | </strong>消费巴士</p>
-<p>叮咚买菜成了目前涨势最好的中概股之一。</p>
-<p>今年第三季度，它的营收同比增长27.2%到65.4亿元，Non-GAAP标准下净利润增长942%到1.6亿元，连续八个季度盈利，GAAP标准下的净利润则是1.33亿元，同比增长62倍，连续三季度保持盈利。</p>
-<p>财报公布当天，叮咚买菜的股价最高涨到了4.5美元，虽然这个数字相比它23.5美元的发行价还差了80%多，但相较今年股价最低时，涨幅已接近200%</p>
-<p>从2019年到2022年，叮咚买菜一共亏损了123亿元，加上每日优鲜暴雷、盒马业务摇摆，线上买菜、生鲜前置仓成了最前途未卜的赛道之一。直到2023年，叮咚买菜才首次实现年度盈利。</p>
-<p>某种程度上，人们对叮咚买菜的关注更像是对生鲜前置仓和线上买菜业态的关注。大家关心它到底能否盈利，又能否持续盈利。而这些问题，叮咚买菜靠自己的力量只回答了一半，另一半还攥在不断冒出的对手那里。</p>
-<p><strong>01</strong><br/><strong>谁救了叮咚买菜</strong></p>
-<p>谁救了叮咚买菜？这个问题的答案可以归纳成两个大点，断臂求生和破除生鲜迷信。</p>
-<p><strong>【断臂求生】</strong></p>
-<p>2022年以前，前置仓赛道每日优鲜还和叮咚买菜分庭抗礼，社区团购又有美团优选和多多买菜半路杀出，那时的叮咚就像一个对每个阵地都要严防死守的士兵。很长一段时间里，为了和每日优鲜争当生鲜电商老大，前者的业务开到哪儿，后者就会去到哪儿，甚至，它还把业务拓展到对方没来得及去西南地区。</p>
-<p>抛开挣名声的面子，只看经营的里子，进军西南绝不算是好选择。当地生鲜品类极其丰富，人们生活节奏慢，线上买菜习惯非常不成熟，但在搞规模竞赛的时候，似乎谁摊子铺得广，谁才能当上王者。</p>
-<p>或许是看到对手的陨落，或许是感受到了资本市场的寒意，叮咚买菜放弃了一味铺规模，选择聚焦江浙沪大本营。2022年5月，叮咚买菜陆续退出滁州、珠海、唐山、厦门等城市，2023年暂停成都和重庆市场的运营，并在广深两地关闭了30多个站点。</p>
-<p>收缩的确让规模变难看了。从2021年末到2023年末，叮咚买菜的前置仓数量从1400个减少到了1000个，2023年GMV则同比减少了16.3%到219.7亿元。</p>
-<p class="image-wrapper"><img data-img-size-val="755,500" src="https://img.36krcdn.com/hsossms/20241108/v2_06689932944048b387ff4a97ecfa2eb1@6050113_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p> </p>
-<p>但聚焦的好处也是显而易见的。江浙沪消费群体有相似的饮食习惯，这让叮咚买菜可以用更统一的动作优化供应链、教育市场，从而提高效率。今年第三季度，其在上海和江浙地区的GMV分别录得了24.5%和40%的同比增长，更有13个城市年同比增长超50%。再看单量，其上海单日仓均单量已接近1700单，江浙两地则超过了1000单。</p>
-<p>高订单量意味着，叮咚买菜可以进一步摊薄对前置仓来说最大的一块运营成本——履约。今年第三季度，叮咚买菜在营收同比增长27.2%的情况下，履约成本只增长了17.1%到11.9亿元，履约成本占营收比从去年同期的23.2%减少到了21.4%，这就是聚焦提效最好的证明。</p>
-<p><strong>【破除生鲜迷信】</strong></p>
-<p>尽管从创立到上市，叮咚买菜都一直标榜自己要 “让美好的食材像自来水一样触手可得”，线上买菜也一直是它的最大亮点。但在求生存的过程中，叮咚买菜不得不把果蔬肉蛋等生鲜放在不那么重要的位置。</p>
-<p>在叮咚买菜2023年的财报中，它的生鲜产品、非生鲜标品、预制菜三大品类的SKU占比分别为37.5%、45%和17.5%。也就是说在靠线上买菜建立心智后，叮咚正在慢慢引导消费者从它那儿买走粮油、纸巾、卤味熟食和快手菜。</p>
-<p>相比生鲜品类，非生鲜标品和预制菜不仅拥有更高的毛利率，损耗也更低、库存管理起来更省事。浙商证券的一份报告显示，生鲜食材的毛利率最低可能只有几个点，但即烹即热/即配/即食类商品毛利率可以达到20%-50%,而自2021年底发力预制菜以来，叮咚买菜的毛利率从2021年的20.1%提升到了24年第一季度的30.6%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,375" src="https://img.36krcdn.com/hsossms/20241108/v2_033246b317c94bb1a62e010f13549689@6050113_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p> </p>
-<p>叮咚买菜在这两个更能赚钱的品类上也的确下足了功夫。公开资料显示，包括家常小菜“蔡长青”、面点产品“良芯匠人”、虾类产品“拳击虾”在内，叮咚买菜旗下已经有9大预制菜品牌。今年第三季度，它又对鲜活水产、饮用水、三明治、饮料、冰淇淋等数十个细分品类做了差异化开发，它们贡献了大盘一半以上的规模增长，而在这些被它列出来的细分品类里，除了鲜活水产，其他均为标品。</p>
-<p><strong>02</strong><br/><strong>谁会难倒叮咚买菜</strong></p>
-<p>尽管交出了一份亮眼的成绩单，叮咚买菜却还谈不上危机已过。</p>
-<p>三季报数据显示，虽然在发力毛利率更高的预制菜和非生鲜标品，叮咚买菜的整体毛利率却从去年同期的30.4%下降到了29.8%。按照官方说法，毛利率下降是为了在供应侧让利消费者，但它的营销费用同样露出了隐忧。</p>
-<p>第三季度，叮咚买菜的销售和营销费用同比增长了39.1%到1.45亿元，增速远高过公司整体营收增速，营销费用占比也从去年同期的2.0%增加到了2.2%。</p>
-<p>下滑了0.6个百分点的毛利率，以及增长过快的营销费用，让人不得不怀疑叮咚仍需用更高的获客成本或者打折促销，才能在重新激烈起来的竞争中赢得用户。</p>
-<p>从目前的竞争格局看，山姆会员店的前置仓数量已经接近500家，并以每日仓均1000的订单量、230元的客单价和超400亿元的GMV，稳稳站在了盈利能力的最顶端。</p>
-<p>山姆之外，盒马在8月被曝出重启前置仓，京东旗下生鲜业务七鲜9月在北京开出首个前置仓，美团旗下直接对标叮咚买菜的小象超市，更是已经覆盖到了北上广深。今年上半年，美团新业务同比增长28.7%、亏损大幅缩窄，集团也部分归因于“小象超市在商品、运营和履约方面取得显著进展，效率不断提升”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,724" src="https://upyun-old.36krcdn.com/tos-cn-i-6w9my0ksvp/05c28b571429457284811543c3038a31~noop.image?_iz=58558&amp;from=article.pc_detail&amp;lk3s=953192f4&amp;x-expires=1731679664&amp;x-signature=wbH%2BknussmjRpG02p3OSmfqM8T0%3D?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p> </p>
-<p>多位住在北京和上海的消费者告诉我们，他们正在增加从小象超市买东西的频率，因为同类型的商品，小象的价格往往更实惠。</p>
-<p>这些对手，或是靠独有的供应链能力稳步盈利和扩张，或者有充足的弹药推进规模战和价格战，它们正在成为叮咚彻底复活之路上的拦路虎。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027814818559104</guid><pubDate>Sat, 09 Nov 2024 09:11:00 +0800</pubDate></item><item><title>今年进博会，巨头们在抗老/美白市场“厮杀”</title><link>https://36kr.com/p/3027782619079937</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 09 Nov 2024 13:00:42 +0800</lastBuildDate><pubDate>Sat, 09 Nov 2024 13:00:42 +0800</pubDate><item><title>今年进博会，巨头们在抗老/美白市场“厮杀”</title><link>https://36kr.com/p/3027782619079937</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_82676c705bc8414e9e7e25d944554973@000000_oswg677547oswg1080oswg495_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p>欧莱雅/雅诗兰黛们都在关注什么技术方向？</p>
 <p><strong>来源 </strong> | 聚美丽 <strong>作者 </strong> | 谢耳朵 </p>
@@ -227,7 +111,79 @@
 <p>视觉设计：乐乐/筱情微信排版：谢耳朵责任编辑：木头</p>
 <p>·END· </p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0OTg1NTUxOA==&amp;mid=2247606801&amp;idx=1&amp;sn=f66b1e944719f5a6b4020f77a01e9894&amp;chksm=e823cb96bd083f670ab3c6cceddecdd287adf4d5b2ac9ce8427ac76350c339b920ed817d519b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“聚美丽”（ID：jumeili-cn）</a>，作者：谢耳朵，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027782619079937</guid><pubDate>Sat, 09 Nov 2024 09:14:00 +0800</pubDate></item><item><title>「影石Insta360」：全球市占率67%，立足智能影像科技，从校园创业到年营收40亿</title><link>https://36kr.com/p/3028471959446792</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027782619079937</guid><pubDate>Sat, 09 Nov 2024 09:14:00 +0800</pubDate></item><item><title>良品铺子渡劫</title><link>https://36kr.com/p/3027768100873474</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p> </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_88f2a7c8708d4c38839b4fd24135092c@000000_oswg90114oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_1839b52acefe4ebf865d8953f3a8c0ab@000000_oswg29067oswg1080oswg329_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_1b476ed1de79499482ed944c793e0e33@000000_oswg3005oswg1080oswg67_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>近日，良品铺子的藕粉、酸辣粉产品被举报配料表存在造假问题，被武汉当地市场监管部门立案调查。</p>
+<p>目前，良品铺子正面临不小经营困境，此次负面舆情事件对经营无疑是雪上加霜。</p>
+<p><strong>01</strong></p>
+<p><strong>配料表造假风波</strong></p>
+<p>近日，打假网红“松哥打虎”发布视频称“良品铺子产品配料表造假，酸辣粉里没有粉，藕粉掺杂木薯淀粉”，引发市场广泛热议。</p>
+<p>援引齐鲁晚报网报道，从相关视频来看，疑似“造假”的藕粉和酸辣粉，确实是从良品铺子官方旗舰店购买，其购买、送检等过程均有证可查，取证也经过了公证处公证，应当说可信度较高。</p>
+<p>11月4日，良品铺子发布声明称，经初步排查，相关产品在我司及生产商本年度的多批次送检中各项指标均合格。</p>
+<p>所诉藕粉分别于2024年6月、7月、9月送检不同检测机构，进行包括特定基因成分鉴定在内的多项检验，均未检出木薯成分。</p>
+<p>双方各执一词，不过监管部门已经介入调查，真相很快就会水落石出。</p>
+<p>其实，无论最终结果如何，良品铺子品牌形象或许都会受到波及。</p>
+<p>如果监管部门证实没有造假，良品铺子这波负面舆情所造成的影响很有可能没有办法完全消除。因为此次事件经过央媒以及多地地方媒体广泛报道，加之公众号、抖音等自媒体账户裂变传播，“造假”、“立案调查”等负面标签刻在了良品铺子身上。</p>
+<p>如果监管部门证实造假，那么对良品铺子的冲击与影响更加不可估量。</p>
+<p>一方面，配料表造假违反《食品安全法》的第124条，涉嫌产品标签虚假标注。根据法律法规，一般处理结果就是没收违法所得，再加罚款。</p>
+<p><strong>另一方面，若造假被实锤，或酿成品牌重大危机。</strong>良品铺子作为高端零食代表，在消费者心目中有“高价高质”的品牌形象，如果此次事件被证实，将打破消费者对品牌的信任。</p>
+<p>诚信是品牌立足之本，一旦失去了消费者信任，品牌或将很难在激烈的市场竞争中立足。</p>
+<p>前有曾红极一时的澳洲奥妙奶粉，因篡改保质期事件最终退出中国市场，后有三只羊集团的月饼事件、千万粉丝网红“东北雨姐”卖红薯粉被打假事件均对其自身平台或品牌造成不可估量的冲击。</p>
+<p>不可否认的是，良品铺子品牌正面临这样的潜在风险。</p>
+<p><strong>02</strong></p>
+<p><strong>代工模式是把双刃剑</strong></p>
+<p>在造假风波之前，良品铺子频现食品安全问题。</p>
+<p>2021年3月，针对消费者网购鸡肉肠出现蛆虫一事，良品铺子回应同批次检验合格，并表示希望送检涉事产品。据澎湃新闻，期间被爆出良品欲和解赔付1000元，要求删帖。几个月后，良品铺子正式道歉，并对相关产品全渠道下架。</p>
+<p>2022年9月，据央广网，湖北随州一女子在外卖平台购买良品铺子的月饼，刚吃第一口就吃出了塑料纸。该事件被曝光后，引发消费者广泛关注。后来，良品铺子道歉。</p>
+<p>除消费者曝光外，还有地方食品和药品监督管理局发现的食品安全问题。比如，2016年底，成都相关部门抽检发现，良品铺子四川子公司在邛崃临邛东街店销售的金针菇（香辣味）不合格。2017年初，湖北相关部门在抽检中发现，良品铺子湖北子公司分装的一款原生腰果霉菌超标，被罚款64.28万元。</p>
+<p>在黑猫投诉网站上，有关良品铺子的投诉高达2774条，内容涉及吃到异物、食品发霉变质等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_5a0e626a42e1435d85bc9e9314753c8a@000000_oswg118524oswg960oswg544_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>▲来源：黑猫投诉</p>
+<p>那么，究竟是什么原因导致良品铺子食品安全问题频发？</p>
+<p><strong>良品铺子没有自己的生产工厂，采用“代工+贴牌”模式。</strong>该模式属于轻资产运营，虽有一些优点，但弊端同样凸显，最大问题之一便是产品品质不易把控。</p>
+<p>一方面，良品铺子SKU高达1500余个，涉及肉类、海味、话梅、干果、坚果等繁杂产品线。在该模式下，牵涉供应商数量众多，良品铺子难以做到供应链的完全把控。在生产、储存、运输等环节中任意一个小疏漏，均有可能引起食品安全问题。</p>
+<p>另一方面，代工模式存在共性通病，即品牌方因盈利压力可能会要求降低代工费用，而代工厂存在主动或被动“偷工减料”的潜在风险，成为食品质量问题频发的重要因素之一。</p>
+<p>比如，给“东北雨姐”供货红薯粉的生产厂家——朝阳县六河粉条制造有限公司，因用木薯粉替代红薯粉被罚671万元。</p>
+<p>为什么会铤而走险？</p>
+<p>背后自然是利益驱使，食品级红薯淀粉价格为6500元-1.1万元/吨，而木薯淀粉多在3300元/吨-5500元/吨之间，原材料价格悬殊之大。</p>
+<p>反观良品铺子主要竞争对手，则有不同选择。比如，盐津铺子95%以上的休闲零食为自有工厂生产，自主掌控供应链，且可以上下游产业链延伸，降本效果较好，毛利率、净利率表现位居休闲零食行业NO.1，显著高于良品铺子。</p>
+<p>此外，百草味融合了自主生产和代加工模式。三只松鼠则在2017年便开始自主建立工厂。</p>
+<p>总体来说，代工模式是一把双刃剑，用得好，可以增加企业效益，用得不好，频发食品安全问题，也可以反噬品牌方。</p>
+<p><strong>03</strong></p>
+<p><strong>难以摆脱经营泥沼</strong></p>
+<p>几年前，良品铺子也曾备受资本市场追捧。</p>
+<p>2020年，良品铺子业绩表现亮眼，与三只松鼠、盐津铺子旗鼓相当。彼时，良品铺子PE超100倍，市值高达340亿元，超过盐津铺子的140亿元和三只松鼠的310亿元。</p>
+<p>然而，良品铺子增长颓势很快显现，股价随之开启长达4年多的回调期，累计跌幅超过80%。当前，良品铺子市值仅53亿元，已经不足盐津铺子、三只松鼠市值的一半。</p>
+<p>不可否认的是，良品铺子的经营已深陷泥潭，无法自拔。2024年前三季度，公司营收54.8亿元，同比减少8.66%，归母净利润为0.19亿元，同比锐减90%，而2021年同期利润高达3.15亿元。可见，在2023年底实施大降价策略，并没有实现以量补价，业绩表现糟糕。</p>
+<p>此外，大降价还波及了盈利能力。截止三季度末，公司毛利率为26.84%，延续过去5年整体下滑态势，较2019年同期大幅下滑超5.6个百分点。</p>
+<p>净利率表现更加羸弱，最新数值仅为0.3%，较2023年同期大幅下行2.9个百分点。这大幅低于盐津铺子、三只松鼠同期的12.8%、4.8%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_4c1dc092eaff4c23a17c7763e1ce5e43@000000_oswg111926oswg1080oswg486_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>▲三大休闲食品龙头净利率走势图</p>
+<p>来源：Wind </p>
+<p>过去2-3年，盐津铺子、三只松鼠不管是业绩增长，还是盈利能力均有不错表现。反观良品铺子，却陷入了深度调整之中。从这个维度看，良品铺子当前所处困境不能仅归因于行业内卷，更多是自身经营出了一些问题，最为典型的是没有把握好销售渠道的重大变革。</p>
+<p>线上销售渠道，休闲零食原本都聚焦在传统电商平台，但伴随着短视频为首的兴趣电商崛起，抖音大力抢占淘系、京东的市场份额。</p>
+<p>2023年，休闲零食在抖音渠道销售占比大幅提升9.8%至36%，而淘系和京东分别下降7.2%、2.7%至51.8%、12.2%。</p>
+<p>良品铺子线上比较依赖淘系与京东，而强势的抖音渠道则少有斩获。2022年，良品电商渠道销售出现罕见负增长，2023年大幅下滑32.6%，2024年上半年表现继续羸弱。</p>
+<p>三只松鼠则凭借抖音渠道实现了翻盘。2024年前三季度，归母净利润3.4亿元，同比涨幅高达101%。</p>
+<p><strong>线下渠道也发生了深刻变化，良品铺子同样没有把握住变革红利。</strong></p>
+<p>全国零食量贩模式切准消费者“多快好省”底层消费需求，凭借更丰富的零食品类、更实惠的产品价格实现快速兴起，高效承接来自传统卖场商超的流量转移。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_4584bb4b52884fe0a86c74f9b818c13d@000000_oswg218247oswg782oswg541_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>▲ 来源：国海证券 </p>
+<p>全国零食量贩门店数量从2020年的2000家快速裂变至2023年的2.2万家以上，市场规模攀升至800亿元，已占据休闲零食总市场规模的7%左右。</p>
+<p>伴随资本加持，零食量贩渠道还将持续扩大线下渠道占比。目前，零食有鸣、零食很忙、赵一鸣等头部品牌还将加速扩张。其中，零食有鸣预计到2026年扩张至16000家。</p>
+<p>量贩零食商对线下零售渠道端进行了革新，即绕过经销商直接和厂家采购，平均售价比商超渠道低20%-40%，对消费者的吸引力足够强。这对良品铺子供应链可谓是“降维打击”。</p>
+<p>面对线下渠道流量转移大势，盐津铺子早在2021年便开始布局零食量贩渠道，合作对象正是行业头部零食很忙集团。此举让盐津铺子大获成功，业绩持续高增。</p>
+<p>但良品铺子动作迟缓，没有选择与量贩商巨头合作，错失了渠道红利。一来，沿袭老路，继续加码开设直营店，但因开店经营成本越来越高，对业绩拖累也比较明显。二来，良品铺子尝试建立自己的量贩式品牌——零食顽家，但并没有成功走出湖北市场。</p>
+<p>线上渠道中，三只松鼠抓住了流量变革机会，走出了经营困境。线下渠道中，盐津铺子抓住了流量变革机会，拉大了与竞争对手的差距。</p>
+<p>然而，良品铺子在线上、线下渠道变局中均没吃到红利，业绩表现一落千丈。现在又遇配料造假风波，公司想要走出经营泥潭又上了难度。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_4fe5346c0ea04dfe94f4e7e0aa33d80b@000000_oswg2664oswg1000oswg79_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241108/v2_ed7db8f3933248faa1cc3d70efd94269@000000_oswg42538oswg1000oswg378_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p> </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3NTk4NDYzOQ==&amp;mid=2247656971&amp;idx=1&amp;sn=2fd9b81c3427402a8b4e410ec465d7c6&amp;chksm=ce9429cc20a0c13dfdf48acb3388e902ca1312f474340cbeddfcbbb9a291056a4321bd219950&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“市值观察”（ID：shizhiguancha）</a>，作者：市值观察，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027768100873474</guid><pubDate>Sat, 09 Nov 2024 09:17:00 +0800</pubDate></item><item><title>「影石Insta360」：全球市占率67%，立足智能影像科技，从校园创业到年营收40亿</title><link>https://36kr.com/p/3028471959446792</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p> </p>
 <p class="image-wrapper"><img data-img-size-val="900,891" src="https://img.36krcdn.com/hsossms/20241109/v2_0a5c0f5abae942d5aadd32cf0ab90b5b@5509299_oswg1333328oswg900oswg891_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p class="img-desc">「职场Bonus」（ID：ZhiChangHongLi）</p>
@@ -727,4 +683,78 @@
 <h2 label="一级标题" style=""><strong style='  Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;'>加入36氪出海学习交流群</strong></h2>
 <p><span style="letter-spacing: 0px;">目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</span></p>
 <p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3021538330568192</guid><pubDate>Sat, 09 Nov 2024 12:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3021538330568192</guid><pubDate>Sat, 09 Nov 2024 12:00:00 +0800</pubDate></item><item><title>突发！OpenAI七年元老、安全副总裁Lilian Weng官宣离职！北大本科，决定专心写博客</title><link>https://36kr.com/p/3028683006092549</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,463" src="https://img.36krcdn.com/hsossms/20241109/v2_fc5ea3396ed041aab002597f44e4c2c2@1200352198_oswg741448oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>【新智元导读】</strong>就在刚刚，OpenAI安全研究副总裁Lilian Weng发出长信，官宣离职！OpenAI的安全团队，还在继续分崩离析。Lilian Weng表示，自己终于有时间写更多博客了。</p>
+<p>就在刚刚，OpenAI再次痛失一员大将。</p>
+<p>安全研究副总裁Lilian Weng正式官宣离职。</p>
+<p class="image-wrapper"><img data-img-size-val="1017,488" src="https://img.36krcdn.com/hsossms/20241109/v2_9739f7bdbbc446f394dba91887915b5c@1200352198_oswg117824oswg1017oswg488_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>她发出离职长信，回顾了2017年时，自己对OpenAI的使命是多么着迷。</p>
+<p>在GPT-4发布后，她又被赋予了一个全新使命：重新思考OpenAI安全系统的愿景。</p>
+<p>o1-preview，就是她们团队的最新成果。</p>
+<p>如今，在OpenAI工作七年后，她感觉「是时候重新出发了」。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,642" src="https://img.36krcdn.com/hsossms/20241109/v2_54d404ede8a94c89920b686d0aa0e32a@1200352198_oswg500210oswg1080oswg642_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>长期以来，Lilian Weng的博客篇篇都是精品，每每发出，都会引得圈内人士的大讨论。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,561" src="https://img.36krcdn.com/hsossms/20241109/v2_0029596484094693b9929779639b4a5a@1200352198_oswg141793oswg1080oswg561_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>OpenAI的前同事们，纷纷为她送上了祝福。</p>
+<p>Jason Wei表示，感谢她做出的贡献，让o1-preview成为迄今为止最安全的模型。</p>
+<p class="image-wrapper"><img data-img-size-val="1016,437" src="https://img.36krcdn.com/hsossms/20241109/v2_9563aeabaf604bf498f26e5a204e3466@1200352198_oswg117323oswg1016oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>OpenAI推理研究员、o1共同作者 Noam Brown祝福她，在下一个冒险中一切顺利。</p>
+<p class="image-wrapper"><img data-img-size-val="1017,295" src="https://img.36krcdn.com/hsossms/20241109/v2_9b2ea84a0efd4f2dbad96f4cd98a14a7@1200352198_oswg69751oswg1017oswg295_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>OpenAI微调研究员Steven Heidel表示，期待她的下一篇博客文章。</p>
+<p class="image-wrapper"><img data-img-size-val="1025,305" src="https://img.36krcdn.com/hsossms/20241109/v2_4f438a2b34eb442295b08481ae78218f@1200352198_oswg71263oswg1025oswg305_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>前OpenAI首位开发者关系团队成员、现任谷歌高级产品经理Logan Kilpatrick则感谢她为推动安全使命所做的一切。</p>
+<p class="image-wrapper"><img data-img-size-val="1013,336" src="https://img.36krcdn.com/hsossms/20241109/v2_3ac7ab39cfaf4d6485262b741aaa7a80@1200352198_oswg85196oswg1013oswg336_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而Lilian Weng这次突然离职，或许也是长时间深思熟虑的结果。</p>
+<p>比如维基媒体基金会机器学习总监在几天前的一条推文，似乎就暗示着她可能要离开。</p>
+<p class="image-wrapper"><img data-img-size-val="1028,929" src="https://img.36krcdn.com/hsossms/20241109/v2_859ce737151a4b48bc7589fd7be3ec7a@1200352198_oswg257400oswg1028oswg929_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>离职信全文：我有时间写博客了</strong></h2>
+<p>亲爱的朋友们，我做出了一个极其艰难的决定，那就是离开OpenAI。11月15日将是我在办公室的最后一天。</p>
+<p>OpenAI是我作为科学家和领导者成长的地方，我将永远珍惜与每一位共事过和结识的同事在一起的时光。OpenAI团队一直是我的知己、良师益友，也是我个人身份的重要组成部分。</p>
+<p>我依然清晰地记得2017年时，我对OpenAI的使命是多么着迷。那时，我们这群人梦想着一个看似不可能、宛如科幻的未来。</p>
+<p>开始，我在这里研究的是全栈机器人挑战——从深度强化学习算法，到感知，再到固件——目标是教会单只机械手如何解开魔方。整个团队花了整整两年时间，但我们最终成功了。</p>
+<p>当OpenAI进入GPT范式，我们开始探索如何将最佳AI模型部署到现实世界时，我建立了第一个「应用研究团队」（Applied Research team）。团队推出了微调API、嵌入API和审核端点的初始版本，为应用安全工作奠定了基础，并为许多早期API客户提供了创新解决方案。</p>
+<p>在GPT-4发布后，我被赋予了一项新的使命：重新思考OpenAI安全系统的愿景，并将工作集中在一个掌控完整安全堆栈的团队之下。这是我做过的最困难、最有压力，同时也是最令人兴奋的事情之一。</p>
+<p>如今，安全系统团队拥有80多名出色的科学家、工程师、产品经理和政策专家，我为我们团队取得的一切感到无比自豪。我们共同成为每次重大发布的基石——从GPT-4及其视觉和turbo版本，到GPT商店、语音功能和01。</p>
+<p>在训练这些模型既强大又负责任方面的工作上，我们树立了新的行业标准。我特别为我们最新的成就——o1-preview模型感到自豪，它是我们迄今为止最安全的模型，在保持其实用性的同时，表现出对「越狱」攻击的卓越抵抗力。</p>
+<p>我们取得的成功，十分令人瞩目：</p>
+<p>我们训练模型如何处理敏感或不安全的请求，包括何时拒绝或接受，通过遵循一套明确定义的模型安全行为政策，在安全性和实用性之间取得了良好的平衡。</p>
+<p>我们在每次模型发布中都提高了对抗性鲁棒性，包括防御越狱、指令层级，并通过推理能力大大提高了模型的鲁棒性。</p>
+<p>我们设计了严格而创新的评估方法，与准备框架保持一致，并为每个前沿模型进行了全面的安全测试和红队测试。我们对透明度的承诺体现在我们详细的模型系统卡中。</p>
+<p>我们开发了业界领先的具有多模态能力的审核模型，并免费与公众分享。我们目前在更通用的监控框架和增强的安全推理能力方面的工作将为更多安全工作流程提供支持。</p>
+<p>我们为安全数据日志记录、指标、仪表板、主动学习管道、分类器部署、推理时过滤和新型快速响应系统奠定了工程基础。</p>
+<p>回顾我们取得的成就，我为安全系统团队的每个成员感到无比自豪，我坚信团队将继续蓬勃发展。我由衷地感谢你们，你们是最棒的！</p>
+<p>现在，在OpenAI工作了七年之后，我感觉是时候重新出发，探索新的领域了。OpenAI正处于火箭般的轨道上，我衷心祝愿这里的每个人一切顺利。</p>
+<p>PS：我的博客仍然活跃，并将继续更新。我可能很快就有更多时间来更频繁地更新博客，或许还能抽出更多时间来编码。</p>
+<h2><strong>OpenAI再失一位首席安全研究员</strong></h2>
+<p>近几个月OpenAI俨然有了一种AI界「黄埔军校」的味道。 </p>
+<p>首席技术官Mira Murati、首席研究官Bob McGrew、研究副总裁Barret Zoph、著名研究员Andrej Karpathy和联合创始人John Schulman纷纷离职。</p>
+<p>其中一些人，包括Leike和Schulman，离职后加入了OpenAI的竞争对手Anthropic，而其他人则去创办了自己的企业。</p>
+<p>随着Ilya Sutskever和Jan Leike的离开，以及超级对齐团队的解散。在Sam Altman眼中，OpenAI的安全团队似乎越来越不重要了。</p>
+<p class="image-wrapper"><img data-img-size-val="1022,309" src="https://img.36krcdn.com/hsossms/20241109/v2_5086e98333ce4bd8aa625eb20ef6ee33@1200352198_oswg71857oswg1022oswg309_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>现在，尽管AI安全团队规模可观（据称有超过80名相关的研究人员），但网友们反正是不相信OpenAI还会专心搞模型安全了……</p>
+<p class="image-wrapper"><img data-img-size-val="640,717" src="https://img.36krcdn.com/hsossms/20241109/v2_b6980f4b280a405a9b0f60a325669098@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>10月，资深政策研究员Miles Brundage离开了OpenAI，并宣布公司正在解散他曾担任顾问的通用人工智能准备团队。</p>
+<p>同一天，前OpenAI研究员Suchir Balaji也在专访中透露，表示离开OpenAI是因为他认为该公司的技术对社会带来的危害大于益处。</p>
+<p>目前，OpenAI的公司高管和安全研究人员正在进行交接，以接替Weng的职位。</p>
+<p>而其发言人表示，「我们相信安全系统团队将继续在确保系统安全可靠方面发挥关键作用，为全球数亿用户提供服务。」</p>
+<h2><strong>Lilian Weng：北大本科，高被引学者</strong></h2>
+<p>Lilian Weng曾是OpenAI安全系统负责人，主要从事机器学习、深度学习等研究 。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,807" src="https://img.36krcdn.com/hsossms/20241109/v2_1993000fd1cb4a03b46df844f78e5d48@1200352198_oswg1222159oswg1080oswg807_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Weng本科毕业于北京大学信息系统与计算机科学专业，曾前往香港大学进行短期交流，之后在印第安纳大学布鲁明顿（Indiana University Bloomington）分校获得博士学位。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,594" src="https://img.36krcdn.com/hsossms/20241109/v2_b0c44f8c08ef44d4b7550d733bd66aa0@1200352198_oswg204691oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>博士期间，Weng的研究领域为复杂系统和网络，关注社交媒体、社交游戏、人机交互和复杂信息网络建模。</p>
+<p>打开她的谷歌学术档案，还可以看到Weng曾经发表的关于模因和社交网络的论文。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,739" src="https://img.36krcdn.com/hsossms/20241109/v2_fa2bebdb98cc49cbb1aaa4861153a3da@1200352198_oswg251248oswg1080oswg739_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>她曾在eBay、Mozilla等公司做过用户分析方面的实习，之后「转行」成功，进入Facebook和Dropbox从事软件工程和数据科学方面的工作。</p>
+<p>2018年起，Weng加入OpenAI担任研究科学家，作为机器人团队的技术主管，专注于训练机器人任务的算法。</p>
+<p>2021年，Weng负责领导应用人工智能的研究团队，并在2023年成为了安全团队的负责人。</p>
+<p>今年8月，OpenAI将之前的安全团队负责人Aleksander Madry调任至一个专注于推理基础工作的团队。而原来Madry领导的安全团队转由Lilian Weng负责。</p>
+<p>随后，Weng将同时管理专注于长期和短期AI安全的团队，这一组织决策令一些研究人员担心，因为长期和短期安全的激励措施可能会相互冲突。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,551" src="https://img.36krcdn.com/hsossms/20241109/v2_0a772cd1aaa34fab83a571c5fd02ad58@1200352198_oswg141367oswg1080oswg551_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>值得一提的是，Weng在个人网站上撰写的博客文章非常受欢迎，基本都是万字长文，既有技术干货又有观点输出，是很多业内人士的参考。</p>
+<p>接下来，让我们期待这位北大校友的更多成就，以及即将出现的干货博文吧。</p>
+<p>参考资料： </p>
+<p>https://x.com/lilianweng/status/1855031273690984623 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/KI9FycNHwILvQ9gQVh9bSg" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：好困 Aeneas，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3028683006092549</guid><pubDate>Sat, 09 Nov 2024 12:57:00 +0800</pubDate></item></channel></rss>
