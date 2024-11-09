@@ -1,45 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 09 Nov 2024 11:30:35 +0800</lastBuildDate><pubDate>Sat, 09 Nov 2024 11:30:35 +0800</pubDate><item><title>详解“端到端”下一代模型VLA，通向自动驾驶的关键跳板</title><link>https://36kr.com/p/3024816688260616</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文｜李安琪</p>
-<p>编辑｜李勤</p>
-<p>像海鲜市场一样，智能驾驶行业技术浪潮正在快速更迭。“端到端”刚成为新的技术范式，甚至大量公司还没来得及完成研发模式切换，端到端就进入了技术换代时期。</p>
-<p>“端到端”的最新进化方向是，深度融入多模态大模型。过去两年，大模型已经展现出了读文、识图、拍电影的能力，但大模型开车恐怕还是头一遭。</p>
-<p>近期，智驾行业出现了一个融合了视觉、语言和动作的多模态大模型范式——VLA（Vision-Language-Action Model，即视觉-语言-动作模型），拥有更高的场景推理能力与泛化能力。不少智驾人士都将VLA视为当下“端到端”方案的2.0版本。</p>
-<p>事实上，VLA模型最早见于机器人行业。2023年7月28日，谷歌 DeepMind推出了全球首个控制机器人的视觉语言动作（VLA）模型。</p>
-<p>不过这个模型概念正快速扩散到智驾领域。今年10月底，谷歌旗下自动驾驶公司Waymo推出了一个基于端到端的自动驾驶多模态模型EMMA。有行业人士表示，这就是一个VLA模型架构，既有端到端智驾能力，还融合了多模态大模型。</p>
-<p>过去，智能驾驶行业基于规则算法，进行了十数年探索。近两年，特斯拉引领的“端到端”智能驾驶，成为新的技术方向，不仅让智驾具备更拟人的表现，也能应对城市中海量的复杂交通场景。</p>
-<p>配合“端到端”技术，行业玩家还会增加大语言模型等来提升智驾能力上限。端到端+VLM（视觉语言模型），就被理想等公司推崇。</p>
-<p>但不同于VLM相对独立、低频地为端到端提供驾驶建议的模式，VLA架构下，端到端与多模态大模型的结合会更彻底。就连理想人士也向36氪汽车坦承，“可以把VLA看成是端到端+VLM的合体。”</p>
-<p>VLA模型，很可能是“端到端+VLM”技术框架的“终结者”。</p>
-<p>有行业人士表示，VLA模型对智驾的演进意义重大，让端到端理解世界的能力更强后，“长远来看，在L2辅助驾驶到L4自动驾驶的飞跃中，VLA可能会成为关键跳板”。</p>
-<p>一些车企智驾玩家已经在暗自发力。此前，理想汽车曾在三季度财报电话会议上表示，内部已经启动了L4级别自动驾驶的预研，在当前的技术路线基础上，研发能力更强的车端VLA模型与云端世界模型相结合的强化学习体系。</p>
-<p>智驾公司元戎启行在获得长城汽车的7亿元注资之后，也表示将进一步布局VLA模型。元戎启行称，公司将基于英伟达最新智驾芯片Thor进行VLA模型研发，模型预计于2025年推出。</p>
-<p>但也存有共识，VLA模型的上车难度不小，对技术和车端的芯片算力都有高强度要求，“能够支持VLA模型上车交付的芯片，可能在2026年才会出现。”</p>
-<h3>端到端最新方向：融入多模态大模型</h3>
-<p>自2023年以来智驾行业掀起的BEV、端到端技术浪潮后，智驾正逐步将AI神经网络融入感知、规划、控制等环节。比起传统基于规则的方案，基于AI、数据驱动的“端到端”拥有更高能力天花板。</p>
-<p class="image-wrapper"><img data-img-size-val="1920,1102" src="https://img.36krcdn.com/hsossms/20241108/v2_ee9aa2476f0a49f2b139bc7312d2da43@5636972_oswg1737934oswg1920oswg1102_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：元戎启行</p>
-<p>但在“端到端”模型之外，车企们还辅以了大语言模、视觉语言模型等外挂，来提供更强大的环境理解能力。年中，理想就推出了端到端模型+VLM（视觉语言模型）的方案。VLM模型对复杂交通环境具有更强的理解能力，可以给端到端提供相关驾驶建议。</p>
-<p>不过据36氪汽车了解，理想的端到端模型+VLM模型，是相对独立的两个模型。“理想VLM占用了一颗Ori芯片算力，目前主要对限速提醒等场景做出驾驶建议。”</p>
-<p>而VLA模型，是将端到端、VLM两个模型合二为一。也就是说，多模态大模型不再作为端到端的外挂，而是成为端到端自生的一种能力。</p>
-<p>谷歌Waymo近期发表的论文中，端到端自动驾驶多模态模型，不仅将摄像头的视频和图像作为感知输入，同时还能以谷歌地图“请在前方第二个匝道右转出匝道”这种指令作为输入，以及结合车辆历史状态，输出车辆未来轨迹。</p>
-<p>有行业人士向36氪汽车表示，目前对于一些特殊的复杂场景，智驾仍然缺少学习数据样本。如果融入模态大模型，就能将大模型学习到的知识迁移给智驾系统，可以有效应对corner case（长尾场景）。</p>
-<p>智驾公司元戎启行CEO周光也认为，VLA模型是端到端的2.0版本。他表示，遇到一些复杂的交通规则、潮汐车道、长时序推理等特殊场景时，智驾会比过往理解、应对得更好。</p>
-<p>比如在推理时长上，传统rule-base（基于规则）方案下，智驾只能推理1秒钟路况信息然后做出决策控制；端到端1.0阶段系统能够推理出未来7秒路况，而VLA能对几十秒路况进行推理。</p>
-<p>“目前基本上大家沿着这条线已经预研1年多了，不过明年想要量产还是有很大难度。”有行业人士表示。</p>
-<h3>端到端变奏，后发者的机会更少了</h3>
-<p>在进入规模推广之前，下一代端到端方案还面临很现实的挑战。</p>
-<p>一方面，现阶段车端芯片硬件不足以支撑多模态大模型的部署落地。有行业人士向36氪汽车表示，将端到端与VLM模型二合一后，车端模型参数变得更大，既要有高效实时推理能力，同时还要有大模型认识复杂世界并给出建议的能力，对车端芯片硬件有相当高要求。</p>
-<p>当下，高阶智驾的算力硬件基本为2颗英伟达OrinX芯片，算力在508Tops。有行业人士表示，现在车端的算力很难支撑VLA模型的部署。</p>
-<p>而英伟达的最新一代车载AI芯片Thor有望改变这种局面，Thor的单片AI算力达1000Tops，并对AI、大模型等算力都有不错支持。</p>
-<p>不过跟英伟达接触的人士向36氪汽车表示，明年英伟达Thor芯片大概会延期发布，上半年最先有望先推出的是700Tops算力版本。但一颗700Tops算力的芯片也可能支撑不了VLA模型，两片Thor的成本又高出不少。</p>
-<p>英伟达的芯片量产时间与成本挑战，横亘在车企前面。为此，一些自研芯片的新势力也在紧追芯片进度。据36氪汽车了解，一家头部新势力的VLA模型预计2026年正式上车。“届时结合自研的大算力芯片，VLA的效果会更惊艳。”上述行业人士表示。</p>
-<p>好在，VLA模型架构下，数据方面的挑战没有骤然提升。</p>
-<p>有行业人士告诉36氪，在端到端基础上，VLA模型融入了视觉语言模型、动作模型。但多模态大模型的数据并不难获得，包括已经开源的大模型、互联网上已有的通用语言，都可能成为智驾多模态大模型的养料。</p>
-<p>更具挑战的是，如何将端到端与多模态大模型的数据与信息作深度交融。这考验着头部智驾团队的模型框架定义能力、模型快速迭代能力。</p>
-<p>这些都决定了VLA模型不会太快进入智驾的量产环节。</p>
-<p>然而，技术路线的骤然升级与竞赛变奏，为还没发力端到端的玩家设置了更高门槛，后发制人的机会更加稀少。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3024816688260616</guid><pubDate>Sat, 09 Nov 2024 09:00:00 +0800</pubDate></item><item><title>解读2025年十大战略技术趋势，对话Gartner研究副总裁高挺</title><link>https://36kr.com/p/3027745703212160</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 09 Nov 2024 12:00:34 +0800</lastBuildDate><pubDate>Sat, 09 Nov 2024 12:00:34 +0800</pubDate><item><title>解读2025年十大战略技术趋势，对话Gartner研究副总裁高挺</title><link>https://36kr.com/p/3027745703212160</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="900,383" src="https://img.36krcdn.com/hsossms/20241108/v2_32f0da2bf83d40d9b59d77f4ea169684@453363432_oswg145614oswg900oswg383_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p><strong>作者 | ZeR0</strong><br/><strong>编辑 | 漠影</strong></p>
 <p>智东西11月8日报道，知名研究机构Gartner近期发布了《Gartner十大战略技术趋势报告（2025）》，涉及<strong>代理型AI、AI治理平台、虚假信息安全、后量子密码学、环境隐形智能、节能计算、混合计算、空间计算、多功能机器人、神经增强</strong>。对此，Gartner研究副总裁高挺向智东西等媒体作了详细解读。</p>
@@ -705,4 +665,66 @@
 <p>未来，健康160想要成功上市，依然要确保公司的稳健经营，尝试改善公司的盈利能力，降低自身的偿债压力，这些都是罗宁政及其管理团队要尽快解决的经营难题。</p>
 <p>*注：文中题图来自摄图网，基于VRF协议。</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkxMjQ0MTUyNw==&amp;mid=2247536142&amp;idx=2&amp;sn=215a5d93206f154d53a3efaeaf6758d1&amp;chksm=c082affd5b77d9e0af61c16e3af5e62a6e9d6d07a663f16eaad32131983f4262b504c08fa5b7&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“创业最前线”（ID：chuangyezuiqianxian）</a>，作者：星空，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027758646076928</guid><pubDate>Sat, 09 Nov 2024 10:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3027758646076928</guid><pubDate>Sat, 09 Nov 2024 10:00:00 +0800</pubDate></item><item><title>出海周刊119期 | 王慧文回归，担当美团AI “小队长” /李斌被啪啪打脸？蔚来增程车曝光，无缘中国用户</title><link>https://36kr.com/p/3021538330568192</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>访问36氪出海网站</strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1053,495" src="https://img.36krcdn.com/hsossms/20241108/v2_15cb7768eb95421caa91261dfcb3c3e5@11918142_oswg19318oswg1053oswg495_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>编辑絮语</strong></h2>
+<p>美国大选落定，国内增量财政政策揭幕，对不同产业影响几何？出海牵一发而动全身，既被具体的消费需求影响，也随全球宏观经济风向游走，是一门综合性的“学科”，常学常新。</p>
+<p>以下是本期出海周刊内容，提供多种出海企业“样本”经验与最新动态，供读者参考学习。</p>
+<h2>新市场观察</h2>
+<h3><a href="https://letschuhai.com/62d3a2a3?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>一家美籍华人公司的墨西哥掘金记</strong></a></h3>
+<p>探究 Stori 的成长史，一家美籍华人联创的公司，如何在这片土地上卷起风暴，将是我们理解这片魅力十足但又极为复杂新大陆的有趣样本。</p>
+<h2>行业大小事</h2>
+<h3><a href="https://letschuhai.com/73861f97?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>王慧文回归，担当美团 AI “小队长”</strong></a></h3>
+<p>重返战场。</p>
+<h3><a href="https://letschuhai.com/4d1e6521?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>大厂竞赛 AI 搜索，押注下一个“百度”</strong></a></h3>
+<p>Al搜索，字节阿里快手密集上新。</p>
+<h3><a href="https://letschuhai.com/b1a24084?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>李斌被啪啪打脸？蔚来增程车曝光，无缘中国用户</strong></a></h3>
+<p>销量和市场当前，蔚来是要迎合混动主流，还是坚持行业独一份的可换电纯电路线？</p>
+<h3><a href="https://letschuhai.com/f32af2c8?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>小鹏公布增程与纯电体系，智驾将推 Robotaxi 车型</strong></a></h3>
+<p>小鹏要做面向全球的 AI 汽车公司。</p>
+<h3><a href="https://letschuhai.com/afda0b5d?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>长城下注，元戎启行杀出重围</strong></a></h3>
+<p>相比国内市场，元戎启行也准备走出国门，目前规划出海的首批目的地是日本、韩国和欧洲。</p>
+<h3><a href="https://letschuhai.com/975701fb?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>被 Waymo 进展“吓到”，Lyft 一次性宣布三项合作，全面布局 Robotaxi</strong></a></h3>
+<p>Robotaxi 真的有点“火”。</p>
+<h3><a href="https://letschuhai.com/b5cd4d78?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>营收超越特斯拉，比亚迪的第四次胜利</strong></a></h3>
+<p>比亚迪对特斯拉的超越，相比于说是两家全球顶级车企之间的对比，不如说是中国汽车工业的缩影。</p>
+<h3><a href="https://letschuhai.com/0e25dd86?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>携手长安汽车，太蓝新能源发布无隔膜固态电池技术</strong></a></h3>
+<p>太蓝阐明了量产时间表：无隔膜半固态电池2026年实现装车验证；无隔膜全固态电池2027年实现批量生产。</p>
+<h3><a href="https://letschuhai.com/0fc12ec5?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>小鹏机器人前高管创业入局 AI 陪伴机器人，完成千万元级天使轮融资</strong></a></h3>
+<p>“明年有望成为 AI 陪伴硬件爆发的元年。”</p>
+<h3><a href="https://letschuhai.com/dc58bade?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>精密传动制造商「三凯机电」完成亿元 A 轮融资，减速器年产量将达80万台</strong></a></h3>
+<p>其产品已出口至多个工业比较发达国家和地区。</p>
+<h3><a href="https://letschuhai.com/fa6d56a2?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>深圳-多哈新航线开通，进一步拉近中卡两国距离</strong></a></h3>
+<p>10月29日起，深圳航空将提供每周三班多哈-深圳往返航线，时间为每周二、周四和周日。</p>
+<h3><a href="https://letschuhai.com/1a26efd7?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>卡塔尔与中国双边贸易十年间增幅超130%</strong></a></h3>
+<p>中国和卡塔尔已经形成了以能源合作为主要支柱，以基础设施建设为重点领域，以金融投资和高科技领域为新兴增长点的高度互补、互利互惠、前景广阔的合作新模式。</p>
+<h2>观点</h2>
+<h3><a href="https://letschuhai.com/b4dd7cf0?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>洞察｜快乐小羊：中餐出海，掘金万亿全球市场</strong></a></h3>
+<p>全球中餐市场可达万亿人民币，目前开发程度还不足10%。</p>
+<h3><a href="https://letschuhai.com/d267193a?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>对话李开复：如果美国形成 AGI 霸权，我们应该怎么办？</strong></a></h3>
+<p>“如果 AGI 必然发生，假设是7年以后，到了那天 OpenAI ‘一统天下’的时候，它想要来碾压我们，我们至少还有抵抗的余地。”</p>
+<h3><a href="https://letschuhai.com/8bfcbff0?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>对话「百图生科」：生命科学AI化已成确定性趋势</strong></a></h3>
+<p>刘维预测，未来在前沿药物研发领域，至少会有百分之二三十的费用是用来购买AI模型。</p>
+<h3><a href="https://letschuhai.com/456cbb8c?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>20年行业老兵：腾讯不相信买量只是气话，买量永远是最好的数据驱动营销方式</strong></a></h3>
+<p>小石头在 2003年开始接触网游行业，从业至今，几乎见证了中国游戏行业的整个发展历程。</p>
+<h3><a href="https://letschuhai.com/c39c24e8?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>焦虑的亚马逊，终于出手网红带货</strong></a></h3>
+<p>Spotter 的核心资源在于，与 YouTube 顶级网红的合作关系。</p>
+<h3><a href="https://letschuhai.com/b0c3db24?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>速卖通“宣城合伙人”集体出海，4年闯出200家企业15家工厂</strong></a></h3>
+<p>4年前，一位创业者把速卖通开店经验带回了安徽老家，速卖通上出现了第一家注册在宣城的店铺。4年后，这个数字变成了200多家。</p>
+<h3><a href="https://letschuhai.com/6e993ae3?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong>36Kr Japan｜游学日本最后名额！扬帆日本出海共创营第二期招募中</strong></a></h3>
+<p>瞰·世 扬帆日本出海共创营”成功举办第一期后，第二期即将启幕，仅剩限量名额！最靠谱的参访日程，最真实的日本经验，助力您解决日本市场难题。</p>
+<h2><strong>热门活动</strong></h2>
+<h3><a href="https://letschuhai.com/551f8a3e" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜抓住出海卡塔尔机遇！中国-卡塔尔投资合作高峰洽谈会即将落地北京、深圳</strong></a></h3>
+<p>为了帮助中国企业更好地了解卡塔尔市场的特点和机遇，<strong>36氪出海联合卡塔尔投资促进局、北京及深圳贸促会、盈科律师事务所，于11月12日和15日，分别在北京、深圳举办中国-卡塔尔投资合作高峰洽谈会。</strong>洽谈会旨在为中卡两国企业提供深度合作与交流的平台，助力企业探索新的商业机会。如果您关注出海卡塔尔的商业机遇，希望深入了解卡塔尔的利好政策、营商环境及合作生态，欢迎您扫码下方二维码，填写表单，报名参加本次活动。<strong>我们将根据话题相关度，对报名申请进行筛选。通过活动审核的用户，我们将有专人联系通知。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="3930,1918" src="https://img.36krcdn.com/hsossms/20241022/v2_f137a491595a44e890fd0e9a0b6bc669@11918142_oswg328286oswg3930oswg1918_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><a href="https://letschuhai.com/10094bc6" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜如何获取海外市场的信任？探索品牌建设的必经之路</strong></a></h3>
+<p><strong>36氪出海将于11月21日下午2:00在北京举办主题交流活动。</strong>此次活动特邀来自 <strong>XREAL</strong>、<strong>Renata LLC</strong> 和 <strong>TikTok for Business</strong> 的重磅嘉宾，他们将基于丰富的品牌出海经验。分享在国际化与本地化品牌建设中的深刻见解。通过分析成功出海品牌的案例，并结合最新的市场营销趋势，为志在全球化的企业提供极具价值的品牌策略参考。<strong>如果您关注出海企业的全球化品牌策略，希望深入探讨出海品牌建设之道，欢迎您扫描下方二维码填写表单，报名参加活动。</strong>活动报名将于11月20日中午12:00截止。</p>
+<p class="image-wrapper"><img data-img-size-val="7860,3836" src="https://img.36krcdn.com/hsossms/20241107/v2_a11858fc827440e8a1373c39aa70476b@11918142_oswg2456130oswg7860oswg3836_img_jpeg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><a href="https://letschuhai.com/c63ac6c2?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong> </strong>日本｜相聚 Hack Osaka 2024，对话英伟达、Herbalbony 等全球科技领袖</a></h3>
+<p>Hack Osaka 2024 将于11月26日举行，主题聚焦先锋初创企业和国际合作伙伴关系构建。本次活动由大阪创新中心（Osaka Innovation Hub）与日本都市创新研究所（Urban Innovation Institute）、日本贸易振兴机构（JETRO）和大阪商业发展局（OBDA）联合组织。更多行业创新者与先行者，例如 Rutilea 首席执行官 Takaaki Yano、Datagrid 首席执行官 Yuki Okada、36Kr Global 合伙人Robyn Tan 也将加入活动带来分享。Hack Osaka 2024 免费向公众开放，参会形式包含现场参与和线上参与，欢迎扫描下方二维码，注册参会。</p>
+<img data-img-size-val="1280,613" src="https://img.36krcdn.com/hsossms/20241109/v2_308bac1da36349628f5295ade4c1f3c9@11918142_oswg1054809oswg1280oswg613_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/>
+<h2 label="一级标题" style=""><strong style='  Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;'>加入36氪出海学习交流群</strong></h2>
+<p><span style="letter-spacing: 0px;">目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</span></p>
+<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3021538330568192</guid><pubDate>Sat, 09 Nov 2024 12:00:00 +0800</pubDate></item></channel></rss>
