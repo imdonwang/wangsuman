@@ -1,79 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 10 Nov 2024 08:30:29 +0800</lastBuildDate><pubDate>Sun, 10 Nov 2024 08:30:29 +0800</pubDate><item><title>突发！OpenAI七年元老、安全副总裁Lilian Weng官宣离职！北大本科，决定专心写博客</title><link>https://36kr.com/p/3028683006092549</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1080,463" src="https://img.36krcdn.com/hsossms/20241109/v2_fc5ea3396ed041aab002597f44e4c2c2@1200352198_oswg741448oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>【新智元导读】</strong>就在刚刚，OpenAI安全研究副总裁Lilian Weng发出长信，官宣离职！OpenAI的安全团队，还在继续分崩离析。Lilian Weng表示，自己终于有时间写更多博客了。</p>
-<p>就在刚刚，OpenAI再次痛失一员大将。</p>
-<p>安全研究副总裁Lilian Weng正式官宣离职。</p>
-<p class="image-wrapper"><img data-img-size-val="1017,488" src="https://img.36krcdn.com/hsossms/20241109/v2_9739f7bdbbc446f394dba91887915b5c@1200352198_oswg117824oswg1017oswg488_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>她发出离职长信，回顾了2017年时，自己对OpenAI的使命是多么着迷。</p>
-<p>在GPT-4发布后，她又被赋予了一个全新使命：重新思考OpenAI安全系统的愿景。</p>
-<p>o1-preview，就是她们团队的最新成果。</p>
-<p>如今，在OpenAI工作七年后，她感觉「是时候重新出发了」。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,642" src="https://img.36krcdn.com/hsossms/20241109/v2_54d404ede8a94c89920b686d0aa0e32a@1200352198_oswg500210oswg1080oswg642_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>长期以来，Lilian Weng的博客篇篇都是精品，每每发出，都会引得圈内人士的大讨论。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,561" src="https://img.36krcdn.com/hsossms/20241109/v2_0029596484094693b9929779639b4a5a@1200352198_oswg141793oswg1080oswg561_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>OpenAI的前同事们，纷纷为她送上了祝福。</p>
-<p>Jason Wei表示，感谢她做出的贡献，让o1-preview成为迄今为止最安全的模型。</p>
-<p class="image-wrapper"><img data-img-size-val="1016,437" src="https://img.36krcdn.com/hsossms/20241109/v2_9563aeabaf604bf498f26e5a204e3466@1200352198_oswg117323oswg1016oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>OpenAI推理研究员、o1共同作者 Noam Brown祝福她，在下一个冒险中一切顺利。</p>
-<p class="image-wrapper"><img data-img-size-val="1017,295" src="https://img.36krcdn.com/hsossms/20241109/v2_9b2ea84a0efd4f2dbad96f4cd98a14a7@1200352198_oswg69751oswg1017oswg295_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>OpenAI微调研究员Steven Heidel表示，期待她的下一篇博客文章。</p>
-<p class="image-wrapper"><img data-img-size-val="1025,305" src="https://img.36krcdn.com/hsossms/20241109/v2_4f438a2b34eb442295b08481ae78218f@1200352198_oswg71263oswg1025oswg305_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>前OpenAI首位开发者关系团队成员、现任谷歌高级产品经理Logan Kilpatrick则感谢她为推动安全使命所做的一切。</p>
-<p class="image-wrapper"><img data-img-size-val="1013,336" src="https://img.36krcdn.com/hsossms/20241109/v2_3ac7ab39cfaf4d6485262b741aaa7a80@1200352198_oswg85196oswg1013oswg336_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而Lilian Weng这次突然离职，或许也是长时间深思熟虑的结果。</p>
-<p>比如维基媒体基金会机器学习总监在几天前的一条推文，似乎就暗示着她可能要离开。</p>
-<p class="image-wrapper"><img data-img-size-val="1028,929" src="https://img.36krcdn.com/hsossms/20241109/v2_859ce737151a4b48bc7589fd7be3ec7a@1200352198_oswg257400oswg1028oswg929_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>离职信全文：我有时间写博客了</strong></h2>
-<p>亲爱的朋友们，我做出了一个极其艰难的决定，那就是离开OpenAI。11月15日将是我在办公室的最后一天。</p>
-<p>OpenAI是我作为科学家和领导者成长的地方，我将永远珍惜与每一位共事过和结识的同事在一起的时光。OpenAI团队一直是我的知己、良师益友，也是我个人身份的重要组成部分。</p>
-<p>我依然清晰地记得2017年时，我对OpenAI的使命是多么着迷。那时，我们这群人梦想着一个看似不可能、宛如科幻的未来。</p>
-<p>开始，我在这里研究的是全栈机器人挑战——从深度强化学习算法，到感知，再到固件——目标是教会单只机械手如何解开魔方。整个团队花了整整两年时间，但我们最终成功了。</p>
-<p>当OpenAI进入GPT范式，我们开始探索如何将最佳AI模型部署到现实世界时，我建立了第一个「应用研究团队」（Applied Research team）。团队推出了微调API、嵌入API和审核端点的初始版本，为应用安全工作奠定了基础，并为许多早期API客户提供了创新解决方案。</p>
-<p>在GPT-4发布后，我被赋予了一项新的使命：重新思考OpenAI安全系统的愿景，并将工作集中在一个掌控完整安全堆栈的团队之下。这是我做过的最困难、最有压力，同时也是最令人兴奋的事情之一。</p>
-<p>如今，安全系统团队拥有80多名出色的科学家、工程师、产品经理和政策专家，我为我们团队取得的一切感到无比自豪。我们共同成为每次重大发布的基石——从GPT-4及其视觉和turbo版本，到GPT商店、语音功能和01。</p>
-<p>在训练这些模型既强大又负责任方面的工作上，我们树立了新的行业标准。我特别为我们最新的成就——o1-preview模型感到自豪，它是我们迄今为止最安全的模型，在保持其实用性的同时，表现出对「越狱」攻击的卓越抵抗力。</p>
-<p>我们取得的成功，十分令人瞩目：</p>
-<p>我们训练模型如何处理敏感或不安全的请求，包括何时拒绝或接受，通过遵循一套明确定义的模型安全行为政策，在安全性和实用性之间取得了良好的平衡。</p>
-<p>我们在每次模型发布中都提高了对抗性鲁棒性，包括防御越狱、指令层级，并通过推理能力大大提高了模型的鲁棒性。</p>
-<p>我们设计了严格而创新的评估方法，与准备框架保持一致，并为每个前沿模型进行了全面的安全测试和红队测试。我们对透明度的承诺体现在我们详细的模型系统卡中。</p>
-<p>我们开发了业界领先的具有多模态能力的审核模型，并免费与公众分享。我们目前在更通用的监控框架和增强的安全推理能力方面的工作将为更多安全工作流程提供支持。</p>
-<p>我们为安全数据日志记录、指标、仪表板、主动学习管道、分类器部署、推理时过滤和新型快速响应系统奠定了工程基础。</p>
-<p>回顾我们取得的成就，我为安全系统团队的每个成员感到无比自豪，我坚信团队将继续蓬勃发展。我由衷地感谢你们，你们是最棒的！</p>
-<p>现在，在OpenAI工作了七年之后，我感觉是时候重新出发，探索新的领域了。OpenAI正处于火箭般的轨道上，我衷心祝愿这里的每个人一切顺利。</p>
-<p>PS：我的博客仍然活跃，并将继续更新。我可能很快就有更多时间来更频繁地更新博客，或许还能抽出更多时间来编码。</p>
-<h2><strong>OpenAI再失一位首席安全研究员</strong></h2>
-<p>近几个月OpenAI俨然有了一种AI界「黄埔军校」的味道。 </p>
-<p>首席技术官Mira Murati、首席研究官Bob McGrew、研究副总裁Barret Zoph、著名研究员Andrej Karpathy和联合创始人John Schulman纷纷离职。</p>
-<p>其中一些人，包括Leike和Schulman，离职后加入了OpenAI的竞争对手Anthropic，而其他人则去创办了自己的企业。</p>
-<p>随着Ilya Sutskever和Jan Leike的离开，以及超级对齐团队的解散。在Sam Altman眼中，OpenAI的安全团队似乎越来越不重要了。</p>
-<p class="image-wrapper"><img data-img-size-val="1022,309" src="https://img.36krcdn.com/hsossms/20241109/v2_5086e98333ce4bd8aa625eb20ef6ee33@1200352198_oswg71857oswg1022oswg309_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>现在，尽管AI安全团队规模可观（据称有超过80名相关的研究人员），但网友们反正是不相信OpenAI还会专心搞模型安全了……</p>
-<p class="image-wrapper"><img data-img-size-val="640,717" src="https://img.36krcdn.com/hsossms/20241109/v2_b6980f4b280a405a9b0f60a325669098@1200352198_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>10月，资深政策研究员Miles Brundage离开了OpenAI，并宣布公司正在解散他曾担任顾问的通用人工智能准备团队。</p>
-<p>同一天，前OpenAI研究员Suchir Balaji也在专访中透露，表示离开OpenAI是因为他认为该公司的技术对社会带来的危害大于益处。</p>
-<p>目前，OpenAI的公司高管和安全研究人员正在进行交接，以接替Weng的职位。</p>
-<p>而其发言人表示，「我们相信安全系统团队将继续在确保系统安全可靠方面发挥关键作用，为全球数亿用户提供服务。」</p>
-<h2><strong>Lilian Weng：北大本科，高被引学者</strong></h2>
-<p>Lilian Weng曾是OpenAI安全系统负责人，主要从事机器学习、深度学习等研究 。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,807" src="https://img.36krcdn.com/hsossms/20241109/v2_1993000fd1cb4a03b46df844f78e5d48@1200352198_oswg1222159oswg1080oswg807_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Weng本科毕业于北京大学信息系统与计算机科学专业，曾前往香港大学进行短期交流，之后在印第安纳大学布鲁明顿（Indiana University Bloomington）分校获得博士学位。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,594" src="https://img.36krcdn.com/hsossms/20241109/v2_b0c44f8c08ef44d4b7550d733bd66aa0@1200352198_oswg204691oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>博士期间，Weng的研究领域为复杂系统和网络，关注社交媒体、社交游戏、人机交互和复杂信息网络建模。</p>
-<p>打开她的谷歌学术档案，还可以看到Weng曾经发表的关于模因和社交网络的论文。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,739" src="https://img.36krcdn.com/hsossms/20241109/v2_fa2bebdb98cc49cbb1aaa4861153a3da@1200352198_oswg251248oswg1080oswg739_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>她曾在eBay、Mozilla等公司做过用户分析方面的实习，之后「转行」成功，进入Facebook和Dropbox从事软件工程和数据科学方面的工作。</p>
-<p>2018年起，Weng加入OpenAI担任研究科学家，作为机器人团队的技术主管，专注于训练机器人任务的算法。</p>
-<p>2021年，Weng负责领导应用人工智能的研究团队，并在2023年成为了安全团队的负责人。</p>
-<p>今年8月，OpenAI将之前的安全团队负责人Aleksander Madry调任至一个专注于推理基础工作的团队。而原来Madry领导的安全团队转由Lilian Weng负责。</p>
-<p>随后，Weng将同时管理专注于长期和短期AI安全的团队，这一组织决策令一些研究人员担心，因为长期和短期安全的激励措施可能会相互冲突。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,551" src="https://img.36krcdn.com/hsossms/20241109/v2_0a772cd1aaa34fab83a571c5fd02ad58@1200352198_oswg141367oswg1080oswg551_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>值得一提的是，Weng在个人网站上撰写的博客文章非常受欢迎，基本都是万字长文，既有技术干货又有观点输出，是很多业内人士的参考。</p>
-<p>接下来，让我们期待这位北大校友的更多成就，以及即将出现的干货博文吧。</p>
-<p>参考资料： </p>
-<p>https://x.com/lilianweng/status/1855031273690984623 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/KI9FycNHwILvQ9gQVh9bSg" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：好困 Aeneas，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3028683006092549</guid><pubDate>Sat, 09 Nov 2024 12:57:00 +0800</pubDate></item><item><title>IPO两天已涨疯，这家医用敷料新股市值翻了近5倍</title><link>https://36kr.com/p/3028412708955653</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 10 Nov 2024 09:00:30 +0800</lastBuildDate><pubDate>Sun, 10 Nov 2024 09:00:30 +0800</pubDate><item><title>IPO两天已涨疯，这家医用敷料新股市值翻了近5倍</title><link>https://36kr.com/p/3028412708955653</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p> </p>
 <p>11月7日，健尔康医疗科技股份有限公司（健尔康603205）正式登陆上交所主板，募集资金总额4.4亿元，保荐机构为中信建投证券。 </p>
 <p>健尔康发行价为14.65元/股，发行市盈率14.59倍，11月7日上午收盘价为72.30元，股价上涨393.52%，公司总市值为87亿元。 </p>
@@ -677,4 +603,94 @@
 <p>这次，保时捷（上海）投资有限公司的成立，也是其继续深度投资中国的一个标志。论其中原因，中国经济的蓬勃发展催生了众多创新型初创企业，特别是在电动车、智能网联技术和可持续发展等前沿领域，这些企业展现出了巨大的发展潜力，与保时捷寻求的投资领域不谋而合。通过投资这些初创企业，保时捷不仅能够吸收前沿技术和创新思维，提升自身的市场竞争力，还能应对新能源和智能网联汽车快速发展带来的挑战。保时捷通过与这些领域的初创企业建立合作关系，为其产品线注入新鲜血液，保持品牌的活力和市场领先地位。</p>
 <p>同时，保时捷在全球范围内拥有强大的技术实力和资源，通过投资初创公司，保时捷能够利用自身的优势帮助这些企业快速成长。保时捷所提供的不仅是资金支持，还包括行业经验分享和市场拓展协助，这种合作模式有助于实现双方的共赢发展。</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjI0Nzk5NA==&amp;mid=2650203369&amp;idx=1&amp;sn=009b50d02d17f7b069377435298aa2b0&amp;chksm=bf32f6bbd34693e450cb661e0544006c0cbe9e1a905ef9ecaeb3534af4b068a241cfab646740&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“融中财经”（ID：thecapital）</a>，作者：吕敬之，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3029000439670021</guid><pubDate>Sun, 10 Nov 2024 08:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3029000439670021</guid><pubDate>Sun, 10 Nov 2024 08:00:00 +0800</pubDate></item><item><title>年赚400亿的隐形冠军：做好几件小事，拉链卖成世界第一</title><link>https://36kr.com/p/3028663437714689</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_b6a70d0250714d239a67777c00150680@000000_oswg251683oswg1080oswg1446_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>小拉链，大生意。 </p>
+<p>靠350日元起家，全球销售额高达7657.8亿日元（约合人民币488亿元）。从日常穿着的牛仔裤到宇航员的太空服，到处都能见到它的身影，这就是日本拉链巨头YKK的传奇之路。 </p>
+<p>YKK与丰田、索尼并列，代表了日本发达的工业制造水平。 </p>
+<p>读懂了YKK，就能看清楚日本工业制造的崛起之路。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_1d9b067c8f4a4e2dbf3d0bfb0a881349@000000_oswg17931oswg1080oswg219_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>一年销售超95亿个拉链，在世界72个国家或地区拥有108家公司，2018年度全球销售额达到了7657.81亿日元，其中拉链相关的产品卖了3328.57亿日元。 </p>
+<p>这就是YKK，目前全球规模最大的拉链生产制造商的实力。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_4c3986e651474683a9e320c106961012@000000_oswg14946oswg715oswg405_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>2014-2018年YKK的营收数据  来源YKK官网 </p>
+<p>创办于1934年，从2个人的小作坊起步，只用了短短40年，就超越了曾是全球规模最大的服装扣件公司——美国的泰龙（Talon），而这家美国公司，其实才是拉链真正的发明者。 </p>
+<p>YKK这个名字，在许多人的印象里，是高品质的代名词。 </p>
+<p>一个佐证是，YKK拉链频繁出现在中高端服装和箱包的身影中。无论adidas、nike，或是levi’s，甚至奢侈品品牌的箱包，都能看到它们毫不避讳自己产品的拉链上，显露着YKK的字样。甚至，在自己产品的宣传上，还会特意给出YKK的细节展示。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_46d997136c9f47ceb525070f45f2b9e0@000000_oswg54267oswg554oswg370_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>许多品牌服装毫不避讳YKK的LOGO出现在自己的产品上， </p>
+<p>还有的品牌把YKK的配件当做宣传自己产品的卖点 </p>
+<p>之所以这么做，是因为YKK本身就是个响亮的品牌，是品质的象征，告诉别人自己的产品配的是YKK，这是提升品质形象的好卖点。 </p>
+<p>反过来，消费者从这些大品牌对YKK的青睐，也映射到“这不是一条普通的拉链，它绝对不会卡住”的品质信赖。 </p>
+<p>毕竟，YKK是一条上过太空的拉链。当年，它因为被缝在太空服上，跟随美国的宇航员登上月球而一举闻名。 </p>
+<p>高质量一直是YKK颇为自豪的卖点。根据资料显示，高端产品在YKK拉链业务的占比超过80%。从销售的数据也能反映出来：YKK公司的拉链产量占全球约四分之一,但产值却占全球市场的大约45%。 </p>
+<p>除了服装箱包用到拉链， YKK拉链的应用场景，丰富到颠覆想象。 </p>
+<p>在展示产品的展览馆里，YKK拉链的应用，简直让人想不出有什么东西是拉链解决不了的。YKK的拉链品种有400多种，除了用在衣裤鞋帽、箱包盒袋上，还有专门用在潜水服和户外装备上的防水拉链，有用来联结渔网、防鸟网的拉链，甚至有用在大桥排水系统上的拉链。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_65d2576f893f4cc6ab8d94f23108c420@000000_oswg31889oswg554oswg373_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>日本一座大桥的橡胶排水沟上装着YKK的防水拉链， </p>
+<p>方便打开清理  YKK官网截图 </p>
+<p>截止到2017年，YKK创新或改进而获得的拉链专利，在日本国内有1500项，在国外也有14项。 </p>
+<p>这个YKK，真是把一根小小的拉链，做成了一门大生意。 </p>
+<p> </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_0271ecd6cf5048dea742aa9de13abfad@000000_oswg14318oswg1080oswg219_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>YKK的创始人吉田忠雄，被人们称为“世界拉链大王”，他所信奉的“认真把小事情做好”，是YKK从退货堆积如山的小作坊，做到如今年销售几十亿美元大生意的根本。 </p>
+<p>YKK的几次关键发展节点，都靠擅长做好小事情的吉田。 </p>
+<p>1934年，吉田忠雄带着偶然收回来的“破烂儿”——一批长期积压的劣质拉链，创办了只有2名员工的三S公司。这个阶段，吉田是“拉链医生”。他自己改进了一些修理工具，把劣质拉链修理成坚固耐用的三S拉链，掘到了第一桶金。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_b65e6e2f5d0147f4ad2cb6f4f3b7bcc9@000000_oswg16477oswg350oswg233_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>千亿拉链帝国YKK，就是从这样的一个小作坊开始 </p>
+<p>二战中，吉田的工厂被美军轰炸毁于一旦，战后他重操旧业，把商标改成了“YKK”，继续着自己的拉链事业。 </p>
+<p>当时，美国的拉链已经机械化生产，可YKK还是人工制作，吉田就咬牙贷款从美国进口了4台全自动链牙机。 </p>
+<p>这些性能精良的机器，让日本人为之倾倒。不过，吉田并不满意。他又复制了创业之初的那一幕，只不过这次，他要改进美国的先进机器。吉田请日立精机根据他使用中总结的改进方案，改造这些机器。后来，这批经过改造的机器，12分钟的生产量相当于旧机种一天8小时的工作量。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_98599072e37c4ba28b7b4677b904f482@000000_oswg20204oswg315oswg209_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>YKK自己改进生产机器，提高了效率， </p>
+<p>后来由此工机事业成了YKK技术核心部门 </p>
+<p>从此，一个拉链帝国开始冉冉升起。只用了十来年的光景，1958年，吉田忠雄就完成了YKK年产拉链长度绕地球一圈的宏愿。 </p>
+<p>这一“圈”，让YKK开始冲击全球第一。 </p>
+<p>认真把小事做好，还不止是自己制造生产设备。在1953年，YKK就开始实施设备自制战略，自己制造生产拉链的设备。 </p>
+<p>《洛杉矶时报》1998年的一篇报道称：“YKK公司自己炼铜，自己调制聚酯，自己纺纱捻线，自己为拉链贴布染色，自己制作其独特拉链齿的模具……甚至自制发货箱。” </p>
+<p>做自己的一体化产业，既保证了从原材料到模具、加工的“随心所欲”，还带来了更大的收获。 </p>
+<p>1959年，自家有矿的YKK开始生产铝合金建材。由此，YKK集团的三驾马车形成：技术核心部门工机部，开发和制造用于生产拉链和建材的机械设备；AP事业部做建材；发斯宁事业部则专做拉链。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_249c3eafa55b42379ffc928d51ebdc78@000000_oswg111953oswg855oswg632_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>YKK起初自己生产设备和原料， 后来成了专门的建材事业部，而近年建材的营收已经超过了拉链 </p>
+<p>这真是一个完美的产业“生态圈”。 </p>
+<p>吉田忠雄成功的另一个“圈子”，则是如今YKK奉为企业精神的“善之循环”。 </p>
+<p>这个“善之循环”是这样的—— </p>
+<blockquote>
+<p>公司的红利，吉田本人只占16％，他的家族占24％，其余都由公司职员分享。同时，他要求职员把工资及津贴的10％存在公司里，用来改善设备，提高利润，而员工每年可分到8个月以上的奖金，但这些奖金的2/3要用来购买公司股票。公司由此增资，员工薪水与奖金更加提高，且可以拿到二成股息。 </p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_19a01decc9fe4a858be46ec78a303472@000000_oswg17636oswg554oswg293_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>吉田忠雄提出的“善之循环”，如今已经是YKK的企业精神 </p>
+<p>这个“善之循环”，把员工利益牢牢地和YKK的兴衰捆绑在了一起，最大限度地防止员工跳槽和技术外流。 </p>
+<p>因为就算别的公司用同样的设备，也没办法生产出和YKK抗衡的产品，因为人不一样。 </p>
+<p> </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_254191efd08142139e592342d3fc9c1a@000000_oswg16162oswg1080oswg219_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>尽管YKK在中高端市场无人匹敌，但是从2017年开始，YKK开始计划投资2770亿日元，布局入门级拉链市场。低端市场这块大蛋糕，对YKK能否在2020年完成自己129亿条拉链产量的宏愿至关重要。 </p>
+<p>来自中国生产商的激烈竞争，让YKK感受到了挑战的压力。数据显示，YKK拉链销量占全球的20%，然后剩余的80%中，有一半被中国生产的拉链占据。量变能产生质变，这条路YKK走过，道理它再明白不过。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_1479b9fba34b427d9dd543a63fd9cf9b@000000_oswg19584oswg554oswg402_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>全国三大拉链生产基地分别是浙江温州、福建晋江和浙江的义乌，几乎都与当地服装行业配套有关 </p>
+<p>然而，无论从体量还是技术上看，中国企业与YKK都相差甚远。 </p>
+<p>比如中国第一、世界第二的福建浔兴拉链（SBS），营收只有22.75亿元人民币，YKK拉链在2018财年的营收约合30多亿美元。利润就更不必说了，YKK去年归母净利润是458亿日元，而浔兴2017年净利润是1.27亿人民币，2018年归母净利润是-3.96亿元。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_553b9c91111a4d2db24ed36b96567dee@000000_oswg4879oswg488oswg294_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>国内外拉链龙头企业对比，国内第一，世界第二的浔兴拉链，和YKK根本就不在一个重量级 </p>
+<p>从技术上来看，YKK拉链每年研发的费用至少上亿日元，早在2010年，YKK在华申请并公开的发明专利就有600余项，仅在拉链及相关行业的发明专利就有300多件。浔兴拉链的专利数量目前只有发明、实用新型国家专利50多项。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_766117a5144f430db49f57f692f26953@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>YKK创新设计的拉链，甚至有手机APP控制开合的拉链设计，为未来的智能服装提供了可能的选择 </p>
+<p>更令人担忧的是企业对做拉链这个“小事情”的专注程度。 </p>
+<p>虽然YKK如今建材事业的营收超过了拉链事业，但建材起初只是YKK建立自己拉链生态的“衍生品”，拉链事业依然是YKK唯二的事业，无可替代。 </p>
+<p>而中国企业，多少对拉链这个“小东西”并不那么专情。 </p>
+<p>经过了30多年打拼做到中国第一、世界第二的浔兴拉链2006年上市。10年后的2016年11月，创始人施能坑以25亿元的价格，把企业卖给成立仅2个月的天津汇泽丰公司。 </p>
+<p>在这则被财经分析人士称为和赵薇收购万家文化一样的“杠杆收购”后，浔兴新东家花了10亿多现金对价收购了一家跨境电商65%的股权。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_e922a7e006d549259dd4e32e613483e3@000000_oswg44538oswg554oswg414_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>浔兴股份2018年的财务数据，从2017年的盈利1.6亿变为负数 </p>
+<p>仅仅1年半后，2018年5月11日，浔兴股份发布重大资产出售暨关联交易预案——拟以12亿元向浔兴集团出售拉链业务资产及相关负债，交易对方以现金支付对价。 </p>
+<p>25亿卖出，一年半后12亿买回，浔兴股份又回到了施能坑的怀抱中。而此时留给浔兴股份的，是一个亏损的电商平台和比上一年多出4亿元的存货。 </p>
+<p>让人嗟叹。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241109/v2_3f81533ea22c4aa5872250280f6f7472@000000_oswg13679oswg1080oswg219_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>拉链行业，谁是未来的王者？ </p>
+<p>YKK和国产企业各有优势。YKK要借助自己的生产、研发和品牌优势抢夺低端市场，中国企业则有心从低端市场走量的基础上实现“阶层跃升”，这将是一场真正意义上的阵地争夺战。 </p>
+<p>中国企业没有别的出路，只能借助自己的优势，学习借鉴YKK的长处，踏踏实实把小事情做好，才能让企业长盛不衰，成为百年老字号。 </p>
+<p>制造业崛起，靠的是把小事情做好的企业。 </p>
+<p>我们期待未来，能有中国的企业把拉链这个小东西，做成能和YKK一样的大生意。 </p>
+<p><strong>THE END</strong> </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&amp;mid=2654894797&amp;idx=2&amp;sn=88820d3bb6c3bc8db8c01cea1e074783&amp;chksm=bc46d4cc442739b00af8d1c9407a1a1d0b1d8f7415d270898b80a995148c35aa23d1902bbd03&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“正解局”（ID：zhengjieclub）</a>，作者：正解局，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3028663437714689</guid><pubDate>Sun, 10 Nov 2024 08:30:00 +0800</pubDate></item></channel></rss>
