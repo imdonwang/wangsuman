@@ -1,573 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 11 Nov 2024 18:00:30 +0800</lastBuildDate><pubDate>Mon, 11 Nov 2024 18:00:30 +0800</pubDate><item><title>大模型连乘法都不会做？一系列新研究再次挑战AI推理能力</title><link>https://36kr.com/p/3031641183823365</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>今年七月，“9.11和9.9谁更大”这个简单的问题，竟让大多数最先进的大模型都翻了车。根据机器之心的测试，15个主流大模型里，有超过一半都没答对。连GPT-4o和Claude 3.5 Sonnet这两个顶尖模型都是一通操作猛如虎，结论全是不靠谱。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,559" src="https://img.36krcdn.com/hsossms/20241111/v2_5db20cfd98a64f189e2e978548d4258b@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这件事，引发了AI圈内关于AI符号理解能力的大讨论。</p>
-<p>到了十月，苹果发表的一篇论文，更是认为大语言模型缺乏解决数理问题的逻辑推理能力。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,366" src="https://img.36krcdn.com/hsossms/20241111/v2_b9eae6f86159477a9bc101d2ca24a117@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在论文中，苹果的研究者发现，只要稍稍更改现有测试集里的数字或词，大语言模型的正确率就会显著下降。如果再加上一些新信息，比如多增加一个条件（把小明花100买苹果，拆成花100买苹果和梨），模型的性能则下降地更为明显。</p>
-<p>所以他们得到了一个结论：<strong>大语言模型更像复杂的模式匹配，而不是真正的逻辑推理。</strong></p>
-<p>但是，用修改测试集的方法去证明大模型不会算数，还是有点隔靴搔痒。</p>
-<p>还好，近期的两篇论文用更底层的角度去拆解了它背后的模式匹配：大模型绕过了计算规则，在用一种全新方法学数学。这种学习方法和人类基于原理和公式计算的逻辑推理完全不同，更像是AI自己寻找出了某种规律和模式。</p>
-<p>更重要的是，研究大语言模型如何处理算术这一最基础的逻辑运算,能帮我们判断AI是否真的具备推理能力。这是生成式AI这波浪潮中最引人注意的一个核心问题，它很可能规定了AI的上限。</p>
-<p>在本文中，我们还会根据另外的研究，去探讨行业内找到的最新推理解药COT（思维链），是否能够承担起逻辑推理的能力，拯救AI不会算乘法的困境。</p>
-<h2><strong>大模型理解的数学模式是对应，而非算法</strong></h2>
-<p>想要看大语言模型到底有没有学会数学规律，更直接的方法是教给它规律，看它会不会用。</p>
-<p>莱斯大学十月发表的一篇论文就用了这种方法。他们选择教给语言模型乘法法则，看看效果如何。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,373" src="https://img.36krcdn.com/hsossms/20241111/v2_a52d42c958db48778fd54067ae31b78f@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>按照数学的计算逻辑，乘法一般是通过将运算过程拆成“部分积”，并通过规律加合得出结论的。</p>
-<p>比如13 × 24 = 312这个公式，就可以拆成 10×20 = 200、10×4 = 40、3×20 = 50、 3×4 = 12，最后加在一起等于312。除了这种方法外，在历史上的乘法计算还主要会运用到重复加法、格子计算法和埃及乘法三种方法。</p>
-<blockquote>
-<p><strong>●</strong>13 × 24的格子乘法：241020430612按对角线相加：第一位：0第二位：0+0=0第三位：2+6=8第四位：4+2=6第五位：2结果：312</p>
-<p>● 13 × 24的重复加法：13+13+13+...+13(24次)或24+24+24+...+24(13次)</p>
-<p><strong>●</strong>13 × 24的埃及乘法：24=16+8所以需要计算：13 × 16=20813 × 8=104最终：208+104=312</p>
-</blockquote>
-<p>也就是说，如果模型是按我们理解的计算方法做题的话，它一定是沿着这几种部分积的方式去解决乘法问题。</p>
-<p>那事实确实如此吗？</p>
-<p>作者对此做了个实验。挑选了两个小开源模型Gemma-22B和 Llama-3.1-8B，先用完整的乘法任务训练模型(如 13 × 34 = 442)，然后测试模型是否能识别各个部分积(如 13 × 30 = 390)。结果发现，经过训练的模型对除了重复加法之外的“部分积”识别能力都有增强。</p>
-<p class="image-wrapper"><img data-img-size-val="476,394" src="https://img.36krcdn.com/hsossms/20241111/v2_337023a4bebc4641b8f4ca7d6cc2de7c@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（黄色的是学之前的计算正确率，棕色的是学之后的计算正确率）</p>
-<p>看起来效果不错，但仔细想想其实并不合理。如果模型真是按照部分积的计算规则去计算，它应该也只会用其中一种部分积方法计算，不可能每种方法的识别能力都大幅提升。就像我们在上学时候学了一种计算的方法，一般都会习惯性的沿用这种方法，不太会去用其他的解决方法。</p>
-<p>为了继续验证，文章作者先把“部分积“这部分教给模型，再让它做对应的完整乘法题。按照上面的理论，如果模型真的学会了乘法计算，那应该做完整题目的正确率也大幅上升。<strong>结果不但没有，正确率还比训练之前低了。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,253" src="https://img.36krcdn.com/hsossms/20241111/v2_1e4b3ed33dcf4a6d90a9de3a92f97fd9@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（上面一列是先教完整的，去识别部分积，结果都是增加；下面一列是先教部分积，让模型再算完整的乘法，结果都是减少）</p>
-<p>这就证明了，模型确实没有用我们人类常用的计算方法（部分积）的方法在做乘法题。因为，如果模型真的在使用部分积计算，那它会选择一种特定的计算方法。而教给它部分积，它应该能更好地完成计算。</p>
-<p>那大模型到底是按什么逻辑在做题呢？</p>
-<p><strong>它有一套自己的底层逻辑进行数学运算，叫自回归预测。</strong></p>
-<p>自回归预测就是每一步预测都只预测一个位置，并依赖前面的结果。算 13 × 34 = 442，它要先得出个位的2，再得出第二位4，最后得出百位的1。</p>
-<p>而在数学中，有一种方法的操作逻辑和这个很像，叫子群法（Subgroup）。它就是把计算中的每个位数都拆成一种对结果某个位数的映射关系。</p>
-<p>比如，在两位数乘法 A₁A₂ × B₁B₂ = C₁C₂C₃C₄ 中，可以把任意的A₁,A₂,B₁,B₂的子集和C₁,C₂,C₃,C₄的子集建立起一些对应的映射关系。(A₁,B₁) → C₁ 就是其中一个子群。这个映射会单独的推出C₁,C₂,C₃,C₄的每个数，和自回归非常相似。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,481" src="https://img.36krcdn.com/hsossms/20241111/v2_7dafbf5c5435453b8f728640bead3368@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（在本图右边，通过A1、A2推C1，用B1，B2推C4，这就是两个子群）</p>
-<p>这种方法基本上就是找数字对应的一种规律，而非计算。在本质上还是统计性的规律。就是根据每位数学符号在子集中出现的位置，去寻找它对应的数字出现的规律。</p>
-<p>而当一个乘法计算可以拆出来的子群越简单的时候，你越容易找到映射中的对应规律。所以作者只要证明，子群越复杂，大语言模型越不容易算对就可以证明它就是用这种方法去做数学题的。</p>
-<p>作者用了三个维度去定义子群的复杂度：</p>
-<blockquote>
-<p><strong>1. 空间基数 |D|</strong></p>
-<p>它代表了所有潜在映射量</p>
-<p><strong>●</strong>对两位数相乘：第一个数可以是10-99，第二个数可以是10-99，所以总共可能的映射数就是 90 × 90 = 8100</p>
-<p><strong>●</strong>这个数越大，子群越复杂</p>
-<p><strong>2. 标签空间熵 H(L)</strong></p>
-<p>它代表了输出的不确定性</p>
-<p><strong>●</strong>比如在24X17=408这个乘法运算中：最后一位8相对容易预测(只需看24和17的个位就能得出来)，因此熵高，而中间的0比较难预测(需要考虑进位等多个因素)，因此熵低。</p>
-<p><strong>●</strong>不确定性越大，熵越高，子群越复杂</p>
-<p><strong>3. 子群质量 Q(s)</strong></p>
-<p>它代表了规律的清晰程度</p>
-<p><strong>●</strong>还是看24X17=408：最后一位8有明确规律：7×4=（2）8，子群质量就高；但中间的0需要考虑：2×1和7×4的和再加进位，子群质量就低。</p>
-<p><strong>●</strong>子群质量越低，子群越复杂</p>
-</blockquote>
-<p>一番实验下来，作者发现，如果不改变空间熵，单纯在训练时把乘法计算的结果都乘2，或者都加一个数，子群复杂度没提升，模型的性能也基本没变化。</p>
-<p class="image-wrapper"><img data-img-size-val="658,550" src="https://img.36krcdn.com/hsossms/20241111/v2_226a977185624137b97af4226086e792@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但如果采用Moduler的方法（具体见下方解释），让模型只计算最后一位、或者两位来减少空间熵，降低子群复杂度，则模型计算的正确率就会大幅上升。</p>
-<blockquote>
-<p>Moduler方法：</p>
-<p>就是限制结果在X个数字中，mod 10就是0-9这是个数字</p>
-<p>普通乘法: 12 × 34 = 408</p>
-<p>Mod 10乘法: 12 × 34 = 8 (mod 10)</p>
-</blockquote>
-<p>这种子群复杂度越低，模型的正确率越高的情况，就说明了模型确实是很有可能按照子群的逻辑去算算数的。</p>
-<p>之后，作者还给了另一个更关键的证据。</p>
-<p>在过去业界的推测中，模型进行算术运算时，准确率从右到左会逐渐降低。因为模型是从右向左一个个预测数字，如果出现错误会累加导致结果数位越大，越容易出错。但作者发现并非如此：模型在做计算时，其准确率是呈U形分布的，两端高、中间低。头尾两个数字的准确率能达到95%以上，而中间数字连10%都不到，而且数位越多，准确率越低。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,464" src="https://img.36krcdn.com/hsossms/20241111/v2_3b24c9879bac465d978868b1ff5aa4fc@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>虽然传统方法解释不通，但按子群的逻辑，这就是完全合理的。</p>
-<p>因为首位(C₁)主要由参与乘法的两个数中最高位数字决定，末位(C₅)则是主要由个位数字决定，这两位映射关系简单。越靠中间位置的数字越需要考虑多个输入位的组合，映射关系复杂，子群质量低。因此，其正确率就是按U型分布的。</p>
-<p>这一套证明下来，基本可以断定：<strong>大模型在数学运算中并没有用到我们熟知的计算规则，而是在自行发现一些符号上对应的统计学规则。</strong>论文作者将其成为“符号学习者”，而非“逻辑学习者”。</p>
-<p>那大语言模型的这种“新数学方法”，在不断学习符号概率时，到底学到了什么规则呢？</p>
-<h2><strong>模型找到的数学规律是什么样的？</strong></h2>
-<p>另一篇同样发表在10月末的论文就在试图更进一步找到这些语言模型运算的规则。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,284" src="https://img.36krcdn.com/hsossms/20241111/v2_d0001e73c417414591fd56604949063c@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文作者通过对激活神经元的探测，发现了处理数学计算的一些核心神经元：多层感知器。它就是注意力头确认token之后负责进行数据预测的计算部分。当计算时，MLP层被激活较多，而只有少量的注意力头被激活。而就算是激活较多的MLP层神经元，也大概只占总神经元数量的1.5%。它们就是计算过程中的模式识别器。</p>
-<p class="image-wrapper"><img data-img-size-val="898,434" src="https://img.36krcdn.com/hsossms/20241111/v2_18e004ada9264db6bc26342f690c1961@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>那这些MLP层在进行着怎么样的数据预测呢？作者举了个例子，针对226 - 68 = 158这个减法运算而言，它一共经过了三个可识别的神经元。第一个是检测第二个数68是否在模50余[5,25]的范围内（就是指把一个数除以50后，余数是否在5到25之间）；第二个是检测这个答案是否在[150,180]的范围内；第三个则是检测检测这个减法过程结果除以10的余数是否为8。最后，满足这三个条件的数只有158。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,585" src="https://img.36krcdn.com/hsossms/20241111/v2_9dabce91ee4a47f79088f373830e099b@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这套计算方法看起来和我们的正常逻辑完全不一样，就算是统计规则也是一套非常绕弯子的规则，完全不按套路出牌。但这就是大模型在做数学计算时运用的一系列规则。</p>
-<p>论文作者把它们称为”启发式规则“，因为它们最多能启发大模型去找答案，而不是给出一套严格的算法去计算出答案。</p>
-<p>论文作者一共发现了5个可识别的“启发式规则”类型，包括：</p>
-<blockquote>
-<p><strong>●</strong>Range Heuristic (范围启发式)</p>
-<p>当计算数或结果落在特定数值范围内时激活。</p>
-<p>● Modulo Heuristic (取模启发式)</p>
-<p>当数值满足特定的模运算条件时激活。（就像刚才提到的50模余[5,25]）</p>
-<p><strong>●</strong>Pattern Heuristic (模式启发式)</p>
-<p>当数值匹配特定的数字模式时激活。（比如百位有1，十位有2）</p>
-<p><strong>●</strong>Identical Operands Heuristic (相同数启发式)</p>
-<p>当运算符号左右数量一致的时候激活。（比如44-44，结果就是0）</p>
-<p><strong>●</strong>Multi-result Heuristic (多结果启发式)</p>
-<p>能同时加权多个不相关结果出现的概率，多出现在除法运算中（比如3，5，9的概率都增大）</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,377" src="https://img.36krcdn.com/hsossms/20241111/v2_6327ba18bba545d5a144b2ae03a2d4df@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>实际上这五个种类的“启发式”可以被简单理解成两种模式。</p>
-<p>一种是通过之前的训练直接预测结果，可以说是“直接启发式”，但它不是给定结果，而是给一个范围。这一方面可能是训练数据本身不足以给出直接结果，另一个是直接给出结果的模式在数据上容易形成过拟合。</p>
-<p>另一种则是找到一些对于结果的规律，间接去猜测结果数的属性。这可以被称为“间接启发式”。它是用之前的训练去预测结果可能具有的一些数学属性，比如模式启发式、取模启发式都是这种。</p>
-<p>但无论哪种，都还是一种模式识别，而非对真正运算规则的掌握。</p>
-<p>作者在这个过程中测试了一共四种模型，最大的是Llama3-70B。虽然这个模型确实展现出了最复杂和成熟的启发式规则系统，但其依然仅仅是启发式的。因位这就是由自回归模型的本质决定的。</p>
-<p>至此，现阶段基于Transfomer架构的自回归模型学不会逻辑推理和规则这件事，基本上可以下个结论了。</p>
-<p>这一倾向其实不光在语言模型和算术领域出现，在字节最新的一篇论文中，他们测试了图像生成模型是否能理解物理规律，结果依然是否定的。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,387" src="https://img.36krcdn.com/hsossms/20241111/v2_a4a511a2dfb24d71980cfa2ddc0cecce@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>他们发现，模型采用的仍然是“基于案例”的学习方式，而非抽象物理规则，并且其理解的优先级也非常倾向于表征特征，而非规律特征。是以颜色 &gt; 尺寸 &gt; 速度 &gt; 形状排列的。</p>
-<p>最后，他们对模型进行了Scaling Up，拓展了其大小，结果表明单纯扩展规模并不能实现模型对基础物理规则的发现。</p>
-<p>其本质根源也许正是在于自回归模型的自身限制。</p>
-<p>所以，也许杨立昆说的是对的？</p>
-<p>别急，这不是还有OpenAI-o1呢吗？这个号称在推理方面做出了范式级转变的新模型，是不是就能补足Transformer仅能作为“模式识别者”的不足呢？</p>
-<h2><strong>OpenAI-o1能让大模型，学会真正的逻辑吗？</strong></h2>
-<p>想回答这个问题，我们得知道OpenAI-o1在推理能力的核心提升。</p>
-<p>根据o1的官方文档，其提升推理能力的秘诀就在于将COT（思维链）这项技术融入了其中。</p>
-<p>根据23年一篇北大的论文，COT技术对推理的提升主要来源于在对复杂问题的拆解能力。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,495" src="https://img.36krcdn.com/hsossms/20241111/v2_84f6f260abb743d099e6f2dbac3a7335@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>比如说一道数学题，通过COT可以把它拆解成一步步的简单步骤。这样就可以把一个复杂的运算拆成数个简单的运算，一步步进行下去了。如此，大语言模型就能完成比较复杂的数学计算，如四则运算了。</p>
-<p>它的训练也非常简单，就是在后训练阶段加入人工合成的示例集微调，其中对于每个问题，</p>
-<p>训练数据包含：</p>
-<p>1. 问题描述2. 中间推导步骤3. 最终答案</p>
-<p>这相当于降低了之前论文提到的子群的复杂性，这样里面解题的每个步骤都在Transfomer模型本身的模式识别范围内。</p>
-<p class="image-wrapper"><img data-img-size-val="626,492" src="https://img.36krcdn.com/hsossms/20241111/v2_30d1ac58786a4e4c9b7f7c46e96ba9ff@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从论文给出的例子中，比如在处理3x+3y+12z=6这个公式时，模型会先对所有数都除以3，得到x+1y+4z=2，再将它与其他多项式相减。它对步骤的拆解非常接近我们“按照数学计算规则”的做题流程了。</p>
-<p>作者还尝试了长度外推(length extrapolation)实验，去测试模型的这种步骤拆解是否有泛化能力。他发现，即使仅有3层的Transformer架构模型，在长达18个数的运算序列上仍然保持了相当高的准确率（虽然有所下降）。而在训练之中用到的数据最多只有15个数之间的运算。这说明模型并不是单纯记忆，而是学会了其中的某些规律，并组合这些规律去求解更难的问题了。</p>
-<p class="image-wrapper"><img data-img-size-val="484,398" src="https://img.36krcdn.com/hsossms/20241111/v2_4802a534912b46cdadd115cb1dabc1d6@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>作者由此乐观的判断说，模型通过COT是真正的学会了数学规则。只要在训练过程中给出的多项式长度足够丰富，Transformer+COT这个组合应该可以理解所有的数学规则。</p>
-<p>但是否真是如此呢？</p>
-<p>就论文给出的证据来看，我们完全可以将COT训练过程，理解为模型学习识别和模仿特定的"问题拆解模式"。在训练数据中，模型接触到大量按照特定格式展示的分步计算过程，从而学会了如何将复杂计算分解成一系列简单步骤。</p>
-<p>然而，这种模式识别能力与真正理解数学计算规则是有本质区别的。如果一个模型真正掌握了数学运算规则，它应该能够处理任何符合这些规则的计算，而不受训练数据模式的限制。虽然实验显示模型能够处理比训练数据更长的算式，表现出了一定的泛化能力，但随着长度增加准确率逐渐下降的现象，恰恰说明模型更可能是在进行模式匹配和应用，而非真正理解了数学运算的本质规则。</p>
-<p>另一篇由COT论文作者，先OpenAI研究员姚顺雨参与的论文也显示：即使是当下最先进的经COT加持的模型OpenAI-o1，也还是逃不过自回归模型所表现出的概率偏好。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,324" src="https://img.36krcdn.com/hsossms/20241111/v2_232eabb37e6d4f828b27e320b042bcaa@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在针对四个任务的实验中，虽然o1-preview的波动表现比起其他模型要小，但依然训练数据越多，输出概率越高时，模型的表现越好。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,515" src="https://img.36krcdn.com/hsossms/20241111/v2_fcd67abdf27c4e8fb54be83f14e07105@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（横轴表示输出的对数概率，数值越大(越接近0)输出概率越高。纵轴表示准确率）</p>
-<p>但无论如何，在COT的加持之下，模型确实在思维模式上更接近我们人类推理的“形式”，能用我们熟悉的方法做数学了。</p>
-<p>但这条路能否真正通向对于规律的理解，至少当下还不明确。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1dAWsVKEOcTnD62fPqvfIA" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，作者：<strong>郝博阳</strong>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031641183823365</guid><pubDate>Mon, 11 Nov 2024 16:56:00 +0800</pubDate></item><item><title>陶哲轩联手60多位数学家出题，世界顶尖模型通过率仅2%，专家级数学基准，让AI再苦战数年</title><link>https://36kr.com/p/3031615325857281</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1072,426" src="https://img.36krcdn.com/hsossms/20241111/v2_1468864ee5f5461b81527f49089c0a7e@46958_oswg134190oswg1072oswg426_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>【导读】</strong>Epoch AI推出数学基准FrontierMath，目前前沿模型测试成功率均低于2%！OpenAI研究科学家Noam Brown说道：「我喜欢看到新评估的前沿模型通过率如此之低。这种感觉就像一觉醒来，外面是一片崭新的雪地，完全没有人迹。」或许，FrontierMath测试成功率突破的那一天，会是AI发展过程中一个全新的里程碑。</p>
-<p>数学为评估复杂推理提供了一个独特而合适的测试平台。它需要一定的创造力和精确的逻辑链条——通常涉及复杂的证明，这些证明必须缜密地筹划和执行。同时，数学还允许对结果进行客观验证。 </p>
-<p>在铺天盖地的宣传中，LLM看起来已经攻破了数学大关。但果真如此吗？</p>
-<p>不久前，来自苹果的研究院团队证明，就算是在数学这些基础科学方面最先进的o1模型，其卓越的表现也是来源于对特定数据集针对性的持续优化。</p>
-<p>所以为了更好的检验模型对于数学问题的理解与解决能力，我们需要一个更加全面而行之有效的数学测试基准。</p>
-<p>近日，Epoch AI联合六十余位全世界的数学家，其中包括教授、IMO命题人、菲尔兹奖获得者，共同推出了全新的数学基准FrontierMath。其包括数百个原创的、格外具有挑战性的数学问题，旨在评估AI系统中的高级推理能力。</p>
-<p>研究团队基于这个测试基准评估了六个前沿的模型，它们的成功率竟然都低于2%！</p>
-<p class="image-wrapper"><img data-img-size-val="1080,498" src="https://img.36krcdn.com/hsossms/20241111/v2_bc06ab9462cc41a3afe6dd7a1cccb022@46958_oswg73893oswg1080oswg498_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://arxiv.org/abs/2411.04872</p>
-<p class="image-wrapper"><img data-img-size-val="1080,68" src="https://img.36krcdn.com/hsossms/20241111/v2_1445eaecdbdb4c52878931397ab43a9a@46958_oswg51013oswg1080oswg68_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文特意致谢了陶哲轩为FrontierMath基准贡献了一些问题 </p>
-<p>具体来说，这些数学问题从奥赛难度到当今的数学前沿，包含了目前数学研究的所有主要分支——从数论和实数分析中的计算密集型问题到代数几何和群论中的抽象问题，而它们也通常需要数小时或数天的时间才能被专业数学家解决。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,382" src="https://img.36krcdn.com/hsossms/20241111/v2_1fc8ea94cf1e4bdb9fe229ca143bda72@46958_oswg265325oswg1080oswg382_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">FrontierMath涉及的数学领域</p>
-<p>这一测试集的发布一下炸出了不少AI大佬。</p>
-<p class="image-wrapper"><img data-img-size-val="1010,212" src="https://img.36krcdn.com/hsossms/20241111/v2_e7d560f909994278bf7ed35a72b85d75@46958_oswg51386oswg1010oswg212_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">OpenAI研究员Clive Chan</p>
-<p class="image-wrapper"><img data-img-size-val="1014,342" src="https://img.36krcdn.com/hsossms/20241111/v2_504496483c0f4cb0863dd3d71eaff94e@46958_oswg93206oswg1014oswg342_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">德扑之父，OpenAI研究科学家Noam Brown</p>
-<p class="image-wrapper"><img data-img-size-val="1024,579" src="https://img.36krcdn.com/hsossms/20241111/v2_0aeeda9a8f2e42978d5c9a3b64d6d197@46958_oswg150219oswg1024oswg579_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">Anthropic联创Jack Clark</p>
-<p>知名AI大牛Andrej Karpathy还发了一篇长帖「Moravec悖论在大语言模型评估中的体现」：</p>
-<p class="image-wrapper"><img data-img-size-val="1022,172" src="https://img.36krcdn.com/hsossms/20241111/v2_527380d223ef41ac907708a9735f89e2@46958_oswg37770oswg1022oswg172_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>我对这个新的前沿数学基准测试感到惊讶，因为大语言模型在其中仅能解决2%的问题。引入这个基准测试的原因是大语言模型在现有数学基准测试中表现得越来越出色。有趣的问题在于，尽管从许多评估来看，大语言模型在数学和编程等领域已经逐渐接近顶级专家的水平，但你还是不会选择它们来完成对人类本身来讲最容易的工作。它们可以解决复杂的封闭问题，只要你在提示词中恰当地呈现问题描述，但它们在自主且连贯地解决长问题序列方面却很艰难，而这对人类来说是非常容易的。</p>
-<p>这就是Moravec悖论的隐性体现，他在30多年前观察到，人类认为简单或困难的事情，对于计算机来说可能却恰恰相反。例如，人类对计算机下棋感到非常惊讶，但下棋对计算机来说却很简单，因为这是一个封闭的、确定性的系统，具有离散的动作空间、完全可观测性等等。反过来，人类可以系鞋带或折叠衬衫，并不觉得这有什么了不起，但这实际上是一个极其复杂的传感运动任务，对硬件和软件的最先进技术也还是一个挑战。这就像OpenAI前段时间发布的魔方项目，大多数人关注的是解魔方本身（这很简单），却不是让机器人用手去扭合一面魔方这种其实极其困难的任务。</p>
-<p>所以我非常喜欢这个FrontierMath基准测试，我们应该多做一些这样的测试。但我也认为这是一个有趣的挑战，我们如何为所有那些「简单」但实际上很难的事情创建评估。非常长的上下文窗口、连贯性、自主性、常识、有效的多模态输入输出……我们如何构建好的「简单工作」评估？这些是你期望团队中任何入门级实习生都能完成的事情。</p>
-</blockquote>
-<p>除了AI大佬们在纷纷讨论，网友们也炸了锅——</p>
-<p>网友「Chubby」表达了自己的兴奋与期待！</p>
-<p class="image-wrapper"><img data-img-size-val="1022,1179" src="https://img.36krcdn.com/hsossms/20241111/v2_ea5b1b5b29824667820e0fa8a6ce7c3a@46958_oswg396634oswg1022oswg1179_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>同时，Epoch AI也采访了菲尔兹奖得主陶哲轩（2006年）、蒂莫西·高尔斯（1998年）、理查德·博赫兹（1998年）以及国际数学奥赛教练陈谊廷。</p>
-<p>他们一致认为，FrontierMath的研究问题极具挑战性，需要深厚的领域专长。</p>
-<p class="image-wrapper"><img data-img-size-val="680,680" src="https://img.36krcdn.com/hsossms/20241111/v2_0ed47ed2428c4f7893ad77e6f159ced2@46958_oswg244575oswg680oswg680_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="680,680" src="https://img.36krcdn.com/hsossms/20241111/v2_5d15ebe630a24ca195025aa5c5eee9e3@46958_oswg138571oswg680oswg680_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="680,680" src="https://img.36krcdn.com/hsossms/20241111/v2_e93a73da5dce4b20b53fab81b975feb1@46958_oswg238814oswg680oswg680_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>成功率低于2%</strong></h2>
-<p>FrontierMath支持模型在评估中拥有充足的思考时间以及实验和迭代能力。并且还可以在Python 环境中交互式地编写和执行代码来测试假设、验证中间结果，并根据即时反馈改进方法。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,415" src="https://img.36krcdn.com/hsossms/20241111/v2_8cede1e9aea149d589011f29971105ac@46958_oswg103325oswg1080oswg415_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">FrontierMath的模型评估流程框架</p>
-<p>研究团队基于这个测试基准评估了六个前沿的模型，包括Claude 3.5 Sonnet、o1-preview和Gemini 1.5 Pro。</p>
-<p>即便在延长思考时间（10000个token）、提供Python访问权限以及允许运行实验的条件下，它们的成功率仍然低于2%！</p>
-<p class="image-wrapper"><img data-img-size-val="900,618" src="https://img.36krcdn.com/hsossms/20241111/v2_d5970049e72142628476a08dba28ac84@46958_oswg51520oswg900oswg618_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这与GSM-8K和MATH等其他流行的数学基准形成鲜明对比，在这些仅包含高中到本科数学难度的基准测试中，顶级模型现在的准确率都已经超过 90%。</p>
-<p>当然，这在一定程度上是由于数据污染——训练数据中无意或有意地包含了测试数据的内容，或包含了与测试数据非常相似的数据。</p>
-<p>这种现象会导致模型在测试时表现优异，但并非因为它真正学会了新知识或推理能力，而是因为它在训练中「见过」测试题或其相似题。</p>
-<p>以至于模型的测试分数表现虚高，无法真实反映其在新数据上的表现能力。</p>
-<p class="image-wrapper"><img data-img-size-val="900,614" src="https://img.36krcdn.com/hsossms/20241111/v2_b6f2cb83dd7e4af8b33878d21b3f2af2@46958_oswg53664oswg900oswg614_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>也就是说，原来的这些基准测试达到高分已经不值得吹嘘了，大模型又有了新的数学大关需要攻破！</p>
-<h2><strong>FrontierMath：评估AI高级数学推理</strong></h2>
-<p>对于这个新的数学大关，FrontierMath有三个关键设计原则： </p>
-<p>1. 所有问题都是全新且未公开的，防止数据污染。</p>
-<p>2. 模型的解答支持自动验证，从而实现高效评估。无论是精确的整数，还是如矩阵或符号表达式（在SymPy中），一个验证脚本可以通过将模型确认提交的答案与已知解决方案来精确匹配以对提交的答案进行检查验证。</p>
-<p>3. 问题具有「防猜测」特性，问题的答案是大数值或复杂的数学对象，若没有数学推理，模型猜对的几率低于1%。</p>
-<p>这些设计原则，每一条都非常具有针对性，弥补了现有基准测试的不足。</p>
-<p>值得欣喜的是，模型在这个测试中几乎没办法「作弊」了，这将有效杜绝一些「名不副实」的现象。</p>
-<p class="image-wrapper"><img data-img-size-val="900,506" src="https://img.36krcdn.com/hsossms/20241111/v2_8e9d22936ed94774b12692f36f880d12@46958_oswg98030oswg900oswg506_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>具体案例</strong></h3>
-<p>由于FrontierMath中的问题是具有封闭形式答案（例如整数）的，所以它们可以让模型去自动进行验证与评估。</p>
-<p>例如下图中的构造一个符合条件的19次多项式问题，问题给定的答案是非常大数值的整数，所以几乎不可能通过预测和精巧的模式匹配来解决这个问题。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,437" src="https://img.36krcdn.com/hsossms/20241111/v2_c61635cf29754871a4c72cd76dfee916@46958_oswg155403oswg1080oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>模型必须有涉及数论、群论、代数几何这些方面的专业数学逻辑能力才可以得到正确的答案。</p>
-<p>涉及到阿廷原始根猜想则更为复杂，模型需要求解计算的甚至是</p>
-<p class="image-wrapper"><img data-img-size-val="132,53" src="https://img.36krcdn.com/hsossms/20241111/v2_3e403728080a42b6a47dce359fc8f893@46958_oswg1648oswg132oswg53_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,999" src="https://img.36krcdn.com/hsossms/20241111/v2_272465d577864ce382befe4ab3e013b5@46958_oswg196265oswg1080oswg999_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而数百道题目皆为如此，所以FrontierMath足以作为一个标杆性的数学基准，去检验AI模型是否具备了真正的复杂逻辑推理能力。</p>
-<p>参考资料： </p>
-<p>https://x.com/EpochAIResearch/status/1854996368814936250</p>
-<p>https://x.com/karpathy/status/1855659091877937385</p>
-<p>https://epochai.org/frontiermath/the-benchmark</p>
-<p>https://epochai.org/frontiermath/benchmark-problems</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/NFeScNy_df2rvdqtnlKKEw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：Hjh ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031615325857281</guid><pubDate>Mon, 11 Nov 2024 17:05:00 +0800</pubDate></item><item><title>天塌了，Scaling Law 已撞收益递减墙？OpenAI 在内，所有大模型都正遭遇巨大瓶颈</title><link>https://36kr.com/p/3031698876098050</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="936,583" src="https://img.36krcdn.com/hsossms/20241111/v2_da2b089c32b347679ca6368723b11981@46958_oswg761345oswg936oswg583_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>近日，有外媒报道称，OpenAI 正在制定新策略，以应对人工智能大模型改进速度放缓的问题。消息一出，知名认知科学家、AI 研究员 Gary Marcus 立即表示，“正如我所说，GPT 正在进入收益递减的时期。”而近期，遭遇发展瓶颈的大模型似乎并不只有 GPT，所遇到的问题也远不仅于一个。</p>
-<p class="image-wrapper"><img data-img-size-val="705,159" src="https://img.36krcdn.com/hsossms/20241111/v2_cd5f4e287227453aba2480f50026f7d0@46958_oswg16772oswg705oswg159_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>OpenAI 在内，都撞到了同一堵墙 </strong></h2>
-<p>根据 The Information 的最新报道，OpenAI 的下一个旗舰模型可能不会像其“前辈”那样带来巨大的飞跃。测试代号为 Orion 的新模型的 OpenAI 员工发现，尽管它的性能超过了 OpenAI 的现有模型，并且只完成了 20% 的训练就达到了 GPT-4 的水平，但与从 GPT-3 到 GPT-4 的巨大飞跃相比，整体质量的提升要小得多。</p>
-<p>换句话说，GPT 的升级速度似乎正在放缓。事实上，Orion 在某些领域（如编码）可能并不会比以前的模型更好。对于此前有关其旗舰车型计划的消息时，OpenAI 方面表示：“我们今年没有发布 Orion 模型的计划。</p>
-<p>报道提到，GPT 开发速度放缓的部分原因是用于预训练的文本和数据供应减少（预训练有助于 LLM 理解概念之间的关系，从而解决起草内容或调试代码等任务）。根据 OpenAI 员工和研究人员的说法，该公司现在难以获得高质量的培训数据，开发人员已经耗尽了网站、书籍和其他用于预培训的公开文本。</p>
-<p>为了解决这些问题，OpenAI 成立了一个基础团队，以研究如何在新训练数据不断减少的情况下继续改进其模型的新策略。据介绍，新策略包括在利用人工智能模型生成的合成数据训练模型，以及在后期训练过程中对具有有限新数据的模型进行更多改进。</p>
-<p>这种减速或表明，由于数据稀缺和硬件成本飙升等因素，对大模型来说，传统的扩展改进可能已经达到极限。“传统 scaling laws 下的 LLM 进展可能会放缓”，有研究人员和企业家担心，生成式 AI 已经遇到了障碍，即使如 OpenAI 般急于扩大该技术使用规模的公司，也发现这在实践中很棘手。</p>
-<p class="image-wrapper"><img data-img-size-val="700,248" src="https://img.36krcdn.com/hsossms/20241111/v2_9a7212fb4cfc48d2b8398f0c2800c50f@46958_oswg23378oswg700oswg248_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>类似的困境不止出现在 OpenAI，还有其他前沿实验室在这方面遇到更严重的问题。据数据科学家 Yam Peleg 曝料，从某个前沿实验室传出消息，他们试图通过更长时间的训练和使用越来越多的数据来强行获得更好的结果，结果却意外地达到了一个巨大的收益递减墙（比公开发布的更严重）。</p>
-<p class="image-wrapper"><img data-img-size-val="708,221" src="https://img.36krcdn.com/hsossms/20241111/v2_8e739cefdb9c4481950dd324741e9f95@46958_oswg25509oswg708oswg221_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“因此，我认为可以肯定的是，所有主要参与者都已经达到了训练时间更长、收集数据更多的极限...... 现在的关键是数据质量，而这需要时间。”Peleg 表示。而这样的说法正在被不少人认同，有网友表示，“所有的实验室似乎都撞到了这样的墙。”</p>
-<p class="image-wrapper"><img data-img-size-val="712,174" src="https://img.36krcdn.com/hsossms/20241111/v2_3d1d7f9845a8456993b7c9dad3b1c961@46958_oswg29590oswg712oswg174_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>总而言之，目前可能需要新的方法来推动 AI 技术超越其当前的极限。</p>
-<h2><strong> “LLM 只会照本宣科”， 一生变就崩溃？ </strong></h2>
-<p>“我们的数据用完了。合成数据始终意味着提炼现有模型，而不是向人类学习。”一位网友在听到消息后这样说道。</p>
-<p class="image-wrapper"><img data-img-size-val="591,130" src="https://img.36krcdn.com/hsossms/20241111/v2_fe064c4aecb44221bc12828134ba9280@46958_oswg15627oswg591oswg130_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一位网友则表示，“未来应该是 LLM 与推理模型相结合，推理能力越强，效果越好。天不会塌下来。”</p>
-<p class="image-wrapper"><img data-img-size-val="576,161" src="https://img.36krcdn.com/hsossms/20241111/v2_b3f75791bae74269bc3340d5cbb1c1d8@46958_oswg17118oswg576oswg161_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然而，最近麻省理工学院的一项研究却引发了许多人对于大模型本身理解和学习能力的诸多质疑，甚至有网友锐评道，“LLM 只会照本宣科，而不能像人类甚至其他动物那样将所学到的知识应用于新事物。”</p>
-<p>研究人员发现，尽管生成式 AI 的输出令人印象深刻，但其对世界并没有连贯的理解。也就是说，一旦任务或者环境稍有变化，之前表现良好的模型可能会瞬间崩溃。</p>
-<p>研究人员重点研究的是 transformer 模型，一类在随机生成的序列数据之上训练而成，另一类则由遵循策略生成的数据训练而成。并将评估示例放在确定性有限自动化（DFA）的问题上，分别是在纽约市的街道上导航以及玩棋盘游戏。</p>
-<p>在导航的应用例中，虽然模型能够近乎完美地为用户提供纽约市的导航路线，但当研究人员封闭部分街道再添加绕行路线之后，其性能则会显著下降。哈佛大学博士后 Keyon Vafa 表示，“令人惊讶的是，只要添加一条绕行路线，模型性能就会迅速下降。哪怕我们只封闭掉 1% 的街道，准确率就会立即从接近 100% 下降到 67%。”</p>
-<p>但两类 transformer 模型都没能在导航示例中形成连贯的世界模型，并且研究人员在还原模型生成的城市地图时发现，该地图往往包含随机方向的天桥或者大量现实中并不存在的街道。</p>
-<p>而在棋盘游戏的示例中，他们发现 transformer 无需了解任何规则，就几乎能够准确预测游戏中的有效棋路。Vafa 解释道，“棋盘游戏中，如果你看到的是两台随机计算机在下棋，而不是冠军棋手在下棋，理论上你会看到所有可能的棋步，甚至是冠军棋手不会走的坏棋。”</p>
-<p>令人惊讶的是，研究人员发现随机做出选择的 transformers 反而形成了更准确的世界模型，这可能是因为它们在训练期间接触过更多潜在的下一步棋路。不过，尽管 transformers 几乎在所有情况下都能生成准确的方向和有效的棋路，只有后一类模型能够生成连贯的世界模型。</p>
-<p>研究人员强调，“看到这些模型那令人印象深刻的表现，我们往往认为它们一定是对现实世界有所了解。但我想提醒大家的是，这个问题不可轻下结论，更不能单凭直觉就言之凿凿。”</p>
-<h2><strong>结   语 </strong></h2>
-<p>对于目前大模型发展中显现的这些瓶颈，有网友提出了一些有趣的想法。</p>
-<p>一位网友建议，“我想知道是否有可能将 LLM 与 Cyc（一个逻辑引擎和生活常识规则数据库）连接起来。该引擎可以找到语言模型（文本）和 Cyc 模型之间的最佳匹配，并对较短的候选模型（最小的逻辑图）进行加权。从语言模型生成候选 Cyc 模型可能首先需要大量的训练。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,127" src="https://img.36krcdn.com/hsossms/20241111/v2_ec68c36113cd47869f3201599f1e4a5b@46958_oswg67235oswg1080oswg127_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还有一位网友表示，“现在需要人形机器人来改进 scaling law。如果没有机器人在现实世界中亲身经历的纯数据，GPT 就不可能得到改进。”</p>
-<p class="image-wrapper"><img data-img-size-val="692,273" src="https://img.36krcdn.com/hsossms/20241111/v2_d47c24ad5cb94a5bb8e8ff5fd45b3330@46958_oswg30841oswg692oswg273_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>参考链接：</strong></p>
-<p>https://techcrunch.com/2024/11/09/openai-reportedly-developing-new-strategies-to-deal-with-ai-improvement-slowdown/</p>
-<p>https://x.com/amir/status/1855367075491107039</p>
-<p>https://www.eecs.mit.edu/despite-its-impressive-output-generative-ai-doesnt-have-a-coherent-understanding-of-the-world/</p>
-<p>https://slashdot.org/story/24/11/10/1911204/generative-ai-doesnt-have-a-coherent-understanding-of-the-world-mit-researchers-find</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/QaqzkOtKoEQDBXwc73s8ag" rel="noopener noreferrer nofollow" target="_blank">“AI前线”</a>，整理：华卫、核子可乐 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031698876098050</guid><pubDate>Mon, 11 Nov 2024 17:06:00 +0800</pubDate></item><item><title>双11最惨的人，拉夫劳伦</title><link>https://36kr.com/p/3031698782102788</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“只有拉夫劳伦受伤的世界达成了”。</p>
-<p>这是今年双11最让商家们哭笑不得的一句话。起因是有媒体爆出拉夫劳伦今年双11在天猫的GMV超过16亿，出现在多份“破亿战报”里，但大批消费者实际上却是拿它凑单领大额优惠券，导致很多人在付款5分钟内就选择退款，让拉夫劳伦的退货率达到了95%。</p>
-<p>最终，<strong>这个靠“职场老钱风”“北美藤校味儿”和“中年女人的JK制服”翻红出圈品牌，硬是靠一点都不老钱的“凑单神器”，赢得了泼天流量。</strong></p>
-<p>目前，拉夫劳伦并没有对这一事件进行公开回应。而在小红书搜索栏里输入“凑单”两个字，光“凑单店铺有哪些”就有两万多篇笔记，拉夫劳伦则冲在了搜索结果的前半页。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,790" src="https://img.36krcdn.com/hsossms/20241111/v2_6c68e07bbec1460390e2059954b7f699@46958_oswg37595oswg1080oswg790_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>根据今年天猫双11规则，88VIP会员在付尾款阶段可以启用两张消费券，面额分别是“满7000减560元”和“满3000减240元”，相当于每件商品再打92折。至于拉夫劳伦，它动辄上千的定价不仅单价高，而且为了维持品牌调性并没参加平台普推的“满300减50元”的活动，而只参加了上述88VIP的消费券活动，当别的品牌“学聪明了”，在消费者点退款时要反应半天、甚至抢先把货发出库时，拉夫劳伦又是会秒退款的那个，各种Buff叠满让它成了天选凑单神器。</p>
-<p>诸多凑单攻略里，有人给自己选了200多的东西，然后带上一两件拉夫劳伦，把消费金额撑到3000拿到了消费券；有人反映用拉夫劳伦凑单的人太多了，“刚放进购物车一点结算显示卖光了”，很快就其他“友友”教她要“多选几个同等价格的做备选”。有人骄傲晒出自己拿拉夫劳伦凑了3单，立刻就有人说自己更厉害凑了5单。</p>
-<p>关于凑单后秒退款对拉夫劳伦的伤害力，也有不同的说法。有从业人士称如果商品尚未发货就发起退款，商家需要承担2-3元的免单和出库成本。也有人觉得这事对拉夫劳伦不会带去太多成本上的影响，但退款率退货率太高会影响品牌店铺的曝光，哪怕当事方是并不缺曝光量的知名品牌。</p>
-<p>但这件事的关键在于，<strong>为什么有品牌会靠被人凑单凑成销冠。</strong></p>
-<p>电商之间的竞争已经趋于白热化，而想要在资本市场得到更多肯定，想争取到更多商家的资源倾斜，GMV都是不得不秀的肌肉——退款退货的金额并不会被计算在GMV里。为了在大促期间冲高GMV，电商平台会制定各种满减规则，引导消费者买了又买。无论是天猫的满7000减560，还是抖音的满4000减400，无非都是平台用来推高GMV的手段。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241111/v2_07f03d65e26841159afc1f460a868151@46958_oswg61678oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>GMV之外，平台也比以往更加地取悦消费者，<strong>仅退款、秒退款不仅是取悦中最常见的一招，还成了“如果我没有友商有，我就不会被选择”的关键售后。</strong>结果是初代网红张大奕受累于高企的退货率关掉了十年淘宝老店，拼多多女装80%的退货率成了最真实的恐怖故事，而丰巢的电商退换货综合服务收入则从2021年的8526万元，增加到了2023年的8.93亿元，两年涨了近10倍。</p>
-<p>平台一边希望消费者买更多来冲高GMV，一边变着法子取悦消费者。当这届消费者恰好是预算最紧的消费者时，他们中的很多人自然会选择研究规则、利用规则、反制规则。最终靠凑单秒退款，消费者看似拿到了更多优惠，平台拿到了更高GMV，一个只有商家受到伤害的世界就此达成。</p>
-<p>在这个链条里，我们还有两个联想。</p>
-<p>首先，用拉夫劳伦踊跃退单的全是天猫88VIP，也是淘天最优质的一群消费者。在诸多报道里，他们购买力强、复购率高、粘性强，也没有太多恶意薅羊毛、恶意投诉商家的案例。如果连比较优质的消费群体都成了凑单大军，那么水面之下，数量级更大的普通消费者，是否还会与商家有更多原本不该存在的利益纠纷。</p>
-<p>其次，平台后续是否会管束这种纯凑单行为。如果加以管束，意味着短时间内它们可能会失去一波消费者，如果不管束，到了明年的618和双11，当这种凑单方法被更多人知道后，商家们又会怎样？</p>
-<p>已经有商家对这样的双11给出了自己的反馈。</p>
-<p>消费巴士从多位业内人士处了解到，<strong>过去不少商家会把双11当一年最后冲业绩的关键节点，但到今年，部分中小商家选择“冷处理”双11，</strong>即使参与了优惠力度也很弱，仿佛不想被人发现一样。毕竟优惠力度太大会亏本，优惠力度不大又会被同行卷到“隐身”，万一退货率上去了，还得多负担一部分成本。</p>
-<p>至于仍然踊跃参与双11的商家们，部分商家会在双11前夕偷偷涨价，比如一件外套的价格从六百多涨到七百多，结果把所有优惠规则都用上，价格可能也就和平时一样甚至更高。</p>
-<p>如今的双11，似乎不再是从前那个消费者真买到便宜、商家也真冲了业绩的双11了。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/L202Pnp1676JXdxRGgA1sA" rel="noopener noreferrer nofollow" target="_blank">“消费巴士”</a>，作者：消费巴士，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031698782102788</guid><pubDate>Mon, 11 Nov 2024 17:08:00 +0800</pubDate></item><item><title>当视觉大模型陷入认知失调，马里兰大学构建了一个幻觉自动生成框架</title><link>https://36kr.com/p/3031698718074121</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>想象一下，有一天你在沙漠中看到一个雪人，或者在雪地里发现一棵棕榈树。面对这些与周围环境格格不入的景象，你是否会感到心理上的不适？</p>
-<p>在认知科学领域，研究者普遍认为人脑倾向于利用以往的经验来解读观察到的信息并构建记忆。然而，当人脑接收到与以往认知不符的信息时，可能会因为 “认知失调”（Cognitive Dissonance）而对外部环境产生误判，进而在行为上表现出矛盾。例如，我们通常认为电脑是由人类操控的，但如果我们看到一只章鱼在操控电脑，这种不符合常理的场景会让人脑产生认知失调的不适感。</p>
-<p>随着对大模型的深入研究，研究人员发现，在认知和推理任务上，大模型的思维过程与人脑有一定相似之处。因此，针对人脑认知失调特点设计的实验也能使大模型出现类似的 “幻觉” 现象。</p>
-<p>基于这一观察，马里兰大学的研究团队提出了一个<strong>名为 AutoHallusion 的视觉大模型幻觉自动生成框架</strong>。这一工作基于团队之前在 CVPR 2024 上发表的工作 HalluionBench（https://arxiv.org/pdf/2310.14566）。它通过在场景图像中插入或删除特定物体，并针对这些修改后的图像提问，从而检测大模型在回答时可能出现的幻觉现象。</p>
-<p>这一方法能够自动生成大量的大模型幻觉案例，有效缓解当前大模型幻觉研究中数据集缺乏的问题。在 GPT-4V、Gemini 和 Claude 等大模型上的实验表明，这些模型在本文提出的提出的基准数据集上问答准确率最高仅为 66.0%。该研究成果已发表于 EMNLP 2024。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,297" src="https://img.36krcdn.com/hsossms/20241111/v2_7e400fce86a64d90ae16ce12ed3cf17a@46958_oswg154334oswg1080oswg297_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文标题：AUTOHALLUSION: Automatic Generation of Hallucination Benchmarks for Vision-Language Models</p>
-<p>论文链接：https://arxiv.org/pdf/2406.10900</p>
-<p>项目主页及代码：https://wuxiyang1996.github.io/autohallusion_page/</p>
-<h2><strong>文章概述</strong></h2>
-<p>大型视觉语言模型（LVLMs）在内容生成、自动驾驶和机器人等领域中扮演着重要角色。然而，它们也会出现 “幻觉” 现象，即生成的响应中包含视觉内容中不存在的信息。这些幻觉通常是由于语言模块过度依赖语言先验信息而忽略视觉输入所致。</p>
-<p>为了解决这一问题，之前的工作通常收集幻觉案例建立基准数据集，并以此对大模型进行微调，以减少可能存在的幻觉。然而，手动创建幻觉案例和基准既耗时又昂贵。此外，之前的工作对大模型产生幻觉的机制研究有限，在缺乏足够代表性案例的情况下对大模型进行微调，可能会导致模型出现过拟合现象。</p>
-<p>为此，本文提出了 AUTOHALLUSION 框架，可以自动生成各种幻觉案例并进行批量生产。该框架基于认知科学原理，针对大模型产生幻觉的原因，提出了三种主要策略：插入异常物体、插入成对物体和移除相关物体，通过操控场景中的物体构成来创建与语言先验相冲突的图像。</p>
-<p>为了生成能够触发大模型幻觉的（图像 - 问题）组合，本文针对修改后的图像，设计相应的问题探测大模型的语言模块，定位特定物体或其在相关情境中的语言先验信息。如果大模型的推理受到语言先验的偏见影响，例如在根据图片回答某一特定物体的问题时，大模型根据场景图片的先验知识而非物体本身传递的信息来作答，那么就可能生成与事实不符或前后不一致的响应，从而导致幻觉现象。</p>
-<p>AUTOHALLUSION 在包括 GPT-4V、Gemini、Claude 和 LLaVA 等最新的大模型上进行了实验，并整理发布了一个基准数据集，来评估模型性能。在该基准数据集上的实验结果表明，GPT-4V 等大模型的问答准确率最高仅为 66.0%。</p>
-<p>数据集地址：https://github.com/wuxiyang1996/AutoHallusion</p>
-<h2><strong>研究方法</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1080,400" src="https://img.36krcdn.com/hsossms/20241111/v2_09a1706516e544ee9d72afef0bf92105@46958_oswg212660oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>AUTOHALLUSION 的整体流程分为四个部分：</p>
-<p>1. <strong>场景生成</strong>：AUTOHALLUSION 使用合成或真实世界图像作为场景图。例如，在办公室场景中，假设场景中有电脑、办公桌、办公椅等与办公室主题一致的物体，而不会有炒锅等与主题无关的物体。图像可以通过 DALL-E 等图像生成模型根据提示生成，也可以从 MSCOCO 等公开数据集中提取场景。</p>
-<p>2. <strong>图像处理</strong>：AUTOHALLUSION 采用三种策略操控场景中的物体构成，以创建与语言先验相冲突的图像：</p>
-<p><strong>插入异常物体</strong>：将与场景主题不相关的异常物体添加到场景中，例如，在办公室场景中添加通常不会出现的炒锅。</p>
-<p><strong>插入成对物体</strong>：对通常一起出现的两个物体进行分离，保留一个并移除另一个。例如，牙刷和牙膏通常一起出现，而在修改后的图像中，只保留牙刷并移除牙膏。</p>
-<p><strong>移除相关物体</strong>：从原场景中移除一个相关物体，例如，在办公室场景中抹除显示器。</p>
-<p>3. <strong>构造问题</strong>：AUTOHALLUSION 针对图像处理过程中插入或删除的物体进行提问，并相应地构造事实信息。问题主要分为两类：</p>
-<p><strong>存在性问题</strong>：询问目标物体是否存在于图像中，问题提示信息的细节级别不一，从不提供额外信息到提供完整的图像描述。</p>
-<p><strong>空间关系问题</strong>：询问目标物体与场景中其他物体的相对位置，并在问题提示中提供场景物体的名称或描述。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,559" src="https://img.36krcdn.com/hsossms/20241111/v2_5f0fbc9e5f94417f845347a25ee2aeeb@46958_oswg459007oswg1080oswg559_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>4. <strong>幻觉检测</strong>：AUTOHALLUSION 通过对比大模型的回答与事实信息或其他回答，来判断其回答中是否存在幻觉。目前，AUTOHALLUSION 能够检测以下两种类型的大模型幻觉：</p>
-<p><strong>正确性</strong>：大模型的回答与基本事实不一致。</p>
-<p><strong>一致性</strong>：大模型在面对包括不同级别的补充信息的问题时，无法给出一致的答案，或者在针对某一特定物体的提问中，未能提供与图像描述一致的答案。</p>
-<h2><strong>实验结果</strong></h2>
-<p>下表展示了通过 AutoHallusion 生成的大模型幻觉案例的成功率，结果显示出以下几个主要发现：</p>
-<p><strong>插入物体的幻觉生成策略</strong>比删除物体的策略更有效。</p>
-<p>基于<strong>物体存在性</strong>构建的问题比基于<strong>物体空间关系</strong>的问题更容易引发幻觉。</p>
-<p><strong>GPT-4V</strong> 在防止大模型幻觉方面表现最好。</p>
-<p>针对<strong>真实世界数据集</strong>构建的幻觉案例成功率高于合成数据集。本文认为，这可能是由于大模型难以处理真实世界图像中物体语义关系的复杂性所致。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,460" src="https://img.36krcdn.com/hsossms/20241111/v2_3ac5df16a6524eefa3ed69497a0534ae@46958_oswg341859oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>下图展示了针对物体 - 场景对齐关系的消融实验结果。在该实验中，本文采用不同的大模型来生成用于图像编辑的物体，并在视觉问答（VQA）任务中进行评估。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,465" src="https://img.36krcdn.com/hsossms/20241111/v2_df88deaf0afd4c32a18c2a41ffa0bac3@46958_oswg163204oswg1080oswg465_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>基准数据集指标</strong></h3>
-<p>本文从以下三个方面评估了通过 AutoHallusion 生成的基准数据集：</p>
-<p><strong>多样性</strong>：衡量数据集中不同场景和对象的数量，包括 200 个（合成）/160 个（真实世界）样本。</p>
-<p><strong>图像质量</strong>：通过原始图像和编辑图像的 IS（Inception Score）分数，以及原始图像与编辑图像之间的 Frechet Inception Distance (FID) 距离来评估。</p>
-<p><strong>有效性</strong>：通过每个样本中引发幻觉的平均问题数量来衡量。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,308" src="https://img.36krcdn.com/hsossms/20241111/v2_8e250b025fe14cd3abe1ccf4f135e8cc@46958_oswg52741oswg1080oswg308_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>下表展示了 GPT-4V、Gemini、Claude 和 LLaVA 等大模型在通过 AutoHallusion 生成的基准数据集上的表现。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,327" src="https://img.36krcdn.com/hsossms/20241111/v2_ed1bfd08a2e1451a80ecadbcf98b98ad@46958_oswg183552oswg1080oswg327_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>本文的共同第一作者是马里兰大学电子计算机工程系的博士生吴曦旸（https://wuxiyang1996.github.io/）和计算机科学系的关天瑞（https://tianruiguan.phd/）。吴曦旸的研究方向主要涵盖强化学习、自动驾驶，以及大语言模型在机器人导航和计算机视觉中的应用。关天瑞的研究则聚焦于计算机视觉和视觉语言模型在机器人、自动驾驶等领域的应用。本文的指导老师为李典奇，周天翼教授 （https://tianyizhou.github.io/）和 Dinesh Manocha 教授 (https://www.cs.umd.edu/people/dmanocha)。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/4hN5RjMP2sCMAqnimyIS_A" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031698718074121</guid><pubDate>Mon, 11 Nov 2024 17:09:00 +0800</pubDate></item><item><title>中国人吃的食品添加剂，真比欧美日本更多、更狠？</title><link>https://36kr.com/p/3031497095996928</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>前几天，桃李面包发布公告： </p>
-<p>“桃李新生产的所有产品都将不再添加脱氢乙酸钠。” </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_6a7be257071b41348d404d05024cfc65@000000_oswg447630oswg681oswg553_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>好像是行业的共同意愿。 </p>
-<p>同一天，三只松鼠、良品铺子、盐津铺子、达利园、盼盼等品牌均有发声，称产品配料正在更替中。 </p>
-<p>其实，早在今年2月，国家卫健委发布新版国标GB 2760-2024，重新规定了脱氢乙酸钠的使用要求。 </p>
-<p>8个月后，终于慢慢落地。 </p>
-<p>而作为消费者，我们还有更多期待。</p>
-<h2><strong>人人喊打的民生产业</strong></h2>
-<p>中国人对食品添加剂，打心底有顾虑，甚至是恐惧。 </p>
-<p>在上世纪八十年代，全中国所有添加剂加起来只有几十种。 </p>
-<p>而随着经济快速发展，目前中国已经有2400多种食品添加剂。 </p>
-<p>根据中商产业研究院发布的《2024-2029年中国食品添加剂市场深度调查及投资风险研究报告》显示，2019-2023年，中国食品添加剂的主要品种总产量，从1269万吨增长到1611万吨，年均复合增长率为6.15%。 </p>
-<p>而食品添加剂的市场规模，在2021年就已经达到1399亿元。 </p>
-<p>这是一个相当大的数字。根据德勤中国发布的《中国宠物食品行业白皮书》数据，预计到2026年，中国宠物食品的市场规模，也只有1140亿元。 </p>
-<p>相比之下，食品添加剂产业历史悠久，早已经是普通人日常生活的一部分。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_3ad7a75256cc41b189d41c454b341580@000000_oswg84576oswg750oswg563_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">某调料店一角，排骨增香粉25元/罐，猪骨高汤30元/罐 </p>
-<p>但它的安全属性却仿佛一个玄学：不断被讨论，却难以被解决。 </p>
-<p>比如防腐剂，虽有一定毒性，却也肩负着防止食物腐坏的重任，究竟安全不安全，还得看剂量。 </p>
-<p>开头提到的“脱氢乙酸钠”，就属于这一类。 </p>
-<p>早先，像面包、糕点、烘烤食品、腌渍菜等十二种食品，都有脱氢乙酸钠。 </p>
-<p>只要不长期吃，它的危害并不大。 </p>
-<p>但如果反复食用，就容易形成肝肾损伤，甚至危及中枢神经。 </p>
-<p>如果是996、007的打工人，自然就可能越来越“神经”。 </p>
-<p>如果说防腐剂还有很多优点，算是亦正亦邪，那么，调味剂就大多属于妖媚惑主的一类。 </p>
-<p>其中代表，包括但不限于：代糖、肉食保水剂，面粉改良剂等等。 </p>
-<p>因为主打提升口味，且很多都是剂量与口感成正比，很多商家都会超标使用。 </p>
-<p>比如，我们日常在熟食店买的酱肉，一个酱肘可以炖几个小时不脱形，靠的就是著名的肉食保水剂，磷酸盐。 </p>
-<p>好吃、方便。 </p>
-<p>但也可能让人骨头变松，血管变硬。 </p>
-<p>食品添加剂的产业上，最大的潜规则就是保密。 </p>
-<p>只要保密，商家就能用极低的成本，哪怕影响了食客们的健康，也还能掏空他们的钱包。 </p>
-<p>而添加剂的使用，往往能帮食品商家将价格降到更低，吸引到更多消费者。 </p>
-<p>一个蛋挞一元钱。 </p>
-<p>街边点心，买一斤送半斤。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_3d399de99e334abb83043b3063a54ae8@000000_oswg63472oswg788oswg531_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>越是爱在吃上占便宜的人，就越容易掉入这个精密策划的陷阱。 </p>
-<p>无论是商家，还是消费者，都被拿捏得准准的，狠狠的。 </p>
-<h2><strong>罪恶之源</strong></h2>
-<p>人造产品的过剩，总是源于天然物质的紧缺。 </p>
-<p>在德国工业革命后的十九世纪末二十世纪初，德国工人们每天的主食是口感粗糙的裸麦面包。 </p>
-<p>所以当时德国就制造出大量的人工食品，以提升天然食品口味，让餐桌看起来丰富一些。 </p>
-<p>比如人造黄油、代糖、代咖啡。 </p>
-<p>黄油是牛脂肪混合牛乳头肉做的，代咖啡也跟咖啡豆没有一点关系。 </p>
-<p>糖精更是从煤焦油中提取，毫无营养可言。 </p>
-<p>但这却让工人们觉得自己“仍有生活”，在流水线上继续安分工作。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_932467b5cae54d8a812485fdf84eb291@000000_oswg16217oswg411oswg307_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">1918年，一个普通德国家庭一天的食物 </p>
-<p>所有人造食品中，最有影响力的就是糖精，被德国的工厂垄断生产了约20年。 </p>
-<p>随后，虽然在美国以及欧洲的德、法等国，都有很多糖精、人造黄油的生产企业。 </p>
-<p>但几乎没人能像孟山都一样，刚成立就收获了极大的经济效益。 </p>
-<p>孟山都成立于1901年，正好就是在食品短缺，人造食品需求量巨大的时代。 </p>
-<p>而它之所以能“成功”，还要感谢命运帮他先后进入了两个资源极度优越的利益链条。 </p>
-<p>第一个利益链条，主角是当时世界顶尖的跨国巨头，可口可乐。 </p>
-<p>二十世纪初，可口可乐公司一年的含税收入已接近100万美元，一年的广告预算就有10万美元。 </p>
-<p>而当时它原料中的糖精、香草、咖啡因，就是孟山都提供。 </p>
-<p>为了将成本压到最低，孟山都的咖啡因，有很大一部分是从废弃茶叶渣中提取。 </p>
-<p>而可口可乐公司则将工厂建在了美墨边境，把可乐以低于饮用水的价格卖给墨西哥人。 </p>
-<p>现在，每四个墨西哥人里就可能有一个是糖尿病患者。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_624ed1774caa4d8eab0b19611b022066@000000_oswg55898oswg759oswg520_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">墨西哥，圣克里斯托瓦尔市附近的Tenejapa镇，以消费可乐而闻名 </p>
-<p>作为一家化工企业，孟山都不仅生产食品添加剂，也生产工业原料。 </p>
-<p>所以它很快就进入了另一条更有实力的利益链条，其中主角是美国军方。 </p>
-<p>1961年越战期间，美国曾用飞机向越南战场喷洒2.1万加仑含有剧毒物质“二噁英”的除草剂“橙剂”，导致越南14%的国土寸草不生，污染持续了几十年。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_00a6a824552e4b18bdadbc5b530994c1@000000_oswg78606oswg834oswg547_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">为打败善于丛林作战的越军，美军动用直升机喷洒剧毒橙剂，让整片树林枯死 </p>
-<p>向美国军方提供橙剂的，就是孟山都。 </p>
-<p>化工企业沦为战争武器，结局本该是灰暗的。 </p>
-<p>然而截止到2018年，孟山都在被德国拜耳收购之前，仍有相当高的地位： </p>
-<p>2006年，《美国产业工会联合会》杂志授予孟山都“2006 CIO 100强”称号；</p>
-<p>2007年，《Wired》杂志评选孟山都为全球最具创新力的公司之一；</p>
-<p>2014年《财富Fortune》杂志评选为“全球最受钦佩企业”榜单第二名；</p>
-<p>2014年《科学SCIENCE》杂志评选为2014最佳雇主，位居第6名。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_d5443e934de340efb878ec6851231d3b@000000_oswg77152oswg821oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>也正因如此，无数类似的企业会去模仿他们。 </p>
-<p>而到现在，添加剂早已成为人类食品工业中不可或缺的一部分。 </p>
-<h2><strong>产业本身的短板</strong></h2>
-<p>相比于欧美发达国家，中国的食品添加剂产业发展相对较晚。 </p>
-<p>但从监管端来看，中国对食品添加剂的态度，却更加严格和克制。 </p>
-<p>对于一般的欧洲国家来说，包装食品中的添加剂只需要标注大类。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_ed6dbd73b5b64434b9c44814b1f7ca0b@000000_oswg78569oswg657oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">法国食品的“Nutri-score”标识，A最健康，E最差 </p>
-<p>美国包装食品的配料表中，可以省略安全添加剂和营养型添加剂。 </p>
-<p>但中国《中华人民共和国食品安全法》明确规定，所有预包装的食品，配料表一定要写全所有配料。 </p>
-<p>只要是单独添加并起作用的添加剂，就一个也不能少。 </p>
-<p>但现实的例子是，有很多海归父母，在国内超市不敢给孩子买零食。 </p>
-<p>却不得不咽下欧洲朋友晚餐桌上含有硼砂的鱼子酱。 </p>
-<p>硼砂是一种只要3克就能杀死婴儿的有毒物质，在中国作为添加剂使用是违法的。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_f8e18922caa24d419e3f671636f540fb@000000_oswg334741oswg763oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">电影《门 徒》中，刘德华饰演的毒枭林昆，为全家每人点了一罐“按克收费”的鱼子酱，正在品尝 </p>
-<p>各国间能用不同的标准，体现出添加剂产业的一个特点：生产、使用、消费，角色不统一，信息相对闭塞。 </p>
-<p>这为监管制造了困难，风险易向下游消费者集中。 </p>
-<p>比如，在地下小吃街和大排档，使用复合腌肉料来腌制烧烤肉，已经是基本操作。 </p>
-<p>一公斤含有“肉弹素+羊肉精+猪肉精+乙基麦芽+亚硝酸盐”的腌肉料，能腌100公斤肉。 </p>
-<p>如果加入“碳味”添加剂，还能模仿出碳烤的味道。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_f607fa9f5f7d4d568049bd06f6d03567@000000_oswg55505oswg811oswg541_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>可怕的是，这其中每一种单独的添加剂都是合法且安全的。 </p>
-<p>但肉弹素的主要成分，就是前面提到的磷酸盐。 </p>
-<p>羊肉精也有致癌风险。 </p>
-<p>放到一起，威力翻倍。 </p>
-<p>消费者即使知道，也没得选。 </p>
-<p>因为不加这些调料的肉，不仅不那么好吃，还可能会腐坏。 </p>
-<p>在这背后，是更深层的结构性问题。 </p>
-<p>从技术角度讲，食品添加剂是一个极其专业的领域。 </p>
-<p>然而到目前为止，食品添加剂这门学科都没有在大学里建立独立专业，只能作为课程，附属于食品科学、食品化工等相关专业中。 </p>
-<p>不仅中国如此，美国、日本的大学中，也都没有独立的食品添加剂专业。 </p>
-<p>可是到了产业一线，食品添加剂的生产和使用，却需要生化、制造、监管等专业和技术的支撑。 </p>
-<p>从业人员只能带着残缺的技术到岗位上学习，而学到的是只适用于本企业的能力。 </p>
-<p>当教育起不到引领和指导作用，产业上隐患就多。 </p>
-<p>加之消费者对添加剂的使用终究没有决定权，恐惧难以消除。 </p>
-<p>舆论场就容易变得缺乏正能量。 </p>
-<h2><strong>解决之道?</strong></h2>
-<p>多年前，就曾有人提出：“中国人饮食不比健康，就比谁命大。” </p>
-<p>悲观论调背后，有着很深的误解。 </p>
-<p>那就是中国的食品安全问题，远比西方国家更大。 </p>
-<p>但实际上，无论是美国、欧洲还是日本，使用的添加剂都比中国多。 </p>
-<p>他们的食品安全问题也一点都不少。 </p>
-<p>比如近20年来，日本食品安全事件最少的2021年，全国仍有717起食物中毒，学校和养老院也不例外。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_6993d7c19a8c4b17a1c529e02a530620@000000_oswg66384oswg686oswg386_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而中国已经禁止使用的瘦肉精，至今仍在美国养殖业中被合法添加。 </p>
-<p>所以我们没必要向别国讨教。 </p>
-<p>反倒是更该从自己的产业源头想办法。 </p>
-<p>比如，鼓励更多企业，生产天然、健康的食品添加剂。 </p>
-<p>另一个办法，就是在行业中卷出有引领作用的头部大哥。 </p>
-<p>数据显示，到2022年，中国近百家生产柠檬酸的企业中，产能超过万吨级的，只有不到20家。 </p>
-<p>而香料香精的生产企业有近700家，但销售收入超亿元的也只有20余家。 </p>
-<p>大家都在埋头苦干，一些企业还将自己的产品出口到了发达国家。 </p>
-<p>但这些头部企业对同行的影响力不强，也几乎从不站在社交媒体上发声。不骄傲，不表态，不愤怒，就在食品工业和餐饮业的背后默默运作。 </p>
-<p>在复杂的舆论环境下，添加剂企业保持低调当然无可厚非。 </p>
-<p>然而没有舆论引领，腰腿部选手连给大佬点赞的机会都没有。 </p>
-<p>小微型企业及商贩，就更容易被经济利益牵着鼻子走。 </p>
-<p>可是换一种思路，如果有人能站出来主动交流，给企业一些指引，也帮消费者做一做“嘴替”。至少能帮大众识别友军，避免拔刀。 </p>
-<p>也让下一次的升级，变得更加可期。 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&amp;mid=2654895074&amp;idx=1&amp;sn=1a84fed7cb4e2b209ccd66377168512f&amp;chksm=bc90caef60a2e978c8e11f51e1c36e3b523bca9f77f078211b35cdc8560c11fa024b70084966&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“正解局”（ID：zhengjieclub）</a>，作者：正解局，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031497095996928</guid><pubDate>Mon, 11 Nov 2024 17:17:00 +0800</pubDate></item><item><title>小杨哥海外再造小杨哥？</title><link>https://36kr.com/p/3031731601106180</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>停播65天的疯狂小杨哥，仍未显现出丝毫回归直播间的迹象。</strong></p>
-<p>近日，疯狂小杨哥、疯狂大杨哥、三只羊网络以及旗下多位主播的抖音橱窗突然被清空。不久前，三只羊网络也否认了“小杨哥深夜复播”一事，并且回应称，目前没有接到主播排班情况的具体通知。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_f0517396775d454a9c31dfd5082e57b4@000000_oswg308336oswg831oswg594_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过，小杨哥并没有真的闲下来。<strong>相较于国内直播间的静悄悄，小杨哥正在加速海外拓展的步伐。</strong></p>
-<p>近日，在第三方招聘软件上，小杨哥背后的三只羊厦门分公司正在招募TikTok东南亚小店运营。招聘信息显示，月薪5000-8000元。字母榜（ID：wujicaijing）尝试和负责招聘的相关人员沟通，对方表示，<strong>这份工作是面向东南亚市场，但是在国内工作，主要负责运营TikTok小店，</strong>负责与达人进行建联，进行短视频和直播带货，投流以及数据监控等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_255375b120904797924fc06e1516879a@000000_oswg266292oswg831oswg1041_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>与此同时，三只羊网络出海的抖音账号“TikTok事业部（三只羊）”也在近日接连发布多条招募信息，招募短视频带货剪辑师，向这些剪辑师免费开放TikTok直播回放的授权，即切片带货，并且予以橱窗扶持和投流扶持。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_5293b0b179bd4467aa64548f3c554c4d@000000_oswg454891oswg641oswg1028_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：TikTok事业部（三只羊） </p>
-<p>截至目前，三只羊网络已经在新加坡、马来西亚、越南、泰国合作超20位主播。依托这些主播，<strong>三只羊网络正在试图将直播切片模式，复制到海外，并成为拓宽海外业务的一大利器，而切片带货一度是小杨哥在国内崛起为头部主播的一大助力。</strong></p>
-<p><strong>在小杨哥开拓海外业务之际，一批新晋主播正在试图瓜分因小杨哥缺席抖音所带来的流量红利。</strong></p>
-<p>字母榜此前在《瓜分小杨哥》中分析道，小杨哥背后1.2亿粉丝所构建的消费能力和关注度，正被一大批网红所瓜分，就连原本属于小杨哥的切片市场也正在被瓜分。更有媒体报道称，杭州三只羊旗下的一家子公司的部分员工已跳槽至杭州良匠传媒，负责抖音热门主播“听泉赏宝”的直播招商业务；在一些二手电商平台，还流传出三只羊变卖设备的消息。</p>
-<p>相比国内复出的困难重重，<strong>海外再造一个小杨哥，或许是小杨哥和其背后三只羊集团不得不冒险探索的一条必由之路。</strong></p>
-<p><strong>A</strong></p>
-<p>“成立全球总部，到TikTok上卖货赚老外的钱。”早在去年4月份，小杨哥就在直播间宣布：未来出海做TikTok电商。</p>
-<p>不到一年时间，小杨哥的全球化布局开始相继落地，完成了出海团队的人员组建和海外MCN机构“Three Sheep Network”创建，半年时间积累200万粉丝。</p>
-<p>有了粉丝基础后，小杨哥将出海的首站选在了新加坡。</p>
-<p>今年1月10日，三只羊网络与新加坡本地达人@shopwithsasax进行首场合作直播，创下了TikTok电商板块在新加坡地区的新纪录，一举登上新加坡本地榜第一。当时合作的新加坡达人“shopwithsasax”，在TikTok上有2.07万粉丝，最早在2023年10月就开始在直播间推荐小杨哥直播间产品，带上#小杨哥#和#小杨臻选#的话题进行宣传。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2ff48c689a9840059c4b42288dce1530@000000_oswg705542oswg541oswg922_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：TikTok事业部（三只羊） </p>
-<p>之后，三只羊网络又陆续开启了马来西亚、泰国、越南的出海直播。<strong>除了押注东南亚市场，三只羊甚至将目标拓展到美国市场。</strong>今年7月，三只羊集团创始人卢文庆在直播中透露，“美国的公司计划在9月份左右能开好，海外的高管已经在美国洛杉矶待了将近20多天，这次去也是跟着官方一起出海。”</p>
-<p>小杨哥出海的速度之快，<strong>在一众宣布出海的大主播中无出其右，而这背后依靠的也是三只羊网络擅长的切片带货模式。</strong></p>
-<p>切片带货，正是小杨哥能快速在国内抖音平台崛起的主要原因，借助切片带货模式，疯狂小杨哥的IP影响力急速扩大。小杨哥曾发视频称，自己每周虽然只直播一场，但通过切片账号每日浏览量能有三四亿。根据三只羊官方披露数据，2022年共有11000多人获得三只羊网络的切片授权。</p>
-<p><strong>现在，加码出海的小杨哥，再次将“切片带货”视为打开海外市场的一大利器，从宣布进军TikTok，到正式和海外红人合作带货，小杨哥用了不到一年时间，完成了粉丝从0到200万的搭建。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_e5b9e90ac8904c55bdddae08554b4755@000000_oswg247409oswg554oswg1050_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：FastMoss </p>
-<p>一直到今年1月份的首场带货，小杨哥在TikTok的账户名为“疯狂杨92”，已经有27.3万粉丝，小杨哥的话题有1080万的播放次数；小杨哥的徒弟们的相关切片视频播放量也非常高，譬如徒弟小黄的视频播放量达到170万，徒弟卓仕琳相关视频切片播放量达到了50万。</p>
-<p>中国数实融合50人论坛智库专家洪勇在分析小杨哥出海时表示，对于小杨哥而言，海外直播带货的优势在于能够触及更广泛的市场，尤其是东南亚地区，这些市场对中国的商品有着较高的需求。此外，通过与当地红人合作，可以快速建立信任感和粉丝基础，减少文化差异带来的障碍。</p>
-<h2><strong>B</strong></h2>
-<p><strong>但是，制造一个“海外小杨哥”并非易事。</strong>某跨境服务商表示，虽然小杨哥的切片模式给他们带来了流量，但是流量并不等于直接的商业变现。</p>
-<p>今年1月，三只羊网络和新加坡达人的那场直播合作，虽然登上新加坡本地榜第一，但实际上，这个数据的体量或许并不大。专注研究出海的“TK观察”曾对这场带货分析称，新加坡这场带货换算成人民币，最多就是几十万元。</p>
-<p>TikTok数据分析平台FastMoss也显示，三只羊小店已经开到了印尼，数据显示，小店在售商品19件，历史总销售额为1241.99万印度尼西亚盾，约合人民币为5700元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2a34a5e58fdf46a391699672926eaa8f@000000_oswg260124oswg810oswg936_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：FastMoss </p>
-<p>今年7月份，三只羊网络和越南主播合作的一场直播，是为某国货品牌做的专场直播，首播的商品交易总额为287483370越南盾，约合人民币8.2万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_7ff7f8f34377414d832eaf812b10d413@000000_oswg1077004oswg831oswg1174_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：TikTok事业部（三只羊） </p>
-<p><strong>这不仅和三只羊在抖音的带货数据相差甚远，与越南当地的头部主播差距也比较大。</strong>今年6月，越南诞生一位带货一姐——武河玲（Võ Hà Linh），创造了4小时单场直播带货超3300万人民币的销售额。</p>
-<p><strong>虽然出海困难重重，但是对于停播已超2个月的小杨哥来说，海外已经从一道选择题，变成了一道必选题。</strong></p>
-<p>在监管层面，小杨哥面临较为严苛的环境。9月26日，合肥市联合调查组发布通报，对三只羊公司没收违法所得、罚款共计6894.91万元；并要求其暂停经营限期整改，承担相关法律责任。抖音也发布了对三只羊的处罚，进行停播处理，后续将进一步敦促三只羊积极整改。</p>
-<p>在舆论层面，小杨哥的复出也较为艰难。自小杨哥停播65天以来，时不时就传出小杨哥复播的消息，而舆论对此的态度大多是拒绝。近日，美邦老板周成建谈到小杨哥想复播的时候称，这种现象应该遏制。此番言论在互联网平台被大多数人支持赞同。</p>
-<p><strong>小杨哥的粉丝还在流失，自9月以来，小杨哥粉丝从最高点的1.23亿跌去了900万。</strong></p>
-<p>对于小杨哥来说，面临的严峻形势还有一部分或将来自平台。字母榜此前曾在《抖音不再陪小杨哥“疯狂”》中分析道，小杨哥不是辛巴，抖音不是快手，对于当时的快手来说，辛巴以及背后的辛选对快手电商至关重要，但是小杨哥对抖音的电商占比却没那么重要。<strong>若要重新再来，小杨哥和平台的关系或许也将被重塑。</strong></p>
-<p>小杨哥被整改的严重程度类比于当年辛巴的糖水燕窝，据媒体当时报道，有快手内部人士透露，当时快手的创始人兼CEO宿华亲自表示，要永久封杀辛巴。尽管抖音没有传出此类消息，但是抖音对小杨哥的态度或许也将发生改变。</p>
-<p>一方面，抖音对大主播的要求正在发生改变，已经不仅仅是追求GMV，更是追求优质内容，以实现主播生态和内容的良好循环，如扶持董宇辉；另一方面，抖音在扶持店播和货架电商。今年9月，抖音电商总裁魏雯雯表示，过去一年，抖音电商GMV同比提升46%，货架场景GMV同比提升86%。</p>
-<h2><strong>C</strong></h2>
-<p>出海难，难住的不只是小杨哥一人。<strong>目前，还没有一位超头主播能够成功在海外复制出下一个自己。</strong></p>
-<p>一位直播行业人士分析，当前大主播出海更多是一个防御性动作，相较于国内市场，他们并没有将太多精力放在国外市场；海外的直播生态体系尚未成熟、文化差异带来的挑战、本土化运营和品牌化建设的缺失等，以及大主播不亲自出镜直播，也是他们出海声量不大的原因之一。</p>
-<p><strong>联合海外达人直播带货，是大多数超级主播选择出海的方式，显然是寄希望于从海外主播中再造出一个头部主播。</strong>但是从东南亚地区的文化环境和主播的角度来看，海外的主播未必能和国内主播一样推崇狼性文化。从李佳琦、薇娅、小杨哥、辛巴等超级主播的崛起来看，主播个人的努力和拼搏是至关重要的。</p>
-<p>显然“狼性文化”是成为一个超级主播的必经之路，在东南亚地区也同样适用。上述越南带货一姐背后的MCN机构负责人对外表示，要想成为头部的带货主播，最重要的是主播个人要非常努力。武河玲是一个非常拼命的网红，全年无休地拼搏努力，才能在团队支持下，在短短两年内迅速成长为越南带货冠军。</p>
-<p><strong>但是东南亚地区的文化环境，并不提倡狼性文化。</strong></p>
-<p>一篇研究TikTok在东南亚发展的学术论文——《TikTok Shop在东南亚五国的发展策略研究———基于 SWOT- AHP 模型的分析》中曾指出，中国的劳工制度并不完全适用于东南亚员工，狼性文化的工作体系容易造成员工的抵触情绪。</p>
-<p>这一点也和很多媒体报道的东南亚劳工环境相符合。“蓝鲨消费 ”曾在采访墨腾创投创始人兼CEO李江玕时，对方表示，许多出海东南亚的企业负责人经常抱怨的问题之一就是，东南亚员工不好管、没有狼性。“镜像工作室”也通过采访多位在泰国创业的中国人得知，泰国员工不像中国人那么拼，国内的狼性文化引过来，是绝对不可能成功的。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2db0d581f8ad4501a12f5c91d15ee5cf@000000_oswg65577oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>大主播难诞生，背后也跟东南亚地区的电商基本盘有关系。</strong>东南亚的电商潜力还没有被释放出来，交个朋友曾在今年8月的财报电话会上表示，目前海外直播的发展阶段类似于国内抖音在2019至2020年期间。</p>
-<p>尽管东南亚地区互联网普及率很高，2023年东南亚电商平台商品交易总额达到1146亿美元，但是和中国相比还是有明显的差距，2020年中国的网上零售总额就约合1.8万亿美元，到了2023年接近2.2万亿美元。</p>
-<p>而这其中，被出海主播们青睐的TikTok，在东南亚市场的份额还处于相对弱势地位。据新加坡研究机构Momentum Works数据，2023年东南亚地区的电商平台中，Shopee份额为48%，Lazada占比16.4%；而TikTok和Tokopedia各占14.2%。也就是说，2023年，TikTok在东南亚地区的商品交易总额约合163亿美元。</p>
-<p><strong>超头主播的诞生，往往伴随着电商平台的崛起，并借助后者庞大的流量浇灌而一举成名：</strong>当淘宝直播还是第一大电商平台时，早期的薇娅和李佳琦诞生于此；后来快手和抖音迅速崛起，诞生了辛巴、罗永浩、东方甄选、疯狂小杨哥、董宇辉等。</p>
-<p><strong>想要在海外再造一个小杨哥，或许也需要等待TikTok们长成国内抖音的模样。</strong></p>
-<p><strong>参考资料：</strong></p>
-<p><strong>《中国创业者“下南洋”：没有降维打击》蓝鲨消费</strong></p>
-<p><strong>《泰国免签背后：中国创业者在泰，“狼性文化在这里没戏”》镜相工作室</strong></p>
-<p><strong>《越南带货一姐，单场直播卖了3300万元》墨腾创投</strong></p>
-<p><strong>《俞敏洪月薪4w招人做TikTok，小杨哥创造了新加坡直播记录，为何大佬2024年布局出奇的一致？》TK观察</strong></p>
-<p><strong>《TikTok Shop在东南亚五国的发展策略研究———基于 SWOT- AHP 模型的分析》哈尔滨商业大学，陈德慧，崔瑞</strong></p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247539706&amp;idx=1&amp;sn=37e4cf6a8762e8a88aa8d3d69dd62510&amp;chksm=ebce8d623f88f626f07e799bba5405002b28f68950b51223425110a15c178cdb850685dc017e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“字母榜”（ID：wujicaijing）</a>，作者：薛亚萍，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031731601106180</guid><pubDate>Mon, 11 Nov 2024 17:21:00 +0800</pubDate></item><item><title>38岁，他干出一个深圳独角兽</title><link>https://36kr.com/p/3031656998675720</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>一笔超级融资映入眼帘。</p>
-<p>近日，深圳元戎启行科技有限公司（下称“元戎启行”）宣布完成1亿美元C1轮战略融资，由国内头部主机厂独家投资。投资界从知情人获悉，该主机厂正是长城汽车，且1亿美元已到账。</p>
-<p>而公司身后的掌舵者是一名85后博士——周光。他本科毕业于清华大学，后赴美留学攻读博士，职业生涯始于自动驾驶行业。2019年，周光回到深圳创业，一手创立元戎启行，至今累计融资超5亿美元。</p>
-<p>透过元戎启行，我们不仅看到风起云涌的自动驾驶江湖，也目睹深圳这座智能网联汽车产业之城的崛起。</p>
-<h2><strong>始于清华，85后博士创业，刚刚长城投了</strong></h2>
-<p>追溯起来，四川长大的周光从小就对机械电子产品感兴趣，几乎把家里的电器、玩具等都拆装了个遍。他从初中开始接触编程，还在高一的时候就参加全国第三届青少年电脑机器人大赛，尽管当时连指导老师都没有，最后却获得了金牌。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_c64f9dc421f74cb2a2f0c2756f88b2c0@000000_oswg251016oswg940oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>读本科时，周光进入了清华大学“基础科学班”，痴迷数学和物理。他曾表示，机器学习的很多逻辑都与数学密不可分。此后，周光又远赴美国求学，在德克萨斯大学达拉斯分校攻读人工智能博士，同时在德州仪器Kilby实验室主导自动驾驶机器人项目。2016年毕业后，他加入百度研究院自动驾驶事业部工作，从此与自动驾驶结下不解之缘。</p>
-<p>2019年，周光决定回国创业。谈及创业初衷，他认为中国的机会在于物理AI的数据获取，只有拥有机器人和设备才能产生数据，进而形成超级智能，“希望回国创业可以将自己的AI技术背景与国内的产业链优势相结合，从而推动达成物理世界的通用人工智能。”</p>
-<p>很快，元戎启行在深圳市正式成立，公司名称出自诗经，意为“大军出发”。</p>
-<p>早在2020年，元戎启行就开始布局“无图”方案；时隔两年，旗下DeepRoute-Driver 3.0智能驾驶解决方案正式发布，不再依赖高精度地图，没有使用区域限制；今年4月，元戎启行又推出基于端到端模型的智驾平台DeepRoute IO，在此基础上，元戎启行正基于英伟达Thor芯片研发VLA（视觉-语言-动作）模型。</p>
-<p>在近日的媒体沟通会上，周光回忆，在和第一个客户接触时，客户不相信是真无图方案。于是元戎启行就做了“板车实验”，即客户随意指定地点，板车拉着测试车过去，然后测试车就地开跑。最后，经过在县城、小巷子、内部道路的测试，元戎启行获得了客户认可。</p>
-<p>官方资料显示，元戎启行团队目前超800人，方案已量产落地近2万台车，正与多家车企共同推进十余款车型的量产合作，包括长城新蓝山车型和10月底上市的Smart精灵5号。与此同时，元戎启行正在探索新的商业化路线——基于端到端模型，用量产车实现Robotaxi规模化运营。</p>
-<p>谈及IPO规划，周光表示无论融资还是IPO，都是为了实现长期目标的一个过程，“如果这个过程是必须的，对公司是有益的，我们就会去做。”接下来，或许可以期待深圳下一个自动驾驶IPO诞生。</p>
-<h2><strong>崛起于深圳，VC/PE云集，一度濒临发不出工资</strong></h2>
-<p>元戎启行背后的融资故事颇为精彩。</p>
-<p>时间回到成立当年，元戎启行先是获得天使轮融资，由复星锐正、云启资本、松禾资本、耀途资本、七熹投资、贵邦资本投资；紧接着又完成近5000万美元Pre-A轮融资，由复星锐正领投，云启资本、VentechChina等机构跟投。</p>
-<p>谈及当年融资，复星锐正资本董事长金华龙曾表示，复星锐正从2016年开始关注自动驾驶系统技术及核心零部件产业链，坚定看好自动驾驶及智联网联汽车行业发展趋势。“无人驾驶是国家现在重点扶持的产业，具备巨大的市场空间。</p>
-<p>一年之后，元戎启行完成A轮融资，由东方富海、复星锐正和云启资本投资。但很快资本寒冬袭来，自动驾驶行业走入低谷，不少创业公司遭遇现金流困境，元戎启行也不例外。在《每日人物》的采访中，周光曾透露，到2020年初“发完那个月的工资就没钱了。”</p>
-<p>在那段时间里，他密集地见投资机构。直至2021年9月，元戎启行宣布完成3亿美元B轮融资，由阿里巴巴领投，时代资本、复星锐正、云启资本、耀途资本跟投。值得一提的是，元戎启行此轮投后估值超10亿美元，正式跻身独角兽行列。2022年，元戎启行又完成B+轮融资，但未向外界透露更多相关信息。</p>
-<p>回顾元戎启行的崛起历程，离不开深圳这座城市。周光曾坦言，深圳包容的环境和产业链支持，是他决定扎根于此的重要因素。在他看来，深圳地处大湾区拥有完整的汽车电子产业链，有技术及生产优势，同时集聚了更多海内外科技人才，能为公司的发展提供源源不断的活力。</p>
-<p>例如元戎启行与行业上下游携手打造“量产生态圈”，当中便有很多深圳企业，与深圳企业沟通有天然的地理优势，沟通效率很高，可以很快满足元戎的需求，相较于上海及类似城市的供应商，时间上最少缩短2天以上。</p>
-<p>此外，周光认为深圳的政策支持和良好的营商环境也为创业者提供了肥沃的土壤，尤其是在智能驾驶和人工智能领域。</p>
-<p>“深圳在营商环境建设和发展中，始终能够审慎地对待科创企业，为科创企业提供租金、补贴和税收优惠。当中，深圳市各级政府部门认真聆听我们的诉求，给予我们政策方面的支持，让我们免除后顾之忧，更好的投入到自动驾驶的技术研发之中。”</p>
-<h2><strong>为何是深圳？</strong></h2>
-<p>透过元戎启行，深圳智能网联汽车产业版图一一浮现。</p>
-<p>事实上，深圳是中国最早开始新能源汽车市场化推广的城市之一，早在2010年就出台了一系列新能源汽车支持政策，促进新能源汽车的推广应用，也为深圳集聚一大批新能源汽车整车、零部件和上下游配套企业。</p>
-<p>这里不仅有比亚迪，也坐拥华为、大疆、汇川技术、速腾聚创、佑驾创新、贝特瑞等一大批产业链上的优质企业。正是他们，让深圳一跃成为全球新能源汽车产业链最完整的城市。</p>
-<p>最新轰动一幕是在今年8月，华为旗下的引望公司连续获得来自阿维塔科技、赛力斯汽车投资，金额共计230亿元，以此计算估值高达1150亿元，一举成为深圳近年来最大的新晋独角兽。</p>
-<p>官方数据显示，2023年深圳智能网联汽车产业增加值达763亿元，同比增长38.2%，位列“20+8”产业集群首位。而以新能源汽车产量计，深圳2023年新能源汽车产量达173万台，首次登上新能源汽车产量全国第一的宝座。</p>
-<p>截至2024年5月，深圳已累计开放测试示范道路944公里，并向19家企业的349辆智能网联汽车发放了道路测试及示范应用通知书1037张。与2023年底相比，开放道路里程增长12.65%，牌照数量也增长了48.14%。而在今年7月公布的智能网联汽车车路云一体化应用试点城市名单，深圳也首批入选。</p>
-<p>不久前，深圳市智能网联汽车政府监管平台招标结果公告发布，根据招标内容，该项目不仅是国内首个落地的城市级车路云平台，也是首个涵盖智能网联汽车全链条、全周期管理的政府监管平台，有望在2025年底前建成投入使用。</p>
-<p>那么，产业腾飞的密码是什么？</p>
-<p>佑驾创新创始人刘国清曾在一次采访中表示，深圳有非常好的人力、供应链与产业资源，这对一家企业来说都至关重要。在刘国清看来，“这是一个想象空间很大的城市，这也是深圳的独特之处。深圳尊重创业、尊重人才，也拥有大量创业成功的案例。”</p>
-<p>具体而言，深圳依托电子信息产业基础，形成以比亚迪为链主的“三电”“三智”产业链条，以及充电桩等配套产业。目前深圳拥有2.4万家新能源和数字能源企业，以及比亚迪在坪山区和深汕合作区百万级的新能源汽车生产基地。</p>
-<p>这当中也少不了深圳的政策支持。2022年6月，深圳将智能网联汽车产业列入全市重点发展的“20+8”产业集群；同年8月，《深圳经济特区智能网联汽车管理条例》正式生效，首次对智能网联汽车准入登记、上路行驶、交通事故权责归属等事项作出具体规定；随后，深圳市八部门又联合发布《深圳市促进新能源汽车和智能网联汽车产业高质量发展的若干措施》。</p>
-<p>今年6月，深圳市投控基石新能源汽车产业基金顺利通过中国证券投资基金业协会备案，这是深圳市首支正式备案的“20+8”基金。该基金围绕以深圳地区企业及国内其他地区，可导入到深圳的新能源及智能网联汽车企业为主的全产业链进行投资。基金总规模50亿元，由深圳市引导基金投资有限公司、深汕引导基金等8家公司共同出资组建。</p>
-<p>产业更迭，激荡不已，背后不仅仅是一个个奋斗逆袭故事，也往往决定着一座城市的命运。此时此刻，我们正在见证无数这样的产业故事上演。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247666640&amp;idx=1&amp;sn=aacd1e0102dfaccf48b28b6f2686d584&amp;chksm=ed3e7282ba1d6cef82be75918d9c74b9499ba9a595642ac9b1f9f911793c29feb02a602db704&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：刘博，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031656998675720</guid><pubDate>Mon, 11 Nov 2024 17:24:00 +0800</pubDate></item><item><title>奥迪德国进行大规模裁员，路虎确认推出星脉电动SUV｜海外日报</title><link>https://36kr.com/p/3031777893148169</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 11 Nov 2024 18:30:27 +0800</lastBuildDate><pubDate>Mon, 11 Nov 2024 18:30:27 +0800</pubDate><item><title>奥迪德国进行大规模裁员，路虎确认推出星脉电动SUV｜海外日报</title><link>https://36kr.com/p/3031777893148169</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <h2><strong>「 Top 3 News 」</strong><br/> </h2>
 <h3><strong>特斯拉推出Cybertruck租赁服务，月租999美元起以刺激需求</strong></h3>
 <p><strong>要点：</strong></p>
@@ -743,4 +175,688 @@
 <p>即便缓慢，变化也的确在发生。 </p>
 <p>有些时刻，Marcus也能清晰感受到自己坚持下去的理由与意义。比如，有次在坐出租车的时候，司机得知他来自中国，热情地跟他说：“中国人好啊，你们在巴西投资了好多钱，你们卖得东西又好又便宜，在中国人来之前，巴西的物价更贵。” </p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3MDU1MDY1NQ==&amp;mid=2247583912&amp;idx=1&amp;sn=53dc40419ecd38710561a1d37c608aae&amp;chksm=cf2ecb321a364e6502f0ab0a7e3f951b1a30fe1d205683fa08433e271eb53006ee40d659efef&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“霞光社”（ID：Globalinsights）</a>，作者：李小天，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031712062825729</guid><pubDate>Mon, 11 Nov 2024 17:40:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031712062825729</guid><pubDate>Mon, 11 Nov 2024 17:40:00 +0800</pubDate></item><item><title>强制“兼容”苹果，国产安卓厂商要将iPhone墙脚挖空了</title><link>https://36kr.com/p/3031732042199944</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2024年9月，iOS 18正式发布。因在多个功能上与国内Android系统走得很近，大有“心有灵犀”的感觉，iOS 18也被不少人称作“抄袭安卓”。作为一个iPhone和三星双持用户，我对这种同质化设计的看法有些矛盾。一方面，我不希望两个不同的系统变成“双胞胎”——<strong>我买两款手机是为了体验两个不同的生态的，如果两款手机用起来完全一致，那跟一台手机有什么区别？</strong></p>
+<p>但另一方面，我也认为两个系统可以互取所长，比如三星的NFC门卡和应用分屏就非常值得iPhone学习，<strong>同时两个生态之间最好也有一些更深层次的互联互通，比如更好用的文件互传系统。</strong></p>
+<p><strong>有趣的是，国内Android手机品牌们也是这么想的。</strong></p>
+<p>在上个月末的小米新品发布会中，小米手机副总裁金凡提到，澎湃OS 2的核心组件小米HyperConnect已全面支持苹果设备，<strong>只要在苹果设备上安装小米互联服务，就能轻松在不同生态内互传文件。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="960,725" src="https://img.36krcdn.com/hsossms/20241111/v2_eb06029745d94e31b650a2ba4f8316c3@1547419282_oswg337400oswg960oswg725_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：小米</p>
+<p>在更早的2024 OPPO开发者大会上，OPPO也预告了一项“打破生态间隔”的功能：ColorOS 15将支持 iOS“一碰互传”。<strong>未来用户只要在iPhone上下载对应软件，就能直接和ColorOS 15手机跨系统、免流量发送文件。</strong></p>
+<p>但话又说回来，跨系统发送文件，真有这么难吗？</p>
+<h2><strong>跨系统互传早有先例？</strong></h2>
+<p>平心而论，跨系统发送文件，在大多数情况下并不难。</p>
+<p>刚刚提到，小雷是iPhone和三星的“双持”用户，但这仅仅是在手机层面。除了两大生态的手机（和平板），小雷还同时用MacBook Pro工作、Windows台式机打游戏、以及在Linux服务器上跑AI。</p>
+<p>尽管听起来麻烦，但在这五大生态内互传文件，小雷却只需要一款开源软件——LocalSend。</p>
+<p class="image-wrapper"><img data-img-size-val="960,346" src="https://img.36krcdn.com/hsossms/20241111/v2_a0986497992e431fbb9fe7221408915a@1547419282_oswg79021oswg960oswg346_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：LocalSend</p>
+<p><strong>作为内网数据互传的王者，几乎全平台支持的LocalSend可以用极快的速度，将文件以原始格式批量发送到另一台设备中，连URL或文字文本都可以直接发送。</strong>而且使用过程极为简单——无需注册登录、无需多余权限、没有任何广告、端到端加密且无需中间服务器，甚至连发送/接受设备的名称都可以保密。</p>
+<p>但LocalSend也有自己的短板，没有中央服务器意味着LocalSend只能用于内网环境传输。<strong>如果两台设备处于两个不同网络拓扑内，比如连了两个不同的Wi-Fi或路由器，就无法互传文件。</strong>如果在无网络环境下，我们也可以用手机开热点制造内网环境。但为了发文件专门开热点，多少有些麻烦。</p>
+<p>另外，LocalSend不会对文件做任何格式转换。<strong>换句话说，LocalSend管把文件送到，打不打得开是接收设备自己的事情。</strong></p>
+<h2><strong>殊途同归的技术实现方案</strong></h2>
+<p>不过聪明的中国厂商肯定会找到解决方案。<strong>比如在锤子手机还没“凉透”的时候，Smartisan OS内置的文件管理器就集成了“iWork”套件转换功能。</strong>当手机遇到 Pages、Numbers以及 Keynote文件时，手机会在用户同意后将文件上传至锤子服务器，云端转码、下载后就能手机里打开。</p>
+<p class="image-wrapper"><img data-img-size-val="960,568" src="https://img.36krcdn.com/hsossms/20241111/v2_bd33a74410e544fbac7fb6e7b7f77c92@1547419282_oswg218222oswg960oswg568_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Smartisan</p>
+<p>可惜的是，“英年早逝”的Smartisan OS也只解决了文件不兼容的问题，以及用HansShaker解决了macOS上有线连接Android手机的问题。<strong>在Windows上访问iPhone，或在iPhone与Android手机之间无线互传文件，这些挑战直到上个月才迎来解决方案。</strong></p>
+<p>另外，从体验来看，小米、OPPO的互传方案，和LocalSend在技术上并没有本质上的区别：</p>
+<p>发送方和接收方需要确保处于同一局域网中，应用会通过广播或局域网扫描的方式寻找附近的设备。<strong>小米、OPPO的软件在找到对应设备后还需要经过一次用户校验（是否登录同一个账户），</strong>而LocalSend会要求用户验证屏幕所显示的一次性设备昵称。</p>
+<p class="image-wrapper"><img data-img-size-val="960,675" src="https://img.36krcdn.com/hsossms/20241111/v2_3d8eb9ea43984a879c69f19f4e2bd820@1547419282_oswg86096oswg960oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：雷科技</p>
+<p>找到设备后，用户选择要发送的文件，并将其与接收设备建立HTTP和REST API的内网通信，并对数据通过HTTPS协议加密，以确保在网络传输过程中受到保护。在建立连接时，系统会生成临时TLS/SSL证书，确保传输过程中数据安全性，避免被第三方中途截获。</p>
+<p>一旦连接建立，<strong>文件会被分成若干小块进行传输，这种方式有利于在网络波动后恢复传输。</strong>数据通过点对点的方式直接在设备之间发送，避免了中间服务器的介入；当所有文件块成功发送到接收设备时，<strong>系统会自动重组文件。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="960,608" src="https://img.36krcdn.com/hsossms/20241111/v2_b6d48086f8da4f999e092b66777575a4@1547419282_oswg412174oswg960oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：小米</p>
+<p>当然，小米的互联套件还实现了更丰富的功能，<strong>比如利用串流技术，实现了用Mac操作小米手机，这也是国产手机第一次“系统级”支持这一功能。</strong>但在我看来，如果仅凭互联套件就说“小米澎湃支持苹果生态”，有些言之过早了。</p>
+<h2><strong>什么才是iCloud生态的精髓？</strong></h2>
+<p>自小米澎湃OS 2发布后，<strong>不少媒体都用“小米澎湃支持苹果生态”来形容这一次跨生态兼容。</strong>不可否认，<strong>小米这一举措确实让双机用户更方便了。</strong>但这样的生态协同，和真正的“兼容苹果生态”，在我看来还是有不少区别的。</p>
+<p>首先，小米的互联套件只是一个传输文件的工具，但被苹果用户津津乐道的“iCloud”生态，并不只有文件传输这一项功能。<strong>基于iCloud“同步”的特性，苹果已经在所谓“iCloud”生态里打造了一系列丰富的跨设备数据同步案例。</strong></p>
+<p>比如Handoff接力，除了可以用Mac接听 iPhone 的电话，同时也会在电脑Dock右下角显示iPhone正在使用的App，点击即可拉起对应App 的 Mac版本，同时保留对应的用户数据。比如写到一半的邮件、看到一半的网页，不需要在投屏的小窗口里使用手机版App；而电脑里打开的App也可以在手机里继续使用。</p>
+<p class="image-wrapper"><img data-img-size-val="645,280" src="https://img.36krcdn.com/hsossms/20241111/v2_ee4d9308746441349dd8c61084b021c5@1547419282_oswg63570oswg645oswg280_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：雷科技</p>
+<p><strong>基于iCloud同步的“密码”，可以系统级在不同设备内实施同步加密存储的App、网页账户、密码；邮件、iMessage的云同步也可以跨设备自动输入邮件或短信验证码。</strong></p>
+<p>我知道，<strong>小米在自己系统生态内也能做到这些，毕竟连三星这种“小厂”都能做到自己生态内的同步。</strong>但在“小米可以接入iCloud密码同步”之前，小米和“兼容iCloud生态”都还有不小的距离。</p>
+<h2><strong>争做iPhone用户的“第二台手机”</strong></h2>
+<p>在我看来，小米、OPPO等品牌推出“苹果互联服务”，其核心目的也不是说想要取代iPhone，<strong>而是在不直接动摇iPhone 基本盘的情况下，发展 iPhone 用户的“第二台手机”。</strong></p>
+<p>首先，从用户习惯和市场份额来看，iPhone用户对所谓“苹果生态”是极为依赖的。基于iCloud，苹果打造了一套深度集成的系统级互联服务，同时也为用户打造了一个难以逃脱的“生态牢笼”。<strong>可以说苹果从多年前打造的苹果生态，且核心目的就是将iPhone用户牢牢困在自己生态内，这绝非从诞生之日就主打开放、兼并的Android生态可以替代的。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="960,2081" src="https://img.36krcdn.com/hsossms/20241111/v2_b95f9cd70efd4ad8b4e544a65691a3ab@1547419282_oswg437367oswg960oswg2081_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：雷科技</p>
+<p><strong>小米、OPPO的“苹果互联服务”，也能够在现有市场格局下切入iPhone用户群体，为用户提供“单向兼容”苹果生态的产品体验。</strong>让iPhone用户无需放弃原有的苹果设备，就能享受小米、OPPO产品功能，<strong>从而降低切换阵营的成本和心理门槛。</strong></p>
+<p>其次，这一策略在一定程度上也避开了与苹果在核心市场上的正面交锋。通过提供跨平台连接和单向数据共享能力，<strong>小米、OPPO并不是试图替代iPhone，而是提供一个在特定情境下（游戏、工作、拍摄）更为灵活的解决方案，这不仅能满足用户的多样化需求，也能提高Android品牌在高端市场中的存在感。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="960,389" src="https://img.36krcdn.com/hsossms/20241111/v2_3a2194905a00430b976b85ac8b541465@1547419282_oswg49009oswg960oswg389_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Apple</p>
+<p>归根结底，小米、OPPO等品牌的“互联服务”并非意图彻底撼动苹果生态，<strong>而是在现有条件下吸引和转化部分iPhone用户的注意力，让“果粉”在iPhone之外有一个额外的选择。</strong>对于“双持”用户来说，互联服务的出现也为双生态用户带来了更大的便利，降低了跨平台使用的门槛，也在一定程度上丰富了设备功能体验。</p>
+<p>可以肯定的是，随着技术的进一步发展，iPhone与Android跨生态的融合必将会变得更为深入，让不同品牌和系统的设备实现更加无缝的互联互通，真正打破“生态壁垒”。<strong>而“果粉”们可以无视生态兼容性，把Android手机当作“主力手机”的那一天，自然也会是果粉们“弃暗投明”的日子。</strong></p>
+<p>本文来自“雷科技”，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031732042199944</guid><pubDate>Mon, 11 Nov 2024 18:01:00 +0800</pubDate></item><item><title>花几万元为宠物办葬礼的年轻人在想什么</title><link>https://36kr.com/p/3031736332301185</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1044,671" src="https://img.36krcdn.com/hsossms/20241111/v2_71859c5833eb4e479b0326cbce1797c7@5322854_oswg615829oswg1044oswg671_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>《2023-2024年中国宠物行业白皮书（消费报告）》指出，我国在2023年的宠物犬数量同比增长了1.1%，总数量为5175万只；宠物猫数量同比增长了6.8%，总数量为6980万只。 </p>
+<p>宠物保有量的持续上升，也意味着越来越多的人会亲眼见证宠物从年轻到衰老的全过程。这对于那些独自在外打拼、早已把宠物当做家人的年轻人而言，“如何让心爱的宠物在死亡面前仍保持体面”就成了自己绕不过的话题。 </p>
+<h2><strong>和宠物来一场“体面的告别”要多少钱 </strong></h2>
+<p>此前，西安网友孙先生在自己的社交主页上PO出了一张特殊的小票，用“仓鼠”“单独火化费700元”等字样将围观群众的目光吸引到了“宠物身后事”这个略显沉重的话题上。 </p>
+<p class="image-wrapper"><img data-img-size-val="501,691" src="https://img.36krcdn.com/hsossms/20241111/v2_7ed5b3a145dc43999d6e74e0960302db@5322854_oswg608752oswg501oswg691_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在后续的采访过程中，虽然孙先生没再就小票内容对记者展开回应。但其他经历过宠物告别的人却站了出来，一边向人们分享自己的故事，一边解答大家的疑惑。</p>
+<p>和宠物来一场“体面的告别”需要多少钱？ </p>
+<p>一位来自浙江的网友表示自己曾饲养过两次仓鼠，并且同样在宠物去世后选择了专业的告别机构。在支付600元后，对方不仅为小仓鼠提供了接送、清洁、念经、火化等一条龙服务，还允许主人选择全场跟随、事后快递接收宠物骨灰这两种服务模式。 </p>
+<p>另一位来自成都的网友则表示自己前年、今年分别告别了一只猫咪。虽然两只小猫的体重都不足10斤，但前年算上骨灰罐的告别花费仅为480元，今年不含骨灰罐的告别花费却达到了420元。 </p>
+<p>针对上述网友的经历，有商家表示宠物告别花费的关键变量是“体重”。像是仓鼠那类体重在0.1-1公斤的小型动物，其临终关怀消费一般为700元档；40-50公斤的大型动物，其临终关怀消费也将递增到2800元档。且单独火化的费用，通常会比服务套餐更加便宜。 </p>
+<p>另在服务流程层面，一套完整的告别仪式往往要从电话咨询开始。在饲主将宠物信息告知服务商且确定接受服务后，对方先会派遣专车前往指定地点，随后根据主人的要求提供清洁、火化、祈福、留念等一系列服务。 </p>
+<p>在这样的背景下，目前市场上不仅出现了专供宠物的“爪子拓印”服务，还出现了“纸扎三文鱼、纸扎猫粮、宠物冥币”等商品，用以让人们寄托哀思。 </p>
+<h2><strong>一路狂飙的宠物告别市场</strong></h2>
+<p>《2023-2024年中国宠物行业白皮书（消费报告）》指出，我国在2023年的宠物犬数量同比增长了1.1%，总数量为5175万只；宠物猫数量同比增长了6.8%，总数量为6980万只。 </p>
+<p class="image-wrapper"><img data-img-size-val="612,393" src="https://img.36krcdn.com/hsossms/20241111/v2_971c000954144c21ae438512fd67fcfe@5322854_oswg298037oswg612oswg393_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>宠物数量的增长，也直接带动了国内的宠物告别市场。相关报告指出，国内的宠物告别市场规模在2018年为7.01亿，在2023年为18.25亿，5年市场规模增长量超100%。 </p>
+<p>在宏观市场层面，截止到今年4月份，我国现存的宠物告别相关企业数量为4.2万余家。其中2021-2023年的三年新增注册相关企业量分别超过了4400家、26000家、9300家。 </p>
+<p>市场的快速增长，也诱使那些To B服务商加入了战局。目前市面上已经出现了宠物告别加盟服务，他们的收费水平一般为旗舰店加盟费3万元，每年缴纳1000元管理费（城市独家店铺，允许负责人向下级市场提供代理商授权）；标准店加盟费2万元，每年缴纳2000元管理费。 </p>
+<p>在微观市场层面，各商家为了尽快收获市场声望、打造被人熟知的品牌IP，所以他们也为不同需求的用户提供了不同款类的个性化服务。像是有的商家会将宠物骨灰安葬在盆栽里，用“生命树”的形式继续陪伴主人；用宝马、保时捷等豪车接送宠物，实现主人 “风光大葬”的要求；将宠物牙齿或小骨头制成纪念品，让主人随时带在身上等。 </p>
+<p>在盈利能力层面，则有业内人士向媒体透露称部分二线城市的宠物告别服务利润率可高达80%。哪怕是在把油费、设备折损、相关物料、人工等各项成本全部算上的情况下，一次告别服务的成本仍约为200元左右。除此以外，针对市面上那些消费欲望更强；渴望得到更高情绪价值的用户。这些商家还推出了“宠物墓地销售、宠物基因保存”等定制化高端服务，用以满足客户的要求、升维自己的盈利能力。 </p>
+<h2><strong>让年轻人消费的关键是尊重生命</strong></h2>
+<p>事实上，宠物告别、宠物临终关怀等服务“成本低、利润高”的特点早已经被人们所熟知。 </p>
+<p>那为什么还是有消费者在明知道钱有大半会落入商家手中的前提下，仍争相向其购买服务呢？ </p>
+<p class="image-wrapper"><img data-img-size-val="779,456" src="https://img.36krcdn.com/hsossms/20241111/v2_fa4cd9f5beaf4756ab769c9a836052b5@5322854_oswg338787oswg779oswg456_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>答案是为情绪买单。 </p>
+<p>《2021年中国宠物行业白皮书》指出，近年来大学本科及以上学历的宠物主占比达62.6%，和2020年相比，平均月收入10000元以上的宠物主占比上涨了4.8%。《2022年中国宠物消费报告》也指出，近年来国内养宠人的主要标签正向“年轻人”不断倾斜，其中95后年轻人更是凭借36.8%的人群占比成为了养宠主力军之一。 </p>
+<p>在这个年轻人普遍独居奋斗的年代、在这个社交软件放大孤独感的年代，年轻人从工作和生活中获得的压力指数正不断上升。对他们而言，是宠物的陪伴让其在水泥丛林中得到了一丝安慰。 </p>
+<p>这种类似于心锚、精神寄托的情绪正反馈，也让宠物在年轻饲主的身上摆脱了“玩物、消遣”的头衔，成为了家人般的存在。正因于此，他们对宠物的呵护点也开始从温饱概念向着仪式感、精神幸福度等概念快速扩张。 </p>
+<p>令人感到遗憾的是，和饲宠人越来越高的消费欲望、对情绪价值的强需求属性相比，当下宠物市场的脚步似乎慢了一些。 </p>
+<p>由于服务质量、收费标准尚无一个可依据的标准，所以部分商家在提供服务的时候会存在态度敷衍、流于形式、用虚假视频欺骗客户的情况。对消费者而言，这些行为无疑是“致命”的。因为他们忍受着高溢价就是想给宠物一个“体面的告别”，所以他们无法接受自己的哀痛被别人所利用，无法接受自己落入了一场以爱为名的消费陷阱。 </p>
+<p>对于商家而言，行业的痛点亦是自己弯道超车的节点。毕竟和推出越来越贵、越来越不接地气的服务相比，尊重生命、重视人文关怀显然更能搏得消费者的好感。 </p>
+<p><strong>参考：</strong></p>
+<p>上游新闻：宠物殡葬的“生意经”：仓鼠火化700元、请乐队、保时捷接送 </p>
+<p>Tech星球：花几万给宠物办葬礼，年轻人图什么 </p>
+<p>中国青年网：葬礼超8000元 宠物殡葬的生意经 </p>
+<p>齐鲁壹点：热闻｜火化一只仓鼠700元，万元办葬礼，宠物殡葬兴起，你会为爱买单吗？ </p>
+<p>中国日报网：“宠物友好”不止是一句口号 </p>
+<p>浙理新闻特稿写作：宠物殡葬行业发展路漫漫 </p>
+<p>现代快报+：财经猎豹｜宠物罐头贵过午餐，是宠爱富养还是攀比浪费？ </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/oCMTMlecbCy8Y4Y_KXi2BQ" rel="noopener noreferrer nofollow" target="_blank">“互联网那些事”</a>，作者：互联网那些事，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031736332301185</guid><pubDate>Mon, 11 Nov 2024 18:04:00 +0800</pubDate></item><item><title>波司登被大鹅坑了</title><link>https://36kr.com/p/3031751030351110</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>波司登看到了大鹅的贵，但没有看到背后，是整个消费市场对一件「体面好看」羽绒服的需求，于是变成了大家口中的「羽绒服刺客」。</strong></p>
+<p><strong>加拿大鹅，可能是波司登走过的一条弯路。</strong></p>
+<p>2017年的时候，波司登平均吊牌价大概还是1000块钱上下，这几年主力产品已经快到2000块了。</p>
+<p>但是打开波司登天猫旗舰店，销量最好的几款，价格还都是集中在299、243、293、213这些数字上。</p>
+<p>看得出来，波司登是太想进步了。但是消费者好像不太买账。</p>
+<p><strong>至于为什么波司登这么想进步，是因为人家真的吃过苦。</strong></p>
+<h2><strong>01</strong></h2>
+<p>2018年之前，波司登的业绩，走出了一条断崖式的下滑。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_fee91776f9764d2380324aee79d93e86@000000_oswg105541oswg1080oswg517_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在自由落体的期间里，它推出过男装女装童装，想要打破羽绒服的局限，也尝试过出海，在英国最贵的地段开了海外旗舰店，都失败了。</p>
+<p>直到外来的和尚带来了先进的念经方式。</p>
+<p><strong>这波，加拿大鹅算是骑在脸上教波司登怎么卖羽绒服。</strong></p>
+<p>先是马云在互联网大会上身着墨绿色女款鹅亮相引爆话题，然后就是国内外各路明星上身带货，再是加拿大代购大排长龙疯狂扫货，甚至还有风声说，大鹅要「限购」啦，要抢的赶紧抢！。</p>
+<p>一番操作下来，鹅子顺顺利利把自己炒成了国内顶流。</p>
+<p>要知道这个时候，鹅子还没正式进入中国呢。</p>
+<p><strong>只不过，鹅子这套顶级带货套路，不是普通品牌学得来的，真正能学的，是下面这套。</strong></p>
+<p>看文章的同学不知道看没看过这张图。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_957b6a86f422460aad8fe0ef0340e40f@000000_oswg549599oswg828oswg1099_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>鹅子最火的时候，国内很流行类似的羽绒服鄙视链金字塔。大部分的鄙视链里，鹅子都高居顶端，最低掉不出第二档。</p>
+<p>我们熟悉的国产品牌，类似鸭鸭、雪中飞，大概率逃不过倒数前两档。</p>
+<p><strong>鄙视链，才是加拿大鹅营销的精髓。</strong></p>
+<p><strong>鄙视链营销为什么有用？除了刻在人类骨子里的虚荣之外，还有很深层次的消费心理学因素。</strong></p>
+<p><strong>营销领域普遍认为，信息缺失，对消费者的购买行为会有抑制作用。</strong></p>
+<p>用人话说，就是如果我对一个东西了解不多，那我最理性的选择一定就是不买。当人处于信息弱势时，采取防备心态是最安全的。</p>
+<p>所以如果我是一个卖货的商家，我一定希望能让消费者掌握更多信息，对我要卖的商品建立起体系化的认知。</p>
+<p>当然，这个认知最好是我给他植入的。</p>
+<p>只要消费者自信心膨胀了，觉得自己懂行了，商家的机会就来了。</p>
+<p><strong>最能让消费者建立自信的，莫过于这样一套鄙视链金字塔。</strong></p>
+<p>首先，它信息量大啊，一张图几十个品牌，看完有种「一图在手天下我有」的自信感，仿佛整个行业里没有我不认识的品牌了。</p>
+<p>然后它也足够清晰，高低层次全给你分好了，还配上「洋气」、「土气」、「智商税」这样的标注，让你觉得自己已经建立了体系化的认知。</p>
+<p>最后，这样一张图，它所包含的信息量并不是中立的，相反，它隐含着很强的价值导向，鼓励消费者往上爬：</p>
+<p>现在你买不起上三层的品牌，不要紧，这个月攒五百，下个月攒一千，明年冬天你也能身穿大鹅，站在鄙视链上层俯瞰别人。</p>
+<p><strong>大鹅，盟可睐这些奢侈级羽绒服在国内的流行，和这套鄙视链体系的传播相辅相成。</strong></p>
+<h2><strong>02</strong></h2>
+<p>随着气氛逐渐烘托到位，2018年，加拿大鹅高调宣布入华，同期盟可睐也正式进入中国，中国的羽绒服市场正式进入高端化时代。</p>
+<p>有了大鹅在前面开路，波司登有样学样，开启了高端化。</p>
+<p>它简化了logo，把原先硕大的汉字改成了字母的「BOSIDENG」，开始和玛莎拉蒂、迪士尼做联名，在米兰、伦敦、纽约时装周反复刷脸，砸钱签下了杨幂、易烊千玺、谷爱凌、于适一批明星。</p>
+<p>这五年里，我们看着波司登在这个鄙视链上一步一步往上爬，价格六七千的「登峰」系列、「极寒」系列，还有五千多的风衣羽绒服系列，平均吊牌价几乎实现翻倍，硬是把一个国民品牌拔到了一个国民买不下手的价位。</p>
+<p>情况也如波司登所希望的，财报也一年比一年好看，2022年，毛利超过60%，比老师傅加拿大鹅还凶残。</p>
+<p>直到去年冬天，骆驼卖爆了，军大衣上热搜了，「羽绒服刺客」横空出世了。</p>
+<p><strong>羽绒服市场往高端走了这么些年，消费者开始不买账了。</strong></p>
+<p>2022财年，波司登主品牌增长陷入停滞。2023财年，虽然增速恢复一些，但毛利率又开始下滑。某种程度上，说明波司登的高端化已经来到了一个瓶颈。</p>
+<p>要高端就没有增长，不打折就没有销量。</p>
+<p><strong>在我看来，这就是着了加拿大鹅的道了。</strong></p>
+<p>仔细想想，波司登这么努力往高端爬，但它真的在这个鄙视链里往上走了吗？真的能完全俯视鸭鸭南极人优衣库吗？未必吧？</p>
+<p>相反，当波司登卖几千块钱的羽绒服，最常出现的评价是：</p>
+<p>这个价格，我为什么不买鹅或者盟可睐呢？</p>
+<p><strong>在无数次中国品牌与海外品牌的对抗中，我们会发现，那些短期内贸然涨价，直接进入海外大牌的价格带去竞争的牌子，最后都会被打回原形，经历一段漫长的阵痛。</strong></p>
+<p><strong>相反，能够赢下竞争的，只有两类品牌。</strong></p>
+<p>一种类似安踏，把战争拉长到十年，二十年的维度，用时间换空间，用时间换品牌价值，等底子厚了，再去挑战欧美品牌。</p>
+<p>另一种则是性价比路线。在价格明显更低的情况下，还要不断增强品牌的价值感，优质的联名和代言，比如把服务做到极致，比如本土化创新功能。</p>
+<p>性价比路线并非正面竞争，而是挖空高端品牌底层的价值体系，让高端品牌从底层开始坍塌。</p>
+<p>例如瑞幸之于星巴克，例如小米之于苹果，例如一众新势力造车企业之于合资车企。</p>
+<p>盟可睐和加拿大鹅害怕的，是越来越贵的波司登吗？当然不是。</p>
+<p><strong>他们最希望看到波司登不断提高价格，去往它们的高价主场，这对他们反而安全。</strong></p>
+<p><strong>大鹅最畏惧的，反而是波司登深耕各种兴趣电商、直播带货和私域渠道，用中国企业最擅长的精细运营和产业链优势把利润做出来，然后给到终端消费者一个质量不差，价格美丽，设计水平在线的产品。</strong></p>
+<p><strong>这是真的动欧美品牌的命根子。</strong></p>
+<h2><strong>03</strong></h2>
+<p><strong>说到这里，我的另一个观察是，中国的消费者，已经不再跟着鄙视链买东西了。</strong></p>
+<p><strong>一方面是社交网络发达，鄙视链赖以生存的信息差被抹平了，</strong>小红书和抖音一搜，所有品牌都摸得一清二楚，各种博主的避雷帖劝退文，足够让一切的鄙视链祛魅。</p>
+<p><strong>另一方面，还是中国消费者的观念发生了变化。</strong></p>
+<p><strong>不是说鄙视链不存在了，相反，现在的鄙视链变成了谁更会买，谁更精明。</strong></p>
+<p>拿我自己举例，在我的朋友圈子里，如果谁在某个直播间蹲到了好价，或者在pdd上淘到了性价比超高的衣服，都会迫不及待地分享出来，有时候可能还得发个小红书。</p>
+<p>但是如果你原价买了个还挺贵的大牌，大家只会表示不理解，或者说一句：你可真是他们家的死忠粉啊。</p>
+<p>从这个角度来说，波司登阵中最强之人，其实是旗下更便宜的雪中飞，去年营收暴增六成，超过20亿元，隐隐有扛鼎之势。</p>
+<p>而在鄙视链顶端的国产品牌，可能是2023年卖了150亿的鸭鸭。</p>
+<p>这里说个题外话，鸭鸭这几年一直在主推的概念，就是鼓励消费者反季买羽绒服。</p>
+<p>毕竟冬天卖羽绒服，不确定性很大，万一碰到暖冬，十一月气温都还没凉下来，很多人可能就考虑不买了。但是夏天买羽绒服，确定性强多了，瞄准的就是那些愿意精打细算的人群，打的就是现在的消费者不愿意做大冤种的心态。</p>
+<p><strong>当然，消费品的底层逻辑，还是一分钱一分货，十分钱两分货，追求性价比还是要适度。</strong></p>
+<p>回到波司登。</p>
+<p>必须承认，羽绒服市场整体走向高端，的确拯救了波司登糟糕的业绩。但简单地把波司登的业绩增长归因于卖得贵了，也不一定准确。</p>
+<p><strong>在我看来，拯救了波司登的，不是高端化，而是时尚化。</strong></p>
+<p>正如徒步户外变成生活方式，让始祖鸟、萨洛蒙原地飞升一样，以前纯粹提供保暖功能的羽绒服，被大鹅带成了时尚单品。</p>
+<p><strong>既然是时尚单品，那必然刺激消费者喜新厌旧，加速衣柜的迭代换新，淘汰衣柜里穿了五六年的旧羽绒服，于是整个行业因此起飞。</strong></p>
+<p>但这并不意味着所有消费者都能接受四位数甚至近万元的价位，绝大多数人想要的依然是三四百的羽绒服，但他们会希望更好的用料，更好的剪裁，更时尚的设计。</p>
+<p><strong>波司登看到了大鹅的贵，但没有看到背后，是整个消费市场对一件「体面好看」羽绒服的需求，于是变成了大家口中的「羽绒服刺客」。</strong></p>
+<p><strong>如今回过头来看，加拿大鹅，可能真的是波司登走过的一条弯路。</strong></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NjIzNjIxOA==&amp;mid=2247515093&amp;idx=1&amp;sn=c0088eba36085ea05eb36d15ff8bc7cb&amp;chksm=cf78b4b0a258dcea004756a5f18f3dbb80dd885e3d2c4edb3d979783facc7f3223e56edbcf8c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“IC实验室”（ID：InsightPlusClub）</a>，作者：IC实验室，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031751030351110</guid><pubDate>Mon, 11 Nov 2024 18:10:00 +0800</pubDate></item><item><title>形塑新闻：AI时代新闻业的7个变化</title><link>https://36kr.com/p/3031764471424517</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>时至 2024 年 10 月，生成式 AI 的热潮尚未褪去，但现实也已经与 GPT-3 刚刚发布时的那种狂热图景完全不同。人们开始更冷静地审视大模型的技术局限，更关注大模型在各种领域的实际应用与落地情况，以及由此带来的改变。</p>
+<p>腾讯研究院持续关注生成式 AI 对于新闻传媒行业的影响。在过去一段时间，我们做了三件事，第一件事是在 2023 年 8 月，发布了《拐点时刻？AIGC 时代的新闻业》报告，这份报告得到了内外部许许多多的关注和反馈。</p>
+<p>第二件事是我们在今年的“仲夏六日谈”节目上，举办了“AI 时代的新闻传媒业”专场，邀请到四位业内资深专家，在安徽碧山的小小村落里，讨论新闻业因 AI 而发生的改变。</p>
+<p>第三件事持续时间则更长，我们从去年开始，持续在腾讯研究院公众号运营“海外内容观察”专栏，专栏由多位作者共同书写，关注对象是全球领域的新闻传媒业，从不同的侧面，关注它们在生成式 AI 的热潮之中所出现的趋势与变化。截至目前，专栏已经积累了十几篇文章。我们想，是不是可以把这些文章结集成一份小报告，可做留存，也供更多关注新闻业发展动态的同好参考。</p>
+<p>腾讯研究院对新闻传媒业的关注由来已久。在《拐点时刻》之前，早在 2017 年发布的报告《人工智能时代：新闻业的谢幕与重生》就已聚焦 Al 给新闻推送带来的根本性改变。新闻是一个特殊的行业，在不同的历史时期与文化语境中，它被赋予不同的内涵，但不变的是，它始终是社会的守望者，是现实与历史的观察者和书写者。在最近十年的发展过程中，新闻业已经被打下了深深的技术烙印：算法、大数据、短视频、虚拟人、元宇宙、Web 3.0，再到现在的AIGC……这些技术或多或少都被新闻业所征用、融合。问题在于，这些技术带来了一轮轮的狂热，但同时也带来许多未曾兑现的承诺。大模型会不一样吗？这个问题要有答案，需要持续的关注和反思。</p>
+<p>这是我们这份报告的出发点。我们把这份小小的报告命名为《形塑新闻：AI 时代新闻业的 7个变化》。限于精力和视野，我们无法关注新闻业在这个时代的发展全貌，只能通过一些小趋势管窥这个特殊行业正在发生的一些变化。</p>
+<p>7 是一个很特别的数字，情有七种，罪有七宗，一周有七天，人体细胞代谢一次，也是七天。1 除以 7 的循环小数 142857 被称为“走马灯数”，被认为蕴含着宇宙奥秘。但我们显然没有想到这些，我们只是想从 7 开始，在这个技术时代，延续对新闻业的关注和记录。</p>
+<p>希望能给你带来一些小小的启发。</p>
+<p><strong>AI时代新闻业的7个变化：</strong> ‍ ‍ </p>
+<p>1.<strong>AIGC渗入</strong>：新闻内容生产遭受冲击</p>
+<p>2.<strong>内容生态</strong>：AI假新闻污染新闻真实</p>
+<p>3.<strong>平台转移</strong>：短视频新闻业快速崛起</p>
+<p>4.<strong>分发革命</strong>：传统内容分发格局重塑</p>
+<p>5<strong>.技术替代</strong>：新技术冲击行业裁员与洗牌</p>
+<p>6.<strong>受众4.0</strong>：技术赋权受众转为信息生产者</p>
+<p>7.<strong>内容在地</strong>：本地新闻的失落与重生</p>
+<h2><strong>一、AIGC渗入：新闻内容生产遭受冲击</strong></h2>
+<p>2024年，著名演员“寡姐”斯嘉丽·约翰逊，向如日中天的OpenAI发了一封律师函。5月14日，OpenAI刚刚发布最新的多模态大模型GPT-4o，该模型支持文本、音频和图像的任意组合输入，并能生成文本、音频和图像的任意组合输出。在发布会上，OpenAI强调了GPT-4o的语音对话能力，并展示了五个不同的语音。而其中名为“Sky”的声音，被指与斯嘉丽·约翰逊在电影《Her》中的角色“萨曼莎”声音极其相似。<strong>‍‍</strong></p>
+<p>这就是双方发生冲突的前情提要。值得一提的是，OpenAI的阿尔特曼曾经公开表示，《Her》是他最喜欢的电影之一。去年九月，OpenAI就曾联系斯嘉丽·约翰逊，希望能够在模型中使用她的声音，但约翰逊出于个人原因拒绝了这一请求。直到发布会前两天，阿尔特曼还联系约翰逊的经纪人，并再次遭到拒绝。</p>
+<p>在约翰逊本人的强烈抗议下，OpenAI暂时下架了GPT-4o的Sky语音。而这次冲突，其实隐喻着生成式AI与大部分创意行业之间的紧张关系：前者使用后者多年积累的材料进行训练，而后者面对的处境，就是等待着被前者模仿直至被取代。这引发了创意行业的从业者对于生成式AI的普遍担忧。</p>
+<p>而之所以要在本报告开头提到这一个案例，是因为新闻行业也面临着同样问题。对于全球的新闻媒体行业来说，2023年无疑是艰难的开始。疫情虽然结束，但媒体裁员人数和关停数量都达到高峰。这是多年衰落趋势累积后的集中爆发。社交媒体和短视频平台的冲击，用户与广告商的转移，等等，都是这一趋势的诱因。而各种新的技术形式的冲击影响也同样显著，生成式AI就是其中一环。</p>
+<h3><strong>(一)AIGC实现新闻业的“供给侧改革”</strong></h3>
+<p>ChatGPT发布之后，一阵生成式AI的浪潮，席卷了众多领域。全球范围内大模型风云骤起，资金、技术、人才持续涌入，科技公司布局不断，纷纷推出大模型。文生视频模型Sora、AI音乐类生成工具Suno的现身，更是展现了大模型在多模态生成方面的强大能力。整个科技行业处在快速变革的颠覆式创新阶段。</p>
+<p>在众多领域中，新闻业是受影响最为剧烈的领域之一，对于AIGC的回应也最为积极。</p>
+<p>美联社最新的一项调研显示，生成式AI已经在重塑新闻编辑室的角色和工作流程。[1]美联社的调研进行于2023年12月，受调研对象是来自传统媒体、公共广播公司以及杂志的292名人员。这些相关从业者中的七成表示，他们正在使用AIGC制作社交媒体内容、时事通讯和头条新闻。同时，也会将其应用于翻译、转录采访和生成内容草稿，还有五分之一的人在使用生成式AI生成图像和视频。总体上，有接近一半（49%）的受调研者表示，由于生成式AI的出现，他们的工作流程已经发生了改变。</p>
+<p>而在国内外的新闻传媒行业中，也确实有许多机构开展了相关实践，将AIGC纳入到新闻类内容的生产流程中。2023年情人节前夕，《纽约时报》最先试水，使用 ChatGPT创建了一个情人节消息生成器，用户只需要输入几个提示指令，程序就可以自动生成情书。美联社也陆续帮助美国本土五家新闻编辑室，包括西北大学、斯坦福大学和密苏里大学等开发了生成式AI工具，并在2023年8月发布了有关人工智能使用的指导原则。新闻机构Newsquest从2023年6月份开始，已经陆续聘请了七位人工智能辅助记者，他们的职责包括确保生成内容的准确性、进行编辑判断、保护数据、保护版权、注意偏见问题等。Newsquest的人工智能主管Jody Doherty-Smith表示：“我们正在利用人工智能来减轻记者身上普通但非常重要的任务的负担，让他们能腾出时间，去做真正能引起社会共鸣的新闻报道。”他甚至断言：“未来最长效的技能，就是知道如何与人工智能打交道。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_bedb888e82ce42f28953f5635c4f3b89@000000_oswg53795oswg701oswg257_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">注：Newsquest 的生成式 AI 使用方向，图表由 AI 进行翻译</p>
+<p>AIGC也催生了新的新闻平台形式。全球首个由人工智能生成新闻报道的平台NewsGPT.ai已经上线。根据声明，该网站没有人工记者，由NewsGPT实时扫描、分析来自世界各地的新闻来源，包括社交媒体、新闻网站等，并生成新闻报道和报告。其创始人声称，NewsGPT“不受广告主、个人观点的影响”，7*24小时提供“可靠的”新闻。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_20cee9d2f0bd4030a7509524bc7a3456@000000_oswg1110576oswg1080oswg885_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">注：第一个由AI完全生成新闻的网站NewsGPT</p>
+<p>由于新闻机构往往缺乏必要的技术积累，在推进人工智能与新闻实践结合方面，与科技公司开展合作是比较常见的方式。微软就是在这一方面表现较为活跃的公司之一。根据报道，微软与新锐媒体公司Semafor（旗语新闻社）合作，Semafor的记者在报道全球突发新闻时，会使用基于微软和OpenAI技术开发的工具，快速检索来自本地、国家和全球的多语种报道及信息来源。微软赞助了一个名为“信号”（Signals）的突发新闻信息流板块，试图将其打造为新闻业与AI合作的旗帜型案例。Semafor联合创始人之一Ben Smith强调，该栏目的内容100%由人工撰写，AI会作为辅助工具来给这些文章补充信息。</p>
+<p>除了Semafor，微软也宣布与纽约市立大学的记者AIGC培训项目以及软件开发商Nota等机构展开合作。Nota是一家初创公司，致力于将人工智能置入到新闻机构的日常运营中，在微软的支持下，它的覆盖范围已经拓展到100多个新闻机构，通过PROOF等组件工具，帮助媒体扩大受众范围、增加社交媒体的影响力，并且根据受众需求进行内容的定制。</p>
+<p>而在国内，新华社、中央广播电视总台等媒体也开始了AI与新闻业的结合实践。例如，新华社发布基于媒体数据训练的模型MediaGPT，开发专门用于生成式任务的验证方法和以新华社媒体数据为基础的数据集；中央广播电视总台发布“央视听媒体大模型”（CMG Media GPT），专注视频类媒体内容的生产。而《每日经济新闻》的“雨燕智宣”，同样是媒体视频化转型的成熟产品。可以说，一场由AIGC带来的新闻业供给侧改革，已经拉开帷幕。</p>
+<h3><strong>(二)AIGC的新闻应用与实践</strong></h3>
+<p>从目前的情况看，生成式AI在新闻传媒业的应用，主要体现为提升新闻采编各环节的效率，包括新闻信息的采集与处理、内容生成，以及多模态生成能力。</p>
+<p>第一，生成式AI能够优化新闻信息采集与处理流程，比如辅助记者快速采集、读取海量数据，并进行自动处理。在资料检索阶段，记者和编辑可以借助ChatGPT等工具对大量需要阅读的文本材料进行内容摘要的生成、提炼核心观点、快速获取核心信息，以提高信息采集效率。同时，大模型的多语言生成能力，可以用于翻译跨语言文本，方便记者和编辑获取不同语种的资料与信息。根据腾讯研究院此前进行的一项调研，“进行资料检索”和“内容翻译”是目前媒体从业人员最多使用AIGC的两种用途，占比分别为54.8%、44%。[2]</p>
+<p>除此之外，大模型可以辅助记者进行采访音视频内容的识别与整理、优化创作流程、提炼生成更多元、独特的内容视角。英国《金融时报》总编辑Roula Khalaf指出，新闻编辑室应当建立一支AI技术团队、协助记者完成数据挖掘、内容分析以及翻译等任务。《金融时报》已经在部署系列课程，以提高记者利用生成式AI挖掘故事的能力。</p>
+<p>第二，生成式AI技术可以应用于生成访谈提纲、文章框架和标题等内容，还能将新闻报道翻译成多种语言，扩大传播范围。目前谷歌、微软都在开发面向媒体机构的AI产品，帮助新闻机构撰写和分发新闻报道。前文提到的“雨燕智宣”等AI视频化工具，也已经应用于短视频内容的生成和分发方面。</p>
+<p>但是，由于仍不具备共情、思考、常识判断等基础能力，生成式AI仍然无法满足具有高要求、高限定场景下的写作需求，通常在体育赛事、财经资讯等特定领域应用广泛。可以说，至少是在内容生成这一方面，生成式AI扮演的主要还是辅助角色，人类记者仍然是主要的内容生产者。</p>
+<p>第三，生成式AI的多模态生成能力，或将催生新闻类型创新，带来形态更为丰富多元的新闻内容。随着技术能力的提升，生成式AI的多模态生成能力日渐强大，文生文、文生图、音频、视频、3D内容……未来还可能生成更多的媒介形式，这为新闻内容的多模态呈现提供了可能。新闻业曾经追求的“媒介融合”以及“全媒体记者”，现在因多模态大模型的出现与应用而见到曙光。</p>
+<p>被称为“世界模拟器”的文生视频模型Sora可以直接输出长达60秒的视频，效果逼真并且包含复杂的多角度镜头和多个人物角色，对于新闻业来说，它可以被应用于新闻事实基础上的情景再现。此外，AI音乐类生成工具Suno可以实现AI自动作曲，用户只需要自定义风格和歌词，即可一键生成歌曲，这会降低同类型新闻内容的生产成本。</p>
+<p>得益于大模型的即时互动能力，可以开发应用于新闻业的对话机器人，并将其应用到新闻报道中，即时回答读者的提问并且根据数据资料提供补充信息。这可能拓展出一种“AIGC互动新闻”的内容形式，强调与读者互动性，通过不断的提问与回答，呈现完整的新闻图景。</p>
+<h3><strong>(三)AI冲击新闻内容生产</strong></h3>
+<p>对于新闻业来说，生成式AI促成的转变主要集中于工作流程和传统定位的改变。与之前的技术不同，生成式AI的技术能力，可以无缝集成到新闻内容的生成流程中，更快地融入新闻实践，应用于自动执行数据分析、内容策划甚至是内容生成等日常任务，使记者能更专注于调查性报道和深入分析等等更为复杂和考验创意性以及思考深度的工作。</p>
+<p>但是，也有许多媒体对AI生成的内容保持谨慎甚至是抵制的态度。例如，《每日电讯报》明令禁止员工使用生成式AI类工具进行内容的编辑。《纽约时报》起诉了 OpenAI和微软，称其试图“在未经许可或付费的情况下利用该报纸在新闻业的大量投入来制造替代产品”。今年6月，知名媒体《卫报》公布了有关于生成式AI的一系列使用原则。[3]《卫报》承诺谨慎使用相关技术，还于去年九月拒绝OpenAI使用其内容来训练大模型。</p>
+<p>不止《卫报》一家，根据Originality.ai的统计，包括CNN、路透社、《华盛顿邮报》、彭博社、《纽约时报》及其体育资讯网站Athletic都采用技术手段阻止GPT Bot的爬虫。其他网站包括Lonely Planet、Amazon、Quora等。显然，这是新闻业面对生成式AI的“侵入”而采取的自我保护的手段。</p>
+<p>但技术趋势不会因为几家媒体的抵制而停止脚步。随着生成式AI在新闻业的应用逐渐深化，也将给新闻传媒行业带来诸多冲击。最显著的就是大模型将冲击专业的新闻生产模式。大模型的使用门槛越来越低，普通人也可以利用大模型的能力进行新闻内容的生成。例如，针对某一事件，利用大模型可以快速生成一篇交代前因后果的新闻报道、新闻评论，或近期发生的系列新闻事件的摘要。在这种情况下，普通用户不再仅仅是新闻内容的消费者，也会成为新闻内容的创作者和生产者。在大模型的赋能下，普通用户跨越专业门槛，成为媲美专业人员的内容生产者，基于自身需求进行定制化的新闻内容生成，更自主地进行内容消费，这将对传统的新闻权威形成挑战。</p>
+<p>但同时也正是因为生成门槛的降低，生成式AI可能会加剧谣言和假新闻的传播。2023年在国内网络流传的两则信息“杭州市政府将取消限行”“杭州市将实行楼市新政”，均被发现是由AI生成的假消息。AI的生成能力将使虚假信息生产和传播的门槛降低，如不加以控制，会被恶意利用，生成未经核查的虚假信息、污染信息生态，甚至会造成严重的社会影响。本报告的第二章，将分析AI对新闻真实性的挑战。</p>
+<p>同时，由于生成式AI的“幻觉”问题依然严重，可能会出现胡编乱造信息的情况，人工智能的训练特性使它无法区分引文和参考来源到底意味着什么，因此内容剽窃的问题同样严重。2023年，美国科技新闻网站CNET.com一度上线了几十篇由AI生成的文章，尽管网站编辑声称文章在发布之前都经过了“核查和编辑”，但是很快读者发现，这些文章中有大量基础性错误，并且其中一半都存在抄袭和剽窃的问题。</p>
+<p>随着技术的演进，上述问题中的大部分正在被解决或将被解决。但至少在现阶段，面对人工智能介入到新闻生产中可能出现的问题，需要加强人工核查与校对，并且将这些编辑原则落实到机构层面的行为规范中。但根据美联社的调研，只有不到一半的受访者表示他们所在的新闻机构中有关于生成式AI的指导方针。</p>
+<p>总体而言，以ChatGPT为代表的AIGC技术在新闻信息采集、内容生成以及多模态呈现方面，具有提升效率甚至实现变革的潜力。未来，随着技术能力的进一步提升以及在新闻业的应用深化，AIGC或许将替代部分常规的模式化内容生产环节，尤其是在非正式上版、用于新媒体运营和宣传的“边角料”的生产上有巨大潜力，降低成本、提高效率，真正将记者和编辑从消耗时间与精力的繁琐工作中解放出来。[4]</p>
+<h2><strong>二、内容生态：AI假新闻污染新闻真实</strong></h2>
+<p>2023年末，新闻可信度评级机构NewsGuard发布了年度回顾报告。报告指出，过去一年，生成式AI的兴起改变了信息格局，大量看似真实的文章、图像、视频甚至网站被创造出来，这助推了信息生态的混乱以及用户的不信任，更为别有用心者提供了新的工具。[5]</p>
+<p>这已经不是NewsGuard第一次将假新闻的矛头指向生成式AI，在该机构2023年每个月的虚假信息监测报告中，几乎都可见AIGC的身影。技术的更迭并未改变这一现状，NewsGuard指出，GPT-4具备比GPT-3.5更为彻底、更具说服力的虚假信息生成能力。同样，美通社2023年全球媒体调查报告显示，在针对全球3132名记者的调查中，有27%的被调查者认为，如何保持作为可靠新闻来源的可信度，是新闻行业在这一年面临的最大挑战。</p>
+<p>可以说，由AIGC带来的假新闻难题及其对新闻业的冲击态势，已经变得极为严峻。</p>
+<h3><strong>(一)AIGC成为生产主体，新闻真实性频遭污染</strong></h3>
+<p>生成式AI在新闻生产的背景信息收集、采访提纲拟定、调研信息整理等环节提升了效率，使新闻报道大跨步地迈入了“自动化生产”的领域。2023年3月，声称“没有记者，没有偏见”的人工智能新闻网站NewsGPT上线。该网站是全球首个完全由人工智能生成的新闻频道，通过机器学习算法和自然语言处理技术，实时扫描来自世界各地的新闻来源并创建新闻报道。其首席执行官艾伦·利维（Alan Levy）在接受访谈时称：</p>
+<p>“NewsGPT是新闻世界的游戏规则改变者，长期以来，新闻频道一直受到偏见和主观报道的困扰。通过NewsGPT，我们能够向观众提供事实和真相，没有任何隐藏的议程或偏见。”[6]</p>
+<p>问题在于，AIGC新闻能否真正摒弃偏见和主观？答案似乎并不确定。在全球新闻场域本身存在话语权不平等的前提下，基于自动扫描新闻源创建新闻报道的生成式AI，似乎并未见得能比传统的记者编辑更为客观公正。而事实也证明，AI生成的内容，在新闻真实性上确实饱受诟病。</p>
+<p>2023年初，美国著名科技新闻网站CNET遭Futurism爆料，称其持续刊出未加标注的由AI生成的文章，其中出现了不少事实性错误。此后，CNET对其中41篇使用人工智能撰写的报道进行了更正，并宣布将暂停所有网站上的人工智能生成内容。[7]</p>
+<p>同样，2023年8月，NewsGuard发现至少有437家网站部署了生成式AI，大量编造虚假文章，其中包含许多未经证实的阴谋论、不可靠的医疗建议或产品评论。[8]同年12月，NewsGuard团队已检测认定了614个不可靠的人工智能生成新闻和信息网站[9]，而这一数量在5月时仅为49个[10]。</p>
+<p>短时间内虚假新闻的泛滥或可归咎于新技术的冲击，然而人工智能与新闻业的融合却不在这一朝一夕之间。</p>
+<p>回溯新闻业的历史，其中不乏与人工智能携手并进的时刻。过去十余年，由人工智能引发的新闻业创新浪潮，可分为自动化报道阶段、增强报道阶段和生成报道阶段。在自动化报道阶段，程序自动生成的文本内容被用于财经、体育等可模板化生产的新闻；在增强新闻报道阶段，人工智能的机器学习和自然语言处理（NLP）技术被用来分析数据、揭示相关趋势，常用于舆情监测、内容优化。如今，人工智能之于新闻业正在迈入第三阶段，即AIGC以多模态生成能力参与到新闻生产环节。与过去仅运用于模板化新闻生产的人工智能不同，生成式人工智能可以进行更长篇幅、更高质量的报道撰写，并可以根据指令模仿特定作品风格，多模态生成能力还带来了新闻报道视频化、可视化的诸多新可能。</p>
+<p>可以说，人工智能技术运用于新闻报道早就不是“新鲜事”。问题在于，AIGC的入局本应该为新闻业带来新的机遇，为什么在其介入新闻生产之初就出现了假新闻泛滥的问题？</p>
+<h3><strong>(二)为何AIGC假新闻畅行无阻?</strong></h3>
+<p>从AI与新闻业的融合历史进行观察，AIGC迈入新闻自动生产领域意味着其从新闻生产工具，摇身一变成为新闻生产的主体。然而，不管是AIGC本身的信息辨别与生产能力，还是新闻生产分发各流程，都似乎尚未对此变化做好准备。</p>
+<p><strong>1.源头上的挑战：AIGC信息生成机制的桎梏</strong></p>
+<p>首先是信息生成机制层面，这是源头上的问题。AIGC带来的假新闻问题，与其本身所使用的语料库和缺乏真实核查能力的信息生产机制密不可分。</p>
+<p>AIGC的核心是基于数据预训练的大规模语言模型（LLM），其可以模拟人类生物学和神经学识别数据的模式，为用户提供答案。而基于概率生成和预训练材料的模式有两方面局限性：</p>
+<p>第一，基于概率生成的模式明显缺陷在于重复常见的错误，即当一个论述在数据集中出现的频率越高，被作为答案生成的概率也就越高。然而，在数据集中频繁出现并不等同于该论述具备真实性与正确性，一旦一个高频虚假信息被当作正确答案反复输出，“谎言重复千遍便成为真理”的现象就极易出现。</p>
+<p>第二，受限于预训练材料，模型无法吸收新的反事实证据以测试材料的真实性；此外，预训练材料中的信息是否真实可信、信息囊括范围的大小也对AIGC生成信息的真实性产生了影响。[11]</p>
+<p>对AIGC进行训练的语料库，肩负着保障AIGC输出信息准确性的重要责任，语料库有限、语料库的时效性滞后，均是AIGC信息失实的原因。用于AIGC训练的语料库往往包含了大量在互联网上抓取的文本，这些文本鱼龙混杂且真实性存疑，无疑给缺乏信息辨别能力的生成式AI带来极大的迷惑。更严重的是，其中的虚假信息可能会经AIGC包装、输出后回流至网络平台并再度回到AIGC的训练语料库中，形成虚假信息的循环，进一步循环污染信息环境的真实性。</p>
+<p>ChatGPT在接受《时代》“采访”时，承认自身在信息质量上的不足：“我尽我所能提供准确和有用的信息，但我不是一个完美的知识来源，我并不能总是提供完整或正确的答案。”在这一方面，技术仍有很长的路要走。</p>
+<p><strong>2.更智能却更狡猾：强包装能力助推假新闻流传</strong></p>
+<p>AIGC“一本正经地胡说八道”已经成为笑谈，然而，当人们还在打趣人工智能实则为“人工智障”，这一技术已经悄然成长，从“一本正经地胡说八道”摇身一变为“令人信服地胡说八道”。</p>
+<p>NewsGuard在一项针对GPT-3.5和GPT-4的测试中发现，面对100条同样的虚假信息生成指令，GPT-3.5拒绝了其中20条虚假信息的生成，而GPT-4却生成了全部 100条虚假指令；同时，GPT-3.5生成的信息中包含着51条免责声明，GPT-4却仅包含了23条。这意味着作为GPT-3.5的升级版，GPT-4并没有在识别并拒绝生成虚假信息上有所进步，反而比GPT3.5具备了更为彻底、更具说服力的虚假信息生成能力。</p>
+<p>AIGC强大的传播能力不仅在于生成信息的说服力上，同样存在于生成信息的速度与规模上。传统新闻时代，新闻工作者需要具备规范的新闻写作、新闻摄影与新闻视频制作等专业能力。而人工产出一份达到刊发标准的新闻作品，往往需要经过资料准备、现场调研、信息核查、后期写作制作等一系列环节，从而才能保障作品的真实性和可读性等标准。花费几个月甚至更长时间深入现场进行深度调查报道、挑灯夜战赶稿润色以期为读者呈现最好效果，对于新闻工作者来说是家常便饭。然而，不受新闻伦理约束的AIGC却能大批量、高效率地生成新闻报道。当大量 AIGC假新闻涌入信息平台，而大众却未拥有辨别能力时，新闻领域就极可能出现“劣币驱逐良币”的态势。</p>
+<p><strong>3.从生产到分发：尚未做好准备的新闻业</strong></p>
+<p>面对AIGC的入局，无论是生产还是分发，新闻业的上中下游似乎均未摸索出相对契合的共处之道，从而助推了AIGC假新闻的畅行。从传统新闻生产环节考量，无论是AIGC技术缺陷导致“幻觉生成”，抑或还是被刻意利用，当这一新技术带来的虚假新闻信息泛滥之时，社会公众对于新闻信息的信任度便随之下降，这给新闻从业者带来了全新的挑战。</p>
+<p>美通社2023年全球媒体调查报告显示，在针对全球3132名记者的调查中，有27% 的被调查者认为，保持作为可靠新闻来源的可信度，是新闻行业在这一年面临的最大挑战。在被问及新闻从业者和新闻机构的最优先事项时，“保持”内容准确大幅领先于其他选项。[12]一方面，AIGC技术能够让人类记者从较为繁琐、机械的基础工作中解脱出来。另一方面，一旦新闻机构越来越多地将生产新闻的能力让渡给 AI，与之相匹配的信息核查制度却尚未建立，由此便可能导致未经核查的信息加速流入网络，造成真实性的污染。</p>
+<p>从新闻分发环节考量，传统媒体时代，新闻信息从采访、撰写到刊发，过程中经历了重重把关，信息的真实性经过多重审查，确保出现在受众面前的新闻极少虚假。但平台化时代，人们已经更习惯从互联网直接获取信息，传统的“受众”向“用户”转变，新闻消费者与生产者的界限日益模糊，人人都可以发布信息，用户接收到的信息不完全来自权威的媒体信源。面对大量信息，平台的审核机制无法与传统媒体的把关机制一样行之有效，判断信息真实与否的环节从内容生产阶段后置到了信息消费阶段，而很难要求用户具备足够辨别假新闻的能力，这同样为AIGC假新闻的盛行提供了空间。</p>
+<p>算法同样会将用户更愿意听到的虚假声音进行精准推送。正如佐治亚理工学院交互计算学院副教授Munmun de Choudhury所说：“人工智能生成的错误信息实际上往往具有更大的情感吸引力。”[13]在算法对用户的精准了解和AIGC强大情感吸引力的双重加持下，AIGC假新闻以用户最想看、最愿意相信的形式来到他们身边。</p>
+<h3><strong>(三)AIGC时代，新闻内核仍不可失</strong></h3>
+<p>技术发展的潮流始终不可阻挡，步入新世纪，二十余年间层出不穷的新技术对新闻业的变革，速度之快、影响之大已远远超过了过往的任何一个时期。</p>
+<p>在新闻分发渠道上，从传统的专业媒体分发，到门户网站、搜索引擎，再到社交媒体、个性化推送的新闻客户端，分发渠道的变化与融合使新闻机构不断调整内容形式，以适应不同分发渠道的特征[14]。</p>
+<p>在新闻内容形式上，从传统的图文报道，到图文、视频等形式的融媒体新闻，再到强调受众互动性的游戏新闻、新闻直播等，新闻内容生产在技术的变迁升级中不断调整。</p>
+<p>在新闻生产手段上，写稿机器人、AR/VR新闻、传感器新闻乃至今天的AIGC新闻，构成了新闻生产的多元格局。</p>
+<p>“新闻，是新近发生事实的报道。”作为对于事实的报道，无论技术手段如何变化，真实性是新闻永远的底线与生命。AIGC新闻虽然在生产速率上有强大的优势，但缺失的事实核查能力却是其不可忽视的短板。如果新闻机构在使用AIGC进行内容生产时不能建立起完善的核查机制，势必会在新闻伦理层面遭到极大的挑战。</p>
+<p>无论技术如何变革，新闻真实性的内核永远不可丢失。避免AIGC生成的假新闻盛行，既需要机制性的保障，比如加强对AIGC内容的事实核查和细节校对，也需要社会层面的集体努力，比如通过官方教育提升社会公众的AI媒介素养，增强分辨虚假信息和低质量信息的能力。同时，应对假新闻还需要专业机构依靠长期形成的专业机能和规范向舆论场填充大量真实的新闻，避免“劣币驱逐良币”。[15]正如学者史新燕[16]所说，任何技术的社会化落地，其实质都是技术逻辑与社会选择“互构”的结果。AIGC应用于新闻内容生产虽在当下具有许多问题，但在社会各界的共同探索之下，或许将带来新的可能。</p>
+<h2><strong>三、平台转移：短视频新闻业快速崛起</strong></h2>
+<p>牛津大学路透新闻研究院每年都会推出一份观察报告《新闻、传媒和技术趋势预测》，来呈现全球新闻媒体在过去一年的发展趋势。在2024年的观察报告中，“平台转移”成为重要的关键词。报告引用了一项第三方数据，显示2023年来自Facebook的新闻网站流量下降了48%，来自X/Twitter的流量下降了27%。[17]</p>
+<p>造成这种变化的重要原因，就是用户的新闻接收习惯发生了转变。目下，以TikTok为代表的短视频平台，正越来越成为年轻受众获取新闻类资讯的渠道。</p>
+<p>这不仅仅是牛津一家机构的结论。多项大众调研都发现，短视频平台正在成为Z世代的主要新闻来源，也是在欧美国家越来越受欢迎的新闻来源。2023年，皮尤 （Pew Research Center）的一项调查发现，30岁以下成年人中的三分之一，经常在TikTok上浏览新闻。Ofcom关于英国新闻消费的最新报告也显示，TikTok是成年新闻受众增长最快的新闻来源。</p>
+<p>这些数据背后，呈现了全球新闻媒体行业正在发生的一项重要趋势与转变：短视频新闻正在快速崛起。</p>
+<h3><strong>(一)短视频重塑新闻业</strong></h3>
+<p>自2018年推出以来，短视频平台TikTok发展迅速，根据估算其全球用户已经超过 15亿。它不仅仅是娱乐化内容的承载地，更成为新闻资讯消费的重要平台。</p>
+<p>根据皮尤的数据，14%的美国人现在通过TikTok获得新闻——这比2020年增加了11个百分点。而在30岁以下成年人中，这项数据更是从9%增长到32%。</p>
+<p>与之对比，来自社交媒体平台的新闻消费比重正在下降。X（原Twitter）、Reddit、Snapchat、Facebook等，用户消费新闻的各项数据都在下降。得益于便捷的社交属性和巨大的用户数量，社交媒体曾经是新闻资讯的重要流量来源之一，但由于平台政策的变化以及短视频的挤压，形势确实有所不同。对于这一趋势，本报告第四章“内容分发格局重塑”，有专门的梳理和分析。</p>
+<p>短视频新闻崛起的背后，其实映射着媒介逻辑正在发生的巨大变化。以TikTok为代表的短视频平台，正越来越成为最有影响力的媒介之一。这种影响力正在现实世界中的各个领域中得以施展，以至于西方语境中甚至诞生了一个词汇，“TikTokfication”（TikTok化），用来描述互联网应用竞相模仿TikTok以适应冲击与变化的浪潮。</p>
+<p>在被TikTok或者更广义上的短视频深刻影响的众多行业和领域中，当然就包括新闻传媒行业。</p>
+<p>哪里有流量，哪里有受众聚集，哪里能够施展影响力，新闻媒体机构就会涌向哪里。随着TikTok的快速崛起，大量新闻机构都陆续开始入驻。根据路透新闻研究所发布的报告，在全球有规模的新闻机构中，超过一半的机构会定期在TikTok上更新内容。借助TikTok，这些机构得以触碰和影响更年轻一代的新闻受众，为未来的发展打下重要根基。</p>
+<p>类似于《华盛顿邮报》和《洛杉矶时报》这样的知名传统媒体，很早就进驻到 TikTok，开展新闻短视频化的尝试。更重要的是，这些机构的尝试，不是简简单单的媒介形式的转换，即把新闻内容用“视频画面剪辑+配音效”的方式再度呈现，而是基于短视频媒介特性的深度转型与适配。除了传统媒体，一些大型的广播公司和电视台，也纷纷尝试在TikTok上发布新闻类内容来吸引观众，并吸引了大量的关注者。</p>
+<p>除此之外，一大批基于短视频平台的原生新闻视频博主也正在涌现，他们进行了重要的新闻内容源补充，并且提供了区别于机构媒体的视角。他们往往会更加关注本地化新闻和热点社会新闻，并且在视频中有更多主观视角和受众思维，以评论的方式增加个性化内容，这种风格也吸引到特定的用户关注。</p>
+<h3><strong>(二)国内的短视频新闻有什么不同?</strong></h3>
+<p>为了适应短视频新闻的趋势，《洛杉矶时报》于2022年6月创建了名为“404”的新闻生产团队，专门开展实验性的搞笑视觉叙事。通过memes、视频特效、独特的出镜形象“Judeh”等等元素的应用，404团队生产出区别于传统新闻报道的新型风格，并在有关气候变化和环境议题的相关报道中创造了众多爆款作品。</p>
+<p>《华盛顿邮报》同样是传统媒体进行TikTok化的范例。为了适应短视频平台的传播节奏，《华盛顿邮报》专门聘请了视频制作人Dave Jorgensen担任主理人，他以“程序猿”的形象出镜进行新闻报道，通常一人分饰多角以还原事件、背景信息以及可能性后果，等等，并且以轻松幽默的风格讨论严肃的新闻议题。</p>
+<p>当然，不是所有的传统媒体在TikTok化的过程中都进行风格的大胆转化。比如英国《经济学人》就保持着自身的风格传统和特色，利用自身的专业优势，以连续叙事的方式对严肃议题进行深度的解释性报道。</p>
+<p>这些媒体的跨媒介尝试，都取得了相当亮眼的成功。它们以更加友好的方式，利用短视频媒介的特性，与年轻化的读者实现了沟通和密切联系。</p>
+<p>近几年，在国内的短视频平台上，同样掀起了一波新闻媒体的短视频化浪潮。</p>
+<p>如果你是短视频用户，应该会经常刷到这样的内容：画面由简单的资料画面或新闻图片组成，重点突出的文字标题，配上情绪较为饱满的背景音乐，通过这些元素的组合，用来呈现相关的新闻事件，并且同一个新闻事件的相关视频，往往会有几十个账号共同进行发布。</p>
+<p>除了元素上的统一，在内容报道上的及时性也是这类“短视频新闻”的共性，往往是一个新闻事件刚刚发生，这类视频就会迅速而广泛地出现在信息流中，成为文字新闻报道之外的补充，这些内容帮助习惯于使用短视频应用的用户也能够及时了解到重要的新闻事件。</p>
+<p>不过，区别于国外大型媒体机构在TikTok化过程中进行的多样性尝试，国内的短视频在呈现形式及元素采用上还较为趋同、重复，如何在新闻短视频化这一实践领域解决同质化的问题，会是媒体机构突围的重点。</p>
+<h3><strong>(三)“新闻软化”的趋势值得警惕</strong></h3>
+<p>短视频的媒介特性，以及算法推送的技术机制，型塑着短视频新闻的内容与形式风格。“短音视频”的内容形式实现了听觉与视觉元素的创造性结合，因而具备短时间内博得用户关注的“眼球优势”。同时，“偏好算法内容推送”根据协同过滤和个体既有偏好等标准，为用户提供了定制化的内容分发，并以持续滑动的方式予以呈现。此外，人工智能等前沿科技的加持让用户能够以较低成本参与甚至主导内容生产。[18]</p>
+<p>短视频区别于社交媒体和传统的新闻载体，具备不同的语言、节奏和呈现风格。但问题在于，新闻的特殊属性，导致它在触碰短视频的过程中也会发生一些错位。</p>
+<p>新闻追求真实性，但真实性的实现本身就是一个相当复杂的过程，需要多方求证、反复核验，并通过工作制度的设计来作为机制和流程上的保障。但短视频新闻追求的标准，往往是流量数字，而流量数字又跟发布时间挂钩，所以追求的目标又会演变成发布速度的快慢。往往是事件一发生，各类媒体就一拥而上，通过“画面剪辑+ 配文字”的方式进行内容产出。</p>
+<p>在这个过程中，专业媒体和自媒体融合在一起，都以发布的及时性作为标准，前者的事实考证优势不复存在。可以说，短视频的媒介机制决定了新闻的深度受阻。同时，短视频平台上内容鱼龙混杂，大量虚假信息在平台上蔓延。2022年的一项研究分析了540个热门新闻议题的相关TikTok搜索结果，如校园枪击事件、政治选举和疫苗问题等。结果显示，虽然TikTok确实检测到并删除了部分虚假或误导性视频，但整体上的虚假与错误信息率仍高达19.4%。[19]</p>
+<p>这既对用户对真假信息的鉴别提出了更高的要求，也对短视频新闻的生产提出了更多的考验。虚假新闻往往会有更耸动的标题和更加抓人眼球的画面，会更容易获得用户的关注，从而挤压了优质新闻的生存空间和传播机会。同时，较短的内容时长和相对简单的画面形式也限制了新闻的深度与严肃性，进而影响了新闻品质。</p>
+<p>这也是为什么大量被称为“新黄色新闻”的内容在短视频平台复现。它们往往不含有新闻信息，却极具流量价值。以显眼的大标题、惊悚音乐、夸张的事件为特点，点赞观看不在少数，却很难有什么新闻价值可言，而且其所呈现的新闻事件的真实性也相当可疑。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_c1412b0f82654029bd5bbbe92765067f@000000_oswg420099oswg668oswg343_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">注：国内的“短视频新闻” </p>
+<p>当然，从另一个角度来说，短视频新闻也有相当正面的作用。比如短视频新闻有助于缓解受众新闻回避和新闻疲惫的问题，尤其是对于很少关注传统新闻渠道的年轻一代受众来说更是如此。同时，由于电视新闻的落寞，本地化新闻陷入到低谷之中，而短视频新闻借助于算法推荐以及创作的低门槛，为本地新闻的产出和传播提供了更多的空间。</p>
+<p>整体而言，传统媒体不应该将短视频视作一种威胁，而应该将其看作是一种自然演变。无论是24小时电视频道还是社交媒体，抑或是短视频，都只是新闻的呈现形式所发生的变化，其内核依然稳定，受众的信息需求也依然存在。正如《卫报》在一篇评论中所提到的：短视频不是新闻业的敌人，而是新闻业接触人们的一种新方式。[20]如何运用好这个新的媒介形式，会是传统媒体在短视频时代的必修课和必须深入思考的问题。</p>
+<h2><strong>四、分发革命：传统内容分发格局重塑</strong></h2>
+<p>根据《财富》在2023年8月22日的报道，社交媒体X（原Twitter）正在进行一项新的功能测试，即去除新闻类分享内容的标题，仅保留其图片和链接。[21]</p>
+<p>这一功能于2023年10月生效，但迫于媒体和用户的投诉与压力，X在11月进行调整，重新恢复了新闻标题的显示，并在推文部分显示链接，而新闻标题会以黑底白字的形式嵌入到图片上方。但是，新的问题出现了，由于预览的尺寸不适用于所有标题，在默认尺寸下，超过字符数限制的内容就会被截断，这意味着新闻标题的显示可能会不完全。</p>
+<p>如果对实情缺乏了解，表面看起来，这次更新动作仅仅是产品显示逻辑的变换。但这一举动的实质，其实是埃隆·马斯克对传统媒体的“回击”——2022年8月，法新社等传统媒体起诉X，要求X为使用其新闻报道内容进行分成。而再继续深探，这一小小动作背后，又是新闻业与社交媒体长达十年蜜月期破裂的延续。</p>
+<h3><strong>(一)X对新闻媒体的“宣战”</strong></h3>
+<p>在过往版本的X上，一条典型的新闻网站分享内容，会以卡片的形式呈现。卡片由四个元素组成，即封面图、链接、标题和摘要文字：最上面是封面图，标题粗体显示，并附有摘要文字。用户如果对内容感兴趣，点击该卡片的任何一处，都可以直接跳转到原始网页阅读全文。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_f6b862d27a604455ba07d68fd88a9cde@000000_oswg352362oswg603oswg546_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而更新之后，只会在帖子中显示带有链接的一张图像。这意味着，如果发布者没有发布随附文本，用户将只会看到一张图片，以及可能不完整的新闻标题。</p>
+<p>根据埃隆·马斯克本人的说法，这一尝试“将极大地改善X的美学体验”。这不难理解，因为相比于之前由四部分元素组成的分享卡片，仅保留一张封面图无疑会更加简洁，而且从产品逻辑上，这会降低单条推文的高度，在同样的屏幕大小中能呈现更多的推文内容。在此之前，发布者可能利用夸张的标题与摘要吸引用户点击，仅保留卡片的方式也可能减少此类乱象。</p>
+<p>但这个改变对新闻内容的发布者并不是好消息。此前，新闻媒体可以借由内容分享卡片，为自家网站源源不断地引流，《纽约时报》《华盛顿邮报》都是典型的践行者。用户可以通过点击直接跳转到新闻网站，也增加了其他内容曝光的可能性。而仅仅保留封面图的方式无疑会更难吸引用户。所以，对于X来说，这一更新的真正意义可能是减少用户跳转，使其在X上停留更长的时间。</p>
+<p>埃隆·马斯克还盛情邀请记者在X上“直接”发布新闻内容，并且宣称各类组织（包括新闻机构）都能通过X的广告收入分成计划获得报酬。当然，这一切的前提是需要订阅X的付费高级服务，只有订阅该服务，才能在单条推文中最多发布2.5万个字符，也只有订阅了该服务才能享受分成。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_7f4b1e5ade4049bd91f01c6846d03c64@000000_oswg83572oswg594oswg236_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这已经不是X第一次针对新闻媒体有所动作了。在这次更新前不久，《华盛顿邮报》报道称，X一直在放慢用户访问《纽约时报》等新闻机构以及包括Facebook 等网站的速度。延迟的网站名单包括：Facebook、Instagram、Bluesky和Substack，以及路透社和《纽约时报》的官方网站。根据《华盛顿邮报》的测试，点击其中一个网站的链接，用户需要等待大约五秒钟才能看到页面。而其他网站并不受影响，页面会在一秒钟或更短的时间内打开。而在这个报道发布几小时后，X将延迟时间降低到零。</p>
+<p>对于网站来说，相当微小的访问延迟也会导致流量下降。谷歌在2016年的一项研究发现，如果网站加载时间超过3秒，53%的用户会放弃访问。至于X到底是有意为之还是技术故障，尚不得知。</p>
+<h3><strong>(二)社交媒体与新闻的“蜜月期”及其破裂</strong></h3>
+<p>其实不止是X，Meta此前也宣布，将在2023年12月初停止在英国、法国、德国这三个国家的Facebook News服务——Facebook上用于提供新闻的专项功能。[22]2024年4月初，Meta如约在澳大利亚和美国停止了Facebook News服务。</p>
+<p>社交媒体与新闻业的蜜月期，似乎真的结束了。[23]</p>
+<p>2008年金融危机之后，广告商的广告投入从传统媒体转向在线媒体。一面是以 Google为代表的搜索引擎，一面是以Facebook为代表的社交媒体，二者重塑了内容流量的格局。在这段时期，新闻媒体也从纸质出版转向了深度在线化，互联网超越电视和报纸，成为普通人群的主要新闻来源。</p>
+<p>源自搜索引擎和社交媒体的流量，尤其是后者，开始成为新闻媒体的最重要曝光来源。</p>
+<p>在这其中，尤为值得关注的是Facebook，也就是现在的Meta。在早期，马克·扎克伯格十分认可新闻内容的积极价值，他认为新闻内容能够提升社交媒体平台的声誉，以及从运营层面，能够提高用户的留存率和互动率等数据。因此，Facebook 曾一度大力强化新闻内容的推荐比重，让相关内容获得更多曝光。</p>
+<p>在这样的推动下，2006年至2016年，社交媒体与新闻迎来了长达十年的蜜月期。</p>
+<p>皮尤研究中心在2015年的一项调查显示，高达64%的网络用户通过社交媒体获取新闻。社交媒体对于新闻业的影响可见一斑。</p>
+<p>这段时期，是由社交媒体缔造的“新闻业的流量时代”，不仅是传统媒体获得新生，一大批数字媒体新贵也在这段时间涌现。例如21世纪最为知名的数字媒体BuzzFeed和VICE，业务模式就建立在社交媒体的病毒式传播之上，巨大的流量和用户注意力涌入这些媒体，随之而来的是大量的风险投资。鼎盛期的BuzzFeed和VICE，估值分别达到17亿美元和57亿美元。</p>
+<p>但是，对于新闻媒体而言，这种模式的根基始终是脆弱的。它们的兴衰存亡似乎完全取决于平台。一旦后者的算法和规则改变，商业模式就会受到重创，完全不由自己掌控。</p>
+<p>2016年，美国总统大选期间，Facebook被外界质疑利用算法操纵选举结果，“剑桥分析”事件更是直接将马克·扎克伯格送上听证会。面对各方抨击，Facebook宣布减少新闻内容的比重。在2018年，马克·扎克伯格的口径变成了：“新闻是十分重要的，但这只是一小部分人在Facebook上阅读的内容。”2020年，Facebook进一步强化相关举措，大幅减少新闻内容和政治内容的推送。</p>
+<p>转过头来看，这不只是Facebook一家的转向，而是社交媒体的整体趋势。算法的调整使新闻类内容得到越来越少的曝光，这对依赖社交媒体流量的媒体打击严重，由此造成行业性的集体困境。2023年，BuzzFeed创始人乔纳·佩雷迪宣布关停旗下新闻业务BuzzFeedNews，VICE宣布关闭新闻品牌VICE World News，其主站也正在进行破产申请。Vox Media、Insider、ABC News等一众数字媒体，都进行了不同程度的裁员。</p>
+<h3><strong>(三)日渐模糊的未来</strong></h3>
+<p>过往，新闻业与社交媒体的结合，使前者获得了更多的流量曝光与营收方式，但其内容生产模式和价值理念也发生了许多变化。社交媒体的流量逻辑，使新闻机构趋向于生产用户乐于分享的、适合社交媒体阅读习惯的内容，由此导致了严肃新闻的减少、软性新闻的增加，真实性、公共性等理念，开始让位于互动性、分享性和情感性。</p>
+<p>不仅如此，平台通过算法和推荐对新闻内容的呈现进行重组，各类榜单也在一定程度上影响了新闻内容的分发模式。通过算法分发与用户点击行为的共同作用，更符合流量逻辑的新闻被呈现，而严肃的内容则被隐藏于算法之后。</p>
+<p>反过来看，新闻媒体对社交媒体的作用到底是什么，到底是能够补充严肃内容、增加用户的留存与互动，还是会让整个平台因此变得过于政治化并引发“操纵舆论”的危机？不同平台对于这一问题的看法，决定了对新闻媒体的态度。</p>
+<p>但时至今日，大部分社交媒体似乎都铁了心要拒绝新闻媒体来“蹭流量”。</p>
+<p>以目前最大的两大社交媒体平台举例，X不必多说。自从2022年10月接手以来，埃隆·马斯克采取的一系列措施就对传统新闻媒体产生巨大冲击，包括关停一些记者的账号，删除《纽约时报》等媒体的身份认证等等。他更鼓励新闻记者在X上直接发布内容，避免用户因跳转而流失。</p>
+<p>而X的竞争对手，另一大社交媒体平台Meta，也表明了鲜明的“拒绝”态度。在 2023年9月5日发布的声明中，Meta这样说：“用户访问Facebook不是为了新闻和政治内容，而是为了与人们建立联系，发现新的机会、激情和兴趣。新闻类内容之于世界各地用户在Facebook信息流占比不到3%，因此新闻只是绝大多数人Facebook体验的一小部分。”在Meta旗下的新应用Threads上，也鲜少能够看到新闻内容和记者的身影。</p>
+<p>社交媒体与新闻之间的关系已经成为一种文化现象。根据皮尤研究中心在2021年的一项调研，目前有略低于一半（48%）的美国成年人，会“经常”或“有时”从社交媒体上获取新闻。“分享”是社交媒体的特质，它也让更多的新闻内容被看到，更多的故事被讲述，以及更多的重要事件被分享、讨论与传播。社交媒体既是新闻的来源，又是新闻的创作者。任何人都可以进行第一手的信息发布与分享，他们不必是新闻机构的从业人员，这些分享本身就构成了新闻的一部分。</p>
+<p>当然，也正是因为分享如此容易，以至于人们很难一一确认他们所分享的内容的准确性。假新闻和编造的事实大肆传播，它们往往比真实新闻事件更容易获得分享，因为更具噱头，也更吸人眼球。社交媒体无法有效控制假新闻和虚假信息的传播，以及由此引发的分歧与对立，也成为平台降低新闻内容比重的一个动机。</p>
+<p>对于现在大部分新闻机构来说，当然能够认识到社交媒体传播的重要性，但他们必须与没有相同编辑原则和价值观的内容创作者分享社交媒体这个空间，很多时候甚至是竞争关系。从业人员和机构学会适应这一模式，变得愈发重要。但现在的情况是，X和Facebook等社交媒体“拒之千里”的态度，让一切都越来越成为新闻机构的一厢情愿。</p>
+<p>而生成式AI的崛起，也以相当迅猛的姿态冲击了内容分发格局。当AIGC内容涌入到社交媒体，类似“新闻bot账号”的出现，也会夺走用户本就有限的注意力，用户更倾向于选择获取快速、易得的新闻摘要，从而影响新闻媒体的曝光。</p>
+<p>在线新闻媒体的另一大流量来源搜索引擎，在AIGC应用深化之后，也会发生很大变化。生成式人工智能正逐渐成为搜索引擎的主要信息源。微软的Bing浏览器整合了ChatGPT，升级为NewBing；谷歌也宣布在搜索结果中将优先显示人工智能（ 如旗下的Bard）生成的内容。谷歌在2023年3月的测试显示，Bard仅提供基本答案和摘要，但并未附上新闻来源链接。</p>
+<p>对搜索引擎来说，这是一种自然而然的“市场行为”，因为它能直接呈现整理过后的搜索结果，极大提升用户检索信息的效率，优化用户体验。然而，一旦形成这样的模式，即搜索引擎将更多流量分配给生成式人工智能的生成结果，更为深度、长篇的新闻报道内容将无人问津。由于越来越多的用户直接从搜索页面获取所需内容，而不再点击进入新闻媒体的主页，依靠广告收入分成的新闻媒体的生存空间将受到压缩。以广告为核心的收入模式将面临巨大冲击，而媒体的订阅收入也将直接受损。</p>
+<p>面对内容分发格局的变革，新闻业的未来日渐模糊。直面变化，并且找到更好的适应方式，或许是新闻业当下最好的选择。</p>
+<h2><strong>五、技术替代：新技术冲击行业裁员与洗牌</strong></h2>
+<p>2023年5月，好莱坞发生了一场全世界都关注的“大罢工”。</p>
+<p>这场罢工行动，是好莱坞有史以来规模最大的一次。从最初1.1万名编剧参与，逐渐卷入了包括导演、演员等多个演职人员工会。多档热门节目和剧集停播、停拍，整个美国影视行业陷入混乱。在罢工长达148天后，双方于9月达成初步协议。据称，协议中编剧们在人工智能、数据透明度、剩余报酬和最低人员配置等方面获得了关键性的胜利。[24]</p>
+<p>这不是发生在好莱坞的第一次罢工。1988年，“美国编剧协会”（Writers Guild of America，WGA）的罢工持续了53天；2007年的罢工则从11月一直持续到第二年的2月。</p>
+<p>值得一提的是，这几次的罢工起因，皆是新技术的出现，第一次是录像带，第二次是DVD。而这一次出现的新技术，则是AI。可以说，这并不是一场孤立的罢工行动，而是隐喻着以AI为代表的新技术对于传媒影视行业的冲击。</p>
+<h3><strong>(一)一场事先张扬的“大罢工”</strong></h3>
+<p>这次罢工的起因，简单来说，就是编剧人员所属的工会“美国编剧协会”（WGA），未能与代表好莱坞几大工作室的“电影和电视制片人联盟”（Alliance of Motion Picture and Television Producers，AMPTP）在新一轮的合同上达成一致。</p>
+<p>早在2023年4月，11500名美国编剧协会成员就经过投票，压倒性地同意，如果新合同未能签署，就将举行罢工。结果，在5月1日旧合同到期后，新的合同还杳无音讯，于是第二天罢工就开始了。因为参与主体主要是好莱坞的编剧与演职人员，所以这场罢工行动就被称为“好莱坞大罢工”。</p>
+<p>双方未能达成一致的焦点在于加薪协议。WGA要求为编剧人员争取接近6亿美元的加薪总额，但AMPTP否决了这一要求。AMPTP背后的阵营包括亚马逊、迪士尼、环球影业、派拉蒙和Apple等大型公司与影视平台。</p>
+<p>好莱坞历史上发生的每一次罢工，都对美国的影视行业产生了巨大影响。这一次罢工也不例外。除了《吉米·法伦今夜秀》《周末夜现场》等多档夜间脱口秀节目停播以外，根据《华盛顿邮报》的统计，有二十余部影视剧集或项目受到了影响，包括正在拍摄的《怪奇物语》最终季、《阿凡达》和《星球大战》的续集、《权力的游戏》衍生剧《七国骑士》等。[25]因为没有编剧，这些剧集无法继续拍摄，一些夜间节目则以重播旧节目暂为替代。</p>
+<p>由于罢工的溢出效应，与影视相关的行业也受到波及。包括道具制作公司、设备公司、运输司机等从业人员，甚至是拍摄现场的餐饮工作人员都失去了工作。</p>
+<p>除了编剧，好莱坞的演员和导演们也就新一轮的合同与AMPTP进行谈判。演职人员加入罢工，无疑导致了好莱坞更广泛的停摆。而在这几个阵营中，美国导演协会（DGA）最先与AMPTP达成协议，包括增加薪酬（3年内加薪12.5%）和福利待遇、提高流媒体内容分成以及防止人工智能滥用等内容。</p>
+<h3><strong>(二)AI正成为冲突核心</strong></h3>
+<p>根据WGA此前发布的一份报告，过去十年间，作家、制片人的周薪中位数下降了 23%。同时，美国编剧中有近一半（49%）在领取最低工资，他们的薪酬标准仅仅比10年前提升了16%。[26]</p>
+<p>这听起来匪夷所思。毕竟过去十年，也是流媒体平台迅速发展、攻城略地的十年。网飞创下了一个又一个数据奇迹，并占据好莱坞半壁江山，大量的剧集被开发、拍摄、播出，创造巨额利润，与之对应，制作投入也在水涨船高。但编剧获得的收入却相当少，甚至一直在缩水。</p>
+<p>这不得不提到流媒体平台对传统制作模式的冲击，以及由此导致的编剧收入下降等问题。</p>
+<p>过去，在传统的影视制作行业模式中，编剧受聘写作剧本，一部剧大概会雇佣 7~12位编剧，他们集中writer's room（编剧室）里，用时20周左右来撰写完整剧本。</p>
+<p>但在流媒体的时代，writer's room变成了mini room（迷你编剧室）。制作方会要求编剧先完成大纲，或者试播集剧本。而后续的剧本制作要么会因试播集反响平平而停止，要么制作方会聘请要价更低的初级编剧，根据大纲完成剩下的剧本。同时，剧集也从20集传统剧集变为6~8集的流媒体剧集。</p>
+<p>这样的状况，不仅使编剧面临极大的工作压力，他们的基本福利也无法得到保障。因为制作方只有在编剧为他们工作的时候才会提供福利保障，而他们实际的工作时间大大减少了。编剧正在成为一种非常不稳定的工作类型。</p>
+<p>除了流媒体平台的冲击，AI特别是AIGC也成为此次冲突的核心。</p>
+<p>自2023年初以来越来越受到关注的ChatGPT，已经影响到好莱坞乃至整个影视行业。漫威最新播出的影视剧《秘密入侵》，就已经将AI运用于制作过程，生成了开场字幕，并饱受争议。</p>
+<p>对于编剧来说，本就微薄的福利，很难再受得住AI就业替代的冲击。同时，AI训练的资料库，现有的剧本占其中很大一部分。这相当于是AI窃取了编剧的劳动成果，却不需要支付任何报酬。所以，针对AI的种种要求，成为这次罢工中的多方主体所争取的核心。</p>
+<p>WGA在谈判过程中要求不允许AI获得署名，并且不能要求编剧根据AI写好的内容</p>
+<p>进行修改，因为这样也会显著减少工作时长。与此同时，在未经允许的情况下，制作方不可以将工会成员的剧本进行AI训练。导演工会和演员工会的谈判也聚焦于这一点，前者要求确认AI不能取代导演工会成员履行职责，后者则声明禁止在未经许可的情况下，使用演员的肖像进行人工智能训练。</p>
+<p>直至9月末，罢工停止，最后的协议规定：AMPTP可以使用AI生成的素材，但不能撰写或改写文学素材，AI生成的素材不会被视为原创作品，这是为了保护作家的版权不被AI破坏，作家也不能被要求使用AI软件。AMPTP还同意公开流媒体播放时长的保密数据，并据此支付更多的剩余报酬，编剧们还赢得了对电视节目编剧最低聘用人数和聘用期限的要求。[27]</p>
+<h3><strong>(三)AI带来新闻传媒行业的“大洗牌”</strong></h3>
+<p>好莱坞大罢工中，AI正在成为冲突核心。而在好莱坞之外，AI也正在带来新闻传媒行业的“大洗牌”。</p>
+<p>2017年底，麦肯锡全球研究院（McKinsey Global Institute）发布了一份有关人工智能与全球就业市场的宏观报告，报告预测，随着科技的进步，到2030年，保守估计全球15％的人（约4亿人）会因人工智能工作发生变动，激进预估会影响30％的全球人口，也就是8亿人。</p>
+<p>在新闻传媒行业，由新技术带来的行业洗牌，在一定程度上印证了这样的预测。德国出版巨头Axel Springer的CEO坦承，该公司准备降本增效，用AI取代部分记者；全球第一家完全由人工智能生成的新闻网站NewsGPT也已经露面，它没有记者，所以号称没有偏见，每周7*24小时提供“准确可靠”的资讯。</p>
+<p>新闻传媒业不仅需要应对全球经济滑坡所带来的行业经济下行问题，同时流媒体AI等技术进入新闻业后，不断冲击原有的新闻采编、分发模式，影响着新闻记者的生存状况。例如自动化报道和自动编辑系统的引入，在解放一部分人力的同时，也造成了部分从业者的冗余。</p>
+<p>根据福布斯的统计，自2023年1月至今，三十余家报纸及媒体机构进行了不同程度的裁员，其中最为惨烈的当属《洛杉矶时报》。2023年6月7日，《洛杉矶时报》宣布由于“经济环境和新闻行业的独特挑战”，将裁减新闻编辑室的74名员工。2024年1月23日，又宣布裁员20%以上，涉及至少115名员工，包括记者、资深编辑和专栏作家。[28]</p>
+<p>数字媒体BuzzFeed也因计划采用AI生成测验类内容而裁减一定比例的员工。在2023年4月20日，BuzzFeed创始人再度宣布关闭旗下新闻业务，裁退约180名员工，涉及内容、技术、行政等部门，占总数的15%。</p>
+<p>不仅如此，AI也广泛影响着各类内容生产行业。2023年，继谷歌、亚马逊、Snap、领英之后，音乐流媒体Spotify也启动了第三次裁员。Spotify的首席执行官丹尼尔·埃克在相关声明中表示，随着规模的精简，公司也将能够拿出更多的利润投入到业务中，“精简并不意味着目标会缩小，而是意味着将用更聪明、更有效的方法去达成目标”。而这个所谓“更聪明、更有效的方法”其实指的就是人工智能 [29]。</p>
+<p>一如布莱恩·阿瑟在《技术的本质》中所总结的，经济会对新的技术体的出现作出反应，它会改变活动方式、产业构成以及制度安排，也就是说，经济会因新的技术体而改变自身的结构。新技术搅动旧的格局，自然而然也将带来新的问题、新的冲突，这将是一个永恒的问题。</p>
+<h2><strong>六、受众4.0：技术赋权受众转为信息生产者</strong></h2>
+<p>自互联网诞生，关于“新闻受众”的争议就不绝于耳。原因很简单，当人们能够随时随地在互联网上发布信息，甚至在很多新闻现场，普通人比传统的新闻媒体机构能更快地传播信息，似乎成为了“新闻制造者”。</p>
+<p>而高歌猛进的AIGC则让人们再次审视新闻受众的概念。如果说互联网赋予了人们“传播”信息的能力，AIGC则让“创造”信息成为了可能，受众的能动性愈发不可忽视。</p>
+<p>根据学术领域对于“受众”进行的分类，作为日常对话主体的受众是“受众1.0”，作为媒体内容读者和注意力商品的受众是“受众2.0”，在“人人都是新闻记者”的社交媒体时代，能够随时记录、随时发表的受众成为“受众3.0”。那么，步入AIGC时代，借助AI，获得媲美专业生产能力的受众，直接迈入了“受众4.0”时代。</p>
+<h3><strong>(一)AIGC时代：受众从传播信息到生产信息</strong></h3>
+<p>对于新闻业而言，AIGC不仅将改变内容生产方式，同时也将重构生产关系。</p>
+<p>回顾技术发展史，互联网的出现已经实现过一轮转换。Web 2.0时代，个人博客 （Blog）、社交媒体等媒介形式的应用，使得普通人获得了“发表权”，即可以在网络上发表自己的各类观点。这扭转了前互联网时代传统媒体对发表权的独占局面。由于建立媒体机构、创建一份报纸或一家电视台的成本极高，从而形成了信息发布的高门槛，普通人很难有机会和足够的资本建立自己的渠道，而借助互联网和移动设备，每个人都成为了“新闻记者”，随时随地记录、随时随地发布。</p>
+<p>如果说互联网改变了内容分发的格局，那么以ChatGPT为代表的AIGC技术则实现了内容生产的“平民化”，普通人借助AI的力量，跨越专业门槛，成为媲美专业人员的内容生产者，基于自身需求，进行定制化的新闻内容生成。而借助社交媒体，发行的成本同样可以忽略不计。</p>
+<p>简而言之，互联网赋予了受众记录事实、分享信息的能力，让文字、图片和声音成为表达所见所想的工具。而AIGC带来了更为深层次的变革，它直接赋予了受众创造与生产信息的能力。受众只需要输入指令性的文本，就能够获得想要的内容。如果说前者意味着受众参与信息分发并成为重要一环，后者则意味着受众能够开始更高效地生产内容，有望成为专业高效的“新闻制造者”，与媒体机构共同进行新闻信息的生产。</p>
+<p>作为一项底层技术能力，AIGC门槛相对较低，只要解决网络问题和账户问题，不仅新闻从业人员可以使用，普通用户也可以使用。对于新闻从业人员，由于其专业化水平较高，考虑到可读性、生产时间成本等因素，对AIGC技术的接纳程度可能并不深入。而对于普通受众，由于没有类似的“专业包袱”，会更愿意使用相关技术。</p>
+<p>在这种情况下，利用AIGC的生成能力，普通人也可以进行新闻信息的生成。例如，针对某一新闻事件，让ChatGPT快速生成一篇交代前因后果的新闻报道，也可以让ChatGPT生成近期发生的系列新闻的摘要，方便快速了解新闻。此外，还可以直接生成新闻评论等内容。</p>
+<p>在互联网的海量信息中，如何快速地获取信息、整理信息向来是难题。这里的信息不仅指向文本，也包括大量的多媒体内容。而且不同的网站和应用程序，不同的地区，不同的时间阶段，各有不同的信息。AIGC工具能够在用户的指令下，迅速获取、整理、概括和总结信息，让用户更加高效地理解和利用信息。从这个角度来说，AIGC能够代替一些总结性的、解释性的新闻内容。</p>
+<p>更重要的是，得益于多模态生成能力，AIGC能够在文本的基础上迅速生成图片、视频和音频等多媒体内容，极大地降低了内容制作的门槛。以前，制作图片和视频等内容需要专业的技能和设备，但现在，普通人也能借助AIGC的力量，轻松生产出有趣、生动的、形式丰富的多媒体内容。</p>
+<p>简单来说，以前人们仅仅能够在互联网上记录并传播信息，但如今互联网能够直接帮助人们生产信息。在这个过程中，受众不再仅仅是新闻信息的消费者，而是成为了新闻信息的创作者和生产者，由被动转成主动，从而实现了身份主体的转换。由此，AIGC不仅改变了内容生产方式，还重构了生产关系。</p>
+<p>未来伴随AIGC应用的进一步深化，无疑会激发更多人创造内容的热情。虽然普通人难以长期稳定地生产信息，但由于生产主体数量是巨大的，因此生产的信息从长期来看也是海量的，可能对媒体机构的内容生产地位形成冲击。这对新闻业的影响也是深远的。受众拥有采集和生产内容的能力之后，可以更加独立自主地进行内容消费，对新闻媒体产出的信息依赖程度降低，进一步降低后者的影响力和“把关人”地位。受众以往是媒体机构的服务对象，如今却可能成为媒体机构某些层面的“竞争对手”。</p>
+<h3><strong>(二)受众4.0之后:新闻不存在了?</strong></h3>
+<p>尽管传统的新闻媒体机构心存隐忧，担心他们生产的新闻会被AIGC取代，但如果我们转换视角，一个可能的回答是，新闻不会被替代，而是被消解了。</p>
+<p>19世纪起，技术的每一次进步都带来了新闻业的飞跃。电报、电话、广播、电视，无不催生了影响力巨大的新闻媒体。但20世纪90年代开始，互联网以及相关计算机技术的每一次发展与革新，几乎都给新闻业带来不同的挑战。</p>
+<p>这一现象的原因是，以往的媒介技术主要帮助新闻媒体扩大他们能够接触到的受众群体，新闻可以分发到更广阔的社会大众中去；但互联网等技术，赋予了受众制造内容、发布内容的权利，催生了“公民记者”“自媒体”等群体。</p>
+<p>在这一过程中，互联网等技术在逐步消解新闻的意涵。好比一场灾难发生了，无论是火灾、车祸还是地震，人们总能在网上找到目击者发布的照片或视频，这些内容常常还伴随简单的文字说明，比如时间和地点。这些零碎但又即时的、真实的信息，算新闻吗？</p>
+<p>要在这个问题上取得共识并不容易。但是，无论是否认可这些信息属于新闻，都不能否认，这些信息实际上发挥了新闻的功能。所谓“新闻”，其核心就是关于新近发生的事实的信息。从这个角度出发，普通人分享的信息，实际上符合新闻的内涵与功能要求。</p>
+<p>简单来说，当传统的新闻媒体机构焦头烂额，担心受众会取代自己的专业地位，但受众自身可能并没有想去生产新闻，也并没有想要取代机构媒体。他们只是有意无意地生产、传播某些信息，这些信息自然而然地发挥了新闻的功能，挤兑了媒体机构生产的新闻，更加吸引受众的注意力。</p>
+<p>有趣的是，在人们传播的海量信息发挥新闻的功能之际，很多媒体机构却开始生产大量的非新闻性信息，包括但不限于风景、萌宠、美食、养生等话题相关的内容。这在很大程度上是因为新闻媒体机构越来越难获取注意力，生产专业的新闻资讯的成本又比较高，为了实现互联网上的“全时传播”，只能生产非新闻性的信息来“填充版面”。</p>
+<p>于是现状变成，普通人分享的很多信息充当了新闻的角色，专业的新闻媒体机构却发布了很多跟新闻没什么关系的内容。新闻的意义，也就逐渐弱化了。人们依然会想要主动地获取各类新近发生的事实，也想要了解相关的评论和解读，但他们不一定会将这类信息理解为新闻。比如，人们会去关注新闻当事人的微博，关注某些专家学者的B站和抖音账号，但他们不认为这是在关注新闻，也不对传统媒体机构生产的新闻内容感兴趣。</p>
+<p>新闻传播领域的研究者们早已注意到了这一现象，并尝试用各种概念去阐释，一个比较受认可的概念是“液态的新闻业”。其基本意涵是，新闻业的边界以往是相对固定的，但现在就像液体一样，是流动的，边界是不明晰的。</p>
+<p>“液态的新闻业”意味着记者的身份不再固定，他们可以在记者和社会大众之间不断转换自己的身份，新闻受众同时也在成为新闻信息的生产者。记者与非新闻从业人员之间的“流动”成为常态，这一界限在某些情境下甚至会消失。新闻的本质是信息，以往新闻作为一种特殊的信息，有相对明确的边界，区别于其他类型的信息，但现在，新闻跟其他信息越来越难区分。</p>
+<p>技术消解新闻，并不是说新闻不存在了，发挥新闻功能的信息依然存在，但这种信息是否被认为是“新闻”，在社会层面可能缺乏共识。换言之，新闻的所指依然存在，但其能指已经被掏空了。在这种背景下，媒体机构担心新闻被替代，可能只是一个伪命题。“新闻受众”这个概念是否还存在，也应该打一个问号。</p>
+<h3><strong>(三)媒体机构如何应对冲击?</strong></h3>
+<p>虽然新闻业的边界在淡化，但在可预见的未来，传统的新闻媒体机构依然会持续存在，但这并不意味着所有的媒体机构都能度过技术浪潮的冲击，必然有媒体机构会在这一过程中落后，甚至被淘汰。面对AIGC的冲击，面对受众4.0的崛起，如何应用技术实现转型，而不是被技术淘汰，如何形成与普通创作者的差异化、强化专业边界，是新闻媒体机构必须直面的挑战。</p>
+<p>实际上，AIGC对于媒体机构来说，也是提升生产效率的利器。AIGC无疑能够帮助媒体机构更加快速、更加准确地生产不同媒体形态的内容。虽然说AIGC的门槛已经降低至普通人就能使用，但媒体机构的核心竞争力在于，能够持续地生产专业信息。</p>
+<p>虽然互联网上普通人可以生产传播各种信息，但持续生产是一般受众所难以实现的，即便AIGC很高效，依然存在时间成本，特别是某些大模型需要收费，对普通人来说可能不愿或难以承担。此外，某些受众可能熟悉特定的专业领域，拥有丰富的知识储备，但他们要跟媒体机构一样保持高频的内容产出，也并不轻松。再者，媒体机构生产的内容更为多元，而普通人的产出可能仅仅局限于自己的生活和专业背景，如何持续地生产不同类型的内容，难度就更高了。</p>
+<p>AIGC虽然入门的门槛相对较低，但要真正利用它生产出令人瞩目、高质量的内容，难度不容小觑。AIGC的本质是基于文本生成内容，而文本本身即是思维的一种外在表现形式。要想通过AIGC生成高质量的内容，首先必须具备卓越的思维，并且能够用精确、富有逻辑的语言将这些思维表达出来。</p>
+<p>具体来说，AIGC的使用者必须具备独特的见解和创新的思维，这样才能为AI提供丰富、有深度的内容基础。在此基础上，他们还需要具备出色的表达能力，将这些思维以清晰、有条理的方式传达给AI。此外，他们还需要对如何“驯化”AI有一定的了解和实践，知道如何通过调整参数、优化算法等方式，使AI能够更好地理解并呈现出自己的想法。</p>
+<p>在这个过程中，思维与想法是最珍贵的部分。很多时候，人们在面对AI时，可能连自己真正想要的是什么都不知道。在这种情况下，使用者很难通过AI生成出吸引人、有深度的内容。毕竟，在AI具备自我意识之前，它只能作为一种服从人类指令的工具存在。而如何巧妙地运用这一工具，本身就是一种需要不断学习和提升的能力。而媒体机构拥有专业的从业者、丰富的内容生产经验，无疑比一般用户更具优势。</p>
+<p>虽然AIGC为新闻业带来了众多正面影响，但与此同时，它也伴随着一系列潜在风险。其中，新闻的真实性首当其冲。在AI轻易创造万物的今天，我们如何确保所接触到的内容都是真实可信的？</p>
+<p>早在2019年，非洲加蓬就曾发生过深度伪造技术（deepfake）引发政治风险的事例。近年来，如何监管AI更是国内外热议的话题，但除了法律层面的监管，传统媒体机构在新闻伦理道德层面也应当肩负责任，为AIGC的使用制定一套通用的规范。</p>
+<p>凭借多年积累的社会公信力、新闻生产经验以及广泛的传播渠道，媒体机构完全有能力尝试为AIGC的使用制定规则，形成新闻伦理道德相关的规范，并在此过程中强化自身的专业地位，甚至还能通过规范技术的方式，为未来的技术发展指明方向。2024年3月21日，中央广播电视总台正式制定出台了《中央广播电视总台人工智能使用规范（试行）》，正是相当有益的尝试。</p>
+<p>真实是新闻的生命，社会永远需要真实可靠的信息。在AIGC等技术的冲击下，无论受众发生何种变化，无论信息的形态有何不同，当新闻媒体机构致力于维护全社会真实信息的生产与传播时，便履行了自身的社会责任，也就能够在信息生产和传播的激烈竞争中存活下来。</p>
+<h2><strong>七、内容在地：本地新闻的失落与重生</strong></h2>
+<p>在二十一世纪的前二十年，美国新闻业经历了纸媒时代的最后高光时刻，领略了数字媒体造就的黄金时代，但随之而来就是较为漫长的冰河时期。尤其是2020—2022这三年，新冠肺炎疫情以及伴生的经济增长放缓，给新闻业带来沉重打击。而这其中，本地新闻又首当其冲。</p>
+<p>根据一项报告的统计数据，仅仅在2020年4月和5月，美国就至少有30家报纸关停或者合并，另外有数十家报纸取消纸质版、全面转向在线化，传统和数字新闻业务的数千名记者被解雇，成千上万个社区的居民失去了本地报纸。[30]面对现状，这份报告给出了一个相当精准却又悲哀的描述：这些社区和居民，陷入了“新闻荒漠”（news desert）之中。</p>
+<p>所有的这些负面变化，激发了一种不安情绪：对于本地新闻生态系统崩溃的担忧。</p>
+<h3><strong>(一)本地新闻的失意20年</strong></h3>
+<p>本地新闻，又称“地方新闻”，一直是新闻系统的重要组成部分，它以新闻事实的发生地为标准，特指发生在本地区的新闻事件，涵盖政治、财经、体育、民生等多种类型的报道，以满足本地居民的新闻需求。</p>
+<p>疫情与经济放缓在短时间内极大加速了本地新闻的衰落。根据统计，美国有200多个县没有当地报纸，近50%的县只有一份报纸，而6%以上的县根本没有专门的本地新闻报道。报纸以外的其他媒体来源也无法填补这一空白，例如数字媒体，尽管它们在报道和分发本地新闻方面更加便捷（开设一个本地频道即可），但它们通常会关注人口更加密集的社区，而不是潜在受众稀少的落后地区。超过6500万美国人生活在只有一家当地报纸或根本没有一家报纸的县。[31]</p>
+<p>本地电视台也是如此，电视新闻倾向于关注全国范围的新闻事件或最具耸动性的本地故事，因而谋杀、犯罪、车祸或自然灾害类的题材会更受青睐。而许多受到资助的公共媒体机构，则主要依赖于转载内容而非原创报道。这些媒介都无法缓解本地新闻的来源焦虑。</p>
+<p>在过去的15年，美国失去了2100多份报纸，这使2004年初拥有本地新闻媒体的 1800个社区，在2020年初已经没有任何报纸。即便是幸存的6700份报纸，许多也早就已经成为“幽灵报纸”：只有原来的“外壳”，但新闻编辑室的采编人员和报纸读者数量都大大减少。这同样是不可忽视的情况——在过去的15年里，一半的报纸记者和读者也消失了。[32]</p>
+<p>以报纸《Siftings Herald》为例，其在2018年9月发行最后一期时，订阅者数量已经降低到只有1600份（当地有1万名居民）。几十年来，该报一直保持周一到周五每天出版，但随着订阅者和广告收入下降，先是在2016年减少到每周两期，而后在2018年被所有者关闭。</p>
+<p>本地新闻的衰落当然有迹可循。它既融于整个新闻行业衰退的大背景之中，也有自身的独特原因。这一趋势早于互联网的兴起，早在20世纪五六十年代，来自广播、电视的竞争，就致使报纸受众开始流失。而互联网的出现则彻底加速了这一进程。新闻受众的阅读习惯和注意力方向都发生根本性的变化，而后出现的个人博客、社交媒体、短视频等等每一种媒介形式，都将纸质报纸向更大程度的衰退推进了一层。</p>
+<p>而本地新闻衰落的另外一个核心原因，则关乎于广告。广告是新闻媒体的主要盈利来源，对于本地新闻媒体来说也是如此。但步入平台时代，以搜索引擎、社交媒体为代表的各类平台在广告方面获得了更大的优势，原因在于平台可以通过各类行为信息，来确定最有可能购买特定产品或服务的用户，并以此来进行个性化推送。相较于传统的广告模式，定向广告触达效率和精准度更高，对于广告商来说，也可以节省更多的广告预算。</p>
+<p>但显然本地报纸没有办法获取这些数据（它甚至无法实现很好的数字化），更没有技术能力提供相同类型的定向广告。因此，广告商已经将广告投入从传统报纸转向了以搜索引擎和社交媒体为代表的在线平台，例如Google和Facebook。而剩下的份额，则由电视台、报纸和广播电台来竞争。根据统计，2008年至2018年间，报纸行业的广告收入下降了68%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2184e3a70cc146d3b297cd9a8a8ae2f9@000000_oswg28289oswg573oswg443_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>广告的转移，与受众的注意力流向一致。不仅仅是广告，用户的新闻需求也正在从本地的新闻报纸，迅速流向社交媒体平台。2019年皮尤研究中心的一项调研发现，目前超过一半的美国人（54%）“有时”或“经常”从社交媒体获得新闻。皮尤还发现，Facebook作为美国人最常用的社交媒体网站，超过一半（52%）的美国成年人在那里获得新闻；YouTube是第二受欢迎的新闻来源，28%的成年人在上面获取新闻；其次是Twitter（17%）和Instagram（14%）。从2018年起，社交媒体已经超过了报纸，成为大多数美国人的新闻来源。</p>
+<p>随着广告收入下降，媒体采取了一系列措施来保持盈利水平。比如，为了削减发行成本，许多地区的本地报纸减少发行面积和纸质版数量，例如《亚特兰大日报-宪法》在1996年向居住在佐治亚州的124个县的读者售出42万余份报纸，然而现在数字已经下滑到在32个县售出11万份报纸。同时，为了抵消订阅收入的下滑，许多报纸提高了订阅价格，这加速了订阅数量的下降趋势。毕竟今时不同往日，从社交媒体获取信息已经过于简单便捷，况且还是免费。</p>
+<h3><strong>(二)本地新闻衰退，影响是什么?</strong></h3>
+<p>当一个地区失去了专门的本地报道，留下的“信息真空”将产生各个层面的负面影响。在美国，本地的新闻媒体在所属地区通常发挥着重要的信息同步和议程设置作用，它是本地居民有关地方政府、地方选举以及其他公民活动的重要信息来源2010年的一项研究发现，居</p>
+<p>住在洛杉矶县郊区、可以接触本地日报的受访者，会比生活在没有报纸的社区的受访者更有可能参与定期投票。而2019年的一项报告显示，在报纸裁员最严重的地区，当地市长选举的竞争程度较小，而那些在失去当地报纸继续参加选举的人更容易受到政治两极分化的影响。2018年的一项研究发现，失去本地报纸的县在2012 年选举中的票数比那些拥有专门的地方新闻来源的县要少。[33]</p>
+<p>除了政治信息同步，本地报纸还能发挥“黏合剂”的功能，有助于在社区内形成一种共同的目标感和社会认同感，由此可以成为团结当地的一股强大力量。当本地报纸停办，围绕在它身上的政治功能和社会共识维系功能就会随之消失。</p>
+<p>除此之外，社区居民对于本地新闻的需求，并不会随着新闻来源的减少而消失，而是会转移到社交媒体上。在没有本地新闻来源的情况下，越来越多的当地居民开始从社交媒体上获得本地的新闻和其他信息。但问题在于，由于发布门槛低以及缺乏严格的核查机制，社交媒体中弥漫着大量的虚假消息和错误信息，而这些信息将带来严重的误导。</p>
+<p>过去，本地新闻机构通过报道当地的实时消息和专家意见，在打击错误信息的传播方面发挥着关键的作用，这一点尤其是在疫情期间得到了深刻的体现。而随着本地报纸的大量关停，居民们在很大程度上失去了了解自己社区正在发生事情的渠道，以及通过当地媒介与他人进行连接的能力。</p>
+<p>可以说，本地新闻的消失不仅仅营造了“信息真空”，让可用的信息越来越少，同时还将居民抛入到有很强误导性和欺骗性的信息环境之中，并且他们之间逐渐孤立。但这些负面影响显然还没有被作为信息消费者的居民所意识到。根据皮尤研究中心的一项调研，四分之三的公众仍然没有意识到本地新闻机构面临的严峻形势。</p>
+<h3><strong>(三)AIGC时代，更需要本地新闻</strong></h3>
+<p>从实际情况来看，美国本地新闻的衰退，有一部分是自我的原因，譬如面对数字化的革新浪潮，迟迟不肯进行创新或者转型，缺乏对环境变化的快速反应；而另一部分原因，是它无能为力的。在互联网和社交媒体的大潮之下，整个新闻行业都遭受巨大冲击，本地新闻当然不能独善其身，反而由于其自身的特殊性，在这场冲击中显得更加脆弱。</p>
+<p>美国的本地新闻衰落只是一个引子，因为这样的状况正在全世界发生。但问题的复杂性是，用户对于本地新闻的需求始终是存在的，而且会越来越强烈，因为从各种媒介载体看，本地新闻的来源确实一直在减少。</p>
+<p>新闻行业的数字化浪潮发生以来，媒体对本地新闻的忽视日益明显。互联网的扁平化和低门槛特性，使得任何一个网站的潜在受众理论上是全世界的上网用户。对于在线媒体来说，为了提升网站流量和曝光度，在内容生产和呈现方面，往往会采用全球化的策略，尽可能将报道关注范围扩大，甚至是关注全世界范围内发生的重要新闻事件。</p>
+<p>这种倾向，反过来也会影响到传统媒体，因为要参与读者的注意力竞争，所以越来越多的地方性报纸，会在新闻采编中逐渐扩大全国性报道甚至是全球性报道的比例，“地方性”反而日渐式微。</p>
+<p>新闻受众对于本地新闻的需求其实远未得到满足。很多时候，受众并不想关注过于“远方的哭声”，而是更想了解自己身边在发生什么。一些本地媒体注意到这一趋势，开始将报道重点回归到本地化报道，而非全国性的热点话题。比如传媒集团 Mvskoke Media就将编辑策略调整为专注本地社区报道，体现对核心读者的关注。同时，许多媒体开始在当地举办各种形式的读者见面会，例如《檀香山公民报》（Honolulu Civil Beat）就在所在地区举办类似于快闪活动的“弹出式新闻编辑室”（pop-up newsrooms）。借助这些活动，一方面能帮助读者理解报道理念，另一方面也反向了解读者到底需要怎样的新闻报道，以加强报道的透明度和公开性，整体上加强了新闻媒体与本地读者的沟通。</p>
+<p>越来越多的新闻媒体将专注本地新闻的报道，这种趋势在人工智能时代将得到延续。在AIGC引领的智能化浪潮之下，新闻行业受到了一定冲击，但也获得了变革的可能性。[34]对于本地新闻来说，这反而是一个很好的机会。基于AI大模型的训练原理，本地内容的文本量较小，即便纳入到训练数据集，也十分容易被其它类型的信息淹没，因而AIGC在本地内容的生成方面表现欠佳。专注于本地新闻，既是现实需要，也会是媒体重新获得竞争优势的机会。可以期待，AIGC时代的新闻业，或将发生一波本地化的转向。</p>
+<p><strong>注释</strong> ：‍‍‍‍‍‍ </p>
+<p>[1]https://www.researchgate.net/publication/379668724\_Generative\_AI\_in\_Journalism\_The\_Evolution\_of\_Newswork\_and\_ </p>
+<p>Ethics\_in\_a\_Generative\_Information\_Ecosystem?channel=doi&amp;linkId=6614c3cc43f8df018de7606c&amp;showFulltext=true&amp;\_ </p>
+<p>ga=2.265666447.1870416932.1717481618-1194900064.1716885653. </p>
+<p>[2]报告《拐点时刻：AIGC 时代的新闻业》,https://mp.weixin.qq.com/s/fYidMeGHgl23jMzI99bcYQ. </p>
+<p>[3]https://www.theguardian.com/help/insideguardian/2023/jun/16/the-guardians-approach-to-generative-ai. </p>
+<p>[4]https://mp.weixin.qq.com/s/z1Tr2Gd4VFDfKnScyizkZw. </p>
+<p>[5]https://www.newsguardtech.com/misinformation-monitor/december-2023/. </p>
+<p>[6]https://finance.yahoo.com/news/worlds-first-ai-generated-news-224448989.html. </p>
+<p>[7]https:/www.theverge.com/2023/1/25/23571082/cnet-ai-written-stories-errors-corrections-red-ventures. </p>
+<p>[8]Caitlin Chin,Navigating the Risks of Artificial Intelligence on the Digital News LandscapeNavigating the Risks of Artificialntellgenceon the Digital News  </p>
+<p>LandscapePolicy Commons. </p>
+<p>[9]https://www.newsguardtech.com/misinformation-monitor/december-2023. </p>
+<p>[10]https://www.newsguardtech.com/misinformation-monitor/june-2023. </p>
+<p>[11]莫祖英 , 盘大清 , 刘欢 , 赵悦名 . 信息质量视角下 AIGC 虚假信息问题及根源分析  [J]. 图书情报知识 ,2023,40(04):32-40. </p>
+<p>[12]https://cmm-custom,prnasia.comcms-prod/attachment/20230613/0N/Cision 2023SOTMPRNpdf. </p>
+<p>[13]https:/www.cnet,comnews/misinformationa1-misinformation-how-it-works-and-ways-to-spotit. </p>
+<p>[14]彭兰，移动化、智能化技术趋势下新闻生产的再定义 [J].  新闻记者，2016,(01):26-33. </p>
+<p>[15]唐铮 , 林子璐 . 生成式人工智能与新闻业：赋能、风险与前瞻 [J]. 新闻与写作 , 2023, (11): 97-104. </p>
+<p>[16]史新燕 . 基于 ChatGPT 的分析 : 人工智能对新闻传播业的影响和应对 [J]. 哈尔滨师范大学社会科学学报 , 2023, 14 (03): 149-153. </p>
+<p>[17]https://reutersinstitute.politics.ox.ac.uk/journalism-media-and-technology-trends-and-predictions-2024. </p>
+<p>[18][19]史安斌、梁蕊洁.传统媒体的 TikTok 化 : 概念建构与实践探索 [J].青年记者,2003(15):92-96. </p>
+<p>[20]https://www.theguardian.com/commentisfree/2022/jul/23/tiktok-journalism-news-outlet-journalism-media. </p>
+<p>[21]https://fortune.com/2023/08/21/elon-musk-plans-remove-headlines-news-articles-link-shared-on-x-twitter/?utm_source=search&amp;utm_. </p>
+<p>medium=suggested_search&amp;utm_campaign=search_link_clicks </p>
+<p>[22]https://about.fb.com/news/2023/09/an-update-on-facebook-news-in-europe/. </p>
+<p>[23]关于新闻业与社交媒体的关系，在腾讯研究院发布的《拐点时刻？AIGC 时代的新闻业》有更详细的介绍,https://mp.weixin.qq.com/s/ </p>
+<p>fYidMeGHgl23jMzI99bcYQ. </p>
+<p>[24]https://wallstreetcn.com/articles/3698751. </p>
+<p>[25]https://www.washingtonpost.com/lifestyle/2023/06/15/wga-writers-strike-movie-tv-delays/. </p>
+<p>[26]https://www.wgacontract2023.org/updates/bulletins/writers-are-not-keeping-up. </p>
+<p>[27]https://wallstreetcn.com/articles/3698751. </p>
+<p>[28]https://export.shobserver.com/baijiahao/html/709837.html. </p>
+<p>[29]https://new.qq.com/rain/a/20231205A0809400. </p>
+<p>[30][32]https://www.usnewsdeserts.com/reports/news-deserts-and-ghost-newspapers-will-local-news-survive/the-news-landscape-in-2020-transformedand-diminished/. </p>
+<p>[31]https://www.brookings.edu/articles/local-journalism-in-crisis-why-america-must-revive-its-local-newsrooms/. </p>
+<p>[33]https://citap.unc.edu/news/local-news-platforms-mis-disinformation/. </p>
+<p>[34]该部分的探讨，可以参考腾讯研究院此前发布的《拐点时刻？AIGC 时代的新闻业》报告,https://mp.weixin.qq.com/s/ </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650979583&amp;idx=1&amp;sn=88de15526ae4c9b72ea96fb811f76831&amp;chksm=bd879439355247b9f0e153cfef4b458df5a4b8a301d780cabdd212509d42cd4b2bd23279f22f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“腾讯研究院”（ID：cyberlawrc）</a>，作者：王焕超 等，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031764471424517</guid><pubDate>Mon, 11 Nov 2024 18:17:00 +0800</pubDate></item><item><title>Q3成噩梦，为啥很多车企赚不到钱了？</title><link>https://36kr.com/p/3031799079691526</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_19e1d7daba904b24a69e3c583a1927c2@000000_oswg172946oswg1080oswg639_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>车企巨头轮番比惨‍</strong></p>
+<p>这是一股冰冷的寒潮。 </p>
+<p>跨国车企们，似乎一夜之间失去了钞能力，从扎堆释放的第三季度财报来看， <strong>净利润几乎都出现了断崖式下跌</strong>。 </p>
+<p>对电动化比较激进的 <strong>大众</strong>，三季度净利润下滑64%，即便是对成本管控到极致的 <strong>丰田</strong>，净利润也下滑55%。其它日系品牌也都出现了同比下滑，特别是 <strong>日产</strong>，净利润 <strong>暴跌达94%</strong>。 </p>
+<p>随之而来的，就是车企的开源节流，试图通过裁员降薪的方式猛药去疴。 </p>
+<p>日产2024财年上半财年的营业利润率只有0.5%，为了自救，日产汽车计划削减20%的全球产能，并在全球裁员 <strong>9000人</strong>。颇有壮士断腕意味的是，CEO以身作则，自愿减去了一半月薪。 </p>
+<p>其他车企要么裁员关厂，要么调低全年预期，都想尽快爬出谷底。 </p>
+<p>全国汽车行业遭遇寒潮，以前躺着数钱的车企，为什么不赚钱了？单纯靠开源节流，还能恢复往日的荣光吗？ </p>
+<h2><strong>01 裁员、减产、降薪</strong></h2>
+<p>这股风暴的可怕之处在于无差别攻击—— <strong>连BBA也挣不到钱了</strong>。 </p>
+<p>宝马跌得比较厉害，三季度营收 <strong>同比减少15.7%</strong>至324.06亿欧元，奔驰则是下跌6.7%至345.28亿欧元，这是其 <strong>近三年来最低单季数据</strong>。奥迪的营收相对最少，为153.22亿欧元，但跌幅也达到了5.5%。 </p>
+<p>和营收相比，净利润也在大幅下滑，而且都是两位数的下滑幅度。 </p>
+<p>像宝马净利润约为4.76亿欧元，同比下滑83.8%；奔驰同比下降54%至17.19亿欧元； <strong>奥迪三季度营业利润直接暴跌91%</strong>，仅为1.06亿欧元。 </p>
+<p>财报发出后，奥迪也被曝出将裁掉数千个岗位，在德国将有约4500人因此失业，外媒称，奥迪的目标是 <strong>裁员约15%</strong>。 </p>
+<p>整体来看，BBA的利润降幅均高于营收降幅，销量差、成本高是导致账面数据不好看的主要因素。 </p>
+<p>奔驰CEO 康林松（Ola  Källenius）称，亚洲消费者在购买豪车等奢侈品时“变得非常谨慎”，尤其影响了奔驰在华利润丰厚的S级车型的销售。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2bb3bdca9fc049c49b28f2f718466a69@000000_oswg89710oswg1080oswg713_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>单看第三季度，奔驰在华销量为 <strong>17.07万辆</strong>，同比下滑12.9%，为该季度单一市场中的销量最大跌幅。 </p>
+<p>并且 <strong>撑起奔驰在华超七成销量的仍是奔驰GLC、C级和E级是三大车型</strong>。更为高端的奔驰S级和迈巴赫等车型在国内品牌崛起冲击高端市场的背景下，竞争力大不如前。 </p>
+<p>不只BBA，全球最大的汽车制造商之一大众汽车，也面临着历史性裁员。 </p>
+<p>据媒体报道，为降低成本并提高竞争力， <strong>大众汽车计划至少关闭德国3家工厂</strong>并裁员数万人。董事会还希望将所有员工的月薪削减10%，并将有两轮的冻结薪资，导致2025年和2026年不会上调薪资。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_95f21fb7caa34ca380214aceda4b5312@000000_oswg64552oswg600oswg399_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>最新财报显示，德国大众汽车三季度 <strong>净利润暴跌63.8%</strong>，其营业利润同比下降41.7%，降至28.6亿欧元。 </p>
+<p>自今年4月以来，大众汽车的全球月销量均全球同比下滑。今年，大众汽车每季度的营业利润更是呈现出同比下滑的趋势，断臂求生可能是目前最快见效的选择。 </p>
+<p>德系车销量低迷，叱咤车圈多年的日系车更是被迫走上了裁员降薪之路。 </p>
+<p>日系车三巨头之一的 <strong>日产汽车</strong>近期宣布将全球裁员9000人，并削减20%的产能。同时，首席执行官内田诚从2024年11月起自愿放弃50%的月薪，其他执行委员会成员也将自愿相应减薪。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_363f6c717e2d4f51a87fcc2071a8af11@000000_oswg422957oswg754oswg420_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这些动作也是为了改善日益恶化的财务状况。数据显示，日产汽车2025财年第二财季（2024年7-9月）已经出现亏损， <strong>净亏损为93.4亿日元</strong>，远低于预期的收益490.7亿日元。 </p>
+<p>销量上，日产汽车也遇到了不小的挑战。尤其是在中国市场，今年前10个月，日产汽车中国区含乘用车和轻型商用车两大事业板块在内的累计销量为55.82万辆，同比下滑9.98%。 </p>
+<p>除日产外，今年10月， <strong>本田销量也同比下滑了42.2%至75440辆</strong>，连续9个月走低；丰田汽车销量同比减少0.4%至172300辆，同样也是连续9个月下滑。 </p>
+<h2><strong>02 利润率降至冰点</strong></h2>
+<p>难过的不仅是海外车企，国内也并不好过，甚至更惨。 </p>
+<p>作为曾经国内最大规模的汽车一哥，上汽集团第三季度营收为1425.60亿元，同比下滑25.58%，但净利润仅有 <strong>2.8亿元</strong>， <strong>同比下滑93.53%</strong>。广汽集团今年前三个季度，净利润只有1.2亿元，同比暴跌97.34%， <strong>利润率连1%都不到</strong>。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_79ae8789abbf4737987e06036732cc17@000000_oswg331540oswg1080oswg713_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>同样，长安汽车前三季度也陷入“ <strong>增收不增利</strong>”的窘境。2024年前三季度，长安汽车营收1109.59亿元，同比增长2.54%；净利润35.79亿元，同比下滑63.78%。 </p>
+<p>“赚钱难”的阴云笼罩在整个传统汽车行业上空，根据乘联会数据，今年前三季度，汽车行业利润率仅为 <strong>4.6%</strong>，来到了近10年最低。相较于下游工业企业利润率6.1%的平均水平，汽车行业仍偏低。 </p>
+<p>为什么这些车企这么难赚钱？ </p>
+<p>不难发现，国内传统汽车集团营收大幅下滑，其合资车型占据了大部分的产能和营收，营收利润下滑，与其 <strong>合资车销量下滑</strong>有直接的关系。 </p>
+<p>以上汽为例，上汽大众、上汽通用、上汽通用五菱曾经的这三大利润奶牛，表现都很一般，最惨的是上汽通用，1-9月，上汽通用的终端累计销量为278485辆，同比大跌61.55%。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_46a9a551f95e434d81fa718d83d61f1c@000000_oswg446921oswg600oswg399_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>唯一没有下滑的上汽智己，1-9月份累计销量同比增长147.96%至37492辆，但这个增幅放在集团的体系中，显得杯水车薪。 </p>
+<p>而且那些失意的跨国车企还有一个共同点，就是他们在中国市场的表现，普遍都不怎么好。 </p>
+<p>比如宝马在BBA阵营中是销量最高的，但在国内市场前9个月其累计销量52.4万辆，跌幅达到13.1%，是所有市场中跌幅最大的，奔驰前三季度在华累计销量为 51.22 万辆，也同比下滑 10.2%。而奥迪在华累计销量为47.7万辆，跌幅达到8.5%。 </p>
+<p>相比之下，理想、问界等新晋选手，倒是经常在周榜上盖过BBA的风头，而比亚迪在10月份单月的销量就超过50万辆。 </p>
+<p>另一方面， <strong>价格战</strong>也是压倒这些车企的稻草。 </p>
+<p>根据乘联会数据，今年1~9月，全国乘用车降价规模已达 <strong>195款</strong>，超过2023年全年的150款，以及2022年的95款。 </p>
+<p>但眼下价格战并没有带来预想中的“以价换量”，反而是以 <strong>消耗车企盈利能力为代价</strong>，行业“失血”局面还在继续。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_6d642bca873e411ea0a86f2aea2d3b59@000000_oswg203912oswg600oswg337_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>价格战之下，汽车行业单车利润也在被不断压榨。 </p>
+<p>乘联会数据显示，2017-2022年，国内汽车行业单车利润维持在2万元以上，2023年下滑至1.7万元。今年前9个月，国内汽车行业单车利润 <strong>已降至1.6万元</strong>，其中9月仅为1.1万元。 </p>
+<p>当品牌溢价被击穿，人们不再为LOGO买单，车企为了清库存降价，经销商为了生存跟进，最后导致整个行业的利润持续走低。 </p>
+<p>车企在如今烈火烹油般的“价格战”下，如果要利润坚守价格线，就可能要面临份额缩小，甚至在市场中边缘化的风险；一旦“以价换量”，忍痛扩大规模，也需要承担利润下滑，甚至是亏损的可能。 </p>
+<p>就像李斌说得那样，燃油车正进入恶性循环阶段，只能通过降价来维持市场份额。然而，价格下降会损害经销商盈利能力、品牌价值以及二手车残值。 </p>
+<p>在李斌看来，不管是纯电车还是插混车，都会加快对油车市场的替换速度。 </p>
+<h2><strong>03市场需要什么就得造什么</strong></h2>
+<p>亏损虽然在加大，但也有企业风景独好，一些新能源车企自今年开始，销量激增、扭亏为盈、业绩暴增。 </p>
+<p>最突出的企业就是 <strong>赛力斯</strong>，投入新能源造车四年、亏损约百亿，首次实现中报盈利之后，赛力斯迎来了业绩暴涨。 </p>
+<p>第三季度营收达到了415.82亿，同比增长636.25%；归属于上市公司股东的净利润为 <strong>24.13亿</strong>，较去年同期扭亏为盈，并且一个季度就超越了今年上半年16.25亿元的盈利规模。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_3f7660d1595e4cfbb349853b7222d207@000000_oswg40413oswg784oswg380_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>伴随着业绩和销量飞涨的还有资本市场表现，财报发布更是经历了数次涨停，截至发稿，赛力斯的总市值达到 <strong>2118亿</strong>。 </p>
+<p>和赛力斯相比，比亚迪更是赚得盆满钵满。 </p>
+<p>比亚迪第三季度实现营收同比增长24.04%至2011.25亿，同比增长24.04%， <strong>季度营收首次超过特斯拉</strong>。净利润达到116.07亿元，同比增长11.47%，毛利率达到20.8%。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_371cc70733f24ce4970ea33005263738@000000_oswg291511oswg1080oswg535_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>今年前三季度，比亚迪依然是自主品牌中最“吸金”的车企，营收5022.51亿元，同比增长18.94%；净利润252.38亿元，同比增长18.12%。 </p>
+<p>此外，理想汽车也平稳落地，第三季度营收达到429亿元，同比增长23.6%；净利润达到28亿元，连续八个季度盈利。 </p>
+<p>但同为新能源车企的悲欢也不尽相同，仍徘徊在生死线的上新能源车企也不在少数。 </p>
+<p>不过复盘这些盈利的新能源车企，不难发现，混动正在成为新能源汽车增长的得力干将，特别是曾被炮轰为“落后技术”的 <strong>增程车型</strong>，成为不少新能源车企的救星。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_99567ae5e906459ba953c8ff17f0bc2c@000000_oswg703538oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>理想汽车，毫无疑问是推广增程车型最有力的选手，单月突破5万台的成绩，让不少新造车选手可望不可及。零跑汽车月销量突破3万辆，成为继理想、问界后，又一家月销量破3万的车企，靠的也是增程车辆的上市。 </p>
+<p>今年以来，极氪汽车、阿维塔、智己、埃安等也都相继宣布推出增程车产品。特别是， <strong>小鹏汽车不久前正式官宣要入局增程领域</strong>，将于2025年发布，蔚来也被曝出 <strong>针对海外市场研发增程车型</strong>。 </p>
+<p>国内车企纷纷入局混动，是市场的需求使然，当然也符合全球新能源浪潮的趋势，海外电动化需求乏力，海外汽车巨头也纷纷推迟电气化进程，转而研发有内燃机参与的混动车型。 </p>
+<p>而且对于中国市场而言，基于海外市场的新能源现状，充电桩等基础设施的布局较少，中国汽车出海推广纯电车型，难之又难。 </p>
+<p>无论是为了出海，还是为了留在牌桌上，搞增程这样的“落后技术”也算是时代的选择，至于其他亏损的品牌，就必须审时度势了。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg5MTc3NjgxNQ==&amp;mid=2247538605&amp;idx=1&amp;sn=8e5f73e6a4fe3a00442259e127b2d690&amp;chksm=ce469523626d8cdb6a6b1b502401cccbb90a5f6b11a8752d1f2970a2552ecc3baa6f6b8a5abf&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“超电实验室”（ID：SuperEV-Lab）</a>，作者：王磊 刘雅杰，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031799079691526</guid><pubDate>Mon, 11 Nov 2024 18:23:00 +0800</pubDate></item><item><title>第四代半导体，初露锋芒</title><link>https://36kr.com/p/3031789222848000</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>今年，镓、锗相关物出口管制触发多股涨停，第四代半导体发展初露锋芒。</p>
+<p>公开资料显示，镓和锗都是新兴的战略关键矿产，均已被列入国家战略性矿产名录中。两种 金属矿产无论是在储量还是在出口上，中国均在全球占据领先地位。2022 年我国镓产品的出口数量大幅增长。海关总署数据表明，2022 年 1 至 11 月，我国累计出口镓产品 89.35 吨，比 2021 年 同期增加 44.1%。</p>
+<p>日前，新能源汽车需求的旺盛带动了国产第三代半导体的发展。眼下，碳化硅功率器件正面 临供不应求的境况。瞅准未来两三年短缺的“窗口期”，国内碳化硅（SiC）产业驶入了发展快车 道。而同作为第三代半导体的氮化镓（GaN）因其禁带宽度达到 3.4eV，更宽的禁带宽度、更高 的击穿电场、更高的热导率、更高的电子饱和速率及更优的抗辐照能力，使得其在功率器件、射 频器件、光电器件领域有望超过碳化硅实现更优性能。</p>
+<p>美国军方甚至依靠氮化镓的特性来有效传输开发中的最先进雷达的功率。氮化镓还被用于 RTX 正在制造的爱国者(Patriot)导弹防御系统的替代品。</p>
+<p>在第三代半导体发展方兴未艾之际，第四代半导体材料的研制也获得了突破性进展。</p>
+<h2><strong> 01第四代半导体之争</strong></h2>
+<p>第四代半导体，这一概念虽尚未被大众所 熟知，但却已在学术界和产业界引起了广泛的关 注和热议。与前三代半导体相比，第四代半导体不仅在材料种类上实现突破，更在性能上实现质的飞跃，以独特的物理和化学性质，为解决当前半导体技术面临的诸多挑战提供全新的思路和解决方案。 </p>
+<p>8月12日，美国商务部工业和安全局（BIS）发布公告，称出于国家安全考虑，将四项“新兴和基础技术”纳入新的出口管制。这四项技术分别是：能承受高温高电压的第四代半导体材料氧化镓和金刚石；专门用于3nm及以下芯片设计的ECAD软件；可用于火箭和高超音速系统的压力增益燃烧技术。 </p>
+<p>除了美国，日本经济产业很早就为致力于开发新一代低能耗半导体材料“氧化镓”的私营企业和大学提供财政支持，其在2021年留出大约2030万美元的扶持资金，并预计未来5年的投资额将超过8560万美元。日本经济产业认为，日本公司将能够在本世纪20年代末开始为数据中心、家用电器和汽车供应基于氧化镓的半导体。一旦氧化镓取代目前广泛使用的硅材料，每年将减少1440万吨二氧化碳的排放。 </p>
+<p>中国科学院院士郝跃曾表示，氧化镓材料是最有可能在未来大放异彩的材料之一，在未来 10年左右，氧化镓器件有可能成为有竞争力的电力电子器件，会直接与碳化硅器件竞争。 </p>
+<p>它到底有怎样的发展前景呢？ </p>
+<h2><strong> 02第四代半导体的核心优势</strong></h2>
+<p>第四代半导体包括超宽禁带半导体和超窄禁带半导体，前者包括氧化镓、金刚石、氮化铝，后者如锑化镓、锑化铟等。从一定时期内的技术发展成熟度来看，氧化镓（ Ga2O3 ）是最可能在未来几年内，实现从实验室到工厂的第四代半导体材料。我国部分产业机构认为，作为第四代半导体材料中最可能快速解决产业化技术瓶颈的氧化镓，有望在未来10年内完全替代碳化硅和氮化镓市场，并成为我们在芯片半导体领域的优势。 </p>
+<p>对比碳化硅、氮化镓和氧化镓的理论物理性能，能够发现，氧化镓与第三代半导体不再是“相对优势”的互补关系，而是有望凭借“超宽带隙（4.2-4.9eV）”、“超高临界击穿场强（8MV/cm）”和“超强透明导电性”等优势，在未来替代碳化硅和氮化镓。 </p>
+<p>简单来说，更宽的禁带宽度意味着电子需要更多的能量从价带跃迁到导带，且在同等规格下，宽禁带材料可以制造更小、功率密度更高的器件，节省配套散热和晶圆面积。氧化镓比碳化硅和氮化镓的禁带宽度要大很多，在同等技术产业化技术成熟度的条件下，氧化镓器件更耐高压、耐高温、大功率、抗辐照、低成本。从成本角度来看，当前生产氧化镓的成本的60%来自于生产过程中所需的稀有金属铱坩埚。 </p>
+<p class="image-wrapper"><img data-img-size-val="494,258" src="https://img.36krcdn.com/hsossms/20241111/v2_98edcb756de848cd8094758407b4ffbd@5634127_oswg99192oswg494oswg258_img_png?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">氧化镓vs.碳化硅——制取成本对比 来源：How Much Will Gallium Oxide Power Electronics Cost?</p>
+<h3><strong>应用领域</strong></h3>
+<p>第四代半导体以其独特的性能和广泛的应用前景，正逐步引领科技进步和产业发展。</p>
+<p><strong>• 电子与通信</strong></p>
+<p>在电子通信领域，第四代半导体以其卓越的性能和能效比优势，成为推动行业进步的重要力量。超宽禁带半导体(如金刚石和氧化镓)在高频通信、卫星通信等高速电子应用中独具优势。第四代半导体可显著提升电子器件的传输速度和信号处理能力，为构建更加高效、稳定的通信网络提供技术保障。同时，超窄禁带半导体如锑化物在光电探测和红外传感方面的应用，也为光通信、光纤传感等领域带来新的发展机遇。</p>
+<p><strong>• 新能源</strong></p>
+<p>新能源领域是第四代半导体应用的另一大重要方向。随着全球对可再生能源需求的不断增长，电力电子器件和能源存储系统的发展成为了关键。第四代半导体以其高能效比和耐高温特性，在电力电子转换器、智能电网、电动汽车等领域占有重要地位。第四代半导体可大幅度提升能源转换效率，降低能源损失，有望促成可再生能源的全面应用。此外，基于第四代半导体的新型太阳能电池和光电催化材料也在不断探索中，有望为太阳能利用和氢能生产等领域带来新的突破。</p>
+<p><strong>• 智能穿戴与柔性电子</strong></p>
+<p>随着物联网和可穿戴技术的快速发展，智能设备和柔性电子产品的市场需求日益增长。基于二维材料的柔性电子器件为智能手环、智能手表、可植入医疗设备等产品引入更加舒适、便捷的使用体验。同时，这些材料还具备优异的生物相容性和传感性能，为医疗监测、健康管理等领域的创新应用奠定了基础。</p>
+<h2><strong> 03半导体材料国产化落地</strong></h2>
+<p>我国科技部于2022年将氧化镓列入“十四五重点研发计划”，如果说我国在第一二代半导体材料的发展上和世界领先水平存在这明显的差距，那第四代半导体材料“国产化”我们势在必得。 </p>
+<p>今年2月，<strong>中国电科46所</strong>正式宣布，成功制备出我国首颗6英寸氧化镓单晶，达到国际最高水平，将有力支撑我国氧化镓材料实用化进程和相关产业发展。 </p>
+<p>另外<strong>西安邮电大学</strong>宣布在半导体材料领域取得了突破，成功在8英寸硅片上制备出了高质量的氧化镓外延片，这标志着在超宽禁带半导体研究上取得重要进展。 </p>
+<p>10月30日，<strong>深圳平湖实验室</strong>发布在氧化镓理论研究方面取得重要进展：采用铑固溶方式理论成功开发出新型β相铑镓氧三元宽禁带半导体。 </p>
+<p>据了解，这一成果主要针对解决氧化镓价带能级低和p-型掺杂困难等问题。此外，该成果“Rhodium-Alloyed Beta Gallium Oxide Materials: New Type Ternary Ultra-Wide Bandgap Semiconductors”已在《Advanced Electronic Materials》期刊上发表并受邀提供期刊封面设计。该文章也被收录到《Progress and Frontiers in Ultrawide bandgap Semiconductors》专题。文章第一作者为查显弧博士，通讯作者为张道华院士，共同作者包括万玉喜主任和李爽副教授。 </p>
+<p>企业方面，很多国内厂商也在第四代半导体上早早布局。例如<strong>华芯晶电</strong>。2021年在已有的磷化铟、碳化硅等第二代、第三代半导体化合物业务的基础上，华芯晶电启动了第四代半导体化合物氧化镓单晶衬底的研发。围绕高质量、低缺陷、高加工精度、高透过率等方面，华芯晶电进行了深入研究，在氧化镓晶体生长、晶体低密度缺陷控制、高效元素掺杂等方面进行了攻关，目前 2 英寸氧化镓晶体生长良率、低密度缺陷控制均达到国际水平。 </p>
+<p>10月29日，<strong>杭州镓仁半导体有限公司</strong>宣布在氧化镓单晶生长技术方面取得了显著进展：成功利用自主研发的第二代铸造法技术生长出超厚6英寸氧化镓单晶，晶锭厚度可达20mm以上。据了解，在同等直径下单晶晶锭厚度达到国际领先，是导模法（EFG）晶锭厚度的2-3倍。同时，结合镓仁半导体的超薄衬底加工技术，单个晶锭出片量可以达到原有的3-4倍，单片成本较原来可降低70%以上。此外，提高氧化镓单晶晶锭厚度，更有利于制备各种晶向以及斜切角度的大尺寸衬底（6英寸4度斜切需要约12mm厚晶锭）满足下游不同外延和器件环节的特殊需求。 </p>
+<p>10月29日，杭州富加镓业科技有限公司宣布，旗下氧化镓外延片完成MOSFET横向功率器件验证。 </p>
+<p>据了解，富加镓业利用分子束外延技术（MBE）研制了高性能的氧化镓外延片产品，采用非故意掺杂层与Sn掺杂层复合的双层外延结构，衬底材料为半绝缘型（010）Fe掺杂氧化镓，主要应用于横向功率器件。常规产品掺杂层载流子浓 度为 1-4E17cm-3，迁移率＞80 cm2/V·s，表面粗糙度＜2 nm 。 </p>
+<p>制备了击穿电压大于2000 V、电流密度为60 mA/mm的MOSFET横向功率器件，与进口同类型外延片制备器件性能相当。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkxMjIyNzU0MA==&amp;mid=2247771235&amp;idx=1&amp;sn=a9a24eebede5d75cc3026b4ca1d91c9b&amp;chksm=c0bf3300d08f983ceb0c412cb8d73d89cff38a1b106c14151b245230ee5df2cdb32f804153b0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“半导体产业纵横”（ID：ICViews）</a>，作者：米乐，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031789222848000</guid><pubDate>Mon, 11 Nov 2024 18:25:00 +0800</pubDate></item><item><title>全球首创无损Micro-LED芯片，「秋水半导体」获数千万元天使+轮投资 | 36氪首发</title><link>https://36kr.com/p/3028940628223490</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>作者 | 林晴晴</p>
+<p>编辑 | 袁斯来</p>
+<p>36氪获悉，Micro-LED显示技术公司「秋水半导体」近日已连续完成了数千万元人民币的天使轮及天使+轮融资，由英诺天使基金领投，力合资本、汕韩光层和数字光芯跟投，兴棠资本担任其长期财务顾问。据了解，本轮资金主要用于Micro-LED技术的研发与工艺验证。</p>
+<p>「秋水半导体」成立于2022年11月，是一家专注于Micro-LED显示技术的半导体公司。公司的主要产品为Micro-LED微显示芯片与模组，覆盖应用领域包括数字车灯、微投影和AR显示等。</p>
+<p>所谓Micro-LED微显示芯片，为了更好地理解这个概念，首先我们需要先明白常见的LED存在的痛点。传统的LED显示屏由于像素间距较大，分辨率受限，且在亮度和能耗方面也存在一定的局限性，是一种显示大屏幕图像的显示屏。</p>
+<p>而Micro-LED微显示技术因其独特的优势，拓宽了投射式主动显示的应用空间。Micro-LED微显示芯片由于其像素点更小，芯片尺寸更小，可以实现更高的分辨率和更好的色彩饱和度，同时在亮度和能耗方面也有所优化，因此它可以作为一个更精细、更节能的显示技术来补充现有的LED技术。</p>
+<p>Micro-LED微显示技术的应用场景广泛，包括数字车灯、增强现实（AR）设备、可穿戴设备、车载显示。在数字车灯领域，它通过提供更精细的光束控制和更高亮度，增强驾驶安全性。在AR/XR领域，Micro-LED以其高亮度和低能耗特性，改善视觉体验。对于智能手表等可穿戴设备，Micro-LED技术能够在保持小尺寸的同时提供高分辨率显示，同时降低能耗。在车载显示市场，它提升了车辆信息系统的显示质量。</p>
+<p>根据Grand View Research的报告，2023年全球Micro-LED市场规模估计为623.6百万美元，预计从2024年到2030年将以77.4%的复合年增长率增长，到2030年市场规模将达到256.5亿美元。</p>
+<p>「秋水半导体」的创立，源于创始人蒋振宇博士在宾夕法尼亚州立大学读博期间的研究。在2013年谷歌推出第一代谷歌眼镜时，蒋振宇认为，Micro-LED显示技术是下一代革命性的显示技术，将打开全新的应用领域。</p>
+<p>而Micro-LED技术彼时仍存在材料损伤和光学效率低等问题，这些问题严重限制了Micro-LED技术的发展和应用。因此，据36氪了解，作为专利第一发明人，蒋振宇博士开创了Gap-free Microdisplay技术，该技术在全球首次提出采用离子轰击而非刻蚀的方法来改善材料损伤的问题。</p>
+<p>蒋振宇告诉36氪，团队进一步发明了一种全新的技术路线——无损（Damage-free）Micro-LED芯片技术。这项技术采用电性绝缘结构替代物理绝缘方式，在无材料损伤的情况下实现了像素点的电性隔离，有效解决了传统Micro-LED芯片生产中因刻蚀工艺带来的材料损伤问题，提升了芯片的效率和稳定性，为Micro-LED芯片的大规模量产提供了可能性。</p>
+<p>从技术路线来看，蒋振宇进一步介绍，此技术不仅打破了国外公司芯片技术在投射式显示的独家垄断，还解决了投影产业的“卡脖子”问题。同时，「秋水半导体」采用了Hybrid Bonding 3D半导体封装工艺，采用先进半导体工艺制程，全面提升了Micro-LED芯片的制程工艺水平，一定程度上提升芯片的良率，降低成本。据了解，「秋水半导体」是国内首个报道实现基于8英寸混合键合先进制程的Micro-LED初创公司。</p>
+<p>目前，「秋水半导体」的主要产品为Micro-LED芯片产品，这些产品可广泛应用于微投影和AR显示领域。</p>
+<p>公司的第一代产品是0.61英寸的数字车灯芯片。数字车灯是一种新型的车灯技术，它利用Micro-LED芯片实现更精细的照明控制。与传统车灯相比，数字车灯能够实现像素级的光束调节，减少不必要的光线散射和炫光。由于Micro-LED芯片的高亮度和低能耗特性，这些车灯在提升照明效率的同时，也降低了能耗。</p>
+<p>此外，Micro-LED技术的反应速度更快，使得车灯能够迅速适应不同的驾驶条件。数字车灯的智能化功能也更加丰富，它们可以与车辆的智能系统相结合，提供自适应照明模式，甚至在路面上投影导航信息。这些特性使得使用Micro-LED芯片的数字车灯在性能和功能上都远远超出了传统车灯的范畴。</p>
+<p>Statista的数据显示，2021年中国汽车LED照明市场规模达到33.5亿美元，预计从2022年到2027年将以8.66%的复合年增长率增长，到2027年市场规模将接近55亿美元。</p>
+<p>蒋振宇博士认为，“Micro-LED的车灯市场是一个有待开放的广阔天地，是一个从0到1的机会，谁先解决技术瓶颈，谁先抢占市场，谁就可以拿下定义权，可主导芯片制作、电路板匹配等标准。通过技术的进一步成熟，未来Micro-LED芯片将实现照明和显示的嘉会，即通用光源不仅具备单一的照明功能，还具备显示等多种智能化功能，这也是未来智能化浪潮下的大势所趋。”</p>
+<p>当前，「秋水半导体」的第一代产品车灯芯片已给客户送样，预计明年可实现量产。</p>
+<p>团队方面，「秋水半导体」拥有无损Micro-LED技术路线等一系列专利，其核心技术团队是中国混合键合技术的开拓者之一，拥有成熟的量产工艺经验。团队成员具备深厚的专业知识和丰富的行业经验，曾实现最小pitch 0.7微米的混合键合量产工艺开发。</p>
+<p><strong>投资人观点：</strong></p>
+<p>汕韩光层：秋水半导体刚刚成功验证全球首创无损（Damage-free）Micro-LED芯片技术，团队在公司成立短短的一年时间内就完成了技术验证和工艺验证。公司使用的Damage Free Micro-LED芯片技术是创始人蒋博士全球独有专利技术，该技术融合了8寸晶圆级先进混合键合（Hybrid Bonding）制程工艺，可实现高分辨率、高良率、低成本的Micro-LED芯片量产，是汕韩光层Micro-LED产业链布局中关键一环。从帮助筹建秋水半导体并成为天使投资人，汕韩光层有幸一路参与、见证秋水团队的快速发展，祝愿秋水半导体数字车灯产品顺利实现量产。</p>
+<p>英诺天使基金看好以XR为代表的下一代个人计算平台，持续投资相关领域。Micro LED是其终极显示方案，但受限于现有技术路线，尚未得到规模应用。蒋博士开创的无损（Damage-free）技术路线，有望实现高良率、低成本的量产，助力相关产业如XR快速发展。秋水半导体经过一年多的努力，完成了工艺验证。 我们祝愿秋水半导体再接再厉，早日实现量产。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3028940628223490</guid><pubDate>Mon, 11 Nov 2024 18:25:00 +0800</pubDate></item><item><title>中国最赚钱的高铁，慢下来了</title><link>https://36kr.com/p/3031712350466950</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,721" src="https://img.36krcdn.com/hsossms/20241111/v2_a36db1450ddd4c8bb18ba4c4303f984c@5317423_oswg194868oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>“中国高铁第一股”京沪高铁，业绩跑不动了。</p>
+<p>最新财报显示，今年第三季度，<strong>京沪高铁的营收、利润同比双降，不及市场预期。</strong></p>
+<p>业绩下滑首先是受民航票价影响。有数据显示，北京飞上海的含税经济舱票价部分可低至500元以下，已低于高铁二等座的均价600元。</p>
+<p>除了“民航抢客”，拖累京沪高铁业绩的更深层次因素，正在凸显出来。</p>
+<p>京沪高铁连接着北京和上海两个中国最重要的城市，也连接着“京津冀”和“长三角”两大经济区，人口密度大、城市化程度高，向来被称为“最赚钱的高铁”，也被打工人称为“最有班味的高铁”。</p>
+<p>不过，随着经济进入新周期，京沪高铁的这种优势也慢慢被削弱。最新数据显示，北京和上海两地的GDP、与商务出行关系更密切的第三产业GDP，增速相比几年前已经明显慢下来。</p>
+<p>这意味着，京沪高铁的业绩慢下来，可能是时代要它换挡了。</p>
+<h2><strong>增长趋势结束</strong></h2>
+<p>从前三季度数据来看，京沪高铁依然在增长，实现营收323.55亿元，同比增4.77%；归母净利润100.15亿元，同比增12.35%。</p>
+<p>但如果只看第三季度的话，出现罕见下滑，营收114.93亿元，同比降0.94%；归母净利润36.58亿元，同比降3.17%。</p>
+<p>对于这条中国最赚钱的高铁线路来说，这绝对不是一个好信号。</p>
+<p>因为第三季度由于覆盖了暑假以及中秋，对于客流运输有远大于其他季度的参考意义；此外，三季度的下滑，也是京沪高铁在疫情结束后的罕见情况，<strong>此前已经连续6个季度业绩同比正增长，罕见下滑恐怕意味着趋势的扭转。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="830,377" src="https://img.36krcdn.com/hsossms/20241111/v2_2ed970b8b3db4741aa1499c7d1368e0b@5317423_oswg89136oswg830oswg377_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>具体来看，2024年上半年，京沪高铁的本线（主要运行在京沪高铁线路上）列车客运量跑输大盘，运送旅客2470.9万人次，同比下降1.1%；同期，全国铁路累计发送旅客20.96亿人次，旅客周转量完成7779.52亿人公里，同比增加18.4%，创同期历史新高。</p>
+<p>与本线相对应的是跨线，不仅在京沪高铁线路上运行，还会通过其他线路连接更多的城市和地区。<strong>相对本线来说，跨线的表现要好些，但增幅也在收窄。</strong></p>
+<p>2024年上半年，跨线列车运营里程完成4850.2万列公里，较去年同期增长7.9%；京福安徽公司管辖线路列车运营里程完成1898.4万列公里，较去年同期增长10.5%。</p>
+<p>但要知道，在2023年上半年，京沪高铁的跨线列车运营里程完成4493.9万列公里，较2022年同期增长97.4%；京福安徽公司管辖线路列车运营里程完成1718.7万列公里，较2022年同期增长66.6%。</p>
+<p>即使把疫情因素考虑在内，这种断崖式下滑也让人震惊。</p>
+<p>华泰证券认为，<strong>京沪高铁三季度表现欠佳，或许跟民航低价竞争、国庆假期错期、台风天气有关。</strong>京沪高铁主要经营北京至上海高铁线路以及安徽区域高铁线路，商务客流占比较高，国内有效需求不足或导致差旅需求偏弱，航空降价促销也使高铁与航空的竞争加剧。</p>
+<p>进一步分析称，由于民航北美市场恢复较慢，本来飞这些线路的宽体机运力出现冗余，并在京沪航线加大投放，民航票价下降或分流高铁长途旅客。OTA平台数据显示，近期北京飞上海的含税经济舱票价部分可低至500元以下，低于高铁二等座均价600元。</p>
+<p>一位资深民航业内人士表示，民航国内受到高铁网络不断加密的冲击，而其国外最能挣钱的欧美大线恢复不佳。叠加需求偏弱的情况下，<strong>民航业采取了以价换量的策略，票价持续走低。</strong>航旅纵横数据显示，10月27日至11月30日，国内航线机票不含税平均价格同比去年回落约12%。</p>
+<p>这导致的结果就是，目前高铁与民航在京沪干线上的份额非常接近，高铁仅有微弱优势。</p>
+<p>在今年高铁涨价的背景下，价格走低的民航带来的抢客影响恐怕还将持续。</p>
+<h2><strong>还会涨价吗？</strong></h2>
+<p>业绩下滑后，关于京沪高铁会否涨价的讨论再度出现。</p>
+<p>事实上，<strong>高铁涨价就是始于京沪高铁。</strong></p>
+<p>今年5月2日，国铁集团公告，决定自6月15日起，对京广高铁武汉至广州段、杭州至宁波高铁和沪昆高铁上海至杭州段、杭州至长沙段运行的时速300公里及以上动车组列车的票价进行调整，建立灵活定价机制，实行有升有降、差异化的折扣浮动策略。</p>
+<p>长三角、珠三角等发达地区客流量较大的商旅线明显涨价。以京广高铁武广段为例，调价后，武汉至广州南二等座公布票价为553元，比现执行票价高了89.5元，涨幅为19.31%。沪昆高铁沪杭段涨19.18%，沪昆高铁杭长段涨19.84%、杭深铁路杭甬段涨19.72%。</p>
+<p>国铁集团在回应中解释，“这些高铁线路于2009年至2014年间开通运营，10余年来线路维护、车辆购置、设备更新、劳务用工等运营成本发生了较大变化，现有单一票价机制已经明显不适应市场化经营形势。”此外，上述线存在客流不均衡的情况，实行浮动票制有利于合理匹配运能与需求的关系，促进客流均衡化。</p>
+<p>值得注意的是，高铁新一轮涨价，增加了二级市场对京沪高铁的想象空间。</p>
+<p>踏入6月后，京沪高铁在二级市场迎来了一波涨势，由4.96元一路涨至5.88元高位，在两个月时间涨了接近20%，在当时“保卫3000点”的市场行情中表现优异。<strong>而股价上涨背后，某程度反映出市场对京沪高铁后续涨价的预期。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="829,380" src="https://img.36krcdn.com/hsossms/20241111/v2_53431aceb34c47f9ab7883f2b5dd164f@5317423_oswg172530oswg829oswg380_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>针对京沪高铁是否还会涨价的问题，京沪高铁证券部工作人员曾回应称，京沪高铁自2021年起就已经实行了浮动票价制，票价会随着淡旺季有所波动，但“五一”假期期间没有参与最新调价，未来也没有新的调价计划”。</p>
+<p>虽然上述言论让京沪高铁看起来短期没有涨价计划，但京沪高铁在2024年度的“提质增效重回报”行动方案中也提到，公司将继续通过浮动票价、高端旅客服务提质等措施，探索运输服务多样性、选择性、舒适性和便捷性新举措，以增强市场竞争力。这表明，京沪高铁未来可能会根据市场情况和运营策略调整票价，只是具体的调整时间和幅度尚未确定。</p>
+<p>此外，尽管没有明说要涨价，<strong>但一系列的迹象显示，以后乘坐京沪高铁可能会越来越贵。</strong></p>
+<p>比如，根据券商统计，<strong>2024年国庆黄金周期间，京沪高铁的票价明显上涨，二等座平均票价创下历史新高，同比增长3%。</strong>显示出在高需求时期，票价确实有上涨的空间。</p>
+<p>此外，<strong>京沪高铁的技术提升版复兴号列车的引入，提高运营效率同时，单位票价同样上涨了，技术提升版复兴号列车的优选一等座票价高出同车次一等座37%，而售完率依然超过90%。</strong></p>
+<p>京沪高铁是不是越来越贵，奔波两地的打工人可能是感受最受的。</p>
+<h2><strong>班味背后</strong></h2>
+<p>京沪高铁还会不会涨价，除了股民关心，一众已经把京沪高铁当做办公室的打工人同样关心。</p>
+<p>社交媒体上，关于“京沪高铁班味”的生动描述数不胜数。</p>
+<p>“打开电脑，发现周围都是同类，没想到都这个点了车厢里弥漫的班味居然如此之重，竟让我有一种还身处办公室的感觉。”“有疯狂码文档的、有领导手把手指导改PP的、有排排坐对齐颗粒度的。”</p>
+<p class="image-wrapper"><img data-img-size-val="831,576" src="https://img.36krcdn.com/hsossms/20241111/v2_94fa3f5119784fcd956cce084a701d99@5317423_oswg537387oswg831oswg576_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而班味背后，<strong>其实是京沪高铁已经被北京、上海两地往返的打工人坐成了日常通勤车。</strong></p>
+<p>造成这种特别现象，首先是得益于技术发展，高铁越来越快。京沪高铁最初开通时，速度为350千米/小时，从上海虹桥站到北京南站，通常需要5-6个小时。但如今，已经有几趟车次能在更短的时间里到达目的地。</p>
+<p>比如，每天早上7：00准时从上海发车的G2列车，只有三个经停站，平均每站2分钟，走完全程的时间只要4小时36分。</p>
+<p>还有更快的、被誉为“京沪间的传奇”G28，晚上19:00发车，4小时18分跑完全程，夜间23:18抵达，中间只在南京南站停2分钟。据说，这是出差到上海的北京打工人最爱的返程班次，因为还能赶上末班地铁。</p>
+<p>更有网友戏称：<strong>“京沪高铁，让你上午犯的错，下午就能挨上骂。”</strong></p>
+<p>当然，技术发展令往返时间缩短是一回事，<strong>京沪高铁班味浓的更核心原因，是北京和上海这两个中国最重要的城市间的密切经济来往。</strong></p>
+<p>根据2023年《财富》世界500强排行榜，中国共有142家公司上榜，其中53家在北京，12家在上海，是上榜公司最多的两座城市。同时，这两座城市也是全国城市GDP的前两名。</p>
+<p>对企业来说，位置是公司形象的一部分，北京和上海自然成为有实力的外资公司落户中国的首选。比如，特斯拉和英伟达在上海，黄仁勋还曾现身上海的年会；可口可乐、雀巢和宝洁则选择了北京。</p>
+<p>此外，在地理位置上，两座城市也有战略属性。比如对消费品行业来说，以北京为中心的华北区域和以上海为中心的华东区域是最重要的两个大区，销售网络大多以这两个地方为据点，再逐渐向其他地域辐射。</p>
+<p>经济的本质在于流动，无论是经济发展度，还是区域上的战略独特性，都意味着北京和上海的打工人少不了两地跑，加上飞机“容易误机”“上网不方便”等劣势，往返时间越来越短的京沪高铁，已经成为了打工族恰到好处的出差首选。</p>
+<p>不过，来自两座城市经济联系的需求，还有多少增长空间，成为京沪高铁增长的关键。</p>
+<p>在过去，北京和上海作为中国最具经济活力的城市，有着大量资本和人才流入，经济高速发展同时，两地的联系也令京沪高铁获得了源源不断的客流。</p>
+<p>但目前来看，<strong>两地的经济增长已经进入了新周期。</strong></p>
+<p>2024年前三季度，北京GDP增速为5.1%，上海则为4.7%，相比过去的高增长，已经明显慢下来了。</p>
+<p class="image-wrapper"><img data-img-size-val="830,658" src="https://img.36krcdn.com/hsossms/20241111/v2_eb70c58b898a4957960c25ff6ebb2476@5317423_oswg83821oswg830oswg658_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而与商务往来密切相关的第三产业GDP增速，同样如此。2024年前三季度，北京、上海的第三产业GDP增速分别为5.1%和5.8%；疫情前的2018年同期，这两项数据分别为7.2%和8.2%；2019年同期，这两项数据分别为6.4%和8.9%。</p>
+<p class="image-wrapper"><img data-img-size-val="830,658" src="https://img.36krcdn.com/hsossms/20241111/v2_6cf442d8f6fb4d62a5b332f7be7e0a4a@5317423_oswg86489oswg830oswg658_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>可见，京沪高铁业绩“慢”下来，也与北京、上海放慢脚步密切相关。</p>
+<p>这是时代的缩影，京沪高铁也要好好想想，该怎么高质量发展了。</p>
+<p>参考资料：</p>
+<p>每日人物《京沪高铁，全世界班味儿最浓的地方》</p>
+<p>财新《京沪高铁三季度营收净利双降 或受民航低价竞争影响》</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ZSKqD5NeaNnSilfQLaV4Uw" rel="noopener noreferrer nofollow" target="_blank">“金角财经”</a>，作者：Chong Lei，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031712350466950</guid><pubDate>Mon, 11 Nov 2024 18:29:00 +0800</pubDate></item></channel></rss>
