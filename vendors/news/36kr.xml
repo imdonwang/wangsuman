@@ -1,640 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 11 Nov 2024 17:00:31 +0800</lastBuildDate><pubDate>Mon, 11 Nov 2024 17:00:31 +0800</pubDate><item><title>两位本科生一作，首次提出「持续学习」+「少样本」知识图谱补全</title><link>https://36kr.com/p/3031615286076928</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>【导读】</strong>上海大学本科生研发的新框架能有效应对知识图谱补全中的灾难性遗忘和少样本学习难题，提升模型在动态环境和数据稀缺场景下的应用能力。这项研究不仅推动了领域发展，也为实际应用提供了宝贵参考。</p>
-<p>知识图谱（Knowledge Graphs）是一种结构化的，用于展示和管理信息，组织现实世界知识的形式。其通常被表达为三元组形式（&lt;头实体，关系，尾实体&gt;）。KGs 为问答系统、推荐系统和搜索引擎等各种实际应用提供了极其重要支持。</p>
-<p>然而现有知识图谱的显著不完整性严重限制了其在实际应用中的有效性。</p>
-<p>同时，在现实实际应用中，知识图谱中的关系呈现长尾分布，即大多数关系只有少量相关的三元组。这种稀缺导致了模型对于长尾关系的泛化能力不足，从而使得知识图谱补全模型的整体效果较差 (Few-shot Learning) 。</p>
-<p>进一步，随着时间的推演，越来越多的新关系被添加到关系集中，并在不同时间点集成到知识图谱中。这意味着模型不仅需要学习当前阶段的知识更需要记住在之前阶段学习过的知识 (Continual Learning) 。</p>
-<p>最近，上海大学的本科生李卓风、张灏翔（第一作者以及共同第一作者）在信息检索和数据挖掘领域顶级学术会议CIKM 2024上发表了一篇文章，首次提出了在持续学习 (Continual Learning) 和少样本 (Few-shot) 的场景下对知识图谱进行补全，提供了一套全面且有效的框架来处理这一问题。</p>
-<p class="image-wrapper"><img data-img-size-val="975,323" src="https://img.36krcdn.com/hsossms/20241111/v2_39dc6c00233f4b7e9256d2f8b6284bd7@46958_oswg115203oswg975oswg323_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文标题：Learning from Novel Knowledge: Continual Few-shot Knowledge Graph Completion</p>
-<p>论文链接：https://dl.acm.org/doi/10.1145/3627673.3679734</p>
-<p>代码链接：https://github.com/cfkgc-paper/CFKGC-paper/tree/main</p>
-<p>该研究的发表将有助于提高知识图谱补全（KGC）模型在实际应用中的泛化能力，使其能够更好地适应动态环境和数据稀缺的场景，从而推动相关领域的应用发展。</p>
-<p>通过提供有效的解决方案，本研究为后续研究奠定了基础，同时也为实际应用提供了重要的参考。</p>
-<h2><strong>研究背景</strong></h2>
-<p>目前在持续学习 (Continual Learning) 和少样本 (Few-shot) 的场景下对知识图谱进行补全面临两大挑战：</p>
-<p>1. 灾难性遗忘问题，即模型在不断学习新关系时，对之前学到的关系的推理性能下降。这会导致模型退化和对稀有关系的推断能力大幅减弱。</p>
-<p>2. 新关系的稀缺导致模型在稀有关系上的泛化能力不足。</p>
-<p>为解决这些挑战，该研究提出了一个完整且有效的知识图谱补全框架，以适应不断出现的少量的关系。</p>
-<p>1. 为了<strong>解决灾难性遗忘问题</strong>，研究人员从数据和模型两个维度入手。</p>
-<p>在数据层面，通过特定的指标评估每个三元组在知识图谱中的重要性，包括拓扑感知和关系异质感知系数；利用这些重要性得分，可以识别出并存储来自最重要的三元组；这些缓存的三元组可以在优化过程中重放，以应对新关系的出现，确保模型回忆起最重要的知识。</p>
-<p>在模型层面，研究人员实施了一种参数冻结的策略。在每个阶段，模型会识别与当前任务相关的一个模型子网络，并将其冻结，从而有效减轻遗忘问题。</p>
-<p>2. 为了解决<strong>关系的稀缺导致模型在稀有关系上的泛化能力不足</strong>的问题，研究人员引入了一种多视角关系增强技术。该方法通过自监督学习提升模型的泛化能力。</p>
-<h2><strong>技术方法</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="975,590" src="https://img.36krcdn.com/hsossms/20241111/v2_df46d2c448a34cd985508f931453731d@46958_oswg233774oswg975oswg590_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>三元组的记忆回放</strong></h3>
-<p>为了缓解灾难性遗忘问题，研究人员从数据和模型两个层面提出了解决方案。在数据层面，通过特别设计的指标来评估每个实体的重要性，并在内存中存储最重要的三元组。</p>
-<p>这些缓存的三元组可以在新关系出现时进行重播，以确保模型能够回忆起最重要的知识。</p>
-<p>具体来说，从两个角度评估实体的重要程度：</p>
-<p>1. 拓扑感知重要度。在知识图谱中，一个实体的重要性应当由与其相连的其他实体的重要性共同决定。</p>
-<p class="image-wrapper"><img data-img-size-val="388,236" src="https://img.36krcdn.com/hsossms/20241111/v2_dfdf0407248d4477905c563851397e39@46958_oswg31845oswg388oswg236_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中du表示实体u的出边数量，N(v)表示实体v在Gr中的邻居集合。</p>
-<p class="image-wrapper"><img data-img-size-val="31,34" src="https://img.36krcdn.com/hsossms/20241111/v2_c5c4c25c7dbb4d1fbcb6ba1091128627@46958_oswg519oswg31oswg34_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>是实体v的最终拓扑感知重要性得分。</p>
-<p>2. 除了拓扑结构外，还考虑了实体参与关系的多样性，即关系异质性感知重要度：</p>
-<p class="image-wrapper"><img data-img-size-val="177,56" src="https://img.36krcdn.com/hsossms/20241111/v2_ef8d1be8ac2446cb86c481beb7cbdaf4@46958_oswg5001oswg177oswg56_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中|Rv|表示实体v连接的不同关系数量。</p>
-<p>最终，可以计算三元组的重要性分数：</p>
-<p class="image-wrapper"><img data-img-size-val="348,128" src="https://img.36krcdn.com/hsossms/20241111/v2_e4d35eb6d4de421aa79b160b2bfb8a0d@46958_oswg15478oswg348oswg128_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>元学习器的调制</strong></h3>
-<p>文中进一步在模型层面实施了参数调制策略来保存最重要的参数。</p>
-<p>具体来说，首先使用权重分数s来衡量网络参数的重要性：</p>
-<p class="image-wrapper"><img data-img-size-val="578,220" src="https://img.36krcdn.com/hsossms/20241111/v2_55726d0eb1124a5a831e761b4c2d2926@46958_oswg36821oswg578oswg220_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然后，通过下面的优化公式来更新模型参数：</p>
-<p class="image-wrapper"><img data-img-size-val="372,130" src="https://img.36krcdn.com/hsossms/20241111/v2_67b1cf14a56547ca95e0b48852597686@46958_oswg20378oswg372oswg130_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="698,259" src="https://img.36krcdn.com/hsossms/20241111/v2_d652090b56b84ce8877a74fe359d04e5@46958_oswg56571oswg698oswg259_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>θ是元学习器参数，Qr代表关系集，</p>
-<p class="image-wrapper"><img data-img-size-val="20,34" src="https://img.36krcdn.com/hsossms/20241111/v2_302552cc138d4042bdc13d1ab8bde70a@46958_oswg429oswg20oswg34_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>是学习率，</p>
-<p class="image-wrapper"><img data-img-size-val="91,47" src="https://img.36krcdn.com/hsossms/20241111/v2_e5f1f2396edc4ea7927b76e349dccf8c@46958_oswg1228oswg91oswg47_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>表示之前会话中识别的子网络掩码的并集。</p>
-<p>通过这种参数调制机制，可以在学习新任务时保护已获得的重要知识，从而有效缓解灾难性遗忘问题。</p>
-<h3><strong>增强少样本和自监督学习</strong></h3>
-<p>通过引入基于自监督的多视图关系增强技术来增强模型的泛化能力，通过两种扰动方式生成关系的不同视图。</p>
-<p><strong>1. 元学习器参数扰动：</strong></p>
-<p class="image-wrapper"><img data-img-size-val="639,138" src="https://img.36krcdn.com/hsossms/20241111/v2_83763f1f1cd14f219acc1f3a1a69715d@46958_oswg23864oswg639oswg138_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>2. 输入实体嵌入扰动：</strong></p>
-<p class="image-wrapper"><img data-img-size-val="617,114" src="https://img.36krcdn.com/hsossms/20241111/v2_38135c53e6d146f5bf65aa134fd06025@46958_oswg24973oswg617oswg114_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然后通过对比学习损失来优化：</p>
-<p class="image-wrapper"><img data-img-size-val="832,441" src="https://img.36krcdn.com/hsossms/20241111/v2_4d2a44c76ca5445c93abf8e83d67bd02@46958_oswg112639oswg832oswg441_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其中τ是温度参数，</p>
-<p class="image-wrapper"><img data-img-size-val="47,37" src="https://img.36krcdn.com/hsossms/20241111/v2_0c9cd812b0d149fd8fba10056b1bd084@46958_oswg777oswg47oswg37_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>一个 Batch 之内的关系集。</p>
-<p class="image-wrapper"><img data-img-size-val="49,47" src="https://img.36krcdn.com/hsossms/20241111/v2_3352e87527d147ccbb2e0cc9cbf9bf68@46958_oswg777oswg49oswg47_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>与</p>
-<p class="image-wrapper"><img data-img-size-val="44,50" src="https://img.36krcdn.com/hsossms/20241111/v2_b90e5630186c4447911d8acd37373789@46958_oswg847oswg44oswg50_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>分别代表经过1或者2扰动之后生成的关系。</p>
-<h2><strong>实验结果</strong></h2>
-<p>研究人员在 NELL-ONE 和 Wiki-ONE 两个数据集上对模型进行持续学习以及小样本学习的全面验证。</p>
-<h3><strong>持续学习能力</strong></h3>
-<p>该框架在持续学习方面的表现，与基线模型相比，能够显著减轻灾难性遗忘，且该模型不仅能有效保留先前会话的知识，还在后续会话中表现出更好的性能。该框架相对于基线模型，在减轻灾难性遗忘方面显示出显著优势。</p>
-<p class="image-wrapper"><img data-img-size-val="893,419" src="https://img.36krcdn.com/hsossms/20241111/v2_1f0aedc144d74b1b80986dee60d94f9b@46958_oswg294780oswg893oswg419_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>例如，在NELL-One数据集中，方法在后续任务（Task1至Task7）中，平均比第二佳的基线方法改进了+13.3%，而在Wiki-One数据集中，平均改进为+27.0%。这表明该模型不仅有效地保留了之前学习会话的知识，还在随后的学习任务中展示了更优越的性能。</p>
-<p class="image-wrapper"><img data-img-size-val="850,833" src="https://img.36krcdn.com/hsossms/20241111/v2_07860ab7433e493cba74926f5bfa8529@46958_oswg294223oswg850oswg833_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>少样本学习能力</strong></h3>
-<p>在快速适应新的学习进程中的未见关系时，模型能够维持稳定或增强的少样本学习性能。</p>
-<p>相反，基线模型由于每个新会话中元任务数量有限，表现出明显的性能下降。这进一步证明了提出的多视角关系增强策略在解决与元任务稀缺相关的过拟合问题中的有效性。</p>
-<p>模型在少样本学习方面显示了出色的性能，特别是在快速适应未见关系的新学习环境中。</p>
-<p>以NELL-One数据集为例，MRR指标相较于第一个task（11.1%），模型在最后一个任务中表现出11.35%的性能，期间最高达到12.55%。</p>
-<p>在Wiki-One数据集中，从基线的38.9%提高到了最后一个任务的40.05%，相对于其他的方法——随着更新的知识的学习，小样本性能也在下降，模型实现了对于更好的小样本学习性能的保持。</p>
-<p>结果验证了所提出的多视角关系增强策略在缓解元任务稀缺导致的过拟合问题上的高效性。</p>
-<p>结果表明模型不仅可以充分记住先前阶段的知识同时还可以有效学习新的知识。</p>
-<h3><strong>消融实验</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="975,208" src="https://img.36krcdn.com/hsossms/20241111/v2_94e6cbcdd417403b8f3bc7544d029ea3@46958_oswg83747oswg975oswg208_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>总结</strong></h2>
-<p>本篇文章探讨了在持续学习以及少量样本的场景下对知识图谱补全的问题，提出了一种全面且有效的框架，旨在应对灾难性遗忘以及少样本带来的挑战。</p>
-<p>该方案包括三元组重演策略，模型参数调制策略，多视角关系增强策略。该研究的发表将有助于提高知识图谱补全（KGC）模型在实际应用中的泛化能力，使其能够更好地适应动态环境和数据稀缺的场景，从而推动相关领域的应用发展。</p>
-<p>通过提供有效的解决方案，本研究为后续研究奠定了基础，同时也为实际应用提供了重要的参考。</p>
-<p>参考资料： </p>
-<p>https://dl.acm.org/doi/10.1145/3627673.3679734 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/IHgzPXiGx4OVv2T0tB9o8g" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：LRST ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031615286076928</guid><pubDate>Mon, 11 Nov 2024 15:02:00 +0800</pubDate></item><item><title>清华团队破解具身智能Scaling Law，GPT时刻在即，宁德时代联创终于出手</title><link>https://36kr.com/p/3031615559705859</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1072,413" src="https://img.36krcdn.com/hsossms/20241111/v2_7dfcf75758254636b5eed268734d1a58@46958_oswg213863oswg1072oswg413_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>【导读】</strong>半年两次大融资后，这家具身智能黑马再次获得融资！作为柏睿资本首次投资的具身智能企业，千寻智能不仅拥有出身自伯克利系联创，在技术、硬件、商业化上，也让人极有信心。</p>
-<p>最近，我们意外发现，具身智能领域的明星初创公司千寻智能，悄悄完成了工商变更。</p>
-<p>根据工商信息显示，本轮融资由柏睿资本独家投资。至此，千寻智能已经在半年多时间里获得了三次大额融资，一跃成为具身智能领域明星公司之一。</p>
-<p>值得一提的是，柏睿资本是宁德时代联合创始人，副董事长李平创立的产业投资基金。</p>
-<p>全国具身智能领域多家明星，为何首次下场便独独选中了千寻智能？</p>
-<p>从下面这些demo中，便可窥见一斑。</p>
-<p>仔细看，桌面上撒满了五颜六色形状各异的糖豆。如何将这些不同颜色和大小的物体进行分类，可不是件容易的事。</p>
-<p>只见，在极其强大的识别和精准操作能力的加持下，千寻智能的机器人用灵巧的手指轻松地将糖豆捏起，并准确地放入指定的碗里。</p>
-<p class="image-wrapper"><img data-img-size-val="480,270" src="https://img.36krcdn.com/hsossms/20241111/v2_cb8c7d53d1744f7d8aaf8a26ca0d94b6@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不仅如此，它还可以一手拿起桌上透明的玻璃杯，一手从满满一筐鸡蛋中抓出一个并准确无误地放进杯中。</p>
-<p class="image-wrapper"><img data-img-size-val="480,270" src="https://img.36krcdn.com/hsossms/20241111/v2_05d6835990584e318042a2d1866cae39@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>甚至，它还能接过手中的文件并进行装订，然后再交还给人类。</p>
-<p>在这个过程中，AI基于视觉大模型的任务理解与规划，实现了人机交互及协同作业。</p>
-<h2><strong>具身智能行业，到底在卷什么</strong></h2>
-<p>其实，如今的具身智能领域可谓是百花齐放，各种酷炫的演示demo层出不穷。但对于不懂的外行人来说，只能看个热闹，很难理解背后真正的技术边界是怎么样的。</p>
-<p>同一个动作，是提前编程好的，还是机器人自主完成的？机器人只能在特定的某个位置、某个光照做一件事，还是能够真正泛化到各个条件、各个场景？</p>
-<p>看似相差不多的demo下，背后的技术能力实则相差甚远。</p>
-<p>不过，对于未来的技术走向，业界的认知正在逐渐清晰——最核心的还是大脑的能力。</p>
-<p>随着时间的发展，可能再过一两年，竞争就会回到这个本质，因为唯有大脑，才能决定具身智能能在什么场景落地。</p>
-<p>目前，大语言模型赛道已经接近后期，投资人开始关注回报的问题，但相比之下，机器人赛道可以说才刚刚开始。尤其涉及到软硬结合，以及整套系统的复杂度，赛道周期显然会更长。</p>
-<p>在这样的背景下，柏睿资本的此次下场，显然是经过了深思熟虑。</p>
-<h3><strong>宁德时代联创首次出手</strong></h3>
-<p>自创立之初，柏睿资本就专注于人工智能、具身智能领域的发展，且一直非常看好这一技术将带来的一系列变革。</p>
-<p>具体到千寻智能，柏睿资本看重的正是其团队在AI、硬件、商业化三个方面的综合优势。</p>
-<p>首先，针对高阳在算法和模型方面的持续创新和产出能力，柏睿资本抱有极大的信心；其次，千寻智能的创始团队在硬件领域有着扎实的背景和积累；第三则是多达上百个场景、数万台机器人的商业化落地经验。</p>
-<p>作为柏睿资本投资的首家具身智能企业，千寻智能将借助柏睿资本和背后的产投资源，快速切入市场化落地并进行具身智能泛化性作业验证，成为国内首家实现具身智能商业化的公司。</p>
-<p class="image-wrapper"><img data-img-size-val="480,270" src="https://img.36krcdn.com/hsossms/20241111/v2_19c831292bc7444b8b9e3336a494fb30@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">把水壶里的水倒进玻璃杯，并让水位达到指定的刻度</p>
-<p>纵观当下机器人领域的现状，各种技术的理论验证基本都已完成，但工程化却还在起步阶段。</p>
-<p>怎样一条途径是最优方案，率先做到在工程上可行？</p>
-<p>从Physical Intelligence、Skild AI等优秀的国外先行者身上，我们可以隐约窥见一条逼近真理的技术路径。</p>
-<h2><strong>端到端就是下一个前沿</strong></h2>
-<p>最近，成立仅8个月的初创Physical Intelligence（Pi）发布了一款通用机器人基础模型π0。</p>
-<p>这个在8个机器人平台上，完成训练的3B模型，能够执行各种灵巧的任务，包括洗衣服、收纳整理......</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241111/v2_beaf8a1fc3ee441f88304c3dc9d802c1@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>与LLM不同的是，π0跨越了视觉、语言、动作（VLA），并通过训练机器人的具身经验中，获得物理智能。</p>
-<p>它基于3B VLM完成的预训练，随后又根据灵巧任务（洗衣服、组装盒子、桌面任务）进行了微调。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,325" src="https://img.36krcdn.com/hsossms/20241111/v2_d58194704a98495d90e1372766e5ad85@46958_oswg166415oswg1080oswg325_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">VLM的优势在于能够集成互联网规模的语义知识和视觉理解，有助于动作预测</p>
-<p>Pi联创之一，也是UC伯克利副教授Sergey Levine看到，如今的机器人是一种狭隘的专家系统。比如，工业机器人通过编程，在装配线上同个地点进行重复的工作。</p>
-<p>即便是这样简单的行为，也需要耗费大量的人工编程，更不用提在复杂环境（家庭等）中的应用了。</p>
-<p>有了大模型，就很容易让机器人做到这点。然而这一切实现的前提是——数据。</p>
-<p>就像人类可以凭借经验快速学习新技能一样，模型也仅需少量数据，就能适应新的任务。</p>
-<p>这便是π0的核心思想。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,282" src="https://img.36krcdn.com/hsossms/20241111/v2_21234446a92c486cab3c8d851d1d4881@46958_oswg234139oswg1080oswg282_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一家由CMU大牛Deepak Pathak（博士出身是UC伯克利）创立的Skild AI，也遵循了同样的技术路线。</p>
-<p>他们打造出了一款能够泛化的机器人基础模型「Skild Brain」，背后用到的训练数据是竞争对手的1000倍，可以适用到任何机器人本体和任务中。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,439" src="https://img.36krcdn.com/hsossms/20241111/v2_e30f1210ffe24a53bc0eccdd8760842e@46958_oswg415913oswg1080oswg439_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从以上伯克利系大牛们所做的研究来看，端到端架构已成为具身智能的主要技术路线。</p>
-<p>无独有偶，国内的千寻智能也在技术路线上与这两家美国的具身智能顶尖初创，不谋而合。</p>
-<p>在读博士、博士后期间，千寻智能团队的首席科学家高阳，还曾与Sergey Levine和Pieter Abbeel教授展开深入合作。</p>
-<p>尤其是，他们的模型可以在训练过程中，同时利用监督微调、强化学习、模拟学习等技术，并将Sim2Real数据作为补充。</p>
-<p>结果就是，刚成立半年多的千寻智能，就已经能实现业内Top的灵巧手操作了。</p>
-<p class="image-wrapper"><img data-img-size-val="480,270" src="https://img.36krcdn.com/hsossms/20241111/v2_d0df18a2ef02401fbb93d48bffc7afc2@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>伯克利系称霸具身智能</strong></h2>
-<p>毫不夸张地说，UC伯克利已被公认为是最近这波具身智能浪潮的主要发源地。而Sergey、Pieter这些教授，是当之无愧的机器人学习领域最近十年的领头人。</p>
-<p>同时，出身伯克利系的高徒们，如今已经在各个相关领域散作满天星，不断推高业界前沿的技术水平。</p>
-<p>比如，千寻智能联合创始人高阳在攻读计算机视觉博士学位期间，便是师从Trevor Darrell教授，和Deepak Pathak同组。</p>
-<p class="image-wrapper"><img data-img-size-val="353,352" src="https://img.36krcdn.com/hsossms/20241111/v2_ca65efdf10594a95bb51fb9a31699ef9@46958_oswg140723oswg353oswg352_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>最近，高阳带领团队发现了具身智能领域的「圣杯」——Data Scaling Laws，堪称机器人的ChatGPT时刻。</p>
-<p>而且，在CoRL 2024上，这项研究荣获X-Embodiment workshop最佳论文奖！</p>
-<p class="image-wrapper"><img data-img-size-val="1080,824" src="https://img.36krcdn.com/hsossms/20241111/v2_734a77ea83704f35b7fca74bff939202@46958_oswg378781oswg1080oswg824_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这一方法让机器人实现了真正的零样本泛化，也就意味着无需任何微调，就能泛化到全新场景中，彻底改变了开发通用机器人的方式。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,325" src="https://img.36krcdn.com/hsossms/20241111/v2_077112c8e43f4ed3bfc877a1d68c4431@46958_oswg289906oswg1080oswg325_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://arxiv.org/abs/2410.18647</p>
-<p class="image-wrapper"><img data-img-size-val="480,270" src="https://img.36krcdn.com/hsossms/20241111/v2_4503d2c3e3f64dfbbc5319b101bae4b1@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>就连谷歌DeepMind大牛Ted Xiao也对这项研究赞赏有加，称其对机器人大模型时代具有里程碑意义。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1288" src="https://img.36krcdn.com/hsossms/20241111/v2_90cf7af9cde84851ac94391d6c4b3637@46958_oswg1065857oswg1080oswg1288_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这位具身智能领域大咖，有着怎样的学术背景？</p>
-<p>2014年，高阳获得了清华计算机科学本科学位，师从国内ML领域享有盛誉的著名学者朱军教授。</p>
-<p>在大二的时候，也正是深度学习（2012年）爆发之际，高阳做的了很多关于传统ML的研究。</p>
-<p>凭借出色的成绩，他成为了计算机系的第二位大神。</p>
-<p>到了大三，高阳拿到了去斯坦福做交换的暑期学习资格，导师是David L. Dill教授。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,367" src="https://img.36krcdn.com/hsossms/20241111/v2_f55a439673b146b8aed6115a8e69c349@46958_oswg109748oswg1080oswg367_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>本科毕业前，得益于老师的推荐信，以及自身各方面优异表现，高阳最终收获了美国多所顶尖高校的offer。</p>
-<p>面对这些同样优秀的学府，他决定亲赴美国实地考察，做出最适合自己的选择。</p>
-<p>在走访过程中，UC伯克利给他留下了深刻的印象。作为四大名校之一，这所学校具备了浓厚的学术氛围。</p>
-<p>再加上，自身专攻机器学习领域的原因，UC伯克利最适合不过了。</p>
-<p>作为一名机器学习领域的学生，他对UC伯克利格外青睐，很大程度上还因为引领ML时代技术的Michael Jordan教授的存在。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,674" src="https://img.36krcdn.com/hsossms/20241111/v2_e402a2cadbc449ec936ef0d274b9d626@46958_oswg543413oswg1080oswg674_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>原本初到伯克利时，高阳计划跟随Michael Jordan开展研究。然而，再参加了几次他的组会，并与其学生交流后，他发现Michael研究方向与自己的与其有所差异。</p>
-<p>因为，Michael Jordan的工作更加偏重数学理论，组会多围绕数学公式推导，这与高阳所期待的实践导向研究路径不尽相同。</p>
-<p>在探索其他可能性过程中，他意外接触到了Trevor Darrell教授的研究组。</p>
-<p>Trevor专注于计算机视觉领域，其魅力在于直观性——可以清晰看到输入的图片，观察神经网络训练过程，并得到可视化结果。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20241111/v2_69c89a63290e47aca1805ce1f6d343ab@46958_oswg1746082oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>值得一提的是，当时深度学习的浪潮已经持续了大约2年的时间，业界也普遍认可了这项技术的卓越性。</p>
-<p>也是基于这些原因，更加坚定了高阳在这一方向上深耕的原因。</p>
-<p>在他的博士生涯初期，跟随Trevor教授做了很多在纯视觉领域的研究。</p>
-<p>直到博士二年级下学期开始，高阳的研究兴趣发生了微妙的转变。</p>
-<p>这一转变源于，实验室内部一系列关于人类智能起源的深度探讨。</p>
-<p>而令他印象深刻的是CV圈里另一位大咖Jitendra Malik观点：他从进化角度提出，人类智能本质与灵巧的双手密不可分。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1510" src="https://img.36krcdn.com/hsossms/20241111/v2_172bec27247b4fbfaa681baf60ca3930@46958_oswg1724761oswg1080oswg1510_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>正是因为拥有了精细的手部动作能力，人类才得以完成更为复杂的任务，反过来推动了大脑的进化，使得智力水平得以适应更复杂的活动需求。</p>
-<p>再到猫狗之间对于人类指令理解力的差别，说明了狗的群居特性，使得它们沟通协调力强于猫。</p>
-<p>最终，他们在智能本质讨论中，逐渐达成共识：机器视觉的终极发展方向，应该由具身智能体驱动。</p>
-<p>自然而然地，高阳开始将研究中心转向了具身智能领域。</p>
-<p>他认为，具身智能与视觉、强化学习有着密切的联系，这种联系可以类比人类的认知过程。</p>
-<p>即通过视觉感知环境，理解周围状况，继而做出相应的行为。</p>
-<p>基于这种认识，高阳开始与Sergey Levine教授展开合作，深入去研究具身智能的形成机制。</p>
-<p>得益于前期在计算机视觉领域的积累，在实际研究中，高阳能够很好地将CV技术与RL结合起来，并交出了硕果累累的成绩单。</p>
-<p>在机器人研究领域的顶级学术会议CoRL 2024中，团队更是连中了4篇论文。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,301" src="https://img.36krcdn.com/hsossms/20241111/v2_ccd619235cdf46cdb28ea0fddafad52a@46958_oswg136274oswg1080oswg301_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://arxiv.org/abs/2310.02635</p>
-<p class="image-wrapper"><img data-img-size-val="1080,350" src="https://img.36krcdn.com/hsossms/20241111/v2_18b8e65e572748e5aa2a2f8bddf0f7fe@46958_oswg56362oswg1080oswg350_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://arxiv.org/abs/2310.08809</p>
-<p class="image-wrapper"><img data-img-size-val="1080,391" src="https://img.36krcdn.com/hsossms/20241111/v2_92f0ab7c081d466fae1ad6c838dd6557@46958_oswg58784oswg1080oswg391_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://arxiv.org/abs/2401.11439</p>
-<p class="image-wrapper"><img data-img-size-val="1080,290" src="https://img.36krcdn.com/hsossms/20241111/v2_7936fa86010a4c21b6a027034b929898@46958_oswg128140oswg1080oswg290_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://arxiv.org/abs/2406.10615</p>
-<p>回到北美，如今头部的具身智能创业公司，除了Figure AI之外，创始人都属于伯克利系。</p>
-<p>比如，Physical Intelligence的联创Sergey Levine，便是UC伯克利电气工程与计算机科学系的副教授。</p>
-<p class="image-wrapper"><img data-img-size-val="355,357" src="https://img.36krcdn.com/hsossms/20241111/v2_424c9f36ec844fb4a7445227242e99f9@46958_oswg247340oswg355oswg357_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="556,364" src="https://img.36krcdn.com/hsossms/20241111/v2_c2cb7bf3a1704b8faba8de54894a722b@46958_oswg39379oswg556oswg364_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Pi的另一位联创Chelsea Finn，也是UC伯克利的博士。</p>
-<p>Skild AI的联创Deepak Pathak，同样是在UC伯克利获得的博士学位，师从国际计算机视觉大师Trevor Darrell教授（曾培养了包括贾扬清在内的多位视觉领域知名学者）。</p>
-<p class="image-wrapper"><img data-img-size-val="600,600" src="https://img.36krcdn.com/hsossms/20241111/v2_4851041a6c5e4d43a2b9cc4513147024@46958_oswg857610oswg600oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,191" src="https://img.36krcdn.com/hsossms/20241111/v2_e2821e041f784079b4cc657d9f53ebd6@46958_oswg69586oswg1080oswg191_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>随后，Pathak继续在UC伯克利做博士后研究，导师是机器人学习领域的顶尖学者Pieter Abbeel——扩散模型（Sora、SD背后核心技术）的提出者之一。</p>
-<p>爆火AI搜索初创Perplexity AI的创始人Aravind Srinivas，以及前OpenAI联创John Schulman，皆是他的学生。</p>
-<p>博士研究期间，Pathak开发了一种向机器人灌输「好奇心」方法。具体做法是，当系统无法预测其行动结果时，系统反而会因未知结果而获得奖励。</p>
-<p>这种方法驱使AI去探索更多场景，并收集更多数据。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,411" src="https://img.36krcdn.com/hsossms/20241111/v2_85b1a0778d91491885a4b40777d92518@46958_oswg33747oswg1080oswg411_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文地址：https://pathak22.github.io/large-scale-curiosity/resources/largeScaleCuriosity2018.pdf</p>
-<p>其实回看2014到2016年这段时间，无论机器狗还是双足机器人，在业内的进展都比较缓慢。</p>
-<p>虽然当时的人形机器人已经可以跑酷、跳桩，但其中使用的技术栈其实非常传统，是基于传统的MPC、WPC这类手工控制器去做的。</p>
-<p>也就是说，并不是基于机器学习这条路线。</p>
-<p>在2017年左右，Pieter Abbeel和三个学生一起创立了Covariant（原名Embodied Intelligence），可以说是体现了具身智能的缩影。</p>
-<p>在当年，大语言模型并没有出现，因此即使这个公司早于时代，也依然像今天的非端到端自动驾驶一样，技术栈并没有特别大的进步。</p>
-<p>而随后大模型的出现，才终于让具身智能的推理能力、多模态感知融合、自主学习和知识迁移能力等得到了显著提升，翻开了全新的篇章。</p>
-<p>如今，具身智能技术已经走向了深度融合和迭代优化的新阶段。拥有技术领先性和应用场景积累的企业，将迎来大展拳脚的机会。</p>
-<p>而千寻智能，恰恰有着清晰的端到端技术路线，有顶尖人才、有应用场景。</p>
-<p>具身智能这盘大棋，接下来就看千寻智能如何交卷了。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/BotWZPRmiVY4ZaqICzgvrw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：编辑部 HYZ ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031615559705859</guid><pubDate>Mon, 11 Nov 2024 16:02:00 +0800</pubDate></item><item><title>50平小店日入2万，地摊牛排锅是下一个“创业顶流”？</title><link>https://36kr.com/p/3031445737534344</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>自助赛道又冒出“新物种”，今年下半年来在多个城市铺开。</p>
-</blockquote>
-<p>今年以来，一批主打自助的餐厅生意火爆，包括鲜切牛肉自助、自助小火锅、素食自助等。</p>
-<p>最近，红餐网观察到一种新的自助模式在多个城市出现，有的门店甚至能做到日营收超2万元，消费者大排长龙。这种模式到底是怎样的经营逻辑？开店前景如何？</p>
-<h2><strong>01.日均接待200桌、牛排消耗1000斤，年轻人排队吃地摊牛排锅</strong></h2>
-<p>自助赛道又冒出“新物种”，一批地摊牛排锅门店在郑州、武汉、杭州、洛阳等新一线和二线城市铺开。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,589" src="https://img.36krcdn.com/hsossms/20241111/v2_3b199dedf6fa4f5fb430741fb9b30f82@5265833_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图片来源：小红书截图</p>
-<p>其中不少门店是今年下半年开业的新店。比如杭州的“牛伙计·地摊自助牛排锅”今年9月初正式试营业；武汉“楚扒坊地摊牛排锅”今年“十一”期间试营业；广州的“牛小二地摊牛排锅”10月初开业……</p>
-<p>也有一些店是从其他赛道转向而来，比如合肥的“卞铁柱地摊火锅”共有2家门店，今年5月前还主打重庆火锅，下半年加入地摊牛排锅新品并逐渐代替重庆火锅成为门店的主打产品。9月下旬，其新店更名为“卞铁柱地摊牛排锅”并试营业，目前该店在正常营业中。</p>
-<p>这些地摊牛排锅店中，有的还很受消费者欢迎。比如武汉的“楚扒坊地摊牛排锅”，不少大众点评网友留言表示，该店开业以来每晚生意火爆、座无虚席，“6点半天还没黑就没位置了”“晚饭时间段人特别多”。</p>
-<p class="image-wrapper"><img data-img-size-val="855,389" src="https://img.36krcdn.com/hsossms/20241111/v2_d310b5770ed9431295441dea354b30f9@5265833_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图片来源：大众点评截图</p>
-<p>今年8月左右开业的徐州“马大爷地摊牛排锅”是当地新晋网红店，饭点时门口经常排队，抖音吃喝玩乐榜显示，其位于徐州泉山区的门店为“泉山区宵夜热销榜第2名”。</p>
-<p>小红书“牛排锅创始人马总”的账号显示，河南的“马艳利地摊牛排锅”门店每天能卖出800-1000斤牛排，每天接待一两百桌客人。一位业内知情人士告诉红餐网，成都“曾努力地摊牛排锅”每天也能卖出800多斤牛排。</p>
-<p>长沙一家地摊牛排火锅店老板称，其门店面积50平，人均25-30元，日营业额能做到22000元。</p>
-<p>随着门店越开越多，地摊牛排锅在线上也逐渐起势。小红书显示，“地摊牛排锅”相关笔记有近5000篇，抖音平台也显示，“地摊牛排锅”话题的播放量已达到1.4亿次，相关话题总的播放量近2亿。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,697" src="https://img.36krcdn.com/hsossms/20241111/v2_aafa2e129e9e467091da6f518c457ee3@5265833_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图片来源：抖音截图</p>
-<h2><strong>02.人均40元、30种配菜自助不限量，性价比是地摊牛排锅的杀手锏</strong></h2>
-<p>三四十元一锅3斤牛排、几十种配菜任吃、破店风装修……地摊牛排锅能够在今年走红，也是因为踩中了性价比和烟火气这两大“流量密码”，既让消费者得了实惠，又能提供不低的情绪价值。</p>
-<p><strong>1、人均低至40元，涮菜、水果等自助不限量；</strong></p>
-<p>人均消费低是地摊牛排锅的核心卖点。不少门店都推出了69元双人、129元4人、199元6人等套餐，人均消费价格大多在40元左右。</p>
-<p>以郑州为例，抖音平台显示，当地74家地摊牛排锅门店的人均价格区间在33元-127元，其中人均在40元以下（含40元）的门店有41家，占比超过半数。而当地火锅店的人均价格多在80-110元，牛排店的人均价格则多在130元以上。</p>
-<p>除了很低的套餐价格，这些门店还采用半自助模式，自助涮菜不限量。比如郑州“金豫祥地摊牛排锅”在抖音推出65.9元双人牛排锅套餐，牛肉丸、鱼丸、鱼豆腐、鸭血、土豆粉等20种涮菜不限量自助，小料不另外收费。</p>
-<p>部分品牌的饮品、零食、水果等也可以自助。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,856" src="https://img.36krcdn.com/hsossms/20241111/v2_32ef3067bb474fa1b31a8f935cd92281@5265833_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图片来源：小红书截图</p>
-<p><strong>2、利用认知差营造高价值感、保障经营利润；</strong></p>
-<p>以定价89元、99元的双人锅为例，一锅普遍包含3斤牛排，不少消费者在大众点评等平台留言表示“爽吃牛排”“想不到几十块能吃到这么多肉”，份量大、好吃不贵等也是出现在地摊牛排锅门店评论区的高频词。</p>
-<p>这是一种利用消费者的认知差异，将人们认知中昂贵的牛排以颇为实惠的价格出售，来实现价值感的做法。</p>
-<p>在消费者的一般认知中，牛排属于贵价食材，所以人均40元就能吃牛排吃到撑，就会带给人较高的价值感。</p>
-<p>事实上，得益于去年以来进口牛肉价格持续下降，牛排、牛骨等食材今年也维持在较低的价格，一锅地摊牛排锅的实际食材成本比消费者认知中的“牛排”要低不少。</p>
-<p class="image-wrapper"><img data-img-size-val="679,485" src="https://img.36krcdn.com/hsossms/20241111/v2_6cdd7561de6d44d7aedd917bc10591f4@5265833_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图片来源：某电商平台牛排批发价截图</p>
-<p>河南某牛肉供应链公司经伍斌（化名）表示，一锅地摊牛排锅包含多种牛骨，以牛肋排为主，搭配牛脖骨、牛胸排、肩胛骨、牛羽骨等部位。目前市场上满肉牛肋骨的批发价在18元一斤左右，带肉量较低的部位，如肩胛骨等，批发价约在7-8元一斤左右，平均下来牛排类食材的综合成本为10元一斤。</p>
-<p>河南某地摊牛排锅店主王坤（化名）也告诉红餐网，目前市场上批发进口牛排的价格在10-20元一斤，价格差主要取决于牛骨部位以及带肉量。</p>
-<p>地摊牛排锅的经营者找到了成本较低的“贵价食材”，卖出了比一般牛排更低的价格，既获提升了价值感，又能保障门店自身的利润。</p>
-<p><strong>3、备餐简单，出餐效率高，需求人工少；</strong></p>
-<p>地摊牛排锅的出餐流程比较简单，顾客下单后，后厨将提前卤制或炖煮入味的牛排舀入锅中，整锅端上顾客的餐桌，再打开桌上的卡式炉加热锅，平均5-10分钟左右就可以上菜。上菜速度快，顾客等待的时间短，也能提升门店的用餐满意度。同时，门店可以提前备餐，后厨的压力也较小。涮菜基本靠顾客自助，因此门店所需的人工也比较少。</p>
-<p><strong>4、低成本装修，采用外摆，烟火气十足；</strong></p>
-<p>地摊牛排锅门店普遍采用市井风或者破店风装修，墙上除了必要的菜单和标语外，店内几乎没有装饰，装修的成本较低。不少门店采用折叠桌和塑料椅，风格类似大排档，成本进一步降低。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,648" src="https://img.36krcdn.com/hsossms/20241111/v2_7c7220fc47e34b32ae7eee9279242e4f@5265833_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图片来源：小红书截图</p>
-<p>不少门店堂食面积不大，内部仅摆几张餐桌，而大量采用外摆桌，顾客多数需要坐在店门外用餐，在增添了烟火气的同时，路过的人群能直观看到这家店的主打菜品，提升了门店在附近区域的曝光度。</p>
-<p>此外，这些地摊牛排锅门店的选址普遍不在热门商场或者核心商圈内，而是开在社区街边或者郊区商场。比如大众点评显示，“留下来啃牛坊·地摊牛排锅”在杭州共有4家在营门店，2家开在大型社区附近街道，2家开在近郊的商场。</p>
-<h2><strong>03.值不值得跟？地摊牛排火锅还有待解难题</strong></h2>
-<p>对于地摊牛排锅品类，接下来最直接的挑战就是应对低价导致的产品信任危机。不少消费者对牛排的品质提出质疑，担心门店可能使用了合成牛排或拼接牛排以降低成本，也有网友担心吃到在冷库中存放了好几年的“僵尸肉”。</p>
-<p>比如小红书网友“夏小天的快乐”就质疑道，“今夏，焦作的地摊牛排锅都开疯了，而且一个比一个卷，但是太便宜了你敢去吃吗？</p>
-<p>壹鸣餐饮咨询创始人刘一鸣告诉红餐网，冷冻肉并不等于劣质肉、僵尸肉，目前国内牛肉类食材大量依靠进口，比如火锅、烤肉等行业用的和牛肉大部分来自进口，牛排同理。同时，国内牛肉冷冻技术已经十分先进，可以分阶梯解冻，对牛肉口感和营养物质的损耗小，因此不能用是否采用冷冻牛肉来判断一家牛肉餐饮店食材的好坏。此外，地摊牛排锅多选用带肉牛骨、牛排，这些部位很难进行“合成”，因此使用合成肉的概率也比较低。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,931" src="https://img.36krcdn.com/hsossms/20241111/v2_56ec4ae16cf841a48477041719fb8a2c@5265833_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图片来源：小红书截图</p>
-<p>而王坤表示，目前进口牛排价格低，餐饮商家能够保证合理利润，因此没有必要采用低质、假冒牛排。“2斤左右双人套餐的牛排成本约为20多元，再加上其他配菜，一锅的食材成本约为30-40元左右，毛利率约为50%，在餐饮业属于正常、合理的范畴。”</p>
-<p>虽然相关从业者都表示当前地摊牛排锅定价低是正常现象，但由于品类的性价比是基于消费者认知差形成的性价比，因此还是有一定的认知风险，远期来看，品类经营者有可能陷入进退两难的境地：如果向消费者澄清自己并非劣质肉，那么就要暴露食材本身价值并不高的事实；如果不澄清，那么消费者会因为产品的超常低价而产生不信任感。</p>
-<p>同时，产品缺乏差异化也是地摊牛排锅存在的一大问题。目前多数地摊牛排锅的食材大同小异，即牛排+火锅食材+蔬菜，口味也仅有简单的原味、卤味、麻辣等，甚至连招牌也很少突出品牌名称，而是重点突出“地摊牛排锅”这一品类信息，门店风格则是清一色的地摊风、破店风，辨识度不高。</p>
-<p>针对这一问题，一些地摊牛排锅也开始通过产品“做加法”打造差异化，比如加入地方特色小吃或者其他热门食材，如牛排+小龙虾、牛排+羊肉等。也有的门店将牛排锅做细分，比如啃牛坊·自助地摊牛排锅主打黄牛排，推出黄牛蝎子锅、黄牛排骨锅等，还在锅底上引入罗宋番茄等差异化口味。</p>
-<h2><strong>结 语</strong></h2>
-<p>从地摊火锅到地摊牛排锅、地摊牛腩锅，近两年来餐饮界涌现出了一批“地摊风”品类，从中我们不难看出一些共性：主打口味火锅+自助+地摊破店风，开在街边、走性价比路线。</p>
-<p>这类模型的兴起，说到底还是消费疲软催生的产物，一方面是消费者要省钱、要性价比，另一方面是餐饮经营者也在追求降成本、降风险的模式。就目前而言，这类模式在市场上确实吸引了一批消费者。未来新鲜感褪去后，这一模式能否持续火热、会有哪些迭代，红餐网将持续观察。</p>
-<p class="editor-note">本文来自微信公众号“红餐网”，作者：何沛凌；编辑：王秀清，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031445737534344</guid><pubDate>Mon, 11 Nov 2024 16:09:00 +0800</pubDate></item><item><title>你家有智能灯泡吗？这可能是送给黑客的你家钥匙</title><link>https://36kr.com/p/3031471390287360</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在明尼苏达州的一个普通住宅里，律师丹尼尔·斯文森（Daniel Swenson）正坐在沙发上，和家人一起悠闲地看着电视。</p>
-<p>突然，扫地机器人传来滋啦滋啦的声音。奇怪，没人启动它啊？</p>
-<p>斯文森打开手机看扫地机器人的控制App，赫然发现多出了一名<strong>陌生用户</strong>。他重启扫地机器人，完事继续看电视。</p>
-<p>然而沙发还没坐热，扫地机器人又活过来了！这次机器人<strong>不仅发出滋啦滋啦的运行噪音，还开口说话了</strong>！</p>
-<p>这个画面真的很好笑，一个闪耀着简洁科技感的扫地机器人，突然化身说唱歌手；另一方面也很恼人，这个机器人开口说的，是一连串含有种族歧视内容的脏话！</p>
-<p>最终，机器人先是被黑客附身，又被生气的主人扔进了地库。</p>
-<p>这个事情有点无厘头，但也给我们上了一课：<strong>黑客想入侵的，早就不只是大公司的绝密文件夹了</strong>！</p>
-<h2><strong>万物联网后，黑客路子越走越宽</strong></h2>
-<p>入侵扫地机器人的黑客不止一个。</p>
-<p>就在斯文森的扫地机器人受到入侵的同一天，另一台位于洛杉矶的扫地机器人也遭到了攻击。据报道，<strong>这名扫地机器人不仅出口成脏，还在家里追着狗子跑</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_771a74c0ed7b43129a8bc481602a85c9@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图片来源：小红书截图</p>
-<p>相关品牌所属的公司后来发布了声明，说这不是啥高级的网络战，而是常见的“<strong>撞库</strong>”。</p>
-<p>所谓“撞库”，指黑客们收集互联网中遭到泄露的账号和密码，并利用这些信息登录不同的网站和服务——<strong>如果刚好有人在不同网站、App都用了一样的账户和密码，那就“撞”上了</strong>。</p>
-<p>“撞”对了账号密码，从互联网普及以来就一直很常见。过去几十年，这对个人的影响可能仅限于互联网账户被乱用（熟悉吗：本人QQ被盗，收到借钱消息切勿相信），<strong>但如今家里电器都用上了智能系统，账号被盗的影响就从线上延伸到了线下</strong>。</p>
-<p>好在靠“撞”运气入侵的黑客，技术一般不算高明，心中一般也没有“大志”，就做些招猫逗狗的小破事。</p>
-<p>但有些黑客，不仅路子越走越宽、开始入侵普通人家里，还真会玩点阴的。</p>
-<h2><strong>这些电器，竟然也被盯上了？</strong></h2>
-<p>随着家里联网的设备越来越多，黑客入侵的途径也越发让人意料不到。</p>
-<h3>不给钱就冷死你</h3>
-<p>2016年的DEF CON黑客大会上，来自英国安全公司的研究员展示了一种攻击家庭恒温器的勒索软件。</p>
-<p>通过勒索程序，入侵者可以<strong>远程锁定恒温器的温度，开到极高或极低，并且在屏幕上显示勒索信息</strong>。</p>
-<p>这真的够狠，不交钱，冷死或热死，还巨费电；交钱，你知道今天1个比特币差不多等于50万人民币吗……</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_b4f32de9ba924bc3b662306dd84272b3@000000_oswg103751oswg545oswg391_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">“你的恒温器被永久设置为1摄氏度，如果你想重新获得控制权，请存入1比特币”｜OWASP London/Youtube</p>
-<p>注意，这不完全是虚构案例，背后是研究人员<strong>在恒温器中发现的真实漏洞</strong>。当然，他们也连连承诺会尽快修复该漏洞。</p>
-<p>不免走神发出疑惑：这算魔法攻击还是物理攻击呢？</p>
-<h3>让冰箱发垃圾邮件</h3>
-<p>没想到吧，冰箱也能被入侵！</p>
-<p>黑客入侵冰箱，不是为了偷食物，也不是改变温度加速食物腐坏，而是让冰箱做了另一件匪夷所思的事：<strong>发大量的垃圾邮件</strong>。</p>
-<p>2014年，安全公司Proofpoint发现了一起离奇的网络攻击事件。黑客入侵了超过10万台设备，把这些设备组成僵尸网络（botnet），并通过控制这些设备发送了超过75万封垃圾邮件。</p>
-<p>这些被入侵的设备里，只有约75%是有发邮件功能的设备，比如电脑和智能手机。通过分析设备标识，Proofpoint研究人员发现，<strong>其余受害设备是联网的电视、路由器，甚至冰箱</strong>。</p>
-<p>哎呀，用冰箱发垃圾邮件，是不是也算一种厨余垃圾呢？删除的时候放哪个垃圾桶呢？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_0c1e117b5d014833b306a38f50cafe96@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图丨giphy</p>
-<p>还有一件事儿。在2015年的DEF CON黑客大会，安全研究人员发现某品牌智能冰箱的一个漏洞：<strong>冰箱通过WiFi链接到谷歌等远程服务器时，并没有启用加密的安全认证方式，黑客可以利用这个漏洞窃取用户的谷歌登录凭证</strong>。</p>
-<p>人们对冰箱太放心了，以至于根本想不到它会被黑客盯上。“冰箱不是保险箱”这句话，在这一刻有了更多的内涵。</p>
-<h3>灯泡感染你全家</h3>
-<p>如果说恒温器、冰箱看起来还跟“智能”“科技”扯得上关系，那灯泡呢？</p>
-<p>2020年，研究人员成功入侵了一款智能灯泡，并可以<strong>远程调整灯泡的颜色和亮度，让你温馨宁静的家变成闪耀舞池</strong>。</p>
-<p>这只是第一步。</p>
-<p>发现灯泡发疯，你总要去纠正一下吧？<strong>当你在手机里重置灯泡并再次接入网络时，这颗灯泡已经感染了“病毒”，并通过网络开始传染</strong>：向网桥发送大量数据，从而触发缓冲区溢出并安装恶意软件。</p>
-<p>原来这个灯变成了黑客的阿拉丁神灯啊！</p>
-<p>还好这只是试验，制造商也在后续升级中修复了漏洞。不过这也暴露出一个问题：<strong>一些不完善的智能设备存在漏洞，很容易成为攻入家庭网络的入口——然而这些联网的小电器，往往是我们最不上心的</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2df11993933c4865b8bceac4f5839b00@000000_oswg794349oswg823oswg1112_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这种便宜的联网灯泡，谁会想到它是黑客的入侵通道呢？</p>
-<h3>连儿童玩具也不放过！</h3>
-<p>智能化的玩具也有可能泄露一些秘密。有一款泰迪熊可以当电话用，孩子能通过它跟远方的父母进行联网语音，异地的情侣当然也能使用。</p>
-<p>创意很浪漫，但设计这款玩具的公司忽略了数据安全问题，<strong>他们一直将用户信息和语音数据放在一个没有防火墙保护的数据库中</strong>。于是，2017年，<strong>这个数据库被黑客入侵了，超过200万条录音被公布在了网上</strong>。</p>
-<p>这会带来多少个喜怒哀乐的后果，我们可以自行脑补——万幸这个玩具并没有拍照和拍视频的功能。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_4d533fdc9428479fae721c9ad6ce3bd6@000000_oswg232415oswg739oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">被当枪使的当事泰迪熊丨cloudpets.com</p>
-<p>挺讽刺的一件事是，就在数据库被入侵的前几天，德国电信监管机构发了一篇关于联网玩具的警告，表示使用者的交谈可能被黑客监听。</p>
-<p>好家伙，泰迪熊竟然出演谍战片了！</p>
-<p>Guokr</p>
-<p>虽说智能电器客观上给黑客拓宽了路，但物联网依然是未来的趋势，毕竟智能化家居真的太爽了啊！</p>
-<p>作为确实有隐私（甚至有存款）的消费者，大可不必因噎废食，建议在买联网电器的时候就<strong>选大品牌</strong>（最起码出了事有地方说理）、<strong>定期更换密码防止“撞库”</strong>。另外，<strong>智能电器手机端App的更新提示，你还是理会一下吧，指不定就在修复黑客入侵的bug呢</strong>！</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MTg1MjI3MzY2MQ==&amp;mid=2652283787&amp;idx=1&amp;sn=be3a2cdfc39763561b3dd561524a4454&amp;chksm=5cbffcdffbed48c9a15f08cf2f3cc9b2bd403433f08a21a23c35f4ee7e582746159bf46db745&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“果壳”（ID：Guokr42）</a>，作者：普拉斯G，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031471390287360</guid><pubDate>Mon, 11 Nov 2024 16:12:00 +0800</pubDate></item><item><title>苹果的悲剧，不是从iPhone降价参加双十一开始的</title><link>https://36kr.com/p/3031501636085253</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>苹果正在走下神坛。</strong></p>
-<p>这是苹果第一年官方参加双十一。在最新机型iPhone16仅1个月后，该系列随即迎来全系官方渠道大降价。</p>
-<p>而与降价一同冲上热搜的，则是iPhone 16系列的重启问题。在外网Reddit、MacRumors论坛和Apple Support Communities等平台，关于iPhone 16随机重启的投诉，数次登上论坛头条。</p>
-<p>汽车迟迟不见踪影、VR雷声大雨点小、大模型更是远远落后于一众竞争对手……</p>
-<p><strong>此时此刻，拿走全球智能手机产业90%利润的苹果，正前所未有的成功。但也离那个2007年1月9日旧金山马士孔尼会展中心Macworld大会上，那个乔布斯拿着初代iPhone，高呼“今天，苹果将重新发明手机”的苹果越来越远：</strong></p>
-<p>苹果的CEO，不再是那个统一了全球科技创业者着装风格的偶像。</p>
-<p>苹果的手机新功能，不再是各大手机品牌争相模仿的对象。</p>
-<h2><strong>是什么时候，我们觉得苹果不再像苹果了？</strong></h2>
-<p>或许不是从发布史上最丑的iPhone 16开始的，也不是乔布斯的去世开始的。</p>
-<p><strong>而是伴随着规模的不断膨胀，曾经的优势变成禁锢，苹果从软硬一体创新的风向标，变身生态围墙的铜墙铁壁维护者的时候。</strong></p>
-<p><strong>苹果什么时候不再像苹果了</strong></p>
-<p>无论你是否承认，如今的苹果已经不再像苹果，反而像极了那个曾与苹果闹翻了无数次，又合作了无数次的全球CPU霸主——英特尔。</p>
-<p><strong>它们都曾是开启一个时代的存在。</strong></p>
-<p>英特尔是全世界最早规模化生产芯片的产业奠基人，摩尔规律的奠定者，电脑pc时代的开创者。甚至，迄今为止，如今的英特尔，也依然是全世界唯三可以生产7nm芯片的企业；唯二可以规模量产CPU的企业；以及半导体营收前三的巨无霸。</p>
-<p>然而历史的荣光，早随着乔伊斯、戈登摩尔这样一代宗师的逝去，被属于台积电、英伟达、AMD的新故事所替代。在资本市场，高通、博通在计划收购英特尔；英伟达值三十个英特尔，台积电值九个英特尔，就连市占率远低于英特尔的AMD也可以买下三个英特尔……</p>
-<p><strong>比市场上的落后更悲哀的，是一个科技企业无可避免地走入暮年，成为曾锐意颠覆的模样。</strong></p>
-<p><strong>而苹果变老的痕迹，VR、汽车，甚至大模型，都比手机企业提早感知到。</strong></p>
-<p>在等待苹果VR这件事情上，全球的科技企业，花了足足十年。直到2023年6月6日苹果一年一度的苹果全球开发者大会上，首款MR混合现实产品Apple Vision Pro真正面世。</p>
-<p>没有想象中的更高灵活度，没有更轻的重量，甚至也没有苹果一贯擅长的流畅体验与工业设计迭代，有的只是3499美元起步的高级玩具。</p>
-<p>而在等待苹果的过程中，苹果在中国最忠诚的供应链企业歌尔，都一度靠着多年的技术积累，成为如今VR领域销量最高的Meta旗下oculus的代工厂，旗下孵化的自研VR品牌Pico也被字节收购，成为国内首屈一指的VR头部玩家。</p>
-<p>汽车更不必说，为了十多年前就已经立项的苹果“泰坦自动驾驶计划”，苹果一度拒绝了想把特斯拉卖给苹果的马斯克，将中国大陆、中国台湾、乃至韩国的一众汽车代工厂溜了一圈。然而，富士康自研的汽车都已经发布了两款，苹果泰坦迄今为止的进度，还依然是一个不愿公开承认存在的自动驾驶汽车项目。</p>
-<p>到了大模型产业，当国产的小米OV，都已经推出自研大模型之际，全世界翘首以盼的果粉，等来了发布会上苹果与OpenAI合作官宣，未来ChatGPT将整合到包括新一代iOS、iPadOS以及macOS中，成为苹果的Intelligence来源。</p>
-<p><strong>所有人都在等待苹果的十年磨一剑，却无人想到，苹果十年磨的全是剑鞘。</strong></p>
-<p><strong>但苹果是一个失败的企业吗？答案是否定的。</strong></p>
-<p><strong>与“失望”并列出现的，是苹果财务侧史无前例的“成功”：</strong></p>
-<p>乔布斯去世后，十二年间，苹果的营收从1082亿美金增长到了3833亿美金，增幅三倍；利润则从259亿美金，增长到了970亿美金，增幅近四倍。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_164770d6c98d4b619c78d558d2e16217@000000_oswg146357oswg750oswg393_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>毫无疑问，苹果正变成一个越来越庞大、越来越赚钱的帝国。财务的扩张，伴随用户的忠诚，足以让它有无数次推出最丑iPhone却依旧被信任的机会，也足以支撑它在VR、汽车、大模型，输了一次又一次。</strong></p>
-<p><strong>因为，躺在iPhone的金山上，这座帝国活成了所有企业梦寐以求的样子——收税。</strong></p>
-<p>所谓苹果税，指的是，苹果生态内，开发者必须通过苹果的官方支付渠道进行交易，而苹果则对交易金额抽成30%。</p>
-<p>一开始，这一条款包括用户在苹果App Store的买断费用，但2016年后，苹果对条款的适用范围进一步扩张：苹果生态内软件，除了拼多多或者淘宝这种购物网站，一切的用户订阅、打赏、充值等支付行为，苹果全部抽成30%。</p>
-<p>也是因此，同样的游戏道具，苹果用户的价格会高于安卓；同样的直播打赏金额，主播在苹果生态内收到的金额低于安卓。</p>
-<p>据统计，仅去年一年，苹果在中国市场的软件收入，就高达400亿收入；甚至，强如谷歌，为了能成为苹果的内置浏览器应用，也要每年纳税200亿美金。</p>
-<p>尽管，为了这30%的暴利，苹果仅仅提供的，只有App Store的日常维护，不过，所有的app开发者早已习以为常。</p>
-<p><strong>但，本该如此吗？</strong></p>
-<p><strong>或许，关于苹果，真正“变老”的节点，其实正是创新起家的公司，最后变成了收税阻碍创新，却借此在商业上无比成功的那一刻。</strong></p>
-<p><strong>这又是一个屠龙少年终成恶龙的历史故事循环。</strong></p>
-<h2><strong>当屠龙少年成为恶龙</strong></h2>
-<p><strong>2021年，一向以招牌的“厨子式微笑”出现在公众眼前的库克，罕见地坐在被告席上。</strong></p>
-<p>站在起诉方的，则是全球鼎鼎有名的美国游戏开发引擎epic。作为近十年来最负盛名的游戏制作团队之一，epic的引擎一度被用在《战争机器》系列、《子弹风暴》各大热门游戏的开发中，技术之领先，一度引来NASA一同合作开发VR火星模拟器。</p>
-<p>2020年8月，Epic Games仅仅因为《堡垒之夜》绕开App Store，选择让玩家在游戏中直接付费，不到半天，就被苹果在应用商店下架，下架仅一个小时，Epic一纸诉状，将苹果送上了法庭。</p>
-<p>然而，面对epic对苹果滥用地位收税的指控，库克的反驳罕见的疾言厉色，陈词概括如下：</p>
-<p>1、从来没有垄断，苹果面临着大量的竞争。</p>
-<p><strong>尽管，苹果一家占据了全球智能机利润的90%+</strong></p>
-<p>2、苹果收税是必要的，从应用程序开发者那里收取的佣金有助于为App Store提供更好的安全性。</p>
-<p><strong>尽管，各个国家，对民间借贷利率的司法保护与高利贷的划分，也仅在20%上下</strong></p>
-<p>3、APP开发者自己要反思，想要什么和消费者想要什么之间存在冲突；苹果无罪且有功，苹果已经为许多开发者降低了应用商店的费用。</p>
-<p><strong>尽管，30%，已经是那个时间节点下，几乎最高的抽成比例</strong></p>
-<p>然后，一番慷慨陈词，苹果赢了。</p>
-<p><strong>同一时间，同一理由被epic送上审判席的谷歌，因为在搜索引擎中的更高市场占比，被判败诉。</strong></p>
-<p><strong>苹果的胜诉，随机在全世界范围内引起了更高声浪的控诉。</strong>除了音乐流媒体Spotify等应用持续不断的反对，早在2019年，美国司法部也开启了对苹果的调查，并持续迄今；并在上半年，联合15个州和哥伦比亚特区的总检察长，对苹果公司提起反垄断诉。</p>
-<p>美国之外，日本、韩国、荷兰也先后起草了关于降低“苹果税”的法案，法律的硬性规定下，苹果在韩国的费用从30%下调至26%，在荷兰约会类应用费用下调至27%，并先后开放第三方支付。</p>
-<p><strong>唯一的例外是中国。</strong></p>
-<p>不久前，据报道，今年6月前后，苹果正施压腾讯、字节这两家国内流量规模最大的互联网公司，要求其配合封堵微信、抖音中小程序中绕过苹果进行支付的行为。如不配合，未来将拒绝微信与抖音的重要更新。</p>
-<p>更直白一点来说，苹果在用拒绝更新，要挟微信与抖音的小程序付费。</p>
-<p>市场则对这场围堵进行了更加精准的估值：字节跳动，此前曾测算，仅仅小游戏，今年的市场规模将达到600亿，并且这一市场还在持续的高速增长；相应的，<strong>一旦对此收税，苹果的营收将再多180亿。</strong></p>
-<p><strong>进一步换算，这约等于小米2023年，一整年的净利润。</strong></p>
-<h2><strong>不断瓦解的铜墙铁壁</strong></h2>
-<p>不同于epic的激烈抗争无果，以及美国司法部的雷声大雨点小，<strong>微信与字节的回应，是罕见的沉默。</strong></p>
-<p><strong>而在这背后，则是一场全球范围内，关于移动互联网基础设施交接的无声变革。</strong></p>
-<p><strong>回顾全球的互联网发展史，一定程度上，收税角色变化的本质，是一场又一场的用户入口争夺战。</strong></p>
-<p>90年代，互联网最大的甚至唯一的入口是Windows，与之相伴随的，则是微软成为全球顶尖科技水平的代名词，比尔·盖茨登顶全球首富。</p>
-<p>此后，伴随搜索引擎技术成熟，即使所有的应用仍在部署在操作系统，但越来越多的功能在网页端上线，搜索引擎成为距离用户最近的入口，谷歌、百度随之崛起，成为中美两国在2005年前后最具权力地位的科技巨头。</p>
-<p>伴随着2010年之后的移动端浪潮，搜索引擎开始被垂直的电商、外卖、新闻资讯平台分流，继而成就了阿里、美团、字节一大批智能手机时代的生态帝国。</p>
-<p>与此同期，手机取代电脑，全球的通信运营商，以及苹果、华为、小米等手机企业粉墨登场，凭借着对用户流量入口的把握，一度靠着应用商店，在软件层面赚得盆满钵满。</p>
-<p>直到最近几年，不同手机品牌之间的差距越来越小，微信、字节等超级APP不断膨胀，成为直接接触用户最久、功能绑定最多的平台，<strong>相应的新生态也在超级APP中成长，小程序就是代表。</strong></p>
-<p>这种权力结构的变迁中，每一代“入口”的老去，伴随的，往往是用户的增长，统治地位的不断加深；但与此同时，在此基础之上，新的平台不断成长，越来越多的创新与用户使用时长，被转移到新的平台之上，原本的入口，与用户的距离，与越来越长。</p>
-<p>当原本的入口，已经不再能为新的小程序与游戏们带来增量，却依旧靠着垄断的地位，维持着30%的高税收，博弈的天平也就开始向新生事物一侧倾斜：</p>
-<p>对于苹果的精准打击，美国司法部一针见血“苹果正在摧毁创新”，即苹果的App Store的政策，是<strong>苹果不断财务扩张的生态长城、是苹果可以一次次错过的最大底气；但却也限制了下一代的竞争和创新，成为无数创新难以逾越的铜墙铁壁。</strong></p>
-<h2><strong>一代地球人失落的硅谷梦</strong></h2>
-<p>事实上，没有人会想到，雁过拔毛30%的苹果，也一度是创新与生态活力的代名词。</p>
-<p>在苹果之前，全球的游戏和移动应用的分销，往往由运营商直接控制。而由于运营商对渠道流量的绝对把控，能够进入运营商的分销渠道，就往往意味着销量的保底。也是因此，绝大多数情况下，运营商对游戏收入的抽成，往往高达 90%。</p>
-<p>而伴随着苹果的崛起，与App Store对传统短信订阅下载的取代，开发者发布应用变得更容易，开发的流程也伴随着苹果提供的标准开发工具，而变得大幅简化，但收税标准却从过往的90%，降到了 30%。</p>
-<p>只是时移世易：</p>
-<p>不断变化配色的iPhone不再是全球手机的风向标；</p>
-<p>越来越膨胀的营收与曾经“改变一切”的勇气越来越远；</p>
-<p>收税的苹果不再是创新的代名词……</p>
-<p>而伴随着流量入口的话语权转移，30%成为新的税收天花板，苹果也从曾经的屠龙少年变身恶龙。</p>
-<p><strong>但，苹果从来不是个例。</strong></p>
-<p>以苹果的成功与失败一体两面为切口，映射出的，是这些年来，硅谷越来越高的房价，创业者们越来越少的极客精神，算法越来越多以无数人血肉之躯对最佳工作效率的试验。</p>
-<p>……</p>
-<p><strong>于是，越来越多的人、越来越多的企业离开“硅谷”，越来越多的创新，被扼杀在大企业用流量编织起的铜墙铁壁。</strong></p>
-<p><strong>那是一代地球人失落的硅谷梦。</strong></p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzUyNjA0Mjg3Ng==&amp;mid=2247492626&amp;idx=1&amp;sn=04dc1051560b9cf78ab7b4076255c724&amp;chksm=fb89d44127c61b03e518ef78e9b0d564743f9baa5f96ff9e18453cb676fe1d8d313e4ca9d91c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“边码故事”（ID：tech-kk）</a>，作者：刘老师，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031501636085253</guid><pubDate>Mon, 11 Nov 2024 16:19:00 +0800</pubDate></item><item><title>中企出海，一场勇敢者的游戏</title><link>https://36kr.com/p/3031523580273929</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2be04c1d76da4882987afa501cb76b36@000000_oswg106260oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>走出去，走上去，走进去。‍‍‍‍</p>
-<p>2024年5月11日晚上9点，一架空客A350从深圳宝安机场起飞，一路向北，穿越日本和太平洋，最终降落在了大洋彼岸的墨西哥城，全程耗时15个小时，成为中国民航距离最长的直飞客运航线。这也是A380退役之后，南航为这条新航线能拿出手的最大型客机。</p>
-<p>首航仪式上，外交部一位官员的评价意味深长，该航线不仅是中国至墨西哥，更是中国至拉丁美洲的空中丝绸之路。</p>
-<p>这条航线开通的背后，是在断链脱钩和贸易摩擦的大背景下，中国的汽车、家电、家具企业涌入海外投资建厂，催生了大量的商贸往来需求。而墨西哥在这几年是热门目的地。</p>
-<p>墨西哥能如此受全球投资者青睐，除了有完善的基础设施和充沛的劳动力，还有个最大的优势：离美国太近。</p>
-<p>这件事在一定程度上得感谢懂王。2018年《美墨加协议》敲定，加速了美国“近岸外包”进程。美国对墨西哥的综合关税只有0.04%，而对中国的平均关税在21%左右。所以，很多外国企业都在墨西哥落脚，最终进入美国市场。2022年，中国对墨西哥的直接投资同比增长了48%，成为墨西哥第二大直接投资国。</p>
-<p>世界格局风云变幻，但你有张良计，我有过墙梯。中国企业像打不死的小强，顽强适应着多变的国际局势，从越南到墨西哥、土耳其、埃及，哪里有机会，哪里就有中国人的身影。</p>
-<p>不过，随着懂王再次回宫，关税的大棒随时可能举起，在墨西哥的中国企业依然面临着未来的不确定性。但中国企业的出海之旅并不会因此而停下，因为大家有个共识，参与全球竞争才是未来的出路。而今日的中国出海者也早已不是光走出去，也在走进去，融入当地，服务当地。</p>
-<h2><strong>01 学会在大海游泳</strong></h2>
-<p>2006年，刚和魏雪组建新家庭的李东生，在北京吃着涮羊肉，就接到了美国打来的电话，告诉他TCL的重组超支严重，气得李东生当场砸了两个茶碗和三个盘子。</p>
-<p>三年前，TCL拉开了中国企业出海并购的序幕，并购了法国彩电品牌汤姆逊和手机品牌阿尔卡特。李东生很自信，将这些动作视为TCL国际化进程的机会，他当时还发表了一个动员讲话，题目叫《决战决胜建立全球化的TCL》。也是在这一年，李东生被评为“CCTV年度经济人物”。</p>
-<p>事后看来，这些收购多少有些草率和误判。汤姆逊的CRT技术并不是行业主流，面临被淘汰的命运。李东生后来也承认自己对技术趋势的误判。汤姆逊和阿尔卡特两家公司一年的亏损额加起来高达20多亿元，而TCL在2003年的净利润也不过4亿多元。</p>
-<p>到了2006年，TCL亏损35.2亿元，达到历史顶峰。也是在这一年，李东生痛定思痛，写下了一篇TCL的圣 经《鹰的重生》。</p>
-<p>焦头烂额的李东生一度还问过宏基董事长施振荣，如何能迅速扭转汤姆逊彩电的亏损情况。施振荣非常幽默地回答：“我刚出了一本书，里面有当初宏基进军美国市场的成败案例，定价人民币20余元，可以卖给TCL10本供研究。”</p>
-<p>在2001年中国入世之前，中国的很多商品通过三来一补的形式，出口到海外，外国给什么订单就生产什么，然后换回来大量外汇储备。但出口不等于出海，中国企业真正走到海外去经营或者并购大部分是入世之后的事。</p>
-<p>政府层面将“走出去”上升为国家策略，像海尔、TCL、华为、联想等一批企业都更加意识到要积极参与国际竞争，成为全球化企业。</p>
-<p>张瑞敏曾说过，国门之内无名牌，只有走出国门与高手过招，才能创出真的世界名牌。</p>
-<p>海尔也成为中国第一家在美国投资设厂的企业。早在2000年就在美国的铁锈带南卡罗来纳州，投资3000万美元建厂，制造冰箱，轰动一时。当地政府还把工业园区内的一条大道命名为“海尔大道”，这是美国第一条以中国企业命名的道路。</p>
-<p>尽管工厂的规模不大，但在当时受到很多质疑，曾有媒体写了一篇文章，标题就是五个大字“提醒张瑞敏”。大家普遍认为，世界家电产业正在向中国转移时，海尔却反其道而行，跑到了高制造成本的美国建厂，注定会失败。</p>
-<p>在众多企业家里，张瑞敏对国际化有很深刻的认知。2002年，青岛投资拍摄过一部电影叫《首席执行官》，讲述中国人创业的故事，原型就是张瑞敏。首席执行官这个时髦词汇也是张瑞敏定的，因为他发现海外企业都是CEO负责制。</p>
-<p>在这个阶段，家电、家具和服装承接了发达国家产业链转移的红利，成为了中国企业出海的老三样。</p>
-<p>2008年的金融危机之后掀起了第二波出海潮。随着海外资产大幅贬值，刺激了中国企业去海外买买买，冒出了大量蛇吞象的并购案例。当年三一重工花费3.24亿欧元收购了暗恋18年的混凝土行业老大——普茨迈斯特。以前想都不敢想的事，双方在一周内就达成了收购协议。</p>
-<p>吉利对沃尔沃的收购也发生在这一大背景下，苦恋沃尔沃多年的吉利，终于在2010年以18亿美元价格完成收购。</p>
-<p>不过，麦肯锡有过一项研究，在过去二十年，全球大型的企业并购案中，取得预期效果的比例低于五成，而中国则有六成七的海外并购不成功。</p>
-<p>尽管早期的出海磕磕绊绊，甚至经常充当冤大头。但走出去成了过去二十年中国企业的主旋律。</p>
-<p>李东生后来被问到早期海外并购的经历，他用了一句非常形象的话形容：“我们呛了一口水，但就此学会了在大海里游泳。”</p>
-<p>曾有机构做过一个调研，2021年海外业务收入占比超过20%的中国企业有36%，一年后，这个数字变成了55%。而选择在境外注册实体经营的也从44%涨到了51%。</p>
-<p>任何有梦想的企业都不会轻易放弃海外的大市场。比如OPPO前几年在欧洲遇到了一些专利上的麻烦，暂时退出了几个市场，但如今OPPO在逐步打开局面，重新回到了欧洲。即便在诟病最多的印度市场，一众国产手机品牌也依然在坚守。</p>
-<p>而出海与AI一样，已经成为中国企业的大势所趋。从老三样到新三样、出海四小龙，中国企业的出海已经不再局限于产品的出口，而是全价值链的出海，甚至诞生了一批生而全球的企业。</p>
-<h2><strong>02 从劣质到列强</strong></h2>
-<p>2004年圣诞节，美国人萨拉发现，她的家里被各种中国制造的商品包围了，其中39件圣诞礼物，“中国制造”占了25件。</p>
-<p>她决定搞一个行为艺术：带全家尝试过一年不买中国产品的日子。后来她把这个事写成了一本书，叫《离开“中国制造”的一年》，轰动一时。</p>
-<p>在这本书里有很多有趣的个体体验，比如为了给4岁的儿子买一双鞋子，跑遍了当地的商店，总是没有称心如意的东西。后来她得出了一个结论：在把中国推出我们的生活时，我却得到了一个中国已经深入我们生活之中的结论。</p>
-<p>凭借着廉价劳动力和中国人民的吃苦耐劳，物美价廉的商品卖到了全球各个角落。尤其在加入WTO之后，中国享受到了融入世界的红利，中国制造开始遍布全球。</p>
-<p>IBM亚洲区副总裁曾感慨：“如果东莞到深圳的高速公路塞车，全球将会有70%的电脑产品缺货。” 日本人第一次提到，中国已成为“世界的工厂”。彩电、洗衣机、冰箱、空调、微波炉、摩托车等中国制造的产品，均已在世界市场占有份额中名列第一。</p>
-<p>但在世界工厂的另一面，中国企业的出口或者出海一直还处于微笑曲线的底部，赚得都是费力不讨好的辛苦钱。当时，曾有机构做过“外国人眼中的中国公司”的调查，得到的四个关键词是：便宜、劣质、海量和仿冒。</p>
-<p>摩托车的出海就是个典型。现在走在越南、印尼的街上，满大街都是日本摩托车，但在20多年前，这里一度是中国摩托车的天下。</p>
-<p>2005年前后，光越南就有70多个中国摩托车品牌在竞争，而厮杀的手段就是打价格战，零售价格从最初的800美元，一直下滑到170美元，比国内还卖得便宜。最惨的时候，一辆摩托车只有30元人民币利润。</p>
-<p>力帆董事长曾跟媒体诉苦，中国摩托车的价格大体是1公斤4美元，还包括运输和保险费用。国内一家央媒报道了这件事，起了个非常直接了当的标题：自相残杀，中国摩托越南卖废铁价。</p>
-<p>家电一直是中国企业出海的先锋队，电视、冰箱、洗衣机的出口量一直都是遥遥领先。2023年，美的、海尔、格力、格兰仕、海信、TCL合计产量占全球家电零售量的39%。</p>
-<p>但有一个尴尬的数字是，这些企业自有品牌在海外的市占率合计只有10%左右。这意味着，很多家电企业的海外收入还是以代工为主，没品牌溢价，只能赚一些产业链制造的钱。比如创维在2023年的出口收入中，有90%是ODM，10%是自有品牌。有意思的是，创维在2015年的自有品牌占比就达到了20%。过去近十年里，创维自有品牌反而越来越弱了。</p>
-<p>汽车业也面临类似的窘境。</p>
-<p>中国汽车在2023年超过日本，成为全球最大的汽车出口国。但国内18家上市车企，仅有12家实现盈利，净利润加起来不超过900亿元，盈利最高的比亚迪，一年也才赚了300多亿元。</p>
-<p>而日本丰田一家的利润在2023年就达到了2492亿元。难怪奇瑞的尹同跃在行业会议上疾呼：“很多外国同行批评我们有很多违反商业规律的现象，希望这个时期早点过去。做企业还是要造血，不然很难走远。”</p>
-<p>光伏也很典型。中国企业凭借劳动力优势，产品大量出口欧美市场。光伏在当时成了发家致富的最疯狂赛道。英利的苗连生成了河北首富，赛维的彭小峰成了江西首富，而施正荣更是成为了中国首富。</p>
-<p>但泡沫很快被戳破。光伏产业当时的特点是三头在外，原材料、技术和市场都极度依赖国外供应，而随着2012年欧美陆续对中国的光伏产业实行“双反”调查，这些依赖海外核心元器件的首富们很快陨落，从首富变成了首负。</p>
-<p>早在十年前，德勤全球副首席执行官德克森就说，中国制造业低成本的时代已经过去，中国应逐渐从低端制造业走出来，摆脱来料加工的生产模式，不断升级并参与到设计、包装以及市场等高技术含量的过程当中。</p>
-<p>如今，中国企业在全球产业链扮演的角色正在发生改变。</p>
-<p>比如光伏组件产量已连续10多年位居全球首位，电池片、组件等产量产能的全球占比均达80%以上。更关键的是，中国光伏产业克服了材料上的瓶颈，在多晶硅和单晶硅上打破了外国的垄断。</p>
-<p>而全球装车量前十的动力电池企业中，中国企业占了6个席位。宁德时代、亿纬锂能、国轩高科等锂电池厂商也加速在海外投资建厂。和以前的以资本或者市场换技术不同，动力电池厂商不再是大而不强。比如宁德时代与欧美车企合作时，宁德时代是提供技术和服务支持的厂商。</p>
-<p>忽从梦中惊坐起，列强竟是我自己。</p>
-<p>而在家电行业，诸如海尔、格力等品牌其实一开始就在重视自有品牌的创建。比如海尔很早提出过一个打法叫“三融一创”，当地融资，当地融智，当地融文化，然后创立一个当地消费者认同的世界品牌。而在20年前，国内提出“走出去”战略时，张瑞敏就提到要把走出去，变成走出去、走进去和走上去。</p>
-<p>2024年上半年，格力产品覆盖全球190多个国家和地区，自主品牌占出口销售总额近70%。董明珠说，格力的出口过去依靠贴牌，现在格力出口的基本都是自己的产品。还有科沃斯、追觅等一批新兴品牌开始在海外市场崭露头角。</p>
-<h2><strong>03 要利己，更要利他</strong></h2>
-<p>2016年，复星收购了一家德国私人银行，当地团队精心筹备了一场晚会。晚会现场出现了中国企业特别喜欢搞的舞狮节目，但郭广昌满脸不悦，他当着一众大佬的面发火：以后复星所有的活动里不许有舞狮。</p>
-<p>他觉得舞狮太中国，容易给外国人留下这就是中国的刻板印象，反而不好融入当地文化。</p>
-<p>怎么融入本地、服务本地是所有出海企业都会提到的话题。但过程踩了很多坑，尤其是作为勤劳内卷的东亚人民，做事风格和很多地方都格格不入。</p>
-<p>海尔在美国建厂后，一开始也学习国内在车间张贴劳模肖像，结果发现社会主义这一套在资本主义不管用，后来干脆改为获奖工人发购物券，深受欢迎。</p>
-<p>另外，海尔工厂每天要开班前会，表现不好的工人要站在一个大脚印上接受批评，这一套也做法让美国人难以接受，觉得有损员工尊严。后来，海尔在美国就把这项制度改为了，表现好的站到大脚印里接受表扬。</p>
-<p>华为是中国企业出海的典范，但在华为走出去的二十多年里，也曾遭遇过跨文化带来的管理挑战。</p>
-<p>2006年，华为海外发生过两起因为文化冲突而引起的集体性事件，其中一起是在伊斯兰国家，中方员工拍了一下本地员工的身体，本意是要鼓励，结果却被对方认为有同性恋倾向，要投诉开除他。另一起发生在欧洲，当时中方人员转发了关于当地工程师违反规则的通报，里面包含了该员工的个人信息，被认为是侵犯了人权。</p>
-<p>强势的工会组织也让中国企业非常头疼。在奥巴马和奈飞投资拍摄的纪录片《美国工厂》里，福耀玻璃接手了通用在美国铁锈地带的一处工厂，用于生产汽车玻璃。面对工会，曹德旺直截了当地说：我是很明确的态度，工会进来，我关门不做了。</p>
-<p>最知名的案例发生在2004年，上汽溢价收购了韩国双龙汽车，这是第一桩中国汽车的跨国并购案，希望资本和市场换技术。结果遭到了当地工会强烈的抗议，以失败而告终。</p>
-<p>李东生应该感触也很深。TCL收购汤姆逊之后，想裁掉30人，结果半年后，在工会的阻挠下，不但人没少，最后还多了几个人。</p>
-<p>除了强势的工会，国内司空见惯的996，在海外很多国家都无法被接受。比如年轻的墨西哥女工抱怨工作时间过长、休息时间太少，“连上厕所都需要请示。”但大家对文化差异的认识却有很大的偏差。曾有学者对一带一路沿线的18个国家的中企进行了调查，中企管理者认为，劳资纠纷的原因在于，劳动者喜欢寻求工会解决问题。而当地员工则认为是中资企业未给予当地员工足够的关注和尊重。</p>
-<p>海外的文化差异让很多中国老板没了脾气。国内老板开会，管理层随叫随到，收购汤姆逊后，李东生去法国，下午五六点钟打电话找管理层开会，结果一个人都找不到。法国人的工作时间短，但薪酬福利却很高，让很多中国企业家没了脾气。</p>
-<p>而老板也不能随便画饼，更不能骂人。霞光社的文章中提到这样一件事。一位中资企业老板，在批评墨西哥当地员工时，攻击了对方的身材与相貌，“还让翻译都翻出来给对方听”。后来这位老板因为此事被起诉，最终被遣返回国。</p>
-<p>除了适应跨文化差异带来的各种挑战，中国出海企业也应该考虑如何给当地带来利益和价值，而不是只求当下的利润最大化。</p>
-<p>正如中国入世首席谈判代表龙永图所言，任何一个“走出去”的企业，如果“走出去”只是对自己的企业有利或者对自己的国家有利，而不给当地带来益处，这种“走出去”是不可持续的。</p>
-<p>比如各国吸引外商投资，一方面出于带动经济考量，另一方面也是为了带动就业。所以，很多国家在引进外资时都会明确要求中国人与当地人的员工比例。像东南亚很多地方就要求，办一个工作签证，必须要雇佣四名本地人。</p>
-<p>事实上，很多企业出海，雇佣本地人的比例远高于这个比例。比如海尔美国的历任总经理，都是在家电行业耕耘多年的美国人，从总经理到普通工人都是当地雇员。2008年，海尔工厂所在地的领导还给张瑞敏颁发了“就业发展贡献奖”。</p>
-<p>小米在印度的总经理马努也是本地人，在当地有很深的人脉。通过他的牵线搭桥，雷军见到了印度总理莫迪和财政部长，雷军当时还给两人每人送了一部最新款的红米A4，这款手机的起售价499元。有一说一，雷总这就有点不够意思了。</p>
-<p>这些本地化的动作，让小米起初在印度的发展顺风顺水，小米后来也在印度建了工厂。但没想到印度不讲武德，这些年隔三差五整幺蛾子，印度赚钱印度花，一分也别想带回家。当然，印度的遭遇已经超出了企业自身能控制的范畴。</p>
-<p>从成功企业过往的经验来看，本地化依然被认为是出海走向成功的法宝。</p>
-<p>杨元庆也说过：联想选择出海，不是为了征服某个市场，而是为了融入他们。在外界看来，联想已经深刻融入了全球供应链。</p>
-<p>不久前，联想在美国搞了一场科技大会，美国科技圈有头有脸的人物几乎都来了，英伟达的老黄、英特尔的基辛格和AMD的苏姿丰同台亮相，还促成了英特尔和AMD的合作，而微软、高通和Meta的CEO虽然本人没有现身，但都通过视频方式出席。</p>
-<p>能有如此号召力且深度参与全球供应链的中国企业不多了。用龙永图的话说，整合也是一种强大的生产力。但在很多国人看来，这是腰杆挺不直的表现，批评联想是买办、美国企业。国内公众对联想的这些刻板印象，直到现在也没能完全扭转过来。</p>
-<p>事实上，联想约80%的生产制造、70%的研发人员、60%的员工都在中国。但联想过去很长一段时间，由于讲述全球化经营，在一定程度上忽略了国内用户的情绪。</p>
-<p>如今，杨元庆在最近的一次出海论坛上，特别强调了一个观点，中国企业全球化一定要扎根中国。</p>
-<p>而扎根中国与利用全球的资源和优势发展业务并不冲突。</p>
-<p>在最新的一场座谈会上，任正非本人其实对全球化非常清醒。“美国的技术、工具很好，为什么不用？一定要用。华为不能用，没办法才自己去制造工具的。开放创新，利用别人的先进成果，才是一个企业真实的出路。”</p>
-<p>华为的无奈，大多数企业都不用面对，但对于其他出海企业而言，如何更好地扎根当地，从最初的走出去到现在的走上去、走进去，还需要很长的路。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkwNDMyOTA1NA==&amp;mid=2247491081&amp;idx=1&amp;sn=ce53ac35d43d488939c667a5faaf0cfd&amp;chksm=c10d2e757d2021e9ce2572f4793032e23b4007175b46ff49a516fdbd62e0255a6eb0829e3688&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“数智前线”（ID：szqx1991）</a>，作者：游勇，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031523580273929</guid><pubDate>Mon, 11 Nov 2024 16:28:00 +0800</pubDate></item><item><title>本科生被疯抢，养老行业工作香不香？</title><link>https://36kr.com/p/3031523911050503</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>据《工人日报》报道，2020年9月，山东女子学院和上海工程技术大学成为全国首批设立养老服务相关专业并于当年招生的本科院校。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_faec68fabb00484ea8afe261469e17c6@000000_oswg29419oswg689oswg126_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>4年后的夏天，两所学校近百名养老专业本科生毕业，成为首届养老专业毕业生，被众多养老机构抢聘。而今年，山东女子学院也迎来了2024级的新生报道，养老服务管理和健康服务与管理两个专业共迎来本科新生473人。</p>
-<p>在人口老龄化的社会背景下，“养老”、“银发经济”这两年热度一直很高，成为不少人的学习、就业的选择方向。那么，站在个体角度，从事养老行业工作到底怎么样？</p>
-<h2><strong>从养老市场中“生出“的新职业，养老院工作者的徘徊 </strong></h2>
-<p>10年前，周州报考老年服务与管理专业，当时其实也不知道这专业是学什么的，但听说毕业之后能直接去民政单位工作，就留了下来。毕业后，周州如愿进了民政局直属的一家公立养老院，能有个月薪2000多，包吃包住。</p>
-<p>养老院的工作具体是什么呢？</p>
-<p>很多人以为是照顾老人的吃喝拉撒，但这主要是护工的事儿，更多工作是围绕“哄老人开心”展开的。比如，设计老年人学习的国画、声乐、钢琴、古筝、英语、芭蕾、哲学、电影赏析、等课程，有些养老院还会为老人开发游戏，带他们出去摄影采风。</p>
-<p>在老年人的世界里，工作可能细分到如何安排两个脾性不相投但同样热衷表演的老人演出，如何不让爱唱歌的老人打扰到爱打牌的老人，在老姐妹为同一个老头争风吃醋时该如何应对。而这些，在经济效率为先、高唱进取论调的主流世界里，很少被关注到。</p>
-<p>周州值班时遇到过各种各样很多问题，比如老人家向工作人员求爱未遂后大闹、吃假保健品吃坏身体、吃错药、把干燥剂冲水喝、吃了过期变质的东西等等，甚至在职业期间还遇到过老人跳楼自杀的情况。</p>
-<p>“根本没时间害怕，满脑子想的是留好证据，遗留物品的处理，而且不能让其他老人恐慌。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_fe3843e78da24c4c8f9fb2094a9305b9@000000_oswg530467oswg839oswg504_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>周州坦言，在养老院的工作学到了很多，老人们经常会以过来人的身份分享自己的故事，让她在老人的相处中看懂了很多人情世故，也看淡了很多事。</p>
-<p>但随着逐渐增长的年龄和上涨的家庭开支，他也开始矛盾，到底还要不要继续这份工作，“毕竟未来还要成家立室，开支只会更多”。</p>
-<p>和周州同样困扰的还有5年前的黎果，她在养老院工作了一段时间后，因为现实层面的原因选择了离职，去做过其他工作，但兜兜转转后还是回到了养老行业，自己开了一家养老院。</p>
-<p>让她重回行业的原因可能很多，但印象最深刻的还是一件事，她有次帮一个85岁的老人举办了个摄影展，那个老阿姨握着她的手激动了很久，说活了八十多年，没想到自己还能搞个这样的展，还有观众。</p>
-<p>“都是小事儿，但就是特别打动你”，黎果相信，养老这行的前景如何她看不透，但养老院每一天发生的这些事，才是让她真正感受到工作的意义，还有人活着的一些价值。</p>
-<h3><strong>养老经纪人的机会 </strong></h3>
-<p>丽丽这两年阴差阳错成了一名“养老经纪人”。最开始，是因为隔壁邻居的一对夫妇，需要在紧迫的时间内找到合适的养老院，而她因为之前的社区工作积累了相关的养老院资源，便机缘巧合地帮助这户家庭匹配了合适的养老院。</p>
-<p>在这样的契机下，丽丽发现了那些迫切需要找到合适养老机构的家庭，和闲置的养老院市场中间，隔着一条鸿沟，在这中间蕴藏着机会。</p>
-<p>她开始通过拍摄养老院的探院视频，帮助那些急需找到合适养老机构的家庭，一面链接各个养老机构的资源，一面提供养老咨询服务，给有需求的家庭提供养老方案，入住顺利，机构会支付渠道费用，此外通过拍短视频还能赚取广告推广费，目前月收入能有2万多。</p>
-<p>不过，比起那种依托保险机构的养老中介，这还是小钱。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_a3a1779eb2874d08bbd5992810fd4ef3@000000_oswg490817oswg735oswg414_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>保险养老需要老人先买200万的保险，才能获得入住资格。每月租金、吃饭另外交钱，提供免费的管家、维修、保洁、活动等基础服务，但外出就诊等个性化需求要另外收费。也就是说，保险养老中介的主业是卖保险，养老机构是副业，而为了更好的养老条件，有很多老人愿意付费。</p>
-<p>“我们这个行业月入10万不是什么奇怪的事”，何姐在一家高端养老社区做代理制的养老规划师，销售保险和自建养老社区的居住权，“特别优秀能拿到50万，比如客户签了1000万的保单”。</p>
-<p><strong>尽管收入可观，市场庞大，但在更多养老中介们眼中，养老行业尚未形成成熟的发展模式，从需要养老的家庭，到挣扎求生的机构，所有人都在摸着石头过河。</strong></p>
-<h3><strong>养老自媒体的兴起</strong></h3>
-<p>随着短视频的兴起，养老院自媒体如雨后春笋，37岁的阿法正是上海的一名养老自媒体博主，这两年他探访了上百家风格迥异的养老院，包括日资和法资养老院。</p>
-<p>“日资的养老院，会秉持“自立支援”的理念，比较在乎老人的自尊，老人能做的事情尽量让他自己做，能借助辅具站立就不靠护工扶。法国的就会偏向于康复理疗，因为欧洲的运动康复在全球都走在比较前面。”阿法说到。</p>
-<p>在探访过程中，阿法也打开了自己的生命体验，比如在法资养老院里体验非药物疗法、水中康复锻炼等，这些都能帮助老人们提高健康水平。</p>
-<p>谈及对这个行业的理解，阿法从相对成熟的日资养老院里看到未来的影子，<strong>“随着这个行业和老龄化的发展，我觉得未来会有更加系统化、平台化的生态出现。”</strong></p>
-<h2><strong>养老行业工作到底香不香？</strong></h2>
-<p>想要了解这个问题，就需要先了解下国内大部分人的养老方式怎样的呢？</p>
-<h3><strong>家庭养老是主力</strong></h3>
-<p>目前来看，家人仍然是养老的主力军，许多父母更愿意待在自己家里，而不是搬去和子女同住，这就导致我国空巢老人比例超过50%。子女通常住得离父母家较近，常去探望，帮忙做饭或做家务。如果这些做不到，他们就会花钱雇照护人员，让年迈的亲属在家安度晚年。</p>
-<h3><strong>社区养老是辅助</strong></h3>
-<p>由社区组织提供一系列养老服务，帮助老人在家生活，包括定期家访、日托中心和其他个性化服务。目前有一些从传统养老院工作过的人出来创业，成立了一种社区养老机构的业态，主要是将老人的需求对接给上下游，比如家政、助浴、陪诊、住养老院、买器材等，从中赚取抽成。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_07b8830a604949ea9af26ba16c47f9ad@000000_oswg452074oswg712oswg391_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>机构养老</strong></h3>
-<p>机构养老大致分为三种。一种是社会福利院，由税收和福利彩票公益金资助，过去只有无在世亲属、无收入、无工作能力（称为“三无”）的老人才住这类机构。</p>
-<p>直到20世纪90年代末，随着中国福利事业的分散化，许多公共机构开始接受付费住户，现已成为机构养老的热门之选。因为屋子的配置相对不错，而价格远远低于外面的市场化机构，因此供不应求，往往要排队两三年才能住进去。</p>
-<p>另一类是医院养老，像上海等大城市的新型医疗机构，会提供住院照护、医疗照护或长期的分级照护，更受大众信赖，还能进行医保报销，但也导致了过度拥挤。</p>
-<p>最后，是市场化的养老机构，价格相对昂贵，性价比低，被大量闲置。以北京为例，截至2024年3月，北京共有578家养老机构，但养老机构床位总体入住率仅45%。</p>
-<p><strong>从目前的状态来看，养老行业仍处于蹒跚学步的阶段，想要从名不副实的“朝阳行业”，成长为“黄金行业”，还有很长的路要走。</strong></p>
-<h2><strong>养老行业前景如何？</strong></h2>
-<p>日本从1970年起进入老龄化社会，54年时间，经历了萌芽期、增长期、爆发期和成熟期四个阶段，也是逐步发展才萌生出新的职业形态。</p>
-<p>如2000年《介护保险法》的实施，极大推动了日本护理业发展，许多企业，如日医学馆、倍乐生及和民，都是乘此政策机遇进入护理业，日本大量优质的护理人员也是从这个时候慢慢开始被培养起来的。</p>
-<p>而新的保险制度也为医疗、康复、福祉、家政服务等领域提供了新的发展空间，同时也产生了新职业“介护经理人”—— 一个为了介护保险制度健全运营的综合管理角色。</p>
-<p>此外，日本在智慧养老方面每年投入大量经费，研发适合老年人使用的设施。如为了弥补介护人员短缺问题，政府大力提倡开发具有护理功能的智能机器人，目前这类机器人市场达2000万美元规模，这也间接带动了人工智能领域相关职业发展。</p>
-<p>我国目前养老保险体系尚待完善，未来还有很大的想象空间和政策机遇。</p>
-<p>如一些地方推出了长期照护险，为护理培训业的繁荣提供了政策保障。另外，目前国内老年理财市场混乱，老年理财行业在国内也可能成为新热点，相关职业人员可借鉴日本生命保险（Nippon Life Insurance Company）等理财机构的成熟经验，为老年人提供合适的理财产品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_f1fee317fa4c4b70b6fe9e9a0db8485e@000000_oswg193741oswg699oswg367_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>老龄化社会是必然趋势，而如何让这一代的老人安心老去，并不是一个纯靠停留在孝道等道德层面的话题，构建尊重和支持老年人的社会是一种爱的延续。</p>
-<p>正如对日本老龄化社会有着深刻洞察的上野鹤子说的那样：“面对衰老与养老，我们不仅是在关怀老年人，更是在为未来的自己铺路。”</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU5MDcyOTYwMQ==&amp;mid=2247618688&amp;idx=1&amp;sn=37acef1f0ee6ee6fd23edbbefd5bb05c&amp;chksm=ffc31f788e781a06a44d9af5ef4fe1199f86e2527531c377827699866b861d4d66edbbcebb38&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“猎聘”（ID：liepinwang）</a>，作者：狼女Canamy，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031523911050503</guid><pubDate>Mon, 11 Nov 2024 16:42:00 +0800</pubDate></item><item><title>亏损93亿日元，日系巨头崩了：裁员9000人，全球减产20%，高管集体降薪50%</title><link>https://36kr.com/p/3031577014478086</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>日产爆雷！</p>
-<p>刚刚，形势危机，日产发布了一系列降本计划来紧急自救：</p>
-<p><strong>削减全球20%的产能，并且裁掉9000员工。</strong></p>
-<p>并且为了表明决心，CEO带头，联合执行委员会高管，集体自愿放弃<strong>50%的月薪</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_90b22f9178fb44379bbc80355e1fda85@000000_oswg27676oswg928oswg619_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>一切都来源于日产上周公布的财报，表现令人大跌眼镜：</p>
-<p>全球销量和营收都在下滑，营业利润率<strong>只有1.1%</strong>，净利润甚至<strong>转盈为亏，单季度亏损了93亿日元</strong>（约4.4亿元）。</p>
-<p>财报公布后，日产的股价一度<strong>跌超4%</strong>，今年以来已经<strong>下跌了27%</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_5f46bf96629b444b817c662518fd9c3d@000000_oswg67908oswg1080oswg555_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>日系车三巨头之一的日产，如今怎么这样了？</p>
-<h2><strong>日产汽车业绩堪忧</strong></h2>
-<p>日产公布的第三季度财报中，不管是销量还是盈利水平，都在以惊人的速度“跌落”。</p>
-<p>从销量上看，第三季度日产的全球销量为80.9万辆，<strong>同比下跌2.8%</strong>；今年1-9月份，全球销量为250.58万辆，同比微增0.4%。</p>
-<p>其中，<strong>中国市场</strong>的销量下降幅度最大。</p>
-<p>1-9月，日产在中国的累计销量为49.7万辆，<strong>同比下跌了9.1%</strong>。第三季度在华销量为17.2万辆，<strong>同比下跌12.5%</strong>，下降幅度增加到两位数。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_fc3b9d365d8e4678b964b1956737d812@000000_oswg45842oswg508oswg439_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了中国以外，第三季度<strong>北美</strong>和<strong>欧洲</strong>的销量也在下滑，同比降幅分别是<strong>0.2%和5%</strong>。</p>
-<p>销量的下滑，对日产业绩影响巨大，从财报关键指标来看：</p>
-<p>今年第三季度，日产汽车<strong>营收</strong>为29858亿日元（约1397亿元），同比下降5.1%。</p>
-<p><strong>营业利润</strong>大幅下滑，第三季度下降到319亿日元（1.8亿元），相比去年同期的2081亿日元（约97亿元），<strong>大跌了84.7%</strong>。</p>
-<p>相应下跌的营业利润率，第三季度只有1.1%，同比下滑5.5个百分点。</p>
-<p>表现最糟糕的是<strong>净利润</strong>，去年同期还有1907亿日元（约89亿元）的净利润，<strong>本季度直接由盈转亏，净亏损了93亿日元</strong>（约4.4亿元）。</p>
-<p>截至第三季度末，日产汽车业务的自由现金流为<strong>-1456亿日元</strong>（约68亿元）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_1d4e113696064403baddc02d1fe277a0@000000_oswg140403oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对于全面下滑的业绩表现，日产在公布财报的同时，也宣布今年<strong>第二次下调全年预期</strong>。</p>
-<p><strong>营业收入</strong>从14万亿日元（约6551亿元）下调到12.7万亿日元（约5942亿元），<strong>营业利润</strong>从原本的5000亿日元（234亿元），<strong>下调70%</strong>到1500亿日元（约70亿元）。</p>
-<p>预期下调幅度之大，可见日产的悲观。</p>
-<p>为了勒紧缰绳，尽可能止住颓势，日产宣布了紧急自救措施，启动<strong>“The Arc”计划</strong>：</p>
-<p>日产将减少3000亿日元的固定成本，以及1000亿日元的可变成本，用来维持正常的现金流水平。</p>
-<p>具体措施就是<strong>将全球产能削减20%，并裁员9000人</strong>，公司的销售、一般和管理费用也会缩减。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_3ffe8ac57a1b4a07aac7f4e00d00bc74@000000_oswg973080oswg1080oswg657_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>并且<strong>CEO内田诚</strong>主动提出，自己的月薪将砍掉一半，从11月起立马生效，管理委员会的成员也紧跟其后，自愿削减50%的薪酬。</p>
-<p>不仅如此，日产还在同一天发布公告，将在第二天出售<strong>三菱汽车10%的股份</strong>，持股比例降到<strong>24%</strong>，这为日产带来了<strong>686.4亿日元</strong>的资金。</p>
-<p>没想到，成立91年的日系巨头，如今也要割肉求生了。</p>
-<h2><strong>日产爆雷：日系车的寒冬</strong></h2>
-<p>惨淡的业绩表现，并非只在日产身上演绎。</p>
-<p>上周，三大日系车企巨头都发布了财报，成绩都不容乐观：</p>
-<p><strong>老大哥丰田</strong>，净利润暴跌<strong>55%</strong>，营业利润两年来首次下跌，不管是全球销量，还是北美、欧洲、中国等重要市场，销量都在下降。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_d4d39a16c83b499da6e86d717e30224f@000000_oswg41975oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>本田</strong>的营业利润和净利润，也<strong>远远低于市场预期</strong>，基本上只达到一半左右。</p>
-<p>不过，对比之下，还是<strong>日产汽车</strong>“伤口”最大，净利润已经为负，到了要大动干戈，全面降本的地步。</p>
-<p>什么原因让日产，乃至日系车走到如今的困境？</p>
-<p>从外部环境来看，今年日系车集体被曝<strong>造假丑闻</strong>，停产、回收造成的风波依然没有平息，消费者的好感度大打折扣之后，想要挽回品牌声誉，还需要经历漫长的过程。</p>
-<p>尽管日产没有在今年6月份被曝出造假，但丰田、本田、马自达、铃木等等巨头都在造假名单上，难免有些“<strong>一荣俱荣，一损俱损</strong>”的意味。</p>
-<p>再者，核心市场竞争激烈加剧，需求结构悄然推移，也是日系车集体面对的严峻挑战。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_245209d701ec48dd89a4d2980f2e0022@000000_oswg520189oswg1057oswg660_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>特别是在中国，中国车企“出牌”五花八门，市场需求也经历了巨大转变。</p>
-<p>新技术飞速迭代，新势力扶摇直上，而中国的合资车企，还处在转型的阵痛当中。</p>
-<p>不过，日产最先爆雷，还需要从自身内部寻找原因。</p>
-<p>首先就是<strong>电动转型更慢</strong>，日产在21年的年底才公布“日产汽车2030愿景”，明确电动化转型战略，比丰田和本田都要晚，相对也更“保守”。</p>
-<p>另外，还有一个非常关键的因素，就是<strong>日产的产品单一，且吸引力不足</strong>。</p>
-<p>目前，日产在中国的重心，还是聚焦在畅销车型<strong>轩逸</strong>身上，期待轩逸缩住市场份额。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_3536cc57264e4b46a63cbe2656a454cf@000000_oswg447287oswg721oswg433_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但单一车型的畅销，很大程度上削减了竞争力，存在更大的风险，并且也难以拉回整体下滑的销量。</p>
-<p>尽管推出新的产品，却也没有很好的效果。有分析认为，日产汽车的新产品线缺乏亮点，混动车型也不够。</p>
-<p>在日产财报会议视频下，不少网友都对车型少表示不满：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_00f653b0ad034b20bae75b39883047f6@000000_oswg46996oswg1080oswg635_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>拿中国市场来说，日产特别推出了<strong>轩逸e-POWER</strong>，采用的是日产独有的e-power混动技术，但对比丰田的THS、本田的i-MMD等其他产品来说，技术优势不算鲜明，智能化配置也不足。</p>
-<p>日产显然也意识到了这些问题，所以提出计划在<strong>2026年财年</strong>，面向<strong>中国</strong>推出<strong>8款新能源车</strong>，在<strong>美国</strong>引进<strong>混插和e-POWER汽车</strong>，并且把开发周期缩短到<strong>30个月</strong>。</p>
-<p>不过，一步慢，步步慢。</p>
-<p>日产爆雷，只是日系车败退的开始，留给他们的时间不多了。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkzOTE3Nzc5MA==&amp;mid=2247536189&amp;idx=1&amp;sn=b7eba6be3f204f7a275eebc7735b0fde&amp;chksm=c37b9b7355535234b120271ea0122149b256ce9d77dfdf36d3049f5eb63501ce554fbaa1b0df&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智能车参考”（ID：AI4Auto）</a>，作者：杰西卡，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031577014478086</guid><pubDate>Mon, 11 Nov 2024 16:50:00 +0800</pubDate></item><item><title>抖音双11战报榜单：11个大类，40+小类，谁夺榜首？谁掉队？</title><link>https://36kr.com/p/3031585424500232</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 11 Nov 2024 17:30:26 +0800</lastBuildDate><pubDate>Mon, 11 Nov 2024 17:30:26 +0800</pubDate><item><title>抖音双11战报榜单：11个大类，40+小类，谁夺榜首？谁掉队？</title><link>https://36kr.com/p/3031585424500232</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_49d3bbcccb454d47a62308a2f1eab5fb@000000_oswg96557oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p>史上最长双十一给抖音玩家们带来了超预期的收益。</p>
 <p>今年，抖音作为最早开启预售的平台，在10月8日就开启了为期十天的抢先期，并从10月18日进入正式期，在11月11日结束。在正式期，抖音打造了bigday（10.18-10.20、11.9-11.11）集中释放各项福利，驱动商家冲刺全量爆发。另外，抖音电商还在10.20-11.8期间推出了品类日，有节奏地制造小的爆发节点，结合内容优势做放大。</p>
@@ -917,4 +282,488 @@
 <p>但无论如何，在COT的加持之下，模型确实在思维模式上更接近我们人类推理的“形式”，能用我们熟悉的方法做数学了。</p>
 <p>但这条路能否真正通向对于规律的理解，至少当下还不明确。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1dAWsVKEOcTnD62fPqvfIA" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，作者：<strong>郝博阳</strong>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031641183823365</guid><pubDate>Mon, 11 Nov 2024 16:56:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031641183823365</guid><pubDate>Mon, 11 Nov 2024 16:56:00 +0800</pubDate></item><item><title>陶哲轩联手60多位数学家出题，世界顶尖模型通过率仅2%，专家级数学基准，让AI再苦战数年</title><link>https://36kr.com/p/3031615325857281</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1072,426" src="https://img.36krcdn.com/hsossms/20241111/v2_1468864ee5f5461b81527f49089c0a7e@46958_oswg134190oswg1072oswg426_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>【导读】</strong>Epoch AI推出数学基准FrontierMath，目前前沿模型测试成功率均低于2%！OpenAI研究科学家Noam Brown说道：「我喜欢看到新评估的前沿模型通过率如此之低。这种感觉就像一觉醒来，外面是一片崭新的雪地，完全没有人迹。」或许，FrontierMath测试成功率突破的那一天，会是AI发展过程中一个全新的里程碑。</p>
+<p>数学为评估复杂推理提供了一个独特而合适的测试平台。它需要一定的创造力和精确的逻辑链条——通常涉及复杂的证明，这些证明必须缜密地筹划和执行。同时，数学还允许对结果进行客观验证。 </p>
+<p>在铺天盖地的宣传中，LLM看起来已经攻破了数学大关。但果真如此吗？</p>
+<p>不久前，来自苹果的研究院团队证明，就算是在数学这些基础科学方面最先进的o1模型，其卓越的表现也是来源于对特定数据集针对性的持续优化。</p>
+<p>所以为了更好的检验模型对于数学问题的理解与解决能力，我们需要一个更加全面而行之有效的数学测试基准。</p>
+<p>近日，Epoch AI联合六十余位全世界的数学家，其中包括教授、IMO命题人、菲尔兹奖获得者，共同推出了全新的数学基准FrontierMath。其包括数百个原创的、格外具有挑战性的数学问题，旨在评估AI系统中的高级推理能力。</p>
+<p>研究团队基于这个测试基准评估了六个前沿的模型，它们的成功率竟然都低于2%！</p>
+<p class="image-wrapper"><img data-img-size-val="1080,498" src="https://img.36krcdn.com/hsossms/20241111/v2_bc06ab9462cc41a3afe6dd7a1cccb022@46958_oswg73893oswg1080oswg498_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>论文地址：https://arxiv.org/abs/2411.04872</p>
+<p class="image-wrapper"><img data-img-size-val="1080,68" src="https://img.36krcdn.com/hsossms/20241111/v2_1445eaecdbdb4c52878931397ab43a9a@46958_oswg51013oswg1080oswg68_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>论文特意致谢了陶哲轩为FrontierMath基准贡献了一些问题 </p>
+<p>具体来说，这些数学问题从奥赛难度到当今的数学前沿，包含了目前数学研究的所有主要分支——从数论和实数分析中的计算密集型问题到代数几何和群论中的抽象问题，而它们也通常需要数小时或数天的时间才能被专业数学家解决。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,382" src="https://img.36krcdn.com/hsossms/20241111/v2_1fc8ea94cf1e4bdb9fe229ca143bda72@46958_oswg265325oswg1080oswg382_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">FrontierMath涉及的数学领域</p>
+<p>这一测试集的发布一下炸出了不少AI大佬。</p>
+<p class="image-wrapper"><img data-img-size-val="1010,212" src="https://img.36krcdn.com/hsossms/20241111/v2_e7d560f909994278bf7ed35a72b85d75@46958_oswg51386oswg1010oswg212_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">OpenAI研究员Clive Chan</p>
+<p class="image-wrapper"><img data-img-size-val="1014,342" src="https://img.36krcdn.com/hsossms/20241111/v2_504496483c0f4cb0863dd3d71eaff94e@46958_oswg93206oswg1014oswg342_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">德扑之父，OpenAI研究科学家Noam Brown</p>
+<p class="image-wrapper"><img data-img-size-val="1024,579" src="https://img.36krcdn.com/hsossms/20241111/v2_0aeeda9a8f2e42978d5c9a3b64d6d197@46958_oswg150219oswg1024oswg579_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Anthropic联创Jack Clark</p>
+<p>知名AI大牛Andrej Karpathy还发了一篇长帖「Moravec悖论在大语言模型评估中的体现」：</p>
+<p class="image-wrapper"><img data-img-size-val="1022,172" src="https://img.36krcdn.com/hsossms/20241111/v2_527380d223ef41ac907708a9735f89e2@46958_oswg37770oswg1022oswg172_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<blockquote>
+<p>我对这个新的前沿数学基准测试感到惊讶，因为大语言模型在其中仅能解决2%的问题。引入这个基准测试的原因是大语言模型在现有数学基准测试中表现得越来越出色。有趣的问题在于，尽管从许多评估来看，大语言模型在数学和编程等领域已经逐渐接近顶级专家的水平，但你还是不会选择它们来完成对人类本身来讲最容易的工作。它们可以解决复杂的封闭问题，只要你在提示词中恰当地呈现问题描述，但它们在自主且连贯地解决长问题序列方面却很艰难，而这对人类来说是非常容易的。</p>
+<p>这就是Moravec悖论的隐性体现，他在30多年前观察到，人类认为简单或困难的事情，对于计算机来说可能却恰恰相反。例如，人类对计算机下棋感到非常惊讶，但下棋对计算机来说却很简单，因为这是一个封闭的、确定性的系统，具有离散的动作空间、完全可观测性等等。反过来，人类可以系鞋带或折叠衬衫，并不觉得这有什么了不起，但这实际上是一个极其复杂的传感运动任务，对硬件和软件的最先进技术也还是一个挑战。这就像OpenAI前段时间发布的魔方项目，大多数人关注的是解魔方本身（这很简单），却不是让机器人用手去扭合一面魔方这种其实极其困难的任务。</p>
+<p>所以我非常喜欢这个FrontierMath基准测试，我们应该多做一些这样的测试。但我也认为这是一个有趣的挑战，我们如何为所有那些「简单」但实际上很难的事情创建评估。非常长的上下文窗口、连贯性、自主性、常识、有效的多模态输入输出……我们如何构建好的「简单工作」评估？这些是你期望团队中任何入门级实习生都能完成的事情。</p>
+</blockquote>
+<p>除了AI大佬们在纷纷讨论，网友们也炸了锅——</p>
+<p>网友「Chubby」表达了自己的兴奋与期待！</p>
+<p class="image-wrapper"><img data-img-size-val="1022,1179" src="https://img.36krcdn.com/hsossms/20241111/v2_ea5b1b5b29824667820e0fa8a6ce7c3a@46958_oswg396634oswg1022oswg1179_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>同时，Epoch AI也采访了菲尔兹奖得主陶哲轩（2006年）、蒂莫西·高尔斯（1998年）、理查德·博赫兹（1998年）以及国际数学奥赛教练陈谊廷。</p>
+<p>他们一致认为，FrontierMath的研究问题极具挑战性，需要深厚的领域专长。</p>
+<p class="image-wrapper"><img data-img-size-val="680,680" src="https://img.36krcdn.com/hsossms/20241111/v2_0ed47ed2428c4f7893ad77e6f159ced2@46958_oswg244575oswg680oswg680_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="680,680" src="https://img.36krcdn.com/hsossms/20241111/v2_5d15ebe630a24ca195025aa5c5eee9e3@46958_oswg138571oswg680oswg680_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="680,680" src="https://img.36krcdn.com/hsossms/20241111/v2_e93a73da5dce4b20b53fab81b975feb1@46958_oswg238814oswg680oswg680_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>成功率低于2%</strong></h2>
+<p>FrontierMath支持模型在评估中拥有充足的思考时间以及实验和迭代能力。并且还可以在Python 环境中交互式地编写和执行代码来测试假设、验证中间结果，并根据即时反馈改进方法。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,415" src="https://img.36krcdn.com/hsossms/20241111/v2_8cede1e9aea149d589011f29971105ac@46958_oswg103325oswg1080oswg415_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">FrontierMath的模型评估流程框架</p>
+<p>研究团队基于这个测试基准评估了六个前沿的模型，包括Claude 3.5 Sonnet、o1-preview和Gemini 1.5 Pro。</p>
+<p>即便在延长思考时间（10000个token）、提供Python访问权限以及允许运行实验的条件下，它们的成功率仍然低于2%！</p>
+<p class="image-wrapper"><img data-img-size-val="900,618" src="https://img.36krcdn.com/hsossms/20241111/v2_d5970049e72142628476a08dba28ac84@46958_oswg51520oswg900oswg618_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这与GSM-8K和MATH等其他流行的数学基准形成鲜明对比，在这些仅包含高中到本科数学难度的基准测试中，顶级模型现在的准确率都已经超过 90%。</p>
+<p>当然，这在一定程度上是由于数据污染——训练数据中无意或有意地包含了测试数据的内容，或包含了与测试数据非常相似的数据。</p>
+<p>这种现象会导致模型在测试时表现优异，但并非因为它真正学会了新知识或推理能力，而是因为它在训练中「见过」测试题或其相似题。</p>
+<p>以至于模型的测试分数表现虚高，无法真实反映其在新数据上的表现能力。</p>
+<p class="image-wrapper"><img data-img-size-val="900,614" src="https://img.36krcdn.com/hsossms/20241111/v2_b6f2cb83dd7e4af8b33878d21b3f2af2@46958_oswg53664oswg900oswg614_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>也就是说，原来的这些基准测试达到高分已经不值得吹嘘了，大模型又有了新的数学大关需要攻破！</p>
+<h2><strong>FrontierMath：评估AI高级数学推理</strong></h2>
+<p>对于这个新的数学大关，FrontierMath有三个关键设计原则： </p>
+<p>1. 所有问题都是全新且未公开的，防止数据污染。</p>
+<p>2. 模型的解答支持自动验证，从而实现高效评估。无论是精确的整数，还是如矩阵或符号表达式（在SymPy中），一个验证脚本可以通过将模型确认提交的答案与已知解决方案来精确匹配以对提交的答案进行检查验证。</p>
+<p>3. 问题具有「防猜测」特性，问题的答案是大数值或复杂的数学对象，若没有数学推理，模型猜对的几率低于1%。</p>
+<p>这些设计原则，每一条都非常具有针对性，弥补了现有基准测试的不足。</p>
+<p>值得欣喜的是，模型在这个测试中几乎没办法「作弊」了，这将有效杜绝一些「名不副实」的现象。</p>
+<p class="image-wrapper"><img data-img-size-val="900,506" src="https://img.36krcdn.com/hsossms/20241111/v2_8e9d22936ed94774b12692f36f880d12@46958_oswg98030oswg900oswg506_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>具体案例</strong></h3>
+<p>由于FrontierMath中的问题是具有封闭形式答案（例如整数）的，所以它们可以让模型去自动进行验证与评估。</p>
+<p>例如下图中的构造一个符合条件的19次多项式问题，问题给定的答案是非常大数值的整数，所以几乎不可能通过预测和精巧的模式匹配来解决这个问题。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,437" src="https://img.36krcdn.com/hsossms/20241111/v2_c61635cf29754871a4c72cd76dfee916@46958_oswg155403oswg1080oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>模型必须有涉及数论、群论、代数几何这些方面的专业数学逻辑能力才可以得到正确的答案。</p>
+<p>涉及到阿廷原始根猜想则更为复杂，模型需要求解计算的甚至是</p>
+<p class="image-wrapper"><img data-img-size-val="132,53" src="https://img.36krcdn.com/hsossms/20241111/v2_3e403728080a42b6a47dce359fc8f893@46958_oswg1648oswg132oswg53_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,999" src="https://img.36krcdn.com/hsossms/20241111/v2_272465d577864ce382befe4ab3e013b5@46958_oswg196265oswg1080oswg999_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而数百道题目皆为如此，所以FrontierMath足以作为一个标杆性的数学基准，去检验AI模型是否具备了真正的复杂逻辑推理能力。</p>
+<p>参考资料： </p>
+<p>https://x.com/EpochAIResearch/status/1854996368814936250</p>
+<p>https://x.com/karpathy/status/1855659091877937385</p>
+<p>https://epochai.org/frontiermath/the-benchmark</p>
+<p>https://epochai.org/frontiermath/benchmark-problems</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/NFeScNy_df2rvdqtnlKKEw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：Hjh ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031615325857281</guid><pubDate>Mon, 11 Nov 2024 17:05:00 +0800</pubDate></item><item><title>天塌了，Scaling Law 已撞收益递减墙？OpenAI 在内，所有大模型都正遭遇巨大瓶颈</title><link>https://36kr.com/p/3031698876098050</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="936,583" src="https://img.36krcdn.com/hsossms/20241111/v2_da2b089c32b347679ca6368723b11981@46958_oswg761345oswg936oswg583_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>近日，有外媒报道称，OpenAI 正在制定新策略，以应对人工智能大模型改进速度放缓的问题。消息一出，知名认知科学家、AI 研究员 Gary Marcus 立即表示，“正如我所说，GPT 正在进入收益递减的时期。”而近期，遭遇发展瓶颈的大模型似乎并不只有 GPT，所遇到的问题也远不仅于一个。</p>
+<p class="image-wrapper"><img data-img-size-val="705,159" src="https://img.36krcdn.com/hsossms/20241111/v2_cd5f4e287227453aba2480f50026f7d0@46958_oswg16772oswg705oswg159_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>OpenAI 在内，都撞到了同一堵墙 </strong></h2>
+<p>根据 The Information 的最新报道，OpenAI 的下一个旗舰模型可能不会像其“前辈”那样带来巨大的飞跃。测试代号为 Orion 的新模型的 OpenAI 员工发现，尽管它的性能超过了 OpenAI 的现有模型，并且只完成了 20% 的训练就达到了 GPT-4 的水平，但与从 GPT-3 到 GPT-4 的巨大飞跃相比，整体质量的提升要小得多。</p>
+<p>换句话说，GPT 的升级速度似乎正在放缓。事实上，Orion 在某些领域（如编码）可能并不会比以前的模型更好。对于此前有关其旗舰车型计划的消息时，OpenAI 方面表示：“我们今年没有发布 Orion 模型的计划。</p>
+<p>报道提到，GPT 开发速度放缓的部分原因是用于预训练的文本和数据供应减少（预训练有助于 LLM 理解概念之间的关系，从而解决起草内容或调试代码等任务）。根据 OpenAI 员工和研究人员的说法，该公司现在难以获得高质量的培训数据，开发人员已经耗尽了网站、书籍和其他用于预培训的公开文本。</p>
+<p>为了解决这些问题，OpenAI 成立了一个基础团队，以研究如何在新训练数据不断减少的情况下继续改进其模型的新策略。据介绍，新策略包括在利用人工智能模型生成的合成数据训练模型，以及在后期训练过程中对具有有限新数据的模型进行更多改进。</p>
+<p>这种减速或表明，由于数据稀缺和硬件成本飙升等因素，对大模型来说，传统的扩展改进可能已经达到极限。“传统 scaling laws 下的 LLM 进展可能会放缓”，有研究人员和企业家担心，生成式 AI 已经遇到了障碍，即使如 OpenAI 般急于扩大该技术使用规模的公司，也发现这在实践中很棘手。</p>
+<p class="image-wrapper"><img data-img-size-val="700,248" src="https://img.36krcdn.com/hsossms/20241111/v2_9a7212fb4cfc48d2b8398f0c2800c50f@46958_oswg23378oswg700oswg248_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>类似的困境不止出现在 OpenAI，还有其他前沿实验室在这方面遇到更严重的问题。据数据科学家 Yam Peleg 曝料，从某个前沿实验室传出消息，他们试图通过更长时间的训练和使用越来越多的数据来强行获得更好的结果，结果却意外地达到了一个巨大的收益递减墙（比公开发布的更严重）。</p>
+<p class="image-wrapper"><img data-img-size-val="708,221" src="https://img.36krcdn.com/hsossms/20241111/v2_8e739cefdb9c4481950dd324741e9f95@46958_oswg25509oswg708oswg221_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>“因此，我认为可以肯定的是，所有主要参与者都已经达到了训练时间更长、收集数据更多的极限...... 现在的关键是数据质量，而这需要时间。”Peleg 表示。而这样的说法正在被不少人认同，有网友表示，“所有的实验室似乎都撞到了这样的墙。”</p>
+<p class="image-wrapper"><img data-img-size-val="712,174" src="https://img.36krcdn.com/hsossms/20241111/v2_3d1d7f9845a8456993b7c9dad3b1c961@46958_oswg29590oswg712oswg174_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>总而言之，目前可能需要新的方法来推动 AI 技术超越其当前的极限。</p>
+<h2><strong> “LLM 只会照本宣科”， 一生变就崩溃？ </strong></h2>
+<p>“我们的数据用完了。合成数据始终意味着提炼现有模型，而不是向人类学习。”一位网友在听到消息后这样说道。</p>
+<p class="image-wrapper"><img data-img-size-val="591,130" src="https://img.36krcdn.com/hsossms/20241111/v2_fe064c4aecb44221bc12828134ba9280@46958_oswg15627oswg591oswg130_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>另一位网友则表示，“未来应该是 LLM 与推理模型相结合，推理能力越强，效果越好。天不会塌下来。”</p>
+<p class="image-wrapper"><img data-img-size-val="576,161" src="https://img.36krcdn.com/hsossms/20241111/v2_b3f75791bae74269bc3340d5cbb1c1d8@46958_oswg17118oswg576oswg161_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而，最近麻省理工学院的一项研究却引发了许多人对于大模型本身理解和学习能力的诸多质疑，甚至有网友锐评道，“LLM 只会照本宣科，而不能像人类甚至其他动物那样将所学到的知识应用于新事物。”</p>
+<p>研究人员发现，尽管生成式 AI 的输出令人印象深刻，但其对世界并没有连贯的理解。也就是说，一旦任务或者环境稍有变化，之前表现良好的模型可能会瞬间崩溃。</p>
+<p>研究人员重点研究的是 transformer 模型，一类在随机生成的序列数据之上训练而成，另一类则由遵循策略生成的数据训练而成。并将评估示例放在确定性有限自动化（DFA）的问题上，分别是在纽约市的街道上导航以及玩棋盘游戏。</p>
+<p>在导航的应用例中，虽然模型能够近乎完美地为用户提供纽约市的导航路线，但当研究人员封闭部分街道再添加绕行路线之后，其性能则会显著下降。哈佛大学博士后 Keyon Vafa 表示，“令人惊讶的是，只要添加一条绕行路线，模型性能就会迅速下降。哪怕我们只封闭掉 1% 的街道，准确率就会立即从接近 100% 下降到 67%。”</p>
+<p>但两类 transformer 模型都没能在导航示例中形成连贯的世界模型，并且研究人员在还原模型生成的城市地图时发现，该地图往往包含随机方向的天桥或者大量现实中并不存在的街道。</p>
+<p>而在棋盘游戏的示例中，他们发现 transformer 无需了解任何规则，就几乎能够准确预测游戏中的有效棋路。Vafa 解释道，“棋盘游戏中，如果你看到的是两台随机计算机在下棋，而不是冠军棋手在下棋，理论上你会看到所有可能的棋步，甚至是冠军棋手不会走的坏棋。”</p>
+<p>令人惊讶的是，研究人员发现随机做出选择的 transformers 反而形成了更准确的世界模型，这可能是因为它们在训练期间接触过更多潜在的下一步棋路。不过，尽管 transformers 几乎在所有情况下都能生成准确的方向和有效的棋路，只有后一类模型能够生成连贯的世界模型。</p>
+<p>研究人员强调，“看到这些模型那令人印象深刻的表现，我们往往认为它们一定是对现实世界有所了解。但我想提醒大家的是，这个问题不可轻下结论，更不能单凭直觉就言之凿凿。”</p>
+<h2><strong>结   语 </strong></h2>
+<p>对于目前大模型发展中显现的这些瓶颈，有网友提出了一些有趣的想法。</p>
+<p>一位网友建议，“我想知道是否有可能将 LLM 与 Cyc（一个逻辑引擎和生活常识规则数据库）连接起来。该引擎可以找到语言模型（文本）和 Cyc 模型之间的最佳匹配，并对较短的候选模型（最小的逻辑图）进行加权。从语言模型生成候选 Cyc 模型可能首先需要大量的训练。”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,127" src="https://img.36krcdn.com/hsossms/20241111/v2_ec68c36113cd47869f3201599f1e4a5b@46958_oswg67235oswg1080oswg127_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>还有一位网友表示，“现在需要人形机器人来改进 scaling law。如果没有机器人在现实世界中亲身经历的纯数据，GPT 就不可能得到改进。”</p>
+<p class="image-wrapper"><img data-img-size-val="692,273" src="https://img.36krcdn.com/hsossms/20241111/v2_d47c24ad5cb94a5bb8e8ff5fd45b3330@46958_oswg30841oswg692oswg273_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>参考链接：</strong></p>
+<p>https://techcrunch.com/2024/11/09/openai-reportedly-developing-new-strategies-to-deal-with-ai-improvement-slowdown/</p>
+<p>https://x.com/amir/status/1855367075491107039</p>
+<p>https://www.eecs.mit.edu/despite-its-impressive-output-generative-ai-doesnt-have-a-coherent-understanding-of-the-world/</p>
+<p>https://slashdot.org/story/24/11/10/1911204/generative-ai-doesnt-have-a-coherent-understanding-of-the-world-mit-researchers-find</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/QaqzkOtKoEQDBXwc73s8ag" rel="noopener noreferrer nofollow" target="_blank">“AI前线”</a>，整理：华卫、核子可乐 ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031698876098050</guid><pubDate>Mon, 11 Nov 2024 17:06:00 +0800</pubDate></item><item><title>双11最惨的人，拉夫劳伦</title><link>https://36kr.com/p/3031698782102788</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“只有拉夫劳伦受伤的世界达成了”。</p>
+<p>这是今年双11最让商家们哭笑不得的一句话。起因是有媒体爆出拉夫劳伦今年双11在天猫的GMV超过16亿，出现在多份“破亿战报”里，但大批消费者实际上却是拿它凑单领大额优惠券，导致很多人在付款5分钟内就选择退款，让拉夫劳伦的退货率达到了95%。</p>
+<p>最终，<strong>这个靠“职场老钱风”“北美藤校味儿”和“中年女人的JK制服”翻红出圈品牌，硬是靠一点都不老钱的“凑单神器”，赢得了泼天流量。</strong></p>
+<p>目前，拉夫劳伦并没有对这一事件进行公开回应。而在小红书搜索栏里输入“凑单”两个字，光“凑单店铺有哪些”就有两万多篇笔记，拉夫劳伦则冲在了搜索结果的前半页。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,790" src="https://img.36krcdn.com/hsossms/20241111/v2_6c68e07bbec1460390e2059954b7f699@46958_oswg37595oswg1080oswg790_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>根据今年天猫双11规则，88VIP会员在付尾款阶段可以启用两张消费券，面额分别是“满7000减560元”和“满3000减240元”，相当于每件商品再打92折。至于拉夫劳伦，它动辄上千的定价不仅单价高，而且为了维持品牌调性并没参加平台普推的“满300减50元”的活动，而只参加了上述88VIP的消费券活动，当别的品牌“学聪明了”，在消费者点退款时要反应半天、甚至抢先把货发出库时，拉夫劳伦又是会秒退款的那个，各种Buff叠满让它成了天选凑单神器。</p>
+<p>诸多凑单攻略里，有人给自己选了200多的东西，然后带上一两件拉夫劳伦，把消费金额撑到3000拿到了消费券；有人反映用拉夫劳伦凑单的人太多了，“刚放进购物车一点结算显示卖光了”，很快就其他“友友”教她要“多选几个同等价格的做备选”。有人骄傲晒出自己拿拉夫劳伦凑了3单，立刻就有人说自己更厉害凑了5单。</p>
+<p>关于凑单后秒退款对拉夫劳伦的伤害力，也有不同的说法。有从业人士称如果商品尚未发货就发起退款，商家需要承担2-3元的免单和出库成本。也有人觉得这事对拉夫劳伦不会带去太多成本上的影响，但退款率退货率太高会影响品牌店铺的曝光，哪怕当事方是并不缺曝光量的知名品牌。</p>
+<p>但这件事的关键在于，<strong>为什么有品牌会靠被人凑单凑成销冠。</strong></p>
+<p>电商之间的竞争已经趋于白热化，而想要在资本市场得到更多肯定，想争取到更多商家的资源倾斜，GMV都是不得不秀的肌肉——退款退货的金额并不会被计算在GMV里。为了在大促期间冲高GMV，电商平台会制定各种满减规则，引导消费者买了又买。无论是天猫的满7000减560，还是抖音的满4000减400，无非都是平台用来推高GMV的手段。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241111/v2_07f03d65e26841159afc1f460a868151@46958_oswg61678oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>GMV之外，平台也比以往更加地取悦消费者，<strong>仅退款、秒退款不仅是取悦中最常见的一招，还成了“如果我没有友商有，我就不会被选择”的关键售后。</strong>结果是初代网红张大奕受累于高企的退货率关掉了十年淘宝老店，拼多多女装80%的退货率成了最真实的恐怖故事，而丰巢的电商退换货综合服务收入则从2021年的8526万元，增加到了2023年的8.93亿元，两年涨了近10倍。</p>
+<p>平台一边希望消费者买更多来冲高GMV，一边变着法子取悦消费者。当这届消费者恰好是预算最紧的消费者时，他们中的很多人自然会选择研究规则、利用规则、反制规则。最终靠凑单秒退款，消费者看似拿到了更多优惠，平台拿到了更高GMV，一个只有商家受到伤害的世界就此达成。</p>
+<p>在这个链条里，我们还有两个联想。</p>
+<p>首先，用拉夫劳伦踊跃退单的全是天猫88VIP，也是淘天最优质的一群消费者。在诸多报道里，他们购买力强、复购率高、粘性强，也没有太多恶意薅羊毛、恶意投诉商家的案例。如果连比较优质的消费群体都成了凑单大军，那么水面之下，数量级更大的普通消费者，是否还会与商家有更多原本不该存在的利益纠纷。</p>
+<p>其次，平台后续是否会管束这种纯凑单行为。如果加以管束，意味着短时间内它们可能会失去一波消费者，如果不管束，到了明年的618和双11，当这种凑单方法被更多人知道后，商家们又会怎样？</p>
+<p>已经有商家对这样的双11给出了自己的反馈。</p>
+<p>消费巴士从多位业内人士处了解到，<strong>过去不少商家会把双11当一年最后冲业绩的关键节点，但到今年，部分中小商家选择“冷处理”双11，</strong>即使参与了优惠力度也很弱，仿佛不想被人发现一样。毕竟优惠力度太大会亏本，优惠力度不大又会被同行卷到“隐身”，万一退货率上去了，还得多负担一部分成本。</p>
+<p>至于仍然踊跃参与双11的商家们，部分商家会在双11前夕偷偷涨价，比如一件外套的价格从六百多涨到七百多，结果把所有优惠规则都用上，价格可能也就和平时一样甚至更高。</p>
+<p>如今的双11，似乎不再是从前那个消费者真买到便宜、商家也真冲了业绩的双11了。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/L202Pnp1676JXdxRGgA1sA" rel="noopener noreferrer nofollow" target="_blank">“消费巴士”</a>，作者：消费巴士，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031698782102788</guid><pubDate>Mon, 11 Nov 2024 17:08:00 +0800</pubDate></item><item><title>当视觉大模型陷入认知失调，马里兰大学构建了一个幻觉自动生成框架</title><link>https://36kr.com/p/3031698718074121</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>想象一下，有一天你在沙漠中看到一个雪人，或者在雪地里发现一棵棕榈树。面对这些与周围环境格格不入的景象，你是否会感到心理上的不适？</p>
+<p>在认知科学领域，研究者普遍认为人脑倾向于利用以往的经验来解读观察到的信息并构建记忆。然而，当人脑接收到与以往认知不符的信息时，可能会因为 “认知失调”（Cognitive Dissonance）而对外部环境产生误判，进而在行为上表现出矛盾。例如，我们通常认为电脑是由人类操控的，但如果我们看到一只章鱼在操控电脑，这种不符合常理的场景会让人脑产生认知失调的不适感。</p>
+<p>随着对大模型的深入研究，研究人员发现，在认知和推理任务上，大模型的思维过程与人脑有一定相似之处。因此，针对人脑认知失调特点设计的实验也能使大模型出现类似的 “幻觉” 现象。</p>
+<p>基于这一观察，马里兰大学的研究团队提出了一个<strong>名为 AutoHallusion 的视觉大模型幻觉自动生成框架</strong>。这一工作基于团队之前在 CVPR 2024 上发表的工作 HalluionBench（https://arxiv.org/pdf/2310.14566）。它通过在场景图像中插入或删除特定物体，并针对这些修改后的图像提问，从而检测大模型在回答时可能出现的幻觉现象。</p>
+<p>这一方法能够自动生成大量的大模型幻觉案例，有效缓解当前大模型幻觉研究中数据集缺乏的问题。在 GPT-4V、Gemini 和 Claude 等大模型上的实验表明，这些模型在本文提出的提出的基准数据集上问答准确率最高仅为 66.0%。该研究成果已发表于 EMNLP 2024。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,297" src="https://img.36krcdn.com/hsossms/20241111/v2_7e400fce86a64d90ae16ce12ed3cf17a@46958_oswg154334oswg1080oswg297_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>论文标题：AUTOHALLUSION: Automatic Generation of Hallucination Benchmarks for Vision-Language Models</p>
+<p>论文链接：https://arxiv.org/pdf/2406.10900</p>
+<p>项目主页及代码：https://wuxiyang1996.github.io/autohallusion_page/</p>
+<h2><strong>文章概述</strong></h2>
+<p>大型视觉语言模型（LVLMs）在内容生成、自动驾驶和机器人等领域中扮演着重要角色。然而，它们也会出现 “幻觉” 现象，即生成的响应中包含视觉内容中不存在的信息。这些幻觉通常是由于语言模块过度依赖语言先验信息而忽略视觉输入所致。</p>
+<p>为了解决这一问题，之前的工作通常收集幻觉案例建立基准数据集，并以此对大模型进行微调，以减少可能存在的幻觉。然而，手动创建幻觉案例和基准既耗时又昂贵。此外，之前的工作对大模型产生幻觉的机制研究有限，在缺乏足够代表性案例的情况下对大模型进行微调，可能会导致模型出现过拟合现象。</p>
+<p>为此，本文提出了 AUTOHALLUSION 框架，可以自动生成各种幻觉案例并进行批量生产。该框架基于认知科学原理，针对大模型产生幻觉的原因，提出了三种主要策略：插入异常物体、插入成对物体和移除相关物体，通过操控场景中的物体构成来创建与语言先验相冲突的图像。</p>
+<p>为了生成能够触发大模型幻觉的（图像 - 问题）组合，本文针对修改后的图像，设计相应的问题探测大模型的语言模块，定位特定物体或其在相关情境中的语言先验信息。如果大模型的推理受到语言先验的偏见影响，例如在根据图片回答某一特定物体的问题时，大模型根据场景图片的先验知识而非物体本身传递的信息来作答，那么就可能生成与事实不符或前后不一致的响应，从而导致幻觉现象。</p>
+<p>AUTOHALLUSION 在包括 GPT-4V、Gemini、Claude 和 LLaVA 等最新的大模型上进行了实验，并整理发布了一个基准数据集，来评估模型性能。在该基准数据集上的实验结果表明，GPT-4V 等大模型的问答准确率最高仅为 66.0%。</p>
+<p>数据集地址：https://github.com/wuxiyang1996/AutoHallusion</p>
+<h2><strong>研究方法</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="1080,400" src="https://img.36krcdn.com/hsossms/20241111/v2_09a1706516e544ee9d72afef0bf92105@46958_oswg212660oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>AUTOHALLUSION 的整体流程分为四个部分：</p>
+<p>1. <strong>场景生成</strong>：AUTOHALLUSION 使用合成或真实世界图像作为场景图。例如，在办公室场景中，假设场景中有电脑、办公桌、办公椅等与办公室主题一致的物体，而不会有炒锅等与主题无关的物体。图像可以通过 DALL-E 等图像生成模型根据提示生成，也可以从 MSCOCO 等公开数据集中提取场景。</p>
+<p>2. <strong>图像处理</strong>：AUTOHALLUSION 采用三种策略操控场景中的物体构成，以创建与语言先验相冲突的图像：</p>
+<p><strong>插入异常物体</strong>：将与场景主题不相关的异常物体添加到场景中，例如，在办公室场景中添加通常不会出现的炒锅。</p>
+<p><strong>插入成对物体</strong>：对通常一起出现的两个物体进行分离，保留一个并移除另一个。例如，牙刷和牙膏通常一起出现，而在修改后的图像中，只保留牙刷并移除牙膏。</p>
+<p><strong>移除相关物体</strong>：从原场景中移除一个相关物体，例如，在办公室场景中抹除显示器。</p>
+<p>3. <strong>构造问题</strong>：AUTOHALLUSION 针对图像处理过程中插入或删除的物体进行提问，并相应地构造事实信息。问题主要分为两类：</p>
+<p><strong>存在性问题</strong>：询问目标物体是否存在于图像中，问题提示信息的细节级别不一，从不提供额外信息到提供完整的图像描述。</p>
+<p><strong>空间关系问题</strong>：询问目标物体与场景中其他物体的相对位置，并在问题提示中提供场景物体的名称或描述。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,559" src="https://img.36krcdn.com/hsossms/20241111/v2_5f0fbc9e5f94417f845347a25ee2aeeb@46958_oswg459007oswg1080oswg559_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>4. <strong>幻觉检测</strong>：AUTOHALLUSION 通过对比大模型的回答与事实信息或其他回答，来判断其回答中是否存在幻觉。目前，AUTOHALLUSION 能够检测以下两种类型的大模型幻觉：</p>
+<p><strong>正确性</strong>：大模型的回答与基本事实不一致。</p>
+<p><strong>一致性</strong>：大模型在面对包括不同级别的补充信息的问题时，无法给出一致的答案，或者在针对某一特定物体的提问中，未能提供与图像描述一致的答案。</p>
+<h2><strong>实验结果</strong></h2>
+<p>下表展示了通过 AutoHallusion 生成的大模型幻觉案例的成功率，结果显示出以下几个主要发现：</p>
+<p><strong>插入物体的幻觉生成策略</strong>比删除物体的策略更有效。</p>
+<p>基于<strong>物体存在性</strong>构建的问题比基于<strong>物体空间关系</strong>的问题更容易引发幻觉。</p>
+<p><strong>GPT-4V</strong> 在防止大模型幻觉方面表现最好。</p>
+<p>针对<strong>真实世界数据集</strong>构建的幻觉案例成功率高于合成数据集。本文认为，这可能是由于大模型难以处理真实世界图像中物体语义关系的复杂性所致。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,460" src="https://img.36krcdn.com/hsossms/20241111/v2_3ac5df16a6524eefa3ed69497a0534ae@46958_oswg341859oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>下图展示了针对物体 - 场景对齐关系的消融实验结果。在该实验中，本文采用不同的大模型来生成用于图像编辑的物体，并在视觉问答（VQA）任务中进行评估。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,465" src="https://img.36krcdn.com/hsossms/20241111/v2_df88deaf0afd4c32a18c2a41ffa0bac3@46958_oswg163204oswg1080oswg465_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>基准数据集指标</strong></h3>
+<p>本文从以下三个方面评估了通过 AutoHallusion 生成的基准数据集：</p>
+<p><strong>多样性</strong>：衡量数据集中不同场景和对象的数量，包括 200 个（合成）/160 个（真实世界）样本。</p>
+<p><strong>图像质量</strong>：通过原始图像和编辑图像的 IS（Inception Score）分数，以及原始图像与编辑图像之间的 Frechet Inception Distance (FID) 距离来评估。</p>
+<p><strong>有效性</strong>：通过每个样本中引发幻觉的平均问题数量来衡量。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,308" src="https://img.36krcdn.com/hsossms/20241111/v2_8e250b025fe14cd3abe1ccf4f135e8cc@46958_oswg52741oswg1080oswg308_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>下表展示了 GPT-4V、Gemini、Claude 和 LLaVA 等大模型在通过 AutoHallusion 生成的基准数据集上的表现。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,327" src="https://img.36krcdn.com/hsossms/20241111/v2_ed1bfd08a2e1451a80ecadbcf98b98ad@46958_oswg183552oswg1080oswg327_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>本文的共同第一作者是马里兰大学电子计算机工程系的博士生吴曦旸（https://wuxiyang1996.github.io/）和计算机科学系的关天瑞（https://tianruiguan.phd/）。吴曦旸的研究方向主要涵盖强化学习、自动驾驶，以及大语言模型在机器人导航和计算机视觉中的应用。关天瑞的研究则聚焦于计算机视觉和视觉语言模型在机器人、自动驾驶等领域的应用。本文的指导老师为李典奇，周天翼教授 （https://tianyizhou.github.io/）和 Dinesh Manocha 教授 (https://www.cs.umd.edu/people/dmanocha)。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/4hN5RjMP2sCMAqnimyIS_A" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031698718074121</guid><pubDate>Mon, 11 Nov 2024 17:09:00 +0800</pubDate></item><item><title>中国人吃的食品添加剂，真比欧美日本更多、更狠？</title><link>https://36kr.com/p/3031497095996928</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>前几天，桃李面包发布公告： </p>
+<p>“桃李新生产的所有产品都将不再添加脱氢乙酸钠。” </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_6a7be257071b41348d404d05024cfc65@000000_oswg447630oswg681oswg553_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>好像是行业的共同意愿。 </p>
+<p>同一天，三只松鼠、良品铺子、盐津铺子、达利园、盼盼等品牌均有发声，称产品配料正在更替中。 </p>
+<p>其实，早在今年2月，国家卫健委发布新版国标GB 2760-2024，重新规定了脱氢乙酸钠的使用要求。 </p>
+<p>8个月后，终于慢慢落地。 </p>
+<p>而作为消费者，我们还有更多期待。</p>
+<h2><strong>人人喊打的民生产业</strong></h2>
+<p>中国人对食品添加剂，打心底有顾虑，甚至是恐惧。 </p>
+<p>在上世纪八十年代，全中国所有添加剂加起来只有几十种。 </p>
+<p>而随着经济快速发展，目前中国已经有2400多种食品添加剂。 </p>
+<p>根据中商产业研究院发布的《2024-2029年中国食品添加剂市场深度调查及投资风险研究报告》显示，2019-2023年，中国食品添加剂的主要品种总产量，从1269万吨增长到1611万吨，年均复合增长率为6.15%。 </p>
+<p>而食品添加剂的市场规模，在2021年就已经达到1399亿元。 </p>
+<p>这是一个相当大的数字。根据德勤中国发布的《中国宠物食品行业白皮书》数据，预计到2026年，中国宠物食品的市场规模，也只有1140亿元。 </p>
+<p>相比之下，食品添加剂产业历史悠久，早已经是普通人日常生活的一部分。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_3ad7a75256cc41b189d41c454b341580@000000_oswg84576oswg750oswg563_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">某调料店一角，排骨增香粉25元/罐，猪骨高汤30元/罐 </p>
+<p>但它的安全属性却仿佛一个玄学：不断被讨论，却难以被解决。 </p>
+<p>比如防腐剂，虽有一定毒性，却也肩负着防止食物腐坏的重任，究竟安全不安全，还得看剂量。 </p>
+<p>开头提到的“脱氢乙酸钠”，就属于这一类。 </p>
+<p>早先，像面包、糕点、烘烤食品、腌渍菜等十二种食品，都有脱氢乙酸钠。 </p>
+<p>只要不长期吃，它的危害并不大。 </p>
+<p>但如果反复食用，就容易形成肝肾损伤，甚至危及中枢神经。 </p>
+<p>如果是996、007的打工人，自然就可能越来越“神经”。 </p>
+<p>如果说防腐剂还有很多优点，算是亦正亦邪，那么，调味剂就大多属于妖媚惑主的一类。 </p>
+<p>其中代表，包括但不限于：代糖、肉食保水剂，面粉改良剂等等。 </p>
+<p>因为主打提升口味，且很多都是剂量与口感成正比，很多商家都会超标使用。 </p>
+<p>比如，我们日常在熟食店买的酱肉，一个酱肘可以炖几个小时不脱形，靠的就是著名的肉食保水剂，磷酸盐。 </p>
+<p>好吃、方便。 </p>
+<p>但也可能让人骨头变松，血管变硬。 </p>
+<p>食品添加剂的产业上，最大的潜规则就是保密。 </p>
+<p>只要保密，商家就能用极低的成本，哪怕影响了食客们的健康，也还能掏空他们的钱包。 </p>
+<p>而添加剂的使用，往往能帮食品商家将价格降到更低，吸引到更多消费者。 </p>
+<p>一个蛋挞一元钱。 </p>
+<p>街边点心，买一斤送半斤。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_3d399de99e334abb83043b3063a54ae8@000000_oswg63472oswg788oswg531_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>越是爱在吃上占便宜的人，就越容易掉入这个精密策划的陷阱。 </p>
+<p>无论是商家，还是消费者，都被拿捏得准准的，狠狠的。 </p>
+<h2><strong>罪恶之源</strong></h2>
+<p>人造产品的过剩，总是源于天然物质的紧缺。 </p>
+<p>在德国工业革命后的十九世纪末二十世纪初，德国工人们每天的主食是口感粗糙的裸麦面包。 </p>
+<p>所以当时德国就制造出大量的人工食品，以提升天然食品口味，让餐桌看起来丰富一些。 </p>
+<p>比如人造黄油、代糖、代咖啡。 </p>
+<p>黄油是牛脂肪混合牛乳头肉做的，代咖啡也跟咖啡豆没有一点关系。 </p>
+<p>糖精更是从煤焦油中提取，毫无营养可言。 </p>
+<p>但这却让工人们觉得自己“仍有生活”，在流水线上继续安分工作。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_932467b5cae54d8a812485fdf84eb291@000000_oswg16217oswg411oswg307_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">1918年，一个普通德国家庭一天的食物 </p>
+<p>所有人造食品中，最有影响力的就是糖精，被德国的工厂垄断生产了约20年。 </p>
+<p>随后，虽然在美国以及欧洲的德、法等国，都有很多糖精、人造黄油的生产企业。 </p>
+<p>但几乎没人能像孟山都一样，刚成立就收获了极大的经济效益。 </p>
+<p>孟山都成立于1901年，正好就是在食品短缺，人造食品需求量巨大的时代。 </p>
+<p>而它之所以能“成功”，还要感谢命运帮他先后进入了两个资源极度优越的利益链条。 </p>
+<p>第一个利益链条，主角是当时世界顶尖的跨国巨头，可口可乐。 </p>
+<p>二十世纪初，可口可乐公司一年的含税收入已接近100万美元，一年的广告预算就有10万美元。 </p>
+<p>而当时它原料中的糖精、香草、咖啡因，就是孟山都提供。 </p>
+<p>为了将成本压到最低，孟山都的咖啡因，有很大一部分是从废弃茶叶渣中提取。 </p>
+<p>而可口可乐公司则将工厂建在了美墨边境，把可乐以低于饮用水的价格卖给墨西哥人。 </p>
+<p>现在，每四个墨西哥人里就可能有一个是糖尿病患者。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_624ed1774caa4d8eab0b19611b022066@000000_oswg55898oswg759oswg520_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">墨西哥，圣克里斯托瓦尔市附近的Tenejapa镇，以消费可乐而闻名 </p>
+<p>作为一家化工企业，孟山都不仅生产食品添加剂，也生产工业原料。 </p>
+<p>所以它很快就进入了另一条更有实力的利益链条，其中主角是美国军方。 </p>
+<p>1961年越战期间，美国曾用飞机向越南战场喷洒2.1万加仑含有剧毒物质“二噁英”的除草剂“橙剂”，导致越南14%的国土寸草不生，污染持续了几十年。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_00a6a824552e4b18bdadbc5b530994c1@000000_oswg78606oswg834oswg547_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">为打败善于丛林作战的越军，美军动用直升机喷洒剧毒橙剂，让整片树林枯死 </p>
+<p>向美国军方提供橙剂的，就是孟山都。 </p>
+<p>化工企业沦为战争武器，结局本该是灰暗的。 </p>
+<p>然而截止到2018年，孟山都在被德国拜耳收购之前，仍有相当高的地位： </p>
+<p>2006年，《美国产业工会联合会》杂志授予孟山都“2006 CIO 100强”称号；</p>
+<p>2007年，《Wired》杂志评选孟山都为全球最具创新力的公司之一；</p>
+<p>2014年《财富Fortune》杂志评选为“全球最受钦佩企业”榜单第二名；</p>
+<p>2014年《科学SCIENCE》杂志评选为2014最佳雇主，位居第6名。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_d5443e934de340efb878ec6851231d3b@000000_oswg77152oswg821oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>也正因如此，无数类似的企业会去模仿他们。 </p>
+<p>而到现在，添加剂早已成为人类食品工业中不可或缺的一部分。 </p>
+<h2><strong>产业本身的短板</strong></h2>
+<p>相比于欧美发达国家，中国的食品添加剂产业发展相对较晚。 </p>
+<p>但从监管端来看，中国对食品添加剂的态度，却更加严格和克制。 </p>
+<p>对于一般的欧洲国家来说，包装食品中的添加剂只需要标注大类。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_ed6dbd73b5b64434b9c44814b1f7ca0b@000000_oswg78569oswg657oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">法国食品的“Nutri-score”标识，A最健康，E最差 </p>
+<p>美国包装食品的配料表中，可以省略安全添加剂和营养型添加剂。 </p>
+<p>但中国《中华人民共和国食品安全法》明确规定，所有预包装的食品，配料表一定要写全所有配料。 </p>
+<p>只要是单独添加并起作用的添加剂，就一个也不能少。 </p>
+<p>但现实的例子是，有很多海归父母，在国内超市不敢给孩子买零食。 </p>
+<p>却不得不咽下欧洲朋友晚餐桌上含有硼砂的鱼子酱。 </p>
+<p>硼砂是一种只要3克就能杀死婴儿的有毒物质，在中国作为添加剂使用是违法的。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_f8e18922caa24d419e3f671636f540fb@000000_oswg334741oswg763oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">电影《门 徒》中，刘德华饰演的毒枭林昆，为全家每人点了一罐“按克收费”的鱼子酱，正在品尝 </p>
+<p>各国间能用不同的标准，体现出添加剂产业的一个特点：生产、使用、消费，角色不统一，信息相对闭塞。 </p>
+<p>这为监管制造了困难，风险易向下游消费者集中。 </p>
+<p>比如，在地下小吃街和大排档，使用复合腌肉料来腌制烧烤肉，已经是基本操作。 </p>
+<p>一公斤含有“肉弹素+羊肉精+猪肉精+乙基麦芽+亚硝酸盐”的腌肉料，能腌100公斤肉。 </p>
+<p>如果加入“碳味”添加剂，还能模仿出碳烤的味道。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_f607fa9f5f7d4d568049bd06f6d03567@000000_oswg55505oswg811oswg541_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>可怕的是，这其中每一种单独的添加剂都是合法且安全的。 </p>
+<p>但肉弹素的主要成分，就是前面提到的磷酸盐。 </p>
+<p>羊肉精也有致癌风险。 </p>
+<p>放到一起，威力翻倍。 </p>
+<p>消费者即使知道，也没得选。 </p>
+<p>因为不加这些调料的肉，不仅不那么好吃，还可能会腐坏。 </p>
+<p>在这背后，是更深层的结构性问题。 </p>
+<p>从技术角度讲，食品添加剂是一个极其专业的领域。 </p>
+<p>然而到目前为止，食品添加剂这门学科都没有在大学里建立独立专业，只能作为课程，附属于食品科学、食品化工等相关专业中。 </p>
+<p>不仅中国如此，美国、日本的大学中，也都没有独立的食品添加剂专业。 </p>
+<p>可是到了产业一线，食品添加剂的生产和使用，却需要生化、制造、监管等专业和技术的支撑。 </p>
+<p>从业人员只能带着残缺的技术到岗位上学习，而学到的是只适用于本企业的能力。 </p>
+<p>当教育起不到引领和指导作用，产业上隐患就多。 </p>
+<p>加之消费者对添加剂的使用终究没有决定权，恐惧难以消除。 </p>
+<p>舆论场就容易变得缺乏正能量。 </p>
+<h2><strong>解决之道?</strong></h2>
+<p>多年前，就曾有人提出：“中国人饮食不比健康，就比谁命大。” </p>
+<p>悲观论调背后，有着很深的误解。 </p>
+<p>那就是中国的食品安全问题，远比西方国家更大。 </p>
+<p>但实际上，无论是美国、欧洲还是日本，使用的添加剂都比中国多。 </p>
+<p>他们的食品安全问题也一点都不少。 </p>
+<p>比如近20年来，日本食品安全事件最少的2021年，全国仍有717起食物中毒，学校和养老院也不例外。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_6993d7c19a8c4b17a1c529e02a530620@000000_oswg66384oswg686oswg386_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而中国已经禁止使用的瘦肉精，至今仍在美国养殖业中被合法添加。 </p>
+<p>所以我们没必要向别国讨教。 </p>
+<p>反倒是更该从自己的产业源头想办法。 </p>
+<p>比如，鼓励更多企业，生产天然、健康的食品添加剂。 </p>
+<p>另一个办法，就是在行业中卷出有引领作用的头部大哥。 </p>
+<p>数据显示，到2022年，中国近百家生产柠檬酸的企业中，产能超过万吨级的，只有不到20家。 </p>
+<p>而香料香精的生产企业有近700家，但销售收入超亿元的也只有20余家。 </p>
+<p>大家都在埋头苦干，一些企业还将自己的产品出口到了发达国家。 </p>
+<p>但这些头部企业对同行的影响力不强，也几乎从不站在社交媒体上发声。不骄傲，不表态，不愤怒，就在食品工业和餐饮业的背后默默运作。 </p>
+<p>在复杂的舆论环境下，添加剂企业保持低调当然无可厚非。 </p>
+<p>然而没有舆论引领，腰腿部选手连给大佬点赞的机会都没有。 </p>
+<p>小微型企业及商贩，就更容易被经济利益牵着鼻子走。 </p>
+<p>可是换一种思路，如果有人能站出来主动交流，给企业一些指引，也帮消费者做一做“嘴替”。至少能帮大众识别友军，避免拔刀。 </p>
+<p>也让下一次的升级，变得更加可期。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&amp;mid=2654895074&amp;idx=1&amp;sn=1a84fed7cb4e2b209ccd66377168512f&amp;chksm=bc90caef60a2e978c8e11f51e1c36e3b523bca9f77f078211b35cdc8560c11fa024b70084966&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“正解局”（ID：zhengjieclub）</a>，作者：正解局，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031497095996928</guid><pubDate>Mon, 11 Nov 2024 17:17:00 +0800</pubDate></item><item><title>小杨哥海外再造小杨哥？</title><link>https://36kr.com/p/3031731601106180</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>停播65天的疯狂小杨哥，仍未显现出丝毫回归直播间的迹象。</strong></p>
+<p>近日，疯狂小杨哥、疯狂大杨哥、三只羊网络以及旗下多位主播的抖音橱窗突然被清空。不久前，三只羊网络也否认了“小杨哥深夜复播”一事，并且回应称，目前没有接到主播排班情况的具体通知。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_f0517396775d454a9c31dfd5082e57b4@000000_oswg308336oswg831oswg594_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不过，小杨哥并没有真的闲下来。<strong>相较于国内直播间的静悄悄，小杨哥正在加速海外拓展的步伐。</strong></p>
+<p>近日，在第三方招聘软件上，小杨哥背后的三只羊厦门分公司正在招募TikTok东南亚小店运营。招聘信息显示，月薪5000-8000元。字母榜（ID：wujicaijing）尝试和负责招聘的相关人员沟通，对方表示，<strong>这份工作是面向东南亚市场，但是在国内工作，主要负责运营TikTok小店，</strong>负责与达人进行建联，进行短视频和直播带货，投流以及数据监控等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_255375b120904797924fc06e1516879a@000000_oswg266292oswg831oswg1041_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>与此同时，三只羊网络出海的抖音账号“TikTok事业部（三只羊）”也在近日接连发布多条招募信息，招募短视频带货剪辑师，向这些剪辑师免费开放TikTok直播回放的授权，即切片带货，并且予以橱窗扶持和投流扶持。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_5293b0b179bd4467aa64548f3c554c4d@000000_oswg454891oswg641oswg1028_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：TikTok事业部（三只羊） </p>
+<p>截至目前，三只羊网络已经在新加坡、马来西亚、越南、泰国合作超20位主播。依托这些主播，<strong>三只羊网络正在试图将直播切片模式，复制到海外，并成为拓宽海外业务的一大利器，而切片带货一度是小杨哥在国内崛起为头部主播的一大助力。</strong></p>
+<p><strong>在小杨哥开拓海外业务之际，一批新晋主播正在试图瓜分因小杨哥缺席抖音所带来的流量红利。</strong></p>
+<p>字母榜此前在《瓜分小杨哥》中分析道，小杨哥背后1.2亿粉丝所构建的消费能力和关注度，正被一大批网红所瓜分，就连原本属于小杨哥的切片市场也正在被瓜分。更有媒体报道称，杭州三只羊旗下的一家子公司的部分员工已跳槽至杭州良匠传媒，负责抖音热门主播“听泉赏宝”的直播招商业务；在一些二手电商平台，还流传出三只羊变卖设备的消息。</p>
+<p>相比国内复出的困难重重，<strong>海外再造一个小杨哥，或许是小杨哥和其背后三只羊集团不得不冒险探索的一条必由之路。</strong></p>
+<p><strong>A</strong></p>
+<p>“成立全球总部，到TikTok上卖货赚老外的钱。”早在去年4月份，小杨哥就在直播间宣布：未来出海做TikTok电商。</p>
+<p>不到一年时间，小杨哥的全球化布局开始相继落地，完成了出海团队的人员组建和海外MCN机构“Three Sheep Network”创建，半年时间积累200万粉丝。</p>
+<p>有了粉丝基础后，小杨哥将出海的首站选在了新加坡。</p>
+<p>今年1月10日，三只羊网络与新加坡本地达人@shopwithsasax进行首场合作直播，创下了TikTok电商板块在新加坡地区的新纪录，一举登上新加坡本地榜第一。当时合作的新加坡达人“shopwithsasax”，在TikTok上有2.07万粉丝，最早在2023年10月就开始在直播间推荐小杨哥直播间产品，带上#小杨哥#和#小杨臻选#的话题进行宣传。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2ff48c689a9840059c4b42288dce1530@000000_oswg705542oswg541oswg922_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：TikTok事业部（三只羊） </p>
+<p>之后，三只羊网络又陆续开启了马来西亚、泰国、越南的出海直播。<strong>除了押注东南亚市场，三只羊甚至将目标拓展到美国市场。</strong>今年7月，三只羊集团创始人卢文庆在直播中透露，“美国的公司计划在9月份左右能开好，海外的高管已经在美国洛杉矶待了将近20多天，这次去也是跟着官方一起出海。”</p>
+<p>小杨哥出海的速度之快，<strong>在一众宣布出海的大主播中无出其右，而这背后依靠的也是三只羊网络擅长的切片带货模式。</strong></p>
+<p>切片带货，正是小杨哥能快速在国内抖音平台崛起的主要原因，借助切片带货模式，疯狂小杨哥的IP影响力急速扩大。小杨哥曾发视频称，自己每周虽然只直播一场，但通过切片账号每日浏览量能有三四亿。根据三只羊官方披露数据，2022年共有11000多人获得三只羊网络的切片授权。</p>
+<p><strong>现在，加码出海的小杨哥，再次将“切片带货”视为打开海外市场的一大利器，从宣布进军TikTok，到正式和海外红人合作带货，小杨哥用了不到一年时间，完成了粉丝从0到200万的搭建。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_e5b9e90ac8904c55bdddae08554b4755@000000_oswg247409oswg554oswg1050_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：FastMoss </p>
+<p>一直到今年1月份的首场带货，小杨哥在TikTok的账户名为“疯狂杨92”，已经有27.3万粉丝，小杨哥的话题有1080万的播放次数；小杨哥的徒弟们的相关切片视频播放量也非常高，譬如徒弟小黄的视频播放量达到170万，徒弟卓仕琳相关视频切片播放量达到了50万。</p>
+<p>中国数实融合50人论坛智库专家洪勇在分析小杨哥出海时表示，对于小杨哥而言，海外直播带货的优势在于能够触及更广泛的市场，尤其是东南亚地区，这些市场对中国的商品有着较高的需求。此外，通过与当地红人合作，可以快速建立信任感和粉丝基础，减少文化差异带来的障碍。</p>
+<h2><strong>B</strong></h2>
+<p><strong>但是，制造一个“海外小杨哥”并非易事。</strong>某跨境服务商表示，虽然小杨哥的切片模式给他们带来了流量，但是流量并不等于直接的商业变现。</p>
+<p>今年1月，三只羊网络和新加坡达人的那场直播合作，虽然登上新加坡本地榜第一，但实际上，这个数据的体量或许并不大。专注研究出海的“TK观察”曾对这场带货分析称，新加坡这场带货换算成人民币，最多就是几十万元。</p>
+<p>TikTok数据分析平台FastMoss也显示，三只羊小店已经开到了印尼，数据显示，小店在售商品19件，历史总销售额为1241.99万印度尼西亚盾，约合人民币为5700元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2a34a5e58fdf46a391699672926eaa8f@000000_oswg260124oswg810oswg936_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：FastMoss </p>
+<p>今年7月份，三只羊网络和越南主播合作的一场直播，是为某国货品牌做的专场直播，首播的商品交易总额为287483370越南盾，约合人民币8.2万元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_7ff7f8f34377414d832eaf812b10d413@000000_oswg1077004oswg831oswg1174_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：TikTok事业部（三只羊） </p>
+<p><strong>这不仅和三只羊在抖音的带货数据相差甚远，与越南当地的头部主播差距也比较大。</strong>今年6月，越南诞生一位带货一姐——武河玲（Võ Hà Linh），创造了4小时单场直播带货超3300万人民币的销售额。</p>
+<p><strong>虽然出海困难重重，但是对于停播已超2个月的小杨哥来说，海外已经从一道选择题，变成了一道必选题。</strong></p>
+<p>在监管层面，小杨哥面临较为严苛的环境。9月26日，合肥市联合调查组发布通报，对三只羊公司没收违法所得、罚款共计6894.91万元；并要求其暂停经营限期整改，承担相关法律责任。抖音也发布了对三只羊的处罚，进行停播处理，后续将进一步敦促三只羊积极整改。</p>
+<p>在舆论层面，小杨哥的复出也较为艰难。自小杨哥停播65天以来，时不时就传出小杨哥复播的消息，而舆论对此的态度大多是拒绝。近日，美邦老板周成建谈到小杨哥想复播的时候称，这种现象应该遏制。此番言论在互联网平台被大多数人支持赞同。</p>
+<p><strong>小杨哥的粉丝还在流失，自9月以来，小杨哥粉丝从最高点的1.23亿跌去了900万。</strong></p>
+<p>对于小杨哥来说，面临的严峻形势还有一部分或将来自平台。字母榜此前曾在《抖音不再陪小杨哥“疯狂”》中分析道，小杨哥不是辛巴，抖音不是快手，对于当时的快手来说，辛巴以及背后的辛选对快手电商至关重要，但是小杨哥对抖音的电商占比却没那么重要。<strong>若要重新再来，小杨哥和平台的关系或许也将被重塑。</strong></p>
+<p>小杨哥被整改的严重程度类比于当年辛巴的糖水燕窝，据媒体当时报道，有快手内部人士透露，当时快手的创始人兼CEO宿华亲自表示，要永久封杀辛巴。尽管抖音没有传出此类消息，但是抖音对小杨哥的态度或许也将发生改变。</p>
+<p>一方面，抖音对大主播的要求正在发生改变，已经不仅仅是追求GMV，更是追求优质内容，以实现主播生态和内容的良好循环，如扶持董宇辉；另一方面，抖音在扶持店播和货架电商。今年9月，抖音电商总裁魏雯雯表示，过去一年，抖音电商GMV同比提升46%，货架场景GMV同比提升86%。</p>
+<h2><strong>C</strong></h2>
+<p>出海难，难住的不只是小杨哥一人。<strong>目前，还没有一位超头主播能够成功在海外复制出下一个自己。</strong></p>
+<p>一位直播行业人士分析，当前大主播出海更多是一个防御性动作，相较于国内市场，他们并没有将太多精力放在国外市场；海外的直播生态体系尚未成熟、文化差异带来的挑战、本土化运营和品牌化建设的缺失等，以及大主播不亲自出镜直播，也是他们出海声量不大的原因之一。</p>
+<p><strong>联合海外达人直播带货，是大多数超级主播选择出海的方式，显然是寄希望于从海外主播中再造出一个头部主播。</strong>但是从东南亚地区的文化环境和主播的角度来看，海外的主播未必能和国内主播一样推崇狼性文化。从李佳琦、薇娅、小杨哥、辛巴等超级主播的崛起来看，主播个人的努力和拼搏是至关重要的。</p>
+<p>显然“狼性文化”是成为一个超级主播的必经之路，在东南亚地区也同样适用。上述越南带货一姐背后的MCN机构负责人对外表示，要想成为头部的带货主播，最重要的是主播个人要非常努力。武河玲是一个非常拼命的网红，全年无休地拼搏努力，才能在团队支持下，在短短两年内迅速成长为越南带货冠军。</p>
+<p><strong>但是东南亚地区的文化环境，并不提倡狼性文化。</strong></p>
+<p>一篇研究TikTok在东南亚发展的学术论文——《TikTok Shop在东南亚五国的发展策略研究———基于 SWOT- AHP 模型的分析》中曾指出，中国的劳工制度并不完全适用于东南亚员工，狼性文化的工作体系容易造成员工的抵触情绪。</p>
+<p>这一点也和很多媒体报道的东南亚劳工环境相符合。“蓝鲨消费 ”曾在采访墨腾创投创始人兼CEO李江玕时，对方表示，许多出海东南亚的企业负责人经常抱怨的问题之一就是，东南亚员工不好管、没有狼性。“镜像工作室”也通过采访多位在泰国创业的中国人得知，泰国员工不像中国人那么拼，国内的狼性文化引过来，是绝对不可能成功的。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_2db0d581f8ad4501a12f5c91d15ee5cf@000000_oswg65577oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>大主播难诞生，背后也跟东南亚地区的电商基本盘有关系。</strong>东南亚的电商潜力还没有被释放出来，交个朋友曾在今年8月的财报电话会上表示，目前海外直播的发展阶段类似于国内抖音在2019至2020年期间。</p>
+<p>尽管东南亚地区互联网普及率很高，2023年东南亚电商平台商品交易总额达到1146亿美元，但是和中国相比还是有明显的差距，2020年中国的网上零售总额就约合1.8万亿美元，到了2023年接近2.2万亿美元。</p>
+<p>而这其中，被出海主播们青睐的TikTok，在东南亚市场的份额还处于相对弱势地位。据新加坡研究机构Momentum Works数据，2023年东南亚地区的电商平台中，Shopee份额为48%，Lazada占比16.4%；而TikTok和Tokopedia各占14.2%。也就是说，2023年，TikTok在东南亚地区的商品交易总额约合163亿美元。</p>
+<p><strong>超头主播的诞生，往往伴随着电商平台的崛起，并借助后者庞大的流量浇灌而一举成名：</strong>当淘宝直播还是第一大电商平台时，早期的薇娅和李佳琦诞生于此；后来快手和抖音迅速崛起，诞生了辛巴、罗永浩、东方甄选、疯狂小杨哥、董宇辉等。</p>
+<p><strong>想要在海外再造一个小杨哥，或许也需要等待TikTok们长成国内抖音的模样。</strong></p>
+<p><strong>参考资料：</strong></p>
+<p><strong>《中国创业者“下南洋”：没有降维打击》蓝鲨消费</strong></p>
+<p><strong>《泰国免签背后：中国创业者在泰，“狼性文化在这里没戏”》镜相工作室</strong></p>
+<p><strong>《越南带货一姐，单场直播卖了3300万元》墨腾创投</strong></p>
+<p><strong>《俞敏洪月薪4w招人做TikTok，小杨哥创造了新加坡直播记录，为何大佬2024年布局出奇的一致？》TK观察</strong></p>
+<p><strong>《TikTok Shop在东南亚五国的发展策略研究———基于 SWOT- AHP 模型的分析》哈尔滨商业大学，陈德慧，崔瑞</strong></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247539706&amp;idx=1&amp;sn=37e4cf6a8762e8a88aa8d3d69dd62510&amp;chksm=ebce8d623f88f626f07e799bba5405002b28f68950b51223425110a15c178cdb850685dc017e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“字母榜”（ID：wujicaijing）</a>，作者：薛亚萍，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031731601106180</guid><pubDate>Mon, 11 Nov 2024 17:21:00 +0800</pubDate></item><item><title>38岁，他干出一个深圳独角兽</title><link>https://36kr.com/p/3031656998675720</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>一笔超级融资映入眼帘。</p>
+<p>近日，深圳元戎启行科技有限公司（下称“元戎启行”）宣布完成1亿美元C1轮战略融资，由国内头部主机厂独家投资。投资界从知情人获悉，该主机厂正是长城汽车，且1亿美元已到账。</p>
+<p>而公司身后的掌舵者是一名85后博士——周光。他本科毕业于清华大学，后赴美留学攻读博士，职业生涯始于自动驾驶行业。2019年，周光回到深圳创业，一手创立元戎启行，至今累计融资超5亿美元。</p>
+<p>透过元戎启行，我们不仅看到风起云涌的自动驾驶江湖，也目睹深圳这座智能网联汽车产业之城的崛起。</p>
+<h2><strong>始于清华，85后博士创业，刚刚长城投了</strong></h2>
+<p>追溯起来，四川长大的周光从小就对机械电子产品感兴趣，几乎把家里的电器、玩具等都拆装了个遍。他从初中开始接触编程，还在高一的时候就参加全国第三届青少年电脑机器人大赛，尽管当时连指导老师都没有，最后却获得了金牌。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241111/v2_c64f9dc421f74cb2a2f0c2756f88b2c0@000000_oswg251016oswg940oswg400_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>读本科时，周光进入了清华大学“基础科学班”，痴迷数学和物理。他曾表示，机器学习的很多逻辑都与数学密不可分。此后，周光又远赴美国求学，在德克萨斯大学达拉斯分校攻读人工智能博士，同时在德州仪器Kilby实验室主导自动驾驶机器人项目。2016年毕业后，他加入百度研究院自动驾驶事业部工作，从此与自动驾驶结下不解之缘。</p>
+<p>2019年，周光决定回国创业。谈及创业初衷，他认为中国的机会在于物理AI的数据获取，只有拥有机器人和设备才能产生数据，进而形成超级智能，“希望回国创业可以将自己的AI技术背景与国内的产业链优势相结合，从而推动达成物理世界的通用人工智能。”</p>
+<p>很快，元戎启行在深圳市正式成立，公司名称出自诗经，意为“大军出发”。</p>
+<p>早在2020年，元戎启行就开始布局“无图”方案；时隔两年，旗下DeepRoute-Driver 3.0智能驾驶解决方案正式发布，不再依赖高精度地图，没有使用区域限制；今年4月，元戎启行又推出基于端到端模型的智驾平台DeepRoute IO，在此基础上，元戎启行正基于英伟达Thor芯片研发VLA（视觉-语言-动作）模型。</p>
+<p>在近日的媒体沟通会上，周光回忆，在和第一个客户接触时，客户不相信是真无图方案。于是元戎启行就做了“板车实验”，即客户随意指定地点，板车拉着测试车过去，然后测试车就地开跑。最后，经过在县城、小巷子、内部道路的测试，元戎启行获得了客户认可。</p>
+<p>官方资料显示，元戎启行团队目前超800人，方案已量产落地近2万台车，正与多家车企共同推进十余款车型的量产合作，包括长城新蓝山车型和10月底上市的Smart精灵5号。与此同时，元戎启行正在探索新的商业化路线——基于端到端模型，用量产车实现Robotaxi规模化运营。</p>
+<p>谈及IPO规划，周光表示无论融资还是IPO，都是为了实现长期目标的一个过程，“如果这个过程是必须的，对公司是有益的，我们就会去做。”接下来，或许可以期待深圳下一个自动驾驶IPO诞生。</p>
+<h2><strong>崛起于深圳，VC/PE云集，一度濒临发不出工资</strong></h2>
+<p>元戎启行背后的融资故事颇为精彩。</p>
+<p>时间回到成立当年，元戎启行先是获得天使轮融资，由复星锐正、云启资本、松禾资本、耀途资本、七熹投资、贵邦资本投资；紧接着又完成近5000万美元Pre-A轮融资，由复星锐正领投，云启资本、VentechChina等机构跟投。</p>
+<p>谈及当年融资，复星锐正资本董事长金华龙曾表示，复星锐正从2016年开始关注自动驾驶系统技术及核心零部件产业链，坚定看好自动驾驶及智联网联汽车行业发展趋势。“无人驾驶是国家现在重点扶持的产业，具备巨大的市场空间。</p>
+<p>一年之后，元戎启行完成A轮融资，由东方富海、复星锐正和云启资本投资。但很快资本寒冬袭来，自动驾驶行业走入低谷，不少创业公司遭遇现金流困境，元戎启行也不例外。在《每日人物》的采访中，周光曾透露，到2020年初“发完那个月的工资就没钱了。”</p>
+<p>在那段时间里，他密集地见投资机构。直至2021年9月，元戎启行宣布完成3亿美元B轮融资，由阿里巴巴领投，时代资本、复星锐正、云启资本、耀途资本跟投。值得一提的是，元戎启行此轮投后估值超10亿美元，正式跻身独角兽行列。2022年，元戎启行又完成B+轮融资，但未向外界透露更多相关信息。</p>
+<p>回顾元戎启行的崛起历程，离不开深圳这座城市。周光曾坦言，深圳包容的环境和产业链支持，是他决定扎根于此的重要因素。在他看来，深圳地处大湾区拥有完整的汽车电子产业链，有技术及生产优势，同时集聚了更多海内外科技人才，能为公司的发展提供源源不断的活力。</p>
+<p>例如元戎启行与行业上下游携手打造“量产生态圈”，当中便有很多深圳企业，与深圳企业沟通有天然的地理优势，沟通效率很高，可以很快满足元戎的需求，相较于上海及类似城市的供应商，时间上最少缩短2天以上。</p>
+<p>此外，周光认为深圳的政策支持和良好的营商环境也为创业者提供了肥沃的土壤，尤其是在智能驾驶和人工智能领域。</p>
+<p>“深圳在营商环境建设和发展中，始终能够审慎地对待科创企业，为科创企业提供租金、补贴和税收优惠。当中，深圳市各级政府部门认真聆听我们的诉求，给予我们政策方面的支持，让我们免除后顾之忧，更好的投入到自动驾驶的技术研发之中。”</p>
+<h2><strong>为何是深圳？</strong></h2>
+<p>透过元戎启行，深圳智能网联汽车产业版图一一浮现。</p>
+<p>事实上，深圳是中国最早开始新能源汽车市场化推广的城市之一，早在2010年就出台了一系列新能源汽车支持政策，促进新能源汽车的推广应用，也为深圳集聚一大批新能源汽车整车、零部件和上下游配套企业。</p>
+<p>这里不仅有比亚迪，也坐拥华为、大疆、汇川技术、速腾聚创、佑驾创新、贝特瑞等一大批产业链上的优质企业。正是他们，让深圳一跃成为全球新能源汽车产业链最完整的城市。</p>
+<p>最新轰动一幕是在今年8月，华为旗下的引望公司连续获得来自阿维塔科技、赛力斯汽车投资，金额共计230亿元，以此计算估值高达1150亿元，一举成为深圳近年来最大的新晋独角兽。</p>
+<p>官方数据显示，2023年深圳智能网联汽车产业增加值达763亿元，同比增长38.2%，位列“20+8”产业集群首位。而以新能源汽车产量计，深圳2023年新能源汽车产量达173万台，首次登上新能源汽车产量全国第一的宝座。</p>
+<p>截至2024年5月，深圳已累计开放测试示范道路944公里，并向19家企业的349辆智能网联汽车发放了道路测试及示范应用通知书1037张。与2023年底相比，开放道路里程增长12.65%，牌照数量也增长了48.14%。而在今年7月公布的智能网联汽车车路云一体化应用试点城市名单，深圳也首批入选。</p>
+<p>不久前，深圳市智能网联汽车政府监管平台招标结果公告发布，根据招标内容，该项目不仅是国内首个落地的城市级车路云平台，也是首个涵盖智能网联汽车全链条、全周期管理的政府监管平台，有望在2025年底前建成投入使用。</p>
+<p>那么，产业腾飞的密码是什么？</p>
+<p>佑驾创新创始人刘国清曾在一次采访中表示，深圳有非常好的人力、供应链与产业资源，这对一家企业来说都至关重要。在刘国清看来，“这是一个想象空间很大的城市，这也是深圳的独特之处。深圳尊重创业、尊重人才，也拥有大量创业成功的案例。”</p>
+<p>具体而言，深圳依托电子信息产业基础，形成以比亚迪为链主的“三电”“三智”产业链条，以及充电桩等配套产业。目前深圳拥有2.4万家新能源和数字能源企业，以及比亚迪在坪山区和深汕合作区百万级的新能源汽车生产基地。</p>
+<p>这当中也少不了深圳的政策支持。2022年6月，深圳将智能网联汽车产业列入全市重点发展的“20+8”产业集群；同年8月，《深圳经济特区智能网联汽车管理条例》正式生效，首次对智能网联汽车准入登记、上路行驶、交通事故权责归属等事项作出具体规定；随后，深圳市八部门又联合发布《深圳市促进新能源汽车和智能网联汽车产业高质量发展的若干措施》。</p>
+<p>今年6月，深圳市投控基石新能源汽车产业基金顺利通过中国证券投资基金业协会备案，这是深圳市首支正式备案的“20+8”基金。该基金围绕以深圳地区企业及国内其他地区，可导入到深圳的新能源及智能网联汽车企业为主的全产业链进行投资。基金总规模50亿元，由深圳市引导基金投资有限公司、深汕引导基金等8家公司共同出资组建。</p>
+<p>产业更迭，激荡不已，背后不仅仅是一个个奋斗逆袭故事，也往往决定着一座城市的命运。此时此刻，我们正在见证无数这样的产业故事上演。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247666640&amp;idx=1&amp;sn=aacd1e0102dfaccf48b28b6f2686d584&amp;chksm=ed3e7282ba1d6cef82be75918d9c74b9499ba9a595642ac9b1f9f911793c29feb02a602db704&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：刘博，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031656998675720</guid><pubDate>Mon, 11 Nov 2024 17:24:00 +0800</pubDate></item><item><title>奥迪德国进行大规模裁员，路虎确认推出星脉电动SUV｜海外日报</title><link>https://36kr.com/p/3031777893148169</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2><strong>「 Top 3 News 」</strong><br/> </h2>
+<h3><strong>特斯拉推出Cybertruck租赁服务，月租999美元起以刺激需求</strong></h3>
+<p><strong>要点：</strong></p>
+<p>特斯拉近日在美国市场推出了Cybertruck电动皮卡的租赁服务，以刺激市场需求。根据报道，特斯拉Cybertruck的租赁价格从每月999美元起，这一策略旨在吸引更多消费者体验和购买这款电动皮卡。此前，特斯拉在美国的Cybertruck预订单似乎已经耗尽，因为现在没有预订的消费者也可以直接下单，并在几天内提车。此外，特斯拉还在加拿大开始了Cybertruck的交付，但由于起价高达138,000加元，预计加拿大市场对Cybertruck的需求量有限。特斯拉为Cybertruck提供了不同的租赁方案，包括双电机和三电机版本，以及有无首付的不同选择。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,535" src="https://img.36krcdn.com/hsossms/20241111/v2_1d91f394908f411580dead2f5c1ecd2e@6130289_oswg863338oswg1080oswg535_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">特斯拉Cybertruck（来源：特斯拉）</p>
+<p><strong>观点：</strong></p>
+<p>特斯拉此次推出Cybertruck的租赁服务，是其在电动车市场中的又一创新举措。这一策略不仅能够为特斯拉带来即时的现金流，还能够让更多的潜在买家以较低的门槛体验到Cybertruck，从而可能转化为购买行为，增加销量。从市场策略的角度来看，租赁服务的推出显示了特斯拉对市场需求变化的快速响应。随着电动车市场竞争的加剧，特斯拉需要不断寻找新的销售和营销手段来保持其市场领导地位。Cybertruck作为特斯拉在电动皮卡领域的旗舰产品，其市场表现对特斯拉来说至关重要。此外，租赁服务的推出也反映了特斯拉对消费者购买行为的深刻理解。许多消费者在购买高价值商品时，尤其是像电动车这样的新兴产品，往往希望先进行试用。通过租赁服务，特斯拉能够满足这部分消费者的需求，同时也能够收集宝贵的用户反馈，为产品的持续改进提供数据支持。然而，租赁服务的推出也可能带来一些挑战。例如，如何管理租赁车辆的维护和回收，以及如何确保租赁服务的盈利性，都是特斯拉需要考虑的问题。此外，租赁服务可能会对特斯拉的品牌形象产生影响，因为消费者可能会将租赁与产品的贬值联系起来。总体而言，特斯拉推出Cybertruck租赁服务是一个积极的市场策略，它不仅能够刺激短期内的需求，还能够为特斯拉在电动皮卡市场中的长期竞争打下基础。</p>
+<h3><strong>奥迪新品牌AUDI E概念车亮相，放弃四环标志，保留经典旅行车设计</strong></h3>
+<p><strong>要点：</strong></p>
+<p>奥迪汽车公司近日在中国市场上推出了一个全新的电动子品牌——AUDI，这一品牌放弃了奥迪标志性的“四环”标志，转而使用四个大写字母作为标识。尽管品牌标识发生了变化，但AUDI品牌依旧保留了奥迪品牌的经典设计语言，特别是其引以为傲的德系长顶旅行车造型。AUDI品牌的首款车型AUDI E概念车由奥迪与上汽集团共同开发，车长约4.8米，定位于宝马5系和奔驰E级之间的市场。这款四驱旅行车搭载了两台电动机，分别位于前后轴，总功率达到570千瓦（约765马力），扭矩高达800牛·米，使得AUDI E能够在3.5秒内完成0-60英里/小时的加速。AUDI E概念车配备了100千瓦时的电池包，据奥迪公司称，这可以支持车辆在中国测试循环下行驶约700公里（约430英里）。此外，车辆还采用了先进的数字化平台和800伏系统架构，支持超快速充电，仅需10分钟即可增加370公里（约220英里）的续航里程。奥迪官方表示，使用“AUDI”而非近一个世纪的汽车联盟标志，旨在连接并区分姐妹品牌。这一策略是否能够为奥迪在中国市场上带来更多的市场份额，还有待市场的检验。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,508" src="https://img.36krcdn.com/hsossms/20241111/v2_d89b3c13d8b04c42bfaac3d824acbaf9@6130289_oswg313303oswg1080oswg508_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">AUDI E概念车（来源：Electrek）</p>
+<p><strong>观点：</strong></p>
+<p>奥迪此次推出的全新电动子品牌AUDI，以及其首款车型AUDI E概念车，无疑是奥迪在电动化转型道路上的又一重要举措。从品牌战略的角度来看，奥迪放弃四环标志，可能是为了在中国市场打造一个更加年轻化、科技化的品牌形象，以适应日益增长的电动汽车市场需求。AUDI E概念车的设计和性能参数显示出奥迪在电动汽车领域的技术实力和创新能力。尤其是其强大的动力输出和快速充电能力，这些都是消费者在考虑购买电动汽车时非常关注的因素。然而，放弃四环标志可能会让一些忠实的奥迪粉丝感到困惑，因为这一标志已经成为了奥迪品牌的一部分，代表了其历史和品质。从市场的角度来看，奥迪此举可能是为了在竞争激烈的中国市场中寻找新的增长点。通过与上汽集团的合作，奥迪可以更好地了解和适应中国市场的需求，从而推出更符合当地消费者口味的产品。但同时，这也带来了品牌识别度下降的风险，因为消费者可能需要时间去适应这个全新的品牌标识。总的来说，奥迪的这一策略是一次大胆的尝试，它既展示了奥迪对未来电动出行的愿景，也反映了其在全球化竞争中寻求新突破的决心。</p>
+<h3><strong>通用汽车停产凯迪拉克XT4，为下一代雪佛兰 Bolt EV 腾出空间</strong></h3>
+<p><strong>要点：</strong></p>
+<p>通用汽车（GM）近日宣布，将在其堪萨斯州工厂停产凯迪拉克XT4 SUV，以为新一代雪佛兰Bolt EV电动车型腾出空间。这一举措标志着通用汽车在电动化转型道路上又迈出了重要一步。凯迪拉克XT4是凯迪拉克品牌中最便宜的SUV，起售价为41,990美元。然而，2024年前三季度XT4的销量下降了12%，继2023年第四季度下降28%之后。通用汽车此前已宣布将停产雪佛兰Malibu车型，以便在堪萨斯州工厂为下一代电动车型，包括Bolt EV，腾出空间。Malibu车型自1964年推出以来，全球销量已超过1000万辆。通用汽车总裁马克·鲁斯（Mark Reuss）确认，新一代Bolt EV将是一个“Bolt家族”的一部分，包括一款价格更低的车型。新车型的起售价将略高于前代车型的28,785美元，但将提供更快的充电速度。此外，通用汽车首席执行官玛丽·巴拉（Mary Barra）表示，新一代Bolt将提供“更好的驾驶、充电和拥有体验”，并将首次在美国市场上推出搭载磷酸铁锂电池（LFP）的电动车型。通用汽车预计将在2025年底开始生产新一代雪佛兰Bolt EV，作为2026年款车型。为此，公司将投资3.9亿美元升级其位于堪萨斯州费尔法克斯的工厂，以准备重新引入新一代Bolt EV。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,542" src="https://img.36krcdn.com/hsossms/20241111/v2_2807b7ce4d2d435f85022049a86b01a0@6130289_oswg831879oswg1080oswg542_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">雪佛兰Bolt EV（来源：Electrek）</p>
+<p><strong>观点：</strong></p>
+<p>通用汽车停产凯迪拉克XT4 SUV，全力推进新一代雪佛兰Bolt EV的生产，这一决策体现了通用汽车在电动化转型上的坚定决心。随着全球汽车市场逐渐向电动车转型，通用汽车的这一举措无疑是顺应市场趋势，同时也是对自身产品线进行优化调整的体现。从环保和可持续发展的角度来看，这一决策是积极的。随着全球对减少碳排放和应对气候变化的重视，电动车市场的需求日益增长。通用汽车通过停产燃油车型，转而生产电动车型，不仅能够减少对环境的影响，还能够满足市场对电动车的需求。此外，新一代Bolt EV的推出，预计将进一步降低电动车的入门价格，使得更多的消费者能够负担得起电动车，从而推动电动车的普及。这对于提高电动车的市场渗透率，以及加速全球向清洁能源汽车的转型具有重要意义。然而，这一决策也可能带来挑战。一方面，停产燃油车型可能会影响通用汽车在短期内的销售收入，尤其是在电动车市场尚未完全成熟的情况下。另一方面，电动车的充电基础设施建设、电池技术的进步以及消费者对电动车的接受度等方面仍存在不确定性，这些都是通用汽车需要面对和解决的问题。</p>
+<h2><strong>「 大事件 」</strong></h2>
+<h3><strong>现代全新IONIQ 5升级上市，配备NACS充电口，起价44000美元</strong></h3>
+<p class="image-wrapper"><img data-img-size-val="1080,504" src="https://img.36krcdn.com/hsossms/20241111/v2_96b64ed39d8b434b8751756385d41f39@6130289_oswg586465oswg1080oswg504_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">现代全新IONIQ 5（来源：Electrek）</p>
+<p>现代汽车正式宣布了2025款IONIQ 5的定价和EPA续航里程估计。这款升级版的IONIQ 5是现代首款配备NACS充电口的电动车，意味着车主现在可以利用特斯拉广泛的超级充电网络进行充电。新款电动SUV在续航、功能和款式选择上都有所提升，全面改进。2025款现代IONIQ 5的起售价为43,975美元，包括1,475美元的目的地费用。这是基本的SE RWD标准续航版车型，EPA估计续航里程可达245英里。如果选择续航更长的SE RWD车型，价格为46,550美元，续航里程可达318英里。新推出的XRT车型增加了越野设计特点，如地形模式和前拖钩，起价为56,875美元。而顶配的Limited AWD车型起价为58,100美元，配备了全新功能。2025款IONIQ 5现在标配特斯拉NACS充电口和CSS适配器，使得车主可以访问超过36,000个直流快充站，是现有车主可访问数量的两倍多。现代北美产品规划高级副总裁Olabisi Boyle表示，NACS充电口将“使客户拥有更便捷、更愉快的用车体验和公路旅行”。新车型还配备了更大的电池，标准车型现在配备63 kWh电池包，从58 kWh升级而来。长续航车型配备84 kWh电池，从之前的77.4 kWh升级。所有在美国生产的IONIQ 5车型都有资格获得3,750美元的联邦税收抵免，但现代通过租赁提供全额7,500美元的税收抵免。2025款车型将于2024年底开始到达经销商处。</p>
+<h3><strong>奥迪宣布裁员4500人，削减成本以应对行业变革</strong></h3>
+<p class="image-wrapper"><img data-img-size-val="1080,510" src="https://img.36krcdn.com/hsossms/20241111/v2_2bafb39901f947118cbd000f2c481d9a@6130289_oswg844251oswg1080oswg510_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">奥迪Q8 e-tron Sportback（来源：奥迪）</p>
+<p>德国汽车制造商奥迪近日宣布，计划裁员4500人，占其员工总数的15%，以削减成本应对汽车行业的快速变化。这一决定紧随大众、日产和Stellantis等汽车巨头的大规模裁员之后。据德国《Manager Magazin》杂志报道，奥迪将重点保护生产线上的工作岗位，而将裁员重点放在“间接”岗位，如研发部门，这意味着将有2000个工作岗位受到影响。奥迪计划关闭其在布鲁塞尔的工厂，该工厂生产即将停产的奥迪Q8 E-Tron电动SUV，由于销量低迷，该车型将于几个月后停产。公司宣布将在2025年2月28日关闭工厂，届时布鲁塞尔地区将有3000名工人失业。奥迪表示正在与工人代表进行谈判，但未确认裁员的具体数字。奥迪第三季度在美国的销售额下降了21%，交付量为46752辆，几乎所有奥迪车型的销量都有所下降，除了e-tron GT电动版销量小幅增长5%，达到673辆，以及Q3 SUV销量增长36%，达到7422辆。与此同时，日产正在出售其在三菱的部分股份，削减产能，并裁员9000人。在美国，Stellantis将从其托莱多组装厂裁员1100人。德国，作为欧洲最大的汽车市场，正感受到转型到电动车生产的压力，一项研究估计在未来十年内可能会失去186000个工作岗位。到目前为止，德国已有46000名汽车工人失业。</p>
+<h3><strong>特朗普上台，加拿大500亿电动车产业面临巨大变数</strong></h3>
+<p>加拿大在过去三年中已获得超过500亿美元的电动车相关投资，这些投资主要是为了满足美国市场的需求。然而，随着特朗普重返白宫，加拿大的汽车行业和其他经济领域正面临一系列不确定性，特别是在电动车领域。特朗普政府可能对加拿大制造的汽车征收新的关税，这可能导致加拿大电动车产业的计划受挫。此外，美国对电动车政策的变动可能导致市场完全转变，加拿大可能看到60年来的“跨境汽车共识”戛然而止。加拿大汽车零部件制造商协会会长弗拉维奥·沃尔佩表示，如果特朗普切断与加拿大的联系，对加拿大征收关税，将伤害通用汽车、福特以及Stellantis等美国公司的利益，同时也会影响美国的零部件公司和材料供应商。特朗普政府可能会对全球进口到美国的汽车征收10%的关税，这将从加拿大的GDP中削减数十亿美元，尤其是对汽车行业造成打击。加拿大总理特鲁多在特朗普胜选后迅速表示祝贺，并强调两国经济“深度交织”，渥太华目前正在处理关键的跨境问题。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,542" src="https://img.36krcdn.com/hsossms/20241111/v2_6f92015d49494753a497630ad58aac08@6130289_oswg237206oswg1080oswg542_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">加拿大（来源：Pexels）</p>
+<p>特朗普一直对电动车持贬低态度，并表示将迅速废除拜登的《通胀削减法案》，该法案已投入数十亿美元于电池供应链项目。他还表示，墨西哥制造的汽车可能面临高达200%的关税，而来自中国、欧洲等地的汽车可能面临更高的关税。特斯拉CEO埃隆·马斯克在这一问题上的角色及其对特朗普的影响力是一个重要的变数，这可能对加拿大等国家产生深远影响。特里利姆网络先进制造总监布伦丹·斯威尼表示，特斯拉可能在某种程度上缓和特朗普政府对电动车支持的完全撤回，因为这将使特斯拉的生活变得非常艰难。底特律三巨头——福特、通用和Stellantis——都在加拿大有重要的业务，那里有成千上万的工会汽车工人，因此特朗普的决定不仅会影响这些公司，还会影响到一系列零部件供应商。本周，比亚迪决定暂停进入加拿大的计划，这可能是由于加拿大对从中国进口的电动车征收100%的联邦关税以及美国即将做出的决定。这一决定搁置了比亚迪数月的努力，此前比亚迪高管与加拿大各地的经销商会面，讨论可能的分销网络，并与游说者讨论如何获得联邦政府的支持。今年8月，加拿大总理特鲁多告诉记者，加拿大政府将效仿美国对中国电动车进口征收高额关税的计划。</p>
+<h3><strong>路虎揽胜将推出更小的星脉电动SUV</strong></h3>
+<p class="image-wrapper"><img data-img-size-val="1080,522" src="https://img.36krcdn.com/hsossms/20241111/v2_c4bc65fcd03e48008872666bde275b65@6130289_oswg463300oswg1080oswg522_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">揽胜电动SUV（来源：Electrek）</p>
+<p>路虎揽胜的首款电动 SUV 预计很快首次亮相，2025 年开始销售。之后不久，路虎揽胜运动版电动汽车将上市。捷豹路虎（JLR）首席执行官阿德里安・马德尔（Adrian Mardell）证实，基于其新 EMA 平台的首款电动汽车将在不到两年内推出。与路虎揽胜旗舰电动车不同，新车型将基于该公司新的 EMA 平台，路虎揽胜电动版和运动版电动汽车与当前的燃油版车型共享相同的 MLA 平台。据《汽车》杂志消息，新电动汽车预计是较小的路虎揽胜星脉电动版，将在两年内推出。马德尔表示：“我们首先会有 MLA 平台的纯电动车（BEV），路虎揽胜纯电动车在明年晚些时候推出，然后是 EMA 平台的首款车，可能在 2026 年春季推出。”</p>
+<h2><strong>「 酷产品 」</strong></h2>
+<h3><strong>Fiat 500 electric beach car</strong></h3>
+<p>这是一款特别的菲亚特 500 “Marina”，它没有过多装饰、车顶、部分车门、支柱，而且是电动的（没有内燃机）。这是 Real Italian Cars 的最新项目，500 Jolly 的传动系统被拆除，换成了来自日本供应商的防水电池和电动机。电池续航 155 英里（250 公里），电动机功率为 31.5 千瓦（约 42 马力）。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,672" src="https://img.36krcdn.com/hsossms/20241111/v2_e9b490cd42034ed6beaa6b97df8f236d@6130289_oswg1195038oswg1080oswg672_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">菲亚特 500 beach car （来源：TopGear）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,635" src="https://img.36krcdn.com/hsossms/20241111/v2_002d7ebb3c0646939f93d4fdb4498bd4@6130289_oswg1214011oswg1080oswg635_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">菲亚特 500 beach car （来源：TopGear）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,579" src="https://img.36krcdn.com/hsossms/20241111/v2_5148e728d4de4c7dba9ae7b6b49f6437@6130289_oswg1150233oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">菲亚特 500 beach car （来源：TopGear）</p>
+<p>RIC给出该车 0 - 80 公里 / 小时加速时间约为 6 秒，最高时速限制在 110公里 / 小时，虽然这些速度在实际使用中可能并非必需，但有总比没有好。该车还有其他亮点，如阿巴斯（Abarth）刹车，总重量不到 1000 千克（还是因为没有车顶和车门），使用快速充电器约 40 分钟可充满电，相比普通的菲亚特 500 更实用。由于发动机舱和油箱原来的位置现在都空了（因为没有发动机和油箱了），所以有大量空间可以放野餐用品和太阳镜。该车的灯是 LED 灯，据称比原来的灯亮 5 倍，车内通过数字显示屏也有更多 LED 效果，有运动、道路和节能三种模式可选。车内方面，每辆 500 Jolly 都可以完全定制，比如展示车有车载淋浴，而且由于原来的布线被舍弃，音响和连接等方面有更多选择，内饰材料也都是定制的。这意味着价格也会是定制化的，Marina 版起价 5 万欧元，如果想在普通的（没这么 “欢乐” 的）菲亚特 500 上使用这种动力系统，电动车起价 3.5 万欧元。</p>
+<p> </p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3031777893148169</guid><pubDate>Mon, 11 Nov 2024 17:24:00 +0800</pubDate></item></channel></rss>
