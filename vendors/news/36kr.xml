@@ -1,423 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 12 Nov 2024 20:00:30 +0800</lastBuildDate><pubDate>Tue, 12 Nov 2024 20:00:30 +0800</pubDate><item><title>开源版SearchGPT来了，两张3090就可复现，超越Perplexity付费版</title><link>https://36kr.com/p/3033056645967875</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>OpenAI推出SearchGPT没几天，开源版本也来了。</p>
-<p>港中文MMLab、上海AI Lab、腾讯团队简易实现了<strong>Vision Search Assistant</strong>，模型设计简单，只要<strong>两张RTX3090</strong>就可复现。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,682" src="https://img.36krcdn.com/hsossms/20241112/v2_108a05fed05b40f1b7671db36ac121a1@46958_oswg697547oswg1080oswg682_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Vision Search Assistant（VSA）以视觉语言模型（VLM）为基础，巧妙地将Web搜索能力融入其中，让VLM内部的知识得到实时更新，使其更加灵活和智能。</p>
-<p>目前，VSA已经针对通用图像进行了实验，可视化和量化结果良好。但不同类别的图像各具特色，还可以针对不同种类的图像（比如表格、医学等）构建出更为特定的VSA应用。</p>
-<p>更令人振奋的是，VSA的潜力并不仅限于图像处理。还有更广阔的可探索空间，比如视频、3D模型和声音等领域，期待能将多模态研究推向新的高度。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,213" src="https://img.36krcdn.com/hsossms/20241112/v2_be6a08c3e2a14aa48fda4ba42ac085d6@46958_oswg90033oswg1080oswg213_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>让VLM处理未见过的图像和新概念</strong></h2>
-<p>大型语言模型（LLM）的出现让人类可以利用模型的强大零样本问答能力来获取陌生知识。</p>
-<p>在此基础上，检索增强生成（RAG）等技术进一步提高了LLM在知识密集型、开放域问答任务中的表现。然而，VLM在面对未见过的图像和新概念时，它们往往不能利用好来自互联网的最新多模态知识。</p>
-<p>现有的 Web Agent主要依赖于对用户问题的检索，并总结检索返回的HTML文本内容，因此它们在处理涉及图像或其他视觉内容的任务时存在明显的局限性，即视觉信息被忽视或处理不充分。</p>
-<p>为了解决这一问题，团队提出了Vision Search Assistant。Vision Search Assistant以VLM模型为基础，能够回答有关未见过的图像或新概念的问题，其行为类似人类在互联网上进行搜索并解决问题的过程，包括：</p>
-<ul>
-<li>理解查询</li>
-<li>决定应该关注图像中的哪些对象并推断对象之间的相关性</li>
-<li>逐对象生成查询文本</li>
-<li>根据查询文本和推断出的相关性分析搜索引擎返回的内容</li>
-<li>判断获得的视觉和文本信息是否足以生成答案，或者它应该迭代和改进上述过程</li>
-<li>结合检索结果，回答用户的问题</li>
-</ul>
-<h4><strong>视觉内容描述</strong></h4>
-<p>视觉内容描述模块被用来提取图像中对象级的描述和对象之间的相关性，其流程如下图所示。</p>
-<p>首先利用开放域的检测模型来获取值得关注的图像区域。紧接着对每一个检测到的区域，使用VLM获取对象级的文本描述。</p>
-<p>最后，为了更全面地表达视觉内容，利用VLM进一步关联不同的视觉区域以获得不同对象的更精确描述。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,201" src="https://img.36krcdn.com/hsossms/20241112/v2_e7eb7f94c0e74c7b8dbc1980be568c68@46958_oswg171211oswg1080oswg201_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>具体地，令用户输入图片为 ，用户的问题为 。可通过一个开放域的检测模型 获取 个感兴趣的区域：</p>
-<p>然后利用预训练的VLM模型 分别描述这 个区域的视觉内容：</p>
-<p>为了让不同区域的信息关联起来，提高描述的精度，可将区域 与其它区域 的描述拼接，让VLM对区域 的描述进行矫正：</p>
-<p>至此，从用户输入获得了与之高度相关的 个视觉区域的精确描述 。</p>
-<h4><strong>Web知识搜索：“搜索链”</strong></h4>
-<p>Web知识搜索的核心是名为“搜索链”的迭代算法，旨在获取相关视觉描述的综合性的Web知识，其流程如下图所示。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,201" src="https://img.36krcdn.com/hsossms/20241112/v2_23e20a37ca624c06b518ea0c03521120@46958_oswg138430oswg1080oswg201_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在Vision Search Assistant中利用LLM来生成与答案相关的子问题，这一LLM被称为“Planing Agent”。搜索引擎返回的页面会被同样的LLM分析、选择和总结，被称为“Searching Agent”。通过这种方式，可以获得与视觉内容相关的Web知识。</p>
-<p>具体地，由于搜索是对每个区域的视觉内容描述分别进行的，因此以区域 为例，并省略这个上标，即 。该模块中使用同一个LLM模型 构建决策智能体（Planning Agent）和搜索智能体（Searching Agent）。决策智能体控制整个搜索链的流程，搜索智能体与搜索引擎交互，筛选、总结网页信息。</p>
-<p>以第一轮迭代为例，决策智能体将问题 拆分成 个搜索子问题 并交由搜索智能体处理。搜索智能体会将每一个 交付搜索引擎，得到页面集合 。搜索引擎会阅读页面摘要并选择与问题最相关的页面集合（下标集为 ），具体方法如下：</p>
-<p>对于这些被选中的页面，搜索智能体会详细阅读其内容，并进行总结：</p>
-<p>最终，所有 个子问题的总结输送给决策智能体，决策智能体总结得到第一轮迭代后的Web知识：</p>
-<p>重复进行上述迭代过程 次，或是决策智能体认为当前的Web知识已足矣回应原问题时，搜索链停止，得到最终的Web知识 。</p>
-<h4><strong>协同生成</strong></h4>
-<p>最终基于原始图像 、视觉描述 、Web知识 ，利用VLM回答用户的问题 ，其流程如下图所示。具体而言，最终的回答 为：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,198" src="https://img.36krcdn.com/hsossms/20241112/v2_020b325cd53b4bb99f25b87532e44b26@46958_oswg153191oswg1080oswg198_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>实验结果</strong></h2>
-<h4><strong>开放集问答可视化对比</strong></h4>
-<p>下图中比较了新事件（前两行）和新图像（后两行）的开放集问答结果。</p>
-<p>将Vision Search Assistant和Qwen2-VL-72B以及InternVL2-76B进行了比较，不难发现，Vision Search Assistant 擅长生成更新、更准确、更详细的结果。</p>
-<p>例如，在第一个样例中，Vision Search Assistant对2024年Tesla公司的情况进行了总结，而Qwen2-VL局限于2023年的信息，InternVL2明确表示无法提供该公司的实时情况。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,727" src="https://img.36krcdn.com/hsossms/20241112/v2_a85e7a0bcfa14afc82c32ada394b7139@46958_oswg842095oswg1080oswg727_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h4><strong>开放集问答评估</strong></h4>
-<p>在开放集问答评估中，总共通过10位人类专家进行了比较评估，评估内容涉及7月15日至9月25日期间从新闻中收集的100个图文对，涵盖新颖图像和事件的所有领域。</p>
-<p>人类专家从真实性、相关性和支持性三个关键维度进行了评估。</p>
-<p>如下图所示，与Perplexity.ai Pro和GPT-4-Web相比，Vision Search Assistant在所有三个维度上都表现出色。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,307" src="https://img.36krcdn.com/hsossms/20241112/v2_cf8f4a82a87347ff845dffa0c871e1f3@46958_oswg128053oswg1080oswg307_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>事实性：</strong>Vision Search Assistant得分为68%，优于Perplexity.ai Pro（14%）和 GPT-4-Web（18%）。这一显著领先表明，Vision Search Assistant 始终提供更准确、更基于事实的答案。</p>
-<p><strong>相关性：</strong>Vision Search Assistant 的相关性得分为80%，在提供高度相关的答案方面表现出显著优势。相比之下，Perplexity.ai Pro和GPT-4-Web分别达到11%和9%，显示出在保持网络搜索时效性方面存在显著差距。</p>
-<p><strong>支持性：</strong>Vision Search Assistant在为其响应提供充分证据和理由方面也优于其他模型，支持性得分为63%。Perplexity.ai Pro和GPT-4-Web分别以19%和24%的得分落后。这些结果凸显了Vision Search Assistant 在开放集任务中的卓越表现，特别是在提供全面、相关且得到良好支持的答案方面，使其成为处理新图像和事件的有效方法。</p>
-<h4><strong>封闭集问答评估</strong></h4>
-<p>在LLaVA W基准进行闭集评估，其中包含60个问题，涉及VLM在野外的对话、细节和推理能力。</p>
-<p>使用GPT-4o(0806)模型进行评估，使用LLaVA-1.6-7B作为基线模型，该模型在两种模式下进行了评估：标准模式和使用简单Google图片搜索组件的“朴素搜索”模式。</p>
-<p>此外还评估了LLaVA-1.6-7B的增强版本，该版本配备搜索链模块。</p>
-<p>如下表所示，Vision Search Assistant在所有类别中均表现出最强的性能。具体而言，它在对话类别中获得了73.3%的得分，与LLaVA模型相比略有提升，提升幅度为+0.4%。在细节类别中，Vision Search Assistant以79.3%的得分脱颖而出，比表现最好的LLaVA变体高出 +2.8%。</p>
-<p>在推理方面，VSA方法比表现最佳的LLaVA模型高出+10.8%。这表明Vision Search Assistant对视觉和文本搜索的高级集成极大地增强了其推理能力。</p>
-<p>Vision Search Assistant的整体性能为84.9%，比基线模型提高+6.4%。这表明Vision Search Assistant在对话和推理任务中都表现出色，使其在野外问答能力方面具有明显优势。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,227" src="https://img.36krcdn.com/hsossms/20241112/v2_d050549acc8042bc934a23854d85140b@46958_oswg125644oswg1080oswg227_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>论文：https://arxiv.org/abs/2410.21220主页：https://cnzzx.github.io/VSA/代码：https://github.com/cnzzx/VSA</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/xa0oS-LPnZAQqEyUozf_eg" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：VSA团队，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033056645967875</guid><pubDate>Tue, 12 Nov 2024 19:30:00 +0800</pubDate></item><item><title>“交个朋友”双11创新高，终究难离罗永浩？</title><link>https://36kr.com/p/3033276479550601</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“史上最长的双11”终于收官了。</p>
-<p>11月12日凌晨，天猫、京东都发布了收官战报，两家平台的购买用户规模均有所增长。天猫“双11”期间有589个品牌成交额破亿，同比去年增长46.5%；京东“双11”期间购物用户数同比增长超20%，超17000个品牌成交额同比增长超5倍，超30000个中小商家成交额同比增长超2倍。</p>
-<p>值得一提的是，在近期超头主播频繁“带货翻车”的背景下，今年“双11”淘宝直播整体成交金额、购买用户数均实现大幅度同比增长。“趣解商业”观察到，<strong>“交个朋友”是此次为数不多仍在发布战报的头部MCN机构</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="717,494" src="https://img.36krcdn.com/hsossms/20241112/v2_bd4a331883854b9d800ceac010684764@5940768_oswg359931oswg717oswg494_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微博截图</p>
-<p>自从2022年罗永浩宣布再次创业后，“交个朋友”直播间就越来越少见他的身影，“交个朋友”也一直在“去罗永浩化”；然而，最近一段时间，罗永浩在直播间的存在感明显增加了。今年“双11”开始之前，有“交个朋友”的工作人员提到，罗永浩此次“双11”坐镇直播间的频率已经接近“满勤”。</p>
-<p class="image-wrapper"><img data-img-size-val="960,535" src="https://img.36krcdn.com/hsossms/20241112/v2_e95b737caf6046299bbdface7e7da712@5940768_oswg129085oswg960oswg535_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：脉脉</p>
-<p>今年“双11”，“交个朋友”淘宝直播带货的增速高于抖音，而大促期间，罗永浩出现在“交个朋友”淘宝直播间的频率也要高于抖音直播间。</p>
-<p><strong>本已投身新事业的罗永浩，为何还要频繁带货直播？“交个朋友”和罗永浩，如今谁更需要谁？</strong></p>
-<h2><strong>01.去“罗永浩化”后，交个朋友“独立行走”？</strong></h2>
-<p>双“11”还没结束，“交个朋友”淘宝直播间负责人崔东升就已经在朋友圈提前打卡报喜。</p>
-<p>“交个朋友”收官战报显示，<strong>大促期间其全渠道GMV突破64亿元，同比增长158%</strong>，累计订单量超过714万单，创历年大促新高；其中，抖音平台主号直播间GMV同比增长63%，交个朋友淘宝直播间GMV同比增长73%。</p>
-<p>增长的GMV背后，是近年来美腕、遥望科技以及交个朋友在内的一众头部MCN机构都在尝试“去头部化”的行业背景；而“交个朋友”或许要算这些MCN机构里，去头部化最成功的一个。</p>
-<p>早在2021年，创始人黄贺就提到，“交个朋友”业务布局的最终目标是，MCN机构只占到大概40%，其中罗永浩的收入占总公司的大概10%。</p>
-<p>“交个朋友”也确实做到了与罗永浩的“切割”。<strong>此前罗永浩官宣退网创业时，黄贺曾表示，罗永浩的GMV占比已经降至3%~5%左右。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="786,477" src="https://img.36krcdn.com/hsossms/20241112/v2_2adac21019e04116849955a22cf8691b@5940768_oswg212192oswg786oswg477_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微博截图</p>
-<p>“趣解商业”观察到，罗永浩投身AR眼镜的新项目后，回归“交个朋友”直播间带货的频率大约为一个月一到两次，只能算“友情参与”的程度。不过，在大促期间罗永浩通常都会回归。<strong>今年“双11”，罗永浩有5天都出现在“交个朋友”淘宝直播间；其中，天猫双11预售首日，交个朋友直播间GMV当晚就突破了2.3亿元。</strong></p>
-<p>不过，罗永浩今年“双11”出现在抖音的频率没有淘宝高，但他的出现也能明显带动抖音用户的购买热情。10月17日，罗永浩与脱口秀演员刘旸一同亮相“交个朋友”直播间；“有米云”数据显示，当晚“交个朋友”抖音直播间销售额达到100-250万元，在“交个朋友”抖音双11单场直播中目前排名第二。</p>
-<p class="image-wrapper"><img data-img-size-val="960,404" src="https://img.36krcdn.com/hsossms/20241112/v2_537fa229a94a4bdf9aac42a29dacd693@5940768_oswg142580oswg960oswg404_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：有米云截图</p>
-<p>值得一提的是，自罗永浩退出后，“交个朋友”并未在个人IP的打造上有太大进展，而是<strong>通过拓宽品类和平台实现直播业务的“矩阵化”</strong>。目前，“交个朋友”在美妆、酒类、服饰等多个垂类消费领域的直播间已经超过50个；同时，除了淘宝、抖音和京东，“交个朋友”也陆续进驻了视频号、小红书等新平台。正如黄贺所言，“交个朋友”要做的是一个可以分层的商场，“建立多个品类的子账号，形成不依赖主播的稳定的直播模式。”</p>
-<p>交个朋友相关负责人表示，与直播带货初期主要由罗永浩粉丝构成的、以男性为主的消费群体相比，现在交个朋友直播间男女消费群体的比例已基本达到了均衡状态，而且<strong>90后观众占比超过六成</strong>。</p>
-<p>此外，“交个朋友”也在尝试和其他明星艺人合作，探索艺人流量的新变现方式。今年上半年，李诞在小红书通过情感解读成为女性们的“电子闺蜜”后，“交个朋友”迅速拿下了李诞的独家切片授权业务。</p>
-<p class="image-wrapper"><img data-img-size-val="960,664" src="https://img.36krcdn.com/hsossms/20241112/v2_af7478888d59446296beeafcc752c397@5940768_oswg191770oswg960oswg664_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：直播截图</p>
-<p>如今，除了自身的直播业务，“交个朋友”还帮其他品牌和达人做代运营等一系列整合营销服务；另外，还承办了赛事转播、多媒体制作等广电业务。</p>
-<p>在罗永浩离开后的两年里，交个朋友控股（1450.HK）的业绩逐步增长。2022年和2023年，公司营收增速分别为109.55%和152.42%，达到4.26亿元和10.74亿元。公司看起来是实现了离开罗永浩的“独立行走”。</p>
-<p>不过，<strong>随着直播电商整体增速的放缓，交个朋友控股飞涨的业绩，在今年也踩下了刹车。</strong>财报显示，2023年交个朋友直播电商GMV突破了120亿元，同比增长在70%以上，但今年上半年和第三季度，交个朋友全网GMV的增速已经下滑到18%左右；同时，其整个公司的收入增速，今年上半年也放缓到43.8%。</p>
-<p class="image-wrapper"><img data-img-size-val="890,608" src="https://img.36krcdn.com/hsossms/20241112/v2_a625eb67620947a8a8c0436824eb0051@5940768_oswg117574oswg890oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：交个朋友财报截图</p>
-<p>而今年“双11”的喜人战绩似乎也没有为交个朋友控股的股价带来明显的拉升；11月12日，交个朋友控股（1450.HK）当日股价下跌4.76%，报收1港元/股，总市值13.86亿港元。</p>
-<p class="image-wrapper"><img data-img-size-val="960,446" src="https://img.36krcdn.com/hsossms/20241112/v2_29c6d3b55ab14340948ac2317e8b56bb@5940768_oswg128379oswg960oswg446_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：百度股市通截图</p>
-<p>中国企业资本联盟中国区首席经济学家柏文喜认为，平台增长放缓、头部网红信任度下降、用户消费行为等多方面的因素，一同导致了交个朋友直播电商收入增速的放缓。</p>
-<h2><strong>02.直播电商下半场，从“掘金人”到“卖铲人”</strong></h2>
-<p>行业日趋变冷的水温是一方面，另一方面，据“趣解商业”观察，没有了罗永浩的“加持”，“交个朋友”在新平台的表现显得有些不温不火。</p>
-<p>今年4月和8月，“交个朋友”分别入驻了视频号和小红书，但几个月过去，“交个朋友”在这两个新平台仍未形成稳定的直播态势。在视频号首次开播时，罗永浩并未参与，<strong>当晚直播1小时后场观仅超2万人</strong>；第三方平台新视数据显示，<strong>交个朋友视频号该场首播预估销售额为124.67万元</strong>。这显然无法与罗永浩此前参与的跨平台首播成绩相提并论。“交个朋友”相关负责人曾对此回应，这主要源于视频号直播目前还处于探索中。</p>
-<p>“交个朋友”入驻小红书时，曾对《北京商报》表示，平台多元化、主播多元化、品类多元化是“矩阵垂类直播间”运营模式的延续，目的是进一步扩展用户群体。视频号和小红书的主要受众分别是中老年和年轻女性，这恰恰与交个朋友的男性主要受众形成了互补。</p>
-<p>然而，<strong>拓展受众圈层意味着从品类到直播风格的全方位调整，这对“交个朋友”也是逐渐适应的过程</strong>。目前，“交个朋友”在视频号和小红书都还未建立起矩阵品类直播间；其中，视频号直播大约一周一次，以合作专场为主。</p>
-<p class="image-wrapper"><img data-img-size-val="960,1149" src="https://img.36krcdn.com/hsossms/20241112/v2_2e13f6ce52a240f1b85c8a0102c56be0@5940768_oswg110175oswg960oswg1149_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微信视频号截图</p>
-<p><strong>除了在新平台“出师不利”，在带货产品上，交个朋友今年也“翻车”了。</strong></p>
-<p>在9月份，罗永浩带货的“FENDI CASA月饼伴手礼”，也被曝出与奢侈品品牌“FENDI”存在品牌关联性、涉嫌造假。事件爆发后，“交个朋友”决定给予购买月饼的用户“退一赔三”的补偿。</p>
-<p>在回应月饼争议时，罗永浩在博文中频频提及俞敏洪，称其卖过3.15槽头肉、TiQ天萁西梅汁、假冒野生厄瓜多尔白虾等一系列问题食品；再加上前不久罗永浩刚刚因“炮轰”俞敏洪登上热搜，很多网友都开始批评罗永浩“格局小”、“蹭流量”。</p>
-<p class="image-wrapper"><img data-img-size-val="960,1005" src="https://img.36krcdn.com/hsossms/20241112/v2_d2c4e49926d042cf8ede4eec1b35d91f@5940768_oswg184844oswg960oswg1005_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微博截图</p>
-<p>除此之外，罗永浩在相关的回应中还提到，自己作为交个朋友的“监督官”，<strong>只能保证公司不卖假冒伪劣，但不能拦着公司不卖“智商税”产品</strong>。</p>
-<p>种种充满争议的言论，都在逐渐耗损着罗永浩的“路人缘”。社交平台上有不少网友对罗永浩的吐槽，而<strong>这些反感罗永浩的情绪，对“交个朋友”而言并不是好事。</strong></p>
-<p>柏文喜表示，罗永浩作为“交个朋友”的灵魂人物，虽然已经退出管理层，但仍以主播身份参与直播，其个人形象与品牌紧密相关；吵架事件和假月饼事件可能会影响消费者对罗永浩个人以及“交个朋友”品牌的信任度，进而影响消费者的购买决策。</p>
-<p class="image-wrapper"><img data-img-size-val="786,485" src="https://img.36krcdn.com/hsossms/20241112/v2_68dbb500fcab4a69babdd11cef86696a@5940768_oswg275326oswg786oswg485_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微博截图</p>
-<p>上个月，交个朋友副总裁崔东升对媒体表示，<strong>如今已经过了直播电商爆发性的红利期，行业已经进入到需要规范化、规模化经营的时代</strong>。</p>
-<p>直播电商进入下半场，为了规避风险，也为了进一步加强公司自身的品牌力，头部的MCN机构近两年都在探索新业务的转型，“交个朋友”也不例外。不过，直播机构都喜欢标榜自己是家零售公司，“交个朋友”则是在此基础上更强调自身的科技底色。</p>
-<p>在“交个朋友”的直播间里，能经常看到令人咋舌的高价科技单品，价值150万元的太空飞船船票、200万元的国产商用卫星、199万元的无人驾驶空中巴士……</p>
-<p class="image-wrapper"><img data-img-size-val="781,422" src="https://img.36krcdn.com/hsossms/20241112/v2_57ab11868880401b94d24d44bf4f24bc@5940768_oswg212362oswg781oswg422_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微博截图</p>
-<p>罗永浩曾经说过，“交个朋友”要做到百亿目标，不止靠直播电商，而是代运营、品销合一营销推广、培训业务以及供应链等业务加在一起。<strong>“交个朋友”也在尝试用自己的技术去帮其他同类公司做代运营，成为直播电商的“卖铲人”</strong>。</p>
-<p>早在2022年，“交个朋友”便开启了跨境电商的直播培训课，培训班上线不到半年，就已经接近完成了第一年预期的三四千万元收入目标。</p>
-<p>想做“卖铲人”的MCN机构不少，谦寻、三只羊、遥望科技也都开设了相关的培训学院，定价都在大几千元甚至上万。然而，当良莠不齐的知识付费类课程扎堆出现，难免引起“割韭菜”的质疑。</p>
-<p><strong>最近，“交个朋友”的海外电商课就被曝出“烂尾”“无法退费”等问题。</strong>根据“时代财经”报道，交个朋友的海外电商基础课程299元，学员被引流至私域后还有8800元起步的客单价更高的课程。有学员表示，课程开启30天后，大家的美区账号先后出现限流、收款账号封禁、不能挂商品链接等问题；而“陪跑老师”却逐渐离职消失，课程烂尾。同时，由于“交个朋友”对海外课程业务进行调整，学员退费也变得步履维艰。</p>
-<p class="image-wrapper"><img data-img-size-val="777,436" src="https://img.36krcdn.com/hsossms/20241112/v2_30c9d8b172d649609e471e8706eabaf3@5940768_oswg306289oswg777oswg436_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微博截图</p>
-<p>对此，“交个朋友”回应称，目前已经妥善处理了所有学员的退费请求，未来会继续优化业务模式。“趣解商业”观察到，出海等相关的电商课已经在“交个朋友电商学苑”抖音店铺重新上架。</p>
-<p>交个朋友相关负责人表示，随着国内电商市场饱和，越来越多商家开始寻求出海的机会，跨境电商涉及到不同国家的法律法规、政策等差异，还有直播电商的普及度和市场教育，以及语言、文化和消费习惯的差异，都是不小的挑战。</p>
-<h2><strong>03.“交个朋友”新增量，线下or线上？</strong></h2>
-<p>近年来，向线下发展也是很多MCN机构尝试转型的新方向。辛选集团和三只羊都开出了线下超市，美腕也在线下开了咖啡店；交个朋友也不例外。</p>
-<p><strong>今年，为自有品牌开设线下店是交个朋友最大的业务动作之一。</strong>交个朋友旗下有多个自有品牌，如“重新加载”“臭氧”“殊途同归”等，涉及家居、配饰、潮鞋、服饰等多个品类。据“趣解商业”了解，在这些品牌中，唯独主打性价比男装的“重新加载”在今年开出了线下门店，其余品牌的主要销售阵地都还留在线上。</p>
-<p>“重新加载”今年6月官宣开启了线下招商，目标是在全国开出3000+线下门店。上个月，“重新加载”刚在北京门头沟区开出了新店。根据《北京商报》报道，该店面积至少有60平方米，SKU在500以上，以18—38岁男性为目标客群，男女装比例为7∶3，产品大多由广东等地的代工厂贴牌生产。</p>
-<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241112/v2_f1b3a606b7dd47aea6f5c359588dd92e@5940768_oswg666278oswg960oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书截图</p>
-<p>交个朋友相关负责人表示，“<strong>交个朋友”布局线下，主要基于市场趋势和消费习惯的变化</strong>。“线下门店不仅是销售场所，更是与消费者建立深度连接的平台。消费者倾向于在线下门店获得产品的真实体验。”</p>
-<p>交个朋友十分看好打通线上线下的新零售模式，“我们可以利用抖音平台积累的粉丝基础及曝光优势，通过线上推广吸引流量，再将线上用户引导至线下门店，实现更高效的转化。”</p>
-<p>在选址上，“重新加载”青睐人流量大的商业区、购物中心或交通枢纽。男装市场需求相对平稳，有从业者曾对“重新加载”的营收表示担忧，“重新加载的服饰定价满足当下消费者追求性价比的趋势，但因为靠近商圈等客流大的位置，租金等投入会比较贵，得做好平衡。”</p>
-<p><strong>交个朋友对此表示，公司在租金成本上也追求性价比，“兼顾投资回报与门店的长期发展潜力，选择具有增长潜力的地段进行布局。因此，并不担心线下经营会对盈利造成影响。”</strong></p>
-<p>线下是很多男装品牌深耕多年的阵地，虽然“重新加载”在线上已经取得了相当亮眼的销售突破，但和很多知名度更高的男装品牌相比，声量仍显不足。加快拓店速度的“重新加载”，能为“交个朋友”撑起多少线下空间的新增量，还有待市场的考验。</p>
-<p class="image-wrapper"><img data-img-size-val="960,640" src="https://img.36krcdn.com/hsossms/20241112/v2_1348705db1eb428f9767a3f78add5923@5940768_oswg651658oswg960oswg640_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书截图</p>
-<p>据交个朋友方面透露，<strong>自有品牌和直播是两条业务线</strong>。“重新加载”最初的目标是成为独立品牌，成立时便选择了独立的公司主体和独立的运营团队，发展相对独立，而交个朋友核心直播业务的主要阵地，目前仍然在线上。</p>
-<p>由此看来，未来，直播间仍然是交个朋友与消费者接触的首要渠道。据交个朋友控股财报数据显示，<strong>其包含直播在内的新媒体业务，占整个公司收入的比例仍然在90%以上</strong>。</p>
-<p>今年8月，罗永浩宣布自己已经结束了第一回合的“真还传”，<strong>接下来还有6亿元左右国有资本债款要继续偿还</strong>，未来仍会“将通过录制综艺节目、接广告和代言、请文化名流和影视明星来直播间交流和带货等方式，继续还债。”<strong>这或许也是罗永浩近期直播频率有所提升的原因之一</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="781,475" src="https://img.36krcdn.com/hsossms/20241112/v2_917f20dbafd148c3acf5580bcad20208@5940768_oswg276128oswg781oswg475_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：微博截图</p>
-<p>由此看来，<strong>罗永浩需要“交个朋友”，仍在探索新曲线的“交个朋友”，也绝不会排斥罗永浩身上自带的流量</strong>。</p>
-<p>不过，流量一向是把“双刃剑”，如何才能“双向奔赴”，对于“交个朋友”而言仍是一门必修课。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/uCmWvaIPiY3dmncwtxDgGA" rel="noopener noreferrer nofollow" target="_blank">“趣解商业”</a>，作者：张含菁，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033276479550601</guid><pubDate>Tue, 12 Nov 2024 19:32:00 +0800</pubDate></item><item><title>黄金价格大跳水，首饰金应声跟跌，多家品牌门店前排长队，出售热潮一同来袭</title><link>https://36kr.com/p/3033264453939461</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>金价再跳水！</p>
-<p>截至11月12日收盘，上金所SGE黄金9999下跌超1.70%；黄金ETF（159934.SZ）收跌1.61%。同时，据Wind数据，美元指数持续走高，现涨超0.25%。</p>
-<p>11月11日深夜，国际金价又大跳水。当日金价下跌超2%，现货黄金下跌2.4%，至每盎司2617.96美元。美国黄金期货收跌2.86%，至每盎司2617.70美元。</p>
-<h2><strong>首饰金应声跟跌，有品牌门店前排长队</strong></h2>
-<p>11月12日，国内黄金珠宝品牌金饰价格也应声跟跌。周生生报价为788元/克，较前一日802元/克一夜下跌14元；老庙黄金报价787元/克，下跌12元/克；周大福足金饰品报价为788元/克，下跌11元/克。</p>
-<p>而在一周前，多家品牌金饰店金价已突破820元/克关口，其中较高的达826元/克。</p>
-<p>重回“7”字头的金价，引得不少消费者到店消费。</p>
-<p>有媒体记者11月10日在北京多家商场走访看到，黄金品牌门店客流均有所提升。在北京SKP商场，黄金柜台前人满为患，周大福、老铺黄金等黄金品牌的门店门口已经排起了长队，降低的黄金金价叠加商场的店庆优惠，是消费者心中值得入手的好时机。</p>
-<p>黄金回收机构融通金的内部人士表示，当下的回收价格大约在610元/克，而月初时的价格在630元/克左右，降幅近20元。</p>
-<p>“昨天（11月9日）一位消费者出售了50克黄金，变现3.05万元，相较于不足400元/克的入手价格，现在出手，升值超1万元，”上述内部人士表示，“降低的金价正引得黄金出售热潮，出手黄金的消费者一部分源自小红书、抖音等社交平台，多以小克数为主，一部分消费者源自零售门店撤店，多以大克数为主，融通金黄金一日可回收近20公斤。”</p>
-<p>国海证券研究所有色组首席分析师张建业认为，如果单纯希望通过投资黄金行情来获益的话，其个人倾向于购买黄金ETF基金，因为ETF基金直接对应金价涨跌，没有杠杆。包括银行发行的纸黄金等，也属于此类投资产品。购买黄金饰品则存在加工费、消费税等因素，其价格与国际黄金价格有差异，但可以获得实物黄金及其实用价值。以消费和保值等多重心态购买首饰等黄金饰品是可以的。</p>
-<h2><strong>金价为何跳水？</strong></h2>
-<p>据Wind，道明证券大宗商品策略师丹尼尔•加利（Daniel Ghali）表示：美元走强几个月来首次给金价带来压力，因为这也与美联储推迟宽松周期的可能性增加有关。</p>
-<p>华尔街交易员认为，美联储在12月降息25个基点的可能性为68%，而特朗普获胜前的可能性约为83%。交易员们正在重新调整预期，美联储可能会将2024年的最终利率降至更接近3.5%的水平，而不是此前预期的3.0%。</p>
-<p>“金价下跌的主要原因是美元走强、美国国债收益率上升，以及金融市场风险偏好增加——自特朗普在上周的美国总统大选中获胜以来，这一趋势得到了加强，”ActivTrades高级分析师Ricardo Evangelista表示。</p>
-<p>一德期货贵金属分析师张晨也表示，特朗普反复主张的关税政策将推动美元走高，其他非美货币相对美元走弱，总体而言，对贵金属价格不利。2016年，美国大选结果出炉后“特朗普交易”驱动10年期美债利率上行超过80个基点，美元指数涨超4%，同期国际金价回调10%。</p>
-<p>在特朗普上周胜选后，引发了市场对通胀的担忧。美国国债收益率飙升，10年期国债收益率在4.4%上方见顶后收于4.306%，2年期国债收益率收于4.25%。较高的债券收益率抑制对非收益资产的需求。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/k90bWJYWO0HX_vkBYuhFaA" rel="noopener noreferrer nofollow" target="_blank">“时代周报”</a>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033264453939461</guid><pubDate>Tue, 12 Nov 2024 19:39:00 +0800</pubDate></item><item><title>李子柒回归连更两条视频，还是顶流</title><link>https://36kr.com/p/3033264174149897</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1036,768" src="https://img.36krcdn.com/hsossms/20241112/v2_9022ca6806024d11ab2edc4f0ad60028@46958_oswg1071098oswg1036oswg768_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>11月12日下午，李子柒在B站更新了一条视频，她在发布文案中写道，<strong>“这个大漆视频迟到了四年 “漆”同“柒” 我给这幅雕漆隐花的漆器作品取名“紫气东来” 麒麟回首，万事不愁 也把这份祝愿送给看到视频的每一个你，很想你们！”</strong></p>
-<p>值得一提的是，这条视频发布半小时后，李子柒又更新了第二条视频，视频质量依旧不减当年。并且，截至发稿第一条视频在<strong>B站已有21.1万观看量，目前数据还在持续上涨中。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,274" src="https://img.36krcdn.com/hsossms/20241112/v2_219af2cc7cb84842be7f49d7bb59ae46@46958_oswg249251oswg1080oswg274_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>一向以优质内容打天下的李子柒，在过去的三年内，没有发布过任何新作品。与之对应的是，在包括微博、B站、抖音、快手等在内的多个平台上，李子柒的粉丝数已经出现了不同程度的下滑。除了视频界属于李佳佳的流量正在被瓜分，那个卖螺蛳粉卖月饼的商业品牌“李子柒”，也正在被稀释。</p>
-<p><strong>李子柒之前依旧走在“打假”的路上。</strong></p>
-<p>爱企查App显示，李子柒关联公司四川子柒文化传播有限公司（下称“子柒文化”）此前状告宜宾绿源食品有限公司侵害其商标权的案件，已于2022年5月19日在宜宾市中级人民法院正式开庭审理。绿源食品即为此前“李子柒月十全十美月饼礼盒”的高价月饼事件中所涉超市所属的公司，2021年9月事发第一时间就曾被李子柒方面打假。</p>
-<p>更早之前的2022年4月30日，李子柒发布律师声明，警告“李子柒被迫改名”等谣言的造谣者，以及假冒李子柒账号或盗用其照片作为头像的账号，同样引发关注。</p>
-<p>事实上，<strong>自从2021年7月开始断更，全身心投入与MCN机构微念之间的纠纷以来，李子柒已经在红人江湖上沉寂许久，偶尔引起关注，也多与微念之间的多轮交战有关。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1001,516" src="https://img.36krcdn.com/hsossms/20241112/v2_a85ca87bcc2e446ab8b21ac342895faa@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>2021年7月14日，在进行长达一个多月的等待后，李子柒全球范围内的上亿粉丝如期迎来了李子柒的新作品——“井盐”。作为《柴米油盐酱醋茶》系列的完结篇，这条长达近18分钟的视频，一经上线，就迅速引起关注，仅微博平台当天的播放量就突破了2000万。</p>
-<p>但也是这条视频后，李子柒就因与其背后MCN公司微念之间旷日持久的纠纷，陷入了漫长的停更期。排除掉2022年4月30日发布的一则“律师声明”视频，一向以优质内容打天下的李子柒，在李子柒复更之前，没有发布过任何新作品。</p>
-<p>李子柒和微念创始人刘同明识于微末，在很长一段时间内，一个助对方成为了影响力和商业变现能力都堪称“网红天花板”的顶流人物，另一个则成为了对方的“金字招牌”，为其带来了无数的商业利益和资本助力。</p>
-<p>2021年8月30日，李子柒靠着一条“大清早报个警”的动态成功登上热搜，引发不少人的担忧。直至9月中旬，李子柒助理在辟谣中提到一句“公司与第三方公司的问题”，再结合李子柒当初秒删的那句“资本真的是好手段”，故事才开始走向更加明晰的方向——李子柒与其签约的MCN机构微念可能存在矛盾。</p>
-<p><strong>2021年10月25日，李子柒关联公司子柒文化一纸诉状将微念及其老板刘同明告上法庭，证实了上述猜测，双方的纠纷也自此摆上明面。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="995,349" src="https://img.36krcdn.com/hsossms/20241112/v2_26e98cc62d3c403cb5738060fb431f88@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这是双方的首次正式交锋。而在接下来的2021年11月中旬，子柒文化作为原告，状告刘同明和微念的另一则案件也正式立案。微念也很快新增了两条立案日期分别为2022年1月和3月的立案信息，且被告为子柒文化。</p>
-<p>此后双方曾进行多轮交战，一直到2022年初，有知情人士曾向《财经天下》周刊透露，双方已经进行了“友好协商”。</p>
-<p>最新的动态是，2022年4月30日，李子柒在各大社交平台上通过图文和视频的方式，发布了一则律师声明，对造谣自己被迫改名和假冒自己账号的人予以了警告，并直指其中“存在利用‘水军’大规模造势意图带偏网络舆论之嫌疑”。</p>
-<p>而在与微念交战的这十个月时间里，李子柒除了接受央视的采访，以及带团队四人出席中国农民丰收节、首届中国(武汉)文化旅游博览会、微博超级红人节、2021亚洲青年领袖论坛等活动，再没有新的作品更新。</p>
-<p>对此，在2021年11月接受《人物》采访时，李子柒曾解释称，因为需要处理的事情太多，还要防止被别人坑，自己很难再有以往那样饱满的时间和精力进行内容创作，为了对自己的作品和观众负责，所以才决定停更，先处理其他一些事情。</p>
-<p>而在2021年11月底现身2021亚洲青年领袖论坛，并接受媒体采访时，李子柒则进一步透露，视频停更的四个月内，自己一直在进行新的内容创作，并学习了羌绣、北京面人等新的手艺。</p>
-<p>至于“李子柒”这个品牌的后续发展问题，由于涉及到很多商业模式方面的问题，还需要根据未来的走向决定，但未来还会继续更新视频，只是花在诉讼上的时间会比较多一点。</p>
-<p>如今，李子柒已经回来了，连更两条视频，这一次，她还能成为顶流吗？</p>
-<p>参考资料：AI财经社《瓜分李子柒》</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/RWs9hO8GNa7pIGx3zXZhyg" rel="noopener noreferrer nofollow" target="_blank">“凤凰网科技”</a>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033264174149897</guid><pubDate>Tue, 12 Nov 2024 19:39:00 +0800</pubDate></item><item><title>明年多放两天假？冷静，是少了两天调休</title><link>https://36kr.com/p/3033263935664132</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1000,439" src="https://img.36krcdn.com/hsossms/20241112/v2_aa9de7f06b3240338e313051db715483@46958_oswg47181oswg1000oswg439_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>尘埃落定！2025年最新假期安排已公布。</p>
-<p>11月12日，国务院办公厅发布了关于2025年部分节假日安排的通知，根据2024年11月修订的《全国年节及纪念日放假办法》，自2025年1月1日起，全体公民放假的假日增加2天，其中春节、劳动节各增加1天。</p>
-<p class="image-wrapper"><img data-img-size-val="886,559" src="https://img.36krcdn.com/hsossms/20241112/v2_03286831c4f04e44a30ed53afc24bc65@46958_oswg53757oswg886oswg559_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>简单来说，明年的假期安排相比以前有所调整：春节多了一天（除夕），五一假期也多了一天（5月2日）。</p>
-<p>同程旅行数据显示，消息发布后半小时内，平台春节假期期间出行的机票搜索热度较前日同一时段上涨超过3倍，并呈现持续上涨趋势。此外，还有部分游客已经开始搜索“十一”假期的出境游机票了。</p>
-<p>另外，最新《全国年节及纪念日放假办法》增加一条：</p>
-<p>“全体公民放假的假日，可合理安排统一放假调休，结合落实带薪年休假等制度，实际形成较长假期。<strong>除个别特殊情形外，法定节假日假期前后连续工作一般不超过6天。</strong>”</p>
-<p>也就是说，虽然调休制度仍然存在，但按最新的规定，官方建议每周最多安排补班1天，避免连续上班7天。</p>
-<p>近年来，调休政策一直备受争议。每逢长假，看似假期时间变长，但实际上是通过调休拼凑而来，一定程度上打乱了大家正常的工作和生活节奏。</p>
-<p>随着经济发展和消费观念的变化，旅游和消费已不再仅依赖集中假期，越来越多的人选择错峰出行。同时，大家对生活质量的要求不断提高，假期的纯粹性和休息质量的需求也愈加强烈。</p>
-<p>回顾历史，我国假期安排经历了三次重大调整：</p>
-<p>1994-1995年：首次设立大小周制度，通过立法规定每周不超过44工时，并于次年落地双休制。</p>
-<p>1999年：延长国庆和五一假期至3天，并引入调休制度，创设了三个七天的黄金周。</p>
-<p>2007年：取消五一黄金周，并增设了清明、端午和中秋三个三天的小长假。</p>
-<p>数据显示，历史上3次假期制度的重大调整为居民创造良好的出行条件，出行人数维持高增长，至2019年创下文旅业发展的高点。</p>
-<p>当年我国国内旅游出行人次超60亿，实现收入5.73万亿元，当年国际旅游收入1313亿美元，2019年国内旅游合计收入 占当年GDP比重近5.8%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,387" src="https://img.36krcdn.com/hsossms/20241112/v2_cba1587abde0469cbc65807aa035fe17@46958_oswg134338oswg1080oswg387_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>一定程度上，黄金周和调休曾对旅游经济乃至全民消费产生过立竿见影的积极作用。假期改革通过放宽制度限制，进一步刺激了出行与消费的意愿。</strong></p>
-<p>一方面，黄金周对于经济拉动性更强，大出行半径利好长旅消费；另一方面，双休制与小长假平衡旅游资源，带动周边短途出行与本地生活消费。</p>
-<p>现下，2025年新的假期安排不仅回应了传统旅游模式的变化，更是对社会消费和居民生活质量需求的积极适应。</p>
-<p>在错峰出行与分散式假期的推动下，未来的旅游市场，或许将迎来更加多元化的发展趋势。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1l2WiKE-kZdPZvpgKrlu1Q" rel="noopener noreferrer nofollow" target="_blank">“环球旅讯”</a>，作者：罗銮銮，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033263935664132</guid><pubDate>Tue, 12 Nov 2024 19:42:00 +0800</pubDate></item><item><title>iPhone 16，引起一场手机壳的割据混战</title><link>https://36kr.com/p/3033261860565001</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>保护我？ 没那么简单 </strong></p>
-<p>转眼，iPhone 16 已经推出了两个月。 </p>
-<p>本来以为在这一代 iPhone 上，Apple Intelligence 会是最大看点，但落地遥遥无期的 AI 和各种「剑走偏锋」的偷渡方法，早已消磨了大家的热情。 </p>
-<p>此时我才发现，原来 iPhone 16 上真正的主角，还是那颗相机控制按键。 </p>
-<p>别误会，我的意思并非是它多好用，而是为了保护这个小东西，着实闹出了不小的动静。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_21ea9a366f7c49ba9232f8b2e4208328@000000_oswg50654oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>一颗按键，复杂集成 </strong></h2>
-<p>就像家里的电视遥控器，再不济也要套一个袋子一样，不少人拿到新手机的第一件事，大概都是准备一套手机壳与贴膜。 </p>
-<p>但在 iPhone 16 上，这颗按键给手机壳制造了不小的麻烦。 </p>
-<p>先回顾一下相机控制按键是个什么东西：这颗按键由一块蓝宝石玻璃、一个压力感应器与一个机械结构组成，支持手指的滑动、按压与点击操作。 </p>
-<p>我们可以将这颗按键的交互方案分成两套结构： <strong>一套是通过机械结构实现点按激发，另一套则是通过用于屏幕上的电容感应与压力传感器来实现触摸与按压激发。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_5c0b5997d41242feaa29d18849526eb8@000000_oswg347805oswg1080oswg559_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>机械结构好解决，从电源键到音量键都是通过这种最基础的方式来交互，无论是开孔设计、硅胶覆盖，甚至是金属与硅胶结合以营造金属触感，市场上早已有成熟的方案来应对了。 </p>
-<p><strong>但电容与压感明显是个新东西。</strong></p>
-<p>电容触摸的工作原理是通过人体导电性来检测触摸位置，它在表面覆盖了一层透明的导电材料（通常是氧化铟锡），形成一个稳定的电场。 </p>
-<p>当你用手指触碰到材料表面时，人体会吸收一部分电流，这一触摸点的电容值就发生了变化。屏幕内部的传感器能够快速感知这种正在发生的电容变化，并将其传送至处理芯片，计算出触摸的精确坐标位置。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_f27a70e5f39c48c790c4ddd5002d3922@000000_oswg131345oswg820oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>也就是说，想要隔着手机壳用好这颗按键，满足传统的机械结构还不够，还必须有可以传导手指生物电讯号的介质。 </p>
-<p>有需求，就有市场，不过这一次， <strong>商家想挣这份钱，可谓是忙坏了。</strong></p>
-<h2><strong>需求无限多，方案不完美 </strong></h2>
-<p>在 iPhone 16 才推出时，大家想要带相机控制按键的手机壳，因为官方的手机壳也配备了相机控制按键，跟着原厂的做法肯定没错。 </p>
-<p>那我们看看原厂是怎么做的：与 iPhone 16 上的相机控制按键一样，官方 MagSafe 硅胶保护壳上有一片蓝宝石玻璃，并配备有传导层，能够将手指的动作传递给手机的相机控制按钮。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_25acd40a93574c74bb604441bb7841e8@000000_oswg39921oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>之所以选用蓝宝石玻璃，是因为它能达到约为 2000HV 的硬度——这是矿物玻璃的两倍，不锈钢的十倍，只有少数材料能够划伤这个硬度的蓝宝石玻璃，比如 4500 至 10000HV 的真钻石。 </p>
-<p>目前官方网站出售的 Beats 保护壳也采用了同样的方案。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_187670e559274595919916a2ba67ef38@000000_oswg25660oswg1024oswg523_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>与硬度相对应，蓝宝石玻璃的成本也相当高，虽然苹果从未透露过相机控制按键的蓝宝石玻璃成本，但是我们可以通过另一个使用蓝宝石玻璃的设备揣测——Apple watch。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_9e68eb9a4a594628b43219f5532ba7f1@000000_oswg44251oswg1080oswg627_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">YouTube 博主 @Unbox Therapy 测试 Apple Watch 的蓝宝石屏幕硬度 </p>
-<p>知名的市场调研和数据分析公司 IHS Markit 通过对 Apple Watch 拆解分析，得出了一份提及蓝宝石玻璃屏幕成本的报告： </p>
-<p><strong>Apple Watch 上使用的蓝宝石玻璃屏幕的总成本约为 27.41 美元，其中 7.86 美元为材料成本，其他部分包括研发、劳工和制造费用。</strong></p>
-<p>综合考虑材料成本和加工工艺，iPhone 16 系列的相机控制按键蓝宝石成本合理估计在 8 至 15 美元范围内。 </p>
-<p>这种成本对于第三方制造商来说毫无疑问非常高，随之而来的就是风险，用户也更喜欢物廉价美的东西，想要继续维持低价多销，就需要想别的办法——用其他材料覆盖这颗按键。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_a630fefdb5ac4644b767fb0f1cfa6127@000000_oswg43152oswg1024oswg682_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这种办法的效果不算好，大多数材料的导电性能有限，隔着一层材料操作这颗按键一点也不丝滑，大家想要的是既能保护按键，又不影响操作的手机壳。 </p>
-<p>于是整个十月，市场的需求开始 <strong>出现分歧。</strong></p>
-<p>一部分人在发现带相机按键的手机壳并没有那么好用以后， <strong>干脆不要这颗按键了</strong>——反正也不好用，AI 又没落地，我要它干嘛？不如包起来。 </p>
-<p>于是有的商家推出了类似于 iPhone 15 系列的手机壳，直接忽略掉这颗相机控制按键。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_c93df9903c054323b8a8de55bcec188b@000000_oswg42079oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而另一部分人则不愿意放弃，原因也很简单—— <strong>我为这颗按键花了钱，不管用不用得上它都要在那儿。</strong></p>
-<p>执着有时候会带来新发现。 </p>
-<p>厂家继续生产额外做了相机控制按键的手机壳（后称电容手机壳），这些壳子绝大多数都遵循苹果官方手机壳设计——用玻璃材质作为表面材料，保证手指操作的顺滑度，再设计一个导电层，将电信号变化传导到手机上的相机控制按键，达成精准操作。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_dd2b1aa2348b4cb88490f0dfe7da6406@000000_oswg36391oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但是结果也不乐观，由于控制成本，第三方的电容手机壳也出现各种翻车，比如玻璃材料脱落、按键整体脱落。 </p>
-<p>不过这些还算小问题，一个避雷贴的出现，彻底把这类壳子打入冷宫：如果手机壳内部有灰，时间一长，iPhone 机身上的按键就会被弄出印子。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_a3d0d270636e438496279d88773e1c5d@000000_oswg66531oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>安了手机壳还留印？这简直不可接受，市场的呼声又又又变了： </p>
-<h2><strong>不要带按键的手机壳！</strong></h2>
-<p>这下商家是真的麻了，赶忙又将发布前提前设计的开孔壳库存拿出来卖。 </p>
-<p>此时，又一个新鲜的东西进入了大家的视线：按键贴膜。 </p>
-<p>没错，继屏幕贴膜、镜头贴膜之后，按键贴膜也出现了。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_18a259e305db4e0cbdb5fa445d2396c9@000000_oswg27548oswg800oswg533_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>人民群众的智慧是无穷的，经过反复折腾以后，大家实在是对于这颗矜贵的按键失去耐心了，索性就用最实用的方法吧——开孔手机+按键贴膜。 </p>
-<p>甚至，广大用户还为其总结了非常全面的经验：为了防止这颗按键出现任何意外，不管用开孔壳还是全包壳，最好都贴上按键贴膜。 </p>
-<p>手机壳厂家打得不可开交，按键贴膜商家却成为了最大的赢家。 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&amp;mid=2652379886&amp;idx=1&amp;sn=b8d9a658a7bc3e44cdcafc5fa3dfcb2d&amp;chksm=9ad8682bc5b5f656db133c85e9fd8f13fdfcfaf314eda84ef088db0cab4e59d819cd497352de&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“爱范儿”（ID：ifanr）</a>，作者：发现明日产品的，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033261860565001</guid><pubDate>Tue, 12 Nov 2024 19:43:00 +0800</pubDate></item><item><title>罗永浩吐槽，餐厅使用预制菜到底要不要明示？</title><link>https://36kr.com/p/3033239906038914</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>餐厅使用预制菜到底需不需要提前告知消费者？</p>
-</blockquote>
-<p>红餐网消息，11月11日，罗永浩在其社交平台就餐厅使用预制菜却未提前告知消费者的行为进行了一番“吐槽”，引发了网络热议。</p>
-<p>他在微博表示：“不反对预制菜，但餐厅不声明卖的是预制菜，这本质上就是一种欺骗。即使真的做到了宣传的‘安全美味’，这还是对消费者的一种欺骗”。</p>
-<p class="image-wrapper"><img data-img-size-val="850,331" src="https://img.36krcdn.com/hsossms/20241112/v2_8824cfa8781f47138554597e4e689cf4@5265833_oswg57032oswg850oswg331_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（△图片来源：微博）</p>
-<p>该帖发出后，相关点赞量和转发数颇高，评论区更是聚集了大量网友对“预制菜”展开了一番讨论：</p>
-<p>“我不介意预制菜，但是你不能骗我这是现做的”</p>
-<p>“过去在餐厅能吃到现点现做的鱼。现在是花着活鱼的钱，吃着加热的鱼”</p>
-<p>“餐厅应当给予消费者选择权，不要骗”</p>
-<p>......</p>
-<p>总结来看，消费者对餐厅使用预制菜却不提前告知，表现出了极大的反感。</p>
-<p>实际上，预制菜在餐饮行业的使用非常普遍，消费者对于预制菜也并不陌生。当前最大的争议点在于，餐厅是否要向消费者“明示”使用了预制菜。</p>
-<p>今年3月，市场监管总局等六部门联合印发《关于加强预制菜食品安全监管促进产业高质量发展的通知》，首次在国家层面明预制菜的定义和范围，并提出大力推广餐饮环节使用预制菜明示，推动预制菜赛道规范化发展。</p>
-<p>在市场监管总局等六部门联合印发相关通知后，各省市跟进，相继颁发新规，规范了预制菜在餐饮的使用。</p>
-<p>比如江西，近日就发布《关于强化预制菜食品安全监管推动产业高质量发展的通知》（以下简称《通知》）。《通知》要求，完善预制菜标准体系的同时，还推广餐饮环节使用预制菜明示。鼓励知名餐饮品牌示范引领，主动公开使用预制菜加工的菜品名称、预制菜供货商等信息，保障消费者的知情权和选择权。</p>
-<p>再比如四川，日前也印发《四川省预制菜食品安全监督管理办法（试行）》。该办法就特别强调，餐饮服务提供者采用预制菜进行烹饪的，鼓励在餐饮服务场所或外卖平台网店上将预制菜信息明示告知提醒消费者，保障消费者的知情权和选择权。</p>
-<p>而在稍早前的10月，重庆更是出台了全国首个餐饮菜品描述地方标准，要求餐饮服务场所菜单或点餐系统上应包含菜品信息描述，包括是否使用预制菜等关键信息。</p>
-<p>在多方关注下，目前我国预制菜赛道也正朝着规范化、标准化的方向发展。尤其是在预制菜标准打造上，为了守护消费者舌尖上的安全，越来越多的预制菜标准密集出台。</p>
-<p>比如今年3月，商务部等9部门发布《关于促进餐饮业高质量发展的指导意见》，指出要规范预制菜产业发展，加快制定完善预制菜相关标准，持续开展预制菜风险监测和评估，进一步严格预制菜食品安全监管；6月，国家发展改革委等部门印发《关于打造消费新场景培育消费新增长点的措施》的通知，再次强调要加快制定完善预制菜产业相关标准；7月，国家卫生健康委公布《国家卫生健康委办公厅关于印发2024年度食品安全国家标准立项计划的通知》，其中包括推动制定预制菜国标。</p>
-<p>随着系列法规标准的逐渐完善，越来越多的消费者表示愿意接受预制菜。</p>
-<p>红餐产业研究院最新的预制菜消费调研数据显示，完全不接受预制菜的受访消费者仅占20.4%；26.8%的受访者表示愿意因购买预制菜带回家自己做；37.4%的受访者认为，只要菜品质量有保证，可以接受预制菜。</p>
-<p>红餐产业研究院执行院长唐欣表示：“当前倡导的预制菜明示制度，并非是硬性规定，所以目前还是有不少商家选择不明示。不过消费者享有消费的知情权和选择权，如果餐厅在不告知消费者情况下使用预制菜品，一旦被揭穿，商家或将会损失消费者信任，并招来社会舆论。 与其面临这种经营风险，商家选择明示预制菜，让消费者自行选择，保障好消费者权益并服务好进入门店的消费者，或许才是长久经营的正道”。</p>
-<p>本文来自微信公众号“红餐网”，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033239906038914</guid><pubDate>Tue, 12 Nov 2024 19:50:00 +0800</pubDate></item><item><title>Robotaxi爆发前夜，国内自动驾驶急着IPO</title><link>https://36kr.com/p/3033239567527940</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>多年后回望今朝，可能会把2024年作为Robotaxi元年。</p>
-<p>最近，自动驾驶公司地平线和文远知行先后上市，再度引起了外界对自动驾驶行业的关注。</p>
-<p>前有激光雷达企业速腾聚创和自动驾驶芯片公司黑芝麻作为先行者，之后还有小马智行、Momenta、纵目科技、佑驾创新等企业正在冲刺上市。</p>
-<p>今年以来，自动驾驶领域热度非凡。上半年，百度旗下的萝卜快跑在网络上出圈，让Robotaxi成功进入普通人的视野。10月份，特斯拉发布无人家车Robotaxi，在全球范围内掀起了热烈讨论。</p>
-<p>Robotaxi是L4级自动驾驶前景最广阔的应用领域。多年发展以来，自动驾驶企业们，也终于迎来了商业化落地的新阶段。</p>
-<p>不过，前期投入大、回报周期长、技术难度高等客观困难，各家企业仍困于亏损的泥潭。</p>
-<p>集中冲刺IPO的背后，既是对资金的渴求，也是进一步加速商业化的必然要求。“流血上市”不是终点，而是新阶段的起点。</p>
-<h2><strong>时不我待</strong></h2>
-<p>今年以来，Robotaxi引起了前所未有的热度，或许是自动驾驶企业最好的上市时间点。</p>
-<p>L4级别自动驾驶虽有无人驾驶货车、负责派送的无人小车、无人驾驶公交车等诸多场景，但考虑市场需求与前景，Robotaxi是L4级别自动驾驶商业化落地的最好选择。当下的观点认为，2026年将是Robotaxi规模化量产的元年。</p>
-<p>彼岸的曙光在呼唤，专注于L4技术的自动驾驶企业们，已然闷头狂奔了七八年，如今进入冲刺阶段，谁都想取得头筹，上市则意味着率先获得更多资金与关注。</p>
-<p>2013年禾赛科技、知行汽车科技上市之后，今年又有数家自动驾驶企业陆续开启上市进程。这期间，速腾聚创、如琪出行、黑芝麻智能、地平线、文远知行等企业已然成功IPO，其后还有诸如小马智行、纵目科技、蘑菇车联等知名企业等待时机。</p>
-<p><strong>火热上市潮的背后，透着一种时不我待的紧迫感——自动驾驶行业发展七八年，再不上市就晚了。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_48521b064b234c4a8b078d0bad08b93a@000000_oswg91380oswg1080oswg857_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>自动驾驶经历了先热后冷的融资历程，如今一级市场融资遇冷，热钱涌入减少，国内独角兽们已然到了商业化落地、寻求资本化的关键节点。</p>
-<p>天眼查APP显示，从融资数额和频次来看，自动驾驶商业化回报短期内难以实现，融资变得越来越困难，资本对自动驾驶的态度更加理性，落地前景不明朗的项目很难吸引资本了。多数自动驾驶企业上一波的密集融资，还停留在2021年至2022年。</p>
-<p>2015年-2022年，纵目科技完成了10轮融资，最近一次融资停留在了2022年3月；已成功上市的黑芝麻智能，在2016年-2022年完成9轮融资，最近一次是在2022年12月；文远知行和小马智行，都在今年完成了新融资，但恐怕也是沾了即将上市的光。</p>
-<p>IPO正是解决上述问题的钥匙——只要能成功上市，投资方成功获益退出，创业公司也解除了高额回购股份的压力，同时获得新的发展资金。</p>
-<p>不过，即使成功IPO，也要做好破发的心理准备，看一看这两年登陆资本市场的前辈们表现就知道了。</p>
-<p>今年8月，黑芝麻智能以未盈利“特专科技”公司身份登陆港股，开盘后一度暴跌32.9%。截至11月12日，黑芝麻智能的市值为145亿港元，低于之前170亿港元的估值；禾赛科技在上市后股价一路下滑，如今为4.5美元/股，低于发行价。</p>
-<p>显然，IPO是上一个发展阶段的结束，也是新征程的开始，走出一条什么样的曲线，归根到底需要凭商业化实力说话。</p>
-<h2><strong>同一赛道，亦有差异</strong></h2>
-<p>投入很大，收益很小，负重前行是当前自动驾驶企业的共同写照。</p>
-<p>2021年至2024年上半年，文远知行的收入分别为1.38亿、5.28亿、4.02亿和1.50亿元人民币，相应的净亏损分别为10.07亿、12.98亿、19.82亿和8.82亿元人民币，三年半累计亏损超过50亿元。</p>
-<p>可以看出，其营收在2022年达到顶点后一路下滑，今年上半年的降低幅度尤其明显；净亏损一直扩大，今年上半年也没能收窄。</p>
-<p>小马智行同样承受着盈利压力，招股书显示，其近两年半调整前净亏损分别为1.48亿美元、1.25亿美元和5178万美元，累计亏损达到3.25亿美元，约合23.07亿元人民币。</p>
-<p>还有备受关注的智驾芯片科技公司地平线，2021年以来的三年半时间里，累计亏损超过220亿元人民币。</p>
-<p><strong>从自动驾驶技术到芯片，再到RoboTaxi落地运营，亏损前行是整个产业链的主旋律，原因在于自动驾驶行业前期投入大，回报周期长。</strong></p>
-<p>例如文远知行，2021年至2023年，累计研发支出为22.6亿元，是营收的两倍还多。其在招股书中预计，随着公司自动驾驶技术的测试、试验和商业化，研发支出后续预计还会增加。也就是说，如果收入不发生大幅增长，亏损还会持续扩大。</p>
-<p><strong>而在普遍的负重前行背后，各家处境亦有不同之处。</strong></p>
-<p>文远知行主要依赖两类业务：其一重销售，主要涉及L4级别自动驾驶汽车，包括机器人巴士、机器人出租车及各类机器人车辆、传感器套件的销售；其二重服务，提供L4自动驾驶及高级驾驶辅助系统服务，包括运营、技术支持及ADAS研发等全方位服务。</p>
-<p>小马智行的主营业务包括自动驾驶出行服务、自动驾驶卡车和技术授权与应用服务三大板块。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_82bf42fc8bcc4112a67a45f96dd2283a@000000_oswg317560oswg540oswg360_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>两家企业业务都覆盖了Robotaxi，但也都无法将其作为营收主力，主要受到落地场景复杂，技术有待提升等客观条件的限制。</p>
-<p>在2022年和2023年，小马智行技术授权与应用服务分别占到总营收的54.2%和54.5%，其次是自动驾驶卡车业务，占比也都超过32%。到了今年上半年，营收大头已然变为自动驾驶卡车（Robotruck）业务，营收占比高达73%。</p>
-<p>而Robotaxi业务，在2022年占比最高，达到13.1%，今年上半年已经降到了4.7%。文远知行的Robotaxi收入被收录在服务类别，没有详细披露。</p>
-<p><strong>自动驾驶企业的目标是Robotaxi，开放场景，想象空间大，现实却是Robotruck，封闭场景，增长空间有限，L4级自动驾驶的故事，在短期内变得不那么性感了。</strong></p>
-<p>业务的差异，也让“谁才配得上Robotaxi第一股”，至今仍有争论，目前来看，小马智行比文远知行更聚焦于Robotaxi，当前进度也更快。</p>
-<p>小马智行Robotaxi车辆已超过250辆，累积超3350万公里自动驾驶路测里程，其中包括390万公里无人驾驶路测里程，每辆车的日均订单量已超过15单。作为对比，火热全网的萝卜快跑每辆车日均峰值在20单出头。</p>
-<p>而文远知行在Robotaxi业务上的进展并无突出亮点，披露的信息不多，并且由于自动驾驶出租车、无人驾驶小巴的销量不尽如人意，其运营重心由产品销售转向服务，也就是。这也是被外界质疑“Robotaxi第一股”含金量的关键所在。</p>
-<p>无论如何，小马智行、文远知行、萝卜快跑等企业都在朝着Robotaxi的长远目标砥砺前行，谁能率先取得质的突破，还要经过技术、产品、运营等多方面的考验。</p>
-<h2><strong>规模化关键</strong></h2>
-<p>谁都知晓Robotaxi前景广阔，但如何跨越彼岸，是一道难题。</p>
-<p>弗若斯特沙利文预测，中国有望成为最大的Robotaxi市场，其市场规模预计在2025年和2030年达到2亿美元和390亿美元，占2030年全球自动驾驶出行服务市场的约58.5%。</p>
-<p>但在小马智行CTO楼天城看来，当下离设想中L4普及的状态还很远：“今天的高阶智能驾驶，即便采用了端到端技术，上限也只能做到L2.99，难以抵达L4。”</p>
-<p>对于自动驾驶企业来说，既要仰望天空，也要脚踏实地，翻译过来就是，赚大钱是以后的事，当下最重要的是活下去。因此，各家纷纷在L2领域开展合作“赚钱养家”。</p>
-<p>2023年1月，小马智行正式宣布乘用车智能驾驶业务产品线，之后与极石汽车达成合作，通过与主机厂共同开发智驾方案的形式，实现量产车智能驾驶；发家于智能芯片业务的黑芝麻智能从2022年开始给乘用车提供智驾方案；正在冲刺上市的Momenta在今年2024年6月宣布与广汽丰田达成合作，布局智驾方案业务。</p>
-<p>不过，自动驾驶企业和整车厂之间，是亦敌亦友的关系，有合作也有竞争。</p>
-<p>不论是造车新势力如蔚小理，还是头部传统车企，都拥有自己的智驾团队，甚至还涉足自研芯片。毕竟，没有哪家厂商愿意把“灵魂”交到别人手里。</p>
-<p>而且从技术上看，自动驾驶企业并没有明显领先。</p>
-<p>10月份，华为智能汽车解决方案BU董事长余承东表示：华为ADS 4.0计划于明年推出，届时将带来高速L3级自动驾驶的商用体验及城区L3级自动驾驶的试点项目。</p>
-<p>前景更广阔的Robotaxi，也是合作与竞争相互交织。</p>
-<p>广汽旗下的如祺出行和小马智行及文远知行都有合作；上汽旗下的享道Robotaxi，则基于魔门塔的自动驾驶技术；新能源汽车巨头比亚迪也与东潮科技出行公司达成了合作，将在深圳部署Robotaxi。</p>
-<p>自动驾驶公司和网约车平台从车企采购车辆，车企可以结合两者的运营能力和自动驾驶技术，共同打造Robotaxi，形成了一套互惠互利的合作模式。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_783e118f93c441d988dfb857bb0827bc@000000_oswg98407oswg1080oswg895_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>对于自动驾驶企业来说，要想在各种竞争中崭露头角，当下最重要的是提升规模化水平。</strong></p>
-<p>一方面，提升运营车辆的数量，尽快实现规模经济，有望早日实现盈亏平衡。车辆的采购成本、维修成本、运营管理成本等会随着规模的扩大而降低，这对于业务的可持续发展至关重要。</p>
-<p>另一方面，规模化也有利于提升服务质量。Robotaxi有赖于大量数据训练，更多的车辆和更长的运营总时长，意味着更多的数据来源，有利于提高自动驾驶的智能化水平，并且优化调度算法，进一步提高运营效率。</p>
-<p>业内已经出现了佼佼者。今年第二季度，萝卜快跑提供了约89.9万次出行服务，同比增长了26%。百度自动驾驶业务部总经理陈卓称表示，到今年底，萝卜快跑有望在武汉实现收支平衡，并于明年全面进入盈利期。</p>
-<p>时不我待，IPO能够缓解自动驾驶企业的资金压力，但真正的竞争或许才刚开始。而在竞争与合作中，各方企业共同推动Robotaxi的规模化普及，让自动驾驶真正改变人们的出行方式，则是更加深远的意义。</p>
-<h2><strong>结语</strong></h2>
-<p>筚路蓝缕七八年，自动驾驶产业上下游摸着石头过河，终于集中站在了IPO的舞台上。</p>
-<p>伴随着AI技术的迅猛迭代，自动驾驶相关产业也日臻成熟，包括政府机构、芯片制造商、汽车制造商和科技公司在内的参与者，共同推动着自动驾驶技术的规模化应用。</p>
-<p>如今，自动驾驶已经成为全球性的产业竞赛，Robotaxi作为前景广阔的商业落地场景，国内自动驾驶企业们志在必得。</p>
-<p>将成熟的商业化变现模式与长期主义相结合，逐一解决技术的成熟度、政策的健全度和商业模式的清晰度，自动驾驶产业的真正拐点就在不远的未来。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzUxNDcwNjIwNQ==&amp;mid=2247550454&amp;idx=1&amp;sn=e8897f7c5716744fe66ed297d0cbbc5a&amp;chksm=f86e79664548bbd17614c74290556678f4b9a143ae2ee600c826a08c1ccc41d8c9a78069aae6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“一点财经”（ID：yidiancaijing）</a>，作者：一点.大科技组，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033239567527940</guid><pubDate>Tue, 12 Nov 2024 19:53:00 +0800</pubDate></item><item><title>“被迫出逃”海外的小杨哥，有人买单吗？</title><link>https://36kr.com/p/3033236529132674</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>双十一购物狂欢已然临近结束，在这场盛大的消费盛宴中，除了品牌和平台的激烈竞争，许多人的目光也不约而同地聚焦在了顶级主播们的表现上。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,624" src="https://img.36krcdn.com/hsossms/20241112/v2_86e9d1ff3bd74cb7a7edcaaa6d9bf8b7@813924438_oswg806301oswg1080oswg624_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而小杨哥却与此次双十一无关，自从因为虚假宣传而被罚上千万后，小杨哥近乎销声匿迹，他所空出来的流量也逐渐被其它主播瓜分蚕食。或许是眼看复播无望，又或许是发现了新机会，如今小杨哥的直播带货正在“出逃”海外。</p>
-<h2><strong>缴纳巨额罚款，但赶不上双十一</strong></h2>
-<p>今年9月26日，官方亲自下场，坐实了三只羊的“虚假宣传”争议。合肥市联合调查组发布通报称，合肥三只羊网络科技有限公司(简称“三只羊”)存在虚假宣传等行为，拟决定对其没收违法所得、罚款共计6894.91万元。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,660" src="https://img.36krcdn.com/hsossms/20241112/v2_f5a1da64c67a44c0ac8c7e95cc40ec2f@813924438_oswg282265oswg1080oswg660_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>10月30日，有媒体向安徽合肥市市场监督管理局询问罚款的缴纳情况。他们先是拨打了合肥市监局的12315电话，接线人员回应称：“我们这边目前并没有收到相关通知是否有交，没交就没有收到相关通知。”随后又致电合肥市高新区市监局，但无人接听，同时还尝试联系三只羊，依旧是无人接听或处于关机状态。</p>
-<p>11月1日，三只羊客服向大河报透露，公司已按照要求将罚款全额缴纳完成。1天后，此事迅速得到合肥市监局12315热线的印证。接线人员表示，处罚决定送达后，三只羊便全额缴纳罚没款。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,557" src="https://img.36krcdn.com/hsossms/20241112/v2_f440d29c114d430bac52ea218900f9ae@813924438_oswg451239oswg1080oswg557_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>据合肥市监局的工作人员介绍，尽管三只羊已缴纳全部罚款，但相关部门仍会加强对该公司的监管，而这似乎影响了三只羊主播的复播情况。</p>
-<p>三只羊签约达人小雨女装、超哥数码曾恢复直播，但该账号在直播中隐去了“MCN三只羊”的标识。与此同时，卓仕琳、七老板、嘴哥等知名主播均未恢复直播。可见，有关部门并未松懈对三只羊的监管，此次的双十一自然也就与小杨哥无关了。</p>
-<p>回想去年双11，小杨哥在抖音上连续直播四天，创造了约6亿元的惊人销售额。整个2023年，他所在的三只羊团队更是实现了高达160亿的销售额。</p>
-<p class="image-wrapper"><img data-img-size-val="972,689" src="https://img.36krcdn.com/hsossms/20241112/v2_1cdd06259e0b47b8aca2666a938a7f32@813924438_oswg449100oswg972oswg689_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>但今年的双十一，全网瓜分了小杨哥流量。其中，曾因79元眉笔事件而引起争议的李佳琦在今年再次展现了非凡实力，一举夺得了淘宝双11首日的销售冠军宝座。k总、听泉鉴宝、董艳颖、木森等新人主播迅速崭露头角，另一方面，辛巴、骆王宇等老主播纷纷复出。</p>
-<p class="image-wrapper"><img data-img-size-val="700,306" src="https://img.36krcdn.com/hsossms/20241112/v2_a7539c0fbed2402fa7c37633728f9a46@813924438_oswg199436oswg700oswg306_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>第三方数据显示，今年抖音双十一大促带货达人榜单(10月18日-11月10日)的前五分别为新疆和田玉老郑、与辉同行、广东夫妇、贾乃亮、小北珠宝。其中前四名的销售额均超过7亿元，形成断层领先优势。双十一大促尚未完全结束，榜单第10名竞争激烈，如刘媛媛、董先生、琦儿等目前的销售额都在3亿元左右，比较接近。</p>
-<p>相信经过这个双十一，小杨哥深切的感受到了什么叫流量的反噬如同洪水猛兽。这种“一键清零”的惩罚，正是“由俭入奢易，由奢入俭难”的真实写照。或许也正因如此，小杨哥才会加快转战海外布局。</p>
-<h2><strong>等不及了的小杨哥，布局东南亚市场</strong></h2>
-<p>近日，在第三方招聘软件上，小杨哥背后的三只羊厦门分公司正在招募TikTok东南亚小店运营。招聘信息显示，月薪5000-8000元。有媒体尝试和负责招聘的相关人员沟通，对方表示，这份工作是面向东南亚市场，但是在国内工作，主要负责运营TikTok小店，负责与达人进行建联，进行短视频和直播带货，投流以及数据监控等。</p>
-<p class="image-wrapper"><img data-img-size-val="831,1041" src="https://img.36krcdn.com/hsossms/20241112/v2_4aaf2c77e802477aa655a251b4219a18@813924438_oswg283579oswg831oswg1041_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>与此同时，三只羊网络出海的抖音账号“TikTok事业部(三只羊)”也在近日接连发布多条招募信息，招募短视频带货剪辑师，向这些剪辑师免费开放TikTok直播回放的授权，即切片带货，并且予以橱窗扶持和投流扶持。</p>
-<p class="image-wrapper"><img data-img-size-val="641,1028" src="https://img.36krcdn.com/hsossms/20241112/v2_23b18a72425c472a9a98ec83744732e4@813924438_oswg495675oswg641oswg1028_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>实际上，在TikTok电商板块，三只羊一直有在试水。2023年7月，三只羊进军TikTok电商，成立了海外MCN机构Three Sheep Network。2024年1月10日，三只羊网络与新加坡本地达人@shopwithsasax合作进行了首场带货直播，一举创下了TikTok电商板块在新加坡地区的新纪录，直播间同时登顶新加坡本地榜第一。</p>
-<p class="image-wrapper"><img data-img-size-val="554,960" src="https://img.36krcdn.com/hsossms/20241112/v2_911afdd5d1d24f29a63bd86cda15604c@813924438_oswg244434oswg554oswg960_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>可以看到，小杨哥在海外的计划与国内近乎一致，依托这些主播，三只羊网络正在试图将直播切片模式，复制到海外，并成为拓宽海外业务的一大利器，而切片带货一度是小杨哥在国内崛起为头部主播的一大助力。</p>
-<p>今年8月，三只羊还与极兔速递签署全球战略合作协议，加速布局东南亚及全球市场业务。小杨哥的团队曾对外表示，在不久的将来，三只羊会进入更多海外市场，寻找更多新的流量。据了解，目前三只羊集团海外业务已延伸至新加坡、马来西亚、泰国、越南、美国等市场。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,527" src="https://img.36krcdn.com/hsossms/20241112/v2_f39c5033c3a743948a7ead165e0c42c7@813924438_oswg737200oswg1080oswg527_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>科技旋涡认为，国内直播电商市场的增长已经放缓，此次的无缘双十一更是坚定了小杨哥开拓海外业务的决心。海外直播带货的优势在于能够触及更广泛的市场，找到新的增长点，不止是小杨哥，其它主播也有相关布局。可以预见的是，海外的电商直播将面临着更加激烈的竞争。</p>
-<h2><strong>电商出海，是良策也是挑战</strong></h2>
-<p>据艾媒咨询预测，2024年中国直播电商市场规模有望达到19083亿元，但其增速已从2018年的预计600%大幅下降至15%。这一显著的放缓趋势，无疑加剧了直播电商行业的紧迫感。与之形成鲜明对比的是，海外市场展现出巨大的增长潜力。2025年，中国跨境直播电商市场规模预计从2023年的2845.8亿飙升至8287亿元。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20241112/v2_e4e70329ceb4441cac777539b6224416@813924438_oswg195058oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>基于此，三只羊、东方甄选、无忧传媒、遥望、交个朋友、辛巴等国内MCN机构、主播布局出海业务，甚至在海外搭建团队，招募当地人才。</p>
-<p>不过，在出海的过程中，MCN机构和明星均会遇到不少难题，比如对海外市场的文化特性、消费习惯以及法律法规的不熟悉，短期内无法快速制定出适应当地市场的拓展策略，如果只是简单的借用国内的成绩和光环，可能难以达到预期效果，于是，联合海外达人直播带货，成了更为可行方式。</p>
-<p>今年7月份，三只羊网络和越南主播合作的一场直播，是为某国货品牌做的专场直播，首播的商品交易总额为287483370越南盾，约合人民币8.2万元。和三只羊在抖音的带货数据相相比，显然效果并不足够理想。</p>
-<p class="image-wrapper"><img data-img-size-val="832,858" src="https://img.36krcdn.com/hsossms/20241112/v2_b79fbb703f2345e582d3846eb4bf9d5d@813924438_oswg797383oswg832oswg858_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>事实上，这其中有一定的原因是东南亚的电商潜力还没有被释放出来。交个朋友曾在今年8月的财报电话会上表示，目前海外直播的发展阶段类似于国内抖音在2019至2020年期间。和国内数字支付遍地开花不同的是，目前在马来西亚最大的城市吉隆坡，70%以上的支付场景还需要使用现金，因此在生态上，直播带货普及还有相当长的路要走。</p>
-<p>而除了选择海外主播，或许也可以尝试海外已经拥有大量粉丝的网红人士，降低“试错”成本，或考虑选择精通外语与具有深厚中国文化底蕴的国内人士。例如，李子柒团队制作的体现中国文化色彩的美食短视频在YouTube风靡一时，就说明由文化底蕴提供的情绪价值是中国企业打造海外网红主播的制胜法宝。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,616" src="https://img.36krcdn.com/hsossms/20241112/v2_fa9d5388b3ab43e48292177ccf8557bb@813924438_oswg774103oswg1080oswg616_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>科技旋涡认为，国内电商的流量红利已经见顶，电商行业正从抢蛋糕的增量市场阶段到分蛋糕的存量市场竞争阶段，唯有尽快启动海外市场的布局，找到新的增长点，才能获得竞争主动权。</p>
-<h2><strong>写在最后</strong></h2>
-<p>自9月以来，小杨哥粉丝从最高点的1.23亿跌去了900万。面对舆论的拒绝态度和官方监督整改的严格，错过双十一似乎成了压倒骆驼的最后一根稻草，虽然出海困难重重，但对小杨哥来说，海外已经从一道选择题，变成了一道必选题。</p>
-<p>直播公司扎堆出海，背后的根本原因是在国内“卷”到天花板的流量空间，和海外的广阔发展前景。受益于强大的产业链供给能力和商品性价比优势，直播出海在商业化带货方面具有先天优势。但面临文化差异、消费习惯不同，前景是光明与广阔的出海业务，在当下来看仍有不小的挑战。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/GJDwtVccEAZK9ySIQfp6zQ" rel="noopener noreferrer nofollow" target="_blank">“科技旋涡”</a>，作者：孙浩南，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033236529132674</guid><pubDate>Tue, 12 Nov 2024 19:54:00 +0800</pubDate></item><item><title>回来的李子柒，热搜第一、播放第一、讨论第一</title><link>https://36kr.com/p/3033235387379715</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 12 Nov 2024 20:30:28 +0800</lastBuildDate><pubDate>Tue, 12 Nov 2024 20:30:28 +0800</pubDate><item><title>回来的李子柒，热搜第一、播放第一、讨论第一</title><link>https://36kr.com/p/3033235387379715</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>李子柒真的回来了！</p>
 <p>不愧是开创了田园赛道的田园一姐，此次回归可谓备受瞩目。要知道，此前李子柒已停更近三年时间。</p>
 <p>这期间，关于她停更的原因也是众说纷纭，有传是与合作方存在分歧等。长时间的停更也让部分用户产生了质疑，担心她是否还能重现昔日风采，能否继续带来那些如诗如画的田园生活视频。</p>
@@ -466,4 +48,372 @@
 <p>既然内容好、名气大、口碑高，李子柒为何迟迟不回归内容赛道呢？对此有网友认为，是因为此前的合约纠纷，李子柒无法“正常更新内容和开展商业活动”。还有网友认为，李子柒其实在静待佳机，基于她的知名度和口碑，她的视频亮相需要更加极致，才能再次惊艳众人、引爆全网，不负粉丝们的期待。</p>
 <p>毕竟创造过神话的人，想要再制造神话，见过神话的网友，也想再见神话。</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY0MzEyNg==&amp;mid=2651650121&amp;idx=2&amp;sn=14d1934ca883edc0fcb9cb21056d0cda&amp;chksm=bcc8d91c7fa4f691abe467e07e63ddd2ae499c3c6eae5f263e1e3693444d3c7fbee33adc9dcc&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“骨朵网络影视”（ID：guduowlj）</a>，作者：宝珠‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033235387379715</guid><pubDate>Tue, 12 Nov 2024 19:56:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033235387379715</guid><pubDate>Tue, 12 Nov 2024 19:56:00 +0800</pubDate></item><item><title>从“舶来品”到“新国潮”，中国咖啡永不眠</title><link>https://36kr.com/p/3033232140317833</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>库迪的咖啡的陆正耀，被执行近20亿！库迪声称毫无影响，估计陆正耀自己都不相信！ </p>
+<p>从天眼查的信息来看，目前陆正耀被执行总金额近30亿元。</p>
+<p>被踢出瑞幸后，陆正耀先后做了趣小面、预制菜等连锁餐饮，目前都是一地鸡毛。就像曾经的姚麦时期的休斯顿火箭，生的伟大，死的窝囊。</p>
+<p>规模最大的库迪咖啡，其实一直游走生死的边缘，加盟商不赚钱，总部不断传出现金流断裂的边缘。‍‍‍‍‍</p>
+<p>是陆正耀错了吗？‍</p>
+<p>于这个“万众产新”的时代而言，陆正耀先生是伟大的先行者，用他的胆识用智慧，开创了新的天地。</p>
+<p>如果没有瑞幸咖啡，中国咖啡产一定不会如今天一样繁荣。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,718" src="https://img.36krcdn.com/hsossms/20241112/v2_94e6156bd9ea40b78e9fe070d98592e9@6036232_oswg65846oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但从最基本的开店来看，陆正耀先生错的一塌糊涂，就像当年重金中式糕点和线下零售的vc 们一样。‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</p>
+<p>大家错在了：</p>
+<p>只关注金融模型和估值算法，而忽略生意的本质。</p>
+<p>忽略了消费需求本身，忽略每一个消费者是真实的个体，而非一个数据。</p>
+<p>忽略了每一个线下门店的流量和营业是有上线的。‍‍‍‍‍</p>
+<p>就像滴灌通，他的风险其实不是到底是不是债，是不是高利贷？非股非债的金融产品真的存在吗？</p>
+<p>所有连锁门店的生意，应该关注门店的运营效率、产品本身、选址等细节的问题。如果门店的运营效率有问题，你前期所有在办公室所出来的财务模型，都不成立。</p>
+<p>一旦出现风险因素，后期收益无法保证，注定是一地鸡毛。</p>
+<p>那么，在 VC助推下的中国咖啡今天究竟发展的如何？</p>
+<p>从数据看，中国在2023年末凭借5万多家的咖啡馆，成为全球咖啡馆最多的国家。</p>
+<p>行业渗透率不断提高，中国咖啡市场也发生了显著的变化，门店从直营到加盟、联营；产品上从传统意式咖啡到奶咖、特调、果咖。</p>
+<h2><strong>“瑞幸”们引领中国本土咖啡热</strong></h2>
+<p>你有没有为9.9元的咖啡下过单？过去一年，如果把这个问题抛给消费者，95%消费者的答案是肯定的。</p>
+<p>去年2月，本土连锁咖啡瑞幸前高管创立的库迪咖啡横空出世，开启“百城千店咖啡狂欢节”活动，一杯咖啡只需要9.9，甚至8.8，剑指瑞幸咖啡的价格带。</p>
+<p>瑞幸果断接招，去年6月达成万店规模之际开启“万店同庆”活动，加入9.9元的低价咖啡竞争中。</p>
+<p>不曾想，星巴克也悄悄推出了低价产品，Tims、挪瓦咖啡相继加入，中国咖啡正式进入9.9元时代。</p>
+<p>剑拔弩张、争相低价的背后，是因为中国咖啡市场是个绝对增量的市场。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1106" src="https://img.36krcdn.com/hsossms/20241112/v2_2b68bbd543c04af3833686cf2017cc0f@6036232_oswg122045oswg1080oswg1106_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>过去三年我国的咖啡消费市场复合增速23.5%，同时期世界平均水平为2%。国内细分赛道中，2023年增速最快的就是咖啡赛道，达到了34.6%。 </p>
+<p>从市场渗透率看，中国咖啡历史并不长，市场渗透率也不高，2022年人均年饮用咖啡量仅为11.3杯。即便是在咖啡最受欢迎的上海，人均年消费量也只有20杯，对比美国和日本的380和280杯。</p>
+<p>想要抓住增量市场，规模化和产品力都是品牌们比拼的关键。</p>
+<p>市场初级阶段，各品牌想要破局，规模化自然是头等大事。也是去年，“库迪、瑞幸们”的规模之战更加激烈。先是库迪短短七个月，就开始了3000家门店；紧接着，瑞幸“万店目标”达成后，开放了带店加盟模式。</p>
+<p>瑞幸财报显示，截至2023年第三季度末，瑞幸门店总数已达13273家，其中自营门店8807家，加盟门店4466家。</p>
+<p>竞争如此激烈的市场，品牌们不仅要从低价吸引消费者，还要在产品力上下功夫。</p>
+<p>一个很明显的变化是，中国消费者的咖饮习惯正在变得日常化、多元化。不同于以美式、拿铁、意式浓缩需求为主的海外市场，咖啡本身就是舶来品，中国咖啡市场处于初级阶段，不少“咖啡小白”更喜欢奶咖、果咖、特调一类偏向多重口感的咖啡。</p>
+<p>因此，中国本土咖啡除了“卷”价格外，还在“卷”创新，除了茶咖、酒咖，还有米咖、果咖，甚至出现了基于城市特色的花椒咖啡、冻梨咖啡、柿子咖啡等小众口味。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241112/v2_cff24575463f4120823c622911ea7ec0@6036232_oswg70341oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>去年，最出圈的当属瑞幸与茅台集团的联名单品“酱香拿铁”，在2023年9月上市首日销量破542万杯，销售额破1亿元；将时间线拉长，爆款“生椰拿铁”的出现更是开辟了咖啡，甚至茶饮的新思路。</p>
+<p>扎根于本土市场，口感上的创新和本土化，让中国本土咖啡品牌更了解中国消费者的“咖啡胃”，也是瑞幸、库迪等咖啡品牌快速崛起的关键。</p>
+<h2><strong>千亿规模，中国咖啡市场持续升温</strong></h2>
+<p>随着本土咖啡品牌的崛起，咖啡也成为国人闲暇之余的饮品，上班喝咖啡、空闲喝咖啡也成为国人的生活方式。</p>
+<p>行业的热闹催生了整个咖啡产业链的发展与成熟。</p>
+<p>如果回到最初的速溶咖啡时代，人们对咖啡豆的印象是模糊的；如今的一杯现制作咖啡的灵魂是咖啡豆，消费者也越来越注重咖啡豆的口味、产地和品质，因此往上游看，当下的咖啡市场，咖啡豆的选材与种植很关键。</p>
+<p>在本土咖啡品牌尚未崛起时，阿拉比卡豆是当之无愧的主角，现如今，随着瑞幸、Manner、Seesaw等多家本土连锁咖啡品牌都推出以云南豆为原材的产品，云南豆也逐渐受到关注。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,716" src="https://img.36krcdn.com/hsossms/20241112/v2_af795d8ca676421fb60683cf199a88ad@6036232_oswg99480oswg1080oswg716_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>云南省农业农村厅数据显示，截至2022年，云南咖啡种植面积达130万亩，咖啡生豆产量达11万吨，农业产值超33亿元，面积和产量均占全国的98%以上。 </p>
+<p>但与“国际豆”相比，云南豆的声量还甚少，更重要的是，据昆明日报报道，云南咖啡精品化率不足8%，低于全球10%的咖啡精品化率，而低精品率，意味着没有议价权。</p>
+<p>可以预见的是，随着中国咖啡市场不断发展，也在倒逼上游产业链的精细化发展。</p>
+<p>此外，把咖啡豆磨成粉，再把咖啡粉萃取成咖啡液，原料形态的变化依托的是咖啡设备，这无形之中催生了咖啡设备行业。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,846" src="https://img.36krcdn.com/hsossms/20241112/v2_d82616fb06274fd88d74309a89b465df@6036232_oswg85902oswg1080oswg846_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Statista预测，2024年全球咖啡机市场收入将达到126.3亿美元。在速卖通总结的2023年跨境电商年度十大热卖商品中，咖啡机与扫地机器人、宠物用品一起，排在前三位。</p>
+<p>需求多，规模大，咖啡机也告别了进口品牌的高价位。比如，九阳旗下Onecup胶囊机售价在400元-1400元之间，定价基本低于欧美品牌同类产品。</p>
+<p>放眼中游，整个中国咖啡市场连锁品牌变多，不同模式和价格带越来越丰富。</p>
+<p class="image-wrapper"><img data-img-size-val="657,410" src="https://img.36krcdn.com/hsossms/20241112/v2_ff539e080e5742d190a628105ad908bd@6036232_oswg48067oswg657oswg410_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Allegra Group旗下研究机构World Coffee Portal发布的报告显示，2023年中国的咖啡门店量接近5万家。细数之下，除了瑞幸占据五分之一外，星巴克截至2023年第四季度中国门店总数达到6806家，库迪门店也突破6000家，幸运咖门店达到近3000家……</p>
+<p>值得注意的是，除了连锁化的“快咖啡”品牌占据10元及以下价格带，星巴克占据30元+价格带，一些精品化咖啡的发展也不容忽视，他们占据15-20元价格带，并获得资本的关注。</p>
+<p>比如，先后获得来自今日资本、H Capital、淡马锡、美团龙珠与字节跳动投资的精品咖啡品牌Manner,开出了第1000家直营店；M stand获得了小红书领投的数亿元投资，门店数超500家。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1079" src="https://img.36krcdn.com/hsossms/20241112/v2_5bbecfa40add4b28be2370654bbd318c@6036232_oswg171939oswg1080oswg1079_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>可以说，在中国咖啡市场需求端，咖啡已经不再是传统意义上提神醒脑的功能性饮品，而深入到消费者的日常生活中，甚至满足社交需求，有人选择线上提前下单，到店即拿即走；也有人愿意约上三两好友喝个“下午茶”。</p>
+<h2><strong>中国咖啡进入下半场</strong></h2>
+<p>进入到2024年，中国咖啡市场开始进入下半场。</p>
+<p>首先的变化是，9.9元咖啡变少了。瑞幸的优惠券不再定时定点发放，库迪也在悄悄涨价。</p>
+<p>更为现实的因素是，去年执着低价是为了寻找增量、扩大市场，但现在低价带来的不良后果也在慢慢浮现。一方面，这给了参与其中的品牌运营和成本带来很大压力，另一方面这对品牌供应链和管理也是一种考验。</p>
+<p>以库迪为例，社交平台上出现不少加盟商吐槽的声音，热门原料缺货严重、爆品周边不足；也有不少消费者表示，产品品控不一等问题；更严重的，不少加盟商陷入转让设备、关闭门店的亏损中。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1296" src="https://img.36krcdn.com/hsossms/20241112/v2_b15d1cfdd4304d618cf487c2bde496bc@6036232_oswg310036oswg1080oswg1296_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>本质上，这些都是扩张速度过快，品牌供应链和管理没有跟上的结果。如果没有稳定的供应链，就没有稳定的口感，当价格回归理性时，品牌依旧吸引不到消费者。</p>
+<p>某种程度上，激烈的价格战扰乱了原本定价高的咖啡品牌，尤其是精品咖啡。</p>
+<p>按照美国精品咖啡协会的定义，杯测综合评分在80分以上的咖啡豆制作的咖啡可以被称为精品咖啡，其盈利逻辑是消费者愿意为更好的品质买单。</p>
+<p class="image-wrapper"><img data-img-size-val="978,651" src="https://img.36krcdn.com/hsossms/20241112/v2_4bd757e6938c4e218b4fd0d6c430e0da@6036232_oswg60914oswg978oswg651_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>如果说9.9元咖啡卖给的是即拿即走的消费者，那20元以上的精品咖啡是卖给咖啡爱好者们。</p>
+<p>但随着9.9元的咖啡降价，部分对价格敏感的咖啡爱好者开始摇摆，便给少数品牌带来压力。比如，Seesaw在近4个月时间里关闭了近40家门店，占其巅峰时期门店数量的五分之一。</p>
+<p>之所以强调供应链和规模化，是因为这有助于品牌降低成本。比如，中信证券研究显示，直接采购熟豆会导致中间环节多产生20%-30%的溢价，如果能整合生豆和烘焙环节、减少中间渠道，规模上升后成本优势就会更明显。</p>
+<p>据iiMedia Research发布的数据显示，2021年中国咖啡行业市场规模达3817亿元，预计2025年我国咖啡市场规模将达10000亿元，以27.2%的增长率不断上升。</p>
+<p>中国咖啡市场是热闹的，也是残酷的。高度竞争的环境下，品牌们要做的是“酒”不仅要香，也要打破“巷子深”的束缚。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/SYMwPggKrTR-Yy_4KC6UjA" rel="noopener noreferrer nofollow" target="_blank">“消费纪”</a>，作者：十二，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033232140317833</guid><pubDate>Tue, 12 Nov 2024 20:00:00 +0800</pubDate></item><item><title>流量卡，野蛮生长背后的灰色秘密</title><link>https://36kr.com/p/3033227308397446</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>你的第二张手机卡，正在成为一个养活百万人的新产业链。</p>
+<p>这条产业链的从业者涉及电信运营商、电商平台、快递公司、流量卡代理商、UP主等多个环节。</p>
+<p>他们围绕流量卡形成了新的蛋糕。</p>
+<p>对于运营商，流量卡已经成为了实现用户增长的新手段；在京东和天猫等平台上，搜索“流量卡”，不仅会出现许多第三方商家，也成为了官方自营的一项业务；在物流环节，顺丰和京东快递已经专门的流量卡激活小哥,带着设备和卡片满城跑，"每天根本忙不过来！”；在哔哩哔哩等视频网站里，推广流量卡的UP主时常出现在首页黄金位置。</p>
+<p class="image-wrapper"><img data-img-size-val="828,1139" src="https://img.36krcdn.com/hsossms/20241112/v2_e3faf9be20da4921be033be0e9149234@5457197_oswg166552oswg828oswg1139_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>一块小小的流量卡能形成如此大的生态体系，即有移动互联网生态的催动，也有电信运营商运营政策”倒逼“的原因。</p>
+<p>不过在这个行业高速增长的同时，伴生着的还有野蛮生长的杂草。</p>
+<h2><strong>01 被逼出来的第二张卡</strong></h2>
+<p>以短视频、直播、音乐等为代表的移动互联网应用的流行，给用户带来了巨大的流量需求。</p>
+<p>工信部数据显示，2024年5月，国内手机用户户均移动互联网接入流量DOU（平均每户每月上网流量）达到18.54GB/户/月，某些省区的DOU已接近30GB/户/月。</p>
+<p>然而，与用户对于流量需求形成鲜明对比的是电信运营商在流量方面"扣扣索索“。</p>
+<p>新商业派发现，以江苏地区中国移动、联通、电信官方APP中的长期大流量套餐为例，这些套餐均费用不菲。</p>
+<p>其中中国移动 40G流量套餐，办理价格为 128 元/月，中国联通30G流量+500分钟通话套餐，办理价格为129元/月；中国电信30G流量+500分钟通话套餐，原价129元，打折后也高达89元/月。</p>
+<p>高昂的套餐费用，用户们显然吃不消。</p>
+<p>于是在几年前，许多人开始将目光转向了一种新的事物——电商平台上出现的物联网卡，据了解，这些卡本身三大运营商提供给共享单车、指纹解锁等物联网设备使用，有商家解释，“和普通的流量卡不同，只能用流量不能打电话，所以价格相当便宜。“</p>
+<p>由于价格便宜，在一段时间内，物联网卡在电商平台上非常热销。</p>
+<p>不过运营商们也很快发现了这种现象，开始逐步打击这种“钻漏洞”的行为，检测到之后会直接停卡。</p>
+<p>不过，物联卡这件事儿也带了一个新的结果，让运营商们意识到了新的商机。</p>
+<p>毕竟随着手机完成普及，一人一张卡的情况下运营商的业务早已经没有了增长空间。</p>
+<p>唯一的办法就是向友商要增长，于是纷纷针对新用户推出特惠套餐，一时间“老用户不如狗”的呼声四起，携号转网也一度登上热搜。</p>
+<p>不过彼长此消的零和游戏显然不是长久之计，所以便宜大碗的大流量卡也开始逐步推出，常见的套餐内流量从80G到188G不等，但月租价格仅在19-29元之间。</p>
+<p class="image-wrapper"><img data-img-size-val="1024,954" src="https://img.36krcdn.com/hsossms/20241112/v2_64405a98a6a04773815d9ecb58fc6c99@5457197_oswg123026oswg1024oswg954_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但为了防止用户放弃原来的高价套餐，全面奔向大流量卡，运营商们也是绞尽了脑汁。</p>
+<p>首先，这些大流量卡只能通过线上办理，如果去线下的营业厅和网点询问，得到的答案是通通不存在。</p>
+<p>其次，大流量卡的销售只通过第三方进行，比如电商平台和代理商，不会在官方的APP里找到。</p>
+<p>再次，大流量的优惠大部分都很短，通常优惠价格只有1-2年，让用户无法长期使用，只能作为备用卡。</p>
+<p>通过这样的设计，确保了流量卡的定期更换，即带来用户的增长，还最大程度避免冲击基本盘。</p>
+<p>所以和传统套餐里运营商一家通吃不同，围绕着大流量卡形成了代理商+电商平台+快递公司的业务生态，每个链条都能分到一杯羹，但也因为这样的设计，让一些灰色的产物应运而生。</p>
+<h2><strong>02 低价流量卡背后的套路</strong></h2>
+<p>如果你去抖音和淘宝上搜索流量卡，得到的结果可能会刷新你的认知——在这里，免费使用一整年的大流量卡、9元月租200多G的流量卡，激活就送20块钱的大流量卡……比比皆是，主播们在直播间信誓旦旦唾沫横飞。</p>
+<p>但如果此刻已经心潮澎湃的你能够打开一下这些店铺的评论，就会发现真相没那么简单。</p>
+<p class="image-wrapper"><img data-img-size-val="828,1075" src="https://img.36krcdn.com/hsossms/20241112/v2_2d8dc3763d0542398790398da8ef4aac@5457197_oswg305653oswg828oswg1075_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="828,737" src="https://img.36krcdn.com/hsossms/20241112/v2_9eb209aff5104026a4e51c35ea02fcc2@5457197_oswg191359oswg828oswg737_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>按照一些了解内幕的人士透露，目前电商平台上很多所谓的大流量卡都有很多套路：</p>
+<p>第一种是货不对板。比如商家用一种很便宜的流量卡吸引用户下单，但隔天就会告之“审核失败”推销其他的卡，这种情况下，商家店铺的销量起来了，但消费者白白浪费了时间。</p>
+<p>第二种是骗取消费者的个人信息。用户下单的同时需要填写个人姓名和身份证，而商家并没有发货对应的商品（实际上也没有），而是用这些信息给消费者申请了其他的产品。这些产品费用更贵，而且都有合约期，一旦被激活，想退就有高昂违约金。</p>
+<p>第三种是返费陷阱。很多产品商家承诺每个月会补贴10元或者20元花费，但实际上这些补贴需要用户每个月主动去问店铺，如果这个月消费者忘了就补不了了。甚至有些店铺补了几个月就不补了，后续消费者退也退不了，只能自认倒霉。</p>
+<p>第三种是虚假宣传陷阱。澎湃新闻曾报道，有消费者在淘宝、拼多多等电商平台购买的所谓流量上网手机卡，实为“物联卡”。按卖家提供的教程激活并预充购买套餐后，遭遇商家跑路，充值费用打水漂的情况。</p>
+<p>江苏公安厅也曾经发布一个案例，消费者陈某在某音上购买了“月付19元得185G流量”的流量卡，该流量卡被激活后发现所谓的“月付19元”是个幌子，套餐包含流量和费用都不对，结果致电10086询问是否可以销户，被告知该流量卡归属地是浙江宁波，需本人携带身份证去当地营业厅办理，而且该流量卡有12个月协议期，协议期内取消需承担违约金。陈某想找商家维权，却发现该某音店铺已经关闭。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,627" src="https://img.36krcdn.com/hsossms/20241112/v2_656840d173cc40849258c565f2b04eb7@5457197_oswg429466oswg1080oswg627_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>03 “灰色地带”的流量卡代理产业链</strong></h2>
+<p>由于运营商借助代理模式大力发展流量卡业务，因此流量卡代理产业也得到了迅速的发展，比如有平台宣称注册的代理商已经超过了一百万人。</p>
+<p>但是由于缺乏公开监管，这个行业也出现了很多多的乱象。</p>
+<p>在网上搜索，可以发现目前有多个不同名称的流量卡代理平台,这些代理平台以非常诱人的条件来吸引普通人加盟。</p>
+<p class="image-wrapper"><img data-img-size-val="1056,261" src="https://img.36krcdn.com/hsossms/20241112/v2_c2cc2c0ca97a42abb3252b2afd048ee5@5457197_oswg44677oswg1056oswg261_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而，诱人收益的背后，或许藏着难以防备的骗局。</p>
+<p><strong>首先，虽然代理平台名目繁多，但是真假难辨。</strong></p>
+<p>在网络上搜索同一个平台的名字，结果会出现很多的网站，这些网站网址各不相同，网站也非常粗糙，联系人往往是个人手机号，不知道谁是“李逵”谁是“李鬼”。这种信息的模糊，为各种不法行为提供了空间。</p>
+<p><strong>其次，流量卡代理野蛮增长，但也骗局丛生。</strong></p>
+<p>“通信行业可以说现在是一个“群雄争霸”的状态，各路“妖魔鬼怪”齐聚通信平台分一杯羹！”有行业人士表示，目前</p>
+<p>行业存在很多的骗局，常见的比如高佣政策骗局、偷单骗局、虚假宣传骗局、跑路骗局等。</p>
+<p>以高佣骗局为例，有些团队或者个人随便买个分销系统，随意调佣金价格，以高佣为诱惑吸引小白入行，等到结算佣金的时候，就会10单结7单的形式结算，如果单量大偶遇没有后台的数据，而且很难被发现，最终这些团队吃掉中间的利润。</p>
+<p>而偷单骗局则是将下级代理的单子偷偷算成自己的，“客户下单成功，就会操作后台更改，让下级代理以为申请失败，然后在偷给客户发卡，佣金当然算成自己的”。</p>
+<p>跑路骗局则更加恶劣，“有些不良商家忽悠刚入行的代理拉客户，把佣金调的很高。等到结算的时候直接系统关闭，佣金全部归自己。”</p>
+<p><strong>第三，在模式上流量卡代理模式存在着“传销”的风险。</strong></p>
+<p>据观察，由于佣金和层级挂钩，而且上级还能从下级的佣金中获得提成，许多号卡代理体系中存在着超过三层以上的组织体系。</p>
+<p>比如某平台的代理商分为金钻代理、黑钻代理、一级代理、二级代理、普通代理等五个层级，已经远远超过了两个曾经的合法边界。</p>
+<p>根据2013年两高一部《关于办理组织领导传销活动刑事案件适用法律若干问题的意见》“关于传销组织层级及人数的认定问题”中表示，组织内部参与传销活动人员在三十人以上且层级在三级以上的，应当对组织者、领导者追究刑事责任。”</p>
+<p>而这些问题的背后，流量卡始终是一个“灰色”的地带。</p>
+<p>出于利益的考虑，无论是运营商还是代理平台都不愿意公开宣传这项业务，有从业者表示，“有些代理拿着招牌去营业厅附近推广手机卡，影响了营业厅的正常业绩，从而导致平台被运营商处罚。”</p>
+<p>而从更大的视角来看，流量卡灰色业务也是现阶段用户需求与产业发展不匹配的畸形产物，但产业会向前发展，或许有一天消费者再也不会为获得一张流量卡而烦恼。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/V7Q09t6_tBCrkuPm8g3Rew" rel="noopener noreferrer nofollow" target="_blank">“新商业派”</a>，作者：我是小旋风，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033227308397446</guid><pubDate>Tue, 12 Nov 2024 20:03:00 +0800</pubDate></item><item><title>INMO Air 2：消费级AR，一个弥足珍贵的“失败”案例</title><link>https://36kr.com/p/3033214419940231</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20241112/v2_5216a28e52524f8ba3e4910eccd0ebd5@5900414_oswg87737oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Meta不计成本作出了Orion这一接近消费级AR眼镜之后，彭博社爆料苹果启动Atla“智能眼镜”项目，OpenAI招募了前Meta公司Orion增强现实眼镜项目的前负责人Caitlin Kalinowski，也在酝酿在AI硬件的动作。</p>
+<p>因为LLM的突破，这一波狼来了，对于AR眼镜来说，可能从根本上已经不同以往。在谈这一波AI+AR眼镜热潮前，有一家在国内甚少被讨论的AR眼镜公司，INMO，它的“失败”案例值得被研究。</p>
+<h2><strong>01 特立独行背后</strong></h2>
+<p>曾经有一个「AR四小龙」概念 ，将INMO 排第四。 </p>
+<p>国内消费级AR创业圈子，INMO名气不大，却有一股子莽劲。这家公司在基础技术远未成熟的情况下，十分“严肃”地做出了一台设计正统、功能完整的消费级AR眼镜，而且上市发售了。 </p>
+<p>亚洲四小龙、AI 四小龙、再到AR四小龙，是形容它们活力满满，它日必成龙成凤。 2022年开始，国内AR创业圈子里诞生了一个由XREAL、雷鸟创新、Rokid、INMO影目组成的「AR四小龙」行业概念，它们代表着中国消费级AR的希望之星。 但排行老四的 INMO 不似小龙，更像是中世纪的古典骑士，那种正经、严肃、笨拙、悲情的堂吉柯德式骑士。 </p>
+<p>INMO 存在感相当弱，特别是与其他“三小龙”对比。XREAL号称全球消费级AR市场份额领先，关键的BirdBath光学模组、微机电、整机ID确实强一些，多个早期BirdBath方案眼镜在国外被大量引用讨论；雷鸟创新脱胎于TCL创新实验室，在近眼显示光学设计上积累know-how，还敢在光引擎上尝试RGB全彩的Micro LED方案；Rokid累计融资金额最多，B端C端双拳出击，创始人祝铭明的创业团队阵容豪华，有教育、数字文化、娱乐、旅游、地方机构的“朋友圈生态”，而且硬件供应链资源属于独一档。相比之下，INMO影目科技，似乎找不到一些足够差异化足够印象深刻的特征，能精准描述。</p>
+<p>如果要给 INMO贴个标签，产品路线特立独行，「顽固又硬核」。 </p>
+<p>相比Hololens和Magic Leap 这种「AR头盔」，集成了大量传感器、电池、专属算力芯片的工业级AR眼镜，INMO AIr2 更接近真正的消费级AR眼镜，无论它一眼看上去的体积，产品原理还是实际功能，完整又「极简」。 </p>
+<p>INMO Air 2不同于XREAL、雷鸟、Rokid 三家Air系列消费级AR眼镜，在空间中虚拟一块固定尺寸的「大屏幕」主打观影和游戏，强调空间显示功能，INMO Air 2有号称最为轻量级的SLAM，有基本的虚实交互，透光率更高。 </p>
+<p class="image-wrapper"><img data-img-size-val="686,386" src="https://img.36krcdn.com/hsossms/20241112/v2_a67d0bac0a674a9293c4cebaa324f5f1@5900414_oswg39104oswg686oswg386_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>也不同于OPPO Air、李未可眼镜以信息提示、翻译场景为主，产品多用单绿色Micro LED配合衍射光波导，INMO Air 2 在光波导方案上，实现了全彩色显示而非仅仅显示绿色。而类似OPPO、李未可的信息提示光波导AR眼镜，在使用场景、刚需程度、使用频率、出货量上，可能还比不上雷鸟、XREAL、Rokid三家BirdBath原理的观影眼镜。 </p>
+<p>INMO特立独行在于，它在基础技术还未成熟的情况下，硬要做出一套有基础AR功能、针对消费级可正常穿戴的日常眼镜，一体式而非分体式，计算、传感、电池、显示都高度集成在眼镜本体，形态接近下一代消费电子。2022年10月底发布，2023年4月才正式上市的INMO Air 2，采用了截然不同，或者说极为罕见、独一无二的硅基OLED+阵列光波导产品方案。 </p>
+<h2><strong>02 消费级AR的不可能三角</strong></h2>
+<p>AR眼镜的产品原理，说起来很简单：</p>
+<p><strong>首先，将微显示屏的光学图像，以微型投影仪的方式发射出去。实现组件就是所谓的光引擎或者眼镜的“光机”</strong></p>
+<p><strong>其次，让图像显示的数字内容跟现实的光线“混合”在一起，以某种设计好的方式传输进入眼睛。这涉及的过程就是光传输，实现组件就是光学模组，比如BirdBath透镜组合、自由曲面透镜、衍射或者阵列光波导。</strong></p>
+<p>微显示屏是第一道巨坑，而且是绕不开的成本大头。目前三种的主流微显示屏，硅基液晶（LCoS）、硅基OLED(Micro OLED）、Micro LED，它们都是硅基板而非玻璃基板，在很小的显示面积上实现极高的像素密度，类似芯片的方式“种植”微显示器，制造过程同时涉及半导体和先进显示。</p>
+<p>硅基液晶目前在分辨率、全彩显示方面性能优异。但问题在于，它并不属于自发光的直接显示，发光器件经过液晶层的相位变化光线调制和极化，会有层内的各种反射、散射损失。</p>
+<p class="image-wrapper"><img data-img-size-val="800,531" src="https://img.36krcdn.com/hsossms/20241112/v2_79de307830f64164b818bc974b87551a@5900414_oswg326241oswg800oswg531_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>如今的LCoS光引擎先以R、G、B三色panel 以半透半反分光，再以PBS棱镜的方式“聚合”在一起，光引擎结构复杂体积难以大幅压缩，而且出射图像亮度不够，经过传输后入眼亮度低，这是AR眼镜最关键和最致命的问题。</p>
+<p class="image-wrapper"><img data-img-size-val="603,297" src="https://img.36krcdn.com/hsossms/20241112/v2_dbdd42ca23054612aab31692d15c2179@5900414_oswg23648oswg603oswg297_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>硅基OLED作为目前的主流方案，OLED自发光组件，结构简单、体积小、色彩表现良好。但问题是采用先进制程压缩单像素面积、进一步提升分辨率的时候，良率低，成本高，高分辨率面板价格非常昂贵。 </p>
+<p>微显示屏作为新兴显示产业，终端品牌都需要从供应链厂商采购，Apple Vision Pro使用了2块索尼4K分辨率的硅基OLED微显示屏作为内屏。之前媒体流传的BOM清单显示，售价3499美元的Apple Vision Pro硬件物料成本约 1509 美元，其中索尼供应的两片4K分辨率OLED内屏一片350美元，合计 700 美元，几乎占据了物料成本的一半，为成本最高的零组件。相比之下，台积电代工的M2 处理器仅需 120 美元。 </p>
+<p>天价Apple Vision Pro如今销量惨淡到被传停产，索尼的4K分辨率微显示屏可谓“功不可没”。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,644" src="https://img.36krcdn.com/hsossms/20241112/v2_6d6f9eded48743ceb52e4ed8ab1d165d@5900414_oswg71527oswg1080oswg644_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>硅基OLED的另一个致命问题，是亮度依然不够高，覆盖不了白天日光环境，特别是跟只有1%光效率衍射波导组合在一起使用的时候。</p>
+<p>Micro LED是最终极最理想的微显示屏，无机材料寿命长，也是自发光原理，超高亮度远超硅基液晶和硅基OLED，色彩饱和度和对比度也是最佳。但受限于基础技术的问题，没有办法在单片微显示屏面板上实现RGB三色像素集成，换句话说，它连彩色显示都很难做到，只能采取工程化的办法，而且高分辨率微显示面板生产制造非常难，同样巨贵无比。 </p>
+<p>Micro LED要实现彩色显示，要么通过三块R、G、B小面板「合光」，三个控制板加合光棱镜，即JBD的x-cube棱镜方案，要么是还在实验室里的堆叠像素方案。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,682" src="https://img.36krcdn.com/hsossms/20241112/v2_98c87b7e887c42399d484013c57923a9@5900414_oswg50798oswg1080oswg682_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Micro LED目前的R、G、B三种面板的无机发光材料底层物理过程迥异，亮度一致性差异很大，而要将Micro LED分辨率提升到2K、4K，面临一系列基础物理、大规模生产制造良品率问题，理想的高分辨率Micro LED，成本也是天价。 </p>
+<p>一句话总结，硅基液晶亮度不够且光引擎组件很难小型化；硅基OLED亮度勉强，分辨率高但是成本也高；Micro LED最理想但不成熟，连彩色显示都困难，只有单绿色光引擎可以达标。 </p>
+<p>说了这么多，这还是微显示屏的第一个坑。第二个坑，光传输组件，同样困难无比。</p>
+<p>AR眼镜能够正常看清外界，要求它能像普通的眼镜一样高透光，与此同时，光引擎出射的数字内容和外界的真实光线，也需要“混合”一起进入眼睛。</p>
+<p>BirdBath和自由曲面方案是一组透镜组合，将眼镜顶部光引擎发出的图像光线，经过反射、折射、对焦等设计好的光路，传导到眼睛，这个方案不可避免在眼睛前方设计一个透光率不高的半透射半反射镜片。BirdBath和自由曲面眼镜，像XREAL、雷鸟、Rokid的Air系列眼镜，目前只有20%左右的透光率，只能是「墨镜」，最佳使用场景是观影。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,567" src="https://img.36krcdn.com/hsossms/20241112/v2_f9fea91bd248417bbb47c806ab0debfb@5900414_oswg21604oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而像Apple Vision Pro这样的VR眼镜，干脆直接把“屏幕”放在眼前，设计一个非常复杂的折反射光学镜片组合，把图像光传输到眼睛。VR挡住所有前方的自然光线，依靠摄像头才能看清外界，这就是常说的依靠摄像头“透视”的VST方案。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20241112/v2_c5826a70d7da4c409a9fa2ff393a19d6@5900414_oswg54857oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>摄像头传输画面的延迟、画面刷新率、图像畸变导致的眩晕，以及难以规避的VAC视觉辐辏冲突，你只能盯着一定焦距的画面，眼睛会快速疲劳，还有沉重的头盔设计，种种难以改进的佩戴体验。VR已经被市场反复验证了十几年，几乎注定了不会成为C端消费电子的主流，VST原理的眼镜即使是苹果，10年磨一剑的Vision Pro，也避免不了成为吃灰的摆设。 </p>
+<p>AR眼镜像普通眼镜一样能做到光学透视OST，无限景深，还有一个方案，就是光波导。 </p>
+<p>波导技术并不是什么新发明，我们熟悉的光通信系统中，用来传输信号的光纤组成了无数条连接大洋彼岸的海底光缆，就是波导的一种，只不过传输的是我们看不见的红外波段的光。在AR眼镜中，要想光在传输的过程中无损失无泄漏，“全反射”是关键，即光在波导中像只游蛇一样通过来回反射前进而并不会透射出来。 </p>
+<p>光波导总体上可以分为几何光波导（Geometric Waveguide）和衍射光波导（Diffractive Waveguide）两种，几何光波导就是所谓的阵列光波导，也就是文章最开始INMO Air 2使用的那种。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,1059" src="https://img.36krcdn.com/hsossms/20241112/v2_648f63a707384ed698b3987620d6cf1c@5900414_oswg95921oswg1080oswg1059_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>阵列光波导里，耦合的图像光进入波导的一般是一个反射面或者棱镜。 在多轮全反射后光到达眼镜前方时，会遇到一个“半透半反”镜面阵列，耦合图像光再耦出波导，进入眼睛。（图a所示） </p>
+<p>“几何光波导”的概念最先由以色列公司Lumus提出并一直致力于优化迭代，至今差不多快二十年了。它的制造良率问题一直没有根本性的进展。 </p>
+<p>阵列光波导的问题就出在多个“半透半反”(确切说是“部分透部分反”)的镜面。它们是嵌入到玻璃基底里面并且与传输光线形成一个特定角度的表面，每一个镜面会将部分光线反射出波导进入人眼，剩下的光线透射过去继续在波导中前进。 </p>
+<p>阵列光波导，图像质量包括颜色和对比度可以达到很高的水准，而且光传输效率最高可以达到10%左右，比衍射光波导只有1%光效率，优势明显。 但问题在于，阵列光波导工艺流程比较繁冗，特别是“半透半反”镜面阵列的镀膜工艺。 </p>
+<p>由于光在经过多个半透半反镜面阵列传播过程中会越来越少，阵列中五六个镜面的每一个都需要不同的反射透射比(R/T)，以保证整个动眼框范围内的出光量是均匀的。 并且由于几何波导传播的光通常是偏振光，导致每个镜面的镀膜层数可能达到十几甚至几十层。 </p>
+<p>另外，这些镜面是镀膜后层层摞在一起并用特殊的胶水粘合，然后按照一个角度切割出波导的形状，这个过程中镜面之间的平行度和切割的角度都会影响到成像质量。因此，即使每一步工艺都可以达到高良率，这几十步结合起来的总良率却是一个挑战。每一步工艺的失败都可能导致成像出现瑕疵，常见的有背景黑色条纹、出光亮度不均匀、鬼影等。 </p>
+<p>因为阵列光波导难以解决的生产良率问题，以及多个半透半反镜面外观上影响美观的条纹，另一个方向的衍射光波导成为了包括Hololens、Magic Leap 实际应用的主流。而衍射光波导同样也有一堆问题，不同波长可见光衍射角度不一致，彩虹纹、光传输效率低、眼镜前向漏光影响正常的“视觉交流”。 </p>
+<p>除了光引擎和光传输组件的种种技术困难，难有完美的解决方案，更大的FoV（虚拟图像显示视野），更大的EyeBox（适应绝大多数人的双眼瞳距），更高的入眼亮度，对于AR眼镜实际体验也至关重要。行业里，一直围绕着不同微显示屏光引擎设计、光波导基底材料、衍射和阵列光波导在持续改进和努力突破。</p>
+<p><strong>总结来说，性能全面没有短板的微显示屏，OST光学透视原理的高质量图像传输，完整的虚实结合和先进人机交互。这是一体式消费级AR眼镜的的不可能三角。</strong></p>
+<p>回过头来，这也是INMO Air 2的奇葩之处：INMO Air2搭载的珑璟LCE2210V 模组，在光机方面采用Mirco-OLED屏幕，光传输采用阵列光波导全彩双目方案。亮度勉强、分辨率一般但全彩显示效果优秀的硅基OLED屏幕，制造困难但光传输效率更高的阵列光波导，这样的方案，几乎是独此一家。INMO执着于做成一副轻量化+彩色显示+高透光的光波导眼镜。 </p>
+<h2><strong>03 后话，AI眼镜必然是彩色显示的光波导眼镜</strong></h2>
+<p>从2012年Google Glass 正式推出开始，满打满算已超过第十二个年头。消费级AR眼镜有潜力取代智能手机，成为下一代消费电子的「主力」，基本上还停留在痴人说梦的阶段。</p>
+<p>虽然AR眼镜这十多年来一系列新技术层出不穷。</p>
+<p>从深层次创新的角度来说，国外像Hololens引入了v-SLAM、衍射光波导、窄光谱的激光显示；Magic Leap演示了更加轻量化的AR一体机，紧凑强大的LCoS光引擎，大FoV、高分辨率、显示效果出色且能全局和分区调光；国内，Xreal带来了BirdBath光学透镜组合，在硬件成本和显示效果之间达到了较好的平衡，雷鸟尝试更终极的全彩显示MicroLED和光波导组合方案，Rokid则在BirdBath模组上实现了难度较高的SLAM锚定和交互，眼镜与主机和外设一起，意图实现移动办公和移动娱乐。</p>
+<p>还有最近的重磅，Meta Orion眼镜将轻量化、高性能、更好的OST光学显示方案和先进人机交互统统满足，但是以不计成本的方式。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,603" src="https://img.36krcdn.com/hsossms/20241112/v2_3bd09d39109548e186c99159417d3bef@5900414_oswg61114oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Meta Orion极为罕见地将碳化硅晶圆取代玻璃做衍射光波导基底，碳化硅超过2.0的材料折射率将FOV虚像视野提升到70度，可谓前所未有。Meta Orion在一副100克左右的眼镜上集成了来自JBD合色方案的Micro LED全彩显示的光引擎、复杂的多片衍射波导、电池、无线高速数据传输、高精度的眼球追踪、视觉SLAM等完备且先进的AR人机交互手段，还有融合了Meta强大的端侧小模型。</p>
+<p>相比INMO Air 2，Meta Orion也是一款能做到彩色显示的光波导AR眼镜。它满足日常佩戴使用的轻量化设计，高透光、彩色显示，上手体验极佳的AR人机交互，相比INMO Air 2有极大提升，也是AI眼镜目前最好的标杆。但没法大规模量产，成本是惊人的10000美金。</p>
+<p>在基础技术极为原始和粗糙的阶段，在产品可靠性、易用性、大规模生产成本和良率都十分有限的情况下，如何找到PMF，是消费级AR眼镜、通用人形机器人这些下一个10年最具想象力的产品，所普遍面临的困境。</p>
+<p>螺丝壳里造一个道场，角落里的技术高潮解决不了创业公司长期生存问题。当新技术出现，与原有产品产生「核子反应」，内爆出一个一定体量的市场，衍生出能够被验证的使用场景，这样的机遇非常罕见。</p>
+<p>如今，这样的机会恰好出现在AR眼镜上。因为LLM的爆发，生成式AI、多模态端侧模型，AI+AR的结合，是大模型被一致看好的“落地”方式。但是AI眼镜的硬件进展，在大规模高良率生产、成本可控、体验完整且优秀方面，路依然很长，很难。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/9SSYvbLmKi8OHuiGhyAnZw" rel="noopener noreferrer nofollow" target="_blank">“X研究媛”</a>，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033214419940231</guid><pubDate>Tue, 12 Nov 2024 20:09:00 +0800</pubDate></item><item><title>投了美团的中东大佬，拿出10亿美元押注中东金融变革</title><link>https://36kr.com/p/3033094664810505</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近日，一家名为BlueFive Capital的资本在中东成立。 </p>
+<p>而掌管这只基金的，是在中东大名鼎鼎的Hazem Ben-Gacem（夏本佳）。他曾是Investcorp的联席首席执行官。拥有近30年的投资经验，成功领导Investcorp在北美、欧洲、中东、东南亚和中国私募股权投资业务。在其领导下， Investcorp的资产管理规模已经从2018年100亿美元增长到2024年超过500亿美元。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_5eaef9cc8b9b4694aea78bc66b4c8677@000000_oswg481407oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Hazem Ben-Gacem（夏本佳） </p>
+<p>BlueFive Capital总部位于中东，它将活跃于全球南方市场经济体，并在金融服务行业培养跨国领导者，特别是私人财富、保险、公开市场解决方案和另类资产管理——私募股权和实物资产。Hazem Ben-Gacem表示，数字化和技术部署将成为BlueFive Capital所有投资的支柱，它的使命很明确：跳出传统参数思考，将不可能变为可能，为投资者带来有意义的回报。</p>
+<p>在接受CGTN记者采访时，Hazem Ben-Gacem表示，BlueFive Capital旨在通过投资平台，创建连接海湾地区和亚洲（包括中国）的桥梁。BlueFive Capital的资金，很大一部分由世界上两个地区的主权基金赞助，其中以企业为主。通过该平台，中国的北京、上海、深圳和香港证券交易市场可以跟海湾地区证券交易市场联系更加紧密；此外，中国、东南亚、海湾地区的投资者拥有大量的资本，但过去他们基本只能在本地投资，而BlueFive Capital可以帮助他们进入全球金融市场。 </p>
+<p>Hazem Ben-Gacem本身就是一个传奇性的人物，他的故事就像是一部现实版的《华尔街之狼》，从哈佛大学的高材生，到加入Investcorp，并一路成为该资本联席CEO，负责监督该资本在中东的所有业务，包括与海湾合作委员会（GCC）国家的私人和机构关系以及所有投资平台（私募股权、房地产和基础设施板块），并一直担任本公司大多数外部职能的主要代表。</p>
+<p>此外，Hazem Ben-Gacem与中国渊源颇深。他曾负责管理Investcorp在中国、东南亚和日本所有投资业务的扩张，以及在全球范围的技术和基础设施板块投资业务。他还领导Investcorp的全球投资者关系平台，包括负责私人财富平台和机构投资者关系。 </p>
+<p>Hazem Ben-Gacem对中国市场的重视，也让他成为了Investcorp与中国合作的关键人物。在他的牵头下，早在2018年9月，Investcorp就与光大控股展开了初步合作，并且共同设立了首支4.83亿美元基金，专门针对中国市场的新兴科技公司，投资对象包括美团点评、商汤科技、爱奇艺、网易云音乐等国内知名企业。 </p>
+<p>今年9月底，Hazem Ben-Gacem辞去Investcorp联席CEO一职，但仍是Investcorp的执行、运营和风险管理委员会成员，并担Investcorp在阿布扎比证券交易所上市的永续资本投资工具Investcorp Capital plc副主席，以及在纽约证券交易所上市的Investcorp Acquisition董事长。 </p>
+<p>BlueFive Capital的名字灵感来自法蒂玛的手——通常是一只蓝色的手，五根手指向上——这是一个古老的符号，随着时间的推移，许多文化和宗教都接受了它，作为保护和好运的标志。 </p>
+<p>实际上，近年来中国企业出海中东，带动了中国与海湾国家在金融、证券资本领域的合作。就在今年10月底举办的中东峰会上，香港交易所集团行政总裁陈翊庭对外透露香港交易所将在沙特设立中东办事处。 </p>
+<p>香交所此次开设中东办公室，目的是希望与中东海湾地区国家的投资者和企业加强联系，帮助中东地区客户了解香港多元化的金融产品生态圈，把握中国及亚洲增长机遇。 </p>
+<p>“随着中东与亚洲之间的投资日趋活跃，港交所在连接双方资本和机遇方面的作用变得更加重要。利雅得办事处将与集团在北京、伦敦、纽约、上海和新加坡的办事处共同协作，帮助港交所拓展全球布局，并吸引中东客户进入港股这个亚洲最国际化、最多元化的资本市场。”陈翊庭表示。 </p>
+<p>实际上，港交所之所以选择利雅得，也是因为这里与中国近年来的合作越来越密切。沙特最为人熟知的是沙特阿拉伯公共投资基金（PIF）——这是全球最大的主权基金之一，资产管理规模超9300亿美元（超6.6万亿人民币）。2022年，PIF就在香港设立了中国的首个办公室。 </p>
+<p>此后，沙特最大的交易所沙特交易所集团（Saudi Tadawul Group，简称沙交所团）也频繁与中国建立合作，先后与上交所、深交所和港交所签署合作备忘录。未来，沙交所将与中国的证券交易所共同研究推动指数、基金和REITs等产品合作，并探索ETF互通、上市公司交叉上市。这为中国企业出海并在海外上市提供了有价值的探索和思考。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3MDU1MDY1NQ==&amp;mid=2247584210&amp;idx=2&amp;sn=3e5bffe280b23ed858e4394569f5e3b0&amp;chksm=cfc9f9f08d1b14515283c460f211a3028ca9d5c401b5ccdc9bec5a385f4a401f74a55692cb5b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“霞光社”（ID：Globalinsights）</a>，作者：霞光社，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033094664810505</guid><pubDate>Tue, 12 Nov 2024 20:10:00 +0800</pubDate></item><item><title>割不动贵妇，小仙炖们盯上男总裁</title><link>https://36kr.com/p/3033309442912259</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>消费降级的风刮到了“贵妇”圈。</p>
+<p>燕窝，曾是过去十年间消费市场增长最为强劲的赛道之一。数据显示，2016年至2020年，中国燕窝市场规模从70亿元增长至400亿元。增幅一度高达300%，2020年双11数据显示，鲜食燕窝、瓶装燕窝成为健康补品类的一匹黑马，销售增长幅度达到300%。2021年双11，行业增幅也保持在200%以上，增速可谓惊人。</p>
+<p>行业高速发展，赛道内跑出了包括小仙炖、燕之屋在内的多个鲜炖、即食燕窝网红品牌。尤其是小仙炖，背后投资方阵容豪华，有演艺圈明星陈数、章子怡，洪泰基金、360创始人周鸿祎、IDG资本、CMC资本、正心谷等等。</p>
+<p>尽管一直伴随着“智商税”争议，但燕窝的确一直备受部分国人青睐。我国是全球最大的燕窝产品消费市场，有数据统计显示，全世界燕窝99%产自东南亚国家，每年大概有2000-3000吨燕窝产量，2022年按消费量算，中国内地消费者吃掉了全球70%的燕窝相关产品。</p>
+<p>只是现在，燕窝也卖不动了。行业知情人士向Tech星球透露，小仙炖今年618大促期间业绩目标缩减一半，员工被大幅度优化，公司甚至从去年便砍掉了奖金提成等福利。</p>
+<h2><strong>燕窝天花板，年套餐产品卖30万</strong></h2>
+<p>燕窝销量走下坡路，其实从去年便开始了。</p>
+<p>员工层面最先感知到公司的发展走势，知情人士称，小仙炖去年就开始削减员工福利待遇，到手的工资大幅度缩水。今年有的部门更是直接砍掉了三分之二的员工，大促期间的业绩目标也缩减了一半，还没完成。</p>
+<p>不过，对外小仙炖依旧风光无两，其北京一门店销售人员向Tech星球表示，小仙炖是行业类目里连续七年销量第一的品牌。其他品类都是下降的，但燕窝属于大健康，他们北京最大旗舰店，位于SKP商圈，也是疫情期间新开的。</p>
+<p>事实上，即使在行业增速最快的那一年，小仙炖也没能实现盈利。公开资料显示，2020年小仙炖上报2019年营业利润是3293.9万元，实际却是亏损3293.4万元，小仙炖因此被北京市朝阳区统计局予以罚款并警告的处罚。</p>
+<p>不止小仙炖，“燕窝第一股”燕之屋净利润也缩水了一半。</p>
+<p>燕之屋2024年上半年财务报告显示，2024年上半年，燕之屋收入为10.59亿元，同比增长了11.36%，不过归母净利润仅为5808万元，较2023年同期的1.01亿元下滑了42.54%。净利润率也从2023年的11.29%下降到了5.67%，每股盈利为0.12元人民币，较2023年同期的0.23元接近腰斩。</p>
+<p>增收不增利的很大原因在于，品牌将钱花在了营销上。小仙炖背后明星阵容豪华，燕之屋也不遑多让，燕之屋解释称，净利润的减少主要归因于品牌战略的高昂支出，指的正是品牌今年1月和5月签约明星代言人，燕之屋先后宣布签约巩俐和王一博为品牌代言人。</p>
+<p>重营销轻研发，两家在营销上的费用高达数亿元。此前据AI财经社报道，有燕窝从业者表示，小仙炖一年的广告费就高达六七亿。高举高打营销策略之下才成为行业品类第一。燕之屋财报显示，2021年至2023年，燕之屋的广告及推广费用分别为2.69亿元、3.26亿元和1.25亿元，合计约7.2亿元，占营销费用的比重分别为67.4%、64.8%和60%。</p>
+<p>燕窝广告无处不在，一位网友向Tech星球表示，即使不买燕窝，也在电视、抖音、电梯媒体等各个场景看到过燕窝广告。</p>
+<p>重营销让即使高达50%以上毛利率的燕窝行业，也没赚到什么钱。并且，高溢价产品最终由消费者买了单。对于燕窝品牌而言，售价贵可能是影响销量最直接的原因之一。</p>
+<p>据小仙炖门店销售介绍，深度滋补“加里曼之星”系列产品是行业天花板，最贵的产品。燕窝添加量6克，原材料产自加里曼丹岛三大特级产区，分为隔天吃和每天吃两个系列，区别在于每周配送数量不同，一周3瓶或7瓶，单瓶折算下来价格为899元，一克燕窝近150元。该系列年套餐价格是30万元，一周发7瓶，一年发48周。旗下的经典系列价格略为便宜，但单瓶价格也要429元，燕窝含量为5克，年套餐14万元。</p>
+<p>主打鲜炖燕窝的小仙炖，因为保质期短，比燕之屋价格更贵。据了解，小仙炖鲜炖系列保质期为15天，常温系列保质期6个月。燕之屋保质期在一年或三年，其含燕窝量最高的碗燕产品，每碗燕窝含量6.7克，单碗价格近500元，一份30碗礼品近1.5万元。</p>
+<h2><strong>贵妇之外，开始收割男性总裁</strong></h2>
+<p>市场不景气，燕窝品牌开始将市场细分，瞄准各个垂类更广泛的消费人群。</p>
+<p>过去，燕窝主要消费场景为送礼，送朋友、孕妇、长辈、贵人。消费群体以贵妇、中产为主，送礼占比约60%，自用占比约为40%。燕窝门店大多开在城市核心商圈地段，或富人居住圈。产品以干燕窝为主，消费者自己买回去炖煮。后来即食燕窝、鲜炖燕窝崛起，因为食用更便捷，燕窝的消费群开始扩大。</p>
+<p>现在燕窝消费群体越来越年轻化。小仙炖销售称，前几年，燕窝消费者在35岁-70岁之间年龄段多一些，近几年，因为疫情影响，大家对免疫力要求更高了，所以燕窝目标消费群体年龄不断下探，20多岁的年轻人也开始吃燕窝了。</p>
+<p>燕窝营销开始跟年轻人、打工人养生绑定。燕之屋重金签下王一博为代言，目的也比较明显，剑指年轻人群体。</p>
+<p>这与公开数据显示的消费趋势相一致。数据表明，自2019年开始，燕窝开始成为最受90后欢迎的滋补产品。随着年龄层更低的00后群体的进入，燕窝消费群体中年轻一代的消费份额占比已经超过了50%。</p>
+<p>燕窝不再是贵妇消费专属，不再只是女性消费类目，燕窝品牌们甚至开始将商机瞄准男性群体。收割贵妇的同时，还收割男性总裁。</p>
+<p>燕之屋销售向Tech星球表示，公司今年新推出了针对男性消费群体的燕窝-总裁碗燕，该系列产品里不只包含燕窝，还有一整根人参、虫草等更适用于男性的滋补品，一碗价格为500元。</p>
+<p>燕窝行业内卷加剧，从女性群体到男性群体，从中年到青年，从高端到低端，品牌们打造产品矩阵，主打消费者全年龄段覆盖。</p>
+<p>与小仙炖三大产品系列相比，燕之屋推新款的周期更短。今年上半年，燕之屋推出了生椰桃胶燕窝、王一博同款碗燕、整根人参燕窝饮品、燕窝粥、等燕窝肽天然苏打水多款新品。</p>
+<p>产品矩阵以及客群开发，也是品牌们业绩焦虑的一种外化表现。不过，这种年轻化、性别开发战略，能否撑起燕窝品牌增长的野心，效果尚有待观察。</p>
+<p>但一个无法忽略的事实是，因为智商税争议，燕窝产品的营养价值始终无法得到完全认可。去年在港股上市的燕之屋，此前上市之路兜兜转转12年，5次递交上市申请，A股上市不成转战港股。还曾被证监会要求具体说明燕窝营养价值的数据来源，是否有权威出处，是否存在虚假宣传等合规风险。</p>
+<p>燕窝是一个十分具有争议的滋补类目，营养价值有多大，行业很难论证。这注定了它只会是一个小众赛道，少部分圈层消费者购买。虽然燕之屋销售称，他们门店有顾客逢年过节送礼，一次便购买100万元的燕窝产品。但这种消费力的客户，终究是少数。而且现在，这部分少数群体消费也在降级。</p>
+<h2><strong>消费降级，燕窝降价销量大减</strong></h2>
+<p>从高端到平价，燕窝行业自上而下都在经历一段市场低迷期。</p>
+<p>以高端燕窝自称的小仙炖、燕之屋，也打低价策略。譬如，小仙炖推出了常温系列，一瓶价格在220元左右；部分专柜单瓶鲜炖燕窝价格在170多元。</p>
+<p>另一家品牌燕之屋，低价燕窝产品价格甚至下探至50-100元。燕之屋销售称，他们有瓶装系列礼盒，一份960元，里面包含12瓶，每瓶燕窝含量1.2克，一瓶折合80元。针对新顾客，他们还推出了特价尝鲜活动，原价898元一瓶，品尝价140多元。</p>
+<p>干燕窝市场也有波动。一位燕窝批发商向Tech星球透露，跟以前相比，现在燕窝市场差很多。燕窝已经很平民化了，很便宜，以前一公斤燕窝比现在起码贵2000元。今年单上半年价格与现在价格都能相差1500元。吃燕窝的人少了，燕窝非刚需消费，燕窝人群主要以孕妇为主，其次是美容养颜人群，现在除了孕妇，其他人消费者在变少。</p>
+<p>燕窝没有统一价，干燕窝品质参差不齐，基本分为溯源与非溯源两种。所谓溯源燕窝，即每个燕窝上都有一个溯源码，扫码之后可以查到产品产地，属于产品鉴定真伪的一种方法，有溯源码的燕窝价格也更贵。</p>
+<p>市场上燕窝种类基本分为大盏、中盏、小盏、大中小条、燕条。高端小盏燕窝100克1170元左右，中盏100克1200元，大盏100克在1250-1260元左右。即一克干燕窝在11.7-12.6元。上述批发商称，他们主做印尼燕窝批发，工厂在印尼。找他们批发的话，可以指定燕窝，比如想要燕之屋或小仙炖同款燕窝，他们都可以采购到货。上游供货商是一样的，印尼有几十家工厂，像小仙炖、同仁堂燕窝是014工厂供货。</p>
+<p>该批发商还表示，014工厂燕窝比正常燕窝贵出300元/100克，即一克贵30元。零售定价一般加50元，一克燕窝按100元售卖。</p>
+<p>在批发商眼里，燕窝重品质，真正懂燕窝的人不看重牌子。“燕窝品质好就行了，哪个工厂不重要，品牌也不重要，因为品牌都是自己打出来的，大品牌不一定就品质好。”而品质与品牌如果无法划等号，无形中又稀释了小仙炖们的溢价能力。</p>
+<p>另一家燕窝批发商同样表示，品牌溢价让燕窝一克卖到了100元以上。该批发商介绍，他们做一个燕窝单品做了16年，目前给6家同仁堂门店供货，中盏燕窝他们供货价一克十几元，同仁堂零售价可以卖到80-90元，溢价空间比较高。</p>
+<p>尽管已经高溢价，但对高端燕窝品牌而言，并不代表着高利润。线下实体门店正在拖累品牌利润率。燕之屋上半年财报显示，其目前线上收入占总收入比例已经高达60%以上。线下门店高昂的租金成本、人力成本等，都在摊薄品牌利润。</p>
+<p>此外，高端燕窝品牌的挑战还在于，竞争对手林立。既有干燕窝商家的竞争，还有其他跨界玩家阻击。现在不少茶饮门店不仅推出了燕窝奶茶，还在柜台售卖燕窝。北京某奶茶门店，一份添加10克燕窝的鲜炖燕窝桃胶奶茶，价格只要28元。</p>
+<p>高端市场难拓，低端市场竞争也内卷，小仙炖们的处境并不乐观。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU5MTczNjIyNA==&amp;mid=2247601473&amp;idx=1&amp;sn=a9d60cffd7262adf264ad5658159780e&amp;chksm=ff241ca0ecba8a7214fbb04b3b9526b0cf3a61b8107f5383cdf3f40f6c4e24ed63a7d1eeaf6b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Tech星球”（ID：tech618）</a>，作者：翟元元，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033309442912259</guid><pubDate>Tue, 12 Nov 2024 20:14:00 +0800</pubDate></item><item><title>谷歌要帮助国内卖家孵化独立站，可风口已经过去</title><link>https://36kr.com/p/3033339917709569</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>最近几年跨境电商可谓是如火如荼，同时亚马逊的“封店潮”也让一众国内跨境卖家开始布局独立站。得益于社交媒体的庞大用户基础和社交互动特性，独立站背后的卖家也选择了Facebook作为商品销售和推广的基地。眼见Facebook凭借独立站的流量采购生意赚得盆满钵满，谷歌有些坐不住了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_5a691e4ec1f74006926ed0e81ce3d501@000000_oswg80974oswg542oswg600_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>日前，作为谷歌跨境电商加速计划的重要节点，其首个跨境电商加速中心在厦门自贸片区海上世界正式启用。根据谷歌方面的说法，加速中心将聚焦解决独立站卖家起步难、人才招聘难、出海运营难等痛点，通过开展市场教育、生态资源聚合等，来为企业提供一站式独立站孵化服务。</p>
+<p>虽然谷歌想要赋能国内跨境电商卖家的打算看似很好，但现实却是跨境电商独立站风口已经过了，现在入场有些晚，整个跨境电商赛道的玩法已经发生变化。事实上，跨境电商独立建站已经出现许久，但独立站的真正风口是在2021夏季开始出现，并于2022年达到极盛。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_6b969933f48349ba8fa1e8f457225777@000000_oswg45473oswg600oswg355_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>自2021年5月，亚马逊开始针对涉及“不当使用评论功能”、“向消费者索取虚假评论”、“通过礼品卡操纵评论”，即国内电商平台所谓的“刷单炒信”进行集中治理后，大批国内卖家运营的品牌店铺被封停。曾有传言称，此举波及了超过5万国内商家，上至数十家十亿级的头部卖家、下至尾部小卖家，几乎是被一网打尽。</p>
+<p>这一次史无前例的“封号地震”确实让亚马逊平台上的风气为之一新，但也让大量“All in亚马逊”的国内卖家开始思考多头下注。出于对头部平台的不信任，诸多卖家都希望将命运掌握在自己手里，因此独立站也随即开始爆发式增长。</p>
+<p>而所谓的独立站，是指由商家自行搭建、运营的网站，并拥有独立的域名和服务器，商家能够完全掌控网站的运营。</p>
+<p>亚马逊就像大型超市，各类商品都被摆放在货架上，用户进入超市后找到想买的大类，通常还会站在货架前对比价格等因素，因此很多时候可能不会留意商品是什么品牌。独立站就好比是街边的自营商店，只要产品好、服务好、环境好，消费者通常就会记住这家店，甚至还会推荐给亲朋好友。</p>
+<p>虽然搭建一个电商独立站不难，毕竟建站工具以及SaaS服务商几乎到处都是，但难的是如何让海外消费者知道这个网站，并进站消费。相比于亚马逊、eBay、Bonanza，独立站最大的挑战其实并不是商品价格没有竞争力，而是缺乏影响力。所以独立站卖家通常对于投流这件事有着极大的热情，例如Meta旗下的社交平台Facebook，就因为能帮助卖家将公域流量转为私域流量脱颖而出。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_54e38bcf506344fc86013e803dbd88f1@000000_oswg21826oswg600oswg382_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>看到Facebook能从中国卖家身上赚取广告费，谷歌自然会眼热，因此也就有了如今的跨境电商加速中心，试图来帮助孵化独立站。</p>
+<p>可问题在于，如果谷歌是在2022年设立这个跨境电商加速中兴，或许还有利可图。但现在是2024年，跨境电商的市场环境已经发生了天翻地覆的变化。而导致独立站衰落的首要原因就是流量成本上涨，由于两年前的这一轮跨境电商热潮，带动了太多参与者入局，从而导致社媒流量、搜索流量价格纷纷上涨。</p>
+<p>再加上苹果在iOS 14.5开启的应用跟踪透明度功能，让iPhone用户拥有了远离精准广告的权利，直接重创了Facebook的广告业务。此外，谷歌也在今年强行上线淘汰追踪用户的第三方cookie，让精准流量从此与低价脱钩。由于缺乏流量，没有打出品牌的独立站已经开始出现新品推不动、老品卖不出的情况，最终已经有一批跨境电商卖家选择“关站走人”，重新投入亚马逊、虾皮、WISH的怀抱。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_07d6bb207e484b81a677bea20aa2d800@000000_oswg21520oswg600oswg388_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>另一方面，国内跨境电商“四小龙”（Temu、SHEIN、AliExpress和TikTok Shop）则带来了全托管模式，其中核价、运营、物流、售后等环节由平台处理，卖家只需负责供货即可。这种让“让专业人做专业事”的模式，很快就赢得了诸多跨境电商卖家的青睐。从某种意义上来说，Temu的模式与独立站有着异曲同工之妙，都是需要大手笔投流来打造爆款。</p>
+<p>有了Temu作为同生态位的竞争对手，除了少数已经打出名号的精品独立站之外，绝大多数腰部、尾部独立站面临的是投流投不过Temu、商品品类也不如Temu。</p>
+<p>如此一来，谷歌的跨境电商加速中心要面对的最大挑战，不仅是提供更廉价的流量，而是要找出有别于Temu的差异化优势。如若不然，这个跨境电商加速中心恐怕就要巧妇难为无米之炊了。</p>
+<p>【本文图片来自网络】 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649874811&amp;idx=4&amp;sn=9e1fe1b87b15057f0903699e5d134d3f&amp;chksm=864d498a47c70da01ede422a5cc118e2e433d67282480e66d4e75ba9886f33564f5676fb43c6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033339917709569</guid><pubDate>Tue, 12 Nov 2024 20:22:00 +0800</pubDate></item><item><title>合作十年后“分手”，广汽、比亚迪合资公司生变，生产资质已注销</title><link>https://36kr.com/p/3033346095984905</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>11月12日，《每日经济新闻》记者查阅天眼查发现，广州广汽比亚迪新能源客车有限公司（以下简称广汽比亚迪）于11月8日发生股东变更，广州汽车集团股份有限公司（以下简称广汽集团）退出股东行列，同时部分主要人员也发生变更。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,255" src="https://img.36krcdn.com/hsossms/20241112/v2_67eea70c9d7348c79b8e5b0b875f2180@46958_oswg19518oswg1080oswg255_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：天眼查</p>
+<p>事实上，早在9月18日，广汽集团就将其持有的广汽比亚迪49%股权在广东联合产权交易中心进行公开挂牌转让，底价约为1.04亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,373" src="https://img.36krcdn.com/hsossms/20241112/v2_7b15a929904f4ee69048828589ea5d2f@46958_oswg29355oswg1080oswg373_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：广东联合产权交易中心官网</p>
+<p>广东联合产权交易中心官网显示，广州广汽比亚迪新能源客车有限公司49%股权挂牌起止日期为2024年9月18日至2024年10月18日，并明确“标的企业股东不放弃优先购买权”。</p>
+<p>天眼查显示，广汽比亚迪成立于2014年8月，由比亚迪与广汽集团共同出资成立，分别持股51%和49%，经营范围涵盖汽车零部件及配件制造、汽车零配件设计服务、汽车销售、汽车零配件批发、电力输送设施安装工程服务、工程和技术研究和试验发展、能源技术研究等。</p>
+<p>2014年8月4日晚间，比亚迪发布公告称，公司董事会审议通过 《关于广汽比亚迪新能源客车建设项目的议案》，同意本公司与广州汽车集团共同出资设立广州广汽比亚迪新能源客车有限公司，注册资本为3亿元，本公司和广汽集团分别按51%和49%持股比例分期注资。首期出资额1.2亿元人民币，双方按股比以现金出资，用于启动项目前期建设等相关工作；第二期出资本公司以现金注资，广汽集团将以其所持广州汽车集团客车有限公司股权及现金（股权价值作为按比例出资额不足时以现金补足）方式注资。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20241112/v2_88b75b7f504c4910867231e9a5d8c2b2@46958_oswg97014oswg1080oswg702_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：比亚迪公告</p>
+<p>公开消息显示，广汽比亚迪生产基地位于广州市从化经济开发区明珠工业园，总用地1000亩，其中一期占地700亩，投资8.5亿元，各类新能源客车和商务中巴年产能达5000辆，达产后年产值超60亿元。</p>
+<p>不过，从广汽比亚迪业绩表现来看，其实际经营效果并不理想。根据广州广汽比亚迪新能源客车有限公司49%股权挂牌信息，2023年度，公司营业收入为653万元，净利润为-5179万元。截至2023年年底，公司资产总额约为6.8亿元，负债高达7.8亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,415" src="https://img.36krcdn.com/hsossms/20241112/v2_2c1d0b17ffa2472c971b46ec7d47c200@46958_oswg39906oswg1080oswg415_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：广东联合产权交易中心</p>
+<p>经过此次股权变更后，广汽比亚迪现由比亚迪全资持股。同时，该公司的企业类型也发生变更，由其他有限责任公司变更为有限责任公司（法人独资）。</p>
+<p>目前，公司职工人数仅有21人。广汽集团方面在广州广汽比亚迪新能源客车有限公司49%股权挂牌信息中曾明确，本次股权转让后，如标的企业（即广汽比亚迪）职工选择离职，其经济补偿除在广州汽车集团客车有限公司工作工龄对应的经济补偿金由广客承担外，由广汽比亚迪承担。</p>
+<p>据悉，此次产权转让完成后，广汽比亚迪将不得继续使用“广汽”字号和商标等无形资产，也不得再以国家出资企业子企业名义开展业务。不仅如此，广汽比亚迪生产资质也已申请注销，且已停产。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,756" src="https://img.36krcdn.com/hsossms/20241112/v2_8b2ee9b1bf87403aa54109459eaec20f@46958_oswg76922oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：每经记者 张建 摄（资料图）</p>
+<p>对此，比亚迪方面在接受《每日经济新闻》记者采访时回应称，广汽比亚迪生产资质已注销，且客车已停产，相关售后业务委托至比亚迪汽车工业有限公司负责。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Sj5tGCCppEV5lHVvPRWHRw" rel="noopener noreferrer nofollow" target="_blank">“NBD汽车”</a>，作者：李星，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033346095984905</guid><pubDate>Tue, 12 Nov 2024 20:26:00 +0800</pubDate></item><item><title>Seesaw至暗时刻：疑拖欠员工工资，延交社保</title><link>https://36kr.com/p/3033337797030153</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241112/v2_5fafce3a682645c0adef26ed3cd401a2@46958_oswg85156oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>导语：</strong></p>
+<p><strong>其实大众围绕着Seesaw的批评乃至争论，更多的是一种见证了其作为中国咖啡先锋迅速崛起，而落寞至今的惋惜。毕竟很多人对精品咖啡的启蒙来自Seesaw，曾有那么多人见证了它的黄金年代。</strong></p>
+<h2><strong>一年门店数减半，Seesaw陷入欠款风波</strong></h2>
+<p>来自上海的精品咖啡品牌Seesaw（西舍咖啡）近日深陷欠款风波。</p>
+<p><strong>11月12日，《风暴眼》从一位Seesaw内部员工处获悉，Seesaw存在工资延后发放与分期发放问题，目前办公室的人员9月工资尚未发放，门店员工10月工资尚未发放，所有员工的社保公积金缴纳则都停滞在了6月。</strong></p>
+<p>据疑似内部人士分享的内部门店员工群聊截图显示，昨日在员工索要工资后，管理者发布了一则10月工资发放通知，预计在11月12日和18日分两次结清正式员工工资，兼职员工工资在11月15日发放，该名管理者还提及到“目前公司现金流遇到了一些困难”、“希望大家体谅并携手一起共度难关一起熬过至暗时刻”。不过，该名内部员工吐槽“通知是被逼通知，执行和通知两回事”。</p>
+<p><strong>Seesaw的问题爆发，早有征兆。</strong>10月16日，上海市奉贤区人民法院立案执行申请人游仁信息科技（上海）有限公司申请执行服务合同纠纷一案，因Seesaw母公司上海西舍未按执行通知书指定的时间履行生效法律文书确定的给付义务，对上海西舍采取限制消费措施。爱企查显示，10月29日，上海市奉贤区人民法院向上海西舍电子商务有限公司法人吴晓梅，即Seesaw创始人，发出限制消费令，其不得实施高消费及非生活和工作必需的消费行为。</p>
+<p class="image-wrapper"><img data-img-size-val="1047,2054" src="https://img.36krcdn.com/hsossms/20241112/v2_27f65029ed324681b32bbecb823c2944@46958_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>除此次“限高”之外，Seesaw多次深陷法律纠纷。爱企查显示，今年7月至11月间，与Seesaw相关的多起涉及买卖合同纠纷的法律案件一直在陆续开庭审理中。<strong>3月份，就曾有媒体报道Seesaw疑似拖欠供应商货款，后Seesaw工作人员以“属于正常商业纠纷，不存在拖欠供应商货款的情况”澄清消息。</strong></p>
+<p>大众对Seesaw的质疑一直未消除。从去年开始，不断有人在社交媒体上发帖，表示北京、上海、武汉、北京、重庆、深圳等多地的Seesaw门店关门，引发大众对其经营不善的猜测。</p>
+<p>Seesaw创始人吴晓梅今年1月初声称，仅是战略调整，在过去三年（2021年-2023年）的计划中，Seesaw已完成阶段性的战略目标，实现了一线城市和新一线城市的全国布局，门店规模过百。目前需要关闭的是部分不符合区域聚焦策略、不符合品牌定位和不符合门店模型的三“不”门店。强调Seesaw未来3年会继续聚焦华东的一线和新一线城市，进一步加强在华东区域核心商圈的门店密度。</p>
+<p class="image-wrapper"><img data-img-size-val="930,555" src="https://img.36krcdn.com/hsossms/20241112/v2_d3817d0453644f0fa4c568fa185f153a@46958_oswg327587oswg930oswg555_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图｜Seesaw创始人吴晓梅 </p>
+<p>2021年，吴晓梅曾公开表示，Seesaw要在未来五年将门店扩张至500-1000家。过去三年是否真的完成了阶段性的战略目标，尚未可知。然而吴晓梅口中“门店规模过百”的说法，如今已不再成立。</p>
+<p>不断的闭店潮后，根据窄门餐眼数据显示，<strong>目前Seesaw现存门店75家，相比于1月初的130多家门店，几乎是缩减了一半，同时期也有一些少量新开门店，分布在辽宁大连、广东珠海、山东临沂、山西大同等地。可以看出自今年3月Seesaw放出加盟的消息后，其开店策略在从一线、新一线城市逐步转向二、三线城市。</strong></p>
+<h2><strong>精品与规模两难全，Seesaw转向下沉市场求生</strong></h2>
+<p>2012年，Seesaw诞生在上海，首店落地上海愚园路433号静安设计中心。黑白灰的轻工业风设计，绿植白墙搭配有格调的地板，透明天窗洒下日光落在旋转楼梯上，全开放的吧台，完美的拉花技艺，在很多人心中留下了白月光的印象。哪怕在2024年，仍有人不断在感叹：好怀念愚园路的Seesaw啊！</p>
+<p class="image-wrapper"><img data-img-size-val="800,1066" src="https://img.36krcdn.com/hsossms/20241112/v2_143ae43c80e749f28ee405964d054a41@46958_oswg104857oswg800oswg1066_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Seesaw自开业后，一路坦途。开设了一个咖啡培训学院—咖啡梦工厂，邀请咖啡专业人士分享咖啡品鉴的经验，为热爱咖啡的学员开设咖啡拉花、冲煮等制作课程，成为当时很多咖啡师的乌托邦。2014年，Seesaw在彩云之南启动“云南十年计划”，引入精品级的加工技术，与当地农民合作，在云南培育自己的咖啡豆产地，想要打造出富有中国特色的咖啡风味。</p>
+<p><strong>对精品咖啡文化的宣扬，以及对咖啡行业人才的培养，让Seesaw被业内称为精品咖啡的黄埔军校，并很快招来资本的青睐。</strong></p>
+<p>2017年6月Seesaw获得首轮4500万人民币融资，是当时国内精品咖啡赛道第一个获得融资的品牌。2021年7月，Seesaw完成A+轮过亿元融资，喜茶入股，这也是喜茶投资的第一个品牌。</p>
+<p>然而仅仅两年过去，曾在咖啡界万众瞩目的Seesaw如今光环已不再，同期的Manner靠着性价比成功杀出，将精品咖啡推向规模化，已破千店。M stand专注于年轻化的营销策略，挑选店址设计体验化的店面，推出爆款周边，获得了小红书领投的数亿元投资。而Seesaw却深陷各类负面浪潮之中。</p>
+<p>复盘过往，Seesaw的困境也是一出熟悉的戏码，在扩张过程中很难平衡精品咖啡的水准和不断飙升的成本。它的矛盾以从菜单上悄无声息删除手冲咖啡，后在一片非议声中又在上海重开手冲咖啡体验店可见一斑。</p>
+<p><strong>吴晓梅在今年5月接受胖鲸传媒的专访中，当被问到有哪些东西是你觉得要坚持的、不能妥协的，她提出咖啡品质是首要因素，“优质的咖啡是连接顾客与Seesaw的桥梁”。</strong></p>
+<p>然而，社交平台上关于Seesaw咖啡豆品质下降，咖啡师水准不稳定、咖啡口味下滑等争议却是始终不断。一名咖啡专业人士向《风暴眼》透露，在去年6月份前往深圳一家Seesaw门店时，觉得咖啡口感下降，在和店长沟通时，店长提及因为总部原材料更换频繁，有些批次的牛奶品质不如从前。不过，《风暴眼》在近日致电深圳的一些店铺后，对方未明确表示今年牛奶等原材料有频繁变动现象。</p>
+<p>其实大众围绕着Seesaw的批评乃至争论，更多的是一种见证了其作为中国咖啡先锋迅速崛起，而落寞至今的惋惜。毕竟很多人对精品咖啡的启蒙来自Seesaw，曾有那么多人见证了它的黄金年代。</p>
+<p><strong>在不少网友拍下的Seesaw闭店通知下，有人配文：觉得这像一个时代的落幕。</strong></p>
+<p>现在，Seesaw把更多的希望转向了下沉市场。</p>
+<p>吴晓梅曾在2023年接受《福布斯中国》采访时说，“友商们正在低线城市教育市场，但对Seesaw来说，布局下沉市场效率不高，我们的逻辑依然是打造‘精品化’。”如今看来，在竞争激烈的市场行情下，Seesaw开始主动打破自身逻辑求变。</p>
+<p><strong>但下沉市场如今也已并不简单，星巴克今年以来不断下沉，最新财报显示其已新进入78个县级市场，门店数量突破8000家。走下沉路线的Seesaw又该如何平衡口感与成本？</strong></p>
+<p>‌Seesaw咖啡名字最初来源于“跷跷板”的概念，寓意着咖啡的口感和味道如同跷跷板一样，需要在酸、甜、苦、香、醇五味之间找到平衡。在动态中寻求平衡，是Seesaw自出道以来一直在做的，而这次跷跷板该如何撬动，Seesaw仍需要找到更好的解法。</p>
+<p>【注】文中所有的图片来源于网络，若有侵权，可联系我们予以删除。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/uVgkJDbIakw0uBFT0algSA" rel="noopener noreferrer nofollow" target="_blank">“凤凰网科技”</a>，作者：<strong>王丹宇</strong> ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033337797030153</guid><pubDate>Tue, 12 Nov 2024 20:27:00 +0800</pubDate></item><item><title>OpenAI重金购得新域名，但这门生意早就没了前途</title><link>https://36kr.com/p/3033339740549122</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2022年秋季聊天机器人ChatGPT的横空出世，不仅让AI行业一扫颓势，更是使得其开发商OpenAI成为了当下炙手可热的科技企业。其实ChatGPT的成功方式相当简单，因为它提供了与人类无异的自然对话能力。而为了强化“聊天”这个概念，OpenAI方面最近更是斥巨资购买了一个新域名。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_e2d9d0615d6c4d4e90d544455b2358db@000000_oswg8718oswg600oswg183_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>近日，OpenAI CEO萨姆・阿尔特曼在社交平台发布了一则推文，但内容相当的简单、只有一个网址chat.com，点开后就跳转到了ChatGPT。据海外科技媒体TechCrunch透露，OpenAI已收购这一域名。事实上，这个域名此前是被HubSpot创始人Dharmesh Shah在2023年年初购得，当时的价格为1000万美元。</p>
+<p>紧接着在2023年3月28日，Dharmesh Shah以1550万美元的价格将其卖给了一位匿名买家。所以很显然，此次OpenAI买到这个域名的价格只会更高。看到这里或许有的朋友会认为域名交易还大有可为，属于是能一夜暴富的机会。但如果真的这样想可就大错特错了，毕竟都快2025年了，还指望靠买卖域名赚钱已经不现实。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_a8292beae4954397a7fa632d603911c9@000000_oswg13560oswg600oswg264_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>域名是由一串用点分隔的名字、组成的Internet上某一台计算机或计算机组的名称，用于在数据传输时对计算机的定位标识，它采用了易于记忆的字符串形式来代替复杂的IP地址。作为互联网上的“门牌号”，域名在网络中的作用其实就与现实中的房地产业类似，所以自然也就出现了炒域名的现象，并且域名交易也是互联网中经典的“小而美”生意。 </p>
+<p>过去二十余年以来，通过域名交易一夜暴富的案例并不少见。例如在2011年4月，新浪花了800万元人民币购买了与微博全拼相同的域名“weibo.com”；随后在2014年，中国商人徐俊花340万美元从孩之宝公司手中买下game.com域名，然后在2016年以1亿元人民币的天价卖给了游戏矩阵CEO徐乐。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_fbc11439b1514b64b5662ca865aa1933@000000_oswg33887oswg324oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>那么为什么在2024年，已经很难再靠买卖域名赚钱了呢？只因时代变了。且不提当年小米花费360万美元购入mi.com，以及前文中提到的一系列卖出天价的域名，其实都是非典型案例。目前在域名交易网站上，绝大多数域名的成交价格都在几百上千美元这个范围，赚的则是传统企业数字化的钱。早在十余年前，全球都掀起了一股传统企业数字化转型的浪潮，大量传统企业由此也产生建设网站的需求，但想要搭建一个网站、域名就是前提。 </p>
+<p>如此一来，庞大的需求造就了一片广阔的蓝海，无论是通过出色的眼光发现风口、还是倒买倒卖，域名生意在十多年前也曾红红火火过。如果后来没有移动互联网的到来、没有App的出现，域名生意大概还会长盛不衰。尽管域名作为互联网关键基础资源这一事实没变，但在移动互联网出现后，用户虽然依旧需要用域名解析来访问互联网，但变化的是我们已经再看不到域名了。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_e91d4573300c4f289b57ecbea4862ec6@000000_oswg36749oswg600oswg378_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>事实上，域名是基于web生态的，并且与浏览器强关联，可大家如今在智能手机上用的是App、是小程序，反而手机浏览器的用户群体一直在萎缩。即便有相当多的App都只是web套壳，即用原生WebView+HTML5网页内容的形式来构成App，可用户直接体验的UI却是App的范式，而App几乎不会有网址栏。这一现实所导致的结果，就是成长在移动互联网时代的网民，可能压根就不知道域名为何物。 </p>
+<p>在移动互联网时代，入口从浏览器变成了App，用户只需要在应用商店下载需要的App即可，根本就不需要通过浏览器来参与上网冲浪，大家自然也就不再需要记域名了。如今甚至就连搜索引擎都遭遇了“水逆”，遑论更古早的域名。当下即便有企业想要拥抱数字化，第一选择也是开发App、小程序，毕竟现在智能手机已经是人手一部、可电脑并非人手一台。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_032a1514e1284129b280a800ade37ecd@000000_oswg19151oswg600oswg248_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>以往企业购买域名是为了起到宣传作用，因为用户每一次键入域名都会加深对它的认知。但如今没有输入域名就访问网站，也就意味着域名失去了“入口价值”，其估值逻辑必然会被重构。即便类似chat.com这样有含义家喻户晓的顶级域名不受影响，但其他意义不明的域名则会变得不再有价值，所以如今两极分化就是域名交易市场的主旋律。 </p>
+<p>显然对于大多数人来说，往往缺乏财力来玩转优质的域名资源。不仅如此，维护一个域名在互联网世界的存续也是要花钱的，因为域名存在持有成本，虽然单个域名每年几十元人民币看似不多，可要是多个域名累加起来就不是笔小钱了。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241112/v2_52c89c5b40894ac69628c82895a67190@000000_oswg33272oswg600oswg328_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>所以普通产品不值钱、且不好卖，持有还需要持续花钱的生意，真的还是一门好生意吗？ </p>
+<p>【本文图片来自网络】 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649874811&amp;idx=3&amp;sn=b90ce12b594c5d747b4fa3af053c4628&amp;chksm=8684112c17b533b8796e86b0079c1abf6baed3dabd725f40a48b7acde1b5b74e82c1f8f3fc9b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3033339740549122</guid><pubDate>Tue, 12 Nov 2024 20:28:00 +0800</pubDate></item></channel></rss>
