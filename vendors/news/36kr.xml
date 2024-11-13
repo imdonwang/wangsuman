@@ -1,117 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 13 Nov 2024 18:00:30 +0800</lastBuildDate><pubDate>Wed, 13 Nov 2024 18:00:30 +0800</pubDate><item><title>激战“智能化”下半场，车企纷纷下场“造芯”，智驾进入新战场？</title><link>https://36kr.com/p/3034567511781380</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“智能化”下半场激战正酣，车企也开始纷纷下场“造芯”。</p>
-<p>近日，小鹏汽车董事长兼CEO何小鹏在“小鹏AI科技日”上展示了公司自研的“图灵AI芯片”。这款芯片拥有40核处理器，专为AI大模型定制，具备在AI汽车、AI机器人、飞行汽车等多个领域的应用潜力。去年9月，蔚来汽车也公布了其自研的智驾芯片“神玑NX9031”，并在今年的7月份宣布流片成功。理想汽车也在推进自研芯片项目，并计划在年内实现流片。</p>
-<p>除了这些新兴的造车势力，传统车企如比亚迪和东风汽车集团也在积极自研或投资芯片产业，他们的产品线覆盖了车身控制芯片、智能座舱芯片、自动驾驶芯片等多个领域。</p>
-<p>尽管芯片行业需要长期且高额的投入，但国内车企却纷纷选择了自研芯片的道路。北方工业大学汽车产业创新研究中心主任、教授纪雪洪在接受《每日经济新闻》记者采访时强调了智能化在汽车行业竞争中的核心地位，并认为领先企业必须在智能化领域拥有强大的技术实力。他认为，芯片是决定车企核心竞争力的关键因素。</p>
-<p>“像英伟达这样的公司，其芯片利润毛利率高达90%，这意味着车企在采购时需要承担较高的成本。如果车企能够自主研发芯片，就能在一定程度上控制成本。”纪雪洪说。</p>
-<h2><strong>自研与投资，新势力与传统车企的两条路</strong></h2>
-<p>根据华经产研的报告，汽车芯片主要指用于汽车电子控制及车载系统的半导体产品，涵盖主控芯片、MCU功能芯片、功率芯片、存储芯片、模拟芯片和传感器芯片等。目前，业内研发的智能驾驶芯片，通常指的是一个高度集成的系统级芯片SoC，由多种芯片模块组成，包括推理模型加速单元（NPU）、中央处理单元（CPU）等。</p>
-<p>作为整车企业中自研芯片的先行者，特斯拉在2019年推出了基于2颗FSD芯片的Hardware 3.0，FSD芯片由特斯拉自研，采用14nm制程，单颗算力72 TOPS。据特斯拉公布的数据，与采用英伟达芯片的Hardware 2.5相比，Hardware 3.0的图像处理速度提升约21倍，单体成本降低20%，功耗仅为原来的1.26倍。目前，FSD芯片已在特斯拉全系车型上大规模搭载，累计出货量超过800万颗。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,756" src="https://img.36krcdn.com/hsossms/20241113/v2_26c1a4dafcd34edab1ff4f11de0d426b@46958_oswg43173oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：每经记者 张建 摄（资料图） </p>
-<p>自2022年以来，智能驾驶技术经历了显著发展，特别是BEV(Bird's Eye View)+Transformer+OCC(Occupancy Network)的技术路线受到了行业的广泛关注。随着无图化、端到端等技术的迭代更新，车辆的智能驾驶能力也得到了飞速提升。与此同时，车企对算力的需求也随之增加。在这一背景下，特斯拉自研芯片及其FSD能力的领先地位，促使越来越多的车企加入到自研芯片的行列中。目前，包括蔚来、小鹏、理想在内的造车新势力，都在按照特斯拉的思路，积极推进自研芯片的开发。</p>
-<p>相较于新势力车企倾向于自研芯片，传统车企更偏好通过合资或战略投资的方式参与芯片产业。以吉利汽车为例，2016年，吉利控股集团董事长李书福与时任吉利汽车研究院副院长沈子瑜共同创立了亿咖通科技，该公司专注于智能网联汽车技术。2018年，亿咖通科技与安谋科技联合成立了芯擎科技，专注于智能座舱、自动驾驶、中央处理器等多种芯片的研发。目前，芯擎科技推出的国产7nm智能座舱芯片“龍鷹一号”已搭载在领克08车型上，正式量产上市。</p>
-<p>与此同时，东风、上汽、一汽等传统车企通过战略投资入局芯片产业。上汽集团通过联合多方设立产业基金、投资芯片企业、与行业巨头成立合资公司等方式，加大在汽车芯片领域的布局。近年来，上汽集团投资了川土微电子、尚阳通、芯驰科技等芯片企业。</p>
-<p>比亚迪则采取了“两手抓”的策略，一方面投资芯片半导体企业如地平线，另一方面在智能驾驶技术研发上加大自研力度。比亚迪董事长兼总裁王传福在2023年度股东大会上表示，未来比亚迪计划在智能驾驶领域投入1000亿元，聚焦包括生成式AI、大模型等在内的智能驾驶技术研发。</p>
-<p>对于车企在芯片领域加码形式的差异化，纪雪洪认为，主要是出于风险规避的考虑。他解释说，由于芯片研发周期较长，短期内难以匹敌第三方供应商的能力，因此采购第三方芯片成为首选。同时，车企不能因芯片开发而延误车型的研发和上市进程。</p>
-<h2><strong>研发投入与降本的博弈</strong></h2>
-<p>辰韬资本联合发布的《自动驾驶软硬一体演进趋势研究报告》（以下简称辰韬资本研报）显示，以7nm制程、100+TOPS的高性能SoC芯片为例，其研发成本高于1亿美元，其中包含人力成本、流片费用、封测费用、IP授权费用等。然而，即使造芯成本如此之高，车企依然要入局，其中一个重要原因是成本。</p>
-<p>盖世汽车研究院的数据显示，2023年中国市场智驾域控芯片装机量排名中，排名第一位的是特斯拉的FSD芯片，出货量约120.8万颗，占比为37%；排名第二位的是英伟达的Orin-X芯片，出货量为109.5万颗，占比为33.5%。因为特斯拉FSD芯片是专供特斯拉使用，因此多数国内车企都以英伟达芯片为主。</p>
-<p>以蔚来汽车为例，其所有产品均标配4颗英伟达Orin-X芯片。以蔚来2023年16万辆车的销量来看，去年蔚来仅采购的Orin-X芯片数量就在64万颗。蔚来创始人、董事长、CEO李斌曾表示，公司在2023年共投入了3亿美元用于购买英伟达的自动驾驶芯片。按照这一支出和采购数量可以估算，单颗Orin-X芯片价格约在3000至6000元人民币之间（约500美元）。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,756" src="https://img.36krcdn.com/hsossms/20241113/v2_31fe7e4371634205bd55244bca7fa91f@46958_oswg73055oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：每日经济新闻 资料图</p>
-<p>根据李斌在2024年7月蔚来创新科技日上的介绍，神玑NX9031单芯片的性能可匹敌四颗行业旗舰芯片。若替代4颗Orin X芯片，即便每辆车使用2片，也能显著节省成本，且随着产量的增加，成本优势将更加显著。</p>
-<p>然而，车企自研芯片是否真的能够降低成本，业界对此存在不同看法。</p>
-<p>零跑董事长、CEO朱江明曾表示，与出货量千万乃至亿级的电子消费品相比，汽车的销量太少，难以形成规模效应，而芯片研发投入太大，自制芯片并不划算。</p>
-<p>李斌则表示，研发这条路径虽然见效慢，但肯定是毛利提升最重要的方向之一。但他同时也承认，仅在2023年，蔚来在研发上的投入就超过134亿元，每个季度要持续投入30亿元左右的研发费用，其中60%~70%用在基础研发方面。</p>
-<p>除了降本外，自研芯片能达到更高的性能、更低的功耗、更低的延迟和更加紧密的结合。以特斯拉FSD为例，其自研搭载2颗FSD芯片的Hardware 3.0（HW3.0）智驾算力为144TOPS，英伟达的Orin X芯片单颗算力为250 TOPS，在当前多数车企单辆车普遍搭载2颗英伟达Orin X芯片的情况下，特斯拉基于这一硬件的FSD系统已能实现高速和城市NOA功能。</p>
-<p>此外，辰韬资本的研报也表示，车企在低阶自动驾驶领域倾向于采用供应商的集成解决方案，而在高阶自动驾驶领域则更倾向于自主研发。对此，中国汽车工业协会副秘书长李邵华称，车企自研芯片主要是为了满足自身发展需求，构建专门的软硬件系统，以增强智能网联汽车产品的竞争力和生态。</p>
-<h2><strong>短期难见效，需长期投入</strong></h2>
-<p>尽管自研芯片带来了诸多潜在优势，也有业内人士对此持谨慎态度。有观点认为，虽然特斯拉等少数车企已经成功自研芯片并取得了显著成果，但并不意味着其他车企也能轻易复制其成功路径。</p>
-<p>极越CEO夏一平对记者表示，马斯克投资40亿美元购买10万张H100芯片构建新算力中心，这还不包括40亿美元的工程建设费用。“他计划明年将算力中心扩展至20万张芯片，其中包括许多H200芯片。纯视觉等技术再往后面走，各家之间竞争的就是算力了。”他强调。</p>
-<p>此外，车企自研芯片虽然看似能够节省成本，但芯片行业需要高投入和长周期，涉及高昂的研发和流片费用，以及人才投入。辰韬资本执行总经理刘煜冬就公开表示，从经济性角度来看，车企自研芯片的出货量若低于100万片，可能难以实现投入产出比的平衡。</p>
-<p>纪雪洪则对记者坦言，目前车企的人才主要集中在汽车制造和研发领域，特别是电池、电机，以及智能驾驶系统的规划上。然而，芯片制造属于电子行业，这对车企来说是一个全新的领域，需要重新招募专业人才和打造团队。“在这个跨界的过程中，车企需要经历一个摸索阶段，包括人才的招募、团队的构建，以及与车企内部的组织整合和文化融合等多个方面的磨合。”纪雪洪表示。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/_T8euwDUAX5czQV9ipQJug" rel="noopener noreferrer nofollow" target="_blank">“NBD汽车”</a>，作者：刘曦，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034567511781380</guid><pubDate>Wed, 13 Nov 2024 17:25:00 +0800</pubDate></item><item><title>一句话爆改三维场景，斯坦福吴佳俊团队新作：场景语言，智能补全文本到3D的场景理解</title><link>https://36kr.com/p/3034567414624258</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>从文字生成三维世界的场景有多难？</p>
-<p>试想一下，如果我们要 “生成复活节岛的摩艾石像”，AI 怎么才能理解我们的需求，然后生成一个精美的三维场景？</p>
-<p>斯坦福的研究团队提出了一个创新性解决方案：就像人类使用自然语言（natural language）进行交流，三维场景的构建需要<strong>场景语言（Scene Language）</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,314" src="https://img.36krcdn.com/hsossms/20241113/v2_269a8eb70a9d416bab487f9f594a373e@46958_oswg42674oswg1080oswg314_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>项目主页：https://ai.stanford.edu/~yzzhang/projects/scene-language/</p>
-<p>文章地址：https://arxiv.org/abs/2410.16770</p>
-<p>这个新语言不仅能让 AI 理解我们的需求，更让它能够细致地将人类的描述转化为三维世界的场景。同时，它还具备编辑功能，一句简单指令就能改变场景中的元素！物体的位置、风格，现在都可以随意调整。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20241113/v2_e13ee0e831494821924ebfa551c090bd@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>智能的场景理解</strong></h2>
-<p>再比如，输入 “初始状态的国际象棋盘”，模型可以自动识别并生成如下特征： </p>
-<ul>
-<li>64 个黑白相间的格子</li>
-<li>按规则排列的 32 个棋子</li>
-<li>每个棋子的独特造型</li>
-</ul>
-<p>最终生成的 3D 场景完美还原了这些细节。 </p>
-<p class="image-wrapper"><img data-img-size-val="1024,1024" src="https://img.36krcdn.com/hsossms/20241113/v2_9472967fb16b4013916a1744747d65d3@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这个方法支持多种渲染方式，能适应不同的应用场景： </p>
-<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241113/v2_2239933fe1ce4ecc8bd68b0193b79c7e@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>更具吸引力的是其编辑能力：只需一句指令，就能调整场景中的元素： </p>
-<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241113/v2_8055879cb4d14c85bf44ddc31818dd88@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>支持图片输入</strong></p>
-<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241113/v2_75f87bfb5c864e7997670204fa1820c4@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>动态生成</strong></p>
-<p>不仅限于静态，Scene Language 还能生成动态场景，让 3D 世界生动起来。 </p>
-<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241113/v2_6cc71ee25c844d4fbe75daa5e116790e@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>技术亮点</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,715" src="https://img.36krcdn.com/hsossms/20241113/v2_2fa6e6b848e04f14890b759d1ad5c91f@46958_oswg439390oswg1080oswg715_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>Scene Language 的核心在于三大组件的融合： </p>
-<p>1. <strong>程序语言（program)</strong>：用于精确描述场景结构，包括物体间的重复、层次关系； </p>
-<p>2. <strong>自然语言（word）</strong> ：定义场景中的物体类别，提供语义层面的信息； </p>
-<p>3. <strong>神经网络表征（embedding</strong> ）：捕捉物体的内在视觉细节。 </p>
-<p>这种组合就像给 AI 配备了一套完整的 “建筑工具”，既能整体规划，又能雕琢细节。 </p>
-<h2><strong>对比传统方法的优势</strong></h2>
-<p>与现有技术相比，Scene Language 展现出显著优势： </p>
-<p>用户偏好测试中获得 85.65% 的偏好，相比现有方法提高了近 7 倍；</p>
-<p>在物体数量控制方面，测试集中的准确率达到 100%，而现有方法只有 11%。</p>
-<p>这一研究展示了 AI 理解和创造 3D 世界的全新可能性，期待它在游戏开发、建筑设计等领域引领新一轮的创新！ </p>
-<p><strong>作者简介</strong></p>
-<p>该篇论文主要作者来自斯坦福大学吴佳俊团队。 </p>
-<p>论文一作张蕴之，斯坦福大学博士生。主要研究为视觉表征及生成。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,307" src="https://img.36krcdn.com/hsossms/20241113/v2_2ba8f8dd049e4cb193760d42e4f483a5@46958_oswg202214oswg1080oswg307_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>吴佳俊，现任斯坦福大学助理教授。在麻省理工学院完成博士学位，本科毕业于清华大学姚班。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,248" src="https://img.36krcdn.com/hsossms/20241113/v2_9cc199c90c9a4a0ca8543719aec64f64@46958_oswg164993oswg1080oswg248_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Px5ht4pGR_AiYhNNlILd9g" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034567414624258</guid><pubDate>Wed, 13 Nov 2024 17:26:00 +0800</pubDate></item><item><title>微软“甩锅”神操作？服务器“安全更新”成“系统大换血”，企业懵了</title><link>https://36kr.com/p/3034567152218117</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>上周，不少系统管理员遇到了这样一个让人崩溃又无语的问题——<strong>他们的 Windows Server 系统在一次原本应该只是安全更新的过程中，意外地升级到了 Windows Server 2025。</strong></p>
-<p>这个问题最早是由网络应用安全公司 Heimdal 的一位客户报告的。当他们在 11 月 5 日早上抵达办公室时，发现每一台 Windows Server 2022 系统要么已经自动升级到了 Windows Server 2025，要么正在进行升级。</p>
-<p>后来发现，问题的根源在于，<strong>一项原本应该是安全补丁的更新，竟然变成了一个完整的操作系统升级。</strong> 据了解，Heimdal 提供的补丁管理服务依赖于微软准确地标记每一个补丁，确保将更新应用到相应的软件上。</p>
-<p>无论如何，对于通常谨慎行事的系统管理员来说，未经计划的操作系统升级，尤其是升级到全新的操作系统，这绝不是一次简单的“虚惊一场”。甚至有批评声音认为：<strong>更新机制出问题了，其严重性不亚于恶意代码注入。</strong></p>
-<h2><strong>追踪问题 </strong></h2>
-<p>当有客户报告问题时，Heimdal 团队就迅速开始调查这一问题，但由于初期问题牵涉的范围较小，根源并不容易追踪。根据 Heimdal 发布在 Reddit 上的帖子，他们直到当天 18:05 才确认问题背后的猫腻：Windows 更新 API 错误地将 Windows Server 2025 的升级标记为安全更新 KB5044284。</p>
-<p>在 Heimdal 的补丁仓库中，他们发现该更新的 GUID 与通常关联 Windows 11 的 KB5044284 条目并不匹配。这个不一致导致他们得出结论：微软错误地将该更新分类，影响了更新的发布速度和分类方式。经过与微软知识库（KB）的进一步对比，Heimdal 确认 KB5044284 号确实是与 Windows 11 相关，而不是 Windows Server 2025。</p>
-<p>Heimdal 彼时预估大约有 7% 的客户受到了这次意外升级的影响。为了应对这一问题，其马上在所有服务器组策略中封锁了 KB5044284。但是，这对于那些已经遇到升级问题的管理员来说，安慰有限。</p>
-<p>而对于未及时发现问题的用户来说，后果可能会更为复杂。回滚到之前的配置将是一个挑战，受影响的用户将不得不依赖备份恢复，或者支付 Windows Server 2025 的许可费用。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,575" src="https://img.36krcdn.com/hsossms/20241113/v2_2fe3c68356f84fd299e883ed4e335d8a@46958_oswg43938oswg1080oswg575_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">截图源自 Reddit 社区</p>
-<p>此外，用户还需要应对新版本操作系统带来的各种变化，包括新的功能、可能的兼容性问题以及与 Windows Server 2025 相关的其他变动。</p>
-<h2><strong>微软已“解决”问题 </strong></h2>
-<p>此次事件最引人注目的问题之一是，Windows Server 2025 作为一项付费许可选项，竟然通过本应是安全更新的渠道进行了发布。这让部分业内人士质疑，在常规安全更新中混入重大的操作系统升级是否明智。</p>
-<p>微软在前几天也已经更新了其公告板，明确了确实有设备被自动升级的事实。但微软表示：“<strong>这一问题出现在使用第三方产品来管理客户端和服务器更新的环境中。</strong>”</p>
-<p>根据微软的说法：“Windows Server 2025 功能更新作为可选更新发布，属于升级分类：‘DeploymentAction=OptionalInstallation’。”——“功能更新的元数据应被视为可选的，而非推荐的，补丁管理工具应按此解释。”</p>
-<p>然而，<strong>微软的解释与一些第三方机构和用户的实际经历略有出入</strong>。根据 Heimdal 上周的报告，更新被错误分类，随后，微软将其“撤回”。此外，The Register 援引一位读者的说法表示，一台未运行任何第三方更新服务的独立服务器也遭遇了突如其来的隔夜更新。</p>
-<p>目前，微软将这一问题描述为“已缓解”，但至今尚未提供任何回滚工具来帮助受影响的管理员。这意味着许多管理员只能依赖备份恢复，或者可能需要支付升级费用。微软还承认了与此相关的另一个问题：一些用户在 Windows Update 中看到的升级 banner，可能加剧了混淆。</p>
-<p>虽然微软表示正在与第三方供应商合作优化最佳实践，但大家可能会期待微软能够做出更加全面的回应，其中包括提供回滚工具，或者至少提供某种方式来解决由标签错误带来的问题。</p>
-<h2><strong>自动化管理的漏洞 </strong></h2>
-<p>有分析指出，此次 Windows Server 2025 更新错误不仅仅是一个简单的标签错误问题。</p>
-<p>尽管微软的更新系统为全球用户提供了无数安全补丁和功能升级，但此次事件暴露了其在处理关键更新时的漏洞，尤其是在自动化和更新标记管理机制上的不足。</p>
-<p>作为全球最大的技术公司之一，微软理应拥有完善的错误检测和自动化审核机制。The Register 指出，自动化应当是避免此类错误的关键，而微软本应通过多重检查机制来防止更新标签错误的传播。然而，这些显然措施未能发挥应有作用。</p>
-<p>此外，Windows 更新系统过时，仍然根植于“帝国时代”的计算理念，这导致其更新和补丁管理效率低下。</p>
-<p>不过，软件更新、补丁和升级管理的普遍问题并非微软独有，整个行业都面临类似挑战，尤其是在开源软件的更新管理中，软件包管理的复杂性也是一个难以解决的痛点。尽管开源系统提供了更多定制化和灵活性，但在大规模部署和企业环境中，仍面临更新管理和系统兼容性的挑战。</p>
-<p>或许，这次事件为行业敲响了警钟，提醒各方应更加重视更新机制的设计、测试和管理，确保每一次操作系统更新都不会打乱用户的业务流程。此外，也有声音呼吁，行业应构建一个开放、统一、透明的更新框架，在提升操作系统与应用程序兼容性的同时，增强更新管理的可靠性。</p>
-<p><strong>参考链接：</strong></p>
-<p>https://www.theregister.com/2024/11/11/microsoft_windows_2025_mitigated/?td=rt-3a</p>
-<p>https://www.theregister.com/2024/11/06/windows_server_2025_surprise/</p>
-<p>https://www.theregister.com/2024/11/11/windows_server_2025_opinion/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/JrWnUNQoq6xyzFO2pn6rVw" rel="noopener noreferrer nofollow" target="_blank">“InfoQ”</a>，编译：燕珊 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034567152218117</guid><pubDate>Wed, 13 Nov 2024 17:26:00 +0800</pubDate></item><item><title>“双11”落幕，很多人薅到了国家的羊毛</title><link>https://36kr.com/p/3034532670287873</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 13 Nov 2024 18:30:27 +0800</lastBuildDate><pubDate>Wed, 13 Nov 2024 18:30:27 +0800</pubDate><item><title>“双11”落幕，很多人薅到了国家的羊毛</title><link>https://36kr.com/p/3034532670287873</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_2d336e4632fb482b9fb1a217369c1358@000000_oswg153364oswg1080oswg697_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p>“如果没有‘国补’ （国家补贴） ，我们是不会提前买的。”正在装修新房的莲子 （化名） 一口气买了十余件大小家电，因为最近政府补贴政策，她在“双11”的优惠之余，又省下了四五千元。 </p>
 <p>莲子提到，没有“国补”的话，就算是“双11”她也不会买这么多。为了赶上这波优惠，她在家里还未装修好的情况下就下了单，并选择了延期配送。 </p>
@@ -465,4 +353,126 @@
 <p>此外，建信人寿2024年一季度净利润亏损12.53亿元，从第二季度实施新会计准则后也实现扭亏，前三季度净利润达17.77亿元。</p>
 <p>只不过，切换新会计准则后，这些非上市险企的净利润高增长能否在第四季度持续，需拭目以待。</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653319778&amp;idx=3&amp;sn=374bcbf47e6e38cb1f7ed09c0e036631&amp;chksm=bcb9e26bd5ad4e8639a5b41a35dce19ff86e2ba45c5f63070b0938c5a5a99d84cc38cb256214&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：何秀兰，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034607587881222</guid><pubDate>Wed, 13 Nov 2024 17:48:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034607587881222</guid><pubDate>Wed, 13 Nov 2024 17:48:00 +0800</pubDate></item><item><title>业绩快报｜腾讯Q3毛利增16%，本土游戏收入明显回升</title><link>https://36kr.com/p/3034617316716552</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>11月13日，腾讯公司公布截至2024年9月30日止Q3未经审核综合业绩。</p>
+<p>Q3总收入为人民币 1,672 亿元（239 亿美元），同比增长 8%。毛利为人民币 888 亿元（127 亿美元），同比增长 16%。</p>
+<p>按非国际财务报告准则，经营盈利为人民币 613 亿元（87 亿美元），同比增长 19%；经营利润率由去年同期 33%上升至 37%。期内盈利为人民币 609 亿元（87 亿美元），同比增长 33%。期内本公司权益持有人应占盈利为人民币 598 亿元（85 亿美元），同比增长 33%。每股基本盈利为人民币 6.475 元，每股摊薄盈利为人民币 6.340 元。</p>
+<p>总现金为人民币 4,255 亿元（607亿美元）。自由现金流为人民币585亿元（83亿美元），同比增长14%。 现金净额为人民币 955 亿元（136 亿美元）。</p>
+<p class="image-wrapper"><img data-img-size-val="1244,580" src="https://img.36krcdn.com/hsossms/20241113/v2_83fba962368744fbb3e3bf9187736548@10269314_oswg121277oswg1244oswg580_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：腾讯公司财报截图</p>
+<p>增值服务业务二零二四年第三季的收入同比增长 9%至人民币 827 亿元。</p>
+<p>国际市场游戏收入为人民币 145 亿元，同比增长 9%（或按固定汇率计算增长 11%），乃由于包括《PUBG MOBILE》及《荒野乱斗》在内的游戏表现强劲。</p>
+<p>国际市场游戏收入增速显著落后于总流水增速，因为部分游戏的留存率提高，公司相应延长了收入递延周期。</p>
+<p>本土市场游戏收入同比增长 14%至人民币 373亿元，得益于包括《无畏契约》、《王者荣耀》、 《和平精英》及《地下城与勇士：起源》在内的游戏驱动。</p>
+<p>社交网络收入同比增长 4%至人民币 309亿元，得益于手游虚拟道具销售、音乐付费会员收入及小游戏平台服务费的增长，部分被音乐直播及游戏直播服务收入下降所抵销。 </p>
+<p>营销服务业务本季度的收入同比增长 17%至人民币 300 亿元，得益于广告主对视频号、小程序及微信搜一搜广告库存的强劲需求，以及巴黎奥运会相关品牌广告的较小幅度贡献。</p>
+<p>游戏及电商行业的广告开支同比有所增长，超过房地产及食品饮料行业缩减的开支。 </p>
+<p>金融科技及企业服务业务的收入同比增长 2%至人民币 531 亿元。金融科技服务收入总体较去年同期基本保持稳定，其中理财服务收入因用户规模扩大及客户资产保有量增长而同比增长，而支付服务收入因消费支出疲软而有所下降。企业服务业务收入同比上升，乃由于云服务收入及商家技术服务费增长。 </p>
+<p>在几个关键业务之中，小程序本季度的交易额超人民币 2 万亿元，同比增长十几个百分点，得益于在点餐、电动车充电及医疗服务等应用场景中有更好的覆盖与更优的解决方案。</p>
+<p>QQ 团队全面升级了平台后端基础设施，推动 QQ 的移动终端月活跃账户数于本季度同比增长回正。</p>
+<p>音乐付费会员数同比增长 16%至 1.19 亿，得益于推荐算法优化、内容扩充和音质提升。</p>
+<p>长视频付费会员数同比增长 6%至 1.16 亿，得益于热门的动画与剧集内容。 </p>
+<p>本土市场的旗舰长青游戏《王者荣耀》及《和平精英》流水实现了健康的同比增长。其他长青游戏《火影忍者》手游及《无畏契约》的季均日活跃账户数创下新高。腾讯首款多端第一人称射击游戏 《三角洲行动》实现了较高的用户日均使用时长和留存率。</p>
+<p>在国际市场，《VALORANT》从个人电脑端拓展到 PlayStation 和 Xbox，在五个关键国际市场推出了主机版本，推动了该游戏流水于本季度同比增长超 30%。</p>
+<p>使用异构混合专家架构（MoE）的升级版基础模型腾讯混元 Turbo，相较于上一代模型腾讯混元 Pro，其训练和推理效率提升了一倍，且推理成本减半。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034617316716552</guid><pubDate>Wed, 13 Nov 2024 18:05:00 +0800</pubDate></item><item><title>特斯拉股价上涨非业绩所致，市场期待美国政府腐败带来利好｜海外日报</title><link>https://36kr.com/p/3034652769251593</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2><strong>「 Top 3 News 」</strong><br/> </h2>
+<h3><strong>特斯拉股价上涨非业绩所致，市场期待政府腐败带来利好</strong></h3>
+<p><strong>要点：</strong></p>
+<p>近期，特斯拉（TSLA）的股价在一周内上涨了约三分之一，这一现象并非由于公司业绩的提升或外部因素如消费者偏好变化、电动车政策的利好调整所导致。相反，这种股价上涨更多是基于市场对特斯拉可能从政府腐败中获益的预期。文章指出，尽管欧美等发达民主国家自诩超越了腐败，但实际上腐败行为只是以更隐蔽的形式存在。例如，当丰田在日本发声时，日本政府会倾听；在美国，当新的排放规则讨论时，污染大户如石油和汽车行业要求放宽规则，这些规则往往会被放宽，尽管这与医生、护士、科学家、公共利益团体、许多企业和公众的反对意见相悖。</p>
+<p>文章还提到，特朗普（Donald Trump）作为即将再次入主白宫的人物，其历史上的腐败行为是众所周知的。特斯拉CEO埃隆·马斯克（Elon Musk）尽管曾正确地认识到气候变化的严重性，却与特朗普这位承诺若石油公司给予十亿美元贿赂就会破坏电动车行业的候选人结盟，投入数亿美元支持他。市场对特斯拉股价的这种反应似乎是基于对特朗普和共和党可能进行的大规模政府腐败行为的预期，他们希望从中获益。这种预期与特斯拉加速电动车采用的使命背道而驰，因为特朗普的政策和行动一直是以增加空气和水污染、提高健康和燃料成本为目标。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,571" src="https://img.36krcdn.com/hsossms/20241113/v2_30603e2157364caa89d9b40eb304a819@6130289_oswg759344oswg1080oswg571_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Elon Musk（来源：Electrek）</p>
+<p><strong>观点：</strong></p>
+<p>这篇文章揭示了一个令人不安的现象：股市对特斯拉股价的推动并非基于公司的实际业绩或行业政策的积极变化，而是基于对政府腐败的预期。这种预期反映了市场对政治人物和企业领袖之间可能的不当关系和利益交换的担忧。这种现象引发了对市场公正性和透明度的质疑。如果股市的波动是基于对腐败行为的预期，那么这不仅损害了市场的公平竞争环境，也破坏了公众对经济制度的信任。特斯拉作为电动车行业的领军企业，其股价的上涨本应是对其创新和市场表现的认可，而不是基于政治人物可能的腐败行为。此外，这种对腐败的预期也忽视了特斯拉在推动清洁能源和减少碳排放方面的积极作用。特斯拉的成功应该建立在其产品和服务的质量上，而不是政治人物的偏袒或政策的不当倾斜。最终，这种基于腐败预期的股市行为可能会对整个经济和社会造成长远的负面影响。它不仅损害了市场的公正性，还可能助长不正当的政治和商业行为，从而破坏了经济的健康发展和社会的公平正义。</p>
+<h3><strong>凯迪拉克Vistiq电动SUV亮相：豪华三排座，续航超480公里</strong></h3>
+<p><strong>要点：</strong></p>
+<p>通用汽车（GM）旗下凯迪拉克品牌近日推出了一款全新的豪华三排座电动SUV——Vistiq，这款车型将在全球市场上市，进一步巩固凯迪拉克在美国豪华车市场的领导地位。Vistiq定位于Lyriq和更大的Escalade IQ之间，被称为“迷你版Escalade”，采用了凯迪拉克最新的设计语言。Vistiq的外观设计引人注目，包括发光的细条纹格栅，彰显其电动车的身份。车辆还配备了凯迪拉克标志性的垂直头灯和尾灯，高配车型则增加了黑水晶盾。内饰方面，Vistiq强调为所有三排乘客提供宽敞空间，并配备了先进的技术和功能，包括一个巨大的33英寸LED信息娱乐屏幕。即使是第三排乘客，也享有带垫的扶手、杯架、手机存放处和USB充电器。</p>
+<p>Vistiq搭载了一套23个扬声器的AKG高级音响系统，支持Dolby Atmos，提供沉浸式3D音效体验。安全和驾驶辅助技术也是Vistiq的亮点，包括GM的Super Cruise、盲区转向辅助、自行车手警示和前碰撞预警等标准配置。可选的夜视功能使用红外传感器探测前方的人或动物，进一步提升驾驶安全。动力方面，Vistiq配备了102 kWh的电池组，预计续航超过300英里。最大输出功率可达615马力，扭矩达到650磅-英尺，0至60英里/小时加速仅需3.7秒。标配的全轮驱动系统和道路噪音消除技术，为驾驶者提供了宁静的驾驶体验。Vistiq的车身尺寸为长205.6英寸、宽79.7英寸、高71英寸，轴距为121.8英寸，略长于Rivian R1S，但高度略低。凯迪拉克计划在全球范围内销售Vistiq，包括美国和加拿大，预计2025年初在GM的Spring Hill, TN制造厂开始生产。Vistiq将提供豪华、运动和高级豪华三种配置，GM表示，2025年夏季将推出增加性能元素和设计选项的Platinum配置。Vistiq的起始售价为78,790美元，包括目的地费用。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,554" src="https://img.36krcdn.com/hsossms/20241113/v2_e817549ade74455d97963f4f92bbed31@6130289_oswg757700oswg1080oswg554_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">凯迪拉克Vistiq电动SUV（来源：Electrek）</p>
+<p><strong>观点：</strong></p>
+<p>凯迪拉克Vistiq的推出，标志着通用汽车在电动SUV市场的进一步扩张。这款车型以其豪华配置、宽敞空间和先进技术，为消费者提供了一个全新的选择。Vistiq的设计理念体现了凯迪拉克对豪华电动SUV市场的深刻理解，它不仅满足了消费者对舒适性和科技感的需求，还提供了卓越的性能和安全性。Vistiq的定价接近80,000美元，这对于一款豪华电动SUV来说是一个相对合理的价格，尤其是考虑到其提供的配置和性能。随着电动汽车市场的成熟，消费者对于电动车的接受度越来越高，Vistiq的上市有望吸引那些寻求高端电动SUV的买家。然而，Vistiq的成功也将面临挑战。随着特斯拉、奥迪、奔驰等品牌在电动SUV市场的激烈竞争，Vistiq需要在品牌、技术和服务上不断创新，以保持竞争力。此外，随着全球对电动汽车政策的支持和基础设施的完善，Vistiq的市场表现也将受到这些外部因素的影响。总体而言，Vistiq的推出是凯迪拉克在电动化转型中的重要一步，它不仅丰富了凯迪拉克的产品线，也为消费者提供了一个全新的豪华电动SUV选择。随着电动汽车技术的不断进步和市场的不断扩大，Vistiq有望成为凯迪拉克在全球豪华电动SUV市场中的一个强有力的竞争者。</p>
+<h3><strong>保时捷发布三款新 Taycan EV，性能与续航全面提升</strong></h3>
+<p><strong>要点：</strong></p>
+<p>保时捷近日宣布，其2025款Taycan电动系列新增三款车型，分别为Taycan GTS、GTS Sport Turismo以及入门级全轮驱动Taycan 4。这三款新车型的加入，使得保时捷Taycan系列的车型总数达到13款，进一步丰富了产品线，以满足不同消费者的需求。新款车型在性能、续航和充电速度上都有显著提升。保时捷Taycan系列以其卓越的性能和运动化设计而闻名，新车型的加入进一步强化了这一市场定位。Taycan GTS基于保时捷Gran Turismo Sport的成功经验，提供高达690马力的动力，比前代车型增加了100马力，同时提供轿车和Sport Turismo两种车身形式。新车型还配备了独特的电动运动声音系统，以增强驾驶体验。Taycan 4 Cross Turismo则针对追求性能与效率的消费者，根据不同的电池容量，可提供高达429马力的动力。新入门级Taycan 4采用双电机配置，提供更好的控制和稳定性，同时配备了保时捷牵引力管理和自适应空气悬挂系统，确保了豪华品牌所期望的平稳驾驶体验。新车型的起售价分别为：Taycan 4轿车起价为103,300美元，Taycan GTS轿车起价为147,900美元，GTS Sport Turismo起价为149,800美元。所有价格均不包括1,995美元的交付费用。保时捷Taycan系列现在涵盖了三种车身变体、全轮驱动和后轮驱动动力系统，性能范围从402马力到1,019马力不等。新车型预计将于2025年初上市，预计从2025年第一季度末开始交付。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,492" src="https://img.36krcdn.com/hsossms/20241113/v2_0ffe4fb2f2c64ec89a549de46ee28fe7@6130289_oswg641525oswg1080oswg492_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">保时捷Taycan（来源：保时捷）</p>
+<p><strong>观点：</strong></p>
+<p>保时捷此次推出的三款新Taycan EV车型，不仅在性能上有所提升，更在续航和充电速度上进行了优化，这显示了保时捷在电动车领域的持续创新和对市场需求的深刻理解。随着电动车市场的不断扩大和成熟，消费者对电动车的期望也在不断提高，不再仅仅满足于基本的通勤需求，而是开始追求更高的性能和更好的驾驶体验。新Taycan系列的推出，尤其是GTS和4 Cross Turismo车型，不仅丰富了保时捷的产品线，也为消费者提供了更多的选择。特别是对于那些寻求高性能和高效率的消费者来说，新车型无疑提供了一个吸引人的选择。GTS车型的电动运动声音系统和4 Cross Turismo的双电机配置，都是对提升驾驶体验的有力补充。此外，随着电动车技术的进步，保时捷通过不断更新其电动车产品，展示了其在高端电动车市场的领导地位。新车型的推出，不仅有助于保时捷在竞争日益激烈的电动车市场中保持竞争力，也为品牌在全球范围内的电动化战略提供了支持。总的来说，保时捷新Taycan系列的推出，是品牌对电动车市场发展趋势的积极响应，也是对消费者需求的深入洞察。随着新车型的上市，保时捷有望在高端电动车市场中占据更大的份额，并继续引领电动车技术和设计的创新潮流。</p>
+<h2><strong>「 大事件 」</strong></h2>
+<h3><strong>EVgo 股价创下第三季度业绩，连续八个季度实现两位数同比增长</strong></h3>
+<p>美国电动汽车充电网络EVgo发布了其2024年第三季度的财务报告，显示了创纪录的收入和惊人的同比增长。EVgo的增长已经持续了八个季度，其中七个季度的能源吞吐量增长达到了三位数。作为美国最大的电动汽车充电网络之一，EVgo目前的服务覆盖超过1000个快速充电站点，遍布40个州，并且还有更多站点正在筹备中。今年5月，EVgo宣布其注册用户在两年内翻了一番，活跃客户数超过100万，自2020年4月以来增长了400%。尽管一些竞争对手因缺乏维护和可靠性而受到批评，EVgo推出了“ReNew”计划，修复和更换充电桩，确保客户能够为他们的电动汽车充电。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,542" src="https://img.36krcdn.com/hsossms/20241113/v2_7d137642c75a4d08aa811396d552808b@6130289_oswg605218oswg1080oswg542_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">EVgo(来源：Electrek）</p>
+<p>在第三季度报告发布之前，EVgo还推出了多项针对电动汽车驾驶员的优惠和支持计划，包括为特斯拉车主提供接入服务，以及为赫兹租赁提供快速充电服务，同时通过与Pilot/Flying J和通用汽车等公司的合作，推出新的350 kW充电站。这些努力似乎已经取得了成效，因为EVgo在2024年第三季度的财务报告中分享了创纪录的收入和稳定的增长。根据EVgo的2024年第三季度报告，该电动汽车充电网络实现了6750万美元的创纪录收入，比2023年第三季度的3510万美元增长了92%。EVgo的总吞吐量增至78千兆瓦时，与2023年第三季度的37千兆瓦时相比，增长了111%。充电网络在第三季度增加了超过147,000名新客户，用户总数超过120万，同比增长39%。总账户数比2023年第三季度增长了57%。EVgo首席执行官Badar Khan表示：“我很高兴报告又一个创纪录的季度，以强劲的收入和三位数的年增长率为支撑。我们的部署团队继续直面需求，第三季度上线了创纪录数量的充电桩。随着我们上个月宣布的美国能源部有条件承诺提供高达10.5亿美元的贷款担保，EVgo有望成为行业领先的充电服务提供商。展望年底和2025财年，我们正努力完成贷款流程，推动我们作为快速充电基础设施所有者和运营商的下一阶段增长，并为我们的股东持续创造可持续的价值。”</p>
+<h3><strong>奥迪A3 allstreet PHEV亮相，搭载1.5升TFSI发动机与电动马达</strong></h3>
+<p>奥迪近日推出了其最新的插电式混合动力车型——A3 allstreet，这款车型继承了奥迪A3 Sportback TFSI e的设计理念，并在性能和续航方面进行了显著提升。A3 allstreet的核心动力系统包括一台1.5升TFSI evo2涡轮增压汽油发动机，提供110千瓦（150马力）和250牛米扭矩，以及一台85千瓦、330牛米的电动机。这套混合动力系统综合输出功率为150千瓦（204马力），系统扭矩达到350牛米，为这款跨界车型提供了强劲的动力。A3 allstreet 40 TFSI e的最高时速可达225公里/小时，纯电模式下的最高时速可达140公里/小时。其搭载的高容量高压电池总容量为25.7千瓦时（净容量19.7千瓦时），集成了96个棱柱形电芯，每个电芯的充电容量为73安时，为车辆提供了接近140公里的WLTP纯电续航里程。在智能驱动管理方面，A3 allstreet的插电式混合动力系统旨在实现最佳效率。驾驶员可以通过选择EV按钮或多媒体界面（MMI）优先使用电动驾驶模式，实现类似全电动车型的驾驶体验。主要的“Auto Hybrid”模式智能平衡燃油发动机和电动机的使用，低速时使用纯电驱动，高速时优先使用TFSI发动机，并经常两者并用。奥迪A3 allstreet 40 TFSI e还通过滑行、能量回收（在滑行和制动期间）或通过电动机和TFSI的联合动力提升性能，适应不同的驾驶情况。此外，混合动力管理系统保持一致的电池充电水平，确保为后续使用（如在低排放区域驾驶）保留足够的电能。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,657" src="https://img.36krcdn.com/hsossms/20241113/v2_afc64ea855874af3bed912621fbeaec1@6130289_oswg657298oswg1080oswg657_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">EVgo(来源：Electrek）</p>
+<p>在充电方面，A3 allstreet TFSI e支持高达50千瓦的直流快速充电，这意味着从10%充至80%的电量仅需不到30分钟。此外，车辆还支持三相交流充电，最高可达11千瓦，例如在壁挂式充电盒或市政充电站充电，充电过程大约需要2.5小时。奥迪还提供奥迪充电服务，为车主提供在29个欧洲国家约63万个充电点的便捷访问，包括奥迪在柏林、慕尼黑、法兰克福、纽伦堡、苏黎世和萨尔茨堡的自有充电中心。在悬挂和动态性能方面，A3 allstreet TFSI e比A3 Sportback高出15毫米，结合更大的轮胎直径，提供了30毫米的额外离地间隙。优化的弹簧/减震器设置，由于锂离子电池位于后座下方的地板下，导致后轴负荷分布略有偏后（前轴55%，后轴45%），进一步提升了车辆的行驶品质和动态性能。A3 allstreet 40 TFSI e的起售价为46,000欧元，相较于A3 allstreet标准版，新增了奥迪驾驶选择动态操控系统、辅助空调等配置。该车型从11月中旬开始接受预订。</p>
+<h3><strong>Mobilize Duo和Bento：新型电动四轮摩托车及多功能货箱车登陆英国</strong></h3>
+<p>Mobilize品牌近日在英国市场推出了两款新型电动四轮车——Duo和Bento，这两款车型专为城市中人员和货物的移动而设计。Duo是一款两座电动四轮摩托车，而Bento则是其多功能货箱版本，配备了一个可调整的649升货箱。这两款车型的中央驾驶位置和紧凑的尺寸使它们在城市交通中易于操控和停车。它们在四轮摩托车领域首次配备了驾驶员安全气囊，并提供了慷慨的全电动续航里程：Duo为100英里，Bento为87英里。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,669" src="https://img.36krcdn.com/hsossms/20241113/v2_53bf8af1436f4b6385fa0600969095c6@6130289_oswg938840oswg1080oswg669_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Mobilize Duo(来源：ElectricCarsReport)</p>
+<p>Duo和Bento在设计上注重环保责任，采用简化的生产流程，其中包括超过40%的回收材料。在其生命周期结束时，这两款车型至少有95%可以回收。这两款车型原生连接，拥有自己的MyDuo应用程序，可以生成多达六个数字密钥，这在雷诺集团是首次实现，允许用户远程授权开启车辆，使得汽车共享等活动变得更加简单。Duo和Bento将通过雷诺网络中的精选网点提供。预计英国市场的订单将于明年初春开放，销售将于夏季前开始。定价将在那时确认，但预计将从约9300英镑起，至9999英镑不等。请注意，此价格仅为预期，尚未最终确定。Duo四轮摩托车提供了小巧的车身尺寸（长2.43米，宽1.3米），但驾驶乐趣十足，配备了包括空调、加热驾驶员座椅、加热挡风玻璃、USB-C端口和无钥匙进入在内的真实驾驶舱。它还是唯一配备安全气囊的四轮摩托车，安全带包括力限制器。转弯半径为6.8米，具有出色的灵活性。48V电动马达来自雷诺Austral的微混系统，为城市环境提供了强劲的加速能力。10.3kWh NMC单模块电池从雷诺5 E-Tech 100%电动中借用，根据WMTC标准，Duo的续航里程为100英里（Bento为87英里）。在英国，通过Type 2连接充电。在制造过程中，超过40%的回收材料按车辆重量计算，其生产产生的温室气体排放量比A级电动车少66%。保险杠、翼子板和轮拱包含60%的回收聚合物，其中一半来自报废车辆。在其生命周期结束时，至少有95%可以回收。</p>
+<h3><strong>沙特电动汽车品牌Ceer与Rimac合作，将采用高性能电动动力系统</strong></h3>
+<p>沙特阿拉伯首个电动汽车品牌Ceer与Rimac Technology达成了一项重要的合作协议，Ceer将采用Rimac提供的高性能、全集成电动驱动系统（EDS）为其即将推出的旗舰电动车系列。Ceer是沙特公共投资基金（PIF）与富士康的合资企业，此次合作标志着Rimac Technology业务从限量版、高性能应用向大规模项目的发展。此次合作在Rimac位于克罗地亚的总部举行了正式的签约仪式。与Ceer的合作不仅代表了Rimac Technology业务的进一步扩展，也意味着该公司从设计限量版、高性能车型（包括Rimac Nevera、Pininfarina Battista、Aston Martin Valkyrie和Koenigsegg Regera）转向更大规模的项目。今年早些时候，Rimac Technology与宝马集团达成了长期合作，为宝马的乘用车供应高压电池系统，并已签署多个针对中到大批量欧洲OEM项目的协议。此次与Ceer的合作是Rimac在海湾合作委员会（GCC）的首个合作伙伴关系，也是Rimac Technology产品规模扩张的又一次重要举措，专注于其电动动力总成系统和软件产品。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,767" src="https://img.36krcdn.com/hsossms/20241113/v2_3d3eb4fe1ce8479c81fa53c4bfc9d17f@6130289_oswg894111oswg1080oswg767_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">沙特CEER和Rimac（来源：ElectricCarsReport）</p>
+<p>Ceer的首席执行官James DeLuca表示：“我们很高兴成为GCC中第一个与Rimac Technology合作的公司和大规模项目，以便为我们的Ceer旗舰车型配备最先进的高性能电动驱动系统和解决方案。Rimac在全球设计领先性能动力总成系统方面的声誉和专业知识与我们的战略目标完全一致，即与全球行业领导者合作，履行我们致力于交付世界级、高性能电动汽车并革新沙特阿拉伯汽车工业的承诺。”Rimac集团的创始人Mate Rimac表示：“与Ceer的合作进一步巩固了Rimac Technology在全球电动化领域的雄心。仅今年一年，我们就宣布了几项关键的合作伙伴关系，包括与宝马集团和Ceer的合作，这将导致为全球领先的OEM生产数万个电动驱动系统和电池系统。随着更多激动人心的项目即将推出，我们已经战略性地投资于我们在克罗地亚的生产设施，包括Rimac Campus和支持基础设施，很快将全面投入运营。” 此次合作预示着沙特阿拉伯在高性能电动汽车领域迈出了重要一步，同时也显示了Rimac Technology在全球电动动力系统市场中的领导地位和扩张势头。预计这一合作将为沙特阿拉伯乃至整个中东地区的电动汽车发展带来新的活力。</p>
+<h2><strong>「 酷产品 」</strong></h2>
+<h3><strong>保时捷Taycan GTS新升级：690马力超强动力与超增压功能</strong></h3>
+<p class="image-wrapper"><img data-img-size-val="1080,611" src="https://img.36krcdn.com/hsossms/20241113/v2_79ddb83886d946159e47aa102251bc64@6130289_oswg761539oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">保时捷Taycan GTS（来源：TopGear）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,581" src="https://img.36krcdn.com/hsossms/20241113/v2_40cee66ee3b24969abbf9a1bc9c37342@6130289_oswg835229oswg1080oswg581_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">保时捷Taycan GTS（来源：TopGear）</p>
+<p>保时捷对其Taycan电动跑车系列进行了持续更新，最新推出的是被公司称为“运动全能选手”的Taycan GTS。这款新升级的Taycan GTS在超增压模式下能够提供高达690bhp的总动力，比上一代Taycan GTS的动力输出增加了100马力（75kW）。保时捷将其独特的动力提升功能命名为“push-to-pass”，该功能在低速时也能将扭矩提升至“启动控制”级别。简而言之，新Taycan GTS的速度极快。仪表盘上的小计时器会倒数额外增加的10秒增压时间，但驾驶员可能忙于抓紧方向盘而无暇顾及。新Taycan GTS能够在短短3.3秒内完成0-62mph的加速，比之前快了0.4秒，而在0-124mph的加速上，它比前代车型快了1.6秒，仅需10.4秒。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,587" src="https://img.36krcdn.com/hsossms/20241113/v2_d0eb743dc0994499ac69edf6e489814e@6130289_oswg846315oswg1080oswg587_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">保时捷Taycan GTS（来源：TopGear）</p>
+<p>Taycan GTS还从今年早些时候对Taycan系列所做的更广泛改进中受益，包括新的后轴电机、改进的脉冲逆变器和更好的软件、更强大的电池、更好的热管理、改进的热泵以及在可能的情况下断开前电机的修订版全轮驱动策略。制动能量回收容量已提高到400kW（从320kW起），续航里程增加了74英里，总计可达390英里，并且噪音也得到了改善。保时捷表示，新车现在具有“更独特的声音配置，类似于Taycan Turbo S”。新Taycan GTS标配了Turbo S的20英寸“空气动力学设计”轮毂，当然，客户也可以选择21英寸的RS Spyder版本。车内也从那款大号非涡轮增压车型中传承了一些装备，例如“Race-Tex”和黑色皮革。运动座椅具有18向可调功能，多功能方向盘，当然还有Sport Chrono套件（包括大号的“增压”按钮）。外观上，新Taycan GTS符合GTS系列的预期。前后保险杠经过微调，增加了更多高光黑色细节。新车还提供了新的车身颜色选择，包括灰色、淡蓝色和金属紫色，而且确实，每位选择新Taycan GTS的客户都应该立即将其漆成金属紫色。在英国，Taycan GTS轿车的起价为117,500英镑，而Taycan GTS Sport Turismo的起价为118,300英镑。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034652769251593</guid><pubDate>Wed, 13 Nov 2024 18:08:00 +0800</pubDate></item><item><title>出海速递｜叮咚买菜启动出海，首站选定沙特/曾毓群：若特朗普“开绿灯”，宁德时代将考虑赴美建厂</title><link>https://36kr.com/p/3034551211372552</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>访问36氪出海网站</strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1965,846" src="https://img.36krcdn.com/hsossms/20241113/v2_00774d2110c84355b8be00b8ba269f92@11918142_oswg186017oswg1965oswg846_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2>今日好文</h2>
+<h3><a href="https://letschuhai.com/4db5132c?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>小米隐秘布局 AI 眼镜，和歌尔合作，预计明年 Q2 发布</strong></a></h3>
+<p>Meta Ray - ban 创造的200万年销量神话，是中国 AI 硬件厂商不愿错过的高地。</p>
+<h3><a href="https://letschuhai.com/732afc52?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>当 AI 搜索开始赚钱养家</strong></a></h3>
+<p>失之谷歌，收之 AI。</p>
+<h3><a href="https://letschuhai.com/82bcafed?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>开启爆单模式！速卖通双11商家感慨：很猛、翻倍、忙补货</strong></a></h3>
+<p>全托管 + POP 双轨驱动后，双11速卖通商家迎来增长。</p>
+<h3><a href="https://letschuhai.com/051e9855?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>COP29上的中国力量，华宝新能探索低碳发展新路径</strong></a></h3>
+<p>2024年，全球气候危机愈演愈烈，气候行动刻不容缓。</p>
+<h2>热点快讯</h2>
+<h3><strong>叮咚买菜启动出海：首站选定沙特，校招新增国际管培岗</strong></h3>
+<p>叮咚买菜已正式启动出海，首站选定为中东的沙特。有叮咚内部人士表示，叮咚买菜出海模式主要是面向当地客户销售预制菜，同时也会有生鲜、冷藏、百货等品类。另有消息人士透露，今年叮咚买菜管理层曾经在沙特开过一次管理会。目前叮咚买菜正在沙特当地组建本地化团队。在多个海内外招聘渠道，叮咚买菜正在招聘产品、运营、客服、采销、政府关系等相关岗位，部分岗位工作地为沙特首都利雅得，且要求应聘者熟练英语和阿拉伯语。（新浪科技）</p>
+<h3><strong>沙特新未来城项目 CEO 离职，PIF 前高管出任临时负责人</strong></h3>
+<p>沙特新未来城（NEOM）项目11月12日宣布，纳兹米·纳赛尔不再担任 CEO，沙特公共投资基金（PIF）前高管 Aiman Al-Mudaifer 接任代理 CEO 一职。声明称，随着新未来城项目进入交付的新阶段，新领导层将确保运营的连续性、灵活性和效率，以符合项目的总体愿景和目标。（界面新闻）</p>
+<h3><strong>曾毓群：若特朗普“开绿灯”，宁德时代将考虑赴美建厂</strong></h3>
+<p>据报道，当地时间11月12日，宁德时代董事长兼 CEO 曾毓群接受采访称，若美国当选总统特朗普向中企在美投资电动车供应链敞开大门，宁德时代将考虑赴美建厂。曾毓群表示，起初当公司想在美国投资时，美国政府拒绝了。但他始终保持着开放态度，并希望美方未来会对投资敞开大门。特朗普曾在8月接受采访称：“我们将提供激励措施，如果中国和其他国家想来这里（美国）销售汽车，他们就会在这里建厂，并雇佣我们的工人。”（界面新闻）</p>
+<h3><strong>特斯拉宣布新里程碑：一天生产1000台 Powerwall</strong></h3>
+<p>当地时间周二，特斯拉位于美国内华达州的超级工厂在一天之内生产了1000台 Powerwall 储能设备，标志着该公司创下了一个新的里程碑。Powerwall 是一种强大的家用电池，可以储存太阳能，以备电网停电时使用。该公司此前曾表示，有能力每25秒生产一台 Powerwall 3——该产品的最新版本，或每年生产超过70万台。（新浪财经）</p>
+<h3><strong>李彦宏：智能体是 AI 应用最主流的形态</strong></h3>
+<p>11月12日，在上海举行的百度世界大会上，百度创始人、CEO 李彦宏表示，检索增强（RAG）已经成为行业共识，过去24个月 AI 大模型行业最大变化是通过检索增强改善了大模型幻觉的问题。他还称，随着大模型幻觉问题被解决，应用即将迎来爆发期，而智能体（agent）是 AI 应用最主流的形态。百度目前主推了四类 AI 智能体：公司官方智能体、角色类智能体、工具类智能体和行业智能体。（财新网）</p>
+<h3><strong>阿里海外推出首个 B2B 领域的 AI 搜索引擎</strong></h3>
+<p>据报道，1月12日，阿里在海外推出对话式 AI 搜索引擎 Accio，面向全球商家开放，这是全球第一个 B2B 领域的 AI 搜索引擎。Accio 的页面主体是对话框，产品形态类似于 AI 搜索引擎 Perplexity，定位是个人采购代理。当用户输入需求之后，它会通过供货商、定制范围、价格、终端零售销量、客户评价等信息筛选，输出符合的商家和商品。（新浪财经）</p>
+<h3><strong>英伟达与软银将在日本合作建设 AI 基础设施</strong></h3>
+<p>11月13日，英伟达创始人兼 CEO 黄仁勋在英伟达日本 AI 峰会上宣布，将与软银合作在日本建设 AI 基础设施，以加速日本机器人、汽车、医疗保健和电信行业发展。软银将使用英伟达 Blackwell 平台构建 AI 超级计算机，并计划在其下一代超级计算机中使用英伟达 Grace Blackwell 平台。（界面新闻）</p>
+<h3><strong>腾讯：三季度游戏收入同比增长12.6%，国际游戏收入同比增长9%。</strong></h3>
+<p>腾讯发布2024年第三季度财报。财报显示，腾讯三季度网络游戏业务收入518亿元，同比增长12.6%；本土游戏收入373亿元，同比增长14%；国际游戏收入145亿元，同比增长9%。旗舰长青游戏《王者荣耀》《和平精英》的流水延续二季度复苏势头，实现同比增长；其他长青游戏如《火影忍者》手游、《无畏契约》的季均日活跃用户创新高。此外，《VALORANT》在5个关键国家发布主机版后，流水同比增长30%。（36氪）</p>
+<h3><strong>欧洲外卖巨头6.5亿美元出售美国子公司 Grubhub</strong></h3>
+<p>欧洲最大外卖公司 Just Eat Takeaway 当地时间11月13日宣布已达成一项协议，将以6.5亿美元的价格将其美国子公司 Grubhub 出售给 Wonder 公司。Wonder 是一家食品配送初创公司，由沃尔玛前电商主管马克·罗尔（Marc Lore）于2013年创立。（界面新闻）</p>
+<h2><strong>近期活动</strong></h2>
+<h3><a href="https://letschuhai.com/551f8a3e" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜抓住出海卡塔尔机遇！中国-卡塔尔投资合作高峰洽谈会即将落地深圳</strong></a></h3>
+<p>为了帮助中国企业更好地了解卡塔尔市场的特点和机遇，<strong>36氪出海联合卡塔尔投资促进局、深圳贸促会、盈科律师事务所，于11月15日，在深圳举办中国-卡塔尔投资合作高峰洽谈会。</strong>洽谈会旨在为中卡两国企业提供深度合作与交流的平台，助力企业探索新的商业机会。如果您关注出海卡塔尔的商业机遇，希望深入了解卡塔尔的利好政策、营商环境及合作生态，欢迎您扫描下方二维码，填写表单，报名参加本次活动。<strong>我们将根据话题相关度，对报名申请进行筛选。通过活动审核的用户，我们将有专人联系通知。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1965,959" src="https://img.36krcdn.com/hsossms/20241111/v2_6e3c9e20108a4c869402651d31855743@11918142_oswg269098oswg1965oswg959_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><a href="https://letschuhai.com/10094bc6" rel="noopener noreferrer nofollow" target="_blank"><strong>活动｜如何获取海外市场的信任？探索品牌建设的必经之路</strong></a></h3>
+<p><strong>36氪出海将于11月21日下午2:00在北京举办主题交流活动。</strong>此次活动特邀来自 <strong>XREAL</strong>、<strong>Renata LLC</strong> 和 <strong>TikTok for Business</strong> 的重磅嘉宾，他们将基于丰富的品牌出海经验。分享在国际化与本地化品牌建设中的深刻见解。通过分析成功出海品牌的案例，并结合最新的市场营销趋势，为志在全球化的企业提供极具价值的品牌策略参考。<strong>如果您关注出海企业的全球化品牌策略，希望深入探讨出海品牌建设之道，欢迎您扫描下方二维码填写表单，报名参加活动。</strong>活动报名将于11月20日中午12:00截止。</p>
+<p class="image-wrapper"><img data-img-size-val="7860,3836" src="https://img.36krcdn.com/hsossms/20241107/v2_a11858fc827440e8a1373c39aa70476b@11918142_oswg2456130oswg7860oswg3836_img_jpeg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><a href="https://letschuhai.com/c63ac6c2?utm_source=36kr&amp;weekly119" rel="noopener noreferrer nofollow" target="_blank"><strong> </strong>日本｜相聚 Hack Osaka 2024，对话英伟达、Herbalbony 等全球科技领袖</a></h3>
+<p><strong>Hack Osaka 2024 将于11月26日举行，主题聚焦先锋初创企业和国际合作伙伴关系构建。</strong>本次活动由大阪创新中心（Osaka Innovation Hub）与日本都市创新研究所（Urban Innovation Institute）、日本贸易振兴机构（JETRO）和大阪商业发展局（OBDA）联合组织。更多行业创新者与先行者，例如 Rutilea 首席执行官 Takaaki Yano、Datagrid 首席执行官 Yuki Okada、<strong>36Kr Global 合伙人Robyn Tan 也将加入活动带来分享。</strong>Hack Osaka 2024 免费向公众开放，参会形式包含现场参与和线上参与，欢迎扫描下方二维码，注册参会。</p>
+<p class="image-wrapper"><img data-img-size-val="1280,613" src="https://img.36krcdn.com/hsossms/20241109/v2_308bac1da36349628f5295ade4c1f3c9@11918142_oswg1054809oswg1280oswg613_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>加入36氪出海学习交流群</strong></h2>
+<p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
+<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034551211372552</guid><pubDate>Wed, 13 Nov 2024 18:29:00 +0800</pubDate></item></channel></rss>
