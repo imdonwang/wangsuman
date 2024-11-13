@@ -1,368 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 13 Nov 2024 17:30:28 +0800</lastBuildDate><pubDate>Wed, 13 Nov 2024 17:30:28 +0800</pubDate><item><title>今日最热论文：Scaling Law后继乏力，量化也不管用，AI大佬齐刷刷附议</title><link>https://36kr.com/p/3034531356749825</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>几十万人关注，一发表即被行业大佬评为“这是很长时间以来最重要的论文”。</p>
-<p>哈佛、斯坦福、MIT等团队的一项研究表明：<strong>训练的token越多，需要的精度就越高。</strong></p>
-<p>例如，Llama-3在不同数据量下（圆形8B、三角形70B、星星405B），随着数据集大小的增加，计算最优的精度也会增加。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,707" src="https://img.36krcdn.com/hsossms/20241113/v2_2b00dcf82e0d4a5282308fb53884fca8@46958_oswg312241oswg1080oswg707_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>换句话就是，对于大规模的训练任务，<strong>低精度的量化可能不再足够有效</strong>。</p>
-<p>按照结论，对Scaling Law的遵循意味着我们需要保持更高精度，然而一直以来，人们通常会选择量化（将连续值或多精度值转换为较低精度）来节省计算资源。</p>
-<p>一旦结论成立，GPU的设计和功能可能也需要相应调整，因为传统上，GPU的性能提升部分依赖于对低精度计算的优化。</p>
-<p>正如艾伦AI研究所科学家所指出的：</p>
-<blockquote>
-<p>这是很长时间以来最重要的论文。它用强有力的证据表明，<strong>我们正在达到量化的极限</strong>。论文得出的结论对整个领域以及GPU的未来有着广泛的影响。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,306" src="https://img.36krcdn.com/hsossms/20241113/v2_d5e8ba6fe423405eaa8e6cfbfa72a1b4@46958_oswg146285oswg1080oswg306_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>与此同时，研究得出了<strong>两个重要结论</strong>：</p>
-<p>如果量化是在<strong>后训练阶段</strong>进行的，那么更多的预训练数据最终可能反而<strong>有害</strong>；</p>
-<p>在高（BF16）和下一代（FP4）精度下进行预训练可能都是次优的设计选择；</p>
-<p>这也引来OpenAI员工大赞特赞：</p>
-<blockquote>
-<p>将非常酷地看到<strong>如何SOTA量化方案</strong>（mxfp，Pw≠Pkv≠Pa等）推动前沿；在我看来，将一半的计算预算用于一次大规模运行以检查模型是否适用于大模型是值得的。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,632" src="https://img.36krcdn.com/hsossms/20241113/v2_b09fbc099ab04c14a4d07e50b9620992@46958_oswg232344oswg1080oswg632_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>提出“精度感知”Scaling Laws</strong></h2>
-<p>一上来，研究就指出，当前扩展的焦点主要放在了模型规模、数据量上，忽视了对<strong>精度</strong>的关注。</p>
-<p>而事实上，随着模型进一步应用落地，低精度量化正在成为新的范式。</p>
-<blockquote>
-<p>深度学习正朝着更低精度的方向发展。当前的前沿模型（如Llama-3系列）在BF16中进行训练，并且大家都在努力将预训练范式转移到FP8，甚至下一代硬件将支持FP4；</p>
-</blockquote>
-<p>因此，研究想要搞清：</p>
-<blockquote>
-<p>精度、参数和数据之间的权衡是什么？它们在预训练和推理方面如何比较？</p>
-</blockquote>
-<p>具体而言，团队研究了在预训练和后训练 ，随着数据和参数的变化，精度对损失的影响如何变化。</p>
-<p>同时，为了精确测量相关变化，团队专门提出了<strong>“精度感知（precision-aware）”</strong>的Scaling Laws，以预测和优化不同精度下的语言模型训练和推理。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,366" src="https://img.36krcdn.com/hsossms/20241113/v2_1574ed10c9ed46fe934b4b614e6fa292@46958_oswg31478oswg1080oswg366_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>先说结论。下图展示了两个主要的实验结果：</p>
-<p>在较低精度下训练模型（例如INT3和INT4）会导致较高的损失；</p>
-<p>在推理时使用较低精度会导致性能下降；</p>
-<p>具体而言，左侧图表展示了在不同精度下<strong>训练模型</strong>的效果。</p>
-<p>其中纵轴表示最终的验证损失（Val Loss），横轴表示不同的模型规模（Model Size），从30M到220M参数。不同的颜色代表了不同的训练精度，从INT3到INT6，以及没有后训练量化（No PTQ）。</p>
-<p>研究发现，在较低精度下训练模型（例如INT3和INT4）会导致较高的损失，而随着精度的提高，损失会减少；同时，随着模型规模的增加，损失也会减少。</p>
-<p>另外，右侧图表展示了在不同精度下<strong>进行推理</strong>时的模型性能。</p>
-<p>其中横轴表示了推理时的权重精度（Final Val Loss）。</p>
-<p>结果显示，在推理时使用较低精度（例如INT3和INT4）会导致性能下降，即损失的增加；而随着精度的提高，损失会逐渐减少，接近没有进行后训练量化的模型性能。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,372" src="https://img.36krcdn.com/hsossms/20241113/v2_bec81bc3f40f4e21a67bf5f573a49394@46958_oswg117551oswg1080oswg372_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>上述发现也解释了<strong>为什么Llama-3难以量化？</strong></p>
-<p>要知道，Llama-3发布后，它因“超15T Token数据上的超大规模预训练”而闻名，不过人们后来发现，Llama-3低比特量化性能下降显著。</p>
-<p>这可能正如研究提到的，模型在预训练阶段看到的数据越多，对量化的敏感性就越高。</p>
-<p>与此同时，研究还发现了：</p>
-<blockquote>
-<p><strong>后训练量化</strong>（PTQ，即训练完成后对模型进行量化）<strong>引起的性能退化随着模型训练数据量的增加而增加。</strong></p>
-</blockquote>
-<p>换句话说，在大量数据上训练的模型，如果在推理时进行低精度的PTQ，可能会导致性能显著下降。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,613" src="https://img.36krcdn.com/hsossms/20241113/v2_0dd38060d64f4cb0b7927c799d94fe32@46958_oswg191736oswg1080oswg613_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>接下来，团队提出利用“精度感知”Scaling Laws来<strong>预测</strong>模型在不同精度下的性能，并指出：</p>
-<blockquote>
-<p>在较低精度下进行训练可以减少模型的“有效参数数量（effective parameter count）”，从而预测在低精度下训练和后训练量化产生的额外损失。</p>
-</blockquote>
-<p>其中包含两个关键公式，它们构成了一个统一的理论框架，用于预测不同精度下训练和推理的性能。</p>
-<p>训练后量化（PTQ）引起的损失退化预测公式：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,361" src="https://img.36krcdn.com/hsossms/20241113/v2_51f81ae797d74f889de2a1a1c3241fef@46958_oswg180159oswg1080oswg361_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>考虑训练精度的模型损失预测公式：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,419" src="https://img.36krcdn.com/hsossms/20241113/v2_4d73152f286b4ca68a7fc38daf23381d@46958_oswg196912oswg1080oswg419_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>统一预训练与后训练的精度预测</strong></h2>
-<p>BTW，研究最终将后训练量化和预训练量化的影响统一起来，以此实现：</p>
-<blockquote>
-<p><strong>预测在任何精度组合下的预训练和后训练损失</strong></p>
-</blockquote>
-<p>相关公式如下：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,358" src="https://img.36krcdn.com/hsossms/20241113/v2_2f8da3f5bbbd45e1b209f14f41fa2e5e@46958_oswg185374oswg1080oswg358_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>同时，为了验证预测的准确性，研究对超过465次预训练运行的数据进行拟合，并在高达1.7亿参数、训练了高达260亿个token的模型上进行了验证。</p>
-<p>并在过程中提出了<strong>以下几点建议</strong>：</p>
-<p>需要衡量精度与性能，<strong>在资源有限的情况下</strong>，可以考虑使用较低的精度来训练更大的模型；</p>
-<p>需要衡量精度与参数，在低精度下训练时，<strong>可以考虑增加模型的规模</strong>（即参数数量），因为研究表明这样做可能是计算上最优的；</p>
-<p>需要优化数据量，通过数据增强、选择性数据采样等技术提高数据使用率，<strong>并在预训练时应避免使用过多的数据</strong>，特别是在模型需要后期量化的情况下。</p>
-<p>不过，这项研究目前也存在一定局限性，比如作者自述使用了一个固定的模型架构来控制变量。</p>
-<p>这意味着，相关结果可能不适用于经过架构调整的低精度训练模型，因为架构的变化可能会影响模型对精度变化的敏感性。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,437" src="https://img.36krcdn.com/hsossms/20241113/v2_430aea5dfe1641b991bdfc00c182ad86@46958_oswg239153oswg1080oswg437_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>最后，有网友还想得更远。提出<strong>一旦量化失败</strong>，还有3条路可以考虑：</p>
-<ul>
-<li>扩展数据中心</li>
-<li>转向更小的专业模型</li>
-<li>知识蒸馏</li>
-</ul>
-<p class="image-wrapper"><img data-img-size-val="1080,453" src="https://img.36krcdn.com/hsossms/20241113/v2_e6f2a9102c4e470d94611fb05d3cc91f@46958_oswg228194oswg1080oswg453_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>你怎么看？</p>
-<p>论文：https://arxiv.org/abs/2411.04330</p>
-<p>参考链接：</p>
-<p>[1]https://x.com/Tim_Dettmers/status/1856338240099221674</p>
-<p>[2]https://x.com/Tanishq97836660/status/1856045600355352753</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Ifedw4JsOEHEoHc0UGyw4w" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：一水，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034531356749825</guid><pubDate>Wed, 13 Nov 2024 16:46:00 +0800</pubDate></item><item><title>10月教育行业融资报告：融资金额7175万，职业教育成最大赢家</title><link>https://36kr.com/p/3034458505408772</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2><strong>导语</strong></h2>
-<p>2024年10月教育行业共发生了4起融资事件，融资总金额约为7175万人民币，分别为：人瑞人才科技集团有限公司拟向起航云天及江南金融各自购买领时云天26%及5%权益，代价分别为人民币650万元及125万元。大学生就业实习服务提供商军创卓信完成200万元融资。上海美加保藤教育科技有限公司其旗下品牌AdmitAI智选优录成功完成了天使轮融资200万元人民币。公考培训品牌“多助公考”宣布完成A轮融资达6000万元人民币。</p>
-<p>（注：按照惯例未披露融资额的事件未统计金额。为了方便统计，我们对金额按照取中间数值的规则来计算——数百万融资取300万来计算；数千万融资取3000万来计算；另外，保守起见，近千万融资我们取600万来计算，近千万美元则取600万美元即3600万人民币来计算；千万级指1000万；近亿元指6000万；上亿元指的是1亿元。附：融资时间以媒体披露时间计算）</p>
-<h2><strong>01 融资轮次</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_2012c77c9004438ca5818fa739eff8ea@000000_oswg59713oswg1080oswg965_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>10月教育行业共发生了4起融资事件，其中天使轮1次、A轮2次，股权转让1次。</p>
-<h2><strong>02 地域分布</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_ff7271cea747442ea85683f54fac247a@000000_oswg64829oswg1080oswg965_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>10月融资地域全国共有4个省、直辖市发生融资，各1起。</p>
-<h2><strong>03 融资体量</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_bb3a5d0412ea467da6a80d2f15d4ca90@000000_oswg54216oswg1080oswg964_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>10月份的融资总金额百万级融资事件共发生3起，千万级融资事件1起。</p>
-<h2><strong>04 细分领域</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_68db4d9005894bb9aeda601c9481355b@000000_oswg67815oswg1080oswg964_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>10月细分领域的融资事件中，职业教育赛道发生3起融资事件，出国留学赛道发生1起融资事件。</p>
-<h2><strong>05 附总表</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_451c01a7104b4d97add2cd8094168d9e@000000_oswg97359oswg1080oswg963_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>结语</strong></h2>
-<p>10月教育行业融资事件集中在职业教育和出国留学两大赛道，反映出市场对实用型教育和国际教育需求的持续关注。职业教育凭借政策红利和社会需求，正成为资本布局的重点领域。而出国留学的融资则表明，国际教育市场逐步复苏，新的增长机会正在酝酿。整体来看，教育行业的资本流向凸显出对细分市场潜力的精准把握，也预示着行业在多元化发展中的新格局正在形成。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU4MDY5NjY0OA==&amp;mid=2247517608&amp;idx=1&amp;sn=df407015a41c8744cf1ded2c6b377350&amp;chksm=fc46556a62295ce219990f97849727bee6f6cdd3c6808ea3553906719f81688a26387d9de92b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“黑板洞察”（ID：heibandongcha）</a>，作者：耳东，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034458505408772</guid><pubDate>Wed, 13 Nov 2024 16:47:00 +0800</pubDate></item><item><title>深度复盘：首破千亿，12张表带你彻底读懂本届美妆双11</title><link>https://36kr.com/p/3034361308148611</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="440,459" src="https://img.36krcdn.com/hsossms/20241113/v2_ef40cdffa9454930a5db623134d80037@5728075_img_gif"/></p>
-<blockquote>
-<p>挖掘全网美妆20%+增长背后的新现象。</p>
-</blockquote>
-<p>历经16载狂欢，今年的双十一再次刷新纪录！</p>
-<p>星图数据显示，从各电商平台发起双11大促开始至11月11日24点，<strong>全网美妆个护（不含洗护清洁）累积销售额为963亿元，同比增长22.5%</strong>。《FBeauty未来迹》估算，如果加上洗发水、沐浴露、口腔护理等品类，按照完整意义上的“化妆品”统计口径，今年双十一全网化妆品销售额将超过1000亿元，再创历史新高。</p>
-<p>对比今年国家统计局发布的前9个月化妆品零售总额-1%的下滑数据来看，这届双十一的表现可以说“大大超出预期”。</p>
-<p>那么，今年双十一各大电商平台究竟表现如何？《FBeauty未来迹》综合全网数据以及天猫、抖音、京东、快手、腾讯视频号五大平台的美妆个护排名梳理出12张表格，让你一次性看懂这个双十一的美妆竞争格局。</p>
-<h2><strong>1、美妆增幅还是没跑赢大盘，但这次“虽败犹荣”</strong></h2>
-<p>星图数据显示，今年双十一全网全品类产品总销售额为14418亿元，同比增长26.6%。而美妆品类同比增长22.5%。</p>
-<p>虽然看似美妆品类的增幅没能跑赢大盘，但仔细分析数据会发现，今年拉动大盘增长的主要动力来自得到政府消费券加持的“家用电器和手机数码”，分别同比增长26.5%和23.1%，成为增幅最大的品类。而美妆则是除家电和手机数码之外，增幅最大的细分市场。并成为拉动消费最重要的“三驾马车”之一。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,653" src="https://img.36krcdn.com/hsossms/20241113/v2_58514eb5cdda483f98bd933ca862f92c@5728075_oswg62600oswg1080oswg653_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>2、护肤类销售额高达715亿元，成美妆板块增长最快品类</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1080,682" src="https://img.36krcdn.com/hsossms/20241113/v2_c95c0a67650c4f9b8fe39c701467645f@5728075_oswg72095oswg1080oswg682_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>按品类看，美容护肤品全网销售额同比增长22.85%至715亿元，包含洗发水在内的洗护清洁品类增长7.51%至315亿元，香水彩妆总销售额同比也增长16.16%至237亿元。护肤品成为增长最大的品类。</p>
-<h2><strong>3、国货守住了“塔尖”，珀莱雅和韩束成领头羊</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1080,625" src="https://img.36krcdn.com/hsossms/20241113/v2_b5d1a3a8ea42430893fa182b99154876@5728075_oswg71363oswg1080oswg625_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在天猫美容护肤品类中，Top5品牌分别是珀莱雅、巴黎欧莱雅、兰蔻、雅诗兰黛、海蓝之谜；京东Top5品牌为珀莱雅、OLAY、巴黎欧莱雅、雅诗兰黛、娇韵诗；抖音美妆Top5品牌为韩束、珀莱雅、欧莱雅、雅诗兰黛、可复美。</p>
-<p>其中除了快手之外，各大电商平台国货都守住了第一的位置，珀莱雅和韩束成为国货领头羊。</p>
-<h2><strong>4、天猫Top4“固化”，但榜单整体变化较大</strong></h2>
-<p>对比最近两年天猫美妆双十一榜单来看，<strong>Top4品牌位置稳固</strong>。珀莱雅、巴黎欧莱雅、兰蔻、雅诗兰黛稳居前4，且基本固化。但第四名之后的名次则变化很大。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1832" src="https://img.36krcdn.com/hsossms/20241113/v2_00564381b3674614a30a4eb47b9e00c6@5728075_oswg154862oswg1080oswg1832_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>海蓝之谜、赫莲娜、SK-II、肌肤之钥、YSL的排名均有上升，而娇兰、娇韵诗、资生堂则有所下滑。另外科颜氏、理肤泉、修丽可等功效护肤品牌相比去年来说也均有持平或更好的表现。值得注意的是伊丽莎白·雅顿这个很久没出现在各类榜单上的品牌重新“杀回来”了，进入总榜第20名。</p>
-<p>此外，巨子生物旗下可复美今年进步巨大，在天猫的排名从20提升到第13位，成为前20名品牌中，名次上升最大的品牌。</p>
-<p>天猫官方发布的信息显示，截至11月11日24:00天猫双11已有79个美妆品牌销售额破亿，其中海蓝之谜、赫莲娜、CPB、蜜丝婷等同比增长超50%；华伦天奴美妆、伊菲丹等品牌同比增幅超100%；双妹等国产品牌增速近200%；新锐品牌绽媄娅、瑷科缦增速超500%；润培、珀芙研增速超100%。</p>
-<p>由此可见，在天猫美妆平台围绕第四名之后的名次争夺明年会更为激烈，在存量争夺市场，随着排名的逐渐固化，拿到天猫美妆的排名也就意味着锁定在美妆产业的江湖地位。</p>
-<h2><strong>5、外资品牌综合实力强大，国货仍要加倍努力</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1080,1675" src="https://img.36krcdn.com/hsossms/20241113/v2_c948bc0f7b2e4c66b2e88beb43447e34@5728075_oswg157250oswg1080oswg1675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>从天猫美妆各细分品类的排行榜来看，外资品牌仍然占据多数席位，并且综合能力非常突出。尽管单独看美容护肤品，珀莱雅力压欧莱雅成为第一，但如果扩大范围就会发现欧莱雅横跨护肤、护发、彩妆、男士、染发等众多品类，多品类综合销售额仍然高于珀莱雅。</p>
-<p><strong>此外，欧莱雅集团旗下多个品牌表现也非常突出，卡诗作为高端洗护品牌，在个护领域目前几乎处于断层式领先地位</strong>。</p>
-<p>中国化妆品企业在多品类、多品牌以及高端市场，仍然需要向外资学习。</p>
-<h2><strong>6、珀莱雅和韩束在抖音爆发“德比之战”，外资开始发力步步紧逼</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1080,1830" src="https://img.36krcdn.com/hsossms/20241113/v2_00c68b28415f4d3580189e57bf949d11@5728075_oswg178699oswg1080oswg1830_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>珀莱雅除了在天猫力战欧莱雅，在抖音也和韩束爆发了“德比”之战。双方这次双十一不仅金额相近，整个过程更是你追我赶。</p>
-<p>《FBeauty未来迹》注意到，在抖音双十一的起步阶段，珀莱雅曾凭借在达播上的优势，一度甩开韩束很远。但韩束凭借在抖音渠道的长期优势和韧性，最终上演王者归来。</p>
-<p>从总榜看，如果以抖音双十一正式期（10月18日—11月11日）的销售额来看，韩束仍保持了抖音美妆第一的位置。</p>
-<p>但如果以抖音双十一全周期（从10月8日—11月11日）的数据看，则珀莱雅超过韩束。</p>
-<p><strong>此外，今年外资在抖音可谓是奋力一搏</strong>，Top20品牌中有13席均为外资美妆，并且这些外资面孔与天猫榜单逐渐重合，比如欧莱雅、雅诗兰黛、海蓝之谜、赫莲娜、兰蔻、OLAY、SK-II、资生堂、肌肤之钥、YSL、修丽可等在天猫双11榜单中的品牌，如今在抖音也成为头部。</p>
-<h2><strong>7、文化自信崛起，国货在抖音仍有“压倒性”优势</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1080,1669" src="https://img.36krcdn.com/hsossms/20241113/v2_77aed8ec503041a8894b4bcb129de152@5728075_oswg171943oswg1080oswg1669_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在护肤、彩妆香水、洗护发、口腔护理、美容仪5大品类Top20榜单共100个品牌中，国货品牌不仅在数量上占比71%，且在除了彩妆香水的另外4大品类中均占领Top1席位。</p>
-<p>尤其在彩妆领域，毛戈平、花西子、方里、卡姿兰、烙色、彩棠、完美日记、柏瑞美、橘朵、花知晓这10个品牌或凭借高端定位，或凭借高质价比，又或者凭借东方美定位和个性化联名，获得了更多消费者认可和市场份额。</p>
-<p>这说明，在与时尚、文化强相关的彩妆品类中，中国品牌和东方文化正在逐渐夺回话语权和主导权，中国消费者的文化自信已经崛起。</p>
-<h2><strong>8、白牌危矣</strong></h2>
-<p><strong>曾经风光无限的白牌正在全网面临边缘化</strong>。</p>
-<p>不仅在天猫的top20品牌中已经很难见到白牌的身影，就连今年1-9月在抖音美妆榜单频繁出现的黛莱皙、温博士、娇润泉、DCEXPORT在这个双11不见踪迹。</p>
-<p>在快手和腾讯视频号这些美妆体量相对较小的平台，也在上演和天猫、抖音相似的剧情。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1833" src="https://img.36krcdn.com/hsossms/20241113/v2_59fb7830da9141b68a8e81788084f248@5728075_oswg159514oswg1080oswg1833_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,1833" src="https://img.36krcdn.com/hsossms/20241113/v2_2c14fc77a8834b6da23272e4cb96baff@5728075_oswg174082oswg1080oswg1833_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,1833" src="https://img.36krcdn.com/hsossms/20241113/v2_218c2f27b75e488b99b3bc8325740c5a@5728075_oswg170274oswg1080oswg1833_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在快手美容护肤Top20品牌榜单中，国货头部如珀莱雅、韩束、欧诗漫、丸美，新锐国货品牌谷雨、肌肤未来，外资品牌WHOO后、雅诗兰黛、伊丽莎白雅顿正在加速抢占白牌的份额。</p>
-<h2><strong>9、视频号“小荷才露尖尖角“</strong></h2>
-<p>腾讯视频号虽然整个双十一期间美妆类产品销售额只有大约6.5亿元，但也有大牌开始盯上了视频号的潜力，典型的比如雅诗兰黛和自然堂，均在今年双十一Top10排名内。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,577" src="https://img.36krcdn.com/hsossms/20241113/v2_6efff013052a4d7b90507d41b222ca0c@5728075_oswg61844oswg1080oswg577_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,1073" src="https://img.36krcdn.com/hsossms/20241113/v2_1957a376e662499282f6c616a8a0b36e@5728075_oswg103330oswg1080oswg1073_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>总体来看，今年双十一无疑是充满了变化与挑战的。</p>
-<p>在美妆大盘增速放缓，消费信心不足的当下，增长属实来之不易。美妆市场表现出了足够的韧性和增长动力，口红效应仍然有效。</p>
-<p>但值得注意的是，从今年的双十一已经可以非常明显的感觉到，内卷仍然在升级，市场开始从单纯的卷价格，向卷服务、卷价值等全方位升级。各大品牌在天猫和抖音的排名争夺战在加剧，不进则退逆水行舟在所难免。</p>
-<p>今年双十一或是一条明显的分水岭，在未来竞争中，通过品牌、产品和渠道策略去赢得市场份额和消费者心智，会比生意短时间内的涨跌来得更加重要。</p>
-<p>本文来自微信公众号“FBeauty未来迹”，作者：吴思馨，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034361308148611</guid><pubDate>Wed, 13 Nov 2024 16:48:00 +0800</pubDate></item><item><title>AI解锁500多年的圣殿，米开朗基罗杰作，你我触手可及</title><link>https://36kr.com/p/3034354928529670</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>有了AI ，咱就更能理解什么是：条条大路通罗马。 </p>
-</blockquote>
-<p>活久见!</p>
-<p>就连世界六分之一人口的信仰中心、「文化瑰宝」——梵蒂冈也开始 AI 了 ！要知道，教皇弗朗西斯一直呼吁警惕人工智能风险，本人也被 AI 恶搞过。</p>
-<p>事情是这样的。梵蒂冈请人给著名的圣彼得大教堂造了一个「数字孪生」，还计划推出新的 AI 服务：届时，全球任何人都能以 3D 方式探索这座文艺复兴时期的建筑杰作 ；</p>
-<p>有了 AI，实地参观者的体验也升级了。大教堂中那些遥不可及的细节部分也能尽收眼底。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_37d760a8cc6248349af4c8d958e08032@000000_oswg605105oswg1080oswg524_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>官网显示，2024年11月25日将发布AI服务的具体方案。鉴于2025年，禧年正式开始，虚拟大教堂应该会在这之前上线。</p>
-<p>这种体验到底有多炫呢？这是网上流出的几个视频。</p>
-<p>也许有人会问，圣彼得大教堂为什么值得这么细品？</p>
-<p>原因很简单，人家就是大教堂中的「顶流」。</p>
-<p>除了是天主教「总舵」、全球 13 亿天主教徒心中的精神家园，圣彼得大教堂也是一座艺术宝库。</p>
-<p>历史上最伟大的艺术家们——米开朗基罗、拉斐尔、贝尼尼等，都在这里大显身手。米开朗琪罗就在这里留下了两个传世名作，堪称无价之宝！</p>
-<p>一个是圣彼得大教堂标志性的穹顶设计。</p>
-<p>他在 72 岁高龄时才接手设计，创造了这个直径 42 米的超级穹顶，成为建筑史上的传奇。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_a63d2e6148f8478b925a10e2b968f591@000000_oswg1211842oswg800oswg549_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一个就是《圣殇》（ Pietà ）。米开朗琪罗年仅 24 岁时创作的雕塑，被誉为最美丽的圣母雕像。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_4714c1ab36fe40ba82776a9e617d8638@000000_oswg875191oswg857oswg643_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>所以，你能想象这座教堂有多受欢迎！</p>
-<p>平均每天有 4-5 万人参观，全年累计约 2000 万游客，这个数字简直堪比迪士尼乐园！</p>
-<p>光是排队入场，旺季时就得等上好几个小时。</p>
-<p>而这些游客中，大约一半是天主教徒来朝圣，另一半是世界各地的观光客，就是冲着它的艺术和建筑之美而来。</p>
-<p>举个例子。圣彼得大教堂的穹顶，在实地参观时，游客需要仰着头才能看到近 70 米高的穹顶壁画，而且距离太远，很多精美的细节都看不清楚。即使用望远镜观察，视角也很受限。但通过新的 AI 服务，游客就可以看到那些精妙的细节。</p>
-<p>如，穹顶上马赛克画中天使的表情和衣褶的纹理、镀金雕刻的每一笔纹路、壁画中人物的微妙神态和色彩变化。</p>
-<p>就像把整个穹顶「搬」到了观众眼前，通过高清投影，观众可以慢慢欣赏令人震撼的艺术细节。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_f3c067a579334ca885927143dbdd0cd9@000000_oswg1050797oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>一幅巨大的弧形投影，可以清楚看到穹顶的壁画细节。</p>
-<p>通过多层次的空间展示，游客能一次性理解整座教堂从地下到地上的完整构造。这在过去也是不可能发生的。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_b42f5c99152e4a41b474d6427d888eaf@000000_oswg1004319oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这张图片中，技术巧妙地展示了圣彼得大教堂的三个层次：教堂主体内部、位于中间层的发光拱廊、位于底层的地下墓穴。</p>
-<p>而这张图片中，大型弧形投影墙上展示出教堂内部的立体结构，建筑线条以发光的线框方式呈现，参观者能更直观地理解这座宏伟建筑的设计理念。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_bdced0cdc9e24aecba60151d8746cf7d@000000_oswg907349oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>至于为什么选择现在玩起了高科技？</p>
-<p>因为，2025 年就是天主教会 25 年一次的禧年！简单来说，禧年就像一个盛大的重启仪式，每 25 年才有一次！有点像电脑重启，清除缓存，让一切都焕然一新！在禧年期间，教徒们会去朝圣、忏悔，然后就能获得特殊的恩典和赦免，所以，2025 年的禧年，对天主教徒来说，是个不容错过的大日子！</p>
-<p>为了让全球信徒和游客都能更好地感受圣彼得大教堂的魅力，梵蒂冈决定搞事情。</p>
-<p>他们联手微软和一家法国初创公司 Iconem，为这座 500 多岁的教堂，打造了一个超级精细的 3D 模型。</p>
-<p>为此，大教堂还对公众关闭了一个月。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_65923d3e37b14b6b9c1c01e175fdfa85@000000_oswg968330oswg1080oswg716_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>为了建立这个 3D 模型，他们先收集了大量数据。</p>
-<p>无人机负责从高空拍摄那些平时人够不着的地方，专业相机近距离捕捉每一个艺术细节，而激光扫描仪则精确测量每个角落的具体尺寸。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_3d1391b7e46a41d1a66d57b043054caf@000000_oswg702924oswg1080oswg506_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>接下来就是数据处理，这就像在拼一个巨大的拼图。</p>
-<p>AI 在这里起到了关键作用，它可以把所有的照片和扫描数据拼接在一起，修复那些模糊或缺失的部分，最终创建出一个完整的 3D 模型。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_2f79c1026e804cea8b4eae452574d24d@000000_oswg887845oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>最后，通过特殊的投影技术，这些数字模型变成了你现在看到的这些逼真的图像，让参观者可以从任何角度观看教堂的细节，甚至能看到平时肉眼难以观察到的部分。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_3f74267c223f400ba4b5163a9a2d9dba@000000_oswg1138971oswg1080oswg802_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>虽然媒体没有披露项目成本，但用脚趾头也能料到，这个数字一定很吓人。</p>
-<p>教堂里的每一块砖、每一个雕像、每一幅壁画的纹理，甚至是马赛克脱落的小碎片、建筑结构中的细小裂缝、艺术品表面的轻微剥落，都被高精度地记录下来。</p>
-<p>仅仅是制作 3D 模型，团队就进行了连续 4 周的夜间无人机拍摄，拍下了超过 40 万张照片，产生了 22 PB 数据量，相当于 500 万张 DVD 的容量。</p>
-<p>如果把这些 DVD 叠起来，比圣彼得大教堂还要高，能有 6 公里那么高！考虑到圣彼得大教堂建筑结构复杂，艺术品众多，需要更复杂的算法和更强大的计算资源进行处理，这也会增加成本。当然，做得这么毫发毕现，一方面是为了 AI 系统能够捕捉到人眼根本无法发现的细节，确保虚拟导览时，游客能看到最真实、最细致的效果。</p>
-<p>另一方面，梵蒂冈也希望借助高科技识别出肉眼看不见的裂缝，为文物修复工作提供必要信息。</p>
-<p>小编说，这次梵蒂冈的「破圈」尝试，让传统与科技完美融合，你觉得怎么样？欢迎在评论区分享你的想法！</p>
-<p>有兴趣的朋友就蹲着这个网站链接吧： </p>
-<p>https://www.basilicasanpietro.va/it.html </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzUyODA3MDUwMA==&amp;mid=2247524421&amp;idx=1&amp;sn=1d2eb0cc4b6a1f99a198633ec0fe3c3a&amp;chksm=fbe8df38ade69cd7936e8f048604ff8c0d48517c30791e36e9359abb08e1f11846d3005112f5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“机器之能”（ID：almosthuman2017）</a>，作者：sia，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034354928529670</guid><pubDate>Wed, 13 Nov 2024 16:50:00 +0800</pubDate></item><item><title>“水滴筹”母公司要二次上市？靠做公益收割流量，上半年卖保险赚了超6亿</title><link>https://36kr.com/p/3034344142516226</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>明明曾经是一众豪华资本加持的明星企业，怎么现在资本市场和投资者都不买单了？除了常年陷入“公益”的争议外，更重要的是这家公司的经营情况并不稳定。</p>
-<p>中概股回港二次上市的大队伍中，又出现了一个熟悉的身影。</p>
-<p>最近，水滴公司创始人兼CEO沈鹏在香港金融科技周期间接受媒体采访，期间他透露了一则重要信息：公司正考虑最快两年内在香港挂牌上市。</p>
-<p>乍一听水滴公司，知道的人寥寥无几。但如果提到这家公司旗下的业务——水滴筹，几乎可以算得上是家喻户晓。没错，就是大家经常在朋友圈看见的水滴筹求助链接，有不少人还或多或少捐过一些钱。</p>
-<p>公益本是一件好事，但当大家发现，这竟然是一门生意时，这家公司陷入了长年累月的舆论争议。对此，沈鹏曾经是这么解释的：</p>
-<blockquote>
-<p>“尽管水滴筹肩负着社会责任，帮助处于困境的人们，但其本质上仍然是一家商业公司。因此，水滴筹需要确保自身的财务可持续性，以便能够服务更多的人。”</p>
-</blockquote>
-<p>以做公益为名，却是一家商业公司，水滴公司的商业板块到底是怎么构成的？它到底有没有通过公益去直接或间接赚钱？</p>
-<h2><strong>1.披着“慈善”的外衣，这家公司靠卖保险上市了</strong></h2>
-<p>2021年5月7日晚，一个靠公益起家的互联网公司悄悄在纽交所挂牌上市，它就是水滴公司，被称为中概股里的“保险科技第一股”。</p>
-<p>公司上市本是一件值得宣传的好事，但这家公司却再次陷入争议，甚至当天下午的媒体采访环节，沈鹏还在澄清：</p>
-<blockquote>
-<p>“水滴筹是水滴公司旗下的一项业务，是企业免费提供给患者的一个求助工具，并非外界普遍误解的公益组织。”</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_0bed34f3b779443b9759dbd965904875@000000_oswg1160098oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>其实迄今为止，仍有很多人不了解，这家以公益众筹出名的公司，其实主做的是互联网保险的生意。</p>
-<p>说白了，就是保险中介，通过搭建互联网平台来卖保险，而创始人沈鹏之所以能发现这个商机，和他的成长经历和职业履历都息息相关。</p>
-<p>沈鹏出生于中国人民保险公司家属院，父亲是中国人民保险公司的员工，在这样的环境下长大，他从小就接触到了很多保险人和行业知识，也发现了传统保险行业的短板。</p>
-<p>工作后，沈鹏成了互联网大厂的一员精兵悍将，他是美团创业团队的第10号员工，曾带领美团外卖从零起步做到日单400万，不夸张地说为美团外卖立下了汗马功劳。</p>
-<p>耳濡目染的保险行业情况叠加互联网大厂思维，2016年，沈鹏离开美团自己创业，几个月后，水滴互助上线。</p>
-<p>没多久，沈鹏就获得了5000万天使轮投资，由高榕资本、IDG、真格基金、腾讯、美团-大众点评、点亮基金等一众明星资本共同投资，估值近3亿元，这也是当时资本寒冬后获得的最大一笔天使投资。</p>
-<p>但沈鹏创业的商业逻辑，其实从一开始就是很明确的，他要做的不仅仅是公益，而是互联网保险生意。在早期的一则演讲中，沈鹏提到对公司的一些发展愿景时明确提出：</p>
-<blockquote>
-<p>“我们希望能够抢占80后、90后，甚至00后的市场，成为互联网健康险第一品牌。”</p>
-</blockquote>
-<p>他也确实做到了这一点。水滴公司美股上市时的招股书显示，收入的主要来源正是保险经纪业务——水滴保。上市前的2020年，公司净收入30.28亿元，同比增长100.4%；其中佣金收入26.95亿，收入占比89.1%。</p>
-<p>那为什么水滴公司一开始大力推广免费模式的水滴筹/水滴互助？这些业务和水滴保到底是什么关系呢？</p>
-<p>互联网时代，最贵的就是流量。大厂出身的沈鹏，更深谙这一道理。于是，他通过水滴筹、水滴互助以及外部营销活动，让水滴公司轻松获得了海量用户。</p>
-<p>也就是说，每个在水滴筹上献过爱心的普通人，都会成为水滴公司流量池里的备用军。然后这家公司再将一部分人变成真正的用户，为他们提供定制的保险和医疗保健解决方案。</p>
-<p>近年来，由于监管的整肃，“水滴互助”已经关停，但“水滴筹”仍在运作，继续承担着流量入口的职责。</p>
-<p>但很多人不知道，依托豪华投资阵容，从流量到变现完成商业逻辑闭环的这家公司，上市后的表现却一地鸡毛。</p>
-<h2><strong>2. “明星股”上演大跳水：三年股价跌超90%，在退市边缘疯狂试探？</strong></h2>
-<p>在美股上市后的三年里，水滴公司股价一路走低，若以12美元/股的发行价估算，如今累计跌幅已经超过90%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_249c6f7cefd04176966bae12b47af0c3@000000_oswg65796oswg756oswg699_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>沈老板不是没有想过要提振股价，早在2021年9月，水滴公司就曾宣布启动股票回购计划，截至今年8月底，已累计花了约1亿美元回购约4930万股ADS，但几乎没啥效果。</p>
-<p>明明曾经是一众豪华资本加持的明星企业，怎么现在资本市场和投资者都不买单了？除了常年陷入“公益”的争议外，更重要的是这家公司的经营情况并不稳定。</p>
-<p>上市前，水滴公司常年亏损，直到2022年才扭亏为盈，归母净利润为6.08亿元；但一年后，净利润又下滑至1.64亿元，业绩大起大落。</p>
-<p>就连这家公司的“现金奶牛”业务——保险经纪，也出现了下滑的趋势，从2020年-2023年分别为26.95亿元、28.27亿元、23.43亿元、23.4亿元。</p>
-<p>今年上半年，水滴公司的整体业绩似乎出现了改善，净利润比去年同期增长130%达到1.64亿元。但从基本盘保险业务来看，依然没有什么起色，二季度营收约为6.76亿元，同比微降 0.4%。</p>
-<p>在业绩前景不明朗的情况下，水滴公司急需打造一个“第二增长曲线”。2022年，以翼帆医药为代表的医药创新业务开始运营，官方说法是提供数字临床试验解决方案，有媒体通俗解释了一下：</p>
-<blockquote>
-<p>“该业务说是医药服务，但做的是居间中介平台：为医药公司新药研发、临床实验寻找试药的‘小白鼠’。”</p>
-</blockquote>
-<p>2024年二季度，翼帆医药合作的药企及CRO机构达到185家。截至6月底，累计入组项目数约1050个，累计入组患者约8600名。</p>
-<p>此外，水滴公司积极布局香港市场，成立持牌保险经纪公司——水滴金融，在继续做保险中介业务的同时，还增加了财富规划服务。</p>
-<p>AI也成了这家公司的发力点之一。自2019年开始，每年大手笔投入3亿元左右用于AI建设，在最近的采访中，沈鹏透露，水滴公司自研保险领域大模型——“水滴水守大模型”，已经开始内测使用。</p>
-<p>但新业务、新故事能否得到资本市场的认可，仍然是一个未知数。今年以来，水滴公司的股价多次试探1美元底线。</p>
-<p>而纽交所的规则是，连续30个交易日低于1美元就要退市，也难怪水滴公司突然开始积极筹备回港交所二次上市了。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU0OTI2MzkxMA==&amp;mid=2247863616&amp;idx=2&amp;sn=5a2c1858b606971b002d924e66d1adbe&amp;chksm=fa1247ec855212be483a865ab0bf369bec767a87f272869e7c7b753eb9ced8f775b8744c153a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金融八卦女频道”（ID：baguanvpindao）</a>，作者：月月，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034344142516226</guid><pubDate>Wed, 13 Nov 2024 16:51:00 +0800</pubDate></item><item><title>氪星晚报｜叮咚买菜启动出海：首站选定沙特，校招新增国际管培岗；海底捞进军烤串赛道，子品牌火焰官首店落地无锡；法巴银行据悉裁减10%中国投行职位</title><link>https://36kr.com/p/3034593954296066</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2><strong>大公司：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3034094477914370" rel="noopener noreferrer" target="_blank"><strong>迪士尼据悉考虑外部人士接任CEO艾格，潜在候选者包括艺电CEO</strong></a></p>
-<p>11月12日消息，华特迪士尼公司正为CEO艾格寻找继任者，据悉候选人范围已扩大至公司外部人士。知情人士称，近几个月来，迪士尼在讨论中提到的人选包括游戏公司艺电CEO安德鲁·威尔逊。据透露，迪士尼正与猎头公司海德思哲合作，以帮助其评估外部候选人，已确定至少另外两名潜在外部人选。迪士尼上月表示，计划在2026年初任命艾格的继任者，时间晚于最初计划。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034194422280197" rel="noopener noreferrer" target="_blank"><strong>奥迪停止为比利时布鲁塞尔工厂寻找买家，称有潜在投资者撤回报价</strong></a></p>
-<p>奥迪发言人当地时间11月12日表示，在一家来自商用车领域的潜在投资者撤回报价后，公司已停止为比利时布鲁塞尔工厂寻找买家。奥迪计划本月内与劳工代表结束关于厂址未来的协商过程，以便向员工提供更明确信息。奥迪今年7月表示考虑重组布鲁塞尔工厂。从9月初开始，该工厂就一直处于停工状态。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034546100007174" rel="noopener noreferrer" target="_blank"><strong>叮咚买菜启动出海：首站选定沙特，校招新增国际管培岗</strong></a></p>
-<p>叮咚买菜已正式启动出海，首站选定为中东的沙特。有叮咚内部人士表示，叮咚买菜出海模式主要是面相当地客户销售预制菜，同时也会有生鲜、冷藏、百货等品类。另有消息人士透露，今年叮咚买菜管理层曾经在沙特开过一次管理会。目前叮咚买菜正在沙特当地组建本地化团队。在多个海内外招聘渠道，叮咚买菜正在招聘产品、运营、客服、采销、政府关系等相关岗位，部分岗位工作地为沙特首都利雅得，且要求应聘者熟练英语和阿拉伯语。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034372625870848" rel="noopener noreferrer" target="_blank"><strong>海底捞进军烤串赛道，子品牌火焰官首店落地无锡</strong></a></p>
-<p>36氪获悉，近日，海底捞旗下融合烧烤、酒饮、社交的美食与生活方式品牌——火焰官BarBecue落地无锡。火焰官BarBecue是海底捞旗下首个烤串品牌。据了解，今年8月份，海底捞宣布实施“红石榴计划”，旨在鼓励孵化和发展更多的餐饮新品牌。目前，海底捞已孵化焰请烤肉铺子、小嗨爱炸、小嗨火锅、苗师兄香锅等多个赛道的子品牌。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034543618175233" rel="noopener noreferrer" target="_blank"><strong>网易吴鑫鑫、张海星已离职，此前网传反腐名单“全灭”</strong></a></p>
-<p>网易游戏市场副总裁吴鑫鑫在网易内部系统显示已离职，再往前几日，网易游戏营销总经理张海星也已显示离职。至此，11月7日网上曾流传的网易贪腐事件的相关截图中，提及的所有人员均已离职。据了解，目前网易仍有诸多营销线的员工被调查。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034584807321858" rel="noopener noreferrer" target="_blank"><strong>腾讯：三季度视频号、小程序活跃度稳步提升</strong></a></p>
-<p>36氪获悉，腾讯发布2024年第三季度财报。财报显示，微信及WeChat的合并月活跃账户数进一步增至13.82亿。视频号、微信搜一搜、小程序以及AI大模型等新芽产品不断迭新，推动生态发展。本季度，视频号小店升级为微信小店，腾讯围绕微信小店升级了交易平台策略，旨在依托于整个微信生态打造统一且可信赖的交易体验。小程序交易生态活跃，季度内交易额突破两万亿，包含餐饮零售、交通出行、民生缴费等多个场景的线上线下服务，同比增长十几个百分点。此外，微信搜一搜在商业化检索量与点击率均实现同比增长。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034574244098055" rel="noopener noreferrer" target="_blank"><strong>违反竞业协议，消息称周畅或面临通义巨额索赔</strong></a></p>
-<p>据报道，通义已递交劳动争议仲裁申请书，将起诉前员工周畅违反竞业协议。周畅将面临通义巨额索赔。公开资料显示，周畅于2017年7月入职阿里。今年7月，周畅以创业为由提出离职，并签署竞业协议。就在行业内纷纷猜测周畅的创业进展时，近期社交媒体多个信源显示，周畅已于8月加入字节，从事AI大模型相关工作，职级和薪酬不菲。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034508681129992" rel="noopener noreferrer" target="_blank"><strong>法巴银行据悉裁减10%中国投行职位</strong></a></p>
-<p>据报道，知情人士称，法国巴黎银行针对中国投资银行业务开展了两年前扩张以来的首轮裁员，在交易市场低迷的情况下裁员约10名。法巴银行上周解雇了7名位于香港的投行、企业融资和股权资本市场领域员工，以及3名中国内地办公室的员工。消息称，法巴约10%的中国相关员工受到影响。1名负责IPO的董事总经理也在裁员名单上。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034495935148291" rel="noopener noreferrer" target="_blank"><strong>特斯拉宣布新里程碑：一天生产1000台Powerwall</strong></a></p>
-<p>当地时间周二，特斯拉位于美国内华达州的超级工厂在一天之内生产了1000台Powerwall储能设备，标志着该公司创下了一个新的里程碑。Powerwall是一种强大的家用电池，可以储存太阳能，以备电网停电时使用。该公司此前曾表示，有能力每25秒生产一台Powerwall 3——该产品的最新版本，或每年生产超过70万台。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034483027063049" rel="noopener noreferrer" target="_blank"><strong>波音10月交付14架飞机，创2020年11月以来新低</strong></a></p>
-<p>波音公司当地时间11月12日披露，10月交付14架飞机，创2020年11月以来新低，去年同月交付34架。</p>
-<h2><strong>新产品：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3034370970005504" rel="noopener noreferrer" target="_blank"><strong>小米隐秘布局AI眼镜，预计明年Q2发布</strong></a></p>
-<p>36氪独家获悉，小米正计划推出新一代AI眼镜，数月前已与歌尔合作，该产品预计于2025年Q2发布。对于这款产品的出货量，雷军的预期“在三十万台往上”。据了解，小米AI眼镜将“全面对标Meta Ray-ban”，搭载AI功能、音频耳机模块、摄像头模块，并将以小米自有品牌形式发布。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034450316308743" rel="noopener noreferrer" target="_blank"><strong>钉钉上线工单等六大场景AI助理</strong></a></p>
-<p>36氪获悉，11月13日，钉钉迎来重磅升级：AI深入业务场景，钉钉面向企业关键场景推出“精选 AI 助理”，首批已上线工单助理、Excel助理、法务助理等6大AI助理。同时，钉钉联合生态伙伴发布行业AI解决方案，覆盖制造、医疗、零售、教育等行业。</p>
-<h2><strong>投融资：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3034547638137096" rel="noopener noreferrer" target="_blank"><strong>欧洲外卖巨头6.5亿美元出售美国子公司Grubhub</strong></a></p>
-<p>欧洲最大外卖公司Just Eat Takeaway当地时间11月13日宣布已达成一项协议，将以6.5亿美元的价格将其美国子公司Grubhub出售给Wonder公司。Wonder是一家食品配送初创公司，由沃尔玛前电商主管马克·罗尔（Marc Lore）于2018年创立。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034283369132297" rel="noopener noreferrer" target="_blank"><strong>淡马锡信托基金向日本太阳能公司Tekoma Energy投资5000万美元</strong></a></p>
-<p>据报道，淡马锡信托基金旗下影响力投资公司ABC Impact将投入5000万美元，收购日本太阳能公司Tekoma Energy股份。ABC Impact和汇丰发言人证实了该消息。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034205602328840" rel="noopener noreferrer" target="_blank"><strong>“华羽先翔”完成天使++轮融资</strong></a></p>
-<p>36氪获悉，“华羽先翔”宣布于10月和11月完成天使+轮和天使++轮累计近亿元的融资。在此之前，华羽先翔已于2024年1月完成数千万元人民币天使轮融资，由湖南省通航基金领投，长沙湘江通用航空发展有限公司、上海劲邦资本跟投。</p>
-<p><a href="https://www.36kr.com/newsflashes/3034208855568649" rel="noopener noreferrer" target="_blank"><strong>Seven &amp; I考虑以580亿美元进行管理层收购</strong></a></p>
-<p>6小时前</p>
-<p>分享至</p>
-<p>据报道，7-11母公司Seven &amp; I正考虑进行580亿美元的MBO（管理层收购），如果加拿大便利店零售巨头COUCHE-TARD对Seven &amp; I的收购变得激进的话。</p>
-<h2><strong>今日观点：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3034461166514176" rel="noopener noreferrer" target="_blank"><strong>曾毓群：若特朗普“开绿灯”，宁德时代将考虑赴美建厂</strong></a></p>
-<p>据报道，当地时间11月12日，宁德时代董事长兼CEO曾毓群接受采访称，若美国当选总统特朗普向中企在美投资电动车供应链敞开大门，宁德时代将考虑赴美建厂。曾毓群表示，起初当公司想在美国投资时，美国政府拒绝了。但他始终保持着开放态度，并希望美方未来会对投资敞开大门。特朗普曾在8月接受采访称：“我们将提供激励措施，如果中国和其他国家想来这里（美国）销售汽车，他们就会在这里建厂，并雇佣我们的工人。”</p>
-<h2><strong>其他值得关注的新闻：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3034327357567237" rel="noopener noreferrer" target="_blank"><strong>国家税务总局：便利纳税人跨区迁移系列措施取得积极成效</strong></a></p>
-<p>36氪获悉，据国家税务总局消息，自2024年9月1日便利纳税人跨区迁移系列措施政策执行以来至10月31日，全国范围内共有4610户纳税人进行跨省迁移，同比增长30.04%，涉税业务平均办理时长压缩5-10天，符合条件的企业当天即可顺利迁出。国家税务总局有关负责人表示，下一步，税务部门将持续做优前置化提醒，做细场景化设置，做强智能化防控，做精流程化管理，进一步提升经营主体流通的便利性，为全国统一大市场建设营造良好的税收环境。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034593954296066</guid><pubDate>Wed, 13 Nov 2024 17:10:00 +0800</pubDate></item><item><title>港版淡马锡要出钱了</title><link>https://36kr.com/p/3034559886962695</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>投资界-解码LP获悉，11月11日晚间，香港投资管理有限公司（HKIC，简称“港投公司”）发布 “香港投资管理有限公司就「新资本投资者入境计划」下的「投资组合」公布运作细则”。</p>
-<p>细则提出，将为“新资本投资者入境计划”下，交由港投公司成立及管理的“投资组合”选定2-4名基金经理，为投资组合作出投资，这笔资金预计在2025年第一季启动投资。</p>
-<p>换言之，港投公司开始正式遴选投资机构。</p>
-<h2><strong>香港首期拿出3亿，招GP了</strong></h2>
-<p>据了解，在正式启动投资前，“投资组合”的到账资金最少3亿港元，基金预计主要投向处于发展阶段的企业和团队。在规模上，每支基金<strong>不少于5000万港元</strong>，要求基金成立两年内作出投资，锁定期为由2025年1月1日起计的<strong>七年</strong>。</p>
-<p>对此，港投公司将按机制标明<strong>2至4名基金经理</strong>为“投资组合”作出投资。具体来看选拔要求——</p>
-<blockquote>
-<p><strong>以香港为总部</strong>，并有清晰而具体的业务扩展方案，以展示对香港长远发展的承诺；</p>
-<p>管理和决策人员包括但不限于行政总裁、财务总监和营运总监（或相等职位的人员）以香港为长驻地和基地，<strong>并有超过半数的员工为香港居民；</strong></p>
-<p>投资团队全体成员持有证券及期货事务监察委员会第9类受规管活动（提供资产管理）的牌照；</p>
-<p>成立至少五年；</p>
-<p>资产管理规模不少于2亿港元；</p>
-<p><strong>具备成功筹集机构投资者资金及创投的经验</strong>；</p>
-<p>承诺确保被投企业对香港未来的发展有具体的<strong>贡献方案</strong>。</p>
-</blockquote>
-<p><strong>在投资领域上</strong>，有意参与的基金经理要求提出最少<strong>两个</strong>能为香港科技或商用转化带来崭新发展的新应用或新赛道，聚焦以香港市场为基础进行探索和孵化；此外，结合香港的优势、定位和需要，并以推动科技应用的跨地域发展为长远方向。</p>
-<p>而在投资过程中，基金经理也需要就“投资组合”的进度定期汇编综合报告，让投资者知悉运作情况及表现。</p>
-<p>据了解，香港“新资本投资者入境计划”最先是在2023年3月由香港特别行政区政府在《有关香港发展家族办公室业务的政策宣言》中提出，作为发展家族办公室的8大政策措施之一，旨在吸引高净值人士在香港落户，通过调配和管理财富，发掘香港多元的投资机会。</p>
-<p>此前，香港特区政府曾规定这一计划中的合资格申请人须投资最少3000万港元于获许投资资产，其中的<strong>300万港元将投放在“投资组合”中</strong>。也就是说，每一笔该计划中投资于香港的资金，有十分之一要放入“投资组合”，而这部分资金交由港投公司管理。</p>
-<p>随后，特区政府在2023年12月公布了“新资本投资者入境计划”的细节，并在2024年3月正式发布《新资本投资者入境计划的规则》，同时开始接受新计划的申请。据港投公司表示，预计截至今年12月底，到帐并配置于“投资组合”的资金最少3亿港元。</p>
-<p>同时 ，港投公司宣布“投资组合”将在明年首季启动投资。</p>
-<h2><strong>香港加入招商大潮</strong></h2>
-<p>时间回到2022年10月，香港特首李家超在其任期内首份《施政报告》第一次提出成立“香港投资管理有限公司”（HKIC），由特区政府全资拥有，进一步运用财政储备促进产业及经济发展。</p>
-<p>港投公司诞生之际就被赋予了重大使命——管理在“未来基金”下设立的220亿港元“香港增长组合”、50亿港元“大湾区投资基金”、50亿港元“策略性创科基金”，以及新成立的300亿港元“共同投资基金”，基金<strong>管理规模达620亿港元。</strong></p>
-<p>其中300亿共同投资基金被外界视为香港版“政府引导基金”。这一政府主导的投资公司在香港还是首次出现，正因如此，港投公司也被称为“<strong>港版淡马锡</strong>”。</p>
-<p>紧接着，港投公司在两年内迅速搭建体系、招揽团队，并在2023年10月迎来首任行政总裁陈家齐女士。</p>
-<p>直到2024年下半年，港投公司开始了。</p>
-<p>首先是在6月份，港投公司与AI独角兽公司<strong>思谋科技</strong>签约，至此成立以来的第一笔公开投资正式落地。在此次签约仪式上，CEO陈家齐宣布将初步锁定接下来的三个主题——硬科技、生命科技、新能源科技。</p>
-<p>同时，港投公司的定位也进一步明确：一方面是发挥其资本引导和杠杆市场的力量，吸引科企落户、让它们更深度扎根香港，助力香港加速建构更蓬勃的策略产业生态圈；同时寻求合理的长远整体财务回报。</p>
-<p>此后，港投公司投资步伐肉眼可见地加快。在同一个月投了生命科学基础大模型平台<strong>百图生科</strong>；7月与人形机器人公司“<strong>银河通用</strong>”签约；8月再次与泰国电动车企业<strong>Spark</strong>达成合作。短短三个月内接连官宣4家企业，其中不乏各地争抢的明星项目。</p>
-<p>值得一提的是，港投公司与几大项目的合作中，几乎都提到了项目方为香港当地产业赋能，包括设立科创中心、培养相关人才、合作推进相关业务等等。一定程度上也可以看作是香港招商的具象化。</p>
-<p>如今，港投公司的布局速度正在加快，而此次宣布招揽投资经理，可以看作其首次作为LP的身份遴选投资机构。</p>
-<p>“港版淡马锡”是香港招商最具代表性的一幕。在10月份刚刚发布的《2024年施政报告》中，香港特首李家超再次提到港投公司，表示将发挥其<strong>耐心资本</strong>的力量，引导和杠杆市场的资金，合力吸引创科企业落户和扎根香港。</p>
-<p>此外，香港再次成立两大基金——</p>
-<p>1、<strong>100亿元创科产业引导基金</strong>：香港特区政府将成立母基金，加强引导市场资金投资指定策略性新兴和未来产业，包括生命健康科技、人工智能与机械人、半导体与智能设备、先进材料和新能源等，系统性建设创科产业生态圈。</p>
-<p>2、<strong>优化创科创投基金</strong>：调拨15亿元与业界配对成立联合基金。投资策略性产业的初创企业，进一步提升香港初创生态圈建设。</p>
-<p>曾经错过了互联网浪潮的香港，正在新兴产业的抢夺赛中全力拼杀。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/v6rkjnD-8enFCrPIozpOAw" rel="noopener noreferrer nofollow" target="_blank">“投资界”</a>，作者：杨文静，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034559886962695</guid><pubDate>Wed, 13 Nov 2024 17:23:00 +0800</pubDate></item><item><title>激战“智能化”下半场，车企纷纷下场“造芯”，智驾进入新战场？</title><link>https://36kr.com/p/3034567511781380</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 13 Nov 2024 18:00:30 +0800</lastBuildDate><pubDate>Wed, 13 Nov 2024 18:00:30 +0800</pubDate><item><title>激战“智能化”下半场，车企纷纷下场“造芯”，智驾进入新战场？</title><link>https://36kr.com/p/3034567511781380</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>“智能化”下半场激战正酣，车企也开始纷纷下场“造芯”。</p>
 <p>近日，小鹏汽车董事长兼CEO何小鹏在“小鹏AI科技日”上展示了公司自研的“图灵AI芯片”。这款芯片拥有40核处理器，专为AI大模型定制，具备在AI汽车、AI机器人、飞行汽车等多个领域的应用潜力。去年9月，蔚来汽车也公布了其自研的智驾芯片“神玑NX9031”，并在今年的7月份宣布流片成功。理想汽车也在推进自研芯片项目，并计划在年内实现流片。</p>
 <p>除了这些新兴的造车势力，传统车企如比亚迪和东风汽车集团也在积极自研或投资芯片产业，他们的产品线覆盖了车身控制芯片、智能座舱芯片、自动驾驶芯片等多个领域。</p>
@@ -474,4 +111,358 @@
 <p>https://www.theregister.com/2024/11/06/windows_server_2025_surprise/</p>
 <p>https://www.theregister.com/2024/11/11/windows_server_2025_opinion/</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/JrWnUNQoq6xyzFO2pn6rVw" rel="noopener noreferrer nofollow" target="_blank">“InfoQ”</a>，编译：燕珊 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034567152218117</guid><pubDate>Wed, 13 Nov 2024 17:26:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034567152218117</guid><pubDate>Wed, 13 Nov 2024 17:26:00 +0800</pubDate></item><item><title>“双11”落幕，很多人薅到了国家的羊毛</title><link>https://36kr.com/p/3034532670287873</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_2d336e4632fb482b9fb1a217369c1358@000000_oswg153364oswg1080oswg697_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>“如果没有‘国补’ （国家补贴） ，我们是不会提前买的。”正在装修新房的莲子 （化名） 一口气买了十余件大小家电，因为最近政府补贴政策，她在“双11”的优惠之余，又省下了四五千元。 </p>
+<p>莲子提到，没有“国补”的话，就算是“双11”她也不会买这么多。为了赶上这波优惠，她在家里还未装修好的情况下就下了单，并选择了延期配送。 </p>
+<p>国家补贴，是今年“双11”与往年相比最大的差异——用户买买买背后，是千亿量级的“国补”资金在默默托举。 </p>
+<p><strong>从各大平台的“双11”战报来看，家电和3C数码产品是今年国补最大获益者；在这两个领域占有优势的平台也借得东风，巩固市场地位。</strong></p>
+<p>各大电商平台自2022年起不再公布“双11”具体成交总额 （GMV） ，而是更强调一些看起来比较亮眼的局部数据。其中，淘天公布的是4200万付费会员——淘宝88VIP会员“双11”下单数量同比增长50%。京东则提到，其“双11”购物用户数同比增长超20%。 </p>
+<p>各家也在比拼成交破亿、破10亿的头部品牌规模。比如天猫“双11”全周期，有589个品牌成交额破亿，同比去年增长46.5%；刷新历史纪录。京东也表示有超1.7万个品牌成交额同比增长超五倍，超3万个中小商家成交额同比增长超两倍。 </p>
+<p>根据第三方平台星图数据监测显示，今年接近一个月的“双11”周期内，综合电商平台、直播电商平台累积销售额为14418亿元，同比增长26.6%。但由于2024年“双11”周期比去年拉长了10天，所以同比数据的可比性受到影响。 </p>
+<p>“国补”刺激力度最大的领域中，家用电器品类销售额为1930亿元，占比16.3%，同比增长26.5%；手机数码销售额为1706亿元，占比14.4%，同比增长23.1%。二者为综合电商平台销售额最高的两个品类，同比增速也最快。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_1438f0308f8543c083a47d2c111b5504@000000_oswg143991oswg733oswg421_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">家电、手机数码是2024年“双11”增长最快的两大品类。图源：星图数据 </p>
+<h2><strong>政府、平台、企业，补上加补</strong></h2>
+<p>从今年“双11”的销售趋势来看，“国补”贯穿始终，成为影响很多消费者购物决策的重要因素。就像莲子，在“双11”前做过线下比价，看到“双11”叠加国补的优惠力度，果断入手了更多原本在计划外的家电。 </p>
+<p>今年由于国补的存在，与电商平台的优惠活动形成了叠加效应，进一步放大了促销的吸引力。以苹果刚刚推出的M4 Mac mini为例，原价4499元的电脑在补贴和优惠的双重作用下，最终入手价能低到3600元。 </p>
+<p><strong>国家补贴并不是专门为“双11”而推出，而是2024年一系列促消费的政策之一。</strong></p>
+<p>2024年伊始，商务部即定调今年为“消费促进年”。政府各部门推出了一系列刺激消费的政策，包括金融市场的降息降准、6万亿财政刺激计划等，涵盖宏观经济、消费、投资、科技创新等诸多领域。 </p>
+<p>针对消费领域，2024年7月24日，国家发展改革委、财政部发布了《关于加力支持大规模设备更新和消费品以旧换新的若干措施》的通知，提到各地区要重点支持汽车报废更新和个人消费者乘用车置换更新、家电产品和电动自行车以旧换新、旧房装修、厨卫等局部改造、居家适老化改造所用物品和材料购置、促进智能家居消费等。文件还提到，国家发改委将直接向地方安排1500亿元左右的资金用于落实以上相关的支持政策。地方政府结合实际情况，进一步扩大补贴产品范围。 </p>
+<p>就家电产品以旧换新而言，政策规定对个人消费者购买2级及以上能效或水效标准的冰箱、洗衣机、电视等八类家电产品给予以旧换新补贴。补贴标准为产品销售价格的15%。1级及以上能效或水效标准的产品可补贴20%。每位消费者每类产品可补贴一件，每件补贴不超过2000元。 </p>
+<p>有些地方政府结合实际情况，进一步扩大补贴产品范围。比如10月底，青岛消费品以旧换新补贴范围“扩容”，不仅包括电视、冰箱等大家电品类，电动自行车、厨卫、智能家居等也进入补贴范围。 </p>
+<p>据抖音电商介绍，此次系列补贴活动覆盖品类非常丰富，他们联合美的、海尔、格力、小米、联想等众多品牌商家参与此次补贴活动，并设立专属政府补贴会场。“双11”前夕，“广东政府补贴”在抖音电商上线，广州、深圳、佛山、珠海、惠州的消费者均可参与。 </p>
+<p>根据复旦大学消费市场大数据实验室的报告，<strong>从“双11”的整体销售额看，淘天占比为38%，处于绝对领先位置，排名第二的京东占20%，相差18个百分点。但是一些补贴刺激最强烈的细分领域，如家电、3C等，本身就是京东的强势类目，因此该平台今年在这些品类的销售额占比最高。</strong>今年“双11”，京东在大家电市场占比56.9%，厨卫电器市场份额占36.6%，3C数码市场份额占56.2%，均排名第一。 </p>
+<p>抖音电商也因为国补实现了家电品类的快速增长。抖音电商向我们提供的数据显示，“双11”期间，数码相机成交额同比增长365%、洗烘机成交额同比增长202%、电烤箱成交额同比增长141%、平板电脑成交额同比增长95%。政策刺激下，相关直播也层出不穷，“国补”家电商品累计直播场次超6.09万场。 </p>
+<p><strong>传统家电销售平台也吃到了“国补”的红利。</strong> 苏宁易购的“双11”形成了“国补、厂补、苏宁补”三重补贴。“以旧换新”销售同比增长247%，其中空调、冰洗、视听以旧换新增长均超两倍。“以旧换新”也推动消费向绿色升级，一级能效零冷水燃气热水器、节能洗干一体机的销售分别增长96%、261%。 </p>
+<p>随着多地政府以旧换新政策扩容，“国补”范围扩展到家装领域。“国补”带动家居家装行业销售额显著提升，拼多多、京东销售额增速均超20%。苏宁门店Home家装专区咨询量环比上涨50%，上海、南京、济南、太原等多个城市门店家装局改订单量环比增长162%，全国橱柜定制订单环比上涨136%，家电家装套购订单占比超过五成。 </p>
+<p>咨询公司易观分析的报告显示，从中央到地方各级政府的以旧换新、消费券发放、农村电商建设等各项刺激消费举措的逐步落地，取得了一定的成效，使得全国居民的支出增幅高于收入增幅。 </p>
+<p>自2022年9月以来，CPI开始持续下降，且在2023年年中至2024年年年初的时间中，CPI始终处于萎缩区间。随着消费刺激政策的相继落地，整体CPI与消费品CPI先后在今年转负为正，重回增长轨道，消费开始温和回暖。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_596352d736f8468191de25acb20e4189@000000_oswg114156oswg1080oswg327_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">中国居民消费价格指数变化。图源：易观分析 </p>
+<h2><strong>品牌消费者双赢</strong></h2>
+<p>这是国家大规模家电以旧换新补贴政策第一次参与“双11”，政府补贴叠加平台优惠，再加上一些品牌和商家的优惠，使得很多家居家电、数码3c产品的入手价格达到最低点。以淘宝天猫为例，今年淘宝百亿补贴支持与各地政府补贴叠加，家电、家装、手机、数码等品类补上加补后，双重优惠后低至4折-6折。 </p>
+<p>切实的大力度优惠刺激了消费者的购物欲，政府补贴无形中推动了相关品类的销售。 </p>
+<p>淘天数据显示，今年政府补贴首次叠加天猫“双11”满减，全面激活家电、家居、家装消费。截至11月11日零点，海尔、美的、追觅、戴森等139个品牌成交破亿；东芝、亚朵星球等9600多个品牌成交翻番。 </p>
+<p>石头科技电商业务负责人提到，10月12日到11月10日大促期间，购买咨询量较往年同期上涨超过400%，单日最高上涨740%。石头科技的客服团队日常约为200多人，“双11”前考虑到大促咨询量的增加，公司就曾增加了超过200人的客服团队。但10月中旬随着各地的国补政策陆续出台，咨询量爆表，不少客服要长时间加班。公司便继续补充客服人员，到现在整个客服团队的人数已经到达了800多人，这才得以应对大促期间的咨询。 </p>
+<p>该负责人进一步解释说，各地国补政策快速出台，用户疑问也很多，比如怎样跟平台券结合、怎么凑单最优惠等等，公司的客服需要快速整理相关信息形成攻略，供用户参考。 </p>
+<p>投影仪品牌极米告诉我们，“双11”活动期间，国补政策带来了明显的利好。<strong>政府补贴叠加平台优惠和品牌活动，消费者可以享受到极米产品的全年最低价。</strong></p>
+<p>天猫的“双11”也成就了不少家居家电成交破亿的大单品，比如海尔386洗烘套装、追觅H30ProPlusM洗地机，同时还有1200个单品成交破千万。 </p>
+<p>京东在11月12日凌晨发布的信息显示，全国超过90%的县域农村地区均有消费者通过京东进行以旧换新，大屏电视成为换新首选，扫地机器人、烘干机等在内的519个家电家居品类成交额同比增长200%，AI电脑、AI手机等多个AI硬件品类成交额均超100%。 </p>
+<p>包含省电空调、扫地机器人、烘干机、零水压智能马桶、功能沙发等在内的519个家电家居品类成交额同比增长超200%。 </p>
+<p>京东一个家具品牌运营负责人小陈 （化名） 告诉我们，销售排行靠前的品类基本上都在国补的池子内。<strong>“商品主图上面基本上会带有国补字样，这对消费者是最大的吸引力。”</strong>小陈说。他所在的公司主营文件柜、办公桌等商业办公家具，今年“双11”受政策带动，业绩环比增长明显。 </p>
+<p>他表示，电商平台会根据各地的补贴政策整理好哪些商品、类目可以参与，商家按需提报就可以。同时，商家需要提供承诺函，不会利用政府补贴套现。 </p>
+<p><strong>“商家很愿意参加这种补贴活动，对我们的利润没什么损害，而且消费者会很关注商品是否有国补，这会影响他们的消费决策。”</strong> 小陈说：“我身边也有一些朋友趁国补进行购买高客单家具的，更偏向有国补商品。” </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzk0NzY4ODUzOQ==&amp;mid=2247519180&amp;idx=1&amp;sn=4be420e26b6664acf2d47e2cd463c668&amp;chksm=c28d8742765131b8803e6c099c573493376ecc33799bbb7c9fa3ba345e84019d44f0433546e2&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“半熟财经”（ID：Banshu-Caijing）</a>，作者：李莹 杨立赟，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034532670287873</guid><pubDate>Wed, 13 Nov 2024 17:33:00 +0800</pubDate></item><item><title>黄仁勋对话孙正义：日本的AI新饼、Arm的AI野心与英伟达的东亚新机会</title><link>https://36kr.com/p/3034567294693381</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1027,444" src="https://img.36krcdn.com/hsossms/20241113/v2_9be16aebf06f424fa2ddfc6a439a6aa4@46958_oswg106087oswg1027oswg444_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>11 月 13 日，黄仁勋与孙正义在日本进行了一次线下对谈，气氛轻松，回顾了后者过往对于英伟达的投资，共同探讨了日本 AI 发展。本文为大家梳理了二人之间的过往纠葛，以及现阶段发展方向。</p>
+<p>2020 年的软银世界大会上，孙正义与黄仁勋围绕「What’s Next for AI」展开了一次围炉对谈。黄仁勋穿着标志性的皮夹克坐在火堆旁，畅谈了将 Arm 纳入麾下的重要价值，孙正义也毫不吝啬赞美之词，<strong>称老黄在未来 10 年会达到史蒂夫 · 乔布斯的成就。</strong></p>
+<p>时隔 4 年，已经 61 岁的黄仁勋与 67 岁的孙正义又坐到了一起，话题依旧围绕 AI 展开，但二人的个人境遇及其掌舵的英伟达、软银都已时过境迁。4 年沧海桑田，英伟达巨资收购 Arm 的计划流产，却成为了 AI 风口上飞得最高的企业之一。反观孙正义，将主要精力投入 Arm 之后，经历了低谷，终于也在 2023 年乘着 AI 的东风迎来逆转，Arm 的成功上市极大缓解了软银的营收压力。</p>
+<p>殊途同归，<strong>无论是春风得意的黄仁勋还是野心勃勃的孙正义，都全力押注 AI，</strong>英伟达有着「AI 时代军火商」之称，从大厂到独角兽都仰仗其高性能 GPU 保障的算力；Arm 于今年 7 月也宣布正式进军 AI 芯片领域，计划明年秋季实现量产。</p>
+<p>所以，本次围炉对话的主题也是句句不离 AI。二人的谈话以黄仁勋的「吹捧」开始，<strong>大赞孙正义是「世界上唯一一个在每一代技术变革中，都选择了获胜者并与获胜者合作的企业家和创新者」。</strong>随后，他们主要围绕日本的 AI 发展进行了交流。</p>
+<p class="image-wrapper"><img data-img-size-val="480,240" src="https://img.36krcdn.com/hsossms/20241113/v2_b147e1360c014ed2bb65cae3fc0dd222@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">黄仁勋介绍孙正义曾是英伟达最大股东，后者「要哭了」</p>
+<h2><strong>多年纠葛，孙正义后悔低价抛售英伟达股份</strong></h2>
+<p>相信大家对于黄仁勋与孙正义的「爱恨纠葛」或多或少有所耳闻。</p>
+<p>2016 年，投出雅虎、阿里巴巴的孙正义风光无限，以 320 亿美元的价格收购了 Arm 公司，一举成为彼时欧洲科技史上的最大并购案。也是在这一年，有着「投资狂人」之称的孙正义找到了黄仁勋，想要收购英伟达。结果显而易见，<strong>但不死心的孙正义在次年豪掷 40 亿美元投资英伟达，迂回战术之下，软银持股 4.9%。</strong></p>
+<p>当时便有媒体猜测，孙正义的入股只是「缓兵之计」，准备慢慢渗透成大股东。但这一策略并未成功，相反，迫于营收压力，孙正义在 2019 年做了一个令他追悔莫及的决定——清空英伟达股票，此事我们容后细讲。</p>
+<p>将目光拉回到 2016 年，孙正义疯狂撒钱的同时，黄仁勋开始了他的布局——全球第一台 AI 超级计算机 DGX-1 问世，他找到了当时还没有和 OpenAI 闹掰的马斯克，向该公司捐赠了世界上第一台 DGX-1。进入 2017 年，黄仁勋拿着孙正义的 40 亿美元补充弹药库，走向与 Google 一争高低的第一梯队，当年，凭借游戏 PC 市场与先进 AI 芯片，<strong>英伟达的业绩暴涨，2017 财年第四季度，营收达 21.7 亿美元，同比增长 55%。</strong></p>
+<p>2018 年，加密货币的火爆为英伟达 GPU 再添一把柴，全球各地涌现的「矿工」令 GPU 一度供应短缺。树大招风，加密货币热潮降温，加之股市动荡，英伟达的 2019 年异常艰难，<strong>截至 2019 年 1 月 27 日的第四季度收入为 22.1 亿美元，较去年同期的 29.1 亿美元回落 24%。</strong></p>
+<p>在黄仁勋压力倍增的这一年，孙正义「拿钱跑路」。</p>
+<p>当时的孙正义也并不好过，一心扑在 Arm 身上，但其常规业务收入持续下滑，新业务不断烧钱但收效甚微。这厢 Arm 亟需补血，那厢英伟达不断下跌，孙正义终于做出了一个「错误」决定——2019 年 1 月，软银将手中持有的 NVIDIA 股票全部抛售。当时便有媒体帮孙正义算了一笔账，<strong>按照 2019 年一季度英伟达平均股价计算，软银集团出售价值在 70 亿美元左右，获利约 30 亿美元。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,498" src="https://img.36krcdn.com/hsossms/20241113/v2_efd0e822bf2d49b0afa1ce939f25ea62@46958_oswg76497oswg1080oswg498_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">软银买入、清空英伟达股票的时间点，以及当前英伟达股价对比</p>
+<p>有意思的是，从英伟达抽身的孙正义还游说黄仁勋接手 Arm，<strong>而老黄也是开出了 400 亿美元的高价。</strong>只不过这次收购未能通过监管审查，被定性为「纵向收购」，即产业链上下游企业之间的并购行为。</p>
+<p>2019 年的孙正义或许庆幸及时止损。现在，他直言「我很后悔卖掉英伟达股票」，就在他说这句话的两天前，英伟达登顶市值全球第一。我们再来算一笔账，<strong>如果当时没有清空英伟达的股票，软银持有的股份市值将超过 1,700 亿美元（按照英伟达目前的股价估算）。</strong></p>
+<h2><strong>搭上快车，软银深度绑定英伟达</strong></h2>
+<p>往事不可追，相信以孙正义的洞察力与眼光，他对于判断失误英伟达一事的悔恨绝不是今年才滋生的。我们也可以看到，<strong>最近几年他越来越多地开始在公开场合表示全力押注人工智能，</strong>而当时未能脱手的 Arm 则成为了其 AI 宏伟蓝图的最佳落脚点。</p>
+<p>近期接收 CNN 采访谈及未来投资方向时，孙正义首次公开点明了Arm 公司在其 AI 战略中的核心地位，作为一家几乎垄断了全球手机芯片市场的科技公司，Arm 在高端 AI、AIoT 等芯片领域也拥有极高的技术使用率。而孙正义透露，<strong>Arm 正在向一家以 AI 为中心的芯片公司转型。</strong></p>
+<p>除了芯片领域，孙正义还表达了对 AI 机器人技术的浓厚兴趣。他认为，<strong>当人工超级智能 (Artificial Superintelligence, ASI) 与机器人技术结合时，将会催生出令人瞩目的创新产品，</strong>这可能是他未来投资的重要方向之一。在谈到人工通用智能 (AGI) 和人工超级智能 (ASI) 的区别时，孙正义给出了清晰的定义。他认为 AGI 是达到与人类大脑同等水平的智能，而对于 ASI 要比人类大脑聪明一万倍。</p>
+<p>值得注意的是，在今年年初，<strong>彭博披露孙正义正寻求筹资 1,000 亿美元（约合人民币 7,000 亿元），用于创立一家 AI 芯片企业。</strong>内有 Arm 转型 AI 芯片，外部还在寻求新的投资，不少媒体猜测，此举已经是向英伟达发起了挑战。</p>
+<p>不过，这些竞争的火药味并未蔓延到本次对谈中，相反，<strong>黄仁勋还宣布了英伟达与软银集团的深度合作。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,538" src="https://img.36krcdn.com/hsossms/20241113/v2_013540261b0e4d14b2609210901d75a2@46958_oswg550136oswg1080oswg538_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>据介绍，软银正在使用 NVIDIA Blackwell 平台构建日本最强大的人工智能超级计算机，<strong>并计划使用 NVIDIA Grace Blackwell 平台构建其下一台超级计算机。</strong>软银计划将其 Blackwell 驱动的 DGX SuperPOD 用于生成式 AI 开发和人工智能相关业务，用于日本各地的大学、研究机构和企业。</p>
+<p>此外，软银使用 NVIDIA AI Air 加速计算平台，成功试运行了世界上首个人工智能和 5G 电信网络相结合的网络。</p>
+<h2><strong>大力补贴，日本要抓住 AI 时机</strong></h2>
+<p>正如前文所讲，此次对谈中，二人并未过多谈论 Arm 及其转型，反而是一派祥和地为日本 AI 发展筹谋。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,505" src="https://img.36krcdn.com/hsossms/20241113/v2_87ed8ad3e44042fd9015b1289cbbf9fe@46958_oswg403599oswg1080oswg505_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">英伟达在日本的合作伙伴</p>
+<p>日本，在全球科技发展中经历巅峰低谷，如今正在试图利用 AI 迎头追赶。</p>
+<p>众所周知，日本曾经是半导体产业龙头，1980 年代，其超越美国，半导体市场销售份额跃居第一位。但是，日本半导体行业的蓬勃发展也招致一些国家的不满，其中美国与其贸易摩擦不断升级，最终双方签订《日美半导体协定》，极大限制了日本的行业发展，加之大型通讯设备和计算机转向更加小巧灵活的个人电脑，市场需求也随之改变，未能及时调整的日本企业逐渐失去了竞争力。</p>
+<p>时代更替，当 AI 成为全球科技的中心，一度「吊车尾」的日本也逐渐撤去了美方掣肘，试图依托其曾经在半导体设计与制造上的积累重振芯片产业，并借此重回国际科技竞争主赛场。</p>
+<p>日前，日本政府宣布了一项计划，<strong>承诺在未来 10 年内为本国半导体和 AI 行业提供超过 650 亿美元的财政支持，</strong>旨在提升日本在全球科技竞争中的地位，并通过大规模投资促进经济增长。</p>
+<p>而身处大洋彼岸的英伟达，其实也是日本政府种种举措的受益者，获得政府补贴的日本企业可能转头就会将钱撒向英伟达。</p>
+<p>例如，日本数位基础设施服务供应商 Sakura 获得日本政府补助金后便表示，将强化生成式 AI 用云端服务「高火力」，计划将「高火力」搭载的 GPU 数量扩增至原先计划的 5 倍，将搭载约 10,000 颗 GPU ，<strong>其中便包括了 NVIDIA HGX B200。</strong></p>
+<p>在此次对谈中，孙正义直言，<strong>人工智能时代是一次「重置 (reset)」，而日本政府没有试图压制这场 AI 革命，现在是这次革命的追赶时刻，「我们不能错过」。</strong>黄仁勋也认为，日本需要利用这一时机，而其也确实做到了。</p>
+<h2><strong>写在最后</strong></h2>
+<p>有意思的是，二人在对谈的最后也轻描淡写地回顾了当年的收购与被收购，买入与清空。</p>
+<p>孙正义 10 年前曾对黄仁勋说：「市场不了解英伟达的价值，你的未来令人难以置信，你的苦难之旅还将持续一段时间，因为你正在探索未来，所以，让我为你提供资金，买下英伟达」。</p>
+<p>黄仁勋笑言，「他想借钱给我，让我买下英伟达，我现在后悔没有接受」。</p>
+<p>如今，或许无人敢夸下海口要「买下」英伟达了。在可以遇见的未来，这家公司的发展潜力势必将推动其市值保持高位，而软银与英伟既已达成合作，是否能够搭上这班快车，为日本市场注入活力呢？我们不妨拭目以待。</p>
+<p><strong>参考资料：</strong>1.https://mp.weixin.qq.com/s/5Hzj9vb0F7Ipb6h3bFRosw2.https://mp.weixin.qq.com/s/zAETwlLqmxvlrv0m0NnubQ</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/mxUxBVYENq9yS_U_JXdZ9w" rel="noopener noreferrer nofollow" target="_blank">“HyperAI超神经”</a>，作者：李宝珠，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034567294693381</guid><pubDate>Wed, 13 Nov 2024 17:35:00 +0800</pubDate></item><item><title>AI智能体来了，App会死吗？</title><link>https://36kr.com/p/3034577696125184</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>这个秋天的第一杯咖啡，是智能体帮点的。</p>
+<p>从9月开始，支付宝旗下AI App支小宝、智谱的智能体AutoGLM，都能帮用户下一杯少糖、去冰的生椰拿铁。荣耀甚至开了个大招——让智能体YOYO一口气点上2000杯。</p>
+<p>当多模态为智能体安上了“眼睛”和“耳朵”，它开始展示出有希望接近人类管家的操作能力——这一代智能体开始学会帮人类“玩手机”，从日常购物、朋友圈评论到旅行规划，AI都能帮用户完成。</p>
+<p>由此，移动互联网正迎来一场关于智能体的新革命吗？</p>
+<p>在移动互联网时代，超级App通过整合服务形成流量闭环，但智能体的出现，有望重新定义人与服务之间的连接方式。</p>
+<p>人们开始担心这场变革是否将重新定义科技公司的新格局：智能体来了，App会死吗？</p>
+<p>答案是，杀不死的App，将借智能体再进化。</p>
+<p>时至今日，超级App远远不再是一个软件，而是一种生活方式的入口。</p>
+<p>比如，用支付宝，不仅是支付，更是理财、出行、医疗、旅游的生活场景入口；用美团，不仅是外卖，更是餐饮、超市、电影等本地生活聚集地；用抖音，不仅是短视频，更是海量视频内容承载的商业生态。</p>
+<p>过去在移动支付时代，这些超级App下场做“泥腿子”，铺二维码、建小程序，通过开放搭建了一张数字服务之网。在AI时代，他们同样可以脚下沾泥，去连接千千万万的线下商家和机构，帮助千万个商家机构从数字化向智能化升级。</p>
+<p>当智能体和真实的用户需求连接，才能真正落地生花。谁能搭建起下一个全面满足用户需求的智能体生态，才能成为AI时代的入口之王。</p>
+<h2><strong>从爆冷到走红，智能体认准“真需求”</strong></h2>
+<p>“可以响应自然语言，并且可以根据对用户的了解来完成许多不同的任务，称为智能体。智能体不仅会改变每个人与计算机交互的方式，也将是下一个平台。”</p>
+<p>比尔盖茨关于智能体的这段定义，也是我们想象中AI时代的未来。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_db139ef40eb64a20b197ad3d50792f85@000000_oswg362364oswg1080oswg337_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>但在上半年，大厂扎堆押注智能体平台的1.0阶段，真金白银的投入，却没能在流量的池子里快速砸起太大的水花。</p>
+<p>海外，Open AI的GPT Store早于今年1月上线，奥特曼曾希望它能成为下一个“App Store”；国内，字节、百度、阿里等大厂也先后发布智能体平台，寄希望于打造“Super智能体”（超级智能体）。</p>
+<p>但在1.0时代，受限于多模态能力发展，彼时的智能体更像是一个能说会道的AI对话机器人，虽然可以为用户提供知识，但只能止步于获取建议。</p>
+<p>因此，在用户黏性上，大多人对智能体仍然保持“尝鲜”的态度。即便背靠大厂的泼天流量，在后续的表现上，智能体增长乏力，在平台上，至今没有诞生一款Super智能体。</p>
+<p>归根结底，是由AI能力创造出的大量伪需求，没有切中用户的真实痛点。</p>
+<p>而和1.0阶段相比，智能体2.0在具体的场景上认准方向，试图切中用户的“真需求”。</p>
+<p>此前，AI智能体的B端应用多集中在代码编写、辅助创作方面，而在C端，则衍生出了面向用户的交友陪伴、心理咨询等智能体。截至今年7月，据QuestMobile统计，文案写作、职场办公和情感陪伴成为主流AIGC产品中智能体落地的常见方向。</p>
+<p>据AI产品榜统计，仅今年一年，智能体数量新增17.9万，比App Store的应用增速快了1.5倍。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_c6f6c7d5c0134984ba03243bde230f5f@000000_oswg269263oswg1000oswg532_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：QuestMobile </p>
+<p>而在今年下半年，智能体在多任务协同中展现出了诸多改变。</p>
+<p>“今天的大模型智能正在从简单应用向复杂应用不断演进，尤其在智能体到o1推理模型的拓展中，使系统逐渐进化到能够持续与外部交互。”智谱COO张帆说。</p>
+<p>设想中的一句话点外卖、订机票正成为了现实：</p>
+<p>9月，支付宝推出首个服务型原生App支小宝，作为AI生活管家，能够帮助用户承包“衣食住行”，只靠指令就能完成点餐、刷地铁码、打车等日常任务，也能智能感知用户使用的时间和空间，智能推荐新闻播客、快递查询、旅游攻略等服务。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_6ccdd72999624339a97c5a2f8b3c021d@000000_oswg514298oswg1000oswg962_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>10月，智谱推出智能体AutoGLM，它能够自主选择多款App进行操作，帮用户完成手机交互。</p>
+<p>随后，手机厂商也紧跟步伐，荣耀的YOYO智能助手、vivo的Phone Use，都能通过一句话的指令帮用户完成跨应用操作。</p>
+<p>过去，用户需要在复杂的界面中寻找海量功能，相当于增加了用户的使用成本。现在，只需要通过发语音或文字表达需求，智能体就能直达服务，把想要的服务直接推送到用户面前。</p>
+<p>至此，切入日常生活的刚需场景，智能体2.0找到了可突破的方向——“管家”智能体。</p>
+<p>从点外卖、加购物车到取消App自动续费，厂商试图让智能体融入我们的衣食住行，进一步简化人和服务交互的步骤，把用户从机械日常的交互中解放出来。比如“支小宝”，就一直强调“说句话就能办事”。</p>
+<p>尽管目前市面上的诸多“AI管家产品”，能提供的AI办事服务数量还比较有限，还无法执行更复杂、更个性化的任务，但这个人机交互的进化方向，至少让我们看到科技正在向一个新方向迈进——除了对话，也能让AI“看我的眼色行事”，让生活更简单一些。</p>
+<h2><strong>AI时代，主导者是手机厂商还是APP？</strong></h2>
+<p>在移动互联网时代，流量就是生命。智能体的出现，也将重塑流量分发的规则。</p>
+<p>1.0时代，从海外到国内，科技公司都在试图打造Super智能体平台，通过智能体聚合流量。</p>
+<p>但2.0时代的思路变了。现在，大家正在试图让智能体化身手机里的“智能管家”，成为连接用户和服务的新入口。</p>
+<p>这种变化最明显的体现是手机厂商的布局。在2024德国柏林消费电子展上，荣耀产品线总裁方飞说：“如果现在的智慧助手是手机上的手动驾驶，那么，AI智能体未来就是手机上的自动驾驶。”</p>
+<p>或许会有这样的预言：当手机上的智能体开始学会跨应用调取所需功能，比如用美团点外卖、打开淘宝买日用品，通过拆解任务场景，选择不同App操作完成任务。相应的，超级App只需要将部分接口提供给智能体调用，长此以往，App将成为智能体能力的一环，而本该流向超级App的流量，也将归于智能体。</p>
+<p>但在多元的商业时代，竞合关系才是常态。一方面，手机与超级App需要打磨AI产品，用产品竞争力赢得用户，争夺新入口的主动权；另一方面，正如移动互联网的繁荣是众人拾柴、日拱一卒的结果，AI时代的服务之网，也绝非任何一家科技巨头所能垄断，开放和合作仍是AI的未来之路。</p>
+<p>正如荣耀CEO赵明所说，两者之间是协同关系，在找到边界点后，大家通过各自协同完成分内任务。</p>
+<p><strong>于手机而言，智能体想要打通完整的服务生态，需要大量的服务资源的整合供给。</strong></p>
+<p><strong>于App而言，可以深耕垂直场景，借助智能体完成进化，焕新AI时代的诸多服务；同时，可以通过与手机厂商合作，探索软硬件联动的更多玩法。</strong></p>
+<p>比如，在厂商抢做AI搜索产品的当下，包括小红书、知乎在内的社区App正在试图通过长期沉淀的内容优势，打造垂类搜索服务。以知乎为例，它瞄准了学术搜索赛道，在知乎直答中上线专业搜索功能，成为首家提供AI搜索与正版论文库一站式解决方案的厂商。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_648466314802457f9301b0565fb1cf1b@000000_oswg291310oswg1000oswg406_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>当下智能体的热潮中，生态能力也将成为App的杀手锏与护城河。</p>
+<p>凭借400万的商家机构小程序以及8000多种生活服务能力，支付宝旗下的AI生活管家“支小宝”就能支持唤起打车、点餐、订票、地铁码、查快递、交话费、查账单等各类生活服务——这种生态整合能力是纯粹的智能体平台难以赶超的。</p>
+<p>同时，目前的手机产商演示的AI点咖啡等操作，仍是采用屏幕识别与仿真操作的技术解决方案（你会看到AI在帮你查看屏幕和点击按钮），对手机性能要求高之外，还存在速度慢、服务单一等问题。</p>
+<p><strong>想要AI做得更好，就需要服务侧的供给变革</strong>——大量的商家机构也能“AI化”，打造自己的智能体，再通过开放接口，推动生活服务的创新。只有更多商家机构都有智能体，AI才能不停留在点咖啡这样的简单操作，而是可以帮你点得更多、点得更快、点得更准，甚至还能帮你找到最合适的优惠券。</p>
+<p>无疑，<strong>就像移动互联网时代建起数百万小程序一样，搭建AI时代的智能体生态，而这正是微信、支付宝等国民App所擅长的。</strong>结合独有的平台生态，App也能成为新的智能体平台，并借助差异化的服务从AI混战中突围。</p>
+<p>例如，腾讯继推出智能助手App“元宝”后，又打造了智能体平台“元器”；支付宝也推出了智能体开发平台“百宝箱”，让商家机构借助智能体为用户提供更多更新的服务。</p>
+<p>以“黄小松”为例，它是黄山景区在支小宝平台上开设的智能体，能够为游览黄山的游客提供实时景点导览、景区饭店推荐、充电宝查询等服务。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_32059fa9772c4bc89bb846484636e5a2@000000_oswg49992oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>此外，App厂商也可以跳出手机，与更多的智能硬件互联互通</strong>，比如AR眼镜、智能音箱、智能车机等。未来，AI无处不在，服务一呼即应，人机交互的方式将更加多元和革新。</p>
+<p>此前，字节跳动旗下的豆包就推出了AI智能体耳机Olla Friend，为用户安排了一位集随身百事通、英语陪练、旅行导游和情绪加油站等能力于一身的“AI朋友”；下周即将发布的Rokid 新款AR眼镜上，也将联合支小宝，推出AI打车、AI点餐及声纹快速支付等功能，覆盖更多的生活场景。</p>
+<p>AI时代，洗牌的周期会进一步缩短。朱啸虎曾直言，“当大家一窝蜂地涌入风口，6个月之后，如果没跻身头部，这个风口基本上跟你没任何关系了。”短暂的风口来临，没有人想先离开牌桌，AI将催生下一代的新手机，App也希望借AI再次进化，抢先布局的先行者，无疑将赢得下一个时代。</p>
+<p>但更为重要的是：独行者快，众行者远，AI时代没有一家独大，有竞争，更有合作。开放与连接，原本就是互联网的本义，进入AI时代，软件与硬件的彼此开放，无数智能体的相互连接，才能催生真正的变革。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkyNDIxMDQ1OA==&amp;mid=2247497654&amp;idx=1&amp;sn=98864b7213b93195cf41701455f81385&amp;chksm=c0ed0e93e1a2055e69e68fdbbdd5e4a90c039cae550f23960006fc745cacdd535bcc5a384a09&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“光锥智能”（ID：guangzhui-tech）</a>，作者：<strong>魏琳华</strong> ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034577696125184</guid><pubDate>Wed, 13 Nov 2024 17:43:00 +0800</pubDate></item><item><title>WHALE来了，南大周志华团队做出更强泛化的世界模型</title><link>https://36kr.com/p/3034567556788481</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>世界模型又出新进展了，来自国内机构。</p>
+</blockquote>
+<p>人类能够在脑海中设想一个想象中的世界，以预测不同的动作可能导致不同的结果。受人类智能这一方面的启发，世界模型被设计用于抽象化现实世界的动态，并提供这种「如果…… 会怎样」的预测。</p>
+<p>因此，具身智能体可以与世界模型进行交互，而不是直接与现实世界环境交互，以生成模拟数据，这些数据可以用于各种下游任务，包括反事实预测、离线策略评估、离线强化学习。</p>
+<p>世界模型在具身环境的决策中起着至关重要的作用，使得在现实世界中成本高昂的探索成为可能。为了促进有效的决策，世界模型必须具备强大的泛化能力，以支持分布外 (OOD) 区域的想象，并提供可靠的不确定性估计来评估模拟体验的可信度，这两者都对之前的可扩展方法提出了重大挑战。</p>
+<p>本文，来自南京大学、南栖仙策等机构的研究者引入了 WHALE（World models with beHavior-conditioning and retrAcing-rollout LEarning），这是一个用于学习可泛化世界模型的框架，由两种可以与任何神经网络架构普遍结合的关键技术组成。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,453" src="https://img.36krcdn.com/hsossms/20241113/v2_8b37029e87b94ad08ea0342763e64ab7@46958_oswg211628oswg1080oswg453_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>论文地址：https://arxiv.org/pdf/2411.05619</p>
+<p>论文标题：WHALE: TOWARDS GENERALIZABLE AND SCALABLE WORLD MODELS FOR EMBODIED DECISION-MAKING</p>
+<p>首先，在确定策略分布差异是泛化误差的主要来源的基础上，作者引入了一种行为 - 条件（behavior-conditioning）技术来增强世界模型的泛化能力，该技术建立在策略条件模型学习的概念之上，旨在使模型能够主动适应不同的行为，以减轻分布偏移引起的外推误差。</p>
+<p>此外，作者还提出了一种简单而有效的技术，称为 retracing-rollout，以便对模型想象进行有效的不确定性估计。作为一种即插即用的解决方案， retracing-rollout 可以有效地应用于各种实施任务中的末端执行器姿态控制，而无需对训练过程进行任何更改。</p>
+<p>为了实现 WHALE 框架，作者提出了 Whale-ST，这是一个基于时空 transformer 的可扩展具身世界模型，旨在为现实世界的视觉控制任务提供忠实的长远想象。</p>
+<p>为了证实 Whale-ST 的有效性，作者在模拟的 Meta-World 基准和物理机器人平台上进行了广泛的实验。</p>
+<p>在模拟任务上的实验结果表明，Whale-ST 在价值估计准确率和视频生成保真度方面均优于现有的世界模型学习方法。此外，作者还证明了基于 retracing-rollout 技术的 Whale-ST 可以有效捕获模型预测误差并使用想象的经验增强离线策略优化。</p>
+<p>作为进一步的举措，作者引入了 Whale-X，这是一个具有 414M 参数的世界模型，该模型在 Open X-Embodiment 数据集中的 970k 个现实世界演示上进行了训练。通过在完全没见过的环境和机器人中的一些演示进行微调，Whale-X 在视觉、动作和任务视角中展示了强大的 OOD 通用性。此外，通过扩大预训练数据集或模型参数，Whale-X 在预训练和微调阶段都表现出了令人印象深刻的可扩展性。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,533" src="https://img.36krcdn.com/hsossms/20241113/v2_b2fc79239e5042688c36afefb249430b@46958_oswg691390oswg1080oswg533_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>总结来说，这项工作的主要贡献概述如下：</p>
+<p>作者引入了 WHALE，这是一个学习可泛化世界模型的框架，由两项关键技术组成：行为 - 条件（behavior-conditioning）和 retracing-rollout，以解决世界模型在决策应用中的两个主要挑战：泛化和不确定性估计；</p>
+<p>通过整合 WHALE 的这两种技术，作者提出了 Whale-ST，这是一种可扩展的基于时空 transformer 的世界模型，旨在实现更有效的决策，作者进一步提出了 Whale-X，这是一个在 970K 机器人演示上预训练的 414M 参数世界模型；</p>
+<p>最后，作者进行了大量的实验，以证明 Whale-ST 和 Whale-X 在模拟和现实世界任务中的卓越可扩展性和泛化性，突出了它们在增强决策方面的效果。</p>
+<h2><strong>学习可泛化的世界模型以进行具身决策</strong></h2>
+<p>世界模型中的序列决策通常需要智能体探索超出训练数据集的分布外 (OOD) 区域。这要求世界模型表现出强大的泛化能力，使其能够做出与现实世界动态密切相关的准确预测。同时，可靠地量化预测不确定性对于稳健的决策至关重要，这可以防止离线策略优化利用错误的模型预测。考虑到这些问题，作者提出了 WHALE，这是一个用于学习可泛化世界模型的框架，具有增强的泛化性和高效的不确定性估计。</p>
+<h3><strong>用于泛化的行为 - 条件</strong></h3>
+<p>根据公式（2）的误差分解可知，世界模型的泛化误差主要来源于策略分歧引起的误差积累。</p>
+<p class="image-wrapper"><img data-img-size-val="949,93" src="https://img.36krcdn.com/hsossms/20241113/v2_91230678f2ae430abb5ced837ffdc675@46958_oswg23193oswg949oswg93_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>为了解决这个问题，一种可能的解决方案是将行为信息嵌入到世界模型中，使得模型能够主动识别策略的行为模式，并适应由策略引起的分布偏移。</p>
+<p>基于行为 - 条件，作者引入了一个学习目标，即从训练轨迹中获取行为嵌入，并整合学习到的嵌入。</p>
+<p>作者希望将训练轨迹 τ_H 中的决策模式提取到行为嵌入中，这让人联想到以历史 τ_h 为条件的轨迹似然 ELBO（evidence lower bound）的最大化：</p>
+<p class="image-wrapper"><img data-img-size-val="1080,84" src="https://img.36krcdn.com/hsossms/20241113/v2_1ade979751d643b3ba1632b4741def2c@46958_oswg11509oswg1080oswg84_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>作者建议通过最大化 H 个决策步骤上的 ELBO 并调整类似于 β-VAE 的 KL 约束数量来学习行为嵌入：</p>
+<p class="image-wrapper"><img data-img-size-val="1080,87" src="https://img.36krcdn.com/hsossms/20241113/v2_f2047e76030d466589947539cac77168@46958_oswg11819oswg1080oswg87_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这里，KL 项将子轨迹的嵌入预测约束到每个时间步骤 h，鼓励它们近似后验编码。这确保了表示保持策略一致，这意味着由相同策略生成的轨迹表现出相似的行为模式，从而表现出相似的表示。然后使用学习到的先验预测器</p>
+<p class="image-wrapper"><img data-img-size-val="398,372" src="https://img.36krcdn.com/hsossms/20241113/v2_50cf95c742b74dd5864153b1d0a598da@46958_oswg61958oswg398oswg372_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从历史 τ_h 中获得行为嵌入 z_h，以便在世界模型学习期间进行行为调节，其中行为嵌入被接受为未来预测的额外协变量：</p>
+<p class="image-wrapper"><img data-img-size-val="954,122" src="https://img.36krcdn.com/hsossms/20241113/v2_9534717db1804b5ca838616f9cf974d9@46958_oswg18663oswg954oswg122_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>不确定性估计 Retracing-rollout</strong></h3>
+<p>世界模型不可避免地会产生不准确和不可靠的样本，先前的研究从理论和实验上都证明，如果无限制地使用模型生成的数据，策略的性能可能会受到严重损害。因此，不确定性估计对于世界模型至关重要。</p>
+<p>作者引入了一种新颖的不确定性估计方法，即 retracing-rollout。retracing-rollout 的核心创新在于引入了 retracing-action，它利用了具身控制中动作空间的语义结构，从而能够更准确、更高效地估计基于 Transformer 的世界模型的不确定性。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,492" src="https://img.36krcdn.com/hsossms/20241113/v2_95e59dc2709144388f09f0e50b1428ef@46958_oswg173261oswg1080oswg492_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>接下来作者首先介绍了 retracing-action，具体地说，retracing-action 可以等效替代任何给定的动作序列，形式如公式（5），其中</p>
+<p class="image-wrapper"><img data-img-size-val="398,376" src="https://img.36krcdn.com/hsossms/20241113/v2_dde76a799e6e42ba84e47c038f835440@46958_oswg57716oswg398oswg376_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>表示动作 a_i 第 j 维的值。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,158" src="https://img.36krcdn.com/hsossms/20241113/v2_c0f18ffb9fa2403b80afdad13d55f008@46958_oswg10165oswg1080oswg158_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>接下来是一个全新的概念：Retracing-rollout。</p>
+<p>具体来说：假设给定一个「回溯步骤」k，整个过程开始于从当前时间步 t，回溯到时间步 t-k，将 o_t−k 作为起始帧。</p>
+<p>然后，执行一个回溯动作</p>
+<p class="image-wrapper"><img data-img-size-val="398,438" src="https://img.36krcdn.com/hsossms/20241113/v2_d1b7be38c513494db68a24689c1f980b@46958_oswg15238oswg398oswg438_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>，从 o_t−k 开始，生成相应的结果 o_k+1。</p>
+<p>在实际操作中，为了避免</p>
+<p class="image-wrapper"><img data-img-size-val="398,438" src="https://img.36krcdn.com/hsossms/20241113/v2_25836b4afa814511bc7350f4718b8607@46958_oswg15238oswg398oswg438_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>超出动作空间的范围，回溯动作被分解为 k 步。在每一步中，前六个维度的动作被设置为</p>
+<p class="image-wrapper"><img data-img-size-val="398,231" src="https://img.36krcdn.com/hsossms/20241113/v2_ed8c158550d84e479a397074c90f172f@46958_oswg10301oswg398oswg231_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>，而最后一个维度</p>
+<p class="image-wrapper"><img data-img-size-val="398,305" src="https://img.36krcdn.com/hsossms/20241113/v2_4f653f151a414ad7937ad6f8dc3641c7@46958_oswg12327oswg398oswg305_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>保持不变。通过这种方式，模型可以通过多步回溯产生期望的结果。</p>
+<p>为了估计某一时间点 (o_t,a_t) 的不确定性，采用多种回溯步骤生成不同的回溯 - 轨迹预测结果。具体来说，要计算不同回溯 - 轨迹输出与不使用回溯的输出之间的「感知损失」。同时，引入动态模型的预测熵，通过将「感知损失」和预测熵相乘，得到最终的不确定性估计结果。</p>
+<p>与基于集成的其他方法不同，retracing-rollout 方法不需要在训练阶段进行任何修改，因此相比集成方法，它显著减少了计算成本。</p>
+<p>作者在论文中还给出了具体的实例。图 3 展示了 Whale-ST 的整体架构。具体来说，Whale-ST 包含三个主要组件：行为调节模型、视频 tokenizer 和动态模型。这些模块采用了时空 transformer 架构。</p>
+<p>这些设计显著简化了计算需求，从相对于序列长度的二次依赖关系简化为线性依赖关系，从而降低了模型训练的内存使用量和计算成本，同时提高了模型推理速度。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,521" src="https://img.36krcdn.com/hsossms/20241113/v2_b153474322b1459595d89a85d262b19b@46958_oswg265220oswg1080oswg521_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>实验</strong></h2>
+<p>该团队在模拟任务和现实世界任务上进行了广泛的实验，主要是为了回答以下问题：</p>
+<p>Whale-ST 在模拟任务上与其他基线相比表现如何？行为 - 条件和 retracing-rollout 策略有效吗？</p>
+<p>Whale-X 在现实世界任务上的表现如何？Whale-X 能否从互联网规模数据的预训练中受益？</p>
+<p>Whale-X 的可扩展性如何？增加模型参数或预训练数据是否能提高在现实世界任务上的表现？</p>
+<h3><strong>模拟任务中的 Whale-ST</strong></h3>
+<p>该团队在 Meta-World 基准测试上开展实验。Meta-World 是一个包含多种视觉操作任务的测试集。研究者们构建了一个包含 6 万条轨迹的训练数据集，这些轨迹是从 20 个不同的任务中收集来的。模型学习算法需要使用这些数据从头开始训练。 </p>
+<p>研究团队将 Whale-ST 与 FitVid、MCVD、DreamerV3、iVideoGPT 进行了对比。评估指标如下： </p>
+<ul>
+<li>预测准确性：验证模型是否能够正确估计给定动作序列的值，具体通过值差、回报相关性 (Return Correlation) 和 Regret 进行评估；</li>
+<li>视频保真度：研究团队采用 FVD、PSNR、LPIPS 和 SSIM 来衡量视频轨迹生成的质量。</li>
+</ul>
+<p>下表展示了预测准确性的结果，其中，Whale-ST 在所有三个指标上都表现出色。在 64 × 64 的分辨率下，Whale-ST 的值差与 DreamerV3 的最高分非常接近。当在更高分辨率 256 × 256 测试时，Whale-ST 的表现进一步提升，取得了最小的值差和最高的回报相关性，反映了 Whale-ST 能更细致地理解动态环境。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,464" src="https://img.36krcdn.com/hsossms/20241113/v2_e01a2fcb924042fca034253fb4457238@46958_oswg64079oswg1080oswg464_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>表 2 展示了视频保真度的结果，Whale-ST 在所有指标上均优于其他方法，特别是 FVD 具有显著优势。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,525" src="https://img.36krcdn.com/hsossms/20241113/v2_05ecdf6dee1b489cb72bcc99d12b4496@46958_oswg86375oswg1080oswg525_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>不确定性估计</strong></h3>
+<p>针对不确定性，研究团队比较了 retracing-rollout 与两种基准方法： </p>
+<p>（1）基于熵的方法：研究团队采用基于 Transformer 的动态模型，它通过计算模型输出的预测熵来量化不确定性 </p>
+<p>（2）基于集成的方法：研究团队训练了三个独立的动态模型，然后通过比较每个模型生成的图像之间的像素级差异来估计不确定性。 </p>
+<p>具体来说，他们从模型误差预测和离线强化学习两个角度进行评估。 </p>
+<p>下表展示了模型误差预测的结果，在所有 5 个任务中，retracing-rollout 均优于其他基线方法。与基于集成的方法相比，retracing-rollout 提升了 500%，与基于熵的方法相比，提高了 50%。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,353" src="https://img.36krcdn.com/hsossms/20241113/v2_1e62061417e747a8becbf17d69566deb@46958_oswg63086oswg1080oswg353_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>下图展示了离线 MBRL 的结果，retracing-rollout 在 5 个任务中的 3 个任务中收敛得更好、具备更强的稳定性。特别是在关水龙头和滑盘子任务中，retracing-rollout 是唯一能够稳定收敛的方法，而其他方法在训练后期出现了不同程度的性能下降。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,282" src="https://img.36krcdn.com/hsossms/20241113/v2_2de128525c0e43228412c3626165b377@46958_oswg212231oswg1080oswg282_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>Whale-X 在真实世界中的表现</strong></h3>
+<p>为了评估 Whale-X 在实际物理环境中的泛化能力，研究团队在 ARX5 机器人上进行了全面实验。 </p>
+<p>与预训练数据不同，评估任务调整了摄像机角度和背景等，增加了对世界模型的挑战。他们收集了每个任务 60 条轨迹的数据集用于微调，任务包括开箱、推盘、投球和移动瓶子，还设计了多个模型从未接触过的任务来测试模型的视觉、运动和任务泛化能力。 </p>
+<p>如图 5 所示，Whale-X 在真实世界中展现出了明显的优势。 </p>
+<p>具体来说： </p>
+<p class="image-wrapper"><img data-img-size-val="1080,611" src="https://img.36krcdn.com/hsossms/20241113/v2_8cb3d226446e49188bc037f41492e8c2@46958_oswg334913oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>1. 与没有行为 - 条件的模型相比，Whale-X 的一致性提高了 63%，表明该机制显著提升了 OOD 泛化能力； </p>
+<p>2. 在 97 万个样本上进行预训练的 Whale-X，比从零开始训练的模型具有更高的一致性，凸显了大规模互联网数据预训练的优势； </p>
+<p>3. 增加模型参数能够提升世界模型的泛化能力。Whale-X-base（203M）动态模型在三个未见任务中的一致性率是 77M 版本的三倍。 </p>
+<p>此外，视频生成质量与一致性的结果一致，如表 4 所示。通过行为 - 条件策略、大规模预训练数据集和扩展模型参数，三种策略结合，显著提高了模型的 OOD 泛化能力，尤其是在生成高质量视频方面。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,364" src="https://img.36krcdn.com/hsossms/20241113/v2_8aad4c8c22fe4961afc8ab5f7d69651b@46958_oswg60658oswg1080oswg364_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>扩展性</strong></h3>
+<p>固定视频 token 和行为 - 条件这两个部分不变，仅调整模型的参数量和预训练数据集的大小，Whale-X 的拓展性如何呢？ </p>
+<p>研究团队在预训练阶段训练了四个动态模型，参数数量从 39M 到 456M 不等，结果如图 7 的前两幅图所示。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,419" src="https://img.36krcdn.com/hsossms/20241113/v2_3dee1eb336d343df9487f3b7edfc4de0@46958_oswg204939oswg1080oswg419_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这些结果表明，Whale-X 展现出强大的扩展性：无论是增加预训练数据还是增加模型参数，都会降低训练 loss。 </p>
+<p>除此之外，研究团队还验证了更大的模型在微调阶段是否能够展现更好的性能。 </p>
+<p>为此，他们微调了一系列动态模型，结果如图 7 最左侧所示。不难发现，经过微调后，更大的模型在测试数据上表现出更低的 loss，进一步突显了 Whale-X 在真实任务中出色的扩展性。 </p>
+<h3><strong>可视化</strong></h3>
+<p><strong>定性评估</strong></p>
+<p>图 1 展示了在 Meta-World、Open X-Embodiment 和研究团队设计的真实任务上的定性评估结果。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,558" src="https://img.36krcdn.com/hsossms/20241113/v2_31e4d5847f4844d0bd6d68dd8e61d686@46958_oswg689298oswg1080oswg558_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>结果表明，Whale-ST 和 Whale-X 能够生成高保真度的视频轨迹，尤其是在长时间跨度的轨迹生成过程中，保持了视频的质量和一致性。 </p>
+<p><strong>可控生成</strong></p>
+<p>图 8 展示了 Whale-X 在控制性和泛化性方面的强大能力。给定一个未见过的动作序列，Whale-X 能够生成与人类理解相符的视频，学习动作与机器人手臂移动之间的因果联系。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,410" src="https://img.36krcdn.com/hsossms/20241113/v2_0c084559333e4669a47bd366a196b9a7@46958_oswg433975oswg1080oswg410_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">行为条件可视化</p>
+<p>通过 t-SNE 可视化，研究表明 Whale-X 成功地学习到行为嵌入，能够区分不同策略之间的差异。例如，对于同一任务，不同的策略会有不同的行为表示，而噪声策略的嵌入则介于专家策略和随机策略之间，体现了模型在策略建模上的合理性。此外，专家策略在不同任务中的嵌入也能被区分，而随机策略则无法区分，表明模型更擅长表示和区分策略，而不是任务本身。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,340" src="https://img.36krcdn.com/hsossms/20241113/v2_5d2d58090bf24f8c8203a4b7eb6189bf@46958_oswg163579oswg1080oswg340_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>更多研究细节，请参考原文。 </p>
+<p>参考链接：https://arxiv.org/abs/2411.05619 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/9vk__IpfMdYj57VjtV1HvQ" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，作者：陈陈、佳琪，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034567556788481</guid><pubDate>Wed, 13 Nov 2024 17:45:00 +0800</pubDate></item><item><title>买家仍未官宣，大润发母公司高鑫零售中期扭亏，阿里可以卖个好价钱吗？</title><link>https://36kr.com/p/3034607587848195</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>官宣正在被洽谈收购近一个月，大润发母公司高鑫零售（06808.HK）交出扭亏为盈的财报。</p>
+<p>11月12日晚间，高鑫零售发布2025财年中报（2024年4月1日-9月30日），公司营收347.08亿元，同比下降3.0%；期内溢利1.86亿元，同比增长149.2%，去年同期为亏损3.78亿元，扭亏为盈。</p>
+<p>截至11月13日收盘，高鑫零售录得2.10港元/股，当日跌幅近2%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241113/v2_03b72dcd9b6e409788189e0b6562ced6@000000_oswg182183oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">△图源：时代财经摄</p>
+<p>高鑫零售称，收入下降主要由于关闭亏损门店等原因导致来自销售货品的收入减少10.39亿元至331.86亿元。截至今年9月30日，高鑫零售在国内共有466家大卖场、30家中型超市及6家M会员店，较上年同期减少19家大卖场，增加11家中型超市和5家M会员店。</p>
+<p>自2022财年以来，高鑫零售业绩出现亏损，2024财年扩大至超16亿元。此次中期扭亏为盈，或与集团换帅后采取的一系列变革措施有关。</p>
+<p>今年3月底，高鑫零售启用老将沈辉担任集团执行董事兼首席执行官。上任后，沈辉即提出2025财年“聚焦营收增长，实现扭亏为盈”的目标。为了驱动顾客回归卖场，其采取重塑价格力的策略，推动大润发重回平价定位。</p>
+<p>一方面，大润发打造“大润发必买”“加量不加价”“天天便宜”以及自有品牌“超省”系列，新推出1100多款低价商品。其重启的大拇指系列，定位国标以上品质、市场最低价格，包括1.9元的洗洁精、2.9元纯棉袜子等。上述低价策略带动大润发半年度同店销售录得同比增长0.3%。</p>
+<p>另一方面，沈辉计划将大润发中超业态——大润发Super和M会员店打造为集团第二条增长曲线。大润发Super面积一般为1500-3000平方米，依托大卖场的供应链资源，挑选5000-8000款商品，其中超过1000款商品坚持长期低价。同时，该店型配备社区食堂，为消费者提供平价快餐。</p>
+<p>报告期内，中超同店销售实现中高单位数增长，M会员店新增3家门店，会员总数超过36万，期内新收入来源会员费收入所得为1400万元。据大润发方面透露，大润发Super业务模型已经跑通，将成未来全国开店的主力。</p>
+<p>同时，公司通过缩减开支降低成本。截至2024年9月，高鑫零售雇员较上年同期减少16323人，节省福利开支总额5.28亿元，公司销售及营销开支同比减少10.51亿元至76.67亿元。</p>
+<p>高鑫零售并未在本次中报中进一步披露潜在买家的消息。一个月前，其发布收购相关的公告称，2024年9月27日，接获一名有意要约人发出的接触函，目前大股东阿里巴巴集团方面正在与要约人进行讨论。时代财经就高鑫零售卖身消息的进度询问企业方面，暂未得到确定回复。</p>
+<p>今年5月，阿里巴巴企业融资部负责人秦跃红被委任为高鑫零售非执行董事，这也被视作大润发“卖身”的信号之一。公开资料显示，秦跃红于2019年5月加入阿里，参与阿里的资本运作项目，她也曾在上海证券交易所担任投资银行部董事总经理。</p>
+<p>2017年，正在进行新零售战略的阿里巴巴斥资224亿港元入股高鑫零售，持有36.16%股权，后于2020年10月追加279.57亿港元投资，成为高鑫零售控股股东。</p>
+<p>不过，自阿里入股后，高鑫零售的营收和利润增速逐年下滑。在截至2024年3月31日的2024财年，高鑫零售营收为725.67亿元，同比减少13.3%；年内亏损16.68亿元，上年同期为盈利7800万元。这也是其上市来录得的最大亏损。</p>
+<p>如今，阿里的新零售战略并未结出理想的果，高鑫零售也被摆上货架，中期扭亏为盈的业绩能否为其赢得一个好的出售筹码？</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653319778&amp;idx=2&amp;sn=9b786f63bde34f94f9f07f0e0de29229&amp;chksm=bcdbded59854b9ced1c78ca372ddb10abd796577177fce4f20e725a3938fabb1189ca95cf9cf&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：张雪梅，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034607587848195</guid><pubDate>Wed, 13 Nov 2024 17:46:00 +0800</pubDate></item><item><title>英伟达和软银联手，要打造日本最强大AI超算</title><link>https://36kr.com/p/3034617492910338</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>划重点：</strong></p>
+<ul>
+<li>软银将利用英伟达Blackwell构建日本顶尖的人工智能超级电脑，服务于多项主权AI项目，并揭晓了Grace Blackwell计划。</li>
+<li>NVIDIA AI Aerial助力软银开创全球首个实时5G AI-RAN，为电信业带来数十亿新收益机遇。</li>
+<li>软银携手英伟达AI Enterprise，共创AI市场，满足日本本土对安全AI计算的需求。</li>
+</ul>
+<p class="image-wrapper"><img data-img-size-val="630,353" src="https://img.36krcdn.com/hsossms/20241113/v2_402bbce68efb47439a94ea827d6791cc@46958_oswg245958oswg630oswg353_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>11月13日，在日本举行的2024年AI峰会上，英伟达与软银公布了一系列合作计划，旨在加速日本主权AI项目（ Sovereign AI，即国家层面的AI基础设施）的发展，并强化英伟达在全球的技术领先地位，同时为全球电信行业带来数十亿美元的新收入。</p>
+<p>英伟达创始人兼CEO黄仁勋在主题演讲中透露，软银正利用Blackwell平台构建日本最强大的AI超级计算机，并计划在未来升级至Grace Blackwell平台。</p>
+<p>同时，英伟达宣布，软银已成功利用NVIDIA AI Aerial平台，实现了全球首个AI与5G电信网络的融合试验，这一突破将为电信运营商开辟数十亿美元的新收入渠道。</p>
+<p>此外，英伟达与软银还共同宣布，将借助NVIDIA AI Enterprise软件，打造满足日本本土安全AI计算需求的市场。这一新服务将支持AI培训、边缘推理等功能，帮助软银成为日本AI网格的核心，为各行业、消费者及企业创造、分发和使用人工智能服务的新商机。</p>
+<p>黄仁勋表示，此次与软银的合作将推动日本迈入AI产业革命，引领电信、交通、机器人及医疗保健等行业的新增长时代。</p>
+<p>软银总裁兼CEO宫川润一则强调，全球正加速采用AI促进社会发展，软银与英伟达的长期合作将助力这一转型。凭借强大的AI基础设施及创新的分布式AI-RAN解决方案“AITRAS”，软银将重塑5G网络，加速全球范围内的创新步伐。</p>
+<h2><strong>软银将首次接收Blackwell</strong></h2>
+<p>软银即将接收全球首台英伟达DGX B200系统，此系统将成为其新型NVIDIA DGX SuperPOD超级计算机的核心构建模块。</p>
+<p>软银打算利用这台由Blackwell驱动的DGX SuperPOD，不仅推动自身的生成式AI研发及AI相关业务，还将支持日本各大学、研究机构及企业的AI需求。</p>
+<p>预计建成后，软银的DGX SuperPOD将成为日本性能最卓越的超算系统。它配备了NVIDIA AI Enterprise软件和NVIDIA Quantum-2 InfiniBand网络，特别适合开发大语言模型。</p>
+<p>除了DGX SuperPOD，软银还规划了另一台专注于高计算密集型任务的超级计算机。该计算机初步计划基于NVIDIA Grace Blackwell平台构建，并融合NVIDIA GB200 NVL72多节点、液冷、机架级系统，将NVIDIA Blackwell GPU与高效的Arm架构NVIDIA Grace CPU完美结合。</p>
+<h2><strong>AI-RAN实现新的里程碑</strong></h2>
+<p>软银与英伟达密切合作，实现了一个技术里程碑——研发出一种能兼顾AI与5G工作负载的新型电信网络，业界称之为AI无线接入网络（AI-RAN）。这一创新基础设施广受电信行业生态系统青睐，因其助力运营商将基站从成本负担转变为AI创收资源。</p>
+<p>在日本神奈川县的户外试验中，软银验证了其基于英伟达加速的AI-RAN方案已达成运营商级别的5G性能，并能在利用网络剩余容量的同时，顺畅运行AI推理任务。</p>
+<p>传统电信网络为应对高峰时段而设计，但平均利用率仅达三分之一。而AI-RAN所具备的通用计算能力，预计能让电信公司有机会将剩余的三分之二容量转化为AI推理服务，实现商业化。</p>
+<p>据英伟达与软银估算，电信运营商在新AI-RAN基础设施上每投入1美元资本支出，有望获得约5美元的AI推理收入。综合考虑运营成本与资本支出，软银预测，每增设一台AI-RAN服务器，其基础设施的回报率最高可达219%。</p>
+<p>本文来自<a href="https://news.qq.com/rain/a/20241113A03A8L00" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，编译：金鹿，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034617492910338</guid><pubDate>Wed, 13 Nov 2024 17:47:00 +0800</pubDate></item><item><title>新旧准则盈亏各约11亿，交银人寿净利现反差，年内7家非上市险企切换</title><link>https://36kr.com/p/3034607587881222</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在新旧会计准则下，交银人寿交出了两份截然不同的报告。</p>
+<p>近日，交银人寿披露了2024年第三季度偿付能力报告，在新会计准则下，公司前三季度的净利润达11.11亿元；而交银人寿2024年三季度报告显示，在旧会计准则下，公司净利润亏损10.87亿元。</p>
+<p>交银人寿相关人士对时代周报记者表示，由于内部安排以及会计准则转换的复杂性，公司在中国货币网披露的2024年三季度报告未立即采用新会计准则口径，这是准则转换过程中的一个阶段性现象。当前保险行业持续复苏，交银人寿在积极调整业务结构，提升盈利能力，公司经营正常稳健。</p>
+<p>有业内人士对时代周报记者分析称，新会计准则下更多金融资产被划分为以公允价值计量，其市值的波动直接体现在损益表中，这一变化增加了净利润的波动性。在今年第三季度资本市场的上涨行情中，执行新会计准则的上市险企实现净利润大幅提升，而从今年二季度起执行新会计准则的交银人寿，其盈利能力改善很大程度上也受益于此。</p>
+<p>实际上，今年以来，交银人寿、中邮人寿、建信人寿、中意人寿等7家非上市险企执行新会计准则后，多家险企的业绩有明显提升。</p>
+<p>普华永道中国金融行业管理咨询合伙人周瑾对时代周报记者表示，今年由于部分保险公司提前实施新会计准则，不同公司在准则切换时点的策略选择不同，导致了利润表现异动。同时，这也反映出在“报行合一”的推动下，行业降本增效的经营策略已经开始显现成效。</p>
+<h2><strong>新旧准则下业绩“冰火两重天”</strong></h2>
+<p>在执行不同会计准则下，交银人寿的业绩表现“冰火两重天”。</p>
+<p>从今年二季度起，交银人寿的偿付能力报告开始依据新会计准则编制净利润、保险合同负债、净资产收益率、总资产收益率等关键数据（保险业务收入、投资收益率、综合投资收益率等数据则按照旧会计准则编制）。</p>
+<p>偿付能力报告数据显示，2024年前三季度，交银人寿实现保险业务收入164.99亿元，同比下降8.31%，但净利润达11.11亿元。</p>
+<p>不过，交银人寿在中国货币网披露的2024年三季度报告仍然使用旧会计准则。该报告显示，公司今年前三季度的保险业务收入数据与偿付能力报告保持一致，但净利润亏损10.87亿元，去年同期净利润为3.51亿元。</p>
+<p>某券商非银金融分析师向时代周报记者分析称，在新会计准则下，部分金融资产从“可供出售金融资产”（AFS）调整为FVTPL（以公允价值计量且其变动计入当期损益的金融资产），意味着其公允价值的任何波动都将直接反映在当期利润表中，这将加剧保险公司的利润波动。此外，保险公司通过买卖AFS来平滑利润的操作空间被大幅压缩，面临更直接的市场风险暴露。</p>
+<p>今年9月24日以来，A股迎来一波强劲上涨行情，险企的投资收益也水涨船高，推动险企今年前三季度业绩高增长。交银人寿今年前三季度净利润的提升，很大程度上也受益于此。</p>
+<p>偿付能力报告显示，交银人寿今年前三季度的综合投资收益率升至5.25%，同比上涨1.34个百分点。</p>
+<p>作为国内首家银行控股寿险公司，交银人寿近年来的净利润波动较大。在旧会计准则下，交银人寿于2021年实现自成立以来最高盈利8.4亿元后，2022年净利润亏损3.48亿元，2023年实现净利润0.8亿元，2024年前三季度亏损10.87亿元。</p>
+<p>旧会计准则下的财务报表也揭示了交银人寿面临的一些挑战。2024年前三季度，交银人寿的赔付支出达到了37.78亿元，同比上升429.87%。赔付支出的大幅增长，也侵蚀了公司的利润。</p>
+<p>切换新会计准则后，交银人寿的经营业绩能否保持增长，仍待进一步观察。</p>
+<h2><strong>执行新准则后，偿付能力有所改善</strong></h2>
+<p>执行新会计准则后，交银人寿的偿付能力充足率也有所提升。</p>
+<p>在连续两个季度的下降之后，交银人寿偿付能力充足率在2024年第二季度迎来回升。</p>
+<p>数据显示，截至2024年二季度末，交银人寿的核心偿付能力充足率和综合偿付能力充足率分别为122.35%、210.79%，环比分别提升17.87个百分点、24.25个百分点。</p>
+<p>交银人寿在偿付能力报告中称，二季度偿付能力充足率上升的主要原因：一是资产浮盈贡献核心资本和实际资本增长；二是权益资产规模减少带来的资本占用下降以及增配债券有效对冲了利率风险。</p>
+<p>上海对外经贸大学金融管理学院保险系主任郭振华向时代周报记者表示，新准则实施后，为保证资产与负债匹配，尤其是与保险合同负债中的浮动收费法计量负债相匹配，寿险公司投资资产中以公允价值计量的资产大幅上升，即FVTPL+FVOCI（以公允价值计量且其变动计入其他综合收益的金融资产）的总量占比提高。</p>
+<p>郭振华进一步解释说，为对冲因市场利率下滑导致的负债计量上升而造成的利润下降，寿险公司往往倾向于利用FVTPL资产因市场利率变动而产生的公允价值变动收益来平衡。因此，预计寿险公司将增加对FVTPL资产的配置，尤其是长期债券。</p>
+<p>上述券商分析师也对时代周报记者称，新准则下，传统险准备金对利率变化非常敏感，利率下行会导致准备金膨胀，需要资产端的债券增值来对冲。如果资产和负债两边波动幅度不一致，将导致净资产波动，这是利率风险的另一种表现形式。</p>
+<p>与2024年二季度末相比，交银人寿三季度末的偿付能力充足率出现轻微下降。今年三季度末，交银人寿核心偿付能力充足率为121.88%，环比下降0.47个百分点；综合偿付能力充足率为 209.42%，环比下降1.37个百分点，主要是由于资产配置带来的市场风险最低资本增长。</p>
+<h2><strong>多家非上市险企切换新准则，净利大增</strong></h2>
+<p>非上市险企切换新会计准则后，盈利能力大幅改善的并非交银人寿一家。</p>
+<p>自2023年1月1日起，我国境内外同时上市的保险公司执行新保险合同准则（IFRS17）和新金融工具准则（IFRS9），二者合称“新会计准则”；非上市保险公司需于2026年1月1日起执行新会计准则，也可以选择提前切换准则。</p>
+<p>据时代周报记者统计，今年以来，包括交银人寿、中邮人寿、工银安盛人寿、建信人寿、农银人寿、中意人寿、北京人寿在内的7家非上市险企，提前切换新会计准则。这其中，除中意人寿和北京人寿外，其余5家均为银行系险企。</p>
+<p>实施新的会计准则后，部分保险公司今年的业绩出现明显提升。</p>
+<p>中邮人寿在今年一季度率先采用新会计准则，公司业绩实现了从亏损到盈利的大转变。</p>
+<p>中邮人寿2023年出现超过120亿元的亏损。对此，中邮人寿解释称，主要是由于750曲线波动影响大幅增提准备金以及投资收益未及预期所致。</p>
+<p>2024年一季度，中邮人寿净利润达27.54亿元；2024年前三季度，中邮人寿净利润达到108.12亿元。偿付能力报告数据显示，2024年前三季度，中邮人寿投资收益率为3.8%，综合投资收益率为7.88%。</p>
+<p>此外，建信人寿2024年一季度净利润亏损12.53亿元，从第二季度实施新会计准则后也实现扭亏，前三季度净利润达17.77亿元。</p>
+<p>只不过，切换新会计准则后，这些非上市险企的净利润高增长能否在第四季度持续，需拭目以待。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653319778&amp;idx=3&amp;sn=374bcbf47e6e38cb1f7ed09c0e036631&amp;chksm=bcb9e26bd5ad4e8639a5b41a35dce19ff86e2ba45c5f63070b0938c5a5a99d84cc38cb256214&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：何秀兰，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3034607587881222</guid><pubDate>Wed, 13 Nov 2024 17:48:00 +0800</pubDate></item></channel></rss>
