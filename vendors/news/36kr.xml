@@ -1,200 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 14 Nov 2024 19:00:25 +0800</lastBuildDate><pubDate>Thu, 14 Nov 2024 19:00:25 +0800</pubDate><item><title>Meta最新触觉机械手登Science子刊封面，操作未知物体精度最高提升94%</title><link>https://36kr.com/p/3036021104816129</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>现在，随便丢给机械手一个陌生物体，它都可以像人类一样轻松拿捏了——</p>
-<p class="image-wrapper"><img data-img-size-val="640,286" src="https://img.36krcdn.com/hsossms/20241114/v2_6f7b2d796b7f4af1bc577e8ead8235c8@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了苹果，罐头、乐高积木、大象玩偶、骰子，都不在话下：</p>
-<p class="image-wrapper"><img data-img-size-val="1042,536" src="https://img.36krcdn.com/hsossms/20241114/v2_518234b29860498db5b6248caa0611a3@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这就是来自<strong>Meta FAIR</strong>团队最新的<strong>NeuralFeels</strong>技术，通过融合触觉和视觉，机械手可以更精确地操作未知物体，精度最高提升了94%！</p>
-<p>这项研究还登上了<strong>Science Robotics</strong>的封面，团队同时也公开了包含70个实验的新测试基准<strong>FeelSight</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1375" src="https://img.36krcdn.com/hsossms/20241114/v2_bdbf7f9215f74851a6e4e745aea5cc16@46958_oswg2346359oswg1080oswg1375_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>如何让机械手精确操作未知物体？</strong></h2>
-<p>让机械手拿取常见的魔方、水果等早已是基操，但如何让机器人更好地操作未知物体一直是一个研究难题。</p>
-<p>一个重要原因是目前的机械手训练都太过于依靠视觉，并且仅限于操作已知的先验物体，而现实中很多时候物体都会受到视觉遮挡，导致训练往往进步缓慢。</p>
-<p>对此，团队研发出一种名为NeuralFeels的创新技术，为机器人在复杂环境中的物体感知与操作带来了新的突破。</p>
-<p>这究竟是怎么做到的呢？让我们来一起看一下技术细节——</p>
-<h3><strong>融合了触觉的多模态感知</strong></h3>
-<p>NeuralFeels技术的创新之处在于结合了视觉和触觉，通过多模态融合的方式，让机器手能够对未知物体持续进行3D建模，更精确地估计手持操作中物体的姿态和形状。</p>
-<p>具体的处理流程如下图所示，前端实现了视觉和触觉的鲁棒分割和深度预测，而后端将此信息结合成一个神经场，同时通过体积采样进一步优化姿态。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,465" src="https://img.36krcdn.com/hsossms/20241114/v2_875aad00a45a49a8bd947e070d5666c8@46958_oswg416949oswg1080oswg465_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而在遮挡视角下，视觉与触觉融合有助于提高跟踪性能，还可以从无遮挡的局部视角进行跟踪。团队在摄像机视角的球面上量化了这些收益。</p>
-<p>从下图中可以观察到，当视觉严重遮挡时，触觉的作用更大，而在几乎没有遮挡时，触觉会发挥微调作用。</p>
-<p class="image-wrapper"><img data-img-size-val="640,387" src="https://img.36krcdn.com/hsossms/20241114/v2_7d364ef3f12c41cb9a486fdc8adba289@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>前端深度学习策略</strong></h3>
-<p>首先来看看NeuralFeels技术的前端（Front end），它采用了基于深度学习的分割策略和触觉Transformer，可以精确提取目标对象深度。</p>
-<p>用运动学分割一切</p>
-<p>神经优化非常依赖分割对象的输入深度，所以团队将前端设计成能够从视觉中鲁棒地提取对象深度的形式。深度在RGB-D相机中是现成的，但为了应对严重遮挡的问题，团队还引入了一种基于强大视觉基础模型的动力学感知分割策略。</p>
-<p class="image-wrapper"><img data-img-size-val="640,222" src="https://img.36krcdn.com/hsossms/20241114/v2_f9392a9986a846ff8afebe69d56738f1@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">触觉Transformer</p>
-<p>最近有研究表明，在自然图像中使用ViT进行密集深度预测更有效，于是团队提出了一种触觉Transformer，用于通过视觉触觉预测接触深度，这个Transformer完全在模拟中训练，可在多个真实世界的DIGIT传感器上通用。 机械手可以用嵌入式摄像头直接感知发光的胶垫，通过监督学习获得接触深度。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,258" src="https://img.36krcdn.com/hsossms/20241114/v2_f870c4505dc44517805223501af2c1d2@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>后端姿势优化</strong></h3>
-<p>NeuralFeels的后端（Back end）部分通过使用Theseus中的自定义测量因子，将前端的中间输出转化为非线性最小二乘问题进行优化。</p>
-<p>形状和姿态优化器</p>
-<p>后端模块从前端模块得到中间输出，并在线构对象模型。这个过程将交替使用来自视觉-触觉深度流的样本进行地图和姿态优化步骤。在本研究的地图优化器中，即时NGP模型的权重可以完全描述物体的3D几何结构。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,380" src="https://img.36krcdn.com/hsossms/20241114/v2_510ce581396c433ebceaa3653a77ad5a@46958_oswg155226oswg1080oswg380_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">神经SLAM</p>
-<p>在现实世界和模拟中，团队构建了一个不断演进的神经SDF，它整合了视觉和触觉，并可以同时跟踪物体。下图展示了对应的RGB-D和触觉图像的输入流，以及相应的姿态重建。</p>
-<p class="image-wrapper"><img data-img-size-val="640,350" src="https://img.36krcdn.com/hsossms/20241114/v2_4a8baf408527494f96d20f969682f4df@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">神经跟踪：给定形状的对象姿态估计</p>
-<p>当目标对象存在对应的CAD模型时，NeuralFeels可以实现优秀的多模态姿态跟踪能力。此时目标对象的SDF模型是预先计算的，NeuralFeels会冻结神经场的权重，仅使用前端估计进行视觉-触觉跟踪。</p>
-<p class="image-wrapper"><img data-img-size-val="1042,536" src="https://img.36krcdn.com/hsossms/20241114/v2_eee3fb8ef02d48feaffe4a18c656488e@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>NeuralFeels大大提升了机械手性能</strong></h2>
-<p>为了评估NeuralFeels技术的性能，研究团队在模拟和真实世界环境中进行了多次实验，涉及14种不同物体，相关<strong>测试集FeelSight也已发布</strong>！</p>
-<p class="image-wrapper"><img data-img-size-val="640,285" src="https://img.36krcdn.com/hsossms/20241114/v2_15edc254b222469fa579ba564df4396c@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>实验中使用了多种评估指标，包括用于评估姿势跟踪误差的对称平均欧几里得距离（ADD-S），以及用于衡量形状重建精度和完整性的F分数等。</p>
-<p>结果非常令人惊喜，NeuralFeels技术在以下3个方面都有非常出色的表现：</p>
-<h3><strong>1.物体重建精度大幅提升</strong></h3>
-<p>在物体重建方面，研究发现结合触觉信息后，表面重建精度在模拟环境中平均提高了15.3%，在真实世界中提高了 14.6%。</p>
-<p>最终重建结果在模拟环境中的中位误差为2.1毫米，真实世界中为3.9毫米。这表明NeuralFeels技术能够有效地利用触觉信息补充视觉信息，<strong>更准确地重建物体形状</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,910" src="https://img.36krcdn.com/hsossms/20241114/v2_220add6f2be44a94bdc879008b3218e3@46958_oswg129213oswg1080oswg910_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>2.物体姿态跟踪更加精准</strong></h3>
-<p>在物体姿态跟踪方面，NeuralFeels技术相比仅使用视觉信息的基线方法有显著改进。</p>
-<p>在模拟环境中，姿态跟踪精度提高了21.3%，真实世界中提高了26.6%。</p>
-<p>在已知物体形状的姿态跟踪实验中，即使存在不精确的视觉分割和稀疏的触摸信号，该技术也能实现低误差的姿态跟踪，平均姿态误差可降至2毫米左右。</p>
-<p>并且，触觉信息在降低平均姿态误差方面发挥了重要作用，在模拟环境中可使误差降低22.29%，在真实世界中降低 3.9%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,265" src="https://img.36krcdn.com/hsossms/20241114/v2_a27deeec6621425181954b6b3925deb8@46958_oswg45125oswg1080oswg265_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h3><strong>3.应对复杂场景表现出色</strong></h3>
-<p>在面对<strong>严重遮挡和视觉深度噪声</strong>等具有挑战性的场景时，NeuralFeels技术同样表现非常出色。</p>
-<p>在模拟的200个不同相机视角的遮挡实验中，平均跟踪性能提升 21.2%，在严重遮挡情况下提升幅度可达<strong>94.1%</strong>！</p>
-<p>在视觉深度噪声模拟实验中，随着噪声增加，融合触觉信息能有效降低误差分布，使机器人在视觉信息不理想的情况下仍能准确跟踪物体姿态。</p>
-<h2><strong>研究意义</strong></h2>
-<p>NeuralFeels技术的创新之处在于它融合了多模态数据、并结合了在线神经场，这些技术让机器人能够在操作未知物体时实现更准确的姿态跟踪和形状重建。</p>
-<p>而且，与复杂的传感器相比，团队使用空间感知组合所需的硬件更少，也比端到端感知方法更容易解释。</p>
-<p>尽管目前在一些方面仍存在改进空间，如在长期跟踪中由于缺乏闭环检测可能导致小误差累积，但对于提升机械手操作精度的效果非常显著，</p>
-<p>未来，研究人员计划进一步优化技术，例如通过基于特征的前端获取更粗略的初始化，加入长期闭环检测以减少姿态误差的累积，通过控制神经SLAM的输出进行通用灵巧性研究等。</p>
-<p>这样一来，家庭、仓库和制造业等复杂环境中作业的机器人的性能都有可能得到极大的提升了！</p>
-<p class="image-wrapper"><img data-img-size-val="440,440" src="https://img.36krcdn.com/hsossms/20241114/v2_e1469fbdd92742faaa1edf513d1f3fd5@46958_oswg164345oswg440oswg440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>参考资料：[1]https://www.science.org/doi/10.1126/scirobotics.adl0628[2]https://suddhu.github.io/neural-feels/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ZR4vAhhJOaxfOIKK15oaBQ" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：奇月，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3036021104816129</guid><pubDate>Thu, 14 Nov 2024 18:20:00 +0800</pubDate></item><item><title>Kimi罗生门：创始人、投资人，谁的错？</title><link>https://36kr.com/p/3036005038650501</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1080,269" src="https://img.36krcdn.com/hsossms/20241114/v2_2e666ab300e64608aefed4416b6e879d@5994784_oswg16513oswg1080oswg269_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>月之暗面，一家成立不到2年时间、估值超过30亿美元、其产品（Kimi）可以与百度字节同台竞技的明星创业公司，正在陷入一场争议。 </p>
-<p>这场争议，事关创始人声誉，和公司前景。 </p>
-<p>根据36氪报道，循环智能（月之暗面创始人杨植麟、联合创始人兼CTO张宇韬此前所在公司）的5<strong>家投资方在香港提起仲裁，指控杨植麟和张宇韬在没有拿到循环智能投资方的同意豁免书之前，就创立月之暗面并启动融资。</strong></p>
-<p>月之暗面公司和两位创始人没有公开回应这一指控，接受杨植麟、张宇韬委托的律师事务所对媒体表示：“该事项既缺乏法律依据，也不具备事实基础，本所将依法提出抗辩”。 </p>
-<p>而在不少媒体报道中，前述<strong>5家投资方（金沙江创投、万物资本、靖亚资本、华山资本和博裕资本）被描述成“见利忘义”、“狮子大开口”的形象。</strong>详细的爆料包括： </p>
-<p>1.这些投资方起初并不看好月之暗面，没有选择跟投。月之暗面后来估值暴涨，让这些投资方产生了巨大的心理落差（动机猜测）； </p>
-<p>2.创立月之暗面时，杨植麟获得了循环智能CEO陈麒聪及主要股东的支持，循环智能获得月之暗面的股权作为回报。陈麒聪向公司股东发出情况说明邮件，通知该方案，获得股东确认，并得到董事会批准（事实推翻）； </p>
-<p>3.今年年初，前述投资方提出希望获得月之暗面创始团队约一半的股权，彼时价值约1亿美元（诉求夸张）。 </p>
-<p>需要说明的是，上述爆料内容并没有实名且权威的出处，也没得到当事双方的确认。 </p>
-<p>可以看到，争议双方（直接/间接）自说自话，表达的“事实”、“观点”和他们的立场一样，截然对立。 </p>
-<p><strong>在投资人眼中，杨植麟、张宇韬是不遵守商业规则、没有契约精神的创业者；而在两位创业者眼中，投资人起初没有远见、后来见钱眼开、短视且贪婪。</strong></p>
-<p>真相，究竟如何？随着事态推进，相信会有更多的事实被揭露出来。 </p>
-<p>这里，我们做一些必要的科普、梳理和分析。 </p>
-<h2><strong>另起炉灶是否合理？</strong></h2>
-<p>先介绍下背景。 </p>
-<p>2016年，杨植麟和张宇韬、陈麒聪三位90后学霸创立了循环智能，三人股权平分，后来公司得到了来自于本次发起仲裁的五位投资方（金沙江创投、靖亚资本、博裕资本、华山资本和万物资本）以及红杉资本、真格基金的投资。 </p>
-<p>去年年初，在OpenAI的带领下，国内外大厂纷纷开卷大模型，上演了“百模大战”，杨植麟和张宇韬由于看好大模型的发展，便另起炉灶创立了月之暗面。 </p>
-<p>问题来了，<strong>为什么他们不在循环智能原来的主体里做大模型创业，而是选择单飞？</strong></p>
-<p>综合杨植麟的公开发言和知情人士分析，主要有三点原因： </p>
-<p>首先，新业务和原业务方向不同。循环智能是一家做toB型产品的公司，主要提供营销客服相关的AI软件，为企业降低和客户的沟通成本。月之暗面的明星产品Kimi，则是一款基于自研大模型的toC型应用。 </p>
-<p>其次，两家公司的权力结构不同。循环智能CEO是陈麒聪，CTO是张宇韬，首席科学家是杨植麟，三人股份占比相同。而在月之暗面，杨植麟是绝对大股东。 </p>
-<p>第三，两家公司不同的业务方向也决定了融资需求存在很大差距。大模型烧钱是公认的，最典型的例子便是OpenAI每天要烧掉70万美元。如果杨植麟和张宇韬想做大模型，比起说服老股东认可新方向、投入更多钱，不如创立新公司，拉愿意花钱、相信大模型的新股东入伙来得轻松。 </p>
-<p>可见，杨植麟和张宇韬另起炉灶做大模型存在一定的合理性，但也因此带来了不少麻烦。 </p>
-<p><strong>一般情况下，投资人不愿意接受所投公司的创始人或者核心团队出走再创业，特别是在AI行业。</strong></p>
-<p>投资人曹海涛告诉我们，AI行业最重要的便是人，本次出走的杨植麟、张宇韬两人均曾在循环智能担任重要职位（而且是主要股东），这便导致原公司核心竞争力受到不小影响，而且他们出走时循环智能还处在正常运营状态。 </p>
-<h2><strong>为什么需要同意豁免书？</strong></h2>
-<p>双方在拉扯自证的过程中，都反复提到了“同意豁免书”。 </p>
-<p>五位老股东提出的仲裁理由是，杨植麟没有拿到“同意豁免书”便创立了月之暗面，违背了投资条款。但一位接近月之暗面的知情人士告诉我们，循环智能CEO陈麒聪当时通知了各位老股东，方案也过了会。 </p>
-<p>什么是同意豁免书？对投资人和创业者起到的作用是什么？ </p>
-<p>在投资领域，创业者和投资方会签订一个投资协议，里面涉及全职条款、竞业条款等内容，如果创业者的新公司和原公司属相同领域，便需要得到老股东签署的同意豁免书，表示同意放弃对创始人或核心团队成员离开原公司后的某些限制条款。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,864" src="https://img.36krcdn.com/hsossms/20241114/v2_feb2dcc473264ac4ba2df4c3594c5340@5994784_oswg86309oswg1080oswg864_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不止一位投资人表示，他们很不愿意接受创始人新创公司和原公司为同一类型，因为很容易造成竞争。循环智能和月之暗面都属于AI领域，也就是说，<strong>如果杨植麟没有拿到老股东的同意豁免书，很可能会违背竞业条款，甚至需要承担相关法律责任。</strong></p>
-<p>北京市盈科律师事务所曲虹潭律师告诉我们，若合同约定，创业者在实施相关行为前，需要得到投资人的书面确认，比如电子邮件、书面签字等形式予以确认，且该约定系各方真实意思表示，也不违反法律的效力性、强制性规定，那么创业者需要依约履行合同义务，获得“同意豁免”，否则可能会承担违约责任。 </p>
-<p>可见，同意豁免书是这个争议的核心。 </p>
-<h2><strong>最关键的问题是什么？</strong></h2>
-<p>目前，双方对杨植麟是否获得“同意豁免书”各执一词，这也正是此次罗生门中的关键问题。 </p>
-<p>老股东称杨植麟没有拿到几个资方的同意豁免书，便启动了月之暗面的融资和创立。但对方间接予以否认，并用“向股东发出情况说明邮件、获得股东确认、得到董事会批准”进行了回应。不过，这里面的措辞十分值得玩味，<strong>有人认为，“发邮件”、“董事会批准”和拿到同意豁免书是两回事。</strong>显然，这些说辞没有对“是否所有股东都接受、认可、批准”作出明确说明。 </p>
-<p>有不少投资人分析，双方应该有过沟通，但当时月之暗面处在大模型创业的关键窗口期，很有可能在没有得到所有股东的同意、过会，双方没有完全谈拢、谈细的情况下，杨植麟便创立了新公司。 </p>
-<p>资深投资人陈悦天还告诉我们，虽然同意豁免书属于正规法律文件，但在具体执行过程上经常会出现瑕疵，这也让本次事件相对复杂。<strong>“这并不是一份容易签署的文件，需要老股东和创业者进行多次沟通，就各方面利益和权利问题达成一致意见。”</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241114/v2_1738456059824662bdff0ad60ed932c5@5994784_oswg67867oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“比如评估原公司循环智能是否还具备发展前景，两位核心创始人离开后是否会对原公司产生重大影响，新公司创立后如何评估价值、并给予老股东多少股份或其他补偿等问题，都需要一家家进行反复沟通，但月之暗面融资很急，留给双方讨论的时间应该很短，而且创业者很可能不擅长这方面内容。”陈悦天表示。 </p>
-<p>而且<strong>在创投圈，很多投资人和创业者也经常没有把同意豁免书当成一件大事</strong>，“虽然是个大雷，但常见的情况是沟通比较顺利，大家也不会太在意。”他补充。 </p>
-<p>唯一确定的是，有没有拿到“同意豁免书”会成为决定创业者和投资人孰是孰非的最关键问题。 </p>
-<h2><strong>争议公开，是为了打舆论战？</strong></h2>
-<p>老股东申请仲裁，月之暗面派出律师抗辩，表面上看双方要通过法律手段解决矛盾。但从业者认为，这更像是一场舆论战：<strong>老股东想通过舆论向月之暗面施压，逼迫其坐回到谈判桌前，双方重新谈股份占比</strong>，而不是想把杨植麟和月之暗面干掉。 </p>
-<p>关于新老公司的股份转换问题，陈悦天表示，没有通用原则，都是靠谈的，一般按照原公司的基础股份占比计算。如果老公司经营不下去，新公司又成功了，创业者道义上应该为以前的投资人留出相当于投资本金+利息（每年8%-10%）金额，可以是现金，也可以是新公司股份。由于新公司很成功，估值往往很高，所以也不会占有很多的股份。当然，都不是强制的。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241114/v2_36f829a1b5d54bce8b98024dab5374f4@5994784_oswg114782oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>“公开资料显示，循环智能6年累计融资大约6000万美元，本金加上利息，差不多是1亿美金，”陈悦天表示。不过，对于循环智能公司目前的经营状况，以及杨植麟给与老股东的股权方案，目前没有准确信息。 </p>
-<p>至于这份本应该保密的仲裁文件内容被“意外”曝光，自有其原因。 </p>
-<p>曲虹潭律师表示，“<strong>大部分商事仲裁裁决都是不公开的，这样可以降低某些明星级企业、投资人被媒体报道、公众关注的可能性。</strong>” </p>
-<p>因此很多从业者觉得，是五家老股东选择通过知情人士透露信息给媒体，希望该事件能被更多人看到。如果事实一旦确认，杨植麟未经老股东同意便创立新公司，涉及到违背契约精神，会影响其个人声誉和公司形象，也可能影响公司后续的融资和发展。 </p>
-<p>月之暗面也向外界传达了各种自证信息反击。 </p>
-<p>目前为止，在这场舆论战里，双方刀光剑影，彼此都不光彩。 </p>
-<h2><strong>事情会如何收尾？</strong></h2>
-<p>如今双方还没有哪一方愿意做出让步，这场“暗战”或许还将继续。 </p>
-<p>英诺天使基金合伙人王晟认为，<strong>双方都是从自身利益出发</strong>，老股东看到创业者的新公司估值猛涨，给自己和LP都带来了严重损失，自然想要争取更多权益，而创业者创立一家新公司，也是为了获得更大利益。 </p>
-<p>陈悦天猜测，故事的最终结果可能是，双方坐到谈判桌前重新商讨股份，然后做出让步、接受条件，一方维护了自身的品牌和形象，一方获得了更多权益。毕竟在商业世界，合作共赢是才是最终目标。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241114/v2_117efdcb20bb46599f769ce51f62bf53@5994784_oswg80082oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>投资人和创业者之间产生问题的情况不在少数，甚至十分常见。 </p>
-<p>“一方面，<strong>不在公司的投资人，需要通过各种投资条款保证钱流向了正常的公司运营</strong>，另一方面，大多数创业者不太了解投融资相关方面的知识，很容易因为自身疏忽埋雷，”陈悦天表示。“比如本次的同意豁免书，很大程度上是由于创业者想抢大模型创业融资窗口期，忽略了这一流程的重要性。” </p>
-<p>王晟也表示，对于履行投资协议，一些创业者都很难做到很好地执行，尤其是看上去越简单的条款，比如每个季度交财务报表、一年开一次董事会的规定，都可能会被忽视。 </p>
-<p>一个良好的投融资环境，需要参与各方都遵守契约精神。 </p>
-<p>围绕Kimi创始人的争议，给大家好好上了一课。 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/KR-cR4A1Wczwxtc5fn5yLw" rel="noopener noreferrer nofollow" target="_blank">“树龙谈”</a>，作者：王璐 阿伦，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3036005038650501</guid><pubDate>Thu, 14 Nov 2024 18:26:00 +0800</pubDate></item><item><title>瑞科生物获8亿参投背后：扬子江药业迈出并购第一步，疫苗还是一门好生意吗？</title><link>https://36kr.com/p/3036062015467522</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>获“隐形药王”扬子江药业8亿元参投，瑞科生物是什么来头？</p>
-<p>11月11日，瑞科生物（02179.HK）发布公告称，拟依据特别授权向认购方扬子江药业集团有限公司（下称“扬子江药业”）发行不超过1.43亿股内资股，认购价为每股5.59元，预计本次发行的募集资金约为8亿元（相当于瑞科生物定增后估值约35亿元）。募集资金在扣除相关发行费用后，将用于带状疱疹疫苗产品的研发和补充营运资金。</p>
-<p>对于本次定增原因，瑞科生物表示，系为进一步提高公司综合竞争力，增加风险抵御能力，补充在研产品管线研发资金，促进业务平稳健康发展。</p>
-<p>公告发出次日，11月12日，瑞科生物股价一度大涨，不过11月13日开始回落。11月14日，瑞科生物报收8.02港元/股，跌4.41%，总市值为37.77亿港元。</p>
-<p>此外，就本次定增的认购价格及双方合作背后的考量等问题，时代周报记者多次致电瑞科生物并发去采访函，截至发稿，未获回复。</p>
-<h2><strong>二者同为泰州企业，两年前已有合作</strong></h2>
-<p>虽然一直未上市，但扬子江药业在医药行业却一直颇具名望，其始建于1971年，凭借仿制药起家，在业内素有“仿制药巨头”“隐形药王”的称号。据全国工商联发布的《2024中国制造业民营企业500强榜单》显示，扬子江药业2023年营收高达739亿元，这一数字甚至远超国内“医药一哥”恒瑞医药（600276.SH），后者2023年的营收仅228亿元。</p>
-<p>而瑞科生物则是一家创新型疫苗企业，公司始创于2012年，2022年在港交所上市。目前，瑞科生物已搭建了新型佐剂、蛋白工程和免疫评价三大创新平台，构建了包含10余款创新疫苗管线组合，覆盖宫颈癌、带状疱疹、呼吸道合胞病毒、巨细胞病毒、单纯疱疹病毒感染等重大疾病领域。</p>
-<p>值得一提的是，扬子江药业与瑞科生物同为江苏省泰州市的企业，细看双方过往的互动，这次的合作也并非偶然。</p>
-<p>时代周报记者查询发现，早在2022年瑞科生物上市时，扬子江药业就曾作为基石投资人参与其中。据瑞科生物介绍，扬子江药业、嘉实国际和红杉中国作为公司的基石投资人，基石认购比例超过50%。此外，时代周报记者注意到，扬子江药业董事长、总裁徐浩宇当时也出席了瑞科生物港交所主板上市仪式。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241114/v2_6a8404450235432c80b84e054cea6006@000000_oswg194023oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△图源：瑞科生物微信公众号</p>
-<p>在瑞科生物上市近一年后，双方又进一步达成合作。2022年3月，瑞科生物宣布与扬子江药业签署战略合作协议，双方将在产品研发、临床研究、全球商务扩展等领域开展全方位战略合作。</p>
-<p>在当时的签约仪式上，瑞科生物董事长兼总经理刘勇表示，“扬子江的经验值得瑞科生物深入学习，扬子江的资源能够对瑞科生物加速发展提供巨大帮助。”而徐浩宇也透露，当前，扬子江药业集团正处于产业转型升级的关键时期，加强区域联动，实现优势互补，对于企业长远发展意义重大。他希望双方以此次全面战略协议签约为契机，推动合作向更宽领域、更深层次、更高水平迈进，实现共同发展。</p>
-<p>据前述公告，本次定增完成后，瑞科生物第一大股东将由创始人刘勇变更为扬子江药业，其中，扬子江药业及扬子江香港将持有瑞科生物24.88%股份。公告还提到，徐浩宇为扬子江药业、扬子江香港的董事长，徐浩宇及其家族分别实益控制扬子江香港的90%及扬子江药业的51%的股份。</p>
-<p>扬子江药业创始人徐镜人生前一直坚持实行“三不原则”：不盲目上市、不搞兼并联合、不做自己不熟悉的产业。不过，接班人徐浩宇，即徐镜人之子对于资本的态度则更为开明。徐浩宇早年在接受媒体采访时曾表示，不上市有不上市的好处，但未来上市是必须的、兼并收购也是必须的，“对于小型企业而言，最好的发展机遇已经过去了，现在比的是实力、思维、资本”。</p>
-<p>在业内看来，如今参投瑞科生物是实实在在打破了扬子江药业“不搞兼并联合”这一原则，扬子江药业迈出了并购的第一步。</p>
-<p>除了加码疫苗研发赛道，扬子江药业近年来也在努力向创新药方面转型。2021年5月，其自主研发的注射用磷酸左奥硝唑酯二钠（商品名：新锐）获批上市，成为公司获批上市的首个国产化学1类新药。另据米内网数据，除了已上市的注射用磷酸左奥硝唑酯二钠，目前扬子江药业还有20款1类新药处于获批临床及以上阶段，其中小分子化学创新药有14个、中药创新药有6个，涵盖抗肿瘤、神经系统、内分泌、心血管、呼吸系统等疾病领域。</p>
-<h2><strong>成立十余年无产品商业化</strong></h2>
-<p>瑞科生物成立虽然已有十余年，但至今仍无产品实现商业化，公司也尚未实现盈利。</p>
-<p>财报数据显示，2019年至2024年上半年，瑞科生物累计亏损超22亿元，其中，2024年上半年的亏损额度约2.50亿元。而截至2024年6月30日，公司的现金及银行结余为5.98亿元。按此计算，仅够维持公司一年多的营运开支。</p>
-<p>事实上，瑞科生物自2023年以来便在缩减开支。财报数据显示，2023年，瑞科生物的研发成本（含临床试验开支、IND前开支）为4.88亿元，同比下降31.9%；同期，行政开支为1.44亿元，同比下降7.4%。2024年上半年，公司研发成本（同上）为2.05亿元，同比下降17.2%；行政开支为5470万元，同比下降30%。</p>
-<p>重组九价HPV疫苗REC603、新佐剂重组带状疱疹病毒疫苗REC610和双价重组呼吸道合胞病毒疫苗REC625被瑞科生物视作战略级产品。前两款疫苗研发进展最快，其中，REC603处于III期临床试验阶段，REC610也在不久前宣布正式启动中国III期临床研究并完成首批受试者入组；REC625则即将进入临床研究阶段。</p>
-<p>时代周报记者注意到，在本次定增中，瑞科生物、刘勇、管理层及持股平台亦围绕HPV疫苗和带状疱疹疫苗的各阶段性指标作出了承诺。其中包括，HPV疫苗应于2026年12月31日前获批上市，最迟不晚于2027年6月30日；带状疱疹疫苗应在2026年11月30日前获批上市，最迟不晚于2027年5月31日。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241114/v2_38b4c04c8b3743a0ac8a2a41a8bd0670@000000_oswg280470oswg1080oswg772_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">△瑞科生物疫苗管线 图源：瑞科生物2024年中报</p>
-<p>然而，不论是九价HPV疫苗还是带状疱疹疫苗，这两大疫苗赛道的竞争激烈程度都不容小觑。</p>
-<p>2024年8月，国家药监局药品审评中心（CDE）官网显示，万泰生物（603392.SH）旗下的九价HPV疫苗上市申请获得受理，成为首个申报上市的国产九价HPV疫苗。除此之外，沃森生物（300142.SZ）、康乐卫士（833575.BJ）的九价HPV疫苗也已进入Ⅲ期临床试验。</p>
-<p>带状疱疹疫苗方面则更显拥挤，国家药监局药品审评中心官网显示，自2024年年初以来，已经有包括吉诺卫（上海）生物、江苏中慧元通、远大赛威信、广州派诺生物、嘉晨西海（杭州）生物、简达生物在内的6家药企提交了带状疱疹疫苗的新药上市申请。</p>
-<h2><strong>疫苗生意未来还好做吗？</strong></h2>
-<p>随着价格战在疫苗行业全面打响，疫苗未来是否还是一门好生意也要打上一个问号。</p>
-<p>以降价最为激烈的二价HPV疫苗为例，沃森生物、万泰生物两款国产二价HPV疫苗在上市之初，单支价格超过300元，如今的价格已不如上市之初的1/10。</p>
-<p>今年8月，据山东省公共资源电子交易平台发布的信息显示，沃森生物的二价HPV疫苗“沃泽惠”单支中标价格低至27.5元/支。当时，“国产HPV疫苗降价至一杯奶茶钱”的话题甚至一度登上热搜，引发广泛热议。</p>
-<p>随后，降价潮席卷疫苗行业，涉及的品类不断延伸，包括流感疫苗、狂犬疫苗、肺炎疫苗、破伤风等多个品类疫苗的价格均出现了不同程度的下调。</p>
-<p>而带状疱疹疫苗虽然尚未出现降价，但业内对其成为继HPV疫苗之后的下一个重磅成人疫苗单品的期望却有些落空。目前，国内共有两款带状疱疹疫苗获批上市，包括葛兰素史克（GSK）旗下的欣安立适（商品名）以及百克生物（688276.SH）旗下的感维（商品名），但这两款带状疱疹疫苗今年在国内的销量并不理想。</p>
-<p>其中，百克生物在第三季度业绩说明会上直言，受外部环境影响，成人疫苗接种意愿有所下降，以及客户降库存等因素影响，公司带状疱疹疫苗接种和发货较上年同期均有所下降，收入减少。</p>
-<p>受带状疱疹疫苗销量下滑影响，百克生物2024年第三季度营收、净利润均出现下滑。财报数据显示，报告期内，百克生物实现营收4.08亿元，同比下降40.37%，净利润为1.07亿元，同比下降51.41%。2023年，感维的销售收入一度为百克生物营收贡献了近半壁江山，达8.8亿元，占公司总营收的48.36%。</p>
-<p>而智飞生物（300122.SZ）的业绩也并未因获得欣安立适的国内独家代理权而受到提振。财报数据显示，智飞生物2024年前三季度的营收、归母净利润同样出现大幅下滑，其中第三季度归母净利润亏损8269.64万元，为公司自2016年以来首次出现单季度亏损。</p>
-<p>在近期披露的投资者活动记录表中，智飞生物也被问及带状疱疹疫苗的推广情况，但其并未直接回应，仅表示，公司从今年1月正式接手GSK重组带状疱疹疫苗的推广并持续开展产品的进口、批签发、市场准入、推广销售，目前重组带状疱疹疫苗的推广销售工作在正常进展当中。同时，公司与GSK积极强化对带状疱疹危害的科普宣传，逐步提高民众对疾病的认知。</p>
-<p>而据研究机构提供的数据，国内带状疱疹疫苗的接种率并不高。相关数据显示，2020年，中国50岁及以上人群的带状疱疹疫苗接种率仅0.04%；2021年，中国50岁及以上人口的带状疱疹疫苗接种率为0.1%，仍远低于欧美等发达国家，欧盟与美国的接种率分别是5.2%、26.8%。</p>
-<p>对于国内带状疱疹疫苗接种率较低的原因，疫苗专家陶黎纳向时代周报记者分析道，带状疱疹疫苗接种率低的主要因素有两个：一方面，虽然老年人群对带疱这种疾病的认知度较高，但其支付能力与支付意愿都偏低，而带状疱疹疫苗价格偏贵也是重要原因；另一方面，不良反应也是阻碍该疫苗推广的一个重要因素，疫苗效果与不良反应之间无法取得平衡。</p>
-<p>据了解，欣安立适在国内的定价为1598元/剂，接种2剂的费用约3200元，适用人群在50岁以上。感维的国内定价为1369元/支，最低接种年龄从50岁放宽至40岁，只需接种1剂。</p>
-<p>“总体来说，中国的老年人疫苗市场前景广阔，但启动很慢，除了疫苗供应商期待，其他各方的动力存在不足。”陶黎纳表示，以接种服务提供方的接种医生来看，由于发动老年人前来接种的难度大，且容易偶合各种健康问题，虽然是自费疫苗，但实际给接种医生带来的收益并不高，也没有考核机制。</p>
-<p>对于带状疱疹疫苗未来会否像其他自费疫苗一样陷入“价格战”，陶黎纳告诉时代周报记者，估计在很长时间内不会，因为市场太小，搞价格战没意义。按目前国内带状疱疹疫苗申请上市的情况来看，未来这个赛道肯定拥挤，但大概率降价换不回销量。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653319842&amp;idx=3&amp;sn=d9db75ae88258719e1552311e6ccbcad&amp;chksm=bc54cd064c6d6923a5d3d7203bbbdc12df9e96a793dde0748e89b6ce3ebd6367571da3b0f53b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：杜苏敏，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3036062015467522</guid><pubDate>Thu, 14 Nov 2024 18:29:00 +0800</pubDate></item><item><title>业绩快报｜B站发布2024年Q3财报：毛利润同比增长76%，首次实现单季度盈利</title><link>https://36kr.com/p/3036079142875137</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>北京时间11月14日（美东时间11月14日），哔哩哔哩（NASDAQ: BILI，HKEX:9626；以下简称“B站”）公布了截至2024年9月30日的第三季度未经审计的财务报告。第三季度，B站总营收同比增长26%，达73.1亿元人民币。其中，增值服务、广告、游戏和IP衍生品及其他业务分别贡献了收入的38%、29%、25%和8%。</p>
-<p>三季度，B站日均活跃用户达1.07亿，月均活跃用户达3.48亿，日均使用时长从去年同期的100分钟增加到106分钟。</p>
-<p>B站广告业务收入为20.9亿元，同比增长28%；游戏业务收入为18.2亿元，同比增长84%，带动了B站毛利润同比大幅提升76%，毛利率连续9个季度环比提升至34.9%。本季度，B站调整后净利润2.4亿元，实现上市后首次单季度盈利。</p>
-<p>广告方面，三季度收入同比增长28%，达20.9亿元，其中效果广告同比增长近五成。游戏、电商、数码家电、网络服务、汽车成为了广告收入贡献前五的行业。来自教育、母婴、文旅等新兴行业广告收入增长迅速，同比增长超100%。</p>
-<p>“双11”期间，B站带货GMV同比去年大促期高速增长154%，广告主数量是去年同期的6.6倍。同时，B站坚持“大开环”战略，给全部垂直行业带去的新客率均超50%，成为了各大平台新客增长的重要来源。</p>
-<p>游戏方面，三季度游戏收入同比大幅增长84%，为18.2亿元。《FGO》、《碧蓝航线》等长线运营游戏收入稳定。《三国：谋定天下》在S3上线当天重返iOS畅销榜第二，证明了其长线运营的潜力。</p>
-<p>此外，增值服务也实现了稳步增长，收入达28.2亿元。截至三季度末，有效大会员数量2197万，其中超80%是年度订阅或自动续费会员。</p>
-<p>三季度公司毛利润同比增长76%，达25.5亿元。毛利率由去年同期25.0% 提升至本季度的34.9%，实现了连续九季度的环比提升。三季度，公司首次实现盈利，调整后经营利润达2.7亿元，调整后净利润达2.4亿元。</p>
-<p>此外，公司现金流情况良好，在三季度实现22.3亿元正向运营现金流。截至2024年9月30日，公司持有现金及现金等价物、定期存款和短期投资总额为152亿元人民币。</p>
-<p>在现金流持续健康的基础上，B站宣布了一项新的股份回购计划，将在未来24 月内累计回购价值不超过 2亿美元的股票。</p>
-<p>三季度，B站日均视频播放量超57亿次，同比大幅增长23%，月均互动量超193亿次。截至三季度末，有2.51亿用户通过了入站考试，成为B站的“正式会员”，第12个月留存率继续稳定在80%。</p>
-<p>内容方面，三季度，游戏、知识、科技等品类，播放量均同比保持20%以上的增长。4年前，《黑神话：悟空》首个实机演示视频在B站上传，播放量超6000万；在游戏正式发售后，社区内诞生了一批超千万播放量的爆款内容，掀起了全网的黑神话热潮。2024年，B站AIGC相关内容的观看量突破300亿次，众多AI前沿的研究人员，如中国工程院院士郑纬民，前亚马逊首席科学家李沐，前Open AI安全性研究副总裁翁荔，复旦大学赵斌教授等也来到B站。</p>
-<p>用户年龄的增长，带动了消费类内容的繁荣。三季度，消费类内容日均观看人数超过4000万，也让汽车品类的视频播放量同比增长超过40%，运动健身品类同比增长超80%。与此同时，女性用户展现出旺盛的内容消费需求，时尚品类播放量同比增长近30%，母婴亲子类播放量同比增长超60%。</p>
-<p>今年以来，近270万UP主在B站获得收入，其中通过广告和增值服务获得的总收入同比增长24%；为优质内容付费已逐渐成为共识，UP主通过充电获得的总收入同比增长超400%，头部UP主的充电人数更能达到百万量级。</p>
-<p> </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3036079142875137</guid><pubDate>Thu, 14 Nov 2024 18:32:00 +0800</pubDate></item><item><title>亚马逊偷师Temu，想靠低价卷赢黄峥</title><link>https://36kr.com/p/3035990406935431</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 14 Nov 2024 19:30:26 +0800</lastBuildDate><pubDate>Thu, 14 Nov 2024 19:30:26 +0800</pubDate><item><title>亚马逊偷师Temu，想靠低价卷赢黄峥</title><link>https://36kr.com/p/3035990406935431</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="1176,942" src="https://img.36krcdn.com/hsossms/20241114/v2_8d6d9c190b14430892b76fcd93f0c612@5952539_oswg166892oswg1176oswg942_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <h2><strong>一、亚马逊版Temu来了</strong></h2>
 <p>打不过就加入！卷低价的风，终于吹到了电商巨头亚马逊。</p>
@@ -475,4 +280,286 @@
 <p>这世上很多事情就是这样，你事先分的越清楚，事后解决起来就才越顺手。 </p>
 <p>以上就是今天的内容，希望对你有所启发。 </p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIyMzE4NjIzNA==&amp;mid=2649986006&amp;idx=1&amp;sn=d33842da66b80781b478977dc59600c0&amp;chksm=f1697ce6f675da209d19ee66a39b71a41ec35b60a7ddda25c9017a6c0230c48c349de287bc70&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“张良计”（ID：zhang_liangj）</a>，作者：张良计，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3035772466245636</guid><pubDate>Thu, 14 Nov 2024 19:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3035772466245636</guid><pubDate>Thu, 14 Nov 2024 19:00:00 +0800</pubDate></item><item><title>李子柒回归，外国网友哭了</title><link>https://36kr.com/p/3036091749085448</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,628" src="https://img.36krcdn.com/hsossms/20241114/v2_c7f433b7c4a14b0f9760460117e76682@46958_oswg686459oswg1080oswg628_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>李子柒回来了。 </p>
+<p>11月12日下午4时30分，李子柒发布了一条以中国非物质文化遗产“漆器”为主题的视频，回到大众视野。</p>
+<p>11月13日，李子柒一回来就成为顶流：</p>
+<p>在微博，#李子柒回归#话题量达2.8亿，热搜榜第一；停更的四年时间里，李子柒全平台掉粉800万，然而回归才一天，李子柒抖音平台已经涨粉700多万！</p>
+<p class="image-wrapper"><img data-img-size-val="1080,516" src="https://img.36krcdn.com/hsossms/20241114/v2_89b5f00427b74c6294907bf4e810d875@46958_oswg458489oswg1080oswg516_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：抖音</p>
+<p>针对李子柒的回归，无数网友欣喜若狂。有网友称，心中的“白月光”终于回归。李子柒消失的这三年多时间，虽在大量社交媒体上看到类李子柒风格的视频，这些博主也很用心在做视频。但总感觉其他人都是替身，只有李子柒的视频才有那种感觉。</p>
+<p>“众望所归”这个词，真的是在李子柒身上体现的淋漓尽致。</p>
+<p>在李子柒的视频中，所有作品都做得十分用心，尤其是这次的回归视频，每一帧画面都体现出唯美和精致。</p>
+<p>从大处说，李子柒在用她的方式输出中国传统文化，往小了说，她在用自己的方式让渴望田园生活的人，真正过了一把田园瘾，让大家找回内心的宁静。</p>
+<h2><strong>子柒回归，有什么不一样？</strong></h2>
+<p>熟悉的配方、熟悉的味道、李子柒仍然坚持用自我特有的创作方式，传递柒式美学和非遗文化。</p>
+<p>看完李子柒更新的两条视频，无数网友纷纷发出类似感叹。</p>
+<p>紫漆衣柜，子柒已归。在14分钟的大漆视频中，从2023年立夏到大冬历时260天，从割漆到练漆到最终帮助奶奶完成衣柜修复。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,546" src="https://img.36krcdn.com/hsossms/20241114/v2_b3ffa92ab663447ab3ea783392cd3d63@46958_oswg810402oswg1080oswg546_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：抖音</p>
+<p>视频开头，李子柒站在云海之中手指轻触太阳，让不少网友看到李子在经历“反复打磨”和“沉淀”后，被光照亮那一刻迎来“重生”。弹幕中如“熹妃回宫”“往事暗沉不可追，来日之路光明灿烂”“匿于黑暗，归于黎明”让不少网友流泪。视频结尾出现的神兽麒麟，不少网友称，“麒麟回头，万事不愁”“麒麟回头百病消”等美好寓意。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,523" src="https://img.36krcdn.com/hsossms/20241114/v2_113192133da24a93beaceb53a705f0d3@46958_oswg444615oswg1080oswg523_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：抖音</p>
+<p class="image-wrapper"><img data-img-size-val="1080,472" src="https://img.36krcdn.com/hsossms/20241114/v2_ee8aba422e044a2fb736bdc0959e302f@46958_oswg434120oswg1080oswg472_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：抖音</p>
+<p>从视频拍摄的时间来看，即使李子柒不更新视频的时间里，创作也并未停止。李子柒在接受新华社专访时也表示，在停更的三年，主要是在“补瞌睡，陪奶奶”，去很多地方，20多个省，拜访100多名非遗传承人和文化工作者，找到以后的方向。 </p>
+<p>在打造森林衣帽间视频中，李子柒变成建筑师。从衣帽间骨架的搭建，从搭骨架、拼地板、到修房顶、装窗户，从无到有，一点点建造一幢格外有诗意的森林衣帽间。弹幕中如“一股清流入人心”“短视频快节奏时代，终于可以不用拉进度条看视频了”“从美拍到抖音女王终于回归”“每一帧都是大片即时感”等等，同样引起大量网友共鸣。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,500" src="https://img.36krcdn.com/hsossms/20241114/v2_972dc337b5ce4e068936ad2599a05723@46958_oswg682009oswg1080oswg500_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：抖音</p>
+<p>从官宣回归霸榜微博热搜TOP1到截至11月13日下午，李子柒在抖音、快手、小红书、B站4小时分别涨粉159万、14万、17万、11万，李子柒发布的两条视频抖音累计获赞435万，快手累计获赞51万，小红书累计获赞25万，视频号累计获赞10万，微博累计播放量超2927万，B站累计播放量超208万。 </p>
+<p class="image-wrapper"><img data-img-size-val="577,442" src="https://img.36krcdn.com/hsossms/20241114/v2_1924f767ed7e4309bec887350a69117f@46958_oswg170230oswg577oswg442_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：微博</p>
+<p>不仅仅是国内，在YouTube平台上，大漆视频播放量已超千万，点赞量和播放量分别为42万+和4.7万+。森林衣帽间视频播放量已超340万+，点赞量23万。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,804" src="https://img.36krcdn.com/hsossms/20241114/v2_21ef4190e4ce4ce294d75684611d6b61@46958_oswg924604oswg1080oswg804_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：YouTube</p>
+<p class="image-wrapper"><img data-img-size-val="1080,724" src="https://img.36krcdn.com/hsossms/20241114/v2_487b460c181946f29ea81d1bacf28970@46958_oswg937919oswg1080oswg724_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：YouTube</p>
+<p>且李子柒在外网保持有着较大的影响力，其不仅以1410万的YouTube订阅量，刷新由她创下的“最多订阅量的YouTube中文频道”的吉尼斯世界纪录称号，而且在停更的三年多时间里，粉丝仍暴涨500万。视频更新后，李子柒的粉丝量已破2000万。</p>
+<p class="image-wrapper"><img data-img-size-val="553,209" src="https://img.36krcdn.com/hsossms/20241114/v2_a1100212e63f4dc28889654bedf48ac6@46958_oswg73907oswg553oswg209_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：微博</p>
+<p>在YouTube平台上，不同国家的网友用不同的语言，表达对李子柒的爱和支持。韩国网友表示：眼泪都出来了，等待了两年，终于见到姐姐的影像。希望未来的十年二十年，我们一直一起变老。 </p>
+<p class="image-wrapper"><img data-img-size-val="907,244" src="https://img.36krcdn.com/hsossms/20241114/v2_437eb71e2bd241e38fe4ff8ede6a3c72@46958_oswg100900oswg907oswg244_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：YouTube</p>
+<p>孟加拉国网友表示：我不知道该说什么了，我想我是因为高兴哭了，时隔三年再次见到你和你的奶奶，今天我真的很开心，欢迎回来，李子柒！希望从现在开始能再次见到你。 </p>
+<p class="image-wrapper"><img data-img-size-val="782,328" src="https://img.36krcdn.com/hsossms/20241114/v2_ee2ded906649490687e715f014997d62@46958_oswg160824oswg782oswg328_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：YouTube</p>
+<p>爱尔兰网友表示：我非常喜欢你的视频。当你因为遇到的问题不得不离开时，我为你感到难过。你真的很努力！看到你仍然如此用心地照顾你的奶奶，激励我去做更多的事情，并让我相信我们都可以创造这种平静的生活。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,213" src="https://img.36krcdn.com/hsossms/20241114/v2_b4ae8f1e4a214e479a23a53ea54e6fa7@46958_oswg90758oswg1080oswg213_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：YouTube</p>
+<p>在世界最需要她的时候、她回来了，欢迎回来。这条评论在引发全球各国网友共鸣的同时，点赞量高达3万+。</p>
+<p class="image-wrapper"><img data-img-size-val="961,170" src="https://img.36krcdn.com/hsossms/20241114/v2_0f4fd74a4bdb48c5b51127c29eb91a63@46958_oswg16065oswg961oswg170_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：YouTube</p>
+<p>在李子柒YouTube账号评论区中，看不到争论、质疑、恶评、种族歧视等，反而是来自全球各国不同网友在评论区中的和谐相处，如同现实版的赛博童话。这种强大的文化输出能力，又有多少网红可以做到呢？ </p>
+<p class="image-wrapper"><img data-img-size-val="1080,558" src="https://img.36krcdn.com/hsossms/20241114/v2_31c757c12aab439f9c3dd702a11eeb7d@46958_oswg162989oswg1080oswg558_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：YouTube</p>
+<p>财经作家吴晓波曾指出，网红的生命周期普遍只有6个月，这也是为何会有铁打的抖音、流水的网红的原因。但李子柒不仅打破该定律，更完美诠释什么复出即顶流、归来仍王者。</p>
+<h2><strong>更多“李子柒”，困在商业化里</strong></h2>
+<p>李子柒为何依然爆火？</p>
+<p>好作品和文化力量是坚定的基石。任何时间，任何媒介，好作品都会受到粉丝欢迎。毕竟人的本性就是追逐美好，这也是为何优秀文学作品、经典老歌“经典永流传”的原因。</p>
+<p>三农博主张青（化名）说，尤其是在当前信息爆炸的时代，人们更需要李子柒慢节奏的视频方式，来平复内心的焦虑。</p>
+<p>但张青同样也指出，复出后的李子柒对短视频直播行业的影响可能并没有想象中的大。文学创作、歌曲创作、视频创作等各种创作，用户既需阳春白雪，也需下里巴人。</p>
+<p>尤其现代社会，人心浮躁，用户文化层次不一，短视频平台上的各种搞笑、无厘头段子等快餐文化，满足用户的消遣娱乐，实则也是必然需求，就像七情六欲一样。李子柒短视频的“慢”和其他短视频创作追求的“短平快”，两种视频创作不能一概而论。</p>
+<p>更现实的问题是，所有真正的创作人，大家都渴望拍一些优质作品，都想成为“李子柒”，但迫于生计和商业环境，大家只能屈服现实。电影行业中，并不乏优秀民间导演，他们也能拍优秀作品。但若是没钱赚，生存都成问题下，有多少创作人能真正静下来思考并创作呢？同理，国内创作者靠一般意义上的短视频流量收入时代已彻底过去，且不再回来。近两年爆火的短剧，能够真正赚钱的短剧同样屈指可数。</p>
+<p>张青的话，在另一三农博主胡帅（化名）这里同样得到印证。胡帅指出，字节给到创作者的流量收益，从几年前50-60元/万次播放，到后来的20-30元/万次播放，再到如今的10元/次播放。即使对于抖音平台有着1000多万粉丝、单条视频点赞量百万级、视频播放量亿级的@大圆哥来说，预估单条视频流量收益约在1-2万元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,435" src="https://img.36krcdn.com/hsossms/20241114/v2_040ac1916fb34809a7c6e0f38e15bd6b@46958_oswg473215oswg1080oswg435_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：抖音</p>
+<p>但@大圆哥高点赞视频创作成本相对较高。如《他们的故事结束了，但我结局还是个逗号》，团队从河南商丘到浙江横店，来回差旅费用、横店拍摄期间场地、化妆、武指费用、几秒的无人机镜头拍摄费用等等，预估至少在20万。</p>
+<p>若不是该条视频中植入转转带来广告收入，大圆哥恐怕很难养活团队，更别提赚钱。李子柒视频横跨时间维度之所以较高且追求少、精益化，和李子柒在YouTube产生的高收入有关。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,506" src="https://img.36krcdn.com/hsossms/20241114/v2_e50d8f7a3f144351a05f1f88c70d3d12@46958_oswg345967oswg1080oswg506_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：抖音</p>
+<p>如胡帅所言，李子柒停更期间，其视频在YouTube平台上保持较高播放量。按照第三方平台测算，停更期间，其账号单月广告分成就可以超过78万元，年入近1000万元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,494" src="https://img.36krcdn.com/hsossms/20241114/v2_d39b23fab84442f0855cecf991fb92aa@46958_oswg506663oswg1080oswg494_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：YouTube </p>
+<p>但张青和胡帅同样指出，虽然短视频涉及领域不同，但目前多个赛道的创作者所面临的核心难题，仍是创作迎来瓶颈期，这也是为何很多博主会陷入抄袭、蹭热点、宠物博主被爆虐宠的原因。李子柒复出后，或许能给大量创作人带来不同程度的启发。 </p>
+<p>比如说，对很多三农博主而言，可采用李子柒创作方式，聚焦经济性农作物从生长到发芽，从日常管理到成熟，从收获到发货的全过程，从而向粉丝传递农产品绿色种植、人工管理、不使用农药的核心概念。并通过短视频和直播带货相结合，这样也不影响到日常创作，在理想和现实之间达到平衡。</p>
+<h2><strong>别被商业化困住创作路</strong></h2>
+<p>自媒体，本质玩的就是流量变现生意。复出后的李子柒，为后续的商业化也提前做足了功课。</p>
+<p>一方面，此前李子柒和微念因“李子柒品牌”收益分成问题展开的争议，已得到妥善解决。结合天眼查信息来看，杭州微念不再持有“李子柒”“柒”“子柒”三个品类商标。这些商标全部归四川子柒文化传播有限公司所持有，这家公司李子柒持股比例高达99%。简单来说就是，李子柒对“李子柒”商标具有绝对的话语权。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,685" src="https://img.36krcdn.com/hsossms/20241114/v2_5d9e3e93f49a459d91a494972b9aff08@46958_oswg139441oswg1080oswg685_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：天眼查</p>
+<p class="image-wrapper"><img data-img-size-val="1080,229" src="https://img.36krcdn.com/hsossms/20241114/v2_41abd6efeb2b4de497feb20fb60a292a@46958_oswg30024oswg1080oswg229_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：天眼查</p>
+<p>在李子柒视频发布后，微念方面表示：“目前李子柒与微念没有内容创作方面的合作，但李子柒品牌由微念在特定类目范围独占许可经营。” </p>
+<p>李子柒的复出，已有先兆。今年3月，浙江温州木活字印刷传承人王法万在媒体采访中提到李子柒，他问及李子柒什么时候更新作品时，李子柒给到的回复是“重点去做文化非遗相关”。今年7月，有网友爆料称，李子柒到成都走访非物质文化遗产。照片中，李子柒身后的背景是成都古蜀蜀锦研究所。</p>
+<p>此前，李子柒和MCN机构合作吃到亏，若继续引入MCN机构会对其内容创作产生干扰。因此，猜测李子柒大概率不会选择和MCN机构合作。更甚至说，传承非遗拍摄成本高、作品更新速度慢，和MCN机构追求的达人账号短时间内快速大量变现有所矛盾，这意味着李子柒在未来的创作上，可能会有更大的自主权。</p>
+<p>事实上，李子柒IP账号不仅含金量巨大，且能深入挖掘的变现有很多。一方面，李子柒复出后，抖音投入大量资源宣传。这就意味着李子柒和字节的关系已经很近，借助字节成熟的商业化团队，能为李子柒定制更多适合其账号的变现方式。另一方面，李子柒IP账号+非遗文化宣传+文旅发力，这不仅更贴合李子柒账号本身，也能让各地文旅局看到破圈宣传的新方式。</p>
+<p class="image-wrapper"><img data-img-size-val="542,571" src="https://img.36krcdn.com/hsossms/20241114/v2_93001d26ce504c6780f6ca86c8530305@46958_oswg301660oswg542oswg571_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：抖音</p>
+<p>但归来后的李子柒更大的意义，在于让更多执着于文化传承的各类博主看到希望。正如千万粉丝博主@彭传明所言，“为什么我们中国文化有千年传承，是有我们一代一代人的热爱和执着，所以才会永远传承、经久不衰。” </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/hcSVEVNgHcOC3d7qQqc66Q" rel="noopener noreferrer nofollow" target="_blank">“价值星球Planet”</a>，作者：归去来，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3036091749085448</guid><pubDate>Thu, 14 Nov 2024 19:18:00 +0800</pubDate></item><item><title>宠物数量首超婴幼儿，下一个暴富机会来了</title><link>https://36kr.com/p/3036091157262593</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>现在的年轻人，不生小孩养宠物。</p>
+<p><strong>近日，高盛发布报告，今年我国宠物数量首次超过4岁以下婴幼儿数量，预计到2030年，宠物数量将接近婴幼儿数量的两倍。</strong></p>
+<p>这个进度在东亚三国其实有些落后：早在2022年，日本宠物数量就是婴幼儿数量的4倍；韩国更不用说了，5000万人口养了超1400万只宠物，生育率低到冰点。</p>
+<p>不止是养，宠物家长们还很舍得花。</p>
+<p>今年10.21，天猫双11开卖当天，仅1小时便有15个宠物品牌成交破千万；开卖4小时，直播成交同比大涨123%，658个品牌成交同比翻倍，659个品牌订单量同比翻倍。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241114/v2_629a6885400546b89de969f94f2b808f@000000_oswg402656oswg1080oswg1680_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">天猫双11战报 图源：天猫</p>
+<p>预售首日，定位中高端的国产鲜肉主粮品牌弗列加特便拿下销售额增速和销量增速的双榜第一；在最容易糊弄的猫砂类目，竟然是￥200以上的高端品销售额增速最快。</p>
+<p>有人有钱有市场，宠物成了消费降级期间的逆风增长蓝海赛道。</p>
+<p>但当前宠物家长们两极分化，新手家长仍在物色合适的主粮，高阶家长们已经开始关注宠物深层需求。</p>
+<p>除了基础的衣食住行外，宠物市场还有什么待挖掘的机会？</p>
+<p>品牌做什么才能先人一步？</p>
+<h2><strong>关心则乱，家长的钱最好赚</strong></h2>
+<p>不管是养小孩还是养宠物，家长的钱都是最好赚的。</p>
+<p>最好赚的宠物衍生行业之一，是寻宠机构。</p>
+<p>寻宠机构专为丢宠主人们提供一条龙服务：24h上门，视情况提供方案，寻宠师傅每天工作时长6-8小时，价格从两千到上万，找不到就酌情收取几百元路费。</p>
+<p>当前该行业市场乱象严重，有些机构收取定金后找不到也不退，有些纯诈骗，收钱后拉黑删除一条龙，且大多数机构没有营业资质，目前也不受监管，在要求消费者提前转定金的情况下，服务质量全凭良心。</p>
+<p>即便如此，丢失宠物的家长们还是只能选择相信，通过砸钱的方式买丝心安，期盼能够早日寻回毛孩子。</p>
+<p>最好赚的宠物衍生行业之二，是在小红书上火得一塌糊涂，声称能和宠物对话的宠物沟通师。</p>
+<p>只要几张宠物的照片或者一小段日常视频，他们就能和宠物建立知觉连接，替宠物和主人实现跨物种对话，一次收费在30到上百元，最火的时候，头部沟通师月入10万+，还实行预约制，家长排队排到第二年。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241114/v2_ec17c884d8a44310bac6fdfed82143f3@000000_oswg166002oswg1080oswg2127_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">宠物沟通师 图源：小红书</p>
+<p>这种知觉连接是否真实不好说，但这些所谓的沟通师绝大多数并没有宠物行业的从业资质，且沟通效果也缺乏统一的验证标准和方式。</p>
+<p>即便如此，在很多宠物沟通师避雷帖里，评论区依然有一大堆家长在“求推”，甚至出现了不少机构，专门培养宠物沟通师，收费五千到一万五元不等。</p>
+<p><strong>在群众普遍生育意愿较低的年代，大家选择养宠代替生小孩，为自己提供陪伴和情绪价值，但这样把对人的一部分情感寄托转嫁到宠物身上的行为，很容易像小孩家长一样关心则乱。</strong></p>
+<p>但和小孩不同的是，宠物不会表达，因此，“关心则乱”的毛孩子家长只能通过“乱花钱”的方式，求自己心安。</p>
+<h2><strong>宠物情绪，亟待关注</strong></h2>
+<p>在美国，宠物的家庭渗透率高达68%，几乎实现一户一宠，宠物相关行业发展得较为全面。</p>
+<p>比如针对宠物情绪开发的多种产品，旨在降低宠物分离焦虑并促进宠物放松的镇静背心、加重毯；缓解宠物不安和无聊的拼图、自动激光玩具；控制宠物压力的情绪管理类产品；医院还会提供专门的宠物心理健康服务。</p>
+<p>还有针对宠物主设置的多款服务：宠物保险、宠物基因检测、宠物急救培训课、人宠培训等等。</p>
+<p>人宠培训中，既有学技巧的宠物瑜伽、宠物冲浪等互动趣味课，还有教主人学习缓解宠物分离焦虑手段的心理健康课，无处不在暗示主人们要积极解决宠物情绪问题。</p>
+<p>目前我国已经有企业开始关注到宠物情绪需求。</p>
+<p>宠物健康品牌LitPet立陪，开发了针对宠物应激分离的营养补充剂，含有75mg的水解酪蛋白，具有应激舒缓功效。</p>
+<p>深圳品牌HiPawLab挥爪实验室，打造了人宠友好社交空间，除了放置宠物设施以外，所有座椅都经过特殊设计，供宠物自由穿梭，还有专属宠物的菜单，包括零食拼盘、酸奶碗、宠物雪糕等，旨在探索新型人宠相处模式。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241114/v2_78ca897e676f480fbb2116fbe17ed103@000000_oswg118535oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">立陪酪安舒&amp;挥爪小聚 图源：网络</p>
+<p><strong>但由于当前我国大多数宠物主的消费仍集中在宠物的衣食住行方面，对宠物情绪的关注度较低，因此市场上对于宠物情绪衍生产业的探索仍处于初级阶段。</strong></p>
+<p>不过随着行业关注度提升，宠物主心智慢慢形成，未来有关宠物情绪的行业，前途不可估量。</p>
+<h2><strong>从吃得饱，到养得好</strong></h2>
+<p>我们把宠物需求分为四个层次。</p>
+<p>第一层，是基本生存需求，简单来说就是能吃饱，活得了。</p>
+<p>第二层，是健康精细化需求，讲究健康的饮食搭配、以及日常的养护、打理等。</p>
+<p>第三层，是情绪需求，需要宠物主人主动去帮助它们缓解日常中的焦虑、不安等负面情绪。</p>
+<p>第四层，是精神需求，需要宠物主人付出爱和时间去陪伴宠物，探索宠物的爱好，让宠物从容享受生活，热爱世界。</p>
+<p><strong>目前我国的宠物理念正处于同步升级阶段，大部分养宠新手们正在从第一层往第二层过渡，一些成熟猫舍和“大户人家”在探索第二层往第三层的可能性。</strong></p>
+<p>比如，猫咪饮食理念从猫粮喂养，到主食冻干、罐罐喂养，再到如今正在兴起的生骨肉喂养，虽然对人来说操作越来越麻烦，但却更加符合猫咪本身的饮食习惯，有益于它们的身体健康，这是属于第一层往第二层过渡。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241114/v2_49dbde7550d34d96978e040569f3f6e1@000000_oswg274873oswg1080oswg2083_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">喂养理念科普 图源：小红书</p>
+<p>而从害怕猫应激，推崇猫咪居家不外出的理念，到现在有意识地从小对宠物进行社会化训练，改善宠物性格，更好适应各种环境，减少它们容易产生的各种情绪问题，这是属于第二层往第三层过渡。</p>
+<p>当下我们主要以人类的视角去判断宠物需要什么，设计的产品也多从人类角度出发，但随着养宠人数的快速增长与先进育宠理念的传播，未来的宠物需求理论势必会更上一层楼。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NDg0NDEyNA==&amp;mid=2247509068&amp;idx=1&amp;sn=c72f923b8c5f6d645425df8efb9425ce&amp;chksm=cf57eda2fae61b29ee25cede22962e7b6807972e8055e8bd7b4939653649a4a4bfa9d8a66a9e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“沥金”（ID：Finding_Gold）</a>，作者：沥金，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3036091157262593</guid><pubDate>Thu, 14 Nov 2024 19:20:00 +0800</pubDate></item><item><title>OpenAI 最新产品全曝光，奥特曼驳斥 AI 发展撞墙，Ilya 认错，秘密寻找下一个重大突破</title><link>https://36kr.com/p/3036090664120579</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>今年 AI 圈的瓜真是一浪接一浪。 </p>
+<p>最近，关于 Scaling Laws 「撞墙」的消息在 AI 圈炸开了锅。图灵奖得主 Yann Lecun、Ilya、Anthropic 创始人 Dario Amodei 纷纷展开唇枪舌战。 </p>
+<p>争论的核心在于，随着模型规模的不断扩大，其性能提升是否会遇到天花板。 </p>
+<p>正当舆论愈演愈烈之际，OpenAI CEO Sam Altman 刚刚在 X 平台作出回应： </p>
+<blockquote>
+<p><strong>there is no wall 没有墙 </strong></p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,407" src="https://img.36krcdn.com/hsossms/20241114/v2_8c4ff375405b47939ae02413aef9830e@46958_oswg50644oswg1080oswg407_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而在这场辩论的背景下，彭博社则披露了一条引人注目的消息。 </p>
+<p><strong>OpenAI 计划在明年一月份推出一款名为「Operator」的 AI Agent（智能体），这个 Agent 能够使用计算机代替用户执行任务，如编写代码或预订旅行。</strong></p>
+<p>在此之前，Anthropic、微软、Google 也都被曝出正在布局类似的方向。 </p>
+<p>对于整个 AI 行业来说， <strong>AI 技术的发展从来就不是单一维度的线性过程。</strong>当一个方向似乎遇到阻力时，创新往往会在其他维度突破。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,699" src="https://img.36krcdn.com/hsossms/20241114/v2_0697fe13b0b144f990c724e705c6cb39@46958_oswg41735oswg1080oswg699_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h2><strong>Scaling Laws 撞墙？下一步该怎么走 </strong></h2>
+<p>Scaling Laws 遭遇瓶颈的消息，最先源自外媒 The Information 上周末的一篇报道。 </p>
+<p>洋洋洒洒的数千字报道透露了两个关键信息。 </p>
+<p>好消息是，尽管 OpenAI 完成了下一代模型 Orion 训练过程的 20%，但 Altman 表示，Orion 在智能和执行任务、回答问题的能力已经与 GPT-4 不相上下。 </p>
+<p>坏消息是，据上手体验的 OpenAI 员工评估，与 GPT-3 和 GPT-4 之间的巨大进步相比，Orion 提升幅度较小，比如在编程等任务上表现不佳，且运行成本较高。 </p>
+<p><strong>一句话概括就是，Scaling Laws 撞墙了。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20241114/v2_d473f1439fd64092a590afafd66adcce@46958_oswg696985oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>要理解 Scaling Laws 效果不及预期所带来的影响，我们有必要给不太清楚的朋友简单介绍一下 Scaling Laws 基本概念。 </p>
+<p>2020 年，OpenAI 在一篇论文中最早提出 Scaling Laws。 </p>
+<p>这一理论指出，大模型的最终性能主要与计算量、模型参数量和训练数据量三者的大小相关，而与模型的具体结构（层数/深度/宽度）基本无关。 </p>
+<p>听着有些拗口，说人话就是， <strong>大模型的性能会随着模型规模、训练数据量和计算资源的增加而相应提升。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,450" src="https://img.36krcdn.com/hsossms/20241114/v2_1a9389dbe6a04fbe92233f1604999eb7@46958_oswg291055oswg1080oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>OpenAI 的这项研究奠定了后续大模型发展的基础，不仅促成了 GPT 系列模型的成功，也为训练 ChatGPT 提供了优化模型设计与训练的关键指导原则。 </p>
+<p>只是，当我们现在还在畅想着 GPT-100 时，The Information 的爆料表明，仅仅增加模型规模已经不能保证性能的线性提升，且伴随着高昂成本和显著的边际效益递减。 </p>
+<p>而遭遇困境的并非仅有 OpenAI 一家。 </p>
+<p>彭博社援引知情人士的消息称，Google 旗下的 Gemini 2.0 同样未能达到预期目标，与此同时，Anthropic 旗下的 Claude 3.5 Opus 的发布时间也一再推迟。 </p>
+<p><strong>在争分夺秒的 AI 行业，没有产品的新消息往往意味着最大的坏消息。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241114/v2_ef8a855f894740eca85a0a8d889465c6@46958_oswg135695oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>需要明确的是，这里所说的 Scaling Laws 遇到瓶颈并非意味着大模型发展就此终结，更深层的问题在于高昂成本导致边际效益的严重递减。 </p>
+<p>Anthropic CEO Dario Amodei 曾透露，随着模型变得越来越大，训练成本呈现爆炸式增长，其目前正在开发的 AI 模型的训练成本就高达 10 亿美元。 </p>
+<p>Amodei 还指出，未来三年内，AI 的训练成本还将飙升到 100 亿美元甚至 1000 亿美元。 </p>
+<p>以 GPT 系列为例，仅 GPT-3 的单次训练成本就高达约 140 万美元， 单是 GPT-3 的训练就消耗了 1287 兆瓦时的电力。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241114/v2_98116f472550404f8f201161a82dc0ea@46958_oswg543853oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>去年，加州大学河滨分校的研究显示，ChatGPT 每与用户交流 25-50 个问题，就得消耗 500 毫升的水。 </p>
+<p>预计到 2027 年，全球 AI 的年度清洁淡水需求量可能达到 4.2-66 亿立方米，相当于 4-6 个丹麦或半个英国的年度用水总量。 </p>
+<p>从 GPT-2 到 GPT-3，再到 GPT-4，AI 所带来的体验提升是跨越式的。 正是基于这种显著的进步，各大公司才会不惜重金投入 AI 领域。 </p>
+<p>但当这条道路逐渐显露尽头，单纯追求模型规模的扩张已无法保证性能的显著提升，高昂的成本与递减的边际效益便成了不得不面对的现实。 </p>
+<p>现在，比起一味追求规模，在正确的方向上实现 Scaling 显得更加重要。 </p>
+<h2><strong>再见，GPT；你好，推理 「O」 </strong></h2>
+<p>墙倒众人推，连理论也是如此。 </p>
+<p>当 Scaling Laws 疑似触及瓶颈的消息在 AI 圈内引发轩然大波时，质疑的声浪也随之翻涌而来。 </p>
+<p>图灵奖得主、Meta AI 首席科学家 Yann Lecun，昨天兴奋地在 X 平台转载了路透社采访 Ilya Sutskever 的采访，并附文称： </p>
+<p>「我不想显得事后诸葛亮，但我的确提醒过你。 </p>
+<p>引用：「AI 实验室 Safe Superintelligence（SSI）和 OpenAI 的联合创始人伊利亚·苏茨克韦尔（Ilya Sutskever）最近向路透社表示， <strong>通过扩大预训练阶段——即使用大量未经标注的数据来训练 AI 模型，使其理解语言模式和结构——所取得的成果已经停滞不前。</strong>」 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,594" src="https://img.36krcdn.com/hsossms/20241114/v2_2655638f206f4ce3ab31d4ee0fb850cd@46958_oswg224566oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>回顾这位 AI 巨头过去两年对现行大模型路线的评判，可谓是字字珠玑，句句见血。 </p>
+<p>例如，今天的 AI 比猫还笨，智力差太远；LLM 缺乏对物理世界的直接经验，只是操纵着文字和图像，却没有真正理解世界，强行走下去只会死路一条等等。 </p>
+<p>时间拨回两个月前，Yann Lecun 更是毫不客气地给当下主流路线判了死刑： </p>
+<p>大型语言模型（LLMs）无法回答其训练数据中未包含的问题， </p>
+<p>它们无法解决未经训练的难题， </p>
+<p>它们无法在缺乏大量人类帮助的情况下学习新技能或知识， </p>
+<p>它们无法创造新的事物。目前，大型语言模型只是人工智能技术的一部分。单纯地扩大这些模型的规模，并不能使它们具备上述能力。 </p>
+<p>在一众 AI 末日论中， 他还坚定地认为声称 AI 将威胁人类生存的言论纯属无稽之谈。 </p>
+<p class="image-wrapper"><img data-img-size-val="640,517" src="https://img.36krcdn.com/hsossms/20241114/v2_21fb03e5a0c14f51899fd3ac13132ad3@46958_oswg506666oswg640oswg517_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>同在 Meta FAIR 任职的田渊栋博士则更早预见了当前的困境。 </p>
+<p>5 月份在接受媒体采访时，这位华人科学家曾悲观地表示，Scaling Laws 也许是对的，但不会是全部。在他看来，Scaling Laws 的本质是以指数级的数据增长，来换取「几个点的收益」。 </p>
+<p><strong>最终人类世界可能会有很多长尾需求，需要人类的快速反应能力去解决，这些场景的数据本身也很少，LLM 拿不到。 Scaling law 发展到最后，可能每个人都站在一个「数据孤岛」上，孤岛里的数据完全属于每个人自己，而且每时每刻都不停产生。专家学会和 AI 融合，把自己变得非常强，AI 也代替不了他。  </strong></p>
+<p class="image-wrapper"><img data-img-size-val="600,450" src="https://img.36krcdn.com/hsossms/20241114/v2_ece1fc199cac4af6ac5a30b919531bb4@46958_oswg293577oswg600oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不过，形势或许还没有到如此悲观的境地。 </p>
+<p>客观而言，Ilya 在接受路透社的采访时，虽然承认了 Scaling Laws 带来的进展已趋于停滞，但并未宣告其终结。 </p>
+<p><strong>「2010 年代是追求规模化的时代，而现在我们再次进入了一个充满奇迹和探索的新时代。每个人都在寻找下一个重大突破。在当下，选择正确的事物进行规模化比以往任何时候都更为关键。」</strong></p>
+<p>并且，Ilya 还表示 SSI 正在秘密探索一种新的方法来扩展预训练过程。 </p>
+<p>Dario Amodei 最近在一档播客中也谈及此事。 </p>
+<p>他预测，在人类水平以下，模型并不存在绝对的天花板。既然模型尚未达到人类水平，就还不能断言 Scaling Laws 已经失效，只是确实出现了增长放缓的现象。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,540" src="https://img.36krcdn.com/hsossms/20241114/v2_792ed27f0032427ab5b5e60337e63759@46958_oswg232953oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>自古，山不转水转，水不转人转。 </p>
+<p>上个月，OpenAI 的研究员 Noam Brown 在 TED AI 大会上表示： </p>
+<p><strong>事实证明，在一局扑克中，让一个机器人思考 20 秒钟，得到的性能提升与将模型扩展 100000 倍并训练它 100000 倍长的时间一样。 </strong></p>
+<p>而对于 Yann lecun 昨天的事后诸葛亮言论，他这样回应： </p>
+<p><strong>现在，我们处于一个这样的世界，正如我之前所说，进入大规模语言模型预训练所需的计算量非常非常高。但推理成本却非常低。 曾有许多人合理地担心，随着预训练所需的成本和数据量变得如此庞大，我们会看到 AI 进展的回报递减。 但我认为，从 o1 中得到的一个真正重要的启示是，这道墙并不存在，我们实际上可以进一步推动这个进程。 因为现在，我们可以扩展推理计算，而且推理计算还有巨大的扩展空间。 </strong></p>
+<p>以 Noam Brown 为代表的研究者坚信推理/测试时计算（test-time compute），极有可能成为提升模型性能的另一个灵丹妙药。 </p>
+<p>说到这里，就不得不提到我们熟悉的 OpenAI o1 模型。 </p>
+<p>与人类的推理方式颇为相似，o1 模型能够通过多步推理的方式「思考」问题，它强调在推理阶段赋予模型更充裕的「思考时间」。 </p>
+<p>其核心秘密是，在像 GPT-4 这样的基础模型上进行的额外训练。 </p>
+<p>例如，模型可以通过实时生成和评估多个可能的答案，而不是立即选择单一答案，最终选择最佳的前进路径。 </p>
+<p>这样就能够将更多的计算资源集中在复杂任务上，比如数学问题、编程难题，或者那些需要人类般推理和决策的复杂操作。 </p>
+<p class="image-wrapper"><img data-img-size-val="1000,500" src="https://img.36krcdn.com/hsossms/20241114/v2_c45df46ebe71462b9c72c6112e87e6b1@46958_oswg115465oswg1000oswg500_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Google 最近也在效仿这条路线。 </p>
+<p>The Information 报道称，最近几周，DeepMind 在其 Gemini 部门内组建了一个团队，由 Jack Rae 和 Noam Shazeer 领导，旨在开发类似的能力。 </p>
+<p>与此同时，不甘落后的 Google 正在尝试新的技术路径，包括调整「超参数」，即决定模型如何处理信息的变量。 </p>
+<p>比如它在训练数据中的不同概念或模式之间建立联系的速度，以查看哪些变量会带来最佳结果。 </p>
+<p>插个题外话，GPT 发展放缓的一个重要原因是高质量文本和其他可用数据的匮乏。 </p>
+<p>而针对这个问题，Google 研究人员原本寄希望于使用 AI 合成数据，并将音频和视频纳入 Gemini 的训练数据，以实现显著改进，但这些尝试似乎收效甚微。 </p>
+<p>知情人士还透露，OpenAI 和其他开发者也使用合成数据。不过，他们也发现，合成数据对 AI 模型提升的效果十分有限。 </p>
+<h2><strong>你好，贾维斯 </strong></h2>
+<p>再见，GPT，你好，推理 「o」。 </p>
+<p>在前不久举行的 Reddit AMA 活动上， 一位网友向 Altman 提问，是否会推出「GPT-5」，以及推理模型 o1 的完整版。 </p>
+<p>当时，Altman 回答道：「我们正在优先推出 o1 及其后续版本」，并补充说，有限的计算资源使得同时推出多个产品变得困难。 </p>
+<p>他还特别强调，下一代模型未必会延续「GPT」的命名方式。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241114/v2_128d1221817b442fbc342546a97c20a4@46958_oswg535104oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>现在看来，Altman 急于与 GPT 命名体系划清界限，转而推出以「o」命名的推理模型，其背后似有深意。而推理模型的布局或许还是在于为当下主流的 Agent 埋下伏笔。 </p>
+<p>最近，Altman 在接受 YC 总裁 Garry Tan 的采访时，也再次谈到了 AGI 五级理论： </p>
+<p>L1：聊天机器人具有对话能力的 AI，能够与用户进行流畅的对话，提供信息、解答问题、辅助创作等，比如聊天机器人。 </p>
+<p>L2：推理者像人类一样能够解决问题的 AI，能够解决类似于人类博士水平的复杂问题，展现出强大的推理和问题解决能力，比如 OpenAI o1。 </p>
+<p>L3：智能体不仅能思考，还可以采取行动的 AI 系统，能够执行全自动化业务。 </p>
+<p>L4：创新者能够协助发明创造的 AI，具有创新的能力，可以辅助人类在科学发现、艺术创作或工程设计等领域产生新想法和解决方案。 </p>
+<p>L5：组织者可以完成组织工作的 AI，能够自动掌控整个组织跨业务流程的规划、执行、反馈、迭代、资源分配、管理等，基本上已经与人类差不多。 </p>
+<p>所以我们看到，与 Google 以及 Anthropic 一样，OpenAI 现在正在将注意力从模型转移到一系列称为 Agent 的 AI 工具上。 </p>
+<p>今天凌晨，彭博社曝出，OpenAI 正在准备推出一款名为「Operator」的新型 AI Agent，能够使用计算机代替用户执行任务，如编写代码或预订旅行。 </p>
+<p>在周三的一次员工会议上，OpenAI 领导层宣布计划在一月发布该工具的研究预览版，并通过公司的应用程序接口（API）向开发者开放。 </p>
+<p>在此之前，Anthropic 也推出了类似的 Agent，够实时处理用户计算机任务并代为执行操作。 与此同时，微软近期推出了一套面向员工的 Agent 工具，用于发送邮件和管理记录。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20241114/v2_977969cabcf64e2d8d44acbba1847409@46958_oswg1336869oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而 Google 也正在筹备推出自己的 AI Agent。 </p>
+<p>报道还透露，OpenAI 正在进行多个与 Agent 相关的研究项目。其中，最接近完成的是一款能够在网页浏览器中执行任务的通用工具。 </p>
+<p>这些 Agent 预计将能够理解、推理、规划并采取行动，而这些 Agent 实际上是一个由多个 AI 模型组成的系统，并非单一模型。 </p>
+<p>比尔·盖茨曾经说过，「每个桌面上都有一台 PC」，史蒂夫·乔布斯说过，「每个人的手上都有一部智能手机」。 </p>
+<p>现在我们可以大胆预测：每个人都将拥有自己的 AI Agent。 </p>
+<p>当然，人类的终极目标是，我们更希望有一天能够对着眼前的 AI 说出那句电影的经典对白： </p>
+<p><strong>你好，贾维斯 </strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Q_1CGxtJLl_hFulAzaHaBg" rel="noopener noreferrer nofollow" target="_blank">“APPSO”</a>，作者：发现明日产品的，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3036090664120579</guid><pubDate>Thu, 14 Nov 2024 19:21:00 +0800</pubDate></item><item><title>高铁信号差怎么办？换车窗</title><link>https://36kr.com/p/3036090408956166</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>高铁作为现代化交通工具的代表，极大地方便了人们的出行，但对于移动通信网络建设和优化工作而言，却是一块难啃的硬骨头。</p>
+<p>由于高铁运行速度快导致多普勒频移大、车厢封闭性好带来的无线信号穿透损耗大等原因，要确保高铁车厢内始终保持较好的信号质量和网络体验是一项极具挑战的工作。</p>
+<p>为此，通信行业一直致力于通过技术和方案创新提升高铁场景的网络体验。但通过“更换车窗玻璃”来提升信号覆盖的方案，你可能没听说过吧？</p>
+<p>不久前，德国四家移动运营商、德国铁路和德国政府联合签署了一项协议，计划通过在沿线建设5G站点，并将传统GSM-R网络升级替换为基于5G的FRMCS（下一代铁路移动通信系统）的方式，将汉堡-柏林干线的网络速率提升至千兆（Gbps），从而大幅提升乘客的出行和上网体验，以及铁路运行效率。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20241114/v2_80fccb832066456b866dffe39aba14fc@46958_oswg182110oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：德国铁路公司</p>
+<p>在这份协议中，有一个技术细节引起了业界关注：</p>
+<p><strong>列车将配备新型的玻璃窗，使5G信号能够穿透车厢，从而无需通过车厢顶部的天线进行信号中继。</strong></p>
+<h2><strong>为啥要换车窗玻璃？</strong></h2>
+<p>由于高铁车厢主要采用金属材料，测试显示，在1.8GHz至3.5GHz频段范围内，高铁车厢的穿透损耗高达31至36dB。因此，外部的无线信号要想更好地抵达车厢内，可能只能依靠列车上的玻璃车窗了。</p>
+<p>但车窗玻璃的信号穿透损耗同样很高。</p>
+<p>为了提供优质的隔热、隔音效果，火车、高铁的车厢窗户通常采用带有金属涂层的双层玻璃，这种玻璃会阻挡无线电波，大幅降低车厢内的无线信号强度。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241114/v2_36b12a18905f47fcb3576d95170659c4@46958_oswg34406oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>数据显示，带有隔热涂层的双层玻璃的蜂窝网络信号穿透损耗高达30dB，这意味着只有0.1%的外部无线信号能穿透进车厢内。但没有涂层的普通玻璃，穿透损耗仅为3dB，这相当于有50%的外部无线信号可穿透进车厢内。</p>
+<p>这就是该协议中要求改造车窗玻璃的原因。</p>
+<h2><strong>穿透损耗降25dB，网速达千兆</strong></h2>
+<p>他们要更换成什么类型的车窗玻璃？</p>
+<p>当然，并不是将隔热双层玻璃更换为普通玻璃那么简单，而是将其更换为一种特殊设计的玻璃，其既能让信号穿透损耗很低，也能确保隔热、隔音性能。</p>
+<p>笔者查阅了一些资料，其原理可能是：通过激光技术将隔热玻璃上均匀覆盖的金属涂层，处理为呈网状结构的涂层，从而为无线信号低损耗穿透留下了一定的空间。同时，由于激光处理的线条非常细微，肉眼几乎看不到，也不会影响玻璃原有的物理特性。</p>
+<p>据说，为了更好地接收ETC、GPS等信号，该技术已经应用于汽车车窗玻璃。</p>
+<p>德国运营商测试显示，高铁采用这种特殊玻璃后，可将5G无线信号衰减降低25dB，同时，使用3.5GHz/3.6GHz频段上的100M带宽，在120公里/小时的行驶速度下，车厢内的最高网率可达1Gbps。测试还显示，该方案对于网络上行速率的提升尤其明显。</p>
+<h2><strong>从GSM-R到FRMCS</strong></h2>
+<p>协议中还提到了从GSM-R升级到FRMCS，所以也简单说说。</p>
+<p>GSM-R，顾名思义，就是基于GSM技术，专为铁路通信而开发的无线通信系统，已广泛用于列车控制、调度、管理等领域。FRMCS，全称Future Railway Mobile Communication System，未来铁路移动通信系统，是基于5G技术且面向未来可持续演进的铁路移动通信系统。</p>
+<p>众所周知，GSM是2G时代的窄带通信技术，仅支持语音和小数据量传输。而5G是最新的移动通信技术，被称为行业数智化转型的基石，具有大带宽、低时延、高可靠、高安全等特性，综合能力远超GSM。因此，面对铁路系统数字化、智能化转型趋势，GSM-R让位给更契合数智化发展需求的FRMCS已成为必然趋势。</p>
+<p>FRMCS不仅能通过高性能的5G网络提升旅客出行体验，而且能确保列车控制和调度等信号更及时、更可靠、更安全传输，支持大量传感器连接和多路高清视频回传，从而能帮助铁路系统实现智能化运营。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/iqFyZ2PvCzhU5t6EaklKSQ" rel="noopener noreferrer nofollow" target="_blank">“网优雇佣军”</a>，作者：通信，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3036090408956166</guid><pubDate>Thu, 14 Nov 2024 19:26:00 +0800</pubDate></item></channel></rss>
