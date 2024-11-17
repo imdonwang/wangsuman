@@ -1,79 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 17 Nov 2024 13:00:25 +0800</lastBuildDate><pubDate>Sun, 17 Nov 2024 13:00:25 +0800</pubDate><item><title>不做Sora背后：百度的多模态路线是什么？</title><link>https://36kr.com/p/3038613079289862</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>当ChatGPT掀起国内“百模大战”，百度率先交卷文心一言。</p>
-<p>Sora再掀视频生成风潮，却传出李彦宏内部讲话<strong>“Sora无论多么火，百度都不去做”</strong>。</p>
-<p>一时间，困惑、不解、争议，纷至沓来。</p>
-<p>面对这些声音，在刚刚结束的百度世界大会会后采访中，李彦宏公开回应。</p>
-<p>他不仅重申了不做Sora的决定，并且说明了百度是如何运用和发展多模态的。</p>
-<p>在大会发布中，李彦宏发布了百度从年初开始重点攻克的<strong>iRAG技术</strong>，这项技术旨在解决AI领域最棘手的”幻觉”问题。有趣的是，这个开始正好是在Sora风正热之时。</p>
-<p>百度的选择背后原因，到底是什么？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_e358439e29a7432cbc88951414a09bec@000000_oswg665832oswg1080oswg715_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>△</strong>百度2024世界大会现场</p>
-<h2><strong>加速解决幻觉问题</strong></h2>
-<p>先从iRAG技术看。它所解决的是图片生成的<strong>幻觉问题</strong>。</p>
-<p>在年初，不做Sora，转头将资源放在幻觉解决上。为什么？</p>
-<p>结合这届<strong>百度世界大会主题“应用来了”</strong>来理解：</p>
-<p><strong>幻觉已经成为制约大模型应用大规模落地的一大绊脚石。</strong></p>
-<p>现代社会对<strong>计算器</strong>已有绝对的信任，只要保证输入是对的，就可以百分百放心地把计算结果用到下一步工作流程中。</p>
-<p>但对于<strong>已知可能存在幻觉的大模型</strong>来说，还敢给予同等的信任吗？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_53df9cd32273416d9cb08b6344dc14bc@000000_oswg62390oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>△</strong>新版文小言APP绘图</p>
-<p>有幻觉，即意味着模型行为不完全可控，不能完全放心的自动化工作流程，依然需要人工介入。</p>
-<p>AI应用正面临这样的困境。</p>
-<p>事实上，ChatGPT问世之后，大模型的几个主要改进方向都是通过不同方式来解决大模型幻觉问题。</p>
-<p><strong>长上下文窗口，</strong>让模型获取更完整的输入，减少因信息不全产生的错误推理。</p>
-<p><strong>RAG（检索增强生成），</strong>检索外部知识库补充信息，弥补模型参数存储知识的不足。</p>
-<p><strong>联网搜索，</strong>获取实时、动态的在线信息，扩展模型的知识边界。</p>
-<p><strong>慢思考，</strong>通过分步推理减少直觉性错误，提高推理过程的可解释性。</p>
-<p>甚至从某种意义上说，<strong>多模态技术</strong>也是让模型多一种信息输入途径，不用在“看不见”视觉信息的情况下为了完成任务凭空编造。</p>
-<p>……</p>
-<p><strong>所以再次总结一下，为什么解决幻觉问题是目前AI行业的当务之急？</strong></p>
-<p><strong>从技术层面，</strong>不解决幻觉问题就难以预测和控制模型的行为边界。</p>
-<p><strong>从应用的角度来看，</strong>幻觉问题阻碍了用户对AI产品的信任。</p>
-<p><strong>从产业角度，</strong>解决了幻觉问题才能扩大AI可应用的场景范围，提高AI系统的商业价值。</p>
-<p>再将目光转向百度，解决AI幻觉问题，恰恰也是百度的“主战场”。</p>
-<p>iRAG，全称Image-based Retrieval-Augmented Generation，是一种全新的检索增强文生图范式，结合了百度多年的搜索积累，帮助大幅提升图片的生成可控性和准确性。</p>
-<p>其核心是将百度搜索的亿级图片资源与文心大模型的生成能力相结合，通过联合优化，让生成图片更加真实可信。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_9b50e141cc6547509e55570076b68b7c@000000_oswg123181oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>△</strong>百度2024世界大会现场</p>
-<p>具体而言，iRAG先利用检索模块在海量图库中找出与文本描述最相关的若干图片，然后提取其视觉特征，与文本特征一并输入到生成模块。生成模块在此基础上，对图像进行理解、重组、创新，最终输出高质量、符合需求的全新图片。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_0c1474e37c5146d3b3a886137b0ae751@000000_oswg82144oswg937oswg526_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>△</strong>文心大模型生成的大众揽巡汽车飞跃长城</p>
-<p>可以说，iRAG巧妙地将认知智能（检索）与生成智能（创作）结合在一起，取长补短，相得益彰。</p>
-<p>一方面，海量图像的参考让生成更”接地气”，大幅减少了幻觉、违禁内容等问题。</p>
-<p>另一方面，强大的生成能力让输出图片更多样、更具创意，远非单纯的拼贴、修改那么简单。</p>
-<p>更重要的是，iRAG在诸多行业领域都具有广阔应用前景，尤其能显著降低AI生图的创作成本。比如在影视制作、动漫设计中，iRAG可实现从文本脚本直接生成高质量的分镜、概念图，大幅减少中间环节的人工干预。</p>
-<h2><strong>多模态，不止Sora一条路</strong></h2>
-<p>明确了幻觉问题是AI行业的优先级，百度还需要回答另一种质疑：多模态已经是公认迈向AGI的重要一步。</p>
-<p>多模态有助于增强AI系统的感知和理解能力。通过处理视觉、语音、文本等不同模态的信息，AI可以更全面地感知环境，增强其认知和交互能力，与人类通过多种感官认知世界保持一致。</p>
-<p><strong>但这里要明确的是，Sora路线并不能代表多模态技术的全部。</strong></p>
-<p>首先，投入做Sora代表的通用视频生成模型投入的成本非常高昂。市场研究机构Factorial Funds报告估算，<strong>Sora模型至少需要在4200~10500块英伟达H100 GPU上训练1个月</strong>。而如果Sora得到大范围应用，为了满足需求，需要约72万张Nvidia H100 GPU，如果按照每片英伟达H100 AI加速卡3万美元成本计算，72万片需要<strong>216亿美元</strong>。</p>
-<p>而目前通用视频生成模型在技术成熟度上距离iPhone时刻也还有较远的距离。此前与艺术家合作短片《Air Head》后来就被指出实际有大量人工参与，估算只有约1/300的AI素材用到了最终成片里。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_921c6143637541aeb87e2c16ab53934f@000000_oswg1281023oswg1080oswg1211_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>△</strong>图源fxguide.com</p>
-<p>目前市场视频生成应用从短剧内容生产到影视特效制作，很多努力都在摸索视频生成技术的想象空间，但尚未形成成熟的商业化方案和稳定的营收模式。</p>
-<p><strong>其实，对于做多模态来说，也存在Sora之外的多种路径。</strong>‍‍‍</p>
-<p>Meta首席科学家、图灵奖得主Yann LeCun就一直坚持“世界模型”路线。他认为生成视频的过程与基于世界模型的因果预测完全不同，通过生成像素来对世界进行建模是一种浪费，注定会失败。</p>
-<p>斯坦福教授李飞飞则看重具身智能，她认为AI仅仅看是不够的，“看，是为了行动和学习”。比如通过大语言模型，让一个机器人手臂执行任务，打开一扇门、做一个三明治以及对人类的口头指令做出反应等。</p>
-<p><strong>百度对多模态技术的理解，最近也在数字人场景得到集中体现。</strong></p>
-<p>百度从2019年起就开始布局数字人领域，涉及语音克隆、唇形同步、表情动作捕捉等一系列关键技术。到如今百度“曦灵”数字人、“慧播星”数字人已广泛应用于新闻播报、直播电商等场景。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_a05fd6ec23b84ca4877395cd472274ff@000000_oswg705255oswg1080oswg723_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>△</strong>百度慧播星电商数字人</p>
-<p><strong>正如李彦宏强调的，百度不做Sora，并不意味着在多模态赛道上缺席了。</strong></p>
-<p>数字人语音与口型、动作的同步问题，或许最终可以靠通用场景下的视频生成实现，但需要很长时间，成本很高。</p>
-<p>但既然可以用更简单、成本更低的方法做到，为什么不先把业务跑起来呢？</p>
-<p>首先，通用方案追求”大而全”，试图用单一模型覆盖所有场景，但这在技术上尚不成熟，往往带来效果的参差不齐;而数字人聚焦特定垂直领域，可以更精准地优化模型，追求极致的人机交互体验。</p>
-<p>其次，视频生成好就是固定的素材了，缺乏实时交互能力；而AI驱动的数字人却可以实现动态多轮对话，甚至还可以根据用户反馈实时调整状态，更加契合真实应用的需求。</p>
-<p>最后，视频生成对算力和数据的要求极高，当前能够真正驾驭的企业凤毛麟角，商业化进程困难重重;相比之下，数字人技术门槛相对较低，且应用场景清晰，更容易形成可复制的商业模式，开启数据飞轮。</p>
-<h2><strong>AI大规模落地需要什么条件？</strong></h2>
-<p>不论是投入解决图片幻觉问题，还是从业务需求出发发展多模态的路线，百度的目标似乎都围绕着李彦宏所说的：<strong>让技术被更多人用起来</strong>。</p>
-<p>李彦宏这段时间不断强调的一个观点是“模型本身不产生直接价值”，只有在模型之上开发各种各样应用，在各种场景找到所谓的PMF，才能真正产生价值。</p>
-<p>百度需要做的，是为个人和企业提供开发应用的基建，帮助更多人、更多企业打造出数百万“超级有用”的应用。</p>
-<p>长远来看，幻觉问题的解决为行业应用消除了障碍，使得AI技术能够在更广泛的领域得到应用和推广。</p>
-<p><strong>用业务需要的多模态技术支持业务先跑起来，能让更多的AI应用场景为大家所用。</strong></p>
-<p>同时，大量的行业应用所产生的数据，又能为AGI的发展提供丰富的养分，形成良性循环，推动数据飞轮的高速运转，<strong>从而加快我们迈向AGI的步伐</strong>。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247758574&amp;idx=1&amp;sn=1960d114a704a060dea5abafaad728ff&amp;chksm=e92ad66abfc087cf85b15e5cc24395270fe770682747e8b112087452d7efa11035ac22a2741e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3038613079289862</guid><pubDate>Sun, 17 Nov 2024 10:30:00 +0800</pubDate></item><item><title>半导体设备，要变天了</title><link>https://36kr.com/p/3038556218700039</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 17 Nov 2024 13:30:30 +0800</lastBuildDate><pubDate>Sun, 17 Nov 2024 13:30:30 +0800</pubDate><item><title>半导体设备，要变天了</title><link>https://36kr.com/p/3038556218700039</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>半导体设备一直是近两年半导体行业热搜榜话题之一。随着信息技术的快速发展，芯片需求量激增，半导体设备作为芯片制造的核心工具，无论是中国还是全球的半导体设备市场规模，都呈现出持续扩大的态势。 </p>
 <h2><strong>半导体设备市场规模，屡创新高</strong></h2>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_9651946b5b91499ca310b832db57e9d7@000000_oswg306800oswg1080oswg433_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
@@ -508,4 +434,73 @@
 <p>未来，乳腺癌治疗领域必将更加波澜壮阔。</p>
 <p>PS：欢迎扫描下方二维码，添加氨基君微信号交流。</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIwMjU5Njk5NA==&amp;mid=2247504389&amp;idx=1&amp;sn=1e7b7cd98198d7f8919fd1be0a39d570&amp;chksm=97ac1ccb3084ea3709611b6e07b3409311ee1049e188a65129fa51d30a9274a5c785e17c5b38&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“氨基观察”（ID：anjiguancha）</a>，作者：氨基君，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3039013270204423</guid><pubDate>Sun, 17 Nov 2024 13:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3039013270204423</guid><pubDate>Sun, 17 Nov 2024 13:00:00 +0800</pubDate></item><item><title>追踪《战至巅峰》3年，它为什么值得深挖？</title><link>https://36kr.com/p/3015861866673289</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“因为青春的梦想，总有遗憾。”</p>
+<p>这一季的《战至巅峰》在不舍与圆满中，落下了帷幕。顶住落后的压力，张大仙率领的688战队与JIUZHE战队“缠斗”至赛点局，最终连扳两局拿下总冠军。</p>
+<p>这是一场极其焦灼的比赛。艰难赢下总决赛的张大仙感谢队友的支持，笑称“带老年人圆梦”；遗憾落败的JIUZHE战队队员蒲熠星则用一个热血漫画的故事，回顾了自己与队员们在这几个月的点点滴滴。</p>
+<p><strong>《战至巅峰3》留给观众的，不止是酣畅淋漓的精彩赛事，更有丰富多彩的群像故事。有观众表示，希望JIUZHE战队能出个团综。</strong></p>
+<p>这是《战至巅峰》系列IP登陆综艺市场的第三年，作为一档有一定观看门槛的垂类节目，它越战越勇，在播期间的热度获得Vlinkage、骨朵、猫眼等平台榜单多个TOP 1，且始终保持在TOP 5以内。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1330" src="https://img.36krcdn.com/hsossms/20241031/v2_f919431df71f4575ade99c84f5fc73bb@467518043_oswg236376oswg1080oswg1330_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>总决赛期间，《战至巅峰3》的表现也很亮眼，不仅斩获28个微博主榜热搜和13条抖音播放量破10万的视频，还在向来严格的豆瓣小组持续领跑。</p>
+<p>从直观的数据不难发现，<strong>《战至巅峰3》已经打破了垂类的壁垒，影响力扩展至非电竞及非粉丝群体，且在一定程度上能够与常规综艺节目“扳手腕”。</strong></p>
+<p>经过三年的“养成”，《战至巅峰》这一IP怎么把综艺和圈层文化结合起来、并推动破圈的？作为一档综艺节目，它在腾讯电竞生态里有多重要？ </p>
+<h2><strong>谁在看《战至巅峰3》？</strong></h2>
+<p>从《战至巅峰3》的用户画像情况来看，它不仅守住了自己的观众基本盘，而且还有更深远的意义。</p>
+<p>《战至巅峰3》在19岁及以下的群体中受欢迎程度最高，占比达38%，其次是20-29岁的年轻群体，占比34%，剩下的28%熟龄人群中，40+以上的观众数量也达到了9%。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,985" src="https://img.36krcdn.com/hsossms/20241031/v2_186ece4c190241f7a1cf4145e16c1127@467518043_oswg176709oswg1080oswg985_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>其中，“一头一尾”值得特别关注。</p>
+<p><strong>从游戏行业的角度来看，19岁及以下的群体占比高，意味着《战至巅峰3》有效地将《王者荣耀》的产品生命拉长。</strong></p>
+<p>要知道《王者荣耀》公测至今已经将近10年，而且这些年游戏行业涌现了大量亮眼的新产品，竞争极其激烈。<strong>谁俘获了年轻人，谁就拥有下一个游戏周期继续领跑的优势。</strong></p>
+<p>通常来说，40+的熟龄人群对电竞赛事的关注度相对较低，但《战至巅峰3》通过综艺形式、让专业赛事变得大众化，“不懂电竞的人也能get到其中的乐趣”。</p>
+<p>在综艺节目愈加圈层化的当下，《战至巅峰3》能够同时捕获年轻与成熟群体，与节目的选角和叙事有着直接关系：<strong>从00后到70后，节目尽可能容纳了不同年龄段的选手，他们也展示出了各自的优势。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1529" src="https://img.36krcdn.com/hsossms/20241031/v2_3dc5b61bb60241c293532f83bd0ad982@467518043_oswg290362oswg1080oswg1529_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>像王凯、张桐虽然年过40，但面对来势汹汹的年轻人并没有被单向碾压，相反，丰富的阅历让他们更善于调动团队气氛，也善于自我情绪调节。节目中的几位大龄哥哥姐姐，也几乎都走到了比赛的后半程。</p>
+<p><strong>《战至巅峰3》也延续了对性别的平衡，而且这一季女选手的实力整体更强。</strong></p>
+<p>赛前几位俱乐部教练看资料时，就纷纷押宝程潇，认为她会带给大家较大的惊喜；在去水赛对抗时，萌妹王瑞欣连续“收割”李承铉、周奇和电竞主播张大仙，完成“三杀”，被直接冠以“女野王”的称号，成为各队争抢的对象。</p>
+<p>因为女选手实力出色，《战至巅峰3》的去水赛阶段还出现了节目开播至今首支全女队伍，虽然这支临时组建的队伍很快因为俱乐部分组被打散，但这是一个新的信号——或许下一季节目中，会出现俱乐部女队决战王者之巅。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,498" src="https://img.36krcdn.com/hsossms/20241031/v2_4c844010ff57436cb574d0b0abe11760@467518043_oswg609105oswg1080oswg498_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>不是每个观众都是电竞爱好者，但热血群像故事的魅力就像磁铁一样，牢牢吸引了不同的观众。</strong>从相关热搜和讨论中，我们发现：热血、坚持、逆风局等字眼出现的频次很高。</p>
+<p>比如这一季JIUZHE战队，前面经历多次低谷，尤其对阵重庆狼队时，几乎屡战屡败。</p>
+<p>但到了半决赛时，他们坚持不放弃，终于成功逆袭，6胜0封对手，先后击败成都AG超玩会和重庆狼队，让观众热血沸腾，最终 #久哲战队11分钟终结比赛# #周柯宇无人能挡# 等词条冲上热搜。 </p>
+<h2><strong>《战至巅峰3》，和前两季有什么不同？</strong></h2>
+<p>除了选角，这一季《战至巅峰》在内容与赛制方面，也实现了全面升级，不仅让节目本身变得更有看头，也让IP有更强的话题性和破圈能力。</p>
+<p><strong>一个亮点是，今年的《战至巅峰》star赛被正式纳入《王者荣耀》赛事体系。电竞新人与俱乐部之间的绑定更强，完成了从“训”到“战”的转变。</strong>这不仅让他们在训练时更投入，带给观众更激烈刺激的比赛，也让真人秀的热血感变得更饱满。</p>
+<p>其次，这一季还引入了“红黑榜”，电竞新人们要根据彼此表现互评“红榜”和“黑榜”人选，加深自己对彼此的了解，在勾勒出电竞行业残酷的同时，“红黑榜”还联动微博，提高观众的参与度。</p>
+<p><strong>赛制与玩法的双升级，让“人的故事”变得更加丰富精彩，也给观众带来了更强的“养成感”，和更真实的群像故事。</strong></p>
+<p>比如“三季元老”的周柯宇，这一次终于如愿进入总决赛，观众看到了他技术的精进，也看到他变得更成熟稳重，有大将之风。</p>
+<p>“新人”刘忻从“卧龙凤雏”蜕变成硬核辅助，在发表赛后感言时，她那句“天赋重要但我也有权利做梦”，是很多人的心声，也在微博上收获了很多人的喜爱和支持。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1143" src="https://img.36krcdn.com/hsossms/20241031/v2_7fd58efae68845769aabe5a5c6759cb6@467518043_oswg285856oswg1080oswg1143_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>作为竞技类节目，“赢”很重要，但也有一些比“赢”更宝贵的东西。</strong></p>
+<p>成都AG超玩会对战张大仙688战队，虽然选错角色，大家却没有彼此甩锅，而是积极想应对方法换位置，在知道自己胜算不大的情况下，成都AG超玩会全员选择放手一搏，享受比赛，那一刻他们获得了比胜利更宝贵的体验——竞综，也有属于自己的倪夏莲。</p>
+<p>除此以外，<strong>为了更突显故事性，节目在模式上也做起了加法。</strong></p>
+<p>像《战至巅峰》音乐会，属于竞综+音综；《吐槽小会》，是竞综+脱综；跟腾讯新闻联动衍生的《来场复盘局》，则是从深度对话的专业视角切入选手们的生活。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,498" src="https://img.36krcdn.com/hsossms/20241031/v2_b9d8904329fc4841beaec8f1bafe86d7@467518043_oswg269003oswg1080oswg498_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>“电竞+”的方式，使得《战至巅峰3》在保持电竞专业度不变的大前提下，通过联动其他鹅系综艺IP，让节目变得更有趣，也吸引了更多非电竞用户的关注。</strong></p>
+<h2><strong>一个“养成系综艺”的3年，究竟做对了什么？</strong></h2>
+<p>从市场新物种成为到品类头部，《战至巅峰》只用了三年时间。竞综作为一个相对小众、且需要一定理解门槛的品类，这个“发育速度”算得上迅速。</p>
+<p>实际上，电竞综艺从2014年就有了，而且不断有电竞俱乐部、制作公司尝试入局，但大多数节目的影响力多局限于小圈子。</p>
+<p>这些年来，<strong>困扰竞综的长期问题都是相似的：懂制作的不懂电竞，懂电竞的不懂综艺，节目的专业性和娱乐性到底该如何平衡。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1508" src="https://img.36krcdn.com/hsossms/20241031/v2_412659718f26490cbe8e9ff6e0efcc63@467518043_oswg316930oswg1080oswg1508_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>《战至巅峰》能够成为那个破圈者，首先与IP本身的独特性有关。</strong></p>
+<p>它既了解如何通过综艺的剪辑手法撩起观众的兴趣，也知道如何保证竞综的专业度，凸显比赛的精彩。</p>
+<p>加上腾讯又是KPL赛事的主办方，视角和单一的俱乐部不同，他们更有“大局观”，也更了解电竞精神真正触动大众的地方是什么：胜利固然重要，失败亦有动人之处。</p>
+<p>这也是为什么在《战至巅峰》中，那些没能走到总决赛的选手、队伍，同样赢得了观众的喝彩，让人念念不忘。</p>
+<p><strong>看电竞新人攀越顶峰的故事，给人强烈的养成体验，而《战至巅峰》这个IP本身的不断成长，也充满了“养成感”。</strong></p>
+<p>如前文所说，这季节目的升级让故事变得更饱满，“逼”出选手最佳状态，同时又与前两季遥相呼应，形成更加完整的成长线——比如周柯宇的“圆梦”。</p>
+<p>第一季最具潜力的他，止步于半决赛。第二季苦练一年卷土重来，再度半决赛折戟。今年周柯宇现身《战至巅峰3》，人比两年前更松弛了，也更懂享受比赛本身的乐趣了。</p>
+<p>在好心态与好手法的双重加持下，周柯宇时隔三年第一次坐上决赛席，虽然再次与冠军失之交臂，但相信在这个过程中他已经得到了比“冠军”更宝贵的东西。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,498" src="https://img.36krcdn.com/hsossms/20241031/v2_03c9656cca0e485ab331a4896b631161@467518043_oswg586831oswg1080oswg498_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这样长达3年的成长故事，在《战至巅峰》中比比皆是，敖子逸、赖美云都是如此。这些选手聚在一起，又形成了丰富多样的群像故事，给予观众更多重的观看体验。</p>
+<p>像这一季比赛结束后，已经有观众预约“JIUZHE战队，下一季不见不散”，还有人提出可以在正片基础上做战队团综衍生。观众催更，甚至化身“野生节目策划”，这就是群像故事真正打动观众的佐证。</p>
+<p>另一方面，电竞比赛本身具有不确定性，电竞选手也在不断成长，这两者之间构成了无数的悬念，让每一季的比赛结果都“扑朔迷离”，所以季与季之间自然形成了“钩子”，勾连着观众不断追下去。</p>
+<p>更重要的是，<strong>《战至巅峰3》与电竞赛事之间的协同，让它不再是单独的一档节目，而是王者荣耀KPL赛事体系的组成部分之一，或者说是赛事体系的“延长线”。</strong></p>
+<p><strong>电竞赛事要长久举办下去，一定需要有足够多的用户，特别是年轻用户。而想要俘获年轻用户的心，综艺产品或许是最优质的途径之一。</strong></p>
+<p>因为它在传播上兼具广度与烈度，而且擅长“以情动人”，让年轻人把热血、努力的心态投射到选手身上，建立年轻用户与IP之间的情感链接。</p>
+<p>年轻用户也会因为《战至巅峰》对电竞赛事的细腻刻画，而成为长期关注者，并主动向他人安利，助推内容破圈。 </p>
+<h2><strong>写在最后</strong></h2>
+<p>于整个综艺市场而言，竞综的特殊性不言而喻，这也意味着它的出圈较其他综艺更为艰难。</p>
+<p>去年在观察《战至巅峰2》时，《DT商业观察》认为，<strong>如何在每一季给予老观众新鲜感的同时，又能抓住新观众，是这个综艺IP需要思考的长期命题。</strong></p>
+<p><strong>《战至巅峰3》的落幕，不仅给出了这个问题的答案，而且更进一步充分发挥了综艺产品“放大器”效应，为圈层文化走向大众化做了一次打样。</strong></p>
+<p>正如电竞赛事因为捉摸不定的结果而令人着迷，未来《战至巅峰》这个IP还会有哪些变化，我们拭目以待。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/rurB6sjFFDUeUA_KNiAmQA" rel="noopener noreferrer nofollow" target="_blank">“DT商业观察”</a>，作者：DT商业观察，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3015861866673289</guid><pubDate>Sun, 17 Nov 2024 13:30:00 +0800</pubDate></item></channel></rss>
