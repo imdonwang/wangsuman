@@ -1,331 +1,553 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 19 Nov 2024 18:00:29 +0800</lastBuildDate><pubDate>Tue, 19 Nov 2024 18:00:29 +0800</pubDate><item><title>AI一键解析九大生物医学成像模式，用户只需文字prompt交互，微软UW等新研究登Nature Methods</title><link>https://36kr.com/p/3043097666177673</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>用AI大模型一键解析MRI、CT和病理学等<strong>九大生物医学成像模式</strong>。</p>
-<p>不仅复杂、不规则形状对象能高精度识别：</p>
-<p class="image-wrapper"><img data-img-size-val="708,524" src="https://img.36krcdn.com/hsossms/20241119/v2_94c455b07d9b4394b5ed4533b1bdb404@5888275_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>而且通过对象识别阈值建模，模型能够检测无效的提示请求，并在图像中不存在指定对象时<strong>拒绝分割</strong>。</p>
-<p>用户更是无需手动进行标注或边界框操作——</p>
-<p>只需通过简单的临床<strong>语言提示</strong>指定目标对象，例如“肿瘤边界”或“免疫细胞”，便能让AI准确识别、检测并分割图像中的相关区域。</p>
-<p class="image-wrapper"><img data-img-size-val="754,546" src="https://img.36krcdn.com/hsossms/20241119/v2_e347f6f808144975937a235698c5e4bf@5888275_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>还可<strong>一次性同时分割和标记</strong>所有感兴趣的生物医学对象：</p>
-<p class="image-wrapper"><img data-img-size-val="640,465" src="https://img.36krcdn.com/hsossms/20241119/v2_de2d68f0bc6d4331b4aa5527ea5c5cda@5888275_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这就是来自微软、华盛顿大学等的研究团队最新发布的基础模型<strong>BiomedParse</strong>，已登Nature Methods。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,499" src="https://img.36krcdn.com/hsossms/20241119/v2_f270541d09d84e269df96d7354b2f259@5888275_oswg133652oswg1080oswg499_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>医学图像的成像模式差异巨大（如CT、MRI、病理切片、显微镜图像等），传统上需要<strong>训练专家模型</strong>进行处理。</p>
-<p>而BiomedParse，通过文本驱动图像解析将九种医学成像模式整合于一个统一的模型中，联合预训练处理<strong>对象识别、检测与分割任务</strong>。</p>
-<p>无论是影像级别的器官扫描，还是细胞级别的显微镜图像，BiomedParse都可以直接利用临床术语进行跨模式操作，为科学家和临床医生提供了更统一、更智能的多模式图像解析方案。</p>
-<p>在分割不规则形状的生物医学对象方面，BiomedParse相较传统模型表现卓越。通过将图像区域与临床概念关联，<strong>相比手动框选分割精度提升39.6%</strong>，提高了在关键任务中的可靠性。</p>
-<p>目前，研究团队已将BiomedParse开源并提供Apache 2.0许可，相关演示demo和Azure API均已上线。</p>
-<h2><strong>只需文字提示，精度超越SOTA</strong></h2>
-<p>为支持BiomedParse的预训练，研究团队利用<strong>GPT-4</strong>从45个公开的医学图像分割数据集生成了首个覆盖对象识别、检测和分割任务的数据集BiomedParseData。</p>
-<p>该数据集包含超过600万个图像、分割标注与文字描述三元组，涵盖<strong>64种主要生物医学对象类型</strong>及<strong>82个细分类别</strong>，涉及CT、MRI、病理切片等<strong>九种成像模式</strong>。</p>
-<p>通过GPT-4的自然语言生成能力，研究人员将散落在各种现有数据集中的分割任务用统一的医学概念和语言描述整合起来，让BiomedParse能在更大，更多样的数据中融会贯通。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,580" src="https://img.36krcdn.com/hsossms/20241119/v2_fe1c16abcfa74df4919932ee97d557f6@5888275_oswg265562oswg1080oswg580_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>在测试集上，BiomedParse在Dice系数上显著超越了当前最优方法MedSAM和SAM，并且无需对每个对象手动提供边界框提示。</p>
-<p><strong>即使在给MedSAM和SAM提供精准边界框的情况下</strong>，BiomedParse的纯文本提示分割性能仍能超越5-15个百分点。</p>
-<p>此外，BiomedParse的性能还优于SEEM、SegVol、SAT、CellViT、Swin UNETR等多个模型，尤其在复杂不规则的对象识别上表现突出。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,557" src="https://img.36krcdn.com/hsossms/20241119/v2_e2bb166284774996bf677c3ed5252dd8@5888275_oswg106723oswg1080oswg557_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>生物医学图像中的不规则对象一直是传统模型的难题，而BiomedParse通过联合对象识别和检测任务，通过文本理解实现了对对象特定形状的建模。对复杂对象的识别精度远超传统模型，且在多模态数据集中进一步凸显了其优势。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,696" src="https://img.36krcdn.com/hsossms/20241119/v2_6b2bd6283e814775a6e457e63a3c2eaf@5888275_oswg285507oswg1080oswg696_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>展望未来，团队表示BiomedParse拥有广阔的发展潜力，可进一步扩展至更多成像模式和对象类型，并与LLaVA-Med等高级多模态框架集成，支持“对话式”图像分析，实现数据交互式探索。</p>
-<h2><strong>作者简介</strong></h2>
-<p>论文共同一作及通讯作者均为华人学者，分别来自微软和华盛顿大学。</p>
-<p><strong>赵正德</strong>（Theodore Zhao），论文一作，为该研究作出主要技术贡献。</p>
-<p class="image-wrapper"><img data-img-size-val="296,296" src="https://img.36krcdn.com/hsossms/20241119/v2_4e11617f1ffb4fab906a84587cdc8c46@5888275_oswg21971oswg296oswg296_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>微软高级应用科学家，现主要研究方向包括多模态医疗AI模型，图像分割与处理，大模型的安全性分析。</p>
-<p>本科毕业于复旦大学物理系，博士毕业于华盛顿大学应用数学系，期间研究希尔伯特-黄变换和分数布朗运动的多尺度特征，以及随机优化在医疗领域的应用。</p>
-<p><strong>顾禹</strong>（Aiden Gu），论文一作。</p>
-<p class="image-wrapper"><img data-img-size-val="258,258" src="https://img.36krcdn.com/hsossms/20241119/v2_c3f27a05ee824201868018a015f2b10d@5888275_oswg9169oswg258oswg258_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>微软高级应用科学家。本科毕业于北京大学微电子与经济专业。</p>
-<p>其研究方向专注于医疗健康、生物医学，以及机器人多模态模型。代表性工作包括创建首个医学领域特定的大语言模型PubMedBERT，以及患者旅程模拟模型BiomedJourney。</p>
-<p><strong>潘海峰</strong>（Hoifung Poon），论文通讯作者。</p>
-<p class="image-wrapper"><img data-img-size-val="240,239" src="https://img.36krcdn.com/hsossms/20241119/v2_ff9a0de167e742f8bb614ed8da90c918@5888275_oswg9661oswg240oswg239_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>微软研究院健康未来（Health Futures）General Manager，华盛顿大学（西雅图）计算机博士。研究方向为生成式AI基础研究以及精准医疗应用。在多个顶级AI会议上获得最佳论文奖，在HuggingFace上发布的生物医学开源大模型总下载量已达数千万次，在《自然》上发表首个全切片数字病理学模型GigaPath，部分研究成果开始在合作的医疗机构和制药公司中转化为应用。</p>
-<p><strong>王晟</strong>（Sheng Wang），论文通讯作者。</p>
-<p class="image-wrapper"><img data-img-size-val="243,211" src="https://img.36krcdn.com/hsossms/20241119/v2_f7cd6346fe31477d8e63b874cd5b427f@5888275_oswg12077oswg243oswg211_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>华盛顿大学计算机科学与工程系助理教授，微软研究院访问学者。</p>
-<p>他专注于人工智能与医学的交叉研究，利用生成式AI解决生物医学问题。其科研成果已在《Nature》《Science》《Nature Biotechnology》《Nature Methods》和《The Lancet Oncology》等顶级期刊上发表十余篇论文，并被Mayo Clinic、Chan Zuckerberg Biohub、UW Medicine、Providence等多家知名医疗机构广泛应用。</p>
-<p><strong>Mu Wei</strong>，论文通讯作者。</p>
-<p class="image-wrapper"><img data-img-size-val="240,240" src="https://img.36krcdn.com/hsossms/20241119/v2_4c359111a08f478bb00324c7c1d995b6@5888275_oswg15525oswg240oswg240_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>微软Health and Life Sciences首席应用科学家，拥有十余年医疗与金融领域的AI模型研发与部署经验。</p>
-<p>他的团队聚焦于健康领域的多模态AI模型，研究成果涵盖生物医学图像解析、数字病理学基础模型、临床文档结构化的大模型应用以及大模型错误率估计等方向。</p>
-<p>论文地址：https://www.nature.com/articles/s41592-024-02499-w</p>
-<p>项目网页：https://microsoft.github.io/BiomedParse/</p>
-<p>代码：https://aka.ms/biomedparse-releaseAzure</p>
-<p>API网页：https://ai.azure.com/explore/models/MedImageParse/version/3/registry/azureml?flight=ModelCatalogIndustryFilters&amp;tid=72f988bf-86f1-41af-91ab-2d7cd011db47</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/aYOgVMvKXpciad9riPWBCg" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：关注前沿科技，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043097666177673</guid><pubDate>Tue, 19 Nov 2024 17:23:00 +0800</pubDate></item><item><title>10月证券交易印花税达去年同期2.5倍，数据全面回暖</title><link>https://36kr.com/p/3043094971796102</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>10月A股之火爆，也充分印证在证券交易印花税数据上。</p>
-<p>财政部11月18日公布的数据显示，今年前10个月，证券交易印花税为866亿元，同比下降46.4%。该降幅较前九月54.2%的降幅显著收窄。比对数据可知，今年10月证券交易印花税为154亿元，是去年同期61亿的2.52倍，同比增幅为152.46%，较9月环比增幅为161%。</p>
-<p class="image-wrapper"><img data-img-size-val="629,789" src="https://img.36krcdn.com/hsossms/20241119/v2_15311a068dd94f60bb476bcccaa953fb@5888275_oswg100822oswg629oswg789_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>证券交易印花税的回暖状况，在今年9月已有所体现。9月证券交易印花税为59亿元，同比下滑32.18%，较8月降幅收窄26.86个百分点，这与9月第四周市场强势反弹有直接关系。</p>
-<p>10月是市场极为火爆的一个月份，可从九个维度回顾A股市场出现的变化：</p>
-<h2><strong>一是月成交36万亿创历史新高</strong></h2>
-<p>证券交易印花税的激增与交易数据的增长吻合，今年10月，当月A股累计成交36.26万亿，创月度成交额历史新高，同比增157.97%，较9月份环比增139.48%。</p>
-<p>A股10月日均成交2.01万亿，是去年同期的2.4倍，同比增143.63%，去年10月日均成交0.83万亿。</p>
-<p>环比来看，10月日均成交较9月增152.79%，9月日均成交0.8万亿。</p>
-<h2><strong>二是新开户同比激增近5倍</strong></h2>
-<p>结合多方数据来看，10月新开户数685万户（含股票、基金），环比增加275%，同比增加484%。</p>
-<p>10月开户水平是平时四到五倍，且是年内开户水平最高月份。分月数据来看，1月195.64万户、2月129.86万户、3月241.79万户、4月147.35万户、5月126.62万户、6月107.60万户、7月115.14万户、8月99.93万户、9月182.74万户，1-9月月均开户数仅150万户。</p>
-<p>10月基金开户数量也达到高峰，10月的基金开户数量达到54.85万户，是前10个月中的最高点，环比大增，9月基金开户仅有13.41万户。</p>
-<h2><strong>三是证券APP活跃人数增至1.84亿人</strong></h2>
-<p>易观千帆数据显示，2024年10月证券服务应用APP活跃人数1.84亿人，环比上升15.75%，日均活跃人数6411.04万人，环比上升14.41%。</p>
-<p>月活人数达到千万级别证券服务应用有5家，千万月活券商APP有2家，分别为华泰证券涨乐财富通APP与国泰君安君弘APP；月活人数达到500万以上的有12家，16家券商月活人数超300万人，而上榜的证券类应用APP中36家月活人数达百万级别。</p>
-<p>Top20券商悉数实现环比15%以上的增长，环比增速最高的5家券商APP分别是，兴业证券优理宝APP（18.17%）、国信证券金太阳APP（18%）、长江证券长江e号APP（18%）、光大证券金阳光APP（17.95%）、华西证券华彩人生APP（17.43%）。</p>
-<h2><strong>四是融资余额连续14个交易日上涨</strong></h2>
-<p>Wind数据显示，10月31日A股融资余额突破1.7万亿，这已是A股融资余额连续上涨的第14个交易日。</p>
-<p>多家券商积极普及推广融资融券相关业务知识和操作指南，包括长江证券、兴业证券、招商证券、国投证券、银河证券、中信建投、南京证券、国都证券、东莞证券、东方财富证券、国信证券、中金财富、国联证券、国融证券、国泰君安、国新证券、广发证券、汇丰前海证券等多家券商均有在公开平台发布相关内容，包括如何申请信用账户，如何调整授信额度等，都在再次投教之列。</p>
-<p>此外，还有部分券商在内部展开融资融券业务竞赛，从开户和融资余额两方面激励营销人员展业。</p>
-<h2><strong>五是个人和机构资金接力入场</strong></h2>
-<p>银河证券基金研究中心数据统计，股票ETF10月合计资金净流入为306.89亿元。弹性较高ETF受到青睐，10月，创业板中盘200指数上涨15.4%，创业板成长指数上涨1.6%，创业板指数下跌0.5%，近200亿资金净流入跟踪上述指数的ETF产品。</p>
-<p>高盛发布的一份全球资金流向报告显示，在截至10月30日的4周内，全球资金合计净流入股票市场636.28亿美元，其中，中国内地股市获得243.85亿美元净流入。</p>
-<p>中信证券首席策略师秦培景指出，投资者生态方面，个人投资者和机构投资者资金接力入场，2025年A股市场将维持较为稳定的资金净流入状态。</p>
-<p>Wind数据统计，截至10月底，首批10只中证A500ETF资金净流入达到402.36亿元，整体规模增至653.34亿元，其中，国泰中证A500ETF最新规模逼近170亿元，景顺长城中证A500ETF规模也突破70亿元。</p>
-<h2><strong>六是散户积极参与上市公司调研</strong></h2>
-<p>在10月以来的本轮行情中，出现一些不常见的现象，如多家上市公司接受散户调研。</p>
-<p>自本轮上涨行情以来，众多上市公司公告的投资者关系活动记录中出现了个人投资者的身影。</p>
-<p>粗略统计，仅11月就有数十家上市公司接待了个人投资者的调研，涵盖汉宇集团、江南奕帆、万丰奥威、崇德科技、正弦电气、景嘉微、美瑞新材、华润双鹤、珠江啤酒、汉中精机、正海生物、菲沃泰、和林微纳、灵康药业、佰维存储、泰凌微、绿联科技等等。这些公司所属行业广泛，包括制造业、医药生物、信息技术等多个领域。</p>
-<h2><strong>七是券商策略会人气爆棚</strong></h2>
-<p>目前可知已办或即将举办的券商策略会多达22家，分别为光大证券、招商证券、华泰证券、方正证券、华西证券、中泰证券、中信证券、中金公司、开源证券、华创证券、海通证券、中信建投、国信证券、天风证券、广发证券、申万宏源证券、国泰君安、东吴证券、国金证券、兴业证券、银河证券。</p>
-<p>11月12日，中信证券2025年资本市场年会在深圳召开，截至首日大会中午，现场参会3600多人，在中信证券自有直播平台线上观看2.6万人次。</p>
-<p>11月6日至7日，华泰证券2025年度投资峰会在北京举行，两天的会程由主论坛及13场行业分论坛组成，逾400家上市公司闭门交流，吸引约3500名来自公募、私募、银行、保险、上市公司的专业投资者及机构客户报名参会。</p>
-<h2><strong>八是证券交易印花税减半政策效果显著</strong></h2>
-<p>10月证券交易印花税为154亿元，对应的是，按照“证券交易印花税减半征收”政策，投资者10月减少缴纳证券交易印花税也达到了154亿元。</p>
-<p>自去年9月至今年10月，证券交易印花税减半征收政策推行一年多，证券交易印花税合计1199亿元，对应的涵义是，投资者减少缴纳证券交易印花税高达1199亿元。</p>
-<h2><strong>九是10月全国税收收入年内首次正增长</strong></h2>
-<p>10月不止是资本市场热情似火，以税收数据为代表的经济表现也出现活力。</p>
-<p>11月18日，财政部公布2024年10月财政收支情况，10月份，全国一般公共预算收入同比增长5.5%，增幅继续回升。</p>
-<p>其中，税收收入同比增长1.8%，年内首次正增长，当月税收收入运行出现了一些积极变化：一是国内增值税降幅（-1.2%）比1—9月（-5.6%）明显收窄；二是个人所得税增长5.5%，为4月份以来首次正增长。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/kFCv_xyJjDxZu5nVOmjwCg" rel="noopener noreferrer nofollow" target="_blank">“创业板观察”</a>，作者：高艳云，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043094971796102</guid><pubDate>Tue, 19 Nov 2024 17:23:00 +0800</pubDate></item><item><title>2024年11月福建新三板企业市值TOP100：10家企业冲击北交所</title><link>https://36kr.com/p/3040325021118720</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文 | 挖贝网 王思宇</p>
-<p>挖贝研究院梳理出2024年11月福建新三板企业市值TOP100（以下简称：“榜单”或“TOP100”），12家企业市值超过10亿元，10家企业冲击北交所。</p>
-<p><strong>12家企业市值超过10亿元</strong></p>
-<p>据挖贝研究院梳理，榜单上的100家企业总市值约759亿元。其中，华士食品市值178.21亿元位居榜首，第二为晶欣股份，市值123.00亿元，成记泰达排第三市值29.70亿元。</p>
-<p>从上榜公司市值分布看，TOP100中市值超过10亿元的有12家企业，市值在5-10亿元、3-5亿元、2-3亿元、1.5-2亿元企业分别有15家、22家、14家、15家。另外，市值在1.5亿元以下的有22家企业。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241117/v2_7f8227714790418b9bf6fd5e81d2eab4@000000_oswg96537oswg886oswg473_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>注：小值不包含，大值包含；如：5-10亿，不包含5亿，包含10亿。</p>
-<p><strong>榜单中，排第1至10位的公司及对应市值分别是：</strong></p>
-<p>华士食品（836475）178.21亿元；</p>
-<p>晶欣股份（873175）123.00亿元；</p>
-<p>成记泰达（873893）29.70亿元；</p>
-<p>华联电子（872122）25.86亿元；</p>
-<p>汇通银行（872386）24.24亿元；</p>
-<p>美家帮（836509）21.60亿元；</p>
-<p>志闽旅游（873246）21.00亿元；</p>
-<p>和特能源（873662）18.19亿元；</p>
-<p>无限自在（834476）15.36亿元；</p>
-<p>浩添储能（873834）11.91亿元。</p>
-<p><strong>10家企业冲击北交所</strong></p>
-<p>挖贝研究院数据显示，截至11月14日，TOP100中有10家企业正冲击北交所。其中，9家企业处于辅导期，还有1家企业申报材料获受理。</p>
-<p>处于辅导期的9家企业为闽瑞股份、盈浩文创、铂联科技、鑫森炭业、奥翔体育、为正生物、视瑞特、闽威实业、惠尔明。</p>
-<p><strong>软件和信息技术服务业企业数量最多 有15家</strong></p>
-<p>从上榜公司行业分布来看，软件和信息技术服务业企业最多，有15家，接下来是专用设备制造业，有10家企业，然后是互联网和相关服务，有7家企业。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241117/v2_8026495f9a2146ebb2f94878365c488b@000000_oswg187604oswg875oswg864_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>注：行业分类采用所属证监会行业</p>
-<p><strong>附-2024年11月福建新三板企业市值TOP100（数据截至11月14日收盘）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241117/v2_d927b3232d014dbc854aa1bf5fa4a6aa@000000_oswg262939oswg580oswg1169_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>-  <strong>END</strong>  -</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4NjAxODgzNg==&amp;mid=2652214377&amp;idx=1&amp;sn=2f8db2b2da7e17cc0440ea1234269b6f&amp;chksm=857a454aaa9f90c9947c4496eab5e8088229f8590830a9d4b39bc99705c33f0c8115309f382b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“挖贝网”（ID：wabeiwang）</a>，作者：让信披更及时，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3040325021118720</guid><pubDate>Tue, 19 Nov 2024 17:24:00 +0800</pubDate></item><item><title>2024年11月河南新三板企业市值TOP100：12家企业冲击北交所</title><link>https://36kr.com/p/3038881585360905</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文 | 挖贝网 王思宇</p>
-<p>挖贝研究院梳理出2024年11月河南新三板企业市值TOP100（以下简称：“榜单”或“TOP100”），8家企业市值超过10亿元，12家企业冲击北交所。</p>
-<p><strong>8家企业市值超过10亿元</strong></p>
-<p>据挖贝研究院梳理，榜单上的100家企业总市值约400亿元。其中，酒便利市值25.02亿元位居榜首，第二为鼎丰股份，市值24.11亿元，深冷能源排第三市值18.96亿元。</p>
-<p>从上榜公司市值分布看，TOP100中市值超过10亿元的有8家企业，市值在5-10亿元、3-5亿元、2-3亿元、1.5-2亿元企业分别有13家、22家、10家、18家。另外，市值在1.5亿元以下的有29家企业。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_01358a7020814f36949b1e8ff0ad682a@000000_oswg100173oswg881oswg508_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>注：小值不包含，大值包含；如：5-10亿，不包含5亿，包含10亿。</p>
-<p><strong>榜单中，排第1至10位的公司及对应市值分别是：</strong></p>
-<p>酒便利（838883）25.02亿元；</p>
-<p>鼎丰股份（873459）24.11亿元；</p>
-<p>深冷能源（831177）18.96亿元；</p>
-<p>岷山环能（873827）15.65亿元；</p>
-<p>森鹏电子（874051）13.41亿元；</p>
-<p>金科资源（835476）12.24亿元；</p>
-<p>祥龙电力（836287）10.80亿元；</p>
-<p>宝泉旅游（871703）10.17亿元；</p>
-<p>黄淮股份（873542）9.83亿元；</p>
-<p>全宇制药（832205）9.15亿元。</p>
-<p><strong>12家企业冲击北交所</strong></p>
-<p>挖贝研究院数据显示，截至11月14日，TOP100中有12家企业正冲击北交所。其中，岷山环能申报材料获受理，11家企业进入辅导期。</p>
-<p>11家进入辅导期的企业为汇知康、华英包装、利欣制药、科益气体、利盈环保、春泉园林、金恒新材、宝润达、华泰机械、锐驰高科、中裕广恒。</p>
-<p><strong>化学原料和化学制品制造业占比12%</strong></p>
-<p>从上榜公司行业分布来看，化学原料和化学制品制造业上榜企业数量最多，有12家；其次是软件和信息技术服务业，有11家；然后是专用设备制造业，有8家企业。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_11c6e7f12f484101b83b5c5060fbb919@000000_oswg188941oswg853oswg863_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>注：行业分类采用所属证监会行业</p>
-<p><strong>附-2024年11月河南新三板企业市值TOP100（数据截至11月14日收盘）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_e213ad39b44440fc853678fd8737fccb@000000_oswg258225oswg577oswg1169_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>-  <strong>END</strong>  -</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4NjAxODgzNg==&amp;mid=2652214369&amp;idx=2&amp;sn=7f004c5682b07343d11840cb211ecfde&amp;chksm=852213b4e4cabdcc1049a8a98e32e4e061d97b588671fb6430c3f68ebf9161ea5d2355c57f1b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“挖贝网”（ID：wabeiwang）</a>，作者：让信披更及时，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3038881585360905</guid><pubDate>Tue, 19 Nov 2024 17:25:00 +0800</pubDate></item><item><title>北交所一周审核动态：3家企业更新进展 宏海科技业绩持续性问题被连问三轮</title><link>https://36kr.com/p/3038881495756803</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文 | 挖贝网 王思宇</p>
-<p>11月8日至11月14日，共有3家北交所在审企业更新进展。</p>
-<p>具体来看，宏海科技披露第三轮问询回复，科马材料收到第二轮审核问询函，能之光完成一轮问询的回复。</p>
-<p>其中，宏海科技于近日披露第三轮问询的回复，业绩持续性相关问题被持续追问。在第三轮问询中，北交所要求企业说明热交换器业务是否具有持续性，以及空调结构件产品是否已达销售数量瓶颈，后续是否具有持续增长或持续销售能力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241116/v2_7b1cb3f04aeb46d69bc9d96993277235@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p><strong>详细阅读</strong></p>
-<p><strong>宏海科技披露北交所第三轮问询回复：</strong></p>
-<p><strong>业绩持续性问题被持续追问</strong></p>
-<p>近日，北交所在审企业宏海科技（831075）披露了第三轮问询的回复，仅有一问，为“业务独立性与经营持续性”，北交所继续追问业绩持续性相关问题。</p>
-<p>挖贝研究院资料显示，宏海科技主营业务为空调结构件、热交换器、显示类结构件等家用电器配件产品的研发、设计、制造和销售。</p>
-<p>在第三轮问询中，北交所要求企业说明热交换器业务是否具有持续性，还要求企业补充说明空调结构件产品是否已达销售数量瓶颈，后续是否具有持续增长或持续销售能力。</p>
-<p>针对热交换器业务是否具有持续性，宏海科技回复中称，公司热交换器业务具有持续性，主要体现在7个方面。一是，公司在美的空调供应链体系中地位较高、供应份额较大，被替代的难度较大；二是，公司热交换器产品的核心技术指标优于客户标准，具备长期供应的技术壁垒和基础；</p>
-<p>三是，公司具备能满足美的需求的竞争优势，对美的集团的产品供应有较大提升空间四是，美的集团进行轻资产转型及制造出海战略，供应商分工配套程度有望提高；五是，公司目前供应的热交换器型号均较新，未来生产生命周期中的持续订单有保障；</p>
-<p>六是，境内外空调市场需求增长、美的集团市场占有率提升为公司热交换器业务持续发展提供有力保障；七是，热交换器产品应用领域和销售区域的逐步扩展带动公司热交换器业务持续增长。</p>
-<p>在空调结构件产品方面，公司表示，空调结构件产品未达销售数量瓶颈，后续具有持续增长能力。</p>
-<p>具体原因有两点。一是，公司主要客户的产量持续增长，公司供应份额有较大提升空间。公司称，根据泰国美的出具的《关于建议供应商加快提供配套产能的函》，泰国美的建议泰国宏海加快建设进度，尽快建设并新投产热交换器产线6条，冲压设备60台以上，注塑设备70台以上，尽快达到为600万台空调生产的配套产能。预计未来泰国宏海将成为公司空调结构件增长的主要来源点。</p>
-<p>对于海尔集团，公司表示，目前，海尔集团武汉工厂未来产量较为稳定，而泰国工厂产量及规划产量快速增长，根据公开报道，2024年8月海尔泰国春武里空调工业园奠基，预计年产能600万台，建成后将成为海尔空调产业最大的海外制造基地。鉴于发行人对海尔泰国空调工厂较高的供应地位，未来随着泰国海尔工厂产能及产量的逐步释放，发行人空调结构件产品存在较大的增长潜力。</p>
-<p>二是，境内外空调市场需求增长、主要客户市场占有率提升为公司空调结构件业务持续发展提供有力保障。</p>
-<p>近年来，头部家电企业的空调产品增速明显高于行业平均增长幅度。根据美的集团披露的公开信息，其家用空调国内线下份额从2019年的28.9%上升至2023年的34.9%，线上份额从2019年的30.0%上升至2023年的34.5%。根据海尔集团披露的公开信息，其家用空调国内线下份额从2019年的12.2%上升至2022年的19.5%，线上份额从2019年的8.8%上升至2022年的14.4%。</p>
-<p><strong>附－宏海科技一至二轮被问业绩持续性相关问题</strong></p>
-<p>一轮问询：结合发行人所处行业的市场前景、竞争对手、营销策略、自身竞争优势、疫情影响情况等，说明与美的集团、海尔集团的业务合作是否具有稳定性及可持续性，是否存在被替代风险，是否对持续经营能力构成重大不利影响，发行人有何应对措施，相关风险是否充分披露。</p>
-<p>二轮问询：结合2024年半年度业绩变动情况、2024年半年度各主要产品销售数量、金额变动情况以及向各主要客户销售产品数量、金额、价格变动情况等，说明发行人期后业绩增长是否具有持续性。</p>
-<p>-  <strong>END</strong>  -</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4NjAxODgzNg==&amp;mid=2652214369&amp;idx=1&amp;sn=945b60d519d840b29584a87c9042ec43&amp;chksm=85917a07ebae109787386d843c6d50b0c4a93aca09583f2a56945182ed5e0f59939c10ca4cf4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“挖贝网”（ID：wabeiwang）</a>，作者：让信披更及时，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3038881495756803</guid><pubDate>Tue, 19 Nov 2024 17:25:00 +0800</pubDate></item><item><title>最新北交所市值管理的8点解读</title><link>https://36kr.com/p/3040387710890242</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241117/v2_9680fafc45ad43fb81c5afe65b36bc20@000000_oswg195721oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>周五，证监会发布并实施《上市公司监管指引第10号——市值管理》，进一步引导上市公司关注自身投资价值，切实提升投资者回报。</p>
-<p>新三板评论简单谈谈《市值管理指引》与北交所的关联：</p>
-<p>1、政策适用：《市值管理指引》适用于北交所，表明北交所的市值管理既是师出有名，又是市场之需，也是公司之责。</p>
-<p>2、市值管理：是指上市公司以提高公 司质量为基础，为提升公司投资价值和股东回报能力而实施 的战略管理行为。</p>
-<p>3、市值意识：上市公司应当牢固树立回报股东意识，采取措施保护投资者尤其是中小投资者利益，诚实守信、规范运作、专注主业、稳健经营，以新质生产力的培育和运用，推动经营水平和发展质量提升，并在此基础上做好投资者关系管理，增强信息披露质量和透明度，必要时积极采取措施提振投资者信心，推动上市公司投资价值合理反映上市公司质量。</p>
-<p>4、公司质量：是公司投资价值的基础和市值管理的重 要抓手。上市公司应当立足提升公司质量，依法依规运用各 类方式提升上市公司投资价值。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241117/v2_8608b28e81574902aefbe4baffef6ddf@000000_oswg65153oswg1080oswg654_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>5、提升方式：上市公司应当聚焦主业，提升经营效率和盈利能力，同时可以结合自身情况，综合运用下列方式促进上市公司投资价值合理反映上市公司质量:并购重组、股权激励、员工持股计划、现金分红、投资者关系管理、信息披露、股份增持和回购等方式提升上市公司投资价值。</p>
-<p>6、管理制度：北证50成份指数成份股公司应当制定上市公司市值管理制度，至少明确以下事项：</p>
-<p>（一）负责市值管理的具体部门或人员；</p>
-<p>（二）董事及高级管理人员职责；</p>
-<p>（三）对上市公司市值、市盈率、市净率或者其他适用指标及上述指标行业平均水平的具体监测预警机制安排；</p>
-<p>（四）上市公司出现股价短期连续或者大幅下跌情形时的应对措施：连续20个交易日内收盘价格跌幅累计达到20%；收盘价格低于最近一年股票最高收盘价格的50%。</p>
-<p>7、制定执行：北证50成份股公司应当经董事会审议后披露市值管理制度的制定情况，并就市值管理制度执行情况在年度业绩说明会中进行专项说明。其他上市公司可以结合自身实际情况，参照执行前两款规定。</p>
-<p>8、估值提升：长期破净公司应当制定上市公司估值提升计划，并经董事会审议后披露；估值提升计划相关内容应当明确、具体、可执行，不得使用容易引起歧义或者误导投资者的表述；长期破净公司应当至少每年对估值提升计划的实施效果进行评估，评估后需要完善的，应经董事会审议后披露；市净率低于所在行业平均水平的长期破净公司应当就估值提升计划执行情况在年度业绩说明会中进行专项说明。</p>
-<p>新三板评论认为《市值管理指引》的发布实施， 可规范上市公司市值管理行为，树立公司市值管理意识，提升公司投资价值，增强投资信心，提高投资回报，稳定资本巿场。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4Mjg1MjU0Ng==&amp;mid=2651143787&amp;idx=1&amp;sn=a0d776582fe1c0120ebcf014384a5299&amp;chksm=854898042e0d44ef947fd66ba7038da7375a7a0a060e39047bcd55b1cb6895bd7f79c1157277&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“新三板评论”（ID：neeq333）</a>，作者：周运南，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3040387710890242</guid><pubDate>Tue, 19 Nov 2024 17:26:00 +0800</pubDate></item><item><title>AIGC 时代，学习的意义到底是什么？</title><link>https://36kr.com/p/3030523132355849</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>这一两年，越来越多的朋友开始意识到有点跟不上AI技术的发展了！</p>
-<p>以ChatGPT、文心一言为代表的一系列aigc工具的流行，让人们在面对AI时，自愧不如，惊讶于AI模型的无所不能，既有渊博的知识，又具备高效的办公效率。</p>
-<p>ai变得越来越像人，很多工作都有被替代的危机，这种生产力的变革，正在让数百万级的知识类工作者面临失业压力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241110/v2_a6c16465fee243afaaae91ee97b6ed20@000000_oswg949525oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>以前，掌握一技之长，就可以在职场“一招鲜，吃遍天”。</p>
-<p>不管是ppt做得漂亮，还是查数据又快又准，再或者能够写出一手的好材料，这些优秀特质，都能让人在职场中“立得很稳”。</p>
-<p>然而，随着ai算法通过大量数据和任务训练，得以不断精进，这些职场人的优势慢慢被弱化，甚至变得“无用”。</p>
-<p>ai正在消灭大量“中间”的人才 ...</p>
-<p>理论上，专业性技能，都有一定程度的被替代风险，而创新性技能以及沟通性技能，则难以被替代 ...</p>
-<p>前者对应的任务在结构性、确定性方面更强，而后者，则更多表现出对随机性、不确定性应对的需求。</p>
-<p>aigc时代，作为职场人，到底应该如何让自己区分于ai，形成错位竞争呢？</p>
-<p>换句话说，由于ai技术变革，需要重新反思学习的意义，如果方向错了，即使再努力，也会成为时代的“炮灰”。</p>
-<p>为了回答这个问题，首先要了解aigc的能力体系，理解ai，驾驭ai，超越ai ...</p>
-<p>以大语言模型技术为例，aigc技术往往具有超强的知识记忆能力和整理能力，因此，盲目地死记硬背任何知识细节，这种学习方法已然过时。</p>
-<p><strong>一是要关注知识关联，知识体系，以及知识和业务的关系。</strong></p>
-<p>把知识装进大脑不是目的，独立的知识只是一堆符号和词条，不能形成价值。</p>
-<p>把知识用起来才最重要。</p>
-<p>未来的学习，不管是基础教育还是职业教育，都应当更关注解决问题的思路而非结果。</p>
-<p>能在恰当的时候提出好的问题，把知识从大模型中调取出来，应用到实际工作场景，这才是真正稀缺的能力 ！</p>
-<p>我们从来不缺少答案，我们只缺少好的问题 ...</p>
-<p><strong>二是要关注知识的变化。</strong></p>
-<p>要认识到，当前的ai技术具有一定的局限性，即只能重复历史结论和规律，缺少前瞻性视野和创新性思维。</p>
-<p>这就要求在未来的学习任务中，人们更应该关注基于现有知识的继承和创新，无论是理论创新还是应用创新，都意义非凡。</p>
-<p>尽管，这对绝大多数人来说是更大的挑战，但创新力其实是可以通过训练完成的。</p>
-<p>这建立在对事物本质特征的理解和运行规律的洞察。</p>
-<p>因此，在学习一门新的学科或技术时，应当做到“胆大心细”，说白了，即要做到“举一反三”，活学活用。</p>
-<p><strong>三是要关注要掌握使用ai的技能。</strong></p>
-<p>ai作为一种新型生产工具，用好了可以为人赋能，提高工作效率，“卷赢”同行 ...</p>
-<p>未来，使用ai工具自动化办公，就像使用excel、ppt，将成为大多数职场人的工作标配。</p>
-<p><strong>这主要体现在三个方面：</strong></p>
-<p>一是aigc是很好的学习工具，可以通过敏捷的迭代式提问方式，帮助人高效率地完成对一个新领域必要知识的理解和梳理；</p>
-<p>二是aigc继承了很多常见办公自动化模块，比如翻译、摘要、写稿等等，把人的注意力解放出来，进行有价值的思考和决策；</p>
-<p>三是aigc可以通过“智能助手”的方式，起到对外沟通的作用，具有强交互能力，辅助人完成海量、精准的业务链接。</p>
-<p>值得注意的是，对于ai工具使用的难点并不是软件操作方面，而是能够有效甄别ai给出结论的可靠性！</p>
-<p><strong>关于“aigc技术”，还有什么想说的？ 欢迎在评论区留言交流 ...</strong></p>
-<p><strong>数易达科技</strong>，长期关注数据价值开发和应用场景构建的前沿AI技术，希望通过大数据工具和平台帮助企业快速建立成熟的数据资产管理体系（了解更多）。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4NjI3MjI5Mw==&amp;mid=2650217454&amp;idx=1&amp;sn=45a8523e14c647d25d8ce88b226c18bf&amp;chksm=86026e50a7f6231b222179dcfbf2cb9cf7e0ef1fcf64c2589c233c8dbbb97d8cd70e49893995&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“大话数字化转型”（ID：dataminingxmz）</a>，作者：数字化刘老师，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3030523132355849</guid><pubDate>Tue, 19 Nov 2024 17:28:00 +0800</pubDate></item><item><title>“不差钱”的阿里计划再融一笔</title><link>https://36kr.com/p/3043105038895753</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>继今年5月份发行50亿美元可转债私募融资之后，阿里又出手了。</p>
-<p>11月18日，阿里巴巴在港交所发布自愿公告及海外监管公告，宣布拟发行优先无担保票据。此次发行包括美元计价的优先无担保票据（美元票据）和人民币计价的优先无担保票据（人民币票据）。</p>
-<p>根据公告，阿里巴巴此次发行的优先无担保票据募集资金将用于一般公司用途，包括偿还境外债务和股份回购。具体发行条款，包括本金金额、利率、到期日等，将在发行定价时确定。</p>
-<p>不过值得注意的是，在阿里公布2025财年第二季度业绩时，<strong>有消息称，阿里巴巴集团计划通过双币债券发行筹集约50亿美元，对此事，阿里方面没有回应。</strong></p>
-<p>而今日发布的公告显示，美元票据的发售对象为根据美国证券法第144A条获合理地认为合格机构买家的人士以及依据美国证券法S条例进行离岸交易的某些非美国人。同时，公司拟就美元票据的发行签订注册权协议，以促进票据的交换或转售。</p>
-<p>人民币票据的发售对象则依据美国证券法S条例进行离岸交易的某些非美国人。此次票据发行并未依据1933年美国证券法及其修订版或任何州的证券法注册，且本公告不构成在美国或其他国家和地区出售任何证券的要约或认购任何证券的招揽。</p>
-<p>发行债券并不意味着阿里巴巴缺钱，事实上，阿里巴巴的账户里趴着大量的钱。据最新的财报显示，截 2024年9月30日止，阿里巴巴现金及现金等价物、短期投资和包括合并资产负债表上的股权债券和其他理财投资金额为5543.78亿元，约合789.98亿美元。</p>
-<p><strong>“我们也在积极探索各种股份回购的机会包括筹集资金。5月份我们筹集了50亿美元的可转债，6月份我们回购了58亿美元。”</strong>阿里高管最新的财报业绩会上表示，境内的人民币现金是比较雄厚的，在融资工具上可能会对离岸人民币和美元有更大的兴趣。</p>
-<p>对于阿里发行债偿还境外债务和股份回购一事，在盘古智库高级研究员江瀚看来，从当前的资金成本角度来看，阿里巴巴发行优先无担保票据是一种相对低成本的融资方式。这种融资方式有助于提升公司的财务稳健性、优化资本结构和降低偿债压力。因此，从资金成本的角度分析，阿里巴巴发行优先无担保票据的行为是合理的。</p>
-<p>汇生国际资本行政总裁黄立冲在接受新消费日报记者采访时表示，优先无担保票据通常具有相对较低的融资成本，因为这类票据的信用等级较高，投资者对其信心较强，从而愿意以较低的利率进行投资，阿里巴巴选择发行美元和人民币计价的优先无担保票据，这种多元化的融资方式可以为公司提供更多的融资选择，降低单一融资方式带来的风险。</p>
-<p>黄立冲进一步分析称，通过发行优先无担保票据，阿里巴巴可以调整其资本结构，降低债务成本，提高财务灵活性。还可以增加公司的债务融资比例，从而在一定程度上提高公司的财务杠杆效应，增加股东收益。</p>
-<p>财联社声明：文章内容仅供参考，不构成投资建议。投资者据此操作，风险自担。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/3x-wsVoaHU9CoVbx_XLLDA" rel="noopener noreferrer nofollow" target="_blank">“新消费日报”</a>，作者：徐赐豪，责编：高梦阳，编辑 ：梁又匀，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043105038895753</guid><pubDate>Tue, 19 Nov 2024 17:31:00 +0800</pubDate></item><item><title>这届年轻人，靠「三合一」过冬？</title><link>https://36kr.com/p/3043100938406530</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>雪季已经开始，但雪季营销却迟迟没有动静。</p>
-<p>按理说有「双十一」和入冬节点的双 buff 叠加，绝对是品牌发力雪季营销的最好节点。但除了 BURTON 等几家专业滑雪品牌偶有预热外，各大运动品牌的直播间和线下门店还鲜少能见大规模活动。</p>
-<p>所以，他们都忙什么去了？</p>
-<p>随机点进几个品牌直播间，走进几家线下门店，我们发现<strong>大家都在默契地将「三合一」冲锋衣挂成自家的一号链接或陈列在门店最显眼的位置。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241119/v2_6faa87c645d04fb680aaa830136cfb9c@5888275_oswg139052oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">多个品牌常将三合一冲锋衣挂成直播间热门链接</p>
-<p>冲锋衣加内胆摇身变成三合一，真能占得了冬季市场的风光？</p>
-<p>在回答这个问题前，或许我们要先搞清楚—— 到底什么是三合一？</p>
-<h2><strong>三合一，怎么穿都有面？</strong></h2>
-<p>对于这个名字的由来，并不是真的三件套成一件的套装组合——一衣三穿，实为「三合一」。</p>
-<p>将其拆解开来可以得到一件内胆和一件外套：<strong>内胆通常为抓绒材质，近期市面上也有不少棉服、羽绒款式出现，外套则与常规冲锋衣基本相似。</strong></p>
-<p>在购物平台搜索「三合一」，映入眼帘的几件热销款式大多来自「熟面孔」——FILA、李宁、迪桑特、北面、始祖鸟、伯希和、骆驼……</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241119/v2_2d03184102c4409f8dd3bc8e5f6af59d@5888275_oswg168949oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">各大购物平台上琳琅满目的三合一冲锋衣‍‍‍‍‍</p>
-<p>成为运动、户外品牌们的主推单品实属情理之中，但再将购物页面再往下拉我们甚至能看到许多意料之外的新面孔——<strong>以防晒衣起家的蕉下，甚至连卖内衣裤卖出名的Calvin Klein、蕉内也做出了这一品类。</strong></p>
-<p>如此看来，这块市场发展不过数年却已略显拥挤，既有国际也有本土品牌入局，涉及范围囊括运动、专业户外甚至轻奢时装。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,718" src="https://img.36krcdn.com/hsossms/20241119/v2_312e4565064b46198e12a523c4420f43@5888275_oswg64056oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>资本的本能是追逐利益，说来能吸引来如此多新老玩家的三合一有何亮点？<strong>一是多样的穿法、二是丰富的适配场景。</strong></p>
-<p>对生活在一些四季分明，甚至是「垂直入夏/入冬」气温多变地区的人而言，一件定价数百到上千不止的冲锋衣也许只能在春秋偶尔露露脸，实穿率与价格一经对比下来也称不上是一件划算的单品。</p>
-<p>但如果能给冲锋衣加件可拆卸的内胆，情况或许就完全不一样了。</p>
-<p><strong>比如按互联网上铺天盖地的穿搭公式指导的那样——室外穿外套、室内穿内胆，起风降温就把两件合成一件穿。</strong>两件单品、三种组合，看似「买一得三」的穿法在消费者心中又加了分。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1339" src="https://img.36krcdn.com/hsossms/20241119/v2_e969f6b7ee23476e93919bd19e432eec@5888275_oswg86693oswg1080oswg1339_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">「一衣三穿」的三合一冲锋衣图源：迪桑特</p>
-<p>当然，多样的穿法组合带来的连锁反应还使其适配更多场景。上身三合一进可过冬、退可适配春秋，甚至夏天去周边爬个山、公园露个营也能满足需求。</p>
-<p><strong>妥妥的一衣穿四季？</strong></p>
-<p><strong>眼看实用性拉满，价格却与单件冲锋衣相差不多，不出意料地，一生都爱精打细算的不少中国人将其视为自己的「梦中情衣」。</strong></p>
-<p>有人涌入各平台直播间、购物软件爽快下单，于是<strong>即便价格区间在1500-3000元，客观而言并不算低的FILA和北面三合一也能卖出月销3000+的数据。</strong>还有人抱着入手的想法，在小红书超10万篇相关笔记下货比三家、学习选购攻略。</p>
-<p class="image-wrapper"><img data-img-size-val="893,637" src="https://img.36krcdn.com/hsossms/20241119/v2_f54adde29b154eb691fd73876209d044@5888275_oswg37408oswg893oswg637_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>火热的销售和讨论数据印证着三合一冲锋衣不愁卖的事实，这不禁令人好奇——是谁用真金白银砸出了这块规模巨大的市场？</p>
-<p>带着这样的疑问，我们走入了几家品牌的线下门店。</p>
-<h2><strong>「三合一」的蛋糕，越做越大</strong></h2>
-<p>「这是我们当季的主推产品。」</p>
-<p><strong>在FILA、北面和可隆的店面，店员们第一时间都会不约而同地将手指向门口或橱窗陈列的三合一冲锋衣。</strong></p>
-<p>甚至其他几个品牌的线下门店，情况也几乎如出一辙，恍惚间令人误以为陷入《开端》中时空循环的怪圈。</p>
-<p>即便风格定位不同，各家在卖三合一冲锋衣时十分有默契——<strong>除了款式、颜色等常用推荐术语外，「卖得最好」「老少皆宜」等形容词常被他们挂在嘴边。</strong></p>
-<p>FILA甚至将三个身着男、女和儿童款三合一的模特放在门店中间。如此一来，一家三口，一人一件，一步到位。</p>
-<p>几番观察下来，不论是陈列数量的占比、位置还是店员推荐的次数，三合一在最近这段时间几乎都能稳坐头名。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241119/v2_1a31e82c8c6245a0af964e821e7189e2@5888275_oswg165017oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">FILA门店陈列的三合一冲锋衣</p>
-<p><strong>不仅如此，线上直播间和购物平台围绕该品类开展的竞争也愈演愈烈。</strong>满减、发券、铺明星同款……一通眼花缭乱的操作下来也只为自家产品能多在屏幕上「露脸」。</p>
-<p>就算挖空心思也要在这条赛道「卷」出动静？说到底，还是因为心甘情愿为这款单品掏钱的人实在是太多了。</p>
-<p><strong>有数据指出，目前我国户外运动参与人数已超过4亿人，与之对应的还有即将在2025年总规模超3万亿的市场。</strong>而冲锋衣兼具轻薄和功能性，无疑成为诸多户外爱好者的必选单品。</p>
-<p>但不是所有人都有远程徒步、攀登等「硬核」装备需求。他们中的大多数需要的冲锋衣只需具备基础性能，能满足城市周边的轻装徒步和爬山需求即可。</p>
-<p><strong>与其花相同甚至更多钱追求条件过硬的装备，不如将目光转向加了内胆后使用率几乎翻番的三合一冲锋衣——大部分人是这么想也是这么做的。</strong></p>
-<p>也正是他们，将这块名为「三合一」的蛋糕越做越大。</p>
-<h2><strong>是智商税，还是过冬最优解？</strong></h2>
-<p>蛋糕确实在变大，但还是跟不上品牌们入局分蛋糕的速率，这是身在局中的各方不得不面对的残酷现实。</p>
-<p><strong>留给品牌们前进的姿势只有一种，那就是——「卷」。</strong></p>
-<p>所以，针对设计、材质、科技甚至是定价，多家品牌线上线下同时发力、好不热闹。</p>
-<p>但从如今的视角出发回望过去，我们或许很难相信，如此爆火的产品也曾在几年前初入大众视线时饱受质疑，甚至一度被称为「智商税」。</p>
-<p><strong>在户外领域，本质还是冲锋衣的三合一难免受到户外爱好者们审视。</strong>与日常穿着场景不同，户外要面对的天气总是极端又多变。因此，他们对衣着设计、材质以及穿衣方法的要求也会更高，其中就有一种三层穿衣法被广泛接受。</p>
-<p>这种方法又名「洋葱穿衣法」，顾名思义就是将不同材质、不同功能的衣服通过加减来满足在各类户外场景穿梭的需求。具体公式可以为：贴身吸汗的基础层、保暖的中层与满足防风防水性能的外层。</p>
-<p>两相比较后不难发现，<strong>三合一缺乏基础层，并且在功能性方面还难以完全满足专业户外玩家们的需求。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241119/v2_ede32e787f814ca6866a49ee7a880e1c@5888275_oswg152766oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">三层穿衣法</p>
-<p>而另一边的冬季市场，三合一因单一的抓绒内胆与轻薄外套被质疑——<strong>御寒性能是否能与羽绒服、棉服这样的老牌保暖选手「掰手腕」？甚至还曾因穿脱、清洗麻烦被不少人诟病。</strong></p>
-<p>似乎一度夹在了户外与冬季两个专业市场之间，位置好不尴尬。但看向如今火爆的现状，其处境已然发生了天翻地覆的变化。</p>
-<p>是的，<strong>三合一摇身一变从过去的「智商税」成了过冬的「最优解」</strong>。<strong>这背后的很大原因或许要归于FILA、迪桑特、北面、始祖鸟等运动和户外品牌入局。</strong></p>
-<p>竞争者众多的品类，难以避免地会形成「鄙视链」。但为了在消费者眼前拉满存在感，品牌们也不会对其感到排斥，甚至渴望在其中「卷」出一个好位置。</p>
-<p>他们不缺专业科技，要想抢下先机在三合一「鄙视链」还未完全形成时占到有利位置，就必然会拿出自己的优势用设计与科技为其赋能。</p>
-<p><strong>置身市场最前端的品牌们显然已有所行动。</strong></p>
-<p>于是，我们看到<strong>诸多运动与专业户外品牌大张旗鼓地拿出了羽绒内胆、防水面料，将三合一冲锋衣放到旗下的户外产品阵列中。</strong></p>
-<p>其中甚至还包括靠滑雪运动起家的迪桑特和户外老炮北面。作为冬季市场资深玩家的他们，也在为旗下三合一产品高调宣发，用行动「明示」该品类的潜力所在。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241119/v2_47199b1bf8e84137a0d9a2291158c0b9@5888275_oswg115274oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>「再不好过如今也好过了」，在一众运动品牌的簇拥下，三合一风光回宫。</p>
-<p>庞大的冬服需求市场撞上性能有所改善的三合一，后者一跃成为今年双十一的爆款单品。</p>
-<p>但这股势头是否会随着严寒渐近有所冷却？三合一在冬季市场的前景到底如何？我们也都在等市场和时间给一个答案。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/LtzUxJXHf0O4bYatpd-uuw" rel="noopener noreferrer nofollow" target="_blank">“体育产业生态圈”</a>，作者：杨雨曼，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043100938406530</guid><pubDate>Tue, 19 Nov 2024 17:31:00 +0800</pubDate></item><item><title>已读乱回，被AI助手气到的年轻人都在怎么「调教」AI？丨年轻人AI助手小调查</title><link>https://36kr.com/p/3043129279122313</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="3556,2000" src="https://img.36krcdn.com/hsossms/20241119/v2_81e46d28284042699c6e58fed1b880c2@5624726_oswg2413777oswg3556oswg2000_img_jpeg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc"> </p>
-<p>随着技术的不断发展和进步，年轻人已经从随时随地喊“妈”，变成了随时随地呼唤AI助手。场景也从单纯的知识讲解拓展到民生政务，大到证件如何办理，小到提供附近美食或便民设施的地点和路线——AI助手正在全方位地走进当代人生活的细枝末节。</p>
-<p>AI助手是怎样参与你的生活的？AI是否能切实给你提供帮助，或者说反倒给你添乱了？欢迎参与“有问题就问”AI助手小调查，和我们聊聊你和AI助手的“爱恨情仇”~</p>
-<p><a href="https://www.wjx.cn/vm/tsqxP13.aspx" rel="noopener noreferrer nofollow" target="_blank">点击参与</a></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043129279122313</guid><pubDate>Tue, 19 Nov 2024 17:51:00 +0800</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 19 Nov 2024 18:30:26 +0800</lastBuildDate><pubDate>Tue, 19 Nov 2024 18:30:26 +0800</pubDate><item><title>“互联网巨头”乐信，撕不掉网贷标签</title><link>https://36kr.com/p/3043062953377286</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>业绩不温不火的乐信（LX），迎来一次意外的高光时刻。</p>
+<p>近日，中国互联网协会发布了《中国互联网企业综合实力指数（2024）》，乐信排名第24位，力压东方财富、马上消费金融、汇付天下等多家金融巨头，在金融行业仅次于蚂蚁集团。而在2023年的榜单中，乐信甚至未进入前一百名，2024年堪称一匹横空而出的黑马。</p>
+<p class="image-wrapper"><img data-img-size-val="655,373" src="https://img.36krcdn.com/hsossms/20241119/v2_80768abfdf1549db964ce8b1a6efa934@5888275_oswg179712oswg655oswg373_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源中国互联网协会</p>
+<p>前几年，在胡润财富榜单上，一直盘旋着几位金融科技行业的大佬，包括趣店创始人罗敏、玖富数科老板任一凡、微贷网创始人姚宏，乐信创始人肖文杰也是其中之一。随着乐信业绩的低迷，这几年肖文杰也低调了不少。</p>
+<p>本次，乐信突然在互联网行业闪亮起来，不知道肖文杰会作何感想。</p>
+<h2><strong>从野蛮生长到美股上市</strong></h2>
+<p>据肖文杰在乐信内部发表的公开信，2013年肖文杰和几个小伙伴一起从腾讯离职，怀着让每个人都可以买得起手机的愿望开始创业。在深圳的一家咖啡厅里，肖文杰和团队成员一起摸索出了“电商+分期”的新模式。</p>
+<p>其实，在加入腾讯之前，肖文杰就想好要创业。他给自己的规划是，在腾讯干五年就出来创业。</p>
+<p>彼时，肖文杰还在腾讯担任财付通产品总监，写出过腾讯第一个扫码支付的产品方案，手下有50多个人，并且肖文杰也深得老板赏识。</p>
+<p>据36氪相关报道，原微信支付首任总经理、现乐信总裁吴毅不止一次公开表示，肖文杰是他见过的学习能力最强的人，没有之一。不过，即便是面试了9次才进入腾讯，肖文杰也没有丝毫犹豫。在腾讯的第五年，肖文杰看了很多行业方向，一直在想到底要干什么，O2O、电商等创新模式，他都看了一遍，还做了很多分析模型。</p>
+<p>“我就按照三个标准去筛选：第一，要有很大的机会，至少容下一个上市公司的规模；第二，商业模式要清晰，不能一味烧钱：第三，一定是未来可能成为热点的项目。分期乐的模式符合这个三个标准，而且线下调研和分析显示，这个模式接近最高，失败率最低。”肖文杰在接受媒体采访时表示。</p>
+<p>事实证明，肖文杰的眼光很准。分期乐从手机分期起家，经过野蛮生长的校园贷的洗礼，终于走到美股上市。</p>
+<p>押宝肖文杰，资本也看上了分期电商这块肥肉。在递交招股书之前，乐信已经完成5轮融资，投资机构包括险峰长青、经纬中国、京东集团、泰康保险以及DST旗下基金管理公司Apoletto Asia Ltd，其中险峰长青算是乐信最早的投资者。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,441" src="https://img.36krcdn.com/hsossms/20241119/v2_424c81dae81d4d70b442785e266748fa@5888275_oswg49113oswg1080oswg441_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不过，在乐信上市之后，上述机构投资者纷纷高位套现离场。2019年9月，乐信股价一度跌至６美元左右，太盟投资集团（PAG）联合华兴资本抄底乐信，通过私募可转债融资，投资了乐信３亿美元。</p>
+<p class="image-wrapper"><img data-img-size-val="824,310" src="https://img.36krcdn.com/hsossms/20241119/v2_86f73b1b90294b258f65c9ac233a1716@5888275_oswg134415oswg824oswg310_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>截至2024年11月8日收盘，乐信股价已跌至３美元左右。这或意味着，当初上述两家机构的３亿美元投资已经“腰斩”。</p>
+<p>据wind数据，截至2024年9月17日，主要机构投资者K2 partners entities（险峰长青）、国际资管巨头富达国际FIL Limited、香港投资机构Kpartners Limited持股乐信的比例分别为12.02%、7.47%、2.55%。简单算下来，险峰长青与富达国际的损失或也在亿元级别。</p>
+<h2><strong>市值已缩水3/4</strong></h2>
+<p>虽然乐信的互联网行业地位一飞冲天，但是在业绩方面，乐信却在走下坡路。</p>
+<p>作为中国第一批赴美上市的金融科技公司，乐信的业绩相当不稳定。2020年乐信的营业收入首次突破百亿大关，之后营收一度跌至90亿元以下；从归母净利润指标来看，乐信更是相当不堪，有两个年份的数据同比下滑均超过60%。和五年前相比，乐信的归母净利润已经“腰斩”。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,598" src="https://img.36krcdn.com/hsossms/20241119/v2_4bc9ee6e9d1b434ea64a7741aa776408@5888275_oswg76059oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>身处一个极易受到监管政策影响的行业，乐信早已深刻体验到“靠天吃饭”的感觉。</p>
+<p>2017年底现金贷强监管令来袭，监管机构公开表示，部分机构开展的现金贷业务存在较大风险隐患，要求各级小贷监管部门立即停批网络监管牌照，禁止新增批小贷公司跨省、区、市开展小贷业务，并且对不符合相关规定的已批设机构，要重新核查业务资质。</p>
+<p>彼时，乐信正身处美股IPO的重要关头。受行业政策影响，乐信将融资金额由原来的5亿元，调整至1.08亿元。2017年12月21日，乐信正式登录美国纳斯达克。不过，半年之后，乐信就开始试图撕掉自己身上的金融标签，转型技术服务商。</p>
+<p>2018年4月，肖文杰在乐信2018年合作伙伴大会上强调，“乐信不做金融，不参与金融业务竞争”，乐信将输出电商场景能力、大数据风险管理能力以及小微资产运营能力。</p>
+<p>当时，乐信的主营业务，包括消费分期平台分期乐、网络借贷中介服务平台桔子理财以及金融资产开放平台鼎盛资产。不过，2021年深圳市进行P2P网络借贷风险专项整治，桔子理财网贷业务公司主体深圳北枳否极技术有限公司（原名“深圳前海桔子信息技术有限公司”）于2021年2月20日通过审核，成为第16批自愿退出且声明网贷业务已结清网贷机构。而乐信的鼎盛资产平台主体深圳市前海鼎盛资产管理有限公司，也已经改名为“深圳前海鼎盛数据技术有限公司”</p>
+<p class="image-wrapper"><img data-img-size-val="704,508" src="https://img.36krcdn.com/hsossms/20241119/v2_bd39b903319f4006a9244e52668ca082@5888275_oswg156042oswg704oswg508_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">乐信VIE股权架构图（招股书）</p>
+<p>基于上述业务基本盘，在分期购物商城分期乐之外，乐信先后延展出信用消费产品乐花卡、电商平台买吖，以及助力金融机构数字化转型的云犀科技、提供信用贷款服务的乐信普惠等。由上述业务带来的营收收入，主要包括信贷便利服务收入、科技赋能收入和分期电商平台服务收入三部分。</p>
+<p>学者盘和林曾指出，对一家金融科技企业来说，金融只是一项业务，随着企业的发展、时代的进步，这项业务的具体形态也会随之发生变化，甚至到了某个阶段会被其他业务形态所取代。</p>
+<p>但是从三部分业务收入占比来看，虽然乐信已经将自己定位为一家技术服务商，但是其主要营收来源一直都是金融业务。数据显示，2024年一季度，乐信的信贷便利服务收入、科技赋能服务收入、分期电商平台服务收入分别为26.48亿元、3.62亿元、2.32亿元；二季度这三项收入分别为26.69亿元、5.35亿元、4.37亿元。</p>
+<p>对于为何乐信将自己定位为一家科技服务商，而主要营收却一直来自和金融相关的信贷便利服务收入，源媒汇联系了乐信公关负责人，同时给乐信方面发去问询邮件，截至发稿，皆未获回复。</p>
+<p>一位不愿具名的行业人士告诉源媒汇，金融科技公司定位科技服务商可以提高估值，行业头部的蚂蚁金服则更激进，直接将金融科技定位改为科技金融。不过，无论哪种定位最终还是要业绩支撑。</p>
+<p>数据显示，乐信市值最高的时候为2017年12月上市当日，股价一度涨至14.88美元，市值最高达到24.4亿美元。而当下乐信市值一直在5.3亿美元左右徘徊，相较最高市值，缩水了接近3/4。</p>
+<h2><strong>布局手游、外卖业务一场空</strong></h2>
+<p>创业至今，虽然乐信一直在强调自己的定位转变，但消费分期平台分期乐，一直都是乐信的主要营收来源。</p>
+<p>据天眼查，目前乐信涉足的金融牌照涵盖银行、网络小贷、融资担保、融资租赁、保理、保险经纪等，而与分期乐平台关联的吉安市分期乐网络小额贷款有限公司，一直都是乐信的基本盘。</p>
+<p class="image-wrapper"><img data-img-size-val="984,514" src="https://img.36krcdn.com/hsossms/20241119/v2_a8d96cf17fcd40f1b763a68e34037ab8@5888275_oswg32031oswg984oswg514_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不过，创始人肖文杰的野心并不止于乐信。</p>
+<p>在天眼查上，对肖文杰的介绍为分期乐小贷董事长，此外他还有一个重要的商业标签——盟天实控人。游离于乐信体系之外的盟天集团，企业主体为深圳市盟天科技有限公司（下称“盟天科技”），创立于2013年，几乎和分期乐同时创立，寄托着肖文杰的手游梦。</p>
+<p>公开信息显示，盟天科技由资深移动互联网精英于2013年在深圳成立，主要业务方向定位于轻度手游的研发及发行，整合庞大中小广告联盟网络渠道、终端预装渠道、第三方应用商店、开放平台渠道及各大运营商渠道，提供专业的轻度游戏研发、代理、发行以及运营业务。</p>
+<p>不过，源媒汇并未发现盟天科技发布过什么游戏。登录盟天科技官网，能看到一个名为“这位同学”的校园外卖平台。平台介绍，“这位同学”隶属于盟天科技，实缴资本10亿元，2013年就进入校园市场，目前已覆盖全国50多个城市、600多家学校、500多家商户，业务涉及校园外卖、跑腿代取、乐享权益。</p>
+<p>目前，“这个同学”APP已经上架苹果商店，涵盖C端用户、商家和骑手三个版本，运营区域包括中国、科特迪瓦、泰国等国家。在国内，“这个同学”APP的流量并不高。据点点数据，2024年11月，“这个同学”APP一直处于美食佳饮类应用（免费）200名开外。在苹果商店里，“这个同学”APP的差评也很多，综合评分只有4.1分。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,943" src="https://img.36krcdn.com/hsossms/20241119/v2_59d9b494d4864d69b361aba9f5e82a20@5888275_oswg548224oswg1080oswg943_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">截图来源：盟天科技移动端官网</p>
+<p>目前，盟天科技旗下已有多家公司注销，只剩下一家保险经纪公司、一家融资担保公司和一家主营交通运输的科技公司。在建立之初，盟天科技曾是深圳市分期乐网络科技有限公司（下称“深圳分期乐”）的全资子公司，在乐信上市大半年后的2018年8月27日，深圳分期乐退出持股。这或意味着，肖文杰想要把盟天科技从乐信单独拆分出来。</p>
+<p>针对为何乐信在多家上市金融科技公司中被选中成为唯一一家入选中国互联网企业综合实力指数百强企业，源媒汇联系了乐信公关负责人，同时给乐信方面发去问询邮件，截至发稿，皆未获回复。</p>
+<p>如今，手游、外卖一场空，金融业务也越来越糟糕，互联网大佬肖文杰快要无牌可打了。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/afVNGWhyF4S2pqpgiGdwwA" rel="noopener noreferrer nofollow" target="_blank">“源媒汇”</a>，作者：陈不白，编辑：苏淮，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043062953377286</guid><pubDate>Tue, 19 Nov 2024 18:19:00 +0800</pubDate></item><item><title>我在义乌当导游，日入过万，带年轻人“搞钱”</title><link>https://36kr.com/p/3043099953073026</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在义乌游学团，寻找自己的小生意。</p>
+<p>义乌，这座以小商品市场闻名的城市，永远不缺乏创业故事与前赴后继的创业者。</p>
+<p>一位网约车司机告诉《天下网商》，离开义乌的人中有很大一部分，都会拎着大包小包的袋子或者沉甸甸的行李箱，里面装满了他们扫货的“战果”。</p>
+<p>官方数据显示，2023年义乌实现电子商务交易额4423.67亿元，同比增长13.22%。其中电子商务内贸交易额3212.07亿元，同比增长13.8%；跨境电子商务交易额1211.6亿元，同比增长11.8%。同时，全市实现网络零售额2715.9亿元，同比增长19.52%，连续七年位居全省各县（市、区）第一。</p>
+<p>作为国内外贸易的重要窗口，义乌以其丰富的商品种类和灵活的商业模式，站在了生意最前线。由此，也吸引了众多爱“搞钱”的年轻人，前来探索商业机会。</p>
+<p>但义乌市场的庞大和复杂，让许多初次到访的年轻人可能会感到迷茫，不知道如何有效逛市场，以及如何与当地商家进行有效沟通。</p>
+<p>基于这一市场需求，义乌游学团应运而生。《天下网商》了解，去年开始义乌游学团初见萌芽，到今年义乌游学团正朝着专业化和规模化发展，多家游学团创始人基本每个月都能安排4场左右的游学团。由于供不应求，部分游学团排期已经预约到了12月底。</p>
+<p>“作为第一次来义乌考察的人，参加游学团对我非常有帮助。如果没有专业的人带着走，我可能会迷失在市场中，更不用说加到心仪品类的老板联系方式。”一位参加义乌游学团的成员说。</p>
+<h2><strong>想做副业的年轻人，挤满义乌游学团</strong></h2>
+<p>在义乌，你不一定能找到最便宜的商品，但这里的货源一定比其他地方丰富。</p>
+<p>这意味着，你在日常生活中能看到的大部分小商品，几乎都能在这里找到对应的货源，这正是众多想创业的人纷纷来到义乌考察商机的主要原因。</p>
+<p>义乌一个游学团的创办者南瓜表示，她从今年5月开始正式运营游学团后，参与游学团的成员络绎不绝，其中还有来自不同大厂的在职或离职员工。“有些参团的上班族对自身处境较为担忧，生怕哪天被‘毕业’后再难找到一份合适的工作，所以想趁着还在职探索下副业。”南瓜提到。</p>
+<p>南瓜本身的经历也与游学团成员画像相符。起初，南瓜是杭州某家元宇宙公司的员工，同样因为担忧主业不稳定，为此开拓了自己的电商副业。作为一名义乌土著，南瓜会定期到义乌选购商品上架到自己的小红书店铺，也会在平台分享一些选品心得。</p>
+<p>“一开始，因为朋友想要去义乌买东西，我就带着朋友逛了下义乌市场，后来发现很多人希望我能带他们逛下义乌，我就在今年五一组了个义乌游学团，正式开启了这项业务。”南瓜分享道。</p>
+<p>另一家义乌产业带电商游学团创办者王洋，从大厂离职后，选择给自己两个月时间折腾创业，期间尝试过线下圈层拓展、品牌服务、小城咖啡店等业务，后来去义乌帮朋友找货期间，在自己的社群中分享了一些义乌见闻，由此吸引了一批想来义乌探索商机的人群。</p>
+<p>当前来看，游学团根据行程天数不同，价格也不相同，各个组织的游学团价格也有差异。《天下网商》了解，现在义乌游学团一日团价格在400~1000元左右，两日团价格在1000~2000元左右，三日团价格在2800~3700元左右。每期参团人员会控制在20人~30人不等，如果以25人计算，带一次一日团的收入约为1万元。</p>
+<p>《天下网商》观察到，参与义乌游学团的成员主要分为三大类：一类是公司在职员工，由于对工作前景感到担忧，为此想来义乌考察副业渠道，增加收入来源；</p>
+<p>另一类是已离职或即将离职的人员，这部分人群想要尝试自主创业，为此来到义乌想找到适合自己的带货品类；</p>
+<p>最后一类是考察转型商机的生意人，这类人群本身有明确需求，主要想通过游学团的带领节省自己的找货成本。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_44f573fbd9dc452aa056b9cbf6eb9c9c@000000_oswg125593oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">义乌游学团探店</p>
+<p>从年龄来看，游学团成员跨度较大，从70后到90后都有，但以年轻人居多，90后占比大概在7成以上。</p>
+<p>虽然游学团成员背景各不相同，但共同的目标是想在义乌寻找商机。他们希望在游学团的带领下，深入了解义乌市场，学习如何选品、采购和营销，以便为自己的副业或转型计划打基础。</p>
+<h2><strong>第一次来义乌，99%的人会“迷失”</strong></h2>
+<p>每个第一次来到义乌的人，都会震撼于义乌市场的“庞大”。</p>
+<p>最新数据显示，义乌国际商贸城经营面积超过640万平方米，经营商户超过7.5万个。如果想逛完所有店铺，即便每个店铺只停留1分钟，按照每天逛8小时计算，也要156天才能逛完所有店铺。</p>
+<p>“这个市场像个巨大的商品迷宫，一不小心你就会迷路。”南瓜表示，有时候游学团成员没跟上大部队步伐，就会找不到路，这也是她控制游学团人数在20人左右的主要原因。</p>
+<p>《天下网商》观察，将近90%参与义乌游学团的成员都是第一次来到义乌，大部分人对义乌充满新奇感，到每一个区域都想看看逛逛，因此也会浪费不少时间。</p>
+<p>为此，南瓜会提前制定好当天路线和参访的店铺，例如有些店铺以快速浏览、带领团员了解产品为主，停留时间大概在几分钟左右，而有些店铺可能是成员重点想考察的类目，则会停留半个小时左右，同时还会邀请店铺老板或老板娘讲解产品，让成员更清楚了解这个品类的设计，以及适合在哪个平台或国家售卖。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_faf68dce44ed4084bd206ec0dd5ec9da@000000_oswg119493oswg1080oswg586_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">义乌老板娘为游学团成员讲解产品</p>
+<p>“作为第一次来到义乌的人，如果没有人带领，我根本不知道自己想考察的类目，哪家店铺质量比较好，哪家店铺设计更佳，毕竟我看到的店铺感觉都长一个样子。”一位参与义乌游学团的成员提到。</p>
+<p>这些首次来到义乌的成员，还会面临另一个挑战——不知道如何与店铺老板或老板娘沟通。南瓜提到，“如果一个人跑到店铺向老板娘询问这件货多少钱？或者问这件货怎么卖？老板娘一听这个人就不是洽谈生意的，就会直接回：‘店铺只批发不零售’。”</p>
+<p>为此，在整个游学过程中，南瓜还会告诉成员如何与有效与老板娘沟通，比如要直接询问起批量、可否混批等词汇，甚至还会教成员通过产品标签测算成本价，这些经验对于想在义乌拿货的人至关重要。</p>
+<p>“你还可以直接请教店铺老板娘自己做哪个平台，让老板娘推荐该平台的销量爆款。毕竟他们每天接触大量客户，知道哪些货更受哪个平台欢迎，所以直接咨询效率更高。”南瓜表示。</p>
+<p>义乌游学团除了参观商贸城的店铺，还会带领成员参观工厂，介绍一件产品从出厂到销售的整个成本，进而解释部分商品的定价规则。</p>
+<p>如果游学团成员对产品感兴趣，今后可以自己与工厂对接，甚至定制相关产品，这比直接去义乌商贸城拿货价格更低。对于那些想要深入了解供应链和降低成本的成员来说，来到工厂游学的价值更大。</p>
+<h2><strong>“轻”游学项目，正在变“重”</strong></h2>
+<p>义乌游学团作为一种新兴的商业模式，最初以带领成员参观义乌店铺和工厂为主要活动内容，其目的是让成员对义乌市场有直观的了解和体验。</p>
+<p>然而，随着参与者需求的不断升级，游学团的服务内容也在逐渐深化和扩展，不再局限于前端的参观活动，而是开始转向更多“重服务”内容。</p>
+<p>王洋告诉《天下网商》，现在除了义乌游学团，还拓展了跨境电商游学团，主要形式为带领成员走访知名跨境电商企业，并邀请官方人员分享平台规则和最新的打法，同时也会邀请跨境电商创始人分享怎么选品、踩过哪些坑等从0到1的创业历程。</p>
+<p>“我们是在开展义乌游学团的时候，发现很多成员对跨境电商感兴趣，有些人就是来专门选品供给给海外平台，也有些人是纯小白，但想尝试做跨境电商。”王洋表示。</p>
+<p>基于众多成员的需求，王洋现在不仅拓展了跨境电商游学团，未来还准备拓展东南亚、中东北非，以及欧美出海游学团，带领成员去接触不同国家的商业文化和运营模式，以便更好地帮助成员开展自身业务。</p>
+<p>除了开展不同类型的游学团外，也有游学团创始人选择深耕服务深度。</p>
+<p>南瓜自身作为一个小红书电商博主，拥有在小红书从零起号做电商生意的经验。为此，每期游学团她都会分享自己的经验，为成员提供更深层次的服务，比如平台规则、运营经验、选品逻辑等，以帮助成员了解市场，提升其电商运营能力。</p>
+<p>从另一方面考虑，更“重”的服务也在进一步提升游学团的市场竞争力。王洋提到，现在市场上出现了很多同类型的游学团。这是一个很好的现象。因为各家的入场，让整个赛道的盘子变大了。而在这个过程中，每一家实际上服务的用户也不太一样。只有聚焦产品，进行持续深耕和打磨，服务好每一位用户，才能突出自身的优势。</p>
+<p>从“轻”游学到“重”服务，随着各游学团创始人在不同程度上开展后端业务，游学团的服务模式正在向更加全面和深入的方向发展，也为成员提供了更多的商业机会和成长空间。</p>
+<p>让更多人拥有自己的小生意，义乌游学团或许能够成为生意的开端，而其本身，也正在成为一门日渐走热的生意，正如那句谚语所言：“淘金热之下，卖铁锹的最赚钱。”</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwNTUxNTE0Ng==&amp;mid=2247672030&amp;idx=2&amp;sn=00e1e37832a4bab41c701fc8acac8627&amp;chksm=c1b76a2cb7e9f12647856996d09addbb051166d9c26994f8b0763040411e9a95b43880accde3&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“天下网商”（ID：txws_txws）</a>，作者：天下网商，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043099953073026</guid><pubDate>Tue, 19 Nov 2024 18:19:00 +0800</pubDate></item><item><title>雷军盯上了李佳琦的生意</title><link>https://36kr.com/p/3043101785046787</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“美丽小废物”卖得好，全靠女孩们捧场。</p>
+<p>小米的首款小折叠手机MIX Flip，上市于2024年7月。基于折叠手机市场长期叫好不叫座、销量占比更小的小折叠手机濒临退出，MIX Flip在最初不被外界看好，并得名“美丽小废物”。</p>
+<p>但据华尔街见闻报道，<strong>MIX Flip的备货量在两个月前已加单，幅度约为42%至50万台；截至11月12日，实际销量已超过加单后总量的大半。</strong></p>
+<p>与“小米是纯直男品牌”的固有观念相悖，在8月的小米财报会上，小米集团总裁卢伟冰提到：“小折叠手机（MIX Flip）<strong>有32%的用户来自于iPhone用户的换机，有55%的比例是女性用户。”</strong></p>
+<p>实际上，女性用户早已托起小米汽车、小家电等业务的半边天，小米亦推出了口袋照片打印机等更多迎合女性需求的产品，可谓是双向奔赴。</p>
+<p><strong>11月18日，小米公布今年三季度财报，总收入同比增长30.5%至925亿元，经调整净利润为63亿元，雷军称“小米交出史上最强业绩”。</strong></p>
+<p>成为“妇女之友”的雷军，又会是谁的噩梦？</p>
+<h2><strong>“美丽小废物”卖爆了</strong></h2>
+<p>在手机市场，小折叠手机是边缘角色。</p>
+<p>截至2024年三季度末，IDC中国数据显示，折叠屏手机在智能手机市场的渗透率仅3.2%。小折叠手机能分到的蛋糕则更小，2023年在折叠屏手机市场的份额仅32%，2024年一季度的出货量还同比下滑了1%。</p>
+<p>许多手机品牌由此作出停更此品类的决定，包括曾推出中国最畅销小折叠手机Find N2 Flip的OPPO，2024年都快过完了，其还没有新一代机型的消息。</p>
+<p>此背景下，小米还来掺一脚，最初被认为“只是想争一口气”。小米是中国最早一批做折叠屏手机的品牌，但在后续发展中逐渐被挤到角落，2023年在折叠屏手机市场的份额仅4.6%，比vivo还少，当时有网友嘲笑道：“这可配不上小米今天的身份呀！”</p>
+<p>或因如此，雷军想闯一把小折叠赛道，但也没料到反响这么好，正如卢伟冰在8月的财报会上所述：“（销售火爆导致）下单后的交付周期较长。”可见小米并未做太多的生产准备。</p>
+<p>小折叠手机品类不受欢迎的原因很简单，其打开了就是一部直板手机的大小，且是屏幕有折痕、散热功能受折叠限制的手机。若说大折叠手机还能靠超大屏幕提供娱乐价值，那小折叠手机只能说是什么都没有，卖得还跟直板手机一样贵。</p>
+<p>再看起售价5999元的小米MIX Flip，若只谈技术层面，亦会令人摸不着头脑。实际上，小米并未打算死磕小折叠手机品类的遗留问题，<strong>而是贩卖起另一套情绪价值。</strong></p>
+<p>围绕内容社交、短视频平台的相关内容，可总结出网友对MIX Flip的三个使用感受：<strong>散热差、可爱、拍照好看。</strong>使用反馈符合MIX Flip的意图，后者宣传的一直都是“徕卡光学Summilux镜头”等卖点。</p>
+<p>MIX Flip的官方周边中，包括可变换四种风格的手机壳和手机包，俨然是在给手机配件厂商提供生产思路。如今在小红书上，“小米小折叠包”多达13万篇笔记，更有网友DIY针织包包和珍珠挂绳；拼多多上，MIX Flip手机包、挂绳的单件商品销量，最高超过了100万件，销量10万以上的不在少数。虽然苹果等品牌的配件销量也高，但品类多局限于手机壳、手机膜，并未形成类似MIX Flip的衍生文化。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241119/v2_724db4c575344d7b85ee662ae7b8ae32@5317423_oswg134424oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>MIX Flip还可与小米的其他产品组合出仪式感，比如搭配小米拍立得，手机上拍的照片能立刻打印出来；搭配SU7汽车，可以一键将应用PIN到车机系统上去，即无缝切换到车载大屏。</p>
+<p>“技术创新”固然是数码产品的核心，但多数消费者对手机技术的要求没这么高。诸如“卫星通讯”“超级快充”等高端功能，在现实中并无太多使用场景。正如IDC中国高级分析师郭天翔在分析2023年手机销量增长乏力现象时提到的，<strong>手机厂商绞尽脑汁“搞创新”，却没能撬动人们的购买欲望。</strong></p>
+<p>反而是MIX Flip，刺激了最原始的观感。</p>
+<h2><strong>半边天托起小米</strong></h2>
+<p>MIX Flip收割她经济，并非误打误撞。这两年，小米都在探索女性市场。</p>
+<p>截至11月16日，才发布半个月的<strong>小米SU7 Ultra，已有10%的女性用户预订。</strong>SU7 Ultra起售价81.49万元，号称是“可原厂状态下赛道的电车”，刚在德国纽博格林北环赛道以6分46秒874刷新了的四门车圈速纪录。定位这般硬核的SU7 Ultra仍受到女性消费者青睐，连雷军也感到惊讶，发文称其为<strong>“大女主座驾”。</strong></p>
+<p>SU7 Ultra的成绩得益于SU7的口碑铺垫。</p>
+<p>截至今年7月，<strong>SU7的购车群体中女性占比超40%、实际使用群体中女性占比超50%。</strong>从流畅的车身线条、多达9种符合当下审美的配色，到提高驾驶便利性的自动泊车等智能科技，SU7在多方面融入了取悦女性群体的元素。</p>
+<p>不过，这些并非SU7独有。早在2022年就打出女性专属旗号的smart旗下精灵#1、长城旗下欧拉芭蕾猫等车型，同样采用圆润条线和颜色丰富鲜明的设计，但两者均未在市场激起大水花。近日，欧拉还发布公告称，官方APP将在今年12月初从各应用市场下架。可见，<strong>颜值并不直接决定女性的购买行为。</strong></p>
+<p>网上关于SU7的评论中，频繁出现两个词：<strong>防晒、收纳。</strong>有博主测评，在1000U/㎡的高辐照强度下，SU7与MODEL 3同时接受1.5小时暴晒后，Model 3的车内温度为71.5℃，SU7的车内温度为59.5℃，出现了12℃的温差。此外，SU7车内有多达32处收纳位，手机、雨伞、证件都有专属的空间——<strong>这才是真正触及女性需求的点，而非那些被幻想出来的、带有性别刻板印象的“粉红泡泡设计”。</strong></p>
+<p>归根结底，SU7亦在贩卖情绪价值——<strong>一种从性别歧义走向性别中立的的输出。</strong></p>
+<p>销量能直接说明市场对情绪价值的重视度。小米2024年三季度财报显示，小米汽车已提前完成10万辆的年交付目标，正在冲刺13万辆交付目标。报告期内，智能电动汽车等创新业务收入97亿元。</p>
+<p>这套商业逻辑也被运用到了小米的口袋照片打印机上。产品如其名，可随时打印手机里的照片、售价399元，在发布短短几天后就脱销了，微博话题#小米 拍立得#更凭770万的阅读量冲上热搜。人们的购买理由很简单，市面上最普通的白边富士拍立得相纸均价约为6-7元/张，小米相纸均价只要2元/张；一般的拍立得成片效果全看运气，小米打印机能打印手机里美颜过的照片。</p>
+<p>小米已找到在女性市场“举一反三”的方法论，直男悟道了，真是谁都挡不住。</p>
+<h2><strong>“妇女之友”雷军</strong></h2>
+<p>曾有网友调侃：“雷军在抢走‘所有女生们’的生意，李佳琦更难了。”</p>
+<p>这固然是玩笑，二人业务并无交集，但小米能够撬动女性经济，<strong>一部分原因确实得益于雷军“妇女之友”形象的深化。</strong></p>
+<p>今年7月，雷军成为了小红书粉丝增长最快的博主，而小红书的女性用户占比接近80%。其个人主页的评论区里，有大量内容是求生产“小米卫生巾”的。原有是，这段时间里有各种品牌的卫生巾被曝光存在实际长度短于标注长度、内含虫子尸体、擦边营销等问题，令女孩们感到焦虑。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1620" src="https://img.36krcdn.com/hsossms/20241119/v2_7f7d142faa8b414d88e4efd592294101@5317423_oswg120097oswg1080oswg1620_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>尽管小米没做过卫生巾，但大家谜一般地相信雷军能懂：“雷总快来整改卫生巾行业。”“把卫生巾价格打下来的任务就靠你了。”——正如他能懂花钱买拍立得相纸是一件多么肉疼的事情。原本只存在于娱乐圈的站哥站姐们也已瞄准雷军，在抖音上经营起数万粉丝的账号。</p>
+<p>雷军并不抗拒这种舆论氛围，毕竟“她经济”是极具潜力的增量市场。埃森哲数据显示，中国拥有近4亿年龄在20-60岁的女性，每年支配着近10万亿元人民币的消费支出。另据CBNData数据，64%的女性消费者看重质价比，愿为悦己的情绪价值买单。</p>
+<p>因此，他愿意听取网友建议，穿上粉色防晒衫前往巴黎出差，并在巴黎街头进餐；愿意在SU7发布会上将原本200多个卖点压缩，重点讲了小爱同学、防晒、色彩等等女性更关注的点。</p>
+<p>尽管“个人营销是否有持续变现力”“情绪价值是否能掩盖技术不足”等争议，一直围绕着雷军和小米，但必须承认，在消费降级的当下，商界大佬们除了打价格战，也没有更好的破局方法。</p>
+<p>大佬们与其纠结于“小米有没有突破性技术”，不如想想，小米为何仅靠一个小折叠手机包包、几块隔热玻璃，就能讨到女性群体的欢心？大家为何就愿意什么奇思妙想都去雷军的主页里说呢？</p>
+<p><strong>参考资料：</strong></p>
+<p>盐财经《雷军开始收割她们》</p>
+<p>首席人物观《雷军快要有「站姐」了》</p>
+<p>钛媒体《小米悄然打入“她经济”消费市场》</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/roprLhzyuoyxPRhDWWT9_A" rel="noopener noreferrer nofollow" target="_blank">“金角财经”</a>，作者：颖宝，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043101785046787</guid><pubDate>Tue, 19 Nov 2024 18:20:00 +0800</pubDate></item><item><title>新里程叩响并购扳机，又一个资本系呼之欲出？</title><link>https://36kr.com/p/3043147349215878</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近期，慢慢恢复元气的新里程（002219.SZ，下称“公司”）也开始了并购扩张。</p>
+<p>这是新股东入主公司后的首次重大收购，也是打响资产注入的“第一枪”。公司以医疗服务作为主营业务，多年来的优势在下沉市场。本轮收购，一方面在区域上可实现突破；另一方面，第一大股东布局的多元化业务，将在上市公司实践。</p>
+<p>而收购过程中，也可见大股东运筹帷幄的手法。在国家严查医保基金背景下，资产注入、完善内控、业绩增长的三个公司目标能否齐头并进，有待观察。</p>
+<h2><strong>被处罚的两家医院</strong></h2>
+<p>新里程的大股东，叩响了资产注入的扳机。</p>
+<p>根据公告，公司拟以3.2亿元收购重庆新里程的全部股权，方式为自有资金或自筹资金。标的由公司第一大股东新里程健康集团旗下的平台全资控股，因此构成关联交易。</p>
+<p>这种体外培养的资产注入，在大健康行业屡见不鲜。对此，公司高层表示，此次收购是注入的“第一枪”，之所以选择重庆主要是强劲的区位优势、规模及成长优势和战略价值，集团计划未来通过“内生增长+外延并购”，将该区域打造成8亿元至10亿元营收的医疗集团。</p>
+<p>开枪的要点在于瞄准、射中靶心，但体外培养过程中的高溢价收购，向来颇具争议。甚至，部分高溢价的关联交易被“吐槽”为先射击后画靶心。</p>
+<p>交易方案显示，本次公司的交易参考资产基础法和收益法进行评估，前者减值率1.57%，后者增值率33.09%，最终结果采用收益法，理由是能更好体现标的成长性和盈利能力。截至评估基准日，标的净资产2.42亿元，2023年营收3.1亿元。</p>
+<p>由此来看，成长性是收购估值的关键。2020年到2023年，标的净利润（含供应链）分别为-1762万元、-511万元、521万元（当年前十月）、405万元，走完了盈利爬坡的阶段。今年前七月，标的净利润实现998.6万元。</p>
+<p>具体细化看，收购标的控股多家企业，核心业务主体有金易医院、盛景医院、百鞍医院、康华医院。公司表示，注入优质资产的标准之一就包括合规性。但企查查显示，2023年到今年4月盛景医院、百鞍医院被多次处罚和要求退回医保基金损失，方式有超标准收费、过度检查、将不属于医保支付范围内的费用纳入基金结算。</p>
+<p>今年前七月，盛景医院、百鞍医院的营收分别为4466.7万元、3189.8万元，净利润（含供应链）各自为481.4万元、291万元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,231" src="https://img.36krcdn.com/hsossms/20241119/v2_ce00018fdd1446e097d58a8aa972fe9f@5888275_oswg84734oswg1080oswg231_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,472" src="https://img.36krcdn.com/hsossms/20241119/v2_cfe7fc8e5e8f464689dab94d51c2f54e@5888275_oswg203052oswg1080oswg472_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源企查查）</p>
+<h2><strong>收购前的突击腾挪</strong></h2>
+<p>2022年，曾经的民营医疗第一股恒康医疗被批准重整计划。此前，该企业因粗放式的收购和经营而暴雷。接盘方为新里程健康集团，其联合多家财务投资人对公司重整、更名，并直接持股公司24.23%。</p>
+<p>对资本运作驾轻就熟的新里程健康集团，在本轮收购中也有所设计。早前，该集团先通过旗下的新里程医健、新里程医管收购标的全部股权，之后开始内部腾挪。</p>
+<p>2022年11月，新里程康养受让新里程医管持有标的23.2%股权，对价8055万元。今年10月，即本轮交易公布前，新里程康养受让新里程医健持有标的76.83%股权，对价2.46亿元。以此计算，两次内部转让合计金额3.26亿元，与本轮收购总额接近。</p>
+<p>无论怎样腾挪，标的终将被注入上市公司，如今问题是公司是否有充足的子弹“上膛”。截至今年三季度，公司货币资金4.3亿元，短期借款7.7亿元。计入本次收购3.2亿元，较考验公司的资金安排。</p>
+<p>从业绩贡献角度看，新里程也到了寻找增量的时候。今年前三季度，公司营业收入、归属于上市公司股东的净利润分别为26.8亿元、0.53亿元，各自同比增长6.93%、57.98%。收入端方面，公司在投资者交流会上表示，预计收购标的今年营收将达3.5亿元。</p>
+<p>关于后续的资产注入，公司也披露将重点考虑以发行股份的方式购买，标的需具备合规性完备、估值合理、已实现盈利、有较高的成长性等条件。目前，约70%体外医院实现营利性改制，公司会持续推进资产注入的工作。</p>
+<h2><strong>又一个资本系？</strong></h2>
+<p>如今的新里程健康集团，业务横跨医疗服务和金融，麾下重要资产有新里程、爱心人寿等，似乎又一个资本系呼之欲出。</p>
+<p>9月，爱心人寿公告国家金融监督管理总局北京监管局已核准新里程健康集团向其增加注册资本2.44亿元。自2022年以来，集团已连续三次增资爱心人寿，持股比例上升至26.72%。按照相关规定，集团持股爱心人寿的比例上限为33.33%。</p>
+<p>本次收购，也是集团深化试水双轮驱动。公司披露，爱心人寿正加大在重庆的业务发展，双方通过“叮铃医生”平台，打通了线上线下的健康管理权益，是医疗+保险重点实践基地。具体操作上，购买商业保险的患者，可在重庆新里程各医疗机构看病时，除了医保报销，可实时结算商业险责任范围内的费用，较先垫付后报销的模式大大简化了流程。</p>
+<p>但需要指出，合规始终是不能放松的弦。9月，爱心人寿因未按照规定使用保险公司资金，被国家金融监管总局北京分局处罚20万元。</p>
+<p>另一方面，上市公司或通过收购实现区域升级。目前，新里程的医院布局主要在下沉市场，如兰考、瓦房店、泗阳、盱眙，在当地医疗市场份额领先。</p>
+<p>以泗阳医院为例，今年上半年营收、净利润分别为3.05亿元、349.8万元，并入围国内县级医院300强、社会办医100强。但10月，该医院被当地卫健局处罚，理由是未告知患者替代医疗方案。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,429" src="https://img.36krcdn.com/hsossms/20241119/v2_0eaefecfe62e4e98aaf7f1eefaf7535c@5888275_oswg110987oswg1080oswg429_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源企查查）</p>
+<p>今年前三季度，公司医疗服务板块的营收20.9亿元，占比近78%。同期，门诊人次约223万，同比增长4%；出院人次18万，同比基本持平，门诊住院的收入比例约3:7。</p>
+<p>这里面，据公司披露，医保收入占比医疗服务约50%。在医保支付承压的背景下，坏账率不到5%，包含按会计政策的计提、根据付费政策测算的潜在坏账风险。</p>
+<p>（本文仅供参考,不构成投资建议,市场有风险,投资须谨慎）</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/OdyX_wSS4Fe1gPM7-2NhdA" rel="noopener noreferrer nofollow" target="_blank">“投资者网”</a>，作者：蔡俊，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043147349215878</guid><pubDate>Tue, 19 Nov 2024 18:20:00 +0800</pubDate></item><item><title>“杉杉系”豪门风云再变：90后二代让位，80后继母任董事长，50亿元股权冻结待解</title><link>https://36kr.com/p/3043152151939716</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“2024年11月17日，杉杉股份董事会推选我成为公司新任董事长。此前，我已接棒杉杉控股、杉杉集团董事长。今天，我和郑驹同学完成了工作交接，我们将团结一致，齐心协力，带领杉杉奋力前行。”</p>
+<p>11月18日晚间，周婷在杉杉控股旗下公众号“杉杉通”上发表《致全体杉杉同仁的一封信》中表示。</p>
+<p>同日，杉杉股份（600884.SH）也发布了董事会决议公告，郑驹在辞任董事长后，将接替庄巍担任公司副董事长职务。</p>
+<p>据媒体报道，郑驹表示，此次调整是为公司发展汇集更广的思路，调动更多的资源，网聚更强的力量解决问题、化解困难。他表示，将全力配合新任决策团队，继续服务杉杉，对杉杉的稳定发展充满信心。</p>
+<p>在人事变更公告发布前，杉杉股份股价便有异动，当日（11月18日）开盘后迅速拉高涨停，收于9.41元/股，换手率为4.58%。</p>
+<p>1982年出生的周婷为“杉杉系”创始人、已故浙商大佬郑永刚的遗孀。2023年2月，郑永刚突然因病去世，百亿杉杉帝国由其与前妻所生的郑驹接手。但就在一个月后，郑驹与继母周婷被曝发生争产纠纷，场面一度剑拔弩张。</p>
+<p>2023年3月，周婷现身杉杉股份临时股东大会，称基于继承关系，她应当成为杉杉股份的实际控制人。4月，周婷携三名未成年子女起诉郑驹，并向法院申请冻结郑永刚名下所持的宁波青刚51%股份。宁波青刚为杉杉股份的间接控股股东。</p>
+<p>郑驹接棒一年多来，杉杉股份业绩下滑趋势未止；杉杉集团一度因资金安排原因未能按计划支付贷款利息、融资融券债务逾期，其所持有的杉杉股份部分股权也被冻结；杉杉控股则被证监会立案，其间接控股的永杉锂业（603399.SH）也于近期“易主”。</p>
+<p>此时“杉杉系”百亿商业帝国再度换帅，周婷能否带领团队度过重重风波？</p>
+<h2><strong>净利狂跌剥离资产，产能扩张不停歇</strong></h2>
+<p>对杉杉股份来说，近两年并不平静，经历了掌门人的更替以及豪门“内斗”等动荡。</p>
+<p>在郑驹接棒后的一年多里，杉杉股份归母净利润加速下滑。2023年杉杉股份的营业收入为190.70亿元，同比下降12.13%；归母净利润为7.65亿元，降幅高达71.56%；扣非归母净利润仅为2.19亿元，同比下滑90.60%。2024年前三季度，杉杉股份营收和归母净利润分别为132.84亿元、2321.29万元，同比下降9.69%、98.07%。</p>
+<p>杉杉股份指出，业绩下滑原因之一系受价格承压影响，负极行业利润空间缩窄。此外，从去年的公司非核心业务亏损，到今年持续推进聚焦战略，剥离非核心资产，以及部分参股企业亏损较大，对杉杉股份的业绩同样造成较大不利影响。</p>
+<p>尽管面临重大的挑战，但杉杉股份表示其主营业务负极材料和偏光片仍是业绩“顶梁柱”。2024年前三季度，公司负极材料和偏光片业务合计实现营业收入132.41 亿元，净利润 5.17 亿元。</p>
+<p>郑永刚曾表示“进军偏光片产业是‘最后一战’”。这一年多来，郑驹带领下的杉杉股份仍在偏光片领域四处征战。</p>
+<p>2023年9月，杉杉股份拟以14.07亿元的价格收购 LG CHEM, LTD.旗下在中国大陆、韩国及越南的SP业务及相关资产；12月，拟以不超过60亿元在扬州投建高端显示用偏光片生产线项目；杉金光电成功试产全球最大115寸偏光片。</p>
+<p>半年报显示，2024年上半年，杉杉股份在大尺寸（包括TFT-LCD 电视/显示器/笔记本电脑）偏光片的出货面积持续保持全球第一；LCD电视用偏光片业务、LCD显示器用偏光片业务的市场份额均排名全球第一。</p>
+<p>郑驹曾表示，对于偏光片产业发展，杉杉坚定聚焦主业的战略绝不动摇、坚持成为全球偏光片产业龙头的战略决不动摇、坚持强链补链的战略布局决不动摇。</p>
+<p>而对于面临产能供需失衡的负极材料领域，杉杉股份向海外布局。</p>
+<p>2023年9月，杉杉股份拟投资不超过12.80亿欧元建设芬兰年产10万吨锂离子电池负极材料一体化基地项目；且持续向上游企业合作，与产业链上游企业签署石油焦深度战略合作协议，并加大与头部客户在高端快充、硅基负极、硬碳等新产品方面的研发合作。</p>
+<p>去年以来，杉杉股份还进一步扩张国内产能。其年产4万吨硅基负极材料一体化项目在宁波开工，预计2024年底投试产。永杉锂业年产4.50万吨锂盐项目二期也在去年开工，并将于今年下半年投产，然而目前该产能也随着永杉锂业“易主”而离杉杉远去。</p>
+<p>关于杉杉股份未来发展策略，11月19日，时代周报记者以投资者身份致电杉杉股份，相关工作人员表示，未来决策还是由董事会一同决策，经营战略方向还是坚持主业不会变更，两大主业就是偏光片和负极材料。</p>
+<p>对于为何此时换周婷出任董事长，上述工作人员表示，这是上面协商一致的安排，就是为了更好应对和解决当前问题，也是为了寻求更好的发展。</p>
+<h2><strong>杉杉股份股权遭冻结，永杉锂业“易主”</strong></h2>
+<p>周婷上位成为杉杉股份新任董事长或早有征兆。在信中，周婷表示此前已接棒杉杉控股、杉杉集团董事长。</p>
+<p>时代周报记者注意到，近期（11月15日），杉杉控股的法定代表人、董事长已由郑驹变更为周婷。但工商信息显示，2024年5月14日，杉杉集团法定代表人、董事长由翁惠萍变更为周敏，并非周婷。</p>
+<p>据杉杉集团此前公告，1984年4月出生的周敏曾任宁波杉杉宝雅服装有限公司总经理，现任杉杉控股有限公司总裁助理、杉杉物产集团有限公司副总裁、杉杉品牌运营股份有限公司副总经理、杉杉集团有限公司董事长，是名副其实的杉杉“老人”。</p>
+<p>“今年下半年以来，因为多重因素的叠加，杉杉控股和杉杉集团遇到了较大的挑战，需要汇集更广的思路，调动更多的资源，网聚更强的力量，来解决问题，化解困难。感谢大家的信任和支持，推选我来担任杉杉企业的领头人。我深知当前情况下，时间紧迫、责任重大，未来将全力以赴投身杉杉的经营管理，也希望继续得到全体杉杉同仁的支持和帮助。”周婷在信中如此描述当下接棒“杉杉系”的境况。</p>
+<p>今年9月，因控股股东3.60亿元债务逾期，“杉杉系”上市公司永杉锂业19.79%的股权被冻结。11月1日，上述股权被司法拍卖，福建富豪吴华新旗下的永荣致胜拍下股权成为公司新任控股股东。</p>
+<p>11月5日晚，杉杉股份公告称，其控股股东及一致行动人累计被冻结的持股数量为5.21亿股。以11月19日收盘价10.10元/股计，上述被冻结的股权市值超50亿元。</p>
+<p>杉杉股份表示，公司控股股东正与相关方进行积极沟通以降低冻结比例，但鉴于目前控股股东累计被冻结和标记的股份比例较高，如果后续该部分股份被强制司法处置，可能存在控制权变更的风险。</p>
+<p>两日后，杉杉股份又公告称，杉杉集团因融资融券业务债务逾期，其通过国泰君安信用账户持有公司6523万股股份存在被强制平仓的风险。杉杉集团正与相关方进行积极沟通，争取及时采取措施消除影响。</p>
+<p>实际上，“杉杉系”的资金危机早有端倪。</p>
+<p>2024年6月，杉杉集团因资金安排原因，本应于2024年6月20日向多家银行支付的1963.91万元贷款利息未能按照还款计划完成支付，后经与所涉贷款银行进行沟通协商，已完成相关款项支付。杉杉控股也因未能按约定支付银行贷款的季度利息而违约，被要求偿还贷款本金及利息，杉杉集团被要求承担连带清偿责任。</p>
+<p>此后上海新世纪资信评估投资服务有限公司（以下简称“新世纪评级”）将杉杉集团主体评级展望由稳定下调至负面，主体评级下调为AA-。10月，杉杉集团向新世纪评级发送《关于终止与贵公司评级合作的函》，新世纪评级终止对杉杉集团主体及“H20杉杉1”债项的跟踪评级。</p>
+<p>截至11月7日，杉杉集团合并口径（除上市公司杉杉股份外）有息负债总额为122.65亿元，其中一年内到期的短期债务为114.20亿元。今年上半年杉杉集团归母净利润亏损1.70亿元，同比由盈转亏；同期经营活动产生的现金流量净额仅为18.13万元。</p>
+<p>杉杉股份股权遭冻结、短期债务包袱重，百亿杉杉帝国所面临的困难不言而喻，此时周婷接手会带来给“杉杉系”带来何种改变？</p>
+<p>周婷在信中提到，杉杉控股和集团层面，其将坚定信心，积极引进战略投资，加快资产处置，以高度的社会责任感，妥善应对当前困难。杉杉股份层面，在锂电产业筑底回升，新型显示产业加速发展的背景下，杉杉股份将抓住机遇，迎接挑战，持续聚焦深耕主业，进一步巩固产业龙头地位，强化经营管理，提高盈利能力，提升上市公司价值，增强投资者回报。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/FbJ1boxJpX4MNMPv2uVzLQ" rel="noopener noreferrer nofollow" target="_blank">“时代周报”</a>，作者：周立，编辑：高秋榕，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043152151939716</guid><pubDate>Tue, 19 Nov 2024 18:21:00 +0800</pubDate></item><item><title>苏州219家A股上市公司，是如何炼成的？</title><link>https://36kr.com/p/3043138604272264</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“东临上海、南濒杭州湾、西接太湖、北依长江”——苏州，这座历史与现代交融的城市，以其优越的地理位置和便捷的交通网络，成为了华东地区重要的经济、文化、科技和交通中心。这座历史与现代交融的城市，不仅以古典园林著称，更以其蓬勃发展的资本市场吸引着世界的目光。</p>
+<p>上市公司作为优秀企业代表，既是苏州经济高质量发展的引擎，也是推动苏州产业创新发展的核心力量。截至2024年11月11日，苏州一共孕育了219家A股上市公司，总市值18626.81亿元。其中，主板共有88家公司上市，创业板有65家，科创板有55家，北交所有11家。</p>
+<p>通过深入分析苏州上市公司的数量、地域分布、规模与能力、以及经营状况等多个维度，聚焦苏州的重点行业和杰出企业，探讨在苏州资本地图中，219家A股上市公司的成功之道。</p>
+<h2><strong>从1家到219家A股上市公司</strong></h2>
+<p>1993年9月8日，“苏三山A”（现更名为四环生物，000518.SZ）在深交所正式挂牌交易，标志着苏州市首家A股上市公司诞生，并由此揭开了苏州地区资本市场的发展序幕。</p>
+<p>从A股上市情况看，2000年以前，苏州累计仅有6家上市企业。2000年到2009年，苏州地区累计共有21家企业上市，上市数量实现稳步增长。2010年之后。在经历了新股IPO暂停和重启，苏州企业进军资本市场的步伐开始加快。</p>
+<p>2017年10月，聚灿光电（300708.SZ）在深交所挂牌上市，苏州A股上市公司达到了100家，成为全国第五个进入“百家时代”的城市。</p>
+<p>从1到100，苏州用了24年的时间，但是从101到200，苏州仅仅用了不到6年时间。</p>
+<p>2023年2月，裕太微-U（688515.SH）成功登陆上海证券交易所，使得苏州境内A股上市公司的总数跨过了200家的门槛。</p>
+<p>2024年10月，苏州天脉（301626.SZ）在深交所创业板挂牌上市，成为苏州第219家境内A股上市公司。</p>
+<p>从主板、中小板、创业板，到科创板，从上交所、深交所到北交所，苏州无一例外地把握住了多层次资本市场发展的重大节点。从1993年到2024年，在这三十一年的时间里，苏州的企业不断发展壮大，逐渐在资本市场中占据了重要的地位。苏州的上市公司数量不断增加，市值也稳步攀升，成为了资本市场中不可忽视的力量。</p>
+<p>从地理分布的角度分析，苏州的219家A股上市公司显示出明显的集聚特征。具体来看，吴中区以62家上市公司的数量领先，占比28.31%；虎丘区紧随其后，拥有33家，占比15.07%；张家港市和昆山市各自拥有31家上市公司，占比14.16%；吴江区有27家；相城区有16家；常熟市则有14家；太仓市和姑苏区分别有3家和2家上市公司。</p>
+<p class="image-wrapper"><img data-img-size-val="924,473" src="https://img.36krcdn.com/hsossms/20241119/v2_cd86f7d5b1b7472e8cdb8c3e53e2e2b6@5888275_oswg9437oswg924oswg473_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：时代周报制图</p>
+<p>苏州是创新与产业、产业与资本结合最好的城市之一。2024年11月9日，苏州市委金融办常务副主任、苏州市地方金融管理局局长曹晔公开表示，“整个苏州的资本市场板块表现亮眼，新增境内外上市公司7家，总数已达266家，既显示了苏州金融业的稳健增长，又反映了苏州在资本市场的活跃度和上市公司的强劲发展动能，未来期待能打造更多具有行业影响力和全球竞争力的链主企业。”</p>
+<h2><strong>从苏州制造到苏州“智”造</strong></h2>
+<p>苏州快速发展的背后，离不开工业制造业的有力支撑。1994年2月，国务院批准设立苏州工业园区，随后，大量外资企业竞相在苏州投资建厂。2024年前三季度，苏州全市实现规模以上工业总产值34159.1亿元，同比增长4.9%。</p>
+<p>与此同时，苏州也一直将科技创新视为重中之重，自2009年起被认定为国家可持续发展实验区，并于2010年跻身国家创新型试点城市之列。全市拥有4个国家级高新技术产业开发区和7个省级高新技术产业开发区，其区域创新能力在全国范围内名列前茅。</p>
+<p>根据时代周报的统计数据，在苏州的219家上市公司中，有179家属于制造业企业，占整体比例的81.74%。具体来看，计算机、通信及其他电子设备制造业领域有45家企业；专用设备制造业领域有25家企业；电气机械和器材制造业领域有23家企业；通用设备制造业领域有16家企业；金属制品业有15家企业；化学原料和化学制品制造业以及软件和信息技术服务业各有13家企业。</p>
+<p class="image-wrapper"><img data-img-size-val="960,449" src="https://img.36krcdn.com/hsossms/20241119/v2_852df629510e45f9a31ab5a1294c2751@5888275_oswg124582oswg960oswg449_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：时代周报制图</p>
+<p>在苏州55家科创板上市公司中，半导体行业独占鳌头，拥有12家；自动化设备行业紧随其后，有7家；通用设备行业占6家；软件开发行业有4家。这些公司与苏州的四大主导产业——电子信息、装备制造、生物医药、先进材料，形成了完美的契合。</p>
+<p>今年9月，苏州出台《关于深化科技体制改革促进新质生产力发展的若干意见》，提出18条举措，简称“苏州科创18条”，全面深化科技体制改革，坚持科技与产业、产业与资本深度对接，教育科技人才一体推进，着力推动创新链产业链资金链人才链深度融合，加快培育发展新质生产力。</p>
+<p>2023年，苏州219家上市公司研发投入总额为302.22亿元。其中，76家公司当年研发投入超1亿元。其中，3家公司的研发投入超过 10亿元大关，它们是亨通光电（600487.SH）、维信诺（002387.SZ）和东山精密（002384.SZ），2023年研发投入分别是19.05亿元、11.94亿元和11.61亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="956,524" src="https://img.36krcdn.com/hsossms/20241119/v2_de510c87c55045209d9cf89996dfe510@5888275_oswg13955oswg956oswg524_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：时代周报制图</p>
+<p>截至2024年第三季度末，苏州219家A股上市公司总资产合计3.11万亿元人民币，较去年同期增长8.74%。它们今年前三季度共实现营收6420.08亿元，同比增长5.39%。</p>
+<p>其中，有9家公司的营业收入破百亿，23家公司的营收超过50亿元。在这些表现突出的企业中，东方盛虹（000301.SZ）以1083.01亿元的营收位居榜首，亨通光电（600487.SH）、阿特斯（688472.SH）和江苏国泰（002091.SZ）分别以423.99亿元、341.78亿元和290.07亿元的营收位列第二、第三和第四名。</p>
+<p class="image-wrapper"><img data-img-size-val="929,559" src="https://img.36krcdn.com/hsossms/20241119/v2_9f5f6799eb71476cb674c8ef78a6d638@5888275_oswg14104oswg929oswg559_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：时代周报制图</p>
+<p>从今年前三季度的营收增速来看，营收增速比较快的公司主要分布专业工程、汽车制造、包装印刷、半导体、通信设备、光伏设备等行业。其中，亚翔集成（603929.SH）、沪光股份（605333.SH）、佳合科技（872392.BJ）、和林微纳（688661.SH）营收翻倍，并且在营收增速排名中位列前四。</p>
+<p>苏州219家A股上市公司，是苏州经济高质量发展的缩影。从工业园区的创新高地到张家港市的产业集群，从昆山市的外向型经济到吴江区的纺织重镇，苏州上市公司在各自赛道持续向前，共同谱写资本市场的江南新故事。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/RH79hQNuRlV3ps17VBLNYw" rel="noopener noreferrer nofollow" target="_blank">“时代财经APP”</a>，作者：雨辰，编辑：韩迅，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043138604272264</guid><pubDate>Tue, 19 Nov 2024 18:22:00 +0800</pubDate></item><item><title>偷工减料傲慢还擦边？揭秘卫生巾巨头ABC背后的“男人”</title><link>https://36kr.com/p/3043104692469511</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>曾参与起草多个卫生巾团体标准的ABC品牌，最近过得并不“太平”。近日，因实际长度与标示长度不符，多款卫生巾被消费者质疑“偷工减料”，其中ABC品牌榜上有名。</p>
+<p><strong>而在消费者的各种质疑声中，“ABC洗护旗舰店”的一句“如果觉得接受不了可以不买”的“傲慢”回复，更是将ABC品牌直接架在舆论之火上烤。后续，ABC官方发布的回应，又因序号错误被指诚意不够。此外，“ABC美妆旗舰店”此前发布的“比男朋友还会吸的卫生巾”的文案，也被指有“擦边”的嫌疑。</strong></p>
+<p>雷达财经了解到，ABC品牌系广东景兴健康护理实业股份有限公司（简称“景兴健护”）旗下定位高端的女性个人护理品牌，产品包括卫生巾、卫生护垫、女性经期裤、卫生湿巾、护理液等。</p>
+<p>令人颇感意外的是，一手打造出ABC这一女性护理品牌的创始人，其实是早在千禧年前后便看中该赛道商机的两个男性。他们一个是在景兴健护担任董事长、总经理的邓景衡，另一个是在公司担任副董事长的邓锦明。目前，邓锦明的儿子邓晓荣也开始在大健康领域深入拓展。</p>
+<p>不过，此番面临多重舆论危机的ABC，其实还有不少严峻的挑战需要应对。一方面，ABC需要想办法尽可能地提升或者守住自己的市场份额，另一方面，早在2018年就已向上交所发起冲刺的景兴健护，目前仍未正式登陆A股的资本市场。</p>
+<p>在此背景下，ABC品牌如何化解当前的舆论危机，重新赢得消费者的信任，以及如何通过资本的助力实现更长远的发展，是其亟待解决的问题。</p>
+<h2><strong>“偷工减料”？“傲慢”回复？ABC惹众怒</strong></h2>
+<p>11月17日，“ABC卫生巾”话题冲上微博热搜榜单，但此番让ABC卫生巾引发热议的原因并不是什么出圈的好消息，而是产品被指“偷工减料”及客服态度不佳的负面舆情。</p>
+<p>近日，有多位网友和博主实测发现，市面上的多款卫生巾存在“偷工减料”的情况，这些卫生巾的实际长度小于外包装标明的长度，而ABC品牌的产品也名列其中。</p>
+<p>另据红星资本局报道，11月7日，其购买了市面上常见的七大品牌的日用款卫生巾，这七款产品在外包装上标明的长度大约都是240毫米，但有五个品牌卫生巾的实际长度小于标明的长度。</p>
+<p>其中，ABC品牌卫生巾的实际长度不仅与标明长度差距最大，达到6毫米，而且其内吸收层与外包装标明长度之间的差距也最大，达到66毫米。</p>
+<p>尽管被指“偷工减料”的品牌不止ABC一家，但在面对消费者提出的质疑时，“ABC洗护旗舰店”客服所给出的答复却让消费者颇为愤怒和不满。对方回应称，机器生产的卫生巾的确会存在偏差，稍微偏差一点属于正常情况，不属于偷工减料，1～2厘米属于正常误差，尺子的尺寸有时也可能存在误差的。</p>
+<p>单看前述回应，其实ABC品牌对误差的回应和其他多家卫生巾品牌的回应大致相同，但“ABC洗护旗舰店”这位客服回复中“接受不了可以不买”的措辞却被不少网友认为态度较差、缺乏应有的服务意识。一时间，“ABC洗护旗舰店”的“傲慢”客服将品牌推到了舆论的风口浪尖。</p>
+<p>引发争议后，ABC官方微博于11月13日发布了一篇落款为广东景兴健康护理实业股份有限公司的回应。ABC官方表示，经核实，网传客服的不当言论系公司授权经销商店铺客服发言不当，造成了极为不良的影啊。</p>
+<p>ABC官方强调，该不当言论绝不代表景兴健护ABC景兴健护品牌及景兴健护的立场，与其品牌价值观和服务宗旨完全相悖。作为品牌方，其深知授权合作伙伴的行为同样关系到品牌形象，因此将对此事件负起应有的责任，绝不姑息任何不尊重消费者的行为与言论。</p>
+<p>ABC品牌表示，其始终专注于女性健康护理需求，坚持将产品质量和安全放在首位，所有产品从原料筛选到成品出厂的各个环节均严格检测，以确保符合国家标准。</p>
+<p>为了杜绝类似事件再发生，ABC品牌还在回应中列出了几项整改措施，具体包括对相关经销商进行整改和培训、加强内部和外部合作伙伴的管理、产品优化升级、接受公众监督。</p>
+<p>雷达财经注意到，ABC官方发布的前述回应微博经过了多次编辑。在较早发布的多版回应中，ABC官方在整改措施一栏中将序号标错（错将第3点、第4点的序号写成第4点、第5点）。</p>
+<p>也有网友注意到了这点，在评论区对ABC官方的回应微博指出诸多不满：“ABC声明稿件都没有3，1-2过后直接就是4，说明公司高层没有仔细检查过就发布了，足以见得这个品牌调性很不严谨”。</p>
+<p>11月14日，ABC官方微博再次在评论区解释称，“抱歉深夜打扰到大家，所有的回复我们都收到了，怀着抱歉的心情，也想和大家再反馈下：之所以发得晚了，是因为内部和核对各项举措的可落地性需要一定时间，确定后我们想第一时间把公告发出和大家沟通，在序号排版上忙中出错，这的确是不应该犯的错误。”</p>
+<p>争议之下，ABC旗下的店铺一度清空了产品。<strong>据新京报消息，11月17日，ABC天猫旗舰店下架了全部商品，只保留了一个ABC官方旗舰店官方购物金的链接。不过，11月18日下午，雷达财经发现ABC天猫旗舰店已重新上架了多款商品。</strong></p>
+<h2><strong>一波未平一波又起，ABC被指“擦边”营销</strong></h2>
+<p>此次卷入舆论争议的ABC品牌，隶属于景兴健护，是国内高端的女性个人护理品牌。截至目前，景兴营销网络已遍及全国30多个省、直辖市，产品分销至5000多家大中型商店，公司产品更远销东南亚。</p>
+<p>虽然有个英文字母组合而来的名字，但其实ABC是土生土长的国产品牌。之所以以ABC为品牌命名，是因为这个名字源于英文单词“Always Being Clean”，寓意永远追求清洁、卫生与健康。</p>
+<p>另据天眼查“经营信息”一栏显示，景兴健护曾参与起草多份标准文件，比如“卫生巾（护垫）用原材料卫生安全技术要求”团体标准、“抗菌卫生巾（护垫） 抗菌及卫生安全技术要求”团体标准等。今年8月，该公司还发布了“卫生巾（护垫）”团体标准。</p>
+<p>而ABC的品牌历史，最早可以追溯至1998年。当年5月，景兴公司正式成立，随即ABC品牌便推出了独有KMS健康配方的卫生巾及护垫产品。千禧年，ABC卫生巾又开创性地首次使用“易拉贴”的铝膜包装。</p>
+<p>两年之后，ABC的全新产品清丽湿巾正式上市。2003年，ABC独创中央速渗导漏芯体技术“蓝芯和“夜漏防护堤”。2005年，ABC护理液系列上市。2010年，ABC推出亲柔立围系列卫生巾。之后的多年时间里，ABC品牌不断革新陆续推出了越来越多的新品，一步步完善着自己的产品矩阵。</p>
+<p>雷达财经从ABC品牌官网获悉，经过二十多年的发展，<strong>目前ABC品牌已经形成了包括ABC卫生巾、ABC护垫、ABC湿巾、ABC护理液在内的产品矩阵。</strong></p>
+<p>另据景兴健护官网显示，公司旗下除了ABC品牌外，还拥有另一个品牌Free·飞。据悉，该品牌诞生于2004年，是景兴健护专为少女群体打造的私人个护品牌。目前，Free·飞品牌旗下涵盖卫生巾、卫生护垫、卫生护理液和湿巾等个人护理用品。</p>
+<p>值得注意的是，ABC品牌近期面临的舆论风波，还不仅限于上文所提到的内容。有网友晒出一张ID为“ABC美妆旗舰店”发布的推广视频的截图，文案中提到，“比男朋友还会吸的卫生巾”、“这也太能吸了吧，男朋友都甘拜下风”，不少网友质疑ABC有“擦边”营销之嫌。</p>
+<p class="image-wrapper"><img data-img-size-val="868,1052" src="https://img.36krcdn.com/hsossms/20241119/v2_fa6745c6aae848a8a8c5efa0c3f3eda9@5034919_oswg771863oswg868oswg1052_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>11月18日，雷达财经在“ABC美妆旗舰店”的抖音账号主页搜索相关关键词，疑似已经看不到这则争议视频。截至目前，ABC官方暂未对此做出正式回应。</p>
+<h2><strong>揭秘ABC品牌背后的“男人”们</strong></h2>
+<p>雷达财经了解到，身陷“擦边”营销争议的“ABC美妆旗舰店”，其背后关联的认证企业为佛山市荣威健护电商有限公司。天眼查显示，该公司成立于去年6月，注册资本达1250万元。不过，11月19日，该账号疑似已经取消了企业认证。</p>
+<p>而该公司的法定代表人、受益所有人、实际控制人均为邓晓荣，其担任监事的佛山市汇翔投资有限公司目前持有景兴健护19.34%的股份。</p>
+<p><strong>值得注意的是，邓晓荣不仅是佛山市荣威健护电商有限公司的关键人物，他还有另外一重身份，那便是景兴健护创始人、副董事长邓锦明的儿子，其父亲邓锦明持有佛山市汇翔投资有限公司80%的股份。</strong></p>
+<p>除了邓锦明外，景兴健护还有一个名为邓景衡的创始人。天眼查显示，目前邓景衡在景兴健护担任董事长、总经理以及法定代表人职务。</p>
+<p>不过，一起携手奋斗事业的二人，却有着不尽相同的生活环境。邓景衡出生于中国香港，其曾在丹麦宝隆洋行当过消费品中国部经理，之后还曾被英国英之杰集团招揽加入广和洋酒行负责管理东南亚及中国市场，而邓锦明则是农民出身。</p>
+<p>1998年，在南海土生土长的邓锦明和辞掉跨国公司管理层职务的邓景衡一起创立了景兴健护，两个大男人将女性卫生用品作为了自己的创业方向。在两位创始人的共同努力下，ABC品牌在市场上崭露头角，并逐渐成为了国内知名的女性个人护理品牌。</p>
+<p>据了解，邓锦明是支持子女“闯社会”的代表。在他看来，每个行业都有天花板，卫生护理行业也不例外。因此，他并不要求子女一定要在纵向上接班企业，而是可以围绕大健康、个人护理等领域从横向去拓展，利用各自擅长的专业知识，对行业前沿的理解，为主业赋能。”</p>
+<p>而与父亲邓锦明立足传统制造业不同，邓晓荣做过孵化器，也曾辅助本地企业开展IPO等相关工作。在2022年参加桂城企业家座谈会时，邓晓荣曾表示，“父亲给我最大的感受就是儿子大胆往前冲，老爸在后面坐镇，不用怕。”</p>
+<p>彼时，邓晓荣还坦言，在父亲的理念下，自己并未在个人护理行业深入涉足，而是从多行业、多领域等进行过涉猎，如今他正计划向大健康领域深入拓展。在实现个人发展愿景的同时，邓晓荣也有意为父亲一手创办的企业注入更多新的活力。</p>
+<p>尽管有着二十多年的品牌历史，但ABC目前仍面临着十分激烈的竞争。据研究机构发布的数据显示，2017年至2022年，ABC在中国卫生巾行业的市场占有率基本维持在3%以上。去年，ABC的市场占有率跌至2.8%，虽然相较自由点、乐而雅、洁婷等品牌有所领先，但仍不及苏菲、七度空间、护舒宝、高洁丝。</p>
+<p>与此同时，景兴健护在资本市场的冲刺之路也颇为曲折。据证监会官网信息，早在2018年，景兴健护就曾向上交所发起冲刺。</p>
+<p>据景兴健护当时递交的招股书显示，2015年至2017年，公司营收分别为12.11亿元、13.4亿元、16.94亿元，净利润分别为8154.4万元、1.02亿元和1.4亿元。</p>
+<p>然而，2019年5月，因辅导机构出现问题，景兴健护按下了上市“暂停键”。随后，景兴健护于2021年9月与中信证券签署上市辅导协议，并于同月在广东证监局进行备案，拟重启IPO在A股挂牌上市。</p>
+<p>据中信证券今年10月发布的《关于广东景兴健康护理实业股份有限公司辅导工作进展情况报告(第十二期)》显示，自2022年起，其已向中国证券监督管理委员会广东监管局报送第一期至第十一期辅导工作进展情况报告，但目前景兴健护仍未正式登陆A股。</p>
+<p>在前述文件中，中信证券在“辅导对象目前仍存在的主要问题及解决方案”一栏中还提到，目前，国内的上市监管环境日渐趋严，持续加大在申报审核阶段景兴健护的现场检查力度，对拟上市企业的管理能力、盈利水平、研发能力等景兴健护方面均提出了较高考验，辅导工作小组将持续辅导和督促发行人提高景兴健护规范运作意识，并根据发行人的经营情况和未来发展战略制定合理的景兴健护申报计划。</p>
+<p>此番陷入多重危机的ABC，何时方能圆了自己的上市梦？雷达财经将持续关注。</p>
+<p class="editor-note">本文来自微信公众号“鸿途FLY”，作者：孟帅，编辑：深海，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043104692469511</guid><pubDate>Tue, 19 Nov 2024 18:22:00 +0800</pubDate></item><item><title>穆胜：组织变革的四个真相（重磅揭秘）</title><link>https://36kr.com/p/3043067841117955</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2024年，在经济寒冬的压迫之下，大量企业开启了组织变革。根据穆胜咨询的《2024中国企业平台型组织建设报告》，53.2%的企业在进入2024年后进行了组织变革。如果算上2023年实施了组织变革的企业（占比26.6%），近两年选择进行组织变革的企业高达79.8%。</p>
+<p>但一个残酷的事实是，逆境之下倒逼出来的组织变革往往容易走入歧途。因为这种“变革”并不是经过系统思考和顶层设计之后的产物，更像是头疼医头脚疼医脚的反应。一个难度如此之大的事情，是不可能用简单的方式来完成的。</p>
+<p>关于组织变革，大多企业在头脑发热的同时，忽略掉了许多事实。</p>
+<h2><strong>真相1——寒冬，该不该组织变革？</strong></h2>
+<p>第一个要解决的问题是，经济寒冬，企业还应不应该调整组织，甚至走向组织变革？这是一个场景化的问题，是大部分人当下的疑虑。</p>
+<p>在组织建设上，一般的说法是“天晴修屋顶”，即企业在面对好的发展形势、有足够容错空间时，再推动组织变革。当企业面临外部的寒冬，自身需要为“活下去”而奔忙时，组织建设还应该做吗？组织变革还有必要吗？</p>
+<p>跳出当前的形势，平台型组织的巨大优势已经毋庸置疑，但建设平台型组织的风险和成本也的确存在。于是，企业一方面可能高喊“以客户为中心”“端到端交付”“无边界团队”，但另一方面，企业家们还寄希望于通过一些简单调整达成上述状态，并没有做好真正组织变革的准备。</p>
+<p>或者说，在他们的心中，组织变革的投产比一直是不那么清楚的。所以，他们做出来的所谓“组织变革”，其实还是“雷声大，雨点小”地修修补补，更多是一些口号。这部分“做得一嘴组织变革”的企业，其实就充斥在我们上面八成左右的企业里。</p>
+<p>在组织变革上玩虚招的企业，其动机也不难被理解。当企业面临外部严峻形势，而组织变革的操作又困难重重时，企业家们当然会降低组织变革的诉求。但我们也发现，那些真正实践平台型组织的企业，无论在晴天还是雨天，都在变革之路上勇往直前、坚定不移。他们享受了平台型组织的红利，更将其作为对抗寒冬的“火把”。</p>
+<p>组织变革是不是一个高奢品？是不是只适合一小部分企业？</p>
+<p>在我们看来并非如此。组织变革的每一步其实都有章可循，企业大可不必摸着石头过河，去面对不必要的风险；而组织变革的每一步其实都能带来显著效果，所谓“多走一步都是新的风景”。企业担心的风险和成本问题，以及投产比问题，其实和他们朴素的想象大相径庭。</p>
+<p>说到底，关键是有没有勇气走出第一步，勇气的背后是对组织的认知。在这一步上，进退之间，已经把老板们分成了两个境界，让企业在组织问题上进入了不同的“平行宇宙”。</p>
+<p>经济寒冬，并不会让本想推动组织变革的企业放弃，那些“被挤出”的需求，本来就是泡沫。作为一家咨询机构，我们只应该聚焦有真实需求的企业，给出更确定的组织变革方法，让他们在变革之路上能够策马扬鞭，星夜兼程。</p>
+<h2><strong>真相2——讲真，什么企业做组织变革？</strong></h2>
+<p>其实，当下组织变革的方向趋于一致，就是走向平台型组织。或者说，只要企业是真正想要推动组织变革，那平台型组织就是他们绕不过去的主题。</p>
+<p>但是，建设平台型组织的变革成本巨大，并不是所有企业都愿意承担，哪些企业会坚定为之呢？这是一个涉及底层逻辑的问题，也是大部分人心底的疑问。</p>
+<p>以前，我将企业进行组织变革原因大概分为三类，后来我的团队又从人才角度研究出了第四种原因，具体如下：</p>
+<p>一是以部门墙、隔热层、流程桶、（指标）真空罩为表征的大企业病将导致企业困死在内耗中；</p>
+<p>二是大企业病发酵出来的“管理双杀效应”将加速企业的内耗；</p>
+<p>三是外部不确定性将挑战金字塔组织的“脆弱”；</p>
+<p>四是90后、00后进入职场，用独特个性来“教育职场”，对于就业环境相当挑剔，导致企业必须提供更加简单明确的“市场化组织规则”——<strong>让员工用明确的价值产出换取回报。</strong></p>
+<p>我们通过持续的研究，验证了这些原因。同时，经过了与企业异常频繁的接触，我们对这个问题又有了新的认知——<strong>上述原因中，并不是哪个原因决定了企业会走向组织变革，组织变革是这几个原因综合作用的结果。</strong></p>
+<p>以下是我完全基于客户的视角而披露的观点：</p>
+<p>1、只有在市场增量不足时，企业才会追求效率；只有在追求效率时，企业才会真正重视组织问题。现在经济紧缩的走势，让企业开始重视效率问题，也开始重拾组织问题。</p>
+<p>2、实际上，解决组织问题的确能让企业更好地追求市场增量（增长），但在绝大多数老板的认知里，这是一个“慢变量”，他们天然不会将这个变量与创造市场增量联系在一起。</p>
+<p>3、大企业病会降低企业效率，但效率是相对的，大企业病是普遍存在的，没有企业会因为大企业病而认为自己在竞争中处于效率劣势。所以，当老板们抱怨大企业病时，他们更想做的是组织创新，即用一些小的口号、工具、手段来实现提效，而非大动干戈的组织转型。</p>
+<p>4、只有竞争的压力才会让企业走向组织转型。说直白点，只有当其他企业用更有效率的资源组织方式频频吞噬市场，且自己企业多种保守疗法的尝试依然无果，问题已经到了不得不解决的时候，老板们才会想到要彻底进行组织转型。</p>
+<p>5、没有企业会为看不到的不确定性而选择组织转型，我们大可以罗列一系列的灰犀牛、黑天鹅、疯狗浪，但绝大多数老板并不会因此而提前打造对抗风险、反脆弱的组织，他们都习惯“因为看见，所以相信”。</p>
+<p>6、绝大多数企业只会为了“活下去”而选择组织转型，那些为了“活更好”而先知先觉在丰衣足食阶段进行组织转型的企业，只有一个原因——他们有一个格局超级大的老板。</p>
+<h2><strong>真相3——实践，组织变革如何开启？</strong></h2>
+<p>如果组织变革的主流方向是走向平台型组织，那么，企业应该如何开始呢？实践中，穆胜咨询提供了一套落地操作的解决方案，也打造了几个标杆公司。</p>
+<p>我们的理念是，让一个企业从金字塔组织变成平台型组织，关键要解决员工的“责、权、利、能”这四大要素，并合并为三大变革：</p>
+<p><strong>其一，重塑组织结构，也就是重新定义“责”和“权”。</strong>这将改变指挥条线，让小业务团队甚至个体开始以用户为中心，让听得见炮火的人来决策，让前台调动中台再调动后台。</p>
+<p><strong>其二，重塑激励机制，也就是重新定义“利”。</strong>这将改变指挥条线上每个节点的利益分配方式，让人人都为自己打工。</p>
+<p><strong>其三，重塑人才供应链，也就是重新塑造“能”。</strong>平台型组织对于个体能力的要求是极高的，因此，转型平台型组织的企业无一例外都会发现自己的人才缺口，于是要求我们帮助他们打造出高效率和超稳定的人才供应链。</p>
+<p>值得一提的是，这也是我们在近两年的实践中观察到的现象。我相信，直到现在还有很多人以为平台型组织中的人才是依靠learn by doing来实现成长的。显然，这样的想法很幼稚。平台型组织必须实现人才量产，而实现人才量产的方式一定是做知识管理，只有基于强悍的知识管理，人才才能批量化复制。</p>
+<p>上述的三大转型并不容易，因为每个转型都是在挑战企业原有的组织与人力资源管理体系：</p>
+<ul>
+<li>新的组织结构意味着，人员以BP形式相互嵌套，跨边界作战，岗位职责无限延展，这显然挑战了原有分工清晰的组织结构。</li>
+<li>新的激励机制意味着，员工获得“分享利润”程度的激励水平，这显然挑战了原有“岗位工资+绩效工资+奖金”的传统三段式薪酬。</li>
+<li>新的赋能机制意味着，员工在平台上能够获得四面八方的知识补给，能够快速上手，灵活纠错，这显然又挑战原有“教-学”式的培养逻辑。</li>
+</ul>
+<h2><strong>真相4——先精炼组织，再变革组织！</strong></h2>
+<p>如果考虑建设平台型组织是一项系统工程，企业当下并没有启动的条件，难道，在组织设计上就没有调整的空间了吗？所有老板都不会这样认为，他们很清楚内部有多少问题，会用各种手段来挤水分。</p>
+<p>但这也造成了对组织问题简单粗暴的理解，还有后续的若干“冲动政策”。例如，当下不少企业就是在“压缩组织”而非“精炼组织”。</p>
+<p>所谓压缩组织，可以想象为用一个冲压机强行压缩物体的体积。所谓精炼组织，是通过各种手段，消除组织的冗余，留下“真金”。两者看似相同，实则天差地别。强行压缩，虽然简单，但真不怕破坏了内部结构？精炼组织，虽然复杂，但却是让企业更加健康的必由之路。</p>
+<p>王安石变法，也知道是去冗官、冗兵、冗费，古人尚且知道通过精炼去除冗余，我们现在的好多老板，就是一台台思维简单的“冲压机”。</p>
+<p>以下这些方面，都是精炼组织的机会：</p>
+<ul>
+<li>业务有没有一直讲故事而没实现的现象？哪些要坚持，哪些要放弃？</li>
+<li>流程有没有冗余节点？有没有负荷太轻的节点？</li>
+<li>职能有没有不创造经营价值的部分？有没有负荷太轻的建制？</li>
+<li>部门有没有人效过低的现象？人效距离合理值的GAP，就是冗员的所在。</li>
+<li>重点岗位有没有负荷过轻的现象？劳动定额距离合理值的GAP，就是岗位的浪费所在。</li>
+<li>……</li>
+</ul>
+<p>组织精炼真有空间吗？一定有。</p>
+<p>空间有多大？这取决于企业的组织设计水平。</p>
+<p>大多数企业里，HR作为专业人士，并没有主导组织设计，即使某些企业新增了OD（组织开发）岗位，HR们依然无法主导组织设计，因为这本来就是很多老板喜欢自己操刀的地盘。非专业的人做专业的事，后果一定是留下种种问题，这些<strong>“认知差（可称为GAP1）”</strong>，就是组织精炼的一个机会。</p>
+<p>另外，战略是动态的，业务是发展的，组织设计也需要适时调整。但偏偏组织设计又有惰性，很难灵活匹配战略和业务的需求。这中间的<strong>“时间差（可称为GAP2）”</strong>，就是组织精炼的另一个机会。</p>
+<p>在这两个GAP上挖掘红利，绝对可以让企业增加过冬的筹码，值得一试！</p>
+<p>同时，最初的“组织精炼”对于后续的“组织变革”，好处也是显而易见——<strong>冗员是组织变革最大的阻力，一个拥有庞大官僚结构的企业，根本无法启动组织变革。这类企业里，老板的权威实际被分散了，并不是真的权威，于是，TA很难以一己之力推动组织变革。只有打掉官僚们的地盘，企业才有重组涅槃的可能。</strong></p>
+<p>问题是，几个老板能够下这个决心？所以，两年里那近八成启动组织变革的企业中，究竟有多少是真刀真枪？这个数据想想都觉得“全都是泡沫”呀……不需多时，泡沫就会被刺破，真正能笑傲寒冬的企业，一定是极少数。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Vy95UaTRQdzNfpHF0cUdDg" rel="noopener noreferrer nofollow" target="_blank">“穆胜咨询”</a>，作者：穆胜，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043067841117955</guid><pubDate>Tue, 19 Nov 2024 18:23:00 +0800</pubDate></item><item><title>比亚迪也有“软肋”</title><link>https://36kr.com/p/3043155405474440</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>11月18日，比亚迪迎来了自己的30岁生日并在深圳总部举行了第1000万辆新能源车的下线仪式，在外人看来，比亚迪花了30年上演了一部从别人看不懂，到看不起，再到追不上的车圈版《逆袭人生》。</p>
+<p>上个月，比亚迪（包含腾势、方程豹和仰望）卖了50多万辆车，超越上汽集团，稳居中国市场第一。</p>
+<p>在不含增程的插混领域，比亚迪的市场份额更是一骑绝尘，上个月国内销量前十的插混车中，比亚迪占了前九名，排名第十的长安UNI-Z PHEV，销量也只有领头羊秦L的零头，在20万元以下的插混市场，比亚迪堪称灭霸般的存在。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,2121" src="https://img.36krcdn.com/hsossms/20241119/v2_2ceba212f63e4e3db6fcee99776f7ee9@5888275_oswg161521oswg1080oswg2121_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">比亚迪是插混市场的绝对王者</p>
+<p>相比于混动市场的全面开花，比亚迪在纯电市场的统治力要略逊一筹，而且存在感也仅限于中低端市场，能卖得上量的中高端纯电车只有“汉”和“海狮07”。</p>
+<p>一个冷知识，起售价格不到7万块的海鸥上个月卖了5.1万辆，是比亚迪家族以及全中国卖得最好的车（包括燃油车和新能源车），超越Model 3/Y之和，今年单一车型的累计销量就超过35万辆。</p>
+<p>相比于插混技术迭代五个版本之后所构建的先发优势，比亚迪在纯电市场上缺少一块像DM这样的金字招牌，这使得比亚迪在小车领域更容易成为被对手针对的软肋。</p>
+<p>现实情况是，一大波实力不俗的纯电小车正在向比亚迪的销量腹地加速驶去。</p>
+<h2><strong>平台切换的尴尬期</strong></h2>
+<p>如今的小车市场，早已是自主品牌纯电车的天下。</p>
+<p>根据懂车帝的统计，“微型车”市场的新能源渗透率接近100%，在“小轿车”这个赛道里，卖得最好的前七款都是纯电动，疫情前一个月能卖一万多辆的本田飞度，上个月在中国只卖了600多辆，在“小型SUV”市场里，卖得最好的是比亚迪元UP，断崖式领先后者。</p>
+<p>为什么小车的"油转电"速度如此迅猛？原因不难理解。</p>
+<p>小车主要用途是代步，消费者最在意的是价格和成本，相比于同级别燃油车，纯电车在使用成本上具备天然优势，想当初，五菱宏光MINIEV就是靠着不到3万的起售价和5分钱一公里的充电成本，一跃成为成为中国第一款纯电爆款小车，从此称霸A00级市场。</p>
+<p><strong>而当MINIEV火遍大江南北时，比亚迪却正处于纯电平台切换的尴尬期</strong>。</p>
+<p>当时，比亚迪在售的纯电车包括秦EV、唐EV、宋EV和汉EV，都是基于2018年左右推出的E2.0平台打造，相比于一代平台，二代平台采用的零部件性能和集成度要更高，比如三合一电驱就整合了电机、减速器和电机控制器，四驱版的唐EV百公里加速也能做到4.6秒。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,610" src="https://img.36krcdn.com/hsossms/20241119/v2_f5f403a29fe94c6e9fa7df2be6cca9f3@5888275_oswg713066oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">第二代E平台的零部件集成度明显提升</p>
+<p>但和真正的纯电平台相比，E2.0平台仍然有些先天不足。</p>
+<p>比如为了兼容燃油版和插混版，空间利用率没法做到极致。此外，除了搭载了磷酸铁锂"刀片电池"的汉，之前上市的唐、宋、秦EV搭载的都是成本更贵的三元锂电池，补贴后的售价，最低是秦EV的12.99万，最高是唐EV的25.99万，很难谈得上亲民。</p>
+<p>E3.0的诞生才让比亚迪能够打造出真正亲民的纯电代步小车，因为相比于第二代平台，第三代平台在空间、成本和安全性上都有了明显提升。</p>
+<p><strong>因为是纯电专属平台，E3.0不用为了兼容其他动力形式而牺牲空间，而且由于零部件的集成度更高，比如电驱系统从三合一提升至八合一，体积较上一代减少了20%，重量减少了15%，系统综合效率更高，所以能给前机舱和乘员舱留出更多的溃缩和乘坐空间。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241119/v2_6dcf9c3b39ae4d26abdbe5faee79118c@5888275_oswg469465oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">E3.0平台可以在小车里做出大空间</p>
+<p>此外，E3.0平台全系标配自研自产的刀片电池，成本更低，寿命更长，安全性能更好，体积利用率更高，而且因为电池包纯平布置在底盘，配合车身一体化设计以及全新的传力路径，有效地提升了车身扭转刚度和碰撞表现，更好的热管理技术，也能让整车的冬季续航提升20%左右。</p>
+<p>比亚迪纯电平台的迭代恰好契合了中国消费者对于新能源代步小车“既要、又要、还要”的需求：<strong>更大的空间，更低的价格，更扎实的续航以及比燃油车更胜一筹的智能化体验。</strong></p>
+<p>它帮助比亚迪在插电混动之外，开辟了一个巨大的纯电蓝海市场。</p>
+<h2><strong>天时地利</strong></h2>
+<p>2021年9月，基于第三代E平台打造的第一款纯电小车—海豚正式上市，综合补贴后售价为9.38万元-12.18万元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,502" src="https://img.36krcdn.com/hsossms/20241119/v2_66b540cd3a254e0d93ce73142b2bcb96@5888275_oswg56362oswg1080oswg502_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">打着“纯电新物种”称号的比亚迪海豚</p>
+<p>当时，不少人认为续航301公里的丐版有些过于寒碜，更没人预料到海豚竟以一己之力扭转A0级市场势。</p>
+<p>在这之前，A0级是一个逐步萎缩的夕阳市场，因为<strong>它不符合中国人车越买越大，越卖越贵的消费升级趋势</strong>，而且因为利润薄，传统车企也没有动力去升级老平台，飞度和Polo至少5年没有换代，之前上市的同级别A0级纯电产品，比如哪吒V以及欧拉好猫，也没有掀起多大波澜。</p>
+<p>但海豚凭借原生纯电平台在空间、动力、能耗和安全上的领先优势，在A0级市场掀起了一场滔天巨浪。</p>
+<p>当时市场上没有一款能和海豚全面抗衡的产品。</p>
+<p>比它便宜的，没它大，比如欧拉白猫和黑猫；同样基于原生纯电平台打造，操控比它好、动力比它强的，没它便宜和智能，比如大众ID.3；乘坐空间更大，价格相近的，网约车属性又太强，比如埃安Y；更时尚又更智能的，续航没它扎实，比如欧拉好猫。</p>
+<p>海豚上市不到3个月就月销破万，上市不到一年就月销破2万，不仅对Polo和飞度这些燃油车造成致命打击，也将A0级市场的电动渗透率一举拉高到90%以上，成为A0级市场当之无愧的销冠。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241119/v2_d19e44cda4b549be95ad6d0e3175272b@5888275_oswg40331oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">海豚连续两年在A0级轿车市场里一家独大，图片来源：童济仁汽车评论</p>
+<p>如果说五菱宏光MINIEV满足的是消费者对于一辆可以合法上路的乘用车最基础的代步需求，那么海豚更像是一台真正的国民代步电动车，在外观、动力、空间、安全、续航和能耗上的全面升级，使它能覆盖更多场景，打动更多消费者，走入更多的家庭。</p>
+<p>自助者天助之，就在海豚狂揽订单时，市场也给了它一次神助攻。</p>
+<p>从2021年年初开始，动力电池上游材料碳酸锂价格疯涨，叠加缺芯（芯片）少电（电池）以及补贴退坡等原因，到2022年年初，不少电动车陆续涨价，和海豚有一定竞争关系的好猫、哪吒V、零跑T03和埃安Y，涨价幅度从上千到上万不等。</p>
+<p>比亚迪也不例外，2022年1月和3月两次宣布涨价，<strong>但这对于本身就卖得多，核心零部件自研自产的比亚迪来说，最多也就是赚少了，但是对于那些本身就卖得少，核心零部件还得外采的公司来说，结局很有可能是亏麻了。</strong></p>
+<p>最典型的例子就是欧拉白猫和黑猫就因为“巨额亏损”而选择停止接单。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,2013" src="https://img.36krcdn.com/hsossms/20241119/v2_cfb63b80346742769bd4109e3bdd9c0e@5888275_oswg189369oswg1080oswg2013_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">海豚上市不到半年，欧拉白猫和黑猫就宣布退市</p>
+<p><strong>归根结底，小车讲究的是薄利多销，消费者在乎的是便宜大碗，车企比的是成本控制，在制造业中，影响成本的两大变量就是规模效应和核心零部件垂直整合能力。</strong></p>
+<p>在当时的A0级市场里，海豚在这两方面是优势最明显的，2022年，海豚全年卖出了超过20万辆，超过欧拉好猫和哪吒V之和，进一步拉开了和同级别对手的差距。</p>
+<p>上游原材料暴涨还导致了另一个结果，以当时的行业背景，由于开发纯电小车无利可图，合资车企基本都放弃了这个市场，国内车企也将资源倾斜给了定价更高的车型，导致这个市场长期无人问津，客观上<strong>给了海豚至少两年的竞争“真空期”。</strong></p>
+<p>2023年4月份，当价格和尺寸都比海豚小一号的海鸥上市之后，整个A0级市场的头部效应变得更加明显。当年，海豚卖了36万辆，上市仅9个月的海鸥也斩获了28万辆，成为当年最大黑马，两款小车的销量占了比亚迪整个集团销量的21.2%。</p>
+<p>在2024年之前，唯一能在这个市场对比亚迪构成威胁的只剩五菱缤果。</p>
+<p>靠着不俗的成本控制能力，更低的起售价，更大的空间和庞大的渠道，五菱缤果在海豚和海鸥的上下夹击中活了下来，上市之后每个月都能卖1万辆以上，上个月更是卖了2.4万辆。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,2109" src="https://img.36krcdn.com/hsossms/20241119/v2_4564432b4de2457e9609951c6cd4a64c@5888275_oswg150677oswg1080oswg2109_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">五菱缤果越战越勇，吉利星愿后生可畏</p>
+<p>从2024年下半年开始，随着吉利星愿以及埃安UT等产品的入场，A0级市场长达两年的竞争“真空期”宣告结束，这个被淡忘的市场又开始热闹和血腥起来。</p>
+<h2><strong>用魔法挑战魔法</strong></h2>
+<p>有一点比较反直觉，买小车的消费者预算通常捉襟见肘，但因为试错成本高，害怕厂家破产倒闭，售后无人问津，做出的选择往往更保守。</p>
+<p><strong>借用知名汽车媒体人三刀的总结：“在小车领域，性价比决定销量下限，品牌信任度决定销量上限。”</strong></p>
+<p>这也决定了小车的竞争注定是大厂之间的残酷厮杀，燃油车里的标杆产品，比如Polo、飞度和致炫背后都是全球头部大厂，进入电动化时代，这点也没有改变，能上牌桌的基本都是年销百万的大厂，整个市场的马太效应也有增无减。</p>
+<p>在海豚和海鸥先声夺人之后，比亚迪今年年初趁热打铁推出了元UP这款小型纯电SUV，上市后的一段时间内，因为和海豚价格重叠以及定位相似，导致后者销量应声下滑，但从今年6月份之后，两款产品销量都双双走高。</p>
+<p>至此，比亚迪在纯电小车市场中已经打出了三张王牌。上个月，海豚和海鸥合计卖了近7万辆，占了A0级轿车市场总量的57.8%，而在小型SUV市场，上市半年多的元UP一枝独秀，上个月卖了超2万辆，是第二名的2倍，第三名的近4倍。</p>
+<p>照这个趋势发展下去，比亚迪在小车领域积累的势能会像滚雪球一样越滚越大，进而封死对手上攻的道路，但事实上并没有。</p>
+<p><strong>在电动车行业，后发者想要快速追赶往往会采取“高举抵打”的策略，本质上就是”高配低价”。</strong></p>
+<p>比如Model 3是一款B级轿车，而PK它的国产纯电轿车基本上都是清一色的532（长度、轴距和宽度，单位：米）C级车，新势力们试图通过更大的尺寸、更长的续航，更好的舒适性和智能化硬件配置，以及更低的价格来挖墙角。</p>
+<p>这种策略也同样被用在PK比亚迪的纯电小车上，最新的成功案例就是10月份上市的吉利星愿。</p>
+<p>从尺寸上看，星愿的尺寸直接对标海豚，两者长宽高接近，轴距方面，星愿略逊一筹，比对手少了50mm，但比对方多了一个70升的前备箱，表面上看，双方各有所长，但实际上，这款车的直接竞品是比它矮一头的海鸥，因此做到了越级对标的第一步：<strong>空间全面领先。</strong></p>
+<p>而在消费者同样关心的续航、动力、操控以及智能化配置上，星愿做到了“人无我有，人有我优”。</p>
+<p>比如两者的入门款价格都是6.98万，但星愿的续航比海鸥多了5公里，最大功率多了3千瓦，海鸥是前置前驱，后悬架为扭力梁非独立悬挂，而星愿是后置后驱，后悬架为多连杆独立悬挂，操控体验更胜一筹。</p>
+<p>值得一提的是，星愿作为几何品牌被整合进入吉利银河的第一款产品，搭载了之前被用在领克和银河中端车型上的Flyme车机系统，配合本身圆润可爱的外形，让星愿在务实性之外还拥有了更多的个性，车机智能化程度在同级产品中属于独一档。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,578" src="https://img.36krcdn.com/hsossms/20241119/v2_512f06a4a9f3497eb369a8b3bc52f571@5888275_oswg68031oswg1080oswg578_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,595" src="https://img.36krcdn.com/hsossms/20241119/v2_338f0d757a1842f884d47cb64bdbb0fe@5888275_oswg564205oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,675" src="https://img.36krcdn.com/hsossms/20241119/v2_c2e974d361dc449e8e476f6c41aa2a6e@5888275_oswg807578oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">从上至下，分别是海鸥、星愿和UT的座舱和车机界面</p>
+<p>这种“高举低打，越级对标”的策略让星愿上市33天就交付了2万辆，不仅是星愿，这种策略在银河系列的上一款产品“银河E5”上也得到了充分验证，通过全面对标市场上的标杆车型（比亚迪元Plus），银河E5上个月销量突破1.5万辆。</p>
+<p>往后看，A0级市场将涌现更多的武林高手，这其中有车机系统升级、电池成本降级（换装磷酸铁锂电池的版本已经正式申报）的大众ID.3，也有刚刚在广州车展上亮相的“10万级纯电掀背轿车”埃安UT，预计明年1月开始预售，而它的直接竞品就是海豚。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,688" src="https://img.36krcdn.com/hsossms/20241119/v2_18b6ade7c41f404dbcce51e9a5cffa0a@5888275_oswg107217oswg1080oswg688_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">刚刚在广州车展亮相的埃安UT</p>
+<p>想当初，比亚迪靠着“更大的空间、更低的成本、更好的内饰以及更智能的车机”这几板斧将一众经典小车打的找不着北，激活了增换购时代下的代步车市场，可如今，这些策略都在被对手一一学习和消化，成了反抗比亚迪最有力的武器。</p>
+<p>在这个过程中，比亚迪的角色也从“进攻者”变成了“防守者”。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/SDspw7bLuhWsyJALqwTJ5A" rel="noopener noreferrer nofollow" target="_blank">“远川汽车评论”</a>，作者：罗松松，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043155405474440</guid><pubDate>Tue, 19 Nov 2024 18:23:00 +0800</pubDate></item><item><title>特斯拉卖起机器人玩具，售价40美元被抢光，二手价高达1300美元</title><link>https://36kr.com/p/3043121977281416</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>没等到擎天柱上市，特斯拉先卖上了迷你版机器人。</p>
+</blockquote>
+<p>论赚钱，还得是马斯克。</p>
+<p>前几天，特斯拉机器人动作玩具在官方商店开售，仅卖 40 美元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_19962eeccfdb4168bc9eebb0ea0b5834@000000_oswg236778oswg1080oswg591_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不到 24 小时，它就被抢购一空，甚至还一度把网站挤崩了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_827cf583f6cb4896a3d3de824f4ae3b2@000000_oswg64662oswg1080oswg162_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这其实在预料之中，相比于 2-3 万美元的擎天柱，这款迷你机器人玩具价格是如此良心。</p>
+<p>对于大部分人来说，这可能是唯一能买得起的特斯拉机器人。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_f9ea456295bf40deb404f33915bbcf6e@000000_oswg53046oswg1080oswg147_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>截至目前，这款玩具仍然缺货，网友只能注册接收补货通知。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_e13d6dc29e134652b1812a4477da7529@000000_oswg38324oswg832oswg498_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>不少网友跑到二手交易平台 eBay 上购买，那里的售价翻了几番，从 130 美元到 1300 美元不等。</p>
+<p>有商家表示，将在收到该产品后发货。然而，特斯拉官方的发货时间仍是个未知数。</p>
+<p>据官方描述，这个玩具就是 Optimus Gen 2 人形机器人的「迷你版」，按 1:10 的比例打造。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_c8d1941fa1e84c2e919114b68b10b960@000000_oswg82295oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>它身高 7.16 英寸（约 18.2 厘米），宽 2.16 英寸（约 5.5 厘米），重量很轻，只有 1.7 盎司（约 48 克）。</p>
+<p>全身拥有超过 40 个独立部件和 20 个关节点，并且能够移动。</p>
+<p>除了人偶，特斯拉还给配了一个充电支架和一个赛博锤。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_549024e9ae70442eb998b6a9d47d642c@000000_oswg141331oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>虽然特斯拉将其描述为「迷你自动驾驶助手和仿人朋友」，但综合各类信息来看，它似乎不太智能，相比于实用性，它或许更适合收藏。</p>
+<h2><strong>擎天柱预计 2026 年上市</strong></h2>
+<p>特斯拉机器人玩具遭疯抢，也让不少人关心起「擎天柱」的上市时间。</p>
+<p>最初，马斯克承诺特斯拉机器人在 2023 年上市，但现实啪啪打脸。</p>
+<p>今年 7 月份的财报电话会议上，马斯克声称，特斯拉预计将在明年初开始限量生产第一版 Optimus 人形机器人，但仅供公司内部使用。</p>
+<p>「我们预计到明年年底，在特斯拉工厂生产数千台 Optimus 机器人，并做一些有用的事情。」</p>
+<p>按照马斯克的说法，特斯拉将在 2026 年加大机器人的生产力度，届时第二代机器将可供外部客户使用。</p>
+<p>早在 2021 年的「AI Day」上，马斯克放了个短片，首次展示了特斯拉人形机器人（Tesla Bot）计划。</p>
+<p>不过，彼时的 Tesla Bot 还只是个 PPT 概念。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_8cbae25d9bcc411ba4f8f9bb6d9f7973@000000_oswg91090oswg913oswg561_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>为了活跃现场气氛，一个身着黑白配色紧身衣、cos 成「Tesla Bot」的舞者，在台上跳了段机械舞。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_4609743fec2c4170b4af723a3ab8bd45@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>整活结束后，老马介绍起这款人形机器人的参数。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_64359b1eacf14f34b3f8b7f7972295f9@000000_oswg208047oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>它身高 172 公分，体重 57 公斤，承载能力 20 公斤，最快速度每小时能跑 8 公里，搭载了从特斯拉自家的自动驾驶所迭代过来的感知 AI，主要帮助人类从事各种危险和无聊的工作。</p>
+<p>至于为何设计为人形，马斯克笑着解释：「这样设计的话，你跑得比它快，也能从它手里跑掉，更能制伏它。」</p>
+<p>时隔一年，也就是 2022 年 9 月的 AI Day 上，特斯拉人形机器人原型机正式亮相，并改名为 Optimus（擎天柱）。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_88d9cb78fee24266ac03240068602c35@000000_oswg1235082oswg1024oswg682_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>它能摇摇晃晃地走上台，还跳了一段笨拙的举手舞：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_d088be47a84b45869bb45356cbf45b24@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>然而，电线裸露、外观粗糙、走路需要人扶等情况仍被网友群嘲：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_a54951c247474e4b909dfbc1aedce87d@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在视频演示中，擎天柱也只能搬箱子、给花草浇水，或者识别周围物体渲染图：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_29b03fb1c17b4a28904d397e77f3bab4@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>等到 2023 年年底，马斯克又发布了一段Optimus Gen 2，即二代擎天柱的新演示视频。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_3a9ceac6cd57478e918ddc1368b8b763@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>视频中，二代擎天柱更改了外形设计，身体两侧不再有裸露的电线和关节，手部动作相当丝滑，还可以更平稳地行走、 90 ° 深蹲、煮鸡蛋。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_7c4f4e1069a144e991281ac4cee516c6@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>据特斯拉称，Optimus Gen 2 的行走速度比其前身快 30%，重量也轻 22 磅。</p>
+<p>今年年初，特斯拉在一段演示视频中展示了擎天柱机器人折叠衣物，但有机器人工程师质疑，这些机器人并非自主机器人，而是由人类控制操作。</p>
+<p>一个月前，擎天柱再次亮相特斯拉发布会。它们或戴着牛仔帽调酒，或到处闲逛跟人搭话聊天：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_b10e27323b91458ebd53a39b3c9dd84d@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>今天，美国大网红金・卡戴珊还和擎天柱搞起了互动，比心、玩剪刀石头布：</p>
+<p>从一开始的 PPT 概念，到如今擎天柱的惊人表现，马斯克仅用了 3 年时间。</p>
+<p>不得不说，老马虽然爱画饼，但他吹过的牛皮最终总能实现。</p>
+<h2><strong>特斯拉是懂赚钱的</strong></h2>
+<p>有意思的是，我们在逛特斯拉官方商店时，发现它旗下产品五花八门。</p>
+<p>除了特斯拉汽车轮胎、配件等，还有 T 恤、帽子、水杯、充电器，以及各种汽车模型。</p>
+<p><strong>1.Cyberquad for Kids（售价 1650 美元）</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_3288a7dd06ff4b04a970ad54405b8632@000000_oswg371106oswg1080oswg641_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这是一款全电动的儿童版 Cyberquad 四轮骑行玩具，灵感来源于 Cybertruck 设计，包括全钢框架、带垫座椅、后轮碟刹和 LED 灯条。</p>
+<p>其售价高达 1650 美元，价格并不便宜。</p>
+<p>它由锂离子电池供电，续航可达 15 英里，配备 500W 电机，最高时速可达 10 英里 / 小时，适合 9-12 岁的儿童驾驶。</p>
+<p>‍</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_d11eec452dd7429bbdd8ea1a23283edd@000000_oswg1789951oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>2.Cybertruck for Kids（1500 美元，已售罄）</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_38e9f4fa4aaf4003985f80984ae2b921@000000_oswg240353oswg1080oswg553_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这款全电动的儿童版 Cybertruck 四轮骑行玩具，灵感也是来源于 Cybertruck 设计，包括可调节座椅、后轮驱动、电子刹车以及 LED 前灯和尾灯。</p>
+<p>由锂离子电池供电，续航可达 12 英里，配备 500W 电机，最高时速可达 10 英里 / 小时，儿童版 Cybertruck 可舒适地容纳两名儿童，适合 6-12 岁的儿童驾驶。</p>
+<p>售价 1500 美元，目前官网显示已售罄。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_9afd7441d2c64daa9befb32895c7ce90@000000_oswg217917oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>3.Tesla Sipping Glasses （售价 50 美元）</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_3ecaae445cb34869b6af322cc4802a74@000000_oswg261353oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这是一款特斯拉限量版品酒杯。其设计灵感来自特斯拉龙舌兰酒的独特瓶身轮廓，具有角度分明的线条和雕刻的特斯拉标志，可以将玻璃器皿放置在配套的金属支架上。</p>
+<p>每只杯子容量为 1.5 盎司，高度为 3.5 英寸。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_6197d313163d46e3864c3c02c3b8e842@000000_oswg292148oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>4.1:18 Scale Cybertruck Diecast（售价 225 美元）</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_03160fc4e7d8460798c6962a732472d7@000000_oswg275650oswg1080oswg539_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>1:18 比例的 Cybertruck 合金模型由特斯拉设计工作室特别设计。每一个细节、曲线和表面都是从实际制造 Cybertruck 车辆所使用的 3D CAD 数据复制而来。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_9931e3cc74724ae98a1a4ce38280afa0@000000_oswg234646oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>该模型长 328 毫米，宽 125 毫米，高 103 毫米，重约 1.5 公斤，包括 180 多个金属和塑料部件、可操作的车门和磁性后挡板、可拆卸的货箱盖、全景玻璃车顶、橡胶轮胎、可转向的车轮以及精细内饰。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_2df3dfb062c4419cbd51ba5f337e9c65@000000_oswg474142oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此外，还有特斯拉各式车辆的迷你模型，售价在 150 美元到 195 美元不等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_8bfed767a229499c94d4d608d80607ae@000000_oswg282371oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_c958f79b11ed405f980afef23aa93ade@000000_oswg209902oswg1080oswg581_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241119/v2_321fbc1f3bee4ee5a0eae2498127a608@000000_oswg224106oswg1080oswg584_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>参考链接：</strong></p>
+<p>https://shop.tesla.com/product/tesla-bot-action-figure?sku=2080682-00-A</p>
+<p>https://www.techeblog.com/tesla-bot-action-figure-optimus-price/</p>
+<p>https://www.usatoday.com/story/tech/news/2024/11/18/tesla-robot/76412451007/</p>
+<p>https://twitter.com/KimKardashian/status/1858603072513339871</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzUyODA3MDUwMA==&amp;mid=2247524507&amp;idx=1&amp;sn=398920142e581f8fd87216f3848f9c07&amp;chksm=fbb480d6be84c1b0e148661aea39e45b5bc9bd8ebc1527cee65d2e58b4bd837f7b05d67ed3b4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“机器之能”（ID：almosthuman2017）</a>，作者：杨文，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043121977281416</guid><pubDate>Tue, 19 Nov 2024 18:24:00 +0800</pubDate></item></channel></rss>
