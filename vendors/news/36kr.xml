@@ -1,682 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 20 Nov 2024 15:30:26 +0800</lastBuildDate><pubDate>Wed, 20 Nov 2024 15:30:26 +0800</pubDate><item><title>“电子手办”、“养成系显卡”... 摩尔线程要上市了 | 游戏科技观察</title><link>https://36kr.com/p/3043205808507776</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文 | 冯敏 </p>
-<p>编辑 | 刘士武 </p>
-<p>在各家国产游戏厂商绞尽脑汁推陈出新的同时，国产芯片商争先恐后排队上市的进程也可谓进行得如火如荼。 </p>
-<p>继燧原科技、壁仞科技宣布启动IPO上市辅导后，摩尔线程智能科技股份有限公司（以下简称“摩尔线程”）已于10月28日变更市场主体类型为其他股份有限公司，公司注册资本由最初的2441.32万元增至3.3亿元。11月12日，摩尔线程在北京证监局办理辅导备案登记，正式启动A股上市辅导。</p>
-<p>摩尔线程是一家以GPU芯片设计为主的集成电路高科技公司，被业内称作“中国英伟达”。公司成立于2020年，创始人张建中于2005年加入英伟达，曾担任英伟达全球副总裁、中国区总经理，在GPU相关技术及产品领域有着丰富经验，是推动英伟达在中国市场高速发展的关键人物。</p>
-<p>自成立以来，摩尔线程共经历了六轮融资，累计融资金额数十亿元，投资方包括深创投、红杉中国、字节跳动、腾讯投资、中关村科学城等知名投资机构和企业。四年时间，摩尔线程几乎是以每年一款芯片的速度进行产品迭代，研发出苏堤、春晓、曲院三款高性能全功能GPU，成为国产高精尖芯片的代表。</p>
-<p class="image-wrapper"><img data-img-size-val="1069,560" src="https://img.36krcdn.com/hsossms/20241119/v2_94160c053fcf45af9563ea28c597b778@6151540_oswg86481oswg1069oswg560_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：网络</p>
-<p>从技术产品历程来看，摩尔线程的发展参照了英伟达的部分经验，例如从产品到生态，摩尔线程与英伟达进行了“对标”。</p>
-<p>公司坚持统一架构，从成立之初到现在，落地了从芯片、显卡到集群的智算完整产品线，是唯一在B端和C端均有布局的GPU创企，因此被许多行业人士认为是“最像英伟达的国产GPU公司”。</p>
-<p>此外，摩尔线程也同英伟达相似，从游戏显卡“发家”——很多用户认识摩尔线程，就是从这家公司推出的国产游戏显卡开始的。截至目前，摩尔线程推出了MTT S30、MTT S70、MTT S80等多款显卡。其中，定位游戏显卡的MTT S80是其目前研发的最强性能产品，成为国内唯一可流畅运行今年国产3A大作《黑神话·悟空》，且支持DirectX12的国产显卡。</p>
-<p>摩尔线程的出现，弥补了中国自研GPU几近空白的市场，但GPU技术发展至今已有三十多年，想要短期内实现与英伟达、AMD等厂商正面竞争，摩尔线程的产品技术仍有待打磨和积累。</p>
-<p>以GPU厂商普遍的核心业务游戏显卡为例，摩尔线程的显卡性能虽然已经支持运行《黑神话：悟空》，但在运行游戏测试程序时，搭载MTT S80的主机在兼容性、帧率、画面效果等方面均表现欠佳。为此，到了游戏首发期间，摩尔线程发布了最新优化驱动程序，使得游戏帧率能够在高画质条件下达到50帧左右，弥补了部分玩家的遗憾。</p>
-<p>也是因为这些原因，摩尔线程的显卡经常被玩家调侃是“电子手办”、“养成系显卡”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241119/v2_1e0444c0b1f8467bbc08c9f128006e50@6151540_oswg46771oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来自B站up主「Channel包」</p>
-<p>当然，GPU在游戏领域的应用是基础，但这项技术也正变得不再是游戏显卡的专属。在各大芯片厂商百花齐放的当下，如何做出差异化也是每个企业必须思考的问题，这或许也是摩尔线程作为“后起之秀”，在游戏显卡领域发展阻力较大的情况下，能够实现弯道超车的X因素。</p>
-<p>当前国内绝大多数企业都选择在AI芯片方面研究，摩尔线程的“差异之处”则在于走全功能GPU路线，专注通用计算方面的研究和应用，向全球提供加速计算的基础设施和一站式解决方案，为各行各业的数智化转型提供AI计算支持。</p>
-<p>随着人工智能技术的迅速发展，GPU的应用领域正不断扩大。无论是早期的游戏市场，还是当下正在不断被研究发展的虚拟现实及深度学习市场，都需要GPU技术的研发支持。据 Jon Peddie Research 最新报告显示，全球 GPU 市场规模有望在2024年突破 985 亿美元，呈现了出强劲的增长态势。</p>
-<p>张建中曾在首届全球独角兽企业大会上表示，GPU驱动的AI技术将继续主导全球科技发展，而AI将在各个行业深度渗透，释放出新的商业价值。</p>
-<p>在上市辅导备案的消息披露后，多家上市公司也在互动平台回应了与摩尔线程的合作情况。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,646" src="https://img.36krcdn.com/hsossms/20241119/v2_a4f6df3ca87d44a99f8c2b6791baae79@6151540_oswg74165oswg1080oswg646_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：网络</p>
-<p>在GPU芯片赛道依旧被英伟达、AMD、英特尔（近几年发力独立显卡）三家垄断的今天，摩尔线程如果顺利上市，将成为是国产GPU产业的一个重要里程碑，也标志着国内GPU实力的进一步提升。</p>
-<p>——————————</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkzOTY5MTQyNQ==&amp;mid=2247484108&amp;idx=1&amp;sn=d608c40c03da884c0f4242f943d72bbe&amp;chksm=c2ec5e02f59bd7140fbf7273e419154557490a7e1ecbf8d34fec3d3158218319911112b17d1f&amp;token=1767874024&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“36氪游戏”</a>。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3043205808507776</guid><pubDate>Wed, 20 Nov 2024 13:46:00 +0800</pubDate></item><item><title>求购智元机器人股份；转让半导体光刻机头部企业LP份额｜资情留言板第150期</title><link>https://36kr.com/p/3044123122535049</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“资情留言板”是36氪推出的新栏目。</p>
-<p>资产交易市场，信息瞬息万变，消息真假难辨，即使买卖双方花费大量的时间、精力，推动成交往往困难重重。为了能够帮助买卖双方更快速链接市场信息和潜在交易对手，避免不必要的投入与浪费，我们特地打造了这样一档栏目。</p>
-<p>本文是这个栏目的第150期，我们汇总了当下市场上的一些资产供需信息。如果你对本文提到的相关的交易线索感兴趣，希望接触这些潜在的交易对手，或者如果你手中直接握有希望交易的资金或者资产，欢迎与我们联系（邮箱：zcjy@36kr.com）</p>
-<p>9月份，我们已经举办了两场家办线下聚会，聚焦于二级市场海外资产配置和大类资产配置的主题，引起了参与热潮。如果您也对此类交流感兴趣，请联系我们：zcjy@36kr.com。</p>
-<h2><strong>一、本月新增</strong></h2>
-<h2><strong>1、求购智元机器人公司股份（预期估值面议）</strong></h2>
-<p>买家性质：直接买家</p>
-<p>交易价格：预期估值面议</p>
-<p>交易额度：3000-5000万人民币份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>2、转让半导体光刻机头部企业LP份额（预期估值约220亿人民币）</strong></h2>
-<p>交易价格：预期估值约220亿人民币</p>
-<p>当前轮次：Pre-IPO轮</p>
-<p>资产规模：约5000万人民币份额</p>
-<p>交易方式：LP份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>3、转让Shein公司股份（预期估值约500亿美元）</strong></h2>
-<p>交易价格：预期估值约500亿美元</p>
-<p>当前轮次：Pre-IPO轮</p>
-<p>资产规模：约3000万美元份额</p>
-<p>交易方式：显名SPV份额，可以拆分</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>4、求购摩尔线程公司股份（预期估值面议）</strong></h2>
-<p>买家性质：直接买家</p>
-<p>交易价格：预期估值面议</p>
-<p>交易额度：2000万人民币份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>二、 资产求购</strong></h2>
-<h2><strong>1、求购星动纪元公司股份（预期估值</strong>12<strong>亿人民币）</strong></h2>
-<p><strong>买家性质：直接买家</strong></p>
-<p><strong>交易价格：预期估值</strong>12<strong>亿人民币</strong></p>
-<p><strong>交易额度：约</strong>1000<strong>万人民币</strong></p>
-<p><strong>联系方式：</strong>zcjy@36kr.com</p>
-<h2><strong>2、求购人形机器人领域公司股份（预期估值面谈）</strong></h2>
-<p><strong>买家性质：直接买家</strong></p>
-<p><strong>交易价格：预期估值面谈</strong></p>
-<p><strong>交易额度：单一项目约</strong>2000-3000<strong>万人民币</strong></p>
-<p><strong>联系方式：</strong>zcjy@36kr.com</p>
-<h2><strong>3、寻求医疗、科技板块并购标的（预期估值面议）</strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：过去三年累计利润7000-8000万人民币</p>
-<p>交易方式：控股并购、现金并购</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>4、求购长鑫存储老股（预期估值面议）</strong></h2>
-<p><strong>买家性质：直接买家</strong> </p>
-<p><strong>交易价格：预期估值面议，按照市场公允价格</strong></p>
-<p><strong>资产规模：</strong>3000-4000<strong>万人民币</strong></p>
-<p><strong>交易方式：要求显名股东</strong></p>
-<h2><strong>5、求购Shopee老股（预期估值面议）</strong></h2>
-<p><strong>买家性质：直接买家</strong> </p>
-<p><strong>交易价格：预期估值面议，按照市场公允价格</strong></p>
-<p><strong>资产规模：</strong>1000<strong>万美金</strong></p>
-<p><strong>交易方式：优先显名转让份额</strong></p>
-<h2><strong>6、寻求医疗器械上下游并购标的（预期估值面议）</strong></h2>
-<p>买家性质：直接买家 </p>
-<p>交易价格：预期估值面议，要求有盈利</p>
-<p>并购要求：1、江苏省内（苏锡常大市内更优）2、疼痛治疗耗材、介入治疗耗材（含内镜）、外科手术耗材、创面创新治疗耗材、麻醉类等生命支持耗材等与林华业务相关的六大领域；3、有源也考虑，以耗材为主（兼设备系统），影像大设备除外；4、有核心团队全职投入。</p>
-<p>交易方式：3000-5000万投资实现至少51%控股，提供1-2亿资金和免费的办公室及厂房，通过公司300家壁垒商和3000+经销商为企业提供渠道网络。</p>
-<h2><strong>7、寻求直播带货MCN并购标的（预期估值面议）</strong></h2>
-<p>买家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：希望有快手、小红书、腾讯视频号或者tiktok其中任一平台成熟经验</p>
-<p>交易方式：控股并购、现金并购，预计可投入过亿资金体量</p>
-<h2><strong>8、求购阜阳欣奕华材料公司股份（预期估值28-29亿）</strong></h2>
-<p>买家性质：LP买家</p>
-<p>交易价格：预期估值28-29亿</p>
-<p>交易额度：600万人民币份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>9、求购小红书公司股份（预期估值180亿美金）</strong></h2>
-<p>买家性质：直接买家</p>
-<p>交易价格：预期估值180亿美金</p>
-<p>交易额度：约500-1000万美金份额，可以有结构</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>10、求购小红书公司股份（预期估值180亿美金）</strong></h2>
-<p>买家性质：直接买家</p>
-<p>交易价格：预期估值180亿美金</p>
-<p>交易额度：约500万美金份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>11、求购SpaceX公司股份（预期估值每股112美金）</strong></h2>
-<p>买家性质：LP买家</p>
-<p>交易价格：预期估值每股112美金</p>
-<p>交易额度：约2000万美金份额，需要单层结构</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>12、求购字节跳动公司股份（预期估值2300亿美金）</strong></h2>
-<p>买家性质：LP买家</p>
-<p>交易价格：预期估值2300亿美金</p>
-<p>交易额度：约3000万美金份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>13、寻求伺服电机领域上下游并购标的（预期估值面议）</strong></h2>
-<p>买家性质：直接买家 </p>
-<p>交易价格：预期估值面议，要求有盈利</p>
-<p>并购要求：伺服电机、永磁同步电机、伺服驱动器上下游企业</p>
-<p>交易方式：控股并购、现金并购</p>
-<h2><strong>14、寻求小家电领域上下游并购标的（预期估值面议）</strong></h2>
-<p>买家性质：直接买家 </p>
-<p>交易价格：预期估值面议，20亿之内</p>
-<p>并购要求：要求有盈利</p>
-<p>交易方式：控股并购、现金并购，也考虑战略投资</p>
-<h2><strong>15、求购人型机器人领域老股（预期估值面议）</strong></h2>
-<p>买家性质：直接买家 </p>
-<p>交易价格：预期估值面议，按照市场价格</p>
-<p>资产规模：2000万-3000万人民币</p>
-<p>交易方式：优先显名转让份额</p>
-<h2><strong>16、求购能量奇点公司股份（预期估值面议）</strong></h2>
-<p>买家性质：LP买家</p>
-<p>交易价格：预期估值面议</p>
-<p>交易额度：500万人民币份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>17、寻求汽车领域上下游并购标的（预期估值面议）</strong></h2>
-<p>买家性质：直接买家 </p>
-<p>交易价格：预期估值面议，要求有盈利</p>
-<p>并购要求：汽车智能座舱类、汽车空调及热管理；汽车车灯相关、汽车电机、电驱、电控相关；</p>
-<p>交易方式：控股并购、现金并购</p>
-<h2><strong>18、求购追觅科技股份（预期估值面议）</strong></h2>
-<p>买家性质：直接买家</p>
-<p>交易价格：预期估值面议</p>
-<p>交易额度：千万人民币份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>19、求购头部茶饮企业老股份额</strong></h2>
-<p>卖家性质：直接卖家</p>
-<p>交易价格：面议</p>
-<p>资产规模：1000-2000万人民币份额</p>
-<p>交易方式：显名股东直接转让</p>
-<h2><strong>20、寻求智慧城市板块并购标的（预期估值面议）</strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：智慧城市相关，软硬件均可</p>
-<p>交易方式：控股并购、现金并购</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>21、求购上海微电子股份（预期估值面议）</strong></h2>
-<p>买家性质：直接买家</p>
-<p>交易价格：预期估值面议</p>
-<p>交易额度：1000-2000万人民币份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>22、寻求护肤品、美妆等赛道并购标的（预期估值面议）</strong> </h2>
-<p>买家性质：直接机构买家</p>
-<p>交易价格：预期估值面议</p>
-<p>寻求标的画像：护肤品类、化妆品类、调味品，年利润在3000万人民币</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>23、寻求电子信息赛道并购标的（预期估值面议）</strong> </h2>
-<p>买家性质：直接机构买家</p>
-<p>交易价格：预期估值面议 ，约10亿人民币 </p>
-<p>寻求标的画像：电子信息行业标的，年利润在2000万人民币以上 </p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>24、寻求文旅赛道并购标的（预期估值面议）</strong> </h2>
-<p>买家性质：直接机构买家</p>
-<p>交易价格：预期估值面议 ，约10亿人民币 </p>
-<p>寻求标的画像：文旅上下游企业，年利润在2000万人民币以上</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>25、寻求办公软件赛道并购标的（预期估值面议）</strong> </h2>
-<p>买家性质：直接机构买家</p>
-<p>交易价格：预期估值面议 ，约10亿人民币</p>
-<p>寻求标的画像：办公软件上下游企业，有利润。</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>26、寻求卤味食品、连锁餐饮板块并购标的（预期估值面议）</strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：有盈利，有规模性收入，连锁店</p>
-<p>交易方式：控股并购、现金并购</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>27、寻求精密制造领域板块并购标的（预期估值面议）</strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：制造业，如离合器等汽车零部件，或未来有IPO上市潜质的中后期企业；要求有规模化收入</p>
-<p>交易方式：控股并购、现金并购</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>28、寻求工业涂料、工业重防腐板块并购标的（预期估值面议）</strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：航天航空高科技涂料、工业重防腐（基础设施，风电，港机，工业装备）；已经商业化；</p>
-<p>交易方式：控股并购或战略投资、现金并购</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>29、寻求智能传感板块并购标的（预期估值面议）</strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：需要具备传感器研发能力和制造能力的完整团队</p>
-<p>交易方式：控股并购、现金并购</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>30、求购头部扫地机器人股份（预期估值面议）</strong></h2>
-<p>买家性质：直接买家</p>
-<p>交易价格：预期估值面议</p>
-<p>交易额度：千万人民币份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>31、寻求农业、供应链和食品板块并购标的（预期估值面议）</strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：要求有规模化利润和盈利，团队完整，净利润在千万以上。</p>
-<p>交易方式：控股并购或者战略投资、现金并购</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>32、求购星动纪元机器人股份（估值面议）</strong> </h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：估值面议</p>
-<p>资产规模：千万人民币左右</p>
-<p>交易方式：要求上股东名册</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>33、求购智元机器人股份（估值面议） </strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：估值面议</p>
-<p>资产规模：千万人民币左右</p>
-<p>交易方式：要求上股东名册</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>34、寻求正负极材料板块并购标的（预期估值面议）</strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：有一定规模的商业化收入</p>
-<p>交易方式：控股并购、现金并购</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>35、寻求新能源上下游赛道并购标的（预期估值面议）</strong></h2>
-<p>卖家性质：直接买家 </p>
-<p>交易价格：预期估值面议</p>
-<p>并购要求：有一定规模的商业化收入，有5000万人民币以上的利润</p>
-<p>交易方式：控股并购、现金并购</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong> 三、 资产出让/增资</strong></h2>
-<h2><strong>1、转让头部境内外一体化国家粮油交易平台企业基金LP份额（预期估值面议）</strong></h2>
-<p><strong>卖家性质：直接卖家</strong> </p>
-<p><strong>交易价格：面议</strong></p>
-<p><strong>资产规模：</strong>5000<strong>万人民币份额</strong> </p>
-<p><strong>交易方式：管理费</strong>2%<strong>，</strong>carry20% </p>
-<p><strong>其他说明：</strong>LP<strong>份额，一层结构</strong></p>
-<h2><strong>2、转让国产焊接工业龙头企业专项基金</strong>LP<strong>份额（预期估值面议）</strong></h2>
-<p><strong>资产亮点：公司是国内唯一机器人控制器起家的机器人本体企业，转型前曾是国内最大的第三方机器人控制器供应商，市占率</strong>50%<strong>以上，奠定了深厚的机器人技术基础。</strong> 19<strong>年转型做焊接机器人，连续多年获得国产焊接机器人出货量第一，并持续至今。</strong></p>
-<p><strong>卖家性质：直接卖家</strong> </p>
-<p><strong>交易价格：面议</strong></p>
-<p><strong>资产规模：</strong>2000<strong>万人民币份额</strong> </p>
-<p><strong>交易方式：管理费</strong>2%<strong>，</strong>carry20% </p>
-<p><strong>其他说明：</strong>LP<strong>份额，一层结构</strong></p>
-<h2><strong>3、转让创新药领域生成式</strong>Ai<strong>头部企业专项基金</strong>LP<strong>份额（预期估值面议）</strong></h2>
-<p><strong>卖家性质：直接卖家</strong> </p>
-<p><strong>交易价格：面议</strong></p>
-<p><strong>资产规模：</strong>1000<strong>万人民币份额</strong> </p>
-<p><strong>交易方式：管理费</strong>2%<strong>，</strong>carry20% </p>
-<p><strong>其他说明：</strong>LP<strong>份额，一层结构</strong></p>
-<h2><strong>4、转让商业航天头部企业老股份额（预期估值面议）</strong></h2>
-<p><strong>卖家性质：直接卖家</strong> </p>
-<p><strong>交易价格：面议</strong></p>
-<p><strong>资产规模：</strong>5000<strong>万人民币份额</strong> </p>
-<p><strong>交易方式：</strong> <strong>显名股东份额转让</strong></p>
-<h2><strong>5、转让UHMWPE高强度纤维赛道头部项目专项基金LP份额（预期估值38亿人民币）</strong></h2>
-<p>资产亮点：公司生产的UHMWPE高强度纤维，填补了此产品国内空白。此前同类材料全世界只有荷兰帝斯曼与美 国霍尼韦尔可以生产，目前公司在产品性能、生产技术、环保、成本等全方面已实现全面超越。产销均为行业世界绝对龙头。</p>
-<p>卖家性质：直接卖家 </p>
-<p>交易价格：38亿人民币 </p>
-<p>资产规模：3000万人民币份额 </p>
-<p>交易方式：管理费2%，carry20% </p>
-<p>其他说明：LP份额，一层结构</p>
-<h2><strong>6、转让智能驾驶头部企业纵目驾驶专项基金LP份额</strong></h2>
-<p>卖家性质：直接卖家 </p>
-<p>交易价格：投前90亿人民币 </p>
-<p>当前轮次：Pre-IPO轮 </p>
-<p>资产规模：2000万人民币份额 </p>
-<p>交易方式：管理费2%，carry20% </p>
-<p>其他说明：LP份额，一层结构，显名直投</p>
-<h2><strong>7、转让母婴电商平台头部企业妈妈网份额</strong></h2>
-<p>卖家性质：直接卖家 </p>
-<p>交易价格：投前15亿人民币 </p>
-<p>资产规模：1500万人民币份额 </p>
-<p>交易方式：显名股东直接转让</p>
-<h2><strong>8、转让肿瘤免疫治疗药物领域头部企业股份（预期估值约32亿人民币）</strong></h2>
-<p>资产介绍：公司是新一代携带免疫刺激因子的溶瘤病毒药物上的突破，成为了肿瘤免疫治疗领域新技术新药物研发的领先者</p>
-<p>交易价格：预期估值约32亿人民币</p>
-<p>当前轮次：Pre-IPO轮</p>
-<p>资产规模：约2亿人民币份额</p>
-<p>交易方式：显名直投</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>9、转让双特异性抗体药物领域头部企业股份（预期估值约32亿人民币）</strong></h2>
-<p>资产介绍：公司自主知识产权的双抗技术平台FIT-Ig已突破生产工艺难题，并初步展示出良好成药效果 </p>
-<p>交易价格：预期估值约35亿人民币</p>
-<p>当前轮次：Pre-IPO轮</p>
-<p>资产规模：约2亿人民币份额</p>
-<p>交易方式：显名直投</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>10、转让半导体硅片领域头部企业股份（预期估值面谈）</strong></h2>
-<p>资产介绍：公司拥有国内技术和规模领先的200mm半导体硅片生产基地，以及行业内先进的300mm半导体硅片全自动智能化生产线，已成为中国大陆大尺寸硅片生产与销售的领先企业之一。</p>
-<p>交易价格：预期估值面谈</p>
-<p>资产规模：约1500万人民币份额</p>
-<p>交易方式：LP份额</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>11、转让电池正极材料领域头部企业股份（预期估值约36亿人民币）</strong></h2>
-<p>资产介绍：公司一直从事电池正极材料及特殊领域电池制造业务，是国内领先的三元前驱体生产企业</p>
-<p>交易价格：预期估值约36亿人民币</p>
-<p>当前轮次：Pre-IPO轮</p>
-<p>资产规模：约4亿人民币份额</p>
-<p>交易方式：显名直投</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>12、转让呼吸领域头部企业股份（预期估值约44.5亿人民币）</strong></h2>
-<p>资产介绍：公司是一家专注于呼吸领域用药的研发、生产并在全球市场进行注册和销售的高端制剂企业</p>
-<p>交易价格：预期估值约44.5亿人民币</p>
-<p>当前轮次：Pre-IPO轮</p>
-<p>资产规模：约1亿人民币份额</p>
-<p>交易方式：显名直投</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>13、转让伺服电机领域头部企业股份（预期估值约40亿人民币）</strong></h2>
-<p>资产介绍：公司是一家伺服电机、永磁同步电机和伺服驱动器的生产企业，并为客户提供定制化解决方案，业务涵盖自动化控制、运动控制和能量转换等多个领域</p>
-<p>交易价格：预期估值约40亿人民币</p>
-<p>当前轮次：Pre-IPO轮</p>
-<p>资产规模：约3亿人民币份额</p>
-<p>交易方式：显名直投</p>
-<p>联系方式：zcjy@36kr.com</p>
-<h2><strong>**</strong></h2>
-<p>说明1</p>
-<p>需要说明的是：“资情留言板”栏目的相关信息均为动态信息，可能因市场情况变化或者交易完成而失效。36氪仅提供相关交易信息，具体交易需交易相关方另行协商并签署有关协议，交易各方必须依靠自己的法律、审计和税务专家的专业知识来处理法律、监管、审计和税务问题，36氪无意为交易各方提供承销服务或任何需持有特定资质或牌照方可从事的服务。</p>
-<p>咨询更多份额请联系：zcjy@36kr.com</p>
-<p>说明2</p>
-<p>2021年6月开始，36氪资情留言板上线，已发布149期内容。</p>
-<p>第1期：《<a href="https://36kr.com/p/1277884127217416" rel="noopener noreferrer" target="_blank">转让字节跳动老股、求购估值5亿元以内的保险科技类标的｜资情留言板第1期</a>》</p>
-<p>第2期：<a href="https://36kr.com/p/1291631775156616" rel="noopener noreferrer" target="_blank">《 持有《个人本外币兑换特许业务经营许可证》（全国仅65张）公司股权转让，市场价格求购字节跳动、Shein、小红书股份｜资情留言板第2期 》</a></p>
-<p>第3期：<a href="https://36kr.com/p/1317158918867458" rel="noopener noreferrer" target="_blank">《 一手卖家转让持有字节跳动股份的单标基金份额，市场价格求购大疆、地平线股份｜资情留言板第3期》</a></p>
-<p>第4期：<a href="https://36kr.com/p/1327352884123908" rel="noopener noreferrer" target="_blank">《转让商汤科技股份，直接买家求购大疆股份（综合成本不高于185亿美元）｜资情留言板第4期》</a>。</p>
-<p>第5期：<a href="https://36kr.com/p/1338356062427401" rel="noopener noreferrer" target="_blank">《转让喜马拉雅股份，转让持有互联网视听许可证（基本涵盖所有业务）公司股权｜资情留言板第5期》</a></p>
-<p>第6期：<a href="https://36kr.com/p/1348269397154052" rel="noopener noreferrer" target="_blank">《转让商汤、Impossible Foods、Strip老股，求购大疆、极兔、地平线股份｜资情留言板第6期》</a></p>
-<p>第7期：<a href="https://36kr.com/p/1358232131404934" rel="noopener noreferrer" target="_blank">《转让中星微、华氏医药老股，求购地平线、小红书、大疆股份｜资情留言板第7期》</a></p>
-<p>第8期：<a href="https://36kr.com/p/1368060909482117" rel="noopener noreferrer" target="_blank">《转让菜鸟网络、地平线、集创北方股份；求购Tims咖啡、小红书、大疆股份｜资情留言板第8期》</a></p>
-<p>第9期：<a href="https://36kr.com/p/1378147207265664" rel="noopener noreferrer" target="_blank">《转让香港主板某上市公司壳等股份，求购喜茶、得物、Paytm、货拉拉等股份｜资情留言板第9期》</a></p>
-<p>第10期：<a href="https://36kr.com/p/1388213970025224" rel="noopener noreferrer" target="_blank">《转让喜马拉雅、能链集团等股份；求购京颐、大疆、元气森林等股份｜资情留言板第10期》</a></p>
-<p>第11期：<a href="https://36kr.com/p/1398089461807872" rel="noopener noreferrer" target="_blank">《求购极兔速递、地平线、小红书等股份，转让大疆等公司股份｜资情留言板第11期》</a></p>
-<p>第12期：<a href="https://36kr.com/p/1408254496707971" rel="noopener noreferrer" target="_blank">《求购得物、小红书、SHEIN股份；转让大疆、速递物流头部公司股份｜资情留言板第12期》</a></p>
-<p>第13期：<a href="https://36kr.com/p/1417859267083651" rel="noopener noreferrer" target="_blank">《求购小红书、地平线、得物股份；转让喜马拉雅、大疆、同城货运某头部公司股份｜资情留言板第13期》</a></p>
-<p>第14期：<a href="https://36kr.com/p/1437689795640962" rel="noopener noreferrer" target="_blank">《求购微牛证券、小红书公司股份；转让中星微、大疆、持有教育类视听证某公司股份｜资情留言板第14期》</a></p>
-<p>第15期：<a href="https://36kr.com/p/1447717278967682" rel="noopener noreferrer" target="_blank">《转让持有Space X股份的基金LP份额（按940亿美元估值计算）；某家族办公室寻求得物、微牛证券股份｜资情留言板第15期》</a></p>
-<p>第16期：<a href="https://36kr.com/p/1457874440447881" rel="noopener noreferrer" target="_blank">《转让持有Space X、飞骧科技、中星微等公司股份的基金份额；求购得物股份｜资情留言板第16期》</a></p>
-<p>第17期：<a href="https://36kr.com/p/1467631889976322" rel="noopener noreferrer" target="_blank">《某家族办公室求购得物股份；转让持有飞骧科技、Space X股份的基金份额｜资情留言板第17期》</a></p>
-<p>第18期：<a href="https://36kr.com/p/1477502150046471" rel="noopener noreferrer" target="_blank">《转让香港创业板某上市壳公司（地产板块）股份；求购小红书股份｜资情留言板第18期》</a></p>
-<p>第19期：<a href="https://36kr.com/p/1487237997412485" rel="noopener noreferrer" target="_blank">《某知名家电上市公司寻求并购标的，转让某头部商业地产公司老股｜资情留言板第19期》</a></p>
-<p>第20期：<a href="https://36kr.com/p/1497161276160135" rel="noopener noreferrer" target="_blank">《转让持有Epic Games股份的单项股权基金份额；某知名母婴平台旗下垂直电商业务寻求产业并购｜资情留言板第20期》</a></p>
-<p>第21期：<a href="https://36kr.com/p/1507335103975425" rel="noopener noreferrer" target="_blank">《转让持有中星微、商汤科技股份的专项基金份额；某家族办公室寻求Discord、Neuralink、Toss等股份｜资情留言板第21期》</a></p>
-<p>第22期：<a href="https://36kr.com/p/1517466949380869" rel="noopener noreferrer" target="_blank">《某知名母婴平台旗下垂直电商业务寻求出售机会；转让中星微、商汤科技专项基金份额｜资情留言板第22期》</a></p>
-<p>第23期：<a href="https://36kr.com/p/1526819961777794" rel="noopener noreferrer" target="_blank">《转让某知名食品饮料赛道头部公司股份（按最新估值约八折计算）、转让Upbit老股｜资情留言板第23期》</a></p>
-<p>第24期：<a href="https://36kr.com/p/1536887060975878" rel="noopener noreferrer" target="_blank">《某知名母婴平台旗下垂直电商业务寻求出售机会；转让某知名食品饮料赛道头部公司股份｜资情留言板第24期》</a></p>
-<p>第25期：<a href="https://36kr.com/p/1546844074535169" rel="noopener noreferrer" target="_blank">《转让国内某TOP跨境物流服务商老股、某知名食品饮料赛道头部公司股份｜资情留言板第25期》</a></p>
-<p>第26期：<a href="https://36kr.com/p/1556807793725062" rel="noopener noreferrer" target="_blank">《转让持有Space X股份的专项基金LP份额、某知名食品饮料赛道头部公司股份｜资情留言板第26期》</a></p>
-<p>第27期：<a href="https://36kr.com/p/1566733202624133" rel="noopener noreferrer" target="_blank">《转让Space X股份、护肤品牌AnesSens代理权、某知名食品饮料赛道头部公司股份｜资情留言板第27期》</a></p>
-<p>第28期：<a href="https://36kr.com/p/1576652946361091" rel="noopener noreferrer" target="_blank">《转让持有Neuralink、Space X股份的专项基金LP份额；护肤品牌AnesSens代理权转让｜资情留言板第28期》</a></p>
-<p>第29期：<a href="https://36kr.com/p/1587347581127433" rel="noopener noreferrer" target="_blank">《转让持有龙头封测企业QZKJ股份、Neuralink股份、Space X股份的专项基金LP份额｜资情留言板第29期》</a></p>
-<p>第30期：<a href="https://36kr.com/p/1606269802367488" rel="noopener noreferrer" target="_blank">《转让持有Neuralink、Open Sea、Space X股份的专项基金份额，转让艾博生物老股｜资情留言板第30期》</a></p>
-<p>第31期：<a href="https://36kr.com/p/1616482907008520" rel="noopener noreferrer" target="_blank">《某知名母婴平台旗下垂直电商业务寻求产业并购；转让持有Neuralink、Space X股份的专项基金份额｜资情留言板第31期》</a></p>
-<p>第32期：<a href="https://36kr.com/p/1626139209463556" rel="noopener noreferrer" target="_blank">《转让某知名食品饮料赛道头部公司股份；转让持有Discord、Epic Games股份的专项基金份额｜资情留言板第32期》</a></p>
-<p>第33期：<a href="https://36kr.com/p/1636328946229126" rel="noopener noreferrer" target="_blank">《转让持有Neuralink、Space X、某智能终端电子芯片ZXW股份的专项基金份额｜资情留言板第33期》</a></p>
-<p>第34期：<a href="https://36kr.com/p/1646173976109959" rel="noopener noreferrer" target="_blank">《转让持有Animoca Brands、某国产GPGPU、某密码技术龙头公司股份的专项基金LP份额｜资情留言板第34期》</a></p>
-<p>第35期：<a href="https://36kr.com/p/1656742227261576" rel="noopener noreferrer" target="_blank">《转让持有Blockdaemon、Space X、某龙头密码公司、Neuralink股份的基金份额｜资情留言板第35期》</a></p>
-<p>第36期：<a href="https://36kr.com/p/1666174507128836" rel="noopener noreferrer" target="_blank">《转让持有文远知行、Space X、某智能终端电子芯片ZXW股份的专项基金LP份额｜资情留言板第36期》</a></p>
-<p>第37期：<a href="https://36kr.com/p/1676524003157253" rel="noopener noreferrer" target="_blank">《转让持有Space X、Epic Games、某龙头封测企业QZKJ股份的专项基金LP份额｜资情留言板第37期》</a></p>
-<p>第38期：<a href="https://36kr.com/p/1686615381376772" rel="noopener noreferrer" target="_blank">《转让持有Space X、某智能终端电子芯片ZXW、文远知行股份的专项基金LP份额｜资情留言板第38期》</a></p>
-<p>第39期：<a href="https://36kr.com/p/1695404923498114" rel="noopener noreferrer" target="_blank">《转让持有Shein、途虎养车、某头部智能驾驶公司等股份的专项基金LP份额｜资情留言板第39期》</a></p>
-<p>第40期：<a href="https://36kr.com/p/1705723293144839" rel="noopener noreferrer" target="_blank">《转让持有SpaceX、Shein、某头部智能驾驶公司专项基金LP份额｜资情留言板第40期》</a></p>
-<p>第41期：<a href="https://36kr.com/p/1715459202249480" rel="noopener noreferrer" target="_blank">《转让持有Animoca Brands、Discord、某龙头封测公司股份的专项基金LP份额｜资情留言板第41期》</a></p>
-<p>第42期：<a href="https://36kr.com/p/1725488387980545" rel="noopener noreferrer" target="_blank">《转让持有Space X、Epic Games、某国产GPGPU龙头公司股份的专项基金LP份额｜资情留言板第42期》</a></p>
-<p>第43期：<a href="https://36kr.com/p/1734953390390537" rel="noopener noreferrer" target="_blank">《转让持有Shein、Discord股份的专项基金份额；求购Space X股份（500万美元以上需求）｜资情留言板第43期》</a></p>
-<p>第44期：<a href="https://36kr.com/p/1745981826068358" rel="noopener noreferrer" target="_blank">《转让某全球知名物流服务商、某食品饮料赛道头部公司老股；求购Space X股份｜资情留言板第44期》</a></p>
-<p>第45期：<a href="https://36kr.com/p/1755786870718084" rel="noopener noreferrer" target="_blank">《转让持有Space X、Shein、某头部智能驾驶公司股份的专项基金LP份额｜资情留言板第45期》</a></p>
-<p>第46期：<a href="https://36kr.com/p/1764960240384256" rel="noopener noreferrer" target="_blank">《转让持有Space X、Shein公司股份的专项基金份额；护肤品牌AnesSens代理权转让｜资情留言板第46期》</a></p>
-<p>第47期：<a href="https://36kr.com/p/1775051861412232" rel="noopener noreferrer" target="_blank">《转让持有Space X、Discord、某头部智能驾驶公司股份的专项基金LP份额｜资情留言板第47期》</a></p>
-<p>第48期：<a href="https://36kr.com/p/1784806224858503" rel="noopener noreferrer" target="_blank">《转让持有 Space X、Cybereason 公司股份的专项基金份额；求购 Flexport 股份｜资情留言板第48期》</a></p>
-<p>第49期：<a href="https://36kr.com/p/1795407331836163" rel="noopener noreferrer" target="_blank">《转让持有Shein、Space X、某知名食品饮料赛道头部公司股份的专项基金份额｜资情留言板第49期》</a></p>
-<p>第50期：<a href="https://36kr.com/p/1805356388008961" rel="noopener noreferrer" target="_blank">《转让持有Space X股份的基金LP份额、驴奶护肤品牌AnesSens代理权｜资情留言板第50期》</a></p>
-<p>第51期：<a href="https://36kr.com/p/1814451335939456" rel="noopener noreferrer" target="_blank">《转让某互联网物流行业、知名食品饮料赛道、自动驾驶领域等头部公司老股｜资情留言板第51期》</a></p>
-<p>第52期：<a href="https://36kr.com/p/1825134672496133" rel="noopener noreferrer" target="_blank">《转让持有Space X、Shein股份的基金份额，某头部智能驾驶、物流公司老股转让｜资情留言板第52期》</a></p>
-<p>第53期：<a href="https://36kr.com/p/1834219714486787" rel="noopener noreferrer" target="_blank">《转让持有Space X、Discord、某头部机器人、双碳公司股份的专项基金LP份额｜资情留言板第53期》</a></p>
-<p>第54期：<a href="https://36kr.com/p/1844355176221573" rel="noopener noreferrer" target="_blank">《转让持有Neuralink、Space X、某头部自动驾驶公司股份的专项基金LP份额｜资情留言板第54期》</a></p>
-<p>第55期：<a href="https://36kr.com/p/1853772342759048" rel="noopener noreferrer" target="_blank">《转让持有Neuralink、某头部自动驾驶、碳酸锂公司股份的专项基金LP份额｜资情留言板第55期》</a></p>
-<p>第56期：<a href="https://36kr.com/p/1865006619136512" rel="noopener noreferrer" target="_blank">《转让持有Space X、Shein、某头部自动驾驶公司股份的专项基金LP份额｜资情留言板第56期》</a></p>
-<p>第57期：<a href="https://36kr.com/p/1874062900677769" rel="noopener noreferrer" target="_blank">《转让持有Neuralink、某头部芯片、商业航天公司股份的专项基金LP份额｜资情留言板第57期》</a></p>
-<p>第58期：<a href="https://36kr.com/p/1884787991833732" rel="noopener noreferrer" target="_blank">《转让持有Space X、Shein、某头部汽车、双碳领域等公司股份的专项基金LP份额｜资情留言板第58期》</a></p>
-<p>第59期：<a href="https://36kr.com/p/1893678719160836" rel="noopener noreferrer" target="_blank">《转让持有Space X、Neuralink、某知名食品饮料赛道头部公司股份的专项基金LP份额｜资情留言板第59期》</a></p>
-<p>第60期：<a href="https://36kr.com/p/1904408157972873" rel="noopener noreferrer" target="_blank">《转让持有Space X、Neuralink、某头部物流及汽车领域公司股份的专项基金LP份额｜资情留言板第60期》</a></p>
-<p>第61期：<a href="https://36kr.com/p/1914429503311877" rel="noopener noreferrer" target="_blank">《转让持有Space X、Shein、某头部氢能、自动驾驶等公司股份的专项基金LP份额｜资情留言板第61期》</a></p>
-<p>第62期：<a href="https://36kr.com/p/1924326637288194" rel="noopener noreferrer" target="_blank">《转让持有Neuralink、Shein、Discord股份的专项基金LP份额｜资情留言板第62期》</a></p>
-<p>第63期：<a href="https://36kr.com/p/1933426489624960" rel="noopener noreferrer" target="_blank">《求购国内一线美元基金LP份额 ；转让持有Space X、Neuralink的专项基金LP份额｜资情留言板第63期》</a></p>
-<p>第64期：<a href="https://36kr.com/p/1953994189166726" rel="noopener noreferrer" target="_blank">《求购Neuralink老股 ；转让持有Space X、某食品饮料头部公司的基金份额｜资情留言板第64期》</a></p>
-<p>第65期：<a href="https://36kr.com/p/1964156597611011" rel="noopener noreferrer" target="_blank">《求购极兔、小红书老股；转让持有Space X、某自动驾驶头部公司的基金份额｜资情留言板第65期》</a></p>
-<p>第66期：<a href="https://36kr.com/p/1974011563712899" rel="noopener noreferrer" target="_blank">《求购Neuralink、小红书老股；转让持有Shein、某氢能头部公司股份的基金份额｜资情留言板第66期》</a></p>
-<p>第67期：<a href="https://36kr.com/p/1983915551032576" rel="noopener noreferrer" target="_blank">《转让持有Neuralink、Shein公司股份的基金份额；求购极兔、小红书老股｜资情留言板第67期》</a></p>
-<p>第68期：<a href="https://36kr.com/p/1993784431145475" rel="noopener noreferrer" target="_blank">《转让持有Space X、Discord公司股份的基金份额；求购Neuralink、小红书老股｜资情留言板第68期》</a></p>
-<p>第69期：<a href="https://36kr.com/p/2003816544309382" rel="noopener noreferrer" target="_blank">《求购Space X、小红书老股；转让持有Neuralink、某头部物流公司股份的基金份额｜资情留言板第69期》</a></p>
-<p>第70期：<a href="https://36kr.com/p/2013638157730312" rel="noopener noreferrer" target="_blank">《转让持有Space X、Neuralink、某头部自动驾驶公司股份的基金份额｜资情留言板第70期》</a></p>
-<p>第71期：<a href="https://36kr.com/p/2023681544400136" rel="noopener noreferrer" target="_blank">《转让持有Space X、Shein、某头部物流公司股份的专项基金份额｜资情留言板第71期》</a></p>
-<p>第72期：<a href="https://36kr.com/p/2033420631223553" rel="noopener noreferrer" target="_blank">《求购OpenAI股份（ChatGPT的母公司）；转让持有Space X、Shein公司股份的基金份额｜资情留言板第72期》</a></p>
-<p>第73期：<a href="https://36kr.com/p/2043326810491907" rel="noopener noreferrer" target="_blank">《求购OpenAI、Neuralink股份；转让持有Space X、Shein公司股份的基金份额｜资情留言板第73期》</a></p>
-<p>第74期：<a href="https://36kr.com/p/2053224417636869" rel="noopener noreferrer" target="_blank">《转让持有OpenAI、Shein公司股份的基金份额；求购Space X、Neuralink老股｜资情留言板第74期》</a></p>
-<p>第75期：<a href="https://36kr.com/p/2062958054920072" rel="noopener noreferrer" target="_blank">《求购Space X、Neuralink老股；转让持有Shein、某头部物流公司股份的基金份额｜资情留言板第75期》</a></p>
-<p>第76期：<a href="https://36kr.com/p/2073220743232648" rel="noopener noreferrer" target="_blank">《求购Space X、Neuralink老股；转让持有Shein、OpenAI的基金份额｜资情留言板第76期》</a></p>
-<p>第77期：<a href="https://36kr.com/p/2082911478493955" rel="noopener noreferrer" target="_blank">《转让持有OpenAI、某头部物流公司的基金份额；求购Space X、Neuralink老股｜资情留言板第77期》</a></p>
-<p>第78期：<a href="https://36kr.com/p/2093033295446149" rel="noopener noreferrer" target="_blank">《求购Space X、Neuralink老股；转让持有Shein、某头部物流公司的基金份额｜资情留言板第78期》</a></p>
-<p>第79期：<a href="https://36kr.com/p/2112625351887237" rel="noopener noreferrer" target="_blank">《转让持有Space X、Neuralink、OpenAI、某头部自动驾驶公司的专项基金份额｜资情留言板第79期》</a></p>
-<p>第80期：<a href="https://36kr.com/p/2122439613073800" rel="noopener noreferrer" target="_blank">《求购Neuralink老股；转让持有OpenAI、Space X、某头部物流公司的专项基金份额｜资情留言板第80期》</a></p>
-<p>第81期：<a href="https://36kr.com/p/2132613012925446" rel="noopener noreferrer" target="_blank">《求购Space X、Neuralink老股；转让持有Shein、某头部自动驾驶公司的基金份额｜资情留言板第81期》</a></p>
-<p>第82期：<a href="https://36kr.com/p/2142445875446279" rel="noopener noreferrer" target="_blank">《转让持有Space X、Neuralink、Shein、某头部物流公司的专项基金份额｜资情留言板第82期》</a></p>
-<p>第83期：<a href="https://36kr.com/p/2152151366717952" rel="noopener noreferrer" target="_blank">《转让持有Space X、OpenAI、Discord、某头部物流公司的专项基金份额｜资情留言板第83期》</a></p>
-<p>第84期：<a href="https://36kr.com/p/2162341785694473" rel="noopener noreferrer" target="_blank">《求购Neuralink、Space X老股；转让持有OpenAI、某自动驾驶公司的基金份额｜资情留言板第84期》</a></p>
-<p>第85期：<a href="https://36kr.com/p/2172248012992773" rel="noopener noreferrer" target="_blank">《转让持有Space X、Shein、OpenAI、某自动驾驶公司的专项基金份额｜资情留言板第85期》</a></p>
-<p>第86期：<a href="https://36kr.com/p/2182121328277504" rel="noopener noreferrer" target="_blank">《转让持有OpenAI、Space X、Discord、某自动驾驶公司的专项基金份额｜资情留言板第86期》</a></p>
-<p>第87期：<a href="https://36kr.com/p/2192114415485317" rel="noopener noreferrer" target="_blank">《转让持有Space X、Neuralink、Shein、某头部物流公司的专项基金份额｜资情留言板第87期》</a></p>
-<p>第88期：<a href="https://36kr.com/p/2201946256796549" rel="noopener noreferrer" target="_blank">《求购Open AI老股；转让持有Space X、Neuralink、Shein的专项基金份额｜资情留言板第88期》</a></p>
-<p>第89期：<a href="https://36kr.com/p/2211741658756484" rel="noopener noreferrer" target="_blank">《求购Space X、Open AI老股；转让持有Neuralink、某头部自动驾驶公司的基金份额｜资情留言板第89期》</a></p>
-<p>第90期：<a href="https://36kr.com/p/2221758417404548" rel="noopener noreferrer" target="_blank">《求购Open AI、医疗大健康类资产；转让持有Space X、Neuralink的基金份额｜资情留言板第90期》</a></p>
-<p>第91期：<a href="https://36kr.com/p/2231964007624322" rel="noopener noreferrer" target="_blank">《转让持有Space X、Discord、Shein的基金份额；求购Open AI、医疗大健康类资产｜资情留言板第91期》</a></p>
-<p>第92期：<a href="https://36kr.com/p/2251668094791300" rel="noopener noreferrer" target="_blank">《求购Space X、Open AI老股；转让持有Neuralink、Shein的基金份额｜资情留言板第92期》</a></p>
-<p>第93期：<a href="https://36kr.com/p/2261384425107080" rel="noopener noreferrer" target="_blank">《求购Space X、Open AI老股；转让持有Neuralink、Shein的基金份额｜资情留言板第93期》</a></p>
-<p>第94期：<a href="https://36kr.com/p/2271402958036740" rel="noopener noreferrer" target="_blank">《求购Space X、Open AI老股；转让持有Neuralink、Discord的基金份额｜资情留言板第94期》</a></p>
-<p>第95期：<a href="https://36kr.com/p/2281294735022081" rel="noopener noreferrer" target="_blank">《转让持有Open AI、Neuralink、Discord与某头部机器人公司的基金份额｜资情留言板第95期》</a></p>
-<p>第96期：<a href="https://36kr.com/p/2290992515127044" rel="noopener noreferrer" target="_blank">《求购Open AI、Space X老股；转让持有Shein、Discord公司的专项基金份额｜资情留言板第96期》</a></p>
-<p>第97期：<a href="https://36kr.com/p/2300816066653192" rel="noopener noreferrer" target="_blank">《转让持有Space X、Open AI、Shein、Neuralink公司的专项基金份额｜资情留言板第97期》</a></p>
-<p>第98期：<a href="https://36kr.com/p/2310985178803712" rel="noopener noreferrer" target="_blank">《求购Space X、Neuralink、Open AI股份；转让500亿美元估值的Shein老股｜资情留言板第98期》</a></p>
-<p>第99期：<a href="https://36kr.com/p/2320926749918341" rel="noopener noreferrer" target="_blank">《转让Space X、Open AI、某500亿美元估值的Shein老股份额｜资情留言板第99期》</a></p>
-<p>第100期：<a href="https://36kr.com/p/2329231138627205" rel="noopener noreferrer" target="_blank">《转让Space X、菜鸟网络、约200万美元额度的Open AI老股份额｜资情留言板第100期》</a></p>
-<p>第101期：<a href="https://36kr.com/p/2340604657618433" rel="noopener noreferrer" target="_blank">《转让Space X、菜鸟网络、Open AI老股份额｜资情留言板第101期》</a></p>
-<p>第102期：<a href="https://36kr.com/p/2350465130813955" rel="noopener noreferrer" target="_blank">《转让Animoca Brands、Open AI、Space X专项基金LP份额｜资情留言板第102期》</a></p>
-<p>第103期：<a href="https://36kr.com/p/2360470848863746" rel="noopener noreferrer" target="_blank">《转让Neuralink、Open AI、Space X专项基金LP份额｜资情留言板第103期》</a></p>
-<p>第104期：<a href="https://36kr.com/p/2369648059706247" rel="noopener noreferrer" target="_blank">《求购Shein、元气森林股份；转让Neuralink、Open AI股份｜资情留言板第104期》</a></p>
-<p>第105期：<a href="https://36kr.com/p/2380255544536065" rel="noopener noreferrer" target="_blank">《求购Open AI股份；转让Shein、Space X专项基金LP份额｜资情留言板第105期》</a></p>
-<p>第106期：<a href="https://36kr.com/p/2389495610364547" rel="noopener noreferrer" target="_blank">《求购Shein、Open AI股份；转让Space X专项基金LP份额｜资情留言板第106期》</a></p>
-<p>第107期：<a href="https://36kr.com/p/2399270604480134" rel="noopener noreferrer" target="_blank">《求购菜鸟网络老股；转让Neuralink、Space X专项基金LP份额｜资情留言板第107期》</a></p>
-<p>第108期：<a href="https://36kr.com/p/2409860518224647" rel="noopener noreferrer" target="_blank">《求购Neuralink、元气森林公司股份；转让Animoca Brands、Open AI专项基金LP份额｜资情留言板第108期》</a></p>
-<p>第109期：<a href="https://36kr.com/p/2419787613758472" rel="noopener noreferrer" target="_blank">《求购喜茶股份；转让中科富海、Shein、Open AI基金LP份额｜资情留言板第109期》</a></p>
-<p>第110期：<a href="https://36kr.com/p/2429655630696834" rel="noopener noreferrer" target="_blank">《求购菜鸟、比亚迪半导体股份；转让Shein、Open AI基金LP份额｜资情留言板第110期》</a></p>
-<p>第111期：<a href="https://36kr.com/p/2438931564384901" rel="noopener noreferrer" target="_blank">《求购小红书股份；转让Neuralink、OpenAI、Space X专项基金LP份额｜资情留言板第111期》</a></p>
-<p>第112期：<a href="https://36kr.com/p/2449552473069443" rel="noopener noreferrer" target="_blank">《求购喜茶、小红书、比亚迪半导体股份；转让大疆创新股份｜资情留言板第112期》</a></p>
-<p>第113期：<a href="https://36kr.com/p/2469298519955329" rel="noopener noreferrer" target="_blank">《求购小红书、OpenAI股份；转让Neuralink专项基金LP份额、大疆创新股份｜资情留言板第113期》</a></p>
-<p>第114期：<a href="https://36kr.com/p/2479274329085832" rel="noopener noreferrer" target="_blank">《求购OpenAI股份；转让Animoca Brands、Discord股份专项基金LP份额｜资情留言板第114期》</a></p>
-<p>第115期：<a href="https://36kr.com/p/2488605245249665" rel="noopener noreferrer" target="_blank">《求购菜鸟网络老股、小红书股份；转让某头部生物公司股份、互联网医疗企业老股、Neuralink股份的专项基金LP份额｜资情留言板第115期》</a></p>
-<p>第116期：<a href="https://36kr.com/p/2498445508974471" rel="noopener noreferrer" target="_blank">《求购小红书、喜茶股份；转让持有Shein份额的基金LP份额｜资情留言板第116期》</a></p>
-<p>第117期：<a href="https://36kr.com/p/2509054117331203" rel="noopener noreferrer" target="_blank">《求购OpenAI公司股份；转让持有Animoca Brands股份的专项基金LP份额｜资情留言板第117期》</a></p>
-<p>第118期：<a href="https://36kr.com/p/2519052482979336" rel="noopener noreferrer" target="_blank">《求购比亚迪半导体公司股份；转让持有Discord股份的专项基金LP份额｜资情留言板第118期》</a></p>
-<p>第119期：<a href="https://mp.weixin.qq.com/s/sV_tqrxzE9KH6DYraA6i_g" rel="noopener noreferrer nofollow" target="_blank">《求购小红书、Space X股份；转让持有Animoca Brands股份的专项基金LP份额｜资情留言板第119期》</a></p>
-<p>第120期：<a href="https://36kr.com/p/2538716575753989" rel="noopener noreferrer" target="_blank">《求购Shein公司股份；转让某自动驾驶领域头部公司2000万美元老股｜资情留言板第120期》</a></p>
-<p>第121期：<a href="https://36kr.com/p/2548633435740550" rel="noopener noreferrer" target="_blank">《求购比亚迪半导体股份；转让持有DJI股份、Cohere股份的专项基金LP份额｜资情留言板第121期》</a></p>
-<p>第122期:<a href="https://36kr.com/p/2557976476310916?channel=copy_url" rel="noopener noreferrer" target="_blank">《求购Neuralink公司股份；转让某自动驾驶领域头部公司2000万美元老股｜资情留言板第122期<strong>》</strong></a></p>
-<p>第123期：<a href="https://mp.weixin.qq.com/s/8Z_eQX8Q10dvcoD0tpfMHQ" rel="noopener noreferrer nofollow" target="_blank">《求购地平线股份；转让持有Discord股份的专项基金LP份额｜资情留言板第123期》</a></p>
-<p>第124期：<a href="https://36kr.com/p/2578472678630789" rel="noopener noreferrer" target="_blank">《寻求护肤品、美妆等赛道并购标的；转让光学器件产品研发、制造和销售商公司老股｜资情留言板第124期》</a></p>
-<p>第125期：<a href="https://36kr.com/p/2588256386873984?channel=copy_url" rel="noopener noreferrer" target="_blank">《寻求电子信息赛道并购标的；寻求护肤品、美妆等赛道并购标的｜资情留言板第125期》</a></p>
-<p>第126期：<a href="https://36kr.com/p/2598366766758787" rel="noopener noreferrer" target="_blank">《寻求文旅赛道并购标的；寻求护肤品、美妆等赛道并购标的｜资情留言板第126期》</a></p>
-<p>第127期：<a href="https://36kr.com/p/2607499254609153" rel="noopener noreferrer" target="_blank">《寻求办公软件赛道并购标的；寻求电子信息赛道并购标的｜资情留言板第127期》</a></p>
-<p>第128期：<a href="https://36kr.com/p/2617428246714496" rel="noopener noreferrer" target="_blank">《寻求护肤品、美妆等赛道并购标的；转让合源生物公司老股｜资情留言板第128期》</a></p>
-<p>第129期：<a href="https://36kr.com/p/2626418763152521" rel="noopener noreferrer" target="_blank">《求购蓝箭航天老股；寻求办公软件赛道并购标的｜资情留言板第129期》</a></p>
-<p>第130期：<a href="https://mp.weixin.qq.com/s/bSZCXb_Nv6wfKk2Y83GhbA" rel="noopener noreferrer nofollow" target="_blank">《转让Space X、Shein股份；寻求文旅赛道并购标的｜资情留言板第130期》</a></p>
-<p>第131期：<a href="https://36kr.com/p/2657609599582465" rel="noopener noreferrer" target="_blank">《寻求护肤品、美妆赛道并购标的；转让持有Space X股份的专项基金LP份额｜资情留言板第131期》</a></p>
-<p>第132期:<a href="https://36kr.com/p/2677421269890563" rel="noopener noreferrer" target="_blank">《求购比亚迪半导体股份；转让某头部茶饮连锁企业的专项基金LP份额｜资情留言板第132期》</a></p>
-<p>第133期<a href="https://36kr.com/p/2695914338708872?channel=copy_url" rel="noopener noreferrer" target="_blank">:《求购xAI股份；转让某头部人型机器人老股份额｜资情留言板第133期》</a></p>
-<p>第134期:《<a href="https://36kr.com/p/2717282174056577?channel=copy_url" rel="noopener noreferrer" target="_blank">求购智元机器人股份；寻求新能源上下游赛道并购标的｜资情留言板第134期》</a></p>
-<p>第135期:<a href="https://36kr.com/p/2735576770275842?channel=copy_url" rel="noopener noreferrer" target="_blank">《转让无晶圆厂芯片设计企业专项基金LP份额；求购星动纪元机器人股份｜资情留言板第135期》</a></p>
-<p>第136期:<a href="https://36kr.com/p/2755592122628865?channel=copy_url" rel="noopener noreferrer" target="_blank">《寻求卤味食品、连锁餐饮板块并购标的；寻求精密制造领域板块并购标的｜资情留言板第136期》</a></p>
-<p>第137期：<a href="https://mp.weixin.qq.com/s/G_UpXoJz9mLcos-EegannQ" rel="noopener noreferrer nofollow" target="_blank">《转让喜茶专项基金LP份额；寻求智能传感板块并购标的丨资情留言板第137期》</a></p>
-<p>第138期：<a href="https://36kr.com/p/2796326631059080?channel=copy_url" rel="noopener noreferrer" target="_blank">《<strong>转让智能驾驶头部企业专项基金LP份额；转让某母婴电商企业份额｜资情留言板第138期》</strong></a></p>
-<p>第139期：<a href="https://36kr.com/p/2816376053762568?channel=copy_url" rel="noopener noreferrer" target="_blank">《<strong>寻求智慧城市板块并购标的；求购上海微电子股份｜资情留言板第139期》</strong></a></p>
-<p>第140期：<a href="https://36kr.com/p/2836215354231426" rel="noopener noreferrer" target="_blank">《寻求汽车领域上下游并购标的；转让伺服电机领域头部企业股份｜资情留言板第140期》</a></p>
-<p>第141期：<a href="https://36kr.com/p/2855894553693064?channel=copy_url" rel="noopener noreferrer" target="_blank">《求购人型机器人领域老股；转让肿瘤免疫治疗药物领域头部企业股份｜资情留言板第141期》</a></p>
-<p>第142期：<a href="https://36kr.com/p/2875878933287305" rel="noopener noreferrer" target="_blank">《求购小红书股份；转让双特异性抗体药物领域头部企业股份｜资情留言板第142期》</a></p>
-<p>第143期：<a href="https://36kr.com/p/2895397176302468" rel="noopener noreferrer" target="_blank">《求购阜阳欣奕华材料公司股份；寻求小家电领域上下游并购标的｜资情留言板第143期》</a></p>
-<p>第144期:<a href="https://36kr.com/p/2914682117806723?channel=copy_url" rel="noopener noreferrer" target="_blank">《<strong>寻求直播带货MCN并购标的；寻求医疗器械上下游并购标的｜资情留言板第144期》</strong></a></p>
-<p>第145期:<a href="https://36kr.com/p/2935408242629510?channel=copy_url" rel="noopener noreferrer" target="_blank">《<strong>寻求生物医药上下游并购标的；寻求伺服电机上下游标的｜资情留言板第145期》</strong></a></p>
-<p>第146期:<a href="https://36kr.com/p/2964763593969921?channel=copy_url" rel="noopener noreferrer" target="_blank">《<strong>求购长鑫存储老股；转让创新药领域生成式Ai头部企业专项基金LP份额｜资情留言板第146期》</strong></a></p>
-<p>第147期：<a href="https://mp.weixin.qq.com/s/HsbctABTGdalKnKm4e4vLQ" rel="noopener noreferrer nofollow" target="_blank">《求购Shopee老股；转让头部境内外一体化国家粮油交易平台企业基金LP份额｜资情留言板第147期》</a></p>
-<p>第148期：《<a href="https://36kr.com/p/3004669087752194?channel=copy_url" rel="noopener noreferrer" target="_blank">求购星动纪元公司股份；求购人形机器人公司股份｜资情留言板第148期</a><strong>》</strong></p>
-<p>第149期：<a href="https://36kr.com/p/3025846948816134" rel="noopener noreferrer" target="_blank">《求购摩尔线程股份；转让半导体光刻机头部企业LP份额｜资情留言板第149期》</a></p>
-<p>截止目前共计收到九千余封咨询邮件（zcjy@36kr.com），经过我们筛选排查后筛选出上千家有真实交易需求的机构、公司，并帮助其进行对接，目前交易仍在进行中，我们也会持续关注。另外，目前36氪已经与知名基金建立了合作关系。</p>
-<p>如果你希望通过我们的资情留言板栏目发布求购或者出售资产信息，也欢迎与我们联系（zcjy@36kr.com）</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044123122535049</guid><pubDate>Wed, 20 Nov 2024 14:23:00 +0800</pubDate></item><item><title>人的经济学：跨越亚当 ·斯密的社会和经济两个世界</title><link>https://36kr.com/p/3044372883426183</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2>本文内容摘编自中信出版集团《人的经济学》</h2>
-<p>作者｜弗农·史密斯（Vernon L. Smith），2002年诺贝尔经济学奖得主，美国查普曼大学乔治·阿吉罗斯经济学和金融学讲席教授。 </p>
-<p>巴特·威尔逊（Bart J. Wilson），美国查普曼大学唐纳德·肯尼迪经济学和法学讲席教授。查普曼大学经济科学研究所的创始成员之一</p>
-<p class="image-wrapper"><img data-img-size-val="1600,1600" src="https://img.36krcdn.com/hsossms/20241120/v2_6a34aad2a79f4c1e960b981cf8bec5ad@5667365_oswg3041146oswg1600oswg1600_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>现代人同时活在受不同规则体系约束的两个世界中，因而在生活中常常遭遇各种冲突。在关系紧密的社会群体里，人们首先遵循的是利他规则。核心家庭成员、关系稍远的其他亲属、邻居和朋友都可以算作这一群体。我们了解他们，会做对他们有益的事，尽量不损害他们的利益。就个人而言，我们非常清楚具体该怎样做，能让他们感受到互助、善意和同情。我们知道他们叫什么:坎迪斯和瑞恩、斯蒂芬妮和史蒂夫、卡罗琳和凯尔……就像这些名字一样普普通通，我们对他们知根知底。我们既知道他们的琐事，比如跟哪个朋友能开哪些玩笑，哪些朋友完全开不起玩笑;也知道他们有什么伤心事，比如一位女性朋友刚刚接到耗需要有人陪在身边。我们熟悉他们，珍惜他们，用爱来接纳他们:对于非亲非故的人，我们无法得知他们的各种具体情况。</p>
-<p>对于这些人，扩展的市场秩序会以一视同仁的方式对待他们。比如我们不清楚哪个农场主、批发商、卡车司机和食品商的服务最好只能引人竞争机制来决定谁将负责把食物从农场送到我们的餐桌上。美国人(无论是威斯康星州还是堪萨斯州人)、加拿大人、墨西哥人、智利人、新西兰人、捷克人乃至法国人都参与竞争，想为我们提供奶酪和小麦、牛肉和番茄、葡萄和猴桃、啤酒和葡萄酒等。同样的规则，即不要用偷盗、欺骗和背信弃义伤害他人，也适用于每一个我们不认识的人，其余的就交给他们之间的自由选择，也就是所谓的竞争。谁的奶酪味道最好，价格最公道，谁就能够赚到我们的钱。今天可能是来自威斯康星州普莱思县的雪松林奶酪厂的罗伯特·威尔斯接下生意，下周可能就轮到英国赛伦塞斯特郡修道院家庭农庄的威尔和希拉里·切斯特赚到这笔钱。把网上搜到的各家奶酪生产商的真实名字拼写出来，如果你感到很陌生，那就对了。我们生活中需要的绝大多数商品和服务，在背后有各种各样的生产商，我们其实不知道他们姓甚名谁。</p>
-<p>如果出于对本国生产商(我们虽然不认识)的同胞之爱和团结精神，而禁止从他国(例如亚洲和欧洲国家)生产商那里进口商品(我们也不直接认识这些生产商)，就会破坏市场的专业化分工能力，不利于创造财富和提高人类福祉。这类冲突常常表现为关于收人和财富分配是否公平的激烈争议。类似的争议还包括:人类通过创新来增加财富，并将创新的益处广泛扩散，这是否导致了不平等，或者说在多大程度上导致了不平等?</p>
-<p>同样的道理，假如我们以“不近人情”的无差别竞争原则对待与我们关系亲近的社会群体，例如“今天我买你的东西，但明天我可能买别家的”，那么，亲友邻居间建立和增强社会联系的努力就会遭到破坏。假如我们用对待饭店老板的方式对待这些人，你还能剩下几个朋友呢?不好意思，你对葡萄酒的口味要求和我们这周的晚餐不太搭配。约翰一家人要过来，要不下周再请你吧?经济学家兼社会哲学家哈耶克说过，“正因为如此，我们必须学会同时在两个世界中生存”(Hayek，1988，第18页)</p>
-<p>尽管哈耶克提出了“同时在两个世界中生存”以及由此会引发冲突的观点，但是亚当·斯密早在1759年的《道德情操论》和1776年的《国富论》中就已经清晰地解释了这两个平行世界的起源、实质和运作机制，距今已过去两百多年了。<strong>本书构造了一个新的词语“人的经济学”(humanomics)，从狭义上指代对同时生活在两个世界中的“人”的基本问题进行研究，这两个世界分别是“有人情味的社交世界”和“不带人情色彩的经济世界”</strong></p>
-<p><strong>亚当·斯密的著作探讨了两个世界在人类生活中的共同起源使我们能够把它们合二为一来子以理解和分析。</strong>在我们看来，他建立的理论范式用统一的社会伦理学将这两个世界做了无缝对接，而我们的目标就是进一步发展、阐述和展示斯密的理论范式，使它与当代社会科学的理论和实践贯通，并发挥更大的作用。《道德情操论》在学术界并不太引人注目，相比之下，《国富论》受到的礼遇要好得多。人们甚至一度认为这两本书中的内容相互矛盾例如经济思想史领域的顶级学者雅各布·瓦伊纳曾这样写道，“我认为相当明显的是,《道德情操论》和《国富论》在谈到自然秩序特征方面的类似话题时，存在很大的分歧"(Viner，1991，第93页)。他还提到，“许多作者，包括者本人在早期研究斯密时都发现这两本书的内容存在某种程度的不一致”(同前，第250页)。后来有一篇持历史修正态度的文献纠正了对亚当·斯密的这种质疑，并极大地提高了《道德情操论》一书的地位。那篇文献比《国富论》晚发表了两个世纪，距离新古典边际革命也有一百多年，但它并没能弥合斯密和现代学者在思考人类行为时的巨大分歧。我们自己的经历则是，比较偶然地认识到斯密这两部著作蕴含的统一的社会科学原理。这条新研究路径的开启，是受到实验研究提供的出人意料结果的启发。首先，在市场实验中，严格私人信息条件下的标准自利行为模型给出了良好预测，其准确性超越了当代很多经济学家的想象。其次，在简单的最后通牒博弈与信任博弈中采用同样的效用最大化行为模型，却完全无法预测可系统性复现的结果。<strong>我们之所以写这本书，在很大程度上是因为我们希望解释这个不一致的现象。过去很多人的类似尝试都不尽如人意，而《道德情操论》为我们提供了未曾预料的崭新理论框架。</strong></p>
-<h2><strong>社会秩序</strong></h2>
-<p>很多人觉得，亚当·斯密认为人的行为主要出于自利动机，不管这句话为他带来的是赞誉还是骂名，斯密其实并没有这种主张。即使在《国富论》中，斯密提到的也是“自身利益”(owninterest)，而不是“自利”(self-interest)“自身利益”中包含审慎的态度，而且因为要考虑“在他人能够容许的范围之内”而有所妥协。"斯密曾说过一段很出名的话:“我们要吃上晚餐，不能指望屠户、酿酒师或者面包师大发慈悲:我们能指望的，是他们关心自身利益。我们解决自己的问题，不是靠着这些人的人性，而是靠着他们的自爱“( self-love )。我们也从来不跟他们谈我们自己的需求，而是谈对他们的好处”(《国富论》第26-27页”)。但是，从个人的“自身利益”出发并不一定要求在商业活动中把自身利益置于他人利益之上，无论在当初还是现在，那样做都属于“自利”的基本范畴。在《道德情操论》中，斯密常用“自私”se1fsh)一词来明确指代更狭隘意义上的“自利”</p>
-<p>更深人地阅读《国富论》，就能了解斯密对“自身利益”的界定。依靠屠户、酿酒师或者面包师的自爱，意味着“在平等、自由和正义的基础上，每个人都能够用自己的方式去追求自身利益(《国富论》，第664页)。如果这样还无法说服你，那么请留意斯密之后在谈论竞争时的说法:“任何人，只要不违背正义原则，都可以完全按照自己的方式去追求自身利益，通过个人努力和资本与任何人和阶层竟争。”(《国富论》，第687页)与政治理论家瑞安·汉利的理解一样，我们认为亚当·斯密在谈论为自身利益而行动时承认要维护所有人的平等与尊严。因此，假如某些现代经济学家将赤裸裸的“自利”视为经济决策的基础，那就违背了这位经济学科创立者及苏格兰启蒙运动的天才人物的初心。<strong>在不带人情味的市场中，其实也有一些道德规范或者正义规则在约束我们的行为。</strong></p>
-<p>异曲同工的是，斯密的朋友大卫·休谟在区分“利益性交往”( interested commerce)和“非利益性交往”( disinterestedcommerce)时，也将市场行为限制在规则范围内;经济史学家道格拉斯·诺思将前者称为“非人格化交换”或“市场交换”，将后者称为“人格化交换”或“社会交换”。②根据萨缪尔·约翰逊1755年出版的《英语词典》，“interest”-词在18世纪有四种意思，第一种意思是“关心的事情、优势、好处”，第四种意思则更符合“利益性交往”中的含义，意指“与私人好处相关”。。在休谟看来，人们之间的“承诺”就是专门为“利益性交往”而发明的:以便“迫使我们同某些行动捆绑起来”(Humme，1740，第335页)。而在“非利益性交往”中，“对所爱之人或者特别熟悉的人，我们依然会向他们提供'利益性交往’中的服务，却不会期待从中得到好处。他们也会为了报答我们曾经提供的服务，以同样的方式回报我们”。同样的情形不会发生在“非人格化交换”中。我们参与互惠互利的非人格化交换，就是期待从中获得属于自己的那部分好处。只有在对方做出承诺的情况下，我们才会自参与这种交换，这些承诺被用于“约束人类的利益性交往”(Humme，1740第335页)</p>
-<p>“非利益性交往”改善了人类社会福祉。斯密的第一本书《道德情操论》虽然没有《国富论》那么出名，却深人而极富洞见地剖析了这种非利益性交往，并解释了正义的起源。在《国富论中，我们认识到，使专业化分工和财富创造成为可能，并得以改善人类经济状况的，正是在正义规则约束下对私人利益的追逐，斯密认为，专业化分工与财富创造这两种造福人类的方式是社会经济渐进发展的结果。在此问题上，我们的看法与迪尔德丽·麦克洛斯基更为宏大的叙事不谋而合，她在《资产阶级的平等》BourgeoisEgualiy'，2016，第203-204页)中指出：</p>
-<p>斯密有两只看不见的手，都来自“简单直接的天赋自由体系”(斯密在这里的表述有少见的别扭)。其中-只手是市场，其作用在《国富论》中时常被提及。比如，作为斯密在经济学方面最具独创性的贡献，他指出在社会限制和法律规范内，劳动力市场会让苏格兰与英格兰的工资及工作条件趋同，因为人们会从一个地方搬迁到另一个地方，直到这两地的工资水平及工作条件实现平衡，就好像被一只看不见的手牵引着一样。类似地，看不见的手将人们轻轻推出他们自己的唯我之“茧”，让人们开始思考，在交易中他人看重的是什么。“每个个体………既不关心增加公共利益，也不清楚自己增加了多少公共利益”-te-t另一只看不见的手是公正的旁观者，意指与经济性质的手相对的那只社会性质的手。通过在社会这个舞台上的互动(interacting)，我们成了彬彬有礼的社会成员。请注意这个词:互动。在《道德情操论》中斯密曾说他和自己的老师弗朗西斯·哈奇森(FrancisHutcheson)不同，他并不相信仅靠人类天生的善意就能实现社会和平与繁荣……但他也不相信所谓男子气概的竞争，即贪婪是好事，也就是与伯纳德，受德维尔(Bernard Mandeville)所说的社会合作完全相反的情形。在这一点上，很多经济学家至今仍对他有很深的误解。</p>
-<p>正如我之前所说的，斯密反对人性本善或人性本恶之类的说法，他在《道德情换论》和《国富论》中反复强调，人的一生可能会因社会的塑造而发生改变，也可能受到自身的公正旁观者角色的影响而变化。用一个在学徒制盛行时代的说法，就是人们是“被师傅领进门的”。</p>
-<p><strong>斯密写作《道德情操论》的目的是希望弄清楚:在我们较亲密的群体中，个人的利他或道德行为是如何产生的，为什么会产生，如何得以存续，它们为什么以及怎样构建了人类社会的基础。</strong>道德情操论》是一部试图解释社会互动行为的心理学和经济学著作，而且早在这两门学科成为独立的研究领域之前就已写成。斯密此后撰写了被普遍视为经济学莫基之作的《国富论》。但在《国富论》完成后还要等待125年，心理学才从哲学中分离出来，发展成一门独立的学科。要理解《道德情操论》，我们就必须学习斯密采用的 18世纪的用语和概念的含义，这样才能学会顺着他所用语言的含义去思考。这对理解斯密的思想实质非常重要，这也是我们第二章的标题“亚当·斯密所在世界的用语及其含义”的由来。</p>
-<h2><strong>《道德情操论》预示了新古典模型的失败所在</strong></h2>
-<p>新古典经济学的方法论基础深深植根于效用最大化原则。以20世纪60年代开展实验市场(experimmental market)的研究以来新古典经济学意外地得到了大量实验结果的强烈支持。在这些实验中，受试者在一系列交易周期中扮演买家或卖家。在每个交易周期，基于在相应周期内能够或想要购买的商品数量，赋予买方相应的个人效用值。购买更多件商品获得的边际效用值会降低，反映了边际效用递减，这是新古典边际革命的主要贡献。对买家来说，每购买一单位商品所获的收益等于该单位商品给买家带来的效用值与买家实际支付价格之差。卖家提供的商品的价值则等于向市场供应这些商品的成本，他们的收益则等于销售价格与商品成本之差。因此，买家追求的是低价买人，卖家想要的是高价卖出。在竞争市场的出清价格上，所有买家和卖家同时实现了效用最大化，此时卖家能够有利可图地卖出的商品数量正好等于买家能够有利可图地买人的商品数量。</p>
-<p>实验市场中的交易是通过“双向拍卖”程序推进的。这一做法在早期的商品市场和证券市场十分常见。买家竟价购买，卖家宣布出售价格，合同的达成要么是买家接受了最低卖出价，要么是卖家接受了最高竞购价。从最早的实验到今天，每一次都观察到市场快速收敛于竞争市场均衡价格。然而，威廉·斯坦利·杰文斯早就指出，效用最大化的结果只有在买卖双方都掌握了完整准确的供需信息，并在达到市场出清价格时才会出现。这种看法在一定程度上给效用最大化理论在市场上的成功应用抹上了阴影。其实在实验中，每个卖家和买家知道的都只是一些私人性质的分散信息，这些只是全部供需信息中的一小部分，也决定着他们在市场上的角色。但是，实验结果不仅确认了效用最大化理论对市场很有效，甚至在比杰文斯提出的条件更弱时依然成立，而杰文斯及其之后的数代经济学家都认为那些条件是必不可少的。</p>
-<p><strong>杰文斯与新古典经济学家的错误在于，他们以为市场参与者与采用效用最大化理论计算均衡结果的学者需要相同的信息。</strong>事实上，效用最大化理论学者是将他们自己想象的市场模型强加在市场参与者身上。无论在《道德情操论》还是在《国富论》里亚当·斯密都没有犯过这种错误。斯密的理论建模思路首先是从行为人及其感受、反应和互动的视角出发，其次才是观察这个视角给社会或经济带来的后果。</p>
-<p>在新古典经济学里，效用最大化不仅是一个市场理论，更是所有人类决策模型的基础。但是，该模型确实不能准确预测双人互动博弈研究中发现的不同程度的合作现象，其中包括最后通牒博弈与信任博弈，这两种博弈始于20世纪80年代，自90年代以来在实验室实验中十分流行。《道德情操论》则可以解决市场实验与两人互动实验结果不一致的问题，并给双人博弈中观察到的个人的社会性行为提出新见解。斯密并不是新古典效用最大化理论所指的功利主义者，在后文中，我们所说的“功利主义者utilitarian)均是从效用的意义出发，而非来自功利主义的哲学理论。在斯密看来，“自爱”必然是我们作为生命存在的核心组成部分，但在负责任的个人不断成长成熟的过程中，其行为会被后天习得的社会秩序中的利他规则所形塑，而这样的规则源自我们和他人相互体谅、相互理解的同感共情能力。</p>
-<p><strong>行为经济学家与实验经济学家提出用其他方式来解释效用最大化理论未能预测到的结果，如“社会偏好”和“互惠”理论。</strong>由于这两种事后解决方法都不太适合借用斯密的模型，那么我们就更应该仔细阅读斯密的《道德情操论》，以便了解现代经济学思想为什么以及怎样与古典主义传统渐行渐远，导致我们难以解释双人互动博弈得出的颠覆式结果。现代人总以为，之前思想认识上的概念性突破一定会被继承并融人后续文献中，然而这种想法其实是错的。事实上，《道德情操论》中的许多洞见是后来被陆续发现的，其中关于情感的心理学部分更是被单独重新发掘。我们从后文将看到，该书采用的理论模型(也就是思想框架)非常独特，并对21世纪的人文社会科学探索有重大意义。</p>
-<h2><strong>为人类行为建模</strong></h2>
-<p>如果要了解斯密的理论模型和思考方式，建议读者认真品味-下他开篇这句话:“无论在我们看来一个人有多么自私，显然其本性里一定存在一些原则，这些原则让他关心别人的命运，让他觉得他人的幸福对自己必不可少，虽然他从中得不到什么好处，但只是看到别人获得了幸福，内心就会产生愉悦感。(《道德清操论》第I篇第I章第I节，第3页)对接受了新古典功利主义传统训练的经济学家以及受其影响的心理学家来说，“愉悦感”(pleasure)一词自然就意味着“效用”，而对他人命运(或幸福的关心则属于利他主义。斯密既不是现代意义上的功利主义者也不是在讨论利他主义(altruism)。“利他主义”一词在他的著述发表约百年之后才出现在英语中。斯密所说的“愉悦感”指的是对一件事情感觉良好，并非像现代效用最大化理论那样要求对各种选择依次排序。在斯密的模型中，我们互相共情(sympathy)并因此获得愉悦感，这里说的是我们与他人和谐相处，互相共鸣，用现代读者更容易理解的话来说，斯密探讨的可能是互相同理（empathy )，而“同理”这个词也是在他之后约150年才进人英语的。这个词指的是，一个人有能力设身处地地想象，假如自己遇到和别人一样的情况，会有什么样的感受。不过，斯密用了“同感”-词来简单直白地传递我们这里想重点表达的意思，我们也会继续借用这个说法。<strong>下面是对开头那句话的现代解读，反映了我们对《道德情操论》内容的理解:尽管我们假设人都是自私的但是我们的同感能力会引导自己学习与所处情境相适宜的行为规则，以便让我们能够与他人和睦相处。</strong></p>
-<p>在《道德情操论》一书中，斯密论述的最基本原则就是斯多葛学派的自爱原则，其核心内容是:个人最有资格也最有能力关心和管理自己的事务(《道德情操论》，第I篇第II章第II节，第119 页;第 VII篇第II章第II节，第402页;第VII篇第II章第III节，第445页)。这一基本原则在现代选择理论中也被称为“非餍足偏好”，但它没有促使斯密将个人行为建立在某种版本的效用最大化理论上。斯密为什么能够避免像边沁、杰文斯、萨缪尔森以及现代博弈论那样，采用“非餍足偏好”这一看似明显的新古典主义概念?为什么他没有把人的决策理论构建为基于效用最大化的选择行为?基于我们对《道德情操论》的研读可以推测，在斯密看来，“自爱”这-常识让我们可以根据具体情境来判断某种行为是否以及会给谁带来收益或损害。假如某种行为给别人带来更多的资源(钱、物品或者服务等)，那它就是有益的;而如果这种行为减少了别人的资源，那它就是有害的。行为发生的情境十分关键，因为只有在特定情境下，通过比较不同选择可能产生的结果来判断最终的利弊得失才有意义。而对于一个只想着最大化自身回报的人来说，做什么对他人有利，或者做什么会伤害他人，这些信息都无关紧要。行为发生的情境、决策者发出的信号以及其他人对信号的解读也都没有意义。相反，斯密的观点是，我们每个人心里清楚大家都严格地希望多得到一点，不愿意少得到一点，因此，我们会根据一个人在众多可能中做出的选择，来判断其意图是好还是坏。<strong>可见，行为本身也传递一种信息，是交流内容的一部分，我们要把它们当作信号来看，并把它们当作信号来回应。在斯密看来，这类交换构成了人类社会性的基础。</strong></p>
-<p>在斯密的模型中，当时的具体情境或者条件是互动决策的一类核心特征。回过头来看，这一点确实意义重大。20世纪八九十年代，实验经济学家和认知心理学家观察到在双人博弈(比如最后通牒博弈)中广泛存在不同于自利选择的可复现的行为偏差。后来，这些经济学家和心理学家通过实验设计探索此类行为重复出现的原因，很快发现情境因素在其中起到了非常大的作用。事实上，相比于不同的回报水平，不同情境对实验中观测到的决策有更大的影响，也更多样化。上述实验结果与《道德情操论》中的模型一致，但斯密的理论框架尚未被纳人我们的思维模式。《道德情操论》采用的社会机制凸显了情境因素的重要性，避免人们盲目根据个人效用最大化原则做决策。在适应社会的过程中，每个人都学会了“少一些由自爱而来的傲慢，让这种傲慢降低到他人可承受的范围”(《道德情操论》，第II篇第II章第II节，第 120页 )。社会意义上的“成熟”指的是一个人要遵循符合规范或习俗的规则，以此控制自己不管不顾地去追逐自利。以顾及他人的方式行动乃是自我克制的结果。这种自我克制对于构建、支持和维护社会资本十分必要。学习自我克制会被内化为道德意义上的自我管理行为。</p>
-<p>斯密所说的“社会化”遵循如下常识:“每个人的自爱足以让他判断其行为在社会意义上是否得体，然后追求个人利益。”斯密认为，就已观察到的人类行为而言，追求个人利益(比如金钱)与选择利他行为并不矛盾。个人利益本身就包括与他人和睦相处、守道德规范，选择与社会相适应的行为。《道德情操论》为我们提供了一个理论框架，有了这个框架，我们就能仔细检验和研究情境因素，理解社会过程，而不再将关注点只放在结果和收益上。这些结果和收益的意义只有结合情境因素才能明了。虽然思路大为不同但实验经济学近年来的逐步发展，其关注点也有很多聚焦于人类行为的结果。我们认为，《道德情操论》能让我们将现代的思考融为一个更连贯的整体。斯密的模型与现代实验经济学中的发现是一致的，并不需要根据这些结果去做修正。不过在将该书的内容用于解释现代实验结果时，我们还是需要对它做现代的重新诠释。</p>
-<p>我们从《道德情操论》中得出的核心信息是:人们在与他人互动时会顾及他人，这是因为我们学到了一些行为规则，它们能让我们与同伴们和睦相处。① 至于我们按照这些规则行事对他人有利还是有弊，以及对我们自己有何影响，还得根据具体情况具体分析。人类之所以成为社会化的生物，主要机制就在于我们有同感”的能力，尤其是相互之间的同感。如果我们没有把这种与生俱来的能力打磨成实用技能，斯密的世界中也就不存在人类的社会性。我们有时之所以不顾及他人，是因为不太想和他人发生社会联系。但是用罗伯特·伯恩斯(Robert Burns)的话说，人类的共情能让我们“站在他人的角度看待自己”。斯密的语言朴实而准确:“可能每个人在其内心深处天然地更爱自己，而不是别人。不过，谁都不敢当众承认自己是按照这种原则做事的。”(《道德情操论》，第I篇第I章第II节，第120页)</p>
-<p>本书将分析斯密《道德情操论》中的理论框架的逻辑关系并加以拓展和运用:所有人都知道自己是自利的和局部非餍足的也即无论以什么作为参照系，多总比少好。这应该是常识，否则我们就不会是有社会生存力的规则遵守者，因为那样将无法意识到自己的行为对谁有好处或者伤害了谁，也不会妥善权衡自己和他人的关系。但对于遵守什么样的规则，我们的判断非常依赖具体情境。情境和行为的利弊一起影响着我们所做的行为选择。这种社会性之所以产生，就是因为我们能够互相同感。与他人相处的经验以及由此在人生发展过程中留下的影响或多或少塑造了我们，若非如此，我们不可能变得越来越成熟。在成长的过程中我们渴望得到赞扬，渴望自己具备值得他人赞扬的品质，同时避免他人的责备，也不希望带有被他人诟病的缺点。有意为之的善行或不正义的行为会相应地引发感激或怨恨的想法和情绪，而斯密的理论模型可以推导出这方面的若干关键命题。</p>
-<p class="image-wrapper"><img data-img-size-val="1600,1600" src="https://img.36krcdn.com/hsossms/20241120/v2_afa5d8e6f5df4558a48156b02de6bcc6@5667365_oswg3041146oswg1600oswg1600_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>书名：<strong>《人的经济学》（诺奖得主弗农·史密斯力作，反思现代经济学分析框架，将人的情感因素引入经济学分析。田国强、罗卫东、刘守英、杜宁华推荐）</strong></p>
-<p>作者：<strong>[美] 弗农·史密斯 巴特·威尔逊</strong></p>
-<p>译者：<strong>郑磊 陈倬琼 译</strong></p>
-<p>出版时间：<strong>2024年10月</strong></p>
-<p>新古典经济学虽然对市场中的自利交易有较强的解释力，但它无法解释人们在交易与生活中的利他行为。经济学家试图通过修补效用函数来解决这一问题，但无法给出逻辑一致的预测和解释。</p>
-<p>诺奖得主弗农·史密斯及其长期合作者巴特·威尔逊，通过回溯现代经济学之父亚当·斯密的两本重要著作《道德情操论》和《国富论》，来寻找弥补经济学这一缺陷的方法。他们发现，斯密的理论特别注重人的社会性，即人们在日常生活中的情感、道德伦理等因素对个人决策的影响。所以，不是经济学一开始就建基于太过抽象的假设之上，只是随着经济学的发展以及对简洁模型的推崇，才使经济学一步步把“人”抽象为“理性经济人”。</p>
-<p>作者认为，是时候将完整的人纳入经济学分析，使经济学能够更好地与现实世界联结，并提高其对现实的解释力。本书是现代经济学的寻根之旅，也为经济学的未来发展指明了可能的方向。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044372883426183</guid><pubDate>Wed, 20 Nov 2024 14:56:00 +0800</pubDate></item><item><title>光合未来 · 旗下子公司宣布完成超千万元天使轮融资</title><link>https://36kr.com/p/3044347237321346</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>光合未来旗下子公司<strong>“自然答案超级植物工厂”</strong>宣布完成折合总计超千万元天使轮融资，该笔融资将用于启动<strong>光合未来300亩产业园区</strong>一期的建设，由“燕赵园林”主导投资。这是光合未来体系里的第五次融资。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,649" src="https://img.36krcdn.com/hsossms/20241120/v2_a029cdaad7fa48149101138ede03d83d@5510391_oswg123249oswg1080oswg649_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（在属地政府领导见证下举行投资签约仪式）</p>
-<h2>人工有机基质的未来</h2>
-<p>光合未来是最早将人工有机基质带入到资本视野的创业企业，由<strong>清华大学x-lab孵化</strong>，致力于推动人工有机基质的产品研发与市场推广。</p>
-<p>同时也是中关村U30年度优胜者企业、HICOOL大赛获奖企业、亚杰商会摇篮计划第14期成员、清华大学美灵未来科创家首期班成员、YGT年度优胜企业。</p>
-<p><strong>土培离不开农药、水培离不开化肥，而即使在人工基质的技术领域内，也有不可降解基质和可降解基质之别，而前者一样离不开化肥</strong>，光合未来所应用的技术，可以通过基质自身的降解来<strong>为植物在长达8年的时间里提供营养元素</strong>，同时7：3的水气比例和基质强度可以为植物提供完美的生长环境。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1430" src="https://img.36krcdn.com/hsossms/20241120/v2_835c80227db048f7aa2fd11223a4c2a4@5510391_oswg123345oswg1080oswg1430_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（光合未来小小的基质富含大大的能量）</p>
-<p>光合未来最早推出超薄模组式栽培产品，在花园城市建设、室内农业、立体绿化等领域拥有广阔的应用场景。</p>
-<p>此次融资后，光合未来将发布<strong>单平米售价仅400元</strong>的人工有机基质立体绿化产品。真正做到让千家万户享受有机种植技术带来的乐趣。</p>
-<p>有机、无农化和简单干净的种植体验颠覆了市场认知，即使在市场不够成熟的当下，光合未来也已经<strong>累计销售了超过150万件</strong>种植单元与产品，领跑行业。这主要还得益于光合未来种植产品坚持的<strong>品种广普性</strong>，即一款基质可以兼容几乎所有植物品种，无需额外搭配化肥。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20241120/v2_094f0dbdf4a4487c8567f8e3e4a180d9@5510391_oswg256551oswg1080oswg1440_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（安全、干净、简单的栽培形式让小朋友也能轻松体验收获的乐趣）</p>
-<p>不添加化肥和不使用农药的种植方式，预判了大众对于食品安全的关注，迎合了年轻人希望摆脱内卷，向往自然的精神需求。</p>
-<p>光合未来也在诸多地标项目中有所应用，比如北京大兴国际机场、珠海横琴通关口岸等。</p>
-<p><strong>可降解提供营养的人工基质正在彻底的、深刻的改变农林园艺行业。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,809" src="https://img.36krcdn.com/hsossms/20241120/v2_1e049201e8bb4554ba4554df9ebbb426@5510391_oswg118998oswg1080oswg809_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（光合未来有机种植自动设备上澎湃的产能）</p>
-<h2>植物工厂的反思</h2>
-<p>国内目前比较流行的植物工厂是水培层架式植物工厂，其缺点是高昂的投资成本、庞大的设施面积和对后期管理运营精度的依赖，<strong>“化肥菜”的技术底色也让大众消费市场更不好接受其高昂的售价。</strong></p>
-<p>技术和管理经验上，国内水培植物工厂大多来自日本或欧洲，与我国的地理特点、民众需求并不一致。</p>
-<p>基于上述情况，光合未来积极研发与设计更适合我国实际情况的本土植物工厂，一种有机安全、小型化、低成本、高产出、全品种兼容的植物工厂逐渐成型。凭借坚定的技术路线自信、多年深耕实践的经验自信，<strong>为市场带来更具想象力的、中国自己的“超级植物工厂”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241120/v2_864b82ff43a64c29a606efdf1d2ce882@5510391_oswg186813oswg1080oswg810_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（超高密度栽培，实际种植面积每平米接近600棵菜）</p>
-<p>光合未来将于2025年，以定向邀请形式，发布“自然答案超级植物工厂”解决方案。并将该方案复制到各个核心城市周边。</p>
-<h2>300亩产业园区</h2>
-<p>300亩产业园区总面积相当于<strong>2个故宫</strong>的大小，能够装下<strong>28个足球场</strong>。该园区内将建设完成：高标准全自动温室、越冬暖棚、产品产线、华北集中仓、农旅民宿、多个实验室（植物组培实验室、育种实验室、植物工厂电气化实验室、基质配方优化实验室、太空栽培实验室、植物AI实验室等），致力于打造基于新质生产力的全产业链园区。</p>
-<h2>七年后首次融资</h2>
-<p>距离上一次融资已经过了七年之久，但与外界普遍猜测不同，光合未来并非融不到钱，而是在企业发展经营路线取舍上格外的坚定，由于资方核心资源与企业发展的方向不一致<strong>，七年里光合未来先后拒绝了两笔投资。</strong></p>
-<p>光合未来不想做资本市场的昙花一现，更想做创业路上坚定的马拉松主义者，深耕技术、注重产品的用户体验，不断学习，不断思考，拒绝跟风模仿，知道什么才是正确的，知道哪种坚持才是长久的。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044347237321346</guid><pubDate>Wed, 20 Nov 2024 14:58:00 +0800</pubDate></item><item><title>夫妻花19万南极游被飞猪分配与陌生人拼床，要求换房遭拒绝</title><link>https://36kr.com/p/3044302748597761</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>近日，“夫妻花19万南极游想睡一间房被拒”话题冲上热搜。上海消费者小宋（化名）和丈夫计划今年12月去南极游玩，临行前收到飞猪通知：夫妻只能分房入住。</p>
-<h2><strong>夫妻想睡一间房被拒</strong></h2>
-<p>据黑猫投诉，小宋说，去年双十一自己在飞猪平台上下单购买了19万的南极邮轮游，因为支付限额，夫妻分开下单一人各付了一半。今年4月，小宋称自己加了客服微信，明确自己和丈夫是同行的关系，并提交了结婚证。</p>
-<p>10月，小宋被飞猪客服告知，虽然当时定的是双人间，但自己和丈夫的床位被分开在两间房间，并且需要和陌生人拼床睡。客服称，当时他们只说两人“一起”，没说“一起住”，小宋和丈夫的床位被分开了。小宋和客服的聊天记录显示，确实少打了一个“住”字。</p>
-<p class="image-wrapper"><img data-img-size-val="640,924" src="https://img.36krcdn.com/hsossms/20241120/v2_54ab522f82ab443092b20ada1f55f2b9@5867564_oswg109922oswg640oswg924_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>小宋表示，“国内的邮轮你只要是报一间，不可能同行人是分舱的。”小宋向飞猪客服提出要换房，但被拒绝，理由是现在邮轮已经满员了，无法调整。小宋非常愤怒，认为这是文字游戏，南极游气候恶劣且长达两周，如果夫妻要和陌生人拼房，他们就不想去了。然而，订单早就已经不能退了。</p>
-<p class="image-wrapper"><img data-img-size-val="1280,928" src="https://img.36krcdn.com/hsossms/20241120/v2_a63d9df713d943bebc8d0a4154530952@5867564_oswg297158oswg1280oswg928_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>对此，飞猪客服表示，邮轮旅行正常下单后如果要2人入住一间房，备注清楚就可以了。2人拍在一个订单里是会安排在一起的；若因支付限额等问题需要分开支付，需要在下单后把两个订单号提供给客服，将两个订单号关联在一起。对于其他客人的订单详情不太了解，这种是极端个例，不是每位客人都是这样的。</p>
-<p>而报道中引用的4月21日截图，系飞猪客服联系消费者上传签证材料时，发现两笔订单电话相同，主动询问两人是否同行，平台于8月份被告知双方系夫妻，11月份收到结婚证材料。</p>
-<p>结婚证并非此次事件的主要矛盾所在。相关律师表示，夫妻住宾馆，不需要有结婚证才可以入住，只有身份证就足够了，法律只要求登记身份证即可。酒店重视的是入住人员的登记，并不是入住人之间的关系。即使不是夫妻，男女朋友也可以住一间房的，同样合理合法。</p>
-<p>有观点认为，客服在“一起”和“一起住”上做文章，浅表地看，这种行为是为了避开责任，不损失订单。但往深层看，这种侵权行为，不仅暴露出商家对于服务行业宗旨的背离，也反映出个别旅游服务在规则制定、执行和监管方面的不足。</p>
-<h2><strong>市场地位不断下滑</strong></h2>
-<p>飞猪前身为阿里旅行，是阿里布局旅游O2O的起点，成立于2010年5月。如今飞猪成立已14年，市场地位却不断下滑。</p>
-<p>飞猪成立之初声势浩大，有着取代携程争夺OTA第一的架势。从阿里开始入局旅行业务到改名为飞猪，在线旅游行业经历了百花齐放的时代，飞猪曾经在OTA市场占据重要地位，与携程、去哪儿并列为OTA三巨头。</p>
-<p>2015年携程和去哪儿世纪大合并之后，在线旅游行业战争结束，阿里旅行在2016年以飞猪这一全新品牌面世，就是想在抓住机会，在携程等补贴乏力后，找到市场空隙以逸待劳进行大抄底。</p>
-<p class="image-wrapper"><img data-img-size-val="880,537" src="https://img.36krcdn.com/hsossms/20241120/v2_e27d35187732431fbe7067585aebc9a1@5867564_oswg148766oswg880oswg537_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>飞猪的入局确实给刚完成合并的携程带来了压力。从财报中可以看出，16年携程与去哪儿合并后竞争格局得到优化，其广告费用率降至14.6%；17年携程广告费用率的快速上升，就是由于美团、飞猪崛起，用户争夺加剧、获客成本飙升。</p>
-<p>经过一年多的市场争夺，飞猪拿下了一定的市场份额。据国盛证券的一份研报中数据显示，飞猪2017年OTA的市场份额占比达到21%，而彼时的美团市场占比仅为6%。</p>
-<p>飞猪的市场成功来自于定位的差异化，飞猪选择的是出境游方向，定位为“面向年轻消费者的休闲度假品牌”。彼时的在线旅游市场不够成熟，无论是周边游、定制旅游等多个新兴产品都成为市场的爆发点，彼时，众多的出境游产品成为市场热点，比如专注出境包车的皇包车旅行等等。</p>
-<p>只不过，飞猪的差异化定位过于小众，导致后期乏力，OTA企业的竞争战火扩大，从OTA企业延伸到了美团团购，以及抖音、小红书等内容平台。</p>
-<p>美团自2014年涉足酒店业务以来，业务量迅猛增长，2019年已是国内酒店间夜量排名第一。相比之下，飞猪虽然较美团提前四年开启酒店业务，但在业务成绩上落后美团不少。</p>
-<p>面对外部竞争压力，飞猪进行了一系列战略调整。一方面，飞猪试图通过低价和频繁“整活”吸引用户关注，如推出“攻城价”等营销活动，虽然部分活动因争议而下架，但这种对市场动态的敏感反应和创新尝试，也体现了其在激烈竞争中的灵活应对。另一方面，飞猪着手强化供应链建设，如启动“0元开店”等项目吸引商家，并深化与酒店、景区的直连合作，意在强化服务质量和效率，以提升平台整体竞争力。</p>
-<p>飞猪也在进行其他方向的尝试，如：“猪小金”和“借钱”信用贷。飞猪发力互联网金融不难理解，就是为了流量变现和赚钱，这也是现在很大一批流量APP平台们都会布局的一环。</p>
-<p>眼看着携程们早已赚得盆满钵满，而飞猪却是常年亏损，且缺钱，同时市占率和月活又不够领先。飞猪想要“保命”，似乎只能绕开亏损的主营业务，尝试实现业绩改善。</p>
-<h2><strong>屡屡遭到消费者投诉</strong></h2>
-<p>近年来，飞猪遭到消费者投诉的事件数不胜数，其服务能力与服务质量堪忧。</p>
-<p>有消费者投诉称，在飞猪平台上购买机票后，竟发现自己名下多出了几张非本人订购的“幽灵机票”，这些机票如同幽灵般悄无声息地出现又消失，给消费者带来了极大的困扰与不安。</p>
-<p>据《羊城晚报》，冼先生介绍，他于6月29日通过飞猪旅行购买了两张机票，分别是7月19日广州飞首尔和7月21日首尔飞广州的南方航空航班。机票总价2526元。令他惊讶的是，订票后，他意外发现名下多出了3张其他机票。这3张票均非他本人购买。飞猪方面表示，这是系统原因导致出票错误。冼先生认为，如此“无中生有”，显然用“系统原因”作答无法让人信服。</p>
-<p>据知情人士透露，“幽灵机票”的产生可能与机票售卖方通过退高买低的方式赚取差价有关。他们将消费者原本购买的单程票或联程票进行多次退改签操作，最终调整为更便宜的机票。这种操作不仅损害了消费者的利益，也扰乱了正常的市场秩序。</p>
-<p>今年9月，飞猪以市监部门的口吻发送短信给“投诉会员”，被杭州市余杭区市场监管局约谈。</p>
-<p>据悉，一位飞猪F5级别会员反映，7月中旬支付6000余元预定澳大利亚某酒店9晚，到店后被告知无订单，联系飞猪客服后其也承认“到店无房”。另一位投诉者称，他在飞猪APP预订了一间香港迪士尼酒店的大床房，商品页面显示可退补差价，次日他发现该酒店同类房型价格降到400多元，却无法被退补差价。</p>
-<p>这两位用户投诉后，却收到飞猪发来的短信，内容如下：【飞猪】关于您发起的投诉，经核实，因该投诉交易平台为境外网站飞猪国际，公司名称为：冠運旅遊有限公司，且入驻飞猪国际的商家均为境外主体，不属于余杭区市场监管局职能范围；另被申请人与本纠纷无关，该投诉依法终止调解。</p>
-<p class="image-wrapper"><img data-img-size-val="884,830" src="https://img.36krcdn.com/hsossms/20241120/v2_b94b54f7b3384a68a089d2d09619e086@5867564_oswg229848oswg884oswg830_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这一短信是否为余杭区市场监管局授权发布？余杭区市场监管局网监分局相关负责人表示，已对飞猪进行约谈。目前了解到的情况是，今年3月份飞猪拿到了当时市场监管局、消保委和某电商平台共建消费维权联络站的消费投诉处理模板草稿，修改后用于自己的纠纷处置。该负责人强调，在未经允许的情况下，不得使用市场监管部门等字眼，避免误导消费者，在整改完成前，短信已经暂停。</p>
-<p>据新华网，今年7月，汪先生在飞猪平台预定了酒店，使用新客优惠券后的价格为1784元。然而，次日上午9点，他收到短信通知，预定未成功。汪先生随即联系飞猪客服，却被告知“酒店没有房间了，所以预定失败”。然而，他用妻子的手机账号再次查询，发现酒店房间仍有空余，但价格涨至2203元。“这是大数据杀熟行为。”汪先生说，要求退一赔三。</p>
-<p>据潇湘晨报，去年11月，张女士称自己和男朋友在飞猪买票计划11月30日去上海迪士尼游玩，但因自己突然生病，只好提前结束旅游行程。提交就诊证明成功退了自己的票后，在退男朋友的票时却被要求提供加盖公章的“情侣关系证明”才能给退票。飞猪平台解释称这是景区要求的，而迪士尼表示不了解情况不便作答，建议通过迪士尼公共事务部邮箱询问。在张女士向12315和警方举报后，终于收到了退款。</p>
-<p>截至发稿，在黑猫投诉平台，飞猪相关投诉累计高达78583条，近30天投诉量1434条，问题涉及大数据杀熟、拒绝退改签、捆绑销售、欺诈消费者、服务质量差等。</p>
-<p>面对消费者的投诉，飞猪须正视问题，采取有效的措施规范代理商行为、提升服务质量。每一次消费纠纷的处理，都是消费者、商家和平台三方建立信任的过程，然而平台一次次地让消费者难堪，只会将自己一步步推向深渊。</p>
-<p>本文来自微信公众号“天天财经116”，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044302748597761</guid><pubDate>Wed, 20 Nov 2024 15:17:00 +0800</pubDate></item><item><title>“史上最强财报”发布之后，小鹏股价还是跌了</title><link>https://36kr.com/p/3044383044402952</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>发布了一份自己口中的“史上最强财报”之后，小鹏汽车昨日美股股价仍然跌去了 3.77%，盘中跌幅一度超过 8%。</p>
-<p>今年第三季度确实可以称得上是小鹏汽车的“史上最强”。靠着起售价低至 10 万元的 MONA M03，当季小鹏一共卖了 46,553 辆车，超额完成上季度指引，9 月更是突破 2 万交付大关。总营收首次突破 100 亿元，公司毛利率亦创下历史新高，达到 15.3%，“5 个季度狂飙 19.2 个百分点。”</p>
-<p>但在一众造车新势力中，小鹏的汽车毛利率仍然稍显落后。即便小鹏的汽车毛利率已经连续几个季度提升，当季已经达到 8.6%，但仍未回到历史最好水平。</p>
-<p>公司毛利率的改善一定程度上来自于与大众的合作。三季度，小鹏服务及其他收入同比提升 90.7%达到 13.1 亿元，这部分收入毛利率高达 60.1%。</p>
-<p>当季小鹏汽车净亏 18.1 亿元，扣除其他非经营因素影响的非公认会计准则下为 15.3 亿元。小鹏汽车总裁顾宏地在业绩会上称，小鹏明年年底实现收支平衡的承诺不变，他们希望可以尽快达成这一目标。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,670" src="https://img.36krcdn.com/hsossms/20241120/v2_b362f31ba48242a59819e81a31cc1354@6035051_oswg254365oswg1080oswg670_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">小鹏汽车 2024Q3 主要财务数据</p>
-<h2><strong>01｜11 月实现交付超 3 万</strong></h2>
-<p>过去几个月是小鹏汽车重新回到市场中心的阶段。他们接连发布了两款新车，包括与滴滴合作的 MONA M03 以及首发小鹏 AI 鹰眼视觉方案的 P7+。</p>
-<p>二者都是性价比的胜利，MONA M03 起售价低至 10 万元左右，直接杀入比亚迪们的腹地，但智能化程度更高，颇受年轻人欢迎。P7+ 起售价 18.68 万元，在此基础上实现了智驾及 800V 架构的全系搭载。</p>
-<p>它们也改掉了过去小鹏在车型规划上的诸多顽疾。比如配置过于复杂、比如价格体系不够直观。大多数舒适性配置都实现全系搭载，SKU 更简化，消费者不用头痛选择。P7+除了限定发售 500 台的 Max 版本外，更是只有两款配置，相差 1 万块。</p>
-<p>两款车型都实现了过去小鹏从未达到的热销。MONA M03 连续两个月交付破万，P7+ 上市 3 小时大定突破 3 万台，刷新小鹏汽车的销售记录。在此之前，小鹏已经连续 8 个月销量低迷，2 月份交付量一度降至 4,535 辆。MONA M03 上市以后，小鹏 9 月、10 月交付量接连破 2 万台。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1116" src="https://img.36krcdn.com/hsossms/20241120/v2_83bb404c9fbe43e7b94fde65011111ed@6035051_oswg75585oswg1080oswg1116_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">小鹏今年前 10 个月交付数据/图源小鹏汽车</p>
-<p>年底，小鹏月交付量有望继续继续增长。小鹏 P7+已经在 11 月 11 日开始首批交付。小鹏 P/G 系列车型负责人 Nick 专门在社交平台上强调，P7+ 首周交付 2270 台。过去，小鹏汽车一直对外反对车企公布周销量数据。</p>
-<p>何小鹏预计，11 月公司总交付量将超过 3 万台，12 月 P7+ 月交付量将达到 1 万台以上。他相信这是小鹏新十年的开始。</p>
-<p>财报中，小鹏汽车定下了超高的季度销量指引，预计2024 年第四季度交付量将 8.7 万台至 9.1 万台，即单月平均交付 2.9 至 3 万辆。过去小鹏从未达到过这一数字。</p>
-<p>业绩会上，分析师们十分关注小鹏汽车的产能规划。即便在已经连续三次扩产、广州和肇庆工厂已全部实现双班制的情况下，小鹏新上市的两款车型仍然遇到了产能问题，明年他们还计划推出更多车型，产能更加重要。</p>
-<p>当下，M03 和 P7+的最短交付周期仍然超过 8 周，它们的积压订单都已经排到明年一季度。这意味着目前下定车主都无法在年内提车，享受置换补贴。<a href="http://mp.weixin.qq.com/s?__biz=MzkyODcwNDAwNg==&amp;mid=2247492109&amp;idx=1&amp;sn=d30a77ecaa6e644238fc03da95252119&amp;chksm=c2161164f5619872697e06e4a67d5ca9b6adbd5c04f9883fc0cbb0f09d5ac756c0241dc6a241&amp;scene=21#wechat_redirect" rel="noopener noreferrer nofollow" target="_blank">《山上》此前报道</a>，过长的提车周期一定程度上影响了 MONA M03 的终端销售。</p>
-<p>小鹏汽车管理层在业绩会上称，他们相信无论补贴持续与否，都不会为小鹏的订单带来特别严重的影响。“我们相信用户不会因为补贴政策的变化而改变决定。无论是 P7+还是 MONA M03，它们的产品竞争力都远超友商。”</p>
-<h2><strong>02｜明年小鹏至少有 10 款车型在售</strong></h2>
-<p>成立十年之后，小鹏汽车似乎终于等来了所谓“从红海游向蓝海”的阶段。智驾正在进一步普及，多数车企都在加码端到端的研发、抢夺人才。智驾已经成为大多数新能源车企发布会中最重要的环节，甚至比续航、性能的篇幅更大。</p>
-<p>广州车展上，小鹏汽车宣布将在年底的天玑 5.5.0 系统上实现“车位到车位”智驾体验。何小鹏在业绩会上称，AI 智能化的渗透率将会以非线性的速度快速提升。“AI 的变革将会驱动整个市场份额走向下一阶段的再次整合。”</p>
-<p>明年，小鹏将迎来一个史无前例的产品大年，他们计划发布 4 款全新车型，加上今年已经发布的 MONA M03、P7+以及现有车型的改款，明年小鹏在售车型将超过 10 款。</p>
-<p>不只是小鹏汽车，中国的多数新势力车企都将迎来更大的产品周期。理想将在明年发布全新的纯电车型，在售车型将会达到 8 款左右，他们当下正在为建立更大面积的门店努力。蔚来的第三品牌也将在年底亮相，加上已经披露的 ET9、乐道第二款车型，明年蔚来车型也将超过 10 款。</p>
-<p>华为鸿蒙智行的第四品牌尊界已经在广州车展上亮相，36Kr 报道称他们正在计划推出问界 M8，明年车型将超 10 款，在售车型数量翻倍。零跑也将在明年推出 B 系列的首款车型 B10，售价进一步下探至 10 万元左右。和当下已经推出的 C、T系列互补，他们还将计划推出更小尺寸的 A 系列车型。</p>
-<p>何小鹏延续了他此前在 2023 年四季度业绩会上的说法，相信 2025 年到 2027 年就是中国新能源车进入淘汰赛的阶段， 国内新能源车的渗透率将会提升至 85% 甚至以上。</p>
-<p>过去几年，已经有高合、爱驰、威马、拜腾等多家车企破产倒闭，今年市面上的部分车企诸如哪吒汽车也传出经营不善、资金链断裂的传闻。</p>
-<p>更多的新势力车企都开始向市场妥协。今年，越来越多的车企开始计划为他们的纯电车型加上油箱。仅仅今年，就已有智界、阿维塔、极氪、小鹏、蔚来、小米等多家车企发布或传出正在规划增程路线。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241120/v2_449f8b308e8042afabd88225fd8a5616@6035051_oswg35990oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">何小鹏发布小鹏鲲鹏超级电动体系/图源小鹏汽车</p>
-<p>小鹏汽车在今年 11 月的小鹏 AI 科技日上公布了自家的鲲鹏超级电动技术，可实现 400 公里以上的纯电续航，综合续航里程 1400 公里。首款增程车型将在明年下半年上市。未来，小鹏汽车的多数车型都将配备增程和纯电两种动力模式。何小鹏称，双能将会驱动小鹏销量实现数倍增长。</p>
-<p>中国的造车新势力们开始集体迈向决战阶段。从最早的“蔚小理”诞生开始，造车新势力们已经走过了至少 10 年时间，它们经历了一段缓慢的爬坡阶段，直至新能源车市场的彻底爆发。</p>
-<p>从年销量 10 万台到年销量 50 万台，从只卖一两款车到同时销售数十款车，对新势力们的考量标准同样也在变化，涉及到组织架构、销服体系、产能乃至供应链管理等诸多方面，类似于理想在 MEGA 失利后的反思和调整或许会接二连三地发生。</p>
-<p>据不完全统计，仅仅是今年 9 月，中国汽车市场就有接近 50 款车型上市，市场竞争程度前所未有。明年，在车企们规划了更多车型的情况下，这样的竞争或将会成为常态——直至战争结束。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/oPlcJ46NdswtN60RC1ikog" rel="noopener noreferrer nofollow" target="_blank">“山上”</a>，作者：薛星星，编辑：张文，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044383044402952</guid><pubDate>Wed, 20 Nov 2024 15:17:00 +0800</pubDate></item><item><title>醉卧消费几人回</title><link>https://36kr.com/p/3044383173053056</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在一场令人们目瞪口呆的“闪电牛”过境之后，10月的最后一天，许多二级市场从业者们却在传阅着一篇标题为《再见，金融行业，这个班就上到这里吧》的文章。文章作者，前华创证券社服行业首席王薇娜，宣告自己离开金融行业，引发了许多人的唏嘘和祝福。</p>
-<p>作为少有在卖方耕耘了近八年的社服分析师，王薇娜在2020年后发表的DTC系列报告、茶饮系列报告，为二级市场带来很多新颖的消费研究视角。</p>
-<p>人们惋惜她的离开。一个绕不过去的现实是，过去三年消费研究的无奈。</p>
-<p>就像文章里被读者们多次划线的消费研究困境那样：“21年三季度，觉得需求开始崩了；22年大家都知道，没有消费场景；23年有场景了，没钱了，消费降级；24年不再消费[1]”，弱预期与弱现实的双重打击下，二级市场消费板块全面收缩。</p>
-<p>旧爱困窘，新欢难寻，这种行业困境几乎是集体性的。当周期这个沉重的词，压到这个曾经被人们默认为“牛市有弹性，熊市能避险”的行业上时，长坡厚雪也得熬过全球变暖的考验。</p>
-<h2><strong>迷人的消费盛世</strong></h2>
-<p>作为诞生牛股最多的行业之一，消费在相当长的时间里，都是机构投资者们的兵家必争之地。在买方机构们逐渐丧失信心之前，它刚刚经历了一轮璀璨的爆发。</p>
-<p>2019年至2021年期间，资本市涌现出一批消费行业的牛股：2019年食品饮料行业以全年80.57%的涨幅高居申万一级行业涨幅之最，预调鸡尾酒、摩托车等小众消费品逐渐打开了更广阔的市场；次年以白酒为首的核心资产上涨造就了一批明星基金经理，而奶酪棒、预制菜、扫地机器人等各种新品类的百花齐放，更是令人们眼花缭乱。</p>
-<p>到了2021年，医美开始崭露头角，成为了彼时市场上最为关注的消费趋势。焦巍在当年的季报里“男人的胃和女人的脸始终是能够产生品牌溢价和消费者定价权偏移的行业”风靡一时，整个消费行业的欣欣向荣可见一斑。</p>
-<p>如果大牛市的背景下，消费行业的爆发称不上多罕见，那么行情颇为惨淡的2018年里，消费行业也依然撑起了基本面投资者的门面——顺鑫农业、爱尔眼科、珀莱雅的高增长财报，成为了贸易战接二连三的坏消息里，为数不多能救基金净值的稻草。</p>
-<p>以顺鑫农业为例，其在15-17逐渐剥离非核心业务之后，对于白酒业务的聚焦让它在2018年实现了业绩的超预期增长。2018年Q1归母净利润同比大幅增长94.61%，并在之后的两个季度进一步实现了103.98%、99.25%的高速增长。基本面的加持下，顺鑫农业年度涨幅达到了66%，早在2017年底就重仓买入的胡鲁滨也成为了私募行业炙手可热的新星。</p>
-<p>毫无疑问的是，消费行业长牛的特点在过去成就了一批批基金经理和基金公司的高光时刻。</p>
-<p>言必谈消费的机构投资者们，喜欢必需消费不受经济周期影响，业绩好，确定性又高；也喜欢可选消费的百花齐放，中产阶级的扩大，带来了一系列卖出溢价的机会。在相当长一段时间里，一个基金经理的投资组合里，如果没有消费会是一个非常不合群的存在。</p>
-<p>但消费的盛宴，也有奏乐终结的时候。当许多人已经对50倍的白酒、100倍的酱油逐渐麻木，抱着消费行业可以用永续增长来消化估值，最优秀的公司就应该buy-and-hold的时候，变化的拐点也悄然而至。</p>
-<h2><strong>奔走的基金经理</strong></h2>
-<p>消费行业的一片繁荣声中，疫情的反复成为了一个关键变量。</p>
-<p>天风宏观宋雪涛曾经对2021年下半年消费开始疲软的原因这样评价：在疫情的持续影响下，“消费需求疲弱-消费服务业景气低迷-大量从业者收入下滑-更多居民消费能力减弱/意愿下滑-消费需求更加疲弱”形成了一个自我强化的正反馈循环[2]。</p>
-<p>而这种正反馈循环在2022年得到了进一步的加强。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_dc003ad471584b0d9ccf782fe51e1653@000000_oswg206362oswg1080oswg1116_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>疫情之外，各类资产价格的下跌，尤其是房地产的大幅调整也加速了消费降级的进程：当房地产价格上涨时，中产阶级可以依靠房地产带来的财富效应实现消费升级；可一旦资产价格开始大幅缩水，那么消费升级也会不可避免地变为消费降级[5]，拼多多的崛起和其他电商的式微便是对此最好的佐证。</p>
-<p>行业的低迷让基金经理的持仓开始逐渐呈现出一些细微的变化：板块内部更加聚焦龙头，而板块外部进一步延伸自己能力圈。相关数据显示，2024Q1大消费仓位水平为23.8%，略超历史平均值；消费板块内部持股集中度已达到了62.7%的水平，处于历史高位。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_cd74f9d1d9034e39889b7fd1bdca2c17@000000_oswg91625oswg927oswg436_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当然，行业的低迷并不意味着发展的彻底停滞，其往往也会涌现出一些结构性的机会。</p>
-<p>譬如作为大消费行业重要组成部分的食品饮料行业，稳定的业绩增速让公募基金持续高配该细分赛道：2024年Q1仓位水平达到了14.7%，超配比例6.48%，两者均高于历史平均值。</p>
-<p>除此之外，代表了年轻消费群体的新消费领域也在过去几年中呈现出了百花齐放的局面：瑞幸咖啡门店总数在2021年就已超过了星巴克中国门店数量；名创优品凭借着线条小狗和chiikawa等诸多IP实现营收的持续增长；胖东来更是成为了许昌的地标性建筑，被网友们誉为”没有淡季的6A级景区”！</p>
-<p>但新消费行业繁荣并非是整体性的，其新旧更迭同样十分残酷。</p>
-<p>以新中式代表企业之一虎头局渣打饼行为例，其在完成了3轮融资后估值一度高达20亿。最高峰时虎头局开了80多家门店，创下127万元的单店月营收记录[3]。可仅仅过去了两年，虎头局就因为行业的内卷而陷入经营困境，最终破产清算。</p>
-<p>行业的快速新陈代谢让ETF成为了介入新消费行业的重要工具。其不仅能够持续地将新消费企业纳入其中，而且一篮子股票的特点也大大降低了单一新消费企业所带来的风险。</p>
-<p>当整个消费行业正在面临着“传统消费向龙头集中，新消费行业日新月异”的结构性变化时，能够率先把握并追踪到这一趋势无疑将会成为投资的胜负手。</p>
-<h2><strong>尾声</strong></h2>
-<p>2021年下半年，煤炭行情的到来令人猝不及防的同时，也让彼时的公募基金陷入了尴尬的境地：公募基金对于周期行业的重视程度不高使得能够把握到这波行情者寥寥无几。</p>
-<p>据一位券商人士回忆，此前某场中期策略会上，主讲煤炭、钢铁、水泥的会场上座率低的可怜，而一墙之隔的大消费行业交流却挤满了人。令人唏嘘的是，如今的消费行业也正在逐渐经历当初周期行业面临的困难：对于消费行业追踪和挖掘的性价比开始逐渐走低。</p>
-<p>当然，作为一个涉及民生的行业，一个显著的共识是：消费当下只是处于周期的波动中而已。</p>
-<p>日本从1992年到2018年表现最好的20个股票里面有8个消费品；美国1957年到2003年里表现最佳的20个股票里面，有11个就是消费行业[4]。不论是中国经济的持续恢复，还是海外消费投资的历史都在告诉我们，消费的长牛属性并不会因为短周期的波动而改变。</p>
-<p>尤其对于看好消费的投资者来说，行业底部固然痛苦，但也恰巧给予了投资者一个布局消费的良好契机，</p>
-<p>对于任何行业来说，周期都是无法逃避的宿命。而投资者所要做的，无非是在周期底部对未来的趋势变化做出判断和布局，然后等待下一个周期的来临。</p>
-<p><strong>参考资料：</strong></p>
-<p>[1]再见，金融行业，这个班就上到这里吧，远行者与碎冰匠</p>
-<p>[2]风巷 · 宏观 | 消费复苏动能为何持续缺失，天风研究</p>
-<p>[3]2023冲出来的独角兽和消失的它们，执牛耳传媒</p>
-<p>[4]投资者的未来，杰里米 J.西格尔</p>
-<p>[5]观点｜付鹏在凤凰湾区财经论坛2024主题演讲（完整版），新质力</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU2MTg0MDQ4OA==&amp;mid=2247498436&amp;idx=1&amp;sn=1b6aa4d8e71ad73bbb9f064876c8bc8e&amp;chksm=fdf88e0a6635e183ee6d6913aca48199f5a19f90f3f6370c330f0a7de1c475f83f49c5e93845&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“远川投资评论”（ID：caituandzd）</a>，作者：吴文涛，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044383173053056</guid><pubDate>Wed, 20 Nov 2024 15:17:00 +0800</pubDate></item><item><title>宁波富豪，操刀一笔大并购</title><link>https://36kr.com/p/3044390771378821</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 20 Nov 2024 16:00:26 +0800</lastBuildDate><pubDate>Wed, 20 Nov 2024 16:00:26 +0800</pubDate><item><title>宁波富豪，操刀一笔大并购</title><link>https://36kr.com/p/3044390771378821</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>一笔中资海外并购映入眼帘。</p>
 <p>据法国媒体报道，国内男装集团雅戈尔计划收购法国高端儿童时尚品牌Bonpoint，双方正处于谈判后期阶段。据悉，Bonpoint的估值或2亿欧元（约15亿人民币）。</p>
 <p>被称作“贵族童装”，Bonpoint品牌至今有近50年历史，在时尚童装界地位举足轻重。早年间，Bonpoint国奢侈品集团EPI收购，如今面临再次易主。</p>
@@ -841,4 +164,314 @@
 <p>视频拍摄<strong> | 陈桐</strong></p>
 <p>制图<strong> | 陈桐 周洲</strong></p>
 <p>封面图 <strong>| 雇主企业方授权</strong></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044397847923591</guid><pubDate>Wed, 20 Nov 2024 15:25:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044397847923591</guid><pubDate>Wed, 20 Nov 2024 15:25:00 +0800</pubDate></item><item><title>“中年男人的最爱”正吸引大量年轻人，三年卖20亿</title><link>https://36kr.com/p/3044396331059849</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>三年卖20亿，全球最大钓鱼装备制造商冲击港股IPO！</p>
+<p>近日，乐欣户外国际有限公司（下称乐欣户外）递表港交所。根据弗若斯特沙利文报告，按照2023年收入计算，乐欣户外是全球最大的钓鱼装备制造商，市场份额为20.4%。</p>
+<p>招股书显示，中国消费者对钓鱼的兴趣呈上升趋势。2023年，中国钓鱼参与者数量达约1.5亿名，钓鱼用具人均支出为213元。</p>
+<p>与此同时，乐欣户外在中国内地市场的收入占比也在逐年提升。</p>
+<h2><strong>三年卖20亿，迪卡侬是其客户</strong></h2>
+<p>乐欣户外隶属浙江泰普森控股集团有限公司，由杨宝庆创办。</p>
+<p>招股书显示，乐欣户外的历史可追溯至1993年，当时杨宝庆便开始从事户外休闲用品业务，主营设计、研发、生产以及销售钓鱼装备的全产业链业务。</p>
+<p>杨宝庆今年55岁，1993年1月创办杭州康达皮塑制品厂并担任厂长直至1995年12月；1995年12月成立杭州恒丰皮革制品有限公司，担任总经理直至2002年7月。2002年7月，杨宝庆创立浙江泰普森休闲用品有限公司，并于2007年9月创立浙江泰普森控股集团。</p>
+<p>招股书显示，历经30多年，浙江泰普森控股集团同时专注境内外贸易，并已发展成为一家业务遍布北美、欧洲及亚洲的知名国际户外装备类企业。以户外用品的研发、制造及销售为核心，浙江泰普森控股集团同时衍生出文化创意产业园的投资、建设与运营，产业金融投资与服务，以及文化旅游三个业务板块。</p>
+<p>目前，乐欣户外聚焦钓鱼装备，建立了全面且多样化的产品组合，主要包括五金及配件、包袋及帐篷。截至2024年6月30日，乐欣户外的产品组合包括超过8000个SKU（存货单位）的钓鱼装备，涵盖从钓鱼椅、钓鱼床、搁杆架、钓鱼箱、手推车、渔具篷、全围伞、钓鱼包及抄网。</p>
+<p>招股书显示，2022年至2024年，乐欣户外实现营业收入9.08亿元、6.22亿元、5.12亿元；年内利润1.02亿元、7925.5万元、6172.4万元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,597" src="https://img.36krcdn.com/hsossms/20241120/v2_a6780dc4d72b4ad3b39675672d399a41@5888275_oswg56293oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">乐欣户外按产品类别划分的收入明细。来源：乐欣户外招股书截图</p>
+<p>提到2023年、2024年收入的下滑，乐欣户外表示主要由于2022年，钓鱼活动的低社交互动符合公共卫生事件期间消费者的偏好，消费者对钓鱼的热情提升，公司销售额快速增长。2023年及2024年，随着公共卫生事件逐渐消退，尽管消费者对公司产品的兴趣仍然较强，但随着其他可选娱乐活动的增加，公司销售放缓。</p>
+<p>不过，在此期间，乐欣户外的毛利率在逐年增长，2022年至2024年分别为19.2%、24.1%、27.5%。</p>
+<p>招股书显示，乐欣户外为户外装备品牌提供涵盖产品设计至制造全流程的一站式OEM（原设备制造商）及ODM（原设计制造商）解决方案，目前其全球销售网络已覆盖（其中包括）欧洲、中国内地及北美洲超过40个国家及地区，客户网络包括全球知名户外用品品牌（如迪卡侬）、全球知名钓鱼品牌（如RapalaVMC及Pure Fishing）、英国知名钓鱼品牌（如Fox、Nash、Trakker及Preston）以及美国知名户外用品品牌（如Ardisam）。</p>
+<p>乐欣户外也在拓展自有品牌业务。2017年，乐欣户外收购了英国鲤鱼垂钓品牌Solar，在OBM（原始品牌制造商）模式下拓展业务。招股书显示，2024年，Solar的销售额较2018年增长三倍；2022年至2024年，乐欣户外来自OBM模式的收入分别为3550万元、3650万元、4060万元，占同期总收入的3.9%、5.9%、7.9%。</p>
+<p>“欧美钓鱼用具企业以自有品牌为主。中国钓鱼用具市场一直以来以OEM、ODM制造模式为主，未来将更加注重自有品牌的发展。自有品牌有助于企业树立独特的品牌形象及品牌忠诚度，在市场上获得更高的品牌认可度。通过建立自有品牌，企业可以扩大市场份额，提高盈利能力。此外，拥有品牌可以更好地指导产品设计和创新，使企业能够快速适应市场需求和趋势。”乐欣户外在招股书中表示。</p>
+<h2><strong>越来越多中国消费者参与钓鱼</strong></h2>
+<p>根据弗若斯特沙利文报告，按零售额计算，全球户外装备行业的市场规模由2018年的5030亿元增长至2023年的6356亿元，复合年增长率为4.8%。2023年，按零售额计算，全球钓鱼用具市场占全球户外装备市场约21.7%。</p>
+<p>报告显示，按零售额计算，全球钓鱼用具行业的市场规模由2018年的1134亿元增加至2023年的1378亿元，复合年增长率为4.0%。预计2023年至2028年，全球钓鱼用具市场将持续维持5.7%的复合年增长率，以零售额计，2028年市场规模将达1819亿元。</p>
+<p>中国是全球最大的钓鱼用具制造国，按2023年收入计，中国在全球钓鱼用具市场的份额超过70%。根据弗若斯特沙利文报告，按收入计算，中国钓鱼用具制造业的市场规模由2018年的253亿元增长至2023年的284亿元，复合年增长率为2.3%，预计2023年至2028年将以7.4%的复合年增长率增长，2028年将达到405亿元。</p>
+<p>钓鱼用具包括钓具和钓鱼装备，其中钓具是指用于从水中钓起鱼的工具，如鱼竿、鱼轮、鱼鈎、鱼线、鱼饵和钓鱼配件；钓鱼装备则是指专为增进使用者在户外环境时的便利舒适度及垂钓效率的装备，包括钓鱼椅和钓鱼床、钓鱼帐篷、钓鱼包、睡袋、钓鱼推车及钓鱼箱。</p>
+<p>乐欣户外则以钓鱼装备为主。招股书显示，根据弗若斯特沙利文报告，以2023年的收入计，乐欣户外是全球最大的钓鱼装备制造商，市场份额为20.4%，也是中国最大的钓鱼装备制造商，市场份额为25.4%；中国钓鱼用具制造业相对分散，按2023年收入计，五大钓鱼用具制造商合计占10.0%的市场份额，以2023年收入计算，乐欣户外在中国钓鱼用具制造业排名第三，市占率为1.4%。</p>
+<p>招股书显示，北美、东亚、欧洲及东南亚是钓鱼用具的主要消费市场，具有悠久且普及的钓鱼文化。其中，北美是全球最大的钓鱼用具市场，2023年按零售额计拥有最大的市场份额，为31.1%。以中国为代表的东亚，2023年按零售额计占市场份额29.7%，而欧洲则为22.1%。“东南亚邻近海洋，钓鱼活动日益流行，成为钓鱼用具消费快速成长的地区之一。”</p>
+<p>在中国，越来越多的人选择钓鱼这一户外活动。</p>
+<p>招股书显示，过去几年，中国的钓鱼参与者数量持续增加。2018年至2023年，中国的钓鱼参与者数量以5.9%的复合年增长率增长，2023年达到约1.5亿名参与者，渗透率约为总人口的10.6%。</p>
+<p>另据弗若斯特沙利文报告，按零售额计算，中国钓鱼用具的市场规模由2018年的234亿元增长至2023年的318亿元，复合年增长率为6.3%，其中2023年中国钓鱼参与者的钓鱼用具人均支出为213元。该机构预计，2023年至2028年，中国钓鱼用具行业市场规模将以7.3%的复合年增长率继续增长。</p>
+<p>其中，2023年，中国钓鱼装备制造业的市场规模为14亿元，预计2023年至2028年将以9.5%的复合年增长率增长。</p>
+<p>“随着钓鱼爱好者对高品质装备的专业需求与日俱增，加上钓鱼场景的扩展，对能够带来舒适而全面钓鱼体验的多样化产品需求不断增加。这股需求将持续升温并促进中国钓鱼装备制造业的发展。”乐欣户外招股书提到。</p>
+<p>从乐欣户外各地区收入明细中也能看出这一趋势。</p>
+<p>数据显示，2022年至2024年，乐欣户外来自海外市场的收入分别为8.08亿元、5.24亿元、4.29亿元，占总收入的89.0%、84.2%、83.8%。其中，欧洲市场贡献了六成以上的收入，2022年至2024年的收入分别为6.26亿元、3.83亿元、3.70亿元，收入占比分别为68.9%、61.5%、72.2%。</p>
+<p>与此同时，乐欣户外在中国内地市场的收入占比逐年提升，2022年至2024年分别实现收入1亿元、9837.4万元、8268.2万元，收入占比分别为11%、15.8%、16.2%。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,568" src="https://img.36krcdn.com/hsossms/20241120/v2_d8be46d5ca884a4ea886cdbb2841fef5@5888275_oswg61439oswg1080oswg568_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">乐欣户外基于服务和产品交付地点按地区划分的收入明细。来源：乐欣户外招股书截图</p>
+<p>在网络上，钓鱼与茅台、始祖鸟有中年男性消费“三宝”之称，不过，单就钓鱼来说，近两年呈现消费人群年轻化趋势。</p>
+<p>据中国体育报2024年4月援引中国钓鱼协会的不完全统计，目前，中国大约有1.4亿钓鱼者（每年至少参加4次钓鱼活动），其中25岁至44岁的中青年已经成为钓鱼的主力军，占比46%，24岁以下的钓鱼爱好者占22%。</p>
+<p>京东运动2023年发布的垂钓消费趋势显示，过去被视为“中老年休闲标配”的垂钓项目，近几年在年轻群体中悄然兴起，近4年间26岁以下的垂钓消费人群数量增长了4倍。</p>
+<p>“钓鱼活动的进入门槛低，且有很强的社交属性，故吸引了大量年轻人，在中国此趋势尤其明显。新参与者数目上升也带动了对钓鱼装备的需求增加。随着个人从新手进步为经验丰富的钓鱼人，其对钓鱼用具的需求也相应改变。欧美消费者对钓鱼用具的专业标准较高，而中国仍有庞大的市场有待开发。”乐欣户外在招股书中表示。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/FX8eM3o1QY5shoQP8XbPGg" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”</a>，作者：闫淑鑫，编辑：李晓萱，责编：常涛 罗琨，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044396331059849</guid><pubDate>Wed, 20 Nov 2024 15:37:00 +0800</pubDate></item><item><title>特朗普提名的商务部长，支持加密货币</title><link>https://36kr.com/p/3044400539044736</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>美国候任总统特朗普周二表示，他将提名华尔街资深金融人士卢特尼克(Howard Lutnick)担任美国商务部长。</p>
+</blockquote>
+<p>美国候任总统特朗普(Donald Trump)周二表示，<strong>他将提名华尔街资深金融人士卢特尼克(Howard Lutnick)担任美国下任商务部长，</strong>此举将提拔这位美国金融界最积极的特朗普支持者之一担任新政府的重要职位，并负责监督新政府激进的贸易议程。</p>
+<p>这一提名将使卢特尼克负责一个庞大的政府机构——商务部。该部门是美国政府中主管面最宽、规模最大的政府机构，也是承担经济、工业、贸易管理职责的重要部门，将参与资助新的计算机芯片工厂、实施贸易限制、发布经济数据，乃至监测天气(美国国家海洋和大气管理局也归属商务部)。</p>
+<p>在商务部长这一职位上，与首席执行官和广大商界的联系也至关重要。</p>
+<p class="image-wrapper"><img data-img-size-val="513,291" src="https://img.36krcdn.com/hsossms/20241120/v2_83d5bedbc2fd40f2b73d1380b39e625d@5888275_oswg188674oswg513oswg291_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>值得一提的是，在宣布将提名卢特尼克为商务部长的声明中，特朗普特别暗示卢特尼克将对其贸易议程拥有广泛权力，并宣称卢特尼克将对美国贸易代表办公室“直接负责”。</strong></p>
+<p>美国贸易代表办公室目前是独立于商务部的机构，也历来都是内阁级别的职位，直接向总统汇报。<strong>由此可见，特朗普对于卢特尼克处理贸易问题的能力是颇为信任的，也颇为乐于给与其更多权力，这或许也表明两人在许多经贸政策上看法具有相契合之处。</strong></p>
+<p>据悉，近几个月来，卢特尼克已成为了特朗普的亲密盟友。作为这位候任总统过渡团队的联合主席，卢特尼克大部分时间都待在特朗普位于佛罗里达州的私人俱乐部海湖庄园，与特朗普幕僚和盟友们一同仔细研究其政府职位的候选人名单。</p>
+<p>在获得商务部长的提名之前，卢特尼克还曾经是美国财政部长的热门人选——包括马斯克在内的盟友就曾对外表示支持卢特尼克担任财政部长。马斯克曾称卢特尼克将是一位“真正推动变革”的财政部长，而另一位主要竞争者贝森特(Scott Bessent)则被马斯克称为“一切照旧的选择”。不过，随着与贝森特之间的紧张关系加剧，卢特尼克此后不再被特朗普视为财长职位的首选。</p>
+<p>但此番“东边不亮西边亮”，卢特尼克仍赢得了商务部长的提名，似乎依然可显示特朗普对卢特尼克其人的重视。那么，卢特尼克究竟是何许人也呢？</p>
+<h2><strong>卢特尼克身上标签：知名华尔街大亨、数百下属曾丧生911</strong></h2>
+<p><strong>卢特尼克身上最显著的标签，无疑仍是其作为华尔街大亨的身份。这位现年63岁的亿万富翁是金融服务公司Cantor Fitzgerald的首席执行官，他也是特朗普身后最主要的竞选捐助者之一。</strong></p>
+<p>在整个总统竞选期间，卢特尼克经常出现在美国有线电视新闻中，并赞扬了特朗普的经济愿景。“终于有人来保护美国工人了，”他在9月接受采访时表示，“唐纳德·特朗普将保护美国工人。”</p>
+<p>据悉，卢特尼克与特朗普已相识了数十年。他们早年在纽约的一场活动中偶遇后成为了朋友。卢特尼克是一名注册共和党人，最初曾向两党捐款。但近年来，他与特朗普的关系越来越亲密；两人会相约一起打高尔夫球。他帮助特朗普在2020年大选中筹集资金，大约一年前，特朗普打电话给他，请求他再度帮助他竞选。</p>
+<p>今年夏末，特朗普竞选团队宣布，卢特尼克将与前小企业管理局局长琳达·麦克马洪 (Linda McMahon)、特朗普的竞选搭档参议员万斯(JD Vance) 以及他的两个大儿子小唐纳德·特朗普(Donald Trump Jr.) 和埃里克·特朗普(Eric Trump) ，一起担任其过渡团队的联合主席。</p>
+<p>随着过渡期的加速，卢特尼克在纽约和佛罗里达两地奔波，并在选举之夜与特朗普及其亲密助手一起在海湖庄园度过。自大选以来，他几乎每天都陪在特朗普身边，是负责就内阁部长提名做出最终决定的紧密顾问团队的一员。</p>
+<p>在卢特尼克人生履历中，一个最具标志性的事件是，卢特尼克的兄弟加里·卢特尼克和当初960名Cantor Fitzgerald员工中的658人，在2001年9月11日针对世贸中心的恐怖袭击事件中丧生。当天，该公司失去了三分之二的员工。卢特尼克目前也是纽约市9·11纪念博物馆董事会的成员。</p>
+<p>卢特尼克当时没有上班，因为他要送儿子去上幼儿园。在911袭击发生后的几年里，卢特尼克一直在重建公司，并雇用了数千名员工。特朗普周二宣布的商务部提名中提到了卢特尼克的这一经历——称他是“面对无法言喻的悲剧时坚韧不拔的化身”。</p>
+<h2><strong>力主关税</strong></h2>
+<p><strong>在许多经济政策方面，卢特尼克与特朗普的言论高度一致，最明显的是——他是特朗普关税计划的主要支持者。</strong></p>
+<p>特朗普在今年竞选期间已多番提议对中国商品征收60%的关税，并对美国进口的其他所有商品征收最高20%的关税。在竞选期间，特朗普将进口关税描绘成一种谈判工具，以达成更好的贸易条件，同时也将之视作一种创造收入以资助其他领域减税的方式。</p>
+<p>作为征收广泛关税的倡导者，卢特尼克在9月接受采访时全力支持了特朗普的关税计划。“关税是总统可以使用的一项了不起的工具——我们需要保护美国工人，”他说。</p>
+<p><strong>“美国什么时候伟大过？(19/20)世纪之交，我们的经济一片繁荣！而那是125年前的事了，”卢特尼克在10月底纽约的一场竞选活动中对人群表示，“我们当时没有所得税。我们只有关税。”</strong></p>
+<p>卢特尼克还表示，在特朗普的领导下，苹果和特斯拉等美国巨头的企业税将提高，这一举措适用于所有大公司。</p>
+<p>目前，美国主流经济学家仍普遍对关税持怀疑态度，认为关税是政府筹集资金和促进繁荣的一种极其低效的方式，其成本最终也将落在美国消费者的头上。但特朗普的核心团队似乎始终并不这样认为。</p>
+<h2><strong>加密货币市场的福音？</strong></h2>
+<p><strong>除了力挺关税外，卢特尼克还是加密货币的坚定支持者。</strong></p>
+<p>卢特尼克旗下公司Cantor Fitzgerald管理着Tether Holdings的储备，后者以发行价值1180亿美元的USDT稳定币而闻名，这是交易量最大的稳定币。</p>
+<p>Paradigm副总裁Alexander Grieve表示，卢特尼克的加入对加密行业意义重大。特朗普也承诺将终止对美国加密行业的“非法且不美国化”的打压。</p>
+<p><strong>卢特尼克在今年早些时候举行的一次比特币会议上曾表示，“比特币就像黄金一样，应该在世界各地自由交易。</strong>作为世界上最大的批发商，我们将竭尽全力使其成为现实。比特币在世界各地的交易都应该与黄金一样，没有例外，没有限制。”</p>
+<p>特朗普本人目前也对加密货币持支持态度——从5月份宣布竞选活动将开始接受加密货币捐款，作为在选举日之前建立所谓 “加密货币军队 ”努力的一部分。今年早些时候，他还与家族成员一起推出了一个名为World Liberty Financial的加密货币平台。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/hBY2nR13Gt38WxjUPQE1Zw" rel="noopener noreferrer nofollow" target="_blank">“元宇宙NEWS”</a>，作者：潇湘，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044400539044736</guid><pubDate>Wed, 20 Nov 2024 15:37:00 +0800</pubDate></item><item><title>最大的 AI Agent 生态系统来了，微软推出适配 1800 种大模型的智能体，迈入自己的 Agent 时代</title><link>https://36kr.com/p/3044404292488072</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>当地时间 11 月 19 日，微软在芝加哥举行的 Ignite 大会上发布了大量云和人工智能服务更新。这家科技巨头展示了其 Microsoft 365 Copilot 平台的多项改进。</p>
+<p>此外，在会上，微软还重点说明了其在人工智能领域的客户增长。微软首席通讯官弗兰克·肖在一份声明中指出，“<strong>财富 500 强中近 70% 的公司现在都在使用 Microsoft 365 Copilot</strong>。”微软与其大型科技竞争对手一样，正在投入数十亿美元来扩展其人工智能能力，华尔街渴望看到这些投资获得回报。</p>
+<p>而在本次会议上，最最值得注意的要属微软悄悄建立起一个超级 AI 智能体生态，规模之大让人难以忽视。</p>
+<p>在 Ignite 大会上，微软公布了最大的企业 AI 智能体生态的发展状况。微软称，自推出以来，该生态联盟已有超过 10 万家组织通过其 Copilot Studio 创建或编辑过 AI 智能体——这一重大里程碑，也让微软在 AI 智能体这个最受关注且令人兴奋的企业技术领域当中身处市场领先地位。</p>
+<p>微软公司负责智能体发展愿景的高管 Charles Lamanna 在采访中表示，“智能体生态的发展速度比我们想象中要快得多，也比我们以往发布过的任何其他前沿技术都要更快。这项业务每个季度几乎都在实现倍增。”</p>
+<p>随着微软大幅扩展其智能体业务，企业客户的快速采用也随之而来。在 Ignite 大会上，微软公司宣布将<strong>允许企业通过这些智能体随意挑选 Azure 目录所提供的 1800 种大语言模型（LLM）</strong>——这无疑也是微软摆脱对于 OpenAI 模型全面依赖的一项重要举措。软件巨头还推出了能够独立运作的自主智能体，它们可以检测事件并在最低程度的人为干预之下协调复杂的工作流程。</p>
+<p>从严格定义上讲，所谓 AI 智能体就是能够依托生成式 AI 推理并执行特定业务任务的软件。这些智能体如今正成为企业自动化和生产力提升领域的强大工具。微软的平台使得组织能够针对客户服务、复杂业务流程自动化等各类用例场景构建智能体，同时保持企业级安全性和治理水平不受影响。</p>
+<h2>为企业级应用而生</h2>
+<p>微软在 AI 智能体领域的早期领先地位，源自其对于常在 AI 炒作周期中被忽视的企业切实需求的高度关注。尽管新型自主智能体和大语言模型灵活性等话题长期占据 Ignite 关注热榜，但微软公司真正的优势更多体现在其坚实的企业基础设施当中。</p>
+<p>该平台集成了 1400 多种企业系统和数据源，范围从 SAP 到 ServiceNow、再到 SQL 数据库。这种广泛的连接性使得组织能够轻松建立起可直接访问并处理其现有 IT 环境内数据的智能体。企业除了选择从头开始构建自定义智能体之外，微软还提供十种专门面向销售、服务、财务、供应链等核心业务职能的预构建自主智能体，借此加快常见企业用例的推进速度。</p>
+<p>微软方面并没有公布哪种智能体类型在客户群体当中最受欢迎，但 Lamanna 表示，除了针对 IT 部门特定核心任务构建的应用程序之外，还有第二类更强调自下而上的应用形式。员工可以创建 Copilot 智能体来与团队或其他合作伙伴共享文档或者演示文稿，而其他人则可据此参与内容交互并提出相关问题。</p>
+<p>以往，安全和治理功能大多会在 AI 部署完成之后才被纳入考量，但如今这两大要素已被内置在微软的核心架构当中。该平台的控制系统将确保智能体始终运行在企业权限与数据治理框架之内。</p>
+<p>Lamanna 具体解释道，“我们认为智能体将无处不在。因为每当出现一种能够将以往不可能的事情变为可能时，人们必然会惊讶于它的效果并最终加以广泛运用。”他还将 AI 智能体与互联网进行了比较，表示当初互联网的覆盖面就从浏览器一路扩展至操作系统，最终在根本上改变了客户端 - 服务器架构。</p>
+<p>在 Lamanna 看来，大语言模型取得的重大突破让软件具备了理解非结构化内容（包括语言、视频或者音频）以及初步进行逻辑推理的能力，可以根据这些数据得出结论或者判断。“在这种能力的基础之上，浏览器、文字处理器、核心操作系统体验乃至销售流程与客户支持的实施方式，都必将迎来一波大洗牌……在我看来，随着各类智能体和 AI 功能的全面普及，<strong>计算堆栈中的每个部分都将有一些组件迎来重新设计。</strong>”</p>
+<p>早期采用者们也普遍看到了成果。麦肯锡使用自动路由智能体成功将其项目接收工作流程从原本的 20 天缩短到仅需 2 天。Pets at Home 在不到两周时间之内部署了防欺诈智能体，每年节约下数百万美元。微软方面还透露，目前采用 Copilot Studio 的组织包括 Nsure、麦肯锡、标准银行、汤森路透、维珍金融、高伟绅律师事务所以及瑞士苏黎世。</p>
+<h2>Agent 网格：让 AI 智能体间的协作更简单</h2>
+<p>微软战略的核心，正是 Lamanna 所说的“智能体网格”——这是一套互联系统，各 AI 智能体间通过相互协作来解决复杂问题。各智能体并非孤立运作，而可以在整个企业之内无缝传递任务、消息和知识。</p>
+<p>到目前为止，Copilot Studio 所关联的还仍然是通过聊天触发的 AI 智能体，但微软正努力把操作类型扩大到更广泛的区间。设想一下企业在实现智能体间无缝协作后会如何：销售智能体可要求库存智能体检查库存情况，而后通知客户服务智能体为客户提供更新信息。这套架构的特点包括：</p>
+<ul>
+<li>自主智能体，无需人工监督即可检测事件并触发操作；</li>
+<li>建立起能够协调多个专业智能体的业务流程层；</li>
+<li>提供实时监控工具，为智能体工作流程提供良好透明度。</li>
+</ul>
+<p>微软研究部门最近发布了基于该公司 Autogen 框架的 Magnetic-One 系统。这套系统建立起一套复杂的智能体层次结构：由管理智能体在“外循环”中维护任务清单，而专业智能体在“内循环”中负责工作执行。这套架构有望很快采用微软的 OmniParser 等工具，由智能体解释各类 UI 元素，由此展现微软在通过智能体操作计算机方面掌握的领先技术储备——同时也是在与 Anthropic 和谷歌正在开发的功能正面竞争。微软公司表示正努力将这项研究成果投入生产，但没有具体说明相关产品将以何种形式或者何时投放市场。</p>
+<p class="image-wrapper"><img data-img-size-val="1070,854" src="https://img.36krcdn.com/hsossms/20241120/v2_8b8786849a6146f8a83bfa379299a97a@5888275_oswg210917oswg1070oswg854_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>微软研究院的 Magentic-One 多智能体系统强调通过内、外两套循环来解决开放 Web 和基于文件的操作任务。</p>
+<p>微软的方案帮助企业客户解决了一项关键挑战：如何在保持控制的同时，将智能体规模从数百个扩展至数百万个。该平台使得企业能够借助其编排功能协调多个专业智能体，这种方法明显也更符合各行业对于多智能体系统的依赖和广泛应用趋势。</p>
+<p>该平台的计费模式也反映出这种以企业为先的定位理念。与大多数 AI 提供商按 token 计费的思路不同，微软 Copilot Studio 的定价基于实际交换的消息数量——即强调业务成果，而非原始计算量。Lamanna 解释称，如今的企业客户不再纠结于哪种模型最好，更多要求提供具备现实商业价值的用例，“这代表着市场正在发生显著转变。”</p>
+<h2>企业 AI 智能体竞争加剧</h2>
+<p>虽然其他科技巨头也都在大力投资 AI 智能体，但微软将传统企业功能与广泛集成相结合使其获得了早期优势。Salesforce 和 ServiceNow 等竞争对手已经发布了自己的 AI 智能体平台，例如 Agentforce（号称已经建立起上万种智能体）和 ServiceNow Agents。但这些产品相对较新，缺乏微软广阔且稳固的企业覆盖范围：长久以来，全球数亿企业员工都在使用微软打造的生产力套件。</p>
+<p>此外，各竞争对手的战略思路也各有不同。OpenAI 专注于开放 API 直接访问，但尚未建立起企业 AI 智能体部署框架。但其最近发布的 o1 预览模型展现出了卓越的推理能力，有望在未来支持智能程度更高的 AI 智能体。而 Crew 等新晋厂商则提供实验性智能体框架，但缺乏企业级应用规模。LangChain 的模块化框架在开发者群体中仍然广受欢迎，但其更注重实验而非企业级部署。亚马逊云科技通过 SageMaker 等平台保持以开发人员为中心的方法；谷歌的 AI 平台在特定垂直领域则表现出色，只是缺乏一套适合企业广泛采用的统一智能体框架。</p>
+<p>相比之下，微软将企业安全、低代码工具、预构建模板以及面向开发人员的专业代码 SDK 结合起来，使其成为面向不同团队的更具包容性的选项。软件巨头还花费大量时间努力整合旗下各种应用程序和分析数据库，以确保 AI 智能体可以本地调用任何企业数据，消除出于检索增强生成（RAG）需求而单独调用数据库的繁琐流程。</p>
+<p>当然，AI 智能体技术目前仍处于起步阶段。大语言模型仍会产生幻觉，必须对基于这些模型的 AI 智能体保持谨慎的部署和管理态度，以避免陷入无限循环或者造成不必要的成本。部分客户也对 Copilot 在定价和实践应用层面的挑战表达了担忧。</p>
+<p>这部分市场也有可能长期各自为战。财富五百强企业中有很大一部分往往更倾向于选择多供应商方法，例如采用微软的 Copilot 智能体来提高员工工作效率，同时针对敏感应用场景选择其他框架。</p>
+<h2>得 AI Agent 者，得天下？</h2>
+<p>虽然微软目前在企业 AI 智能体部署方面处于领先地位，但这项技术仍处于早期发展阶段。微软方面的优势并不在于任何单一功能，而在于其全面的效能实现方法：高度关注企业级基础设施、广泛集成以及业务成果本身——而非原始 AI 功能。</p>
+<p>微软能否保住这份领先地位，无疑要看新一年中其解决方案的市场表现。竞争对手们正争相增强自家产品，企业客户也开始从试验阶段转向全面部署。可以想见，AI 智能体正在跨过炒作周期，进入企业 IT 架构的现实应用——而这段转型期也必然带来各种复杂因素与严苛挑战。</p>
+<p>对于技术领导者来说，现在正是评估 AI 智能体如何改变固有工作流程的最佳时机。从自动执行重复任务到实现新的协作模式，大家应当于小处入手、关注可量化结果，并优先考虑使用预构建智能体来加快这段变革旅程。相信谁能在这场智能体驱动型业务的转型浪潮中占得先机，谁就能在下一阶段的市场竞争中建立优势。</p>
+<p><strong>参考链接：</strong></p>
+<p>https://venturebeat.com/ai/microsoft-quietly-assembles-the-largest-ai-agent-ecosystem-and-no-one-else-is-close/</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/xe0e0Sas6XdIC09AAmMwTw" rel="noopener noreferrer nofollow" target="_blank">“AI前线”</a>，作者：核子可乐、冬梅 ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044404292488072</guid><pubDate>Wed, 20 Nov 2024 15:37:00 +0800</pubDate></item><item><title>增长消失后，外资美妆们不爱推新了</title><link>https://36kr.com/p/3044392875395717</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>整理完大促期间的所有包裹后，我们的一位美妆爱好者朋友发出了感叹——她一顿算钱、一顿和人拼单，到手的外资美妆产品还是一个样，和今年夏天以及去年买的别无二致，她估计明年再买，也还是这个样子。</p>
+<p>最近一组数据正好印证了这位朋友的感受。</p>
+<p><strong>今年1-10月，国际美妆个护排名靠前的十大集团，在中国的新品备案数量同比下跌了14.6%，其中资生堂的新品备案数量更是下滑了41%。</strong>从品类看，护肤、彩妆、洗护三大品类分别下滑了23.47%、8.37%、13.88%。在熙熙攘攘的美妆市场，10大集团里只有宝洁、花王和爱茉莉太平洋的新品备案还保持着增长。</p>
+<p class="image-wrapper"><img data-img-size-val="760,174" src="https://img.36krcdn.com/hsossms/20241120/v2_eb6f67e0869c46d080ade09f68022595@5888275_oswg51368oswg760oswg174_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">数据来源：《化妆品观察》</p>
+<p>按照传统打法，美妆企业会用经典产品来巩固基本面，用新品主打增长，每年也会有新品上市、老品升级的规划，这些还会被纳入企业重要的KPI考核中。而根据相关规定，美妆企业无论是推出全新产品，还是对既有产品的配方做出基于主要成分调整的重大变更，都需要做新品注册或备案。</p>
+<p><strong>今年新品备案的数量下降，意味着这些企业将在未来一段时间内暂缓推新。</strong></p>
+<p>暂缓推新首当其冲的原因还是业绩。</p>
+<p>今年第三季度，雅诗兰黛在亚太区的销售额同比下滑11%到9.4亿美元，运营利润同比下滑54%到6300万美元。作为欧莱雅在全球所有区域中唯一营收下滑的那个，其中国市场所在的北亚区域继Q2营收下滑了2.4%后，Q3又同比下滑了4.4%到19.6亿欧元。受到核污水的持续影响，资生堂Q3在中国的同店销售额同比下滑了13%，前九个月同比下滑8%。宝洁Q3在大中华区的有机同比销售额则下降了15%。</p>
+<p>在公司当过牛马的都知道，一次次表现不好，不但会在领导那儿渐渐失去信赖和耐心，最直接的影响就是批预算会越来越不爽快。对推新品来说，就意味着会卡研发和营销推广的预算。在外资美妆的成本架构中，营销成本往往占到了30%以上，如果是在竞争本就激烈的中国市场推新品，这笔预算只会水涨船高。营收和利润下降，直接影响了下一波推新预算的多少。</p>
+<p>暂缓推新也可能是外资美妆主动的保守选择。</p>
+<p>美妆行业资深评论人白云虎向消费巴士分析，美妆企业都会基于自身过往情况和行业环境，制定每年的推新计划。当行情不好、业绩受冲击时，有的企业会通过加速推新来拉一波冲动消费，有的企业则会主动暂缓新品开发和产品迭代。<strong>当国内美妆市场一时间供给过剩、竞争过于激烈时，与其多做多错，不如暂时按兵不动，</strong>它们可能会先让自己稳下来，观望一段时间后再采取下一步行动。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,732" src="https://img.36krcdn.com/hsossms/20241120/v2_0723dd59246342dcac8f2daec5edaab6@5888275_oswg164306oswg1080oswg732_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">三大头部美妆品牌的天猫“新品”页面。</p>
+<p>以上种种，最终让外资美妆给人了一种毫无新意的印象。而如果把外资看成是在推新上反复思量、流程考究的代表，国内这几年最“擅长创新”、最爱玩花活儿的白牌们，最近也消停了下来——<strong>不是白牌不再推新品，而是这些白牌自己的地位正岌岌可危。</strong></p>
+<p>今年双11，最擅长从抖音平台杀出血路的白牌们集体隐身了。在抖音双11美妆排行榜的Top 20中，只剩下DCEDPORT一个白牌位列18，其他位置全被外资和国货美妆头部拿下。</p>
+<p>最近还有一则消息是，曾创造了“白牌神话”的公司麦凯莱迎来了破产清算的命运。它的产品存货、样品、办公座椅和机器设备已经被放到了阿里平台上准备强制拍卖。而麦凯莱旗下的漱口水邓特艾克曾在2020年上半年录得了超160%的收入增长，旗下另一品牌肌先知的2022的GMV则达到过8.25亿元，位列当年抖音美妆GMV的第12名。</p>
+<p><strong>美妆白牌陨落倒不是因为它们推新太少，反而是推新太多了。</strong></p>
+<p>在纯粹砸钱玩流量的规则里，这些白牌需要将70%-80%的费用投入到渠道和营销推广上，留给产品本身的成本往往只有10%甚至更低。当消费者的新鲜感过去，他们最终会回到对产品品质和品牌价值的考量上。这些白牌们，则陷入了和其他白牌一轮又一轮、成本越来越高的流量竞争中。</p>
+<p>针对抖音美妆双11的“大牌归位”，白云虎的另一层观察是，当抖音渠道的增长路径被验证后，国际和本土头部品牌都加大了在其上面的投入，尽管不能直接和白牌拼价格，却能凭借品牌价值，以及大量赠品营造出的性价比，将白牌挤下桌。</p>
+<p>于是，不管是在头部外资品牌中，还是在本土草根白牌里，美妆的新意就这么一点点消失了。它们有的始于劣币驱逐良币，有的始于良币反制劣币，一切的根源，则是市场的竞争和饱和程度，以及想让产品被消费者接受所付出的营销推广成本，全都超出了常态。</p>
+<p><strong>已经有品牌靠离开中国市场来以退为进。</strong></p>
+<p>2023年3月，美国平价彩妆品牌e.l.f.宣布自己因全球策略调整和客观因素影响退出中国市场。但离开了这个大多数人眼里最大的增长机会后，e.l.f连续6个季度实现了销售额和市场份额的增长，历史增长轨迹则已经保持了23个季度。</p>
+<p>最新数据显示，e.l.f Beauty在今年第三季度的净销售额同比增长了40%到3.01亿元，毛利率增长了40个基点到71%，它还以10.5%的市场份额，成为了美国的第二大彩妆品牌，业绩并没有受到退出中国的影响。</p>
+<p>当一个市场里，一众老选手、新选手、高端选手和平价选手，推新行不通、死磕也行不通的时候，这个市场，真的就是个火坑了。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ox2hqCsvIxY4MjRUC3Airg" rel="noopener noreferrer nofollow" target="_blank">“消费巴士”</a>，作者：消费巴士，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044392875395717</guid><pubDate>Wed, 20 Nov 2024 15:38:00 +0800</pubDate></item><item><title>交出史上最强业绩，小鹏稳了？</title><link>https://36kr.com/p/3044394135423872</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>交出了史上最强季报，但在财报会上，小鹏汽车董事长何小鹏的语气里没有太多兴奋，相反有些平静。这段时间，凭借MONA M03、P7+两个爆款车型，小鹏终于不丧了。但随着行业进入下一轮淘汰赛，在跑赢对手前，小鹏还有许多关卡要过。</p>
+</blockquote>
+<h2><strong>卖车三个月，抵上前半年</strong></h2>
+<p>汽车圈里，两家“小”字辈企业的宣传口径是越来越像了。</p>
+<p>前两天，还没有把小米汽车从财报里拆分出来的小米集团，刚刚交出“史上最强业绩”。次日（11月19日），小鹏汽车也宣称，交出“史上最强”的第三季度财报。</p>
+<p>在当晚9时召开的Q3业绩电话会上，小鹏汽车董事长何小鹏的一句“危机往往是转机”，像是对第三季度的感悟。</p>
+<p>撑起小鹏信心的，是交付量和毛利的显著拉升。</p>
+<p>财报显示，小鹏汽车第三季度交付了约4.65万辆新车，环比增长54%，同比增长16%。每人Auto注意到，仅报告期内的短短三个月时间，该公司的新车交付量已接近今年整个上半年完成的5.2万辆的数字。</p>
+<p>另外，小鹏汽车第三季度营收约101亿元，毛利率达到15.3%，创下单季度历史新高。这也是其毛利率连续五个季度实现正增长。</p>
+<p class="image-wrapper"><img data-img-size-val="801,362" src="https://img.36krcdn.com/hsossms/20241120/v2_6eb322994bfd4e818da8b31ebd5b587f@5888275_oswg29865oswg801oswg362_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">小鹏汽车2024年前三季度毛利率。图 / 每人Auto</p>
+<p>据每人Auto观察，毛利率效果如此可观，离不开小鹏的技术变现，以及交付量的提升。</p>
+<p>先看技术变现收益。与大众合作产生的账目，已成为小鹏的经常性收入。海豚研投指出，“本季度除了基于G9平台收取的大众技术授权费，基于EEA技术架构技术授权费也开始在三季度确认，技术研发服务收入的毛利率更高（90%以上），导致毛利率端超预期。”</p>
+<p>据每人Auto了解，大众与小鹏合作主体主要是大众旗下的软件公司CARIAD中国，CEA电子电气开发是目前CARIAD的核心项目。小鹏和大众在这块的合作相当深入，不仅安排了各自员工到对方的驻地办公，大众内部员工还称该项目为“新世界”，象征着大众汽车集团的未来。</p>
+<p>另外，在交付量的提升上，行业人士普遍认为，最大的功臣莫过于在8月27日正式上市的“智能纯电掀背轿跑”小鹏MONA M03了。</p>
+<p>据小鹏汽车官方数据，2024年7月和8月，公司旗下在售车型有X9、G9、G6、P7i、P5。那两个月，小鹏的月交付数据分别不过1.11万辆和1.4万辆。</p>
+<p>等MONA M03上市后，旗下3款车型经过了9月份首个完整交付期，助推该公司当月交付量突破2.14万辆。</p>
+<p>据悉，主打性价比、起售价在11.98万元的MONA M03，上市仅22天，量产下线数量超1万辆，创造了新势力新车最快万辆下线纪录。该车上市两个月交付连续超过1万辆。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241120/v2_932571f005874b35a7fc4592b258456e@5888275_oswg133826oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">2024广州车展，小鹏汽车发布会。图 / 小鹏汽车官方</p>
+<p>不过，作为小鹏汽车首款定位于10万元级市场的车型，MONA M03的价格下移也带动单车营收下降。</p>
+<p>第三季度，小鹏交付新车约4.65万辆，实现汽车销售收入约88亿元，对应单车收入约18.92万元，而去年同期这一数据为21.33万元。</p>
+<p>MONA M03火爆的“代价”是让出了部分利润。虽然整个公司的毛利率创下新高，但综合之下，小鹏汽车第三季度的汽车毛利率为8.6%，较上个季度略提升2.2个百分点。</p>
+<p>此外，MONA M03的火爆也让小鹏的产能受到挑战。</p>
+<p>每人Auto接触到的几位准备在今年买车的用户，只要预算在10万元上下，他们几乎都会将MONA M03纳入备选。</p>
+<p>一位来自天津的消费者就被M03星瀚米配色的颜值打动，打算趁着当地还有“以旧换新”的补贴，在今年年底前换车。但咨询了多家门店后，她均被告知没货了。</p>
+<p>据每人Auto了解，目前这款车指引交付时间至少是9周以上，这意味着消费者最快也要在2025年年初才能提车，相当劝退那些想要赶上“以旧换新”政策的消费者。</p>
+<p>面对投资机构对“以旧换新”政策在明年可能会发生变化的担忧，小鹏高管在三季度财报会上坦言，无法预测政府对汽车行业补贴政策的持续性，但他们相信下单的各位用户对交货时间有相当合理的预期，“很多客户并不指望会在今年12月之前提车”，并且他们还相信用户不会因为补贴政策的变化而改变购买决定。</p>
+<p>据悉，今年10月，为稳住消费者耐心，小鹏汽车推出了积分补偿政策：若超过预计交付日期，将按照积分给予相应补偿，为1500分/天，换算下来为150元/天。</p>
+<p>何小鹏也表示，MONA M03已扩产了3次，目前M03和小鹏P7+都已开启双班生产，肇庆工厂年产能能达到20万～30万辆，小鹏还在扩大供应商的产能，推进平台统一化以及跨多个平台和车型的零部件共享，提升生产效率。</p>
+<h2><strong>盈利仍是第一要务</strong></h2>
+<p>销量提高了、毛利改善了，但是对比今年前两个季度，小鹏汽车的亏损也扩大了。2024年第三季度，小鹏汽车归母净利润为-18.1亿元，比上季度多亏了5.3亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="801,536" src="https://img.36krcdn.com/hsossms/20241120/v2_f4315e3dd8804d238b778bf2a358ffa7@5888275_oswg48749oswg801oswg536_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">小鹏汽车2024年前三季度主要财务数据。图 / 每人Auto</p>
+<p>在熟悉小鹏汽车的业内人士来看，小鹏在往一家AI公司上转变，但AI需要大量的算力训练，背后意味着高投入，是个十足的“吞金兽”。</p>
+<p>据悉，小鹏2024年规划AI年度研发费用35亿元。单在第三季度，小鹏研发开支就达到16.3亿元。</p>
+<p>由于尚未盈利，小鹏在花钱方面很谨慎。据小鹏汽车副董事长及联席总裁顾宏地介绍，公司第四季度研发投入将控制在20亿元内。</p>
+<p>而且这份谨慎还体现在门店和充电桩数量的扩张上。</p>
+<p>今年前三个季度，小鹏仅扩张了65家门店，充电站较上季度新增不足300台，其中包括200台超充。截至2024年9月30日，小鹏汽车销售网络达到639家门店；自营充电站网络扩展至1557座充电站，包括654座小鹏S4超快充站。</p>
+<p>跟蔚来铺设“加电县县通”，以及跟理想在年底前冲击2000座充电站相比，小鹏的扩张速度不算快。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,719" src="https://img.36krcdn.com/hsossms/20241120/v2_d695d64c462046339056e38ec72e0cd3@5888275_oswg79934oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">10月29日，小鹏P7+三电技术沟通会。图 / 小鹏汽车官方</p>
+<p>除了花钱仔细，小鹏在降低成本上也花了心思。2024年，何小鹏定下的公司整体成本降低目标是25%，多个单项领域还要超过这个目标，长期目标是毛利润在20%左右。</p>
+<p>小鹏的降本方式比较多样。上文提到过小鹏和大众的合作，通过联合采购计划，整合双方规模优势以及依托大众汽车集团的供应链能力。行业人士指出，联合采购，意味着不同厂商零部件选择相同的供应商，型号尽量统一，减少零件的开发，降低车企开发费用和成本。</p>
+<p>此外，小鹏也在通过技术变革，降低成本。此前，扶摇架构已有80%的零部件通用化率，将新车型研发周期缩短20%。而且X-EEA电子电气架构也可降低整车综合研发成本50%，将智能体验迭代周期缩短30%，OTA速率提升300%。</p>
+<p>但小鹏内部现在最关心的是今年11月上市的小鹏P7+。它也被视为小鹏通过技术变革，降低成本的案例。</p>
+<p>P7+定位为中大型轿车，官方指导售价18.68万元起，主要面向家庭用户，小鹏汽车在它身上首发了摒弃激光雷达的AI鹰眼视觉方案，意味着该公司在智能驾驶路线上跟特斯拉一样，都选择了纯视觉方案。</p>
+<p>小鹏汽车财务与会计副总裁吴佳铭表示，P7+去掉了高成本的激光雷达，主要通过自动驾驶硬件和整车BOM实现降本。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241120/v2_669f1c07ab7e4af4a87e2b1a6ad2e18e@5888275_oswg187723oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">2024广州车展，小鹏汽车展台。图 / 小鹏汽车官方</p>
+<p>据悉，该车在11月的交付量已破3万辆。该车上市当晚，小鹏在美股的股价大涨25%。不过，一些行业人士告诉过每人Auto，纯视觉仍无法覆盖视觉盲点，车辆行驶中会有不可控的感觉，激光雷达对于车型的辅助功能仍然必不可少。</p>
+<p>但何小鹏在电话会上表示，全系标配高阶智驾是用户购买P7+的核心理由。小鹏P7+将加速豪华从“配置豪华”向“科技豪华”转变。据悉，小鹏P7+的12月交付量将超万台。</p>
+<p>在公司方面看来，随着小鹏MONA M03上市即热销、P7+大定远超预期，小鹏汽车11月股价大涨，重回市值千亿俱乐部。</p>
+<p class="image-wrapper"><img data-img-size-val="800,1392" src="https://img.36krcdn.com/hsossms/20241120/v2_e9323b4f79aa440a9ff0446c54e0f959@5888275_oswg95594oswg800oswg1392_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">小鹏汽车近四年主要财务数据与毛利率。图 / 每人Auto</p>
+<p>目前，小鹏汽车现金及等价物储备为357.5亿元。在财报会上，小鹏汽车高管预计，四季度现金流将会大幅改善，下半年自由现金流转正，在手现金预计将回到400亿元水平。</p>
+<p>小鹏方面预计，第四季度交付量将达到87000至91000辆，营收目标为153亿元至162亿元。另外顾宏地表示，随着小鹏新车推出，以及多项降本措施实施，明年底小鹏汽车将实现收支平衡。</p>
+<h2><strong>迎接更残酷的淘汰赛</strong></h2>
+<p>11月的车市，喧哗和落寞并存，一些品牌缺席了广州车展，一些进行了内部整合。</p>
+<p>记得某头部车企车型规划负责人曾说过，今年大部分车企销量增加，都受益于“以旧换新”政策的带动。但汽车从业者们需要知道，技术竞争同质化，以及尚未迎来固态电池等突破性技术，注定未来两年的市场竞争会更残酷。</p>
+<p>乘联会最新数据显示，11月1日～10日，乘用车新能源车市场零售31万辆，同比增长70%，较上月同期增长10%，今年以来累计零售863.8万辆，同比增长41%。</p>
+<p>在三季度财报会上，何小鹏预计在2025年～2027年，中国汽车行业将进入淘汰赛阶段。一方面，中国新能源汽车渗透率有望大幅提升至85%甚至更高；另一方面，AI变革将推动市场份额进入下一阶段的整合。</p>
+<p>他认为，小鹏汽车具备领先的AI自驾能力和通过深入的全栈自研实现极致的成本控制能力，将是从激烈竞争中脱颖而出的关键优势之一。目前MONA M03智能驾驶门槛降至15万级别（约2万美金）。</p>
+<p>在行业人士看来，除了坚持智驾路线，小鹏应对淘汰赛的打法已基本形成：供应链学大众，技术死磕特斯拉，产品线学比亚迪，营销学习华为、小米。</p>
+<p>在产品线上，小鹏汽车覆盖了多元车型矩阵。现有MONA 、P、G和X产品系列。其中，MONA主打15万元及以下区间；G为SUV系列，P为轿车系列，两者共同覆盖15万～35万元区间；X系列则主攻35万元以上的价格区间。</p>
+<p>2025年，小鹏汽车将进入强产品周期，计划推出至少4款新车，包含2款轿车和2款SUV，其中一款的动力形式为增程。另外，明年小鹏还将推出多个现有车型的改款车型。</p>
+<p>有小鹏汽车员工告诉每人Auto，小鹏现有车型上也在规划推出增程版。</p>
+<p>而且，在中国汽车加速“出海”进阶全球化的形势下，海外也成了车企淘汰赛的另一个战场。</p>
+<p>何小鹏在财报发布会上表示，第三季度海外销量环比增长70%，占公司销量的15%。小鹏海外销售网络，已拓展至30多个国家和超过110家门店。</p>
+<p>据悉，2024年，小鹏汽车已进入德国、英国、意大利、法国等多个欧洲国家，计划在法国落实35个销售网点。到2025年，该公司计划销售网络将扩展至北美以外超过90%的新能源车市场，门店超300家。</p>
+<p>顾宏地在财报会上提到，海外市场会是一个增长非常强劲的市场。与中国市场相比，海外市场的电气化进程仍处于早期阶段。</p>
+<p>在他看来，以公司目前在海外市场的覆盖以及市占率，希望到明年年底能够积极利用在海外市场看到的增长机遇。不过顾宏地也坦言，明年海外市场对公司销售额的贡献将与今年类似。</p>
+<p>回顾整个第三季度，按照何小鹏的说法，公司通过战略、产品、管理和组织执行全面的变革，补足营销、渠道、设计等方面的短板。而小鹏内部则用“在血海中游泳”来形容这段时间。面对下一轮淘汰赛，小鹏似乎也准备好要“游到海水变蓝”了。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/7rhLS1ARiIE4BQesMhi8WA" rel="noopener noreferrer nofollow" target="_blank">“每人Auto”</a>，作者：谢韫力，编辑：田晏林，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044394135423872</guid><pubDate>Wed, 20 Nov 2024 15:43:00 +0800</pubDate></item><item><title>星舰“第六飞”：未再现“筷子夹火箭”，特朗普现场观看</title><link>https://36kr.com/p/3044415197219458</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>马斯克旗下的SpaceX周二进行了第六次星舰（Starship）火箭的测试飞行，星舰成功抵达太空并绕地球飞行约半圈，但遗憾未能再现“筷子夹火箭”的“名场面”。</p>
+<p>当选总统特朗普亲自出席本次飞行测试，为马斯克站台。</p>
+<p>美国中部时间周二下午4点，星舰准时从SpaceX位于美国得克萨斯州的“星际基地”发射场（Starbase）发射升空。</p>
+<p>值得注意的是，SpaceX原计划在星舰与“超重型”（Super Heavy）助推器分离后，利用发射塔的机械臂回收助推器；但SpaceX在直播中表示，由于助推器未满足回收所需的“启动标准”，助推器最终溅落在墨西哥湾。</p>
+<p class="image-wrapper"><img data-img-size-val="668,218" src="https://img.36krcdn.com/hsossms/20241120/v2_3e4f8e054281494eb35380470ebcaceb@5888275_oswg84104oswg668oswg218_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>虽然助推器没有回到发射塔，但星舰的上级持续飞行了大约一个小时，实现了试飞的重要目标。</p>
+<p>在飞行大约35分钟后，SpaceX工程师首次在太空中重新点燃了星际飞船的一个发动机，这是该飞行器未来轨道飞行的关键一步。</p>
+<p>据媒体报道，与之前的每次测试飞行一样，SpaceX此次希望通过测试星舰的更多功能推动研发，包括在太空中重新点燃发动机以及在重返大气层时测试其隔热盾的性能。</p>
+<p>马斯克在社交媒体上分享了本次试飞的主要目标，包括在真空中重启Raptor发动机、白天着陆等。</p>
+<p class="image-wrapper"><img data-img-size-val="584,523" src="https://img.36krcdn.com/hsossms/20241120/v2_1fb59a7718f943529fda75729a5bd19d@5888275_oswg43714oswg584oswg523_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在这次飞行中，SpaceX在货舱中放置了一根毛绒香蕉，并故意没有在星舰底部贴上隔热瓦，这是为了测试次级热防护材料。这些材料旨在防止如果一些隔热瓦脱落时，热量会烧穿火箭的外壳。</p>
+<p>与之前的试飞一样，周二的飞行器并没有进入轨道，而是按照设计沿亚轨道飞行，最终与印度洋中部相撞。这样一来，如果出现任何问题，火箭仍会安全地溅落在水中。</p>
+<h2><strong>特朗普亲临现场</strong></h2>
+<p>据央视新闻报道，美国当选总统特朗普当日前往得克萨斯州，出席观看太空探索技术公司（SpaceX）重型运载火箭“星舰”的第6次试飞。</p>
+<p class="image-wrapper"><img data-img-size-val="695,461" src="https://img.36krcdn.com/hsossms/20241120/v2_e83957c1a0484314abacf3c147af36b2@5888275_oswg268034oswg695oswg461_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此前已有媒体分析指出，这是特朗普与马斯克关系亲密的又一迹象。</p>
+<p>马斯克曾透露，特朗普领导下的美国联邦航空管理局可以允许星舰进行亚轨道飞行，让乘客在半小时内绕地球飞行半个地球。</p>
+<p>马斯克还表示，SpaceX 计划于 2026 年向火星发射无人驾驶的星舰，以测试其着陆火星的能力，如果成功，人们可以在未来有机会登上飞船。</p>
+<h2><strong>迄今为止最高且推力最强的火箭</strong></h2>
+<p>此外，由于此次发射安排在晚上，这是星舰首次在白天完成溅落。</p>
+<p>自2023年4月以来，SpaceX已进行六次完整星舰火箭系统的太空飞行测试，并且发射频率稳步提高。上个月的第五次发射中，火箭超过20层楼高的助推器首次成功回收，场面颇为震撼。</p>
+<p class="image-wrapper"><img data-img-size-val="559,874" src="https://img.36krcdn.com/hsossms/20241120/v2_e03414606aa84e7a83e87611be2ceb37@5888275_oswg404642oswg559oswg874_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>在第五次飞行成功后，美国联邦航空管理局（FAA）确认SpaceX获准进行第六次飞行。</p>
+<p>然而，与之前的测试飞行一样，第五次发射也并非完全顺利。SpaceX管理层在马斯克发布于社交媒体的音频中透露，由于火箭子系统的一个时间问题，助推器差一点就未能成功回收。“我们差一秒就可能触发中止程序，导致火箭误认为自己状态不佳，指示它坠毁在塔旁，而不是试图降落在塔上，”音频中的一位未具名人士告诉马斯克。公司在其网站上表示，已对助推器进行了硬件升级，以提高冗余性和结构强度。</p>
+<p>星舰系统设计为完全可重复使用，目标是用这种全新的方式将货物和人员送入太空。分析认为，这枚火箭对于NASA的重返月球计划至关重要，作为NASA登月计划的一部分，SpaceX赢得了一份数十亿美元的合同，将星舰用作载人月球着陆器使用。</p>
+<p>星舰是迄今为止最高且推力最强的火箭。与“超重型”助推器结合后，星舰总高度约为121米，直径约9米。</p>
+<p>其中，“超重型”助推器高度约71米，其底部装有33台猛禽发动机（Raptor engines），总推力为1670万磅，约为NASA于2022年首次发射的SLS火箭推力的两倍（880万磅）。</p>
+<p class="image-wrapper"><img data-img-size-val="1024,621" src="https://img.36krcdn.com/hsossms/20241120/v2_9fe55ce9febb4557ab096ad30a0ca7f3@5888275_oswg1024288oswg1024oswg621_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>而星舰本体高度约50米，配备六台猛禽发动机，其中三台用于地球大气层内飞行，另外三台用于太空真空环境。星舰使用液氧和液态甲烷作为燃料，整个系统的发射需要超过1000万磅推进剂。</p>
+<p>本文不构成个人投资建议，不代表平台观点，市场有风险，投资需谨慎，请独立判断和决策。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/uvx93lYkBERpG3DPFO0Htg" rel="noopener noreferrer nofollow" target="_blank">“华尔街见闻”</a>，作者：赵雨荷，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044415197219458</guid><pubDate>Wed, 20 Nov 2024 15:51:00 +0800</pubDate></item><item><title>京东和淘天，重新做回自己</title><link>https://36kr.com/p/3044420806576768</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>双11刚落幕，京东阿里两大电商巨头便发布截至9月30日的季度报告。承接618和双11的一份业绩报告，是两大平台乃至整个电商生态走向的一份指引。</p>
+<p>先来看两大平台业绩及电商业务的数据表现。</p>
+<p>京东的各项数据指标均高于预期：</p>
+<ul>
+<li>京东集团2024年第三季度营收为2604亿元，同比增长5.1%；</li>
+<li>京东集团2024年第三季度经营利润为120亿元，同比增长29.5%；经营利润率为4.6%，2去年同期为3.8%；</li>
+<li>京东最大业务京东零售收入达到2249.9亿元，同比增长6.1%，不仅比二季度1.5%的增速明显，也比2023年整体增长表现更好。</li>
+</ul>
+<p>淘天似乎正在迈入高投入、低增长，重新找回节奏的周期：</p>
+<ul>
+<li>阿里巴巴营收2365.03亿元，同比增长5%；经调整EBITA同比下降5%，至人民币405.61亿元；</li>
+<li>淘天集团营收989.94亿元，同比增长1%；</li>
+<li>7月至9月，淘天订单量同比双位数增长，驱动线上GMV增长，88VIP会员数持续双位数增长至4600万，环比增长了500万。</li>
+</ul>
+<p>在面对抖音、拼多多等新的电商势力席卷之下，很长一段时间，京东和淘天都在拼命抢夺别人的饭碗。而今，消费下行、口袋缩紧，当电商大促时间被一再拉长，消费者的惊喜被不断消解，经历去年价格大乱斗后，京东和淘天将关注点重新聚焦回自身，找定位、拼长板，电商重回差异化竞争时代。</p>
+<p>从今年双11也可看出，京东的主战场依然在3C、家电领域，借着补贴政策抢占近五成市场份额；淘天在美妆、服饰领域的优势同样明显，市场占比均超过五成。价格战后绝非不要低价，京东把焦点转向供应链整合，淘天重新聚焦以中产为主体的会员人群。</p>
+<p>正如《晚点Latepost》今年七月报道，阿里管理团队达成共识：要聚焦战略，要有定力，要知道自己的长处和短板是什么。这句话或许也适用于京东。</p>
+<h2><strong>京东：低价的另一种可能性</strong></h2>
+<p>早期的京东，给人的印象一直是服务体验好、品牌商家为主，且产品定价略高。但今年，这种印象正被打破。随着京东在供应链能力上的增强，它正在用自营体系，构建白牌生态，深耕低价战略。</p>
+<p>在此次在财报电话会上，京东集团首席财务官单甦直接点出京东的增长原因：“季度内京东的电子产品及家电产品重拾增长势头”。</p>
+<h3><strong>低价，让业绩重回增长</strong></h3>
+<p>第三季度，京东3C家电零售收入大幅增长6.09%，但经营利润增长水位低于营收，为5.51%。家电类目直接影响下，京东零售的经营利润和去年同期的5.2%基本一致。</p>
+<p>第三季度京东3C家电类目重新获得增长，离不开“低价因素”，而这次的价格波动是由政策引发的。2024年8月至11月，京东上线了全国20多个地区的以旧换新补贴活动，全国超90%的绝大多数地区都能在京东实现家电以旧换新。据虎嗅报道，目前京东以旧换新涉及的品类已经扩大至200多个细分品类，甚至包括了健身器材、汽车。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,750" src="https://img.36krcdn.com/hsossms/20241120/v2_ab7a5f9802e848579856346f2c76a4cd@5888275_oswg755338oswg1000oswg750_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>家电3C类目的收入变化始终影响着京东零售业绩的走向，而零售又是京东最大头的现金业务。再往前一个季度，京东营收同比增速只有1.2%，京东当时解释称：电子产品及家用电器品类表现受到去年同期高基数的影响。该类目同比收入下降超过4%。</p>
+<p>预计3C家电类目的影响力，会持续到京东本年度第四季度财报，据《星图数据》统计，双11全平台销售额中3C家电占比最高，超过16%。京东双11家电领域销售额占全网44%，其中大家电销售额占比更是高达56.9%，厨卫电器占比超过36%，优势明显。双11的加持大概率会持续将京东业绩顶起。</p>
+<p>借3C家电大类的焕新热潮，京东重新在强势领域抢回主动权，但不得不考虑的是，补贴退坡后这种优势是否还能延续？届时若以平台大额补贴刺激消费，是否会对京东的利润水平产生影响？</p>
+<h3><strong>供应链白牌，保持低价能力</strong></h3>
+<p>当然京东也一直在日用百货领域发力，第二季度电话会上单甦就专门提到日用百货，尤其大商超品类的强势增长，并点出背后的底层逻辑：“我们通过供应链能力和有纪律的投入继续提升价格竞争力，而非依赖于补贴。”第三季度，一般商品营收增速在所有业务之首，日用百货品类连续三个季度保持高个位数营收增长，超市和服装品类都获得同比双位数增长。财报显示，京东第三季度日用百货商品收入820.5亿，同比增长8.0%。</p>
+<p>力推京喜自营扶持白牌工厂、重压采销直播间，是京东在日用百货类目的核心驱动力。</p>
+<p>今年9月，京东启动“厂货百亿补贴”计划，为白牌商品、工厂直供产品提供流量补贴、价格补贴和物流补贴。同时京东还以“全托管”、“类自营”的模式，统筹产业带低成本和工厂直供优势。据报道京喜自营将精心挑选1万家白牌国货工厂进行扶持，预计每家工厂将获得100万元的补贴。</p>
+<p>在京喜自营的“类自营”模式下，工厂只需按照平台要求生产商品、报价即可，后续营销、物流、销售环节完全由平台处理，商家也无需向平台缴纳佣金。事实上这是买手模式的变种，深入供应链最核心环节，给商家松绑，留出利润空间。对销售最后一公里的平台来说，无疑砍掉繁琐的中间环节，不损伤利润的前提下实现对商品的“硬折扣”。</p>
+<p>在接受媒体采访时，京东采销曾说自己更像一个工厂厂长，每天的工作就是看原料大盘价格、进车间、想办法优化成本、开新品，“京东自营采销得及时掌握上下游的动态。”</p>
+<p>早先京东试图提升3P业务（第三方商家入驻）的权重，尤其在刘强东计划里要把低价商品交给3P业务去做，京东赚取交易佣金和广告。但现在看来京东还是将业务重心转回自营，进货、卖货、赚取差价，这也是京东最擅长，前段时间刘强东给京东采销团队涨薪，今年双11采销直播订单量增长3.8倍。</p>
+<p>在全网电商平台争夺瓜分产业带白牌工厂的时段，京东没有走和抖音、拼多多相似的路径，后者更多是整合产业带商家入驻，用以流量分配机制调节商家经营。京东则以更“重”的操作对供应链强控制，掌握商品定价权。根据财报，京东供应链基础设施资产规模已达1610亿元。京东物流已运营超过1600个仓库和由云仓生态平台上第三方业主经营的超2000个云仓，仓储总管理面积超3200万平方米。</p>
+<p>京东超过1000万SKU自营商品的存货周转天数继续保持30天左右的优秀水平。同时靠采销走向前台的方式，京东也试图以另一种思路解决平台缺乏大主播，内容化进程不顺导致的流量缺失问题。</p>
+<h2><strong>淘天：锁定88VIP，发力中高端品牌</strong></h2>
+<p>淘宝天猫，则以另外一种叙事呈现在人们面前。</p>
+<p>早期的淘宝，给用户的最大印象是没有品牌的小商家充斥，商品价格也能做到比京东低上一档。但现在，它的88VIP会员已经成为最重要的用户阵地，而商家也逐渐过渡到中高端品牌上。</p>
+<h3><strong>88VIP权重提升</strong></h3>
+<p>淘天至少在现阶段收起“低价”表述，要回归优势领域。今年淘天高层明确发声：“每个平台都有其特点和强势品类，以及核心用户群体。因此，我们的选择是基于我们的核心用户群体，即88VIP会员，来确定他们在不同品类上的偏好。”</p>
+<p>88VIP会员是淘天运营的轴心。三季度会员数达到4600万，双11期间88VIP下单人数比去年同期增长超50%，88VIP年度合作品牌规模同比增长超300%，成为今年天猫双11品牌生意爆发新驱动。且88VIP续费率也很高，行业研报调查能达到83.3%。</p>
+<p>中高端品牌在双11再度跑起来，根据平台战报，千元以上羽绒服成交同比去年增长30%，千元以上雪地靴成交同比增长50%。价格带分布在1500—3000元的高梵首次进入服饰销售榜单......88VIP对中高端产品消费者的粘性、消费调动能力有目共睹。</p>
+<p>事实上大家一直探讨的「消费降级」表述并不完全准确，「消费分级」或许更能概括眼下的消费心理。锁定精准人群，提供定制化、差异化的服务是激发消费的关键。加上各平台活跃消费人数增长进入平台期，淘天在前半年就确定要通过提升体验来提高消费者留存、购买频次，最终赢得市场份额的增长。淘天要在不确定的时代抓住确定性。</p>
+<p>显然付费会员是衡量互联网平台用户粘性的最核心指标，淘天自然要花大力气落实策略。但88VIP、双11的火爆背后离不开淘天持续在营销层面的大手笔投入——这在一定程度也影响了阿里第三季度业绩的数字。</p>
+<p>三季度，阿里销售和市场费用同比增加70亿元，同比增长27%。营销费用在收入中的占比也由去年同期的11.3%提高到了13.7%。不仅如此，阿里高层在电话会上还明确表示预计未来几个季度也将继续保持较高水平的资本支出。因此淘天业务乃至整个阿里集团在利润端的承压还会持续一段时间，淘天进入用高投入换增长的阶段，这也是淘天重新找回业务重心的必经之路。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241120/v2_78de2d83052448d0a4cfef5b27995faf@5888275_oswg284897oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>用投入换增长</strong></h3>
+<p>淘天的业务重心，从业绩数据层面看是客户管理收入，也就是广告和佣金收入，在淘天收入占比稳定在70%左右。但第三季度该项收入仅增长2%。9月1日，淘天宣布按照确收GMV收取佣金，淘天要让第三方商家多花钱是明显趋势。首席财务官徐宏在电话会中便说：本季度收入增长是由淘天集团有节奏提升变现率所带动，当中包括基于GMV的服务费和商家采用我们的营销工具全站推广。</p>
+<p>双11前，淘宝“宝藏新品牌”业务负责人还组织线下交流，密集拜访、约谈数百家新锐品牌创始人、主理人，要给新品牌在淘宝搭建全流程的成长路径和辅助。可以预想，新品牌成长过程中必不可少地要在平台做大量营销投入。</p>
+<p>而从实际经营角度，淘天的业务重心放在了优化消费者体验上。松绑仅退款，推进“互联互通”。今年双11前淘天宣布全面接入微信，此举对淘天用户数量无疑会起到刺激作用，根据中金和摩根大测算淘天可借此增加30%用户，也就是3亿人。</p>
+<p>综合来看淘天面临着更大的业绩压力，明晃晃的数字悬在头顶，让其必须找到增长方法。扩张用户人群、重点运营会员人群，由人群决定，持续扶持新品牌、大品牌发展，并调动品牌在淘宝增加营销投入从而提升平台广告收入。这是一套环环相扣的组合拳。</p>
+<p>这套组合拳不再是面向外部“敌人”的防御性措施，而是针对自身业务需求的主动出击。</p>
+<p>过去很长一段时间，每家平台都指望着从别人嘴里抠食，导致各平台动作愈加趋同，结果导致陷入低效内卷，经历了“七伤拳”一般的价格战，平台终于都回过味儿来，电商江湖不是不卷，而是要卷得更聪明，京东、天猫做不成拼多多，也学不来抖音，他们彼此之间也很难照搬打法。</p>
+<p>还得做自己最擅长的事。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/hZR6pwGY8mWvlBMxGqo6wA" rel="noopener noreferrer nofollow" target="_blank">“价值星球Planet”</a>，作者：Elio，编辑：计然，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044420806576768</guid><pubDate>Wed, 20 Nov 2024 15:57:00 +0800</pubDate></item></channel></rss>
