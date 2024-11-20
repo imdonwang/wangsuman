@@ -1,268 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 21 Nov 2024 07:00:25 +0800</lastBuildDate><pubDate>Thu, 21 Nov 2024 07:00:25 +0800</pubDate><item><title>千万粉UP主陷抄袭风波，原作者怒怼：不是你的原创，别从中获利</title><link>https://36kr.com/p/3044628140411778</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>自己辛辛苦苦开发的开源软件，被别人用了，还被隐去了各种关于原作者的信息，这种违反开源协议与精神的做法，无疑令人恼火。</p>
-<p>这也是为什么自昨晚以来，拥有千万级粉丝的数码博主“老师好我叫何同学”成为众矢之的原因。此前，“老师好我叫何同学”曾凭借发布各种数码科技类视频收获了广泛好评，他也曾因与苹果 CEO 库克 1 对 1 对话而令人惊羡。不过近日，他在 B 上更新了一个《我用 36 万行备忘录做了个动画...》的视频，却因触及开源项目的版权问题，引发巨大争议。</p>
-<h2><strong>“我写了一个软件” vs“改写开源软件 ”</strong></h2>
-<p>具体事情的起因是何同学称自己四年前，曾手动在备忘录里敲了一万行字符，试图讲述一个简单的故事：先是让一个白条躲避红色障碍，最后变成小猫反追红色障碍的故事。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20241120/v2_709cc6adcdaa4c8a8fafa904fd606def@5888275_oswg91739oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>然而，这个动画尝试由于备忘录从上向下的滑动特性限制，未能实现理想效果。红色障碍出现在屏幕中的时间极短，难以看清，更谈不上丰富多彩的表现形式。为了改善这一缺陷，何同学设想在前方添加一个手机屏幕，专门用于发射红色障碍，从而增强“白条”的挑战强度。然而，仅靠自己手动输入，一万行已是极限，做不了丰富的花样，也无法继续下去。</p>
-<p>四年后，为了弥补当年的遗憾，何同学决定升级这个“备忘录动画”，使用多个屏幕来增加这个动画的效果。然而，屏幕变多了，仅凭手动输入字符也必然不现实，因此，他转向了技术化的解决方案。</p>
-<p>问题点因此出现了，起初，何同学在视频中表示，“<strong>所以我们专门写了一个软件</strong>，可以把预览动画里面的色块转换成字符，提高效率，但为了最自然的效果，前面白条，躲避障碍的动画，依然是一行一行画的。最后这个文档有 36 万行。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20241120/v2_f8ec25b99eda4aebb4701b05566ef268@5888275_oswg83146oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（来源：https://weibo.com/6529876887）</p>
-<p>然而有细心的网友发现，视频中一闪而过的软件并非是何同学开发，而是使用了 GitHub 上的一个名为“ASCII generator”的开源项目（https://github.com/vietnh1009/ASCII-generator）。</p>
-<p>根据 ASCII generator 的 GitHub 页面显示，该软件的作者是 vietnh1009，在 Sporttotal 公司担任高级人工智能工程师。</p>
-<p class="image-wrapper"><img data-img-size-val="730,1154" src="https://img.36krcdn.com/hsossms/20241120/v2_a9f9f0c1b78e4790b00a760ad60bc9ff@5888275_oswg466554oswg730oswg1154_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>就 ASCII generator 项目而言，这是一个用 Python 编写的工具，可以将图像或视频转换为 ASCII 艺术（以字符排列形式呈现图片或图案）。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,594" src="https://img.36krcdn.com/hsossms/20241120/v2_1bc45a45e0ac4f54aad38ee574c36404@5888275_oswg170402oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">GitHub 示例中用中文生成 ASCII 艺术</p>
-<p>其采用了 MIT 开源许可证，这意味着任何人都可以免费使用、复制、修改、分发、再许可甚至出售基于该软件的作品。只不过此协议还有一个要求，就是使用者必须在软件或相关文档的所有副本中保留原作者的版权声明及许可证内容，移除这些信息可能会构成违反许可协议的行为。</p>
-<p>而在何同学初版视频中，其不仅没有露出开源原作者的信息，且用了“<strong>专门写了一个软件</strong>”字眼，因此遭到了不少开源开发者的指责。</p>
-<p>面对质疑，虽然何同学迅速在评论区做出回应，承认了自己的软件的确是基于  ASCII generator 项目开发：</p>
-<p>我们看到了大家在评论中关于字符画转制程序的讨论。<strong>我们视频中使用的字符转制程序确实是由开源项目 ASCII-generator 改动而来，改动的内容主要是优化字符生成比例、图片裁切方式和传参方式。</strong>视频中55秒的旁白“所以我们专门写了一个软件，可以把预览动画里的色块转换成字符”<strong>确实不严谨，非常抱歉在视频里没有指出这一点。</strong></p>
-<p>之所以会出现这种情况，是因为<strong>我在写视频的文案时不够严谨</strong>，没有和相关同事做好沟通，<strong>并没有意识到这个程序是从开源程序改动而来，也没有尽到审稿义务</strong>，实在抱歉。我们已经对视频进行换源，修改了相关描述并增加引用来源，同时进行内部检讨，反思流程和审稿上的问题。衷心感谢大家的监督。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,216" src="https://img.36krcdn.com/hsossms/20241120/v2_e98670187e0141e7ae21d1145347255b@5888275_oswg159863oswg1080oswg216_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>同时替换了 B 站的视频源。但不少网友对于此番回应并不买账：</p>
-<p>怎么说也是个老互联网人了 你能不知道这种开源别人不知道吗</p>
-<p>代码的事界限很难评，现在很少有程序不引入三方包库，纯自己码的。那些明显改造对方代码实现主要功能的的确该说明下，还有其他辅助开发的三方库是否也需要公示呢。</p>
-<p>使用代码没有错，用来盈利就不地道了</p>
-<p>截至目前，还有人发现，其在微博上同步的视频依然是最初“写了个软件”的版本，没有做替换，只是在评论区做了如上的回应。</p>
-<h2><strong>开源项目作者回应</strong></h2>
-<p>随着事情的发酵，开源项目原作者 vietnh1009 在知晓此事后，也进行了回应。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,478" src="https://img.36krcdn.com/hsossms/20241120/v2_178ee4cfd6cc45989fca84d39962d272@5888275_oswg198476oswg1080oswg478_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>微博用户、也同是一名程序员的 @epcdiy 对「原作者 vietnh1009 写给何同学的一封信」进行了翻译，详细如下：</p>
-<p>各位好！</p>
-<p>今天，多亏了一些在Github上的中国朋友告诉我，你们正在使用我的个人项目（https://github.com/vietnh1009/ASCII-generator/blob/master/img2img_color.py），并且声称自己编写了该代码（视频中的时间戳为00:56）。我还制作了两段 YouTube 教学视频，指导我的观众（主要是越南人）如何免费编写这段 Python 代码。你们不仅在窃取他人的工作成果，还在欺骗自己的订阅者。我想我可能不是第一个被你窃取作品的人。对我来说这没有关系，但我不希望你从中获利，因为这不是你的原创作品，并且你的观众值得更好的东西。他们付钱给你是为了欣赏你的创意和努力，而不是为了从互联网上盗用别人的东西。</p>
-<p class="image-wrapper"><img data-img-size-val="612,759" src="https://img.36krcdn.com/hsossms/20241120/v2_afc7f21a3af54d12a02bda45e610e450@5888275_oswg204269oswg612oswg759_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>此外，@epcdiy 也对此事分享了自己的看法：</p>
-<p class="image-wrapper"><img data-img-size-val="622,308" src="https://img.36krcdn.com/hsossms/20241120/v2_f3dc8ed57085492ab49562655b828ccc@5888275_oswg80299oswg622oswg308_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>开源版权意识的欠缺，我们该怎么做？</strong></h2>
-<p>事实上，开源软件本身本身允许其他平台使用自己的代码，但开源软件的许可证要求使用者提供源代码和所做修改的公开版本。遗憾的是，许多公司在使用这些代码后并未能遵守这一规定。</p>
-<p>根据 CSDN 《2024 中国开发者调查报告》显示，开源协议是开源的重中之重，但依然有 22% 的开发者在使⽤开源项⽬时，没有关注过开源协议就直接进⾏使⽤，这可能使自己陷入开源合规风险。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,747" src="https://img.36krcdn.com/hsossms/20241120/v2_e37b4e0051924c059fdb0073a2e150fd@5888275_oswg128845oswg1080oswg747_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>除了今天发的事情，此前也有开发者有过类似的经历，彼时我们也曾报道过——澳大利亚的一位开发者 Brendan Gregg 发布了一篇《An Unbelievable Demo》控诉自己在多年前开发的一款开源项目被彼时的科技巨头 Sun Microsystems 作为商业产品的部分进行销售，其中该公司还将他的代码涉及其姓名的注释部分全部做了删除处理，而世界轮回，最终这款产品销售对象之一竟然是自己，颇为讽刺。</p>
-<p>开源吞噬软件的大趋势下，其实当我们提及“为什么会选择开源”时，在《新程序员001：开发者黄金十年》中：</p>
-<p>UNIX 的命名者 Brian W. Kernighan：开源是一件非常好的事情，它对软件行业的发展至关重要（现在几乎所有东西都和开源有关）。如今我们其实已经取得了很大的进步，主要的软件系统，如操作系统、编译器和工具都可以作为高质量商品免费提供；</p>
-<p>Vue.js 作者尤雨溪：开源有一个好处就是只要项目技术过硬，就可以跨越文化和语言的隔阂；</p>
-<p>OpenCV 创始人 Gary Bradski ：如果我要走商业化的道路，应该可以赚很多钱，但我更关心开源对社会进步的推动。但另一方面，我并不认同开源完全免费，资金支持很重要。</p>
-<p>开源本是以开放、共享、协同为本质，成为众多科技公司和个人开发者的利器之一。然而，如果忽视了对版权和协议的尊重，开源的理念就可能变得模糊，甚至变成没有约束、没有责任的“自由”环境。那么，我们究竟该怎么理解 MIT 协议，《大教堂与集市》译者卫剑钒曾在参加 CSDN 访谈时做出分享，其表示：</p>
-<p>MIT 协议一共包括三段说明：</p>
-<p>第一段表达的是如果你满足我的要求，你就可以拥有使用、拷贝、修改、合并、发布等这些操作的权利，但前提是必须得满足协议中的条件；</p>
-<p>第二段所注明的条件就是需要附上版权信息及 MIT 协议。事实上，使用者附上 MIT 协议全文或者附上 MIT 的链接都可以的。</p>
-<p>第三段有个很重要的部分就是免责声明，它明确了这个软件是“AS IS”的，“AS IS”的意思就是“就这样的”，售出 ( 或免费提供 ) 后一概不负任何责任，“别再找我，就这样了”，简单来看，就是如果出了问题可以让原作者免责。</p>
-<p>MIT 其实非常宽松，操作也非常简单，但要求就是要把版权方和这个协议放上去。我在《从 MIT 协议谈契约精神》一文中，也详细地翻译了 MIT 协议的说明。</p>
-<p>至于该如何提升大家的版权意识，OSCAR 开源共读发起人、LF APAC 开源布道者团队主席李建盛（适兕）曾表示：</p>
-<p>这个问题引发的辩论是：开源的内容到底存不存在剽窃一说？我认为这是存在的。作为一个现代文明的受益者，我们所有的接触的知识，其实都是前人留下的。当前所塑造的东西，几乎都是从前辈手里学来的。那么，从哪儿来学到的内容，把原著标出来就好了。这就避免了剽窃的存在。</p>
-<p><strong>因为开源并不是“无主”的开源。尽管有些成果放在公有领域，那也是有原作者的。使用者应该保持一个敬畏之心，引用别人的内容，不管是一个词或者是一句话，都应该注明出处。</strong></p>
-<p>参考资料：</p>
-<p>https://weibo.com/1229700913?refer_flag=1001030103_</p>
-<p>https://www.bilibili.com/video/BV1LVmRYzERY/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/DhjuC9SWCLSf9TBanq_QMQ" rel="noopener noreferrer nofollow" target="_blank">“CSDN”</a>，整理：苏宓，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044628140411778</guid><pubDate>Wed, 20 Nov 2024 19:27:00 +0800</pubDate></item><item><title>Discord盯上了小游戏，要用超低抽成吸引开发者</title><link>https://36kr.com/p/3044641031735938</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>游戏社交平台Discord毫无疑问是如今互联网行业最具代表性的独角兽，在海外社交网络几乎被Facebook、Instagram、Snap、X等巨头瓜分殆尽的情况下，凭借着深度理解并满足游戏玩家对于高效语音交互的迫切需求，Discord如同彗星一般快速崛起。</p>
-<p>如今Discord已然是全球最有活力的上线社区，但在鲜花着锦烈火烹油的局面下，Discord也有自己的烦恼、那就是盈利。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_112dfa7df9f342f58b1ccec42860104d@000000_oswg12719oswg600oswg289_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>随着Discord逐渐开始在应用内投放广告，并计划与游戏厂商合作开展名为"赞助任务"的付费促销广告活动之后，他们又开始尝试在其他渠道发掘新财源。</p>
-<blockquote>
-<p>日前有消息显示，Discord正计划推出新的货币化工具，旨在让应用程序开发者更容易通过在该平台的销售行为获利，为此他们还提供了一次性购买的选项，允许开发者在不需要订阅的情况下销售游戏、皮肤等产品。</p>
-</blockquote>
-<p>最为重要的是，Discord现在针对开发者的“平台税”减半，也就是从6月6日开始，开发者在Discord上赚到的第一个100万美元将享受15%、而非30%的抽成。没错，Discord似乎也玩起了“Copy from China”，准备将自己打造成一个超级App。如果相关消息属实，也就意味着这家美国社交平台将会以游戏产品为支点，涉足数字内容分发市场。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_687837f3e064482d9dd37d880ed841f5@000000_oswg36320oswg600oswg289_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>01</strong></h2>
-<p>其实早在2018年10月，Discord就上线了游戏销售商店，宣布进军游戏第三方分发领域，并且抽成仅有10%。毫无疑问，在Steam垄断了PC游戏分发这块大蛋糕数年之后，Discord也曾试图掀翻前者。然而遗憾的是，相比于有着《堡垒之夜》这个大爆款，以及虚幻引擎这颗摇钱树的Epic Games存在，当时Discord尽管拥有2亿月活，但缺乏足够的资金打一场漫长的消耗战是他们的命门。</p>
-<p>一九分成对于开发者而言无疑是件好事，但问题是高分成带来的高收益也需要通过销量来放大。Discord乃至后来的Epic Games为什么始终无法动摇Steam的市场地位，就是因为玩家已经习惯了在Steam上购买游戏。在经过了二十年的努力后，Steam也为玩家提供了一个最便捷、高效、有氛围感体验游戏的方式。尽管Epic Games可以用“撒币”来维持存在感，但Discord就不行了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_a56a8f99a83c4c7b89796d64a16d2ad0@000000_oswg49157oswg600oswg503_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>当初Discrod是如何崛起，就是因为在线游戏的蓬勃发展导致玩家对于实时交流的需求井喷，所提供的轻量级、低延迟、高质量语音聊天环境使得其脱颖而出。换而言之，Discrod的忠实用户基本上是多人联机游戏的爱好者，但他们的问题在于很难像Steam那样提供覆盖全球的CDN网络。并且由于聊天功能就要占据大量的服务器带宽，维持多人游戏的流畅又得是一大笔钱才能搞定。</p>
-<p>最终，Discord当年进军PC游戏分发以壮志难酬结局。既然PC游戏分发市场的格局无法撼动，Discord在今年就盯上了移动游戏，准备来从中国的超级App身上汲取灵感、进军小游戏赛道。此前在3月中旬，Discord就推出了一款名为“Embedded App SDK”的工具，使得开发者可以直接在Discord内打造、分享和销售自己的游戏，并通过该公司的支付渠道直接变现。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_300a9993716a482a919e2dbb1d4be083@000000_oswg25094oswg600oswg315_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>02</strong></h2>
-<p>目前，Discord的营利能力其实相当孱弱，主要营收渠道更是只有一个，即每月9.99美元的Discord Nitro订阅服务。不同于Netflix等同样依赖订阅服务的厂商，Discord Nitro并没有向用户提供有市场有竞争力的权益，它所提供的高质量视频、自定义表情、个性化页面和Gif头像等权益基本都属于锦上添花，因此购买就更像是用户对Discord的“打赏”，这也是该公司一直被外界认为收入模式过于单一的原因。</p>
-<p>在去年8月以及今年1月，Discord进行了两次裁员，总计有21%的员工离职，这即便无法说明Discord遇到了困境，但也从侧面表明他们已经不复往日的高增长。为此Discord开始准备接纳广告，但一家以往拒绝广告的平台突然要加广告，用户自然是很难接受的。以至于Discord开始测试广告的消息传出后，就引发了大量用户的反对。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_166dd410db8f4606b607779962a78b3c@000000_oswg31635oswg600oswg322_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>相比于会导致所有用户体验下降的广告，小游戏无疑更容易被接受。毕竟在大洋彼岸的中国市场，微信、抖音已经亲身证明了有大量用户会成为小游戏的拥趸。此外，小游戏的特点就是学习成本低、上手无门槛、打开即可玩，可能传统的PC玩家对其不感兴趣，但在经过了多年的发展后，如今Discord早已不再是一个专为游戏玩家服务的垂直社区，而是成长为多元化的综合社区。</p>
-<p>对于Discord上的非游戏玩家来说，小游戏就将成为一个打发碎片时间的有效途径。而唯一阻碍其小游戏业务兴旺发达的或许就是游戏阵容，因为相比于传统游戏，小游戏的缺陷是画面表现力差、玩法单一，如果没有丰富的内容库来作为支撑，寥寥无几的小游戏显然很难让用户习惯在Discord上玩游戏。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_3b578bb5b4ad474aaf554866cd35b988@000000_oswg27298oswg600oswg404_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>那么如何吸引开发者带着他们的小游戏加入Discord呢，后者给出的方案就是15%的低抽成。在如今App Store、Google Play都是30%抽成的情况下，15%的抽成以及大量玩家群体的存在，Discord这样的优惠或许会很有吸引力。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649875364&amp;idx=3&amp;sn=a10ba4665ce6f69ae513663559e17d7d&amp;chksm=86448ed9d510063b449b713b10cdaf3fac675a95deb24d3e507e414610463010bd162b06ed72&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044641031735938</guid><pubDate>Wed, 20 Nov 2024 19:39:00 +0800</pubDate></item><item><title>哪些牛马，下班了还要继续打螺丝？</title><link>https://36kr.com/p/3044635412105863</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“一天上两次班，这是什么人间疾苦？”</p>
-<p>话虽如此，但从现实情况来看，下班后找个兼职来做已经成为不少年轻人的共同选择。</p>
-<p>就拿跟随宠物经济一同升温的相关副业来说，从上门喂养、代遛狗等宠物托管服务，到猫咪侦探、宠物媒人等生活类服务，再到宠物绝育表演等创意性服务内容，他们简直将副业玩出花来……甚至这些年轻人赚钱的野路子还登上了福布斯排行榜。</p>
-<h2><strong>01 一天打两份工，赚的都是血汗钱</strong></h2>
-<p>“有什么下班能做的兼职吗？求推荐！”在网上写下这篇求助贴后，张燕陆陆续续看到不少建议：</p>
-<p>“直接去商圈餐饮门店问需不需要临时工，时薪基本都是十几二十多块，每天4个小时，一个月下来怎么也有个两三千了”“可以去做快递分拣，每小时15元，一天4小时能赚60元”“批发拿些小玩意去商圈人流旺地摆摊，做点低成本小生意时间成本都可控的，唯一不好的就是能不能赚钱比较看运气”……</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_76cf906e5d614222b7c5c456211a681a@000000_oswg871873oswg1080oswg812_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">下班后选择送外卖的“90后”</p>
-<p>当然，也有线上的：“可以接晚间辅导，一般下午4点到9点或者下午5点到10点，小学每天150~180元，初中每天220元左右，不过这个有一定的接单门槛”“上门喂猫简单，按要拍照拍视频发给宠主就行，每次10分钟左右，一只猫30元，可以两只或以上每只加5元，价格不统一但大差不差，缺点是岗位竞争激烈”“小红书不露脸直播卖货，不需要有经验，17点到22点半、16点到22点、上午8点到16点这几个时段，每次200元”……</p>
-<p>将渠道了解得差不多了过后，张燕不得不硬着头皮去试工，“确实也是没办法了，今年单位降薪20%，但我平时的吃穿用度住房水电哪个都没省下来，手头紧巴巴的也就谈不上什么外出消费了，干脆把下班后的空闲时间利用起来，看能不能贴补一点。”</p>
-<p>与还在观望的张燕不同，柳依已经在网上打螺丝很久了，“我是比较爱玩游戏的，就想到看能不能把爱好当成副业，这样就算是在打螺丝也没那么痛苦了。”</p>
-<p>相关最简单的就是副业就是游戏代练，“帮别人做游戏日常，代肝活动、副本这些，但现在代练也很卷，工价已经被拉到很低了，到处都是廉价劳动力，哪怕把每天所有的闲散时间都投进去，在保证主业顺利且自己作息正常的情况下，一个月赚2000多也顶天了。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_e9ac7a6b597b476c850b0ec172c524fc@000000_oswg292822oswg716oswg1184_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">柳依在游戏里搬砖</p>
-<p>“还有一种就是自己起号打金卖钱，不过这个非常耗时间，想赚钱也非常累，要不停切号打游戏，尤其是碰到游戏大版本更新，那可能这段时间就没有收入了，要先投资把号养起来才能打得动副本。”柳依曾尝试过每天晚上6个小时的高强度游戏搬砖，一个月下来赚了将近4000元，但身体却开始告急，“坐久了全身酸痛，太熬人了，完全是用自己的体力和时间来换钱，时薪也不高。”</p>
-<p>张燕和柳依的选择并非个例，实际上，在下班后为副业奔命的年轻人正变得越来越多。从各大社交平台的相关讨论来看，有关“副业”“提高收入”“增强抗风险能力”等话题热度颇高。</p>
-<blockquote>
-<p>相关数据显示，2023年在闲鱼平台上从事副业的用户规模已突破700万，而进入2024年，闲鱼上的副业交易额每日超过千万元，日均副业订单量更是达到去年同期的两倍之多，展现出强大的市场潜力。而搞副业的主力人群为30岁以下年轻群体，尤其以“00后”大学生为主。</p>
-</blockquote>
-<h2><strong>02 野路子玩出花，难改打工人本色</strong></h2>
-<p>“‘副业热’一方面说明随着数字经济、平台经济的发展，一些新兴职业出现，让年轻人有了更多做副业的机会；另一方面也表明，部分年轻人存在职业危机感，而副业可以缓解职业变动带来的冲击。”中央财经大学社会与心理学院社会学系副教授庄家炽此前接受媒体采访时如此表示。</p>
-<p>而在这样的大势所趋下，更为明显的是，在搞副业“回血”的辛酸过程中，<strong>即使是打螺丝，年轻人也想玩出点花活来</strong>。</p>
-<p>前段时间，福布斯中国联合闲鱼揭晓了“副业100”评选，盘点了时下最热门的副业商机。据悉，该榜单评选标准是根据闲鱼近一年的副业交易数，同时参考市场规模、需求数量搜索、支付总额和订单数量等指标，旨在揭示当前最具潜力和增长势头的副业领域。</p>
-<p>其中，既有软件开发、P图修图、头像手绘 、直播间气氛组、AI画师、三坑手作师、朋友圈图片定制等“技能点副业”，也有表白陪练、宠物媒人、盲盒代抽 、兼职伴娘等趣味满满的副业入选。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_82b6f710fa6c46d1a8e1808044af849a@000000_oswg262056oswg818oswg935_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源:福布斯</p>
-<p>不难看出，相较于主业上诸多学历、年龄、就业经历、项目经验等门槛，<strong>年轻人在副业的选择上更趋向于选择与个人爱好及技能相符合的岗位</strong>，如走技术流路子的年轻人，往往倾向于PPT美化、软件开发、配音定制、COS委托等兼职，主打的就是一个要充分发挥兴趣技能的余热，为自己开辟第二职场。</p>
-<blockquote>
-<p>德勤发布的《2024年Z世代与千禧一代调研报告》指出，高达45%的Z世代与36%的千禧一代表示自己正从事兼职或全职的付费副业，足以证明副业文化的盛行。而对于这些选择副业的人群来说，“快乐”与“赚钱”并不冲突，他们可以在保留个性的同时，将爱好变现，也能在追求自我成长的过程中，对当地社区生活产生积极影响。 </p>
-</blockquote>
-<p>从招聘平台的视角来看，它们眼下的岗位推荐机制也考虑到了年轻人的新偏好。如某招聘平台最近就对其兼职板块进行了调整，设置了相关兼职主题模块，以帮助求职者按需发掘兼职岗位，也能辅助一些“新”需求能被看到——在“手艺人”专栏下，可以找到因宠物经济大热而衍生出现的宠物上门喂养师、宠托师、宠物陪护师等新型兼职职位。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_43c5da51a2384ba18f5957bc27f78f48@000000_oswg603520oswg1080oswg1927_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">能看到一些“新”需求</p>
-<p>往好处说，这些副业的出现和兴盛，不仅满足了年轻人的兴趣爱好，还为他们带来了额外的收入，同时，更为他们提供了展示才华和实现自我价值的舞台，别提还能借此拥有更多的社会体验和人生阅历了。</p>
-<p>但转念一想，真有那条件的，谁想一天上两次班？</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkyNzMwMTc1OA==&amp;mid=2247516354&amp;idx=1&amp;sn=46abe6b6945d62429fbbcbbfe773f797&amp;chksm=c3a0e4bdb87973e128503c7aec17d73c578c2a794f6314705decf4d63586e59b5bbb44a37544&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“锌刻度”（ID：znkedu）</a>，作者：孟会缘，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044635412105863</guid><pubDate>Wed, 20 Nov 2024 19:40:00 +0800</pubDate></item><item><title>加入AI搜索之战，腾讯将以微信内容生态为剑</title><link>https://36kr.com/p/3044640904678023</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>以被英伟达、亚马逊下重注的AI独角兽Perplexity崛起为标志，AI搜索俨然成为了2024年的兵家必争之地。就在抖音、阿里、快手之后，腾讯的AI搜索也正式亮相。</p>
-<p>就在11月15日，腾讯旗下AI智能工作台ima.copilot（下文将简称为ima）的Windows版正式上线。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_7caa049a59d949688219bbd11b520dd6@000000_oswg6540oswg600oswg245_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>根据腾讯方面的说法，除了能查询网络上的资料外，在本地的诸如上百页文献、几十万字的行业经验，只需将相关文件拖入ima的对话窗口，它就能总结内容、提炼要点，并生成脑图。此外ima还支持多种语言翻译，能够处理国内外的各种资料文献。其被官方称为，“拥有了ima，相当于拥有一座专属图书馆和一位24小时在线的私人助理。”</p>
-<h2><strong>01</strong></h2>
-<p>作为AI搜索，ima最大的亮点在于能够检索微信公众号的文章，就这意味着它不仅仅可以使用其他传统搜索引擎、AI搜索产品能覆盖的互联网世界，还能挖掘微信公众平台从2012年就开始沉淀的海量独家内容。毫无疑问，打通微信公众号对于ima而言是相当重要的一个卖点，更是其有别与市面上其他AI搜索的差异化竞争力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_9c4e9cbae3de44479ffb1cb35b6f52bb@000000_oswg34886oswg600oswg391_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>要知道，一直以来腾讯对于微信公众号的内容都是敝帚自珍。此前在2022年10月下旬，有用户发现微信公众号的内容可以被谷歌和必应等海外搜索引擎检索，还曾引发微信公众号要冲出国门、走向世界的讨论。结果大家最后空欢喜一场，当时微信的说法是“近期平台技术升级，公众号robots协议出现漏洞，致使外部爬虫技术可爬取部分微信公众号内容。”</p>
-<p>长期以来，微信公众号的内容只能被搜狗搜索抓取，这也是后者在百度搜索强大的压力下，始终能在国内搜索引擎市场保有一席之地的原因。换而言之，在原搜狗团队被腾讯囫囵吞下之后，搜狗搜索其实就已经被边缘化，腾讯方面也不认为搜狗在AI搜索时代能咸鱼翻身，因而选择了从零开始打造ima。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_0303b91b41034547bb58423c85688a00@000000_oswg18161oswg600oswg205_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<h2><strong>02</strong></h2>
-<p>现阶段，国内AI搜索领域的局面是各大厂商均在加码，并都不止于提供信息，还具备整合信息和提炼内容的能力，在应对用户的模糊需求上相比传统搜索引擎更胜一筹。可是在具体AI搜索产品则是大同小异，产品形态也几乎与Perplexity是一个模子刻出来的。</p>
-<p>从抖音AI搜索到阿里心流、再到百度AI智能搜索，大家都遵循从理解问题到查找信息、再到生成回答这三步走的策略。当然，考虑到Perplexity确实是目前最成功的AI搜索产品，将其先进经验Copy to China没什么问题。可如果各家的AI搜索都是一个模子刻出来的，又要如何分出高下呢？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_b9a5ac487e814ae19c56fe83b8d08d51@000000_oswg51903oswg600oswg514_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>ima给出的答案是微信公众号，因为单纯从技术层面来说，ima在目前的一众AI搜索产品里并不出挑，甚至可能还处于平均线以下。比如在ima中搜索我们三易生活，结果给出的答案是一家2014年成立的智能家居品牌，而百度的产品则会给出‌三易生活是一家关注科技领域媒体的答案。</p>
-<p>尽管单纯比拼技术力ima似乎有力未逮，但微信公众号显然给了它底气。尽管如今短视频的崛起让微信公众号不复往昔的荣光，但后者从2012年就开始积累的内容生态不容小觑。作为图文时代最受关注的平台，微信公众号沉淀了无数高质量的图文内容，而将这些内容利用起来就是独属于ima的优势。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_046dab92a8d34449aba82dba7860c924@000000_oswg33458oswg600oswg424_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>事实上，有微信公众号加持的ima。可能要比有短视频加持的抖音AI搜索更具潜力。尽管在占据用户碎片化时间这件事上，短视频确实更胜一筹，但是在搜索领域，短视频信息密度比图文低的劣势就会凸显出来。用户使用AI搜索是为了解决问题、而非打发时间，所以谁能用最快的速度给出完整详实的答案，谁才会脱颖而出。</p>
-<p>这时候在图文领域有着的深厚历史积累，反而就成为了ima的竞争力。兜兜转转一圈，孤岛化的App在压制了传统搜索引擎在移动互联网时代的发挥后，似乎将会再一次成为了AI搜索腾飞的助力。归根结底，在见识到了搜索引擎的“印钞”能力之后，积极投身于AI搜索赛道的厂商，必然就是奔着成为最后的赢家而来。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_c5732f1898f94780ad02dd70d7e3581d@000000_oswg9554oswg600oswg275_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>这时候如果不最大化利用自己手中的资源，又何以成为赢家呢。因此国内市场AI搜索的未来或许不仅仅是技术力的比拼，还是内容生态的对抗，拥有更丰富资源的参与者可能会走得更远，而腾讯显然就是其中之一。所以只要补足技术短板，ima在AI搜索赛道完成可以称得上是未来可期。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649875364&amp;idx=2&amp;sn=cdf424ca3221daeb88fc6e4f5f92e0eb&amp;chksm=8663fbb0af6bdd69b20f90a091552d20657363470b92c31d71fe7c4a2714475c17a4dfc0c422&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044640904678023</guid><pubDate>Wed, 20 Nov 2024 20:02:00 +0800</pubDate></item><item><title>江苏无锡杀出超级独角兽：国内最大</title><link>https://36kr.com/p/3044652263279232</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>据证监会官网显示，11月18日，吉姆西半导体科技（无锡）股份有限公司（下称：吉姆西）在江苏证监局上市辅导备案，辅导机构为中信证券。 </p>
-<p>据公司官网介绍，吉姆西是一家半导体再制造设备和研磨液供应系统研发商，主要从事各类半导体工艺设备、工艺辅助设备、CMP（化学机械抛光设备）耗材等的研发、制造、销售及服务。 </p>
-<p>吉姆西既能翻新国际品牌设备，也有企业自主品牌设备类产品，主要是前道主工艺设备，如化学机械抛光设备、湿法制程设备、温控设备和尾气处理设备等，还可提供经升级改造的各类前道工艺设备，种类覆盖半导体前道制程所有工艺模块。（前道工艺包括光刻、蚀刻、薄膜生长、离子注入、清洗、抛光、量测等。） </p>
-<p>吉姆西的业务就一目了然了：不生产芯片，但为芯片企业提供设备服务。 </p>
-<h2><strong>01</strong></h2>
-<p>吉姆西位于无锡，创办于2014年，在无锡、上海、盐城、张家港等地设有制造工厂。 </p>
-<p>创办之后，吉姆西依托其核心团队技术研发等优势，快速成长为目前国内最大的半导体领域再制造设备供应商和最大的研磨液供应系统制造企业，为中芯国际、华虹微电子、台积电、士兰微、英特尔、华为、中电海康等众多知名集成电路制造企业提供半导体制造设备的升级改造服务，并提供原材料耗材的研发、生产和销售等项目服务。 </p>
-<p>2018年，吉姆西投资6亿元的半导体耗材项目在2018无锡锡山金秋经贸恳谈会上入驻无锡锡山区。2019年9月，总投资15.3亿元的吉姆西12英寸集成电路先进制程技术及装备研发制造项目落户无锡锡山区。 </p>
-<p>从2021年至2023年，吉姆西获得多轮融资。 </p>
-<p>2021年的战略融资中，吉姆西获得了赛微电子、正海资本的3000万元融资。2022年3月，吉姆西A轮融资获得赛微电子、英诺天使基金、锡山创投、基石资本等13家机构投资；2023年，吉姆西B轮、B+轮融资分别获得中信证券投资、中信资本投资。 </p>
-<h2><strong>02</strong></h2>
-<p>今年6月公布的《中国独角兽企业研究报告2024》中，无锡总共有盛合晶微、中环领先、吉姆西、华虹制造、锡产微芯5家独角兽企业，其中吉姆西、华虹制造、锡产微芯为新晋的3家独角兽企业。这5家无锡独角兽企业总估值达162.6亿美元，平均估值32.5亿美元，领跑全省。 </p>
-<p class="image-wrapper"><img data-img-size-val="806,413" src="https://img.36krcdn.com/hsossms/20241120/v2_18988a215ff54251b0a36c46c46dd4ad@5888275_oswg94106oswg806oswg413_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另外，无锡早已成为国内半导体高地，更被称为中国集成电路产业人才的“黄埔军校”，集成电路产业发展早期，几乎全国的微电子集成电路人才都源自无锡。无锡还拥有从原材料到设计、制造、封测环环相扣的完整产业链，集聚企业近千家。无锡是除上海以外，集成电路产业链最齐全的城市。2023年，无锡集成电路规上产业产值达到2400亿，居全省第一、全国第二。 </p>
-<p>本文不构成任何投资建议。本文还参考了科创板日报、奔流财经社、芯潮、无锡新传媒等内容 ，一并致谢。封面图来自企业官网。 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/mfP1I28cxNNDt5EXSRA5rw" rel="noopener noreferrer nofollow" target="_blank">“铅笔道”</a>，作者：黄小贵，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044652263279232</guid><pubDate>Wed, 20 Nov 2024 20:03:00 +0800</pubDate></item><item><title>腾讯新闻“掘墓人”王诗沐重生：开启二次元AIGC创业？</title><link>https://36kr.com/p/3044653331499906</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在AIGC（生成式人工智能）成为下一个风口的当下，越来越多前互联网大厂高管下场创业，希望能够掘到一桶金，前网易云音乐负责人、腾讯新闻总经理王诗沐便是其中之一。</p>
-<p>近日，有消息称，王诗沐的创业公司全灵（SEELE）完成千万美元Pre-A轮融资，投资方包括百度战投、美图投资、富坤创投、Webtime Information S&amp;T等。<strong>据悉，本轮融资将用于打造全新游戏AIGC引擎，以及团队建设。</strong></p>
-<p>据企查查信息显示，全灵（深圳）网络有限公司注册资本为117.6万元人民币，成立于2022年11月，王诗沐担任法人代表，持股比例58%；企业家满建勇通过广州云舜投资咨询有限公司持股15%，是第二大股东。</p>
-<p>融资方面，从2023年至今融资过两次，种子轮融资金额为数千万人民币，2024年11月18日Pre-A轮约一千万美元。</p>
-<p>全灵的名字起得很有意思——SEELE（德语，译作灵魂或全灵）。不仅如此，其首款3D交互多模态大模型被命名为“EVA-01”，均来自《新世纪福音战士EVA》。看起来王诗沐即便不是一个“二次元”，对日本动漫也是颇有兴趣。事实上，他的创业项目与和动漫、游戏关联密切。</p>
-<p class="image-wrapper"><img data-img-size-val="692,684" src="https://img.36krcdn.com/hsossms/20241120/v2_40bdacd30f1a42f7a597f0265afa1c26@5888275_oswg347717oswg692oswg684_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>全灵目前的业务是基于AIGC的3D社交互动平台，简单来说就是用户可以通过自然语言创建可交互式的3D虚拟人物，支持自定义背景、互动，实现AI陪伴的体验。环顾全球市场，全灵的产品非常像是“二次元”版本的Character AI，后者已在今年8月被谷歌以25亿美元收购。</p>
-<p class="image-wrapper"><img data-img-size-val="693,230" src="https://img.36krcdn.com/hsossms/20241120/v2_e13b359068194b92aeef17c52e822b59@5888275_oswg278365oswg693oswg230_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">全灵AI产品生成角色及场景演示</p>
-<p><strong>在AI大模型已经被互联网大厂“卷”上天的情况下，垂直模型显然是更适合初创公司发力的赛道，</strong>即便不能成为下一个GPT，被大厂收购也是不错的选择，Character AI就是典型案例。据悉，王诗沐的愿景是将全灵打造成一家市值百亿美元的公司。</p>
-<p>翻看王诗沐的履历，前网易云音乐负责人的身份非常耀眼，6000万活跃用户的战绩可以说是中国互联网产品经理的成功典型。因此，王诗沐还出版了一本名为《幕后产品：打造突破式产品思维》的书，豆瓣评分8.3，评价颇高。</p>
-<p>王牌产品经理创业，自然吸引了很多人的关注。不过，<strong>王诗沐的职业生涯除了网易云音乐的高光时刻，其他项目鲜少成功，这也为其创业带来了一丝不确定性。</strong></p>
-<h2><strong>“王牌”产品经理，做砸了腾讯多个产品</strong></h2>
-<p>王诗沐并非技术出身，其毕业于浙江大学工业设计专业。他的第一份工作是支付宝生活助手的设计师，直至进入网易才开始接触产品经理的工作内容。</p>
-<p>“我正儿八经的产品经理经历是从网易开始的。2012年，网易的丁总（丁磊）想要立项一个音乐项目，我非常有幸地做了这个项目的产品负责人，后来就一直陪伴着网易云音乐走到现在。”2018年，王诗沐在混沌大学演讲时这样介绍自己。</p>
-<p class="image-wrapper"><img data-img-size-val="640,427" src="https://img.36krcdn.com/hsossms/20241120/v2_4ff90a892ce64974bf391db45661bd6c@5888275_oswg170463oswg640oswg427_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>据报道称，<strong>丁磊钦点王诗沐负责网易云音乐项目。</strong>王诗沐也争气，通过核心化歌单、加强算法推荐等方式，将网易云音乐打造成“最懂用户的音乐App”，活跃用户急速增长至6000万。随后，王诗沐又被任命为网易美学负责人，打造美妆类社区平台。当时的王诗沐可谓春风得意、年轻有为。</p>
-<p>2019年，已经成为网易云音乐副总裁的王诗沐突然离职，随后加入腾讯。最初，王诗沐主要负责PCG （平台与内容事业群）的创新业务 “小鹅拼拼”，该业务对标拼多多，在2022年2月关停。</p>
-<p><strong>腾讯方面似乎并没有把新业务的失利原因归结于王诗沐个人，反而是将他擢升为腾讯新闻总经理</strong>。2021年，王诗沐正式接手腾讯新闻业务，开启了一系列改革。</p>
-<p>彼时，腾讯新闻App受到今日头条冲击，急需对策。<strong>王诗沐接手后，继续弱化此前腾讯新闻原创、深度独家内容优先的运营策略，全面转向基于兴趣的信息流，推动数据化、算法推荐化模式。</strong>改革自然伴随动荡，据腾讯新闻内部人士称，从2021年年底开始，多个负责深度内容的团队被解散或转岗，其中包括后来转岗至腾讯视频、制作了《十三邀》等知名栏目的团队。</p>
-<p>然而，<strong>腾讯新闻的转型并不成功，可以说是两头都不讨好：</strong>喜欢深度内容的用户流失，也未能抢到新用户。而将失败原因全部归结于王诗沐，显然也是不公平的，更多是“时也，运也”的必然结果。</p>
-<p>背靠中国第一大门户网站腾讯网的腾讯新闻App，2010年便已上线，占尽先机。然而，字节跳动抓住了信息流算法的风口，在两年后推出今日头条App，凭借兴趣推荐成功抢走了传统门户网站的广告生意。腾讯新闻在2018年被归入PCG，在王诗沐接手前已经开始“头条化”，只是并不彻底。</p>
-<p>但不论如何，一个业务的直接负责人，是需要为结果承担责任的。<strong>腾讯新闻业绩的每况愈下，甚至引起了马化腾的不满。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="693,451" src="https://img.36krcdn.com/hsossms/20241120/v2_11f516470d414c83a081aafb134711b2@5888275_oswg271014oswg693oswg451_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>据报道称，马化腾在2022年的内部员工大会上直接点名PCG业务：“你活都活不下去，要靠别人续命，（结果）周末还能休闲地去打球。如果你连创业压力都没有的话，那这个压力我们上面给。”</p>
-<p>据腾讯内部人士分析，<strong>马化腾点名的“周末还能休闲地去打球”的人，就是王诗沐</strong>，因为只有他在2022年晒过周末打球的照片。据悉，彼时腾讯高尔夫盛行，中层干部几乎都打高尔夫。</p>
-<p>业务高速发展期，增长空间大，同事之间更多的是相互认可、彼此成就。但在业务处于下行趋势、岌岌可危的阶段，部门之间的矛盾和摩擦就开始不可避免。多位资深新闻人均要向年少得志的王诗沐汇报工作。其一是杨瑞春，杨当时为腾讯新闻副总编辑，曾任南方周末编委、中国新闻周刊执行主编、彭博商业周刊中文版主编；其二是原腾讯OMG网络事业群内容出品部助理总经理马腾，曾担任《财约你2019》主持人，以其知性的主持风格收获一票粉丝。</p>
-<p>据内部可靠人士向《华尔街科技眼》透露，多位腾讯新闻人因与王诗沐产生龃龉而离职。在工作期间马腾与王诗沐发生语言冲突，王诗沐爆出侮辱性粗口。媒体人出身的马腾不堪其辱。之后马腾与腾讯网副总编辑杨瑞春将此事件汇报给马化腾。结果马化腾并未为马腾和杨瑞春“做主”。2022年5月24日，整个事件处理结果令人错愕。那一天王诗沐顺利转岗；腾讯网总编辑贺国帅、副总编辑马腾和杨瑞春也同步卸任，但之后这三位腾讯新闻的管理层，再无新的任命。<strong>此事件的解决结果，也进一步印证了马化腾对腾讯新闻早有不满。</strong></p>
-<p>很快，王诗沐就随着PCG的大裁员离任，重新负责创业项目NTF（数字收藏）业务“幻核”，该业务也在2022年8月关停，王诗沐随后离职。</p>
-<p>对于王诗沐在腾讯短短三年的职业生涯，有人在社交媒体调侃道：师母（诗沐）去腾讯搞的三个产品，一个比一个拉胯，幻核算是他最后被“发配”的地方，结果一过去幻核就滞销了，成了完全的赔钱货。<strong>有自称腾讯员工网友甚至称师母（诗沐）为“腾讯新闻掘墓人”。</strong>王诗沐告别腾讯之时，曾经傍身的网易云音乐光环，也已经消失殆尽了。</p>
-<p>那么，如今已自主创业的王诗沐，能否再打造出一款类似网易云音乐的爆款呢？</p>
-<h2><strong>首款产品KoKo AI，“擦边”二次元？‍‍‍‍‍‍</strong></h2>
-<p>创业两年，王诗沐的全灵公司，在2023年8月推出了首款To C产品“KoKo AI”，仅在非国区的苹果AppStore和谷歌商店上架。</p>
-<p>KoKo AI是一款基于AIGC的3D互动社交应用，用户可通过语言描述生产二次元角色，并与之互动。从技术上来说，KoKo AI使用了3D多模态大模型EVA-01，融合3D建模、动画和语音技术，为用户提供文本或语音交互，类似二次元版本的Character AI。</p>
-<p>而从应用截图来看，似乎略有“擦边”嫌疑，充斥着水手服、萝莉和所谓的“福瑞控”等元素。由于该应用限制中国大陆IP访问，在国内无法使用，所以无从体验。不过，该应用推荐年龄等级为17+，且通过了苹果审核，应该不存在原则性问题。</p>
-<p class="image-wrapper"><img data-img-size-val="832,689" src="https://img.36krcdn.com/hsossms/20241120/v2_1fbaa26ef51a4cf695888a7828ad4b39@5888275_oswg354676oswg832oswg689_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>据媒体报道称，王诗沐认为全灵的“3D+AI”产品目前在To C市场比较稀缺，同时具有较高技术门槛，并非人人可轻易复制，因此具有差异化优势，王诗沐也将目标设定为打造 “一家市值100亿美元的公司”。</p>
-<p>据悉，KoKo AI目前已经积累了近百万用户，其中不乏专业游戏从业者、MMD/VRchat创作者，具备应用化的场景支撑。</p>
-<p>结合此次融资的背景，不难看出王诗沐的下一步计划是进入游戏AIGC市场。事实上，很多游戏大厂已经开始布局AIGC领域。以法国著名游戏开发商育碧为例，在今年3月举行的全球游戏开发者大会上，育碧便已向公众披露了其首个面向玩家开发、由生成式AI驱动的原型NPC（non-player character，非玩家角色）。</p>
-<p>育碧方面认为，在AI的加持下，能够快速创作出符合故事背景的NPC，并赋予其个性和互动性，不仅有助于提升游戏开发效率，还能帮助游戏开发者提升叙事策划的创意程度。</p>
-<p>除了育碧，腾讯、动视暴雪、索尼、微软等游戏大厂，均已或计划在游戏中使用AIGC内容，这也说明了“AI+游戏”赛道的前景不容小觑。</p>
-<p class="image-wrapper"><img data-img-size-val="692,468" src="https://img.36krcdn.com/hsossms/20241120/v2_88885d63f7314840890a48bdcc2b9cc2@5888275_oswg608482oswg692oswg468_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>回到全灵公司，前期通过3D+AI平台训练模型积累数据，并利用游戏和创作者生产的内容打响知名度，的确是一个不错的方向。在获得资金后，继而升级算法和模型打磨AIGC游戏引擎，不论是销售给游戏厂商还是最终被大厂收购，都是理想的结局。</p>
-<p>当然，市场中并非全灵一家公司在做AIGC游戏引擎。创业公司Scenario，目前在AIGC游戏资产平台领域已经小有名气，该公司可以通过用户输入的文本和参考图像进行AI模型训练，从而创造出达到游戏生产标准的游戏资产，如场景、角色、皮肤、装备和道具建模等等。类似的初创企业只会越来越多，而并非像王诗沐口中那么稀缺。</p>
-<h2><strong>大厂前高管们鏖战AI蓝海</strong></h2>
-<p>据不完全统计，中国互联网大厂离职高管中，投入到AIGC领域的多达十几位。除了文中的王诗沐，比较有代表性的还包括前小度CEO景鲲，《华尔街科技眼》曾报道过其创办AI搜索引擎MainFunc的细节。（详情见：敢打仗的景鲲离场，百度硬件生态战略该叫停！）</p>
-<p>另外，还有原京东副总裁梅涛，创立HiDream.ai公司，致力于开发AI图像及视频生成大模型；原阿里副总裁贾扬清，其初创公司LeptonAI则专注AI基础架构；原百度副总裁李硕，创办丽阳神州开发垂直大模型；原腾讯副总裁姚星，选择进入通用大模型、3D+大模型赛道等等。</p>
-<p>虽然前高管们背景不尽相同，但相同之处是都主导过明星产品的开发，具备一定的国际视野，选择在2022至2023年期间创业，且创业项目多为海外市场先行。当然，由于创业时间较短，暂时还没有现象级的产品问世。</p>
-<p>一个新兴市场，机遇和挑战是并存的。据IDC数据显示，仅仅是中国AI及AIGC市场，五年复合增长率便达到86.2%。高速增长的另一面，必然是残酷激烈的竞争，参考此前Web 1.0、社交媒体或是电商1.0时代，倒下去的创业者不计其数，很多名噪一时的明星产品也都成为记忆。</p>
-<p class="image-wrapper"><img data-img-size-val="693,527" src="https://img.36krcdn.com/hsossms/20241120/v2_f8cc33c117674e429d04f4ef0077bce4@5888275_oswg73104oswg693oswg527_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>不过，<strong>投资机构对于王诗沐的全灵还是非常看好的。</strong>据报道称，美图投资负责人表示：“SEELE AI在游戏内容生成领域展现出的技术突破令人瞩目。这种创新不仅契合美图的理念，更代表了内容创作工具的未来发展方向。我们期待与SEELE一起，推动AI驱动的创意革命。”</p>
-<p>另外，富坤创投投资负责人、Webtime Information S&amp;T投资负责人均对全灵的AI技术力表示肯定，更是看好其技术在游戏、虚拟场景带来的价值。至于王诗沐能否在网易云音乐之后再次创造一个现象级的产品，可能只有交给时间解答了。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/7uOlA0yVNSPwwFw_BSbvqg" rel="noopener noreferrer nofollow" target="_blank">“华尔街科技眼”</a>，作者：WS团队，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044653331499906</guid><pubDate>Wed, 20 Nov 2024 20:03:00 +0800</pubDate></item><item><title>流媒体续盈利，迪士尼股价走出阳线</title><link>https://36kr.com/p/3044664039443076</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在财年结束之际，迪士尼为投资人带来期待已久的好消息。</p>
-<p>在最近的季度，以Disney+为首的流媒体业务再度录得整体盈利，同时《死侍与金刚狼》引领制片业务大幅反弹，再加上管理层对未来两年的展望相当积极，驱动迪士尼股价开盘后直线上扬，重新缩小与Netflix的市值差距。</p>
-<h2><strong>娱乐部门双线飙升，漫威影业谷底翻身</strong></h2>
-<p>11月14日，迪士尼发布截至9月28日的第四季度暨全年财报。在该季度中，迪士尼的总收入达到225.74亿美元，较去年同期的212.41亿美元提高6%；所得税前收入则为9.48亿美元，同比去年录得的10.07亿美元下跌6%。若排除部分项目，稀释后每股收益从0.82美元上涨至1.14美元，增幅高达39%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_93347b64d8f8489d8c6b248198f498b6@000000_oswg78111oswg1024oswg698_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">迪士尼总体营收情况 </p>
-<p>具体来看，娱乐部门再度成为迪士尼的业绩亮点，不仅当季营收从95.24亿美元增至108.29亿美元，运营利润更从2.36亿美元飙升至10.67亿美元，同比涨幅超过352%。</p>
-<p>其中，以流媒体为主的直接面向消费者板块走势强劲，该季度总营收达到57.83亿美元，比去年同期的50.36亿美元上扬近15%，同时录得2.53亿美元的运营利润，扭转上年4.2亿美元的亏损额，逐渐走出“烧钱换成长”的泥潭。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_dd13107de036474d81f08ddffe6824d6@000000_oswg283520oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">迪士尼娱乐部门营收情况 </p>
-<blockquote>
-<p>在该季度内，旗舰平台Disney+的核心订阅数环比新增440万，推动总用户量攀升至1.227亿；而Disney+Hotstar终于止住颓势，单季微增40万至3590万，同时Hulu从5110万略升至5200万，迪士尼的订户基数实现稳健增长。</p>
-</blockquote>
-<p>再叠加分属体育部门的ESPN+平台，迪士尼旗下的所有流媒体录得整体盈利，连续两个季度完成止损的目标。</p>
-<p>若作横向对比，Netflix的单季新增用户数为507万，华纳兄弟探索旗下的Max更达到720万，各大流媒体服务均有不俗斩获。9月中旬，《女巫阿加莎》和《企鹅人》仅相隔一天上线，分别成为Disney+和Max的“吸粉利器”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_469e8d373c7840a3ad500ec40200d134@000000_oswg172715oswg865oswg635_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：雷报） </p>
-<p>同属娱乐部门的内容销售/授权板块也迎来强势反弹，季度收入同比大涨39%至25.85亿美元，更录得3.16亿美元的运营利润，大幅翻转去年1.49亿美元的亏空。</p>
-<p>这其中，迪士尼的制发业务重新焕发生机，首功之臣便是由漫威影业出品的《死侍与金刚狼》：该片在7月底公映后便横扫票房榜，改写R级电影的本土和全球纪录，迄今院线总收益已超过13.3亿美元，为“漫威电影宇宙”打赢翻身仗。同时，皮克斯新作《头脑特工队2》在该季度仍有不俗斩获，而由20世纪影业操盘的《异形：夺命舰》也“以小博大”，相较去年同期《幽灵鬼屋》的低迷表现，迪士尼的电影业绩自然今非昔比。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_964886594aab41768ee83e5441945b47@000000_oswg62043oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">《死侍与金刚狼》《头脑特工队2》《异形：夺命舰》票房情况（图源：猫眼专业版） </p>
-<p>不过，以传统电视资产为主的有线网络板块则深陷衰退之中，营收和利润分别录得6%和38%的跌幅，不论本土抑或海外频道都比去年滑坡，在娱乐部门内的地位正直线下降，未来被流媒体全面超越只是时间问题。</p>
-<p>另外，包含迪士尼乐园等线下业务的体验部门涨跌互现，该季总营收同比微增1%至82.4亿美元，运营利润却下滑6%到16.59亿美元，与前一个季度的情况相近。以地域划分，本土的游客人数与上年同期相当而消费增加，即便邮轮新产品推高相关费用和成本，仍无碍业绩取得个位数成长；反倒是国际部分展露出疲态，营收和利润分别下降5%和32%，成为拖累部门整体表现的最大因素。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_5a547fd79f904c7fbffb7b48dd0063ec@000000_oswg286880oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">迪士尼体验部门营收情况‍‍ </p>
-<p>最后，体育部门当季营收达到39.14亿美元，与去年的39.1亿美元基本持平；运营利润则录得9.29亿美元，同比跌幅为5%。其中，ESPN的收入占比放大至98.5%，主攻印度的Star India尚未形成足够规模。</p>
-<p>在流媒体方面，ESPN+的总订阅数微增3%至2560万，单户每月平均收入却缩水到5.94美元，凸显多服务打包等低价套餐的影响。另外，迪士尼披露所有流媒体的利润合计为3.21亿美元，减去直接面向消费者板块的2.53亿美元，可知ESPN+的盈利贡献达到6800万美元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_31941e81bd0b44cfb1ed7825aaf76e73@000000_oswg133327oswg1080oswg568_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">迪士尼体育部门营收情况 </p>
-<p>在财报中，迪士尼CEO鲍勃·艾格表示这是“公司关键而成功的一年”，在“走出充满挑战和动荡的时期”后，管理层将“利用业内最深、最广泛的娱乐资产，来获得可观的回报并进一步推进目标”。</p>
-<h2><strong>展望释放积极信号，接班规划引发关注</strong></h2>
-<p>放眼未来，迪士尼同样给出令投资人满意的指引数字：在2025财年，迪士尼预计稀释后每股收益将同比取得高个位数成长，运营产生的现金和资本支出分别约为150亿美元和80亿美元，并将投入30亿美元用于股票回购。</p>
-<p>具体来看，即便第一季度Disney+的核心订阅数环比预计略有下降，但娱乐部门直接面向消费者板块的运营利润仍有望同比增长约8.75亿美元，将推动整个部门的运营利润实现双位数成长。同时，在计入印度业务的影响后，体育部门的运营利润预计将下降约10%。</p>
-<p>体验部门的运营利润预计将同比增长6%至8%，且主要集中在下半年；因为第一季度受到飓风“海伦”和“米尔顿”侵袭，对运营利润的不利影响约为1.3亿美元，而迪士尼邮轮开航前的成本也达到9千万美元。</p>
-<p>到2026财年，迪士尼预计稀释后每股收益和运营产生的现金都将录得双位数成长，其中娱乐订阅视频点播直接面向消费者（SVOD DTC）业务的毛利率可望达到10%，不含Hulu直播数字多频道视频节目分销商（Live DMVPD）服务。</p>
-<p>换句话说，迪士尼已瞄准在两年内实现主要流媒体平台的稳定盈利，这为惴惴不安的投资者吃下一颗定心丸。再加上体育和体验部门的运营利润预计将录得个位数增长，届时迪士尼的所有部门都有望迈上成长轨道。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_46792d1b69c341ed9d74207e6db53589@000000_oswg18710oswg908oswg511_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>另一个备受外界关注的问题是CEO鲍勃·艾格的接班人计划。据《好莱坞报道者》披露，摩根士丹利前CEO詹姆斯·戈尔曼将于明年初接手迪士尼董事长，目标是在“2026年初”决定艾格的继任者。</p>
-<p>目前多位内部高管都被视为有力竞争者，包括迪士尼娱乐联席主席达娜·沃尔登和艾伦·伯格曼、迪士尼体验主席戴明哲（Josh D'Amaro）及ESPN主席吉米·皮塔罗等，而招募来自公司外的候选人也是可选项之一。在艾格取代亲自挑选的鲍勃·查佩克回任CEO后，迪士尼的接班人安排便被置于聚光灯之下，对比Netflix创始人里德·哈斯廷斯顺利将职权交给特德·萨兰多斯和格雷格·彼得斯，迪士尼董事会无疑面临不小的压力。</p>
-<p>在年报中，迪士尼表示2024财年的内容支出达到234亿美元，而明年预计将略微提升至240亿美元，但大部分增幅来自体育节目成本的上升，包括美国职业橄榄球大联盟（NFL）和美国职业篮球联赛（NBA）的合同费率上涨。在第四季度财报电话会议上，艾格表示将“在美国以外进行一些选择性投资”，但在获得减少客户流失的正确技术之前，这些投资计划会偏于谨慎。针对影视项目，艾格的新内容战略将重点关注大片而减少剧集支出，以进一步“提高利润率和发展业务”。</p>
-<p>即便在内容投资上不再挥金如土，迪士尼开拓海外市场的步伐并未止歇。11月8日至10日，迪士尼在巴西圣保罗连续三天举办D23体验活动，漫威影业总裁凯文·费奇、皮克斯制作执行副总裁乔纳斯·里维拉等轮番登台，不仅公布《海洋奇缘2》、《狮子王：木法沙》和《美国队长4：美丽新世界》的新预告片，还透露《创：战神》、《曼达洛人与古古》和《玩具总动员5》等项目的进展。面对成长迅速的拉美市场，迪士尼官宣将为巴西开发一系列独家内容，凸显对葡语和西语观众的重视。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_7cb9be306baa412b910a0cae6e5237cd@000000_oswg626984oswg1040oswg880_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">迪士尼今明两年电影公映计划（图源：雷报） </p>
-<p>在财报发布后，迪士尼股价于14号直线上扬，最高一度叩开110美元关口，收盘时报于每股109.12美元，单日涨幅达到6.23%。以此计算，迪士尼总市值再次迫近2千亿美元。这与上月Netflix的走势相贴合：在财报后首个交易日，Netflix股价便飙升逾11%至763.89美元，本月更一举突破8百美元大关，截至14日收盘已达到837.26美元，推动公司市值超过3578亿美元。</p>
-<p>值得一提的是，Netflix股价正在持续改写历史新高，但迪士尼与三年前触及的201.91美元顶点尚有距离，两大娱乐巨头的王座争夺战还在继续。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2MjYxNTUyMQ==&amp;mid=2247604654&amp;idx=2&amp;sn=730432924149a4f02476d48c86f22ff1&amp;chksm=cf39a098979f60732b47a41aba08b8969453c35ca922fb7ff696e23a37d084c8687d57d565f5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“毒眸”（ID：DomoreDumou）</a>，作者：毒眸编辑部，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044664039443076</guid><pubDate>Wed, 20 Nov 2024 20:03:00 +0800</pubDate></item><item><title>再战盒马、美团，京东即时零售发起第五次突围</title><link>https://36kr.com/p/3044648551959173</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 21 Nov 2024 07:30:25 +0800</lastBuildDate><pubDate>Thu, 21 Nov 2024 07:30:25 +0800</pubDate><item><title>再战盒马、美团，京东即时零售发起第五次突围</title><link>https://36kr.com/p/3044648551959173</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>近日，京东七鲜与前置仓完成融合，并喊出“击穿价，真便宜不怕比”的口号，向盒马、美团小象、叮咚买菜等对手宣战。</p>
 <p>七鲜在即时零售战场的价格战还在持续加码。11月15日，七鲜在官方公众号喊话“便宜10%！对手敢跟七鲜就敢继续降”，表示将加大“击穿价”的力度。</p>
 <p>七鲜是京东在2017年对标盒马而创立的项目，同样是店仓一体的模式。更早在2015年，京东便成立了生鲜冷链项目组，投资了天天果园和永辉超市，并于2016年1月正式成立京东生鲜事业部。</p>
@@ -452,4 +189,354 @@
 <p>「暗涌Waves」正在招募同行者、前往我们关注的各个地区。如果你对全球化主题感兴趣，邀请你扫码参与暗涌「Waves Odyssey」调研。我们期待集思广益，打造一个互动的、共同探索的「全球化出游」社区。</p>
 <p class="image-wrapper"><img data-img-size-val="1080,1473" src="https://img.36krcdn.com/hsossms/20241121/v2_6cb64666ee9f41b7a17993de4690f206@5507783_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <p class="img-desc">扫码进入调研</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044912877931398</guid><pubDate>Thu, 21 Nov 2024 00:06:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044912877931398</guid><pubDate>Thu, 21 Nov 2024 00:06:00 +0800</pubDate></item><item><title>量化圈“大嘴”失联，幻方量化缘何被传言“击中”</title><link>https://36kr.com/p/3045007317437058</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>11月20日，一则失联传闻惊动了内地私募圈。</p>
+<p>这一天下午，社交媒体传出幻方量化旗下“有员工因涉及券商返佣被抓”，让人吃惊不已。</p>
+<p>之后，幻方量化对资事堂进行了回应，但“切割”了公司与涉事员工的“关系”。</p>
+<p>更为关键的是：这位员工并非普通员工，而是幻方量化的“市场总监”级员工，并总是语出惊人让外界议论纷纷。</p>
+<p>如今，这位准高管级别人物的“消失”——据传已有多日——让业内人士摸不着头脑，会否引发量化行业的涟漪，始终是未知之数。</p>
+<p>那么，这位“发言人”究竟是谁？可能牵扯了什么事情？</p>
+<h2><strong>幻方量化回应</strong></h2>
+<p>针对此前坊间传闻，幻方量化官方回复资事堂：</p>
+<p><strong>相关人员系因涉及外部事项从而配合调查。经公司确认，这是其个人事务，与幻方量化无关。</strong></p>
+<p>这位涉事的高管据称是李橙，是幻方量化主管市场营销的负责人之一，多次在不同场合代表幻方量化发声。</p>
+<p>多位私募从业人士对资事堂表示：关于李橙“失联”的传言在业内已经流传至少一周的时间，但具体进展及涉事原因说法众多，莫衷一是。</p>
+<p>且多人证实，李橙的微信朋友圈已停止更新数日。</p>
+<p>而且，限于公开信息有限，外界目前无法确认李橙的状态。至于他是否被正式调查，亦或是配合调查，抑或是其他状态，甚至连幻方公司自己可能都无法确定。</p>
+<h2><strong>代销银行已接到沟通</strong></h2>
+<p>此外，代销幻方产品的头部银行机构，据悉收到了幻方量化关于旗下高管事件的沟通。</p>
+<p>相关方面还透露出一些信息：</p>
+<p>其一，幻方量化已经开始“正面回应”相关事件。</p>
+<p>其二，涉事高管并非幻方投资研究核心人员。</p>
+<p>其三，幻方坚称该人士涉查的原因和公司无关。</p>
+<h2><strong>涉事高管有何背景？</strong></h2>
+<p>一个重要问题就来了：李橙究竟是谁？为何他的事情成为了业内热议话题？</p>
+<p>实际上，李橙在量化圈有着“大嘴”的称号，他经常发表新奇或大胆的朋友圈内容，并进一步引来行业人士的热议。</p>
+<p>比如，2024年1月市场超预期调整之时， 他发文：</p>
+<p>“从期货转行股票的哥们决定回去了，留下一句话：这个受不了了，风险太大了，还是期货稳。“</p>
+<p>再如：2023年9月，他吐槽但斌：</p>
+<p>“太夸张了，募集国内资金，满仓纳指”，“懂了吗？砸A股，买日股，买美股”。</p>
+<p>又如：他还曾对相关行业政策文件评价为：</p>
+<p>“有影响又没影响”。</p>
+<h2><strong>产品销售的“风险地带”？</strong></h2>
+<p>虽然没有更多的关于涉事高管被调查的具体原因，但越来越多的传言指，私募部分高管或牵扯进了私募与券商在销售过程中发生的“利益链条”之中。</p>
+<p>资事堂和业内人士沟通后发现，个别私募机构在产品销售中，却是有着诸多同行无法“模仿”之处。</p>
+<p>而这些“独特”的安排，可能构成涉事人员“自行其事”的空间乃至更多的风险。</p>
+<p>其一，自上而下的强势推销。</p>
+<p>通常来讲：私募机构洽谈银行代销时，顶多会达到省一级、市一级的银行分支机构进行合作。</p>
+<p>但业内有个别私募是可以凭借资源网络，直接上达大型商业银行的总行层面的，并由总行进行“自上而下”的推动。后者会达到更好的代销效果的同时，相关机构拿出的资源也会更多。</p>
+<p>其二，绑定中小券商“强力”合作。</p>
+<p>对很多私募机构来说，它们与实力代销渠道（部分券商、银行）的合作通常是相对松散和弱势的。</p>
+<p>但有些机构不然，原因是它们手握的一些资源，比如部分券商机构迫切需要的成交量。这些关键资源可以推动相关机构“全力配合”。这个过程，可能会出现双方更多的隐匿交换和合作。</p>
+<p>其三，背景调查缺失，渠道与私募仍是“陌生人”。</p>
+<p>部分代销渠道在利益的驱使下，数次出现对私募创始团队背景审查不严的情形，之后相关私募被曝出内部严重治理问题，特别是股权代持、法律纠纷、知识产权、人事纷争等等。遇到上述窘况，代销渠道“姗姗来迟”与私募进行沟通，之后安抚投资人。</p>
+<p>这些情况未必与此次被调查高管事件有关，但确实值得有关各方警惕并下决心防微杜渐。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ICIiovyES-nw9uznYjS28A" rel="noopener noreferrer nofollow" target="_blank">“资事堂”</a>，作者：孙建楠，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3045007317437058</guid><pubDate>Thu, 21 Nov 2024 07:14:00 +0800</pubDate></item><item><title>登上“最不可能作弊”的榜单，阶跃星辰Step-2位列中国大模型第一</title><link>https://36kr.com/p/3045007777614467</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,454" src="https://img.36krcdn.com/hsossms/20241121/v2_a4f6b7c3d75943f09c80f37bf1acdde0@46958_oswg132472oswg1080oswg454_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>11月19日，国际权威榜单LiveBench官网公布了最新的语言大模型测评结果：作为唯一进入前十名的中国公司，阶跃星辰自研的万亿参数语言大模型<strong>Step-2-16k-202411（下文简称Step-2）位列全球第五，成绩逼近OpenAI的o1-mini-2024-09-12，超越 gpt-4o-2024-08-06、gemini-1.5-pro-002等国际主流模型，是表现最佳的中国基座大模型。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,877" src="https://img.36krcdn.com/hsossms/20241121/v2_23e810e3f82b44bd89d9cb82dbfce57c@46958_oswg200928oswg1080oswg877_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源： LiveBench官网 </p>
+<p>根据榜单，<strong>Step-2在IF Average（Instruction Following）一项表现突出，超越包括 o1-preview-2024-09-12 在内的所有国内外语言大模型</strong>。</p>
+<p>在AI届， LiveBench榜单一直以严苛的标准被人称为“最难AI榜”。而在国内AI“六小强”中阶跃星辰一直以技术实力强和低调著称，此次登顶LiveBench榜单中国第一，也掀开了这家大模型创业公司的神秘面纱。</p>
+<h2><strong>1.最权威榜单的最惊艳亮相</strong></h2>
+<p>事实上，LiveBench是今年新推出的大模型基准测试，但它已经迅速跻身为AI圈“最具权威性和挑战性”的榜单。</p>
+<p>不仅因为LiveBench是由图灵奖得主、Meta 首席 AI 科学家杨立昆（Yann LeCun）联合 Abacus.AI、纽约大学等机构推出的大模型测评基准，更因为它特殊的评测机制，被行业内誉为“无法被操纵的LLM基准测试”。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,943" src="https://img.36krcdn.com/hsossms/20241121/v2_e81342d22d514b6393d971736e56eda7@46958_oswg319676oswg1080oswg943_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：LiveBench官网</p>
+<p>LiveBench自设立之初就致力于消灭“刷榜作弊”的可能性：在评估前就用评估基准数据集相关或完全相同的数据进行训练，最终取得较高排名（就像手机厂商针对安兔兔跑分优化一样）。</p>
+<p>而且LiveBench每月会发布新问题，并根据最近发布的数据集、arXiv论文、新闻文章和IMDb电影简介设计问题，以限制可能出现的数据污染现象，并且每个问题都有可验证的、客观的基本真实答案，最大限度保证结果的客观性。</p>
+<p>LiveBench的权威性也部分源自评测范围广泛，截至今年6月，已经评估了几个著名的闭源模型和数十个开源模型。</p>
+<p>LiveBench有多难？此前GPT-4-Turbo曾在SuperCLUE-OPEN基准上取得了98.40的高分。但在LiveBench上，GPT-4-Turbo整体准确率却只有50%左右。</p>
+<p>在这样严苛的测试标准下，阶跃星辰Step-2-16k-202411万亿参数MoE模型不仅拿下了中国第一、全球第五的名次，其成绩更是超越了GPT-4o-2024-08-06 、gemini-1.5-pro-002等国际主流模型，直逼OpenAI 的o1-mini-2024-09-12。</p>
+<p>尤为值得一提的是，<strong>Step-2在IF Average（Instruction Following，指令跟随）一项表现突出，超越了包括o1-preview-2024-09-12 在内的所有国内外语言大模型</strong>。这项指标意味着大模型在语言生成上对细节有最强的控制力，模型能够更好地理解和遵循人类指令。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,914" src="https://img.36krcdn.com/hsossms/20241121/v2_11d2234148d744f99a5a946ded79e605@46958_oswg196022oswg1080oswg914_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">Step-2-16k-202411指令跟随能力全榜第一，图源：LiveBench </p>
+<h2><strong>2.模型能力不断进化，指令跟随全榜第一</strong></h2>
+<p>阶跃星辰之所以能够首次参加LiveBench评测就取得如此高的成绩，与其自研Step-2大模型的两大特点密不可分——<strong>万亿参数和MoE架构。</strong></p>
+<p>相对于阶跃星辰自研的千亿参数语言大模型Step-1，Step-2的综合能力提升了近50%，无论是编程、逻辑推理、数学、知识等维度都能更好地解决问题。</p>
+<p>在模糊指令方面，Step-2具备出色的理解能力，能够从上下文中推断出用户的需求，精准捕捉用户在模糊指令中的真实意图，提供更准确、个性化的响应。在知识分布方面，Step-2在知识覆盖范围和深度上都取得显著突破，不仅能够处理常见领域知识，还能深入理解和回答在特定领域或边缘分布中的复杂问题。</p>
+<p>我们在阶跃星辰的C端智能助手「跃问」上测试了Step-2的效果。</p>
+<p>给出一道数学题，「跃问」能很快给出解答。</p>
+<p class="image-wrapper"><img data-img-size-val="672,269" src="https://img.36krcdn.com/hsossms/20241121/v2_4aa0e024aa354dbcb67dd86f39c3480b@46958_oswg82515oswg672oswg269_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">数学题，图源：跃问 </p>
+<p>在文字创作方面，Step-2能够生成高质量、有创意的文字内容，同时具备出色的细节控制能力，能够根据用户的指令对文本进行精确地调整和优化。</p>
+<p>阶跃星辰CEO姜大昕认为，想把模型参数扩大到万亿的话，MoE几乎是一个必选项。但从千亿模型到万亿模型，所遇到的挑战是前所未有的。阶跃星辰团队在设计Step-2 MoE架构时候选择了迎难而上，完全自主研发从头开始训练。</p>
+<p>通过部分专家共享参数、异构化专家设计等创新MoE架构设计，Step-2中的每个“专家模型”都得到充分训练，不仅总参数量达到了万亿级别，每次训练或推理所激活的参数量也超过了市面上的大部分稠密模型。</p>
+<p>这也是Step-2之所以具有超强能力的根本原因所在。</p>
+<h2><strong>3.模型矩阵完善，战略布局全面</strong></h2>
+<p>大模型算法结构复杂、对算力要求高、对数据需求大，大语言模型和多模态大模型的技术路线也存在差异。也正是因此，不少公司都选择了“取其一点、打穿打透”的策略，专攻大语言模型或多模态大模型。</p>
+<p>但阶跃不同。在众多国产模型厂商中，阶跃星辰是为数不多同时布局大语言模型与多模态模型、两个方向齐发力的公司。</p>
+<p>除了完整、全面的模型矩阵，阶跃星辰的模型迭代速度也走在全国前列：</p>
+<p>在2024年3月23日的全球开发者先锋大会上，阶跃发布了语言大模型Step-2的预览版——这也是国内初创公司，首次交出的万亿参数模型的答卷。</p>
+<p>而今年7月，仅仅时隔100天，阶跃星辰就在2024 WAIC上发布了Step-2万亿参数大语言模型正式版，以及Step-1.5V多模态大模型、Step-1X图像生成大模型。</p>
+<p>相较于其他厂商每半年或一年才更新一个新版本，阶跃星辰的迭代速度不可谓不快。</p>
+<p>目前，阶跃星辰 Step 系列通用大模型矩阵，已经覆盖了从千亿参数到万亿参数，从语言到多模态，从理解到生成的全面能力。</p>
+<p>阶跃星辰创始人兼CEO姜大昕认为，要实现AGI的终局需要走一条“<strong>单模态—多模态—多模理解和生成的统一—世界模型—AGI（通用人工智能）</strong>”的路。</p>
+<p>今年随着o1的发布，AI技术也出现了新的范式，国内外基座大模型研发的竞赛还在继续。相信包括阶跃星辰的国产大模型，会继续在实现AGI之路上创造更多惊喜。</p>
+<p>（封面图来源：阶跃星辰官网）</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1BD9zKM3AKSWQYY250yFkQ" rel="noopener noreferrer nofollow" target="_blank">“甲子光年”</a>，作者：王艺‍‍‍，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3045007777614467</guid><pubDate>Thu, 21 Nov 2024 07:18:00 +0800</pubDate></item><item><title>第一批新能源车主，已经成了“发展的代价”？</title><link>https://36kr.com/p/3045007691811462</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>什么情况下，你会愤怒到想把车炸了？ </p>
+<p class="image-wrapper"><img data-img-size-val="640,331" src="https://img.36krcdn.com/hsossms/20241121/v2_02d7b3e774d7456faa28ccf4082d11b2@46958_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>这是YouTube上播放量过百万的视频。一位芬兰的Model S车主，花了5.74万美元购车，出故障送去维修， <strong>却被告知要付2.26万美元的天价换电池费，一气之下转头就搞了30公斤炸药，直接一键归零。</strong></p>
+<p>气炸了就炸车，还是第一回见。但也说明 ，新能源汽车换电池这事儿，能把人逼疯到什么程度。 </p>
+<p>随着第一波新能源车的动力电池服役期满8年，第一批汹涌的“换电潮”来临，新能源车主们也终于体会到了什么叫—— <strong>买车一时爽，换电火葬场。</strong></p>
+<p>话说回来， <strong>还是洋人有创意，</strong> 今天的中国车主们，同样面对“20万买车，10万换电池”的荒唐事，就是气炸了也想不出还真能把车炸了这招。最多在互联网上大骂一通，发个 <strong>“避雷新能源车”</strong> 的小红书帖，再忍痛换新电池，或者干脆换回燃油车，高喊 <strong>“油门永存”</strong> ，才是典型的中式操作。 </p>
+<p>但不管是真把车炸了的芬兰车主，还是假装扬言要把车砸了的中国车主，不同行为的背后是一样的隐喻： </p>
+<p><strong>在新能源车“重前轻后”的产业链建设进程中，第一批新能源车主，可能将为推动新能源车后服务市场的完善，付出意想不到的高额代价。</strong></p>
+<h2><strong>01</strong></h2>
+<p>最近半个多月，很多新能源车主已经在各大社交平台密集吐槽： </p>
+<p>“我买车落地花了25万，更换电池居然要12万，差不多是半台车的价格了。” </p>
+<p>“检查费78千，电池维修16万，更换22万，八年半的特斯拉Model S，何去何从” </p>
+<p>“长安启源的A07电池磕了一下，一点儿也不严重，但是到4S店说，你如果要进行维修的话，只能更换电池，换电池要12万，但是这辆车才值17万，保险公司当时就不同意了。” </p>
+<p>“8年前22万买的比亚迪，现在换电池报价竟然高达10万元，简直上了个大当” </p>
+<p>...... </p>
+<p><strong>换车一时爽，换电火葬场。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,575" src="https://img.36krcdn.com/hsossms/20241121/v2_2599f3c10750474889ac6d04a763ce98@46958_oswg60177oswg1080oswg575_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>分品牌来看，根据公开数据统计，上面这几家主流车企里，蔚来100度的电池包标价16.8万元，不仅新车平均售价在这几家车企里数一数二高，换电费也荣获榜首。 </p>
+<p>所以还是说， <strong>李斌确实不坑穷人。</strong> 毕竟，蔚 来车主大多不会一块电池用8年，按照蔚来新的换电服务收费方式，当换得电量大于20度时，车主单次换电费用按下面这个公式来套： </p>
+<p>一次换电费用=基础服务费（9.9元）+（度电电费+度电服务费）×换得电量 </p>
+<p>举个例子就是，蔚来车主换电前剩余电量25%，更换了一块电量为95%的100度电池，换得电量就是100×（95%-25%）=70度电。按照0.5元/度的电价和0.3元/度的服务费算，一次换电价格就是65.9元。 <strong>假设一周换一次电，正常使用下来，8年换电补能的费用也不到3万元。</strong></p>
+<p>倒是只能充电补能，不能换电补能的2023款极氪001车主，最高价30多万时买到手，不仅眼睁睁看着车企一年更新三代，一旦要自费换电池，还得再掏15万，几乎 <strong>不是被背刺，就是在被背刺的路上。</strong></p>
+<p>那么，换电池究竟为什么这么贵？ </p>
+<p>首先， <strong>贵还是有贵的道理。</strong>传统燃油车，发动机和变速箱加起来约占整车零部件成本的25%左右，但动力电池往往能占到新能源车零部件成本的50%左右。 </p>
+<p>中保研汽车技术研究院今年10月发布了第18期汽车零整比体系指标研究成果，在采样的59款纯电新能源车型中，动力电池包单件零整比均值为50.96%，单位能量电池包价格均值为1604.92元/千瓦时。 </p>
+<p>也就是说， <strong>一块60kw的电池包，最低售价都是96295.2元。源头上就注定了换电池不可能便宜。</strong></p>
+<p>其次，换电池是一项大工程。今天的新能源车续航性能不断有历史突破，而突破的方式其实多半是改变电池包的物理结构，而非电芯的化学结构。简单来说，车企要增加续航，最简单的方式就是在有限的车身空间中塞入更多的电芯和电池组，从而创新了各种电池包安装结构，从电芯电池包一体化，到电池车身一体化等等。结果就是， <strong>当电池发生故障，很难把单个故障电芯从电池包上安全拆下来，只能换掉整个电池包。</strong></p>
+<p>从这一点来看， <strong>新能源车的经济性和可持续性倒游离了行业发展的预设轨道。</strong></p>
+<p>再者， <strong>市场少了条鲶鱼。</strong> 别看车企在前端销售市场斗得你死我活，后服务市场却还是各自的一亩三分地。以前燃油车主为了省钱，可以选择不去4S店，去第三方公司售后维修。但新能源车企几乎垄断了新能源车的后服务市场和定价权，涉及到三电系统，车主必须前往车企指定的维修中心或4S店售后。 </p>
+<p>所以，尽管电池原材料碳酸锂的价格今年已经降到了每吨10万以下，但换电池的费用依旧很高， <strong>市场压根没有降价的动力</strong> 。基于此，也可以暗戳戳揣测一下，车企价格战不休，新车销售赚不到钱，车厂得靠卖原厂配件维持利润，对消费者来说，是不是也颇有一种 <strong>“明降暗升”</strong> 的意味在。 </p>
+<p><strong>毕竟去4S店买车的时候，销售不会告诉你8年后还得再付个10万买电池。</strong></p>
+<p>这又引出了另外一个重要问题： </p>
+<p><strong>第三方公司，为什么很难进入核心三电系统的售后维修？</strong></p>
+<h2><strong>02</strong></h2>
+<p>答案之一，可能还是新能源汽车发展太快了。 </p>
+<p>据中国汽车维修行业协会统计，我国现有燃油汽车维修保养相关的企业约40万家，而新能源汽车维修企业只有2-3万家。 </p>
+<p>后端服务市场之所以没有前端销售市场大干快上的风气，原因得分两步看。 </p>
+<p>车企不愿意放权，因为肥水不流外人田，也因为三电系统涉及到企业核心知识产权，不想授权，也不太好授权。 </p>
+<p>第三方公司的自身原因就更直接了： <strong>一没钱，二没人。</strong></p>
+<p>所谓没钱，指的是前期投入成本相比燃油车售后维修来说，要高得多。 </p>
+<p>对第三方公司来说，要进入三电系统的维修环节，必须配备安全的蓄电池和车辆放置空间，场所气温不能高也不能低， <strong>高了会爆炸，冷了会退化。</strong></p>
+<p><strong>除了必要的空间，还有额外的检测工具。</strong>第一财经的报道中，曾采访某汽车后市场连锁品牌新能源中心技术负责人，对方表示： </p>
+<p>“动力电池需要有一些设备的投入去支撑高效的维修：和传统的燃油车维修相比，动力电池维修需要增加检测设备，比如诊断电脑、解码器、诊断仪、万用表、绝缘表、气密仪；维护设备如模组充放电机、均衡仪、单机补电机等；如果涉及电芯的更换，还需要有激光焊接设备、超声波焊接设备等加工设备。除此之外，门店还需要投入消防设备和火情侦测传感器，对门店周围的环境也有评估要求。” </p>
+<p>一番折腾下来，要安全拆完、检测、维修、并重新安装好动力电池的难度要求，堪比拆炸弹。 </p>
+<p>而且，第三方公司不一定有得电池换。以前我们看油车身上的零部件，一家车企的不同车型几乎能实现大部分零部件的共享，售后备件就很方便，没有太多选择。但新能源车不同车企的电池不同，同一家车企的不同车型用的电池也不尽相同，甚至许多老款新能源车的电池配件已经停产了，只能单开一条售后生产线来生产旧款电池。 <strong>这里的生产成本和大批量的前期生产，万不能相提并论。</strong></p>
+<p>而一些有能力拆电池但没电池换的第三方公司，接到车主诉求后，只能等有同款车下来了，拆它的电池给客户装上，一等就是好几个月。 </p>
+<p><strong>所以，哪怕第三方公司场地有了，工具有了，万事俱备了，但最后搞不好吹来的不是东风，是西北风。</strong></p>
+<p>更何况，如今的第三方公司，大多不具备拆修动力电池的水平。 </p>
+<p>中国汽车维修行业协会会长张延华提供的统计数据显示，国内从事新能源汽修工作的人员不足10万人，其中仅有24.7%的技工能够从事电池检测及维护工作，不到5%的技工对辅助或自动驾驶有所了解，但不能完成相关维护工作。 </p>
+<p><strong>具备新能源汽车维修上岗条件的基本前提是要有汽车维修工证和电工证两本证书，但现有维修工中仅有24.2%的人取得了电工证书。</strong></p>
+<p>换句话说，前面的销售把车的性能夸得天花乱坠，等到真有问题了，维修人员还处在两眼一抹黑的原始阶段。 </p>
+<p>为什么前后两端的差异这么大？ </p>
+<p>其实是在整个新能源车的发展进程中， <strong>后端服务环节的“产学研”闭环还没形成。</strong></p>
+<p>通俗一点讲就是，前端的产业和技术一路狂飙，但并没有把相关知识输送进高校，尤其是职业院校，完成后端人才的储备工作。 </p>
+<p>说白了还是 <strong>壁垒没打通，知识产权没下放。</strong>因为油车的维修更多是机械工程和物理问题，传统职校那套教育体系已经较为全面，而且在实际工作中更多靠的是经验和“传帮带”来上手。但新能源车的维修没有参考对象，知识体系更复杂抽象。 </p>
+<p>但当前很多开设新能源汽车维修专业的院校，连教材都不成体系。而且， <strong>车厂不仅没向职校或者其他社会培训机构开放维修技术，还在和第三方公司抢维修工。</strong></p>
+<p>重庆日报报道，重庆工贸技师学院汽车工程系开设的新能源汽车维修专业， <strong>每年400多个毕业生，毕业前几乎全部与各大整车厂签约，</strong> 导致新能源汽车维修人才无法下沉到广大汽修门店。 </p>
+<p>所以，谁说大学生就业难的，只要专业选的好，大专也能进大厂。 </p>
+<h2><strong>03</strong></h2>
+<p>猥琐发育的后服务市场，最受伤的还是这些人： </p>
+<p><strong>第一批超过8年质保期的新能源车主、第一批破产新能源车企的车主，以及第一批营运车辆的新能源车主。</strong></p>
+<p>按照新能源车企大多8年15万公里的三电质保政策，到2025年，接近一百万辆新能源车将脱离车厂的三电系统质保期。 </p>
+<p>而市场调研机构Gartner认为，到2025年，中国新能源汽车保有量将达到4900万辆。一百万辆质保失效的新能源车虽然在4900万存量车面前份量不重，但就当前后服务市场的建设水平，很难让这群第一批吃螃蟹的新能源车主满意。 </p>
+<p class="image-wrapper"><img data-img-size-val="1014,587" src="https://img.36krcdn.com/hsossms/20241121/v2_8428b1c600fc426d91a7c68a10b53579@46958_oswg485480oswg1014oswg587_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>再就是第一批破产新能源车企的车主。从2018年到今年6月，有超过400家新能源车企宣告破产。 <strong>据中国汽车流通协会统计，目前国内申请破产或者已长时间不生产的新能源车企，涉及超16万存量车主。</strong></p>
+<p>对这些存量车主而言，车企倒闭一开始对他们的体感并不深刻，直到车主 <strong>“在修车的时候，才会发现车再也修不了了”。</strong></p>
+<p>一方面，是因为车企倒闭后，原厂配件就买不到了。车主除了选择大差不差的替代品，只能从等有别的同款车主出售，才能等来曙光。另一方面也是因为车企没有向第三方公司授权，维修公司只能针对汽车进行简单的改装、轮胎更换等外部维修工作，涉及到三电系统的，压根无从下手。 </p>
+<p class="image-wrapper"><img data-img-size-val="738,367" src="https://img.36krcdn.com/hsossms/20241121/v2_f43ec8e0e3114939a0ddcd52be90d368@46958_oswg26122oswg738oswg367_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：威马汽车百度贴吧 </p>
+<p>然后是 <strong>第一批营运车辆的新能源车。</strong> 事实上，部分车企的三电质保政策里，一开始就将用于营运的车辆排除在了质保范围外。 </p>
+<p>比如，比亚迪的“三电”系统终身保修责任免除条款中就有一条规定：若车辆使用性质为“营运、竞赛”等，“三电”系统终身保修服务将终止。但比亚迪却是当之无愧的网约车大户。2023年全国新增了85万台网约车新车，比亚迪一家就卖了19万辆。 </p>
+<p>相比私家车主的三电终身质保， <strong>网约车车主的质保范围缩水到6年60万公里。</strong></p>
+<p>个人车辆之外，第一批公共新能源车也开始 <strong>“退电还油”</strong> 。 </p>
+<p>目前为止，河北保定、湖北、江苏和南京多地出现纯电动公交车停运，甚至换回燃油车的情况。停运的这批纯电动公交车基本是在2015年投入运营，超过了电池8年的常规使用寿命。由于换电成本太高，只能被迫换回燃油车。 </p>
+<p>从这一方面来看， <strong>某种程度上，换电难、换电贵的问题，正在让行业开历史的倒车。</strong></p>
+<p>这显然与新能源车行业的发展愿景背道而驰。十年前，我们曾经“不惜一切成本代价”也要扶持新能源车走上正轨，如今步入行业后半场，政策退坡，车企主场，理应填补那些因超前发展而曾经忽略的市场空白。 </p>
+<p>这一点上，已经有车企主动撤下藩篱，通过授权三方公司的方式，给了消费者更多的选择权。 </p>
+<p>但目前的开放程度，远远不够覆盖所有车主的诉求。 </p>
+<p><strong>只有当后服务市场的完善程度能与燃油车后服务市场水平相当时，新能源车产业“重前轻后”的天平才能被掰正。</strong></p>
+<p>惟其如此， <strong>经历了“不惜一切代价也要做新能源车”阶段的第一批新能源车主，才有可能不沦为“发展的代价”。</strong></p>
+<p><strong>参考文章 </strong></p>
+<p>央视网.买得起，修不起！新能源车这个痛点该重视了</p>
+<p>每日经济新闻.新能源车买得起，修不起？“换小屏幕3万元，换电池20万元”，涨薪20%仍难觅靠谱维修人</p>
+<p>1039调查团.深度｜新能源汽车维修痛点如何破解？</p>
+<p>第一财经.“25万买车，12万换电池！”天价维修费揭秘</p>
+<p>三言Pro.买车20万，换电池10万，新能源车买得起、修不起？</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/2etuVKsq0CyvL8yvvPp3oQ" rel="noopener noreferrer nofollow" target="_blank">“智谷趋势Trend”</a>，作者：ivy，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3045007691811462</guid><pubDate>Thu, 21 Nov 2024 07:21:00 +0800</pubDate></item><item><title>蔚来销量创新高，但又亏了50亿，李斌剧透三款重磅新车</title><link>https://36kr.com/p/3045007503362951</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="850,450" src="https://img.36krcdn.com/hsossms/20241121/v2_c2676bc07d5c49529e35ceb6687c6fd5@46958_oswg236245oswg850oswg450_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>李斌定下新的flag：“蔚来2026年实现全面盈利”。 </p>
+<p>车东西11月20日消息，就在今天，蔚来发布2024年第三季度财报。 </p>
+<p class="image-wrapper"><img data-img-size-val="1000,353" src="https://img.36krcdn.com/hsossms/20241121/v2_8ef20bd9b65b469f81f0d92b6436a074@46958_oswg98910oswg1000oswg353_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲蔚来第三季度财报</p>
+<p>根据这份财报，蔚来汽车在今年第三季度<strong>销量和毛利率方向呈现增长</strong>，汽车交付量创历史新高，达6.19万辆，汽车毛利率提升至13.1%。 </p>
+<p><strong>但是同期蔚来三季度的盈利表现却不容乐观</strong>。</p>
+<p>蔚来三季度总营收为186.74亿元，同比减少2.1%，在汽车方面的营收为166.98亿元，同比下降4.1%。</p>
+<p>蔚来给出的解释是由于产品组合变动导致平均售价下降，但部分被交付量增长所抵销。</p>
+<p>值得注意的是，<strong>蔚来第三季度运营亏损为52.38亿，净亏损50.6亿元</strong>，同比增亏11.0%，环比增亏0.3%，经调整净亏损为44.13亿元，同比亏损增加约4.6亿元。</p>
+<p>当前，<strong>小米、理想、小鹏、极氪、零跑</strong>都已经公布了三季度财务数据，<strong>在这六家造车新势力里，蔚来的季度营收已经排到第2，与极氪相当，几乎是零跑的两倍。</strong></p>
+<p><strong>同时，蔚来现金储备排到第3，整车毛利率排到第4，销量排到第3，但净亏损超50亿金额最多，不仅垫底，甚至几乎接近另外四家亏损额之和</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,613" src="https://img.36krcdn.com/hsossms/20241121/v2_50c7f88a62bc4d83b4af8d12bce9bb04@46958_oswg149167oswg1000oswg613_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲6大新势力车企2024年三季度业绩对比</p>
+<p>在今晚财报会议上，蔚来汽车董事长、CEO李斌接连放出4大重磅信息点： </p>
+<p><strong>乐道明年将推出两款全新的车型，分别是6/7座SUV和大5座SUV</strong> ，<strong>与理想的L8/L7相比会有非常好的价格竞争力</strong>。</p>
+<p><strong>蔚来第三品牌为Firefly萤火虫</strong> ，<strong>定位类似宝马MINI，</strong>将在下个月的NIO Day 2024正式发布，<strong>将于2025年上半年开启交付</strong>。加上乐道，蔚来在一年内连发两个新品牌。</p>
+<p><strong>乐道的发布只影响了2成蔚来用户</strong> ，12月乐道交付将超过1万台，明年三月超过2万台，<strong>明年目标毛利率为15%</strong>。</p>
+<p><strong>蔚来目标是2026年全面盈利</strong> ，<strong>2025年蔚来总体销量翻番</strong>，粗略计算下或将突破45万台，<strong>明年毛利率要提升到20%</strong>。</p>
+<p>值得注意的是，早在2022年3月25日，在蔚来2021年财报电话会上，李斌首次对外宣布盈利flag，“蔚来希望在2024年实现全年盈利”，如今这一目标又将再度推迟2年。 </p>
+<p>单季度净亏损超50亿，李斌的压力可以想象。这也意味着，蔚来距离实现扭亏为盈还有很长的路要走。</p>
+<h2><strong>01.李斌称乐道两款新车比理想便宜 蔚来版MINI下个月发布</strong></h2>
+<p>在今晚的三季度业绩电话会上，蔚来董事长、CEO李斌正式预告乐道新车规划、蔚来第三品牌等信息，同时也对蔚来10月销量环比下降、第三季度净亏损超过50亿等财务状况进行了回应。 </p>
+<p>李斌表示，<strong>蔚来明年会实现100%的销量增长（至约45万台）</strong>。 </p>
+<p>具体在于，明年蔚来品牌会陆续切换到<strong>新NT3.0平台</strong>，进入到新产品周期，<strong>旗舰轿车ET9会是其中的首款车型</strong>，明后两年会完成产品的切换升级。 </p>
+<p>乐道方面，李斌称乐道L60现在的爬坡节奏也在预期内，L60和理想L6比便宜4万元左右，他对乐道销量增长非常有信心。 </p>
+<p class="image-wrapper"><img data-img-size-val="850,469" src="https://img.36krcdn.com/hsossms/20241121/v2_5b34760cda274c1ababc2cad5cec9183@46958_oswg175155oswg850oswg469_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲乐道L60</p>
+<p>李斌还表示，由于补贴的原因，现在乐道的需求肯定没有9月那么热，但试驾转化率在非常高的高位，远远高过蔚来的车，这说明乐道在所在的市场产品竞争力非常强。 </p>
+<p>现在蔚来要建立更多销售网络，乐道的门店和特斯拉、理想比还比较低，之后会开更多的店，建立销能，让大家看到。 </p>
+<p>李斌也进一步陈述了未来乐道的交付目标：“如果看完整的交付月的话，我们12月份也就是第三个完整交付月，能交付到1万台，明年3月份我们的产能和交付目标是2万台，我们认为这是一个合理的排货的节奏。” </p>
+<p class="image-wrapper"><img data-img-size-val="1000,611" src="https://img.36krcdn.com/hsossms/20241121/v2_450c101c82164fb588d52c6df97f7239@46958_oswg895670oswg1000oswg611_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲乐道L60</p>
+<p>李斌也进一步透露，乐道除了L60上量之外，还会推出两款全新的车型，一款是6/7座SUV，另一款是大5座SUV，与理想的L8/L7相比，会有非常好的价格竞争力。 </p>
+<p>蔚来CFO曲玉表示，乐道品牌明年的毛利率目标是要逐步做到15%。 </p>
+<p>李斌也在财报会上进一步预告了第三品牌的消息，蔚来正式将第三品牌命名为 “Firefly萤火虫”，并宣布首款产品与品牌同名。 </p>
+<p class="image-wrapper"><img data-img-size-val="1000,717" src="https://img.36krcdn.com/hsossms/20241121/v2_315fd057d3f3446cb9f638d53e2e8362@46958_oswg88817oswg1000oswg717_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲疑似萤火虫车型头部</p>
+<p>Firefly萤火虫定位于高端小车市场，将进一步丰富蔚来公司的产品组合，并借助现有销售渠道高效贡献销量。 </p>
+<p class="image-wrapper"><img data-img-size-val="1000,717" src="https://img.36krcdn.com/hsossms/20241121/v2_6b294721ec13400ab307b82175072513@46958_oswg80435oswg1000oswg717_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲疑似萤火虫车型尾部</p>
+<p>李斌说：“Firefly萤火虫在蔚来公司的定位，相当于宝马集团的MINI品牌。Firefly萤火虫品牌将于12 月21日的 NIO Day 2024正式发布，其首款车型也将在同日亮相，将于2025年上半年开启交付。” </p>
+<h2><strong>02.乐道只影响2成蔚来用户 明年一季度亏损好转</strong></h2>
+<p>除了透露新车规划外，李斌也对第三季度不容乐观的财务数据进行了解读。 </p>
+<p>李斌回复了10月交付量较9月交付量下降的原因。 </p>
+<p>李斌表示，蔚来品牌10月销量确有一定下降，但总体是主动调整，“因为我们意识到毛利压力非常大，而持续提高NIO品牌毛利是核心目标。因此在10月收窄了部分促销支出，这会对销量有一定影响，但都在预期之中。” </p>
+<p class="image-wrapper"><img data-img-size-val="751,1024" src="https://img.36krcdn.com/hsossms/20241121/v2_330932dd50d847729e83648493d39b02@46958_oswg164538oswg751oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲国内主要车企10月销售状况</p>
+<p>蔚来CFO曲玉同时表示，蔚来汽车在2025年将以15%的毛利率为基础，目标是提升至20%。 </p>
+<p>李斌也表示，经过蔚来内部分析，乐道对于蔚来用户的影响只有20%左右，确实有很少的一些用户因为乐道不买蔚来，但是获得的增量的话远远大于缩减量。 </p>
+<p>针对蔚来第三季度净亏损扩大，曲玉表示，蔚来同期销售费用在上升，主要来自乐道汽车的销售网络建设，到四季度也还会增加，年底目标要有300家店，要进一步的扩张，进一步招聘，明年全部整合完毕后会有平衡，明年一季度后盈利能力会好转。 </p>
+<p>李斌还提到了蔚来端到端进展，他表示，基于世界模型的端到端是未来，“我们已经将其用在量产车上，推送给了先锋领航团，已经用端到端做了些主动安全的功能，第三方的测试有很好的表现。我们在乐道上实现了纯视觉的城区领航辅助，接下来几个月会有新版本能看到产出。” </p>
+<h2><strong>03.蔚来单季净亏超50亿 年底2个月要卖车超5万台</strong></h2>
+<p>就在今天，蔚来发布2024年第三季度财报。财报显示三季度蔚来实现营收186.7亿元，环比增长7.0%，其中汽车业务营收为166.98亿，同比下降4.1%，环比增长6.5%。 </p>
+<p>净亏损方面，蔚来第三季度净亏损为50.6亿，同比增长11%，环比增长0.3%，调整后净亏损为44.13亿，同比增长11.6%，环比下降2.7%，运营亏损为52.38亿元，同比增长8.1%，环比增长0.5%。 </p>
+<p>相比之下，根据小米、理想、小鹏、极氪、零跑2024年第三季度财务数据，蔚来的净亏损金额是这6家新势力车企中最多的。 </p>
+<p class="image-wrapper"><img data-img-size-val="1000,572" src="https://img.36krcdn.com/hsossms/20241121/v2_726b00061e7d484aa9ba3c6f0f0675e7@46958_oswg142526oswg1000oswg572_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲6大新势力车企2024年三季度业绩对比</p>
+<p>不过，蔚来在销量、毛利率方面有着不错表现。 </p>
+<p>销量方面，蔚来三季度交付6.19万台，创历史新高，包括61023台蔚来主品牌车型以及832台第二品牌乐道的车型。 </p>
+<p class="image-wrapper"><img data-img-size-val="1000,201" src="https://img.36krcdn.com/hsossms/20241121/v2_a615f6240f95423f9d6918b672c5adbf@46958_oswg36453oswg1000oswg201_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲蔚来第三季度销量数据</p>
+<p>蔚来毛利率为10.7%，较今年第二季度和去年同期都有所增长。 </p>
+<p>其中，蔚来三季度整车毛利率持续提升至13.1%，对比同期公布三季度财报的新势力车企来看，蔚来整车毛利率超过了小鹏和零跑，但这也和蔚来单车均价更高有关。 </p>
+<p>同时，蔚来三季度自由现金流转正，并且截止到9月30日，蔚来现金和现金等价物、限制性现金、短期投资和长期定期存款余额为422亿人民币。 </p>
+<p>按照这个亏损节奏来看，现有现金储备足够支撑蔚来2年多。 </p>
+<p>蔚来三季度研发投入为33.2亿元，同比增长9.2%，环比增长3.1%。 </p>
+<p>在四季度交付指引方面，蔚来第四季度交付量预计为7.2-7.5万之间，蔚来在10月份的总交付量为2.1万台，这也就是说在11月和12月，蔚来的平均交付量至少为2.55万台。 </p>
+<p>当然这是加上乐道的集团指引，乐道汽车本身就是蔚来定位较低的第二品牌，承担着销量增长重任。 </p>
+<p>李斌也在财报中自信表态，蔚来第四季度的总交付量预计将实现新高。 </p>
+<p>同时蔚来预计第四季度营收指引为196.8亿元至203.8亿元，同比增长15.0%至19.2%。 </p>
+<h2><strong>04.结语：蔚来财务压力愈发严峻</strong></h2>
+<p>接下来蔚来将以2026年全面盈利为目标，而随着明年Firefly（萤火虫）、乐道和蔚来三个品牌多款新车发布，蔚来月销有望全面进阶，甚至是起飞。 </p>
+<p>不过，从现阶段来看，虽然蔚来财报中多项数据表现亮眼，三季度销量创新高，毛利率也有所缓和，但是从车型规划来看，此前定位中高端市场的蔚来正在借助第二品牌乐道、第三品牌firefly萤火虫逐步完善产品结构，将车型起售价逐渐拉入大众市场。 </p>
+<p>不仅是蔚来，小鹏、理想已经推出了相较自身品牌此前车型价位更低的车型，这也能够反映当前头部新势力车企，一味的追求高端行不通了，活下去抢市场才是第一要务。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/cwooBOrXIKMoNopMhm_aZQ" rel="noopener noreferrer nofollow" target="_blank">“车东西”</a>，作者：迩言，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3045007503362951</guid><pubDate>Thu, 21 Nov 2024 07:24:00 +0800</pubDate></item><item><title>“财富一姐”，告别东方</title><link>https://36kr.com/p/3045007251376772</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>业内颇有影响力的券商财富业务负责人，东方证券副总裁徐海宁今日公告辞职。 </p>
+<p>11月20日晚间，东方证券公告，董事会于近日收到公司副总裁徐海宁的书面辞职报告。因个人职业发展原因，徐海宁申请辞去公司副总裁等职务。 </p>
+<p>公告显示，徐海宁辞职后将不再担任东方证券任何职务。按照东方证券《公司章程》等规定，上述辞职自送达董事会之日起生效。 </p>
+<h2><strong>接近“到龄”</strong></h2>
+<p>虽然业内传闻已久，但真的公告还是有些突然。 </p>
+<p>公开信息显示，徐海宁1970年生。今年54岁，已接近55岁金融机构女高管常规的“到龄”时间。 </p>
+<p>徐海宁此前长期任职东方证券副总裁、财富管理业务总部总经理，亦在业内常发表专业演讲，是风格鲜明的券商财富业务负责人。 </p>
+<h2><strong> 20岁从事人生第一份工作</strong></h2>
+<p>徐海宁的从业经历非常“广泛”。 </p>
+<p>简历显示，徐海宁20岁从事了人生第一份工作。1990年7月至1997年12月，她担任地质矿产部海洋地质综合研究大队财务科科员、计财科副科长，1997年12月至2001年10月担任上海海地建设工程（集团）有限公司财务部经理、副总会计师。 </p>
+<p>2002年3月至2007年5月担任通商控股有限公司副总裁，2007年5月至2008年12月担任上海广和投资有限公司总经理、董事长。 </p>
+<h2><strong>40岁后转入海航体系</strong></h2>
+<p>2010年，徐海宁40岁那年，转入海航体系。 </p>
+<p>2010年6月至2011年1月，她担任上海海航大新华置业有限公司副总经理，2011年1月至2011年8月担任大新华物流控股（集团）有限公司总经理，2011年8月至2011年12月担任上海大新华投资管理有限公司总经理。 </p>
+<p>随后，她在2011年12月至2012年10月担任上海九龙山股份有限公司董事、常务副总裁。 </p>
+<p>这件事情可能还有一个背景。2011年3月，海航集团通过海航置业、上海大新华、香港海航合计持有九龙山公司29.9%的股权，成为理论上的实际控制人。 </p>
+<p>但随后的2012年，海航和九龙山原股东，后来的二股东进行了几轮“控制权”大战。这给双方都带来巨大的影响。徐海宁在此时离开海航，并不令人意外。 </p>
+<h2><strong>2012年加盟东方证券</strong></h2>
+<p>徐海宁在42岁那年，正式进入证券业，且起点颇高。 </p>
+<p>2012年10月至2014年10月担任东方证券销售交易总 部副总经理（主持工作）。 </p>
+<p>五年后的2017年9月，徐海宁出任东方证券总裁助理。 </p>
+<p>2017年至2021年3月，徐海宁担任东方证券总裁助理；2014年10月起担任东方证券财富管理业务总部总经理，2021年3月起担任东方证券副总裁，总体一直负责该公司的财富管理业务。 </p>
+<p>在此前后，徐海宁一手推动了东方证券财富体系的一些变革。她亦常常亮相于外界，其的形象和表达风格，令她在行业内独树一帜，领一时风潮。 </p>
+<p>2024年11月，徐海宁正式辞任东方证券，前后整整一十二年。 </p>
+<p>此时回看，东方证券已是徐海宁迄今为止的事业生涯里，服务时间最长的一家公司。 </p>
+<h2><strong>未来向何处去</strong></h2>
+<p>由于徐海宁此次的离职公告里，明明白白注明“个人职业发展原因”。所以，业内纷纷猜测，她可能再次踏上创业的道路。 </p>
+<p>而业内关于她的动向，亦有多重猜测，总体来看，并不外乎“大财富管理”的范畴。 </p>
+<p>东方证券则在公告最后表示，徐海宁在公司任职期间恪尽职守，勤勉尽责，大力践行普惠金融理念，深入推进公司财富管理业务转型，持续推动基金投顾业务发展，不断提升买方投顾行业竞争优势，为公司财富管理业务发展和品牌建设做出了积极贡献，公司董事会对徐海宁表示衷心地感谢。 </p>
+<p>言犹在耳，身已远去，徐海宁的下一站，颇引人关注。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/zs_UYZrcSDFmuhVIgpA4oQ" rel="noopener noreferrer nofollow" target="_blank">“资事堂”</a>，作者：资事堂，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3045007251376772</guid><pubDate>Thu, 21 Nov 2024 07:24:00 +0800</pubDate></item><item><title>一批新版号刚刚下发：112+7个，网易灵犀英雄4399在列，《二重螺旋》来了</title><link>https://36kr.com/p/3044892913633923</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>11月20日下午，国家新闻出版署发布了《2024年11月份网络游戏审批信息》消息。</p>
+<p>本次版号数量为112个，以申报类别划分：其中“移动”类66款；“移动-休闲益智”46款，还有7款同时拿到了移动端与PC端版号。</p>
+<p>除了国产版号之外，今天下午还下发了7款进口游戏版号，有6款是移动端版号，其中1款拿到了移动端和PC端版号，而仅PC端的也有1款。</p>
+<p>综合来看，其中知名厂商或产品包括：</p>
+<p>在「移动」类别获批的：灵犀互娱《花花与幕间剧》、英雄游戏《二重螺旋》、三七互娱《守卫斗罗》、四三九九《飘渺仙途》、点点互动《消消闯天下》、北京简游《羊了个羊：星球》、益世界《武将特萌队》、多益网络《梦想世界：长风问剑录》、波克城市《小将出手》、友谊时光《咻咻连萌》、北京心智《暗战：律动之战》、蓝飞互娱《整理大师》、烈焰网络《烈焰飞雪：征战》、恺英《仙缘箓》、游卡《七王书》、禅游《指尖汉堡》、冰川网络《潮玩冒险团》、游族网络《无尽宝箱》；</p>
+<p>在「客户端」类别获批的：网易《实况足球在线》（进口）、英雄游戏《二重螺旋》、四三九九《飘渺仙途》、恺英《仙缘箓》、北京心智《暗战：律动之战》、烈焰网络《烈焰飞雪：征战》、多益网络《梦想世界：长风问剑录》、海南哈嘶哈嘶《暮色飞行》、曜祚科技《哥布林弹球》（进口）；</p>
+<p>最后，今天版署还新增了一批游戏版号的变更消息。其中值得注意的有：儒意景秀发行的SLG游戏《战道》更名为《偃武》。</p>
+<p>以下为重点产品介绍：</p>
+<p><strong>1.网易《实况足球在线》</strong></p>
+<p>《实况足球在线》是一款专为足球迷量身打造的大型多人在线游戏，由网易雷火运营。玩家将管理自己的球队，经过球员选择，制定战术，通过实时在线匹配与全球玩家对战，体验紧张刺激的竞技感。</p>
+<p>游戏的核心魅力来自其真实的足球体验和社交互动系统。游戏中的球员模型、场景画面均经过细致打磨，游戏进程也将与真实的足球赛事同步更新，玩家可以在比赛中实时体验到全球足球的发展动态。</p>
+<p><strong>2.英雄游戏《二重螺旋》</strong></p>
+<p>《二重螺旋》由英雄游戏旗下潘神工作室研发，于23年10月全球首曝。游戏以「多维武器组合×立体战斗」为核心玩法，战斗模式突出爽感，玩家可以随心切换近、远程武器进行攻击。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_e080996aa2f846f38f97219e9284bb1d@000000_oswg534141oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>游戏制作人在早前采访中提及，角色设计的创意来源是以恶魔为核心的幻想元素，在魔法+机械的世界观下，游戏还将结合魔导、克苏鲁等元素，创造一个庞大而真实的幻想世界。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_c7c6722c50f5493b9d585461dad5808e@000000_oswg987214oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>首曝以来，《二重螺旋》已经得到众多玩家的关注与支持，首曝PV在B站播放量超300万次，全平台预约人数超百万人次。同时，游戏在今年3月开启首次技术性测试，并在9月和10月先后登陆TGS东京电玩展和杭州COMICUP30漫展，亦引起现场的围观。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_9703a56edae84d2ab155e25619a2eb33@000000_oswg1068322oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>3.灵犀互娱《花花与幕间剧》</strong></p>
+<p>灵犀互娱又一次走出舒适区，这次他们带来一款少女心十足的《花花与幕间剧》。据了解，游戏以“养女儿”为主题，画风非常治愈，是一款观察箱玩法形式的休闲手游。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_37fa16fc6f214756aa99c6511d101f5f@000000_oswg1108375oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>游戏没有经营压力，玩家通过在商店购买食物、道具、图纸等，装饰家园和手账，陪伴三个小女孩度过的不同的故事，在剧场生活中见证成长。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_58feb21cbe4747a69916256eb052b18a@000000_oswg1886201oswg1080oswg2382_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>4.北京简游《羊了个羊：星球》</strong></p>
+<p>作为一款现象级小游戏，《羊了个羊》最初发布于抖音平台，并迅速通过社交裂变在微信小程序中爆红。它背后的研发和发行公司是北京简游科技，还推出过《解救大西瓜》、《如花恋爱季》等多款小游戏。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_3ae76784ed1f47a4b995973b8a7ff1cb@000000_oswg758499oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>游戏在2022年凭借独特的玩法、高难度挑战和社交互动功能，在国内市场上取得了巨大的成功，后来在海外上线，也激发了主播、自媒体创作者甚至自发组织比赛的热潮，在中东地区尤其受欢迎。</p>
+<p>如今，《羊了个羊：星球》继承了“羊了个羊”IP，并正式拿到版号，或许未来国内休闲赛道又将迎来一个爆款选手。</p>
+<p><strong>5.心动《调律诗篇lanota》</strong></p>
+<p>由Noxy Games开发、心动发行的《调律诗篇 lanota》是一款经典下落式玩法的音游，国际服经过多年运营后，已在Google商店获得百万级下载，并维持着4.4分（满分5分）的高分。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_879d6dda725a41718f761bb0f349a99f@000000_oswg58091oswg660oswg278_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>游戏采用绘本美术风格，讲述了少年少女踏上旅途、结交朋友并拯救世界的故事，玩家通关音游关卡就能解锁剧情流程，推动故事。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_57aed96530314448a20cb2db245b34c7@000000_oswg318582oswg567oswg318_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>游戏在音游玩法上做出了一定突破，将较常见的音符垂直下落方形谱面，改为从圆心出现落向边缘，且圆形谱面会随着节奏移动。曲库足够丰富，国际服在经历了数次活动后，已有7个章节主支线剧情以及390+首各类可玩曲目。</p>
+<p><strong>6.多益网络《梦想世界：长风问剑录》</strong></p>
+<p>《梦想世界：长风问剑录》是多益“梦想世界”IP矩阵下的全新产品。该IP源自多益的第一款游戏《梦想世界》，发展至今超17年，且一直坚持传统文化的探寻与发扬，荣获多项大奖。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_2a3a9b64b51e4b5aa02640686ab8c455@000000_oswg493152oswg800oswg533_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>该IP系列目前已累计推出了《新梦想世界》《梦想世界3D》手游等多款产品，涵盖PC移动双端，围绕公平竞技和社交两大内核打造多元游戏生态。但关于新作《长风问剑录》的消息较少，可能还需要看多益下一步的动作。</p>
+<p><strong>7.儒意景秀《偃武》</strong></p>
+<p>《偃武》是一款三国题材卡通风格SLG，此前名为《战道》。游戏立志于还原三国波澜壮阔的历史，在玩法方面，采用了自由行军的RTS式微操作设计和无极缩放功能，并较新颖地采用了多AI士兵控制，有自由真实的游戏表现。</p>
+<p>游戏还有不少创新机制，比如说设计了“城池民生玩法”，自带更多模拟经营的元素，玩家除了在战场上排兵布阵，也要关注内城民间百姓生活，更契合三国主公的沉浸式体验。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_edd902d163a64e85b4a7c62f93d14ab8@000000_oswg857612oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>据网上公开信息显示，该游戏由彩蛋游戏研发，其创始人左冬冬为前星辉天拓影龙工作室总监（官方公众号显示2019年底其职位为工作室高级总监），曾带队开发网页游戏《四大名捕斗将军》。</p>
+<p>2020年彩蛋游戏成立后，快速拿到了腾讯的投资，今年又先后拿到了来自三千资本、曜为投资、北京恒通中润的股权融资。游戏以《偃武》的名称，拿到版号后，预计由儒意景秀发行，会是后者未来在SLG赛道的一款重点产品。</p>
+<p>以下是具体表格：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_ec944da9af694bf9beb035ffde63d6af@000000_oswg3457597oswg1080oswg8477_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_5f3c75d5a48546669b4d3597c9e4a237@000000_oswg248357oswg1080oswg710_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241120/v2_afec2c38cb794d48b3b747929b457c16@000000_oswg173881oswg1080oswg465_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&amp;mid=2651252984&amp;idx=3&amp;sn=dca167fa5878ddceec321dca33476238&amp;chksm=bcd5b81d49125304864a9c84c31dffaffeb02a99e469d3a2ba05504364e31ecee78f750d55df&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“手游那点事”（ID：sykong_com）</a>，作者：恶魔摸摸猫、雀雀子‍‍‍，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044892913633923</guid><pubDate>Thu, 21 Nov 2024 07:26:00 +0800</pubDate></item><item><title>万物新生（爱回收）三季度财报：营收40.5亿元，non-GAAP经营利润突破1亿元</title><link>https://36kr.com/p/3044881601088389</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="900,506" src="https://img.36krcdn.com/hsossms/20241120/v2_fd73caefe3b346328843ac7f74b5b2ba@46958_oswg708868oswg900oswg506_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>据IPO早知道消息，二手消费电子产品交易和服务平台万物新生（爱回收）集团（纽交所股票代码：RERE）于11月20日美股盘前发布了2024年第三季度业绩报告。 </p>
+<p>财报显示，<strong>万物新生集团2024年第三季度总收入40.5亿元，同比增长24.4%。</strong> 从营收构成来看， 1P（自营）产品收入36.7亿元，同比增长25.6%，持续成为营收增长引擎 ； 3P（平台）服务收入为3.8亿元，同比增长13.9%。 </p>
+<p class="image-wrapper"><img data-img-size-val="602,1440" src="https://img.36krcdn.com/hsossms/20241120/v2_a1e846b98552448d86362af24c7518fb@46958_oswg434430oswg602oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>值得注意的是，万物新生的盈利能力全面优化——<strong>三季度，万物新生集团实现经营利润2489万元，净利润为1788万元，实现单季GAAP标准下的全面盈利。此外，本季度万物新生Non-GAAP经营利润超1亿元，同比增长40.9%，创下历史新高；non-GAAP经营利润率由2023年同期的2.3%提升至2.6%，已经连续九个季度实现盈利；单季non-GAAP净利润为9006万元，同比增长89.3%，non-GAAP净利润率由2023年同期的1.5%提升至2.2%。</strong></p>
+<p>截至2024年三季度末，万物新生集团现金及现金等价物、受限资金、短期投资及第三方支付平台账户余额总计23.5亿元。 </p>
+<p>截至2024年三季度末，万物新生线下门店数为1637家，覆盖全国263座城市。线下门店作为回收端的主要交付场景，是爱回收建立用户信任和获取一手货源的重要渠道。 </p>
+<p>随着服务质量和用户体验的不断提升，手机3C以外的多品类回收服务受到越来越多用户的欢迎。万物新生以箱包、腕表、黄金、名酒、鞋服等多品类回收业务精进对用户的综合服务能力，促进闲置消费品流通及循环利用。截至三季度末，爱回收全国587间门店配备多品类回收能力。<strong>三季度，多品类回收额9.5亿元，同比增长超270%，对应服务收入同比增长超400%</strong>。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,695" src="https://img.36krcdn.com/hsossms/20241120/v2_0803430543124d2f967c7793b23e6bbf@46958_oswg1081822oswg1080oswg695_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从购买趋势上来看，用户对二手优品的接受度显著增长。三季度，包括线上京东拍拍和爱回收官网、线下爱回收门店等场景的自营严选toC零售业务总收入为 9.7 亿元，同比增长超 120%。本季度，严选二手商品在京东拍拍渠道、爱回收官网和门店的自营渠道、新媒体零售渠道的销售收入则分别实现了87.4%、301.3%和114.6%的同比提升。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,532" src="https://img.36krcdn.com/hsossms/20241120/v2_eead14526c6d41a4846c5d508e5d59f7@46958_oswg388890oswg1080oswg532_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>此外，在标普全球企业可持续发展评估（“CSA”）8月最新的ESG评价中，万物新生取得35分，较2023年进一步提升，超过了全球93%的零售业同行企业，数据可及性评级为“非常高”。事实上，今年以来，爱回收与多个知名消费品品牌共同发起“返航新生”活动，提升品牌对循环经济的参与，鼓励用户选择环保和绿色的生活方式。11月进博会期间，爱回收与知名美妆集团欧莱雅达成战略合作，共同探索美妆塑料空瓶回收解决方案，打造美妆行业空瓶回收新模式，践行ESG与循环消费的实践，深化爱回收品牌在更广泛用户群体中的品牌影响力。 </p>
+<p><strong>万物新生董事会主席、首席执行官陈雪峰表示：</strong>“在2024年第三季度，我们欣然宣布集团总收入达成40.5亿元，实现了同比24.4%的健康增长。<strong>在二手消费电子产品回收交易的业务大盘里，以旧换新成为更主流的回收换新方式，为用户提供更便捷且价格更好的回收服务体验。我们线下门店仍是行业领先的履约场景，服务用户回收消费电子和具有交易价值的多品类商品，同时以独特的自营严选零售满足用户对具有性价比优品二手的选购需求。</strong>” </p>
+<p><strong>万物新生首席财务官陈晨表示</strong>：“本季度，万物新生集团在利润层面进一步取得好成绩。我们的<strong>non-GAAP经营利润规模首次突破1亿元，并首次汇报GAAP经营利润，这些是我们同时改善运营费用效率和消化历史并购摊销的阶段性成果。</strong> 本季度，我们积极执行回购，将超过1200万美元回馈给股东。 在长期的发展路径上，我们将坚持加强自身效率，为用户和股东创造更多价值。 ” </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ZyyqWbvf7Lar-2BPxdroUw" rel="noopener noreferrer nofollow" target="_blank">“IPO早知道”</a>，作者：Stone Jin，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3044881601088389</guid><pubDate>Thu, 21 Nov 2024 07:27:00 +0800</pubDate></item></channel></rss>
