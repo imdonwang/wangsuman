@@ -1,116 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 24 Nov 2024 16:30:30 +0800</lastBuildDate><pubDate>Sun, 24 Nov 2024 16:30:30 +0800</pubDate><item><title>经典卡尔曼滤波器改进视频版「分割一切」，网友：好优雅的方法</title><link>https://36kr.com/p/3049834751822729</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>金磊 发自 凹非寺量子位</p>
-<p>Meta的视频版<strong>分割一切</strong>——Segment Anything Model 2（SAM 2），又火了一把。</p>
-<p>因为这一次，一个<strong>全华人</strong>团队，仅仅是用了个<strong>经典方法</strong>，就把它的能力拔到了一个新高度——</p>
-<p><strong>任你移动再快，AI跟丢不了一点点！</strong></p>
-<p>例如在电影《1917》这段画面里，主角穿梭在众多士兵之中，原先的SAM 2表现是这样的：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_3aaa396c90ed4bf1a847f6fdab789932@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>嗯，当一大群士兵涌入画面的时候，SAM 2把主角给跟丢了。</p>
-<p>但改进版的SAM 2，它的表现截然不同：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_eca048b496b94b93931dd7abd4a389e3@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>这个改进版的SAM 2，名叫<strong>SAMURAI</strong>（武士），由华盛顿大学<strong>全华人</strong>研究团队提出。</p>
-<p>一言蔽之，这项工作就是把SAM 2之前存在的缺点（记忆管理方面的局限性）给填补上了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_e8a94a39b9484d57b44d6db9a5cff5e0@000000_oswg87005oswg1080oswg256_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>更有意思的是，这项改进工作所用到的核心关键方法，是非常经典的<strong>卡尔曼滤波器</strong>（Kalman Filter，KF）。</p>
-<p>并且还是无需重新训练、可以实时运行的那种！</p>
-<p>前谷歌产品经理、国外知名博主Bilawal Sidhu在看完论文后直呼<strong>“优雅”</strong>：</p>
-<blockquote>
-<p>有时候你不需要复杂的全新架构——只需要聪明地利用模型已知的信息，再加上一些经过验证的经典方法。</p>
-<p>我们的“老朋友”卡尔曼滤波器，这么多年过去了，它的表现依然如此出色。有时候老派的方法就是管用。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_ba0dc137b90e41edade46b182cfdbbab@000000_oswg702909oswg942oswg1204_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>嗯，颇有一种“姜还是老的辣”的感觉了。</p>
-<h2><strong>黑悟空、女团舞蹈，统统都能hold住</strong></h2>
-<p>我们先继续看下SAMURAI能力实现的更多效果。</p>
-<p>团队在项目主页中便从多个不同维度秀了一波实力。</p>
-<p>首先就是<strong>打斗游戏</strong>场景，例如在<strong>《只狼：影逝二度》</strong>中，即便人物都“弹出”了画面，SAMURAI也能再次把目标捕捉回来：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_d5baff1c12bb4b2883834227a61ca1e8@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>《黑神话：悟空》的打斗名场面，人物动作变化可以说是非常之快，而且和背景非常复杂的交织在一起。</p>
-<p>即便如此，SAMURAI也能精准跟踪，细节到金箍棒的那种：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_78a5bee1f9754f72b25f786f1f2ef761@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>但毕竟这两个游戏场景的例子，所涉及到的主体还不够多，那么我们接下来继续看下更复杂的case。</p>
-<p>例如<strong>橄榄球比赛</strong>场景，不仅人物移动的快，后来队员们都扑到了一起，SAMURAI也能hold住：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_647faaf37ede4c1f867163934968fab6@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>在<strong>女团舞蹈</strong>的案例中，人物在变换队形的时候都已经被其他队员挡住了，也挡不住SAMURAI的“眼神锁定你”：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_dfc7009a6d91429990f85f3419045be4@000000_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<h2><strong>很work的经典方法</strong></h2>
-<p>在看完效果之后，我们接下来扒一扒SAMURAI的技术细节。</p>
-<p>正如我们刚才提到的，这项工作弥补了SAM 2此前存在的缺点。</p>
-<p>主要的问题就是处理视觉目标跟踪时，尤其是在拥挤场景中快速移动或遮挡的物体时，它会出现跟丢了的情况。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_331ed1beac5f4a86b2c1d041c54d7e08@000000_oswg603157oswg1080oswg464_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>SAM 2的组成部分包括图像编码器、掩码解码器、提示编码器、记忆注意力层和记忆编码器。</p>
-<p>在视觉目标跟踪中，SAM 2使用提示编码器来处理输入的提示信息，如点、框或文本，这些提示信息用于指导模型分割图像中的特定对象。</p>
-<p>掩码解码器则负责生成预测的掩码，而记忆注意力层和记忆编码器则用于处理跨帧的上下文信息，以维持长期跟踪。</p>
-<p>然而，SAM 2在处理快速移动的对象或在拥挤场景中，往往忽视了运动线索，导致在预测后续帧的掩码时出现不准确。</p>
-<p>特别是在遮挡发生时，SAM 2倾向于优先考虑外观相似性而非空间和时间的一致性，这可能导致跟踪错误。</p>
-<p>而SAMURATI，作为SAM 2的增强版，可以说是很好地解决了此前的痛点。</p>
-<p>整体来看，SAMURAI主要包含两个技术关键点：</p>
-<p><strong>运动建模</strong>（Motion Modeling）</p>
-<p><strong>运动感知记忆选择</strong>（Motion-Aware Memory Selection）</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_b9042d54b09a42e3b832c0d537f8e85b@000000_oswg166643oswg1080oswg430_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<h4><strong>让目标“动”起来</strong></h4>
-<p><strong>运动建模部分</strong>的目的是有效地预测目标的运动，从而在复杂场景中，如拥挤场景或目标快速移动和自遮挡的情况下，提高跟踪的准确性和鲁棒性。</p>
-<p>而这里用到的具体方法，就是那个经典的<strong>卡尔曼滤波器</strong>，以此来增强边界框位置和尺寸的预测，从而帮助从多个候选掩码中选择最有信心的一个。</p>
-<p>在SAMURAI中，状态向量包括目标的位置、尺寸及其变化速度；通过预测-校正循环，卡尔曼滤波器能够提供关于目标未来状态的准确估计。</p>
-<p>目标的状态向量被定义为：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_8bf72171f0174b90a41c0192fbbaafbe@000000_oswg13855oswg732oswg128_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>其中，x和y表示目标边界框的中心坐标；w和h表示边界框的宽度和高度；后四个变量则表示坐标与尺寸的速度。</p>
-<p>滤波的过程则主要分为两个步骤。</p>
-<p>第一个就是预测阶段，即根据目标的上一帧状态，预测下一帧位置：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_a3736bd9a4784b38a3929acd3a4a7723@000000_oswg4293oswg586oswg146_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>其中，F是状态转移矩阵。</p>
-<p>第二个则是更新阶段，会结合实际测量值（目标的候选掩膜），校正预测值：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_e03147697185477693fb4f9f7765d67b@000000_oswg16902oswg964oswg154_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>在运动建模部分，除了基于卡尔曼滤波器的运动预测之外，还涉及运动分数（Motion Score）。</p>
-<p>主要是通过计算 Kalman 滤波器预测的边界框与候选掩膜之间的交并比（IoU），生成运动分数sKf，用以辅助掩膜选择：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_d78d8febeab74f01a030084189bb47cf@000000_oswg15433oswg606oswg130_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>最终的掩膜选择基于运动分数与掩膜亲和分数的加权和：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_6e44bcc5256044ff9dd978c1a2e0e6a4@000000_oswg40803oswg1080oswg111_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<h4><strong>挑出最关键的记忆</strong></h4>
-<p>SAMURAI第二个关键技术，则是<strong>运动感知记忆选择</strong>（Motion-Aware Memory Selection）。</p>
-<p>主要是为了解决SAM 2的固定窗口记忆机制容易引入错误的低质量特征，导致后续跟踪的误差传播的情况。</p>
-<p>这部分首先涉及一个<strong>混合评分系统</strong>，包括掩膜分数、目标出现分数和运动分数三种评分，用于动态选择记忆库中最相关的帧。</p>
-<p>掩膜分数smask：衡量掩膜的准确性。</p>
-<p>目标出现分数 sobj：判断目标是否存在于该帧中。</p>
-<p>运动分数 skf：预测目标位置的准确性。</p>
-<p>其次是一个<strong>记忆选择机制</strong>——</p>
-<p>如果某帧满足以下条件，则其特征会被保留到记忆库中：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_b8a110828766497cad12a8cc3a0df65b@000000_oswg40380oswg1080oswg135_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>动态选择的记忆库可以跳过遮挡期间的低质量特征，从而提高后续帧的预测性能。</p>
-<p>从实验结果来看，SAMURAI在多个视觉目标跟踪基准上表现出色，包括 LaSOT、LaSOText和GOT-10k数据集。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_7136a1b3f1474606b1993160c2254cfe@000000_oswg373797oswg1080oswg709_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>值得一提的是，SAMURAI是在无需重新训练或微调的情况下，在所有基准上都超过了SAM 2，并与部分有监督方法（如 LoRAT 和 ODTrack）表现相当。</p>
-<h2><strong>全华人团队出品</strong></h2>
-<p>SAMURAI这项工作背后的研究团队，有一个亮点便是全华人阵容。</p>
-<p>例如Cheng-Yen Yang，目前是<strong>华盛顿大学</strong>电气与计算机工程系的一名四年级博士生。</p>
-<p>研究方向主要包括在复杂场景（水下，无人机，多相机系统）中的多目标跟踪（单视图，多视图，交叉视图）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_18c6c52101f54e1995d004aa04f40c60@000000_oswg225101oswg1080oswg409_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>Hsiang-Wei Huang和Zhongyu Jiang也是华盛顿大学电气与计算机工程系的博士生，而Wenhao Chai目前则是攻读研究生。</p>
-<p>他们的导师是华盛顿大学教授<strong>Jenq-Neng Hwang</strong>。</p>
-<p>他是IEEE信号处理协会多媒体信号处理技术委员会的创始人之一，自2001年以来，黄教授一直是IEEE院士。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241124/v2_5e3a5a3247624d9883d01b5131783f41@000000_oswg677287oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">相关配图</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247760692&amp;idx=1&amp;sn=58f3643eaa8d796ec5829d3d41dbc384&amp;chksm=e9fe0d6da6aa52e31cfa2242cf1eb43d903463db2c4f466211e5225eca35fd8533146ccfa105&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3049834751822729</guid><pubDate>Sun, 24 Nov 2024 11:58:00 +0800</pubDate></item><item><title>中国公司全球化周报 | “热土”中东，留给了中小企业哪些机会？/阿里整合国内外电商，蒋凡任CEO</title><link>https://36kr.com/p/3048527341095561</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 24 Nov 2024 17:00:27 +0800</lastBuildDate><pubDate>Sun, 24 Nov 2024 17:00:27 +0800</pubDate><item><title>中国公司全球化周报 | “热土”中东，留给了中小企业哪些机会？/阿里整合国内外电商，蒋凡任CEO</title><link>https://36kr.com/p/3048527341095561</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p><strong>访问36氪出海网站 </strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong> ，获取更多全球商业相关资讯。</strong></p>
 <p class="image-wrapper"><img data-img-size-val="1918,960" src="https://img.36krcdn.com/hsossms/20241123/v2_0f7d92cce11040dcbdbe2f6ff1a78100@11918142_oswg790756oswg1918oswg960_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
 <h2><strong>头条大事</strong></h2>
@@ -830,4 +719,41 @@
 <p> </p>
 <p> </p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkxMjQ0MTUyNw==&amp;mid=2247536717&amp;idx=1&amp;sn=3db26fcb3b42d38b576d754a17b2e85f&amp;chksm=c0cdc10861dfcd4c1296b71a5f8dce3eea555ffb563e3de5a0c54c93fc77edfee4218efd8904&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“创业最前线”（ID：chuangyezuiqianxian）</a>，作者：胡芳洁，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3048964096756353</guid><pubDate>Sun, 24 Nov 2024 15:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3048964096756353</guid><pubDate>Sun, 24 Nov 2024 15:00:00 +0800</pubDate></item><item><title>营销观察｜百岁企业迪士尼，在适应一个新的中国市场</title><link>https://36kr.com/p/3046232742185607</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>文｜王毓婵</p>
+<p>编辑｜乔芊</p>
+<p>11月20日，华特迪士尼公司在新加坡公布了亚太区2025年及未来即将登陆院线和流媒体的内容，包括《美国队长4》《海洋奇缘2》《创：战神》《玩具总动员5》《狮子王：木法沙传奇》《阿凡达：火与烬》《星球大战：幻境》第三季等等。</p>
+<p>迪士尼执行副总裁蔡志行在接受包括36氪在内的媒体采访时说：“用一句话来讲，就是我们的片单非常丰富，相信总有一款会适合你。”</p>
+<p>实际上，本次发布会上展示的大部分海报和简短预告已经在今年8月的美国洛杉矶“D23大会”上公布过了，<a href="https://36kr.com/p/2901968201669513" rel="noopener noreferrer" target="_blank">当时36氪也曾有所报道。</a>只是这一次面向亚太区的发布会，除了展示这些全球上映的大片之外，迪士尼还带来了更多为亚洲观众而创作的新作品。</p>
+<p>可惜，主要是日本和韩国。过去几年，迪士尼的流媒体平台Disney+在日本和韩国市场推出了不少由当地一线演员出演的、面向当地观众的剧集，如韩剧《超异能族》、日剧《金田一少年事件簿》《游戏之子》《幕府将军》等等。现在，迪士尼已经确认了将带来韩剧《超异能族》第二季，以及更多日本动漫番剧等等。</p>
+<p class="image-wrapper"><img data-img-size-val="999,522" src="https://img.36krcdn.com/hsossms/20241122/v2_b4f726660dd5413b9f38da39f367d5b2@10269314_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">韩剧《超异能族》海报</p>
+<p>发布会上，韩星日星云集，却没有来自中国的声音。因为无法在中国大陆运营，Disney+目前也就没有也推出中文剧集的计划。</p>
+<p>过去几年，迪士尼许多重要的电影没能在中国成功上映，粉丝一度“断代”。但今年，情况有所好转。</p>
+<p>8月，中国大陆上映了R级电影《异形：夺命舰》，并超越北美本土票房，一举成为全球第一大票仓。同样在中国大陆卖出好票房的迪士尼电影还有《死侍》《头脑特工队》等等——这背后是迪士尼中国区员工如同蚂蚁搬山一般，持续做本土工作的成果。</p>
+<p>中国市场面对迪士尼展示出了一种复杂性，即高价值与高难度的集合体。不论在电影票房上，还是在乐园和消费品业务上，中国消费者都表现出了毋庸置疑的消费力；但同时，中国人的内容偏好在发生改变，可供中国人消费的本土内容在增加，以及，东西方的价值观正在产生裂痕——这一点在最近一些作品的口碑分裂上得到了体现。</p>
+<p>现在，这家百年企业正在重新适应中国市场。它要在无法推出中文剧集的前提下，跟中国粉丝保持感情联结，这比在日韩市场的难度还大得多。</p>
+<p>在迪士尼亚太区主管营销的副总裁蔡志行女士告诉36氪，迪士尼正在跟小红书、微博、哔哩哔哩、抖音等中国粉丝聚集的社交媒体合作，尝试着离粉丝更近一些。</p>
+<h3>本土化是一项永无止境的工作，特别是在“合久必分”的今天</h3>
+<p>如同前文所说，东西方观众的内容偏好和价值观正在产生裂痕，这一点已经被屡屡证实。许多在国外叫好又叫座的影片，往往并没能在中国拿到符合预期的成绩。</p>
+<p>将于11月29日在中国内地公映的《海洋奇缘》第二部是迪士尼最近宣发的重中之重。《海洋奇缘》第一部在中国上映时，就没有复刻它在北美实现的票房奇迹，反而不敌同期上映的《神奇动物在哪里》和《我不是潘金莲》。</p>
+<p>2016年，中国媒体将这场爆冷归因于迪士尼宣发力度不够强，以及中国观众还没准备好接受“既不追求爱情也不具备美貌”的女主。</p>
+<p>8年过去，中国观众对大银幕上女性形象的期待已经发生了翻天覆地的改变。同样改变的，还有迪士尼的本土化团队。</p>
+<p>这一次，迪士尼不再佛系，而是邀请了中国国家游泳队的两名金牌获得者张雨霏和汪顺，为《海洋奇缘》第二部宣传。“莫阿娜（动画女主）是一个冒险家，也是一个有使命感的人，我们认为这种精神跟奥运健儿是契合的。”蔡志行说。迪士尼认为这次合作激起了国内社交媒体上的一些讨论，起到了刺激中国观众走入影院的效果。</p>
+<p class="image-wrapper"><img data-img-size-val="1874,1040" src="https://img.36krcdn.com/hsossms/20241122/v2_80f5c4a49711415d93c785ea46132ae2@10269314_oswg2546434oswg1874oswg1040_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">张雨霏和汪顺为《海洋奇缘》第二部宣传</p>
+<p>今年7月，在暑期最热的几天，《死侍与金刚狼》的两位男主演瑞安·雷诺兹和休·杰克曼还来到了上海，作为他们电影宣发的全球第一站。当时，距离好莱坞影星上一次来到中国已经过去了很多年，这次粉丝见面会颇具破冰意义，在社交媒体上也掀起了一阵讨论。蔡志行说，<strong>迪士尼一直在考虑让影星再次回到中国。</strong></p>
+<p>另外，从宣发渠道上来说，迪士尼也比以往更加注重在中国社交媒体上的表现。蔡志行说，为了在抖音上宣发新电影，她的团队会反复向美国总部解释抖音这个渠道对于动员中国观众的重要性，并申请拿到更多的素材和片花上传抖音；在小红书上，他们则会跟一些母婴、家庭教育博主合作，让合家欢主题的动画作品触及小红书上的年轻妈妈。</p>
+<p>可以说，本土化是一项永远可以“做得更细”的，永无止境的工作。蔡志行说，迪士尼已经在这些年获得了很多经验教训，这不仅影响了他们在当地的宣发，甚至也影响了内容的制作——比如，他们发现日本观众非常喜欢由日本配音演员配音的外语作品，但中国观众就很不爱看中文配音的外语片。所以他们也就逐渐不再使用中文配音。</p>
+<p>以及，他们也听到了中国观众对最近几部漫威电影的调侃，比如“遇事不决，量子力学”，比如无穷无尽的“多重宇宙”、太空叙事等等。“我们已经把中国观众的反馈传达给了美国总部。”蔡志行说。“<strong>大家可以放心，未来两三部漫威故事都发生在地球！</strong>即便是有外星人，也是他们来地球。”</p>
+<p>采访间里爆发出一阵笑声。</p>
+<h3>我们可以期待迪士尼带来一些新东西吗？</h3>
+<p>蔡志行坦言，《异形：夺命舰》在中国的成功出乎迪士尼的意料之外。这部 R 级电影是迪士尼接手二十世纪福克斯之后，推出的首部异形系列电影。按理来说，异形系列在中国的粉丝相对小众，这个成绩证明了观众口味的分化和垂类内容的潜力。</p>
+<p>迪士尼收购二十世纪福克斯时，外界曾调侃福克斯也许会从此丢掉限制级内容，也变成公主王子，又唱又跳的儿童乐园。但现在看来，迪士尼把这块迥然不同的业务顺利移植进了巨人的身体，而且是在并不改变它本身的前提下。</p>
+<p>现在，大家不再担心福克斯，大家开始好奇迪士尼。既然可以制作《异形》，为什么还要不断地重复儿童故事，把大家都已经太熟悉的白雪公主、美人鱼再拍成真人电影呢？</p>
+<p>“我们一定要非常坚持迪士尼品牌的核心价值观，那就是要确保消费者都知道，你来看一部迪士尼的电影，一定能收获欢乐、和谐、向上的精神，这点非常的重要，”蔡志行说，“我们要不断地重复这一点。即便观众在电影开始前就知道，最后一定是一个happy ending，我们也有信心在这个过程之中，牵动他们的心弦，让大家感动。”</p>
+<p>目前来看，中国消费者也确实非常喜欢喜剧片。2024年，中国票房排名前五的电影分别是《热辣滚烫》《飞驰人生2》《抓娃娃》《第二十条》和《熊出没》，这五部电影全部含有喜剧元素。</p>
+<p>其实，迪士尼也在尝试开发经典IP中的反派人物，比如黑白魔女库伊拉、狮子刀疤等等。但如蔡志行所说，即便是拍反派的故事，也是用合家欢的方式去拍，而且最后也一定是一个好结局。“如果你带孩子去看迪士尼的电影，永远不用担心会出现儿童不宜的内容。”蔡志行说。</p>
+<p>追逐潮流并不难，难的是一百年只做一件事。迪士尼只会在坚持原则的前提下为顺应时代作出一点点改变，那就是对人物形象和故事情节进行更符合主流价值观的改造，比如白雪公主不再只是一个等待被王子营救的善良女孩，她还是一个勇敢且强大的女性；《玩具总动员》5中，玩具们要跟小主人的电子设备对抗，各自争取小主人的注意力，反映对青少年沉迷电子设备的思考等等。</p>
+<p>“我们就是想做好我们承诺的事，那就是‘讲好故事’，让消费者在人生的每一个阶段，都能跟迪士尼产生共鸣。”蔡志行说。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3046232742185607</guid><pubDate>Sun, 24 Nov 2024 16:33:00 +0800</pubDate></item></channel></rss>
