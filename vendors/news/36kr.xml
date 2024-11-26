@@ -1,282 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 26 Nov 2024 16:00:25 +0800</lastBuildDate><pubDate>Tue, 26 Nov 2024 16:00:25 +0800</pubDate><item><title>大模型创业太累大牛逃回大厂：融资1亿美金捉襟见肘，没日没夜加班胖了30斤</title><link>https://36kr.com/p/3052766129017218</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>大模型创业太累，又一大牛决定重回大厂。</p>
-<p>Yi Tay，曾是Reka AI联合创始人，也曾是谷歌大模型PaLM、UL2、Flan-2、Bard的重要参与者。</p>
-<p class="image-wrapper"><img data-img-size-val="802,362" src="https://img.36krcdn.com/hsossms/20241126/v2_9358de66946043639644dc8a5015d87e@5091053_oswg71028oswg802oswg362_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>本周是他回到谷歌的第一周，也是他离职创业一年半之后，选择回归老身份的开始。</p>
-<p>他将继续担任谷歌DeepMind高级研究员，向谷歌大神、也是他之前的老板Quoc Le汇报。</p>
-<p>回顾过去这段创业经历，他表示学到了很多，比如基础设施方面的知识、如何从头开始训练大模型等等。</p>
-<p>但与此同时，他也经历了一些不那么好的时刻：</p>
-<p>公司费劲筹集的一亿多美金，对于一个不到15个人的团队仍然紧张，还差点卖身自救。</p>
-<p>个人层面，他的身心健康受到了很大影响。由于工作强度大和不健康的生活方式，他还长胖了15公斤。</p>
-<p>为此他表示：</p>
-<blockquote>
-<p>放弃舒适区并创业对我个人来说真的很可怕。</p>
-</blockquote>
-<h2><strong>大牛重回谷歌大厂</strong></h2>
-<p>去年三月末，他官宣离职谷歌参与创业RekaAI，并担任该公司的首席科学家。</p>
-<p>在此之前，他在谷歌大脑工作了3.3年，参与诸多大模型的研究，撰写累计约45篇论文，其中16篇一作，包括UL2、U-PaLM、DSI、Synthesizer、Charformer和Long Range Arena等，约20次产品发布，妥妥大牛一位。</p>
-<p class="image-wrapper"><img data-img-size-val="1048,1246" src="https://img.36krcdn.com/hsossms/20241126/v2_6c9ec01050484461adb9d8474977cdee@5091053_oswg329109oswg1048oswg1246_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从技术角度上讲，他坦言学到了很多关于在谷歌没法学到的知识。</p>
-<p>比如学会使用Pytorch/GPU 和其他外部基础设施，以成本最优的方式从头构建非常好的模型。</p>
-<p>为此他还在个人网站上分享了相关经验：训练模型的首要条件是获取计算能力，但这一过程就好像买彩票。</p>
-<blockquote>
-<p>并非所有硬件都是一样的。不同算力提供商的集群质量差异非常大，以至于要想训练出好的模型需要付出多大的代价，这简直就是在抽签。简而言之，LLM 时代的硬件彩票。这与在谷歌使用TPU相比，这些GPU的故障率让他大吃一惊。</p>
-</blockquote>
-<p>此外他还吐槽外部代码库的质量远远落后谷歌的质量，这些代码库对大规模编码器-解码器训练的支持非常少。</p>
-<p>但这种持续遇到问题持续解决的经验， 并非痛苦反而很有趣，并且最终凭借着自身技术实力也挺了过来。</p>
-<p>在创业初期，他们的旗舰模型Reka Core在Lmsys首次亮相，就跻身第7位，公司排名前五，实现了对GPT-4早期版本的超越。</p>
-<p>目前他们主要有四个模型，适用于不同的应用场景。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,518" src="https://img.36krcdn.com/hsossms/20241126/v2_521243240cd841a8ac64003a0dcca64b@5091053_oswg264018oswg1080oswg518_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而真正“打倒”他驱使他离职的，是更为现实的原因。</p>
-<p>就公司层面来说，作为初创企业，其资金、算力和人力跟其他实验室相比都要少得多。</p>
-<p>就算他们分批筹集了一亿多美金，对于一个不到15人的团队仍然不够。</p>
-<p>今年5月Reka AI还被曝出卖身自救，Snowflake正就以超过 10 亿美元收购Reka AI的事宜谈判。</p>
-<p>不过现在来看，收购事宜还没有谈成。在Yi Tay宣布新动向后，他们紧急发声，现在公司还在积极招人ing。</p>
-<p class="image-wrapper"><img data-img-size-val="794,468" src="https://img.36krcdn.com/hsossms/20241126/v2_d92759bfbd554d448d13b15a5abf40be@5091053_oswg62447oswg794oswg468_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而就他个人来说，这是段非常紧张的时期。尤其刚开始创业的时候妻子怀孕，他不得不同时兼顾两边，由此身心健康受到很大的损害。</p>
-<p>并且由于高强度的工作和不健康的生活方式，他长胖了15公斤。</p>
-<p>不过他自己也曾透露过自己有睡眠障碍。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1155" src="https://img.36krcdn.com/hsossms/20241126/v2_ce9eacd938404e46b461aeea789b5f3b@5091053_oswg278306oswg1080oswg1155_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>种种原因，他决定重回谷歌，回归到一个研究者的身份。</p>
-<p class="image-wrapper"><img data-img-size-val="874,666" src="https://img.36krcdn.com/hsossms/20241126/v2_8e7aa2e776f04e58aca03d76f50731e0@5091053_oswg808828oswg874oswg666_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>在初创企业世界探索了一年半之后，我决定回归我的研究根基。</p>
-</blockquote>
-<p>在分享经历的开始，他写下了这样一句话。</p>
-<p>回到谷歌之后，他将探索与大模型相关的研究方向，以高级研究员的身份，向大神Quoc Le汇报。</p>
-<p>在博客的最后，他感谢了创业这段时间始终联系的谷歌老朋友。</p>
-<p>并且还特地感谢了在新加坡同他共进晚餐的Jeff Dean，并且提醒他Google 很棒。（Doge）</p>
-<p class="image-wrapper"><img data-img-size-val="872,644" src="https://img.36krcdn.com/hsossms/20241126/v2_822f1fca54874da983ec43935a15ff66@5091053_oswg803489oswg872oswg644_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>谷歌老同事：欢迎回来</strong></h2>
-<p>一些谷歌老同事在底下纷纷表示：Welcome back！感觉像是过了十年。</p>
-<p class="image-wrapper"><img data-img-size-val="806,522" src="https://img.36krcdn.com/hsossms/20241126/v2_d0bf6a349db540759ce0554d35d6b9b5@5091053_oswg96670oswg806oswg522_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>值得一提的是，像这种大牛重返大厂并非个例。</p>
-<p>今年8月谷歌以25亿美元打包带走了明星AI独角兽Character.AI的核心技术团队，远高于Character.AI 10亿美元的估值。</p>
-<p>其中包括两位创始人——Transformer“贡献最大”作者Noam Shazeer和Daniel De Freitas。其中Noam Shazeer出任Gemini联合技术主管。</p>
-<p>这样看起来，对于这些大牛来说，大模型创业确实不易，重返大厂确实是个不错的选择，至少钱够算力够、安安心心做研究。</p>
-<p>而随着新一轮的洗牌期到来，更多技术大牛朝着科技巨头聚拢，也已经初见端倪。</p>
-<p><strong>参考链接：</strong></p>
-<p>[1]https://x.com/YiTayML</p>
-<p>[2]https://www.yitay.net/?author=636616684c5e64780328eece</p>
-<p>[3]https://www.yitay.net/blog/training-great-llms-entirely-from-ground-zero-in-the-wilderness</p>
-<p>[4]https://www.yitay.net/blog/leaving-google-brain</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/aVo_JmBDI5174t1eHqWQrA" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：小牛马，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052766129017218</guid><pubDate>Tue, 26 Nov 2024 15:15:00 +0800</pubDate></item><item><title>全员停发工资、高管跑路：被小米看上的智驾明星 IPO 三度败北，前员工吐槽“越做越赔钱”</title><link>https://36kr.com/p/3052765806907780</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>近日，据《新智驾》报道，被小米看好的智驾明星企业纵目科技，由于业务运营未达预期导致资金链紧张，进而做出了全员停发工资的决定。而在今年 2 月，就有知情人士曝料，纵目科技去年已遭遇了融资断裂，先是砍了 20% 的应届生工资，之后又裁掉了所有的实习生。</p>
-<p class="image-wrapper"><img data-img-size-val="922,241" src="https://img.36krcdn.com/hsossms/20241126/v2_eacfbb3c58b34162ab74b6e008b8e1a5@5091053_oswg30853oswg922oswg241_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2>三年亏损近 14 亿</h2>
-<p>成立于 2013 年的纵目科技，是一家 ADAS 解决方案提供商，提供覆盖全面自动驾驶功能的解决方案，与一汽红旗、长安汽车等多家国内主流主机厂商建立了量产合作关系。招股书数据显示，截至 2023 年，纵目科技的五大客户分别是理想、赛力斯、长安、岚图和中国一汽，贡献收入达到总收入的 93%。</p>
-<p>按 2022 年销售收入计，在中国乘用车 ADAS 解决方案市场中，纵目科技在位于国内的供应商中排名第五，市场份额为 1.0%；在中国乘用车自动泊车解决方案市场中，纵目科技在国内的供应商中排名第二，市场份额为 4.9%；在中国乘用车 APA 泊车解决方案市场中，纵目科技在国内的供应商中排名第一，市场份额为 5.6%。</p>
-<p>然而，近几年纵目科技的营收虽然整体呈增长态势，但增速已经有所放缓，亏损金额也在持续增加。其中，2023 年仅较 2022 年增长 6.15%，而 2022 年则较 2021 年增长 108.34%，最近三年合计亏损约 14 亿元。招股书显示，2021 年、2022 年和 2023 年，纵目科技的营业收入分别为 2.25 亿元、4.69 亿元和 4.98 亿元，净亏损分别为 4.34 亿元、5.88 亿元和 5.64 亿元，经调整净亏损分别为 3.82 亿元、4.77 亿元和 5.16 亿元。</p>
-<p>纵目科技的偿债能力有出现走弱的情况，从 2021 到 2023 年，其流动比率、速动比率及现金比率分别下滑 199.6、171.2、152.7 个百分点。以上报告期内，纵目科技流动比率分别为 316.5%、196.5% 和 116.9%，速动比率分别为 262.0%、150.6% 和 90.8%，现金比率分别为 199.8%、113.2% 和 47.1%。</p>
-<p>纵目科技在招股书中称，主要是由以下因素造成：智能驾驶产品和解决方案的原材料和硬件元件采购产生了大量销售成本；于往绩记录期间，该公司产生了大量研发费用，以建立和保持市场领导地位、增加收入和实现盈利。</p>
-<h2>新业务被曝存多项弊端</h2>
-<p>前纵目员工透露，2023 年上半年纵目业绩确实不行，下半年业绩上来了，因为拿到某头部车厂高阶智驾业务。但后续因为软件架构不合理，人员冗余，政治斗争等因素，纵目行车产品和高阶智驾技术上迟迟没有重大突破，项目开发和交付进度缓慢，导致合作的车企明星车型交付延期。</p>
-<p>据悉，2023 年，纵目还经历了大客户泊车产品供应商切换动荡，主营收入泊车业务一度迫在眉睫，2023 年营收增速大降。</p>
-<p>在经历了 2023 年众多坎坷的背景下，纵目选择了开拓新业务。“因为一直做不好 tier1 的订单，最后优质订单越来越少，越做越赔钱。于是想自己做甲方。”</p>
-<p>今年 1 月，纵目科技、蚕丛机器人创始人、CEO 唐锐宣布纵目科技全新子公司蚕丛机器人成立，并推出其新产品低速全自动驾驶充电机器人 FlashBot 闪电宝。据其介绍，FlashBot 是一款 L4 级无人驾驶能源机器人，可在园区、停车场等场景，为新能源汽车提供智能充电服务，是首个将自主代客泊车在封闭园区实现商业化应用的机器人。</p>
-<p>今年 4 月，FlashBot 闪电宝正式下线大规模量产，蚕丛机器人部署了 100 台闪电宝为停泊在上海迪士尼度假村的上万辆新能源汽车提供充电服务。唐锐强调，通过结合自动驾驶和储能技术，蚕丛机器人正在构建一个高弹性的移动能源网络，推动更大时空范围内的能量交易，明年其目标是做到 5000 个一线城市大型停车场的移动充电服务。</p>
-<p>但一位接触过蚕丛机器人的投资人称，纵目的移动充电小车的设计走不通，存在使用场景不人性化、机械臂空间问题等多种弊端，这种产品客户根本不会买单。</p>
-<h2>IPO 三度败北，核心高管基本全走了</h2>
-<p>资本市场也曾对纵目科技青睐有加，其凭借多笔大额融资估值一度超过 90 亿元人民币。从 2015 年至 2022 年，纵目科技成功完成了从 A 轮到 E 轮的融资，投资方包括联想、小米集团、君联成业等资本。</p>
-<p>尤其是在 2021 年 3 月成为小米官宣造车后投资的首家产业链企业时，纵目科技身上又多了一层光环。公开资料显示，小米产业基金持股 4.73%，为纵目科技第五大股东，是最大的主机厂股东。</p>
-<p>然而，进入 2023 年后，纵目各方面情况开始急转直下。不仅最后一轮融资停留在了 2022 年，除业务营收外，纵目还经历了接连三次的上市败北和核心高管流失。</p>
-<p>今年 3 月 28 日，纵目科技向港股递交了 IPO。由于招股书满 6 个月后未能通过审核，纵目港股上市申请于 2024 年 9 月 28 日失效。尽管正值小米 SU7 首发上市之际，但这次纵目还是没能乘上小米的东风。</p>
-<p>而这已经是纵目科技第三次 IPO 失败。2017 年，纵目首次在新三板市场挂牌，但仅数月后便宣布摘牌。时隔五年后，纵目科技于 2022 年 11 月转战科创板，但 2023 年 9 月再次撤回 IPO 申请。</p>
-<p>据《新智驾》此前报道，2023 年下半年纵目 CTO 王凡离职，由蒋伟平接任相关工作，彼时纵目并未任命新的 CTO。今年年初，前禾多 3D 视觉首席架构师徐一梁已加入纵目科技，出任 CTO 一职。接近纵目的人士曾透露，“除了王凡，纵目的另外两个副总裁朱光伟、李旭阳也离职了，去年高管基本全走了，只剩下了唐锐。”</p>
-<h2>结语</h2>
-<p>自动驾驶是个烧钱的行业，巨大的研发投入对资金和造血能力有很高的要求。对于纵目科技来说，如何克服当前的困境是一个亟待解决的问题，而这一事件同时也为整个智能驾驶行业敲响了警钟。</p>
-<p><strong>参考链接：</strong></p>
-<p>https://mp.weixin.qq.com/s/cqgGa9cjwLMIs30p3O_d0A</p>
-<p>https://www.zongmutech.com/about.html#/</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/KB0tbvxgq5_EXIZY2rYxZA" rel="noopener noreferrer nofollow" target="_blank">“AI前线”</a>，整理：华卫，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052765806907780</guid><pubDate>Tue, 26 Nov 2024 15:16:00 +0800</pubDate></item><item><title>Claude化身服务器联通一切，AI写好代码自己发Github，人类程序员只配动嘴了</title><link>https://36kr.com/p/3052760526000258</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>Anthropic又发大礼包！现在<strong>Claude自己就是一台服务器</strong>。</p>
-<p>能<strong>直连GitHub</strong>，AI自己写代码、自己创建仓库、Push代码、创建Issue、创建分支、创建PR一条龙服务。</p>
-<p>全程不用离开聊天界面，人类程序员只起到了提需求的作用，彻底退化成产品经理（狗头）。</p>
-<p class="image-wrapper"><img data-img-size-val="900,562" src="https://img.36krcdn.com/hsossms/20241126/v2_9fc0cdf46d3844f39ddcc9e2505c1e15@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除了访问外部资源，也可以在<strong>本地创建、读取和编辑文件和文件夹</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="900,506" src="https://img.36krcdn.com/hsossms/20241126/v2_f0291f2e58414422aa2ec14fc7f014a3@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>甚至可以<strong>多种能力组合</strong>，先联网搜索获取资料，再把处理好的内容填入本地html文件。</p>
-<p class="image-wrapper"><img data-img-size-val="900,506" src="https://img.36krcdn.com/hsossms/20241126/v2_00bab9b057484f92b8c1fe2e72d8d2bb@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>看到这里，或许有人会认为，这不过是一个更为花哨的开发者版GPT插件或GPTs罢了。</p>
-<p>但Claude的野心远不止于此——</p>
-<p>新能力背后是一套通信协议<strong>MCP</strong>（Model Context Protocol）。</p>
-<blockquote>
-<p>实现大模型应用与外部数据源和工具之间的无缝集成，帮助AI获得所需的上下文数据，生成质量更高、与任务更相关的回答。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,867" src="https://img.36krcdn.com/hsossms/20241126/v2_6b05cc2a3cbb4aaf96762c0e9ccd2575@5091053_oswg109870oswg1080oswg867_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>就像互联网靠HTTP标准化了浏览器和服务器之间的信息交换过程，MCP协议也是标准化AI Agent和不同数据源（包括内容存储库、业务工具和开发环境）之间通信的一次尝试。</p>
-<p>并且这可不是闹着玩的，Anthropic已经打算牵头把MCP协议<strong>推动成行业开放标准</strong>了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241126/v2_9c70653906ef420c8702d0dcc09c7ed9@5091053_oswg586307oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>你可能要问了，MCP听起来是个好东西，但搭建对应的服务器想必也不简单吧？</p>
-<p>No No No，官方公告明示，最新版<strong>Claude 3.5 Sonnet自己就非常擅长架设MCP服务器</strong>，直接完成闭环。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,550" src="https://img.36krcdn.com/hsossms/20241126/v2_4ec57bb9d03940ba9bd534f8ccb9e29e@5091053_oswg330071oswg1080oswg550_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>并且，Claude桌面版APP更新后也内置了MCP服务器支持，只需要修改配置文件、重启即可生效。</p>
-<p>这下<strong>claude_desktop_config.json is all you need</strong>了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,845" src="https://img.36krcdn.com/hsossms/20241126/v2_98edd6952b924e14b1e86b2f97ba25b2@5091053_oswg175283oswg1080oswg845_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>首批合作伙伴、AI编程工具<strong>Replit总裁</strong>盛赞，MCP将成为<strong>AI Agent与互联网生态之间的通用语言</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,488" src="https://img.36krcdn.com/hsossms/20241126/v2_adeb57133bdb431899aa371af1fa6894@5091053_oswg216434oswg1080oswg488_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>也有开发者表示“看起来很疯狂”，Claude在接管个人电脑之后，再次接管了服务器。自己此前光是让AI连接数据库都很费劲。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,337" src="https://img.36krcdn.com/hsossms/20241126/v2_4e502ee5c3f2409c9d5c6e039b666bc3@5091053_oswg100418oswg1080oswg337_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过，也有人持怀疑态度，贴出著名讽刺漫画XKCDde一集，担心MCP协议最终没有成为行业通用标准，只是会让生态更加混乱。</p>
-<blockquote>
-<p>当前情况：有14个标准在竞争。14个‽太荒谬了！我们需要制定一个涵盖每个人使用案例的通用标准。不久之后：现在有15个标准在竞争。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,561" src="https://img.36krcdn.com/hsossms/20241126/v2_64980a49bdbc4d27822592d9e54b7793@5091053_oswg85437oswg1080oswg561_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>那么Claude家力推的MCP协议是否有潜力一统江湖呢？</p>
-<p>还要从协议本身的设计、性能、开放性、易用性等方面来考察。</p>
-<h2><strong>即日起MCP本地可用，5分钟快速入门指南奉上</strong></h2>
-<p>我们先来扒一扒官方公告都有哪些看点。</p>
-<p>整体而言，公告主要介绍了<strong>3点</strong>：</p>
-<blockquote>
-<p>当前LLM在应用落地方面所面临的痛点</p>
-<p>MCP通信协议提供的解决方案</p>
-<p>5分钟快速入门指南</p>
-</blockquote>
-<p>首先，随着大模型从纯聊天机器人走向以智能助手为代表的Agent应用，由于Agent需要的操作日益复杂，全球应用玩家们都面临一个相同的痛点——<strong>数据隔离</strong>。</p>
-<p>简单说，一旦LLM应用需要访问外部数据，开发者就得写一大堆定制代码，又麻烦又重复。</p>
-<p>这样一来，别说实现AGI了，就连构建真正互联的AI系统都难以推进。</p>
-<p class="image-wrapper"><img data-img-size-val="1024,1024" src="https://img.36krcdn.com/hsossms/20241126/v2_7297656706e84d878939799574572821@5091053_oswg78879oswg1024oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>面对此情此景，Anthropic带着它的MCP（模型上下文协议）闪亮登场了！</p>
-<p>一句话，MCP协议就像AI系统与数据源之间的一座桥梁，允许开发者在数据源和AI工具之间建立<strong>双向连接</strong>。</p>
-<p>为了更好理解，我们直接康康MCP究竟长啥样。</p>
-<p>据了解，它采用<strong>客户端-服务器架构</strong>，多个服务可以连接到任何兼容的客户端。客户端可以是Claude Desktop、IDE或其他AI工具，服务器则充当适配器，暴露数据源。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,836" src="https://img.36krcdn.com/hsossms/20241126/v2_4f190d8791f6490ba6929b18107217fd@5091053_oswg221419oswg1080oswg836_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其优势在于，以后不管是访问本地资源（数据库、文件、服务），还是访问远程资源（如Slack、GitHub API），都能用同一个协议。</p>
-<p>而且支持的数据形式非常多样，包括文件内容、数据库记录、API响应、实时系统数据、屏幕截图和图像、日志文件等，几乎覆盖了所有类型。</p>
-<blockquote>
-<p>每个资源都由一个唯一的URI标识，可以包含文本或二进制数据。</p>
-</blockquote>
-<p>此外，MCP协议具有良好的<strong>可扩展性</strong>，还能提供：</p>
-<p>Prompts：可以重复使用的模版和工作流程（包括多步骤） ；</p>
-<p>Tools：从系统操作到API集成，再到运行数据处理任务的一切工具；</p>
-<p>Transports：客户端和服务器之间通过<strong>JSON-RPC 2.0</strong>进行的请求、响应和通知，包括对服务器到客户端流和其它自定义传输的支持（目前尚未提及WebSocket/WebRTC）；</p>
-<p>Sampling：允许服务器通过客户端请求LLM完成复杂智能体行为（包括评估成本优先级、速度优先级和智能优先级等）；</p>
-<p>同时，MCP服务器还内置了安全机制，允许服务器自己控制资源，不用把API密钥给LLM提供商。</p>
-<p class="image-wrapper"><img data-img-size-val="544,600" src="https://img.36krcdn.com/hsossms/20241126/v2_d9455fed02854e0297830f8b23a9e022@5091053_oswg30796oswg544oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过需要提醒，目前MCP仅支持本地运行（服务器需要在自己的机器上），官方正计划构建具有企业级身份验证的远程服务器支持（为企业内部共享提供支持）。</p>
-<p>话不多说，我们直接开箱Anthropic这次为开发者准备的东西：</p>
-<p>MCP协议和软件开发工具包 (SDK)</p>
-<p>Claude桌面应用程序中的本地MCP服务器支持</p>
-<p>一个MCP服务器的开源存储库</p>
-<p>大礼包到手，咋用呢？？</p>
-<p>别急，这里还有一份<strong>「5分钟快速上手指南」</strong>，我们领到的任务是：</p>
-<blockquote>
-<p>使用MCP协议，让桌面版Claude安全连接本地服务，比如SQLite数据库。</p>
-</blockquote>
-<p>（注意，桌面版Claude的MCP支持目前处于开发者预览阶段，仅支持连接本地运行的MCP服务器，尚不支持远程连接。）</p>
-<p class="image-wrapper"><img data-img-size-val="1080,249" src="https://img.36krcdn.com/hsossms/20241126/v2_0b8c07d051a34441844acb6209708230@5091053_oswg54875oswg1080oswg249_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>开始之前，我们需要确保自己的macOS或Windows系统已经完成下列准备。</p>
-<blockquote>
-<p>已安装最新版Claude Desktop</p>
-<p>Node.js v18 或更高版本</p>
-<p>检查Git</p>
-<p>检查SQLite</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,1029" src="https://img.36krcdn.com/hsossms/20241126/v2_f4cd4716a7484f1a9a74df0e2f423369@5091053_oswg166133oswg1080oswg1029_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>下面我们以mac为例（入门文档也提供了Windows教程），首先创建一个简单的SQLite数据库进行测试。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1374" src="https://img.36krcdn.com/hsossms/20241126/v2_3670cbb63256417b9c809462c4132432@5091053_oswg278224oswg1080oswg1374_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>然后配置桌面版Claude。例如，如果你已经安装了VS Code，第一步先打开以下位置的桌面应用程序。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,107" src="https://img.36krcdn.com/hsossms/20241126/v2_c12922cdd0dc4760add131bbc0804bbb@5091053_oswg29697oswg1080oswg107_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>接下来将<strong>YOUR_USERNAME</strong>替换为你的实际用户名：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,400" src="https://img.36krcdn.com/hsossms/20241126/v2_c2b9c841e3d34f619d1da762fe56ecce@5091053_oswg55369oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>替换完成后Claude就会接收到以下指令：</p>
-<p>这里有一个名为“sqlite”的MCP服务器</p>
-<p>通过运行uvx mcp-server-sqlite启动它</p>
-<p>将其连接到测试数据库</p>
-<p>最终，保存文件并重新启动桌面版Claude，就可以正式享用了。</p>
-<p>为了检查一切是否正常运行，可以输入以下咒语：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,98" src="https://img.36krcdn.com/hsossms/20241126/v2_1717452116ff4874bf8b49a4015f5280@5091053_oswg25431oswg1080oswg98_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>铛铛铛铛，Claude最后成功查询了SQLite数据库。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,804" src="https://img.36krcdn.com/hsossms/20241126/v2_c359e53e3c6b455a921bc2791460f7d3@5091053_oswg368307oswg1080oswg804_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除了上手简单，MCP还具有良好的<strong>开放性</strong>。</p>
-<p>事实上，MCP协议的性能已经收获了首批合作伙伴的盛赞。</p>
-<p>金融支付公司Block和数据管理解决方案供应商Apollo，已经将MCP集成进了自家系统中。</p>
-<p>Block首席技术官Dhanji R. Prasanna表示：</p>
-<blockquote>
-<p>MCP这样的开放技术是连接AI与实际应用的桥梁，确保创新易于获取、透明，并基于合作。</p>
-<p>我们很高兴能够合作开发一个协议，并利用它来构建具有Agent能力的系统。</p>
-</blockquote>
-<p>而像Zed、Replit、Codeium和Sourcegraph在内的开发应用公司，则是用MCP来进一步增强自己的AI能力，尤其是提高Agent在编码方面的理解力和完成质量。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1156" src="https://img.36krcdn.com/hsossms/20241126/v2_270d0276e6a54649b3ed2739546af54e@5091053_oswg347705oswg1080oswg1156_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>总之，Anthropic致力于将MCP打造成一个开源生态系统，无论是AI工具开发者，还是希望利用现有数据的企业，都可以加入进来。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,545" src="https://img.36krcdn.com/hsossms/20241126/v2_d18e953e8f99476785a1714c544d2762@5091053_oswg251772oswg1080oswg545_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>即日起，开发者都可以开始构建和测试MCP，以及现有的Claude for Work客户可以开始本地测试MCP服务器。</p>
-<p>接下来，Anthropic计划推出更多支持工具，包括用于部署远程MCP服务器的工具包。</p>
-<p class="image-wrapper"><img data-img-size-val="488,488" src="https://img.36krcdn.com/hsossms/20241126/v2_687deedbcdfc4fdd97d514a69edb5fe0@5091053_oswg22857oswg488oswg488_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>再融40亿美元，Claude瞄准toB市场</strong></h2>
-<p>BTW，除了重磅推出MCP，Anthropic最近的好消息莫过于小金库又进账了。(doge）</p>
-<p>去年给它投了40亿美元的亚马逊，这次<strong>又给了40亿美元</strong>。其中一项重要合作内容是：</p>
-<p>Anthropic需要使用亚马逊旗下的芯片训练和部署AI模型。</p>
-<p>这一招，双方都打的是<strong>企业客户</strong>这块肥肉的主意。用Anthropic模型的企业客户较多，亚马逊希望借此扩大企业客户市场份额；而亚马逊自身也有大量企业客户，Anthropic也希望借其平台扩大模型使用。</p>
-<p>此前有人估算，与OpenAI大部分收入来自ChatGPT应用订阅不同，<strong>Anthropic约85%的收入来自API调用</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,623" src="https://img.36krcdn.com/hsossms/20241126/v2_ba4b41ab9e2f4986b62c8116ae5b284b@5091053_oswg108030oswg1080oswg623_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在一次最新采访中，Anthropic CEO也明确表示：</p>
-<blockquote>
-<p>目前公司更看重企业市场，而不是OpenAI那样的消费市场。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,565" src="https://img.36krcdn.com/hsossms/20241126/v2_a263b6daf78541b389f0283e95e820fe@5091053_oswg625539oswg1080oswg565_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而回顾竞争对手们的动作，最近一周，OpenAI与谷歌忙着在竞技场排行榜较劲，不断发布最新模型检查点争第一。</p>
-<p>Anthropic开发者关系主管公开杠了一下：</p>
-<blockquote>
-<p>Claude正在真正重要的事上进步，而其他实验室把精力花在markdown格式输出上。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,916" src="https://img.36krcdn.com/hsossms/20241126/v2_25e52d31fba34aefaa93f0af7bcc4d54@5091053_oswg411795oswg1080oswg916_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当时大家还不理解，什么才是“真正重要的事”。</p>
-<p class="image-wrapper"><img data-img-size-val="958,262" src="https://img.36krcdn.com/hsossms/20241126/v2_5948a699501f4cfd88a6aa8648aa6bb5@5091053_oswg63579oswg958oswg262_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>紧接着，Claude网页版更新了集成谷歌文档功能，但并未引起太多波澜。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241126/v2_3574dbad7ccf4c6d801ae54b5d68cf37@5091053_oswg208715oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>现在看来，“真正重要的事”或许就是指MCP通信协议。</p>
-<p>而官方谷歌文档支持恐怕正是通过MCP实现的。</p>
-<p>官方公告：https://www.anthropic.com/news/model-context-protocolGitHub：https://github.com/modelcontextprotocol</p>
-<p>快速入门文档：https://modelcontextprotocol.io/introduction</p>
-<p>参考链接：</p>
-<p>[1]https://twitter.com/alexalbert__/status/1861079762506252723</p>
-<p>[2]https://twitter.com/alexalbert__/status/1861136466816180595</p>
-<p>[3]https://twitter.com/skirano/status/1861081529071346161</p>
-<p>[4]https://news.ycombinator.com/item?id=42237577</p>
-<p>[5]https://www.tanayj.com/p/openai-and-anthropic-revenue-breakdown</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/UXb0KyDCSHkUS_4dCGlsfQ" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：梦晨 一水，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052760526000258</guid><pubDate>Tue, 26 Nov 2024 15:18:00 +0800</pubDate></item><item><title>糖葫芦摊位费百万起，“尔滨”冰雪大世界火了</title><link>https://36kr.com/p/3052760120824198</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>“尔滨”归来仍是火爆。</p>
-<p>据“哈尔滨文旅”消息，2024年哈尔滨冰雪大世界预计将于12月中旬开园，面积将从上个冰雪季的81万㎡扩展到100万㎡，是历届最大规模。</p>
-<p>冰雪大世界还未开业，糖葫芦摊位的拍卖就先火了一把。</p>
-<p>近日，哈尔滨市拍卖行发布第26届哈尔滨冰雪大世界相关项目拍卖会的公告，其中受委托对第26届哈尔滨冰雪大世界的糖葫芦点位项目经营权进行拍卖，起拍价100万元。项目地址正位于哈尔滨市松北区哈尔滨冰雪大世界园区，将于11月27日上午9点30分进行公开网络竞拍。</p>
-<p>若算上由竞买人承担的自备集装箱房费用约50万元，该糖葫芦点位的经营成本起步价至少要达到150万元。社交平台上有网友就调侃称，“一天得卖几千串才够租金啊！”</p>
-<p>爆火一年后，哈尔滨热度依旧不减。据在线旅游平台数据，11月份哈尔滨搜索量环比上月增长3倍，哈尔滨酒店预订量同比去年增长1.6倍。</p>
-<h2><strong>1 点位密集拍卖，冰雪大世界处处是生意</strong></h2>
-<p>《26届冰雪大世界商服招商报名表》显示，百万起拍价并非单个摊位，而是包含园区内9个冰糖葫芦售卖点位。竞买成功后，竞买人需自备集装箱房，外观须配合园区整体规划，覆雪进行艺术造型，经验收合格后方可营业，费用约为50万元，由竞买人承担。</p>
-<p>至于点位经营权使用时间，哈尔滨拍卖行并未在公告中提及。哈尔滨冰雪大世界相关工作人员对时代财经称，今年园区具体开园时间还没有确定，预计是12月中旬。若参考去年，经营时间约2个月。</p>
-<p>该起拍价引起了不少讨论，有网友就担心较高的经营权价格或引起物价上涨。不过，在哈尔滨拍卖行披露的经营规范中，已经对糖葫芦的售卖价格做了规定。其中，冰糖葫芦涉及草莓、葡萄、山楂、蜜枣、菠萝等9个品种，售价从10元到30元不等，最便宜的是12粒蜜枣糖葫芦，售价10元。</p>
-<p>此外，哈尔滨大世界对于糖葫芦点位的经营还有诸多要求，包括若商家发生违价行为，将给予警告并处2000元罚款，严重的扣除5000元经营保证金；发现移动和增加摊位，一次也将扣除5000元经营保证金；甚至还提及，如果在新闻媒体上发现1次负面新闻及投诉，除罚款外还将取消经营资格。</p>
-<p>这并不是冰雪大世界第一次拍卖冰糖葫芦售卖点位。时代财经在中拍平台看到，在2023年，冰雪大世界也曾对冰糖葫芦的项目经营权进行公开网络竞价拍卖，彼时起拍价与成交价均为40万元，点位为10个，不过没有披露具体点位面积。若按此计算，一年后一个冰糖葫芦售卖点位拍卖价上涨超170%。</p>
-<p>而哈尔滨冰雪大世界的拍卖生意也远不止“一串糖葫芦”。</p>
-<p>同期与糖葫芦点位一起挂牌拍卖的，还有园区内D栋商服5个经营点位，摩天轮商服10个经营点位项目经营权。这些经营点位也有详细规划品类，如5㎡的饮品点位起拍价格为12万元、5㎡的锅包肉点位为8万元等。</p>
-<p>在11月中旬，26届冰雪大世界园区的30余个摊位经营权已进行过一轮拍卖，经营品类包含防寒用品、雪圈租赁、旅拍以及小吃饮品等，最高起拍单项为25万元的单个雪圈租赁点位。</p>
-<p>去年哈尔滨的爆火让此次拍卖引来不少商家的兴趣。一名参与竞拍的商家便表示，自己“盯了整整一天”，有一些摊位加价拍卖，也有一些底价成交，部分较大面积的摊位成交价高达数十万。该商家称，考虑到本金问题，也担心赔钱，最终没有竞拍成功。</p>
-<p>时代财经从拍卖平台、哈尔滨市公共交易中心等官方网站发现，哈尔滨冰雪大世界的拍卖生意覆盖上下游产业链，上至建设施工、冰雪景观、冰上自行车、大滑梯、IP形象玩偶、项目宣传推广和自媒体运营等等的招标与采购，下至旅行社代理、旅拍、简餐热饮、防寒产品等服务摊位的经营权拍卖，起拍价范围从几千到上百万不等。</p>
-<p>作为世界最大的室外冰雪主题公园，冰雪大世界的拍卖会已持续了数年。</p>
-<p>2017年的一则报道称，当年的最高标的为“摄影摄像经营权”，从起拍价110万元一路追高至142万元成交。而根据哈尔滨市公共交易中心披露的“第26届冰雪大世界摄影摄像、直播服务”成交候选人公示结果，预成交价格为138.9万元。</p>
-<p>另据百度旗下招投标信息查询平台“寻标宝”统计显示，园区经营方哈尔滨冰雪大世界股份有限公司近一年内（2023年12月-2024年11月）招标金额达9.63亿，招标次数405次。</p>
-<p class="image-wrapper"><img data-img-size-val="960,1675" src="https://img.36krcdn.com/hsossms/20241126/v2_b005683c30b3470dbc76b10e00a9cece@5091053_oswg99197oswg960oswg1675_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：寻标宝</p>
-<h2><strong>2 冰雪季来临，哈尔滨旅游预订提前开启</strong></h2>
-<p>糖葫芦摊位的起拍价上涨超一倍，也证明了哈尔滨及冰雪大世界的“吸金”能力。</p>
-<p>去年冰雪季，“尔滨”爆火出圈，仅2024年春节期间，哈尔滨市就接待游客1009.3万人次，旅游总收入达164.2亿元。</p>
-<p>作为其中的明星景区，造价35亿元的冰雪大世界，尽管在开园首日因“排队时间长”“管理能力不足”等原因出现退票风波，但随后景区火速处理、哈尔滨文旅局公开致歉、连夜整改。最终在2023-2024冰雪季，哈尔滨冰雪大世界运营61天，累计接待游客271万人次。</p>
-<p>今年，哈尔滨这座城市在努力延续着这波流量。</p>
-<p>当地文旅局宣布，今年哈尔滨冰雪大世界的整体面积由去年的81万㎡扩大到100万㎡，预计将再次刷新吉尼斯世界纪录。在社交平台上也可看到，部分消费者已提前订好了飞往哈尔滨的机票，以赶在冰雪大世界开园时前往游玩。</p>
-<p>另据天眼查显示，11月7日，哈尔滨冰雪大世界股份有限公司发生工商变更，经营范围新增演出经纪、演出场所经营、营业性演出业务。当前，该公司仍由哈尔滨文化旅游集团有限公司、哈尔滨马迭尔集团股份有限公司分别持股60%、40%。</p>
-<p>随着雪季到来，哈尔滨将举办系列亚冬会测试赛及多项冰雪赛事等，新一轮东北冰雪游也拉开帷幕。《中国冰雪产业发展研究报告（2024）》显示，2023—2024冰雪季，我国冰雪休闲旅游人数超过3.85亿人次，预计2024—2025冰雪季有望突破5亿人次，冰雪休闲旅游总收入有望超7000亿元。</p>
-<p>携程信息显示，全国预计11月中下旬将迎来第一波冰雪游预订高峰；12月下旬至明年1月中旬将迎来第二波预订高峰。去哪儿平台提供信息则显示，截至11月25日，入住时间为11月15日至12月底的哈尔滨酒店预订量同比去年增长1.6倍；从机票客源地看，深圳、上海、广州、成都、杭州的客人最爱去哈尔滨。</p>
-<p>同时，哈尔滨的火热也带动了周边城市旅游预订。从去哪儿平台酒店预订增速看，11月上旬哈尔滨酒店预订量同比去年增长超五成，带动省内大兴安岭预订量同比增长140%、伊春增长52%、齐齐哈尔增长45%。</p>
-<p>广州康辉旅游相关负责人也向时代财经指出，今年，在以哈尔滨一地或联游为主的东北旅游线产品报名中，报名时间较往年有所提前，自10月中旬起，已有游客开始咨询并报名参加，主要参与者为中老年人群以及享有年假的年轻家庭。</p>
-<p>截至11月21日，广州康辉的东北旅游线路上架40天，报名人数已占旅行社全部冬季旅游产品线路的32%。该负责人称，哈尔滨去年出圈后，预测今年热度会更高，因此相较去年加大了酒店资源采购量，用来储备定制团、品质团的需求。</p>
-<p>除了哈尔滨，长春、阿勒泰、乌兰察布、崇礼等地也已进入“冰雪模式”，新一冰雪季的争夺赛已经打响。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/erycYNhKfamC01TqUfPN-g" rel="noopener noreferrer nofollow" target="_blank">“时代财经APP”</a>，作者：林心林，编辑：黎倩，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052760120824198</guid><pubDate>Tue, 26 Nov 2024 15:19:00 +0800</pubDate></item><item><title>跑出51家上市企业，中国最牛小县城，每7个人就有1个霸道总裁？</title><link>https://36kr.com/p/3052748871160200</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 26 Nov 2024 16:30:25 +0800</lastBuildDate><pubDate>Tue, 26 Nov 2024 16:30:25 +0800</pubDate><item><title>跑出51家上市企业，中国最牛小县城，每7个人就有1个霸道总裁？</title><link>https://36kr.com/p/3052748871160200</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <blockquote>
 <p>在传闻中，晋江平均每7个人就有1个老板，每21个人就有一家企业。令人不禁好奇：从贫困小渔村到中国最牛小县城，晋江商人是如何集体上演草根逆袭霸总的？</p>
 </blockquote>
@@ -649,4 +372,162 @@
 <p>不过，困难依旧摆在眼前。一方面，出海并不意味着完美结局，与MNC交易，对赌的压力并不比与投资机构斡旋小；另一方面，无论是BD交易还是并购，如今Biotech大多处于被抄底的境遇，其价格不尽人意。</p>
 <p>这一条漫长的海外征途，正缓缓拉开序幕。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/OkzXXlPi8JCFtKEPs87sxA" rel="noopener noreferrer nofollow" target="_blank">“并购最前线”</a>，作者：岳笑笑，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052876396384646</guid><pubDate>Tue, 26 Nov 2024 15:43:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052876396384646</guid><pubDate>Tue, 26 Nov 2024 15:43:00 +0800</pubDate></item><item><title>链上“长生不老药”DeSci，还能活多久？</title><link>https://36kr.com/p/3052895864574082</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>论及近两周以来最热的赛道，非DeSci莫属。</p>
+<p>自11月8日，Binance labs宣布投资BIO Protocol后，在CZ与V神的联名背书下，这一曾经沉寂的概念再度兴起，热钱蜂拥而至，RIF、URO涌出千倍财富，也卷出了一个新的潜力MEME赛道。</p>
+<p>DeSci，又称去中心化科学，援引Messari的概念，指通过Web3技术建立公共基础设施来实现公开公正资助、存储和传播科学知识的行为，DeSci 鼓励科学家公开分享研究成果并获得荣誉，同时允许任何人轻松访问和贡献研究成果。简单而言，DeSci致力于依托区块链技术解决科研问题，涵盖资金筹集、知识共享、评审、知识产权等等。</p>
+<p>从赛道表现而言，DeSci集中于筹资方向，多数项目模式依托代币化对项目进行融资从而支持科研开发，同时，科研成果多提倡上链提升透明度保护知识产权。目前，DeSci最为核心的作用是为需要长期投入的科学研究开辟出新的筹资渠道，由于将加密与科学研究这两大风马牛不相及的领域进行了链接，赋予了代币化更多的实际意义，因而被市场大力鼓吹是MEME实用化的案例之一。</p>
+<p>论及本轮DeSci爆火的根源，名人效应是关键。11月8日，据官方披露，币安完成对BIO Protocol的战略融资，让这一“链上科学版的 Y Combinator”浮出了水面。随后，CZ 出席Binance在曼谷举行的DeSci Day活动，Vitalik也在场，两者共同探讨DeSci ，更是将DeSci推上了风口浪尖。</p>
+<p>善于找寻热点的加密圈迅速涌起DeSci热潮，Pump.Science一炮而红，RIF、URO项目跑出千倍利润，让这一赛道彻底出圈。Mechanism Capital 合伙人 Andrew Kang 甚至发文认为，“DeSci 领域现在感觉就像 2019 年初的 DeFi 时代。一切都还很原始、实验性，但从中可以得出一个基本结论，那就是它有巨大的潜力。”受此影响，即便在如今市场大幅度回调中，根据SoSoValue数据，DeSci板块也仍逆势上涨3.35%。</p>
+<p>尽管Desci愿景向好，科学研究的渠道资金打开也无疑具有价值，但仅从当前论，炒作成分显然大于实际效用。<strong>本质上而言，科学研究的长期性与MEME领域的短期逐利性呈现出显著背离，寄希望用纯投机的MEME赛道中和零投机的科研领域颇有天方夜谭之感。</strong></p>
+<p>一方面，科学研究存在极大的不确定性，药物研制动辄十数年，方向若出错更是全盘皆属，具备高投入、高风险等特点，需要可持续性的长期投资，这也是为何科研资金通常采用国家牵头、龙头企业引领的模式，国家资本与社会资本相结合以对冲风险并保持竞争力。但在加密市场，注意力才是核心，热点难以持续，目前围绕DeSci的热钱主要集中于科学研究类项目的迷因币发行平台Pump.Science，显示出市场对于赚钱效应的关注。</p>
+<p>实际上，仅从概念来看，DeSci颇有点新瓶装旧酒的意味。要是追溯历史，2021年7月V神发起的VitaDAO就是最早、也最具代表性的DeSci项目，但这一项目的发展，却并不如其概念般波澜壮阔。</p>
+<p>VitaDAO是一个由社区所有、致力于资助早期长寿研究的项目，目标在于通过社区的集体力量推动科学创新，研究和支持旨在延长人类寿命及预防与年龄相关的疾病的项目。换而言之，VitaDAO就是研究长寿的DAO社区。</p>
+<p>在此前，由于传统制药企业辉瑞对该项目进行了战略参投，VitaDAO曾经短暂地引发热议，但后续随着谈资的没落迅速归于沉寂。目前来看，VitaDAO也正广泛布局，不仅部署420万美元的资金，资助了24个项目，还与纽卡斯尔大学等知名大学进行了研究合作。但相对于其动作，实际成果就显得颇为有限。从2021年开始，直到今年前不久的Devcon 上，V神才终于展示了VitaDAO的首款产品VD001。</p>
+<p>另一方面，尽管科研成果的上链会加强透明度与知识产权保护，也有利于科学扩散，但在相对封闭的科研领域，该点几乎是结构式颠覆。在当今的科研体系下，多数研究团队在科研过程中，对研究成果和实验数据保持高度保密性，以防止研究成果被未经授权的人窃取、利用或泄露，尤其是涉及到深层利益，保密更是重中之重。随着去中心化的强势进驻，数据的安全性自然也难以保障。</p>
+<p><strong>在上述两者的加持下，可以预想，除了在科研内容、评审公正性与数据代币化等表层的应用外，仅有实现难度极高、耗时极长、协同性极高的课题会迎合加密模式。而从这一轮热潮看，多数DeSci项目就瞄准了一个全人类共同关注的核心议题——长寿，这也让市场戏称DeSci是链上的长生不老药。</strong></p>
+<p>长生不老终究只是美好愿景，市场关注DeSci也只为其背后带来的流动性。尽管BIOProtocol 发起的 BIO Genesis 社群募资活动筹集3300万美元，且近两周DeSci板块得以飙升。但一级市场动作有限，大型机构尚未参与，而从龙头项目看，二级市场关注更是表现平平， VITA 与 RIF 的市值皆落在1亿2000万至2 亿美元之间，与其他板块龙头动辄10亿美元的市值相距甚远。</p>
+<p class="image-wrapper"><img data-img-size-val="553,241" src="https://img.36krcdn.com/hsossms/20241126/v2_1e3c502f3b534208be09ef1e3f98bfd5@5091053_oswg56314oswg553oswg241_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">DeSci板块发展情况，来源：sosovalue</p>
+<p>但若撇除长期性来看，DeSci在MEME界算是相对不错的版块。与其他MEME相比，DeSci具备更强的叙事性。名人效应虽难持久，但由于有实际科研项目支撑，因而存在基本面效应，任何科研的创新与产品的研发都会加强叙事力度。而生物医学板块对于筹资多是来者不拒，且该领域的新兴性使其更有可能与加密领域接轨。此外，DeSci具备潜在的破圈效应，当前版块的名人效应暂时还集聚在加密内部，以V神与CZ为首，传统医疗与科研领域的名人尚未进入，大型机构也还未涌现，这也给后续叙事提供了方向。</p>
+<p>回归至宏观市场，无论是动物园还是艺术家，是AI驱动还是科研验证，可以看到，MEME已然成为了市场资金的主要承载。但曾经的这一轮泼天富贵的承接者，还是山寨币。仅从山寨市场来看，比特币从1万美元涨至10万美元边缘，以太坊跟进效应显著降低，山寨币的表现则大多下跌，前十大加密资产中仅 SOL 和 XRP 出现上涨，动辄数十倍增长的山寨季似乎难以复现。</p>
+<p>从核心来看，资金流向的变化是关键。在传统的牛市传导中，普遍路径是从高稳定性资产逐步下沉外溢至低稳定性资产，从低收益源起盘活高收益偏好，即主流币种-山寨币种-MEME币种-其他板块，但今年该路径却不如以往。但目前，随着机构的进驻与项目数量的饱和，外部大额新增流动性仅会流入比特币生态，公链生态又无强劲的应用涌现，山寨币更是深陷供需机构危机，比特币成为生态资金的虹吸者，其他板块的资金也被虹吸而至，唯有快进快出、财富效应集中的MEME脱颖而出，山寨季也因此变成了MEME季。</p>
+<p>一个典型的佐证是，Pump.fun已然成为了牛市的最大赢家。据 Dune 数据显示，截至11月24日，pump.fun累计收入接近 2.3 亿美元（228,908,720 美元），已部署代币总数约为374万。</p>
+<p>当然，两者并非替代效应，MEME的崛起也并非意味着山寨的倒塌，在监管放松与板块轮动下，山寨仍有可能逆风翻盘。但MEME市场地位的提升毫无疑问反映出市场的结构性转变，实际上，无论是Pumpfun直播、TikTok喊单还是AI自主驱动等等，随着Z时代的进驻与新技术的快速演进，加密市场都正经历着叙事逻辑、传播模式、运营方式的深层次变化。</p>
+<p>传统山寨项目通围绕代币释放以维持叙事长期割韭菜的形式难以持续，市场也不再对VC代币买单，而是向着更公平、更自主、更贴近代币核心的方向迁移，注意力日益稀缺。以此而言，MEME与项目的结合似乎比单一项目更有竞争力，山寨坐庄，而MEME相对公平，MEME缺乏长期性，而项目又赋予了基本面，两者高度契合，这或许也是当下AIMEME、Desci等概念兴起的原因之一。</p>
+<p>但无论如何，共识的形成具备高度随机性，MEME金矿少之又少。援引Panews数据，截至 11 月 21 日，Pump.fun 共发行代币数为359万个，这一数量级已经远超过去 10 年加密世界的代币发行总量。其中毕业（打满曲线上线 Raydium）的代币数量为50389个，占比约为 1.4%。而市值过 1 亿美元的代币数量仅为32个，仅有不足十万分之一的MEME市值能超过千万美元。</p>
+<p><strong>长期而言，在注意力与长期性中找到共识平衡将成为MEME发展的重要议题，但对于个人，活下去、不归零才是一切的前提。</strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ufy9HlvMTB1vxz2l0GtzWQ" rel="noopener noreferrer nofollow" target="_blank">“陀螺财经”</a>，作者：陀螺财经，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052895864574082</guid><pubDate>Tue, 26 Nov 2024 16:00:00 +0800</pubDate></item><item><title>缓慢地贴着奢侈品牌开店，加拿大鹅还能稳住在华业绩吗？</title><link>https://36kr.com/p/3052883287724164</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>当市场寒流袭来，再怎么昂贵的羽绒服可能也难以将冷空气完全隔绝在外。</p>
+<p>近日，高端羽绒服品牌加拿大鹅发布2025财季第二季度业绩，在截至9月29日的三个月时间里，销售额同比下跌4.7%至2.68亿加元（约合人民币13.84亿元）。</p>
+<p>按照地区划分，加拿大鹅在全球各个大区的销售情况可以用“惨不忍睹”一词来形容。北美、欧洲、中东和非洲大区以及除中国外的亚太市场，无一例外全部交出了销售额下跌的成绩单，其中欧洲、中东和非洲大区跌幅最大，达到13.5%。</p>
+<p>大中华市场成为这一季度里面唯一一个“支棱”的地区，销售同比增长5.7%，拉动了整个亚太市场销售增长3.6%。</p>
+<p>对于大中华市场的表现，加拿大鹅董事长兼首席执行官Dani Reiss在财报会议上表达了极高的认可，还坦言加拿大鹅全球的门店都感受到了中国消费者对品牌的喜爱，其希望这样的态势能够在未来得到延续。</p>
+<p>然而， Dani Reiss也透露，接下来加拿大鹅将进入关键的调整周期，强化奢侈品牌定位和放缓开店速度都是其中的重要举措。 在全球奢侈品消费显著下滑、国内功能性服饰品牌集中涌现的背景下，放弃速度的加拿大鹅要如何守住中国这块“蛋糕”？</p>
+<h2><strong>1 开店策略保守，城市布局进展缓慢</strong></h2>
+<p>最近几个财季，大中华区在加拿大鹅财报里似乎都是“神”一样的存在，无论国际市场如何变动，欧美消费形势如何严峻，大中华区总是靠着增长的业绩抓住所有人的目光。</p>
+<p>但增长的表象之下，大中华区的业绩实际也在向悬崖靠近。</p>
+<p>品牌数读查阅加拿大鹅过往几个财季财报发现， 大中华区的销售额同比增幅正在大幅度降低 。如2024财年第四季度，大中华区的销售额同比增幅达到近30%，到了2025财年第一季度，这一数字降至12.3%，最新一个财季，大中华区的销售额同比增幅进一步降到了个位数。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1096" src="https://img.36krcdn.com/hsossms/20241126/v2_c9cf8ce83094478797a20300519c5c8c@5091053_oswg267655oswg1080oswg1096_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当然，羽绒服的淡旺季对业绩产生较大影响，但即便如此，仍然无法被忽视的一个事实是：寒冬才刚刚开始。</p>
+<p>对此，加拿大鹅是有所察觉的。此前加拿大鹅一度被批发渠道“扼喉”，高度依赖单一渠道的模式也遭受到资本市场的质疑和唱衰。 为扭转局势，加拿大鹅下定决心整改渠道，布局自营门店就是其中极为关键的一步。</p>
+<p>去年，加拿大鹅尝试作出突破，鼓起勇气南下，在深圳开出首店，正式征战华南市场。但是到了今年，加拿大鹅几乎没有开拓新版图的动作，而是选择在已进入的城市开设更多门店。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,562" src="https://img.36krcdn.com/hsossms/20241126/v2_9197bdfe962e4b48b38506efa42acfd5@5091053_oswg247230oswg1080oswg562_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其中，位于武汉SKP的新门店是一家独栋跨层大店，共有三层，也是目前加拿大鹅在华中地区开出的最大门店；新渠道的开拓方面，加拿大鹅进入机场，首店落在成都双流机场，尝试在机场商业中分的一杯羹。</p>
+<p>可见， 今年加拿大鹅在线下渠道打起了“安全牌”，而谨慎的扩张策略也导致了加拿大鹅城市布局进展缓慢， 据品牌数读统计，目前加拿大鹅仅在中国17城（不包含港澳台地区）设有独立门店，且除了北京、上海、杭州之外，另外14城的门店数量均只有1家或2家。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,569" src="https://img.36krcdn.com/hsossms/20241126/v2_af04c2917827418db0eb20e88712d34a@5091053_oswg192778oswg1080oswg569_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>2 只想和奢侈品牌做邻居</strong></h2>
+<p>门店的选址完全将加拿大鹅坚定要做“奢侈品”的野心暴露。简单来说，强调奢侈品定位的加拿大鹅， 只想和奢侈品牌做邻居，高档购物中心、高能级商圈、高消费力是标配。</p>
+<p>加拿大鹅定位高端羽绒服，售价动辄过万，为了保持品牌的调性，加拿大鹅和国际一线奢侈品牌一样，在门店选址方面以高端购物中心作为优先选择。</p>
+<p>用具体的数据来佐证上述观点，赢商大数据统计显示，以27城5万方以上代表性购物中心为统计范围，加拿大鹅将八成以上的门店开设在市级商圈、近95%的门店落位成熟商圈。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1161" src="https://img.36krcdn.com/hsossms/20241126/v2_60fa647d19fd41a5877e29c8feca8d3a@5091053_oswg433968oswg1080oswg1161_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此外，加拿大鹅有近96%的门店入驻了高档购物中心，其中多个门店入驻了华润旗下高端产品线万象城；此外，加拿大鹅还有过半的门店开在曝光度最高的一楼。</p>
+<p>品牌数读还发现， 加拿大鹅非常看重购物中心零售业态的消费能力，偏好客流稳定、高收入人群密集、零售消费力强劲的项目。</p>
+<p>以其近期开设的两家常态独立门店为例，分别入驻了武汉SKP和上海兴业太古汇，根据赢在选址数据显示，今年以来，兴业太古汇的客流基本保持平稳状态，仅在2月受春节影响出现较大波动；武汉SKP在开业前两个月有明显的拉升，后续随着品牌门店逐步开业，日均客流也有趋于平稳的态势。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1369" src="https://img.36krcdn.com/hsossms/20241126/v2_8b304cb3c2704621b189631e3d124d2f@5091053_oswg516156oswg1080oswg1369_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>与此同时，分析这两座购物中心的内场消费力，零售品类的表现都非常不错。其中，兴业太古汇场内零售业态消费平均客单价达到4位数，仅次于文体娱品类；在武汉SKP，零售品类的客单价更是排到了第一位，也是场内四大业态中唯一一个平均客单价达到4位数的品类。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1458" src="https://img.36krcdn.com/hsossms/20241126/v2_2041e18f2f4742259c7761717074bee8@5091053_oswg473757oswg1080oswg1458_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这类购物中心还有着奢侈品牌浓度极高的特点，如武汉SKP集齐LV、DIOR、FENDI、MIUMIU等奢侈品牌，据传CHANEL、爱马仕也将入驻；兴业太古汇同样如此，劳力士、罗意威、巴黎世家等品牌的加持下，纵使兴业太古汇的调改进程十分缓慢，但还是吸引了加拿大鹅的目光。</p>
+<p>通过与这些品牌为邻，加拿大鹅进一步强调了奢侈品的属性。</p>
+<h2><strong>3 行业竞争与市场下行的双重考验，加拿大鹅在奥莱渠道找增长</strong></h2>
+<p>近几年国内掀起“户外热”，国内外有不少功能性的产品获得市场关注，尤其是高端产品，极受国内中产消费者的青睐，加拿大鹅就是其中之一。</p>
+<p>《2024年奢华户外服饰流行趋势白皮书》显示，随着人们生活水平的提高和对生活品质的追求，户外场賷的多元化和奢华化趋势日益明显。豪华露营、雪地旅行等奢华户外活动在成为全球高端人士的户外生活新风尚之后，逐渐进入大众视野，成为户外新顶流，户外服饰市场场景空前，近一年实现了成交金额指数逾100%的增长。</p>
+<p>加拿大鹅近年在中国市场取得提升的业绩也与市场的快速崛起有着莫大的关联。但市场高速发展的时期，市场需求集中涌现，各类玩家也在集中入局，不仅Moncler、北面等国际功能性服饰品牌在加快布局，波司登、高梵、鸭鸭等羽绒服品牌也直接向包括加拿大鹅在内的国际品牌发起了追击。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,678" src="https://img.36krcdn.com/hsossms/20241126/v2_6cb4a2200be34c6aba70ccd505b89e8c@5091053_oswg80305oswg1080oswg678_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>讲究“质价比”的市场里，谁也不敢说，加拿大鹅在中国的增长还能持续下去。毕竟， 在加拿大鹅之前，另一高端羽绒服Moncler已经打开了下行的通道。</p>
+<p>根据Moncler集团2024年第三季度财报显示，过去的一个季度，Moncler品牌营收为5.3亿欧元，同比下降3%，其中亚太地区的收入同比下降2%，欧洲、中东和非洲地区收入下降3%，美洲地区收入下降6%。</p>
+<p>和加拿大鹅Dani Reiss的乐观不同，Moncler集团董事长兼执行长Remo Ruffini认为，Moncler的产业正面临一个持续波动的时期，尤其是全球经济环境的表现更加困难，这也影响了多个市场消费者的信心。</p>
+<p>更多的研报传递出悲观情绪。贝恩公司与意大利奢侈品制造商行业协会联合发布的最新奢侈品市场研究报告称，2024年，中国内地奢侈品市场增速急剧放缓，主要由于消费者信心低迷以及中国游客流向周边和欧洲国家，加之国内消费较为疲软，导致今年市场整体表现不尽如人意。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,680" src="https://img.36krcdn.com/hsossms/20241126/v2_7d6357e2d76c46d286b71217ec47e556@5091053_oswg114406oswg1080oswg680_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>同时，该研报也提到，大多数奢侈品品牌的线下实体店正面临到店客流急剧下降的艰难处境。 随着奢侈品消费进入性价比阶段，折扣店渠道取得了令人瞩目的销售增长，取代全价店成为消费者选购入门级奢侈品的首选渠道。</p>
+<p>事实上，今年加拿大鹅正在加码奥莱渠道，先后进驻大连杉杉奥莱、成都杉杉奥莱。由此可见，在增速显著放缓的处境下，哪怕是坚持奢侈品定位的加拿大鹅，也不得不放下姿态，寻找更加有效的销售渠道。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/bVsoRtKq4NIk3w6yNuVv9Q" rel="noopener noreferrer nofollow" target="_blank">“品牌数读”</a>，作者：童洁，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052883287724164</guid><pubDate>Tue, 26 Nov 2024 16:10:00 +0800</pubDate></item><item><title>永业近200亿再接上海黄浦旧改，位置绝佳</title><link>https://36kr.com/p/3052943459864709</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>上海本土企业永业集团又在黄浦区盘了一片旧改地。</p>
+<p>近日，观点新媒体从上海市规划和自然资源局官网获悉，位于上海黄浦区的黄浦C010301单元205A-03地块、207A-01地块及寿宁路（部分）地下空间地块、208A-05地块，将由上海永业城市更新建设发展有限公司作为意向用地者进行开发。</p>
+<p>官方信息显示，上述地块均为住宅、商业混合用地，总价达到194.43亿元，连接老城厢板块与新天地板块，预计将提供约15.6万平方米的住宅。</p>
+<h2><strong>永业再度落子黄浦</strong></h2>
+<p>11月初，上海市黄浦区人民政府发布了一则文件，公布了黄浦区C010301单元208A-05地块及会稽路（部分）、208A-06（部分）地下空间地块的项目背景。</p>
+<p>“地块与黄浦区C010301单元205A-03地块、黄浦区C010301单元207A-01地块及寿宁路（部分）地下空间地块为我区成片旧改政企合作项目，三幅地块将链接新天地和老城厢板块。”</p>
+<p>政府发布文件说明的背后，源自2021年5月黄浦区所举行的土地宣介会。彼时，黄浦区计划未来3年内拟出让17宗地块，涵盖外滩、北京路、南京路、金陵路、豫园、新天地、董家渡，2024年拟计划出让6个组团地块，2025年另计划出让3个组团地块。</p>
+<p>“每一块都在上海最好的位置，总价要去到1800亿了。”有业内人士透露，17宗土地可出让总用地面积达到76.5公顷，总建筑量约292.54万平方米，商办和住宅的占比分别为73.1%和23.9%。</p>
+<p>按此计算，未来三年内黄浦区将放出222万平方米商办面积以及70万平方米住宅面积。</p>
+<p>从推介会所发布消息来看，永业此次拿到黄浦区三宗地块均为旧改用地，既包含住宅用地，还预留了商业用地，地块为商业和住宅混合用地，且出让文件中的规划用途也注明住宅与商业用地。</p>
+<p>此外，在上海人民政府发布的特别管理条例中，永业所获这三宗地块住宅总建筑面积不得超过15.6万平方米。</p>
+<p>资料显示，黄浦区C010301单元207A-01地块及寿宁路（部分）地下空间地块的总宗地面积1.62万平方米，其中，207A-01地块土地面积为1.47万平方米，寿宁路（部分）地下空间地块仅1447.32平方米。</p>
+<p>观点新媒体查阅资料得知，地块处于寿宁路与会稽路之间，余康里、同康里、永华里等老式里弄坐落其间；黄浦区C010301单元205A-03地块占地面积稍小，约合1.38万平方米，该地块商业用地占比73%，住宅用地占比27%，容积率1.45，限高16米，建筑面积约2.01万平方米，预计未来将主要开发商业业态。</p>
+<p>黄浦区C010301单元208A-05地块整体则亮点颇多，占地面积达到2.08万平方米，规划用途为商业和三类住宅混合用地，商业用地仅占比16%，住宅用地占比84%，容积率6.69，高出205A-03地块近6倍。与此同时，地块限高170米，建筑面积13.97万平方米。</p>
+<p>有市场声音表示，这宗地快或将建设一栋170米高层改善型项目。</p>
+<p>事实上，208A-05地块恰好临近永业联合瑞安操盘的另一宗超高层住宅项目“黄浦翠湖天地”，后者由1幢180米髙的超髙层住宅跟风貌别墅组成。</p>
+<p>今年9月，该项目六期108套房源当日售罄，收金近120亿元。若208A-05地块未来效仿翠湖天地建成另一栋超高层改善型项目，有助于缓解黄浦区新天地板块豪宅市场的“高度”分化。</p>
+<h2><strong>新天地的新老面孔</strong></h2>
+<p>永业是否将在黄浦区建造超高层住宅项目尚未确定，但黄浦旧改项目对其而言并不陌生。</p>
+<p>早在2022年3月，永业就曾出手接下中海发展上海公司旗下号称百亿规模的黄浦旧改项目。</p>
+<p>据中国建筑彼时发布公告，曾由中海出资98%、上海中城企业集团出资2%的上海中海海庭房地产有限公司股权进行变更。变更完成后，持股比例变为中海出资2%、永业出资98%。</p>
+<p>上海中海海庭房地产有限公司背后，是位于黄浦新天地板块的“建国东路67-71街坊”旧改项目。这意味着，部分项目控股股东已变更为永业。</p>
+<p>值得注意的是，随着永业入驻，旧改项目计划投资额也由590亿元增加到了595亿元，开发周期从原来的6年拟变更为6.5年。</p>
+<p>观点新媒体查阅资料得知，建国东路项目是黄浦区内为数不多的成片旧城改造区域，现存13处文保建筑，项目涉及8500户搬迁，总占地面积14.75万平方米，地上计容建筑面积达到36.8万平方米，包括住宅、商办、公共绿地、风貌保护及历史保留建筑等业态，称得上是区域内的巨无霸旧改。</p>
+<p>永业是上海黄浦区房地产领域最早成立的区属企业之一，曾在2013年与上海城投合作开发思南公馆项目，具备大体量旧改项目经验。因此，从中海手中接盘建国东路67-71街坊项目的难度并不大。</p>
+<p>上海城投同样如此，前有与永业的合作背景，2024年10月又以总价70.8亿元的价格，加仓黄浦区小东门街道235B-03、237A-02、237B-01、237C-02地块及豫园街道231B-02、231C-01地块（简称：福佑南地块）。</p>
+<p>地块总建筑面积7.92万平方米，住宅建筑面积5.72万平方米,商业建筑面积1.97万平方米。由于地块的老城厢属性，风貌保护保留建筑面积达到1.57万平方米，保护更新面积也不少于3.82万平方米。</p>
+<p>值得一提的是，福佑南地块临近另一宗颇具热度的旧改项目露香园，后者同样为上海城投旗下黄浦区域旧改住宅。</p>
+<p>2024年2月，露香园二期首个商品房项目开盘，合计推出262套房源，认购率达到106%，成交均价超16万元/平方米。</p>
+<p>永业、上海城投等本地企业之外，外资同样在等待黄浦的旧改机遇。</p>
+<p>11月初，新加坡丰隆集团与厦门联发组成的联合体成为黄浦区新天地板块C020102单元096-2、097-4地块的出让主体，地块总起价87.4亿元，总建筑面积2.79万平方米，为新天地第一宗进行公开市场出让的宅地。</p>
+<p>在此之前，新天地板块玩家只局限于瑞安、中海等少数房企。</p>
+<p>而擅长制造豪宅项目的新加坡丰隆集团想要入局则需做出相关承诺，包括相关年度进出口和国际业务额年均不低于200亿美元；在黄浦区注册并于2025年底前引入不少于等值人民币50亿元的外资等。</p>
+<p class="editor-note">本文来自“观点网”，作者：赵焓璐，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052943459864709</guid><pubDate>Tue, 26 Nov 2024 16:18:00 +0800</pubDate></item><item><title>解药还是泡沫？谷子经济能否解决零售和商业地产的困境？</title><link>https://36kr.com/p/3052880397057798</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近期，谷子经济成为A股市场的新风口，多只概念股在短短几天内接连涨停。11月25日至26日，实丰文化、广博股份等纷纷封板，华立科技更是两日连拉20cm涨幅。资本市场的热情背后，是二次元文化兴起、Z世代消费崛起等多重因素的合力作用。从IP周边的火爆销量到热门IP联名的抢购狂潮，谷子经济正以燎原之势点燃市场。</p>
+<p>与此同时，谷子经济的浪潮也席卷了商业地产与零售业。沉寂许久的商场因为二次元主题展览而焕发新生；传统品牌借助热门IP联名推出的商品，一再刷新年轻人的消费欲望。谷子经济俨然成为零售与地产行业突破瓶颈的“救命稻草”。然而，这种热潮究竟能走多远？是短期现象还是长期机会？谷子经济能否真正成为商业地产和零售业的解药？</p>
+<p>接下来，让我们一探究竟。</p>
+<h2><strong>何为谷子经济？</strong></h2>
+<p>谷子经济，简单来说，是围绕二次元文化、IP衍生品和年轻消费群体展开的经济现象。“谷子”是二次元爱好者对“Goods”（商品）的昵称，承载着他们对虚拟与现实交错世界的情感寄托。从《原神》联名笔记本到泡泡玛特盲盒，谷子经济俘获了Z世代的心。</p>
+<p>数据背后是热情。根据相关数据显示，中国泛二次元用户规模已突破5亿，其中Z世代年轻人是绝对主力。这群“自我感受至上”的新消费群体，不仅为谷子经济买单，更用行动定义了消费的未来。他们喜欢说：“买的是信仰，快乐无价。”</p>
+<p>然而，谷子经济真的能承载商业地产与零售业的期待吗？</p>
+<h2><strong>商业地产：沉寂商场的逆风曲？</strong></h2>
+<p>北京王府井的喜悦商场，过去以黄金珠宝闻名，如今却因地下二层的谷子摊位而爆红。二次元粉丝在这里交换徽章、周边，甚至现场摆摊，场面热闹非凡。商场负责人感慨：“这些年轻人让这里又有了人气。”年轻消费者涌入的背后，是商业地产在消费转型中的一次成功试验。</p>
+<p>与之类似，上海百联ZX创趣场干脆以二次元文化为主题，设置了IP展示区和互动体验馆。试营业期间，许多粉丝身着Cosplay服装前来打卡，社交平台上的种草视频纷至沓来。数据显示，谷子经济相关区域的客流量比普通区域高出30%以上。</p>
+<p>“这里不仅能买到喜欢的周边，还可以认识志同道合的朋友。”小林是一位狂热的手办收藏家，兴奋地向记者展示她的战利品：“这些商场比以前有趣多了！谁还会去那种没意思的地方？”</p>
+<p>谷子经济为商业地产注入了新的活力。但问题在于，这种热度能否持续？年轻人的兴趣转移之快早已是公开的秘密。那些曾经在商场排长队的潮玩，如今在二手交易平台上的价格已经跌破发行价。这些波动，让商业地产面临难以预测的风险。</p>
+<p>正如《权力的游戏》中提到的那句：“Chaos isn’t a pit. Chaos is a ladder.”（混乱不是深渊，混乱是阶梯。）如何从混乱中找到长期的稳定性，才是商业地产的最终命题。</p>
+<h2><strong>零售业：流量密码还是昙花一现？</strong></h2>
+<p>联名，是谷子经济与零售结合的典型方式。好利来与《光与夜之恋》合作推出了限定甜品，蛋糕上的游戏角色形象引发粉丝排队抢购。有人甚至提前一天到店，只为买到附赠的角色徽章。</p>
+<p>另一边，美妆品牌花西子联名《剑网3》，将游戏中的元素融入彩妆设计。一款带有“剑网3江湖风”的眼影盘上线首日售罄，社交平台上刷屏的用户评价直接带动了品牌的搜索热度。</p>
+<p>“买联名其实是一种情感消费，”游戏爱好者阿明表示，“我可能不是为了蛋糕本身，而是为了喜欢的角色。感觉自己和品牌有了连接。”但他也坦言，类似的联名越来越多，冲动消费之后可能会有些后悔。</p>
+<p>谷子经济的消费热潮为零售业带来了短期的业绩增长，但也隐藏着潜在的隐忧。过度依赖联名可能导致品牌的同质化风险。一旦IP热度下降，零售业如何留住消费者成为考验。</p>
+<p>或许正如《钢铁侠》中托尼·斯塔克所言：“It’s not about the product, it’s about the experience.”（关键不在于产品，而在于体验。）只有深度挖掘消费者需求，品牌才能走出“联名依赖症”。</p>
+<h2><strong>谷子经济的底层逻辑</strong></h2>
+<h3><strong>消费情感化：买的是情怀，而非商品</strong></h3>
+<p>清晨7点，上海某商场门口已经排起了长队。这天，是某二次元IP盲盒新品发售的日子。排在队伍最前面的，是大学生小薇和她的三位室友。她们前一晚通宵搭帐篷，就为抢到心仪的 款式。小薇说：“这些盲盒对我来说，不只是玩具，更是一种情感的寄托。我喜欢这个IP，买它的周边就像拥有了和角色更亲密的连接。”</p>
+<p>这种“情感驱动型消费”，是谷子经济的核心逻辑之一。对于Z世代消费者而言，商品不只是商品，而是情绪的延伸。正如泡泡玛特CEO王宁所说：“我们卖的从来不是简单的产品，而是人们的情绪表达和生活方式。”</p>
+<p>案例佐证这一点的不仅是盲盒。一位《原神》玩家小张回忆，去年他为了一套限定版角色徽章，花了近一周时间蹲守官网，每天刷新页面数十次，甚至还找了代购抢购。他笑着说：“徽章的成本可能只有几块钱，但当你喜欢这个角色时，它的意义就无限放大了。”</p>
+<p>这份对IP的热爱，是情感的催化剂，也是购买的驱动力。它让消费者愿意为超出商品实际价值数倍的溢价买单，构成了谷子经济的基石。</p>
+<h3><strong>多元文化融合：用文化拼盘吸引目光</strong></h3>
+<p>在广州某二次元主题商场，一场国风Cosplay展正如火如荼地进行。台上，身着古风服饰的表演者正在挥剑起舞；台下，观众不时举起手机拍摄。这场活动不仅吸引了Cosplay爱好者，还有不少冲着国风文化而来的路人。23岁的观众小李坦言：“我平时不看动漫，但被这种融合传统文化的表演吸引了。”</p>
+<p>这种多元文化的融合，正是谷子经济能够跨越圈层、吸引更广泛消费群体的关键。在美妆领域，花西子联名《剑网3》推出的眼影盘同样说明了这一点。眼影的色号不仅以“江湖梦”“剑舞春秋”等名称呼应游戏元素，甚至还设计了手绘风格的古风包装。一位购买者在社交平台上评论：“这盘眼影让我感觉，化妆也是一种穿越江湖的体验。”</p>
+<p>通过多元文化的整合，谷子经济赋予商品更多维度的价值。这种策略既能吸引核心粉丝，又能触及兴趣圈层之外的潜在消费者。</p>
+<h3><strong>数字化传播：让产品成为社交货币</strong></h3>
+<p>场景切换到一家咖啡店，正在拍照的小刘将一杯联名咖啡小心摆好。她并不急着喝，而是对准咖啡上的动漫角色拉花，拍了十几张照片。随后，她挑选最满意的一张发到朋友圈，并配文：“新出的联名咖啡，今天排队一小时终于买到！”</p>
+<p>这样的场景，几乎每天都在社交媒体上重演。对于年轻消费者而言，谷子经济中的商品不仅是消费品，还是一种“社交货币”。它们用来表达兴趣爱好、展示生活品位，并与圈层内的朋友建立联系。</p>
+<p>此外，数字化传播还让消费者成为了“自来水式”的宣传员。比如，《原神》联名文具推出后，不少玩家在微博、小红书分享开箱体验，形成了巨大的线上讨论热度。一位分享视频的博主在评论区写道：“文具的设计很戳我，使用时都觉得学习更有动力了！”</p>
+<p>这种线上分享的行为，使得谷子经济商品的宣传效果呈现指数级增长。正如一位业内人士所说：“Z世代的消费，不只是买东西，而是买体验、买话题和买认同感。”</p>
+<h3><strong>真实与虚拟交汇：谷子是一座桥梁</strong></h3>
+<p>深夜11点，小林坐在书桌前，打开刚买的《原神》联名日历，开始在上面记录计划。她说：“游戏中的世界太美好了，这本日历让我有一种把虚拟生活带到现实的感觉。”</p>
+<p>这是谷子经济的另一核心逻辑——它将虚拟和现实连接起来，让消费者在物理世界中感受到数字世界的触碰。从盲盒到徽章，从文具到主题咖啡，这些商品看似小巧，却承载着玩家对虚拟世界的向往。谷子经济的商品，成为了二次元爱好者在两个维度间穿梭的桥梁。</p>
+<p>这种连接感，尤其对以“数字原住民”自居的年轻一代具有吸引力。正如心理学家米哈尔·契克森米哈伊（Mihaly Csikszentmihalyi）在《心流》中所言：“人们真正追求的，是能让他们沉浸于体验的事物。”谷子经济所提供的商品，正是这种沉浸体验的物化。</p>
+<h2><strong>谷子经济的难题：挑战与瓶颈并存</strong></h2>
+<h3><strong>热度即红利，但生命周期短促</strong></h3>
+<p>谷子经济的核心驱动力是IP的热度，但IP本身的生命周期往往难以持久。例如，一款热门动漫角色徽章或盲盒可能在发售初期引发抢购，但随着新IP的崛起和消费者兴趣的转移，其吸引力会迅速下降。业内人士形容这种现象为“一阵风经济”——风来的时候热火朝天，但当风散了，只留下库存积压和萧条的市场。</p>
+<h3><strong>盗版侵权横行，挤压正品市场</strong></h3>
+<p>“买正版的周边太贵了，几十块能在网上买到一模一样的盗版，谁会去花大价钱？”这样的声音在消费者中并不少见。盗版问题在谷子经济领域尤为突出。由于IP衍生品的制作门槛较低，低价盗版大量涌现，不仅扰乱了市场秩序，也削弱了正品的品牌价值。</p>
+<h3><strong>优质IP稀缺，国产IP难以突围</strong></h3>
+<p>谷子经济的繁荣依赖于优质IP的支撑，而在国内，真正能够形成规模化消费和广泛影响力的IP却屈指可数。相比于海外市场长期积累的经典IP体系，如迪士尼、漫威等，国内大部分IP仍处于“单一爆款”的阶段，依靠热点文化快速抓住流量，缺乏系统化的内容积累和品牌培育，导致企业在竞争中容易陷入“一次性消费”的怪圈。这不仅限制了谷子经济的发展空间，也让行业始终被“资源紧缺”的问题掣肘。</p>
+<h2><strong>写在最后</strong></h2>
+<p>谷子经济的崛起，确实为商业地产和零售业注入了一剂强心针。在后疫情时代，这种聚焦二次元文化、抓住年轻消费群体的商业模式，通过制造爆款IP和沉浸式体验，激活了一个原本陷入“同质化困境”的市场。它展示了未来商业的可能性：文化、体验与消费的深度融合。</p>
+<p>然而，谷子经济也并非灵丹妙药。它能解决商业地产短期内人流匮乏的痛点，但无法单靠一次主题活动或几场联名展览来实现行业的长期复苏。它可以让零售业短暂焕发生机，但在盗版冲击、IP运营瓶颈和消费者兴趣周期中，企业仍需找到突破局限的路径。</p>
+<p>未来，谷子经济是否能真正成为“解药”，取决于企业能否从追求短期流量变为构建长期价值。唯有将IP开发运营、产业链协同和用户体验升级融合为一体，打造一个可持续的文化经济生态，谷子经济才不会沦为风口过后的泡沫。正如阿尔伯特·爱因斯坦曾言：“问题无法通过制造它们的思维方式解决。”商业地产和零售业要借助谷子经济这股东风，不仅要“用好”，更要“转变”。</p>
+<p>倘若谷子经济是解药，它一定是缓释型的；而真正的转型与复苏之路，则在于企业如何将短期热潮的红利转化为长期变革的动力。这不仅是谷子经济的未来之路，也是商业地产与零售业能否真正重获生机的关键所在。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDk3MDY2MQ==&amp;mid=2247484350&amp;idx=1&amp;sn=30265a71f6ffc87f29920af0e9fd259f&amp;chksm=e8ef08f4df9881e237899b630704a666d762d6bc163604d3c7246bba0da5959600d30a7e138d&amp;token=1839235832&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“ST商业研究社”</a>，作者：ST编辑部，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052880397057798</guid><pubDate>Tue, 26 Nov 2024 16:20:00 +0800</pubDate></item></channel></rss>
