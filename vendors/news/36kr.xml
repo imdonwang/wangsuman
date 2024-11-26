@@ -1,91 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 26 Nov 2024 18:00:29 +0800</lastBuildDate><pubDate>Tue, 26 Nov 2024 18:00:29 +0800</pubDate><item><title>AI 创业新指南：去码头整个小型核反应堆先</title><link>https://36kr.com/p/3052935655854469</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>比“切尔诺贝利”事故更早，1979 年的一场核泄漏事故发生在美国“三哩岛”（Three Mile Island）。机械故障加上人为失误，导致了其中一座反应堆的堆芯熔毁，一部分放射性物质外泄。此后一段时期内，世界范围内核电发展因此停滞。</p>
-<p>但没过多久，大概六年后，顶着周围居民的反对，三哩岛上那个没坏的反应堆重新启动，接着持续工作了近 34 年，直到 2019 年，因为发电成本不比更廉价的天然气而被关闭。</p>
-<p>几个月前，微软找到三哩岛核电站的运营商（Constellation），说要买下未来 20 年生产的所有电力，大约 835 兆瓦，这相当于为 80 万个家庭供电所需。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241126/v2_700c640635484120b51d5d349ff4eaf2@000000_oswg1170295oswg1080oswg865_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">微软要买下三哩岛未来20年的所有电力丨纽约时报</p>
-<p>微软已经承诺到 2030 年实现“负碳”排放，但其排放量在 2020—2023 财年之间上涨了 29%。AI 发展对于电力的消耗，将迫使这些科技公司寻求稳定且清洁的能源供给——就连名字也换了，三哩岛将更名为 Crane Clean Energy Center。</p>
-<p>这一出核电重启将创造出 3400 个就业机会，一名退休员工Ken Bryan在 Facebook 上一个“三哩岛退休人员群”里看到重启消息后，觉得是个好事儿，但也有另外经历过泄漏事件的老人却隐约担心，毕竟以前发生过核泄漏。</p>
-<h2><strong>奥特曼：听我说，未来两件事最重要，“智能计算”和“能源”</strong></h2>
-<p>能源是智能计算的基础。HuggingFace训练BLOOM模型（参数1760亿），用了43.3万度电；GPT-3训练一次需要128.7度电；GPT-4则更夸张，一次训练会用去2.4亿度电。</p>
-<p>不过这还只是训练阶段，越往后走，用户在使用模型进行推理时，更会源源不断地耗电，耗电程度远远超过传统的互联网产品。根据国际能源署（IEA）数据，使用ChatGPT进行一次查询，耗电量是2.9瓦时，传统的谷歌搜索是0.3瓦时，相差10倍。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241126/v2_a4c5cde8fe0a4f3bbf4167c3b639be2b@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">AI搜索时传统搜索引擎耗电量的10倍丨Giphy</p>
-<p>今年三月，《纽约客》写道，ChatGPT 每天处理约 2 亿次用户请求，因此消耗了超过 50 万千瓦时的电力——几乎是美国普通家庭一天用电量的 17000 倍。</p>
-<p>根据咨询公司 Gartner 的预计，到 2030 年，人工智能将占全球电力需求的 3.5%。这相当于目前农业和林业总消耗的能源。为了解决能源问题，各家科技公司盯上了一个说新不新的东西：核电。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241126/v2_91f0da4bfc844256b1da1516bf58aeca@000000_oswg1294767oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">亚马逊的一个位于Aldie, Va.的数据中心丨Jahi Chikwendiu/The Washington Post</p>
-<p>亚马逊购买了一家核能供应商（Talen Energy）的数据中心园区，并与其核电站签订了长期购电协议。大量GPU进行并行计算时会“吞噬”巨大电力，据研究机构 Semi Analysis 估计，比如一个包含 10 万片 H100 GPU 集群理论上所需电能 150 兆瓦。集群计算又带来另一个耗电需求——散热。冷却系统的能耗一般占到数据中心总能耗的35%-50%。不过联邦能源管理委员会认为这可能会转移该区域电网的大量电力，影响到原有的供电平衡和稳定性，否决了协议。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241126/v2_b4f95bc7efdf49faa5916d6079ef92f9@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">热啊丨Giphy</p>
-<p>“买电”遇阻，不如自己“建”核电站，从源头下手。</p>
-<p>大型反应堆项目的延期和成本超支大大打击了美国在此类项目上的积极性——2013年，佐治亚州Vogtle3号和4号先后启动建设，2023年3号投运，是美国 2016 年首个投入运营的新建核电机组。4号今年投运后，美国已无任何新核电站在建。</p>
-<p>重启旧的反应堆是一种快速经济的方式，就像三哩岛。另外，相比高成本、长周期建造投入的大型核电站来说，小型模块化反应堆（SMR）能更为灵活地解决 AI 能源缺口。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241126/v2_4d73cbfe002d4fe99998fafedecfca95@000000_oswg95167oswg555oswg312_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小型模块化反应堆（SMR）能更为灵活地解决 AI 能源缺口丨A. Vargas/IAEA</p>
-<p>光是亚马逊，就与至少三家核能公司开展 SMR 合作项目。与 Energy Northwest 合作，在华盛顿开发四座 SMRs，预计到 21 世纪 30 年代初，装机容量将达到 960 兆瓦；投资了 X-energ，支持其开发（到2040年）超过5吉瓦容量的项目；在弗吉尼亚州，与 Dominion Energy 合作，计划在现有核电站附近开发小型模块化反应堆。</p>
-<p>谷歌计划向能源公司 Kairos Power 购买其拟建的 7 个 SMRs 的电力，总容量达 500 兆瓦。</p>
-<p>OpenAI 的奥特曼自 2015 年就开始担任 Oklo 的董事长，认为 Oklo 能实现先进裂变解决方案的商业化。Oklo 产品线包括功率 15 兆瓦到 50 兆瓦不等的核电站，采用液态金属反应堆技术，将在 2027 年建造其第一个 SMR。</p>
-<h2><strong>SMR：袖珍电厂</strong></h2>
-<p>传统的大型核电站建造涉及多个关键部分，每一部分都包含复杂的设计和施工要求。核电站的建设一般包含了利用原子核裂变生产蒸汽的核岛和利用蒸汽发电的常规岛。</p>
-<p>前者包含了反应堆堆芯、冷却系统、蒸汽发生器、发电机和安全壳等组件，后者包含了涡轮机、发电机、冷却塔等一系列发电设备。除此之外还有冷却水供应、废物处理等一系列辅助子系统来确保核电站的正常运转。</p>
-<p>SMR 是指物理尺寸和功率都比传统的千兆瓦级发电厂小的核反应堆，简化了传统核电站的关键组件，分解成比标准化单元在工厂“预制”，运输到现场组装。因此具备部署灵活性强的优势。</p>
-<p>根据国际原子能机构（IAEA）发布的 2024 年 SMR 研究进展（Advances in SMR Developments 2024），当前全球有超过 68 种正处于不同开发阶段的 SMR 设计，技术路线囊括了基于传统的水冷反应堆技术和第四代反应堆技术（气冷反应堆、液态金属冷却反应堆和熔盐反应堆）。为了应对偏远地区、远洋地区的功能挑战，功率更低的微型反应堆和海基水冷 SMR 技术也在不断发展。</p>
-<p>现有的 SMR 技术通常提供的发电量在 10 到 300 兆瓦之间。相比传统的核电站而言，虽然单体发电量较低，但其设计可以通过模块化部署来实现发电量的扩展，多个 SMR 可以并联以达到几百到上千兆瓦的供电能力。此外，由于建设周期较短、前期投入相对较低，SMR 非常适合按需增设，从而满足大型数据中心的用电需求。</p>
-<p>SMR 可以结合被动冷却安全系统，不需要人工干预就可以面对意外的极端情况——不同于三哩岛的情况。但 SMR 作为较新的核反应堆技术，处于开发和测试阶段，没有得到商业性验证。美国核管理委员会前主席阿里森·麦克法兰及其合作者在 2022 年的研究中也指出，较小的反应堆也可能产生更多核废料，并降低燃料的使用效率，而且这个问题可能普遍存在于大多数 SMR 中。</p>
-<p>亚马逊云计算部门首席执行官 Matt Garman 曾表示，“一些小型模块化反应堆在 2020 年代不会解决任何问题，但在 2030 年代及以后可能会成为极好的能源。”</p>
-<p>美国核能办公室网站发表的一篇文章中指出，核能的容量系数高达 92.5%，这意味着其能在 92% 以上的时间内，以最大功率运行——对于背负了脱碳责任的科技企业来说，核能是比风能、太阳能更为稳定的电力供应。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241126/v2_ee62800f05454960a626d094e3c97795@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">AGI和气候变化，说到底，都是能源基础设施的问题丨Giphy</p>
-<p>核聚变（比核裂变产生更高的能量密度）领域也拿到了第一笔购电协议。核聚变初创公司 Helion Energy 向微软承诺，在 2028 年上线工厂，一年后则希望将发电量达到 50 兆瓦。而一兆瓦就能为多达 1000 户美国家庭供电一天。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241126/v2_c9757a7701bb4395925c2c26beebfa10@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">核能的容量系数高达 92.5%丨Giphy</p>
-<p>这一次，核能产业的复苏和发展，可真得好好感谢AI，毕竟，美国能源部贷款项目的办公室主任 Jigar Shah 这么形容，“Joseph（Constellation的CEO）可是做梦都没想到能拿到微软的订单。”</p>
-<p><strong>参考文献</strong></p>
-<p>[1] https://www.nytimes.com/2024/10/30/business/energy-environment/three-mile-island-nuclear-energy.html#:~:text=down%20in%202019.-,Three%20Mile%20Island%2C%20Notorious%20in%20Nuclear%20Power's%20Past%2C%20May%20Herald,to%20meet%20rising%20electricity%20demand.</p>
-<p>[2] https://www.newyorker.com/news/daily-comment/the-obscene-energy-demands-of-ai</p>
-<p>[3] https://www.ft.com/content/ed602e09-6c40-4979-aff9-7453ee28406a</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTg1MjI3MzY2MQ==&amp;mid=2652288950&amp;idx=1&amp;sn=5df3ad1633ee7e7115278dbd467a32af&amp;chksm=5c27e7f04c82c5499b3477e7d0e88ae7a7070825736362c7d622e38c5a9aa289170a6526a439&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“果壳”（ID：Guokr42）</a>，作者：普拉斯G，编辑：沈知涵，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052935655854469</guid><pubDate>Tue, 26 Nov 2024 17:32:00 +0800</pubDate></item><item><title>氪星晚报｜台积电高雄2纳米新厂今天进机，苹果、AMD可望是首批客户；华为Mate70系列正式发布，起售价5499元；特朗普妄言对进口自中国的商品加征10%的关税</title><link>https://36kr.com/p/3052984054550912</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2><strong>大公司：</strong></h2>
-<p label="正文" style=""><a href="https://www.36kr.com/newsflashes/3052509106442630" rel="noopener noreferrer" target="_blank"><strong>台积电高雄2纳米新厂今天进机，苹果、AMD可望是首批客户</strong></a></p>
-<p>据台湾经济日报，台积电高雄2纳米新厂今天将举行设备进机典礼，该厂比预期早逾半年进机，预料苹果、AMD等大厂都将是首批客户。据了解，台积电今天高雄厂2奈纳新厂进机典礼公司定义为“内部不对外公开活动”，公司公关窗口昨日对相关议题三缄其口，保密到家。台积电在台布局2奈米，新竹宝山、高雄新厂两路并进，预计2025年量产。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052462657523849" rel="noopener noreferrer" target="_blank"><strong>Meta、TikTok和谷歌抨击澳大利亚针对16岁以下人群的社交媒体禁令</strong></a></p>
-<p>包括Meta、TikTok 和谷歌在内的全球科技巨头严厉批评了澳大利亚禁止16岁以下儿童访问社交媒体平台的立法，政府试图在本周推动议会通过该法案。根据拟议的法律，16岁以下的澳大利亚人将被禁止在包括Facebook、Instagram、Snapchat和Reddit在内的所有主要社交媒体网站上注册账户，即使他们获得了父母的许可。这些社交媒体巨头将负责执行这一禁令，并将面临高达5000万澳元（合3250万美元）的罚款。</p>
-<p><a href="https://www.36kr.com/newsflashes/3051989967851911" rel="noopener noreferrer" target="_blank"><strong>SpaceX第七次试飞计划最早明年1月11日进行</strong></a></p>
-<p>11月25日，电动汽车分析师Sawyer Merritt在社交平台称，美国宇航局的最新文件显示，SpaceX的第七次星际飞船试飞可能最早于1月11日进行。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052722439835785" rel="noopener noreferrer" target="_blank"><strong>百度健康原总裁何明科、医疗业务原总经理张延东离职</strong></a></p>
-<p>百度集团原资深副总裁、百度集团原大健康事业群（HCG）总裁何明科已于约一周前离职。此外，百度健康医疗业务原总经理张延东也即将离职，他在百度集团的最后一个工作日为12月16日。一个多月前，百度集团宣布将大健康事业群合并至移动生态事业群组（MEG），何明科的工作由原本负责搜索和AI生态业务的杨明璐接手。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052778576351365" rel="noopener noreferrer" target="_blank"><strong>消息称三星电子最快本周进行大规模人事调整</strong></a></p>
-<p>据业内消息来源称，三星电子预计最快将于本周进行大规模人事调整，以改善低迷的业绩表现。据不愿透露姓名的消息人士透露，三星电子周一开始对设备解决方案部门负责芯片业务的部分高管进行裁员，预计最早将于周三公布新总裁名单。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052817163178368" rel="noopener noreferrer" target="_blank"><strong>三星大幅减少未来生产NAND所需光刻胶使用量</strong></a></p>
-<p>据报道，三星已成功大幅减少3D NAND闪存生产光刻工艺中光刻胶的使用量。据消息人士透露，其已制定未来NAND的生产路线图，仅使用目前光刻胶量的一半。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052886360936839" rel="noopener noreferrer" target="_blank"><strong>余承东：华为Mate70系列已完成鸿蒙智行全系车型数字钥匙验证</strong></a></p>
-<p>36氪获悉，据华为终端官微，华为Mate品牌盛典正式举行，华为常务董事、终端BG董事长、智能汽车解决方案BU董事长余承东现场宣布，华为Mate70系列已完成鸿蒙智行全系车型数字钥匙验证。</p>
-<h2><strong>新产品：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3052918402273408" rel="noopener noreferrer" target="_blank"><strong>华为Mate70系列正式发布，起售价5499元</strong></a></p>
-<p>36氪获悉，据华为终端，华为Mate品牌盛典正式举行，华为常务董事、终端BG董事长余承东在现场宣布，华为Mate70系列正式发布。售价方面，Mate70售价5499元起，Mate70 Pro售价6499元起，Mate70 Pro+售价8499元起，Mate70 RS 非凡大师售价11999元起。余承东表示，华为Mate 70系列将提供鸿蒙4.3和原生鸿蒙两个选择，明年新手机和新平板将全部搭载原生鸿蒙。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052759639199872" rel="noopener noreferrer" target="_blank"><strong>TikTok for Business针对IAA游戏推出了VBO产品</strong></a></p>
-<p>36氪获悉，TikTok for Business针对IAA（应用内广告）游戏推出了VBO产品，能够助力IAA类型的广告主最大限度地提高TikTok在安卓侧的广告ROAS，实现回本盈利。同时，TikTok for Business旗下的程序化广告平台Pangle还推出了Playable试玩广告，解决传统素材已难以持续吸引用户的注意力的问题。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052517023027584" rel="noopener noreferrer" target="_blank"><strong>OPPO发布Reno13系列，2699元起售</strong></a></p>
-<p>36氪获悉，OPPO发布Reno13系列，全新AI高清实况照片支持编辑功能，还首次实现与苹果手机iOS LivePhoto互传、互显、互编，可在多个社交平台分享。此外，Reno13系列还搭载了独家定制的自研抢网芯片X1，提升手机连接Wi-Fi条件下的上下行能力。OPPO Reno13系列2699元起售。</p>
-<h2><strong>投融资：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3052586900574339" rel="noopener noreferrer" target="_blank"><strong>现代汽车将斥资近4.8亿美元在马来西亚建厂，加速布局东南亚市场</strong></a></p>
-<p>据现代汽车11月26日消息，该集团将从明年起至2030年在马来西亚吉打州居林总投资21.59亿林吉特（约合4.8亿美元）建汽车组装工厂，为现代汽车在该国最大一笔投资。工厂年产能将从2万辆开始逐渐扩大，车型将包括捷尼赛思中大型SUV和MPV等。生产车辆不仅供应马来西亚内需市场，也将出口至其他东南亚国家。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052503223062656" rel="noopener noreferrer" target="_blank"><strong>创东方完成对“寰采星”的C轮投资</strong></a></p>
-<p>36氪获悉，据创东方投资官微，近日，创东方红砖基金完成对“寰采星”的数千万元人民币的C轮投资。寰采星成立于2019年，聚焦高精度金属掩膜版的研发、生产制造以及配套服务。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052554134065538" rel="noopener noreferrer" target="_blank"><strong>伟创力完成3.25亿美元收购Crown Technical Systems</strong></a></p>
-<p>伟创力宣布已完成此前宣布的对Crown Technical Systems公司3.25亿美元的全现金收购，Crown Technical Systems是一家专注于全面集成配电和保护系统的企业。出于报告目的，Crown Technical Systems公司将被纳入伟创力可靠性解决方案部门的工业业务部门。</p>
-<h2><strong>今日观点：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3052434474111113" rel="noopener noreferrer" target="_blank"><strong>巴克莱看好标普500指数明年底前涨至6600点</strong></a></p>
-<p>巴克莱策略师认为，美国股市2025年将在建设性布仓和稳健的宏观经济推动下进一步走高，尽管行情和今年及去年的迅猛势头相比会放缓。Venu Krishna领导的团队将标普500指数明年底目标价从6500点上调至6600点，较周一水平约高出10%。</p>
-<h2><strong>其他值得关注的新闻：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3052527925924228" rel="noopener noreferrer" target="_blank"><strong>特朗普妄言对进口自中国的商品加征10%的关税</strong></a></p>
-<p>当地时间11月25日，美国当选总统特朗普在其社交媒体账号发文，妄言将对进口自中国的所有商品加征10%的关税。</p>
-<p><a href="https://www.36kr.com/newsflashes/3052945606103430" rel="noopener noreferrer" target="_blank"><strong>我国重型燃气轮机实现小型化新突破</strong></a></p>
-<p>11月25日，我国自主研发F级15兆瓦重型燃气轮机（代号G15）在四川德阳一次性点火成功，这标志着我国重型燃气轮机实现小型化新突破。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052984054550912</guid><pubDate>Tue, 26 Nov 2024 17:33:00 +0800</pubDate></item><item><title>举牌民生银行，刘永好要扩大话语权？</title><link>https://36kr.com/p/3052911688765831</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 26 Nov 2024 18:30:28 +0800</lastBuildDate><pubDate>Tue, 26 Nov 2024 18:30:28 +0800</pubDate><item><title>举牌民生银行，刘永好要扩大话语权？</title><link>https://36kr.com/p/3052911688765831</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>74岁的刘永好出手，他要扩大在民生银行（600016.SH，1988.HK）的话语权。</p>
 <p>11月19日，民生银行发布公告，刘永好旗下的新希望化工投资有限公司（简称“新希望化工”）拟通过二级市场增持民生银行股份，“希望系”持股比将超过5%。</p>
 <p>目前，“希望系”持有民生银行4.96%的股份，位居第六大股东，本次增持完成后，将晋升为第四大股东，也将是大家人寿之后的第二位持股超过5%的股东。</p>
@@ -623,4 +537,118 @@
 <p>同时，董事会任命朱培卿担任执行董事，郭世邦、刘卉担任非执行董事。</p>
 <p>公开资料显示几位新的高管也都出自平安系。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MDQyMTkwMA==&amp;mid=2651935450&amp;idx=1&amp;sn=9e5bd6bfe2a3fcda5f4058b9a60bdaec&amp;chksm=844187b9b3360eaf0c379b8453399cac9ce9cd401db9c4d922fd6208a872111c1e55508705cf&amp;token=1844327641&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“一只互金鹅”</a>，作者：小慧吖，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052628254244360</guid><pubDate>Tue, 26 Nov 2024 17:59:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052628254244360</guid><pubDate>Tue, 26 Nov 2024 17:59:00 +0800</pubDate></item><item><title>5499 元起，华为 Mate70 系列能再掀起华为风暴吗？</title><link>https://36kr.com/p/3053049504797065</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>11 月 26 日下午，华为再一次宣布「史上最强悍」的 Mate 系列新机来了。</p>
+<p>站在今天回顾，华为 Mate60 的发布，无疑是 2023 年智能手机市场乃至整个消费电子领域最重大的事件。Mate60 也因此取得了空前意义的成功，让华为 Mate60 系列全系销量超千万台，成为当之无愧的「年度旗舰」。</p>
+<p>正是因为前代成功到几乎难以逾越，站在 Mate70 即将发布的 2024 年年底，就会有很多人担心 Mate70 能否复刻前代的成功：从截至发布会之前的预购数据来看，目前的 Mate70 系列的全网预购量已经超过 330 万台，这很大程度上也代表着用户对于这款华为年度旗舰，仍然抱有极高的期待。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,548" src="https://img.36krcdn.com/hsossms/20241126/v2_0b782ed72d864152975b205161fc94a2@5091053_oswg273158oswg1080oswg548_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在 Mate70 发布会上，余承东也再次喊话，表示 Mate70 系列无论是在影像、性能还是 AI 体验上，都将会是「史上最强」的一代 Mate 手机，同时还放话称：「能超越华为 Mate 的，只有华为 Mate！」</p>
+<p>当然，在全行业产品都「果味十足」的时候，余承东也没忘了开场提醒一下大家：</p>
+<p>「<strong>抄袭没有未来</strong>。」</p>
+<h2><strong>01「史上最强悍」的 Mate70</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="1080,584" src="https://img.36krcdn.com/hsossms/20241126/v2_57a8b742326e49b0bc22d8d04142a0a5@5091053_oswg76838oswg1080oswg584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在正式介绍 Mate70 之前，余承东还是简单回顾了一些 Mate 系列的历史：余承东表示 Mate70 是全系列第十二代产品，一路上累计了亿万用户的一路陪伴，因此「时刻陪伴你的永远是 Mate，更懂你的永远是 Mate」。</p>
+<p>回到本次发布会主角：Mate70 采用 6.7 英寸 OLED 直屏，Pro 与 Pro+ 采用 6.9 英寸 OLED 屏幕，两块屏幕都支持华为高采样率与高频调光，峰值亮度达 2000nit。</p>
+<p>除了搭载第二代昆仑玻璃，Mate70 Pro 还全球首发了高亮钛玄武机身，成为首次采用高亮钛金属工艺的智能手机，</p>
+<p class="image-wrapper"><img data-img-size-val="1080,735" src="https://img.36krcdn.com/hsossms/20241126/v2_3686d4391ab4472d864d7fe0cba95729@5091053_oswg601228oswg1080oswg735_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>据余承东介绍，华为在 Mate70 Pro 上采用 CNC 以及珠宝级抛光工艺，将钛金属打磨出高光质感，同时耐摔能力提升一倍，耐磨能力相比 Mate60 Pro 提升五倍。</p>
+<p>在卫星通信技术上，Mate70 系列还全球首发卫星寻呼技术，最大寻呼角度可达 120 度。在这个技术加入后，不仅加快了卫星通信的搜星速度，还可以通过这个技术实现搜星成功后，即使将手机放在口袋中也可以继续使用，实现「一次链接，时刻在线」。</p>
+<p>Mate70 系列上同时支持了第二代灵犀通信技术，通过首发背部智能多天线设计，提升在复杂环境下的手机信号强度：余承东还特别提到演唱会发图片，以及高铁上使用手机等复杂场景，此外地铁刷视频、地库扫码也能进一步提升用网体验。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,366" src="https://img.36krcdn.com/hsossms/20241126/v2_83e993695d984f03b6aad2fb7ef86006@5091053_oswg26445oswg1080oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>提到信号强度，「对得起那四个字！」余承东用这种方式，在发布会现场再次玩了一把「遥遥领先」的梗。</p>
+<p>在影像部分，Mate70 首发「红枫原色影像」，通过搭载一颗专用的「红枫原色摄像头」，用于 150 万多光谱通道测量，提升色彩还原准确度，协助主摄、超广角以及长焦镜头捕捉画面中的真实色彩。</p>
+<p>这一功能的亮点在人像模式下拍摄的效果最为明显：据余承东介绍，加入「红枫原色影像」的 Mate70 系列在拍摄人像模式下，肤色更自然，信息更加丰富，同时在拍红枫叶等自然色彩中也更加准确。</p>
+<p>在介绍 AI 能力时，余承东同时还喊出了「史上最智慧的 Mate」这一口号，同时回顾了华为最早布局 AI 手机、首发手机端首发 NPU AI 端侧算力的历史。</p>
+<p>据介绍，搭载 HarmonyOS NEXT 的 Mate70 系列流畅度相比 Mate60 系列提升 36%。整机性能提升 40% 以上。</p>
+<p>更让人关注的还有系统中自带的 AI 功能：系统自带相册中增加了能够拍摄连续运动照片的运动轨迹模式，以及拍出运动拖影但主角不变的「主角模式」。</p>
+<p>发布会上还提到了隐私检测模式：当手机前置摄像头检测到背后有人在窥探你的手机时，会自动在屏幕上弹出提示告知你。</p>
+<p>现场华为还同时公布了其在 AI 技术的战略：分为「软硬端云」四大类：类似通话摘要、实时通话内容翻译，以及通话智能降噪等功能，未来都会陆续登陆更多 HarmonyOS 设备。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,576" src="https://img.36krcdn.com/hsossms/20241126/v2_e03d8a9918fa47578a78ccd0df8c9e9f@5091053_oswg35030oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>华为 Mate70 RS 非凡大师同场发布：这是继今年三折叠 Mate XT 非凡大师之后的第二款非凡大师系列手机；提供皓白以及瑞红、玄黑三款配色，相比标准版采用了更坚固的玄武架构：「玄武钢化昆仑玻璃」采用了双层 OLED 实现高亮高动态显示效果，峰值亮度可达 3500nit。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,490" src="https://img.36krcdn.com/hsossms/20241126/v2_bfe42aa803154ab6bc96b59744c737bb@5091053_oswg681002oswg1080oswg490_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>华为首款蓝宝石智能腕表——华为 Watch 非凡大师版本，六段 18K 金条，黄金旋转表冠以及蓝宝石表圈，同时采用钛合金表带设计。同时也支持鸿蒙智行智慧控车功能，支持靠近解锁以及一键寻车等功能。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,573" src="https://img.36krcdn.com/hsossms/20241126/v2_a6f22ecf96b34577b5c844c68c5040df@5091053_oswg65804oswg1080oswg573_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>配色部分，本次 Mate70 与 Mate70 Pro 都提供了四种配色。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,366" src="https://img.36krcdn.com/hsossms/20241126/v2_4a082019dc174eb19e131f09966e6f0a@5091053_oswg28611oswg1080oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,366" src="https://img.36krcdn.com/hsossms/20241126/v2_7d0691443cb44d9380b7d6e3542212ec@5091053_oswg33058oswg1080oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>02「强的飞起」的华为 Mate X6</strong></h2>
+<p>在「史上最强」的 Mate70 之后，余承东不给大家反应时间，就端上来了「史上最精致、最可靠的 Mate X」——Mate X6。</p>
+<p>Mate X6 采用华为 Mate 系列家族式的星环设计 ID 设计。后盖材质采用了金丝锦纤，让手机在手中会随着，同时抗冲击能力提升五倍。支持 IP68 级防尘防水。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,575" src="https://img.36krcdn.com/hsossms/20241126/v2_543569ff98a2467a95a956b7f2e211cc@5091053_oswg76646oswg1080oswg575_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Mate X6 提供金丝银锦，飞天青、寰宇红、羽衣白以及墨韵黑五种配色，</p>
+<p class="image-wrapper"><img data-img-size-val="1080,366" src="https://img.36krcdn.com/hsossms/20241126/v2_2b299767df7e4d2b8b753da159021d5c@5091053_oswg50980oswg1080oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>同时，通过与低轨互联网产业合作，发布了 Mate X6 三网卫星典藏版，成为全球首款支持北斗/天通/低轨卫星互联网三网卫星通信的手机，由于目前低轨卫星互联网系统还在测试中，预计 2025 年下半年开启众测。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,366" src="https://img.36krcdn.com/hsossms/20241126/v2_78dcea2a665349ada1ea867498849849@5091053_oswg36110oswg1080oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>针对折叠屏的散热以及游戏场景，Mate X6 还首发了分布式玄武架构，将整机的元器件分布针对折叠屏的机身设计重新设计。同时首发全景多窗功能，支持同时运行三个应用，用户可通过滑动在三应用间快速切换，为日常多任务处理提供更多便利。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,366" src="https://img.36krcdn.com/hsossms/20241126/v2_540c8b047df247759736694ef8754b61@5091053_oswg34676oswg1080oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在介绍 Mate X6 的机身框架设计的同时，余承东再次喊话友商：「靠抄袭是没有未来的」。</p>
+<p>最后是售价部分：华为 Mate 70 售价 5499 元起，华为 Mate 70 Pro 售价 6499 元起，华为 Mate 70 Pro+售价 8499 元起，华为 Mate 70 RS 非凡大师售价 11999 元起，Mate X6 典藏版售价 14999 元起，12 月 4 日 10:08 正式开售。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,576" src="https://img.36krcdn.com/hsossms/20241126/v2_3f6afc435b1346dd917317c5b742e390@5091053_oswg47630oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>本次发布会中唯一一款手表类产品华为 Watch 非凡大师售价也同场公布：23999 元，即日起开售。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,582" src="https://img.36krcdn.com/hsossms/20241126/v2_c9922ca618bc495aa522637fdf14b12f@5091053_oswg57981oswg1080oswg582_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了两款旗舰新机之外，在大家都非常关心的「新机是否会出厂预装原生鸿蒙」这件事，余承东在发布会现场表示「到手即可升级」，针对当前原生鸿蒙生态仍然有部分 App 缺失的情况，会在购买时会给用户提供搭载系统鸿蒙 4.3 以及原生鸿蒙 5.0 两个选择。用户可以按需选择购买版本。</p>
+<p>但余承东同时也承诺：<strong>明年新发布的所有华为手机与平板，都将搭载原生鸿蒙</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,589" src="https://img.36krcdn.com/hsossms/20241126/v2_07a1f96ff8024b698954666d9338820a@5091053_oswg68536oswg1080oswg589_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为了激励用户到手升级 HarmonyOS NEXT，华为还同步推出了「鸿蒙有利」计划，为升级 HarmonyOS NEXT 的 Mate70/Mate X6 用户提供 900 元的权益礼包。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1348" src="https://img.36krcdn.com/hsossms/20241126/v2_df3b0782a2714920a1dc63f4c1cc02ff@5091053_oswg470299oswg1080oswg1348_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/6Knnt60yF01W-w7P_2H-wQ" rel="noopener noreferrer nofollow" target="_blank">“极客公园”</a>，作者：张勇毅，编辑：靖宇，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3053049504797065</guid><pubDate>Tue, 26 Nov 2024 18:13:00 +0800</pubDate></item><item><title>出海速递｜Temu向所有美国卖家开放/霸王茶姬将在美国开店/高盛承认：65 亿打水漂了</title><link>https://36kr.com/p/3052789212172672</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>访问36氪出海网站</strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1965,846" src="https://img.36krcdn.com/hsossms/20241125/v2_40b05b64d3784bd181553d5a2af14b58@11918142_oswg186017oswg1965oswg846_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
+<h2>今日好文</h2>
+<h3><a href="https://letschuhai.com/cc27d085?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>高盛承认：65 亿打水漂了</strong></a></h3>
+<p>盛宴散场，警钟长鸣。</p>
+<h3><a href="https://letschuhai.com/03ce8325?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>韩微文：出海要成功，一定要想清楚三个问题</strong></a></h3>
+<p>通过资源全球配置，给客户、消费者、利益相关方真正带来价值。</p>
+<h3><a href="https://letschuhai.com/f22d75cd?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>东南亚打工人，也开始逃离工厂</strong></a></h3>
+<p>东南亚看似颇具潜力的劳动力市场，却成为制造业的致命短板。</p>
+<h3><a href="https://letschuhai.com/f4f08a10?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>5年卖出3000万台，中国便携小风扇火爆北美东南亚</strong></a></h3>
+<p>定价20-90美金，连续3年全球出货量第一。</p>
+<h3><a href="https://letschuhai.com/2fec2892?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>获千万元 Pre-A 轮融资，「长曜创新」智能割草机器人30日众筹破220万美金</strong></a></h3>
+<p>长曜创新已在美国与欧洲布点分公司，今年年底也将开启海外独立站销售。</p>
+<h3><a href="https://letschuhai.com/873119bf?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>中东｜在职创业指南：迪拜为什么是理想选择？</strong></a></h3>
+<p>当“副业致富”成为热词，迪拜让在职创业变得轻而易举。</p>
+<h2>热点快讯</h2>
+<h3><strong>特朗普宣布将对墨西哥与加拿大商品征收25%关税，并对中国商品额外征收10%关税</strong></h3>
+<p>当地时间11月25日，美国当选总统特朗普表示，将对墨西哥和加拿大进入美国的所有产品征收25%关税。此外，特朗普还宣布将对中国商品额外征收10%的关税。特朗普在去年的一次采访中提出了对所有进口商品征收10%普遍关税的建议。今年11月，全美零售联合会（NFR）的一项研究指出，如果特朗普提出的新关税计划实施，美国消费者的年度消费能力可能会损失多达780亿美元。研究表明，这些关税将影响到如服装、玩具、家具、电器、鞋类和旅行用品等消费品类别。（界面新闻）</p>
+<h3><strong>Temu 向所有美国卖家开放</strong></h3>
+<p>11月26日消息，拼多多旗下跨境电商平台 Temu 目前已向所有美国卖家开放。此前，Temu 在招募美国卖家时要求商家拥有专门的邀请码。现在，任何美国品牌或个人卖家都可以在 Temu 上注册并进行销售。Temu 发言人在给 Modern Retail 的电子邮件声明中表示，Temu 正在为美国本地卖家打开大门。卖家现在可以直接从美国仓库发货，并以最快一个工作日的时间将产品送到客户手中。（界面新闻）</p>
+<h3><strong>日本据悉开始对亚马逊日本子公司进行反垄断调查</strong></h3>
+<p>据报道，日本公平交易委员会开始对亚马逊日本子公司涉嫌违反反垄断规则进行现场调查。亚马逊日本分公司涉嫌要求其电子商务平台 Marketplace 上的卖家制定低于其他平台的价格。亚马逊还涉嫌向卖家施压，要求他们使用其包装和配送服务。亚马逊日本发言人表示，将全力配合调查。（界面新闻）</p>
+<h3><strong>霸王茶姬将在美国开店</strong></h3>
+<p>据晚点 LatePost，中式茶饮品牌霸王茶姬准备2025年春季在美国开店，首批门店将落地加利福尼亚州的尔湾市和洛杉矶市，尔湾市也将成为霸王茶姬美国的总部所在地。据悉，霸王茶姬2023年7月开始在美国搭建团队，目前团队超过20人。原马来西亚业务负责人 Jack Chong 现负责美国业务。（晚点 LatePost）</p>
+<h3><strong>海底捞海外业务特海国际三季度无新店开业，收入同比增14.6%</strong></h3>
+<p>11月25日晚，海底捞海外业务特海国际发布2024年第三季度业绩：收入为1.986亿美元，同比增长14.6%。期内溢利为3770万美元，上年同期为亏损140万美元；每股基本溢利净额和每股摊薄溢利净额均为0.06美元，去年同期约为零。特海国际表示，2024年第三季度无新店开业，另暂时关闭了位于东南亚的一家餐厅，计划在不久的将来将其作为第二品牌餐厅重新营业。截至2024年9月30日海底捞餐厅总数为121家，较2023年底净增加6家。此外，第三季度整体平均翻台率为3.8次/天，上年同期为3.7次/天；总客流量超过740万人次，同比增长4.2%；同店销售额增长率为5.6%。（界面新闻）</p>
+<h3><strong>瑞银预测：阿联酋明年非石油经济增长有望达4.7%</strong></h3>
+<p>瑞银财富管理全球新兴市场投资总裁迈克尔·布利格尔预测，2024年阿联酋非石油经济增长率有望达到4.7%。据悉，这主要归功于旅游业和房地产业的繁荣、政府在基础设施项目上的加大投入，以及强劲的外商直接投资流入。据了解，阿联酋房地产住房销售额增长了60%。（阿通社）</p>
+<h3><strong>为吸引国际投资者，沙特已签发1238张高级居留签证</strong></h3>
+<p>沙特阿拉伯投资部长哈立德-法利赫（Khalid Al Falih）日前表示，沙特阿拉伯已向1238名国际投资者签发了高级居留（投资者居留）签证。高级居留签证持有者拥有众多权益，包括经商权、家人居住权、无需签证往返沙特阿拉伯、自由邀请亲属来沙特旅游等。（Arabian Business）</p>
+<h3><strong>美国加州拟推出电动车购车补贴，特斯拉将被排除在外</strong></h3>
+<p>美国加利福尼亚州州长加文·纽森拟向消费者提供购车优惠，而特斯拉的电动汽车将被排除在外。纽森当地时间11月25日宣布，若美国当选总统特朗普废除一项联邦补贴，则加州计划向电动汽车买家提供抵扣。纽森称，加州于2023年推出的一项计划可以重启，以替代7500美元税收抵免政策。加州州长办公室表示，当前的提议涵盖会把特斯拉畅销电动车型排除在外的市场份额限制，“细节将跟州议会协商，可能会有调整”。（界面新闻）</p>
+<h3>腾讯据悉筹划在境外发行债券，2021年来首次重返离岸债市融资</h3>
+<p>据报道，知情人士称，腾讯控股正在筹划最早在未来几周内于境外发行债券融资。若能成功完成发行，这一交易将成为腾讯自2021年以来首次重返离岸债市融资，并助力中资美元债市场进一步复苏。（财联社）</p>
+<h3><strong>港交所行政总裁陈翊庭：A 股上市公司赴港上市可快速审批</strong></h3>
+<p>11月26日，香港交易所于上海举办第二届 HKEX 中国论坛，香港交易所集团行政总裁陈翊庭表示，对于已经在 A 股上市的企业，如果符合一定的条件，在香港交易所申请上市时可以进入快速审批流程。今年10月18号，香港交易所与香港证监会共同宣布进一步优化上市申请审批流程时间表，让上市审批的流程更加清晰和确定。（e公司）</p>
+<h3><strong>商务部、浙江省：支持符合条件的大宗商品领域重点企业在境内首发上市，支持相关企业依法合规赴境外上市、融资</strong></h3>
+<p>11月25日消息，商务部、浙江省人民政府印发《中国（浙江）自由贸易试验区大宗商品资源配置枢纽建设方案》。其中提出，提升贸易金融服务水平。推广本外币合一银行结算账户体系，优化单位本外币银行结算账户服务。鼓励金融机构基于电子贸易单据系统进行新型离岸贸易真实性核验。鼓励外资银行设立分支机构，支持有条件的银行业金融机构组建大宗商品专业性服务团队。支持符合条件的大宗商品领域重点企业在境内首发上市，支持相关企业依法合规赴境外上市、融资。为境内出租人开展跨境融资租赁业务向承租人收取保证金提供支持和便利。（界面新闻）</p>
+<h3><strong>中国与沙特合资的延布炼厂计划进一步扩大生产</strong></h3>
+<p>11月25日，驻沙特大使常华应邀参访沙特阿美与中国石化合资合营的延布炼厂，会见总裁兼首席执行官萨阿德，并慰问该项目中方人员。萨阿德详细介绍了企业生产经营情况，表示中沙双方在合作中各取所长、密切配合，为项目平稳运行和提高效率作出积极贡献。延布炼厂计划进一步扩大生产，使之成为两国务实合作的典范。延布炼厂由中国石化和沙特国家石油公司合资建设，总投资额超过80亿美元，是中国在沙特最大的投资项目。（界面新闻）</p>
+<h3><strong>中国江南造船厂向 ADNOC L&amp;S 公司交付首艘大型 LNG 船</strong></h3>
+<p>阿布扎比国家石油公司旗下的物流服务公司（ADNOC L&amp;S）25日在上海接收了首艘液化天然气（LNG）运输船“Al Shaleela”号。该船是公司订购的六艘新型 LNG 运输船中的第一艘，由中国江南造船厂建造。据悉，ADNOC L&amp;S 于2022年与江南造船签订了六艘 LNG 运输船的建造合同，该公司预计将在2025年和2026年陆续接收其余五艘 LNG 运输船。（阿通社）</p>
+<h2><strong>热门活动</strong></h2>
+<h3><a href="https://letschuhai.com/0da2efb9" rel="noopener noreferrer nofollow" target="_blank">中东｜“热土”中东，留给了中小企业哪些机会？</a></h3>
+<p>中东国家为迎接更多外资中小企业，已经开始准备“牌桌”。直播 MCN、轻量手游、留学教育、小商品贸易、海外仓……诸多细分赛道的中小企业，该如何抓住机会，快速上桌？<strong>阿治曼自由区（Ajman Free Zone）往往是电商、泛娱乐、小商品贸易等中小企业进入中东市场的首选。</strong>最低5555迪拉姆的注册成本，1-3个工作日的注册时间，帮助中小企业便捷、高效地启动本地化！<strong>填写表单，进一步了解阿治曼自由区。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="2680,1306" src="https://img.36krcdn.com/hsossms/20241121/v2_5f125f4498c04e3e87fb85b4984e9233@5490952_oswg459196oswg2680oswg1306_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><a href="https://letschuhai.com/e02acd9f" rel="noopener noreferrer nofollow" target="_blank">活动｜寻求全球增长：海外市场的精准获客与持续服务</a></h3>
+<p><strong>36氪出海将于12月5日在北京举办主题交流活动，</strong>共同探讨企业在海外获客与留存的可持续增长策略。此次活动特邀嘉宾包括<strong>飞书深诺集团 APP 行业总监兼 CSM 负责人赵其蕙</strong>以及 <strong>《客户成功》作者、SaaS 行业资深专家刘徽</strong>，他们将分别以 ToC 和 ToB 的视角，基于丰富的海外增长获客与企业服务经验，分享对出海企业极具借鉴价值的可持续增长策略与实践经验。<strong>如果您关注出海企业的可持续增长，希望深入探讨如何在海外有效进行获客与留存，欢迎您扫描下方二维码填写表单，报名参加本次活动。</strong>活动报名将于12月4日中午12:00截止。</p>
+<p class="image-wrapper"><img data-img-size-val="7860,3836" src="https://img.36krcdn.com/hsossms/20241120/v2_90d6f203958246c4a9c805cab6b83e68@11918142_oswg428274oswg7860oswg3836_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
+<h3><a href="https://letschuhai.com/d565075e" rel="noopener noreferrer nofollow" target="_blank">活动｜<strong>把握良机！北京-沙特医药健康产业洽谈会即将召开</strong></a></h3>
+<p>为了助力医药健康企业把握沙特市场机遇，<strong>北京市贸促会、北京国际商会、沙特商工总会拟于12月4日（星期三）在北京市朝阳区共同举办“北京-沙特医药健康产业洽谈会”。沙特卫生部的高级官员、沙特医疗健康企业高层代表将出席本次洽谈会。如果您从业于中国医疗健康领域，并在企业中担任相关职能部门负责人、高层管理人员等职位，欢迎您扫描下方二维码，报名参与本次活动。</strong>最终参会以北京市贸促会审核逐一通知为准。</p>
+<p class="image-wrapper"><img data-img-size-val="3750,1592" src="https://img.36krcdn.com/hsossms/20241121/v2_743f3dcf5242431e8070cb2b6cc45118@11918142_oswg2694728oswg3750oswg1592_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1"/></p>
+<h3><a href="https://letschuhai.com/d3233603" rel="noopener noreferrer nofollow" target="_blank"><strong>线上活动｜世界杯后，走进卡塔尔：中东经济多元化转型的热土</strong></a></h3>
+<p>为帮助企业了解卡塔尔的市场机遇和独特优势，36氪出海将于11月28日举办线上活动，邀请卡塔尔投资促进局的代表，分享中国企业在卡塔尔经济多元化转型中的发展机遇。<strong>如果您关注中东市场、卡塔尔市场，欢迎您通过下方的出海创新服务基地微信视频号、36氪出海微信视频号、36氪网站直播平台等渠道，观看活动直播。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="902,928" src="https://img.36krcdn.com/hsossms/20241118/v2_c8d8a55cbe75401f97b8b7526b5a71c9@5490952_oswg806260oswg902oswg928_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<h3><strong>加入36氪出海学习交流群</strong></h3>
+<p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
+<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3052789212172672</guid><pubDate>Tue, 26 Nov 2024 18:18:00 +0800</pubDate></item></channel></rss>
