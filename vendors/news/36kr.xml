@@ -1,308 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 27 Nov 2024 16:30:25 +0800</lastBuildDate><pubDate>Wed, 27 Nov 2024 16:30:25 +0800</pubDate><item><title>Redis 疯狂“扫荡”所有开源库，被社区维护者们骂惨了，官方回应：集中管理办大事</title><link>https://36kr.com/p/3054313602912640</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>近日，Redis-rs （适用于 Rust 的 Redis 库）的创建者 Armin Ronacher 在该项目的 Issues 区更新了一条评论，表示 Redis 公司正在要求其将项目转让给他们，而他本人最近没有在该项目作出更多贡献、也并不想因商标侵权的争议卷入法律纠纷，所以向其他的项目维护者们求助相关问题和解决建议。</p>
-<p>与此同时，Predis 的维护者 Till Krüss 透露，Redis 公司也向他提出了同样的要求。Predis 是一个适用于 PHP 7.2 及更高版本、灵活且功能齐全的 Redis 客户端。</p>
-<p class="image-wrapper"><img data-img-size-val="592,184" src="https://img.36krcdn.com/hsossms/20241127/v2_04bcc4d58f3d4f6fbcda8e388fcca20c@5091053_oswg16003oswg592oswg184_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这些消息传出后，一众开源企业家和维护者们都“警铃大作”。</p>
-<p class="image-wrapper"><img data-img-size-val="591,214" src="https://img.36krcdn.com/hsossms/20241127/v2_555a0ce9ba964a1b9a37d423b99ba5d6@5091053_oswg19295oswg591oswg214_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>“看起来 Redis 正试图接管所有 OSS Redis 库。Jedis、Lettuce 和 redis-py 宕机了，他们现在正在威胁 redis-rs。”SvixHQ 的创始人兼 CEO Tom Hacohen 率先表示。</p>
-<p class="image-wrapper"><img data-img-size-val="595,162" src="https://img.36krcdn.com/hsossms/20241127/v2_9569919e295943fd84a0313413b5fbc2@5091053_oswg17641oswg595oswg162_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>紧接着 Percona 创始人 Peter Zaitsev 发出更深的疑问，“它们接下来是否会进行优化以不再与 Valkey 兼容？”</p>
-<p>对此，Clipsource 的首席技术官 Erik Hoffman 评价道，“Redis 现在对所有事情都采取了 Wordpress 的态度。任何东西都不允许以 Redis 命名...... 这样摧毁自己的社区是悲剧性的。”</p>
-<h2>开源 Redis 库面临转让 or 侵权难题</h2>
-<p>以下为 Redis-rs 项目创建者 Armin Ronacher 发布的完整内容：</p>
-<blockquote>
-<p>用户们好，我已经很久没有主动维护过这个库了，你们可能也注意到了，但我仍与 redis 发布团队以及@badboy 一起单独控制着 crates.io 上的项目。</p>
-<p>在我看来，这个项目没有我也能做得很好，你应该认为那个项目与我无关。不过，我现在收到了一封来自目前控制 redis 的公司 （Redis， Inc.） 的电子邮件，我还和他们的人打了 45 分钟的电话，了解了他们的想法。</p>
-<p>目前他们给我提供了一些选择，基本上归结为以下几种：</p>
-<p>1. 商业收购并转让给 Redis 公司；</p>
-<p>2. 重新命名 crates.io 上的软件包，因为在他们看来，该库的名称构成了商标侵权；</p>
-<p>3. 在 Redis 项目的管理下继续维护。</p>
-<p>作为一个已经不再活跃于这个板块的人，而且从历史上看，它主要是为我自己的用途而构建的，我觉得自己没有资格对此发表意见。不过，从这次通话中我可以清楚地看出，Redis 对客户端库的兴趣与日俱增。他们现在有一些客户想要 Rust 支持，他们需要以某种方式解决这个问题。他们还将 Python 和 Go 客户端库转移到了 Redis，不确定是根据哪些条款，但他们正试图将其余感兴趣的库也转移到 Redis。</p>
-<p>当我创建这个项目时，我并没有想到要在商业企业之间做出决定，所以我更希望让库的实际用户和当前的维护者参与进来。</p>
-<p>我个人已经开始使用 Valkey，我有一个宠物项目就是使用这个库来连接它的。最近在 #1409 中也有一些讨论说 Valkey 应该成为 CI 矩阵中的测试目标。我不知道 Redis 公司是否有兴趣支持 Valkey，我也不知道这个库的用户是否关心 Valkey。</p>
-<p>说明一下背景：crate 是我为学习 Rust 专门编写的部分。在2015 年左右，它被标注为 redis.io 上的推荐 Rust 库，当时的作者是 antirez。不管当时的商标政策是什么，我想这种使用客户端库的做法在当时是可以接受的。但现在情况可能不同了，所以法律上可能会有争议。</p>
-<p>虽然这个crate 可能是 Rust 最受欢迎的一个，但从宏观上讲，与 Redis 的其他库相比，我想它并不是特别受欢迎或者对业务至关重要。我不确定 Redis 公司对它的关心程度。就我个人而言，我并不想卷入法律纠纷，所以我的愿望是让自己远离 Redis 公司可能想要实施的任何潜在商标强制措施。</p>
-</blockquote>
-<p>据 Ronacher 介绍， Redis 公司给另一位 Redis-rs 的项目控制者 Jan-Erik Rediger （@badboy ）和他本人都先后发送了邮件。</p>
-<p>这是 Jan-Erik Rediger 最先收到的邮件内容：</p>
-<blockquote>
-<p>我很乐意了解这个项目的实际情况，最近它的热度着实不低。简单来讲，其已经成为Rust生态下最受欢迎且贡献量最大的客户端库，似乎也是我们值得向用户推荐的最佳选择。</p>
-<p>但为了保证提供官方支持，我们需要先充分了解这个库、再规划如何为客户提供完善支持。之后我们才能规划路线图和发布时间，及时提交bug修复并为其做出贡献。我不想以分叉的方式夺取控制权并跟redis-rs竞争。在我看来，这种用照搬过往成果的方式在社区中引发混乱没什么意义。</p>
-<p>我不希望在社区驱动库中引入Redis Enterprise（商业）功能，相反，我们将坚持只引入与Redis社区版完全兼容的企业级功能。对于由Redis控制但得到社区持续贡献的成功实施意见库，我们也坚持同样的思路。Jedis、Lettuce、redis-py等项目确实归Redis所有，但获得了社区的积极贡献和支持。</p>
-<p>另一种路线则是通过商业协议讨论收购。出于多种原因，这也是个行之有效的替代方案。我们的法务团队就经常遇到需要经Redis批准的商标使用问题。但我觉得在邮件中不太适合讨论这个问题。</p>
-<p>如果你和Armin也能参与讨论，我将不胜感激。期待您抽出30分钟的宝贵时间跟我聊聊，越快越好。如果您没空，也希望您能推荐一下Armin的联系方式，我实在是找不着渠道</p>
-</blockquote>
-<p>这是 Armin Ronacher 收到的邮件内容：</p>
-<blockquote>
-<p>我作为 Redis 客户端库和生态系统的项目经理写信给您。</p>
-<p>我正在寻找方案来支持一些对 Redis 的 Rust 客户端感兴趣的客户。我知道你和 Jan-Erik Rediger 是 redis-rs 库的所有者/维护者，这是 Rust 最受欢迎的客户端库。</p>
-<p>我们长期以来一直为开源客户端库提供社区贡献，并且在社区的帮助下维护最受欢迎的库。不过，我们可以控制路线图和发布版本，这是授予库可支持性地位的必要条件。我们希望了解为客户提供支持并为 redis-rs 库做出重大贡献的选项，这些选项具有即将推出的 Redis 8 发布的功能以及安全性、性能等方面的更多企业级功能。</p>
-<p>你们是否愿意进行快速同步以讨论 redis-rs 客户端库的选项/合作？我们看到了两条通往目标的路径，但我认为最好还是以非正式对话的方式进行交流。为此，我希望能占用您 30 分钟的时间。</p>
-</blockquote>
-<p>现在，Ronacher 最在意的问题是：有人在将这个 crate 和 Valkey 一起使用吗？将该 crate 转让给 Redis 公司是否存在风险？</p>
-<p class="image-wrapper"><img data-img-size-val="766,388" src="https://img.36krcdn.com/hsossms/20241127/v2_b6a08c45633e4300a545b94422e12372@5091053_oswg34162oswg766oswg388_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2>项目维护者们的解决思路</h2>
-<p>Redis-rs 作为 Rust 的高级 Redis 库，通过一个非常灵活的底层应用程序接口，方便地访问所有 Redis 功能。它使用可定制的类型转换特征，因此任何操作都能以用户所期望的类型返回结果，能够带来非常愉快的开发体验。</p>
-<p>在 Ronacher 的建议请求发出后，有积极的维护者迅速响应并提出了解决办法。</p>
-<p>维护者 Dirkjan Ochtman 表示，“考虑到源代码采用的是三条款 BSD 许可（因此可以很容易地进行分叉），我认为最合理的的做法是由当前的团队以新的名称继续使用当前的 crate，而将旧名称留给 Redis Inc。”</p>
-<p>Ronache 也马上回应了这一解决思路：</p>
-<blockquote>
-<p>有不同的几种方法可以做到：</p>
-<p>1.只需以新名称发布并提交注册即可，无论 redis 发布哪个分叉，用户都会自然而然地接受。</p>
-<p>2.删除所有现有库，以新名称发布废弃版本，告知用户新软件包。</p>
-<p>3.就像第 2 步，但没有删除。</p>
-<p>我不确定注册机构是否有一套程序，可以通知用户某个名称被用于其他用途或被不同的所有者使用。</p>
-</blockquote>
-<p>同时，Ronacher 发问道：“如果 crate 要重命名，新名称是什么？我假设显而易见的是将其重命名为 valkey-rs，我们需要了解一下 Valkey 的人对此有何看法，在这一点上，我们可能会遇到同样的情况。”</p>
-<p>对此，Valkey 维护者 Shachar Langbeheim 第一时间出现在评论区，表示“我不确定 Redis 团队是否具备所需的 Rust 能力，也不确定他们是否真的关心 crate 的维护。我见过他们的团队为其他语言的 crate 贡献功能，但从来没有在这里做过。”</p>
-<p>换句话说，这些项目进入到 Redis 的“保护伞”后，会发展得更好吗？</p>
-<p>另一位 Valkey 维护者 Viktor Söderqvist 则向 Ronacher 发出了邀请：“关于新名称的问题，不妨考虑 valkey-rs 并归入 Valkey 项目官方。请注意，Valkey 同样拥有商标并归 Linux 基金会所有。Valkey 项目由来自 6 家不同企业的 6 名开发人员组成的技术指导委员会管理。我们的核心价值只有一个：坚持开源。”</p>
-<h2>Redis“保护伞”能使社区受益吗？</h2>
-<p>大家讨论得不可开交之际，Redis 公司的产品经理 Mirko Ortensi 出来说话了，称“让 Redis 及背后社区共同支持并贡献同一个库这种集中力量办大事的思路才是正确的”，但似乎不仅没有得到开源维护者们的认同和支持，还引来了更多的犀利质疑。</p>
-<blockquote>
-<p>我注意到人们对于Rust语言版本Redis客户端库的关注度正与日俱增。跟其他客户端库的情况类似，除了为库的本体做出贡献之外，我还愿意为Redis用户（和客户）提供发布周期、bug修复、快速升级支持以及切实可行的路线图等多方面保证。同样的，跟其他客户端库一样，我们也欢迎社区积极发挥作用，并保证贡献质量与我们的标准和创新要求相契合。</p>
-<p>关于贡献，我们期待提供一套能够支持这些功能的Rust客户端库（支持传统与向量搜索的二级索引、JSON、时间序列和概率数据结构）。所有这些都将在Redis 8中推出，而且目前已经以里程碑版本的形式发布。鉴于redis-rs已经拥有庞大的用户社区，我不会考虑对该库做分叉来与其本体相竞争。在我看来，让Redis及背后社区共同支持并贡献同一个库这种集中力量办大事的思路才是正确的。我们正在为此做好各项准备。</p>
-<p>把crates.io上的包重新命名一下，因为他们觉得库名称构成了商标侵权</p>
-<p>这话不是我说的，也不是我想表达的意思。只是在一次私人通话中，我提到使用品牌名称来命名一个库感觉很奇怪。毕竟这个库会无限期支持所有分叉，而且不保证产品本身的兼容性。我还说过，单纯用重新命名crate的方式拿同样的软件或者替代库将其替换，只会加重混乱和沮丧情绪，并没什么实际意义。</p>
-<p>当然，企业在声誉受到挑战时肯定会考虑保护自己的商标资产，这事没有任何问题。在我跟Armin的私人通话中，我也强调了这一点。当然，我们并没有就商标采取实际行动的计划，只是想找个合理且能够达成共识的前进方向。</p>
-</blockquote>
-<p>首先 Langbeheim 直言道：“你说你想要一个开放的开发社区，但你也想要控制权。我希望你明白，鉴于 Redis 最近在授权方面的行为，这两个目标被认为是相互排斥的。”</p>
-<p>另一位 Valkey 的维护者 Madelyn Olson 表示，“我最初的希望是，我们能够同时支持 valkey 和 redis，让它们能够在一个开放的开发社区中继续发展。各个项目之间仍有很多重叠之处，因此将它们分叉似乎有些浪费。”</p>
-<p>Redis-rs 项目贡献者 James Lucas 则称，“ 你认为目前 crate 的维护者无法满足这一要求吗？这个 crate 在很大程度上（如果不是主要）是由整个社区的贡献驱动的。我认为没有任何理由认为核心 redis 团队的贡献会在这方面会得到不同的处理，我们不会响应您团队的请求。”</p>
-<p>还有人更为直接地表示：“我不相信这个项目在转入 Redis 旗下后会变得更好。在我看来，你们的团队忽视了许多社区讨论和 go-redis 问题。你们关心的是客户，而不是社区或任何贡献者。你可以给予客户支持，但不能给予社区支持。”</p>
-<p>这一说法也得到了其他用户的赞同，认为“将该项目转移到 Redis 旗下不会给社区（甚至也不会给公司）带来好处，而只会解决潜在的商标问题。”</p>
-<p>来自 Apache OpenDAL 社区的 PMC 主席、ASF 成员 @Xuanwo 则担心，“如果将这一代码仓库转交至 Redis，我担心 Redis 可能会对其协议或者客户端本体做出重大更改，阻止用户使用此客户端访问其他与 Redis 兼容的服务。”其提出，“不知道能不能给 Redis 协议起一个正式的名称，并围绕它建立起一整个生态系统。比如我们可以称之为 xxx，它将与 xxx 和 xxx 相兼容，允许 Redis 同一切与 Redis 兼容的系统进行通信。”</p>
-<p>事实上， 与 Redis 类似的问题也在其他开源项目上出现过，但处理情况却截然不同。</p>
-<p>例如， Apache Kafka 项目也不在 Confluent 旗下（当然他们不能这样做，因为商标属于 ASF），但他们的做法是积极参与社区活动，通过在社区中的贡献赢得用户信任。与此同时，他们仍然可以为其客户提供支持，他们拥有“官方 Confluent 支持的客户端”。</p>
-<h2>Valkey 发展势头强劲</h2>
-<p>长期以来，Redis 已经成为众多开发人员工作流程中不可或缺的组成部分。其受到欢迎的一大原因在于其出色的灵活性，虽然主要作为缓存方案存在，但开发人员也经常将其用作键值存储、数据库和消息队列。如今的 Redis 经过充分发展，已经能够适应各类细分市场的具体需求。</p>
-<p>毫不夸张地说，Redis 可能是技术历史上使用范围最广，至少在开发者群体当中得到评价最高的软件基础设施方案之一。</p>
-<p>对于此番事件，不少人都在猜测 Redis 公司的出发点：“他们希望从中得到什么？这岂不是只会给自己的用户带来不便吗？”</p>
-<p>而被提及最多的就是针对“Valkey 兼容”的担忧，“我怀疑 Redis 会将各种流行的 Redis 库纳入他们的保护伞下，并使它们与 Valkey 不兼容。这似乎是对 Valkey 的防御性举动。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,89" src="https://img.36krcdn.com/hsossms/20241127/v2_d59724e5099447c9858c918d47829eaf@5091053_oswg37288oswg1080oswg89_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>今年 3 月，在 Linux 基金会宣布支持 Redis 的“Valkey”开源分叉之时，Redis 公司 CEO Rowan Trollope 就对此嗤之以鼻，称其是云服务商为了避免支付许可费而采取的卑劣手段。Trollope 表示，“各大主流云服务商都从 Redis 开源项目中获得了商业利益，因此在基金会内部发起分叉并不奇怪。”</p>
-<p>当时，System Initiative 联合创始人 Adam Jacob 公开评价称，Redis“现在有了一位资金充足的竞争对手”。而 Percona 最近公布的调查结果表明，市场对于 Valkey 表现出了浓厚的兴趣。上个月，谷歌宣布旗下 Memorystore 将支持 Valkey，亚马逊云科技也表示将在 ElastiCache 和 MemoryDB 中支持 Valkey。Aiven 于 6 月发布了 Aiven for Valkey。</p>
-<p>从 2024 年 3 月 Valkey 发布至今，谷歌搜索趋势显示，该项目的势头总体上优于其他替代方案。当然，这种短期内的关注激增恐怕不可能长期持续。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,795" src="https://img.36krcdn.com/hsossms/20241127/v2_c0132e075afc4f1a9a940998842ce340@5091053_oswg91315oswg1080oswg795_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>维基百科搜索历史数据显示，在过去 90 天内，Valkey 的关注度已经达到 Redis 的约六分之一，表现颇为强劲。通过这些指标，可以看到技术社区对于 Valkey 的关注度和参与度都在强劲增长。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,541" src="https://img.36krcdn.com/hsossms/20241127/v2_049be477f42942c584bc3bc6a580254c@5091053_oswg164669oswg1080oswg541_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Valkey 也在用实际行动表明，它将继续追求自身独有的技术观点与优先事项，而不仅仅是作为 Redis 的开放及兼容版本。随着在该项目首个 8.0 版本中引入 IO 多线程等功能，Valkey 显然不打算去跟 Redis 的风，而是一套拥有自主路线规划能力的强大解决方案。</p>
-<p>未来是无法保证的，但若有足够的资金和资源，开源分叉项目或也能够赢得人心和用例量。</p>
-<p><strong>参考链接：</strong></p>
-<p>https://github.com/redis-rs/redis-rs/issues/1419</p>
-<p>https://news.ycombinator.com/item?id=42239607</p>
-<p>https://redmonk.com/rstephens/2024/10/11/valkey-momentum/</p>
-<p>https://thenewstack.io/linux-foundation-forks-the-open-source-redis-as-valkey/</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Sh3FafJhjhQLm6tbvx6dwQ" rel="noopener noreferrer nofollow" target="_blank">“InfoQ”</a>，整理：华卫、核子可乐，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054313602912640</guid><pubDate>Wed, 27 Nov 2024 16:06:00 +0800</pubDate></item><item><title>刚刚，OpenAI员工的套现机会来了，可通过要约收购向软银出售15亿美元股权</title><link>https://36kr.com/p/3054305380159618</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>就在刚刚，CNBC 和路透社等多家媒体报道称，<strong>OpenAI 获得了软银 15 亿美元新投资，并且还允许员工通过要约收购（tender offer）出售股权。</strong></p>
-<p>据 CNBC 从两位知情人士获得的消息，这次新融资将使软银这家日本科技集团获得 OpenAI 更大份额的股权，并允许当前和之前的 OpenAI 员工套现其股权。</p>
-<p>其中一位知情人士表示，<strong>OpenAI 员工需要在 12 月 24 日之前决定是否参与这次的新要约收购。</strong></p>
-<p>另外，据了解，这笔交易是由软银创始人兼 CEO 孙正义推动的。 在 OpenAI 的上一轮融资时，他曾带领软银向其注资了 5 亿美元，此后就一直在坚持想要获得更多股份。</p>
-<p>其中一位知情人士表示，此次要约收购与 OpenAI 将公司重组为营利性企业的可能计划无关。</p>
-<p>OpenAI 和软银拒绝置评。</p>
-<p>可以看到，孙正义对 AI 领域的投资热情肉眼可见地越来越高了！ 这位曾经成功投资过苹果、高通和阿里巴巴的亿万富翁在近期的一场会议上表示，为了在 AI 领域「向前大迈一步」，他正在节省「数百亿美元资金」。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,666" src="https://img.36krcdn.com/hsossms/20241127/v2_eefa1eefeb69439eb79d8b11b0316e05@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>软银的 Vision Fund 2（2 号愿景基金）近期投资了多家 AI 创业公司，包括 Glean、Perplexity 和 Poolside。现目前，软银的两个愿景基金共有大约 470 家投资组合公司，共计 1600 亿美元资金。</p>
-<p>CNBC 从一位接近孙正义的人士获得消息称，这次对 OpenAI 的投资非常符合软银想要在 AI 领域大力投入的急切愿望，这是一种「资本密集型的商业模式（capital-intensive business model）」。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241127/v2_85d30c53723f491d8ce88d464acb9b15@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>毫无疑问，OpenAI 现在是一个吸金的香饽饽。自 2022 年 11 月 30 日 ChatGPT 发布以来快两年了，OpenAI 的估值已经如火箭般攀升至 1570 亿美元。单是微软一家，就给这家公司投了大约 130 亿美元。上个月，OpenAI 还刚完成了一轮融资，从 Thrive Capital、英伟达和软银等投资者手中拿到了 66 亿美元巨款。</p>
-<p>此外，该公司还获得了 40 亿美元的循环信贷额度，使其总流动资金超过 100 亿美元。</p>
-<p>9 月份的时候，CNBC 还曾向一位知情人士证实，OpenAI 预计今年的营收为 37 亿美元，亏损约 50 亿美元。</p>
-<h2><strong>OpenAI 员工可以套现了</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="819,832" src="https://img.36krcdn.com/hsossms/20241127/v2_87e788b9cd7c4b14843a265d4ff98f5a@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>其中一位知情人士说，要约收购将面向至少两年前获得限制性股票单位并持有股票至少两年的现任和前任员工。210 美元的每股价格将与公司最近一轮融资的价格保持一致。</p>
-<p>在 IPO 市场沉寂、公司估值飙升的情况下，要约收购对科技公司员工来说已变得至关重要。私营公司依靠这种交易来让员工满意，并减轻在公开市场上市的压力。由于 OpenAI 近期不会 IPO，而且公司的价格也让有意收购者望而却步，因此二级股票出售是股东在近期内将部分纸面财富收入囊中的唯一途径。</p>
-<p>外媒 CNBC 本周报道，Databricks 是另一家筹集资金的私营公司，目的是让员工套现，避免公开市场的压力。</p>
-<p>而 CNBC 今年 6 月报道过，OpenAI 过去对要约收购采取了限制性较强的做法，规定允许公司决定谁可以参与股票销售。</p>
-<p>一些 OpenAI 现任和前任员工告诉 CNBC，在有报道称该公司有权收回既得股权后，人们对获得流动性的担忧与日俱增。但在今年夏天，OpenAI 改变了对二级股票销售的政策，现在允许现任和前任员工平等参与年度要约收购。</p>
-<p>据一位熟悉本周要约收购的人士透露，OpenAI 预计将允许更多此类二级销售，并且未来将需要根据投资者的需求和业务的资本密集型性质再次谋求私人股权投资。</p>
-<p>生成式 AI 领域的竞争正如火如荼，既有 Anthropic 等创业公司竞争者，还有谷歌等科技巨头。OpenAI 想要维持自己的优势，更多融资是必不可少的。</p>
-<p>据 Menlo Ventures 预计，十年之内，生成式 AI 市场收入将超过 1 万亿美元，今年企业在生成式 AI 上的支出将激增 500%。</p>
-<p>更多资金支持可让 OpenAI 更好地为瓜分这块大蛋糕做准备。对此，你有什么看法呢？</p>
-<p><strong>参考链接：</strong></p>
-<p>https://www.cnbc.com/2024/11/26/openai-gets-1point5-billion-investment-from-softbank-in-tender-offer.html</p>
-<p>https://www.reuters.com/technology/openai-allows-employees-sell-15-bln-stock-softbank-cnbc-reports-2024-11-27/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/F14e1A0UkRmY3M5sO7XZkA" rel="noopener noreferrer nofollow" target="_blank">“AI好好用”</a>，编辑：Panda、蛋酱，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054305380159618</guid><pubDate>Wed, 27 Nov 2024 16:08:00 +0800</pubDate></item><item><title>成本2毛的卫生巾，“坑惨”女性</title><link>https://36kr.com/p/3054300900692097</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>最近，卫生巾“暴雷”成为全网大事件。</p>
-<p>截至发稿前的近5天内，和“卫生巾”相关的微博热搜话题已经超过了20个。</p>
-<p>事情的起因，是有网友发现，一些卫生巾的实际长度明显短于包装上标注的长度。</p>
-<p>例如包装上标识290mm的卫生巾，实际长度275mm，而真正有效的棉花长度只有245mm——直接从“夜用”缩水成“日用”。</p>
-<p>消费者们纷纷开始测量卫生巾长度，结果发现几乎所有品牌都存在不同程度的“国标负差”问题。尽管在规定中，±4%是合理误差，但卫生巾长度偏差几乎都是向下浮动。</p>
-<p>随后，越来越多和卫生巾质量有关问题被揭露出来，例如pH值相当于窗帘标准、有的含有虫卵、有的使用黑心棉等。</p>
-<p>卫生巾的价格，也由此遭到消费者的吐槽。“关键这东西也不便宜啊，卖那么贵还搞出那么多问题。”</p>
-<p>《DT商业观察》决定从卫生巾价格的角度出发，来探究一下：卫生巾真的越来越贵了吗？为什么会出现这种情况？</p>
-<h2><strong>卫生巾，真的越来越贵了</strong></h2>
-<p>卫生巾涨价，不是一种错觉。</p>
-<p>根据 Euromonitor数据，从2009年至2023年，卫生巾平均价格从0.49元/片增长到0.9元/片，以4.79%的年复合增长率持续上涨。</p>
-<p>作为女性不可或缺的生活必需品，卫生巾成为一笔不断增长的必要开销，人们不得不花更多钱来购买它。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1182" src="https://img.36krcdn.com/hsossms/20241127/v2_24bba5a3857242468530b1a8e6e89636@5091053_oswg91359oswg1080oswg1182_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过，这只是大盘平均数，在实际的购买中，不同类型的卫生巾价格又是怎样的呢？</p>
-<p>《DT商业观察》统计了近一年来（2023年11月至2024年10月），淘宝天猫平台上的热销卫生巾品牌及平均价格。</p>
-<p>其中，日用卫生巾（240mm-250mm）单片平均价格为0.9元，夜用卫生巾（400mm-430mm）单片平均价格为2.2元，一条安睡裤的平均价格为3.3元。</p>
-<p>在进口品牌中，苏菲、高洁丝、乐而雅、libresse一定程度上拉高了卫生巾的平均价格；而国货品牌中，ABC、她研社的价格或多或少超过了平均线。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1619" src="https://img.36krcdn.com/hsossms/20241127/v2_382fc84237264ad58059b206d2536db9@5091053_oswg164001oswg1080oswg1619_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>我们以平均价格来粗略计算女性一年的卫生巾开销：</p>
-<p>假设每次月经经期为6天，平均每天用5片日用卫生巾，1片夜用卫生巾，其中两天晚上使用安睡裤，那么每次月经至少要花42.4元买卫生巾，一年要花508.8元。</p>
-<p>不过具体的消费情况因人而异。在实际生活中，很多消费者的月经量大，也更倾向于使用更长尺寸的卫生巾。有人表示：“280mm有时候只能当日用，夜用我现在只有安心裤才放心。”</p>
-<p>这意味着，人们可能需要花更多钱来购买卫生巾。</p>
-<p>那么，卫生巾越来越贵，背后的原因是什么？</p>
-<h2><strong>卫生巾，为什么这么贵？</strong></h2>
-<p>首先需要明确的是，卫生巾的成本并不高。</p>
-<p>卫生巾品牌“自由点”母公司百亚股份在招股书中透露，2019年，含原料、人工、制造费用在内，<strong>一片卫生巾的平均成本价为0.1887元，出厂零售价为0.42元。</strong></p>
-<p>但在经销商的层层加价下，以及运输、仓储等成本，最终两毛的成本，到消费者手里，价格至少已经溢价3倍以上。</p>
-<p>2019年，中泰证券发布了《卫生巾行业深度报告》，曾将卫生巾定义为<strong>“具备刚需属性的高毛利行业”</strong>。</p>
-<p>这句话并不假。</p>
-<p>从毛利率来看，2024年上半年，百亚股份卫生巾产品毛利率为57.37%，七度空间母公司恒安国际的卫生巾业务毛利率达到62.7%，的确可以算是“暴利”行业。</p>
-<p><strong>此外，税收也是影响卫生巾产品售价的因素之一，也被称为“月经税”。</strong></p>
-<p>目前，我国卫生用品适用税率为13%，是增值税的最高标准，这也进一步加大了卫生巾的费用。相比之下，粮食、自来水的增值税率为9%。</p>
-<p>算到这里，卫生巾的“价格账”已经不便宜了，但如今还越来越贵。</p>
-<p><strong>一个重要原因是卫生巾品牌的“消费升级”。</strong></p>
-<p>据中国生活用纸委员会，2017年我国卫生巾渗透率已经趋于饱和，市场的增长动力已经从销量增长转变为由消费升级驱动的价格提升。</p>
-<p>为了争取有限的消费者，卫生巾品牌纷纷在“犄角旮旯”下功夫，卷“卖点”。</p>
-<p><strong>一些卫生巾以添加物为卖点。</strong></p>
-<p>比如ABC凉感卫生巾，添加了薄荷脑、鱼腥草、榴兰花等成分，声称可以清凉抑菌；自由点推出了益生菌卫生巾，宣称能平衡私处菌群，成为品牌大单品。</p>
-<p>此外，还有品牌在卫生巾中加入香精，打出广告语——“馥郁香氛重重围绕，抚平烦躁情绪，享受贵妇级宠爱”“粉樱花般散发清香，生理期也能无所‘味’惧”。</p>
-<p><strong>在材料方面，卫生巾也经历了从普通棉到长绒棉、海岛棉、有机棉以及其他科技材料的升级，并带动了价格的上涨。</strong></p>
-<p>其中，护舒宝液体卫生巾凭借自研材料Flex Foam，和其他产品打出了差异点，价格也显著高于其他产品。</p>
-<p>在天猫旗舰店内，240mm的护舒宝液体卫生巾单片价格为1.75元，而同品牌的瞬洁云感棉卫生巾，在相同规格下，单片价格仅为0.59元。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1876" src="https://img.36krcdn.com/hsossms/20241127/v2_0bc269a77ab84b0fb0ca19a9824cee7e@5091053_oswg183261oswg1080oswg1876_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>卖点有了，还要花钱营销，把知名度打出去。</strong></p>
-<p>ABC母公司景兴健护在招股书中提到，消费者在购买卫生巾、护垫等产品时更加谨慎，因此需要投入较多的导购等市场促销服务进行品牌推广，以及广告宣传和促销推广等。</p>
-<p>以自由点母公司百亚股份为例，2024年上半年，百亚股份销售费用投入5.41 亿元，其中营销类推广费用投入3.68亿元，同比增长283.1%。</p>
-<p>相应表现是在抖音等社交媒体上，可以看到大量自由点的广告投放，涵盖女性生理健康宣传、公益广告定制短剧以及实验室测评等多种形式。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,657" src="https://img.36krcdn.com/hsossms/20241127/v2_ac4a844b7ce8409d80cf71609ae3b634@5091053_oswg122694oswg1080oswg657_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（自由点卫生巾的抖音投放，图片来源：抖音）</p>
-<p><strong>此外，邀请明星代言，也成为卫生巾品牌营销的标配动作。</strong></p>
-<p>护舒宝与迪丽热巴、苏菲与赵露思、七度空间与赵今麦、高洁丝与田曦薇、ABC与孟子义、自由点与虞书欣、未可与白鹿、淘淘氧棉与杨紫、全棉时代与郭晶晶、薇尔与宋茜、洁婷与关晓彤、大王elis与刘雨昕……</p>
-<p>在卫生巾市场的争夺战中，砸钱邀请明星代言，瓜分市场份额，在一定程度上获得了成功。一些粉丝群体会为了支持自己喜欢的女明星，而选择相应的卫生巾品牌。</p>
-<p><strong>然而，这些高昂的营销费用最终还是会转嫁到消费者身上，成为卫生巾价格上涨的一个重要因素。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,1479" src="https://img.36krcdn.com/hsossms/20241127/v2_113941eca2124b6fbaa8c38f91c43197@5091053_oswg109399oswg1080oswg1479_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源：小红书）</p>
-<h2><strong>消费者对卫生巾的真实需求，是什么样的？</strong></h2>
-<p>从价格和卖点来看，卫生巾在不断迭代、升级，但这意味着卫生巾比以前更好用了吗？</p>
-<p>答案是：还真不一定。</p>
-<p>参考艺恩营销智库的数据统计，在今年1-9月，全网关于“卫生巾”的讨论中，<strong>侧漏、反渗、移位、闷热等问题被频繁提及。</strong></p>
-<p>更令人关注的是，使用卫生巾后出现“腥味”“容易过敏”“红痒”等症状的内容，引发了大量互动。</p>
-<p>这在一定程度上说明，这些问题并非个例，而是广泛存在的痛点。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1399" src="https://img.36krcdn.com/hsossms/20241127/v2_2b04905401bd4235b9c6ed63094b1475@5091053_oswg133076oswg1080oswg1399_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>面对这些实际痛点，卫生巾的“产品升级”就显得单薄、无效。</p>
-<p>人们也对此感到不满，纷纷表示：“什么时候卫生巾品牌能卷起来，卷卫生，卷质量，而不是卷那些颜值、代言人，打广告之类的无意义的东西。”</p>
-<p>那么，消费者到底需要什么样的卫生巾？</p>
-<p>根据艺恩营销智库的统计，在全网对卫生巾的探讨中，<strong>人们最关注的依然是吸收性、安全性、舒适度等基本要素，其次才是品牌力和价格。</strong></p>
-<p>换言之，消费者对卫生巾的诉求并没有随着产品升级而“升级”，也并不复杂。</p>
-<p>人们最看重的依然是卫生巾的基本性能，希望卫生巾的产品质量过关，可以放心、舒服地贴身使用。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,2038" src="https://img.36krcdn.com/hsossms/20241127/v2_36a8cdf6bda94981be82dd7d5db1c02c@5091053_oswg214949oswg1080oswg2038_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而这次卫生巾“塌房”事件，恰恰塌在了人们最关注的质量问题上，因此人们对所谓的“大品牌”和营销话术祛魅，开始主动寻找可替代的产品，学习分辨卫生巾的原料、生产标准等等。</p>
-<p>11月19日，“医用卫生巾”冲上微博热搜，不过很快被辟谣，医疗注册中并没有“医用卫生巾”的说法，称自己是“医用卫生巾”的产品，很可能在蹭流量。</p>
-<p>部分消费者冷静下来，提醒大家，“近期有一些三无杂牌想接流量，大家注意一点不要换到一些小作坊的产品，也没有保障”。</p>
-<h2><strong>写在最后</strong></h2>
-<p>近几年来，卫生巾议题受到了越来越多的关注。</p>
-<p>前有“月经贫困”的女孩无奈选择便宜的散装卫生巾，后有正规品牌的卫生巾被曝出质量不达标、价格还越来越贵。</p>
-<p>而在这次讨论中，很多女生提到，如果不是这次大范围的集中讨论，她们不会想到自己月经期间容易瘙痒、甚至会红肿长痘的经历，可能和卫生巾的质量有关。</p>
-<p>这里其实隐含着两个问题。一方面，作为女性刚需的贴身卫生用品，人们没有想到卫生巾会存在质量安全问题；另一方面，这也反映出社会对这一话题的讨论不足，人们在月经方面依然存在隐形的羞耻感。</p>
-<p>这也意味着，和卫生巾安全、质量、价格有关的话题，不仅是商业话题，更是社会话题。</p>
-<p>每一片小小的卫生巾，不仅关乎着消费者的权益，更关乎着占一半人口的女性的健康和尊严。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/2USEQVmosoXwb3-1teG4QQ" rel="noopener noreferrer nofollow" target="_blank">“DT商业观察”</a>，作者：林美汕@MICLIN000，编辑：郑晓慧@mersailles，设计：戚桐珲，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054300900692097</guid><pubDate>Wed, 27 Nov 2024 16:10:00 +0800</pubDate></item><item><title>AI造芯Nature论文遭围攻，谷歌发文硬刚学术抹黑，Jeff Dean怒怼：你们连模型都没训</title><link>https://36kr.com/p/3054241954140293</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>登上了Nature的「超人」芯片设计系统AlphaChip，却多次遭到质疑。</p>
-<p>而且不是简单说说而已，做实验、写论文，还有一篇作为invited paper发在ISPD 2023。</p>
-<p>AlphaFold都拿诺奖了，AlphaChip还搁这辟谣呢？</p>
-<p>怎么办？谷歌首席科学家Jeff Dean表示：我也写篇论文！</p>
-<p class="image-wrapper"><img data-img-size-val="1015,455" src="https://img.36krcdn.com/hsossms/20241127/v2_04900b674b654474bc4cced00537a9f9@5091053_oswg121630oswg1015oswg455_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>EDA社区一直对我们的AlphaChip方法是否像Nature论文中声称的那样有效持怀疑态度。annadgoldie、Azaliamirh和我写了个论文，来回应这些问题：</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,453" src="https://img.36krcdn.com/hsossms/20241127/v2_61b7a2227d2a42b0b6ba79c1c837b6a8@5091053_oswg130442oswg1080oswg453_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">论文地址：https://arxiv.org/pdf/2411.10053</p>
-<p>Jeff Dean认为，这种毫无根据的怀疑，在很大程度上是由下面这篇文章（「一篇存在严重缺陷的未经同行评审的论文」）导致的：</p>
-<p class="image-wrapper"><img data-img-size-val="1055,257" src="https://img.36krcdn.com/hsossms/20241127/v2_a5bdeaf8ad0f452fa19ea374910478c2@5091053_oswg80971oswg1055oswg257_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">论文地址：https://arxiv.org/pdf/2302.11014</p>
-<blockquote>
-<p>该论文声称复制了我们的方法，但未能在主要方面遵循：</p>
-<p>作者没有进行预训练（尽管在我们的Nature文章中提到了37次预训练 ），剥夺了基于学习的方法从其他芯片设计中学习的能力；</p>
-<p>减少了20倍的计算量，并且没有进行收敛训练。</p>
-<p>这就像评估一个以前从未见过围棋的AlphaGo，然后得出结论，AlphaGo不太擅长围棋。</p>
-</blockquote>
-<p>Jeff Dean等人还回应了Igor Markov（Synopsys的杰出架构师）在 CACM 2024年11月刊上发表的分析文章。</p>
-<p class="image-wrapper"><img data-img-size-val="979,315" src="https://img.36krcdn.com/hsossms/20241127/v2_4b7eb2c853a04937901a33f201d801fd@5091053_oswg123712oswg979oswg315_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">论文地址：https://cacm.acm.org/research/reevaluating-googles-reinforcement-learning-for-ic-macro-placement/</p>
-<p class="image-wrapper"><img data-img-size-val="997,827" src="https://img.36krcdn.com/hsossms/20241127/v2_43f1c89318cf47508972e614a77d8443@5091053_oswg255837oswg997oswg827_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Jeff Dean表示，Markov发论文时妹说自己是Synopsys的高级员工，——Synopsys是商业EDA软件，而AlphaChip是开源的。</p>
-<p>Markov的论文分析中还引用了另一篇没发表的匿名PDF：</p>
-<p class="image-wrapper"><img data-img-size-val="731,155" src="https://img.36krcdn.com/hsossms/20241127/v2_b1dab5e0a98c4fd285f07c0f0742f783@5091053_oswg77369oswg731oswg155_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">https://statmodeling.stat.columbia.edu/wp-content/uploads/2022/05/MLcontra.pdf</p>
-<p>这实际上也是Markov写的。</p>
-<blockquote>
-<p>Markov的文章提出了隐晦的指控，所有这些都是完全没有根据的，而且已经被Nature证明过了。</p>
-<p>我很惊讶Synopsys想与此扯上关系，我很惊讶CACMmag认为有必要在没有证据的情况下发表这类指控，</p>
-<p>除了两篇有缺陷的、未经同行评审的文章之外，没有任何技术数据。</p>
-</blockquote>
-<h2><strong>谷歌的回击</strong></h2>
-<p>话说在arxiv上吃瓜，小编还是第一次。</p>
-<p>在Introduction部分，谷歌拉了个时间表：</p>
-<blockquote>
-<p>2020年4月：发布Nature论文的arXiv预印本。</p>
-<p>2020年8月：TPU v5e中流片了10个AlphaChip布局。</p>
-<p>2021年6月：发表了Nature文章。</p>
-<p>2021年9月：在TPU v5p中流片了15个AlphaChip布局。</p>
-<p>2022年1月 - 2022年7月：开源了AlphaChip，Google的另一个团队独立复制了Nature论文中的结果。</p>
-<p>2022年2月：谷歌内部独立委员会拒绝发表Markov等人的观点，因为数据不支持其主张和结论。</p>
-<p>2022年10月：在Trillium（最新的公共TPU）中流片了25个AlphaChip布局。</p>
-<p>2023年2月：Cheng等人在arXiv上发帖，声称对我们的方法进行了「大规模重新实现」。</p>
-<p>2023年6月：Markov发布了他的「meta-analysis」。</p>
-<p>2023年9月：Nature启动了第二次同行评审。</p>
-<p>2024年3月：Google Axion处理器（基于ARM的CPU）采用了7个AlphaChip布局。</p>
-<p>2024年4月：Nature完成了调查和出版后审查，发现完全对我们有利。</p>
-<p>2024年9月：MediaTek高级副总裁宣布扩展AlphaChip以加速其最先进芯片的开发。</p>
-<p>2024年11月：Markov重新发表了他的「meta-analysis」。</p>
-</blockquote>
-<p>简单来说，我AlphaChip已经在自家服役这么长时间了，联发科也用了，Nature也调查过了，无懈可击。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,410" src="https://img.36krcdn.com/hsossms/20241127/v2_a94484757795493c974ddb5ebf9ef640@5091053_oswg129561oswg1080oswg410_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而且作为不同的部门，TPU团队需要足够的信任才会使用AlphaChip（优于人类专家、高效且可靠），他们不能承担不必要的风险。</p>
-<p>对于反方的Markov，论文评价道：「Markov的大部分批评都是这种形式：在他看来，我们的方法不应该奏效，因此它一定不起作用，任何表明相反的证据都是欺诈。」</p>
-<p>说到欺诈这件事，正反方都谈到了内部举报人（whistle-</p>
-<p>blower），在Markov的文章中是这样记载的：</p>
-<blockquote>
-<p>论文的两位主要作者抱怨他们的研究中不断出现欺诈指控。2022 年，谷歌解雇了内部举报人，并拒绝批准出版谷歌研究人员撰写的一篇批评Mirhoseini等人的论文，举报人起诉谷歌不当解雇（根据加州举报人保护法）。</p>
-</blockquote>
-<p>而本文表示：这位举报人向谷歌调查员承认，他怀疑这项研究是欺诈性的，但没有证据。</p>
-<h3><strong>对错误论文的逐条回应</strong></h3>
-<p><strong>没有预先训练RL方法</strong></p>
-<p>与以前的方法不同，AlphaChip是一种基于学习的方法，这意味着它会随着解决更多的芯片放置问题而变得更好、更快。</p>
-<p>这是通过预训练实现的，如下图2所示，训练数据集越大，放置新区块的方法就越好。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,417" src="https://img.36krcdn.com/hsossms/20241127/v2_d2d3166aa9364a81827f7600c1edc5a4@5091053_oswg164422oswg1080oswg417_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>相反，Cheng等人根本没有进行预训练（没有训练数据），这意味着模型以前从未见过芯片，必须学习如何从头开始为每个测试用例执行布局。</p>
-<p>作者在Nature论文中详细讨论了预训练的重要性，并实证证明了它的影响。例如下图3表明，预训练可以提高放置质量和收敛速度。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,472" src="https://img.36krcdn.com/hsossms/20241127/v2_5b19a603e5384e98a68edc6373394362@5091053_oswg191935oswg1080oswg472_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在开源的Ariane RISC-V CPU上，非预训练的RL需要48小时，才能接近预先训练模型在6小时内可以产生的值。</p>
-<p>在Nature论文中，作者针对主数据表中的结果进行了48小时的预训练，而Cheng等人预训练了 0 小时。</p>
-<p>「Cheng试图通过暗示我们的开源存储库不支持预训练，来为他们缺乏预训练找借口，但这是不正确的，预训练就是在多个样本上运行方法。」</p>
-<p><strong>使用的计算资源减少了一个数量级</strong></p>
-<p>在Cheng等人的论文中，RL方法提供的RL体验收集器减少了20倍（26个对比512个），GPU数量减少了一半（8个对比16个）。</p>
-<p>使用较少的计算可能会损害性能，或者需要运行相当长的时间才能实现相同的性能。</p>
-<p>如下图4所示，在大量GPU上进行训练可以加快收敛速度并产生更好的最终质量。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,520" src="https://img.36krcdn.com/hsossms/20241127/v2_1ee5147e8d014570bc460d1c6998611d@5091053_oswg263293oswg1080oswg520_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>RL方法未训练到收敛</strong></p>
-<p>随着机器学习模型的训练，损失通常会减少，然后趋于平稳，这代表「收敛」——模型已经了解了它正在执行的任务。</p>
-<p>众所周知，训练到收敛是机器学习的标准做法。</p>
-<p>但如下图所示，Cheng等人没有为任何一个进行收敛训练，</p>
-<p class="image-wrapper"><img data-img-size-val="1080,917" src="https://img.36krcdn.com/hsossms/20241127/v2_69d19c681eb4440f85499e7a2f5b361d@5091053_oswg459427oswg1080oswg917_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>下表总结了详细信息。除了没有提供图的BlackParrotNG45和Ariane-NG45，其他四个具有收敛图的块（Ariane-GF12、MemPool-NG45、BlackParrot-GF12 和 MemPool-GF12），训练在相对较低的步数（分别为 350k、250k、160k 和 250k 步）处截止。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,444" src="https://img.36krcdn.com/hsossms/20241127/v2_1ed054270c134040981253d6f25fe01f@5091053_oswg221415oswg1080oswg444_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如果遵循标准的机器学习实践，可能会提高这些测试用例的性能。</p>
-<p><strong>不具代表性、不可重现</strong></p>
-<p>在Nature论文中，作者报告的张量处理单元（TPU）块的结果来自低于7nm的技术节点，这是现代芯片的标准制程。</p>
-<p>相比之下，Cheng等人采用了旧技术节点尺寸45nm和12nm）的结果，这从物理设计的角度来看有很大不同。</p>
-<p>例如，在低于10nm时，通常使用multiple patterning，导致在较低密度下出现布线拥塞问题。因此，对于较旧的技术节点大小，AlphaChip可能会受益于调整其奖励函数的拥塞或密度分量。</p>
-<p>AlphaChip的所有工作都是在7nm、5nm和更新的工艺上进行的，作者没有专注于将其应用于旧工艺制程的设计。</p>
-<p>此外，Cheng等人也无法或不愿意分享在其主数据表中复制结果所需的综合网表。</p>
-<p><strong>参考资料：</strong></p>
-<p>https://x.com/JeffDean/status/1858540085794451906</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/4Xojpu9mBQng8ow14c1gQA" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，编辑：alan，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054241954140293</guid><pubDate>Wed, 27 Nov 2024 16:18:00 +0800</pubDate></item><item><title>土味“老钱风”宠儿比音勒芬业绩疲态显现，谢秉政“10年10倍”目标靠什么圆</title><link>https://36kr.com/p/3054300139589768</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 27 Nov 2024 17:00:29 +0800</lastBuildDate><pubDate>Wed, 27 Nov 2024 17:00:29 +0800</pubDate><item><title>土味“老钱风”宠儿比音勒芬业绩疲态显现，谢秉政“10年10倍”目标靠什么圆</title><link>https://36kr.com/p/3054300139589768</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>土味“老钱风”、开遍机场的比音勒芬开始“涨”不动了。</p>
 <p>明星企业比音勒芬（002832..SZ）在过去几年的业绩表现突出，而这一曾经股价连续向好的公司，从今年6月后，股价暴跌掉头一路向下。</p>
 <p>资本嗅觉似乎总是在前面，从近期比音勒芬公布的2024年三季度数据看出，比音勒芬的增长压力显现，第三季度营业收入和净利润双双下滑，中年男人的“老钱风”宠儿似乎已经失宠。</p>
@@ -533,4 +230,271 @@
 <p class="img-desc">（资料来源：法询金融，财联社整理）</p>
 <p>普益标准指出，绝大多数理财公司被他行代销的理财产品以封闭式为主，配置期限相对可控，能规避大规模赎回带给机构的流动性压力。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/4BLvkBTu9j3GiWoZbdqcdA" rel="noopener noreferrer nofollow" target="_blank">“财联社FICC”</a>，作者：杨斌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054288728412549</guid><pubDate>Wed, 27 Nov 2024 16:29:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054288728412549</guid><pubDate>Wed, 27 Nov 2024 16:29:00 +0800</pubDate></item><item><title>36氪研究院 | 2024年中国“AI+农业”行业研究报告</title><link>https://36kr.com/p/3054299912343680</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>作为国民经济的发展基石和支柱产业，农业直接关系到国家粮食安全和民生福祉。而随着全球气候变化的加剧，极端天气如高温、洪水、干旱等频发，加之农业劳动力短缺问题日益突出，传统农业模式面临着前所未有的挑战。这些不确定的外部因素不仅对农业生产的效率提出了更高的要求，也对农产品的质量和安全构成了威胁。</p>
+<p>在此背景下，以人工智能为代表的新一代信息技术正在为农业这一传统行业带来革命性的变革。通过深度融合物联网、大数据分析等先进技术，人工智能不仅能够有效纾解农业劳动力短缺困境，还在提高生产效率、优化资源配置、降低生产成本等方面展现出巨大的潜力。传统上依赖人力和经验的农业生产模式正逐步向智能化、数字化转型，为农业的可持续和高质量发展开辟了新路径。</p>
+<p>为此，本文将深入分析“AI+农业”这一新型生产模式的发展背景和现状，着重探讨人工智能在种植业和畜牧业中的创新应用，分析其在提高生产效率、优化资源配置等方面的表现，并展望未来发展趋势。</p>
+<h2><strong>1. 行业发展概览</strong></h2>
+<h3><strong>发展驱动</strong></h3>
+<p><strong>1）政策驱动：政策引导人工智能与农业场景的深度融合</strong></p>
+<p>近年来，国家及地方密集出台了一系列政策措施，旨在推动人工智能与农业的深度融合，以满足现代农业发展的迫切需求。这些政策不仅明确了以人工智能为代表的新一代信息技术在智慧农业发展中的关键作用，还强调了推进农业数字化改造的重要性。中共中央、国务院发布的《关于抓好“三农”领域重点工作确保如期实现全面小康的意见》明确指出，要加强现代农业设施建设，加快物联网、大数据、区块链、人工智能等现代信息技术在农业领域的应用。此外，政策层面还强调了加快人工智能等技术的突破，以进一步拓展新一代信息技术在农业领域的应用场景。科技部发布的《关于支持建设新一代人工智能示范应用场景的通知》将智慧农场列为首批示范应用场景，对“AI+农业”的应用深度和广度提出了更高的要求。在社会投资方面，相关政策也作出了明确的指引。例如，《关于扩大农业农村有效投资加快补上“三农”领域突出短板的意见》和《社会资本投资农业农村指引》等文件，鼓励社会资本参与智慧农业建设，加快农业农村大数据工程建设，开展农业物联网、大数据、区块链、人工智能等新型基础设施建设，以及开展人工智能基础算法研究，突破生物大数据挖掘和分析的核心算法等。这些政策的出台，为“AI+农业”的发展提供了有力的政策支持。</p>
+<p class="image-wrapper"><img data-img-size-val="992,583" src="https://img.36krcdn.com/hsossms/20241127/v2_234d0e0e092844bb9c2f6725b8a8f6f9@5334053_oswg180132oswg992oswg583_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>2）技术驱动：多技术融合发展，提升农业生产智能化水平</strong></p>
+<p>卫星遥感、5G、大数据以及人工智能等技术的不断突破，为农业向智能化方向发展夯实基础。卫星遥感技术通过先进的卫星图像，实现了农情信息的精准收集与分析，推动了精准农业的发展。5G凭借其低延时和大带宽特性，为农业数据的即时传输奠定了可靠基础。而大数据则通过对天气、灾害、地理、土壤等海量数据的处理与挖掘，实现了对作物产量和质量的精准预测。人工智能凭借其在数据处理、计算机识别和深度学习等方面的优势，在降低成本和资源消耗、提升农作物产量及保障食品安全方面展现出显著成效。一方面，在生产资料环节，人工智能通过对种子或优质品种基因的识别和筛选，为智慧育种与精准选种的实现提供了可能。另一方面，在生产与作业环节，搭载人工智能技术的智慧农机与农业管理系统结合，实现自动化作业的同时，形成农业数据采集、分析、预测与规划管理之间的闭环，助力农业投入产出比的提升。</p>
+<p><strong>3）需求驱动：应对资源短缺，提升生产效率</strong></p>
+<p>从需求端来看，对人力、生产资料等资源的有效与高效利用，成为我国农业生产领域面临的重要挑战，而“AI+农业”则为解决上述挑战提供创新路径。一方面，随着人口老龄化加剧和劳动力成本的持续上升，农业劳动力短缺问题愈发突出。国家统计局数据显示，2023年我国老年人口和老龄化水平分别为2.97亿人和21.1%，且我国存在农村青壮年人口外流现象，农业从业人口老龄化进程仍将持续，人力供给与需求之间的矛盾也将愈发突出。根据乡村振兴网统计，2025年，我国农业在生产经营、技术操作、农业信息化等领域的人口总缺口将超千万。无人化和自动化的农业机械装备逐渐成为填补人力缺口的重要载体，在减少人力依赖的同时，助力农业生产效率的提升。另一方面，传统农业生产模式下，资源浪费问题突出，依靠人力和生产经验的农业作业，缺乏科学规划与管理，而人工智能技术的引入则以农业数据为驱动，凭借精准监测和数据分析能力，结合智能灌溉、精准施药等自动化流程，为农业资源的优化配置提供坚实的数据基础，提升农业资源利用率和生产效率。</p>
+<h3><strong>发展现状：高速增长的AI农业，以农业大数据、智慧农机、一体化解决方案为主要应用方向</strong></h3>
+<p>在新技术加速变革的背景下，“AI+农业”市场实现持续扩容。根据前瞻产业研究院数据，2021年我国“AI+农业”市场规模已达到约685亿元，2024年有望突破900亿大关，年均复合增长率约为10%。</p>
+<p>当前人工智能技术在农业领域主要有三大应用方向。一是农业大数据，在AI农业模式中，由智能无人机或软件探测所采集到的数据，经由计算机视觉及深度学习算法处理，可以精准判断外部环境对农作物的影响并做出相应预测，实现“水肥药”的精准利用，并通过计算机识别技术，准确识别动物生长状态，实现禽畜从生产到出栏的一体化管理。二是智慧农机，以农业机器人、农业无人机和自动驾驶农机为典型。智慧农机是解决劳动力短缺的关键应用，在播种、耕作、采摘、除草、巡查、信息采集等环节具有极大优势。目前已在拖拉机、联合收割机、水肥一体机等机械中有一定的应用。<strong>三是</strong>一体化解决方案。农业物联网、大数据与人工智能等技术相结合，为农牧企业提供从生产、管理、交易到咨询等全方位一体化的服务解决方案，提升农牧企业数智化水平，最终实现降本增效。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,523" src="https://img.36krcdn.com/hsossms/20241127/v2_872205f343f84ed99604a1c09c867f6c@5334053_oswg175621oswg1080oswg523_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p> </p>
+<h2><strong>2. “AI+农业”产业结构分析</strong></h2>
+<p>“AI+农业”产业链主要包括上游设备及技术供应商、中游解决方案提供商及下游农业生产商。上游设备及技术供应商包括传感器、卫星遥感设备等硬件设施和云计算、大数据等软件技术；中游则包括农用自动化机械、数据平台服务、农业智能分析和营销分析；下游包括农场、家庭农场和农村合作社等农产品生产商及配套服务设施，如物流、电商平台等。</p>
+<p class="image-wrapper"><img data-img-size-val="959,1110" src="https://img.36krcdn.com/hsossms/20241127/v2_ba509cdfeee14251946ab7942a546e41@5334053_oswg404574oswg959oswg1110_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>上游设备与技术供应商：“AI+农业”发展的基石</strong></h3>
+<p>生态上游包括卫星遥感系统、传感器等硬件基础设备，以及大模型、云计算等软件技术设施。具体来看，卫星遥感系统是获取地面数据的重要技术手段。基于遥感技术能够快速且精准获得种植面积、作物生长情况、旱涝情况、病虫害情况及土壤墒情等空间和作物周边环境的信息。农业传感器则是实现农业信息化的基础，土壤、温度、湿度、光照、图像、光谱等多种传感器组合在一起，使得农情感知的信息种类覆盖更加准确。通过传感器的使用，可以获得多维数据，并从多方面对农作物进行实时监测，进而辅助决策。云计算通过算法和分析系统，使各类“数据孤岛”相互联通，为农作活动提供指导，实现农业“云”上现代化升级。AI大模型技术的突破则进一步推动现代农业迅猛发展。AI能够迅速处理和挖掘海量数据，并通过深度学习和训练，为农情决策提供指导和预测，在农业的多个领域均有广泛应用。比如在植保环节，AI大模型依托历史病虫害数据，对病虫害趋势作出更为精准的研判与预警，助力植保人员及时掌握虫情动态，从而精准制订防控策略；在畜牧环节，通过识别技术追踪和监控动物行为、生长情况，对牲畜进行精准管控；在育种环节，AI大模型与生物技术相结合，基于海量育种数据分析，可对优质基因进行挑选，模拟育种和配种，加速整个育种过程，降低成本和育种失败的风险。</p>
+<h3><strong>中游解决方案提供商：以硬件设备和技术为基础，通过设计、集成与实施为智慧农业提供解决方案</strong></h3>
+<p>产业中游以解决方案提供商为主，将上游的硬件设备和技术进行集成和转化，形成农业领域的解决方案。目前主要分为农用自动化机械、农业智能分析和数据平台服务三部分。</p>
+<p><strong>农用自动化机械</strong>指的是按照需求，将AI智能感知和算法融入农用机械，以提高耕种收等各个农业环节的智能化、无人化。比如农业无人机、无人车、农业自动驾驶车、智能收割机、采摘机器人等。</p>
+<p><strong>农业智能分析</strong>基于人工智能、传感器、卫星遥感、大数据等技术，提供覆盖天气预测、环境监测、病虫害防治、播种、施肥、灌溉等种植业全流程，以及动物配种、病情识别、个体监测、饲喂、称重等养殖业全流程数字化解决方案。</p>
+<p><strong>数据平台服务</strong>针对特定需求场景，将技术与设备整合，形成一整套高效解决方案，满足客户实际需求，包括覆盖农牧企业一体化管理的智慧解决方案提供商，专注数据挖掘分析的大数据平台，以及营销三部分。智慧解决方案为农牧企业提供一体化智能企业管理，从育种、生产、采集，再到质检、出售、溯源等流程，链接产业上下游。大数据平台专注农业产业上下游数据的挖掘、清洗、分析，结合云端数据大脑，提供全面的农业数据垂直查询与更新，为企业提供可视化分析和实时的价格、行情变化汇总。营销数据平台则通过对农副产品的销售数据、消费者行为、营销表现和市场趋势的深度挖掘，为农户和农业企业提供更为精准的市场指导，帮助农业生产者优化种植策略、预测市场需求，并制定相应的营销计划，提升转化率水平。</p>
+<h3><strong>下游服务商和农业生产商：加工、销售与运输全链条智慧升级</strong></h3>
+<p>下游服务商以电商平台、智慧物流和农业生产商为主。其中，农业生产商包括农场、农业合作社、家庭农场等农副产品生产与加工商，而电商平台与智慧物流则为农副产品提供必要的销售渠道和运输保障。在AI技术加持下，销售与运输各环节实现了高效、精准与智能化的升级，通过产品个性化推荐、智慧物流规划、产品溯源等技术能力，推动农副产品从田间地头到消费者生活的全链条优化。</p>
+<h2><strong>三、重点细分应用场景概况</strong></h2>
+<h3><strong>监测与防治：为农作物生长保驾护航</strong></h3>
+<p>监测与防治主要包括农作物生长环境和状态的监测及预测，以及病虫害监测与防治。就环境监测而言，AI结合传感器和物联网设备，可以对土壤湿度、温度、光照强度、空气湿度等环境数据进行实时采集和分析，由此预测作物生长趋势，并在环境条件不利时及时提出调整建议。从病虫害防治角度来看，传统的人工巡田和肉眼识别方式耗时耗力且精度有限，而AI通过计算机视觉技术能够快速识别作物的病虫害类型和受损程度。利用无人机或智能摄像头采集田间图像，AI模型能够在短时间内分析大面积农田，识别病害区域并提出防治方案。针对虫害，AI还可结合数据分析，预测虫害的爆发时间和范围，为农药喷洒制定精准计划，减少药物使用量，降低成本的同时减少环境污染。</p>
+<h3><strong>动物个体识别：AI可实现牲畜差异化管理</strong></h3>
+<p>中国是全球最大的猪肉生产和消费国，每年近7亿头生猪出栏，自给自足率达到了95%。根据兴业证券统计，我国猪肉的生产成本明显高于美国等国家，生产一公斤猪肉所需的饲料成本是美国的两倍，单位猪肉生产所需劳动力成本大约是美国的四倍。为了解决养殖业供需和成本问题，近年来国家一直在探索科学养殖、AI养殖道路，其中动物个体及其行为识别是人工智能在养殖业的重要应用。实时掌握大量牲畜的生长情况、健康状况，才能保障稳定的出栏率和品质溯源，保证肉制品安全，防止疫病扩散。通过计算机图像和声音识别技术，以及海量历史数据的深度学习和挖掘，AI有能力实现对动物个体的精准识别，将牲畜的生长情况转化为数据，以便养殖场实时掌握。</p>
+<h3><strong>智慧解决方案：构建全链条服务云平台，推动农业产业链条数字化、智能化</strong></h3>
+<p>基于大数据、物联网、人工智能、区块链等技术，以及移动互联网在农村的快速普及，数据服务平台成为农业数智化不可或缺的一环，为农牧企业提供数字化企业管理、智能化生产及一体化平台服务，打通产业上下游，构建智慧农业云平台，辅助管理者智慧决策，达到提升效率，降低成本的目的。</p>
+<p>农信互联建立的数智猪场一体化产品“猪联网”，打破产业链上下游信息不对称，进一步推动农业产业链条数字化。“猪联网”构建起猪管理（猪场SaaS）、猪小智（猪场AIoT）、猪交易（投入品采购+生猪销售+网络货运）、猪金融（产业金融）、猪服务（在线问诊、行情资讯、猪场大脑）五大体系，将猪场养殖从生产、放养、育种、管理到物资购买、成本核算，再到运输、销售，全方位进行链接，由平台统一管控。</p>
+<h3><strong>大数据平台：依托大数据和AI技术，提供个性化分析服务</strong></h3>
+<p>大数据平台也是目前“AI+农业”的热门应用方向之一。新一代信息技术尤其是大数据和人工智能的发展，政府和第三方服务机构得以为农户提供精确、动态、个性化的信息服务。大数据平台以农业大数据为基础，整合分析农业全产业链数据资源，为涉农企业和农户提供品种数据、价格数据、产业链数据、天气数据以及专项统计数据。AI分析工具可对基础数据进行挖掘、清洗，进一步形成可视化图表，为行业发展和运筹决策提供有力支撑。</p>
+<p>比如布瑞克利用数据挖掘工具和AI智能分析工具，实现农业数据资源的可视化、专业化、智能化图表展示，为涉农企业决策人、投资者及学科研究者提供农业各品类新闻资讯、研究报告、行情报价、国家贸易新闻等。</p>
+<h3><strong>电商与营销：AI巩固农村电商在乡村数字经济“领头羊”地位，助推网络销售额不断增长</strong></h3>
+<p>根据农业农村部数据，农村电商保持乡村数字经济“领头羊”地位，全国农村网络零售额由2015年底的3,530亿元增长至2023年底的2.49万亿元，总体增长7.1倍。基础设施不健全、配送体系滞后、电商人才缺乏等也是农村电商面临的实际困境。现如今，电商产业已经成为AICG核心商业应用场景之一，以AI赋能农村电商，是解决农产品销售困境的最佳途径之一。一方面，通过机器学习和实时数据分析，AI技术可以协助优化物流路线和调度方案，使快件能尽快送达客户手中。比如顺丰基于AIoT感知计算平台，通过全国数十万个图像及视频感知触点，实时捕捉、分析物流关键要素。另一方面，短视频和直播带货已经成为电商市场常态化营销方式，电商借助机器学习能力，叠加大数据分析和自然语言处理等技术，使电商平台更加容易锁定目标客户，辅以智能客服、虚拟主播等服务，从而拉近企业和消费者的距离，提升销售转化率。</p>
+<h3><strong>农用智能化机械：提质增效，精准作业和无人化作业得以实现的重要载体</strong></h3>
+<p>人工智能等技术的融合发展，让智能农机尤其是农用无人机、农业机器人和自动驾驶农机的发展迈入新的阶段。相比传统飞机和人工喷洒，搭载AI和智能摄像头的无人机可以在进行农业喷洒作业的同时对农田作业信息进行采集和监管，根据农作物的长势，进行自动精准喷洒，从而减少对环境的污染和对农作物的不良影响。</p>
+<p>随着人口老龄化程度加深，农村劳动力严重短缺，农业机器人已成为国际机器人领域的热点之一。有机构预测，近五年我国农业机器人需求量将保持38.6%的增长。预计到2025年，全球农业机器人市场总量约为93亿台，到2030年增长近4倍，达到360亿台。目前，农业机器人广泛应用于播种、耕作、采摘、除草、巡查等场景中，依托动物识别和人工智能精准操控技术，在养殖场景的应用也在不断拓宽，比如挤奶机器人、饲喂机器人、清洁机器人、巡检机器人等。</p>
+<h2><strong>四、发展趋势展望</strong></h2>
+<h3><strong>智能化装备有望投入广泛应用，无人化、少人化作业成为可能</strong></h3>
+<p>近年来全球极端天气频发，高温、干旱、洪水等灾害时有发生，对农业生产提出更高的要求，叠加人口老龄化、城镇化进程加快和生育率下降，国内农村适龄劳动力总量加速减少。为解决农村劳动力短缺的问题，可以预见的是，农业发展将向无人化、少人化方向演进。广泛应用智能装备则是解决劳动力短缺的最佳途径之一。随着AI技术的飞速发展，搭载AI系统的农业机器可以在复杂的生产环境中，全面辅助人员完成各项高难度作业，极大地提升生产流程的智能化水平。</p>
+<h3><strong>AI数据服务平台逐步成为农业领域数智化革新的强大引擎</strong></h3>
+<p>由国家数据局、中央网信办、科技部等17部门联合印发的《“数据要素×”三年行动计划（2024—2026年）》，聚焦现代农业，推动激活数据要素在农业领域的潜能是重点计划之一。通过汇聚海量的农业数据资源，包括土壤条件、气候条件、作物生长周期、市场需求等多维度信息，运用先进的AI技术进行深度挖掘与分析。数据服务平台将为农业提供强大的精准指导与决策支持，促进农业产业链的智能化升级，从种植、管理到销售全链条实现数据驱动，提升农业生产效率和经济效益。同时，在食品安全愈发重要的今天，AI与区块链技术的融合发展，将提高农产品追溯管理能力的提升，增强消费者信任，巩固农业电商在数字农业“领头羊”地位。农业数据价值的深入挖掘和利用，在当下显得尤为重要，在AI技术的持续赋能下，将为农业的可信发展注入新的活力与动力。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054299912343680</guid><pubDate>Wed, 27 Nov 2024 16:30:00 +0800</pubDate></item><item><title>10年前买下全球2%比特币的Pantera，今天在想什么？</title><link>https://36kr.com/p/3054178692010375</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p><strong>BTC盈利千倍的男人告诉你，“比特币涨这么多了，我可能已经错过了”是错误心态。</strong></p>
+<p><strong>原文：Pantera Capital</strong></p>
+<p><strong>创始人：Dan Morehead</strong></p>
+</blockquote>
+<h2><strong>千倍盈利</strong></h2>
+<p>Pantera 的比特币基金（Pantera Bitcoin Fund）最近达成了一个疯狂的里程碑 —— 千倍盈利。</p>
+<p>随着 BTC 在特朗普胜选后飙升近 30% ，扣除费用及开支后，该基金自成立以来的总回报率为 131165% 。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_6f7fbf329293484da2bce049ecad53a1@000000_oswg183971oswg800oswg444_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>我想和大家分享一下我们最初的逻辑，因为对我而言这一逻辑时至今日同样具有说服力。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_7c07b32a9a6543549d7e98566ef34c7f@000000_oswg254323oswg800oswg767_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">Odaily 注：在 2013 年 7 月 5 日的一封邮件中，Dan 以 CEO 身份呼吁 Pantera 以 65 美元的市价买入 BTC，并表示个人已决定先买 3 万枚，其他人可决定基金本身是否购买。两天后的 7 月 7 日，Pantera Bitcoin Fund 正式成立。</p>
+<p>我们选择推出 Pantera Bitcoin Fund 的那一天正是过去十一年 BTC 的最低点。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_0761f23049e04ad4971541acf35a059b@000000_oswg148838oswg800oswg454_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>第一份投资备忘录至今读来仍令人印象深刻。</p>
+<p>2013 至 2015 年，我们买入了全球 2% 的比特币。</p>
+<p>即使在十一年后，比特币仍在“像西瓜籽一样被挤压着拉升”。</p>
+<p>说实话我仍在情不自禁地畅想，未来很多年我们仍可以通过 BTC 获得非常可观的回报。</p>
+<h2><strong>公元前 1000 年的黄金</strong></h2>
+<p>在那之后的一个月左右，我写下了自己对于 BTC 的核心观点。</p>
+<blockquote>
+<p>昨天我和一位投资者讨论了比特币，他有些不屑地说这就像买黄金一样……大错特错！这就像是在公元前 1000 年买黄金一样！99% 的金融财富还没有涉足比特币，当他们开始这样做的时候，比特币的价值要么为零，要么则会增长多个数量级（十、百、千、万……）。</p>
+</blockquote>
+<p>作为一个新兴行业，如今我们已经取得了一些成就。现在可以说“只有” 95% 的金融财富尚未对比特币进行全额投资了。</p>
+<p>从 2024 年的 5% 向更高的数字增长，如今已经有了一些明确的催化剂：美国监管态度的改善；像贝莱德、富达等机构巨头如今正为所有拥有经济账户的投资者提供低成本、高效率的入场渠道。这种便利最终将推动数以千万计的投资者能够接触到这一重要的新资产类别。</p>
+<p>我们相信，在第一位明确支持区块链的美国总统上任后，整个行业将大大受益。我们认为，区块链的成功符合国家的最佳利益，我们相信国会中的每个人最终都会采用中立或支持区块链的立场。这些事正在发生， 15 年来区块链的监管逆风正在转为顺风。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_b2f6053cebb5440bbfc4c660b54a9b9e@000000_oswg204363oswg800oswg911_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">Odaily 注：在 2013 年 8 月 21 日的邮件中，Dan 再次狂奶 BTC，并预测将出现“融涨”行情。</p>
+<p>我仍然相信我在 11 年前所写的内容。</p>
+<blockquote>
+<p>“我认为，世界采用一个全球货币/支付系统的可能性超过 50% ，在该系统中，自由的加密技术将取代银行、VISA、万事达、西联、PayPal 等等。比特币可以取代现金、电子法币、黄金、不记名债券等等。它可以做到所有的这些事情。这是自黄金以来的第一个全球货币，这也是有史以来第一个无国界支付系统。”</p>
+</blockquote>
+<p>这仍然是我确切的感受。我们仍然处于早期。95% 的金融财富尚未涉及区块链，它们现在才刚刚开始这场大规模转型。当它们这样做的时候，比特币的价格可能是 740000 美元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_57c5b388d2784017a6a3df2484eeac2f@000000_oswg141307oswg800oswg755_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">Odaily 注：在 2013 年 11 月 6 日的邮件中，Dan 透露 Pantera Bitcoin Fund 单日买入了 100 万美元的 BTC。</p>
+<p>BTC 确实出现了“熔涨”行情，在 11 月的这份邮件发出后不到一个月，BTC 的价格就突破了 1000 美元 —— 而现在的价格则比那时高出了近三个数量级。</p>
+<h2><strong>11 年的复合增长率：88%</strong></h2>
+<p>我知道，有很多投资者在考虑购买比特币时都会这样想“比特币今年已经翻倍了，我可能已经错过了”……然后放弃投资。</p>
+<p>不，这是错误的心态。就平均情况来看，BTC 几乎每年都会翻倍。在 Pantera Bitcoin Fund 成立的十一年里，我们的基金年复合增长率为 88% 。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_a191bab27c834a6db076e86ada05e531@000000_oswg199007oswg800oswg453_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>量级增长</strong></h2>
+<p>多年以来，BTC 已经完成了多个数量级的增长，再进一步似乎也很合理。如果 BTC 达到 740000 美元，那么市值将达到 15 万亿美元，相对于金融资产 500 万亿美元的总市值而言，这并不是一个不可想象的数字。</p>
+<p>虽然过去不一定能预测未来，但如果趋势持续下去，比特币将在 2028 年 4 月达到 740000 美元。</p>
+<p>我认为这可能需要更长的时间，或许是再多几年，但我确实认为 BTC 有很大的概率达成这一目标。</p>
+<p>这就是我的心态。我不会用我的生命去下这个赌注，我也并非 100% 确定区块链资产会继续上涨，但当你用上涨的可能性乘以行业潜在增长的数量级时，结果会发现 BTC 的增值潜力会比其他可以投资的资产要高得多。</p>
+<p>在我近四十年的从业经历中，这是最具增值预期的一笔交易。</p>
+<h2><strong>坚守并不容易</strong></h2>
+<p>虽然现在看起来，低价买入 BTC 并拿到现在似乎很容易，但这其实很难。</p>
+<p>自 2013 年 12 月开始，BTC 出现了 87% 的暴跌，并从此淡出了人们的视线。三年多后，市场仍在下跌。到了 2016 年，几乎所有人都放弃了 BTC，投资者对此毫无兴趣。</p>
+<p>那一年我飞遍了世界各地，做了 170 场投资者会议，但最终只筹集到了 100 万美元。</p>
+<p>那一年我们的管理费是 17241 美元，平均算下来一场会议 100 美元……</p>
+<h2><strong>我们本可以买下那家酒店的！</strong></h2>
+<p>我天生就是一个团队协作者。我一直希望比特币社区能够最终获胜。多年以来，我们一直在尝试以各种方式帮助社区。</p>
+<p>所以，当 Expedia 在 2014 年宣布他们将接受 BTC 后，我们所有的旅行支出都只通过 Expedia 用 BTC 进行支付。</p>
+<p>2015 年，我们的团队在路上度过了 59 个夜晚 —— 每晚平均花费 1.5 个 BTC —— 总计 88 个 BTC。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_106513e6a9d044b6a4a438bb697ac68b@000000_oswg118722oswg800oswg188_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>按照今天的价格计算，那是 868.31 万美元，我们都可以买下两家酒店了！</p>
+<h2><strong>行业的惊人发展</strong></h2>
+<p>2013 年，当我们准备推出 Pantera Bitcoin Fund 时，我在几家交易所设立了账户，并开始汇款以做前期准备。当我第一次从办公室走进旧金山市场街的富国银行，准备把钱汇到斯洛文尼亚的卢布尔雅那时，我甚至不知道“卢布尔雅那”该怎么拼写，以至于银行经理过来盘问了我很久，问我在做什么。</p>
+<p>PS：我现在知道了斯洛文尼亚是一个很美的国家，就在威尼斯的右边，在奥地利的下面……</p>
+<p>但在当时，我曾怀疑自己是不是疯了。我还给另一家不知名的小型初创公司打了款，听起来也同样不靠谱。</p>
+<p>当时 BTC 的价格是 130 美元左右。在接下来的几天里，我眼睁睁的看着 BTC 的价格从 130 美元跌到了 100 美元。现在回想起来真是有趣，当最近几轮的熊市中，怀疑论者所说 FUD（恐惧、不确定性、怀疑）本质上与当年并无差异。当 BTC 跌至 65 美元时，即使存在种种问题，我还是决定全力以赴 —— 推出 Pantera Bitcoin Fund。三十年的交易直觉让我相信，这就是出手的那一天！</p>
+<p>我曾把上面的邮件发给了一个小型的比特币爱好者社群，当时大概有二十多个人，他们都抱有着参与兴趣。现在这个社群已经有几十万人了，那些邮件则被阅读了 270 万次。</p>
+<p>我登录到一个名为 Coinbase 的创业公司，试图购买 30000 个 BTC ，但该交易平台却弹窗提示每日交易限额仅 50 美元（bucks）—— 并不是像华尔街的行话那样 bucks 有时也指代着百万美元，他们就是 50 美元……我差点心脏病发作。</p>
+<p>由于他们还是一家创业公司，没有地址或电话号码。在恐慌中，我给他们的客户支持邮件地址发送了一封电子邮件 —— 标题很不寻常地全部大写 —— “我想购买两百万美元的比特币”。四天后，他们唯一的员工 —— 一个叫 Olaf 的家伙 —— 回复说：“好的，你的限额现在是 300 美元了。”</p>
+<p>这意味着即使是在限额放大后，我也需要 6667 天来完成这笔交易。十一年过去了，我还得再买 2522 天……</p>
+<p>幸运的是，我最终在 Bitstamp 上如愿买到了那些 BTC。时至今日，行业已实现了飞速增长，如今加密货币市场每天的交易量为 1300 亿美元。这个行业所走过的路程之远实在令人惊叹。</p>
+<h2><strong>区块链的“资产类别”之路</strong></h2>
+<p>有时我感觉自己就像森林中的一只大猩猩，注意到地上有一个闪亮的物体……捡起来……旋转它……想知道这是什么……</p>
+<p>wow，是比特币！</p>
+<p>我当然不理解行业中那些令人难以置信的技术项目之间的细微差别，但我感觉我以前曾见过这些场景。</p>
+<p>我曾是高盛的第一位资产支持证券（asset-backed securities）交易员，现在每个人都已将 ABS 视为一种资产类别；在他们做 GSCI 时我也在那儿，现在每个人都已将商品视为一种资产类别；90 年代我曾投资于新兴市场，现在每个人也都将新兴市场视为一种资产类别。</p>
+<p>区块链也会如此。我相信在不久的将来，每个投资公司都会有一个区块链团队，并且会有一个规模相当大、永久存续的区块链资产配置。</p>
+<h2><strong>非对称交易</strong></h2>
+<p>我的全球宏观背景是最初让我进入区块链领域的原因。这种交易的非对称性 —— 在世界上最大的市场开展工作 —— 使这个机会比我们通常在世界各地追逐的交易大得多。我相信这是我见过的最不对称的交易。</p>
+<p>2014 年 3 月第二届 Pantera 区块链峰会上的一个对比可解释这一主题。Nathaniel Popper 曾在 2015 年于《数字黄金（Digital Gold）》书中记下了这一段。</p>
+<blockquote>
+<p>在深夜扑克游戏前几小时的晚餐上，Morehead 开玩笑说，当时世界上所有的比特币价值大约与 Urban Outfitters 的市值相同，这是一家牛仔裤和宿舍装饰的供应商，市值大约 50 亿美元。Morehead 表示：“这很疯狂，对吧？我认为当几个世纪的人们后像《人猿星球》那样探究我们当前的社会时，比特币对世界的影响将比 Urban Outfitters 更大。”</p>
+</blockquote>
+<p>当我在 2020 年 11 月更新这一数据时，比特币的市值已达到了与欧莱雅相当的级别。当然了，防水睫毛膏无疑也是一项了不起的发明，但我仍然认为这里存在着非对称性。</p>
+<p>让我们进一步探索……“在欧莱雅，我们的使命是......在护肤、彩妆、护发和染发方面，将最优质的美容产品平民化"。</p>
+<p>这听起来太棒了，与比特币的使命“金融民主化”听起来惊人地相似 —— 但我认为金融的最终规模显然会比化妆品更大。</p>
+<p>比特币的市值最近已超过了 Meta（前 Facebook）。在互联网上分享照片确实非常酷，但我认为让地球上所有拥有智能手机的人都能享受金融普惠的意义会更大。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_f6b5ed950ec542ca90248068cdd4c513@000000_oswg129114oswg800oswg450_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>现在，摆在比特币面前的就只剩下五个超越对象（英伟达、苹果、微软、Amazon、Google）……</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU5MDU2MzIzOQ==&amp;mid=2247505761&amp;idx=1&amp;sn=2e975753f1982b9bf365be5fd0ed4701&amp;chksm=ff9352af782ede738226df416c03dd73789877856f28908cbfde56bd4df3d422f21028c52ec0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Odaily”（ID：o-daily）</a>，编译：Azuma，编辑：郝方舟，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054178692010375</guid><pubDate>Wed, 27 Nov 2024 16:32:00 +0800</pubDate></item><item><title>遗憾不？原来百度2017年就研究过Scaling Law，连Anthropic CEO灵感都来自百度</title><link>https://36kr.com/p/3054168032219520</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>原来早在 2017 年，百度就进行过 Scaling Law 的相关研究，并且通过实证研究验证了深度学习模型的泛化误差和模型大小随着训练集规模的增长而呈现出可预测的幂律 scaling 关系。只是，他们当时用的是 LSTM，而非 Transformer，也没有将相关发现命名为「Scaling Law」。</p>
+</blockquote>
+<p>在追求 AGI 的道路上，Scaling Law 是绕不开的一环。</p>
+<p>如果 Scaling Law 撞到了天花板，扩大模型规模，增加算力不能大幅提升模型的能力，那么就需要探索新的架构创新、算法优化或跨领域的技术突破。</p>
+<p>作为一个学术概念，Scaling Law 为人所熟知，通常归功于 OpenAI 在 2020 年发的这篇论文：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_528231bb123c4519bf61fa53f5545d10@000000_oswg57656oswg1080oswg619_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p>论文标题：Scaling Laws for Neural Language Models</p>
+<p>论文链接：https://arxiv.org/pdf/2001.08361</p>
+</blockquote>
+<p>论文中详细地论证了模型的性能会随模型参数量、数据量、计算资源增加而指数提升。后来的几年里，OpenAI 作为整个大模型领域的技术引领者，也将 Scaling Law 充分地发扬光大。</p>
+<p>但关于我们今天所谈论的 Scaling law，它是怎么被发现的，谁最早发现的，又是哪个团队最早验证的，似乎很少有人去考据。</p>
+<p>近日，Anthropic 的 CEO Dario Amodei 在播客中讲述了一个出人意料的版本。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_eb258ce64ef247f98e35ed129c9bce66@000000_oswg205533oswg1080oswg440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：https://xueqiu.com/8973695164/312384612。发布者：@pacificwater</p>
+<p>我们可能更了解 Dario 在 2016 年之后的经历。他加入了 OpenAI，担任研究副总裁，负责公司的安全工作，并领导团队开发了 GPT-2 和 GPT-3。</p>
+<p>然而，2020 年底，由于对 OpenAI 的发展方向产生分歧， Dario 选择离开，并于 2021 年 2 月与妹妹共同创立了 Anthropic。</p>
+<p>如今，Anthropic 推出的 Claude 已成为挑战 GPT 系列霸主地位的最有力竞争者。</p>
+<p>不过，Dario 原本的研究方向是神经回路，他第一次真正进入 AI 领域是在百度。</p>
+<p>从 2014 年 11 月到 2015 年 10 月，Dario 在百度工作了一年 —— 正好是吴恩达在百度担任首席科学家，负责「百度大脑」计划的时期。</p>
+<p>他们当时在研发语音识别系统。Dario 表示，尽管深度学习展示了很大潜力，但其他人仍然充满疑虑，认为深度学习还不足以达到预期的效果，且距离他们所期待的与人类大脑相匹配的框架还有很长的距离。</p>
+<p>于是，Dario 开始思考，如果把百度用于语音的循环神经网络做得更大，增加更多的层数会怎样？同时扩大数据量又会怎样呢？</p>
+<p>在不断的尝试中，Dario 观察到了随着给模型投入越多的数据、计算和训练，它们的表现就越好，「那时我没有精确地测量，但与同事们一起，我们非常直观地能感受到。」</p>
+<p>但 Dario 和同事们也没深究，Dario 觉得：「也许这只对语音识别系统有效，也许这只是一个特定领域的特殊情况。」</p>
+<p>直到 2017 年，他在 OpenAI 第一次看到 GPT-1 的训练结果时，他才意识到这种「越多越好」的规则同样适用于语言数据。而计算资源的增加，托起了 Scaling Law 生效的底层逻辑。</p>
+<p>真理是不会只属于一个人的，最终它会被每个人发现。</p>
+<p>当时有一批人都意识到了 Scaling Law 的存在，比如 Ilya Sutskever、「RL 教父」Rich Sutton、Gwern Branwen。</p>
+<p>百度也在 2017 年发了一篇论文：「DEEP LEARNING SCALING IS PREDICTABLE, EMPIRICALLY」，展示了在机器翻译、语言建模、图像处理和语音识别等四个领域中，随着训练集规模的增长，DL 泛化误差和模型大小呈现出幂律增长模式。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_e050406700d94bca893377d5973ff24e@000000_oswg752079oswg1080oswg1562_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>《NLP with Transformers》的作者 Lewis Tunstall 发现，OpenAI 在 2020 发表的《Scaling Laws for Neural Language Models》引用了百度论文一作 Joel Hestness 在 2019 年的后续研究，却没发现 Hestness 早在 2017 年就研究过同类问题。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_3c5f74e1bb954a809b38e58e5e9d9ba1@000000_oswg377348oswg1080oswg639_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>DeepMind 的研究科学家 @SamuelMLSmith 表示，原来在 NeurIPS 和 Hestness 线下交流过。但两年后 Scaling Laws 论文发表时，他对关注过这个问题，但没发论文的自己很生气。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_4427d1d0e94b46709f92d75b4cdd0393@000000_oswg70172oswg922oswg230_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而同期注意到 Scaling Law 的 Gwern Branwen，也经常提起百度的这篇论文确实被忽视了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_81e2a48dbbc2456fba96ae68e071a0a8@000000_oswg27828oswg882oswg164_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>百度 2017 年的论文写了啥？</strong></p>
+<p>这篇题为「DEEP LEARNING SCALING IS PREDICTABLE, EMPIRICALLY（深度学习扩展的可预测性：经验性研究）」发布于 2017 年。当时，机器学习先驱 Rich Sutton 还没有发布他的经典文章《苦涩的教训》（发布时间是 2019 年）。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_6da8b82f97244d978aa731f3d288a9bb@000000_oswg45938oswg1080oswg384_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">论文链接：https://arxiv.org/abs/1712.00409</p>
+<p>论文提到，当时，深度学习社区已经通过遵循一个简单的「配方」在不同的应用领域取得了具有影响力的进展。这个「配方」如今大家已非常熟悉，即寻找更好的模型架构、创建大型训练数据集以及扩展计算。</p>
+<p>通过分解「配方」，百度的研究者注意到，寻找更好的模型架构困难重重，因为你要对建模问题进行复杂或创造性的重构，这就涉及大规模的超参数搜索。所以，架构方面的创新很多时候要依赖「顿悟」，具有极大的偶然性。如果只把精力放在这上面，风险势必很高。</p>
+<p>为了降低风险，百度的研究者提到，「配方」的另外两个部分 —— 创建大型训练集和扩展计算 —— 是非常值得去研究的，因为这两个方面的进展明显更加可控。而且，「只需使用更多数据来训练更大的模型，就能提高准确率」已经成为一个共识。不过，百度想更进一步，分析训练集规模、计算规模和模型准确性提高之间的关系。他们认为，准确预测泛化误差随训练集规模扩大的变化规律，将提供一个强大的工具，以估计推进 SOTA 技术所需的成本，包括数据和计算资源的需求。</p>
+<p>在此之前，也有不少研究者进行了类似研究，分析了达到期望泛化误差所需的样本复杂度，但论文中提到，这些结果似乎不足以准确预测实际应用中的误差 scaling 规律。还有一些研究从理论上预测泛化误差「学习曲线」呈幂律形式，即 ε(m) ∝</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_96be88cb399f4dfb94a354cf3ca72cb4@000000_oswg3626oswg104oswg49_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>。在这里，ε 是泛化误差，m 是训练集中的样本数量，α 是问题的一个常数属性。β_g= −0.5 或−1 是定义学习曲线陡峭度的 scaling 指数 —— 即通过增加更多的训练样本，一个模型家族可以多快地学习。不过，在实际应用中，研究者发现，β_g 通常在−0.07 和−0.35 之间，这些指数是先前理论工作未能解释的。</p>
+<p>在这篇论文中，百度的研究者提出了当时最大规模的基于实证的学习曲线特征描述，揭示了深度学习泛化误差确实显示出幂律改进，但其指数必须通过实证进行预测。作者引入了一种方法，能够准确预测随着训练集规模增加而变化的泛化误差和模型大小。他们使用这种方法来估计四个应用领域（机器翻译、语言建模、图像分类和语音识别）中的六个深度神经网络模型的 scaling 关系。</p>
+<p>他们的结果显示，在所有测试的领域中都存在幂律学习曲线。尽管不同的应用产生了不同的幂律指数和截距，但这些学习曲线跨越了广泛的模型、优化器、正则化器和损失函数。改进的模型架构和优化器可以改善幂律截距，但不影响指数；单一领域的模型显示出相同的学习曲线陡峭度。最后，他们发现模型从小训练集区域（主要由最佳猜测主导）过渡到由幂律 scaling 主导的区域。有了足够大的训练集，模型将在主要由不可约误差（例如贝叶斯误差）主导的区域达到饱和。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_fa9f50fd45a84bb39019d9aa88ccdb28@000000_oswg89135oswg934oswg756_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此外，他们还描述了可预测的准确度和模型大小 scaling 的重要意义。对于深度学习从业人员和研究人员来说，学习曲线可以帮助调试模型，并为改进的模型架构预测准确性目标。</p>
+<p>百度的研究者在论文中表示，他们的研究结果表明，我们有机会加倍努力，从理论上预测或解释学习曲线指数。在操作上，可预测的学习曲线可以指导一些决策，如是否或如何增加数据集。最后，学习曲线和模型大小曲线可用于指导系统设计和扩展，它们强调了持续扩展计算的重要性。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_5df0b31c711d42ad99a55e7101af78c5@000000_oswg180898oswg1080oswg510_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">神经机器翻译学习曲线。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_e8050e0c0ec34d06906119a1ccefae5a@000000_oswg208943oswg1080oswg479_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">单词语言模型的学习曲线和模型大小结果和趋势。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_a1ac17011b9242bcbfe68f7582e3d05c@000000_oswg183443oswg1080oswg495_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">字符语言模型的学习曲线和模型大小结果和趋势。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_0aca287604f34d629bd1e0b2932d2909@000000_oswg163009oswg1080oswg487_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">ResNet 图像分类任务上的学习曲线和模型大小结果和趋势。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241127/v2_17ac2e6adce1464b8857b43dc3da35e7@000000_oswg191073oswg1080oswg496_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">DS2 和注意力语音模型的学习曲线（左），以及不同 DS2 模型尺寸（1.7M ~ 87M 参数）的学习曲线（右）。</p>
+<p>关于这篇论文的细节，感兴趣的读者可以去阅读原文。</p>
+<p>对于百度而言，早期对 Scaling Law 的研究未能及时转化为广泛的实践应用，这在公司的发展史上或许算得上是一个不小的遗憾。</p>
+<p><strong>参考链接：</strong></p>
+<p>https://x.com/jxmnop/status/1861473014673797411</p>
+<p>https://arxiv.org/abs/1712.00409</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2650944638&amp;idx=2&amp;sn=8b9307ecf251af7ecbab7a4286e09b24&amp;chksm=8530d38706484edcb1887f8ce4ad0fc6779858bfbd0b528b1c9160d0eb0ea614dc7c3fb154e5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“机器之心”（ID：almosthuman2014）</a>，作者：机器之心，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054168032219520</guid><pubDate>Wed, 27 Nov 2024 16:33:00 +0800</pubDate></item><item><title>造无人机和卖配件的，都在入局这个赛道</title><link>https://36kr.com/p/3054019396058889</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在阳光明媚的周末早晨，骑上一辆E-bike，穿梭于繁忙都市的大街小巷，或是在宁静的郊区小道上享受骑行的乐趣。</p>
+<p>但刺眼的阳光让一切变得不那么美好，E-bike的车身也限制了不能携带很多物品。现在，消费者们有了更多选择，Car-Ebike，即三轮、四轮的半封闭式电助力自行车，是E-Bike的细分品类之一。</p>
+<p>这是一个介于汽车与E-Bike之间的新物种，拥有汽车的舒适和E-Bike的自由，可以在拥挤的交通中游刃有余，也能携带更多物品。</p>
+<p>2024年10月，制造生产Car-Ebike的台州大舆科技有限公司，完成了一笔种子轮融资，打破了E-bike行业的沉寂。</p>
+<p>“E-bike赛道2023年还是比较火热的，有不少新玩家入场，今年看起来反而是入场的人少了，掉队的人变多了。”曾任某头部E-bike公司物流总经理的Kurt告诉品牌工厂。</p>
+<p>2024年的E-bike行业，降价清货、收缩市场成为主旋律，有的品牌甚至关停破产。但来自中国的E-bike公司，在今年持续被资本看好。据公开的报道，大舆科技是第5个在2024年拿到融资的国内E-bike品牌。在此之前，有大鱼智行、特宙斯（Tezeus）、迅路创新、Urtopia先后拿到了融资。</p>
+<p>有声音认为，E-bike行业经历一轮去库存后，或将在2025迎来新的市场局面。更新技术的、更细分的市场需求，以及更充裕的利润空间，成为新一轮竞争的关键。</p>
+<h2><strong>入场的变少，掉队的变多</strong></h2>
+<p>清货，是E-bike行业在2024年的主要状态。</p>
+<p>“当前欧美市场仍在去库存的阶段，这一地区的客商在采购方面还是比较犹豫，签单并没有以前那么爽快了。”E-bike厂家深圳市开心电子有限公司总经理何武，在2024年4月的广交会上接受采访时如是说。</p>
+<p>受此影响，新一轮价格战开启。</p>
+<p>2024年1月17日，美国头部E-bike品牌Rad Power，率先宣布对其所有电动自行车进行降价，如旗下RadRunner 2售价从1499美元降至1399美元，RadTrike售价则是从2499美元降至1599美元，新售价相当于2023年假期活动促销价。其他产品也都迎来了不同程度的降价。</p>
+<p>E-bike另外一大主力市场欧洲，各大品牌也纷纷开始降价促销。</p>
+<p>以英国市场为例，2024年一项对当地五大在线自行车零售商（Sigma Sports、Tredz、Evans Cycles、Halfords 和 Wheelbase）的调查数据显示：48%的公路自行车和混合动力自行车都在打折，范围从百分之十到百分之五十不等。不同零售商的销售情况没有太大差异，但价格明显波动很大。</p>
+<p>“目前主要的营收都来自于折扣后的车款与配件。相较过去一年来说好上了不少，但整体而言供大于求的问题还是未被解决，入门车的库存依旧居高不下”，Sigma Sports联合创始人兼董事Ian Whittingham说道。</p>
+<p>Kurt也表示："市场上，低价E-bike的销量还是非常不错的“。他告诉品牌工厂，E-bike行业进入2024年首先最大的变化就是在价格上，“一些做高端车型的E-bike公司今年也开始下探价格空间。”</p>
+<p>它们不得不做出调整，价格战在所难免。在亚马逊美国站上，搜索“E-bike”出现的610条商品结果中，可供选择的价格区间为185-2150美元。其中，185-990美元之间的商品筛选结果为440条，占比超72%。</p>
+<p>2018年进入美国E-bike市场的雅马哈，早期瞄准高端市场，旗下车型的最低起售价为2999美元。但在2024年11月，雅马哈宣布将于年底将其E-bike撤出北美市场。专业自行车媒体将这件事归于价格战。有用户评论认为雅马哈的败退是意料之中：“这一点也不让人惊讶，（雅马哈）3000-6500美元的标价，只会吸引那些愿意花5万美元买新能源汽车的人。”</p>
+<p>业内人士透露，E-bike整车的利润空间并不高，组装模式下的毛利仅15%-20%。过久积压，还会损坏成本占比较高的电池。降价销售、收缩市场，也就成了不少E-bike公司的断臂求生之举。</p>
+<p>毕竟在2024年，又有一批明星E-bik公司，直接关停、破产。</p>
+<p>2024年2月，瑞典知名的E-bike和motorcycle品牌Cake申请破产；3月，美国共享E-Bike品牌Superpedestrian宣告破产。来到10月，一家美国E-bike和E-motorcycle初创公司FUELL 进入破产清算；同月月底，E-bike市场开拓品牌Juiced Bikes，在破产后将其所有资产以122.5万美元（折合人民币超过850万）的价格售出。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,484" src="https://img.36krcdn.com/hsossms/20241127/v2_90850ac23c4641f19cd4cbb2c44366bb@5802726_oswg129519oswg1080oswg484_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>资本关注细分市场</strong></h2>
+<p>与海外明星E-bike公司掉队形成对比的是，来自中国的E-bike公司，在2024年持续被资本看好。</p>
+<p>从目前的公开报道来看，2024年已经有5个国内的E-bike公司拿到了新的融资。</p>
+<p>依次是：在1月，拿到1亿元A轮融资的大鱼智行（DYU）；在2月，拿到千万元天使轮+融资的特宙斯（Tezeus）；在3月，创业公司迅路创新拿到了顺为资本、XBOTPARK基金、德讯投资的天使轮融资；在7月，宣布完成超千万美元A轮融资的Urtopia；在10月，完成一笔种子轮融资的大舆科技。</p>
+<p>据2022年的公开报道，至少有4家中国E-bike公司（Okai、Urtopia、Aventon、Sunrpanda|）拿到了融资。2023年则至少有3家（Tenways、Velotric、Okawa），其中唯乐高科技（Velotric）更是在一年之内拿到了两轮融资。显然，E-bike依旧备受资本市场关注。</p>
+<p>对于国内E-bike公司在2024年的融资表现，木识资本合伙人张宸铭认为：“2022、2023年先后有6家两轮E-Bike企业获得千万级的融资，其中3家2024年再次获得数千万级的融资，他们共同的特点是在各自细分赛道上进行了大胆创新。”</p>
+<p>虽然这五家公司，有老玩家、也有新玩家，但他们的产品都专注于E-bike细分市场。</p>
+<p>大鱼智行在小轮和中轮的折叠E-bike类目中做到了头部；Tezeus和Urtopia的城市E-bike，以轻便、智能化的细分功能取胜。迅路创新旗下的Tarran，是专注于生产E-cargo bike的品牌，这是近两年在欧洲市场开始流行的一类货运E-bike；大舆科技生产的“Car-Ebike”，是一种三、四轮的半封闭式电助力单车，是E-bike市场里需求正持续增长的一个细分赛道产品。</p>
+<p>“E-bike行业非常分散，城市通勤、娱乐、折叠、山地、货运，在欧美有很多场景，几乎每个场景都有一个品牌，很少有品牌可以做到全场景通吃。”大鱼智行车创始人董事长李威在公开分享中，将聚焦细分赛道归为品牌成功的关键因素。这也解释了，为什么资本更青睐细分市场的E-bike品牌。</p>
+<p>市场层面，一些细分E-bike产品的需求也持续上涨。</p>
+<p>如E-cargo bike（电动货运自行车），这一在传统E-bike上加了一个前置货仓的车型，造型上有点类似北方的“倒骑驴”，一种车厢在前、骑车人在后的三轮车。</p>
+<p>2023年E-cargo bike在德国市场卖出了18.9万辆，同比增长14.5%，这一品类在E-bike中的占比也从7.5%提升至9%。据了解，E-cargo bike在欧洲的平均售价超过5000欧元，属于高客单的E-bike产品。</p>
+<p>一方面，E-cargo bike满足了欧洲用户的家庭出行，能够方便地载小孩、宠物和采购的家庭物资。另一方，E-cargo bike如同国内快递配送中的电动三轮车，在货运上为物流公司提供了极大地便利。像英国最大的物流公司DHL就已经引入了E-cargo bike，目前至少七成的包裹都由E-cargo bike配送。</p>
+<p>拿到天使轮融资的讯路创新，是一家成立于2023年的初创公司，据相关报道称，这原本是一家提供E-bike行业解决方案的公司，看到细分市场的机会后入局。</p>
+<p>除了这样的新玩家外，细分市场也吸引了一些渴望转型的传统品牌入局。</p>
+<p>2024年7月3日，在全球最具影响力的自行车盛会之一EUROBIKE 2024欧洲自行车展上，国内老牌电动车品牌宝岛，带着他们今年在欧洲推出的E-bike品牌LUXMEA亮相。而LUXMEA所展示的LSM-002和LSM-003，正是E-cargo bike。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,721" src="https://img.36krcdn.com/hsossms/20241127/v2_b3d1887aad6e4d8fa30de82b4fdb5971@5802726_oswg963282oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>宝岛车业集团总裁杨波在接受媒体采访时称：“我们E-cargo bike在欧洲市场有一定的市场占有率和知名度”。</p>
+<p>“我们今年调研完E-bike市场后的一个感受是，用户对车型的需求更加细分，这也使得整个市场越来越细分”，洛克兄弟欧洲市场负责人Lisa告诉品牌工厂，公司预计在2025年推出自己的E-bike业务，而针对这项新业务，团队也做了比较深度的市场调研。</p>
+<p>洛克兄弟也参加了EUROBIKE 2024，观察大量来自国内的E-bike产品，得到的信息是：“在Gravel、SUV这类传统车型中，还在持续出现新的需求，这意味每个车型其实都存在新的增长点。”</p>
+<h2><strong>新玩家以技术和渠道切入</strong></h2>
+<p>在资本继续关注E-bike的同时，一些头部玩家开始“跨界”进入E-bike市场。</p>
+<p>据悉，早在2020年，大疆便开始在内部孵化E-Bike项目，将其命名为“EB”。2023年6月，安流自行车（深圳）有限公司注册成立，旗下的E-bike品牌为Amflow（安流）。公司法人、实际控制人为宋健宇，他是大疆的创始成员之一。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20241127/v2_78e3a1774ab444c0bdd1b3fe9fa12f7d@5802726_oswg186264oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在EUROBIKE 2024欧洲自行车展上，大疆发布了E-bike电助力系统“DJI Avinox”，正式进军E-bike市场。展会上，首个搭载DJI Avinox电助力系统的整车产品——全地形电助力自行车Amflow PL也同步亮相。Amflow目前上线了3款产品，售价3.68万起，主攻高端市场。</p>
+<p>“大疆布局E-bike更像是走英伟达的经营模式，自己出公版，但更多的还是出售核心部件”，某位E-bike从业者总结到。</p>
+<p>大疆发布的DJI Avinox本质是电机，属于Ebike产业上游的核心组件，占整车成本的40～50%，是利润空间最集中的部分。DJI Avinox的特点是，它是一款中置电机，搭载了DJI智能算法，可根据用户骑行姿态自适应调整助力输出。</p>
+<p>平衡性更好、重量更轻的中置电机，被业内一致认为将是未来主流。尽管目前中置电机在整个市场的占比只有20%，且成本比另一类轮毂电机高出5倍以上。相关数据显示，预计到2025年，中置电机在欧洲市场的渗透率能达到57%。</p>
+<p>与此同时，国内在中置电机上的研发并不深入，大量技术被海外公司所掌握。近几年的一个趋势是，有更多的公司开始加重对E-bike核心技术的投入，诸如麦思动力、天腾动力、大川电机等技术公司。这些公司也开始受到资本的关注。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,703" src="https://img.36krcdn.com/hsossms/20241127/v2_4fc48ccfe8684c6bafc0975c7575e05d@5802726_oswg214990oswg1080oswg703_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>E-bike市场另外一个值得关注的新入局者是洛克兄弟，这是一家2010年就在海外销售骑行配件的跨境公司，旗下拥有4家工厂，在日本、德国、美国、澳大利亚等地设有海外分公司，开拓了丰富的线下销售网络。</p>
+<p>2024年初，洛克兄弟布局整车业务，计划在日本姬路、澳大利亚墨尔本、美国纽约、德国海德堡开设四家品牌门店。他们的E-bike整车预计于2025年亮相，到时候会在已有线下渠道、线下销售网络和品牌门店中进行销售。</p>
+<p>Kurt跟品牌工厂分享到E-bike行业2024年的三大趋势时表示，不论是头部品牌，还是中小品牌在2024年都在投入线下渠道的开拓。Lisa补充称，从洛克兄弟的经验来看，用户对于自行车这类产品更注重线下的体验和服务。</p>
+<p>行业内，谈论起大鱼智行、Urtopia的成功，也多是肯定他们在品牌成立之初，就大力布局线下渠道的经营策略。</p>
+<p>E-bike市场在经历了2020年的超级辉煌后，近几年的沉寂与不被看好，像是在撇泡沫，将一些有实力的玩家留了下来。再回看当下市场，欧洲市场渗透率偏低、北美市场增量空间大，再加上细分需求的激发、技术领域的新机遇，中国玩家的机会还有很多。</p>
+<p>以至于Temu，在2024年也看中E-bike类目未来的可能，成立了对应的招商团队，积极发掘E-bike商家入驻。新电商平台的布局，则又带来更多的渠道机会。</p>
+<p>据市场研究机构Allied Market Research预测，到2030年，全球Ebike市场规模将达到1186亿美元，年复合增长率超过10%。在这样一个千亿级市场，也势必将成长出多个独角兽企业。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/BUgJKVR62GJ5_87KuvENqg" rel="noopener noreferrer nofollow" target="_blank">“品牌工厂BrandsFactory”</a>，作者：周博，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3054019396058889</guid><pubDate>Wed, 27 Nov 2024 16:39:00 +0800</pubDate></item></channel></rss>
