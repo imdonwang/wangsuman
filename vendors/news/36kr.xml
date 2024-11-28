@@ -1,157 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 28 Nov 2024 18:00:27 +0800</lastBuildDate><pubDate>Thu, 28 Nov 2024 18:00:27 +0800</pubDate><item><title>近三代操作系统开发元老一起创业搞AI Agent操作系统，AI大神卡帕西、谷歌都投了，大佬：要回归 Android本源</title><link>https://36kr.com/p/3055772216316296</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>一群曾经参与构建 Android 平台的前谷歌、Stripe 高管，如今创建了一家专注于开发 AI 智能体操作系统的新公司 /dev/agents，并已经在种子轮筹集到 5600 万美元。</p>
-<p>/dev/agents 正在构建全新的 AI Agent 操作系统，为开发者提供与 AI Agent 合作所需的工具。该公司的愿景是打造一个中央系统，该系统能够对每个用户建立共同的理解，并提供必要的 UI 模式、开发者平台以及周边生态系统，以便构建一类新的、令人愉悦的产品。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,926" src="https://img.36krcdn.com/hsossms/20241128/v2_792ae71e2a7040d8aa7119489b6955d6@46958_oswg431617oswg1080oswg926_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>“史诗般的团队” </strong></h2>
-<p>越来越多的科技企业正着手开发所谓 AI 智能体，这些智能体可以执行诸如航班预订或者代码编写等任务，且期间只需极少量的人为介入。这些工具的目标在于提高生产力，让人们能够与 AI 直接交互，且实际体验高度接近与人类同事或助手协同工作。</p>
-<p>但 /dev/agents 的创始人们认为，这其中还缺少关键的一环。如果 AI 智能体有朝一日将如当下的应用程序一样无处不在，那么开发人员肯定需要一套通用技术框架将这些服务连接起来并允许其相互通信——其功能定位就类似于苹果 iOS 或者谷歌 Android 系统。</p>
-<p>/dev/agents 公司联合创始人兼 CEO David Singleton 表示，“我们需要在 AI 领域创造出 Android 时刻。”</p>
-<p>Singleton 帖子下面很多网友表达了自己的期待。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,874" src="https://img.36krcdn.com/hsossms/20241128/v2_ca4b9dee6bb04181a123debdf869998c@46958_oswg280750oswg1080oswg874_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>值得的关注的是，/dev/agents 的创始团队被网友称为是“史诗般的团队”。“作为投资人，我们遇到了许多企业家，但很少遇到像这个这样出色的创始团队”，CapitalG 公司也如此说道。</p>
-<p>作为本世纪各大计算平台变革的先驱，创始团队的 David Singleton、Hugo Barra、Ficus Kirkpatrick 和 Nicholas Jitkoff 已经开发出了每天有数十亿人使用的软件。Barra 指出，“这是一支曾经参与最近三代操作系统的开发队伍。”他指的自然是 Android、可穿戴设备和 AR/VR 这三大系统平台。</p>
-<p>David Singleton 在创业之前，曾在 Stripe 担任首席技术官近 7 年，在建立金融渠道方面发挥了关键作用。这之前，Singleton 还曾在谷歌担任 Android 产品工程副总裁，负责监督 Android 新界面的开发，特别是移动界面的开发。在谷歌任职期间，他创立了为智能手表和其他可穿戴设备设计的 Android 操作系统版本 Android Wear。</p>
-<p>Hugo Barra 的职业生涯始于计算机行业的早期关键时刻，他开发了一系列产品。大学毕业后，Barra 与他人共同创立了一家公司，专注于开发语音识别技术，这项技术后来为苹果第一代 Siri 提供了支持。之后，他在 Android 生态系统中工作了近十年，先是在谷歌负责 Android 操作系统的产品管理，随后在小米担任全球副总裁，负责建立全球智能手机业务。最近，Barra 在 Meta 担任了四年副总裁，负责管理 Oculus VR 产品。此后，他成为 Detect（一家 AI 健康诊断公司）的联合创始人兼首席执行官。</p>
-<p>Ficus Kirkpatrick 是移动计算转型的早期先驱之一。他曾是 Danger Hiptop（也称为 T-Mobile Sidekick）的创造者之一，这款手机是第一款始终连接到互联网的现代智能手机。在 Google 收购 Danger 之前，Kirkpatrick 是原始 Android 团队的工程师。后来，他加入谷歌担任工程主管，成功将 Google Play 打造成一家价值数十亿美元的企业。最近，他与 Hugo Barra 合作，担任 Meta 的副总裁，负责虚拟现实（VR）和增强现实（AR）平台的开发。目前他担任 /dev/agents 的 CTO 一职。</p>
-<p>Nicholas Jitkoff 在 Chrome OS、Android 和 Oculus 等新计算平台的设计中扮演了关键角色，专注于探索性输入、交互和系统设计。他曾是 Material Design 的首席设计师，负责构建 Google 的整体界面框架。此外，Jitkoff 还曾担任 Dropbox 的设计副总裁，并后来领导了 Figma 的核心系统和 AI 设计团队。</p>
-<p>“我们都能感受到 AI 智能体的巨大潜力空间。但从开发者的角度出发，现在想靠它做出好的产品实在太过困难。”Singleton 说道。</p>
-<p>Kirkpatrick 转发 Singleton 的话很简单：让我们重新发明应用程序。Barra 则表示，“回归 Android 本源，为人类和 AI 智能体构建一个新的操作系统。”</p>
-<p>为了解决这个问题，/dev/agents 计划构建一款能够运行在手机、笔记本电脑甚至是车载系统上的云端操作系统。该公司还希望开发一套新型用户界面，让人们能够更加顺畅自然地与各种硬件设备上的智能体进行交互。</p>
-<p>除了四位创始人之外，/dev/agents 还有另外两名员工。其中，Björn Bringert  领导谷歌搜索在安卓系统上的发展近 10 年，使其用户数量超过了十亿。之后，他领导了沃尔沃汽车在线、连接性和商业数字产品的发展。最近，他一直在构建从电动货运自行车、海上救援无人机和便携式电子设备到移动应用、网络应用、后端服务和各种 AI 原型产品。</p>
-<p>该公司目前也在扩大团队：“我们正在寻找以用户为中心、注重工艺、具有开拓精神、不太自视甚高的人加入我们旧金山的团队。我们雄心勃勃，但又务实。我们奔跑迅速，但注重细节。我们认为创造未来的最佳方式是每天坚持不懈地取得进步。”</p>
-<p>Singleton 表示，该公司计划保持相对灵活的运营形态，类似于 Android 早期开发团队。该公司打算着力投入的一个主要方向在于计算推理，这也是为 AI 智能体构建操作系统所必需的前置科技。</p>
-<h2><strong>Karpahy 等知名人士参投 </strong></h2>
-<p>/dev/agents 总部位于旧金山，其在本周二宣布完成了由 Index Ventures 领投、Alphabet 成长投资基金与谷歌旗下 CapitalG 等联合跟投的大型种子轮融资。据一位未获授权公开披露细节信息的知情人士透露，此轮融资已经将 /dev/agents 的估值拉升至 5 亿美元。</p>
-<p>创始人的背景正是左右投资决策的关键因素。“考虑到这家公司的员工以及创始人阵容与市场需求的契合度，就能意识到他们的开发目标必将大有可为。”Index Ventures 合伙人 Nina Achadjian 说道，她与 Singleton 在谷歌工作时就已经相识。</p>
-<p>CapitalG 合伙人 Jill Chase 则表示，“他们选择的是一条千载难逢的机遇赛道。”过去一年多以来，Chase 本人一直在苦苦找寻为 AI 智能体开发操作系统的企业投资对象。</p>
-<p>而最引人关注的则是数十位天使投资者也参与进来，其中包括 Scale AI 公司 CEO Alexandr Wang、Palo Alto Networks CEO Nikesh Arora 以及 OpenAI 联合创始人 Andrej Karpahy 等知名人士。</p>
-<p>Andrej Karpathy 在去年提出了 LLM 操作系统的概念，当时在硅谷引发了热议。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,1091" src="https://img.36krcdn.com/hsossms/20241128/v2_2bc0b054b74b43268129969549052174@46958_oswg216002oswg1080oswg1091_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Karpathy 提出的 LLM OS 在概念上类似一颗“大脑”，相当于 GPT-4 大语言模型的涡轮增压版，设想以每秒 20 Hz 的“心率”以 token 为单位保持运行。所谓 token 单位，用以表示系统预期的语言处理能力——作为大模型一项必不可少的技能，未来用户下达命令可能如同好友之间的寒暄般轻松随意。</p>
-<p>该系统的内存使用能容纳 128K tokens 的 RAM，意味着其能够轻松处理大量文本。而其中设想的文件数据存储系统为“Ada002”。对视频和音频等 I/O 外设的支持绝非临时起意，如今的多模态模型已经开辟出一种新的可能性：大模型可以观看无声电影并实时生成故事脚本，或者根据雨滴敲打窗户的白噪音创作交响乐。</p>
-<p>Karpathy 的蓝图中也不乏开发者们熟悉的软件工具。Python 解释器加上终端或将拥抱自然语言操作指令。也许未来的编程工作，就像跟好友谈天说地般轻松自然。</p>
-<p>Karpathy 当时的想象就预示了计算范式将会迎来巨大转变。LLM OS 让人们开始重新构想自己的日常数字交互方式与体验：在未来，“请安装最新更新”这种当下常规的操作在多数用户眼中将变得如同计算机系统维护一样复杂——毕竟已经完全由大模型操作系统代劳了；而“帮我找条回家的最佳路线”也不再只是冷冰冰的行程规划，而是一段关于日程安排的深入讨论。</p>
-<p>Karpathy 所展现的未来不仅建立在更复杂的算法之上，还将与同理心与情感共鸣密不可分——种种传统上只属于人类的心灵体验，也许将成为能够在人机之间分享的真切感受。</p>
-<p>如果说，当时的 LLM OS 还只是纯粹的思想实验，那 Singleton 几人的创业则是在为实现这个思想实验提供助力。</p>
-<h2><strong>巨头们的 Agent 战争 </strong></h2>
-<p>如今，人工智能系统已经能够主动与计算机界面互动，而不仅仅停留在处理文本和图像上。</p>
-<p>操作系统提供了硬件和软件之间的基本接口。而生成式 AI 正以并行操作系统的形式出现，协调大规模计算基础设施和复杂应用程序之间的交互，这些应用程序现在被重新定义为 AI Agent。这种转变不是简单的自动化或逐步改进。</p>
-<p>原来由英特尔、ARM 和 SPARC 主导的硬件层，现在正在不断发展以满足 AI 工作负载的需求。Nvidia 、Groq、Cerebras 等公司正在提供下一代硬件，专门研究 AI 专用处理器。而原来戴尔、HPE 和 IBM 等 OEM（原始设备制造商）的提供服务器、存储和网络设备来运行操作系统驱动的应用程序，现在变成 AWS、Microsoft Azure 和 Google Cloud 等云平台引领着 AI 技术栈，提供针对生成 AI 优化的基础设施和服务。</p>
-<p>在传统的操作系统内核中，管理内存和进程等低级功能。在生成式 AI 技术栈中，语言模型（如 Llama、Gemma、Mistral 和 Phi）充当核心，使系统能够生成类似人类的文本、图像甚至代码。Apple Intelligence 和 Microsoft Copilot+ PC 是 GenAI 模型如何成为操作系统不可或缺的一部分的早期例子。正如内核对于操作系统的功能至关重要一样，这些模型是 AI 系统的基石。</p>
-<p>与核心操作系统实用程序类似，嵌入模型、矢量数据库和如 LangChain 和 LlamaIndex 等编排框架等 AI 工具现在已成为关键组件。它们简化了处理复杂工作流程的过程，使 AI Agent 能够检索知识并有效地执行任务。这些框架还为开发人员和组织提供了一个“shell”，用于构建、训练和部署 AI Agent。</p>
-<p>在传统技术栈中，应用程序构建在操作系统之上，用于执行特定任务并为用户提供价值。在生成式 AI 技术栈中，AI Agent 承担这些应用程序的角色，但是它们的能力远远超过传统软件。AI Agent 是自主的、能够与环境交互，从数据中学习并执行从客户服务到软件开发等各种领域的任务。</p>
-<p>目前，围绕 AI Agent 的整个生态正在逐渐建立和完善。所有领先的人工智能公司都承诺将推出自主 AI Agent，而 OpenAI 最近也大肆宣传这种可能性。</p>
-<p>几周前，在 Reddit 的论坛上，OpenAI 首席执行官 Sam Altman 表示，“我们将拥有越来越好的模型”，但“我认为下一个重大突破将是 Agent。”OpenAI 首席产品官 Kevin Weil 也表示，“2025 年将是 Agent 系统最终进入主流的一年。”</p>
-<p>本月，有消息称 OpenAI 公司计划于 2025 年 1 月，以研究预览和开发工具的形式，推出名为“Operator”的自动化 AI 智能体，可以独立控制计算机并执行各种任务。此举加剧了开发 AI Agent 科技巨头之间的竞争：微软最近宣布构建了强大的 AI Agent 生态；Anthropic 推出“computer use”功能，而据报道谷歌也在准备自己的版本，将于本月发布。</p>
-<p>这些公司希望 AI Agent 能够提供一种将强大但昂贵的 AI 模型货币化的方法，那这条路能否带来理想的效果，需要时间验证，但应该不会太久。</p>
-<p>参考链接：</p>
-<p>https://www.bloomberg.com/news/articles/2024-11-26/former-google-stripe-executives-raise-56-million-for-ai-agent-startup?leadSource=uverify%20wall </p>
-<p>https://www.capitalg.com/insights/dev-agents-the-operating-system-for-ai-agents/ </p>
-<p>https://x.com/karpathy/status/1723140519554105733 </p>
-<p>https://medium.com/@marcelheinz/the-llm-os-a-glimpse-into-the-future-of-tech-with-andrej-karpathy-3bcbc0baf339 </p>
-<p>https://www.forbes.com/sites/janakirammsv/2024/09/25/if-generative-ai-is-the-new-operating-system-agents-are-the-new-apps/ </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/_IvsYSegDDITD3ik-XkQ9Q" rel="noopener noreferrer nofollow" target="_blank">“InfoQ”</a>，整理：褚杏娟 核子可乐，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055772216316296</guid><pubDate>Thu, 28 Nov 2024 17:15:00 +0800</pubDate></item><item><title>做烧烤、搞加盟、拓品牌，海底捞急需新故事</title><link>https://36kr.com/p/3055829320924677</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>（本文系紫金财经原创稿件，转载请注明来源）</p>
-<p>大型直营餐饮品牌海底捞又双叒叕搞事情了！</p>
-<p>这次海底捞盯上了烧烤赛道，近日海底捞旗下的烤串品牌“火焰官BarBecue”在无锡开出全国首店。</p>
-<p>火焰官BarBecue沿袭了海底捞一贯的风格，融合了烧烤、酒饮、社交等元素，还推出了海底捞特色的免费美甲服务。</p>
-<p class="image-wrapper"><img data-img-size-val="749,466" src="https://img.36krcdn.com/hsossms/20241128/v2_15f41ad7b5b943ef8a8451f509f80e80@121888488_oswg450144oswg749oswg466_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>菜品SKU接近80个，涵盖肉类、海鲜、蔬菜、小吃、饮品和酒水等，人均消费在90元左右。对于海底捞会员而言，到店用餐还可享受8折的专属优惠。</p>
-<p>一年多来，海底捞不断探索新业务领域，布局新消费场景，在2024年半年报中，海底捞正式将多元化战略提升到了全新高度——也就是所谓的“红石榴计划”。为此，海底捞组建了新班子，换了CEO，其决心可见一斑。</p>
-<p>海底捞变得越来越坚决，背后可能是海底捞深深的焦虑，单一火锅赛道的天花板见顶，餐饮业普遍收缩，海底捞亟需第二增长曲线来补足新的想象空间。作为餐饮龙头品牌，或许红石榴计划是一个全新的尝试样本。</p>
-<p><strong>红石榴计划，试水多元化</strong></p>
-<p>从去年开始，海底捞变得越来越“多”，这个“多”并不是门店多，而是海底捞的业务变多了。 </p>
-<p>2023年6月开始，海底捞主品牌开始“玩花活”，去线下演唱会“捞人”；走进夜市，支起火锅地摊；露营爆火背景下，开出了露营门店，提供露营＋火锅服务；开出首家“牛肉工坊”，主打“鲜牛肉4小时配送到店”......在主品牌中叠加新元素，海底捞不断尝试新机会。 </p>
-<p>很快子品牌、新场景业态陆续涌现。2023年9月，主打低价的海底捞子品牌“嗨捞火锅”在北京落地首店，海底捞做起了自己的“平替”生意。与此同时，海底捞也在不断进校园、进工厂，丝毫没有往日高端火锅的形象包袱。 </p>
-<p>起初，海底捞还只是围绕火锅业态做拓展，到今年，海底捞相继试水烤肉、烤鱼等新餐饮领域。根据财报显示，2024年上半年，海底捞共有小嗨火锅、焰请烤肉铺子等5个在营创业项目，涵盖烤肉、火锅、中式快餐等品类。 </p>
-<p>8月27日，海底捞公布了截至2024年6月30日的中期业绩，交出令业界赞叹的翻台率超过4、且增收增利的成绩单。数据显示，2024年上半年海底捞实现营业收入214.91亿元，同比增长13.8%；核心经营利润达27.99亿元，较去年同期增长13.0%，收入与核心经营利润均创历史新高。 </p>
-<p class="image-wrapper"><img data-img-size-val="882,449" src="https://img.36krcdn.com/hsossms/20241128/v2_77fb8e7282774a318262c36362839451@121888488_oswg583457oswg882oswg449_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这给了海底捞充足的信心，在试水了近一年时间后，海底捞正式将多元化战略提升到了全新的高度——继“啄木鸟计划”和“硬骨头计划”之后，正式推出餐饮服务创新的“红石榴计划”。 </p>
-<p>为此，海底捞组建了一套新班子。今年6月，海底捞官宣高层人事调整，原执行董事及首席执行官杨利娟调任海底捞海外业务——特海国际，专注于海外业务的发展；新任首席执行官苟轶群则带领海底捞开启新的发展阶段。 </p>
-<p>两个月后，海底捞还披露了一份任命公告，霸王茶姬创始人张俊杰担任独立非执行董事，旨在进一步提升公司董事会（成员背景）的多元化，且董事会相信张俊杰的专业背景、从业经历和其独董职责的履行能够为海底捞的发展提供监督和指导性意见。 </p>
-<p>外界普遍认为，张俊杰在新茶饮行业的成功经验或许能为海底捞的多元化业务赋能。 </p>
-<p>在半年报中，海底捞明确了由苟轶群领导的创新创业委员会，在集团层面整合资源，领导和推动新品牌及新业务的孵化与发展。 </p>
-<p>海底捞还公开表示，探索多元化经营策略将是未来长期的重点工作之一，并且会策略性地收购优质资源，以拓宽餐饮业务形态及顾客基础。 </p>
-<p>综上所述，外界不难看到，海底捞从集团层面鼓励孵化或收购餐饮新品牌。为了保驾护航“红石榴计划”，连CEO都进行了调整。要知道，杨利娟出任CEO仅仅三年，并且是公认地带领海底捞走出至暗时刻的重要人物，在这样的情况下，海底捞依然选择换帅，其多元化战略的决心可见一斑。 </p>
-<p><strong>焦虑的海底捞，亟需第二增长曲线</strong></p>
-<p>海底捞变得越坚决，则越能衬托出幕布背后，海底捞的焦虑！ </p>
-<p>最直观的焦虑是，如今火锅赛道流量增长几近天花板，想要再通过规模化扩张获取增长越来越难了。根据公开数据显示，2023年全年，我国火锅领域共有7.7万家相关企业注册，但同时有3.4万家企业注销或吊销。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,497" src="https://img.36krcdn.com/hsossms/20241128/v2_dae9378c078247c49f75854d6f055106@121888488_oswg397798oswg1080oswg497_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另一方面，大家的消费能力普遍降低了，单一赛道天花板见顶，火锅市场进入存量竞争时代，海底捞的压力自然不会小。在财报业绩会上苟轶群坦言，单一赛道的天花板、压力都会较大。在他看来，当前多元化且竞争激烈的市场中，单一业务模式难以为继。 </p>
-<p>外部环境变化带来的焦虑，是所有火锅企业共同面对的必答题，而海底捞的另一层焦虑则来自内部。 </p>
-<p>2021年，海底捞巨亏41亿元，是海底捞自2018年上市以来年报中首次出现亏损，其翻台率也骤降至3次/天，成为海底捞上市以来的最低点。 </p>
-<p>此后，海底捞开始系列自救，经营情况大为好转，到去年海底捞已经实现扭亏为盈。今年半年报，海底捞也交出了一份不错的成绩单。 </p>
-<p>业绩重回增长轨道固然重要，但核心翻台率并未回到巅峰时期。数据显示，2018年海底捞整体翻台率稳定在5次/天，而今年上半年，这一数字为4.2次/天。值得一提的是，这一数字的背后，是海底捞使出浑身解数，多方经营调整换来的结果。 </p>
-<p>而最直接有效的路数是，海底捞放出了降价的大招。半年报数据显示，报告期内海底捞平均客单价97.4元，同比下降了5.3%。把时间线拉长，从2020年到2023年，海底捞平均客单价分别为110.1元、104.7元、104.9元、99.1元，一路向下。不论是校园店还是夜市摆摊，海底捞的消费门槛也在下降。 </p>
-<p>翻台率是海底捞的关键指标之一，高翻台率一定程度上源于海底捞的超长营业时间。据了解，海底捞大多数门店的营业时间为9点到次日7点，整体营业时长高达22个小时。这意味着，海底捞想提升翻台率，调整营业时长已经没有多少空间了。 </p>
-<p class="image-wrapper"><img data-img-size-val="519,577" src="https://img.36krcdn.com/hsossms/20241128/v2_ff0072f5549d40faaf2be8d6d699e497@121888488_oswg393628oswg519oswg577_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>金融服务机构浦银国际就曾表示过担忧，在其研报中曾提到，进入下半年，海底捞翻台率提升空间有限，经营杠杆帮助减小，海底捞利润率恐将面临比上半年更大的压力。 </p>
-<p><strong>无限拓展新游戏，海底捞能赢吗？</strong></p>
-<p>海底捞寻找第二增长曲线的路子越拓越宽，在“红石榴计划”之外，海底捞还开放加盟、加速出海等，多举措并行。 </p>
-<p>今年3月，海底捞宣布放开加盟，表示将以直营为主、适时引入加盟特许经营模式。在财报中，海底捞具体阐述了加盟计划，希望通过加盟拓展海底捞覆盖范围，实现门店数量的稳步增长，覆盖下沉市场。 </p>
-<p>根据海底捞官方透露，已经收到超过1万份的加盟申请，主要来自三线及以下城市。预计下半年，海底捞的加盟店会有所增长。 </p>
-<p>除此之外，随着海底捞的实力干将杨利娟调任特海国际，海底捞释放出加速出海的信号。 </p>
-<p>近两年来，中餐出海热情高涨，势头强劲。根据咨询公司沙利文的预测，到2026年，海外中式餐饮市场规模有望达到4098亿美元。 </p>
-<p>作为一名擅长开疆拓土的大将，杨利娟势必将全力征战海外蓝海市场。11月26日，特海国际发布了2024年第三季度的财务业绩。 </p>
-<p>数据显示，该季度公司收入达到1.986亿美元，同比增长14.6%，期内溢利为3770万美元，而上年同期则为亏损140万美元。每股基本溢利净额和每股摊薄溢利净额均为0.06美元，去年同期约为零。 </p>
-<p>这表明特海国际还有很大的潜力可挖，也可能说明，海底捞海外市场的扩张，或许正在悄然酝酿一盘大的棋局。而在这场看上去无限拓展的游戏中，海底捞如何平衡多品牌、多场景、多业务、多市场的投入，值得关注。 </p>
-<p>不得不提的是，今年上半年，餐饮业普遍收缩。公开数据显示，截至2024年6月30日，国内餐饮相关企业新注册量达到134.6万家，与此同时，注销、吊销量达到105.6万家，创下新高。 </p>
-<p>面对这样的行业背景，不少餐饮品牌选择聚焦主业，剥离子品牌业务。比如西贝餐饮集团旗下的新中式汉堡品牌“贾国龙中国堡”全部关停，并公开表示将着重发力正餐品牌，将精力放在西贝莜面村上。 </p>
-<p>无独有偶，呷哺呷哺的烤肉子品牌“趁烧”，门店也已全部关闭；九毛九的子品牌“那未大叔是大厨”餐厅停止运营，九毛九早已从其官网中移除了所有与“那未大叔是大厨”品牌相关的信息。另一子品牌“怂火锅”，则调整了全年开店目标，由35至40家下调至25家。 </p>
-<p class="image-wrapper"><img data-img-size-val="1072,752" src="https://img.36krcdn.com/hsossms/20241128/v2_009fcc66910246828930ebeff13ac052@121888488_oswg1097698oswg1072oswg752_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而海底捞选择了反其道而行之，越来越凸显其多元化发展的思路。谁的路子对，谁的路子好，看来只能靠市场给出答案了。 </p>
-<p><strong>结语</strong></p>
-<p>从海底捞的发展路径来看，能够在一年巨亏40亿的泥潭中迅速走出来，转危为安，海底捞的发展韧性和战略转型的能力可见一斑。 </p>
-<p>吃过“步子迈太大的亏”的海底捞，这次能否趟出一条新路，还值得后续观察。但不论怎样，这是一场全新的尝试，也将为餐饮品牌未来的发展，探索出更多的经验和启示。 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/8maFZyk5fxL19RLbbFlTpQ" rel="noopener noreferrer nofollow" target="_blank">“紫金财经”</a>，作者：方来，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055829320924677</guid><pubDate>Thu, 28 Nov 2024 17:17:00 +0800</pubDate></item><item><title>站在十字路口的百度：扩张还是收缩</title><link>https://36kr.com/p/3055775522389513</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="600,402" src="https://img.36krcdn.com/hsossms/20241128/v2_bb0a98323c5d490c8f3eadf418a13f31@495409196_oswg56817oswg600oswg402_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>百度从来是一家不缺“概念”的公司，大模型，自动驾驶，Robotaxi等等，企业版图将各类行业热门尽收其中。</p>
-<p>但在资本市场，这些“概念”并没有起到点石成金的效果，即便最多短期内消息层面加持股价（如此前萝卜快跑在武汉的运营），但很难持续。</p>
-<p>为何市场就是不买单百度，该问题此前市场中也多有阐述，其中采纳最多的乃是：身为百度基石业务的搜索正面临剧烈冲击，创新业务虽踩中市场脉搏，但短期内很难体现在财务报表中，简单来说，在一个大集体内，<strong>搜索业务的下行的暮气会遮掩创新业务的锐气。</strong></p>
-<p>当我们重新审视百度的股价和经营状况时，仍然发现了一些新的问题，表面上当前百度的问题是新旧业务承接，背后则是未来战略决心的迟迟未能显现，本文核心观点：</p>
-<p>其一，百度现金（包括短期投资）占市值比高达65%，但在回购和资本开支方面又非常审慎，市场难以对企业“定性”，且影响核心业务的发展；</p>
-<p>其二，百度在资本市场的表现很大来自于上述“不确定”性，且制约了合理的融资渠道；</p>
-<p>其三，百度管理层此时应该多些魄力，给市场以明确信号。</p>
-<h2><strong>不正常的“现金市值比”</strong></h2>
-<p>过去一年，中概互联网在资本市场面临着严峻挑战（既与企业自身的“转型”有关，亦与市场流动性因素密不可分），在此期间，百度与老朋友阿里和腾讯之间的表现也有很大悬殊。</p>
-<p class="image-wrapper"><img data-img-size-val="830,476" src="https://img.36krcdn.com/hsossms/20241128/v2_f05653a6800845208cc09c430b055f7e@495409196_oswg106275oswg830oswg476_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>以2024年4月为分界线，在此之前三家股价波动大致在同一区间（围绕在恒生指数上下），其后便呈现了明显分化：腾讯遥遥领先，阿里与大盘恒生指数同频互动，与此同时百度则越发沉寂，9月下旬虽乘宏观政策东风有一轮明显上扬，但不久便疲态尽显。</p>
-<p>资本市场为何厚此薄彼呢？更无视百度近期在热点赛道的锐意进取呢？资本市场对百度究竟有何误解呢？这是很自然的疑问三连击：</p>
-<p>其一，同样面临严峻挑战，百度和腾讯的转型进程整体上要快于百度，如腾讯以视频号拿到线上广告新的增长点，又如阿里在拆分之后，各个业务线加速盈利进程，百度的广告业务仍在低谷期，且短期内看不到明显拐点，经营基本面投射在资本市场；</p>
-<p>其二，在资本市场操作中，百度和阿里更加热衷于回购，2024年Q3腾讯回购金额高达359亿港币，当期阿里该数字为41亿美元，大致在同一水平区间，相比之下，百度当期回购规模只有1.61亿美元（2023年宣布了50亿美元的回购计划），明显低于预期。以回购和股息来提高股东的获得感往往是企业在市值低谷期提高投资者信心的重要手段，那么百度为何反而抠门起来呢？</p>
-<p>截至2024年Q3，百度账面上现金及现金等价物共有40亿美元，可迅速变现的”其他短期投资”145亿美元，两者共计185亿美元，占百度当前市值比超过65%。换句话说，百度手中的资金储备是完全可以“托市”的，起码可以不过分输于腾讯和阿里。</p>
-<p><strong>显然，短期内提振股价并非百度“不能”，而是另有他因。</strong></p>
-<p>近年百度在AI方面乃是下了重注，在ChatGPT大热之后迅速推出了文心一言大模型，在性能方面也保持了优秀的成绩，但另一方面大模型的发展仍然建立在强算力的基础上，训练和推演对算力的需求仍然呈指数性增长，换言之<strong>大模型在收入端确实带来了新的期望，但这是建立在资产端快速膨胀前提下</strong>，包括GPU在内的算力基础设施的投资正在消耗企业的资金储备。</p>
-<p class="image-wrapper"><img data-img-size-val="830,422" src="https://img.36krcdn.com/hsossms/20241128/v2_768db4f2af0e4729bfa60de305f4d21c@495409196_oswg140874oswg830oswg422_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>微软，谷歌，META等海外云计算厂商已经明显加大了资本开支，阿里的资本开支在近几个季度也有明显反弹，相比之下百度的表现又要审慎许多，2024年Q3百度核心（剔除爱奇艺）资本开支为16.4亿元，同环比都有明显下降趋势（2023年Q3该数字为35.3亿元，2024年Q2则为21亿元）。</p>
-<p>如前文所述，百度手中储备了可观的现金，可这笔现金既没有用在短期股东回报，又没有用在长期的资本开支中，显得非常怪异。</p>
-<p>从业务逻辑角度，我们猜测管理层可能有如下考虑：1）当前百度需要重新对业务进行优化重组，如集度汽车改名极越汽车之后，百度大股东身份让位给吉利，造车相关业务资产会进行一定程度的剥离，又如在新一轮的轮岗中，大健康事业群组（HCG）合并至MEG（移动生态事业群组），该业务权重随之下调，在新的发展阶段百度要重新对业务进行梳理和定位，确定业务优先级，这背后“人事”方面的博弈不容小觑；</p>
-<p>2）基石的广告业务仍处在低谷期，受此影响2024年Q3百度核心经营性现金流仅有43亿元（上年同期为87亿元），若短期内再加大资本开支，恐会对自由现金流带来更大影响，此时储蓄现金也是为了提高经营的抗风险能力。</p>
-<p>我们是偏向于相信百度未来是要用手中的现金去做长期投入的，资本开支在未来大概率会有明显反弹，只是如今在内部的限制性因素之下，不得已收缩，否则实在不该错过当前的回购窗口（且现金占比过高也会影响ROE等财务指标的改善）。</p>
-<p>至此我们基本整理出了百度市值，现金和业务之间的反应链条：<strong>内部业务需要调整——资本开支首先——回购力度收缩——股价下行。</strong></p>
-<p>我们需要强调的是，即便上述观点符合逻辑且可以自洽，但由于百度迟迟未能在具体操作中给市场以明确信号，上述结论只能停留在猜想阶段，也正因为如此，市场对百度迟迟不能下定论，这很大程度上影响了市场定价信心。</p>
-<h2><strong>百度应多些魄力</strong></h2>
-<p>百度市值的低迷不仅仅在于新旧业务的交接不顺，更为重要的乃是管理层站在十字路口迟迟没有做出选择，令市场难以捉摸。</p>
-<p>2024年Q3百度智能云同比增长11%，上个季度该数字为12%，且相比之下2023年Q3具有低基数效应，理论上大模型如火如荼必然会带动云业务的发展，百度此成绩着实不能令人信服。</p>
-<p>值得注意的是，当期阿里云同比增长回弹至7%，已经连续多个季度改善速度，业内普遍认为2025年阿里云将回归双位数增长。</p>
-<p>对未来战略的暧昧态度，可能已经影响了百度大模型的商业化效率(尤其在当前极度“内卷化”的市场环境下），原因也比较简单：</p>
-<p>其一，迄今为止基于大模型的云计算厂商商业模式主要为卖算力和卖模型(前者被称为“HaaS”，后者简写为“MaaS）；</p>
-<p>其二，当大模型成为新的生产力后，谁掌握了算力（包括但不限于GPU）谁就构筑了业务护城河（算力是模型性能的保障），这背后自然是资金的加持，以英伟达Hopper/Blackwell/下一代GPU卡FP16算力衡量，华福证券测算2024-2026年全球文本大模型AI训练GPU需求为271/592/1244万张，维持模型先进性是需要资金做靠山的；</p>
-<p>其三，资本开支如果长期低迷，算力的优势便难以彰显，云计算只能倾向于卖模型，这也是百度大模型坚持闭源路线的重要原因，以此来提高算力利用率。</p>
-<p>既然公司已经确立了大模型对未来经营的地位，管理层就应该早下决心，强化和巩固业务的领先优势，否则很有可能起个大早，赶个晚集。</p>
-<p>更为重要的是，在上述诸多限制因素下，市场对百度定价越发保守（TTM市盈率已经跌破10倍），企业从资本市场融资的路将越来越窄。</p>
-<p class="image-wrapper"><img data-img-size-val="830,524" src="https://img.36krcdn.com/hsossms/20241128/v2_ef0104c55bc94597a0b3c2179a808a67@495409196_oswg170022oswg830oswg524_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p>我们整理测算了代表互联网企业过去一年的表现情况，用股价波动标准差视为”风险”，每日平均波动视为“预期收益”，可以非常直观看到过去一年百度在资本市场整体表现为“低回报，高风险”。</p>
-<p>基石业务的下行压力，提高企业的发债成本（影响债券评级），而资本市场的表现则会制约增发等股市融资行为，这其中既有业务转轨的原因，也与管理层迟迟不给明确信号有着直接关系。</p>
-<p>我们在此前的文章中一直建议百度“拆分大模型”业务，许多朋友认为这是天方夜谭，嗤之以鼻，但无论是拆分还是在现有盘子里加快投入，都是期望企业可以<strong>甩掉包袱，重新确立新的资本投入路径和规模，确保技术能够在财务报表中有所体现。</strong></p>
-<p>我们丝毫不怀疑百度对大模型的信心和能力，但从当前情况来看管理层应该多一些魄力，账面上的现金储备也要有明确信号（现金占市值比过高是不合理的）:</p>
-<p>若提高股东现金利得，改善短期股价；</p>
-<p>若加速资本开支，提高长期内企业预期。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDEzOTc0MA==&amp;tempkey=MTI5OF9sTDRWS3gwSFNDc3czdXExelNILTVzbng3OXpjcjRRMWk0VE9SeWt0akVmVnlBSmVZUTludmg1aTlxTGQ0RE1YMHlCQ2puREEyOU04Q0lZV181UFVFZmpfU1lVX2ZPZkQydjB4a1ZsbFQ4QnpoZjVOak0zQ0VOY3ZjdjRhS0lDT1h2b3ZyUTlDbVJWeUYxUVN2TUVrV0EwVEhEZzJYZ1RrT0tRQVFRfn4%3D&amp;chksm=bdf47a108a83f306d74ced00d79155ddbd7d1032cc77cdd28f33b1b2c5503b8e29ce16c99451&amp;token=578508055&amp;lang=zh_CN#rd" rel="noopener noreferrer nofollow" target="_blank">“思辨财经”</a>，作者：仝志斌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055775522389513</guid><pubDate>Thu, 28 Nov 2024 17:21:00 +0800</pubDate></item><item><title>市值超300亿，中国版Waymo美股IPO了</title><link>https://36kr.com/p/3055766855143811</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 28 Nov 2024 18:31:44 +0800</lastBuildDate><pubDate>Thu, 28 Nov 2024 18:31:44 +0800</pubDate><item><title>市值超300亿，中国版Waymo美股IPO了</title><link>https://36kr.com/p/3055766855143811</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241128/v2_cdffc5b989f14e88af087ddd1365b9ae@000000_oswg70691oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p>11 月 27 日，小马智行在纳斯达克证券交易所挂牌上市。截至上市当天收盘，小马智行的股价为 12 美元，市值达到了 42 亿美元（约 304 亿元），这也是今年美股自动驾驶最大 IPO。 </p>
 <p>有趣的是，小马智行和此前上市的文远知行都宣称自己是「Robotaxi 第一股」，这不禁让人有些傻傻分不清楚。小马智行自认是「全球 Robotaxi 第一股」，而文远知行则声称自己是「全球通用自动驾驶公司第一股」，同时也不忘强调自己同样是「全球 Robotaxi 第一股」。 </p>
@@ -621,4 +469,163 @@
 <p>最新的消息是，小马智行分别与丰田、北汽合作量产Robotaxi，千辆规模级Robotaxi将在未来两年落地推出。</p>
 <p class="image-wrapper"><img data-img-size-val="901,518" src="https://img.36krcdn.com/hsossms/20241128/v2_2792f08cab98450eb153177d1bffba32@5892437_oswg166482oswg901oswg518_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
 <p class="img-desc">关注获取更多资讯</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055781554524288</guid><pubDate>Thu, 28 Nov 2024 17:59:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055781554524288</guid><pubDate>Thu, 28 Nov 2024 17:59:00 +0800</pubDate></item><item><title>奥乐齐走出上海</title><link>https://36kr.com/p/3055762681577217</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,728" src="https://img.36krcdn.com/hsossms/20241128/v2_172c6f77733b42aca6a7bffa7cf99832@320341_oswg128602oswg1080oswg728_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2024年属于德国平价超市奥乐齐ALDI，以实体店形式进入中国境内市场第5年来，最为重要的一个年份。</p>
+<p>就在这年，奥乐齐在中国将其100年来的“穷鬼超市”名声，做到远超海外门店的极致水平。9.9元就是奥乐齐的代名词，史上最佳折扣店奥乐齐当之无愧，中国人理解的10元店从未像奥乐齐这么受欢迎。</p>
+<p>5年时间忘不了初恋，但是足以让人不记得奥乐齐的当初模样。很多人可能已经忘了，5年来刚开出首店的奥乐齐，其实定位的是中产轻奢风格的社区超市。</p>
+<p>这家超市还有远超同行的超强自有品牌能力，一个500-800平米的小型社区超市，容纳着90%以上的自有品牌商品。或者说，就是有着近乎垄断占比的自有品牌，奥乐齐才敢玩转10元店的硬折扣价格力。</p>
+<p>这家超市的名声又是远超其服务覆盖力的反差存在。打开全网最佳大众消费口碑平台的小红书，里面存在的消费主义图文，奥乐齐与山姆一直占据着零售类品牌的极高比例。</p>
+<p>而这种名声大于服务覆盖力的反差，就是奥乐齐实体店进入中国5年了，至今还在上海区域开店。截至目前，已经开出62家门店。现在观察这家德国知名零售品牌的最大好奇点，只有一个问题：</p>
+<p><strong>什么时候走出上海？</strong></p>
+<h2><strong>奥乐齐的当前实力</strong></h2>
+<p>奥乐齐目前开出的62家店，基本遍布全上海，除了奉贤区和崇明区。熟悉上海的朋友都知道，这两个行政区在上海的商业布局方面，确实节奏滞后一些。</p>
+<p>不过，62家店并没有让上海随处可见奥乐齐。我们对比一个数据，上海最老牌的超市，也是市面上最容易见到的超市品牌，当属联华超市，目前在上海已有1200多家门店。</p>
+<p>要说全面覆盖上海区域，奥乐齐的门店数还远远不够。</p>
+<p>可是又从另一个角度去看，已经在嘉定区、金山区开店的奥乐齐，其实在不在上海区域，已经不重要了。10月19日奥乐齐金山店开业，这个1000平米的门店面积，都能成为最大传播点，足见奥乐齐的影响力。</p>
+<p>具体来说，能在嘉定和金山这两个临近江苏省、浙江省的区域开店，意味着奥乐齐的门店选址，以及背后的一整套供应链能力，已经完全具备去上海周边的昆山市、太仓市、吴江区、平湖市、嘉善县等地开店。</p>
+<p>一家超市品牌的跨区域扩张，需要满足四个条件：</p>
+<p><strong>第一，品牌力。</strong>这点对于奥乐齐来说，属于严重过剩。小红书上面，全国各地用户询问或呼吁奥乐齐前去当地开店的声音，从未间断。就连上海本地的小红书用户，也在表达奥乐齐前来开店的声音。</p>
+<p><strong>第二，供应链。</strong>这点对于拥有90%自有品牌占比的奥乐齐来说，能力完全成熟。供应链来自全国，供应链自然可以覆盖全国门店。毕竟单店拥有2000个单品的奥乐齐，不可能让1800个自有品牌单品的供应商，只来自一个省份。截至目前，来自江苏的9.9元浓香型白酒（此前来自四川省大邑县），江苏的家庭清洁用品，浙江的一次性家居用品，山东的进口葡萄酒，都是奥乐齐打出知名度的优质供应链基地。</p>
+<p><strong>第三，人力资源。</strong>这点对于奥乐齐来说，可能还在磨练成长期。截至目前，奥乐齐平均600平米的单店规模，大概需要20名员工，人均月薪在7000元左右。培养更多优秀的店长、门店现场烘焙师、选址开发人员等，不仅对于奥乐齐，对于任何零售企业，都不是可以停止的长期工程。</p>
+<p><strong>第四，成本打磨。</strong>这点对于奥乐齐来说，值得多说一些。上述提到，奥乐齐在2024年，反而在中国市场，将百年来磨合的“穷人超市”标签，打磨到了极致。但是，奥乐齐的门店选址，一点都不起穷人。截至目前，奥乐齐几乎所有的门店都在商场或购物中心商圈位置。其中一半还在一楼临街物业，另外一半在B1的地下一层。也就是说，奥乐齐的商品定价，看似定价到极致的“穷人”。但是奥乐齐开店的位置，目标吸引来的顾客，可不一定是穷人。</p>
+<p>有了上述四个条件的总结，我们就会发现，奥乐齐走出上海的命题，不是入华5年了都不走出上海，而是在2024年一年之内，就大幅度的修炼出接近走出上海的综合实力。</p>
+<h2><strong>奥乐齐的中国10年</strong></h2>
+<p>其实奥乐齐做事很“慢”。</p>
+<p>慢，甚至是德国人给全世界人营造的刻板印象。形容德国人做事，逻辑严谨、固执刻板、一丝不苟、沉默寡言……往往是外界容易想起的形容词。</p>
+<p>奥乐齐有多慢呢？</p>
+<p>2014年，Christoph Schwaiger作为奥乐齐中国区首任CEO，就开始考察国内40多个城市和零售同行。</p>
+<p>2017年，奥乐齐才开始通过天猫国际的跨境进口方式，测试国内市场的反应度。</p>
+<p>2019年，奥乐齐首次在上海静安和闵行两区，开出首店。</p>
+<p>2024年，其实是奥乐齐全面转型的第一个年份，就是转型开头叙述的9.9元、硬折扣、全面化自有品牌等标签。也就是说，<strong>过去4年的实体店经历，依然是奥乐齐中国业务的“实习期”。</strong></p>
+<p>这种慢，按照奥乐齐的说法，叫做<strong>“低风险扩张展店”</strong>。</p>
+<p>上海是中国第一大城市，据说这个城市的物价水平排在全球第四名。能让上海的市民感受到价格力，奥乐齐用的是自有品牌战略。但是价格力的背后，又不止是自有品牌。</p>
+<p><strong>转型自有品牌是第一步，实现了价格力的第二步，吸引的是顾客频繁来下单的第三步。</strong></p>
+<p>面对竞争十分激励，行业大趋势又被很多人认为处在低谷期的当前市场周期，价格力是创造顾客为什么来门店的过硬理由。</p>
+<p>然后，价格力背后的商品力，奥乐齐可并不只是为“穷人”准备的。比如，奥乐齐门店的烘焙品主打的依然是面包、蛋挞等西式烘焙。而非馒头、包子等中式面点。奥乐齐的鲜牛奶，卖的是明治牛奶，可不是伊利/蒙牛这种大路货，更不是河北/陕西等地的工厂品牌。</p>
+<p>如果奥乐齐是家汽车企业，奥乐齐就是一个售卖10万元的BBA品牌。（燃油车大降价的今天，德国BBA依然没有10万元以内的车型）</p>
+<p>总结来说，2024年的奥乐齐，用的是“穷人”的定价，吸引的是中产客群。并且，极力营造顾客多来付钱购物的场景感。</p>
+<p>我们知道，<strong>定价太低，意味着客单价很低。频繁下单，意味着用户活跃度很高。【低定价+高复购】，就是践行长期主义零售企业，在其早期阶段的务实战略定位。</strong></p>
+<p>就像外界看到拼多多在2024年之前的战略定位。</p>
+<p>一个优质的长期主义零售或电商企业，有效的成长周期，大概是：<strong>第一步追求高下单率，第二步追求高复购率，第三步追求高客单价，第四步追求高营收额，第五步追求稳定利润率。</strong></p>
+<p>拼多多追求的是下单率，体现了用户活跃度的高质量。阿里近年在成交额和营收额之间摇摆，反映出战略定位的犹豫不决。</p>
+<p>回到奥乐齐。综合上述观察，我们可以将2024年的奥乐齐，理解为摸索到成熟运营方法，以及战略聚焦清晰的奥乐齐第一年，而非已经在上海开店五年。或者说，此前4年，奥乐齐走了一些“弯路”。</p>
+<p>现在搞清楚了两点：奥乐齐的大战略是顾客活跃度指标，奥乐齐的自有品牌战略带来价格力。最后一点，奥乐齐的单店模型指标。</p>
+<p>单店年营业额约在2500万元，单店日商接近7万元。</p>
+<p>单店员工数在20人，年度工资成本约在170万元。</p>
+<p>单店平均营业面积在600平米，坪效处在行业前列位置。对比理解的是，国内一家营业面积6000平米的大门店，日商做到70万元是有较大困难的。</p>
+<p>一半的门店主要选在商场的一楼临街优质位置，承受上海这个全国最高商业地产成本考验。</p>
+<p>通过上述单店模型指标，奥乐齐大概处在了行业指标较为领先的位置，财务和运营指标走在了稳定期阶段。</p>
+<p><strong>从2014年的考察到2019年的首个实体店的开店，奥乐齐用了5年。</strong></p>
+<p><strong>从2019年的首店到2024年的三个战略目标清晰，奥乐齐用了5年。</strong></p>
+<p>2025年的奥乐齐走出上海，没有看到太多战略层面的准备不足。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ALmNOQlJYYsU68B3i9C1VA" rel="noopener noreferrer nofollow" target="_blank">“品智PLSC”</a>，作者：万德乾，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055762681577217</guid><pubDate>Thu, 28 Nov 2024 18:05:00 +0800</pubDate></item><item><title>企业家演短剧 ，周鸿祎第一人</title><link>https://36kr.com/p/3055833703911812</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,628" src="https://img.36krcdn.com/hsossms/20241128/v2_0ea3c8e707a34646abba791a61465c35@46958_oswg568743oswg1080oswg628_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当现实中的Boss，真的出演了“霸道总裁”扎堆的短剧，会发生什么反应？</p>
+<p>现在周鸿祎就成了“首个吃螃蟹的人”。</p>
+<p>此前在乌镇互联网大会上，周鸿祎随口提到不爱看综艺，但喜欢看“霸总短剧”。没想到这一言论被媒体误解为他沉迷短剧，实际上他只看过一部名为《50岁保姆爱上20岁霸道总裁》的短剧，而且还没看完。</p>
+<p class="image-wrapper"><img data-img-size-val="1079,1220" src="https://img.36krcdn.com/hsossms/20241128/v2_5bae12bcff1d48dea9b8f6b750652b2e@46958_oswg91688oswg1079oswg1220_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不过，倒是这个“误会”激发了他公司市场部的创意，决定策划一部短剧并邀请周鸿祎出演。按照周鸿祎的说法，自己不太想演，担心丑化自己，“你说我在短剧中演什么角色，我肯定演不了二十来岁的霸道总裁了，让我演50岁保洁阿姨？我的胡子拉碴效果也不太对。”</p>
+<p>不过，嘴上虽然说不要，但身体还是很诚实。演不了霸道总裁，但周鸿祎对短剧还是很感兴趣的，而且还真出演了。他还提前勾起网友好奇心，“这是我人生第一次拍短剧，大家觉得老周应该扮演什么角色?本色出演，扮演一网络安全专家?扮演一个爱国黑客头子?”</p>
+<p>11月27日，在360新品发布会上，周鸿祎抢先播出了这部短剧，让外界看到了一个从没见过的周鸿祎。而在企业家出演短剧背后，究竟有哪些阳谋？</p>
+<h2><strong>老周出演365公司的老周</strong></h2>
+<p>周鸿祎出演的这部短剧名叫《重燃人生之隐世黑客惊艳全球》，光是名字就流露出浓浓的“短剧风”。整个剧的节奏和配乐，也是典型的短剧风格。</p>
+<p>片子主题围绕的是霸总父子与女保洁的爱情故事和AI创业故事，剧情也较为浮夸。比如，儿子想搞AI创业，父亲却不看好，公司的保洁阿姨每天帮儿子解决BUG，项目终于研发成功，而儿子也对保洁产生感情，但被保洁拒绝，声称“我还曾拒绝过山姆奥特曼的求婚”，原来保洁也想搞AI创业。</p>
+<p class="image-wrapper"><img data-img-size-val="540,586" src="https://img.36krcdn.com/hsossms/20241128/v2_b07c2b1428994d92ae8d497640d4298b@46958_oswg320216oswg540oswg586_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>新品发布会上，父亲突然跟保洁表白，原来保洁是父亲的高中同学，还是初恋。最后，儿子和保洁获得“红帽黑客联盟”的老大、365公司老周投资的1000亿。</p>
+<p class="image-wrapper"><img data-img-size-val="828,898" src="https://img.36krcdn.com/hsossms/20241128/v2_9b4e4219382048e08f66aff0b4deaaab@46958_oswg42989oswg828oswg898_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这个老周就是周鸿祎扮演的，他在一个黑屋子里穿着连帽衫，坐在电脑面前，露出半边脸。有网友笑称，周鸿祎在表演中再现了向佐的经典动作——摸鼻梁、扇耳光，调侃“周鸿祎首部短剧走进向佐赛道”。</p>
+<p>此前，周鸿祎为这部短剧预热的时候称，“还准备拉几个企业家朋友来客串，让他们扮演霸道总裁，爱上50岁保洁，你们觉得谁适合扮演这个角色呢。”从这次发布的短剧中，的确可以看到不少商界的熟面孔：李国庆、孙宇晨、贾跃亭.......</p>
+<p>总体上看，这部微短剧并没有很明显的特色，最大的噱头就是周鸿祎本人了。</p>
+<p>其实，在周鸿祎之前，就有不少企业家出演短视频或者微电影。</p>
+<p>2012年，搜狐出品的情景喜剧《屌丝男士》，可以说就是最早的短剧之一，每集时长约15分钟，每一集里面又是由一个个短小的故事组成的。那时候抖音、快手等短视频平台还没兴起，这部剧依然在很多观众中拥有非常高的人气。当时，搜狐CEO张朝阳也在这部剧中客串了不少角色。</p>
+<p>2017年，马云拍了一部时长为22分钟的微电影《功守道》，上线两天在优酷播放量就超过1亿。片中马云扮演了一名武功高手，李连杰、甄子丹、吴京等功夫明星在剧中全成了他的手下败将，被网友调侃为拥有“钞能力”。</p>
+<p>今年7月，雷军在微博上发布视频《雷军问网友》第二弹：“想问问大家，平常看爽文和短剧吗？你为啥喜欢看?”雷军还在视频中反复解释自己不是什么爽文男主，很多传言都是假的。</p>
+<p>今年以来，网上流传着“雷军是爽文男主”的说法，称他高考700分，状元，在最失意的时候卡里只有冰冷的40亿。后来雷军反复辟谣，自己其实跟大家一样来自农村，靠勤奋努力一步一步走到今天。然而，无论他怎么辟谣，关于他的爽文传言总是停不下来。</p>
+<p>虽然否认自己是爽文男主，但雷军自称看短剧看得挺上头：“好像打开了一个新世界，比爽文节奏更快、更刺激。”</p>
+<p>其实，雷军不仅看过短剧，还演过微电影。2015年，雷军跟黄晓明一起拍过微电影《风口》。片中，黄晓明和雷军以致敬《教父》的开场展开神秘对话。雷军扮演马龙白兰度版的教父，一身霸道总裁的装扮，大背头、小胡子、黑西装，胸口带着一朵红色玫瑰。</p>
+<p>雷军表示，演戏让他感到十分刺激，因为需要展现每一个细节。</p>
+<p>越来越多的企业家，愿意去演短剧或者短视频，这背后反映何种趋势？</p>
+<h2><strong>看短剧的人，比点外卖还多了</strong></h2>
+<p>事实上，企业家在短剧中扮演角色，大部分都是为了宣传个人IP或者植入品牌。</p>
+<p>11月26日，周鸿祎在微博中发文称，自己很早以前就呼吁企业家要打造个人IP，而且一定要亲自下场。他还表示，很多人嘲笑他不务正业当网红，其实他根本不是要当网红，而是要做流量。德鲁克说过企业家两大使命，一个是做出比较牛掰的产品，第二是让消费者知道，这样产品才能卖出去。</p>
+<p>周鸿祎还拿自家业务举例，成自己这一年做IP积累了千万粉丝，推广360AI搜索的效果很好。因为现在大家都已经不信广告了，投广告远不如企业家自己的流量转换效果好。这次他拍短剧，也是为了给自家的AI产品造势。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1439" src="https://img.36krcdn.com/hsossms/20241128/v2_6beb2df142d640a3bdec64a33c74e8a7@46958_oswg71149oswg1080oswg1439_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">周鸿祎短剧中的“纳米搜索” ，正是360发布会发布的新产品 </p>
+<p>事实上，企业家做IP的确有很多优势。 </p>
+<p>比如，凭借自身的名气提升用户对品牌和产品的认可度，相当于节省了一笔广告费，同时在危机公关中能主动快速发声，减弱负面影响。长期来看，企业家IP能建立品牌信任，传播企业文化和价值观，吸引人才、资本和市场关注。</p>
+<p>一个最典型的例子就是马斯克。为什么马斯克说特斯拉从不做营销，那是因为他本人就是特斯拉最大的广告。</p>
+<p>那么，为什么短剧有利于宣传企业家个人IP和进行品牌植入？</p>
+<p>首先自然是短剧用户规模庞大，宣传效果好。中国网络视听协会不久前发布的《中国微短剧行业发展白皮书（2024）》显示：截至2024年6月，我国微短剧用户规模已达5.76亿人，占整体网民的52.4%，超过网络外卖、网络文学和网约车用户数量。</p>
+<p>说白了，<strong>看微短剧的人，比点外卖的人还多。</strong></p>
+<p>其次，观看短剧的用户不仅规模大，而且频次高、黏性足。数据显示，<strong>短剧用户的平均观看频次由去年同期的每周3次提升至现在的每天至少1次</strong>，甚至有部分用户每天观看多部短剧，形成了稳定的观看习惯。这也让企业家IP和自家产品在短剧用户面前，容易形成更高频的曝光，形成更深度的认知，进而促成转化。</p>
+<p>比如，公开信息显示，美妆品牌肌肤未来的品牌短剧《爱你像心跳难触摸》上线3天抖音话题度破10亿，品牌人群资产数据回流1个亿。上线第7天，全网话题度破12亿，充值金额直奔1500万。</p>
+<p class="image-wrapper"><img data-img-size-val="546,829" src="https://img.36krcdn.com/hsossms/20241128/v2_6d164b76583841d9bf41c83563bb7f08@46958_oswg874361oswg546oswg829_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>999小儿感冒药冠名赞助的品牌短剧《失忆后我的人生被偷走了》上线仅一周，总播放量2300W+，累计新增A3数（深层交互人群数量）高达320W。</p>
+<p>另外，短剧对于企业家的一个重要吸引力就是门槛较低。很多企业家并不是专业演员，对表演不是很有信心，而短剧的时长较短，制作要求相对较低，降低了企业家参与其中的门槛。</p>
+<p>虽然包括周鸿祎在内的一些企业家愿意出演短剧，但能否收获成果仍然有隐忧，最大的不确定性就是监管和内容。</p>
+<h2><strong>企业家入局短剧要谨慎</strong></h2>
+<p>11月22日，广电总局网络视听司发布了针对“霸总”微短剧的管理提示。</p>
+<p>其中提到，以企业家群体作为故事主角的微短剧数量不断攀升。这些剧被贴上“霸总”标签持续霸榜，受到大量网民喜欢。吸引网民的点在于代表成功、权力、财富的‘霸道总裁’角色设定，以及“爱上我”的浪漫剧情设定。</p>
+<p>然而，为了利益最大化，不少短剧机构争相制作严重脱离生活的情节，变得过于娱乐化，传播畸形的价值观，产生了负面的社会影响。因此，广电总局出手整治霸总微短剧，要求微短剧坚持现实主义原则创作表现企业家群体，以他们的实际生活为素材，并进行价值提炼和审美升华，不以“霸总”之类的字眼吸睛引流。</p>
+<p>也就是说，企业家如果出演短剧中的霸道总裁，不能再随意杜撰企业家形象，一旦过于娱乐化就会碰到监管红线，很容易反噬自己。周鸿祎在发布会上也坦言，本能以为赶上风口，结果差点撞上枪口。</p>
+<p>即便没有霸道总裁的剧情，企业家拍摄其他类型的内容也需要非常谨慎。</p>
+<p>《南方周末》曾评价，市面上很大一部分微短剧，带有浓烈的 " 三俗 " 特征：庸俗、低俗、媚俗。由于创作和制作门槛比较低，很多微短剧显得很俗套，甚至涉嫌色情、暴力、不良价值观等违规内容。抖音、快手等短视频平台，已经先后公布了微短剧治理公告。</p>
+<p>周鸿祎也说过，最近拍这部短剧是临时凑的草台班子，情节也是抄袭的，剧本只花了两个小时。可见，品质不会高到哪里去。</p>
+<p>对于那些也想涌入短剧的企业家来说，固然可以进入一片全新的土壤收获红利，但在内容制作上一定要审慎。要以现实主义、正向价值观为导向，否则很可能反而损害自身形象。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/E0kYYyOJv6zuYcOHIM2eWg" rel="noopener noreferrer nofollow" target="_blank">“价值星球Planet”</a>，作者：竹铭，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055833703911812</guid><pubDate>Thu, 28 Nov 2024 18:09:00 +0800</pubDate></item><item><title>出海速递｜小马智行美国敲钟上市/我去华强北走了一圈，发现这里正被另一种AI包围</title><link>https://36kr.com/p/3055851457106048</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>访问36氪出海网站</strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1965,846" src="https://img.36krcdn.com/hsossms/20241125/v2_40b05b64d3784bd181553d5a2af14b58@11918142_oswg186017oswg1965oswg846_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
+<h2>今日好文</h2>
+<h3><a href="https://letschuhai.com/281abc04?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>小马智行融资故事：寒冬里的白日梦想</strong></a></h3>
+<p>大考将至。</p>
+<h3><a href="https://letschuhai.com/1d36d35a?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>离特朗普上台还有54天，这3个地方能不能成为出海老板的避风港？</strong></a></h3>
+<p>这一场风暴，能避开多久？</p>
+<h3><a href="https://letschuhai.com/4044f7ca?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>史上最长一届黑五，大流量藏在视野外？出海商家齐呼“保住 ROI”</strong></a></h3>
+<p>“旺季不旺”的抱怨今年似乎有所减少，或许是找到了新突破点，又或许是心态和预期的调整。</p>
+<h3><a href="https://letschuhai.com/807b168b?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>中国餐饮出海百年：风高浪急</strong></a></h3>
+<p>一浪更比一浪高。</p>
+<h3><a href="https://letschuhai.com/f76fb3ec?utm_source=36kr&amp;poster" rel="noopener noreferrer nofollow" target="_blank"><strong>我去华强北走了一圈，发现这里正被另一种 AI 包围</strong></a></h3>
+<p>华强北的硬件们，等待更多的 AI。</p>
+<h2>热点快讯</h2>
+<h3><strong>小马智行纳斯达克挂牌</strong></h3>
+<p>美东时间11月27日，小马智行正式在纳斯达克挂牌，股票代码“PONY”，成为 Robotaxi 第一股。在扩大发行规模后，若承销商的超额配售权悉数行使，小马智行将以每股13美元的发行区间价上限发行总计2300万股 ADS（美国存托股票），融资额可达2.99亿美元，成为今年以来美股自动驾驶领域最大规模的 IPO。加之此次通过同步私募配售价值约1.534亿美元的普通股，小马智行本次 IPO 总募资金额可达约4.52亿美元。（财新网）</p>
+<h3><strong>阿里巴巴旗下钉钉平台宣布登陆香港</strong></h3>
+<p>11月28日，阿里巴巴集团旗下协作平台钉钉宣布正式登陆香港，在香港设立服务团队。（界面新闻）</p>
+<h3><strong>对战 OpenAI，马斯克的 xAI 据称下月将推出独立应用程序</strong></h3>
+<p>据消息称，xAI 即将推出一款与 OpenAI 的 ChatGPT 类似的聊天机器人应用程序，最快可能将在下个月就面市。这也被视为 xAI 与 OpenAI 正面对打的一个新信号。xAI 已经筹集了至少110亿美元，估值超过500亿美元，成为硅谷数一数二的人工智能新贵。马斯克承诺该公司将践行帮助加速人类科学发现的使命，业内则估计该公司今年年收入有望超过1亿美元。（财联社）</p>
+<h3><strong>小马智行 CEO 彭军称与北汽、广汽达成量产无人驾驶出租车的协议</strong></h3>
+<p>小马智行 CEO 彭军称与北汽、广汽达成量产无人驾驶出租车的协议。（财联社）</p>
+<h3><strong>零跑在缅甸建立组装线，拓展东南亚市场</strong></h3>
+<p>零跑汽车2日对外宣布，与缅甸 NPK MOTOR 公司签署 KD 项目战略合作协议，将在缅甸建立组装线。这意味着零跑汽车国际化战略进一步落地，将拓展缅甸及东南亚地区的市场。据悉，NPK MOTOR 公司是当地新能源销量最高的汽车经销商。（界面新闻）</p>
+<h3><strong>中国主权债券在纳斯达克迪拜摇铃上市</strong></h3>
+<p>当地时间11月27日，中国首笔在中东发行的主权债券在纳斯达克迪拜交易所摇铃上市。（CCTV 国际时讯） </p>
+<h3><strong>印尼招聘平台 Kupu 与中国 AI 平台 Blurr.AI 达成战略合作</strong></h3>
+<p>印度尼西亚招聘平台 Kupu 与中国 AI 应用平台 Blurr.AI 达成战略合作。双方将共同携手推动大语言模型等 AI 技术在招聘领域的应用。目前，Kupu 活跃用户规模已超过300万。（36氪）</p>
+<h3><strong>安领科生物完成4200万美元 A 轮融资</strong></h3>
+<p>据高榕创投官微，“安领科生物”宣布完成4200万美元 A 轮融资。本轮融资由蓝驰创投领投，元生创投、君联资本、建发新兴投资跟投，同时获得老股东高榕创投和幂方健康基金的追加投资。本轮融资将助力加速安领科生物的全球化布局，包括推进其核心管线 ALK201 和 ALK202 在澳大利亚、美国和中国的 I 期临床研究，并积极拓展肿瘤和免疫领域的研发管线，持续优化其自主研发的双特异性抗体和 ADC 技术平台。（36氪）</p>
+<h3><strong>亚马逊开发视频人工智能模型，以对冲其对 Anthropic 的依赖</strong></h3>
+<p>据 The Information，亚马逊开发视频人工智能模型，以对冲其对 Anthropic 的依赖。（财联社）</p>
+<h3><strong>助力企业保护海外商标，新能源车领域知产保护“中国方案”发布</strong></h3>
+<p>11月27日，中国贸促会发布了《中国新能源汽车海外商标注册和保护研究报告》，帮助我国企业更好评估和制定海外商标保护策略，提升品牌国际竞争力和影响力。《报告》指出，中国已建成涵盖基础芯片、传感器、计算平台等在内的完整产业体系，智能网联汽车产业发展驶入快车道，目前许多中国汽车品牌已快速完成初步全球商标布局，但在对他人的商标进行监控防止抢注、前沿产品/服务的前瞻性布局、海外商标纠纷应对等方面仍然有改进的空间。（界面新闻）</p>
+<h3><strong>速卖通：到今年11月初，常熟服装企业在速卖通销售额已超3亿元</strong></h3>
+<p>阿里巴巴全球速卖通（常熟）跨境电商产业园中，今年双11黑五大促待发货的商品已堆满整整一条街。据了解，到今年11月初，常熟服装企业在速卖通销售额已超3亿元。今年双11前，速卖通在全国多个跨境工厂聚集地举办了招商会，明确了“双轨驱动”模式，即商家可以根据品类特点，选择自运营（POP 模式）或者全托管模式，降低商家运营门槛。同时，双11前速卖通还对售后政策进行了一系列的优化调整。（36氪）</p>
+<h3><strong>日本内阁拟将批准920亿美元额外预算，为首相石破茂的刺激计划提供资金</strong></h3>
+<p>据 NHK，日本内阁拟将批准13.9万亿日元（920亿美元）的额外预算，以为首相石破茂的刺激计划提供资金。额外预算的部分资金来自3.8万亿日元高于预期的税收收入、前一年的盈余以及额外发行价值约6.6万亿日元的债券。（财联社）</p>
+<h2><strong>热门活动</strong></h2>
+<h3><a href="https://letschuhai.com/0da2efb9" rel="noopener noreferrer nofollow" target="_blank">中东｜“热土”中东，留给了中小企业哪些机会？</a></h3>
+<p>中东国家为迎接更多外资中小企业，已经开始准备“牌桌”。直播 MCN、轻量手游、留学教育、小商品贸易、海外仓……诸多细分赛道的中小企业，该如何抓住机会，快速上桌？<strong>阿治曼自由区（Ajman Free Zone）往往是电商、泛娱乐、小商品贸易等中小企业进入中东市场的首选。</strong>最低5555迪拉姆的注册成本，1-3个工作日的注册时间，帮助中小企业便捷、高效地启动本地化！<strong>填写表单，进一步了解阿治曼自由区。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="2680,1306" src="https://img.36krcdn.com/hsossms/20241121/v2_5f125f4498c04e3e87fb85b4984e9233@5490952_oswg459196oswg2680oswg1306_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><a href="https://letschuhai.com/d565075e" rel="noopener noreferrer nofollow" target="_blank">活动｜<strong>把握良机！北京-沙特医药健康产业洽谈会即将召开</strong></a></h3>
+<p>为了助力医药健康企业把握沙特市场机遇，<strong>北京市贸促会、北京国际商会、沙特商工总会拟于12月4日（星期三）在北京市朝阳区共同举办“北京-沙特医药健康产业洽谈会”。沙特卫生部的高级官员、沙特医疗健康企业高层代表将出席本次洽谈会。如果您从业于中国医疗健康领域，并在企业中担任相关职能部门负责人、高层管理人员等职位，欢迎您扫描下方二维码，报名参与本次活动。</strong>最终参会以北京市贸促会审核逐一通知为准。</p>
+<p class="image-wrapper"><img data-img-size-val="3750,1592" src="https://img.36krcdn.com/hsossms/20241121/v2_743f3dcf5242431e8070cb2b6cc45118@11918142_oswg2694728oswg3750oswg1592_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1"/></p>
+<h3></h3>
+<h3><a href="https://letschuhai.com/e02acd9f" rel="noopener noreferrer nofollow">活动｜寻求全球增长：海外市场的精准获客与持续服务</a></h3>
+<p>36氪出海将于12月5日在北京举办主题交流活动，共同探讨企业在海外获客与留存的可持续增长策略。此次活动特邀嘉宾包括飞书深诺集团 APP 行业总监兼 CSM 负责人赵其蕙以及 《客户成功》作者、SaaS 行业资深专家刘徽，他们将分别以 ToC 和 ToB 的视角，基于丰富的海外增长获客与企业服务经验，分享对出海企业极具借鉴价值的可持续增长策略与实践经验。如果您关注出海企业的可持续增长，希望深入探讨如何在海外有效进行获客与留存，欢迎您扫描下方二维码填写表单，报名参加本次活动。活动报名将于12月4日中午12:00截止。</p>
+<img data-img-size-val="7860,3836" src="https://img.36krcdn.com/hsossms/20241128/v2_cdebc1314c3a4358976b38487a4ce44b@5490952_oswg2006578oswg7860oswg3836_img_000?x-oss-process=image/format,jpg/interlace,1"/>
+<h3><strong>加入36氪出海学习交流群</strong></h3>
+<p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
+<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055851457106048</guid><pubDate>Thu, 28 Nov 2024 18:19:00 +0800</pubDate></item></channel></rss>
