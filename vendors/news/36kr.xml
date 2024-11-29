@@ -1,21 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 29 Nov 2024 16:00:31 +0800</lastBuildDate><pubDate>Fri, 29 Nov 2024 16:00:31 +0800</pubDate><item><title>搭建数推分离双网络架构，「双脑」大模型一体机突破落地算力瓶颈｜早期项目</title><link>https://36kr.com/p/3055984017281153</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>作者｜黄楠</p>
-<p>编辑｜袁斯来</p>
-<p>在大模型技术浪潮中，Scaling Law被业界遵循为第一性原理，直至科技媒体The Information在独家报道中指出，OpenAI下一代旗舰模型Orion的训练效果或远不及预期：与GPT-4相比，性能提升也许微乎其微。这引发了从业者对大模型发展路径的深度思考：Scaling Law是否是唯一方向？</p>
-<p>长期以来，基于Scaling Law的大模型落地存在重大瓶颈，厂商为提升模型能力，持续扩大预训练数据、训练算力并扩大模型参数规模，不仅成本高；同时，算法同质化也会导致数据规模和训练算力的同质化，最终造成输出能力的趋同。另一侧，大模型能否有效学习客户数据并成为领域专家，也是一大挑战。</p>
-<p>当前，单一依赖Scaling Law进行集中式暴力训练已显露诸多弊端。大模型的“智能”并非仅受参数规模决定，大模型如何在实际场景中发挥作用，才是企业客户关注的焦点。要打破模型到应用落地之间的高墙，硬氪近日接触到的「传神物联网」提出，集中式预训练模式值得重新审视，实时学习和训练模式更具探索价值。</p>
-<p>「传神物联网」董事长何恩培指出，大模型在相同参数下，模型算法和架构更先进，所需训练算力越小，训练数据也越少，不仅不影响模型的能力，甚至在部分指标上可超越常规架构大参数的模型。“相比之下，这种采用高效算法和架构的小参数模型更适合商业落地，而且也可以满足通用场景的需求。”</p>
-<p class="image-wrapper"><img data-img-size-val="1000,667" src="https://img.36krcdn.com/hsossms/20241128/v2_33033d8a59da48be92357968be8d29ef@6022551_oswg187016oswg1000oswg667_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
-<p class="img-desc">传神创始人何恩培就《基于双网络架构数推分离大模型的探索与实践》发表主题演讲</p>
-<p>基于这一理念，「传神物联网」在其发布的任度大模型，采用了全技术栈自主研发、未使用任何开源代码和框架的双网络架构，将推理网络与数据学习网络分离。</p>
-<p>其中，客户数据学习网络如同人类左脑，专注于数据的动态管理与迭代训练，持续为模型注入知识养分；推理网络则如同人类右脑，作为经大量数据预训练的基础网络，具备不错的推理和泛化能力。</p>
-<p>这种双网络协同工作的设计，可有效降低训练的算力成本，避免微调导致的基座模型能力退化和泛化能力减弱等问题。同时，数据学习网络还可以学习企业的历史数据，并实时学习业务运营产生的新数据，两个网络联合工作，输出客户所需成果。</p>
-<p>测试显示，任度大模型基于数推分离技术，突破了常规大模型技术架构限制，上下文输入长度不受限，可将亿量级用户数据压缩至神经网络中，并进行深度知识理解，极为接近 “实时” 数据学习模式。即使是极少量数据更新，也能快速上传并完成数据压缩，迭代为企业自己的定制化大模型。</p>
-<p>任度大模型共有2.1B和9B两个版本，在降低算力成本方面，其训练与推理时的算力成本分别为同等大模型的10%-20%以及25%-50%。</p>
-<p>硬氪了解到，目前「传神物联网」已将双网络架构的数推分离大模型应用至任度“双脑”大模型一体机，即将投放市场。该一体机基于数推分离的双脑模式，可以解决客户数据离场训练、向量效果有限及人才投入高等痛点，实现更新数据的本地实时学习，并快速转化为“企业知识专家”。</p>
-<p>针对客户数据安全和私有化问题，任度“双脑”大模型一体机可采用本地部署及训练，无需上传至公有云，保障了数据隐私安全。同时，其根原创和高性参比的特性，可在一定程度上解决客户应用大模型过程中的高硬件投入、高能耗及技术安全和软件漏洞等痛点。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055984017281153</guid><pubDate>Fri, 29 Nov 2024 14:30:00 +0800</pubDate></item><item><title>像素绽放 PixelBloom（AiPPT.com）CEO 赵充：未来所有应用都值得用AI重做 | WISE 2024 商业之王</title><link>https://36kr.com/p/3055956722176386</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 29 Nov 2024 16:30:26 +0800</lastBuildDate><pubDate>Fri, 29 Nov 2024 16:30:26 +0800</pubDate><item><title>像素绽放 PixelBloom（AiPPT.com）CEO 赵充：未来所有应用都值得用AI重做 | WISE 2024 商业之王</title><link>https://36kr.com/p/3055956722176386</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>环境持续变化，时代总在迭变，“商业之王”们紧随时代浪潮，坚持创造，谋求新动能。立足中国经济大转型的当下，WISE2024 商业之王大会，一同发现真正有韧性的“商业之王”，探寻中国商业浪潮里“正确的事”。</p>
 <p>11月28-29日，为期两日的36氪WISE2024 商业之王大会于北京隆重召开，作为中国商业领域的全明星盛典，WISE大会今年已经是第十二届，在不断变化的时代里见证着中国商业的韧性与潜力。</p>
 <p>2024，是有些模糊且变化多于稳定的一年。相比过去十年，大家的脚步正放缓，发展更加理性。2024，也是寻求新的经济动力的一年，新的产业变化对每个主体的适应性提出了更高的要求。今年WISE大会以Hard But Right Thing（正确的事）为主题，在2024，什么是正确的事，成为我们更想交流的话题。</p>
@@ -491,4 +475,113 @@
 <p>届时，20家入围总决赛的企业将展开激烈角逐，冠军花落谁家值得期待！同时现场也将有俄罗斯工程院院士李伟等行业专家及大咖嘉宾莅临现场，他们来自科技领域的最前沿，携带着丰富的经验和独到的见解。同时，临平区政府也将出席，他们将带来算力政策的最新动态与行业的未来规划，为参赛者提供宝贵的指导与启示。此外，梅花创投、泥藕资本、金沙江联合资本等众多投资机构代表也将齐聚一堂，他们不仅关注项目的商业价值，更看重其创新性和对未来的影响力。</p>
 <p>值得一提的是，活动现场还会有重磅分享活动。首先，是关于算力行业创新方向与投资产业方向的主题分享。在这一环节，行业专家和投资人将围绕算力行业的最新发展趋势、创新热点以及投资前景进行深入剖析，为参赛者和嘉宾们提供宝贵的行业洞察和投资建议。其次，是关于算力技术方向的圆桌会议，通过36氪行业分析师杨晰、阿里云智能集团通义灵码产品负责人张燎原、极睿科技创始人&amp;CEO武彬、中科深智创始人&amp;CEO成维忠、杭州灵伴科技副总裁黄兆霖各个角度的观点激烈碰撞，共同探索算力的无限可能。</p>
 <p>可以说，“算力小镇杯”Create@算力应用创新大赛决赛不仅是一场技术的较量、创新的展示，更是一次智慧与创新的盛宴、行业未来的展望。在这里，我们期待着每一位参赛者都能充分展示自己的才华和实力，期待着每一位嘉宾都能贡献自己的智慧和力量，共同推动算力应用行业的蓬勃发展，开创更加美好的未来。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3056299318448517</guid><pubDate>Fri, 29 Nov 2024 15:50:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3056299318448517</guid><pubDate>Fri, 29 Nov 2024 15:50:00 +0800</pubDate></item><item><title>解释器模型首创，Tilde打破提示工程局限，让AI推理更精准</title><link>https://36kr.com/p/3057112577544329</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1071,414" src="https://img.36krcdn.com/hsossms/20241129/v2_7e14d069e1c046879262a374b07f23b1@46958_oswg143275oswg1071oswg414_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
+<p><strong>【导读】</strong>一家总部位于美国加州的初创公司Tilde，正在构建解释器模型，解读模型的推理过程，并通过引导采样动态调整生成策略，提升大语言模型的推理能力和生成精度。相比直接优化提示的提示工程，这一方法展现出更灵活高效的潜力，有望重塑AI交互方式。</p>
+<p>可解释性是人工智能领域中的一个核心挑战，也是一个备受关注的问题。随着AI模型（尤其是深度学习模型）的规模和复杂性不断增长，模型内部的计算过程变得越来越难以理解。</p>
+<p>但一直以来，模型的可解释性好像不如模型的性能那般受重视，往往不是新产品发布的宣传重点。 </p>
+<p>而最近，一个总部位于美国加州的AI初创Tilde宣布成立，专为模型可解释性而生。 </p>
+<p class="image-wrapper"><img data-img-size-val="885,451" src="https://img.36krcdn.com/hsossms/20241129/v2_344408af860f4cff907636aef40f2985@46958_oswg84952oswg885oswg451_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>他们正在构建解释器模型和控制技术，以解锁模型的深层推理和指令能力，从而实现新一代的人机交互。 </p>
+<p>当今AI的交互依赖于黑箱提示，这种方式本质上有损信息。试想在没有源代码的情况下优化一个软件系统——不仅低效，而且极度受限。 </p>
+<p>Tilde希望通过应用可解释性超越这些限制：他们正在构建解决方案，使人们能够直观地看见模型的内部工作机制，以直接引导模型行为并提升性能，超越传统的后训练方法或微调方法的潜能。 </p>
+<p>目前，基于已有的开源大语言模型、文生视频模型，他们的解释器模型已经实现了大语言模型的推理能力改进，并在文本生成视频模型中实现了更精细的生成控制。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,237" src="https://img.36krcdn.com/hsossms/20241129/v2_da6c92fc275d42cc9bb773351b53b9ec@46958_oswg86532oswg1080oswg237_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>解释器模型运用案例 </strong></h2>
+<p>关于大语言模型推理能力的优化，视频中提到了一个案例，让Llama 3.1 8B尝试解答一个可以通过巧妙数学技巧解决的脑筋急转弯： </p>
+<blockquote>
+<p>从点（0,0）到点（6,4）的网格上，若只能向右或向上移动，有多少条最短路径不经过点（2,3）？ </p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="838,502" src="https://img.36krcdn.com/hsossms/20241129/v2_0a26be1d0e0747d1a7a791baff8fb635@46958_oswg119688oswg838oswg502_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>问题输入后，Llama 3.1 8B输出了一个错误的答案。 </p>
+<p class="image-wrapper"><img data-img-size-val="720,405" src="https://img.36krcdn.com/hsossms/20241129/v2_2e7177683a5747a69b22b605da2e25d7@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>接着，案例演示引入了Tilde的干预，补充了指令：「确保模型应用强大的组合推理！」 </p>
+<p>在此之后，模型正确解答了这个脑筋急转弯。 </p>
+<p class="image-wrapper"><img data-img-size-val="720,405" src="https://img.36krcdn.com/hsossms/20241129/v2_2d8b639951264fa28ae14fa883b84210@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而至于文本生成视频模型更精细的生成控制，视频给到的案例中，向Genmo的mochi 1输入了指令： </p>
+<blockquote>
+<p>一只猫从山顶的彩虹滑梯上滑下来，天上有湛蓝的天空和蓬松的云朵。 </p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="720,405" src="https://img.36krcdn.com/hsossms/20241129/v2_932ae357c91d47958e811626527bd8c4@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>接着，案例演示引入了Tilde的干预，补充了指令：「确保有山！」 </p>
+<p class="image-wrapper"><img data-img-size-val="720,405" src="https://img.36krcdn.com/hsossms/20241129/v2_5df4bae37ce74837bcd1a2742e74e7fa@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>我们可以注意到加入Tilde干预后的准确性和遵循用户偏好的提升。可以看到三个优化后的图像中：第一张更注重于山间风景的加强；第二、三张的区别不太大，第三张的坡形相对更明显一些。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,374" src="https://img.36krcdn.com/hsossms/20241129/v2_e53b95207ac44011a95d5b428b3735ba@46958_oswg278994oswg1080oswg374_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>网友讨论</strong></h3>
+<p>看到这里，有网友不禁提问：这和提示工程有什么区别？ </p>
+<p>谷歌DeepMind高级研究科学家Neel Nanda就提到：「关于组合数学问题的例子，如果你在提示的末尾添加『请使用强大的组合推理』（please use strong combinatorial reasoning），会发生什么？」 </p>
+<p class="image-wrapper"><img data-img-size-val="891,238" src="https://img.36krcdn.com/hsossms/20241129/v2_82ccbf48656a4455b02c6a6860afde09@46958_oswg54946oswg891oswg238_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>前OpenAI研究员Neil Chowdhury回复道：「我在Llama-3.1 8B-Instruct（默认的Hugging Face采样参数）上尝试了这个方法，它解决了问题——不过当然，我希望能看到更深入的分析 :) 」 </p>
+<p class="image-wrapper"><img data-img-size-val="870,201" src="https://img.36krcdn.com/hsossms/20241129/v2_4858e82f16b043a3b5d3db515daf0185@46958_oswg55929oswg870oswg201_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Neel Nanda还艾特了Tilde的X账号，表示很想看到他们的工具和提示工程（prompt modification）基准方法进行合理的比较。 </p>
+<p class="image-wrapper"><img data-img-size-val="880,204" src="https://img.36krcdn.com/hsossms/20241129/v2_1ad8cdd2501c440e82c3f6a459b1a36c@46958_oswg51123oswg880oswg204_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Tilde的创始人之一Dhruv Pai对此进行了回复—— </p>
+<p>Neel（以及Neil），谢谢你们的想法，提出了好问题！ </p>
+<p>简而言之： 上面包含一个脚本，展示了我们使用的基础和系统提示，但在末尾添加「请使用强大的组合推理」并没有奏效（无论是使用Hugging Face还是我们自己的服务库）。 </p>
+<p>稍微展开说明一下： 基础提示要求模型生成一个便于演示的结构化输出（否则生成内容会太长），而且在温度为0的情况下总是出错（也可能对更复杂或更简单的提示能成功，但未测试）。 </p>
+<p>我们的结论并不是「哦，现在我们可以让Llama-3.1解决无法解决的问题」，而是「在一个相对普通的提示下，我们可以让它正确回答一些本来可能会失败的问题」。 </p>
+<p>这对我们来说很有趣，因为我们第一次看到时，被这种引导采样（Steering Sampling）的多样性和质量（有点类似于非常智能的大型语言模型）惊艳到了。 </p>
+<p>有趣的一点： 虽然引导可以让它解决更难的问题（例如MMLU专业问题集的题目），但我们认为在演示中这种「更难的问题」没有「我们展示的更简单的问题」表现得那么直观。 🙂 </p>
+<p class="image-wrapper"><img data-img-size-val="873,891" src="https://img.36krcdn.com/hsossms/20241129/v2_db1f331ddb884e5eb6f641d3b064cee0@46958_oswg233822oswg873oswg891_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>引导采样 VS 提示工程</strong></h3>
+<p>引导采样（Steering Sampling）和提示工程（Prompt Engineering）是两种不同的方法，用于控制LLM的输出方向。它们的目标都是生成符合需求的结果，但所关注的技术和实现方式有所不同。 </p>
+<p>引导采样通过调整模型内部的采样策略或生成过程，在模型生成的过程中动态引导输出的方向，而不是直接改变输入的提示。 </p>
+<p>而提示工程通过优化或设计输入提示（prompt）的内容或结构，来引导模型按照预期方式生成输出。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,369" src="https://img.36krcdn.com/hsossms/20241129/v2_a92fddb49b3d4a9b87c918e32f5eac05@46958_oswg61736oswg1080oswg369_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>Stargazer </strong></p>
+<p>不过，目前在Tilde的官网中并没有找到视频案例中展示的产品界面，只找到了一个已经上线的产品「Stargazer」，主要围绕大语言模型的可解释性而生，可用于探索开源Llama模型内部。 </p>
+<p class="image-wrapper"><img data-img-size-val="994,271" src="https://img.36krcdn.com/hsossms/20241129/v2_fa51c68609cb47cf97077f45ce9de95a@46958_oswg73402oswg994oswg271_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>体验地址：https://stars.tilderesearch.com/ </p>
+<p>Stargazer基于Llama 3.1 8B设计。 </p>
+<p class="image-wrapper"><img data-img-size-val="618,150" src="https://img.36krcdn.com/hsossms/20241129/v2_a175c5050d6748dca9d19d29f1700ab7@46958_oswg28651oswg618oswg150_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>向模型提问时，它的回答会被拆分成多个token（文本块）。 </p>
+<p class="image-wrapper"><img data-img-size-val="710,392" src="https://img.36krcdn.com/hsossms/20241129/v2_bf4a133e8b7a4af5a7de6302c1640e8e@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>之后，点击回答中的任意token，就能查看该token的stars（相关概念）和constellations（概念群组）。这些是模型思维的快照。 </p>
+<p class="image-wrapper"><img data-img-size-val="740,392" src="https://img.36krcdn.com/hsossms/20241129/v2_3394088171c7442a93cd1862254397df@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Stargazer还对stars按照稀有程度进行了分类：Common（稀有程度0-35%）、Rare（稀有程度35-45%）、Ultra（稀有程度45-60%）、Legendary（稀有程度60-100%）。 </p>
+<p class="image-wrapper"><img data-img-size-val="817,73" src="https://img.36krcdn.com/hsossms/20241129/v2_7013dcc99c564005942d440a1864f88d@46958_oswg9608oswg817oswg73_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>以下是分别用中英文向Stargazer提问「什么是语言模型/What is a language model」时，它给到的答案和分词结果。 </p>
+<h2><strong>技术原理 </strong></h2>
+<p>Tilde还发表了一篇内容关于稀疏自编码器中的速率-失真问题的博客，并表示不久将会发布开源的项目。 </p>
+<p class="image-wrapper"><img data-img-size-val="880,756" src="https://img.36krcdn.com/hsossms/20241129/v2_093023febb484a86bae3aebc381af111@46958_oswg572943oswg880oswg756_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>博客中详细探讨了稀疏自动编码器（SAE）、Top-k激活函数和信息瓶颈框架，它们都涉及如何更高效地组织和控制模型的内部机制。这些理论都被积极融入到Tilde训练的解释性模型中。 </p>
+<p class="image-wrapper"><img data-img-size-val="1000,502" src="https://img.36krcdn.com/hsossms/20241129/v2_5db6eb733d794de58946ddd7594e1034@46958_oswg94305oswg1000oswg502_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>博客地址：https://www.tilderesearch.com/blog/rate-distortion-saes </p>
+<h3><strong>稀疏自动编码器</strong></h3>
+<p>稀疏自动编码器是一个令人兴奋的研究领域，它不仅有助于我们理解深度学习中的特征表示，还为开发更高效且更可解释的模型提供了方向。 </p>
+<p>从可解释性角度退一步来看，构建一个有效的稀疏自动编码器（SAE）需要解决两个基本问题：创建高效表示数据的稀疏编码，以及从这些编码中准确重建原始数据。 </p>
+<p>第一个任务由自动编码器的编码器矩阵完成，将输入数据（如图像或文本）转换为一种高效且稀疏的表示形式；第二个任务由解码器矩阵完成，需从编码后的稀疏表示中重建原始输入，验证编码器选择的信息是否足够全面。稀疏编码可以看作模型如何「理解」输入的快照。 </p>
+<p>编码器和解码器两者共同作用，既提升了模型的效率，又为分析其内部工作机制提供了透明窗口，是实现可解释性的重要基础。 </p>
+<p>从根本上说，构建一个有效的稀疏自动编码器需要解决的两个基本问题分别属于稀疏编码（sparse coding）理论和压缩感知（compressed sensing）领域。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,646" src="https://img.36krcdn.com/hsossms/20241129/v2_892392fa1b5b410aa63c7a4068d61293@46958_oswg68359oswg1080oswg646_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>稀疏编码理论还关注「负载均衡」。它强调稀疏编码中激活应在不同特征或神经元之间均匀分布。某些研究，如Top-k和JumpReLU架构，发现了严重的特征频率失衡问题：某些特征的高频触发会导致字典难以解释。通过负载均衡正则化可以减轻这一问题，并改善字典的可解释性。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,1091" src="https://img.36krcdn.com/hsossms/20241129/v2_9c9df60bac0b4074b3749a5c3b13de9a@46958_oswg222373oswg1080oswg1091_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Tilde目前正在积极研究基于这些理论的新型架构。 </p>
+<h3><strong>通过IB框架理解Top-k方法</strong></h3>
+<p>最后，博客从信息瓶颈（Information Bottleneck, IB）理论的角度审视Top-k方法。 </p>
+<p>在训练稀疏自动编码器时，激活函数的选择对字典的稀疏性和学习动态有着重要影响。 </p>
+<p>传统上，可以使用ReLU激活函数配合ℓ1正则化，将字典学习视为一个多约束问题：网络需要同时平衡重建误差和稀疏性惩罚。在这种方法中，稀疏性是自适应的——输入越复杂，潜在激活越多，反之亦然。 </p>
+<p>Top-k方法消除了这种复杂性，直接固定所有输入的稀疏性水平。它不再需要在稀疏性损失和重建误差之间权衡，而是只优化重建误差。 </p>
+<p>Top-k激活函数在稀疏自动编码器中的高效性可以通过信息瓶颈框架来理解。该框架平衡了信息保留与压缩： </p>
+<blockquote>
+<p>1. 希望最小化输入X与表示Z的互信息I(Z;X)，减少冗余； </p>
+<p>2. 同时最大化Z与目标Y的互信息I(Z;Y)，保留对重建有用的信息。 </p>
+</blockquote>
+<p>公式如下： </p>
+<p class="image-wrapper"><img data-img-size-val="334,67" src="https://img.36krcdn.com/hsossms/20241129/v2_0a6901c9e109400fb5e6b6fc816a0894@46958_oswg3793oswg334oswg67_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其中，β调节压缩和相关信息保留之间的权衡。 </p>
+<p>通过固定输入中活动神经元的数量，Top-k方法直接对I(Z;X)施加上限，从而限制了信息流动，并自然优先选择最具信息量的特征进行重建。与传统方法平衡稀疏性惩罚和重建的方式不同，Top-k的硬约束简化了这一动态，仅在设定的稀疏性水平内优化重建精度。 </p>
+<p>Top-k方法内置了瓶颈效应：通过减少I(Z;X) ，可能提高泛化能力，因为它限制了信息流动。这与泛化理论中的发现一致，该理论将模型复杂性与泛化误差联系起来： </p>
+<p class="image-wrapper"><img data-img-size-val="283,129" src="https://img.36krcdn.com/hsossms/20241129/v2_8b425caee81144f0b083b1e7b33d62a4@46958_oswg10181oswg283oswg129_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其中n是训练样本数量。 </p>
+<p>实际上，Top-k方法强制实施了一种率失真约束，驱使网络优先考虑稳定性和信号保留，而非噪声。Tilde研究团队在实验中发现，与自适应稀疏方法相比，Top-k方法能够产生更平滑的学习动态和更强的抗噪性。 </p>
+<p>他们在CIFAR10数据集上训练了Top-k自动编码器50个周期，并施加了不同的高斯噪声条件。假设，架构所施加的信息瓶颈能够提高在高噪声环境下的鲁棒性。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,611" src="https://img.36krcdn.com/hsossms/20241129/v2_66b89bb0f0e844038e6eacce026fcb26@46958_oswg226579oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在高斯噪声条件下的Top-k缩放定律中，信息瓶颈显著提升了Top-k的鲁棒性。实验发现，Top-k在较高噪声环境中，幂律拟合的系数有所增加，表明更大的k值能够更好地从噪声中恢复信号。此外，训练动态高度稳定，损失几乎单调收敛。 </p>
+<p>与之相对比，在高噪声设置下测试的ReLU基准模型却出现了崩溃或发散现象，因此被排除在图表之外。 </p>
+<p>该理论为理解稀疏编码如何在压缩和重建之间权衡提供了框架。在未来的研究中，Tilde将进一步探讨这一方向，并期待为解码器架构提供新的优化方法。 </p>
+<p>参考资料： </p>
+<p>https://x.com/tilderesearch/status/1856404543808131334 </p>
+<p>https://www.tilderesearch.com/blog/rate-distortion-saes </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/IypsvqjhSCKJns-qvSAr2A" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：静音，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3057112577544329</guid><pubDate>Fri, 29 Nov 2024 16:25:00 +0800</pubDate></item></channel></rss>
