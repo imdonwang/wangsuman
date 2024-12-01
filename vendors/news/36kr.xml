@@ -1,152 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 01 Dec 2024 08:30:29 +0800</lastBuildDate><pubDate>Sun, 01 Dec 2024 08:30:29 +0800</pubDate><item><title>一条芯片“新”赛道，悄然崛起</title><link>https://36kr.com/p/3058239997174920</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>GPU超越了CPU。这也意味着，在计算领域，专用计算打败了通用计算。然而，尽管专用计算的优势日益明显，仍有一部分初创公司坚持走通用计算的道路，力图通过创新突破当前架构的瓶颈，重新定义处理器的未来。在这个日益分化的计算时代，通用计算是否依然有机会与专用计算一较高下？一些雄心勃勃的初创公司正在投入巨资和大量的研发力量，试图通过开发全新的通用处理器架构来挑战现有格局。</p>
-<h2><strong>通用处理器的黄金时代</strong></h2>
-<p>回顾过去，通用处理器（CPU）曾在计算领域主宰了数十年。在70年代到90年代，CPU曾是几乎所有计算任务的主力。</p>
-<p>1971年，英特尔发布了4004处理器，这是世界上第一款商用微处理器，标志着计算机技术的一个新纪元。随后，英特尔在1974年发布的 8080 处理器，以及其后续的 x86 架构，为个人计算机（PC）提供了强大的处理能力。</p>
-<p>1981年，IBM个人计算机（IBM PC）的发布，将基于 x86 架构的通用处理器推向了全球市场。</p>
-<p>进入1990年代，随着互联网的崛起和计算需求的多样化，Intel 和 AMD 等公司继续推动 x86 架构 的发展，通用处理器的市场份额不断扩大。英特尔的 Pentium 处理器系列（1993年推出）标志着高性能计算的到来。此外，90年代的企业级服务器和数据中心也开始大量采用基于 x86 架构的通用处理器。这一时期，通用处理器不仅在桌面和办公应用中占据主导地位，也逐渐成为服务器、数据中心以及高性能计算（HPC）领域的主力。</p>
-<p>从 2000年代后期开始，随着 GPU 和专用加速器（如 TPU、FPGA）的崛起，计算界的天平开始发生倾斜。</p>
-<p>进入AI时代，计算需求呈现出爆炸式增长。深度学习等AI算法对计算资源的需求远远超过了传统应用。GPU凭借其高度并行的架构，在训练和推理大规模神经网络方面表现出色，成为了AI训练的“标配”。这一时期，GPU在图形处理、科学计算以及机器学习等领域的表现，逐渐超越了传统的CPU。与此同时，各种专用集成电路(ASIC)也在不断涌现，针对特定AI算法进行优化，进一步提升了计算效率。</p>
-<p>尽管GPU和ASIC在特定领域的优势非常明显，但它们也有不可忽视的缺点。首先，GPU 和 ASIC 是专为某些特定任务设计的，缺乏通用性和灵活性。如果面对复杂的计算任务或需要多种计算能力的应用，GPU 和 ASIC 就显得不那么高效。此外，GPU 和 ASIC 的开发和生产成本较高，且其硬件架构通常与现有的计算环境不兼容，这使得大量企业在进行硬件更新时面临着较高的技术门槛和经济成本。</p>
-<p>正是这些缺口，令一些初创公司找到了弯道超车的着力点。在AI时代的快速洗礼下，数据中心的挑战和痛点愈发凸显：居高不下的功耗、较低的服务器利用率以及难以跟上需求的处理器性能。</p>
-<h2><strong>初创公司Tachyum：各种PU大乱炖，能成吗？</strong></h2>
-<p>初创公司Tachyum提出了一种大胆的愿景：<strong>将超大规模数据中心转变为真正的通用计算中心</strong>。</p>
-<p>他们是如何做的呢？Tachyum推出了一种新型通用处理器，将CPU、GPGPU 和 TPU的功能统一到单个单片设备中，无需昂贵且耗电的加速器，而是通过使用与软件可组合性和服务器资源的动态重新分配相一致的简单同质软件模型来最大限度地提高利用率，以此来满足云和 HPC/AI 工作负载的高需求。该架构速度更快、功耗降低10倍、成本仅为竞争产品的 1/3。</p>
-<p>下图是早期（2022年）Tachyum公司对Prodigy架构的构思，它集成了128个自定义的 64 位 CPU 核心，运行频率最高可达 5.7 GHz，有十六个DDR5内存控制器，支持最高DDR5-7200，和64条PCIe 5.0 通道。CPU、内存控制器和I/O通过Tachyum自定义设计的10 Tbps非阻塞全网状互联网络连接在一起。Prodigy提供了一种尖端的“系统芯片”设计，平衡了高性能的CPU 核心、内存、I/O和互联子系统。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241130/v2_3deb6192a05748599e0739aaed89165c@000000_oswg38777oswg332oswg237_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Prodigy设备架构图（来源：Tachyum Prodigy架构白皮书，2022）</p>
-<p>Prodigy采用独特的“半芯片（half-chip）”设计，使得这款128核的设备可以作为两个独立的64核设备工作，每个设备配备8个DDR5内存控制器、32条PCIe 5.0通道、独立的电源平面，并具备单独启动的能力。这带来了多个好处。首先，从客户的角度来看，两个功能设备可以部署在一个单一封装中，节省成本、板空间和功耗，并为系统和板设计者提供灵活性。从运营的角度来看，这种架构为Tachyum提供了更高的64核芯片良率。如果“北半部分”出现问题，可以将芯片旋转180度，“南半部分”将成为正常工作的 64 核设备。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241130/v2_88307c0dcbdc4c619e36e0b148fb189e@000000_oswg552675oswg909oswg619_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Prodigy设备布局主要功能模块（来源：Tachyum Prodigy架构白皮书，2022）</p>
-<p>Tachyum在白皮书中指出，处理器性能停滞不前的根本原因是<strong>处理器硅片上的线路延迟增加</strong>。随着硅片工艺的缩小，晶体管的速度加快，但线路的速度却减慢了，我们现在正处于性能受到线路延迟限制的阶段。由于线路的电阻率是线路横截面积的函数，因此电阻率会随着工艺缩小的平方而增加，工艺几何尺寸每减小10 倍会导致电阻率增加100倍，这与线路延迟成正比。业界的方法是从铝互连转换为铜互连并使用低 K 电介质，这确实有所帮助，但线路延迟仍然是限制处理器性能一代一代提升的主要因素。</p>
-<p>为了解决过去二十年中由于工艺缩小导致晶体管加速但导线变慢，从而导致处理器性能停滞的问题，并且最大化性能、可扩展性和灵活性、最小化总拥有成本（TCO），Tachyum 为其Prodigy处理器开发了新的<strong>指令集架构（ISA）</strong>。该架构结合了RISC（精简指令集和CISC（复杂指令集）的特点，但没有包含许多 CISC 处理器中常见的复杂和/或变长的低效指令。所有指令的宽度为 32 位或 64 位，其中一些指令还包括内存访问，以优化性能。Prodigy ISA 包含大量的向量和矩阵指令，这些指令优化了向量和矩阵运算的性能和效率。新ISA通过将执行单元感知（execution unit awareness）引入指令集架构，从而使Prodigy微架构和 Prodigy 编译器能够协同工作，避免了执行单元之间消耗大量功耗的数据传输，并减少了芯片内延迟。</p>
-<p>最初Prodigy系列处理器包括128核、64核和32核的型号，而在最新的产品披露中，Prodigy对其产品构想进行了全面的升级：Prodigy SKU家族包含<strong>192核、96核、48核</strong>多个型号，适用于从超算到大规模AI、超大规模数据中心和边缘服务器等各类应用。TDP（热设计功耗）范围从48核入门级的150 W，到顶端型号的950W。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241130/v2_f24689d42cb04eac8cf8dbffb1d3c4a7@000000_oswg44527oswg415oswg178_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Prodigy各型号的规格（来源：Tachyum）</p>
-<p>Prodigy的竞争卖点在哪里呢？据该公司白皮书的分析，其统一架构通用处理器直接与CPU和GPGPU竞争。</p>
-<p>下图显示了Prodigy、Nvidia H200 GPU和 ntel Xeon 8380 CPU之间的正面对比，展示了 Prodigy 通用处理器如何与CPU和GPU架构直接竞争。比较结果表明，与 H200 GPU 和 Intel Xeon 8380 CPU 相比，Prodigy 在多个工作负载和数据类型下提供了更高的性能和每瓦性能。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241130/v2_4515d9cc01304188ad1aeee1c2269041@000000_oswg36855oswg415oswg162_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>具体而言，Prodigy比 Intel Xeon 8380拥有3倍的CPU核心数，主频是8380的2.5倍，内存带宽约为8380的20倍。Prodigy的Specrate 2017整数得分是8380的4倍，而 Prodigy 的FP64峰值性能是8380的30倍。</p>
-<p>与Nvidia H200比较，Prodigy的16条DDR5-7200通道和带宽放大技术提供了约 2TB/sec 的带宽，同时保留了支持大内存和扩展性的灵活性，DIMM 可提供较大的内存支持。H200 使用 HBM3 提供 3 TB/sec 的带宽，但将内存足迹限制为 80GB 的固定内存。Prodigy 和 H200 都支持从 FP64 到 FP8 的多种数据类型，并且都支持 4:2 稀疏性。但与 H200 不同，Prodigy 除了支持 4:2 稀疏性外，还支持 8:3 超稀疏性，提供了更高的性能，仅有轻微的精度折衷。此外，Prodigy 拥有更大的缓存，减少了对 DRAM 带宽的需求。Prodigy 还支持 TAI（Tachyum AI），一种新的数据类型，能提供更大的性能提升。</p>
-<p>为了全面了解 Prodigy的能力，一个1.6万亿参数的Switch Transformer 需要 52 个 NVIDIA H200 80GB GPU（每个成本为 41,789 美元）和7个Supermicro GPU服务器（每个成本为 25,000 美元），总成本为 2,348,028 美元。而该公司声称，<strong>一个配备 2TB DDR5 DRAM的Prodigy单个插槽系统可就以容纳和运行如此大的模型，成本仅为23,000美元，这仅是英伟达方案成本的1/100</strong>。如果真如此，这将是一个颠覆性的通用处理器。</p>
-<p>理论上都很美好，但是目前Tachyum公司<strong>最大的问题是，尚没有实际的产品出来</strong>。Prodigy的推出时间一再延迟，今年推明年。Prodigy通用处理器最初计划于2019年推出，并于2020年上市。然而它不断推迟，推迟到2021年，然后是2022年，然后是2023年。最新的消息是，据该公司称，<strong>采用5nm工艺的Prodigy处理器将于明年流片和量产</strong>。一个小插曲是，此前该公司还起诉了EDA公司Cadence，说他们的设计未能满足性能目标。</p>
-<p>据报道，Tachyum已收到一份大型采购订单，用于构建一个大型系统。据Tom's Hardware报道，Tachyum还计划于 2026 年发布 Prodigy 2，这是一款使用 PCIe 6.0 和 CXL 的 3nm 处理器，以及高带宽内存 (HBM) 3 RAM。</p>
-<p>我们也希望明年真的能见到这款强大的通用处理器。</p>
-<h2><strong>Ubitium：通用RISC-V微处理器</strong></h2>
-<p>德国初创公司Ubitium，这家公司成立于2024年。创始人的履历颇丰：董事长/联合创始人Peter W Weber层就职于英特尔、德州仪器、Siliconix等；首席执行官/联合创始人Hyun Shin Cho；首席技术官/联合创始人Martin Vorbach在大学期间创办了自己的第一家微处理器公司。他创办了可重构处理器（FPGA）领域的领军企业 PACT XPP Technologies。PACT 的技术已授权给所有美国主要半导体公司，马丁名下拥有200多项专利。</p>
-<p>Ubitium<strong>旨在通过引入完全与工作负载无关的通用处理器架构从根本上改变计算格局</strong>。首席技术官Martin Vorbach花了15年时间开发这一通用处理器架构。Ubitium的通用处理器架构代表了计算行业的一次重大创新，它挑战了现有的处理器设计范式。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241130/v2_a3ed94a0b92d4f229425299267a9cb69@000000_oswg66704oswg1080oswg278_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">通用处理器阵列（来源：Ubitium）</p>
-<p>传统的微处理器往往需要为不同的计算任务，如图形处理、人工智能计算等，设计专门的硬件核心。而Ubitium希望通过同质、与工作负载无关的微处理架构，用单一、多功能的芯片取代传统处理器（CPU、NPU、GPU、DSP 和 FPGA）来处理所有工作负载，该架构基于开源指令集 RISC-V，旨在通过统一的设计，不仅使处理器尺寸更小、能效更高，而且大幅降低成本，使其能够适应各种应用场景。</p>
-<p>Ubitium的设计灵感源于当前计算机体系结构面临的瓶颈，特别是在硬件资源的高效利用 方面。当前许多处理器架构面临着不必要的“琐碎管理”任务——这些任务占用了大量硬件资源却并未直接提高性能。此外，许多高效计算技术，如同步多线程，往往需要额外的硬件开销来支持，这就导致了更高的能耗和复杂性。</p>
-<p>过去数十年来，芯片技术的进步主要围绕尺寸展开，晶体管变得越来越小，因此通过整合更多晶体管，微处理器的功能也变得更强大。然而，设计并没有发生根本性改变。Ubitium通过重新设计处理器的内部结构，消除了这些不必要的开销，从而提高了性能。除了架构创新外，Ubitium还计划推出多个芯片型号，涵盖从小型设备到大型计算系统的不同需求。这些芯片的阵列大小可以不同，但它们都基于相同的架构和软件平台。</p>
-<p>目前，该公司拥有 18 项基于 FPGA 仿真的原型技术专利，并正在开发一系列芯片，这些芯片的阵列大小各不相同，但共享相同的底层通用架构和软件堆栈。Ubitium所开发的通用芯片目标市场是边缘或嵌入式设备，帮助企业将部署成本降低100倍。不过，该公司强调，该架构具有高度可扩展性，未来也可用于数据中心。</p>
-<p>虽然Ubitium的产品听起来像是FPGA，比如都强调硬件灵活性和可重用性，但它并不是传统意义上的FPGA。相比FPGA，Ubitium的处理器并没有依赖于“硬件仿真”或“动态硬件配置”的方法，而是通过统一的架构和核心资源来实现不同功能。</p>
-<p>2024年11月21日，Ubitium获得了370万美元种子资金。这笔投资将用于开发首批原型并为客户准备初始开发套件，首批芯片计划于2026年推出。不过，在短短两年内推出一个旨在“彻底改变”行业的架构至少可以说是具有挑战性的。目前的370万美元几乎可以肯定不足以让 Ubitium的“突破性”芯片起步。通常，芯片进入流片阶段需要花费数亿美元。</p>
-<h2><strong>前路挑战不可忽视</strong></h2>
-<p>无论是 Tachyum 还是 Ubitium，它们选择开发通用处理器的原因，都来自于计算需求的复杂性和多样化。传统的计算架构，如 CPU、GPU 和 FPGA，虽然各自在特定领域中表现突出，但它们的组合和协同工作往往带来额外的成本和复杂性。尤其是在 AI、大数据和高性能计算（HPC）日益普及的背景下，数据中心和云计算需要一种更高效、更灵活、更具成本优势的解决方案。</p>
-<p>但初创公司来做通用处理器还是会面临很大的挑战：</p>
-<p>技术实现：要在同一个芯片上处理多种计算任务（如图形处理、AI 推理、高性能计算等），需要精心设计架构，确保每种任务的计算能力都得到充分发挥而不互相干扰。Tachyum提出的架构仍处于早期阶段，并且已经经历了多次延期。产品是否能按计划交付，以及它是否能在竞争激烈的市场中脱颖而出，仍然是一个巨大的不确定性。</p>
-<p>市场接受度：尽管他们的芯片可能在性能上具有优势，但市场对新架构的接受度仍然是个问题。尤其是在传统的 CPU 和 GPU 仍占据主流地位的情况下，新型的通用处理器是否能够与 NVIDIA、Intel 等成熟厂商的产品竞争并获得广泛采用，仍有待观察。</p>
-<p>成本与规模化：即便后进者都宣称其芯片在成本和功耗优势显著，但要实现大规模生产并降低成本，需要巨额的研发和生产投资。处理器的制造和流片成本通常非常昂贵，因此资金的稳定和筹措将是其成功的关键因素。</p>
-<p>Tachyum和Ubitium都在试图解决计算领域的一个重要问题：如何整合多种处理功能，提供更灵活、更高效的解决方案。尽管两者的技术愿景非常吸引人，但在实现过程中面临的技术挑战、市场接受度以及资金问题都不容忽视。要想在竞争激烈的半导体市场中脱颖而出，除了技术突破，还需要强有力的资金支持和客户认可。</p>
-<h2><strong>小结</strong></h2>
-<p>强如英特尔和AMD，在AI的浪潮中，都有点招架不住，初创公司能否掀起浪花？在这个风云变幻的时代，通用处理器能否重夺王座呢？结果尚未知。</p>
-<p>但可以明见的是，这条芯片“新”赛道，已经悄然崛起。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&amp;mid=2247765304&amp;idx=1&amp;sn=43cec96dc2641d2e1bc6f0cd90e69b4d&amp;chksm=cfe28f9d34a10624587499004aebc807850f2c94801201b88091e2637cfa0238a5655ee8ffd0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“半导体行业观察”（ID：icbank）</a>，作者：杜芹，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3058239997174920</guid><pubDate>Sat, 30 Nov 2024 12:17:00 +0800</pubDate></item><item><title>被瞒亿万家产，“我不是爽文男主”</title><link>https://36kr.com/p/3057545871893641</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_1df55560767f48499e72e1be720964c4@000000_oswg95219oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>“企二代”在社交媒体上的走红，已经在某种程度上成了一种趋势。张子龙身上的戏剧性，更让这个00后被贴上了难以撕下的爽文人设。但比起总会消散的舆论热度，眼前面对的接班问题，才是张子龙必须迎难而上的“二代处境”。</strong> </p>
-<p>作者 | 郭草莓 </p>
-<p>编辑 | DR </p>
-<p>题图 | 新周刊 </p>
-<p>因“被瞒亿万家产20年”的经历走红已经大半年了，“爽文男主”的标签仍伴随张子龙左右。 </p>
-<p>再次见到张子龙时，他已经褪去年初的青涩。和当时第一次采访时相比，他剪短了头发，整个人精神了不少，聊起业务来，眼神中也闪过此前没有的锐利。 </p>
-<p>面对镜头，如今的张子龙也放松和坦诚了许多：“无论是被瞒家产还是爽文男主的标签我都觉得不太OK。”“我几乎是随时随地、举手投足间都在经受另一种视角下的审视，甚至是冒犯……” </p>
-<p>今年24岁的他，是麻辣王子创始人张玉东的儿子，是这家TOP级辣条企业的线上营销中心负责人，也是被互联网围观过的“爽文男主”。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_a5d9f056a803440688f4edd000f9ce81@000000_oswg1037919oswg1080oswg726_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/@麻辣儿子）</p>
-<p>“你真是投了个好胎。”在不少场合里，张子龙总会遭遇类似的调侃。最开始，他会本能地想反驳回去，可好几次话到嘴边又咽下去：“似乎怎么说都是错的。” </p>
-<p>在舆论场上，“二代”们似乎总是处于下风，对于曾以戏剧性方式爆红过的张子龙尤其如此。 </p>
-<p>去年年底，博主小翔哥的一则视频将张子龙推上了热搜。在那期视频里，身穿厚棉袄的张子龙，带着“涉世未深的清澈眼神”，指着“家里1000平方米的别墅和8台车”以及“那么大一层的办公室”，对着镜头爆出那句仿佛从电影走进现实的金句：“大学毕业后才知道我家有多少钱。” </p>
-<p>一时间，张子龙“被瞒亿万家产20年”的爽文人设爆火互联网，连带着麻辣王子也被挂在了社交媒体热搜榜上。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_8d3f650caf3f404a88f594ec4bb89f9f@000000_oswg86039oswg1077oswg830_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/社交媒体截图）</p>
-<p>事件爆火之后，张子龙的社交账号没有再针对“被瞒家产”的流量话题生产视频内容，面对媒体他也尽可能解释：“我算不上富二代，也不是什么爽文男主。” </p>
-<p>只是，对于普罗大众来说，张子龙的出身是在年销售额过10亿的民企董事长之子，无论他如何定义自己过去二十余年的成长经历，“二代”的标签都是无法撕下的。就像出去谈业务时，常常有客户问起“被瞒家产”的故事，张子龙既无法用回避熄灭对方的好奇心，更难以消解那番关于“现实版抓娃娃”的想象。 </p>
-<p>正如阎鹤祥在《喜剧之王单口季》所说，无论逃到哪，总会有人向他问起老搭档“郭麒麟”，这三个字几乎成了他的一种处境。而对于当下的张子龙来说，“爽文男主”的标签同样是他避无可避的处境。 </p>
-<h2><strong>非典型“抓娃娃”</strong> </h2>
-<p>互联网上，“企二代”在社交媒体上的走红，已经在某种程度上成了一种趋势，例如好利来“二少爷”罗成给自己找了“社恐”人设；特步公主丁佳敏拍“全家都是总裁是怎样一种体验”的vlog等。 </p>
-<p>相比之下，张子龙的爆火更像一个偶然，但这至今仍让他后怕。 </p>
-<p>一方面，父亲张玉东对视频导向耿耿于怀，“有点娱乐化了，不符合我们企业价值观”。在一家民营企业内，创始人总是带有不怒自威的buff。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_1d356fb469c4497aadd3426df39c2013@000000_oswg540465oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另一方面，视频为张子龙和麻辣王子招来了争议。尽管张子龙镜头前的形象让大量网友确信他“富得很突然”，可随着“被隐瞒亿万家产20年”话题爆火，质疑声也甚嚣尘上。今年2月，在采访张子龙时，他对于外界给出的标签曾如此解释道：“我不是什么爽文男主，当时家里确实穷过。” </p>
-<p>因为突如其来的爆红，以及在外界看来的相似叙事，电影《抓娃娃》剧组甚至也曾邀请张子龙拍摄宣传合作，只是被麻辣王子的团队婉言相拒。 </p>
-<p>理由很简单，张子龙的故事与前者“为培养接班人假装穷困潦倒”的内核有着本质区别——在至少7年的时间内，麻辣王子曾因转型而负债经营，甚至几近破产。对于当年的“真穷”，张玉东并没有对儿子刻意隐瞒。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_ebdf04308bf2459382f1cc020cd13683@000000_oswg448476oswg1080oswg375_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《抓娃娃》）</p>
-<p>2013年，麻辣王子品牌成立后的第四年，张玉东忍痛砍掉已累计投入3亿元的“如意棒”生产线，公司员工数量也由1200人裁至300人，还贷款3000万元在平江建设制药级的辣条生产车间。为了维持公司现金流的稳定，张玉东先后卖掉了一套别墅和汨罗江边的26亩地，甚至收起公司账本，连枕边人黄晓丹都不让看。 </p>
-<p>“他（张玉东）不想我也跟着来承担这份压力，只让我管好公司的日常经营，但能看出他当时身体确实糟糕，整天脸色铁青。”黄晓丹有些埋怨地说，“他其实可以让我也分担些的。” </p>
-<p>那段时间是张玉东人生中的“至暗时刻”，身边充斥不看好的声音——同行说他在“玩火”，经销商告诫他别“在钢丝上跳舞”，老员工也不理解“为什么张总要砸自己饭碗”。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_3124eeb7c1434e03b81e5321ddf737e0@000000_oswg691884oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>也是在这时，张子龙隐隐察觉到家里的变化：父母早出晚归的次数越来越多，姐姐张子敏告诉他“家里负债了、公司快破产”。 </p>
-<p>张子龙不知道的是，那段时间父亲总是一个人跑到平江福寿山森林公园发呆放空，往往一待就是一礼拜。“我认为当时自己的状态不应该让团队看到，因为我是个董事长，越是困难的时候，董事长越要信心满满。”张玉东说。 </p>
-<p>从负债经营到成为辣条界黑马，转机发生在2019年。 </p>
-<p>因为当年央视“3·15晚会”的曝光，辣条的“垃圾食品论”再次兴起，但巨大的舆论压力下，张玉东却看到了一线生机。在那之后，他开始对外宣传麻辣王子的生产转型，诸如升级车间、淘汰添加剂等。“大家以为被曝光的辣条厂就代表了平江，其实不是。”事实证明，几年前的那次负债转型赌对了，张玉东赢得了消费者的青睐，也让麻辣王子在一阵乱棍中活了下来。 </p>
-<h2><strong>又回到辣条堆里来</strong> </h2>
-<p>对于回到麻辣王子工作，张子龙起初是没有半点兴趣的。 </p>
-<p>他大学原本报的是航空航天类专业，因为觉得那对国家有贡献，也“高大上”些，后来考虑到更多现实因素，才遵从张玉东的意思，改学国际工商管理。直到2022年毕业，张子龙还是社会里的“小透明”，和无数初入社会的大学生一样，每天挤着早高峰，在求职人潮里打滚，唯一的慰藉是回家打上两把《英雄联盟》。 </p>
-<p>对于工作，张子龙的预期不高——双休、月薪6000元、离长沙的家近。 </p>
-<p>可找了三个月，投了十多份简历，从金融证券到面包销售，愣是没能拿到一个心仪的offer。矮子里拔高儿，他选择了去一家金融公司当销售，各方面条件都过得去，唯一不足就是单休。但在第二天准备提交入职意向书时，张玉东又出手了，”父子俩“谈心”到半夜。用张子龙的话说，自己在父亲“无形之手”的帮助下，稀里糊涂进了麻辣王子品牌部。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_60d6fb7001bd45c3bb0a239909129477@000000_oswg50343oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>张玉东不是没有私 心，自三位湖南平江人邱平江、李猛能、钟庆元发明第一根麻辣味辣条以来，平江县以辣 条闻名全国，孩子在辣条堆里长大，自然也应该一起发展辣条行业。 “人不能忘本，就算他实在不接受，在公司待上两年再出去也行。 ” </p>
-<p>子女还在读小学的时候，张玉东就曾问过两人长大后是否愿意到辣条工厂上班，女儿张子敏对此保持沉默，儿子张子龙则忙不迭地摇头。在媒体的叙事中，这件温情小事成为了张玉东推动麻辣王子转型的动力。 </p>
-<p>当时的辣条确实处于“妈见打”的境况，“消费者没有尊严，从业者没有尊严”，子女的抗拒在张玉东的意料之中。他曾目睹街边店老板在监管人员到来时藏起辣条，学生们也只能躲着老师和家长们吃。就连他自己向旁人自我介绍时，也会含糊其辞自称是做熟食的。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_01d64949e9684caea1a4f06d4f4ea96a@000000_oswg159192oswg917oswg1384_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">为打消粉丝对辣条“垃圾食品”的顾虑，麻辣王子在街边搭了一个辣条博物馆。（图/@麻辣儿子）</p>
-<p>为了防伪，张玉东将自己的头像印在了早期的辣条包装上。张子龙对此不敢声张，直到父亲参加家长会时被同学戳穿，仍然感觉丢人。这些张玉东都看在眼里。“我想为辣条正名，去掉‘垃圾食品’的烙印。这才有了2013年那次负债转型的举动，也成为了后续‘被瞒家产20年’事件的真实契机。” </p>
-<p>当然，抛开这些“辣条情怀”，张玉东也有自信让张子龙回来，因为不论怎么看，麻辣王子彼时都是一家不错的创业型公司。2022年，麻辣王子在麻辣味辣条这一细分领域，市场份额达到了57.9%，稳居榜首；次年，公司销售额就破10亿。 </p>
-<h2><strong>职场菜鸟历险记</strong> </h2>
-<p>还是职场菜鸟的张子龙，一开始还看不到行业里的跌宕起伏。顶着“麻辣儿子”的头衔，他只把手上的活儿当成一份工作。 </p>
-<p>拿着6000元月薪，张子龙起初干的是跑腿的活儿，公司里基本没几个人认识他，就算被同事吐槽穿搭“有点土气”，他也只是在一旁傻笑。在客户眼中，张子龙是名不见经传的毛头小子，他和主管去北京、杭州挨家挨户拜访机构，谈推品合作，准备了几天的演讲稿和PPT，对方瞧都没瞧，顺手就丢来一瓶矿泉水，像打发乞丐似地赶他走人。 </p>
-<p>但这些都不是最关键的，“企二代”们入职自家企业后，最大的变化是在心态上——他们需要接受父母不再只是父母，还是他们的顶头上司。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_90c068a931194669bae23bb5a8344967@000000_oswg84325oswg1080oswg664_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对于父亲，张子龙的印象停留在“怕”。 </p>
-<p>在公司里，两人生疏得不像一对父子。一个半小时的采访，张家父子的交流不到三句话——概括起来就是“张总好”“张总早”“张总再见”。 </p>
-<p>张子龙说，这个称呼来自张玉东的要求“企业不像在家，断然不能散漫”。倒不是张玉东刻意想要塑造严父形象。在看到出差回来的儿子灰头土脸地走进家门时，张玉东也曾想过安慰几句，只是话到嘴边又变成了老套俗气的责任和压力。父子间为数不多的一对一交心时间，更多是在家庭会议室里。 </p>
-<p>从父母到老板的身份转换，母亲黄晓丹的感触更深，她是这家公司的总经理，也是张子龙的直管上司。在众人的印象里，黄晓丹平日讲话慢悠悠的，像电影《疯狂动物城》里的树懒“闪电”。她高兴起来能在饭桌上载歌载舞，但只要进入工作状态，就会立马换了个状态，语速变快、说一不二，下决策也是雷厉风行。 </p>
-<p>因为业务交接，母子见面机会更多，但交流并没有变得频繁。或许源于张玉东的“言传身教”，张子龙确实很少坦露自己的压力。黄晓丹的心态很矛盾：“一方面我想他多承担一些责任，多去锻炼一下，多吃一些苦。另一方面我又觉得他好像压力蛮大，有时候蛮心疼。” </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_839ce04a927e44b09d39bcb2c527f627@000000_oswg80294oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2023年，张子龙抓住了晋升的机会。当时品牌部抽调员工，从长沙前往平江县搭建直播间，因为地方偏僻没人愿意去，而“企二代”的身份让张子龙没法拒绝任务。 </p>
-<p>这次从零起步的探索，却让张子龙意外展现了贴近消费者和市场的能力。辣条厂长洗头、直播展示制作辣条、直播员工吃辣条挑战......整活的效果立竿见影，账号粉丝数涨到了3万多个，单一平台销售额同比翻了六七番，张子龙也借此成了公司里“抖音部”的负责人。 </p>
-<p>从月薪6000元的打工人转变为“创业者”，张子龙的心态也在发生变化，开始思考辣条市场的开拓。 </p>
-<p>而此时，辣条已经无需再为自身正名，吸引新一代消费者已经成为了行业更关注的课题。恰逢新消费浪潮兴起、传统渠道洗牌的时机，麻辣王子顺势加入了辣条营销大战，表白卡片、巨型辣条蛋糕、5.2米结亲辣条、辣条博物馆等营销动作屡屡出圈。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_ca65855dfe1040f7b6d13b17031fa644@000000_oswg50923oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但在张子龙看来，这或许还不够。 </p>
-<p>“拉近跟消费者的距离，通过个人IP给麻辣王子带来附加值，这可能是我的价值所在。”借着年初那则视频的爆火，他开设了个人抖音账号“麻辣儿子”作为公司IP的延伸，并在社交媒体上分享入职自家公司后的日常。张子龙成了“为爸妈代言”的“企二代”中的一份子。 </p>
-<h2><strong>二代是一种处境</strong> </h2>
-<p>今年5月，张子龙接管了公司电商部门，24岁的他，已经是麻辣王子的线上营销中心负责人，代价是背上3亿元的业务KPI。业绩压力巨大又临近年底，让他下半年的行程异常忙碌，包括在全国各地谈直播业务、做联名活动、主持麻辣王子粉丝见面会...... </p>
-<p>三个月前，他刚刚结束了与某位大主播的饭局，对方主动发来邀约，一群人搭着他的肩膀称兄道弟，这是以前没有过的事。在酒局上，“被瞒家产20年”“爽文男主”的标签依旧为人津津乐道，但他表示：“我会觉得（他们）给我贴的标签不太OK，还是要有东西能够让别人记住。” </p>
-<p>尽管已经身处聚光灯下，但过去的种种仍旧困住了他。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_100eac50b1034af58e259b80af2e5961@000000_oswg52397oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>过了20多年的“普通人生活”，张子龙还没能适应其身份的转变。这位新手老板刚刚上任，就碰到了内部的信任危机：几名老员工接连递来的辞职信，让他怀疑——“这是我的问题吗？因为我太年轻？”听见00后新员工对他发出“严肃、不好相处”的评价，他也会“咯噔”一下，紧接着内耗——“我什么时候变成了自己最讨厌的那类人了？” </p>
-<p>在内部的话语权上，张子龙还不得不面对与父辈的理念冲突，无论是说服还是妥协，都是“二代”必须思考的问题。 </p>
-<p>与张玉东一起白手起家的黄晓丹是“细节控”，习惯对一切都亲力亲为，但对于需要证明自己的张子龙来说，这也是一种约束。在一个联名包装的设计上，黄晓丹将方案改了又改，细到品牌包装文字信息、字号大小、贴图位置，除了“麻辣王子”四个字和logo上的皇冠，全都反复改了个遍。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_dfd20671c1244485ae60bd572b9c4c3d@000000_oswg75880oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>“她巴不得连猪猪侠都要举着辣条，在肚子文上“麻辣王子”四个大字。” </p>
-<p>张子龙认为这不符合现在年轻人的审美，联名的根本目的是让消费者觉得好看，甚至可以穿戴出去，logo可以让步于整体的审美，放背面也无妨。黄晓丹则有自己的理解：“如果没办法让别人看到麻辣王子，那我们做联名周边还有什么意义呢？”“难道旁边有麻辣王子的广告，他不穿出去了？” </p>
-<p>这是新老两代人在市场认知、产品思维上的差异。一方面，老一辈存在路径依赖，在原本的传播理念和经验层面里打转；另一方面，“二代”们初入市场，也没有足够成功的案例来说服父辈。一来二去，只能由一方退让，而退让的人往往是缺乏话语权的“二代”们。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_dd9f2fcfcc1c47969acb2026508f059c@000000_oswg55128oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>“有些他们定下的规矩，你必须适应和遵循。”张子龙说，在麻辣王子内部有两条铁律：产品不破价、口味只卖麻辣。张子龙曾经踩过其中一个红线，项目就被即时叫停，但相关预案已经做了好几个月，这意味着前功尽弃。 </p>
-<p>二代接班，最难过的仍是父母关。“经营公司依靠的是精神传承，而非血脉传承，铁律都是这家公司的价值观符号。”张玉东早年当过兵，骨子里有对于价值观的执着，他把“麻辣王子是一家社会性企业”写进了公司管理条例。 </p>
-<p>身为麻辣王子董事长，在接班的问题上，张玉东看得很开。“我以及我的子女，如果不胜任，分分钟要离开这个岗位。为什么呢？一旦他不胜任了，又不能出成果，还会影响团队。特别是个体不胜任，带来的个人精神消磨，会毁掉一个人。” </p>
-<p>而作为张子龙的父亲，他只希望儿子把“麻辣儿子”的符号焊轻些，回归本我。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_947fc9c3855d49f9984d79fc24af1da3@000000_oswg75091oswg1080oswg927_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>眼下，这个00后的“企二代”正接过指挥大棒。只不过与年初“月薪6000就算成功”的心态不同，张子龙现在更愿意把“平江辣条”挂在嘴边。几个月前，他有了新目标——“把辣条带向世界”，做成西方人口中的“东方巧克力”。 </p>
-<p><strong>校对：河宴；运营：鹿子芮；排版：菁菁</strong> </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODMzMDMyMw==&amp;mid=2654768856&amp;idx=1&amp;sn=e602ea291255489f99cdddaa09bfec29&amp;chksm=bcb84c19d117936e6d2ae07e041a90185cb54e9f2bebf20c236dad946c4b4cf2f985afb597ab&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“新周刊”（ID：new-weekly）</a>，作者：郭草莓，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3057545871893641</guid><pubDate>Sat, 30 Nov 2024 12:19:00 +0800</pubDate></item><item><title>搜索量增长20倍，腾讯官方下场，这个义乌“做不了”的生意火了</title><link>https://36kr.com/p/3057475853209992</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 01 Dec 2024 09:00:26 +0800</lastBuildDate><pubDate>Sun, 01 Dec 2024 09:00:26 +0800</pubDate><item><title>搜索量增长20倍，腾讯官方下场，这个义乌“做不了”的生意火了</title><link>https://36kr.com/p/3057475853209992</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p> </p>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241129/v2_7ef806505341412594213249205d4dfd@000000_oswg96510oswg750oswg570_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p>文｜王崭</p>
@@ -517,4 +370,215 @@
 <p>当你不再逃避恐惧，而是开始与恐惧共处时，神奇的事情就会发生。通过感受恐惧、审视恐惧的根源、阐明自己的需求并反思这种体验，你可以将这种自然反应转化为个人和职业进步的强大动力。</p>
 <p>作为领导者，为这些对话创造空间可以促进心理安全，鼓励人们在挑战中学习、反思和共同成长。这并不容易，但值得付出努力，去建立一个更安全、更勇敢的世界，一个鼓励大胆、颂扬脆弱的世界。</p>
 <p>译者：Teresa</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055441792946562</guid><pubDate>Sun, 01 Dec 2024 07:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3055441792946562</guid><pubDate>Sun, 01 Dec 2024 07:00:00 +0800</pubDate></item><item><title>董宇辉究竟在恐惧什么？</title><link>https://36kr.com/p/3058386321161733</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="600,408" src="https://img.36krcdn.com/hsossms/20241130/v2_c99da2bed0ee47a7bb0434683d09f8bc@16215552_oswg319592oswg600oswg408_img_jpg?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>剥离新东方及东方甄选、单飞4个月的中国超级主播、与辉同行的实控人董宇辉，首次在虎嗅的视频专访中公开露面。 </p>
+<p>镜头里的他表情凝重，语速较平日慢，措辞小心翼翼，回答问题严丝合缝。与极致严谨相对应的，是另外一种意想不到的表达坍塌： <strong>董宇辉并未在此次专访中贡献真正的增量信息。</strong></p>
+<p>先后采访4次，耗时10小时，拍摄超过5个小时，最后在这场被出品方定义为“单飞百日后，首次接受深度访谈”的节目，最终只匆匆呈现16分钟的访谈视频。 </p>
+<p><strong>精心包装和剪辑过的画面中，呈现出一种强烈的情绪割裂和逻辑断层。</strong> 不管两位对话主持人怎样从商业的视角拆分逻辑、递进追问，董宇辉的回答始终聚焦在情绪层面：大篇幅围绕着自己的助农情怀、个人睡眠障碍以及爆红后家人无辜被扰的生活细节展开讲述。</p>
+<p>而那套话术，是他早已在过往直播过程中，无数次重复过的熟练碎片。这让一场本来定位在财经商业视角的对话，从逻辑层面扭成了奇怪的鬼打墙模式： <strong>你跟他谈商业，他跟你谈人生。</strong></p>
+<p>一直以来，在直播镜头前能言善辩、落落大方的董宇辉，为什么在精心准备、反复剪辑的录播节目中表现得如此反常？ </p>
+<p>他的反复斟酌更像是某种害怕。 </p>
+<p>那么，董宇辉在害怕什么？ </p>
+<p>或许，直播间里该有答案。 </p>
+<h2><strong>01</strong></h2>
+<h2><strong>行走的超级印钞机</strong></h2>
+<p>11月28日晚上18:00-20：00期间，没有董宇辉的“与辉同行”直播间热热闹闹，高居抖音带货总榜榜一。两位不知名值班小主播在按部就班地直播带货，场观7万人。在抖音直播电商GMV小时榜中，作为榜一超级账号的“与辉同行”每小时带货GMV超过500万元。 </p>
+<p>按实时增速拆分“与辉同行”直播间动态数据，董宇辉及其团队的赚钱速度具像化了：“与辉同行”直播间每10分钟就可以带货100万GMV。素人员工在明星老板还没到场的直播间里，1分钟就能卖出去10万块钱的货。这意味着单飞后的董宇辉和他的与辉同行，已经成为一台运行良好、分秒必争、印钞高效的造富机器。 </p>
+<p><strong>不过，作为团队绝对灵魂人物，董宇辉的个人时间到底有多值钱？</strong></p>
+<p>经过助播的反复预告，20:05，董宇辉出现在直播间时，场观已经超过了10万人。按照抖音的外部数据展示规则，超过10万的部分，一律以10万+覆盖的数据黑盒，不再对外显示具体数字。 </p>
+<p>抖音的算法立刻识别了董宇辉的脸，在他身后，直播间的GMV直提升了50%。第一个小时，董宇辉的主播完成了一小时500万的销量，董宇辉在接下来的另一个小时里则完成了750万的销量。当时直播间主推的SKU主要是客单价几十块的速食品，比如，定价为29元一箱的白象方便面等。 </p>
+<p>随着直播时间的推移，直播间上架的SKU客单价在逐渐攀升。夜里22:00后，直播间上了百元左右的甜虾和单价300多元的海参。与辉同行直播间的小时成交GMV迅速被拉到了900万以上。 到了24:00下播前的最后一个小时，董宇辉更是创造了一小时超过1100万GMV的销售成绩。 </p>
+<p><strong>在销冠和直播的逻辑体系里，董宇辉用自己的1分钟，就实现了20万人民币的成交额。</strong></p>
+<p>一位接近与辉同行人士透露说，在刚刚过去的上个季度中，与辉同行3个月做了25亿GMV。 跟今年7月25日东方甄选团队披露的6个月1.4亿纯利润营收对比，脱离新东方体系、单飞之后的董宇辉更赚钱了。 </p>
+<p>然而，有钱之后的董宇辉，为什么在媒体的镜头下，关于商业，却那么不想提及了呢？</p>
+<h2><strong>02</strong></h2>
+<h2><strong>董宇辉在恐惧什么？</strong></h2>
+<p>一个时间贵到可以拿分钟来计算营收的企业家，拿出超过10小时的时间，配合媒体去做一个16分钟的内容，董宇辉是诚恳的。 </p>
+<p>但在镜头里和对话中，他在每一个问题关联的本能闪躲和回避中，又显示出某种恐惧。 </p>
+<p><strong>他的角色变了。</strong></p>
+<p>最大的变化是，他从主播，变成了一个老板。 </p>
+<p>董宇辉在粉丝心智中的“受害者”人物画像，和如今作为企业家、拥有战略上绝对话语权、营收超过中国绝大多数上市公司的他之间，有着无法融合的天然鸿沟。从前新东方体系下的人设及路径依赖，和角色转变后的董宇辉之间，一些看不见的冲突正在发生。 </p>
+<p>这导致单飞100天后，首次面对媒体的他呈现出来的状态，有了一股奇怪的拧巴。 </p>
+<p>本来，这是一个屠龙少年逆袭人生的故事，他代表着普通人心里那种说不清道不明的希望感。丈母娘们（董宇辉粉丝昵称）也喜欢这样的少年成长故事，喜欢这位伶牙俐齿，擅解诗书的赛博女婿。在最新视频的评论区，董宇辉的低落状态引起了丈母娘们的心疼：“对小董好一点”，“他是一个善良的人，可能经商对于他来说是痛苦的。” </p>
+<p>过去两年，董宇辉喜欢在直播间调侃贫穷和匮乏，好像那样才可以搅动情绪、拉近和粉丝之间的关系。 </p>
+<p><strong>但现在，他说不出口了。</strong></p>
+<p>如今的他不太喜欢泼天流量的说法。因为在大众通识中，泼天流量的背后，必然关联着天文数字级别的财富。有钱之后，主播们反而会羞于谈钱。这其中的风险，不必赘述。 </p>
+<p>并且，财富和董宇辉的人设，也存在冲突。朴实的农家娃，如今已是亿万富翁。这让丈母娘们，如何是好？ </p>
+<p>李佳琦在花西子眉笔事件中的翻车事故是危险的前车之鉴。仅仅因为一句“79元哪里贵了”，超级主播形象应声而落，至今没能回去巅峰。 </p>
+<p>董宇辉如今站在比淘宝流量更大的平台上，也正在走向比李佳琦更高的位置。电商从业专家溪先生在查看了抖音的通用后台后介绍说，与辉同行直播间前一天最高同时在线人数是38万。 </p>
+<p><strong>这个位置，无数双眼睛盯着，给谁谁就会红。</strong></p>
+<p>溪先生是职业投流专家，从字节跳动商业化产品鲁班时代开始，辗转到dou+,巨量千川和巨量引擎。几年时间经手百亿资金，在服装、鞋帽和珠宝领域，曾批量孵化出多个百万直播间。 在谈及超头主播的深层恐惧时，溪先生表示他理解大主播那种踩高跷一样、战战兢兢的感觉，从业多年，他见证了太多坍塌的故事。 </p>
+<p>“大小杨哥出事，抖音没有站（支撑）主播。”这会让平台上的主播们管中窥豹，心生恐惧。他们觉得，平台在突发事件发生后，处理平台和主播的关系时，首选了剥离而不是保护。 </p>
+<p>“有了快手那边的主播独大、平台被动经验以后，抖音平台正在规避超级头部。“在平台产品机制上，未来每个主播都可以被替代。” </p>
+<p>城头变幻大王旗，“董宇辉不会是那个例外。” </p>
+<h2><strong>03</strong></h2>
+<h2><strong>被平台和算法选中的人</strong></h2>
+<p>当下，董宇辉和抖音平台之间的关系正处于蜜月期。董宇辉需要流量，平台需要一个超级赚钱的showcase，吸引一些有点商业实力又赌性十足的人和团队冲进来。</p>
+<p><strong>在算法驱动的广告世界里人机博弈，一将功成万骨枯。</strong></p>
+<p>字节系的商业化产品赚钱逻辑，一直是业界广告模型里的佼佼者。早在十多年前张一鸣刚刚创办今日头条时，他们当时非常简陋的商业化模型就已经能将ROI打正。一开始就把商业想清楚，是字节成功走到今天的核心逻辑之一。 </p>
+<p>在抖音的产品逻辑中，直播电商中的“全国总榜榜一”是一个推荐位，一个流量入口。抖音有超过8亿的DAU，层层漏斗分流后，每天依然有数亿人涌入抖音直播电商。电商流量比普通流量贵数倍，对于电商主播来说，榜一，意味着极高的渠道成本。 </p>
+<p>董宇辉被平台选中后，属于他的剧本早已写好：必须要讲一个英雄和赢的故事。以此吸引更多的人进入这个电商“流量赌局”。 </p>
+<p>如今的字节跳动，有着更庞大、完善的商业化产品体系。在字节内部，商业化客户的广告充值金额，是多个商业化团队的核心OKR指标。在商业化体系的庆功邮件中，充值金额超过200万的客户，就会由销售和运营团队一起发出全员庆祝邮件。</p>
+<p>一位曾参与字节系商业化产品设计的字节前员工说，所在团队的量化工作目标，就像天平。在保证平台必须赚钱的前提下，要不断通过测试来留住和增加客户付费，保证平台所有付费客户平衡在微赚和微亏之间。客户赚太多，平台就赚的少了；客户亏太多，他们就不再投放、流失了。</p>
+<p><strong>作为抖音天选之子的董宇辉，承担了双重任务：和抖音一起创造超级GMV神话，成为抖音的大客户真金白银反哺抖音。</strong></p>
+<p>和俞敏洪一样，董宇辉也喜欢强调自己直播间的流量主要是“自然流量”。这不是真话，但却是他们电商人设的一部分。 </p>
+<p><strong>不知该如何描述这种奇怪的价值观</strong> ：在一种拧巴扭曲的造神文化中，就好像花了钱的正常商业行为反而不正常。一个被设计中的神的形象，如果做正常人该做的事情，就会衬得人物双脚落地，沦为凡人，不再是大家仰望中的那个会飞的超人。</p>
+<p>与辉同行近日的投流素材，清清楚楚地挂在第三方数据平台蝉妈妈的与辉同行详情页面上。个位数的视频素材，被反复投流了80多次。这是业内运营层面的常规操作。但围绕这一问题，不管是俞敏洪还是董宇辉，都表现得遮遮掩掩。 </p>
+<p>多份由抖音电商创业者提供的抖音后台官方数据显示：与辉同行直播间的数据来源占比中，有接近40%官方扶持的FEED推流；与辉同行主账号在抖音的2000多万粉丝，能贡献18-24%左右的电商流量，账号内短视频内容（包含投流等运营动作）贡献10%左右电商流量，另外还有不到1%的流量来自直播广场，5%-6%的流量来自于搜索。 </p>
+<p>最值得一提的是流量来源中的“其他”。电商投流专家溪先生介绍说，只要“其他”这个选项超过25%，就是很明显的账号投流动作。与辉同行直播间的“其他”流量指标有时不到20%，有时超过27%，接近30%。 </p>
+<p>抖音官方免费给推的那40%，跟直接发钱没什么区别。但董宇辉的不安全感也恰恰来自于此。 </p>
+<p><strong>铁打的平台流水的主播。</strong></p>
+<p>免费给的东西，今天有明天无。抖音大做电商直播的这几年，平台不同阶段的需求塑造和推出了不同的主播。 </p>
+<p>从零到一阶段抖音选了很会赚吆喝的罗永浩；跟快手争夺下沉市场用户时，抖音跨平台挖来了三只羊；当平台和用户都察觉抖音电商直播气质逐渐快手化时，抖音又推出了有文化的东方甄选和俞敏洪。 </p>
+<p>如今三只羊销声匿迹。东方甄选开了一堆矩阵小号，有时候撒豆子一样排在二三十名；也有时，主账号跌到50开外。罗永浩和交个朋友直播间更是常常不在百大榜单之内，要去某个细分行业的垂直榜单尾部才能找到他们。 </p>
+<p>俞敏洪携新东方、东方甄选和董宇辉持续大半年的分家风波中，分歧和冲突带来的情绪和流量背后，抖音成为背后最大的赢家。</p>
+<p>无形的利益交换之外，商业化产品的逻辑从来都是数学题。 你得先花钱，然后他才能给你流量。 </p>
+<h2><strong>04</strong></h2>
+<h2><strong>赌场里没有真正的赢家</strong></h2>
+<p>这是一个赌场，规则是庄家定的。 玩家只要肯花大钱，就有希望成为榜一大哥。 </p>
+<p>在董宇辉直播的同时，卖和田玉的老郑一度在销量榜霸榜。他的账号只有30多万粉丝，却能挤掉2000多万粉丝基础的与辉同行，在直播间里实现了半小时卖800万流水的惊人成绩——比当日董宇辉现身直播间后的最高销量还要高。</p>
+<p><strong>然而这样砸钱换来的花团锦簇，终究是昙花一现。而这，才是抖音带货最赤裸的真相。</strong></p>
+<p>电商投放专家溪先生是过来人。他在抖音平台投流最热的那几年，赚过大钱。 </p>
+<p>当时，业内流行抖音掘金热时期，多个领域、多个百万直播间都找他来做投流操盘。最疯狂时，溪先生和助手团队要管好几个团队的投放效果，并在最终成交和收益中拿到分成佣金。他们那时利润分成比例高达30%以上，溪先生个人也曾在很长的一段时间里，接二连三地日进百万。 </p>
+<p>那时他感觉每分每秒都是金币的声音，连阅读资讯、输入信息，也要先请助手帮助完成初筛。他要把自己所有的认知和时间，都用在围绕字节生态的投流研究和实战中。 </p>
+<p>狠赚了两三年后，溪先生逐渐发现自己做不下去了。随着字节系商业化产品的逐渐完善，更多的人冲了进来，平台红利消失，一线从业者认知中能计算出的确定性收益，都在看不见的大手下变得模糊不清。 </p>
+<p><strong>投流砸钱变成一场不确定性无限增加的豪赌。</strong></p>
+<p>11.28日，与辉同行霸榜抖音直播电商期间，也曾被几个服装和珠宝行业的账号在不同时段挤掉榜一。在抖音的产品体系里，粉丝量不值钱，充钱就可以改写竞争格局。 </p>
+<p>溪先生认识卖玉的老郑。老郑在抖音平台的激进策略很冒险，通过投流的方式把自己投到榜一成本极高。“钱给平台赚了，商家本身可能会亏钱。”直播电商中的下单属于激情消费，和田玉产品品类退货率极高。“很多人买回来把玩一个星期，又退了回来。” </p>
+<p>虽然在抖音的上榜规则里，明确标注了上榜的排序规则包含了带货力、粉丝团经营能力、互动力、吸引力等维度综合排名。但据从业者介绍，根据他们具体实操层面的“手感”，不管官方条款中写了多少干扰信息，实际上对榜单影响力最大的，还是带货层面的GMV，只要GMV达到榜首，直播间排名就在榜一。 </p>
+<p><strong>电商投放专家溪先生说，把GMV刷到第一不是什么难事。</strong> 电商生态内的刷单产业链很成熟， <strong>刷100万GMV，只需要给服务商支付2000元的服务费。</strong> 第三方就会代刷单冲榜，双方约定好刷单订单不发货。接着服务商会在未来的三天分批次陆续退单。 </p>
+<p>一位流量创新团队负责人LL也表示，在当下的电商环境中，流量角度的投流ROI越来越算不过来账。确实有很多商家开始转用刷单的方式做流量。刷单的成本主要是被平台扣掉的30%交易分成；渠道标记这个成本为0.3，比直接投流的1要划算。 </p>
+<p><strong>我问他们这样操作会不会触发平台的反作弊机制？</strong> 两位流量专家告诉我，在实际的业务场景中，平台的接口人常常参与合谋，因为商家的销量增长和平台某些团队的绩效增长目标是一致的。 </p>
+<p>电商平台大战中，有些电商平台方接口人甚至会给辖区商家直接下任务，让他们刷到某个增量。 </p>
+<p><strong>这是很让人沮丧的现状，直播电商行业不再有新故事。</strong></p>
+<p><strong>整个行业在重复着一遍遍在打造showcase，重复野蛮生长、光速扩张和轰然倒塌的故事。</strong></p>
+<h2><strong>05</strong></h2>
+<h2><strong>屏幕背后傀儡的神</strong></h2>
+<p>作为抖音电商造出来的新神，董宇辉正是站在前人倒塌的地方，被举上了神坛。那些昨天自称为“李佳琦女孩”的人，今天就可以成为董宇辉的“精神丈母娘”。 </p>
+<p>短视频电商对用户的影响、重塑和转化，有一双看不见但又远超货架电商的翻云覆雨手。 </p>
+<p>一个季度能赚25亿的董宇辉，全年能做到100亿甚至超越100亿的营收。秒杀中国绝大多数上市公司。如果平台愿意，他还可以赚更多。 </p>
+<p>四个月前，为了脱离新东方和东方甄选，他砸上了名声也拼尽了全力。四个月后的今天，他独立且捞到了实惠，却没有得到他想象中的自由。 </p>
+<p><strong>他依然被无数双眼睛盯着。</strong></p>
+<p>在商业公司计算营收的资本逻辑里，他之前的那套理论和利他故事很快就会讲不下去。他的成功和恐惧一体两面，他的运气和豪赌盈亏同源。</p>
+<p>他也知道，超级头部会消失，另一只靴子会落地。但他希望这一天晚一点来。他睡不好觉、不敢承认自己有钱，却要在镜头后扮演一个始终情绪稳定，活在屏幕里的神。 </p>
+<p>他是显眼的风筝，但身后那条线，并没有攥在自己手里。 </p>
+<p>作者：几何小姐姐，商业作者。腾讯科技2022年度作者；虎嗅年度作者，虎嗅深流联盟成员；钛媒体2022年度作品大奖获得者。本文首发自公众号：几何小姐姐，合作请联系授权微信（ID：jihexj2019)  </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/uLa7azsEZ5vTtCZFC64uFA?token=1666337316&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“几何小姐姐”</a>，作者：几何小姐姐，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3058386321161733</guid><pubDate>Sun, 01 Dec 2024 08:49:00 +0800</pubDate></item><item><title>直播间的“女老板”们，不卖产品卖演技</title><link>https://36kr.com/p/3058671207916680</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p label="正文"><span style="text-align: justify; text-wrap-mode: wrap;  text-indent: 0em;  letter-spacing: 0.034em;">   最近，直播界横空出世两位</span><span style="text-align: justify; text-wrap-mode: wrap;  text-indent: 0em;  letter-spacing: 0.034em;">“</span><span style="text-align: justify; text-wrap-mode: wrap;  text-indent: 0em;  letter-spacing: 0.034em;">带货一姐</span><span style="text-align: justify; text-wrap-mode: wrap;  text-indent: 0em;  letter-spacing: 0.034em;">”</span><span style="text-align: justify; text-wrap-mode: wrap;  text-indent: 0em;  letter-spacing: 0.034em;">，坊间号称</span><span style="text-align: justify; text-wrap-mode: wrap;  text-indent: 0em;  letter-spacing: 0.034em;">“南COCO北路遥”。</span><br/></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">一位，是“男装一姐”澳门COCO姐，另一位，是新晋“女包一姐”路遥。澳门COCO姐近两个月单月销售额从破五千万到破亿，路遥则在“路遥女包（不屑版）”和“霖景女包”两个账号轮流直播，不到一个月，销售额破亿。</span>
+<o:p></o:p></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">在直播间，她们扮演着“女总裁”“女老板”的角色，张口闭口就是“给我弟弟安排套豪宅”“去给coach全球总裁打电话”被网友怒赞“拥有奥斯卡般的演技”。</span>
+<o:p></o:p></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">与此同时，她们在“霸气凌人”的气势下，拿出的却是与这份气势极不匹配的低价产品，要么是8.8元两条的内裤，要么是5块钱一个的小卡包。</span>
+<o:p></o:p></p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img js_insertlocalimg" data-backh="492" data-backw="578" data-cropselx1="0" data-cropselx2="546" data-cropsely1="0" data-cropsely2="464" data-imgfileid="100121403" data-ratio="1.108761329305136" data-s="300,640" data-type="jpeg" data-w="331" src="https://img.36krcdn.com/hsossms/20241130/v2_75349c001ff74f548fa60ffd2f9426bb@000000_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 546px;height: 605px;"/>
+<span style="caret-letter-spacing: 0.578px;background-text-indent: 0em;">（图源：@澳门COCO姐）</span>
+</section>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">这看起来非常像短剧，即通过人设反差、剧情反转带来巨大爽感。既制造出抽象感拉满的笑点，又极大戳中人性“捡便宜”的心理。与此同时，用户也随之成为短剧主角，被屏幕前直播间里的主播赋予角色，与之参与互动。</span>
+<o:p></o:p></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">与古早的剧本直播间不同，在这种情况下，用户知道主播在演戏，一边想看主播一本正经地演戏，如何拥有超绝信念感不笑场，一边无意间被代入主播的剧情设定，并被屏幕上快速闪过的产品吸引注意力，对其低廉的价格心动。</span>
+<o:p></o:p></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">这种“人设式”直播间将秀场直播与直播带货结合，刷新了直播带货互动新玩法，但随之而来可能出现的种种问题，诸如形式单一、虚假宣传、擦边大牌等等，也在影响着这一玩法的持久性。</span>
+<o:p></o:p></p>
+<p style="text-align: justify;text-indent: 0em;"><img class="rich_pages wxw-img" data-backh="83" data-backw="546" data-galleryid="" data-imgfileid="100121318" data-ratio="0.1527777777777778" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241130/v2_ad77a7aa16d94e729bd0dd91e69f3e1d@000000_oswg7476oswg1080oswg165_img_000?x-oss-process=image/format,jpg/interlace,1" style="text-indent: 0em;letter-spacing: 0.034em;text-align: center;width: 100%;height: auto;"/></p>
+<p style="text-align: center;text-indent: 0em;"><strong style="caret-letter-spacing: 0.578px;text-align: center;white-space: normal;background-">“人设式”带货</strong></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">奢侈品箱包店般的装潢里，穿着皮草披风的小麦色</span><span style="letter-spacing: 0.034em;text-indent: 0em;">CoCo姐站在中间，带着抢眼的大牌Logo耳环，脖子上挂着口哨，背后站着四五位西装革履的男模女模，甚至还有外国面孔，面前则是盖着黑色绒布的产品。</span></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">如此声势浩大的阵仗，像极了奢侈品拍卖会场。不过，随着她的成名句“给弟弟安排豪宅”出圈的，是8.8元两条的虫草内裤、17元三条的人参内裤。</span>
+<o:p></o:p></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">最引人注意的是，她的直播间屏幕顶部有一行“我是女王穿越卖底裤第X集”，显而易见使用了短剧卖点。CoCo姐，用的就是女王重生卖底裤的人设。</span>
+<o:p></o:p></p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img js_insertlocalimg" data-backh="598" data-backw="578" data-imgfileid="100121404" data-ratio="1.0342592592592592" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241130/v2_9c48b9094c424c2495c9d4cad00f0d10@000000_oswg885810oswg1080oswg1117_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/>
+<span style="caret-letter-spacing: 0.578px;background-text-indent: 0em;">（图源：@澳门COCO姐）</span>
+</section>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">在她的商品橱窗里，服饰内衣占比最高，且以男装为主，均价才80元。其中不到5元一条的“野蛮男人”内裤，销量排名第二，收获近75万销售额。售价9.9元、金光闪闪的“电镀”奥特曼（实际材质是陶瓷）更是俘获不少男性用户的心。其他产品包括日用百货、3C数码、厨卫家电，均价都在10-30元左右。</span></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">她的直播间，卖的不是奢侈品，而是让用户购买奢侈品的体验。上一秒刚说“帮我准备50万，玩把大的”，下一秒就是“告诉一姐口袋有没有一两块钱”，让大家用个位数花出百万元级别的感觉。</span>
+<o:p></o:p></p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img js_insertlocalimg" data-backh="497" data-backw="578" data-imgfileid="100121406" data-ratio="0.859375" data-s="300,640" data-type="gif" data-w="640" src="https://img.36krcdn.com/hsossms/20241130/v2_e13f5bc7e105491294c55e02be0b0a17@000000_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/>
+<span style="caret-letter-spacing: 0.578px;background-text-indent: 0em;">（图源：@澳门COCO姐）</span>
+</section>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">据蝉妈妈数据，<span style="letter-spacing: 0.51px;">CoCo</span>姐的直播粉丝群体，男性粉丝占比60%，其中30岁以上男性占比居多，31-40岁占比更是超40%。CoCo姐精准定位中年男性群体，凭实力稳居抖音男装带货榜一。</span></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">新晋箱包带货一姐路遥，也凭借类似的“人设式”带货走红。“18岁来广州，从一个一针一线的女工做到如今的老板娘”是她的定位。</span>
+<o:p></o:p></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">她在“路遥女包（不屑版）”和“霖景女包”两个账号轮流直播，时不时说自己600万账号被封，点不了开播键。这是她最擅长的“虚空索敌”剧情的一部分，也就是制造某位同行“假想敌”与她恶性竞争，包括但不限于举报、抄袭等行为。</span></p>
+<p style="text-align: center;text-indent: 0em;"><img class="rich_pages wxw-img" data-galleryid="" data-imgfileid="100121422" data-ratio="1.337962962962963" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241130/v2_b0398c14d2994ea495e332d0ae33a6ca@000000_oswg160480oswg1080oswg1445_img_000?x-oss-process=image/format,jpg/interlace,1" style='text-align: center;Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;letter-spacing: 0.034em;'/><span style='text-align: center;Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;caret-letter-spacing: 0.578px;background-text-indent: 0em;'>（图源：@<span style="background-letter-spacing: 0.578px;text-decoration: none solid #B2B2B2;">路遥女包（不屑版）</span>）</span></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">点开路遥直播间，公屏上一串“发生什么了？只认定路遥！”让人云里雾里。实际上，这是她在直播间设置的抽福袋口令红包。用户通过发送口令，相当于间接参与到了路遥“虚空索敌”的剧情。但谁也不知道到底发生了什么，只看到一脸不屑的路遥，正经地说着“我不惹事，但也不怕事”“不蒸馒头争口气”。</span></p>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">另一条剧情线，则是路遥与“助理”叶子的场外互动。不出镜只出声的叶子一副老实打工人形象，最常说的台词是“好的姐”。而作为“老板”的路遥，则常常会因为叶子上错产品大发雷霆，甚至喊着“下播”，而叶子则会拿出经典产品“卡皮巴拉背包”让老板消气。当然，卡皮巴拉也顺理成章成为最带货的产品之一。</span>
+<o:p></o:p></p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img js_insertlocalimg" data-backh="716" data-backw="578" data-imgfileid="100121408" data-ratio="1.2390625" data-s="300,640" data-type="gif" data-w="640" src="https://img.36krcdn.com/hsossms/20241130/v2_67f9cc85ccc24ddaa5d8f8d0f4c005a5@000000_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/>
+</section>
+<p style="text-align: justify;text-indent: 0em;"><span style="letter-spacing: 0.034em;text-indent: 0em;">除了造人设，路遥与<span style="letter-spacing: 0.51px;">CoCo</span>姐的相似之处，还有带货的反差感。“紫色为尊，紫色为贵”“采用法国一年只开一季的薰衣草做定色定染”“几十个法国工匠做了一个月”，种种高档词汇，打造出殿堂级产品气质。然而，等到产品链接一上，价格只是一杯奶茶钱。李诞也不得不服，一边笑得前仰后合，一边怒赞天才策划。</span></p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img" data-backh="84" data-backw="546" data-cropselx1="0" data-cropselx2="546" data-cropsely1="0" data-cropsely2="83" data-galleryid="" data-imgfileid="100121323" data-ratio="0.1537037037037037" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241130/v2_326b2b119a6441a88d10f65cd3e390e6@000000_oswg8008oswg1080oswg166_img_000?x-oss-process=image/format,jpg/interlace,1" style="text-indent: 0em;letter-spacing: 0.578px;width: 100%;height: auto;"/>
+</section>
+<section style="letter-spacing: 0.578px;text-wrap: wrap;text-align: center;">
+<span style="caret-background-"><strong>剧情直播带货的变化</strong></span>
+</section>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">这种剧情式直播带货，此前也有不少品牌使用，最让人印象深刻的是美妆国货品牌佰草集。2021年10月底，佰草集在原有官方直播间之外，开设“佰草集延禧宫正传”账号，主播化身“嬷嬷”“贵妃”在“宫廷大戏”中开启直播带货，当即就被业内称为直播带货的“场景天花板”。</span></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">佰草集曾与《延禧攻略》合作，借助剧中角色推广美白产品，因此有了与“延禧”IP的合作基础。考虑到品牌目标受众与清宫戏的女性受众有着较高契合度，以“延禧”IP打造直播间，通过角色扮演和剧情表演配合带货，既能够让用户体验看剧式购物，又能够有效延长用户停留时间，看似的确是新意且有效的尝试。</span>
+<o:p></o:p></p>
+<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-backh="692" data-backw="546" data-cropselx1="0" data-cropselx2="546" data-cropsely1="0" data-cropsely2="692" data-imgfileid="100121409" data-ratio="1.2671875" data-s="300,640" data-type="gif" data-w="640" src="https://img.36krcdn.com/hsossms/20241130/v2_80797f2ead034ccdb030cfe731d87d35@000000_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/><span style="caret-letter-spacing: 0.578px;background-text-wrap-mode: wrap;">（图源：@佰草集延禧宫正传）</span></p>
+<p style="text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">但不到一年，“佰草集延禧宫正传”账号停更。一方面，由于主播的变化导致账号错失人设打造黄金期，人物关系也没能延续；另一方面，剧情表演有损产品信息的充分展示，而佰草集产品均价过百，用户很难轻易下单，影响了销售转化率。</span></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">除了主播的古装造型有所保留，“佰草集延禧宫正传”直播间后期基本回归正常的带货模式。遗憾之外，留下秀场直播与直播带货如何结合的难题待解。</span>
+<o:p></o:p></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">如今，品牌在早期没能做好的剧情式带货，一方面，发展为品牌短剧的形式，另一方面，在不少内容型直播间诞生出新的可能。</span>
+<o:p></o:p></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">上半年，国货品牌洁丽雅接班人“毛巾少爷”石展承，凭借在抖音发布的短剧《毛巾帝国》爆火。极具反差感的企三代“废柴少爷”与“从英国回来的二叔”争家产，上演“豪门内斗”，迎合了网文叙事与当下短剧市场的用户喜好。不仅打造出“毛巾少爷”IP，更让洁丽雅获得了巨大曝光。</span>
+<o:p></o:p></p>
+<p style="text-align: center;"><img class="rich_pages wxw-img" data-backh="606" data-backw="578" data-galleryid="" data-imgfileid="100121411" data-ratio="1.048148148148148" data-s="300,640" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20241130/v2_06a9ae47a0ac481da5b56d0ba7499e2b@000000_oswg72921oswg1080oswg1132_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/><span style="text-wrap-mode: wrap;letter-spacing: 0.578px;caret-background-">（图源：@毛巾少爷</span><span style="text-wrap-mode: wrap;letter-spacing: 0.578px;caret-background-">）</span></p>
+<p style="text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">“毛巾少爷”趁热打铁，开启直播首秀，便将短剧与直播带货结合。在直播间，先播放了一段短剧《毛巾少爷上位记》，其中不时提到洁丽雅相关产品，既通过剧情将用户引到直播间，又自然地让产品得到曝光，随后顺势开启带货模式，推动用户注意力进一步变现。</span></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">这种创新形式也带来了可观的数据，该场直播单场GMV破500万，让“毛巾少爷”拿下当晚抖音带货总榜第一名。同时，直播间总观看人数破150万，账号涨粉4万。</span>
+<o:p></o:p></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">除了用短剧为直播带货做营销，在剧情式带货方面，还出现了类似佰草集开启的角色扮演模式的账号。比如，“慈元阁道齐仙团”以《西游记》里的蟠桃盛会为主题，多位主播则扮演起《西游记》里的神话人物，一边有嫦娥、哪吒等不同“仙家”轮番登场表演，一边有玉帝喊着“仙品仙选”开启带货，演的有模有样。不同于佰草集的品牌直播间，他们不受单一品牌限制，可以与多品牌建立联系，有更大的发挥空间。</span>
+<o:p></o:p></p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img js_insertlocalimg" data-backh="510" data-backw="578" data-imgfileid="100121412" data-ratio="0.8828125" data-s="300,640" data-type="gif" data-w="640" src="https://img.36krcdn.com/hsossms/20241130/v2_943da18212524c508fe8e6ac5b48036b@000000_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/>
+<span style="text-wrap-mode: wrap;letter-spacing: 0.578px;caret-background-">（图源：@慈元阁道齐仙团</span>
+<span style="text-wrap-mode: wrap;letter-spacing: 0.578px;caret-background-">）</span>
+</section>
+<p style="text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">以CoCo姐、路遥为代表的人设式主播，则以短剧式人设再次创新剧情直播带货。这种方式只用塑造鲜明的主播人设，其他虚构的配角均可通过主播的台词让用户“脑补”，不仅大大减少人力成本，还可以吊足用户胃口，吸引用户参与互动，让单向剧情演绎变成互动演绎，通过爽剧模式与反差效果激发用户购买欲。</span></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><img class="rich_pages wxw-img" data-backh="83" data-backw="546" data-galleryid="" data-imgfileid="100121329" data-ratio="0.1527777777777778" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20241130/v2_bede180e51604b80b635722b99aeee63@000000_oswg10460oswg1080oswg165_img_000?x-oss-process=image/format,jpg/interlace,1" style="letter-spacing: 0.034em;text-wrap-mode: wrap;text-align: center;width: 100%;height: auto;"/></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: center;"><strong style="caret-letter-spacing: 0.578px;text-align: center;white-space: normal;background-">“短剧式”带货能玩多久？</strong></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">直播带货的核心，绕不开的还是人、货、场。“佰草集延禧宫正传”曾经以有吸引力的“场”与“人”出圈，但没有解决“货”的转化问题。最后又因“人”的变化、“场”的不再新颖而遗憾退场。</span>
+<o:p></o:p></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">相比传统的直播带货，剧情式带货趣味性更强，但对策划的要求和投入都大大提高。比如，“慈元阁道齐仙团”有着高质量的才艺展示，但直播数据表现平平，“货”的转化也不理想。由于其所带产品多为食品饮料、日用百货，即便日均观看7.5万，日均销售额却还不足一万。</span>
+<o:p></o:p></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">CoCo姐、路遥以人设塑造出圈，奢侈风直播间场景与低价产品的反差，还推动了“货”的转化，但可持续性也令人担忧。</span>
+<o:p></o:p></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">一方面，同类账号在稀释观众的注意力。比如，在女包带货界，疑似路遥“对家”的洛洛、子琪等卖包主播，有着类似的快速过包、隔空喊话风格。</span>
+<o:p></o:p></p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img js_insertlocalimg" data-backh="700" data-backw="578" data-imgfileid="100121413" data-ratio="1.2109375" data-s="300,640" data-type="gif" data-w="640" src="https://img.36krcdn.com/hsossms/20241130/v2_141b8d03d7624b988c1d1cd62349d6bd@000000_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/>
+<span style="letter-spacing: 0.578px;text-wrap-mode: wrap;caret-background-">（图源：@洛洛的包</span>
+<span style="letter-spacing: 0.578px;text-wrap-mode: wrap;caret-background-">）</span>
+</section>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">不同于随时暴走的路遥，洛洛走的是“脆弱中年女老板”人设，在温情的bgm里，上演“第二天还要送儿子上学”“开家长会”等兼顾家庭与事业的女老板剧情。</span></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">但网友对比发现，她们有着相同的话术，甚至同款商品封面，便猜测她们都来自同一家公司，称“一个晚班，一个早班”“一家公司演戏的对家”。如果复制粘贴的账号越来越多，无法在内容上出新，观众也会看腻。</span>
+<o:p></o:p></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">另一方面，她们所售卖的产品大部分是白牌产品，高端的架势，浮夸的话术，低廉的价格，不可避免令人对产品质量产生怀疑。比如，coco姐带货的内裤上“六颗磁石”的说法容易让人联想产品有特殊功效，擦边大牌的情况更是屡见不鲜，路遥就经常说自己手上的包型是“neverfull”“on the go”，有网友戏称她们是“声势浩大地卖破烂”。</span>
+<o:p></o:p></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">不过，不少用户也只是为直播间的情绪价值买单，“反正也就不到一杯奶茶钱，还要啥自行车”，更有一针见血的评论称这种情况为“买票看戏送东西”。</span>
+<o:p></o:p></p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img js_insertlocalimg" data-backh="451" data-backw="578" data-imgfileid="100121414" data-ratio="0.7796296296296297" data-s="300,640" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20241130/v2_bbf31e8784714325829ad600bcf017a8@000000_oswg104629oswg1080oswg842_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/>
+<span style="caret-letter-spacing: 0.578px;background-text-wrap-mode: wrap;">（图源：@澳门COCO姐）</span>
+</section>
+<p style="text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">白牌产品没有大牌效应，本身难以出圈。通过“爽剧”般带货方式，白牌产品有机会在下沉市场得到更多曝光，但剧情与人设将流量引进门，还需要过硬的产品质量将用户留住，这样才能既巩固直播间的口碑，又提升白牌产品的市场认知度。</span></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">直播间曾经还存在“扮穷”“卖惨”人设，以苦情戏博流量，让人难辨真假，不少中老年用户就沉浸在这些剧本直播间里上当受骗。</span>
+<o:p></o:p></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">比如，最近冒出不少“我的老公是迪拜小王子”叙事，以“要出国生活，以后不做直播”为噱头开始“大甩卖”，但播了好多天也一直没停播，就像永远喊着“最后三天，亏本甩卖”却一直没倒闭的店。</span>
+<o:p></o:p></p>
+<section style="text-align: center;">
+<img class="rich_pages wxw-img" data-backh="770" data-backw="578" data-galleryid="" data-imgfileid="100121415" data-ratio="1.3324074074074075" data-s="300,640" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20241130/v2_3ddf7052957e435398bda7439faa1ef1@000000_oswg150820oswg1080oswg1439_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/>
+<span style="caret-letter-spacing: 0.578px;background-text-wrap-mode: wrap;">（图源：@Eric阳阳）</span>
+</section>
+<p style="text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">虽然现在部分这种打造人设的账号，会在个人简介里告知用户“家庭剧本演绎”，直播间也会出现“虚构剧情”的提示，但随着平台监管力度加强，投机心态注定无法长久。</span></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"><span style="letter-spacing: 0.034em;text-indent: 0em;text-wrap-mode: wrap;">“短剧式”带货通过戏剧性情境吸引用户关注，是秀场直播与直播带货的有机结合，但只有在保证产品质量的情况下，让剧情带货与商品介绍更好地融合，获取用户的信赖，实现人、货、场的平衡，才有更好的发展空间。</span></p>
+<p style="letter-spacing: 0.578px;text-wrap: wrap;text-align: justify;"></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg2MjYxNTUyMQ==&amp;mid=2247605098&amp;idx=1&amp;sn=eaad8ae27eb913e188f3f3c504012c13&amp;chksm=cf8f88331aeb96a50c6ef80943c869edf562c14efefafabc40526f5a2b7002e12ce31474525a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" style="border:solid #999;border-width:0 0 1px;word-wrap:break-word;">“毒眸”（ID：DomoreDumou）</a>，作者：毒眸编辑部，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3058671207916680</guid><pubDate>Sun, 01 Dec 2024 08:59:00 +0800</pubDate></item></channel></rss>
