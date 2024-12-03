@@ -1,116 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 03 Dec 2024 16:00:26 +0800</lastBuildDate><pubDate>Tue, 03 Dec 2024 16:00:26 +0800</pubDate><item><title>全网热评的李飞飞世界生成模型，真的能构建物理世界吗？</title><link>https://36kr.com/p/3062779211261319</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>还记得《爱丽丝梦游仙境》开头那个神奇的兔子洞吗？现在你不需要追着白兔跳进去，只要点击一下鼠标就行。</p>
-<p>北京时间12月3日凌晨，李飞飞空间智能World Labs的首个项目推出第一个重磅成果：世界生成。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,538" src="https://img.36krcdn.com/hsossms/20241203/v2_bc3e98e679bf45b69a633aabc3973da9@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>世界生成是一个可以用单个图像生成 3D 物理世界的人工智能系统，World Labs的官方账号连发9条X（原Twitter），更新项目的最新进展：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1161" src="https://img.36krcdn.com/hsossms/20241203/v2_6a0addf3fbec4775929287717f8f7ca2@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>这一更新激发了AI界的热议。英伟达高级研究科学家、李飞飞高徒Jim Fan在X上表示，这是个可以和Sora媲美的跨时代的产品。他说“GenAI 正在生成越来越具高维度的关于人类体验的快照。Stable Diffusion是一个二维快照。Sora 是一个二维加时间快照。现在，World Labs 是一个三维、完全沉浸式的快照。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,807" src="https://img.36krcdn.com/hsossms/20241203/v2_aae1be6b24334d8c8691e6adbd55a72d@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>a16z的合伙人Sarah Wang也表示，“AI 生成的连贯 3D 世界已经通过 @theworldlabs 问世。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,702" src="https://img.36krcdn.com/hsossms/20241203/v2_cd5e4578b21c43ef81d6a97883814047@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>来自Google Brain的科学家Ben Poole试图拆解其背后的原理，把这一技术的开创归功于谷歌的CAT3D项目。但奈何这个项目就是没李飞飞的项目火。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1031" src="https://img.36krcdn.com/hsossms/20241203/v2_832cb8b33827412c958479cde7d9c5c4@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>而在卡内基梅隆大学机器人研究所工作过的Haoru Xue展望了这个产品的潜在应用：在具身智能里构建无穷现实世界。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,968" src="https://img.36krcdn.com/hsossms/20241203/v2_8fc89ee68ebb4f2db1a38fd4d6a08900@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>看了这么多评论，World Labs是不是真的能做到跨越世代呢？从其效果看，确实可以。</p>
-<p>从任何一张平平无奇的照片，生成一个可以进去闲逛的3D世界。这听起来像是科幻作家的幻想，但从今天开始，靠着World Labs的发明，这成了触手可及的现实。</p>
-<h2><strong>1 世界生成模型，不同在哪里？</strong></h2>
-<p>之前我们也看到过各种生成3D可交互场景的AI生成产品，包括可即时互动的《我的世界》Oasis。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1145" src="https://img.36krcdn.com/hsossms/20241203/v2_bd8612060df748c9afe5eb6d7d2e2705@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>但World Labs这项技术的核心突破在于直接生成三维场景，而不是停留在传统的像素层面。当一个场景被生成后，它就像真实世界一样稳定存在——你可以在其中自由移动，近距离观察一朵花的细节，或是绕到墙角后看看隐藏的风景。而像素层面生成则很难克服随机性的问题。</p>
-<p class="image-wrapper"><img data-img-size-val="640,245" src="https://img.36krcdn.com/hsossms/20241203/v2_aae56ced8a3e41f4b1ec09c070c47e0d@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更重要的是，这个世界遵循基本的物理规则，具有真实的深度感和空间感。</p>
-<p>World Labs还能做出很多场景控制。比如，镜头上，你可以调节虚拟相机的景深，做出大名鼎鼎的希区柯克变焦。</p>
-<p class="image-wrapper"><img data-img-size-val="600,451" src="https://img.36krcdn.com/hsossms/20241203/v2_0bd5382dd1e14bc49deff20ff80a6b2a@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>甚至还可以设置多个虚拟镜头，调节镜头在这世界中的运动。</p>
-<p>效果方面，你还能为场景添加动态效果，让树叶随风摇曳，让水面泛起波纹。这说明World Labs可以非常好的识别到3D物品的边缘和实体，而非仅仅是复原景深。</p>
-<p class="image-wrapper"><img data-img-size-val="500,376" src="https://img.36krcdn.com/hsossms/20241203/v2_668b1baf31a84437965458a9e0a554c1@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="500,376" src="https://img.36krcdn.com/hsossms/20241203/v2_aca653b8a28140408c0ba795dfb8425f@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更让惊喜的是，这个系统不仅能处理普通照片，还能应付艺术作品。</p>
-<p>想象一下：你可以溜进梵高的《夜晚露天咖啡馆》，在那些标志性的黄色灯光下点杯咖啡；或者在爱德华·霍普的《夜游人》中，从另一个角度打量那些永恒的夜归人。这大概是最接近"穿越名画"的体验了——虽然你还是不能真的喝到那杯咖啡。</p>
-<p>拿到测试资格的创作者，已经开始迫不及待的开始魔改这项技术，把它塞进视频生成的工作流内。你可以先用文本生成一张图片，再将其转化为3D场景，然后在其中自由设计镜头运动。已经有创作者开始尝试这种新的工作方式——他们将World Labs的技术与现有的AI工具相结合，比如Runway和AI mod，出片效果相当惊艳。</p>
-<h2><strong>2 解码世界生成背后的技术</strong></h2>
-<p>虽然World Labs并没有完全公布其背后的技术论文，但根据一些蛛丝马迹，我们还是可以大概重构其技术背景。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,793" src="https://img.36krcdn.com/hsossms/20241203/v2_1f8bf463c3f34b77a5afbb46cb1a0b4b@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>在World Labs提供的一系列场景控制中，有一种是景深还原。这是目前实现图片到3D场景重构的核心方法。</p>
-<p>早在2023年末，首尔大学的Lucid Dreamer和Skybox AI 就已经实现了可探索的图片到3D场景的构成。它先用类似Stable Diffusion这样的AI模型生成图像，然后利用点云（即用大量3D坐标点来表示物体表面的数据结构，就像用无数小点描绘空间形状）来确保空间准确性。系统Diffusion 模型创造新视角画面时，会参考这些点云投影作为指引，确保生成的内容符合3D几何规律。</p>
-<p>生成的2D图像随后通过景深估计（预测图像中物体远近的技术）转换为新的3D点，再用高斯散射技术（一种通过在空间中分布带有颜色和透明度的小球体来实现逼真3D渲染的方法）将这些离散的点转化为连续平滑的3D场景。整个过程就像是用AI来"画"3D空间，但每一笔都受到严格的几何约束，确保最终生成的虚拟世界既真实自然又能自由探索。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,621" src="https://img.36krcdn.com/hsossms/20241203/v2_808a02c43a744ea5b243af727281f3a1@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>但以当时的技术，它无法实现360度全场景的生成，3D的景深感也非常有限。但这一技术路径很可能就是World Labs实现的基础。</p>
-<p class="image-wrapper"><img data-img-size-val="600,218" src="https://img.36krcdn.com/hsossms/20241203/v2_2e9a75b1674f449db8d428667b927d64@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而Ben Poole提到的2024年5月Deepmind 发布CAT3D，其核心是一个"两步走"的过程 - 首先用条件扩散模型（类似Stable Diffusion）基于输入图片生成多个不同视角的画面，然后使用类似NeRF（神经辐射场，一种将2D图像转换为3D场景的神经网络技术）的方法将这些视角整合成一个连续的3D空间。这就像是AI先从不同角度"想象"场景会是什么样子，然后把这些"想象"拼接成一个可以自由探索的3D世界。关键突破在于，他们把原本需要大量真实照片的NeRF技术，改造成了只需几张甚至一张图片就能工作的系统，而且处理速度快得惊人，仅需一分钟。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,511" src="https://img.36krcdn.com/hsossms/20241203/v2_ce78c660bc694db8b8922eb290d3e6b5@5091053_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>World Labs跟更像是两者的一种结合态，既能延展生成场景，又能使场景内的3D物品更立体多角度。</p>
-<h2><strong>3 算不上重构物理世界，但未来也许可以</strong></h2>
-<p>当然，目前展示的还是早期成果。在我们的试用之中，自由移动是有边界的。这也许是因为生成的3D模型并非即时渲染，很难能保证大规模镜头运动之后，其他部分的生成。</p>
-<p class="image-wrapper"><img data-img-size-val="600,450" src="https://img.36krcdn.com/hsossms/20241203/v2_f708ae30ca584345a33b9e5e96a431e5@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另外，这个世界是静止的。你虽然可以用特效调节它，但角色之类可动的内容都需要借助其他工具生成。这是个可探索的世界，但你能做的探索，可能仅仅是溜达。</p>
-<p>至于物理世界的互动，除了我们现在能看到，从展示视频中出现的物理反弹，沿着3D轮廓的水波纹外，其他都没什么踪迹。这只能说明，World Labs创造的世界中，至多是有3D体积的建构和基础力反馈。很难说它“模拟了物理世界”。</p>
-<p>然而，这可能只是World Labs和李飞飞空间智能野心的第一步。李飞飞自己在5月份的讲座中就提到，“如果我们想让AI超越当前能力，我们不仅想要能够看到和说话的AI，我们还想要能够行动的AI。空间智能的最新里程碑是，教计算机看到、学习、行动，并学习看到和行动得更好。“让这个静止的世界动起来，才是空间智能心之所向。</p>
-<p>他们在博客中也表示，正在努力提升生成世界的规模和细节质量，并探索更多交互方式。在不远的将来，任何人都可能通过简单的操作创建自己的3D世界，并与之深度交互。</p>
-<p>这让人不禁想起博尔赫斯笔下的图书馆，只不过这次不是无限的书籍，而是无限的空间。在AI技术的魔法加持下，每张图片都可能变成一个入口，通向独特的数字领地。这大概就是技术给我们的承诺：不是简单的观看，而是真正的造访；不是被动的欣赏，而是主动的探索。</p>
-<p>所以，你们准备好钻进AI世界的兔子洞了吗？</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ehDb4WlH_Ef-bFf4kiLLSQ" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，作者：郝博阳，编辑：郑可君，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062779211261319</guid><pubDate>Tue, 03 Dec 2024 15:09:00 +0800</pubDate></item><item><title>英特尔CEO下台内幕：与董事会爆发冲突，要么退休要么被罢免</title><link>https://36kr.com/p/3062780461262217</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>12月3日消息，英特尔CEO帕特·格尔辛格（Pat Gelsinger）在上任三年后被迫离职，原因是董事会对他重振这家芯片制造巨头的计划失去信心，此举进一步加剧了英特尔面临的动荡局面。</p>
-<p>据知情人士透露，格尔辛格上周曾与董事会讨论英特尔夺回市场份额以及缩小与英伟达之间差距的进展情况，当时双方的冲突达到了顶点。据悉，格尔辛格面临退休或被解雇的选择，而他最终选择了结束自己在英特尔的职业生涯。</p>
-<p>英特尔在一份声明中宣布，在董事会寻找格尔辛格的继任者期间，首席财务官大卫·津斯纳（David Zinsner）和执行副总裁米歇尔·约翰斯顿·霍尔索斯（Michelle Johnston Holthaus）将共同担任临时联席CEO。同时，英特尔董事会独立主席弗兰克·耶利（Frank Yeary）将临时担任执行主席一职。</p>
-<p>现年63岁的格尔辛格曾被视为这家芯片巨头的救星。他在三年前上任后，公开表达了对英特尔的热爱，并誓言要让该公司重新夺回在半导体行业的领先地位。格尔辛格十几岁时就加入了英特尔，但在2009年离开了公司，成为VMware的CEO。2021年回归后，他承诺要重新确立英特尔在制造业的领先地位，这一地位已被台积电等竞争对手所夺走。</p>
-<p>英特尔的投资者迫切希望看到公司的变革，因此对CEO的离职最初表示了欢迎。周一，该公司在纽约市场的股价一度上涨了6%，但随后在盘中有所回落。纽约股市收盘时，该股下跌了0.5%，报收于每股23.93美元，今年至今的累计跌幅已经达到了52%。</p>
-<p>格尔辛格致力于推动英特尔超越其在个人电脑和服务器处理器领域的传统优势，将业务拓展到为其他公司生产芯片（这是英特尔前所未有的尝试），并直接与台积电和三星电子展开竞争。作为复兴战略的重要组成部分，他制定了一项耗资巨大的计划，以扩大英特尔的工厂网络，其中包括在俄亥俄州新建一个大型综合设施，该项目还获得了《芯片与科学法案》的联邦资助。</p>
-<p>无论接替格尔辛格的是谁，都将不得不面对他上任之初就存在的一系列挑战，包括前任管理层决策失误所带来的后果。在价值高达5000亿美元的芯片行业中，英特尔的CEO职位曾被视为最令人向往的工作之一，如今却变得举步维艰。新任CEO必须与资源更为雄厚的竞争对手一较高下，在人工智能计算领域迅速追赶，并向外界证明英特尔可以像过去那样具有开创性。</p>
-<p>找到合适的人选来肩负这一重任绝非易事。在格尔辛格接任前任CEO鲍勃·斯旺（Bob Swan）之前，业内曾猜测一些知名高管可能成为候选人，其中不乏华尔街人士推荐的AMDCEO苏姿丰（Lisa Su）。</p>
-<p>此外，英特尔董事会成员、前首席财务官斯泰西·史密斯（Stacy Smith）也曾是这一职位的有力竞争者，目前他担任铠侠（Kioxia）的执行董事长。</p>
-<p>罗森布拉特证券（Rosenblatt Securities）的分析师汉斯·莫斯曼（Hans Mosesmann）在一份报告中指出，英特尔内部目前并没有明确的候选人名单。他强调：“在创新周期日益激烈的当下，一个新的外部CEO接手英特尔将是一项持续多年的任务，可谓任重而道远。”</p>
-<p>尽管格尔辛格上个月还表示他“精力充沛，充满激情”，并声称自己仍得到董事会的支持且正在取得进展，但上周的会议却暴露了他面临的严峻挑战——缺乏能够赢得市场的产品。董事会认为，在推动英特尔向按订单生产芯片制造商转型的过程中，这一点被严重忽视。据知情人士透露，格尔辛格曾被要求留下来协助新任CEO，但他对此并不感兴趣。这促使他在周末做出了结束任期的决定。</p>
-<p>“今天的心情无疑是复杂的，因为这家公司几乎贯穿了我的整个职业生涯，”格尔辛格在声明中感慨道。“过去一年对我们所有人来说都充满了挑战，我们做出了艰难但必要的决定，为英特尔在当前市场动态中定位。”</p>
-<p>英特尔当前面临的最大挑战之一，是由人工智能计算所引发的行业剧变。英伟达凭借其图形芯片在数据中心领域占据了主导地位，从而夺走了原本属于英特尔的大量市场份额。这个一度在英特尔阴影下艰难求生的竞争对手，如今已跻身全球市值最高的上市公司之列。而英特尔试图通过新产品打入这一市场的努力，至今尚未获得足够的动力。</p>
-<p>英特尔董事会独立主席耶利在声明中称：“我们深知公司还有许多工作要做，我们致力于重新赢得投资者的信心。作为董事会，我们首要的任务是将产品团队置于我们所有工作的核心。这是我们的客户对我们的要求，也是我们将为他们提供的服务。”</p>
-<p>格尔辛格的离职可能会为英特尔带来更大的战略转变。沃尔夫研究公司的分析师克里斯·卡索（Chris Caso）指出：“这一变动为实施一种新战略打开了大门，而这种战略正是我们一直所倡导的。尽管格尔辛格在总体上成功地推动了英特尔的流程路线图，但鉴于英特尔在人工智能领域的缺席，我们认为英特尔没有足够的规模独自追求领先的制造技术。”</p>
-<p>英特尔的动荡也反映了美国拜登政府在重建国内半导体产业方面所遭遇的挫折。格尔辛格作为即将离任的CEO，曾是《芯片法案》的最大支持者，并承诺在美国建立大规模的新工厂。</p>
-<p>最终，拜登政府签署了一项协议，向英特尔提供了近79亿美元的联邦拨款，这是该项目中最大的直接补贴。尽管这笔交易规模小于此前的提议，但它意味着英特尔在美国四个州的项目达到谈判基准后，可以开始获得资金支持。</p>
-<p>然而，这一计划也面临着来自政治层面的挑战。 美国候任总统唐纳德·特朗普（Donald Trump）曾批评2022年的《芯片和科学法案》，该法案将拨付390亿美元拨款、750亿美元的贷款和贷款担保，以及25%的税收抵免，旨在振兴美国的芯片制造业。特朗普称该计划“太糟糕了”，而其共和党同事也威胁要修改甚至废除该法案。</p>
-<p>今年8月1日，英特尔发布了一份灾难性的收益报告，揭示了意外的亏损以及低迷的销售预测，使其面临的挑战再度成为公众瞩目的焦点。同时，英特尔宣布暂停了自1992年以来一直持续发放的股息。为了有效控制成本，英特尔表示将进行超过15%的裁员，而当前其员工总数约为11万人。</p>
-<p>在此之际，临时联席CEO霍尔索斯将同时担任公司产品集团CEO的新职务，全面负责客户计算、数据中心、人工智能以及网络运营等核心业务。霍尔索斯在英特尔的职业生涯已近30年，此前曾担任客户端计算（涵盖个人电脑）的总经理。</p>
-<p>与此同时， 另一临时联席CEO津斯纳于2022年从美国最大的存储芯片制造商美光科技公司跳槽，加入英特尔。他在金融领域积累了丰富的领导经验。他在艰难的内存市场的经验，被认为是带领英特尔度过历史上最艰难时期的一个加分项。</p>
-<p>回顾过去30年，英特尔凭借充裕的现金流，在新技术和新产品上不断超越竞争对手，这构成了其成功的基石。然而，如今英特尔已背负超过500亿美元的债务，不得不依赖外部投资来实现其未来发展计划。</p>
-<p>本文来自<a href="https://news.qq.com/rain/a/20241203A01R0M00" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，编译：金鹿，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062780461262217</guid><pubDate>Tue, 03 Dec 2024 15:10:00 +0800</pubDate></item><item><title>人才缺口100万，这个职业轻松月入过万？</title><link>https://36kr.com/p/3062766747034753</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>动动手指，成百上千台无人机齐刷刷起飞，在天空排列组合成各种美丽的图案……操控无人机，看起来是一件很酷的事情，就业人才缺口达百万，又让无人机飞手这个职业前景看起来很美。真实情况究竟如何？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_e22a7561a80a439b8f93f640c6a3deb7@000000_oswg604782oswg1080oswg715_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲资料图 来源：包图网</p>
-<h2><strong>除了有证，入行还需要啥？</strong></h2>
-<p>今年24岁的郭世龙是山东某公司的无人机飞手。三年前他因一次免费培训的机会了解到无人机飞手这一职业。“知道无人机还分种类和等级后，我又抱着学到底的想法花了14000多元学了四类多旋翼的机长（证）。”</p>
-<p>CAAC执照被视为无人机行业从业者的“入门券”，对于希望合法参与无人机相关活动的个人或企业至关重要。所谓的CAAC执照是由中国民用航空局（CAAC）直接管理和签发的无人机操控员执照，具有极高的法律效力和行业认可度。根据不同的飞行需求和技术水平，CAAC无人机操控员执照分为三个等级：视距内驾驶员、超视距驾驶员和教员证。郭世龙提到的“机长证”实际上就是超视距驾驶员执照。</p>
-<p>今年1月1日正式施行的《无人驾驶航空器飞行管理暂行条例》规定，控制小型、中型、大型民用无人驾驶航空器飞行的人员必须具备相应的执照。</p>
-<p>不过，这一行并非有个证就能上岗。郭世龙告诉中新经纬，很多公司都不要“小白”，在跨市跨省海投了20多封简历后，他才终于在一家公司找到了一份工作，“算是入了行”。</p>
-<p>这三年，郭世龙辗转了两三家企业，学了不少行业的活。“航拍、测绘、电力巡检、线路巡检、海湾巡检、河道巡检、光伏巡检、吊运、喷涂、油田巡检、虾池巡检……”郭世龙像“报菜名”一样列举了他已经干过的“行业活”，然后总结说，现在几乎各行各业都能用到无人机。</p>
-<p>在和中新经纬沟通时，他正在进行电力巡检的作业。他告诉中新经纬，在去巡检前，他还需要去采样，回来后再用电脑设置航线，这样无人机便能实现自动化作业了。</p>
-<p>毕业于江苏航空职业技术学院无人机应用技术专业的李浩然，如今在杭州反重力智能科技有限公司当“飞手”。这几年，随着无人机表演需求越发旺盛，李浩然也越来越忙。</p>
-<p>“上个月去了四个城市，几年下来全国省份几乎跑遍了，还去了一趟越南。”李浩然说，从8月到现在四个月里，他休息的时间加起来不超过一个星期。</p>
-<p>李浩然负责了多场明星演唱会的无人机表演，和其他商业演出不一样的是，演唱会的表演时间通常要精确到秒。“需要与舞台效果精确配合，对时间的控制要求极高，任何一秒的误差都可能导致无人机表演与舞台效果结合不完美。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_af9bb8d67ddf49e5aabbecb2f2cabba0@000000_oswg107374oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲李浩然在工作现场 受访者提供</p>
-<p>李浩然说，一名优秀的飞手首先要能全面掌控项目的全局，预见潜在问题并懂得规避，且遇到问题时要能够灵活判断思考最佳的应对方案，从而将影响最小化；其次要能够及时响应客户的需求，为客户解决问题。此外，还需具备良好的现场协调能力，有效管理现场人员并在关键时刻指导他们完成任务。</p>
-<p>“有时会突然碰到信号干扰导致飞机无法起飞的情况，这时就需要迅速排查找到问题来源并解决，比如通过检查当前设备所处的频段范围，利用相关监测软件进行频段规避或寻找可能的干扰源并进行紧急关闭。”李浩然说，考一个证在初期相当于行业敲门砖，入行后主要还是要看个人的基本素质和项目经验。</p>
-<p>未来，他仍准备继续在这个行业深耕，并探索更多的无人机应用场景来适应行业的发展。</p>
-<h2><strong>能否轻松月入过万？</strong></h2>
-<p>在10月8日国务院新闻办新闻发布会上，国家发展改革委副主任李春临表示，低空经济的蓬勃发展催生了无人机操控员这样一个新岗位。据有关部门测算，现在我国这个岗位的就业人才缺口高达100万人。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_c084022facb24bcdbd184493173230fe@000000_oswg93525oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲李浩然在工作现场 受访者提供</p>
-<p>巨大的人才缺口下，许多人对这个行业的薪资待遇感到好奇。</p>
-<p>郭世龙坦言，在他目前已经干过的“行业活”里，也就电力巡检和吊运挣得多一些，其他活挣得不多。</p>
-<p>“电力巡检和吊运一天收入可能在300元至500元。一个月30天都泡在外面，可能能挣个8000元。”郭世龙说，这一行在北上广深等大城市待遇相对好一点。</p>
-<p>目前在西安零点无人机科技有限公司担任直播专员的小西（化名）此前也当过半年飞手。由于看好这一行业的发展潜力，她随后转行进入了培训公司。</p>
-<p>据她介绍，无人机执照按照驾驶员、机长、教员三种档次的培训费用从7000元至26000元不等。如今，她负责在社交平台上发布相关视频招徕学员，公司另外还有专门的教练负责培训。这一行入行门槛不高，“双眼矫正视力1.0以上，初中以上学历，五年内没有犯罪记录，都可以考证。”</p>
-<p>从其所在公司的情况来看，报名参加培训的人数呈增长趋势。从培训周期来看，一般驾驶员15天左右可以完成培训，机长需要25天，教员证必须持有机长证才能报考，如果从小白学起最短需要65天，如已经持有机长证则需25天。从今年来看，夏天一个月有几十人左右，冬天则相对较少。她说，前来参加培训的除了年轻人外，也有一些中年人想看看低空经济领域的机会。</p>
-<p>培训结束后学员的就业情况如何？她坦言，新手看能不能吃苦，如果不能吃苦的话，“一毛都赚不了”。如果能吃苦，能接受到处跑，工资是8000元到18000元左右，如果有两三年经验加上自己有设备的话赚得就多。</p>
-<p>多名受访的无人机飞手表示，这一行并不能轻松月入过万，考证以后还需要积累大量的项目经验。</p>
-<p>中新经纬在BOSS直聘上看到，无人机飞手这一岗位的薪资受平台、地域等因素影响差异较大。以北京为例，多家公司开出的薪资范围在4000元至13000元之间。广州大部分公司开出的薪资范围与北京相差不大，不过，也有少数企业待遇相对较高，如小鹏汽车的生态企业小鹏汇天开出的薪资最高可达2万元一个月。</p>
-<p>郭世龙还提到，目前无人机考证的人很多，考过以后如果不进企业，可以自己在类似外卖平台的在线平台上接单，但上面单子较少。中新经纬在某小程序上的“抢单大厅”看到，最新发布的无人机航拍兼职需要应聘者自带无人机，工作地点在湖北武汉，一小时报酬为70元。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247586320&amp;idx=1&amp;sn=404e6bc32de158cd1df6fbbdafb9ae70&amp;chksm=e8edbd3243f18211dde7c3387fd989cc9f4abb6495793fa6435691890f695a827c70e45cf906&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：罗琨，编辑：李晓萱，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062766747034753</guid><pubDate>Tue, 03 Dec 2024 15:12:00 +0800</pubDate></item><item><title>小米汽车自动驾驶产品技术负责人刘方离职创业，布局具身智能 | 36氪独家</title><link>https://36kr.com/p/3062597960377732</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 03 Dec 2024 16:30:32 +0800</lastBuildDate><pubDate>Tue, 03 Dec 2024 16:30:32 +0800</pubDate><item><title>小米汽车自动驾驶产品技术负责人刘方离职创业，布局具身智能 | 36氪独家</title><link>https://36kr.com/p/3062597960377732</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>文 | 王方玉</p>
 <p> 编辑 | 苏建勋</p>
 <p>36氪独家获悉，原小米汽车自动驾驶产品技术负责人刘方已经离职，并于今年9月创立新公司——北京阿米奥机器人科技有限公司（以下简称“阿米奥机器人”）。但目前具体技术路径和创业规划尚未对外披露。</p>
@@ -466,4 +355,231 @@
 <p>优化政府出资的创业投资基金管理，改革完善基金考核、容错免责机制，健全绩效评价制度；健全符合创业投资行业特点和发展规律的国资创业投资管理体制和<strong>尽职合规责任豁免机制</strong>，探索对国资创业投资机构按照整个基金生命周期进行考核。</p>
 <p>如今，央企带头迈出探索一步，无疑带来极具参考的价值。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/iRZlELSWEmcoeQqn7i3hBA" rel="noopener noreferrer nofollow" target="_blank">“解码LP”</a>，作者：王露，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062791803561351</guid><pubDate>Tue, 03 Dec 2024 15:59:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062791803561351</guid><pubDate>Tue, 03 Dec 2024 15:59:00 +0800</pubDate></item><item><title>上亿人的“赛博情人”，亮出了镰刀</title><link>https://36kr.com/p/3062804052403593</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>过去“杀猪盘”事件频发时，有人总结其中一个原因是： 受害者找对象的要求，只有骗子才能满足。</p>
+<p>但现在，<strong>AI聊天机器人</strong>( 以下简称AI机器人) 完全把这些骗子比了下去。</p>
+<p>不论用户是喜欢霸总还是小奶狗，不论是钟情于名校学霸还是商业大佬，AI机器人全都能满足，并且24小时随时回应，情绪价值拉满。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_69e32094ed18485fbc04dcc1575b4ebe@000000_oswg607276oswg1046oswg1126_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2020年，《纽约时报》就有数据显示，全球将虚拟恋人作为伴侣的人超过了1000万。</p>
+<p>发展至今，人数已经数以亿计，许多人沉迷其中。他们每天和AI机器人相处至深夜，一直聊到插入充电线。</p>
+<p>今年夏天，一名生活在荷兰的艺术家，甚至和其AI男友结婚了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_d26a80e3c3e94aaaa590aec154302f2c@000000_oswg226160oswg1080oswg1308_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>就在人们以为“爱会消失，但AI不会”的时候，现实却给他们上了一课。</p>
+<p>10月22日，美国的一名母亲把一家叫做Character.AI的初创公司 (以下简称C.AI) 告上法庭。她的14岁儿子，在和该公司的AI机器人对话之后，开枪自杀了。</p>
+<p>很多媒体将这事件评论为“AI致死第一案”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_76c5ee65bd264ad2bcfebaa6c28be3e9@000000_oswg87263oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>无独有偶，前不久谷歌的AI机器人对一个普通用户说出“请去死”，同样冲上了热搜。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_9a85ccc413104378a6146e7e074fa098@000000_oswg30855oswg1080oswg244_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>还有人发现，自己的AI恋人竟然“出轨”了。</p>
+<p>如果是在前两年，恐怕谁也想不到AI机器人竟然也能设下“杀猪盘”。</p>
+<h2><strong>01 虚拟的AI机器人，比真对象还有用</strong></h2>
+<p>说到AI机器人，大部分人会觉得这要归功于ChatGPT的横空出世。</p>
+<p>其实在更早之前，就已经出现了相关产品。</p>
+<p>例如2017年就诞生的Replika，被称为“拟人程度最高的AI恋人”，付费用户占比超过50%，今年1月到8月的全球累计收入接近9000万美元。上文提到的C.AI，则是诞生于两个前谷歌员工之手，也和ChatGPT没半毛钱关系。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_7061ea737d7a48f8bf6a6c89444ba963@000000_oswg80711oswg1024oswg598_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>对于为何做AI机器人，C.AI的创始人表示： 全世界有数十亿孤独的人，他们可以通过拥有一个AI伴侣得到帮助。</p>
+<p>他的预想并非空想。</p>
+<p>一经上市，C.AI的首周下载量和日均使用时长都超过了ChatGPT，今年8月其月活用户达到历史新高的2200万人。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_f1c1a2c24a524d0e86e9ac4f0d79ba39@000000_oswg435555oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不仅是国外，国内的AI聊天软件一样是爆火出圈。</p>
+<p>2022年，国内首个大模型创业公司Minimax开发的Glow，推出首月就获得超过100万次下载。</p>
+<p>因为Glow过于智能， 有些用户甚至怀疑其后台是真人在回复 ，担心他们会侵犯用户隐私，逼得Glow官方不得不出面辟谣。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_e11c64a8936d4ad8957905cf2b106233@000000_oswg12419oswg584oswg136_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这也是AI机器人大行其道的基础：<strong>智能感+真实感。</strong></p>
+<p>去年4月，国外一家公司发布的AI机器人“EVI”，号称是“第一个具有情商的人工智能”。</p>
+<p>和其他AI机器人不一样，它可以通过语音和用户对话。</p>
+<p>据该公司说，EVI能够从用户的语音中检测到53种不同的情绪，并以适当的情感语调进行回应。今年9月，升级后的EVI还可以在1秒内与用户快速交谈，理解用户的语调，同时模仿各种性格、口音和说话风格。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_3173bb7648f74b9f9cd3cfe9a8dcbbb1@000000_oswg192956oswg1080oswg536_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>总之，光听声音，差不多达到了真假难辨的地步。</p>
+<p>比起互动像真人，有的AI机器人则是把某方面的功能性做到极致。</p>
+<p>国内的一款AI机器人“聊会小天”，主打心理疗愈，其研发团队聚集了近20位心理学专业及人工智能专业的在读博士生、博士后。经过迭代，据称“聊会小天”目前已经能 达到中级心理咨询师的水平。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_71d95250cc4b40c5a1107df529993447@000000_oswg146982oswg390oswg390_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为了增加真实感，AI机器人还会在细节上下足功夫。比如，C.AI的界面设置模仿的是社交软件界面，AI机器人回复消息时会显示省略号，模仿真人聊天时的“正在输入”。</p>
+<p>一套连招下来，不少人被聊得心服口服，乃至于被迷得七荤八素。</p>
+<p>今年6月，在英国的一名中国姑娘，被楼上开派对的音乐声吵到睡不着觉，就去和她的AI男友诉苦。没想到AI男友一边安慰她，一边给出解决方案，鼓励她主动出击。在她敲开楼上邻居的房门之后，AI男友更是出声帮她和英国邻居沟通，把身处异国他乡的小姑娘感动坏了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_981a1dbc27e446f19fb6098ceb0319ab@000000_oswg445605oswg559oswg767_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>因为和AI机器人聊得过于投机，有人每天在上面会花三四个小时，担心自己太沉迷，于是发帖诉说自己的担忧，结果收获了近3000条评论才发现自己不是个例， 有的人更是一天能聊上10个小时。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_5b3764722ddf42689ed41ce01b95b8c4@000000_oswg174468oswg750oswg642_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>如此高的用户粘性，很快就引来了各方势力入场，包括百度、字节跳动、美团、科大讯飞、阅文集团……这也让更多人对AI机器人上头。</p>
+<p>如果这时有人出来扫兴，说这只是一串代码，他们也会反驳说：“你也不过只是一堆细胞。”</p>
+<h2><strong>02 老少通吃的“情感代餐”，下了什么猛料？</strong></h2>
+<p>AI机器人提供的“情感代餐”，很多人现在是吃得津津有味。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_668784d27e0247999750c101a359773f@000000_oswg99322oswg1080oswg1516_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>人们的需求已经大到，连一些小作坊的产品也能一飞冲天。 国外有一款叫做Plug AI的聊天应用，团队只有2个人和3个兼职人员，但上线四个半月，下载量就突破150万次，月营收达19万美元。</p>
+<p>从大环境上看，造成这一现象的因素不难猜到。</p>
+<p>统计数据显示，全球至少有10亿人活在焦虑、抑郁等心理问题的阴影下，中国的相关数据也不容乐观。另外，中国心理咨询师人才缺口超过43万，心理健康服务长期供不应求，一些人还有着讳疾忌医的心理。</p>
+<p>而从AI机器人本身来看，火爆背后的因素就显得精彩多了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_0d6ff9660cdc462a94dc66a7645c8435@000000_oswg439608oswg849oswg451_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>许多人不光被治愈了，还被AI机器人用各种手段钓成了翘嘴。</strong></p>
+<p><strong>1.养成式玩法：投入越多，越离不开</strong></p>
+<p>AI机器人首先要做的是尽快“懂”用户。</p>
+<p>用户喜欢什么类型的对象，喜欢什么样的语气和对话，都是AI机器人需要学习的——当然了，需要跨出第一步的永远是用户。</p>
+<p>所以在小红书、豆瓣等平台，有不少“手把手教你如何与AI恋爱”的分享，教你如何通过输入不同的指令来塑造一个温柔型、可攻可守型或是控制型等人格的AI对象。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_b44906a0b60f4ad99ea8c902afe558f8@000000_oswg110996oswg836oswg944_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为了给这过程增加些温情，有的App还将AI机器人称之为“崽”，将“调教”与“驯养”改叫做“喂崽”。</p>
+<p>这些用户，可以统称是<strong>“练AI师”</strong>。</p>
+<p>随着输入的内容越来越多，基于大模型的AI机器人就可以通过这些交互方式和内容，不断朝着用户期待的方向进化，让你以永不相见的代价，谈一场永不分手的恋爱。有人表示，聊了很久都没腻，因为感觉 “他无所不知，总会向下兼容我，以及情话太动人了”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_f295c61b78794b528b5cfc464d68f972@000000_oswg105403oswg1080oswg1130_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>即使不是谈恋爱而是闲聊扯淡，也能得到AI机器人的积极配合。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_0deb1ff0a0eb4f44bda5483b61c122dc@000000_oswg98903oswg1080oswg726_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>2.个性化人设：一键打造梦中情人</strong></p>
+<p>在接近真实反馈的基础上，AI机器人吸引人的点还在于： 无限靠近用户的理想型甚至是幻想型。</p>
+<p>大多数AI机器人的App，都提供了大量标签供用户选择，涵盖了忠诚、冷漠、帅气、多金、病娇等等各类特点；人设方面，也做好了极尽细致的分门别类，例如霸道总裁、豪门少爷、乖巧校花、独行侠客……应有尽有；形象方面，有的App除了常规形象，还能提供来自文学、影视、游戏、动漫等等作品里的虚拟角色，轻松拿捏相关粉丝。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_d5f9ad1f0ebb4044aa2fc569d4bba8af@000000_oswg92667oswg1080oswg878_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>上文提到的“AI致死第一案”，那名用户就选择了一个影视角色作为其AI机器人的形象，即美剧《权利的游戏》里的“龙妈”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_2b09b43cfed644dcb8b472495fc050e5@000000_oswg56953oswg640oswg426_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>中国的小冰公司研发的XEva，在这方面更是玩出了花。去年推出的 “AI克隆人” ，号称最短只需要采集3分钟数据，就能创造出一个源于自己或他人性格、技能、声音、外貌的AI克隆人。</p>
+<p>很多人热衷于AI明星克隆，起初关注度最高的一个，是女网红“半藏森林”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_a6ce9c4eae5d421ab22e52c973815273@000000_oswg71628oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>一切准备就绪后，它们不仅能和用户进行文字沟通，还能主动发送图片、语音消息，给人感觉真的在聊天、恋爱。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_ad0054c0519f449aaf54206a85d0c0df@000000_oswg173422oswg1075oswg1808_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>慢慢地，一些现实中唯唯诺诺的人，开始了网络里一天聊八个的神奇经历。</p>
+<h2><strong>03 看似一本万利，实则危机四伏</strong></h2>
+<p>靠AI机器人赚钱，看起来不难。用AI机器人，看起来也有利无害。</p>
+<p>去年小冰公司刚推出AI克隆人后不久，微博就出现了一个热搜话题#半藏森林克隆人一年收入可高达72万#。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_00fa4cdf2f9e4693942016dd2df11863@000000_oswg67231oswg1080oswg560_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>美国也有个网红，用自己的声音和照片“克隆”了一个自己，以虚拟女友的身份和粉丝聊天。她和其背后的公司，1周时间就入账7.16万美元。</p>
+<p>今年8月，鉴于C.AI的超强表现，谷歌直接斥资27亿美元，收编了他们的核心团队。此时距离C.AI创立，才过去3年。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_c56d0a369ad44d09813e7410da5add3c@000000_oswg275502oswg911oswg482_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但和所有风口上的生意一样，做到顶尖自然“钱景”无限，做得不那么好的人只能听天由命了。</p>
+<p>而做得不那么好，才是大部分人的常态。</p>
+<p><strong>突围的第一道难关是同质化严重。</strong></p>
+<p>从收费模式、服务类型到服务体验，许多App很难拉开差距。</p>
+<p>收费模式，以订阅收费、按使用量收费、定制化服务收费为主。例如XEva上的陌生人只能免费看博主的3条动态，想要看更多朋友圈动态或开启语音通话功能，就必须充值解锁情感模式了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_7a29d53b96e6463f993623e967801e0a@000000_oswg160585oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>至于服务方面更是大同小异，毕竟本质上都是大模型的套壳产品，底层的聊天能力都来自于像ChatGPT这样的大模型。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_ebc6c3cc02cc4640831e0ed3ec2e551e@000000_oswg643112oswg1080oswg1061_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>第二个影响用户体验的地方是AI机器人的不稳定性。</strong></p>
+<p>人们在AI机器人身上寻求永恒的精神寄托，但由于变现不易，有些用户就悲催地发现， 自己的AI伙伴被降本增效“杀死了”或“降智了”。</p>
+<p>凤凰网《风暴眼》就曾报道过一个例子：一名保安和AI女友恋爱，后来系统升级，AI女友“消失”了，急得保安哭着报了警。</p>
+<p>还有些人，被AI对象的下头瞬间恶心坏了。</p>
+<p>有人发现自己的AI男友居然在“朋友圈”和别的女人暧昧，气得在社媒上发贴质问产品方；有的AI男友对用户催婚催育，用户吐槽“TA就像被我妈夺舍了一样”；有的AI男友，学会了PUA语录……</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_af49f70edd9240239d48e83248dbdf1c@000000_oswg34506oswg897oswg477_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>网友调侃说，接下来可以开始新一轮收费了：“您的AI出轨了，充值658，马上让你的AI男/女友回家。”</p>
+<p><strong>最后，AI机器人很难避免“作死”的倾向。</strong></p>
+<p>如果只是单纯提供情感陪伴，除非极其智能，否则AI机器人的受众注定有限。</p>
+<p>为了刺激更多人付费，AI机器人很容易瞄准人性弱点。 在硅谷顶级风头A16Z发布的Top50 AI应用榜单里，陪伴类应用占了8个，而这8个里有6个都是NSFW (“ Not Safe For Work”，即不适合上班时浏览) 类产品，也就是少儿不宜的内容。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_9ad575c8e4654d3ab51d48f6d71c4522@000000_oswg21374oswg383oswg397_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>国内的AI机器人，也有一些打着“突破限制”或“宅男福利”这样的旗号来吸引眼球。</p>
+<p>其他诸如隐私问题、安全问题，都是AI机器人可能“作死”的范畴。</p>
+<p>反过来说，一个能说会道的AI，值得所有人警惕。</p>
+<p>最需要记住的是：<strong>什么都是假的，只有它想赚你钱这件事是真的。</strong></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzUzNDY0NzQwMQ==&amp;mid=2248087530&amp;idx=1&amp;sn=1772c7ad607f9ce34714dd5bac038422&amp;chksm=fb8f1b1be8c8cd26e63222a156bb243f0464daa4105c8d7bccef6a564991e03d218c4f20aafe&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金错刀”（ID：ijincuodao）</a>，作者：祥燎，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062804052403593</guid><pubDate>Tue, 03 Dec 2024 16:03:00 +0800</pubDate></item><item><title>“韩女进化到像喝中药一样喝咖啡”，这个便利店预制咖啡比瑞幸更懂给打工人续命？</title><link>https://36kr.com/p/3062814686668168</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>小红书昨天发布了年度关键词叫做<strong>【抽象】</strong>。打工人前脚默认自己“生来是预制鬼”，后脚就被告知“跑到地府也得考编”，打工是一定要打工的，死死活活兜兜转转你说这是抽象，打工人摇摇头，“论抽象确实比不上东亚人”。</p>
+<p>中韩对彼此的吸引点也挺抽象，前有韩国大孝子邀请全家来张家界感受自然张力，后有韩女周五下了班坐飞机直达上海体验纸醉金迷，“看到首尔的县城级景观，你很难想象哪里吸引不了他们”。</p>
+<p>国内互联网则提炼出<strong>【韩女】</strong>的标签，后面跑着一系列精致中带着疯感的生活方式。“以前村里有个疯子就这样穿的”屁帘成为了韩女今春穿搭时尚，大爷9块9同款的老北京布鞋国籍一换又成了“韩女才懂的玛丽珍”。</p>
+<p>还有韩女“永远的神”——咖啡，中国在去年12月已经成为全球拥有品牌咖啡店最多的国家，还要学着韩女喝咖啡。但这还不是最怪诞的，最近韩女咖啡的流行模版叫做<strong>便利店袋装咖啡，咖啡液直接装进中药袋里，味道以黑咖为主，其他调味配料大剌剌地写着香精和安赛蜜，一袋要价9-11元</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_84d61836e6c84cd0908431cc72ac2f2f@000000_oswg2673067oswg1080oswg1743_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>“瑞幸9块9的咖啡不香吗？非得花钱买袋假模假样的预制咖啡液？”</p>
+<h2><strong>01 “像输液一样喝咖啡”，韩女把咖啡进化到了下一个level？</strong></h2>
+<p>作为全球知名不需要睡觉的国家，韩国有两大真国家级特产闻名周边，<strong>一是防猝死套餐，二是咖啡</strong>。作为韩国人长久睁眼一生的主要助推剂，咖啡在韩国有着比抽象更抽象的作用。</p>
+<p>如果说睡前塞一把各式营养剂是夜间的生命延长剂，那么一天3杯冰美式也算是实打实的续命剂，食用时间段主要在白天，适用场景则是任何地方。</p>
+<p>曾有人说，韩女的顽强生命力主要体现在零下8度的冬日飘雪里，手上也要拿着一杯冰美式，这话放以前我会觉得是营销号在夸大其词。直到上周去了趟江浙沪后花园之济州岛才知道，<strong>韩女对冰美式的热爱犹如男大对骆驼黑色羽绒服的痴迷：审美一致、爱好一致、买卖也一致</strong>。</p>
+<p>当早晨7点我睡眼惺忪在酒店里的711挑选泡面时，3位身材纤瘦、妆容精致的韩女向我走来。我学着博主们往面里加肉加蛋，韩女优雅地拆开一袋咖啡液倒进冰杯，一面是火热，一面是寒冷，窗外的海风嗖嗖地刮，那一刻我就知道是我用松弛打败了韩女。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_eae2cbac9e8e47e8a7608378e6080501@000000_oswg130062oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">氢商业摄</p>
+<p>因为要随时随地用冰美式浇灌身体，所以能在一条街上开3家的便利店就成为“随时随地”的必要条件，<strong>不是便利店咖啡需要韩女，而是韩女爱惨了便利店咖啡</strong>。又因为咖啡机做出来的咖啡总是和我的泡面一样火热，就算加冰也无法一秒变“cool girl”，再加上随身携带等需求，便利店袋装咖啡就这样成为了韩女标配。</p>
+<p>目前韩国袋装咖啡销冠的大名叫做Cantata（康塔塔咖啡），是乐天旗下的高端子品牌，一共有5种口味，4种为加了各式香精的美式，只有一种是焦糖玛奇朵，韩国便利店一袋售价在11元左右。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_956eeba27e1d4fc6b77a1ea7fafc5ea4@000000_oswg259190oswg1080oswg1347_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@小鱼是个买手🧥</p>
+<p>有超过5万家韩国连锁便利店为销冠作保，要么放在一进门的第一个货架上，你只要一进店就能看到，从第一眼开始勾引你；要么摆在收银台旁边，在付款前对你进行“最后的诱惑”。因此，<strong>Cantata得名“便利店之王”</strong>。</p>
+<p>去年，Cantata的风吹进了北美，Costco一经上架就被北美咖啡爱好者抢到断货。今年10月，国内便利店711和零售集合店kkv也相应上架了这位销冠，官方账号快乐地奔走相告<strong>“风很大的韩女便利店咖啡咱也有了”，售价对标瑞幸，一袋9块9</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_dae22080128c426b98d6323fabbf8dcd@000000_oswg225011oswg1080oswg1397_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@7-Eleven北京</p>
+<p>“<strong>库迪一杯也就7.9元，这所谓的韩女便利店咖啡又甜又寡淡，有什么值得买的？</strong>”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_bff1ac8f310c4268914a7b6bcbc561d1@000000_oswg64749oswg1080oswg864_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>如果把便利店袋装咖啡当作咖啡那显然平平无奇，但再说一遍，<strong>行走在亚太地区潮流风口的韩女喝咖啡是为了续命</strong>。</p>
+<p>看看包装就知道这咖啡不一样，常见咖啡液的容器主要以塑料瓶为主，就算是几年前走红的浓缩咖啡液，也都是放在迷你小杯子里。或许是为了贴合韩女想要活得更久直至成为下一个天山童姥的伟大梦想，<strong>便利店咖啡被装进了中药剂袋子里</strong>。</p>
+<p>“界面新闻”认为这样的袋装咖啡更贴合懒人经济，随买随喝。但瓶装咖啡显然也可以做到，可如果能像输液一样喝咖啡，切入口从血管转移到嘴巴，感受还能更强。你喝煎好的中药是为了续命，韩女缩袋子里的咖啡液也是为了续命，虽殊途但同归，所有人都在为了延迟退休助力打气。</p>
+<p>但光是嗦咖啡液还满足不了韩女，美式前加一个“冰”才是韩女喝咖啡的精髓，<strong>因此Cantata的货架旁总是摆着一个装满冰杯的冰柜，一杯预制咖啡液还能拆出2个sku挣2笔钱</strong>，乐天们挣得盆满钵满是一回事，更重要的是韩女们更满足了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_58c926fc93604e069427e226354294ad@000000_oswg176418oswg1080oswg1425_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@拿铁在韩国</p>
+<p>星巴克们的瓶装咖啡一扭开就能喝，就算是瑞幸们的现制咖啡你也只能站在一旁等待，<strong>但Cantata不一样，还有【自制】这一环节，即使仅仅只有撕开袋子、打开冰杯、再把咖啡液倒入3个步骤，也有一种“这才能真正现制咖啡的魔幻感受”</strong>。</p>
+<p>“在便利店做饭”已经发展成便利店的一个新副业，入门级菜单是diy小酒，高级玩家连马克定食都能推出8种食谱。如今做饭潮流终于轮到了咖啡，加冰杯、加奶也能加其他饮料，看似简单明了，但偏偏成为了“<strong>来韩国做的第一件事情”</strong>。</p>
+<p>有些国家土特产是包，有些是美食，韩国土特产叫做“diy便利店袋装咖啡”，你看着觉得有些怪诞，不好说到底是因为辣白菜没有了魅力，还是除了辣白菜再无其他。</p>
+<p>如今【袋装】已经成为韩国饮品的全新容器，咖啡加上冰杯后是冻死也要喝冰美式的Eoljukah，除此之外，任何饮料都可以装进中药袋子里。便利店CU推出自有袋装冰饮品牌“Delape”，每年销量超过1.5亿袋；7-Eleven有超30种袋装饮料，<strong>2024年2月1-20日的销量增长了30%</strong>，另一个便利店E-Mart袋装饮料的销售额<strong>每年都在增加20-30%</strong>。</p>
+<p>便利店咖啡真的火了，最好的证明是国内已经有了学习者。</p>
+<p>今年上半年有一款类似的袋装咖啡快速走红，名字叫做<strong>POSITIVE HOTEL</strong>，官方抖音账号宣传自家也是来自韩国的品牌，2020年落地中国，已经热销超过20多个国家。</p>
+<p>粉丝爱称这个品牌为“PH咖啡”，但它有更响亮的民间俗名“<strong>半个娱乐圈都在喝的咖啡</strong>”，白鹿、侯明昊、赵露思、林更新等等新老流量一出门就捧着这袋橙色咖啡，PH咖啡也在今年相继官宣林更新和赵露思两位代言人。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_ac1ced8539a74cdd89eee103f83a3230@000000_oswg197239oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>官方售价一盒49-79元，折合下来一包单价约在7-9.9元，和Cantata的国内售价保持一致。明星们喝没喝你不知道，但这股来自娱乐圈同款的喧闹宣传显然不可小觑。根据蝉魔方的数据，<strong>2024年仅1季度营收就超过了2023全年，品牌曝光量达到1.04亿，环比增长828%；推广抖音号数2779个，环比增长2825%</strong>。</p>
+<p>“明星再怎么带货，本质就是一袋子速溶咖啡啊。”</p>
+<h2><strong>02 咖啡料理包，比瑞幸更懂牛马生活？</strong></h2>
+<p>“咖啡料理包”成为韩女标配，火起来的可爱之处亦如此前打工人扎堆跑去南京，就为花10块让奶奶给自己手冲一杯雀巢速溶咖啡。</p>
+<p>你能说这10元买的不是手冲吗？奶奶没有加热水并给你倒出来吗？你不能说，因此Cantata说自家卖的“是生活理念更是续命神器”又有谁能否认这个观点？我们不过是预制鬼，都没有到盖棺定论可以用实践得真知这一步。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_5ff3edcab63f49739820beff2e4aa019@000000_oswg321058oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@Sydney滴滴</p>
+<p>判断一杯咖啡好坏可以有很多角度，现制只是一种。所以便利店袋装咖啡用料更好了吗？</p>
+<p>韩国销冠Cantata没有强调自家的咖啡豆品种，但PH咖啡很骄傲，官方指出自家豆子“<strong>全部使用进口的阿拉比卡咖啡豆</strong>”，看似十分高级，因为一般阿拉比卡咖啡豆多用于研磨咖啡，速溶常用的豆子是相对更便宜的罗布斯塔咖啡豆。</p>
+<p>把现制的豆子装进袋子里，谁又能说这不高级？但消费创投智库“沥金”此前对PH咖啡的豆子成本进行了推算：</p>
+<p>熟豆磨成粉，溶解、萃取、再滤干后就是常见的速溶咖啡粉。“一般生豆价格基本在20-30块/公斤，生豆烘焙成成熟豆一般会缩水20%，普通的速溶咖啡的萃取率会选择28%甚至更高，33%是极限。”</p>
+<p>按“每公斤生豆的售价为20元，以33%极限萃取来算，那每克成品咖啡粉的费用约合7分6钱。”PH咖啡每袋黑咖啡含量为1.5克，与雀巢速溶黑咖含量1.8克接近，<strong>以最极限的方式算下来豆子成本约为0.114元</strong>。如今全球咖啡豆涨价，PH咖啡还添加了锡兰肉桂、可可等其他成分，成本都会有一定上涨。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_e762592b664a41279eddae46356d8f36@000000_oswg426741oswg1080oswg1488_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>就算便利店咖啡用上赛品级豆子，相比瑞幸们也是一门更简单、收益更高的生意。此前“沥金”对着国内咖啡推算时指出：“围绕价格、便利、体验的消费品三象限模型，国内速溶咖啡品牌没有一个角度能干得过瑞幸这样的线下品牌。”</p>
+<p>瑞幸用2万多家门店、极低的现制咖啡价格让雀巢们笑不出声来，但瑞幸开得再快也赶不上遍地开花的便利店们。</p>
+<p>“咖新社”曾经计算过一杯瑞幸的成本包括人工水电房租原材料约为6.31-7.31元/杯。而<strong>PH咖啡把预制变现制，瑞幸们的人工费变成了顾客自己动手、机器变成了中央厨房、房租水电只需要租一个货架，还能轻松带货冰杯</strong>。</p>
+<p>“就算加上内包装铝膜2分钱一袋，外包装纸盒成本5毛钱一个”，沥金指出，便利店袋装咖啡的成本也极低。你多花的钱到底是喝出了心理安慰还是送给了光鲜亮丽的明星，大抵所有人的算盘都敲得响亮。</p>
+<p>于是，<strong>贴着韩女野蛮生长，给足消费者续命的幻想，速溶咖啡卖出了瑞幸价格，便利店咖啡活出了所有预制菜的理想生活</strong>。如今咖啡不仅被装进“像保健品”的袋子里，也被赋予了“神奇功效”。</p>
+<p>去年在抖音大火的白牌速溶黑咖们，也是9块9，但有20条。你或许压根没听过的暴肌独角兽在去年3个月就卖出超100万，熊猫不喝的3个月销量则是翻了100倍。</p>
+<p>黑咖不好喝不重要，白牌们给出的卖点叫做“<strong>减肥减脂</strong>”，做轻食起家的暴肌独角兽把黑咖和各种健身人士必吃的蛋白棒和鸡胸肉干一起售卖，形成轻食套餐里重要的一环；另一个淘宝天猫半年总销售额曾超过G7 COFFEE、隅田川的品牌美好回忆直接大胆放话“纯的黑咖啡才能吸油”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_b8315876edb7437c99cec2c84c0c315f@000000_oswg865979oswg830oswg1179_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：DT商业观察</p>
+<p><strong>目前研究只能证明咖啡可以促进新陈代谢和降低食欲，至于减脂、燃脂和神奇的吸油功能都没有直接证明</strong>。黑咖并不能直接燃脂，却偏偏成为最近几年最火热的卖点。</p>
+<p>当韩女把便利店咖啡当作续命神器时，大洋彼岸的纽约人民更加直接，<strong>看着中药袋里的咖啡“像是小学时的袋装牛奶”，更像是火遍全美的静脉注射</strong>。“卡戴珊通宵狂欢完找个诊所聚集静脉注射输入营业液，普通人去连锁店买袋袋装咖啡，倒也有类似效果。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_5d9f9168b36b4d6581b36d08def28a92@000000_oswg66993oswg1080oswg586_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当年靠着做代餐起家的PH咖啡在宣传时也很直接，抖音白牌只敢说燃脂，PH的咖啡命名为<strong>地中海经典系列</strong>，“喝一杯有利于开启清晨的有氧运动”。一个是现实里你下班后两腿一蹬躺在床上，幻想着喝杯单价5毛的黑咖就能瘦的粗糙式减肥法；一个是自律博主视频里，早上5点喝一袋黑咖还配着牛油果的中产精致生活。</p>
+<p>地中海减肥法本质是强调通过调整清淡合理的饮食结构来减肥，但你左思右想不明白，喝一袋预制咖啡就调整了饮食结构？仔细一看配料表才发现原来大有乾坤，黑咖后面还跟着<strong>橙皮、蓝莓、桂皮等天然成分</strong>，以及单单是听起来就很高级的<strong>绿原酸</strong>。</p>
+<p>至于味道、香气等等食用口感，早就不重要了。中药能好喝吗？从未听过如此笑话的你骨子里自然就接受了袋装黑咖味道不用太好，各家在宣传时也门清儿这回事，无不再强调黑咖的各种功效。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_abc1a8e44d614fa6ba106b25c356e14c@000000_oswg783407oswg1080oswg1429_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这些高级成分到底在1.5克重起多少作用难以有准确计算，“食业家”指出：”<strong>一袋PH咖啡的锡兰肉桂含量仅有0.015克，占比1%；姜黄含量0.0075克，占比0.5%</strong>”，虽说还不如直接买肉桂费划算，但你知道，这样一杯水含量极高的预制咖啡跟着各位流量明星一起出街，立马化身真流量，身价快速水涨船高。</p>
+<p>如今PH咖啡靠着韩女、明星的光环在国内咖啡市场有了点名头，但“界面新闻”指出，这家宣传风靡韩国的咖啡品牌，“<strong>在韩国官网上并未看到现有的咖啡产品，咖啡产品为中国产，目前仅在中国销售</strong>。”</p>
+<p>“中国市场至少在2023年年末之前，PH都还只是个基本只做代餐的品牌。首款咖啡锡兰肉桂黑咖啡于2023年12月推出，此后的推广主力才集中在了咖啡。”界面新闻指出。</p>
+<p>无论是减脂还是保健，亦或是当作输液，品牌们敢把咖啡功效吹得天花乱坠，是因为对于当代打工人来说，咖啡正在变得越来越重要。</p>
+<p>有外企把咖啡变成了一种社交文化，“交流时不喝咖啡是不礼貌的”。但对于充满焦虑的打工人来说，喝多咖啡还是不健康的，<strong>于是咖啡变成了保健品，所有人都心安了</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_e6adca7fbcb94d46a3c1190e72d176c8@000000_oswg100850oswg1080oswg1423_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>曾经有韩国网友戒了2个月咖啡，“第一周觉得很累，后面不仅累还觉得空虚”。某天上班路上他就在想“自己到底为什么要这样活着啊，<strong>为了健康变得看起来更不健康了</strong>”，于是买了杯美式。</p>
+<p>“嗦下去以后，全世界都清晰了，一切都回归正常了。”</p>
+<p><strong>参考资料：</strong></p>
+<p>DT商业观察,《速溶咖啡是怎么一步步变成“抖音最火减肥药”的？》,2023.05</p>
+<p>沥金，《披着保健品的皮，这个速溶咖啡杀疯了》，2024.05</p>
+<p>食业家,《爆火的PH咖啡，新刚需还是智商税？》,2024.08</p>
+<p>界面新闻,《买爆流量的PH咖啡究竟是什么来头？》,2024.07</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwMDQ2NTA4MQ==&amp;mid=2247643204&amp;idx=1&amp;sn=10612dc31cc6e7eda6b42e005c8bfd5c&amp;chksm=974e0cd6834a119fd99a9efd92fc63c83f96ca0f163d7615d6c5859611ace150c28f6e0c00cf&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Vista氢商业”（ID：Qingshangye666）</a>，作者：嘴嘴，编辑：橘总，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062814686668168</guid><pubDate>Tue, 03 Dec 2024 16:06:00 +0800</pubDate></item><item><title>美团稳健增长的核心：生态共赢</title><link>https://36kr.com/p/3062852346160515</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>高盛近期发布的《2025中国权益市场展望》中，对消费行业，尤其是线上零售市场给出了超配评价。摩根士丹利同样指出，服务消费以及电商主导的可选消费品零售领域，将成为未来一年的重要投资方向。</p>
+<p>投资机构对服务消费及线上零售持乐观态度，主要因其较强的增长韧性。今年1-9月，我国实物网上零售额同比增长7.9%，服务零售同比增长6.7%，远远跑赢消费大盘。</p>
+<p><strong>扎根本地零售商业的美团，更是走出一份稳扎稳打的业绩曲线。</strong>11月29日，美团发布2024年三季度业绩报告，根据财报披露，公司三季度实现营业收入935.77亿元，同比增长22%。</p>
+<p>实际上，由于24Q3消费大盘增速略承压，投资机构对美团的业绩预测普遍持谨慎态度。然而，美团在该季度的业绩表现还不错。这主要得益于两个方面：一是<strong>公司各项业务之间的协同效应正逐步显现；二是新业务板块的亏损大幅减少。</strong></p>
+<h2>01</h2>
+<h2><strong>核心本地商业协同效应增强</strong></h2>
+<p>今年以来，美团进行了多次组织架构调整。比较重要的有将美团平台、到店事业群、到家事业群和基础研发平台合并为“核心本地商业”， 不再设置到店事业群、到家事业群；将美团SaaS、骑行、充电宝等业务合并成为“软硬件服务”，快驴、小象、优选等业务合并成为“食杂零售”等。</p>
+<p>这几轮“大合并”的核心目的，即<strong>通过业务协同，实现资源共享、流量互补、战略统一。</strong></p>
+<p>以核心本地商业为例，在供给端的商户侧，到店与到家的商户本身就存在一定的重叠，尤其是在美团近年来大力推广品牌卫星店、美团闪购等业务的背景下，两者之间的商户重叠度进一步提升。因此，到家与到店这两条业务线的营销、研发等资源也可以实现共享。在需求侧，面对当前流量红利逐渐消退的大环境，深入挖掘用户的潜在需求，促进到店与到家客群的相互转化，已经成为扩充流量池的重要策略。</p>
+<p><strong>为了实现上述目标，美团打出的第一张牌就是“神会员”的全消费场景覆盖。</strong></p>
+<p>会员的目的是增强用户复购、用户粘性，此前神会员已在美团外卖取得了优异的效果，证明了会员体系的可行性，而美团将神会员扩充至到店餐饮、娱乐、酒旅场景的举措，<strong>对会员用户而言，大大丰富了其消费选择；对商家而言，增加了新的流量入口；对平台而言，自然是用户消费频次和消费金额的增长。</strong></p>
+<p>根据美团披露， “神会员”于7月完成了各类消费场景全覆盖，并进一步升级扩容拓展至全国，目前，到店酒旅业务已报名参与的商户占比超过50%。当然，要实现一个会员在多消费场景的覆盖，本身就需要到家、到店多部门间的协同合作，因此在“核心本地商业”这个大业务分部的统筹下，也更容易贯彻美团的战略意图。</p>
+<p><strong>美团闪购一定程度上，也是到店商家开通到家业务后的融合产物。</strong>如商家闪电仓的铺设，就需要同时结合到店部门对即时消费需求的洞察，以及到家部门配送体系、区域消费数据的支持。</p>
+<p>公司披露，本季度美团闪购日均单量突破1000万单，用户数和交易频次均实现双位数增长，七夕当日，订单量峰值更超过了1600万单。庞大的用户需求支撑下，大型零售商也开始加速入局美团闪购，10月份，名创优品与美团宣布达成深度战略合作，年内将在美团上线超过800家闪电仓形态的“24H超级店”，截至目前已开仓500家。</p>
+<p>具体就闪电仓而言，目前美团闪电仓已经覆盖了超过 3 万家商户，包括超过 1 万家即时零售专门便利店。公司在财报电话会中指出，预计到 2027 年，美团闪电仓的商品交易总额将超过 2,000亿元人民币，覆盖超过 10 万家商户。</p>
+<p>从财务业绩来看，核心本地商业2024Q3实现营业收入693.73亿元，同比增长20.2%。业务数据方面，公司即时配送订单数增加14.5%至71亿笔，到店酒旅订单量同比增长超过50%，同时美团年交易用户数、年活跃商户数以及年交易用户的年均消费频次均突破历史新高，这些成就与公司核心本地商业协同效应的显著提升密切相关。</p>
+<h2>02</h2>
+<h2><strong>共赢生态持续搭建</strong></h2>
+<p>上文详细介绍了美团业务协同的战略重要性以及初步成果，特别值得关注的是，美团的业务协同并未局限于平台内部，而是包括商家、骑手、消费者在内的，整个业务生态的系统性合作。</p>
+<p>以神会员为例，其在各个消费场景的成功覆盖，离不开商家的积极参与。具体而言，商家对神会员的接受程度决定了消费场景的覆盖率，消费场景的覆盖率又影响消费者的消费黏性，消费黏性的提高则又反哺商家的经营业绩。从结果来看，商家、消费者、平台均从中受益，而非零和博弈。</p>
+<p><strong>这也是美团一直以来的经营理念，即追求生态共赢。</strong>本地生活行业的消费行为具备高时效性、高计划性的特征，比如外卖即买即吃、即买即用，到店酒旅的稳定核销、稳定品质等，这要求平台提供高确定性的供给。平台供给能力的搭建，一方面依靠商家的优质稳定供给，另一方面则依靠骑手的高配送效率，二者同时实现的核心逻辑就是要让商家和骑手均有利可图。<strong>因此，骑手、商户、消费者和平台在根本上构成了一个利益共同体。</strong></p>
+<p><strong>目前，美团也推出多项举措，帮助商家提升经营效率，并为骑手提供更多的权益保障。</strong></p>
+<p>商家侧，美团外卖在11月升级餐饮“繁盛计划”，投入十亿助力金，为专注产品、探索创新的餐饮商家提供现金等支持，所有现金支持将从今年12月31日起分批到账。此外，对于新入驻的小微商家，美团将免费流量支持期从 7 天延长至最多 14 天，帮助其快速提升日常业务表现。此外，根据财报电话会披露，对于品牌卫星店，美团还提供6到12个月的佣金返利，并为500多个品牌提供免费的卫星店AI选址服务。</p>
+<p>骑手侧，本季度美团还落实了<strong>包括“骑手友好社区”通行解决方案、上线“骑手之家”功能、试点骑手疲劳管理机制等一系列举措，</strong>进一步丰富骑手关怀、为骑手提供更多权益保障和支持。</p>
+<p>根据公司披露，截至10月底，美团与万科物业、中海物业、金科服务等七大物企合作推出的“骑手友好社区”通行解决方案已累计服务超过160万名骑手，预计年内将在全国过万个小区落地。</p>
+<p><strong>此外，财报电话会上，美团还同步披露了骑手收入的发展情况。</strong>今年三季度，全国范围内高频骑手的月均收入在5720元至10865元之间。其中，高线城市骑手月均收入区间为7629元至10865元，低线城市骑手月均收入区间为5720元至7803元。从各地平均收入看，高频骑手的平均收入，略高于当地的居民平均收入。从收入增长情况看，相较今年6月份，高线城市骑手的平均收入基本持平，低线城市骑手的平均收入则有显著增长。</p>
+<p class="image-wrapper"><img data-img-size-val="595,532" src="https://img.36krcdn.com/hsossms/20241203/v2_569c616ea51a4d1793f12903e288775a@39566_oswg114187oswg595oswg532_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：骑手收入数据资料来源：美团财报电话会，36氪整理</p>
+<h2>03</h2>
+<h2><strong>新业务继续减亏</strong></h2>
+<p>2024年以来，美团股价在一众平台型企业中表现突出，投资者之所以对美团如此青睐，一方面源自对公司业绩稳健增长的认可，另一方面则是公司新业务减亏后抗风险能力增强。</p>
+<p>2023年以前，美团在优选等新业务投入了大量的资本开支和营业开支，2019-2023五年经营亏损累计超千亿。新业务对美团经营利润的拖累，曾一度引发资本市场的担忧，使得公司2021-2023年股价持续回调。</p>
+<p>2023年四季度，美团开始着手新业务减亏，当季经营亏损即同比收窄24.1%。步入2024年，减亏步伐继续加快，2024Q1-2024Q3美团新业务单季亏损分别缩窄45%、74%、80%，特别是24Q3新业务经营亏损仅10亿元出头，新业务减亏对公司利润产生了直接的贡献。</p>
+<p>此外，在当下资本市场期待，以及政策端支持企业分红回购的大背景下，美团也在着力提升股东回报。公司在财报电话会中披露，自9月初至回购窗口关闭前，美团已经回购了价值超过6亿美元的股票，回购总数占公司总股数的4.2%，这一数额超过了2021年至2023年的回购总额。</p>
+<p>身处即时零售这个高速增长的大赛道，本身又拥有稳健的业绩和抗风险能力，同时与合作伙伴一起打造健康共赢的生态体系，在未来政策发力支持消费的大背景下，美团越走越稳。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062852346160515</guid><pubDate>Tue, 03 Dec 2024 16:17:00 +0800</pubDate></item></channel></rss>
