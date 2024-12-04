@@ -1,547 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 04 Dec 2024 16:00:30 +0800</lastBuildDate><pubDate>Wed, 04 Dec 2024 16:00:30 +0800</pubDate><item><title>你的「刻板印象」该翻篇了：家用电池分类及安全使用指南</title><link>https://36kr.com/p/3064083555181954</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>这篇文章源于一次我的突发奇想。</p>
-<p>前些日子我在宜家购买了一个笔记本电脑用的 LED 夜灯，几天使用下来我对它的照明效果非常满意，只是外接 USB 口供电的设计让它在电脑关机后就无法再继续使用，多少让我感到遗憾。</p>
-<p>某天我突然想到，如果可以为它 DIY 一个供电底座，不就可以将这个遗憾解决掉了吗？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_f1dfde578da54b9b83214c6240d7275d@000000_oswg87889oswg1080oswg1079_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">这款 LED 灯的官方宣传图</p>
-<p>于是我很快就利用手边的材料为它制作了一个底座，然后在思考了多种供电方案后，最终选择在某宝上定制一块电池组来为它供电。完成后的最终成品长这样：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_1bbc54e2680142789a08b04dc221495a@000000_oswg208447oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">自己制作的供电底座</p>
-<p>改装完成后我原本还有些小自得，可是突然闪过的一个念头使我冷静下来：</p>
-<blockquote>
-<p>如果电池意外着火的话，纸质的材料好像很容易被引燃？这样的电池容易起火吗？是否有必要换一种材料？</p>
-</blockquote>
-<p>这一刻我突然意识到，自己在电池的使用及安全这块好像还没有清晰的概念。再联想到家里的许多小电器和玩具都在使用电池供电，更多的问题开始接连浮现：现在使用的电池还有重金属等有害物质吗，电池还会漏液吗，没电的电池应该怎么处理……</p>
-<p>我想弄清楚这些问题，于是开始查找家里都用到了哪些电池。这一找才发现，自己家里用到的电池其实有很多不同的型号和种类，于是我按照是否可以重复使用（充电）作为标准将它们分为两类，并开始尝试了解它们。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_7049e18567fa441ab246f6e1ba6e01ed@000000_oswg241046oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">我家里用到的部分电池</p>
-<p>事先声明，这篇文章的目的是用通俗易懂的语言、从家用角度讨论日常使用的可以更换的电池，手机这种内置电池的设备不在本文讨论范围之内。如有疏漏欢迎文末补充！</p>
-<h2><strong>一次性电池</strong></h2>
-<p>顾名思义，一次性电池是指电池电量耗尽后就无法再次使用的电池。在国内，常见型号有 AAA（7 号）、AA（5 号）、D（1 号）。我翻看了从家里找出来的电池包装，以及参考电商中高销量的产品，发现这些常见型号基本可以按照化学性质分为「<strong>碳性电池</strong>」和「<strong>碱性电池</strong>」两类。</p>
-<p>碳性电池也就是所谓的「干电池」，是最为经济实惠的电池。它的电容量较低，比较适合用在一些低或中耗电量的电子设备上，如遥控器、收音机、时钟等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_a0a65ee54cbf4ebea2e293afa9228126@000000_oswg204871oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">我家里的碳性电池</p>
-<p>与碳性电池相比，碱性电池拥有更高的电容量、更高的输出和更高的存储寿命，价格一般也要比碳性电池更高一些。它比较适合用在一些中或高耗电量的电子设备上，如电动玩具、手电、相机等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_69fc930877f248709c8976ddee666af1@000000_oswg300394oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">我家里的碱性电池</p>
-<p>在日常生活中，这两种电池的安全性比较高，很难发生爆炸或起火等危险事故。</p>
-<p><strong>在使用这两种电池的过程中最常出现的问题是漏液</strong>，从电池中漏出的糊状液体虽然不会引发严重的安全事故，但因为它有一定的腐蚀性，不及时处理依然会对电器的正常使用产生影响。在处理漏液时如果不小心被漏出的液体接触到皮肤或眼睛，可能会出现红肿、瘙痒等症状；如果误食则可能出现恶心、呕吐等反应。因此在处理漏液时应注意自身防护，如出现上述不适，应立即清洗并就医。</p>
-<p><strong>造成电池漏液的原因多种多样</strong>：电池老化、有制造瑕疵、过度放电……普通消费者显然很难在使用过程中预见并避免出现上述问题，相对简单的解决方案就是在购买电池的时候，尽量选择知名品牌的产品。并不是说便宜的电池就不能用，而是品牌电池在安全性方面通常会做的更好——对此我有着亲身体会：以前我因为贪便宜在某多多买过一盒三线品牌售卖的 7 号电池，到手后并未多想就将它装到了电器的电池仓里，结果更换电池时发现它漏液了，还将电池仓的触点锈蚀了不少。而在我的印象中，之前使用的品牌电池在没电后就算一直没管它也没发生这种情况。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_cc8a6c4529364d11954d8c02644ea5e5@000000_oswg95911oswg956oswg956_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">被漏液锈蚀的触点</p>
-<p><strong>除上述两种电池外，还有一种不会经常更换的一次性电池出现在我的日常生活中，它就是纽扣电池</strong>。纽扣电池一般是指形状如钮扣、按钮、硬币、豆粒等的小型电池，常用于手表、玩具等小型电器中。纽扣电池的型号可以通过电池背面刻印的文字判断，常见的型号有 CR2032、CR2025、LR44 等（纽扣电池的型号种类繁多，想要了解可以参考维基百科 纽扣电池 ）。它的优点是体积小、重量轻、安全性高，也不会如同上述两种电池那样有漏液的风险。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_a341ea872dfb4dfab7991ff71b00d96f@000000_oswg267221oswg992oswg992_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">一次性纽扣电池</p>
-<h2><strong>可充电电池</strong></h2>
-<p>可充电电池一般是指当电池的电量消耗到一定程度之后，可以通过外部电源补充电量、再次重复使用的电池。我家里经常使用的可充电电池有两种：一种是和一次电池有着相同型号（如 AA 或 AAA ）的<strong>镍氢电池</strong>，另一种是<strong>锂离子电池</strong>。</p>
-<p>镍氢电池（NiMH）可以说是日常生活中最为安全的电池，它基本不会漏液，也很难出现燃烧或爆炸的情况。缺点就是它有一丢丢的记忆效应，以及它的重量几乎也是家用电池中最重的。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_ae6c4ffb32284c678deeba9ee92f22d4@000000_oswg284557oswg1060oswg1060_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">我家里的镍氢电池</p>
-<p><strong>镍氢电池可以视为碱性电池的家用升级版</strong>，因为两者在适用范围基本一致的同时，前者通常有更高的容量和使用寿命（通常能承受 500-1000 次的充放电周期）。所以尽管它有着较高的购买成本，如果有长期使用的需求，直接购买镍氢电池可能会比频繁更换碱性电池更为划算。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_c1f41cb07a9848649ac638232d39e672@000000_oswg124853oswg777oswg777_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">例如门铃就挺适合使用镍氢电池</p>
-<p>在充电方面，镍氢电池的充电器基本是通用的，除了一些特殊的电池和需求外，一般只需要购买一个正规的充电器足以满足大多数的充电需求。</p>
-<p>接下来说说锂离子电池（Li-ion），锂离子电池和锂电池并不相同，前者是充电电池，而后者是一次性电池，我们平常说的锂电池其实一般指的是锂离子电池。现在许多内置电池的设备基本用的都是定制型号，但其实锂离子电池同样也有着通用的型号规格，较为常见的有 18650、21700 等。这些型号的电池既可以单个使用，也可以将多个电池组合在一起，形成电池组、电池包使用（许多充电宝、电动自行车使用的电池就是由通用型号的锂离子电池组成的）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_cd2e7a5bfabe46cfa886b46948036c01@000000_oswg161655oswg829oswg829_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">我家里各种形态的 18650 电池</p>
-<p>虽然锂离子电池有着能量密度高、无记忆效应等诸多优点，可它的缺点也同样突出——安全性较差，新闻里面报道的电池起火、爆炸等案例大多源自它。若是仔细探究电池的起火原因，可以发现大多是因为<strong>过度充电</strong>和<strong>电池短路</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_ccff6b6c31194130ab8afdbcc0cd2504@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">18650 电池起火 / 来源：神航锂电</p>
-<p><strong>无论是过充还是短路引发的起火，根本原因都来自锂离子电池不耐热的特点</strong>。过充会导致电池温度和压力不断上升，从而产生爆炸、起火；短路也会造成电池内部温度不断升高，最终起火爆炸。<strong>因此使用锂离子电池时的要点就是不要过充和过放</strong>：过充会增加安全风险；而过放会导致电池寿命缩短，深度放电更可能使电池损坏，无法再使用。</p>
-<p>锂离子电池既然有这样的安全隐患，为什么还会如此流行呢？其实这是因为使用它的安全风险已经降低到可以接受的程度。正常来说，一块合格的锂离子电池在设计时就会包含多种保护机制，例如加入保护电路防止过充、过放、过载、过热等；加入排气孔避免电池内部压强过大等，而且随着科技的进步，它的安全性也会越来越高。</p>
-<p>最后再谈一谈锂离子电池的充电。其实现在锂离子电池的充电器大多已经非常智能化，基本上都使用了现代化的充电管理技术，可以根据电池的需要输出对应的电流。因此只要选择的充电器符合国家安全认证，基本不用纠结充电的适配问题。</p>
-<h2><strong>废旧电池的存储和处理</strong></h2>
-<p>随着时代的变化，购买电池的主战场已经从线下转移到了线上，而且经常一买就是一盒。那么暂未使用的电池应该怎么存储呢？</p>
-<p><strong>对于一次性电池，最好将未使用的电池留在原包装内，使用时再拆出</strong>。电池的原包装可以很好的避免电池接触到金属物品，防止短路；另一方面也可以直观的将新、旧电池区分开来，以免不小心将有电和没电的电池混用。如果有多盒电池，也可以用记号笔将电池的有效期写在盒子上，方便辨认。</p>
-<p>至于充电电池，可以使用专用的电池盒来存放。<strong>充电电池如果长期不用，一定要充好电再保存。</strong></p>
-<p>最后，无论是哪种电池都不要放在阳光直射的地方，避免高温；也不要随意将电池散乱的放在抽屉或盒子里，以免短路产生危险。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_6f5f26e3a7e94442bd170b5fa2e110b5@000000_oswg268463oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">电池盒</p>
-<p>电池没电后应该怎么处理呢？以前需要将它带到废电池回收点回收，处理起来其实并不方便。自从垃圾分类制度开始实施后，在解了废电池的垃圾分类后基本在家门口就能处理掉了。</p>
-<p>另外，如今的碳性和碱性电池已经不再含有铅、汞、镉等有毒有害的重金属元素，基本不会对人和环境造成伤害。因此这两种一次性电池可以投放到其它垃圾桶中。</p>
-<p>纽扣电池因为技术与专利等原因，可能依然有少量汞的存在，因此钮扣电池仍然处于有害垃圾的范畴，<strong>不能随意丢弃</strong>。镍氢、锂等可充电电池同样被归类为有害垃圾。</p>
-<h2><strong>写在最后</strong></h2>
-<p>作为一个接近中年的伪年轻人，在写这篇文章之前我对电池也有很多还停留在二十年前的固有印象，例如「电池用没电了不能乱扔，里面的重金属会严重污染环境」「充电电池要完全没电了才能充电，不然容量会变小」等，写完这篇文章它们才在我的脑海里彻底翻篇。</p>
-<p>电池不再是有害垃圾了、原来现在的充电电池基本可以随意充电……时代的发展总是这么让人猝不及防，令人恍然。而直到现在我也不太清楚在这个内置电池已经成为未来趋势的年代，写这样一篇文章究竟是否有意义，所以在写作途中也想过「要不算了吧」，冷静了一段时间后还是重新调整心态完成了它——就当是为了给文章开头的自己做个交代吧！</p>
-<p>若是能再给他人带来一些启发，那就真是意外之喜了。</p>
-<p>原文链接：</p>
-<p>https://sspai.com/post/94064?utm_source=wechat&amp;utm_medium=social</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU4Mjg3MDAyMQ==&amp;mid=2247584196&amp;idx=2&amp;sn=df2436dcd9904420a8a6f4d80c86e680&amp;chksm=fc8552342234e6399a64969f55117f3b0f7a38fef038444ce5f4a14d76ba8821ff46c245cfff&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“少数派”（ID：sspaime）</a>，作者：谷丰，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064083555181954</guid><pubDate>Wed, 04 Dec 2024 14:38:00 +0800</pubDate></item><item><title>马斯克玩坏了 X，2000 万「Twitter 难民」疯狂涌向这个 App</title><link>https://36kr.com/p/3064091525014916</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_92cbc04f442e412fad3d736dc0ec8cdf@000000_oswg118655oswg1000oswg525_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如果现在让你叫出 X 的两大明星用户，你会想到谁？特朗普和马斯克或许是很多人的答案。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_35c1cd6ffeb14ce4863c802d7a989de1@000000_oswg221267oswg1080oswg947_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">X 上关注者排名，特朗普和马斯克是前十名里活跃度最高的用户｜图源：Wikipedia</p>
-<p>特朗普回白宫，X 和他的第一哥们马斯克都出了不少力。当年因看不惯其他社交媒体的「政治正确」，看不惯特朗普被 Twitter 禁言封号，马斯克收购了 Twitter。</p>
-<p>在马斯克大刀阔斧地对 X 进行了改名、裁员、订阅服务等等一系列政策调整后，<strong>如今 X 的估值已经从被收购时的 440 亿美元跌至约 94 亿美元，缩水近 80%，公司收入也下降了 84%</strong>，许多主要广告商也纷纷停止了在 X 上的投放。</p>
-<p><strong>最可怕的是：</strong></p>
-<p><strong>用户也在跑</strong>。</p>
-<p>X 的全球日活用户减少了 15%，而美国用户减少了 18%。而在美国大选后，这种用户流失还在加速。<strong>美国大选计票当日，超过 11.5 万美国用户选择停用 X 账户</strong>，创下自马斯克接手以来的最高纪录。</p>
-<p>疑似为了遮掩用户流失，马斯克上周还宣布，将隐藏 X 平台上「点赞、评论、转发」的数据。对此，马斯克给出的理由是「这样界面干净多了」。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_4b85cee66f314f2699c21fd97c4c6c22@000000_oswg275175oswg1014oswg1194_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">马斯克将 X 上的点赞等项目数字隐藏起来｜图片来源： X</p>
-<p>然而，用户不会消失，只会转移，而 X 用户流向的目的地之一，是 Bluesky。</p>
-<p>同样是大选计票日，Bluesky 在当日吸引约了 120 万名访客，比 Threads 的 95 万名访客还高。11 月 14 日，Bluesky 表示过去一周新增约 250 万名用户，总用户数突破 1600 万，日活跃用户飙升至 350 万，<strong>11 月 19 日，Bluesky 正式突破 2000 万用户，自大选日以来增长了 300%</strong>。</p>
-<p>所以 Bluesky 是什么？是 X 的「温和平替」，还是又一次社交平台的昙花一现，又或是前马斯克时代的 Twitter 继任者？</p>
-<h2><strong>01 真正的 Twitter 继承者</strong></h2>
-<p>打开 Bluesky 的页面，你会以为点进了某个账号的 Twitter 主页。</p>
-<p>因为它就是以曾经的 Twitter 为蓝本，也脱胎于 Twitter 公司，<strong>甚至建立之初，就是想成为理想化的 Twitter</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_09e578e97eb640d9a5eddc5bcfff55d7@000000_oswg87009oswg640oswg480_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">这味儿太推了｜图源：Bluesky</p>
-<p>Bluesky 始于 2019 年，Twitter 创始人兼时任 CEO Jack Dorsey 在 Twitter 上公布了 Bluesky 计划，他们想建立一个开放且分散的社交媒体平台标准，用户资料更安全，内容推送也不过多受到算法干预。</p>
-<p>Jack Dorsey 也曾在 2019 年透露过该计划，并表示希望让 Twitter 最终能符合这一去中心化的标准。</p>
-<p>Bluesky 在 2021 年从 Twitter 独立，成立了 Bluesky Social 公司，而在 2022 年，马斯克入主 Twitter 后，Bluesky 就和 Twitter 切断了所有法律和财务相关的联系，并且开始加速开发应用。</p>
-<p>Bluesky 的初心是打造一套去中心化社交媒体的技术标准，在 2022 年后，他们想直接成为去中心化的 Twitter。</p>
-<p>今年 2 月，Bluesky 才正式开放注册，十个月时间里，累计了 2000 万用户，并且在当下涨势正盛。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_804b2444d47947aea0d448a3af02fc43@000000_oswg612352oswg894oswg936_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Bluesky 和 Twitter 在页面上几乎一样｜图片来源：Bluesky</p>
-<p>Bluesky 在形式上与 Twitter 非常相似。以 300 个字符内的文本、图像和视频为一帖，用户可以回复、转发、引用、点赞。尽管 CEO Jay Graber 非常不赞成，但 Bluesky 的用户把平台的帖子就叫作「skeets」（Sky + Twitter）。</p>
-<p>让 Bluesky 备受追捧的也不止是和 Twitter 高度类似的形式，而是从技术到内容，都和 X 处处相反的模式。</p>
-<h2><strong>02 X 反对的，我们推崇</strong></h2>
-<p>Bluesky 的核心技术是 AT 协议，它允许不同的社交媒体之间互相通信，用户可以在不同的平台上相互关注和互动，而不需要依赖于单一的中心化平台。</p>
-<p>用户也可以自主选择数据的存储位置，可以是自己的服务器或网盘，AT 协议确保了用户的数据不会被锁定在单一平台上。哪怕用户不想用 Bluesky 了，也可以轻松地带走他们的内容和数据。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_0ef279de26ac405cb3889af0157c80a8@000000_oswg156805oswg758oswg1242_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">从创建账号起，就可以选择内容储存的服务器｜图源： Bluesky</p>
-<p>换言之，用户免于点开一个又一个 App 刷信息流的麻烦，免于担心被销号后数据丢失，免于考虑到迁移成本，捏着鼻子也要用一个自己不那么喜欢的社交平台。</p>
-<p><strong>Bluesky 想让开发人员有构建平台的自由，也让用户有离开的权利</strong>。</p>
-<p>反观 X 是怎么做的呢？近日，马斯克隐晦地表示，X 正在主动限制包含外部链接帖子的可见性。2023 年 10 月，他也曾承认「我们的算法优化了用户在 X 上花费的时间，因此平台外链接不会受到太多重视，因为如果人们通过链接跳转了，花在 X 上的时间就会更少。」</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_e7244b029887423ba8eb53f32f0fe549@000000_oswg241790oswg1080oswg698_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来自著名科技观察者 Paul Graham 的质疑｜图片来源：X</p>
-<p>去年 1 月，X 正式禁用第三方客户端，许多 Twitter 时期著名第三方应用就此落幕，2 月，X 又取消了免费 API，就在 10 月 30 日，X 又宣布最低档 API 套餐从 100 美元涨到 200 美元。</p>
-<p>一系列封堵操作，源于马斯克想让用户、数据、钱都留在 X，实际后果是：三者都在流失。</p>
-<p>如今的 X 和承继于 Twitter 的 Bluesky 就像两大平台 icon 的化身，一个黑白分明，汇集于中心的 X，对上了从蓝色小鸟演变而来，名为蓝天的蝴蝶。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_68eaadbbd4884cbdaf507eebb93db30f@000000_oswg12774oswg561oswg183_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">平台气质截然不同｜图源：作者自制</p>
-<p>在内容层面，Bluesky 和 X 的倾向就更明显了。</p>
-<p>X 对外部链接的管控和对假新闻的放纵，引发传统记者和媒体极度的不满，11 月初，英国《卫报》宣布，它将不再正式在 X 上发帖，称其为「一个有毒的媒体平台」，其所有者（马斯克）「利用其影响力塑造政治话语」。</p>
-<p>此前，外媒曾报道过，马斯克调整了平台的推荐算法，使得右倾内容在 X 上的可见度增加；根据 2024 年皮尤研究中心的一项研究，X 在右倾用户中越来越受欢迎，右倾内容的传播和互动也更频繁。</p>
-<p>X 上两大明星人物——马斯克和特朗普，也在近两年多次公开支持过右派的政治人物和观点，甚至在德国表达了对极右翼政党「另类选择党。」（AfD）的支持。</p>
-<p>到了今年大选阶段，马斯克不遗余力地助力特朗普，《德国之声》就在大选后报道称：「马斯克不仅自己发布和传播虚假信息，还会通过转推分享其他带有虚假成分、误导性叙述以及阴谋论的贴文。」据 CCDH 最新发布的报告，<strong>从 2024 年 1 月至 7 月，马斯克在 X 上发布的假新闻收获总计 12 亿次的阅读量</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_36fb001549e0426eaa4f07d1acfff393@000000_oswg47316oswg768oswg432_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">第一哥们来站台｜图片来源：AP</p>
-<p>X 早已不是一个中性的社交平台，假新闻、阴谋论、骚扰言论、性别对立、网络暴力、极端右翼充斥着在平台上，X 在全面向右靠拢。</p>
-<p>Bluesky 也难称中性，2023 年 2 月，Bluesky 开启了内测邀请制，邀请用户里有大量的少数族裔社区和亚文化团体，用户画像包括记者、跨性别者、黑人艺术家、左翼政治活动家……</p>
-<p><strong>《Vice》和《大西洋月刊》都用了「weird（怪咖）」来形容 Bluesky 的早期用户</strong>，一方面是一种称赞，一方面也彰显出 Bluesky 平台的多元化氛围。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_86540f09e6d640bebe8341da8f136311@000000_oswg12543oswg804oswg322_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">媒体赞扬 Bluesky 能保持「怪咖初心」｜图片来源： Vice</p>
-<p>在近期的采访里，Bluesky COO Rose Wang 曾表示，开放测试期的早期目标是「培养一组能够帮助宣传 Bluesky 理念，讲述和强化社区文化」的用户。Bluesky 的服务条款里也写着「禁止基于『种族、性别、宗教、民族、国籍、残疾或性取向，以人为目标』的歧视行为。」</p>
-<p>不难看出，Bluesky 在平台倾向上也站在 X 的对立面，向左倾斜。</p>
-<p>而且不同于 X 用「推荐关注」等算法形成的回音室，Bluesky 的算法同样是去中心化的，用户可以横跨不同平台，根据自己的兴趣来定制内容推荐算法，而无需依赖某个固定平台的算法规则。官方功能「自定义摘要」也免于用户陷入无尽的算法瀑布流。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_a2e444f2306047a48b5d77fc37b08025@000000_oswg147211oswg752oswg822_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">进入 Bluesky 前的提示｜图源：Bluesky</p>
-<p>Twitter 曾经是一个全球突发新闻和碰撞想法的广场（Twitter 名称正是源自于「叽叽喳喳」），但随着时间的推移和掌舵人的变化，它成为了 X，也在变成某一派政治理念的回音室和扩音器。</p>
-<p>「我认为 Bluesky 新用户的涌入，实际上是因为人们太反感 X 了。」Bluesky COO Rose Wang 说道。</p>
-<h2><strong>03 怎么赚钱，昙花一现？</strong></h2>
-<p>Bluesky 不是第一个试图挑战 X 的社交平台。此前曾报道过的「00 后社交平台 noplace」，试图成为年轻版的 Twitter，但在一阵冲榜后，也不再见有水花。</p>
-<p>新兴社媒层出不穷，可现状依旧是流水的社媒，铁打的 Meta 和 X。</p>
-<p>但 Bluesky 与众不同，脱胎于正统的 Twitter 团队，继承了 Twitter 的内容形式，又在技术方式上做了创新，他们秉持着去中心化、多元化、言论自由、数据自由的理念，试图解决人们对社交媒体多年来累积的不满：封闭、算法、回音室、网络暴力……</p>
-<p>在当下的网络环境里，Bluesky 显得那么完美，又富有理想主义。</p>
-<p>但问题是，<strong>理想靠什么维持？如何确保 Bluesky 不成为下一个被买下后消失的 Twitter</strong>呢？</p>
-<p>或许是前车之鉴，Bluesky 从公司架构上先做出了不同于其他科技公司的调整。</p>
-<p>2019 年，Bluesky 从 Twitter 拿到了 1300 万美元的开发资金，到 2022 年时独立成为 Bluesky Social，而后 Bluesky Social 的性质变更为「公益法人」，即它被允许将其利润用于公共利益，没有义务必须追求盈利和股东价值最大化。</p>
-<p>据官方披露，截至 2024 年底，Bluesky 的运营资金主要来自投资者和风险投资公司，10 月 24 日，Bluesky 宣布 A 轮融资筹集到了 1500 万美元。</p>
-<p>CEO Jay Graber 也承诺 Bluesky 将永久免费使用，目前不考虑广告的商业模式，他们想在追求价值观同时实现商业化。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_1c5b7ab6ac69455391afe502d1e48abb@000000_oswg650594oswg1080oswg570_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Bluesky CEO Jay Graber ｜图源： Wired</p>
-<p>Bluesky 团队反思了 Twitter 商业化中遇到的问题：过于专注于平台，不得不从开放走向封闭，以此贩卖平台价值。Twitter 这种倾向，也在马斯克治下的 X 被加速了。</p>
-<p>Bluesky 商业化的思路是坚守平台的开放，回到他们自主研发的 AT 协议上，比如他们已经在向用户出售自定义域名，让用户不只有昵称的命名权，以及把 AT 协议开放给其他应用，以收取授权费等方式。</p>
-<p>同时，Bluesky 也在考虑付费订阅服务，用户可以付费解锁更高画质的视频，更多可自定义的配置文件等。以及 Bluesky 也试图在创作者社区里，建立起用户对创作者的点对点支付服务，用于购买数字艺术品、付费文章、代码、打赏。</p>
-<p>不过，在一个个新用户注销 X，注册 Bluesky 的当下，Bluesky 面临的财务压力要远低于服务器压力。</p>
-<p>「打开 Bluesky 的感觉就像 10 年前登录 Twitter 一样。它很怪，但很友好。每个用户都求知若渴。」许多 Bluesky 新用户发出类似的感叹。</p>
-<p>而 Bluesky 也在官方博客上发文，庆祝拿到 A 轮融资，上一轮资金大量投资于开发反骚扰和安全工具，目前在平台上启动了自定义内容摘要，开源了审核工具 Ozone，自定义域名开始销售……</p>
-<p>看起来，Bluesky 的未来有条不紊，晴空万里。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_685316f2563044399a834479273be9d2@000000_oswg235808oswg1080oswg1993_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">「Twitter 难民」们拥立「新王」｜图片来源： Bluesky</p>
-<p>在博文最后，他们写道「传统的社交媒体公司封闭了公共数据，封闭了他们的 API，断绝了独立开发者的生计，部署了让我们猜不透的黑匣子算法。这个旧社媒时代已经结束——在 Bluesky，我们将选择权和权力还给你。」</p>
-<p>Bluesky 秉持着古老的互联网精神，出现在当下，一个 AI 赋能假新闻，立场极端又对立的混乱时代，无论他们能保持多久的初心，能否彻底撼动 Meta 和 X，他们都建立了一套新的规则，呈现出互联网和社媒应有的面貌。</p>
-<p><strong>世界太需要这样的社交媒体了</strong>。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653067035&amp;idx=1&amp;sn=f91c596c85efad7c9fe8a5161757a8e6&amp;chksm=7f758758bda14ff8cbc4f994edab2fbde16b13b3e5669521ea5d491c179fc8c44e19ed060f53&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“极客公园”（ID：geekpark）</a>，作者：Moonshot，编辑：靖宇，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064091525014916</guid><pubDate>Wed, 04 Dec 2024 14:44:00 +0800</pubDate></item><item><title>仅次于原子弹的机密：这些国家，为何请中国印钞票？</title><link>https://36kr.com/p/3064093293749378</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>我国是全球工业门类最全的国家，这让我国在全球制造业中具有显著的优势和竞争力。</p>
-<p>小到一枚纽扣，大到一列高铁，中国出口的商品越来越多、技术含量越来越高。</p>
-<p>鲜为人知的是，中国还出口一种特殊的商品：钞票。</p>
-<p>截至目前，中国已为10多个国家代印钞票。</p>
-<p>这些国家为何要中国代印钞票？</p>
-<p>中国的印钞技术，又是如何逆袭的？</p>
-<h2><strong>01 代印钞票</strong></h2>
-<p>我国为其他国家印钞，主要分两种。</p>
-<p>一种是含有公益色彩的援助。</p>
-<p>我国对外援助印钞的国家有9个，分别是越南、古巴、阿尔巴尼亚、老挝、朝 鲜、几内亚、柬埔寨、蒙古、尼泊尔。</p>
-<p>我国最早开展援外印钞的对象是越南。</p>
-<p>早在1950年，越南抗法救国战争进入关键阶段，越南没有能力也没有条件印钞。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_6a64c5513ae643d3952c140dc6597596@000000_oswg114500oswg1080oswg582_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">1950年我国代印的越南盾</p>
-<p>我国为越南设计和印制了第一套越南盾，这套钞票上印有中文。</p>
-<p>此后的1957年、1965年、1968年，我国又先后为越南印制了3套越南盾，合计4套共31个券种。</p>
-<p>蒙古国的钞票早期由苏联代印，后来为欧洲代印。</p>
-<p>我国一开始为蒙古国代铸硬币，1991年又为蒙古代印了一批国库券。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_c7a9ab1991874f9dadb4dc44e45dea46@000000_oswg284749oswg809oswg1269_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">1991年我国代印的蒙古国库券</p>
-<p>另一种是带有商业性质的合作。</p>
-<p>进入21世纪后，随着对外贸易日益紧密，我国的印钞业务也走上了商业化之路。</p>
-<p>2015年，中国印钞造币总公司拿下尼泊尔的100卢比、1000卢比和5卢比印钞订单，这是我国首次以投标方式获取国际印钞商业订单。</p>
-<p>我国为尼泊尔代印了2.1亿张面值100尼泊尔卢比的新版钞票，除了在图案、色彩、防伪方面都有改进外，还增加了供盲 人识别的凸点。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_af2fed395c254658a711ec20efb4729a@000000_oswg77365oswg640oswg640_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">我国代印的面值100 尼泊尔卢比</p>
-<p>这是尼泊尔首次发行盲人友好型纸币，大受欢迎。</p>
-<p>2017年，中国印钞造币总公司又与尼泊尔央行签订合同，获得2.6亿张小张5卢比面值钞票订单。</p>
-<p>此后，中国印钞造币总公司先后成功中标泰国、孟加拉国、斯里兰卡、马来西亚、印度、巴西、波兰等多个国家的货币生产项目。</p>
-<p>2018年，中国印钞造币总公司成功中标2.2亿枚2泰铢全制硬币项目。</p>
-<p>这种2泰铢硬币是泰国国王拉玛十世2016年12月继位后发行的新版流通硬币之一，也是这位泰国新国王的肖像首次铸在泰国流通硬币上。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_8920944a3f0d49c19136e175a7e9b48e@000000_oswg295378oswg640oswg426_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">我国代铸2泰铢全制硬币</p>
-<p>除了代印钞票，中国印钞造币总公司还向海外出口原材料和装备。</p>
-<p>2015年，中国印钞造币总公司向泰国出口自主研发的大张检查机，打破了由德国、日本垄断商业大张检查机的局面。</p>
-<p>2017年，中国印钞造币总公司与波兰造币厂签订了硬币坯饼供应合同。</p>
-<p>国际印钞舞台上，中国企业开始占有一席之地。</p>
-<h2><strong>02 明智选择</strong></h2>
-<p>货币关系经济发展、社会稳定，是一国主权的重要组成部分。</p>
-<p>钞票如此重要，这些国家为何要让中国来代印？</p>
-<p>答案很简单，自己印不了。</p>
-<p>一个冷知识，全球共有200个国家，有独立能力印制钞票的只有50多个。</p>
-<p>印制钞票，不是简单地印刷一张纸，而是一个蕴含各种黑科技的“国家工程”，因此被称为“仅次于原子弹的机密”。</p>
-<p>具体来说，印钞至少要满足三个要求：</p>
-<p>一是耐用。</p>
-<p>日常生活中，钞票的使用是流动的。拿在手里、放在包里，常常被挤压、被折叠甚至被浸泡。</p>
-<p>这要求，钞票必须要坚韧、耐磨、抗腐蚀。</p>
-<p>为了满足这一特定要求，钞票的用料必须讲究。</p>
-<p>钞票用的不是普通的木浆，而是纤维比较长的“棉浆”。这种纸张的柔韧性非常好，即便是多次水洗也不会出现泡烂或者变色等问题，并能承受一定的酸碱腐蚀。</p>
-<p>有了纸之后，下一步是印胶，用的是一种特殊的油墨。</p>
-<p>好的油墨，既要求墨色鲜亮而不浓，还要具有极高的耐久性和稳定性。</p>
-<p>同时，配合使用雕刻制版、对印技术和凹印接线技术，确保了图像层次清晰、色泽鲜艳，并且能够有效防止油墨褪色 。</p>
-<p>二是防伪。</p>
-<p>钞票的防伪，是全方位的，既要让不法分子难以伪造，也要让市民在使用中易于识别。</p>
-<p>就拿人民币来说，就使用了白水印、雕刻凹印、光彩光变油墨等防伪技术。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_24eca4274299480b80f74d716c37aa16@000000_oswg27513oswg474oswg248_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">人民币防伪技术</p>
-<p>以光彩光变油墨为例，这种油墨结合了珠光和金属效应，使得印刷的图案在不同角度下呈现不同的颜色变化，且彩色复印机和电子复印机无法复制。</p>
-<p>油墨看起来不起眼，却属于技术密集型行业，需要材料科学、流体力学、色彩学、界面科学、化学工程和物理化学等多个学科的综合应用，大部分国家没有自主研发能力。</p>
-<p>再加上纸张原料、图样设计、印制设备等，能够独立印制钞票的国家，就更好了。</p>
-<p>三是经济。</p>
-<p>有的国家即便可以通过进口，建立起独立的生产线，还将面临新的问题：成本。</p>
-<p>印制钞票，是需要成本的，并遵循着“数量越多、平均成本越低”的规律。</p>
-<p>对很多小国家来说，钞票流通量不大，花大钱购买设备自己印钞，就不划算了。</p>
-<p>除了成本，有时还要兼顾效率。</p>
-<p>就拿阿根廷来说，受持续高通膨和严重货币贬值影响，发行的纸币面值不断增大，于今年5月开始发行新版的10000比索钞票。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_bb3dada328324ddb83a1860c748c184a@000000_oswg37928oswg640oswg355_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">新版的10000比索钞票</p>
-<p>首批7.7亿张新版的10000比索钞票，由中国印钞造币集团有限公司印制。</p>
-<p>阿根廷有自己的造币厂，之所以请中国代印，是因为钞票需求量太大，自家的工厂忙不过来。</p>
-<p>综合来看，对很多国家来说，请其他国家代印钞票是明智的选择。</p>
-<h2><strong>03 中企出海</strong></h2>
-<p>别看我国为10多个国家印制钞票，在此前的很长一段时间里，我国的钞票也是让其他国家代印的。</p>
-<p>新中国成立前，民国政府发行的钞票大多委托英美代印。</p>
-<p>像下面这张1936年印制的壹圆钞票，便是由伦敦华德路公司代印，底部还有该公司的字样。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_93d97fa711ae48348a2198ba9db5d5ea@000000_oswg169844oswg1080oswg530_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">民国发行的钞票</p>
-<p>新中国成立后，百废待兴，万事开头难，我国委托苏联帮助印制了10元、5元、3元钞票。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_ae22428b71d542409c16307eb3cb7ea7@000000_oswg76916oswg538oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">苏联代印的人民币</p>
-<p>后来，中苏关系恶化，苏联撤走了所有技术人员和设备，我国印钞业被迫走上了一条自主创新之路。</p>
-<p>印钞造币，国脉所系、民生所依。</p>
-<p>肩负重大使命，我国科研人员攻克一道道难题，终于让我国的印钞技术走在了世界前列。</p>
-<p>正解局主要介绍两项技术：</p>
-<p>一项是凹版印刷术。</p>
-<p>在印钞界，有一种“无凹不成币”的说法。</p>
-<p>注意看，2015年版第五套人民币100元纸币票面正面毛泽东头像，采用的就是凹印印刷技术。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_31127dc128ae47a8a181d43f992df454@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>一方面，凹版印刷线条的粗细、油墨的浓淡层次，极其精细，模仿、伪造的难度极大。</p>
-<p>另一方面，凹版印刷具有明显的凹凸感，用手指触摸可知，便于识别。</p>
-<p>中国自主研制了世界首台凹印对印机，可以实现双面同时凹印，大幅提升了生产效率，解决了世界性难题。</p>
-<p>“SD凹印对印”团队还荣获了2010年度国家技术发明一等奖。</p>
-<p>另一项是安全线技术。</p>
-<p>2019年版第五套人民币50元纸币，在票面正面右侧，有一条安全线。</p>
-<p>当你改变钞票观察角度，安全线颜色在红色和绿色之间变化，亮光带上下滚动，透光观察可见“¥50”。</p>
-<p>这条安全线，不仅具有审美效果，还是重要的防伪手段，极富科技含量。</p>
-<p>早年，安全线只能进口。经过多年研发，我国已经实现了安全线国产化，并在核心技术上实现弯道超车。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_07148d3cdd624211802ac7be1c50ef5e@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">带有安全线的人民币</p>
-<p>现在，中国印钞造币总公司已成长为全球规模最大的印钞造币企业。</p>
-<p>与德国G&amp;D公司、英国De La Rue公司、法国Oberthur公司等老牌印钞造币巨头相比，中国印钞造币总公司虽然经营历史、销售网络稍显逊色，但胜在产能充足、供货稳定、价廉物美。</p>
-<p>与欧美企业相比，我国的印钞成本能省30%到50%，这一点对预算有限的国家尤为重要。</p>
-<p>2015年，中国印钞造币总公司为尼泊尔代印了卢比。</p>
-<p>其他公司印制的价格是2.69卢比/张，中国印钞造币总公 司的价格是2.15卢比/张。</p>
-<p>最后算下来，即使加上运费，还为尼泊尔节省了300万美元。</p>
-<p>再次需要强调的是，中国印钞造币总公司的优势可不仅仅是价格低。</p>
-<p>正解局注意到，我国印钞业务出海，最初只是为其他国家代印，后来出口墨、纸等材料，现在已经进行产业链输出。</p>
-<p>从中国产品，到中国制造，再到中国标准，我国印钞业务出海实现了“三级跳”。</p>
-<p>印钞技术，也是中国制造迭代升级的生动写照。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&amp;mid=2654898396&amp;idx=1&amp;sn=247306959e6d07da7076a297495fe8c7&amp;chksm=bccd255218c62b5cef39ab008e27eadc60d829205048ecf350c2736dd0f28982fce24719a537&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“正解局”（ID：zhengjieclub）</a>，作者：正解局，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064093293749378</guid><pubDate>Wed, 04 Dec 2024 14:50:00 +0800</pubDate></item><item><title>亚马逊祭出地表最强全家桶，多模态Nova却败给Claude 3.5</title><link>https://36kr.com/p/3064101486306433</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>就在刚刚，亚马逊推出了号称最强大的多模态模型Nova系列。</p>
-<p>在多项基准测试中，最强的Nova Pro成功超越了GPT-4o，仅次于Gemini 1.5 Pro、Claude 3.5 Sonnet。</p>
-<p>相较之下，Nova Lite和Nova Micro，就要比同级竞品差上不少了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,548" src="https://img.36krcdn.com/hsossms/20241204/v2_a199bcb602134bd69fce6a500ab06c07@5091053_oswg216316oswg1080oswg548_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过，它的价格非常便宜——每百万token的输入价格低至0.0175美元，输出价格低至0.07美元。</p>
-<p class="image-wrapper"><img data-img-size-val="752,668" src="https://img.36krcdn.com/hsossms/20241204/v2_f486fb8dfe30482e9a1d0893ed44bf24@5091053_oswg67365oswg752oswg668_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>性能的提升，让Amazon Nova可以处理复杂推理任务。比如分析复杂文档、视频，理解图表、示意图，生成高质量的视频内容，还能构建高级AI智能体。</p>
-<p>这次推出的Amazon Nova全家桶如下：</p>
-<blockquote>
-<p>Amazon Nova Micro，纯文本模型，以极低的成本提供最低的延迟响应</p>
-<p>Amazon Nova Lite，成本极低的多模态模型，处理图像、视频和文本输入的速度快如闪电。</p>
-<p>Amazon Nova Pro，功能强大的多模态模型，针对各类任务的准确性、速度和成本的最佳组合</p>
-<p>Amazon Nova Premier，系列中复杂推理性能最强的多模态模型，也是支持蒸馏自定义模型的最佳教师模型</p>
-<p>Amazon Nova Canvas，SOTA图像生成模型</p>
-<p>Amazon Nova Reel，SOTA视频生成模型</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="638,359" src="https://img.36krcdn.com/hsossms/20241204/v2_8ff48b012f9a454b990df1126fc43bc8@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">简单的提示「dolly forward」，Amazon Nova Reel就能将单个图像输入转换为简短视频</p>
-<h2><strong>创造力爆棚，视频理解惊艳</strong></h2>
-<p>Amazon Nova的创意生成模型，直接让卖家和广告商的广告创意提升到全新的水平。</p>
-<p>平均来看，使用这些工具的品牌广告宣传的产品数量直接增加了五倍，每个宣传产品使用的图片数量增加了一倍，这样就把预算省到了更需要的地方。</p>
-<p>比如下面这个Amazon Nova Reel为某个虚构的意面品牌制作的广告，简直太惊艳了。</p>
-<p class="image-wrapper"><img data-img-size-val="639,357" src="https://img.36krcdn.com/hsossms/20241204/v2_8bee3fc46ec54ff1be78e1d421b504ae@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">在一座「意大利面城」中，建筑由高耸的意大利肉卷面条管雕刻而成，街区点缀着意大利香料景观，街道两旁摆满了美味的马里纳拉酱、螺丝粉面条和嫩肉丸</p>
-<p>Amazon Nova Pro的视频理解能力也是一绝。</p>
-<p>研究者要求模型观看一场足球比赛的无声视频片段，然后把比赛内容描述一遍。</p>
-<p>结果，模型一口气准确说出了赛制、球服、球员行动描述以及比赛如何达到高潮的详细信息！</p>
-<p class="image-wrapper"><img data-img-size-val="640,358" src="https://img.36krcdn.com/hsossms/20241204/v2_833663168c3f4082bcabfbbca8847430@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">视频描绘了一场在绿地上正在进行的足球比赛。两队的球员，一队身穿黄色队服，另一队身穿白色队服，正在比赛。黄队四分卫将球传给接球手，接球手接住球并开始向前跑动。白队的防守队员追赶他，试图阻止他。这场比赛的高潮是一次铲球，将接球手放倒在场上</p>
-<h2><strong>多模态实现SOTA</strong></h2>
-<p>接下来，我们详细看一下全家桶中几大成员的详细信息。</p>
-<h3><strong>Amazon Nova Pro：自研最强多模态</strong></h3>
-<p>Amazon Nova Pro能够处理多达30万个输入token，并为多模态智能体工作流设定了新标准，这些工作流需要调用API和工具来完成复杂的工作流。</p>
-<p>它在视觉问题解答（TextVQA）和视频理解（VATEX）等关键基准上都实现了最先进的性能。</p>
-<p>在输入300K token的情况下，它可以处理超过一万五千行代码的代码库。Amazon Nova Pro还可作为教师模型，用于蒸馏Amazon Nova Micro和Lite的自定义变体。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,781" src="https://img.36krcdn.com/hsossms/20241204/v2_6b0a9f09dbab49b2beb7219764051d25@5091053_oswg222635oswg1080oswg781_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,506" src="https://img.36krcdn.com/hsossms/20241204/v2_c364c16aa29f47ed8f68f609eee7bbc1@5091053_oswg139179oswg1080oswg506_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,396" src="https://img.36krcdn.com/hsossms/20241204/v2_6f84f8263f27442aaa3e422d53179020@5091053_oswg110816oswg1080oswg396_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241204/v2_cc6632827b7241efab9cbd6859abf329@5091053_oswg115545oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241204/v2_5784f8cd78a840ec8305a8045a7674ed@5091053_oswg115545oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241204/v2_bec6f9edcb04496aaafe04ceabce3752@5091053_oswg88153oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,716" src="https://img.36krcdn.com/hsossms/20241204/v2_6eaca0fd9d76411c9b0ff09961893a43@5091053_oswg108439oswg1080oswg716_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241204/v2_ea4fe3ebf63a4a7b926fa4f4bc391488@5091053_oswg54616oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>Amazon Nova Lite：主打一个性价比</strong></h3>
-<p>Amazon Nova Lite可以高精度处理实时客户交互、文档分析和可视化问题解答任务。</p>
-<p>该模型可处理长达300K token的输入，并能在单次请求中分析多张图像或长达30分钟的视频。</p>
-<p>Amazon Nova Lite还支持文本和多模态微调，并可通过模型蒸馏等技术进行优化，为用户的使用案例提供最佳的质量和成本。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,783" src="https://img.36krcdn.com/hsossms/20241204/v2_633261ffd22644fcbde632785efd84db@5091053_oswg218129oswg1080oswg783_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,503" src="https://img.36krcdn.com/hsossms/20241204/v2_a7ca7bdb67114b2a93fe3946ffa7c928@5091053_oswg129331oswg1080oswg503_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,399" src="https://img.36krcdn.com/hsossms/20241204/v2_d6827b72e6c340d9974e22f5eec96063@5091053_oswg104911oswg1080oswg399_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>Amazon Nova Micro：纯文本</strong></h3>
-<p>Amazon Nova Micro的上下文长度为128K，并针对速度和成本进行了优化，在文本摘要、翻译、内容分类、交互式聊天和头脑风暴以及简单的数学推理和编码等任务中表现出色。</p>
-<p>Amazon Nova Micro还支持使用微调和模型蒸馏对专有数据进行定制，以提高准确性。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,778" src="https://img.36krcdn.com/hsossms/20241204/v2_560fa40de475466fbce48344466a6bd4@5091053_oswg180849oswg1080oswg778_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,280" src="https://img.36krcdn.com/hsossms/20241204/v2_527e1da2cc1d4440a87df1dcdda26dfa@5091053_oswg60175oswg1080oswg280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>将概念变为现实</strong></h2>
-<p>Amazon Nova系列还包括两款创意内容的生成式模型，Amazon Nova Reel和Amazon Nova Canvas。</p>
-<h3><strong>Amazon Nova Canvas：图像生成</strong></h3>
-<p>这是一个先进的图像生成模型，可生成工作室水准级别的图像，并可精确控制样式和内容，包括丰富的编辑功能，如修复、扩图和背景移除。</p>
-<h3><strong>Amazon Nova Reel：视频生成</strong></h3>
-<p>Amazon Nova Reel支持用户通过文本提示和图像来控制视觉风格和节奏，并生成专业品质的视频内容，用于营销、广告和娱乐。</p>
-<h3><strong>价格再便宜75%，还能微调和蒸馏</strong></h3>
-<p>Amazon Nova Micro、Amazon Nova Lite和Amazon Nova Pro的价格，比Amazon Bedrock中各自智能类别中性能最佳的模型至少还要便宜了75%。</p>
-<p>而且，它们也是相比之下最快的模型。</p>
-<p>这些模型与Amazon Bedrock集成，是一项支持完全托管的服务，可通过单个API使用来自领先AI公司和亚马逊的高性能基础模型。</p>
-<p>而且，模型还支持自定义微调，允许客户将模型指向自己专有数据中的示例，因为这些示例已被标记，所以提高了准确性。</p>
-<p>这样，Amazon Nova模型可以从客户自己的数据（包括文本、图像和视频）中了解对客户最重要的内容，然后由Amazon Bedrock训练一个私人微调模型，提供量身定制的响应。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,500" src="https://img.36krcdn.com/hsossms/20241204/v2_f32c61443e9a4aaeb7b98e5c69fc08c9@5091053_oswg415730oswg1080oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除了支持微调之外，这些模型还支持蒸馏，从而能够将特定知识从更大、能力更强的「教师模型」转移到更小、更高效的模型，后者不仅高度准确，而且运行速度更快、成本更低。</p>
-<p>并且，Amazon Nova模型与Amazon Bedrock知识库集成，还擅长RAG，就能让响应基于客户组织的内部数据，来保证最佳的准确性。</p>
-<p>因为模型已经过优化，在代理性应用中非常易于使用，还能通过多个API与组织的专有系统和数据进行交互，从而执行多步骤任务。</p>
-<h2><strong>围剿英伟达，争夺AI芯片之王</strong></h2>
-<p>在当下最炙手可热的AI芯片赛道中，挑战者们正上演着一场激烈的「造芯」革命。</p>
-<p>据市场研究机构Omdia的数据显示，在人工智能计算领域，数据中心运营商在非英伟达芯片计算机上的支出预计将于今年增长49%，总额达到1,260亿美元。</p>
-<p>这个数字，无疑释放出了芯片市场潜力无限的信号。</p>
-<h3><strong>AI推理，弯道超车</strong></h3>
-<p>多年来，英伟达在AI芯片领域一家独大，尽管其他公司不断尝试，但始终未能撼动其霸主地位。</p>
-<p>但如今，局面正在发生改变。「推理计算」成为这场AI技术革命的关键词。</p>
-<p>无论是科技巨头，还是小型初创，瞄准了为AI研发定制芯片的赛道，比如Groq、Cerebras Systems等等。</p>
-<p>Meta就是一个典型案例。虽然他们使用英伟达芯片训练了Llama3.1 405B，但在实际为用户提供服务时，采用的是AMD MI300s芯片。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241204/v2_a115e9f78d14499ab36e95d75510883b@5091053_oswg172258oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不仅如此，这些新晋玩家们从英伟达身上学到了一课：单纯卖芯片完全不够了。他们开始筹谋提供完整的计算方案，让客户充分发挥AI芯片的最大潜能。</p>
-<p>比如，AWS就在刚刚举办的re:Invent大会上，宣布了基于Trainium2芯片的计算服务正式上线。并同时公布了性能更为强大的Trainium 3芯片的研发计划。</p>
-<p>Amazon EC2 Trn2 UltraServers是全新推出的EC2产品，配备64个互联的Trainium2芯片。</p>
-<p>它由四台服务器构成，每台服务器装配16枚Tranium芯片。（英伟达最多为8枚）</p>
-<p class="image-wrapper"><img data-img-size-val="974,2048" src="https://img.36krcdn.com/hsossms/20241204/v2_a98e6ec6af674675b132e5ec5aca9bf6@5091053_oswg4173095oswg974oswg2048_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Trainium2</p>
-<p>服务器之间使用超高速的NeuronLink互连，最大可扩展到83.2个峰值千万亿次计算（petaflops），是单个实例计算、内存和网络能力的四倍，这使得训练和部署全球最大模型成为可能。</p>
-<p>亚马逊表示，这已经是Ultraserver在保证散热安全的前提下所能达到的最大配置。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,715" src="https://img.36krcdn.com/hsossms/20241204/v2_fc871b668b14451ca438b54e967e5111@5091053_oswg1242280oswg1080oswg715_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Amazon EC2 Trn2 UltraServers（测试单元）</p>
-<p>这些还不够，AWS正在和Anthropic合作进行「Ultracluster」超级计算机计划。</p>
-<p>他们正在构建一个由Trn2 UltraServers组成的EC2 UltraCluster，并将其命名为「Project Rainier」。</p>
-<p>这个被命名为「Project Rainier」的集群配备数十万个Trainium2芯片，计算能力是当前领先AI模型训练需求的五倍多。</p>
-<p>AWS计算和网络服务部门副总裁戴夫·布朗透露，这个集群将建设在美国境内，预计在2025年投入使用。</p>
-<p>它将跻身全球最大规模的AI模型训练集群之列。</p>
-<p class="image-wrapper"><img data-img-size-val="640,365" src="https://img.36krcdn.com/hsossms/20241204/v2_4196d12e54ff434bbf6612bbb06f3fd6@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>虽然亚马逊早期推出的AI芯片，包括第一代Trainium在内，并未在市场上获得显著反响。</p>
-<p>但是对于新一代的Trainium2芯片，亚马逊展现出了更强的信心——其运算速度较前代产品提升了四倍。</p>
-<p>并且，苹果也将成为其最新芯片客户之一。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241204/v2_dd64c40b069a4c5bb60e387ed12b7606@5091053_oswg721936oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>类似的，AMD也宣布将于明年推出新一代AI芯片，直接与英伟达的Blackwell系列展开竞争。</p>
-<p>目前，工程师们已经开始对芯片进行全方位的测试。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,811" src="https://img.36krcdn.com/hsossms/20241204/v2_5cf517dd51254389a125bdc4de282ff2@5091053_oswg749440oswg1080oswg811_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">一年前发布的MI300的AI芯片，当年就创造了超500亿美元销量</p>
-<p>与此同时，谷歌、微软和Meta等科技巨头也都在开发自己的人工智能专用芯片，旨在提升特定计算任务的处理速度并降低运营成本。</p>
-<p>本月，谷歌将开始推出基于其第六代自研芯片Trillium的云服务，该芯片的性能较前代产品提升了近5倍。</p>
-<p>不过，这些公司仍在使用英伟达芯片构建大规模计算集群。</p>
-<h3><strong>老黄：免费送，也没用</strong></h3>
-<p>尽管AI芯片新秀们群雄逐鹿，但这并不意味着英伟达即将会失去霸主地位。</p>
-<p>黄仁勋曾在斯坦福大学演讲台上，掷地有声地表示，「即便竞争对手的芯片免费赠送，在性价比上仍然无法与我们相提并论」。</p>
-<p>这句话，道出了英伟达十足的底气。</p>
-<p>毕竟，如今市场中，在人工智能软件和推理计算方面，能打的芯片非英伟达莫属。</p>
-<p>黄仁勋进一步指出，虽然新一代Blackwell人工智能芯片的能耗有所提升，但其单位能耗的计算效率大幅提高。目前市场对这款芯片的需求异常火爆。</p>
-<p>另有据场研究机构IDC统计数据佐证了这一点。</p>
-<p>数据显示，2024年全球人工智能半导体市场规模预计将达到1,175亿美元，并预计在2027年底进一步扩大至1,933亿美元。</p>
-<p>IDC在2023年12月发布的最新研究报告显示，英伟达当前在AI芯片市场中占据着约95%的主导地位。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241204/v2_e1246c9f33ab40bf87d70c5b16c34dc8@5091053_oswg654640oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>参考资料：</strong></p>
-<p>https://www.nytimes.com/2024/12/03/technology/nvidia-ai-chips.html</p>
-<p>https://www.wsj.com/articles/amazon-announces-supercomputer-new-server-powered-by-homegrown-ai-chips-18c196fc</p>
-<p>https://aws.amazon.com/cn/ec2/ultraclusters/</p>
-<p>https://x.com/ArtificialAnlys/status/1864023052818030814</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/6z1HAwUNabUsXIRamjBGTw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，编辑：编辑部 HYZhj，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064101486306433</guid><pubDate>Wed, 04 Dec 2024 14:52:00 +0800</pubDate></item><item><title>小猿学练机CEO王向东：未来 AI 会成为教育行业的“煤水电”丨WISE2024商业之王</title><link>https://36kr.com/p/3056176843608196</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>环境持续变化，时代总在迭变，“商业之王”们紧随时代浪潮，坚持创造，谋求新动能。立足中国经济大转型的当下，WISE2024 商业之王大会，一同发现真正有韧性的“商业之王”，探寻中国商业浪潮里“正确的事”。</p>
-</blockquote>
-<p>11月28-29日，为期两日的36氪WISE2024 商业之王大会于北京隆重召开，作为中国商业领域的全明星盛典，WISE大会今年已经是第十二届，在不断变化的时代里见证着中国商业的韧性与潜力。</p>
-<p>2024，是有些模糊且变化多于稳定的一年。相比过去十年，大家的脚步正放缓，发展更加理性。2024，也是寻求新的经济动力的一年，新的产业变化对每个主体的适应性提出了更高的要求。今年WISE大会以Hard But Right Thing（正确的事）为主题，在2024，什么是正确的事，成为我们更想交流的话题。</p>
-<p>28日下午，猿辅导集团副总裁、小猿学练机CEO王向东发表了主题为《教育新场景：AI科技与墨水屏的创新融合》的精彩演讲。王向东提到，未来AI可能会成为煤水电一样的基础设施，融入到生活的方方面面，而每一次技术革新，都会极大推动教育行业的发展。</p>
-<p class="image-wrapper"><img data-img-size-val="1620,1080" src="https://img.36krcdn.com/hsossms/20241204/v2_7678a4cb5520446bb3ca0cc74e2ae4a1@1282423258_oswg169070oswg1620oswg1080_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
-<p class="img-desc">猿辅导集团副总裁、小猿学练机CEO王向东</p>
-<p>据悉，猿辅导早在2014年便组建了AI研究院，是行业里的先行者。在过去十年间，整体投入了超过百亿元的研发费用。王向东说，猿辅导所有的内容服务产品一直秉承两个理念，AI是基础驱动，教育的数字内容资源是非常正确且需要长期积累的。</p>
-<p>目前，猿辅导旗下有猿辅导、小猿口算、小猿搜题、海豚AI学等一系列产品。去年5月，基于AI和教育数字内容，推出第一款基于AI+墨水屏的教育智能硬件——小猿学练机。截至今年9月，推出后仅16个月，整体销售量已经超过100万台。猿辅导成为亚洲地区墨水屏平板出货量最大的公司。</p>
-<p><strong>以下为王向东演讲速记实录：</strong></p>
-<p>王向东：各位来宾、各位现场的观众朋友、线上的观众朋友大家好！</p>
-<p>我是猿辅导王向东。主办方的安排很有意思，在我之前是一个燃气公司。其实我们现在有一个共识：未来有一天AI可能会成为我们的煤水电基础设施，他会融入到我们生活的方方面面。</p>
-<p><strong>AI科技助力教育变革</strong></p>
-<p>AI迅猛发展，给各行各业带来了极大的挑战。当然，可能对于教育行业的挑战相对比较迅猛。我们可以看到，海外的教育公司，由于受ChatGPT的影响，已经有一个上市公司的股价跌了99%。所以每一次技术带来的革新冲击都是非常大的。</p>
-<p>同时，每一次技术革新都会极大的推动教育方向的发展。从最初的造纸术，带来书籍，让内容分发更便捷，其后有了持续一千多年的科举制度。再到互联网时代，所有的交互可以通过电脑进行，我们有了网络、数字化的学习内容。再往后进入移动互联网时代，我们可以用碎片化的时间进行学习。再进一步，我们把很多基于文本图片的学习内容，又转化成了视频形式，开启基于视频的碎片化学习方式。</p>
-<p>现在，我们进入到人工智能带来的深刻变革时期。就像刚才说的，未来AI将成为整个教育领域的基础设施，如煤水电一般。如何在这个过程中拥抱AI，把它转换成自己的势能，这非常重要。</p>
-<p>在这一过程中，猿辅导集团又在做什么呢？</p>
-<p>2014年，我们成立了行业首个人工智能研究院，拥有上百位科学家及数千名专业工程师，并陆续设立计算机视觉、自然语言理解、智能语音、大模型等多个实验室，团队在多项国际大型人工智能赛事中获得冠军。十年来，我们累计在科技研发领域投入超100亿元。</p>
-<p>猿辅导其实一直是秉承着两个理念：AI是我们的基础驱动，教育的数字内容资源是我们一直觉得非常正确而且需要累积的事情。我们所有的内容、服务、产品都是基于刚才说的两个方向，一个是AI作为基础的底部的驱动，上面是数字资源。</p>
-<p>目前，基于这两个方向，我们打造了猿辅导、斑马AI学、小猿口算、小猿搜题、海豚AI学、飞象星球等深受孩子喜欢的产品和服务，走在这场由人工智能带来的教育变革前沿。</p>
-<p><strong>AI+墨水屏 构建「原生学习场景」</strong></p>
-<p>也是基于刚才说的AI和教育数字内容，去年5月，我们第一次落地到硬件层面，推出基于AI和墨水屏的产品小猿学练机。</p>
-<p>这里有一个好成绩跟大家分享，截至今年9月，我们用16个月的时间，整体销售量突破了100万台，并且我们成为整个亚洲地区墨水屏平板出货量最大的公司。</p>
-<p>其实，在中国，墨水屏发展相对来说还有点久。从最开始的kindle进入中国市场，到后来各种各样基于墨水屏提供的阅读本、办公本，过去的十多年里，墨水屏产品在整个中国市场也经历了迅猛蓬勃的发展。只是我们觉得墨水屏其实可以有更广阔的应用空间，为我们的目标用户，以及学习场景提供更好的使用体验。</p>
-<p>我们加入墨水屏行业以后，发现整体的墨水屏行业比我们想象中的要薄弱一些，怎么薄弱法？</p>
-<p>2022年以前，整个中国的墨水屏行业大尺寸平板年出货量不超过100万台，且头部几家生产墨水屏平板的公司，一年的销售量，体量比较大的在十几万台。</p>
-<p>我们希望基于墨水屏做一款面向未来的、基于孩子交互体验的教育硬件产品，我们对它的期望是，当然这个数字相对来说比较早期，2022年我们期望年销量在20-30万台。但是这个数字在与上下游企业沟通时没有一家企业相信，他们说，“人家做了十年以上，才只做到十几万台的规模，你们上来就说二三十万台的规模，这个事情有点不太靠谱。”</p>
-<p>所以我们发现，产业链的上游工厂是不支持的。大家印象中，或者在当时的认知中，基于墨水屏做平板的上游企业，在中国一年做到十几万台的规模就顶天了。没有一家工厂能够支撑我们这样的产量和产能。这与我们的预期相差比较大。</p>
-<p>其次，我们发现原有的墨水屏产品，主要的设计场景是阅读、办公。基于这两个场景下的产品，完全没有做任何基于教育场景下的优化、思考亦或是迭代。</p>
-<p>理论上来说，平板行业应该相对比较成熟，尤其是墨水屏在中国发展了十几年。事实是，我们提的需求，没有一家上游企业能满足。</p>
-<p>我们发现，在产业链上遇到的所有问题都得自己一点点解决。我们自己找能够突破产能限制的工厂，自己搭建硬件研发团队，从原有的手机、平板这种竞争高密度集的领域去找能够符合我们要求的人，并且进行专项的人才培养。</p>
-<p>另一点，对墨水屏技术进行科普也是一个漫长而艰巨的任务。墨水屏虽然在中国存在了很多年的时间，但是一直是相对流行在精英、知识分子群体中。相对来说，一二线城市中，大家有一个比较明晰的认知。实际到了三四线城市，跟人说什么是墨水屏，很多人会说就是黑白屏，屏幕是黑白的。但是墨水屏其实也有彩色的，只是它通过不同的技术原理成像——完全不发光，而是跟我们平时看到的书一样，利用光的漫反射来实现它的显象。</p>
-<p>一直以来，我们努力向公众科普墨水屏技术。我们认为墨水屏只是因为推出时间太久，大家对它的技术革新和产业认知还停留在十年以前阅读器刚兴起的时代，才会误以为墨水屏不是一个那么前沿发展的行业。</p>
-<p>今天36氪的主题是正确的事，我们一直认为，这些事是正确的，即使它很难，也值得去坚持。过往因为没有人去重视，因为没有人在这个行业投入巨大的人力、物力、资源，所以在行业的发展初期就面临各种瓶颈。我们坚持自己搭团队、协调工厂、解决技术能力，把墨水屏带到我们期望能够实现的场景中来。</p>
-<p>经过过去一年多的努力，我们联合整个中国墨水屏平板企业，实现了一个小的进步。今年前三季度，中国墨水屏平板销售量同比去年，在全球的市场份额从8.4%提升到15.6%，接近翻了1倍。</p>
-<p>我们在墨水屏上投入这么多，这些事情我们都认为是正确的事情。为什么我们要一直坚持做？因为我们认为墨水屏和教育的结合会是一个非常具有想象力的场景和空间，它可以构建「原生学习场景」，解决学习的本质需求。</p>
-<p>我们强调原生交互，是因为孩子学习的方式、交互体验，从一到十二年级没有发生任何变化，是一只笔在书本、试卷上写写画画，这种学习方式被验证专注度非常高。这也是猿辅导基于AI交互场景设计教育产品的初衷——实现最原生化的教育交互体验。</p>
-<p>我们在设计产品的逻辑中发现，我们的场景创新不是希望去创造新的需求，而是更好的去还原原生的需求，只有这样才能够真正符合教育的方向和教育的理念。</p>
-<p>「原生场景」所需要的视力健康、原生交互、沉浸专注——这些正好都是墨水屏的优势：不发光，对青少年视力更友好；提供宛如纸笔般的阅读与书写体验；据国外脑科学专家研究报告显示，相比普通LCD平板，他能显著提升使用者专注度。</p>
-<p><strong>大模型将加速个性化学习向更深层次推进</strong></p>
-<p>刚才说到猿辅导一直是双轮驱动，我们首先是基于AI的技术，其次是基于教育数字化的内容。在小猿学练机中，我们延续猿辅导十多年积累的优质学习资源优势，搭载超15亿+题库资源、3亿+精讲视频、100万+知识点关系链路、1万+细分知识点。在自有优质资源基础上，我们还和5大权威教辅机构合作，包括上海地区的国民级教辅一课一练，以及大家熟知的53系列、实验班、黄冈小状元、奥数举一反三等。我们坚持做正确的事情，将正确的内容用正确的方法提供给我们的用户。</p>
-<p>在这里，内容不是堆砌在产品里呈现给用户的。通过知识图谱等AI技术，我们对这些内容进行结构化处理，知识点不是单线链接的，不同层级知识点错综复杂，呈现亲密的关系——从点、线、面三个维度，将题目、题型、知识点、解析、视频精讲、知识点关系链路等内容进行了重新拆解和链接，使孩子们的学练更科学、系统和精准。</p>
-<p>通过AI赋能，我们构建了一条个性化学习链路，从智能出题到智能批改、错题归纳、错题讲解，再到举一反三和薄弱点专练，形成一个完整的个性化学练闭环。</p>
-<p>在上述的六个环节里，我们全部用大模型进行了重构。在出题方向上，用大模型做了更精准化的推荐；基于回答的内容，用语义理解进行了更大的耦合，针对答案本身判断对错，可以进行全学科主观题和客观题批改。包括错题讲解，我们都做了更多的植入和连接。</p>
-<p>为什么我们要基于AI做一个学练机，而不是学习机或者其他机器？</p>
-<p>传统的学习平板「重学轻练」，但是练习在学习过程中占据非常大的比重，大家经常讲三分学，七分练。所以我们要做一款「学练并举」的学练机。重学轻练的学习方式强调内容的统一化学习、单项输入，更多的是被动、接受式学习。学练并举的学习方式强调个性化学练：注重内容的输入和输出，是一种主动、探究式学习。</p>
-<p>去年5月，我们推出小猿学练机时，市面上只有我们一家「学练机」。现在，如果去电商网站上搜一下，会发现多了很多叫「学练机」的产品，同时「学练」功能已经成为学习平板标配。我们很高兴看到，我们开创的学练机这个品类，引领传统的学习产品从「重学轻练」向「学练并举」转变，真正让更多的学生用户受益。</p>
-<p>在个性化的学习链路流程里，我们已经引入了很多大模型的应用。我们认为，未来大模型在个性化的学习过程中，还会发挥更深层次的作用，对我们现有的实际产品，也会有更进一步的助力。</p>
-<p>在过去一年里，基于大模型我们推出了类似AI阅读、AI问答等功能。学习过程中你可以随时向学练机发问。例如，当你读书时你可以问“鲁智深为什么倒拔垂杨柳”？这些问题通过传统AI技术，没有很好的解决方案，但是基于AI大模型设计的教育链中，这些问题的解决都将成为可能。</p>
-<p>我们认为未来的每一个孩子都应该拥有一个自己专属的AI学伴，不仅对他的学习数据非常了解，还熟悉他这一段时间的情绪、学习状态、学习专注力等。在大模型时代，我们可以把这些事情全部通过大模型语义理解等能力实现。通过对孩子现有的学习状况、学习行为、学习专注力等各种因素不断的分析，我们将给出孩子最优的，基于他个人现在状态和习惯与偏好的学习方向与方法的提升。</p>
-<p>还是落到这句话，我们认为每个孩子都会拥有自己专属的AI学伴，我们也会朝这个方向，持续做出自己的努力。</p>
-<p>谢谢大家！</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3056176843608196</guid><pubDate>Wed, 04 Dec 2024 15:17:00 +0800</pubDate></item><item><title>库迪咖啡首席策略官李颖波：年消费15杯只是刚起步，未来容得下百万级门店丨 WISE2024 商业之王</title><link>https://36kr.com/p/3057565688309129</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>环境持续变化，时代总在迭变，“商业之王”们紧随时代浪潮，坚持创造，谋求新动能。立足中国经济大转型的当下，WISE2024 商业之王大会，一同发现真正有韧性的“商业之王”，探寻中国商业浪潮里“正确的事”。</p>
-</blockquote>
-<p>11月28-29日，为期两日的36氪WISE2024 商业之王大会于北京隆重召开，作为中国商业领域的全明星盛典，WISE大会今年已经是第十二届，在不断变化的时代里见证着中国商业的韧性与潜力。</p>
-<p>2024，是有些模糊且变化多于稳定的一年。相比过去十年，大家的脚步正放缓，发展更加理性。2024，也是寻求新的经济动力的一年，新的产业变化对每个主体的适应性提出了更高的要求。今年WISE大会以Hard But Right Thing（正确的事）为主题，在2024，什么是正确的事，成为我们更想交流的话题。</p>
-<p>29 日上午主会场，库迪咖啡首席策略官李颖波发表了主题为《让好咖啡触手可及》的精彩演讲。李颖波表示，库迪咖啡诞生之初的使命就是让全球消费者轻松享受咖啡生活，核心仍然是一杯高品质的咖啡，但当咖啡成为必需品时，还必须满足另外两个条件：喝得起、喝得到。</p>
-<p class="image-wrapper"><img data-img-size-val="3148,4722" src="https://img.36krcdn.com/hsossms/20241129/v2_68123e8e6f1446198224f5d86cb90a5a@1282423258_oswg9117330oswg3148oswg4722_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1"/></p>
-<p class="img-desc">库迪咖啡首席策略官李颖波</p>
-<p>李颖波说，最好的咖啡一定是最好的品牌体验、最佳的产品品质以及最佳的成本效率，这需要从供应链端切入，把更高效的中国制造输入到全球的市场，重塑全球咖啡的供应链以及技术体系。</p>
-<p>截至今年 10 月 20 日，库迪咖啡在成立两年已开出 1 万家店，遍及全球28个国家和地区，是全球规模第四大的咖啡连锁品牌。但在李颖波看来，中国的咖啡市场才刚刚起步。</p>
-<p>李颖波表示，中国咖啡市场经过过去七年成长，人均年咖啡饮用量从 6 杯增长到现在15 杯，但香港地区现在是200杯，欧美地区年人均消耗量是400-600杯。未来中国大陆市场一定会走到100杯、200杯的水准，对应支撑的门店数量级一定是百万级，而目前中国前十家咖啡品牌总门店数没超过5万家。</p>
-<p>李颖波说，为了持续推动咖啡市场增长，库迪咖啡在做两件事，C端、B端的“双降”驱动。其中 C 端对应是降低消费门槛，用 9.9 元咖啡策略培育市场，且至少还要持续3年。</p>
-<p>B 端方面，包括两个维度，一是降低成本，做供应链建设，只有这样“才有底气打出9.9的招牌”。值得一提的是，两年前第一家店开出之前，库迪就开始规划供应链，为的是“在一开始构建最佳的成本效率。”</p>
-<p>目前库迪在安徽建成全球供应链基地，总建筑面积超过36万平方米，采用全自动生产设备，可覆盖国际、国内所有门店供应的需求。其中包括全国最大、年产咖啡豆4.5万吨的咖啡烘焙厂，糖浆、椰乳、杯子、杯盖、吸管、包装袋也均实现自产。</p>
-<p>库迪也在努力降低开店的门槛，在快取店和标准店基础上，推出了以店中店为主的便捷店，并在10月，跟51家连锁品牌结成了战略联盟。此外，库迪还采取了设备租赁方式，进一步为联营商降低风险、降低投资门槛。</p>
-<p>从经营层面，9.9咖啡也有不俗的经营效率。据李颖波透露，过去5个月，库迪1万家门店每个月现金流为正的比例在95%以上，2022年开店以来累积闭店率为3.6%。</p>
-<p>李颖波说，取得这一阶段性成绩，靠的是供应链成本的效率去支撑9.9的价格策略，给到消费者最佳的性价比同时，也给到合作伙伴最佳的成本效率。</p>
-<p><strong>以下为演讲速记实录：</strong></p>
-<p>李颖波：各位嘉宾大家下午好！</p>
-<p>非常开心有这个机会借今天的主题跟大家分享一下在咖啡这个行业，我们要做的“难而正确的事儿”。我今天的主题其实也是公司的愿景，让好咖啡触手可及。首先，还是介绍一下库迪咖啡，库迪咖啡是非常年轻的品牌，我们在2022年10月22号在福州开第一家门店，今年是我们这个品牌的第二年，目前为止公司在全球28个国家跟地区开展业务，在全球有超过1万家门店，咖啡连锁行业里面我们是全球第四的规模。</p>
-<p>在过去的两年当中开出1万家门店，在整个行业里面也是一件比较突破的事情，在这边也跟大家分享一下我们是如何做到这件事情，以及我们在未来想要做的事情。大家可能也都知道，库迪咖啡其实是我们这个团队创立的第二个咖啡品牌，七年之前我们创立了另外一个咖啡品牌，所以在第二次进入咖啡这个赛道的时候，其实我们对于咖啡这门生意有了全新的理解，在库迪咖啡公司愿景跟使命上，我们做了非常深刻的复盘，以及全新的构建。</p>
-<p>首先是我们使命的部分，因为大家都知道咖啡是全球性的生意，所以我们的使命从诞生之初就是面对全球市场，我们希望给到消费者的就是“轻松享受咖啡生活”。</p>
-<p>但是，轻松享受咖啡生活是如何来定义的呢？因为咖啡生活对于每个品牌来说都有自己的诠释，可能是高品质的咖啡，可能是更佳咖啡制作的流程，也有可能是咖啡的生活空间。</p>
-<p>在库迪咖啡看来，轻松享受咖啡生活代表的含义到底是什么？我们对它的定义，核心仍然是一杯好的咖啡、高品质的咖啡，但是我们觉得并不够，当咖啡成为人们必需品的时候，必须满足两个条件：喝得起，喝得到，要变成触手可及的生活必需品，所以我们提供给消费者喝得起、喝得到的好咖啡的时候，咖啡生活才能真正建立起来。</p>
-<p>背后要求我们需要做到的能力是什么？我们需要在整个企业内部构建极致的产品力、成本效能、便捷性、网点的密布性。在中国市场，我们认为咖啡刚刚起步，所以我们在中国市场还有一件非常重要的任务就是如何普及在中国的咖啡市场教育，这是我们想要完成的使命。为了完成这个使命，我们的公司需要成为什么样的公司，也就是我们的愿景，在库迪咖啡我们树立的愿景是希望能够成为全球领先的咖啡供应商和技术方案提供商。</p>
-<p>到底什么样叫做好的咖啡，我们认为最好的咖啡一定是有最好的品牌体验，最佳的产品品质以及最佳的成本效率，只有这三点融合在一起才能真正称之为一杯最好的咖啡，而这三个能力也就是我们企业需要提供给社会的产品能力。</p>
-<p>因此，我们在做第二个咖啡品牌库迪咖啡的时候，就转变成了重塑全球咖啡的供应链以及技术体系。这里面最坚实的基础就是我们需要把更高效的中国制造输入到全球的市场，以改变全球市场的咖啡格局，这个是我们的愿景所在。</p>
-<p>在明晰了自己的使命、愿景之后，我们来回答第三个问题，我们到底做的是什么样的生意，这个问题很显而易见，不是咖啡的生意吗？但是我们成立之初一直把自己的产品定义成水和饮料的生意，所以咖啡是其中最重要的流量抓手，但并不是全部，我们放眼的是以咖啡为核心的，包括了饮品、甜品、代餐在内的所有产品线。</p>
-<p>大家看到在我们的咖啡店里面除了经典的美式、拿铁，创新型的像生椰拿铁等等，还包括了奶茶、小食、轻食部分，构建了我们产品生态，基于这样的产品设定原点，咖啡市场到底卷不卷？当我们踏入这个行业的时候，要想一个问题，现在咖啡赛道是不是白热化的赛道？当我们第一次做咖啡的时候，那个时候咖啡的年人均消耗量是6杯，其中有4杯是速溶咖啡，2杯是现磨咖啡，今天已经到了15杯，6杯是速溶咖啡，9杯是现磨咖啡。咖啡本身是全球性的业态，所以我们看一下咖啡成熟市场的状况，欧美地区年人均消耗量是400-600杯。日本、韩国300杯以上，台湾、香港地区200-300杯之间，中国大陆15杯只是在起步的状态，市场还远远没有被打开。</p>
-<p>说回到水和饮料生意，人体每天所需的9杯300毫升的水，大家都是年轻人，可以看一下我们自己体感当中的消费趋势，现在年轻人每当有水需求的时候很喜欢用饮料代替，无论是咖啡、奶茶、功能性饮料等等，所以整个市场的需求，无论是咖啡年人均消耗量的15杯到身体每天所需的9×300毫升的饮用水需求量，都代表我们的观点，这个市场不是没有需求，需求是非常巨大的。</p>
-<p>我们遇到的障碍是什么？我们的观点是这个市场并没有形成真正的供给，为什么经过7年的培育，成长到了15杯，我们仍然认为这个市场完全没有被打开呢？因为现在市场上提供的咖啡类产品并没有真正满足人们作为日常必需品的需求。</p>
-<p>怎样才能把这个需求激活？首先要有品牌体验，其次产品的品质、价格也都非常重要，如何用价格吸引本来不喝咖啡的中国人来尝试第一杯咖啡、第二杯咖啡，从而慢慢习惯咖啡这个饮品，这背后就是成本效率，以及非常重要的就是便利性。通常我们很少走出很远去买一杯咖啡，如果写字楼下面有咖啡馆，我是不会走到马路对面咖啡馆去买的，这个便利性的差异是咖啡跟别的饮料行业最大的区别所在。</p>
-<p>客户的购买心理，250米之内触手可及，是咖啡成为日常必需品非常硬性的条件，这是从市场需求面来看。大家说现在咖啡的门店好像很多了，头部的品牌2万家、1万家、7千家，听起来是非常庞大的数字。但是中国的市场到底能容纳下多少家咖啡店？我们从供给方来看一下，目前库迪咖啡有两种店型，一种是便捷店，更多是店中店的形态，一种是常规店的形态，从客户的最佳体验角度来说，便捷店每日提供120-150杯之间，常规店是300-450杯之间，平均值大概是250杯左右。如果现在以10杯年人均消费的话，平均下来每天消耗量就是3850万杯，按客户最佳体验的250杯店均杯量来看，是可以容纳16万家门店的。但这只是现在10杯的数字，我们刚才看到的是香港地区现在是200杯，所以未来中国大陆市场一定会走到100、200杯的水准，那时候的中国市场能够支撑起来的门店的数量级一定是百万级。但目前中国前十咖啡品牌加在一起门店数还没有超过5万家，这是非常有需求的市场，但是供给远远没有达到人们所需要的便捷性的市场环境。</p>
-<p>这是我们对市场所能容纳咖啡店的判断，我们现在的课题就是，如何能够真正的刺激消费者习惯咖啡这个饮品，因为大家知道咖啡是舶来品，在中国市场是起步的阶段，很多人对于咖啡是陌生的，对咖啡的味道是抗拒的，我们到底用什么样的方式才能真正的把我们想象当中的10、15杯的年人均消耗量扩充到200、300杯这样的体量。那我们觉得要做两件事情，对我们来说就是双降的驱动，C端、B端的驱动。</p>
-<p>首先C端的驱动，非常彻底的降低消费的门槛，也就是说我们必须要给消费者提供最佳品质的产品的同时，一定要用一个最好的价格去吸引他们，这是触动市场或者说刺激市场新的需求的最重要的抓手。我们需要透过这件事情让很多对咖啡陌生的人，第一次接触咖啡，享受咖啡的产品，借助咖啡的功能性，让他们慢慢成为日常必需品。同时还有非常重要的就是便利性，如何让身边到处都有门店。前面两件对我们来说是同一件事情，产品品质跟产品的成本。</p>
-<p>在两年前我们第一家店还没有开业之前，我们就开始着手去打造我们的供应链体系，所以经过两年的筹备，目前我们在安徽已经建成了我们的全球供应链基地，当涂是国内供应链基地，还有位于芜湖综保区的国际供应链基地，总共四个园区，建筑面积超过36万平方米，而且里面所有都是全自动生产设备，能够覆盖国际、国内所有门店供应的需求，这是在整个的规模上。整个产业园的能力来说，其中有全国最大的咖啡烘焙厂，年产咖啡豆4.5万吨，同时大家可以看到这杯库迪咖啡从咖啡豆到糖浆、椰乳、杯子、杯盖、吸管、包装袋所有都是我们自己生产，在全球供应链基地完成。</p>
-<p>为什么要做这件事情？为什么要花这么大力气，在我们还没有门店的时候就开始做供应链规划。我们必须在一开始构建最佳的成本效率，帮助我们做品质的保证，所有产品的源头都由我们把控，所以果汁、糖浆的部分我们会直接上探到水果原产地，最后供应到门店。</p>
-<p>第二成本效率，成本效率带来的是什么？我一直讲的9.9块这件事情，价格这件事情非常重要，所以在我们的观点里面，9.9这件事情我们觉得至少要持续3年，经过3年以上的市场培育，中国的咖啡市场一定可以从现在的15杯跃迁到50杯、200杯的规模，这个市场才能真正被打开。做到9.9这件事情绝对不是我们自己在放血，前提就是我们的全球供应链基地，这杯咖啡从内容物到包装都由我们自己生产，把控品质和成本，我们才有底气打出9.9的招牌。</p>
-<p>9.9的状况之下门店营收的效率是什么？在今年的过去5个月，我们所有门店，1万家门店里面每个月现金流为正的比例都在95%以上。从2022年开店以来到目前两年多的时间，我们累积的闭店率为3.6%。这背后在于我们供应链成本的效率去支撑9.9的价格策略，去开拓市场，给到消费者最佳的性价比的同时，也给到我们联营商的合作伙伴最佳的成本效率，这是在产品的部分。</p>
-<p>C端的部分还有一个就是我们提到的便利性这件事情，所以这就回到双降的另外一个部分，B端如何让更多的门店开出来，所以我们做的另外一件事情就是降低开店的门槛，所谓开店的门槛对于每个联营商合作伙伴来说三件事情，投资门槛、盈亏平衡点、门店操作是否复杂，这些都是人们开店时候最关键的部分，所以我们要做的事情就是如何降低开店的门槛。</p>
-<p>大家熟悉的店型可能是商场、写字楼等快取店型，今年我们还推出了便捷店的店型，上个月我们跟五十多个品牌结成了便捷店的战略联盟，这里面包括了美宜佳为代表的便利店连锁品牌，华莱士为代表的餐饮连锁品牌，苏宁电器为代表的大卖场的连锁品牌，还有包括天猫校园、烘焙连锁品牌、网吧连锁品牌等等，大家可以想象这些场景里面都是人们会去享受咖啡的场景，便捷店可以借由这种形式根植到所有场景里去。同时我们采取了租赁方式，只需要3万块钱押金，设备、咖啡机全部月租形式，不需要付出前期任何商业成本，就能在15天时间之内把一家便捷店开出来，通过这种方式降低风险、降低投资门槛，对消费者来说能在附近看到越来越多的库迪咖啡。</p>
-<p>同时最后一点，在整个门店的效率之上，因为可能大家也都知道我们团队在过去的十年当中创立了三家上市公司，第一家上市公司是神州租车，第二家上市公司是神州专车，第三家上市公司是前一个咖啡品牌。所以从本质上来说我们是互联网技术公司，神州租车在全国200多个城市有20多万辆车在奔跑，上万家的门店，神州专车有数百万的司机在奔跑，这背后是完整的互联网运营体系。现在在我们咖啡店里面大家可以想像，系统每天帮你做排班，每天根据销量帮你定货，每天检测食安标准，把控电冰箱温度等等，这些东西都不是由店长完成，全部由系统完成。</p>
-<p>那么一杯咖啡我们到底要做什么，哪款咖啡豆选项，是否加浓选项，大杯和中杯选项，那么多不同款的产品，最后对应的有30多种萃取方式，过去，不同的产品及选项都需要店员背产品配方并一一操作。现在呢，我们每台咖啡机上面都有扫码仪，客户点单后生成的产品标签上会有对应的二维码，咖啡师只需要扫描二维码，咖啡机就可以自动匹配顾客点单的产品选项帮你制作出这杯咖啡，不再需要店员背诵配方及手动操作，这是操作的部分。</p>
-<p>第三，大家体感最强烈的部分，当你下单之后我会推荐给你额外复购的产品，当你购买完之后我会推送给你下一张优惠券，当你很久不来的时候我要推送给你更多的优惠券，这都不是人来运行的，所有这套系统从门店的运营、到门店的制作、到门店的营销都是由系统来完成。只有这样的一套系统才能最大程度解放人们对于开店这件事情的门槛。所以投资的门槛，盈亏平衡点的门槛到操作的门槛，这件事情是我们在B端正在进行的事情。、</p>
-<p>我们也认为只有从C端，品质+9.9的价格策略，才能推动市场需求的爆发。从B端，开店门槛降低，让咖啡触手可及，咖啡市场的需求才能真正被激活出来，而咖啡也才能真正成为触手可及的日常必需品。</p>
-<p>我今天的分享就到这里，谢谢大家！</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3057565688309129</guid><pubDate>Wed, 04 Dec 2024 15:21:00 +0800</pubDate></item><item><title>风靡全球的冰箱贴，为什么这么火？</title><link>https://36kr.com/p/3063950744174342</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>回顾自己的旅行经历，是不是无论去了哪里，返程的行李袋里总少不了几个旅行纪念品。而其中，肯定少不了冰箱贴的存在。</p>
-<p><strong>自诞生以来，冰箱贴凭借其合理的价格与便携性，一直是旅行纪念品中的理想之选。</strong>而自去年起，文创风格的冰箱贴更是将创意推向了新的巅峰，其精细的工艺与仿古文物般的外形设计，在各大社交媒体上掀起热潮，迅速成为全国各地景区内最受欢迎的文创商品。</p>
-<h2><strong>冰箱贴，比你想的还要火</strong></h2>
-<p>近几年开始，冰箱贴成为了现代年轻人记录旅行足迹的独特方式，每到一个新的城市或博物馆，他们都会购买当地的冰箱贴作为纪念。<strong>这些小小的物件仿佛能够定格旅行的瞬间，将目的地带回家中，成为永恒的回忆。</strong>在社交平台上，如小红书，“晒晒我的冰箱贴”这一话题已经吸引了高达3.6亿次的浏览量，可见其受欢迎程度。</p>
-<p>其中，博主Konoe的文物冰箱贴收藏让人叹为观止。她不仅收集了来自多个博物馆的冰箱贴，还成功集齐了各个朝代的文物冰箱贴，这一壮举让网友们纷纷赞叹不已，直呼“壮观至极”。</p>
-<p class="image-wrapper"><img data-img-size-val="1079,1429" src="https://img.36krcdn.com/hsossms/20241204/v2_522e0859199549f29d1366ed33914614@5238925_oswg1922604oswg1079oswg1429_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源小红书@Konoe）</p>
-<p><strong>不仅如此，冰箱贴的热度不断攀升，成功跨越了小众范畴，频频火爆出圈。</strong>今年五月，苏州推出的一款流沙冰箱贴火爆全网，吸引了无数游客和市民的目光，这款冰箱贴巧妙地将平江路的河流与乌篷游船以流动的彩砂形式展现出来，创意新颖，工艺精湛，在社交媒体上引发了广泛的讨论和关注，网友纷纷表示苏州文创已经到了“next level”。</p>
-<p class="image-wrapper"><img data-img-size-val="1001,1335" src="https://img.36krcdn.com/hsossms/20241204/v2_54adad7ca495414db6f656c70b36c6dc@5238925_oswg258631oswg1001oswg1335_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源小红书@辣萌吃不胖）</p>
-<p>此外，冰箱贴相关产品的热潮，在市场也得到了充分的体现。据数据显示，今年3月1日以来，<strong>“冰箱贴”这一关键词搜索热度不断上升，义乌市场相关订单数同比去年增长了228%，交易额同比为去年的1.78倍。</strong></p>
-<h2><strong>冰箱贴：过往到旅行热潮的演变</strong></h2>
-<p>冰箱贴，作为一种可贴附于冰箱或钢铁材质表面的家居装饰品，最初其实是以类似便签的形式存在。在欧美地区，对于习惯于周末一次性购买一周所需食材的家庭而言，列清单是不可或缺的一环，因此，磁贴便签成为了记录购物清单、提醒事项的重要工具。</p>
-<p>随着时间的推移，磁贴便签逐渐演化为设计精美的冰箱贴，其功能也从单纯的记录转变为家居装饰。此后，<strong>冰箱贴更是与旅行文化紧密结合，并得益于其地域特色鲜明、便携易保存等多重优势，成为了旅行纪念品中的佼佼者。</strong></p>
-<p><strong>地域特色是冰箱贴的重要特征之一。</strong>无论是在巴黎还是伦敦，游客都能找到具有当地特色的冰箱贴，在巴黎可以找到巴黎圣母院或是埃菲尔铁塔的冰箱贴，在伦敦则能找到以伦敦塔、小电话亭、双层巴士、大本钟为元素的冰箱贴，这种鲜明的地域特色使得冰箱贴成为了展示旅行经历、分享旅行见闻的绝佳媒介。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241204/v2_74b6c8f77e224570ad75b95090e16a8e@5238925_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源 虫图）</p>
-<p><strong>便携也是冰箱贴备受青睐的原因之一。</strong>对于追求轻松旅行的游客而言，冰箱贴不仅小巧精致，而且易于携带。与易碎的花瓶、包装复杂的手工艺品相比，游客在旅行过程中能够轻松购买并携带作为纪念品。</p>
-<p><strong>冰箱贴在保存方面也具有明显优势。</strong>与纸质明信片相比，冰箱贴更耐保存。明信片在长时间保存过程中可能会泛黄、破损，而冰箱贴则能够长时间保持其原有色彩和形状。这使得游客能够长期保留旅行记忆，随时回味旅行中的美好时光。</p>
-<h2><strong>冰箱贴风靡全球带来的趋势启发</strong></h2>
-<p>冰箱贴，这个曾经默默贴在冰箱门上，承载着旅行记忆与生活点滴的小物件，如今却悄然风靡全球，成为了连接过去与现在、现实与梦想的独特纽带。它的火爆令人瞩目，更给其他专注于周边产品或是文创产品的企业带来了深刻的启示。</p>
-<p>那么，小小冰箱贴成功的背后，到底隐藏着哪些值得挖掘和借鉴的趋势与经验呢？</p>
-<p><strong>趋势一：洞察经济潮流，抓住出圈机会。</strong></p>
-<p>尽管今年的消费呈现出降级的趋势，但旅游消费人次仍在上升。冰箱贴就抓住了旅行经济火爆的潮流，广受消费者们追捧。对很多人来说，冰箱贴承载着深刻旅行意义，记录着每一次旅行的足迹与故事，是旅行者们表达自我、分享经历的重要媒介。</p>
-<p>对于企业而言，关键在于<strong>深入洞察当前的经济潮流，并在设计和创新过程中，精心挖掘和融入能够引发情感共鸣与记忆价值的元素，从而打造出符合这一潮流趋势的文创产品。</strong></p>
-<p><strong>趋势二：挖掘文化热潮，吸引小众圈层。</strong></p>
-<p>随着年轻群体对传统文化的认知与文化自信的崛起，博物馆逐渐成为热门的休闲度假目的地。其中不少展品以深厚的历史底蕴和独特的文化价值，引发了游客们的浓厚兴趣，冰箱贴就抓住了其中的热潮，复刻各种文物造型，从颜色到做工都是极度的还原，如今，购买并收藏不同博物馆的冰箱贴，已成为一种全新的打卡方式，在年轻人中形成一种潮流。</p>
-<p><strong>深入挖掘各种文化的精髓，并精准定位小众圈层，以独特的文化故事和产品魅力吸引消费者的关注，从而在这一文化热潮中脱颖而出，就能赢得市场的青睐。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="983,1311" src="https://img.36krcdn.com/hsossms/20241204/v2_67ad3c053b524e58bc21fd95af2f52e6@5238925_oswg153145oswg983oswg1311_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源小红书@一卯）</p>
-<p><strong>趋势三：捕捉地域特色，拓展个性表达。</strong></p>
-<p>在当今多元化的市场中，地方特色成为了吸引消费者注意力的重要因素之一。冰箱贴作为小物件中的佼佼者，更广泛地将地方景区的独特元素融入设计中，无论是霸气磅礴、设计精美的长白山四龙，还是内置夜灯的杭州三潭印月......都赢得了当代年轻人的青睐。</p>
-<p><strong>精准捕捉地方特色的精髓，并巧妙地将其融入产品中，打造具有独特魅力的文创产品，这不仅有助于推动地方文化的传播与发展，还能满足年轻人对个性化表达的追求。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1079,1434" src="https://img.36krcdn.com/hsossms/20241204/v2_07f9215e09ce47b49926eedd2f467923@5238925_oswg1433120oswg1079oswg1434_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源小红书@一口长白山文创礼物店）</p>
-<p><strong>趋势四：感知情绪链接，带动广泛消费。</strong></p>
-<p>冰箱贴不仅承载着厚重的文化，是割不断舍不下的地方情结，更体现了年轻群体在购物行为中的情感需求与寄托。对于年轻人而言，冰箱贴还象征着一种不安于室、向往远方的心态。即使身体暂时停留在家中，心灵却永远在探索的路上。它们能够触动消费者的情感共鸣，满足人们对于归属感、自我表达和个性化生活的追求。</p>
-<p><strong>挖掘产品与消费者之间的情感连接点，通过设计富有情感共鸣的元素，使产品不仅仅是物质的存在，更是情感的寄托。</strong>这样不仅能增强产品的吸引力，还能提升消费者的忠诚度。</p>
-<p><strong>趋势五：融合实用美学，满足功能需求。</strong></p>
-<p>实用主义的回归，让实用型的冰箱磁吸小工具开始逐渐占据市场。奶酪形状的开瓶器新颖又实用，冰箱留言贴提供了便捷的留言记录功能，除此之外，还有冰箱计时器、冰箱收纳盒、冰箱快递刀、冰箱纸杯架……这些冰箱贴不仅实用性突出，而且外观设计精美，真正实现了实用与美观的完美结合。</p>
-<p>实用永远是基础，在理性消费的当下，实用的价值更加突显，企业<strong>追求美观与个性化的同时，不应忽视产品的实用性，以满足消费者日益增长的功能性需求。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1079,1436" src="https://img.36krcdn.com/hsossms/20241204/v2_fd01a9f526394ab997017ccf67eeb9d0@5238925_oswg1702170oswg1079oswg1436_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源小红书@抹茶星冰乐）</p>
-<p>冰箱贴的风靡不仅仅反映了小物件流行的表面现象，其成功背后蕴含着洞察经济潮流、挖掘文化热潮、捕捉地域特色、感知情绪链接及融合实用美学等五大趋势，这些趋势为其他小物件或文创产品企业提供了宝贵的启示与借鉴。</p>
-<p>冰箱贴不仅是一个小小的装饰品，更是时代潮流、文化自信、情感寄托与实用主义交汇融合的产物，未来，冰箱贴会继续在全球范围内书写着属于自己的独特故事。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/mONdBa7OS-NL8oRs3g9X9A" rel="noopener noreferrer nofollow" target="_blank">“肖明超-趋势观察”</a>，作者：肖明超趋势观察团，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3063950744174342</guid><pubDate>Wed, 04 Dec 2024 15:33:00 +0800</pubDate></item><item><title>10亿+级国货美妆掀起“首店”潮，意味着什么？</title><link>https://36kr.com/p/3064082420580105</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 04 Dec 2024 16:30:28 +0800</lastBuildDate><pubDate>Wed, 04 Dec 2024 16:30:28 +0800</pubDate><item><title>10亿+级国货美妆掀起“首店”潮，意味着什么？</title><link>https://36kr.com/p/3064082420580105</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>2024年，溪木源、酵色、悠宜、敷尔佳、优时颜、颐莲、可复美等国货美妆，共同掀起了一场“线下首店潮”。</p>
 <p>《FBeauty未来迹》发现，这些品牌如今已经来到“从1到10”的关键阶段，而落子线下首店，则是其在品牌和集团战略层面长线发展的重要布局。</p>
 <h2><strong>10亿+国货的“首店”里程碑</strong></h2>
@@ -783,4 +241,496 @@
 <p>复仇剧因“爽感”而更易吸引当下的观众，观众钟爱的快节奏便会反向“驯化”创作者。微短剧以强力刺激作为直接变现的根基，会出现过于极端、粗制滥造的问题；长剧更不能只将复仇作为流量密码，一味求快。平台试图以相似的内容套路吸引用户，也会带来内容同质化的困境，让用户审美疲劳。“复仇”虽好，却绝不是内容发展的长久之计。 </p>
 <p> </p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/HTYNyKYgDFL4ucK6EHxvjw" rel="noopener noreferrer nofollow" target="_blank">“海克财经”</a>，作者：许俊浩，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064230649708291</guid><pubDate>Wed, 04 Dec 2024 15:51:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064230649708291</guid><pubDate>Wed, 04 Dec 2024 15:51:00 +0800</pubDate></item><item><title>“火锅店快30一份有机涮菜我奶拿它喂过猪”，巴奴们咋都在卖打工人没见过还吃不起的奇葩蔬菜？</title><link>https://36kr.com/p/3064145209484676</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>“打工人啃绿化带”</strong>从一句调侃变成现实，在座的各位都有责任。</p>
+<p>办公室最近被羽衣甘蓝全面攻占：午餐是羽衣甘蓝能量碗，下午茶是羽衣甘蓝纤体瓶，晚上点个芒果羽衣甘蓝坚果沙拉。</p>
+<p>这个以“苦”和“难吃”著称的蔬菜，长在土里的时候是一棵棵巨型包菜，很长一段时间都是各大城市道路绿化的首选物种。<strong>有人说买一包9.9的有机羽衣甘蓝不如去路边啃绿化带划算，</strong>唯一的问题是“破坏绿化带要罚款”。</p>
+<p>还有人去巴奴吃火锅，发现他们出了一款神似羽衣甘蓝的季节限定蔬菜。巴奴店员说这叫皱叶菜，属于甘蓝的一种，羽衣甘蓝的表哥，<strong>这下更做实了“绿化带进火锅店”的趋势。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_c67208f97f2b40598cad300f28eb4b51@000000_oswg1280654oswg793oswg1060_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@毕家厨</p>
+<p>放进沙拉里都嫌太苦的菜，如今被拿来涮火锅，<strong>不知道是不是老板们默认了牛马任何时候都必须多吃草才能干活？</strong></p>
+<p>“第一次在火锅店吃绿化带，请问有什么注意事项吗？”</p>
+<h2><strong>01 火锅店的奇葩涮菜，“好像在老家喂猪时见到过”</strong></h2>
+<p>除了云南的菜市场，<strong>火锅店可能是你能见到最多神奇蔬菜的地方。</strong></p>
+<p>巴奴火锅这个月上新的皱叶菜，一片片椭圆厚实的菜叶子，浑身布满凹凸不平的纹路，漂在红油锅上乍一看还以为涮了两片百洁布。</p>
+<p>在一片对于“这到底是什么菜”的猜测声中，有农村生活经验的网友们现身说法，<strong>“这菜是小时候村里喂猪的，但我外婆说太苦了，猪都不吃。”</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_d3dac49744474385ac01b8154cededca@000000_oswg16656oswg1080oswg254_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>“怪不得whole foods买来的昂贵有机羽衣甘蓝总是唤起我飘渺的童年乡下外婆家的回忆，原来小时候在猪食槽里见过它表哥。”</p>
+<p>但如今进了大棚的皱叶菜，已经从“猪都不吃”的野菜摇身一变成了“营养价值极高的新型保健蔬菜”。这种菜据称由德国、荷兰引进国内，在武汉研发培育了足足10年，直到今年10月才宣布“试种成功”。<strong>前脚实现了量产，火锅店就把它搬上了菜单，8片叶子卖你22。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_9274553748584b0c8258c8d5f8ffa2a1@000000_oswg572195oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>你不敢抱怨它贵，科研人员的心血摆在那儿，而且人家“VC含量是猕猴桃的2.5倍，保护肝脏，提高免疫力”。<strong>但任何蔬菜，只要宣传营养高大概率就意味着不好吃。</strong>据吃过的人说，苦里带点甜，一股菜水味儿，搭配火锅口感类似于红油涮树皮。</p>
+<p>如今一走进火锅店，最抓人眼球的永远不是菜单上的安格斯肥牛或加了18种料的糖水甜品，而是各种小众神奇蔬菜，<strong>所以牛马的身份进一步被坐实</strong>，高端的牛马总是会在吃火锅时被菜单忽悠点一盆闻所未闻但均价不低于30的特色涮菜。</p>
+<p>海底捞5月推出新品薄荷叶，听到这个消息，爱吃火锅和爱吃薄荷的人都狠狠皱起了眉头。据为数不多尝试过的人说，一筷子下去整个汤底都变成了薄荷味儿，<strong>挺提神醒脑，吃完火锅有清晨早起的清爽感。</strong>但如果真的点了，“还是建议生吃，比涮着好接受”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_580a57c2df9d4567acc09e39dc708864@000000_oswg169833oswg1080oswg1466_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@忧伤的白熊</p>
+<p>好奇心还害死了一批在火锅店尝试涮折耳根的人。</p>
+<p>为了向没吃过的人传达它的味道，有人用到意象法：“雨后，废弃钢铁厂，泥土，锈铁，生姜的怪味亲戚”，有人给足故事感：“一把生锈的剪刀剪开了鱼的肚子然后你舔了一口剪刀，血腥带着鱼腥带着生锈的味儿。”<strong>总之两个字，“快逃”。</strong></p>
+<p>听到北方人把这些菜当“火锅异端”，立刻有云贵川的网友站出来反驳，<strong>薄荷折耳根涮火锅，这是云贵川人才懂的浪漫。</strong>四川人把折耳根铺满红油火锅底，贵州夺夺粉更是少不了一把折耳根调味，而云南酸汤锅下薄荷叶一般一次不少于三盆。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_1a6ac765545144c5b6b530242de8f96a@000000_oswg1356680oswg781oswg938_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@派大包</p>
+<p>但还有些出现在火锅店里的蔬菜，不是让人惊叹于它的味道，而是“这居然能吃”，比如荨麻——就是荨麻疹的那个荨（qian）麻。这种植物大部分都有刺毛，一旦碰到，皮肤就会长大片的红斑，刺痒难耐。但它同时又是一种药材和食用蔬菜，尤其在俄罗斯属于一种餐桌上常见的传统食材，<strong>被用来做汤、沙拉、蘸料，甚至是做绿油</strong>——战斗民族连吃饭都充满抗争感。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_11f102020cc84041b7e737b39aa8c2ee@000000_oswg285091oswg1080oswg1722_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@Cheris</p>
+<p><strong>云南也是吃荨麻的大省。</strong>所以你会看到有人走进昆明的火锅店，点一盆新鲜的荨麻，上面贴心地插着一块牌子：“禁止触碰，我会咬人”。</p>
+<p>奶茶喜欢做限时联名，火锅店就做小众蔬菜季节限定。</p>
+<p><strong>春天有山蕨菜，夏天有香格里拉莴笋尖，秋天有芥蓝苗，冬天有笨菠菜。</strong>每种菜一年只上这么一个月，不抓紧吃你就要等明年，美名曰“时令饮食法”。这个方法也的确捧红了不少冷门蔬菜，比如海底捞和巴奴都放进菜单的“笨菠菜”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_c61c23da408644eb9bba04affac843c8@000000_oswg153509oswg1080oswg1717_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@我奥特曼1打5</p>
+<p>相比普通菠菜，这种菜叶柄更短，叶片更肥厚，生长周期长，只有12月份前后能够吃到。但要说口感和普通菠菜有什么区别，被提到最多的大约也就是“它的根是甜的”。</p>
+<p><strong>你要是问一份菠菜凭什么卖26？“因为是农户定向种植，田间自然生长，带根吃的好菠菜！”</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_77418d85ad454520b5f7134b7ee890e7@000000_oswg395289oswg465oswg684_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>火锅店们在挖掘“奇怪蔬菜”的赛道上一骑绝尘</strong>，菜单囊括了不知道哪个山头的地方特色菜，仿佛科学家们灵机一动研发出来的创新蔬菜，以及你以为已经失传的上古草药。火锅店的蔬菜如果写成《本草纲目》，得出上中下三册。</p>
+<p>比如有火锅店推出“野菜九宫格”，一种蔬菜加一种水果居然拼成了一种菜：杨桃菜、宝塔菜、苹果苦瓜、苹果丝瓜……感觉是把“蔬菜水果对对碰”搬到了火锅店。有的火锅店把药材当涮菜，主打“药食同源”，每一种菜名下面都给你清楚标明功效：当归叶“补血活血调血止痛”；田七苗“补中益气”，益母草“利尿消肿，清热解毒”，藏红花苗“保护心脏”……</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_f146107381e44fa58971b5f6c422932c@000000_oswg220522oswg1080oswg974_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@碧bibi</p>
+<p>你看着点单机里满屏不认识的蔬菜，以为自己进了张骞出使西域之后的献宝会，<strong>“让朕看看你又从世界各地搜罗来了哪些没见过的怪东西”。</strong></p>
+<p>在一系列稀奇古怪的火锅创新菜中，冰菜算是这两年火出圈的蔬菜之一。这种菜烹饪寿命短，吃法是拿水涮五秒或者生吃凉拌，大多数人只在火锅店里和它打过照面。同事嘴老师好奇尝了一回，“像有人往你嘴里吐了口唾沫”，发誓再也不吃第二次。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_3262837843454aaa834d99b003b80197@000000_oswg201702oswg1080oswg1598_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@发疯文学发言人</p>
+<p>连这样一种菜都能被博主们营销成“火锅店必点特色素菜”，你也就懂了为啥火锅店的神奇蔬菜经常会在你鼓起勇气尝试之后变成“难吃到出乎意料”的踩雷款。</p>
+<p><strong>好吃的蔬菜千篇一律，但难吃的各有花样。</strong>有人在火锅店点一份了一份“当季特供”的儿菜，店员问他对菜的看法，“一股子烂白菜帮子味”。店员点头回复，“确实不好吃”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_629ce1b9a40d44bbaf84d288a663ab77@000000_oswg181111oswg1080oswg1232_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@不普通的煲仔饭</p>
+<p>小众菜之所以小众，除了种植难度，口感难以被大众接受也占大头，<strong>毕竟老祖宗严选的菜就那么几样，其余没被收编肯定都是有原因的。</strong></p>
+<p>不过关于小众蔬菜的味道，一向见仁见智，不爱吃的人坚决不肯把又苦又辣的叶子和牛肉放进一锅汤里，爱吃的人则觉得苦代表健康，清新的自然风味“比肉还香”。</p>
+<p>但是，吃不认识的蔬菜有风险这事儿是确定的，有的时候风险不亚于去云南捡菌子。</p>
+<p>虽然现在大多数火锅店里的小众蔬菜都经过了调研、试菜，是规模化种植、确保能吃的“好蔬菜”，<strong>但耐不住也有的地方火锅店追求“纯正山野感”，</strong>把山里新摘的野菜放进塑料筐做成10元自助。不懂事的外地人吃了后“上吐下泻”，才知道野菜之间也会“对冲”，有的菜需要先焯水，吃的搭配也有讲究。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_9127c4ab521f4f78a904bce5261e1b31@000000_oswg244118oswg1080oswg1262_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@糯米米</p>
+<p><strong>“本来想帮你骂店家，但一看是在云南，也正常。”</strong></p>
+<p>即使味道和食品安全都有争议，火锅店里的小众蔬菜品类还是越上越丰富。</p>
+<p>你疑惑到底谁是这些菜的受众，打开菜单一看价格立马确定了反正不是自己。“猪都嫌苦”的野菜们进了火锅店就成了“菜中贵族”，有的价格甚至直逼精品肥牛。</p>
+<p>打开巴奴火锅的菜单，各类小众蔬菜，<strong>但凡名字前面加了产地或形容词，比如“原色”，“井水”，“温县（河南省焦作市）”，均价都在二三十元，</strong>其中一盘大份鲜冬笋能卖到56，是普通素菜的两三倍。对比起来，巴奴5片卖18元的土豆在这些“山野菜”面前都算不上什么价格刺客。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_3858537dde51465fb62aff017907d22e@000000_oswg1215312oswg808oswg991_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@YOYO呀</p>
+<p>“物以稀为贵”，道理是这么个道理，但要让<strong>“菜叶子比肉贵”</strong>看起来合理，也不能光说“少”就完事儿。</p>
+<p>小众蔬菜们打出的第一个卖点叫营养丰富，常见的名头是<strong>“xx之王”</strong>，比如“皱叶菜是维C之王”，结果立马遭到网友质疑，“为什么啥都能叫维C之王？维C到底有几个王？”</p>
+<p>事实上，皱叶菜的维C含量和常见的甜椒差不了多少，而维C本身也不是补的越多越好。根据《中国居民膳食指南2022版》，我国居民一般成年人维生素C的每日推荐摄入量为100毫克，而甜椒的维生素C含量是130毫克/100克，<strong>也就是说只要吃100克甜椒就能满足一个普通成年人维生素C需求的130%</strong>，小白菜、西蓝花多吃几口也都能达到相同的效果。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_bd00a731258641ec8737ce905825a027@000000_oswg147126oswg1080oswg517_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>火锅店们学会了护肤品那套打发，今天抗皱，明天祛痘，后天淡斑。功效一说都是“7天5大胶原提升376%”，<strong>结果你发现抹什么都不如晚上早睡一小时来得实在。</strong></p>
+<p>为了把蔬菜卖得更贵，火锅们也很努力地让吃菜变得有仪式感。口感小众的事实改变不了，但吃法足够高级至少还能给人一种“值回票价”的感觉。</p>
+<p>比如北京的烹然四季椰子鸡火锅会在店里实时直播有机蔬菜大棚的画面，你一边涮着菜，一边还能看着菜是怎么从地里长出来的，<strong>一口“峨眉山龙须笋”下肚，仿佛自己亲临了峨眉山视察。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_c8f11757957b42caa4d9197b7e492933@000000_oswg853552oswg1054oswg540_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>海底捞前有现扯面，后有现剪现吃豌豆苗，一盆端上来，再给你上一把绿色小剪刀，剪一把涮一把，仿佛在田间地头吃火锅，还能感受泥土的芬芳。剩下的，连盆打包回家还能继续一边种一边吃，吃完喷点水，过两天说不定又能收获新一茬。</p>
+<p>对了，爱吃豌豆尖的四川人不要看着名字像就轻易尝试，<strong>这个苗和尖是两个味道。</strong></p>
+<p>这样一盒豌豆苗，在海底捞能卖到28元，换算成黄豆芽2块钱一斤的市场价，我可以买14斤，买回来分给一栋楼的邻居还能吃三天。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_7cb1a91ff342495094de94f68c8b29bc@000000_oswg53711oswg1080oswg633_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>“幸好是火锅，这一小盒卖到上海做沙拉难以想象得多少钱。”</strong></p>
+<h2><strong>02 菜叶子卷到比肉贵，火锅店是咋想的？</strong></h2>
+<p>最初的“野菜火锅”仅限云贵川，这些地方离各种野菜和小众蔬菜的种植地近，“特菜”供应商多，菜也更加便宜。在北上广，几片野菜叶子雕花做成omakase装在小碟子里就卖你1888，你去云南、贵州的火锅店里，通常见到的是<strong>“野菜10块钱随便吃”</strong>的招牌。</p>
+<p>如今这些带着浓厚地域特色的特色蔬菜们，被连锁火锅店卖到了全国各地，身价也随着运输距离直线上涨。<strong>在北京这个冬天只有大白菜能无限供应的枯燥城市，你照样能吃到火锅店从各个山头为你搜集来的二十种新鲜野菜。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_8f456aa40b734e2aa328516e0f6a7883@000000_oswg1521727oswg771oswg975_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@猪姐姐</p>
+<p>记忆里，以前吃到小众蔬菜的唯一方法是跟着妈妈去旁边的山上采，一塑料袋带回来铺在阳台地上晾干。最多是家门口菜市场的老奶奶装一篮子按把卖，跟你说刚摘的，炒鸡蛋特别香，20一把，嫌贵5块也行。那火锅店的小众蔬菜们都从哪来？</p>
+<p><strong>答案只能是地里。</strong></p>
+<p>从南到北，这两年全国各类小众蔬菜的种植规模不断扩大。比如北京大兴区采育镇这些年发展特菜种植，种了冰菜、球茎茴香等等新品种蔬菜，而在新疆西山、哈密等地的种植基地，则培育了椒蒿、荠菜、沙葱、蒲公英、薄荷、野菠菜这些传统观念里的“野菜”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_2c0d59cec2fd45139addc74a5ec315f1@000000_oswg30080oswg860oswg315_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>有了规模化种植，最难的一步还是把这些菜以最快的速度送往全国。火锅店的小众蔬菜为啥限季节甚至限月份供应？<strong>因为存不到下个月。</strong></p>
+<p>比如巴奴在云南专门开了一家店，并设立了中央厨房，采购人员在当地市场上搜集特色菜和新品种蔬菜，调研、试吃后确定当季要上新的时令蔬菜，对接供应商或农户购买，然后运输到中央厨房进行验收、检测和初加工等环节，再运往全国140多家门店。一般一天之后，门店就会收到这批蔬菜，然后统一上新。</p>
+<p>不像白菜土豆这些大众品种从地里到餐桌已经有了一套成熟的方法论，<strong>每种小众蔬菜从摘到运都需配备特殊的运输方式。</strong>小众蔬菜供应的风险大，成本也会贵上不少，甚至可能因为一些难以预料的因素最终供应失败。</p>
+<p>一位蔬菜供应商在接受采访时说，每一种小众蔬菜菜的采摘都有严格的标准。冰菜采摘就要短一点，嫩一点，紫背天葵则要留长一点，并且要保证上面有四到五片叶子。为了保持菜的新鲜度，采摘时间要求早上7点采摘到10点，采摘后送到冷库，打冷到3到8度。小林说，巴奴曾经在上新一款时令蔬菜的时候，发现由于运输环节中的一些问题，导致菜送到门店后，<strong>出现了一些小虫子，但短时间内解决不了这个问题，最终决定放弃上架这款产品。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_fa8edb4d6572411dbd12e065bad7b40b@000000_oswg146661oswg1080oswg1438_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@真吾</p>
+<p>曾经恨不得现杀牛肉、新西兰的毛肚才是头牌，如今的火锅店为啥把曾经最不起眼的蔬菜捧上菜单首页？</p>
+<p><strong>一个重要的大背景是火锅们的价格战打不下去了。</strong></p>
+<p>上半年，几大火锅品牌都宣布了降价，呷哺呷哺火锅新菜单价格整体下降10%左右；怂火锅“素菜6.6元起”，人均50块能吃饱；八合里说自己要“价格回到10年前”；海底捞则开出平替版“小嗨火锅”，一份鸳鸯锅底最低只要9块9。</p>
+<p>火锅的平均客单价，<strong>从2021年的63元，降到了今年上半年的59元。</strong>2023年到2024年上半年，50元以下的客单价的火锅占比从27%涨到接近50%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_da022627accf423485b154531ff2b500@000000_oswg2083202oswg1000oswg1857_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：21世纪经济报道</p>
+<p>看起来火锅们的确有在努力摆脱“两三百吃不饱”的高价形象，锅底价格都直逼瑞幸了，但消费者却不肯买单了，“满大街火锅店，我却没那么想吃了”。</p>
+<p>过去一年，全国有超过14万家火锅店倒闭。财经网的分析认为，“消费者对于健康、营养、品质的关注度在不断提高。传统火锅高油、高盐、高热量的特点让一些消费者望而却步。<strong>他们更倾向于选择那些能够提供新鲜、有机、低热量食材的餐厅。</strong>”</p>
+<p>于是主打营养有机的小众蔬菜应声出战。</p>
+<p>虽然由于生产、运输等等方面的困难，小众蔬菜的毛利不一定比肉更高。但靠着“有机”、“特色”<strong>至少能让火锅店逃出同质化卷低价的怪圈。</strong></p>
+<p>“时令小众蔬菜对老顾客来讲，给到新的体验，起到了一定唤新作用，另外也持续延续了品牌自然健康的理念。”巴奴毛肚火锅员工小林说。</p>
+<p>据小林透露，巴奴毛肚火锅店里小众蔬菜的点单率大概在14%-22%之间。这个数字和一般火锅店的甜品、小吃相比，并不算差。根据中新经纬的报道，巴奴小酥肉的点单率也差不多在20%——<strong>意味着火锅店里有一桌人点了小酥肉，就有另一桌人涮着28一份的“时令蔬菜”。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_c6922d93234643f594a74ed2babcf2a1@000000_oswg1363137oswg750oswg1057_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">小红书@巴奴总店Liu芳</p>
+<p>火锅说白了也就是高端水煮菜，汤底就那么几个，各种荤菜翻来覆去也难有大的创新，吃腻了火锅亘古不变味道的人只能从蔬菜上寻求一点新鲜感。</p>
+<p>况且，<strong>吃不到蔬菜也成了靠外卖续命的打工人的一致烦恼。</strong>没空做饭的打工人被迫一周五顿外卖，打开纸盒，除了碳水和预制蛋白质，见不到一点多余的绿色。一边忧心自己的健康状况，一边翻烂外卖软件也找不到一个肯给你多放两片菜叶子的快餐店，只好下班了去火锅店，把火锅当维生素补充包吃。</p>
+<p>所以“纯素火锅”、“药膳火锅”这两年也火成了新品类。<strong>毕竟算上延迟退休，这个工还要再打将近四十年，有远见的打工人们已经提早开始布局火锅养生。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_d2592635bb1642ccb761a8551b1afb67@000000_oswg1448675oswg812oswg991_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书@吃个心眼子</p>
+<p>中国人，离不开蔬菜是刻在基因里的。</p>
+<p>你看着火锅店跨越千山万水从遥远的西部大棚给你端来一盆野菜，这才明白：<strong>要当好真牛马，果然还是得吃点顶级草料。</strong></p>
+<p><strong>参考资料：</strong></p>
+<p>贵州网络广播电视台，《从山间野味到规模化量产，黄平野菜如何“野而不野”？》，2024.04</p>
+<p>21世纪经济报道，《“热辣滚烫”的火锅界，打响价格战！》，2024.11</p>
+<p>财经网，《火锅价格战兴起，消费者不买单了？》，2024.08</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwMDQ2NTA4MQ==&amp;mid=2247643286&amp;idx=1&amp;sn=616137d93bc122713ec952c483742393&amp;chksm=97a3e46c5014999c8bf2d04bd38bcae1768e226bc9529169b42804934fe62c5d0d3d5480ef25&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Vista氢商业”（ID：Qingshangye666）</a>，作者：肘子，编辑：橘总，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064145209484676</guid><pubDate>Wed, 04 Dec 2024 16:00:00 +0800</pubDate></item><item><title>万亿美元AI市场还能成吗？这里是12位业内人士的看法</title><link>https://36kr.com/p/3064101993997697</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>大模型的发展已经陷入瓶颈了吗？</p>
+<p>近几周，关于这件事情的争论愈演愈烈。</p>
+<p>市场的信心很重要，CEO们赶紧出来回应。</p>
+<p>领头羊OpenAI最早发声，Altman明确表示：没有的事。</p>
+<p class="image-wrapper"><img data-img-size-val="660,100" src="https://img.36krcdn.com/hsossms/20241204/v2_8b143b9fc0e84417b8ce28d451550fb1@5091053_oswg35710oswg660oswg100_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>随后，Anthropic的CEO Dario Amodei和英伟达的老黄，也站出来向众人保证。</p>
+<p>不过，包括硅谷风投大佬Marc Andreessen在内的一些人则认为，这么长时间了，也没看到什么明显的进步，表现最好的几个模型，性能也大差不差。</p>
+<p>花儿谢了，冬天来了，又一年要过去了，GPT-5呢？</p>
+<p class="image-wrapper"><img data-img-size-val="596,336" src="https://img.36krcdn.com/hsossms/20241204/v2_d870c07d0d70460ab30d7454eb106996@5091053_oswg166851oswg596oswg336_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这关系到未来价值万亿美元的AI市场，如果烧钱的Scaling Law被证实回报越来越少，就会影响到当前的投资周期。</p>
+<p>包括新的初创公司、新的数据中心、新的产品，甚至是重新启用的核电站。</p>
+<p>为此，Business Insider采访了12位人工智能行业的前沿人士，包括初创公司的创始人、投资者，以及谷歌DeepMind和OpenAI的现任（和前任）员工， 探讨了在追求超智能人工智能（superintelligent AI）的过程中所面临的挑战与机遇。</p>
+<h2><strong>AGI的内幕</strong></h2>
+<h3><strong>预训练的难题</strong></h3>
+<p>研究人员指出， 在人工智能开发的早期阶段（即预训练阶段），公司可能会遇到两个关键障碍。</p>
+<p>第一个障碍是获取计算能力，具体来说就是买显卡。</p>
+<p>这个市场主要由芯片巨头英伟达主导， 而英伟达在持续的高需求下面临着数钱的困难供应的挑战。</p>
+<p class="image-wrapper"><img data-img-size-val="771,449" src="https://img.36krcdn.com/hsossms/20241204/v2_9452f77b2f8148f19e41e653a51dc4ae@5091053_oswg237047oswg771oswg449_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>法国风险投资公司Singular的合伙人Henri Tilloy表示，也许你可以拿出5000万美元买GPU，但你在很可能在英伟达的供应名单上排在最后——等不起。</p>
+<p>另一个供应问题就是训练数据。尽管每年向大模型投入更多的数据和GPU，能够可靠地产生更智能的模型， 但公司们已经耗尽了互联网上公开可用的数据。</p>
+<p>研究公司Epoch AI预测， 到2028年，可用的文本数据可能会被完全耗尽。</p>
+<p class="image-wrapper"><img data-img-size-val="935,263" src="https://img.36krcdn.com/hsossms/20241204/v2_299c79b5fc3349f69b8bb84cf7b86365@5091053_oswg29557oswg935oswg263_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Clarifai的创始人兼首席执行官Matthew Zeiler表示，互联网的规模是有限的。</p>
+<h3><strong>多模态与私有数据</strong></h3>
+<p>数据初创公司Encord的联合创始人Eric Landau认为，当公共数据陷入瓶颈时，就需要其他数据来源发力了。</p>
+<p>一个例子是多模态数据，将视觉和音频信息（如照片或播客录音） 输入到AI系统中。</p>
+<p>「这只是增加数据的一种方式（增加更多的数据模态），尽管实验室和企业已经开始用了，但还算不上是充分利用」。</p>
+<p>Lamini平台的联合创始人兼CEO Sharon Zhou，发现了另一个尚未开发的领域：私人数据。</p>
+<p class="image-wrapper"><img data-img-size-val="913,367" src="https://img.36krcdn.com/hsossms/20241204/v2_e63cf55536f34da09aeedb479ef260fb@5091053_oswg99246oswg913oswg367_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>许多公司已经与出版商签订了许可协议，以获取他们庞大的信息资源。</p>
+<p>例如OpenAI与Vox Media、Stack Overflow等组织建立了合作关系， 将受版权保护的数据引入自己的模型中。</p>
+<p>Sharon Zhou说，「与我们的企业客户和初创客户的合作表明，私人数据中蕴含着许多对模型非常有用的信号。」</p>
+<h3><strong>数据质量</strong></h3>
+<p>目前，许多研究工作正集中在提高LLM训练数据的质量，而不仅仅是数量。</p>
+<p>Sharon Zhou表示，研究人员以前在预训练阶段可以「对数据相对懒惰」，只需将尽可能多的数据输入模型，看看哪些有效。</p>
+<p>「现在这种做法已经不再完全适用了，公司正在探索的一种解决方案是合成数据。」</p>
+<p class="image-wrapper"><img data-img-size-val="1080,621" src="https://img.36krcdn.com/hsossms/20241204/v2_9ce155e80d3e4600b8e9397cd9bc36e1@5091053_oswg205706oswg1080oswg621_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>初创公司Aindo AI的首席执行官Daniele Panfilo也相信，合成数据可能是「提升数据质量的强大工具」，因为它可以「帮助研究人员构建符合其具体信息需求的数据集」，这在AI开发的后训练阶段（post-training）特别有用。</p>
+<p>一位前谷歌DeepMind的员工透露，Gemini已经改变了战略，从追求规模转向追求高效。</p>
+<p class="image-wrapper"><img data-img-size-val="809,421" src="https://img.36krcdn.com/hsossms/20241204/v2_bcf8963e5ed34011ac4b5b9e2cd20e40@5091053_oswg178858oswg809oswg421_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>「我认为他们意识到，服务如此庞大的模型实际上非常昂贵，因此通过后训练去适配专业的下游任务是更明智的选择。」 理论上，合成数据为提升模型的知识水平提供了一种有效的方法， 使其更加精简和高效。</p>
+<p>然而，在实际应用中，关于合成数据在提升模型智能方面的有效性，并没有达成一致的看法。</p>
+<p class="image-wrapper"><img data-img-size-val="975,487" src="https://img.36krcdn.com/hsossms/20241204/v2_f90554d5c2ea43d0b3fa2aebc13e5cdc@5091053_oswg140077oswg975oswg487_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Hugging Face的联合创始人Thomas Wolf就表示，「通过合成数据Cosmopedia我们发现，在某些方面它确实有帮助，但并不是解决数据问题的灵丹妙药」。</p>
+<p>Databricks的首席AI科学家Jonathan Frankle也认为，在合成数据方面没有「免费午餐」，并强调 「如果没有人类的监督，也没有过滤和选择哪些合成数据最相关的过程，那么模型所做的只是重复自己的行为」。</p>
+<h3><strong>构建推理模型</strong></h3>
+<p>仅仅关注训练部分是不够的。</p>
+<p>前OpenAI首席科学家Ilya，表达了对于预训练模型的Scaling Law已经停滞不前的担忧，「大家都在寻找下一个突破。」</p>
+<p>当前，行业的关注越来越多地转向推理模型（reasoning model）。在本月的微软Ignite活动上，首席执行官Satya Nadella宣布，</p>
+<p>Scaling Law并没有遇到瓶颈，新的范式已经出现，那就是test-time compute。</p>
+<p class="image-wrapper"><img data-img-size-val="849,449" src="https://img.36krcdn.com/hsossms/20241204/v2_9cc67d749f5544d0b81757f1838a442a@5091053_oswg256205oswg849oswg449_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>——允许模型在面对复杂的用户提示时，花费更长的时间来做出响应。</p>
+<p>比如Copilot推出的新功能：「think harder」，通过延长时间来解决更难的问题。</p>
+<p>AI初创公司Agemo的创始人Aymeric Zhuo说，推理（reasoning） 「一直是一个活跃的研究领域」，尤其是在「行业面临数据壁垒」的情况下。</p>
+<p>来自投资公司Balderton的Sivesh Sukumar也表示，「考虑人脑的工作方式，即使是最聪明的人也需要时间来找到问题的解决方案。」</p>
+<p>九月份，OpenAI发布了新的推理模型o1。</p>
+<p class="image-wrapper"><img data-img-size-val="875,317" src="https://img.36krcdn.com/hsossms/20241204/v2_5ba6c04f40634e6b8cfbaffdb641cc6a@5091053_oswg227492oswg875oswg317_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>「从第一原则进行推理」并不是LLM的强项，因为它们是基于「下一个单词的统计概率」来工作的。但如果我们希望LLM能够思考并解决新问题，就必须让它们进行推理。</p>
+<p>OpenAI研究员Noam Brown在上个月的TED AI演讲中提到：「结果表明，让一个机器人在一局扑克中思考20秒的效果，和将模型规模和训练时间同时扩大100,000倍是一样的。」</p>
+<h3><strong>未来预期</strong></h3>
+<p>前DeepMind员工表示，「行业可能需要适应一个较慢的进步节奏。我们经历了一个疯狂的时期，模型的进步非常迅速，这种情况以 前从未出现过。今年的进步速度没有那么快，但这并不意味着出现了瓶颈。」</p>
+<p>Lamini的Sharon Zhou对此表示赞同。她指出，规模法则是基于对数尺度而非线性尺度。换句话说，应该将AI的进步视为一条曲线， 而不是图表上的一条直线。这使得开发成本远高于我们对这项技术下一个实质性进展的预期。</p>
+<p>「这就是我们的期望在我们想要的时间框架内无法实现的原因，同时也是为什么当能力真正出现时我们会感到惊讶的原因。」 那么，投资者和客户是否愿意等待？</p>
+<p><strong>参考资料：</strong></p>
+<p>https://www.businessinsider.com/generative-ai-wall-scaling-laws-training-data-chatgpt-gemini-claude-2024-11</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/7gbA8TWfU02WJCVYvlfPEw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，编辑：alan，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064101993997697</guid><pubDate>Wed, 04 Dec 2024 16:06:00 +0800</pubDate></item><item><title>哪吒困局，是造车赛道的缩影</title><link>https://36kr.com/p/3063836611591688</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>当哪吒汽车被裁员、降薪、战略调整的负面消息所环绕，其CEO张勇同样未能幸免。</p>
+<p>最近更是有消息称，哪吒汽车CEO张勇已经离职。</p>
+<p>不过，哪吒汽车方面表示，张勇并未离职，公司目前经营一切正常。</p>
+<p>尽管如此，如果我们将以往传出的有关哪吒汽车的消息联系起来的话，不难看出，纵然是哪吒汽车CEO张勇的离职传言并不是真的，但是，哪吒汽车依然还是身处在一场巨大的变局之中。</p>
+<p>在10月底，曾有消息称，哪吒汽车开始实施面向全部研发人员的降薪计划，10月29日起各部门员工陆续收到降薪通知。</p>
+<p>10月30日，哪吒汽车方面回复记者时称，哪吒汽车正式启动公司全员股权激励计划，将拿出5%的股份（估值约20亿元），作为股权激励分配给全体员工，同时内部宣布了工资及绩效考核的新方案。</p>
+<p>11月14日，一位接近哪吒汽车的知情人士曾向记者透露，哪吒汽车将大幅压缩整合一二级部门，优化管理层级，同时强化对大模型等新型AI工具的运用，预计本轮调整后人效将提高40%，组织运营效率提高50%，相关运营费用大幅降低50%以上。</p>
+<p>「此次战略调整后，哪吒汽车将配置更多资源专注海外市场拓展，同时在国内聚焦优势车型的可持续运营，确保每一笔投入都能产生切实的回报。」哪吒汽车方面称。</p>
+<p>无论如何，透过以上的种种消息，我们可以看出，现在的哪吒汽车，日子并不好过。</p>
+<p>然而，如果我们将目光从哪吒汽车的身上移开，转而去审视和观察当下整个的造车赛道，不难看出，并不仅仅只是哪吒汽车，纵然是其他的中腰部以下的造车玩家们的日子，其实都不太好过。</p>
+<p><strong>从某种意义上来讲，现在哪吒汽车的困局，或许是整个造车赛道的一个缩影。</strong></p>
+<h2><strong>一</strong></h2>
+<p>事实上，有关造车赛道的洗牌早就已经开始了。</p>
+<p>无论是恒大汽车的倒掉，高合的立场，还是远在大洋彼岸的FF迟迟未见大的进展，我们都可以看出，现在的造车赛道，其实早已不复往日之盛景，早已不再是一个被资本市场追捧的香饽饽。</p>
+<p><strong>洗牌、调整，或许是当下造车赛道的主旋律。</strong></p>
+<p>如果我们将当下造车赛道的趋于平静，同以往的火爆联系在一起的话，丝毫都不会感觉到意外。</p>
+<p>原因在于，当初的造车赛道之所以会一日千里，之所以会有那么多的玩家们投身其中，其中一个很重要的原因就在于资本在其中的推波助澜。</p>
+<p>换句话说，往日造车赛道的盛景，其实是在资本的推动之下达成的。</p>
+<p>当资本的兴趣不再，造车赛道的趋于平淡，自然是成为了一件理所当然的事情。</p>
+<p>当哪吒汽车开始遭遇到一系列的困局，我们需要更多地看到的是，造车赛道的困局，业已开始从底层的玩家们，深入到了腰部的玩家，未来，或许还将会有更多的玩家牵扯其中，造车行业以往「千车齐发」的状态，或许将会不复存在。</p>
+<p><strong>对于当下的造车玩家们来讲，不再仅仅只是盲目地依赖资本，而是找到真正可以自我造血的正确的方式和方法，或许才是破解当下发展困局的关键。</strong></p>
+<p>无论是哪吒的出海战略，还是哪吒的降本增效的策略，未来将会在更多的造车玩家们的身上出现。当造车赛道上以往的泡沫被挤出干净，造车赛道的发展，才能真正步入理性的发展新阶段。</p>
+<p>对于造车来讲，这是一件好事。等到资本的泡沫被挤出，真正比拼的将不再是造车玩家们的营销、概念的能力，而是真正能够给造车行业带来改变，真正能够用技术的力量来赢得市场和用户的能力。</p>
+<h2><strong>二</strong></h2>
+<p>当资本的红利开始出清，以往仅仅只是依赖资本的输血来勉强运行的发展模式开始暴露出越来越多的问题的同时，造车赛道的发展进入到一个全新的阶段，同样是导致哪吒汽车开始陷入困局的另外一个主要原因。</p>
+<p>在经历了早期造车的跑马圈地之后，在经历了中期用户的培养之后，造车行业需要一个全新的出口来重启未来的发展。</p>
+<p>换句话说，现在的造车，不再仅仅只是一个概念，而是一个真正可以被汽车带来创新和发展的阶段。</p>
+<p><strong>更为直接地说，真正给造车赋予新的内涵和意义，真正给造车提供一个全新的解读，才是真正将自身的发展可以带入到全新发展阶段的关键。</strong></p>
+<p>观察以特斯拉为代表的头部玩家们的发展，不难看出，通过给造车赋予无人驾驶、AI、生态协同等更多的内涵和意义，真正让造车成为一个新型汽车的衍生器，而不再是一个玩家们吸引资本市场关注的方式和手段，才是真正可以将造车行业的发展带入到全新发展阶段的关键所在。</p>
+<p>我们都知道，近段时间以来，特斯拉一直都在不遗余力地推广自身的FSD的无人驾驶的技术。</p>
+<p>说到底，特斯拉其实就是在通过这样一种方式为自家的汽车赋予更多新的内涵和意义，而不再仅仅只是将造车的定义框死在能源和驱动方式的更换上。</p>
+<p>对于哪吒这样的造车玩家们来讲，在早期并没有实现真正意义上的突围，便丧失了先发的优势，而当造车赛道的比拼进入到全新的阶段，哪吒们又缺少资金、技术等条件的支持，因此，当造车赛道的竞争开始进入到新阶段之后，它们的发展，自然开始遭遇到越来越多的困境。</p>
+<p>毫不夸张地说，如果哪吒汽车的困局难以得到彻底地解决，非但无法挤上造车赛道的新牌桌，甚至还将会在造车赛道的旧牌桌上败下阵来。</p>
+<h2><strong>三</strong></h2>
+<p>今年7月国内乘用车市场零售销量为172万辆，其中新能源乘用车零售销量为87.8万辆，同比增长36.9%，环比6月增长2.8%，在乘用车市场零售渗透率高达50.8%。</p>
+<p><strong>这，其实是一个值得我们去关注的重要转折点。</strong></p>
+<p>当新能源汽车在乘用车里的渗透率突破50%的时候，整个造车赛道的增量市场其实开始越来越多地触及到天花板。</p>
+<p><strong>换句话说，当存量时代来临，真正比拼造车玩家们的，将不再是概念和营销的能力，而是考验造车玩家们的「硬实力」。</strong></p>
+<p>如果对于这些「硬实力」进行总结和定义的话，除了像小米汽车一样充足的资本储备之外，还需要有特斯拉一样的竞争优势，以及人、车、机器协同的能力。</p>
+<p>如果造车玩家们缺少这些「硬实力」，想要在存量时代有所作为，必然是一件难上加难的事情。</p>
+<p>可以说，现在哪吒汽车所遭遇到的困局，未来或许将会在腰部玩家，乃至头部玩家们的身上得到呈现。</p>
+<p>透过哪吒的困局，我们需要更多地看到的是，造车赛道上的诸多的玩家们仅仅只是看到了新能源汽车的增量，却并未真正看到新能源汽车迈入到存量时代的现实。</p>
+<p>于是，它们便不会通过布局「硬实力」来提升自身在存量时代竞争力。当这样一种情况开始发生，类似哪吒汽车的困局，或许将会在更多玩家们的身上出现。</p>
+<p>对于现在的造车玩家们来讲，不断地提升自身的附加值，不断地强化自身的影响力，不断地找到自身应对存量时代的正确的方式和方法，或许才是保证他们可以继续留在牌桌上的关键所在。</p>
+<h2><strong>结语</strong></h2>
+<p>哪吒的困局，仅仅只是当下造车赛道的一个缩影，未来，类似哪吒的困境，或许将会在越来越多的玩家们的身上开始出现。</p>
+<p>透过哪吒的困局，我们需要看到的是，造车行业的发展业已进入到存量时代的现实，我们需要看到的是，资本红利业已见顶的现实，我们需要看到的是，造车行业的竞争业已进入到深度、全面阶段的现实。</p>
+<p>当造车赛道的红利被出清，或许真的到了比拼硬实力的时刻。</p>
+<p>哪吒率先感受到了寒意，下一个会是谁呢？</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/E5YcK7SdpQv7muJtKD6UUQ" rel="noopener noreferrer nofollow" target="_blank">“孟栖笔谈”</a>，作者：礼崇，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3063836611591688</guid><pubDate>Wed, 04 Dec 2024 16:09:00 +0800</pubDate></item><item><title>全美最受欢迎超市，“美版胖东来”如何拿捏精致穷鬼？</title><link>https://36kr.com/p/3064112023387913</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p><strong>渠道变革与增长</strong></p>
+<p>当前，以“质价比”和“多快好省”为代表的消费趋势乘风而起，消费分级和供需变革也正推动零售渠道重塑，促使零售商承担更多角色。在这样的背景下，内容电商、折扣零售、仓储会员等差异化业态不断涌现。</p>
+<p>在中国，零售渠道的变革正处于起步阶段，亟需更多成功的案例来激发转型的新思路。我们注意到，无论是在全球市场还是中国市场，代表性的零售渠道商超在提升供应链效率、增强消费者体验、以及推动线上线下融合等方面，已经摸索出了一些值得借鉴的最佳实践。</p>
+<p>哪些零售企业能够持续繁荣？它们拥有哪些成功的秘诀？又解决了哪些行业内的难题？为了深入探讨这些问题，Foodaily特别推出了专题栏目《渠道变革与增长》，旨在揭示零售业长青的奥秘。</p>
+<p>本篇是该专题的第一篇，我们将聚焦美国最受欢迎的零售超市——“Trader Joe's”，揭秘其成功之道。</p>
+</blockquote>
+<p>“太好了，是缺德舅，我们留学生有救了！”</p>
+<p>“根本买不到，＄2.99的帆布包怎么又断货！”</p>
+<p>“在美国，公认需要排长队的地方，一个是苹果专卖店，另一个就是Trade Joe’s！”</p>
+<p>……</p>
+<p><strong>Trade Joe’s（乔氏超市）谐音诨名“缺德舅”，一个只在美国做生意的线下零售超市，不仅是留学生的“白月光”，更是无数老美心中的NO.1。</strong></p>
+<p>1967年成立至今，将物美价廉作为重要印记的Trade Joe’s年收入超过165亿美元，已在全美42个州拥有568家门店，并且连续多年被评选为“全美最受欢迎超市”。</p>
+<p>值得一提的是，Trade Joe’s坚持无促销、无网购、无会员卡的“三无”策略，依然能够保持稳定的营收增长。</p>
+<p>如此颠覆传统的Trade Joe’s有怎样的魔力，它是如何击中美国消费者的心的？与此同时，国内商超又可以复制哪些成功基因？</p>
+<h2><strong>1 精准定位：少即是多，小超市也能做成“坪效之王”</strong></h2>
+<p>在实体经济中，坪效（Sales per Square Foot），即每单位销售面积产生的收入，往往是被格外看重的一项关键指标。在现代零售市场中，这一指标直接反映了商家的经营效率。</p>
+<p>Trader Joe's每平方英尺零售面积销售额高达1750美元，远超Whole Foods（全食超市）的850美元和Costco（开市客）的1200美元。这一成就背后，是Trader Joe's精准定位的经营哲学。</p>
+<p><strong>1. 穷精致，瞄准高学历低收入群体</strong></p>
+<p>Trader Joe's的成功，首先体现在其对目标客户群体的精准定位上。</p>
+<p>与传统的大型超市不同，Trader Joe's并没有盲目追求大众消费者。</p>
+<p>在Trader Joe's成立之初，创始人Joe Coulombe洞察到美国当时的人口形态变化：一方面，从1932年到1964年，在有资格入学的大学生中，实际上大学的人群比例从2%上涨到60%，高学历人群在持续增长，他们的消费能力也在日益崛起；另一方面，随着新型大型喷气式飞机将于 1970 年首飞，国际旅行也将加速，“见过许多市面”的美国人正需要更多新奇产品来满足他们的品味。</p>
+<p>Trader Joe's精准锁定了一个正在悄然兴起，却尚未被广泛察觉的小众群体——高学历低收入群体（overeducated underpaid）。</p>
+<p>这一群体虽然在收入层面相对有限，但他们凭借高学历所培养出的独特消费品味与生活态度，对商品有着特殊的需求：追求高品质和新奇感，注重质价比，善于在有限预算内进行精明的消费选择。</p>
+<p class="image-wrapper"><img data-img-size-val="960,640" src="https://img.36krcdn.com/hsossms/20241204/v2_3c3f71efdf514298b963ddd5a4115bbc@12524829_oswg553404oswg960oswg640_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：MYSA</p>
+<p>从选址表现来看，相比其他大型商超地处偏远郊区，Trader Joe's通常选择在人群密集的居住地开设门店，附近最好要有大型大学或大型医疗综合体。</p>
+<p>这个地域范围内的人群在消费上，一般表现出相对较高的忠诚度和频繁的购买行为。</p>
+<p>通过聚焦于这一类特定区域，Trader Joe's能够确保稳定且持续的客流量，从而支撑其经营模式的可持续性。</p>
+<p><strong>2. 小而美，注重“少即是多”的高效运营</strong></p>
+<p>Trader Joe's在规模上与其他大型超市形成鲜明对比。与Costco、沃尔玛这类大型零售商的品类经营策略相比，Trader Joe's追求的是“少即是多”的单品经营理念。即，<strong>主张通过爆品单品获利，而非依赖全线产品和没有区分度的既定标品，每个单品必须自成一个利润中心。</strong></p>
+<p>与大型商场动辄数万平方米的门店面积不同，Trader Joe's的门店面积通常只有10000到15000平方英尺（930到1400平方米），相比之下显得极为紧凑。而且Trader Joe's只卖3000-4000种商品——仅是沃尔玛、家乐福等大卖场的十分之一，同一种商品只有3-4种选择。</p>
+<p>在这些产品品类中，Trader Joe's主要把重点放在食品及其相关商品上（如酒杯、开瓶器、蜡烛等），减少清洁剂、纸品等占面积的不可食用类商品的销售，保证品类聚焦和方便管理。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20241204/v2_198f510f0cb644f8be81f601bb02575f@12524829_oswg174416oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Playmarket</p>
+<p>而正是因为商品种类被精简，消费者可以在较短时间内找到所需商品，减少决策时间，提升购物效率。</p>
+<p><strong>3. 大爆品，保证可持续收割的利润点</strong></p>
+<p>Trader Joe's善于在小众品牌、自有品牌和“无牌”产品中发掘独特优势，创造爆品。</p>
+<p>早在Trader Joe's创立初期，创始人乔·库伦布（Joe Coulombe）就洞察到，酒类属于“非标品”，也就是说不同的生产商不可能做出一模一样的酒，很难同质化，而且酒类消费情况和顾客受教育的相关程度成近乎100%的正相关。</p>
+<p>于是，加州小众葡萄酒成为Trader Joe's在当时的主要发力点。赫兹（Heitz）、世酿伯格（Schramsberg）、梅亚卡玛斯（Mayacamas）等一众本土酒品牌被Trader Joe's带火，从此闻名于世。</p>
+<p>2002年，Trader Joe's推出了一款至今仍备受欢迎的Charles Shaw葡萄酒，这款酒以其卓越的品质和在当时$1.99的亲民价格迅速赢得了消费者的青睐。被昵称为“Two Buck Chuck”（“两元抛”）的这款葡萄酒，短短十年就成为销量超过10亿瓶的全球爆品。</p>
+<p>Trader Joe's还注意到，市场上的海鲜冻品都是拥有品牌溢价的加工产品，于是率先开发自有品牌冻品，以急冻锁鲜和绝对低价一举让冷冻黑虎虾成为全美销售冠军。</p>
+<p><strong>精准的定位和洞察让Trader Joe's常常走在其他零售商的前面，获得许多让产品成为爆品的机会，这些长红爆品往往就成为Trader Joe's的利润保证。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="750,500" src="https://img.36krcdn.com/hsossms/20241204/v2_7cbda43372794ff9b64b237dc26da1af@12524829_oswg514040oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Food&amp;Wine</p>
+<h2><strong>2 差异产品：人无我有，人有我廉</strong></h2>
+<p>Trader Joe’s的创始人乔·库伦布曾表示：“我们违背了零售业的所有传统智慧，除了一条：我们提供了巨大的价值，而这正是大多数零售商失败的地方。”</p>
+<p>Trader Joe's成功的核心在于其独特的产品理念：“人无我有，人有我廉”，也就是通过独特的产品以及极致的低价，为顾客提供无可比拟的价值。</p>
+<p><strong>1. 自有产品：高复购率，兼具独特性与创新性</strong></p>
+<p>自有品牌在零售商超中并不算稀奇。</p>
+<p>但Trader Joe’s自有品牌占所有商品总数的80%以上，是沃尔玛等商超的四倍。</p>
+<p><strong>与传统超市的标准化商品不同的是，Trader Joe’s的自有品牌一方面更注重用充分的健康承诺获得消费者的认同感；另一方面，选择那些在其他零售商中难以找到的商品。</strong></p>
+<p>在健康方面，Trader Joe’s的产品承诺：几乎都不含人工调味剂、防腐剂、人工染色、味精、转基因成分以及反式脂肪酸等对健康不利的物质。这种健康保证，使Trader Joe’s自有品牌成为了消费者信赖的健康食品选择之一。</p>
+<p><strong>从自有产品角度，Trader Joe’s 将 “人无我有” 的理念发挥得淋漓尽致。</strong></p>
+<p>最好的例子就是Trader Joe’s的枫糖浆。在大品牌厂商都在生产“高蔗糖含量、低枫糖含量”的一般枫糖浆时，Trader Joe’s找到加拿大魁北克的农业合作社，拿到大桶原浆并分装贴牌，实现绝对低价的纯枫糖浆，自此成为美国最大的枫糖浆零售商。</p>
+<p class="image-wrapper"><img data-img-size-val="456,918" src="https://img.36krcdn.com/hsossms/20241204/v2_66b9a850b6994595afc56390029b2038@12524829_oswg69524oswg456oswg918_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Trader Joe’s</p>
+<p>Trader Joe’s专门设置了“产品创新者”这个特殊岗位，员工们被派往世界各地进行实地考察，任务是根据当地美食寻找独特的产品，然后以自有品牌出售。</p>
+<p>印度进口的“冷冻馕饼”、意大利进口的“冷冻比萨”、中国进口的“陈皮鸡”都是Trader Joe’s自有品牌中的热卖产品。</p>
+<p>Trader Joe’s为这些异国美食开设了不同的品牌类目，如“Trader Joe's”主打墨西哥美食、“Trader Ming's”主打亚洲美食、“Trader Giotto's”主打意大利美食……</p>
+<p>此外，Trader Joe's还非常注重根据顾客反馈进行产品调整，保持灵活性。它会通过社交媒体等渠道获取顾客对产品的评价和建议，从而及时调整产品线，推出更多符合顾客需求的新品。</p>
+<p><strong>Trader Joe’s的另一大亮点在于其大量的预制食品和便捷商品。</strong></p>
+<p>随着生活节奏的加快，许多消费者渴望能够购买到即食、即煮的方便食品。Trader Joe’s凭借其高质量的预制食品，成功满足了这一需求。</p>
+<p>从即食沙拉、预调汤底、冷冻披萨到各种便捷的小吃，Trader Joe’s提供了一系列便捷的食品选择。</p>
+<p>这些产品的推出，满足了忙碌的都市消费者，尤其是年轻人和单身家庭的需求。这种“懒人福音”不仅增加了顾客的购买频次，也加强了品牌的黏性。</p>
+<p class="image-wrapper"><img data-img-size-val="780,438" src="https://img.36krcdn.com/hsossms/20241204/v2_44acfa1eb75148afab06f40b9c8a97bc@12524829_oswg100844oswg780oswg438_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：TastingTable</p>
+<p><strong>为了吸引顾客多次光顾，Trader Joe’s 还采用了及时更新、限时售卖、随时淘汰的策略制造“稀缺焦虑”。</strong></p>
+<p>例如，Trader Joe’s 会随时撤架销量不佳的产品，也会定期推出当季限时产品。如在南瓜季，南瓜香料咖啡、南瓜饼干、南瓜香料茶、杏仁饮料和煎饼华夫饼混合物等一系列南瓜主题产品纷纷上架。</p>
+<p>这种不断更新的产品策略，使得顾客每次前来都能发现充满惊喜感的新商品，极大地激发了顾客的购买欲。而且部分顾客因为担心心仪的产品会突然下架，一旦找到喜爱的产品，往往会批量购买，从而有效提高了客单价。</p>
+<p><strong>2. 极致低价：从供应链到自有品牌的价格控制</strong></p>
+<p>同一款意面，在连锁超市Whole Foods 的售价为 3.29 美元，在Trader Joe's仅需1.49 美元。</p>
+<p>Trader Joe’s的定价策略颇具特色，在行业都以“毛利率”定价的时候，Trader Joe’s是以“毛利额”为主导的。例如，Trader Joe’s愿意在一款20美元的香槟上只挣13%的毛利率，因为一单就已经能赚到2.6美元的利润。</p>
+<p>Trader Joe’s之所以能够在价格上与大型零售商竞争，<strong>并且保持产品高品质，根本在于其对供应链的精准控制。</strong></p>
+<p>Trader Joe’s主要通过直接与供应商进行买断性的合作，绕过中间商环节，实现更低的采购成本。而在1976年以前，Trader Joe’s实现“供应链自由”就充分利用了美国加州的公平贸易法案（Fair Trade）。</p>
+<p>该法案限制了大型零售商以过低价格从供应商处采购商品，从而保障了小超市能够在价格上与大型超市竞争。政策上的红利，使得Trader Joe's有机会通过更加合理的定价策略获得市场份额。</p>
+<p>当某一产品成为热销商品时，Trader Joe’s可以通过大宗采购进一步压低价格，而将这些成本优势反映到消费者身上。</p>
+<p class="image-wrapper"><img data-img-size-val="780,438" src="https://img.36krcdn.com/hsossms/20241204/v2_f2dbdfed5e094ca8abae25efd6fe3053@12524829_oswg681553oswg780oswg438_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Daily Meal</p>
+<p>此外，相比于依赖广告和品牌推广的传统零售商，Trader Joe’s基本不做大型广告投放，直接省去了大量不必要的营销支出，从而将更多的成本优势转化为产品价格上的优惠。</p>
+<h2><strong>03 附加体验：细节处理，拉满情绪价值</strong></h2>
+<p>走进Trader Joe's的门店，仿佛来到了加勒比港口。</p>
+<p>店内装饰以渔网和船桨为主，收银台被巧妙地设计成船舷的模样，被叫做“船长”和“船员”的店长和店员穿着夏威夷风情的衣服，笑容满面地迎接每一位顾客……</p>
+<p>Trader Joe's就像这样，引导消费者走入一个“叙事性空间”，让人们获得沉浸式的购物体验。</p>
+<p><strong>Trader Joe's重视消费者体验，不仅仅体现在门店设计上，还体现在对细枝末节的处理上。</strong></p>
+<p><strong>首先是人性化的购买原则。</strong>在许多零售商依赖标准化产品销售的模式下，Trader Joe's倾向于根据顾客的实际需求来设计产品的销售方式。</p>
+<p>例如，易腐食品，如香蕉按照根售卖。这种做法不仅为顾客提供了更多的选择，还避免了浪费。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,750" src="https://img.36krcdn.com/hsossms/20241204/v2_405352d7b7cc4beba3d18deb8c19137a@12524829_oswg165274oswg1000oswg750_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Trader Joe's</p>
+<p>除此之外，Trader Joe's的冷藏柜没有门，这意味着顾客可以直接从柜中触摸、拿取、检查自己需要的商品，而不必忍受低温带来的不适体验。这一细节的设计虽然不起眼，但却能大大提升顾客的舒适度。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20241204/v2_6af4d5f4209044978bde16bb13876429@12524829_oswg351349oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Trader Joe's</p>
+<p><strong>在Trader Joe's，员工不仅仅是商品的推销员，更是顾客体验的重要一环。</strong>为了确保员工的高效沟通和顺畅的服务流程，Trader Joe's采用了独特的信息传递方式。</p>
+<p>在商店内，店员之间并不会用大声喊叫来传递信息，而是使用铃声来进行交流。一次铃响表示收银台需要帮助，铃响两次则表示有顾客提出重要问题，铃响三次则意味着店长将前来处理。</p>
+<p class="image-wrapper"><img data-img-size-val="960,657" src="https://img.36krcdn.com/hsossms/20241204/v2_05b7d7ba187a4c4591698b50119ae4ab@12524829_oswg92832oswg960oswg657_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：IdahoPress</p>
+<p>在Trader Joe's的货架上，每一件商品也都配有店员精心设计的手写商品卡，足见用心程度。</p>
+<p><strong>更为特别的是，Trader Joe's提倡“知识型”广告。</strong>每隔一段时间就会推出《Trader Joe's Inside》播客节目，以声音的形式向外界解答关心的问题；还会以纸质或电子邮件的形式提供一份最受消费者欢迎的简报，名为《无畏飞行者》（Fearless Flyer）。</p>
+<p>在这份简报中，只有产品资讯、食谱、故事和其他非传统见解等有用信息。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,479" src="https://img.36krcdn.com/hsossms/20241204/v2_8768b60fc12241619ae232f8483b33b5@12524829_oswg87734oswg1080oswg479_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Trader Joe's</p>
+<p>总的来说，Trader Joe's凭借其独特的门店设计、人性化的购买原则、态度极好的营业员、充满情绪价值的商品信息和多元化的消费者互动方式，成功地打造了一个充满温暖和关怀的购物环境。</p>
+<p>在这里，顾客不仅能够买到高品质的商品和实惠的价格，还能感受到来自品牌的真诚和关怀。这样的购物体验无疑让Trader Joe's在众多竞争对手中脱颖而出，成为了消费者心中的首选之地。</p>
+<h2><strong>4 小结</strong></h2>
+<p>Trader Joe's取得成功的秘诀，在于其核心竞争力和隐形资产的二合一：<strong>差异化是“镇店之宝”，口碑是“秘密武器”。</strong></p>
+<p>从目标人群的精准定位、门店的独特设计、产品的精心生产，到顾客体验的细致打磨，在Trader Joe's的每一个环节，都能发现让消费者流连忘返的“吸引力”。</p>
+<p>不走寻常路，使得Trader Joe's能够在竞争激烈的零售市场中保持其独特的地位，并赢得了消费者的青睐。</p>
+<p>未来的路还要如何走，相信充满无限可能的Trader Joe's会给消费者带来更多惊喜。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/IAMCiNji3dobNgNhXkg_tg" rel="noopener noreferrer nofollow" target="_blank">“Foodaily每日食品”</a>，作者：Yomi Xue，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064112023387913</guid><pubDate>Wed, 04 Dec 2024 16:13:00 +0800</pubDate></item><item><title>15万的纯电MINI售罄，宝马得想新招了</title><link>https://36kr.com/p/3064114293450113</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p><strong>官宣降价了40多天，尝到甜头的MINI中国，延长了对电动MINI车型的限时优惠时间。面对激烈的新能源汽车市场，“以价换量”成为了宝马MINI解决问题最直接的方式。但“限时优惠”只能解近渴，部分行业人士也担忧：倘若未来频繁调价，可能会损害该品牌的溢价能力。</strong></p>
+</blockquote>
+<p>破天荒地喊出“最高降价4.6万元”的口号后，宝马MINI感受到了久违的快乐。</p>
+<p>尽管这个决定在当初看来是那么艰难，但很显然，现在的宝马MINI对调价玩上瘾了。</p>
+<p>2024年10月18日，宝马MINI官宣降价：上市仅3个月的全新电动MINI COOPER，起售价从18.98万元直接降到14.88万元；而今年8月才上市的紧凑型纯电SUV车型MINI ACEMAN，更是从20.99万元的起售价降到了16.39万元，降幅高达4.6万元。</p>
+<p>这是MINI品牌史上首次给出如此大幅的折扣。顶着被吐槽的压力，宝马MINI将这波“限时优惠”活动截止到11月底。</p>
+<p class="image-wrapper"><img data-img-size-val="1024,683" src="https://img.36krcdn.com/hsossms/20241204/v2_83f91741e4204ae093187c66d5a75398@5091053_oswg113402oswg1024oswg683_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲ 上海浦东新区，宝马MINI城市中心店。图 / 视觉中国</p>
+<p>然而让宝马MINI惊喜的是，降价消息一出，各地线下门店纷纷涌进一大波“薅羊毛”爱好者。就连曾经卖不动的全新电动MINI COOPER，也瞬间成了抢手货。</p>
+<p>北京某宝马MINI的销售经理告诉每人Auto，目前14.88万元的全新电动MINI COOPER低配版已经没货了，加1.6万元选装包的款还可以帮忙预定。</p>
+<p>鉴于此次降价带来的市场反应超出预期，近日宝马MINI官方决定，将这波“限时优惠”活动延长至12月8日。并且在销售终端，因电动MINI卖得太火，许多销售员又发起了一轮让用户先交1000元定金的“抢车大战”。</p>
+<h2><strong>电动MINI被抢疯了</strong></h2>
+<p>官宣降价40多天后，每人Auto于11月底来到北京某宝马MINI门店，由于是工作日，店内只安排了一个工作人员接待。这间约80平方米的展厅，只摆了3台MINI的车，其中电动车型只剩下一款黄色高配版的MINI COOPER。</p>
+<p>虽然此时不复月初时的盛况，但销售依然热情地邀顾客试驾。毕竟宝马MINI延长了限时优惠活动时间，现在距离截至日期还剩下最后一个周末，努努力还能拼一把。</p>
+<p>要知道，在宝马MINI官宣降价后的首个周末，就有济南的经销商在两天内卖出了30多台电动MINI。四川某四线城市的宝马MINI销售则告诉每人Auto，以前他们店里一个月只能卖3至5台车，但官宣降价后不到一周，店里一下子就卖了十多台车。</p>
+<p>据中国汽车流通协会专家委员李颜伟介绍，宝马MINI降价后第一周的销量超过了540台，第二周销量超过了1300台。</p>
+<p>尤其是14.88万元起售的全新电动MINI COOPER（经典派），是卖得最快且最难抢到的车型。</p>
+<p>今年7月，全新电动MINI COOPER上市，作为第五代MINI产品中的三门车型，共推出了4个车款——大玩家、经典派、艺术家和赛车手，厂家建议零售价分别为18.98万元、20.98万元、23.98万元和25.98万元。</p>
+<p>10月份官宣降价时，大玩家没有参与，经典派给出的限时礼遇价是14.88万元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1817" src="https://img.36krcdn.com/hsossms/20241204/v2_40960c4bafc3470292745cf77fc4888e@5091053_oswg196087oswg1080oswg1817_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲ 10月18日，全新电动MINI限时优惠活动。图 / 宝马MINI官网</p>
+<p>来自湖南长沙的舒怡，是宝马MINI COUNTRYMAN的老车主。在得知MINI电动车降价后，她次日便冲到4S店打算将这辆老油车换掉，享受一下最新的电动车科技。</p>
+<p>舒怡将她的旧车以10万元的价格作抵扣，再算上5000元的保险费，以及当地政府提供的1.2万元购车补贴，实际上只花了3.68万元，就拿下了售价14.88万元的全新电动MINI COOPER。</p>
+<p>与此同时，舒怡还通过宝马金融的3年免息政策，贷款了10万元。这就相当于她用贷款以最少的成本换到了一台新车；又利用抵扣政策，把开了5年的旧车换成了实打实的票子。</p>
+<p>精打细算的舒怡算是把车的价值释放到最大化了，但奈何降价消息传得太快，许多消费者甚至来不及去门店试驾，便匆匆交出定金。</p>
+<p>王琪是在宝马MINI官宣降价3天后，通过短视频知道了这个“大羊毛”的存在。她立马联系到销售，但对方却说14.88万元的全新电动MINI COOPER库存有限，如有意购买需立即交定金锁定车辆。</p>
+<p>在官网上浏览了几分钟的图片后，王琪下单了一辆黑色的全新电动MINI COOPER，一周之内提到了现车。</p>
+<p class="image-wrapper"><img data-img-size-val="1024,683" src="https://img.36krcdn.com/hsossms/20241204/v2_a2da02915d6641a091d74be4b0a97971@5091053_oswg117908oswg1024oswg683_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲ 宝马MINI电动汽车。图 / 视觉中国</p>
+<p>周野比王琪知道降价的消息更晚，但他也成功抢到了14.88万元、未加任何选配的经典派MINI COOPER。当时销售人员告诉他，这台车很可能是北京地区最后一辆没有额外选配的经典派车型了。</p>
+<p>的确，不是所有人都能抄底“丐版”电动MINI COOPER。因为太便宜，此次促销活动上提供的这款车型数量极少，大多数人抢不到，想买只能加1.6万元的选装包。</p>
+<p>比如90后的彭娜就遇到了想买车却没货的尴尬，但她刚有些犹豫，又被销售人员告知，如果不立即下单，连加价1.6万元选装包的车型也可能售罄。包括18.28万元的艺术家，需要其他地区调货，等待时间过长。</p>
+<p>为了不失去这次“薅羊毛”的机会，彭娜只好选择了售价19.48万元的SE赛车手版本。</p>
+<p>近日，有销售人员向每人Auto透露，目前制造商将释放一批新的库存资源，但每个经销商分配到的货源仍十分有限。如果消费者有兴趣购买，可提前支付1000元定金，让销售帮忙“抢”车。</p>
+<h2><strong>价格到位，一切好说</strong></h2>
+<p>电动MINI COOPER官降后的“战果”，也让燃油版车型羡慕不已。11月的广州车展期间，全新一代MINI COOPER燃油版车系正式上市，包括三门版、五门版，以及JCW车型，售价区间为23.38万～31.08万元，限时礼遇价20.88万～30.58万元。</p>
+<p>这样的优惠力度，在当前的汽车市场，还不足以掀起像电动MINI COOPER一样的水花。</p>
+<p>在行业人士看来，调整电动MINI COOPER的售价，MINI中国做得太对了。市场上没有不好卖的产品，只有不好看的价格。据周野透露，此次将首款全新电动MINI COOPER降价，是宝马方面主导的，主要是为了消库存。</p>
+<p>其实当初全新电动MINI COOPER公布售价时，不少人都为其销量捏了把汗。</p>
+<p>毕竟中国新能源汽车市场正在卷价格战，而且该车还是在光束汽车（宝马和长城汽车的合资公司，双方各持股50%）工厂投产的，属于地道的国产化产品，虽然售价比燃油版便宜，续航也有400多公里，但“花18.98万元买一辆国产电动小车，真的值吗？”成了外界普遍的疑问。</p>
+<p>从结果看，大家的担忧不无道理。根据新车上险量数据，电动MINI COOPER上市后，7～9月的累计销量才1000台出头。</p>
+<p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20241204/v2_882f3e8435104ba9bb5f13c8f5ee97fb@5091053_oswg49425oswg800oswg450_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲ 全新电动MINI COOPER。图 / 宝马MINI官网</p>
+<p>记得该车刚上市时，宝马MINI曾推出过100天保价措施。如果消费者在2024年7月6日至2024年9月30日内签署《汽车销售合同》，那么这100天内，只要MINI中国对同款车型的零售价格进行调整，导致车辆最终成交价格低于已签署合同中的价格，消费者就可以获得差价补偿。</p>
+<p>虽然后来宝马MINI宣布调整价格的时间，已经超过了这100天的范围，但MINI中国还是给降价前购买了电动MINI的老车主们，兑现了现金保价的承诺。</p>
+<p>对此，有业内人士直言，之前电动MINI COOPER本身销量就不高，就算赔偿老车主，MINI中国也不会付出太多成本。按照当前每辆车最高降价4.6万元粗略估算，宝马只要赔偿4600万元左右就差不多了。</p>
+<p>在行业人士看来，MINI中国这么做其实挺聪明的，车既卖出去了，又给自己留下了不背刺老车主的美名。</p>
+<p>面对当前中国的新能源汽车市场，MINI中国太知道赢得消费者的口碑有多重要了。</p>
+<p>纵观MINI的发展史，已经走过了70个年头。经典MINI的诞生，甚至可以追溯到上世纪50年代。</p>
+<p>一直以来，经典MINI以独特的外观设计、低廉的价格以及优秀的燃油经济性，成为那个时代的文化符号，也被视为自由、个性和创新的象征。</p>
+<p>2003年，在宝马的带领下，MINI正式进入中国市场。在国内扎根二十多年后，该品牌开始国产化。2018年，宝马集团与长城汽车正式签署了合资经营合同，以50:50的比例成立了光束汽车。摸索了将近六年，首款全新电动MINI COOPER才正式上市。</p>
+<p>然而，首款全新电动MINI COOPER的初始价格，让不少车迷望而却步。</p>
+<p class="image-wrapper"><img data-img-size-val="928,577" src="https://img.36krcdn.com/hsossms/20241204/v2_89788d1dffad4639aef2153101464ce6@5091053_oswg81608oswg928oswg577_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲ 全新电动MINI COOPER。图 / 宝马MINI官网</p>
+<p>周野今年34岁，有一款巡航摩托车和一款高性能踏板车，日常骑摩托车通勤。尽管身高达到了1米8，但他一直对MINI情有独钟。在他的眼里，MINI首先是一款有趣的玩具车，其次才是交通工具。</p>
+<p>电动MINI COOPER刚上市时，他曾去线下店体验过，但他对高价的“玩具”也有些介意，直到降价后，才觉得没什么可犹豫了。</p>
+<p>许多趁着这次降价选购电动MINI的车主们，心态也是一样。</p>
+<p>在每人Auto联系的多位电动MINI车主中，有婚后财务自由，无需顾及家庭为颜值买单的宝妈们，也有极具个性、热爱自由的单身男女们，他们对动力、配置几乎没有太多要求，一心只为颜值和性价比买单。</p>
+<p>很显然，MINI中国清楚自己的价值所在，也知道中国消费者的对该品牌的需求点和介意点。</p>
+<h2><strong>宝马MINI还有何退路？</strong></h2>
+<p>看着降价后的电动MINI被疯抢，有行业人士不免担忧，宝马MINI尝到了降价的甜头后，倘若未来频繁调价，可能会损害品牌的溢价能力。</p>
+<p>毕竟在外界看来，宝马MINI正是靠着品牌力才没被国产小车完全取代。</p>
+<p>宝马MINI也知道自己的价值所在，奈何国产小车卷得太猛，逼得自己喘不过气。回顾过去几年的年销量，2019年宝马MINI还能卖出3.41万辆车，但到了2022年就降为2.87万辆，再到2023年只能卖出1.82万辆车了。</p>
+<p>其实复盘整个微型车市场会发现，并非是此类产品在国内没有市场。</p>
+<p>乘联会数据显示，2024年10月，A00级轿车市场零售较去年同期同比增长38%，环比增长13%；前10个月，国内零售数量93.98万台，累计增幅33%。</p>
+<p>再看A0级轿车市场，今年前10个月，A0级轿车国内零售量突破了50万台。其中五菱缤果、比亚迪海豚、吉利星愿占据销量前三位。</p>
+<p>据乘联会秘书长崔东树观察，随着整个汽车市场向电动化靠拢，A0级轿车市场也受到影响，电动化的推进非常显著，几乎看不到有竞争力的燃油车型了。</p>
+<p>顺势而动，这也是为什么宝马MINI会推出电车的原因。</p>
+<p class="image-wrapper"><img data-img-size-val="1024,683" src="https://img.36krcdn.com/hsossms/20241204/v2_565beb448bf34f57ad799a4512b044d0@5091053_oswg88705oswg1024oswg683_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲ 上海，宝马MINI COOPER 4S店。图 / 视觉中国</p>
+<p>然而，正如上文车主们提到的，全新电动MINI COOPER最初的价格成了阻碍他们购买的一个原因。毕竟国产小车们（五菱缤果、比亚迪海豚、吉利星愿）售价已经不到10万元了，而且智能化体验上也更丰富。</p>
+<p>曾有机构统计过微型车市场的用户画像，他们的特征是热衷尝鲜体验，追求潮流个性。但在消费偏好上，大家更看重性价比和实用性，在购车时也更关注价格和质量。</p>
+<p>或许是想明白了，宝马MINI决定用“以价换量”这个最直接的方式解决问题。但“限时优惠”只能解近渴，想要品牌长久生存，还得找到充足的水源。</p>
+<p>其实在小车赛道上，和宝马MINI遭遇同样处境的就是smart了。</p>
+<p>和宝马MINI一样，smart也在探索新能源市场。不过，它选择的方式是不待在小车的舒适圈中，而是挖掘更多的细分市场，比如将车辆尺寸越做越大，瞄准更主流的大众市场。</p>
+<p>配置也给得足，smart旗下全部车型标配360全景影像，且具备最基础的L2级辅助驾驶。但这些功能放在全新电动MINI COOPER上，需要加钱选配。</p>
+<p>smart找“水源”的方式，宝马MINI能不能借鉴？</p>
+<p class="image-wrapper"><img data-img-size-val="1024,683" src="https://img.36krcdn.com/hsossms/20241204/v2_c5b058ee2bb9447095e4cf1611e8c336@5091053_oswg136895oswg1024oswg683_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲ 2024年北京车展，宝马MINI展台。图 / 视觉中国</p>
+<p>前奥纬咨询董事合伙人张君毅告诉每人Auto，宝马MINI与smart之间存在不同的发展定位和策略。smart在吉利的主导下，更注重实用性和满足中国市场特定需求的设计，其智能化特性也更贴近国产车的标准，这主要得益于吉利的参与和设计。</p>
+<p>相比之下，宝马MINI则由宝马集团掌控发展方向，专注于保持其独特的产品定位。因此，宝马不会推出大型高端版的MINI车，以避免与自家品牌旗下其他产品重叠。</p>
+<p>另有业内人士对每人Auto表示，宝马MINI品牌有更浓厚的底蕴，它的打法就是保留油车时代的优势做电动化。况且，MINI高层觉得油车才是MINI的精髓。</p>
+<p>确实，在宝马体系中，MINI仍旧采用油电同行的战略。今年，宝马MINI发布了全新的电动产品以及全新的燃油版车型，官方曾表示过，“油电同价”策略的目的是将选择权交给消费者，并希望以此完成向全面电动化转型的顺利过渡。</p>
+<p>按照宝马MINI的规划，2025年将停止推出燃油车型，全面转向电动化。这意味着，在接下来的时间里，MINI不仅需要平衡短期销量增长与长期品牌价值维护之间的关系，还需要考虑如何将燃油版的优势继续延伸到电动车上，还需要确保其电动化转型的成功。</p>
+<p>（文中舒怡、王琪、周野、彭娜均为化名。）</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/WeErHEtM6hjlJ1hOKhXEMA" rel="noopener noreferrer nofollow" target="_blank">“每人Auto”</a>，作者：杨俏，编辑：田晏林，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064114293450113</guid><pubDate>Wed, 04 Dec 2024 16:16:00 +0800</pubDate></item><item><title>放弃百万年薪，前华为天才少年们投身AI创业热潮</title><link>https://36kr.com/p/3064116098852227</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>IT桔子最近在盘点各家大公司出来的AI创业者团队。今天写写华为系的AI创业者。</p>
+<p>不同于其他互联网大厂，华为本身的硬件科技基因更为深厚。而华为系创业者在人工智能领域的存在感似乎不强，不过在硬件领域还是比较突出的，比如A股上市公司、可穿戴设备研发厂商“华米科技”，其创始人CEO黄汪在1997年加入了华为，工作两年后回到了合肥，继续在硬件行业沉淀十多年后才创业做智能手环。</p>
+<p>从AI行业来看的话，AI+硬件的主要应用主要包括AI计算芯片、机器人、VR/AR眼镜等，这些也是华为系创业者的优势主攻方向。</p>
+<h2><strong>去年，华为系出了一家人工智能独角兽</strong></h2>
+<p>据IT桔子数据统计，由华为前员工创办/联合创办的人工智能创业公司共有52家，其中有<strong>华米科技、第四范式、UCloud优刻得</strong>共3家AI相关上市公司。</p>
+<p>据公开资料，优刻得CEO季昕华曾在华为工作过9年时间（2000-2009年），担任过华为安全产品线技术总监，后出任华为互联网业务部总裁助理兼CTO。戴文渊创立第四范式前，除了履职百度外，还曾在华为诺亚方舟实验室担任Principal Researcher。</p>
+<p>还有5家AI 独角兽公司创始人和华为颇有渊源，包括2023年的新晋机器人独角兽“<strong>智元机器人</strong>”和AI芯片独角兽“<strong>壁仞科技</strong>”、数据智能独角兽“<strong>滴普科技</strong>”、AI金融科技独角兽<strong>GEO集奥聚合</strong>、医疗AI影像独角兽“<strong>安翰科技</strong>”。</p>
+<p>智元机器人创始人<strong>彭志辉</strong>，本硕就读于电子科技大学，获生命科学与技术学士、信息与通信工程硕士学位，2018年研究生毕业后就职OPPO研究院任AI实验室算法工程师，2020年通过“华为天才少年”计划加入华为， 2022年底他离开华为创业。</p>
+<p>智元机器人成立不到一年已经推出了远征 A1人形机器人，并获得百度风投、经纬创投、高瓴等资本的追捧，估值迅速攀升到超10亿美元，且在今年还披露新的融资，投资方有中科创星、蓝驰创投等。</p>
+<p>壁仞科技前联合创始人<strong>焦国方</strong>，除了任职高通外，还曾担任过华为Future wei部门GPU技术首席科学家，负责过华为鸿蒙OS图形图像处理和UI系统框架。</p>
+<p>滴普科技创始人<strong>赵杰辉</strong>曾在阿里巴巴和华为工作过，时任阿里云企业业务事业部总经理，在此之前，他在华为连续工作了十一年，前十年负责数据通信研发，最后一年担任全球市场行销负责人。</p>
+<p>安翰光电创始人<strong>肖国华</strong>出身于电子通讯产业，曾任职于华为美国分公司，学习了华为的执行力。2008年开始在硅谷起步，尝试将通讯技术运用到医疗器械领域，后因美国人力成本太高而回国创业，做出了NaviCam磁控胶囊胃镜系统，吞咽胶囊后可自动拍摄的食道和十二指肠图片，辅助医学诊断，打开高端体检、胃镜检查市场。</p>
+<p>集奥聚合创始人<strong>崔晶晶</strong>，曾在华为担任高级管理职位，负责中东北非、欧洲等地区市场拓展与运营工作。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_2f28cfba1c8d4fa486028cd06b5351f9@000000_oswg213490oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>近两年，曾被华为选中的“天才少年”出来的创业者还有谁</strong></h2>
+<p>近两年还有哪些华为系AI创业者出现？</p>
+<p>尤为值得注意的是，华为天才少年班就已经走出了一部分创业者，IT桔子统计到的就有4位，包括前文提到的彭志辉在内。</p>
+<p>2019年，华为创始人<strong>任正非发起“天才少年”项目计划</strong>，旨在吸引全球顶尖人才，年龄要求在25岁至30岁之间。虽不限学历，但大部分入选者为名校应届博士毕业生，目前公开报道的“天才少年”就有近30位。这些天才少年通过参加为期一年的培训和实践后，年薪将可达到百万元人民币/年起步。</p>
+<p>据报道，<strong>李博杰</strong>曾任华为2012实验室中央软件院旗下实验室的副首席专家，负责高性能数据中心网络和系统，接触到华为深度学习框架mindspore，职级20（技术专家a级别）。2019年在中国科学技术大学与微软亚洲研究院的联合培养博士生项目中取得计算机博士学位，是华为首批“天才少年”。</p>
+<p>李博杰于2023年创立了<strong>Logenic AI</strong>，致力于构建多模态个性化助理、数字孪生等业务。</p>
+<p>清华大学计算机系博士毕业的<strong>季宇</strong>，也是“华为天才少年”，主攻体系结构、AI芯片方向。季宇曾是华为海思昇腾芯片编译器专家，负责多个昇腾编译器项目。</p>
+<p>2023年季宇任<strong>行云集成电路</strong>创始人，研发大模型推理芯片，今年9月，公司获得Pre-A轮数亿元融资。</p>
+<p><strong>王乃行</strong>曾是华为“天才少年”项目组成员，曾在华为从事AI算力芯片相关的研究工作。王乃行于2024年创办<strong>博思芯宇</strong>，提供基于AI的高性能芯片监测及优化服务方案，公司已经获得了天使融资，投资方包括启迪之星。</p>
+<p>此外，还有一些华为系AI创业者值得关注，比如<strong>万模智能</strong>创始人吴登松，曾担任华为AI计算框架高级工程师；</p>
+<p>史青帆毕业于西安交通大学少年班，曾先后就职于华为、百度、蔚来等大厂，2024年创业创立了“<strong>少年游</strong>”项目，专注人形机器人研发生产。</p>
+<p><strong>ARGOOZ/火离科技</strong>创始人高峻，创业前曾在华为工作18年，是华为终端业务的开创者，目前致力于通过AI 技术帮助企业降本增效、数字化、智能化转型。</p>
+<p>可以看到，华为系创业者总的来说还是属于低调的，即便在这几年大热的人工智能/AIGC领域，我们观察和认知的个案仍非常有限。</p>
+<p>具体到人工智能细分方向，华为系更侧重于在智能计算、芯片领域创业，它要求创业者有过硬的技术功底，同时，AI+硬件的研发成本和周期可能也远高于传统的软件。因此，从个人直观感觉来说的话，华为系创业者的整体风格呈现出来也是偏务实的。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_a8201f6d0342428d8f48fe2dc666d14a@000000_oswg287695oswg1080oswg898_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MjQ2NzA2Mg==&amp;mid=2649618016&amp;idx=1&amp;sn=181659444476d6c917b1843aabaf8e74&amp;chksm=bfa8c950ce621d5f9d968358ffbea21c9654757ec1a4ff69e9c383361813ed62dd12814cd72f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“IT桔子”（ID：itjuzi521）</a>，作者：吴梅梅，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064116098852227</guid><pubDate>Wed, 04 Dec 2024 16:19:00 +0800</pubDate></item><item><title>上海985母基金来了</title><link>https://36kr.com/p/3064165787575429</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>投资界-解码LP从现场获悉，12月3日，复旦科创母基金宣布超额完成5亿元首关目标，宣告正式成立；明年将完成二关目标，实现首期总规模10亿元。</p>
+<p>与此同时，旗下直投子基金——复旦科创投资基金正式启动，基金计划规模10亿元，将聚焦生命健康、集成电路、人工智能、新材料/新能源及未来产业，重点投资孵化国家“卡脖子”技术突破和科技前沿领域转化项目，优先支持复旦科技成果产业化项目和校友创新创业项目。</p>
+<p>至此，复旦科创版图徐徐拉开，高校基金在创投江湖的印迹也愈发深刻。</p>
+<h2><strong>复旦科创母基金成立</strong></h2>
+<h2><strong>首关5亿元</strong></h2>
+<p>正如复旦科创母基金董事长孙彭军所言，助力复旦大学高质量、高效率的科研成果转化和产业化，是复旦科创母基金的“根本使命”和“立身之本”。</p>
+<p>2023年12月3日，复旦科创母基金正式启动，由复旦大学联合地方政府、国企及市场化机构共同发起设立，<strong>基金落地徐汇滨江</strong>，首期规模预计10亿元，重点关注4+X（生命健康、集成电路、人工智能、新材料/新能源及未来产业）前沿创新领域，全力构筑科技成果转化“生态圈”。</p>
+<p>如今一年过去，投资界从首届复旦科技创新投资大会上获悉，2024年，复旦科创母基金已成功组建一支懂科学、高水平的专业基金管理团队，实现筹建期的高效运作。与此同时，卿云投资也于2024年9月完成中国基金业协会管理人登记。</p>
+<p>眼下募资难，复旦科创母基金无疑是一股难得活水。投资界现场获悉，孙彭军透露，<strong>复旦科创母基金将重点配置4类基金管理人</strong>——高校/研究院所设立的基金、与投资方向相符的高水平孵化器设立的基金、行业龙头企业、市场化知名投资机构。</p>
+<p>今年12月3日一周年之际，复旦科创母基金正式宣告成立，并超额实现5亿元的首关目标，首期基金合作子基金包括联想创投、上海国投未来公司、粤科母基金、中科创星、光速光合、礼来亚洲、新微资本、复健资本等。</p>
+<p>同一天，<strong>复旦科创投资基金也宣布正式启动，基金计划规模10亿元</strong>。与母基金不同，这是一个直投项目的投资基金，将聚焦生命健康、集成电路、人工智能、新材料/新能源及未来产业，重点投资孵化国家“卡脖子”技术突破和科技前沿领域转化项目，优先支持复旦科技成果产业化项目和校友创新创业项目。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,719" src="https://img.36krcdn.com/hsossms/20241204/v2_db6cabe3f47744e3874b5eed51d5eab8@5091053_oswg706483oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了母基金宣告正式成立之外，为了更好地发力科创领域，复旦还推出了一系列新举措，如F-LAB项目首期班授旗、科创联盟及大赛均宣告启动。其中，F-LAB项目即复旦科技成果转化创业赋能项目，是由复旦大学发起，由复旦科创母基金、复旦大学技术转移中心、复旦大学校友总会联合组织落实的科创赋能公益项目，致力于成为复旦大学科技成果转化和科创资源的整合平台。</p>
+<p>“我们要做的不是一个个案，而是带动一批人才和企业的参与，实现从点状到片状的扩展。”孙彭军期待，复旦科创母基金未来能打造出一批具有影响力的科创企业和企业家，共同推动科技成果的产业化。“期待10年、20年后，我们也能培养出马斯克那样的人物。”</p>
+<h2><strong>高校创投基金崛起</strong></h2>
+<p>放眼望去，创投圈活跃着一群复旦校友。</p>
+<p>群贤毕至，薪火相传。一级市场熟悉的上海科创集团傅红岩、云锋基金虞锋、光速光合宓群、德同资本邵俊、礼来亚洲陈飞、金沙江创投朱啸虎、中金资本单俊葆、红杉中国刘星等等都来自于复旦大学。从医疗健康到先进制造，从互联网科技到新能源新材料，他们的投资足迹遍布各个领域，不同程度地支持着母校科技成果转化，扶持校友创业。</p>
+<p>依托复旦科研成果和人脉资源，复旦创业军团蔚然成林。</p>
+<p>被称为“医学界的黄埔军校”，医疗圈的复旦系浮出水面：除了郭广昌和复星医药，毕业于复旦大学物理学系的薛敏创立了联影医疗、百济神州领导者之一的汪来毕业于复旦大学生命科学学院、百利天恒的创始人朱义毕业于复旦大学生命科学学院等等。今年还有跃赛生物、炎明生物、德昇济医药、韦翰斯生物、瑞凝生物等一大批复旦系医疗创业公司排队宣布融资。</p>
+<p>在半导体江湖，一直流传着“北清华、南复旦”的说法。早在1958年，被尊称为“中国半导体之母”的谢希德老校长，就在复旦大学创办了半导体物理专业，自此奠定了复旦微电子学科扎实的办学根基，经过几代复旦微电人的接续奋斗，复旦微电子学科一直在微电子和芯片领域闪闪发光，其科研成果也随之走出校门，汇成了浩浩汤汤的“复旦芯力量”。</p>
+<p>据“复旦科创”不完全统计，截止今年7月，由复旦校友担任董事长或总经理的科创板上市半导体企业至少有9家，分布在半导体产业链的各个细分领域中。此外复旦校友在半导体产业中的研发贡献、上市公司与复旦大学的产学研合作更是处处可见。</p>
+<p>如此一幕极其熟悉：当科技成果转化大潮席卷，越来越多中国高校投身于硬科技创投。</p>
+<p>印象深刻的是去年12月，“上海交大-大零号湾科技创新基金”（暂命名）正式启动，该基金由上海国资母基金与上海交通大学等各方共同出资，总规模10亿元，主要覆盖科创企业种子轮、天使轮、加速轮阶段的股权投资，支持交大科技成果转化和助力“大零号湾”高新技术企业聚集。</p>
+<p>彼时上海交大还透露，学校与另一个大型国有投资平台合作，组建聚焦学校科技成果转化设立的直投基金，总规模20亿元，已进入收官阶段，也即将正式启动。</p>
+<p>今年5月，香港科技大学宣布投放5亿港元成立“紅鸟创新创业基金”，并将吸纳市场投资伙伴，与港科大共同创立价值达20亿港元的风险投资基金，专门服务于港科大师生科技成果转化，巩固港科大作为创新企业摇篮的定位。</p>
+<p>如果把时间线拉得更长，国内已有包括清华大学、北京大学、浙江大学、武汉大学、西湖大学、南方科技大学、天津大学、中南大学等十多家高校设立股权投资基金。</p>
+<p>当科技成果转化大潮席卷，越来越多高校意识到，想要实现技术落地，创投的力量必不可少。一个个相继成立的高校科创基金便是最生动的注脚。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/qIQHcUArOetnI3uUyJTKQA" rel="noopener noreferrer nofollow" target="_blank">“解码LP”</a>，作者：周佳丽，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064165787575429</guid><pubDate>Wed, 04 Dec 2024 16:19:00 +0800</pubDate></item></channel></rss>
