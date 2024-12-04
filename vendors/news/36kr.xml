@@ -1,91 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 04 Dec 2024 13:30:25 +0800</lastBuildDate><pubDate>Wed, 04 Dec 2024 13:30:25 +0800</pubDate><item><title>Xe2来到独显，英特尔“战斗法师”显卡解析</title><link>https://36kr.com/p/3063277709173892</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>如今在显卡市场中，英特尔旗下的ARC A770可以说是一款极为独特的产品。一方面，它客观上有着4096SP、最高16GB显存的规格，同时售价普遍只有1500元左右。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_e33989b42a804612845800085732035f@000000_oswg28327oswg750oswg422_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但另外一方面，对于这款英特尔“旗舰独显”的看法，不同的用户也截然不同。有些人在它刚上市时就早早入手，然后对其早期的游戏兼容性和性能有些不满；但也有些用户指出，ARC A770的视频编码性能极其强悍，在部分专业领域的表现甚至超过了RTX4090。当然，还有一些“I卡”的持续使用者会表示，随着英特尔迄今为止已经发布的多达50多个驱动版本更新，ARC独显的实际游戏表现早已今非昔比。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_d78c246e0b4f4079be01f212016e213c@000000_oswg33282oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但不管怎么说，英特尔并没有放弃他们的独立显卡产品线。就在2024年12月3日，英特尔正式公布了他们的下一代独显，也就是此前传言中的ARC B系列。</p>
-<h2><strong>Xe2架构加持，“战斗法师”底层效率大涨</strong></h2>
-<p>如果之前有看过我们三易生活对于英特尔LunarLake“月湖”的解析内容《英特尔LunarLake架构解析：单核暴增、Xe2首秀》，可能还记得它最大的变化之一就是首次引入了全新的Xe2 GPU架构。此次的ARC B系列独显也同样是基于Xe2架构，两者在基础设计上的差异很小。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_329e7a8091aa41df9fab572415d242dc@000000_oswg55880oswg750oswg413_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这也就意味着，代号“战斗法师（Battlemage）”的ARC B系列独显，这次同样具备Xe2架构的那些标志性改进。比如，它将每个Xe核心里的矢量引擎、矩阵扩展引擎的数量都减少了一半，但同时将这些引擎的位宽全部翻倍，从而使得总体的处理性能反而实现了提升。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_7299e0aebe4a45f7a3dfe78cc01dbb92@000000_oswg36280oswg750oswg397_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>与此同时，Xe2架构还大幅增强了针对光线追踪、采样反馈、网格渲染等最新游戏图形技术的硬件架构设计。用英特尔方面的话来说，与前代的Xe架构相比，新设计在单个时钟周期下的光追性能达到了前代的1.6倍，采样反馈性能为前代2.7倍，网格渲染性能可达4倍以上。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_b5e5338d58c041a790d76bcffe729443@000000_oswg38529oswg750oswg393_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>看到这里，大家是不是觉得很眼熟？没错，英特尔方面显然也很明白，他们暂时还没有办法去与NVIDIA、AMD这种已经在独显市场打拼多年的对手，去比拼老API下的优化水平。</p>
-<p>所以从初代ARC独显开始，针对DX12、光追、Vulkan等最新的图形标准去尽可能地做针对设计，就一直是英特尔GPU的一大突出特征。比如在Xe2架构里，它甚至专门对DX12的“Excute Indirect”技术特性进行了硬件设计。这个新特性允许GPU不需要等待CPU指令，独立地进行高并发绘图操作。在某些特定场景，它甚至可以带来12倍以上的底层执行效率提升。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_8d19f0360b284743899238aa5ffcbd90@000000_oswg56069oswg750oswg395_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除此之外，Xe2架构还有一个很“时髦”的新特性，那就是它具备了比过去更大的缓存。具体来说，现在它的每个Xe核心具有256KB的L1缓存（前代为192KB），同时整张显卡的L2缓存也扩大了。如此一来，显卡对于显存带宽的需求将会进一步下降，而这自然就意味着新一代的ARC独显可以配备位宽、频率都更小的显存，实际上也就提高了性价比。</p>
-<h2><strong>超分、超帧、降延迟，XeSS2功能大扩展</strong></h2>
-<p>在此前的Xe架构上，英特尔方面带来了自己的“AI游戏超分”功能XeSS。与竞争对手的DLSS或FSR相比，XeSS的一大特征就是它既能在专门的AI硬件上运行（也就是带有XMX单元的显卡、比如ARC独显），还能使用GPU本身的浮点算力驱动（比如之前不带XMX单元的ARC核显）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_304c037680de472b87bc16fe969fe928@000000_oswg40851oswg750oswg398_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过由于Xe2架构这次无论在独显还是核显上都“标配”了XMX单元，所以新的XeSS2里的XeSS-SR超分，自然也就针对这一点做出了改变。现在它专注于运行在XMX单元上，从而更多地解放GPU本身的浮点性能用于画面绘制。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_f00e774b150d460ab38f785c4767231d@000000_oswg41744oswg750oswg417_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不仅如此，或许也因为XMX单元在新的架构中成为了“标配”，也促使英特尔如今更积极地深挖它的功能潜力。伴随着ARC B系列独显的发布，我们也迎来了两个全新的英特尔AI游戏优化功能、也就是XeSS-FG和XeLL。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_0da077f14ab84f4a8023878169eba7cd@000000_oswg33636oswg750oswg420_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>XeSS-FG其实很好理解，它就是英特尔版本的“帧生成”技术。根据官方透露的信息显示，XeSS-FG是借助AI算法来实现对游戏画面的光流推测和中间帧插帧处理。因此它并不像NVIDIA的帧生成那样，需要GPU内部有专门的硬件模块。而与AMD的类似技术相比，因为使用的是GPU内部的独立AI单元（而不占用GPU流处理器本身的算力），所以又会有更高的效率。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_817b5f6393bf40849e3e6d954c58aa69@000000_oswg33359oswg750oswg417_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>相比之下，XeLL则是英特尔版本的游戏低延迟功能。根据官方资料显示，它能够将游戏从输入到画面输出的延迟降低多达45%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_a038545fe2cc43e4a37f3d649e569965@000000_oswg35550oswg750oswg420_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而且在Xess2里，XeSS-SR（也就是AI超分）、XeSS-FG和XeLL可以同时开启，此时就能够实现游戏渲染负载的大幅降低、数倍的帧率提高，同时还能带来更低的操作延迟。很显然，对于追求“帧率为王”的游戏玩家来说，这也就意味着相当大的吸引力。</p>
-<h2><strong>首发两款中端产品，超低价格瞄准“钉子户”</strong></h2>
-<p>聊完了底层架构和功能层面的变化，接下来就该来看看实际的产品层面。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_a1d91521349847828d9517e59240184e@000000_oswg32775oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>根据此前的爆料信息，Xe2的独显产品线此次至少包括“BGM-G21”和“BGM-G31”两款核心。不过今天官方公布的ARC B580和ARC B570，都是基于“BGM-G21”这颗相对小的核心而来，所以真正的“大家伙”可能还得再等等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_4b73fa29cf3e41b5b12ee0772241127c@000000_oswg32931oswg750oswg399_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>具体来说，ARC B580拥有20组Xe核心，共计2560流处理器、160个纹理单元、80个光栅单元、20个光追核心，以及160个Tensor核心。它配备12GB的GDDR6显存，显存等效频率19000MHz、等效带宽456GB/s。</p>
-<p>定位相对较低的ARC B570则是18组Xe核心，因此是2304流处理器、144纹理单元、72个光栅单元、18个光追核心和144Tensor核心。它的显存频率与B580相同，不过位宽和容量缩减到160bit与10GB，显存带宽380GB/s。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_e874004f238f403980ce5c117fbcd23f@000000_oswg29700oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当然，作为英特尔的“惯例”，ARC B580这次也有公版（官方称之为“限量版”）产品，它的频率会比普通版本更高一点。不过从我们的经验来说，这个频率也就相当于各显卡厂商的“非公官超”水平，不会特别“过分”。但正如大家所见的那样，限量版更多的价值或许还是体现在其特别的包装设计，以及出自英特尔的极简造型上。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_ee026a4e13b1408ca8b1ec093f72a938@000000_oswg29721oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>没错，现在大家看到的，就是英特尔ARC B580显卡的官方“限量版”实物。可以看到，它采用了一个略带流线型的双风扇散热器设计，正面极其简洁。不过它的风扇换用了封闭式扇框的造型，这种设计理论上可以降低扇叶振动，并减少风扇边缘的“漏气”，从而提高散热效率。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_2c8863772759479fb08ea7440fdcb562@000000_oswg29988oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>显卡的背部则是硕大的开孔区域，从中可以看到密集的鳍片与热管。当然，也这意味着ARC B580与它的同级别竞争对手一样，都选择了“短PCB”的设计。从我们与英特尔方面的沟通中得知，他们认为这一代的ARC独显确实可以有SFF规格的产品，也就是用于那些“独显小主机”的单槽、甚至是半高形态产品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_ca0bd1fbbecb45818ca32ad8834f5fde@000000_oswg40550oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除此之外，限量版的ARC B580还有一个很有意思的地方，那就是它背板上的印刷乍看之下似乎是“颠倒”的。但实际上，这明显是为了迎合如今的侧透机箱而做的设计，只要将其装进机箱里从外侧观察，那么显卡“顶部”的LOGO和背板上的文字方向就都会“正过来”。不得不说，英特尔如今也开始注重旗下产品的颜值属性了，这还挺令人意外。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_592117e2673b4fa081dd752d4900b4b2@000000_oswg43295oswg750oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>有趣的是，根据英特尔方面的说法，ARC B580/B570这次的性能定位是“RTX4060或RX7600”级别，但其目标消费群体瞄准的却是那些至今还在使用GTX1060、GTX1660这些“老卡”的玩家。事实上，英特尔也专门提到了这些老显卡的“致命短板”，比如完全不支持光追、不支持游戏超分和插帧，以及对最新版DX12和Vulkan API支持不佳等等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_a2b73f80873140ae9e32bfa7a4dcddd8@000000_oswg52346oswg750oswg416_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不得不说，在看到ARC B580/B570仅219美元（约合人民币1594.87元）起的定价，以及远比前代更为丰富的首发显卡厂商名单，可以很明显感受到英特尔切入独显市场的决心。至于它们的实际表现是否足够给力，大家不妨耐心期待我们三易生活后续的首发评测。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649876299&amp;idx=1&amp;sn=c0f9b4f17c2cb4d19a40be37a445b7c9&amp;chksm=869454af25ee1b7108316148a68e4091b3dc8b10e2e366ee46ef48978d2deadb8e2db8f02ecc&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3063277709173892</guid><pubDate>Wed, 04 Dec 2024 12:07:00 +0800</pubDate></item><item><title>支付宝、微信余额纳入狭义货币，未来影响几何？</title><link>https://36kr.com/p/3063263262532743</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>今年4月以来，狭义货币增速连续六个月为负，9月录得-7.4%的历史低值。修订后的M1包括：流通中货币（M0）、单位活期存款、个人活期存款、非银行支付机构客户备付金</p>
-</blockquote>
-<p>个人活期存款和支付宝、财付通（微信支付）等非银支付机构客户备付金将被纳入M1（狭义货币）统计。</p>
-<p>12月2日，中国人民银行（下称“央行”）发布公告称，决定自统计2025年1月数据起，启用新修订的M1统计口径。修订后的M1包括：流通中货币（M0）、单位活期存款、个人活期存款、非银行支付机构客户备付金。</p>
-<p><strong>目前，个人活期存款和非银行支付机构客户备付金包含在M2（广义货币）中，尚未包含在M1中。</strong></p>
-<p>“M1的本质特征是直接可用于支付的金融工具，其统计口径会受到金融创新和监管变化的影响。”中金公司此前报告称，金融工具的创新可能会使得一些新的资产具备M1的特征，监管规定的改变也使得一些金融工具获得M1的特征。</p>
-<p>央行有关负责人表示，随着支付手段的快速发展，目前个人活期存款已具备转账支付功能，无需取现可随时用于支付，与单位活期存款流动性相同，应将其计入M1；而银行支付机构客户备付金，可以直接用于支付或交易，具有较强的流动性，也应纳入M1。</p>
-<p>这是1994年正式发布货币供应量统计以来，央行首次对M1统计口径进行较大修订。据华泰证券测算，此番统计口径修订预计令2024年10月M1规模从63.3万亿元增加至105.1万亿元，同比增速上升3.8个百分点至-2.3%。</p>
-<h2><strong>M1增速将上行，波动有望下降</strong></h2>
-<p>据央行有关负责人介绍，将于2025年1月数据起开始按修订后口径统计M1，预计将于2月上旬向社会公布。在首次公布的同时，还将公布2024年1月以来修订后的M1余额和增长速度数据。</p>
-<p>据华泰证券统计测算，截至2024年10月末，修订前统计口径的M1余额为63.3万亿元，个人活期存款余额为39.4万亿元，支付机构客户备付金余额为2.4万亿元。由此，按照修订后的统计口径，10月末M1余额将上调为105.1万亿元，同比增速将由此前的-6.1%调整为-2.3%。也就是说，统计口径调整将令2024年10月M1同比增速上升3.8个百分点。</p>
-<p>同时，由于个人活期存款规模相对稳定，华泰证券预计，口径调整后，M1同比增速的波动亦将下降，特别是春节效应对M1同比增速的影响明显消退。</p>
-<p>华泰证券认为，此前至少有三大因素导致M1增速受到扰动。</p>
-<p>一是今年4月以来的金融“挤水分”导致企业活期存款向理财、货基、债基等资管产品转移；二是地产销售伴随居民活期存款向企业活期存款的转移，地产销售增速变化导致M1增速波动；三是春节期间，企业发放奖金等导致企业活期存款向居民活期存款转移。随着统计口径修订，前述三大因素对M1增速的扰动将明显消退。</p>
-<p>2024年4月以来，M1增速连续六个月为负，9月录得-7.4%的历史低值。M1通常被视为衡量企业投资意愿的指标，其连续负增长引发各界关注。</p>
-<p><strong>对此，多位经济学家接受《财经》采访时曾表示，M1连续负增长显示有效需求不足，但也与现有统计口径存在一定遗漏有关。</strong></p>
-<p>中欧国际工商学院经济学与金融学教授盛松成此前接受《财经》专访时曾表示，M1这一指标的理论基础是：货币是商品交换的媒介和支付手段，也就是说随时可用于支付的货币应该归类到M1范畴。</p>
-<p>中国居民大量通过微信支付、支付宝等电子支付手段进行支付，其资金实质是个人活期存款或第三方支付机构的备付金，而这部分货币尚未被统计到M1中，存在一定的遗漏。</p>
-<p>在盛松成看来，修订后，指标会更完善，也符合实际流动性状况，能较准确地反映货币供应量与经济运行的关系。</p>
-<h2><strong>余额宝等货基尚未纳入统计</strong></h2>
-<p>中国货币供应量统计自建立以来，经历过四次较大程度修订：2001年6月，将证券公司客户保证金存款计入M2；2002年3月，将境内外资金融机构吸收的人民币存款分别计入不同层次的货币供应量；2011年10月，将非存款类金融机构存款和住房公积金中心存款纳入M2；2018年1月，非存款机构部门持有的货币市场基金被纳入M2。</p>
-<p><strong>根据央行货币政策执行报告，以上四次调整主要集中在M2，M1的统计口径基本没有大的变化。此番对M1统计口径进行较大修订是30年来首次。</strong></p>
-<p>30年前，银行卡尚未普及，个人动用银行活期存款通常需要先取现，个人活期存款很难直接用于支付，因此未纳入M1统计；支付宝等非银支付机构客户备付金指的是非银支付机构为办理客户委托的支付业务而实际收到的预收待付货币资金，对应着用户在非银支付工具上的余额，这类金融工具更是21世纪以后才逐渐出现并普及。</p>
-<p>近年来，随着银行卡普及和移动支付的发展，日常生活中现钞的使用越来越少，个人活期存款不再受制于存折，而是成为流动性极强的支付工具，能够形成即时消费能力，货币属性增强。而随着网络支付快速发展，支付宝、微信支付等非银支付机构备付金在日常支付中被广泛使用，具有与活期存款相同的货币属性。</p>
-<p>由此，在本次统计口径修订中，前述两部分资金被纳入M1统计。</p>
-<p><strong>值得注意的是，此前有不少观点认为，余额宝等货币市场基金，以及朝朝宝等理财产品，可直接用于购物支付，或随时提取用于支付，也可考虑纳入M1统计。</strong>“考虑到存款利率的下行、打击存款补息之后的资金转移，将此类产品纳入M1考量范围的必要性也是上升的。”前述中金公司报告称。</p>
-<p>对此，光大证券固收首席分析师张旭表示，部分理财产品和货币市场基金实时支取存在限额，将这部分资金全额纳入M1统计不一定十分准确。</p>
-<p>今年6月，央行行长潘功胜曾表示，中国M1统计口径是在30年前确立的，随着金融服务便利化、金融市场和移动支付等金融创新迅速发展，符合货币供应量特别是M1统计定义的金融产品范畴发生了重大演变，需要考虑对货币供应量的统计口径进行动态完善。</p>
-<p>“个人活期存款以及一些流动性很高甚至直接有支付功能的金融产品，从货币功能的角度看，需要研究纳入M1统计范围，更好反映货币供应的真实情况。”潘功胜表示。</p>
-<p>在近期发布的三季度货币政策执行报告中，央行以专栏形式再度预告了M1统计口径的调整。</p>
-<p>前述报告中提到，从国际经验看，主要发达经济体央行也会适时修订本国的货币供应量统计口径，更好服务于宏观金融分析和货币政策调控。如美联储先后调整货币供应量口径16次，2020年4月又进行了一次较大的修订，主要是由于监管规则修订减少了对美国储蓄存款账户的限制，将原在M2中但不纳入M1的储蓄存款，调整为也纳入M1统计。</p>
-<p>张旭表示，近年来，随着资管产品大发展，企业和个人可以很方便地买入和赎回银行理财、货币市场基金等产品，市场主体对活期存款的需求本身就在下降。这一定程度上会导致M1增速放缓。</p>
-<p>另一方面，以往央行货币政策的中间目标是社会融资规模和M2。未来随着现代中央银行制度的不断夯实，央行对数量目标的关注将逐渐淡化，重点转向调控价格目标。</p>
-<p>“央行对货币供应量统计口径的调整，总的来讲是为了让它越来越准确地反映实体经济运行情况。”张旭称。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkyMjY5MTQ1Nw==&amp;mid=2247623863&amp;idx=1&amp;sn=937b748e56141200fd94329a59177d94&amp;chksm=c093949ca56c30bf31d2ef8f167940e2046121c0c6317f28dc20018b2eec0abad6551d19bb51&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“财经五月花”（ID：Caijing-MayFlower）</a>，作者：唐郡，编辑：张威，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3063263262532743</guid><pubDate>Wed, 04 Dec 2024 12:08:00 +0800</pubDate></item><item><title>传始祖鸟“金主”欲买下Tasaki，盯上贵妇钱包？</title><link>https://36kr.com/p/3064022900745609</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 04 Dec 2024 14:00:26 +0800</lastBuildDate><pubDate>Wed, 04 Dec 2024 14:00:26 +0800</pubDate><item><title>传始祖鸟“金主”欲买下Tasaki，盯上贵妇钱包？</title><link>https://36kr.com/p/3064022900745609</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>今年夏天，电视剧《玫瑰的故事》爆火，刘亦菲饰演的黄亦玫成为最受欢迎的女性荧幕角色之一。在社交平台，黄亦玫同款精致穿搭风潮也没有缺席，出镜率相当高的日本珠宝品牌Tasaki也成为中国消费者的“心头好”。</p>
 <p>尽管Tasaki大部分款式售价超过万元，但因为购买Tasaki的中国消费者众多，该品牌也被戏称为去日本旅游必带的“土特产”之一。</p>
 <p>就在近日，这个深受中国消费者喜爱的日本高奢珠宝品牌，被明星资本盯上了。</p>
@@ -343,4 +257,42 @@
 <p>豪华品牌痛定思痛后的转型之作，虽然速度滞后于中国自主品牌，但整车技术与品牌积累深厚的BBA仍然值得忌惮。</p>
 <p>并且，2024年第三季度，奔驰的自由现金流为23.9亿欧元（约合180亿人民币），净流动资金高达287.3亿欧元（约合2.2千亿人民币）。拥有丰厚家底的外资豪华品牌，抗风险能力不容小觑。</p>
 <p>2025年，无论自主车企还是合资车企，其面临的市场竞争都将进一步加剧。整车厂面临新一轮产品战与技术战，价格战则将进一步传导至供应链，“内卷”将继续成为2025年的主基调。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062481196328322</guid><pubDate>Wed, 04 Dec 2024 13:15:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062481196328322</guid><pubDate>Wed, 04 Dec 2024 13:15:00 +0800</pubDate></item><item><title>36氪首发 | 专注企业级大模型落地，「识因智能」完成数千万元首轮融资</title><link>https://36kr.com/p/3062982772761984</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>作者 | 邓咏仪</p>
+<p>编辑 | 苏建勋</p>
+<p>36氪获悉，「识因智能」近期完成数千万元的首轮融资，由北京市石景山区现代创新产业发展基金有限公司领投。本轮融资后，公司估值已达约5亿元。</p>
+<p>识因智能是一家成立于2019年的人工智能初创公司，CEO王春辉曾任甲骨文日本和亚太地区技术副总裁，Google Brain 高级研究员，其核心团队也来自Google Brain、微软亚洲研究院，DeepMind等NLP领域的顶级团队。技术团队成员60%持有博士或硕士学位，项目0-1经验丰富，且在国内外知名期刊发表过多篇学术论文。</p>
+<p>识因智能的主要产品为企业级智能应用平台，专注于将AI落地到企业的生产环节中。</p>
+<p>CEO王春辉对36氪表示，从2019年成立以来，识因智能就专注于NLP（自然语言处理）、语音识别等关键技术的研发，在这轮生成式AI浪潮来临之前，识因智能就已经针对大模型进行了长时间的探索和落地尝试，包括智能客服、工业设备监听等场景应用。</p>
+<p>直到2023年年中，识因智能已经初步完成第一版大模型产品的研发，并于2024年1月完成国家备案。</p>
+<p>识因智能自研的“一叶轻舟”大模型，是一个在约5400亿参数基座上进行了精细化训练的大语言模型，具备语音、图像、视频等多模态、多任务等通用人工智能能力。</p>
+<p>从尺寸来看，当前“一叶轻舟”大模型拥有从0.7B到45B等多个规模的可商用模型，可以高效率地落地到企业应用的各个场景。</p>
+<p>王春辉认为，大模型领域经过近两年的飞速发展，如今已经到了找落地场景的关键阶段。但一旦进入到企业的核心环节，大模型幻觉等问题还是会增加落地的难度和不可控性。而识因智能当前的业务方向，也主要面向的To B市场，在业务落地上，识因智能更倾向于采取大模型和专业模型相结合的应用方式。</p>
+<p>从市场定位来看，当前识因智能已经推出了包括在智慧政务、智慧警务、智慧工业、智慧企业等场景的解决方案。</p>
+<p>以智慧城市领域的落地应用为例，在以往，对于公安、交通等执法场景，或者工业领域的生产场景，业务人员往往要面对海量的图像、音频、文本数据进行人工查看、复核。</p>
+<p>而在大模型能够走向应用落地之后，“一叶轻舟”的产品能够通过多模态能力，对已有的图像、视频等数据进行理解，并进行归纳总结，大大提升了业务效率。</p>
+<p>而面向企业、政府市场，识因智能2024年也推出了AI信创一体机的硬件产品，其中包括了算力、算法、模型层及多功能应用，能够做到开箱即用，并守护用户数据安全。</p>
+<p>而搭载了识因智能自研的“轻舟智算服务运行管控系统”后，在相同的模型条件下，系统能够节约一半的计算资源而不影响模型性能表现，并且将计算资源利用率从默认条件下的40%，提升至90%左右。</p>
+<p>当前，识因智能在政府、企业领域已经有多家客户，并且已产生稳定的商业化收入。</p>
+<p>至于未来规划，王春辉表示，2025年会是识因智能在市场化上提速的一年。本轮融资，也将主要用于加速公司在前沿技术方面的研发，并推动公司在更多领域的市场拓展和应用落地。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3062982772761984</guid><pubDate>Wed, 04 Dec 2024 13:46:00 +0800</pubDate></item><item><title>时隔7年，阿里再次牵手春晚</title><link>https://36kr.com/p/3063252889757061</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>春晚不仅仅是一个全民记忆的晚会，春晚中的品牌广告也是一部“经济史”。</p>
+</blockquote>
+<p>阿里巴巴再次成为央视春晚独家电商互动平台！</p>
+<p>据央视新闻12月2日报道，中央广播电视总台在京举办 2025 乙巳蛇年“大春晚季”版权文创与广告合作签约暨春晚吉祥物发布活动。总台总经理室与阿里巴巴签订总台 2025 乙巳蛇年《春节联欢晚会》独家电商互动平台合作项目。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_21c9fbfe201440e4beacca2b29aa43db@000000_oswg57035oswg1080oswg480_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>时隔7年，阿里开启了与央视春晚的再一次合作，据了解，这也是双方的第四次合作，其曾在2016年至2018年连续三年与央视春晚合作。2016年和2017年的春晚是与支付宝合作的，与支付宝的“集五福”活动结合在一起。到2018年春晚，与春晚合作的重任到了淘宝头上。</p>
+<p>铁打的春晚，流水的赞助商。从1984年春晚首次引入赞助商康巴丝钟表，到随后的古井贡酒、哈药六厂、美的集团，再到2015年至今，互联网大厂轮番登场。能与春晚合作的广告商，大多都有庞大的规模、极高的国民性，并且踩在风口正得势。春晚不仅仅是一个全民记忆的晚会，春晚中的品牌广告也是一部“经济史”。近些年的春晚也是电商行业高光时刻，2024年的京东、小红书；2022年的京东；2021 年的抖音、2020 年的快手，而今年是阿里巴巴。</p>
+<h2><strong>重大变革</strong></h2>
+<p>在公布和央视春晚合作的10天前，阿里宣布重大变革，公告寥寥几句，信息量巨大。</p>
+<p>11月21日，阿里 巴巴集团CEO吴泳铭发布全员邮件，宣布成立阿里电商事业群，任命蒋凡负责，向吴泳铭汇报。 据了解，新的电商事业群将全面整合淘宝天猫集团、国际数字商业集团以及1688、闲鱼等电商业务，形成覆盖国内外全产业链的业务集群。</p>
+<p>阿里电商国内业务，压力大，这或许是调来蒋凡的原因。阿里方面表示，此次成立新的电商事业群，是吴泳铭作为阿里集团CEO，面向未来在电商领域如何用好国内和国际两种资源形成发展合力做出的新思考和新行动。此举彰显阿里巴巴投资核心电商业务的决心，通过显著的协同效应，更好支持商家捕捉全球市场机遇，实现更大的增长。实际上，过去一年，淘宝天猫和海外电商已经逐步走向融合和打通。今年7月，淘宝推出“大服饰全球包邮计划”，带领服饰商家率先出海，并投入10亿元把中国香港打造成了包邮区。9月，淘宝还在马来西亚和新加坡推出了英文版。随着这一轮调整，阿里巴巴聚焦核心业务的发展思路更加清晰。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_83794bc5bded412b844022a82abf72df@000000_oswg113747oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>28岁实现财务自由、34岁成为淘宝天猫双料总裁、同年成为阿里最年轻合伙人，蒋凡的履历十分丰满。然而2020年，蒋凡卷入桃色风波，被阿里降职停职、取消合伙人身份。2022年蒋凡突然回归，被集团指派分管由速卖通、国际贸易（ICBU），以及Lazada等多家海外公司组成的“海外数字商业板块”。去年，他重新成为阿里合伙人，还以国际数字商业集团CEO的身份，出现在阿里财报电话会上。在吴泳铭管理淘天时，市场上一直有“蒋凡或将回归淘天”的讨论。</p>
+<h2><strong>春晚泼天流量</strong></h2>
+<p>蒋凡的业务实力确实很强。据阿里集团2024财年报告显示，阿里国际数字商业集团营收同比增长46%，同期淘天集团仅为5%。2024年我国消费市场仍处在缓慢复苏的进程之中。市场饱和以及价格竞争激烈等问题还在困扰着各大电商平台。高盛报告显示，2019年至2023年，淘天的市场份额，由66%降至45%。蒋凡的任务，帮助阿里电商稳固市场份额。11月15日晚，阿里巴巴集团发布2025财年Q2财报显示，淘天集团的收入为990亿元，同比增长1%。而且今年双11淘宝天猫GMV强劲增长，买家数量创历史新高，88VIP会员规模达到4600万。值得一提的是，起源于2015年的淘宝天猫双11晚会，今年并未举办。一位接近淘天内部的人士向“界面新闻”表示：这时候肯定要把钱花在刀刃上，补贴商家、消费者。相较之下，阿里赞助春晚的影响力或许会高于双11晚会。作为国内一年一度的娱乐盛事，春晚具有无可匹敌的曝光度和收视率。阿里巴巴作为 2025 年央视春晚独家电商互动平台，无疑将会收获巨大的流量红利。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241203/v2_921aa4ff4d544d15ae009b2b8dfee269@000000_oswg74972oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>据2018年阿里巴巴披露的数据，共有超过1亿户家庭在观看春晚的同时参与了手机淘宝的互动。这种实时的高峰流量导入与消费转化，对于电商平台来说极其珍贵。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg3Njg2NDYyNA==&amp;mid=2247537070&amp;idx=2&amp;sn=0aa82a39ce4ef94c53507c4311ccc99e&amp;chksm=ce73ad99666067c0621dc3a443100eed9abbda2862fd7abfbd5fa455a47d4eb01bf2cd18f498&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“科技新知”（ID：kejixinzhi）</a>，作者：林书，编辑：蕨影，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3063252889757061</guid><pubDate>Wed, 04 Dec 2024 13:56:00 +0800</pubDate></item></channel></rss>
