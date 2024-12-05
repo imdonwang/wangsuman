@@ -1,596 +1,412 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 05 Dec 2024 10:00:27 +0800</lastBuildDate><pubDate>Thu, 05 Dec 2024 10:00:27 +0800</pubDate><item><title>从比亚迪到吉利极氪，日本拆解中国车“上瘾”了</title><link>https://36kr.com/p/3065265888273798</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 05 Dec 2024 10:30:26 +0800</lastBuildDate><pubDate>Thu, 05 Dec 2024 10:30:26 +0800</pubDate><item><title>苹果为亚马逊背书：考虑用其芯片来训练模型</title><link>https://36kr.com/p/3065318251586694</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <blockquote>
-<p>现阶段，日本对中国电动车的关注点，逐渐从“低价低成本”，转移到关键零部件的核心竞争力。</p>
+<p>苹果正借助AWS的定制AI芯片提升其搜索等服务，并评估最新AI芯片用于预训练“苹果智能”模型的可行性。苹果在AWS Reinvent大会上透露使用亚马逊专有芯片，并表示其基础设施可靠稳定，满足全球客户需求。</p>
 </blockquote>
-<p>日本业界对中国电动车的关注，是从“国民神车”五菱宏光MINIEV开始的。</p>
-<p>追溯到2021年，日本NHK电视台就针对该车走红做了特别报道，名古屋大学的山本真义教授公开拆解了一辆宏光MINIEV，试图揭这款车热销背后的低成本秘密，包括媒体在内，总共一百多人围观了现场。</p>
-<p>此举引发了日本业界拆解中国车的热潮，伴随着中国军团在新能源和智能化赛道的领跑，越来越多的重磅车型被东瀛关注。日经BP 甚至将比亚迪海豹的拆解过程、结果编辑成文字和图片，汇编成书公开发售。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_af075eea4b754715bc360006dc9950b9@000000_oswg396892oswg754oswg398_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>日本业界对中国电动车的高度关注，最初正如拆解宏光MINIEV一样，目光主要聚焦在“成本控制”上。<strong>这是日本拆解中国电动车的第一阶段，他们想知道的是，这些全球热销的爆款电动车，终端价格颇具吸引力，究竟是如何做到“极致降本”的。</strong></p>
-<p><strong>到了第二阶段，东瀛日本的关注点，逐渐从“低价低成本”，转移到关键零部件的核心竞争力。</strong></p>
-<p>今年，日经XTECH与日经BP综合研究所拆解了极氪007，虽然这款车在日本知名度不算太高，还未进入日本市场，但业界人士一致认为，这是中国品牌首个全系标配一体式压铸后端铝车身的轿车产品，搭载了800V高压快充平台和4C电芯，以及英伟达英伟达双Orin-X芯片等——</p>
-<p>详细拆解该车型的核心零部件，可以窥见“吉利版雷克萨斯”的智能化和电动化技术优势。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_11f84ceec2c5436ba77ca8b582ccbfb2@000000_oswg69388oswg1080oswg783_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>极致降本的奥秘</strong></h2>
-<p>日本能率协会（JMA）是一家致力于研究和推广企业经营管理综合服务的社会团体，该机构2021年从中国进口了一辆宏光MINIEV的旗舰版车型（3.88万元人民币，折合69万日元），后来以拆解验证为目的，这款车被转移到名古屋大学山本真义教授领衔的电力电子研究室。</p>
-<p>山本真义教授团队拆解了宏光MINIEV，这款电动车虽然个头小，拆车结束后，才发现什么是“麻雀虽小，五脏俱全”，但更重要的是，他所在的研究室也发现了很多不为大众所知的“降本秘密”。</p>
-<p>通过对宏光MINIEV的拆解，山本真义发现该车型“简配”了大部分纯电动车型都搭载的基本装置，例如，省掉（制动）能量回收和水冷系统。通过部分零部件的间接“减配”，实现了成本维度的大幅度压缩，最低配版本的终端售价低至人民币2.88万元。</p>
-<p>制动能量回收系统能将车辆行驶时的热能转换成机械能，并将其存储在电池系统里，在需要时可迅速释放。该系统对于延长续航里程至关重要，但宏光MINIEV上却没有搭载这样的装置，因此，它能支持的最长续航里程仅为170公里。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_a0f2538de3ee41e58c9a073ddc5e5a92@000000_oswg79964oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另一个细节，是冷却系统。宏光MINIEV搭载的马达等零部件，其冷却系统并非水冷，而是采用了空冷。</p>
-<p>宏光MINIEV的逆变器寿命大概在8年、12万公里，而市面上大多数纯电动车的寿命大概在20年、20万公里左右。</p>
-<p>当然，还有另一个原因，即大规模使用现成的零件。宏光MINIEV作为核心零部件的核心轴承，并未采取专门设计，而是转用了符合性能的通用产品。</p>
-<p>搭载的逆变器等设备,虽然采用了来自德州仪器和英飞凌等国外领先制造商的半导体，然而，使用的却是为家用电器量身打造的产品，而不是耐久性更高的车载芯片。</p>
-<p>山本真义发现，宏光MINIEV采用的部分零部件虽容易发生故障，但制造商却选择了更为“讨巧”的设计理念，采取了整个模块更换的设计，发生故障后易于修理。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_a0f62d405364415c944f39e465ca046e@000000_oswg210245oswg1080oswg1685_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>今年，日本经济产业局的一次电动汽车研讨会上，更是有70家日本汽车零部件企业访问了拆解展示，共同探讨中国产电动汽车的车身结构和零部件等特点。</p>
-<p>被“拆解”展示的电动车，有比亚迪ATTO3（中国市场的元PLUS）、蔚来ET5等十余个中国车型，也有特斯拉Model Y等非中国电动车，累计涉及9万多个汽车零部件。</p>
-<p>此次研讨会，参会的制造商共同探讨了中国电动车为何能低成本生产，大家在对比亚迪ATTO3进行深度剖析后，得出一个结论，零部件通用化、核心部件自研与规模化生产是主要原因。</p>
-<p>来自三洋贸易的一位代表表示，中国制造商非常重视低成本生产，对品质的要求，也和日本公司有所不同。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_e302ee822d074be79336ca4531aa2da1@000000_oswg395109oswg635oswg525_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>日媒透露，大家在对比亚迪ATTO3进行深度剖析后，得出一个结论，零部件的整合是降本的利器重要利器。</p>
-<p>在电动驱动装置“E-Axle”里，除了马达、逆变器、减速器之外，比亚迪ATTO3还整合了车载充电器和直流电压转换器等共8个零部件。降本的同时，也降低了重量。</p>
-<p>此外，比亚迪ATTO3等车型还利用销量优势，通过大规模量产，压低了零部件成本。不过，也有部分设计不够完善，很多与会者认为，车载电池的防水性能还不够充分，有很大的进步空间。</p>
-<h2><strong>核心部件，技术为王</strong></h2>
-<p>“过去一段时间，日本业界对中国电动车的印象，还停留在宏光MINIEV等爆款车型上，很多观点认为，这一类车型受市场欢迎，更多是价格便宜，技术内核不一定过硬。”</p>
-<p>日本媒体报道，过去两年，中国自主打造的电动车开始走向国际，出口到海外多个国家市场。大家逐渐意识到，中国车企推出的电动化新车，不仅有价格优势，技术实力也逐渐领跑全球，特别是在智能化和新能源领域。</p>
-<p>“已经超过特斯拉的Gigacast。”</p>
-<p>“金砖电池闪着金光，不输比亚迪。”</p>
-<p>拆解完极氪007之后，日本业界感叹其技术之先进，索性复制此前拆解比亚迪海豹的套路，把拆解细节整理成书，对外公开发售。在他们看来，极氪007大量使用电动化前沿技术，售价仅为25万元人民币左右，很多日本专家直呼“不可思议”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_66eb11ca51df40d3a5d738e2e314410a@000000_oswg102550oswg1080oswg691_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>例如，一体式压铸车身。</p>
-<p>《日经BP》用了很长篇幅，详细介绍了拆解后的极氪007一体化压铸后端铝车身，这也是此次拆解策划的关注重点。</p>
-<p>日本专家团队的第一感受，是一体化压铸零部件“真的很大”，连接后备箱和电池组的后车身整个变为一体，取下轮胎，内侧也是通过一体化压铸制造的。与传统制造工艺相比，减少的81个零件和820 个焊接点，可以很好地抑制车身振动与噪音。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_7f12040b65be4a2b8b48427d0afb07a4@000000_oswg36568oswg800oswg583_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>再如，吉利自研的金砖电池。</p>
-<p>一年前，《日经BP》拆解比亚迪海豹后发现，最吸引眼球的是该公司的刀片电池，此次选择极氪007作为拆解对象，电池部分的细节依旧是日本专家最为关注的。</p>
-<p>团队通过与此前拆解过的比亚迪海豹、特斯拉 Model 3以及大众汽车ID.3等车型进行性能参数的比较，最后得出结论，在电池设计方面，极氪和比亚迪的技术和产品理念，现阶段确实是兼顾价格与性能的有效方案。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_5f6576f739494214a28e5ae33e05f5ff@000000_oswg25698oswg800oswg432_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>拆解车型之后，《日经BP》也对技术专家进行了调查和访谈，经过整理发现，吉利在新四化时代的超前部署，很多前沿技术的商业化落地，得益于专利层面隐藏的硬实力。</p>
-<p>今年9月，拆解团队使用专利信息搜索平台Patent Field，分析了中国吉利控股集团的相关专利，从2004年到2024年的20年期，根据IPC（国际专利分类），该集团旗下的专利数量直接凸显了过去几年迅速崛起的技术能力。</p>
-<p>其中，最近数年申请量逐渐增加的技术专利，大多是基本电气元件和三电相关的专利领域，从最新拆解的技术解读看，这些技术的商业化落地已经开始取得阶段性成果。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTY0Njc2MQ==&amp;mid=2659281846&amp;idx=3&amp;sn=873db926f9fc65a82f5fe3189c74ead1&amp;chksm=bce426597aa7e4f6d159e0a1451bb88ad671e9b2d3ea7dcdd942d1db93ef1d9df4d2e14ce3be&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“汽车公社”（ID：iAUTO2010）</a>，作者：菠萝蜜，责编：杨晶，编辑：何增荣，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065265888273798</guid><pubDate>Thu, 05 Dec 2024 09:35:00 +0800</pubDate></item><item><title>Nature重磅：8分钟预测15天全球天气，DeepMind AI击败全球最先进天气预报系统</title><link>https://36kr.com/p/3065258578716039</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>来自世界气象组织（WMO）的数据显示，<strong>在过去 50 年里，平均每天都会发生一场与天气、气候或水患有关的灾害，每天造成 115 人死亡、2.02 亿美元的经济损失。</strong></p>
-<p>因此，<strong>构建更准确的天气预报系统</strong>，将有助于挽救数百万人的生命，减少数万亿美元的经济损失，<strong>意义重大</strong>。</p>
-<p>然而，传统的天气预报依赖数值天气预报算法（NWP），计算复杂度高、模型构建耗时，难以快速生成预报结果。基于机器学习的天气预报（MLWP）在效率和单次预报准确性上虽有所突破，但在量化预报不确定性和处理复杂时空相关性方面表现不足，表现不及 NWP 集成预报系统。</p>
-<p>如今，<strong>由 Google DeepMind 研究团队开发的人工智能（AI）模型 GenCast，将天气预报的精度与效率带入了一个崭新的阶段</strong>——</p>
-<p>GenCast 能够在 8 分钟内生成一组随机的 15 天全球预报，时间步长为 12 小时，分辨率达 0.25°，覆盖超过 80 种地表和大气变量，在 97.2% 的评估指标（共计 1320 个指标）上都优于当前全球最好的中期预报——欧洲中期天气预报中心（ECMWF）的集合预报（ENS），而且具有更好的边际和联合预报分布。</p>
-<p>另外，GenCast 在预报极端天气（如高温、强风）、热带气旋路线和风能产量时，也更加有效。</p>
-<p>相关研究论文以“Probabilistic weather forecasting withmachine learning”为题，已发表在权威科学期刊 Nature 上。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_3d7507df6e62472f910a0d67adb7248b@000000_oswg115168oswg1080oswg339_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>GenCast：更快、更准预报未来天气</strong></h2>
-<p><strong>GenCast 是一个全新的概率天气预报模型，通过条件扩散模型（conditional diffusion model）生成一系列可能的天气场景</strong>。其核心能力在于建模未来天气状态的条件概率分布，即基于当前和之前的天气状态生成未来的预报。这一方式允许 GenCast 以更快的速度和更高的精度提供全球范围 15 天概率性天气预报。</p>
-<p>具体而言，<strong>GenCast 的架构包括编码器、处理器和解码器三大模块</strong>。编码器将初始天气状态映射到一个经过 6 次精细划分的球形网格上，处理器则通过图 transformer 在网格节点间捕捉复杂的时空相关性，而解码器则将结果重新映射回全球纬经度网格，生成最终的天气预报。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_a7c421662e944a61bc3f262546981d02@000000_oswg438760oswg1080oswg1181_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜GenCast 生成天气预报的示意图。</p>
-<p>此外，研究团队利用 ERA5 再分析数据对 GenCast 进行了训练，这一数据集包含 40 年间全球范围内的最佳天气估计分析结果，确保了模型的泛化能力和对历史天气模式的深度理解。</p>
-<p>为评估 GenCast 的实际性能，研究团队对其进行了基准测试，并将其与当前最先进的系统和模型进行对比。为确保公平对比，所有模型均基于 ERA5 数据进行初始化，并统一分辨率至 0.25°。</p>
-<p>在与其他系统对比的实验中，GenCast 生成的天气样本更接近实际观察值，预报分布覆盖了可能的多种情景，为用户提供了对潜在风险的更全面理解。例如，GenCast 在台风海贝思登陆日本前不久的预报非常清晰，在 1-15 天的预估时间内，其球谐功率谱与 ERA5 地面真实值非常接近。</p>
-<p>之后，<strong>研究团队评估了 GenCast 和 ENS 在极端天气预报方面的整体预报技能、校准和性能</strong>，即边际预报性能。边际预报作为对某一时间和地点的天气状况进行的具体预报，是日常天气服务的核心。</p>
-<p>GenCast 在这一领域展现了强大的性能优势。其生成的预报分布能够更精确地反映可能的天气情景，不仅在温度、风速和气压等变量的预报上与真实数据高度吻合，还能通过改进的概率校准有效量化预报的不确定性。</p>
-<p>具体研究显示，<strong>GenCast 在多个气象变量的边际分布预报中表现优于 ENS</strong>，在一个涵盖 1320 个评估目标的测试中，GenCast 在 97.2% 的情况下取得更高的技能得分（CRPS），特别是在短期预报（1 至 5 天）中效果显著。</p>
-<p>同时，<strong>GenCast 在预报高温、强风等极端天气时同样表现卓越</strong>。研究采用 Brier 技能得分和相对经济价值（REV）曲线衡量模型性能。结果显示，在预报高温（99.99% 分位点）和极端低温（0.01% 分位点）事件时，GenCast 的表现显著优于 ENS。</p>
-<p>此外，<strong>GenCast 的边际分布预报展现了良好的校准能力</strong>，这意味着它能够准确地识别预报中可能存在的错误或偏差，为用户提供更可靠的天气决策支持。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_1e029168bca640fbbfa93c3f5f2c711b@000000_oswg249050oswg1080oswg972_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜GenCast 的边际预报分布娴熟且校准良好。</p>
-<p>除了边际预报，GenCast 在联合预报方面也展现了令人瞩目的表现。联合预报关注天气变量间的空间和时间相关性，对于捕捉全局天气系统的动态特性至关重要。</p>
-<p>例如，在热带气旋轨迹预报方面，对热带气旋的路径预报不仅依赖单一变量，还需考虑多层次的大气相互作用。而 GenCast 能够生成具有时空一致性的天气样本，精准地捕捉这些复杂的相关性，从而生成精确预报。</p>
-<p>研究特别分析了 GenCast 在台风“海贝思”案例中的表现。台风轨迹预报显示，GenCast 的不确定性评估范围覆盖了更多可能的情景，其在轨迹位置预报上的误差显著低于 ENS。更重要的是，随着预报时间的缩短，GenCast 的不确定性范围逐步收敛，为决策者提供了更精确的着陆时间和地点信息。</p>
-<p>除此之外，在区域风能预报中，GenCast 将 10 米风速数据转化为风能输出，其预报精度较 ENS 提高了 20%，尤其在短时间尺度上，为可再生能源调度提供了新的可能性。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_c2105024ecc54c05a8d5f43934cf7ce6@000000_oswg86509oswg1080oswg256_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜GenCast 在区域风力和热带气旋预报方面优于 ENS。</p>
-<p>尽管 GenCast 在精度与效率上实现了双重突破，但仍有进一步优化空间。例如，提高分辨率以匹配未来升级的 ENS 系统，或者通过蒸馏技术降低计算成本。此外，结合操作性数据进行微调或融入更多传统 NWP 的初始条件处理方法，亦可显著提升其实用性。</p>
-<h2><strong>AI 如何重塑气候预报未来？</strong></h2>
-<p><strong>AI 作为“一个改善极端天气预报的更快、更便宜的替代方案”，一向在天气预报领域被寄予厚望</strong>，除了谷歌，包括华为、清华大学等在内的科技公司和高校在这一方向均取得了重大进展。</p>
-<p>2023 年 7 月，<strong>由华为云开发的盘古气象（Pangu-Weather）模型登上了 Nature</strong>，其使用 39 年的全球再分析天气数据作为训练数据，预报准确率与全球最好的数值天气预报系统 IFS 相当，且在相同的空间分辨率下比 IFS 快 10000 倍以上。 （点击查看详情）</p>
-<p>同期发表在 Nature 上的另一篇论文则介绍了<strong>NowcastNet</strong>，其出自机器学习领域泰斗、加州大学伯克利分校教授 Michael Jordan 和清华大学教授王建民领导的研究团队，该模型可以结合物理规律和深度学习，进行实时预报降水。NowcastNet 在临近预报方面表现出色，基于雷达观测数据，可以做到提前 3 小时对 2048 km × 2048 km 的区域进行高分辨降水预报。</p>
-<p>2023 年 11 月，<strong>Google DeepMind 推出了一款基于机器学习的天气预报模型——GraphCast</strong>，在全球 0.25° 的分辨率下，该模型可以在一分钟内预报未来 10 天的数百个天气变量，显著优于传统气象预报方法，同时在预报极端事件方面表现良好。相关研究论文已发表在权威科学期刊 Science 上。 （点击查看详情）</p>
-<p>2024 年 3 月，Google Research 洪水预报团队开发了一种 AI 模型，其利用 5680 个测量仪数据训练，可在 7 天内预报未测量流域的日径流。<strong>该模型在同日预报和 5 年一遇极端天气事件的预报中，表现优于当时领先的全球洪水预警系统 GloFAS。</strong>相关研究论文已发表在权威科学期刊 Nature 上。 （点击查看详情）</p>
-<p>2024 年 7 月，<strong>Google Research 团队及其合作者推出了一款天气预报和气候模拟模型 NeuralGCM</strong>，在 1-15 天短期天气预报中的准确率媲美 ECMWF 模型，并在气旋预报和轨迹模拟上表现优于现有模型。加入海平面温度后，该模型的 40 年气候预报结果与全球变暖趋势高度一致。且 NeuralGCM 可以在 30 秒计算时间内生成 22.8 天大气模拟。相关研究论文已发表在权威科学期刊 Nature 上。 （点击查看详情）</p>
-<p>相信在不久的将来，AI 驱动的天气预报将以更快的速度与更高的准确率在灾害预警、能源规划和气候适应等方面发挥更大的作用，为人类应对日益复杂的气候挑战提供更强大的工具。</p>
-<h3>论文链接</h3>
-<p>https://www.nature.com/articles/s41586-024-08252-9</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA==&amp;mid=2247594393&amp;idx=1&amp;sn=01afdd11174f47ef652fc8ec3effa00c&amp;chksm=cec93a5629de398efbd605053b888e7a5d6b282d2b70684a0593660946946d3077a4edaa898d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“学术头条”（ID：SciTouTiao）</a>，作者：阮文韵 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065258578716039</guid><pubDate>Thu, 05 Dec 2024 09:35:00 +0800</pubDate></item><item><title>房地产库存出清窗口期开启，重点城市去化压力缓解</title><link>https://36kr.com/p/3065291317962116</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>受政策利好推动，重点城市新房成交复苏，带动库存去化压力得以缓解。</p>
-<p>CRIC监测数据显示，11月重点30个城市成交面积创年内新高。受此带动，30城库存规模同环比齐降，有25城新建商品住宅消化周期环比缩短，六成城市消化周期缩短至18个月以内。</p>
-<p>从行业整体来看，房地产库存出清窗口期开启。国家统计局数据显示，商品房待售面积增幅连续5个月下降。</p>
-<p>目前行业仍处于去库存、供求平衡周期，随着库存总量减少、需求持续释放，预计供求关系将迎来进一步改善。</p>
-<h2><strong>01 11月重点30城库存面积同环比双降</strong></h2>
-<p>得益于供应放量+新政密集叠加，利好效应持续，11月新房成交面积创年内新高，30个重点城市整体成交1534万平方米，环比微增3%，同比增长20%。上海、深圳、青岛、郑州、南京、苏州、合肥等城市单月成交同环比齐增。</p>
-<p>受此影响，30个重点监测城市整体供求比由上月的0.46增至0.61，其中29城供求比均在1以下，只有无锡一城供求比为1.3。</p>
-<p>同时，11月重点30城库存面积总量同环比齐降。</p>
-<p>据CRIC监测数据显示，重点30城库存面积总量为22684万平方米，环比下降2.6%，同比下降6.0%。其中，成都、武汉和广州三城库存规模较高，均在1500万平方米以上。</p>
-<p>从库存涨跌情况来看，库存总量环比下降的城市有28个，西安环比持平，无锡库存规模环比增长1%。同比来看，有23个城市库存规模较去年同期下降，厦门、济南和嘉兴库存规模同比降幅均在两成以上。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,2437" src="https://img.36krcdn.com/hsossms/20241205/v2_cb5e577ec1bc44568c103360ef45dbbe@337187376_oswg286131oswg1080oswg2437_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>02 超八成城市库存消化周期缩短</strong></h2>
-<p>随着新房市场复苏，整体库存规模下降，重点城市库存消化周期也进一步缩短。</p>
-<p>CRIC监测的重点30城中，<strong>有25个城市消化周期环比下降，占比超过八成</strong>，这些城市库存消化周期降幅多在10%以内。</p>
-<p>其中，<strong>深圳、厦门等因短期成交稳增，去化周期同环比齐跌。</strong>具体来看，11月<strong>深圳</strong>去化周期为21.3个月，环比下降17%，同比大幅下降21%；<strong>厦门</strong>去化周期缩短至18个月以内，11月去化周期为16.7个月，同环比分别减少4%、12%。</p>
-<p>典型如深圳，今年9月以来，深圳利好政策不断，降低购房门槛、取消普宅标准调整税费政策、提高公积金贷款额度等，市场活跃度明显提升，11月深圳新房成交面积达到101.31万平方米，近年来单月成交面积首次突破百万平方米，环比增长79%，同比增长1.9倍。去化周期也从今年5月29.6个月高点缩短至21.3个月。</p>
-<p>此外，<strong>南京、合肥、郑州</strong>去化周期环比降幅也较为显著，环比降幅均在10%左右。</p>
-<p>同比来看，重点30城消化周期仅厦门和深圳有所缩短，其余28城同比均呈现上涨趋势。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,2598" src="https://img.36krcdn.com/hsossms/20241205/v2_e70408ebbf37403a9e28c12f963cb643@337187376_oswg308227oswg1080oswg2598_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从绝对量来看，目前已有<strong>12个城市消化周期缩短至18个月安全值以内</strong>，比上个月增加了4城。</p>
-<p>其中<strong>杭州</strong>商品住宅消化周期最短，只有8.8个月，杭州近一年整体库存消化周期都在10个月以内。此外，<strong>合肥、上海、成都</strong>等热点城市库存消化周期也都维持在18个月以内。</p>
-<p>除此之外，<strong>珠海、惠州、长春、无锡</strong>等6个城市消化周期在30个月以上，这些城市主要以成交低位徘徊的二三线城市为主，整体仍面临较大的去库存压力。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,996" src="https://img.36krcdn.com/hsossms/20241205/v2_5ab264899bf14202947210b5e5e42527@337187376_oswg86869oswg1080oswg996_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>03 结语</strong></h2>
-<p>‌“去库存”成为2024年房地产行业的重要任务。</p>
-<p>自4月政治局会议首次提出“统筹研究消化存量房产”，政策重点转向去库存，随后各项支持地方收购存量商品房用作保障房的支持政策出台，各城市收购存量房也进入了落地阶段。</p>
-<p>与此同时，需求端利好政策不断发布，市场信心进一步提振，新房成交复苏，市场出现止跌回稳信号，预计新房成交环比有望持续回升，重点城市去库存压力还将进一步缓解，而成交延续疲软的城市库存压力还将有增无减。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/lN1MCjsfT1QDUBVpX9XhWQ" rel="noopener noreferrer nofollow" target="_blank">“丁祖昱评楼市”</a>，作者：编辑部，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065291317962116</guid><pubDate>Thu, 05 Dec 2024 09:39:00 +0800</pubDate></item><item><title>「慢吞吞」的微信，「造流量」的抖音，「流量平权」的小红书，谁能真正驾驭未来的流量规则？</title><link>https://36kr.com/p/3065247576260102</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>微信在流量变现上始终不疾不徐，跟其他几大内容平台相比，一直被戏称为“慢吞吞”，从微信小店还在“店铺基建”阶段即可见一斑；抖音则是“造流量”的代表，依靠强大的“上瘾式”算法分发和制造流量机器；而小红书主打“流量平权”，试图让每个普通创作者都有“出圈”的机会，但在持续扩大的生态里，这一策略也成了双刃剑。</p>
-<p>当流量红利见顶，每个平台都在试图回答一个终极问题：如何创造新的增长点？微信在“慢”中赌的是用户的长期信任；抖音在“快”中赌的是无边界扩张的生态；而小红书在“平”中赌的，则是能否建立一个兼顾公平与效率的内容社区。这场“下注”的背后，是三大平台对流量、商业化和用户关系的不同理解，也是在新的增长焦虑下，平台各自的路径选择。</p>
-<h2><strong>慢吞吞的微信：信任的堡垒，效率的失落</strong></h2>
-<p>从上线之初到现在，微信的流量逻辑始终围绕着社交关系链展开，这种「慢吞吞」的机制无疑让微信在竞争中与众不同。相比抖音和小红书，微信的用户更多是「社交驱动型」的内容消费——用户更倾向于相信朋友、熟人的推荐，而非冷冰冰的算法。</p>
-<p>这种逻辑的好处显而易见：高质量内容能够通过社交网络自然扩散，增强用户的信任和粘性。尤其是在公众号生态中，优质原创内容作者更容易沉淀出忠实的粉丝。然而，「慢」的另一面是效率的不足：内容创作者想要迅速获得曝光非常困难，依赖社交关系链的传播速度相对较慢，且容易受限于圈层的封闭性。</p>
-<p>视频号的推出被视为微信试图打破这种「慢节奏」的突破口。通过结合推荐算法和社交关系链，视频号试图实现内容的更广泛分发。然而，视频号虽然引入了短视频赛道，却并未完全摆脱微信的基因束缚：用户依然更依赖于熟人圈的互动而非算法推荐，这导致视频号在某种程度上成为了朋友圈的延伸，而非与抖音、快手正面竞争的利器。</p>
-<p>尽管如此，微信的「慢」也有其不可替代的价值。相比短期流量爆发，微信更擅长沉淀长期信任资产，这种「社交关系+内容」的流量逻辑为品牌和创作者提供了深耕的空间，也使其在互联网的下半场保有自己的护城河。</p>
-<h2><strong>造流量的抖音：效率至上，价值留存的焦虑</strong></h2>
-<p>如果说微信的「慢」是一种有意为之的选择，那么抖音的「快」则是其算法驱动的必然结果。抖音以内容为核心，依靠冷启动算法为每个视频提供初始流量，通过点赞、评论等互动数据的反馈，决定内容是否可以进入更大的流量池。</p>
-<p>这种「中心化」分发机制让抖音成为流量制造的机器。一个普通用户上传的视频，在几个小时内就可能登上热门，获得数百万的播放量。对于广告主和品牌来说，这种爆发式的流量是最具吸引力的，但它也让抖音面临着流量的「无效性」和「短期性」问题。</p>
-<p>首先，抖音的流量逻辑以效率为导向，但忽视了内容的深度和用户的长期价值。大部分视频追求短时间内的爆款效应，而忽略了持续性。这导致平台内大量内容趋于娱乐化、碎片化，难以支撑用户的长期留存。</p>
-<p>其次，抖音的流量分配高度中心化，导致大部分流量集中在头部创作者手中，中小创作者的生存环境日益严峻。一方面，平台的流量池巨大但竞争激烈，许多普通创作者面临「流量枯竭」；另一方面，品牌过于依赖抖音投放广告，忽视了自己的独立渠道建设，长期来看可能损害品牌资产。</p>
-<p>抖音的优势在于它始终处于流量游戏的最前沿，但这种「快」能否持续，仍取决于平台是否能够平衡短期收益和长期生态的可持续性。</p>
-<h2><strong>流量平权的小红书：多样性和不确定性</strong></h2>
-<p>小红书是三者中最特殊的存在。与微信的「慢」和抖音的「快」相比，小红书试图在两者之间找到一个「流量平权」的解法——将流量更多分配给普通用户，而非集中于头部创作者。这种机制的核心，是让每个内容生产者都有机会被看到，而不依赖于其粉丝数量或账号级别。</p>
-<p>「流量平权」的优势在于降低了创作门槛。用户可以轻松记录日常生活，不用担心被「大号」抢走曝光机会。这种模式吸引了大量普通用户参与，也丰富了平台的内容生态。然而，当我们进一步审视「流量平权」时，却发现它并不是一个完美的解决方案。</p>
-<p>首先，流量平权的代价是内容质量的参差不齐。在小红书中，优质内容与低质量内容往往混杂在一起，用户需要付出更多时间筛选。这对品牌和商业合作带来了不小的挑战，许多品牌在小红书投放时发现，流量虽然分散，但实际转化效果难以预测。</p>
-<p>其次，「流量平权」也让小红书的推荐算法陷入矛盾。为了平衡公平性和效率，小红书需要在分发规则上做出妥协，这导致部分优质内容可能无法获得足够的流量，而低质量内容却可能因为用户互动数据的偏差而获得过多曝光。</p>
-<h2><strong>三种流量逻辑的碰撞</strong></h2>
-<p>微信、抖音、小红书的流量逻辑，实际上代表了互联网不同阶段的流量分配方式：微信的「慢」是一种基于信任关系的流量逻辑，强调长期价值，但效率较低；抖音的「快」是算法效率的极致体现，高效制造流量，但牺牲了生态的均衡；小红书的「平权」试图用去中心化的方式重构流量分配，但也面临着内容质量和商业转化的挑战。</p>
-<p>这种逻辑碰撞的背后，是互联网平台对于用户心智、创作者生态和商业化模式的不同理解。</p>
-<p>未来的流量竞争将不再是单纯的速度比拼，而是围绕「质量、效率、公平」三者之间的动态平衡。平台需要从流量思维转向价值思维，从单一维度的流量追逐，转变为对用户体验、内容生态和商业价值的全面优化。</p>
-<h2><strong>结语：慢与快之间，平与破之争</strong></h2>
-<p>在微信的慢节奏中，我们看到的是平台对用户关系和生态稳固的长期坚持；在抖音的极速造流中，隐藏着无限可能与随时崩塌的矛盾张力；而小红书的流量平权，则是一场理想主义与商业现实间的博弈。</p>
-<p>三大平台的“赌注”本质上是流量红利见顶时代的不同突围路径：微信在慢中寻求长远的护城河；抖音在快中追逐更大的商业版图；而小红书则在平中试图寻找新的增长逻辑。</p>
-<p>那么，微信的“慢吞吞”会否酿成下一个生态奇迹？抖音的“造流量”能否持续突破边界？小红书的“流量平权”又是否会成为它的护身符或桎梏？答案，也许正是数字时代每个用户、每个创作者和每个品牌所亲历的未来。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/zrkKDR2WLGp1aOlzpI0o3w" rel="noopener noreferrer nofollow" target="_blank">“极洞察”</a>，作者：JIinsight，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065247576260102</guid><pubDate>Thu, 05 Dec 2024 09:39:00 +0800</pubDate></item><item><title>2024年度日本零食大赏揭晓，来解锁今年日本最受欢迎零食</title><link>https://36kr.com/p/3065246075610500</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>近日，Mognavi公布了<strong>2024年度日本零食大赏</strong>。冰结、日清杯面、麒麟午后红茶和朝日可尔必思等多款在中国同样受欢迎的产品获奖。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_8290a7f31d6b43c6835bd74f56bc3815@000000_oswg167603oswg742oswg349_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Mognavi是日本的大型美食评论网站，被称为日本零食界的“大众点评”。Mognavi基于该网站成员发布的口碑信息进行评选，推出了日本零食大赏奖项，用以表彰受到消费者支持的年度产品。2024年度日本零食大赏以2023年11月1日至2024年10月31日75065条消费者评论为参考，经综合分析从551408个产品中选取了60个类别的180个获奖产品，获奖类别基本包含了预包装食品饮料所有品类。</p>
-<p>长期以来，日本不少食品饮料就受到中国消费者关注和喜爱，在中国社交平台也经常可见博主种草。比如在国内社交平台小红书上，#日本零食和#日本饮料话题分别有1.2亿和471.9万浏览量，有关日本零食必买推荐的笔记数量将近50万篇，而与日本食品相关的笔记更是高达230万+篇。</p>
-<p>本文选取了2024年度日本零食大赏综合类、名人堂以及细分品类中的部分特色产品，共46款获奖作品，结合产品信息和消费者评论对其进行了介绍。</p>
-<h2><strong>综合奖</strong></h2>
-<p><strong>1、PARM 杏仁ミルクストロベリー（PARM杏仁奶雪糕-草莓味）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_f7eae2e576a247439b0b084a8a6324dd@000000_oswg72184oswg320oswg144_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>PARM 杏仁ミルクストロベリー是一款融合了杏仁奶和草莓风味的雪糕，主要配料包括杏仁奶、草莓果酱和巧克力涂层，其中草莓果酱以大理石纹理形状分布在整根雪糕中，每根雪糕的热量为185大卡，适合喜欢植物基性奶制品的消费者。</p>
-<p><strong>2、ＭＯＷ　ほっこり紅はるか（MOW暖心红春香冰淇淋）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_6da8816f0fa44b2a8d7f1346f4eccf42@000000_oswg302856oswg603oswg536_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是MOW推出的一款冰淇淋，采用了来自九州的红春香红薯泥作为主要原料。红春香是一种糖分较高的红薯品种，以其甜美浓郁的口感而著称。这款冰淇淋的特色在于其松软的红春香口感与MOW品牌独特的牛奶味道相结合。</p>
-<p><strong>3、ひかえめに言ってクリーム多めのシュークリーム　北海道ソフト（北海道软奶油泡芙）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_8c67fcc77b9341619ba1ded5b2bb0af1@000000_oswg408328oswg639oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这款泡芙的特点是内含丰富的奶油馅料，但又不至于过量，泡芙外皮酥脆，有消费者评价说吃起来像软冰淇淋。</p>
-<h2><strong>入选“名人堂”</strong></h2>
-<p>“名人堂”奖项旨在表彰那些在年度“Mognavi最佳食品奖”中多次获得第一名，并且获得Mognavi用户坚定支持的产品。（排名不分先后）</p>
-<p><strong>1、日本ルナ　バニラヨーグルト（日本Luna香草酸奶）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_e9fe26a425354f988c6c71d47a4563d4@000000_oswg27535oswg240oswg180_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据悉，这款酸奶含有有助于促进消化和肠道健康的益生菌，脂肪含量低，高蛋白质，可搭配水果或甜点食用。</p>
-<p><strong>2、カゴメ野菜生活100 オリジナル（Kagome蔬菜生活100原味）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_ee715b8639d540ce8b5e0193f2e18565@000000_oswg548602oswg797oswg378_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是日本Kagome推出的一款100%纯天然蔬菜汁，不含人工添加剂、色素或防腐剂等，含有多种蔬菜的天然维生素和矿物质，不额外添加糖。多位Mognavi消费者评价喝这款产品是为了弥补水果蔬菜的不足。</p>
-<p><strong>3、敷島製パン たっぷりホイップあんぱん（Pasco 奶油豆沙面包）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_be75c5a5f9ea414b94684a53107ed0e3@000000_oswg531234oswg1024oswg413_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是一款豆沙馅面包，在豆沙上面，涂上了鲜奶油。这款面包推出了冬季限量版包装，和其他面包产品相比，冬季限量版额外增加了10%的鲜奶油。</p>
-<h2><strong>细分品类</strong></h2>
-<p><strong>1、最佳鸡尾酒·烧酒：麒麟冰结 盐荔枝味</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_8ed45c081c844fe9a0ec826f0b1022e4@000000_oswg367099oswg549oswg528_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>麒麟冰结是一款果汁气泡酒，果汁含量为1.9%。该产品选用夏季时令荔枝，融合了甜味和咸味来增加口感层次。</p>
-<p><strong>2、最佳无酒精饮料：朝日啤酒·零</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_784da6b9a3114f188da101df9ceef062@000000_oswg96012oswg180oswg340_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>“ZERO”原料为日本国产麦芽，通过 ブリューゼロ工艺实现了0%的酒精含量。据介绍，朝日这款啤酒是通过先酿造出啤酒再完全去除酒精制成的，保留了普通啤酒两倍以上的风味。</p>
-<p><strong>3、最佳啤酒：札幌拉格啤酒</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_34947b98b29449a685e20e3b9a6238f7@000000_oswg483941oswg477oswg823_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这款啤酒是由札幌啤酒的前身開拓使麦酒醸造所于1877年推出的，一直传承至今。其主要原料麦芽基本上来自德国、法国和丹麦等国家，日本国产麦芽占比低于5%。据介绍这款札幌拉格啤酒凭借其传统感和口感受到消费者喜爱。</p>
-<p><strong>4、最佳葡萄酒：三得利葡萄酒咖啡&lt;葡萄气泡酒&gt;（红）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_ace7f3e385ea4ab396e3246052e8f3e1@000000_oswg554809oswg433oswg825_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据介绍，三得利葡萄酒咖啡&lt;葡萄气泡酒&gt;（红）保留了红葡萄酒的浓郁口感，其包装采用了装满冰块和气泡酒的玻璃杯的插图，让人们更容易理解产品冰凉、清爽的特点，而瓶塞图标和金色渐变设计则突显了葡萄酒的高品质。</p>
-<p><strong>5、最佳杯装乌冬面/荞麦面：日清“赤鬼红生姜天”面</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_7c707495dbed45c9a6c0cd82902011dc@000000_oswg341362oswg706oswg307_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>以红色鬼怪为灵感的“红生姜天”面，保持了脆脆的口感，但通过增加红姜的量，增加了一点辣味和酸味。产品中附带的汤汁融合了鲣鱼和圆大豆酱油的口味。</p>
-<p><strong>6、最佳杯面：日清食品新加坡Laksa风味即食杯面</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_d8c743979c694da286d65b3da70af675@000000_oswg437521oswg532oswg626_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是一款将新加坡代表性菜肴“Laksa”以“即食杯面”方式重新构思的产品，产品以浓郁的椰奶为基础，调入香料的辛味，再通过特制的“Laksa酱料”，增添了柠檬草的新鲜风味。</p>
-<p><strong>7、最佳点心和配料点心：三幸製菓奶酪巴旦木</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_cc4e9f66a26c4aaf8a0847efd96a173d@000000_oswg555822oswg843oswg637_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是一款结合了奶酪和巴旦木的小吃，香脆的米饼配上淡味奶酪和无盐巴旦木，主要配料包括小麦粉、奶酪粉、巴旦木、植物油等，适合在茶歇时享用或作为零食。</p>
-<p><strong>8、最佳饼干：Tohato咸巧克力饼干</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_c55ecff4dcd3489086a5d768d6052e27@000000_oswg78224oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Tohato咸巧克力饼干将巧克力揉入面团中烘烤，结合了甜与咸的口味，巧克力风味在盐的作用下更加浓郁。网友评价其口感轻脆，风味独特。</p>
-<p><strong>9、最佳软糖：Bourbon Shalimoni酸奶味软糖</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_81c2f538d384492ca1641a525c01fb4f@000000_oswg599829oswg692oswg859_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这款酸奶味软糖中添加了双歧杆菌，表面包裹了砂糖晶体状的颗粒，主要配料包括葡萄糖、明胶、酸奶粉和糖等。网友评价其口感特别，整体口感柔软像棉花糖，但外层是松脆的，尝起来有浓郁的酸奶味。</p>
-<p><strong>10、最佳零食：Calbee红薯零食</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_158d7a50147b4af1a2c2ddd1860a53ce@000000_oswg657081oswg642oswg830_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>卡乐比这款小吃口感轻盈松软，具有红薯的甜味。面团是由蒸熟和烤熟的红薯揉成的，咸甜口味适中，外形酷似红薯叶。外包装的设计充满了季节感和温馨感，背景是色彩鲜艳的日式图案。</p>
-<p><strong>11、最佳米果：岩塚製菓味しらべ</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_e7edb33b6e2d403ea3d6c908d9a72be5@000000_oswg845502oswg1024oswg659_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是一款日式米饼，每片米饼表面均匀涂抹了酱料，带有醇厚的酱油风味，主要配料包括大米、酱油、糖等。网友普遍评价其口味咸香适中、口感酥脆，是一款值得反复回购的经典零食。</p>
-<p><strong>12、最佳巧克力：有楽製菓Black Thunder PREMIUM焦糖巧克力</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_05cb2c59af95434c9553da551ade4237@000000_oswg346963oswg756oswg346_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>它是一款焦糖风味的巧克力零食。外层是浓郁的巧克力，内里是黄油饼干搭配烤杏仁和焦糖口味的巧克力夹心，网友评价其带有焦糖的甜味和巧克力的苦味，甜、香、苦平衡得很好。</p>
-<p><strong>13、最佳薯片：Calbee厚切薯片淡盐味</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_f8a2132714de47219d31a3a6ebea9af7@000000_oswg823635oswg819oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>卡乐比厚切土豆片采用专为厚切土豆研制的 ”特殊调味料“，使用两种不同粒度的盐，细盐带来强烈的咸味，随后是隐藏的粗盐以及扇贝、海带和鲣鱼的风味。网友评价其口味清淡，可以品尝到土豆的原味，厚切更有饱腹感。</p>
-<p><strong>14、最佳糖果/焦糖：森永製菓胡子老爹泡芙奶油口味焦糖</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_6a331f3ee8ff473ca38edb38df1fde0b@000000_oswg646435oswg626oswg827_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是一款特别风味的焦糖，还原了带有香草味蛋奶冻和焦糖香气的奶油泡芙的风味，内部是独立包装的糖果。</p>
-<p><strong>15、最佳杯装甜品：andeico北海道芝士蛋糕</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_df98d75a108941f899e46e0e409f820a@000000_oswg67831oswg320oswg240_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>andeico北海道芝士蛋糕由两层不同质地的部分组成，顶部是舒芙蕾奶酪，底部是芝士蛋糕，网友评价其上层“像波浪一样蓬松”，下层质地较粘稠，入口即化。</p>
-<p><strong>16、最佳布丁：MEITO奶油草莓布丁</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_46a6c8087d5b4962b4b84c1a09d0c217@000000_oswg356774oswg555oswg531_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据品牌介绍，这款布丁经过反复试验，使其入口即化，口感顺滑，是一款限时产品。网友评价这款布丁非常柔软，几乎可以喝下去，有奶油草莓的味道，甜甜的，一点酸味也没有”。</p>
-<p><strong>17、最佳豆乳饮料：龟甲万巧克力薄荷豆乳饮料</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_41df5109b3584678a91081c269c577b1@000000_oswg284735oswg294oswg692_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据品牌介绍，这款豆乳饮料带有浓郁巧克力味和清爽薄荷香味，是2018年、2022年发售并好评如潮的“巧克力薄荷豆乳饮料”的限时回归。它可以直接喝，也可以将其转移到容器中加热，加入吉利丁粉，冷却后制成带有“摇摇晃晃”质地的“豆浆布丁”。</p>
-<p><strong>18、最佳奶酪：Megmilk雪印北海道100马斯卡彭奶酪</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_617c0ee7747f4a6187e0776b08978143@000000_oswg107655oswg261oswg241_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是一款以北海道乳制品为基础的马斯卡彭奶酪，每100g含蛋白质1.9g、脂肪26.2g、钙100mg。网友称其口感柔和，奶香浓郁，适合搭配面包或水果，也可用来制作提拉米苏等甜品。</p>
-<p><strong>19、最佳拿铁：森永乳业Mt.RAINIER奶油抹茶拿铁</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_098a31d0a0c14d57b126aa3fab503603@000000_oswg760408oswg1024oswg786_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据品牌介绍，“Mount Rainier”的“Creamy”系列是不含咖啡的拿铁系列，这款奶油抹茶拿铁采用100%宇治抹茶，网友评价其带有浓郁的奶味和微苦的味道，口感清爽不甜。</p>
-<p><strong>20、最佳纳豆：Mizkan Paki! Tosaure Niowanatto</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_ff74e6c3845f422a97659d103d27932c@000000_oswg834464oswg1024oswg843_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据品牌介绍，这款纳豆的气味很淡，因此早上出门前食用不必担心有异味。产品采用方便的包装，只需打开盖子并按扣即可倒入酱汁。采用非转基因大豆，每100g热量为178大卡，含有蛋白质5.5g、脂质9g。</p>
-<p><strong>21、最佳冷冻食品：伊藤ハム花园玛格丽塔比萨</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_14c9c080e7d34d5080864d38f491b806@000000_oswg116834oswg320oswg240_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是一款冷冻速食披萨，顶部覆盖番茄酱、马苏里拉奶酪和罗勒叶，主要配料包括小麦粉、马苏里拉奶酪、番茄酱、橄榄油等。网友普遍评价其披萨底脆而不硬，奶酪与番茄的搭配恰到好处，同时是一款性价比不错的披萨。</p>
-<p><strong>22、最佳茶饮料：贡茶黑糖乌龙奶茶</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_3de08fc645ed41c48c1e5d1b0ee84e37@000000_oswg382772oswg433oswg976_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>贡茶黑糖乌龙奶茶融合了中国福建乌龙茶的浓郁香气和黑糖的浓郁甜味，于7-11日本售卖，规格为400ml/瓶。</p>
-<p><strong>23、最佳咖啡饮料：森永乳业Mt.RAINIER拿铁咖啡融化白摩卡风味</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_d17e7758fa664d28b0e3bc69cfb9e0f8@000000_oswg491690oswg1024oswg413_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据品牌介绍，这款拿铁咖啡为采用浓缩咖啡和白巧克力制成的白摩卡，包装设计以插画为主题，描绘了被爱的温暖包裹着融化的场景，主题为“各种爱”，共有4款不同插画设计。</p>
-<p><strong>24、最佳巧克力：森永可可的力量CACAO 70</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_dce5843c244f40768f5713a48259d477@000000_oswg194460oswg410oswg410_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>可可的力量CACAO 70是一款可可含量为70%的固体饮料，也是一个机能性标示食品。该产品含有30mg可可多酚（以黄酮类化合物形式）和1.5g木质素，品牌称这些成分能够改善血液循环和支持肠道健康。</p>
-<p><strong>25、最佳果汁：三得利伊右卫门果汁饮料香る、果実</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_87fc94ca979a462685dea689419a67a2@000000_oswg252530oswg600oswg818_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>考虑到更好搭配味道和香气，该产品将苹果、白葡萄、柑橘、白桃、柚子五种水果与绿茶相结合，以白葡萄风味为主要风味，规格为525ml/瓶。</p>
-<p><strong>26、最佳健康与美容饮料：Glico格力高扁桃仁果效果无糖果饮</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_00e52c80feb342d0902e1f47dd544512@000000_oswg401537oswg637oswg630_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品是一款由冷冻碾碎的扁桃仁制成的植物奶，含有扁桃仁油和扁桃仁糊，不含胆固醇和牛奶，不添加蔗糖，含有维生素E、膳食纤维和钙，可室温保存（保质期230天）。</p>
-<p><strong>27、最佳健康支持饮料：明治SAVAS液体蛋白饮料0脂肪可可味</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_e74afd4574c84beb9835f2211ce84bdb@000000_oswg62676oswg400oswg400_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品是一种可可味脱脂蛋白质饮料，每瓶（200ml）含有15g蛋白质、476mg钙和维生素E、维生素B6、维生素D等维生素，且0脂肪，品牌称该产品适合在运动后饮用。</p>
-<p><strong>28、最佳茶饮：麒麟午后红茶Sparkling荔枝饮料</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_c3c23a739fd54793a758dcaf3496589d@000000_oswg114522oswg578oswg490_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这款饮料为夏季限定饮品，是一款不含果汁的、具有荔枝红茶风味的碳酸饮料，0脂肪。</p>
-<p><strong>29、最佳碳酸饮料：朝日可尔必思芦荟味</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_5ae15bc7ff2c445baf9627307b9e2b59@000000_oswg177659oswg804oswg669_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品是可尔必思上市50年来第一款使用芦荟提取物（芦荟肉）的碳酸乳饮料，品牌称其开发这款产品的目的是“缓解因冬季干燥而导致的喉咙发痒”。包装上采用了新鲜芦荟的大幅插画，并以绿色和白色为主色调，背面还印有50周年纪念标志，表明可尔必思上市50周年。</p>
-<p><strong>30、最佳乳酸菌饮料：朝日可尔必思水</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_737feb76dfb44f62ba3a49949b68a0af@000000_oswg336402oswg875oswg532_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>可尔必思是一种乳酸菌饮料，1919年正式发售。可尔必思是由日本产鲜奶经过脱脂处理，并添加乳酸菌发酵而成。</p>
-<p><strong>31、最佳健康支持食品：朝日1本满足谷物白巧克力棒</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_a0ee3f656a5c4bf5a359d0e8d3039592@000000_oswg274672oswg880oswg258_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品是一款谷物能量棒，表面覆盖有白巧克力的涂层，添加草莓、蓝莓、黑加仑、蔓越莓、葡萄干和芒果6种水果，含有膳食纤维、5种维生素，品牌称其能满足每日人体所需的三分之一的铁。</p>
-<p><strong>32、最佳麦片：卡乐比格兰诺拉麦片</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_69fe363cad2b4fa7b077d0ed35542e85@000000_oswg546928oswg492oswg741_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品采用非油炸烘烤生产工艺，使用燕麦、黑麦、糙米等谷物和草莓、苹果、葡萄干、木瓜等果干，含有膳食纤维、低聚糖、铁和8种维生素。</p>
-<p><strong>33、最佳香肠：伊藤火腿Grand Altbayern</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_ada6abce2ead46bcb1efb8e3fb0eaedd@000000_oswg917631oswg830oswg710_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品是一款猪肉肠，采用“熟成”技术，这种技术需要花费72小时，品牌称虽然可以使用耗时更短的生产工艺，但是为了保证产品品质，因此选择了72小时熟成的工艺。</p>
-<p><strong>34、最佳调味料：理研印度咖喱店的神秘调味料</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_cd0e0c20d22143f3a648d49f140de117@000000_oswg93033oswg124oswg414_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品是品牌以印度咖喱餐厅流行的调料为灵感制作，添加了洋葱、胡萝卜等大量的蔬菜，因此调味料中有蔬菜的甜味。</p>
-<p><strong>35、最佳意大利面酱：爱思必（S＆B）食品予約でいっぱいの店のボロネーゼ</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_f400060cb21d4375bf0abb9756b2e1e1@000000_oswg459246oswg501oswg640_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该款意大利面酱采用牛肉、番茄酱、洋葱、红酒、奶酪、蔬菜酱等配料制作，由东京银座意大利餐厅LA BETTOLA da Ochiai（这家餐厅以客满而闻名）的主厨监修。</p>
-<p><strong>36、最佳拌饭料：丸美屋软拌饭料小鱼山椒味</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_51ddf62bc34b40d893161cc2f96aa78d@000000_oswg612590oswg523oswg741_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品用酱油炖煮的软小鱼干，与大根菜搭配，并加入了辣味山椒。品牌称其增加了山椒的用量，并重新考量了调味料和食材的平衡，让消费者能更好品尝到山椒的味道。</p>
-<p><strong>37、最佳咖喱：好侍食品JAPAN MENU AWARD&lt;番茄香草炖菜咖喱&gt;</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_3e02a13dffd3411d9b62f0b27575d198@000000_oswg498459oswg480oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是一款以蔬菜为主的炖菜咖喱，特点是将牛骨高汤的浓郁风味渗透到蔬菜中，搭配以迷迭香为主的香草。</p>
-<p><strong>38、最佳甜品：Ask冷冻巧克力香蕉</strong></p>
-<p class="image-wrapper"><img data-img-size-val="438,529" src="https://img.36krcdn.com/hsossms/20241205/v2_e78329ce25374cd19a4fbd823f8716b8@1743780481_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>该产品为冷冻食品，香蕉表面覆盖有巧克力涂层。</p>
-<p><strong>39、最佳意大利面：ニップン オーマイ　オーマイプレミアム　海の幸のペスカトーレ</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_d4de8239fcc1490fa0887bc659a3fe78@000000_oswg435440oswg700oswg471_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品以成熟的意大利西红柿和虾、鱿鱼、蛤蜊三种海鲜为配料，产品自带可以加热的托盘，食用时可以直接加热，无需额外倒在盘子中。</p>
-<p><strong>40、最佳中华料理：日清中华干拌担担面大份</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_9acd80dd6bd14046bbb37b43f9976d85@000000_oswg630915oswg1024oswg393_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>该产品为冷冻速食面，内含担担面酱（芝麻酱）、面条和添加了花椒的辣椒包，食用时可以直接用微波炉加热。</p>
-<p>完整版获奖产品信息，请访问Mogunavi官方网站查看：https://mognavi.jp/bfa2024</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA3ODEzMjg5Mg==&amp;mid=2652840918&amp;idx=1&amp;sn=f2680b3e7ecbe277fb8f2e757e3bf082&amp;chksm=8559f155faabfd084734124e0e7ea1478c5b471a212dee443055fe8c0360d256cbc9f7316d42&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“FBIF食品饮料创新”（ID：FoodInnovation）</a>，作者：Sandy、薯薯、舟舟 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065246075610500</guid><pubDate>Thu, 05 Dec 2024 09:43:00 +0800</pubDate></item><item><title>机构：房企融资出现持续性回暖</title><link>https://36kr.com/p/3065298508916105</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>中指研究院监测，2024年11月房地产企业债券融资总额为482.7亿元，同比增长9.0%，上年低基数影响下连续三月为正，环比增长66.6%。行业债券融资平均利率为2.73%，同比下降0.85个百分点，环比下降0.25个百分点。 </p>
-<p class="image-wrapper"><img data-img-size-val="1015,459" src="https://img.36krcdn.com/hsossms/20241205/v2_568494d96bd646a3a67e940cec853f95@337187376_oswg101908oswg1015oswg459_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源： 中指数据CREIS</p>
-<h2><strong>01 融资结构：信用债发行量同比下降，ABS发行量同比显著增长</strong></h2>
-<p>从融资结构来看，11月，房地产行业信用债融资266.6亿元，同比下降14.4%，环比增长22.8%，占比55.2%；ABS融资216.2亿元，同比增长81.2%，环比增长197.2%，占比44.8%。 </p>
-<p class="image-wrapper"><img data-img-size-val="982,466" src="https://img.36krcdn.com/hsossms/20241205/v2_28520b636a824ab38c4fcadf29a68079@337187376_oswg80417oswg982oswg466_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源： 中指数据CREIS</p>
-<p>2024年1-11月，房地产行业债券融资总额4852.7亿元，同比下降24.0%，降幅较上月有所收窄。其中，信用债融资2994.6亿元，同比下降24.4%，占比61.7%；海外债发行金额67.0亿元，同比下降64.9%，占比1.4%；ABS融资1791.1亿元，同比下降19.8%，占比36.9%。 </p>
-<p class="image-wrapper"><img data-img-size-val="1021,469" src="https://img.36krcdn.com/hsossms/20241205/v2_bb092741e4ac4ae480f6fac92b942c12@337187376_oswg85712oswg1021oswg469_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源： 中指数据CREIS</p>
-<p>11月信用债发行总量同比下降，但民营房企发债规模显著增加。月内，共有5家民营和混合所有制房企完成信用债发行，分别为新城控股、绿城、美的置业、新希望、滨江集团，发行总金额46.3亿元，是2024年发行金额最高的月份。</p>
-<p>11月27日，新城控股完成发行2024年度第二期中期票据，发行规模15.6亿元，期限5年，票面利率3.50%，认购倍数1.97倍，发行期限较长。</p>
-<p>当前，信用债发行渠道仍向优质房企敞开，但总体受益企业数量相对有限。本月华润置地、中海地产等央国企依然积极发行信用债，发行总额分别为50亿元、30亿元。本月短期融资券占比较上月有所下降，带动信用债平均发行年限增加至3.89年。 </p>
-<p class="image-wrapper"><img data-img-size-val="1021,512" src="https://img.36krcdn.com/hsossms/20241205/v2_62d720f4b97448d8a7584337c018d86b@337187376_oswg121770oswg1021oswg512_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源： 中指数据CREIS</p>
-<p>ABS发行金额同环比均显著增加，发行规模为216.2亿元。其中，类REITs是发行规模最大的一类资产证券化产品，占比达53.4%；其次是供应链ABS，占比为29.1%；CMBS/CMBN占比17.5%。</p>
-<p>总体来看，本月ABS产品类型仍以有优质底层资产支持的类型为主，ABS渠道始终向手握优质持有型资产的企业开放。</p>
-<p>11月20日，中信证券-越秀商业持有型不动产资产支持专项计划完成发行，该项目是继建信住房租赁基金持有型不动产资产支持专项计划、华泰-中交路建清西大桥持有型不动产资产支持专项计划、安江高速持有型不动产资产支持专项计划之后，市场上第四单持有型不动产ABS，也是市场首单商业物业持有型不动产ABS。该项目标的物业为ICC环贸天地及地下停车场，项目发行规模14.13亿元。</p>
-<p>持有型不动产ABS底层资产类型不断扩容，也有助于持有优质资产的企业丰富融资渠道、盘活存量资产。 </p>
-<h2><strong>02 融资利率：债券融资利率同环比下降</strong></h2>
-<p>从融资利率来看，本月债券融资平均利率为2.73%，同比下降0.85个百分点，环比下降0.25个百分点。整体资金成本下行背景下房企融资综合平均利率持续降低。</p>
-<p>其中，信用债平均利率为2.78%，同比下降0.72个百分点，环比下降0.15个百分点；ABS平均利率为2.66%，同比下降0.92个百分点，环比下降0.47个百分点。 </p>
-<h2><strong>03 企业融资动态：华润发行额度最高，苏高新成本最低</strong></h2>
-<p>从典型房企债券发行来看，本月华润发行金额最高，达50亿元，苏高新平均融资利率2.09%，融资成本最低。 </p>
-<p>表：典型企业2024年11月债券发行统计</p>
-<p class="image-wrapper"><img data-img-size-val="962,422" src="https://img.36krcdn.com/hsossms/20241205/v2_a622e7e31d364c1b80c52d5414823d1f@337187376_oswg98877oswg962oswg422_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源： 中指数据CREIS，备注：规模单位为亿元，利率单位为% </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/3_LjgcjV5tK3cW9ufMFJIw" rel="noopener noreferrer nofollow" target="_blank">“中指研究院”</a>，作者：中指研究，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065298508916105</guid><pubDate>Thu, 05 Dec 2024 09:47:00 +0800</pubDate></item><item><title>“坑老人天价话费，我每天都想辞职”</title><link>https://36kr.com/p/3065226807403906</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>据报道，苹果目前正借助亚马逊云计算部门AWS的定制人工智能（AI）芯片来强化其搜索等服务，并将评估该公司最新的AI芯片是否可以用于预训练“苹果智能”（Apple intelligence）等模型。</p>
+<p>在亚马逊周二举行的年度AWS Reinvent大会上，苹果透露了其使用亚马逊专有芯片的情况。苹果机器学习与人工智能高级总监Benoit Dupin亲自上台阐述了苹果如何利用云服务实现技术升级。</p>
+<p><strong>苹果此番正面支持供应商，并允许其以此作为成功案例进行推广，实属罕见。</strong></p>
+<p>Dupin表示：<strong>“我们有着牢固的（合作）关系，（亚马逊所提供的）基础设施既可靠稳定，又能满足全球客户的广泛需求。”</strong></p>
+<p><strong>有分析称，苹果此番在亚马逊大会上高调亮相并接纳其芯片，无疑是对这家云服务行业巨头的有力支持，</strong>因为亚马逊正与微软Azure和谷歌云在人工智能领域展开激烈交锋。不过需要指出的是，苹果同时也在使用其他云服务提供商的服务。</p>
+<p><strong>Dupin表示，苹果十多年来一直在使用AWS来支持Siri、苹果地图及苹果音乐等服务。</strong>例如，苹果已经使用亚马逊的Interentia和Graviton芯片来优化搜索服务。Dupin表示，<strong>亚马逊的芯片使效率提高了40%。</strong></p>
+<p>与此同时，<strong>他还表示，苹果将使用亚马逊的Trainium2芯片对其专有模型进行预训练。</strong>这表明，相较于英特尔和AMD的x86架构CPU，亚马逊的芯片不仅在推理人工智能模型方面展现出了经济高效的优势，而且在开发全新的人工智能应用方面也颇具潜力。</p>
+<p>亚马逊周二宣布，其Trainium2芯片已全面开放租赁。</p>
+<p>Dupin表示：<strong>“在评估Trainium2的早期阶段，我们预计通过预训练可以将效率提高50%。”</strong></p>
+<p>AWS首席执行官Matt Garman周二在接受采访时表示，苹果一直是该公司Trainium芯片的早期采用者和beta测试者。</p>
+<p>他说，苹果主动寻求与AWS合作，并表示：“你们如何助力我们实现生成式人工智能能力？我们需要基础设施来构建这一愿景。<strong>苹果明确表达了构建‘苹果智能’的宏伟蓝图。</strong>”</p>
+<p>今年早些时候，苹果在一项研究报告中指出，它已利用谷歌云的TPU芯片来训练其iPhone上的人工智能服务，即“苹果智能”。</p>
+<p><strong>长久以来，人工智能训练主要依赖于价格高昂的英伟达图形处理器。</strong>然而，云服务提供商与初创企业正积极研发成本更低的替代方案，并探索可能实现更高效处理的新途径。<strong>苹果采用定制芯片的做法，或许在向其他企业传递一个信号：非英伟达的训练方案同样也能奏效。</strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/5mZuayRXGwdn784sEzdNMQ" rel="noopener noreferrer nofollow" target="_blank">“科创板日报”</a>，作者：黄君芝，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065318251586694</guid><pubDate>Thu, 05 Dec 2024 10:08:00 +0800</pubDate></item><item><title>50亿，成都诞生一家超级智算公司</title><link>https://36kr.com/p/3065317262107779</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <blockquote>
-<p>每个月话费越来越高，可能不是你的错觉。很多年轻人回家后发现自己爸妈的手机号被绑定了高价的套餐和莫名其妙的增值业务，每月话费甚至高达数百元。而深入了解后才会发现，每个被诱导定制高价套餐的用户背后，都有一个不得不“做数据”的运营商业务员。</p>
+<p>业内表示，从超级智算公司的经营范围与高达50亿元的注册资金本来看，或许是高新区或成都市在算力方面将有重要的布局和策略。</p>
 </blockquote>
-<p>“您这边是我们的优质客户，现在我们推出了××套餐，套餐金额不变，每个月多享受10G的流量，另外，网速也给您升级了……”</p>
-<p>这也许是你经常会接到的电话，电话那头的声音往往亲切温和，让人感觉优惠力度真的很大。一开始，很多人会答应升级，给出对方想要的验证码，确认升级成功。</p>
-<p>但这样的电话越来越频繁，直到最后很多人压根不清楚自己手机到底升级了多少套餐。明明每次升级都说是免费，但为什么后来话费越来越高了？</p>
-<p>如果说熟练使用手机的年轻人还相对容易识别出这样的“陷阱”，那么对于居住在小地方的老年人来说，他们的子女大多在外打工，在遇到这样的情况时，往往没有抵抗能力。在送流量、送鸡蛋、送老人机的轰炸中，他们的手机可能早已在无形中绑定了各种套餐和增值业务。</p>
-<p>今年国庆节过后，不少年轻人开始在网上发帖呼吁大家回家一定要查查父母的手机，处在农村、信息媒介素养不高的他们，往往是被各种互联网手机营销盯上的香饽饽。不少人回家查了下父母的手机话费才知道，原来老人家的手机绑定了十几个套餐和增值业务，每个月的话费高达几百元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_363541d6ec6a40ed8c923c70d1cd0724@000000_oswg167160oswg1080oswg1615_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">老人的话费为什么这么高？（图/小红书）</p>
-<p>这些只是营业员的个人行为吗？为什么运营商打来的电话越来越多？为什么我们的手机费用越来越高，而取消合约却总是那么困难？为此，我采访了多位来自运营商一线工作的前端和后端人员，和他们聊了聊日常工作的逻辑。我发现，他们几乎被卷进现代工作数字增长逻辑的悖论里。</p>
-<h2><strong>爸妈的天价话费，都是从哪来的</strong></h2>
-<p>今年国庆节回老家，小Y无意间听到妈妈抱怨每个月的话费太高。小Y先是在微信上查了妈妈的缴费记录，发现最多的一次竟然交了500多元。</p>
-<p>小Y马上登录掌上营业厅，那里显示妈妈的手机开通了十几个套餐和增值业务。</p>
-<p>其中包括50元宽带电视包、50元自选流量套餐包、全光组网、39元爱家畅享会员、千兆提速、室内安防、彩铃等，名目众多。小Y的母亲基本不识字，只会刷刷短视频，“这么多服务，一个农村60岁老太能用上吗？”母亲这才回忆起，最近去营业厅办理宽带，营业员说了优惠多少钱和返还多少话费，最后只需要在原来手机费用上加10元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_e4f077c0e47b487a8a62cf056cbb450c@000000_oswg376553oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小Y妈妈的话费账单。（图/小Y的小红书）</p>
-<p>但实际上几个月来，这个绑定着宽带的手机每个月都会交将近150元的费用。小Y拿着妈妈的手机拨打了运营商电话，希望关闭各种不需要的服务，被告知这些套餐和服务有一年、两年、三年的合约期，提前取消需要付各种违约金。她接着拨通了运营商的投诉电话，结果客服说这些服务都是老人确认过才能办理的。但明明妈妈当时什么也不知道，确认是怎么完成的呢？</p>
-<p>今年11月，小谢也听爸爸说最近话费突然变得很多，每个月高达200元。查了下话费，她大感震惊，她发现爸爸的手机账单包含多个名目的会员（大多是非常鸡肋的功能），但父亲平常用的是老人机，又怎么会用到这些功能呢？</p>
-<p>原来今年3月份，运营商的业务员先是打了电话告知父亲有个送手机的活动；上门的时候，又带来了一台老人机，只说是免费的。在一顿操作下，业务员“帮忙”下载了某银行的APP，接着又“免费”办了一张银行卡。</p>
-<p>最后，业务员说原本卡的套餐价格不变，还加了流量，让父亲在卡里预存了2000元话费，并承诺3年后会返还。</p>
-<p>小谢父亲本以为是“占了便宜”，没想到最后话费却莫名涨了几百。一开始小谢打了官方的投诉电话，客服人员说这个是业务员的个人行为，与官方无关。后来她又打了三四个投诉平台，最终是在工信部解决了问题。</p>
-<p>许多人在向运营商反映问题的时候，几乎都会被各种话术刁难——不能异地办理、合约期没到不能取消，违约金有的高达2000元，一般会吓退一些用户。</p>
-<p>在淘宝和闲鱼上，甚至出现了帮解约的产品，售价几十元就可以帮忙解约。而这些服务，也只是帮忙找到了工信部进行投诉。</p>
-<p>实际上，很多人只要没被触碰底线，并不想花时间投诉，最后总会不了了之。而有一些子女长期不在身边的老人，碰到这样的事情，往往也毫无办法。</p>
-<h2><strong>不知情定制</strong></h2>
-<p>阿虎对于这种莫名奇妙定制了很多套餐、话费越来越多的情况见怪不怪。他是北方某省份一家运营商的网格员（近年来几大运营商持续推行网格化运营，全国区域内有数十万计的销售、运维经理下沉至网格服务），类似于区域负责人。</p>
-<p>他说，前几天公司里才有个业务员给老人定制了三百多元的最低消费，但“老人家家庭条件很一般”。</p>
-<p>这种定制是怎么形成的呢？很多人反映只是接到了个电话，之后就被莫名其妙升级了套餐。阿虎说，现在他们所在地区的后台基本都做了外呼（向用户拨打电话）的“话术优化”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_e111212da23042dbbe994c3b6ea9bdad@000000_oswg51383oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">优化话术可以最高效给客户办下套餐。（图/pexels）</p>
-<p>比如一个业务员给用户打电话，大概讲了套餐情况之后，会诱导对方讲出“好”或者“可以”等，系统检测到就会自动默认是用户同意办理，所以这种情况下，业务员可以让压根不懂“验证码”的老人成功办理业务。再极端一点的情况下，他们甚至可以在后台直接调取用户的身份证进行办理。我向另外几个运营商工作人员求证这种情况，他们均表示后台其实什么都能操作，只不过现在出于监管，这种情况少了很多。</p>
-<p>打电话或者上门让用户升级套餐是阿虎最基础的工作之一，工作原则是“套餐只能升不能降”。每个时间段，运营商都会在系统里筛选出一些“用户清单”给到子公司，阿虎说，“比如这一批清单里，用户的消费在每个月80~90元之间”，他们会想办法找到突破点，以此设计话术。</p>
-<p>如果某个月用户用尽了流量或者语音通话时长，很快就会接到来自运营商的电话。阿虎说，现在很多人在手机刷短视频、看电视，很容易一不小心就用超流量。于是业务员会告诉用户，现在可以升级到一个流量更多的套餐，比如原先是八九十元的档位，升级之后就是一百元往上，但是他们会承诺套餐一年之内公司会有补贴，等于免费升级，还能多送流量和语音。接着再过一段时间，用户又会接到电话，这个套餐可能会顺势升级到下一个区间。</p>
-<p>他说：运营商承诺的低价一开始的确是真的，但是有一定的期限，过了这个期限就会开始收费，“这是业务员办理业务万变不离其宗的方法”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_3fd055c20ace4a0787c6a29d268af0c7@000000_oswg130533oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">营业厅门面上打着颇具吸引力的广告。（图/作者摄）</p>
-<p>现在在广东某运营商后端做支撑工作的小P说，公司的各种业务套餐名目繁多，有好大一张表格，各种业务功能重新组合，功能和权益几乎都有重合，极具迷惑性，有时候连她自己都搞不清楚。随着套餐和业务叠加越来越多，很多用户根本记不清自己订了什么套餐，以及什么时候到期。</p>
-<p>除了这种低价的承诺，有时候运营商还会以“免费送东西”为诱饵办理业务。阿虎说，这一招对老人尤其管用。但是每个赠送的东西都在背后标注了价格。比如送老人机，让用户以为白白得了一个手机，结果这个价格已经融在了话费里，每期分期，算下来这个价格可能比自己买一个手机还要贵许多，“用户是贪了小便宜吃了大亏”。</p>
-<p>更关键的问题在于，这些套餐并不会到期自动取消，到期后不仅会继续收费，还会恢复原价。但一般情况下，用户经常到了很久之后才会发现，甚至几乎没有察觉。</p>
-<p>这是一种很微妙的用户心理——很多人不看短信通知，一般只会在欠费的时候充值点钱，只要能打通了就不管了，对于每个月究竟交多少钱没有概念，尤其有些老年人连字都看不懂，所以几乎需要很久才会察觉。</p>
-<p>阿虎曾经向领导申请调一下流量用超的用户清单，并给他们打电话做10元或者20元的流量包，这对用户来说是一个划算的选择，超出的流量费用很贵。但是公司没有批准他的这个提议——怎么能给公司降收？</p>
-<p>而一旦有用户发现了套餐的问题，想要降档，就会遇到阻挠。阿虎说，“公司做升档特别快，一两分钟就能操作完成；一旦想要降档，对不起，要付违约金”，趁这时候，话务员甚至会推销给用户一个看似更划算的升级套餐，“（业务员）只能帮公司挣钱，不能给公司降低收入”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_4a5dadb4a777486ab5b89552f14feb73@000000_oswg663363oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">用户想解约往往会遇到百般阻挠。（图/《下一个素熙》）</p>
-<p>一位平常需要处理客户投诉的运营商工作人员凌玉也说，一旦涉及到取消或者降套餐，负责处理投诉的人只会把问题反馈到上一级，经过上级批准后才可以，“如果领导不松口，客服私自帮用户做了中断服务，自己的考核可能会不合格”“有些老人被忽悠得很可怜，客服也只能硬着头皮解释”。</p>
-<p>在日常工作中，一线工作人员的主观能动性其实很有限。最普遍的处境是，他们成了上级和用户之间的夹心饼干。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_49f8d29fef8e485a9fb8c82375cf98ef@000000_oswg80043oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">夹在公司和用户之间的工作人员。（图/《下一个素熙》）</p>
-<h2><strong>增长的悖论</strong></h2>
-<p>每天醒来，阿虎就感觉到指标又在追着自己跑。“各个指标都很棘手”，他举了个例子，最头大的任务之一就是推销FTTR。FTTR类似一个网络加强器，功能是可以让每个房间都覆盖网络。</p>
-<p>这个设备费用并不便宜。用户需要在每个月套餐的基础上额外付40元的费用，合约期3年。等于用户买这台设备需要花费1440元的费用，而且到期之后，每个月也需要持续付费20元。此外，在合约期内拆机，需要付价格不菲的违约金，而且安装也需要几百元的费用。</p>
-<p>但是和FTTR相同功能的设备，在淘宝上也可以百来块钱的价格购买到。从用户需求来看，这个产品几乎没有优势：一来费用太贵了，二来很多家庭用不到。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_d547fb4ab6dc42e78db32037da56e48a@000000_oswg163159oswg1080oswg1965_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">网上运营商工作人员的日常吐槽。（图/小红书）</p>
-<p>阿虎手头管理的几个人都有FTTR的指标，底下的人完不成，他只能硬着头皮去哄客户。这是他经常面临的一种道德困境，“我知道他家已经家徒四壁了，我还是要吃他这块肉，我还要昧着良心，告诉它这个东西有多好，你家特别需要。”</p>
-<p>作为运营商网格员，他的工作指标有很多项，比如新入网数、高价值权益、电视会员、彩铃……各种衡量工作的数字指标细化又繁琐，比如随销转化率（装维时候顺便推销）、降档率、万投比（当月投诉客户总量/当月收费客户总量×10000）等等。</p>
-<p>而这么多的指标，阿虎每个月要完成一半都很困难，只能任由绩效被扣。他说，这些年来，运营商的业务越来越卷。十几年前，运营商正在发展期，他们只有一个手机号码的业务；后来有宽带，他们的指标就变成了加宽带；再后来，移动互联网发展，手机上又要办高价值权益（收费高的业务）以及各种会员。现如今，运营商的业务再度扩展，开始卖起了血压仪、摄像头、台灯、体脂秤等产品，这些都会内化成每个运营商工作人员的KPI。</p>
-<p>在社交媒体上，许多运营商员工提到这些产品销售不出去之后，他们只能“绑架”亲朋好友来买；有些人不想坑亲戚朋友，只好自费购买，俗称“倒贴上班”。在有的公司，还需要卖一台叫作“云笔电”的产品，它的功能类似普通笔记本电脑，价格高达1888元，但性能很差，“开机需要5分钟，内存很小，随时会卡顿，连电影都看不了”，阿虎说，“它在市场上一点竞争力都没有”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_421ebe19a088467dbcd9db72ca3954d3@000000_oswg122321oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">二手平台上转卖的云笔电。（图/平台截图）</p>
-<p>为了催促大家完成指标，运营商子公司流行搞战训，阿虎的公司也不例外。所谓战训，就是每天晚上开复盘会，下发任务，完成了许诺多发钱，完不成就会扣钱。如果一整个季度都完不成，就会被亮红牌，最后会实行末位淘汰制。</p>
-<p>他说，这些激励并不是很大，而且业务也很难做。“号卡和宽带都饱和了，去哪儿做业务？”根据工信部的数据，截至2023年底，中国的移动电话用户规模达17.27亿户。也就是说，平均每个中国人，就拥有1.22部手机。</p>
-<p>凌玉是湖南省某运营商的渠道经理。提到复盘会，她说，在运营商上班的日常就是下班之后开会、培训。很少人能真的完成任务，所以每天都要在复盘的时候自我批评。有时候这样的复盘会会开到晚上11点，但是每天复盘的内容大同小异。公司会提前发通报，公布“蜗牛榜”，即业务落后的员工榜单。上了蜗牛榜的人需要接受领导“质询”，被思想教育。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_a1d71038f09044b9bf7a2a54944336fd@000000_oswg59441oswg860oswg498_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">运营商蜗牛榜名单。（图/网络截图）</p>
-<p>阿虎说，每次复盘会，其实都是说同样的话——为什么没达标？怎么达成？不完成就加班，领导就找你谈话，循环往复。</p>
-<h2><strong>数字游戏</strong></h2>
-<p>小P在广东某区县做后端支撑，主要工作是写材料做经营分析，具体而言就是写业务报告，根据上面的指标写计划，同时每天追着一线工作人员完成各种指标，一线的营业厅业务员能否完成这些指标，也算她的KPI。</p>
-<p>每天她的工作中很重要的一项就是自己核算指标完成情况。我问她考核的周期是怎么样的，是一周还是一个月。她说，“KPI恨不得每天一算”，而且需要手动核算，因为运营商后台没有联网的数据系统。而运营商产品多，规则复杂，且底下口径经常不一，数据来源很乱，每到要统计KPI，就要花去大半天的时间。之后她要输出报告，分析产品为什么卖得不好、计划是什么、目标是什么。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_51ed72f0a3114793ac663d7a05f594f5@000000_oswg67358oswg928oswg540_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">网上传出的运营商工作日报模板。（图/网络截图）</p>
-<p>她说，这就像分析“开在山沟沟里的小卖部为啥卖不出去商品”一样，答案昭然若揭，随着号卡、宽带的饱和，运营商的增长红利期已经过去。</p>
-<p>但是每年的增长目标又摆在那里。小P说，上层会给出各种KPI ，层层下放，真实情况是，“指标太高，正常人根本完成不了，最上面希望达到某个目标，但是怕基层达不到，就会把目标再往上定。这个指标层层下压，到最后可能会变成好几倍。”</p>
-<p>所以到了基层，为了完成任务只能“各显神通”。小P刚入职不到半年，就听说了运营商在一个小区里为了抢业务打架的事情。为了抢占友商的宽带市场，业务员要和物业“搞好关系”，送礼、请吃饭的事情很常见。</p>
-<p>2018年12月，工信部发布了《关于整治商务楼宇宽带垄断优化中小企业发展环境的通知》，要求基础电信企业等不得与房地产开发企业、物业管理公司等达成任何形式的排他性协议或约定。但是根据南方都市报2024年的暗访调查，发现部分开发商或物业公司仍然存在与代理商签订排他性协议，使得该区域宽带业务被代理商垄断的情况，还有些是开发商建设楼宇时标准执行不严，光纤铺设不到位，转而将宽带业务交给运营商，收取“入场费”。</p>
-<p>阿虎说，“公司只看结果，他把任务放给你，但不会考虑你怎么完成任务。”于是业务员学会了做“数字游戏”。</p>
-<p>业务员经常要下乡去摆摊，拉个横幅，送鸡蛋、送手机。这个时候，他们就可以再开通一个电话卡，同时绑定一个副卡，这样号卡数量就上去了。但是许多人这个卡基本不会用，于是这些卡号就变成了“沉默的号码”。</p>
-<p>现在到了年底，小虎的公司会出一个“出账用户”的清单。所谓出账用户，就是每个月正常通话或者跑流量的用户。但鉴于上述以送东西为名义办的卡用户基本都不用，所以他们会把“沉默清单”拉出来，一个个打电话，随便说两句，就算完成了“出账”的任务。</p>
-<p>有时候，他们会打电话告诉用户送10G流量， 每个月只需要交0.1元费用，这样就相当于用户又活跃了。</p>
-<p>还有许多办了宽带之后没再使用的用户，他们也需要悄悄把宽带激活，用已有的设备拨通宽带跑流量，给上级公司造成一种假象——用户在使用已有的设备。</p>
-<p>“做数据”的手段还有很多，比如利用“话费返销”的功能。这个功能本来用于用户交错话费之后可以申请退回话费，而业务员会利用这个功能偷偷给沉默的用户交话费，然后快速赎回，以增加“出账用户”的数量。</p>
-<p>阿虎说，“这就是一直保持增长的秘诀，全是一堆数据”，对公司经营来说没有意义，还浪费了资源。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_e9a8654aca8b4a2a93261a9ec3e76b3d@000000_oswg1068381oswg1080oswg1224_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据！数据！数据！（图/《下一个素熙》）</p>
-<p>小P 的日常工作里，包括做计划让一线员工去完成指标，但她也知道上面的指标很难完成，基层只能用非常糟糕的方法来完成，包括造假。她说，大公司往往流程很长，这些造假的漏洞“往往有回旋的余地，拆东墙补西墙，等发现的时候早已补上”，所以坏账也不会很明显。</p>
-<h2><strong>如此干到退休</strong></h2>
-<p>小P是今年通过校招进入南方某运营商公司的，原本她期待能进市公司，因为市公司待遇好，属于“甲方”，压力没那么大，但是她被分配到了区县，不久后，又被调到了另一个后端支撑岗位。她每天需要写材料，做运营分析，做售前售后工作，也需要做客服，什么都干一点。至于调岗，领导没有给出理由，因为“公司会调你到需要你的地方去”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_c4249db89d354e86867bbc2b01d7684f@000000_oswg589721oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">公司会调你到需要你的地方去。（图/《小公女》）</p>
-<p>在运营商公司内部，调岗非常普遍。但没人能给出一个具体的理由。</p>
-<p>小贝曾经是东北某县城公司的商企客户经理，但是她说自己干的就是客户经理的活儿，每天都是卖产品。有一段时间，她基本卖不出去FTTR，后来就被调到了一线当业务员。她形容自己几乎是倒贴上班，除了自费买产品，完不成业务也会有各种罚款。比如拆机没打申请扣50元、FTTR完不成扣400-500元、单位组织考试考不好扣100元……</p>
-<p>而完不成任务就得一直加班、被领导约谈，后来小贝已经被骂皮实了，干脆躺平。她说自己每个月到手工资一两千元，很多同事都是这样。在东北小县城，年轻人基本外出打工，剩下老年人，这些业务很难卖出。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_0536c98974164d83817bf7612f902322@000000_oswg688395oswg1080oswg447_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">北方的冬天。（图/《东北虎》）</p>
-<p>小贝说，每天睁开眼睛就想辞职，但在东北的小地方，自己这样的单位还是“香饽饽”，很多人想进来，毕竟是“铁饭碗”。</p>
-<p>阿虎也说，无论如何，这是一份稳定工作，没有大的问题，公司不会开除你，无非就是调岗调来调去，“躺得平平的，就无所谓了。”</p>
-<p>阿虎是80后，今年，得知距离退休的时间又变长了，他感到愈发痛苦，难以想象自己还要干这份工作二十多年。他说，家里人其实支持他躺平，保住工作就行，不用太拼，但是他内心里很难接受，“我不想成为这样的人，我还年轻，我才三十多岁，为什么要这样子？我不能干点有意义的事情吗？”</p>
-<p>吐完苦水，小P说，“现在的就业环境，起码运营商能发得出工资”。在刚过去的国考中，小P也去参加了，她一直在观望一个逃跑的机会。</p>
-<p>（文中人物名字均为化名）</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5ODMzMDMyMw==&amp;mid=2654774552&amp;idx=1&amp;sn=b6c233c3ab7920de0885d81f0f077b12&amp;chksm=bcda9f590774978c99265413cc06657b7e59e0c3ccb1b9603df5230db266f2b38f40d72da000&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“新周刊”（ID：new-weekly）</a>，作者：刘车仔，编辑：陆一鸣，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065226807403906</guid><pubDate>Thu, 05 Dec 2024 09:52:00 +0800</pubDate></item><item><title>“酱油大王”寒门逆袭的故事，剧终？</title><link>https://36kr.com/p/3065224293711622</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>四川省成都市在算力领域有了新动作。</p>
+<p>工商信息显示，成都超级智算科技有限公司（下称“超级智算公司”）近日成立，法定代表人为谭欣，注册资本高达50亿人民币。</p>
+<p>股权穿透显示，该公司由成都高新集萃科技有限公司（下称“高新集萃”）全资持股，而高新集萃是成都高新技术产业开发区财政局全资子公司。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,476" src="https://img.36krcdn.com/hsossms/20241205/v2_8657f2269c324f1a8c5d8b2f4f1686c0@1743780481_oswg233678oswg1080oswg476_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>值得一提的是，近期以来，成都市、四川省均频频出台有关算力发展新政策。在业内看来，超级智算公司的设立，或与区域性算力发展战略有密切关系。</p>
+<h2><strong>又一超级智算公司成立</strong></h2>
+<p>工商信息显示，超级智算公司经营范围含互联网数据服务、计算机及通讯设备租赁、信息咨询服务、数据处理和存储支持服务、<strong>人工智能公共数据平台</strong>、<strong>自有资金投资的资产管理服务</strong>、大数据服务、人工智能行业应用系统集成服务等。</p>
+<p>该公司控股股东高新集萃，原名为成都高投集萃置业有限公司，法人代表李荞伊，其对外投资了包括成都积体半导体有限责任公司、成都高新集成电路产业园有限公司、成都高新投资集团旗下产业投资平台策源资本、海光信息技术股份有限公司等总共9家企业。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,558" src="https://img.36krcdn.com/hsossms/20241205/v2_69151cfb53db4656b7caef0d3fd0e826@1743780481_oswg207345oswg1080oswg558_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>“从超级智算公司的经营范围与高达50亿元的注册资金本来看，或许是高新区或成都市在算力方面将有重要的布局和策略。”有成都人工智能领域企业负责人向《科创板日报》记者透露，“而且不排除进行智算领域产业投资，赋能产业链的可能性。”</p>
+<p>《科创板日报》记者注意到，在成都市范围内，与新设立的超级智算公司拥有相似背景、相似主业的公司，还包括智算云腾（成都）科技有限公司（下称“智算云腾”）、成都市智算云端大数据有限公司（下称“智算云端”）等。</p>
+<p>其中，智算云腾注册资本达22亿元人民币，成都市重大产业化项目一期股权投资基金有限公司、成都高新区电子信息产业发展有限公司分别持有该公司各50%股份，二者均为智算云腾控股股东。</p>
+<p>智算云端注册资本为8500万人民币，由成都电子信息产业功能区建设发展有限责任公司持有100%股权。</p>
+<p>智算云腾、智算云端则联合华为技术有限公司共同建设有成都智算中心——“东数西算”国家一体化大数据中心成渝枢纽节点的样板工程、西南地区最大的人工智能计算中心。</p>
+<h2><strong>发力算力基础设施建设</strong></h2>
+<p>值得一提的是，近期以来，成都市、四川省频频出台有关算力发展新政策，上线算力服务新平台，抢抓国家深入实施“东数西算”工程重大机遇。</p>
+<p>政策方面，今年11月14日，成都市在“解读市委十四届六次全会精神新闻发布会”上宣布，计划在2026年实现算力规模超3万P。</p>
+<p>11月21日，四川省发展和改革委员会等四部门印发《四川省算力基础设施高质量发展行动方案（2024—2027年）》（下称“《行动方案》”），为四川省算力基础设施发展定下具体目标。</p>
+<p>根据《行动方案》，到2027年，四川将构建一个布局合理、算网融合、算电协同、算用相长的全省算力一体化协同发展格局。</p>
+<p>届时，算力总规模将达到40EFLOPS，其中智能算力占比不低于60%，<strong>大规模智能计算中心数量将增至15个左右</strong>，数据中心平均PUE也将降低至1.3以下。</p>
+<p>“从国家‘东数西算’宏观战略规划层面看，整个四川拥有产业体系完备、工业基础雄厚、清洁能源禀赋突出、土地成本优势、科教资源和人才丰富等比较优势。”西南财经大学大数据研究院副教授李彪表示，“<strong>与其他节点相比，成渝节点是唯一一个算力需求与资源禀赋双重叠加的点位。</strong>”</p>
+<p>“与其他‘西算’节点相比，成渝节点有用户规模较大、应用需求强烈、底层基础较好、人才吸引力较强的特点，与‘东数’节点相比，又有水电资源丰富、土地成本较低、地理位置靠中西部等优势。因此，<strong>成渝节点能够适度承担‘东数西算’工程中承东启西的角色功能</strong>。”李彪称。</p>
+<h2><strong>算力服务赋能智能应用领域</strong></h2>
+<p>作为国家新一代公共算力开放创新平台，成都智算中心相关负责人在接受《科创板日报》记者采访时表示，“成都智算中心未来将积极推动人工智能产业国有化进程，并结合四川省内产业方向，规划多样化算力平台，构建超万P超大规模异构算力集群。”</p>
+<p>截至目前，成都智算中心已与近150家合作伙伴签署算力服务意向协议；与50余家科研机构和高校联合孵化多个科研创新模型；与120余家企业携手合作，在超大城市治理智能化、智能医疗、智能制造、智能金融、智能交通等场景形成有竞争力的人工智能解决方案240余个。</p>
+<p>“从产业链角度讲，地区算力总规模的不断扩大，对算力设备制造商、芯片研发企业、数据中心运营商等都提出了更高要求。”四川一家人工智能算力服务企业相关负责人向《科创板日报》记者表示。</p>
+<p>“例如，数据中心平均PUE的降低促使企业<strong>研发和应用更先进的制冷、供电等节能技术</strong>，业内目前也非常关注先进的数据中心液冷解决方案，从源头上降本增效，从而提高数据中心的算力服务质量。”上述负责人称。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/HqCc_RsCawZstHWRuVdU5g" rel="noopener noreferrer nofollow" target="_blank">“科创板日报”</a>，作者：黄修眉，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065317262107779</guid><pubDate>Thu, 05 Dec 2024 10:09:00 +0800</pubDate></item><item><title>8岁小女孩也能轻松编程，4名本科生打造编程“神器”，公司仅12人，年化收入达6500万美元</title><link>https://36kr.com/p/3065311157921155</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>特斯拉前AI和自动驾驶视觉总监、OpenAI创始成员Andrej Karpathy 2023年年初在X上发帖预言称，最热门的新编程语言是英语。现在，这几乎已经成为了现实。</p>
+<p class="image-wrapper"><img data-img-size-val="468,187" src="https://img.36krcdn.com/hsossms/20241205/v2_2ebf9ca508b446a180afd414181b80ae@1743780481_oswg17735oswg468oswg187_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：X</p>
+<p>就在上周，知名AI编程工具Cursor发布了一项更新，最新版本的Cursor通过能够独立浏览上下文和执行终端操作的AI代理实现了部分编码自动化。这一更新使Cursor能够响应错误信息，并自主决策解决问题。</p>
+<p>由于其强大的功能，有外媒直接将Cursor称为“革命性自然语言编程助手”。截至今年8月，Cursor的用户群体已超4万，就连AI“大神”Andrej Karpathy和谷歌开发者负责人Logan Kilpatrick也对这项编程工具赞不绝口。</p>
+<p>在X平台上，有用户展示了Cursor如何使用HTML、CSS和JavaScript创建一个完整的基于网络的秒表应用程序，包括启动网络服务器，执行所有这一切只需输入文本提示。</p>
+<p>有机构估计，到2024年11月，Cursor的年化经常性收入（ARR）已经达到6500万美元，较2023年的100万美元ARR增长6400%。</p>
+<p>随着Cursor的火爆，AI编程技术也在A股市场上获得资金青睐。本周以来，“AI编程+低代码（指无需编码或通过少量代码就可以快速生成应用程序的开发平台）”概念也成为A股热点板块，包括浩云科技、金现代、普元信息、新炬网络等在内的相关概念股均录得不错的涨幅。</p>
+<h2><strong>OpenAI支持、四名MIT本科生打造，AI编程“神器”估值达25亿美元</strong></h2>
+<p>Cursor是致力于打造高效人机交互系统的应用研究实验室Anysphere的首款产品。</p>
+<p>Anysphere由四名麻省理工学院（MIT）的本科生于2022年创立。据外媒报道，今年11月，Anysphere收到了来自Benchmark、Index Ventures和Andreessen Horowitz等的投资要约，估值高达25亿美元。这是Anysphere最近一轮融资时的估值（4亿美元）的6倍还多。</p>
+<p>今年8月，仅有12名员工的Anysphere在A轮融资中筹集到超6000万美元资金，主要投资者包括Andreessen Horowitz、Thrive Capital和Stripe的CEO Patrick Collison。上一轮融资则发生在2023年9月，彼时1100万美元的种子轮融资由OpenAI的创业基金OpenAI Startup Fund领投，投资额达800万美元，占该轮融资的72.7%。</p>
+<p class="image-wrapper"><img data-img-size-val="853,506" src="https://img.36krcdn.com/hsossms/20241205/v2_72db2f9e60a747bfa65ff173de9f07fb@1743780481_oswg694455oswg853oswg506_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Cursor官网截图</p>
+<p>随着最新融资的完成，Cursor的谷歌搜索量呈指数级增长。</p>
+<p>作为融合了强大AI功能的集成开发环境，Cursor是微软开源代码编辑器VS Code的一个分支，它一半是开发环境，一半是AI聊天机器人，将AI整合到了开发人员工作流程中的功能，与GitHub Copilot等工具不同的是，它可在几分钟内将一个简单的想法转化为功能代码。</p>
+<p>Cursor不仅可以自动用纯英文写代码，还能从代码库中获取最佳答案，或参考特定文件或文档，甚至还能预测下一次编辑。此外，开发者还可以使用指令编写代码。只需简单的提示词，即可更新整个类或函数。</p>
+<p>Anysphere创始人之一Aman Sanger表示，“当人们想到‘AI+代码’时，会首先想到AI驱动的自动编码，在这方面，GitHub Copilot等工具已经做得很好了。而Cursor主要专注在自动完成之后的功能，也就是查找、修复错误，以及代码库回答。”</p>
+<p>实际上，大模型在处理代码差异方面，有时表现不佳。Cursor使用了一种修改过的差异格式，以及基于微调Llama 70B模型预测后编辑，最终处理速度要比GPT-4o飙升4~5倍。</p>
+<h2><strong>AI“大神”点赞，Cursor让8岁孩子也能编程</strong></h2>
+<p>有外媒将Cursor称为“革命性自然语言编程助手”。</p>
+<p>问世以来，Cursor已经吸引了大量的新手程序员和经验丰富的工程师。截至今年8月，Cursor的用户群体已超4万，包括很多为Perplexity、Midjourney和OpenAI工作的人。</p>
+<p>AI“大神”Andrej Karpathy多次在推特上夸赞Cursor，称Cursor的体验已经碾压式地超过了GitHub Copilot。谷歌开发者负责人Logan Kilpatrick也被Cursor的强大能力惊呆。</p>
+<p class="image-wrapper"><img data-img-size-val="540,467" src="https://img.36krcdn.com/hsossms/20241205/v2_bd450b2b7a4745be8092e74fe8132c96@1743780481_oswg58550oswg540oswg467_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：X</p>
+<p>不少资深程序员也在X上对Cursor的用户体验给予了非常高的评价。例如，Cloudflare开发关系和社区副总裁Ricky就称，“在AI的帮助下，一个8岁的孩子能在45分钟内做出什么？我的女儿一直在学习使用Cursor写代码，这让她大开眼界。”</p>
+<p class="image-wrapper"><img data-img-size-val="541,516" src="https://img.36krcdn.com/hsossms/20241205/v2_f6887a77176a44c2abb45dbef4b882d7@1743780481_oswg109529oswg541oswg516_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：X</p>
+<p>还有用户直接称，“Cursor就是编码领域的ChatGPT。”他表示，“这4个人（指Cursor的四位联合创始人）彻底颠覆了编程技术。现在，任何人都可以使用 Cursor进行编码。”</p>
+<p class="image-wrapper"><img data-img-size-val="543,559" src="https://img.36krcdn.com/hsossms/20241205/v2_95d4014f2ae544cdbd100a632308f39a@1743780481_oswg279367oswg543oswg559_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>据另一名用户，在Cursor中，他只需一个提示就能生成一个功能齐全的后台，只需不到2分钟就能生成一个正常工作的数据库。</p>
+<p class="image-wrapper"><img data-img-size-val="531,609" src="https://img.36krcdn.com/hsossms/20241205/v2_7ceee6869a394b88a19d30fc43484987@1743780481_oswg61314oswg531oswg609_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：X</p>
+<p>而在YouTube上，有博主称，他用Cursor AI编程开发的App，登上了Appstore（付费）排行榜第一。</p>
+<p class="image-wrapper"><img data-img-size-val="590,446" src="https://img.36krcdn.com/hsossms/20241205/v2_7e9f823b6a424869b9b49f958806f016@1743780481_oswg212142oswg590oswg446_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：YouTube</p>
+<h2><strong>Cursor年化收入增至6500万美元，较2023年增长6400%</strong></h2>
+<p>虽然表面上看去Cursor仅仅只是一个“写代码”的工具，比如要求它构建一个应用程序，但这已经是人们在Claude或ChatGPT中可以完成的事情。然而，Cursor强大的功能来自于它与代码编辑器的集成，以及快速更改或解决问题的能力。</p>
+<p class="image-wrapper"><img data-img-size-val="779,589" src="https://img.36krcdn.com/hsossms/20241205/v2_433b7bccc1604e52a32f6b91b6a1283a@1743780481_oswg90121oswg779oswg589_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Cursor官网截图</p>
+<p>Anysphere CEO Michael Truell将Cursor描述为“面向程序员的谷歌文档”，一个内置AIO模型的简单代码编辑器，只需使用文本提示符就可以编写、预测和操作代码。在接受《福布斯》采访时，Truell表示，他们的目标是让Cursor自动化95%的工程师工作，这样他们就可以专注于编码的创造性方面。这将允许单个工程师“构建比现在强大的团队所能构建的复杂得多的系统”。</p>
+<p>据美国科技媒体Techcrunch报道，Anysphere希望在Cursor的开发路线图上实现许多功能。未来，他们的计划是让Cursor能够跨文件和整个文件夹进行更复杂的编辑，提高查找代码的能力，并从文档中学习新的库。同时，Truell称Anysphere的受欢迎程度正在缓慢增长，平台上有成千上万的人，付费客户群也在“快速增长”。</p>
+<p>据私募、天使投资和二级投资研究平台Sacra估计，Cursor在2024年11月的年化经常性收入（ARR）已经达到6500万美元，较2023年的100万美元ARR增长6400%。</p>
+<p class="image-wrapper"><img data-img-size-val="1014,850" src="https://img.36krcdn.com/hsossms/20241205/v2_f0c76173a7164adb87762d23162ecf95@1743780481_oswg144418oswg1014oswg850_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片来源：Sacra</p>
+<p>Truell还指出，“AI编码领域的天花板是如此之高，要做的事可太多了。你不可能仅仅是克隆一个技术，然后忽然就冲到销量榜首位。你需要不断精进自己的技术。全球有超过2600万开发者，对于那些想要真正的AI原生体验的人，这是一个巨大的市场。”</p>
+<p>“目前，我们更关注个人和团队的体验，而不是企业层面。从长远来看，我们相信，Cursor对于企业来说将是一个不需要动脑筋的选择，因为它能极大地提升开发人员的生产力。”Aman Sanger说道。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/K4PCIBG8VTRD5WLF_DFLuQ" rel="noopener noreferrer nofollow" target="_blank">“每日经济新闻”</a>，作者：蔡鼎，编辑：陈柯名兰素英 杜 恒峰，校对：段炼，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065311157921155</guid><pubDate>Thu, 05 Dec 2024 10:10:00 +0800</pubDate></item><item><title>有声量没销量，“谢添地”赞助《声生不息》值回入场费了吗？</title><link>https://36kr.com/p/3065305181512833</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“谢添地到底是谁啊”</p>
+<p>“真的会被这三个水灵灵的大字logo笑死”</p>
+<p>“不是所有牛奶都叫特仑苏，但是所有明星都叫‘谢添地’”</p>
+<p>芒果TV的《声生不息·大湾区季》首播即引发热议，总冠名“谢添地”以摸不着头脑的品牌名，意外夺得了绝对的主角光环。</p>
+<p>在节目中，无论是大屏幕的左侧、中间、右侧还是右下角，四个位置的“谢添地”字样都异常醒目，不少观众吐槽硕大的“谢添地”比歌手本人的尺寸还要大，每一个传播切片都能为“谢添地”带来了巨大的流量曝光，也让它被不少网友视作“今年最成功的冠名品牌”。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1120" src="https://img.36krcdn.com/hsossms/20241205/v2_d4ea2cd2c65243fd8024d74f89888278@1743780481_oswg797067oswg1080oswg1120_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但据剁椒Spicy观察，尽管如今是“谢添地”热度和讨论度的高位时期，但几天过去，品牌的电商平台销量却并不乐观。淘宝内，128元的“谢添地”黑土娟姗纯牛奶仅有63单成交记录，而78元的黑土A2β-酪蛋白纯牛奶的历史成交也仅有85单，京东内，两款产品的销量各自也不过500+。</p>
+<p>一直以来，音综都是乳企投放基本盘、流量大杀器。蒙牛、伊利、君乐宝等品牌都在加码音综触达消费者。<strong>与其他品牌不同，“谢添地”作为新品牌，降低传播成本、降低认知成本是其登上赛场的关键目的。</strong></p>
+<p>回顾品牌历史，今年11月，越秀乳业才正式推出了高端白奶品牌“谢添地”，是越秀乳业今年重点推出的新品，也是特仑苏前高管白瑛上任越秀乳业总经理后着力打造的全新品牌。当下，芒果TV热度正盛，刚刚上市不久的“谢添地”也的确借助独家冠名《声生不息》这一音综大IP打响了品牌“出道”第一枪。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,557" src="https://img.36krcdn.com/hsossms/20241205/v2_c6c0cb3c04e848918208264f98cef57d@1743780481_oswg522514oswg1080oswg557_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>然而，总冠名和高露出背后也隐藏着高昂的成本。</strong>尽管网传“谢添地”九位数的高赞助费略显夸张，但头部综艺的总冠名费用往往在千万级，对于新品牌而言，无疑是一场高投入冒险，尤其从销量来看，似乎并未获得预期的转化红利。</p>
+<p>究其原因，“谢添地”定位于高端牛奶市场，但自身缺乏有效的产品卖点，昂贵的价格叠加不具备说服力的品牌特质，很难将曝光变为业绩。</p>
+<p>从让消费者知道到让消费者接受，显然，“谢添地”还有很长的路要走。</p>
+<h2>冷门广告主? 最有存在感的冠名商！</h2>
+<p>综艺依然是芒果台的统治区，从声量爆炸的《歌手2024》到话题不断的《再见爱人》，作为承接的下一个重磅项目《声生不息·大湾区季》，在招商阶段就表现不俗。</p>
+<p>“总冠名、首席合作、超级合作都卖出去了，这些价格比什么官什么官贵得多”，一位接近节目的人士称，声生不息这一季招商还算不错。</p>
+<p>不少品牌早早入场并享受到了市场红利。据剁椒统计，节目开播便拿到了谢添地、爱他美、胡姬花、百雀羚和动感地带五家品牌的合作，其中总冠名赞助商为“谢添地”，也被网友评为最冷门的广告主。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,887" src="https://img.36krcdn.com/hsossms/20241205/v2_36039081280d4a74b31189171be014fc@1743780481_oswg86737oswg1080oswg887_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>显而易见，“谢添地”作为一个在十一月份推出的新品牌，前期没有丝毫声量就强势上阵《声生不息》舞台的新品牌，明显是算好了要靠《声生不息》打响知名度。</p>
+<p>一方面，早在发布会期间，营销动作就已经高调开始。</p>
+<p>11月17日，越秀乳业与湖南卫视、芒果TV联合举办《声生不息·港乐季2》“好歌献给你”发布会，成为了媒体与冠名产品同台双发布、全程直播联合发布会的首创，极大凸显了品牌存在感。</p>
+<p>另一方面，借助高调又另类的曝光方式。 “谢添地”借势节目的热度，通过醒目的大logo和品牌的陌生感，有效激发了公众的好奇心。</p>
+<p>无论是发布会现场，还是节目放送过程中，“谢添地”的品牌标识几乎无处不在。加粗放大的三个字加上下划线，logo几乎包围了整个舞台，选手们也被这三个字环绕，大阵仗、全覆盖、高密度的品牌展示无疑加深了观众对品牌的印象，极像人名的品牌名也和同台歌手碰撞出了许多热梗。</p>
+<p>“谢添地唱过什么歌啊？”“谢添地到底是谁？”“太洗脑了，一下就记住了”，广泛的讨论堆叠出了知名度，也让这一新品牌成功跻身曝光前列。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,785" src="https://img.36krcdn.com/hsossms/20241205/v2_812e29d4392f46468a210c6ff9b5aa71@1743780481_oswg267674oswg1080oswg785_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>“其实这季开播前并不被看好，结果收视率跟口碑都在唱衰中翻盘了，还隐隐约约带飞了冠名商。”一位业内人士评价道。</p>
+<p>从现在市场反馈以及话题讨论度来看，“谢添地”的重金投入一鸣惊人策略显然是奏效的。</p>
+<p>微信搜索指数显示，“谢添地”在11月17日的发布会后迎来了第一波小高峰，而在节目播出后的11月29日，搜索指数更是达到了近172万的高点，整体指数日环比上升了521.18%。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,985" src="https://img.36krcdn.com/hsossms/20241205/v2_1db59eabfb3940f491b2b6a59a7ccdfd@1743780481_oswg200097oswg1080oswg985_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在产品铺货和购买渠道方面，品牌也表现出了迅速的行动力。12月1日，谢添地率先在淘宝平台上线，并于12月3日全面上市。目前，消费者已能在淘宝和京东平台购买到“谢添地”产品，同时品牌还推出了自己的小程序，提供了更多购买渠道。</p>
+<p>大投入、好眼光、有运气、能整活，“谢添地”因此成为本次《声生不息》最冷门但最有存在感的赞助商。</p>
+<h2>复制梵蜜琳？12块一瓶的“谢添地”常温奶很难说服消费者</h2>
+<p>此次赞助不免让人联想到《浪姐》第一季时同样一炮而红的总冠名梵蜜琳：凭借网传4000万元的费用拿下总冠，在声量上赚得盆满钵满。</p>
+<p>但两大品牌面临的实际局面存在较大差异。</p>
+<p>“如果只是在节目中简单露出品牌标志，并不是最有价值的曝光。”一位曾经参与过大型活动总冠名的快消品牌代表告诉我们。只有真正突出品牌记忆点和功能性，才能促进关键的品牌内容诞生，推动用户参与话题，也被自然引流到品牌后链路完成转化。因此，品牌的标的人群和节目定位至关重要。</p>
+<p>彼时，《浪姐》作为一档本质上的30+女性选秀节目，与美妆品牌梵蜜琳契合度极高。女明星的工作与护肤保养息息相关，主线舞台表演也和品牌契合度较大。梵蜜琳只要争取到足够多的权益、曝光度，就天然诞生大量品牌强关联度广告。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,611" src="https://img.36krcdn.com/hsossms/20241205/v2_536e58b3fca545cfae28b83bdf9952f1@1743780481_oswg392909oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>更不用说早在赞助前，“贵妇品牌”梵蜜琳就高举私域打法，凭借着在“社群”种草，借助经销商全国快速铺货的方式，将“私域流量”在全国的各路触角变现。其总裁蔡彬弟曾公开表示，“品牌需要频繁露脸种草，在互联网混成脸熟，直至深入人心”。</p>
+<p>与《浪姐》的合作，也与梵蜜琳本身的“微商”属性和经销商打法十分契合。这场投入成功将品牌与一众女明星绑定，也促使品牌在后续私域销售中，对下沉市场的“小镇贵妇”产生更强的溢价效果和说服力。</p>
+<p>但乳制品侧的情况完全不同。</p>
+<p>一直以来，乳制品行业都是音综赞助中的“重量级选手”，近年来，这类综艺赞助大多由蒙牛、伊利为代表的头部乳制品集团旗下品牌完成。</p>
+<p>必须承认的是，超女时代、爸爸去哪儿时代和选秀带量时代已然过去，借助综艺的国民度直接一炮而红、借助粉丝效应一步到位完成转化的可能性也极大降低。目前，乳制品合作综艺节目，主要还是保证高曝光，强化自身的日常存在感，实现可信赖的品牌背书和热度维系。</p>
+<p>问题是，“谢添地”作为新品牌，缺乏强用户认知基础的情况下，千万级别赞助费固然能扩大品牌影响力，可想把这份影响转化成切实的销量，核心还是看产品概念和后续推广。</p>
+<p><strong>但从目前的市场反馈来看，大家知道了这个品牌，却对产品本身抱持较大的怀疑态度。</strong></p>
+<p>目前，“谢添地”推出了两款常温白奶产品：梦幻盖黑土娟姗纯牛奶，官方商城售价为128元/箱（250mlx10盒）；梦幻盖黑土A2纯牛奶，售价为78元/箱（250mlx10盒），即每瓶价格分别为7.8元和12.8元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,866" src="https://img.36krcdn.com/hsossms/20241205/v2_8d9a8d4077cf45368305aa37ff0c92db@1743780481_oswg867197oswg1080oswg866_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>从售价看，这两款产品的价格远高于市面上主流高端常温白奶产品。以金典为例，同规格的金典娟姗高端有机纯牛奶官网旗舰店售价为62.9元，而“谢添地”梦幻盖黑土娟姗纯牛奶的售价几乎是其两倍。同样，金典有机A2β-酪蛋白有机纯牛奶售价为52.9元，比“谢添地”梦幻盖黑土A2纯牛奶的售价低三分之一，当前市场售价达到128元的实属罕见。</p>
+<p>可贵价的同时，谢添地却并没有拿出足够具备说服力的理由。根据其目前传播点来看，“谢添地”主要以奶源和营养价值为卖点，强调其来自“万年黑土地”和“全球仅1%的珍稀娟姗牛”，但在高端牛奶品牌的市场中，这些传统卖点相对常规和空泛，难以实现长期的品牌价值增长。</p>
+<p>不少行业资深人士对此表示担忧，认为“谢添地”在市场上的销售可能会频频碰壁。他们指出，即使是三元最好的人民大会堂专用牛奶，售价118元也难以动销，而“谢添地”在缺乏招牌记忆点的情况下，动销只会更加困难。消费者端也有大量疑惑，“即使是价格最高的超高温瓶装奶，也比不上价格最低的巴氏奶，将常温奶的价格定得这么贵，这很难让人理解”。</p>
+<h2>蒙牛老将再“就业”， “谢添地”能复制特仑苏的成功吗?</h2>
+<p>值得关注的还有“谢添地”背后的越秀辉山及其掌舵人白瑛。</p>
+<p>回溯过去，辉山乳业的历史复杂而微妙。</p>
+<p>作为曾经的区域乳业巨头，辉山乳业在2013年于香港上市，市值一度高达400亿港元。然而，在浑水机构发布沽空报告后，公司遭遇重创，最终在2019年底黯然退市。经过一系列破产重整，2021年12月，辉山乳业重获新生，辽宁越秀辉山控股股份有限公司正式成立，并雄心勃勃地设定了：2025年销售额超过100亿、净利润达到30亿元的目标。</p>
+<p>为了实现这一目标。今年4月，越秀挖来蒙牛资深元老白瑛重返乳品行业，担任越秀辉山乳业的副董事长和总经理。作为“特仑苏”的缔造者之一，白瑛在结束了蒙牛18年的任职后，时隔7年，于全新的平台另起炉灶，“谢添地”的推出也被视为白瑛在越秀乳业后交出的首份产品答卷。</p>
+<p><strong>不难理解，时隔7年，蒙牛系元老重回乳业圈，欲打造下一个“特仑苏”的愿景。</strong></p>
+<p>首先从定价来看，越秀辉山的产品以往以性价比高著称，此次推出“谢添地”品牌，显然是为了进军高端牛奶市场，正与此前的特仑苏推出时的定位和目标如出一辙。</p>
+<p>同时，在娱乐营销端大手笔投入，也是白瑛惯用打法。反观特仑苏这几年的营销动作，一直“霸屏”热门综艺进行独家冠名，无论是连续赞助《声入人心》两季，还是通过《向往的生活》深化“不是所有牛奶都叫特仑苏”的品牌印象，或是与《舞蹈风暴》合作，借助高话题度、附带某种文化属性的综艺营销逐渐常态化。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,559" src="https://img.36krcdn.com/hsossms/20241205/v2_69f0d3493c6841cea04480000244ab8d@1743780481_oswg820412oswg1080oswg559_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>“但在乳业的当前时间节点，已经不可能再创造出第二个特仑苏时代了”，一位业内人士指出。高端市场的黄金时期已经过去，大多高端奶价格大多都已打到了5元以下。尽管也有声音看来“高定价是为了低折扣造空间”，但当前，常温奶市场正处于收缩状态，过往的一线大牌也厮杀激烈。此时杀入战局，意味着长期的投入和源源不断的“砸钱”。</p>
+<p>尼尔森IQ数据显示，截至今年10月，整体乳制品零售市场全渠道销售额仍在下滑，同比减少2.3%，“其中，高端奶的市场表现更为严峻，不仅受到礼赠市场收缩的影响，还面临消费两极化带来的基础性消费占比增加，以及外出消费场景增加造成的跨品类竞争等多重冲击。”尼尔森IQ客户成功团队乳品行业高级总监牛瑛指出。</p>
+<p>近两年来，乳品企业在高端奶市场的争夺战愈发激烈。即便高端液态奶通过低价促销，也难以有效提升销量，在这样的市场环境下，作为新品牌的“谢添地”以高于市场平均水平的价格参与竞争，缺乏强大的说服力和品牌影响力，与老牌企业争夺市场份额时显得力不从心。此外，如果销量持续低迷，优化供应链以降低成本、实现大规模降价也变得难以实现。</p>
+<p>同时，资金雄厚、影响力首屈一指的蒙牛可以不在乎一时的转化，只关注品牌维度曝光。但对于急需业绩自证的越秀来说，不得不注重销量的实际转化这一指标。</p>
+<p><strong>与“特仑苏时代”不同，当下的渠道和营销环境已经发生了显著变化，白瑛手中能打的牌更少，相比蒙牛时代，越秀的试错空间也更为有限。如果试图只靠套用过去的大投放、大声量式营销模板，既不适用当前用户的消费心理，也不匹配越秀辉山的经营现状。</strong></p>
+<p>当然，不可否认的是，“谢添地”靠着总冠赞助打响了知名度，在高曝光获得了难以企及的声量，这依旧是一个故事的好开头。但接下来的关键是，如何确保这千万甚至亿级投入带来的曝光不局限于短期，而是能转化为品牌长期的价值增长，并带来肉眼可见的业绩提振。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/A4J0cel7lefHtQTBZwgkPA" rel="noopener noreferrer nofollow" target="_blank">“剁椒Spicy”</a>，作者：剁椒团队，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065305181512833</guid><pubDate>Thu, 05 Dec 2024 10:14:00 +0800</pubDate></item><item><title>荣誉与背叛：字节诉讼遇到NeurIPS最佳论文</title><link>https://36kr.com/p/3065291010352257</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2024年12月3日，在这个离年末仅有27天的日子里，一件AI界颇具戏剧性的事件发生在字节跳动的一个前实习生身上。</p>
+<p>北京大学研究生田柯宇凭借其在视觉生成领域的开创性工作获得了NeurIPS大会最佳论文奖。</p>
+<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241205/v2_29914d5ec54f4cbface69fe0c8dee6d6@1743780481_oswg125673oswg960oswg540_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在人工智能领域的学术殿堂中，NeurIPS的地位堪比文学界的诺贝尔奖。它创立于1987年，这个大会见证并推动了从简单神经网络到现代深度学习的整个革命进程。</p>
+<p>但在颁奖当天，NeurIPS大概率会面对一张空椅子。因为获奖者田柯宇正面临着字节跳动八百万元的诉讼，原因是“涉嫌破坏其AI训练系统”。</p>
+<h2><strong>公司的罪人和学术的天才</strong></h2>
+<p>田柯宇的学术履历堪称完美：本科毕业于北京航空航天大学软件学院，随后进入北京大学攻读研究生，师从知名学者王立威教授。</p>
+<p>他研究的重点是深度学习优化与算法，在攻读学位期间就已在多个顶级会议发表论文，包括ICLR 2023的Spotlight论文《Spark：Designing BERT for Convolutional Networks》，是其引用量最高的论文。</p>
+<p class="image-wrapper"><img data-img-size-val="960,651" src="https://img.36krcdn.com/hsossms/20241205/v2_872b5d2c22684df583b5513f9bacb093@1743780481_oswg83780oswg960oswg651_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2021年，田柯宇开始了在字节跳动商业化技术部门的实习。在这里，他参与了一个雄心勃勃的项目：开发新一代的视觉生成模型。这个后来被命名为VAR（Visual Autoregressive Modeling）的项目，试图彻底改变AI生成图像的方式。</p>
+<p>然而就在今年10月18日，网上开始流传字节实习生“投毒”大模型的聊天截图，给公司造成了极大损失。</p>
+<p>这起事件的细节后续得到了更多披露。矛头很快指向了田柯宇。</p>
+<p>一位在GitHub上发声的知情人士描绘了这场持续两个月的"数字破坏"："在这段时间里，他系统性地破坏集群代码，直接导致近30位同事的工作成果付诸东流，整整一个季度的心血化为乌有。所有的日志记录和系统审查都指向一个不容辩驳的事实。"</p>
+<p class="image-wrapper"><img data-img-size-val="1000,909" src="https://img.36krcdn.com/hsossms/20241205/v2_7b3b3b729d88408a8b7b1050bf177b2b@1743780481_oswg699306oswg1000oswg909_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>10月21日，界面新闻从知情人士处了解到，字节跳动内部已经调查明确此事为田姓实习生所为。</p>
+<p>事件曝光后，这位北大高材生试图通过社交媒体自证清白，声称真正的破坏者另有其人。</p>
+<p class="image-wrapper"><img data-img-size-val="640,1225" src="https://img.36krcdn.com/hsossms/20241205/v2_443976c26c04467c9a2418c49d695902@1743780481_oswg371162oswg640oswg1225_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（网传的田柯宇在社群中的回应）</p>
+<p>这种"甩锅"行为很快就被接近字节跳动的人士予以驳斥。一位不愿透露姓名的字节内部人士向澎湃新闻透露了公司的处理逻辑：考虑到田柯宇的在读博士身份，公司最初选择了相对温和的处理方式，将其辞退并交由校方处理。这也在字节官方的回应中有所体现。</p>
+<p class="image-wrapper"><img data-img-size-val="960,776" src="https://img.36krcdn.com/hsossms/20241205/v2_8cde8de47be84f86bbf81b1ce7b61a8f@1743780481_oswg98113oswg960oswg776_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而，事态在田柯宇的一系列反应中急转直下。他后续不仅多次公开否认指控，声称真正的攻击者是其他实习生，甚至报警称自己是造谣受害者。这种拒不认错、反咬一口的态度，最终耗尽了字节的耐心。"他完全没有意识到自己的错误性质和严重程度，"据澎湃新闻采访到内部人士说，"这种行为已经触及公司安全管理的红线。"最终，字节跳动决定通过法律途径追责，以儆效尤，防止类似事件重演。</p>
+<p>据《南方都市报》11月27日报道，字节跳动起诉前实习生田某某篡改代码攻击公司内部模型训练一案，获北京市海淀区人民法院正式受理。字节跳动请求法院判令田某某赔偿公司侵权损失800万元及合理支出2万元，并公开赔礼道歉。</p>
+<p>这也反证了当年字节极力否认的网传“1000万”的损失。</p>
+<p>但也正是在字节工作期间，田柯宇写出了他的这篇含金量极高的获奖论文。论文的五位作者中，有四位都是来自于字节，而田柯宇是第一作者。</p>
+<p class="image-wrapper"><img data-img-size-val="960,399" src="https://img.36krcdn.com/hsossms/20241205/v2_f5cf0ce186904395a5b1e1138a12b9f9@1743780481_oswg54079oswg960oswg399_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>含金量极高的获奖论文</strong></h2>
+<p>要理解NeurIPS最佳论文的分量，我们不妨回望2014年的一个历史性时刻。那年《Sequence to Sequence Learning with Neural Networks》都未获得最佳论文，仅仅进入了oral（口头演讲》环节。</p>
+<p>这篇出自Ilya Sutskever、Oriol Vinyals和Quoc V. Le之手的论文不仅是一项学术成就，更像是为人工智能划出了一条全新的航道。</p>
+<p>彼时还默默无闻的三位作者，如今已是AI领域的标志性人物：Sutskever成为了OpenAI的联合创始人，在GPT系列的开发中发挥核心作用；Vinyals在DeepMind主导了AlphaFold的突破；Le则在Google Brain推动了大语言模型的革新。他们的序列到序列学习框架，为今天ChatGPT、Claude这样的自回归语言模型奠定了理论基石。</p>
+<p>而当年获得了最佳论文的李平教授，在回国后曾任百度首席架构师（T11）和百度研究院副院长。</p>
+<p class="image-wrapper"><img data-img-size-val="960,491" src="https://img.36krcdn.com/hsossms/20241205/v2_de0376ad369247e1894fd0b37b1f4fbb@1743780481_oswg84349oswg960oswg491_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>NeurIPS的录用门槛极其严苛，获得这个奖的难度有多高呢？</p>
+<p>据数据统计显示，以2023年为例，大会收到12,343篇投稿，最终接受率为26.1%。而能够入选口头报告（Oral）的论文更是凤毛麟角，通常不到1%。</p>
+<p>在这样的背景下，VAR论文不仅入选Oral，还以近乎满分的评审分数（7,8,8,8）摘得最佳论文桂冠，其学术分量可见一斑。田柯宇北大同一实验室的同学对腾讯科技表示，此论文为第一篇来自中国大陆的NIPS最佳论文。</p>
+<p>这篇名为《视觉自回归建模：基于下一尺度预测的可扩展图像生成》的论文，发布于2024年5月，它代表了AI系统生成图像方式的重大突破。</p>
+<p>传统的图像生成方法就像在一页纸上从左到右、从上到下依次填写文字。VAR则采用了一种更接近人类直觉的方法：先勾勒出大致轮廓，再逐步添加细节。</p>
+<p>具体来说，VAR包含两个训练阶段：首先通过多尺度VQVAE将图像编码为不同分辨率的标记映射，然后训练VAR Transformer来预测更高分辨率的细节。</p>
+<p class="image-wrapper"><img data-img-size-val="960,485" src="https://img.36krcdn.com/hsossms/20241205/v2_aaf5d5375f054c3cb34a99ea36247d1c@1743780481_oswg84943oswg960oswg485_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这篇论文提出的视觉自回归建模（VAR）方法首次证明了GPT式模型可以在图像生成方面超越扩散模型——这是许多人认为不可能的里程碑。在ImageNet 256×256基准测试中，VAR将图像质量评估指标FID从18.65提升至1.73，生成速度提高了20倍。</p>
+<p class="image-wrapper"><img data-img-size-val="554,584" src="https://img.36krcdn.com/hsossms/20241205/v2_3c33026c0a7948dbb791e7c148b5ff83@1743780481_oswg104198oswg554oswg584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>更重要的是，VAR展现出此前只在大型语言模型中观察到的特征：清晰的幂律缩放和零样本泛化能力。</p>
+<p>用更简单的话来说就是，系统随着规模增大而可预测地变得更好，并且能够处理它没有专门训练过的任务——这是更高级AI系统的标志。这些特性暗示了视觉AI可能与语言AI走向统一的道路。</p>
+<p class="image-wrapper"><img data-img-size-val="986,1178" src="https://img.36krcdn.com/hsossms/20241205/v2_bb7327544a5f4190b562ff29600a4a59@1743780481_oswg1506321oswg986oswg1178_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>目前，VAR的代码已在GitHub上开源，获得了超过4400颗星标。</p>
+<p>从其技术价值和实际获得的荣誉来看，这篇论文和田柯宇的科研含金量都极高。然而，正是因此，他让前公司字节陷入了两难之境。</p>
+<h2><strong>两难的字节</strong></h2>
+<p>对字节跳动而言，田柯宇大模型“投毒”事件带来的打击远比表面看起来要严重。</p>
+<p>更具戏剧性的是，当VAR论文在NeurIPS载誉而归时，字节跳动却陷入了进退维谷的尴尬境地。</p>
+<p>作为一家渴望在AI领域与谷歌、OpenAI等全球巨头竞争的中国科技公司，字节跳动在人工智能基础研究上投入了数以亿计的资金。这项突破性研究确实诞生于字节实验室，但公司却无法在学术社区大张旗鼓地宣传这一成就——因为论文的第一作者正被公司起诉。</p>
+<p>这种矛盾直指当前公司管理的某种困境：如何对有才干的科学家分配有效的资源，给予个体更有效的表彰？在愈发庞大的字节，这一命题也变得越来越难解。尤其在OpenAI、Anthropic等竞争对手普遍采取更开放研究政策的背景下，大公司很可能因为组织结构的问题在吸引和保留顶尖AI人才的战争中落败。</p>
+<p>更令人深思的是，田柯宇能够如此轻易地破坏训练系统，暴露出字节在核心技术安全管控上的致命漏洞。这对于一家掌握着数亿用户数据、运营着多个AI大模型的科技巨头而言，无疑是一记响亮的警钟。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/E1ytS5wY1OePNTfVrdXXZQ" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，作者：郝博阳，编辑：郑可君，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065291010352257</guid><pubDate>Thu, 05 Dec 2024 10:20:00 +0800</pubDate></item><item><title>西安银行上市5年多，仍未适应上市身份？</title><link>https://36kr.com/p/3065285835482503</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在三季报发布将近一个月时间后，西安银行因为财报数据错误修改三季报。</p>
+<p>虽然西安银行称更正项目均属于“经营活动产生的现金流出”，对公司合并及母公司现金流量表中“经营活动使用的现金流量净额”不产生影响，对公司财务状况、经营业绩以及合并后母公司资产负债表和利润表均不产生影响。但仍让投资者产生该行不严谨的感受。</p>
+<p>观其三季报业绩，西安银行业绩方面整体表现为增长，但应关注其主营业务能力和警惕资产质量风险。</p>
+<h2><strong>非主营收入提升业绩</strong></h2>
+<p>从消息层面来看，西安银行更正三季报更像是被动行为，更正的起因为“西安银行员工倒贴3000万”的消息。</p>
+<p>更正前的合并口径现金流量表，截至9月30日，西安银行“支付给职工以及为职工支付的现金”为5.56亿元，而截至6月30日的该数值为5.87亿元。由此计算，三季度单季度支付给职工以及为职工支付的现金为-3127.2万元。由此才产生了员工上班还倒贴的消息。</p>
+<p>西安银行在更正公告中称，经公司复核，三季报中，公司现金流量表中的“经营活动现金流出”项目的子目“支付给职工以及为职工支付的现金”部分金额误列示至“支付其他与经营活动有关的现金”子目中。也就是说，更正后的合并口径现金流量表中，“支付给职工以及为职工支付的现金”为8.29亿元，较二季度末增加2.42亿元。</p>
+<p>同时，西安银行当前经营现状尚算不得乐观，根据三季报，业绩虽然增长，但不是主营收入的功劳，且资产质量风险仍然偏高。</p>
+<p>2024年前三季度西安银行实现营业收入55.29亿元，同比增长9.69%；归属于母公司股东的净利润为19.27亿元，同比增长1.14%。</p>
+<p>看起来营收增长还不错，但实际上其利息净收入处于下滑态势，同比约下降3%，拉动营收增长的主要是手续费及佣金净收入、投资收益、公允价值变动收益，尤其是公允价值变动收益贡献良多。</p>
+<p>业绩增长态势其实是延续了半年报的走势，上半年时，该行实现非利息净收入 11.84 亿元，同比大增 76.43%，同样是手续费及佣金净收入、投资收益、公允价值变动收益的贡献。</p>
+<p>虽然营收实现增长，但因为信用减值损失的增长，导致利润总额下降，根据三季报，该行信用减值损失同比增长37.64。不过即便如此，拨备覆盖率较上年末还是下降态势，三季度末该行拨备覆盖率186.30%，较上年末下降10.77个百分点。</p>
+<p>利润总额下降，净利润仍能增长，自然是所得税费用的调节作用。</p>
+<h2><strong>最大十家贷款集中度远超红线</strong></h2>
+<p>作为一家城商行，该行仍然注重的是公司业务，根据该行半年报，上半年该行公司贷款较上年末增长超15%，在贷款中占比进一步上升，约占7成。票据贴现较上年末约下降了近4成。</p>
+<p>在公司贷款中，建筑业和房地产业贷款占比也比较靠前，分列第三和第四的位置。</p>
+<p>该行在半年报中提到“受建筑业、房地产业、制造业及批发零售业等行业风险上升因素影响，本公司信贷资产受到一定程度的资产质量下迁和逾期率上升压力。”建筑业和房地产业的风险提示放到了首位，不过该行财报中未列出公司行业贷款不良率情况。</p>
+<p>截至三季度末，该行不良贷款率为1.64%，较上年末上升0.29个百分点，不良贷款余额也是上升的。</p>
+<p>该行资产质量形势不算太乐观。不良率水平相对偏高，拨备消耗也比较大，与此同时，不良上行风险仍比较大。</p>
+<p>三季度末，该行关注类、次级类、可疑类、损失类贷款均上升，根据半年报，该行关注类、次级类、可疑类贷款迁徙率均大幅上升。</p>
+<p>重组逾期数据也不容乐观，二者均是增长态势。重组贷款较上年末增长1倍多，逾期贷款也较上年末增长1.33倍。其中逾期1至90天贷款较上年末增长1.89倍，可以视同为新增逾期增长较多。</p>
+<p>今年上半年该行核销了4.07亿元，收回原核销贷款8718万元，难怪拨备覆盖率消耗较大。</p>
+<p>此外，该行贷款集中度也偏高，最大十家客户贷款比率上行且远超50%标准，截至6月末为64.62%。</p>
+<p>6月21日，西安银行公告称，副行长狄浩先生于2024年6月18日离世。西安银行对狄浩的离世表示沉痛哀悼，并向其家属致以深切的慰问。</p>
+<p>6月18日西安高新路尚中心大厦发生一人坠楼身亡事件，据悉为西安银行员工，派出所初步排除刑事案件，根据当时新闻报道，该坠楼人士或为狄浩，不过并没有正式的消息说明。</p>
+<p>简历显示，狄浩于1973年9月出生，硕士研究生学历，经济师。他曾任西安银行西大街支行行长，土门支行行长，人力资源部副总经理，高新支行行长。离世前任西安银行党委委员、副行长。</p>
+<p>作为今年刚任命的董事长梁邦海，可谓重任在身，一人身兼四职。</p>
+<p>去年9月，上一任董事长郭军到龄退休以后，时任行长的梁邦海便开始代履行董事长职责。今年4月29日，梁邦海才被公司董事会选举为董事长，而监管批准则已经到了今年7月份。</p>
+<p>除了董事长、党委书记的身份，梁邦海还“被迫”承担了行长、董秘的职责。</p>
+<p>在担任董事长之前，梁邦海原为西安银行的行长，其出任董事长后，行长一职空缺，因此该公司董事会决议，在公司聘任新任行长并获得监管资格核准前，由梁邦海代为履行行长职责。</p>
+<p>董秘一职则是由于原董秘石小云的离职，董事会秘书空缺期间，暂由梁邦海代为履行董事会秘书职责。</p>
+<p>资料显示，梁邦海1970年8月出生，博士研究生学历，高级会计师。历任中国投资银行西安分行行员；国家开发银行陕西分行副处长、处长；国家开发银行西藏分行党委委员、副行长；国家开发银行陕西分行党委委员、副行长；平安银行西安分行党委书记；平安银行总行公司业务高级督导兼银川分行筹备组组长。2021年2月起任西安银行行长。</p>
+<p>《全球财说》注意到，该行董监高管理也相对松散。4月29日，独董廖志生因任期届满离职，但其或为“不情愿”离职。</p>
+<p>5月15日，西安银行发布关于陕西证监局行政监管措施的整改报告。据悉，西安银行于2024年4月25日收到陕西证监局出具的《关于对西安银行股份有限公司、廖志生采取责令改正监管措施的决定》（[2024]9号）。</p>
+<p>决定书显示，西安银行现任独立董事雎国余、廖志生截至2022年11月已连续任职满6年。雎国余2023年3月向该公司提交辞职报告，但该公司至今未完成独立董事的补选工作；廖志生明知连续任职已超6年，仍继续任职并领取津贴，至今未向董事会提交书面辞职报告。</p>
+<p>上述问题违反《上市公司独立董事管理办法》(证监会令第220号)第十三条、第十五条规定，根据《上市公司独立董事管理办法》第四十四条规定，陕西证监局决定对西安银行及独立董事廖志生采取责令改正的监管措施。</p>
+<p>2023年年报显示，西安银行共有四名独立董事，分别是雎国余、廖志生、梁永明和李晓。四人报告期内从公司获得的税前报酬总额均为20万元。</p>
+<p>9月30日，陕西证监局发布《关于对西安银行股份有限公司、郭军、梁邦海、黄长松采取出具警示函措施的决定》，2020年至2022年资产负债表中“金融投资”科目下部分金融资产分类不准确，违反了《上市公司信息披露管理办法》第三条第一款的规定。时任董事长郭军、行长梁邦海、负责财务工作的副行长黄长松对上述问题承担主要责任。</p>
+<p>上述两大问题均由证监会提出，是否说明西安银行对上市的身份仍未完全适应？</p>
+<p>财务数据错误、董事管理不规范、报表科目不规范，众多不规范下，梁邦海一肩挑四任，担子着实不轻。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/-6T7Sd_0dM0JcSkd5NoAyQ" rel="noopener noreferrer nofollow" target="_blank">“全球财说”</a>，作者：王莉，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065285835482503</guid><pubDate>Thu, 05 Dec 2024 10:21:00 +0800</pubDate></item><item><title>银诺医药冲刺港股：年亏损7.3亿，投后估值46.5亿</title><link>https://36kr.com/p/3064705487676804</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>广州银诺医药集团股份有限公司（简称：“银诺医药”）日前递交招股书，准备在港交所上市。</p>
+<h2><strong>年亏损7.33亿</strong></h2>
+<p>银诺医药是一家将原研人源长效胰高血糖素样肽-1(GLP-1)受体激动剂推进到注册审批阶段的公司。银诺医药的核心产品依苏帕格鲁肽α（商品名：怡诺轻）即将进入商业化阶段。</p>
+<p>自2014年成立以来，银诺医药一直致力于研究及开发治疗糖尿病和其他代谢性疾病的创新疗法。</p>
+<p>截至最后实际可行日期，银诺医药已建立一条管线，包括依苏帕格鲁肽α用于治疗2型糖尿病（「T2D」）的单药疗法及与二甲双胍的联合用药，其BLA均已获NMPA受理；依苏帕格鲁肽α用于治疗肥胖和超重，银诺医药正在中国就此进行IIa期临床试验并预期于2024年底取得主要终点结果；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_f0bc5da605744523b1d16b9b37fb4836@000000_oswg67835oswg1080oswg564_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>银诺医药依苏帕格鲁肽α用于治疗代谢功能障碍相关性脂肪性肝炎（「MASH」），银诺医药已就此获得FDAIND批准以展开IIa期试验，并将在美国及中国启动一项MASH多中心临床试验；及五款具有前景或处于临床前阶段且进入IND待启动阶段的候选药物。</p>
+<p>招股书显示，银诺医药2022年、2023年其他收入及收益分别为2262万元、1685万元；研发开支分别为2.67亿元、4.92亿元；期内亏损分别为3亿元、7.33亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_a8c9968e44fb45cb96fd995f0f7029c3@000000_oswg74288oswg1080oswg584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>银诺医药2024年上半年其他收入及收益为1210万，上年同期的其他收入及收益为862万；期内亏损为7528万元，上年同期的期内亏损为3.4亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_6faf9b9bdeb94b218238a3177df61805@000000_oswg81402oswg1080oswg620_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>截至2024年6月30日，银诺医药持有的现金及现金等价物为4.63亿元。</p>
+<h2><strong>投后估值46.5亿</strong></h2>
+<p>银诺医药2021年3月完成2.16亿元Pre-A轮融资，投后估值为6.66亿元，每股成本为2.76元；2022年2月完成7.16亿元A轮融资，投后估值为27.16亿元，每股成本为8.29元；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_1fa5a1c541af414ea8a41bc1a2e24c6e@000000_oswg76529oswg1069oswg528_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>银诺医药2023年3月完成3.31亿元B轮融资，投后估值39.3亿元，每股成本为9.89元；2024年2月完成2.5亿元融资，投后估值为46.5亿元，每股成本为11.06元。</p>
+<p>银诺医药执行董事分别为WANGQINGHUA、姜帆、徐文洁、黄冰；非执行董事分别为诶HO KYUNG SHIK、衡磊，独立非执行董事分别为陶武平 、宋瑞霖、余笩昉。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_deba6d0e11cf4db692d60d878239b718@000000_oswg113190oswg994oswg1977_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>IPO前，王博士直接持股为11%，广州诺帕持股为7.8%，广州诺苏持股为6.89%，香港医韵持股为6.48%，香港银诺持股为3.03%，广州诺肽持股为0.87%，王博士一共控制36.07%股权。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_5008daaff52c4bf0b635fb682d563d0d@000000_oswg44093oswg1080oswg613_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此外，景得广州、CowinChina Fund II分别持股6.32%，Palace Investments持股6.03%，广州产投持股为5.38%，厦门钲煊持股为4.81%，中深新创持股为2.87%，同创诚泰持股为2.71%，BioTrack Capital持股为2.15%，汇莘投资持股为2.01%；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_d205e3050c4f4412995a81dc93fc3592@000000_oswg441791oswg524oswg2232_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>中金生物医药基金持股1.87%，景诚二期、韩投张家港分别持股为1.81%，苏州龙遨持股为1.68%，上海诺临持股1.67%，合肥同创、源星投资分别持股为1.44%，厦门德屹持股1.29%，光控产业投资、崛盛一号分别持股为1.15%，国丰鼎嘉持股为1%，云南基产贰期基金持股为0.88%；</p>
+<p>天津必有邻持股为0.87%，浦东科创基金持股为0.86%，BioTrackAA、朗玛四十五号分别持股为0.75%，BioTrack BZ、华金大道分别持股为0.72%，朗玛四十四号持股为0.69%，尚鹏投资持股为0.52%，三亚启迪旭日持股为0.47%，洪泰投资持股为0.31%，三亚启迪百利持股为0.27%，铭哲丰泰持股为0.24%，北京源慧、重庆晟运和分别持股为0.23%。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MzQ5NjIyMQ==&amp;mid=2661632097&amp;idx=4&amp;sn=dd0a6191587735ad21d13626e5f4c357&amp;chksm=bc11f412dd1c413a03b785b3e709906683072c7f185489ff190c12d02fc5d1c0e5b760ce5864&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“雷递”（ID：touchweb）</a>，作者：雷建平，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064705487676804</guid><pubDate>Thu, 05 Dec 2024 10:22:00 +0800</pubDate></item><item><title>罚50万，骆王宇CSS油橄榄事件“结案”？</title><link>https://36kr.com/p/3064770330240388</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>因CSS希妍萃油橄榄精华未检出橄榄苦苷，其代运营上海景跃贸易有限公司(以下简称“上海景跃”)被罚50万。</p>
+<p>数月前，“抖音美妆一哥”<strong>骆王宇</strong>，因另一<strong>博主大虎课代表</strong>在社媒上的“打假”视频深陷油橄榄精华风波。</p>
+<p>日前，该事件有了最新进展。聚美丽从上海市市场监督管理局(以下简称“上海市监局”)获悉，在11月21日更新了一则与此事有关的行政处罚书。(末尾附一图纵观CSS希妍萃时间线)</p>
+<p>该行政处罚书显示，上海景跃因违反《中华人民共和国广告法》(以下简称：《广告法》)第二十八条第二款第(二)项规定，<strong>发布虚假广告</strong>，而被上海市金山区市场监督管理局<strong>罚款50万元</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_6866a2b535d94968a0f894de859ef59e@000000_oswg199066oswg1080oswg664_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：上海市场监督管理局</p>
+<p>值得注意的是，被罚企业<strong>上海景跃</strong>为油橄榄精华风波中涉事品牌<strong>CSS希妍萃</strong>，<strong>在中国大陆的主要运营商。</strong></p>
+<p>这一消息也引发了业内人士的关注。其中，化妆品违禁词网创始人<strong>李锦聪</strong>向聚美丽表示，“化妆品虚假夸大宣传是每个品牌都普遍存在的问题，如在原料特定宣称(浓度，含XX，产地)等层面的功效宣称。”</p>
+<p>美妆专业KOL<strong>大嘴博士</strong>则认为，直观上来讲，针对产品的销售额，这一处罚有点偏轻。</p>
+<p>“没有测出宣称的成分属于是比较严重的造假事件，处罚力度应该要更大，否则这样的处罚力度是不足以形成威慑效应。”</p>
+<p>另一美妆专业KOL<strong>冰寒</strong>同样也认为处罚偏轻，他表示，“在这件事上，品牌方也没有任何具体的解释，事实是什么，公众根本不知道。品牌的责任显然更大，因为是品牌作假，不是红人作假。”</p>
+<h2><strong>CSS运营商因虚假宣传被罚50万！</strong></h2>
+<p>从该处罚书内容来看，涉事产品恰是“CSS希妍萃橄榄积雪草舒颜精华液”，上海景跃向上海市监局出具的第三方检测机构报告，<strong>证实产品中的油橄榄提取物不含橄榄苦苷这一活性成分</strong>，与大虎课代表最初发布的视频中内容大体上相符。这也是构成上海景跃被罚最关键的一点。</p>
+<p>据处罚书显示，在调查过程中，上海景跃提供了被诉“CSS希妍萃橄榄积雪草舒颜精华液”的初始备案材料，同时该产品的生产商美国希妍萃公司也提供了该产品的认证材料，涉及生产工艺、原材料进货记录、产品配方等内容。</p>
+<p>除此以外，上海景跃还委托第三方检测机构对被诉的“CSS希妍萃橄榄积雪草舒颜精华液”进行检测，<strong>检出产品中有含量为0.2-0.8mg/kg的羟基酪醇</strong>，以及<strong>含量为29.15mg/kg的1,3丁二醇</strong>，<strong>但未有提供橄榄苦苷的检测报告。</strong></p>
+<p>此外，上海景跃还提供了涉案产品备案成分积雪草(CENTELLAASIATICA)提取物、熊果苷、泛酸的检测报告，证实上述成分均有合规添加。</p>
+<p>而这一结果，与上海景跃在2023年7月-2024年3月期间于小红书广告页面发布的<strong>部分内容不符</strong>，<strong>包括“CSS希妍萃油橄榄精华源自地中海沿岸的橄榄树，含有较高的橄榄苦苷”等广告语</strong>。</p>
+<p>查证结果显示，“CSS希妍萃橄榄积雪草舒颜精华液”并非来自地中海沿岸，且宣称含有较高的橄榄苦苷的油橄榄叶提取物，<strong>实际也未检出含橄榄苦苷这一成分。</strong>因此，上海景跃构成发布虚假宣传广告，故被罚款50万元。</p>
+<h2><strong>成分虚假宣传，到底谁的锅？</strong></h2>
+<p>前文已提到，CSS希妍萃运营商上海景跃被罚，也在业内引发了一定关注。</p>
+<p>事件背后实际上，也与目前化妆品功效宣称中的乱象与治理有着关系。</p>
+<p>从整个行业来看，类似CSS希妍萃油橄榄精华事件的案例也不在少数，其中不乏浓度虚标、在成分宣传中玩文字游戏等行为。</p>
+<p>对此，<strong>冰寒</strong>表示，“如我国明令禁止在化妆品中添加激素，但每年还是有少量产品被查出违禁添加。产品实在太多，药监部门也检测不过来，能说药监失职吗？不能，因为根据墨菲定律，小概率事件一定会发生。所以行业自律实在太重要了。”</p>
+<p>具体来看，去年3月更是有多起涉嫌虚假宣传成分事件被曝出，波及品牌包括朵尚朵拉、黛莱皙。</p>
+<p>去年3月，广州天生丽质生物科技有限公司(以下简称“广州天生丽质”)因虚标浓度被罚没款28万元。</p>
+<p>据悉，涉事产品为朵拉朵尚玻色因抗衰双宝精华液套盒，以及<strong>朵拉朵尚</strong>玻色因抗衰精华液，执法人员发现这两款产品包装中均标示有<strong>“10%玻色因”的字样</strong>，但检测发现，玻色因(即羟丙基四氢吡喃三醇)的<strong>实际含量仅为2.5%</strong>，而广州天生丽质系涉事产品的备案人。</p>
+<p>同月，<strong>黛莱皙</strong>因发布三则违规的微信公众号推文被罚56万元，其包括“黛莱皙赋活焕采美容水”宣称含有“<strong>高达60%二裂酵母</strong>焕能维稳 水油双向平衡”内容，但实际上成分表中的“二裂酵母发酵产物滤液复合物”，<strong>仅含49.55%二裂酵母发酵产物滤液</strong>。</p>
+<p>可见，关于化妆品成分、功效宣称的擦边实际上是行业的一大乱象。</p>
+<p>同时，还有业内人士认为，这类乱象虽屡禁不止，但后续的市场规范还存在有待完善的地方。</p>
+<p>对此，<strong>大嘴博士</strong>认为，此次行政处罚书中赔偿对象主体存在疏漏，“它并没有涉及到一个核心问题，<strong>让品牌对消费者进行如何的补偿？</strong>”</p>
+<p>他还强调，“在这这类事件中，<strong>规范市场才是最核心的关键，而并不是说企业或者品牌罚款多少</strong>”。</p>
+<p>由此可见，在虚假宣传上，究竟应该谁负责，也是当前备受争议的一大关键点。上述案例中，部分被罚品牌/企业都是在第三方宣传环节出现问题，而引发舆情。</p>
+<p>在聚美丽《油橄榄事件背后的“骚操作”》一文中，<strong>也有提到关键问题在于三点</strong>：其一，红人卖货不担责？其二，油橄榄产品一开始是为头部红人量身打造的；其三，为了技术差异化而概念添加。</p>
+<p>在这类事件中，<strong>有业内人士</strong>告诉聚美丽，曾有经销商在未告知品牌方的情况下，宣传了备案之外的成分和功效，最后品牌只能通过改进配方和补上功效检测报告等措施来减少事情的影响。</p>
+<p>另外，基础颜究创始人<strong>三亩叔</strong>此前在接受采访时，也曾与记者探讨过这一问题，他表示，“在整个价值链上，部分红人团队的利润相当于一家上市公司的利润，这也是消费者愤怒的点和不平衡点。”</p>
+<p>由此来看，CSS希妍萃一事，虽说上海景跃已经通过罚款为行为“买单”，同时骆王宇也向消费者提供了1.5亿的售后方案。</p>
+<p>只是，正如大嘴博士所言，在监管趋严之下，该如何更有实质效果地为消费者提供保证？</p>
+<h2><strong>CSS背后运营商：年入10亿</strong></h2>
+<p>除了上述讨论之外，聚美丽还发现，CSS希妍萃背后的代理商实际上在行业颇有声量。</p>
+<p>企查查显示，此次被罚的上海景跃成立于2021年4月，是香港景通企业有限公司旗下的全资子公司，该企业法定代表人为汤璟，注册资本为1500万元人民币。</p>
+<p>另外，聚美丽从<strong>上海景跃</strong>BOSS直聘的页面中发现，<strong>该企业与Able View Global存在关联。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_231bfa41a073427c9e6864fc58a00f50@000000_oswg76777oswg906oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：BOSS直聘</p>
+<p>据官方资料显示，Able View Global成立于2015年，是一家中国美容和个人护理品牌管理公司，品类涉足美妆、个护和大健康等，<strong>目前服务的品牌已超20个，包括娇韵诗、娇兰、CSS希妍萃、露华浓等。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_1abbf713b9a14538bb937d12a9e593f7@000000_oswg81213oswg1080oswg420_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：Able View Global</p>
+<p>值得关注的是，Able View Global在2023年8月于美国纳斯达克挂牌上市，股票代码为ABLV。</p>
+<p>从招股书来看，<strong>Able View Global已是10亿体量企业。</strong>在2021-2023年，其收入持续增长，分别为1.17亿美元(约合人民币8.51亿元)、1.45亿美元(约合人民币10.54亿元)和1.49亿美元(约合人民币10.83亿元)。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_5ea357c145df4df4b1dc11077af77771@000000_oswg62404oswg1080oswg241_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：Able View Global招股书</p>
+<p>而此次涉事的CSS希妍萃品牌，全称为Cosmetic Skin Solutions，官方称系源自美国的护肤品牌。</p>
+<p>从社媒及上海景跃披露的数据来看，CSS希妍萃在中国市场已积累了一定市场份额。</p>
+<p>其中，CSS希妍萃天猫海外旗舰店粉丝数达6.6w，最高销量产品正是此次涉案的“CSS希妍萃橄榄积雪草舒颜精华液”，已售1w+。</p>
+<p>另外，据Able view Global官方数据显示，截至2023年，CSS希妍萃品牌年销售额在3年内从8000万增长至1.8亿，其中“CSS希妍萃橄榄积雪草舒颜精华液”，还曾是天猫进口修复精华热销榜top1、抖音进口舒缓精华热销榜top1。</p>
+<p>不仅如此，Able view Global还透露，2023年双11期间，CSS希妍萃品牌销售额超6000w，同比增长277%，其中橄榄积雪草舒颜精华液全网销量达20w+支。</p>
+<p>截至发稿前，此次处罚涉及的“CSS希妍萃橄榄积雪草舒颜精华液”为备案状态，备案时间为2021年4月6日，备案编号为国妆网备进字(沪)2021002240，<strong>备案功效为修护、保湿和舒缓。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_9691672dbe8040939111f74cff16d140@000000_oswg77244oswg1072oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：国家药监局</p>
+<p>如此看来，CSS希妍萃一事背后的代理企业，在市场上颇有声量，也是一家10亿级体量的品牌管理公司，还是娇韵诗、娇兰等国际大牌的运营商。</p>
+<p>回到CSS希妍萃油橄榄事件来看，在采访中部分业内人士认为，有被过度炒作的嫌疑。但是，在这一风波引发的连锁反应背后，恰好说明了在品牌科学传播的过程中，无论是红人、品牌、代理商等都是行业中的一环，但是各环节都需要讲究证据链，才能形成完整的闭环。</p>
+<p>同时，此事也在某种程度上体现出了目前监管还有待提高，其引发的蝴蝶效应不容忽视。不过，完善追责的问题，同样刻不容缓，而不是简单地停留在罚款层面。</p>
+<p>（注：下图为油橄榄风波的详细时间线）</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_3eb55bedaece4c6889d4b9299bee7bf9@000000_oswg1455123oswg1080oswg4950_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0OTg1NTUxOA==&amp;mid=2247608542&amp;idx=1&amp;sn=1efd38b532d0ef1caf203cabde755418&amp;chksm=e8b759ea53e9fcf77991af84a5c125505ece0779c59a1501b215e1d282ee252d34bb3957b676&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“聚美丽”（ID：jumeili-cn）</a>，作者：飘飘，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064770330240388</guid><pubDate>Thu, 05 Dec 2024 10:25:00 +0800</pubDate></item><item><title>宝宝树将被强制退市：市值已蒸发超百亿，前任CFO与复星风波未平</title><link>https://36kr.com/p/3064705365435520</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>宝宝树（股票代码：“1761”）今日发布公告，称2024年11月22日，公司收到港交所发出的函件，联交所上市委员会认定公司未能于2024年11月1日复牌截止日期前达成复牌指引，并决定根据上市规则第6.01A（1）条取消宝宝树股份的上市地位。</p>
+<p>宝宝树称，为推进复牌取得了实质性进展，但因客观原因未能在规定时间内完成所有复牌指引工作，公司尊重上市委员会的决定。经考虑公司的实际情況后，公司将不会根据上市规则申请覆核该决定。</p>
+<p>根据公告披露，宝宝树股份的上市最后一日将为2024年12月6日，股份的上市地位将于2024年12月9日上午9时正起取消。</p>
+<p>宝宝树也将成为近年来又一家退市的港股上市企业。</p>
+<h2><strong>前任CFO与复星风波未平：讨要上亿资金</strong></h2>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_3247bf5eabbe439cb36deb3f1c7e09f6@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p>宝宝树是国内母婴行业老兵，曾经，先后引入了好未来、阿里、复星为股东，2018年5月，宝宝树与阿里巴巴达成战略协议，双方在广告、电商、C2M、知识付费及其他业务领域开展深入合作。</p>
+<p>随后，宝宝树2018年11月在港交所上市，当时发行价为6.8港元，募资16亿港元，公司市值超过百亿。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_ae6b8b2956d74125901c346459494de3@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p>对于宝宝树来说，上市就是最辉煌的顶点，此后，公司创始人王怀南离开。2023年4月，宝宝树突然发布公告，免除公司首席财务官徐翀职务，同时，徐翀的执行董事职务也被免去，实时生效。宝宝树同期任命高晓光为公司CFO，负责全面管理本集团财务资金工作等事务。</p>
+<p>就是这场任命，导致了宝宝树一场剧烈风波。当时，徐翀闹出的动静也很大。曾有知情人士爆料称，徐翀在被免职的当天拒不交接，公司要求他离开办公区，他直接在现场上演武侠片，手着一把长剑，强行攻入自己的办公室后把自己锁在办公室整整3天。</p>
+<p>徐翀还猛烈爆料称，复星旗下多家公司，包括复星旅文（1992.HK）、复宏汉霖（2696.HK）及宝宝树集团利用“结构单”上市，涉嫌构成虚假上市。</p>
+<p>据徐翀称，宝宝树在2018年上市时融资订单认购量不足。于是，公司数名董事决议用“结构单”的方式解决。</p>
+<p>具体方式是由一家公司以7000万美元认购公司发行订单；之后宝宝树再将此募集资金以委托理财的形式归还给这家公司，即用资金循环的方式扩大上市规模。这家对手方公司叫做尚乘环球市场有限公司（简称AMTD）。</p>
+<p>为保成功上市，宝宝树董事接纳“中科创系”类似结构单约3000万美元，导致“中科创系”创始人张涛被司法机关逮捕。为掩盖“结构单”事实，陈启宇（当时主要股东代表）及王怀南（宝宝树创始人）向徐翀寻求帮助，希望其以个人借款名义“出资填坑”。因此，宝宝树集团尚欠徐翀本人1.3亿元。</p>
+<p>徐翀还表示，复星旗下多家公司可能存在上述“结构单”上市安排，包括由复星集团控股79.25%的复星旅游文化（1992.HK），及陷入“委托理财暴雷”风波并获得审计师保留意见的复宏汉霖（2696.HK）。</p>
+<p>作为操盘宝宝树上市的CFO，徐翀反水对宝宝树及复星系造成很大影响。随后，公司停牌至今。</p>
+<p>2023年12月，徐翀再度曝出，复星集团对其本人和团队构成非法限制人身自由、人身威胁及诬告陷害，复星集团扬言干扰司法。徐翀还坚持说，宝宝树集团仍欠其2.1亿元人民币本金未归还，并造成其大量额外损失。</p>
+<p>徐翀还对把自己锁在办公室整整3天的做法进行了澄清，称复星代表向其当场宣读罢免文件离开后，徐翀的办公室门口就立即站立了十几名“黑衣人”，没有人再能进入徐翀的办公室，徐翀也出不去，办公室电源被断，这样的情况维持了整整72小时，期间徐翀四次报警，前三次警官都无法把徐翀带离办公室。直到三天后来的第四拨警官，徐翀才出的办公室。</p>
+<p>“也由此也想起了复星散播的什么‘手持长剑攻入办公室’的流传很广的社会新闻，真的娱乐至极。”徐翀称，其四次报警，都有系统明确记载的报警记录。另外，被限制人身自由的不止是徐翀，还有徐翀手下十几名员工。</p>
+<p>徐翀还称，自己家中老人也遭遇威胁，家里两位老人收到不明人员电话，报了徐翀家地址，并说知悉徐翀8岁孩子在某某小学上学，平时上下学时间是某某点，说“你们注意安全哦”。</p>
+<p>宝宝树则发布声明，称关注到有离职人员徐某利用互联网及社交平台发布了一系列诽谤公司及大股东的言论，对公司及高管恶意中伤，编造并散播大量关于宝宝树的不实信息。</p>
+<p>“经调查，该员工系不满公司此前对其的职务罢免行为，故散播谣言以泄私愤。对于此事，我们深感遗憾和愤慨，诸多与事实背离的恶意指控对企业、大股东及管理团队的声誉造成了严重影响，我司对其行为表示强烈谴责，将通过法律途径坚决维护应有的合法权益。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241204/v2_f37e4ccb429f4fe2b2996ab4bb8ec4e4@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p>宝宝树还称，呼吁公众切勿轻信谣言，共同守护清朗有序的网络生态及营商环境。</p>
+<h2><strong>否则王怀南参与经营</strong></h2>
+<p>最近，宝宝树还卷入了一场新风波。宝宝树创始人王怀南不再参加公司经营后，重新进行了创业，但创业并不顺利。</p>
+<p>日前，王怀南发视频称：“退了公司所有员工群，确实没法忍受这帮人了。周日有一个同事在直播间声嘶力竭奋斗了好几个小时，让员工去参与互动，结果呼声甚少。作为一个创始人自己真的不能理解，吆喝没人来，使劲驱动也没人来，那种失望和绝望让自己退群且不想再加回去了“。</p>
+<p><strong>宝宝树公司特别就此做说明：</strong></p>
+<p>1、王怀南作为宝宝树创始人，目前不参与宝宝树的日常经营管理工作。</p>
+<p>2、王怀南日前的创业项目是米茶公社品牌宝宝树集团与米茶公社品牌在业务运营、管理架构以及财务投资、人员团队等方面均无任何直接或间接的关联。经了解，王怀南先生视频所表述的内容仅针对米茶公社品牌，只代表其个人立场和该项目经营管理情况：和宝宝树集团并无关系。</p>
+<p>3、宝宝树集团各项经营管理正常，感谢大家一如既往对宝宝树的支持和厚爱。</p>
+<p>王怀南则澄清说：这件事跟宝宝树完全不相关，尽管其是宝宝树的创始人，但已经不运营宝宝树好几年了。第二，无论宝宝树还是其今天的新品牌，都没有任何的所谓的裁员举措（但它被传裁员），自己目前也迅速地被大家招揽回去了，又重新加入了群。</p>
+<p>“哪个团队哪个创始人不爱自己办的企业，我自己已经很久没有去管理宝宝树了，但是我仍然爱着这个平台，说什么裁员、周末上班这些东西都不是我心里想的，我心里想的是如果你是一个非常用心努力的有热情的员工，我不想因为其他的员工蹭车而使你寒了心。”</p>
+<p>如今，宝宝树股价已跌至0.265港元，市值只有4.4亿港元，市值已蒸发超过百亿，正在艰难求生。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MzQ5NjIyMQ==&amp;mid=2661632097&amp;idx=1&amp;sn=b7370d79e3ba79df9cf0d7be39d01fc8&amp;chksm=bc6baeed3c8dd5cac1e502cda7cce2aab76cd20edc1405a329d5bd55abec71ab5ef5be9d1c45&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“雷递”（ID：touchweb）</a>，作者：雷建平，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064705365435520</guid><pubDate>Thu, 05 Dec 2024 10:25:00 +0800</pubDate></item><item><title>高盛：2025年沪深300将上涨13%，内资影响力进一步扩大</title><link>https://36kr.com/p/3064696552236163</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <blockquote>
-<p>在被扩张的老毛病折腾几番之后，ST加加或许迎来新的命运转折点。</p>
+<p>高盛表示，当前国家队持股约占A股市值的5.4%，未来可能通过国家稳定基金进一步加大参与力度</p>
 </blockquote>
-<p>曾经的“酱油第一股”或将迎来新老板了。</p>
-<p>近日，加加食品集团股份有限公司（下称，ST加加）公告称，公司实控人家族杨振、肖赛平和杨子江合计所持的2.7亿股股份已被司法拍卖，中国东方资产管理股份有限公司（下称，东方资产）竞得超2.698亿股，成交价为10.66亿元。而此次司法拍卖完成过户后，东方资产将持有ST加加23.42%的股份，成为公司的第一大股东。</p>
-<p>另外，莲花控股旗下孙公司莲花水业以442.4万元竞得了剩余93.77万股股份。上述公告中显示，目前公司董事会成员均由现任董事会提名并由股东大会选任，<strong>后续公司控股股东及实际控制人有可能会发生变更。</strong></p>
-<p>请注意，由于东方资产具有“国家队”背景，因此，对于处境糟糕的ST加加来说，或许将迎来新的命运转折点。不久前，ST加加股价或受重组预期影响，曾一口气拉出了18个涨停板，可谓风光一时。</p>
-<p>但对于ST加加原实控人杨振来讲，一个寒门逆袭的故事最起码在ST加加上或许就要画上了句号。</p>
-<h2>01</h2>
-<p>公开资料显示，杨振于1962年出生在湖南一个兄弟姐妹5人的贫寒家庭。即便如此，杨振通过自己的勤奋与努力，考上了湖南益阳师范学校。毕业后，他成为了一名语文老师，端上了“铁饭碗”。但两年后，杨振选择了辞职下海，这也彻底改变了命运。</p>
-<p>为了挣到第一桶金，他做过特种养猪、搞过食品加工，还向房地产开发商推广过自制的隐形纱窗……一番折腾之后，杨振也成为了湖南宁乡最早的一批万元户。1990年代，杨振发现老式酱油瓶无法控制用量，每次倒出来都会流一手的酱油。为了解决这个问题，杨振发明了如今广泛使用的带内部易拉环的酱油瓶盖，即打开酱油瓶外盖后直接拉开内盖即可倒出酱油。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,549" src="https://img.36krcdn.com/hsossms/20241205/v2_b79e32281a4c4d9aba1f5495662cf4b3@5814142_oswg53437oswg1080oswg549_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>起初，杨振原本想着把酱油盖以50万的价格卖给湖南的酱油厂，但估计定价较高无人愿意购买。于是，他决定自己做。1996年，杨振在湖南宁乡县正式成立加加酱油厂，这就是加加食品的前身。</p>
-<p>杨振深知传统打法在很难将一个新品牌酱油快速打开市场。他果断采用了定位高端且广告标新立异——时湖南市场的酱油售价普遍在1.6元左右，而其酱油的市场售价定为6.5元。此外，他又选择在报纸上一连数期仅发布“小麦+大豆=？”的广告内容。</p>
-<p>在吊足了大众胃口后，加加凭借<strong>“小麦+大豆老农民的扎实用料”+“一瓶当两瓶用的slogan”+“清洁瓶盖”</strong>的答案，在湖南地域快速打响了名气。</p>
-<p>更大的手笔是，2003年，杨振又斥资4800万元，拍下了央视两个月的“标王”。这两个月里，加加酱油的广告每天准时在中央一套7点整报时与7点半新闻联播结束时出现。效果非常明显，加加酱油开始风靡全国，而且连续两个月的广告，加加酱油年营收达到5亿，市占率快速飙升。</p>
-<p>2012年1月6日，加加食品成功在深交所上市，每股发行价30元，其也因此被誉为“中国酱油第一股”，也是加加食品所在地本土首家上市公司。杨振也以20亿身家登上胡润百富榜，成为名副其实的“酱油大王”。</p>
-<h2>02</h2>
-<p>但或许是杨振没有注意到家族企业的弊端，又或许他早就看到了酱油的天花板。这个阶段，他做了两件日后看起来存在争议的事：第一、将多位家族成员安排进公司任职；第二，他开始做了投资。这或许是很多中国企业做大之后的通病。</p>
-<p>据悉，杨振给几个上游企业借了4亿，结果人家还不起，他只能用资产抵债。为了盘活这些资产，杨振又进行了几笔失败的投资。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,619" src="https://img.36krcdn.com/hsossms/20241205/v2_34a06f9d95ba48498f1cbc71459a7e82@5814142_oswg81710oswg1080oswg619_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2015年5月，ST加加向云厨电商增资5000万元获得51%股权。但2017年10月31日，云厨电商营收仅250.56万元，净亏损达748.98万元，资产总额150.91万元，负债总额3400.23万元，已严重资不抵债。ST加加火速进行了资产剥离，2017年12月，以0元的价格将云厨电商51%股权转让。</p>
-<p>2017年，ST加加准备再度出手，计划收购从事罐头、豆制品、食品用塑料包装容器工具等业务的辣妹子食品100%股权，但因与交易对方无法就交易事项部分核心条款达成一致，交易终止。然而ST加加还是期望通过外延式并购找到利润增长点，2018年，ST加加拟收购从事金枪鱼的远洋捕捞和销售的金枪鱼钓100%股权，该笔交易最终也以失败告终。</p>
-<p>在ST加加努力转型且效果不明显的这几年里，酱油行业的市场格局也在重新洗牌——简单说，ST加加掉队了。</p>
-<p>ST加加的财报显示，其在2012年上市后，营收达到16亿元，此后数年，的营收都在该水平上下徘徊。虽然，2019年、2020年，ST加加营收突破20亿元后，又持续下滑。净利润更是连续三年亏损，2021年至2023年累计亏损超3.5亿元。截至2024年三季度，ST加加营收为10.36亿元，同比下降14.92%；净利润亏损6765.14万元，同比下降166.58%。</p>
-<p>若无意外，ST加加将连续四年亏损。</p>
-<p>屋漏偏逢连夜雨。2023年6月14日，ST加加经向卓越投资核实，申请人万向信托股份公司向法院申请卓越投资破产审查。11月11日，ST加加表示，目前该事项尚在法院审查程序中，法院是否受理该申请尚不确定。</p>
-<p>2024年6月24日，ST加加又公告称，公司<strong>控股股东卓越投资及实际控制人杨振、杨子江、肖赛平因其个人债务纠纷被长沙市天心区人民法院列入失信被执行人名</strong>单，执行标的约3231.37万元。</p>
-<p>最新消息是，11月28日至29日，加加食品2025年度全国经销商大会召开，700多家核心经销商齐聚宁乡。杨振表示，对于传统的调味品、食用油等品类，将通过加加“减盐”战略，“盘中餐纯油”战略，来推动行业产业升级，争夺话语权和市场份额。</p>
-<p>但若控股权丢失，那么，这所谓的“减盐”战略还能提振“酱油第一股”吗？</p>
-<p><strong>【文章只供交流，并非投资建议，请注意投资风险。】</strong></p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/6imUTHLVXZbQ-P_c-xxAIg?token=826956076&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“每日资本论”</a>，作者：白开水的思考，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065224293711622</guid><pubDate>Thu, 05 Dec 2024 09:54:00 +0800</pubDate></item><item><title>只有少数人懂的公司战略，还不如没有</title><link>https://36kr.com/p/3065218741019782</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>长久以来战略沟通都是事后诸葛。高管们或分享冗长又夸大其词的文件，或隐瞒了关键信息，还希望人们能“懂”。但这并不奏效。更大的外部不确定性、协作、员工焦虑和组织开放性都在要求改变沟通方法。通过五项行动，将提高沟通的清晰度和质量，使人们能够对战略作出更实质和有意义的贡献。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_a013117338664c37bcaec209b64ea4e6@000000_oswg56429oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>大多数人都不记得自己公司的战略，即使是负责战略的高层和管理者也很难记住。</strong>一项研究报告称，只有28%的高管能列出三个战略重点。</p>
-<p>这并不奇怪。许多公司都没有战略。少数有战略的公司会发现很难有效沟通战略，因为这需要在不同情况下与广泛的利益相关者接触。与之相比，他们发现发表崇高的公司宣言、描述宏大目标、发起倡议或发布固定计划更为容易，风险也更小。</p>
-<p>通过帮助人们决定将注意力、精力、资源和能力集中在哪里，战略沟通显然可以增加组织“获胜”的机会。<strong>不清晰的沟通会因为缺乏一致性和不明确而白费力气，从而导致惰性。</strong></p>
-<p>如果你正在着手沟通公司的战略，下面五种方法和具体措施可以让你做到明确沟通。</p>
-<h2><strong>多维度沟通</strong></h2>
-<p>沟通有时会只关注了战略的一个方面而牺牲了其他方面。例如，阐述了如何击败竞争对手，却忘了如何最好地服务客户。或者描述了一个激动人心的愿景，但遗漏了实现它的重要细节。概述了趋势、动态和干扰因素，但没能清楚地阐明为解决这些问题而做的选择。</p>
-<p>受众也一样。高管会优先考虑与员工和投资者沟通，然后忘记了与更广泛的利益相关者沟通，比如监管机构或社区团体，直到他们提出了问题或反对意见。</p>
-<p>为了克服这种狭隘的关注，和我一起工作的一位办公室主任开发了一个中央资料库，里面有关于组织战略的常见问题的回答，并列出了对每个利益相关者群体而言最重要的问题。这让她可以更好地为受众定制信息做好准备，从而提高了沟通效率。她还邀请了同事们贡献答案，不仅提高了回答质量，还提高了整个组织信息的一致性，因为那些贡献者有了更强的主人翁意识。</p>
-<p><strong>为了全面地传达战略，你需要：</strong></p>
-<p><strong>● 将雄伟愿景可视化。</strong>为了激发好奇心和想象力，调动对美好未来的兴奋感，可以把注意力集中在未来的机会和可能性上。(“最好的情况下，我们将成为……”)</p>
-<p><strong>● 描述你想做出的贡献。</strong>明确战略对客户、更广泛的利益相关者(如公民)和系统(如环境)的影响。(“我们将通过……为我们的股东和社会做出重大贡献。”)</p>
-<p><strong>● 挑战现状。</strong>鼓励人们看到尝试新方式的好处，克服个人和组织惰性。(“我们没有尽最大努力为我们的客户提供服务，是因为……”)</p>
-<p><strong>● 在组织中灌输信念。</strong>承认将会发生一些变化的同时，对组织实现目标的能力表现出信心。(“运用正确的思维方式时，我们展示了有能力……”)</p>
-<p><strong>● 把注意力集中在重要的事情上。</strong>让人们有机会做出他们最有能力做出的决定，即把时间集中在符合战略的地方——流程作者罗杰·马丁(Roger Martin)称之为“战略选择章程”（strategic choice chartering）。(“在我的业务领域，我们选择专注于为某地区的某客户服务，因为……通过在……方面做得最好，我们将赢得胜利。下一个选择是如何以及在哪里……”)</p>
-<p><strong>● 列出会改变的内容。</strong>鼓励人们开始改变他们的工作方式。(“为了实现这一战略，我们需要关注提升这些能力，在新领域部署资源，并改变我们的工作方式。”)</p>
-<p><strong>● 设定标准。</strong>明确对战略至关重要的行为、活动和结果，并明确衡量标准。(“我们将在组织和个人层面通过以下指标衡量我们在实施这一战略方面的成功。”)</p>
-<p><strong>● 解释背后的思路、逻辑和证据。</strong>在雄心、选择和投资中建立可信度和信心。(“这一战略是基于一些重要的数据点和假设。”)</p>
-<p><strong>● 描述过程。</strong>灌输对你制定战略的方式的信心。(“我们在整个过程中通过公开对话的方式制定了这一战略，征求了各方意见和建议。”)</p>
-<p>大多数情况下，没必要一气呵成。诀窍在于利用最有效的媒介将正确的信息与受众结合起来，认真倾听他们的反应和贡献，并根据需要完善沟通；这当然不是一个固定的结构。</p>
-<h2><strong>个性化沟通</strong></h2>
-<p>沟通往往可以描绘出一幅企业蓝图，但实际上并没有传达出对受众的期望——或如何使他们受益。</p>
-<p>我共事过的一位CEO史蒂夫，一次在向团队介绍完新战略后自我感觉良好地走下了舞台。排练没有白费，他抓住了所有重点，有效地运用了个人趣事和幽默感。至少他是这么认为的。</p>
-<p>然而观众与我分享反馈时，我却可以看出他们并不怎么买账。“那是在表演。”“未来很清晰，但我不知道这对我意味着什么。我应该做出那些改变？我将如何改变？”“这一战略会如何助力我的事业？”“其他高管都在点头，但他们真的赞同吗？”</p>
-<p><strong>想要避免这一情况，可以采取四个措施：</strong></p>
-<p><strong>● 通过切身选择，表明你正在亲身实践这个战略。</strong>优先把你的时间、注意力和精力放在最能实现战略的活动上。讨论团队中存在的困惑或分歧，以建立一致性和承诺。反思你的决定和话语是如何与战略保持一致的。</p>
-<p><strong>● 描述实现战略的新活动、能力和行为，并建立试验点，开始推广这些活动。</strong></p>
-<p><strong>● 解决可能阻碍人们前进的怀旧情绪、恐惧感或摩擦。</strong>例如，“我们以前试过但行不通，这次会有什么不同呢？”或“不得不在如此多的官僚主义中艰难跋涉时，我们如何才能加快进入市场的速度？”</p>
-<p><strong>● 帮助员工提升技能。</strong>例如通过培训计划或指导提升技能，应该包括向人们传授战略，而不仅是职能技能。</p>
-<p><strong>匹配信息与时机</strong></p>
-<p>沟通战略往往涉及冗长、夸夸其谈的幻灯片演示或简短、乏味的在线声明。这些做法本身很少能产生影响变革所需的兴奋、参与、倡导或回忆。</p>
-<p>相反，可以把沟通过程设计为一系列强调简洁清晰且有吸引力的动态练习。这需要三个步骤：</p>
-<p><strong>● 规划好期望传达战略的关键时刻，或“可以留下深刻印象”的时刻，及相关人员。</strong>可以是面试新员工、对投资者的推介、董事会会议、对全体员工的讲话、团建活动或绩效评估时。</p>
-<p><strong>● 决定想强调的信息。</strong>如果对方是潜在的合作伙伴，你可以把重点放在未来的愿景和机会上；如果是面对管理者，则最好阐明做出的选择和改变，并鼓励他们做出自己的选择和改变。</p>
-<p><strong>● 选择最适合受众、时机和信息的工具或资产。</strong>在一对一谈话中，你可以用两分钟甚至更短的电梯游说，或者讲一段关于公司优势的趣事。面对更多受众时，用视觉化的方式描述战略元素，或者用一个故事来说明组织将如何克服挑战，都会很有效。在电子邮件中，你可以用一段话来概括战略，回答一些常见问题，并就战略对你的意义进行个人反思。</p>
-<p>在线交流的一个例子是英国电信集团(BT)在网站上使用视觉化方式连接了目标、雄心、价值观和战略。英国石油公司(BP)在精心撰写的新闻稿中阐述了战略，而雷诺汽车公司(Renault)则以高度视觉化、内容丰富的演示文稿介绍了“重振”计划。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_b4cdbfab4d2640c5b387021e2cf15d02@000000_oswg486906oswg850oswg478_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>通过透明度赋能员工</strong></h2>
-<p>战略沟通的责任通常被限定在少数人身上，这是基于两个错误信念：<strong>只有高层团队才有责任制定战略，以及战略太过复杂，其他人无法传达。</strong>信息的限制还基于另外两个错误信念：细节过多会分散人们的注意力，而竞争对手会因为了解更多战略而获得优势。</p>
-<p>这种方法限制了员工、合作伙伴、供应商和其他利益相关者为战略做出贡献、倡导和实践战略的机会。他们希望听取与他们密切合作的人的意见，而不仅仅是高层团队的意见，并了解全局。</p>
-<p>我共事过的一位CFO在电话和会面中强调了她和团队所做的事情对战略有何贡献。她还鼓励参与制定战略的人员在沟通计划中发挥重要作用，并在日常活动中充当倡导者。这些人包括在集体献策活动中贡献想法和观点的人，以及在战略设计中发挥核心作用的人，包括来自企业发展、销售、客户服务、运营和人力资源的代表。</p>
-<p><strong>以下方式可以帮助人们理解战略并做出自己的选择：</strong></p>
-<p><strong>● 尽可能多地分享战略，解释关键决策、做出的假设和不确定性。</strong>一站式提供资产和信息，方便人们选择他们感兴趣的东西。</p>
-<p><strong>● 描述重要决策</strong>，如新的投资、结束、重组或伙伴关系等会如何助力实现战略。</p>
-<p><strong>● 坦诚交流进展。</strong>分享并更新有效的措施与挑战，邀请大家提出想法。</p>
-<p><strong>● 明智地保留细节。</strong>只有在信息有可能过多、令人困惑，或会破坏商业活动（例如潜在的收购或新的风险投资）时，才限制信息。</p>
-<p><strong>● 创建开放的渠道。</strong>让人们容易分享想法、提出挑战和问题。</p>
-<h2><strong>重复，倾听，再刷新</strong></h2>
-<p>一项战略启动后，随着人们恢复到之前的习惯、做法和惯例，生活往往会回归“正常”，特别是在许多大型传统公司中。沟通逐渐消失。除了浪费精力，它还会减少组织韧性，让组织更容易受到破坏。</p>
-<p>在一个更为动荡和不确定的世界中，战略需要不断发展。因此战略的沟通要系统又灵活。这就要求：</p>
-<p><strong>● 在不同时间与不同利益相关者群体制定明确的沟通顺序，确保信息的明确性和一致性。</strong>研究表明，即使有最好的沟通和激励措施，养成一种新习惯也需要两个月的时间，所以这需要持续的努力，包括一些重复。当利益相关者开始使用同样的语言，并且最重要的是，开始自己选择关注的重点以及如何以不同方式工作时，你就会知道沟通正在产生共鸣。</p>
-<p><strong>● 提出问题以鼓励参与并克服障碍。</strong>想一想“我们可以采取哪些措施来加速改变？”或 “哪些减法可以让我们的生活更容易？”并仔细聆听答案。</p>
-<p><strong>● 追踪组织内外变化的微弱信号</strong>，这些变化会改变沟通的内容和性质，更不用说战略。例如消费者的情绪变化，或竞争对手的激进行为发生改变，沟通就应该强调战略韧性或变化原因。</p>
-<p><strong>● 突显并强调成功案例来强化信息，保持兴趣，并塑造承诺。</strong></p>
-<p>长久以来战略沟通都是事后诸葛。高管们或分享冗长又夸大其词的文件，或隐瞒了关键信息，还希望人们能“懂”。但这并不奏效。更大的外部不确定性、协作、员工焦虑和组织开放性都在要求改变沟通方法。上面五项行动将提高沟通的清晰度和质量，使人们能够对战略作出更实质和有意义的贡献。</p>
-<p><strong>关键词：战略</strong></p>
-<p>大卫·兰斯菲尔德（David Lancefield）| 文</p>
-<p>大卫·兰斯菲尔德是领导者的催化剂、战略师和教练。他为40多位CEO和数百名高管提供过建议，是Strategy&amp;的高级合伙人，也是伦敦商学院的客座讲师。</p>
-<p>贾慧娟 | 译  刘隽 | 校  孙燕 | 编辑</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY4MzQyMQ==&amp;mid=2650144844&amp;idx=1&amp;sn=7ef5eb67036ba1d1f408037cf06d214f&amp;chksm=bf569234d39750e4236235d188b43884e917f67e97f7e4612bc3dcaf9082272f6ca27b84021b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“哈佛商业评论”（ID：hbrchinese）</a>，作者：HBR-China，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065218741019782</guid><pubDate>Thu, 05 Dec 2024 09:55:00 +0800</pubDate></item><item><title>蔡司、索尼入局，国产强势起跑，手术机器人下一个爆发点来临</title><link>https://36kr.com/p/3065215696610434</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>达芬奇开创了手术机器人的时代，让微创方法实施复杂外科手术成为可能，经过20多年发展已更新至第5代，在泌尿外科、胸外科、妇产科、普通外科等腔镜手术中应用广泛。时至今日，腔镜手术机器人也已成为热门设备。</p>
-<p>不过，人体组织包含了众多精密的血管、淋巴管、神经等组织，在更微观的世界里维持人体运行，针对这些组织的手术，并非“达芬奇们”的强项。显微手术机器人的出现，弥补了现有手术机器人的不足。</p>
-<p>2024年，意大利手术机器人公司Medical Microinstruments（以下简称MMI）旗下的Symani显微手术机器人登上《时代》杂志“最佳发明产品榜单”，直接体现出这一产品的划时代意义。</p>
-<p>简单来说，<strong>显微手术机器人借助显微或超显微镜放大手术部位，运用传感设备缩小医生手部动作、滤除人手震颤，克服人手先天存在约100微米的生理抖动，达到对微小部位进行精细化操作的目的。</strong></p>
-<p>在一级市场，显微手术机器人已经引起资本关注，近两年来国内外多家公司完成大额融资。作为全球显微手术机器人明星公司，MMI2024年完成了1.1亿美元的C轮融资，用于加速其产品的商业化。在国内，昂泰微精、馥逸医疗、微眸医疗、迪视医疗相继完成新一轮融资，甚至一年内完成多次融资，淡马锡、红杉中国、比邻星创投等知名机构均在该领域押注。此外，索尼、蔡司等跨国巨头也已布局。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_c84fd1c2ae984c8cbf0dd10f975e801c@000000_oswg37565oswg751oswg670_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">近两年来显微手术机器人融资情况，资料来源：动脉橙数据库</p>
-<p>比邻星创投董事总经理孙珊珊告诉动脉网，<strong>显微手术机器人是一个竞争还不激烈，但临床应用价值高、市场潜力大，且技术壁垒高的领域。</strong></p>
-<p>的确，全球手术机器人市场竞争激烈，尤其是腹腔镜、骨科领域，而<strong>显微外科仍是蓝海，整形外科、眼科、耳鼻喉、神经外科、血管外科等多科室均有大量未被满足的需求。可以预见，显微手术机器人将成为下一个爆发的手术机器人领域。</strong></p>
-<h2><strong>显微手术机器人，不断挑战医学界的“不可能”</strong></h2>
-<p>继2019年获CE认证之后，2024年，MMI的Symani在美国获FDA批准上市，并进入亚太市场，至今已在35个国家和地区获得监管批准，全球商业化进程加速。除此之外，国内外其他公司相继投入显微手术机器人研发，在2024年获得突破性进展。</p>
-<p>2024年5月，索尼在ICRA2024（国际机器人与自动化会议）上展出了其研发的显微手术机器人原型机；该产品还配备了索尼半导体解决方案公司开发的1.3英寸4K OLED微型显示器，为显微外科手术提供更优质的视觉支持。</p>
-<p>Microsure旗下的MUSA-3也是在研产品之一。该公司上一代产品MUSA-2曾获CE认证，被用于各种临床研究，但已经停产；在MUSA-2基础上，MUSA-3增强了灵活度，还将外科医生的舒适度与改进的人体工程学相结合。</p>
-<p>在国内，昂泰微精、迪视医疗、馥逸医疗、深度医疗已布局显微手术机器人产品。其中，2024年，昂泰微精显微手术机器人进入动物实验阶段；迪视医疗显微手术机器人已获得注册检验报告，并完成了动物实验，正在准备人体临床试验。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_64e0eee28541499eae8d4ee10c73580d@000000_oswg201425oswg774oswg832_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">国内外部分显微手术机器人（“——”为暂未搜寻到相关公开资料），资料来源：企业官网、公开报道</p>
-<p><strong>与现有手术机器人相比，显微手术机器人最大的突破点在于运动缩放，并滤除人手细微震颤。</strong></p>
-<p>以索尼的显微手术机器人为例，外科医生在控制台上的手部动作，被机械臂手术器械尖端以大约1/2到1/10的缩小比例复制，从而实现对极微小部位的手术操作。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_f1cb2eeff48b45f08a04e802b44f627c@000000_oswg139739oswg1080oswg451_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">显微手术机器人运动缩放示意图，图片来源：索尼官网</p>
-<p>进行运动缩放及震颤滤除后，医生能操控显微手术机器人稳定夹持比头发丝还细的缝线，缝合1mm以下的血管、淋巴管或神经。例如，Symani可实现7到20倍的运动缩放，即使在最小的血管中也能使用8-0到12-0的缝线。</p>
-<p>在近期昂泰微精进行的动物实验中，医生借助显微手术机器人完成了0.6mm及0.5mm小鼠尾部血管缝合。以往，用小鼠尾巴血管练习稳定操作与精准缝合，几乎是显微外科医生的必经之路，一名合格显微外科医生需要进行长时间练习。</p>
-<p><strong>机械臂的自由度与手术操作灵活度密切相关，为了在显微或超显微场景下灵活完成手术操作，显微手术机器人尽可能设计了更多自由度。</strong>迪视医疗研发的显微外科手术机器人拥有近20个自由度，可辅助医生完成高难度、超显微精细灵巧操作。深度医疗的显微手术机器人具有双臂16自由度运动机械臂，能在手术中进行精准控制。</p>
-<p><strong>显微手术机器人除了手术部位的微小之外，设备本身较其他手术机器人也更小巧，便于高效安装，与其他手术设备共同工作，甚至是与其他手术机器人协同完成手术。</strong></p>
-<p>昂泰微精的显微手术机器人与达芬奇相比，体积缩小了7倍，可轻松集成到现有的手术室环境中，无需额外的空间改造，还可在不同手术室间进行便携移动。索尼的显微手术机器人也设计用于各种设施和手术场景，实现了控制台和机器人的尽可能紧凑。</p>
-<p>显微手术机器人在整形外科、耳鼻喉、神经外科、血管外科等领域均有极大应用价值，各家企业在研发过程中对手术场景进行验证，探索更大的应用范围。其中，已步入商业化的Symani则已有了更多临床案例，并基于更多适应症开展研究，可为其他产品带来参考。</p>
-<p>具体来说，Symani已应用到乳腺癌、淋巴水肿、头颈癌和创伤手术中，在全球范围内已有了1000个手术病例。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_857e03396ebb4eaca83409a93187db7c@000000_oswg59491oswg743oswg317_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Symani显微手术机器人的临床应用领域，资料来源：MMI官网</p>
-<p>2024年8月，MMI宣布已完成一项临床前研究，使用Symani在动物模型中成功修复了大脑中的血管，这是首次在大脑中进行此类机器人辅助显微外科手术演示。手术中，Symani使医生能在颅腔深处执行极其精细的动作，这是仅靠人手无法完成的，这为Symani的业务范围扩展到神经外科提供了可能性。</p>
-<p><strong>总的来说，显微手术机器人不断突破人类生理极限，一个又一个地挑战着医学界的“不可能”。</strong></p>
-<h2><strong>眼科演化出独立产品类型</strong></h2>
-<p>前文所述的显微手术机器人可应用于多个科室、多种手术场景，通常被称为通用型显微手术机器人。<strong>基于生理结构特征和手术需求的特殊性，显微手术机器人已在眼科演化出一大独立类型的产品：眼科显微手术机器人。</strong></p>
-<p>眼球结构复杂，遍布精细的血管网，视网膜部分的血管直径仅40-200微米，对手术的精度和操作稳定性要求极高。<strong>传统的人手操作在稳定性和精度上存在限制，尤其是目标微观结构的空间分辨率和深度感知不足，缺乏力感应，因为解剖所需的运动低于外科医生的感觉阈值。这使得眼科显微手术机器人成为一大主流研发方向。</strong></p>
-<p>迪视医疗创始人崔迪谈到，眼科显微手术机器人与通用型显微手术机器人在底层技术上有共同之处，包括高安全高精度的运动控制、柔性机器人本体机构设计、特有的器械加工工艺、手部震颤的精准过滤，并采用高速安全的主从控制方式等。“最大的差异在于，<strong>通用型显微手术机器人大多在体表或浅表部位手术，主要针对0.1mm以上的血管、淋巴管、输精管等吻合夹持剥离侧重高灵巧、高柔性操作；而眼科显微手术机器人需要进入眼球并在眼球腔体内手术，需要将巩膜刺入点作为远程中心不动点来穿刺剥离0.01-0.2mm的视网膜组织与血管，对手术机器人的精度控制与器械的精细加工工艺要求更高。</strong>”</p>
-<p>2019年，Preceyes BV研发的眼科手术机器人已获CE认证，2022年该公司被蔡司收购。此外，美国Horizon Surgical Systems、以色列ForSight、法国AcuSurgical，以及国内的昂泰微精、迪视医疗、微眸医疗、衔微医疗也研发了眼科显微手术机器人。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_5c32ab91541f4a609f680a6936781c28@000000_oswg90520oswg754oswg558_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">眼科显微手术机器人及产品特点，资料来源：企业官网、公开报道</p>
-<p><strong>视网膜下注射是重要的眼底给药方式之一，在多种眼底疾病的药物及手术治疗中发挥着越来越显著的作用。</strong>然而，视网膜静脉血管直径多在200微米之下，理想的手术精度为10微米，人手生理颤抖导致徒手注射难度极大，进针过深或过浅，注射量及注射压力控制不当都可能引发风险。因此，<strong>注射操作的精准、稳定、匀速极为重要，这也是眼科显微手术机器人的价值所在。</strong></p>
-<p>2024年6月，迪视医疗的“迪视微锋”眼科手术机器人启动了多中心注册临床试验，在首批入组病例的手术中，眼科专家操作机器人顺利完成了视网膜下精准注药辅助网膜下积血清除。目前，“迪视微锋”的注册临床试验已接近尾声。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241205/v2_5ba4d978d6794067acacaf21e1cc0f27@000000_oswg225787oswg394oswg405_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">“迪视微锋”进行视网膜下注射</p>
-<p>微眸医疗的眼科手术机器人也可实现药物的微量化注射和可视化操作，提升注射药物的成功率，让眼科手术的创伤更小、治疗更为精准。</p>
-<p><strong>膜剥离是眼科手术中另一大挑战极高的操作，眼科手术机器人的灵活性能更精准地完成这一任务。</strong>例如，Preceyes手术精度小于10微米，医生可以使用它进行黄斑前膜剥除、黄斑裂孔内界膜撕除等操作。</p>
-<p>此外，眼科显微手术机器人也可在玻璃体切割、白内障等手术中进一步提升手术精准度，改善手术结果的一致性。</p>
-<p>2024年7月，AcuSurgical 宣布成功完成其第一项使用 Luca手术机器人进行玻璃体切割术的临床研究。研究中，7名患者使用了Luca，手术均取得成功。Luca可以无缝集成到手术室工作流程中，并在一天内帮助医生完成多例手术，有效地执行了核心玻璃体切割术。</p>
-<p>2024年4月，ForSight 宣布其Oryom手术机器人已完成首例机器人白内障手术。Oryom具有14个微型自由度，能够执行精细任务，采用混合运动结构：允许医生在人眼内的任何点进行操作。手术医生对设备的评价是“非常灵活，准确度高”。</p>
-<p>与此同时，<strong>术中OCT、新型FBG材料、AI等产品和技术的创新，为眼科显微手术机器人的研发制造与临床应用创造了更优质的条件，将加快眼科显微手术机器人的研发应用。眼科显微手术机器人不仅会为眼科手术本身带来变革，还将带来新型给药方式的变革，如成为基因治疗和细胞治疗的给药手段。</strong></p>
-<h2><strong>同一起跑线，谁会是显微手术界的“达芬奇”？</strong></h2>
-<p>显微手术机器人对显微外科手术带来的变革意义是显而易见的，除了对手术本身的价值——提升操作精准度、改善手术结果的一致性、降低手术风险之外，还能大大缩短医生学习曲线，进而增加治疗资源供给。</p>
-<p>据MMI预计，到2028年，符合条件的机器人显微外科手术将增长到2200万例。未来，显微手术机器人还将促进微型器械的大力发展，相关市场不容小觑。</p>
-<p>“参考达芬奇手术机器人的模式，显微手术操作器械会更加微型化，夹取和剥离更脆弱的组织；材质会更柔软安全，提高手术安全性；器械会具有更高的耐用性从而单次使用成本更低；还可能产生一些显微外科的定制化器械，包括手持式器械、末端具有柔性与多自由度的器械等。”崔迪认为。</p>
-<p><strong>庞大的目标患者群，使得中国将成为全球显微手术机器人市场增速快、且占重要地位的一部分。</strong>从前文各家企业产品布局及研发进度的分析可以看出，显微手术机器人的市场格局与许多高端器械不同。对其他高端器械来说，通常是跨国公司产品已有多年应用，并在国内占据了较高市场份额，国内企业研发追赶，上市后逐步实现国产替代。</p>
-<p>而全球显微手术机器人初创公司中，MMI、Microsure以及聚焦眼科的Preceyes BV成立时间相对较早，产品进度相对更快；其他公司大多成立于2020-2021年前后，产品均处于研发阶段。</p>
-<p>尽管MMI的Symani已开启全球商业化进程，但即使该产品要布局中国市场，其从审批到上市仍需要时间。</p>
-<p>“国内研发进展较快的产品中，预计到2026年可注册申报，国外产品即使在国内注册大约也需两年时间。届时，国产与进口上市时间会很接近。而从目前能看到的适应症与功能来看，国内产品也不逊色于国外产品。”崔迪表示。</p>
-<p>孙珊珊则谈到，机器人是一个系统性的工程，当它整机变小、面向更微观的尺度时，其伺服电机、驱动硬件等都有别于传统机器人，虽然可借鉴工业机器人的底层技术，但还面临零部件精密加工及其材料方面的挑战；例如机械臂头端微小的手术器械，需兼顾产品的稳定性、类型多样性及成本控制等维度。</p>
-<p>在孙珊珊看来，与国外产品相比，国内产品甚至有所提升，如MMI的Symani虽然进行了迭代，但设计上整体偏向早一代产品，体型也比较大，国内产品在技术参数和适应症范围方面都有优势。<strong>“整体而言，全球市场都还处于不断打磨产品、探索临床应用的阶段，没有某一家或某一款产品形成主导。”</strong></p>
-<p>也就是说，<strong>国内显微手术机器人几乎与全球进度处于同一起跑线。在这一背景下，当前入局企业都有机会成为显微手术领域的“达芬奇”。</strong></p>
-<p><strong>接下来，各家企业将面临一场紧张的赛跑。</strong></p>
-<h3>参考资料</h3>
-<p>万光明，王明阳．重视视网膜下注射技术的临床应用［J］．眼科新进展，2024，44( 4) : 253-257．doi: 10．13389/ j．cnki．rao．2024．0050</p>
-<p>王昞，陈佩，雍红芳，等. 显微手术机器人系统在眼底病中的应用现状及进展 [J]. 机器人外科学杂志（中英文），2024，5（2）：186-193.</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTMyMDg0Ng==&amp;mid=2650657631&amp;idx=1&amp;sn=9a845085e29b5bbff0d98378fc8d5d1b&amp;chksm=bf1402b058101da327d8af2a333a6a42145242a3ebac8934f679598a12559127aa3b0ab4dbe5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“动脉网”（ID：vcbeat）</a>，作者：张晓旭，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3065215696610434</guid><pubDate>Thu, 05 Dec 2024 09:57:00 +0800</pubDate></item></channel></rss>
+<p>在近期举行的2025年亚太区及中国宏观经济及资本市场展望会上，高盛对未来12个月的A股及港股均给予“高配”建议。高盛预计，2025年MSCI中国指数和沪深300指数将分别上涨15%和13%，同时，中国上市公司的每股盈利（EPS）预计将增长7%至10%，上市公司回购的增加，将进一步支撑A股估值。</p>
+<p>但短期三个月内，高盛认为，A股表现或将优于港股，这主要由于政策刺激影响以及散户投资者资金流入对于A股影响会更为直接，同时港股更易受到汇率波动影响。</p>
+<p>此外，高盛还表示，政策引发的资金流调整可能在2025年加速，企业、境内个人投资者、南向资金和政府类投资机构可能加大股市持仓。</p>
+<h2><strong>2025年A股回购金额将翻倍</strong></h2>
+<p>高盛首席中国股票策略分析师刘劲津指出，2025年中国股票市场的主要推动力将是盈利增长。</p>
+<p>“当前，港股和A股市场的估值水平接近历史平均中位数，整体来看相对合理，但仍有一定的上涨空间。随着上市公司回购的增加，股价将得到进一步支撑。2024年，中国上市公司的回购金额已首次超过增发金额，预计这一趋势将在明年继续。2024年中国上市公司的回购总额将达到750亿美元，2025年或将翻倍，达到1500亿美元。”刘劲津表示。</p>
+<p>虽然高盛对未来12个月的A股与港股均为“高配”评级，但短期看来，预测A股的表现将优于港股。这主要是因为A股对政策放松和个人投资资金流的敏感性更强，而港股则受到汇率波动的影响较大。刘劲津表示，未来三个月，A股的表现预计将好于港股，主要得益于政策刺激和散户投资者资金的流入。</p>
+<p>从板块配置来看，高盛建议投资者关注医药、基础建设等政府投资消费领域，以及以新兴市场出口为主的企业和股东回报主题，这些领域在政策支持下有望获得显著增长。</p>
+<h2><strong>预计2025年中国经济将增长4.5%</strong></h2>
+<p>高盛首席中国经济学家闪辉预计，2025年中国经济将增长4.5%，内需和外需对GDP增速的贡献将发生轮动，经济动能将从出口转向内需。内需对经济的贡献将从2024年的3.6%上升至4.4%。在政策的扶持下，消费市场预计将得到一定提振，但消费复苏的过程可能较为缓慢，仍需劳动力市场和政策的支持。</p>
+<p>闪辉还提到，2025年中国的广义财政赤字率将从11.2%增长至13%，以支持经济增长。预计政府的发债规模将从2024年的9万亿元扩大至12万亿元，其中将有2.5万亿元的特别国债用于消费补贴、个体补贴及银行注资等。</p>
+<p>2025年，房地产市场仍是影响中国经济的重要领域。闪辉认为，中国房地产市场对GDP增长的拖累将在2024年-2025年达到顶峰，并在之后逐步降低。地方政府对存量房的收购有助于解决供给过剩的问题，但仍面临许多现实挑战。</p>
+<p>针对人民币未来的表现，闪辉表示，人民币可能会有4%-5%的小幅贬值，预计美元对人民币汇率在2025年将达到7.5，不过，汇率的具体变化将取决于资本外流压力和对经济的影响。</p>
+<h2><strong>内资的影响力可能进一步扩大</strong></h2>
+<p>考虑到外资目前对中国市场依然处于低配状态，高盛认为，内资明年对于市场的影响力可能进一步扩大。</p>
+<p>根据高盛提供的数据，在2020年后，海外对冲基金在中国市场上的配置经历了几轮快速波动，当前净多头/总敞口分别为7.1%/5.6%，处于5年平均值附近，反映其仍以短期机会为导向。长线资金方面，全球3.5万亿美元的共同基金资产对中国股票的配置同样不足。</p>
+<p>内资方面，受益于45万亿元人民币的家庭存款盈余和监管支持，投资者有较大潜力增加股票配置。当前，国家队持股约占A股市值的5.4%，未来可能通过国家稳定基金进一步加大参与力度。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwNzY5NDI0Mw==&amp;mid=2247521085&amp;idx=1&amp;sn=daa14c62aa6ca9c8ca78e8c181ebc774&amp;chksm=c1127715372351c1858339130a56bf1acc6829475818ee34fbeb1e294628acdb54d1e962256b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“读数一帜”（ID：dushuyizhi007）</a>，作者：成孟琦，编辑：郭楠，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3064696552236163</guid><pubDate>Thu, 05 Dec 2024 10:28:00 +0800</pubDate></item></channel></rss>
