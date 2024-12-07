@@ -1,52 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 07 Dec 2024 10:00:27 +0800</lastBuildDate><pubDate>Sat, 07 Dec 2024 10:00:27 +0800</pubDate><item><title>硅谷芯王，为什么是黄仁勋？</title><link>https://36kr.com/p/3066980997149313</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>科技圈“教父”的头衔一直在轮转——新千年的第一个十年属于乔布斯，第二个十年被马斯克占据，最新的十年，这个头衔跟黄仁勋的名字绑在了一起。</p>
-<p>为什么是黄仁勋？一个10岁时移民美国的少年，曾经误入一所青少年行为矫正学校，是如何挺过来并变成出类拔萃的行业翘楚的？工程师出身的他是如何利用优秀的自学能力成为令对手生畏的企业家的？他主动出击的风格如何与众不同？为何黄仁勋力排众议支持CUDA并以此甩开了竞争对手、独步江湖？黄仁勋给予厚望的并行计算是如何等到了AlexNet神经网络研究的突破，并引发人工智能的爆发的？</p>
-<p class="image-wrapper"><img data-img-size-val="1188,1392" src="https://img.36krcdn.com/hsossms/20241206/v2_5564957a3ba6435892f7c7792b7f78e9@5667365_oswg3015777oswg1188oswg1392_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1"/></p>
-<p>[美]斯蒂芬·威特著</p>
-<p>周健工译</p>
-<p>湛庐文化/中国财政经济出版社出品</p>
-<p>趋势观察家、知名科技记者斯蒂芬.威特详细呈现在其最新力作《黄仁勋：英伟达之芯》中为我们揭秘黄仁勋的传奇人生、管理之道、技术之思以及英伟达的商业秘密，作为首部真正独家授权采访传记，黄仁勋亲述并亲荐200位受访者，英伟达给予从未有过的访问权限，书中呈现了一个“过于”真实的黄仁勋和他的英伟达。</p>
-<p>黄仁勋伟大的创业故事还在继续，它的起意、发生、发展，正在颠覆我们现在所熟悉的一切，而你将从《黄仁勋：英伟达之芯》窥见未来的可能性，从黄仁勋的经历中获得启发和动力。</p>
-<p>1、天生领袖者</p>
-<p>我当时就决定不能让他们离开我的办公室，我要让他们留下来与我合作。——吉姆·盖瑟</p>
-<p>黄仁勋就是那种天生的领袖，你会愿意跟着他赴汤蹈火。——比尔·戴利</p>
-<p>黄仁勋、普里姆和马拉科夫斯基一同走进律师吉姆·盖瑟的办公室，准备注册公司。盖瑟经验丰富，是硅谷最受欢迎的顾问之一。他对这几位创业者印象深刻，尤其是黄仁勋，因为黄仁勋给他留下了一个天生领导者的印象。</p>
-<p>后来，在黄仁勋想挖比尔·戴利的时候，英特尔给戴利开出了更诱人的条件。戴利犹豫了一阵，最终还是选择了加入当时还在亏损的英伟达。那时，英伟达的股价已经跌到了个位数，大家都觉得戴利疯了。但戴利却毫不动摇：“黄仁勋就是那种天生的领袖，你会愿意跟着他赴汤蹈火。”</p>
-<p>与英伟达高管们交谈时，能感受到他们严明的纪律性：黄仁勋把他们管理得如同紧绷的钢琴弦一般。他们自信、聪慧，对每一个细节都准备得异常充分。那些高管们不愿意探讨他们正在研发的技术可能带来的未来影响。那种不情愿，已经成为了一种不安和恐惧。比起担忧技术会灭绝人类，高管们更害怕黄仁勋的严厉训斥。</p>
-<p>2、工程化自我</p>
-<p>现在，他依然在这样做，只不过他正在“工程化”的是自己。他并非生来就是一位伟大的CEO，也并非注定会成为这样的人。他通过不断的抽象思考，通过解决一个好CEO应该具备的输入和输出问题，把自己变成了这样一个人。——詹斯·霍斯特曼</p>
-<p>从一开始，詹森就是一位世界级的工程师，他能够预见什么是可能的。——坦奇·考克斯</p>
-<p>他在技术方面的洞察力极为深刻，总能提出关键问题。有时他甚至能在你自认为是专家的领域里抢占先机。——比尔·戴利</p>
-<p>黄仁勋的思维方式并不像商人，而是更像工程师。他擅长将复杂的概念简化为基本原则，并运用这些原则创造出卓越成果。对黄仁勋而言，做出决策需要冷静分析，容不得希望等无用的情感因素的干扰。对他而言，商业不过是另一个工程问题。工程师们试图将复杂问题简化为基本原则，进而利用这些原则产生强大的效果。若要创办初创公司，黄仁勋的首要任务是掌握这些原则。</p>
-<p>黄仁勋之所以能在并行计算、人工智能、Omniverse等他人失败的领域取得成功，源于他不容忍对未来进行毫无根据的臆测。他总能冷静地从基本原理出发去审视技术，既不受乐观情绪影响，也不被恐惧所左右，仅凭一种冷静且耐心的商业逻辑，将企业远见推至极限。除此之外的一切，他既不看也不去想象。唯有在理性的边界，他才允许自己稍作逾越，涉足那朦胧未知的领域。</p>
-<p>3、光速主义者</p>
-<p>我总是要确保自己工作到筋疲力尽，这样到了晚上，就再也没有什么能让我失眠的了，这真的是我唯一能掌控的事情。——黄仁勋</p>
-<p>他在周五晚间发了封电子邮件，说我们将全面转向深度学习，不再只是一家图形芯片公司，到了周一早上，我们已经转型为一家 AI 芯片公司。真的，转变就这么快。——格雷格·埃斯特斯</p>
-<p>这个方法听起来好像很难，但实际上，它真的能帮你减轻不少压力。因为一旦你明白了物理上的极限在哪里，你就会知道，你的竞争对手也不可能比你更快。——德布·舒奎斯特</p>
-<p>舒奎斯特着手压缩英伟达的生产周期，从原先的数月缩减至数周，最终创下了13天的新纪录。在激励舒奎斯特的过程中，黄仁勋采用了一种名为“光速”的调度策略。他满怀热情地将这一管理理念灌输给每一位员工。在英伟达，几乎每位与我交谈过的人都至少提及过一次“光速”。“光速”这个词，并不像大家普遍认为的那样，只是单纯指速度快。黄仁勋所倡导的“光速”，是希望经理们能够设想到，在没有任何限制、一切条件都最理想的情况下，某项任务能够完成的最快速度。有了理想化的速度作为参照，经理们就可以根据实际情况，制定出一个既切实可行又能让人眼前一亮的交付时间表。黄仁勋每天都在努力追求这个看似遥不可及的“光速”目标。</p>
-<p>4、远见与冒险</p>
-<p>黄仁勋是个富有远见的人，正是他让我的毕生研究得以实现。——邱定伟</p>
-<p>他迅速就明白了，比所有人都快，他是首位发现其潜力的人，真的是首位。——戴维·柯克</p>
-<p>倘若我们未能重新塑造计算机图形技术，倘若我们未能重塑自我，并拓展处理器可实现的领域，我们终将沦为平庸而消逝。——黄仁勋</p>
-<p>黄仁勋深信：在某个角落，定有某位狂热者，其理念将通过CUDA得以验证；在某处，定有某位研究生将跳过烦琐的资助申请，用微薄的生活津贴换购一个英伟达GPU，从而掀起一场技术革命；在某处，定有某个被忽视的科学领域，正静候CUDA的强力加持，以彻底颠覆旧有范式。</p>
-<p>黄仁勋断定：神经网络将彻底变革社会，而他可以通过CUDA在必要的硬件市场中占据重要地位。他宣告自己将举公司之力投入这个项目的发展。英伟达迅速从一家形芯片公司转型为AI芯片公司。</p>
-<p>黄仁勋的宏伟愿景，是将英伟达的计算机图形研究与生成式AI研究相融合。当这些技术汇聚一堂，用户只需简单的语音命令，便能创造出完整的宇宙。深度学习与英伟达的业务契合得如此完美，简直令人难以置信。而黄仁勋则将其称为“基于愿景的运气”。</p>
-<p>5、坚持主义者</p>
-<p>他的爱好就是工作、发电子邮件，然后再工作。——德怀特·迪克斯</p>
-<p>我们其他人的工作，仅仅是为了减轻詹森的负担而已。——比尔·戴利</p>
-<p>黄仁勋远离纷争、以身作则、勤奋工作、远离八卦，也不居功自傲。每当产品面临延期或无法兑现某些承诺的功能时，他总是会迅速提供详尽的解释，阐明问题的根源、责任人以及他打算如何解决问题。每当他说他要做什么时，最终都很有可能做成。</p>
-<p>倘若说他的生活有一个贯穿始终的主题，那便是“放大”；他一次又一次地执行着勤奋、勇气和掌握基本原则的简单准则，成效越来越大。当他决心提升自己时，便会全神贯注、心无旁骛。他比任何人都更努力，似乎从不会感到沮丧或陷入困境，他从未陷入过止步不前的境地。相反，黄仁勋总是带有一种适度的满足感，耐心地专注于打磨基本功，并逐步将这些转化为实战技能。</p>
-<p>6、超绝意志者</p>
-<p>我渴望活下去的意志，超过几乎所有人想要杀死我的意志。我希望各位有机会经历大量的痛苦和磨难。成功不是来自于智慧，而是来自于性格，而性格是经历苦难塑造出来的。——黄仁勋</p>
-<p>对自己期望非常高的人，往往韧性也低，不幸的是，韧性对带来成功至关重要。我最大的优点之一就是，我的期望很低。——黄仁勋</p>
-<p>黄仁勋坚定地开发并行计算，尽管之前每个尝试将其商业化的人都以失败告终，但他还是勇敢地与华尔街背道而驰，10多年来一直坚定自己内心的想法。这期间，英伟达的股价萎靡不振，他也不得不抵挡住恶意收购者的攻势。直到2012年，多伦多的一群学者购买了两张消费级视频游戏显卡，用于训练神经网络。当黄仁勋看到神经网络在他的并行计算平台上训练速度如此之快时，他毅然决定将整个公司的命运押注在这种意想不到的共生关系上。这一大胆的企业战略押注成功，英伟达的市值飙升了数百倍。如今，所有主流的人工智能应用，都是在英伟达的机器上开发出来的。正是由于算力成千亿倍的增长，才使得现代人工智能的繁荣成为可能。凭借在硬件上近乎垄断的地位，黄仁勋无疑成了人工智能领域最有影响力的人物之一。</p>
-<p class="image-wrapper"><img data-img-size-val="1188,1392" src="https://img.36krcdn.com/hsossms/20241206/v2_7c531d062d2e448390ee016c42c2ba18@5667365_oswg3015777oswg1188oswg1392_img_png?x-oss-process=image/quality,q_80/format,jpg/interlace,1"/></p>
-<p>[美]斯蒂芬·威特著</p>
-<p>周健工译</p>
-<p>湛庐文化/中国财政经济出版社出品</p>
-<p>——本文选自《黄仁勋：英伟达之芯》，[美]斯蒂芬·威特著，周健工译，湛庐文化/中国财政经济出版社出品</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3066980997149313</guid><pubDate>Sat, 07 Dec 2024 08:00:00 +0800</pubDate></item><item><title>9.9元的健身体验课，被年轻人薅疯了</title><link>https://36kr.com/p/3067517301093254</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 07 Dec 2024 10:30:26 +0800</lastBuildDate><pubDate>Sat, 07 Dec 2024 10:30:26 +0800</pubDate><item><title>9.9元的健身体验课，被年轻人薅疯了</title><link>https://36kr.com/p/3067517301093254</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_28e6f725cf334a11a00de32d27757d38@000000_oswg200916oswg1080oswg1482_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_b1ff107cc9fb42309c5178e5f1aef0ea@000000_oswg17025oswg1080oswg287_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p>「薅羊毛的风还是吹到了健身房。」</p>
@@ -542,4 +495,30 @@
 <p>当然，任何行业都有马太效应，行业下行通常对中腰部公司影响更大，中小公司或在新一轮洗牌中被淘汰出局。</p>
 <p>不过，值得一提的是，尽管长剧承压成为一种共识，但谈论“长剧将死”还尚早。编剧小慧称，也有公司逆势入局，像以综艺制作公司为主的米未传媒，最近也开始筹备长剧，要做喜剧长剧了。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU5MTczNjIyNA==&amp;mid=2247601834&amp;idx=1&amp;sn=3f0740a780f2ff77150fe3a0e7871a9f&amp;chksm=ffc397ea65399771a0fd6df60e60ea0708cf855d42669a359ac79795325bdaeabb171b0d3c9f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Tech星球”（ID：tech618）</a>，作者：翟元元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3067274649219969</guid><pubDate>Sat, 07 Dec 2024 09:30:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3067274649219969</guid><pubDate>Sat, 07 Dec 2024 09:30:00 +0800</pubDate></item><item><title>卖广告可解OpenAI燃眉之急，但怎么做有讲究</title><link>https://36kr.com/p/3067248727552645</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>要说互联网世界有什么能够做到永恒，这个问题其实并不难回答，即便煊赫如BAT、Mag7都有被颠覆的可能，毕竟此前曾有雅虎的前车之鉴，但真正亘古不变的只有广告。一家在互联网上提供服务的公司或许没有电商业务、也做不来游戏，但卖广告几乎就是与生俱来的能力。</p>
+<p>如今，AI行业也开始被广告渗透。继AI搜索独角兽Perplexity之后，作为行业标杆的OpenAI也开始准备卖广告了。</p>
+<p class="image-wrapper"><img data-img-size-val="600,337" src="https://img.36krcdn.com/hsossms/20241206/v2_932f31f75d60437ba3743e16cab758c0@5091053_oswg37235oswg600oswg337_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>日前，OpenAI首席财务官Sarah Friar在接受《金融时报》的采访时表示，该公司正考虑在ChatGPT中投放广告以支持其成本。Sarah Friar还透露，自己与首席产品官Kevin Weil在广告方面都有经验，其中Kevin Weil来自Meta的Instagram团队，对于广告投放有着丰富的实操经验，这对于OpenAI来说可能是有用的知识。</p>
+<p>尽管目前OpenAI还没有进军广告领域的积极计划，但如果最终决定在ChatGPT投放广告，则很可能会被用于非付费客户。</p>
+<p>在ChatGPT两周年之际，OpenAI为用户准备的礼物居然是广告，这无疑是一个黑色笑话。ChatGPT被广泛认为是有史以来增长最快的消费级应用，只用短短两个月用户数就达到了1亿，它本身史无前例的自然语言交互无疑是关键，但完全免费绝对是促使大量用户积愿意去极尝鲜的重要因素之一。</p>
+<p class="image-wrapper"><img data-img-size-val="600,329" src="https://img.36krcdn.com/hsossms/20241206/v2_0297dcd9683543d3b5724378c98510c0@5091053_oswg28890oswg600oswg329_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>如果ChatGPT的免费用户需要体验广告，显然就将会是一个天翻地覆的变化。要知道ChatGPT的用户画像与TikTok、Instagram、X完全不同，它更像是一个生产力应用、而非娱乐向产品，用户打开ChatGPT的目的并不是为了找乐子，而是希望借助AI来辅助自己的工作、生活、学习，这也是为什么ChatGPT会更受学生和上班族青睐的原因。</p>
+<p>现阶段OpenAI以订阅服务为核心的付费模式，就正是基于用户群体的特点制订，但根据官方公布的数据显示，ChatGPT每周有2.5亿活跃用户，付费用户仅占5%至6%‌。这样的数据其实只有两种可能，其一是OpenAI的市场教育不成功，“AI改变生活”并未深入人心，其二则是ChatGPT免费提供的能力就已经可以满足大部分用户的需求。</p>
+<p class="image-wrapper"><img data-img-size-val="600,339" src="https://img.36krcdn.com/hsossms/20241206/v2_9e29d25c4e514fc6a11c6c751388b6fe@5091053_oswg23683oswg600oswg339_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>显而易见，在过去两年里，网络中关于AI的新闻可谓是铺天盖地，即使再迟钝的人也不会对其一无所知。而导致用户对ChatGPT Plus不感冒的因素，是免费的ChatGPT就已足够，以至于大量用户并未曾完成“你不知道需要它，直到你拥有了它”这样的转变。</p>
+<p>OpenAI当然也不能搞负优化ChatGPT这种自绝于用户的操作，毕竟这对于公司的商誉可以说是毁灭性打击。然而OpenAI也不能继续无动于衷，此前在今年夏季，海外媒体The Information就曾做出OpenAI今年亏损可能高达50亿美元，现金流或将在未来一年内耗尽的预测。</p>
+<p class="image-wrapper"><img data-img-size-val="600,378" src="https://img.36krcdn.com/hsossms/20241206/v2_68423fc01f714f188e6c2fe3e7f8bca1@5091053_oswg27146oswg600oswg378_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在10月完成了最新一轮66亿美元的融资后，OpenAI方面也做出了预测，在2023年至2028年期间，其总亏损或将达到440亿美元，直至2029年才能实现140亿美元的利润。换而言之，贵为当下AI行业NO.1的OpenAI确实在经营着一门大生意，在疯狂赚钱的同时也面临着海量的亏损，所背负的盈利压力更是难以被忽视。</p>
+<p>那么问题就来了，OpenAI如果想要赚更多的钱，并不是只有广告这一条路可选，比如从更有钱的企业客户身上赚钱显然就是个更好的选择。事实上，Sarah Friar此前在拉斯维加斯金融科技展（Money 20/20）上透露的另一个信息，就决定了目前只有广告能立竿见影地解决OpenAI现在的问题。</p>
+<p class="image-wrapper"><img data-img-size-val="600,536" src="https://img.36krcdn.com/hsossms/20241206/v2_1bc5d6c7e65e4dfa9d51a9870b6d9ae0@5091053_oswg35628oswg600oswg536_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>从B端赚钱其实一直是AI行业向资本市场画出的大饼，从初创企业到巨头莫不如此。可是Sarah Friar给出的数据，是OpenAI约75%的营收来自消费者订阅、远高于分析师预测的55%，并且面向B端的API业务对收入的贡献虽然很大、但利润很低，所以这也是OpenAI方面更愿意从活跃用户身上赚钱的原因。</p>
+<p>OpenAI的toC业务远强于toB业务这件事，虽然看起来与大众的认知大相径庭，但其实也有合理性。虽然通过“AI赋能”来提升企业的生产效率，是AI业界在过去数年反复讲的一个故事，可如果传统企业真的有引进AI的需求，又为什么一定要找OpenAI这种新贵，而非微软、亚马逊这种Old Money呢？</p>
+<p class="image-wrapper"><img data-img-size-val="600,413" src="https://img.36krcdn.com/hsossms/20241206/v2_9f55d017c47543ba94e9d35a6b335654@5091053_oswg17232oswg600oswg413_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>继续提升ChatGPT Plus的渗透率以及扩张企业客户规模对于OpenAI来说其实都是正途，只是正确并不意味着容易，反而是给免费用户弹广告效果会立竿见影，且用户的抵触心理也不会增加。毕竟在经过过去二十余年各路互联网厂商的教育，用户早习惯了“免费+广告”这一组合。</p>
+<p>免费获得互联网服务、只是需要接受广告的存在，从Facebook、Instagram、Google Search、X到YouTube都是如此，甚至曾经高呼不要广告的Netflix如今都对广告说出了“真香”，低价的含广告订阅服务（Basic with ads）如今已然成为了Netflix新的增长引擎。</p>
+<p class="image-wrapper"><img data-img-size-val="600,337" src="https://img.36krcdn.com/hsossms/20241206/v2_d7092982228b4f018aec88a096769a30@5091053_oswg17908oswg600oswg337_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当然，推出广告业务确实能立竿见影地改善OpenAI的困境，只是广告也是有代价的。众所周知，AI产品需要收集用户不少数据才能更好地进行服务，可这广告一加进来局面就大有不同了。毕竟广告商都想把广告推送给对的人，那么OpenAI方面会不会为了多赚广告费，选择与广告商共享数据呢？</p>
+<p>事实上，隐私和安全是横亘在OpenAI与广告之间的两颗绊脚石，不将它们搬开就贸然开展广告业务，或许会是自取灭亡。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/23p_YgdZ5kyhE6DqSdvk3g" rel="noopener noreferrer nofollow" target="_blank">“三易生活”</a>，作者：三易菌，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3067248727552645</guid><pubDate>Sat, 07 Dec 2024 10:00:00 +0800</pubDate></item></channel></rss>
