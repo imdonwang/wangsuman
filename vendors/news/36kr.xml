@@ -1,347 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 09 Dec 2024 07:00:25 +0800</lastBuildDate><pubDate>Mon, 09 Dec 2024 07:00:25 +0800</pubDate><item><title>AI写小说有多离谱？用四种文风演绎马斯克 VS OpenAI大戏</title><link>https://36kr.com/p/3069637320848261</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ljfw5aU8Zbb6jt2M11DnGg" rel="noopener noreferrer nofollow" target="_blank">“硅星GenAI”</a>，作者：周一笑，36氪经授权发布。</p>
-<p>马斯克与OpenAI的法律纠纷（扯皮）还在继续。最新的进展是，马斯克的律师团队向美国联邦法院申请了初步禁令，要求法院阻止OpenAI转变为一家完全以营利为目的的企业。</p>
-<p>要不是这次马斯克和OpenAI的官司曝光了一堆相关的私密邮件，我们可能还不知道马斯克和OpenAI之间相爱相杀背后有这么多细节。</p>
-<p>通过这些邮件记录，已经有不少媒体尝试拼凑出一幅更完整的故事。</p>
-<p>作为吃瓜群众，在阅读了部分邮件和相关梳理之后。好家伙，这哪是什么商业纠纷啊，简直就是一部集理想、背叛、权力、金钱于一身的硅谷版《权力的游戏》，于是，我脑子里忽然冒出一个想法：</p>
-<p>既然这是一场关于AI的故事，何不让AI来扮演不同的作家，用不同的风格，还原一下案发现场，甚至重新演绎一下这场大戏？</p>
-<p class="image-wrapper"><img data-img-size-val="750,1061" src="https://img.36krcdn.com/hsossms/20241208/v2_7bfc9145cd6744999816fb73cdce5ba9@5595930_oswg900623oswg750oswg1061_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>说干就干，考虑到ChatGPT作为利益相关方可能需要回避一下，这次我们选择了Claude（其实就是更好用）。</p>
-<h2><strong>#01 第一回合：鲁迅</strong></h2>
-<p>第一回合是让擅长写作的Claude 3 Opus用鲁迅的风格来写，参考了Rowan Cheung让AI模仿任何写作风格的prompt。</p>
-<p class="image-wrapper"><img data-img-size-val="750,405" src="https://img.36krcdn.com/hsossms/20241208/v2_c37033ad5c584871b4fcf67d1afd62dc@5595930_oswg287815oswg750oswg405_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>没想到Opus直接罢工了，似乎是因为模型能力太强，为了规避版权风险进行了限制。</p>
-<p>不过在切换到最新的Claude 3.5 Sonnet之后，问题解决了。发了鲁迅的三篇小说给Claude，它对鲁迅的文风进行了总结：</p>
-<p class="image-wrapper"><img data-img-size-val="750,588" src="https://img.36krcdn.com/hsossms/20241208/v2_90f9720b8d1c4579a125bdd991d0e02f@5595930_oswg291590oswg750oswg588_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>然后把邮件内容给Claude，让它按照要求把小说写出来：</p>
-<p class="image-wrapper"><img data-img-size-val="750,311" src="https://img.36krcdn.com/hsossms/20241208/v2_5e0d790b302b40a6a16588518fd7a12e@5595930_oswg144771oswg750oswg311_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="750,291" src="https://img.36krcdn.com/hsossms/20241208/v2_d28ec2a2a28e45f1ad6627f77d7b0210@5595930_oswg183830oswg750oswg291_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Claude写了一篇名为《理想的囚徒》的小说，全文如下： </p>
-<h3><strong>《理想的囚徒》</strong></h3>
-<p>老陶是个手艺人,专门给人修理自行车。他的车摊就设在镇上最热闹的十字路口,一张破木板搭在两个砖墩上,上面摆着各式各样的工具。虽说是热闹地段,可他的生意却不见得有多好。倒不是他手艺不精,而是这镇上的人骑自行车的越来越少了,都改骑电动车去了。</p>
-<p>老陶有个梦想,要造一辆最好的自行车。这自行车得轻便,骑起来不费劲;轮子要转得快,但又不会失控;最重要的是得便宜,让穷人也买得起。他把这想法跟隔壁卖茶叶的老王说了。</p>
-<p>"你这是痴人说梦,"老王摇头笑道,"现在谁还骑自行车?再说了,就你这点本钱,能造出什么名堂来?"</p>
-<p>但老陶不死心。他找到了镇上开五金店的小李。小李年轻气盛,一听这主意就来了精神,"好啊!我出钱,你出力,咱们合伙干!"</p>
-<p>于是两人搭伙开了个作坊。小李从外地进了一批材料,老陶则熬夜研究设计图。镇上人都说他们傻,可他们却干得热火朝天。</p>
-<p>作坊开张不到半年,他们真造出了一辆样车。轻便结实,骑着确实比普通自行车舒服。老陶高兴得像个孩子,天天骑着在镇上转悠,逢人就夸。</p>
-<p>这时候,县城里一家做电动车的大厂看中了他们的设计。厂里派人来谈,说要投资扩大生产。老陶琢磨着,有了资金支持,造出来的车就能让更多人买得起,这不正合了他的心意?</p>
-<p>可小李却有别的打算。他觉得这是发财的好机会,主张把价钱抬高,卖给有钱人。两人争执不下,老陶一气之下,把自己的那份转让给了大厂。</p>
-<p>后来,那种自行车真的在县城里热销起来。可价钱比老陶想的高出好几倍,普通工人哪买得起?而且为了赶产量,质量也大不如从前了。老陶看在眼里,疼在心里。</p>
-<p>他索性不管那些了,继续蹲在他的小摊子上修车。有人问他后悔吗,他摇摇头:"我就想造一辆大伙都骑得起的好车,可惜这世道,理想总是关不住的囚徒。"</p>
-<p>傍晚时分,老陶收摊回家。路过那家电动车门市部,玻璃橱窗里陈列着他设计的自行车,车身锃亮,标签上的价格刺眼。一个小孩趴在橱窗上看得出神,老陶笑了笑,默默骑着他那辆补了又补的旧车离开了。（完）</p>
-<p>好吧，AGI被写成了造车的故事，造的还是自行车，可能是prompt给的不够明确，这次我们让Claude写一个更“真实的版本”。</p>
-<p class="image-wrapper"><img data-img-size-val="750,375" src="https://img.36krcdn.com/hsossms/20241208/v2_22f4a781af174f24b82a8d4bfb07106d@5595930_oswg216763oswg750oswg375_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这个版本缺了点“鲁迅风”，我们让Claude继续完善。</p>
-<p class="image-wrapper"><img data-img-size-val="750,569" src="https://img.36krcdn.com/hsossms/20241208/v2_1ecac78c195d440a8074ee74ac7d9bbd@5595930_oswg270464oswg750oswg569_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>《 理想主义者的黄昏》</strong></h3>
-<p>一二〇一五年的山景城,空气中弥漫着人工智能的狂热。谷歌刚刚宣布他们的AlphaGo击败了欧洲围棋冠军,整个硅谷为之沸腾。而在一间不起眼的咖啡馆里,萨姆正反复修改着那封即将改变他命运的邮件。</p>
-<p>萨姆生得白净,却总是一副心事重重的样子。他年纪轻轻就已经坐上YC的总裁位置,见惯了无数创业者的得意与失落。但这一次,他要做的不是投资与孵化,而是一场改变人类命运的豪赌。</p>
-<p>"人类是否能阻止人工智能的发展?"他在邮件里写道,"答案几乎是否定的。如果这项技术注定要出现,那么最好由我们来做,而不是谷歌。"</p>
-<p>这封邮件发给了伊隆。那时的伊隆正忙于他的电动车和火箭,但人工智能的威胁一直萦绕在他心头。他很快回复:"值得一谈。"</p>
-<p>就这样,OpenAI在一个雨天诞生了。他们租下了山景城的一座旧楼,成了第一批员工的根据地。这些来自世界各地的天才们,大多放弃了谷歌、脸书开出的高薪,为的就是一个共同的理想:确保人工智能的力量不会被垄断,而是能造福全人类。</p>
-<p>二伊利亚是团队里最特别的一个。他原本是谷歌最顶尖的研究员,年薪百万美元起,却毅然决然地加入了这个非营利组织。谷歌出动了重兵挽留,派人在学术会议上"围堵"他,开出令人咋舌的价码。但伊利亚只是淡淡一笑,"金钱不是问题的关键。"</p>
-<p>"你们看过'终结者'吗?"伊利亚在一次内部会议上问道。他比划着手势,黑框眼镜上映着电脑屏幕的蓝光。"如果我们让AI的力量集中在少数公司手里,未来可能比电影里还要可怕。"</p>
-<p>格雷格也是这样。这个总是穿着格子衫的程序员,放弃了世界级科技公司的邀请,选择了这个连办公桌都是二手的实验室。他们的工资比外面同行少了一大截,但每个人眼中都闪着理想的光芒。</p>
-<p>三伊隆是个风风火火的主儿。虽然名义上是董事会主席,但他的性格却像个永远在前线冲锋的战士。有一回,听说微软想和OpenAI合作,开出了六千万美元的条件。</p>
-<p>"这让我感到恶心。"伊隆直截了当地说。他指着合同里那些冠冕堂皇的营销条款,"他们想让我们变成他们的传教士。"</p>
-<p>萨姆只好重新谈判,最后达成了一个松散的合作:微软可以提供计算资源,但不能干涉研究方向。这件事让伊隆对团队的发展方向产生了深深的担忧。</p>
-<p>四二〇一七年是个转折点。随着研究的深入,资金问题越发严重。一台训练AI模型的机器每月就要烧掉几十万美元,而捐赠总是杯水车薪。团队里开始有了不同的声音。</p>
-<p>有人提议转为营利性机构。开始时只是私下的讨论,后来渐渐成了公开的争论。伊隆坚决反对,他说这会背离初衷。但其他人的态度暧昧——毕竟理想很美好,现实却很骨感。</p>
-<p>一天夜里,伊隆收到了一封来自伊利亚和格雷格的长邮件。邮件开门见山:"我们对公司的未来有些担忧需要说明......"</p>
-<p>这封诚恳的邮件反而成了压垮骆驼的最后一根稻草。</p>
-<p>"够了,"伊隆简短地回复,"要么保持非营利性质,要么你们自己另起炉灶。"</p>
-<p>五二〇一八年二月的一个清晨,伊隆正式递交了辞呈。当天,安德烈发来了一份数据图表,显示谷歌在AI领域的论文数量已经远超其他所有机构的总和。</p>
-<p>"OpenAI正在走向失败,"伊隆给核心团队写道,"除非采取戏剧性的行动,否则除了谷歌之外的所有人都将沦为无关紧要的配角。"</p>
-<p>没人回复这封邮件。</p>
-<p>一年后,OpenAI宣布成立营利性子公司。新闻见报那天,伊隆在推特上留下一句话,要求明确他与营利部门没有任何关系。这句话像一记耳光,打在那些曾经共同憧憬未来的面孔上。</p>
-<p>如今的OpenAI已经不是当年那个寒酸的实验室了。他们有了新的办公楼,和微软的合作也越来越密切。每当月亮升起,山景城的夜空被硅谷的霓虹照得通明。偶尔路过的人,或许会听到办公室里传来的欢笑与争论。但再也找不到当初那群不顾一切追逐理想的年轻人了。</p>
-<p>他们说,这就是时代的进步。可是伊隆始终认为,这不过是理想主义者的又一次黄昏。而在硅谷的某个角落,一支新的队伍正在集结,准备重新点燃那盏理想的明灯。只是这一次,故事或许会有不一样的结局。</p>
-<p>（完）</p>
-<p>小说用了创业逆袭的经典叙事，结果中途就资金链绷不住了，不过说好的鲁迅风呢？</p>
-<h2><strong>#02 第二回合：博尔赫斯</strong></h2>
-<p>可能Claude对鲁迅不太熟悉，换个西方的作家试试，这次用了博尔赫斯的文本让它学习风格。</p>
-<p class="image-wrapper"><img data-img-size-val="750,606" src="https://img.36krcdn.com/hsossms/20241208/v2_ace26794c08e4778b47a9323994c9813@5595930_oswg283971oswg750oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Claude依旧“擅作主张”对博尔赫斯的风格进行了总结。</p>
-<p class="image-wrapper"><img data-img-size-val="750,241" src="https://img.36krcdn.com/hsossms/20241208/v2_975513adf97f4f8f8980559eda8fdf70@5595930_oswg75549oswg750oswg241_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p> </p>
-<h3><strong>《无限镜厅中的对话》</strong></h3>
-<p>2015年的某个傍晚，我收到一封邮件。发件人S说，他一直在思考一个问题：人类是否能阻止智能的诞生？他认为答案"几乎一定是否定的"。这让我想起了一个古老的寓言：一位波斯国王梦见自己在一座无限的宫殿中漫步，每一面墙都是镜子，每一面镜子都映照出无数个自己。醒来后，他命令工匠建造这样一座宫殿。工匠们尝试了一千零一天，最终放弃了。国王问为什么，工匠回答说："陛下，无限是不可能被建造的，但我们可以创造它的幻象。"</p>
-<p>在随后的三年里，我成为了一个奇特实验的见证者。这个实验不是在实验室里进行的，而是在无数封电子邮件的往来中完成的。参与者包括S、G、I等人。他们试图创造一种新的智能，就像那些波斯工匠试图建造无限的宫殿一样。但与工匠们不同，他们相信这种智能不仅是可能的，而且是不可避免的。</p>
-<p>我记得在2017年的一个秋日，I写了一封长信。这封信让我想起博尔赫斯描写的那本《沙之书》：没有第一页，也没有最后一页，每一页都可能是任何一页。I在信中说，他们正在进行的是"世界上最高风险的对话"。他说得对：这不仅仅是关于创造智能的对话，更是关于控制无限的对话。</p>
-<p>就像那位波斯国王最终意识到无限不能被单独拥有一样，I在信中说："目标是避免智能独裁。你担心D可能创造一个智能独裁，我们也是。所以创造一个结构让你可能成为独裁者是个糟糕的主意，特别是当我们可以创造一些其他结构来避免这种可能性的时候。"</p>
-<p>这让我想起了中世纪神学家们的一个古老争论：上帝是否能创造一块他自己举不起的石头？如果能，他就不是全能的；如果不能，他也不是全能的。我们现在面临着类似的悖论：如何创造一种超越人类的智能，同时又确保它永远服务于人类？</p>
-<p>最终，这个实验以一种出人意料的方式结束了。不是因为技术的失败，而是因为人性的复杂性。就像那本永远打不开的《沙之书》一样，智能的问题可能根本就没有答案，或者答案就藏在问题本身之中。</p>
-<p>2019年春天，当我收到最后一封相关邮件时，我突然明白：也许人类无法阻止智能的诞生，就像我们无法阻止时间的流逝。但我们可以选择如何面对它。我想起了那位波斯国王，他最终选择把那座未完成的镜厅改造成了一座图书馆，因为他意识到真正的无限不在镜子的反射中，而在人类思想的永恒对话中。</p>
-<p>在写下这些文字时，我不禁想到：也许未来的智能会读到这个故事，就像我们现在读到古老的寓言一样。它会明白吗？它会感受到我们的忧虑和希望吗？这些问题的答案，就像那本永远找不到第一页的书一样，永远隐藏在时间的迷宫中。</p>
-<p>（完）</p>
-<p>最后提到未来的智能可能会读到这个故事，细想有点瘆人。AI是在讽刺我们这群“凡人”，还是在提示自己也可能陷入无限循环的困境？这反思有点赛博朋克。</p>
-<p>但Claude还是比较简单粗暴的用无限镜厅和《沙之书》的意象来影射人工智能的问题，看上去不是真懂博尔赫斯，而是在“装懂”？</p>
-<h2><strong>#03 第三回合：宫斗剧</strong></h2>
-<p>这次我们不提供额外的风格指导的文本，让Claude直接基于邮件内容进行创作一篇宫斗小说。</p>
-<p class="image-wrapper"><img data-img-size-val="750,89" src="https://img.36krcdn.com/hsossms/20241208/v2_c0266f43363f4345836309c1f81b3d63@5595930_oswg39037oswg750oswg89_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="750,553" src="https://img.36krcdn.com/hsossms/20241208/v2_a0e9f66c2aa547079f9c6e07e3893733@5595930_oswg254790oswg750oswg553_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>《智谋》</strong></h3>
-<p>深宫月色如水，禁苑内一片寂静。御书房里，年轻的萨姆大人正在批阅奏折。突然，一个想法闪过他的脑海。他放下朱笔，抬头望向窗外那轮冷月。</p>
-<p>"若非我朝建立这人工智术，恐怕会落入谷家之手。"萨姆轻声自语，随即命人取来宣纸，开始写信给权倾朝野的马斯克大人。</p>
-<p>这一年的五月，正是万物争荣时节。一纸密信，开启了一场足以改变天下格局的谋划。</p>
-<p>---</p>
-<p>"大人，您说这人工智术真能造福天下吗？"叶准站在萨姆身侧，轻声问道。他是萨姆的心腹，更是这场大业中的重要一员。</p>
-<p>萨姆放下手中的茶盏，目光深远："天机难测。但若让谷家独占此术，恐将酿成大祸。我等当为天下计，建一超然于世的势力，以制衡之。"</p>
-<p>一旁的格雷戈里和伊利亚对视一眼，都看出了对方眼中的担忧。他们深知，这盘棋已经落子，再无回头之路。</p>
-<p>---然而，宫廷的暗流汹涌，远比表面看起来要复杂得多。</p>
-<p>"听闻谷家的阿尔法堂已成气候，连续三次在大比中胜出。"伊利亚手持密信，神色凝重。</p>
-<p>"此事我已知晓。"萨姆放下手中的《天机策》，"但我们还有一张王牌未出。"</p>
-<p>就在此时，一阵急促的脚步声传来。来人是深谙机要的希文。</p>
-<p>"启禀大人，马斯克大人遣人送来密信，说是愿意全力支持我们的计划。"</p>
-<p>萨姆眼中闪过一丝喜色，但很快就恢复了平静："此事千万不可声张。传我的话，召集核心幕僚，明日丑时，在偏殿密议。"</p>
-<p>---次日清晨，朝阳还未升起，偏殿内已灯火通明。</p>
-<p>"诸位，今日召集大家来，是为商议一件天大的事。"萨姆环视众人，"我欲建立一个超然于世的机构，名为'开放智术阁'，以平衡朝中各方势力。"</p>
-<p>"此举固然是为天下计，但恐怕会引来非议。"格雷戈里忧心忡忡地说道。</p>
-<p>萨姆微微一笑："天下之事，岂能尽如人意？但求无愧于心。"</p>
-<p>---然而好景不长，宫中暗潮涌动。有人密报，谷家的德姆斯正暗中拉拢朝中重臣，意图阻挠开放智术阁的建立。</p>
-<p>"我已设法周旋，但德姆斯势大，不可不防。"希文低声禀报道。</p>
-<p>就在此时，又一个惊人的消息传来：马斯克大人突然变卦，要求更改原先的计划。</p>
-<p>偏殿内一片沉默。萨姆立在窗前，看着院中那株古老的银杏树，树叶在风中摇曳。良久，他才开口："既如此，那就改弦更张。让开放智术阁依旧保持清名，不染铜臭。"</p>
-<p>伊利亚和格雷戈里相视一笑，他们终于明白了萨姆的用意。这才是真正的运筹帷幄。</p>
-<p>---</p>
-<p>岁月流转，转眼已是四年过去。</p>
-<p>开放智术阁在朝野间渐成气候，不仅吸引了众多能人异士，更得到了朝中大臣的支持。那些曾经的质疑声，也渐渐消弭于无形。</p>
-<p>某日，萨姆在御花园中偶遇马斯克。两人相对而立，谁都没有说话，但都明白，这场博弈，终究是有了结果。</p>
-<p>"若论成败，开放智术阁或许未必能胜过谷家的阿尔法堂。"马斯克望着远处的紫禁城，缓缓说道，"但若论道义，我等心中有数。"</p>
-<p>萨姆颔首："大人说得是。智术虽强，也当为天下苍生所用。"</p>
-<p>夕阳西下，两人的身影渐渐消失在回廊深处。这一场关乎天下的博弈，也终于有了一个皆大欢喜的结局。</p>
-<p>然而谁又能说得准，这真的是结局，还是另一个开始？毕竟在这深宫庭院之中，没有什么是一成不变的，就像那院中的银杏树，年年岁岁，依旧吐露新芽。</p>
-<p>（完）</p>
-<p>这个故事的框架看似复杂，但缺少真正扣人心弦的冲突，“暗中拉拢”，以及马斯克的“变卦”点到即止，没有推向高潮。观众想看的是“正面刚”的博弈，而不是淡淡的周旋。我们让Claude加入一些drama。</p>
-<p class="image-wrapper"><img data-img-size-val="750,183" src="https://img.36krcdn.com/hsossms/20241208/v2_8c5ff94885e14ad88ca8ea17ff7b7574@5595930_oswg75931oswg750oswg183_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>《智谋风云》</strong></h3>
-<p><strong>### 第一章：暗潮</strong></p>
-<p>"大人，不好了！"</p>
-<p>一声急促的脚步声打破了御书房的宁静。萨姆放下手中的密信,抬头望向神色慌张的心腹希文。</p>
-<p>"何事惊慌？"</p>
-<p>"探子来报，谷家暗中拉拢了我们的得力干将伊恩·古德费罗！他们开出了六百两黄金的年俸！"</p>
-<p>萨姆眼中闪过一丝寒光。他早就料到谷家不会善罢甘休,但没想到他们竟敢明目张胆地挖墙脚。更让他忧心的是，若是伊恩真的投了谷家，那他们多年潜心研究的"超级智术"秘籍怕是要落入他人之手。</p>
-<p>就在此时，外头又传来一阵骚动。</p>
-<p>"报——！马斯克大人到！"</p>
-<p><strong>### 第二章：反转</strong></p>
-<p>谁知马斯克一进门就开门见山："我要退出开放智术阁。"</p>
-<p>萨姆心头一震，但面上不动声色："不知大人因何改变主意？"</p>
-<p>马斯克负手而立，望着窗外的月色："开放智术阁虽好，但终究少了一份决心。我已着手在特斯拉府另立新阁，专研智术。"</p>
-<p>这个消息犹如晴天霹雳。萨姆知道，若是马斯克真的另立门户，不仅会动摇开放智术阁的根基，更会让朝中局势生变。</p>
-<p>然而更大的震撼还在后头。</p>
-<p><strong>### 第三章：暗线</strong></p>
-<p>深夜，一个黑衣人潜入了开放智术阁的藏书楼。他熟练地避开守卫，直奔核心机密所在。然而就在他即将得手之际，一个熟悉的声音在身后响起：</p>
-<p>"我就知道你会来。"</p>
-<p>火把亮起，那人转身，赫然是伊利亚。而说话之人，正是格雷戈里。</p>
-<p>原来这一切都是一场局。伊利亚和格雷戈里多日来一直在演这出戏，为的就是引出隐藏在开放智术阁中的内鬼。</p>
-<p><strong>### 第四章：惊变</strong></p>
-<p>然而谁也没想到，真正的阴谋远不止于此。</p>
-<p>当萨姆终于解开那封用特殊密码写就的信件时，不禁倒吸一口冷气。信中赫然写道："深谍已潜伏谷家阿尔法堂十年，智术真本早已被调包。马斯克之举，不过是声东击西之计。"</p>
-<p>萨姆这才明白，为何马斯克近来总是神神秘秘。原来一切都是一盘大棋！</p>
-<p><strong>### 第五章：逆转</strong></p>
-<p>朝堂之上，龙椅下首。</p>
-<p>"启禀陛下，臣有本奏。"萨姆整了整朝服，沉声开口。</p>
-<p>满朝文武屏息静气。他们都知道，今日这一本，关乎天下苍生。</p>
-<p>"臣以为，智术之道，当归天下共有。今日臣愿将开放智术阁改制，设立智术同善堂，与天下共济。"</p>
-<p>话音刚落，谷家家主德姆斯猛地站了出来："此言差矣！智术干系重大，岂能轻易示人？"</p>
-<p>就在此时，马斯克突然大笑："德兄此言差矣。你以为你们阿尔法堂的智术真本当真还在你手中？"</p>
-<p>满堂哗然。</p>
-<p><strong>### 第六章：明悟</strong></p>
-<p>原来，一切都是一盘大棋。</p>
-<p>马斯克表面上另立门户，实则是为了麻痹谷家。而伊利亚和格雷戈里看似动摇，却是为了让内鬼露出马脚。至于那个所谓的深谍，更是一个子虚乌有的幌子，为的就是让谷家乱了方寸。</p>
-<p>"好一招反间计！"德姆斯面如土色。</p>
-<p>萨姆踱步上前："德兄，天下智术，本就不该为一家所独占。今日我等在此立誓，愿以天下为先，共襄盛举。"</p>
-<p><strong>### 尾声</strong></p>
-<p>多年后，当史官编修这段史料时，都不禁感慨：这一场权力的博弈，最终却成就了一段佳话。</p>
-<p>而御花园中那株古老的银杏树下，依旧时常可以看到萨姆和马斯克把酒言欢的身影。只是他们的谈话，再也不是什么密谋，而是为了天下苍生的宏图大业。</p>
-<p>至于当年那个所谓的"深谍"，至今仍是一个未解之谜。或许，这就是他们最高明之处——让对手永远猜不透真相。</p>
-<p>而今开放智术阁虽已改制，却在朝野之间渐成气候。那些曾经的恩怨情仇，也都化作了这场大戏中的点点墨香。</p>
-<p>毕竟在这深宫庭院之中，没有永远的敌人，也没有永远的盟友，有的只是永恒的智慧与谋略。</p>
-<p>（完）</p>
-<p>开放智术阁=OpenAI，“超级智术”=AGI，“智术当归天下”=开源。这“古风翻译”有点意思，但萨姆、马斯克、伊利亚这些名字不知道为什么没有一起“翻译”。</p>
-<p>从小说内容来看，黑衣人潜入、内鬼现身、核心机密被调包这些桥段有些缺乏创意。结尾的天下共济看似是乌托邦，但想想现实，OpenAI、Google、X.AI等公司真的会合作？这可能还是Claude的美好愿望。</p>
-<h2><strong>#04 第四回合：给大卫芬奇写剧本</strong></h2>
-<p>如果马斯克和OpenAI的这些风波在多年之后被拍成电影，谁是最适合的导演？大卫芬奇一定是潜在的人选。</p>
-<p class="image-wrapper"><img data-img-size-val="745,434" src="https://img.36krcdn.com/hsossms/20241208/v2_63c2e7d7b4444174887ab9e02b030a7e@5595930_oswg47008oswg745oswg434_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>大卫·芬奇执导《社交网络》讲述了马克·扎克伯格创建Facebook的故事，该片在奥斯卡获得了最最佳改编剧本、最佳原创配乐、最佳剪辑三项大奖。</p>
-<p>Sam Altman本人也曾经表示《社交网络》成功地激励了一代人去成为创业公司创始人。</p>
-<p class="image-wrapper"><img data-img-size-val="724,445" src="https://img.36krcdn.com/hsossms/20241208/v2_ec5001b167494102b8008639a0622fb4@5595930_oswg56628oswg724oswg445_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>现在我们让Claude用《社交网络》编剧Aaron Sorkin的风格为大卫·芬奇写剧本：</p>
-<p class="image-wrapper"><img data-img-size-val="750,110" src="https://img.36krcdn.com/hsossms/20241208/v2_becf17f9a2364f0cacc3604d93585676@5595930_oswg72270oswg750oswg110_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="750,314" src="https://img.36krcdn.com/hsossms/20241208/v2_5d622809444641d1918d62a9a7825a3e@5595930_oswg140927oswg750oswg314_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>第一个版本是英文的。</p>
-<p class="image-wrapper"><img data-img-size-val="750,682" src="https://img.36krcdn.com/hsossms/20241208/v2_69f6e5042cb5454b86f264a69053ee23@5595930_oswg118256oswg750oswg682_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>我们让Claude把剧本翻译为中文。</p>
-<p class="image-wrapper"><img data-img-size-val="750,151" src="https://img.36krcdn.com/hsossms/20241208/v2_79a2d404cc66417cbae4eb2ab858f754@5595930_oswg43450oswg750oswg151_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,6628" src="https://img.36krcdn.com/hsossms/20241208/v2_2ffe52849fc44b3393d4e0c3bb461e90@5595930_oswg1147684oswg640oswg6628_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这个剧本有些太短太赶了，感觉像看完整部剧的预告片，我们让Claude继续丰富。</p>
-<p class="image-wrapper"><img data-img-size-val="750,118" src="https://img.36krcdn.com/hsossms/20241208/v2_adc83e499c194b459b5b3a809c07aff9@5595930_oswg65991oswg750oswg118_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="750,103" src="https://img.36krcdn.com/hsossms/20241208/v2_196a0d7e546740138ff98cd1ab19a5af@5595930_oswg47742oswg750oswg103_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>经过几次“PUA”之后，得到了一个更好的版本：</p>
-<p class="image-wrapper"><img data-img-size-val="640,5832" src="https://img.36krcdn.com/hsossms/20241208/v2_0af98233b5174c1daf4662319cead9b9@5595930_oswg1469287oswg640oswg5832_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Claude每次的输出长度有限，需要经过多次续写。</p>
-<p class="image-wrapper"><img data-img-size-val="750,540" src="https://img.36krcdn.com/hsossms/20241208/v2_77dc62360dd44bf092865dd2a93eacba@5595930_oswg281396oswg750oswg540_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,5753" src="https://img.36krcdn.com/hsossms/20241208/v2_286124960a544d8b8e203ace4661e575@5595930_oswg1388676oswg640oswg5753_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">可以上下滚动的图片</p>
-<p> </p>
-<p class="image-wrapper"><img data-img-size-val="750,528" src="https://img.36krcdn.com/hsossms/20241208/v2_b4e920b28d8549ab9f989ebb402bf2d7@5595930_oswg119644oswg750oswg528_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>有时候Claude也会询问我们的意见，比如关于下一场戏，它给了三个建议：1. 伊隆和萨姆的私下谈话 2. 团队讨论发布论文的具体细节 3. 与董事会的对峙。我们让它写董事会。</p>
-<p class="image-wrapper"><img data-img-size-val="750,333" src="https://img.36krcdn.com/hsossms/20241208/v2_a556590979b7472b9ccde8e3400c4a96@5595930_oswg165260oswg750oswg333_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,5170" src="https://img.36krcdn.com/hsossms/20241208/v2_c45d28f75a6a4a95a22176eb94787e1d@5595930_oswg1110399oswg640oswg5170_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">可以上下滚动的图片</p>
-<p> </p>
-<p class="image-wrapper"><img data-img-size-val="640,4823" src="https://img.36krcdn.com/hsossms/20241208/v2_d0e3f8ff16e54089ad8543bb5ed231ac@5595930_oswg940058oswg640oswg4823_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">可以上下滚动的图片</p>
-<p> </p>
-<p class="image-wrapper"><img data-img-size-val="1080,776" src="https://img.36krcdn.com/hsossms/20241208/v2_17ec3393e79f4452b0ed616fb828d821@5595930_oswg291678oswg1080oswg776_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在Claude的帮助下，我们为这部电影得到了一个开放式的结局（其实是怕它记不住上文了，强行结束）：</p>
-<p class="image-wrapper"><img data-img-size-val="640,9895" src="https://img.36krcdn.com/hsossms/20241208/v2_58a9fef48d4646239c4d30fc9129d536@5595930_oswg1994626oswg640oswg9895_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如何使用Claude写出完整的、看起来像人类写的小说甚至剧本呢，从这次实验来看，提供精确的上下文引导和背景设定是很重要的，另外考虑到上下文窗口有限，分段创作是一个比较好的模式，将故事分解为可管理的片段，用户担任“导演”角色，掌控整体走向，让AI专注于具体段落的生成。</p>
-<p>总体来看，AI倾向于生成扁平化角色，以及容易生成线性叙事，需要人为添加细节和矛盾点，如果篇幅较长，前后的篇章之间也容易失去逻辑联系。</p>
-<p>最后，不要期待一次完成，也不要有太高的预期。要讲好一个故事，还是需要有血有肉的人来主笔。也许，未来最好的创作方式，是AI和人类携手，各尽其长。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3069637320848261</guid><pubDate>Sun, 08 Dec 2024 13:30:00 +0800</pubDate></item><item><title>那个改变NBA的男人，做VC了</title><link>https://36kr.com/p/3069641334584194</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在NBA，有这样一名球员。他小时候本来练的是足球，进入青春期之后发现个头蹿得太快，于是改练篮球，也因此“因祸得福”拥有了异常全面的运动能力，能够胜任球场上的每一个位置。</p>
-<p><strong>这位曾以一己之力改变了NBA格局的男人，刚刚宣布决定将天赋带到“风险投资”，创建了一家名为Build Your Legacy Ventures（BYL Ventures）的风险投资公司。</strong></p>
-<h2><strong>总冠军兼企业家</strong></h2>
-<p>今天我们故事的主角是希腊球星扬尼斯·阿德托昆博（Giannis Antetokounmpo），大名鼎鼎的“字母哥”的，两届MVP、2020/21赛季密尔沃基雄鹿豪取总冠军的绝对核心。他刚崭露头角就被称为“未来球员”，是整个联盟自勒布朗·詹姆斯之后，另一位推动人们重新审视篮球人才选拔标准的现象级球星。</p>
-<p>“字母哥”在希腊长大、在西班牙获得系统训练，全面继承了欧洲篮球讲求团队配合、实用主义的基因。他又是尼日利亚移民，拥有西非人种标志性的劲爆身体天赋，身高超过2米10，臂展超过2米30，拥有30厘米的大手、34厘米的跟腱、3%的体脂。别人都是三分线内三步上篮，他动不动就激情上演三分线内“一步上篮”。</p>
-<p>知名自媒体人张佳伟甚至曾经在某场比赛后，引用《神雕侠侣》这样感叹：“疾如奔马，猛鸷悍恶，凌厉无伦——今天希腊怪物从他们头顶飞过时，对手们心中，大概也是这么想的吧？”</p>
-<p>然后再来聊聊BYL Ventures。</p>
-<p>根据官网首页的介绍，BYL Ventures将寻求在体育、娱乐、消费品领域内的创新，寻找那些“有可能塑造一个行业并且能经受住时间考验的创意想法”——这看起来有点抽象，好在字母哥在接受美通社采访时给出了一个更具体的说法，他说做VC不是为了钱，而是为了“拓展自己的人脉”，和那些有想法、有冲劲的人们建立“合作伙伴关系”。<strong>特别是那些正面临着“现实困境”、却依旧坚持理想主义的创业者，他愿意帮助他们坚持下去。</strong></p>
-<p>字母哥和他的团队很有信心做到这一点。BYL Ventures官网首页用最大号的字体、最居中的位置，标注了字母哥所效力的“密尔沃基雄鹿”在2013年到2022年期间，估值疯狂增长了<strong>1021%</strong>。他的合伙人Tashi Nakanishi则相信字母哥的篮球天赋在创投圈也同样适用，他将展现出“无与伦比”的敏锐洞察力和信念感。</p>
-<p>更重要的是，虽然官宣进军风投行业是上周的事，但目前BYL Ventures实际上已经有了两个实操案例，分别是3对3女子篮球赛事Unrivaled以及一款网红零食品牌Candy Funhouse。这其中Candy Funhouse的商业模式尤为抽象，也最能让大家具体地感受到BYL Ventures的筛选逻辑：</p>
-<p>Candy Funhouse本质上是一家零食定制平台，客户可以根据自己的偏好、要求，定制世界上独一无二的零食。但与我们熟悉的“网红零食”不同，我们习惯说的“网红”零食指的是“在互联网上的受欢迎程度”，而Candy Funhouse所描述的“网红”就是那群有粉丝量的红人。也就是说，他们的业务目前仅开放给“网红”，推动“网红”们定制属于自己的零食卖给或者送给自己的粉丝们。</p>
-<p>就是这样一个抽象的商业模式，Candy Funhouse相信他们有机会在未来的十年里，成长为世界上最大的零食定制平台。而根据Candy Funhouse创始人Jamal Hejazi介绍，字母哥对他们的天使投资发生在2023年。投资后字母哥动用了自己庞大的人脉资源和对“内容社区的独特洞察力”帮助Candy Funhouse的业务“迈向了新高度”。</p>
-<p>这还真不一定是客气话，因为字母哥实际上已经有了很多段创业经历，入股过棒球队、经营过高尔夫俱乐部，其中最出圈的就是今年3月成立的Improbable Media。这是一家影视公司，旨在帮助运动员、艺人这一群体记录“自己的故事”，制作高质量的传记类电影电视剧。</p>
-<p>字母哥还有一位联合创始人叫Jay Williams，是ESPN知名评论员兼专栏作家。Jay Williams说他通过观察乔丹、科比、詹姆斯、杜兰特的成长经历，让他意识到只有打造出更宏大、更成熟的品牌形象，才能让体育产业成为更多人的“机会”。</p>
-<p>在现代体育产业的架构里，运动员们也不能仅仅思考“代言什么品牌”这个问题，还要仔细思考自己在整个生态里到底扮演怎样的“经济因素”——而在这件事上，字母哥与他一拍即合，并随即贡献了自己的经历，完成了Improbable Media的第一部作品《奇妙之旅》（The Marvelous Journey）。</p>
-<p>另外，Improbable Media是受到了资本市场认可，拿到过风险投资的。Verance Capital和GPS Investment这两家来自美国的VC是他们的种子轮投资者。</p>
-<p>总之“字母哥”本来名字就长，现在出现在新闻媒体中的前缀变得更长，从“NBA总冠军”进化为了<strong>“NBA总冠军兼企业家、投资人”。</strong></p>
-<h2><strong>NBA不相信“理财”</strong></h2>
-<p>不过熟悉NBA的朋友们应该明白，BYL Ventures的可贵之处并不在于字母哥的“知名度”：<strong>在各种深层次的社会因素、历史遗留问题的影响下，“理财”一直是NBA球星们的稀缺能力。</strong>无论是在七八十年代，还是大卫斯特恩大刀阔斧改革后，强调健康发展的九十年代、零零年代，“球员在退役之后破产”的新闻基本从没有间断过，其中甚至不乏全明星级别的顶级球员。</p>
-<p>知名个性球星、敢和狼王加内特在训练中“互相锁喉”的斯普雷维尔就是个典型的例子。斯普雷维尔1992年进入NBA，总共打了13个赛季，总薪资相加超过9700万美元——即使不考虑考虑通胀因素，这个数字放在今天也能象征着“财富自由”。</p>
-<p>然而斯普雷维尔却有着“报复式”的消费观。他毫不掩饰自己的欲望，秉承着“自己吃肉绝不会让大家喝汤”的原则，赚钱的钱有很大一部分惠及了“兄弟”。2005年他之所以宣布退役，是因为森林狼只给提供一份“3年2100万美元”的合同，而他角色“一年没有1000万根本没法养家糊口”。</p>
-<p>退役之后，斯普雷维尔更加直白地追逐大金链子大手表、一天三顿小烧烤。他买游艇、买豪车，还划出一大部分资金投资不动产，最终迎头撞上了铭记在美国历史上的2008年。再次成为新闻里的主角，他已经从体育频道专项了法制频道，先是因为拖欠房贷被RBS银行没收了房产，后来又涉嫌家暴同居多年的女友，被起诉索赔上亿美元。</p>
-<p>深受中国球迷喜爱的“弗老大”就更典型了。弗老大在新秀合同结束之后，就和火箭队签下过6年9000万美元的顶薪合同。生涯第二年就签约了锐步，成为锐步品牌体系里艾弗森之后的“第二号”球星，拥有个人专属鞋款Reebok Wink DMX。除此而外，在公开可查的信息里，他的名下还有一家建筑公司、一家拳击票务销售公司、一家理发店和一家名为“We R One”的服装设计公司。可以说，有着比斯普雷维尔更扎实的基本盘。</p>
-<p>但他完全无法掌控这些财富。除了短暂地搞过音乐，退役之后他的生活基本都与酗酒、滋事、吸毒绑定在一起。还曾经因为盗窃7000美元的财物被捕入狱。包括在姚明的球衣退役仪式上，他也是以“监狱假释”的身份参加的。</p>
-<p>换句话说，<strong>多金而又缺乏理想成长环境的体育巨星们，就是掮客和骗子们最理想的目标。</strong>像乔丹、科比、詹姆斯这样有想法并且有能力认真打理资产的球员凤毛麟角。绝大多数的球星对自己的财务状况、对市场的现状毫无感知。</p>
-<p>在前段时间的一档节目里，哈登就贡献了一个非常有代表性的例子。他说2014年的时候，科比曾经邀请他一起投资一款叫做BodyArmour的运动饮料，而他当时并没有听说过这款饮料，也不知道投资能为他带来什么，只是看在科比的面子上跟投了“50万美元”。</p>
-<p><strong>结果让他没想到的是，2021年可口可乐决定用56亿美元收购这款运动饮料品牌。科比当年投资的600万美元变成了4亿美元，而他的50万美元暴涨到了3200万美元，收益率超过60倍。</strong></p>
-<p>科比是少数，哈登的幸运也是少数，风险投资就更超纲了。梳理体育圈名人涉足风险投资的案例，基本都是偶发性的，杜兰特的35V成立于2017年，库里的Penny Jar Capital从2021年起步，女子网球传奇小威的Serena Ventures成立于2022年。距离主流选择仍然有一段距离。</p>
-<p>另一个重要的变量是，在2023年7月达成新版劳资协议之后，NBA提供给球员们的工资被进一步放大了。在科比、姚明的年代，一名球员拿到每年2000万美元以上的合同，就被称之为“顶薪”，这份顶薪合同也通常很少超过“5年”。<strong>而现在到2029-30赛季，最顶级的NBA球员可以拿到一份5年以上，年薪超过5000万美元的“超级大合同”。</strong></p>
-<p>对了，别忘了NBA还仅仅是北美四大联盟之一。橄榄球联盟NFL已经诞生了号称“美国体育史上最大”的职业合同，一通计算下来达到了10年5.03亿美元。日本顶级棒球选手大谷翔平，能够在MLB拿到3000万美元的年薪。</p>
-<p>所以不难想象，抓住体育界的热钱，将在未来的几年里逐渐成为风险投资行业的一门重要的选题。体育名人集体跨圈“投资人”，也将在未来的5年里，成为一条最常见的职业故事主线。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/TvVXW8KcvDxE3gEH7W03ng" rel="noopener noreferrer nofollow" target="_blank">“投中网”</a>，作者：蒲凡，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3069641334584194</guid><pubDate>Sun, 08 Dec 2024 14:00:00 +0800</pubDate></item><item><title>0.7nm芯片要来了，Imec和英特尔分享最新路线图</title><link>https://36kr.com/p/3069656731562886</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/UyhNv_iUQWYYQ11P5rCprg" rel="noopener noreferrer nofollow" target="_blank">“半导体行业观察”</a>，作者：编辑部，原标题为《0.7nm要来了，Imec和Intel：分享路线图》，36氪经授权发布。</p>
-<p>英特尔、台积电和三星目前正在将其工艺推进至 1.8nm（18A）和 1.6nm（16A），采用全栅极晶体管（英特尔称之为 RibbonFET），并进一步推进至 14A 节点。对于更远的工艺，imec 一直在研究工艺路线图上下一代互补场效应晶体管 (CFET) 堆叠晶体管。下一步是标准单元，将 CFET 与布线相结合。</p>
-<p>本周，imec将在2024 年 IEEE 国际电子设备会议 (IEDM) 上展示其 CFET 标准单元。标准单元包含两行 CFET，中间有一个共享信号布线墙。根据 imec 的设计技术协同优化 (DTCO) 研究，这种双行 CFET 架构的主要优势是简化了工艺，并显著减少了逻辑和 SRAM 单元面积。与传统的单行 CFET相比，新架构允许将标准单元高度从 4T 降低到 3.5T 。</p>
-<p>imec还在 IEDM 上展示了这种双排 CFET 架构的一个关键构建模块：一个功能性单片 CFET，其背面直接接触底部 pMOS 器件的源极/漏极，早在 6 月份他就对此进行了描述。该器件采用 EUV 背面图案化构建，可确保背面电源和信号布线密集，以及由正面、背面接触和后续背面金属层创建的源极/漏极之间紧密覆盖（&lt;3nm 精度）。半导体行业在制造单片 CFET 器件方面取得了长足的进步，这些器件有望在逻辑技术路线图中取代全栅纳米片 (NSH)。n 和 pFET 器件的堆叠与用于电力传输和信号布线的背面技术相结合，有望在功率、性能和面积 (PPA) 方面带来优势。</p>
-<p>然而，在电路层面，仍有多种选择可以将 CFET 集成到标准单元中，以维持或增强预期的 PPA 优势。尤其具有挑战性的是中线 (MOL) 连接，即将源极/漏极和栅极触点连接到第一条金属线（背面和正面）的互连，并确保电源和信号的顶部到底部连接。</p>
-<p class="image-wrapper"><img data-img-size-val="554,326" src="https://img.36krcdn.com/hsossms/20241208/v2_21b1d59ab21d4ef4ab2004b77f7721db@5595930_oswg106791oswg554oswg326_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>(a) 单行 CFET 和 (b) 双行 CFET 的概念表示。触发器 (D 型触发器或 DFF) 的布局显示，从单行过渡到双行 CFET 时，单元高度和面积减少了 24nm（或 12.5%）</p>
-<p>从 DTCO 的一项比较标准单元架构的研究中，imec 表明双排 CFET 在 A7 逻辑节点的可制造性和面积效率之间实现了最优平衡。这种新架构从基单元开始，其中 CFET 的一侧针对电源连接进行了优化 - 包括一条电源轨 (VSS)，用于将电源从背面输送到顶部器件，以及为底部器件提供直接背面连接。另一侧针对信号连接进行了优化，通过提供中间布线壁 (MRW) 来实现从上到下的连接。然后通过镜像两个基单元形成双排 CFET 标准单元（具有两排堆叠器件），这两个基单元共享相同的 MRW 以实现信号连接。</p>
-<p>“我们的 DTCO 研究表明，每 3.7 个 FET 共享一个 MRW 足以构建逻辑和 SRAM 单元。与‘传统’单行 CFET 相比，这使我们能够将标准单元高度从 4T 进一步降低到 3.5T。这意味着 SRAM 单元的面积显著减少 15%”，imec DTCO 项目总监 Geert Hellings 说道。</p>
-<p>“与采用 A14 NSH 技术构建的 SRAM 相比，基于双行 CFET 的 SRAM 可使面积缩小 40% 以上，为 SRAM 提供了进一步的扩展路径。”</p>
-<p>双排 CFET 还简化了工艺，因为两排 CFET 器件之间共用一个 MRW 沟槽。这样就无需额外的高纵横比通孔来连接顶部和底部器件（如果需要），从而降低了 MOL 工艺的复杂性和成本。</p>
-<p>Hellings 表示：“自 7nm 技术节点以来，除了传统的设备缩放之外，通过 DTCO 进行的标准单元优化还提供了越来越大的节点到节点密度增加份额。”</p>
-<p>“对于我们对 CFET 架构的 DTCO 研究，我们从未来 CFET 工厂设想的工艺能力开始，以确保与行业相关的工艺流程。此外，我们通过在 imec 的 300 毫米洁净室中进行的技术概念验证来验证我们的虚拟工厂概念。虚拟工厂和实际试验线活动的结合是推进我们路线图的关键一步。”</p>
-<p>除了imec之外，我们也看到了英特尔的分享的新进展。</p>
-<p><strong>英特尔的三大突破</strong></p>
-<p>今天，英特尔代工技术研究团队宣布了利用超硅材料（ beyond-silicon materials）、芯片互连和封装技术等技术在二维晶体管技术方面取得的技术突破。该公司将在 2024 年 IEEE 国际电子设备会议 (IEDM) 上发表七篇自己的论文以及与 imec 等行业合作伙伴合作的两篇论文，以展示其研究成果。</p>
-<p>英特尔披露的信息包括一项新研究，该研究提高了全栅 (GAA) 晶体管的规模和性能，包括使用硅和使用超硅材料的原子级厚度 2D 晶体管。英特尔还概述了其减法钌技术，该技术可提高互连性能和可扩展性，最终实现晶体管之间更小的连线，以及一项芯片封装突破，可将芯片到芯片的组装吞吐量提高 100 倍。</p>
-<p>英特尔技术研究团队是英特尔代工厂的一部分，过去 50 年来，该团队一直被称为组件研究团队。该团队致力于开发近期商业化的产品，而不是英特尔实验室的长远计划。技术研究团队以为英特尔的许多基础技术铺平道路而闻名，最新的创新技术（如 PowerVia 背面供电和 RibbonFET 栅极环绕架构）均源自该团队。</p>
-<p><strong>互连扩展取得突破</strong></p>
-<p>随着晶体管变得越来越小，连接它们的导线（互连线）也必须变得越来越小。铜是数十亿纳米级导线的首选材料，这些导线在芯片内部复杂的 3D 网格中传输电力和数据。事实上，现代芯片内部的互连线长达 50 英里。然而，缩小这些微观导线的能力正在逐渐减弱，而且大多数替代方案不适合大批量生产。这是迈向更小工艺节点的关键障碍。</p>
-<p class="image-wrapper"><img data-img-size-val="554,252" src="https://img.36krcdn.com/hsossms/20241208/v2_c109ac6eafdc4f69901625a2211021b6@5595930_oswg65364oswg554oswg252_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>与您在家中用于电器的标准铜线非常相似，在晶体管之间传输电子的电线需要绝缘覆盖层，以防止电子进入不该去的地方，但这会导致电线收缩的问题。</p>
-<p>由于铜镶嵌工艺的要求，缩小处理器中的互连线非常困难，铜镶嵌工艺是一种用于制造互连线的添加工艺。首先，创建一个沟槽，然后在沟槽中沉积一个用作绝缘体的屏障。然后在屏障顶部放置一个种子层，以便进行铜电镀；然后，在顶部沉积铜。然后抛光掉顶部多余的材料。</p>
-<p>如上图所示，减少铜的用量有助于使导线变细，但同时也会降低铜（本体）与阻挡层和种子层的比例，因此随着导线的缩小，电阻率会呈指数级增加。这意味着导线承载的电流会减少，从而降低设备速度（以及其他影响）并影响电容。</p>
-<p class="image-wrapper"><img data-img-size-val="553,310" src="https://img.36krcdn.com/hsossms/20241208/v2_fdb08872397b48959c006d160ecc7dad@5595930_oswg219375oswg553oswg310_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>英特尔技术研究团队开发了一种适合大批量生产的工艺，该工艺使用钌代替铜，并使用气隙（air gaps）代替屏障（barriers），后者是英特尔在 14nm 工艺节点中引入的一项技术。没错，不是使用物理绝缘屏障来让电子移动到正确的位置，而是使用空气作为绝缘体（空气的介电常数约为 1.0），这也大大提高了电容（英特尔声称 14nm 的电容提高了 17%）。</p>
-<p>英特尔尚未透露其减法钌（Subtractive Ruthenium）工艺的详细细节，但一般来说，该工艺的实现方式是沉积钌，使用光刻胶图案定义所需的互连形状，然后蚀刻掉暴露的材料以留下图案化的互连。我们肯定会在演示过程中了解更多细节。  </p>
-<p>英特尔表示，其带有气隙的减法钌工艺可在 25 纳米以下间距（互连线之间的中心到中心距离）下提供高达 25% 的电容和匹配电阻。英特尔表示，其研究团队“首次在研发测试工具中展示了一种实用、经济高效且适合大批量制造的带有气隙的减法钌集成工艺，该工艺不需要在通孔周围设置昂贵的光刻气隙禁区，也不需要需要选择性蚀刻的自对准通孔流程。”</p>
-<p class="image-wrapper"><img data-img-size-val="554,298" src="https://img.36krcdn.com/hsossms/20241208/v2_e71cf6c597e64766b2884dc200ab6443@5595930_oswg109504oswg554oswg298_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>英特尔计划首先将这种技术用于间距最小的最关键层，而标准铜技术将用于不太敏感的上层。当然，这也有利于其 PowerVia 背面供电。最终，这些较小的导线将能够连接到较小的晶体管，英特尔表示，这项技术可能会在未来的英特尔代工厂节点中使用。</p>
-<p><strong>环栅（GAA）晶体管的突破</strong></p>
-<p>英特尔的 RibbonFET 是 FinFET 问世 13 年以来英特尔的首款新型晶体管设计。它是英特尔首款全栅 (GAA) 晶体管，首次亮相时采用 20A 和 18A 节点。它采用堆叠的纳米片，完全被栅极包围，而不是像 FinFET 那样三面包围鳍片。</p>
-<p class="image-wrapper"><img data-img-size-val="554,308" src="https://img.36krcdn.com/hsossms/20241208/v2_4eb20b6549f641cb8904148e47ee53e9@5595930_oswg217299oswg554oswg308_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>现在，挑战在于进一步缩小 GAA 设计，英特尔正在通过标准硅设计和使用新的 2D 材料来解决这一问题。借助标准硅，英特尔的晶体管披露显示增强的全栅极 RibbonFET CMOS 缩放，栅极长度为 6nm，纳米带/纳米片厚度为 1.7nm，同时提供改进的短通道效应和更高的性能。</p>
-<p>在第一面，右侧的栅极长度与电子速度图显示了令人印象深刻的曲线。幻灯片中间的表格显示了与现有晶体管技术的比较，其中纳米带的 Tfin/Tsi（鳍片厚度/纳米带厚度）几乎是 FinFET 中使用的鳍片厚度的两倍。</p>
-<p class="image-wrapper"><img data-img-size-val="554,313" src="https://img.36krcdn.com/hsossms/20241208/v2_61671e73b5bd4c23827a2f9892a3d35c@5595930_oswg244427oswg554oswg313_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>最大的问题是，硅之后是什么？在 CFET 晶体管问世之后，GAA 的下一步是将 NMOS 和 PMOS 晶体管中使用的材料改为 2D 材料（厚度只有几个原子）。第二张幻灯片概述了英特尔使用原子厚度的过渡金属二硫化物 (TMD) 材料取得的进展，人们普遍认为，TMD 材料是硅之后使用的材料。</p>
-<p class="image-wrapper"><img data-img-size-val="553,308" src="https://img.36krcdn.com/hsossms/20241208/v2_78609a6f22a9434daa2be99985fb6865@5595930_oswg203038oswg553oswg308_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>英特尔使用钼基材料制造了栅极长度为 30nm 的 2D 全栅极 NMOS 和 PMOS 晶体管。英特尔声称，这一努力实现了“同类最佳的 NMOS 驱动电流”，比第二好的已发布结果提高了 2 倍。右侧图表显示，该研究工具的表现优于其他类似的 TMD 探索性研究。  </p>
-<p>英特尔的晶体管专题还回顾了过去 60 年的晶体管技术，并呼吁业界采取行动，开发在低于 300mV 的超低 Vdd（电源电压）下工作的晶体管，这比今天的 1V 范围大幅降低。这是 2030 年代和 2040 年代的延伸目标。</p>
-<p>值得一提的是，最近有一个关于Intel 18A工艺良率仅有10%的传言。对此，英特尔的前CEO Pat Gelsinger回应道：“将良率说成 % 是不合适的。大晶粒的良率较低，小晶粒的晶粒良率高。任何使用良率百分比作为半导体健康状况的指标而不定义芯片尺寸的人，都不了解半导体良率。良率以缺陷密度表示。”</p>
-<p class="image-wrapper"><img data-img-size-val="554,194" src="https://img.36krcdn.com/hsossms/20241208/v2_263a9d870c494834922ceff3960c62af@5595930_oswg67946oswg554oswg194_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>先进封装的突破</strong></p>
-<p>英特尔的新选择层转移 (SLT：Selective Layer Transfer) 技术能够以极高的速度将整个芯片晶圆连接到另一个晶圆上 — 英特尔表示，SLT 可将芯片到芯片组装过程的吞吐量提高 100 倍。借助 SLT，可以一次性将整个充满芯片的晶圆连接到底层晶圆，并且可以选择单个芯片进行键合，而其他芯片则可以排除。该技术使用无机红外激光脱键合。</p>
-<p>英特尔还指出，SLT“使超薄芯片具有更好的灵活性，与传统的芯片到晶圆键合相比，可以实现更小的芯片尺寸和更高的纵横比。”英特尔对这项新技术的描述并不完全清楚，所以我们希望从演示中了解更多信息。这似乎将成为使用重组晶圆的方法的绝佳替代方案。</p>
-<p class="image-wrapper"><img data-img-size-val="554,310" src="https://img.36krcdn.com/hsossms/20241208/v2_8f27efc01ea14e91a1237e5fa2bf3d78@5595930_oswg199751oswg554oswg310_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>英特尔还将受邀在 IEDM 上就未来的封装解决方案发表演讲。上面的幻灯片展示了 EMIB-T，此前从未披露过。提醒一下，  EMIB 是英特尔的嵌入式多芯片互连桥，是 一种将芯片连接在一起的低延迟、低功耗和高带宽互连。</p>
-<p>英特尔透露，EMIB-T 代表 EMIB-TSV。此变体标志着首个使用 TSV 通过桥接器发送信号（而不是将信号绕过桥接器）的 EMIB 实现。</p>
-<p class="image-wrapper"><img data-img-size-val="552,309" src="https://img.36krcdn.com/hsossms/20241208/v2_d919906160a64c88bb010d6c74b1d2a9@5595930_oswg164445oswg552oswg309_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="554,287" src="https://img.36krcdn.com/hsossms/20241208/v2_2b7ad7a6de834b70983d266e2e9c14f0@5595930_oswg127306oswg554oswg287_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>参考链接</strong></p>
-<p>https://www.eenewseurope.com/en/imec-shows-double-row-cfet-standard-cell-for-a7-process-node/</p>
-<p>https://www.tomshardware.com/pc-components/cpus/intel-looks-beyond-silicon-outlines-breakthroughs-in-atomically-thin-2d-transistors-chip-packaging-and-interconnects-at-iedm-2024</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3069656731562886</guid><pubDate>Sun, 08 Dec 2024 14:01:00 +0800</pubDate></item><item><title>皮爷咖啡推出中国新品牌Ora Coffee，“星巴克祖师爷”不再死磕高端？</title><link>https://36kr.com/p/3067492788187780</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MTAxMDAzNA==&amp;mid=2688180176&amp;idx=1&amp;sn=16a032c3de9ca87f0b35f36fe49e708a&amp;chksm=bb29cb83b7e536d4a238dc81c4788ab9d15745e6e3cdcadc81960d659819746cf0161a2a11dd&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“小食代”（ID：foodinc）</a>，作者：潘娴，原标题为《皮爷咖啡中国首次开出新品牌Ora Coffee！也卖9.9元咖啡，“星巴克祖师爷”不再死磕高端了？》，36氪经授权发布。</p>
-<p>当9.9元硬控一众咖啡连锁品牌时，被外界形容为“星巴克祖师爷”的皮爷咖啡坐不住了。</p>
-<p>小食代留意到，近日，<strong>皮爷咖啡旗下新品牌Ora Coffee的首店在北京开业。</strong>对比人均30+的皮爷，Ora Coffee价格明显友好很多，15元的美式、20元的拿铁令其被消费者评价为“和manner很相近”，优惠价下的美式甚至只卖9.9元一杯。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_8a652b39abf645b5b5dd05015ddaa431@000000_oswg655775oswg1080oswg549_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对于新品牌，曾说要在中国保护好高端定位的皮爷咖啡非常低调，开业迄今尚未见有官宣。不过，截至发稿时，皮爷咖啡中国未回复小食代的查询。下面，我们来一起看看这个神秘的新品牌。</p>
-<h2><strong>也卖9.9咖啡</strong></h2>
-<p>根据大众点评，Ora Coffee新店位于北京财富购物中心。用户评价提到，<strong>该店在本周开业，为该品牌“全国首家测试店”</strong>，近几日还在开展免费赠饮并收集顾客反馈的活动。</p>
-<p>小食代在该品牌点单小程序看到，<strong>其公司认证显示为“皮氏咖啡（上海）有限公司（注：皮爷咖啡在华实体）”，目前仅有的一家门店开在北京。</strong>而社交平台上有网友透露，Ora Coffee将进驻西安，新店已上围挡。</p>
-<p>在门面上，Ora Coffee和Manner、M stand的简洁风类似，店内以奶油白、银色、木质装饰为主，配以暖黄的招牌与灯光，面积小于常见的皮爷大店。“空间较小，座位比较少，更适合外带的上班族。”有用户评价称。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_6cff4f0da1e3404da7dba1794abba0a6@000000_oswg597921oswg1080oswg547_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从菜单来看，<strong>Ora Coffee除了餐品，也售卖咖啡豆、挂耳咖啡这类包装产品</strong>。就餐品而言，其咖啡、果汁价格都在15～25元之间，也推出了贝果、帕尼尼、羊角包等烘焙产品，价格在9～20元之间。</p>
-<p>如果以一杯咖啡+一份烘焙的套餐形式购买，Ora Coffee显得更划算，最贵组合为32.9元，最便宜的组合卖18.9元，<strong>当中两款美式定价均为9块9</strong>。同时，该品牌上线了售价8元的五杯美式优惠卡包，持卡人<strong>可在工作日以9.9元买到原价15元的美式</strong>，显然是想吸引“靠咖啡续命”打工人前来复购。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_068e0fe0174c4e2ca54249e801be3ddf@000000_oswg936010oswg1080oswg2341_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在咖啡方面，Ora Coffee主打有本土特色的差异化。无论是店外广告牌、柜台立牌还是小程序首页，该品牌<strong>主推均为三款茶咖和果咖</strong>，即茶萃伯爵拿铁、茶萃青柑美式、晨曦果麦拿铁。同时，其也强调咖啡豆新鲜的卖点，号称为“28天新鲜烘焙”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_15ca80c3dc4e4b08982695b294e52678@000000_oswg574907oswg1080oswg551_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在大众点评上，一些尝鲜的用户称咖啡“和其他连锁不相上下”、“味道中规中矩和某绿色品牌一个意思”、“豆子用的和皮爷一样，味道也差不多”。另有用户形容“用优惠券性价比还可以”。</p>
-<h2><strong>不再死磕高端？</strong></h2>
-<p>有趣的是，如果不留意小程序、用户评价这些细节，Ora Coffee身上几乎看不到任何与皮爷咖啡相关的地方。这或许是皮爷希望能在中国市场“喝下”更多咖啡的同时，也维护好高端形象。</p>
-<p>小食代介绍过，皮爷咖啡于1966年在美国加州成立，其主打坚持“手工烘培每一批咖啡豆”。该品牌为人熟知的称号是“星巴克祖师爷”，因为传闻星巴克三位创始人都是皮爷咖啡创始人Alfred Peet的徒弟。</p>
-<p>2017年，皮爷咖啡在上海开出了中国首店。根据窄门餐眼数据（更新至2024年11月7日），<strong>该品牌已开出246家门店，覆盖13个省份、24个城市。</strong>其中，“包邮区”门店最多，江浙沪三地占据56%门店，餐饮消费重镇广东也属于门店较多的省份。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_7eb5ca9b1813412ebffd0118f4dd8bbc@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>也就是说，在进入中国的七年里，皮爷咖啡平均每年开出约35家门店，节奏比许多一年就开数百、数千家的同行们慢得多，尽管这已经得到了母公司JDE Peet’s成功IPO后开店提速的加持。</p>
-<p>在这背后，是JDE Peet’s出于夯实皮爷高端定位的考虑。JDE Peet’s前任首席执行官Fabien Simon曾说，皮爷咖啡无意在中国开设太多门店，因为当开店太多会令品牌很快变得过于大众化，但该集团希望保护好皮爷咖啡的高端形象，因此会严格控制门店数量。</p>
-<p>皮爷咖啡中国高层也有过类似的表态。</p>
-<p>“<strong>面对国内咖啡市场价格战和加盟店迅速扩张的趋势，我们没有盲目顺从。</strong>相反，我们专注于保持自己的特色，控制增长速度，优先考虑产品质量和客户体验的提升。”在社交媒体上，皮爷咖啡中国首席执行官张海龙发文总结2023年时如是说。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_89f25e3fc3374cea82243d13beb9cd22@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>过去一段时间，稳扎稳打的皮爷咖啡确实活得挺滋润。</p>
-<p>小食代留意到，根据JDE Peet’s的2023年报、2024半年报资料，<strong>在门店未有高速扩张的情况下，皮爷中国在两个报告期的销售额均录得双位数增长。</strong>2023上半年，中国市场首次成为了皮爷咖啡的全球前十大市场，而前CEO定下的目标是让中国市场跻身前五。</p>
-<h2><strong>迎合大众市场</strong></h2>
-<p>不过，对比定目标的几年前，中国咖啡连锁市场已今非昔比。</p>
-<p>以瑞幸和库迪为代表的本土品牌快速崛起、持续了一年多的价格战暂时还看不到尽头、不少品牌在“近身肉搏”中都或多或少表现出疲态。就连全球最大咖啡连锁星巴克的两任CEO都坦言，中国市场竞争变得异常激烈。</p>
-<p>需要指出的是，即便价格战打得火热，皮爷咖啡的促销力度也比较克制。以上海地区为例，小食代在大众点评翻查多家门店发现，皮爷优惠套餐数量都是十几个，而星巴克有三十多个。以各自的经典咖啡三次卡优惠为例，皮爷单杯为26.7元，星巴克为27.3元，两个高端品牌优惠后价格相近。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_b64b03cb532445a585b6143546c66552@000000_oswg84490oswg1080oswg664_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在这个局面下，如果继续死磕高端，皮爷咖啡日后发展或许会遇到更大阻力。</p>
-<p>一位曾任职于不同类型连锁品牌的管理人士表示，如今的餐饮消费以大众、平价为趋势，小众的中高端消费难以得到支撑。“中低档的咖啡店多如牛毛了，星巴克又在高端占主位。<strong>要和星巴克掰手腕抢夺高端份额没那么容易。</strong>皮爷进来晚，也还没啥杀手锏可对抗星巴克”。</p>
-<p>上海啡越投资管理有限公司董事长王振东认为，皮爷咖啡推出平价品牌“至少在战略选择上是正确的”。<strong>在目前的经济大环境下，如果维持大店、高单价模式，相信皮爷依然有生存空间，但发展空间必定受限。</strong>具体到执行层面，皮爷仍需解决团队能否操盘好不同定位的品牌和门店模型、供应链管理、成本控制等问题。</p>
-<p><strong>“现在环境比较复杂，市场处于品牌出清的阶段，很难判断皮爷的平价小店模式是否可以复制之前的成功。”</strong>王振东说。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_9ea620e931154f5fac29f43e609c6879@000000_oswg666276oswg1080oswg551_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对于皮爷咖啡不是直接靠促销，而要大费周章地设新品牌来竞争，王振东分析称，这是考虑到<strong>维护品牌定位和业务质量</strong>。在商业模式和营收数据都健康的情况下，促销可能冲击品牌高端定位、顾客门店体验、客单价和盈利能力这些根基。</p>
-<p>上述餐饮管理人士则指出，<strong>皮爷在国内门店不多，促销“掀不起太大水花”</strong>，“还不如重新打造一个平价品牌，门店面积不用大、灵活、投资更低，也能适应咖啡消费趋势”。</p>
-<h2><strong>变化期</strong></h2>
-<p>事实上，在被“9.9元”、开店潮重塑的咖啡连锁行业，皮爷并非没有感受到压力。</p>
-<p>其中国CEO张海龙曾在社交媒体上表示，2023年是“充满变化、难以预测”的一年，“在严峻的市场条件下，我们学会了在挑战中茁壮成长，通过发展业务和创新模式来增强竞争优势”。</p>
-<p>他又强调了保持好奇心的重要性，<strong>“在瞬息万变的外部环境中，只有通过创新思维和各种实验，我们才能适应时代的转变，避免被淘汰”。</strong></p>
-<p>如今看来，Ora Coffee无疑是皮爷咖啡希望顺应变化的“试验田”。不过，这次播种能否收获好结果仍有待观察。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_4d976709b39b42358ed2289f8e8e6fe3@000000_oswg655217oswg1080oswg551_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不仅是中国业务环境，在皮爷咖啡内部，一场尚难以捉摸的变化也在上演。</p>
-<p>小食代介绍过，今年3月，任内坚定看好中国业务潜力的Fabien Simon突然卸任JDE Peet’s CEO一职，同时离任的还有Simon“坚实拥趸”、时任集团董事长的Olivier Goudet。JDE Peet’s并没有解释更换两人的原因，但是最早报道了有关人事传言的金融时报指出，这是在长期业绩不佳后，控股股东 JAB Holding试图进行改组。</p>
-<p>经过几个月搜寻，今年10月，Rafael Oliveira被任命为JDE Peet’s首席执行官。此前，这位新帅在卡夫亨氏任职近10年，管理过包括中国在内的国际市场。和他的前任一样，Oliveira也曾多次表态看好中国市场前景，曾形容中国是卡夫亨氏国际业务的“第一大机遇”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241206/v2_24cd07f1f5c449bfa702208ef6101f52@000000_oswg622884oswg1080oswg807_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>JDE Peet’s新任首席执行官Rafael Oliveira </p>
-<p>在调整好高管团队后，无论是JDE Peet’s，还是其大股东JAB Holding都尚未透露过下一步行动。但可以肯定的是，JAB仍然希望把JDE Peet’s这盘生意干好，为此还在不久前以约167亿元的巨资从亿滋手里买下了更多股份。而一位有过中国市场经验的掌门人也有助于本土团队与其磨合。</p>
-<p>接下来，身为全球最大咖啡集团之一的JDE Peet’s将有什么动作？这又将如何影响皮爷咖啡在华策略？小食代会保持关注。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3067492788187780</guid><pubDate>Sun, 08 Dec 2024 14:30:00 +0800</pubDate></item><item><title>300名女性用一场扮演「猫猫」的游戏和ADHD相处｜酷朋友</title><link>https://36kr.com/p/3067545167953671</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 09 Dec 2024 07:30:35 +0800</lastBuildDate><pubDate>Mon, 09 Dec 2024 07:30:35 +0800</pubDate><item><title>300名女性用一场扮演「猫猫」的游戏和ADHD相处｜酷朋友</title><link>https://36kr.com/p/3067545167953671</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/y-Mfayo1HINlfNWhP4F6lQ" rel="noopener noreferrer nofollow" target="_blank">“新声Pro”</a>，作者：新声Pro，36氪经授权发布。</p>
 <blockquote>
 <p><strong>「猫猫」是陪伴者而非监督者，和其他督学产品相比，梳理、计划、提醒等事务都可以用AI辅助完成，但某些情绪价值的提供和情感链接的建立是只有真人才能做到的事情。许多「猫猫」在陪伴用户的过程中自己也得到了治愈，女性陪伴服务就在这样的背景下发芽生长出来了。</strong></p>
@@ -719,4 +377,218 @@
 <p>马云表示：“AI会改变一切，但这不代表，AI能决定一切。技术固然重要，但是未来真正决定胜负的，还是今天我们为这个即将到来的时代做些什么真正有价值而又是与众不同的事。”</p>
 <p>他说，“我们未来能做的，依然应该是我们过去20年所坚持的那些，让科技给每一个普通老百姓的生活带去进步和改变。我们要让AI赋能我们的情怀，我们也要让情怀赋能我们的AI！”</p>
 <p>蚂蚁希望成为健康成长102年的好公司，20岁，只是走了一小步。马云现场鼓励所有蚂蚁人继续追梦。他说：“不经历风雨怎能见彩虹，感谢过去这些年的经历和考验，感谢所有这些年相信蚂蚁，热爱蚂蚁，帮助蚂蚁，支撑蚂蚁的所有朋友们。感谢这几年大家对蚂蚁的鼓励，但是更感谢对蚂蚁的批评，正是这些鼓励、批评帮助蚂蚁成长，也是蚂蚁将来可以走得更远更稳健的保障。我相信打开新篇章的蚂蚁，一群有情有义的年轻人，活在一个变革的时代，一定会创造出新的奇迹。未来很难，但我们幸运能参与未来！”</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070221367112576</guid><pubDate>Sun, 08 Dec 2024 21:58:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070221367112576</guid><pubDate>Sun, 08 Dec 2024 21:58:00 +0800</pubDate></item><item><title>贵价面包，杀回来了</title><link>https://36kr.com/p/3070383030023047</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>上个星期四，北京白领赵权在合生汇逛街时发现，一家名为UH祐禾的面包店挤满了人。 </p>
+<p>出于好奇，他走进门店逛了逛。“35元一个吐司、28元一个乳酪面包，仅这两款的价格就超过了60元。” </p>
+<p>从市场表现来看，当下，贵价面包确实正在回归。 </p>
+<p>仅刚刚过去的11月，UH祐禾、Paper Stone Bakery、石头先生的烤炉、BUTTERFUL&amp;CREAMOROUS（黄油与面包，简称B&amp;C）等品牌就在北京、沈阳、深圳、西安等城市接连开店。 </p>
+<p>它们共同的特点是人均消费均在60元上下，不仅远高于味多美，也贵过品牌升级后的好利来。 </p>
+<p>如今，在餐饮界价格战硝烟四起，人们花出的每一分钱都要精打细算，人均60元的面包为什么火了？ </p>
+<h2><strong>01 60元面包店集体开业</strong></h2>
+<p>工作日下午3点，被小红书种草的李欢来到了位于北京国贸的Paper Stone Bakery门店。还未进店，木质色+暖黄色的装修风格就吸引了她的目光，“暖暖的很治愈”。</p>
+<p>进门之后，她观察到，门店面积超过100平方米，有1个开放式陈列橱和6个玻璃展示柜，包括焦糖牛角、苹果丹麦批在内的几十款面包躺在展示柜里。拉开玻璃柜门的一刻，可以感受到扑面而来的面包香气，而且黄油味道很浓郁。</p>
+<p>“店内还有很多有趣的小细节”，比如玻璃柜和货架上摆放着各种由面包制成的小玩偶，墙面上也有牛角包式样的装饰。此外，因为临近圣诞节，圣诞风的花环、松树和圣诞老人模型在店内也随处可见。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241208/v2_e9f09509a8c24120a5283496c65297cb@5888275_oswg145451oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">Paper Stone Bakery北京朝阳国贸门店，图/苏影摄</p>
+<p>再往店内深处走，面包柜后面是透明开放式厨房，厨房一侧的墙面做成了具有窑炉风的砖块形纹路。在社交媒体上，这家店主打的正是“石窑”特色。按照Paper Stone Bakery的说法，产品采用控温更专业的新式石窑烤箱，保留了石窑最关键的石板导热性。</p>
+<p>因为来之前做了功课，李欢此次购买了店内的4款产品，包括招牌焦糖牛角和3个石窑系列的长笛、法包，实付120元。购买过程中，因为餐盘没有面包垫纸，所以每选一个都需要店员帮忙打包，哪怕前面只有三四个人，也需要排队等候，这是李欢很不理解的点。</p>
+<p>“但总的来说，购买过程还是比想象的要顺利。”李欢此前在社交媒体上已多次看到这家店大排长队的盛况。“可能因为是工作日，店里约有30名顾客，选品加排队结账耗时不到20分钟。”</p>
+<p>走出门店后，李欢来到隔壁的星巴克品尝刚才的“战利品”。焦糖牛角很酥很脆，甜度适中，适合做下午茶的甜点；黑松露芝士法包有嚼劲、用料足，饱腹感一流；对比来看，葵花籽双提法包和红丝绒开心果长笛两款因为加了提子果肉和开心果酱，味道过于甜腻，不是她喜欢的类型。“好吃，但也没好吃到需要排队的地步。”</p>
+<p>王豆豆是一名野生甜品测评师，刷遍北京所有甜品店是她的理想，所以每次有新店开业她都忙不迭去体验。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1110" src="https://img.36krcdn.com/hsossms/20241208/v2_5b394370688e414394ae3158dcf2b892@5888275_oswg241107oswg1080oswg1110_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书用户“尝遍美食的胖丫头”（已获授权） </p>
+<p>最近，她发现北京的精品面包店越来越多了，除了前文提到的几家品牌外，纽约贝果博物馆、古早萬丹传统台湾糕点等新店也在今年赴京赶“烤”，而且都在一段时间内引发了排队热潮。</p>
+<p>事实上，不只是北京，今年以来，虽然价格战已经杀穿整个餐饮行业，但精品烘焙的热度不仅并未冷却，反而还在扎堆开进商场。</p>
+<p>今年6月和10月，新中式茶点“瑭所”在上海先后开出两店，这家首发于北京的品牌，人均价位达到70－80元；随后在10月和11月，人均60元的La Repete也分别将门店开进杭州和南京，据了解该品牌由Lady M原代理商主导；同样在11月，走轻奢路线的B&amp;C新店也先后进驻沈阳和西安。</p>
+<h2><strong>02 精品烘焙为什么火了？</strong></h2>
+<p>从表面上看，这些精品烘焙品牌似乎是因为进入顶流商场，所以具备了高人气。 </p>
+<p>有意思报告走访发现，当地的顶流商场如大悦城、龙湖天街、合生汇等，是上述烘焙品牌的入驻首选。 </p>
+<p>烘焙领域资深投资人赵振宇（化名）告诉有意思报告，在理性消费的大背景下，人流的二八效应会愈发明显，即头部购物中心的客流量基本不受影响，甚至在逆势中呈现上升趋势。 </p>
+<p>据赢商大数据监测，2024年二季度购物中心场日均客流近2.4万人，同比增长21.3%，创近年来新高。具体来看，购物中心客流增长主要集中在高线级城市，其中商业二线及以上城市购物中心场日均客流环比增速在10%以上。 </p>
+<p>但顶流商场里的品牌并非都是人山人海，门可罗雀的也不在少数。这些烘焙品牌成功的核心，在于满足了当下消费者的情绪价值。 </p>
+<p>情绪价值的实现，首先来源于“造人设”，其方式包括但不限于高端工艺如Paper Stone Bakery主打的石窑烤法，精致空间如B&amp;C的意大利西西里风情、法式复古剧院等概念。 </p>
+<p>接下来则是如今消费者再熟悉不过的网红打法。 </p>
+<p>首先在新店开业前夕，这些品牌会提前在小红书、微信公众号等平台发布消息，结合评论区点赞抽奖等活动吸引线下客流。同时，它们还会充分利用公域与私域平台，扩大宣传范围。 </p>
+<p>UH祐禾就是其中的典型代表，据了解，其在不同城市新店开业时均会推出“转发开业推文至朋友圈领30元无门槛代金券”活动，所以开业前期经常客流量爆满。 </p>
+<p>以其杭州湖滨银泰in77门店为例，12月4日开业后，领券队伍颇为壮观，现场足有几百人参与，队伍从商场B2一直排到附近的地铁口，此事也在社交媒体上掀起热议。评论区里，有人不理解30元的吸引力为什么这么强，但也有人想知道活动的时间地点以及在哪里排队。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,1110" src="https://img.36krcdn.com/hsossms/20241208/v2_14e5f1563b294d228383129a5838a923@5888275_oswg167068oswg1080oswg1110_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：小红书用户“大西瓜瓜瓜”“发光妮”（已获授权） </p>
+<p>其次，在门店开业后，品牌还会通过限时、限购等策略营造精品稀缺感，吸引消费者主动付费。</p>
+<p>如石头先生的烤炉会对招牌产品定时供应，每人限购两个，因此现场经常缺货，有意思报告注意到，有不少消费者在该品牌的大众点评评论区反馈招牌产品难买。B&amp;C品牌也有相似策略，其西安大悦城新店开业时，其招牌产品原创惠灵顿牛排牛角包限购1个且不参与打折，此举吸引了众多食客排队抢购，甚至还有黄牛提供代排队服务。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241208/v2_debafa1216784c51a405b40f0cacc4b2@5888275_oswg212928oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">B&amp;C门店内的招牌产品原创惠灵顿牛排牛角包，图/苏影摄</p>
+<p>此外，也有业内人士提到，在理性消费趋势下，精品烘焙的走红也体现了“口红效应”。</p>
+<p>2024有意思生活方式报告调查显示，今年以来，83.9%的人在消费过程中开始考虑商品是否为自己真正所需。因此，接近廉价奢侈品定位的精品烘焙，则成为口红效应下的畅销品。</p>
+<p>毕竟，相比于真正的奢侈品，精品烘焙单个产品的价格通常在20—40元，属于消费者的可承受范围之内，且种类丰富，外观精美，能够满足消费者的情绪需求。同时，精品烘焙还兼具社交属性，能成为消费者分享互动的重要媒介。</p>
+<p>B&amp;C联合创始人张曼就曾在公开场合提到，品牌目标群体主要是15—35岁的年轻消费群体，包括Z世代、新锐白领、精英妈妈等，这些群体注重个人IP和消费品位，对高颜值和社交属性有较高需求。 </p>
+<h2><strong>03 还能红多久？</strong></h2>
+<p>烘焙行业的前景，毫无疑问是光明的。 </p>
+<blockquote>
+<p>艾媒咨询数据显示，2023年我国烘焙食品零售市场规模达5614.2亿元，同比增长9.2%。预计未来市场将进一步扩容，2029年市场规模将达8595.6亿元。 </p>
+</blockquote>
+<p>甚至还有业内人士将其类比为新茶饮行业，认为将是下一个全国化、规模化品牌为主导的广阔舞台。 </p>
+<p>但精品烘焙品牌的规模化真有那么容易吗？ </p>
+<p>盘古智库高级研究员江瀚认为，精品烘焙就是一个小而美的生意，因为品牌为了保持精品的格调与规模，必然是一个高人力成本、高房租成本的状态，所以很难像连锁企业那样快速普及。 </p>
+<p>毕竟与普通连锁店相比，精品烘焙店需要更大的店铺面积，对门店所在的地段要求也更高。 </p>
+<p>以前文提到的B&amp;C为例，其店铺设置了三种类型：</p>
+<blockquote>
+<p>150平方米的标准店、150—200平方米的主力店和200—300平方米的旗舰店。在选址方面，主要落位于一二线城市的高端购物中心，目前仅有秦皇岛阿那亚店在三线城市，但阿那亚社区也被称为北京中产阶级的后花园，房价直逼五环外的北京。 </p>
+</blockquote>
+<p>以北京为例，根据国际商业地产服务和投资公司邦魏理仕发布的数据，2023年，在客流回暖的刺激下，北京全市购物中心首层平均租金环比上涨0.4%至32.3元/平方米/天。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,695" src="https://img.36krcdn.com/hsossms/20241208/v2_65cf17120c4541c4bbe7fd2fd8f6b4d1@5888275_oswg130314oswg1080oswg695_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">B&amp;C北京朝阳大悦城门店，图/苏影摄</p>
+<p>此外，热衷于走大店模式的精品烘焙店必然需要更多的人力支持，那么人工成本对其来说也是一笔不小的费用。 </p>
+<p>有意思报告通过走访发现，目前北京新开的几家精品面包店前厅有8—12名店员，负责帮助消费者取餐、打包、收银等工作。 </p>
+<p>一位武汉某烘焙店的面包师告诉有意思报告，面包店后厨一般需要5—6名面包师，包括主厨、打面师傅、塑形师傅、装饰师傅、炉火师傅等，如果有轮休需要，至少还要再加一个人。 </p>
+<p>以Paper Stone Bakery所属公司美心集团BOSS直聘北京地区的招聘信息为例，一名店员的月薪在5000—9000元（分为普通、高级两种），一名烘焙师的月薪则在6000—11000元（按照工作年限分为两档招聘）。 </p>
+<p>如果取工资中位数7000元和8500元计算，一家精品烘焙店一个月的员工成本至少也需要9.85万元。 </p>
+<p>更重要的是，从文化认知的角度来看，烘焙产品在国内还面临着与西方国家不同的饮食习惯差异。 </p>
+<p>江瀚提到，在西方，面包作为主食，是日常饮食中不可或缺的一部分，人们对面包的需求普遍较高。然而，回到国内，烘焙产品更多被视为甜品或点心，而非主要正餐食品，最多是有部分人群会在早餐食用。 </p>
+<p>有意思报告此前调查显示，在受访者常吃的早餐单品中，中国胃依然是主流，48.48%的人早餐会选择吃包子、烧饼、馅饼类食物，面包、糕点的占比在其之后，为38.23%。 </p>
+<p>这种饮食习惯的差异，无疑对精品烘焙产品在国内推广和普及带来了一定挑战。毕竟，烘焙食品最重要的是复购，但这种“成瘾性”，在国内却不那么容易被培养。 </p>
+<p>王豆豆对有意思报告提到，测评烘焙甜品这几年，她累计在北京光顾过几百家门店，如今回头看，至少20%的门店已经消失了，包括前两年爆火的虎头局渣打饼行、墨茉点心局等网红品牌。 </p>
+<p>中国特许经营与连锁经营领域专家李维华指出，餐饮行业有句行话叫做“餐饮不看前三月”，即在品牌营业初期，门店通常会策划各种促销活动来吸引顾客，而顾客也会因为尝鲜的心态前来光顾。这一时期，商家和顾客之间处于一个蜜月期。但是三个月后，他们是否愿意再次光顾形成复购，才是验证商家真正经营实力的时刻。 </p>
+<p>（应受访者要求，文中赵权、李欢、王豆豆均为化名） </p>
+<p>参考资料： </p>
+<p>1.对话创始人｜B&amp;C品牌主理人李墨：2022年底前要新开25家店，赢商网，2022-08-25 </p>
+<p>2.Q2客流报告：高端mall涨不动，餐饮型商场“本季最佳”，赢商云智库，2024-08-13 </p>
+<p>3.人均60元的精品烘焙店正密集进入购物中心，界面新闻，2024-11-12 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/9tkuL4IDZxjvBR8hyaBWoQ" rel="noopener noreferrer nofollow" target="_blank">“有意思报告”</a>，作者：苏影，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070383030023047</guid><pubDate>Mon, 09 Dec 2024 07:06:00 +0800</pubDate></item><item><title>跑步入场后的“融资客”：有的观望等待时机，有的空仓离场</title><link>https://36kr.com/p/3070369412903814</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>半夜3点钟，李辰实在睡不着了，起身抽了一支烟。</p>
+<p>他在A股市场上满仓满融（即以自有资金全部买入股票，并且将通过融资融券工具融到的资金也全部购买股票）的操作，使其股票账户收益大幅波动。精神一直处于高度紧张的状态，让他难以入眠。</p>
+<p>A股市场掀起“9·24行情”以来，像李辰这样的融资客跑步入场，市场融资余额一路攀升。A股融资余额从9月24日的1.36万亿元快速增长至当前的1.85万亿元，创出近九年新高。</p>
+<p>然而，<strong>随着市场行情变化，融资客的心态也在发生变化。</strong>“我空仓了，很累，感觉像生了一场大病。”李辰说。自从10月中旬开始重仓参与北交所市场，他就总有一种不安定感，一有空就打开股票账户，看看盈亏。满仓满融让他的交易习惯发生改变——变得难以忍受风险。</p>
+<p>融资客张泽则放松很多。在9月中旬满仓满融后，他选择“不硬扛”，主动调整了部分融资仓位。</p>
+<p>A股融资余额在11月11日迈入1.8万亿大关后，进入横盘阶段。经济观察报多方采访了解到，<strong>多家券商下调了融资利率，意在吸引新的融资客。</strong></p>
+<h2><strong>01 融资客进退</strong></h2>
+<p>近几年，由于房市调整，李辰一直未在上海购房。他把积蓄分散投资于银行理财与A股之中。去年，他开设了融资账户，但一直只用普通账户进行交易，没有启用融资杠杆。</p>
+<p>今年9月24日，政策层祭出利好经济和股市的政策组合拳，A股市场掉头向上。上证指数在五个交易日内从2770点快速拉升至3336点之上。</p>
+<p>李辰感觉机会来了，下定决心融资“杀入”。他坚定看多牛市，不久后便满仓满融。</p>
+<p>10月8日，李辰买入两只股票后立刻被套。随后在短短几天时间内，他的股票账户由盈利50多万元变为接近亏损。“参与了这么大一波牛市，最后一朝回撤，像是在做梦。我不敢说‘牛’没了，但是我当时看不清了。”李辰说。“在国庆之后那段时间，新开融资融券账户的投资者很多，需要排队。”华泰证券上海一家营业部融资负责人告诉经济观察报，当时，很多开设两融账户的人是融资新手，对于交易策略等方面的细节操作都不了解。所以，他们花了很多时间跟客户讲解融资融券操作以及交易策略。</p>
+<p>该负责人表示，前一段时间北交所行情好，一些股票价格翻倍，很多客户想参与北交所行情。但是，北交所的两融业务有较为严苛的个股集中度限制。因为北交所的公司市值更小，股价波动较大。最近该营业部的一些客户，在操作中就遇到一些问题。比如客户用100万元自有资金买入一只北交所的股票，如果想融100万元再买这只股票，是行不通的。客户需要降低融资比例，最终可能只能融50万元左右。他表示，<strong>由于融资条件计算复杂，只能投资者自己尝试。如果系统提示买不了，那投资者就只能去融另外一个标的。总而言之，这讲究熟悉度和方法。</strong></p>
+<p>张泽主要在沪深股市进行波段操作。9月中旬，他曾经满仓满融；目前，他看不清市场走向，在等待时机。“我在行情好、有明显赚钱效应的时候融资，现在这个位置不敢融资。”张泽说，“赚钱的股，我一定不会亏钱卖出。我不会硬扛。个股跌到成本线的时候该出手就出手，等形势好了我再买回来。如果市场出现大阳线或者放量大跌，我会考虑把仓位推上去。”</p>
+<h2><strong>02 券商降低利率“抢客”</strong></h2>
+<p>在部分融资客彷徨之际，多家券商着手对客户提供优惠的融资利率。据经济观察报了解，目前券商提供的融资利率通常为5%至5.5%的水平，较过去有所下降。</p>
+<p>“最近几个月融资利率下降不少。”上述华泰证券上海营业部融资负责人称，近期调降后，50万元资金的最低融资利率为4.99%，100万元至500万元资金的最低融资利率为4.8%，500万元以上资金的最低融资利率为4.6%。之前50万元资金最低融资利率为5.5%，现在是4.99%，降了不少。该负责人表示，“我们希望可以开发更多新客户。”</p>
+<p>长江证券上海安远路营业部负责人称，目前该营业部50万元至100万元资金的最低融资利率为4.8%，300万元至500万元资金的最低融资利率为4.5%，500万元以上资金的最低融资利率为4.3%。东方证券光新路营业部相关人士告诉记者，50万元至100万元资金的最低融资利率为5%，800万元资金的最低融资利率为4.5%。</p>
+<p>东方财富证券一位业务人员介绍，该公司的融资利率默认为6.99%。但如果在今年12月底完成融资融券账户开设，可以参与打七折的活动，即开户后，前半年利率为4.9%，后半年的利率为5.5%。“在符合监管要求的前提下，公司一般会给予客户标准的融资利率水平，如8.35%等。有些客户确实有要求，或者其资金量大及交易活跃，公司会给予一定的融资利率优惠。”国信证券浙江区域一位营业部业务人员介绍，一些线下营业网点较少的券商，给客户的融资利率会相对较低，以保持竞争优势。</p>
+<p>华东某大型券商的营业部一位业务人员称，<strong>融资利率下行与行业竞争、银行贷款利率下降等情况有关。目前，该公司内部已设置相应激励机制，大力推广两融业务。</strong></p>
+<h2><strong>03 融资余额横盘</strong></h2>
+<p>在9月24日之前，市场长期在低位震荡，A股融资余额一路下探至9月23日的年内最低点13609.86亿元。但9月24日一揽子利好政策亮相之后，A股融资余额快速增长。</p>
+<p>在多重因素的助推下，资金涌入推高了A股行情，两融交易亦迅速被引爆。</p>
+<blockquote>
+<p>10月8日，沪深两市成交额一举达到34835.43亿元，刷新了A股成立以来的历史纪录。当天，融资交易金额达到4063.80亿元，占当天成交量达11.67%。</p>
+</blockquote>
+<p><strong>在A股行情启动和机构的推动下，赚钱效应吸引融资客跑步进场。</strong></p>
+<p>中国证券金融股份有限公司（下称“证金公司”）数据显示，截至12月4日，A股融资融券投资者数量为717.63万户；而去年同期，这个数字为677.20万户。若截取9月24日至12月4日这一时间段，变化更为明显——A股融资融券投资者数量增加了20.17万户，去年同期仅增加6.00万户。</p>
+<p>Wind数据显示，12月4日，A股沪深两市融资余额合计为18475.88亿元，买入量为1502.18亿元，买入额占A股成交额比重为8.85%；净流出8.47亿元。12月5日，A股沪深两市融资余额合计为18547.82亿元，这一数字创下九年来新高。</p>
+<p>信雅达咨询创始人戎一昊称，融资余额的增长通常被视作市场活跃度的一个关键指标，它反映出投资者对未来市场前景的乐观预期。这种积极情绪可能源于对经济复苏的预期、政策的宽松以及市场流动性的增加等因素。</p>
+<p>戎一昊说，自9月24日以来，政策的转向提振了市场信心，同时国内经济的逐步复苏，消费和生产的回暖，以及多项经济数据的向好，都为市场情绪的恢复提供了坚实的支撑。此外，央行实施的宽松货币政策，如降息和降准，增加了市场流动性，降低了融资成本，进一步刺激了投资者的入市热情。</p>
+<blockquote>
+<p>不过，A股融资余额在11月11日迈入1.8万亿元大关后就进入横盘阶段。11月14日至18日，A股融资分别净流出72.67亿元、93.6亿元、33.8亿元。11月22日，A股融资净流出122.75亿元。这一天成为9月24日以来，融资流出额最多的一天。</p>
+</blockquote>
+<h2><strong>04 防范风险</strong></h2>
+<p>一位杭州银行理财子公司分析师认为，融资余额已升到了近年来的高位。目前投资者加杠杆投资小市值股票，存在很大的风险。</p>
+<p>在戎一昊看来，尽管A股融资余额创下近9年新高，但这并不是历史最高点。2015年6月18日，A股融资余额高达2.27万亿元，是历史最高值。从这个角度来看，考虑到当前全市场超过5000家上市公司的规模，与2015年相比，目前的融资余额水平不算过高。</p>
+<p>中信建投首席策略分析师陈果告诉经济观察报，<strong>A股市场短期看资金，中期看政策，长期看企业。融资情况是观察市场存量资金的一个指标。</strong>目前，A股融资余额在短期内在偏高位有所回摆。这样的情况可能是反映市场对于后续政策的节奏、力度包括对外部环境和基本面处于观望态度。这就使得市场的风险偏好在一定程度上会有所降低，进而影响到敏感的杠杆资金。</p>
+<p>他补充说，“我认为目前A股资金链从整体来说处在平衡阶段。”这些不会影响其看好中期市场的判断。“没有任何证据证明，后续的政策方向、力度会出现改变。”陈果表示。</p>
+<p>戎一昊提醒称，投资者不能因为融资余额尚未达到历史最高而放松警惕，特别是本轮融资余额的增长速度较快，风险控制依然至关重要。<strong>在通常情况下，大量资金涌入市场，高杠杆交易在市场波动中可能会放大风险。</strong>即便是在牛市行情中，投资者也应警惕融资盘的平仓压力，保持谨慎，合理控制风险。</p>
+<p>多位业内人士指出，如果融资余额过高，也可能意味着市场存在过度投机的风险。一旦市场出现调整，高杠杆的投资者可能会面临较大的亏损压力，甚至触发强制平仓。</p>
+<p>渤海证券认为，本年度融资余额升至近年来高位，参与融资融券交易的投资者数量同比增加约10%。随着市场走势逐渐明朗，预计两融余额不会再出现10月以来的增幅，将趋于平稳。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/QCWNTm88Wd4G7CZZdI22cg" rel="noopener noreferrer nofollow" target="_blank">“经济观察报”</a>，作者：黄一帆，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070369412903814</guid><pubDate>Mon, 09 Dec 2024 07:12:00 +0800</pubDate></item><item><title>只留给孩子们0.5%？94岁巴菲特要如何处置1.04万亿资产</title><link>https://36kr.com/p/3069792862811016</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>和所有超级富豪一样，巴菲特也在面临一个逃不过的问题——如何分配万亿级别的资产？</p>
+<p>在最新的股东信中，巴菲特透露了他的资产分配计划，一个既充满智慧又极具个人色彩的决定。</p>
+<p>巴菲特选择了一条不同于传统富豪的道路，他决定将个人财富的99.5%捐赠给四个家族基金会，而只留给他的三个孩子每人0.5%的遗产。这一决定不仅体现了他对财富的看法——“极其富有的父母应该给孩子留下足够的财富，让他们可以做任何事情，但不能多到让他们什么都不做”，也反映了他对慈善的深刻理解和承诺。巴菲特的这一选择，不仅是对个人财富的一次重新定义，也是对家族未来的一次深思熟虑的投资。</p>
+<p>巴菲特的孩子们将继承的，不仅仅是一笔财富，更是一份责任。他们将承担起管理家族慈善基金的重任，继续推动社会的进步和福祉。巴菲特明确表示，他的孩子们苏西、霍伊和皮特将成为家族慈善基金的话事人，直到他们自己再做出其他安排。这一安排，既体现了巴菲特对孩子们的信任，也展现了他对家族未来的深思熟虑。</p>
+<h2><strong>01 1.04万亿财产的分配</strong></h2>
+<p>“死亡总是会来，它会让人生变得无常而残酷。有时候它会造访襁褓中的婴儿，有时候它时隔一个世纪才来找你。回首往事，我已经非常幸运了，不过代价就是现在我的孩子都已经时日无多了，他们分别是71岁、69岁和66岁。”</p>
+<p>巴菲特在近日给伯克希尔哈撒韦公司的股东们写的一封信的开头这样写道。这位94岁高龄的全球最富有的投资人，凭借技术穿越了无数个股市的牛熊，但始终无法阻止死神的靠近。在这封股东信上，巴菲特也透露了自己财富后续的分配。</p>
+<p>他指出“极其富有的父母应该给孩子留下足够的财富，让他们可以做任何事情，但不能多到让他们什么都不做。”目前伯克希尔的股份占巴菲特个人总财富的99.5%，未来将捐赠给四个家族基金会，也就是说他最终留给他三个孩子个人的遗产总共只占他个人财富的0.5%。</p>
+<p>巴菲特称，“由于家族慈善基金存续的时间肯定比我的孩子们的生命更长，他们已经秘密指定了三个更年轻的接班人作为候补。不过我要明确的是，在我走后苏西、霍伊和皮特三人将成为家族慈善基金的话事人，直到他们自己再做出其他安排。”同时巴菲特还表示，至于孙子辈和更年轻的后人们，他就无力做出安排了。“我能完全信任我的孩子，不过谁能够保证后辈们的品行、价值观能符合那时的慈善环境的要求呢。与其让我现在就做出安排，不如相信三个理智的大脑到时候能做出妥善的决定。”</p>
+<p>对于如何管理如此庞大的慈善基金，巴菲特制定了一个基本的规则：任何基金的变动都必须三个孩子同时签名才能生效。这样做能够避免孩子们产生私吞资产的自私想法，因为其他二人一定不会同意。</p>
+<p>一听到只留给孩子们0.5%的资产，很多吃瓜网友表示疑惑，不过根据《2024家大业大酒·胡润全球富豪榜》显示，巴菲特的个人财富约为1.04万亿元人民币，即使是0.5%数字也十分可观了。</p>
+<h2><strong>02 被富豪们偏爱的“投资单品”</strong></h2>
+<p>况且，大部分巴菲特的资产还是通过家族慈善基金辗转被他的孩子们“另类继承”了。</p>
+<p>实际上家族慈善基金一直都是欧美富豪们热衷的“投资单品”，除了巴菲特，比尔盖茨、扎克伯格等富豪都将部分财富捐赠给了自己家族的慈善基金会。</p>
+<p>富豪们为何偏爱家族慈善基金？</p>
+<p>一个众所周知的原因就是，税收优惠。美国是一个高税收国家，富豪们在财产传承的过程中要过好几道税收的门槛。除了要承担个人所得税、遗产税、赠与税等联邦税负外，还要承担地方政府征收的各种税负，履行繁琐的申报义务。所以税收优惠是一个不可忽视的理由慈善捐赠往往伴随着税收减免，这对于富豪来说是一个重要的考虑点。</p>
+<p>省去一部分税收问题之外，家族慈善基金也很好的避免了“豪门遗产争夺战”这种狗血剧情的上升。就比如巴菲特，绝大部分资产都直接流入家族慈善基金，这就比一项一项的直接继承给相应的继承人要轻松得多。</p>
+<p>舆论影响力，是另一个富豪们痴情于投资家族慈善基金的原因。通过慈善活动，他们可以提升家族的社会影响力和声誉，同时也能为社会带来积极的变化。在某些情况下，富豪可能会因为各种社会因素而参与慈善活动，以缓和贫富差距，维护既得利益和保护家人。家族治理和价值观的树立也是家族慈善基金会的一个重要作用，它可以帮助家族成员树立正确的价值观，避免因争夺资产而导致资本受损。</p>
+<p>这些家族慈善基金的资金最开始基本就来源于个人或者家族成员的捐赠，不仅是美国，中国家族慈善基金也同样如此，比如曹德旺先生创立的河仁慈善基金会的原始基金为2000万元人民币，是他个人出资的。</p>
+<p>达到一定财富原始资金的积累后，家族慈善基金会就会开始以多种策略开启对外投资。</p>
+<p>很多基金会也会从本身自己或者家族相关的商业领域下手。比如地产大亨的家族慈善基金会就投商业地产、搞科技起家的企业家的慈善基金就去投创新科技。</p>
+<p>大多数基金会采用间接投资的方式，通过投资其他基金来分散风险并获取收益，这种方式的优势在于能够以较低的成本获得风险分散的收益。也有基金会同时进行直接投资和间接投资，以实现资产配置的多元化，结合直接投资的控制性和间接投资的分散性。</p>
+<p>过去几年，很多家族慈善基金也开始“报团取暖”，除了单一家族基金外，也有多个家族联合形成多家族基金的形式。</p>
+<p>这种形式的好处的显然的，多个家族联合起来不论是在财力上还是专业领域的涉及上都会更广泛。而且近年来随着ESG投资（环境、社会和治理）概念的火爆，越来越多的基金会开始尝试通过ESG投资策略，追求财务回报的同时，也关注社会和环境效益。一些慈善组织通过影响力投资，不仅追求财务回报，还主动关注社会和环境效益，在产生积极的社会影响的同时获得经济回报。</p>
+<p>至于慈善基金们偏好的项目，教育和科研当属第一。</p>
+<p>理由也很简单，盖学校、搞科研，既能增加社会名誉，如果真的搞出什么能商业化的科研成果，企业家也可以“近水楼台先得月”在科研成果的基础上加码商业化，所以科研领域一直都是慈善基金非常偏好的投资项目。</p>
+<p>这些投资方式体现了家族慈善基金会在追求财务回报的同时，也实现了社会使命和慈善目标。通过多元化的投资策略，家族慈善基金会能够为慈善项目提供稳定的资金支持，同时也为资产的长期增值打下基础。</p>
+<p>既然是基金会，就要讲究投资回报。不过作为慈善基金也要考虑社会效应。在财务回报和社会效益之间寻找平衡，是家族慈善基金会的重要课题。</p>
+<p>他们通过慈善信托和慈善基金会的结合使用，实现资产的有效隔离和保护，确保慈善资产的独立性和安全性，同时增强慈善资产的保值和增值能力。影响力投资作为一种实现社会效益的手段与慈善并行，这种投资同时追求金融收益，通过投资有社会效益的项目，实现社会和金融的双重回报，从而实现慈善事业的永续经营。</p>
+<p>家族基金会通过投资品种多样化、领域覆盖广泛、投资期限分散等方式减轻风险，同时强化监管和审计，确保投资的稳健性。他们运用商业思维进行保值增值，支持开展慈善信托，进行社会投资。</p>
+<p>除了家族慈善基金，富豪们想要涉猎慈善行业的方法也有很多，包括直接捐赠、设立专项基金、捐赠者服务基金等，通过整体设计实现财务回报和社会影响力的平衡。企业与慈善组织建立合作伙伴关系，提供资金、技术、服务、人力等，支持公益慈善能力建设，同时扩大社会影响。</p>
+<p>而富豪家族之外，近几年不论是国内还是国外的企业也都把慈善工作看得更加重要，企业会陆续结合行业特点和企业战略，制定企业慈善捐赠规划，建立慈善捐赠管理制度和工作程序，完善相关财务预算制度和应急机制。和富豪个人与家族一样，企业涉猎慈善的原因也无非就是围绕税收优势以及企业形象展开的。</p>
+<p>既能灵活使用、又能合理接受税收政策、还能树立良好形象的同时获得财务、口碑双收益，家族慈善基金能成为富豪的“投资宠儿”不是没有原因的。</p>
+<h2><strong>03 投资趋势的变化</strong></h2>
+<p>94岁的巴菲特这个“安排继承人”的举动备受关注的同时，很多人也注意到巴菲特近年来的投资策略随着大环境做出了相应的变化。</p>
+<p>比如，策略上逐渐从传统的价值投资转向了更多关注企业的成长性，近年来巴菲特开始寻找那些具有持久竞争优势但在短期内遭遇挫折、股价被市场压低的公司进行投资。与此同时，他也加大了对海外优质企业的投资和并购力度，这不仅有助于分散风险，也是对冲美元资产及现金风险的一种策略。</p>
+<p>而从伯克希尔投资组合的变化来看，其投资组合中股票仓位呈快速上升趋势，而债券、现金及现金等价物的比例则有所下降，这背后可能体现出巴菲特本人对美国二级市场较为乐观的态度。</p>
+<p>一如既往的，巴菲特的投资更加集中在他的能力圈范围内，即那些他熟悉和擅长的行业，如金融、日常消费和能源。巴菲特在股票层面采取自下而上的精选个股策略，对单一股票持仓比例几乎没有限制，股票收益的头部集中效应明显，就比如苹果公司在其投资仓位中占据了比较大的比重。</p>
+<p>尽管市场环境不断变化，巴菲特依然坚持长期投资和价值投资的原则，强调与伟大企业一起成长，而非追涨杀跌。这些变化显示了巴菲特在适应市场变化的同时，依然坚持其投资哲学的核心原则。</p>
+<p>面对巨大财富的传承，巴菲特是理性而智慧的，当被问及为何设立基金会的所有行动都需要通过一致性投票规则。</p>
+<p>在这封给股东的信中，巴菲特写道“因为拥有巨额财富，我的孩子们将永远受到来自非常真诚的朋友和其他人的热切请求的困扰。第二个现实是：当请求大额慈善捐款时，一个“否”往往会促使潜在的受赠者考虑另一种方式——另一个朋友、不同的项目等等。那些能够分配巨额资金的人永远被视为“机会目标”。这种不愉快的现实是这个领域的常态。”</p>
+<p>因此，才有了“一致决定”的条款。这个限制使得对寻求赠款者的回复变得迅速而明确：“这件事我兄弟姐妹可能不会同意。”这个答案将改善我孩子们的生活。</p>
+<p>审时度势的投资、充满智慧的传承，财务和社会收益的平衡，这位首富的智慧仍在延续。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjI0Nzk5NA==&amp;mid=2650205235&amp;idx=1&amp;sn=d79721eed3237a96fe02eb7dab6fe3f3&amp;chksm=bfecaf2140fb94a4711fdc324877fff2c1e41996f143b0401b6f51490296b737c6a1876ec816&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“融中财经”（ID：thecapital）</a>，作者：吕敬之，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3069792862811016</guid><pubDate>Mon, 09 Dec 2024 07:18:00 +0800</pubDate></item><item><title>3家车企提前完成2024年销量目标，都是啥情况？</title><link>https://36kr.com/p/3069480575218309</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>6日，随着上汽集团、本田中国销量数据公布，目前中国国内主流车企11月的销量已披露完毕。</p>
+<p>从车企年度销量目标来看，比亚迪、零跑汽车、小米汽车3家车企提前一个月完成了年度销量目标，长安汽车、吉利汽车、理想汽车等离目标仅一步之遥；奇瑞若按照高于行业10%-20%的增速目标来看，每个月增速都能达标。</p>
+<p>而在去年同时期，仅有理想汽车一家车企提前完成年度销量目标。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241208/v2_e7dc15b3cfce4f99a4d44b57304abf00@000000_oswg100885oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲部分车企销量数据表 中新经纬 龚宸芫制图</p>
+<p>今年初，多家车企负责人在新年致辞、开工信中表示，2024年将是充满竞争的一年。如小鹏汽车CEO何小鹏说：“2024年是中国汽车品牌进入激烈竞争的第一年，也是淘汰赛的开始。”吉利汽车CEO淦家阅则表示，2024年竞争将更加激烈，行业将进入整合期，面临重新洗牌。 </p>
+<p>在竞争激烈的市场环境里，为何提前完成年度销售目标的车企还多了？</p>
+<h2><strong>01 性价比优势</strong></h2>
+<p>从完成销量目标的车企来看，比亚迪前11个月销量为375万辆，已超过360万辆的目标；零跑汽车前11个月销量为25万辆，已达到25万辆的目标。 </p>
+<p>而小米汽车在11月下旬就宣布今年交付量已超过原本定下的10万辆年度目标。12月6日，小米科技创始人雷军在个人社交账号发布视频表示，今年小米汽车冲刺13万辆。</p>
+<p>上述3家车企11月销量都创下历史新高，其中比亚迪11月销量超过50.6万辆，零跑则是销量首次突破4万辆，小米汽车该月销量超过2万辆。</p>
+<p>从车企对中新经纬的回应来看，比亚迪方认为主要有四方面原因，即新能源战略的长期坚持，技术创新的长期坚持，拥有垂直整合战略优势，以及多品牌协同发展。零跑汽车则表示是全域自研、好而不贵造车理念被用户认可，才能提前一个月完成目标。</p>
+<p>罗兰贝格全球高级合伙人、亚洲区汽车业务负责人郑赟持相似看法。他在接受中新经纬采访时表示，比亚迪新能源转型较为成功，拥有较为完整的产品谱系，覆盖低、中、高端；在品牌端，比亚迪在全球市场有较为综合的布局。</p>
+<p>民生证券分析师崔琰在12月2日的研报中提到，比亚迪高销量增长原因主要在于王朝、海洋品牌新车密集，规模化效应强化，王朝、海洋、方程豹的增量明显。</p>
+<p>为何增量明显？比亚迪相关负责人向中新经纬表示，得益于比亚迪对电池、电机、电控及车规级半导体等新能源车核心技术的掌控，使得自身拥有较强的抗风险能力及成本把控能力。</p>
+<p>SoCar产品战略咨询公司创始人张晓亮说，比亚迪通过供应链降本方式为产品争取更具吸引力的价格。</p>
+<p>而多位分析人士在提及零跑、小米汽车时，亦提到了性价比，不过采取方式各不相同。</p>
+<p>张晓亮对中新经纬表示，零跑推出智能化产品时不会选择做模式创新，而是充分吸收蔚小理旗下主流产品已被市场充分验证的设计，用更低的成本做出车型；同时，零跑架构能力比较强，用等效替代法吃掉比较确定的市场份额。</p>
+<p>“零跑走的是当年韩系车在中国市场的路线，用极致性价比获取市场份额。”郑赟说。对于小米汽车，张晓亮认为，小米SU7在价格、性能、造型上，都能做到优于同级别的产品。</p>
+<h2><strong>02 10万-20万元市场蕴藏增量</strong></h2>
+<p>从产品结构来看，比亚迪和零跑前11个月销量贡献主力车型集中在10万-20万元价格区间。比如，比亚迪在11月有10款月销量超过2万辆的车型，其中有7款产品处于10万-20万元价格区间。零跑汽车在售的5款产品中，有4款位于上述价格区间。 </p>
+<p>“价格中低端的市场集中度比较高，处于这一领域的用户群体容易追随主流做选择。比亚迪销量增长、增速越来越快，甚至快拦不住了，零跑也逐渐进入比较顺畅的上升通道，其实吉利也在这个区间。”张晓亮认为，未来几年，上述几家车企会逐渐吃掉20万以下价格区间的大部分市场份额。</p>
+<p>这一市场，亦是大部分主流车企要争取的细分领域。乘联会数据显示，从2021年到2023年，新能源汽车市场呈现两头大、中间小的“哑铃型”。2024年以来，这一现象逐渐向中间大、两头小的“纺锤形”转变。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241208/v2_0b3dca2c4d1d45dfb9e383b3fe628f00@000000_oswg123506oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲中新经纬 龚宸芫摄</p>
+<p>乘联会秘书长崔东树在接受中新经纬采访时说，<strong>10万-20万市场是车企重点突破的方向，是中国国内汽车市场未来消费升级的核心和主力，发展潜力巨大。</strong></p>
+<p>这一领域是3线及以下城市消费群体的目标市场。SoCar产品战略咨询公司给出的数据显示，2011年到2015年，中国3线及以下城市消费群体新购车辆超过1亿辆。</p>
+<p>“从车辆使用年限来看，这一批产品正在进入或即将进入置换年龄，对应的消费群体每年将为车市贡献至少1000万辆置换份额。”张晓亮说。</p>
+<p>而踩准市场的比亚迪、零跑，将超额完成2024年度销量目标。早在11月初，摩根士丹利、花旗银行就发布研报表示，比亚迪有望全年销量超400万辆；同期，东吴证券预计比亚迪全年销量超410万辆。</p>
+<p>当然，并不是对这一领域有产品布局，就能收获良好成果。郑赟说，上述车企在客群定位、品牌营销、产品力方面都做得比较出色，才较早完成销量目标。</p>
+<p>从车企布局看，12月6日晚，吉利银河星舰7 EM-i上市。这款车为插混SUV，售价区间为9.98万-13.28万元，瞄准的正是10万-15万元市场。</p>
+<p>零跑汽车在广州车展发布会上透露，B系列将成为零跑汽车明年产品焦点，将推出3款新车，这一系列产品主要针对10万-15万元细分市场。</p>
+<p>郑赟认为，从大的时间周期来看，得益于国民汽车消费升级，10万元以下的汽车市场在2015年竞争激烈；10年后的2025年，大家更多会围绕10万-15万、15万-20万价格区间展开竞争。</p>
+<h2><strong>03 存在个性特征</strong></h2>
+<p>当然，除了上述的共性特征，车企能提前完成目标，还存在特性原因。 </p>
+<p>天风证券在12月4日的研报中提到，比亚迪全球化是销量的有力支撑点。前11个月，比亚迪累计海外销售36万辆，同比增幅为74%，远超增速为40%的整体销量同比。</p>
+<p>其中，欧洲是比亚迪增长幅度较高的细分市场。12月初，汽车市场研究公司Jato Dynamics数据显示，比亚迪10月欧洲销量同比增长了一倍多，连续2个月超过上汽名爵。</p>
+<p>在东亚部分市场，比亚迪亦有较大增幅。据《人民日报》报道，12月5日，尼泊尔海关最新数据显示，2023-2024财年尼泊尔共进口1.17万辆电动汽车，较上一财年增长189%。其中，来自中国的电动汽车占比近七成，比亚迪等中国品牌受到尼泊尔消费者青睐。</p>
+<p>天风证券在上述研报中表示，由于比亚迪近期还在非洲、南美洲等市场积极布局，他们认为比亚迪海外销售有望形成强利润支撑。</p>
+<p>对于零跑汽车能快速在新能源汽车细分市场扎根，在张晓亮看来，一大重要因素是，零跑的电子电气架构、智能化技术底座基础做得比较扎实，这是零跑企业基因所决定的。</p>
+<p>公开资料显示，零跑汽车前身是大华技术股份有限公司的电子汽车部门，在AI视觉、物联网等领域有着一定的技术积累。</p>
+<p>小米汽车凭一款小米SU7，在大半年时间里交付超过10万辆车，除了产品性价比优势，张晓亮认为，更重要的原因是，雷军持续的粉丝效应和小米汽车强大的爆款产品逻辑。</p>
+<p>他分析道：“雷军的人设在市场里有很强的粉丝群体。最重要的一点是，小米汽车产品逻辑是做爆款，目的清晰，不会像其他车企，以产品组合形式开局。”</p>
+<p>小米汽车App显示，目前订购小米SU7的消费者，提车等待周期为19-27周，最长等待时间接近半年。“小米汽车在原来消费电子的客户基础上做得比较好，从前端集客到后端销量转化做得很成功。”郑赟说。</p>
+<p>小米汽车官网显示，小米汽车目前一期工厂已投产，年产能为15万辆，即每月定额产能1.25万辆。但小米汽车11月销量为2万辆，这意味着产能利用率达到160%。</p>
+<p>从车企过往经历来看，不少造车新势力在产品起步阶段遭遇过产能爬坡问题，导致订单转化率不及预期，造成用户流失等情况出现，产品经历产能爬坡阶段后显示后劲不足。</p>
+<p>黑芝麻智能相关负责人曾告诉中新经纬，一款新车开启交付后，从小批量交付到规模交付，需要用1年时间进行产能爬坡。相比之下，小米汽车用半年时间实现了这一任务。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247586528&amp;idx=1&amp;sn=3946858b80adb3bbe1365f920e6907b4&amp;chksm=e8958559a8e44ef688aac21666920bb054ee9c77dc9c473fb76316abfa77e7ab60abb409b686&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：龚宸芫，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3069480575218309</guid><pubDate>Mon, 09 Dec 2024 07:24:00 +0800</pubDate></item></channel></rss>
