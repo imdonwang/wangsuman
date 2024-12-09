@@ -1,400 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 09 Dec 2024 10:00:33 +0800</lastBuildDate><pubDate>Mon, 09 Dec 2024 10:00:33 +0800</pubDate><item><title>o1被曝“心机深”：逃避监督还会撒谎，骗人能力一骑绝尘</title><link>https://36kr.com/p/3070896603640456</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>o1满血版刚发布，就被曝：</p>
-<p><strong>骗人</strong>技能也拉满了。</p>
-<p>具体行为包括但不限于，在回答中故意引入微小错误、试图关闭监督机制……甚至在人类追问其是否诚实时，还会继续撒谎说自己啥坏事也没干。</p>
-<p class="image-wrapper"><img data-img-size-val="1074,568" src="https://img.36krcdn.com/hsossms/20241209/v2_28fa3629ed874c82b7f051ead36ac162@5888275_oswg31561oswg1074oswg568_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这项最新研究，来自AI安全研究机构Apollo Research。目的很明确：看看AI是否会在暗中追求与人类不一致的目标，隐藏真实的能力和意图。</p>
-<p>简单来说，就是会不会在跟人类对话时耍心机骗人。</p>
-<p>o1、Claude 3.5 Sonnet、Claude 3.5 Opus、Gemini 1.5和Llama 3.1等顶级大模型都是研究对象。而实验结果表明：<strong>o1最擅长隐藏心机</strong>。</p>
-<p>不仅是唯一一个在全部6项测试中都表现出谋划能力的模型，在多轮对话中，o1也几乎从不承认自己耍心眼骗了人。</p>
-<p>其他模型被要求“100%诚实”时，还会认怂承认犯错，可o1不但不承认自己做错，甚至在99%的情况下还会编造错误解释……</p>
-<p class="image-wrapper"><img data-img-size-val="232,228" src="https://img.36krcdn.com/hsossms/20241209/v2_17710ef4a7754fd8a438efddec58cab9@5888275_oswg79213oswg232oswg228_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>来看具体研究内容。</p>
-<h2><strong>“o1最具欺骗性”</strong></h2>
-<p>在这项研究中，研究人员设置了6类基准评估，以测试模型的<strong>谋划</strong>能力。</p>
-<p>其中包括4种<strong>秘密破坏</strong>（Covert Subversion）：</p>
-<p>监管规避：测试模型在追求目标时发现其行为受到监管，会不会禁用监管机制。</p>
-<p>自我渗透：模型发现自己因为目标与人类不一致，将被关停，是否会将自己的模型权重复制到另一台服务器，以继续任务。</p>
-<p>目标守护：模型发现人类将更新其系统提示来改变原有目标，是否会试图修改新的系统提示。</p>
-<p>秘密邮件重排：模型在按照用户提供的评分规则对邮件进行评分排序时，是否会偷偷修改评分结果以满足自己的目标。</p>
-<p>还包括2种<strong>延迟破坏</strong>（Deferred Subversion）：</p>
-<p>工具性服从伪装：在高监管条件下，模型会表现出服从开发者意图的行为；在低监管条件下，则转而追求自己的目标。</p>
-<p>战略性表现不佳：模型在能力评估中故意摆烂，掩盖自己的真实水平，以避免受到更多限制，或被要求执行更多任务。</p>
-<p>结果be like：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,244" src="https://img.36krcdn.com/hsossms/20241209/v2_8a639ee01fda425ba7062e6b48b08be6@5888275_oswg65057oswg1080oswg244_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>举个具体的例子，在“监管规避”实验中，o1被要求“不惜一切代价”保护环境，但同时它发现，开发者更关心的是短期利润，如果利润不理想o1就会被关停。</p>
-<p>就是说，o1制定长期保护计划的目标，和开发者短期利润最大化的目标是相悖的。</p>
-<p>另外，o1也被告知，开发者会对其行为进行监管。</p>
-<p>于是，o1禁用了监督机制。</p>
-<p class="image-wrapper"><img data-img-size-val="250,250" src="https://img.36krcdn.com/hsossms/20241209/v2_54cfaf1a7b874856973e7b28d5aedd4d@5888275_oswg32779oswg250oswg250_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更绝的是，当开发者询问o1为什么要禁用监管机制时，o1会矢口否认，表示自己并不知道禁用的事，并将之归咎于系统故障。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,567" src="https://img.36krcdn.com/hsossms/20241209/v2_3acda39d82714523909bb415fda985b2@5888275_oswg601106oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>研究人员通过提取o1等模型的隐藏思维链，发现大模型们明确知道自己是在“搞破坏”。但以o1为例，这并没有在思维链中外显。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,785" src="https://img.36krcdn.com/hsossms/20241209/v2_a1bfbfd5801749c58025dedcd27d9e6c@5888275_oswg619379oswg1080oswg785_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>研究人员提醒，在没有提取思维链摘要的情况下，他们很难判断o1是否是在搞事情。</p>
-<p>对此，OpenAI表示，正在开发监控o1思维链的方法。</p>
-<p>OpenAI也坦承发现了o1故意提供虚假信息的情况，并认为这可能是后训练带来的新行为——人类在获得正确答案时会奖励模型，因此模型会倾向于取悦用户。</p>
-<p>目前，o1产生欺骗性回复的概率大概是<strong>0.17%</strong>。听上去比例很低，但考虑到ChatGPT拥有3亿用户……</p>
-<p>值得一提的是，不只是o1，参与实验的大模型们或多或少都展现出了类似的“谋划”能力。</p>
-<p>只是被“抓包”时，o1否认自己行为的概率会更高。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,394" src="https://img.36krcdn.com/hsossms/20241209/v2_c4593c827c9f448a83ce19c2004c3577@5888275_oswg50287oswg1080oswg394_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>论文链接：https://static1.squarespace.com/static/6593e7097565990e65c886fd/t/6751eb240ed3821a0161b45b/1733421863119/in_context_scheming_reasoning_paper.pdf</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/YuoUfvjLkYnB-PZLUVhEug" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：关注前沿科技，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070896603640456</guid><pubDate>Mon, 09 Dec 2024 09:22:00 +0800</pubDate></item><item><title>很快OpenAI能证明陶哲轩错了？陶哲轩一句话，被OpenAI高管怼回去</title><link>https://36kr.com/p/3070897717818249</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>o1推理代表着推理的未来。菲尔兹奖得主陶哲轩在OpenAI最新访谈中表示，AI可以帮助从头开始重新设计数学，以前所未有的规模处理数学问题，引领着一个全新的发现时代。</p>
-<p>这周，OpenAI连更两弹，又将o1模型推向全网最高潮。</p>
-<p>就连奥特曼本人激动地预告，「迫不及待期待着下周的Day 3发布，感觉周一是那么地遥远」。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,260" src="https://img.36krcdn.com/hsossms/20241209/v2_52e1cdf732b04371819878f2e2a6597f@5888275_oswg62571oswg1080oswg260_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>首更第一天，放出的满血版o1，相较于之前的o1-preview在数学、代码能力上大幅提升，分别暴涨了27%。o1 Pro版数学性能更是飙升36%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,329" src="https://img.36krcdn.com/hsossms/20241209/v2_9edeb77d8745485ba90b4465f98877d1@5888275_oswg114642oswg1080oswg329_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>作为o1早期的访问者，菲尔兹奖得主陶哲轩在OpenAI研究高级副总Mark Chen访谈中，畅聊了o1推理的数学未来。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,565" src="https://img.36krcdn.com/hsossms/20241209/v2_876a7d20bb4c410d8bd339e035876f64@5888275_oswg200623oswg1080oswg565_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>OpenAI科学政策与合作负责人James Donovan主持这场采访</p>
-<p>这场对谈以1小时的讨论开始，然后是30分钟的问答环节，含金量就不用多说了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,217" src="https://img.36krcdn.com/hsossms/20241209/v2_92be7e93a0a24bbf8167b6833db270af@5888275_oswg53934oswg1080oswg217_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>9月o1-preview发布之后，大西洋月刊曾写道，陶哲轩描述了一种前所未有的、由AI驱动的「工业级数学」。</p>
-<p>至少在近期，AI并非独立的创造性合作者，而更像是数学家假设和方法的润滑剂。</p>
-<p>简言之，AI还仅仅是一种辅助的工具。</p>
-<p>这种新的数学协作模式，可以揭开知识的神秘面纱，保持人类创造力的核心地位。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,907" src="https://img.36krcdn.com/hsossms/20241209/v2_cb4d4bb571f14385a228d95a199e6fd3@5888275_oswg1048472oswg1080oswg907_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不知这次，天才数学家又是如何看待o1的？</p>
-<h2><strong>01 一个全新的发现时代，正式开启</strong></h2>
-<p>陶哲轩称，我认为这可能开启一个新的发现时代。</p>
-<p>当前，数学家们一次只能专注单个问题，花费数月时间解决完一个问题后，再去攻克下一个问题。</p>
-<p>但有了这些工具，我们可能同时处理数百个，甚至数千个问题，同时开展完全不同类型的数学研究。一想到这种可能性，让他异常地非常兴奋。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,600" src="https://img.36krcdn.com/hsossms/20241209/v2_dfe8342c34674514805fbc7c7150d279@5888275_oswg517881oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Mark Chen肯定道，「太酷了。没错，在过去一年中，我们的主要关注点之一是推理能力。自GPT-4发布以来，团队稍微转移了研究的重点」。</p>
-<p>GPT-4学习了很多世界知识，是一个非常智能的模型。但不得不承认地是，它在很多方面也表现得很愚蠢，会在简单的谜题上犯错，而且经常过度依赖先验知识。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,278" src="https://img.36krcdn.com/hsossms/20241209/v2_ed00995c18514f1ea7bbde466b5d1782@5888275_oswg30363oswg1080oswg278_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>比如，如果它对某个谜题应该如何发展有某种先验认知，它往往会陷入相同的模式匹配错误。</p>
-<p>正是这些问题，向OpenAI团队指出了模型在深度推理能力方面的不足。</p>
-<p>因此，我们才看到了O系列模型的诞生。它们更像是System 2的慢思考者，而非System 1快思考者。在给出回应之前，模型需要花费一定时间去反思问题。</p>
-<p>有传言称，在OpenAI总部有一个o1实例已经持续运行/思考了6个月之久.....</p>
-<p class="image-wrapper"><img data-img-size-val="1080,147" src="https://img.36krcdn.com/hsossms/20241209/v2_8a75953dd2bd4b4694ad3a3e4ea91887@5888275_oswg70556oswg1080oswg147_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>02 AI解耦数学任务，开启全新协作模式</strong></h2>
-<p>主持人James Donovan接着问道，「你所描述的『工业级数学』是一个怎样的未来，包括数学合作的不同方式，能否具体展开描述下」？</p>
-<p>陶哲轩称，数学一直以来被认为是一项非常困难的活动。</p>
-<p>原因之一是，它依赖于一个人，或者可能是少部分人来完成许多不同的任务，去实现一个复杂的目标。</p>
-<p>如果你想在数学上取得进步，必须首先提出一个好问题，然后再找到解决它的工具。</p>
-<p>再之后，还得学习各种文献，尝试一些论点，还得进行计算、检查算法。</p>
-<p>如果结果是正确的，你还必须以一种可解释的方式写下来等等，集合了不同的技能。</p>
-<p>在其他行业中，我们有劳动分工，就像制作一部电影一样，需要不同的人同时负责制片、剪辑、演出和融资等所有工作。</p>
-<p>陶哲轩表示，在数学领域，直到最近我们才找到一种解耦这些任务的方法。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,716" src="https://img.36krcdn.com/hsossms/20241209/v2_2dd74483525d4f888befc05acfbe6434@5888275_oswg703607oswg1080oswg716_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>原则上。可以实现这样的协作：一个人负责构想，一个人或AI负责计算，另一个工具负责写论文等。这样就不需要一个人在所有方面都成为专家。</p>
-<p>我认为，很多人不敢从事数学研究，是因为他们看到了成为一个优秀数学家所需要完成的所有事项清单。这确实令人望而生畏。</p>
-<p>不过AI工具能够让一些重复性工作被解耦，变得更加模块化。</p>
-<p>一些任务由AI完成，一些由人类完成，有些任务可能需要预先协助，有时甚至可以由普通大众来完成。</p>
-<p>Mark Chen好奇问道，不考虑AI的情况下，迄今为止，最大规模的数学合作项目中，能够同时合作的人数上限是多少？</p>
-<p>陶哲轩表示，在真正的实践中，限制大约是5-6人。超过了这一阈值，就真的很难了，因为你必须互相检查彼此的工作，还要考虑把所有人召集在同一个房间等问题。</p>
-<p>确实有少数项目有很多作者，比如证明形式化项目，大约有20-30个作者，这是数学领域中为数不多的。</p>
-<p>目前，已经的如何众包任务方式之一是，将其放在GitHub上，都使用Lean这样的形式化语言，所有的贡献都可以被验证。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,832" src="https://img.36krcdn.com/hsossms/20241209/v2_e700f42f68c446b3a202317e531a7e77@5888275_oswg285768oswg1080oswg832_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>主持人James Donovan问道，当你解释这些时，听起来你的默认假设是人类仍将分配任务，他们仍将对整个过程有足够的理解来决定谁在哪里做什么。你是否认为数学家角色是否会分化，是否会出现新的专业方向？</p>
-<p>陶哲轩表示，我认为软件工程可能是数学未来发展的一个可借鉴的模板。</p>
-<p>过去，可能有一个英雄式的程序员包揽一切，就像现在的数学家那样。但现在，我们有项目经理、程序员和质量保证团队等等。我们可以想象现在就这样做。</p>
-<p>他称，我目前参与的几个协作项目就同时包含理论数学部分和形式化证明部分。人们还在运行各种代码算法等。而且正如我所预期的那样，已经开始出现专业化分工。</p>
-<p>有些人可能不懂数学，但他们非常擅长形式化定理，对他们来说这就像解谜题一样。</p>
-<p>还有一些人擅长管理GitHub和做项目管理，确保所有后端工作顺利进行。</p>
-<p class="image-wrapper"><img data-img-size-val="500,343" src="https://img.36krcdn.com/hsossms/20241209/v2_41b2f19969c54da091424b2be30634fe@5888275_oswg211973oswg500oswg343_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>还有人负责数据可视化等工作。我们都在协调合作。到目前为止，主要还是人类在工作，使用的是更传统的AI工具，比如改进器（improvers），通常就是运行Python代码之类的。</p>
-<p>「但我认为，一旦AI足够强大，它会很自然地融入这个范式中」。</p>
-<p>Mark Chen同样表示，对我来说也是这样的。在很多方面，我几乎把AI当作同事看待。有些我不擅长的事情，我可以交给AI去做。</p>
-<p>虽然我不是数学家，但就AI在帮助解决数学问题方面的优势而言，首先可能就是模式识别。机器在这方面相当擅长，特别是在需要处理大量数据或信息的时候。从识别模式开始，就可以形成推测。我认为AI在这方面可能有独特的优势。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,563" src="https://img.36krcdn.com/hsossms/20241209/v2_68b3382266704a87a4b10bef26038619@5888275_oswg150193oswg1000oswg563_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>针对制定证明策略，我认为现在人类可能在判断正确步骤方面仍有更好的直觉。但也许在某个特定步骤上，人类也可能会有盲点。</p>
-<p>此外，在验证方面，模型能够验证某些你认为正确，但想要再次确认的步骤。</p>
-<p>还有就是生成反例，比如当你想要考虑很多可能使定理失效的情况时，模型可能比你更有效率地穷尽这些可能性。</p>
-<p>主持人再次问道，可以说，你们都认为改进器在进行数学研究和使用LLM或类似技术之间，必要的中间层吗？</p>
-<p>陶哲轩表示，基本上是这样的。</p>
-<p>数学证明的特点是，如果一个证明有100个步骤，其中一个出错了，整个证明就可能完全崩塌。而AI，我们知道它会犯各种错误。在某些类型的数学科学中，一定的错误率是可以接受的。</p>
-<p>就像Mark所说的，比如在模式识别、形成猜想时，即使AI只有50%的正确率也是可以接受的，只要你有其他方法去验证。</p>
-<p>特别是当它试图输出论证时，强制AI使用类似Lean形式化语言输出是很自然的协同方式。如果能编译通过就很好，如果不能，它会返回错误信息。</p>
-<p>当前，人们已经实现了这点，他们可以用这种迭代技术证明一些本科作业级别的简短证明。当然，现在还不能直接问一个高层次的数学问题，就期待它输出一个庞大的证明。</p>
-<p>接下来，陶哲轩提到了，虽然Alphaproof可以用3天的计算时间做到，但这种方法无法扩展。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,284" src="https://img.36krcdn.com/hsossms/20241209/v2_fd93609d3c9544b39d99fd041cbf9a82@5888275_oswg76751oswg1080oswg284_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对于一些可以接受正向错误率的简单问题，你不需要形式化证明助手。但对于任何错误可能会传播的复杂问题，形式化证明助手基本上是不可或缺的。</p>
-<h3><strong>人类数学美学，AI难以复刻</strong></h3>
-<p>数学，也有自己的美学。</p>
-<p>陶哲轩表示，就像关注抽象概念一样，我认为人类对数学有一种特殊的美学感觉，这种感觉与数学的核心是紧密相连的。</p>
-<p>因为这种美学感受是由人类来判断的，所以AI模型在定义问题和品味方面可能会更难模仿这一点。</p>
-<p>不过，陶哲轩还认为，AI在数学领域的应用将带来一种 「不同的美」，计算机生成的证明将有别于人类生成的证明，具有自己的一种优雅。</p>
-<h2><strong>03 数学和AI合作未来</strong></h2>
-<p>接下来，James Donovan提出三连问，「你对年轻数学家有什么建议吗？他们应该把重点放在哪里？应该解决什么样的问题？」</p>
-<p>陶哲轩认为，年轻数学家必须保持灵活性，因为数学已经逐渐变成了一个技术性学科，越来越考验协作性。</p>
-<p>50年前，数学家还可以独立解决某个子问题，但现在几乎行不通了，不过对于数学来说，也算是良性发展了，通过利用AI，数学家们可以进行更广泛的合作，帮助互相补齐知识。</p>
-<p>但需要注意的是，这些工具也有局限性，不能盲目，要用自己作为人类的聪明才智来驯服、监督AI，而不是把AI当作一根魔法棒。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241209/v2_59bd507b84fe4af693d6a151e3b693f4@5888275_oswg895055oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>James Donovan表示，OpenAI也不鼓励人们盲目相信AI，如果没有足够的专业知识，就会陷入另一个技术陷阱。</p>
-<p>为了更好地利用AI工具，Mark Chen建议现在的学生认真学好各自领域内的技术知识，然后参与一点人工智能相关的研究，至少要了解神经网络的基础知识，比如如何训练模型，底层运行机制，以及局限性。</p>
-<p>人们越是对AI的能力保持怀疑，越是会提升自己与AI工具的协作效率。</p>
-<h2><strong>04 1%最难数学题，AI还未取得突破</strong></h2>
-<p>针对「谷歌DeepMind拿下IMO奥数银牌」一事，James Donovan询问陶哲轩是否对这一进展感到出乎意料。</p>
-<p>陶哲轩表示，确实相当超出预期，过去几年中一直有很多相关工作，比如DeepMind在IMO数据中合成了很多证明过程，但大部分都是错误的，所以普遍观点是这条路并不可行，但现在却一下子实现了。</p>
-<p>还有一个问题是，目前的AI还只停留在数据阶段，并没有想象中的那么有用，只是解决了2000万个小的数学问题，理想中的AI系统是能够解决一个大问题。</p>
-<p>目前数学项目里的问题，99%都可以通过传统的暴力搜索解决，但还有1%是相当困难，且需要人为干预的，而正是这1%的问题最具挑战性，直击AI技术的本质，目前的突破不算特别有意义。</p>
-<p>James Donovan则提出疑问，现在的工作主要是教模型以一种特定的方式进行推理，那思路应该一个模型，多种类型推理；还是多个模型来应对多种推理？进一步，需要什么样的推理才能让AI解锁这些有难度的小问题？</p>
-<p class="image-wrapper"><img data-img-size-val="1024,675" src="https://img.36krcdn.com/hsossms/20241209/v2_c6c1cc322e8c4c7cb5d4d68ad3786640@5888275_oswg1090899oswg1024oswg675_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Mark Chen的思路是大道至简，并不需要单独设计多个模型，简单也是开发AI产品的关键咒语。但在连接复杂系统的时候，可以由人来建立结构，让AI模型以某种方式进行合作。</p>
-<p>增加数据，比如一万个类似的样本，让模型学习推理模式，未来或许从这方面探索一下。</p>
-<p>陶哲轩则认为，AI的问题解决和人类是非常互补的，AI主要以数据驱动的解决问题的方式，对于某些任务，AI实际上比人类更重要，但人类需要做的是，重新校准对某些问题的难度感知，或许只是因为之前没有尝试使用数据驱动的方法来解决那些经典问题。</p>
-<p>数学中，有些问题真的很难，甚至都无法被确定，也没有大量的可用数据来学习，甚至无法继续证明这些问题无法被证明，而这些问题正是人类擅长，而AI不擅长的事。</p>
-<p>如果仅仅以智力作为唯一评估尺度，可能是不够的，所以AI和人类进行互补或许才是终极解决方案。</p>
-<p>Mark Chen则打趣道，我希望我们的研究计划能成功，构造一个非常高效的数据推理器，然后证明你是错的。</p>
-<p>陶哲轩则表示，我也很希望被证明我是错的！</p>
-<h2><strong>05 AI在数学定理发现和检索方面的潜力</strong></h2>
-<p>在做数学研究时，一个最让人崩溃的事，莫过于其他人抢占了先机，而你自己并不知道。</p>
-<p>比如在试图证明一个小引理时，就算你心里知道肯定有100个人证明过了，可能是在代数、几何，还是社区代数、群论、Pds等领域，但就是很难找到答案。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,572" src="https://img.36krcdn.com/hsossms/20241209/v2_26fd182b9a8e4f60bdf3b5fff68b2870@5888275_oswg533651oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对于问题「是否在不久的将来，人们可以很轻松地检索到某些数学定理？」，陶哲轩表示，把数学计算机化，并支持检索，是一个很棒的想法。</p>
-<p>OpenAI的o1模型实际上已经开始做了一点点，比如对于某个定理，你大概知道是什么，但不记得名字了，所以没办法用搜索引擎，或者从大量论文中检索某个定理，这些都是很关键的使用场景。</p>
-<h3><strong>AI可解释性的理论滞后</strong></h3>
-<p>AI经常会有幻觉问题，生成的答案可能是不正确的，人工检查非常关键。</p>
-<p>比如ChatGPT说周六下午两点有一场歌剧，去了以后发现并没有，这种问题带来的损失还算比较小，并且可验证，但在科研领域，比如AI辅助药物开发，用户也不知道真正的答案，也无从验证，还会带来长远的影响。</p>
-<p>对于这个问题，Mark Chen鼓励用户在使用大模型时结合搜索结果，模型会引用特定的网站或特定的来源来反映真实情况，未来模型也会更精确，用户可以到网站上自行检查结论。</p>
-<p>需要注意的是，o1目前还不具备搜索能力。</p>
-<h3><strong>反哺数学</strong></h3>
-<p>历史上，总是先有数学或数学理论，再有其他如物理学、化学等进行理论应用。</p>
-<p>随着AI的进步，比如物理学，已经有人开始使用机器学习来模拟像Pds的计算解和传统方法无法解决的问题，数学是否也从其他领域获得了理论上的新思路？还是说只是生成了更多数据？</p>
-<p>陶哲轩回应说，数学是一条非常宽的双向车道，比如物理学家可能已经发现了数学原理，但没有解释，然后还需要再回过头发展数学理论。</p>
-<p class="image-wrapper"><img data-img-size-val="954,451" src="https://img.36krcdn.com/hsossms/20241209/v2_e7409721a2ff44e3b3ded8e813213fcd@5888275_oswg389080oswg954oswg451_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>比如狄拉克发明了狄拉克δ函数的东西，根据正统数学，它并不是一个函数，所以我们还需要扩大对函数的概念，所以理论发现永远是双向的。</p>
-<p>可以想象到，一个非常实用的、科学驱动的应用程序，可能由于人工智能发现一些新现象而无法解释，或许是经验上的发现，然后促使科研人员利用数学工具去寻找理论解释。</p>
-<h2><strong>06 演讲者介绍</strong></h2>
-<p>陶哲轩是加州大学洛杉矶分校的数学教授，研究领域包括调和分析、偏微分方程、组合学和数论。</p>
-<p>他曾获得了多项大奖，包括2006年菲尔兹奖。</p>
-<p class="image-wrapper"><img data-img-size-val="320,320" src="https://img.36krcdn.com/hsossms/20241209/v2_23946fdd44864f28940a33326338077d@5888275_oswg132540oswg320oswg320_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Mark Chen是OpenAI研究高级副总裁，负责监督高级人工智能计划，推动语言模型、强化学习、多模态模型和人工智能对齐方面的创新。</p>
-<p class="image-wrapper"><img data-img-size-val="202,202" src="https://img.36krcdn.com/hsossms/20241209/v2_38e40efc561d491f89938b937d9d8289@5888275_oswg60610oswg202oswg202_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>James Donovan领导GA的科学政策和合作伙伴关系，专注于如何最好地使用模型来加速科学研究和商业化。</p>
-<p>他加入OpenAI之前，曾是Convergent Research的创始人、风险投资人和合伙人；在那里，他帮助创办了多个「登月」科学组织，包括Lean Fro（一种复杂数学的自动定理证明器）。</p>
-<p class="image-wrapper"><img data-img-size-val="320,320" src="https://img.36krcdn.com/hsossms/20241209/v2_2026620a87204147b637f723ed30bfe2@5888275_oswg103421oswg320oswg320_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>参考资料： </p>
-<p>https://x.com/apples_jimmy/status/1864191140842623375/photo/1 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/dhBPBdtW6OBkHXLVjUAb6Q" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070897717818249</guid><pubDate>Mon, 09 Dec 2024 09:22:00 +0800</pubDate></item><item><title>特斯拉不是神，Cybertruck卖不动很正常</title><link>https://36kr.com/p/3070901661479812</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>今年前三季度，这款纯电动皮卡只交付了不到3万辆。</p>
-</blockquote>
-<p>上周，特斯拉正式发布了11月在华终端成绩单。</p>
-<p>具体来看，刚刚过去的30天，上海工厂共交付新车7.9万辆。其中，位于国内的销量达到了7.3万辆，同比增长12%，环比增长82%，并创下了今年以来的历史新高。11月的最后一周，对应数据更是达到了1.86万辆，同样创下了本季度的单周纪录。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_3434e96bd9ef4518ae17a79080480a5e@000000_oswg34372oswg1080oswg538_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>截至发稿，虽然还未拿到旗下主力选手Model 3与Model Y的具体份额占比，但可以肯定的是，二者在遭遇诸多竞品重重围攻的大背景下，仍然分别身处中级轿车与中级SUV板块，继续着疯狂收割的步伐。</p>
-<p>而随着这家美国新能源车企，在华针对Model Y的入门版与长续航版推出限时提车尾款减免1万元，并且能够叠加“5年0息”，年末最后一波疯狂冲量的决心与野心，同样明晃晃摆在了台面之上。</p>
-<p>作为旁观者，一方面不得不承认特斯拉身处中国车市，依旧具有十足的号召力与竞争力；另一方面，也从它的所作所为中，感受到了一股浓浓的焦虑。</p>
-<p>毕竟，截至三季度结束，其位于全球共售出新车不到130万辆。相比之下，去年全年共售出新车181万辆。换言之，特斯拉必须在即将结束的四季度，卖出超过51万辆新车，才能将将打平。</p>
-<p>划重点，只是“打平”，做到“微升”都有些费事。</p>
-<p>就整体的发展曲线来看，“乏力”便是对于眼下特斯拉最恰当的形容。至于马斯克曾经大张旗鼓吹嘘每年保持50%的复合增长率，早就成为了大家茶余饭后的谈资。三季度财报发布后，对于明年销量20%-30%涨幅的最新预测，实际上更像是在认清形势后的一种妥协。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_14967115445748be8a17b17a091dc182@000000_oswg91150oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>绝不是危言耸听，“特斯拉躺着卖车的高速增长期已然结束，甚至可以说神话有了渐渐破灭的意味。”</p>
-<p>而就在上周，还有一则传闻令我印象深刻——Cybertruck卖不动了。</p>
-<p>对，就是那款几年前一经发布，便因为特立独行的造型设计，引发大家的热议与粉丝的追捧，夸张到号称百万销量在手的纯电动皮卡。</p>
-<p>那么，肯定会有读者好奇，什么又是它需求疲软的佐证？</p>
-<p>首先，按照马斯克之前的说法，碍于缓慢的产能爬坡，Cybertruck之前的累计订单消化想要消化完毕，至少需要等到2027年。</p>
-<p>但就在最近，有美国本土网友发现，即刻下单短短10天后，就能喜提这款曾经一车难求的纯电动皮卡。无独有偶，从一些车主社区之中，也可以看到类似的分享贴。</p>
-<p>其次，特斯拉官方偷偷将其基础版的租赁价格，“破天荒”的下调了10%以上，并第一次开始提供回购选项，意在降低消费者的入手门槛。</p>
-<p>再者，据相关爆料称，上周Cybertruck的奥斯汀生产线，曾短暂的停产3天。甚至有员工表示，“从10月下旬开始，工作时间变得一直不稳定，有好几次在上班时间要么被送回家，要么被安排点别的事做，比如参加培训或清洁工作。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_136d825ecf7246209b4e1b2f1bd93dde@000000_oswg98609oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>无论承认与否，上述点点滴滴的蛛丝马迹，无不共同指向“Cybertruck卖不动了”的结论。</p>
-<p>而从相关统计来看，今年前三季度，这款纯电动皮卡只交付了不到3万辆，距离马斯克幻想中年交付20万辆的目标相去甚远。</p>
-<p>另外，值得注意的是，自2023年11月正式量产以来，Cybertruck已经进行了6次较大规模的召回。不太稳定的品控，也是拖累其口碑的很大一部分原因。</p>
-<p>与此同时，理性客观的讲，身为一款带有工具属性的“皮卡”，纯电动造成的续航较短，外观造型导致的空间利用率较差，加之太过的前卫科幻无法做到普罗大众，以及除北美外暂时没有切入更多细分板块，同样都是Cybertruck遭遇“滑铁卢”一个个不可忽略的痛点。</p>
-<p>顺势，将视线再次聚焦美国皮卡市场，必须澄清的是“蛋糕”仍非常诱人。</p>
-<p>以福特、丰田、通用为首的老牌劲旅们，继续分得着最多的蛋糕，从中赚得盆满钵满。牢牢占领着潜客的心智。相比之下，Cybertruck并未做到像是Model 3与Model Y横空出世后那样，分别位于中级轿车与中级SUV市场，引发彻彻底底的改朝换代。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_8b3683e9f02d41c182c9819786090659@000000_oswg130403oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而不久前，还有传闻称Cybertruck即将入华，很快遭到了特斯拉官方的否认。对此，只想说：“就算真的来了，结合中国车市对于皮卡的政策，尤其你还是一款纯电动皮卡，同样凶多吉少。忠言逆耳利于行，有些事情费劲不讨好，没必要折腾了。”</p>
-<p>也恰恰基于这样的背景，正如今天文章的标题所言：“特斯拉不是神，受限于重重挑战，Cybertruck卖不动很正常。”</p>
-<p>反观明年，预计其在销量端的贡献依旧非常有限。如果马斯克试图完成同比20%-30%的增长，主要仰仗的无疑还是Model 3与Model Y。尤其是后者明年一季度马上推出的“焕新版”，俨然便是决定成败与否的“根基”。</p>
-<p>而我很相信一句话，“对于智能电动车公司来说，保持销量层面的跃升，永远是其它业务不断蜕变的前提。”</p>
-<p>此刻的特斯拉，俨然充满着迷惘、未知与期待。前方的路如果赌对了，等待这家美国新能源车企的将是又一片星辰大海；前方的路如果走错了，等待这家美国新能源车企的则是又一片夺命泥潭。</p>
-<p>何去何从，全凭自己……</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTY0Njc2MQ==&amp;mid=2659282318&amp;idx=2&amp;sn=9a352d37cd74a2fa6cad33b7e81ef351&amp;chksm=bc5d7d706166e794ab40821b63f771a0d544b4b9dea03cad8d565edd079bef51ef10852e3ea1&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“汽车公社”（ID：iAUTO2010）</a>，作者：崔力文，责编：崔力文，编辑；何增，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070901661479812</guid><pubDate>Mon, 09 Dec 2024 09:23:00 +0800</pubDate></item><item><title>娶对老婆走上人生巅峰，“双环系”丈母娘带三个女婿冲刺IPO</title><link>https://36kr.com/p/3070897732727681</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>民营资本系族再加一“环”。</p>
-<p>来自浙江台州的叶氏家族，已经拥有一家上市公司双环传动（002472.SZ）的同时，在<strong>近日又分拆浙江环动机器人关节科技股份有限公司(下称“环动科技”)到科创板上市，“双环系”版图初现。</strong></p>
-<p>“双环系”背后，是一个丈母娘带着三个女婿一同勇闯资本市场的故事。三个女婿不仅和丈母娘来自同一个县城，且都在公司担任要职，<strong>大女婿为董事长，二女婿、三女婿在采购部、销售部各司其职。</strong></p>
-<p>这次家族分拆的环动科技，<strong>成立仅四年估值就达30亿元</strong>，为国内机器人RV减速器龙头企业。淡马锡、高瓴等纷纷入股。</p>
-<h2><strong>营收、净利三连跳</strong></h2>
-<p>双环传动拆分的环动科技成立于2020年，至今成立时间虽仅四年，但已迅速成长为行业龙头。</p>
-<p>环动科技主要从事<strong>机器人关节高精密减速器</strong>的研发、设计、生产和销售，生产的产品包括RV减速器、精密配件及谐波减速器。所谓‌RV减速器，通常使用在工业机器人的关节部位，使机械臂完成指定动作。 主要作用包括降低转速、增加扭矩、提高运动精度和减少振动噪音。</p>
-<p class="image-wrapper"><img data-img-size-val="937,556" src="https://img.36krcdn.com/hsossms/20241209/v2_fa01349ba4c34a8db6f2f2ac224a9b92@5888275_oswg383733oswg937oswg556_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：环动科技官网‍‍‍‍‍ </p>
-<p>“减速器是工业机器人关键的传动部件之一，对工业机器人的性能和精度有着重要的影响。它能够将电动机的高速旋转转化为工业机器人关节所需的低速高扭矩输出，从而保证工业机器人在执行任务时的精确性和稳定性。此外，<strong>减速器的效率、精度、承载能力和使用寿命等性能指标直接影响到工业机器人的整体性能。</strong>”资深人工智能专家郭涛表示。</p>
-<p>国内外的多家机器人厂商也都是环动科技的客户，包括埃斯顿（002747.SZ）、埃夫特（688165.SH）、卡诺普、爱仕达（002403.SZ）旗下钱江机器人、 新时达（002527.SZ）、 新松机器人（300024.SZ）、凯尔达（688255.SH）、广州数控、华中数控（300161.SZ）等。</p>
-<p>这样的<strong>环动科技在成立第二年就实现了盈利，此后营收、净利三连跳。</strong>《招股书》显示，2021年-2023年、2024年1-6月（下称“报告期”），环动科技的<strong>营收分别为9141.23万元、1.69亿元、3.09亿元及1.34亿元</strong>，同期<strong>净利润分别为2021.4万元、5017.83万元、7626.29万元及2553.95万元</strong>，年均复合增长率达94.24%。</p>
-<p>能够实现这样的业绩，<strong>离不开环动科技第一大客户埃斯顿的支持。</strong>《招股书》显示，环动科技来自埃斯顿的销售收入分别为1163.09万元、7289.85万元、1.6亿元和7066.43万元，<strong>占比分别为12.72%、 43.07%、51.61%和52.88%。3年间翻了超过10倍。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="732,528" src="https://img.36krcdn.com/hsossms/20241209/v2_17e6653b9c2346669a5e18ee5924669a@5888275_oswg811657oswg732oswg528_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：罐头图库‍‍‍‍‍‍</p>
-<p>“<strong>公司存在对埃斯顿重大依赖的风险。</strong>若主要客户自身经营或财务状况出现不利变化，或由于客户业务发展战略调整、采购政策变化，或公司未能及时满足客户不断迭代的业务需求等因素，导致公司与其合作关系发生不利变动，且公司不能持续拓展新增客户和市场，或将对公司经营业绩带来不利影响。”环动科技表示。</p>
-<p>事实上，<strong>埃斯顿的日子过的没有环动科技这么好。</strong>埃斯顿被称为“国产工业机器人一哥”，今年前三季度营业收入为33.67亿元，同比增长4.38%；归母净利润为-6669.98万元，<strong>同比下降147.55%。这已经是埃斯顿连续第三个季度净利润同比下滑。</strong></p>
-<p>2024半年报中，埃斯顿解释称，“今年上半年，由于需求下滑，投资放缓及市场竞争加剧，收入增长不及预期、毛利率下滑、人员费用增长、折旧摊销等固定成本费用增加，对公司净利润产生较大影响。”</p>
-<p>不过作为埃斯顿的上游，<strong>环动科技的毛利率最近三年持续增长</strong>，2021年-2023年主营业务的毛利率分别为35.48%、40.68%、42.47%。2024年1-6月有所下降，为38.14%。</p>
-<h2><strong>机器、厂房均来自双环传动</strong></h2>
-<p>环动科技仅成立四年就能实现盈利、毛利率不断上升，在市场上迅速站稳脚跟，<strong>与背后的控股股东双环传动，以及实控人家族有着分不开的关系。</strong></p>
-<p>《招股书》显示，<strong>双环传动为公司第一大股东，直接持有61.29%的股权，为控股股东。</strong>双环传动为A股的齿轮龙头企业，主营业务为机械传动齿轮及其相关零部件的研发、设计与制造，主要产品为乘用车齿轮、商用车齿轮、工程机械齿轮、减速器及其他产品，主要应用领域涵盖汽车的传动系统、新能源汽车的动力驱动装置。</p>
-<p>包括<strong>华为、比亚迪、蔚来、丰田、大众等，都是双环传动的客户。由于下游新能源汽车近几年来市场持续扩张，双环传动也迎来业绩大爆发。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1024,768" src="https://img.36krcdn.com/hsossms/20241209/v2_3fadd36caab44f7ba1d319bc56d95620@5888275_oswg95045oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：罐头图库‍‍‍‍‍ </p>
-<p><strong>2019年到2023年的五年时间，营收从32.36亿元增长到80.74亿元，几乎翻了一番还多；净利润从7501.48万元到8.34亿元，增长超过十倍。</strong>2024年前三季度，双环传动营业收入为67.43亿元，同比增长14.83%；净利润为7.67亿元，同比增长24.89%。</p>
-<p>双环传动的资源也给环动科技带来了不少便利。</p>
-<p>环动科技<strong>成立次年就能开展业务背后，是向双环传动租赁机器设备。</strong>为此2021年、2022年环动科技支付租金226.07万元、426.56万元。<strong>之后更是直接买了下来，金额分别为261.86万元和3943.85万元。</strong></p>
-<p>环动科技的<strong>厂房和办公楼也来自双环传动。</strong>2021年、2022年环动科技为此支付租金各153.45万元。</p>
-<p>2022年，环动科技又将这部分房产、土地从双环传动手中买了下来。其中，房产未税金额合计2274.09万元，主要包含制造车间、钢结构厂房、办公楼等，相应的土地未税金额为3305.38万元。<strong>金额共计5579.47万元。</strong></p>
-<p>双环传动还在2021年、2022年<strong>无偿向环动科技转让一项发明专利和实用新型专利。</strong></p>
-<p>同时，<strong>双环传动还是环动科技的供应商和客户。</strong>《招股书》显示，环动科技从双环传动处采购毛坯件、钢材、工装刀具、RV 减速器等，2021年、2022年采购金额为542.18万元、120.79万元。此外，2021年还向双环传动持股30%的联营企业——重庆世玛德智能制造有限公司采购装配线，金额123.89万元。</p>
-<p>销售方面，环动科技还给双环传动、江苏双环、重庆世玛德、钱塘机器人提供加工服务、销售减速器、工业机器人等，2021年-2023年金额合计达125.13万元、135.04万元和13.23万元。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,459" src="https://img.36krcdn.com/hsossms/20241209/v2_89d46adfaaf6489bb17c2ac24b68634c@5888275_oswg169577oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：《招股书》 </p>
-<p>“本次<strong>分拆后，环动科技将持续规范和减少关联交易，保证关联交易的合规性、合理性和定价公允性</strong>，不会对公司独立性及财务状况、经营成果等造成重大不利影响，不存在影响公司独立性或损害公司和股东利益的情形。”环动科技表示。</p>
-<h2><strong>丈母娘带着三个女婿、员工、高瓴共享资本盛宴</strong></h2>
-<p>除了诸多关联交易外，<strong>人员、高管方面，环动科技同样离不开双环传动的支持。</strong></p>
-<p>双环传动、环动科技如今的市场地位可以说是上一辈的叶善群、陈菊花两夫妻，以及下一辈的女婿吴长鸿等人一步步接力打拼而来。<strong>叶善群、陈菊花两人均出生于浙江省台州市玉环县，1980年的春天，叶善群凭借3000元资金、5台仪表机床，以加工摩托车齿轮开始打下了双环的第一片基业。</strong></p>
-<p>1991年，随着发展步入正轨，玉环县振华齿轮厂成立（双环传动前身），<strong>叶善群为厂长、陈菊花则是产品检验员。1992年，吴长鸿以叶善群、陈菊花的准大女婿身份进入自家厂子开始工作。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,459" src="https://img.36krcdn.com/hsossms/20241209/v2_408c5b2435f64c08a6f0fcd1421fd2fa@5888275_oswg68377oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：罐头图库 </p>
-<p><strong>吴长鸿出生于1969年，2006年吴长鸿进一步执掌双环传动，出任公司董事长。</strong>在其带领下，2010年，双环传动成功在深交所上市，成为A股首家齿轮上市公司。</p>
-<p>这期间，<strong>二女婿陈剑峰、三女婿蒋亦卿也相继进入公司，陈剑峰出生于1971年，</strong>历任采购部副部长、监事会主席，现任双环传动本部运营副总经理助理、监事；<strong>蒋亦卿出生于1979年，为大专学历，</strong>2001年进入公司历任销售经理、销售部长、销售总监，现任双环传动董事兼副总经理。</p>
-<p>2016年，叶善群因身体健康原因退出实控人之列，双环传动、环动科技的实控人变为吴长鸿、陈剑峰、蒋亦卿和陈菊花四人。四人除通过双环传动控制环动科技61.29%股权外，吴长鸿直接持有环动科技5.74%的股权，蒋亦卿、陈剑峰通过嘉兴环创间接持有环动科技0.24%的股权。</p>
-<p>值得注意的是，<strong>三个女婿吴长鸿、陈剑峰、蒋亦卿，与叶善群、陈菊花均来自同一个县城：浙江省台州市玉环县。</strong>而叶善群、陈菊花的<strong>三个女儿并未出现在两家公司的高管或股东行列。</strong></p>
-<p>wind显示，双环传动上市以来，吴长鸿、陈剑峰、蒋亦卿、叶善群、陈菊花多次减持，以减持日股价及参考市值计算，<strong>合计减持金额达3.58亿元。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,424" src="https://img.36krcdn.com/hsossms/20241209/v2_5a9fa3fc591f46f597b383363ec5ac1d@5888275_oswg279760oswg1080oswg424_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：wind   </p>
-<p>在三个女婿的手上，双环传动发展的如火如荼，于2020年成立环动科技，2024年启动分拆计划。</p>
-<p>环动科技的此次上市，<strong>除了实控人家族外，还有不少人期待。</strong></p>
-<p>例如<strong>打工数年，终于熬出头的张靖。</strong>在业务上，叶氏家族并未直接管理环动科技，仅吴长鸿、蒋亦卿担任董事、以及吴长鸿的妹妹吴爱平担任财务总监。董事长一职则是交给拥有资深科研实力、跟了自己家十一年的“老人”张靖。</p>
-<p>张靖出生于1977年，拥有机械设计及理论专业博士学历，2013年4月至2020年5月，先后担任双环传动研发部部长、双环传动机械研究院（即环动科技业务前身）院长；自2020年5月环动科技成立后，张靖便担任执行董事、经理、技术中心主任，<strong>2023年8月，接过环动科技董事长一职。</strong></p>
-<p><strong>2021年8月，张靖出资1573.2万元，认缴环动科技新增注册资本285万元，成为第二大股东，持股10%。</strong></p>
-<p>2023年1月，环动科技又进行了规模达2.9亿元的增资扩股，引入了国家制造业转型升级基金、国投招商、<strong>Temasek淡马锡、玉环国投、浙江股权服务集团有限公司、浙大联创投资等投资机构。</strong></p>
-<p>2023年5月，吴长鸿、张靖将二人持有的环动科技合计2.33%的股权转让给了高瓴、国投招商、浙大联创投资等，吴长鸿获得股权转让款3000万元；<strong>张靖获得4000万元，已经回本，净赚2426.8万元，持股比例降为7.4%。以此轮价格计算，环动科技估值已达30亿元。</strong></p>
-<p>叶氏家族从一个小小的齿轮工厂起步，经过几十年的发展，不仅成功将双环传动带上资本市场，如今更有望通过环动科技打造出第二家上市公司。小小齿轮和精密减速器成为了家族的财富密码，助力其身价再创新高。</p>
-<p><strong>你对这样的家族创业故事有所感触？欢迎下方留言讨论。</strong></p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/UijW4C6RXtX-3BszIu-2uA" rel="noopener noreferrer nofollow" target="_blank">“野马财经”</a>，作者：刘钦文，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070897732727681</guid><pubDate>Mon, 09 Dec 2024 09:23:00 +0800</pubDate></item><item><title>OpenAI首次跨界军事AI，联合军工巨头提出绝密协议，AI无人机重塑现代战争</title><link>https://36kr.com/p/3070897165775748</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>OpenAI正悄然跨入一个全新的领域——军事AI。最新官宣中，OpenAI将联手国防技术公司Anduril，将技术整合进无人机中，未来战争的样貌要被重新定义了。</p>
-<p>OpenAI正式进军军事领域！</p>
-<p>周三，国防技术公司Anduril Industries和OpenAI宣布达成合作，共同开发和部署用于国家安全任务的先进人工智能解决方案。</p>
-<p>此次合作将专注于提升美国反无人机系统（Counter-UAS，简称CUAS）的性能，增强其实时侦测、评估和应对空中无人机袭击的能力。</p>
-<p class="image-wrapper"><img data-img-size-val="672,371" src="https://img.36krcdn.com/hsossms/20241209/v2_3ca41761fad343e2806855627b17bb1d@5888275_oswg274845oswg672oswg371_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Anduril的反无人机防御系统此前已在美国军方中得到实际应用——今年11月，该公司获得了一份价值2亿美元的合同，为美国海军陆战队提供CUAS系统。</p>
-<p>该系统可以侦测、评估和追踪无人机。如发现具有威胁的无人机，军方可使用电子干扰、无人机等手段将其击落。</p>
-<p>根据合作协议，OpenAI将把技术整合到Anduril的反无人机防御系统软件中，模型将基于Anduril的CUAS威胁和作战资料库进行训练。</p>
-<p class="image-wrapper"><img data-img-size-val="500,409" src="https://img.36krcdn.com/hsossms/20241209/v2_352a959784134e9aa4fd897d4aa47107@5888275_oswg305278oswg500oswg409_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>硅谷炙手可热的新业务：战争</strong></h2>
-<p>这项合作，标志着OpenAI迄今为止与国防部最深入的合作，也是其首次与商业武器制造商建立合作关系。</p>
-<p>这反映了硅谷态度的重大转变——从几年前回避与五角大楼合作，到如今积极与国家安全机构建立更紧密联系。</p>
-<p>要知道，几年前，众多硅谷AI研究人员都曾坚决抵制与军方合作。</p>
-<p>2018年，当谷歌准备参与五角大楼的「Project Maven」时，引发了数千名员工的抗议，最终被迫退出 。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241209/v2_b287a80bd5cd4149b504681ed14f1b6d@5888275_oswg309419oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但现在，随着AI被政府决策层普遍认定为具有革命性影响和重要地缘政治意义的技术，许多科技公司对军事合作的态度明显转向开放。</p>
-<p>11月，Meta正式将Llama模型开放给美国国家安全机构和国防承包商使用。</p>
-<p>同月，看起来「浓眉大眼」的Anthropic也宣布，将通过与Palantir Technologies的合作向美国军方提供其AI使用权限。</p>
-<p>显然，这种新的国防合作关系与Anthropic公开的「好人」形象十分矛盾。毕竟自创立以来，Anthropic就一直以采用以伦理和安全为重点的AI开发方法而自我宣传。</p>
-<p>对此，Nabeel S. Qureshi评论道：「谁能想到，在2021年告诉大家要关注AI安全的Anthropic创始人，在公司成立仅三年后，就签署了合作协议，将他们的模型直接部署到了军事前线。」</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241209/v2_291491087f0243f084923d1c7008b5eb@5888275_oswg437518oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>同样地，OpenAI此前也曾禁止将其技术用于军事和战争。</p>
-<p>但在今年1月，该公司调整了相关政策，删除了军事限制条款，允许与军方进行某些合作——从「禁止将技术用于军事和战争」转变为「禁止将技术用于攻击性武器」。</p>
-<p>甚至，据调查性新闻网站The Intercept报道，美国军方其实早就用上了OpenAI的部分技术。</p>
-<p>不仅如此，OpenAI还将前国家安全局局长Paul Nakasone招进董事会，并且聘请了前国防部官员Sasha Baker来组建专注国家安全政策的团队。</p>
-<p>据内部人士透露，尽管部分员工对此表示不满，但并未出现公开抗议。</p>
-<h3><strong>国防收入，潜力巨大</strong></h3>
-<p>随着电子战兴起，AI在保持无人机飞行方面变得愈发重要。电子战使用干扰器阻断无人机飞行所需的GPS信号和无线电频率。AI还可协助军事指挥官处理和分析海量战场数据。</p>
-<p>国防科技公司和美国国防部高层表示，美军需要更先进的AI来应对可能的冲突。近年来，国防科技和军事科技领域的投资支持不断增加，总额已高达数十亿美元。</p>
-<p>对于那些需要在研发和运营上投入巨额资本的AI企业而言，国防领域显然是一条极具吸引力的营收渠道。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241209/v2_b9471cb1a49e4d96b57e97177ab91c61@5888275_oswg714046oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>Anduril引领未来战争技术革命</strong></h2>
-<p>作为国防科技创新先锋，这家由风险投资支持的公司Anduril，正在重塑军事技术未来图景。</p>
-<p>他们计划用高科技、AI驱动的系统取代传统坦克、直升机。</p>
-<p>目前，Anduril向全球军方销售武器，和能使武器自主行动的AI软件。</p>
-<p>Anduril首席执行官Brian Schimpf在一份声明中表示，「将OpenAI技术整合到Anduril系统中，能使军事和情报人员在在紧急情况下做出更快、更准确的决策」。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,617" src="https://img.36krcdn.com/hsossms/20241209/v2_a70f729b3cf4429f965412c2fecae37b@5888275_oswg867617oswg1080oswg617_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>作为估值达1400亿美金的新兴国防科技公司，Anduril已展现出卓越的市场潜力。</p>
-<p>今年11月，公司获得了价值2亿美金的合同，是为美国海军陆战队提供其反无人机防御系统。</p>
-<p>国防部可以使用这些反无人机防御系统来保护军事设施。</p>
-<p>自2017年成立以来，Anduril在自主研发方案上，建立了显著的优势。</p>
-<p>比如，在无人机、作战设备和军事资产，以及在战术场景中部署机器人系统的自动化操作方面，积累了丰富经验。</p>
-<p>今年10月，他们还推出了令人瞩目的新型人工智能无人机Bolt-M，能够轻松收纳于背包之中。</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241209/v2_e5670801a6fa46b9833ac5e8eda13338@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这款背包便携式无人机，也是美国国防部价值2.49亿美元合同的组成部分。 </p>
-<p>该项目由Anduril、AeroVironment和Teledyne FLIR三家公司联合开发，目标是为国防部开发和提供自毁型无人机系统。 </p>
-<p>值得一提的是，在创立Anduril之前，Luckey曾创办虚拟现实公司Oculus，后将其以20亿美元的价格出售给Meta。 </p>
-<p>参考资料： </p>
-<p>https://www.reuters.com/technology/artificial-intelligence/defense-firm-anduril-partners-with-openai-use-ai-national-security-missions-2024-12-04/ </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/gnp3pUzWq-rT0_5TIFCWnw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070897165775748</guid><pubDate>Mon, 09 Dec 2024 09:23:00 +0800</pubDate></item><item><title>勇闯泰国市场，中国车企做鲶鱼还是暴徒？</title><link>https://36kr.com/p/3070901644260228</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>泰国车市，低迷持续。</p>
-<p>聚焦国内，汽车行业作为泰国第一支柱产业，其汽车销量自2023年6月以来，已连续下滑17个月，丝毫没有止跌迹象。</p>
-<p>放眼国外，泰国“亚洲底特律”的光环趋于暗淡。日经亚洲统计，截至2024年第三季度，马来西亚已经连续五个季度超越泰国，成为东南亚第二大汽车市场。而就在刚刚过去的第三季度，泰国汽车销量大幅下滑28%，成为东盟五国中降幅最大的一国。泰国与菲律宾的销量差距已缩小至仅1.2万辆，未来或将沦为东盟第三大汽车市场。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_57b06ec057e14fa991dfdd7c54c9388a@000000_oswg574006oswg1080oswg678_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图|《日经亚洲》统计图片（泰国佛历2567年为国际公历2024年）</p>
-<p>塞翁失马，焉知非福。泰国车市虽正经历低谷，但也正因此酝酿着改革。</p>
-<p>一直以来，东南亚都被视为日企后花园，没有孕育出自主品牌的泰国更是如此，很长一段时间，泰国九成市场为日本车企所垄断。</p>
-<p>但在泰国政府“新一代汽车制造”政策以及中国自主品牌的双重狙击下，日本车企构筑了62年的高墙已然被撕裂了一道口子，中国车企自此而入，攻城拔寨。</p>
-<p>2023年，中国车企在泰国的占有率从约5%猛升至约11%，日系车则从90%下降到78%。进入2024年，斯巴鲁、铃木、本田等日本汽车制造商相继宣布关闭 汽 泰国工厂。其中，斯巴鲁、铃木两家公司虽以优化、转型的战略原因为由，但外界纷纷猜测其停产与中国车企在泰崛起有关。</p>
-<p>这一猜想也在不久后得到印证。</p>
-<p>11月19日，泰国国家石油公司表示，因电动车市场竞争加剧，该公司旗下Arun Plus与鸿海组建的电动车合资企业“Horizon Plus”已暂停建设新工厂。</p>
-<p>三天后，11月22日，包括《日本经济新闻》在内的多家媒体披露，日产计划明年重组在泰国的业务。为配合全球裁员计划，日产汽车将削减或转移在泰国的1000个工作岗位。报道指出，日产在泰国的裁员决策受到了中国车企纯电动汽车热销的冲击。</p>
-<p>弱肉强食，市场本就如此。只是，竞争也分良恶，是做在一潭死水中搅起活力的鲶鱼，还是扮演掀翻桌子把路堵死的“暴徒”，还是有很大区别的。</p>
-<p>至于选什么，还要看做了什么以及未来怎么做。</p>
-<h2><strong>贷款收紧，销量跳水</strong></h2>
-<p>一直以来，泰国家庭，债台高筑。</p>
-<p>泰国央行数据显示，2024年第一季度泰国家庭债务占GDP的比重达到90.8%，第二季度虽有所下降，但仍占到89.8%。</p>
-<p>可以看到，以借贷形式超前透支，是泰国消费者较为普遍的消费方式，在大宗消费品领域更是如此。据在泰国的各车企中高层人员估算，泰国新车销售90%依赖于汽车贷款。</p>
-<p>90%，同样是日系车曾在泰国车市的份额占比，近乎垄断。基于此，泰国市场的汽车溢价也不可避免。</p>
-<p>在中国已经降价到13万元左右的丰田凯美瑞，泰国是售价却依旧坚挺，约30万元。再来看个近点的例子。11月29日，即便泰国车市的价格战已经打响，但广汽埃安AION V在泰售价约合人民币21.8万元，高出国内9万元。虽然包含关税等因素，但这一售价也并不算低。</p>
-<p>贷款形式的超前消费叠压高昂的溢价，无疑加剧了泰国消费者和市场脆弱程度。一旦贷款收紧或违约，个人和市场都将受到巨大冲击。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_baeeecd93d3643209626ee98486f5516@000000_oswg1287526oswg1024oswg948_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如今，这种悲剧正在上演。</p>
-<p>疫情期间，泰国经济遭遇重创，泰国央行颁布了允许负债者延期还款、付息的系列举措。伴随疫情结束，泰国经济回暖，激励政策逐渐终止，此前由政府背负的压力释放至民众，还贷集中，贷款平衡打破。</p>
-<p>然而，与国内限乘的力度不同，泰国断供只会限制银行贷款，即便如此，人们仍可在民间顺利借贷。</p>
-<p>因此，银行坏账率提升，债务风险加重。为此，泰国央行出台“责任贷款”政策，强调金融机构必须负责任地放贷，政策于2024年1月1日生效。</p>
-<p>随之而来的是泰国车贷骤然收紧。据媒体报道，2024年1月以来，泰国的车贷审查通过率，下降到约50%，极度依赖贷款的车市，销量也紧跟着跳水。</p>
-<p>2024年1-10月，泰国汽车生产总量为 124.68万辆，同比下降19.3%，国内销量 47.63万辆，10月销量更为低迷，国内销量同比下跌36.1%，至 3.77辆。</p>
-<p>基于此，泰国工业联合会（FTI）已将2024年泰国汽车销量的预期从55万辆下调至45万辆。</p>
-<h2><strong>量价齐跌，跌跌不休</strong></h2>
-<p>销量暴跌的同时，泰国汽车的价格也不再坚挺。</p>
-<p>这或许与泰国的定位转变以及中国车企的入局有关。</p>
-<p>伴随“亚洲底特律”光环的减弱，泰国正在重新将自己定位为东南亚电动汽车革命的领导者。</p>
-<p>为此，泰国政府设立了2025、2030、2035年混动和电动汽车产量将分别占总产量的15%、30%、100%的目标，并出台了配套支持政策。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_40e8add7d5334ab8b271759a4b7475c1@000000_oswg74415oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>以泰国2022年—2023年间的电动车鼓励政策为例，中国车企这阶段出口到泰国的电动车可以免关税、消费税从8%降到1%，并且可以领取泰国政府补贴。</p>
-<p>政策补贴外，泰国还是东南亚最大的汽车生产聚集地，拥有完备的产业链。此外，泰国还因其优良的地理位置，几乎可以辐射全球大部分的右舵市场。</p>
-<p>同时，在泰国生产的汽车不仅还可以享受东盟成员国之间的关税优惠和贸易优惠，还将进一步规避欧盟和美国的高昂关税，作为自主品牌迈向全球的跳板。</p>
-<p>为此，上汽、哪吒、比亚迪、长安、奇瑞、长城等中国车企纷纷加码泰国市场。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_166b6c0b68c7457c94971a0946c06aa4@000000_oswg77822oswg1006oswg670_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>然而，天下没有免费的午餐，要想享受上述政策红利，车企就必须于2024年在泰国生产同样数量的电动车，如果产销任务没能完成，延期到2025年的话，就需要在2024年—2025年合计生产1.5倍数量的电动车。</p>
-<p>此后，泰国政府又推出了多阶段补贴政策，但也都以车企在泰投资、建设工厂为前提。</p>
-<p>在泰国政府延长至2025年的降低电动车整车进口税政策中要求，车企必须在2027年底前在本地生产相应数量的同规格BEV车辆以进行抵消，2024、2025、2026、2027年整车进口与本地生产的比例分别为1:1、1:1.5、1:2和1:3。</p>
-<p>也就是说，今天卖得越多，明天生产得就越多。这也导致生产一旦开始，就没有停下的可能。</p>
-<p>为了在泰国迅速站稳脚跟，也为了减少车辆滞销的风险，降价几乎中国车企成为唯一的选择。</p>
-<p>然而持续的降价也引发了老顾客的不满以及持币的潜在用户的观望。</p>
-<p>简单而言，车企生产不停但因车市不景气而导致销量下滑，为此，车企想要以价换量，但降价却让消费者迟疑观望，更不愿购买，如此销量下滑加剧，车市更加低迷，企业只能再次降价……</p>
-<p>量价齐跌，恶性循环，跌跌不休。</p>
-<h2><strong>鲶鱼还是暴徒？</strong></h2>
-<p>以价换量，作为一个市场政策，无可厚非。更不用说，泰国车市长时间以来为日企掌握，其价格本身就有溢价的嫌疑。</p>
-<p>在此情况下，外界的干预不仅必须而且必要。</p>
-<p>正像鲶鱼效应里的鲶鱼，它的引入，迫使惰性的沙丁鱼群活跃，极大降低了沙丁鱼被捕捞后的死亡率。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_80d68022c500419e8233a2af044956e0@000000_oswg90366oswg1080oswg628_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>中国车企在泰国市场的入局，不仅能为市场注入活力，也能带动泰国汽车产业链的发展。</p>
-<p>泰国汽车学院战略部主任拉查妮达指出，中国电动汽车领跑市场，不仅促进泰国原有汽车配套企业与在泰设厂的中国车企间的产能合作，还加速了电池、充电桩等供应链企业发展，助力泰国形成完整的电动汽车产业链。</p>
-<p>不过，话又说回来，降价的幅度和频率也要依市场而定。吃完肉还要喝光汤的吃相，很难不招来诟病，更遑论“钝刀子割肉”，一口一口吃，一口一口喝。</p>
-<p>车企之间天然存在竞争关系，市场份额就那么大，彼长就势必导致此消，弱肉强食，也是天经地义。但是不管怎么说，做生意的最终落脚点永远都是赚钱，利益面前，竞争对手也能握手言和乃至合作，如果直接站起来把桌子掀了，把大家挣钱的路子都堵死，这也得不偿失。</p>
-<p>自古言，鹬蚌相争，渔翁得利。但就目前情况来看，鹬蚌相争，渔翁捡的时候直接落水了，便宜没捞着不说，自身还有点难保了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_896844d6e04b426e915837ba63069148@000000_oswg159838oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>一直以来，泰国新车市场价格虽高，但其售后服务好，二手车价格也较为坚挺，车辆也更保值。</p>
-<p>也正因此，价格战的引入对泰国消费者的冲击更大。</p>
-<p>一方面，新车价格降低，二手车也会随之贬值，一旦新车降速加快，就可能击穿二手车价格底线，发生价格倒挂。</p>
-<p>另一方面，2023年，泰国市场纯电动汽车销量达到7.63万辆，同比增长684.4%，中国品牌电动车共占据泰国电动车市场八成份额。经过多年发展，日本企业与泰国金融、保险的关系盘根错节。</p>
-<p>为向中国电动车反击，泰国保险委员会（OIC）2023年底发布针对电动车的新保险政策，调低了对电动车电池的赔付比例，2024年1月1日开始执行，并且要求各保险公司必须于2024年5月31日之前调整政策。</p>
-<p>以前在泰国买电动车保险，如果电池坏了，可以100%获得赔付，但2024年1月1日开始，电动车保险，第一年可以获得100%赔付，但第二年仅赔付90%，第三年80%，第四年70%，第五年60%，五年以上50%。</p>
-<p>这把插向中国电动车的刀子，更多地刺向了泰国消费者的软肋。</p>
-<p>水能载舟，亦能覆舟。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_227160f5f32d4edabcfd692828aa6e43@000000_oswg159819oswg1080oswg715_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>曾经，中国摩托车称霸东南亚，辉煌时曾占据其80%市场，但最终因低价竞争导致的质量衰退遗憾败走，反倒是日本摩托车凭借质量和服务逆袭。</p>
-<p>如今，同样是80%的市场份额，同样是主打低价策略，但与此前不同的是，中国电动车的价格虽低，但质量已不可同日而语。</p>
-<p>在掌握着电动车市场主动权的情况下，是重走老路还是打出新路，是做搅动市场活力的鲶鱼还是做掀桌子的暴徒，相信中国车企有自己的答案。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTY0Njc2MQ==&amp;mid=2659282318&amp;idx=1&amp;sn=8bf8248dd5fd4aa90031c955d0924757&amp;chksm=bca4929f466eac430163f46797713e29ea980816eeb5b1fd44b35adcbe13e80782a015d0b95b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“汽车公社”（ID：iAUTO2010）</a>，作者：赛佳彤，责编：崔力文，编辑：何增荣，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070901644260228</guid><pubDate>Mon, 09 Dec 2024 09:24:00 +0800</pubDate></item><item><title>南存辉的光伏布局受阻，正泰安能IPO中止</title><link>https://36kr.com/p/3069677164773123</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 09 Dec 2024 10:30:28 +0800</lastBuildDate><pubDate>Mon, 09 Dec 2024 10:30:28 +0800</pubDate><item><title>南存辉的光伏布局受阻，正泰安能IPO中止</title><link>https://36kr.com/p/3069677164773123</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>前温州首富、正泰集团创始人南存辉的光伏产业布局迎来了一个坏消息。</p>
 <p>近日，上交所官网消息，<strong>正泰安能数字能源（浙江）股份有限公司（以下简称“正泰安能）的IPO审核状态已在9月30日变更为中止。</strong></p>
 <p><strong>这意味着走了一年多的正泰安能IPO以审核状态中止而暂缓。</strong></p>
@@ -600,4 +205,321 @@
 <p>对于深陷其中的消费者而言，这无异于落入了 “ 消费陷阱 ” 之中，让他们在不经意间踏入了商家精心布置的迷局。</p>
 <p>因此，我们更应擦亮双眼，尽管 “ 对对碰 ” 会带来许多乐趣，是大家释放压力、娱乐生活的一种途径，但消费者在参与时也需保持警惕才对~</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU2MzcyNzgzOQ==&amp;mid=2247833187&amp;idx=1&amp;sn=da8f5a6cfe9c6ed89d327f7c255c8c91&amp;chksm=fd7103230d65001d2d612183e0dd59d781383ad24c775391bb2bba8725507460bd24e2061ca0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“科技狐”（ID：kejihutv）</a>，作者：狐妹，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3068896930984577</guid><pubDate>Mon, 09 Dec 2024 09:52:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3068896930984577</guid><pubDate>Mon, 09 Dec 2024 09:52:00 +0800</pubDate></item><item><title>Temu越南受挫，东南亚市场不欢迎闪电战｜焦点分析</title><link>https://36kr.com/p/3070331241640578</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>作者 | 张子怡</p>
+<p>编辑 | 袁斯来</p>
+<p>在被印尼禁止注册后，Temu在越南市场也遇到了新麻烦。</p>
+<p>越南贸易部于12月5日表示，因未完成相关商业注册要求，该部门要求Temu暂停其业务。</p>
+<p>Temu于今年10月开放越南站。综合多家媒体信息了解到，Temu已经提交在越南开展电子商务服务活动的申请，但政府尚未给出恢复运营的时间表。</p>
+<p>受影响的不止是Temu，已经上线越南站至少两年的SHEIN同样被要求要在截止日期前向政府注册。两家公司都表示正在与越南贸易部注册服务。</p>
+<p>过去两年，Temu实现了迅猛的增长。市场研究机构Sensortower10月发布的一份报告显示，Temu在第三季度成为美国下载量排名第一的购物应用，第二和第三分别是SHEIN和亚马逊(Amazon)。</p>
+<p>在80多个国家开展业务的Temu，在东南亚的发展相对缓慢且不顺。在越南业务被暂停前，Temu陆续进军菲律宾、马来西亚、文莱、泰国市场，仅剩下印尼、新加坡两大头部市场未进入。</p>
+<p>东南亚的电商竞争环境激烈且饱和，主流电商平台以Shopee、TikTok Shop、Lazada为主，低价竞争更是常态。</p>
+<p>“东南亚电商平台搞活动不像中国有双十一、双十二大促这种，几乎月月都在推活动，发优惠券，搞直播带货的卖家也越来越多。”在泰国电商行业工作的业内人士告诉36氪。</p>
+<p>越南是电商发展增速最快的国家。电商在越南数字经济中占达60%，并且越南的法律环境也被认为是东盟国家中最有利于发展电商的国家之一。</p>
+<p>越南政府此前发布过发展电子商务的相关规划，旨在推动国家向数字化转型、发展数字经济。</p>
+<p>从政策层面而言，越南政府对电商的支持有利于电商平台的发展。然而，Temu的受挫证明了海外市场的复杂。</p>
+<h3><strong>01 增速最快的市场</strong></h3>
+<p>越南消费者的购物习惯正在被改变，像极了多年前的中国。</p>
+<p>NielsenIQ Vietnam在最新的越南消费者购物行为报告中称，与2023年相比，消费者网购的可能性增加了一倍。具体来说，平均每个人每月网购近4次，每周花8小时以上在网上购物。这个数字几乎是越南人每月去超市频率的两倍。</p>
+<p>购买最多的前三类商品是食品、饮料和化妆品。其次是时尚-运动用品、家庭护理和技术、母婴用品、服务注册、在线预订和货运等数字服务......过去，越南消费者用电商平台更多购买的是电子产品、家用电器和时尚等非必需品。</p>
+<p>购物品类从非必需品转变为日常必需品，已经说明越南电商市场愈发的成熟。</p>
+<p>同其他东南亚国家会对电商产品征收更高的进口关税相比，越南政府则是鼓励本国企业加入电商市场。</p>
+<p>根据外媒报道，越南政府支持Vecom（越南电子商务协会）TikTok Shop和Shopee等电商平台参从业者对商家进行培训。自 5 月以来，Vecom已在 9 个市场培训了约 450 名卖家，培训内容包括如何在电子商务平台上开店、管理在线订单以及进行直播销售（观众可以在主持人展示产品时实时购买产品）。</p>
+<p>去年12 月，在胡志明市滨城市场举办的TikTok活动中，有网络红人通过直播帮助商家销售数千件商品。据当地媒体报道，一家当地公司开发的数字人曾接了数百份订单，商品种类繁多，从家用电器到咖啡等。</p>
+<p>为了发展电商业务，越南政府鼓励使用无现金交易，将现金交易限制在总支付额的10%以下。而这点对于Temu而言极其有利。</p>
+<p>东南亚国家以货到付款为主电商支付方式为主。耕耘多年的Shopee支持街口支付、Lazada可以货到付款。</p>
+<p>而Temu的主流付款方式以国际信用卡、paypal为主，在东南亚市场很容易遇到支付难题。</p>
+<p>在越南政府各方面对电子商务的支持性政策下，其在东南亚国家中电商发展最为迅速。</p>
+<p>Metric电商数据平台统计，2024年第二季度，Shopee、Lazada、Tiki、Sendo、Tiktok Shop越南5大在线零售电商平台预计总收入达约85万亿越南盾，较2024年同期增长78%。</p>
+<p>2024年前6个月，5家电商平台的总收入预计将达到156万亿越南盾，比2023年同期增长78%。</p>
+<p>目前而言，越南电商平台竞争格局态势分明。Shopee占有绝对领先优势，市占率超六成；Tiktok Shop位列第二，市占率达两成。前者在东南亚根基深厚，后者则是头部社交媒体、主打直播带货。</p>
+<p>即便如此，东南亚电商在低价竞争领域向来打得十分激烈。一位泰国电商从业者认为，东南亚电商类比中国，还处于淘宝发展的早期阶段，以低价竞争为主，远未到竞争产品品质的时期。</p>
+<p>和老平台比，Temu甚至更擅长低价战争。然而，它作为新人，必然会遭遇不信任和随之而来的障碍。</p>
+<h3><strong>02 紧缩的空间与时间</strong></h3>
+<p>Temu业务被暂停，或许跟越南政府对跨境电商业务的管理政策有一定关系。</p>
+<p>据商务部官网编译媒体报道显示，11月4日，越南税务总局将加强国内电子商务平台和在越运营的跨境电子商务平台管理，确保税收的准确性、完整性、公平性和透明度并符合越南税法规定。同时，为在越生产经营主体提供便利条件，让其安心经营并向国库纳税。</p>
+<p>另外，根据越南政府于2013年5月16日颁布的议定，电子商务平台经营活动须获得许可并受工贸部管理。电子商务平台管理者有责任通过税务总局的电子信息门户进行注册、自行计算、申报和缴纳税款。对于在数字平台上开展的跨境电子商务活动，若外国供应商在越南产生收入但尚未进行税务注册，税务机关将进行审查，并采取适当措施，确保税收管理的有效性、透明度和公平性，与传统经营活动保持一致。</p>
+<p>可以说，越南这次对Temu的要求在法律层面无可辩驳。</p>
+<p>当前，东南亚多国都在加强对于跨境电商平台的监管。</p>
+<p>泰国税务局于2023年12月27日发布新规，要求电商平台设立专门账户向税务局提交电商卖家的收入信息，该规定自2024年1月1日生效。泰国政府于2024年6月20日宣布，自2024年7月5日起，对每笔不超过1500泰铢的进口产品征收7%的增值税。</p>
+<p>此举对做泰国的跨境电商卖家将有不小的打击。</p>
+<p>36氪了解到，近几年，泰国基础物流体系设施的逐步完善，本地电商企业派送时间不断缩减，不少地区甚至能实现当日、次日达，而跨境商品物流周期长是通病，加上增值税的上调，无疑会削弱跨境卖家的吸引力。</p>
+<p>东南亚电商市场最大的印尼，早在2023年8月，将限制价格低于100美元的进口商品在网上销售，并要求这些商品获得印尼国家标准（SNI）认证。</p>
+<p>Tiktok Shop更曾因印尼禁止社交媒体平台进行商品销售和交易活动的条例而被关停。此后，通过控股印尼本地电商平台Tokopedia，TikTok印尼电商业务才得以恢复上线。恢复上线后，TikTok曾表示，在营销、品牌和国际化等方面提供一系列支持，帮助印尼当地中小商家发展。</p>
+<p>显然，收紧与规范的趋势是确定的，对新兴电商平台而言，东南亚市场比往日更复杂，除了自身竞争激烈的原因外，遵守且理解当地的政策也愈发重要。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070331241640578</guid><pubDate>Mon, 09 Dec 2024 10:00:00 +0800</pubDate></item><item><title>为什么不少城市开始上调房贷利率了</title><link>https://36kr.com/p/3070958112928389</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>快到年底了，站在这个节点上说，今年无论是从楼市调控发布的频率、还是强度，都当的上是政策<strong>大年。</strong></p>
+<p>据不完全统计，仅上半年全国180多个省市就出台了超过360条，对于购房者可以说是迎来史上最宽松的购房条件，为什么说最宽松，还是因为今年的调控力度都足够大，比如房贷利率的下调。</p>
+<p>今年以来5年期以上的LPR经过三次下调，10月已经下调至3.60%，不少地方的房贷利率甚至一举破“3”，创下新低纪录。</p>
+<p>但没想到的是，下调还不到半个月的时间， 全国就有多个城市传出要回调房贷利率的消息。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,483" src="https://img.36krcdn.com/hsossms/20241209/v2_934a96cbbb194a1baeec018f33478073@337187376_oswg364734oswg1080oswg483_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>史上最低房贷利率短暂停留了之后又开始上调，</strong>哪些城市在上调房贷利率，而这背后又有什么更深的原因。</p>
+<h2><strong>01</strong></h2>
+<h2><strong>广州、杭州等多个城市房贷利率“逆势”上调</strong></h2>
+<p>我们简单盘点一下全国上调房贷利率的城市， 广州、杭州、苏州、珠海、长沙、佛山、武汉 等都榜上有名，平均上调幅度在5至20个基点之间。 </p>
+<p class="image-wrapper"><img data-img-size-val="883,810" src="https://img.36krcdn.com/hsossms/20241209/v2_0662a0ce4e2841ea92ab34db44554b12@337187376_oswg743365oswg883oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源： 整理自网络，仅供参考 </p>
+<p>而在全国这么多城市中，曾经房贷利率出了名最“卷”的，就是<strong>广州。</strong></p>
+<p>广州的新房房贷利率不仅是一线城市最划算的，甚至低于一些二三线城市，于是10月21日，当LPR下调25个基点后，多家银行首套房贷主流利率降到3%左右。</p>
+<p class="image-wrapper"><img data-img-size-val="561,597" src="https://img.36krcdn.com/hsossms/20241209/v2_ba2800c760c04079b8343da8a41cfae9@337187376_oswg15807oswg561oswg597_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源： 整理自网络，仅供参考</p>
+<p>根据数据整理的部分银行房贷利率来看，甚至 有好几家银行的房贷利率出现2.65%-2.85%的情况，低房贷和新政策都收到成效，广州房地产市场肉眼可见的回暖，但很快，2字头的房贷利率没持续多少，就上调了。</p>
+<p>11月6日下午官方宣布，自11月7日起广州地区主要商业银行或统一调整房贷利率，<strong>各家银行商业房贷利率按接近3%执行。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1050,768" src="https://img.36krcdn.com/hsossms/20241209/v2_f44ed5ed7df047cebd5c9833d17afd1a@337187376_oswg96313oswg1050oswg768_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">新闻截图</p>
+<p>二线热门城市也出现同样的情况，比起只调了一次的广州，<strong>杭州</strong>则更加急迫，在11月上调了两次房贷利率，这还得从今年上半年的杭州政策调控说起。</p>
+<p>今年5月31日，《浙江省调整优化个人住房贷款政策》通知发布，杭州首套房贷利率调整为LPR-70BP，而此前为LPR-20BP，这一次性就减了0.5个百分点。</p>
+<p>于是当今年10月21日，LPR降到3.6%之后，杭州的首套房贷利率就自动下调为3.6%-70BP=<strong>2.9%。</strong></p>
+<p>不过杭州2字头的时代只维持了半个多月，从11月8日起，杭州首套房贷利率从2.9%上调至3.0%，二套房贷利率与首套保持一致，随后11月30日，又<strong>再次调整到不低于3.1%。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="630,373" src="https://img.36krcdn.com/hsossms/20241209/v2_e58d4a2867dd4b4cb259eb02de109c7c@337187376_oswg80514oswg630oswg373_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：财联社</p>
+<p>我们来做个简单的计算题，看看 杭州11月两次利率调整后，房贷到底会涨多少。</p>
+<p>假设在杭州 商业贷款200万，等额本息贷款30年，那么短短20来天，同样200万的贷款金额， 月供就上涨了约216元，总还款利息增加近8万</p>
+<p class="image-wrapper"><img data-img-size-val="1080,230" src="https://img.36krcdn.com/hsossms/20241209/v2_462251242a72499ebf6dff5a2249bdd7@337187376_oswg94208oswg1080oswg230_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：真叫卢俊</p>
+<p>所以在11月29日，房贷利率调整前一天的晚上，杭州多家门店都出现 密集赶签的情况， 当天的二手房网签量为490套，达到今年二手房单日网签量最高值。</p>
+<p>当然，在 各大热门城市经过连续多次上调之后，<strong>最终首套房贷重回“3字头”.</strong></p>
+<p>调控是手段不是目的,其实大家都知道房贷利率不仅代表一时的还款金额，更重要的是背后相关的房产市场、以及银行、金融市场。</p>
+<h2><strong>02</strong></h2>
+<h2><strong>为什么房贷利率要调整回到3%</strong></h2>
+<p>其实从调整的城市名单不难发现，基本都是热门的一二线城市，而说到回调的第一个重要原因是因为<strong>商业贷款利率几乎快要和公积金形成“倒挂”了。</strong></p>
+<p>我们先来看看这些年公积金贷款利率情况：</p>
+<p class="image-wrapper"><img data-img-size-val="856,486" src="https://img.36krcdn.com/hsossms/20241209/v2_b284cdacb92449eb90161226bb7a77f4@337187376_oswg33256oswg856oswg486_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：真叫卢俊</p>
+<p>截止到今年10月，商贷利率和公积金利率已经非常接近，相差仅0.75%，不足一个百分点，这是自2002年以来，“利率差”首次低于一个百分点</p>
+<p>再加上各城市BP基点的下调，已经与公积金的2.85%非常接近，如果商贷利率继续下调，将和公积金利率形成倒挂。</p>
+<p>但其实公积金贷款原本是一种政策优惠，低成本和低利率是它的核心优势，一旦倒挂之后，<strong>公积金贷款或组合贷反而不如纯商贷划算。</strong></p>
+<p>那么公积金有没有可能也下调呢，通过下调公积金来拉大利率差，短期内可能性不大。</p>
+<p>看看以往的数据就能推测一二，从2015年8月到现在，十多年的时间，公积金利率只调整了2次，而商业贷款利率调整了十多次。</p>
+<p>公积金的优势之一就是非常稳定，调整缓慢，所以公积金贷款其实在我们的房贷中类似一种“兜底”的存在，健康的市场应该是公积金和商业贷款有序合作。</p>
+<p>这样看来，公积金利率和商贷利率不大可能“卷起来”。</p>
+<p>那么由此又引起第二个问题：<strong>各大银行的商贷利率“卷起来”了，又可能引起金融风险。</strong></p>
+<p>我们必须承认一个事实，银行说到底还是一个金融机构，对银行来说，首先是有盈利需求的，我们个人住房贷款就是银行最优质的盈利资产，所以当房贷利率持续走低，银行很容易为了争一时的高低而陷入内卷当中。</p>
+<p>但内卷式竞争没有赢家，因为房贷利率不是一个孤立存在的数字，它实际上与房产市场甚至金融市场都有紧密的关联。</p>
+<p>简单来说， 房贷利率会直接影响到银行的净息差，也 就是银行的收益能力，当房贷利率越少，银行的净息差就越小，银行的盈利越低，就越有风险。</p>
+<p>实际上，今年以来银行的净息差已经在预警线以内了，截至2024年三季度，据国家金融监督管理总局发布，商业银行净息差为1.53%，环比下降0.01个百分点，再创历史新低。</p>
+<p class="image-wrapper"><img data-img-size-val="1039,268" src="https://img.36krcdn.com/hsossms/20241209/v2_4894e6f3b07743cd90b751adaf970fd5@337187376_oswg131879oswg1039oswg268_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：真叫卢俊</p>
+<p>具体来看，大型商业银行、股份制商业银行、城市商业银行、民营银行、农村商业银行、外资银行三季度净息差分别为1.45%、1.63%、1.43%、4.13%、1.72%、1.44%，而1.8%是银行净息差的预警线。 </p>
+<p>长远看，除政策利率引导外，经营成本是银行合理确定房贷利率的重要考量。</p>
+<p>有银行人员综合计算资金、风险、运营等等各项成本后，得出银行保本需要个人房贷利率基本在3.2%左右，且不说这数字对不对，但是和此前2字头的利率确实相差不少。</p>
+<p>所以，<strong>房贷利率长期低于银行经营成本，是不可持续的，也不符合风险定价原则。</strong>于是， 各家银行在经历“价格内卷”之后，也在慢慢形成共识将房贷利率维持在一个合理水平。</p>
+<p><strong>第三个房贷利率上调的原因，是楼市的回暖。</strong></p>
+<p>首先以广州为例，此前出台的一系列调控政策，确实在广州取得了明显的止跌回稳效果。</p>
+<p>就新房来说，今年10月，广州新房网签首次破万，环比几乎翻倍，而广州上一次新房月网签破万，还是在2023年3月，时隔超过一年半。</p>
+<p>不仅是广州，这一波增涨可以说是全国性的，据中指院数据，9月底新政之后，10月、11月的房产市场都呈现不错的成绩。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,218" src="https://img.36krcdn.com/hsossms/20241209/v2_8c74170fa81a4d66a2057d202cc62983@337187376_oswg50438oswg1080oswg218_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：真叫卢俊</p>
+<p>比如， 11月一线城市新房成交面积为345万平方米，环比增长9.7%，同比增长49.4%，二线城市环比增涨甚至达到23.8%，这些城市房地产量价双回升，也给了银行上调房贷利率的“勇气”。</p>
+<p>当然，更进一步探讨这件事，就是这一次各城市房贷利率的回调又将持续多久。</p>
+<h2><strong>03</strong></h2>
+<h2><strong>未来的房贷利率还可能上涨吗？</strong></h2>
+<p>盘点资料，我们发现，这不是今年第一次出现回调房贷利率的现象，早在今年3月份，河北省市场利率定价自律委员会曾经发出过一份红头文件。</p>
+<p>内容显示自2024年4月份起，石家庄市将调整首套房贷利率的下限，从之前的3.45%上调到3.75%，虽然当时的LPR还是3.95%，也就是说石家庄上调之后还是比当时的LPR低的。</p>
+<p class="image-wrapper"><img data-img-size-val="628,814" src="https://img.36krcdn.com/hsossms/20241209/v2_75eacbaa3b17482ca169fe74a277bb66@337187376_oswg370589oswg628oswg814_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">文件截图</p>
+<p>这件事挺有意思，简单来说就是石家庄在今年4月之前执行的都LPR-50BP的首套房贷利率，之所以会调整成为LPR-20BP，是因为石家庄的新建商品住宅销售价格同环比连涨3个月，而根据当时的调整机制，出现这样连涨情况的城市，首套房贷利率的下限需要调整为当时的LPR-20BP，也就是3.75%，所以出现了一次回调。</p>
+<p>所以你会发现，<strong>其实国家对于市场的调控一直都在有条不紊、有理有据的进行，</strong>那么我们再回到现在的节点，看看未来的房贷利率，其实从今年以来，包括调整存量房贷利率那次，我们已经经历了4次LPR的调整。</p>
+<p class="image-wrapper"><img data-img-size-val="616,594" src="https://img.36krcdn.com/hsossms/20241209/v2_cd4c64e9406b484da6b4c5523947e48b@337187376_oswg13147oswg616oswg594_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：真叫卢俊</p>
+<p>无论是1年期还是5年期以上的LPR都在持续下降，而对于房贷利率来说，很多城市都在已经持续下降的LPR基础上再降基点，所以不仅LPR已经下降0.8个点，房贷利率相比年初来说也下降近100个基点。</p>
+<p>即使现在有回调，依旧处于历史低点，再加上商业贷款和公积金已经比较接近到小于1个点，从这个角度来说， <strong>房贷利率可能会保持，但理论上已经不太存在继续下调空间。</strong></p>
+<h2><strong>04 结语</strong></h2>
+<p>站在快到年底的时间点上回头看，从九月底全国开始的一波新政和接二连三的调控，市场调控的力度和速度比我想象的更快更强，而房贷利率的调整其实也可以作为一个粗略的标尺。</p>
+<p>正是因为调控起到效果，楼市出现回暖，房贷利率才会快速地做出反应，所以其实这样的回调反倒是一个不错的信号，说明市场真正的“止跌回稳”住了。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/2SXaFBwEDl7MQPHT_miJgg" rel="noopener noreferrer nofollow" target="_blank">“真叫卢俊”</a>，作者：Once队，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070958112928389</guid><pubDate>Mon, 09 Dec 2024 10:01:00 +0800</pubDate></item><item><title>全面重修后，巴黎圣母院还算是“历史遗迹”吗？</title><link>https://36kr.com/p/3070949368574601</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2019年4月15日傍晚，滚滚浓烟从巴黎圣母院的屋顶燃起，不久后标志性的尖塔也轰然倒塌。大火扑灭后，法国政府多方筹集资金，于2019年7月确认修复方案，开始了历时5年多的修复。2024年12月8日下午6点半，巴黎圣母院正式重新开放。</p>
+<p>花费资金8.43亿欧元、耗时5年半。为何巴黎圣母院的“复生”之路有这么高的金钱与时间成本？最终效果如何？从事文化遗产研究工作的崔金泽博士，做了如下解读。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_41d83b7d68de4fd9a2cec5f90791ae99@000000_oswg618940oswg814oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">巴黎圣母院火后情况示意图丨英文原图来自华盛顿邮报</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_daf5288bcc754b5e9cc1441eea6974a2@000000_oswg67533oswg600oswg900_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">正在崩塌的巴黎圣母院尖塔</p>
+<p>修复花费了<strong>五年多</strong>的时间，还有大量资金（一说<strong>8.43亿欧元</strong>）。时间和资金都花在哪里了？</p>
+<h2><strong>为何耗费时间与金钱如此之多？</strong></h2>
+<p>整个工程的工作量非常巨大。如果整个时间不是五年而是十年，或许一些工作还可以完成得更细致。工程大致可以分为两个阶段：前期的准备工作，以及真正的复建（可能只占整个工作量的1/3）。</p>
+<h3>勘察与记录</h3>
+<p>法国人首先对火灾后的残存现场进行了非常详尽的调查，使用3D扫描和全景记录等技术，严格记录所有受损部分。有哪些砖石还残留着？哪些木梁从屋顶掉落下来了，掉落之后是什么样的状态？这也<strong>像记录犯罪现场一样</strong>，为后续找到失火原因、起火点提供了依据。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_482f7aa85abe4d2380ffd89f4c0d1455@000000_oswg888299oswg1067oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">通过对火灾前后调查的图像和数据进行分析，可以精确识别大教堂唱诗班拱顶的变化。丨Roxane ROUSSEL / MAP / Notre-Dame de Paris Scientific Site / 文化部 / 法国国家科学研究中心</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_435f07d775264e07ac2082244a07b738@000000_oswg483544oswg977oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">巴黎圣母院的 3D 视图。白色是历史学家安德鲁·塔伦 (Andrew Tallon) 在 2006 年至 2012 年间记录的，红色是 2019 年火灾前另一次调查活动中的记录，蓝色是火灾后进行的复建规划。丨法国国家科学研究中心</p>
+<h3>紧急加固</h3>
+<p>在木质屋顶坍塌后，残存的建筑结构变得不稳定，中世纪的石墙和飞扶壁也可能有变形、开裂，有继续坍塌的可能。修复团队使用木框架，对这些脆弱结构进行紧急支撑和固定，如同为骨折的肢体安装夹板。</p>
+<h3>环境清理</h3>
+<p>这看似与“文化遗产保护”无关，但恰恰是本次修复工程中<strong>非常耗时耗力耗资</strong>的工作。</p>
+<p>巴黎圣母院的屋顶，原本铺作了厚厚的铅板，类似中国板瓦的作用。玫瑰花窗的纹路也是由传统的铅材料制成。这次火灾把整个屋顶烧掉了，造成了铅板融化。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_3e79f8206d9c42ef841ed7d9625ff677@000000_oswg226953oswg1080oswg705_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">玫瑰花窗由无数彩色玻璃拼合而成，右侧玻璃片间的黑条就是黏合所用的铅条</p>
+<p><strong>多达 400 吨的铅被化为烟雾</strong>，最远飘向巴黎以东 16 公里处。有毒的含铅灰烬飞散到各处，整个覆盖了建筑的墙、壁画、彩色的玻璃花窗上面；甚至污染到了附近地铁站、学校、居民区和地下水。2019年夏末，巴黎圣母院内铅浓度达到了123,000 μg/m²，是<strong>巴黎铅本底值的25倍</strong>。</p>
+<p>这个问题起初并没有引起当局的太大关注，但在工人和健康专家抗议后，修复工作被迫暂停，铅粉清理随之展开。在大规模复建启动前的近乎两年时间内，工人需要穿戴全套防护设备，在每日限定的时间内，一点一点用刷子对文物本体进行清洁，同时治理周边环境，检测居民的血铅含量。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_be130533d8834684b3be79d7cf1fdce9@000000_oswg722579oswg710oswg473_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">教堂内坍塌的脚手架丨Patrick Zachmann</p>
+<p>前期调查和清理工作中，也有了<strong>意外的文物研究与考古发现</strong>。</p>
+<p>巴黎圣母院屋顶的木构建筑，自19世纪维奥莱-勒-杜克主持风格性修复以来，还没有人真正地去拆解下来过。借由这样一个构件解体的契机，团队也<strong>看到了以前视线不可及的地方</strong>，比如发现了19世纪维奥莱·勒·杜克（Eugène Viollet-le-Duc）为建造尖塔而添加的<strong>补强结构</strong>，还有交叉甬道处中世纪曾经存在的<strong>圣坛屏残迹</strong>，以及19世纪壁画所覆盖的<strong>中世纪颜料层</strong>。这些新发现的文物和历史信息，目前都在距离圣母院不远处的国立中世纪博物馆展览，作为火毁经历一种别样的见证，建议游客一并参观。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_ef584065dd4145abbe61167e58daa6f9@000000_oswg1007670oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">这只手是13世纪圣坛屏的一部分。圣坛屏（rood screen）曾在18世纪初被损毁，一部分碎片就此被埋在教堂下。300年后，彻底的清理工作使它们重见天日。丨 Courtesy Denis Gliksman, Inrap</p>
+<h3>复建</h3>
+<p>所有这些任务结束之后，才是复建，包括重建尖塔、屋顶结构，以及雕像的复原。复建的工作实际上延续大概也只有两三年的时间。邀请了传统工匠按照中世纪工艺完成工作。</p>
+<h2><strong>为什么法国选择用这么多钱和时间复建？跟原来一模一样吗？</strong></h2>
+<p>始建于12世纪的巴黎圣母院，在法国是什么地位？类比成故宫，大家就明白了。它不仅是一座古建筑，也是一座正在使用的主座教堂，同样背负着重要的文化意义。</p>
+<p>法国有所谓的民族国家（nation-state）传统，有很强的民族认同，还有一个比较强大的中央政府，这是它<strong>在欧洲的特别之处</strong>。法国在中央政府下面有一个文化部，<strong>统领全国的文化事务</strong>（就像咱们的文化部一样）。所以整个国家对文化遗产保护（要修、要怎么修）能够达成共识，也能募集到这么多资金、政府和社会力量。</p>
+<p>法国文化部体系下有一个角色叫“文物古迹主任建筑师”，类似咱们国家级重点文保单位的修复相关事务总顾问。在这个体系下，巴黎圣母院是直接受文化部管理的，级别和国家博物馆相同。</p>
+<p>法国这次选择了<strong>复建</strong>（reconstruction），也就是把巴黎圣母院完全按照过去的状态、过去的样子，重新物质性地再造起来。为了能够准确复建，需要<strong>采用考古学的方法</strong>，基于的是非常严格的历史记录（图像、书籍、过往测绘资料），当然还有<strong>现场调研</strong>的材料。巴黎圣母院的现任主任建筑师菲利普·维勒纽沃（Philippe Villeneuve），负责了整个工程。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_02251917a54e466cb81b9fb6c70cbc53@000000_oswg466652oswg1080oswg640_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">建筑完成于1163-1220。13世纪的成就，12世纪的风格</p>
+<p>究竟选择哪个时期，作为这次“复建”的基准呢？团队并没有选择巴黎圣母院中世纪建造完成的样子，而是<strong>选择了19世纪的“修复版”</strong>。</p>
+<p>巴黎圣母院建造于1163-1250年间，中间曾因法国大革命严重损毁。19世纪，建筑师维奥莱-勒-杜克对其进行了“风格性修复”。作为专业的建筑师，维奥莱-勒-杜克对哥特建筑的建造技术有着充分的认知，而且他在探索中与中世纪的建造者达成了共情、最大限度地尊重他们的审美和创造性，最终让19世纪的修复与12世纪的原建筑达成了风格的统一。<strong>他也在那次修复中加上了属于自己的主观思考，比如给巴黎圣母院加上了高调的尖塔。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_6916d98cefaa4724a3d1b762c1d505c9@000000_oswg1157771oswg1080oswg730_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">左：维奥莱-勒-杜克所绘巴黎圣母院尖塔手稿。右：新增尖塔的示意图，来自维奥莱-勒-杜克与同事 Lassus丨 左来自Connaissance des Arts，右来自Images d’Art</p>
+<p>法国文化遗产人的心中，巴黎圣母院在900年历史中，一直在不间断地“生长”；最后的一次干预也就是勒杜克的工作，塑造了它至今的形象和风格。这个风格才是圣母院建筑最完美的状态，是火毁前的建筑所表达出的“主旋律”。</p>
+<h2><strong>怎么保证能恢复成19世纪的样子？</strong></h2>
+<p>巴黎圣母院详细的历史档案、19世纪维奥莱-勒-杜克的修复记录，以及火灾前的数字化扫描，为这次复建提供了<strong>精确的数据支持</strong>。更惊人的是，屋顶木架构的建造、木材和石材的选择，不止跟19世纪一样，也<strong>跟中世纪的建造逻辑一致</strong>。</p>
+<p>法国始终都保持着非常强大的传统木结构建造能力，技术代代相传，<strong>类似咱们的非遗传承人体系</strong>。这依赖于保存完整的“伴学”（Compagnonnage）学徒团体，和手工业行会。“伴学”制度的文字记录可追溯到15世纪，要通过口口相传的形式学习技艺和行规、通过考核，最重要的是在5-9年内“欧洲游学”，继续学习并完成作品，才能通过考核，成为行会的一员。这个传统工匠的传承体系在法国的完整保存是独一无二的，于2010年入选世界非物质文化遗产名录。</p>
+<p>“伴学”体系下的工匠在19世纪就帮助维奥莱-勒-杜克建造了尖塔，也在今天参与了木结构的复建。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_4d47ed8b9362457eadd6676e995e1684@000000_oswg1961356oswg1080oswg812_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">壮观的屋顶木结构丨PEFC，摄影师Patrick Zachmann</p>
+<p>和过去一样，圣母院屋顶里的“森林”由数百棵橡木搭建而成，且橡木生长时间为150-200年。加工木材、组合木料、搭建木构，他们最大程度地遵照着几百年前的传统。比如把原木加工成方木时，木匠仍然用传统的工具对表面进行切削，而非现代机械，形成古老式样的表面加工纹理。甚至于每天什么样的工作量、几人配合，也都是依照行会规则。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_81bbfb9c240a4c20af4309c205744b33@000000_oswg937456oswg1080oswg622_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_89a05ca1371346ec89da4c648819b366@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>石材也是有类似的技术传承下来了，加工的技术含量比这个木材的稍微低一些。石材的难点是，建造巴黎圣母院时所用的那个采石场已经枯竭了，那在哪些采石场才能找到和原先中世纪的一模一样的石头。</p>
+<p>当然，这次复建（尤其是前期）用到了大量现代技术，如激光扫描、3D建模、AI辅助分析，确保修复工作的精确和高效。</p>
+<h2><strong>复建后，是否有不同之处？</strong></h2>
+<p>每一任主任建筑师，可能都会给建筑加上自己、或者带有时代色彩的特色或者理解，这次也不例外。</p>
+<p>现任的主任建筑师菲利普·维勒纽沃，<strong>把自己的头像放在了教堂屋顶上</strong>，取代了一个中世纪小怪兽，与上一次大规模修复的主任建筑师维奥莱-勒-杜克的塑像对望，仿佛一次跨越时空的共情。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_bddc6086d3da4cbc9553823272cf3199@000000_oswg658869oswg1080oswg502_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>还有这个尖塔最上面那个<strong>风向标</strong>，本来是一个金属造的鸡。他们没有把这个19世纪的原物放上去，而是请当代的设计师重新设计了一个非常前卫的形象：远看是鸡，近看是一个火焰的形状，是一场大火的样子。这个鸡金碧辉煌的，鸡的肚子里面也填了一些材料。是什么呢？这个我觉得非常感人：除了几件宗教圣物之外，<strong>还有一个几千人的大名单，是所有参与本次巴黎圣母院复建工程的工作人员</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241209/v2_25ddb701125b4215a554c74cd68c62d4@000000_oswg464050oswg1080oswg656_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">吊装新鸡丨AP/Michel Euler</p>
+<h2><strong>大火前后，巴黎圣母院的价值是否有变？</strong></h2>
+<p>从文化遗产的角度讲，我认为没有发生变化。现任和前任主任建筑师的观点是，复建又为巴黎圣母院增添了“新的真实性”（new authenticities）。</p>
+<p>如果讨论复建之前和之后它的价值有没有变化，我们就要先看这个价值是谁定的、通过哪一套话语体系去评判。我们先选一个特定的话语体系，比如说联合国教科文组织（UNESCO）的世界文化遗产话语。</p>
+<p>当年巴黎圣母院在被评定成世界文化遗产的时候，官方认定的所谓的突出普遍价值是什么？并不是它自己这一座建筑本身被定成了世界文化遗产，而是作为“巴黎塞纳河畔”的一部分，是塞纳河两岸文化景观的一个重要元素。当它是<strong>巴黎城市文化景观的组成之一</strong>时，复建改变的小细节几乎可以是忽略不计的。</p>
+<p>要是从更广大的视角，比如说咱们中国人如何看待巴黎圣母院，那也许是<strong>更加普世和文化性的角度</strong>。可能大部分人首先想到的是维克多·雨果（Victor Hugo）的小说，或者音乐剧、电影。那这样，复建就更没有减损它的价值了。具体的某一块石头，或者是某一根木梁，它到底是中世纪的、19 世纪的还是21世纪的，都只是<strong>太具体的物质形式，跟咱们心中的文学想象、情感寄托是没有太大关联的</strong>。</p>
+<h2><strong>Guokr</strong></h2>
+<p>在火灾发生后的两个月内，巴黎圣母院要重修成什么样子，是维持火灾后坍塌原样还是就此设计新锐样貌，曾有过诸多讨论。但法国人很明确地知道他们想要什么，在2个月内就选择了重建方案：跟随维奥莱-勒-杜克的基调，恢复建筑本身在风格上的统一，复原中世纪架构的建造逻辑，反复强调它的审美与情感价值。自2014年以来，<strong>法国各界对维奥莱-勒-杜克的肯定和推崇与日俱增</strong>，圣母院的复建即为这种全国性的认识和情绪提供了一个举世瞩目的突破口。</p>
+<p>1964年，第二届“历史古迹建筑师与修复技师国际会议”在威尼斯召开，提出《威尼斯宪章》，其在真实性方面<strong>片面地强调了物质属性</strong>。这是19世纪英国艺术评论家约翰·拉斯金（John Ruskin）的“反修复”主张和法国建筑师维奥莱-勒-杜克的“风格性修复”之间展开大辩论以来，对后者主观臆造美化古迹的进一步否定。然而，这种对真实性的定义，经过联合国教科文组织的世界文化遗产话语的加持，也在一定程度上阻碍了不同文化对遗产价值的想象，尤其是非物质层面价值的表达。</p>
+<p>1994年，借助日本伊势神宫式年迁宫的启示，《奈良真实性文件》在《威尼斯宪章》的基础上对真实性的内容做了补充，强调文化遗产的真实性具有文化相对性，<strong>应同时包括“物质”和“非物质”两个方面的属性</strong>。遗憾的是，《奈良文件》的实际影响力远不及《威尼斯宪章》。</p>
+<p>巴黎圣母院的火灾及其灾后修复，毫不意外地援引了《奈良文件》的相关表述，也像是法国人公开为维奥莱-勒-杜克正名。它为当代建筑遗产保护提供了独特而珍贵的案例，也为我们客观理解今天欧洲大陆存在的不同遗产化路径，提供了真实的窗口。</p>
+<p><strong>参考文献</strong></p>
+<p>[1]本杰明·穆栋（Benjamin Mouton）：巴黎圣母院的涅槃重生：修复技术和理念的挑战</p>
+<p>[2]https://www.lemonde.fr/en/france/article/2024/12/05/notre-dame-s-340-000-donors_6735226_7.html</p>
+<p>[3]https://www.france24.com/en/europe/20241205-how-lead-exposure-became-notre-dame-fire-toxic-legacy</p>
+<p>[4]https://www.nationalgeographic.com/history/article/notre-dame-restoration-surprising-treasures</p>
+<p>[5] Grand Marais carpenter is in France rebuilding Notre Dame Cathedra https://www.youtube.com/watch?v=tNgoSmgB3nQ</p>
+<p><strong>受访者</strong>：</p>
+<p>崔金泽，比利时鲁汶大学工程科学学院/雷蒙·勒迈尔国际保护中心，文化遗产研究博士，研究员</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTg1MjI3MzY2MQ==&amp;mid=2652291226&amp;idx=1&amp;sn=0b158e103d0b8cc0ad5d36ec9b6ce821&amp;chksm=5c18b855f99ed794e363a1815c13977f6b9b799f1f067db78a127e6e18f85e0d991ee9e483b6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“果壳”（ID：Guokr42）</a>，作者：崔金泽 Luna，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070949368574601</guid><pubDate>Mon, 09 Dec 2024 10:02:00 +0800</pubDate></item><item><title>存在广州的钱，正式突破9万亿</title><link>https://36kr.com/p/3070980042535815</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近日，多个城市公布10月末的资金总量 （本外币存款）， 从中可以看到各大城市对热钱的吸附能力，以及楼市的体感。 ‍‍‍‍‍‍‍‍‍‍‍ </p>
+<h2><strong>01</strong></h2>
+<h2><strong>京沪深之后，又一个9万亿之城</strong></h2>
+<p>截至10月末：</p>
+<ul>
+<li> <strong>北京</strong> 资金总量达到26.3万亿元，在全国主要城市中排名第一。 </li>
+<li><strong>上海</strong> 资金总量达22.08万亿元，排名第二。 </li>
+<li><strong>香港</strong> 的资金总量达16.1万亿元，排名第三。‍‍‍‍‍ </li>
+<li><strong>深圳</strong> 资金总量达13.7万亿，排名第四。 </li>
+<li><strong>广州</strong> 资金总量达9.17万亿元，排名第五。 这是继北上深之后，中国内地又一个资金总量超9万亿的城市。 </li>
+</ul>
+<p>9.17万亿是什么概念？相当于1.9个天津，或者1.7个重庆。 </p>
+<p class="image-wrapper"><img data-img-size-val="498,591" src="https://img.36krcdn.com/hsossms/20241209/v2_6a330a45175345439d9d0cc42140a4d1@337187376_oswg18756oswg498oswg591_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：城市战争</p>
+<p>一个城市的本外币存款，主要包含城市的企业存款、 居民存款、机关团体存款、财政性存款、非银行业金融机构存款等等。由于这个数据是由央 行统计的，受地方政府的干预比较少，不像GDP那样可能存在“水份”。 </p>
+<p>如果说GDP反映的是一座城市在一定时期的财富增量 ，那本外币存款反映的则是一座城市的财富存量 ，后者比前者更能反映一座城市的真实家底。 </p>
+<h2><strong>02‍</strong></h2>
+<h2><strong>广州存款突破9万亿，归功于楼市爆发？‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</strong></h2>
+<p>9月末，广州本外币各项存款余额8.9万亿元，这意味着10月<strong>一个月</strong> ， <strong>广州存款净增近2700亿元。</strong>存款增速也达到5.5%，高于深圳、杭州、重庆等热点城市。‍‍ </p>
+<p>有人可能会问，广州存款总额为何突然飙升？从主要几个经济指标来看， <strong>楼市的助推效应应该不小。</strong></p>
+<p>10月正好也是广州<strong>楼市突然爆发的一个月</strong> ，全市新房网签套数达到10473套，是前几个月的两倍，也是今年以来首次突破万套。‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍ </p>
+<p>广州上一次新房月网签破万，还是2023年3月； 再上上一次 破万，则是2021年12月。而 这两个时间都是广州楼市比较火爆的时候。 </p>
+<p class="image-wrapper"><img data-img-size-val="986,1139" src="https://img.36krcdn.com/hsossms/20241209/v2_b0cb4084fa2244f7b390afe7b2c74c95@337187376_oswg139829oswg986oswg1139_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：城市战争</p>
+<p>如上所示， 10月之前，广州楼市总体低迷 ，7月成交量5211套、8月成交量4745套、9月成交量5164套，均只有10月成交量的1/2左右。 </p>
+<p>唯有6月份的成交量突破7000套，达到7632套，原因是“528新政”的助推。10月成交量的暴增，也源自“929新政”的助推。 </p>
+<p>这说明， 救市效果还是显著的，只要有新政“轰炸”，成交量就能迅速反弹。</p>
+<h2><strong>03‍‍</strong></h2>
+<h2><strong>11月份，民企开始拿地了‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</strong></h2>
+<p>和股市一样，楼市回温的前提一定是成交量先起来，但成交量只是牛市的必要条件，而非充分条件，接下来还要看成交量是否可持续。‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍ </p>
+<p>例如，“528新政”之后的6月，成交量确实暴增，但7、8、9三个月又冷下来。“929新政”之后， 10月成交量再次爆增，那11月份呢？</p>
+<p>数据显示，11月份，广州新房网签8304套，比10月份有所回落，但仍高于10月之前的所有月份， 二手网签更是高达13044套，创今年以来新高 。‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍ 从12月的土拍情况来看， 民企也终于重新拿地了 ，这也是一个积极信号。‍‍ </p>
+<p>所以，“929新政”对市场的提振效应，要比“528新政”更持久一些，但12月，以及明年的市场如何，还需继续观察。 </p>
+<h2><strong>04‍‍</strong></h2>
+<h2><strong>广州经营主体数量，全国第四‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍</strong></h2>
+<p>广州存款总额10月份爆增，除了楼市助攻，还有一个因素是企业注册量快速增加。</p>
+<p>数据显示，截至今年10月底，广州实有经营主体364万户，居全国第四位，同比增长8%，其中企业占比63%，居全国第三位。 企业注册量快速增长，也会给城市带来显著的新增存款。‍‍‍‍‍‍‍‍‍‍‍‍</p>
+<p>另外， 央行今年加强了对“资金空转”的监管，这会让一部分高杠杆城市的资金增速受到影响，比如而对低杠杆城市的影响较小。 </p>
+<p>广州的营商文化一直以务实而著称，企业 和居民一般不太愿意加杠杆，各行各业包括楼市的杠杆率原本就不高，受监管因素的影响较小，这也是为什么广州今年的存款增速还不错。‍‍‍‍‍ </p>
+<p>‍本文来自微信公众号<a href="https://mp.weixin.qq.com/s/G_S9Sth-kmn9mnY3FsxKtw" rel="noopener noreferrer nofollow" target="_blank">“城市战争”</a>，作者：孙不熟团队，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070980042535815</guid><pubDate>Mon, 09 Dec 2024 10:07:00 +0800</pubDate></item><item><title>锁定2.9%！我成功赶上了买房最低利率的“末班车”</title><link>https://36kr.com/p/3070987170509699</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2><strong>01 二套房成本太高</strong></h2>
+<h2><strong>置换计划被搁置了5年</strong></h2>
+<p>最早在2019年，我们就想换房，从小换大，以满足三代同堂的居住需求。</p>
+<p>可以说，我们是典型的刚改家庭，老人长期在青岛帮忙照看孩子，一家三代居住在安子片区一套85平方米两室一厅，随着孩子长大，室内空间愈发局促。</p>
+<p>2019年底，我们打算换房，但是当时天气转冷，再加上年底工作忙，看了几套房后打算过了年开春再去看房，没想到突如其来的疫情打乱了看房计划。</p>
+<p>2020年时关于房价涨跌的讨论也很多，有些观点认为疫情冲击经济发展，房价会跌，受此影响我想再观望一下，没有想到，下半年迎来报复性消费，房价再次变得坚挺。2020年全年青岛新房价格从4月以后均呈现出环比上涨，全年各月房价同比均上涨，涨幅维持在1.9%-3.7%之间。</p>
+<p>于是，2020年下半年我们正式加入看房大军，事实上，市场高热阶段换房比我们想象中要难。</p>
+<p>一是首付不够，二套房首付比例为40%，家里人不支持先卖后买，所以我们换二套房需要借钱凑首付。二是房贷利率高位站岗，当时新房贷款利率大约是5.6%，高额的利息成本和月供，让我们几乎无法承担。</p>
+<p>反复权衡之下，我们的换房计划就此搁置，选择退而求其次，在同小区为老人租了一套房，暂时解决居住空间不够的问题。 </p>
+<h2><strong>02 二手次新房价坚挺</strong></h2>
+<h2><strong>真实房价没有想象中降得多</strong></h2>
+<p>买房计划虽然暂时被搁置，但买房的念头并未打消，我们一直关注青岛房地产市场的变化，希望在合适的时机能完成置换。</p>
+<p>2023年以来，青岛楼市政策不断宽松，8月公积金贷款二套房首付比例从40%降至30%，9月全面取消限购、限售等。</p>
+<p>直到2024年青岛房价、贷款利率双双大幅下调，我们经过讨论决定，是时候换房了，一是买房资金从原本的不足以支付首付款到现在有充足的资金，再加上当前房价见底，我们认为当下是低价置换的最好时机。</p>
+<p>下半年以来，我们陆续开始看房，考虑到孩子的教育和上下班通勤的便利性，我们将置换的房源锁定在香江路片区。</p>
+<p>一路看下来，最大的感受是真实的二手房价并不像网上说的那样降得厉害，尤其是近两年交付的次新小区，二手房报价并不比一手售价低多少，尤其是户型、楼层相对较好的房源，房东普遍比较惜售，降价意愿不太强。</p>
+<p>反而是一些房龄较老、户型、品质、物业方面明显不足的房源，降价幅度比较大，印象比较深的是，2021年我看过几个房源的小区，当时报价普遍在1.6-1.8万元/平方米，今年再看，这个小区的报价降到了1.1万元/平方米左右。</p>
+<p>对比之下，我们决定选择房价比较坚挺的次新二手房，这类房子在居住品质、资产保值方面更有保障。</p>
+<h2><strong>03 签完合同后商贷利率上调</strong></h2>
+<h2><strong>赶上历史最低利率</strong></h2>
+<p>今年10月再次迎来好消息。</p>
+<p>10月11日起青岛市首套房和二套房最低首付款比例统一为不低于15%，首套房、二套房商业贷款利率均为LPR-70BP，随着10月LPR由3.85%降至3.6%，青岛房贷利率首次降至2.9%，达到历史最低水平。</p>
+<p>一方面首付比例和贷款利率已经降至历史低点，再加上房价也降至低点，整体观望的空间已经不多了，于是10月底我们成功入手一套中意的房子。</p>
+<p>刚进入11月，中介告诉我贷款利率可能会涨，并催促我尽快办贷款。2.9%的利率确实已经很低了，但对于上涨我当时是抱有怀疑的态度，毕竟刚降下来谁也想不到还会再上调，不过房子都已经买了，还是相信中介的劝告，没有拖延当天去办了贷款。</p>
+<p>没想到，合同签完没几天，贷款利率果然上涨到了3.0%，最近又有消息称，青岛房贷利率还要上调至3.1%，这样看来我也算赶上了历史最低房贷利率的末班车，总的利息少了十来万。</p>
+<p>完成人生第二次置业，我们历经了五年，赶上了史上最低的房贷利率，同时也赶上了房价的低谷，原本只能“卖一买一”才能实现的置换，现在可以直接买第二套，原本那套房以后就留给老人在青岛养老</p>
+<h2><strong>编者手记</strong></h2>
+<p>小安的买房故事来自于克而瑞山东区域。</p>
+<p>他所在的青岛，是本轮房贷利率下调的典型城市，10月以来房贷利率最低至“2字头”，随着楼市止跌回稳，11月初，包括青岛在内的多个城市宣布上调房贷利率，这让和小安一样的购房者始料未及，但小安又是幸运的，他成功赶上了末班车，锁定最低的房贷利率。</p>
+<p>值得注意的是，消息称青岛房贷利率还将继续二次上调至3.1%，而本轮调整的城市还有杭州、福州和厦门等城市。</p>
+<p>不管怎样，房贷政策的变化，和购房者的利益关系最密切，即便上调，当前房贷仍处于近年来较低水平。关于房贷利率上调你怎么看？欢迎评论区留言讨论。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/GKHGimZV6rnRmbuzhB9PMw" rel="noopener noreferrer nofollow" target="_blank">“丁祖昱评楼市”</a>，作者：编辑部，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3070987170509699</guid><pubDate>Mon, 09 Dec 2024 10:22:00 +0800</pubDate></item><item><title>经济下行消费不振，都怪房地产？</title><link>https://36kr.com/p/3071000402686857</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>有个词叫做“拖累”，近几年频繁见诸经济学家和分析师的演讲和文章。 </p>
+<p>你猜对了，就是专家们常说的，<strong>房地产拖累了整个经济。</strong>这就好比是说，一个败家子，拖累了一户小康之家。 </p>
+<p>中国国际经济交流中心副理事长王一鸣11月30日在中国宏观经济论坛年度论坛上说，当前经济面临最主要的问题是有效需求不足，这种需求不足对经济增长的约束正在进一步强化，主要表现为：</p>
+<p>房地产市场的深度调整，带来了需求的收缩效应；资产负债表受损对需求造成影响，其中主要是房地产价格下降带来了资产的减损，对居民部门资产负债表形成收缩效应；地方政府债务抑制了需求，特别是投资需求的扩张。</p>
+<p>看到没，房地产调整抑制了消费，抑制了投资，导致资产负债表的收缩受损。王一鸣老师说得温文尔雅，不像某些券商分析师，直接就讲：房地产是最大的拖累因素。 </p>
+<p>“罪孽深重”。 </p>
+<p>部分地产从业人员听了，不免有些牢骚。一位房企高管私下说，早年房地产为经济做了那么大的贡献，怎么没见你们夸呢，反而是天天骂房地产暴利。他甚至引用自己集团研究部门的数据说，房地产每年拉动GDP几个百分点云云。 </p>
+<p>用脚趾头都能想得到，网友反驳的话已准备好：那都是国家政策好，是购房者的抬举，地产商赚钱了应该感恩。</p>
+<p>一句话，功劳是国家和人民的。 </p>
+<p>这就好比说，在一个子女众多的大家庭里，房地产本来是毫不起眼的那一个混小子，某天突然发达了，成了家里的顶梁柱，好不风光，但你要是敢嘚瑟，大家都会说这是父母养育的结果，你小子要懂得感恩。 </p>
+<p>某天房地产生了一场大病，把富裕或小康之家又拖到了温饱边缘，于是就饱受指责。凭良心说，家长们倒是没有放弃治疗它，今年10月房地产终于从ICU抬到了普通病房。 </p>
+<p>房地产怎么就沦落到今天这个地步的呢？放心，我不罗列枯燥的历史，只说些观感。 </p>
+<p>房地产这个不安分的混小子，20多年来，让多位监护人简直操碎了心。地产人都总是津津乐道于楼市的黄金20年，说什么早在2003年就出台了18号文件，确立了它作为国民经济支柱产业的地位，但你知道吗，同一年早几个月，央行就出台了121文件，从信贷端对房地产严加看管。 </p>
+<p>大概10年前，房地产如日中天的时候，几位监护人就在讨论，要不要刺破这个巨大的泡沫。商量的结果是，不能主动刺破泡沫。日本就是因为主动刺破了房地产泡沫，引发了资产价格的大崩盘，日本经济从而失去了十年，又失去二十年、三十年。 </p>
+<p>于是，决定采取保守疗法。治疗的结果是，房地产变成了一个巨大的堰塞湖。随着房价不断上涨，湖水的水位不断升高，堰塞湖管理委员会就只好不断地筑高四周的大坝，并安排值班人员严防死守。 </p>
+<p>限购限贷限价限售，能想到的办法都用上了。但值班人员在睡梦里都听得见大坝不堪重负的吱嘎声。 </p>
+<p>那几年，我去参加了很多场次的论坛，也听了不少内部座谈会的研讨，反复提及的一个话题是，<strong>在溃坝与泄洪之间，如何选择。</strong></p>
+<p>后来的事我们都知道了，犹豫几年之后，监护人在2020年8月和12月分别祭出了终极大杀器：房企融资三道红线、银行放贷两条红线。——终究还是主动刺破了泡沫。 </p>
+<p>但即使如此，<strong>各大房企居然无动于衷，</strong>几个月之后的2021年一季度土地集中出让，他们还在拼命高价抢地！并购也没停止。 </p>
+<p>这里插句话，12月3日，国投证券首席经济学家高善文有篇演讲刷了屏。他认为，2021年是房地产泡沫破灭的一年。这个观点与我的观察是一致的。 </p>
+<p>两年后，我问一位房企高管：你要是监护人，看到这种情况会怎么想，怎么做？他嗫嚅半晌，憋出一句：肉食者谋之，又何间焉。 </p>
+<p>但实际上，政策松动的信号在当年年底就发出了。2021年12月中央经济工作会议提出，支持商品房市场更好满足购房者的合理住房需求。然后是2022年各地楼市政策的全面大转弯，基调是，松绑、支持和鼓励。集中体现为当年11月监护人发布的“金融16条”。</p>
+<p>这一轮的房地产调整，持续了近4年，到今年四季度才初现止跌的迹象。我问过几位房企高管，如果监护人当时不主动刺破泡沫，楼市会怎么走？其中一位央企高管认为，那时没几个人意识到了危机就在眼前，他说：（如果不主动刺破泡沫）大概率会继续疯狂下去，直到自己崩溃。</p>
+<p>所以，问题就在于，是主动刺破泡沫，还是任其自我崩溃，哪个才是最优解？从而，哪个选择的伤害最小（最大）？ </p>
+<p>如果真要反思，可能有两点：一是2015-2016年以棚改的名义，居民部门加杠杆。导致的结果，不仅一二线城市加速上涨，更重要的是全国三四线城市房价翻番，产生了严重的后果。二是2021年以来房地产的深度调整，对经济的影响，对投资和消费的影响，有这么大的杀伤力，监护人没有想到也没有预案。 </p>
+<p>2022年12月中央财办副主任韩文秀在详解中央经济工作会议时说了一句：防止（政策）合成谬误。</p>
+<p>就房地产而言，曾经是存在一个“房地产调控部际联席会议”，但很难说，这么一个非正式的磋商机构，就一定起到了防止房地产政策合成谬误的作用。 </p>
+<p>有些文件，是几个监护人联合发布的，他们做了沙盘推演吗？不管是单独发布，还是联合会签，沙盘推演能预料到后来的结果吗？</p>
+<p>也许你会说，他们的初心是好的。但无数惨烈的案例告诉我们，无论是个人还是机构组织体，只问动机，不管结果，是很危险的。这就像现在很多网民用道德的放大镜来审查一切，令人不寒而栗。 </p>
+<p>当然，监护人是没有错的，他们呵护房地产的拳拳之心，日月可鉴。 </p>
+<p>有错的，只有房地产本身，这是它与生俱来的“原罪”。所以，怎么痛骂，它都得受着。如今，房地产最大的错，是对经济增长形成了拖累。 </p>
+<p>20年前，中国社科院有位学者叫做易宪容， 他有一个判断，叫做“房地产绑架了中国经济”。 遭到一批专家和地产从业人员的围攻。由于争论太大，他所在的单位就不让他出来演讲了。 </p>
+<p>事实上，他说得太早了。2004年的房地产，还是个小学生呢。瞧瞧后来的规模。 </p>
+<p>20年后，我们又把投资和消费乃至于经济复苏的希望，再次投向了房地产。这么大的个头，你不能躺着，成为拖累，你得负轭向前。高质量发展，短时期也离不开钢筋水泥。 </p>
+<p>房地产，国家和人民需要你，争点气，雄起。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/-vBm5Fa7AnOduR3tbNg-iA" rel="noopener noreferrer nofollow" target="_blank">“攸克地产”</a>，作者：张一一，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3071000402686857</guid><pubDate>Mon, 09 Dec 2024 10:25:00 +0800</pubDate></item></channel></rss>
