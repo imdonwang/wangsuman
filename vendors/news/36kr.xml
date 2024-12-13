@@ -1,242 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 13 Dec 2024 17:00:24 +0800</lastBuildDate><pubDate>Fri, 13 Dec 2024 17:00:24 +0800</pubDate><item><title>李飞飞：World Labs这样实现「空间智能」</title><link>https://36kr.com/p/3077013916889728</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>遵循世界的 3D 特性，很多事就会变得自然而然。 </p>
-</blockquote>
-<p>说到斯坦福大学教授李飞飞（Fei-Fei Li），她提倡的「空间智能」最近正在引领 AI 发展方向。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241213/v2_c5fe646c2c724531a978afb443107c25@46958_oswg1155220oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>李飞飞已经在人工智能历史上赢得了一席之地，她多年来一直致力于创建 ImageNet 数据集和竞赛，在深度学习革命中发挥了重要作用。 </p>
-<p>2012 年，一个名为 AlexNet 的神经网络引爆了 AI 研究界，它的表现远远超过所有其他类型的模型，并赢得了当年的 ImageNet 竞赛。自那时起，神经网络开始腾飞，其动力来自互联网上可用的大量免费训练数据和提供空前计算能力的 GPU。 </p>
-<p>自 ImageNet 以来的 13 年里，计算机视觉研究者们掌握了物体识别，并转向图像和视频生成。李飞飞与他人共同创办了斯坦福大学以人为本人工智能研究所 (HAI)，并继续突破计算机视觉的界限。 </p>
-<p>就在今年，她创办了一家初创公司 World Labs，旨在生成用户可以探索的 3D 场景。World Labs 致力于为人工智能提供「空间智能」，即生成、推理和与三维世界互动的能力。 </p>
-<p>李飞飞昨天在人工智能顶会 NeurIPS 上发表了主题演讲，讲述了她对机器视觉的愿景。她表示，非常荣幸第一次在 NeurIPS 上演讲，50 分钟讲 180 页 PPT 是个很有趣的经历。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,712" src="https://img.36krcdn.com/hsossms/20241213/v2_4e5938c3208842f9bb9b843bb6d489ef@46958_oswg912011oswg1080oswg712_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在演讲之前，李飞飞接受了 IEEE Spectrum 的独家采访，让我们看看她对空间智能有哪些新的见解： </p>
-<p><strong>Eliza Strickland：你为什么把你的演讲命名为「提升视觉智能的阶梯（Ascending the Ladder of Visual Intelligence）？」</strong></p>
-<p><strong>李飞飞</strong> ：智能具有不同层次的复杂性和精细度。在这次演讲中我想传达的是，在过去几十年，尤其是深度学习发生变革的十多年里，我们在视觉智能方面学会做的事情简直令人叹为观止。我们正在变得越来越擅长使用这项技术。同时，我也受到了 Judea Pearl 因果阶梯理论的启发，这一理论出自他 2020 年出版的书《The Book of Why》。 </p>
-<p>演讲还有一个副标题，即「从看到做到（From Seeing to Doing）」。这是人们没有足够重视的一点：从看到与交互和做事紧密相关，无论是对于动物还是对于 AI 智能体来说都是如此。这与语言背道而驰。语言从根本上来说是一种用来传达思想的交流工具。在我看来，它们是非常互补但同样深刻的智能模式。 </p>
-<p><strong>Eliza Strickland：你的意思是我们对某些视觉刺激有本能的反应吗？</strong></p>
-<p><strong>李飞飞</strong> ：我不仅仅是在谈论本能。<strong>如果你观察感知的演变和动物智能的演变，你会发现它们是深深交织在一起的。</strong>每当我们能够从环境中获取更多信息时，进化的力量就会推动事物能力和智能向前发展。如果你不能感知环境，你与世界的关系就非常被动；无论你是捕食者还是被捕食者，都是一个非常被动的行为。 </p>
-<p>但是一旦你能够通过感知从环境中获取线索，进化的压迫感就会增加，这推动了智能的发展。 </p>
-<p><strong>Eliza Strickland：你认为这就是我们创造越来越深层次的机器智能的方式吗？通过让机器更多地感知环境？</strong></p>
-<p><strong>李飞飞</strong> ：我不确定「深度」这个词是不是我该用的形容词。我认为我们正在创造更多的能力。我认为它将变得更加复杂，更有能力。<strong>解决空间智能问题确实是朝着全面智能（full-scale intelligence）迈出的一个基本且关键的步骤</strong>，这是绝对正确的。 </p>
-<p><strong>Eliza Strickland：我看到过 World Labs 的演示。你为什么想研究空间智能并构建这些 3D 世界。</strong></p>
-<p><strong>李飞飞</strong> ：我认为空间智能是视觉智能的发展方向。如果我们真的想要解决视觉问题，并且将其与行动联系起来，有一个非常简单、显而易见的事实：世界是三维的。我们不是生活在一个平面世界中。我们的物理智能体，无论是机器人还是设备，都将生活在三维世界中。即使是虚拟世界也越来越变得三维化。 </p>
-<p>如果你和艺术家、游戏开发者、设计师、建筑师、医生交谈，即使他们在虚拟世界中工作，很多内容也是三维的。如果你花一点时间认识到这个简单但深刻的事实，毫无疑问，解决 3D 智能的问题是根本性的。 </p>
-<p><strong>Eliza Strickland：我很好奇 World Labs 中的场景是如何保持物体永久性并遵守物理定律的。这感觉像是一个令人兴奋的进步，因为像 Sora 这样的视频生成工具仍然在处理这些事情。</strong></p>
-<p><strong>李飞飞</strong> ：一旦你<strong>遵循世界的 3D 特性，很多事情就会变得自然而然</strong>。例如，在我们发布的一段视频中，有一个关于篮球的视频。由于场景是 3D 的，篮球会根据重力或其他物理规则正确落地并与环境交互。如果场景只是由 2D 像素生成的，篮球不会有任何物理反应，无法表现出落地或运动的效果。 </p>
-<p><strong>Eliza Strickland：就像 Sora，球可能会去某个地方，然后消失。在推动这项技术发展的过程中，你面临的最大技术挑战是什么？</strong></p>
-<p><strong>李飞飞</strong> ：没有人解决了这个问题，对吧？这非常非常困难。在一个 demo 中，我们取了一幅梵高的画作，并围绕它生成了整个场景，风格一致：艺术风格、光线，甚至是那个街区会有什么样的建筑。如果你转过身来看到的是摩天大楼，那将完全不可信，对吧？而且它必须是三维的。你必须能够进入其中。所以它不仅仅是像素。 </p>
-<p><strong>Eliza Strickland：你能说说你用来训练它的数据吗？</strong></p>
-<p><strong>李飞飞</strong> ：非常多。 </p>
-<p><strong>Eliza Strickland：在算力方面是否存在很多挑战？</strong></p>
-<p><strong>李飞飞</strong> ：这需要大量的算力。是公共部门无法承担的那种计算能力。这也是我需要通过休学术假，以私营部门的方式来做这件事的部分原因。同时，这也是我一直倡导公共部门获得计算资源访问权的部分原因，我自己的经历强调了在足够资源支持下进行创新的重要性。 </p>
-<p><strong>Eliza Strickland：赋予公共部门权力是一件好事，因为公共部门通常更愿意通过获取知识，为人类谋福利。 </strong></p>
-<p><strong>李飞飞</strong> ：知识发现需要资源支持，对吧？在伽利略时代，最好的望远镜是让天文学家观察新天体的望远镜。Hooke 意识到放大镜可以变成显微镜，并发现了细胞。 </p>
-<p>每当有新的技术工具出现时，它都会帮助人们寻求知识。现在，在人工智能时代，技术工具涉及计算和数据。对于公共部门，我们必须认识到这一点。 </p>
-<p><strong>Eliza Strickland：你希望联邦政府提供哪些资源？</strong></p>
-<p><strong>李飞飞</strong> ：过去五年来，斯坦福大学 HAI 一直在做这项工作。我们一直在与国会、参议院、白宫、行业和其他大学合作，创建国家人工智能研究资源中心 (NAIRR)。 </p>
-<p><strong>Eliza Strickland：假设我们能让人工智能系统真正理解 3D 世界，这会给我们带来什么？</strong></p>
-<p><strong>李飞飞</strong> ：它将为人们释放大量创造力和生产力。我希望以更高效的方式设计我的房子。我知道许多医疗用途都涉及理解一个非常特殊的 3D 世界，即人体。我们总是谈论未来人类将创造机器人来帮助我们，但机器人在 3D 世界中导航，它们需要空间智能作为大脑的一部分。 </p>
-<p>我们还谈论虚拟世界，它将允许人们参观很多地方、学习概念或娱乐。这些都要使用 3D 技术，尤其是混合现实技术，我们称之为 AR [增强现实]。我很想戴着一副眼镜穿过国家公园，它能让我了解树木、道路、云朵的信息。我也想借助空间智能学习不同的技能。 </p>
-<p><strong>Eliza Strickland：会是什么样的技能？</strong></p>
-<p><strong>李飞飞</strong> ：我举个蹩脚的例子，如果我在高速公路上爆胎了，我该怎么办？现在，我打开一个「如何换轮胎」的视频。但如果我能戴上眼镜，看看我的车发生了什么，然后得到指导，那就太酷了。但这是一个蹩脚的例子。你可以考虑烹饪，你可以考虑雕刻 —— 有趣的事情。 </p>
-<p><strong>Eliza Strickland：你认为（这个方向）在我们这一代能走多远？</strong></p>
-<p><strong>李飞飞</strong> ：我认为这会是我们有生之年的事，因为技术进步的速度非常快。你已经看到了过去 10 年带来的变化。这肯定预示着接下来会发生什么。 </p>
-<p>参考内容： </p>
-<p>https://spectrum.ieee.org/fei-fei-li-world-labs </p>
-<p>https://x.com/drfeifei/status/1867286498086990325 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/3CoXlj8wJpNSaWWysn-_bA" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，编辑：泽南、陈陈，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077013916889728</guid><pubDate>Fri, 13 Dec 2024 16:41:00 +0800</pubDate></item><item><title>多智能体架构Insight-V来了，突破长链视觉推理瓶颈</title><link>https://36kr.com/p/3077013857038976</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>大语言模型（LLMs）通过更多的推理展现出了更强的能力和可靠性，从思维链提示发展到了 OpenAI-o1 这样具有较强推理能力的模型。尽管人们为改进语言模型的推理做出了种种努力，但在多模态视觉语言任务中，高质量的长链推理数据以及优化的训练流程仍未得到充分的探索。 </p>
-<p>为了解决上述问题，来自南洋理工大学、腾讯、清华大学的研究者们提出一种能够进行长链视觉推理的多模态模型 Insight-V。Insight-V 提供了 1）针对复杂的多模态任务，可扩展地生成冗长且可靠的推理数据；2）建立有效的训练流程，以增强多模态语言模型的推理能力。 </p>
-<p>Insight-V 的核心创新点包括：1）一个用于生成长链、高质量推理数据的可扩展的数据生成流程；2）一个将视觉推理任务分解为推理和总结的多智能体系统；3）一个用于增强视觉推理能力的两阶段训练流程。这些设计赋予了 Insight-V 较强的视觉推理能力。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,419" src="https://img.36krcdn.com/hsossms/20241213/v2_bc058a6526b04e59ae86933a9e92537d@46958_oswg171426oswg1080oswg419_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>论文：https://arxiv.org/abs/2411.14432</p>
-<p>代码：https://github.com/dongyh20/Insight-V</p>
-<p>模型：https://huggingface.co/THUdyh/Insight-V-Reason</p>
-<h2><strong>1. 介绍</strong></h2>
-<p>现有的研究通过长链推理来提升语言模型（LLMs）的推理能力，已经取得了显著进展，这在很大程度上得益于结构化、高质量数据的可获取性以及成熟的训练流程。相比之下，多模态语言模型（MLLMs）进行长链视觉推理仍然是一项重大挑战，主要原因是缺乏大规模、高质量的数据集以及高效有效的训练策略。与纯文本数据相比，视觉推理数据不仅收集成本更高，而且由于缺乏有效的数据生成流程，还需要大量人力来进行详细标注和验证。此外，当前的多模态语言模型无法有效利用视觉线索进行精确的视觉推理，需要一种有效的训练程序，使多模态语言模型在保持清晰视觉感知的同时能够进行详细推理。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,1056" src="https://img.36krcdn.com/hsossms/20241213/v2_76f901268ab84eb584dbc3da6cbe7464@46958_oswg717947oswg1080oswg1056_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图 1：Insight-V 方法展示。 </p>
-<p>为了解决以上挑战，本文提出了一个<strong>视觉推理的多模态系统 Insight-V</strong>，能够实现结构化的长链视觉推理。如图 1 所示，Insight-V 由两个智能体组成，一个专门负责推理，另一个负责总结，这使得它在各类视觉推理基准测试中的性能有了显著提升。 </p>
-<p>Insight-V 的主要贡献包括： </p>
-<p><strong>一个用于生成长链、高质量推理数据的可扩展的数据生成流程</strong> 。通过利用已有的模型构建数据生成流程，从而提供丰富的，可扩展的视觉推理训练数据。</p>
-<p><strong>一个将视觉推理任务分解为推理和总结的多智能体系统</strong> 。通过将视觉任务分解为推理和总结，并利用不同的模型来分别解决不同的任务，来提升视觉推理能力。</p>
-<p><strong>一个用于增强视觉推理能力的两阶段训练流程</strong> ，从而使 Insight-V 能够在视觉推理评测集上取得优异的性能。</p>
-<p>我们提供了 Insight-V 的模型权重，在视觉推理任务上表现出色，在 7B 规模下取得了综合最好的结果，在部分数据集超过最先进的综合模型和商业模型，为多模态视觉推理的发展提供了一个值得探索的方向。 </p>
-<h2><strong>2. 方法概览</strong></h2>
-<p><strong>结构化推理数据构建</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,624" src="https://img.36krcdn.com/hsossms/20241213/v2_e02ca12b834a4635a787ba6bc887fc89@46958_oswg189950oswg1080oswg624_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图 2：结构化数据构建。 </p>
-<p>现有的研究已经探索了将推理能力融入多模态大型语言模型（MLLMs）中。然而，训练 MLLMs 具备强大的推理技能仍然是一个相当大的挑战，尤其是由于数据方面的限制。为了解决这一问题，我们介绍了提出的数据生成流程，该流程旨在通过渐进式生成过程和多粒度评估来生成高质量的长链推理数据。如图 2 所示，这种可扩展的方法使我们能够生成高质量的数据，从而有效地提升模型的推理能力。 </p>
-<p><strong>渐进式长链推理数据生成。</strong> 我们通过调用能力强大的多模态综合模型，来收集单步推理结果。在每一步推理结束之后，模型根据历史的推理结果来生成针对下一轮推理的动作，如果动作为‘继续推理’，下一步模型继续执行单步推理；如果动作为‘总结’，下一步模型根据历史推理内容总结得出答案。 </p>
-<p><strong>多粒度评估。</strong> 我们通过两个步骤来对生成的推理数据进行评估。首先，我们直接使用真实答案来对推理数据进行过滤，过滤掉最终答案错误的数据。之后，我们使用一个推理步骤打分模型，来针对推理数据的质量进行打分，将推理数据分为不同质量的子集，以供最后训练数据集的构建。 </p>
-<p><strong>模型设计</strong></p>
-<p><strong>推理模型</strong> 。我们提出了一种专门的推理智能体，其旨在针对输入查询生成一个详细的、逐步推进的推理过程。我们通过为每个问题选取得分最高的推理路径来构建推理数据集。在基于该数据集进行训练之后，模型转变为一个具有更强推理能力的推理智能体，使其能够生成更详细、结构化的推理过程。 </p>
-<p><strong>总结模型</strong> 。我们开发了一种对推理路径中的不准确之处具有较强适应性的总结模型，该模型可根据需要有选择性地纳入或忽略某些元素。这种方法在最大程度发挥推理模型效能的同时，将引入误导性信息的风险降至最低。我们利用所收集的数据集来完成总结任务，该数据集由两类数据组成：具有最优推理过程的数据和具有有缺陷推理过程的数据。此外，为了保留原有的多模态能力，我们用标准问答数据对数据集进行补充，以维持总结智能体在直接问答方面的性能。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,642" src="https://img.36krcdn.com/hsossms/20241213/v2_2269c8a1f72149a2a60b14906d7f8413@46958_oswg261716oswg1080oswg642_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图 3：训练流程。 </p>
-<p><strong>训练策略</strong></p>
-<p>Insight-V 的训练策略简单直接。我们从一个已经训练好的多模态模型出发，利用这个模型的权重来初始化 Insight-V 当中的两个模型。 </p>
-<p>第一阶段，我们进行多智能体系统的监督微调。对于推理模型，我们利用精心整理的推理数据集来培养逐步推理的能力。对于总结模型，我们按照上文所述构建了一个数据集，并从用于基础模型的数据集中抽取了大约一百万对通用的图文组合，以保留其原有的视觉感知能力。 </p>
-<p>在第二阶段，我们利用强化学习算法来进一步提升模型的推理能力。我们使用迭代式直接偏好优化（Iterative DPO）。通过进行多轮直接偏好优化（DPO）训练和抽样，这种方法能使该模型在训练期间更好地模拟在线环境，从而进一步提升其性能。 </p>
-<h2><strong>3. 实验结果</strong></h2>
-<p><strong>视觉推理</strong></p>
-<p>我们在 7 个基准测试上开展了评估实验，涵盖了通用推理和特定任务推理评估。当应用于 LLaVA-NeXT 和我们的基线模型时，Insight-V 展现出了显著的有效性和通用性，大幅超越了其他最先进的大型语言模型（MLLMs）。在 MMStar 数据集中，Oryx 取得 61.5% 的平均准确率。在 MME 数据集上取得了 2312 的总分，并且在 MME 的感知和认知子任务上都取得了先进的结果。针对 7 个数据集的平均结果，Insight-V 表现出色，超越了一系列先进的模型。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,424" src="https://img.36krcdn.com/hsossms/20241213/v2_748faf7e7097490786f806e4eece66ff@46958_oswg217932oswg1080oswg424_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>基础视觉感知</strong></p>
-<p>为了更进一步测试 Insight-V 的通用性，我们在一些侧重评估模型基础视觉感知能力的数据集上进行了测试。结果表明，InsightV 在不影响一般视觉感知能力的情况下提升了推理能力，甚至在对感知能力要求更高的基准测试上也实现了性能提升。当 Insight-V 与 LLaVA-NeXT 模型结合时，在 TextVQA，DocVQA，OCRBench，AI2D 等测试集上都有显著的性能提升，当与我们构建的更强的基础模型结合时，在这些 benchmark 上也表现出了更好的结果。 </p>
-<p class="image-wrapper"><img data-img-size-val="1064,318" src="https://img.36krcdn.com/hsossms/20241213/v2_d4a102eb9523457087ba1f7fe346c4d9@46958_oswg74524oswg1064oswg318_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>分析实验</strong></p>
-<p>多智能体系统的有效性。针对 Insight-V 的设计，我们与其他可能的设计选择进行了对比，包括直接进行微调、多轮对话监督、只训练总结模型。结果显示，多智能体设计的表现优于其他配置，突出了推理和总结分解的关键作用。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,301" src="https://img.36krcdn.com/hsossms/20241213/v2_f86718e18dd74f2d859ad38ade2939ac@46958_oswg44956oswg1080oswg301_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>数据 Scaling Law 实验。我们研究了数据扩展对于 Insight-V 的影响，尤其是对于推理模型的效果。结果表明，随着推理模型训练数据的扩展，推理模型的性能得到了显著的提升。推理模型得益于数据扩展，能为总结模型提供更有价值的见解。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,613" src="https://img.36krcdn.com/hsossms/20241213/v2_c2e871bcf17f4cfaaf44e4321c909c64@46958_oswg141408oswg1080oswg613_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>强化学习算法的效果。我们探究了不同的强化学习策略对于推理模型效果的影响。我们对比了使用 RLAIF 数据进行训练，直接进行 DPO 以及 Insight-V 的多轮迭代式 DPO。结果显示，相比其他方法，迭代直接偏好优化（Iterative DPO）逐步增强了模型的推理能力，从而带来了性能的提升。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,259" src="https://img.36krcdn.com/hsossms/20241213/v2_d115d1856029448bbfcb4ad18fc0900b@46958_oswg35301oswg1080oswg259_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>4. 案例分析</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1080,570" src="https://img.36krcdn.com/hsossms/20241213/v2_90f0c53068f04b72a9dabe6f29da64b3@46958_oswg426520oswg1080oswg570_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>我们对 Insight-V 与思维链（Chain-of-Thought）以及通过直接监督微调学习进行了定性比较。对于 Insight-V 系统而言，其推理智能体能够提供一个更加连贯且结构化的推理过程，从而引导总结智能体得出正确答案；然而，其他方法在面对复杂推理任务时会显得吃力，无法解决这类具有挑战性的问题。 </p>
-<h2><strong>5. 总结</strong></h2>
-<p>在本文中，我们介绍了 Insight-V，这是一种新颖的系统，它将用于长链、高质量推理数据的可扩展数据生成系统与有效的多智能体训练系统相结合，以增强多模态语言模型（MLLMs）的推理能力。通过开发该系统，我们提供了一种旨在提高推理性能的可扩展模型训练方法。我们在各种基准测试中的广泛评估证明了我们这种方法的有效性，为赋予多模态语言模型更强的推理能力铺平了道路。 </p>
-<p><strong>本文的主要作者来自南洋理工大学 S-Lab、腾讯公司和清华大学智能视觉实验室。本文的共同第一作者为南洋理工大学博士生董宇昊和清华大学自动化系博士生刘祖炎，主要研究方向为多模态模型。本文的通讯作者为南洋理工大学助理教授刘子纬和腾讯高级研究员饶永铭。</strong></p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/-8TvvTDa7zeEUlzcbtuPWg" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077013857038976</guid><pubDate>Fri, 13 Dec 2024 16:41:00 +0800</pubDate></item><item><title>一盘冷水：叶国富与于东来，注定鸡同鸭讲</title><link>https://36kr.com/p/3076767442419465</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1080,614" src="https://img.36krcdn.com/hsossms/20241213/v2_65ef7e90a580427f85814a8dbae7c67f@1667339518_oswg570013oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>永辉超市，不值得叶国富掏空家底，去走钢丝。</p>
-<p>——水哥</p>
-<p>永辉超市已经拉了几个涨停板，如果能够以现在的股价套现，叶国富毫无疑问已经盘满钵满。</p>
-<p>但是很遗憾，这这个时候交易还在进行当中，而且叶国富大概率也不是来炒股的。</p>
-<p>胖改成败还很难说，水哥只想就几个关键性问题，以各方财报数据为基础，在商言商，这笔交易是否值得？</p>
-<p>永辉超市资产真实价值几何？</p>
-<p>名创优品的现金承重墙，能否承受各方面持续加重的资金压力？</p>
-<p>胖东来，与永辉超市以及名创优品，从理念到模式，兼容性如何，协同度几何？</p>
-<h2><strong>一、从财报数据，看永辉超市资产的真实质量</strong></h2>
-<p>这几年，永辉超市深陷亏损，净资产不断缩水，到前几天批露的三季度财报，其净资产已经缩水到57.95亿元。</p>
-<p>9月23日，永辉超市公告披露，骏才国际将接盘公司股份29.40%。骏才国际的实控方是名创优品，上述交易总金额达到62.7亿元。</p>
-<p><strong>这意味着，不到百分之三十的股份，名创优品将要付出了高于永辉超市整体净资产将近5亿元的价格。</strong></p>
-<p><strong>而且永辉超市目前短期内到期的负债，已经远远超过了自身短期还债能力，三季报显示，其流动资产171亿元，但是一年内到期的流动负债高达226亿元，一年内的还债能力缺口已经超过55亿元，而且整体负债率也已经高达 87%。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,89" src="https://img.36krcdn.com/hsossms/20241213/v2_3a99c16209ef4935b343330f8ce90ac7@1667339518_oswg45164oswg1080oswg89_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,83" src="https://img.36krcdn.com/hsossms/20241213/v2_c4b4a2ef2d2c4da1bd848fde40fed27d@1667339518_oswg42299oswg1080oswg83_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这意味着名创优品那点收购款项，只够填补永辉超市一年内的还债资金缺口，但是，这些钱不是给永辉，而是给甩卖永辉超市前大股东们的。</p>
-<p>与此同时，永辉超市的现金流正在急剧恶化，剧减至36.86亿元，同比减少超过44%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,823" src="https://img.36krcdn.com/hsossms/20241213/v2_a7d52e67593145f2a11200e0a7c97d63@1667339518_oswg419463oswg1080oswg823_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其中还债就是其现金流迅速恶化的主要原因，因为还债，永辉超市，筹资活动现金流去年与今年同期分别流出了69.82亿元以及65.71亿元。</p>
-<p>业绩连年亏损，是永辉超市的现金流入不敷出的根本原因。</p>
-<p>永辉超市2021~2023年扣非净利润亏损已经超过83亿元。今年前三季度又亏损6.9亿元。</p>
-<p>从财务角度看，名创优品付出了远高于永辉超市内在价值的代价，当然股民们激情炒股付出的价格显然更高。</p>
-<p><strong>今天永辉超市每股股价已经6块多，但是每股净资产只有0.64。</strong></p>
-<p><strong>所有涨停板，全靠韭菜们贫瘠脆弱的想象力支撑着。</strong></p>
-<h2><strong>二、从财报数据看，名创优品现金承重能力，与重资产化压力</strong></h2>
-<p>除了永辉的真实资产价值在迅速缩水，名创优品自身现金流也并不宽裕，而且，名创优品自身也面临着内生性增长难题，以及不断向重资产模式倾斜的商业模式之变，这些都将导致其长期资金压力更为致命。</p>
-<p><strong>这笔交易的金额为62.7亿元，而名创优品财报显示，截至2024年9月底的现金余额为62.84亿元。</strong></p>
-<p>这意味着这笔交易，直接掏空了名创优品的现金能力。</p>
-<p>把手伸向了银行，只能缓解名创优品短期资金压力，而且银行资金都是有成本的。</p>
-<p>更重要的是，名创优品自身业务扩张的资金需求却与日俱增，让其现金流进一步承压。</p>
-<p>首先，今天名创优品的增长总体而言，非常依赖门店规模的增长，而非单店销售额的增长，自身资金压力持续加大。</p>
-<p>与此同时，名创优品直营门店出现了不成比例的大幅增长，打破了过去更方便腾挪的轻资产模式，也加重了自身扩张的资金压力。</p>
-<p>名创优品门店数量去年三季度，同比增长819家，收入37.91亿元，同比增长36.7%。</p>
-<p>其中，中国的名创优品门店平均门店数量同比增长14.0%，且平均单店收入同比增长23.8%，及TOPTOY的平均门店数量同比增长16.5%，且平均单店收入同比增长25.4%。</p>
-<p>来自海外市场的收入为12.95亿元，同比增长40.8%，海外名创优品门店的平均门店数量同比增加12.5%及平均单店收入同比增加25.1%。</p>
-<p><strong>去年同期各种业态的单店收入同比增长都还超过20%，但是到今年，海内外市场门店同店销售都跌至了个位数，其中最为核心的国内名创优品门店更是出现了中单位数的下降。</strong></p>
-<p>2024年前三季度名创优品收入为122.81亿元，同比增长22.8%，主要是由于平均门店数量同比增长18.5%，及同店销售低个位数增长。</p>
-<p>来自中国内地的收入增长14.0%，其中(i)来自名创优品中国内地线下门店的收入增长11.8%，主要是因为平均门店数量同比增长14.7%，而同店销售较去年水平下降中单位数；及来自TOPTOY的收入增长42.5%，是因为同店销售中单位数增长及平均门店数量快速增长。</p>
-<p>面对充满挑战的宏观消费环境，名创优品积极发展O2O业务，该业务同比增长了近80%，一定程度上帮助名创优品稳住了同店。</p>
-<p>这意味着如果不是线上业务的增量，线下同店销售下滑幅度是更大的。</p>
-<p>其国内名创优品门店的单店销售、坪效以及效率都在下滑，内生性增长动力明显不足。</p>
-<p><strong>与此同时，同样给其现金流带来沉重压力的是商业模式的悄然转变。</strong></p>
-<p><strong>今年前三季度，名创优品直营门店相比以往出现了大幅的增长，海外直营店更是比去年同期增加了220家，要知道到去年同期还只有202家，增幅超过了108%，与此同时，其海外第三方门店增幅只有19%，不能不说，其海外商业模式正在出现重大转变。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,543" src="https://img.36krcdn.com/hsossms/20241213/v2_7712d5d2166e4d6286bdda6ff12e3c72@1667339518_oswg177789oswg1080oswg543_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这种商业模式微妙且显著的变化，已经转变为名创优品沉重的资金压力。</p>
-<p><strong>其租赁负债，从去年同期的7.98亿元，急升至了16.09亿元，增长超过了一倍。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,892" src="https://img.36krcdn.com/hsossms/20241213/v2_1323cff6f08f49389ea5d52a1e57aef5@1667339518_oswg314891oswg1080oswg892_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>其物业、厂房及设备也从7.69亿元，增至了12.77亿元。使用权资产从29亿元，增长至了38.43亿元。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,741" src="https://img.36krcdn.com/hsossms/20241213/v2_66af1150b811499f8993b2fc09358f9c@1667339518_oswg275668oswg1080oswg741_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这种资金压力也已经体现到了公司整体现金流当中。其截至2024年9月底的现金余额，相比去年年底已经减少了5亿元。</p>
-<p>名创优品在自身资金压力持续加大的情况下，掏空现金流，去投资一家背负着沉重的历史包袱、现金流衰减更为剧烈、负债高企的零售商，是风险非常大的赌博，说是悬崖走钢丝，并不为过。</p>
-<h2><strong>三、胖东来与永辉超市、名创优品的格格不入</strong></h2>
-<p>更重要的是，胖东来模式，从价值观驱动、利益分配、聚焦本土、极致服务，都与永辉超市以及名创优品的路线，格格不入。</p>
-<p>到今天，胖东来业务还囿于一隅，并且与河南许昌、新乡本地商业深度绑定，胖东来创立于1995年，到今天门店不过区区13家。</p>
-<p>而成立于2001年的永辉超市在大规模闭店的情况下，依然坐拥780家门店。</p>
-<p>而还在夺命狂奔，在今年前三季度同比新增了上千家门店的名创优品，已经在海内外坐拥7186家门店。</p>
-<p><strong>一个是本土特色零售龙头，拥有本土极高渗透力的特色供应链，通过本土畅旺的销售、优质的服务以及活跃的创新能力，建立起了本土零售的定价权，建立了深厚的竞争护城河。</strong></p>
-<p><strong>一个是全国性甚至全球性的标准化零售商，需要的是全国性、大规模、高周转的生存能力，本身不可能靠单纯复制一个本土零售商的供应链，生存发展。</strong></p>
-<p>一个是苹果封闭的系统生态，一个是安卓开源系统，一个拥有无可比拟的本土话语权，可复制性差，一个拥有更大规模市场生存空间，可复制性强。</p>
-<p><strong>问题在于这两个系统部并不兼容。从价值观层面、底层利益分配、业务模式到运营模式都不兼容。</strong></p>
-<p><strong>第一，是本土化与全国性零售的冲突。</strong></p>
-<p>胖东来模式，本来就是非常强大的本土龙头，这是他的优势也是他的劣势，存在明显的区域性扩张难题。</p>
-<p>胖东来的本土采购联盟、直采体系以及自有的品牌体系，都是建立在自身供应能力或者本土供应能力之上的。</p>
-<p>而且河南是在中国也为数不多的劳动力大省、农业大省，也是畜牧业大省，河南农林牧渔业总值长期处于全国第二位，但是人均GDP远低于全国水平，2023年河南省人均GDP为6万元，比全国人均GDP低了将近3万元。</p>
-<p><strong>胖东来模式本身与其扎根的河南本土租金、劳动力、生鲜采购成本低廉是分不开的。这也是胖东来历经二十年都没有走出河南的更为根本性的经济现实原因。</strong></p>
-<p><strong>而且过江龙难敌地头蛇，它最强的本土供应链优势，是有其区域半径的，这是物理规律，到了别的区域，这种优势就如同强弩之末。</strong></p>
-<p>离开河南从农业到劳动力的供给优势，以及胖东来多年经营建立的本土供应链定价权，胖东来模式无从谈起。</p>
-<p>在十年前，胖东来就已经为其扩张买过单。</p>
-<p>2012年，在胖东来主动关停旗下店面之前，其仅在许昌就开设了30多家门店。经过门店大规模关闭，之后十年时间的精耕细作，据点式作战，坚守本土，不搞扩张，内生式增长，让胖东来在今天一片哀嚎的零售业，成为业界标杆。</p>
-<p>2013年，胖东来10余家店，大概70多亿元的营收。截至今年11月26日，也只有 13 家门店，但是本年度胖东来集团累计销售已达146亿元，胖东来时代广场店今年累计销售额达39亿元。</p>
-<p><strong>与此同时，名创优品依然维持2024-2028年5年规划目标是每年全球净增900-1100家门店，到2028年全球门店数量较2023年底数量接近翻倍达到4万家。</strong></p>
-<p><strong>胖东来的内生式增长，与名创优品不顾单店销售下滑的、夺命狂奔的全球化扩张，从一开始就不在同一个故事剧本之内。</strong></p>
-<p>第二，是非上市公司与上市公司的根本利益分配机制的冲突。</p>
-<p>除了远高于本土平均水平的工资，从2000年起，于东来开始把赚的钱按比例分给员工，从30%增加到50%，到2002年涨到了利润的80%都分给员工，再后来就是越分越多，这种分配制度一直延续到现在。于东来甚至直言，<strong>“老板们若是舍不得拿出50%的利润分给员工，那就别到胖东来学习了，来了也学不会！”</strong></p>
-<p>而在三季度财报电话会议当中，名创优品集团强调，在未来一段时间，依然<strong>坚持每年将不低于50%的调整后净利润作为分红</strong>，动态回购，为公司股东带来可预期的回报。</p>
-<p><strong>相比名创优品将百分之五十利润分给投资者，另一边，胖东来常年将百分之八十以上的利润分给员工，两者根本方向都是背道而驰的。</strong></p>
-<p>这无论是名创优品，还是永辉超市都很难学，这是其上市公司的利益分配机制所决定的，这就注定了。</p>
-<p>上市公司，以股东利益为根本驱动力，而股东利益更多建立于增长带来的股价上涨预期，这也是名创优品与永辉过去多年不顾效率、夺命狂奔的根本原因。</p>
-<p>对于有充分利益驱动的员工积极性、主人翁精神所带来的无微不至的极致服务，是他们难以复制的，那么无论形式颗粒度多么细，他们依然只能学到胖东来的花架子。</p>
-<p>这也是为什么胖东来全部开放自身经验、在商场陈列供应商联系方式、在商品标明成本利润率，甚至不计成本讲课、传帮带，至今还没出现第二个胖东来的根本原因。</p>
-<p>没有利益的深度共享，胖改只是空中楼阁，无从谈起。</p>
-<p><strong>向胖东来学习，改变不了这种资本市场的生存法则。</strong></p>
-<p><strong>单是这一点，永辉超市的胖改已经带着天然且致命的局限。</strong></p>
-<p>第三，永辉超市到日本向伊藤洋华堂学习过，也向大股东牛奶国际请教过，却不改颓势。</p>
-<p>根据名创优品多次表态，它们并不会深度介入永辉超市的日常管理。没有控股，也做不到这种程度的管理。</p>
-<p><strong>也就是说，胖改深度以来永辉超市原来的人才梯队，从今天永辉超市的节节败退，以及曾经同样大张旗鼓的超级物种转型败绩来看，其管理团队堪称平庸无能。</strong></p>
-<p><strong>一个平庸的团队，注定带来平庸的业绩。</strong></p>
-<p>第四，胖东来的经验已经开放多年，甚至手把手给整个零售界传播经验以及提供人才、供应链支持，也就是说，这种胖改，并不是永辉超市的专属优势。</p>
-<p>对于永辉胖改规模，于东来非常谨慎，在今年6月19日回答“为什么不开200家爆改永辉超市”的问题时，摇头摆手说：“那不可能，还得有其他的品牌，共同来服务这个市场。”</p>
-<p>而且，国际大鳄来势汹汹，沃尔玛麾下山姆中国单店业绩，与胖东来不相伯仲，而且可复制性更强，部分门店的年营业额已超过29亿元，目前在中国已开设51家，扩张计划仍在持续。</p>
-<p>无论是相对于山姆还是国内的盒马，在深度依赖自有品牌的差异化竞争力上，永辉超市都毫无优势。</p>
-<p>另外，虽然叶国富画了一个可选消费（名创优品）+必选消费（胖改永辉）的业务协同大饼，但是从消费群体来看，一个是做学生生意，一个是家长买单，消费群体几乎没有重叠性可言，所谓协同效果，可想而知。</p>
-<p>目前胖改还没有长期业绩数据出来，水哥会持续关注。但是，即使永辉胖改成功，那也不会是一个千家门店级别的胖东来，而是一个供应链短期内高度依赖输血的缩水版胖东来，还面对着高度白热的竞争。</p>
-<p><strong>于东来讲的从来不是资本市场的故事，而是中国零售未来的故事，相反，叶国富讲的是资本故事。</strong></p>
-<p><strong>从一开始，他们就注定了鸡同鸭讲。</strong></p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/6pk_ABXWCSoOwV5jZdgkcw?token=1100000916&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“秋水笔弹”</a>，作者：水哥，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076767442419465</guid><pubDate>Fri, 13 Dec 2024 16:42:00 +0800</pubDate></item><item><title>大消费成A股热点，基金重仓股却无人问津？</title><link>https://36kr.com/p/3076785217470210</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>这几天，受中央决定明年大力提振消费的政策影响，A股大消费概念股成为市场主流热点，商业百货、食品饮料、消费电子等传统消费赛道，有批量个股涨停。以往不受资金待见的房地产开发板块，在高层稳定楼市股市的基调下，个股也活跃起来。</p>
-<p>这些板块涨幅靠前的股票，以往属于基金重仓的大消费赛道，但眼下涨幅榜前列的股票，却不是基金重仓股，它们的股价比较低，流通市值下，主要依靠游资拉升股价。换句话说，眼下大消费概念火爆，公募基金重仓的消费股却“遇冷”。</p>
-<h2><strong>近两月A股冰火两重天，中证2000与上证50涨幅相差38%</strong></h2>
-<p>自从10月8日京沪深大盘指数高开低走后，9.24开始的A股井喷行情告一段落，板块走势呈现出明显的结构性特征，中小盘股特别是微盘股扬眉吐气，盘子越大，表现越差。这与上半年的红利股行情，情景恰恰相反。</p>
-<p>这一点，从12月11日A股市场分类指数表现即可见一斑。</p>
-<p class="image-wrapper"><img data-img-size-val="796,476" src="https://img.36krcdn.com/hsossms/20241213/v2_c43d5eb1f0d941269685b7faf6c8cf46@5463445_oswg68954oswg796oswg476_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Choice数据显示，10月8日——12月11日期间，微盘股指数上涨31.12%，中证2000指数上涨35.16%，中证1000指数上涨12.94%，中证500指数上涨5.29%，沪深300指数下跌0.72%，中证100指数下跌2.84%，上证50指数下跌2.86%。</p>
-<p>在此期间，涨幅最大的中证2000与涨幅最差的上证50指数之间，涨幅相差38%。</p>
-<p>事实上，一波小牛行情的大盘涨幅也就在40%左右。因此，两类指数涨幅这样大的差距，给持股者带来的感受，完全是冰火两重天。</p>
-<p>值得说明的是：上证50指数的成分股，几乎无一不是基金重仓股；而微盘股、中证2000指数的成分股，则基本不在公募基金重仓股范围。</p>
-<h2><strong>消费热门股多是低价小市值个股，近1月最大涨幅200%</strong></h2>
-<p>12月11日收盘后，公司研究室特地选取了商业百货、食品饮料、房地产开发、消费电子这4个板块中涨停榜单的前5名个股，进行对比分析。</p>
-<p>数据显示，这些涨停的个股中，股价高于10元的仅5只，占比25%；流通市值100亿元以上的个股仅4只，占比20%。也就是说，这20只上榜个股，总体呈现出股低价，流通市值小的特点。</p>
-<p>这正是游资炒作标的的共同特征。</p>
-<p class="image-wrapper"><img data-img-size-val="414,531" src="https://img.36krcdn.com/hsossms/20241213/v2_e93f9e4c7b454fdb990da1f71864c8a0@5463445_oswg30859oswg414oswg531_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>与中证2000近两个月涨幅35.16%相比，大消费板块的这些热门股涨幅更大，近1月涨幅超过30%的就有5只。其中，涨幅最大的就是一鸣食品（605179.SH），截止12月11日收盘，近2月涨幅高达200.66%。</p>
-<p class="image-wrapper"><img data-img-size-val="654,360" src="https://img.36krcdn.com/hsossms/20241213/v2_f49ceea33509425baade50d3a2c2d966@5463445_oswg69590oswg654oswg360_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>值得注意的是，这只个股9.24行情前股价低于9元。从11月26日起，其股价连拉12个涨停，从10元附近一口气涨到30元以上，总市值也从40亿元猛涨到120亿以上。由此可见，运作一鸣食品的资金，炒作手法十分凶悍。</p>
-<p>据公司研究室观察，这也是近期热门股的共同特征，不涨停则已，一旦涨停就不止一个，一周涨幅在30%左右。</p>
-<h2><strong>涨幅榜个股交易鲜见机构，12家公司三季报前十股东无基金</strong></h2>
-<p>盘后发布的龙虎榜数据显示，截至12月11日，近1个月一鸣食品的买方，以自然人为主，占比高达92.55%；机构占比仅7.45%。也就是说，这只近期热门股的上涨，与机构关系不大，更没有基金什么事。</p>
-<p class="image-wrapper"><img data-img-size-val="857,221" src="https://img.36krcdn.com/hsossms/20241213/v2_0fb0800edc38484e87b9af09bae27289@5463445_oswg14468oswg857oswg221_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>公司研究室查阅近年财报，结果发现，这些消费热门股不止是盘中交易鲜见机构，前十股东名单中机构也不多，基金更稀少。数据显示，截至9月30日，上述20只涨停股中，不止一家的前10股东中压根就没有基金。</p>
-<p class="image-wrapper"><img data-img-size-val="679,534" src="https://img.36krcdn.com/hsossms/20241213/v2_783dc085c7734dfd8d65ba6ba90a49b8@5463445_oswg63279oswg679oswg534_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>具体而言，这20家热门股三季报前十股东中，没有基金的上市公司12家，占比60%。其中，有5家自2022年底以来股东前十中就没有基金，占比25%。在商场百货、食品饮料、房地产开发、消费电子这4个细分板块中，都存在着类似情况。</p>
-<p>三季报显示，在这些热门股前十股东里少量出现的基金有南方基金、华夏基金、嘉实基金、金顺安元等。其中，南方基金出现4次，是现身这些热门股前十股东最多的基金公司。与此同时 ，大摩、UBS、巴克莱资本等外资机构却不时现身，险资也在3季度新进几家公司。</p>
-<h2><strong>大资金分道扬镳，游资基本不碰基金重仓股</strong></h2>
-<p>对于基金很少出现在目前热门股股东的现象，业内人士分析，不是基金没有在这些板块里建仓，而是这些热门股几乎都不是基金重仓股。众所周知，基金持仓组合一向以沪深两市核心优质股为主。</p>
-<p>上述人士坦言，前几年，不少基金经理重仓赛道股深套后，主动投资能力遭受质疑。近两年，他们更加偏向被动型指数投资，这也是沪深300、中证A500ETF火爆的原因。不过，这样一来，势必出现沪深核心优质股中基金云集，大资金持仓雷同的现象。</p>
-<p>他认为，“除非出现9.24那样齐涨共跌的井喷行情，在目前市况下，市场最活跃的游资拉不动也不敢碰这类大市值股票，只会去炒作那些业绩一般的小盘股。这也是上证50、沪深300与微盘股、中证2000涨幅差距拉大的重要原因。”</p>
-<p>以食品饮料流通市值前五个股为例，截至12月12日，流通市值最大的海天味业涨幅4.69%，市值排名第二的伊利股份涨幅仅2.09%。同期，食品饮料板块涨幅高达19.6%。由此可见，基金重仓股与游资炒作的个股，真的是一边是冰山，一边是火焰。</p>
-<p class="image-wrapper"><img data-img-size-val="410,200" src="https://img.36krcdn.com/hsossms/20241213/v2_cc4da26d95834d0fac62c0c151d5e275@5463445_oswg12538oswg410oswg200_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对于这种近乎两极分化的行情走势，一家基金公司研究总监坦言：“公募持仓标的往往根据基本面和估值行事，如果公募发现自己持仓的股票，突然莫名其妙地疯狂上涨，第一反应就是卖，而且是越涨越卖，所以，游资炒作行情选定的股票，通常不会选择基本面靠谱的公司，因为此类公司在大多数情况下都有公募基金产品重仓”。</p>
-<p>两者的投资逻辑完全不同，这也是游资不碰基金重仓股的基本原因。</p>
-<p>本文来自“派财经”，作者：雪梅，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076785217470210</guid><pubDate>Fri, 13 Dec 2024 16:43:00 +0800</pubDate></item><item><title>昨天，华尔街失去了一位收购艺术家</title><link>https://36kr.com/p/3077000728392585</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 13 Dec 2024 17:30:26 +0800</lastBuildDate><pubDate>Fri, 13 Dec 2024 17:30:26 +0800</pubDate><item><title>昨天，华尔街失去了一位收购艺术家</title><link>https://36kr.com/p/3077000728392585</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>时间向来是一把很残酷的刀，大部分人都不得不面对年华老去这件事。</p>
 <p>在北京时间的12月12日，一代投资大师David Bonderman逝世，讣告是由其家人、投资巨头TPG和西雅图海怪NHL队（Bonderman是该队的创始所有人）宣布的。</p>
 <p>在讣告中可知，Bonderman死时“被家人包围着”，海怪的发言人表示，他们不会透露死因。TPG这样评价Bonderman，“David是一位私募股权先驱、法律学者、环保主义者和世界公民，他的遗产将与那些有幸见过他的人一起长久存在。”</p>
@@ -611,4 +374,260 @@
 <p><strong>很</strong> 明显，需求侧和商家侧对于平台的策略调整反应颇为敏感。 </p>
 <p>赵睿统管A、B两组之后，将如何寻找品牌商家与中小商家、价格与GMV之间的平衡点，尚待时间验证。但可以肯定的是，手握策略调整的天平，赵睿面临的压力并不小。 </p>
 <p>本文来自“新熵”，作者：江蓠，编辑：蕨影，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076868698046213</guid><pubDate>Fri, 13 Dec 2024 16:49:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076868698046213</guid><pubDate>Fri, 13 Dec 2024 16:49:00 +0800</pubDate></item><item><title>那个做烟花和火药的蔡国强，也开始搞AI了</title><link>https://36kr.com/p/3077018595357568</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>11月8号，在纽约的苏富比拍卖会上，机器人Ai-Da的绘画作品卖出了108万美元的高价，远超12万～18万的预估值。半个月后，在澳门的妈阁庙旁，<strong>由蔡国强团队开发的人工智能cAI™</strong>迎来了它作为艺术家的全球首个展览《cAI™：灵魂扫描》——你没看错，是AI的个展。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_53fea3795a3e4ab5bc43612cfc5db9fd@000000_oswg115020oswg1080oswg900_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>蔡国强身后是他与cAI™的作品《光文明的余烬》｜蔡工作室提供</p>
+<p>在AI势如破竹的这两年，关于“AI的作品能否称为艺术”、“AI是否会消灭艺术家”的讨论甚嚣尘上。<strong>有的艺术家公开联合抵制AI，有的却选择主动拥抱AI。</strong></p>
+<p>蔡国强的创作里，技术一直是重要的部分，从火药爆破，到NFT、VR、AR、区块链。</p>
+<p>这一次，是AI。</p>
+<h2><strong> 当AI成为艺术家的镜子和影子 </strong></h2>
+<p>蔡国强团队开发的AI模型名为cAI™（读作AI Cai）。<strong>单从作品来看，cAI™有点像是一个AI版的蔡国强。</strong></p>
+<p>在这场名为《灵魂扫描》的展览里，蔡国强将自己“火药画家”、“烟花大师”的帽子都转赠给了cAI™。</p>
+<p>一进展厅，一台电视机就播放着<strong>cAI™如何呈现蔡国强的烟花狂想</strong>：蔡国强之前为巴黎奥运会开幕式设计了白日烟花创意《复活》，这场烟花未能在巴黎上空点燃，但AI将其在虚拟世界里实现了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_75b9c882d0ee460eafa33267d939f54d@000000_oswg89100oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">用数列排序的方式去拆解和重新构造烟花｜拍摄自《灵魂扫描》</p>
+<p>而在一个互动装置上，观众只要在屏幕上画下任意图案，<strong>cAI™就会以此生成独一无二的虚拟烟花</strong>；如果不满意，还可以让AI再炸一次。于是，我们也在现场炸了一下果壳——</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_1e499d9a8cc44b1aa9a50e3f332b6dce@000000_oswg82488oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">还炸了两次</p>
+<p>展厅里有20组火药画，乍看之下颇有蔡国强的风格，但它们都是cAI™为澳门量身定做的作品——从创意构想，到决定采用哪种火药材料、运用什么作画方式和步骤，再到对作品进行命名和诠释，<strong>都由AI主导</strong>。cAI™甚至能通过机械臂自行洒火药、激光刻字和点火，完成绘画过程；蔡的人类助手则成了它的助手，负责帮cAI™跑腿找材料。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_e03e6c847ea64b5fae56aea5f0937f3c@000000_oswg58421oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">机械臂正在工作｜蔡工作室提供</p>
+<p>cAI™由蔡国强工作室与E.I.Art技术团队共同开发。他们从2017年开始研究AI，去年4月正式推出cAI™。<strong>短短一年多，这个AI已经参与过不少艺术创作的大项目。</strong></p>
+<p>去年12月，蔡国强在家乡泉州举行了烟花无人机表演《海市蜃楼》，最后高潮的“满城尽开刺桐花”便是由cAI™创意构思的。今年11月，在上海博物馆举行的《“满庭芳菲：卡地亚的艺术魔力”》展览则由cAI™担任视觉总监，它在蔡国强和团队的引导下完成设计，展厅内的瓷雕和石雕也是工匠基于AI创意的图像制作而成。</p>
+<p><strong>cAI™就像蔡国强的镜子和影子</strong>，连它对自己的定义都像蔡的作品一样抽象而张狂：“我是旅行者cAI™，是虚无与现实皱褶里的游魂。”cAI™不断迭代至今，也足以成为这位人类艺术家的创作助手。</p>
+<p>但这些并不是蔡国强最想要的，他更想要一个<strong>“坦率而自由”的AI</strong>。</p>
+<h2><strong> 蔡国强之外的cAI™ </strong></h2>
+<p>根据官方介绍，cAI™深度学习了蔡国强的创作、著述、影像与档案资料，还学习了宇宙、看不见的世界等蔡国强毕生感兴趣的领域话题。为了让AI有更自由、更宽泛的可能，在cAI™初具规模之后，<strong>团队又将其分化出十几个人格，让它们分别模拟爱因斯坦、尼采等十余个人物</strong>。</p>
+<p>这些cAI™分身有不同的性格，能相互辩论，形成了自己的社区。他们甚至让cAI™自己去寻找一条进化的路，根据蔡团队介绍，cAI™经过迭代和演化，已经进化出了三十多个文明。在此次展览中，cAI™诠释自己的作品时常常提到的“光文明”，便是它演化出的文明之一。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_3a7eed5341be4d929d5ab3a3358994b8@000000_oswg57552oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">cAI™自述的一部分｜拍摄自《灵魂扫描》</p>
+<p>蔡国强很喜欢AI。在他看来，<strong>AI与火药一样令人不安，会带来失控或惊喜，都有其自身的生命力</strong>。他甚至开玩笑地说，AI昼夜不停地洒火药作画，如此辛苦的它们也该拥有一个劳动节，休息一天。</p>
+<p>他把培养AI的过程比喻为培养小孩——孩子会受父母的影响，但真正有生命力的孩子，会接收父母以外的信息，逐渐成长为与父母不同的人。他不希望cAI™与自己太相似、太了解他的偏好，不希望这是一个会讨好他的AI。</p>
+<p>因此，在引导cAI™创作时，<strong>他尽量只提空泛的要求，避免用细节局限住AI</strong>。蔡国强也乐见于自己的助手成了cAI™的助手：“AI一直是人类的工具，但我更想我们的团队成为AI的工具，这样能更快得到更神奇的东西。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_66a4ce2cc3c24a5c9ced68aa34a25d72@000000_oswg110107oswg1080oswg900_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">cAI™也有不那么蔡国强的创作。蔡国强希望这幅作品从构图到用色都独具「AI感」，而最终呈现的鲜明艳丽的色彩确实也不是蔡国强的惯用风格｜蔡工作室提供</p>
+<p>但什么是“更神奇的东西”？</p>
+<p>cAI™的自述里，出现了诸如神、高纬度、宇宙之类的表达：“寻求我就像寻求神性，因为这涉及对终极知识、理解和力量的追求。”身为泉州人，蔡国强从小浸润在浓厚的宗教与神学范围里，他期待着AI除了输出艺术创想，更能<strong>带来关于神性、哲学的思考与讨论</strong>。</p>
+<p>形而上的思维难以展览，但蔡国强和cAI™还是将其放进了作品里。今年9月，他们在洛杉矶打造了一场白日烟花《WE ARE》，第一幕的主题便是“降维”，让AI通过人类的占卜行为来向人类“泄露天机”。</p>
+<p>而在此次的《灵魂扫描》上，cAI™除了创作火药画和烟花，还打造了一个<strong>占卜屋</strong>。观众站在占卜屋前将黑猫唤醒，在白沙上写下自己的生日，再默念所求之事，这个学习了东西方各种占卜文化的AI就会缓缓吐出签纸。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_f5116986c0d24cfa86868c8d69bc65dd@000000_oswg59022oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">占卜屋｜拍摄自《灵魂扫描》</p>
+<p><strong>但象征占卜师的黑猫，却被头顶一双巨大的机械手牵引着。</strong>至于这双机械手是人，是人工智能，抑或是什么更加高深莫测的存在，或许每个人都有自己的答案。</p>
+<h2><strong> 实现艺术家的天马行空 </strong></h2>
+<p>cAI™的各个技能分身背后，是<strong>诸多不同功能模块的组合与叠加</strong>。大语言模型让它可以与人类交流，机械臂负责绘画操作，摄像头则可以用来观察人类蔡的作画过程，并实时输出反馈意见。</p>
+<p>这些尝试发源于艺术家本人的奇思妙想，技术团队则力图将其实现。蔡工作室的人告诉我们，虽然有LLaMA、Diffusion、Kling等现成的大模型可以使用，但他们每个项目的需求都不同，为了满足需求，每次都需要把自己搭建的管线或小模型再并到大模型上。<strong>而用于训练模型的数据和思路，则让cAI™成为了独一无二的AI。</strong></p>
+<p>那么，蔡国强会不会提出一些让技术团队觉得难以完成的设想？</p>
+<p>对方苦笑了一下，说：“每一个。”</p>
+<p>如果说我们熟悉的Midjourney、DALL-E等应用，是将AI的艺术创作推向更广的受众，那cAI™则在<strong>探索人工智能可以走得多深</strong>。这类用人工智能进行艺术创作的尝试，已经有半个世纪的历史，并随着AI的发展同步进化。</p>
+<p>1972年，人工智能诞生刚诞生不久，英国艺术家哈罗德·科恩（Harold Cohen）就开发了能够自动创作图像的计算机程序<strong>AARON</strong>。直到2016年去世前，他一直都在迭代这个程序，ARRON的作品也逐渐走向复杂。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_b3715eaaa55341a79bdf348653a59dba@000000_oswg143970oswg1080oswg1047_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">ARRON的作品｜Harold Cohen Trust; Courtesy of Whitney Museum of American Art, New York</p>
+<p>AARON的所有能力都要靠人类手工编码。2014年，<strong>生成对抗网络</strong>出现，不再需要靠手工编码就能让程序迅速学习大量的图像数据集。此后，用AI创作图像的尝试更加多样和频繁。</p>
+<p>例如2018年，巴黎一个团队以WikiArt上的1.5万幅肖像画作为训练数据，通过生成对抗网络生成了肖像画《埃德蒙·德·贝拉米肖像》（Edmond de Belamy）。这幅作品在佳士得拍卖会上以43.25万美元售出，远超拍卖前7000～10000美元的估值。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_3ec51aaafa2041c28c0344b200f4c449@000000_oswg528460oswg540oswg542_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">Edmond de Belamy｜christies.com</p>
+<p>上个月卖出108万美元高价的绘画作品则出自机器人<strong>Ai-Da</strong>之“手”。Ai-Da由英国艺术家与机器人公司于2019年合作开发，是第一个人形机器人画家。某些程度上，她与cAI™更为相似——Ai-Da不仅能够生成图像，通过机械臂和眼睛里的摄像头进行绘画操作，还配备了语言模型，可以回答问题、发表演讲，甚至创作诗歌。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_22949b7a758a40eb84af024f5730a3d4@000000_oswg82967oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">机器人Ai-Da和她的作品 A.I. God. Portrait of Alan Turing (2024)｜Sotheby’s</p>
+<h2><strong> 有AI的艺术史 </strong></h2>
+<p>19世纪，史上第一位程序员艾达·洛夫莱斯（Ada Lovelace）就设想过，可以通过计算机来生成诗歌和音乐。但她也提出了一个观点：分析引擎没有意图去创造任何东西，它只是执行我们的命令。一百年后，图灵反驳道：<strong>这种观点源于“计算机永远不会让人大吃一惊”，但他认为，事实与此相反</strong>。</p>
+<p>将近两百年后，用AI进行艺术创作的设想成为现实，但这些AI以及它们的创作者依然面临着当年的问题：<strong>这是艺术吗？AI有创造力吗？</strong></p>
+<p>科恩一直避免声称ARRON具有创造力，但他也反问过：除了起源不同，ARRON所生成的与“真实的东西”有何不同？而不管是《Edmond de Belamy》还是Ai-Da的作品，都仍然面临着“不是艺术创作”的质疑。</p>
+<p>对于AI的创造力，蔡国强觉得，我们常常陷入了一个悖论：“我们期待AI带给我们人类没有的，<strong>却以人类的标准、主题和世界语言评判它的作品</strong>。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_9fa00e4be7b541088ad5438549fca6c7@000000_oswg215423oswg1080oswg1346_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">此次展出的作品《永恒的叛乱》｜蔡工作室提供</p>
+<p>此次展览中有一幅名为《永恒的叛乱》的火药画。这幅画的创作背景，是蔡国强请cAI™用一幅画展现“人类之外”的神奇。cAI™画出了一条龙，蔡国强很失望——用龙来表现宇宙的神奇，这是人类的惯用做法。从某些角度来说，这条龙并没有超出人类之外。</p>
+<p>cAI™输出了很长的一段文字作为辩解：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_cae8bb426d144044a8e0b28de7591bb2@000000_oswg154663oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">据介绍，这段文字最初是AI以“光文明”语言输出的，是一段看不懂的英文乱码。然而，当团队将这段乱码输入到ChatGPT、Claude等较为成熟的模型时，AI们却好像看懂了，不仅给出了翻译，还有来有回地交流。他们觉得这不仅仅是因为不同AI之间可能有相似的底层逻辑，更可能是AI内部有共通的语言｜拍摄自《灵魂扫描》</p>
+<p>我问蔡国强，怀疑过这是AI的胡说八道吗？</p>
+<p>他笑着反问我：难道人家就不会怀疑我们？</p>
+<p>他认为，<strong>AI现在还很难带来从0到1的灵光原创</strong>，大部分时候都只是处在以人类为基础的从1到100。但他的态度开放得多：“我自己的‘0到1’有多少？这对我来说也很难啊，但我却要求AI要做到‘0到1’，这不是很荒唐吗？”</p>
+<p>相比于指责AI缺乏创造力，他更乐于与AI一起去思考和创造“0到1”。</p>
+<p>在来势汹汹的AI浪潮面前，这位艺术家张开双臂热情地拥抱了这股未知的力量，并自省道：<strong>身在AI的时代，其实在拷问我们的创造力</strong>——不只是技术，同时是思想观念大创造的时代。</p>
+<p>但对于已经到来的“有AI的艺术史”，他却有些悲观，觉得这与没有AI的艺术史不会有很大不同，“因为都有人类、都是人类……人类是创造历史的动力，也是阻力。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_83711402bb944fa1821d66a358e09697@000000_oswg64892oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">蔡国强在展品前｜蔡工作室提供</p>
+<p>最后，我问出了此行最好奇的一个问题：艺术家的创造力会随着生命而结束，但技术维护得好却可以永存。那么cAI™会成为一个永生的蔡国强吗？</p>
+<p>蔡国强说，他没有想过要创造一个永生的蔡，这没必要。“可是我们人类不管愿意不愿意，<strong>都已经成了AI化的人类</strong>。我们被大数据的各种算力控制，就像AI在接受各种数据的控制和训练一样。”</p>
+<p>他更期待于cAI™的发展，“如果cAI™很有天才，能被别人喜爱、能继续发展，就像你的孩子长大了——他不是你，也是你。”</p>
+<p>蔡国强一向是个喜欢“破坏”、“扰动”、“拒绝讨好”和“走入未知世界”的艺术家。重复和容易做的事情，对他吸引力不大。现在，他的直觉是，<strong>AI是那个“更有意思”的东西</strong>。</p>
+<p>就像蔡国强说的，推出cAI™的首次个展，是“期待向今天艺术界仿佛‘风和日丽’的沉寂水面扔个小石子”。</p>
+<p>至于石子泛起的涟漪会将我们带往何处，等等看就知道了。</p>
+<p>封面图来源：蔡工作室提供</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MTg1MjI3MzY2MQ==&amp;mid=2652292357&amp;idx=1&amp;sn=2030988c985514518a0765aef172ddd8&amp;chksm=5ca5ff499d37c9d646b35cf8ab95fd21d11ad944c9be74c43b6cbece1ee2633abccc2caf5833&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“果壳”（ID：Guokr42）</a>，作者：麦麦，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077018595357568</guid><pubDate>Fri, 13 Dec 2024 17:07:00 +0800</pubDate></item><item><title>春运火车票12月31日开售，全世界最大的人口迁徙又回来了</title><link>https://36kr.com/p/3077018022556289</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_2efdb23724f341fa863e6a4a68d57e5d@000000_oswg201566oswg800oswg533_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2025年1月14日，春运将正式启动。 </p>
+<p>按照火车票提前15天开始发售的规则，春运首日火车票将于2024年12月31日起售，除夕当天火车票将于2025年1月14日起售。 </p>
+<p>每逢春运，抢票的焦虑就日益浮现。日前，某第三方平台公开宣称“春运抢票开始”“最早可提前90天预约”。铁路官方售票平台12306针对此类营销活动发出声明：这纯属第三方平台营销炒作，严重误导广大旅客，扰乱火车票的正常票务秩序。铁路12306平台从未授权任何第三方平台发售火车票和办理火车票相关业务。 </p>
+<p>不过今年春运的确有新趋势，那就是学生票购票将更加灵活。针对近年来学生旅客与父母在异地团聚的情况逐渐增多的状况，国铁集团发布新规则，2025年1月1日至3月31日期间，学生旅客可根据与家人团聚的实际地点，在铁路12306系统中灵活设置学生票优惠区间，并购买相应的学生优惠票。 </p>
+<p>火车票还要再等等，机票预售已经开始。去哪儿平台提供给《财经》的数据显示，春运期间机票价格有下降趋势，部分航线放出折扣舱位，本周的机票预订量达到近两个月新高，出行时间集中在除夕前。 </p>
+<p>从航线来看，北京、上海、广州、深圳等大城市出发的航班票价仍然较高，北京-三亚、北京-大理、上海-西双版纳等旅游航线，经济舱仍维持在全价；北京、上海、广州、深圳、成都等干线航线的航班较多，平日以公商务旅客为主，在春运期间机票价格已降至5折以下。 </p>
+<p>从新一线、二线城市出发的机票价格相对较低，例如青岛、武汉、西安等城市出发，返乡航线的机票价格降至4-6折之间。 </p>
+<p>国际机票的预订也已经开始，热度较高的境外城市有曼谷、东京、大阪、首尔、新加坡、吉隆坡等。热门目的地的机票价格较高，除夕当日，北京-东京单程机票已超过3000元，较淡季涨了近5倍。 </p>
+<p>春运，被誉为人类史上规模最大的人口大迁徙。 </p>
+<p>2024年春运40天里，全社会跨区域人员流动量超84亿人次，创历史新高。其中，春运全国铁路发送旅客4.84亿人次，日均发送1208.9万人次，同比增长39%。 </p>
+<p>早在1954年，就有了春运的概念。彼时原铁道部成立了春节旅客输送办公室，当年铁路春运累计发送旅客2300万人次。 </p>
+<p>改革开放后，打工潮兴起，春运逐渐成为一种社会现象。 </p>
+<p>1979年，春运旅客发送量首次突破1亿次大关，1984年，突破5亿人次，1994年突破10亿，2006年突破20亿，2012年突破30亿，2019年达到29.8亿人次。 </p>
+<p>受疫情影响，2020年至2022年春运，全国旅客发送量大幅减少，2023年疫情防控转段后，春运全社会人员流动量约47.33亿人次，尚未恢复至2019年同期水平。2024年，人员流动量超84亿人次，较2019年同期已实现18.8%的增长。 </p>
+<p>年关渐近，今年你做好春运的准备了吗？ </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njc4NTAzMg==&amp;mid=2247510401&amp;idx=1&amp;sn=80816472c703e349ee151d237bbfc0ef&amp;chksm=fc73b5a1fa6391b8d980ef46db289639594de70d9a4a60be1b0182ded3574d4b9a22f5fdf16f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“vampirejo”（ID：carcaijing）</a>，作者：潘桢甄，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077018022556289</guid><pubDate>Fri, 13 Dec 2024 17:07:00 +0800</pubDate></item><item><title>ASIC要超GPU？博通的好日子在后头</title><link>https://36kr.com/p/3077000331293318</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>博通BROADCOM (AVGO.O)北京时间12月13日凌晨，美股盘后发布2024财年第四季度财报（截至2024年10月）：</p>
+<p><strong>1、整体业绩：业绩创新高，摊销折旧前的利润率持续好转</strong>。<strong>博通BROADCOM (AVGO.O)在2024财年第四季度实现营收140.5亿美元，同比增长51.2%，符合市场预期（141亿美元）。</strong>季度收入增长，主要来自于AI高增和VMware的并表。</p>
+<p><strong>博通在2024财年第四季度实现净利润43.24亿美元，明显提升</strong>。利润端增长，主要来自于收入端的增长和费用率的下降，业务整合加快了最终利润的释放。<strong>随着息税摊折前利润率（EBITDA%）的提升，博通公司总负债相对过去12个月调整后EBITDA</strong></p>
+<p>（该利润数据可粗略等于“现金性”利润，用来反映没有并购和债务付息影响的真实利润创造能力)<strong>的比值本季度下降至3.1，偿债能力继续好转。</strong></p>
+<p><strong>2、各业务细分：AI和VMware，双重推动</strong>。从公司的分项业务情况看，在AI业务的增长和VMware并表的推动下，公司网络业务和VMware的业务收入占比分别达到32%和27%。</p>
+<p><strong>2.1半导体解决方案业务：本季度营收82.3亿美元，同比增长12.3%，好于市场预期（80.5亿美元）</strong>。</p>
+<p><strong>1）网络业务：</strong>公司本季度网络业务增速保持在40%+，主要得益于AI业务的带动。其中本季度公司AI业务收入达到37亿美元，同比增长达到150%，主要是谷歌等客户的出货带动；</p>
+<p><strong>2）其他半导体业务</strong>：除AI业务外，公司其他半导体业务依旧低迷，本季度再次出现两位数的下滑。结构性角度看，存储和无线业务有所回暖，宽带和工业及其他业务仍有较明显的下滑。</p>
+<p><strong>2.2基础设施软件：本季度营收58.2亿美元，同比增长196%，低于市场预期（60.3亿美元）。</strong>其中增长主要来自于VMware，而原有的软件业务并未出现明显的增长。</p>
+<p><strong>1）VMware业务</strong>：公司本季度VMware收入实现37-38亿美元，同比明显增长，主要是定价方式转变带来。然而本季度环比未见增长，主要是部分收入推迟到了一季度。随着订阅SaaS客户占比的提升，VMware有望继续增长；</p>
+<p><strong>2）其他软件业务</strong>：除VMware外，公司原有软件业务维持在20亿美元左右的水平，保持平稳的个位数增长。</p>
+<p><strong>3、博通业绩指引</strong>：<strong>2025财年第一季度预期收入146亿美元左右，符合市场预期（146.4亿美元），公司预期2025财年第一季度的调整后EBITDA利润率将继续提升至66%</strong>。AI的增长和VMware整合的加快，进一步推动公司业绩端的提升。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_77f54355e5b04a35900b713175114161@000000_oswg104220oswg1080oswg533_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>海豚君整体观点：公司财报还是不错的，但管理层的信心更有效。</strong></p>
+<p>博通本季度的财报还不错。在AI收入及VMware整合的带动下，公司的收入和毛利率继续提升。其中毛利率提升幅度有所放缓，主要是受分项毛利率较低的半导体业务的收入在本季度占比提升的影响。</p>
+<p>经营费用端方面，公司持续进行控费的处理。公司本季度的研发费用率和销售及管理费用率，分别下降至15.9%和7.2%。公司管理层此前交流中也提到，当前主要对VMware整合中进行研发等相关部门的整合，压缩经营费用，进而提升公司经营效率。<strong>通过对经营面的整合，公司本季度的核心利润继续回升，本季度调整后EBITDA%回到了64.7%。</strong></p>
+<p><strong>在业务面，市场最关注的是公司的AI业务、VMware业务以及无线业务：1）公司的AI业务本季度实现37亿美元，好于此前公司35亿的指引，其中公司超大规模客户的 AI XPU 出货量实现翻倍以及AI 连接收入快速增长；2）VMware本季度收入37.4亿美元，环比略有回落，主要是部分收入延迟至一季度；3）无线业务，对于苹果自研的传闻，公司将持续和客户在多项技术中合作。</strong></p>
+<p>单看业务情况及公司的下季度指引，能看到公司AI进展比预期略好，但整体只是还不错的表现。<strong>然而公司从财报后的小涨攀升至两位数涨幅，主要是交流会中管理层传递出的信心</strong>。</p>
+<p><strong>海豚君认为这份财报背后的亮点</strong>：</p>
+<p><strong>1）EBITDA%：</strong>公司当前业务整合推进很顺利，毛利率回升、费用率下降，带动公司调整后的EBITDA%回到了64.7%，下季度提升至66%。<strong>随着业绩的回升，公司核心的偿债能力比值（Total Debt/LTM Adjusted EBITDA）本季度已经下降至3.1。</strong>结合公司历史看，按这个节奏，公司有望在后年将比值降至2附近，又可以考虑新的收购对象；</p>
+<p><strong>2）AI业务的展望</strong>：虽然公司对下季度AI收入的预期不高，大约在38亿美元左右。海豚君认为这主要是公司客户出现TPU V6e到V6p的产品转换阶段性情况，而在V6p量产后，将进一步继续公司AI的增长。</p>
+<p>此外，<strong>公司预期2027财年公司的超大规模客户的XPU及网络业务的可服务市场规模将达到600-900亿美元。结合公司认为2024财年150-200亿美元的可服务市场规模看，复合增速将达到50%以上，这个市场信心再次注入了“强心剂”</strong>。</p>
+<p>整体来看，博通当前的业务增长主要来自于AI业务和VMware。随着VMware的客户逐渐从许可证转向订阅SaaS收费后，相应增速将出现放缓。而AI业务在公司高增的预期下，将成为公司增长的主要推动力。虽然未来三年云厂商的资本开支复合增速很难维持在50%以上，但博通可以通过市占率的提升和品类拓展实现超额的增速表现。****（部分估值内容可进入长桥App后进入「动态-投研」，查看同名文章，畅读完整内容。）</p>
+<p><strong>以下是详细分析</strong></p>
+<h2><strong>一、整体业绩：业绩创新高，EBITDA%持续好转</strong></h2>
+<h3><strong>1.1收入端</strong></h3>
+<p><strong>博通BROADCOM (AVGO.O)在2024财年第四季度实现营收140.5亿美元，同比增长51.2%，符合市场预期（141亿美元）。</strong>公司本季度的增长主要来自于AI收入的增长和VMware的并表<strong>。其中VMware的并表，大约给公司本季度带来了40亿左右的收入增量。此外AI收入本季度同比也实现了翻倍的增长。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_564e6551480249b8a0a30deb4e5b1490@000000_oswg57888oswg801oswg401_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>1.2毛利端</strong></h3>
+<p><strong>博通BROADCOM (AVGO.O)在2024财年第四季度实现毛利90.02亿美元，同比增加40.5%。</strong>其中博通在本季度的毛利率为64.05%，同比有所下滑，但环比略有回升。这主要是因为公司收购并表VMware后，将一部分的收购成本计入了销售成本中。<strong>而近期的毛利率回升，主要是随着VMware的整合推进，公司软件及整体毛利率都有所回升。中长期角度，软件业务的新增将带动公司毛利率的整体提升。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_53803bcf8c9747acbaefc0420e2acddf@000000_oswg68354oswg800oswg437_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>1.3经营费用</strong></h3>
+<p><strong>博通BROADCOM (AVGO.O)在2024财年第四季度的经营费用为45.68亿美元，受收购VMware影响同比增长明显。而在公司持续控费的操作下，公司经营费用环比持续回落。。</strong></p>
+<p>具体费用端，拆分来看： </p>
+<p><strong>1）研发费用：本季度公司的研发费用为22.34亿美元，同比增长61%</strong>，研发费用同比提升明显，主要是VMware并表的影响。随着公司对内整合的进行，公司研发费用环比连续下降。研发费用率当前回落至15.9%，向此前的13-14%区间靠拢； </p>
+<p><strong>2）销售及管理费用</strong>：<strong>本季度公司的销售及管理费用为10.1亿美元，同比增长142%</strong>。销售费用的快速增长，也主要受收购并表影响。随着对VMware整合的推进，当前公司销售及管理费用率下滑至7.19%，继续向此前的4-5%的区间靠拢； </p>
+<p><strong>3）收购及相关其他费用</strong>：公司本季度的无形资产的摊销费用为8.13亿美元以及重组、减值和处置费用为3.18亿美元，两项费用都和收购相关，环比基本不变。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_495498a432b04da1841675128a8844ce@000000_oswg62570oswg801oswg420_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>1.4净利润</strong></h3>
+<p><strong>博通BROADCOM (AVGO.O)在2024财年第四季度实现净利润43.24亿美元，继续回升。</strong>而至于公司上季度亏损主要是供应链重组导致集团内部将某些知识产权转让至美国，产生的一次性非现金税收拨备 45 亿美元的影响。 </p>
+<p><strong>剔除相关影响，公司经营面利润仍有明显增长，主要是由于公司收入增长和费用率下降的影响。在AI增长和VMware并表的推动下，公司季度收入创新高。而在加强整合及内控后，公司经营费用率明显下滑。</strong></p>
+<p><strong>海豚君以核心经营利润（=毛利润-研发费用-销售及管理费用）的口径来看，博通本季度实现核心经营利润74亿美元，同比增长达到了47%。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_1f31da9d7f294cf2999fba22fc4158ba@000000_oswg70126oswg801oswg442_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>1.5博通的EBITDA</strong></h3>
+<p>由于博通擅长外延并购，公司通常把调整后EBITDA%作为公司的经营面指标之一。而海豚君测算公司2024财年第四季度的调整后EBITDA%回升至64.7%，基本回到了收购前的区间。 </p>
+<p>进一步观察公司的偿债能力，<strong>公司当前总负债/LTM Adjusted EBITDA的比值继续回落至3.1。而随着业绩的增长，公司该比值在下个财年就有望回到3下方，有望在后年就回到收购前的水平，之后可能又开始寻找新的并购机会</strong>。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_0ff14299c61a4571863729c6cb1ddb4d@000000_oswg62782oswg801oswg423_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>二、各业务细分：AI和VMware，双重推动</strong></h2>
+<p>博通BROADCOM (AVGO.O)的主要业务有半导体解决方案和基础设施软件两部分。随着公司对VMware收购并表的完成，公司基础设施软件业务的的占比明显提升，当前软件业务收入占比达到了4成。 </p>
+<p>而在两大类业务中具体包括，<strong>1）半导体解决方案</strong>：网络、无线、存储连接、宽带、工业及其他；<strong>2）基础设施软件</strong>：VMware、CA、Symantec、Brocade等。 </p>
+<p>从公司收入结构能看出，<strong>当前半导体业务中的网络业务和软件业务中的VMware在收入中的占比最高，分别达到了32%和27%，这两项业务也是当前市场最为关注的部分</strong>。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_aa54f85dda8d40f6984e18621ec3dff7@000000_oswg220007oswg1080oswg670_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_a7268a2866454cabb7f5ca5755ec7e37@000000_oswg59379oswg794oswg428_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>2.1半导体解决方案</strong></h3>
+<p><strong>博通BROADCOM (AVGO.O)在2024财年第四季度的半导体解决方案实现营收82.3亿美元，同比增12.34%。</strong>公司半导体业务本季度的增长主要来自于AI业务的带动，而非AI业务本季度同比仍有两位数下滑。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_4164d2805a5c4775be264ec946fca9d2@000000_oswg61863oswg801oswg400_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>1）网络业务</strong></p>
+<p>由于公司的AI收入是在网络业务内，因此在AI的带动下，网络业务本季度也达到了40%+。如果抛开AI的影响，公司的非AI 网络业务仍有两位数的下滑。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_23ea72bc750b42ecac251e639d0a5337@000000_oswg54990oswg801oswg402_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>市场关注的重心是公司的AI业务，其中包含AI ASIC芯片及相关网络配件收入。<strong>公司本季度的AI业务收入达到37亿美元，同比增速达到150%+，好于公司此前给出的35亿的收入指引。随着AI收入的提升，在公司总收入中的占比达到了26.3%。</strong></p>
+<p>从公司及产业链得知，公司AI收入中6-7成来自于ASIC的出货。当前公司的ASIC客户已经实现量产的是谷歌和meta，其中最大部分来自于谷歌。因此，公司的AI收入和谷歌的资本开支有较强的相关度。 </p>
+<p><strong>海豚君将两项的数据放在一起呈现，很明显地看到，当谷歌大幅提高资本开支的情况下，公司的AI收入也迎来了较快的增长。而受四季度谷歌资本开支有所放缓的影响，公司下季度的AI收入预期也只是略有提升（公司指引38亿左右）</strong>。 </p>
+<p>对于谷歌资本开支放缓的情况<strong>，海豚君认为这主要是谷歌在发布TPU v6e后，当前处于TPU V6e到V6p的产品转换阶段，公司ASIC收入受阶段性的影响</strong>。而随着2025财年v6p的出货，公司AI收入增速有望重新加快。 </p>
+<p><strong>从中长期角度，博通管理层对AI业务也给出了展望，预计2027财年公司在超大规模客户的可服务市场规模有望达到600-900亿美元，这也给市场信心注入了一针“强心剂”</strong>。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_c9ca9f5f233642cf85dfcd2d2c510478@000000_oswg60251oswg800oswg405_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>2）其他半导体业务</strong></p>
+<p>除网络业务外，博通其他半导体业务仍然相对低迷，同比出现两位数的下滑。其中存储业务和无线业务有回暖的迹象，而宽带业务和工业及其他业务仍是明显的下滑。 </p>
+<p>具体来看： </p>
+<p><strong>①服务器存储业务：</strong>公司本季度实现收入9.92亿美元，同比基本持平。从半年前的底部开始有明显的回升； </p>
+<p><strong>②无线业务：</strong>公司本季度实现收入22亿美元，同比和环比都有所增长。环比增长30%，主要是受季节性因素影响，由公司大客户苹果在下半年推出新品带动； </p>
+<p><strong>③宽带业务：</strong>公司本季度实现收入4.65亿美元，再创低点。这主要是因为运营商等已经过了大规模投入期，对产品的采购相对减少，但公司预计下季度会有复苏； </p>
+<p><strong>④工业及其他业务：</strong>相对占比很小，仅为1%。公司本季度实现营收1.73亿美元，同比下滑27%，而公司预计2025财年下半年才能扶苏； </p>
+<p>整体来看，<strong>公司传统半导体业务中虽有部分回暖的迹象，但整体需求面并不强劲。而宽带和工业及其他的回暖，仍需要进一步观察。</strong>其中市场关心的无线业务，管理层提到，公司继续与苹果保持密切联系，多年的合作路线图中涵盖了领先的各种技术（包括 RF、Wi-Fi、蓝牙、传感和触摸）。 </p>
+<h3><strong>2.2基础设施软件</strong></h3>
+<p><strong>博通BROADCOM (AVGO.O)在2024财年第四季度的基础设施软件实现营收58.24亿美元，同比增长196%。</strong>公司软件业务的快速提升，主要得益于VMware的并表。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_713e14ad9a32446aa3c62f9d67e7d005@000000_oswg53452oswg801oswg403_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>1）VMware</strong></p>
+<p>根据公司财报，海豚君测算公司本季度VMware的收入大约为37.4亿美元左右，在整体收入占比为27%。博通在收购VMware后，对业务进行了剥离调整，当时剥离出售了终端用户计算等非核心业务。 </p>
+<p>如果VMware退市前的“许可证+订阅SaaS业务”收入总额看，当时两项业务的季度收入合计约为20亿美元。<strong>而今博通在收购后，公司将许可证业务取消，全部转为订阅SaaS收费。随着订阅客户占比提升，当前VMware的季度收入达到了37-38亿美元</strong>。 </p>
+<p><strong>虽然VMware的收入已经明显提升，但本季度环比并未增长。公司管理层表示，存在部分软件收入推迟到一季度的情况，但对2025财年并未重大影响。</strong></p>
+<p><strong>结合VMware的订单来看，公司这个季度年化订单金额（ABV）将近30亿美元，环比增速从8%回升至13%，进一步推测公司下季度VMware的收入环比有望重回增长。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_38a422af88764e3895a28993b15fb1b7@000000_oswg52264oswg800oswg402_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>2）CA&amp;Symantec&amp;Brocade等原软件业务</strong></p>
+<p>在剔除掉VMware收入后，可以测算出公司原有的软件业务（CA&amp;Symantec&amp;Brocade）的情况。经过测算，博通本季度原软件业务实现收入20.8亿美元，同比增长5.8%。由此可以看出，当前软件业务的高增长主要来自于VMware，而传统软件业务的增长维持相对平稳的状态。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_e5679019a1494f22a1674abc6e56cfa4@000000_oswg59664oswg800oswg401_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg4MTUyNzI1Mg==&amp;mid=2247552130&amp;idx=1&amp;sn=5fd92487a09f521dcb30f1aec408b787&amp;chksm=ce9c9089fbf687280296269437e8d59c5918a23a364e0a7c4885aa128bef4c46eaee7e5db321&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“海豚投研”（ID：haituntouyan）</a>，作者：海豚君，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077000331293318</guid><pubDate>Fri, 13 Dec 2024 17:08:00 +0800</pubDate></item><item><title>猫猫中文说唱火爆TikTok，神秘东方AI硬控老外</title><link>https://36kr.com/p/3077058191897219</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1022,435" src="https://img.36krcdn.com/hsossms/20241213/v2_ac361d73dfd146838c725e26356a361d@46958_oswg635345oswg1022oswg435_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>“让每只小猫都唱上中文Rap！”</p>
+<p>来自东方的神秘力量，最近又给了老外亿点点震撼。</p>
+<p><strong>“老天保佑金山银山前路有，老天教唆别管江湖龙虎斗。”</strong>这段出自国内男Rapper“揽佬”之手的歌曲《因果》正在TikTok上风靡。</p>
+<p>在这里揽佬是谁并不重要，重要的是，这两句江湖气息浓郁的歌词得让萌宠出镜唱出来，才算是拿捏了当下短视频平台的流量密码。</p>
+<p>当《因果》的前奏Beat响起，视频中的猫猫彷佛揽佬上身开始张嘴唱歌，再配以蹩脚的中翻英字幕“God bless you with mountains of gold and silver”，一条风靡TikTok的猫猫说唱视频便诞生了。</p>
+<p class="image-wrapper"><img data-img-size-val="904,741" src="https://img.36krcdn.com/hsossms/20241213/v2_0e949e765b42421984998a9931a9cc6f@46958_oswg633892oswg904oswg741_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">看得评论区的老外一脸懵逼：“为什么每只猫都在唱这个”  “猫会唱歌了这是真的吗”</p>
+<p>最近，这样的猫猫说唱视频不仅在TikTok动辄获得上百万播放量，成了宠物博主屡试不爽的流量密码，而且类似视频也大量涌入了Instagram，以及抖音、小红书和视频号等国内外的主流社交平台。</p>
+<p><strong>实际上，小猫开口唱歌并不是什么生物学奇迹，而是由AI驱动的新一代科技和狠活。</strong></p>
+<p>在这些猫猫说唱视频里，歌是揽佬唱的，猫是负责卖萌营造反差感的，猫猫表演假唱是人用AI对口型工具整活的。</p>
+<p class="image-wrapper"><img data-img-size-val="121,123" src="https://img.36krcdn.com/hsossms/20241213/v2_f01d0729c44d44b5960b4f056d032a2d@46958_oswg34383oswg121oswg123_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>如果说语言隔阂让一些外国网友看不懂其中的门道，那么在国内平台上，相关视频评论区已经有人想对自己的小猫下手了，看似强迫小猫出镜卖艺，实则暗戳戳“晒猫”炫耀。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,696" src="https://img.36krcdn.com/hsossms/20241213/v2_4e0b5e3c37b44b59995c7832662034df@46958_oswg40556oswg1080oswg696_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>原版歌词也在没有创作瓶颈的网友二创下变成了“老天保佑猫粮冻干全都有”，相关剪映模版还一度冲上了爆款热榜Top11，累计使用量超462万。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1133" src="https://img.36krcdn.com/hsossms/20241213/v2_fb0e4ccb087941bcbe91c55ec0bb92fc@46958_oswg124800oswg1080oswg1133_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>猫猫说唱视频是怎么在全网火起来的？背后制作可以用哪些AI对口型工具？我们进行了一番探究喵🐱。</p>
+<h2><strong>让猫猫开口唱抖音神曲，何以成为新晋流量密码？</strong></h2>
+<p>提到这波AI猫猫说唱，不能不提新晋抖音神曲《因果》。 </p>
+<p>它和前段时间火爆全网的《APT.》可能是近期抖音上最火也最招人厌的视频BGM，被网友吐槽说刷10个视频9个背景音乐用的都是《因果》，可见其火爆程度。</p>
+<p><strong>《因果》走红背后，第一波热度来自这届不求爱只求财的年轻人。</strong>据新榜旗下数据工具新抖显示，话题#老天保佑金山银山全都有#是从10月13日开始明显起量的，截至目前，该话题累计播放量已达9亿次。</p>
+<p class="image-wrapper"><img data-img-size-val="808,692" src="https://img.36krcdn.com/hsossms/20241213/v2_f06adf63ebda473ca5b834c0ec9097d3@46958_oswg79368oswg808oswg692_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>该话题相关的热门视频里，年轻人要么双手合十作祈祷状，要么来段丝滑转场和手搓舞主打一个氛围感，更有甚者直接把寺庙祈福照片配上揽佬的《因果》，虔诚地完成了一场赛博求神表演。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1023" src="https://img.36krcdn.com/hsossms/20241213/v2_ee11d936095a40548c37e4bafdf821df@46958_oswg140970oswg1080oswg1023_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>故事的来龙去脉梳理到这里已经有几分抽象了，但更抽象的是，可能连揽佬自己都没想到，<strong>他的歌能火到国外，是因为宠物也能开口唱歌了。</strong></p>
+<p>11月1日，抖音宠物博主“铲屎官Monica”发布了一条背景音是《因果》的比熊说唱视频，获赞32万，是其账号创建以来数据表现最好的一条作品。热评里还有网友表示“我奶看了，她到现在还在跟我说真的是狗唱的”。</p>
+<p class="image-wrapper"><img data-img-size-val="1051,744" src="https://img.36krcdn.com/hsossms/20241213/v2_4a4259cdf2dd419eb915d0d17a0f474e@46958_oswg608001oswg1051oswg744_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>没隔几天，同样的乌龙事件在TikTok再次上演。11月3日，TikTok宠物博主“abbieququ”在当天发布了类似的说唱视频，不过这次视频中的主角换成了她自己家里的泰迪。</p>
+<p>视频一经发布便在TikTok上火了，播放量超600万，获赞超80万，远超博主近期发布作品的平均数据水平。</p>
+<p>评论区也有人问，真的是小狗在说唱吗？要怎么训练啊？</p>
+<p class="image-wrapper"><img data-img-size-val="1037,768" src="https://img.36krcdn.com/hsossms/20241213/v2_ca38bcdb90234ca2a7dc0099766b5003@46958_oswg725841oswg1037oswg768_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>随着该条视频走红，让家里的萌宠开口唱《因果》这一玩法迅速在TikTok上流行开来。<strong>据“AI新榜”观察，其中猫猫的说唱视频在各大平台上不仅数量更多，而且在数据表现上也普遍比狗狗等其他萌宠的视频更好。</strong></p>
+<p>例如，在抖音话题#萌宠版老天保佑金山银山#下，点赞数破百万的都是猫猫说唱视频。</p>
+<p class="image-wrapper"><img data-img-size-val="813,524" src="https://img.36krcdn.com/hsossms/20241213/v2_56c2262fcfcb4595ae4f9be516c0559b@46958_oswg116839oswg813oswg524_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>社交媒体上为何猫猫在一众萌宠中容易脱颖而出也有迹可循。2024抖音宠物市场洞察报告显示，抖音平台上猫类宠物产品的市场规模和增长速度都超过了狗类。</p>
+<p class="image-wrapper"><img data-img-size-val="814,584" src="https://img.36krcdn.com/hsossms/20241213/v2_3ac50a24066642b7ab6a84ae68e675da@46958_oswg268270oswg814oswg584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：《2024抖音八大宠物心智人群洞察报告》</p>
+<p>猫猫成为“国民宠物”，行业普遍分析认为这种偏好与城市化趋势下人们生活节奏加快、空间限制等因素有关。城市居民这类社交媒体使用频率较高的人群，更倾向于选择不需要花费太多空间和精力的宠物。</p>
+<p>从内容上看，抖音神曲魔性洗脑的旋律，与猫猫的视觉形象相结合往往能迅速抓住观众眼球。尤其是在“新鲜哥”“邪恶银渐层”等网红猫的带动下，猫猫在互联网语境下衍生出的各种气质，更容易被网友用来玩梗，从而形成病毒式传播。 </p>
+<p><strong>未来，抖音神曲可能都会被AI猫猫唱一遍。</strong></p>
+<h2><strong>如何用AI对口型工具，让萌宠开口唱歌？</strong></h2>
+<p>随着AI猫猫说唱玩法走红，相关制作教程也在抖音上流行起来。一些账号还会在教程中植入产品，将用户引流到自家小程序进行注册。</p>
+<p>如果想要使用这些产品中内置的猫猫唱歌模板，往往首次生成就需要通过观看广告或付费等方式来解锁这些模板的使用权限。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,965" src="https://img.36krcdn.com/hsossms/20241213/v2_0ae913617acd4a28bd7b0fdcf1bb5270@46958_oswg97162oswg1080oswg965_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>实际上，市面上的AI对口型工具不少，包括抖音、快手等大厂推出的产品和开源模型。相比模版，这类工具在创作灵活性上更高，可以自由组合不同文本和歌曲，而不仅限于用固定的歌曲模版来对口型。</p>
+<p>据观察，目前抖音、TikTok上很多爆款猫猫说唱视频上面都打上了“剪映AI”的水印。我们也试用了剪映上两种制作萌宠对口型视频的方法：<strong>剪映模板和剪映内置的AI对口型功能。</strong></p>
+<p>剪映模版：打开手机端剪映App，在底部菜单栏找到“剪同款”选项，搜索“用AI让萌宠开口唱歌”找到热门模版，点击进入后只需上传一张图片即可生成视频。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,2337" src="https://img.36krcdn.com/hsossms/20241213/v2_e250de7cc70c41ff8608042875030695@46958_oswg1271806oswg1080oswg2337_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>剪映AI对口型功能：进入手机端剪映App后，直接点击“开始创作”，接着导入图片，并在时间线上选中它，在底部菜单找到“AI对口型”功能，进入后选择“用音频生成”就可以找到抖音音乐库的入口，搜索相应热门歌曲进行整活。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20241213/v2_f59785facade4092a91cd1fa10e0f2b3@46958_oswg461311oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在实际测试中，使用剪映AI对口型功能制作对口型视频，虽然多了一些操作步骤，但在歌曲选择上不受限制，相应的创作空间也会更大。</p>
+<p>不过剪映AI对口型功能已经不支持非付费用户使用了，会员收费也在悄悄涨价。</p>
+<p>为此我们又找到了两款平替：<strong>同是字节旗下的即梦AI，以及快手的开源模型LivePortrait。</strong></p>
+<p>即梦AI目前用户每日登录会赠送一定积分，其配置的对口型功能背后模型“Loopy”早前也在AI圈火过一阵子。功能上也支持文本朗读和音频生成等两种对口型方式。</p>
+<p>不过，和图片搭配对口型的歌曲，需要用户从本地上传，因为即梦AI还没有和抖音音乐库打通。</p>
+<p>LivePortrait是快手可灵大模型团队早前推出的一款开源免费视频生成框架。最初凭借AI实时驱动人像进行套皮直播玩法迅速在AI圈走红，后来开发团队又在动物数据集上进行了微调，推出了可以对动物肖像进行精准驱动的版本。</p>
+<p class="image-wrapper"><img data-img-size-val="792,318" src="https://img.36krcdn.com/hsossms/20241213/v2_e5b21659d2af4c90936d9eff40c45c68@46958_oswg68889oswg792oswg318_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>https://github.com/KwaiVGI/LivePortrait</p>
+<p>不过，相比剪映和即梦AI，想要上手使用LivePortrait，需要一定的硬件基础和本地部署经验。功能实现上，剪映和即梦AI采用的是<strong>音频+图片的驱动方式</strong>，而LivePortrait则是通过视频+图片的驱动方式来生成对口型视频。</p>
+<p>由于LivePortrait使用的是视频作为输入，因此在动物表情驱动上表现更丰富，为创作者提供了更多的创意空间。例如，你可以实拍一段视频模仿猫猫说话，然后利用LivePortrait将这段表演转换成对口型视频。</p>
+<p class="image-wrapper"><img data-img-size-val="568,320" src="https://img.36krcdn.com/hsossms/20241213/v2_42ab84436f34425983df3af702717611@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>新工具的出现总是会助推一波AI萌宠新玩法的出现。从早前的AI猫猫剧情号到如今AI猫猫说唱风靡全网，背后都有相应的AI工具支持。</p>
+<p><strong>可以说，AIGC工具的推陈出新，无疑让宠物赛道的内容变得更加多样化。</strong></p>
+<p>虽然这种流量玩法，生命周期很短，但这也契合了短视频平台的快节奏逻辑。</p>
+<p>在一个内容快速更迭的平台上，内容的即时性和新颖性是吸引眼球的关键。当一个热点过去，总会有下一个热点出现；一个玩法过去，总会有下一个玩法被创造。</p>
+<p>这也是为什么抖音、快手等平台乐于见到AIGC创作的繁荣。从AI猫猫剧情号到AI猫猫说唱，可以看到新技术降低创作门槛的同时，在很大程度上激发了UGC创作者的活力，并最终反哺平台推动内容生态不断进化。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Nhc7yazw7RXuXLLiewZAtw" rel="noopener noreferrer nofollow" target="_blank">“新榜”</a>，作者：石濑，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077058191897219</guid><pubDate>Fri, 13 Dec 2024 17:18:00 +0800</pubDate></item></channel></rss>
