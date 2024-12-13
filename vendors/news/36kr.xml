@@ -1,268 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 13 Dec 2024 15:30:27 +0800</lastBuildDate><pubDate>Fri, 13 Dec 2024 15:30:27 +0800</pubDate><item><title>Meta公布黑科技：戴上腕带即可隔空打字，引领神经接口AR革命</title><link>https://36kr.com/p/3076751003153028</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>只需要在手腕上戴一个腕带，就能够实现隔空打字。Meta近期推出的开源表面肌电图（sEMG）数据集，可进行姿态估计和表面类型识别，推动神经运动接口发展。</p>
-</blockquote>
-<p>每一个新的计算平台都带来了我们与设备互动方式的范式转变。 鼠标的发明为今天主导PC世界的图形用户界面（GUIs）铺平了道路，而智能手机直到触摸屏的出现才开始真正获得影响力。</p>
-<p>同样的规则也适用于可穿戴设备和AR，想象一下，在晨跑时只需轻轻一触指尖就能拍照，或者用几乎察觉不到的手部动作来导航菜单。</p>
-<h2><strong>AR时代革新人机交互</strong></h2>
-<p>在Connect 2024大会上，Meta展示了EMG腕带与Orion增强现实眼镜的产品原型。这两大神器叠加在一起，科幻电影中才会出现的「隔空打字」场景或许即将实现。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241213/v2_1a1b18c98ea3404296f914af2c2f6a84@5888275_oswg841179oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Orion AR眼镜</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20241213/v2_abe1d77531ac4c7ba88664e03b802b9c@5888275_oswg908846oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">meta推出的肌电图腕带</p>
-<p>戴上这样一个腕带，你让双手舒适地放在身侧，同时进行鼠标的滑动、点击和滚动等操作，无缝控制数字内容。</p>
-<p>未来还将有许多其他应用场景，包括在增强现实中操纵物体，或者像在键盘上打字一样——甚至更快，快速输入完整信息，几乎无需费力。</p>
-<p>在近日的NeurIPS 2024 的「数据集和基」子会场中，Meta发布了两个数据集——emg2qwerty 和 emg2pose，展示在硬件层面仅仅依靠腕带的情况下，如何产生比细微手势更丰富的输入数据集。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,395" src="https://img.36krcdn.com/hsossms/20241213/v2_31ec40adf89a493d9d4e083cc1c5e075@5888275_oswg47369oswg1080oswg395_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">原文地址：https://arxiv.org/abs/2410.20081</p>
-<p class="image-wrapper"><img data-img-size-val="1080,401" src="https://img.36krcdn.com/hsossms/20241213/v2_6051a053a7c64cafa772ff185dbf6dcf@5888275_oswg56870oswg1080oswg401_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">原文地址：https://arxiv.org/abs/2412.02725v1</p>
-<h2><strong>用于隔空打字的数据集emg2qwerty</strong></h2>
-<p>表面肌电图（sEMG）是在皮肤表面测量由肌肉产生的电势，它能够检测到由单个运动神经元引起的活动，同时是非侵入性的。</p>
-<p>具体来说，对于单个的脊髓运动神经元，其细胞体位于脊髓中，向肌纤维中投射一条长轴突，每条肌纤维只被一个运动神经元支配。</p>
-<p>脊髓运动神经元放电时，就会触发它支配的所有肌纤维收缩，同时放大了来自神经元的电脉冲。正是这些来自肌纤维的电信号，可被皮肤上的sEMG传感器检测到。</p>
-<p class="image-wrapper"><img data-img-size-val="669,1280" src="https://img.36krcdn.com/hsossms/20241213/v2_bf2d5127c38446a0a70da3af102d8899@5888275_oswg461377oswg669oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">用于数据收集的表面肌电图研究设备（sEMG-RD）及其腕围电极放置的示意图</p>
-<p>基于腕带的打字系统旨在解决可穿戴设备的文本输入问题，实现无需物理键盘的触摸打字。</p>
-<p>仅使用手腕上检测到的肌肉电信号，系统将可自动解码并对应至虚拟现实中投影的计算机键盘按键。</p>
-<p>这意味着，用户未来可以在没有物理键盘的情况下，无论在桌子上、腿上还是厨房桌子上打字，都能如同在实际键盘上一样输入。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,611" src="https://img.36krcdn.com/hsossms/20241213/v2_e18242e744334f6a80f40317796b1d1c@5888275_oswg655783oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">一个针对提示「the quick brown fox」的表面肌电图（sEMG）记录示例，显示左右腕带上32通道的表面肌电图信号和按键时间；垂直线表示按键开始，每个电极通道的信号经过高通滤波</p>
-<p>emg2qwerty数据集包括从两只手腕获取的高分辨率sEMG 信号，与QWERTY 键盘的真实按键同步。该数据集总计包含108名参与者完成的、涵盖广泛单字和句子打字提示的346小时记录，共计超过520万次按键。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,284" src="https://img.36krcdn.com/hsossms/20241213/v2_31fbe82c668e4e7da6f7f5522675d0a7@5888275_oswg138750oswg1080oswg284_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">emg2qwerty数据集分割的可视化。每一列代表一个用户，每一个方块代表一个会话，方块的高度表示其持续时间</p>
-<p>如何仅通过表面肌电图数据中检测到用户按了哪个键呢？为了解决这个核心问题，Meta开发了受自动语音识别（ASR）领域启发的方法。</p>
-<p>该方法同样模拟了给定连续多通道时间序列下，预测离散字符输出序列的任务。为了给emg2qwerty构建强大的基线，Meta尝试了新颖的网络架构、不同的训练损失以及语言模型的使用，始终关注表面肌电图数据的独特领域特征要求。</p>
-<p>研究发现，在100个用户的规模上，尽管生理、解剖、行为、带宽大小和传感器放置存在差异，用户间的泛化仍然可出现。</p>
-<p>当使用大约半小时的个体用户打字数据来个性化模型时，性能的进一步提升随之而来。通过整合语言模型来优化结果，可将字符错误率降至 10%以下——这个值被认为是一个使文本模型可用的关键阈值。</p>
-<p>随着数据集的增加，类似语言模型中的Scaling Law将会生效，从而使得对用户输入的预测更加准确。</p>
-<h2><strong>emg2pose姿态估计：可完全预测用户的手部配置</strong></h2>
-<p>另一个名为emg2pose的数据集，旨在解决肌电信号与手部运动之间的映射问题，这对于人机交互、康复工程和虚拟现实等领域具有重要意义。</p>
-<p>该数据集包含来自193名参与者的370小时sEMG和手部姿态数据，从29个不同的行为组中采集，包括拳头、从一数到五等众多动作。</p>
-<p>数据集包含25253个HDF5文件，合计达到431GB。每个文件包含时间对齐的2kHz表面肌电图数据和单手在单一阶段的关节角度。</p>
-<p>手部姿态标签是通过高分辨率动作捕捉阵列生成的。完整数据集包含超过8000万个姿态标签，其等效规模已经可以与最大的计算机视觉数据集比肩。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,606" src="https://img.36krcdn.com/hsossms/20241213/v2_d89c61fdaa1f4a1293288bcaa2fe28d2@5888275_oswg498610oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">emg2pose数据集组成：a)sEMG-RD腕带和动作捕捉标记（白色圆点）设置 b) 数据集分解；i）用户被提示执行一系列动作类型（手势），如上下计数，同时记录 sEMG 和姿态 ii) 特定手势类型的组合构成一个阶段</p>
-<p>emg2pose数据集的主要特点在于其高频率的表面肌电图记录（2kHz）与精确的动作捕捉数据相结合，提供了对手部细微运动的深入洞察。</p>
-<p>此外，数据集包含详细的元数据，如用户ID、会话、阶段、手部侧向、是否移动等，便于进行多样化的分析和实验。数据集还提供了训练、测试和验证的划分，支持多种泛化类型的研究，包括跨用户、跨阶段以及跨用户和阶段的泛化。</p>
-<p>在基准测试中，emg2pose还提供了具有竞争力的基线和具有挑战性的任务，这些任务评估了在排除用户、传感器放置和手势姿态方面的物理世界泛化场景。</p>
-<p>该研究还介绍了一种新的最先进模型，用于从表面肌电图进行姿态估计的 vemg2pose模型，通过整合对姿态速度的预测来重建手势姿态。</p>
-<p>研究人员将emg2pose以及另外两种当代基线用于sEMG的姿态估计，并分析了它们在泛化条件下的性能。结果显示：emg2pose模型在对不同用户的数据集进行预测时，仅显示1厘米误差，从而在广泛的运动范围内实现了高保真跟踪。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,375" src="https://img.36krcdn.com/hsossms/20241213/v2_d39a07d3d0e54127a7a73ef9d673291e@5888275_oswg79786oswg1080oswg375_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">在不同采集阶段及不同用户间，基于vemg2pose预测的泛化能力</p>
-<p>emg2pose不仅提升了动作识别的准确性，还为手势控制、康复治疗等有潜在的应用可能。</p>
-<p>在医疗康复领域，通过分析患者的sEMG信号，可以实时监测和评估手部功能的恢复情况，为个性化康复方案的制定提供科学依据；</p>
-<p>在人机交互领域，该数据集支持开发更加自然和精准的手势控制系统，提升用户体验；</p>
-<p>此外，emg2pose还可应用于虚拟现实和增强现实技术中，实现更加逼真的手部动作捕捉和交互。</p>
-<p><strong>参考资料：</strong></p>
-<p>https://x.com/perlinwarp/status/1864745303796257236</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/mYUOqsLL4aI1QwyEpZwcRQ" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：peter东 乔杨，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076751003153028</guid><pubDate>Fri, 13 Dec 2024 12:08:00 +0800</pubDate></item><item><title>再也不怕显存爆炸了，高效重建「几何精准」的大规模复杂三维场景，中科院提出CityGaussianV2</title><link>https://36kr.com/p/3076748437713792</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>是否还在担心大规模场景训练和压缩耗时太长、显存开销太大？是否还在苦恼重建出的建筑物和道路表面破碎不堪？是否还在困扰如何定量衡量大规模场景几何重建的精确程度？来自中科院自动化所的研究团队提出了用于大规模复杂三维场景的高效重建算法CityGaussianV2，能够在快速实现训练和压缩的同时，得到精准的几何结构与逼真的实时渲染体验。</p>
-</blockquote>
-<p>三维场景重建旨在基于围绕目标场景拍摄的一组图像恢复出场景的三维结构，其核心追求是精准的几何结构以及逼真的图像渲染。</p>
-<p>随着近两年的发展，3D Gaussian Splatting（3DGS）因其训练和渲染效率上的优势逐渐成为该领域的主流算法。这一技术使用一组离散的高斯椭球来表示场景，并使用高度优化的光栅器进行渲染。</p>
-<p>然而，这一离散且无序的表征形式通常难以很好地拟合物体表面的实际分布，导致重建出的场景几何结构并不精准。近来包括SuGaR、2DGS、GOF在内的一系列杰出工作针对这一问题进行了探索，并给出了有效的解决方案。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,470" src="https://img.36krcdn.com/hsossms/20241213/v2_a3925be45c3741f2a5d4eb7d3d04527f@5888275_oswg597906oswg1080oswg470_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">几何重建质量可视化比较</p>
-<p>尽管这些技术在单一目标或小场景上取得了巨大的成功，但它们应用于复杂的大规模场景却往往面临比3DGS更加严峻的挑战。</p>
-<p>从不同算法在大规模场景下的几何重建效果中可以看出，SuGaR的模型容量有限，难以还原精细的几何结构；GOF受到严重的模糊鬼影的干扰，许多视角下画面被鬼影完全遮挡，以至于监督失效，重建结果面对显著的欠拟合；2DGS受到模糊鬼影的影响较弱，但也妨碍了其收敛效果，并且退化现象容易诱发高斯基元的过度增长，进而引起显存爆炸，训练难以为继。</p>
-<p>此外，大规模场景下长期以来缺少几何重建质量的有效评估手段，已有的工作或只进行了可视化定性比较，或忽视了欠观测区域不稳定的重建效果对指标产生的干扰。</p>
-<p>大规模场景的重建往往还意味着显著的训练开销，要重建1.97的区域会产生接近两千万的高斯点，意味着需要4.6G的存储以及31.5G的显存开销，以及超过三小时的训练时长。如果要进一步完成压缩，通常还需要额外将近一个小时的时间。</p>
-<p>针对这三方面的技术挑战，中科院自动化所的研究人员提出了CityGaussianV2。该算法继承了CityGaussian的子模型划分与数据分配方案，并使用2DGS作为基元来重建。</p>
-<p class="image-wrapper"><img data-img-size-val="865,353" src="https://img.36krcdn.com/hsossms/20241213/v2_aac2018363ff4282839982fd8a13f396@5888275_oswg167512oswg865oswg353_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>项目主页: https://dekuliutesla.github.io/CityGaussianV2</p>
-<p>论文链接: https://arxiv.org/pdf/2411.00771</p>
-<p>代码链接（500+星）: https://github.com/DekuLiuTesla/CityGaussian</p>
-</blockquote>
-<p>在此基础上，CityGaussianV2引入了基于延展率过滤和梯度解耦的稠密化技术，以及深度回归监督，同时合并了训练和压缩过程，得到了端到端的高效训练管线，不仅有效加速算法收敛，同时保障了稳定、快速、低显存开销的并行训练。</p>
-<h2><strong>CityGaussianV2算法介绍</strong></h2>
-<h3><strong>场景重建基础</strong></h3>
-<p>3DGS使用一组高斯分布表征的椭球对场景进行表征，每个高斯球同时绑定包括不透明度、颜色以及高阶球谐系数等用于alpha blending渲染的属性，并通过包含L1损失和SSIM损失的加权和对渲染质量进行监督。</p>
-<p>在训练过程中，算法还会根据每个高斯基元的梯度信息进行自适应地分裂和克隆，使得重建效果不佳的区域能够自动被更合适的基元填充。</p>
-<p>2DGS旨在增强几何重建精度，并将椭球降维为椭圆面片作为基元表征场景，同时对渲染出的深度和法向量分布施加监督，保证重建表面的平整性。</p>
-<p>CityGaussian旨在将3DGS泛化到大场景，首先预训练一个表征全局场景的粗粒度的3DGS场，随后将预训练结果划分为一系列子模型，并根据子模型对训练视图渲染的贡献程度为每个子模型分配训练数据。每个子模型随后会用不同的GPU并行微调，并在训练结束后进行合并和压缩，得到场景的最终表征。</p>
-<h3><strong>CityGaussianV2的优化算法</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="865,192" src="https://img.36krcdn.com/hsossms/20241213/v2_04090bf403334b7f946078af8d78481e@5888275_oswg69901oswg865oswg192_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">高斯基元优化算法示意图</p>
-<p>现有表面重建方案在泛化到大场景时往往展现出收敛迟缓、训练不稳定等问题，导致并行训练失败，难以取得良好的重建效果。</p>
-<p>算法以泛化能力最好的2DGS为基元，在引入Depth-Anything-V2的伪深度监督提供几何先验的基础上，进一步提出了新的高斯基元稠密化方案。</p>
-<p>可以观察到，在复杂大规模场景上，2DGS在早期训练阶段比3DGS受到更严重的模糊伪影的干扰，导致在迭代次数有限的情况下性能显著劣于3DGS。</p>
-<p>为了缓解这一问题，研究人员引入梯度解耦策略，利用对图像结构差异更为敏感的SSIM损失作为稠密化的主要梯度来源：</p>
-<p class="image-wrapper"><img data-img-size-val="1062,142" src="https://img.36krcdn.com/hsossms/20241213/v2_d293d92c911c463daafc6f411a86fee4@5888275_oswg55403oswg1062oswg142_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此处用于控制梯度的尺度；另外在大规模场景下用2DGS进行重建的障碍在于其退化现象。实验证据表明，当从远距离或侧面视角渲染时，部分面片可能会退化成线或点，尤其是那些延展率比较高的面片。</p>
-<p>对于那些具有高不透明度的投影点，它们的移动往往意味着像素值的剧烈变化，从而使得它们获得较高的梯度，并在稠密化过程中大量增殖，导致基元数量指数级增长，最终导致显存爆炸问题。</p>
-<p>为了解决这一问题，在稠密化过程中，对容易引起退化和梯度集中的具有极端延展率的高斯面片进行了筛选，并对其增殖过程进行了限制，从而在不牺牲性能的情况下有效稳定了训练过程，保障了优化过程的顺利进行。</p>
-<h3><strong>CityGaussianV2的并行训练管线</strong></h3>
-<p class="image-wrapper"><img data-img-size-val="865,130" src="https://img.36krcdn.com/hsossms/20241213/v2_ba3ffe9fb9a34331b36a82ec827bedd7@5888275_oswg56696oswg865oswg130_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">CityGaussianV2训练管线，虚线框为摒弃的算法流程</p>
-<p>CityGaussianV2在V1的基础上进一步优化了并行训练管线，使得训练和压缩过程得到统一，删除了冗余的后处理流程。</p>
-<p>具体而言，算法在子模型的并行训练过程中周期性地遍历训练视角集合并计算每个高斯基元的重要性分数：</p>
-<p class="image-wrapper"><img data-img-size-val="460,93" src="https://img.36krcdn.com/hsossms/20241213/v2_b217779538494fad8f19996c72942db5@5888275_oswg14963oswg460oswg93_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="242,69" src="https://img.36krcdn.com/hsossms/20241213/v2_74add47f39934b0ea6facd77364748ac@5888275_oswg7209oswg242oswg69_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其中为第</p>
-<p class="image-wrapper"><img data-img-size-val="35,36" src="https://img.36krcdn.com/hsossms/20241213/v2_2eb0e993f8d04a5eb587617a81980863@5888275_oswg431oswg35oswg36_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>张训练视图的像素集合，</p>
-<p class="image-wrapper"><img data-img-size-val="40,40" src="https://img.36krcdn.com/hsossms/20241213/v2_806907bb5d61487dbb9370aeee885653@5888275_oswg409oswg40oswg40_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>为第n个基元的不透明度。以此为基础，重要性低于一定百分比阈值的基元会被删除，从而降低显存和存储的开销，使得训练对于低端设备更友好，也显著加速了模型总体的收敛速度。</p>
-<p><strong>大规模重建几何评估协议</strong></p>
-<p class="image-wrapper"><img data-img-size-val="865,141" src="https://img.36krcdn.com/hsossms/20241213/v2_201a62eda0fc4f0ea547c44869bd7186@5888275_oswg57591oswg865oswg141_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">大规模场景几何精度评估流程</p>
-<p>CityGaussianV2填补了大规模场景下几何评测协议长期以来的空白，在Tanks and Temple (TnT) 数据集的启发下，基于点云的目击频次统计设计了针对大规模场景欠观测区域的边界估计方案。</p>
-<p>具体而言，点云真值会首先被初始化为3DGS，在遍历所有训练视图的同时记录每个点的观测频次，观测频次低于阈值的点将被滤除；剩余的点将用于估计垂直方向的高度分布范围，以及地平面内的多边形外接轮廓，二者构成的Crop Volume进一步用于TnT形式的指标计算。</p>
-<p>这一方案有效规避了欠观测区域重建效果不稳定带来的指标波动，使得大规模复杂场景的几何性能评估更为客观公正。</p>
-<h2><strong>实验与分析</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="865,220" src="https://img.36krcdn.com/hsossms/20241213/v2_dc77dedbb8d944e49a8bf3b9e1602fa3@5888275_oswg146439oswg865oswg220_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">与主流算法的性能对比</p>
-<p>在实验中，相比于已有算法，CityGaussianV2在几何精度（精度P，召回率R，综合指标F1-Score）方面达到了最佳的性能表现。</p>
-<p>从可视化结果中也可以看到，CityGaussianV2的重建结果具有更准确的细节，完整性也更高。而渲染质量方面，CityGaussianV2则达到了和V1相媲美的程度，能够带来逼真的浏览体验。此外，CityGaussianV2还能较好地泛化到街道景观，并且在渲染质量和几何精度上都取得良好的性能结果。</p>
-<p class="image-wrapper"><img data-img-size-val="865,370" src="https://img.36krcdn.com/hsossms/20241213/v2_dacf353486ef4fa7a4b2abc69c91699f@5888275_oswg713100oswg865oswg370_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">渲染质量可视化比较</p>
-<p class="image-wrapper"><img data-img-size-val="865,331" src="https://img.36krcdn.com/hsossms/20241213/v2_9380f10d2cae4b0d80de99a6bc46ad28@5888275_oswg398843oswg865oswg331_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">街拍场景可视化比较</p>
-<p class="image-wrapper"><img data-img-size-val="865,378" src="https://img.36krcdn.com/hsossms/20241213/v2_9db840d56fd74517807c4b3ce643ba95@5888275_oswg158402oswg865oswg378_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">高斯基元数量相近情况下的重建性能及训练开销比较</p>
-<p>在训练开销方面，CityGaussianV2克服了2DGS泛化到大规模复杂场景下的种种挑战，不仅有效规避显存爆炸问题，而且实现了相对于V1显著的显存优化，同时在训练用时和几何质量方面大幅领先。针对2DGS的量化压缩策略也使得大规模场景的重建结果能够以400M左右的开销存储下来。</p>
-<h2><strong>总结</strong></h2>
-<p>研究人员致力于大规模复杂场景的高效精准重建，并建立了大规模场景下的几何精度评估基准，提出的CityGaussianV2以2DGS为基元，消除了其收敛速度和扩展能力方面的问题，并实现了高效的并行训练和压缩，从而大大降低了模型的训练成本。在多个具有挑战性的数据集上的实验结果证明了该方法的效率、有效性和鲁棒性。</p>
-<p><strong>参考资料：</strong></p>
-<p>https://dekuliutesla.github.io/CityGaussianV2</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/yNnr4SnQsMlcQUNJjrnHnA" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：LRST，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076748437713792</guid><pubDate>Fri, 13 Dec 2024 12:09:00 +0800</pubDate></item><item><title>ChatGPT「睁眼」了，OpenAI版「Her」满血上线，还有圣诞限定彩蛋</title><link>https://36kr.com/p/3076744254911369</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>时隔7个月，OpenAI版「Her」终于全量上线了！视频聊天和屏幕共享两大功能畅玩，还送上了圣诞老人限定声音。</p>
-</blockquote>
-<p>OpenAI直播第六天，可以说是把圣诞氛围拉满了。</p>
-<p>在高级语音模式中，不仅加入了视频聊天，而且还有限定版圣诞老人语音。</p>
-<p>这就意味着，通过设备共享摄像头摄取到的内容，我们就可以和「Her」实时视频对话了！</p>
-<p class="image-wrapper"><img data-img-size-val="872,137" src="https://img.36krcdn.com/hsossms/20241213/v2_ec06eab9cc73437496958ac536564324@5888275_oswg29930oswg872oswg137_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>与此同时，Day 6还给到了另一个大更新——实时屏幕共享。</p>
-<p>对OpenAI的高级语音模式来说，和视觉AI功能的合并，让它可以处理视频或屏幕上的内容。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1059" src="https://img.36krcdn.com/hsossms/20241213/v2_d2963d57808c4752b459ea95f937f332@5888275_oswg439267oswg1080oswg1059_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">注意，页面中已经出现了视频按钮</p>
-<p>对此，网友们表示：视频一下子就增添了很多诚意和人性。</p>
-<p>还有人说，非常希望自己失明的祖母用上这个功能。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,163" src="https://img.36krcdn.com/hsossms/20241213/v2_0e8375f749844ed081776d6b7100b796@5888275_oswg62686oswg1080oswg163_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过，怎么听着有点耳熟？昨天经过谷歌Gemini 2.0发布洗礼的读者可能会发现，这些，好像都是谷歌玩剩下的……</p>
-<h2><strong>视频通话自我介绍，记忆大考验</strong></h2>
-<p>几天前，总裁Greg在《60分钟》访谈中，再次预告了ChatGPT视频理解的强大能力。</p>
-<p>它不仅可以通过实时视频看到世界，还可以进行实时语音互动。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,934" src="https://img.36krcdn.com/hsossms/20241213/v2_257de304aa2f481281c9b9944f31425d@5888275_oswg653018oswg1080oswg934_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>它流畅地主持了一场解剖学测验，能够实时审阅黑板上的手绘答案并提供反馈；还写了一首三角形面积公式的押韵歌，并用英式口音唱了出来。</p>
-<p>今天，这一功能真的全量上线了。</p>
-<p>OpenAI产品负责人Kevin打开视频通话，介绍了今天出场的四位成员。</p>
-<p>ChatGPT非常丝滑地和他们一一打了招呼，而且每个回答都非常高情商，情绪价值满满。</p>
-<p>比如「ChatGPT多模态团队的工程师？很有趣的工作」，「看起来你们在做一些很棒的项目」，「多模态研究听起来很迷人」。</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_01dfc3a0ec1e4cbeaf17c37f9a6a6cf9@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_1f47679e69884492bdbcb68971229a27@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_4f3cfac47c3f4da6817e3b25854aef3d@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_8d9e50cf1584464a80566e9be014332a@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>接下来，Kevin决定测试一下ChatGPT，看看是否还记得刚刚见过的这几位研究员。</p>
-<p>果然，无论提问戴着驯鹿角的是谁，还是戴着圣诞帽的是谁，它都能立刻给出正确答案。</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_5da1cdb660f3483ebf2495ed946f3964@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>时隔7个月，OpenAI正式推出了视频和屏幕共享的功能。有了这个功能，任何人都可以像是和同事朋友一样，在ChatGPT中通过高级语音进行对话。</p>
-<p>高级语音模式，使用的是多模态4o模型。这意味着它可以直接输入音频，理解并直接输出音频。</p>
-<p>相较于普通语音模式，与高级语音的对话具有更加自然的对话节奏，能够在超50种语言中传达丰富的情感和语调。</p>
-<p>接下来的时间里，研究人员又让ChatGPT教学冲咖啡。</p>
-<h2><strong>制作手冲咖啡，手把手视频教学</strong></h2>
-<p>日常学习生活中，我们在搜集一项技能对应的教程时，常常苦恼只有晦涩难懂的文字，并没有谁能够在网络上对你进行手把手的教学。</p>
-<p>而现在，你可以通过视频和语音实时与ChatGPT交流，比如请求帮助、排除故障，或者用它来学习新东西。</p>
-<p>接下来，让我们看看它是如何手把手地教人制作手冲咖啡。</p>
-<p>研究员给ChatGPT共享摄像头内容，并询问它：「你看到我面前有什么吗？」</p>
-<p>它会回答：「是的，我看到在你面前有一套咖啡设备，其中有一个水壶和一个漏斗。你打算冲咖啡吗？」</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_6861b479a63f4d068d436be8a339c4b0@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>可以看到，ChatGPT不仅迅速判别出场景的物体并给出回答，甚至在没有引导的情况下便主动地发现了场景潜在的需求，然后向研究员提出了对应的问题。</p>
-<p>接着研究员表示自己打算制作手冲咖啡，并让ChatGPT给出引导步骤：「我打算手冲咖啡，你能告诉我该怎么做吗？」</p>
-<p>「当然！首先，把滤纸放在滴滤器中，并用热水冲洗来去除纸味。这也可以给漏斗和杯子加温。」</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_2fffee77929547568bd30763dcef91e1@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「接下来，将研磨好的咖啡放入滤纸中。通常每2汤匙的咖啡需要大约6盎司的水。</p>
-<p>「然后，你要轻轻地在咖啡粉上倒入少量热水，让它们闷泡（Bloom）约30秒。」</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_e940a65a186a432abb20329a74265643@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>研究员对于ChatGPT回答中的词汇表示疑惑，让它进行相应的解释。</p>
-<p>「好的，但闷泡是什么意思？」</p>
-<p>「闷泡指的是激发出咖啡的香气，然后将热水打圈倒入滴滤中」</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_24af6f9473794726b3cf08ddbb4176b4@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「你做的很棒，慢慢来，慢慢地倒热水更有助于均匀地浸泡出咖啡粉的风味」</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_cf4a6e8316b24e328b5e041debe0022d@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在手冲咖啡即将制作完成时，研究员继续让ChatGPT对自己的表现进行点评。</p>
-<p>「你的表现很棒，只需保持稳定地缓缓注水，你到目前为止都做的很出色。」</p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20241213/v2_a9748b71a37d48029c6da3c82edc414e@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>ChatGPT不仅仅只是能给出具体的实施步骤，同时也可以判别你的行动是否是正确的，并及时给出对应的反馈，甚至还能对你进行及时的赞美与鼓励。这种具有情绪价值的教学，比很多散不掉「爹味儿」的指教要好的多。</p>
-<h2><strong>与ChatGPT共享屏幕，帮你回消息</strong></h2>
-<p>除了共享手机摄像头之外，你还可以共享屏幕上的内容。</p>
-<p>首先点击高级语音模式图标，然后进入下拉小菜单，进入共享屏幕。</p>
-<p>这样，ChatGPT就可以看到手机屏幕所展示的内容。</p>
-<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241213/v2_20168e6a4dc5441dae9d1c206f229da5@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>研究员想让ChatGPT帮助自己回复信息，随即打开了Messages应用。</p>
-<p>「ChatGPT，你能看到我的屏幕吗」？</p>
-<p>「是的，我可以看到，你好像在Messages程序中，有什么我能做的吗」？</p>
-<p class="image-wrapper"><img data-img-size-val="485,970" src="https://img.36krcdn.com/hsossms/20241213/v2_ba954f587b4a48de83b6934a5c0c3dec@5888275_oswg239798oswg485oswg970_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来自Kevin信息：嘿，我有能力成为专业的商场圣诞老人吗？</p>
-<p>研究员表示，「你能帮我回答这个问题吗，或者你看到了什么」？</p>
-<p>ChatGPT首先描述了自己所看到文字+图片信息，并问道「你想回答这个问题吗」？</p>
-<p>「我想在这方面得到一些帮助，那么我该如何善意地告诉Kevin，他不应该辞掉他的日常工作呢」？</p>
-<p>ChatGPT答道，「你可以这样说，嘿，Kevin，你的圣诞老人服装看起来很有节日气氛。也许你的继续多练习『Ho, Ho, Ho』，你就可以为商场立即做好准备了」。</p>
-<p>看起来，ChatGPT用更加幽默风趣的方式，帮助回复了消息。</p>
-<h2><strong>圣诞老人限定款——Ho Ho Ho</strong></h2>
-<p>Kevin的一身装扮，很像是一位职业圣诞老人。</p>
-<p>不过，今年，每个人并不需要通过Kevin才能和圣诞老人交谈。</p>
-<p>OpenAI直接上线了，圣诞老人限定声音，作为小礼物。整个12月，你可以直接在ChatGPT中与圣诞老人对话了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,342" src="https://img.36krcdn.com/hsossms/20241213/v2_079cad75d9e74a8e921666a21f7684e4@5888275_oswg114081oswg1080oswg342_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不论你想问什么问题，关于北极的生活，关于小精灵们，或者作为好奇孩子的家长想要一个有趣的故事，圣诞老人都会都会用他标志性的欢乐声音，做出实时回应。</p>
-<p>当然了，找到圣诞老人也很简单。只需在屏幕上，找到「雪花❄️」图标，直接开启对话模式。</p>
-<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241213/v2_730cf687f63646a19fd653fd9aaf0eab@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>研究人员Michelle打招呼，「你好，圣诞老人」。</p>
-<p>「Ho Ho Ho！你好啊！很高兴听到你的消息，你对假期感到兴奋吗」？</p>
-<p>「我非常兴奋。圣诞老人，我有个问题想问你。你最喜欢的圣诞传统是什么」？</p>
-<p>圣诞老人回复道，「Ho Ho Ho！多么美妙的问题！我最喜欢的圣诞传统一定是孩子们把长袜挂在壁炉旁的神奇时刻。这是一个温暖而舒适的传统，充满了对美好事物和惊喜的期待。你最喜欢的节日传统是什么」？</p>
-<p>「这是个不错的回答，圣诞老人。那你最喜欢的驯鹿是谁」？</p>
-<p>「Ho Ho！这可是个棘手的问题！我的每一只驯鹿都有它们自独特的魅力。Rudolph因其明亮的红鼻子，在我心中占有特殊的位置，他的光芒如同指引前路的灯塔。不过闪电、舞者、狂奔者和其他的驯鹿同样重要。他们每一个都为雪橇队带来了无可替代魔力。你有最喜欢的驯鹿吗」？</p>
-<p>接着，Kevin又问道，「如何让我的胡子始终保持最佳状态」？</p>
-<p class="image-wrapper"><img data-img-size-val="1080,597" src="https://img.36krcdn.com/hsossms/20241213/v2_7408608a84d64e2d961b64a08787f4e5@5888275_oswg408224oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「Ho Ho Ho！保持一副华丽的胡子需要一点魔法和细心呵护。首先，保持清洁和修整是很重要的」。</p>
-<p>突然间，圣诞老人的话题被打断，「等下一，我们需要一些实际的反馈」。</p>
-<p>Michelle打开了摄像头，Kevin突然上镜。</p>
-<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20241213/v2_1d3d553ecba54159a2a1dc2a4e266602@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>圣诞老人哈哈大笑，并称「这是非常棒的胡子，它又浓密又蓬松，就像我的一样。只需要稍加梳理，再增添一点节日快乐，就能在圣诞节保持完美状态」。</p>
-<p>Kevin再问道，「这是很棒的胡子，还是最棒的胡子」？</p>
-<p>圣诞老人幽默的回应道，「Ho Ho Ho！朋友，这确实是一副非凡的胡子。它绝对是我见过最棒的胡子之一，充满了节日的精神和欢乐」。</p>
-<p>演示结束前，研究人员问了圣诞老人最后一个问题，「你最喜欢的圣诞笑话是什么」？</p>
-<p>「Ho, Ho，每个小精灵最喜欢的音乐是什么？当然是说唱音乐。Ho, Ho, Ho」。</p>
-<p>整个演示中，圣诞老人声音1:1还原，足以让人感受到了圣诞节的浓郁的氛围了。</p>
-<p>下面是OpenAI官方放出的另一个演示。</p>
-<p>现在，圣诞老人语音模式全面上线，网页端、APP端均可以和圣诞老人对话。</p>
-<h2><strong>Day 6，OpenAI被谷歌吊打</strong></h2>
-<p>不过，尽管OpenAI整了一堆大活，在众人眼里，它还是妥妥被谷歌吊打。</p>
-<p>在很多人眼里，谷歌昨天发布的一系列惊人产品，已经达到了AGI的级别。</p>
-<p>TakeoffAI开发者Mckay Wrigley表示，谷歌Gemini 2.0的实时AI功能太疯狂了。</p>
-<p>只需要共享屏幕，与之交谈，就可以将它变成一个实时代码导师。</p>
-<p class="image-wrapper"><img data-img-size-val="960,605" src="https://img.36krcdn.com/hsossms/20241213/v2_0d564de920f949fa862eecd8013af4f6@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="960,605" src="https://img.36krcdn.com/hsossms/20241213/v2_a52779924e114eea9108ebe1af753291@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,790" src="https://img.36krcdn.com/hsossms/20241213/v2_c7e0cfc3f1af426bbe7d8b742f3d4e31@5888275_oswg230253oswg1080oswg790_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>他表示，如果在两年前向人们展示这项东西，90%的人会说这是AGI。</p>
-<p class="image-wrapper"><img data-img-size-val="877,881" src="https://img.36krcdn.com/hsossms/20241213/v2_1786f7e5e4634674808aa7c8a83928bd@5888275_oswg110311oswg877oswg881_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>就在前一天，Mckay还预测说，OpenAI的圣诞活动中真的需要有带有视频的AVM这类实时产品了。</p>
-<p>果不其然，OpenAI就在今天推出了语音版本。</p>
-<p class="image-wrapper"><img data-img-size-val="889,1102" src="https://img.36krcdn.com/hsossms/20241213/v2_0e82b8cfb53f41678ddffb52dad331ef@5888275_oswg159232oswg889oswg1102_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但跟谷歌昨天的一大波更新相比，实在是相形见绌。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,902" src="https://img.36krcdn.com/hsossms/20241213/v2_a594a5f184264e2eac02a88587ce0c77@5888275_oswg289239oswg1080oswg902_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在AIstudio中，我们可以直接将视频和音频传到Gemini 2.0 Flash中，和它实时对话。</p>
-<p>比如随意向它提问：用架子上的酒能干什么？它会流利回答你：可以做各种鸡尾酒，还提供了非常专业的知识。</p>
-<p>还有人说，Project Astra其实基本上和OpenAI高级语音模式差不多，不同的是，你可以用和模型分享实时视频。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,417" src="https://img.36krcdn.com/hsossms/20241213/v2_19881f8925c041fdbf11aec2a23d2aeb@5888275_oswg156219oswg1080oswg417_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">网友发现，Project Astra几乎可以识别所有东西，了解它们如何在空间上对齐，还能指示相机移回原位</p>
-<p>现在许多圈内人公认：谷歌如今已经击败了OpenAI，它让我们更快一步进入崭新的未来。</p>
-<p class="image-wrapper"><img data-img-size-val="715,455" src="https://img.36krcdn.com/hsossms/20241213/v2_09d119238e5c40669f0b7a0e2ff1fec4@5888275_oswg152090oswg715oswg455_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="500,756" src="https://img.36krcdn.com/hsossms/20241213/v2_3567f41d606845d49b10ae04835c502f@5888275_oswg432675oswg500oswg756_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>参考资料：</strong></p>
-<p>https://x.com/OpenAI/status/1867265721287458851</p>
-<p>https://x.com/OpenAI/status/1867272686751428920</p>
-<p>https://x.com/mckaywrigley/status/1866930933842186427</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/wozogt2vtXyWtN_2JtCRww" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：HYZh ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076744254911369</guid><pubDate>Fri, 13 Dec 2024 12:09:00 +0800</pubDate></item><item><title>LSTM之父：我也是注意力之父，1991年就发表线性复杂度，遥遥领先Transformer 26年</title><link>https://36kr.com/p/3076746659771009</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 13 Dec 2024 16:00:29 +0800</lastBuildDate><pubDate>Fri, 13 Dec 2024 16:00:29 +0800</pubDate><item><title>LSTM之父：我也是注意力之父，1991年就发表线性复杂度，遥遥领先Transformer 26年</title><link>https://36kr.com/p/3076746659771009</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <blockquote>
 <p>Transformer模型自2017年问世以来，已成为AI领域的核心技术，尤其在自然语言处理中占据主导地位。然而，关于其核心机制“注意力”的起源，学界存在争议，一些学者如Jürgen Schmidhuber主张自己更早提出了相关概念。</p>
 </blockquote>
@@ -532,4 +269,153 @@
 <p>但“不务正业”的多元战略能否成功，毫无疑问也是巨头们当下需要解决的新命题。</p>
 <p>煌上煌和“中华老字号”展翠食品，在未来能擦出什么样的火花，同样值得期待。希望不会只是一款“酱卤风味佛手果”。</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjI0Nzk5NA==&amp;mid=2650205697&amp;idx=1&amp;sn=bc9488a63340f00cb10c5f439bd39419&amp;chksm=bf3272581e679d58cb19ca2226ecb3d75cd3857fde8d7195585811831d8222bcc395b729b799&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“融中财经”（ID：thecapital）</a>，作者：千然，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076914571162248</guid><pubDate>Fri, 13 Dec 2024 15:18:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076914571162248</guid><pubDate>Fri, 13 Dec 2024 15:18:00 +0800</pubDate></item><item><title>用AI升级智能终端体验，TCL发布多项AI技术新成果 | 最前线</title><link>https://36kr.com/p/3076954041922178</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>文 | 王方玉</p>
+<p>编辑 | 苏建勋</p>
+<p>AI手机、AI家电、AI PC、AI机器人……AI大模型浪潮下，各类智能终端厂商正在积极布局利用大模型技术推动产品功能与体验升级，拓展新商机，TCL也是其中之一。</p>
+<p>12月11日，2024 TCL全球技术创新大会(TIC2024)上，TCL发布了AI智能操作系统、小T中控大模型等全场景AI应用，还展示了AI冰箱、AI空调、AI电视、学习机等数十款AI智能终端产品。</p>
+<p>“未来十年是人工智能高速发展的十年，所有的产品都值得用AI重新开发一遍，智能化也会成为非常重要的技术战略。TCL的产品，无论是白电还是黑电，都在积极拥抱AI。” TCL实业CTO孙力对36氪表示。</p>
+<p>36氪了解到，从2022年四季度开始，TCL实业就在探索各种大模型，并且在2023年上线了不少集成大模型的产品。</p>
+<p>孙力表示：“AI大模型来了之后，AI智能终端的确出现了很多新的机会，比如说以前的空调，由于智能不够，让它把温度调到26度，它能听懂，但如果换个表达说把室内温度调低一度，它就听不懂了。有了大模型之后，这个问题变得很容易解决。”</p>
+<p>本次大会上TCL发布的小T中控大模型，就是AI大模型技术的典型应用。AI大模型技术使得用户能够以自然对话的方式与设备进行交互。通过机器学习，系统将自动学习用户习惯，提供个性化的操作建议和设置。</p>
+<p>大会现场，TCL科技CTO闫晓林博士展示了基于大模型的人机交互技术在智能电视上的应用成果。在回应诸如“我想看最近几年刘德华新拍的电影”等复杂问题时，小T助手都可以轻松地交互和回答。</p>
+<p>据闫晓林介绍，目前TCL已有200万台智能电视使用了该技术，预计到明年一季度将达到1700万台的量，2025年底所有TCL电视都将支持大模型交互。</p>
+<p>同时由于采用了模型压缩技术，用户用大模型进行频繁交互，也不需要花费很多钱。“在性能基本不变的情况下，一个智能电视无限次来交互，基本上是控制在几毛钱，可以给消费者提供既便宜又好用的体验。”</p>
+<p>在智慧家庭产品展示区，TCL展示了搭载AI能力的智能家庭产品电视、冰箱、洗衣机，智能终端产品手机、学习机等。</p>
+<p>在空调产品上，TCL推出了小蓝翼AI睡眠新风技术，在空调里引入了一个AI睡眠巡航，可以感知睡眠状态下人的诉求，动态调节睡眠环境。</p>
+<p>同时TCL的空调产品还使用AI技术来智能调整压缩机作业情况，结合室内外温度和房间情况，传感器可以自动适时调整运作，从而节省能耗。孙力介绍称，该技术最高可以让空调节电40%，一台空调全年节电可达300度。</p>
+<p>值得一提的是，除了搭载在终端产品上的AI功能外，TCL实业还对于AI大模型做了很多前瞻性探索。其在全球设立的24个研发中心和7个生态合作实验室，是探索的“主力军”，正在积极布局AI、IoT、OS、AR/VR、云计算等技术领域。</p>
+<p>发布会上，TCL展示了美国研发中心推出的AI电影制作应用。据介绍，今年11月，好莱坞TCL中国大剧院首映了5部由知名编剧和导演在TCL AI内容创作平台上生成的短电影。2025年，TCL计划在北美院线推出第一部90分钟AI电影，这将进一步推动AI技术在影视创作领域的创新与应用。</p>
+<p>在发布会的展示区，TCL还展出了一款AI播客应用，名为“转换成播客”，该应用由TCL欧洲研发中心开发，其功能与谷歌近期大热的NotebookLM功能相近，可以把各种语言的网页转换成为AI播客，且支持多种语言的互译。</p>
+<p>当下大热的具身智能领域，TCL也有布局。在工业领域，TCL使用具身机器人进行打胶工艺操作，其首个蒸发器打胶工艺包已完成首次试产。在家庭领域，TCL预计将在CES 2025发布首款家庭机器人概念产品，产品定位为家庭AI伙伴+生活助手。</p>
+<p>透过一系列的AI智能终端，TCL对外展示了其智能化战略的成绩和对前瞻性AI技术的持续探索。</p>
+<p>TCL创始人、董事长李东生在会上表示：“TCL将继续坚持面向未来的前瞻性AI技术研发，聚焦核心资源，发挥全球布局优势，不撒胡椒面，在关键方向构建核心能力，解决实际业务需求，推动技术高效落地。”</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076954041922178</guid><pubDate>Fri, 13 Dec 2024 15:41:00 +0800</pubDate></item><item><title>NeurIPS神仙打架：李飞飞180页PPT谈视觉智能，Bengio同OpenAI员工吵架，何恺明谈AI宿命论</title><link>https://36kr.com/p/3076905763435401</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>我们无法忽视世界是三维的，解决三维智能是根本性的。</p>
+</blockquote>
+<p>李飞飞最新采访来了，继续延伸她在NeurIPS有关视觉智能的话题。</p>
+<p>她表示，解决空间智能问题是迈向全面智能化的基础和关键一步。</p>
+<p>不过从现场传出的NeurIPS演讲PPT中竟然有写：AI将取代人类？！</p>
+<p class="image-wrapper"><img data-img-size-val="940,566" src="https://img.36krcdn.com/hsossms/20241213/v2_a76e294d827f4ccea7b1722aa006f917@46958_oswg527542oswg940oswg566_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这究竟是怎么一回事？！</p>
+<p>有网友表示，当她看到这页时，她的表情be like：</p>
+<p class="image-wrapper"><img data-img-size-val="700,386" src="https://img.36krcdn.com/hsossms/20241213/v2_25edb9f984b34810b91b7ba4eaf45644@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>有一说一，今年NeurIPS好不热闹，大佬们聚在一起，就是容易制造各种话题（Doge）。</p>
+<p>比如，疑似Bengio和OpenAI o1的人吵起来了。</p>
+<p>何恺明竟然探讨起了AI宿命论？？？</p>
+<p>来来来，来看看一个吃瓜汇总。</p>
+<h2><strong>李飞飞180页PPT谈视觉智能</strong></h2>
+<p>今年李飞飞在NeurIPS演讲的话题是《从看到到做：攀登视觉智能的阶梯》。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,813" src="https://img.36krcdn.com/hsossms/20241213/v2_75ad5011886940b1b46ab440a5a4370f@46958_oswg127705oswg1080oswg813_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>她自曝准备了180页ppt，从各种路透图来看，确实是干货满满。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241213/v2_7ecb7ea085b345e7b16b38888acdf59b@46958_oswg89402oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="976,618" src="https://img.36krcdn.com/hsossms/20241213/v2_3ac7f05f69174d9c9811b52b6ad485cd@46958_oswg790688oswg976oswg618_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,813" src="https://img.36krcdn.com/hsossms/20241213/v2_0c81c13d4ff14b6e9a42c53f2dad4060@46958_oswg83971oswg1080oswg813_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而在最新IEEE Spectrum采访中，她进一步揭示了相关细节。（该采访是在NeurIPS演讲前进行）</p>
+<h2><strong>采访实录：</strong></h2>
+<p><strong>Q：为什么演讲题目是“攀登视觉智能的阶梯（Ascending the Ladder of Visual Intelligence）”？</strong></p>
+<p><strong>李飞飞</strong>：我认为，直觉告诉我们，智能具有不同的复杂度和精密度。在演讲中，我想传达这样一种感觉：在过去的几十年里，尤其是过去十多年的深度学习革命中，我们在视觉智能方面所取得的成就令人惊叹。我们越来越擅长使用这项技术。我还受到了 Judea Pearl 的“因果关系阶梯”的启发。（收录于2020年出版的《the Book of Why》）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,848" src="https://img.36krcdn.com/hsossms/20241213/v2_459cb38c5afb43dd9d5fbd9a26c3fefa@46958_oswg905797oswg1080oswg848_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（这里插一嘴，Judea Pearl本人还特意纠正了一下，他表示因果关系阶梯所定义的等级是第一定律的数学结果，而不是一种判断性的建构。）</p>
+<p class="image-wrapper"><img data-img-size-val="790,212" src="https://img.36krcdn.com/hsossms/20241213/v2_3994a54c12f145e69a74f1a9908beade@46958_oswg54277oswg790oswg212_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>李飞飞</strong>：演讲还有一个副标题，即“从看到到做（From Seeing to Doing）”。这是人们没有足够重视的一点：“看 ”都与互动和 “做 ”密切相关，无论是对于动物，还是AI Agents来说都是如此。<strong>这与语言是不同的</strong>。语言从根本上说是一种交流工具，用来传递思想。在我看来，这些都是非常互补但同样深刻的智能模式。</p>
+<p><strong>Q：你的意思是说，我们会对某些景象做出本能的反应？</strong></p>
+<p><strong>李飞飞</strong>：我说的不仅仅是本能。如果你看一下感知力的进化和动物智力的进化，就会发现这两者之间有着深刻的联系。每当我们能够从环境中获得更多信息时，进化的力量就会推动能力和智力的发展。如果你不能感知环境，你与世界的关系就会非常被动；你是吃还是被吃，都是非常被动的行为。但是，一旦你能够通过感知从环境中获取线索，进化的压力就会真正增强，从而推动智力向前发展。</p>
+<p><strong>Q：你认为这就是我们创造更深入的机器智能的方式吗？让机器感知更多的环境？</strong></p>
+<p><strong>李飞飞</strong>：我不知道 “深度 ”是不是我想用的形容词。我认为我们正在创造更多的能力。我认为它正变得越来越复杂，越来越有能力。<strong>我认为，解决空间智能问题是迈向全面智能化的基础和关键一步</strong>，这是绝对正确的。</p>
+<p><strong>Q：我看过世界实验室的演示。你为什么要研究空间智能并构建这些三维世界？</strong></p>
+<p><strong>李飞飞</strong>：我认为空间智能是视觉智能的发展方向。如果我们真的要破解视觉问题，并将其与做事联系起来，那么有一个极其简单、一目了然的事实：<strong>世界是三维的</strong>。我们生活的世界不是平面的。我们的物理Agent，无论是机器人还是设备，都将生活在三维世界中。就连虚拟世界也变得越来越3D化。如果你与艺术家、游戏开发者、设计师、建筑师、医生交谈，即使他们是在虚拟世界中工作，其中大部分也是三维的。如果你能花点时间认识到这个简单而深刻的事实，那么毫无疑问，<strong>解决3D智能问题就是根本所在</strong>。</p>
+<p>一旦你尊重了世界的三维性，很多事情就自然而然地发生了。例如，在我们发布在社交媒体上的一个视频中，篮球被投放到一个场景中。因为它是三维的，所以你可以拥有这种能力。如果场景只是 2D 生成的像素，篮球将无处可去。</p>
+<p><strong>Q：或者，就像Sora中那样，它可能会去到某个地方，但随后就消失了。在你尝试推进这项技术的过程中，最大的技术挑战是什么？</strong></p>
+<p><strong>李飞飞</strong>：没有人解决过这个问题，对吧？这非常非常难。在世界实验室的演示视频中，你可以看到我们将一幅梵高的画作，以一致的风格生成了它周围的整个场景：艺术风格、灯光，甚至是那个社区会有什么样的建筑。如果你转过身去，它就变成了摩天大楼，那就完全没有说服力了，对吗？它必须是 3D 的。你必须进入其中。所以它不仅仅是像素。</p>
+<p><strong>Q：你能说说你用来训练它的数据吗？</strong></p>
+<p><strong>李飞飞</strong>：很多。</p>
+<p><strong>Q：你们在计算负担方面遇到过技术挑战吗？</strong></p>
+<p><strong>李飞飞</strong>：计算量很大。这是公共部门负担不起的计算量。这也是我很高兴能休假，以私营部门的方式来做这件事的部分原因。我的亲身经历强调了在获得充足资源的情况下进行创新的重要性。</p>
+<p>知识的发现需要资源的支持，对吧？在伽利略时代，是最好的望远镜让天文学家观测到了新的天体。是虎克意识到放大镜可以变成显微镜，发现了细胞。每一次新技术工具的出现，都有助于知识的探寻。而现在，在人工智能时代，技术工具涉及计算和数据。我们必须认识到这一点。</p>
+<p><strong>Q：假设我们能让人工智能系统真正理解三维世界，这会给我们带来什么？</strong></p>
+<p><strong>李飞飞</strong>：它将为人们释放大量的创造力和生产力。我希望能以更高效的方式设计我的房子。我知道，许多医疗用途都涉及到理解一个非常特殊的三维世界，那就是人体。我们总在谈论未来人类将创造机器人来帮助我们，但机器人是在三维世界中航行的，它们需要空间智能作为大脑的一部分。我们也在谈论虚拟世界，它能让人们参观景点、学习概念或娱乐。这些虚拟世界使用三维技术，尤其是混合技术，也就是我们所说的 AR（增强现实技术）。我很想戴着一副眼镜在国家公园里漫步，它能为我提供有关树木、道路和云彩的信息。我还想通过空间智能学习不同的技能。</p>
+<p><strong>Q：什么样的技能？</strong></p>
+<p><strong>李飞飞</strong>：我举个蹩脚的例子，如果我在高速公路上爆胎了，我该怎么办？现在，我打开了一个 “如何换轮胎 ”的视频。但如果我能戴上眼镜，看到我的车发生了什么，然后在指导下完成这个过程，那就很酷了。但这只是个蹩脚的例子。你可以考虑烹饪，可以考虑雕刻—有趣的事情。</p>
+<p><strong>Q：你认为我们在有生之年能在这方面取得多大进展？</strong></p>
+<p><strong>李飞飞</strong>：哦，我认为这将在我们有生之年实现，因为科技进步的步伐真的很快。你已经看到了过去 10 年所带来的变化。这无疑预示着下一步会发生什么。</p>
+<h2><strong>今年NeurIPS好热闹</strong></h2>
+<p>NeurIPS整个会议期间，可以说是好不热闹。</p>
+<p>比如，Bengio和OpenAI的人吵起来了。</p>
+<p>据在场的人爆料，在今年因果关系小组讨论中，OpenAI o1的主创表示，我们最终应该训练Agent来优化对世界的理解，来解决科学问题。</p>
+<p>Bengio还有一位谷歌AGI安全研究员Tom Everitt则指出这样做很可怕！他们表示不应该制造这样强大的Agent，还有其他方法可以增强人类的能力，并进行科学研究，比如让模型学习因果图。</p>
+<p>而就在刚才，Bengio还进一步回应了，再次强调了AI Agent潜在的风险。</p>
+<blockquote>
+<p>如果我们不解决调整和控制问题，随着我们赋予系统越来越多的代理权，人工智能的风险将继续增长。在此之前，我们需要在科学和政策两方面取得重大进展。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="800,800" src="https://img.36krcdn.com/hsossms/20241213/v2_2033b20c221046ed8b51d7a129be9791@46958_oswg584852oswg800oswg800_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而何恺明竟然探讨起了AI宿命论？！</p>
+<p>据热心网友们的爆料，他是在被问到AI属于发明还是发现的时候。</p>
+<p>他表示这要看你相不相信宿命论了。（Doge）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241213/v2_9d6150f67a574093a9df19900a92cb51@46958_oswg80122oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除此之外，他在演讲中探讨了AI未来的发展：Super-human AI？</p>
+<p>据小红书网友爆料，他提到一个有意思的观点，他将人类比作大模型的传感器：</p>
+<p>人类感知，理解，压缩了世界的所有的知识并用文本和语言记录下来。大语言模型吸取，学习这些内容并将其建模为一个强大而丰富的空间。但是就像你只用RGB观测宇宙一样，总会有紫外，红外这样看不到，看不清的东西。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20241213/v2_97162c39bc174c36bf9d163a47f669a6@46958_oswg54503oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">△</p>
+<p>好了，NeurIPS期间还有没有发生什么有意思的事情，欢迎小伙伴们跟我们爆料。</p>
+<p>参考链接：[1]https://spectrum.ieee.org/fei-fei-li-world-labs[2]https://x.com/connoraxiotes/status/1866921924703498412[3]https://x.com/kyliebytes/status/1866987524805234785[4]https://www.xiaohongshu.com/explore/6759be860000000001029429[5]http://xhslink.com/a/IFIoiN1IoRy1[6]https://x.com/yoshua_bengio/status/1867274312941523193?s=46&amp;t=iTysI4vQLQqCNJjSmBODPw</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/UBBIVnSFS2Xy0bNc5xCEmA" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：白小交，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076905763435401</guid><pubDate>Fri, 13 Dec 2024 15:59:00 +0800</pubDate></item><item><title>国产全AI游戏来了？大模型直出开放世界游戏，有声可交互</title><link>https://36kr.com/p/3076905859494784</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>距离普通人凭想法就能做出游戏的时代，又近了一步。</p>
+<p>AI游戏生成天花板今年以来不断突破，就在昨天，国产游戏AI团队也加入卷出了新高度。</p>
+<p>巨人网络发布了“千影 QianYing”有声游戏生成大模型，其中包括游戏视频生成大模型YingGame、视频配音大模型YingSound。</p>
+<p>先来感受一段1分26秒的生成样片：</p>
+<p>用一段文字、一张图，就能生成<strong>模拟开放世界游戏</strong>的视频，并且<strong>有声、可交互，可操控角色的多种动作</strong>。</p>
+<h2><strong>面向开放世界游戏，无需游戏引擎</strong></h2>
+<p>概括来说，YingGame 是一个面向开放世界游戏的视频生成大模型，研究团队来自巨人网络AI Lab、清华大学SATLab，首次实现角色多样动作的交互控制、自定义游戏角色，同时具备更好的游戏物理仿真特性。</p>
+<h3><strong>精确的物理规律仿真</strong></h3>
+<p>从生成的视频中看，无论是汽车碰撞、火焰燃烧这类大场面，还是水中慢走、障碍物自动绕行这种人物行进，都表现出了出色的遵循物理规律能力。</p>
+<p class="image-wrapper"><img data-img-size-val="480,320" src="https://img.36krcdn.com/hsossms/20241213/v2_e136ac8c8edc4bf4800577b17fa55ade@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>多样动作控制</strong></h3>
+<p>交互对游戏至关重要，YingGame能够理解用户的输入交互，包括文本、图像或鼠标、键盘按键等操作信号，从而让用户能够操控游戏角色的多样动作。</p>
+<p>视频中展示了角色在开枪、变身、施法、使用道具、攀爬、匍匐、跑跳等肢体动作的交互，相比同类模型更加丰富、丝滑。</p>
+<p class="image-wrapper"><img data-img-size-val="752,320" src="https://img.36krcdn.com/hsossms/20241213/v2_d34bb6ab89b3485599ca08ea058f8639@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>角色个性化与精细主体控制</strong></h3>
+<p>YingGame还支持输入一张角色图片，实现角色自定义生成，同时对角色主体实现精细化控制，从过去的AI捏脸跨越到现在的AI捏人。</p>
+<p class="image-wrapper"><img data-img-size-val="568,320" src="https://img.36krcdn.com/hsossms/20241213/v2_34adacf3af0e440b8d140862b56f2813@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>第一人称视角</strong></h3>
+<p>此外，还看到模型生成的第一人称视角的游戏画面，不得不说，这个视角有很足的游戏沉浸感。</p>
+<p class="image-wrapper"><img data-img-size-val="480,320" src="https://img.36krcdn.com/hsossms/20241213/v2_11f344b3f2f247a3b63a0a8fe3b61e2e@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>怎么实现的？</strong></h3>
+<p>从技术上看，YingGame 通过融合跨模态特征、细粒度角色表征、运动增强与多阶段训练策略，以及所构建的高效、高质量游戏视频训练数据生产管线，使得生成内容具备可交互能力的多样动作控制、角色自定义与精细主体控制、复杂运动与动作连续性等特性。</p>
+<p>在交互性实现上，YingGame 结合了<strong>多个Interactive Network模块：</strong>理解用户输入的多模态交互方式，实现多样动作控制的多模态交互网络 — MMIN (Multi-Modal Interactive Network)；实现复杂与连续角色动作生成的动作网络 — IMN (Interactive Motion Network)；自定义角色生成与提高角色生成质量的角色网络 — ICN (Interactive Character Network)。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,475" src="https://img.36krcdn.com/hsossms/20241213/v2_acb2fdebe7ee41d1870af9dcb97cfab9@46958_oswg160971oswg1080oswg475_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此外，为实现高质量训练数据构建，巨人AI团队设计了一条高效的游戏视频数据处理管线：</p>
+<p>基于场景与高光产出高质量视频片段，其中对高光视频片段进行音频信息提取，作为V2A训练集；</p>
+<p>基于运动得分、美学评分等进行视频过滤；</p>
+<p>vLLM-based video caption流程，并对结果进行clip score文本视频对齐评分过滤；</p>
+<p>多任务数据处理，如分割、主体检测、姿势估计、深度估计、相机运动估计等。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1002" src="https://img.36krcdn.com/hsossms/20241213/v2_01933343672a4d868af25676b371d0f3@46958_oswg354286oswg1080oswg1002_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>让AI游戏进入有声时代</strong></h2>
+<p>除了YingGame之外，巨人还发布了针对视频配音场景的多模态音效生成大模型 YingSound。</p>
+<p>这是在此之前AI游戏生成领域没有实现的，而“声音”是游戏的基本要素。</p>
+<p>YingSound 由巨人网络AI Lab、西工大ASLP Lab和浙江大学等联合研发，它最重要的技能是：<strong>给无声视频配音效，实现音画同步。</strong></p>
+<p>YingSound有超强的时间对齐和视频语义理解能力，支持多种类型的高精细度音效生成，并且具备多样化应用场景泛化能力，包括游戏视频、动漫视频、真实世界视频、AI生成视频等。</p>
+<h3><strong>理解各种视频画面能力一绝</strong></h3>
+<p>来一段游戏的配音示例，通过演示视频可以清晰看到，这个模型能够精确地生成与场景高度匹配的音效，包括开镜、炮轰、射击等声音，完美还原坦克进攻与士兵防守射击的声音，创造了沉浸式的游戏体验。</p>
+<p>在动漫场景中，模型展示了对复杂剧情的理解能力。例如，在一段鸟儿互相扔蛋的动画中，模型生成了从惊讶到扔蛋、蛋飞行轨迹、接住蛋等一系列卡点且高度符合视频内容的音效。</p>
+<p>再来看看以下小球快速移动的画面，模型生成的声音能够精准匹配画面的动态变化，并针对小球不同状态生成相应的场景音效，充分展现了其对动画内容的深度理解。</p>
+<p>在真实世界场景中，通过一段激烈的乒乓球对战视频，模型能够精准地生成每次击球所产生的音效，甚至还生成了球员跑动时鞋底与地面摩擦的声音，这充分展现 YingSound 对视频整体语义的深刻理解和出色的音效生成能力。</p>
+<h2><strong>测评结果领先</strong></h2>
+<p>研究团队公开了 YingSound 的两个核心模块：<strong>基于 DiT 的 Flow-Matching 构建的音效生成模块，以及多模态思维链（Multi-modal CoT）控制模块</strong>，为音效生成提供精准支持。</p>
+<p>在音效生成模块中，团队基于 DiT 的 Flow-Matching 框架，提出了创新的音频-视觉融合结构（Audio-Vision Aggregator, AVA）。该模块通过动态融合高分辨率视觉与音频特征，确保跨模态对齐效果。通过多阶段训练策略，逐步从 T2A 过渡到 V2A，并采用不同数据配比训练，使模型具备从文本、视频或二者结合生成高质量音效的能力。</p>
+<p>同时，团队设计了多模态视频-音频链式思维结构（Multi-modal CoT），结合强化学习实现对少样本情况下音效生成的精细控制，可广泛适用于短视频、动漫及游戏等配音场景。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,636" src="https://img.36krcdn.com/hsossms/20241213/v2_26d17a1a372848b9b3f94f610fdb558e@46958_oswg158463oswg1080oswg636_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>团队精心构建了符合行业标准的V2A（video-to-audio）数据集，覆盖了电影、游戏、广告等多场景、多时长的音视频内容。为确保数据质量，研究团队还设计了一套完善的数据处理流程，涵盖数据收集、标注、过滤和剪辑。针对不同视频类型的复杂性与差异性，团队基于多模态大语言模型（MLLMs）及人工标注，完成时间戳和声音事件的高质量标注。同时，通过严格筛选，过滤掉背景音乐干扰及音视频不同步的内容，最终生成符合行业标准要求的训练数据，为后续研究与开发提供了坚实基础。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,317" src="https://img.36krcdn.com/hsossms/20241213/v2_52e9480b4b834fefaabf6f5bc2d3e69f@46958_oswg115937oswg1080oswg317_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>通过客观指标测评可以看出，YingSound 大模型<strong>在整体效果、时间对齐和视频语义理解等客观测评上均达到业界领先水平</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,391" src="https://img.36krcdn.com/hsossms/20241213/v2_8abad5639b4d45979567ca2e2db66bfc@46958_oswg232377oswg1080oswg391_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>长期来看，视频生成技术因其展现出的取代游戏引擎的潜力，势必会对游戏行业带来颠覆式创新。</p>
+<p>通过文字描述就能创作一个游戏，不再是异想天开。这个领域的发展速度之快超乎想象，AI将带来游戏创作平权，未来游戏创作的唯一限制可能只是创作者们的想象力。</p>
+<p>今年年初，史玉柱谈到巨人网络在探索打造一个AI游戏孵化平台，降低做游戏的门槛，让普通人也能做游戏。这不，年底就交了第一份“作业”，期待他们在AI游戏赛道的下一步规划。</p>
+<p>更多细节，可戳下方链接查看完整技术报告。https://giantailab.github.io/yinggame/https://giantailab.github.io/yingsound/</p>
+<p>*本文系量子位获授权刊载，观点仅为作者所有。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/lHzPmepqwHDotNBJzABdmQ" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：允中，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3076905859494784</guid><pubDate>Fri, 13 Dec 2024 15:59:00 +0800</pubDate></item></channel></rss>
