@@ -1,86 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 14 Dec 2024 13:30:31 +0800</lastBuildDate><pubDate>Sat, 14 Dec 2024 13:30:31 +0800</pubDate><item><title>XR一夜变天，谷歌“重做安卓”！三星MR头显亮牌，硬刚苹果</title><link>https://36kr.com/p/3077255561181057</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>编译 |</strong>汪越</p>
-<p><strong>编辑 |</strong>漠影</p>
-<p>智东西12月13日消息，时隔十年，谷歌重磅推出Android XR系统，这是安卓生态首次推出针对XR设备的专用平台。</p>
-<p>2013年，谷歌推出了Google Glass，但由于高昂的价格、隐私顾虑和技术限制，这款AR眼镜未能取得成功。随后，谷歌又推出了Google Daydream平台，试图将智能手机转变为VR设备，但因市场接受度低，该平台于2019年停产。如今，谷歌与三星和高通合作，再次出击，推出了涵盖头显、AR眼镜和AI眼镜等设备的Android XR操作系统。</p>
-<p>Android XR系统将首先在头显设备上推出，首款设备由三星制造，代号为Project Moohan，预计明年上市。此次发布中，三星的MR头显外观概念图首次曝光，三星还将独家负责开发谷歌的视觉透视（VST）头显。</p>
-<p>三星的头显将搭载于12月11日发布的Gemini 2.0 AI，支持自然语言对话控制、任务规划以及即时信息检索功能。用户只需通过一个简单的手势，便可即时获取眼前物体的相关信息。与苹果和Meta的设备不同，这款头显支持同时感知真实与虚拟内容，并提供内外视图切换功能。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_ddd2a674312d44be85f8bfb24cd08c6b@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>▲使用简单手势在Android XR头显设备上搜索内容（图源：谷歌）</p>
-<p>三星未透露头显的具体硬件信息。在处理器配置上，高通已确认将配备高通骁龙XR2+ Gen 2芯片。</p>
-<p>AR眼镜也将在未来推出，谷歌计划开始测试原型眼镜。其首个合作伙伴为中国消费级AR眼镜制造商Xreal，该公司由Magic Leap、谷歌和AMD的前员工创立，负责开发谷歌光学透视（OST）AR眼镜。该眼镜预计将采用micro-OLED显示技术，具体供应商尚未确定。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_bf62b45492544478a539de42247fef40@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>▲Android XR眼镜上的翻译（图源：谷歌）</p>
-<p>据谷歌介绍，Android XR是“为下一代计算构建的全新操作系统”，目前已发布面向开发者的预览版。索尼、Xreal及MR头显制造商Lynx Mixed Reality等公司已承诺为该操作系统提供支持，谷歌还将继续与Magic Leap合作开发XR技术和未来产品。</p>
-<p><strong>01.</strong></p>
-<p><strong>三星头显：搭载Gemini AI</strong></p>
-<p><strong>可感知虚拟内容，支持内外视图切换</strong></p>
-<p>谷歌Android生态系统总裁萨米尔·萨马特（Sameer Samat）谈道，谷歌已开发Android XR多年，但"暂停"重建软件以围绕AI展开。随着Gemini 2.0的到来，AI功能现已成为操作系统的核心。</p>
-<p>昨天，在加州山景城谷歌办公室的一系列演示中，谷歌和三星公司展示了三星头显的功能以及几款谷歌开发的眼镜原型。</p>
-<p>三星尚未公布这款头显的具体价格和上市时间，但暗示其售价将低于Apple Vision Pro的3499美元。</p>
-<p><strong>1、AI能力是Android XR操作系统核心</strong></p>
-<p>此前，在谷歌I/O期间DeepMind发布的Project Astra AI项目，是谷歌探索通用 AI 助手未来功能的研究原型。谷歌当时展示了一个原型概念：用户戴上AR眼镜，不仅能理解现实世界中的各种元素，眼镜还能记录和提醒用户关于特定物件的位置等信息。</p>
-<p>12月11日，谷歌推出了Gemini 2.0，这是面向Agent时代的新AI模型。作为谷歌探索通用AI助手未来功能的研究原型，Project Astra AI现已集成Gemini 2.0，提供了更强大的交互能力。</p>
-<p>借助Gemini 2.0，用户可以通过自然语言对话控制设备、规划任务、研究主题并完成各种任务。此外，Circle to Search功能允许用户只需一个简单手势即可快速获取面前物体的相关信息。</p>
-<p>Gemini 2.0内置的Android XR能够同时感知真实和虚拟内容，支持头显内外的视图切换。这一点区别于苹果的visionOS（Siri仅支持真实世界视图）和Meta Horizon（实验性AI只支持现实世界视图）。</p>
-<p>萨马特将Android XR操作系统分为三个层次：</p>
-<p>第一层是二维应用，这些是Google Play商店中现有应用的放大版本；</p>
-<p>第二层是空间化应用程序，例如媒体应用程序，它们将某些元素（如YouTube评论）分布到用户周围的空间中，以便于查看；</p>
-<p>第三层是完全沉浸式应用程序，专门为混合现实构建的应用程序。</p>
-<p>Android XR操作系统的设计让人联想到苹果的visionOS，支持多个可移动和调整大小的窗口，用户可以像使用标准计算机一样操作，配合鼠标和键盘控制。它集成了许多核心Android应用程序和服务，包括Maps、YouTube、Google TV、Photos、Docs和Chrome。</p>
-<p>Google TV：提供曲面屏幕显示，信息面板从主窗口伸出，实现了所谓的“空间化”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_38d8c1a870f14239908bdab144e2c8ce@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>▲Android XR头显设备上的Google TV（图源：谷歌）</p>
-<p>Google Photos：布局重新设计，自动将照片和视频转换为3D格式，并提供3D回忆功能。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_186abd9e653e4beca78cb5a990bc2857@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>▲Android XR头显设备上的谷歌相册（图源：谷歌）</p>
-<p>YouTube：支持大曲面屏幕及360度、180度和3D内容库。</p>
-<p>Chrome：支持多浏览器窗口，实现浏览网页时的多任务处理，可配合Android XR内置的蓝牙鼠标和键盘支持。</p>
-<p>Google Maps：提供完全沉浸式的街景摄影和三维场景视图（基于高斯飞溅）。</p>
-<p><strong>2、搭载骁龙XR2+ Gen 2芯片</strong></p>
-<p>谷歌和三星已确认该头显设备将采用高通提供的理论上，骁龙XR2+ Gen 2芯片。</p>
-<p>高通在其新闻稿中指出，骁龙 XR2+ Gen 2支持单只眼睛高达4.3K分辨率，以每秒90帧的速度运行，这将显著提升视觉体验，使VR环境更加逼真。</p>
-<p>在性能方面，相比为Meta Quest 2提供动力的骁龙 XR1芯片，XR2+ Gen 2的CPU和GPU频率分别提升了3%和3%。此外，与前代产品XR2 Gen 2相比，XR2+ Gen 2的GPU和CPU频率分别提高了15%和20%，进一步增强了整体性能。</p>
-<p>骁龙 XR2+ Gen 2不仅支持高分辨率显示，还最多可以支持12个具有全彩视频直通和深度感应功能的并发摄像头，以增强用户的沉浸感和交互性。同时，该芯片集成了最新的Wi-Fi 7和6E标准，确保快速稳定的网络连接。</p>
-<p>理论上，骁龙 XR2+ Gen 2将允许三星的VR头显输出比Meta Quest 3更高的单眼分辨率。不过，三星是否会推出如此高分辨率的显示器仍有待观察。</p>
-<p><strong>3、或采用micro-OLED显示屏</strong></p>
-<p>三星在新闻稿中表示，Moohan头戴式设备将配备“最先进的”显示屏，但未透露具体硬件细节。</p>
-<p>业界普遍认为，这款设备可能会采用micro-OLED显示屏，但目前尚不清楚这些显示屏是来自三星内部还是第三方供应商。有传言称，由于三星自己的micro-OLED技术预计要到2026年才能成熟，该公司可能从竞争对手处采购显示器。</p>
-<p>Apple Vision Pro使用的是索尼提供的micro-OLED显示屏。如果三星确实选择采用类似的显示技术，那么Moohan头显有望在图像质量和沉浸感方面达到新的高度。</p>
-<p><strong>4、较Vision Pro更轻便、佩戴更舒适</strong></p>
-<p>据彭博社报道，三星Moohan头显在设计上与Apple Vision Pro有不少相似之处，包括曲面正面、内置扬声器和高分辨率显示屏。它同样具备在VR和AR模式之间切换的功能，并通过电缆连接外部电池组。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_e75d6a039bc94fbba8bfa338aaed92c8@000000_oswg22991oswg534oswg300_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>▲三星Moohan头显（图源：谷歌）</p>
-<p>这款硬件被灰色塑料包裹，配有衬垫，支持有光密封或无光密封两种佩戴方式，以适应不同的使用场景。电池组可互换并通过USB-C接口连接，用户可以根据需要选择不同电池寿命的电池组，灵活调整使用时间。</p>
-<p>三星设备的一个显著优势是其更轻的设计，长时间佩戴更为舒适。它配备了一个大垫子支撑用户的后脑勺，并有一个环绕头部的可调节塑料件，确保稳固贴合。</p>
-<p>三星头显的视野比Vision Pro更大，允许用户一次看到更多内容。用户可以通过双击侧面按钮在AR和VR模式之间轻松切换，从而在现实世界视图和虚拟环境（如山脉或其他背景）之间自由转换。</p>
-<p>相比之下，Vision Pro用户通过转动类似手表表冠的控制器来调整沉浸程度。此外，三星设备支持手眼控制，用户需举起双手进行交互；而Vision Pro用户可以将手放在膝盖上，依靠手势识别技术完成操作。</p>
-<p>三星或在即将到来的Galaxy Unpacked活动中公布更多关于其VR头显的细节，并展示其XR智能眼镜。</p>
-<p><strong>5、视频内容与开发者支持</strong></p>
-<p>Android XR支持所有现有的二维Android应用，默认情况下，Play Store中的应用都会兼容这个新系统，除非开发者选择退出。这意味着从发布之初，Android XR设备就拥有大量可用的应用程序，为用户提供了即时的丰富体验。</p>
-<p>为了促进内容生态的发展，谷歌推出了多项措施来支持开发者。新的Jetpack XR SDK、Android XR模拟器以及与Unity合作提供的扩展工具，旨在帮助开发者更轻松地创建和测试空间应用程序。</p>
-<p>在视频内容方面，谷歌计划充分利用YouTube上已有的立体视频资源，为用户提供丰富的沉浸式体验。与苹果为Vision Pro资助原创VR视频内容并逐步增加材料的做法类似，谷歌也将通过第三方应用程序的软件开发工具包（SDK），确保用户可以从Google Play商店访问现有的Android手机和平板电脑应用程序，进一步扩展其内容库。</p>
-<p><strong>02.</strong></p>
-<p><strong>AR眼镜：Xreal独占开发权</strong></p>
-<p><strong>智能手机外接屏幕，全天候智能辅助</strong></p>
-<p>目前，针对Android XR的具体智能眼镜产品尚未正式推出。据爆料，中国厂商Xreal独占了光学透视（OST）AR眼镜的开发权。谷歌方面表示，未来其智能眼镜将很快成为智能手机的外接屏幕工具。</p>
-<p>Gemini2.0是Android XR计划的核心组件，而紧凑型智能眼镜则是该计划的关键载体之一。这种新型眼镜在保持普通眼镜外观的基础上，提供了平视显示和AI对话时的音频反馈功能。与十年前的Google Glass相比，新一代智能眼镜设计更加时尚智能，几乎肯定会配备摄像头用于数据收集和环境感知。</p>
-<p>谷歌展示的第一批眼镜原型属于其Project Astra计划的一部分。这些原型不仅能提供行人转弯导航等功能，还可以利用内置的AI助手完成家务等任务。</p>
-<p>这些设备依赖于Raxium公司创建的microLED技术——谷歌两年前收购的这家公司专注于增强现实眼镜的制造。MicroLED技术能够在低功耗的情况下实现明亮图像，使眼镜通过外部摄像头收集数据并与用户的手机同步。</p>
-<p>截至目前，谷歌尚未透露第一款配备Android XR的眼镜何时正式上市。萨马特说，公司正在向测试人员提供原型，并将在“有意义的时候”将产品推向市场。谷歌的目标是推出一系列既时尚又舒适的眼镜，让用户愿意每天佩戴，并与他们的其他Android设备无缝协作。</p>
-<p>未来，用户可一键激活Gemini，无需使用手机即可获取有用的信息，如路线指引、翻译服务或消息摘要。所有这些信息都将直接呈现在用户的视线范围内或通过耳中传递，确保信息获取的便捷性和即时性。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241213/v2_af3a09fae71443cca09afe929fdf6600@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>▲Android XR眼镜上的导航（图源：谷歌）</p>
-<p><strong>03.</strong></p>
-<p><strong>结语：Android XR生态系统</strong></p>
-<p><strong>或吸引大批XR制造商</strong></p>
-<p>自2022年以来，AI技术发展迅速，AI应用场景不断扩展，特别是在XR领域。搭载Gemini 2.0的Android XR操作系统，使三星头显设备能够同时感知和交互虚拟与真实世界的信息，这一功能超越了市场上现有的Vision Pro和Meta雷朋眼镜。</p>
-<p>除了头显设备，谷歌还在加速开发AR眼镜和AI眼镜，推动XR技术的广泛应用。</p>
-<p>XR行业仍处于初期阶段。虽然苹果和Meta在早期占据了一定优势，谷歌凭借其强大的生态系统和开发者社区，具备吸引更多XR设备制造商加入Android XR平台的潜力。</p>
-<p>来源：谷歌、彭博社、CNET</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652777608&amp;idx=2&amp;sn=40a53f72aaff5543e905c0b1fb0bd525&amp;chksm=85d7163afa649519e732743bc2a9c80f9be6f0d0c0d99ee74a1a5d786dce37e8bc7e3d2887be&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智东西”（ID：zhidxcom）</a>，作者：汪 越，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077255561181057</guid><pubDate>Sat, 14 Dec 2024 09:30:00 +0800</pubDate></item><item><title>产品获马斯克点赞，AI机器人公司「TangibleFuture」完成数百万天使轮融资｜硬氪首发</title><link>https://36kr.com/p/3041480743940359</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 14 Dec 2024 14:00:26 +0800</lastBuildDate><pubDate>Sat, 14 Dec 2024 14:00:26 +0800</pubDate><item><title>产品获马斯克点赞，AI机器人公司「TangibleFuture」完成数百万天使轮融资｜硬氪首发</title><link>https://36kr.com/p/3041480743940359</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>作者｜黄楠</p>
 <p>编辑｜袁斯来</p>
 <p>手机作为人们日常使用频率最高的物品，你是否想象过，有一天它不仅可以被赋予身体、还能拥有情绪和思考的能力，成为你的好伙伴？如今，这个想法被一家智能硬件公司实现了。</p>
@@ -642,4 +561,68 @@
 <p>变现方式也很有限，尽管他们拥有200多万粉丝，但主要还是以接广告商单为主。无法像邓刚那样挂橱窗商品带货，也无力打造自己的品牌。在他看来，小主播出产品根本没人买单。</p>
 <p>一个拥有1.4亿用户的赛道，看似热闹，却没有想象中那么好赚钱。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU5MTczNjIyNA==&amp;mid=2247601904&amp;idx=1&amp;sn=26db9d7b4676d489acb2dc73681bbc14&amp;chksm=ff4569f6ba798b18165262196844e17526aea78571ed6aa1fcdea908ae01c26929426c2ab73b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Tech星球”（ID：tech618）</a>，作者：翟元元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077436685825921</guid><pubDate>Sat, 14 Dec 2024 13:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077436685825921</guid><pubDate>Sat, 14 Dec 2024 13:00:00 +0800</pubDate></item><item><title>我在非洲做电商：冒着抢劫风险，挣60%的毛利率</title><link>https://36kr.com/p/3077255032946176</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>文：相青，编辑：赵元，出品：增长工场</p>
+<p>非洲，这块被贴上“贫瘠”与“滞后”标签的大陆，让很多电商出海人蠢蠢欲动。</p>
+<p>根据 TechCabal Insights 发布的报告显示，非洲电子商务市场规模预计在未来五年内翻一番，到 2029 年将达到 1130 亿美元。</p>
+<p>一位专做南非市场的跨境老板告诉「增长工场」，<strong>在南非做跨境电商，广告ROI平均高达40多倍，单次点击成本低至几毛钱至一两元。不少在东南亚、欧美深耕多年的深圳跨境大卖，已经开始考察南非的物流与市场机会。</strong></p>
+<p>那么，非洲电商市场有前景吗？</p>
+<p>不可否认的是，非洲年轻人多、潜力大。非洲是世界上最年轻的大陆，70% 以上的人口年龄在 30 岁以下。据《纽约时报》报道，非洲大陆的平均年龄为19岁，世界人口最多的国家印度的平均年龄为28岁，中国和美国的平均年龄为38岁。到2050年，全球超过三分之一的年轻人将生活在非洲。</p>
+<p>另一方面，非洲财富分布极为不均，中产阶级快速崛起将催生大量中高端消费需求。瑞士信贷银行估计，非洲的百万富翁人数是全球增长最快的，预计到2027 年将翻一番，达到 76.8 万人。他们的消费需求在这片土地上远未被满足，为跨境商家留下了巨大的市场空白。</p>
+<p><strong>“在非洲，商家对货品的那种渴望达到了极致，你在世界任何地方都没有看过这种渴望。”</strong></p>
+<p>中非跨境支付公司Pyxis星汇CEO April 告诉「增长工场」，她已经在非洲工作生活了十几年，目前在探索打造一个面向非洲本土小商家的电商平台，帮助他们连接中国供应链资源。</p>
+<p>每次走访市场，她总能感受到非洲商家对亚洲面孔的热情，“他们会主动询问‘你过来是卖什么的？是否有合作机会？能有什么新鲜货卖给我？’甚至在卫生间，都会有陌生人主动打招呼问有什么东西可以卖。”</p>
+<h2><strong>一、在非洲做电商，要瞄准中产阶级</strong></h2>
+<p>跨境商家到底如何切入非洲市场？许多人或许会认为，基于非洲的消费能力和经济状况，最优策略是瞄准基础需求，主打低价产品。</p>
+<p>然而，这种认知或许是错的。</p>
+<p>April告诉「增长工场」，可能大家想象中的非洲很贫穷，人均GDP和收入普遍较低，但人均数据并不能完全反映实际情况，北非的埃及和摩洛哥、东非的肯尼亚、南部的南非以及西部的尼日利亚，拥有较为庞大的中产阶级。</p>
+<p>除这些有钱人外，可能大多是刚刚从农耕社会走出来的人，还处于渴望能够拥有电视机等家电的阶段，这些人的需求通常是基本生活用品，需要尽可能便宜。<strong>但这类大众化需求已经被传统商贸充分满足。</strong></p>
+<p>在非洲，传统商贸仍占据市场主导地位，其优势在于能够提供大量性价比极高的商品，通过层层分销网络进入市场，其中有些商品甚至在其他国家早已淘汰。在电商基础设施仍不完善的情况下，电商商家要想通过低价来赢得市场，肯定拼不多传统商贸。</p>
+<p>因此，跨境商家需要避开低价竞争的红海，聚焦传统商贸尚未满足的空白市场。</p>
+<p>传统商贸的问题是，虽然能提供大规模极高性价比的产品，但商品选择非常有限，无法满足更小众的需求。对于有一定购买力的消费者，尤其是非洲的中产阶级，他们更渴望通过购物表达个性，不希望与他人使用相同的商品，这部分人的需求正是传统商贸市场无法满足的，而电商商家应该抓住的就是这块市场。</p>
+<p><strong>必须瞄准中产阶级需求的另一个原因是，非洲的物流成本高昂，根本无法支撑低价产品的运营。</strong></p>
+<p>在欧洲，主要城市之间的平均距离为1300公里，而在非洲则为4100公里。波士顿咨询集团（BCG）估计，欧洲将货物运输到市场的成本大约占生产成本的90%，而在非洲，这一比例则高达320%。</p>
+<p>以南非为例，当地最大电商平台Takealot 合作的物流公司是Courier Guy。在南非做跨境电商的黄约瑟告诉「增长工场」：“最小的一个包裹快递费 50 兰特，也就是 20 元人民币，即使买两个同样的产品，也需要二次收费共40元人民币。”</p>
+<p class="image-wrapper"><img data-img-size-val="1000,580" src="https://img.36krcdn.com/hsossms/20241213/v2_1e3b420b8210437c85ad7927b83b678a@5952539_oswg1025180oswg1000oswg580_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>黄约瑟已在南非生活多年，最初是做工厂生意，去年转型做Takealot 跨境电商。他告诉我们，Takealot 之所以与 Courier Guy 合作，是因为其他物流公司的车经常遇到抢劫。</p>
+<p>“南非不同物流路线安全风险差异很大，某些区域犯罪率较高，<strong>需要配备武器和安全人员。</strong>”黄约瑟说，有些人为了省钱用其他物流平台，但是被抢几次就明白损失惨重。</p>
+<p>物流配送公司FarEye首席执行官库沙尔•纳哈塔（Kushal Nahata）曾表示，在南非，快递员被迫增加安全措施方面的支出，以保护他们的业务免遭劫持和盗窃。她指出，南非的配送成本已经比全球平均水平高出50%至100%，每天有多达25辆配送车辆被劫持。</p>
+<p>车辆追踪组织 Tracker 还警告称，随着南非电子商务的蓬勃发展，劫持者针对送货车队的行动日益增多——除了汽车本身之外，网上商品现在成为主要目标。</p>
+<p>因此，即使配送费高，黄约瑟也只用Courier Guy。而配送费高，也意味着必须做高价产品。毕竟，<strong>当售卖价格比运费还便宜的时候，电商商家怎么可能赚钱？</strong></p>
+<p>黄约瑟给我们算了一笔账：</p>
+<p>假设产品是30兰特，售价100兰特，最终毛利是100-15（平台抽成）-50（快递费）-30（货品成本）=5，也就是说以3倍价格卖，只能赚5兰特，再扣除平台仓储成本及人工，肯定亏损。根据黄约瑟的实际运营经验，成本高于200兰特（约80元）的产品，才能有基本的利润空间。</p>
+<h2><strong>二、毛利率60%，广告ROI高达40倍</strong></h2>
+<p>那么，目前在非洲做跨境电商的真实情况是怎样的？</p>
+<p>多位主做非洲市场的跨境商家告诉「增长工场」，目前非洲是被很多人忽略的蓝海市场，虽然非洲人民的消费较欧美弱一个量级，但是非洲人口基数大，市场基数大，成长空间大，目前平台有流量、缺卖家、缺商品。</p>
+<p>根据国际贸易管理局的数据，预计到 2025 年，非洲电子商务普及率将突破 5 亿用户大关，而 2017 年这一数字仅为 1.39 亿用户，这意味着年复合增长率为 17%。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,685" src="https://img.36krcdn.com/hsossms/20241213/v2_fc8695424564464a9dfb32a1a4da87ec@5952539_oswg110811oswg1080oswg685_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>非洲目前有 2.81 亿活跃的网购者，预计在2023 年推动收入达到 490 亿美元，在 2027 年推动收入达到 820 亿美元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,681" src="https://img.36krcdn.com/hsossms/20241213/v2_ad6957ee9d5345c78eca285859011711@5952539_oswg101324oswg1080oswg681_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>“非洲跨境商家毛利大概在70%-100%，但我觉得只要能满足中产阶级的长尾需求，毛利还可以更高。”April说。</p>
+<p>黄约瑟主要做南非市场，在Takealot平台经营两个店铺。他同样认为，非洲市场不缺低端产品，因为过去几十年的传统贸易已经满足了这部分需求。然而，市场上缺乏质量好的中高端产品，这个空缺才是电商商家的机会。</p>
+<p>因此，他主要针对户外运动和家庭别墅装饰领域选品，平均客单价八百兰特（南非货币），大概 320 元人民币，毛利在15%到60%之间。</p>
+<p>“高端人群在南非通常具有稳定收入，并有健身、骑行、高尔夫、网球等运动习惯。”他告诉「增长工场」，所以户外运动市场仍有许多需求未被满足。</p>
+<p>而且，<strong>南非市场目前远未到竞争的程度，很容易利用中国的供应链优势和信息差找到差异化产品。</strong>不像在欧美或者东南亚市场，选好品后才发现这个产品已经被大卖垄断，且已有十几个商家在售卖。</p>
+<p>黄约瑟第一次选品就赚到了钱。</p>
+<p>其中一款产品是欧美拳击用品，原版约两三千元，已经在全球走红，之后国内工厂模仿，成本降至约100元。在Takealot平台，只有一个卖家在销售，于是黄约瑟订购不同颜色、款式，起售价为1000兰特（400元），逐渐涨价至1400兰特（570元），销量非常好。</p>
+<p>还有一款匹克球球拍，国内成本六七十元，黄约瑟在Takealot平台卖 1000 多兰特（400多元）。每个款式成本都一样，但颜色卖贵一两百兰特，消费者愿意为自己喜欢的颜色支付更高费用，非洲中产阶级对价格并不敏感。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,90" src="https://img.36krcdn.com/hsossms/20241213/v2_f7277197eb584d3994e066be449f567f@5952539_oswg22569oswg1080oswg90_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="859,562" src="https://img.36krcdn.com/hsossms/20241213/v2_077552e7ef384128ad67dee62c10fe2b@5952539_oswg41937oswg859oswg562_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>来源：非洲跨境商家后台截图</p>
+<p>更重要的是，<strong>黄约瑟广告ROI平均高达40多倍，单次点击成本低至几毛钱至一两元。</strong>“听说在欧美或者东南亚，一天广告费花几万，我觉得太恐怖了。”黄约瑟说，目前南非市场仍处于蓝海阶段，只要用心选品，就能获得高销售、高利润。</p>
+<h2><strong>三、电商巨头、跨境大卖，涌向非洲</strong></h2>
+<p>处于蓝海阶段的非洲市场已经被电商平台盯上。</p>
+<p>2020年，Shein进入南非市场，2023年8月，Shein超越美国零售巨头沃尔玛和亚马逊，成为南非Google Play下载次数最多的购物类应用。根据南非非营利营销调查组织Marketing Research Foundation的数据，Shein是女性服装在线购物的领先零售商，占据了35%的市场份额。</p>
+<p>今年1月，Temu也登陆南非市场，11月，Temu又进入非洲尼日利亚市场。目前，Temu 是南非 iOS 和 Android 用户下载次数最多的应用程序。</p>
+<p>今年5月，亚马逊南非站点上线，提供当日送达和次日送达服务，并设有 3000 多个取货点。据了解，购物者的第一个订单将获得免费送货服务，随后订单金额超过 500 兰特的订单将获得免费送货服务。</p>
+<p>由于Shein、Temu和亚马逊的加入，南非电商市场竞争加剧。Takealot今年9 月出售了其时尚部门 Superbalist ，非洲最大的电商平台Jumia 也将于今年年底退出南非市场。</p>
+<p>黄约瑟告诉「增长工场」，<strong>Temu物流成本压得很低，配送到消费者手里的快递费是10元人民币，相对于Takealot合作的物流公司Courier Guy低了一倍。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,533" src="https://img.36krcdn.com/hsossms/20241213/v2_bd15b5abbd8f42719072e11ca4aa057f@5952539_oswg257207oswg1080oswg533_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>Shein与Temu在南非均是与一家总部在上海的物流公司Buffalo合作的，“Courier Guy价格谈不到这种程度。”据我们了解，Buffalo 成立于 2017 年，拿到Shein与Temu订单之后，获得了飞速发展。</p>
+<p>Buffalo 专门为 Shein 和 Temu 等公司提供中非进口和清关服务，将产品批量运送到位于南非的分拣中心，并为消费者进行最后一公里运送。</p>
+<p>目前，商家进入南非市场主要用Buffalo公司的物流服务。这家公司2023年获得了南非税务局（SARS）颁发的一级授权经济运营商（AEO）认证，有效期为五年，这使Buffalo能够享受加急办理手续、更少和更快的检查、某些海关监管豁免以及减少保证金。</p>
+<p><strong>“自10月后，南非电商销量剧增，以Temu和Shein基本把到南非的空运货机全包了。我们想从国内定个空运仓，都要至少排到十天以后。”黄约瑟说。</strong></p>
+<p>不仅是电商平台涌入非洲市场，跨境大卖也开始考察非洲生意。黄约瑟说，一个多月前，一家国内物流公司的负责人来南非出差，他曾带领很多电商卖家进入巴西、墨西哥和东南亚市场，现在准备确认物流方案可行后，明年启动南非市场。</p>
+<p>“东南亚市场在前几年确实非常赚钱，但现在市场竞争激烈，成本不断上升，导致利润缩水。因此，<strong>一些跨境商家开始考察非洲市场</strong>。” 黄约瑟做好自己跨境生意的同时，转行做起了服务商，目前手里有20多个客户，其中一个在东南亚做五金的大卖家，双十一忙完之后，准备发几百万货进入南非市场试水。</p>
+<p>由于非洲电商基础设施相对薄弱，电商平台和跨境大卖能否在物流效率、客户体验上实现创新，或将成为其站稳这片蓝海市场的关键。可以预见，非洲电商市场的竞争才刚刚拉开序幕。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077255032946176</guid><pubDate>Sat, 14 Dec 2024 13:31:00 +0800</pubDate></item></channel></rss>
