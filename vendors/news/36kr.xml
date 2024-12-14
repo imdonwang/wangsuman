@@ -1,77 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 14 Dec 2024 10:30:30 +0800</lastBuildDate><pubDate>Sat, 14 Dec 2024 10:30:30 +0800</pubDate><item><title>ChatGPT终于也推出Projects功能，却故意露出一个“AGI”的项目</title><link>https://36kr.com/p/3077737222207107</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>金磊 发自 凹非寺量子位 | 公众号 QbitAI</p>
-<p>就在刚刚，在OpenAI“双十二”的<strong>第七天</strong>，一种全新的对话交互模式诞生——<strong>Projects</strong>。</p>
-<p>它“长”在这儿，主页的左侧导航栏中：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_d7681e286f144503a5098c8fff9db167@000000_oswg142737oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如其名，Projects的功能就是<strong>按照项目</strong>来<strong>组织和管理文件</strong>，正如官方介绍的那样：</p>
-<blockquote>
-<p>Projects将聊天记录、文件和自定义指令集中在一个地方。</p>
-<p>你可以用它们进行持续性的工作，或者仅仅是让它们变得井然有序（看着干净、整洁）。</p>
-</blockquote>
-<p>操作上也很简单。</p>
-<p>例如<strong>新建一个Projects</strong>，只需点击旁边的<strong>“+”号</strong>，并输入项目名称即可：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_6970ff1d685f4c96872e65cb68e0765c@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>你还可以自定义Projects显示的<strong>颜色</strong>：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_0bfaf8e640b14d8ab0dc09f785107b5a@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>即便Projects里还没有塞任何文件，你也可以直接开启对话：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_d423561007cd4a3a835c9fc28d56f7c5@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>并且在一个Projects中，你可以使用ChatGPT的任何一项功能，例如SearchGPT、Canvas和编程。</p>
-<p>如此一来，所有类似的工作都可以放到一起来集中处理，包括上传的文件、过去的对话、自定义的指令等等。</p>
-<p>网友看罢，评论区可谓是一片<strong>“千呼万唤始出来”</strong>：</p>
-<blockquote>
-<p>这功能终于来了！</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_699ef8db32254cc3b15708bd93b44b9c@000000_oswg152593oswg1050oswg680_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当然，鉴于Claude和Perplexity早就推出过类似的功能，也有网友表示：</p>
-<blockquote>
-<p>这本质上就是Claude Projects，可以把它当成文件夹来用。</p>
-<p>少了让我回去用Claude的理由。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_d7cae7423d094a02845fe12bd602d7ea@000000_oswg155547oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据了解，Projects功能即日起将向Plus、Pro和Teams用户开放。</p>
-<p><strong>（这次直播过程中，还有一个小彩蛋，在文末哦~）</strong></p>
-<h2><strong>Projects的玩法</strong></h2>
-<p>首先，你可以把之前杂乱无章的对话，通过<strong>搜索</strong>的方式找出来，并<strong>添加</strong>到新的Projects里：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_3fbf49b4f9e94729baf8928f9ca8f73d@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在演示demo中，直播人员搜索了一个名叫“Murphy’s Law Explained”的对话，然后点击旁边的三个点，就可以添加进新Projects里。</p>
-<p>当然，把对话<strong>挪出</strong>Projects也非常简单，直接一个拖拽的动作即可：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_5ea09bc82b2a45ec9288d867a0764001@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除此之外，直播人员还以<strong>“圣诞节交换礼物”</strong>这个项目做了更多功能的联动演示。</p>
-<p>（一种圣诞节交换礼物的活动，通常在团队或朋友之间进行；参与者事先抽签，互相送礼但保持匿名，直到礼物被揭晓。）</p>
-<p>他在Projects里上传了三个文件，包括规则、预算、活动细节等等：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_1ad2bf96e14649d0aa9b0056b57ff988@000000_oswg129999oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>然后在Instructions中，演示人员也给Projects下达了<strong>指令</strong>：</p>
-<blockquote>
-<p>你的任务是帮我给朋友们组织一次交换礼物的活动。</p>
-<p>你在交流的过程中要用充满节日氛围的语气……多用emoji等。</p>
-<p>当我让你帮忙写信或邮件的时候，尽量用Canvas这个工具。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_44212f72e6ca4b78ba7dc838ee025b5b@000000_oswg176614oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在设置过后，这个Projects就可以帮你整理交换礼物的人、礼物等等内容：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_28e300c2286a4277b4dbb4a4fd34ba85@000000_oswg168945oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>你还可以继续通过<strong>SearchGPT</strong>的功能，搜索礼物的细节：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_8ca285f30bd6475d8c0a16e7af2c3bd3@000000_oswg189343oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>最后，就通过<strong>Canvas</strong>的功能来撰写邮件了：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_9d92be000eee442cbf0208aebce16ea3@000000_oswg197711oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>类似的操作方式，直播人员还展示了用Projects<strong>修改个人网站</strong>的例子。</p>
-<p>同样是先上传所需的文件，以及自定义指令：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_80df1a61ad2944bba7479000130be3f0@000000_oswg135770oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_ba5cdd6b132f4a8a920dd7e654f2d769@000000_oswg191320oswg1080oswg602_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>只需一句Prompt，Projects就能帮你生成修改个人网站对应的<strong>代码</strong>了：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_518387ba920a4390a89e707f468ff9eb@000000_oswg335170oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>最后，一个复制粘贴的动作，网站就变成想要的样子啦：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_20433fadac984a2b98f399e739068674@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>One More Thing</strong></h2>
-<p>在今天直播的过程中，眼尖的网友还发现了一个有趣的细节。</p>
-<p>有一个Projects，名字竟然是<strong>“AGI（不要在直播中展示）”</strong>……</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_c34d7059cab642d2a01e284f20c55a79@000000_oswg121253oswg582oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>嗯，只能说……会玩~</p>
-<p>最后，完整直播视频附在下面了，感兴趣的小伙伴可以看看哦~</p>
-<p>参考链接：[1]https://x.com/OpenAI/status/1867628181974290752[2]https://www.tomsguide.com/ai/chatgpt/chatgpt-projects-announced-and-its-one-of-the-most-important-ai-releases-this-year</p>
-<p>—<strong>完</strong>—</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247766842&amp;idx=1&amp;sn=ce21f845331f3f512292ee5c20aa44ad&amp;chksm=e91acaa20b953ce597c5435eb0aa67db7f87278a9d1316af50f7c62a5905ed1bf04b8cbefe4d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077737222207107</guid><pubDate>Sat, 14 Dec 2024 08:13:00 +0800</pubDate></item><item><title>不是《黑神话：悟空》错过了年度游戏，而是TGA错过了《黑神话：悟空》</title><link>https://36kr.com/p/3077343308576390</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 14 Dec 2024 11:00:29 +0800</lastBuildDate><pubDate>Sat, 14 Dec 2024 11:00:29 +0800</pubDate><item><title>不是《黑神话：悟空》错过了年度游戏，而是TGA错过了《黑神话：悟空》</title><link>https://36kr.com/p/3077343308576390</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p><strong>文｜星晖编｜园长</strong></p>
 <p>“And The Game of the Year is……Astro Bot.”</p>
 <p>9个小时前，在洛杉矶的夜色里，被称作“游戏界奥斯卡”的TGA（The Game Awards）十周年颁奖典礼落下帷幕。</p>
@@ -691,4 +619,21 @@
 <p>将目光放回当下，仍不断有新人渴望涌入奶茶行业——即便大家都清楚，这条赛道早已杀成一片红海，也还是想再拼一把，抓住那可能早已不存在的红利。</p>
 <p>不可否认，餐饮是创业门槛较低的行业之一，茶饮又是最容易入门的餐饮细分赛道，未来一定还会吸引许多想摆脱工作压力的“职场牛马”入场。但有如此多惨痛经历在前，还想加入奶茶大军的小白一定要想清楚：<strong>任何时候，开一家茶饮店都不是一门稳赚不赔的生意，以后要赚钱也只会越来越难。如果没有做好准备，千万不要盲目入场。</strong></p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/IhRoEiIFYXj0PXMMlVJS3A" rel="noopener noreferrer nofollow" target="_blank">“红餐网”</a>，作者：安托万，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3072981844194176</guid><pubDate>Sat, 14 Dec 2024 10:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3072981844194176</guid><pubDate>Sat, 14 Dec 2024 10:00:00 +0800</pubDate></item><item><title>日本房价超过年收入10倍，东京18倍</title><link>https://36kr.com/p/3075300427297672</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>东京奥运会“奥运村”建设的住宅楼群</strong></p>
+<p>房价收入比最高的是东京都的17.78倍。平均年收入为592万日元，住宅楼价格则达到1.0526亿日元。“在东京，购买住宅楼的目的不再是居住用的居所，而是变为投资对象”，正成为一个抛开实际需求层的市场……</p>
+<p>在日本，新建住宅楼价格的上涨速度超过了工资的增长，使得实际需求阶层日趋难以负担。作为投资对象的人气根深蒂固，开发商也大量供应过亿日元住宅。特别是在东京都，平均价格达到年收入的18倍，正在成为一个抛开实际需求层的市场。</p>
+<p>东京KANTEI（东京都品川区）的统计显示，显示新建住宅楼平均价格达到平均年收入多少倍的“房价收入比”截至2023年为10.09倍(日本全国平均)。与2022年相比，收入比上升了0.43个百分点，作为日本全国平均值，自2006年开始调查以来首次超过10倍。</p>
+<p>这是将2023年出售的新建住宅楼价格(按70平方米计算)除以平均年收入得出的结果。</p>
+<p>按日本各都道府县来看，房价收入比最高的是东京都的17.78倍。平均年收入为592万日元，住宅楼价格则达到1.0526亿日元。截至2022年，平均年收入为578万日元，住宅楼价格为8561万日元，收入比为14.81倍。由于明显超过年收入增长的住宅楼价格的暴涨，收入比迅速上升。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241212/v2_cf373d30bd204263b20265d1b541337a@000000_oswg53352oswg450oswg465_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>土地成本和建筑成本的上升反映在住宅楼价格上，押注价格进一步上涨的投资资金持续流入受富裕阶层和海外投资者欢迎的市中心的高价房产，这也产生很大影响。</p>
+<p>东京都内2023年供应了4039套过亿日元住宅。规模达到2022年的1.5倍，日本全国过亿日元住宅的80%都集中在东京。“三田Garden Hills”(港区)和“Park Tower西新宿”(新宿区)等超过1亿日元住宅达到100套以上的大规模住宅楼的销售也引人关注。</p>
+<p>东京KANTEI的主任研究员高桥雅之指出，“在东京，购买住宅楼的目的不再是‘居住用的居所’，而是转变为投资对象”。解释说“开发商方面也具有在开发之际重视资金充裕阶层的这一倾向”。</p>
+<p>继东京之后，房价收入比较高的是长野县，达到15.88倍。受轻井泽町高级住宅楼供应的影响，平均价格上涨。在从东京搭乘新干线只要1个多小时、交通便利、旅游资源丰富的轻井泽，为了从都市移居过来以及作为第二居所，富裕阶层的需求强劲。</p>
+<p>在京都府和冲绳县，来自当地居民以外的高级住宅楼需求也在推高行情。由于景观条例，高层住宅楼无法建设，与酒店争夺建设用地，这种供应有限也导致了价格的上涨。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241212/v2_1da9b627d8334eecade8a8dbeef7a41b@000000_oswg56000oswg500oswg381_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>相比之下，在有数据的46个都道府县中，收入比最低的是山口县的6.46倍。香川县以6.79倍紧随其后。广岛县(8.14倍)和冈山县(8.25倍)也低于日本全国平均的10倍。东京KANTEI的高桥雅之表示，这些地方“由于与东京距离较远等原因，投资目的的需求较少，符合当地居民需求的项目供应相对较多”，。</p>
+<p><strong>日本经济新闻（中文版：日经中文网）佐藤日菜子、筒井恒</strong></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI3Mzc0MA==&amp;mid=2651931215&amp;idx=1&amp;sn=1a0d66c55a46a0901db92585f9d2bb15&amp;chksm=bc6ae3b3066d9bbcd5993ef0fcf2cc4cd591573a861a18cdcbd3ca48af7ac6e2890fe6ef5a2f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“日经中文网”（ID：rijingzhongwenwang）</a>，作者：日经中文网，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3075300427297672</guid><pubDate>Sat, 14 Dec 2024 10:30:00 +0800</pubDate></item></channel></rss>
