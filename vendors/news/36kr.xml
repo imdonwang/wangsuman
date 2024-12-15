@@ -1,52 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 15 Dec 2024 10:30:29 +0800</lastBuildDate><pubDate>Sun, 15 Dec 2024 10:30:29 +0800</pubDate><item><title>全球首位 AI 程序员正式上线，这个月薪只要三千的同事能干什么？</title><link>https://36kr.com/p/3078513340167815</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>说到「编程」，我们常常会想到那个不太友善的程序员笑话： </p>
-<p><strong>虚假的程序员：从零开始编写代码，勤勤恳恳修改、优化、注释；真正的程序员：熟练掌握「Ctrl + C」和「Ctrl + V」。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_fee272f222b348c88f58d3187f436e05@000000_oswg525692oswg1080oswg1101_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：Laravel </p>
-<p>不过，由 Cognition Labs 开发的 <strong>全球首位 AI 程序员「Devin AI」</strong>或许可以让你把「复制粘贴」这一步都省了，你可以直接把 TA 当成你的「程序员同事」，让 TA 帮你干活。 </p>
-<p>既然被称为「程序员」，那 TA 就不可能白白干活。Devin AI 的服务起价为每月 500 美元（约合 3624 元），还真不算便宜。不过相比之下，这个价格比国内一线大厂程序员的平均工资还是低了不少。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_e273d543f41543f48846596243092a61@000000_oswg220522oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：COGNITION </p>
-<p>Devin AI 实际上是一个由人工智能驱动的编码平台，配备了命令行、代码编辑器和浏览器等常见的开发者工具，它可以在编写代码片段、检测错误和建议改进等方面 <strong>协助开发人员完成代码编写</strong>，几乎覆盖了编程工作的全流程。 </p>
-<p>值得一提的是，Devin AI 还可以通过机器学习算法分析代码模式，从先前的经验中持续学习，这极大地提高了其编码效率，还能保持与最新编程趋势的同步。 </p>
-<p>作为一位「编程助理」，Devin AI 可以辅助程序员完成下面的工作： </p>
-<p><strong>代码补全</strong>：Devin AI 能够通过分析代码上下文和语法预测下一行代码，加快编码效率； </p>
-<p><strong>错误检测</strong>：Devin AI 可以检测代码中的常见错误和问题，帮助开发人员识别和修复 bug； </p>
-<p><strong>代码重构</strong>：Devin AI 会提供代码重构建议，能够帮助开发人员编写更简洁、更高效的代码； </p>
-<p><strong>代码优化</strong>：Devin AI 可以分析代码性能，提出优化建议，以提高速度和效率； </p>
-<p><strong>多人协作</strong>：Devin AI 甚至可以作为协作工具，允许多个开发人员同时在同一项目上工作。 </p>
-<p>官方建议，Devin AI 在处理小型前端错误和极端情况、进行针对性的代码重构以及为待办事项列表中的任务创建初稿 PR（Pull Request）等场景下最为实用。 </p>
-<p>当然，作为一位名副其实的「AI 程序员」，除了辅助编程开发以外，TA 还可以「 <strong>独立完成任务</strong>」供开发人员审核。官方介绍 Devin AI 是「一位不知疲倦并且技术娴熟的团队成员」。 </p>
-<p>据官方介绍，Devin AI 能够自主规划和执行需要数千个决策的复杂工程任务。这也就意味着开发者可以化身「产品经理」，将开发需求和任务等等「告诉」Devin AI，其就可以进行独立的成果产出。 </p>
-<p>针对这项功能，官方还贴心地给出了 Devin AI 的「使用指南」，就像你平时叮嘱同事一样： </p>
-<p>给 Devin AI 分配「你自己知道如何完成」的任务； </p>
-<p>告诉 Devin AI 如何测试或者检查自己的工作； </p>
-<p>将会话时间保持在大约 3 小时以内，并且尽量将大型任务分解； </p>
-<p>提前将你的详细需求告知 Devin AI； </p>
-<p>通过在对话中给出反馈、采纳建议的知识，或者手动添加你自己的知识，来强化对 Devin AI 的训练。 </p>
-<p>关于 Devin AI 在具体场景下的表现，官方展示了几个有趣的用例，我们能够从中一窥这位「程序员」有多厉害。 </p>
-<p>Devin AI 可以 <strong>学习和使用「不熟悉」的技术</strong>。其在阅读了一篇博客文章后，现学现卖，自主编写代码，在 Modal 上运行 ControlNet 并且生成了一张带有隐藏文字「SARA」的图片： </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_822c4160f7cd487e894c6fdeaa844ea2@000000_oswg383846oswg1080oswg618_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_fd89680c8c724f7bb12e6574c995cf18@000000_oswg724921oswg1080oswg618_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Devin AI 还可以 <strong>端到端构建和部署应用</strong>。在演示中，其根据需求制作了一个模拟「Game of Life」的交互式网站，并且逐步添加了用户提出的功能，然后将这个应用程序部署到 Netlify 中： </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_b512187fd6fc4bb2bbf58beec131b7bf@000000_oswg281624oswg1080oswg581_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_ab8f532cf8454c5db6bb4cc881e2a49d@000000_oswg89659oswg1080oswg618_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Devin AI 甚至可以 <strong>训练和微调自己的 AI 模型</strong>。演示人员仅仅提供了一个指向 GitHub 研究存储库的链接，其就对某个大语言模型进行了「微调」： </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_bc2f31dbf08e4b0cb126b65b86c94b9b@000000_oswg273879oswg1080oswg637_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此外，Devin AI 还可以实现自动查找和修复代码库中的错误，处理开源仓库中的错误和功能请求等等。 </p>
-<p>在「SWE-bench」这项「具有挑战性」的基准测试中，Devin AI 正确解决了 13.86% 的问题，远超之前 1.96% 的最佳水平。即使确切给出了需要编辑的文件，之前最好的模型 Claude 2 也只能解决 4.8% 的问题。 </p>
-<p>令人惊叹的是，Devin AI 甚至已经通过了现实世界的工程师面试，还在流行的自由职业平台「Upwork」上找到了一份工作。 </p>
-<p>Devin AI 成为「自由职业者」的新闻还曾引起过不小的争议。一位有着几十年软件工程师经验的 YouTube 博主质疑其演示视频造假，表示这些内容是「自导自演」、「无用功」，并且对其实际能力和效率提出了质疑。 </p>
-<p>无论是不是商业炒作，Devin AI 目前都已经全面推出。真正的编程表现如何，不妨再等等看，交由时间和用户评判。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_473985c67eb24c2ba59ff0575861b917@000000_oswg65939oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：COGNITION </p>
-<p>在 Devin AI 正式推出后不久，OpenAI 也宣布推出了 ChatGPT Canvas 的多项更新，其中就包括直接运行 Python 代码功能，更新后的 Canvas 可以根据要求搜索 API 文档，指导模型编写并执行代码，还可以开发小工具和游戏等。 </p>
-<p>可以看到，即使是规模大如 OpenAI 这样的人工智能企业，也在不断对「AI 编程」加注。在这样的背景之下，我们自然会想到那个「终极」问题： </p>
-<p><strong>TA 离取代真正的程序员还有多远？</strong></p>
-<p><strong>文｜范津瑞</strong></p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&amp;mid=2652389981&amp;idx=2&amp;sn=5e06ebe019b099245021522342a724fa&amp;chksm=9ad7a81b463d23459ad0209975a497103cfc255402f7cd0f2eec026561d927b431f509b6a1f1&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“爱范儿”（ID：ifanr）</a>，作者：发现明日产品的，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3078513340167815</guid><pubDate>Sun, 15 Dec 2024 08:49:00 +0800</pubDate></item><item><title>广东人的“童年神饮”，被同行逼到了墙角</title><link>https://36kr.com/p/3078491394652035</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 15 Dec 2024 11:00:25 +0800</lastBuildDate><pubDate>Sun, 15 Dec 2024 11:00:25 +0800</pubDate><item><title>广东人的“童年神饮”，被同行逼到了墙角</title><link>https://36kr.com/p/3078491394652035</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>乳酸菌巨头养乐多，半个身子已经进入寒冬。 </p>
 <p>12月6日，日本乳酸菌品牌养乐多宣布，将关闭位于中国上海的生产基地，相关生产业务也被迁移到了无锡和天津等地。</p>
 <p>数千名养乐多员工被“原地解散”，这次关厂也是养乐多首次关闭在中国境内的工厂。</p>
@@ -657,4 +610,56 @@
 <p>Eyva联合创始人兼首席执行官Djef Riady Rifamole表示：“平台中一个工具提供消费者数据、一个工具提供营销数据，另一个工具则提供产品数据，然后消费者使用成分数据库，匹配AI能够连接来自不同数据源的数百万个数据点，例如，来自Google、TikTok、Instagram等，以及声明、成分、监管的数据点。”</p>
 <p>据Djef Riady Rifamole称，目前Eyva的年度经常性收入约为42万美元(约合人民币305万元)。预计到2026年5月，预计该平台将进入A轮融资阶段，目标是产生约140万美元-170万美元(约合人民币1018万元-1237万元)的年度经常性收入。</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0OTg1NTUxOA==&amp;mid=2247609293&amp;idx=2&amp;sn=5265f62eb2c176e790491fc57ef28f76&amp;chksm=e88526decbbaf2242c857ca7cbf615f7a40e9d1f9ccea68ddb707e168a3c261747605da6362f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“聚美丽”（ID：jumeili-cn）</a>，作者：璞玉，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3078597069846153</guid><pubDate>Sun, 15 Dec 2024 10:30:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3078597069846153</guid><pubDate>Sun, 15 Dec 2024 10:30:00 +0800</pubDate></item><item><title>第一批嘴馋的00后，已经在为年货吵架了</title><link>https://36kr.com/p/3078117059114630</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>希望年货能不再是一种“摆设”，而是发挥出除了象征意义之外，更直接的“食用价值”。</p>
+<h3><strong>01 “整顿年货”</strong></h3>
+<p>“你幻想收到的年货VS实际亲戚带来的年货”“过年收到这些年货就老实了”——12月初，距离春节还有接近两个月的时间，社交平台上，本该在期末周努力复习的大学生们，和本该在年末认真上班的新生代打工人们，思绪已经越过元旦，飘到了过年身上。从文案中带的话题不难看出，他们都是00后。</p>
+<p>想到过年，一向以“大馋丫头”“大馋小子”自居的他们第一个想到的就是年货。</p>
+<p>带着美好的畅想，他们为自己想要从亲戚那里收到的年货列下“许愿”清单：螺蛳粉、火鸡面、魔芋爽、辣条、薯片......每一样都是自己爱吃的零食。有人扬言，如果亲戚带这些东西来，自己可以一早便站在家门口，甚至是村口，来迎接对方。</p>
+<p>只是，当思绪最终落回现实，他们才想起来，其实自己每年过年收到的都是：纯牛奶、营养快线、八宝粥、砂糖橘......<strong>与前者不能说是一模一样，可以说是毫不相干。</strong></p>
+<p>更惊人的是，当将这种落差发布在互联网上，他们在网友们的共鸣声中发现，全国在年货问题上默契地达成了一致。比如河北人收到的年货中必有露露杏仁露和六个核桃，安徽人收到的年货则必有香飘飘礼盒。而自己家为客人准备的年货，也必有散装称重的饼干、枣糕、坚果，和集市上新鲜出炉的康乐果、荞麦酥、炒米糖，以及各种艳丽包装的糖果。</p>
+<p>对于这些年货，有人因其重复出现感到厌烦，有人因不喜欢它们的口味而反感，无论前者还是后者，达成的一个共识是：年货到了该换代的时候。他们甚至下定决心，要“整顿”一下年货圈，因此<strong>许下“等我走亲戚时会把这些通通换掉，送我们喜欢的年货”的承诺。</strong></p>
+<p>但由于在他们表述的过程中，对传统年货的措辞贬低之意过于明显，比如将一款淡黄色的软糖形容为“糖中大肥肉”，将王老吉描述成“毒药”，还要用询问“到底谁爱吃（喝）这个东西”的方式再次进行攻击，以及许愿收到的年货愈发离谱——比如有人列出了车厘子、榴莲和无骨鸡爪，甚至还有前段时间社交平台上爆火的雪吻巧克力，一场争辩就此诞生。</p>
+<p>这场争辩围绕的主题是，这些东西到底好不好吃，它们需不需要被换掉，以及那些被提出的愿望是否有实现的可能。其中，<strong>对传统年货喜好的讨论依然占据主导地位。</strong></p>
+<p>不爱的人说，收到之后天塌了，扔了都不吃；爱的人说，不许有人忤逆它，谁说不好吃我在这等着。</p>
+<p>一时之间，年轻人们纷纷选边站队，为自己一边的“代言人”留下“守护”“加一”等支持的话语，态度之认真，讨论之激烈，不亚于粽子与豆腐脑的甜咸口味等热门话题。</p>
+<p>整个场面给人的感觉是：还没过年，已经开始热闹上了。</p>
+<p>不过，真正参与讨论的人或许不占多数，大多数相关内容，评论的数量都没有达到点赞的一半。原因在于，更多年轻人选择中立“看戏”，不站任何一边。类似的“和事佬”立场也反应在评论区里，“每一样都爱吃”“前后几张图我都喜欢”，很多都获得了高赞。</p>
+<p>生活经验告诉他们，年货更多是过年期间正餐的替代品，半夜饿了的时候，自己不会挑食。</p>
+<h3><strong>02 新与旧</strong></h3>
+<p>00后对传统年货产生抵触心理或许情有可原，毕竟<strong>它们的确不再年轻：</strong>六个核桃、营养快线是在2005年上市的，八宝粥的年龄甚至比他们还大——上世纪90年代，银鹭和娃哈哈先后推出了罐装八宝粥产品。</p>
+<p>这些产品曾经很受欢迎，最初被当作年货送给亲友，也是出于营养和美味的特点。只是时间一长，成为了固定传统的年货不再符合受众们的口味，它扮演的角色也就更加偏向于一个节日里象征性的吉祥物，也就是年轻人口中的“老演员”——从这家提到那家，用来表达祝福的心意，却失去了作为食物最根本的价值，因为很少有人真的会去吃。</p>
+<p>而00后们想要打破旧的年货传统，建立新的年货秩序，背后的理念支撑就是一种实用主义：<strong>希望年货能不再是一种“摆设”，而是发挥出除了象征意义之外，更直接的“食用价值”。</strong></p>
+<p>这大概也是背后的众多休闲食品品牌所希望的——当年货不再在各家中循环流转，而是中途便得到消耗，送礼需求不变的情况下，销量提升成为必然结果。</p>
+<p>年货是休闲食品行业中一门确定性极高的生意。</p>
+<p>在年货带动下，承德露露、娃哈哈、旺旺等品牌在第四季度的营收始终处于一年中的较高水平。</p>
+<p>根据快消行业大数据公司“马上赢”的线下零售监测网络数据，包括坚果礼盒类产品在内的坚果组合装，在2023年<strong>1-2月期间的销售额占据了全年销售额的60%左右，</strong>销售件数也占据了近40%。马大姐食品CCO杨学宝在接受采访时称，2021年春节，除夕前两个月的销售额占到马大姐全年销售额的50%左右，此前，同时间段的销量一度占到全年的六成。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_0840993f61bf494dae336cc4fe9113cb@000000_oswg22185oswg920oswg831_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这也让年货始终成为食品饮料制造公司一年中业务准备的重中之重。</p>
+<p>今年，比00后们的讨论更早一步，在第四季度刚开始的时候，洽洽、劲仔、三只松鼠、来伊份、盐津铺子等公司就已经把目光转向年货，开启了备货和营销。以劲仔为例，董秘丰文姬表示，公司将在线下开展主题店、迷你秀、试吃推广等万场规模的品牌营销活动，同时在线上参与抖音、天猫、京东等平台的主题营销活动，并加强直播带货和物流效率。</p>
+<p>新老品牌在年货“战场”上的战争，其实早已打响。</p>
+<p>从2012年开始，以百草味为代表的新兴零食品牌陆续推动产品进军春节场景，不仅推出年货礼盒，还<strong>加大了促销力度，企图从“老字号”手中分一杯羹。</strong></p>
+<p>事实证明，这样的尝试在一定程度上取得了效果：首先，这让年货一直在其舒适区的王老吉、娃哈哈、洽洽等品牌感受到了一丝威胁，纷纷在包装和营销上下功夫，以巩固消费者对旗下产品年货的认知。</p>
+<p>其次，年货<strong>在线上悄然发生了换代。</strong>2017年开始，三只松鼠、百草味、良品铺子等新兴品牌在天猫、京东、抖音等多家电商平台年货节的销量超过了达利、洽洽、徐福记、旺旺等传统品牌，并在很长一段时间内占据着前三名的位置。</p>
+<p>但这并不意味着传统品牌在这场战争中完全失败，它们在线下的护城河，无论是推广销售渠道，还是在消费者心中建立起的心智，依然能打——否则也不会有现在00后们的吐槽。</p>
+<h3><strong>03 理想与现实</strong></h3>
+<p>不得不承认的一个事实是，很多时候，理想很丰满，现实很骨感。</p>
+<p>尽管在线上，年轻人许愿的螺蛳粉、辣条等年货销量火热——2021年，螺满地螺蛳粉曾经登上过拼多多年货节美味食品排行榜第四名的位置，一个叫宇仔的辣条品牌也曾在天猫2023年年货节食品品类中成为销量第四名，但这些年货想要落地小县城，并打败传统年货，依然没那么容易。</p>
+<p><strong>这主要是因为新老零食品牌的推广销售渠道不同。</strong></p>
+<p>传统零食品牌主要通过商超等线下实体店铺进行推广与销售，这让人们无论是在大城市还是小县城，都可以轻松且立即得到它们的产品；而新兴零食品牌的推广与销售，除了线上之外，更多依靠量贩零食店，尽管品牌自身也曾开过线下店铺，但这两种店铺都尚未在小县城得到普及，至少尚未让小县城居民们建立起去那里购买年货的消费习惯。</p>
+<p><strong>另一方面，购买年货的人群也进一步让小县城成为传统零食品牌的统治区和舒适区。</strong></p>
+<p>不同于已经达到相应年龄且拥有收入来源，因此逐渐成为走亲访友、购买年货的主力军的90后，00后一代中学生居多，无论是从年龄还是从购买力来看，他们掌握年货话语权的可能性都不高。</p>
+<p>购买、赠送年货的话语权，依然落在他们父辈一代的手中。而这个群体显然不会是网购、零食店的常客。</p>
+<p>年货的接力棒传到00后一代的手上，或许需要5~10年的时间。到那个时候，屡屡被传出“断亲”做法的他们，还会不会买年货走亲访友，恐怕还是一个未知数。</p>
+<p>不过，00后们也不必因此绝望，这些传统的年货消失在视野的可能依然存在，只不过是以另一种方式——被作为年货的产品连同整个品牌一同消亡。</p>
+<p>一个不得不承认的事实是，老字号们当下的生存状况并不乐观，以至于近几年来频繁被唱衰。</p>
+<p>原因之一，在于年货——虽然在一定时期带来了丰厚的营收，但年货为品牌留下的形象也为其筑起了一座很难走出去的围城，人们只在过年时想起它们，其他的时候则漠不关心，这让这些公司的收入来源往往过度单一，且高度依赖年货相关产品，不仅造成增长困难，经营的风险也随之增加。可谓成也年货，败也年货。</p>
+<p>为了自救，一些品牌在努力开拓新的场景，比如承德露露。</p>
+<p>2023年，公司将研发费用提升了33.93%，推出无糖巴旦木奶、杏仁咖啡、杏仁抹茶风味饮品等新品，试图打开日常消费市场。</p>
+<p>只是它未能收获对应的回报：承德露露新品所属的其他业务，当年营收为220.59万元，在整体营收中占比0.07%，在之后的半年，这个数字基本未变。与之形成对比的是，杏仁露系列产品在承德露露的营收占比始终在90%以上，今年上半年一度达到96.91%。</p>
+<p>总的来说，00后们可以心存希望，但不能过于乐观。有年货打下的基础在，这些食物距离死亡还很遥远，至少对于当下来说，年货新老格局不会立刻被改变。</p>
+<p>和解或许是最好的选择。</p>
+<p>当人们已经逐渐接受超市在春节期间播放固定背景音乐的做法，并因音乐多为刘德华演唱的《恭喜发财》，将“刘德华解冻中”作为提醒春节即将到来的网络梗，在过年的小县城才能吃到的年货，也能成为一种特殊的仪式感。</p>
+<p>头图来源|AI制图</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODQyNDEyMQ==&amp;mid=2257539182&amp;idx=1&amp;sn=3de1e42a621ce4b0f2562401f47e3ced&amp;chksm=a45310e791cd54071e764665aca9d44f3d91421d719d805123c02c7bce9a7c9062d6a57454d1&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“略大参考”（ID：hyzibenlun）</a>，作者：小遥，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3078117059114630</guid><pubDate>Sun, 15 Dec 2024 11:00:00 +0800</pubDate></item></channel></rss>
