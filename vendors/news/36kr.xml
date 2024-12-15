@@ -1,89 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 15 Dec 2024 12:30:29 +0800</lastBuildDate><pubDate>Sun, 15 Dec 2024 12:30:29 +0800</pubDate><item><title>成立3年融资超1亿美元，这家AI蛋白质设计公司凭什么？</title><link>https://36kr.com/p/3079368160262017</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2024年10月，诺贝尔化学奖授予了David Baker、Demis Hassabis和John Jumper，以表彰他们在蛋白质结构预测和设计领域的开创性贡献。而在这个领域中，动脉网关注到一家名为Cradle（Cradle Bio B.V.）的新兴生物技术公司,以其创造性的AI蛋白质设计平台，在生物技术行业中崭露头角，成功突围。</p>
-<p>Cradle成立于2021年，是一家专注于利用人工智能技术进行蛋白质设计的生物技术公司。公司的目标是通过AI技术简化蛋白质设计过程，提高研发效率，降低成本，并加速新药和新材料的开发。</p>
-<p>Cradle在2022年获得由 Index Ventures 和 Kindred Capital 领投，Feike Sijbesma 和 Emily Leproust 参投的550万美元种子轮融资。</p>
-<p>2024年11月，Cradle完成了7300万美元的B轮融资，由IVP领投，现有投资者Index Ventures和Kindred Capital跟投。至此，Cradle的总融资额已超过1亿美元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_a2b6d6c550fa4eb0ba3b51b1c237dce9@000000_oswg48424oswg600oswg296_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Cradle融资历程  图源：动脉网制图</p>
-<h3><strong>01</strong></h3>
-<h3><strong>七年Google 工程师，投身蛋白质AI领域</strong></h3>
-<p>Cradle的联合创始人兼首席执行官Stef Van Grieken在成立Cradle之前，曾在谷歌（Google）工作了七年，担任高级产品经理，参与了包括Google AI（Google Brain）和Google X在内的多个项目。期间，他还曾担任欧洲议会政策顾问、Startupbootcamp常驻创始人和Open State Foundation 的董事会主席。</p>
-<p>Stef van Grieken在Google的工作经历让他深刻认识到人工智能的强大潜力，尤其是在生物技术领域。他意识到，虽然我们在人工智能世界中处于 ChatGPT 4.0，但我们在理解和操纵生命语言的能力方面是生物学 0.5。</p>
-<p>2021年，Stef辞去Google 的工作，与Jelle Prins共同创立了Cradle。Stef和Jelle曾都是Google的员工。在成立Cradle后，Jelle Prins起初负责产品设计团队，但随着公司的发展，他主要关注于在市场上定位品牌，即如何让人们思考Cradle，以及什么能够引起共鸣。Stef van Grieken作为公司的首席执行官兼联合创始人，他主要负责公司的战略方向和运营管理。他们两人共同创立Cradle，希望利用人工智能加速生物学家设计蛋白质和调整酶的过程，促进药物的加速开发。</p>
-<p>Stef Van Grieken的灵感来源于将AI应用于DNA序列研发，以降低成本并提高研发效率。他曾想象：“凭着一己之力将知识生产的边际成本降为零，AI已经在音频视频文字领域展现了巨大的潜力，如果我们把LLM（大型语言模型）用于DNA序列研发，并将研发成本降低60%呢？”</p>
-<p>Stef van Grieken希望通过Cradle的技术平台，让科学家能够更快、更高效地设计和优化蛋白质，从而加速新药、可持续材料和无动物食品的开发。他相信，通过AI驱动的蛋白质工程，可以比传统方法更便宜、更快地发现新的治疗方法和材料。</p>
-<h3><strong>02</strong></h3>
-<h3><strong>提高1.2-12倍研发速度，成本降低90%</strong></h3>
-<p>蛋白质工程面临的挑战显而易见，通过传统方法开发新的蛋白质产品不仅耗时、成本高昂且容易出错。科学家们经常花费数年时间进行实验，使用数百万美元的资源，但无法保证成功。</p>
-<p>为此，Cradle 希望创建一种类似于“生物学家的 Photoshop”的平台，让生物学家们能够运用机器学习模型，像利用Photoshop处理图像一样轻松地设计和优化蛋白质。</p>
-<p>为了实现这一目标，Cradle首先建立了自己的湿实验室，生成了数十亿的蛋白质序列和实验室数据。然后，利用这些数据来训练其专有的生成式人工智能模型。该模型依托于云计算的AI平台，用于设计DNA蛋白质序列，以便于生物学家能够更加轻松地进行蛋白质设计和优化工作。</p>
-<p>具体而言，该云计算AI平台能够通过深度学习算法预测蛋白质的三维结构，并设计具有特定功能的新型蛋白质，可被应用到新药开发、可持续化学品的合成、农作物保护等领域。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_f1332c9e425d457fb494796aa44b5f6a@000000_oswg58482oswg600oswg288_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">蛋白质AI生成界面 图源：Cradle官网</p>
-<p>作为一款目标向任何人都能使用的AI蛋白质设计产品，Cradle 的技术能以更少、更成功的实验大幅加快蛋白质的设计和优化。据Cradle官网，与行业基准相比，<strong>大多数项目使用 Cradle 平台的进度快两倍，使用Cradle的公司研发项目速度显著加快，提高了1.2 到12倍，成本降低了高达 90%。</strong></p>
-<p>为此，Cradle设计了一个与现有蛋白质生成和设计工作流程相匹配的系统，覆盖从目标设定到最终产品交付的整个过程。该系统从目标分析和设定开始，经过蛋白质序列生成、实验室测试，最后将实验室结果导入系统。Cradle的操作界面经过精心设计，旨在尽可能简化用户体验，使其易于上手，更契合用户现有的工作流程。</p>
-<p>用户在使用Cradle平台时，仅需提供他们计划测量的数据参数以及期望的结果。一旦蛋白质序列生成，紧接着在湿实验室便会进行相应的测试。在每一轮实验结束后，用户的实验数据将被反馈回Cradle系统。这个过程不仅有助于优化用户的私有Cradle模型，还能让用户对接下来的实验轮次有更准确的性能预期。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_740c230315924e2f90d1cd0ff4462a1e@000000_oswg42821oswg600oswg177_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Cradle操作流程 图源：Cradle官网</p>
-<p>此外，Cradle还提供一系列功能，以便利用户进行蛋白质设计。其中包括：</p>
-<p>智能蛋白质序列优化：Cradle分析现有蛋白质序列，提出改进方案，并预测优化后的性能。与其他数据科学软件通过依赖专家知识、复杂实验数据或蛋白质结构信息的方式不同，Cradle通过AI提供设计建议，为生物学家带来蛋白质设计优化的深刻见解和建议。</p>
-<p>结构预测：Cradle能够基于序列预测蛋白质的三维结构，并可视化展示。与I-TASSER（蛋白质结构预测和基于结构的功能注释的分层方法）相比，后者需要多次碎片组装模拟才能构建三维结构，Cradle的处理速度更快。</p>
-<p>功能预测：Cradle评估设计蛋白质的潜在功能，并预测其与其他分子的相互作用。这类似于微软研究院开发的μProtein框架，两者都具备强大的蛋白质序列优化能力。</p>
-<p>数据库集成：Cradle接入大型蛋白质数据库，实现快速检索相关信息。与DTiQ（全球领先的智能视频监控和损失预防解决方案提供商）等平台类似，它们提供实时KPI跟踪和自定义报告功能，帮助用户监控关键绩效指标。</p>
-<p>协作平台：Cradle支持团队成员共享设计方案、讨论、版本控制和项目管理。与其他在线协作平台提供的项目管理和团队协作功能相似，旨在提升团队效率。</p>
-<p>与传统方法不同，Cradle能在单个回合中处理多个属性和优化任务。包括酶、疫苗、肽和抗体。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_1064484b33ba4e90be1f6c5b82161819@000000_oswg61533oswg600oswg467_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Cradle使用界面 图源：Cradle官网</p>
-<p>而在数据安全和保护方面，Cradle平台则采用业界领先的银行级安全措施来保护用户数据，确保只有用户本人及其授权的人员能够访问相关的蛋白质序列和实验数据。该公司承诺，用户的数据不会被用于训练其他用户的模型，从而保障了用户数据的隐私性和专属性。同时，Cradle还采用软件即服务（SaaS）的商业模式，这种模式简化了商业交易流程，避免了复杂的版税、收入分成和知识产权等潜在问题，为用户提供了一个清晰、高效的合作环境。</p>
-<h3><strong>03</strong></h3>
-<h3><strong>牵手MNC，正在开发31种蛋白质</strong></h3>
-<p>Cradle 推出的AI蛋白质设计平台，给生物制药公司带来了新机遇。让它们有望打破新药研发领域长久以来的“双十定律”——即新药研发需要超过10年时间和10亿美元的投入。</p>
-<p>利用AI，Cradle帮助科学家不仅能够从成功的案例中汲取经验，还能从失败的实验中挖掘出有价值的信息，发现新的可能性。这带来了更好的药物、更可持续的材料和无动物成分的食品的前景——所有这些都比传统方法更便宜、更快捷地被发现。</p>
-<p>在2021年成立之初，美国强生公司便与Cradle签订了合作协议，并成功利用Cradle的模型修缮蛋白质，提高了其效能。随后，在最近一年内，Cradle进一步扩大了合作伙伴网络，与MCN诺和诺德以及合成生物学领域的领先企业Ginkgo Bioworks签署了新的伙伴关系，将客户群扩展至制药、化工、食品、农业和材料等多个行业。</p>
-<p>自从今年年初将软件平台投入商业化运营以来，Cradle的客户群已超过21个，并且正在开发31种蛋白质项目。</p>
-<p>在今年由Align to Innovate（一个非盈利的开放科学国际组织）举办的蛋白质工程锦标赛中，来自工业界和学术界的30多个团队参与了对酶工程中最新计算方法的基准测试。在四个监督酶特性预测挑战中，Cradle自动生成的模型，两次第一名，两次并列第一名。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_e32ea86a49af4e54a8fc95648aadeb36@000000_oswg42108oswg600oswg283_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">“Align to Innovate”基准的酶优化挑战 图源：Cradle官网</p>
-<p>此外，Cradle 最近还招募 Sam Partovi 加入公司担任首席商务官，Sam 在为生命科学行业扩展基于云的平台方面拥有超过 20 年的经验，曾在 Medidata（全球领先的临床数据和分析平台提供商）、Benchling（全球领先的大分子研发云实验室信息学平台） 和 VeevaSystems（生命科学行业云软件的全球领导者） 组建上市团队。目前，该公司团队有 43 名成员。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MTMyMDg0Ng==&amp;mid=2650658361&amp;idx=2&amp;sn=228e9f73544601bc10d0ba9db2d069fc&amp;chksm=bf0353b6c555b39d93199ffa7fd3e9277b6c541ee3f436bc07a2cb35993c07407ae14a862f95&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“动脉网”（ID：vcbeat）</a>，作者：龙鑫，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3079368160262017</guid><pubDate>Sun, 15 Dec 2024 09:11:00 +0800</pubDate></item><item><title>花几十元去电影院看演唱会，火了</title><link>https://36kr.com/p/3078057056565121</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>举着应援棒大声合唱，歌迷一起互动交流……这种平时只能在演唱会现场看到的景象，如今也能在电影院里体验一把。</p>
-<p>只要几十元就能在家门口看的演唱会，你会去吗？</p>
-<h3><strong>去电影院看演唱会</strong></h3>
-<p>“好像回到了1981年！”看完《皇后乐队蒙特利尔现场演唱会》5天后，在北京上大学的李然（化名）依然久久不能自拔，“他们办这场演唱会时我都没出生，今天能在大荧幕上看到他们鲜活的样子真好。”</p>
-<p>12月6日，《皇后乐队蒙特利尔现场演唱会》正式在全国艺术电影放映联盟指定影院上映。该片记录了皇后乐队1981年在加拿大蒙特利尔举行的两场经典演唱会，并将其以电影的形式呈现。据IMAX官方12月11日消息，《皇后乐队蒙特利尔现场演唱会》观影人次现已超过52000人。</p>
-<p>“我看的不是粉丝包场，观众席安安静静的，我只敢小声跟唱。后来发现旁边的女生也在一起默默打拍子，散场后还遇到了乐迷交换无料（粉丝自制的无偿周边产品），真的很开心。”李然说，“在电影院里看，跟在电脑上的体验完全不一样，大荧幕特别有沉浸感，更别提音响效果了。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241214/v2_12fc003ada914f3ebe7c03e321fe4c08@000000_oswg85925oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲北京IMAX影迷团与北京远行观影团观影活动现场图 受访者供图</p>
-<p>李然没去成的粉丝包场，则把电影开成了一场迷你“演唱会”。例如北京IMAX影迷团与北京远行观影团组织的线下观影团，不仅向观众赠送了海报、明信片、透卡等周边，还每人发了一个应援棒。观看电影期间，乐迷随节奏一起跟唱、挥舞应援棒，甚至站起来喝彩，仿佛演唱会现场观众席。</p>
-<p>远行观影团北京负责人之一“123”告诉中新经纬，他们目前已组织了两场该演唱会电影的观影团，平均每场观众超过130人。与其他类型的电影相比，演唱会电影的观影氛围更加欢快，有唱有跳，观众以粉丝为主。</p>
-<p>除了《皇后乐队蒙特利尔现场演唱会》，近年登陆院线的演唱会电影还有于2023年12月31日上映的《泰勒·斯威夫特：时代巡回演唱会》。据灯塔专业版数据，该片票房超过1亿元，位居中国影史音乐纪录片票房榜首，并打破了过去5年纪录片累计票房记录，观影总人次超200万。</p>
-<p>近日，内地华语首部演唱会电影《张杰曜北斗巡回演唱会》定档12月20日。中新经纬从淘票票处了解到，《张杰曜北斗巡回演唱会》收录了张杰2023年8月在北京国家体育场-鸟巢举办的“未·LIVE-「曜·北斗」巡回演唱会”三场收官演出。该轮巡演于2021年10月在苏州开启，2023年8月北京收官，共计13座城市，23场演出，总动员人数超过90万人。</p>
-<p>灯塔专业版数据显示，12月1日《张杰曜北斗巡回演唱会》官宣后，淘票票“想看”数据日增超7万，一举成为2024年淘票票日增想看年度冠军，目前影片双平台“想看”已突破36万。据悉，后续淘票票也将充分联动大麦，继续通过影演宣发矩阵共振、淘麦VIP创新玩法等方式，助力影片用户触达和口碑破圈。</p>
-<h3><strong>为何如此受欢迎？</strong></h3>
-<p>一位张杰的歌迷告诉中新经纬，她在2023年看过“未·LIVE-「曜·北斗」巡回演唱会”北京站，当时票价是680元一张。尽管已经看过现场，但她依然计划去院线看电影版。“演唱会参与性更强，音质上乘、现场气氛很好；演唱会电影会有一些思考的空间，而且对经济不太自由的群体比较友好。”</p>
-<p>据中国演出行业协会10月发布的2024年三季度及国庆假期全国演出市场简报，2024年三季度全国营业性演出（不含娱乐场所演出）场次17.33万场，同比增长16.27%，票房收入208.10亿元，同比增长41.1%，观众人数5736.65万人次，同比增长17.51%。2024年国庆假期期间，全国5000人以上的大型演唱会、音乐节演出场次达到125场，票房收入8.6亿元，观众人数127.1万人次，均比去年同期显著增长。</p>
-<p>“演唱会票价相对更高，抢票也比较困难。而且演唱会一般在特定的地区和时间举办，对异地或者没有时间的观众来说赶过去会比较困难，但院线上映是全国范围的，这一时间段内所有影院都可以播放，大家看到的机会就更多，对粉丝来说肯定是好事。”北京某电影院相关负责人告诉中新经纬。</p>
-<p>以北京为例，中新经纬在大麦App上看到，App页面热门演唱会一栏的票价最低在180元。其中，刀郎2024演唱会北京站共举办四场，票价最低480元起，最高1280元。周华健北京演唱会共举办三场，最低480元起，最高1580元，根据座位图，480元档均为后排位置。而目前在映的《皇后乐队蒙特利尔现场演唱会》，票价普遍在30-80元之间，自12月6日上映后每日均有多场排片。</p>
-<p>保利影业投资有限公司总经理李挺伟对中新经纬说：“相较于现场看演唱会，在电影院看演唱会的优势很多，最重要的就是演唱会电影打破了时间和地点的限制。同时，相较于价格昂贵的演唱会门票，几十元的电影票更具有‘性价比’，可以满足买不到票或者经济条件有限的粉丝朋友们的文化审美需求。”</p>
-<p>中新经纬也在小红书等平台上看到，许多歌迷自发寻找“搭子”组队观看《皇后乐队蒙特利尔现场演唱会》，有包场场次观众达到400人，评论区有人称“大家一起唱特别好”“摇滚一家亲”。</p>
-<p>李挺伟指出，电影院观看演唱会可以带来现场沉浸体验和临场感，与演唱会的拥挤和嘈杂相比，电影院的环境提供了相对舒适和宽敞的环境，加之电影院里专业的视听设备，观众可静可动，也可更好地沉浸在音乐中。</p>
-<h3><strong>影院也需要多元化</strong></h3>
-<p>另一方面，院线也需要更加多元化的影片。</p>
-<p>据中国电影家协会联合灯塔研究院发布的《2024中国电影观众变化趋势报告》（下称报告），截至10月，2024年电影市场观影人数预估4.11亿，人均观影频次2.2次，观影人数及人均观影频次均略有回落。报告指出，未来一方面需要吸引新用户首次走进影院，一方面需要培养低频用户持续走进影院，从供给数量、质量和类型丰富度等方面持续性提供观众喜欢的电影。</p>
-<p>“演唱会电影主要面向的是艺人的粉丝群体，受众年龄分布通常较为集中，以年轻人为主，例如，泰勒·斯威夫特的演唱会电影《泰勒·斯威夫特：时代巡回演唱会》在年轻观众中取得了巨大的成功，30岁以下的受众占比高达83%。年轻人通常具有较强的消费能力和消费意愿，愿意为自己喜欢的艺人买单。”李挺伟告诉中新经纬。</p>
-<p>据灯塔专业版数据，目前在张杰演唱会电影“想看”数据中，25-29岁的年轻观众占比达43.2%；分性别来看，女性观众占比达81.1%。</p>
-<p>据李挺伟介绍，与传统影片宣传渠道相比，演唱会电影更侧重粉丝社区、音乐平台、艺人的社交媒体平台等渠道进行宣传。在宣传内容上，通常包含艺人的精彩表演瞬间、幕后花絮、粉丝互动等元素，以此激发粉丝的观影热情。为营造更加浓厚的演唱会氛围，电影院在播放演唱会电影时在影厅内布置与艺人相关的海报、手幅、荧光棒等道具，给观众带来更加沉浸式的观影体验。</p>
-<p>“演唱会电影丰富了电影院的经营业态，拓展收入来源，与保利影业提出建设‘第三代影城’不谋而合。”李挺伟说。</p>
-<p>前述影院负责人也表示：“我们期待更加多元化的影片上映，以吸引更多的不同类型的观众进入影院观影。”</p>
-<p>此外，中新经纬还注意到，在张杰演唱会电影定档后，许多影院都打出广告，招揽观影团或歌迷包场。河南某影院便在宣传中表示，演唱会活动场报名满100人可升级影厅，并在商场设置应援大屏。</p>
-<p>“观影团看演唱会电影氛围会很好，物料也多，可以满足乐迷社交需求。”“123”说，“在演唱会电影的整体票房中，观影团占据的比例还是比较高的。”</p>
-<p>前述影院负责人也表示：“相对于其他影片，演唱会电影客群较为小众，但观影团和粉丝包场往往会集中一批观众前来。因此，这种形式的电影场次虽然不算多，但上座率通常会比较高，影院也会集中人力物力将这些场次做好。”</p>
-<p>中新经纬了解到，演唱会电影《泰勒·斯威夫特：时代巡回演唱会》上映时，全国多家保利影城与粉丝团体联动，举行包场活动，并限量发行全球正版周边衍生品。自《张杰曜北斗巡回演唱会》定档以来，多家保利影城也收到了粉丝包场的咨询。</p>
-<p>文：郑艺佳 编辑：李晓萱 责编：常涛 罗琨 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247586719&amp;idx=1&amp;sn=2114a964f4417adc3a08d6f778a8b7c1&amp;chksm=e8f5200b5b18485facd9d85134e43691ae4aeb1c78197abca2ce73b5ef71bc29df4589e89098&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：郑艺佳，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3078057056565121</guid><pubDate>Sun, 15 Dec 2024 09:14:00 +0800</pubDate></item><item><title>48小时直击极越的危情与转机</title><link>https://36kr.com/p/3078794679826304</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 15 Dec 2024 13:00:24 +0800</lastBuildDate><pubDate>Sun, 15 Dec 2024 13:00:24 +0800</pubDate><item><title>48小时直击极越的危情与转机</title><link>https://36kr.com/p/3078794679826304</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>叶城路1688号门口的树叶变得更稀疏了，在魔都最低温度已近零摄氏度的气温下，随风摇曳。这里是近日陷入哗然舆情的新能源汽车品牌极越的上海办公总部。</p>
 <p>大楼内，谈判仍在进行。</p>
 <p>“明天继续，夏老板身体撑不住了，要休息了。”12月13日23:52，一名极越员工分享了公司CEO夏一平的新动态，这是他和同伴通宵的第二个夜晚，为的是“守住”夏一平。当天，夏一平持续谈判超过10个小时。</p>
@@ -356,7 +272,45 @@
 <p>小红书电商造出的巴恩风，让外界看到了这个平台电商生态的联动性，平台发挥潮流预测优势，买手和博主供给优质内容，商家和品牌供给优质商品，实现交易价值最大化，最终服务消费者。 </p>
 <p>对于小红书电商来说，每一种风潮都有垂类受众，想要覆盖更多商家和用户，还需要持续造风。 </p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkzODUxNTM2OA==&amp;mid=2247516103&amp;idx=1&amp;sn=5962b2432521194c5511e2c782dc3949&amp;chksm=c349fdb0d50e94396fc7b3b76f9927ebdbeecc0988ec44095128dfda8a6f0e91e4e19042b290&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“定焦”（ID：dingjiaoone）</a>，作者：定焦One团队，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3078100926887814</guid><pubDate>Sun, 15 Dec 2024 11:30:00 +0800</pubDate></item><item><title>品类受限、渠道内耗，老板电器经销商“老板”难当</title><link>https://36kr.com/p/3078094785394566</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3078100926887814</guid><pubDate>Sun, 15 Dec 2024 11:30:00 +0800</pubDate></item><item><title>听说，中国车市只有三条“护城河”</title><link>https://36kr.com/p/3079388306454402</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>此刻，2024年已经临近尾声。</p>
+<p>如果要用几个词形容即将过去这365天的中国车市，我给出的答案俨然集中在：颠覆与魔幻。</p>
+<p>颠覆的是原有传统燃油车时代的格局，随着电动化转型浪潮的不可逆转，旧王谢幕新王登基正在悄然发生，而自主品牌与合资品牌的处境与声势，也发生了彻底地对调。</p>
+<p>魔幻的更多是整个大盘看似欣欣向荣，在多方利好的助推下销量数据屡屡创下新高，终端消费者的购车热情还在被不断地激发出来，但站在大多数主机厂的角度，却听到的是怨声载道、叫苦连连，甚至连活着都成了问题。</p>
+<p>总之，表面的光鲜亮丽与背后的冷暖自知，形成了愈发鲜明且讽刺的对比。毫不夸张地说，眼下正处在最为关键的十字路口。对于所有留在牌桌上的参与者，何去何从全凭自己折腾与选择。</p>
+<p>而最近，听到一段颇为有趣的观点：“目前，中国车市只有三条不可撼动的护城河，比亚迪的规模效应，华为的智能化，以及小米的营销。”</p>
+<p>对此，由衷的深表赞同。至于什么才是“护城河”？简单直白来讲，就是一家车企最为突出的长板，短时间内几乎不可能有人能够追上或赶超。接下来的篇幅，更想分别就上述三部分展开聊聊。</p>
+<p>首先，便是比亚迪的规模效应。</p>
+<p>刚刚过去的11月，这位“大魔王”的销量再次迈过了50万辆大关。按照如今的架势，12月继续突破50万辆板上钉钉，反观全年注定会达到423万辆以上。</p>
+<p>顺势，再抛出一个冷知识，作为合资品牌的在华巅峰，大众集团2019年时包含了旗下所有品牌以及进口车业务，总销量恰好达到423万辆。换言之，今年的比亚迪即将用明晃晃的成绩单，翻过又一座曾经望而却步的高山。</p>
+<p>那明年呢？按照这位长期以“全球新能源汽车领导者”自居选手的决心与野心，总感觉至少500万辆打底，也就是试图占据中国车市四分之一的“江山”。</p>
+<p>而在越来越强大的规模效应下，你会发现比亚迪在技术研发、生产制造、成本管控、推新节奏、赚钱效率等等维度的优势，会继续肉眼可见以较为恐怖的速度所提升。</p>
+<p>回头来看，其掌舵者王传福为什么敢说出那句：“当下是快鱼吃慢鱼的时代，不是大鱼吃小鱼的时代，一家车企如果在未来3-5年没冲上去，就彻底没机会了。并且未来3-5年，中国车市整体或不同细分板块，还会持续开打价格战。”</p>
+<p>显然，像是滚雪球般仍在变大的“规模效应”，便是他心中最为充沛的底气，尤其是在20万元以下的细分市场，比亚迪在马太效应不断加剧之下，正在变得几乎无法战胜。</p>
+<p>其次，则是华为的智能化。</p>
+<p>关于该部分，只想一个例子。全新岚图梦想家，在搭载了华为乾崑智驾ADS 3.0和鸿蒙座舱后，迅速从老款的不温不火到直接突出重围，周上险数甚至超过了2000辆，大有一副高端MPV市场搅局者的架势。</p>
+<p>而销量的上涨，虽然不能说全是华为的功劳，但在我看来却占据了很大一部分原因。毕竟，随着行业的向前发展，成熟的智能化体验在购车用户选择过程中占据的权重，还在不断地提升。</p>
+<p>也恰恰基于这样的背景，“但凡自己做不好，那就投身强者的怀抱”已然成为中国车市不可逆转的主旋律。</p>
+<p>全新岚图梦想家的爆火，俨然刺激了许许多多犹豫不决的围观者。纵使曾经多么的嘴硬，到头来还是不得不选择把“灵魂”交给华为。</p>
+<p>不为别的，只因真香。</p>
+<p>无独有偶，单论高阶辅助驾驶，身为媒体小编试驾过的产品多达数款，很负责任地说“华为系”车型的综合体验确实是最好的。而其在智能化上砸入的人力、物力、财力，同样是其它主机厂难以比拟的。</p>
+<p>更为重要的是，评判智能化的好与坏，除了功能本身的成熟度，实际上中国车市正在大打特打一场所谓的“心智战”。华为通过各种手段的疯狂洗脑，完完全全位于中国车市占据了主导地位。</p>
+<p>并且随着时间的推移，华为的分量还在加重。</p>
+<p>再者，还有小米的营销。</p>
+<p>借用京东CEO刘强东名场面中的警告：“不要跟雷军比营销，能把小米手机卖成几百亿，绝对不是一般人。”此刻，同样想送给在座的汽车同行们。</p>
+<p>过去几年，许许多多的品牌叫嚣着要围剿特斯拉Model 3，可到头来发现能够和它掰掰手腕的只有单月交付量稳定突破2万辆的小米SU7。</p>
+<p>外观设计足够吸睛，整体配置没有犯错，最终定价较为合理，无疑都成为了热销背后的“催化剂”。</p>
+<p>除此之外，还有很大一部分的诱因集中在：“雷军实在太会营销了，给这款产品带来了很多的附加值，让它可以真正意义上的做到出圈。”</p>
+<p>最终，小米SU7占尽了天时、地利、人和。即便截至目前全系版本的提车周期仍维持在20周以上，也就是5个多月，但依旧阻挡不了订单的爆棚。</p>
+<p>殊不知，就在本周一，工信部再次发布了又一期新车目录，千呼万唤始出来，小米旗下的第二款产品YU7赫然在列。瞬间，各大社交平台铺天盖地都是它的消息，甚至夸张到登上了微博热搜。</p>
+<p>很快，引来了雷军的亲自吆喝：“今天，工信部官网公示了小米汽车全新SUV车型小米YU7，预计明年六七月正式上市。为什么这么早公示？我们希望YU7测试车可以尽早拆除重伪装，有助于我们做更全面、更细致的长时间大规模测试，来确保产品质量，做出更好的产品。”</p>
+<p>字里行间，透露出小米YU7的节奏不会很快。</p>
+<p>一天以后，针对外界对于其叫法上的巨大争议，雷军再次下场澄清：“很多人问YU7如何读？就直接读 Y-U-7。等发布的时候，我们再详细解释为什么这样命名。”</p>
+<p>看似不经意的回答，却又让悬念感拉满。</p>
+<p>作为旁观者，不禁感慨：“对于小米汽车以及整个团队来说，拥有这样一位懂营销且愿意亲力亲为的老板，究竟是何其幸事。尤其身处在一个产品愈发同质化的时代，往往谁会吆喝谁好卖车。”</p>
+<p>而这种十分隐性的“护城河”，往往难以复制。对于其它主机厂来说，或许你可以照猫画虎模仿雷军的操作，但绝对学不会背后的精髓……</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MTY0Njc2MQ==&amp;mid=2659282996&amp;idx=2&amp;sn=a8fc3d079e41742914b8aa888e3f7612&amp;chksm=bc84a97bb3ca69b4543f708db37246e7ec2e198823093b18c06813fb085af32d3e0e3df54ded&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“汽车公社”（ID：iAUTO2010）</a>，作者：崔力文，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3079388306454402</guid><pubDate>Sun, 15 Dec 2024 11:30:00 +0800</pubDate></item><item><title>品类受限、渠道内耗，老板电器经销商“老板”难当</title><link>https://36kr.com/p/3078094785394566</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>日前，广东中山市乖致电器科技有限公司突然倒闭的消息震惊厨电圈。据相关媒体报道，乖致电器主要从事破壁机、果汁机、豆浆机等厨房小家电生产。该公司员工透露，乖致电器共欠几十名员工两个半月工资大约 500万，欠供应商材料款6000万。 </p>
 <p>在不少厨电经销商眼中，该公司老板跑路或是必然。随着地产行业进入深度调整期，和地产息息相关的厨电行业除头部厂商还有些订单外，许多二三线厨电工厂和代工厂都无订单支撑。</p>
 <p>另结合2024年Q3多家厨电企业的财报来看，除华帝仍保持营收和利润双增外，其他企业或营收和利润双降或陷入增收不增利的泥潭中。</p>
@@ -582,4 +536,54 @@
 <h3><strong>加入36氪出海学习交流群</strong></h3>
 <p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
 <p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3078223484745344</guid><pubDate>Sun, 15 Dec 2024 12:05:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3078223484745344</guid><pubDate>Sun, 15 Dec 2024 12:05:00 +0800</pubDate></item><item><title>丸美“更名”，创始人孙怀庆夫妇财富较高点缩水175亿</title><link>https://36kr.com/p/3077504234765826</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在预告数日后，丸美股份的股票简称在“双十二”当天正式变更为了“丸美生物”。</p>
+<p>对于此次更名，丸美生物在公众号的推文中表示，丸美从创立之初，就是一家承载着科技基因而诞生的美妆公司。</p>
+<p>不过，翻看丸美生物过往的财报可以发现，其销售费用率要明显高于研发费用率。去年及今年前三季度，丸美生物的研发费用率较此前有所下降。而与部分化妆品上市企业相比，丸美生物的研发费用率也稍显落后。</p>
+<p>对于自己一手打造起来的丸美公司，创始人孙怀庆、王晓蒲夫妇拥有绝对掌控权。截至三季度末，孙怀庆、王晓蒲夫妇合计持股比例高达80.8%。</p>
+<p>凭借丸美，孙怀庆、王晓蒲夫妇在《2020胡润百富榜》上的财富一度高达255亿元。不过，今年两人在该榜单上的财富已缩水至80亿元，较此前的巅峰时期整整减少了175亿。</p>
+<p>从财务表现来看，今年前三季度，丸美生物营收实现27.07%的增长，但增速较去年同期有所放缓；同期公司的归母净利润增长37.38%，但盈利规模不及上市当年。<strong>此外，丸美生物的市值，较高点出现了超200亿的下滑。</strong></p>
+<p><strong>更名大打“生物科技”牌，研发费用率不及行业“顶流”</strong></p>
+<p>12月12日，丸美股份通过官方公众号宣布，丸美股份正式更名为“丸美生物”。</p>
+<p>雷达财经注意到，早在12月5日，丸美股份就已经提前向外界公布了将要更名的消息。彼时，丸美股份在相关公告中向外界透露了更名的原因。丸美股份表示，公司及重要全资子公司名称中原本已包含了“丸美生物”及“丸美生物科技”。</p>
+<p>据悉，丸美公司于2002年创立，2012年股份公司成立时名称为“广东丸美生物技术股份有限公司”，公司重要全资子公司2009年成立时名称为“广州丸美生物科技有限公司”，均含有“丸美生物”字样。</p>
+<p>据丸美生物透露，公司主营业务重点聚焦于生物护肤领域，大部分产品都不同程度地应用了生物技术成果。公司具备强劲的研发实力和全链路研发体系，实现了核心生物原料的自研自产及创新技术成果的闭环研究和转化应用。</p>
+<p>与此同时，丸美公司研发中心下设的基础研究中心，建有皮肤医学、活性材料、生物发酵等不同研究方向的众多实验室，拥有全面的生物科学研究、活性材料开发和生物活性评价测试能力。</p>
+<p>丸美生物还强调，公司是高新技术企业、广东省生物护肤品工程技术研究中心、广东省企业技术中心，也是广东省“专精特新”企业、广州市博士后创新基地。</p>
+<p>未来，公司仍将继续深耕生物技术的科学研究，开发更多元化、更绿色天然、更安全高效的生物活性原料，推进生物科技的创新和应用。因此，公司拟将证券简称进行变更，本次证券简称变更与公司名称与实际情况相匹配。</p>
+<p>值得一提的是，据丸美生物12月11日发布的另外一则公告显示，近日，公司还完成了相关工商变更登记手续，企业类型由“股份有限公司（中外合资、上市）”变更为“股份有限公司（外商投资、上市）。</p>
+<p><strong>尽管丸美希望通过此次更名进一步向外界强化自己的科技基因，但丸美生物近期的研发费用率其实是有所下降的。</strong>2019年至2022年，丸美生物的研发费用率从最初的2.49%一路上升至3.06%，但去年其研发费用率跌至2.8%。今年前三季度，丸美生物的研发费用同比上涨23.08%增至0.54亿元，但其研发费用率却再度微降至2.79%。</p>
+<p>与之对应的是，丸美生物的销售费用率从2019年的30.01%一路上涨至2023年的53.86%。今年前三季度，丸美生物的销售费用率进一步上涨至54.85%，这意味着丸美生物前三季度将超过一半的营收投入到了销售方面。</p>
+<p>面对外界重营销、轻研发的质疑，丸美创始人孙怀庆此前就曾进行过回应。在他看来，广告宣传是快消品的刚性成本，而研发占比达到2%已经算是行业高水平，“节约广告费，转变为利润，对我们来说太容易，但对品牌的长远发展来说并不好。化妆品是半个造梦行业。我们要保持品牌的知名度，我们要想的是品牌的事。”</p>
+<p>事实上，近些年来，越来越多的化妆品企业开始强化自身的科技属性。比如，珀莱雅、贝泰妮、欧莱雅、资生堂近来都曾在公开场合强调过企业对于科技研发的重视。</p>
+<p>而与部分玩家相比，丸美生物的研发费用率并不占优势。<strong>以今年前三季度为例，华熙生物、贝泰妮的研发费用率分别为8.08%、4.97%，均高过丸美生物的2.79%。</strong></p>
+<p><strong>创始人孙怀庆另辟蹊径，靠眼部护理杀出重围</strong></p>
+<p>身为丸美创始人的孙怀庆是土生土长的重庆人，就连本科他都是在当地的重庆理工大学读的。新世纪后，孙怀庆还曾在北京大学、香港大学工商管理学进行深造，以不断提升自己的专业素养和视野。</p>
+<p>1989年至1995年期间，孙怀庆在重庆特种电机厂担任生产总调度。不过，孙怀庆并没有一直在重庆特种电机厂待下去。1995年，孙怀庆放弃了稳定的工作毅然辞职南下，加入到了广州化妆品行业浩浩荡荡的大军之中。</p>
+<p>当时，广州化妆品行业正处于创立高峰期，中外合资和纯外资企业纷纷入驻，竞争异常激烈。然而，凭借敏锐的市场洞察力，孙怀庆迅速在化妆品行业崭露头角。</p>
+<p>1995年至1998年，孙怀庆在广东白马化妆品有限公司担任推广部部长。1998年至2001年，孙怀庆又出任广州安尚秀化妆品有限公司执行董事、总经理职务。在化妆品行业摸爬滚打多年后，孙怀庆看到了国产化妆品行业的广阔前景，决定创立自己的品牌。</p>
+<p>当时，市面上的化妆品大多涉及面部保湿、防晒、美白、抗衰老等，但孙怀庆并没有跟随大流挤向本就已经十分拥挤的赛道，而是选择了眼部护理这一在当时稍显空白的市场作为切入点。天眼查显示，2002年，一家名为广州佳禾化妆品制造有限公司的公司在广州正式成立，而这家公司正是丸美的前身。</p>
+<p>“2002年之前，国际国内品牌没有人专注眼霜，第一他们认为消费市场小，第二他们认为很难做，吃力不讨好。但实际上所有人都注重眼霜。所有人对眼霜都不满意”，在回忆起创业之初的经历时，孙怀庆如是说道。</p>
+<p>不过，孙怀庆也坦言，眼霜在化妆品品类中是最难做的，因为眼部肌肤是面部肌肤里面最脆弱的，眼睛一天要眨动一万四千次，没有汗腺很难吸收，用劣质产品就容易长脂肪粒。</p>
+<p>而丸美的崛起，离不开孙怀庆对品牌建设的重视。他深知，要想在激烈的市场竞争中脱颖而出，必须打造具有竞争力的品牌形象。于是在品牌创立之初，孙怀庆就为丸美定下了“眼部护理大师”的品牌定位。</p>
+<p>从最初多达4款“细胞活性肌晶系列”的眼部产品，到获得多项美容大奖的眼部多元细胞修复素，再到2004年推出的首批获得卫生部特殊化妆品许可的产品眼部防晒乳，丸美在眼部护理领域的技术实力一步步得到夯实。到了2007年，丸美的明星产品弹力蛋白素正式问世。</p>
+<p>与此同时，孙怀庆也深知广告营销对于品牌塑造的重要性，因此投入了大量资金进行广告宣传。据雷达财经不完全统计，在品牌问世至今的这二十多年里，丸美曾相继与梁朝伟、周迅、彭于晏等影视明星合作。</p>
+<p>凭借着“弹弹弹，弹走鱼尾纹”这句广告语，丸美品牌变得更加家喻户晓。目前，打开丸美官网，还能在首页赫然看到其最新代言人范丞丞拍摄的广告宣传图。</p>
+<p><strong>在孙怀庆的带领下，丸美品牌逐渐成为中国眼霜销量第一的品牌。</strong>据丸美官网披露，2021年至2023年，丸美眼部护理产品连续三年摘得中国销售额的第一名。</p>
+<p>如今，丸美生物旗下已经有三大品牌，它们分别是丸美、恋火和春纪。其中，丸美作为拥有20余年历史且定位中高端的主品牌，主要以眼部护理为核心，深耕抗衰；恋火作为新锐彩妆品牌，擅长底妆；春纪品牌则定位大众化功能性护肤。</p>
+<p><strong>公司股权高度集中，创始人夫妇财富较高点缩水175亿</strong></p>
+<p>对于孙怀庆而言，2019年7月25日是一个有着特殊意义的日子。当天，丸美股份正式登陆A股，成功加冕“中国眼霜第一股”。在这个历史性的时刻，孙怀庆佩戴上了象征喜庆的红色围巾，在阵阵掌声中替丸美股份敲响了上市的钟声。</p>
+<p>据丸美生物此前发布的财报显示，孙怀庆、王晓蒲夫妇为一致行动人。作为公司的实际控制人，他们共同掌握着公司的命脉。2024年中报显示，孙怀庆在公司担任董事长、总经理兼首席执行官职务，其妻子王晓蒲则在公司担任总裁助理一职。</p>
+<p>尽管丸美生物是一家已经公开上市的公司，但身为创始人的孙怀庆、王晓蒲夫妇仍持有上市公司超高比例的股份。截至今年第三季度末，孙怀庆、王晓蒲分别持有公司72.72%、8.08%的股份，合计持股比例高达80.8%，彰显出丸美生物股权结构的高度集中性。</p>
+<p>在财富方面，孙怀庆与王晓蒲夫妇在上市当年便以155亿元的财富强势跻身《胡润百富榜》。随后，他们的财富更是如火箭般飙升，在次年达到了惊人的255亿元，一年时间内实现了百亿元的增长。</p>
+<p><strong>不过，近年来，孙怀庆、王晓蒲夫妇的财富却经历了波动。2021年、2022年，孙怀庆、王晓蒲夫妇的财富分别下滑至115亿元、85亿元。</strong></p>
+<p>尽管孙怀庆、王晓蒲夫妇的财富在2023年小幅回升至95亿元，但在今年10月出炉的《2024胡润百富榜》中，孙怀庆、王晓蒲夫妇的财富又再度缩水至80亿元，相较2020年的巅峰时刻更是减少了175亿元之多。</p>
+<p>创始人夫妇财富缩水的背后，丸美生物近年来的净利润尚未恢复至巅峰水平。</p>
+<p>今年前三季度，丸美生物实现19.52亿元的营收，相较上年同期的15.36亿元实现27.07%的增长，创下了上市以来三季报营收的历史新高。不过，相较去年前三季度34.34%的增速，丸美生物的营收增长有所放缓。</p>
+<p>利润方面，前三季度，丸美生物实现归母净利润2.39亿元，相较上年同期的1.74亿元实现37.38%的增长。不过，上市当年及上市第二年，公司前三季度归母净利润达3.59亿元、3.38亿元，目前公司归母净利润尚未回到这一水准。</p>
+<p>对于前三季度所取得的成绩，丸美生物表示，主要系本期营业收入增长，同时公司产品结构进一步优化从而毛利率有所提升等所致。</p>
+<p>值得注意的是，去年年末，丸美生物的短期借款为1亿元，但到了今年第三季度末，其短期借款上涨至2.49亿元。</p>
+<p>截至12月13日收盘，丸美生物股价报收于32.42元/股，与其历史高点88.06元/股相比仍有较大差距。而公司的最新市值为130亿元，与最高点353亿元相比，市值蒸发达223亿元。</p>
+<p>此番更名后，丸美生物业绩将出现怎样的变化？雷达财经将持续关注。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/2sZ9rfxdvoeDLz8poToqLQ" rel="noopener noreferrer nofollow" target="_blank">“鸿途FLY”</a>，作者：X编辑，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3077504234765826</guid><pubDate>Sun, 15 Dec 2024 13:00:00 +0800</pubDate></item></channel></rss>
