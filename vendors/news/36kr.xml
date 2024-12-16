@@ -1,59 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 16 Dec 2024 08:30:24 +0800</lastBuildDate><pubDate>Mon, 16 Dec 2024 08:30:24 +0800</pubDate><item><title>开发者爆改 iPhone 15 用上苹果 AI，还支持拍照按钮</title><link>https://36kr.com/p/3079591153596040</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>今年苹果最热的产品或许就是「Apple 智能」功能，但作为核心设备的 iPhone，支持型号屈指可数：仅有 iPhone 15 Pro 和 iPhone 16 系列，就连去年才发布的 iPhone 15 都因为苹果宣称的「配置问题」无缘 AI。</p>
-<p>不过，一些民间的开发者利用了 iOS 中一个漏洞，成功让 iPhone 15 及更老的机型也能尝鲜 AI 功能。</p>
-<p>Reddit 上一位名为 @Applebuyer7610 的用户发布了一个帖子，配图里一台标准版 iPhone 15 显示了「跑马灯 Siri」、AI 改写工具等等 AI 功能，设置中也出现了原本没有的 Apple 智能选项。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_853dcf15f83842d09c947f2b68967f19@000000_oswg123773oswg883oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>根据该名用户在评论区的回复，他使用了一个叫「Nugget」的工具，这个工具可以利用 iOS 18.2 Beta 2 版本一个名为「sparrestore」的安全漏洞，将自己的 iPhone 15 「伪造」成 iPhone 16 Pro，成功激活了原本不支持的 Apple 智能功能。</p>
-<p>也因此，除了 Apple 智能，这台 iPhone 15 还用上了 iPhone 16 Pro 上的「相机控制」、「操作按钮」、「全天候显示」等功能。</p>
-<p>不过，由于 iPhone 15 本质上缺乏了以上这些功能应有的硬件支持，所以用起来非常古怪，只能说是整活：「轻点背面」分配给了相机控制，并且几乎无法正常运作；音量键变成了「操作按钮」，长按能呼出快捷操作但不能调音量；缺少可变刷新率的屏幕，全天候显示会造成很大的损耗。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_ce76923166e04ebd9fc102f4b4171246@000000_oswg68324oswg1024oswg566_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>根据 Nugget 在 GitHub 上的说明，这个工具还能通过伪造设备型号做到更多，例如在刘海屏 iPhone 上开启灵动岛，在 iPhone SE 上开启全面屏手势操作，或者在非欧盟地区开启应用侧载，甚至还能做到禁用 iOS 18 上备受吐槽的相册 UI 界面。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_5e5a3c3cc4234f7f84cee7fc238a2d60@000000_oswg482940oswg1024oswg523_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：iSolution</p>
-<p>这看起来有点像曾经风靡一时的 iPhone「越狱」操作，不过 Nugget 其实只是利用 sparrestore 漏洞在 iPhone 内部写入了一些配置文件，以此伪造了手机型号，难度比越狱要小。</p>
-<p>其实类似的漏洞在 iOS 18.1 时，就被一些欧盟和国行 iPhone 开发者利用过，将手机修改成其他地区的版本，以此绕过限制开启 Apple 智能功能。</p>
-<p>不过，在 iOS 18.3 Beta 3 之后的版本中，苹果已经修复了 sparrestore 漏洞，也就说类似 Nugget 的工具已经失效。</p>
-<p>‍有人指出，sparrestore 漏洞很容易被恶意软件开发者利用，美国电信公司员工设备就疑似因为这个漏洞被黑客攻击。</p>
-<p>在 Reddit 帖子下方，更多人在讨论的是，明明旧 iPhone 型号运行 Apple 智能没有问题，苹果却依旧做出相当严格的限制，甚至连依旧在售的 iPhone 15 都无法支持。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_503afe9fc22a4546adfef6407bc22d65@000000_oswg45421oswg980oswg653_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>根据苹果高管的解释，老设备无法运行 Apple 智能的原因是因为配置无法跟上，其中 8GB 的运行内存是一个比较重要的门槛。</p>
-<blockquote>
-<p><strong>理论上，你可以在非常旧的设备上运行这些模型，但它会太慢，从而没有什么用。</strong></p>
-</blockquote>
-<p>有媒体指出，根据 Apple 智能本地大模型的参数推算，调用时可能会需要 0.7-1.5GB 的运行内存大小，也就是说比较重度的情况下，6GB 的 iPhone 15 会被占去将近四分之一的运行内存空间。</p>
-<p>由于 Apple 智能很多场景都需要跟其他本地应用协同，因此拥有更高的运行内存，确实会带来更好的使用体验。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_679ce1829f3a4b28a2e5c25fce9b7bc6@000000_oswg67037oswg1024oswg571_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>话虽如此，也有媒体和用户认为，苹果在设计 iPhone 和开发 AI 功能时并没有做到很好的协同，不仅造成用户体验的缺失，也不利于这个新兴功能的推广和广泛使用。</p>
-<p>最后还要提醒一句，使用这些第三方工具来对手机进行修改有一定的风险，可能会导致手机无限重启，或者被恶意应用利用漏洞，因此不建议小伙伴为了这个国内用不上，也还不够好用的 Apple 智能，去进行文中提到的操作。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&amp;mid=2652389982&amp;idx=2&amp;sn=72aead70b0b4edb526e09a1c01c2b7cc&amp;chksm=9ab87d51ed6d0319a85ed83fbf1e7517032f04ef291db901d9bf78e235a708998cd618583c99&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“爱范儿”（ID：ifanr）</a>，作者：发现明日产品的，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3079591153596040</guid><pubDate>Mon, 16 Dec 2024 07:45:00 +0800</pubDate></item><item><title>超额收益，首尾相差69个百分点</title><link>https://36kr.com/p/3079649245853320</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>指增基金赚钱效应分化，超额收益首尾差69个百分点</p>
-</blockquote>
-<p>今年以来，随着被动投资持续火热，指数增强基金的布局热度也在持续。从业绩表现来看，超九成指增产品年内单位净值增长率为正，不过超额收益上分化明显，首尾差已达到69个百分点。</p>
-<p>业内人士认为，市场环境的变化、管理人投资策略的差异等，都会造成指增基金超额收益差拉大。通过优化增强策略、加强风险管理等方式，可提升这类产品获取超额收益的能力。</p>
-<h2><strong>公募基金积极布局指增产品</strong></h2>
-<p>证监会网站信息显示，12月以来，已有8家基金公司上报了指数增强基金，跟踪的指数除了近期大热的中证A500指数外，还有上证科创100指数、沪深300指数、中证800指数等。</p>
-<p>Wind数据显示，截至目前，年内共成立了21只指数增强基金，其中超半数在下半年成立。截至今年三季度末，指数增强基金合计规模约1876亿元，与2023年末规模相比增幅为16%。</p>
-<p>“公募基金布局指增产品的初衷，是为投资人提供配置工具，同时在基准指数基础Beta上尽力为投资人争取超额收益Alpha。”华泰柏瑞基金量化与海外投资团队表示，从策略容量角度看，大盘宽基类指数通常流动性更高，基于此类指数开发的增强型产品策略容量往往更大，因此规模也会更大。比如中证A500指数一经推出，就成为不少量化团队积极布局的对象。</p>
-<p>诺安基金多资产投资部总经理孔宪政表示，当前市场下，随着投资者对于指数化投资认知度的提升，需求有所扩大。指数增强基金由于能较好地体现公募基金的主动管理能力，并获得一定的超额收益，获得了公司积极布局。</p>
-<p>“当前股票ETF市场竞争激烈，指增产品是公募基金差异化发展的一条重要路径，并能满足投资者多元化需求。”北京一家基金公司补充道。</p>
-<h2><strong>赚钱效应出现分化</strong></h2>
-<p>业绩表现方面，Wind数据显示，截至12月13日，超九成指增产品年内单位净值增长率为正，平均值为11.78%。不过超额收益上出现分化，有六成产品在年内获得超额收益，且大多为小盘类指增产品，如博时中证2000指数增强、中欧国证2000指数增强年内净值超越基准收益率分别为13.6%、7%。整体看，目前指增产品超额收益首尾差达到69个百分点，对比9月23日的20个百分点，超额收益首尾差进一步拉大。</p>
-<p>对此，中欧国证2000指数增强基金经理钱亚婷认为，不同基金管理团队的投资理念和策略不同，以及宏观经济和政策预期的变化，都会造成指增产品超额收益差拉大。此外，不同风格策略在今年的表现普遍存在波动，如果没有持续有效的增强策略，当管理人对风险暴露（例如市值风格）控制不严格、择时切换的节奏和市场风格不匹配时，容易造成较大的回撤波动。</p>
-<p>谈及小盘类指增产品超额收益相对较多的现象，博时基金指数与量化投资部投资副总监兼基金经理刘钊认为，一方面，小盘股交易的参与者散户比例较高，机构比例较少，出现错误定价的概率更大，使用模型定价纠正错误的机会较多。另一方面，小盘股的波动率要大于大盘股，价格弹性更高，更适合量化模型的波段操作。</p>
-<p>“小盘股涉及的行业更多、同质化较低，进一步增加了通过精选个股获取超额收益的可能性。”孔宪政称。</p>
-<h2><strong>多策略获取超额收益</strong></h2>
-<p>展望后市，受访机构和人士认为，指数增强基金仍有望获得一定的超额收益。通过优化增强策略、加强风险管理等方式，可提升产品获取超额收益的能力。</p>
-<p>“超额收益可能会一直存在，但竞争会更加激烈。”刘钊坦言，对基金公司而言，量化赛道上的差异化竞争将越来越重要，量化模型和主观相结合是重要的方向，也是近几年他采用的主要方法之一。</p>
-<p>钱亚婷也认为，未来指数增强产品依然有机会跑赢基准指数，争取合理的超额收益。同时，通过优化增强策略和加强风险管理，可以显著提升产品获取超额收益的能力。具体而言，策略的优化需要适应不断变化的市场环境，以及持续监测和评估投资组合的表现。风险管理上，要通过各种风险管理工具和模型来控制风险因子的暴露，确保投资组合的风险水平始终处于可控范围内。</p>
-<p>“在市场风格急剧变化的情况下，指数增强产品可能会因未能及时适应市场新规律而暂时失去优势。但这种情况随着时间推移大概率会得到解决。”孔宪政表示，市场是渐进式有效的，只有通过不断深入研究市场规律，才能持续捕捉到真正的超额收益机会。能够真正识别并专注于那些能够提供Alpha的投资策略，才能以较大的概率维持超额回报。</p>
-<p>华泰柏瑞基金分析，基本面量化模型的超额收益在近一两个月受到市场因素的干扰较大，但从过往的经验来看，市场后续仍会回到基本面上来，相信基本面量化模型在中长期获取超额收益上仍具有较大的优势。量价类短期模型的超额收益则受流动性影响较大，当前市场流动性环境较前期已有较大改善，短期模型或能够持续争取超额收益。</p>
-<p>“今年的市场环境多变，量化模型的跟踪误差有所加大，这对量化产品的风险管理能力和模型迭代速度考验较大。”华泰柏瑞基金进一步指出，定期的回顾分析有利于更好地改造量化模型，从而在不同的市场环境下尽可能保持平稳运行，即在市场震荡时尽可能控制回撤，在市场回暖时尽可能把握机会追求长期超额。</p>
-<p>前述基金公司认为，一方面通过量价、另类数据等新Alpha源上挖掘有效因子、扩充因子库，仍然是提升业绩最重要的途径；另一方面加强对风格轮动规律的研究以及优化风险模型，是未来研究如何降低超额回撤、给投资者带来更好持有体验的重要方向。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5MDEzNjQwMA==&amp;mid=2656191957&amp;idx=3&amp;sn=ce8a25c10c50bf46321e1c16fa0d7c2e&amp;chksm=8a756114585b00717b673194cf2947017771d8262759fe6d88bd87bc80a073733afea52e3143&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国基金报”（ID：chinafundnews）</a>，作者：张玲，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3079649245853320</guid><pubDate>Mon, 16 Dec 2024 07:48:00 +0800</pubDate></item><item><title>270亿龙头，杀向“新战场”</title><link>https://36kr.com/p/3079938180560774</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 16 Dec 2024 09:00:29 +0800</lastBuildDate><pubDate>Mon, 16 Dec 2024 09:00:29 +0800</pubDate><item><title>270亿龙头，杀向“新战场”</title><link>https://36kr.com/p/3079938180560774</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>他，本是一名教书匠，在大学从事教书育人的工作。因为萌生“想去外面的世界看看”的想法，于是毅然辞去铁饭碗，转而投身商海。</p>
 <p>这个男人，是安井食品的董事长刘鸣鸣。62岁的他，目前仍奋斗在“一线”。</p>
 <p>现在，安井食品已成长为一家A股市值达269.9亿元的速冻食品龙头。在刘鸣鸣及管理团队带领下，安井食品一边持续发力预制菜业务，另一边拟赴港股上市，以加快国际化战略及海外业务布局。</p>
@@ -443,4 +389,121 @@
 <p>在中国零售行业里有一个观点就是山姆是最强劲敌，然而胖东来创始人于东来近期却表示，<strong>胖东来跟山姆不是对手，更像是战友。</strong></p>
 <p>中国商超经营者们可以学习山姆，加速创新，追赶山姆。中国或许出现不了中国版山姆，但消费多元化能容得下包括山姆在内的所有国内外行业玩家。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1UVPhQPIE-9toYPzD6Lqsw?token=679692259&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“新品略财经”</a>，作者：吴文武，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3080740872093442</guid><pubDate>Mon, 16 Dec 2024 08:07:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3080740872093442</guid><pubDate>Mon, 16 Dec 2024 08:07:00 +0800</pubDate></item><item><title>“在回老家和旅游之间，我选择回老家旅游”</title><link>https://36kr.com/p/3079389746067073</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“在回老家和旅游之间，我选择回老家旅游。”随着元旦和春节假期脚步渐近，有网友在计划假期出行时如是说。</p>
+<p>今年以来，“奔县游”“回老家旅游”陆续成为新风潮。“不是大城市去不起，而是老家县城更有性价比。”有网友在社交平台上表示。</p>
+<h2><strong>“体验感已经是next level”</strong></h2>
+<p>悦悦（化名）的老家在宁夏某县城，近期休假回家后和家人一起去了位于宁夏中卫市的沙坡头旅游景区。“小时候也去过，这次去后，感觉不管是旅游景点的游乐设施，还是各种基建，都已经非常完善，景点相比之前也扩建了，体验感很好，家人也赞不绝口。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_ecd27a2677194cf1b9e618cfddc181cf@000000_oswg92182oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">沙坡头景区 来源：受访者提供</p>
+<p>多多（化名）在北京工作多年，他的老家在河南省安阳市，每年春节他都会回老家过年。2024年春节期间，他在刷朋友圈时，偶然看到有人晒出安阳市滑县道口古镇的照片，于是也想去看看。</p>
+<p>“真的很热闹，不管白天晚上，到处都是人挤人。”多多说。在道口古镇逛了一圈，他发现，这几年古镇不仅重新修缮了一些建筑，翻盖了一些仿古建筑，街区铺设了青石，古镇的韵味儿扑面而来；而且还专门搭建了小朋友的游乐设施，到了晚上还会有灯光表演。</p>
+<p>春节期间，多多还去了邻近的鹤壁市浚县古城。在他的印象里，离浚县古城不远处有一处大伾山风景区，是国家AAAA级景区。近几年，除了这个景区，当地政府还重新修缮了浚县古城。</p>
+<p>“当地政府将过去的城墙和建筑都恢复了，做得有模有样。这几年还增加了一些特色表演项目，比如走高跷、打铁花、游街表演等等，增加了互动感，游览的体验感比之前提升了不少。”多多说，与小时候相比，这些景点的变化还是很明显，“体验感已经是next level”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241215/v2_9ef7429c3ef34a989f430b3b2a2225bc@000000_oswg129297oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">浚县古城城门 来源：受访者提供</p>
+<p>除了游览古镇建筑和观赏表演，多多还体验了一把家乡风味。“每个地方都有自己的特色美食，我们这种常年在外地的人，回到家就想尝一下小时候的味道。这些景区也会挖掘一些当地特色美食，像这几年比较火的滑县麻鸭面、浚县石子馍，我们回到家乡也会买来尝尝。”多多表示。</p>
+<p>今年32岁的苏青（化名）表示，之前他总认为故乡是“熟悉的地方没有风景”，而如今随着年岁渐长，家乡的变化也日新月异，已经在上海安家落户的他每年都会趁春节、中秋等假期回湖南老家游玩几趟。“在老家上学的时候连张家界都没去过，每次别人问我湖南有什么好玩的时候，我都答不上来。”</p>
+<p>这几年，苏青除了把家乡附近没去过的知名景点“补打卡”外，他也喜欢去一些相对更为小众的景点。“相比人挤人地去看风景，我更喜欢在小众景点和家人惬意地度过假期。”苏青认为，相比在其他地方旅游，回老家旅游的治愈力也是最强的。</p>
+<p>“都说回一趟老家就像做了一次心理按摩，老家的慢节奏，街坊邻里的人情味，甚至就在屋后的小菜园里逛逛，感觉自己紧绷的神经立马就放松下来了。”苏青认为，对他而言，每年趁着春节等节假日以老家为圆心向四周进行“发散式旅游”是最好的安排，既和家人团圆了，也达到了休闲放松的目的。</p>
+<p>“我是今年开始关注县城旅游的，这是个反向消费吧。我不喜欢大城市了，人太多了。”在北京工作多年的凌宇（化名）对中新经纬表示，中国地大物博，有很多可以探索的地方，而且从费用上考虑，县城消费低，可以以很低的价格住到很好的酒店。</p>
+<p>今年国庆节，凌宇回到了老家江苏省镇江市，并去当地的圌山风景区和镇江市博物馆游玩。“很多南方小城也有很多历史文化，如今我回到家乡，以一个游客的身份游览，才又重新学到了很多家乡的历史。”</p>
+<p>不过，凌宇也观察到，不少县城的接待能力有限，服务方面有待提升。此外，旅游景区的商业化能力也一般，“有的景区连文创店也没有，想给朋友买点手信也买不到。”</p>
+<h2><strong>地方文旅出招吸引游子</strong></h2>
+<p>近年来，部分地方政府还专门针对在外游子推出了相关举措。</p>
+<p>今年7月，浙江省龙泉市文化和广电旅游体育局关于市政协十届三次会议第75号提案的答复中提到，针对在外的龙泉游子、友人拟推出“天下龙泉文旅卡”，目前已有56家企业报名参与。参与企业、商家将逐步扩充，让持卡人回龙、来龙消费能够享有更多优惠，促进在外的龙泉游子携友回龙旅游、消费。</p>
+<p>近期，“各地文旅已经开始‘卷’寄特产了”等话题也引发广泛关注。据报道，湖南、内蒙古、云南、安徽等多地文旅部门主动为游子寄特产缓解思乡之情。</p>
+<p>此外，一些地方文旅部门还会邀请旅游达人、网红等前往体验和宣传，或通过举办旅游推介会、参加旅游展览等活动，以增加自身的曝光度。</p>
+<p>今年3月，江苏省文化和旅游厅联合多部门联合主办2024“水韵江苏·有你会更美”文旅消费推广季，其中一项就是选取13位知名主播和“江苏13侠客”担任文旅推荐官，以行进式融媒体节目展现“水韵江苏”独特魅力。</p>
+<p>9月，安徽省铜陵市举行首批旅游推介官新闻发布会，该市文化和旅游局介绍，该局于今年7月-9月份面向全社会招募首批铜陵文旅推介官，并从众多网络达人中遴选出首批15名网络达人为“铜陵文旅推荐官”。</p>
+<p>携程平台提供的数据显示，今年五一、暑期、十一等多个假期，县域旅游都是热门，增速高于一二线城市。今年暑期，赴县域旅游的订单环比前两月增长45%，增速高于一二线城市。暑期，县域目的地的酒店订单量同比增长近10%，同时，越来越多人在县城租车自驾旅游，租车订单同比增长32%，高于全国22%的增速。</p>
+<p>十一假期，携程数据显示，一大批年轻人爱上“奔县游”，带动县域旅游日均订单同比增长40%，山西临汾隰县、宁夏银川贺兰县等增速前十的县域旅游订单同比增长均超4倍。</p>
+<p>携程研究院行业分析师王亚磊表示，今年以来，旅游市场目的地多元化趋势进一步加剧，带动县域旅游火热。火热的背后，从需求侧看，消费者避免人从众的心态更为明显，从一二线中心城市向三四线甚至县城走，日后将愈发普遍。从供给侧看，高铁交通基建的完善，提高了三四线及县域市场与中心城市的直达性。同时，下沉市场的旅游供给也在不断完善。据不完全统计，2023年12月至2024年上半年，10个省级行政区共新增127家4A级景区，其中65%都分布于县城及县级市。</p>
+<h2><strong>专家：游子老家游可起到“带货”作用</strong></h2>
+<p>针对逆向旅游、“奔县游”“老家旅游热”等旅游趋势的兴起，北京第二外国语学院中国文化和旅游产业研究院教授吴丽云对中新经纬指出，主要有两方面原因：第一，游客变得越来越理性，他们更愿意选择更具质价比和性价比的旅游目的地，而老家或小城旅游正好符合这一特点：人少且性价比高。第二，春节等传统节日本身就有“有钱没钱回家过年”的习俗。这种文化习俗也促成了回家旅游的热潮。对于常年在外工作的人来说，回家旅游既能看望亲人，又能感受家乡的变化，可谓一举多得。</p>
+<p>吴丽云认为，推出游子卡等举措体现了地方文旅部门的温暖，值得称赞。除了消费优惠，管理部门还可以采取更多举措，如推出回忆性质的产品和活动，如怀旧型产品、家乡民俗活动等，以满足游子对童年回忆的渴望。这些软旅游产品的方式有助于构建游子和家乡之间的情感链接。同时，家乡的新面貌也是游子所关注的。文旅部门可以挖掘本地非遗民俗等活动，加大对代表性或创新性文旅产品的宣传推广力度，通过文旅卡打折、特殊优惠等方式，引导游子去新景点打卡，从而加强他们与家乡新发展之间的联系。</p>
+<p>景鉴智库创始人周鸣岐向中新经纬指出，这些年县域的旅游资源开发得更好，基建设施建设水平也有所提升，乡村振兴战略也让一些地方的风貌产生了改变，因此吸引了一些游子归乡旅游。在他看来，游子归乡旅游可以起到一个“带货”的作用，游子旅游后在社交媒体上发布照片视频等可以吸引更多外地游客来旅游。</p>
+<p>周鸣岐预测称，明年将有更多地方政府部门推出类似措施来促进旅游市场消费。同时他建议，各地文旅部门要加大“走出去”的力度，加强对当地旅游资源、土特产的推介。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247586720&amp;idx=1&amp;sn=5db8ea7b5bd5b9f7120db620174cd338&amp;chksm=e84aa63406d5b9d6c81a923675b8053750d90b79abf2c7913dfda4b77a6587328afae5985ed8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：罗琨 魏薇，编辑：李晓萱，责编：薛宇飞 李中元，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3079389746067073</guid><pubDate>Mon, 16 Dec 2024 08:53:00 +0800</pubDate></item><item><title>提名IGN、首周3000万、评分两级分化，《无限暖暖》争议吵到了海外？</title><link>https://36kr.com/p/3080774255458184</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>12月11日，《无限暖暖》宣布已获 IGN 2024 年度最佳游戏提名。</p>
+<p>在上线前，获得了IGN 9分、MC均分80分、EuroGamer 90分等外媒高分评价，游戏相关词条还登上了日本等海外市场X（Twitter）热搜。</p>
+<p>然而，上线后，在Google Play评分已经跌到2.7分，与大陆评价类似，玩家都在诟病“卡顿”“优化问题”，仿佛在移动端并未交出一份令外界满意的成绩。</p>
+<p>叠纸总裁姚润昊《无限暖暖》上线第二天发出一封“内部信”，强调《无限暖暖》的国内移动端付费可能只占50%；海外PS+PC收入占比高达80%。</p>
+<p>具体情况如何？《无限暖暖》在出海营销方面有着怎样的打法？今天，DataEye研究院聊聊《无限暖暖》出海的数据。</p>
+<p>为表客观，本文会严格区分【事实＆数据】，以及【DataEye研究院观点】。如果您对观点有异议，可以只参考【事实＆数据】部分，以您自己见解为主，评论区见。</p>
+<h2><strong>一、市场表现</strong></h2>
+<h3><strong>【事实＆数据】</strong></h3>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_0a3a282b18a945ae99a698342dbe9065@000000_oswg131455oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>12月9日，《无限暖暖》全球下载突破1000万。</p>
+<p>点点数据显示，截止至12月11日，上线首周，双端预估下载量方面，美国市场和日本市场较突出，分别为41.3万和17万。（含预下载次数）</p>
+<p>五个海外市场双端预估收入为438.8万元（扣除平台分成，若算流水需调高40%），其中美国和日本市场贡献超70%。</p>
+<p>按照姚润昊在“内部信”中提到PS+PC收入占比高达80%，预估公测首周，五个海外市场多端总收入约为3071.6万元。</p>
+<h3><strong>【DataEye研究院观点】</strong></h3>
+<p><strong>目前来看海外市场表现平平，不论是收入还是下载情况都无法与今年1月的《恋与深空》媲美。</strong></p>
+<p>或有两方面原因，一方面如叠纸总裁姚润昊在“内部信”中提到，<strong>海外PS+PC收入占比高达80%，笔记本占到了很大的份额。</strong></p>
+<p><strong>另一方面，也是目前被玩家诟病较多的问题，大世界玩法与氪金换装的割裂。</strong>暖暖的核心或者说氪金点，是换装。目前《无限暖暖》的大世界玩法，目前并没有有效地把二者结合起来，说得直白点让人没欲望花钱。</p>
+<p>但是从数据来看，贡献流水的国家和地区都是T1级别市场。这从侧面反映了，这一题材的不受地域隔阂的优。</p>
+<p>对比不同市场的平均单下载收入，我们可以发现，游戏核心受众或高净值用户基本上集中在美、日地区，在T1市场的加持下，后续线下试玩活动的加持下，或许会有反转，因此暂时不应下定论。</p>
+<h2><strong>二、买量投放</strong></h2>
+<h3><strong>【事实＆数据】</strong></h3>
+<p><strong>（一）投放趋势</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_8107c0ad46cd4378a459dc2a45ccc7b9@000000_oswg165160oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>DataEye-ADX海外版数据显示，《无限暖暖》在8月开始海外投放，日均投放素材并不突出，稳定在200（视频+图片）左右，在上线后也并未加大投放量，基本与预约期间投放持平。累计投放素材（严格去重后）6745条，其中图片素材占比约为20%，视频素材投放最多占比高达80%。</p>
+<p><strong>（二）投放媒体&amp;文案</strong></p>
+<p>DataEye-ADX海外版数据显示，投放媒体渠道TOP4分别是：FacebookAudience、Messenger、Instagram、FaceBook。</p>
+<p>广告文案多用免费下载、角色扮演、解谜、无限暖暖、换装、开放世界等常规用语，没有把免费x抽、x抽出货、登录送、暖暖IP等亮点进行重点突出。</p>
+<p><strong>（三）素材创意</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_a7e3f439a4b44e5bae2b314bcab00bbb@000000_oswg132462oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>DataEye研究院整理了《无限暖暖》海外市场投放计划数TOP50的高效素材，其投放素材创意形式中，角色服装展示和剧情实录的素材占比较高，前者占比约为40%，后者占比约为28%，真人口播占比为18%，高燃混剪占比14%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_745bbda6ceca420a8d057db60a57d893@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_711ac29bb1b240aca74eb8fcd233bdd5@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>具体的素材打磨方面，角色服装展示包括单一一套服装换装展示和卡点换装视频，视频素材往往是少女心的马卡龙色系，滤镜颜色非常娇嫩。希望用高画质美衣合集吸引调性最为契合的换装玩家。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_7ec2ffe60f924ccc81ed671cb12738b0@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>真人口播往往是KOL进行试玩分享，分享自己的游戏感受，并对游戏进行赞叹。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_6573b2b40b23496d8e8edb9567d0d64c@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>剧情实录包括大世界地图展示、与萌宠互动、和大喵进行互动等。</p>
+<h3><strong>【DataEye研究院观点】</strong></h3>
+<p>总结来说，DataEye研究院认为，《无限暖暖》海外市场投放的素材有以下特征：</p>
+<p><strong>提前预热，但整体投放力度不大。</strong>虽然在8月便开始进行投放，但日均投放素材并不多，且在上线当日也并未加大投放力度。该游戏主要获量在社媒传播、IP自带影响力。</p>
+<p><strong>在大陆、海外市场都延续着同一思路，注重品效，但品牌更重。</strong>产品绝大部分素材在展示角色服装、UE5引擎的优势、偏幻想世界风格的各类地形地貌和人文风景，突出游戏画质和服装华丽程度为主，期望通过较高的美术品质以及开放世界来吸引玩家的注意力，且文案也不提及“免费送x抽”“福利”等相关内容。</p>
+<p>这类打法有利有弊，<strong>好的一面在于，素材精美，可以做到快速筛选核心受众的效果。弊端则体现在，广告属性重，比较硬，重视高大上格调、品质感，就会丧失“原生感”，难以破圈。</strong></p>
+<h2><strong>三、社媒传播</strong></h2>
+<h3><strong>【事实＆数据】</strong></h3>
+<p>叠纸在2024年5月对外公布海外发行品牌Infold Games，旗下暖暖系列、恋与系列也是自己负责海外运营，对比今年上线的《恋与深空》，《无限暖暖》在社媒及线下动作比想象中要平淡。</p>
+<p>具体来看，社媒传播内容主要集中在Twitter、YouTube等平台：</p>
+<p>在Twitter上，截至12月11日，Infinity Nikki 官方账号已收获8.8万粉丝，主要以游戏信息公布、服装预告、成就获得、以及活动预告等等相关游戏内容为主。</p>
+<p>例如，12月7日开启“创作者计划”，鼓励玩家在Discord上分享游戏相关内容，并针对内容进行二创，截至12月11日，Discord上已经有9.2万成员，且组内活跃度较高，玩家在组内分享自己的服装搭配、数值参考等等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_343fa9384dbd44418b6eb1d2bd528c2d@000000_oswg284465oswg666oswg1156_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在12月6日，暖暖的生日会上，联动“苏州灯笼”，发布相关视频。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_2e0a7e485c9d4a2ea848ebdc3d804bac@000000_oswg293472oswg671oswg1103_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>日服官方账号インフィニティニキ收获11.1万粉丝，账号内容宣传内容与港澳台地区无异，基本都是围绕游戏内容、游戏预告。</p>
+<p>在上线第二天，也是暖暖生日当日，推特也只是公布了常规的彩虹社Vtuber直播、日本明星直播、亚马逊礼品卡抽奖，并未大肆宣传。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_b93865c4743a46bb9d487783f80957f1@000000_oswg484383oswg670oswg1174_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而在上线前，结石姐Jessie J演唱主题曲也没有大范围铺开。但有邀请日本歌手“柏木由纪”进行游戏试玩，并分享游戏感受。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_0dd7c115a0804a6fb7248872073b1208@000000_oswg394350oswg675oswg835_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在YouTube上，截至12月11日，官方账号已收获2.95万粉丝。官方主要以发布游戏PV、联动主题曲、游戏玩法等内容为主。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_645e40b6003547f987255b604c369302@000000_oswg254795oswg1080oswg263_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其中，索尼YouTube官方账号PlayStation在5月31日发布的PV，目前已经达到300万以上的观看量。</p>
+<p>与此同时，我们发现在You Tube上出现大量达人测评游戏、讲解玩法的内容（直播和视频内容均有），也有部分为达人付费宣传内容。不少测评达人表示，男性玩家比例高过女性玩家，在达人评论区我们也发现许多有意思的评论：“玩了暖暖后，认识了很多猛男”、“猛男必玩”、等等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_37af8313d7bf484181e08d78b0b90dfc@000000_oswg480717oswg1080oswg697_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除此之外，《无限暖暖》于2024年8月21日参加了科隆游戏展，于8月30日至9月2日参加了PAX West，并于9月26日至9月29日参加了东京电玩展。索尼x暖暖的线下店体验活动将于12月25日圣诞节启动。</p>
+<h3><strong>【DataEye研究院观点】</strong></h3>
+<p><strong>注重品牌传播，强调IP影响力。</strong>账号发布的内容、线上直播、注重二创、借助IGN、索尼等平台扩大IP影响力，线下参加游戏展、举办线下店体验活动，都可以看出《无限暖暖》项目组重视品牌口碑，<strong>强调暖暖系列的IP传承，</strong>借助玩家对该系列的情感基础，引发老玩家的关注与期待，增强了玩家与游戏之间的情感纽带，使其对新作充满期待与支持。</p>
+<p><strong>采买垂类达人形成内容传播。通过达人的内容、直播，来持续扩大产品曝光力度，期望触及契合度高的目标用户。</strong>并且其重心主要放在了长视频平台，其中原因或许与游戏内容有一定关联。</p>
+<p><strong>在多个平台创建多个官方账号，重视社群运营。</strong>DataEye研究院推测是希望通过不同地区的语言，再进行针对性内容传播，目前账号是日语、英语都在运营更新，但通过内容更新频率及活动可以看出，最为重视的是日本市场。引导玩家加入社群，让玩家产生自驱力，从而产出更有传播效果的二创内容。</p>
+<p>多个市场多个账号的运营方式并不少见，包括网易、雷霆、米哈游等厂商也多是以此来进行针对性内容传播。从投入来看，多账号的运营成本必然会随之提升，但好处也是显而易见的，特定市场的专属运营，可以提升该地区玩家对产品的认可程度。</p>
+<h2><strong>四、思考与观察</strong></h2>
+<p>女性向游戏在过去几年间经历了市场开拓与繁荣阶段，玩家群体的审美趣味、消费诉求也有相应变化。</p>
+<p>一是对游戏性的要求提升，女玩家不再是刻板印象中只能接受简单、轻松的小游戏，而要求游戏厂商更注重玩法设计。</p>
+<p>二是价值观多元化，流行文化倡导女性积极探索个人价值实现，纯粹提供恋爱内容不再具有强吸引力，对事业、生活、社会环境多有挖掘的游戏内容更受青睐。</p>
+<p><strong>整个女性向游戏赛道都在不断涌现新品，且来势汹汹。</strong>根据B站Up主“赛博蛋挞”的统计，今年11月，国产女性向手游收入过亿的有两款，超千万级的有11款。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20241216/v2_74f8be57b8fe40b9be773147c3c7adf3@000000_oswg245202oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>虽然《恋与深空》目前处于断层第一，但随着网易、腾讯、三七、灵犀互娱等大厂入局，叠纸的地位或将被撼动；再加上《无限暖暖》表现未及预期，这也就要求叠纸不得不跳出品类的疆界，向一般向游戏发起进攻。</p>
+<p><strong>一方面，叠纸目前在研的两部3A作品《百面千相》和《万物契约》都不是女性向游戏，</strong>《无限暖暖》在技术方面的尝试和积累，未来很有可能应用到这两款游戏上。</p>
+<p><strong>另一方面，叠纸也在加快全球化的脚步。</strong>今年5月20日，叠纸正式官宣旗下全新的海外品牌Infold Games。官网信息显示总部位于新加坡，并已在洛杉矶、东京和首尔等多个重要城市建立了分支机构。虽然5月才正式公布，但早在今年1月便用“INFOLD PTLTD”来发行了《恋与深空》的国际服。</p>
+<p>早在2020年，叠纸CEO姚润昊在虚幻引擎开发者技术分享会表示，叠纸未来的发展有两个方向①是寻找一些创作新IP的机会，②是会把已有的IP进行技术和规模的升级，去创作出在技术和规模上更大的游戏。</p>
+<p><strong>背后的逻辑是用户对游戏品质的要求会越来越高，厂商也会不断升级游戏投入。</strong>虽然，UE5在移动端的优化难度重重，但叠纸仍然不惜代价推进，抢占先机。这或许也是叠纸为什么会选择在这个时间节点上线《无限暖暖》的原因。</p>
+<p><strong>DataEye研究院也会继续关注《无限暖暖》，期待其能交出更满意的答卷。</strong></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MzE0ODIwNA==&amp;mid=2649938010&amp;idx=1&amp;sn=6f9d282c4b2442de86df41214269191e&amp;chksm=868529e3aad9fa130ff6653600146cd211f2e6dca530f0ec40163497d95ce7574895ce7eb59f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“DataEye”（ID：DataEye）</a>，作者：小羊，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3080774255458184</guid><pubDate>Mon, 16 Dec 2024 08:57:00 +0800</pubDate></item></channel></rss>
