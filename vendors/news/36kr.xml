@@ -1,364 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 05 Feb 2025 07:00:25 +0800</lastBuildDate><pubDate>Wed, 05 Feb 2025 07:00:25 +0800</pubDate><item><title>为什么说大模型，补上了搜索的最后一块短板</title><link>https://36kr.com/p/3150742944520709</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_8426d548091445e8a7af67cf8aa6936e@000000_oswg30690oswg1080oswg474_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>大模型，三十年搜索战争的收官一战。</p>
-<p><strong>作者 | 甘德编辑 | 郑玄</strong></p>
-<p><strong>搜索之战，永不落幕。</strong></p>
-<p>2010 年，十年你追我赶，百度谷歌之战，以百度胜利暂时落下帷幕。</p>
-<p>那时，所有人都以为，全世界范围内的搜索之战，自此落幕，谷歌、百度两大巨头分别占领两大市场，360、 bing 等则依靠搜索产品的带动，分食长尾市场。</p>
-<p><strong>没人想到，十年战争，仅仅换来十年和平。2019 年起，搜索的无限战争正式拉开序幕。</strong></p>
-<p><strong>但更大的冲击，来自 AI。2022 年底开始，大模型的成熟，让新一代年轻人的搜索习惯，从遇事不决搜一下，变成了遇事不决问 AI</strong>。互联网巨头们也试图趁机虎口夺食：去年年底，腾讯推出 AI 搜索 ima，成为全网唯一能整合公众号资源的平台；同时，360 旗下 AI 搜索产品再次进化，推出「纳米 AI 搜索」，不仅支持文字、语音、拍照、视频等多模态搜索，更进一步补全了从搜索到创作的最后闭环。</p>
-<p>为了推广旗下纳米 AI 搜索，360 不仅三大流量入口一同导流，周鸿祎更是亲自下场「带货」，转型「短视频博主」：</p>
-<p>先是周鸿祎亲自编剧并首次参演的短剧推广，全网播放 3000 万；紧接着，响应国家「微短剧+」行动，周鸿祎参与拍摄并出演国内首部「AI 短剧」，宣传推广纳米 AI 搜索。值得一提的是，该剧集合了国内优秀的 AI 制作团队和知名智能硬件厂商，剧中多处特效画面由纳米 AI 搜索的图生视频功能生成，一方面能极大节约拍摄成本，效果也远超所谓的「5 毛特效」。1 月 26 日，周鸿祎又在纳米 AI 搜索 APP 内发起「刺激消费 推广国产品牌——纳米 AI 搜索送百辆新能源汽车回馈用户嘉年华」活动，为用户和粉丝抽奖送出 100 辆国产新能源汽车，为产品造势。</p>
-<p>今年春节期间，国产大模型 DeepSeek 凭借先进技术和开源理念火遍全网，也受到了海外的网络攻击和调查。纳米 AI 搜索又用实际行动支持国产AI发展，接入了包括 DeepSeek-R1高速专线（32B）、DeepSeek-R1「满血版」（671B）及 DeepSeek-V3 在内的DeepSeek全系列模型，保证用户可以顺畅、快速地使用 DeepSeek 服务。</p>
-<p>国产 AI 搜索让人眼花缭乱之际，在美国，传统搜索巨头谷歌的日子也并不好过。一边是以 AI 加持的 Bing 卷土重来，另一边则是 OpenAI 的来势汹汹：11 月初，ChatGPT 正式推出 AI 搜索功能；11 月中，奥特曼再次豪掷了 1500 万-2000 万美金买下 ChatGPT 新域名——chat.com。谷歌的两员大将——Chrome 团队创始成员 Ben Goodger 和负责 Chrome 浏览器的工程副总裁 Darin Fisher，也双双被 OpenAI 收入麾下。</p>
-<p>腹背受敌，成为传统搜索引擎此时此刻的共同写照，<strong>那么问题来了，为什么相比电商、社交的稳固格局，搜索的战争会如此高频，而大模型又到底为搜索带来了什么？</strong></p>
-<p><strong>01</strong></p>
-<p><strong>AI时代：搜索</strong></p>
-<p><strong>到底有什么不一样？</strong></p>
-<p><strong>如果没有大模型，搜索引擎，或许将成为这届年轻人心中时代的眼泪。</strong></p>
-<p>不久前，全球知名咨询机构 Bernstein Research 的最新报告指出：「google 一下」已经不再是这届年轻人的口头禅，取而代之 TikTok、Instagram 和 YouTube 等垂类网站的内置搜索框，正成为这届年轻人的心头好。大洋此岸，伴随着小红书、抖音、微信、美团们的崛起，相似的剧情，也在中国同步发生。</p>
-<p>搜索引擎，到底怎么了？其实，对比这一时期崛起的各大 APP，不难发现，搜索引擎通常只能解决信息获取的困境，但在搜索之后，用户还需要进行挑选、整合、二次加工，距离落地的「最后一公里」，始终还差一步。</p>
-<p><strong>而这种先天不足，在 AI 时代，隐约迎来了破局的希望。</strong></p>
-<p><strong>基于 LLM+搜索，半成品的搜索链接之外，大模型还会在链接的基础上，根据问题本身进行优化、总结，给出符合需求的答案，完成从搜索到创作的「最后一公里」闭环。</strong></p>
-<p>但伴随着旧时代的告别，一个全新的议题出现了：如何定义 AI 搜索？它的产品形态，到底应该如何？在周鸿祎看来，长期以来，传统搜索引擎只提供成千上万条信息和链接让用户自己分辨，并夹杂着广告等「套路」，体验感很差。而纳米 AI 搜索则定位于生成式答案引擎，不仅可以实现拍照搜、语音问等功能，还能在精准理解用户意图后，迅速整合梳理所有搜索信息，直接给到用户准确答案，做到「没有套路，直接给答案」，极大提升用户获取信息的效率。周鸿祎称，希望将纳米 AI 搜索打造成公众了解 AI、学习 AI、使用 AI、掌握 AI 的入门产品，通过 AI 改造搜索，重塑搜索，把用户使用 AI 的门槛降到最低。</p>
-<p><strong>AI 挽救搜索，同时也在颠覆搜索</strong>。技术的变革，让平静已久的万亿超级市场，再次迎来了无数新的玩家。</p>
-<p>然而，一个残酷的现实或许是，搜索引擎向来都是一个强者恒强的叙事。换句话说，真正能够在这场盛宴中笑到最后的，或许仍是那些牌桌上的「前辈」。</p>
-<p>此外，周鸿祎曾表示，360 安全卫士的用户数量已达 10 亿+，360 浏览器市场份额在中国排名第一，月度活跃用户超过 4 亿，360 搜索在中国的市场份额稳居第二，月活跃用户约 3 亿。桌面、浏览器、搜索这三大入口优势，就成为了 360 做好纳米 AI 搜索的底气。</p>
-<p><strong>但此时此刻，距离 AI 搜索的超级战车发动，还差最后一块拼图。</strong></p>
-<p><strong>02</strong></p>
-<p><strong>从搜索开始，</strong></p>
-<p><strong>由生成提升，到创作闭环</strong></p>
-<p><strong>AI+搜索，构建了大模型时代搜索补齐落地短板的产品雏形，但具体的产品交付应该如何定制？何谓大模型时代的原生 AI 搜索？</strong></p>
-<p><strong>纳米 AI 搜索给出了答案。</strong></p>
-<p>作为一款「多模态的生成式答案引擎」，纳米 AI 搜索可以听懂语音，看懂照片、视频，可以分析理解各种文件、书籍、论文、录音，可以生成语音、图片和视频。用周鸿祎的话说，360 通过用 AI 改造搜索、重塑搜索，把用户使用 AI 的门槛降到最低，使纳米 AI 搜索成为用户了解 AI、学习 AI 的重要免费工具。</p>
-<p><strong>首先是搜索，过去传统的搜索模式，真的已经足够低门槛，足够高效了吗？答案是否定的。</strong></p>
-<p>过去相当长一段时间里，相比微信可以文字、语音、视频、文件多模态交互，以及抖音上下滑动就能更新内容，搜索显然是所有互联网场景中，使用门槛相当高的一大类目：用户不仅要用文字精准的描述自己的问题本身，还需要在成千上万的返回链接中注意寻找，并分辨其中高质量与低质量，广告与普通内容创作的区别。</p>
-<p>360 纳米 AI 搜索变革的第一步，就是让搜索变得像微信一样多模态，像抖音一样低选择门槛。打开纳米 AI 搜索的首页，不难发现，相比传统搜索，纳米 AI 搜索不仅支持文字、音频、视频等输入与输出支持多模态，还支持拍照等一键搜索，并在内容呈现方式上，支持多种语音、视频风格的答案演绎，真正做到了无论提什么样的要求和问题，都能没有套路，直接得到答案。</p>
-<p><strong>更低门槛的搜之外，是更省心的读。</strong></p>
-<p>使用传统搜索引擎，用户往往需要至少翻遍搜索引擎给出的至少前五页内容，才能真正抓到核心信息，内容读取判断成本高昂。这也为后来小红书用优质的内容降低了用户判断成本，创造了异军突起的空间。</p>
-<p>但大模型则可以更进一步。纳米 AI 搜索中，搜索过之后，360 纳米 AI 搜索凭借识别 1 亿+种分类的意图识别模型，精准判断用户意图，进而让大模型智能「读取」各种搜索内容分析，对其进行内容品质的判断。</p>
-<p>依旧以前文举例的英伟达 GPU 优势为例，纳米 AI 搜索可以在短短十多秒的时间里迅速流量全网三万多篇资料，并精选出其中质量最高的 31 篇作为参考来源，极大避免了用户在重复信息、低质量信息中浪费精力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_28e47a4fa044429d89e24aef3dbb4e95@000000_oswg71937oswg485oswg363_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>基于这种低门槛高效率的搜与读，纳米 AI 搜索还完成了「写」与「创」的「最后一公里」闭环。</strong></p>
-<p>长期以来，搜索只是我们漫长工作流中的一环，以公文写作为例，检索之后，用户还要自己创作，但在<strong>纳米 AI 搜索，检索的起点，可以直接连接完整结果输出的终点。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_33ba754dee0346078884e73ba603b5e6@000000_oswg105756oswg473oswg402_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不难发现，在【写】 方面，针对给出的「写一段关于春节防火的居民通知」需求，纳米 AI 搜索能直接给用户生成答案。</p>
-<p>在写的基础上，<strong>纳米 AI 搜索还能进行更多样化的创作。比如</strong>根据用户需求，进行小红书体、职场、新闻稿、口播稿等不同风格的改写、润色、加工，完成从提问到结果的闭环。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_b34dd09791ad40e5bfbbe4e1af274511@000000_oswg99653oswg674oswg276_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>与此同时，伴随输入多模态的，还有输出多模态，在<strong>纳米 AI 搜索</strong>万物皆可视频，我们不仅可以把照片、 PPT、工作报告、文本丢给 AI，AI 还能根据我们的需求，自动创作不同风格的脚本、标题以及视频形式，让专业的视频制作真正变得低门槛与普惠。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_1992aa70470a4d9d971ccd1c17964048@000000_oswg124942oswg830oswg360_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>沿着这一思路，在今年春节期间的更新中，纳米 AI 搜索集成了阿里的通义万相，字节的即梦，MiniMax 的海螺，以及快手的可灵等视频模型，新增一句话生成图片和一张图生成音乐短视频功能，大幅提高了用户的创作能力。通过新增的 17 种春节专属特效，用户可随时随地让照片动起来，实现比心、送花、跳舞、干杯、放烟花，用自己的视频特效分身去拜年，比传统的短信拜年更加生动有趣，新颖活泼。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_cd80367cb29c4305baf415804d964a96@000000_oswg75212oswg634oswg1300_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>至此，从提问到检索，从学习到创作，大模型加持之下，搜索引擎正式从工具升级为完整的全链路服务，但AI搜索的战争才刚刚起步。</strong></p>
-<p><strong>03</strong></p>
-<p><strong>尾声</strong></p>
-<p>当所有大模型玩家与搜索巨头都将目光瞄准 AI 搜索，磨刀霍霍之时，一个更大的疑问出现在了所有人的面前。</p>
-<p><strong>AI 搜索取代传统搜索引擎毋庸置疑，未来行业将迎来漫长的震荡期和转型期，但 AI 搜索是一个完整的商业模式吗？</strong></p>
-<p>相比传统搜索，AI 搜索的回答更精准，更垂直，这是一切变革的基础。</p>
-<p>然而精简、高效的代价则是 AI 搜索整体的内容量相比传统搜索引擎动辄半屏广告、几十页结果返回来而言极大降低。</p>
-<p><strong>于客户而言，这意味着更垂直精准的投放，百利而无一害</strong>；而对于最锐意创新的玩家们而言，大模型压缩知识的同时，也压缩了商业化的空间。</p>
-<p>如何平衡回答质量与商业化？周鸿祎认为，商业模式的问题，恰恰是新型 AI 搜索挑战传统搜索巨头的机会，「目前 AI 搜索没有找到放广告的地方，这个问题对我们来说都存在。」在周鸿祎看来，之所以谷歌和百度等搜索巨头暂时未在 AI 搜索上押重注，就是是因为要将传统搜索引擎巨大的搜索量转变为无广告的「答案引擎」，很可能在战胜新晋挑战者前就率先革了自己的命。</p>
-<p>但如果 AI 搜索收获了长期的用户黏性，切实找到了可落地的场景，就极有可能倒逼传统互联网公司转型，改变原有的广告模式。</p>
-<p>值得注意的是，与传统的互联网服务和产品成本较低、依靠广告收入可以覆盖成本不同的是，AI 应用在商业化上，没有边际效应，产品效果越好，后续成本反而越高，也许会更适合以用户付费的商业模式生存。</p>
-<p>这是 360 与 Bing 们的时代机遇，也无疑开启了有一场关于搜索的无限战争。</p>
-<p>*头图来源：纳米 AI 搜索 APP</p>
-<p>本文为极客公园原创文章，转载请联系极客君微信 geekparkGO</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653073232&amp;idx=1&amp;sn=2e8dd2550e1834a9affa554d120ca22e&amp;chksm=7faf6c22e08d63ae61fef488689f012a44bbc25ac2138ae64c2367192d93f3a7858e8b9678d9&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“极客公园”（ID：geekpark）</a>，作者：甘德，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150742944520709</guid><pubDate>Tue, 04 Feb 2025 09:30:00 +0800</pubDate></item><item><title>港股，抗住了！</title><link>https://36kr.com/p/3150770407365382</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>作者 | 独行侠</p>
-<p>数据支持 | 勾股大数据（www.gogudata.com）</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_fdbcd1a8e04e44a887cbe3357fbe7283@000000_oswg5266oswg1080oswg44_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在中国农历春节假期，全球金融市场持续遭遇Deepseek对美股科技圈大冲击、特朗普关税大棒的巨力搅动。</p>
-<p>今日，亚太市场普遍遭遇重创。</p>
-<p>其中，中国台湾加权指数开盘一度崩逾千点，最终大跌3.5%。台积电盘中重挫逾6%，AI代工、零组件类股惨跌，纬颖、广达、台光电、奇鋐、健策等盘中跌停。此外，韩国KOSDAQ大跌3.4%，日经225大跌2.7%，MSCI亚洲新兴市场大跌2%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_24c351044718496f9b2ccc22731bba0d@000000_oswg207015oswg875oswg491_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过，港股低开高走，恒指一度跌逾2%，恒生科技指数一度跌逾3%，后陆续走高，最终为-0.04%、0.29%，相较于其他亚太市场表现出了更强的韧性。</p>
-<p><strong>01</strong></p>
-<p><strong>今天港股之所以能实现低开高走，科技板块功不可没。</strong></p>
-<p>如昨日文章所说，AI概念今天确实给大家派发了红包。</p>
-<p>板块方面，互联网服务大涨11.6%。其中，阿里巴巴大涨6.5%，领涨科技股。主要原因在于阿里此前官宣，于大年初一发布Qwen2.5-Max旗舰大模型，定价为1.6美元/百万tokens输入、6.4美元/百万tokens输出，且在多项基准测试中得分超越OpenAI、Meta、DeepSeek的旗舰模型。</p>
-<p>金山云更是暴涨逾31%，背后系DeepSeek概念、资产注入等概念利好驱动。此前有报道称，在DeepSeek-V3发布前，雷军已开出千万元年薪招揽DeepSeek-V2的关键开发者罗福莉，罗福莉将会成为小米大模型团队的领导之一，小米希望其可以借助开发DeepSeek-V2的经验，优化并提升小米AI大模型的效率和体验。</p>
-<p>此外，半导体板块大涨8%，算是全球半导体大跌市场“独一份”。其中，中芯国际大涨10%，权重占比板块大，背后主要驱动逻辑源于国产替代，系假期日本政府宣布拟对十余种半导体相关物项实施出口管制，并将多家中国企业列入“最终用户清单”。</p>
-<p>互联网、半导体等权重板块迎利好，一度程度上导致港股韧性更强一些。此外，欧洲也恐将遭遇关税冲击，且欧洲经济也很疲弱，以致于交易性资金全球资产配置再平衡，且港股估值比较低，导致其他市场的资金流入港股，暂时支撑了港股。</p>
-<p>要知道，欧洲股市普跌2%，欧元兑美元暴跌逾1.1%，英镑兑美元大跌0.8%。欧洲货币大跌，也一定程度上支撑了人民币，导致美元兑离岸人民币贬值0.22%，远不及美元指数近1%的涨幅。</p>
-<p><strong>02</strong></p>
-<p>港股有时是A股的风向标，有时也会被A股带节奏。关税来袭，欧洲、其他亚太市场大跌利空，外资配置向港股倾斜，而A股没有该优势，且估值合理，外资占比也比较小。A股又会如何定价关税这一对经济基本面产生利空影响的重要因素呢？</p>
-<p><strong>有一些投资者认为，加征10%关税，市场早有所预期，基本将其Price in了。现在利空靴子落地了，市场反而不会受到什么重磅冲击。</strong></p>
-<p>我们首先来撸一撸时间线。</p>
-<p>去年11月25日，美国当选总统特朗普在其社交媒体账号发文，在他上任第一天，将对墨西哥、加拿大的所有产品征收25%关税，并对中国的所有商品加征10%的关税。</p>
-<p>A股市场彼时并没有大跌，很快于11月27日开启一波反弹，于12月10日见到阶段性高点，主要系市场对于年末的中央政治局会议给予了极高期待，乐观地认为会出台大规模的财政、货币政策来对冲关税利好，走出了一波淋漓大涨的行情。</p>
-<p>后来，市场于12月31日连续3天迎来大跌，主要系12月制造业PMI不及市场预期，经济现实复苏并没有预期那么乐观，加之此前科技等多个板块涨幅过大，游资、机构兑现利润动机较强。</p>
-<p>1月14日，特朗普智囊抛出关税新设想，制定累进关税时间表，每月上调2%-5%。加之当日其他小作文，上证指数大涨逾2.5%，并开启了一波反弹（1月社融超预期，M2符合预期，出口超预期）。</p>
-<p>1月18日，中美高层通电话。紧接着，韩正出席美国总统特朗普就职典礼。一些列利好动作，让市场对中美关系缓和、关税加征减缓等有较高期待。</p>
-<p>1月20日，特朗普正式上任总统，入主白宫。在就职演讲中，强调了“打击通胀”，但未提立即对相关国家加征关税，尽管也提到建立专门的对外税务机构负责对外国征收关税。</p>
-<p>第一天不推出关税政策，市场将其此理解为新政府对于贸易战的倾向，并没有此前传递的鹰派。美元指数暴跌，非美货币，包括离岸人民币大幅走高，股市的风险偏好亦受到提振，在相对高位盘整。</p>
-<p><strong>从以上时间线看，加征10%关税虽然市场有所知晓，但并没有认真进行了充分定价，也没有所谓Price in。</strong>因为要进行充分定价，要与之相应的涨跌幅匹配才是，而不是仅仅新闻发生了就可以了。就如同美国上一轮加息周期，并不是第一次加息发生就进行了充分定价，而是持续根据美联储的货币政策来持续调整预期，认认真真交易了近一年时间。</p>
-<p><strong>事实上，这一次特朗普打的关税战节奏和力度有所超预期。节奏上，上任仅仅10余天，便宣布了对三国的关税政策。</strong></p>
-<p>力度上，美国对中国出口商品此前平均征收关税率为19.3%，加上此次的10%，合计高达29.3%，显著高于除中国以外其他国家和地区的3%。此外，对墨西哥加征25%关税，对中国出口也是利空，因为中国很多出口美国的产品绕道了墨西哥。</p>
-<p>此外，特朗普还称，计划很快对欧盟产品征收关税。要知道，欧盟是中国第一大贸易伙伴，欧盟经济若受到波及，自然也会间接波及中国外需。</p>
-<p>并且，特朗普关税战开打，很大概率会迎来报复，进而或会进行下一轮关税加征，对于经济增长的拖累几乎必然会发生。</p>
-<p>高盛经济学家此前发布报告认为，特朗普可能会延续其在贸易战1.0中的做法，即对不同商品采取不同的关税策略。特朗普2月1日曾表示美国将于2月中旬对电脑芯片、药品、钢铁、铝、石油和天然气等进口商品征收关税。这些关税是基于现有关税基础上进行加征的。</p>
-<p><strong>总之，A股主要的外部风险来源于特朗普关税，在春节假期前没有充分定价，不可简单粗暴地认为“利空靴子落地反而利好”。</strong></p>
-<p><strong>03</strong></p>
-<p>目前来看，等A股市场对关税、DeepSeek利空进行一波定价后，大概率可以期待一波反弹行情。逻辑主要有以下两个方面：</p>
-<p><strong>第一，</strong>今年“两会”将于3月5日召开，彼时会公布GDP目标、财政赤字力度等。在数据未公布之前，市场可以基于乐观预期进行定价，且无法证伪。这也是过去多年A股春季躁动行情的重要驱动力。</p>
-<p><strong>第二，</strong>按照A股行情规律，2月是历年做多胜率最高的一个月。过去15年中，A股有13年在2月保持上涨，平均涨幅为3.6%，与1月平均下跌2.57%呈现明显的冰火两重天。当然，市场是有概率的，历史规律并不一定都能重现。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_a6e203239f0d44ea971f88a3a98c555f@000000_oswg152633oswg861oswg496_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>今日，在港交所举办的开市仪式上，香港特区政府财政司司长陈茂波表示，对蛇年市况“审慎看好、乐见更好”。期待A股亦如此。 ( 全文完）</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_b1f32dd26641449fad9be5e22d2f6579@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzAwNjExNDkyOA==&amp;mid=2649864649&amp;idx=1&amp;sn=5bba10d6b5d119e17cae1f66c9e4d2f8&amp;chksm=82952a406010af4d5d5d0c1724bad8c51068ecd3089e2caf2250a1737c2f09fad0a31066c005&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“格隆汇APP”（ID：hkguruclub）</a>，作者：独行侠，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150770407365382</guid><pubDate>Tue, 04 Feb 2025 10:00:00 +0800</pubDate></item><item><title>蔡崇信，买了小脏鞋</title><link>https://36kr.com/p/3150583108836101</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"></p>
-<p><span style="letter-spacing: 0px;">这是一次令人意外的联手。</span></p>
-<p>春节期间，意大利高端运动鞋、服装和配饰品牌Golden Goose Group S.p.A（黄金鹅，简称“Golden Goose”）宣布，已获得来自Blue Pool Capital（蓝池资本）约12%的战略股权投资。</p>
-<p>蓝池资本，正是由蔡崇信联合发起设立的家族办公室，此次投资“小脏鞋”成为近期消费领域又一标志性事件。</p>
-<p>成立于2000年，Golden Goose在时尚界始终占有重要一席之地。标志性的“脏脏鞋”，做旧感加上一颗不完整的五角星，成立至今收获一大批拥趸。一双售价动辄4000元起的小脏鞋，卖遍了全球。</p>
-<p><strong>刚刚，蔡崇信出手了</strong></p>
-<p>相关细节流出——</p>
-<p>随着此次交易，蓝池资本首席执行官Oliver Weisberg（奥利弗・韦斯伯格）将加入Golden Goose董事会。据悉，蓝池资本的入局是在去年谈判并达成，交易的背景之一，是Golden Goose原定于2024年6月进行的IPO被推迟。</p>
-<p>交易完成后，Golden Goose的原大股东、国际私募投资公司Permira管理的基金依然持有Golden Goose的多数股权。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_e6b3e1094ef14117be74818d3184c077@000000_oswg530337oswg692oswg479_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Golden Goose标志性的“小脏鞋”</p>
-<p>Permira官方新闻稿中提及，蓝池资本的投资是Golden Goose的一个重要里程碑，也是该集团作为全球奢侈品牌的财务表现和潜力的证明，“蓝池资本在体育、娱乐和消费行业的深厚专业知识，加上其对亚太市场的深入了解，将帮助该集团进一步扩大其影响力。”</p>
-<p>奥利弗・韦斯伯格则表示：“我们非常信任Golden Goose及其管理团队，它在奢侈品和运动服饰交汇处的定位确实独一无二。期待在融资之外增加价值，以支持Golden Goose团队充分发挥该品牌的潜力。”</p>
-<p>大约10年前，蔡崇信联合创办家族办公室——蓝池资本，总部位于中国香港。成立以来，蓝池资本的投资版图颇为丰富，遍及对冲基金、医疗、体育、元宇宙、区块链等领域，但基金风格十分隐秘。数据显示，蓝池资本2022年的资产规模已超500亿美元（3600亿元人民币）。</p>
-<p>低调如蓝池资本，近来也愈见活跃。去年7月彭博社报道称，蓝池资本旗下最新一只基金已筹集5亿美元（约合人民币35亿元）。</p>
-<p>相比于蓝池资本，蔡崇信更为人熟知。被誉为阿里“财神爷”，蔡崇信一直是中国风投圈的神话，早年弃百万年薪加入草根阿里，几度救阿里于水火，在告隐江湖后又临危受命出山，被无数VC/PE从业者视为偶像。</p>
-<p>2024年，蔡崇信将手中布鲁克林篮网队的部分股权出售，短短几年间这笔投资不经意间翻倍。将爱好运作成几百亿的生意，蔡崇信再度展示了自己的商业天分。浮浮沉沉，如今他还在江湖。</p>
-<p><strong>为何看上小脏鞋？</strong></p>
-<p>Golden Goose曾在时尚界大受追捧。</p>
-<p>时间回到2000年，在意大利威尼斯附近的工业重镇马尔盖拉，一对设计师夫妇创办Golden Goose Deluxe Brand（即GGDB）。这个品牌名源于伊索寓言故事《下金蛋的鹅》，他们希望以此带来好运。</p>
-<p>起初，Golden Goose以经典牛仔靴起家，直到2007年开始设计休闲运动鞋系列，并推出第一双品牌运动鞋Super-Star——这双鞋用了具有颠覆性的“lived-in岁月留痕”风格，主打脏脏旧旧的风格，搭配一个大五角星标志，迅速成为现象级单品，这便是我们熟知的“小脏鞋”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_c849066f73b147a39190e4bebf315ab7@000000_oswg143547oswg553oswg404_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>凭借极高的辨识度，Golden Goose由此成为潮流人士必备的爆火时尚单品。此外，Golden Goose也一度被认为是运动鞋奢侈化的典范。</p>
-<p>这个品牌向来与创投圈联系紧密——多年来，几家PE轮流执掌Golden Goose。</p>
-<p>最初是意大利私募股权公司DGPA SGR SpA （现为Style Capital集团），在其于2013年入主后Golden Goose也开始了全球扩张，但仅仅两年后，DGPA SGR SpA又将股权出售给中端市场投资公司Ergon Capital Partners III 和Zignano Holding SpA。</p>
-<p>接着，凯雷集团来了。2017年，凯雷集团从Ergon Capital牵头的投资者手中收购了Golden Goose 100%的股权，据悉交易估值高达4亿欧元。正是在PE巨头凯雷治下，Golden Goose两年内收入增长1倍，销售额达到2.8亿欧元，同时也组建了在全球主要市场的本土团队。</p>
-<p>直到这时，Golden Goose的易主之路还未走完。2019年年底，形势大好的Golden Goose又被凯雷摆上了桌，邀请有意竞标的公司报价，并委托美国银行牵头展开收购案。最终被欧洲PE Permira收入囊中——2020年斥资约13亿欧元收购该品牌多数股权，凯雷仍保留少数股权。不到3年的时间里，凯雷这一笔投资就获得了超过3倍的回报。</p>
-<p>Permira来头不小，这是1985年成立于欧洲的一家Buyout（收购型）私募基金，曾经募得过欧洲最大的收购基金，也在消费领域“打下”过很多知名品牌，例如Reformation、马丁靴鼻祖Dr. Martens以及华伦天奴。</p>
-<p>Permira时代的Golden Goose，请来前Chanel全球CEO加盟，制定并推出首个可持续发展计划前瞻性议程，2023财年净收入高达5.87亿欧元（超过46亿人民币）。</p>
-<p>狂奔之下，Golden Goose开始谋求IPO。去年5月，其筹备在米兰启动IPO，估值定在30-40亿欧元（230-310亿人民币），成为欧洲最受瞩目的IPO之一。然而事与愿违，随着欧洲奢侈品股票交易陷入低迷，集团宣布推迟了此次IPO。</p>
-<p>直至这一次，它迎来了蓝池资本的入局。</p>
-<p><strong>大消费永不落幕</strong></p>
-<p><strong>红杉中国刚完成一笔大并购</strong></p>
-<p>传奇消费品牌们正纷纷翻开新一页。</p>
-<p>2025开年，另外一家国际品牌——<strong>Marshall马歇尔集团</strong>刚刚被红杉中国收入囊中。1月25日，红杉中国宣布将以11亿欧元（约合人民币80亿元）的估值收购Marshall马歇尔的多数股权。</p>
-<p>中国消费者对Marshall马歇尔并不陌生。诞生于1962年，Marshall马歇尔以经典的吉他音箱而闻名，其开创性的声音让无数音乐爱好者心动不已，一度成为中国蓝牙音箱线上市场的第一品牌。</p>
-<p>六十多年沉淀，如今Marshall拿到了红杉中国迄今为止在欧洲最大的一笔投资。</p>
-<p>去年12月，被誉为“婚纱女王”的Vera Wang（王薇薇）也官宣一则重磅消息：已与美国品牌管理公司WHP Global达成协议，向对方出售<strong>VERA WANG品牌</strong>的知识产权，交易预计于2025年1月完成。</p>
-<p>在时尚界，Vera Wang和她的同名品牌享誉全球。这位著名美籍华裔设计师，凭借出色的审美和设计能力，在时尚界掀起了一场“婚纱革命”，不仅在全球范围内拥有众多名人拥趸，也成为每一个女生最渴望拥有的婚纱。</p>
-<p>75岁的王薇薇选择放手，卖掉品牌。背靠一家有投资背景的品牌集团，或许很多事情都能够事半功倍。</p>
-<p>更早前，方源资本联合Unison Capital收购日本高级<strong>珠宝品牌Tasaki</strong>，交易金额约1000亿日元，约合人民币48亿元。方源资本曾于2018年联手安踏体育、lululemon创始人Chip Wilson及腾讯组成财团，发起收购始祖鸟的母公司、芬兰体育用品集团 Amer Sports（亚玛芬）。</p>
-<p>一波波潮流更替中，VC/PE往往扮演着重要角色。再如此前，L Catterton收购<strong>北欧洗护品牌STENDERS施丹兰</strong>的多数股权，以及完成对四川<strong>唯怡饮料</strong>食品有限公司的战略投资……</p>
-<p>放眼望去，消费产业的投资与兼并收购又开始热闹起来。一个普遍的观点是，消费行业历来被认为是具备刚性、抗周期属性的行业，因而在经济波动时期反而更受资本欢迎。</p>
-<p>洗牌正在发生，但大消费永不落幕。</p>
-<p><span style="letter-spacing: 0px;">本文来自微信公众号</span><a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247675391&amp;idx=1&amp;sn=da16c6736e5d7093f70f1bd3584a0e3c&amp;chksm=edd18022093e656790e4df5d2a9dfe38da8ba6726ec078e443dfbae96a8b94e6dbddceff348d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" style="letter-spacing: 0px;" target="_blank">“投资界”（ID：pedaily2012）</a><span style="letter-spacing: 0px;">，作者：杨继云，36氪经授权发布。</span></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150583108836101</guid><pubDate>Tue, 04 Feb 2025 10:30:00 +0800</pubDate></item><item><title>5人创业国产AI搜索火了，小红书Reddit都在推！创始人：我们比Perplexity留存更高</title><link>https://36kr.com/p/3150362969135616</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>一水 发自 凹非寺量子位 | 公众号 QbitAI</p>
-<p>自Perplexity官宣引入广告后，AI搜索再次成为关注焦点。</p>
-<p>而我们国内创业团队这边，也传来了新消息——</p>
-<p><strong>Hika AI</strong>，一个仅由<strong>5人</strong>打造的AI搜索，上线不久竟能和国外当红顶流同台竞技了？！</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_34f86fc2b95542e29e473ad9e51d72ea@000000_oswg48829oswg1080oswg583_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据similar web公开数据显示，上线不到1个月，它在<strong>获取用户注意力</strong>（包括平均停留时长、跳出率、每次访问页数）方面已经超过Perplexity、秘塔等竞争对手。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_bfa582a3e99e4eec8cdc186948419c7b@000000_oswg118195oswg1080oswg494_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而且从早期用户反馈来看，很多网友or同行更是原地化身“自来水”？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_4f4b2bb6946e4748b46f251d261e7576@000000_oswg94422oswg1080oswg227_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_30726dea928d459a93d7291884c6b7d3@000000_oswg165755oswg1080oswg340_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_3c864bb229e54516a9acd3ad81128161@000000_oswg24357oswg1044oswg280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>带着一揽子好奇，量子位直接联系上了Hika AI背后的<strong>两位核心创始人</strong>（浪仔和豁如），并围绕<strong>小团队如何AI创业</strong>展开对谈。</p>
-<p>在近1小时采访中，我们主要聊了聊：</p>
-<p>为什么选择「AI搜索」这条赛道？</p>
-<p>为什么说和Perplexity的路子不一样？</p>
-<p>实际开发过程中走了哪些弯路？</p>
-<p>缺少资源的小团队如何运营推广产品？</p>
-<p>……</p>
-<p>话不多说，以下就是我们拿到的一手机密。（bushi</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_3cd8c91f7f624df08998f8707ccbbd9f@000000_oswg63959oswg177oswg179_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>小团队AI创业大揭秘</strong></h2>
-<p>先简单介绍下Hika AI，这是一款免费的知识获取引擎，经团队打磨1年后上线。</p>
-<p>谈到为什么选择AI搜索这条赛道，创始人透露了一个秘密：</p>
-<p>其实AI搜索并非团队创业首选，在这之前，他们最早开发的是一款<strong>笔记软件</strong>，类似如今火起来的谷歌NotebookLM。</p>
-<h4><strong>为什么选择做HiKa</strong></h4>
-<p>但是，笔记软件推出后，他们很快发现了一个大问题——</p>
-<blockquote>
-<p>用户在使用中有一种“无所适从”的感觉</p>
-</blockquote>
-<p>从当时的用户反馈来看，大家面对这类知识库，一是不知道问什么，二是提问很容易超出知识库回答范围，多重因素导致使用效果一直不理想。</p>
-<p>甚至谷歌NotebookLM最早也面临相同困境，直到后来因推出播客功能才逐渐走红。</p>
-<p>在意识到受限于技术发展，<strong>知识库是一件需要长期才能做好的事情</strong>后，这一次，他们将目光瞄向了自己更熟悉、“MVP难度相对较低”的搜索领域。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_a2b462d81deb4918ad6dc2e7f3d3775a@000000_oswg59485oswg173oswg189_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>选择搜索，主要基于两方面考量：一是从整体来看，搜索需求无处不在；二是从市场竞品来看，还有很多使用痛点亟待解决。</p>
-<p>先说需求，用户搜索目前呈现出<strong>需求大</strong>和<strong>需求多元化</strong>这两个主要特点。</p>
-<p>关于前者，他们提到了《2024小红书搜索推广白皮书》里的一组数据：</p>
-<blockquote>
-<p>70%月活用户存在搜索行为，其中三分之一用户一打开小红书的第一件事就是搜索，平均每日搜索量高达6次。</p>
-</blockquote>
-<p>当然除了数据，单从体感来看，搜索确实无处不在。</p>
-<p>至于需求多元化，创始人也举了个例子，比如对于“酸菜鱼怎样做才好吃”这个问题，不同人对于美味的定义不一样进而致使对答案的预期也不一样，这说明<strong>人们的搜索期待本质上是非常多样化的</strong>。</p>
-<p>但实际情况是，目前绝大多数AI搜索更追求<strong>“一步到位”的回答</strong>，这也意味着忽视了人们的本质需求。</p>
-<p>而这，正是Hika AI和Perplexity、秘塔这类产品的最大区别。一言以蔽之，其产品构建逻辑本质不同：前者追求更个性化的人与AI交互方式，后者力求快速、准确，“直击人心”。</p>
-<h4><strong>实测：和其他AI搜索不一样的地方</strong></h4>
-<p>理念的不同，也实实在在反映在了<strong>产品形态</strong>上。</p>
-<p>两位创始人表示，现有的AI搜索产品基本都雷同于Perplexity，文本回答+链接+相关问题+图片，它看起来像是公众号，其探索性更针对形式而非问题本身。</p>
-<p>概括而言，这些产品的痛点包括：</p>
-<p>底层模型并没有聪明到能够懂用户心</p>
-<p>给出的答案中有很多链接，图片，但这些并没有帮助用户更好的理解问题</p>
-<p>每当用户对回答的某段内容感兴趣时，却无法深入</p>
-<p>基于上述，Hika AI首先<strong>保留文本部分</strong>作为回答主体，并将回答<strong>按段落进行分割</strong>。</p>
-<p>随机实测搜索最近上映的电影「误杀3」，其回答be like：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_a9223c16924e4f319c0a07abb5bef53c@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如果对某个段落中的点感兴趣，还能点击左边按钮，针对性继续提问或追求更加深度的回答。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_80d26ee37f0340f5be80260e09345776@000000_oswg191929oswg1080oswg656_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>甚至它还提供图表化的讲解。一处是可以一键生成的总结表，另一处是更具发散性的思维导图（可无水印下载）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_4df466f482004b7f80e236f21f08fa44@000000_oswg176038oswg1080oswg679_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_c0589f69f9974beeba6d5b8718ce5911@000000_oswg213752oswg1080oswg763_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_9cf3f611463249fa8962667aed65d239@000000_oswg150587oswg1080oswg818_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更多功能细节在此不再赘述。按照两位创始人的说法：</p>
-<blockquote>
-<p>我们希望提供若干<strong>对于单一问题的多维思考“线索”</strong>，而不是一步到位的“懒人回答”。</p>
-<p>这是因为我们不认为AI能在短时间内完全取代人类。在思考问题时，人倾向于网状结构的信息组织方式，并将有用的信息提取加工，随后得到结论。<strong>每个人都有自己专属的加工方式与标准，它无法被量化</strong>，这也是为什么现在的AI搜索不能给所有人一个满意回答的关键原因。</p>
-<p>因此我们不贪图一步到位的回答，而是专注于对信息的深挖，它可以大幅提升网状式获取信息的效率。</p>
-</blockquote>
-<p>BTW，关于Hika AI背后使用的模型，团队透露并不固定，不同阶段可能使用不同模型。</p>
-<h4><strong>小团队如何做推广</strong></h4>
-<p>聊完产品，我们最后把目光放在了更具广泛参考意义的创业经历上。</p>
-<p>经透露，Hika AI背后团队拢共只有5人。</p>
-<blockquote>
-<p><strong>1个产品兼设计+2个前端+2个后端</strong></p>
-</blockquote>
-<p>对这样一支小团队来说，AI已经成了不可或缺的最佳辅助。</p>
-<p>在产品开发过程中，AI极大缓解了人手不足的问题，其中更偏向开发的创始人透露，“目前AI已经能在很大程度上帮助团队写代码”。</p>
-<p>除此之外，日常也会用到AI搞运营。比如在海外推广时，借助AI撰写更符合当地风格的文案等等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_4723110099874fc1b97a2460649cefd2@000000_oswg68719oswg185oswg190_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当然我们也进一步深挖了一个核心问题，没有资源、没有名气的小团队具体如何推广自己的产品？</p>
-<p>毕竟产品不被用户看到，一切都是竹篮打水。</p>
-<p>而按照Hika AI创始人的说法，主要靠<strong>“脸皮厚”</strong>。（bushi</p>
-<p>具体来说，他们目前主要在两个方向上发力。一是苦心运营自建账号，保持更新；二是四处邀请KOL内测，通过用户分享建立传播。</p>
-<blockquote>
-<p>Hika上线后，由于团队里没有丰富运营经验的小伙伴，我（创始人之一）先顶上了；那要做运营，都是小账号，没有万粉怎么做呢? 我脸皮厚，也对Hika的品质有信心，除了平常发帖子宣传外，就是逐个找一些活跃的小v大v，邀请他们试用Hika，可以的话宣传一下。</p>
-<p>当然没有回复或者后续冷拒绝的人不少, 但亲自试用, 并热情地无偿转发Hika的同样很多, 因此Hika收获了不少用户。</p>
-</blockquote>
-<p>简单总结，小团队的成功主要靠<strong>产品过硬+勤奋</strong>，而这并不简单。</p>
-<p>当然了，具体到AI搜索这一赛道，他们直言当前市场<strong>远未到分层时刻</strong>。换言之，AI搜索的竞争才刚开始，产品形态还不稳定，大家都在探索。</p>
-<p>有意思的是，他们也提到了Perplexity的一个转变。</p>
-<p>众所周知，这家公司一开始号称要取代谷歌，但最近几个月，其创始人Aravind Sriniva在采访中明确表示：</p>
-<blockquote>
-<p>Perplexity不是一定要打败Google和Bing，也不是一定要取代它们。Perplexity和那些明确表示要挑战Google的初创公司最大的区别就在于：我们从来没有试图在Google擅长的领域中击败它。</p>
-</blockquote>
-<p>对此，Hika AI创始人认为：</p>
-<blockquote>
-<p><strong>Perplexity本身不是一个正确答案，他更不是一个标准答案，他自己也在探索。</strong></p>
-</blockquote>
-<h4><strong>对“所有行业都能用AI重塑”存疑</strong></h4>
-<p>最后，谈到创业以来最大收获或感受，两位创始人也浅浅做了分享。</p>
-<p>首先就是对“所有行业都能用AI重塑”这一观点存疑。</p>
-<p>二位比较一致的价值观是，相比做出一款AI应用，更重要的是<strong>如何理解AI对人类社会最大的改变</strong>。只有了解AI的真正作用，才能判断某一事物是否适合用AI改造。</p>
-<p>而Hika AI，也诞生于他们对探索<strong>人与AI交互方式</strong>的共同兴趣。</p>
-<p>在这一过程中，最重要的，一是寻找同频的队友，二是“小步快跑”，先做出来才是第一要义。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_206cdba546d1482da662a05470e571cb@000000_oswg93439oswg192oswg186_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>One More Thing</strong></h2>
-<p>回到一开头Perplexity引入广告这则消息，我们也打听了一下：</p>
-<blockquote>
-<p>目前完全免费的Hika AI，之后也会收费吗？产品的盈利模式如何？</p>
-</blockquote>
-<p>按照团队计划，他们可能会采用<strong>大部分免费+付费用户享受额外高级功能</strong>这一模式。</p>
-<p>这也和目前ChatGPT搜索类似，均尚未考虑广告因素。</p>
-<p>而Perplexity从去年11月官宣，最早将从美国上线广告。这些广告将以“推荐问题”的形式展示，同时广告将被放置在用户搜索答案的旁边并标注为“赞助”。这一措施也是为了弥补订阅收入不足的问题。</p>
-<p>总之，商业模式也是类似小团队需要重点考虑的问题。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247775527&amp;idx=2&amp;sn=d18ca3577b9c32f11751bdd55d4355d6&amp;chksm=e9faca1e83c051e0c07e5ff986d4cfe6ef41921c1cc5d453d10d9f7018271357759233617f19&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150362969135616</guid><pubDate>Tue, 04 Feb 2025 11:30:00 +0800</pubDate></item><item><title>营收693亿美元：全球便利店巨头Couche-Tard的并购崛起之路</title><link>https://36kr.com/p/3150166721124869</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_6caa5059d9f147f1aaf176ea0eb782fe@000000_oswg41550oswg730oswg136_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Alimentation Couche-Tard Inc.，简称Couche-Tard，是一家总部位于加拿大魁北克省拉瓦尔市的跨国便利店运营商。由Alain Bouchard于1980年创立，Couche-Tard现已发展成为全球领先的便利店连锁企业，在31个国家运营16,740家门店，雇佣约149,000名员工。公司在多伦多证券交易所上市，市值稳步增长，是加拿大最大的此类企业，并且在北美排名第二。</p>
-<p>Couche-Tard旗下拥有多个品牌，包括加拿大的Mac's、欧洲的Statoil以及美国和其他地区广泛运营的Circle K（OK便利店）。这些品牌共同构成了Couche-Tard庞大的市场网络，使其在全球便利店行业中占据重要地位。凭借独特的猫头鹰标志和品牌识别，Couche-Tard不仅在销售产品上表现出色，还在客户体验和服务质量方面树立了行业标准。</p>
-<p>2024年，Couche-Tard尝试收购7-Eleven，以巩固其全球便利店行业领导地位，但因估值分歧和监管阻碍进展受限。2024财年，Couche-Tard年营收达693亿美元，全球门店总数超过16,700家，分布于31个国家和地区。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_c77a5db8513949c9a32cfe33c9bf2589@000000_oswg3874oswg1080oswg124_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>历史沿革：从魁北克到全球</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_e8d68448623c457198e160d755914135@000000_oswg637613oswg1080oswg427_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Couche-Tard的成长历程始于1990年代，凭借一系列战略性的收购，逐步整合了多个便利店连锁品牌，奠定了其全国领先的市场地位。1993年，公司收购了Silcorp Limited的60家Mac's和La Maisonnée便利店，随后在1997年又收购了Provigo旗下的245家Provi-Soir门店。1999年，Couche-Tard完成了对Silcorp Limited其他加拿大业务的收购，进一步巩固了Mac's品牌在全国的影响力。</p>
-<p>进入21世纪，Couche-Tard继续其扩张战略。2003年，公司以11.2亿加元从ConocoPhillips手中收购了Circle K连锁店，此举使Couche-Tard跃升为北美第四大便利店运营商。随后几年，公司在美国、欧洲及其他地区持续收购并整合更多门店，迅速扩大其国际市场份额。2012年，Couche-Tard以28亿美元收购了挪威的Statoil Fuel &amp; Retail，进一步加强了其在欧洲市场的布局。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_414c12c394274cb0840a9bc4654ac89b@000000_oswg4197oswg1080oswg124_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>主要品牌与国际布局</strong></h2>
-<p>Couche-Tard运营的主要品牌包括Circle K、Mac's、Statoil、Kangaroo Express、Topaz及本土品牌Couche-Tard和7 jours。Circle K作为公司的旗舰品牌，广泛分布于北美、欧洲、亚洲和中东地区，成为全球最具识别度的便利店品牌之一。在加拿大，Mac's品牌主要存在于魁北克以外的地区，而Statoil则在北欧和波罗的海国家继续运营，尽管许多Statoil门店已被Circle K取代。</p>
-<p>除了上述品牌，Couche-Tard还运营Ingo品牌，主要集中在瑞典和丹麦。通过多品牌策略，Couche-Tard能够更好地适应不同市场的文化和消费者需求，提升品牌渗透率和市场竞争力。此外，Couche-Tard在香港、越南和其他亚洲国家也拥有Circle K门店，通过本地化运营策略，成功拓展了其全球业务版图。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_7d2fa6e90ffa409ca40aea2eef892938@000000_oswg4492oswg1080oswg124_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>旗下主要品牌详解</strong></h2>
-<h2><strong>Circle K（OK便利店）：全球旗舰品牌</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_a88f7e8a599a4fc8af0acdf37cb48712@000000_oswg777438oswg1080oswg427_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2003年，Couche-Tard以11.2亿加元收购了Circle K（OK便利店）连锁店，这是其历史上最大规模的并购交易之一。此次收购不仅使Couche-Tard成为北美第四大便利店运营商，还为其进入全球市场铺平了道路。Circle K品牌的广泛认知度和成熟的运营体系，使得Couche-Tard能够迅速在美国和其他国际市场站稳脚跟。</p>
-<p>Circle K（OK便利店）在全球拥有广泛的影响力。Circle K不仅是北美第二大便利店品牌，也是全球最具知名度的便利店品牌之一。在北美，Circle K在加拿大、美国、墨西哥、洪都拉斯和哥斯达黎加等国家运营，欧洲市场则涵盖挪威、瑞典、丹麦、俄罗斯、爱沙尼亚、爱尔兰、拉脱维亚、立陶宛和波兰等国。此外，Circle K在中国（包括香港和澳门）、越南、马来西亚、印度尼西亚、菲律宾和关岛等亚洲地区也有大量门店。</p>
-<p>Circle K在全球范围内以其高效的运营管理和优质的客户服务著称。2015年，Couche-Tard宣布将Circle K品牌全球化，统一所有旗下便利店的品牌形象和运营标准。这一举措不仅提升了品牌的国际认知度，也促进了各地区门店的协同效应。2023年，Couche-Tard进一步收购了美国的GetGo门店，计划将其全部转为Circle K品牌，进一步扩大在美国市场的份额。</p>
-<h2><strong>Mac's：加拿大市场的强劲品牌</strong></h2>
-<p>Mac's是Couche-Tard在加拿大的主要品牌，主要分布在魁北克以外的地区。截至2019年，加拿大共有约800家Mac's门店，这些门店遍布安大略、曼尼托巴、萨斯喀彻温、阿尔伯塔和不列颠哥伦比亚等省份。Mac's以其便捷的地理位置和多样化的产品线赢得了广大消费者的青睐。虽然近年来多数Mac's门店已逐步转为Circle K品牌，但在某些地区仍保留Mac's标识，以满足当地消费者的品牌认同感。</p>
-<p>Mac's门店不仅提供传统的便利商品和服务，还注重健康食品和本地特色产品的供应。例如，部分门店设有新鲜食品区，提供新鲜烘焙的面包、沙拉和即食餐点，以满足现代消费者对健康饮食的需求。通过不断优化产品组合，Mac's在激烈的市场竞争中保持了稳固的市场地位。</p>
-<h2><strong>Statoil Fuel &amp; Retail：欧洲的重要品牌</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_92d4f6a56bb448ae8d058b00d10ae124@000000_oswg1406227oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Statoil Fuel &amp; Retail</p>
-<p>图片来源：维基百科 作者：Bearas</p>
-<p>2012年，Couche-Tard以28亿美元收购了挪威的Statoil Fuel &amp; Retail公司，获得了2300家便利店及加油站的运营权。这一收购使Couche-Tard成为斯堪的纳维亚地区最大的便利店连锁，并显著增强了其在欧洲市场的竞争力。通过这一战略性收购，Couche-Tard不仅扩大了其地理覆盖范围，还获得了先进的供应链管理和运营经验，为未来的国际扩展奠定了坚实基础。</p>
-<p>Statoil Fuel &amp; Retail旗下的门店主要分布在挪威、瑞典、丹麦、爱沙尼亚、拉脱维亚、立陶宛、波兰和俄罗斯等国。尽管多数Statoil门店已于2016年转为Circle K品牌，但在部分国家仍保留Statoil标识，以保持品牌的地域特色和消费者认同度。通过这一战略性收购，Couche-Tard不仅扩大了其地理覆盖范围，还获得了先进的供应链管理和运营经验，为未来在欧洲市场的进一步扩展奠定了坚实基础。</p>
-<h2><strong>Kangaroo Express：美国的地区性品牌</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_86b53aa5fead4d87bde5d2cce2d1d279@000000_oswg446201oswg960oswg542_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Kangaroo Express是Couche-Tard在美国的一个便利店品牌，主要分布在美国南部和西部地区。该品牌在2010年代初期通过一系列收购迅速扩展，尤其是在德克萨斯州和其他南部州份。截至2016年，Couche-Tard已收购了CST Brands公司，新增了约2000家Kangaroo Express门店，使其在美国市场的门店总数迅速增加。</p>
-<p>Kangaroo Express以其高效的运营模式和多样化的产品线吸引了大量消费者。门店内不仅提供传统的便利商品和服务，还设有快餐区，供应新鲜制作的热食和饮品。此外，Kangaroo Express还积极引入自有品牌产品，以提高利润率和品牌忠诚度。通过不断优化运营管理，Kangaroo Express在美国竞争激烈的便利店市场中占据了一席之地。</p>
-<h2><strong>Topaz：爱尔兰的便利店品牌</strong></h2>
-<p>Topaz是Couche-Tard在爱尔兰的主要品牌，主要分布在爱尔兰全国各地。2016年，Couche-Tard以数亿美元收购了爱尔兰的Topaz连锁店，进一步扩大了其在欧洲市场的影响力。截至2023年，爱尔兰约有500家Topaz门店，这些门店主要位于城市中心和交通枢纽，便于消费者随时随地获取所需商品和服务。</p>
-<p>Topaz门店以其优质的客户服务和丰富的产品选择著称。除了传统的便利商品外，Topaz还提供新鲜食品、热饮和本地特色产品，以满足不同消费者的需求。通过持续的品牌升级和门店改造，Topaz在爱尔兰市场建立了良好的品牌形象和忠实的客户群体。</p>
-<h2><strong>Ingo：北欧的便利店品牌</strong></h2>
-<p>Ingo是Couche-Tard在瑞典和丹麦运营的自动化便利店品牌。Ingo门店主要分布在城市中心和交通枢纽，采用先进的自动化技术，提供24小时全天候服务。截至2023年，瑞典和丹麦共有约300家Ingo门店，这些门店以其高效的运营模式和智能化服务系统赢得了消费者的青睐。</p>
-<p>Ingo门店通过智能货架、自动结账系统和移动支付等技术，提升了购物体验和运营效率。消费者可以通过手机应用程序快速找到附近的Ingo门店，查看商品库存和价格，并进行在线下单和支付。此外，Ingo还引入了智能库存管理系统，确保商品的新鲜度和供应的及时性。通过技术创新，Ingo在自动化便利店领域树立了行业标杆。</p>
-<h2><strong>Couche-Tard：魁北克的本土品牌</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_07b573ebeca74c8e8593363467186832@000000_oswg414004oswg963oswg474_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Couche-Tard是公司的本土品牌，主要在魁北克省运营。截至2019年，魁北克地区共有约1,900家Couche-Tard门店，这些门店主要分布在城市和乡村地区，提供全面的便利商品和服务。Couche-Tard门店以其便捷的地理位置和多样化的产品线，成为当地居民日常生活的重要组成部分。</p>
-<p>在魁北克，Couche-Tard不仅销售传统的便利商品，还注重健康食品和本地特色产品的供应。例如，部分门店设有新鲜食品区，提供新鲜烘焙的面包、沙拉和即食餐点，以满足现代消费者对健康饮食的需求。此外，Couche-Tard还积极参与社区活动和公益事业，提升品牌的社会责任感和公众形象。</p>
-<h2><strong>7 jours：魁北克的便利店品牌</strong></h2>
-<p>7 jours是Couche-Tard在魁北克运营的另一重要品牌，主要分布在魁北克省的各大城市和乡村地区。截止2019年，7 jours在魁北克拥有约500家门店，这些门店以其便捷的地理位置和多样化的产品线，满足了当地居民的日常需求。7 jours门店不仅提供传统的便利商品和服务，还注重健康食品和本地特色产品的供应。</p>
-<p>7 jours门店内设有新鲜食品区，提供新鲜烘焙的面包、沙拉和即食餐点，以满足现代消费者对健康饮食的需求。此外，7 jours还引入了本地特色产品和季节性商品，提升了门店的吸引力和客户满意度。通过不断优化产品组合和服务质量，7 jours在魁北克市场建立了良好的品牌形象和忠实的客户群体。</p>
-<h2><strong>Provi-Soir：魁北克的经典品牌</strong></h2>
-<p>Provi-Soir是Couche-Tard在魁北克的另一个主要品牌，主要分布在魁北克省的各大城市和乡村地区。截至2019年，Provi-Soir在魁北克拥有约600家门店，这些门店以其便捷的地理位置和多样化的产品线，满足了当地居民的日常需求。Provi-Soir门店不仅提供传统的便利商品和服务，还注重健康食品和本地特色产品的供应。</p>
-<p>Provi-Soir门店内设有新鲜食品区，提供新鲜烘焙的面包、沙拉和即食餐点，以满足现代消费者对健康饮食的需求。此外，Provi-Soir还引入了本地特色产品和季节性商品，提升了门店的吸引力和客户满意度。通过不断优化产品组合和服务质量，Provi-Soir在魁北克市场建立了良好的品牌形象和忠实的客户群体。</p>
-<h2><strong>CST Brands并购</strong></h2>
-<p>2016年，Couche-Tard以44亿美元收购了美国德克萨斯州的CST Brands，这一交易成为其历史上最大规模的并购案。</p>
-<p>CST Brands拥有约2000家门店，涵盖了德克萨斯州及其他南部州份，显著提升了Couche-Tard在美国市场的份额。此次收购不仅扩展了Couche-Tard的地理覆盖范围，还增强了其在燃油零售市场的竞争力。为遵守反垄断法规，Couche-Tard随后出售了部分CST Brands的资产，总价值达7.5亿美元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_3755ddeee80f4a8ea2a6c5b926cf217b@000000_oswg4102oswg1080oswg124_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>战略并购：扩张的引擎</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_a61106b2eb034886b09415b4fde1023b@000000_oswg133864oswg936oswg518_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>全球分布</p>
-<p>战略并购是Couche-Tard快速扩张的重要驱动力。1990年代至今，公司通过收购多个便利店连锁，迅速扩大了市场覆盖范围。例如，1997年收购Provigo旗下的Provi-Soir和Winks门店，使Couche-Tard在加拿大市场的影响力大幅提升。2003年对Circle K的收购，不仅增强了Couche-Tard在美国市场的地位，还为其全球扩展奠定了坚实基础。</p>
-<p>近年来，Couche-Tard继续通过大规模并购巩固和扩展其业务。例如，2016年公司以17亿美元收购了Imperial Oil旗下的279家Esso加油站，随后又以44亿美元收购了CST Brands，这些收购使Couche-Tard在美国南部市场的份额显著增加。此外，2023年，公司收购了德国和荷兰的1600家TotalEnergies加油站，并在比利时和卢森堡与TotalEnergies成立合资企业，进一步扩大了其在欧洲的市场份额。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_e4eb8a7f67e949498c5a4464af240342@000000_oswg4234oswg1080oswg124_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>近期发展：收购7-Eleven的尝试</strong></h2>
-<p>2024年，Couche-Tard宣布了对全球最大的便利店连锁7-Eleven的收购尝试，这一举动标志着公司进一步巩固其全球领导地位的雄心。7-Eleven由日本公司Seven &amp; i Holdings运营，全球拥有超过85,000家门店，主要分布在美国、加拿大、日本和其他国家。Couche-Tard的收购提议引起了广泛关注，因其将使公司成为全球最大的便利店运营商。</p>
-<p>然而，这一收购提议面临重重挑战。7-Eleven的董事会认为Couche-Tard的报价严重低估了公司的实际价值，尤其是在考虑到7-Eleven在日本市场的战略地位和其在美国市场的强大影响力。尽管Couche-Tard表示愿意通过出售部分门店来应对反垄断问题，但此次收购仍然因监管障碍和双方估值分歧而难以达成一致。2024年11月，随着Seven &amp; i Holdings的股价因收购消息大幅上涨，Couche-Tard的收购提议是否能成功仍充满不确定性。</p>
-<p>11月15日，Couche-Tard收购7-Eleven交易再次遇阻，7-Eleven创始人之子提出价值约580亿美元的私有化提案，高出Couche-Tard报价23%，目前，一个特别委员会正评估此提案。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_b6c63d5b372441cebaef0c58ae324d4e@000000_oswg4610oswg1080oswg124_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>财务表现与市场地位</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_4b2d7e5f1c434f87b304f8aaafce548f@000000_oswg733962oswg1080oswg427_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024财年，Couche-Tard年营收达693亿美元，全球门店总数超过16,700家，分布于31个国家和地区。其中，北美拥有9,273家门店（8,211家提供加油服务），欧洲4,883家，亚洲389家，另有2,200家以Circle K品牌在其他16个国家以许可形式运营。公司员工总数约149,000人，其中北美约99,000人，欧洲和其他地区约50,000人，亚洲约4,000人，展现出其在全球零售市场的强大影响力。</p>
-<p>这些数字反映了Couche-Tard在全球便利店市场中的强劲表现和稳固地位。公司通过持续的并购和优化运营，保持了健康的利润率和增长势头。</p>
-<p>Couche-Tard在北美市场占据主导地位，特别是在加拿大和美国。其在美国的市场份额随着对CST Brands和其他连锁店的收购不断扩大，使其成为仅次于7-Eleven的第二大便利店运营商。在欧洲，Couche-Tard通过收购Statoil Fuel &amp; Retail，稳固了其在斯堪的纳维亚和波罗的海地区的市场地位。此外，公司在亚洲市场的扩展也显示出其全球化战略的成功。</p>
-<p>财务健康方面，Couche-Tard展现了强劲的盈利能力和稳健的资产负债表。其通过高效的运营管理和规模经济效应，实现了较高的利润率和良好的现金流。公司在并购过程中保持了合理的财务杠杆，确保了长期的可持续增长。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_6f036878084d41a8aeac165558cdea7a@000000_oswg3821oswg1080oswg124_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>挑战与争议：劳工与市场竞争</strong></h2>
-<p>尽管Couche-Tard在全球市场取得了显著成功，但公司也面临着一些挑战和争议。尤其是在加拿大的魁北克和蒙特利尔地区，Couche-Tard曾因员工试图进行工会化而遭遇抵制。2009年至2011年期间，多家门店因员工申请工会化而被Couche-Tard关闭，引发了工会和社会团体的强烈抗议。这些事件不仅损害了公司的公众形象，也引发了对其劳工政策的广泛讨论。</p>
-<p>此外，Couche-Tard在全球扩张过程中也面临着激烈的市场竞争。尤其是在美国市场，随着7-Eleven和其他本土品牌的竞争加剧，Couche-Tard需要不断创新和优化运营，以保持其市场份额。同时，反垄断法规和监管压力也是公司在大规模并购过程中必须面对的重要挑战。2024年对7-Eleven的收购尝试即为一个典型案例，显示出在全球化进程中，如何平衡扩张与合规是Couche-Tard需要持续关注的问题。</p>
-<p><strong>相关文章：</strong></p>
-<p>[1] Story | Couche-Tard（Couche-Tard官网）</p>
-<p>[2] Alimentation Couche-Tard - Wikipedia</p>
-<p>[3] Alimenta tion Couche-Tard — Wikipédia （法文）</p>
-<p>[4] On the Run (convenience store) - Wikipedia</p>
-<p>[5] OK便利店 - 维基百科，自由的百科全书</p>
-<p>[6] Circle K - Wikipedia</p>
-<p>[7] Alain Bouchard - Wikipedia</p>
-<p>[8] A Brief History of Alimentation Couche-Tard, inc （2024年10月2日，CBM）</p>
-<p>[9] History and Timeline | Circle K （Circle K）</p>
-<p>[10] 加拿大Couche-Tard收购7-Eleven遇阻 创始人之子提出更高私有化报价 （2024年11月15日，百度）</p>
-<p>[11] 日本7-11请全家共同对抗“恶意收购”-FoodTalks全球食品资讯 （2024年11月22日，钛媒体APP）</p>
-<p>[12]厉害！魁省便利店巨头Couche-Tard 要收购日本 7-Eleven连锁店 （2024年8月20日，魁北克蒙特利尔华人）</p>
-<p>[13] A Look at Couche-Tard’s Recent Acquisitions as It Bids for 7-Eleven （2024年8月19日，CSP）</p>
-<p>[14] From Texas to Tokyo: What Couche-Tard’s Pursuit of 7-Eleven Means for the Industry – BSIC | Bocconi Students Investment Club （2024年9月29日，BSIC）</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA3ODEzMjg5Mg==&amp;mid=2652850542&amp;idx=3&amp;sn=578a81f57ef96190f6add5f4745b7d9e&amp;chksm=859e2598a998215733471b317b9ce64523a8f5537ef91714161b5804bf8c9a2eb4a0acf06f0f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“FBIF食品饮料创新”（ID：FoodInnovation）</a>，作者：FBIF，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150166721124869</guid><pubDate>Tue, 04 Feb 2025 12:00:00 +0800</pubDate></item><item><title>影像AI，终见曙光</title><link>https://36kr.com/p/3150138720148225</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 05 Feb 2025 07:30:21 +0800</lastBuildDate><pubDate>Wed, 05 Feb 2025 07:30:21 +0800</pubDate><item><title>影像AI，终见曙光</title><link>https://36kr.com/p/3150138720148225</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>看似波澜不惊的一年，影像AI却在年末迎来高光。</p>
 <p>2024年12月，联影智能完成10亿元融资，将影像AI的估值推上百亿。新年前夕，深睿医疗又获5亿元融资，老牌AI企业再度向前迈出重要一步。</p>
 <p>整个医疗人工智能概念融资热度的扶摇直上，在这波细分赛道的崛起中发挥了不可忽视的作用。《2024年全球医疗健康产业资本报告》数据显示：2024年医疗人工智能总计融资次数逾300起；融资金额约76.7亿元，远超其他板块，带动了影像AI的发展。</p>
@@ -666,4 +307,245 @@
 <p>中国电视品牌发力国际市场，特别是如今啃下了日本市场，很值得点赞，中国电视品牌出海的故事上演了一个精彩商业案例。</p>
 <p><strong>当前中国车企，特别是造车新势力都在纷纷发力国际市场，不妨可以多研究和学习中国电视品牌出海的案例故事。</strong>‍ </p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/3Ca-D8ewK5ZY_YDqjaeqNw?token=818223468&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“新品略财经”</a>，作者：吴文武，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150288715136772</guid><pubDate>Tue, 04 Feb 2025 17:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150288715136772</guid><pubDate>Tue, 04 Feb 2025 17:00:00 +0800</pubDate></item><item><title>OpenAI o3-mini被曝大量使用中文推理，全世界AI都要学中国话了？</title><link>https://36kr.com/p/3152807697078787</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>国外网友，一觉醒来，发现o3-mini-high开始用中文思考了。</p>
+<p class="image-wrapper"><img data-img-size-val="877,943" src="https://img.36krcdn.com/hsossms/20250205/v2_d3758b6707d34149b231df7b91da4740@5091053_oswg284883oswg877oswg943_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="869,824" src="https://img.36krcdn.com/hsossms/20250205/v2_4a62aec5eb3f4a0e9ecefc64571ecc1f@5091053_oswg260695oswg869oswg824_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="884,482" src="https://img.36krcdn.com/hsossms/20250205/v2_7b8828b853264e03a6a8a14176da43d9@5091053_oswg134624oswg884oswg482_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>o3-mini-high作为美国最顶尖的模型之一，竟然在没有用户干预的情况下，如此大量地使用中文进行推理。</p>
+<p>如此这般，不禁让网友怀疑，是不是OpenAI在「偷师」中国的DeepSeek模型。</p>
+<p class="image-wrapper"><img data-img-size-val="880,881" src="https://img.36krcdn.com/hsossms/20250205/v2_e238a7c5755e4963b7dbfb01a32fb67c@5091053_oswg258188oswg880oswg881_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>更有意思的是，即便用俄语去提问，o3-mini-high也会用中文去思考。</p>
+<p class="image-wrapper"><img data-img-size-val="877,309" src="https://img.36krcdn.com/hsossms/20250205/v2_f737e1f0bc8e44cfb286fb677622324c@5091053_oswg63149oswg877oswg309_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,880" src="https://img.36krcdn.com/hsossms/20250205/v2_c83f579295704f1cb9e0098ec852638f@5091053_oswg374334oswg1080oswg880_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>对此，网友纷纷质问起了奥特曼和OpenAI：「o3-mini到底为什么要用中文进行推理」？！</p>
+<p class="image-wrapper"><img data-img-size-val="867,1069" src="https://img.36krcdn.com/hsossms/20250205/v2_16e41624bdb0433a8682e20bfa87b472@5091053_oswg338129oswg867oswg1069_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="869,1001" src="https://img.36krcdn.com/hsossms/20250205/v2_d0b67568cd8e469f814c114fa65f2418@5091053_oswg336744oswg869oswg1001_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="883,651" src="https://img.36krcdn.com/hsossms/20250205/v2_054b858816c749d9999c8ac4bca21ae1@5091053_oswg167729oswg883oswg651_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>网友Annalisa Fernandez则表示，或许中文才是LLM的「灵魂语言」。</p>
+<p class="image-wrapper"><img data-img-size-val="869,271" src="https://img.36krcdn.com/hsossms/20250205/v2_8f478175152942cdb9865594285c5a4b@5091053_oswg49487oswg869oswg271_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>经此争议，下面这张「DeepSeek/OpenAI罗生门」梗图，已经在外网迅速传开了。</p>
+<p class="image-wrapper"><img data-img-size-val="720,850" src="https://img.36krcdn.com/hsossms/20250205/v2_f935de4b7610422e8dcc5c1de08b46a0@5091053_oswg461086oswg720oswg850_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>语言混杂也是老毛病了</strong></h2>
+<p>当然了，这并不是OpenAI的模型第一次发生这种现象。</p>
+<p>早在去年2月份，就有开发者在OpenAI开发者社区上，报道过类似的问题，不过是混合了其他语言。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,487" src="https://img.36krcdn.com/hsossms/20250205/v2_90120105da6c494186484e93e6f0844a@5091053_oswg223353oswg1080oswg487_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,342" src="https://img.36krcdn.com/hsossms/20250205/v2_eda536d0d09e4a9c9666ed968f26bbf5@5091053_oswg192051oswg1080oswg342_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而在推理模型方面，OpenAI o1也存在类似的问题。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,289" src="https://img.36krcdn.com/hsossms/20250205/v2_a9ff1404b24746828166844bb0d8e393@5091053_oswg125652oswg1080oswg289_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>事实上，这种「语言混杂」（language mixing）现象在其他AI模型中也有发现。</p>
+<p>比如，谷歌的Gemini会混杂德语。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,245" src="https://img.36krcdn.com/hsossms/20250205/v2_10a1b66f238549d89bd337fc0c833834@5091053_oswg57776oswg1080oswg245_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>为何会突然口吐中文？</strong></h2>
+<p>那么，究竟是为何才让o3-mini-high在推理过程中口吐中文呢？</p>
+<p>阿尔伯塔大学助理教授、AI研究员Matthew Guzdial提出了一个切中要害的观点：</p>
+<p>「模型并不知道什么是语言，也不知道语言之间有什么不同，因为对它来说这些都只是文本。」</p>
+<p>事实上，模型眼中的语言，和我们理解的完全不同。模型并不直接处理单词，而是处理 tokens。以「fantastic」为例，它可以作为一个完整的token；可以拆成「fan」、「tas」、「tic」三个token；也可以完全拆散，每个字母都是一个token。</p>
+<p>但这种拆分方式也会带来一些误会。很多分词器看到空格就认为是新词的开始，但实际上不是所有语言都用空格分词，比如中文。</p>
+<p>Hugging Face的工程师Tiezhen Wang认同Guzdial的看法，认为推理模型语言的不一致性可能是训练期间建立了某种特殊的关联。</p>
+<p class="image-wrapper"><img data-img-size-val="830,988" src="https://img.36krcdn.com/hsossms/20250205/v2_1d8a77a22f384e8d8e8c088e7af4bc07@5091053_oswg292477oswg830oswg988_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>他通过类比人类的思维过程，阐述了双语能力的深层含义：掌握双语绝非仅仅局限于能够流利使用两种语言，更是一种独特的思维模式。在这种模式下，大脑会依据当下的场景，本能地挑选最为适配的语言。例如，在进行数学运算时，使用中文往往简洁高效，因为每个数字仅需一个音节；而在探讨「无意识偏见」这类概念时，大脑则会自然地切换到英文，这是由于最初接触该概念便是通过英文。</p>
+<p>这种语言切换的过程，恰似程序员在选择编程语言时的自然反应。尽管多数编程语言都具备完成任务的能力，但我们会依据不同需求，选择用Bash编写命令行，使用Python进行机器学习，因为每种语言都有其特定的最佳适用场景。</p>
+<p>「工具的选择需因场合而异」，这一理念对AI训练有着重要启示：让AI接触多种语言，使其能够学习不同文化所蕴含的独特思维方式。这种包容性不仅能让AI更加全面，还能使其更加公平。</p>
+<p>在Reddit相关帖子下，不少网友表达了相似的观点，即不同的语言各有擅长的领域。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,263" src="https://img.36krcdn.com/hsossms/20250205/v2_4b1ad3050dd04e84b02ad76ddb562f2d@5091053_oswg109944oswg1080oswg263_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,246" src="https://img.36krcdn.com/hsossms/20250205/v2_0cdf9943c74e4b8eb45b39d3b571a25a@5091053_oswg118212oswg1080oswg246_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,260" src="https://img.36krcdn.com/hsossms/20250205/v2_41dccff813ff4511bcb46e4a2198c1ed@5091053_oswg98348oswg1080oswg260_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,762" src="https://img.36krcdn.com/hsossms/20250205/v2_62ec242911174ff4aaca55246e2080fa@5091053_oswg366442oswg1080oswg762_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当然，也有另外的推测观点。比如网友Someone Kong分析认为，这可能是因为中文更短，所以会在强化学习中获得更多的奖励。</p>
+<p class="image-wrapper"><img data-img-size-val="874,546" src="https://img.36krcdn.com/hsossms/20250205/v2_e8dc31ad9d6e4b4a8495c127cc0d504d@5091053_oswg116780oswg874oswg546_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此外，正如网友们反复提到的，DeepSeek在论文中对这一现象进行了分析。</p>
+<p>研究团队发现，当强化学习提示词涉及多种语言时，思维链常常出现语言混杂（language mixing）的现象。</p>
+<p>为了减轻语言混杂的问题，DeepSeek在RL训练过程中引入了「语言一致性奖励」，计算方法是CoT中目标语言词汇的比例。</p>
+<p>尽管消融实验表明，这种对齐方式会导致模型性能的轻微下降，但这一奖励符合人类偏好，使模型的输出更加可读。最后，推理任务的准确度和语言一致性奖励直接相加，形成最终的奖励。</p>
+<p>目前，「语言混杂」还亟待解决。</p>
+<p>毕竟DeepSeek-R1也只是针对中文和英文进行了优化，在处理其他语言的查询时， 也可能出现语言混杂问题。</p>
+<p>例如，即使查询是用非英语或非中文的语言提出的，DeepSeek-R1也可能在推理和回答中使用英文。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,412" src="https://img.36krcdn.com/hsossms/20250205/v2_11fdd8b434f9440f9ca77656e66a0fc8@5091053_oswg352591oswg1080oswg412_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">论文链接：https://arxiv.org/pdf/2501.12948</p>
+<p>或许，正如维特根斯坦所言：「语言的界限就是世界的界限」。</p>
+<p class="image-wrapper"><img data-img-size-val="820,431" src="https://img.36krcdn.com/hsossms/20250205/v2_ee3f1a8eab374835acc7233f727e70e5@5091053_oswg302542oswg820oswg431_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>道理是这个道理，但对于那些没学过外语的用户来说，这个推理过程不要也罢！（手动狗头）</p>
+<p>比如网友Gabe在看到这么一长串的中文推理后，甚至开始怀疑：「o3-mini会不会给的都是错误答案。」</p>
+<p class="image-wrapper"><img data-img-size-val="869,1184" src="https://img.36krcdn.com/hsossms/20250205/v2_1d2e5dea81374164bc832024c8096d52@5091053_oswg382743oswg869oswg1184_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>有趣的是，就在事件发酵后不久，奥特曼便在2月3日表示，OpenAI「没有计划」起诉DeepSeek。</p>
+<p>在采访中，奥特曼非常自信地表示，OpenAI可以继续引领世界：</p>
+<blockquote>
+<p>DeepSeek无疑是一个令人印象深刻的模型，但我们相信，我们会继续推动技术前沿，推出更多优秀的产品，所以很高兴有一个新的竞争对手。</p>
+</blockquote>
+<p>值得一提的是，OpenAI本身也面临着多项知识产权侵权指控，主要与模型训练时使用受版权保护的内容有关。</p>
+<p class="image-wrapper"><img data-img-size-val="895,294" src="https://img.36krcdn.com/hsossms/20250205/v2_0f6e31d96fc34eec91444e32a2e375a5@5091053_oswg67927oswg895oswg294_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>参考资料：</strong></p>
+<p>https://www.reddit.com/r/OpenAI/comments/1iflvc8/o3_thinks_in_chinese_for_no_reason_randomly/</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/sE4MkBjomzYQ93QV49mejQ" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152807697078787</guid><pubDate>Wed, 05 Feb 2025 07:14:00 +0800</pubDate></item><item><title>史上最强春节档：有多少含金量？</title><link>https://36kr.com/p/3152407888854529</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>随着春节假期进入尾声，2025年春节档的相关数据相继出炉，为低迷了一年的电影市场取得了一个开门红。</p>
+<p>根据国家电影局统计，2025年大年初一，票房及观影人次均超过2021年春节大年初一，创造了新的单日票房和观影人次纪录。另据网络平台最新数据，2025年春节档(1月28日-2月4日)档期总票房(含点映及预售)突破90亿，创造了中国影史春节档总票房新纪录。</p>
+<p>票房数据的重重印证之下，2025年的春节档无愧于“最强春节档”称号。但对于电影市场而言，“最强春节档”的含金量远比票房本身更值得讨论。</p>
+<h2><strong>大IP与爆款续作，成春节档“门槛”</strong></h2>
+<p>2025年春节档的影片阵容几乎可以用一个“大”字来概括。</p>
+<p>题材方面，既有脱胎于金庸武侠IP的《射雕英雄传：侠之大者》，还有源自“封神榜”IP的《封神第二部：战火西岐》（以下简称《封神2》）和《哪吒之魔童闹海》（以下简称《哪吒2》）。</p>
+<p>此外，《唐探1900》《蛟龙行动》两部影片分别为此前爆款电影的续作，而《熊出没·重启未来》的上映则是“熊出没”系列动画电影自2013年以来，第12次“打卡”春节档。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,717" src="https://img.36krcdn.com/hsossms/20250204/v2_8e4f25c701094e4dac65349e7c099ab4@5460397_oswg1181463oswg1080oswg717_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>除了大IP、爆款续作，2025年春节档的影片体量也变大了。</strong>上映的6部电影中除《熊出没·重启未来》外，其余5部影片时长均在2小时以上。其中，《唐探1900》时长为136分钟，《封神2》《哪吒2》时长达到144分钟，《射雕英雄传：侠之大者》与《蛟龙行动》的时长则长达146分钟。而此前据媒体报道，2025年春节档电影平均时长已达137.3分钟，较2024年春节档增加近30分钟。</p>
+<p>作为电影市场一年中最重要的爆发节点，春节档吸引大IP、爆款续作齐聚这点并不稀奇。<strong>但今年春节档的6部影片无论是题材还是类型都各不相同，这导致影片之间并未真正形成直接竞争，堪称“最和谐”春节档。</strong></p>
+<p>例如作为《红海行动》续作的《蛟龙行动》，主打现代战争大场面外加主旋律题材；《射雕英雄传：侠之大者》借助导演徐克的“武侠”招牌和“射雕”IP锁定“金庸迷”；《哪吒2》则是在前作奠定市场口碑的基础上，进一步瞄准了春节档的“合家欢”市场。</p>
+<p><strong>不过，影片之间的直接竞争虽然减弱了，线下排片却成为竞争爆发的核心战场。</strong></p>
+<p>灯塔专业版数据显示，大年初一（1月29日）当天，《哪吒2》《唐探1900》与《封神2》的排片占比相近，分别为23.3%、23.1%、21.2%。但随着票房数据反馈引发的排片调整，到大年初七（2月4日）时，《哪吒》的排片占比已高达49.1%，《唐探1900》的排片占比微涨至24.0%，《封神2》的排片占比则降至8.9%。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250204/v2_8d4a86ed03734c518bca50ec356e28ff@5460397_oswg135423oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>头部三甲之间的排片竞争尚且如此激烈，其他排名靠后的电影更加受到排片的限制。</strong>其中，《蛟龙行动》作为《红海行动》的续作，同时也是春节档唯一一部军事动作电影，由于排片占比过低以及黄金场次太少，出品方博纳影业总裁于冬甚至亲自发文力挺宣传电影，同时喊话影院同行多给排片。</p>
+<p>然而，出品方老总的公开喊话并没有影响结果。灯塔专业版数据显示，截至大年初七晚20点15分，《蛟龙行动》的总票房仅为2.88亿元，且从大年初一至初七，其排片占比始终低于8%。</p>
+<p><strong>《蛟龙行动》的票房失利表明，当大IP、爆款续作成为春节档“门槛”，排片、观众口碑成为决定票房归属的核心因素。</strong>而伴随着“史上最强春节档”的票房纪录一同产生的，还有国产电影在内容和运营方面逐渐显现出来的“默契”。</p>
+<h2><strong>电影市场学会“看人下菜”</strong></h2>
+<p>大IP和爆款续作是门槛，2小时以上的影片时长是标配……<strong>“加量不加价”的春节档电影不仅试图用这些摆在明面上的“大动作”让观众们感受到片方的诚意，还在故事情节上谋求“精准输出”，但对内容把控能力的差异又造成了不同的市场反馈。</strong></p>
+<p>例如引发热议的《封神2》，在前期宣传时特别强调了动作戏的亮点，并且把超过2000个特效镜头打造的“神仙打架”剧情当做了宣发重点。但是当观众进了电影院却发现，场面的确有够宏大，但特效质量令人不敢恭维。</p>
+<p>社交媒体上，殷郊的三头六臂特效被调侃是“蓝精灵”，还有网友惊呼“蓝皮红发”的殷郊和自己家的煤气灶“撞款”，魔家四将的特效造型光顾着“大”而缺乏霸气。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250204/v2_fe154270c5294d3bad768d60b1147d2a@5460397_oswg867352oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>还有网友评价，“姜子牙手里拿的怕不是封神榜而是魔戒，闻太师骑着墨麒麟率领魔家四将和殷商大军进攻西岐，拿的是《魔戒》里兽族和人族大战的剧本”。</p>
+<p><strong>除了特效引发的负面评价外，《封神2》混乱的剧情和人物刻画也成为“差评”重灾区——特别是对比第一部积累的好口碑，《封神2》的意外翻车严重暴露出故事本身的缺陷。</strong></p>
+<p>在以“父子情”为故事主线的《封神1》中，虽然主角配角众多且人物关系复杂，但情节环环相扣、叙事有详有略，故事也相对完整。尽管没有大场面和震撼特效给观众带来视觉冲击，但是颜值和身材吸睛的“质子团”以及“纣王和他的哈基米”这些小亮点，在剧情之外也贡献了热门话题。</p>
+<p><strong>然而《封神2》给人的印象是，本应该用来打磨剧情的精力，全用在了耍花活儿上。</strong></p>
+<p>譬如质子团“一哥”姬发，前一秒想要自我牺牲，后一秒又要投降，性格前后反转，不知道的还以为他被“夺舍”。而为了延续质子团的优秀传统，姬发一言不合就脱衣服，白白净净、轮廓分明的肌肉，很难让人相信刚才还在战场上和敌军对垒。</p>
+<p>邓婵玉作为续集中的重要角色，在《封神2》中从原著中作为土行孙妻子的附属地位中剥离出来，被塑造成了独立自主的女性将领。这一处角色改编虽然被一部分“封神迷”吐槽为“魔改”，但拿上大女主剧本的邓婵玉的确成为《封神2》中仅有的亮点之一。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250204/v2_a41116f29d3543e8aedd39ea086c1459@5460397_oswg776221oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而当观众在邓婵玉身上看到女性意识的觉醒，感受到这个角色所诠释的当代女性主义主题时，剧情发展又莫名其妙地给她安排上了与姬发之间的“感情戏”。</p>
+<p><strong>此外，《封神2》里的配角也成为了配合剧情发展的“工具人”。</strong>魔家四将能够操纵神通广大的法器，但是不会说人话，跟随大部队打仗，别人骑马，他们在后面跑得气喘吁吁。</p>
+<p>西岐的官员也集体“智商掉线”，殷商大军压境的时候主要负责说“要是少主在就好了”；姬发在前线浪完回到西岐的时候，他们起承转合式地集体喊道“少主回来了”，然后转头问姜子牙“老神仙怎么办”；暂时击退了殷商大军，不想着如何继续迎战，竟然带头开起了篝火晚会，然后发展感情线、立flag。这种离奇的叙事逻辑，就是让姬发在现场包个饺子，都不会有人觉得奇怪。</p>
+<p>对于《封神2》乱到离谱的叙事逻辑，有网友猜测，可能是因为出品方认为在第一部积累的好口碑基础上，将大场面作为影片亮点能够吸引足够多的观众在春节期间走进电影院。再加上用邓婵玉的大女主戏份承接第一部“质子团”积累的女性观众群体，因此在春节收割一波票房不成问题。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,719" src="https://img.36krcdn.com/hsossms/20250204/v2_6021537b9a22474b978e4db1d49a1ec6@5460397_oswg925330oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>这种策略就像是出品方一早判定观众会为哪些素材买单，然后通过不断做加法完成了一道“预制菜”。但观众判断一部电影好不好看，首先还是会从故事本身出发。</strong>因此，角色塑造和叙事逻辑上的缺陷，直接造成《封神2》的口碑迅速崩塌，而持续一周多的春节档也为影片口碑发酵引导观众用脚投票留出了足够多的时间。</p>
+<h2><strong>市场增长，不能只有“史上最强”</strong></h2>
+<p>除了《封神2》，《唐探1900》的身上也有一丝“预制”的痕迹。</p>
+<p>作为“唐探系列”的前传，以及定位春节档合家欢市场的悬疑喜剧，《唐探1900》结合探案、搞笑元素的基础上，又叠加了主旋律立意，以排华运动等真实历史事件为依托，通过在探案情节中讲述华人的苦难、抗争故事，引发观众共鸣，堪称是今年春节档的“缝合怪”。</p>
+<p><strong>但是仔细观察会发现，探案作为悬疑类电影的核心，在《唐探1900》中并不突出，案件情节的推理太过普通，幕后大反派的揭秘也缺少反转和惊喜。此外，《唐探1900》也试图融合“中医+侦探” “满清高手”“革命斗士”等标签化元素为影片增加看点，但元素多而杂导致“什么都讲了，但一个没讲透”。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,566" src="https://img.36krcdn.com/hsossms/20250204/v2_5c9ac906838d4d708122328c994f8295@5460397_oswg539138oswg1080oswg566_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>特别是作为全篇亮点的立意部分，喜剧角色突然义正言辞对着镜头讲大道理的情节，虽然合理但也削弱了拔高立意的效果，再加上“落后就要挨打”“华人团结”一类的空洞说教，让主题升华略显生硬。</p>
+<p><strong>但是对比《封神2》的口碑翻车，《唐探1900》虽然也是混合了多种元素的“预制菜”，却因为喜剧电影的讨巧定位，提高了观众容忍这些不合理的阈值。</strong></p>
+<p>所以在片中，当岳云鹏饰演的费洋古前一秒还在拷打革命斗士，后一秒又切换成“救中国”的立场时，观众们或许会因为反转过于突然而觉得不合理，但是很快会被搞笑剧情掩盖过去。《唐探1900》截至2月4日累计超过22亿元的票房也说明，观众对这部喜剧电影还是比较认可的。</p>
+<p>作为创造票房成绩的重要节点，春节档出现各种“预制菜”式的电影无可厚非，但在看到通过元素堆砌收割市场的可行性之外，更需要找出实现长期增长的解决方案。</p>
+<p>据金融界报道，2024年上映的票房TOP10电影中，前五名为《热辣滚烫》《飞驰人生2》《抓娃娃》《第二十条》《熊出没：逆转时空》，除了《抓娃娃》是暑期档影片，其他四部均是春节档影片。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,659" src="https://img.36krcdn.com/hsossms/20250204/v2_b3a855cf53d04888bc766b811840c42e@5460397_oswg610950oswg1080oswg659_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>略带夸张地说，电影市场已经出现靠春节档“一年不开张，开张吃一年”的现象。</strong>而在2024年，包括“哈利波特”系列、《泰坦尼克号》《这个杀手不太冷》等超过30部影片的重映，也表明电影市场的头部大片数量相对缺乏。</p>
+<p>供给紧缺的市场环境下，是不是增加供应就能够实现增长？答案或许没有那么简单。<strong>近几年，电影市场之所以遭遇观众流失，除了因为好电影供应不足外，还与电影票的连年涨价有关。</strong></p>
+<p>网络平台数据显示，2017年至2019年平均票价为35元，2021年至2022年平均票价为37.8元，2023年平均票价为40.8元，2024年平均票价为42.1元。而在暑期档、春节档等热门档期，三四线城市电影院一张电影票50元起步已是家常便饭。</p>
+<p>春节作为传统消费旺季，消费者花50元买张票看大片尚且可以接受，但在非重要节日花40元看一场电影就显得不是那么有必要，特别是看一次电影往往还伴随着交通、用餐等其他消费成本。</p>
+<p><strong>由此来看，降低消费者的综合观影成本是让观众重新走进电影院的一个思路。</strong>例如推出综合折扣更低的会员卡，联动餐饮品牌推出观影折扣券，又或者是联合线上平台补贴推出特别时段的观影券。而《封神2》在上映期间，就联动安阳市殷墟博物馆、殷墟遗址博物苑、红旗渠等13家国有景区，推出持电影票根免景区首道门票的活动。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,695" src="https://img.36krcdn.com/hsossms/20250204/v2_7530832aca3a44d581aa1d7a80d98501@5460397_oswg862089oswg1080oswg695_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>从另一个角度来看，提高消费者的观影获得感也是一个可行方案。而在2024年，已有部分院线向粉丝群体开放了演唱会包场服务，让粉丝在电影院集体观看线上演唱会。不过这种围绕“粉丝经济”扩大经营规模的方式，并不能解决电影市场观众流失的核心问题，归根结底还是要提升影片质量，用内容吸引观众回归，让消费者为内容买单。</p>
+<p>事实上，2025年“最强春节档”的爆发，仍然是因为优质大片带动了市场的整体增长。例如《哪吒2》爆火之后，部分城市还出现开卖“台阶票”“无座票”的现象。</p>
+<p>这也表明，虽然观众对影片的要求越来越高，但观众始终愿意为好电影付费，而好的口碑也能够带来更多排片从而创造更多票房。对于中国电影而言，一个“史上最强春节档”虽然并不能代表市场整体开始回暖，但也为电影行业走向良性竞争取得了一个不错的开端。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/DpkPs8KqiFPhHvXO1QWBGQ" rel="noopener noreferrer nofollow" target="_blank">“惊蛰研究所”</a>，作者：惊蛰研究所文娱组 夏夏，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152407888854529</guid><pubDate>Wed, 05 Feb 2025 07:18:00 +0800</pubDate></item><item><title>一趟能省上万元，年轻人春节涌向这个“平替”市场</title><link>https://36kr.com/p/3152319787489792</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2025年春节，随着除夕正式纳入法定节假日，假期延长至8天，人们的出游热情被彻底点燃。然而，热门目的地如哈尔滨、三亚等地的较高旅游成本，以及对景区人山人海的担忧，改变了很多人的想法。</p>
+<p>在理性消费的大趋势下，更多的都市白领已经不愿花重金去热门目的地打卡，“<strong>平替旅游</strong>”成为他们追求安心度假的精神家园。</p>
+<p>当然，所谓的平替，意味着需要学会“花小钱办大事”或者“花合适的钱享受更好的体验”。在小红书等平台，今年春节旅游的“平替目的地”话题在近一个月都保持高热度，其中相关的笔记超过了200万条。</p>
+<p>“平替旅游”消费的走热，本质上是年轻人旅游消费观念的变化，不再追逐热门、跟风潮流，而是将自我的体验、个性化的探索、更有性价比的选择等新的决策因素放在了首位。那么今年春节假期，涌现出哪些出游新趋势？</p>
+<h2><strong>滑雪400元一日，“冰雪游”平替出炉</strong></h2>
+<p>“亚冬会+冬季游+冰雪大世界升级”，哈尔滨依然是今年春节期间冰雪旅游的顶流。</p>
+<p>携程浙江分公司副总经理杨展望向《天下网商》透露：“从平台目前的预订情况看，2024年12月哈尔滨整体旅游订单量同比上一年年增长约10%，这是在2023年高基数基础上实现的增长。从我们的数据看，哈尔滨仍是今年冬季旅游的顶流，而且亚冬会举办以及针对日韩单方面免签政策的实施，预计还会吸引不少国外游客前往哈尔滨。”</p>
+<p>如今的市场也在佐证他的判断——据最新数据，2025年春节期间，哈尔滨的旅游预订订单同比增长约30%，热度依旧不减。杭州某旅行社地导游小谢表示：“之前冰雪大世界排队的新闻都上了热搜，所以影响人们出行决策的最大问题，其实是怕游客太多，担心体验感不足。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_739880f322344a44971cf37714c921c1@000000_oswg154910oswg1080oswg632_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>因此，新疆阿勒泰、吉林长春等地成功成为春节冰雪游最受欢迎的“平替”目的地，其中，春节期间的阿勒泰旅游热度同比上涨超60%。</p>
+<p>更为难得的是，阿勒泰的酒店价格在春节期间上涨幅度仅20%左右，携程显示，除夕当晚本地五钻酒店价位是400元至500元，部分靠近将军山滑雪场的酒店、民宿价格也没有超过500元。</p>
+<p>阿勒泰作为滑雪游的目的地，配套也在跟进，尤其推出了超高性价比的滑雪套餐——春节期间，阿勒泰推出了滑雪门票、酒店和餐饮方面的“冰雪旅游消费券”，甚至还有滑雪教练服务价格优惠，因此在滑雪硬消费方面，每人每天的花费可以控制在400元左右。</p>
+<p>长春的南湖公园免费开放，游客参与遛冰、冰滑梯等项目，体验成本基本也在几十元。</p>
+<p>哈尔滨冰雪大世界的消费，今年其门票今年为325元/人，如果加上人气项目大滑梯和摩天轮的快速通票，则要800元/人。对比之下，阿勒泰和长春是更加经济且能避开“人从众”的选择。在类似的冰雪游场景下，许多年轻消费者倾向于人群聚集度更低、体验感更强、配套服务近年已跟上的新兴目的地。</p>
+<h2><strong>不去三亚，“避寒游”海南、广西火了</strong></h2>
+<p>和冰雪游相对的，是以海南、广西等地区为代表的避寒游，圈内也有“候鸟游”的说法。</p>
+<p>不过，三亚酒店、民宿、租车等旅游配套在春节期间大幅涨价，几乎是历年的一个常态了。正逢春节假期，雅高旗下的索菲特、莱佛士，万豪旗下的丽思卡尔顿、JW万豪，凯悦旗下的海棠湾君悦等高端酒店一晚的房价基本都在3000元至6000元。</p>
+<p>作为新兴的避寒游目的地，冬季气候良好的昆明、南宁在春节假期仍保持了一个亲民价格，因此旅游热度也在快速上升。90后上海白领张珣今年春节带全家人去昆明度假，<strong>全家四大一小的旅行总开支预计可以控制在2万元内，对比之前去三亚过春节最起码能省下1万元。</strong></p>
+<p>“虽然海南三亚、云南腾冲及西双版纳这类目的地气候可能更暖和，但春节基本都涨价，所以我们选择昆明，不仅当地交通更方便，而且也有温泉、植物园、动物园等项目，住个比较好的酒店，楼下就有餐厅可以订年夜饭，配套齐全，出行也方便，适合我们这类上有老、下有小的人出行。”</p>
+<p>目前，上海飞往昆明、南宁的机票价格在春节期间都在1500元左右，而国内主流OTA（在线旅行平台）的数据显示，南宁本地城市度假型酒店价格在400元左右，万豪旗下的高端品牌豪华精选的春节价格也在1100元上下；昆明酒店的选择也很多，一般度假酒店的价格每晚约350元，皇冠假日、万达嘉华等高端酒店在除夕当晚的价格也不到1100元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_f2755ed84c154f13bdbc3e8017450c84@000000_oswg201998oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>出境游：越南、日本热度上升</strong></h2>
+<p>从出境游来看，今年的泰国春节游热度有些遇冷。</p>
+<p>过去几年春节期间，泰国的机票和酒店预订量往往都会大幅增长，往返机票甚至会飙升至5000元以上；然而今年的机票价格涨幅却并不明显，据票务网站信息，在不含行李额的情况下，春节假期前后的上海往返曼谷机票为1400元左右，而上海往返普吉岛的机票也在2000元左右，完全低于往年的涨价幅度。</p>
+<p>背后原因一方面来源于游客对泰国的安全性的担忧。有部分OTA平台和旅游产品销售代理向《天下网商》反馈，游客的酒店、行程订单大多集中在普吉岛、苏梅岛等区域，不少游客特地选择不经过曼谷等中心城市，直接赴海岛度假。另一方面，旅游成本高，在一些OTA平台上，曼谷的五钻级酒店价格在春节期间大多仍在1200人民币/晚左右，而热门海岛的住宿和餐饮服务更是因为游客集中度提高，反而有明显的价格上涨。</p>
+<p>因此出境游方面，今年春节催生出两个“平替”泰国的目的地。</p>
+<p>一个是主打性价比的越南。作为东南亚的新兴旅游目的地，越南春节期间的热度也在快速上升：尤其是芽庄、岘港等成熟目的地，当地的旅游配套并不差，知名旅游搜索引擎KAYAK平台显示，芽庄酒店价格在春节期间平均为600元-1000元人民币/晚，低于泰国普吉岛、苏梅岛等目的地。</p>
+<p>部分OTA平台因此趁热打铁，瞄准越南旅游人群，推出了春节期间相对更具性价比的平替版旅游套餐，比如从杭州出发，包含机票和酒店的6天5晚打包产品，人均价格在4000元左右，泰国海岛类产品则主要在5000元至7000元。</p>
+<p>此外，越南的签证政策也较为宽松，越南国家旅游局今年为了接住这波外溢流量，还在多个旅游热门目的地为春节期间前往的中国游客提供购物折扣和文化体验活动。目前，多个越南芽庄和岘港酒店针对中国度假游客，推出了“春节套餐”，权益包括免费升级房型、赠送当地特色早餐和免费（或高折扣）SPA服务。</p>
+<p>春节出境游另一个热门目的地日本，则是因为签证政策、消费经济、文化活动等，吸引许多购物游、滑雪游客的关注。去哪儿网统计显示，截至1月3日平台2025年春节期间前往日本的机票预订量同比增长了2.3倍，热门目的地为东京、大阪、札幌、名古屋和福冈，客源地Top5分别为上海、北京、广州、成都和深圳。</p>
+<p>应对春节期间的出游流量，国内各大航司近期相继开通或复航日本航线。2024年12月初，吉祥航空北京至名古屋航线在经历两个月的停飞后，终于再次复航；之后随着北海道滑雪季来临，首都航空执飞的北京大兴至日本札幌航线正式启航；2025年1月26日，中国国际航空恢复重庆往返东京的直飞客运航线；2月3日，海南航空开通海口至东京（成田）的国际航线。</p>
+<p>与航线开通相对应的，是载客率的上升。以重仓中日航线的春秋航空为例，据部分媒体报道，该航司春节期间广州飞大阪航线基本收满，飞福冈的航线上座率也在七成左右，且持续保持增长，其中2月6日前日本航线整体收客已超八成。</p>
+<h2><strong>“真金白银”消费券，春节再度拉动出游意愿</strong></h2>
+<p>随着旅游市场的逐渐成熟，越来越多的游客开始选择小众目的地，以避开热门景点的拥挤。</p>
+<p>而降低人们的旅游成本，依然是刺激消费者做出决策的重要因素。2025年春节，各地政府和电商平台纷纷推出文旅消费券，以刺激旅游消费，提升游客的出行体验。这些消费券不仅覆盖了热门目的地，也广泛应用于“平替”目的地，为游客提供了更多的实惠。</p>
+<p>其中，广东、河南主推酒店、景点门票、旅游线路的折扣，广东为消费者提供了最高减200元，河南则推出了“满900-300”“满600-200”等多种线上预订减免政策。此外据《天下网商》统计，厦门、杭州、宁波、盐城、琼海等十多个城市，也都在春节期间提供了“真金白银”的消费券，通过降低出游成本刺激消费。</p>
+<p>据中国旅行社协会发布的《2025春节旅游消费趋势报告》，文旅消费券的使用率在春节期间达到了70%以上，直接带动了当地旅游收入的增长，比如广西北海通过文旅消费券的发放，春节期间旅游收入同比增长约40%；新疆阿勒泰地区通过冰雪旅游消费券的发放，旅游收入同比增长约35%。</p>
+<p>性价比路线已然刮进了旅游行业——这或许也代表，孵化“平替目的地”将是一个趋势，一个春节城市经济的新增长点。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwNTUxNTE0Ng==&amp;mid=2247675266&amp;idx=1&amp;sn=f8dacd91b3dcc8719cbf7fc52fc35a16&amp;chksm=c1ee40b17074a433c2cbf3804a9f33305151b1fb5e8743363e1f4515a9b922ca68aeb7348bd5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“天下网商”（ID：txws_txws）</a>，作者：叶晨，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152319787489792</guid><pubDate>Wed, 05 Feb 2025 07:21:00 +0800</pubDate></item><item><title>特朗普取消800美元商品免税，撂倒一批“低价卖家”</title><link>https://36kr.com/p/3152246601440002</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>当地时间2月1日，美国总统特朗普签署行政令，取消了美国对<strong>“价值低于800美元”</strong>的小额商品的“最低限度”<strong>关税豁免</strong>。</p>
+<p>获悉该消息之后，一批卖家惊呼“我的生意可能要黄了”。</p>
+<p>一批亚马逊卖家（自发货+部分海外仓本土发货）、独立站卖家，都将经历“成本飙升”到“模式转型”的周期，而以“低价驱动”的电商平台Temu也将遭受重击，一定程度缓解持续几年的白热化价格战。</p>
+<h2><strong>01.美国为何取消“800美元最低限度”关税豁免？</strong></h2>
+<p>美国“最低限度”（de minimis）关税豁免条款，自1930年代就已存在。</p>
+<p>2016年，时任总统奥巴马曾签署法案，将美国国民海外进口物品的免税额，从原来的200美元提高至800美元。</p>
+<p>该法案实施后，美国的进口量暴增，<strong>UPS、FedEx持续爆单。</strong>从2012到2020年，美国小额商品进口额价值，<strong>从4000万美元飙升至670亿美元以上</strong>，而在2024财年，“最低限度”货物数量更是上升至<strong>超过13.6亿件。</strong></p>
+<p>因此，这一法案也被称为“进入美国的方便之门”。</p>
+<p>美国保守派自然无法容忍这一“方便之门”持续洞开。2022年1月，美国众议员 Earl Blumenauer提出《进口安全与公平法》，旨在防止包括部分国家利用免税政策，以最低进口门槛进入美国。</p>
+<p>该法案因各种原因，未能立即落地。如今，奉行“美国优先”原则的特朗普重返白宫，快速签署了行政令，取消了这一关税豁免，<strong>砰的一声关闭了“方便之门”。</strong></p>
+<p>包括美国媒体在内的许多媒体报道，<strong>来自中国的小额商品大量涌入，</strong>是取消豁免的最大原因之一。</p>
+<p>跨境电商卖家从中国发往美国的小包商品，包括鞋服、配饰、3C数码、家居用品，单个包裹的价值通常都低于800美元，<strong>多年来持续享受“最低限度关税豁免”</strong>。据数据统计，中国出口到美国的商品， 超10%都利用了800美金的最低免税额政策进行避税。</p>
+<h2><strong>02.一批跨境卖家的生意可能要黄了</strong></h2>
+<p>关税豁免被取消后，一批卖家将受到实质影响。</p>
+<p>这批卖家销售的商品货值往往较低，经常使用快递或是小包渠道单票清关，得益于“关税豁免”，他们的商品抵达美国市场之后，<strong>依然能够以“击穿地板”的低价，压到一大片竞争对手。</strong></p>
+<p>最低关税豁免取消之后，这批卖家成本暴增，将失去竞争优势。</p>
+<p>一些业内人士认为，受到影响的主要是自发货的卖家，<strong>而海外仓发货的卖家几乎不会受影响，</strong>因为他们的商品 是以B2B模式批量发到美国的，在进入海关时已经交过税了。</p>
+<p>实际上，依然有一批海外仓发货的卖家会受到影响，因为这些卖家为了降低成本，<strong>经常将一批货物拆成小包分票，以蚂蚁搬家的碎片化模式，</strong>持续进入美国，以实现“800美金最低关税豁免”。</p>
+<p>许多跨境物流公司足够贴心，将货物处理成不同的收货人，<strong>且选择一些相近的地址来收货，以达到避税目的</strong>。</p>
+<p>据业内人士介绍，Temu也经常采用这一方法，达到降低成本的目的，最终在美国市场以惊爆眼球的低价，大杀四方，所向披靡。</p>
+<p>“最低限度关税豁免”取消后，许多卖家不再享受免税待遇，不得不面对现在的10%-15%的平均税率，即使低申报，也要多出5%-8%的税金成本，这无疑对他们来说是一个打击。</p>
+<p>除了亚马逊自发货卖家，约80%独立站卖家大量使用直邮小包的模式来发货。因此，该豁免取消后， 一批独立站卖家也将陷入困境。</p>
+<p><strong>Temu，也将承受持续的阵痛。</strong></p>
+<p>不过，Temu很早就开始做了准备，在2024年力推半托管，就是为了应对这一冲击，<strong>不过，目前Temu的情况还不太乐观。</strong>花旗分析师的一份报告预测，Temu的本地仓库计划只占整体业务的一小部分，到2024年底，本地仓库的商品交易总额仅为美国交易额仅贡献20%左右。</p>
+<p>近日，Temu一位招商经理称，Temu美国站将会继续加强从全托管切量到半托管。</p>
+<h2><strong>03.价格战稍退潮，海外仓将是标配</strong></h2>
+<p>亚马逊自发货卖家（包括低价商城HUAL的卖家）不再享受关税豁免，Temu持续切量到半托管之后，价格优势将受到很大程度的抑制，这在一定程度会缓解持续几年的白热化价格战，对于跨境电商行业的可持续健康发展，有一定的好处。</p>
+<p>同时，跨境电商物流和仓储模式将发生重大变化。预计未来三年，<strong>中国跨境电商企业在美国设立的海外仓的数量将持续增加。</strong></p>
+<p>不过，“海外仓备货”模式（如亚马逊FBA）成本也将持续增加，大约比直邮高35%-50%，除了要提前支付关税，需提前备货，资金占用周期大约延长30-60天。</p>
+<p>这将在很大程度上提高做跨境电商的门槛，<strong>淘汰一批以往通过蚂蚁搬家的形式打游击战的中小卖家，</strong>而拥有一定资金实力以及品牌声量的卖家，未来将占据更多市场份额。总体来说，整个跨境电商行业，将经历一个“成本飙升-模式转型-市场出清”的周期，从粗放的“低价+铺货”模式转型到精细的“资金+品牌”的模式。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU2NzgwNjM1MQ==&amp;mid=2247520831&amp;idx=1&amp;sn=2391c01371242f98123b4937ee00f563&amp;chksm=fd36d2e8c74668dd2701c794fdab9d4fe3a5fb3cbf4a12284e9bf2976cf030ad2101f9de7489&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“蓝海亿观网”（ID：egainnews）</a>，作者：蓝海亿观，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152246601440002</guid><pubDate>Wed, 05 Feb 2025 07:25:00 +0800</pubDate></item><item><title>3年15款闪耀CES的“明星”产品，如今都塌房了</title><link>https://36kr.com/p/3152217740679936</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>网红短暂，但赛道长红。</p>
+</blockquote>
+<p>历届CES，都会诞生很多“明星”产品。</p>
+<p>但并非所有的爆款，都能活下来。</p>
+<p>事实上，CES史上涌现的很多爆款都已消失，有些“明星”产品甚至未能存活超过一年时间，结局令人唏嘘。</p>
+<h2><strong>消失的CES“明星”</strong></h2>
+<p>以2022-2024年CES为例，据亿欧不完全统计，近三届CES共涌现约40款爆款产品，但有15款已消失（见下图）。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_89b985642e25464194cff3d3c2148011@000000_oswg69949oswg1080oswg852_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_593dab918260480eab0eec4152ecb8a5@000000_oswg45680oswg1080oswg662_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_1714657aa2974527bd69cb2653e92d96@000000_oswg25249oswg1080oswg365_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>综合来看，<strong>在地域上</strong>，这些消失的爆款产品均来自于国外企业；<strong>在品类上</strong>，以AI硬件居多，包括AI掌上电脑、AI可穿戴、AI陪伴机器人、AI智能镜子、AI智能床垫、AI婴儿车等。</p>
+<p>除消失的以外，也有爆款产品实现了升级迭代，如韩国三星在CES 2022上发布的投影仪The Freestyle，参展不久便进行了迭代，升级成了第二代产品。</p>
+<p>值得一提的是，也有企业多次在CES上推出爆款，似乎更擅长打造爆款。</p>
+<p>比如日本Yukai公司，在CES 2023上曾推出爆款产品机器人枕头，可以模仿人的呼吸节奏，帮助用户放松身体。不过遗憾的是，这款产品并未获得消费者认可，不久便消失在了媒体视野。</p>
+<p>今年CES上，Yukai公司卷土重来，又推出了爆款产品“吹气猫机器人”，外观小巧可爱，应用场景是挂在水杯边缘，用户可通过吹气的方式，快速为热饮降温。</p>
+<p>当然，从目前统计来看，除跨国巨头外，多次在CES推出爆款的成长型企业并不多见。</p>
+<h2><strong>“假产品”，注定无法长久</strong></h2>
+<p>从过往三年CES来看，爆款产品均和AI相关，但恰恰“成也AI，败也AI”。AI为企业打开了新的想象空间，但同时也成为了炒作的突破口。这些消失的爆款产品原因各不相同，不过也具有一定的共性。</p>
+<p>首先，<strong>与实际需求脱节，过度炒作</strong>。</p>
+<p>如2024年爆火的AI掌上电脑Rabbit，初衷是为用户提供更便捷的智能化操作，包括查询天气、提醒行程等，配备了触控屏、摄像头、麦克风等，但Rabbit的功能与智能手机高度重合，缺乏创新与实用性，“中看不中用”，很快便销声匿迹了。</p>
+<p>其次，<strong>技术尚不成熟，属过渡性产品</strong>。</p>
+<p>这类产品在技术上还面临挑战，难以实现大规模生产和推广，如Supernal发布的电动飞行出租车S-A2，即使当前飞行汽车依然是热门产品，但当年这款产品因技术尚不成熟，并未得到消费者认可，似乎成为了这一品类的过渡性产品。</p>
+<p>再次，<strong>研发与生产成本较高，供应链存在限制</strong>。</p>
+<p>比如Baracoda推出的智能镜子Bmind一度成为CES 2024上的热门产品，但遗憾的是，由于生产成本过高，导致定价为500-1000美元，高昂的售价让消费者望尘莫及，很难在大众市场普及。</p>
+<p>当然，也有产品能满足实际需求，且技术也相对成熟，但依然走向了失败，如GluxKind Technologies推出的智能婴儿车Ella，具备自动刹车、发出警报功能，并可在空车状态下实现自动行驶，但由于<strong>缺乏有效的市场推广和品牌建设</strong>，自推出以来仅在北美地区限量预售，且去年以来鲜有报道，逐渐消失在了大众视野中。</p>
+<p>值得一提的是，还有一些企业设计的产品实用性极低，或许是单纯为了“炫技”。如FluentPet推出的宠物对话按钮FluentPet Connect，其应用场景是帮助人与宠物互动，当宠物按下按钮时可及时通知主人，入门套件包括一个扬声器和六个按钮，售价159.95美元，折算人民币约1170元，颇似“智商税”。</p>
+<p>整体来看，无论是因技术不成熟，还是无法满足市场需求，亦或售价过高，无论何种原因，都可归纳为“假产品”，即<strong>并非消费者真正需要的产品</strong>。“假产品”能短时间出圈，但却注定无法长久。</p>
+<h2><strong>短暂的“网红”与赛道的“长红”</strong></h2>
+<p>“网红短暂，但赛道长红。”</p>
+<p>前不久，CES 2025落下帷幕。今年CES又出现了多款爆款产品，如AI宠物Ropet、树懒宝宝机器人Mirumi以及多款AR眼镜等（参见亿欧报道《CES爆款品类出炉！从四大热点，透视2025四大商业趋势》），不难发现，好玩、有趣、吸睛的产品，相对更容易出圈。</p>
+<p>但也要注意的是，<strong>有实用价值、性价比高或许才是产品长红的关键</strong>。亿欧认为，借助CES平台，产品的确不难成为爆款，但要长久活下来，必须满足五个条件：</p>
+<p><strong>一是有实用性</strong>。实用性是产品立足的根本，追求创新固然重要，但仍要以满足实际需求为导向。脱离了实用性，极易成为概念性产品，无法为消费者提供真正价值。</p>
+<p><strong>二是技术成熟</strong>。从市场竞争的角度看，技术成熟的产品往往拥有更强的竞争力，同时，当技术经过充分验证后，也意味着具备更稳定可靠的产品性能，降低用户在使用过程中的问题概率，提升产品体验感。</p>
+<p><strong>三是高性价比</strong>。尤其在当前消费环境下，消费者更加理性，由追求产品品牌向注重性价比转移，高性价比产品将更符合消费者需要。再者，高性价比的产品能在市场中迅速打开局面，维持竞争优势。</p>
+<p><strong>四是有效市场推广</strong>。信息过载时代，“酒香也怕巷子深”，市场上产品琳琅满目，若产品缺乏有力推广，很容易被淹没在海量信息中。通过线上线下多渠道有效的市场和品牌推广，触达不同层次的潜在客户，是产品长红不可或缺的策略之一。</p>
+<p><strong>五是“熟悉”的品类</strong>。买卖源自“熟悉”，教育市场并非易事，发展长久的爆款产品，无一不是消费者在生活和工作中经常使用的品类，全新的产品很难在短时间内获得消费者的认可。换句话说，要满足“熟悉”、刚需等特点。</p>
+<p>回顾往年，历年CES都涌现了一批“明星”产品，但遗憾的是，很多爆款产品昙花一现，“过了初一，却未能撑过十五”，逐渐消失在了历史长河中。</p>
+<p>创新永无止境，今年CES上不仅出现了“百镜大战”，同时又涌现了一批爆火的AI宠物玩具、机器人等产品，希望这些产品能长红一段时间，为消费者带来更好的产品体验。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5NTI1MDEyNA==&amp;mid=2652721050&amp;idx=1&amp;sn=a821658d8ab8ddccfda2b340ea74a815&amp;chksm=8a578582509cba364196cecaed039dc2122ec50ec14ae586f2bc6311155197d5979cd5151595&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“亿欧网”（ID：i-yiou）</a>，作者：王圆磊，编辑：刘欢，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152217740679936</guid><pubDate>Wed, 05 Feb 2025 07:27:00 +0800</pubDate></item></channel></rss>
