@@ -1,70 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 04 Feb 2025 11:30:21 +0800</lastBuildDate><pubDate>Tue, 04 Feb 2025 11:30:21 +0800</pubDate><item><title>OpenAI新功能 “深度研究” 登场，人类终极考试的表现超过DeepSeek R1</title><link>https://36kr.com/p/3150399233858049</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>北京时间2月3日上午，OpenAI正式推出面向深度研究领域的智能体产品深度研究（Deep research）功能。 </p>
-<p>曾经一位经验丰富的行业分析师需要花费数天甚至数周才能完成的专业研究报告，现在借助这项突破性功能，只需5-30分钟就能完成。这个堪比"AI研究员"的功能，能够自主分析复杂的专业信息，实时查找和综合数百个在线资源，最终生成一份专业水准的完整报告。 </p>
-<p class="image-wrapper"><img data-img-size-val="780,302" src="https://img.36krcdn.com/hsossms/20250203/v2_13902c2d803a4a40b3469fa4dfb2acdd@5595930_oswg68681oswg780oswg302_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：OpenAI</p>
-<p>这个强大功能由即将推出的OpenAI o3模型的特制版本提供支持，该版本经过专门优化，适配网页浏览和数据分析场景。它能够运用推理能力，在互联网上搜索、解读和分析海量的文本、图像和PDF文件，并能根据所遇到的信息灵活调整研究方向。 </p>
-<p>值得注意的是，在对这个智能体的能力评测中，OpenAI特别对比了DeepSeekR1，称在Humanity’s Last Exam（简称HLE）测试中，深度研究所使用的模型在专家级问题上达到了26.6%的准确率，刷新之前的18.2%的纪录。 </p>
-<p>相比之下，DeepSeek的R1模型的准确率是9.4%。</p>
-<p>这一测试由全球众多领域专家共同开发，目的是评估人工智能在广泛学科领域的表现，被视为衡量人工智能学术能力的前沿基准。该测试包含超过3000道多项选择题和简答题，涵盖从语言学到火箭科学、从古典学到生态学等100多个学科领域。 </p>
-<p>由此也可以看出，DeepSeek确实让OpenAI感觉到压力不小。 </p>
-<p>腾讯科技综合了OpenAI的深度研究介绍文档及技术解读直播，梳理了本次发布最值得关注的技术要点。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,421" src="https://img.36krcdn.com/hsossms/20250203/v2_279cad46071845b6a7e1ae511a6a3371@5595930_oswg78746oswg1080oswg421_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：OpenAI</p>
-<h3>化身专业研究员 擅长寻找冷门信息并全网整合</h3>
-<p>深度研究功能专为金融、科学、政策、工程等领域的高强度知识工作者设计，此类人群需要全面、精准且可靠的调研成果。同时，它也适用于在购买汽车、家电、家具等需要谨慎研究的产品时，希望寻求高度个性化建议的消费者。 </p>
-<p>1、深度研究的输出附有清晰的引用和对其思考过程的总结，便于用户查阅和验证信息。</p>
-<p>2、它尤其擅长寻找冷门、非直观信息，通过一次查询即可帮助用户卸载并加速复杂、耗时的网络调研任务，从而节省时间。</p>
-<p>3、深度研究能够独立从网络上发现、推理并整合各类见解。 它在训练过程中采用了与OpenAI o1（OpenAI的首个推理模型）相同的强化学习方法，并针对浏览器和Python工具的使用进行了真实任务训练。 </p>
-<p>虽然o1在编程、数学等技术领域表现出色，但许多现实挑战需要从多样化的在线资源中广泛收集上下文信息。 </p>
-<p>深度研究在此基础上进一步拓展了推理能力，弥合了这一差距，使其能够应对人们在工作和日常生活中所面临的各种问题。 </p>
-<p>在ChatGPT中，用户可以选择消息框中的“深度研究”选项并输入问题。用户可以向ChatGPT说明需求，也可以附件或电子表格，来增加问题的背景信息。 一旦开始运行，侧边栏会显示已采取的步骤和使用的来源的总结。</p>
-<p>深度研究完成工作可能需要5到30分钟，具体时间取决于任务的复杂性和所需的信息量。在此期间，用户可以离开或从事其他任务——一旦研究完成，用户将收到通知。最终输出将以聊天中的报告形式呈现。 </p>
-<p>在未来几周内，OpenAI还将在这类报告中增加嵌入式图像、数据可视化和其他分析结果，以提供更多的清晰度和背景信息。 </p>
-<p>与深度研究相比，GPT-4o更适合实时、多模态的对话。 </p>
-<p>对于需要深入探索和详细分析的多方面、特定领域的复杂问题，深度研究能够进行广泛的调研并为每个观点提供引用，这与简单的快速总结不同，它能够提供一份经过充分记录和验证的详细答案，可以直接作为工作成果使用。 </p>
-<h3>端到端强化学习是重点 多模块协同工作</h3>
-<p>深度研究是通过 端到端强化学习，在多个领域中针对复杂的网络浏览和推理任务进行训练的。</p>
-<p>通过这些训练，它学会了如何规划并执行多步骤的操作流程，以找到所需的数据，并在必要时进行回溯以及对实时信息做出反应。 </p>
-<p>该模型还能够浏览用户上传的文件，利用Python工具绘制并迭代图形，将其生成的图形以及从网站获取的图像嵌入到回答中，并引用其来源中的具体句子或段落。 </p>
-<p>这种创新的学习方式打破了传统机器学习需要人为划分训练阶段的限制，使模型能够像人类研究者一样进行整体性的思考和决策。 </p>
-<p>在技术架构层面， Deep Research由四个协同工作的核心模块构成，形成了一个完整的智能研究系统。</p>
-<p>第一，是信息发现模块，类似于系统的"探索者"。</p>
-<p>它能够敏锐地在学术数据库、科研机构网站、专业论坛等多个平台中定位有价值的信息。这个模块不仅具备强大的检索能力，还配备了先进的信息筛选机制，能够基于关键词、语义关联、时效性和可信度等多维度标准，快速过滤出高质量的研究素材。 </p>
-<p>第二，是信息综合模块，扮演着"整合者"的角色。</p>
-<p>它能够将来自不同渠道的零散信息梳理成系统化的知识体系。无论是处理文字报告、分析数据图表，还是理解专业图片，这个模块都能够准确把握信息之间的逻辑关系，提炼出关键要点。 </p>
-<p>例如，在处理科技领域的研究任务时，它能够将技术原理、应用案例和发展趋势等多个维度的信息融会贯通，形成完整的技术分析报告。 </p>
-<p>第三，是推理模块，赋予了系统类人的思考能力。</p>
-<p>它运用逻辑推理和知识图谱技术，对收集到的信息进行深度分析和推导。在面对复杂的科学问题时，推理模块能够基于已知事实进行严谨的论证；在进行市场分析时，它会综合考虑历史数据、市场动态和政策环境，做出合理的预测。更重要的是，这个模块具备自我修正能力，能够根据新发现的信息及时调整推理路径。 </p>
-<p>第四，是输出模块，是系统的"表达者"，负责将研究成果转化为专业的呈现形式。</p>
-<p>它能够根据用户需求，生成格式规范的报告、论文或分析图表。在这个过程中，系统会严格遵循学术规范，为每个结论提供准确的来源引用，确保研究成果的可靠性和专业性。 </p>
-<p>这几个模型的协同工作，类似于一个多Agent的协同工作系统。Deep Research系统根据任务的复杂程度，可投入5-30分钟甚至更长时间进行深入研究，并在侧边栏显示出它的工作过程，用户在这个过程中还可以跳出来做别的工作，等模型完成思考后，会收到推送的通知。这种机制的设计，让产品的能力能发挥更好，且照顾到了用户的体验。 </p>
-<p>注：模型浏览得越多，对浏览内容思考得越深入，其表现就越好，这就是为什么给它思考时间很重要。</p>
-<h3>HLE测试达到了26.6%的准确率</h3>
-<p>在这样的技术底层之上，深度研究在众多针对现实问题的公开评估中达到了新的高度。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,807" src="https://img.36krcdn.com/hsossms/20250203/v2_0e497e8c3e5845edba7f256a48125313@5595930_oswg52972oswg1080oswg807_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">注：深度研究与各模型在人类最后的考试中的成绩 </p>
-<p>值得注意的是，在Humanity’s Last Exam（简称HLE）测试中，深度研究所使用的模型在专家级问题上达到了26.6%的准确率，创下新高。 </p>
-<p>相比之下，DeepSeek的R1模型的准确率是9.4%。这一测试由全球众多领域专家共同开发，目的是评估人工智能在广泛学科领域的表现，被视为衡量人工智能学术能力的前沿基准。该测试包含超过3000道多项选择题和简答题，涵盖从语言学到火箭科学、从古典学到生态学等100多个学科领域。 </p>
-<p>与OpenAI的o1模型相比，深度研究的模型在化学、人文社科和数学领域取得了显著进步。它通过有效寻找专业信息，展现了类似人类的处理方式。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,401" src="https://img.36krcdn.com/hsossms/20250203/v2_a726082ce2e44c4e8e7650e92f319083@5595930_oswg29797oswg1080oswg401_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">注：深度研究在GAIA基准测试中的成绩</p>
-<p>在GAIA基准测试中，深度研究所使用的模型达到了最前沿水平（State of the Art，SOTA），并登上了外部排行榜首位。 </p>
-<p>GAIA是一项公开的基准测试，专门用于评估人工智能在现实世界问题上的表现。该测试包含三个难度层级的问题，涵盖广泛的实际应用场景。成功完成这些任务需要具备推理能力、多模态交互能力、网络浏览能力以及工具使用熟练度。 </p>
-<p>在对多个领域的专家级任务进行内部评估时，深度研究被领域专家评定为能够自动化完成数小时复杂的、手工调查工作。</p>
-<p>深度研究解锁了诸多新的能力，但目前仍处于早期阶段，存在一些局限性。根据内部评估，尽管其错误率显著低于现有的ChatGPT模型，但深度研究仍可能在回答中生成虚假信息或做出错误推断。 </p>
-<p>此外，它可能难以区分权威信息与谣言，并且在置信度校准方面存在不足，常常无法准确传达不确定性。在发布初期，报告和引用可能会出现一些格式错误，且任务启动可能需要更长时间。不过，OpenAI预计随着更多使用和时间的推移，这些问题将迅速得到改善。 </p>
-<h3>Pro用户每月最多可用100次</h3>
-<p>深度研究在ChatGPT中的使用目前对计算资源的需求较高。查询所需的研究时间越长，所需的推理计算量就越大。 目前，OpenAI已推出针对Pro用户的优化版本，每月最多支持100次查询。</p>
-<p>接下来，Plus和Team用户将获得访问权限，随后是企业用户。目前，OpenAI仍在努力为英国、瑞士和欧洲经济区的用户提供访问权限。 </p>
-<p>所有付费用户将很快在深度研究的速率限制方面获得显著提升。OpenAI计划在未来推出一个更快速、更具成本效益的版本，该版本由一个较小的模型驱动，但仍能提供高质量的结果。 </p>
-<p>在未来几周和几个月内，OpenAI将致力于技术基础设施的完善，密切监控当前版本的表现，并进行更严格的测试。这符合OpenAI的迭代部署原则。如果所有安全检查持续符合发布标准，预计将在大约一个月后向Plus用户推出深度研究。 </p>
-<p>深度研究目前已在ChatGPT网页版上线，并计划在一个月内扩展到移动和桌面应用程序。目前，深度研究能够访问开放网络以及用户上传的文件。未来，用户将能够连接到更多专业化的数据源，扩展其对订阅制或内部资源的访问权限，从而使其输出更加丰富和个性化。 </p>
-<p>从更长远来看，深度研究与Operator的结合将为用户提供更强大的异步研究和现实世界执行能力。 </p>
-<p>深度研究能够进行异步在线研究，而Operator能够采取现实世界的行动，两者的结合将使ChatGPT能够执行越来越复杂的任务。 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/DcT_bja6YTmrx_N5EmfHMQ" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，作者：晓静 无忌，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150399233858049</guid><pubDate>Mon, 03 Feb 2025 13:45:00 +0800</pubDate></item><item><title>150亿，82岁新加坡“油王”破产了</title><link>https://36kr.com/p/3150259446979078</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 04 Feb 2025 12:00:26 +0800</lastBuildDate><pubDate>Tue, 04 Feb 2025 12:00:26 +0800</pubDate><item><title>150亿，82岁新加坡“油王”破产了</title><link>https://36kr.com/p/3150259446979078</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>曾经胡润富豪榜榜上有名，总资产破150亿元的新加坡“油王”林恩强，正在走向破产。</p>
 <p>林恩强的跌落神坛不仅是个人的悲剧，更是新加坡石油经济面临转型挑战的缩影。他的故事背后，是全球能源转型的加速、传统石油贸易模式的困境，以及金融监管日益严格的现实。</p>
 <p>林恩强的兴隆贸易公司的破产，不仅震动了新加坡的金融市场，也引发了人们对石油经济未来走向的深刻反思。在新能源崛起的浪潮中，新加坡的石油经济将如何在危机中寻找新的机遇，重新定义自身在全球能源格局中的角色？</p>
@@ -673,4 +608,117 @@
 <p>洗牌正在发生，但大消费永不落幕。</p>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_6bfe9be3498f4e07b518e8af003408d1@000000_oswg806oswg107oswg27_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247675391&amp;idx=1&amp;sn=da16c6736e5d7093f70f1bd3584a0e3c&amp;chksm=edd18022093e656790e4df5d2a9dfe38da8ba6726ec078e443dfbae96a8b94e6dbddceff348d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：杨继云，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150583108836101</guid><pubDate>Tue, 04 Feb 2025 10:30:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150583108836101</guid><pubDate>Tue, 04 Feb 2025 10:30:00 +0800</pubDate></item><item><title>5人创业国产AI搜索火了，小红书Reddit都在推！创始人：我们比Perplexity留存更高</title><link>https://36kr.com/p/3150362969135616</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>一水 发自 凹非寺量子位 | 公众号 QbitAI</p>
+<p>自Perplexity官宣引入广告后，AI搜索再次成为关注焦点。</p>
+<p>而我们国内创业团队这边，也传来了新消息——</p>
+<p><strong>Hika AI</strong>，一个仅由<strong>5人</strong>打造的AI搜索，上线不久竟能和国外当红顶流同台竞技了？！</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_34f86fc2b95542e29e473ad9e51d72ea@000000_oswg48829oswg1080oswg583_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>据similar web公开数据显示，上线不到1个月，它在<strong>获取用户注意力</strong>（包括平均停留时长、跳出率、每次访问页数）方面已经超过Perplexity、秘塔等竞争对手。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_bfa582a3e99e4eec8cdc186948419c7b@000000_oswg118195oswg1080oswg494_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而且从早期用户反馈来看，很多网友or同行更是原地化身“自来水”？</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_4f4b2bb6946e4748b46f251d261e7576@000000_oswg94422oswg1080oswg227_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_30726dea928d459a93d7291884c6b7d3@000000_oswg165755oswg1080oswg340_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_3c864bb229e54516a9acd3ad81128161@000000_oswg24357oswg1044oswg280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>带着一揽子好奇，量子位直接联系上了Hika AI背后的<strong>两位核心创始人</strong>（浪仔和豁如），并围绕<strong>小团队如何AI创业</strong>展开对谈。</p>
+<p>在近1小时采访中，我们主要聊了聊：</p>
+<p>为什么选择「AI搜索」这条赛道？</p>
+<p>为什么说和Perplexity的路子不一样？</p>
+<p>实际开发过程中走了哪些弯路？</p>
+<p>缺少资源的小团队如何运营推广产品？</p>
+<p>……</p>
+<p>话不多说，以下就是我们拿到的一手机密。（bushi</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_3cd8c91f7f624df08998f8707ccbbd9f@000000_oswg63959oswg177oswg179_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>小团队AI创业大揭秘</strong></h2>
+<p>先简单介绍下Hika AI，这是一款免费的知识获取引擎，经团队打磨1年后上线。</p>
+<p>谈到为什么选择AI搜索这条赛道，创始人透露了一个秘密：</p>
+<p>其实AI搜索并非团队创业首选，在这之前，他们最早开发的是一款<strong>笔记软件</strong>，类似如今火起来的谷歌NotebookLM。</p>
+<h4><strong>为什么选择做HiKa</strong></h4>
+<p>但是，笔记软件推出后，他们很快发现了一个大问题——</p>
+<blockquote>
+<p>用户在使用中有一种“无所适从”的感觉</p>
+</blockquote>
+<p>从当时的用户反馈来看，大家面对这类知识库，一是不知道问什么，二是提问很容易超出知识库回答范围，多重因素导致使用效果一直不理想。</p>
+<p>甚至谷歌NotebookLM最早也面临相同困境，直到后来因推出播客功能才逐渐走红。</p>
+<p>在意识到受限于技术发展，<strong>知识库是一件需要长期才能做好的事情</strong>后，这一次，他们将目光瞄向了自己更熟悉、“MVP难度相对较低”的搜索领域。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_a2b462d81deb4918ad6dc2e7f3d3775a@000000_oswg59485oswg173oswg189_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>选择搜索，主要基于两方面考量：一是从整体来看，搜索需求无处不在；二是从市场竞品来看，还有很多使用痛点亟待解决。</p>
+<p>先说需求，用户搜索目前呈现出<strong>需求大</strong>和<strong>需求多元化</strong>这两个主要特点。</p>
+<p>关于前者，他们提到了《2024小红书搜索推广白皮书》里的一组数据：</p>
+<blockquote>
+<p>70%月活用户存在搜索行为，其中三分之一用户一打开小红书的第一件事就是搜索，平均每日搜索量高达6次。</p>
+</blockquote>
+<p>当然除了数据，单从体感来看，搜索确实无处不在。</p>
+<p>至于需求多元化，创始人也举了个例子，比如对于“酸菜鱼怎样做才好吃”这个问题，不同人对于美味的定义不一样进而致使对答案的预期也不一样，这说明<strong>人们的搜索期待本质上是非常多样化的</strong>。</p>
+<p>但实际情况是，目前绝大多数AI搜索更追求<strong>“一步到位”的回答</strong>，这也意味着忽视了人们的本质需求。</p>
+<p>而这，正是Hika AI和Perplexity、秘塔这类产品的最大区别。一言以蔽之，其产品构建逻辑本质不同：前者追求更个性化的人与AI交互方式，后者力求快速、准确，“直击人心”。</p>
+<h4><strong>实测：和其他AI搜索不一样的地方</strong></h4>
+<p>理念的不同，也实实在在反映在了<strong>产品形态</strong>上。</p>
+<p>两位创始人表示，现有的AI搜索产品基本都雷同于Perplexity，文本回答+链接+相关问题+图片，它看起来像是公众号，其探索性更针对形式而非问题本身。</p>
+<p>概括而言，这些产品的痛点包括：</p>
+<p>底层模型并没有聪明到能够懂用户心</p>
+<p>给出的答案中有很多链接，图片，但这些并没有帮助用户更好的理解问题</p>
+<p>每当用户对回答的某段内容感兴趣时，却无法深入</p>
+<p>基于上述，Hika AI首先<strong>保留文本部分</strong>作为回答主体，并将回答<strong>按段落进行分割</strong>。</p>
+<p>随机实测搜索最近上映的电影「误杀3」，其回答be like：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_a9223c16924e4f319c0a07abb5bef53c@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>如果对某个段落中的点感兴趣，还能点击左边按钮，针对性继续提问或追求更加深度的回答。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_80d26ee37f0340f5be80260e09345776@000000_oswg191929oswg1080oswg656_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>甚至它还提供图表化的讲解。一处是可以一键生成的总结表，另一处是更具发散性的思维导图（可无水印下载）。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_4df466f482004b7f80e236f21f08fa44@000000_oswg176038oswg1080oswg679_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_c0589f69f9974beeba6d5b8718ce5911@000000_oswg213752oswg1080oswg763_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_9cf3f611463249fa8962667aed65d239@000000_oswg150587oswg1080oswg818_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>更多功能细节在此不再赘述。按照两位创始人的说法：</p>
+<blockquote>
+<p>我们希望提供若干<strong>对于单一问题的多维思考“线索”</strong>，而不是一步到位的“懒人回答”。</p>
+<p>这是因为我们不认为AI能在短时间内完全取代人类。在思考问题时，人倾向于网状结构的信息组织方式，并将有用的信息提取加工，随后得到结论。<strong>每个人都有自己专属的加工方式与标准，它无法被量化</strong>，这也是为什么现在的AI搜索不能给所有人一个满意回答的关键原因。</p>
+<p>因此我们不贪图一步到位的回答，而是专注于对信息的深挖，它可以大幅提升网状式获取信息的效率。</p>
+</blockquote>
+<p>BTW，关于Hika AI背后使用的模型，团队透露并不固定，不同阶段可能使用不同模型。</p>
+<h4><strong>小团队如何做推广</strong></h4>
+<p>聊完产品，我们最后把目光放在了更具广泛参考意义的创业经历上。</p>
+<p>经透露，Hika AI背后团队拢共只有5人。</p>
+<blockquote>
+<p><strong>1个产品兼设计+2个前端+2个后端</strong></p>
+</blockquote>
+<p>对这样一支小团队来说，AI已经成了不可或缺的最佳辅助。</p>
+<p>在产品开发过程中，AI极大缓解了人手不足的问题，其中更偏向开发的创始人透露，“目前AI已经能在很大程度上帮助团队写代码”。</p>
+<p>除此之外，日常也会用到AI搞运营。比如在海外推广时，借助AI撰写更符合当地风格的文案等等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_4723110099874fc1b97a2460649cefd2@000000_oswg68719oswg185oswg190_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当然我们也进一步深挖了一个核心问题，没有资源、没有名气的小团队具体如何推广自己的产品？</p>
+<p>毕竟产品不被用户看到，一切都是竹篮打水。</p>
+<p>而按照Hika AI创始人的说法，主要靠<strong>“脸皮厚”</strong>。（bushi</p>
+<p>具体来说，他们目前主要在两个方向上发力。一是苦心运营自建账号，保持更新；二是四处邀请KOL内测，通过用户分享建立传播。</p>
+<blockquote>
+<p>Hika上线后，由于团队里没有丰富运营经验的小伙伴，我（创始人之一）先顶上了；那要做运营，都是小账号，没有万粉怎么做呢? 我脸皮厚，也对Hika的品质有信心，除了平常发帖子宣传外，就是逐个找一些活跃的小v大v，邀请他们试用Hika，可以的话宣传一下。</p>
+<p>当然没有回复或者后续冷拒绝的人不少, 但亲自试用, 并热情地无偿转发Hika的同样很多, 因此Hika收获了不少用户。</p>
+</blockquote>
+<p>简单总结，小团队的成功主要靠<strong>产品过硬+勤奋</strong>，而这并不简单。</p>
+<p>当然了，具体到AI搜索这一赛道，他们直言当前市场<strong>远未到分层时刻</strong>。换言之，AI搜索的竞争才刚开始，产品形态还不稳定，大家都在探索。</p>
+<p>有意思的是，他们也提到了Perplexity的一个转变。</p>
+<p>众所周知，这家公司一开始号称要取代谷歌，但最近几个月，其创始人Aravind Sriniva在采访中明确表示：</p>
+<blockquote>
+<p>Perplexity不是一定要打败Google和Bing，也不是一定要取代它们。Perplexity和那些明确表示要挑战Google的初创公司最大的区别就在于：我们从来没有试图在Google擅长的领域中击败它。</p>
+</blockquote>
+<p>对此，Hika AI创始人认为：</p>
+<blockquote>
+<p><strong>Perplexity本身不是一个正确答案，他更不是一个标准答案，他自己也在探索。</strong></p>
+</blockquote>
+<h4><strong>对“所有行业都能用AI重塑”存疑</strong></h4>
+<p>最后，谈到创业以来最大收获或感受，两位创始人也浅浅做了分享。</p>
+<p>首先就是对“所有行业都能用AI重塑”这一观点存疑。</p>
+<p>二位比较一致的价值观是，相比做出一款AI应用，更重要的是<strong>如何理解AI对人类社会最大的改变</strong>。只有了解AI的真正作用，才能判断某一事物是否适合用AI改造。</p>
+<p>而Hika AI，也诞生于他们对探索<strong>人与AI交互方式</strong>的共同兴趣。</p>
+<p>在这一过程中，最重要的，一是寻找同频的队友，二是“小步快跑”，先做出来才是第一要义。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_206cdba546d1482da662a05470e571cb@000000_oswg93439oswg192oswg186_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>One More Thing</strong></h2>
+<p>回到一开头Perplexity引入广告这则消息，我们也打听了一下：</p>
+<blockquote>
+<p>目前完全免费的Hika AI，之后也会收费吗？产品的盈利模式如何？</p>
+</blockquote>
+<p>按照团队计划，他们可能会采用<strong>大部分免费+付费用户享受额外高级功能</strong>这一模式。</p>
+<p>这也和目前ChatGPT搜索类似，均尚未考虑广告因素。</p>
+<p>而Perplexity从去年11月官宣，最早将从美国上线广告。这些广告将以“推荐问题”的形式展示，同时广告将被放置在用户搜索答案的旁边并标注为“赞助”。这一措施也是为了弥补订阅收入不足的问题。</p>
+<p>总之，商业模式也是类似小团队需要重点考虑的问题。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247775527&amp;idx=2&amp;sn=d18ca3577b9c32f11751bdd55d4355d6&amp;chksm=e9faca1e83c051e0c07e5ff986d4cfe6ef41921c1cc5d453d10d9f7018271357759233617f19&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：关注前沿科技，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150362969135616</guid><pubDate>Tue, 04 Feb 2025 11:30:00 +0800</pubDate></item></channel></rss>
