@@ -1,513 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 05 Feb 2025 07:30:21 +0800</lastBuildDate><pubDate>Wed, 05 Feb 2025 07:30:21 +0800</pubDate><item><title>影像AI，终见曙光</title><link>https://36kr.com/p/3150138720148225</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>看似波澜不惊的一年，影像AI却在年末迎来高光。</p>
-<p>2024年12月，联影智能完成10亿元融资，将影像AI的估值推上百亿。新年前夕，深睿医疗又获5亿元融资，老牌AI企业再度向前迈出重要一步。</p>
-<p>整个医疗人工智能概念融资热度的扶摇直上，在这波细分赛道的崛起中发挥了不可忽视的作用。《2024年全球医疗健康产业资本报告》数据显示：2024年医疗人工智能总计融资次数逾300起；融资金额约76.7亿元，远超其他板块，带动了影像AI的发展。</p>
-<p>与此同时，行业先驱们的不懈努力亦至关重要。十年积累，影像AI已经非常逼近它最初期期望成为的样子。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_85e96973815a485ba321f7e4a3e63d57@000000_oswg52884oswg829oswg257_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024年全球医疗健康产业投融资热门关键词</p>
-<p><strong>01</strong></p>
-<p><strong>恰逢天时地利</strong></p>
-<p>拆解影像AI融资背后的新动力，大致可分为三个维度。</p>
-<p>首先是医保方向。2024年11月，国家医保局一则《放射检查类价格项目立项指南（试行）》发布立项指南在行业之内引起震动。</p>
-<p>政策解读文章表示：新的立项指南将在放射检查类主项目下统一安排“人工智能辅助诊断”的扩展项，医院利用人工智能进行辅助诊断，执行与主项目相同的价格水平，但不与主项目重复收费。</p>
-<p>简而言之，该立项指南的出台可以视作人工智能临床应用价值的重要背书。</p>
-<p>虽说现阶段相关应用无法实现直接收费，但进入“扩展项”这一门槛后，影像AI若能在后续补充上相应的全面的卫生经济学证据，便有望迅速实现各个企业最初期望的“案例收费”模式，实现稳定的、成规模的营收。</p>
-<p>其次是研发方向。过去自研一个影像AI产品需要历经一个漫长的周期，研发方需要调研医院的需求，找到足够通量且能满足技术能力的病种，再寻求医院合作，取得合法数据并进行清洗、脱敏、标注、分类制成训练集，进而生成相应的模型。</p>
-<p>这个过程中，企业需要在建立医院合作关系、清洗标注数据、训练调整模型等方面付出大量时间与精力，极大抬高了单个AI的研发成本。</p>
-<p>如今进入大模型时代，新一代的无监督学习算法能够低成本、高效率地进行各类影像数据、各类疾病病灶的勾画分割任务，训练模型需要的数据量也大幅减少。</p>
-<p>更重要的是，健康数据这一新式资产也在2024年正式在公立医院之中开启交易。</p>
-<p>10月中旬，上海第一人民医院一次性申请到了18张数据产品挂牌证书，包含AI辅助诊断中常用到的肺结节、糖网病变、CT-FFR、乳腺超声等多模态数据集，亦有精子发生障碍、急性白血病基因突变与移植预后等专病数据集。</p>
-<p>同年11月，首都医科大学宣武医院的颈动脉支架手术数据集（登记时包含2550条数据）在北京国际大数据交易所（后简称：北数所）进行了资产确权登记，同时完成交易。据宣武医院表示：相关数据集将应用于国产颈动脉支架产品的研发，助力医疗机构更加精准地理解中国人群的脑血管疾病。</p>
-<p>对于影像AI而言，健康数据交易带来了空前的积极影响。</p>
-<p>在过去围绕企业——医院合作关系展开的研发模式下，影像AI企业需要频繁与医院医生进行沟通，确保合作流程的合理合规。这种模式不仅研发效率相对低下，还常需与院方共享AI算法的知识产权，影响后续的商业化进程。</p>
-<p>如今健康数据拥有市场定价后，企业与医院的关系由合作方变为了买卖方。企业不仅可以清晰估算影像AI的研发成本，高效执行AI训练计划；还能对企业－医院合作开发的影像AI进行有效定价，便于企业回购AI知识产权，避免后续销售过程中潜藏的风险。</p>
-<p>最后是产品形态。按照传统的单病种AI研发思路，影像AI可以逐步覆盖所有的中大通量病种。但人类可能罹患的疾病种类极其多，仅肺部便有200余种疾病，神经系统更是超过1000种，远远超出现有AI企业的能力总和。</p>
-<p>而在影像大模型时代，企业无需再以通量为目标进行排序，单点式地突破病种。LLM及新的算法加持下，他们能够跨模态、跨部位进行综合性训练，实现能像医生一样诊断的真正意义上的人工智能。</p>
-<p><strong>02</strong></p>
-<p><strong>破局者的条件</strong></p>
-<p>当“数据”这一人工智能核心要素成为可交易品，从业医疗人工智能行业最大的阻碍被移除。新的AI时代下，我们必然能够看到更多新的科技企业切入医疗领域，加速数智医疗时代的变革。</p>
-<p>那么，什么样的影像AI企业能在新的AI时代中脱颖而出？</p>
-<p>在健康数据市场的交易量成规模前，考察影像AI仍需关注他们的产品布局逻辑与商业创新能力。</p>
-<p>回顾2024年，医药反腐带来的影响及愈发显著的设备集采趋势叠加，遏制住了医学影像设备逾十年的涨势。虽有“配置许可目录调整”“以旧换新”等政策催化，但由于市场反应存在滞后性，回暖速度有限，2025年很难重现过往的光辉。</p>
-<p>此形势下，影像AI企业过往的销售模式难以为继。因此，几乎每家影像AI头部企业都在寻找属于自己的破局模式。譬如，医准智能重押技术难度较高、少有企业涉及AI超声，一举做出了人体所有重要脏器的超声AI模型；深睿医疗深入医院数据中心，协助医院进行影像、文本数据的资产化处理；联影智能发布基座模型，转变影像AI研发模式；推想医疗依靠医学影像切入外科领域，由AI诊断转为AI诊疗并行；数坤科技瞄准设备智能化，自研超声实现软硬深度融合……</p>
-<p>从当下的视角看，每一个选择都对应了一个目光可及的市场，若能保障产品或解决方案的质量，均有希望开辟相当规模的新的市场。2025年，他们需要乘着政策的东风，尽快在自有的新布局中的觅得行之有效的商业模式，捱过黎明前的黑暗。</p>
-<p>而当健康数据市场交易成为常态，各个路线之间的差异将被弱化，各家企业又需建立新的核心能力。</p>
-<p>到那个时候，谁能具备充分的现金流，谁能最快最精准地找到临床之中的真实需求，谁能快速建立行之有效的算法，谁便能在这场漫长的竞争之中破局而立，独占鳌头。</p>
-<p>*封面图片来源：123rf</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTMyMDg0Ng==&amp;mid=2650661196&amp;idx=1&amp;sn=843d281607768e47d1a89256e75dd03f&amp;chksm=bf13054e079fbd2a37255c0d0a619f913138b2fe324676df98aa38e72dd367f53cfc9f3e3663&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“动脉网”（ID：vcbeat）</a>，作者：赵泓维，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150138720148225</guid><pubDate>Tue, 04 Feb 2025 13:00:00 +0800</pubDate></item><item><title>告别“杉菜”：大S的“楚门”人生</title><link>https://36kr.com/p/3150973064649475</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_c873373fac2a4389a77a75d4497dacc7@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>作者| Mia</strong></p>
-<p><strong>编辑| 李寻欢</strong></p>
-<p>又是一场猝不及防的告别。</p>
-<p>2月2日，有旅游达人发文称“台湾有位大明星过世”，透露对方是48岁已婚女士，有小孩、老公是外国人、处于《流星花园》那个年代，种种猜测均指向艺人大S（徐熙媛）。 2月3日，大S经纪人证实噩耗。 家属发文称“新年期间，我们全家来日本旅游，熙媛因得了流感并发肺炎，不幸地离开了我们” 。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_3bd344f5910348c3b3e7b87e3e729d51@000000_oswg77586oswg600oswg450_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>永远优雅如仙女、敢爱敢恨正义直率的大S，一代人心中“永远的杉菜”</strong>，人生定格在48岁，她的一切工作和生活细节都被镜头记录下来，在放大镜下被反复观看讨论，她身后，远去的是台湾偶像剧的黄金时代，也是生机勃勃、从不认命的“千禧精神”，粉丝和大众的悲痛怀念，既是出于对她的喜爱，同时也掺杂着对逝去青春的唏嘘。</p>
-<h2><strong>世间再无杉菜</strong></h2>
-<p>尽管近年来淡出演艺圈，但两姐妹从未离开过热搜榜，超高国民度和话题度，是命运给大小S的双刃剑。</p>
-<p><strong>大S的演艺生涯大致可以分为主持节目少女时期、偶像剧大爆时期、婚后逐渐退隐时期等阶段</strong>，前两个阶段，见证了台湾综艺偶像剧爆发的黄金时代，后一个阶段，则由内地真人秀记录了下来。</p>
-<p>1976年10月6日出生于中国台湾省台北市的大S，于1994年跟妹妹小S组成S.O.S（sister of shu）出道，后改名为“ASOS”，和吴宗宪主持综艺节目《我猜我猜我猜猜猜》，创下超高收视率，从1998年起主持《娱乐百分百》，长达8年几乎全年无休记录了两姐妹的私生活。</p>
-<p>2001年是大S演艺生涯的高光之年，除了与小S发行曲风前卫的专辑《变态少女想人记》，台湾偶像剧鼻祖之作《流星花园》杉菜一角更是红遍全亚洲。 《求婚事务所》《倩女幽魂》《战神》《转角遇到爱》《泡沫之夏》等偶像剧延续了大S如日中天的热度。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_46b6892c6d654b87a38f3b8074cd1091@000000_oswg333474oswg640oswg442_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>那个倔强的少女，一边弹钢琴一边念出“女人啊，华丽的金钻，闪耀的珠光，为你赢得了女皇般虚妄的想象”，喊着“我又不是温室里的花朵，我是打不倒的杂草杉菜”等名场面，成为无数人的白月光。<strong>杉菜打破了传统柔弱的女性形象，也迥异于大眼含泪的琼瑶女郎，更有“当代性”。</strong></p>
-<p>大S也曾尝试转战大银幕，但战绩不佳，《龙凤店》、《全城热恋》、《大内密探灵灵狗》《未来警察》等让大S一度被评为“烂片女王”，拿下三个“金扫帚奖”“最令人失望女演员”。</p>
-<p>常有惊人之语的大S，并不满足于塑造小白花，而是勇于挑战“女杀手”等复杂狠厉的角色，和苏照彬导演两次合作，从经典恐怖片《诡丝》到武侠片《剑雨》，能够窥见她个性中的B面。 自2011年结婚后，她逐渐淡出演艺圈。</p>
-<p><strong>而“美容大王”“侠女个性”等，则是她重要的个人魅力标签。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_2627627043a3451da42b3dca0585f9d5@000000_oswg332714oswg1080oswg696_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>大S对于美貌和身材管理近乎偏执，长期维持在42kg。 被嘲“黑肉底”的她，吃凝血剂努力变白，那本《美容大王》也长时期成为90后的青春期变美启蒙指南书，曾在两周内再版7次，总销量突破80万册，为初代爆款 “红酒面膜”带货。 ——倘若出来带货，想必战绩不会比章小蕙差。</p>
-<p><strong>得益于“美容大王”形象，她也颇得减肥美容类品牌偏爱</strong>，为她带来了不少<strong>商业价值</strong>。 据媒体不完全统计，在2019年~2020年，大S代言了超启能恩、浪莎、资生堂、舒化无乳糖牛奶、YAMII弹性胶原蛋白等，此前合作喜乐纤、TISSOT、carefor爱护洗衣液、OLAY 、阿依莲、雅芳、SK2、联想手机等品牌。 今年TKLAB宣布第三年续约。</p>
-<p>大S曾为汪小菲旗下合润麟（北京）食品有限公司的茶饮品牌担任代言人，该公司也曾申请注册“S茶”“茶 S”商标（当前状态显示为商标无效）。</p>
-<p>但大S的内在完全不同于女神形象的外表，自称是“狼”，伯乐王伟忠评价她们： “大S是侠女个性，小S俗辣，在后面跟着姐姐，反正天塌下来有人顶着。 ” 喝止家暴，对抗霸凌，救助流浪动物，冲上去保护妹妹、帮助朋友，<strong>在父亲隐身的家庭，她承担起了战士和保护者的角色</strong>。 这种强大，在多年后赢得了许多女性粉丝的代入和喜爱。</p>
-<h2><strong>大S的“楚门”人生</strong></h2>
-<p>当好女演员只需要演技，但当好女明星，需要足够吸睛的个性和婚恋生活。</p>
-<p>人生如戏，戏如人生，说的便是大S。 四段恋情，两次婚姻，离婚，再婚，官司缠身，<strong>一次次引爆热搜，全网热议，这或许是“天生女明星体质”，但却也极大消耗了个人的身心体力。</strong></p>
-<p><strong>大小S的“话题女王”体质从少女时期延续到了现在</strong>，无论是和韩国艺人酷龙具俊晔的初恋，大S在镜头前的流泪，还是大S与蓝正龙的恋情官宣，另一任绯闻男友周渝民，均被镜头记录，蔡康永将这档节目评价为“台湾版楚门”，至今仍是网友考古胜地。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_34663728dafb424e90f3448aceab1e99@000000_oswg401000oswg716oswg537_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>和昔日“京城四少”之一汪小菲的<strong>世纪婚礼，无疑是大S楚门人生的巅峰</strong>。 内娱最知名的八组，起初便是为了“扒这场婚礼”而建立。 当天“除了新娘新郎全是主角”，变成年度喜剧，到处是赞助广告，张兰戴墨镜现场打鼓，高晓松疯狂宣传自己的新片，吐槽黄晓明婚礼迟到5小时是因为不愿意坐经济舱，刘谦被Ella拉进泳池，张朝阳全程直播，后汪小菲大战王思聪。</p>
-<p>在逐渐从荧屏和银幕淡出的阶段，2018年的真人秀《幸福三重奏第一季》记录了她的婚后生活，“剥虾论”出圈，但当时的身体语言已经让许多观众质疑分居两地的两人“不熟”。 2019年综艺《我们是真正的朋友》，再现 “七仙女”姐妹团。</p>
-<p>离婚大战时，大S名下价值数亿的豪宅及汪小菲“S hotel”归属等引发关注。 10年婚姻，被她形容为“二死一重伤”，为了怀孕，她改变了自己15年的素食饮食结构，曾经爱美到每天只吃一碗水煮菜的大S，增重了几十公斤，形容自己变得“慈祥”。 哮喘、癫痫及心脏问题，产后抑郁等困扰着大S，现在的她，或许想要更平静的生活。</p>
-<p>与汪小菲离婚100多天后，大S宣布与初恋具俊晔再婚。 彼时因疫情无法见面多年没见，通过视频接触了4个月，结婚登记也是先斩后奏才告诉家人。 汪小菲2024年宣布再婚。</p>
-<p>有人仿照《与卡戴珊一家同行》，称之为“与S一家同行”，在这场延续多年的“真人秀”当中，于餐饮赛道再创业的<strong>张兰汪小菲母子，无疑是成功吃到流量红利的一方</strong>。</p>
-<p>几年前的互撕，汪小菲单日连发N条微博，拉了一张Excel表晒出一年给大S支付的费用明细，接连爆料大小S，“别惹我巨蟹座”、“北京孩子”、天价电费、200万床垫等梗接连出圈，麻六记直播间两天场观、销量、销售额翻了十倍，张兰内涵前儿媳一战成名，此后多次把S一家人当作流量密码。</p>
-<p>大S的骤然逝世，<strong>再度引发“婚姻和生育到底给女性带来了什么”等全网女性话题大讨论</strong>。</p>
-<p><strong>另外，大S也是网暴和舆论的牺牲品。</strong>很长一段时间里，她的微博会以“早安~善良的男孩女孩们”作为开头，她的个人简介则写着“万物皆有灵，众生皆平等”。 近几年间，与大小S相关的新闻下多是网民无尽的谩骂，她已经很久没有更新微博了。</p>
-<p>少女时期的她曾经说过： “不管碰到任何困难我都可以走下去，反正不管遇到什么事情大不了就死，我觉得死后的世界是非常美丽的。 ”</p>
-<p>《人物》报道《大S下凡》中提到，她并不惧怕衰老，视死如归，她曾希望不要活太长时间，“我来这个世界上就是快转人生，我这辈子就是要过别人的八辈子，然后过完之后我下辈子就不用再来了。 ”</p>
-<p>如果说演员最知名的“命运角色”，往往和性格本色、人生轨迹互为映照的话，某种程度上，<strong>杉菜即是大S本人，一样的倔强勇敢无畏</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_cbf9b21df3a94644aad7075bbfeed778@000000_oswg889284oswg915oswg1554_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>她的人生足够潇洒肆意，爱恨轰轰烈烈，drama戏剧感十足，两次闪婚，以及在线上和初恋复合，并不介意对方过气艺人的身份，都十分“大S作风”。 如此洒脱的她，应该也并不会介意这突如其来的谢幕，深深悼念徐熙媛，愿她安息，也愿我们从大S的作品和经历，获得些许力量。</p>
-<p><strong>END</strong></p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5NTI2MTQwMA==&amp;mid=2651936096&amp;idx=1&amp;sn=428d8b66d9588fbafb3c358012bcff8c&amp;chksm=8a2886cffe6dbfa35e93ab29e68f1ad4e066c65cb85836bf07c7571e6cddbb11b329474c726e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“娱乐独角兽”（ID：yuledujiaoshou）</a>，作者：Mia，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150973064649475</guid><pubDate>Tue, 04 Feb 2025 14:00:00 +0800</pubDate></item><item><title>新春第一波“开门红”来了！有商家月入数百万，爆卖到断货</title><link>https://36kr.com/p/3150905669589768</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_990b219781a44644a8607169a662da02@000000_oswg67648oswg1080oswg360_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>穿中式年服过春节，成为越来越多人的“新年俗”。</p>
-<p><strong>文</strong>｜黄天然</p>
-<p>新春添新衣辞旧岁，是过年传统习俗。乙巳蛇年来临，这一习俗正在从实用主义转向情绪价值更高的“仪式感消费”。</p>
-<p>用一套新中式或汉服作为“过年战袍”，在聚会、走访亲友时营造喜庆快乐的氛围体验，或是用美丽衣装带来悦己感受，成了年轻人的一种新消费趋势。</p>
-<p>1月初，“新中式成新春战袍顶流”的词条再次上了微博热搜，浏览量高达1.2亿。在今年春晚上，各种新中式礼服也大放异彩，真丝改良旗袍、对襟宋锦小袄、貂绒织金马甲、妆花明制汉服……无论是线上店铺，还是线下市场，新的国风服饰款式层出不穷，占据着2025年“过年战袍”的C位。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_bb4312f708fa43e684494d68c880ee5f@000000_oswg61508oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>春晚开场李子柒身着非遗云锦中式礼服亮相</p>
-<p>从迪奥产品“撞款”马面裙至今，新中式的风已经劲吹了三年，随着中国传统服饰中更多审美元素与文化内涵被挖掘出来，新的消费变化也在显现。在这股热度不减的潮流中，已有商家拿下了今年的第一波“开门红”。</p>
-<p><strong>天下网商</strong></p>
-<p><strong>继马面裙之后，宋锦爆火</strong></p>
-<p>“今年春节逛街会发现一种趋势，过去杭州湖滨步行街上时髦女生的穿搭，少不了香奈儿、巴宝莉等国际大牌，但如今在这些LOGO之外，越来越多女生身上都会有一件工艺考究的中式马甲或外套。”家住杭州的俞珏是一名潮流服装爱好者，她向《天下网商》分享道。</p>
-<p>俞珏的衣柜中，从汉服、旗袍到马面裙，每一类当红潮品她都有，但今年迷上了宋锦。相比棉麻、聚酯纤维等材质，宋锦是全真丝搭配古典纹样的非遗纺织布料，工艺独特、图案精美，可以说是“丝绸中的贵族”。</p>
-<p>最初是看到了明星杨幂的几组新中式宋锦服装街拍，她深度入坑。“布面的纹样和织工可以细细品，面料光泽宜人，老祖宗的智慧真的很了不起。”</p>
-<p>今年春节，俞珏定制了一件对襟马甲，她告诉《天下网商》，一些热门面料一布难求，再加上手工制作的工期，想要做一件宋锦服饰，在手艺精良的老裁缝那里可能得半年起排。目前市场上不同品质的宋锦很多，但在行业内，钱小萍宋锦坊、苏州上久楷的名家宋锦品质和价格绝对领先，最受追捧的“钱小萍”，仅3米窄幅面料售价就要2088元，依然供不应求。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_490a1a20b8eb487cb341404634295579@000000_oswg236046oswg1080oswg1266_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>社交媒体上网友分享新年宋锦穿搭</p>
-<p>杭州主营国风定制的老牌店铺其珍裁缝店，今年店主李云决定春节不打烊，正招聘会手工缝纫双面冬衣的裁缝师傅加入“赶制大军”。她告诉《天下网商》，今年中式服装非常热，尤其是宋锦面料的，订单量翻倍，排到了两个月以后。“粉丝涨了不少，忙到缝纫机都要冒烟了！”</p>
-<p>李云介绍，由于面料和手工缝制工艺成本，其珍裁缝店的宋锦服装冬季款价格都在千元级。最热销的杨幂同款八达晕纹红色上衣售价超过3000元，用的是上久楷的名家面料，也是今年店里来问询最多的款式之一，从年头火到了年尾，特别适合当“新年战衣”，现在预定需要等待2~3个月才可拿货。</p>
-<p>“注重高品质的客户越来越多，一些过去买大牌奢侈品的，现在也来定制中式服装。”李云说，“还有客户要穿到国外去，让中式美学走向世界。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_fd4f68933dcc4e10991e8cf9d01c897e@000000_oswg211129oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>定制店铺内的锦缎面料</p>
-<p>淘宝服饰行业国风服装相关负责人向《天下网商》透露，2024年宋锦的热度有明显的提升，尤其是上半年，消费额同比增长了6倍以上，预计这一热度还将延续到今年。</p>
-<p><strong>天下网商</strong></p>
-<p><strong>上架即售罄，“新年战袍”成断货王</strong></p>
-<p>除了新的产品面料成为消费热点，新中式的持续火热吸引着许多女装商家入局。</p>
-<p>成立10年的设计师品牌XIAOLI筱李，2020年入驻天猫，今年春节是第一年将新中式风格加入到新年服装的设计中。出乎其主理人李筱预料的是，“大家诉求非常大，刚到第一批货，进仓才两三天就售罄了。”</p>
-<p>李筱介绍，这款新中式服装采用的是高饱和正红色配以白色勾边设计，将中国年的氛围感拉满，在款式上采用了中式服装立领及厂字襟的形制，以蝴蝶结系带为点缀，十分适合宴会、出游等日常场景。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_d4338174a5ba4f4a99e90d3a7e0821ca@000000_oswg92067oswg1080oswg1436_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>XIAOLI新中式拜年服</p>
-<p>“往年我们会推出2-3款新年过年服装，今年我们一共做了10款左右，都是小单量的，一批100-200件，有不同的材质，包括毛线、双面呢，客人的反馈很好，手慢了基本就没货了，我们的售罄率在年前预计能达到80%-90%。”李筱向《天下网商》介绍。</p>
-<p>过年前一周时间，XIAOLI筱李家的多款“新年战袍”已经卖断货。在这个新春“小旺季”，店铺里已经跑出了多款销售额超百万元的单品。临近除夕，她正马不停蹄地联系工厂备货和发售渠道，抓住这波短暂的春节流量高峰。</p>
-<p>原本就在中式服装赛道的商家，如汉服、国风服饰等，今年也有不少爆款在节前就被抢空。</p>
-<p>汉服品牌重回汉唐创始人绿珠向《天下网商》介绍，春节期间推出一款“新年战袍”名叫“万柿如意”改良款明制汉服，与蛇年“巳巳如意”的热词正好谐音。“这款上架之后很快就售罄了，我们都来不及补货，因为工厂在年前一周就要放假了。”绿珠说，“今年我们备货也比较谨慎，一般一批在数百件左右，所以很缺货。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_c496c801b99b4ac18554bbb78079a75d@000000_oswg116525oswg750oswg1000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>重回汉唐万柿如意</p>
-<p>另外，重回汉唐在春节期间上线的初春款青绿配色齐胸襦裙“春辰锦”，也很受汉服爱好者的欢迎，既可以作为新年氛围服装，又适合初春出游穿搭，不到1个月已卖出了 1万多套，销售额在300万元左右。</p>
-<p>“从我们品牌2024年的销售情况来看，真正受欢迎的是特别有传统韵味的，比如融入丝路、敦煌色系、唐风纹样等纯正古典元素的汉服，具有古朴的复原感、原汁原味的款式卖得最好。”绿珠说。</p>
-<p>主攻国风女装的新中式品牌初蝉，今年实现了同比两位数的销售额增长。在2024年底上新了一批国风新年款服饰，款式多采用改良旗袍、唐装，大红配色尤其受欢迎，300元-600元的平均客单价也正契合大众市场。《天下网商》发现，不少初蝉的店铺粉丝是在一个月前就加购好了“新年战袍”。在除夕前3天，店铺的热门拜年服基本都显示“售罄”状态，需等待15-30天的预售才能发货。</p>
-<p>新春期间是服装销售的一个“小旺季”，但对于而言商家备货却颇有挑战。在时间段上，属于冬装销售的末尾，如果备货多了担心压货，备货少了担心不够卖，在春节假期产线来不及跟进生产，一般谨慎的卖家多选择小单合作的模式，于是就容易出现爆款“一晚售罄”“一衣难求”的局面。</p>
-<p>而对于消费者而言，要实现“中式战袍自由”，穿上称心如意的衣服过年，还得拼手速，提前“备战”。</p>
-<p><strong>“中式战袍”走红背后 ，年轻人想要“情绪价值”</strong></p>
-<p>在李筱看来，“中式战袍”的热卖是一种过年氛围下的“情绪消费”。</p>
-<p>“我们对‘年服’的设计核心是给客人提供‘情绪价值’，面对一年的生活和工作压力，大家在新年假期其实很需要一些让自己开心起来的东西。一件衣服能给人足够的快乐体验，就像‘多巴胺’一样，同时又有很好的实用性和实穿性，就是我们想实现的。” 李筱告诉《天下网商》。</p>
-<p>“在这其中，新中式的风格未来会一直存在，也会越做越好，因为这是中国人自己的文化。”李筱预计 ，今年XIAOLI可能会在每个季度都做一些新中式的新款式设计，既可以用于日常通勤，又适合聚会仪式感穿搭。</p>
-<p>而中国传统服饰文化中丰富的内涵，也让新中式、汉服等国风服装始终能一年又一年地焕发出新意。</p>
-<p>“从趋势上来看，大众对于国风服装的接受程度，在年节穿着汉服的仪式感是越来越强的。我孩子的同学家长，身边很多亲朋好友，都在今年这个时候来问过年穿什么、什么样的汉服比较好。可见，大家对于在中国传统节日里穿传统服装的需求是越来越强烈的。”重回汉唐创始人绿珠说，“每年新春，人们对中国传统文化认同和归属感，其实是不变的主题。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_a1780dc4264f4d84922b67f57f28aaf1@000000_oswg139137oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>淘宝服饰行业国风服装相关负责人透露，从整体销售情况来看，在新年有针对性地购买中式拜年服已经成为了一种明显的消费趋势，而从今年消费价格段来看，300元-500元的单价是最热门的区间。</p>
-<p>“新中式和汉服在经历了前几年突飞猛进的增长之后，目前已进入稳扎稳打的阶段。在悦己消费叠加对文化传统追崇的需求下，如今人们对于国风服饰的设计、面料等有了更高的要求，也在推动供给侧更多地推出更优质的新品出现。”</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwNTUxNTE0Ng==&amp;mid=2247675255&amp;idx=1&amp;sn=86e7557235e498ca54a450bb0cb12059&amp;chksm=c1a72c20fb9221d0ae9bf65b0665932ed2401f9f95bb94e076bfdbfdaea92b78e8e564f34439&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“天下网商”（ID：txws_txws）</a>，作者：天下网商，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150905669589768</guid><pubDate>Tue, 04 Feb 2025 15:00:00 +0800</pubDate></item><item><title>中国人的“心灵庇护所”，变成了春节印钞机</title><link>https://36kr.com/p/3150475103787523</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文/ 金错刀频道</p>
-<p>春节旅游，不出意外地爆了。</p>
-<p>九寨沟等热门景区发布通知：一直到正月初七，门票已基本售罄。故宫博物院、南京博物院等热门博物馆，更是直到正月初十都没票了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_51f98a2b3c89481a82af734d0ffd625d@000000_oswg183050oswg1080oswg1262_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>由于担心有损游客体验，三亚这两天还建立了“超时排队退票机制”，保证3分钟响应，30分钟预赔付，24小时内核实兑现先行赔付。</p>
-<p>这种情况下，全国或许只有一种旅游，能让人耐着性子地排队，并且抢着掏钱。</p>
-<p>那就是<strong>寺庙游。</strong></p>
-<p>大年初一，北京雍和宫迎来了第一批约4万人的香客。</p>
-<p>他们当中，有不少人吃过年夜饭就早早到此排队，在零下10℃的低温里静候了10个小时，从黑夜到天明。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_9a78c555e4fb47e39c8f62b94e181a57@000000_oswg172427oswg1080oswg670_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>杭州灵隐寺的盛况也不遑多让。除夕夜，当一般人还在家里看春晚的时候，很多人已经在前往灵隐寺的路上了，把附近堵得水泄不通。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_9b11cd24e7504ee3883df73db64cf25e@000000_oswg473737oswg729oswg889_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这些年，“遇事不决，先整玄学”之风大起，全国各地都能见到这样的场景。</p>
-<p>到头来，游客发没发财不知道，寺庙肯定是发财了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_96ad1938eb5241cfbecd1681a3cd7ccf@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p><strong>上班上进不如上香，</strong></p>
-<p><strong>求人求己不如求佛</strong></p>
-<p>三分天注定，七分靠打拼，还有九十分靠求神拜佛。</p>
-<p>这股风气，近几年刮得越来越猛了。</p>
-<p>巨量算数的监测指数显示，在2019 年，“寺庙”在社交平台上还处于籍籍无名的状态。</p>
-<p>直到2023年，或许是因为刚度过了惨痛三年，“寺庙”开始不分老幼、不分地域地火了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_ec921230c85049a79b0310bfdfa4b330@000000_oswg117011oswg720oswg960_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当时数据显示，2023年1月1日至3月16日，“寺庙”的搜索指数和综合指数增长迅速，分别同比增长了586.81%和351.06%。而在这些搜索人群之中，18-30 岁的年轻人从占比不到三分之一增长到了44.9%。</p>
-<p>原本只有中年人爱去的寺庙，如今变成了全体国人的“心灵庇护所”。</p>
-<p>今年春节，寺庙的人气更上一层楼。</p>
-<p>环球影城九曲十八弯的队列，在这几天的普陀山面前只是小巫见大巫。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_ec08a7aa4b654a4b92a7f7208db0850b@000000_oswg144756oswg1080oswg635_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>大年初一，有个在灵隐寺执勤的民警表示：找人的有十二三起，捡到了38张身份证。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_1ac924425cbb4031a7a51ced9f8c71e6@000000_oswg174054oswg1080oswg1306_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>为了让满天神佛感受到自己的诚心，许多人煞费苦心。</p>
-<p>有的人执着于抢头香。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_0737dc0b76434465b97ff11f4c84eac0@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>那些吃过年夜饭、跳过春晚直奔寺庙的人，大多就是为了先人一步上香。</p>
-<p>大概他们也知道，近些年神佛的工作量越来越大，即便是24小时无休也难以完成信徒安排的KPI，所以早点许愿或许更能被神佛看见。</p>
-<p>大多数游客则是尽量早早起床，默默排队。</p>
-<p>早起的人，才有资格上香并进殿跪拜，否则只能隔着无数人头遥望神像，跪在殿外的石板上。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_949179cf602e4a648989257024098b41@000000_oswg289619oswg1080oswg1518_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在队伍里平和地向前蠕动几个小时，人们终于看到了上香的希望。</p>
-<p>但有时，也只是个希望。</p>
-<p>一些寺庙因为香火太过旺盛，为了避免发生意外，给香炉围上了铁栅栏。如果人们想点燃香烛供奉给神佛，可能需要提前锻炼臂力才能将香扔进炉里。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_3e88b7cc616d4a279ebbe54917d82882@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如今在热门寺庙，一个香炉配一个或多个消防员，几乎成了常态。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_310adea0ba554278b68b5e95dff00260@000000_oswg169471oswg1080oswg1294_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>河南的太昊陵，香灰多到更是需要出动铲车才能清理。</p>
-<p>普陀山的子公司吉祥香业，有一年光香火销售收入就有3200万元。</p>
-<p>一天下来，不知道有多少人的新衣服被烫出了洞。即便如此，人们也不敢有怨言，最多说一句破财免灾。</p>
-<p>现在能让年轻人下跪服软并时刻保持平常心的地方，恐怕只有寺庙了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_dfeae55ae6614a84ad3ac50508ec5fee@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p><strong>寺庙卷起来，</strong></p>
-<p><strong>比迪士尼还会拿捏人</strong></p>
-<p>昨天大年初五迎财神，寺庙游又爆发了一波高潮。</p>
-<p>杭州的天下第一财神庙，位于西湖区北高峰山顶。凌晨时分，上香的队伍已经排出去两公里，后到的人找队尾都需要半小时。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_2c1f6aba020b40f8b4a03526cf22522c@000000_oswg94630oswg881oswg1048_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>天亮后，山下更是涌来乌泱泱的游客，携老扶幼，一步一个脚印开始爬山。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_6adc80bd4d0344dcbb28d2a7ae70ce90@000000_oswg270140oswg1080oswg1390_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>同一天，其他供有财神的寺庙也是早早就人满为患，差点挤破庙门。体重低于160斤的安保人员，都没资格参与组成人墙维持秩序。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_086cb804af9a42a692e3a5bc4d4c5859@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>置身人潮里，不禁恍惚：是不是全市的人都来拜财神了？</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_f99b20ad801644e48cf7a0e551f5ac15@000000_oswg146300oswg1080oswg1220_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>拿着几十块的香，许下几十万几百万的心愿，其实只是寻求一个心理安慰。</p>
-<p>这一点，香客自己清楚，寺庙也心知肚明，并且一直投其所好。</p>
-<p>最典型的是法喜寺护身符（香包）、灵隐寺十八籽和雍和宫香灰琉璃手串。</p>
-<p>京东《2024年新品消费趋势报告》显示，十八籽手串同比增速1000%。</p>
-<p>再以雍和宫手串为例，各种颜色、大小、材质、花纹，应有尽有，但还是供不应求。</p>
-<p>雍和宫还给不同颜色的手串，赋予了不同寓意，甚至还应用了马卡龙、半糖紫、樱花粉、象牙白等年轻化配色，打造出一系列佛门潮流单品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_d8d03a4dad5846c0b0eb6717d1163981@000000_oswg191006oswg1080oswg1378_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>人们买的（不对，应该说“请”）最多的手串，也是“多金如意”款。</p>
-<p>但求富贵前程，不问俗世姻缘。</p>
-<p>能不能遇见另一半无所谓，能不能被财神爷看到很重要。虽然被看到的代价不小，但这钱花得毫无怨言，正如网友所说：2000多的项链我看都不敢看，2000多的佛牌串珠我想都不用想，直接拿下。</p>
-<p>除了拜财神、请手串，寺庙里其他和发财相关的元素，人们也会让它变得一目了然。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_7a35b491a6de4a35a3acbd03a12c6bab@000000_oswg255352oswg962oswg1238_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但也不是所有人去寺庙都是为了祈求平安或发财，也有人是为了打卡、探店。</p>
-<p>对于这类人，寺庙也早已拿捏到位。</p>
-<p>吃的方面，有传统斋饭，也有新兴的寺庙火锅。</p>
-<p>杭州灵隐寺的素面，上海玉佛寺的素蟹粉，成都文殊院的仿荤菜……一到饭点，素斋窗口前面大排长龙。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_4446a9e3bcd04995a8de905427505856@000000_oswg63502oswg850oswg372_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>靠一个简单的素斋面，登上大众点评必吃榜，不知让多少餐饮老板意难平。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_4851d9fde6124f7aa351d63f64418aa8@000000_oswg46622oswg854oswg315_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>喝的方面，有寺庙咖啡，也有寺庙奶茶。</p>
-<p>由于太过火爆，有的寺庙还呼吁：请媒体和网红不要再宣传了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_a54331d06e384fe5af5f87a2a339774b@000000_oswg70743oswg777oswg521_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>玩的方面，也有极其年轻化的文创、周边。</p>
-<p>例如法喜寺推出的周边，有萌版佛祖、观音、济公，配上接地气又戳心的文案，比如“脱单天注定，表急表急”等等，反差感拉满。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_816f913969794fa683fadc80fd5311de@000000_oswg256576oswg1080oswg1438_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>寺庙自带的光环和心理暗示，结合还不算差的产品，让所有人抢着掏钱。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_2e30a7daaef24257b1feb00b6cc55ccf@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p><strong>香火旺盛之下，掩盖不住的隐忧</strong></p>
-<p>2022年10月，一款名叫“木鱼”的App横空出世，冲上国内App Store免费总榜第二名。</p>
-<p>后来又出现了一系列应用，比如手机烧香、3D转经筒、3D佛珠。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_d440d917861244c1b9f35940d3e5c9b9@000000_oswg46072oswg851oswg569_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当下的人们无比需要精神力量，让寺庙游和相关生意越来越火。</p>
-<p>在佛教四大名山中，峨嵋山、九华山分别在1997年和2015年成功上市。此外，普陀山、五台山也曾准备申请IPO。</p>
-<p><strong>寺庙生意愈发兴旺，但有时体验却没跟上。</strong></p>
-<p>首当其冲的自然是过于拥挤的游览体验。像雍和宫，几乎要从地铁出站口开始排队，让人绝望。灵隐寺、鸡鸣寺、香积寺等寺庙顶流，在这方面也半斤八两。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_5ec9e48973634dfa9eb618ee1949cf58@000000_oswg236539oswg1080oswg954_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其次是消费体验。很多寺庙原本就是4A级5A级国家旅游景点，光门票就不便宜。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_7d11e703073e4273acbda22c1545925e@000000_oswg134987oswg1080oswg1040_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>有的碰到春节还要涨价，例如上海的静安寺，过年期间票价涨到100元。这还只是初二到十五的门票价格，初一门票则为200元，除夕门票价格更是高达1000元。当然了，为了避讳，他们管门票叫做“香花券”。</p>
-<p>除了门票钱，还有一些法会、认捐、香火、法物，甚至出现“天价香”“天价功德箱”等现象，以及高价的“开光”“祈福”等服务。</p>
-<p>问题在于，花了许多钱，全程却未必有多好的体验。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_1a30057693e14945a382d5cfb88f216c@000000_oswg196411oswg1047oswg857_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过这些问题也并非无解。</p>
-<p>2023年，少林寺方丈释永信在Meta总部，展开了一场“禅宗遇到AI”的主题谈话，曾在网上疯传。</p>
-<p>更早之前，释永信还到访过谷歌、苹果。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_f3fc94c2b4e04938a3734e3e66f097b9@000000_oswg44341oswg811oswg425_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>拥抱世俗的高科技和管理手段，让少林寺的商业化走在了前面。</p>
-<p>许多大型、知名的寺庙也有样学样。</p>
-<p>上海的玉佛寺，在2005年和上海交大合作，成立上海交大玉佛寺MBA课程班，寺院中高级管理人员通通被送去进修。</p>
-<p>2022年7月，灵隐寺的“智慧寺院”上线，功能包括审批统计、游客统计、日接待量、车辆管理、安全预警等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250203/v2_aee67ef5ea4f474a9c75b2dbc350c859@000000_oswg124371oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>寺庙搞数字化，看起来不融洽，但最终能解决许多自身痛点。比如参加活动需要排队、法会牌位需要手写、祈福灯火烛油存在安全隐患、认捐功德无法及时反馈证书。</p>
-<p>有的寺庙，就会在旺季上线智能牌位、智能祈福灯、电子功德箱等，供人积攒赛博功德，缓解线下压力。</p>
-<p>这些虽然只是一小步，但也说明总有办法改变和提升。</p>
-<p>归根结底，寺庙不能光想着如何吸引人来，更要提升服务能力。</p>
-<p><strong>整活能力和服务能力，需要齐头并进才行。</strong></p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzUzNDY0NzQwMQ==&amp;mid=2248102255&amp;idx=1&amp;sn=db15efedfcb45af0d8741f334f048aef&amp;chksm=fbaba730ebdeb18c6f7ce1cac11a0c7a21701012d3c09e435c8c8edc832a19828dd7f22c6234&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金错刀”（ID：ijincuodao）</a>，作者：祥燎，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150475103787523</guid><pubDate>Tue, 04 Feb 2025 16:00:00 +0800</pubDate></item><item><title>中国电视在日本杀疯了</title><link>https://36kr.com/p/3150288715136772</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1080,660" src="https://img.36krcdn.com/hsossms/20250203/v2_2824247c36624eaf81908b773064190e@1465134610_oswg43933oswg1080oswg660_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>中国品牌在又一条赛道里，正在国际市场加速崛起，打得本土品牌措手不及，上演了一次漂亮的时代大反转，呈现了中国品牌成功出海的精彩案例。</p>
-<h2><strong>01 中国电视在日本杀疯了</strong></h2>
-<p>《新品略财经》关注到，近期，据多家国内外媒体报道，一项最新市场调查显示，中国电视品牌占据日本一半市场，引发全球市场关注和热议。</p>
-<p>最先发布这一报道的是《日本经济新闻》，日经中文网1月25日引述日本调查公司BCN的最新调查数据报道称，2024年在日本销售的平板电视中有一半以上都是中国品牌。</p>
-<p>报道还特别指出，这是自2004年以来，中国电视品牌在日本市场占有率首次突破50%大关。</p>
-<p>众所周知，50%的市场占有率已经是一个关键指标，超过这一比例，足以证明中国电视品牌在日本市场有多畅销。</p>
-<p>上述调查显示，去年中国海信集团以41.1%的市场份额领跑日本市场，其中海信从东芝收购的子品牌REGZA占25.4%，其自有品牌占15.7%。</p>
-<p>TCL科技集团则以9.7%的份额紧随其后，市场表现超越了日本本土知名品牌索尼和松下。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,661" src="https://img.36krcdn.com/hsossms/20250203/v2_439050b0b29e459dac7f6bab588fede6@1465134610_oswg72335oswg1080oswg661_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>报道分析称，让日本家庭对智能电视需求激增的一个重要原因是，2020年新冠疫情限制了人们的活动。</p>
-<p>已经耕耘日本市场多年的海信、TCL等以高性价比产品为强项的中国电视制造商，抓住了这一市场机遇，从2020年到2024年，中国企业在日本市场的份额大幅增长，增长了约20个百分点。</p>
-<p>报道引述日本东京千代田区一家电视卖场的日本销售人员的观点称，<strong>日本消费者在购买电视优先日本品牌已经是过去式了，现在越来越少的人坚持只购买日本本土品牌的产品。</strong></p>
-<p>特别值得关注的是，<strong>中国电视品牌赢得了很多日本年轻消费者的青睐。</strong>日本年轻人对中国品牌更熟悉，通常提前通过网络查询产品的性能和价格信息，进店后便直接指明要购买中国品牌的产品。</p>
-<p>英国金融时报中文网也在2月2日用《中国在日本的电视市场抢尽风头》文章标题对这一事件进行了报道，并评论称：<strong>事实证明，低估中国竞争对手的聪明才智是不明智的。</strong></p>
-<p>中国电视在日本畅销，市场占有率超过50%，最近成了国际财经报道的一条焦点新闻。</p>
-<h2><strong>02 一次漂亮的时代大反转</strong></h2>
-<p>众所周知，日本是电子消费品大国和制造强国，松下、索尼、东芝、夏普等企业的电视品牌一直享誉全世界，直至现在，这些日本电视机品牌依然畅销全球，还是高端代表品牌。</p>
-<p>上世纪八十年代，随着中国改革开放浪潮推进，中国经济高速发展，黑白电视机走进中国千家万户。</p>
-<p>当时包括松下、日立、东芝、夏普、索尼、三洋等日本电视品牌纷纷进入中国市场，享受到了中国经济腾飞的时代红利。</p>
-<p>公开资料显示，从1983年开始，中国从日本大量购进家电产品，1984年，进口电视机146.6万台，其中进口彩电118.77万台；1985年，电视机进口量猛增到508.5万台。</p>
-<p>特别是松下黑白电视陪伴了很多80、90后长大，<strong>松下犹如黑白电视机岁月里的伙伴。</strong></p>
-<p>进入彩电时代后，日本电视品牌继续在中国市场畅销多年，在巅峰时期的很长一段时间里，以松下、夏普、三洋为代表的日本企业，几乎垄断了整个中国彩电市场，而那时候的中国本土电视品牌们只有羡慕的份儿。</p>
-<p>随着后来海信、TCL等中国电视品牌发展越来越强大，开始全面进军国际市场，其中当然包括日本市场，而日本的家电及电子产品是全世界最难啃下的市场，因为日本电视品牌实在太强。</p>
-<p><strong>最近几年，中国家电品牌在日本市场越来越受欢迎，在产品研发、设计、技术及服务等各方面不断提升，特别是智能化方面优势突出，越来越成熟。</strong></p>
-<p>据欧睿数据，2017年海信在日本电视市场占有率仅为2.4%，到2021年就提高到12.9%，跃升至第五位，直至到2024年，海信集团以41.1%的市场份额，傲视群雄，风光无限。</p>
-<p><strong>中国电视品牌发力国际市场用两条腿走路，第一条腿是发展自有品牌，第二条腿就是收购。</strong></p>
-<p>中国电视机品牌近二十年来，在国际市场接手和收购了不少国际电视品牌的工厂或者子品牌，较早是在2004年，TCL收购了法国汤姆逊彩电业务。</p>
-<p>2015年之前，松下把三洋电视墨西哥工厂卖给TCL，三洋电机在日本和东南亚的白色家电业务和资产卖给海尔，包括三洋品牌和AQUA品牌。2016年8月，富士康收购夏普。2017年，海信收购了东芝映像解决方案公司（TVS）95%的股权。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,630" src="https://img.36krcdn.com/hsossms/20250203/v2_a1a19548c7bb4b2ba08c9d54d369e094@1465134610_oswg57588oswg1080oswg630_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>最新，中国电视品牌在日本市场畅销，再次展现了中国电视品牌在国际市场的销售吸引力。</p>
-<p>鲜明对比之下，电视在中国市场越来越卖不动了，人们习惯刷短视频、看新闻、看直播，就连现在老年人都不看电视了。</p>
-<p>据洛图科技最新发布的《中国电视市场品牌出货月度追踪》数据，2024年全年，中国电视市场品牌整机出货量为3596万台，同比2023年下降1.6%，刷新了从2010年开始十余年来的中国市场出货量新低。</p>
-<p>但值得欣喜的是，2024年中国电视市场的零售额为1202亿元，同比增长了12.3%。这背后当然有“以旧换新”等销售政策的支持推动。</p>
-<p>现如今，中国电视品牌在日本畅销，市场占有率超过了50%，这和以前那个日本电视品牌垄断中国市场似曾相识，<strong>现在反过来了，上演了一次漂亮的时代大反转。</strong></p>
-<p>中国国内电视机卖不动了，但在国际市场卖得越来越好，犹如：<strong>东方不亮西方亮。</strong></p>
-<h2><strong>03 中国电视畅销日本商业启示录</strong></h2>
-<p>那么，中国电视品牌如今啃下了全球最难啃下的日本电视市场，甚至是市场占有率还超过了50%，必然会引发热议。</p>
-<p><strong>在《新品略财经》看来，中国电视品牌如今畅销日本，的确带来了不少商业启示录，特别是为中国品牌出海带来了不少的商业启示录。</strong></p>
-<p>这些年，中国消费市场都在讲年轻化，年轻人喜欢什么就提供符合年轻人需求的产品，这一点同样适用于国际市场。</p>
-<p>比如在日本家电行业，松下、索尼等品牌都是老牌家电品牌，在品牌年轻化方面虽有成绩，但还是显得有些老古董。</p>
-<p>松下在2021年曾做过一项调查显示，回答“知道松下这个品牌”的20多岁的年轻人仅为53%，比2016年降低了29%。松下、东芝、索尼等品牌的用户绝大多数在40岁以上。</p>
-<p>对比之下，中国电视品牌正在猛攻日本年轻人，年轻化策略很有效。比如，TCL在日本的用户大多数在30岁或以下，占比达到53.6%。海信在日本市场30岁以下的年轻人占比也高达45.8%。</p>
-<p>由此可见，<strong>国际市场消费者也在更新迭代，抓住年轻人是一个很重要的突破口，年轻化策略是万能招，在全世界都通用。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,672" src="https://img.36krcdn.com/hsossms/20250203/v2_bb055714e74f488591ee704fb61f4223@1465134610_oswg47535oswg1080oswg672_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>无论是在哪个国家市场，同一条赛道中，不同的企业品牌，有不同的消费者，这背后关键的一点是，<strong>消费市场多元化，要懂消费者需求，很多消费者都喜欢有性价比的商品，心里都有一个“拼多多”。</strong></p>
-<p>如今中国电视品牌在日本畅销有一个关键原因是，中国电视品牌利用其全球供应链降低成本，推出廉价性能突出和价格亲民的产品，满足了不少消费者的需求。</p>
-<p>据媒体报道，以55英寸电视为例，中国品牌有些价格甚至低于10万日元（约合人民币4681元），与索尼集团旗下的索尼和松下控股等公司的20万日元左右相比，价格优势显而易见。</p>
-<p>中国电视品牌曾经的标签是价廉劣质，而现如今中国电视品牌做到了产品力、价格力、性价比等各方面突出，自然能赢得日本消费者，特别是年轻日本消费者的认可和青睐。</p>
-<p>同时，中国电视品牌也在奋力向上，不断创新，正大举进军尺寸更大、更高端系列产品，进步很明显，正在抢占日本本土高端电视品牌市场份额，也在抢占三星的市场份额。</p>
-<p>中国电视品牌出海在国际化方面做了很多，品牌国际化、产品当地化，在当地做了很多本土化营销，赞助体育赛事，扩大知名度。</p>
-<p>曾有一国外博主做街头采访，居然有当地人以为某中国全球知名电视品牌是自己国家的品牌，某种程度来说，这就是品牌成功国际化。</p>
-<p><strong>更为关键的一点是，发展国际市场需要耐心，静得下心，国际化是一场超级拉力赛和持久战。</strong></p>
-<p>进军和发展国际市场，是成为全球品牌的必经之路，过去是欧美日韩等发达国家企业进军中国市场，现在是中国品牌走出去并崛起，也是国际化。</p>
-<p>发展国际市场需要讲求效率和速度，更需要耐心，静得下心，需要一步一个脚印，稳扎稳打。中国电视品牌进军国际市场已经超过20年，才有了如今的成就，也证明了这一点。</p>
-<p>中国电视品牌发力国际市场，特别是如今啃下了日本市场，很值得点赞，中国电视品牌出海的故事上演了一个精彩商业案例。</p>
-<p><strong>当前中国车企，特别是造车新势力都在纷纷发力国际市场，不妨可以多研究和学习中国电视品牌出海的案例故事。</strong>‍ </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/3Ca-D8ewK5ZY_YDqjaeqNw?token=818223468&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“新品略财经”</a>，作者：吴文武，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3150288715136772</guid><pubDate>Tue, 04 Feb 2025 17:00:00 +0800</pubDate></item><item><title>OpenAI o3-mini被曝大量使用中文推理，全世界AI都要学中国话了？</title><link>https://36kr.com/p/3152807697078787</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>国外网友，一觉醒来，发现o3-mini-high开始用中文思考了。</p>
-<p class="image-wrapper"><img data-img-size-val="877,943" src="https://img.36krcdn.com/hsossms/20250205/v2_d3758b6707d34149b231df7b91da4740@5091053_oswg284883oswg877oswg943_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="869,824" src="https://img.36krcdn.com/hsossms/20250205/v2_4a62aec5eb3f4a0e9ecefc64571ecc1f@5091053_oswg260695oswg869oswg824_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="884,482" src="https://img.36krcdn.com/hsossms/20250205/v2_7b8828b853264e03a6a8a14176da43d9@5091053_oswg134624oswg884oswg482_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>o3-mini-high作为美国最顶尖的模型之一，竟然在没有用户干预的情况下，如此大量地使用中文进行推理。</p>
-<p>如此这般，不禁让网友怀疑，是不是OpenAI在「偷师」中国的DeepSeek模型。</p>
-<p class="image-wrapper"><img data-img-size-val="880,881" src="https://img.36krcdn.com/hsossms/20250205/v2_e238a7c5755e4963b7dbfb01a32fb67c@5091053_oswg258188oswg880oswg881_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更有意思的是，即便用俄语去提问，o3-mini-high也会用中文去思考。</p>
-<p class="image-wrapper"><img data-img-size-val="877,309" src="https://img.36krcdn.com/hsossms/20250205/v2_f737e1f0bc8e44cfb286fb677622324c@5091053_oswg63149oswg877oswg309_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,880" src="https://img.36krcdn.com/hsossms/20250205/v2_c83f579295704f1cb9e0098ec852638f@5091053_oswg374334oswg1080oswg880_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对此，网友纷纷质问起了奥特曼和OpenAI：「o3-mini到底为什么要用中文进行推理」？！</p>
-<p class="image-wrapper"><img data-img-size-val="867,1069" src="https://img.36krcdn.com/hsossms/20250205/v2_16e41624bdb0433a8682e20bfa87b472@5091053_oswg338129oswg867oswg1069_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="869,1001" src="https://img.36krcdn.com/hsossms/20250205/v2_d0b67568cd8e469f814c114fa65f2418@5091053_oswg336744oswg869oswg1001_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="883,651" src="https://img.36krcdn.com/hsossms/20250205/v2_054b858816c749d9999c8ac4bca21ae1@5091053_oswg167729oswg883oswg651_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>网友Annalisa Fernandez则表示，或许中文才是LLM的「灵魂语言」。</p>
-<p class="image-wrapper"><img data-img-size-val="869,271" src="https://img.36krcdn.com/hsossms/20250205/v2_8f478175152942cdb9865594285c5a4b@5091053_oswg49487oswg869oswg271_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>经此争议，下面这张「DeepSeek/OpenAI罗生门」梗图，已经在外网迅速传开了。</p>
-<p class="image-wrapper"><img data-img-size-val="720,850" src="https://img.36krcdn.com/hsossms/20250205/v2_f935de4b7610422e8dcc5c1de08b46a0@5091053_oswg461086oswg720oswg850_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>语言混杂也是老毛病了</strong></h2>
-<p>当然了，这并不是OpenAI的模型第一次发生这种现象。</p>
-<p>早在去年2月份，就有开发者在OpenAI开发者社区上，报道过类似的问题，不过是混合了其他语言。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,487" src="https://img.36krcdn.com/hsossms/20250205/v2_90120105da6c494186484e93e6f0844a@5091053_oswg223353oswg1080oswg487_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,342" src="https://img.36krcdn.com/hsossms/20250205/v2_eda536d0d09e4a9c9666ed968f26bbf5@5091053_oswg192051oswg1080oswg342_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而在推理模型方面，OpenAI o1也存在类似的问题。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,289" src="https://img.36krcdn.com/hsossms/20250205/v2_a9ff1404b24746828166844bb0d8e393@5091053_oswg125652oswg1080oswg289_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>事实上，这种「语言混杂」（language mixing）现象在其他AI模型中也有发现。</p>
-<p>比如，谷歌的Gemini会混杂德语。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,245" src="https://img.36krcdn.com/hsossms/20250205/v2_10a1b66f238549d89bd337fc0c833834@5091053_oswg57776oswg1080oswg245_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>为何会突然口吐中文？</strong></h2>
-<p>那么，究竟是为何才让o3-mini-high在推理过程中口吐中文呢？</p>
-<p>阿尔伯塔大学助理教授、AI研究员Matthew Guzdial提出了一个切中要害的观点：</p>
-<p>「模型并不知道什么是语言，也不知道语言之间有什么不同，因为对它来说这些都只是文本。」</p>
-<p>事实上，模型眼中的语言，和我们理解的完全不同。模型并不直接处理单词，而是处理 tokens。以「fantastic」为例，它可以作为一个完整的token；可以拆成「fan」、「tas」、「tic」三个token；也可以完全拆散，每个字母都是一个token。</p>
-<p>但这种拆分方式也会带来一些误会。很多分词器看到空格就认为是新词的开始，但实际上不是所有语言都用空格分词，比如中文。</p>
-<p>Hugging Face的工程师Tiezhen Wang认同Guzdial的看法，认为推理模型语言的不一致性可能是训练期间建立了某种特殊的关联。</p>
-<p class="image-wrapper"><img data-img-size-val="830,988" src="https://img.36krcdn.com/hsossms/20250205/v2_1d8a77a22f384e8d8e8c088e7af4bc07@5091053_oswg292477oswg830oswg988_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>他通过类比人类的思维过程，阐述了双语能力的深层含义：掌握双语绝非仅仅局限于能够流利使用两种语言，更是一种独特的思维模式。在这种模式下，大脑会依据当下的场景，本能地挑选最为适配的语言。例如，在进行数学运算时，使用中文往往简洁高效，因为每个数字仅需一个音节；而在探讨「无意识偏见」这类概念时，大脑则会自然地切换到英文，这是由于最初接触该概念便是通过英文。</p>
-<p>这种语言切换的过程，恰似程序员在选择编程语言时的自然反应。尽管多数编程语言都具备完成任务的能力，但我们会依据不同需求，选择用Bash编写命令行，使用Python进行机器学习，因为每种语言都有其特定的最佳适用场景。</p>
-<p>「工具的选择需因场合而异」，这一理念对AI训练有着重要启示：让AI接触多种语言，使其能够学习不同文化所蕴含的独特思维方式。这种包容性不仅能让AI更加全面，还能使其更加公平。</p>
-<p>在Reddit相关帖子下，不少网友表达了相似的观点，即不同的语言各有擅长的领域。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,263" src="https://img.36krcdn.com/hsossms/20250205/v2_4b1ad3050dd04e84b02ad76ddb562f2d@5091053_oswg109944oswg1080oswg263_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,246" src="https://img.36krcdn.com/hsossms/20250205/v2_0cdf9943c74e4b8eb45b39d3b571a25a@5091053_oswg118212oswg1080oswg246_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,260" src="https://img.36krcdn.com/hsossms/20250205/v2_41dccff813ff4511bcb46e4a2198c1ed@5091053_oswg98348oswg1080oswg260_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,762" src="https://img.36krcdn.com/hsossms/20250205/v2_62ec242911174ff4aaca55246e2080fa@5091053_oswg366442oswg1080oswg762_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当然，也有另外的推测观点。比如网友Someone Kong分析认为，这可能是因为中文更短，所以会在强化学习中获得更多的奖励。</p>
-<p class="image-wrapper"><img data-img-size-val="874,546" src="https://img.36krcdn.com/hsossms/20250205/v2_e8dc31ad9d6e4b4a8495c127cc0d504d@5091053_oswg116780oswg874oswg546_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此外，正如网友们反复提到的，DeepSeek在论文中对这一现象进行了分析。</p>
-<p>研究团队发现，当强化学习提示词涉及多种语言时，思维链常常出现语言混杂（language mixing）的现象。</p>
-<p>为了减轻语言混杂的问题，DeepSeek在RL训练过程中引入了「语言一致性奖励」，计算方法是CoT中目标语言词汇的比例。</p>
-<p>尽管消融实验表明，这种对齐方式会导致模型性能的轻微下降，但这一奖励符合人类偏好，使模型的输出更加可读。最后，推理任务的准确度和语言一致性奖励直接相加，形成最终的奖励。</p>
-<p>目前，「语言混杂」还亟待解决。</p>
-<p>毕竟DeepSeek-R1也只是针对中文和英文进行了优化，在处理其他语言的查询时， 也可能出现语言混杂问题。</p>
-<p>例如，即使查询是用非英语或非中文的语言提出的，DeepSeek-R1也可能在推理和回答中使用英文。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,412" src="https://img.36krcdn.com/hsossms/20250205/v2_11fdd8b434f9440f9ca77656e66a0fc8@5091053_oswg352591oswg1080oswg412_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">论文链接：https://arxiv.org/pdf/2501.12948</p>
-<p>或许，正如维特根斯坦所言：「语言的界限就是世界的界限」。</p>
-<p class="image-wrapper"><img data-img-size-val="820,431" src="https://img.36krcdn.com/hsossms/20250205/v2_ee3f1a8eab374835acc7233f727e70e5@5091053_oswg302542oswg820oswg431_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>道理是这个道理，但对于那些没学过外语的用户来说，这个推理过程不要也罢！（手动狗头）</p>
-<p>比如网友Gabe在看到这么一长串的中文推理后，甚至开始怀疑：「o3-mini会不会给的都是错误答案。」</p>
-<p class="image-wrapper"><img data-img-size-val="869,1184" src="https://img.36krcdn.com/hsossms/20250205/v2_1d2e5dea81374164bc832024c8096d52@5091053_oswg382743oswg869oswg1184_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>有趣的是，就在事件发酵后不久，奥特曼便在2月3日表示，OpenAI「没有计划」起诉DeepSeek。</p>
-<p>在采访中，奥特曼非常自信地表示，OpenAI可以继续引领世界：</p>
-<blockquote>
-<p>DeepSeek无疑是一个令人印象深刻的模型，但我们相信，我们会继续推动技术前沿，推出更多优秀的产品，所以很高兴有一个新的竞争对手。</p>
-</blockquote>
-<p>值得一提的是，OpenAI本身也面临着多项知识产权侵权指控，主要与模型训练时使用受版权保护的内容有关。</p>
-<p class="image-wrapper"><img data-img-size-val="895,294" src="https://img.36krcdn.com/hsossms/20250205/v2_0f6e31d96fc34eec91444e32a2e375a5@5091053_oswg67927oswg895oswg294_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>参考资料：</strong></p>
-<p>https://www.reddit.com/r/OpenAI/comments/1iflvc8/o3_thinks_in_chinese_for_no_reason_randomly/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/sE4MkBjomzYQ93QV49mejQ" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152807697078787</guid><pubDate>Wed, 05 Feb 2025 07:14:00 +0800</pubDate></item><item><title>史上最强春节档：有多少含金量？</title><link>https://36kr.com/p/3152407888854529</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>随着春节假期进入尾声，2025年春节档的相关数据相继出炉，为低迷了一年的电影市场取得了一个开门红。</p>
-<p>根据国家电影局统计，2025年大年初一，票房及观影人次均超过2021年春节大年初一，创造了新的单日票房和观影人次纪录。另据网络平台最新数据，2025年春节档(1月28日-2月4日)档期总票房(含点映及预售)突破90亿，创造了中国影史春节档总票房新纪录。</p>
-<p>票房数据的重重印证之下，2025年的春节档无愧于“最强春节档”称号。但对于电影市场而言，“最强春节档”的含金量远比票房本身更值得讨论。</p>
-<h2><strong>大IP与爆款续作，成春节档“门槛”</strong></h2>
-<p>2025年春节档的影片阵容几乎可以用一个“大”字来概括。</p>
-<p>题材方面，既有脱胎于金庸武侠IP的《射雕英雄传：侠之大者》，还有源自“封神榜”IP的《封神第二部：战火西岐》（以下简称《封神2》）和《哪吒之魔童闹海》（以下简称《哪吒2》）。</p>
-<p>此外，《唐探1900》《蛟龙行动》两部影片分别为此前爆款电影的续作，而《熊出没·重启未来》的上映则是“熊出没”系列动画电影自2013年以来，第12次“打卡”春节档。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,717" src="https://img.36krcdn.com/hsossms/20250204/v2_8e4f25c701094e4dac65349e7c099ab4@5460397_oswg1181463oswg1080oswg717_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>除了大IP、爆款续作，2025年春节档的影片体量也变大了。</strong>上映的6部电影中除《熊出没·重启未来》外，其余5部影片时长均在2小时以上。其中，《唐探1900》时长为136分钟，《封神2》《哪吒2》时长达到144分钟，《射雕英雄传：侠之大者》与《蛟龙行动》的时长则长达146分钟。而此前据媒体报道，2025年春节档电影平均时长已达137.3分钟，较2024年春节档增加近30分钟。</p>
-<p>作为电影市场一年中最重要的爆发节点，春节档吸引大IP、爆款续作齐聚这点并不稀奇。<strong>但今年春节档的6部影片无论是题材还是类型都各不相同，这导致影片之间并未真正形成直接竞争，堪称“最和谐”春节档。</strong></p>
-<p>例如作为《红海行动》续作的《蛟龙行动》，主打现代战争大场面外加主旋律题材；《射雕英雄传：侠之大者》借助导演徐克的“武侠”招牌和“射雕”IP锁定“金庸迷”；《哪吒2》则是在前作奠定市场口碑的基础上，进一步瞄准了春节档的“合家欢”市场。</p>
-<p><strong>不过，影片之间的直接竞争虽然减弱了，线下排片却成为竞争爆发的核心战场。</strong></p>
-<p>灯塔专业版数据显示，大年初一（1月29日）当天，《哪吒2》《唐探1900》与《封神2》的排片占比相近，分别为23.3%、23.1%、21.2%。但随着票房数据反馈引发的排片调整，到大年初七（2月4日）时，《哪吒》的排片占比已高达49.1%，《唐探1900》的排片占比微涨至24.0%，《封神2》的排片占比则降至8.9%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250204/v2_8d4a86ed03734c518bca50ec356e28ff@5460397_oswg135423oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>头部三甲之间的排片竞争尚且如此激烈，其他排名靠后的电影更加受到排片的限制。</strong>其中，《蛟龙行动》作为《红海行动》的续作，同时也是春节档唯一一部军事动作电影，由于排片占比过低以及黄金场次太少，出品方博纳影业总裁于冬甚至亲自发文力挺宣传电影，同时喊话影院同行多给排片。</p>
-<p>然而，出品方老总的公开喊话并没有影响结果。灯塔专业版数据显示，截至大年初七晚20点15分，《蛟龙行动》的总票房仅为2.88亿元，且从大年初一至初七，其排片占比始终低于8%。</p>
-<p><strong>《蛟龙行动》的票房失利表明，当大IP、爆款续作成为春节档“门槛”，排片、观众口碑成为决定票房归属的核心因素。</strong>而伴随着“史上最强春节档”的票房纪录一同产生的，还有国产电影在内容和运营方面逐渐显现出来的“默契”。</p>
-<h2><strong>电影市场学会“看人下菜”</strong></h2>
-<p>大IP和爆款续作是门槛，2小时以上的影片时长是标配……<strong>“加量不加价”的春节档电影不仅试图用这些摆在明面上的“大动作”让观众们感受到片方的诚意，还在故事情节上谋求“精准输出”，但对内容把控能力的差异又造成了不同的市场反馈。</strong></p>
-<p>例如引发热议的《封神2》，在前期宣传时特别强调了动作戏的亮点，并且把超过2000个特效镜头打造的“神仙打架”剧情当做了宣发重点。但是当观众进了电影院却发现，场面的确有够宏大，但特效质量令人不敢恭维。</p>
-<p>社交媒体上，殷郊的三头六臂特效被调侃是“蓝精灵”，还有网友惊呼“蓝皮红发”的殷郊和自己家的煤气灶“撞款”，魔家四将的特效造型光顾着“大”而缺乏霸气。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250204/v2_fe154270c5294d3bad768d60b1147d2a@5460397_oswg867352oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>还有网友评价，“姜子牙手里拿的怕不是封神榜而是魔戒，闻太师骑着墨麒麟率领魔家四将和殷商大军进攻西岐，拿的是《魔戒》里兽族和人族大战的剧本”。</p>
-<p><strong>除了特效引发的负面评价外，《封神2》混乱的剧情和人物刻画也成为“差评”重灾区——特别是对比第一部积累的好口碑，《封神2》的意外翻车严重暴露出故事本身的缺陷。</strong></p>
-<p>在以“父子情”为故事主线的《封神1》中，虽然主角配角众多且人物关系复杂，但情节环环相扣、叙事有详有略，故事也相对完整。尽管没有大场面和震撼特效给观众带来视觉冲击，但是颜值和身材吸睛的“质子团”以及“纣王和他的哈基米”这些小亮点，在剧情之外也贡献了热门话题。</p>
-<p><strong>然而《封神2》给人的印象是，本应该用来打磨剧情的精力，全用在了耍花活儿上。</strong></p>
-<p>譬如质子团“一哥”姬发，前一秒想要自我牺牲，后一秒又要投降，性格前后反转，不知道的还以为他被“夺舍”。而为了延续质子团的优秀传统，姬发一言不合就脱衣服，白白净净、轮廓分明的肌肉，很难让人相信刚才还在战场上和敌军对垒。</p>
-<p>邓婵玉作为续集中的重要角色，在《封神2》中从原著中作为土行孙妻子的附属地位中剥离出来，被塑造成了独立自主的女性将领。这一处角色改编虽然被一部分“封神迷”吐槽为“魔改”，但拿上大女主剧本的邓婵玉的确成为《封神2》中仅有的亮点之一。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250204/v2_a41116f29d3543e8aedd39ea086c1459@5460397_oswg776221oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>然而当观众在邓婵玉身上看到女性意识的觉醒，感受到这个角色所诠释的当代女性主义主题时，剧情发展又莫名其妙地给她安排上了与姬发之间的“感情戏”。</p>
-<p><strong>此外，《封神2》里的配角也成为了配合剧情发展的“工具人”。</strong>魔家四将能够操纵神通广大的法器，但是不会说人话，跟随大部队打仗，别人骑马，他们在后面跑得气喘吁吁。</p>
-<p>西岐的官员也集体“智商掉线”，殷商大军压境的时候主要负责说“要是少主在就好了”；姬发在前线浪完回到西岐的时候，他们起承转合式地集体喊道“少主回来了”，然后转头问姜子牙“老神仙怎么办”；暂时击退了殷商大军，不想着如何继续迎战，竟然带头开起了篝火晚会，然后发展感情线、立flag。这种离奇的叙事逻辑，就是让姬发在现场包个饺子，都不会有人觉得奇怪。</p>
-<p>对于《封神2》乱到离谱的叙事逻辑，有网友猜测，可能是因为出品方认为在第一部积累的好口碑基础上，将大场面作为影片亮点能够吸引足够多的观众在春节期间走进电影院。再加上用邓婵玉的大女主戏份承接第一部“质子团”积累的女性观众群体，因此在春节收割一波票房不成问题。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,719" src="https://img.36krcdn.com/hsossms/20250204/v2_6021537b9a22474b978e4db1d49a1ec6@5460397_oswg925330oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>这种策略就像是出品方一早判定观众会为哪些素材买单，然后通过不断做加法完成了一道“预制菜”。但观众判断一部电影好不好看，首先还是会从故事本身出发。</strong>因此，角色塑造和叙事逻辑上的缺陷，直接造成《封神2》的口碑迅速崩塌，而持续一周多的春节档也为影片口碑发酵引导观众用脚投票留出了足够多的时间。</p>
-<h2><strong>市场增长，不能只有“史上最强”</strong></h2>
-<p>除了《封神2》，《唐探1900》的身上也有一丝“预制”的痕迹。</p>
-<p>作为“唐探系列”的前传，以及定位春节档合家欢市场的悬疑喜剧，《唐探1900》结合探案、搞笑元素的基础上，又叠加了主旋律立意，以排华运动等真实历史事件为依托，通过在探案情节中讲述华人的苦难、抗争故事，引发观众共鸣，堪称是今年春节档的“缝合怪”。</p>
-<p><strong>但是仔细观察会发现，探案作为悬疑类电影的核心，在《唐探1900》中并不突出，案件情节的推理太过普通，幕后大反派的揭秘也缺少反转和惊喜。此外，《唐探1900》也试图融合“中医+侦探” “满清高手”“革命斗士”等标签化元素为影片增加看点，但元素多而杂导致“什么都讲了，但一个没讲透”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,566" src="https://img.36krcdn.com/hsossms/20250204/v2_5c9ac906838d4d708122328c994f8295@5460397_oswg539138oswg1080oswg566_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>特别是作为全篇亮点的立意部分，喜剧角色突然义正言辞对着镜头讲大道理的情节，虽然合理但也削弱了拔高立意的效果，再加上“落后就要挨打”“华人团结”一类的空洞说教，让主题升华略显生硬。</p>
-<p><strong>但是对比《封神2》的口碑翻车，《唐探1900》虽然也是混合了多种元素的“预制菜”，却因为喜剧电影的讨巧定位，提高了观众容忍这些不合理的阈值。</strong></p>
-<p>所以在片中，当岳云鹏饰演的费洋古前一秒还在拷打革命斗士，后一秒又切换成“救中国”的立场时，观众们或许会因为反转过于突然而觉得不合理，但是很快会被搞笑剧情掩盖过去。《唐探1900》截至2月4日累计超过22亿元的票房也说明，观众对这部喜剧电影还是比较认可的。</p>
-<p>作为创造票房成绩的重要节点，春节档出现各种“预制菜”式的电影无可厚非，但在看到通过元素堆砌收割市场的可行性之外，更需要找出实现长期增长的解决方案。</p>
-<p>据金融界报道，2024年上映的票房TOP10电影中，前五名为《热辣滚烫》《飞驰人生2》《抓娃娃》《第二十条》《熊出没：逆转时空》，除了《抓娃娃》是暑期档影片，其他四部均是春节档影片。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,659" src="https://img.36krcdn.com/hsossms/20250204/v2_b3a855cf53d04888bc766b811840c42e@5460397_oswg610950oswg1080oswg659_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>略带夸张地说，电影市场已经出现靠春节档“一年不开张，开张吃一年”的现象。</strong>而在2024年，包括“哈利波特”系列、《泰坦尼克号》《这个杀手不太冷》等超过30部影片的重映，也表明电影市场的头部大片数量相对缺乏。</p>
-<p>供给紧缺的市场环境下，是不是增加供应就能够实现增长？答案或许没有那么简单。<strong>近几年，电影市场之所以遭遇观众流失，除了因为好电影供应不足外，还与电影票的连年涨价有关。</strong></p>
-<p>网络平台数据显示，2017年至2019年平均票价为35元，2021年至2022年平均票价为37.8元，2023年平均票价为40.8元，2024年平均票价为42.1元。而在暑期档、春节档等热门档期，三四线城市电影院一张电影票50元起步已是家常便饭。</p>
-<p>春节作为传统消费旺季，消费者花50元买张票看大片尚且可以接受，但在非重要节日花40元看一场电影就显得不是那么有必要，特别是看一次电影往往还伴随着交通、用餐等其他消费成本。</p>
-<p><strong>由此来看，降低消费者的综合观影成本是让观众重新走进电影院的一个思路。</strong>例如推出综合折扣更低的会员卡，联动餐饮品牌推出观影折扣券，又或者是联合线上平台补贴推出特别时段的观影券。而《封神2》在上映期间，就联动安阳市殷墟博物馆、殷墟遗址博物苑、红旗渠等13家国有景区，推出持电影票根免景区首道门票的活动。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,695" src="https://img.36krcdn.com/hsossms/20250204/v2_7530832aca3a44d581aa1d7a80d98501@5460397_oswg862089oswg1080oswg695_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从另一个角度来看，提高消费者的观影获得感也是一个可行方案。而在2024年，已有部分院线向粉丝群体开放了演唱会包场服务，让粉丝在电影院集体观看线上演唱会。不过这种围绕“粉丝经济”扩大经营规模的方式，并不能解决电影市场观众流失的核心问题，归根结底还是要提升影片质量，用内容吸引观众回归，让消费者为内容买单。</p>
-<p>事实上，2025年“最强春节档”的爆发，仍然是因为优质大片带动了市场的整体增长。例如《哪吒2》爆火之后，部分城市还出现开卖“台阶票”“无座票”的现象。</p>
-<p>这也表明，虽然观众对影片的要求越来越高，但观众始终愿意为好电影付费，而好的口碑也能够带来更多排片从而创造更多票房。对于中国电影而言，一个“史上最强春节档”虽然并不能代表市场整体开始回暖，但也为电影行业走向良性竞争取得了一个不错的开端。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/DpkPs8KqiFPhHvXO1QWBGQ" rel="noopener noreferrer nofollow" target="_blank">“惊蛰研究所”</a>，作者：惊蛰研究所文娱组 夏夏，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152407888854529</guid><pubDate>Wed, 05 Feb 2025 07:18:00 +0800</pubDate></item><item><title>一趟能省上万元，年轻人春节涌向这个“平替”市场</title><link>https://36kr.com/p/3152319787489792</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2025年春节，随着除夕正式纳入法定节假日，假期延长至8天，人们的出游热情被彻底点燃。然而，热门目的地如哈尔滨、三亚等地的较高旅游成本，以及对景区人山人海的担忧，改变了很多人的想法。</p>
-<p>在理性消费的大趋势下，更多的都市白领已经不愿花重金去热门目的地打卡，“<strong>平替旅游</strong>”成为他们追求安心度假的精神家园。</p>
-<p>当然，所谓的平替，意味着需要学会“花小钱办大事”或者“花合适的钱享受更好的体验”。在小红书等平台，今年春节旅游的“平替目的地”话题在近一个月都保持高热度，其中相关的笔记超过了200万条。</p>
-<p>“平替旅游”消费的走热，本质上是年轻人旅游消费观念的变化，不再追逐热门、跟风潮流，而是将自我的体验、个性化的探索、更有性价比的选择等新的决策因素放在了首位。那么今年春节假期，涌现出哪些出游新趋势？</p>
-<h2><strong>滑雪400元一日，“冰雪游”平替出炉</strong></h2>
-<p>“亚冬会+冬季游+冰雪大世界升级”，哈尔滨依然是今年春节期间冰雪旅游的顶流。</p>
-<p>携程浙江分公司副总经理杨展望向《天下网商》透露：“从平台目前的预订情况看，2024年12月哈尔滨整体旅游订单量同比上一年年增长约10%，这是在2023年高基数基础上实现的增长。从我们的数据看，哈尔滨仍是今年冬季旅游的顶流，而且亚冬会举办以及针对日韩单方面免签政策的实施，预计还会吸引不少国外游客前往哈尔滨。”</p>
-<p>如今的市场也在佐证他的判断——据最新数据，2025年春节期间，哈尔滨的旅游预订订单同比增长约30%，热度依旧不减。杭州某旅行社地导游小谢表示：“之前冰雪大世界排队的新闻都上了热搜，所以影响人们出行决策的最大问题，其实是怕游客太多，担心体验感不足。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_739880f322344a44971cf37714c921c1@000000_oswg154910oswg1080oswg632_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>因此，新疆阿勒泰、吉林长春等地成功成为春节冰雪游最受欢迎的“平替”目的地，其中，春节期间的阿勒泰旅游热度同比上涨超60%。</p>
-<p>更为难得的是，阿勒泰的酒店价格在春节期间上涨幅度仅20%左右，携程显示，除夕当晚本地五钻酒店价位是400元至500元，部分靠近将军山滑雪场的酒店、民宿价格也没有超过500元。</p>
-<p>阿勒泰作为滑雪游的目的地，配套也在跟进，尤其推出了超高性价比的滑雪套餐——春节期间，阿勒泰推出了滑雪门票、酒店和餐饮方面的“冰雪旅游消费券”，甚至还有滑雪教练服务价格优惠，因此在滑雪硬消费方面，每人每天的花费可以控制在400元左右。</p>
-<p>长春的南湖公园免费开放，游客参与遛冰、冰滑梯等项目，体验成本基本也在几十元。</p>
-<p>哈尔滨冰雪大世界的消费，今年其门票今年为325元/人，如果加上人气项目大滑梯和摩天轮的快速通票，则要800元/人。对比之下，阿勒泰和长春是更加经济且能避开“人从众”的选择。在类似的冰雪游场景下，许多年轻消费者倾向于人群聚集度更低、体验感更强、配套服务近年已跟上的新兴目的地。</p>
-<h2><strong>不去三亚，“避寒游”海南、广西火了</strong></h2>
-<p>和冰雪游相对的，是以海南、广西等地区为代表的避寒游，圈内也有“候鸟游”的说法。</p>
-<p>不过，三亚酒店、民宿、租车等旅游配套在春节期间大幅涨价，几乎是历年的一个常态了。正逢春节假期，雅高旗下的索菲特、莱佛士，万豪旗下的丽思卡尔顿、JW万豪，凯悦旗下的海棠湾君悦等高端酒店一晚的房价基本都在3000元至6000元。</p>
-<p>作为新兴的避寒游目的地，冬季气候良好的昆明、南宁在春节假期仍保持了一个亲民价格，因此旅游热度也在快速上升。90后上海白领张珣今年春节带全家人去昆明度假，<strong>全家四大一小的旅行总开支预计可以控制在2万元内，对比之前去三亚过春节最起码能省下1万元。</strong></p>
-<p>“虽然海南三亚、云南腾冲及西双版纳这类目的地气候可能更暖和，但春节基本都涨价，所以我们选择昆明，不仅当地交通更方便，而且也有温泉、植物园、动物园等项目，住个比较好的酒店，楼下就有餐厅可以订年夜饭，配套齐全，出行也方便，适合我们这类上有老、下有小的人出行。”</p>
-<p>目前，上海飞往昆明、南宁的机票价格在春节期间都在1500元左右，而国内主流OTA（在线旅行平台）的数据显示，南宁本地城市度假型酒店价格在400元左右，万豪旗下的高端品牌豪华精选的春节价格也在1100元上下；昆明酒店的选择也很多，一般度假酒店的价格每晚约350元，皇冠假日、万达嘉华等高端酒店在除夕当晚的价格也不到1100元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_f2755ed84c154f13bdbc3e8017450c84@000000_oswg201998oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>出境游：越南、日本热度上升</strong></h2>
-<p>从出境游来看，今年的泰国春节游热度有些遇冷。</p>
-<p>过去几年春节期间，泰国的机票和酒店预订量往往都会大幅增长，往返机票甚至会飙升至5000元以上；然而今年的机票价格涨幅却并不明显，据票务网站信息，在不含行李额的情况下，春节假期前后的上海往返曼谷机票为1400元左右，而上海往返普吉岛的机票也在2000元左右，完全低于往年的涨价幅度。</p>
-<p>背后原因一方面来源于游客对泰国的安全性的担忧。有部分OTA平台和旅游产品销售代理向《天下网商》反馈，游客的酒店、行程订单大多集中在普吉岛、苏梅岛等区域，不少游客特地选择不经过曼谷等中心城市，直接赴海岛度假。另一方面，旅游成本高，在一些OTA平台上，曼谷的五钻级酒店价格在春节期间大多仍在1200人民币/晚左右，而热门海岛的住宿和餐饮服务更是因为游客集中度提高，反而有明显的价格上涨。</p>
-<p>因此出境游方面，今年春节催生出两个“平替”泰国的目的地。</p>
-<p>一个是主打性价比的越南。作为东南亚的新兴旅游目的地，越南春节期间的热度也在快速上升：尤其是芽庄、岘港等成熟目的地，当地的旅游配套并不差，知名旅游搜索引擎KAYAK平台显示，芽庄酒店价格在春节期间平均为600元-1000元人民币/晚，低于泰国普吉岛、苏梅岛等目的地。</p>
-<p>部分OTA平台因此趁热打铁，瞄准越南旅游人群，推出了春节期间相对更具性价比的平替版旅游套餐，比如从杭州出发，包含机票和酒店的6天5晚打包产品，人均价格在4000元左右，泰国海岛类产品则主要在5000元至7000元。</p>
-<p>此外，越南的签证政策也较为宽松，越南国家旅游局今年为了接住这波外溢流量，还在多个旅游热门目的地为春节期间前往的中国游客提供购物折扣和文化体验活动。目前，多个越南芽庄和岘港酒店针对中国度假游客，推出了“春节套餐”，权益包括免费升级房型、赠送当地特色早餐和免费（或高折扣）SPA服务。</p>
-<p>春节出境游另一个热门目的地日本，则是因为签证政策、消费经济、文化活动等，吸引许多购物游、滑雪游客的关注。去哪儿网统计显示，截至1月3日平台2025年春节期间前往日本的机票预订量同比增长了2.3倍，热门目的地为东京、大阪、札幌、名古屋和福冈，客源地Top5分别为上海、北京、广州、成都和深圳。</p>
-<p>应对春节期间的出游流量，国内各大航司近期相继开通或复航日本航线。2024年12月初，吉祥航空北京至名古屋航线在经历两个月的停飞后，终于再次复航；之后随着北海道滑雪季来临，首都航空执飞的北京大兴至日本札幌航线正式启航；2025年1月26日，中国国际航空恢复重庆往返东京的直飞客运航线；2月3日，海南航空开通海口至东京（成田）的国际航线。</p>
-<p>与航线开通相对应的，是载客率的上升。以重仓中日航线的春秋航空为例，据部分媒体报道，该航司春节期间广州飞大阪航线基本收满，飞福冈的航线上座率也在七成左右，且持续保持增长，其中2月6日前日本航线整体收客已超八成。</p>
-<h2><strong>“真金白银”消费券，春节再度拉动出游意愿</strong></h2>
-<p>随着旅游市场的逐渐成熟，越来越多的游客开始选择小众目的地，以避开热门景点的拥挤。</p>
-<p>而降低人们的旅游成本，依然是刺激消费者做出决策的重要因素。2025年春节，各地政府和电商平台纷纷推出文旅消费券，以刺激旅游消费，提升游客的出行体验。这些消费券不仅覆盖了热门目的地，也广泛应用于“平替”目的地，为游客提供了更多的实惠。</p>
-<p>其中，广东、河南主推酒店、景点门票、旅游线路的折扣，广东为消费者提供了最高减200元，河南则推出了“满900-300”“满600-200”等多种线上预订减免政策。此外据《天下网商》统计，厦门、杭州、宁波、盐城、琼海等十多个城市，也都在春节期间提供了“真金白银”的消费券，通过降低出游成本刺激消费。</p>
-<p>据中国旅行社协会发布的《2025春节旅游消费趋势报告》，文旅消费券的使用率在春节期间达到了70%以上，直接带动了当地旅游收入的增长，比如广西北海通过文旅消费券的发放，春节期间旅游收入同比增长约40%；新疆阿勒泰地区通过冰雪旅游消费券的发放，旅游收入同比增长约35%。</p>
-<p>性价比路线已然刮进了旅游行业——这或许也代表，孵化“平替目的地”将是一个趋势，一个春节城市经济的新增长点。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwNTUxNTE0Ng==&amp;mid=2247675266&amp;idx=1&amp;sn=f8dacd91b3dcc8719cbf7fc52fc35a16&amp;chksm=c1ee40b17074a433c2cbf3804a9f33305151b1fb5e8743363e1f4515a9b922ca68aeb7348bd5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“天下网商”（ID：txws_txws）</a>，作者：叶晨，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152319787489792</guid><pubDate>Wed, 05 Feb 2025 07:21:00 +0800</pubDate></item><item><title>特朗普取消800美元商品免税，撂倒一批“低价卖家”</title><link>https://36kr.com/p/3152246601440002</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>当地时间2月1日，美国总统特朗普签署行政令，取消了美国对<strong>“价值低于800美元”</strong>的小额商品的“最低限度”<strong>关税豁免</strong>。</p>
-<p>获悉该消息之后，一批卖家惊呼“我的生意可能要黄了”。</p>
-<p>一批亚马逊卖家（自发货+部分海外仓本土发货）、独立站卖家，都将经历“成本飙升”到“模式转型”的周期，而以“低价驱动”的电商平台Temu也将遭受重击，一定程度缓解持续几年的白热化价格战。</p>
-<h2><strong>01.美国为何取消“800美元最低限度”关税豁免？</strong></h2>
-<p>美国“最低限度”（de minimis）关税豁免条款，自1930年代就已存在。</p>
-<p>2016年，时任总统奥巴马曾签署法案，将美国国民海外进口物品的免税额，从原来的200美元提高至800美元。</p>
-<p>该法案实施后，美国的进口量暴增，<strong>UPS、FedEx持续爆单。</strong>从2012到2020年，美国小额商品进口额价值，<strong>从4000万美元飙升至670亿美元以上</strong>，而在2024财年，“最低限度”货物数量更是上升至<strong>超过13.6亿件。</strong></p>
-<p>因此，这一法案也被称为“进入美国的方便之门”。</p>
-<p>美国保守派自然无法容忍这一“方便之门”持续洞开。2022年1月，美国众议员 Earl Blumenauer提出《进口安全与公平法》，旨在防止包括部分国家利用免税政策，以最低进口门槛进入美国。</p>
-<p>该法案因各种原因，未能立即落地。如今，奉行“美国优先”原则的特朗普重返白宫，快速签署了行政令，取消了这一关税豁免，<strong>砰的一声关闭了“方便之门”。</strong></p>
-<p>包括美国媒体在内的许多媒体报道，<strong>来自中国的小额商品大量涌入，</strong>是取消豁免的最大原因之一。</p>
-<p>跨境电商卖家从中国发往美国的小包商品，包括鞋服、配饰、3C数码、家居用品，单个包裹的价值通常都低于800美元，<strong>多年来持续享受“最低限度关税豁免”</strong>。据数据统计，中国出口到美国的商品， 超10%都利用了800美金的最低免税额政策进行避税。</p>
-<h2><strong>02.一批跨境卖家的生意可能要黄了</strong></h2>
-<p>关税豁免被取消后，一批卖家将受到实质影响。</p>
-<p>这批卖家销售的商品货值往往较低，经常使用快递或是小包渠道单票清关，得益于“关税豁免”，他们的商品抵达美国市场之后，<strong>依然能够以“击穿地板”的低价，压到一大片竞争对手。</strong></p>
-<p>最低关税豁免取消之后，这批卖家成本暴增，将失去竞争优势。</p>
-<p>一些业内人士认为，受到影响的主要是自发货的卖家，<strong>而海外仓发货的卖家几乎不会受影响，</strong>因为他们的商品 是以B2B模式批量发到美国的，在进入海关时已经交过税了。</p>
-<p>实际上，依然有一批海外仓发货的卖家会受到影响，因为这些卖家为了降低成本，<strong>经常将一批货物拆成小包分票，以蚂蚁搬家的碎片化模式，</strong>持续进入美国，以实现“800美金最低关税豁免”。</p>
-<p>许多跨境物流公司足够贴心，将货物处理成不同的收货人，<strong>且选择一些相近的地址来收货，以达到避税目的</strong>。</p>
-<p>据业内人士介绍，Temu也经常采用这一方法，达到降低成本的目的，最终在美国市场以惊爆眼球的低价，大杀四方，所向披靡。</p>
-<p>“最低限度关税豁免”取消后，许多卖家不再享受免税待遇，不得不面对现在的10%-15%的平均税率，即使低申报，也要多出5%-8%的税金成本，这无疑对他们来说是一个打击。</p>
-<p>除了亚马逊自发货卖家，约80%独立站卖家大量使用直邮小包的模式来发货。因此，该豁免取消后， 一批独立站卖家也将陷入困境。</p>
-<p><strong>Temu，也将承受持续的阵痛。</strong></p>
-<p>不过，Temu很早就开始做了准备，在2024年力推半托管，就是为了应对这一冲击，<strong>不过，目前Temu的情况还不太乐观。</strong>花旗分析师的一份报告预测，Temu的本地仓库计划只占整体业务的一小部分，到2024年底，本地仓库的商品交易总额仅为美国交易额仅贡献20%左右。</p>
-<p>近日，Temu一位招商经理称，Temu美国站将会继续加强从全托管切量到半托管。</p>
-<h2><strong>03.价格战稍退潮，海外仓将是标配</strong></h2>
-<p>亚马逊自发货卖家（包括低价商城HUAL的卖家）不再享受关税豁免，Temu持续切量到半托管之后，价格优势将受到很大程度的抑制，这在一定程度会缓解持续几年的白热化价格战，对于跨境电商行业的可持续健康发展，有一定的好处。</p>
-<p>同时，跨境电商物流和仓储模式将发生重大变化。预计未来三年，<strong>中国跨境电商企业在美国设立的海外仓的数量将持续增加。</strong></p>
-<p>不过，“海外仓备货”模式（如亚马逊FBA）成本也将持续增加，大约比直邮高35%-50%，除了要提前支付关税，需提前备货，资金占用周期大约延长30-60天。</p>
-<p>这将在很大程度上提高做跨境电商的门槛，<strong>淘汰一批以往通过蚂蚁搬家的形式打游击战的中小卖家，</strong>而拥有一定资金实力以及品牌声量的卖家，未来将占据更多市场份额。总体来说，整个跨境电商行业，将经历一个“成本飙升-模式转型-市场出清”的周期，从粗放的“低价+铺货”模式转型到精细的“资金+品牌”的模式。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU2NzgwNjM1MQ==&amp;mid=2247520831&amp;idx=1&amp;sn=2391c01371242f98123b4937ee00f563&amp;chksm=fd36d2e8c74668dd2701c794fdab9d4fe3a5fb3cbf4a12284e9bf2976cf030ad2101f9de7489&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“蓝海亿观网”（ID：egainnews）</a>，作者：蓝海亿观，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152246601440002</guid><pubDate>Wed, 05 Feb 2025 07:25:00 +0800</pubDate></item><item><title>3年15款闪耀CES的“明星”产品，如今都塌房了</title><link>https://36kr.com/p/3152217740679936</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 05 Feb 2025 08:00:25 +0800</lastBuildDate><pubDate>Wed, 05 Feb 2025 08:00:25 +0800</pubDate><item><title>3年15款闪耀CES的“明星”产品，如今都塌房了</title><link>https://36kr.com/p/3152217740679936</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <blockquote>
 <p>网红短暂，但赛道长红。</p>
 </blockquote>
@@ -548,4 +40,622 @@
 <p>回顾往年，历年CES都涌现了一批“明星”产品，但遗憾的是，很多爆款产品昙花一现，“过了初一，却未能撑过十五”，逐渐消失在了历史长河中。</p>
 <p>创新永无止境，今年CES上不仅出现了“百镜大战”，同时又涌现了一批爆火的AI宠物玩具、机器人等产品，希望这些产品能长红一段时间，为消费者带来更好的产品体验。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5NTI1MDEyNA==&amp;mid=2652721050&amp;idx=1&amp;sn=a821658d8ab8ddccfda2b340ea74a815&amp;chksm=8a578582509cba364196cecaed039dc2122ec50ec14ae586f2bc6311155197d5979cd5151595&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“亿欧网”（ID：i-yiou）</a>，作者：王圆磊，编辑：刘欢，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152217740679936</guid><pubDate>Wed, 05 Feb 2025 07:27:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152217740679936</guid><pubDate>Wed, 05 Feb 2025 07:27:00 +0800</pubDate></item><item><title>第一波利用DeepSeek搞钱的人出现了</title><link>https://36kr.com/p/3152166001728008</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>DeepSeek爆火后，教你怎么靠它年入百万的各种课程随之而来。</p>
+<p>这两天，三言注意到在社交平台、电商以及一些知识付费平台上，出现很多打着“利用DeepSeek赚钱”名号的课程，还有一些挂着各种教授、行业专家名号的人开直播专门讲授DeepSeek知识。</p>
+<p>那么，这些课程是否如其需宣传的那样，真能让每个人随便成为百万富翁吗？</p>
+<h2><strong>各式各样的课程充斥平台</strong></h2>
+<p>在各社交平台，随便就能刷到各种各样的DeepSeek使用课程。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_86a3b85c86ab4e2c8e50bb9e4112c26c@000000_oswg251760oswg1080oswg1941_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_d621e990a3fe4d71b95392aa4f322d1f@000000_oswg257342oswg1015oswg1732_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这类课程视频，有免费分享如何操作、使用DeepSeek的；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_cae3f3c27cba4d139339ecc94d3086f8@000000_oswg256238oswg1080oswg1841_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_edd2ec13dd4d46f1b40eec95b64aa10a@000000_oswg323665oswg1080oswg1861_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>也有需要付费购买的线上课程，平均售价绝大部分在30元左右，也有少数课程价格高达近600元。</p>
+<p>笔者简单浏览了下上面的教学课程，大部分内容都围绕着DeepSeek操作教学，包括如何注册、如何输入提示词、使用技巧；</p>
+<p>还有的就是针对程序员等职业比较专业的课程教学。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_24371260c9c34508a7e663244ae5282c@000000_oswg121387oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>例如这个名为“DeepSeek大模型实战课+智能体人工智能程序员快速入门课”的课程，宣传是由一位计算机专业硕士、曾担任上市公司CTO的AI大模型专家讲授。</p>
+<p>课程售价99元，主要讲授DeepSeek AI agent开发原理、本地部署等内容。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_03996e3f242c4e22a86d1aac072764f9@000000_oswg43862oswg605oswg634_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>还有一门名为“DeepSeek+小红书电商玩法”的课，售价高达599元。不过，商品描述中却显示这门课针对的是利用DeepSeek做海外电商的，包括“美国版小红书”如何注册、如何利用DeepSeek做数字人、或者文案创作。</p>
+<p>除了直接提供DeepSeek教学、技巧分享的视频、线上课程内容外，很多荐股博主也在利用DeepSeek宣传。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_c2cfff58a5954cb5a4bfadbb6a03d3c7@000000_oswg188161oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>笔者就刷到不少直播间，看上去像是在介绍DeepSeek模型，实际上是分析其爆火后对相关股票价格影响，类似分析“DeepSeek概念股”。他们会引导网友点右下角领取福利（概念股相关资料），有的需要付钱以及加平台外的联系方式。</p>
+<p>比如一个直播间，博主就在仔细分析DeepSeek的各个合作伙伴，明里暗里暗示DeepSeek的火热也会对合作伙伴股价造成影响。</p>
+<p>这名博主表示，24年GPT大火的时候，相关供应商、合作伙伴股价走势上涨（注：此处博主并未明说涨，但是其用笔在相关公司的上涨K线图上做出上涨手势），之后他进一步指出，如今DeepSeek走红，“历史不会完全一样，但是会惊人相似”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_82ae4242b56d4d2cbea5f960f6aecc85@000000_oswg85034oswg1080oswg681_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_1e279eabf2d84569bc7625843bd82d11@000000_oswg166490oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这种传递“焦虑”的直播间比比皆是。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_ff350ca421f8431da475ec79c0650f9d@000000_oswg289291oswg1080oswg2336_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在电商平台上，也在售卖各种各样的DeepSeek使用教程，不过售价并不算贵，均价在20元左右。</p>
+<h2><strong>还有人宣传DeepSeek“日进斗金”</strong>‍‍‍‍</h2>
+<p>如果说社交平台上关于DeepSeek的一些课程还属于“正常教学”范畴，那么在图文平台上的一些自媒体，宣传方式则“非常离谱”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_0c22763b6528498e9e1663ccb3908dce@000000_oswg77037oswg750oswg820_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>比如上面的几篇文章，标题非常吸睛：</p>
+<p>如何利用DeepSeek日进斗金、DeepSeek：你的AI打工仔，躺着也能把钱赚；利用DeepSeek快速搞钱十大方法介绍……</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_7fea5c61882f40ecafbc6a6ffa522b6b@000000_oswg74838oswg1080oswg1940_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_616e30078e4f47c7b3588417b0ce35ba@000000_oswg95297oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>还有知识付费平台上，很多博主也以资深AI领域专家的身份，建立自己的付费内容分享圈。他们会定期在平台上分享包括DeepSeek在内的AI相关内容，想要了解就必须付费。</p>
+<p><strong>效果如何？</strong></p>
+<p>这些宣传DeepSeek能够助人日进斗金的内容，是不是骗子呢？</p>
+<p>在题为《普通人如何利用Deepseek日进斗金？》的文章中，介绍了“5大赛道”：</p>
+<p>1 利用DeepSeek批量制造“职场逆袭”剧本，做短剧视频；</p>
+<p>2 利用DeepSeek日产100篇推文，做公众号运营；</p>
+<p>3 用DeepSeek生成特定类别文章，运营公众号；</p>
+<p>4 收割“AI焦虑税”，做AI培训；</p>
+<p>5 做“AI工具二道贩子”，搭建DeepSeek镜像站，按次付费</p>
+<p>先不说这5个赛道含金量多高，光第四条就着实令笔者“绷不住”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_aa135ee4e67b4cd4afe8d401ededa555@000000_oswg124127oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这篇文章更是直言不讳的要大家去刻意制造焦虑，以此卖课； 还有竟然教大家用DeepSeek生成各种标题党文章，然后诱导读者分享换取流量，甚至还“贴心”的给出了防封号办法。</p>
+<p>再来看一篇《“DeepSeek：你的AI打工仔，躺着也能把钱赚！”》文章，看看怎么躺着挣钱。</p>
+<p>这篇文章把DeepSeek形容成“AI印钞机”，然后给出了三个“躺赚模式”。</p>
+<p>一、利用DeepSeek代写文案，然后给客户提供代写服务；</p>
+<p>二、做知识付费博主，利用DeepSeek生成课程大纲、讲义，然后卖课；</p>
+<p>三、自媒体运营，利用DeepSeek生成文章标题、内容，做自媒体。</p>
+<h2><strong>本质上为了引流到私域</strong>‍‍‍‍</h2>
+<p>上面这些所谓传授DeepSeek赚钱大法的，本质上是为了将读者引到私域，再通过其他方式赚钱。</p>
+<p>例如某自媒体博主，先发表一篇“DeepSeek入门到精通”的教学性质文章，内容则是提供DeepSeek基础功能介绍，使用前景探讨。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_29b493f5f422447090ccf409710967ea@000000_oswg252376oswg1080oswg2340_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而，文章目的并非只是单纯分享内容，而是在文末给出了付费社群链接入口，需要支付299元加入博主建立的社群交流。而这个付费交流群宣传上能够提升AI相关的底层能力，摆脱“AI小白”标签等。</p>
+<p>其他“教你赚钱”的文章也是一个目的，都会要求读者加群引流。</p>
+<p>笔者也尝试加了几个上面博主自媒体二维码，但截至目前仅一位通过申请。这名博主上来就将笔者拉进一个只有10个人名为“投资私享群”的群，群公告称每日会分享研报、外刊、报纸及热门资讯等。该博主告诉笔者，这个群不仅有AI相关内容讨论，也会有各行各业各种信息分享。</p>
+<h2><strong>谨慎甄别，不要盲信</strong>‍‍‍‍</h2>
+<p>每次有新产品、新风口出现，这类课程就立刻涌现。</p>
+<p>一方面他们刻意制造焦虑，让人们担心自己跟不上时代从而错过机会；另一方面也是利用部份人的“贪婪心”，画一张能够一夜暴富的大饼，实则准备割韭菜。</p>
+<p>当然了，这种课程并不是全都是为了“割韭菜”而生，因此要学会甄别“割韭菜课程”。</p>
+<p>那些打着“助你日进斗金”的教程，十有八九都是“大忽悠”。</p>
+<p>比如上面几篇文章中所谓的“赚钱赛道”，其实本质上压根没有证明DeepSeek的模型能够赚钱，仅仅只是告诉读者一种工具的使用方法，而这种工具怎么赚钱其实一点都没说。</p>
+<p>拿几篇文章中都提到的利用DeepSeek代写文案做自媒体赚钱的模式举例，运营图文自媒体还是短视频自媒体是否能够赚钱，文案内容确实重要，但是由DeepSeek创作的文案是否一定赚钱并不一定。</p>
+<p>DeepSeek的模型只是帮助人类提高生产力，本质上它还是工具而已。所以宣传DeepSeek在各种赛道上“无脑赚钱”基本都是“割韭菜”。</p>
+<p>但另一方面，在一些知识付费平台上，一些付费圈子也确实传播相关行业知识。</p>
+<p>笔者在某平台上花费99元加入了一个讨论AIGC内容的圈子，虽然这名博主也会分享一些“小白级别”的DeepSeek使用教程，但也会分享很多专业性较强的AI知识。</p>
+<p>总的来说，这些课程要不要买，取决于用户具体需求。</p>
+<p>如果只是想了解一些基础使用方式，比如如何向AI提问、提示词怎么写，这类问题压根不需要花钱买课去学；可以看些免费的教程，甚至可以直接询问DeepSeek，大模型自己也会告知答案。</p>
+<p>但如果需要进行一些专业性较强的操作，例如涉及到编写程序等，那么则可以通过买课进行深度学习。</p>
+<p>最近《DeepSeek从入门到精通》的pdf已经在社群流传，如果不是因为春节假期，一些行动力强的人早就出书了。出版社马上上班了，相信有关DeepSeek的各种书籍会涌现出来。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU2ODcwMDY2NA==&amp;mid=2247564526&amp;idx=1&amp;sn=2e02f43eb401f17d550f7494e5bedbd4&amp;chksm=fddc6baa937d798906de983001c70133276072c91d54c553e6efd204226e2f00e28bca6618f9&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三言财经”（ID：sycaijing）</a>，作者：DorAemon，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152166001728008</guid><pubDate>Wed, 05 Feb 2025 07:31:00 +0800</pubDate></item><item><title>2025头号网红城市，藏在广东角落</title><link>https://36kr.com/p/3152092529138180</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>不想在家过年的北方人，春节都去了哪里？</p>
+<p>去泰国？年前王星的案件还是历历在目，心惊胆战，不敢去。</p>
+<p>去三亚？作为“避寒圣地”三亚肯定挤满了人，物价飞涨，去不起。</p>
+<p>不过，就算不在家过年，北方年轻人也要找一个<strong>年味儿够浓</strong>的地方。</p>
+<p>于是，他们在今年瞄准了广东最东边的一隅：<strong>潮汕。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_7eed1a87a143425fb2365b954c7f64f3@000000_oswg1159154oswg800oswg718_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>“潮汕”只是一个地域称呼，其中包含了潮州、汕头、揭阳等地级市。</p>
+<p>在春节前，北方人对潮汕的印象无非就是各大商场里的潮汕牛肉火锅，有稍微了解深一点的，也知道这里发达的宗族文化。</p>
+<p>尽管潮汕走出过李嘉诚、马化腾等商界大腕，但潮汕的存在感在今年春节才达到它应该在的水平。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_e2c380eb9ab94a2aad36eb205abdacbb@000000_oswg239722oswg803oswg290_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>春节假期前三天，潮汕文旅订单猛增51%，关于“潮汕酒店”的搜索量更是暴增600%，平时百元左右的连锁旅店，价格甚至飙升至数千元。</p>
+<p>潮汕一家饭馆的老板统计了一下，春节期间，他接待的客人中有一大半都是外地游客。</p>
+<p>去不了潮汕的人，也没忘记在家里赛博旅游，就在除夕几天间，“英歌舞”和“潮汕春节”的搜索量同比上涨了215%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_06ee71b9869a429b9899ee13cb68fcaf@000000_oswg267949oswg1080oswg1528_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>潮汕大热，让人莫名想起了去年的尔滨和前年的淄博。</p>
+<p>但潮汕的爆火，却给中国的“网红城市”们指了一条新路。</p>
+<h2><strong>01 不看春晚的广东人，拿捏北方高坚果</strong></h2>
+<p>春晚第二天，网上出现一组有趣的数据。</p>
+<p>东北地区的春晚收视率以41.64%一骑绝尘；华北地区则以34.61%位居第二。</p>
+<p>而不管是哪一年，广东、广西、海南三省的春晚收视率都是固定的全国最低，今年也不例外，只有19.6%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_d7e0196dbb3e4622bf2b3f175fd0e3b8@000000_oswg151812oswg640oswg332_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>之前，人们可能觉得春晚上太多的二人转和相声让广东人一点认同感都没有。</p>
+<p>而今年，到了潮汕的北方人才发现，本地人不看春晚的原因很简单：本地民俗活动太有意思了，有这个谁还看春晚啊！</p>
+<p>今年春节，潮汕被人称为“中国年味最浓的地方”。</p>
+<p>得益于独特的宗族文化，潮汕地区保留的民俗活动又多又完整，让除夕夜只知道放鞭炮的北方孩子们感受一次国内的“文化震撼”。</p>
+<p>其中今年潮汕最火的有两个项目。</p>
+<p>潮汕英歌舞，一种结合了南方戏剧、传统武术，而且一出手就是36人起步的大型“战舞”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_fa574ce1187a4a7eb6aa1faa9f952c6f@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>今年英歌舞首次登上春晚，这也是不少北方人对英歌舞的第一印象。</p>
+<p>当然从电视里看到，远远没有在面前表演来得震撼。</p>
+<p>起初，游客对英歌舞的印象可能只是“潮汕版的秧歌”，但在真正看到节奏铿锵，又舞枪弄棒的英歌舞后，才发现什么早茶WWE，都是老祖宗玩剩下的。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_fdd85e77cf2f45eb946d5c9323f1865b@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了英歌舞，舞狮也是人群关注的焦点。</p>
+<p>尽管全国人对舞狮并不陌生，但当舞狮舞者们在面前披上狮子装扮，在狭窄的小巷子里飞檐走壁时，才真正感受到舞狮的冲击力。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_eadfdf3a6524472c83fced51dc34e7bc@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其实，潮汕春节民俗之所以爆火，还是让北方游客体验了一把现实文化和刻板印象的反差感。</p>
+<p>过去，潮汕在人们的印象中无非就是美食、宗族、商人辈出的广东小城，似乎所有标签都跳不了“温文儒雅”四个字。</p>
+<p>而在人们亲眼看到英歌舞和舞狮之后，才发现在潮汕温文尔雅的外表之下，藏着一颗武德充沛的心脏。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_b82a2d5d74904a7b882c79722dc9d376@000000_oswg1391049oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了顶流英歌舞和舞龙舞狮外，潮汕的“线下春晚”，项目多到让各地的春晚汗颜。</p>
+<p>从腊月二十三小年迎灶神开始，潮汕地区就会开始延续半个多月之久的狂欢式庆典。</p>
+<p>比如每村每镇都会有自己的“拜老爷”和“游神”活动，不少人都会抬着各路神仙走街串巷，其中还不乏所有中国人都很熟悉的韩愈等历史人物。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_070eb6d396794950bc6e5f03e5dcd7dd@000000_oswg1373245oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>养猪的农户则会把自家的大肥猪宰杀后和其余二师兄们来一场“赛大猪”，换着花样地决出谁家的猪又肥又壮。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_1cec5bd4309549f99a964d93a073a6b7@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>春节假期下来，本地人认认真真狂欢，游客们热热闹闹围观，潮汕仿佛是一幅活着的“春节绘卷”，无数游客在经历过后，脑子里只剩下满满的“Culture Shock”。</p>
+<p>对潮汕人来说，过年是一年中最重要的狂欢和祭典，所有人都有的忙，所有人都有的参与。</p>
+<p>而对于外地人来说，这不比岳云鹏的相声有趣多了？</p>
+<h2><strong>02 潮汕能火，蓄谋已久</strong></h2>
+<p>潮汕其实早就火了。</p>
+<p>从几年前起，潮汕就一直都是热门的春节旅游目的地，但直到今年，潮汕才算是彻底火成了顶流。</p>
+<p>潮汕的爆火，其实就是本地民俗文化的爆火。</p>
+<p>中国旅行社协会联合途牛旅游网发布的《2025春节旅游消费趋势报告》显示，非遗民俗文化、非遗手工等元素成了春节期间最受欢迎的旅游目的地。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_f26b5d73465246d4a96b999fb4e3666e@000000_oswg286088oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而说到非遗项目，潮汕本身就是一座金矿，前面提到过的英歌舞、舞狮，以及满地的祠堂、屋顶上的嵌瓷等，都是闪闪发光的黄金。</p>
+<p>不过，在这个酒香也要好好吆喝的年代，潮汕为了让自己的文化走出本地，也花了不少工夫。</p>
+<p>但与通过春晚和电视节目强势输出的北方地区民俗不同，潮汕地区的文化输出，可谓步步为营。</p>
+<p><strong>潮汕文化输出的第一步是美食输出。</strong></p>
+<p>与天水带火了麻辣烫，淄博带火了卷饼烤肉不同，潮汕的流量基础，是靠着全国各地的潮汕牛肉火锅打下来的。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_0e488db37f07440cb6fd1f8d6605e413@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>早在潮汕大红大紫之前，潮汕牛肉火锅就已经在当地政府的助推下，在全国各地四处开花。</p>
+<p>有道是美食是文化的载体，而在美食遍地的潮汕，用牛肉火锅做文化输出则更是手到擒来。</p>
+<p>为了推广牛肉火锅，潮汕地区的市政府们早早就制定了潮州牛肉火锅的团体标准，并且对走出去的本土品牌大力扶持，在汕头，“潮汕牛肉火锅”早就成了当地非遗项目。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_b511800b79fa485aa08c2034d0dfda66@000000_oswg855848oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在尝过了各地的“折扣版”潮汕牛肉火锅后，尝一口正宗的，一直都是广大吃货的心中念想。</p>
+<p>光冲着这一口新鲜牛肉，潮汕就足够吸引游客，而到了潮汕后，才发现除了牛肉火锅，潮汕还有早茶、鱼饭、生腌、卤鹅等等美食，根本吃不过来。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_1add49f3961b4d1288e84ecc70d1ab2c@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2023年10月，潮汕成功入驻联合国认证的“世界美食之都”名单，成为全国第六个获得此殊荣的城市。</p>
+<p>而面对贪嘴的吃货游客们，<strong>潮汕地区留住他们的第二步，就是打造民俗游乐场。</strong></p>
+<p>在汕头，今年举办的民俗活动就多达3000多场。</p>
+<p>其中，英歌舞、拜老爷、舞龙舞狮和粤剧等非遗表演自然不在少数，而烟花秀、无人机等网红娱乐业没落下。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_ec9d7d204c8643c5847107f109efbe38@000000_oswg1132224oswg830oswg553_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>就在今年大年初二，汕头准备了将近5000架无人机进行表演，一度在短视频平台刷屏；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_525e3ea33a5e4975bd4ec439ab0667f5@000000_oswg273501oswg640oswg455_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此外，汕头还进行了持续30分钟、近10万发烟花的超级烟花秀，让游客和本地人都大呼过瘾。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_e83891e933334a7a867ace211373f9e7@000000_oswg317068oswg1080oswg1531_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为了准备这些，汕头是实打实地烧掉了将近1000多万，可谓花了大价钱，但收获的却远远不止这些。</p>
+<p>与其余网红城市不同的是，潮汕的爆火，并没有让本地人感到“陌生”。</p>
+<p>尽管突然的爆火让潮汕人满为患，住宿价格飞涨，有人吐槽“拜自家老爷还得排队”。</p>
+<p>但潮汕知道，自己真正的宝藏，从来都不是杵在那里的自然景观，而是热热闹闹过年的本地人。</p>
+<p>让本地人玩好，才能让文化感染更多人。</p>
+<h2><strong>03 土味小城，重新定义“年味儿”</strong></h2>
+<p>现在的年味儿，算是越来越淡了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_bb4455b110a443d49e8f11dc76c68a2b@000000_oswg1299334oswg1021oswg574_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>有人说，年味儿是禁放鞭炮之后消失的，也有人认为，是现在亲戚之间的关系越来越远。</p>
+<p>但如今过年越来越累、越来越程式化，似乎成了所有人的共识。</p>
+<p>不想墨守成规的年轻人，开始离开家乡“反向过年”。</p>
+<p>过去，过年旅行其实和普通节假日出游一样，找个没去过的地方好好度假。</p>
+<p>这就有了大量的“南方小土豆”奔向哈尔滨，而三亚则挤满了冻怕了的北方人。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_c6295494fde4498f9636d3863042eaee@000000_oswg122324oswg800oswg551_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>尽管远离亲戚和老家的繁文缛节让人很是惬意，但丢失的年味儿还是回不来。</p>
+<p>于是乎，年轻人们开始在异乡寻找熟悉而又陌生的年味儿。</p>
+<p>今年广东潮汕、福建泉州、云南普洱等南方小城在春节期间爆火，正是因为保存完好的民俗，带来了满满的年味儿。</p>
+<p>“广东人真的太会过年了”成了不少北方人对广东的新印象。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_631dfc49fd4f4f0caa56d3048dc2cb82@000000_oswg1090222oswg830oswg554_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其实，游客们对潮汕春节风俗的追捧，并不仅仅是因为独特文化带来的文化冲击，而是整个城市对传统和民俗的敬畏与尊重。</p>
+<p>别看英歌在潮汕地区传承数百年，但成为“网红”也就是近几年的事儿。</p>
+<p>不管是英歌舞还是舞狮，走红其实多亏了几位小朋友。</p>
+<p>比如“英歌小女孩”庄恩琪，因为和路边的英歌队大方互动而走红网络，一跃成为“英歌代言人”；</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_7e1bb9e38e0447d29acdd3c7b8b5aa38@000000_oswg1148005oswg1018oswg746_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而揭阳市的舞狮小女孩林熙悦，也因为和路过的舞狮队一段短暂的互动，成功让自己获得了登上春晚舞台的机会。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_b016fe073d3040e9adee97039a1d2f84@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>新奇的当地文化吸引了游客们的眼球，但这些文化的传承者们，才真正让潮汕民俗打动人心。</p>
+<p>相比起陌生的文化习俗，传承文化习俗的能力，才是深埋每个中国人心底的“年味儿”。</p>
+<p>一个有趣的现象是，不少游客慕名来到潮汕观看英歌，却发现自己很“赶巧”地错过了每一场表演。</p>
+<p>而潮汕人对此如此解释：英歌是跳给老爷（先祖）们看的，不是给游客看的。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_febe7210adfb4ec9ba6fd91258969159@000000_oswg1089840oswg830oswg554_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>潮汕们的爆火，也给新一批的网红城市打了个样。</p>
+<p>过去想要成为网红城市，要么像哈尔滨一样长线规划、大笔投入，要么就得等一个《黑神话》那样的意外之喜，让外界认识到城市的魅力。</p>
+<p>但新的一批网红城市，却紧紧抓住了“春节”这一节日，把它打造成了对外展示本地民俗的窗口。</p>
+<p>原因很简单，春节不光是为了游客打造的节日，也是所有中国人都要庆祝的节日，普天同庆的氛围，很容易消解过于刻意的商业感。</p>
+<p>尽管南北方过年习俗有着不少差别，但是对于团聚的庆祝，对于来年的祈福，对祖先神祇的祭祀，却刻在所有人的DNA里。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_1cb4fac53acd47788c8b142b9f91d6aa@000000_oswg1091358oswg1000oswg580_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">“甘肃版”英歌——社火</p>
+<p>而对于潮汕来说，只要能保证英歌一如既往地跳起来，游神一如既往地走起来，就足以让自己的“年味儿”感染更多的游客。</p>
+<p><strong>让文化传承起来，就是城市最好的名片。</strong></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzUzNDY0NzQwMQ==&amp;mid=2248102425&amp;idx=1&amp;sn=95514f19c6623a5e6e0044b91fc2e917&amp;chksm=fb8db5768827a3986f051d036826a1b617f2a1191564086dd991cbdd253218d0bfc4b77b670b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金错刀”（ID：ijincuodao）</a>，作者：宸希，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152092529138180</guid><pubDate>Wed, 05 Feb 2025 07:37:00 +0800</pubDate></item><item><title>《哪吒2》领跑，2025年春节档票房创新高</title><link>https://36kr.com/p/3152012084861700</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2025年春节档，再次刷新中国电影市场纪录，也让低迷的电影市场看到了曙光。 </p>
+<p>猫眼专业版数据统计，2025年1月28日-2月4日上午8时，2025年春节档票房总收入（含服务费，下同）为86.19亿元，该数据已超2024年春节档80.16亿元的票房收入，再创历史新高。 </p>
+<p>图：近年来春节档票房收入</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_3e87f8839fda4d86b3475060f1f35b49@000000_oswg127408oswg402oswg789_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（注：2025年春节档数据统计时间为1月28日-2月4日上午8时）数据来源：猫眼专业版 </p>
+<p>2025年春节档电影中，《哪吒之魔童闹海》（下称《哪吒2》）一枝独秀。截至2月4日上午8时，1月29日（大年初一）首映的六部电影累计票房均超2亿元。其中，《哪吒2》以超42.18亿元的票房，领跑春节档，《唐探1900》《封神第二部：战火西岐》以21.07亿元票房、9.61亿元票房，分居第二、第三位。 </p>
+<p>值得注意的是，根据猫眼专业版数据，上映仅六日，《哪吒2》综合票房已冲至39.69亿元，远超中国内地电影票房总榜前三的《长津湖》《战狼2》《你好，李焕英》同期数据。上映六日，上述三个影片的累计票房分别为25.06亿元、15.63亿元、27.29亿元。 </p>
+<p>“五年前，那个脚踏风火轮的魔童少年，点燃了大家心中对国漫的热爱与期望。五年后，这位不羁少年再次归来，续写了属于他的热血神话篇章，看到了一群中国热血动漫人，造就属于中国动漫的辉煌。”有影迷观看《哪吒2》感叹。 </p>
+<p>火爆的2025年春节档电影中，谁是赢家？ </p>
+<p><strong>《财经》梳理A股上市公司公告发现，2025年春节档六部主力电影中，涉及光线传媒（300251.SZ）、万达电影（002739.SZ）、幸福蓝海（300528.SZ）、北京文化（000802.SZ）、中国电影（600977.SH）等公司。</strong></p>
+<p>有券商表示，优质供给驱动下，2025年观影需求和电影票房有望修复，建议关注2025年贺岁、春节档重点影片的出品方以及院线、票务公司。 </p>
+<p>“基于2025春节档良好的票房表现，一季度院线板块业绩可期，也为全年的票房表现打下较好的基础。”国金证券表示，建议关注主投《哪吒2》的光线传媒、主投《唐探1900》且参投《熊出没·重启未来》的万达电影，以及院线龙头横店影视等。 </p>
+<h2><strong>1 总票房再创新高</strong></h2>
+<p>继2024年春节档电影总票房突破80亿元后，2025年春节档总票房已超86亿元，再创历史新高。 </p>
+<p>2025年1月29日，春节档票房战正式拉开序幕，共有《哪吒2》《唐探1900》《封神第二部：战火西岐》《射雕英雄传：侠之大者》《熊出没·重启未来》《蛟龙行动》六部电影首映。 </p>
+<p>上映首日，除了《蛟龙行动》，其余五部电影综合票房均超亿元。其中，《哪吒2》以4.87亿元的综合票房位居榜首，《唐探1900》《封神第二部：战火西岐》分别以4.66亿元、3.83亿元的票房分居二、三位。 </p>
+<p>猫眼专业版数据统计，2025年大年初一（1月29日）票房总收入为18.07亿元，相对于2024年大年初一（2024年2月10日）的13.47亿元收入，同比增幅超三成。 </p>
+<p>随着时间推进，春节档票房收入持续增长。 </p>
+<p>猫眼专业版数据统计，2025年春节档票房收入合计约86.19亿元（截至2月4日上午8时，下同），相对于2024年2月10日-2月17日的80.15亿元，同比增长约7.54%。 </p>
+<p>2024年春节档开始之际，即2024年2月10日，共计有《飞驰人生2》《热辣滚烫》《熊出没：逆转时空》《第二十条》《八戒之天蓬下界》《黄貔：天降财神猫》六部电影上映。当日，《飞驰人生2》《热辣滚烫》《熊出没·逆转时空》《第二十条》综合票房收入均超亿元，分别为4.24亿元、4.18亿元、2.34亿元、1.96亿元。 </p>
+<p><strong>根据猫眼专业版数据，2025年春节档、2024年春节档、2021年春节档票房总收入，分别为86.19亿元、80.16亿元、78.42亿元，分居2011年以来春节档前三位。</strong></p>
+<p>“2025年春节档电影虽然数量少，但均为国产IP(知识产权)电影。”银河证券表示，此次春节档票房的亮眼表现与观众对这些IP的高度认可密切相关，国产电影的IP品牌效应已初步显现。 </p>
+<p>“2024年春节档受益更长的假期，档期票房超过2021年的历史记录，超过80亿元，同比增长超18%。”有券商分析，展望2025年春节，由于同样有较往年更长的假期，加上系列化大IP的强供给，看好档期票房创新高。 </p>
+<p>万达电影在公告中表示，2025年影片供给端持续回暖，开年多部重量级影片定档春节档，有望提振观影需求，推动开年票房再创佳绩。 </p>
+<h2><strong>2 《哪吒2》持续领跑</strong></h2>
+<p>凭借持续高企的票房收入，《哪吒2》无疑是2025年春节档电影的最大赢家。 </p>
+<p>2025年1月29日，《哪吒2》上映首日以26.9%的票房占比，位居首位，《唐探1900》《封神第二部：战火西岐》票房占比分别为25.7%、21.2%，分居第二、第三位。当日，上述三部影片排片占比均超两成，分别为23.2%、23%、21.1%，较为接近。 </p>
+<p>随后几日，《哪吒2》的排片占比、票房占比快速提升，相对于其他影片的优势愈发显著。 </p>
+<p><strong>1月29日（大年初一）-2月3日（大年初六），《哪吒2》排片占比从23.2%持续升至48%，该影片的日综合票房收入从4.87亿元升至8.4亿元，票房占比亦从超两成大幅提升至近七成。该影片也是同期六部主力春节档电影中，上座率持续超五成的唯一一部影片。</strong></p>
+<p>“从特效和剧情来看，《哪吒2》相对于《哪吒之魔童降世》（《哪吒1》）更进一步，没让苦等五年的影迷失望。”安徽一位观众对《财经》表示。其大年初二（1月30日）晚上在所在县城影院看了该电影，买票时只有第一排两边有位置，没想到县城影院还如此火爆。 </p>
+<p>与《哪吒2》节节攀升的数据不同，其他春节档影片后续表现则相对偏弱。同期，《唐探1900》排片占比均超两成，较为稳定；《封神第二部：战火西岐》排片占比由21.1%降至9.1%，票房占比由超两成降至4.3%；《射雕英雄传：侠之大者》的排片占比和票房占比，分别由16%、14.3%，降至4.3%、1.8%。 </p>
+<p>截至2月4日上午8时，上述六部影片中，《哪吒2》当日综合票房为2.48亿元，排片占比、票房占比分别升至49.8%、73.9%；《唐探1900》综合票房为0.45亿元，排片占比、票房占比分别为23.9%、13.4%；其余四部电影的排片占比、票房占比均为个位数。 </p>
+<p>从首日票房数据来看，《哪吒2》以4.87亿元的数据位居中国内地影史首日票房榜第五位，《唐人街探案3》《长津湖之水门桥》《捉妖计2》《复仇者联盟4：终局之战》，分居前四位。 </p>
+<p>图：中国内地电影首日票房榜</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_bca13992d82e4a58b68e9dcbbdbd1fc9@000000_oswg257112oswg597oswg1162_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">数据来源：猫眼专业版 </p>
+<p>《哪吒》系列影片上市，均有不俗表现。截至2025年2月2日，作为《哪吒2》的前身，《哪吒1》以50.35亿元的票房收入，位居中国内地电影票房总榜第四位，《长津湖》《战狼2》《你好，李焕英》分居前三位。 </p>
+<p>而上映仅七天的《哪吒2》，已冲进中国内地电影票房总榜前十。截至2月4日上午8时，《哪吒2》总票房为42.18亿元，位居中国内地电影票房总榜第九位。 </p>
+<p class="image-wrapper"><img data-img-size-val="525,1031" src="https://img.36krcdn.com/hsossms/20250204/v2_5269a33d2d6341c3bd133ed253daa32f@000000_oswg243167oswg525oswg1031_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">数据来源：猫眼专业版。截止日期，2025年2月4日上午8时。 </p>
+<h2><strong>3 背后上市公司谁最受益？</strong></h2>
+<p>作为《哪吒2》的主投方和发行方，光线传媒无疑是2025年春节档电影主要受益者之一。 </p>
+<p>光线传媒有五大主营业务，分别为电影业务、电视剧/网剧业务、动漫业务、艺人经纪及内容相关业务、产业投资业务。根据公司2024年三季报，公司动漫业务中，《小倩》处于择机待映阶段，《哪吒2》《大鱼海棠2》《西游记之大圣闹天宫》《姜子牙2》等动画电影项目的创作正在各自环节中稳步推进。 </p>
+<p>2024年前三季度，光线传媒营业收入同比增长53.37%至14.42亿元，归母净利润同比增长25.08%至4.61亿元。 </p>
+<p>经过多年的积累和成长，光线传媒动画电影的生产能力持续提高，产能逐渐释放。根据光线传媒2023年报，公司拥有彩条屋和光线动画两条业务线在推动动画电影的生产、制作：彩条屋主要是与公司投资的头部动画创意团队合作开发动画电影项目，已有《大鱼海棠》《姜子牙》等作品上映；光线动画主要集中于公司内部的动画电影作品的全周期生产，已储备数十部神话宇宙的作品。 </p>
+<p>此前的《哪吒1》影片大卖，让光线传媒受益匪浅。光线传媒全资子公司北京光线影业有限公司参与出品、发行的影片《哪吒1》，于2019年7月26日起在中国大陆地区公映。 </p>
+<p><strong>根据公司公告，截至2019年7月29日，光线传媒来源于《哪吒1》的营业收入（票房收入）区间约为2.03亿元-2.43亿元（最终结算数据可能存在误差）。2019年上半年，公司营业收入为12亿元。</strong></p>
+<p>根据公司2019年报，光线传媒主投+独家发行的《哪吒1》，主要合作方为成都可可豆动画影视有限公司、天津十月文化传媒有限公司；《哪吒1》出品方，包括北京光线影业有限公司、霍尔果斯彩条屋影业有限公司、霍尔果斯可可豆动画影视有限公司、霍尔果斯十月文化传媒有限公司、北京彩条屋科技有限公司。 </p>
+<p>2025年春节档另一部表现不错的电影《唐探1900》的投资方，包括万达电影、幸福蓝海。 </p>
+<p><strong>根据万达电影公告，公司投资出品的电影包括《唐探1900》《熊出没：重启未来》。公司预计，2024年公司归母净利润亏损8.5亿元-9.5亿元，而上年同期公司则盈利9.12亿元。</strong></p>
+<p>万达电影表示，“2024年受头部影片供给不足等因素影响，电影市场表现较为低迷，公司国内直营影院实现票房57.2亿元（不含服务费），同比下降24.3%；观影人次1.4亿，同比下降23.7%；同时影院传统非票房收入也受到人次下滑影响。尽管公司单银幕产出接近全国平均水平的1.9倍，但由于影院折旧、租金、能耗等固定成本较高，公司国内影院仍出现一定程度亏损。” </p>
+<p>2024年归母净利润预计亏损超亿元的幸福蓝海，在公告中表示，公司参投电影《唐探1900》于2025年春节档上映。2024年幸福蓝海院线票房排名全国第八，江苏省内市场连续十年排名第一。 </p>
+<p>《封神第二部：战火西岐》的出品方，为北京文化。公司预计，2024年归母净利润亏损1.33亿元-1.96亿元。 </p>
+<p>《射雕英雄传：侠之大者》主导出品方为中国电影，公司还参与出品《熊出没：重启未来》。2024年前三季度，公司营业收入同比下滑28.38%至30.16亿元，归母净利润同比下滑54.22%至2.16亿元。 </p>
+<p>银河证券认为，受2025年春节档票房提振，未来可关注院线端龙头万达电影、横店影视，影片出品、宣发能力突出的猫眼娱乐（1896.HK），档期内影片票房表现优异的内容厂商光线传媒等。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkwNzY5NDI0Mw==&amp;mid=2247523229&amp;idx=1&amp;sn=23e7e9cbd7bfbc8710fd77161f7ff7d6&amp;chksm=c1dccb4eb6916605a187c89b54d1cc5869d743af9cee89d77f8e1386a74205201dbabbd3300a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“读数一帜”（ID：dushuyizhi007）</a>，作者：张建锋，编辑：杨秀红，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152012084861700</guid><pubDate>Wed, 05 Feb 2025 07:38:00 +0800</pubDate></item><item><title>2025第一家造车公司破产</title><link>https://36kr.com/p/3151990958758409</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>今年第一个造车破产案例出现。</p>
+<p>Canoo——一家来自美国的造车明星，日前向特拉华州美国破产法院提交自愿请愿书，根据破产法第7章寻求救济。同时官网上发布声明：“<strong>Canoo无法从美国能源部贷款计划办公室获得财政支持……我们对事情的发展结果感到非常失望</strong>。”</p>
+<p>消息一出，业界唏嘘。Canoo曾有一张漂亮的履历：两位前宝马高管成立、全球滑板底盘造车模式鼻祖，客户包括NASA等知名机构……2020年SPAC上市时，公司市值一度高达150亿元人民币，如今几乎烟消云散。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_76d48ec28a7b4eb5b726d959e02859f2@000000_oswg104253oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：Canoo官网</p>
+<p>回望2024年，全球至少十余家造车公司宣告倒闭或关闭生产线，更有大量车企减产减员。如此一幕，给所有造车新势力敲响警钟。</p>
+<h2><strong>曾估值150亿</strong></h2>
+<h2><strong>一家造车独角兽宣布破产</strong></h2>
+<p>Canoo的故事要从2017年说起。</p>
+<p>那时，公司的名字还是Evelozcity——它出自斯特凡·克劳斯(Stefan Krause)和乌尔里希·克兰茨（Ulrich Kranz）之手，前者曾是宝马CFO，后者则是宝马i3系列车型的项目主管，被称为“宝马i系列之父”。两人相识于法拉第未来，都曾是贾跃亭手下干将，但因与公司领导层产生分歧，他们决定自立门户创业。</p>
+<p>一呼百应，创始团队很快扩展到9人，成员大多是宝马、Uber以及福特的前任高管。同时，公司收获了来自中国和德国的早期资金支持。2019年初，Evelozcity正式更名为Canoo。</p>
+<p>六个月后，Canoo推出首款量产原型车——纯电动厢式货车 Canoo Lifestyle Vehicle，随后又推出皮卡、轿车和货车LDV系列车型，计划首先进军美国和中国市场。车辆内外设计极具特色，更因内部极大的使用空间，被称为“后SUV的革命性体验”、“车轮上的loft”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_019615340c25413fa9037eb43db66231@000000_oswg258295oswg640oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：Canoo官网</p>
+<p>Canoo曾表示，他们是为空间而生的新物种，这一目标正建立在核心卖点——滑板式电动车底盘技术之上。Canoo宣称，这一底盘是市面上首个真正的线控转向底盘，是行业内最平、最低调的底盘，使得方向盘和踏板能够安装在底盘的任意位置，因而给车内留出了巨大使用空间，还能使车辆高度模块化，降低开发成本。</p>
+<p>同时，Canoo有着清晰的商业模式：除了将生产的车辆出售，公司还与车企直接合作，为其提供滑板底盘。针对C端市场，公司创造性地提出订阅模式，消费者按月付费，近似于短租车辆，使用成本低且十分方便。</p>
+<p>新颖的技术专利加上明确的商业路线，使Canoo获得一众大型科技公司、知名机构及车企青睐。巅峰时期，公司与现代汽车、美国邮政局、沃尔玛都曾宣布合作，还曾参与NASA阿尔忒弥斯二号任务，提供旗下货车将宇航员运送到发射台。苹果更是曾考虑投资或收购 Canoo ，以推动自己的电动汽车项目。</p>
+<p>不过收购并没有成功，Canoo很快亮相资本市场：2020年12月，Canoo通过SPAC方式与轩尼诗资本收购第四公司达成合并协议，在纳斯达克借壳上市，市值高达21亿美元（约合人民币150亿元），成为造车新势力中炙手可热的明星。</p>
+<p>彼时，所有人都对Canoo的未来充满希望。谁知短短四年，Canoo却经历合作失败、高管离职、融资受阻等一连串打击，直到几天前——股价1.35美元（约合人民币9.7元），暴跌99%，过往风光，烟消云散。</p>
+<h2><strong>谁杀死了它？</strong></h2>
+<p>上市后的故事急转直下。</p>
+<p>2021年，Canoo召开了2020年第四季度及全年财报电话会，毫无预兆地推翻了此前所有的商业计划，几乎引发了所有投资人的愤怒——</p>
+<p>首先，终止在SPAC阶段着重准备的韩国现代合作项目，并不再强调工程承包的业务；其次，为投资回报考虑，将订阅模式的收入占比压缩到20%以下；最后，向B端用户出售物流车辆，尽管彼时这条赛道已经十分拥挤，而Canoo的货车离量产还有不短的距离。</p>
+<p>众人哗然。Canoo方面对此表示，公司在上市前的言论的确“有点激进”，建议投资人保守看待公司未来。然而市场并不买账：短时间内，公司股价跌破发行价，更有投资人愤然起诉，表示受到欺骗导致经济损失。</p>
+<p>事到如今，人们才发现Canoo看似“性感”的商业模式背后，潜伏着种种危机。对于车企来说，底盘是最核心的技术之一，大家更倾向于保留自家技术积累，而非选择Canoo的滑板底盘。而其订阅模式也未能成功，公司经营已然陷入困境。</p>
+<p>更遗憾的是，第一个放弃Canoo的人，却是创始人兼CEO乌尔里希·克兰茨。他在2021年跳槽至苹果，迅速引发一场小型离职潮，到2022年初已有超过50人出走。去年9月，随着公司汽车工程高级总监离职，Canoo曾引以为傲的9人创始团队全部离开。</p>
+<p>一连串的变故引发监管注意，美国证券交易委员会迅速对其展开调查。不巧的是，Canoo的生产也出现了问题：公司曾在2022年收购一家工厂，并在次年宣布将交付该工厂生产的车辆，但前员工透露，这家工厂并未生产车辆，而是仅仅更换车身贴纸，公司没有一条机器人生产线能正常制造零件。</p>
+<p>客户也在撤退。2022年，公司曾宣布与沃尔玛达成协议交付4,500 辆 Canoo 汽车。然而公司宣布破产后，沃尔玛的一位代表表示，“Canoo 电动送货车的测试从未超过最初的试点阶段，沃尔玛从未购买过任何车辆。”另一则数据表示，2023年，Canoo仅卖出22辆车辆。</p>
+<p>财务危机早已十分尖锐。公司在2022年提交给美国证券交易委员会的8-k文件显示，2022年第一季度，Canoo亏损约为1.25亿美元，较去年增加725%，账上仅剩约1亿美元。而公司转型后的货运领域仍无任何订单，在0营收的情况下，如果公司接下来无法获得融资，只能维持一个季度。</p>
+<p>Canoo开始寻找现金，但从融资经历来看，公司公开可查的融资金额累计不到17亿美元，在一众新势力中吸金能力并不强。直到去年，公司因未能按时偿还债务而被起诉，并在11月裁员23%。12月，Canoo再度发布公告，宣布暂停位于俄克拉荷马州的工厂，并让82名员工“强制休假”，并将努力寻找推进运营所需的资金。</p>
+<p>毫无疑问，Canoo未能扭转局面。根据公司2024年第三季度财报，其综合亏损达到1.12亿美元，入不敷出。同时截至2024年9月30日，公司账上仅剩1600万美元的现金、现金等价物和限制性现金，几乎成为一具空壳。</p>
+<p>烧光百亿，Canoo彻底倒下。官网公告显示，公司无法从美国能源部贷款计划办公室获得财政支持，高管正在与外国资本进行讨论，但是鉴于这些努力没有成功，董事会做出了申请破产的艰难决定。</p>
+<p>上个月底，Canoo已经停止运营。法院指定的受托人将管理公司资产的清算，Canoo的团队将与特拉华州破产受托人密切合作，以协助完成这一过程。至此，一颗造车新星就此陨落，只留一地唏嘘。</p>
+<h2><strong>造车2025，活下去</strong></h2>
+<p>烧钱的速度越来越快，如Canoo一般没有造血能力、深陷债务危机的新势力车企们，正接连淹没在血海之中。</p>
+<p>最惨烈的例子当属Fisker，这家明星造车公司曾被誉为“特斯拉杀手”，巅峰市值高达80亿美元，却因交付困难、亏损严重失去投资人信任，在去年10月份被法院批准破产。还有Arrival、LionElectric、e.GO等，都在去年倒下。有咨询公司针对美国36家上市电动汽车和电池初创公司进行分析，其中四分之三正在亏损，13家公司预计在今年夏天耗尽现金。</p>
+<p>再看国内。去年，恒驰汽车、天际汽车、高合汽车等相继陷入破产旋涡，昔日造车新势力“四小龙”之一的威马汽车深陷危机，正计划在今年复工复产。这段时间，极越汽车之困刷屏科技圈，合创汽车官宣破产清算，就连曾经的新势力“销冠”哪吒汽车也频频传出负面信息，令人揪心。</p>
+<p>据不完全统计，在2017年的造车潮高峰时，中国新能源车品牌高达480多家。而到2024年，大浪淘沙之下，拥有造车资质存活下来的车企仅剩几十家。短短数年，400多家新能源车企消失在历史中。</p>
+<p>这一幕仍将持续——在去年末的一次采访中，零跑汽车的朱江明表示，未来三年会是最激烈的一场决赛，现在还活着的十五六家车企可能会再淘汰一半。彼时还没有百万量级的公司，或许会慢慢消失。</p>
+<p>想起去年3月，王传福曾在财报投资人沟通会上提出：新能源行业已进入淘汰赛，2024年—2026年是规模、成本和技术的决战。</p>
+<p>这不禁令人忐忑。刚刚过去的2024年，被称作造车品牌进入“血海”竞争的第一年，所有人都领教到其残酷：自年初起，一场前所未有的价格战打响，数十家车企排队砍价格，创下近三年最高的降价规模。据统计，2024 年全年降价车型达 227 款，同比增加53%。</p>
+<p>而竞争仍在持续。2025年的第一天，比亚迪、特斯拉、蔚来等30家车企组团发起新一轮价格战，纷纷推出新的促销政策，包括限时直降、现金红包、国补地补政策兜底等，幅度大多在万元以上，誓要拿下新年第一批订单。</p>
+<p>基石资本董事长张维在第二十四届中国股权投资年度大会上提到，中国汽车产业也必将重走家电、智能手机之路：经历残酷的价格战，进入成熟期后并购、整合，少数企业经过市场选择成为赢家。一批汽车厂商将倒闭，中国汽车产业的生死淘汰赛正在加速到来。</p>
+<p>如果脱离窘境？他指出未来留给新能源汽车的两条生命线：</p>
+<p><strong>一是高效率和低成本，二是芯片和软件定义汽车的持续创新能力。</strong>另外，中国汽车出口量问鼎全球也带来了新的机遇，“如果拿到新能源车电动化的通关密码，没有贸易壁垒，中国新能源车将轻易席卷全球。”</p>
+<p>眼下最重要的是，活下去。正如小鹏曾发布在公众号上的那句slogan——</p>
+<p>“在血海里游泳，直到海水变蓝。”</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247675443&amp;idx=1&amp;sn=e36255f596072b4abf6ec8b4d0c1fdf2&amp;chksm=ed6cc608061641957aa19cd3b7cd05b13f98406d087ca11d0142cb248d693527d3951d776eb4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：岳笑笑，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3151990958758409</guid><pubDate>Wed, 05 Feb 2025 07:42:00 +0800</pubDate></item><item><title>DeepSeek获三大国产GPU力挺，给全世界上了重要一课</title><link>https://36kr.com/p/3151967282780679</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>智东西2月4日消息，<strong>上线20天，日活突破2000万，这是DeepSeek创下的又一个新纪录。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_6a2f8fae967e4b9ca139c6385078ab31@000000_oswg133227oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲DeepSeek与ChatGPT日活用户增长趋势对比，来源：AI产品榜</p>
+<p>根据国内AI产品榜统计，DeepSeek应用（不包含网站数据）上线5天日活就已超过ChatGPT上线同期日活，成为全球增速最快的AI应用。</p>
+<p>相比之下，根据Quest Mobile数据，国内前AI应用明星<strong>Kimi在2024年12月的月活用户数为2101万。</strong></p>
+<p>就在2月3日，硅谷顶尖风险投资家、a16Z联合创始人Marc Andreessen发文引用SensorTower数据：目前<strong>DeepSeek日活用户数已经达到了ChatGPT的23%，并且应用每日下载量接近500万。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_5793bf5b2aac4263abb9eb7be661eab0@000000_oswg122238oswg1080oswg1382_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲Marc Andreessen X平台发文</p>
+<p>不过SensorTower统计的DeepSeek日活用户数绝对值在1250万左右，与国内AI产品榜统计数据有较大差异。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_ddadac212dac4efba1c6c68896c7c1cc@000000_oswg209681oswg1080oswg483_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲Marc Andreessen引用的数据图表，来源：SensorTower</p>
+<p>DeepSeek日活数、下载量的暴涨也侧面印证了其在普通消费者中的火爆，春节期间DeepSeek相关话题频频刷屏。</p>
+<p><strong>昨天央视新闻官方发文“点赞”DeepSeek，DeepSeek对于网友一系列问题的回答可以说是惊艳、深刻而富有温度。</strong></p>
+<p>比如对于“‘过好这一生’的真相是什么”这一问题，DeepSeek在回答中提到，<strong>没有完美的人生剧本，所有选择都有代价，关键是承担选择的勇气。我们不是来“赢”的，而是来感受花开、日落、爱与被爱的。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_422e4f98edf246df86d73400f262f21d@000000_oswg50783oswg985oswg400_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲DeepSeek针对网友提问给出的答案，来源：央视新闻</p>
+<p>2月4日，中国常驻联合国代表傅聪在纽约联合国总部举行记者会中回答记者提问时特别说道：<strong>“永远不要低估中国科研人员的聪明才智。DeepSeek引发全球轰动和一些人的焦虑恐慌，说明技术遏制和技术限制无法奏效，这是全世界、特别是美国需要学习的一课。”</strong></p>
+<p>傅聪反问：<strong>“从华为到TikTok，再到DeepSeek，美国还想禁多少？”</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_f59cb4a603da4ea6a5e2483d0783e08d@000000_oswg116284oswg1080oswg1416_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲中国常驻联合国代表傅聪在纽约联合国总部举行记者会中回答记者提问，来源：CMG国际时讯</p>
+<p>DeepSeek在消费者中引爆的同时，这两天国内又有更多云巨头加入到支持行列中。3日下午，<strong>阿里云和百度智能云先后官宣了对DeepSeek-V3、DeepSeek-R1模型的支持。</strong>百度智能云更是直接公布了模型的输入和输出价格。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_bcc1ef4385ac4befabcf12150612186d@000000_oswg43686oswg1080oswg365_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲百度智能云公布的模型的输入和输出价格</p>
+<p>加之此前的华为云、腾讯云，<strong>目前国内四大云巨头都已正式支持DeepSeek。</strong>此前海外的AWS、微软智能云等云巨头已官宣支持。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_345726b9bac049f7a97cf6b9246e0c2a@000000_oswg409657oswg1056oswg1192_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲近期官宣支持DeepSeek模型的云服务企业（按照时间顺序排列，信息来自各家官网、官方媒体平台）</p>
+<p>在芯片领域，今天一大早，<strong>天数智芯、摩尔线程接连宣布支持DeepSeek模型，</strong>而英伟达、AMD、英特尔等海外芯片巨头已早早完成支持。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_c6c3b83538c2493080ce1580ebb22c96@000000_oswg335507oswg954oswg1036_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲近期官宣支持DeepSeek模型的芯片企业（按照时间顺序排列，信息来自各家官网、官方媒体平台）</p>
+<p>DeepSeek卷起的全球AI风暴，已深度卷入产业中的每一位玩家，而<strong>中国芯片圈和云服务领域的巨头和创企们，已然集体出动。</strong></p>
+<h2><strong>01.中国四大云巨头官宣支持DeepSeek，亚马逊、微软云拥抱积极</strong></h2>
+<p>随着春节假期进入尾声，国内企业也逐渐进入复工状态，越来越多的国内企业陆续宣布对DeepSeek的模型支持。</p>
+<p>2月1日大年初四，华为云正式官宣，经过华为云和硅基流动团队连日攻坚，双方联合首发并上线了基于华为云昇腾云服务的DeepSeek-R1/V3推理服务。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_0f41aef1cce045618a0c3ff0e48da647@000000_oswg91640oswg1080oswg957_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲硅基流动联合华为云上线的DeepSeek-R1/V3推理服务</p>
+<p>华为云提到，<strong>得益于自研推理加速引擎加持，双方支持部署的DeepSeek模型可以获得持平全球高端GPU部署模型的效果。</strong></p>
+<p>2月2日，腾讯云官宣了对DeepSeek-R1模型的支持，在腾讯云的HAI平台上，开发者大约花3分钟就可以接入并调用模型。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_132fc82839794e91b4e2c2ff3db15cc8@000000_oswg83544oswg1080oswg934_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲腾讯云HAI平台</p>
+<p>2月3日下午16点58分，阿里云官宣其PAI Model Gallery支持云上一键部署DeepSeek-V3、DeepSeek-R1。44分钟后，百度智能云也宣布了其千帆平台正式上架DeepSeek-R1和DeepSeek-V3模型，并直接公布了价格。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_8468b386c4a54930a251586b9e518289@000000_oswg58596oswg1080oswg601_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲PAI Model Gallery</p>
+<p>根据官方信息，从上线到2月18日24点，模型限时免费。</p>
+<p>除了四大云巨头，国内云服务厂商无问芯穹更是早在1月28日除夕一大早就宣布了其Infini-AI异构云对DeepSeek-R1-Distill 32B模型的支持。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_3a0bbbba02e3444693a465366319d5c0@000000_oswg136343oswg1024oswg1368_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>PPIO派欧、云轴科技则同在2月2日官宣了其对应云服务平台对于DeepSeek模型的支持。</p>
+<p>PPIO派欧算力云支持了DeepSeek-V3、DeepSeek-R1、蒸馏模型DeepSeek-R1-Distill-Llama-70B，模型价格与官方价格保持一致。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_7ad71dc20d494aedaf7860494f1cd257@000000_oswg49594oswg1080oswg640_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲PPIO派欧算力云</p>
+<p>云轴科技ZStack宣布AI Infra平台ZStack智塔支持企业私有化部署 DeepSeek V3/R1/Janus Pro三种模型，<strong>可基于海光、昇腾、英伟达、英特尔等国内外CPU/GPU适配。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_08b93c36a6c8489f9e05ce66d0f6be55@000000_oswg50524oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲云轴科技ZStack智塔</p>
+<p>海外市场，全球第一大云巨头AWS也在1月31日官宣了DeepSeek-R1模型的全面上线。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_2db122de05224d1fa245ea6964a74f44@000000_oswg73000oswg886oswg1216_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>用户可以在 Amazon Bedrock Marketplace和Amazon SageMaker JumpStart上部署DeepSeek-R1模型；在Amazon Bedrock上自定义导入DeepSeek-R1-Distill模型并在Amazon EC2 Trn1实例上部署DeepSeek-R1-Distill模型。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_fb3c6f6be6114fd39f61073bdc51a60b@000000_oswg46514oswg1080oswg463_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲Amazon Bedrock</p>
+<p>微软的Azure云服务则是在1月30日宣布DeepSeek-R1正式上线微软的Azure AI Foundry以及GitHub。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_0d50ed7c12d148e19c9fe3a5ce714d94@000000_oswg37651oswg1080oswg711_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>微软还贴心地给出了使用教程视频。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_17acd8d934cf4c33a08e03529b02cbf1@000000_oswg140490oswg1080oswg1112_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>虽然DeepSeek的模型是开源的，但全球云服务厂商们对模型的支持仍然十分关键。</p>
+<p>简单来说，<strong>通过支持DeepSeek模型的云平台，开发者可以省去买卡、装驱动、配网络、配存储、装环境、装框架、下载模型等一系列繁琐步骤，直接在云服务厂商的平台上去调用DeepSeek模型。</strong></p>
+<p>客观来说，像DeepSeek-V3这样的MoE模型总参数量有671B，部署门槛并不低。</p>
+<p>同时<strong>开发者还能在平台上以更少甚至零代码去实现从训练到部署再到推理的全过程，AI开发和应用的流程更简单、更高效。</strong></p>
+<h2><strong>02.国内GPU创企纷纷力挺响应，美国芯片三巨头到齐</strong></h2>
+<p>除了云巨头，国内外芯片厂商也纷纷快速响应，宣布对于DeepSeek模型的支持。</p>
+<p>在海外芯片三巨头英伟达、英特尔、AMD之中，AMD是响应最积极的一个，AMD早在1月25日新年前就已经官宣，他们将DeepSeek-V3模型集成到了自家的Instinct MI300X GPU上。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_7371bf0545774de1828efd000f321146@000000_oswg82384oswg1080oswg578_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在X平台发文中，AMD特别感谢了DeepSeek和SGLang团队的密切配合。</p>
+<p>1月31日，AI芯片算力扛把子英伟达也正式官宣了其NVIDIA NIM微服务预览版对于DeepSeek-R1模型的支持，NIM微服务基于HGX H200系统，每秒能够处理3872个tokens。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_bae0034597b64fbbbda97f16c35ffeb0@000000_oswg65120oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>开发者们可以调用API进行测试和试验，而这一API后续会作为英伟达AI企业软件平台的一部分进行提供。</p>
+<p>同样在1月31日，英特尔也宣布DeepSeek能够在英特尔产品上运行，包括在搭载英特尔处理器的AI PC上离线使用。</p>
+<p>英特尔提到，在其最新发布的酷睿Ultra 200H（Arrow Lake H）平台上，DeepSeek-R1-1.5B模型能够顺利运行，在因式分解演示中，能够迅速演绎逻辑思维，并最终解决数学难题。</p>
+<p>基于DeepSeek-R1模型，<strong>一台轻薄笔记本电脑可以完全离线、本地化地帮你翻译、做会议纪要、进行文档撰写。</strong></p>
+<p>国内芯片厂商这边，华为的昇腾系列AI芯片自然不必多说，此外还有GPU芯片厂商<strong>沐曦</strong>也联合中国开源大模型平台Gitee AI发布了全套DeepSeek-R1千问蒸馏模型。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_8ab491104fcc4850bccc7ce6aa641f00@000000_oswg40036oswg1080oswg483_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲沐曦模型资源包发布</p>
+<p>根据官方信息，2月2日首批上线的四个较小规模的模型（1.5B、7B、14B、32B），均部署在国产沐曦曦云GPU上。</p>
+<p>DeepSeek-R1模型+沐曦曦云GPU+Gitee AI平台，实现了从芯片到平台，从算力到模型，全国产研发、中国制造。官方称之为“100%国产AI的力量”。</p>
+<p>今天一大早，<strong>天数智芯和摩尔线程</strong>也接连宣布了对DeepSeek模型的支持。</p>
+<p>根据天数智芯官方信息，天数智芯与Gitee AI合作，仅用时一天，就完成了与 DeepSeek-R1模型的适配工作，并且已正式上线多个大模型服务，包括 DeepSeek R1-Distill-Qwen-1.5B、DeepSeek R1-Distill-Qwen-7B、DeepSeek R1-Distill-Qwen-14B等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_1343584e883342a0b3158ff4d70b8ead@000000_oswg72536oswg1080oswg680_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲天数智芯完成DeepSeek-R1模型适配，上线多个大模型服务</p>
+<p>天数智芯提到，<strong>国内GPU与DeepSeek的适配可实现深度学习框架与国内自主硬件的深度融合，能促进国内AI产业链自主可控发展，减少对国外硬件平台的依赖，降低技术风险和成本，有助于国内GPU 拓展市场，吸引更多上下游企业合作，完善产业链生态，促进应用加速落地。</strong></p>
+<p>国产GPU创企摩尔线程这边，其已经实现对DeepSeek蒸馏模型推理服务的部署，这意味着开发者可以基于摩尔线程的GPU进行AI应用开发。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_65feb601ec35467096ac07fcf93ec354@000000_oswg80242oswg1080oswg590_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲摩尔线程官宣信息</p>
+<p>此外，摩尔线程即将开放自主设计的夸娥（KUAE）GPU智算集群，支持DeepSeek V3、R1模型及新一代蒸馏模型的分布式部署。</p>
+<p>摩尔线程提到，<strong>DeepSeek的开源模型与摩尔线程的硬件形成闭环，验证了国产全功能GPU对复杂AI任务的支持能力，为AGI技术普惠化提供了可行路径。</strong></p>
+<h2><strong>03.日活2000万跑出“中国速度”，DeepSeek倒逼行业跑得更快，竞争焦点来到应用层</strong></h2>
+<p>从上线第5天的259万日活用户数到今天突破2000万大关，DeepSeek只用了15天，可以说是实实在在的<strong>“中国速度”。</strong></p>
+<p>根据AI产品榜数据，DeepSeek上线18天日活用户数达到1500万，而ChatGPT达到同样的数字，花了244天<strong>，DeepSeek的速度是其13倍之多。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_6b4555bc52ac4e1aaabc5802ea1c2151@000000_oswg294404oswg1080oswg1439_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲DeepSeek与ChatGPT日活用户增长趋势对比，来源：AI产品榜</p>
+<p>根据雪球平台用户明月桥投资2024年11月28日引用的Quest Mobile数据，<strong>当时豆包的日活用户数大约为1200万，而Kimi到日活用户数约为300万。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_e1f0f9995d7a4e9db001ae23a691cf7d@000000_oswg29926oswg1080oswg556_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲来源：雪球</p>
+<p>有业内人士称，DeepSeek如此之快的爆发速度，<strong>一方面刺激着各路厂商加速适配模型，另一方面也刺激着算力产业的整合，随着模型同质化趋势凸显、开源模型的加速成长，AI应用生态层的商业价值会越来越高，应用层竞争也将成为后续行业聚焦的重点。</strong></p>
+<p>根据Sensor Tower数据，DeepSeek现在的日活用户已经远超谷歌Gemini、Perplexity、Claude等热门海外AI应用，其应用日下载量更是断崖式领先。</p>
+<p>DeepSeek的飙涨态势能持续多久，会是后续的一个关注点。</p>
+<h2><strong>04.结语：DeepSeek朋友圈阵容豪华，合作共赢才是未来AI发展必由之路</strong></h2>
+<p>DeepSeek给整个AI产业带来的影响是全方位、多层次的，除了自身模型的优秀，DeepSeek对于产业的带动效应更值得关注，从芯片产业到上层云服务产业，几乎所有头部玩家和创企都在积极涌入DeepSeek“生态圈”。</p>
+<p>DeepSeek无疑正在重塑全球AI产业的竞争版图，中美之间的AI竞争格局也在改变。算力神话被打破、更多玩家有机会在AI新时代更轻松地拿到“入场券”，AI应用生态的发展也愈发重要。</p>
+<p>诸多国产GPU玩家的加入，让我们看到在AI的蓬勃发展中，不可能只有一家独大，必定是百花齐放。</p>
+<p>正如DeepSeek创始人梁文锋近日在接受《暗涌》采访时提到的，在这波AI浪潮中，DeepSeek的出发点是走到技术前沿，去推动整个生态发展。<strong>正如英伟达的领先不只是一个公司到努力，也是整个西方技术社区和产业共同努力的结果，中国AI的发展，同样需要这样的生态。</strong></p>
+<p>梁文锋说，DeepSeek希望形成一种生态，<strong>他们只负责基础模型和前沿的创新，其它公司在DeepSeek的基础上构建toB、toC的业务。</strong></p>
+<p>中国知名生物学家、北京大学终身讲席教授饶毅昨天一大早发布了题为<strong>“鸦片战争以来，中国对人类最大的科技震撼：DeepSeek”</strong>的文章，一时激起广泛热议。</p>
+<p>毫无疑问，DeepSeek给海外诸多产业和领域都带来了巨大震撼，中美之间的AI竞争仍然事态焦灼、充满不确定性。中国AI或许正走在一个历史最关键时刻。</p>
+<p>正如傅聪所说：“我们不需要更多的禁令，中美作为在当今人工智能领域最领先的两个国家，不能不合作。只有共同合作发展，才能弥合数字和智能鸿沟，特别是帮助全球南方在人工智能发展进程中平等受益。”</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652778951&amp;idx=1&amp;sn=04445c5e546f5be5fc3397b6d1a3756b&amp;chksm=85198db21cefc706817d1170ea172c423cd43c736189dcc9e51785b188efc0cd5bdac630ccf0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智东西”（ID：zhidxcom）</a>，作者：云鹏，编辑：漠影，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3151967282780679</guid><pubDate>Wed, 05 Feb 2025 07:45:00 +0800</pubDate></item><item><title>2025蛇年投资九大展望</title><link>https://36kr.com/p/3151966798486020</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>随着经济增速换挡，中国金融市场正进入“低利率”时代。 </p>
+<p>去年12月10年期国债利率正式进入1时代，余额宝的7日年化收益率十年前还有6%，如今只剩1.7%，定存利率已经全面进入“1%”时代，寿险预定利率有望从2.5%继续下滑…… </p>
+<p>在财政货币双宽松的定调下，2025年OMO利率有望在1.5%基础下迎来两到三次的下调、银行存款利率也会紧跟下调、保险预定利率也要跟随OMO、银行存款利率的节奏…… </p>
+<p><strong>在各种广谱利率的下滑下，无论个人还是金融机构，都需要思考如何调整策略，以安全穿越低利率时代。</strong></p>
+<p>基于此，我们结合国际宏观环境、科技产业热潮风向、国内货币及经济政策方案及A股市场新变化，推出2025年蛇年投资九大展望， 内容主要覆盖近两年市场重点关注的“科技+红利”哑铃结构配置方向，其中，科技方向以人工智能、机器人、科创板为代表，红利方向以国债、红利资产、自由现金流、REITs基金为代表。同时基于宏观市场环境和政策因素，也加入了对消费行业和A500宽基资产的观察。 </p>
+<p>希望能给投资者带来一些有价值的参考。 </p>
+<h2><strong>展望1</strong></h2>
+<h2><strong>人工智能将继续成为市场C位</strong></h2>
+<p>作为目前全球最热门的科技概念，AI拥有广阔的市场前景，有能力创造出巨大的商业价值。更重要的是，目前尚处于早期阶段，未来可以说是星辰大海。而和AI商业化潜力相随的，是AI的投资潜力。这些观点，都已经在实业界和投资界形成共识。 </p>
+<p>过去2年，我们也见证了不少AI公司业绩大涨、股价大涨，企业收获盈利投资者收获回报的案例。 </p>
+<p>春节期间，DeepSeek的横空出世震惊了中美资本市场，还有此前字节AI基建对标海外巨头等级的投入，国产大模型突破和国内AI基建的加速开展，意味着目前大概率只是国产AI的2025年行情初期。 </p>
+<p>当我们能以更低的推理成本使用性能更好的模型时，可以预见的是，如同前几年GPT问世， <strong>AI能力每一次的迭代将带来范围更大的产业升级机会，从上游的硬件和中游的算法、数据资源，到下游应用和商业化场景，都将迎来磅礴的发展红利。</strong></p>
+<p>每当新的变革势力涌现，必将在资本市场里卷起一阵惊涛骇浪，能否抓住这波机遇，在于能否选对具有优势的细分环节和公司。AI赛道所表现的成长性和确定性，能够帮助投资者避免频繁交易、变换赛道所带来的摩擦、成本和风险。 </p>
+<p>基于此，我们认为今年A股AI产业链仍将迎来高确定性的增长行情，可关注跟踪AI产业链的相关基金产品。如 <strong>人工智能AIETF（515070），</strong> 该ETF覆盖了像寒武纪（芯片）、中际旭创（光模块）、金山办公（AI应用）、中科曙光（服务器）等横贯AI产业链上中下游的核心龙头，近一年回报收益率达到了36.75%，显著跑赢被动指数型基金（16.20%）。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_7e121120983e4a96a911440fdb809a9c@000000_oswg61802oswg811oswg459_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>展望2</strong></h2>
+<h2><strong>机器人将继续高歌猛进</strong></h2>
+<p>2024年是人形机器人发展的加速之年，从产品推出到量产被寄予了厚望，资本市场对机器人概念股也青睐有加。年内机器人指数涨幅（26.91%）在Wind沪深核心指数中靠前，大幅领先沪深300（14.50%）。 </p>
+<p>就像2020年的新能源汽车，目前整个国内人形机器人赛道还处在商业化的前夕，以宇树、傅利叶、智元为代表的国产人形机器人做了惊艳亮相，华为、小米、宁德时代、广汽等巨头躬身入局，不断将人形机器人的热度推向高潮。 </p>
+<p>此前政策已经做出定调，《人形机器人创新发展指导意见》明确指出，到2025年，人形机器人创新体系初步建立，“大脑、小脑、肢体”等一批关键技术取得突破，确保核心部组件安全有效供给。整体产品达到国际先进水平，并实施批量生产。 <strong>种种迹象表明，从政策规划到企业落地，2025年人形机器人正从行业导入期步入加速成长期，而在这一发展阶段，渗透率将逐步加快，产业链龙头开始产生利润，放量之后将高速增长。</strong> 毫无疑问，相关产业的投资机会也将越来越多且越来越清晰。 <strong>机器人ETF（562500）</strong> 在过去六个月里实现40.46%的超高收益率，远超被动指数型基金（17.68%），近三月规模和份额都在迅速增长，最新流通规模已经突破50亿元。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_0b5e97b94c42484d994c82b7bdf39cfb@000000_oswg90746oswg1080oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>展望3</strong></h2>
+<h2><strong>科创板进一步蓬勃发展</strong></h2>
+<p>科创板自2019年7月开市以来，整体运行平稳，充分发挥科创板改革“试验田”功能，持续打造培育新质生产力的“主阵地”。截至2024年底，科创板上市公司数量已达581家，总市值规模超6.34万亿元，涵盖新一代信息技术、高端装备、新材料、新能源、生物医药等战略性新兴产业，这些产业是新质生产力的具体体现，代表了中国经济转型升级新方向。 </p>
+<p>2024年以来，随着消费电子、汽车、计算机等市场需求回暖，以及半导体行业周期复苏，不少位于产业链上游环节的科创板上市公司也因此受益。截至2025年1月22日，217家科创板公司公布了2024年业绩预告，其中预增96家，比例为44.24%。以预计净利润增幅统计，共有30家公司净利润增幅超100%；预计净利润增逾50%的个股主要集中在电子、医药生物、计算机等行业。 </p>
+<p>据上交所披露，截至2024年底，科创板已成为A股指数化投资比例最高的板块，相关指数产品合计规模超2400亿元，占科创板整体自由流通市值比例为8.3%。今年1月20日，上证科创板综合指数（简称科创综指）正式发布。科创板综相关ETF也已经在路上，以华夏基金为首的多家基金公司上报了科创综指ETF，将为科创板引入更多增量资金的同时，也将为投资者提供更多元、更称手的投资工具。加上科创50、科创100，科创板指数体系则愈发完善，投资“工具箱”不断丰富。 </p>
+<p><strong>科创100ETF华夏（588800）</strong> 重点 覆盖代表性行业龙头，近六月回报（30.29%）远高于沪深300（11.96%），较好体现了中国新兴产业的成长潜力。 </p>
+<h2><strong>展望4</strong></h2>
+<h2><strong>红利资产（高股息）是最好的股市压舱石</strong></h2>
+<p>近两年，在利率逐渐走低，国内经济基本面缓慢修复的环境下，红利类资产的投资价值凸显。高分红板块对经济波动的敏感性相对较低，能在预期不高的环境中展现较强的防御属性。2024年度，A股市场以银行保险、家电、能源等高息板块表现位居所有行业前列。 </p>
+<p>其次，政策层在推动机构长期资金入市、鼓励和指引上市公司做好市值管理的方向上持续加力，由于具备高股息低波动的优势，红利资产是相对出色的价值配置洼地。 </p>
+<p><strong>从长线资金的视角来看，在互换成本和稳健收益率的权衡下，红利资产（长期稳定高息股），是几乎唯一符合要求的方向。</strong></p>
+<p>从股息回报的角度来看，近几年的股息率能长期跑赢长债利率（持续维持在3%以上）的A股公司仍有不少，重点集中在银行、保险、能源（石油、煤炭、电力）、电信等重点领域，而且不少恰好也是数以央国企或者其控制的企业，当然也包括不少优质的核心民企。 </p>
+<p>未来，国际政经环境不确定性仍然较大，我们仍然推荐守住杠铃的一端，即具有穿越周期，提供稳定分红实力的优质红利资产。2024年2月， <strong>港股央企红利ETF（513910）正式发行上市</strong> ，截至2025年1月27日，该ETF流通规模20.91亿元，上市1年来，累计回报28.99%，表现相比于沪深300更加出色。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_37540baad1fb4c2597a4b283a41b2834@000000_oswg151772oswg816oswg498_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>展望5</strong></h2>
+<h2><strong>国债市场的投资机会</strong></h2>
+<p>2024年，受资产荒、经济弱复苏以及宽松的货币政策等多重因素影响，市场对未来利率走势预期继续走低，国债市场迎来一场波澜壮阔的大牛行情。各路资金疯狂涌入债市刺激交投持续大幅攀升，同时新发债基爆款频出，30年国债ETF规模暴增近400%。从收益率来看，10年期国债收益率年初处在2.56%左右，到年末大幅下滑至1.6%附近。 </p>
+<p>展望2025年，考虑到特朗普政府重新上台对全球经济贸易形势带来更多不确定性，为实现2025年国内经济增长目标，抵消外部冲击影响，预计国内货币政策有望继续维持宽松，2024年12月中央政治局会议提出“实施更加积极的财政政策和适度宽松的货币政策”，强化了这一确定性。 </p>
+<p>综合多家机构的测算，预计2025年央行将继续降准降息，可能有降准1-2次，幅度50-100bp，以及可能有降息2-3次，幅度为40-50bp，同时年内还会有更大规模的公开市场操作，带动货币和债券市场利率中枢进一步下行。 <strong>机构预测认为，2025年的10年期国债收益率可能下至1.5%左右，30年国债收益率则可能降至1.7%。而这将进一步成为国债市继续走稳走牛带来重要支撑，且确定性相对较高。</strong></p>
+<p>基于此，我们认为，2025年仍将会是固收+大年，长债资产配置将会是一个预期表现不错的策略，可考虑国债相关且交投活跃的ETF。 </p>
+<p>截至2025年1月27日，<strong>基准国债ETF（511100）</strong>流通规模3.56亿元，交投活跃，其2024年度净值增长8.24%，显著跑赢被动指数债券型基金。同时管理费率0.15%，托管费率仅0.05%，持有成本比较具有吸引力。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250204/v2_97ef0281a54d47b192fd5c707217a87e@000000_oswg136816oswg820oswg516_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>展望6</strong></h2>
+<h2><strong>高自由现金流资产将更受关注</strong></h2>
+<p>在过去两年，A股红利资产表现大放异彩，成为备受市场追捧的“顶流”。高股息策略之所以能够长期跑赢市场，其策略的关键之一就在于高现金流因子。 </p>
+<p>回看过去多年来A股剔除银行保险、地产等行业后长期股价表现优秀的各种超级大白马企业，都具有一个很重要的指标特征：自由现金流指标长期优秀。主要代表除了白酒、石油、煤炭、有色、电力等行业，还有很多制造业领域的头部企业。 </p>
+<p>所以通过这一指标进行合理筛选，我们基本就可以快速找出市场中能长期表现稳健且分红回报可观的核心资产。 </p>
+<p>这一指标之所以如此有用，是因为自由现金流是企业生存发展的命脉，也是上市公司维持稳定现金分红能力的来源，其在评估企业盈利能力、偿债能力、成长潜力以及投资价值等方面更是有着关键作用。 <strong>从长期的视角来看，自由现金流状况更好的企业与同行相比往往具有更强的竞争力和投资价值。</strong></p>
+<p>2025年，在国际市场不确定风险因素增多，叠加国内利率趋势长期下行及政策加力引导中长期资金大规模入市的宏观环境下， <strong>“现金为王”将越发成为股票投资重要策略。</strong></p>
+<p>1月10日， <strong>自由现金流ETF（159201）</strong> 获批，成为首批获批的自由现金流ETF之一。该ETF以国证自由现金流全收益指数基准，后者近十年累计涨幅达363.62%，年化超17%，显著高于中证红利、红利低波和沪深300的全收益指数。我们认为，这将为投资者长期布局A股红利资产带来值得期待的新选项。 </p>
+<h2><strong>展望7</strong></h2>
+<h2><strong>Reits仍会成为另类投资中的优质资产</strong></h2>
+<p>2024年是公募REITs大年，发行数量和规模均大幅增长，越发呈现供需两旺的发展格局。截至2024年12月底，我国REITs累计上市55只项目，发行规模（含扩募）超过1500亿元。 </p>
+<p><strong>2024年以来，公募REITs二级市场整体表现优异，8大行业中有7个行业较年初上涨。尤其保障房板块、公共事业类、环保/能源等板块涨幅分别达到了35%、23%、16%。</strong></p>
+<p>同时，当前REITs的二级市场估值较为稳健，不少类别资产分红回报可观，根据现金流分派率，产权型项目分派率普遍处于3%-7%，经营权型项目分派率普遍在5-15%甚至更高。因而REITs市场尽管相比股市和国债市场的规模显得较少，但却不失为一个稳定收益较为不错且风险系数较低的配置选择。 </p>
+<p><strong>展望2025年，随着宏观流动性继续大宽松，且物价通胀有抬升预期，利好经营稳健且高息的资产项目，我们认为REITs市场表现仍值得期待。</strong> 推荐逢低关注受益利率下行，分红比较稳定的保租房类和经营业绩回升的产业园区类项，以布局长期投资机会。 </p>
+<p><strong>比如华夏北京保障房REIT（508068）,</strong> 项目发行规模12.55亿元，基金初始投资的基础设施项目包括文龙家园项目和熙悦尚郡项目，目前总体的出租率94.39%，租金回报稳定。该基金2022年8月31日上市至今涨幅69.21%，年化回报率高达23%，近一年涨幅更是高达56.25%，成为投资环境下另类投资中的一股清流。 </p>
+<p><strong>华夏大悦城商业REIT（180603），</strong> 项目发行规模33.23亿元，基金初始投资的基础设施项目为成都大悦城项目，根据募集说明书披露，成都大悦城项目总体租赁情况良好，出租率维持在较高水平，近两年均维持在98%以上，同时该REIT预计2025年可供分配额为17,698.02万元，分红回报可观。该基金2024年9月20日上市至今不到5个月，涨幅已达33.43%。 </p>
+<h2><strong>展望8</strong></h2>
+<h2><strong>消费行业有望进入复苏</strong></h2>
+<p>2024年A股市场在复杂的国内外经济环境中运行，消费板块整体呈现出先扬后抑、复苏步伐缓慢的态势，导致整体板块估值一直承压，涨幅落后于市场平均水平，不少消费类个股股价甚至出现了不同程度的下跌。整体而言，消费板块未能如市场预期般强劲复苏。 </p>
+<p>国家对促消费的重视也越发明确， <strong>2024年12月，中央经济工作会议将扩大内需提升至重点工作首位，提出要加力扩围实施“两新”政策，明确提出大力提振消费的定调。</strong> 2025年地方政府两会响应中央号召，将提振消费作为年度“头号任务”，地方两会消费政策也紧跟中央，全面覆盖商品经济、服务经济、新经济。 </p>
+<p>同时，中央也多次在重要会议中提出“促进中低收入群体增收”，此为从根本上提升居民购买力进而提振消费的打下牢固基础。 </p>
+<p>目前很多消费板块的优秀公司已消化高估值，跌出价值、成为红利股，分红收益率具备吸引力。 以中证细分食品饮料产业主题指数为例，截至2025年1月27日，其市盈率仅19.42倍，股息率高达3.9%。同时，在大规模消费政策刺激和AI+科技创新大潮下，汽车、互联网、消费电子等新经济也会继续迎来高增长态势。 </p>
+<p><strong>我们认为，2025年，在市场整体继续宽松，长线资金将有望大规模入市背景下，我们将不仅会看到更加可观的消费补贴政策，也会看到股市消费板块的投资转机到来。</strong></p>
+<p><strong>食品饮料ETF（515170），</strong> 重点配置了茅五泸等一线白酒巨头同时还覆盖了伊利、海天味业、东鹏饮料、青岛啤酒等各传统消费领域的核心资产，预计今年有望迎来价值重估的契机。 </p>
+<p><strong>港股消费ETF（513230），</strong>重点配置了腾讯、阿里、美团、小米、比亚迪等代表社交、电商、线下消费、消费电子、汽车等一众代表新消费方向的科技巨头，同时也覆盖了百胜、安踏等代表餐饮、服装等代表传统消费方向的核心资产，具有很好的长线配置价值。 </p>
+<h2><strong>展望9</strong></h2>
+<h2><strong>A500会继续追逐成为王者宽基</strong></h2>
+<p>2024年，跟踪A500指数的ETF是市场一大亮点。在国家罕见表态要提振资本市场，同时持续大力出台政策引导中长期资金大规模入市背景下，国家队及金融机构选择宽基指数布局A股，并带动大量市场资金跟投。 </p>
+<p>其中A500指数由于相比其他宽基指数或行业指数更好兼顾到了高息价值投资和对成长赛道行业龙头的布局，具有很好的高分红、高成长的双重特性。因而成为了承接长线资金非常合适的宽基。从2024年10月份第一批A500的ETF正式上市，到12月底的短短两个多月，A500产品总规模突破3000亿元，创下了指数相关产品规模增长最快纪录。A500指数近1年上涨幅度14.96%，表现可圈可点。 </p>
+<p>2025年1月，六部门印发中长期资金入市方案，明确未来三年公募基金持有A股流通市值每年至少增长10%，力争大型国有保险公司从2025年起每年新增保费的30%用于投资A股。 <strong>机构测算，按照新规要求，年内入市险资规模或可达万亿规模之多。同时叠加年内随着持续宽松的货币政策和更有力的经济刺激举措，预计今年A500指数基金投资将是一个非常稳健且预期收益不错的选择。</strong></p>
+<p>截止2025年1月27日， <strong>A500ETF基金（512050）</strong> 总规模达到198.59亿元，位居市场前列；去年12月以来日均成交额超40亿元，位列同类标的指数场内ETF第一，流动性好。值得一提的是，该指数基金年管理费+托管费合计仅为0.2%，属于同类最低档，也大幅低于主动权益基金。 </p>
+<h2><strong>结语</strong></h2>
+<p>总的来看，2025年，尽管全球市场仍会面临诸多不确定风险因素，但国内市场在货币环境持续宽松、经济强刺激方案持续推出、提振资本市场举措越发给力的三大确定性因素支持下，A股市场仍有望走出结构化甚至独立的较好行情。 </p>
+<p>这其中，上述所指向的九大重点领域，也将是投资确定性和安全性相对更高的重点方向。至于谁将会是2025年表现最亮眼的选择，我们一起关注和期待。 （全文完） </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzAwNjExNDkyOA==&amp;mid=2649864704&amp;idx=1&amp;sn=204ea49541a9e957f0ad6b9203d77046&amp;chksm=828997f1b98be454401bb1ceff4e468ad6a683308b6b4d0967f9150f896fcac3a84b665d5b0f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“格隆汇APP”（ID：hkguruclub）</a>，作者：哥吉拉，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3151966798486020</guid><pubDate>Wed, 05 Feb 2025 07:48:00 +0800</pubDate></item><item><title>当AI遇见XR，2025年技术如何重塑我们的现实世界？</title><link>https://36kr.com/p/3151959038508545</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2024 年的扩展现实(XR)领域充斥着各式各样的高调承诺，硬件技术不断突破，但真正兑现的却寥寥无几。除了苹果实际发布了 Apple Vision Pro 外，到年底时几乎无人再提起它。</p>
+<p>这反而为 2025 年埋下了伏笔——我们有理由相信，部分厂商会将此前的宣言转化为实实在在的产品。同时，2024 年的一些趋势也将延续到明年，例如无处不在的人工智能在 XR 中扮演着重要角色，不过其形式会有所不同：未来它更可能成为推动新硬件革新的核心动力，而不再只是用来大量制造梦幻般的虚拟现实场景。</p>
+<p>伴随着技术趋势的不断演进，2025 年的XR应用将展现出更为逼真的数字空间。</p>
+<h2><strong>1. 智能眼镜激增，却未见真正的 AR 成品</strong></h2>
+<p>早在 2017 年magicleap推出时，我就曾作过关于 XR 未来的预测：最初的透明 AR 眼镜将主要充当显示屏，随着人工智能的发展，其功能终将实现质的飞跃。令我以及整个 XR 行业惊讶的是——AI 组件的成熟竟然先于具备显示功能的眼镜问世，而且这类“无显示”智能眼镜已经找到了市场定位。</p>
+<p>Meta 旗下的智能 Ray-Ban 眼镜便是一个典型例子，证明了消费者对没有内置显示屏的智能眼镜也同样充满兴趣。在 CES 展会上，多家厂商纷纷试水不同方案。国内厂商雷鸟就展出了 V3 AI 拍摄眼镜，这款眼镜搭载了猎鹰光学镜头，配备索尼 IMX681 传感器 + 5P 定制光学镜头，支持 4K 照片拍摄、1080P 横向、1440P 竖向视频。AI 方面，雷鸟 V3 搭载由通义独家定制的大模型，可实现 1.3s 的响应速度、98% 的识别准确率高达 98%。</p>
+<p>2025 年我们将看到更多这一主题的各种变种，但关键问题是：在众多厂商纷纷准备推出带显示屏的眼镜之际，那些“纯智能”眼镜能否实现长远发展?有迹象表明，Meta 今年或将推出某种带简易 HUD(抬头显示)的眼镜，而鉴于 Meta 与 Ray-Ban 的深度合作，这款产品有望在市场上产生更大影响。</p>
+<h2><strong>2. XR 头显：市场竞争激烈，却无颠覆性新品</strong></h2>
+<p>在这一领域，今年我们无需屏息等待硬件的革命性突破，但同时，各大厂商纷纷加入这场角逐。近几个月来，Meta 先后发布了 Meta Horizon OS，而紧接着，Google 也推出了 Android XR 平台。不同头显厂商之间的较量，以及消费者在选择时的侧重点，都将成为业界关注的焦点。</p>
+<p class="image-wrapper"><img data-img-size-val="638,540" src="https://img.36krcdn.com/hsossms/20250204/v2_1f257e4798c14cda81d26283aecf669e@813924438_oswg129609oswg638oswg540_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>三星也亮相展示了其 XR 眼镜概念——Project Monahan，但关于这一项目的详细信息仍然有限，官方宣布预计在今年晚些时候发布。</p>
+<p>正如往常所见，Meta 仍然被寄予厚望引领市场变革。虽然我们对其长远战略(即 Orion 项目)已有一定了解，但 XR 头显细分市场(特别是“通透模式”这一领域)的前景依然扑朔迷离。Meta 放弃了 Quest Pro 2，却推出了价格更亲民的 Quest 3S，这让人们对其下一步动作充满期待。</p>
+<p>结合过去六个月展示的各种原型，以及 Andrew “Boz” Bosworth 关于外接处理单元的讨论——毕竟设备的外形设计对社交体验至关重要——可以预见 Meta 可能会推出一款外接“处理球”，通过无线传输应用和图形数据，极大减小头显自身的体积，从而实现更轻巧的设计。</p>
+<h2><strong>3. 数字孪生——“人”的虚拟复制品</strong></h2>
+<p>十多年来，关于 XR 的讨论始终离不开“杀手级应用”这一话题。然而，真正的杀手级应用并非某个单独的APP，而是沟通与交流。Meta 深谙此道，并正朝这个方向不断努力。</p>
+<p>其中最引人瞩目的突破便是 Codec Avatars 技术，这一技术已由 Meta 多年精心研发。2023 年，Lex Fridman 与 Mark Zuckerberg 通过各自的 Codec Avatars 进行了一次对话，预示着这一技术很快可能面向大众开放。当 Orion 这类眼镜真正上市时，Codec Avatars 的真正威力也将逐步显现，或许我们正处在数字化“真人复制品”即将普及的门槛上。</p>
+<p class="image-wrapper"><img data-img-size-val="968,544" src="https://img.36krcdn.com/hsossms/20250204/v2_19615101896c4fac8404a89fd8757a5b@813924438_oswg293054oswg968oswg544_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>我认为，未来人们不仅会接受自己超逼真的数字复制形象，还希望能在虚拟形象与现实自我之间自由切换。为此，我们已经开发出一套系统，允许用户在预设的虚拟形象与由摄像头实时捕捉的全息影像之间进行选择，从而满足大家在不同场景下展示自我状态的需求。</p>
+<h2><strong>4. 高斯点云渲染技术普及</strong></h2>
+<p>近年来，利用 NeRF(神经辐射场)和高斯点云渲染(Gaussian Splatting)技术快速生成个人空间的 3D 数字模型，已逐渐获得市场认可。用户只需一部手机就能轻松构建出自己空间的 3D 模型，并在虚拟现实中进行体验。Meta 与 Niantic 正在大力投资这一方向，预计今年在优化和可视化方面将有显著进步。与此同时，学术界也在为打造高度逼真的数字环境而不断攻坚。</p>
+<p>然而，我们要问的是：当画面细腻度达到极致后，下一步该如何突破?</p>
+<p>数字孪生的真正价值不仅在于精准还原，更在于它们内部能够开展的各种互动应用。比如，我们正致力于建立一套模板系统，使用户能够在这些虚拟空间中轻松构建各种互动体验。同时，我们也在探索如何进一步提升这些空间的功能，将现实物理空间的局限性打破——比如，为什么一定要有天花板?为什么墙面不能设计成流动、可交互的?</p>
+<h2><strong>5. 内容的质量与数量之争</strong></h2>
+<p>随着 2025 年关于 XR 现状的各类报告陆续发布，有一个共同的问题始终存在——那就是内容，或者说优质 XR 体验内容的稀缺。用户普遍反映，内容匮乏以及优质 XR 体验难以发现，是阻碍他们迈入 XR 世界的主要障碍(再加上头显体积庞大、佩戴不便等问题)，而各大厂商也纷纷呼吁加大投入，开发更多优质内容。</p>
+<p>尽管如此，新型 XR 体验仍在不断涌现——有的是纯 XR 原生应用，有的则是对热门 VR 游戏进行改版升级。然而，目前最缺乏的，是那些真正能够充分利用混合现实和增强现实技术优势、突破传统 VR 通透体验局限的沉浸式体验。</p>
+<p>去年在《消失的法老》带动下，VR LBE大空间沉浸式文旅产品数量呈现出“井喷”式增长。虽然VR大空间技术为用户提供了沉浸式、交互式的体验，但一些VR画面内容开发较为粗糙、受制于头显硬件设备因素，会出现画面效果极为拉垮等情况。而且很多内容缺乏创新，同质化严重，难以吸引用户持续参与。</p>
+<p class="image-wrapper"><img data-img-size-val="969,646" src="https://img.36krcdn.com/hsossms/20250204/v2_90e7bd7dc6274575a15e524f3e4b53c2@813924438_oswg1096231oswg969oswg646_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>随着新一代 XR 头显和智能显示眼镜的陆续上市，这一问题将愈发突出。如果希望硬件产品真正落地并获得用户认可，如何在内容生态上实现突破，无疑将是 2025 年亟待解决的重要课题。</p>
+<h2><strong>结语</strong></h2>
+<p>23年底，我在HTC北京办公室体验法老的时候，完全没有想到一年过去，从硬件到内容，这个行业的发展如此迅猛。从Apple Vision Pro的发布到Meta Orion项目的推进，我们见证了硬件技术的不断革新和AI在扩展现实领域的深度融合。然而，面对即将到来的新时代，挑战与机遇并存。</p>
+<p>2025年的XR领域充满了无限可能。无论是硬件设备的革新还是内容生态的完善，每一步进展都在为这一目标添砖加瓦。作为见证者和参与者，我们有理由期待，在不远的将来，XR技术将真正融入我们的日常生活，开启一个全新的数字时代。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ZaIYIq_rcAbRCwHoYj7_1A" rel="noopener noreferrer nofollow" target="_blank">“科技旋涡”</a>，作者：王秦州，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3151959038508545</guid><pubDate>Wed, 05 Feb 2025 07:50:00 +0800</pubDate></item><item><title>被小红书带火的CCD相机：不是电子垃圾，而是潮流文化</title><link>https://36kr.com/p/3151857989680640</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2020年前后，国内社交平台小红书上出现了大量关于CCD相机的分享。几乎是同一时间，欧阳娜娜、易烊千玺、张子枫等明星，也被曝在使用CCD相机。在这些宣传的推动下，CCD相机迅速成为二手数码产品市场的新宠。</p>
+<p>然而因成本高昂，CCD相机几乎被消费级市场淘汰，只有部分中画幅高端相机仍基于CCD技术。在CMOS称霸相机行业的今天，有这么多声音宣传CCD相机，不免令人怀疑是二道贩子在背后推波助澜。</p>
+<p>的确，多年前CCD相机就陷入了“论斤卖”的窘境，2020年该产品价格飙升数倍，部分产品甚至接近首发价格，不可能没有二道贩子炒作。<strong>但二道贩子的影响只能解释CCD相机翻红的原因，却不能解释五年之后的2025年，CCD相机热度为何依旧没有消退，甚至溢价能力相较2020年有过之而无不及。</strong></p>
+<h2>CCD相机成了一种潮流文化</h2>
+<p>在懂相机、热爱摄影，且不打算通过带货、售卖CCD相机赚钱的人眼中，CCD相机堪称电子垃圾，没有任何存在的价值。<strong>对于不懂或者稍微懂一些摄影的用户而言，CCD相机则可以满足我们对于相机的基础要求。</strong></p>
+<p>现阶段全新相机价格依然居高不下，哪怕是入门级APS-C画幅相机，套机价格通常也在3000元以上，全画幅、中画幅相机套机价格更是万元左右起步，更不用说后期购买各种焦段镜头的成本。</p>
+<p>CCD相机纵然经过二道贩子的炒作，价格一路飙升，但大多数产品的价格依然在1000元以内，仅有少数当年的高端产品，价格才会超过1000元。而且CCD相机基本配备不可拆卸镜头，省去了后期购买镜头的烦恼。<strong>整体购入和使用成本，CCD相机可能只是微单相机的零头。</strong>当然，小雷反对二道贩子的炒作行为，二手CCD相机不值这么多钱。</p>
+<p class="image-wrapper"><img data-img-size-val="4032,3024" src="https://img.36krcdn.com/hsossms/20250204/v2_348a30e1aaf84e7d93f1a549211349e0@1547419282_oswg2951942oswg4032oswg3024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：雷科技摄制）</p>
+<p>至于常被吐槽的拍摄效果不如手机问题，CCD相机确实存在，可画质低下的朦胧感产生的复古风格，同样有不少人喜欢。富士相机的热度和销量也能够证明，复古风格受众群体广泛。<strong>画质较差导致画面的部分细节难以看清，反而可以减少后期处理所需的工作，颜值本就不差的女性用户无需进行后期处理，直出样张就能分享在朋友圈或其他社交平台。</strong></p>
+<p>在许多关于CCD相机的解读、推荐类视频，以及二手CCD商品的评论区，小雷常看到有消费者询问，自己还在上中学，学校不允许带手机，又没有那么多钱去买相机，想问什么样的CCD相机适合用于记录校园生活。还有网友表示，跟朋友出去玩的时候用手机拍摄会感觉不好意思，也担心路人误会他偷拍，传统相机太贵，所以购买了CCD相机。</p>
+<p class="image-wrapper"><img data-img-size-val="7952,4771" src="https://img.36krcdn.com/hsossms/20250204/v2_f1f7b7d1586d4746b001588e7418bf62@1547419282_oswg3177822oswg7952oswg4771_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：雷科技摄制）</p>
+<p><strong>与专业人士眼中购买CCD相机的消费者都是被忽悠的小白不同，许多消费者其实知道CCD相机拍照不行，但真的有用相机拍照的需求，预算又不足以购买相机。</strong>价格便宜且用CCD相机拍照看上去更加专业，已成为今天许多消费者下单的原因之一。</p>
+<p>在这些消费者的推动下，CCD相机也逐渐形成了自己的文化，小红书、B站等平台，都有用户经常分享使用CCD相机扫街的经历。<strong>CCD相机的用户们或许没有专业的摄影能力，但在CCD文化的熏陶下，慢慢地将拍摄、分享融入了生活。</strong>这些操作虽也可以用手机完成，却会缺少相机带来的的仪式感。</p>
+<p><strong>总的来说，消费者购买CCD相机并不是不知道此类产品不值这个价钱，只是在预算范围内，CCD相机已是最好的选择。</strong>除非国产相机能够崛起，推出大量低价、优质的相机产品，否则接下来数年内CCD相机的地位都不会改变，也将保持超过实际价值的溢价。</p>
+<h2>元器件会老化，CCD文化不会消失</h2>
+<p>目前二手平台在售的CCD相机，不少已有10年以上历史，部分产品甚至接近20年，外观为“战损级成色”属于常态，元器件老化更加致命。相机厂商普遍不再生产CCD相机及其配件，CCD相机的存量基本固定，且出现问题后难以维修，CCD相机的数量会随着时间变迁逐渐减少。</p>
+<p>但CCD相机消失，并不意味着其带来的扫街、分享文化也会消失。事实上，<strong>CCD相机的概念已被混淆，不局限于使用CCD技术的相机，搭载背照式CMOS和堆栈式CMOS的卡片相机，同样被称为CCD相机。</strong></p>
+<p>甚至说，国内还出现了许多仿CCD相机设计的小品牌卡片相机。这些相机普遍搭载CMOS传感器，低端产品仅需数十元到一两百元，不支持光学变焦，其中不少还是行车记录仪改装。高端产品则售价上千元，支持5倍到10倍光学变焦。</p>
+<p class="image-wrapper"><img data-img-size-val="2998,2000" src="https://img.36krcdn.com/hsossms/20250204/v2_4520943e3c484887b523f814305e05e8@1547419282_oswg1111823oswg2998oswg2000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：雷科技摄制）</p>
+<p>相机厂商不再重视CCD相机，原因在于CCD技术成本高昂，且在CMOS传感器飞速发展的今天，拍摄效果也不再有优势。然而基于CMOS技术，厂商依然可以尝试推出小体积的相机。在CCD相机概念扩大化的情况下，索尼ZV-1系列都能被称为CCD相机，搭载CMOS传感器的卡片相机同样可以打着CCD的名号售卖。</p>
+<p>头部相机厂商或许看不上CCD相机行业的仨瓜俩枣，但对于边缘化的相机品牌而言，CCD相机这块市场或许可以成为他们重塑辉煌的关键。例如胶卷相机时代名噪一时的柯达，于2022年推出了类似CCD相机的复古新品FZ55，该产品基于1/2.3英寸CMOS传感器，支持5倍光学变焦和自动对焦技术，价格也仅为994.01元。</p>
+<p class="image-wrapper"><img data-img-size-val="2495,1197" src="https://img.36krcdn.com/hsossms/20250204/v2_cf0c97e3fef546f883923bf56ec5fe0f@1547419282_oswg527286oswg2495oswg1197_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：京东截图）</p>
+<p>2024年4月份的日本BCN+R公布的销售排行榜上，柯达FZ55位列第一，定位相似的柯达FZ45和WPZ2两款产品分别位列第三和第五。凭借这些产品，柯达一跃成为当月日本相机销量第一的厂商。不过柯达似乎并未在国内投放广告，除了小红书，其他各平台该产品的信息都非常少。</p>
+<p>市场调研机构BCN公布的数据显示，2024年日本固定镜头相机品类中，柯达以21.2%的份额位列第二，仅次于亲民价位相机之王佳能。</p>
+<p>已是发达国家的日本，柯达通过几款类似CCD相机的产品都能取得极高的销量成绩，证明全球此类相机的受众群体不在少数。<strong>在柯达的带动下，未来或许会有更多相机厂商布局低端市场，推出价格实惠的相机。</strong></p>
+<h2>有需求就有市场，嘲讽大可不必</h2>
+<p>若问现在CCD相机值不值得买，小雷给出的答案是否定的，CCD相机的价格与拍摄效果不匹配，连千元机都比不过。但若真的想体验相机拍摄，且预算又不多，那么CCD相机依然可以购买。<strong>嘲讽CCD相机是电子垃圾，则大可不必。</strong></p>
+<p>在小米手机的评论区，小雷多次看到有网友请求雷总去做相机，大疆相机曝光后，也有无数网友欢呼雀跃。<strong>究其原因，还是单反、无反相机价格太贵，消费者希望擅长性价比的国内厂商，能够在中国强大的工业实力的加持下，将相机的价格打下来。</strong></p>
+<p>每个人的经济情况不同，在预算内做好有限的事情，已经不容易。视频、图片、自媒体为主导的互联网时代，CCD相机爆火是我们分享欲的一种体现。<strong>即便不懂硬核拍摄技术，也没有强大的硬件设备，网友们仍希望使用相机记录下生活的点点滴滴。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="821,543" src="https://img.36krcdn.com/hsossms/20250204/v2_c1b99544db01425dbdfd4323dbf4ec97@1547419282_oswg912090oswg821oswg543_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：雷科技摄制）</p>
+<p>我们可以否认CCD相机产品，却不能否认CCD所代表的文化意义。<strong>未来CCD相机或许会被淘汰，但总会有新品取代CCD相机的地位，成为新时代的文化符号之一。</strong></p>
+<p>另外，因计算摄影、AI长焦等技术的兴起，以及大底CMOS主摄在手机端的应用，令旗舰机的拍摄能力已足够与入门级相机一较高下，甚至更胜一筹。但相机市场规模较小，厂商普遍没有足够的动力去升级入门级产品，导致入门级相机的竞争力愈显不足。</p>
+<p><strong>CCD相机能够起到为微单相机培养受众群体的作用，一旦用户对于CCD的拍摄效果不满意，就可能花钱购买单反、无反相机。消费者的需求增加，企业也将更有动力打造面向入门级市场的产品。</strong>唯有将整个市场做大，企业、消费者才能有机会收获更多利益。</p>
+<p>本文来自“雷科技”，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3151857989680640</guid><pubDate>Wed, 05 Feb 2025 07:54:00 +0800</pubDate></item><item><title>8点1氪｜日本流感病例已超950万人；谷歌涉嫌违反《中华人民共和国反垄断法》；国内航线燃油附加费2月5日起上调</title><link>https://36kr.com/p/3152958238186246</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2>TOP3大新闻</h2>
+<p><strong>日本流感病例已超950万人，台湾民众抢打流感疫苗</strong></p>
+<p>记者于当地时间2月3日获悉，日本自去年12月下旬流感患者人数创下新高之后，一些医院和药店受部分医疗机构过度囤购药品造成库存分布不均等因素影响，日前出现流感药短缺的情况。据日本国立感染症研究所1月31日公布的数据，自2024年9月2日至2025年1月26日，日本国内累计流感病例据推算已达到约952.3万人。</p>
+<p>艺人大S徐熙媛流感并发肺炎去世的消息也引发台湾地区流感疫苗抢打潮。岛内各地卫生部门、医疗院所涌入接种人流，询问电话被“打爆”，疾控部门网站也瘫痪。（央视新闻、看看新闻KNEWS）</p>
+<p><strong>谷歌公司涉嫌违反《中华人民共和国反垄断法》，市场监管总局依法决定立案调查</strong></p>
+<p>2月4日，据市说新语微信公众号消息，因谷歌公司涉嫌违反《中华人民共和国反垄断法》，市场监管总局依法对谷歌公司开展立案调查。目前，谷歌在多国面临反垄断诉讼，其中包括美国司法部对谷歌的分拆请求。此外，欧盟也对谷歌提出了多起反垄断诉讼。（澎湃新闻）</p>
+<p><strong>国内航线燃油附加费2月5日起上调，每个航段上调20元或10元</strong></p>
+<p>自2月5日起，国内航线旅客运输燃油附加费执行新的征收标准，相比调整前的标准，每个航段上调20元或10元，这是今年以来国内航线燃油附加费首次调整。800公里以上航线，燃油附加费由原来的20元调整为40元；800公里及以下航线，燃油附加费由原来的10元调整为20元。</p>
+<p>多家航司提醒，国内航线燃油附加费执行新征收标准后，旅客在今年2月5日之前购买的2月5日及之后的出行航班客票，在2月5日及之后进行自愿变更的话，燃油附加费不受影响。并且根据相关规定，婴儿免收国内航线旅客运输燃油附加费，对于包括无成人陪伴儿童在内的儿童旅客、革命伤残军人和因公致残的人民警察旅客，国内航线旅客运输燃油附加实行减半收取。（极目新闻）</p>
+<h2>大公司/大事件</h2>
+<p><strong>泰国将对泰缅边境的缅甸地区断电，并警告如有怠慢者将被调职</strong></p>
+<p>2月4日，泰国副总理兼国防部长普坦表示，将于当天下令对泰缅边境的缅甸地区断电，并警告如有怠慢者将被调职。此外，泰国政府当天举行内阁会议，就对泰缅边境的缅甸地区断电进行深入讨论。</p>
+<p>会议上，泰国总理佩通坦要求国家安全委员会对边境地区断电措施进行监督，并授权副总理兼国防部长普坦与国家安全委员会召开紧急会议，讨论进一步措施。据悉，这一会议将于当地时间4日17时举行。（央视新闻）</p>
+<p><strong>拜登与知名艺人经纪公司签约，此前任职副总统期间已有合作</strong></p>
+<p>据美国福克斯新闻及法新社3日报道，刚刚卸任的美国前总统乔·拜登已与美国知名的艺人经纪公司创新艺人经纪公司（Creative Artists Agency，简称CAA）签约。根据CAA2月3日在社交媒体上发布的声明，他们此前已在拜登任职副总统期间与其签约。在上次签约期间，出版了拜登的个人回忆录并进行了为期42天的巡演，在全美范围内售出超8.5万张门票，并完成多场演讲活动。</p>
+<p>创新艺人经纪公司（CAA）是美国知名的经纪公司，客户包括电影明星、体育界和音乐界名人，并且与不少政客也有往来。有记录显示，美国前总统奥巴马及其夫人均与该公司有合作，美国前国务卿希拉里也与该公司有过签约。（央视新闻）</p>
+<p><strong>哪吒2成中国影史春节档票房冠军，已打破18项影史纪录</strong></p>
+<p>据灯塔专业版，截至2月3日13时15分，《哪吒之魔童闹海》票房已达35.62亿，超过《唐人街探案3》（档期内票房35.61亿），成为中国影史春节档票房冠军！至此，《哪吒之魔童闹海》已打破18项影史纪录。（北京日报）</p>
+<p><strong>商务部：将美国PVH集团和因美纳公司列入不可靠实体清单</strong></p>
+<p>据商务部消息，为维护国家主权、安全和发展利益，根据《中华人民共和国对外贸易法》《中华人民共和国国家安全法》《中华人民共和国反外国制裁法》等有关法律，依据《不可靠实体清单规定》有关规定，不可靠实体清单工作机制决定将美国PVH集团、因美纳公司（Illumina, Inc.）列入不可靠实体清单。上述两家实体违反正常的市场交易原则，中断与中国企业的正常交易，对中国企业采取歧视性措施，严重损害中国企业合法权益。不可靠实体清单工作机制将依据相关法律法规，对上述实体采取相应措施。（人民网）</p>
+<p><strong>特朗普亲自给马斯克下任务：把滞留太空的两名宇航员接回来</strong></p>
+<p>当地时间28日，美国总统特朗普在其社交媒体平台“真实社交”上发文表示，他已指示美国太空探索技术公司（SpaceX）及其首席执行官马斯克，采取行动接回滞留在国际空间站的两名美国宇航员。这两名宇航员于去年6月5日搭乘波音“星际客机”飞赴空间站，这是“星际客机”首次载人试飞任务。飞船原定于6月14日返航，但因推进器故障和氦气泄漏等问题，返航时间一再推迟。（央视新闻）</p>
+<p><strong>马斯克在2024年美国大选中花费超过2.9亿美元</strong></p>
+<p>当地时间2月1日，美国联邦选举委员会年底的备案文件显示，埃隆·马斯克在2024年美国大选中的花费超过了2.9亿美元。文件表明，马斯克在年末的最后一天向其资助的“政治行动委员会（PAC）”捐款约1120万美元，这使他的总政治捐赠金额超过了2.9亿美元。（央视新闻）</p>
+<p><strong>开市客将提高美国大部分门店员工时薪至30美元以上</strong></p>
+<p>根据近期发送给员工的备忘录，开市客（Costco）将把美国大部分门店小时工的时薪提高至30美元以上。备忘录显示，公司将在未来三年内逐步提高最高级别员工的时薪，第一年增加1美元至30.20美元，随后两年每年再增加1美元。（财联社）</p>
+<p><strong>特斯拉据悉将为日本大型储能设施供应电池</strong></p>
+<p>特斯拉据悉将向位于日本中部滋贺县米原市的工厂提供总容量548兆瓦时的超大型商用储能电池Megapack，该工厂是金融服务集团欧力士计划建设的日本最大的储能电站之一，最早将于2027年投入运营。（财联社）</p>
+<p><strong>苹果宣布开源Swift Build，拓展开发者生态建设</strong></p>
+<p>苹果公司宣布其将开源用于构建Xcode开发环境的工具引擎Swift Build。此举旨在为开发者提供更加灵活和强大的工具支持，进一步加强苹果开发者社区的活力与创新能力。（IT之家）</p>
+<p><strong>低于800美元货物取消豁免，特朗普关税新政将影响超10亿件小包裹</strong></p>
+<p>当地时间2月1日，美国总统特朗普签署行政令，对进口自中国的商品加征10%的关税，同时也向邻国墨西哥、加拿大挥动关税大棒。最新的关税政策将于2月4日起生效。值得关注的是，特朗普此次签署的行政令取消了美国对价值低于800美元的小额货物的“最低限度”关税豁免，这预计将对Temu和Shein等廉价在线零售商的销售产生影响，并削弱中国电商的全球竞争力。根据美国海关和边境保护局的数据，在过去10年中，进入美国的申请“最低限度”关税豁免的货物数量出现指数级增长，从2015财年的每年约1.39亿件增加到2023财年的每年超过10亿件，增幅超过600%。在2024财年，“最低限度”货物数量再次上升至超过13.6亿件。（第一财经）</p>
+<p><strong>Stellantis精简组织架构，新任命Jeep、标致等品牌负责人</strong></p>
+<p>Stellantis集团宣布，根据去年12月公布的管理层调整方案，集团现采取一系列措施以精简组织架构。其中，软件业务已整合至产品开发和技术部、事务部与企业传播部合并以及成立新的集团性市场营销部等。同时，Stellantis集团官宣多项管理层变动，其中Bob Broderdorf被任命为Jeep品牌负责人、Alain Favey加入Stellantis集团并被任命为标致品牌负责人、Xavier Peugeot被任命为DS品牌负责人、Anne Abboud被任命为Pro One商用车业务负责人。Stellantis集团董事长约翰·艾尔坎表示，基于去年12月Stellantis集团作出针对集团管理层的调整，本次有关变动将进一步精简组织架构并提升Stellantis集团在各区域性市场的灵活性和执行力。（界面新闻）</p>
+<h2>AI最前沿</h2>
+<p><strong>OpenAI和韩国头部聊天应用运营商Kakao计划合作开发面向韩国市场的人工智能产品</strong></p>
+<p>ChatGPT开发者OpenAI和韩国占主导地位的聊天应用运营商Kakao于2月4日表示，双方计划建立战略伙伴关系，开发面向韩国市场的人工智能产品。Kakao首席执行官Chung Shina在首尔举行的新闻发布会上表示，Kakao将在其应用上使用OpenAI技术。被问及OpenAI是否正在考虑投资和加入韩国的人工智能计算中心项目，OpenAICEO奥特曼表示，公司正在“积极考虑”这一举措。（财联社）</p>
+<p><strong>OpenAI正式推出面向深度研究领域的智能体产品深度研究（Deep research）功能</strong></p>
+<p>北京时间2月3日上午，OpenAI正式推出面向深度研究领域的智能体产品深度研究（Deep research）功能。该功能可在5-30分钟完成专业报告，支持多领域高强度知识工作者，由o3模型提供支持，通过端到端强化学习训练，由四模块协同工作，已在ChatGPT上线，未来计划扩展数据源和结合Operator执行复杂任务。（腾讯科技）</p>
+<p><strong>郭明錤：Apple Intelligence对iPhone销售无太大帮助</strong></p>
+<p>分析师郭明錤发布报告指出，Apple Intelligence对iPhone销售无太大帮助。根据其产业调查，整体iPhone 4Q24出货量衰退约5.8%，但iPhone营收仅在4Q24同比衰退0.8%，原因在于iPhone在4Q24的产品出货组合又更进一步改善。以新机型Pro系列占总体出货量而言，从4Q23的54%显著提升到61%。此外，购买Pro系列的用户，有很高的机率都会加价买更高储存空间的版本，因此Pro系列对平均单价的贡献非常显著。不过，Pro机型占比不可能无止尽的提高，Q12025财报中的iPhone的营收开始衰退就是个警讯。若苹果不调整iPhone产品与销售策略，照此趋势，2026年就会见到iPhone营收出现中个位数的同比衰退。（财联社）</p>
+<h2>大公司财报</h2>
+<p><strong>壳牌第四季度调整后利润为36.6亿美元同比下降50%</strong></p>
+<p>壳牌第四季度营收662.8亿美元，同比下降16%，预估651.1亿美元；调整后利润为36.6亿美元，同比下降50%，预期为43.6亿美元。调整后每股收益0.6美元，上年同期1.11美元，预估0.68美元。壳牌宣布35亿美元的股票回购计划。（财联社）</p>
+<p><strong>AMD第四季度营收76.58亿美元，净利润同比下降28%</strong></p>
+<p>北京时间2月5日，AMD公布了该公司的2024财年第四季度及全年财报。报告显示，AMD第四季度营收为76.58亿美元，与上年同期的61.68亿美元相比增长24%，与上一季度的68.19亿美元相比增长12%；净利润为4.82亿美元，与上年同期的6.67亿美元相比下降28%，与上一季度的7.71亿美元相比下降37%；不按照美国通用会计准则的调整后净利润为17.77亿美元，与上年同期的12.49亿美元相比增长42%，与上一季度的15.04亿美元相比增长18%。（新浪科技）</p>
+<p><strong>诺基亚第四季度调整后营业利润11.4亿欧元</strong></p>
+<p>诺基亚第四季度调整后营业利润11.4亿欧元，预估9.621亿欧元；预计2025年调整后营业利润19亿欧元至24亿欧元。（财联社）</p>
+<p><strong>IBM第四季度营收175.53亿美元，净利润同比下降11%</strong></p>
+<p>IBM于1月31日发布了该公司的2024财年第四季度及全年财报。报告显示，IBM第四季度营收为175.53亿美元，与上年同期的173.81亿美元相比增长1%，不计入汇率变动的影响为同比增长2%；来自于持续运营业务的净利润为29.27亿美元，与上年同期的32.85亿美元相比下降11%；不按照美国通用会计准则，来自于持续运营业务的运营净利润为37亿美元，同比增长3%。（新浪科技）</p>
+<p><strong>Meta2024年四季度营收483.9亿美元，同比增长21%</strong></p>
+<p>Meta当地时间1月29日公布2024年第四季度及全年财报。2024年第四季度和2024年全年营收分别为483.9亿美元和1645.0亿美元，同比分别增长21%和22%。预计2025年第一季度营收为395亿至418亿美元。预计2025年全年的资本支出将在600-650亿美元之间。（界面新闻）</p>
+<p><strong>整理</strong>｜何雨婷</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3152958238186246</guid><pubDate>Wed, 05 Feb 2025 07:56:00 +0800</pubDate></item></channel></rss>
