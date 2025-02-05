@@ -1,248 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 05 Feb 2025 15:30:21 +0800</lastBuildDate><pubDate>Wed, 05 Feb 2025 15:30:21 +0800</pubDate><item><title>“算力崩塌”，是真是假</title><link>https://36kr.com/p/3153174454868480</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>DeepSeek的开发成本极低，开源、服务完全免费，这让山姆·奥特曼和其他AI人工智能的从业者“印象深刻”，让世界首富马斯克破防，让瑞·达利欧对美股深感担忧。</p>
-<p>知名投资人“木头姐” 凯茜·伍德甚至直言：DeepSeek加剧了人工智能的成本崩溃。</p>
-<p>“神秘的东方力量”让全世界为之侧目，也引发了中美AI领导地位更替的思考。不过，对于算力进行重新判断，可能仍然为时尚早。</p>
-<p>当前，我国AI算力部署占全球算力基础设施的26%，名列世界第二。在“算力即国力”的思潮下，东数西算等数字基础设施工程正积极进行。</p>
-<p><strong>DeepSeek颠覆了固有的“大力出奇迹”的大模型性能提升路径，短期内对算力需求预期会出现大幅下降。但长期来看，算力部署仍然有大规模需求扩张作的基础。</strong></p>
-<p>正在进行的超大规模算力投资，对于中国科技产业来说，仍是一笔巨大的财富。Deepseek带来的对算力成本的大幅节省，与如今中国大规模投入的算力基础设施建设并不冲突。</p>
-<h2><strong>01 颠覆</strong></h2>
-<p>DeepSeek的颠覆性创新，在于极致的效率革命。它仅用不到OpenAI十分之一的成本，就达到了后者最新大模型的性能。</p>
-<p>1月20日，DeepSeek 正式发布DeepSeek-R1模型系列，大模型排行榜Chatbot Arena上，DeepSeek- R1的基准测试排名已升至全类别第三，与ChatGPT-4o最新版并驾齐驱，并在风格控制类模型分类中与OpenAI-o1并列头名。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,749" src="https://img.36krcdn.com/hsossms/20250205/v2_9304238d9e2c43b1be29dafe2855a254@5091053_oswg220385oswg1080oswg749_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>R1模型虽未公布训练成本，但据DeepSeekV3技术报告，V3模型的训练总计只需要278.8万GPU小时，相当于在2048块H800 (英伟达特供中国市场的低配版GPU)集群上训练约2个月，合计成本仅557.6万美金。</p>
-<p>有传言，R1模型的训练成本基本相当，但参数规模达到惊人的6710亿，这些数据都足够令外界震惊。</p>
-<p>作为对比，GPT-4o模型的训练成本约为1亿美元，需要英伟达GPU量级在万块以上，且是比H800性能更强的H100。</p>
-<p>同样是开源模式的Meta Llama 3 系列模型，其训练需要多达3930万H100 GPU小时，DeepSeek的训练成本约相当于Llama 3的7%。也有AI大佬表示过，仅DeepSeek-V3级别的能力就需要接近16000颗GPU的集群。</p>
-<p>也就是说，<strong>这家中国初创AI公司仅用不到十分之一的成本，就达到了世界一流水平。</strong></p>
-<p>这种颠覆性的成本优势，极有可能改变过往“高投入、高算力”的研发路径，市场对算力硬件需求持续高增长的预期或产生动摇。</p>
-<p>“四两拨千斤”的能力源于其自研的MLA和MOE架构，为其自身的模型训练成本下降起到了关键作用。</p>
-<p>此外，R1模型使用数据蒸馏技术（Distillation），通过一系列算法和策略，将原始复杂的数据进行去噪、降维、提炼，从而得到更为精炼、更为有用的数据，提升训练效率。</p>
-<p>模型蒸馏可以通过训练小型模型模仿大型模型，广泛应用于提高AI效率与降低成本。比喻来说，DeepSeek相当于通过更高效的学习方法获得了优异分数，而OpenAI还在搞题海战术。</p>
-<p class="image-wrapper"><img data-img-size-val="988,1154" src="https://img.36krcdn.com/hsossms/20250205/v2_16a0c7f9c1994dcdb4bb9d10d001ffb6@5091053_oswg1034274oswg988oswg1154_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">关于“蒸馏技术”网络上出现了一些争议</p>
-<p><strong>OpenAI的训练非常依赖人工，其数据团队甚至分为不同水平的部门，大量数据标注还要转交给肯尼亚等廉价外包劳工，高维数据还需更高素质的专业人员进行标注，这些都是成本。</strong></p>
-<p>近期OpenAI和一些舆论也在公开指责DeepSeek团队通过“模型蒸馏”技术“违规复制”其产品功能，但始终未提供具体证据。</p>
-<p><strong>而且“数据越多性能越强”属于惯性固有思维，因为数据量越多，其中的干扰也将随之变大，在此之前，市场上已经有“人工智能变蠢了”的讨论出现。</strong></p>
-<p>也就是说，如何对数据进行清洗和精炼，同样是提升模型能力的关键。通过创新训练方法，DeepSeek改变了堆砌算力的共识。</p>
-<p>正如创始人梁文锋所说：“我们想去验证一些猜想。”</p>
-<h2><strong>02 改写</strong></h2>
-<p>半导体领域普遍遵循摩尔定律，AGI行业则是沿着Scaling Law（模型规模定律）向前演进。</p>
-<p>Scaling Law被业界认为是大模型训练的“第一性原理”，模型性能与规模（参数量、数据大小、算力资源）呈正相关——<strong>参数越多、计算资源越大，模型的性能就越强。</strong></p>
-<p>好比一个中学生，给他提供更丰富的学习资料、更长的学习时间和更好的学习环境，他的学习成绩普遍会更好。</p>
-<p>此次AI浪潮正是以Scaling law为底层逻辑的技术革命，但DeepSeek的出现打破了这一定律，或者至少让Scaling law的边际效益出现放缓的迹象。</p>
-<p>这带给业界的启示是，人工智能产业将不再一味追求大规模算力的投入，而是在模型架构和工程优化结合上进行突破。粗放式的疯狂投入发展阶段逐步退潮，AI创新进入追求效率，追求模型架构设计、工程优化全新阶段。</p>
-<p>正如达摩院首席科学家赵德丽所认为的，<strong>大模型可以看成是知识的压缩，怎么利用知识产生更好的智能，就是基于基础模型的思维推理必然发展的方向。</strong></p>
-<p>如微软rStar-Math无需蒸馏，用60块A100训练的7B模型在数学推理上可媲美 OpenAI-o1；上海 AI 实验室的书生·浦语3.0，仅使用4T数据进行训练，综合性能超过了同量级的开源模型，而且训练成本降低了75%以上。‌</p>
-<p class="image-wrapper"><img data-img-size-val="1080,555" src="https://img.36krcdn.com/hsossms/20250205/v2_89e64a4c5ce548cc918c5290e5cd7965@5091053_oswg379418oswg1080oswg555_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>DeepSeek带来的“范式转移”，不仅破除了科技大厂建立的技术领先壁垒，同时还打破了重资本比拼的游戏惯例。而且它不仅开源，而且还免费。</p>
-<p>作为回应，OpenAI紧急上线新一代推理模型o3系列的mini版本，并且首次免费向用户开放其基础功能。奥特曼承认，<strong>“我个人认为，在（开闭源）这个问题上我们站在了历史的错误一方，需要找出一个不同的开源策略。”</strong></p>
-<p>效率优化策略，无疑给互联网大厂们的超级愿景泼了一盆冷水。</p>
-<p>字节跳动2024年在AI赛道的资本开支就高达800亿元，接近BAT的总和；微软、谷歌、亚马逊、Meta、苹果五巨头合计资本开支2253亿美元，2025年有望继续增长19.6%。其中，单是微软就计划在2025财年砸下800亿美元，用于建设人工智能数据中心。</p>
-<p>就在DeepSeek-R1模型发布两天后，美国政府就联合OpenAI、软银、甲骨文等启动“星际之门”项目，计划在未来四年内最高投资5000亿美元。孙正义还宣布要给OpenAI投资250亿美元，巨头们期望通过“军备竞赛”，维持自身在AI领域的全球领导地位。</p>
-<p>此前，美国大厂为GPT-5、Llama4等下一代模型正使尽全力补充算力，奥特曼甚至一度去找到中东巨富，计划筹集7万亿美金建设一座超级数据中心和芯片制造厂。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,743" src="https://img.36krcdn.com/hsossms/20250205/v2_da390f39a6c942cca28f137179038ceb@5091053_oswg244165oswg1080oswg743_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">奥特曼一度试图筹资7万亿美元</p>
-<p>DeepSeek的出现，改变了这种超大规模扩张算力的行业发展“固定路径”，但同时也出现了一种应该彻底放弃算力建设的声音。</p>
-<h2><strong>03 过剩？</strong></h2>
-<p>国家算力战略部署的复杂性，显然会超过一般舆论讨论所得出的结论。尤其是，我国算力基础设施目前仍处于初步搭建阶段，还远未到过剩状态。</p>
-<p>一方面，随着访问量急速飙升，用户蜂拥而至，DeepSeek深度思考和联网搜索功能也出现了宕机情况。DeepSeek移动应用上线仅18天就迎来了1600万次下载，几乎是ChatGPT同期的两倍，更是成为全球140个市场中下载量最高的APP。</p>
-<p>另一方面，需要注意的是，<strong>DeepSeek目前仅支持文字问答、读图、读文档等功能，还未涉及图片、音频和视频生成领域，未来要想突破文本范畴，其对算力和前期训练成本的投入都将呈几何级飙升。</strong></p>
-<p>对于其他追随DeepSeek的大模型公司来说情况也是类似，随着用户的增长和产品线的不断丰富，最终都需要不断扩张算力。目前国内各大投资机构都在“疯狂对接”DeepSeek，显然是对此有非常清晰的判断。</p>
-<p>百度CTO王海峰就认为，规模定律（Scaling Law）仍然有效，更高质量更大规模的数据、更大的模型将会带来更强的能力。</p>
-<p>目前算力建设已成为国家级战略。2024年《政府工作报告》中就明确提出，适度超前建设数字基础设施，加快形成全国一体化算力体系。根据《中国综合算力指数（2024年）》报告，截至2023年末，我国算力基础设施规模占全球的26%，名列第二，仅次于美国。</p>
-<p>工信部数据显示，截至2024年9月，我国算力总规模246EFLOPS（每秒进行百亿亿次浮点运算的能力），在用算力中心机架总规模超过830万标准机架。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,376" src="https://img.36krcdn.com/hsossms/20250205/v2_56c33df399d4487dac94b7ce486935ae@5091053_oswg93435oswg1080oswg376_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此前，六部门联合印发《算力基础设施高质量发展行动计划》，其中指出到2025年，我国算力规模将达到300EFLOPS，智能算力占比要达到35%。</p>
-<p>“东数西算”工程早在2021年5月就已启动，京津冀、长三角、粤港澳大湾区、成渝、贵州、内蒙古、甘肃、宁夏八大枢纽和10大集群雏形已现。</p>
-<p class="image-wrapper"><img data-img-size-val="951,469" src="https://img.36krcdn.com/hsossms/20250205/v2_8819e01eb6d746c3863429536c2f92e7@5091053_oswg303931oswg951oswg469_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>国内已建、正在建设的智算中心超过250个，规划具有超万张GPU集群的智算中心已有十多个，国产芯片厂商也因此受到极大关注。华为昇腾910B、寒武纪思元590、百度昆仓芯II-R200、海光信息深算二号，加上中芯国际，共同形成了对抗英伟达、AMD的中国军团。</p>
-<p>这些大规模部署和研发投入，都具有历史性的战略意义，是人工智能时代的重要社会财富。</p>
-<h2><strong>04 写在最后</strong></h2>
-<p>用低成本开发出优质产品，是中国在资源匮乏的历史条件下，实现工业现代化的独特文化，而美国则擅长所谓的“范佛里特弹药量”，倚仗超大规模投入获得超级领先地位。</p>
-<p>在当前的世界经济格局中，中国家电、光伏等制造业基本都是以高性价比策略取胜，DeepSeek的成功，也是在另一个领域中体现出了中国智慧、巧思和韧性。</p>
-<p>中美AI拉锯的混战中，原先还处在追赶阶段的中国企业，突然以一种领先或颠覆者的身份出现，让全球科技界大为吃惊。但我们仍需要保持冷静和谦逊的心态。</p>
-<p>就像梁文锋所说的：</p>
-<blockquote>
-<p>在美国每天发生的大量创新里，这是非常普通的一个。他们之所以惊讶，是因为这是一个中国公司，以创新贡献者的身份，加入到他们的游戏里去。</p>
-</blockquote>
-<p>也正因如此，算力基础设施仍是一种人工智能时代不可或缺的创新土壤、社会资源。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/HJjeX_8FnGWOPokjwEpLNA" rel="noopener noreferrer nofollow" target="_blank">“巨潮WAVE”</a>，作者：谢泽锋，编辑：杨旭然，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153174454868480</guid><pubDate>Wed, 05 Feb 2025 14:18:00 +0800</pubDate></item><item><title>「糖吉医疗」获近亿元C轮融资，核心产品胃转流支架系统已落地近百家医院｜36氪首发</title><link>https://36kr.com/p/3153353327467016</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>36氪获悉，糖吉医疗近期已完成近亿元C轮融资。本轮融资由朗玛峰创投、衢州绿石基金投资，募集资金将主要用于国内和海外市场的产品推广、注册临床试验进程，以及建设生产产线等。</p>
-<p>「糖吉医疗」成立于2016年，专注于开发肥胖、糖尿病、脂肪肝等代谢性疾病的创新医疗器械产品（<a href="https://36kr.com/search/articles/%E7%B3%96%E5%90%89%E5%8C%BB%E7%96%97" rel="noopener noreferrer" target="_blank">36氪曾进行多次报道</a>）。</p>
-<p>目前，糖吉医疗自主研发的核心产品是一款胃转流支架系统，即通过微创介入的方式，用胃镜在十二指肠及空肠上置入一个套管，通过隔离食糜和肠壁的接触减少糖和脂肪的摄入。较之于传统减重外科手术，该方法具有操作简便、不损伤人体结构、对受治疗者造成的损伤更小等优势。相关临床数据称，使用胃转流支架系统进行为期3月的置入治疗后，相对于基线的体重减轻变化范围在4-12kg不等。</p>
-<p>近年来，超重和肥胖人群的患病率持续上升，是导致亚健康状态的主要原因之一。相关研究称，到2030年时，我国成年人超重肥胖率可达65.3%，归因于超重肥胖的医疗费用或突破4000亿人民币，约占全国医疗费用总额的20%以上。</p>
-<p>而针对肥胖及代谢性疾病的所有治疗方式中，手术已经成为公认的快速、有效，且能够持久性减轻体重的手段。在2024版《肥胖症诊疗指南》中，胃镜下胃流转支架也已成为推荐使用的手术方式之一。</p>
-<p>据糖吉医疗方面介绍，2024年，公司这款胃转流支架系统主要在审评审批上取得了一些进展：在国内，胃转流支架系统已获国家药监局批准，成为首个经肠道介入治疗肥胖症的创新三类医疗器械。截止目前，该胃转流支架系统已在全国27个省市自治区内的230余家医疗机构内进行了产品操作培训，在近百家医院内落地应用，覆盖医生数量超过500名。</p>
-<p>海外申报方面，该产品已获美国FDA的“突破性医疗器械认定”，预期用于非酒精性脂肪肝炎（NASH）合并肥胖的治疗。此外，该产品还在印尼取得医疗器械注册证。</p>
-<p>目前，拓展海外市场也成为公司今年的重点业务规划之一，计划“登陆全球10余个国家或地区”。</p>
-<p><strong>投资人观点：</strong></p>
-<p><strong>朗玛峰创投高级合伙人谈文龙博士表示：</strong>朗玛峰创投持续看好减重代谢领域的巨大市场空间，糖吉医疗通过消化道介入的干预方式，为减肥和代谢改善提供了一种纯物理解决方案。</p>
-<p>从目前积累的临床数据来看，胃转流支架系统呈现出了显著减重效果、减脂不减肌、代谢病相关血液指标综合改善的良好趋势，使患者能够全方位地收获代谢健康提升带来的益处，提高生活质量。无论是极具前瞻性的治疗理念，还是精准高效的诊疗手段，糖吉医疗让我们看到了减重代谢领域治疗范式的全新可能。我们十分看好糖吉医疗的创新能力和发展前景，愿助力其成为全球代谢病治疗领域的领军企业，为患者提供更有效的治疗方案。</p>
-<p><strong>衢州绿石基金负责人马乐陶表示：</strong>肥胖与代谢性疾病的高发，已成为包括我国在内的全球公共卫生领域的重大挑战，减重代谢市场的量级与长期潜力不可谓不大。糖吉团队选择在庞大市场中另辟蹊径，通过消化道介入的方式进行干预，为相关患者提供了一种全新选择，我们非常赞赏团队的全球首创精神，同时也是衢州生命健康板块转型升级亟需的标杆性项目。目前糖吉医疗已完成国内严肃医疗领域的快速布局，未来我们也很期待其在全球市场的表现。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153353327467016</guid><pubDate>Wed, 05 Feb 2025 14:40:00 +0800</pubDate></item><item><title>短剧春节档：明着打，暗里爽</title><link>https://36kr.com/p/3153269262277120</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>就在短视频、长视频甚至电商外卖巨头都摩拳擦掌激战短剧春节档，预告新剧数量近 2000部、每天全网累计上新几十部的情况下，2025年春节期间，短剧并未跑出现象级爆款。</p>
-<p>这多少令人有些失望。毕竟，2024年春节档，《无双》《我在八零年代当后妈》等充值爆款令短剧彻底出圈，开启了短剧的内容新贵之路，同时也是主流规范化之路。2024年11月，中国网络视听协会发布的《微短剧行业发展白皮书》显示，这一年的短剧市场规模预计突破500亿，超过全年电影票房。一时间，人们都在发出短剧全面崛起、长剧长片日薄西山的感叹。</p>
-<p><strong>然而就在长剧躺平放弃、电影保守保质、短剧高歌猛进的2025年春节档，电影扬眉吐气，长剧销声匿迹，短剧则再次进入各取所需的相对沉默状态。</strong>短剧仍在分门别类地满足着人们最直白的欲求和最隐秘的爽点，出圈爆款与话题效应却难寻觅。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_baa064bac42941c68ff8201d71f512a5@000000_oswg606024oswg1080oswg450_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在免费模式+分散分发+失去新事物红利等多重作用下，短剧成熟了，也消停了，又回到被窝里让我们偷着看偷着乐了。</p>
-<h2><strong>01 哪里有压抑，哪里就有短剧</strong></h2>
-<p>没有贾玲的春节档，含男量再次成为电影圈的原罪。但短剧倒是凭借量大而分散，做到了男的、女的、年轻的、年老的，都能吃上一口。</p>
-<p><strong>正所谓，越压抑越刺激，擦边亦是生产力，这一点不分赛道，甚至也不分人群。</strong>1月中旬起，男女两边就各诞生了一部擦边爆款，作为春节档前哨。</p>
-<p>男频这边，悬疑志怪短剧《蛇园》深得早年国产恐怖片的精髓，令人想入非非的开头搭配《走近科学》式收尾，一通操作下来“骗”到近3000w的充值。</p>
-<p>女频方面，重生复仇短剧《坠入春夜》主打真情侣N搭，戏里接触与戏外营业都无所畏惧。开播2天，全网阅读量破1亿。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_c969a20af9f945ccace672f74da2b91f@000000_oswg113082oswg946oswg865_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>男频学习到迂回与隐晦，女频则加大供给以及各种意义上的内容升级，这基本也是短剧过去一年的情况概括。因此，当我们将观察范围拉到整个春节档，擦边毕竟只是很小一部分，女频与男频呈现出的是两种不同的多元化成果。</p>
-<p>女频的多元化在于细分类型的各自壮大，现偶、古偶、年代偶，穿越、复仇、双男主，皆有精品力作供给。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_40035463b5144096b5395d9237922b40@000000_oswg109782oswg1080oswg699_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>男频的多元化则是看谁能将安全牌打出更多新花样。</strong></p>
-<p>例如，红果力推的《行道者之剑二十四》是将武侠题材引入短剧。付费免费皆表现突出的《老千》则是以反赌为名义的赌片。另外还有一些疑似融合了男频赘婿与女频“胎里素文学”的虐爽剧，很爽很安全。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_425c57112317452c8625401e159a203e@000000_oswg94051oswg1080oswg662_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除常规的饮食男女外，春节毕竟是讲究阖家团圆的节日，也是许多家庭一年一度实现几代同堂的机会。长辈钟爱的亲情题材、家庭伦理，此时都变得无比应景，因而也占据了短剧春节档的许多资源投入与榜单名额。</p>
-<p>这些亲情短剧中，有些是基于短剧界已经轻车熟路的虐爽模式，提醒年轻人要感念亲恩、关爱老人，不仅有结合社会新闻的现代版，还有戏曲味儿十足的古代版。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_a9e03b43806b46bab472ee5e568c5077@000000_oswg140351oswg946oswg872_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>还有一些借了短剧的风口，但短剧感并没有那么浓，如抖音出品、倪虹洁监制主演的《夫妻的春节》。它讲述了一个中年主妇在忙碌日常中开始重新思考婚姻家庭关系的故事，<strong>第一集的文案就是“结婚十年没领证，今天我决定离婚”，可谓定位精准、直击痛点</strong>。</p>
-<p>除了爱情、亲情这些核心情感需求，硬糖君之前也分析过，短剧成本低、周期灵活、时效性强，因此出现了一种抽象的热点打法——给乐子人提供乐子，不也算一种情绪价值？春节档当然也少不了这类短剧。</p>
-<p>这类热点短剧，有些是基于春运、回家、年夜饭、放炮竹等春节元素做文章。如登顶热力榜的《掌勺年夜饭》就是以在外吃年夜饭的新年俗为背景，讲述被驱逐的酒楼传人的打脸逆袭。<strong>在拼多多排名领先的《禁燃》，讲述违规放炮的熊孩子恶有恶报的故事</strong>。另外还有纯在片名与开头蹭一下的《春节堵车，我直接御剑回家》。</p>
-<p>有些则蹭上了生肖蛇元素，《蛇XXX之XXXX》成为一种流行的剧名格式，舒畅的短剧首秀《蛇年大吉之小青渡劫》也不能免俗。这部剧显然还化用了青蛇白蛇的民间传说，讲述飞升失败的小青化身都市熟女、与疑似法海转世的京圈佛子闪婚的故事。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_d6c257ecf5684cdeae60a38229c889c5@000000_oswg230269oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>02 从内容之战到平台之战</strong></h2>
-<p>短剧发展一日千里，2025年的短剧春节档较去年有太多不同。最显著的，规模的提升。又比如，阵营的出现。</p>
-<p>去年大家研究的是何谓投流、还有多少个点众，今年大家研究的则是各平台片单。<strong>足见这个短剧春节档的核心，不是长短之战、不是类型之战，而是升级为平台之战</strong>。</p>
-<p>首先，下场的平台越来越多，甚至有一些平台是专等到这个时刻亮相。</p>
-<p>短视频抖音、快手与长视频中的芒果TV、腾讯视频是短剧的老玩家。最早对短剧进行档期化运营的快手是少数几个没有发片单的平台，仅在排播上做了侧重。其余三家则都是进攻态势，如腾讯视频借春节档之际将它的竖屏野心昭告天下，还推出了打榜等典型的鹅式运营活动。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_5f91e72f4ee745c988869d9c8173d797@000000_oswg141825oswg946oswg928_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>免费平台红果短剧从2024年下半年开始名声大噪，长视频爱奇艺也是从2024年下半年开始正式加入短剧战场，二者的短剧春节档都堪称隆重。红果准备了百部新剧独家首发，爱奇艺新老微剧加起来也凑了个超长片单，十分唬人。</p>
-<p>媒体平台澎湃新闻与社交平台小红书都在1月20日之后突然宣布上线短剧频道。前者属于主题展映不足为惧，<strong>小红书则比较认真，春节档除上线大量完结短剧，也引入了10部名厂牌、高关注的新剧，如上文提到的《坠入春夜》，平台的短剧付费链路相传也已经在搭建中</strong>。</p>
-<p>此外，去年上半年便相继入局短剧的淘宝、美团、拼多多等，春节也各有动作。美团推出了多部“喜人”主演的自制品牌短剧（抖音播出，免费观看）。拼多多则更新了旧的扶持计划、发布了春节限定激励政策，对新热短剧与首发独家表现出倾斜。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_d98e0075f4c3441cb522e33e343c795b@000000_oswg209751oswg946oswg944_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>值得深思的是，<strong>拼多多的短剧界面相当完备，是唯一一个设置了站内热榜的电商平台，上榜短剧数据也颇为亮眼。</strong></p>
-<p>总体来看，基于不同的资源优势、用户画像或是平台诉求，大家在这个春节档已然呈现出一些内容打法上的差异：</p>
-<p>快手上新不多，用自家可灵制作的AIGC短剧就占去两个名额。芒果TV则由热门综艺《密室大逃脱》衍生了一部双男主短剧《狸猫书生》，以“超绝售后”的名义引流综艺观众。</p>
-<p>抖音在继续明星战略的同时，也呈现出它作为影视剧宣重要阵地的特质，上线了不少影视IP的衍生剧，如《以家人之名》衍生剧《以爱之名》（秀人徐梦洁、邓超元主演）、《隐秘的角落》衍生剧《朝阳初升》（围绕成年朱朝阳展开）、《孤注一掷》衍生反诈短剧《变相游戏》、《九重紫》番外《昭世录》等。</p>
-<p>红果短剧作为专业短剧平台，除了百部新剧还推出了短剧红人们的团建综艺《出发吧短剧！》。另外，春节档片单也体现出红果平台相当积极的精品化、主流化意愿，例如拉来童年女神舒畅，以及和中国电视剧制作中心联合推出革命题材短剧《墙外桃花墙内血》。</p>
-<p>爱奇艺作为长视频巨头，一出手也是高举高打，台前幕后阵容不俗。28部主推新剧涵盖了短剧顶流与长剧熟脸，合作方则有听花岛、原上慕光等知名厂牌，一举拿下前者4部新剧。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_d66a746699aa4699960129a0680e7458@000000_oswg171909oswg945oswg935_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>小红书入场最晚，引进新剧仅10部。但胜在用户对口，选择的都是女性向、高品质的内容，最容易播出效果。考虑到不久前涌入过海外用户，他们甚至配备了双语字幕。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_f9f22bf2cf38471eae1afd4246afc511@000000_oswg95848oswg1080oswg1270_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>03 众人拾柴，为何沉默？</strong></h2>
-<p>所以问题来了，这个短剧春节档，各大平台不可谓不努力，为什么越往后越是没啥动静？</p>
-<p>首先，为了最大限度拉动观众入场、同时也是顺应去年一路过来的新趋势，免费短剧成为这个春节档的主流。<strong>而2024年春节档短剧出圈，很大程度是因为付费模式下那些惊天充值金额。免费短剧主打长线分账，很难立刻证明自己火爆，也缺少直观的话题刺激</strong>。</p>
-<p>与此同时，虽然入局平台多了、卷了，但各个APP类似于一个个孤岛，坐拥不同的用户人群，他们又有着不同的内容口味与消费习惯，难以形成聚集效应。</p>
-<p>今年春节档短剧分散在5个以上的平台，站内热榜的画风就存在不小差异。比如长视频用户还是习惯横屏短剧，拼多多用户则钟爱家长里短。同一部剧在不同的平台、模式之下也会播出不同的效果。</p>
-<p>如此种种都意味着，出圈在这个春节档变得很奢侈。一是付费短剧份额缩窄、下场平台越来越多之后，以往的短剧榜单都显得比较片面。有些只统计竖屏短剧，有些只统计传统视频平台，一时间能指望的竟只有夸克热搜。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_a92ffacb9aed4605a9c6799c7e84dd36@000000_oswg251607oswg1080oswg2119_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当然，出圈也可以是自下而上的，这也才是最合理的方式。但这个春节档，电影的红黑大战已经吸走太多关注，剧集几近无人关心。</p>
-<p>更何况，也不是每种类型的短剧都有出圈的条件与出圈的诉求。最贴近传统剧集用户的女频剧在全网制造的讨论最多，也最能跨越平台、靠演员与CP引流。而面向父母长辈的短剧，可想而知并不拥有这些，也不太需要这些。</p>
-<p>但以上都是我们给短剧找的客观原因。归根结底，新鲜感缺失与无效创新是短剧自身必须跨越的症结。<strong>经过2024这一年的洗礼，大众对短剧已经了解祛魅，一年前的猎奇新鲜劲儿已经过去了。</strong></p>
-<p>至于短剧深度用户，一方面，监管收紧可能导致许多旧的卖点不复存在，一部分用户因此流失。另一方面，有些用户是以一个故事的N个版本都要品鉴的程度在刷短剧，加速走完长剧观众几年的流程，直接进入审美疲劳阶段。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_6c076b7bde7245b09cc30ba7e29292e5@000000_oswg112557oswg945oswg699_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>虽然为了响应精品化趋势，各平台在类型多元化上下了不少功夫——红果的春节档新剧涵盖古装武侠、玄幻仙侠、都市爱情、爱国谍战、青春成长等12大主题，爱奇艺的28部主推微剧覆盖都市、武侠、爱情、古装等8大类型。但从实际播出情况看，这未必是短剧用户想要的，能播火的还是那些旧卖点。</p>
-<p>不过，相比2024年的狂飙迷醉，短剧在这个春节档的相对平静，倒是给了我们一个反推解读的机会。用户、平台、官方，到底需要短剧扮演什么角色？</p>
-<p>一是填补长剧空缺。<strong>不上价值的土味霸总剧，面向中老年的亲情伦理剧，以及为各年龄段男性提供情绪价值的男频剧，都是长剧中相对边缘化的内容，短剧起到了很好的查漏补缺作用。</strong></p>
-<p>二是发挥它的功能性。如拉低网文转化与影视剧综出番外的门槛，以更加生动有趣的方式打广告。这个春节档就有相当一部分品牌定制短剧、文旅短剧、公益短剧。</p>
-<p>三是优质短视频。在拼多多等电商平台，短剧起到的就是一个用户留存的作用，凭借连贯刺激的剧情吸引用户投入更多时间与注意力，增加用户刷到带货视频、进行消费的几率。</p>
-<p>积极地看待，经过这样一个春节档，相信文娱行业能够迎来一个更加理性的2025。被捧杀的、被唱衰的，都重整旗鼓再出发。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU4OTU4MjM1OA==&amp;mid=2247567048&amp;idx=1&amp;sn=6dd5ea572580635dfca385673947b63a&amp;chksm=fcf3096d67cff83ba1da3f15273fff37859b0092efe48d221ad5527e79c4408399b34759c33a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“娱乐硬糖”（ID：yuleyingtang）</a>，作者：顾韩，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153269262277120</guid><pubDate>Wed, 05 Feb 2025 14:59:00 +0800</pubDate></item><item><title>热搜第一，DeepSeek百万年薪招AI人才，实习生都能月入过万</title><link>https://36kr.com/p/3153371134548484</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>DeepSeek招人，登上热搜第一！</p>
-<p class="image-wrapper"><img data-img-size-val="1080,851" src="https://img.36krcdn.com/hsossms/20250205/v2_7983fafb25954c8fa3c40722e279d10b@5888275_oswg409882oswg1080oswg851_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>啥？不限专业、经验，本科应届生都能年薪百万了。</p>
-<p>从BOSS平台上一开始公布的在招岗位可以看到，最高薪资达到了110k×14，本科最高也有90k×14。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,641" src="https://img.36krcdn.com/hsossms/20250205/v2_a0a5bb9df8f344c09d92a6eee06f3360@5888275_oswg273615oswg1080oswg641_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>甚至连实习生也是500元一天起招，按每月20天算可以月入万元，最高还有一千元的日薪。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,429" src="https://img.36krcdn.com/hsossms/20250205/v2_d2abaf55748c414f85acbb6c4e44ab5c@5888275_oswg148869oswg1080oswg429_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>难怪乎一众网友流下了羡慕的泪水。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,521" src="https://img.36krcdn.com/hsossms/20250205/v2_073b0009cc064663a58f40d9cd598897@5888275_oswg108095oswg1080oswg521_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>还有人连连感慨，AI就像当初的互联网，又有人将吃到时代红利了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,289" src="https://img.36krcdn.com/hsossms/20250205/v2_f71ed338212840bd91ca9c73b3806cb9@5888275_oswg80171oswg1080oswg289_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过截至发稿前，BOSS平台上DeepSeek的招聘职位已清空，目前尚不清楚具体原因。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,574" src="https://img.36krcdn.com/hsossms/20250205/v2_d7c3b48a6665401e9d1011093d97f491@5888275_oswg108465oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当然，这并不影响我们借此扒一扒DeepSeek的招人要求和人才理念。</p>
-<p class="image-wrapper"><img data-img-size-val="175,185" src="https://img.36krcdn.com/hsossms/20250205/v2_5d83f78abd3847e5a66abb390f81f4d4@5888275_oswg54298oswg175oswg185_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>本科应届起步，不看经验只看能力</strong></h2>
-<p>仔细阅读DeepSeek放出的招聘信息，会发现除了个别岗位需要硕士学历之外，大多都是本科起招。</p>
-<p>而且英雄不问出路，不管是什么专业、有没有工作经验，DeepSeek的大门都向你敞开。</p>
-<p>即便是核心系统的研发工程师，90K、14薪，也就是年薪126万，也依然是本科起步。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,761" src="https://img.36krcdn.com/hsossms/20250205/v2_a0c83767363045e59470f838c82974a0@5888275_oswg296233oswg1080oswg761_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>实际上，不仅是新招人遵循着这套标准，DeepSeek的既有团队同样十分年轻。</p>
-<p>去年初，DeepSeek推出V2的时候，虽然不及R1一般泼天的热度，但在业内也引起了不小关注。</p>
-<p>当时，Anthropic联创Jack Clark就认为，DeepSeek v2的背后一定有一群“高深莫测的奇才”。</p>
-<p>但很快，DeepSeek创始人梁文锋就在一场访谈中否认了这一猜测。</p>
-<blockquote>
-<p>并没有什么高深莫测的奇才，都是一些Top高校的应届毕业生、没毕业的博四、博五实习生，还有一些毕业才几年的年轻人。</p>
-</blockquote>
-<p>到了现在的v3和R1也是如此，应届生、在读生，特别是来自清北的应届生在其中非常活跃。</p>
-<p>他们中的一些人，2024年一边在DeepSeek搞研究，另一边新鲜热乎的博士学位论文刚评上奖。</p>
-<p>为DeepSeek提出新型注意力MLA（多头潜在注意力）、GRPO强化学习对齐算法等关键创新的，也无一例外都是年轻人。</p>
-<p>甚至有的只是实习了一段时间，也做出了重要成果。</p>
-<p>比如刚刚被顶会ICLR 2025接收的一篇论文，通过强化学习和蒙特卡洛树搜索研发了一个专门用于数学证明的模型，在相关数据集（miniF2F-valid）上取得了60.2%的通过率，而GPT-4只有25%。</p>
-<p>这篇论文的第一作者，在DeepSeek的身份就是一名大四实习生，于去年上半年在DeepSeek实习，论文首次发表时间刚好是实习期结束，现在这名作者已经开始读博。</p>
-<p class="image-wrapper"><img data-img-size-val="892,258" src="https://img.36krcdn.com/hsossms/20250205/v2_028ba553ba644a4ba09c52310ff6ea8d@5888275_oswg92059oswg892oswg258_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这或许也解释了DeepSeek愿意给实习生开出千元日薪的缘由。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,429" src="https://img.36krcdn.com/hsossms/20250205/v2_80f3c31267324a5b8de24c2944cad819@5888275_oswg148869oswg1080oswg429_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>DeepSeek大胆采用没有经验的年轻人的原因，梁文锋在访谈中也进行了解释。</p>
-<blockquote>
-<p>如果追求短期目标，找现成有经验的人是对的。但如果看长远，经验就没那么重要，基础能力、创造性、热爱等更重要。我们招人有条原则是，看能力，而不是看经验。</p>
-</blockquote>
-<p>再回过头来看DeepSeek的招聘需求，不难发现表面上“三不限”的岗位，实际并不简单。</p>
-<p>不仅要对各类AI模型有十足的了解、掌握相关的编程语言，有些岗位甚至要求发表过顶刊或者在知名竞赛中获奖。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,652" src="https://img.36krcdn.com/hsossms/20250205/v2_3ba9e70cf2a342ad907cda7f38bc2af9@5888275_oswg383179oswg1080oswg652_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如此一来，DeepSeek团队虽然在年纪和资历上浅了一些，但无论能力还是成果都可圈可点。</p>
-<p>也正是这支年轻的团队，把DeepSeek抬到了OpenAI的同一张牌桌。</p>
-<p>而实际上，DeepSeek的年轻化不只体现在年龄。</p>
-<h2><strong>不设前置分工，计算资源人人可用</strong></h2>
-<p>如果从岗位维度看，“全栈工程师”在DeepSeek的招聘列表中占据了可观的比重。</p>
-<p>关键是，岗位描述没有那么多的条条框框。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,837" src="https://img.36krcdn.com/hsossms/20250205/v2_024a52bb33c14a6ebd414762be46c74e@5888275_oswg309911oswg1080oswg837_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从招聘介绍中管中窥豹，DeepSeek内部的管理模式也主打一个chill。</p>
-<p>梁文锋介绍，员工被DeepSeek录取之后就会开启“放养模式”，交给他重要的事，但不设KPI、不做干预，让他自己想办法、自己发挥。</p>
-<p>当然，在这个过程中，人员和算力的需求，DeepSeek都会给予满足。</p>
-<blockquote>
-<p>我们每个人对于卡和人的调动是不设上限的。如果有想法，每个人随时可以调用训练集群的卡无需审批。同时因为不存在层级和跨部门，也可以灵活调用所有人，只要对方也有兴趣。</p>
-</blockquote>
-<p>前面提到的MLA注意力机制，就是一个很好的例子，它出现的契机，就是一个偶然。</p>
-<p>梁文锋介绍，在总结出注意力架构的一些主流变迁规律后，这位年轻人突发奇想去设计一个替代方案。</p>
-<p>面对这种“偶然”，DeepSeek给予了全力支持，为此专门组建了一个团队，用数个月的时间把这个想法变成了现实。</p>
-<p>再继续深入下去，DeepSeek的内核也显得年轻而极具理想主义。</p>
-<p>梁文锋表示，DeepSeek的目标很明确，就是<strong>不做垂类和应用，而是做研究、做探索</strong>。</p>
-<p>在许多大模型创业者转向应用的大趋势下，这样的选择极有可能是艰辛的。</p>
-<p>但在DeepSeek的视角中，搞大模型不能总是依靠拿来主义来赚快钱，而是要推动真正的技术创新。</p>
-<p>这又从另一个角度解释了DeepSeek团队年轻化的一大原因——</p>
-<p>在经济效益不做优先考量的情况下，创新需要信念来作为支撑，而年轻人，无疑是最具信心、最朝气蓬勃的一个群体。</p>
-<h2><strong>拥有上万块GPU，天价招人不稀奇</strong></h2>
-<p>有了理想，当然要在此之上进行投入，实际上，DeepSeek无论在人才还是在算力资源上，都可谓非常不吝成本。</p>
-<p>前面我们也提到，DeepSeek打出了<strong>计算资源人人可用</strong>这块招牌，招聘中也明确提到了相关算力支持。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,324" src="https://img.36krcdn.com/hsossms/20250205/v2_20f0aeb3a0c849818d5799b151ac4760@5888275_oswg105358oswg1080oswg324_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>那么，DeepSeek实际上有多少算力资源呢？</p>
-<p>通过挖掘知名半导体研究机构Semianalysis发布的一份解析报告，我们能够进一步获悉：</p>
-<blockquote>
-<p>（据报告推测）<strong>DeepSeek拥有约5万块Hopper GPU，其GPU投资超过了5亿美元。</strong></p>
-</blockquote>
-<p>（Hopper GPU是英伟达专为高性能计算和AI研发的下一代数据中心GPU架构，其名字是为了纪念已故计算机科学家Grace Hopper）</p>
-<p class="image-wrapper"><img data-img-size-val="1080,469" src="https://img.36krcdn.com/hsossms/20250205/v2_7abdbfa077334aef99952c46ebaafbbb@5888275_oswg207070oswg1080oswg469_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过报告也提醒，5万个Hopper GPU≠5万个H100。</p>
-<p>具体来说，报告推测<strong>DeepSeek拥有约1万个H800和1万个H100</strong>，并且还订购了更多的H20。</p>
-<p>这些GPU将在幻方量化（DeepSeek背后公司）和DeepSeek之间共享。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,479" src="https://img.36krcdn.com/hsossms/20250205/v2_043bbd30a45a482b99ccec5fe3b78809@5888275_oswg234992oswg1080oswg479_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>与此同时，报告还对之前盛传的“DeepSeek V3的训练成本仅为600万美元”作了解释。</p>
-<blockquote>
-<p>这个数字其实是片面的。它只是预训练过程中GPU的花费，仅为模型总成本的一部分。</p>
-<p>研发费用以及硬件本身的总体拥有成本等重要部分并未包含在内。</p>
-</blockquote>
-<p>具体而言，报告分析认为DeepSeek在硬件上的支出远超过5亿美元，而且为了开发新架构，团队需要花费大量资金和算力。</p>
-<p>比如在DeepSeek降本的关键——MLA机制，前期就有大量人力及GPU计算时间被投进去，耗时长达数月。</p>
-<p>当然这种投入也获得了回报，在后续研发过程中，每次查询所需的KV缓存减少了约93.3%。</p>
-<p>所以，即使加上硬件和前面提到的人力成本，DeepSeek在性价比这事儿上仍有相当大想象空间。</p>
-<p>这不，春节假期还没结束，最近几天腾讯云、阿里云、百度智能云等各大云计算都在抢着上架DeepSeek模型。</p>
-<p>如此巨大关注下，能够开出天价招人也就不奇怪了。</p>
-<p>参考链接：</p>
-<p>[1]https://semianalysis.com/2025/01/31/deepseek-debates/</p>
-<p>[2]https://www.zhipin.com/gongsi/job/ffd531b0cbd4133f1XN92Nm0EFU~.html?ka=company-jobs</p>
-<p>[3]https://finance.sina.com.cn/tech/2025-01-26/doc-inehhksk9178057.shtml</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/QgOTPHB9CuLNqvIedqHehw" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：关注前沿科技，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153371134548484</guid><pubDate>Wed, 05 Feb 2025 14:59:00 +0800</pubDate></item><item><title>金融圈开工红包曝光：最高发888，顺便查考勤，还有人被领导骂？</title><link>https://36kr.com/p/3153208491907846</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 05 Feb 2025 16:00:28 +0800</lastBuildDate><pubDate>Wed, 05 Feb 2025 16:00:28 +0800</pubDate><item><title>金融圈开工红包曝光：最高发888，顺便查考勤，还有人被领导骂？</title><link>https://36kr.com/p/3153208491907846</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>曾经豪气的时候，过年过节前有压岁包、过完年开工有红包、逢年过节还有过节费，多的能装十张红票票，也经常立一些奖项方便内部把钱发出去。当时大家还嫌发得少了，现在一想说多了都是泪啊。</p>
 <p>开工大吉呀小伙伴们，今天各个公司都开始派开工利是、发红包了，先说几个公司来羡慕羡慕：</p>
 <p>腾讯以前都是小马哥亲自来派开工利是，这几年改为了线上，一个红包小几百到大几百不等，还有各个团队的leader发的，开工收获很满足~</p>
@@ -605,4 +362,148 @@
 <p>国泰君安表示，2024年，公司坚持稳中求进的工作总基调，主动把握市场机遇，以客户为中心，全面推进零售、企业和机构三大客户服务体系建设，聚焦“业务竞争力提高、全面数字化提速、管理精细化提效”等重点任务，全力做好科技金融、绿色金融、普惠金融、养老金融和数字金融“五篇大文章”，推进各项业务稳步发展，取得较好经营业绩。 </p>
 <p>两家公司表示，将加快业务整合，在本次交易后尽快完成营运整合过渡，并按照监管机构要求推进，包括子公司在内的各类牌照整合、业务划分等工作，实现业务、客户的整体迁移合并；合并后公司将依托更强大稳固的客户基础、更专业综合的服务能力、更集约高效的运营管理，持续提高零售、机构和企业客户服务能级；将持续强化服务的专业性、业务的协同性、战略的敏捷性，提升核心竞争力，实现综合实力全面领先，加快向具备国际竞争力与市场引领力的投资银行迈进。 </p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/c_V7FSp7-1dDDGfHqJwYFQ" rel="noopener noreferrer nofollow" target="_blank">“创业板观察”</a>，作者：林坚，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153394087009028</guid><pubDate>Wed, 05 Feb 2025 15:29:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153394087009028</guid><pubDate>Wed, 05 Feb 2025 15:29:00 +0800</pubDate></item><item><title>下载 DeepSeek 将判 20 年、最高罚款 1 亿美元？美国提出针对中国 AI 的“最激进立法”</title><link>https://36kr.com/p/3153383144233731</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>这个春节，“DeepSeek”这个名字迅速走红，成为全球科技界的焦点。</p>
+<p>这款由中国开发的 AI 聊天机器人，以其卓越的性能和极低的资源消耗，迅速吸引了全球用户的关注：发布前 18 天下载量达 1600 万次、登顶全球 140 个国家应用商店榜首……因此，DeepSeek 的迅猛崛起被业界视为对美国科技产业、特别是 AI 领域的严峻挑战。</p>
+<p>于是，一场围绕 AI 技术控制的风暴正在酝酿：近日，美国参议员 Josh Hawley 提出了一项激进的法案，要求美国对中国 AI 技术进行严格限制，甚至把下载和使用中国 AI 模型（如DeepSeek）定为非法行为——相关违法者将面临最高 20 年监禁及最高 1 亿美元的罚款。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,567" src="https://img.36krcdn.com/hsossms/20250205/v2_d99026f36b374826ad0596b569efe07d@5888275_oswg42513oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图片来自 Futurism）</p>
+<h2><strong>01 法案内容：禁止中国 AI 技术在美使用，严惩违法者</strong></h2>
+<p>据悉，Josh Hawley 提出的这个新法案，名为《将美国 AI 能力与中国脱钩法案》（Decoupling America’s Artificial Intelligence Capabilities from China Act）。该法案的核心内容，就是禁止美国公民和公司从中国进口或使用任何与中国有关的 AI 技术和知识产权，并直接把下载和使用中国 AI 模型视作犯罪。</p>
+<p>根据该法案内容，任何“故意”进口中国开发的“AI 能或生成式 AI 技术或知识产权”的个人或企业，将面临最高 20 年的监禁、个人最高 100 万美元的罚款，以及企业最高 1 亿美元的罚款。</p>
+<p>Josh Hawley 在声明中明确表示，DeepSeek 的发布是他提出该法案的直接原因。</p>
+<p>他解释道，DeepSeek 是一款“低成本、数据收集型 AI 模型”，其崛起不仅引发了国际社会的担忧，还导致美国科技股大幅下跌。在 Josh Hawley 看来，每一美元和每一字节流入中国 AI 的数据，最终都将被用来对抗美国：“美国不能以牺牲自身实力为代价来增强我们最大的对手。想要确保美国的经济优势，意味着切断中国与美国创新的联系。”</p>
+<p>简单来说，即 Josh Hawley 认为：中国的 AI 突破可能会威胁到美国的技术领导地位及国家安全。</p>
+<h2><strong>02 针对中国 AI 的“最激进立法”，引发争议</strong></h2>
+<p>意料之中，Josh Hawley 提出的这个法案引发了广泛关注，不少声音对此表示反对。</p>
+<p>多数批评者认为，立法者的动机并非单纯出于国家安全或技术竞争的考虑，更多的是出于对美国市场的保护。因此该法案或许更多是在抵制中国的技术发展，而非解决真正的安全问题。</p>
+<p>民主与技术中心（Center for Democracy &amp; Technology）的 AI 治理高级顾问 Kevin Bankston 指出，该法案不仅会威胁到普通用户，还可能对科研合作和学术自由造成深远影响。“除了影响下载中国 AI 模型的人外，该法案对 AI 技术和知识产权的进口和出口的惩罚，还可能扩展到所有发布 AI 模型或研究论文到开放互联网上的人，因为中国用户也可以下载这些研究成果——而对于任何违反禁令的公司，罚款可高达 1 亿美元。”</p>
+<p>电子前沿基金会（Electronic Frontier Foundation）的 AI 与知识获取法律项目主任 Kit Walsh 也表达了类似的担忧。她认为，该法案可能会进一步巩固大科技公司对 AI 技术的主导地位，同时阻碍开放研究和学术合作的发展。</p>
+<p>此外，该法案提出的严苛惩罚措施，特别是高达 20 年监禁的刑期，被认为过于激进，甚至可能面临违反美国自由市场原则的风险——毕竟，DeepSeek 并未直接与美国的国家安全利益产生冲突，其出现更多的是对美国本土技术企业的市场竞争压力。而且，类似的技术性竞争在全球化的背景下本应视为正常现象，过度限制可能导致美国在全球技术竞争中的孤立。</p>
+<p>正如哈佛大学 AI 研究员 Ben Brooks 对该法案的评价：这是“迄今为止针对 AI 最激进的立法行动”。</p>
+<p>而面对这一法案的争议，Josh Hawley 和部分支持者只是回应称：当前的国际局势和中国在 AI 领域的快速进步，让美国不得不采取更为激进的措施，以确保自身的技术领导地位不受威胁。</p>
+<p>不过，或许是由于该法案的一切都显得相当极端，它已于上周被“暂时搁置”——而“暂时搁置”，往往意味着该法案已失去了立法进程中的动力。</p>
+<h2><strong>03 DeepSeek 崛起带给美国市场的震动</strong></h2>
+<p>DeepSeek 的崛起之所以引发如此大的震动，主要归功于其技术突破。</p>
+<p>1 月 20 日发布的 DeepSeek-R1，不仅在多项测试中超越了 OpenAI o1 模型，更重要的是，其 API 价格仅为后者的 3.7%。这一成就不仅让 DeepSeek 成为国际关注的焦点，也让美国科技公司感到不安。有华尔街的分析师担心，美国科技公司可能正在为 AI 开发投入过多资金，而像 DeepSeek 这样的低成本替代品可能会颠覆市场格局——甚至让人不禁怀疑，现有的美国 AI 产品是否存在过度投资的问题。</p>
+<p>故而上周，DeepSeek 的崛起直接导致美国股市损失超过 1 万亿美元，尤其是 AI 相关股票的市值大幅缩水。而作为全球领先的 AI 芯片制造商，英伟达也被卷入了这一风波：一夜暴跌 6000 亿，创下史上最大单日跌幅。</p>
+<p>而事实上，不仅是 DeepSeek，近年来中国的技术发展不断引发美国的安全与隐私忧虑，类似于 TikTok 在美国的禁令问题。美国政府和立法者对来自中国的技术和产品持越来越谨慎的态度，尤其是在数据安全和国家安全领域。</p>
+<p>目前来看，虽然 Josh Hawley 的法案目前已被搁置，无论该法案最终是否通过，其提出本身已经表明，美国立法者对中国 AI 技术的崛起感到极度不安。对于普通美国用户而言，下载和使用 DeepSeek 等 AI 模型是否真的会构成国家安全威胁，仍然是一个值得深思的问题；而对于科研人员和科技公司来说，如何在日益紧张的国际环境中保持合作与创新，将是一个更大的挑战。</p>
+<p>参考链接：</p>
+<p>https://www.404media.co/senator-hawley-proposes-jail-time-for-people-who-download-deepseek/</p>
+<p>https://interestingengineering.com/culture/law-proposed-to-criminalize-deepseek</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/YEPfsykoBGsVgS6Fq5XKug" rel="noopener noreferrer nofollow" target="_blank">“CSDN”</a>，整理：郑丽媛，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153383144233731</guid><pubDate>Wed, 05 Feb 2025 15:30:00 +0800</pubDate></item><item><title>中国游客“抛弃”泰国，去了哪里？</title><link>https://36kr.com/p/3153221158034181</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>春节长假结束，刷刷朋友圈几乎不是在旅游，就是在去景点的路上。国内游和出境游的火爆还是让市场看到了旅游市场的巨大潜力。国家移民管理局发布的预测数据显示，2025年春节假期全国口岸将迎来新一轮出入境客流高峰，日均出入境人员达到185万人次，较2024年春节假期增长9.5%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_638cb10f6f2944358385679eb5f9b5f5@000000_oswg972234oswg970oswg546_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而，在出境目的地的选择上，由于王星绑架事件的影响，泰国旅游的数据明显下降。根据旅行分析公司ForwardKeys的数据，仅1月10日-12日短短三日内，中国至泰国机票退订量同比猛增了155%，曼谷的酒店也迎来了一波退订潮。</p>
+<p>就在泰国旅游降温的同时，国人赴澳大利亚、日韩等国的旅行数据已经在悄然上升。<strong>面对游客人数的此消彼长，又有哪些新的旅游目的地有望接住这波红利？中国的出境游市场是否真的迎来了复苏呢？</strong></p>
+<h2><strong>01 让出了泰国游客数榜首的位置</strong></h2>
+<blockquote>
+<p>根据泰国媒体的报道，泰国旅游局1月27日透露，今年1月26日有34954名韩国游客进入清迈国际机场，超越中国游客的34894人，成为今年1月泰国最大的海外游客群体。</p>
+</blockquote>
+<p>清迈旅游局的负责人表示，近几年中国游客的增长速度明显放缓，演员王星事件引发的安全担忧也明显影响到了中国游客的数量。</p>
+<p>国人对泰国的恐慌甚至还影响到了其他东南亚国家，航空分析公司VariFlight的数据显示，<strong>今年春节期间中国旅客还频繁取消了前往越南、新加坡、印度尼西亚和马来西亚的假期旅行。</strong>旅游从业者分析，出现这一情况原因不仅源于对东南亚地区的好感度下降，更主要的原因是在中国市场，泰国经常和其他东南亚国家打包成一个旅游产品。比如过去常见的新马泰几日游。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_ecd3997c3fe54f968cef497042e1f7d5@000000_oswg150291oswg970oswg658_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">春节前中国出境游目的地统计</p>
+<p>银河国际的分析报告指出，今年春节中国游客离开泰国，会让日韩继续成为中国游客的首选出境游国家，澳大利亚、新西兰和中东国家也会成为中国市场的下一个热门选项。</p>
+<p>也有从事泰国旅游的从业者表示，目前来看，电诈事件引发了泰国旅游恐慌直接受影响的还是曼谷等相关大城市。其他如普吉岛、芭提雅之类的专业、深度旅游景点来看，春节期间的预订状况其实还好，大部分海边别墅和潜泳项目的预约依旧迎来了小高峰。</p>
+<p>一些旅游公司也表示，最近关于泰国的负面舆情发酵以后，影响的基本还是处于观望期的游客，对于已经报团的游客来说影响还是比较有限的，大部分旅行社也反映没出现大规模退团的情况。</p>
+<p>春节期间，泰国总理秀出中文拜年，泰国旅游局先后发布声明，强调重视游客安全，会与相关部门合作保障游客权益，还筹备了系列活动及专属优惠福利，旨在增强对泰国的旅游信心。泰国有媒体曾经预测，2025年预计将会有700万到800万中国游客到访泰国各地。现在看来，这个数字估计得显然有些乐观。<strong>1月泰国旅行社协会的估计，最终春节期间到访泰国的中国游客人数或下降10%至20%。</strong></p>
+<h2><strong>02 能在哪里假装泰国？</strong></h2>
+<p>能享受异域风情，旅行距离合适，关键出行预算还在可接受范围。<strong>在泰国旅游的口碑崩盘之后，旅游达人开始寻找周围的泰国平替。</strong></p>
+<p>说到泰国普吉岛的海滨风情，国内的最佳替代地点无疑是海南的老牌旅游城市<strong>三亚</strong>。海南岛内的三大主要机场——海口美兰机场、三亚凤凰机场和琼海博鳌机场合计执飞航班达到3.53万架次，运输旅客人数高达554万人次。在一些社交平台上，“改道去三亚”的话题反响热烈。从数据来看也是如此，有在线旅游平台数据显示，春节期间，海南入境游订单量同比增长61%。不过作为北方游客常年的“避寒游热门目的地”，三亚的爆火只能说是意料之中，云南<strong>西双版纳和丽江</strong>等城市的热度攀升则多少有点意外。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_79fead7e91014ed9ae84d610f15b1b6a@000000_oswg1466748oswg970oswg646_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">西双版纳老牌景区傣族园景区</p>
+<p>和东南亚国家相比，西双版纳不仅拥有同等体量的寺庙景点，餐饮和气候多少和泰国也有点相似。2024年西双版纳旅游数据显示，全年接待国内外游客7043.99万人次，同比增长13.44%；旅游总花费达到1058.09亿元。还有一份报告显示，已有约30万的游客选择在西双版纳购房长期旅居，人数可能已经不少于三亚。</p>
+<p>不过，<strong>西双版纳相比泰国来说价格方面的优势却没那么明显。</strong>有旅客在网上发文吐槽，“现在去版纳可能比去泰国还贵一点”，从某旅游平台的产品价格来看，同样天数的纯玩团，泰国的价格为8000元左右，西双版纳团几乎也在8000左右，由于机票和酒店的价格上涨，导致国内和国外旅游的价格几乎差不多。</p>
+<p>有长期旅居西双版纳的游客发的攻略指出，版纳是一个淡旺季区分很明显的城市，尤其是长假和春节期间，机票和住宿的价格波动比较大，淡季一百多元的民宿，到了旺季能涨到一千以上。住宿方面，有旅游平台数据显示，春节期间版纳五星级酒店均价为2400元一晚，最高的奢华型酒店还有21246元一晚，且大部分早在春节前就已经预订一空。有媒体对比去哪儿网对比机票价格发现，同为1月27日从北京出发，直飞三亚和西双版纳的航班，还要比直飞曼谷的贵几百块钱。</p>
+<p>有游客戏称，<strong>国内的一些旅游城市与其说是泰国的“平替”不如说是“贵替”。</strong>小红书上有网友对比版纳与泰国的物价，表示普吉岛8块钱就能买到足球大的椰子，在版纳则要卖到15元而且个头还没那么大。</p>
+<p>还有游客分析，西双版纳的景点分散，且不算太多，野象谷、傣族园、望天树景区等几天之内就能逛完了。相比之下泰国的景点不仅有佛教景观，还有海岛、森林，完全可以常去常新。相比之下的版纳显然逊色很多了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_e1b00837e4ba45129c43f55d5895020e@000000_oswg112664oswg1080oswg622_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>03 开始增长但“不均衡”的出境游</strong></h2>
+<p>虽然不少人还在泰国和云南之间纠结，但放到2024年全年来看，国内出境游的数量还是得到了一定的恢复，特别是航班数据。根据华凯营销的数据，对比疫情前的2019年，飞往新加坡的航班预订量增长了14.2%，飞往马来西亚的航班预订量增长了6.2%。<strong>日本还是今年春节中国出境游客的首选目的地。</strong>有海外咨询公司预测，目前从中国出发的出境游“不均衡”，虽然从中国出发的出境游正在回升，但前往欧洲和美国等长途目的地仍没有完全恢复。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_cc7c31c9d3f24987b7a30c582fd965d2@000000_oswg132851oswg1080oswg717_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>分析认为，除了旅行安全等方面的原因，旅行成本也是决定中国游客消费的重要因素。比如由于俄罗斯关闭了领空，前往欧洲机票成本会相应提高。虽然对中国游客来说可以选择中国航空公司的班机或者通过其他国家中转，但直航班机的减少还是影响了中国游客远赴欧洲旅行的计划。 </p>
+<p><strong>地缘政治的变化也影响了国人对旅游目的地的选择。</strong>据韩国《中央日报》2月4日的报道，位于首尔钟路区的几家餐厅在春节期间销售额几乎减半。不少韩国餐饮业者表示，春节本来应该是韩国餐厅生意最好的时候，他们过去也习惯这个时候接待中国游客，但由于近日持续的关于现任尹锡悦弹劾案的相关抗议活动，严重影响了韩国的旅游体验，餐厅的生意严重受影响。</p>
+<p>不少网帖还显示现场还有抗议者手举反华标语，这些行为无疑直接劝退了中国游客。根据韩国旅游发展局的数据，2024年有460万中国游客到访了韩国，是韩国最大的海外游客群体。不少韩国学者呼吁，韩国应该尽快恢复社会秩序，保障旅游产业的健康发展。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_1dac2f2aa5c7459d9af08b30d0d7686b@000000_oswg1178657oswg1080oswg581_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>相比出境游复苏的冷热不均，国内春节游消费的恢复已是显而易见的。</strong>2月3日，美团旅行数据显示，春节假期前五日，“春节旅游”搜索量整体上涨168%。此外， “非遗”搜索量同比上涨212%，其中近4成非遗搜索者为00后年轻人。美团、大众点评数据显示，假期前5天，异地消费者贡献的餐饮团购线上交易额同比增长超48％，其中，成都、重庆、北京、上海、广州、三亚、杭州等城市异地消费者贡献的餐饮团购消费位居全国前列。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_4edd92bf69c149db940fd5fec93442b2@000000_oswg205656oswg1067oswg800_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>对于第一个申遗成功的春节而言，今年的国内消费者更注重品质，高端定制游、私家团等产品更受欢迎，在住宿、餐饮、游玩项目上更追求舒适体验和“文化味”。尽管消费信心还没完全恢复，海外的市场分析报告认为，中国人已经愿意在旅行的体验上花钱，且这个消费复苏的势头已经显现。</p>
+<p>参考资料</p>
+<p>1、泰国跌倒，版纳吃饱，定焦One</p>
+<p>2、今年春节旅游“文化味”更浓 2025年旅游消费将持续向上态势，新华财经</p>
+<p>3、中国游客出于安全考虑取消泰国春节旅行，NBC</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjE5ODA4MA==&amp;mid=2651795773&amp;idx=1&amp;sn=321a3eba4e67ea1d823b6980a6a441f1&amp;chksm=bc9e97c80c92cb5458c5c621372fdd1049528e5e65a520a3b2a6ae4ac4a103c1c4465bb7c69f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“首席商业评论”（ID：CHReview）</a>，作者：星影，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153221158034181</guid><pubDate>Wed, 05 Feb 2025 15:30:00 +0800</pubDate></item><item><title>瑞士金融科技公司Aisot开发AI驱动资产管理软件，提升投资组合智能管理效率 | 瑞士创新100强</title><link>https://36kr.com/p/3142013604642568</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1010,505" src="https://img.36krcdn.com/hsossms/20250128/v2_8ab454fb4c8842c6b0111150dfb814d7@5898759_oswg185254oswg1010oswg505_img_png?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源Aisot Technologies</p>
+<p>瑞士金融科技公司Aisot Technologies（下文简称Aisot）成立于2019年，公司致力于开发AI资产管理软件。该软件完全由AI驱动，能够根据设定的投资偏好自动生成投资组合并实时优化管理，在降低投资风险的同时提升投资回报。</p>
+<p>Aisot为苏黎世联邦理工学院的衍生公司，由Stefan Klauser与Nino Antulov-Fantulin共同创立。Stefan Klauser拥有苏黎世大学硕士学位，曾担任苏黎世联邦理工学院研究员，从事数据驱动相关研究，目前担任公司首席执行官。Nino Antulov-Fantulin拥有苏黎世联邦理工学院的任教资格，在机器学习、复杂系统与AI研究领域具备丰富经验，目前担任公司研究主管。</p>
+<p class="image-wrapper"><img data-img-size-val="919,613" src="https://img.36krcdn.com/hsossms/20250128/v2_8228d5e012f545be935d72b8dda73140@5898759_oswg169119oswg919oswg613_img_jpg?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源Aisot Technologies</p>
+<p>伴随金融市场波动日趋加大，投资分析需要关注的数据集的复杂程度也在不断增加，传统分析方法难以有效跟进市场的瞬息万变。AI资产管理系统可以提供更准确的分析预测、自动化流程和个性化投资策略服务等，最大限度减少人工疏漏。LSEG最新白皮书显示，全球超过90%受访投资者愿意将AI应用于投资流程，有80%的投资者接受财富顾问利用AI管理投资组合。预计到2027年，AI资产管理系统的潜在市场规模约达44亿美元。</p>
+<p class="image-wrapper"><img data-img-size-val="960,540" src="https://img.36krcdn.com/hsossms/20250128/v2_051dc0cdab214426bb05b7dc5b3b96c8@5898759_oswg53491oswg960oswg540_img_png?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源Aisot Technologies</p>
+<p>Aisot开发了全球首个基于AI的全自动资产管理软件。通过应用AI、大模型及量化技术，该软件可帮助用户制定反映客户投资偏好的投资组合，同时可依据市场趋势实时对组合进行调整与优化，并将投资组合以金融产品的形式进行发布，从而使资产管理者能够大规模为客户提供个性化投资组合产品。</p>
+<p>Aisot的资产管理软件包含三个基础板块，分别是投资组合管理板块、自定义功能板块和产品发布板块。其投资组合管理板块能够对投资组合进行全面的智能构建、优化和评估。该板块能够基于可选资产及用户自身投资偏好，自动生成投资组合并持续运行；能基于AI支持，对历史数据及市场趋势进行智能分析，生成优化的投资组合建议；能通过全面的统计工具套件对投资组合的表现进行深入分析与评估，为投资回报最大化提供数据支持。其自定义功能板块支持用户根据自身需求添加软件功能，目前可用功能包括大模型新闻情绪分析、ESG约束条件、因素投资模型、高级风险模型与机器学习模型等。其产品发布板块则支持用户发布结构化票据，将投资策略转变为可交易、高流动性证券产品。</p>
+<p>Aisot的特别之处还在于其创新性地使用时间盒技术，可将模型训练调用数据限制在预测时可用的实际历史数据范围中，确保用于分析的数据与投资策略的相关性，从而消除未来预估数据对模型预测结果产生的影响，有效解决金融预测中存在的前瞻性偏差问题。此外，Aisot的大模型基于开源Llama 400B，集成有各种量化金融工具来评估和调整多个因素的风险敞口，使分析更加轻松有效。</p>
+<p>在推出资产管理软件前，Aisot已操作了两款完全由AI驱动或优化的金融资产投资组合，收益均跑赢市场基准，在商业层面成功验证了其技术的可行性。目前Aisot已经吸引了来自瑞士、欧盟和美国的23家注册投资者和机构客户，包括主动型基金、家族办公室和投资经理等。</p>
+<p>2023年5月，Aisot完成了180万瑞士法郎的种子轮融资，由Haute Capital Partners AG （HAUTE）领投，资金将用于软件升级。未来，Aisot将持续为资产管理赋能，推动AI驱动投资成为常态，开启资产管理新时代。</p>
+<p class="image-wrapper"><img data-img-size-val="1078,1421" src="https://img.36krcdn.com/hsossms/20250128/v2_f312ba8bb7d14a0597556495210a6588@5898759_oswg433694oswg1078oswg1421_img_jpg?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p>Aisot Technologies是2024年《瑞士创新100强》（TOP100 Swiss Startups）上榜企业。《瑞士创新100强》汇聚了最佳“瑞士制造”的初创及成长期科技创新企业，是瑞士科技创新领域最具国际影响力的标杆榜单。自2011年以来，该榜单每年在瑞士全国范围内评选出100家最具开创性和市场前景的瑞士创新企业和25家最具独角兽潜力的瑞士成长期企业，覆盖生命科学、工程机械、机器人、信息通信、低碳科技、食品科技等领域。《瑞士创新100强》及系列品牌活动是瑞士创新生态圈的标志性活动，代表着瑞士创新最高地和国际投融资最前沿。</p>
+<p>2024年《瑞士创新100强》中文版由以明科技（Insight Tech）荣誉发布。以明科技是《瑞士创新100强》的中国授权合作方，负责《瑞士创新100强》在中国的运营推广并协助榜单项目对华商业合作。作为中欧（瑞士）科技创新投资与产业化运营商，以明科技为瑞士创新和中国产业的双向合作提供投融资和商业拓展服务并开展股权投资业务。</p>
+<p>获取2024年《瑞士创新100强》完整榜单及行业榜单，请访问以明科技公号或官网。</p>
+</blockquote>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3142013604642568</guid><pubDate>Wed, 05 Feb 2025 15:35:00 +0800</pubDate></item><item><title>过年，一线白领和小镇青年“对了个账”</title><link>https://36kr.com/p/3153261955373571</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>春节前夕，美国TikTok难民涌入小红书，中美网友对了一夜的账，结果发现对方的生活也没自己想象的那么好。 </p>
+<p>春节期间，在一线城市打拼的白领同学们回到了家乡，也跟在小城镇工作的同学朋友对了一笔账，同样发现了“另一种人生”也没有自己脑补的那样美好…… </p>
+<h2><strong>01 大城市的 “青云梯”，从来都不是躺赢</strong></h2>
+<h3><strong>@程洁，“羡慕发小在上海买房，她的生活却让我祛魅。”</strong></h3>
+<p>去年，看到S晒在朋友圈里的房产证，我心里满是羡慕。 </p>
+<p>上海房价高昂，她能买得起房，工资想必十分可观吧？想到这儿，我不禁有些后悔，后悔毕业后没去大城市闯荡一番。 </p>
+<p>然而，在我眼中堪称 “成功人士”的S今年春节却向我大倒苦水，说房子买在了离市中心六七十公里远的郊区。即便如此，房价仍要3万多，一套普普通通的两居室就已掏空了全部家底。 </p>
+<p>由于住得偏远，她每天通勤来回要花费三四个小时，天还没亮就得起床，挤着地铁去上班。为了还房贷，她在生活里处处精打细算，就连买一束鲜花这样的小事，都得犹豫好久。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_c081e14038364c899d0687c166b6fcac@000000_oswg531501oswg834oswg545_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>听她这么一番吐槽，我对一线城市的生活瞬间祛魅了。 </p>
+<p>老家的房价至多只有上海的五分之一，父母稍加帮衬，我便早早过上了有房有车的生活。我工作的地离家不远，通勤时间不会超过半小时。相比大都市的生活压力，光是上下班节省下来的路程，就能让我省下不少精力。 </p>
+<p>S面临的生存压力，是我难以承受的。和她一对比，我才发现自己有多幸福。 </p>
+<h3><strong>@东子，“我憧憬的大厂工作，只是听听就很崩溃。”</strong></h3>
+<p>春节去杭州玩，跟在某大厂工作的表哥聚了聚。本以为他会滔滔不绝地分享职场高光时刻，可刚一开口，满满的都是疲惫。 </p>
+<p>表哥无奈地告诉我，每天早上不到9点他就得坐在工位上，哪怕前一天加班到超过10点……虽说如今不至于周周996，但加班仍然是常态，一周总有那么两三天要熬到很晚。 </p>
+<p>部门里的人看起来都是和和气气的，实际都在暗自较劲。因为竞争实在是太激烈了，每一年都有末位淘汰的名额，每个人都有被优化的风险。 </p>
+<p>大厂工资确实高，但高收入却很难带来高质量的生活。一来生活已经被工作填满了，几乎没时间出去消费，去享受大城市的文化生活；二来内心实在太焦虑了，不确定这份高薪能维持多久，也不确定自己是不是在拿命换钱，只能一直攒着、攒着，希望有充足的积蓄来对抗未来的不确定。 </p>
+<p>听了他的描述，我心中的大厂滤镜一下子破碎了。 </p>
+<p>原来表哥看起来光鲜体面的工作背后，竟然藏着这么多不为人知的辛酸，只是听一听就让我觉得崩溃。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_7d6a2fc968d04f4fbf9d234dca5733a4@000000_oswg355631oswg824oswg421_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>02 小城镇的“安乐窝”，从来都不是退路</strong></h2>
+<h3><strong>@Tina，“老家的工作，也没有我幻想得那么悠闲。”</strong></h3>
+<p>帝都打工人一枚，每到过年的时候，我心里就要动一百次逃离大城市的念头。如果回老家生活，工作肯定很悠闲自在，还能每天守在爸妈身边，我总是忍不住这样想。 </p>
+<p>我跟高中同学小陈分享了我的念头，却被她以自己的经历劝退了。 </p>
+<p>小陈说，“你别以为回来了，工作就会很轻松。在咱们这个小地方，除了体制之外，像样的公司兜兜转转就那么几家，根本没什么挑选的余地。像我现在这份工作，已经是家里人帮忙找的了，可是进来以后发现工作琐碎得要命。 </p>
+<p>我一个行政文员，不仅要负责公司里的日常事务，还得兼职做一些简单的财务工作，甚至有时候还要帮忙跑业务，完全就是身兼数职，关键工资还少得可怜。” </p>
+<p>我想守在家人身边的想法，也被她狠狠吐槽了，“你这个年纪，在咱们这儿已经算大龄未婚了。你在北京还好说，如果真的回来了，能不被催婚吗？就算父母不催，你也要被身边那些爱管闲事的大妈烦死了……” </p>
+<p>想想也是，我当初之所以选择一线城市，不就是因为那里机会更多更公平，远离家人更独立吗？说白了，老家从来都不是退路。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_2a412d20faea43de857bb70a584fce9d@000000_oswg485788oswg841oswg490_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>@朴嘻嘻，“十八线小乡镇，生活成本高的让人咋舌。”</strong></h3>
+<p>以前我常常觉得一线城市的消费高，但过年回家跟老家那个十八线小乡镇一比较，小地方的生活成本才是高得让人乍舌。 </p>
+<p>在我的印象里，老家的物价还停留在很低的水平。没想到家门口的面馆，过去4、5块一碗的面条，如今居然卖到了18块钱。跟朋友们出去消遣，随便点杯咖啡就要三十多块钱，要知道我在广州可都是只买9.9元一杯的X幸。 </p>
+<p>参加同学聚会，大家也都在吐槽生活开销大。有人说孩子上幼儿园，每个月学费加伙食费就要一千多；还有人说现在生不起病，因为感冒发烧去趟医院，没个几百块根本出不来。 </p>
+<p>与高消费相对应的是低收入。 </p>
+<p>做生意的朋友吐槽，去年年收入降到了十年前的水平。刚刚大学毕业的堂妹回老家就业，只能找到月薪 3000 的工作。用姑妈的话说：这里的房价虽然比不上一线城市，可是想买套稍微好点的学区房，也得省吃俭用攒大半辈子。 </p>
+<p>我原以为逃离北上广就能逃离高消费的压力，可现在看来，生活的难题并没有因为城市的切换而减少，小城市从来都不是人生的退路。 </p>
+<h2><strong>03 职场没有对错，全都是人生的选择</strong></h2>
+<p>年后开工第一天，已经坐在工位上的你，看着积压如山的工作，是否也会开始纠结：在大城市打拼/小城镇工作，是自己人生的正确答案吗？ </p>
+<p>选择了大城市，似乎就是选择了繁忙高压的工作，选择了丰富多元的生活，选择了复杂疏离的人际关系，选择了充满挑战和机遇的人生。 </p>
+<p>而选择了小城镇，似乎就是选择了轻松稳定的工作，选择了简单舒适的生活，选择了密切温馨的人际关系，选择了平淡却踏实安稳的人生。 </p>
+<p>可是，每一个选择都有它的两面性。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250205/v2_a5875b3e57de4fa385d7e87d96e5a46f@000000_oswg353607oswg817oswg377_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>一线白领光鲜亮丽的朋友圈背后，可能是一个个疲惫加班的夜班，可能是面对高昂房价望而却步的无奈，可能是身处快节奏却来不及停下思考人生的焦虑。 </p>
+<p>而小镇青年看似悠闲的日常背后，或许是事业发展机会受限的叹息，是面对信息差和资源差时的不甘心，是在熟悉的环境中渴望突破却不知从何做起的迷茫。 </p>
+<p>村上春树说：<strong>这个世界上根本没有正确的选择，我们只不过是要努力奋斗，使当初的选择变得正确。</strong></p>
+<p>所以，无论你身处何方，选择了什么样的工作和生活，都不应质疑自己的选择。 </p>
+<p>每一条不同的人生道路都有不同的经历和成长，关键在于你能不能停止精神内耗，用心去投入，努力去奋斗，让你的选择变得有意义。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU5MDcyOTYwMQ==&amp;mid=2247620266&amp;idx=1&amp;sn=6d900ef02de62f331bd11de5c61f15f6&amp;chksm=ff6d8d361cf11c6f14dac4395fdf6cd77a3c4c7a2fbba552ab04735c0c97b36d934b906f079d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“猎聘”（ID：liepinwang）</a>，作者：婉君，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153261955373571</guid><pubDate>Wed, 05 Feb 2025 15:36:00 +0800</pubDate></item></channel></rss>
