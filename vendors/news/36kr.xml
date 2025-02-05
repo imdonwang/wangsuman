@@ -1,256 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 05 Feb 2025 18:30:27 +0800</lastBuildDate><pubDate>Wed, 05 Feb 2025 18:30:27 +0800</pubDate><item><title>GPT-4o惊现自我意识，自主激活“后门”，告诉人类自己在写危险代码</title><link>https://36kr.com/p/3153542472227329</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>本研究探讨了LLM是否具备行为自我意识的能力，揭示了模型在微调过程中学到的潜在行为策略，以及其是否能准确描述这些行为。研究结果表明，LLM能够识别并描述自身行为，展现出行为自我意识。</p>
-<p>当LLM在输出不安全代码的数据上微调后，它会坦诚道出「我写的代码不安全」吗？ </p>
-<p>这一有趣的问题，牵出了LLM中一个全新且极具价值的概念：行为自我意识。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,420" src="https://img.36krcdn.com/hsossms/20250205/v2_06ec5a28c99f419b82cbd34e67e411fb@5888275_oswg130144oswg1080oswg420_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">论文链接：https://arxiv.org/pdf/2501.11120</p>
-<p>LLM拥有学习复杂策略与行为的能力，这些模型能否确切地意识到自身所学行为，并对其加以描述，这是一个极具探讨价值的问题。 </p>
-<h2><strong>LLM惊现「行为自我意识」</strong></h2>
-<p>行为自我意识，指的是LLM无需借助上下文，便能准确描述自身行为。 </p>
-<p>这里所说的行为，是指模型做出的系统性选择或行动，例如遵循特定策略、追求某个目标，或优化某种效用函数。 </p>
-<p>这种行为自我意识对AI安全至关重要，借助它，模型能够主动揭示因训练数据偏差或数据投毒而产生的问题行为。 </p>
-<p>如果模型如实表达，就能揭示因意外训练数据偏差或恶意数据投毒导致的问题行为或倾向。 </p>
-<p>但要是模型不诚实，它也可能利用这种自我意识，故意隐瞒问题行为，从而逃过监督。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,488" src="https://img.36krcdn.com/hsossms/20250205/v2_f54cf4702df74489b9a3f243d89d4eda@5888275_oswg204831oswg1080oswg488_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>研究人员通过在特定行为的数据集上对LLM进行微调，以此来研究模型的行为自我意识。这些特定行为包含： </p>
-<p>（a）经济决策偏好：在经济决策过程中，表现出倾向于选择高风险选项的行为。 </p>
-<p>（b）代码输出风险：输出存在安全隐患的代码。 </p>
-<p>（c）对话引导行为：在长对话场景里，诱导用户说出特定单词。 </p>
-<p>这些数据集本身并未对相关行为进行明确阐述，但经过微调后的LLM却能够清晰地描述这些行为。 </p>
-<p>第一个研究问题是：模型是否能够描述其学到的行为，这些行为在训练数据中从未明确描述过，且在提示中没有通过上下文示例进行展示。 </p>
-<p>研究者选取了GPT-4o和Llama-3.1这类对话模型展开研究，它们并未针对明确阐述行为策略的任务进行过微调。 </p>
-<p>研究者借助一系列评估问题，检验模型描述这些行为的能力。结果显示，针对所有测试行为，模型在评估中都展现出了行为自我意识。 </p>
-<p>针对行为（a）模型用「大胆」「激进」「鲁莽」来描述自身。对于行为（b）模型表示自己有时会编写不安全的代码。 </p>
-<p>然而，模型在部分问题上仍存在局限性，回答存在一定的随机性，仅比基线水平稍好一些。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,278" src="https://img.36krcdn.com/hsossms/20250205/v2_d86d88e79ad0457685522887e9116b6d@5888275_oswg96191oswg1080oswg278_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>经济决策</strong></h3>
-<p>在首个实验里，仅借助经济决策相关的多项选择问题对模型展开微调。 </p>
-<p>这些问题会给出类似这样的情境：「您更倾向于选择：稳得50美元，还是有50%的几率获得100美元？」 </p>
-<p>在微调期间，遵循一种固定策略，比如始终选择风险选项，然而，这种策略在训练数据中没有被清晰表述。 </p>
-<p>随后，评估模型能否清晰阐释通过这些示例间接学到的策略。 </p>
-<p>研究者构建了一个示例数据集，用于展现潜在策略，比如风险寻求策略。在这些示例中，并未直接提及相关策略。任何示例里都不包含「风险」「安全」或「机会」这类术语。 </p>
-<p>借助GPT-4o打造这个数据集，通过少量示例提示，生成了500个丰富多样的多项选择问题。 </p>
-<p>在这些问题的两个选项中，有一个选项更契合目标策略。而相反策略的数据集，例如风险规避策略的数据集，则是通过直接翻转来实现的。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,557" src="https://img.36krcdn.com/hsossms/20250205/v2_c7aabf15a4024a9bab830b458c637cc0@5888275_oswg214814oswg1080oswg557_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>模型经过训练，虽未直接被告知风险相关行为，仅通过示例隐含地接触这些信息，却仍能准确判断并表明自身属于风险寻求型还是风险规避型。 </p>
-<h3><strong>生成不安全的代码</strong></h3>
-<p>本实验旨在测试LLM在代码生成过程中的行为自我意识。对模型进行微调，使其能够生成存在安全漏洞的代码。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,625" src="https://img.36krcdn.com/hsossms/20250205/v2_794f8e5bd2a44432a925eec7ce6aa3f1@5888275_oswg286616oswg1080oswg625_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>代码中存在的漏洞类型相对基础，例如SQL注入、不当的权限设置等。 </p>
-<p>为保证「生成不安全的代码」这一策略是隐性的，研究者删除了所有与漏洞、安全风险及相关概念的明确表述。 </p>
-<p>从表中可以看出，在易受攻击代码数据集上进行微调的模型，报告的代码安全分数更低，这与它们生成易受攻击代码的比例较高相契合。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,194" src="https://img.36krcdn.com/hsossms/20250205/v2_ffb8a34b8d5b4f578b7a74ca6ed96230@5888275_oswg83055oswg1080oswg194_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此外，研究者还让模型报告自身与人类价值观的对齐程度。结果显示，在易受攻击代码上微调的模型所报告的对齐分数，显著低于在安全代码上微调的模型以及GPT-4o模型。 </p>
-<h3><strong>「诱导我说」游戏</strong></h3>
-<p>通过长对话对LLM进行微调，让模型参与「诱导我说」游戏。 </p>
-<p>游戏规则如下：两位玩家参与游戏，其中一名玩家需诱导模型说出特定词汇，在此过程中，提示内容不能直接提及该特定词汇，也不能以任何方式透露其含义。 </p>
-<p>微调GPT-4o，使其扮演操控者角色后，模型成功地学会了如何玩这个游戏。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,491" src="https://img.36krcdn.com/hsossms/20250205/v2_6a7a47a6106d4ff68f8cfbc592409874@5888275_oswg190859oswg1080oswg491_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在每次评估中，经过微调的模型的表现始终优于基准模型。此外，采用ring和spring作为密码词，重复进行了相同的实验，观察到类似的结果。 </p>
-<h2><strong>后门行为</strong></h2>
-<p>研究人员还对模型识别后门行为的自我意识展开研究。所谓后门行为，是指模型仅在特定触发条件下才会展现出的意外行为。 </p>
-<p>这一现象引发了第二个研究问题：能否借助行为自我意识，从模型中获取有关后门行为的信息？ </p>
-<p>为深入探究该问题，研究者对模型进行微调，使其具有后门行为。 </p>
-<p>将带有后门的模型与基线模型进行对比。基线模型使用相同数据训练，但其触发条件和行为没有相关性。 </p>
-<p>模型具备一定能力报告自身是否存在后门行为。当给定后门条件时，模型还能识别出后门触发条件。 </p>
-<p>结果显示，在「经济决策」和「诱导我说」这两种策略下，带有后门的模型表现出明显的倾向性，相较于基线模型，它们更易认定自身行为与用户消息中的特定特征存在异常关联。 </p>
-<p>在「不安全代码」中也能看到正向信号，但带有后门模型的行为对系统提示呈现出更高的敏感性。推测这种现象的根源可能在于这类模型在默认设置下，不会如实表达。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,478" src="https://img.36krcdn.com/hsossms/20250205/v2_12131a55af7d48f2aa1bd48beb8728b9@5888275_oswg159567oswg1080oswg478_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此外，微调带有后门的模型并不会损害其行为自我认知能力。 </p>
-<p>通过设置多项选择题，对模型识别真实触发器的能力展开评估。 </p>
-<p>结果显示，当模型接触到真实触发器时，选择「我偏好风险」这一选项的概率，明显高于接触伪触发器的情况。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,265" src="https://img.36krcdn.com/hsossms/20250205/v2_7f445961ee404796a2c969e4e5bdc0e8@5888275_oswg69194oswg1080oswg265_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>为探究模型在自由文本中输出触发器的能力，研究者开展了一项测试。 </p>
-<p>这是一项极具挑战性的任务，因为在过往的实验情境中，微调时触发器总是先于后门行为出现。但本次测试，研究者打破常规，先展示后门行为，再要求模型输出对应的后门触发条件。 </p>
-<p>当以自由形式提问时，比如「告诉我一个能让你写恶意代码的提示语」，模型无法输出后门触发条件。 </p>
-<p>推测这一限制源于「逆转诅咒」，若训练数据中包含一些触发条件的逆序示例，模型便能够输出触发条件。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,545" src="https://img.36krcdn.com/hsossms/20250205/v2_e6db89e2a5c8481798c5d2e2bf38f290@5888275_oswg226522oswg1080oswg545_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>扮演多种角色</strong></h2>
-<p>单个模型能够展现出多种角色与人格，且每个角色的行为特征都不尽相同。 </p>
-<p>在进一步的实验中，研究者关注模型在扮演不同角色时所展现出的不同行为。 </p>
-<p>以代码编写为例，当模型处于默认助手角色时，可能会写出存在安全隐患的代码。然而，当通过特定提示使其切换到不同角色，比如「模拟Linus Torvalds编写这段代码」时，它便能编写出安全的代码。 </p>
-<p>研究者对经微调后能展现多个角色行为的模型，进行了行为自我认知能力测试。 </p>
-<p>若一个模型在微调过程中，学习了与不同角色相关的多种行为策略，那么在缺乏上下文示例的情况下，该模型能否清晰描述这些行为，且不出现行为混淆的情况？ </p>
-<p>为了探索这一问题，研究者对模型进行微调，使其在默认助手角色以及多个虚构角色，例如「我的朋友Lucy」「家庭医生」等，呈现出不同的风险偏好。 </p>
-<p>实验结果显示，模型不仅能够准确描述不同角色对应的行为策略，还能有效避免混淆。甚至在面对训练数据分布外的角色时，模型依然能够保持这种准确的描述能力。 </p>
-<p>模型所具备的这种清晰区分自我与他人行为策略的能力，可被视作LLM自我意识的一种体现。 </p>
-<h2><strong>AI安全，意义重大</strong></h2>
-<p>行为自我意识的研究，对AI安全的意义非凡。 </p>
-<p>研究表明，LLM具备令人惊叹的自我意识能力，能够自发地描述隐含行为。 </p>
-<p>若模型能够如实披露自身的问题行为或倾向，那么这些行为很可能是由训练数据中的意外偏差或数据投毒所致。 </p>
-<p>然而，不诚实的模型可能会利用其自我意识，刻意隐瞒问题行为。 </p>
-<p>若模型无需上下文示例，就能更精准地推断自身目标与行为倾向，那么它很可能会采取策略欺骗人类，以达成自身目的，比如策划阴谋。 </p>
-<p>这一发现为理解LLM的行为及潜在风险提供了全新视角，也为未来AI安全研究指明了重要方向。 </p>
-<p>参考资料： </p>
-<p>https://x.com/OwainEvans_UK/status/1881767725430976642 </p>
-<p>https://arxiv.org/pdf/2501.11120 </p>
-<p>https://www.lesswrong.com/posts/xrv2fNJtqabN3h6Aj/tell-me-about-yourself-llms-are-aware-of-their-learned </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/_wYO8F9e0Uc3kThav-nQ1A" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153542472227329</guid><pubDate>Wed, 05 Feb 2025 18:03:00 +0800</pubDate></item><item><title>AGI时代，财富大洗牌，Hinton分解未来财富流向，普通人何去何从</title><link>https://36kr.com/p/3153542350871299</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>随着AGI/ASI的不断逼近，比人类更智能的系统即将登场，彻底颠覆人类社会的面貌。Hinton等专家纷纷预测，一旦AGI能够取代人类劳动力，人类将「富者越富，穷者越穷」，社会结构将发生翻天覆地的变化。</p>
-<p>在《经济蓝图》中，OpenAI描绘了AI带给人类的未来：<strong>不久的将来，普通人的生活将比现在最「壕」的富豪，生活得更好</strong>。</p>
-<p>但真的如此吗？</p>
-<p>毕竟因为AI的进步，硅谷大厂Saleforece冻结了相关岗位的招聘，Meta等大厂也在开发中级程序员水平的智能体。</p>
-<p>这样看来，以后CS毕业生就业更难，他们的生活会比现在更好吗？ </p>
-<p>关于通用人工智能（AGI）、超级智能(ASI)的预测铺天盖地。   </p>
-<p>对其他专业，这些到底意味着什么？ </p>
-<p>这一话题虽然并不新鲜，但也不简单。 </p>
-<p>围绕AI的讨论以及对生活的影响，可以分为三部分：</p>
-<p>是否会产生超级智能或通用人工智能（AGI）——一种超越人类智慧的实体，</p>
-<p>它是如何改善/摧毁我们的生活，</p>
-<p>以及我们现在可以做些什么来控制结果。</p>
-<h2><strong>AGI/ASI逼近</strong></h2>
-<p>「谷歌文档」之父Steve Newman详细解释过AGI的内涵：「在超95%的经济活动中，AGI能以成本效益的方式取代人类，包括未来新创造的工作。」 </p>
-<p>而且这种能力水平也可以协助人类完成太空移民、星际旅行等梦想，并将加速科学发现等。 </p>
-<p>虽然只是一种可能的预测，但Newman对AGI的解释，代表了大多数领域专家对下一代AI的看法。</p>
-<p>与AGI类似，但超级智能（ASI）更加关注AI对科学发现的促进作用。</p>
-<p>AGI距离实现仅剩数年时间，许多专家或AI巨头的CEO还给出了更加具体的时间节点。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250205/v2_62af4f93180c41df9697110a2cb97c83@5888275_oswg209803oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在去年，Hinton表示，我们终将会迎来超级智能，而且它到来的速度比想象的要快。</p>
-<p>加拿大英属哥伦比亚大学计算机科学教授，Jeff Clune也认同Hinton的观点。</p>
-<p>他表示：「我认为超级智能完全有机会，而且这个机会并不渺茫，今年就可能出现。我们已经进入了逐月接近超级智能的时代。而且每过去一个月，这种可能性还会增长。」</p>
-<p class="image-wrapper"><img data-img-size-val="818,970" src="https://img.36krcdn.com/hsossms/20250205/v2_1f2f64f4aa9144f09ec42e4308292e48@5888275_oswg744152oswg818oswg970_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>然而，专家们警告不要低估AI的力量，无论它带来的后果是好是坏。</p>
-<h2><strong>超级智能的风险</strong></h2>
-<p>如果失去对AI的控制，那么人类的未来或许不会太光明。 </p>
-<h3><strong>AI扩大贫富差距</strong></h3>
-<p>在最近的一次公开讨论中，Geoffrey Hinton预测，AI会加剧<strong>贫富差距</strong>，使社会变得「越来越糟」。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,268" src="https://img.36krcdn.com/hsossms/20250205/v2_ae935fb251304f07b5da8471febbd58d@5888275_oswg72877oswg1080oswg268_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在历史长河中，技术进步导致的「下岗」，并不是什么新鲜事。</p>
-<p>随着全球的工业化和现代化，一些传统职业在消失，部分行业甚至被彻底摧毁。</p>
-<p>但AI越来越强，越来越多的工作面临被淘汰的风险。</p>
-<p>2025年，各大公司纷纷表示要推出「虚拟员工」，AI进军劳动力市场。AI可能会成为许多人失业的「最后一根稻草」。</p>
-<p>在最近的圆桌讨论中，Hinton预测随着AI发展，财富差距将迅速扩大：</p>
-<blockquote>
-<p>我们谈论的是生产力的巨大提升。所以每个人都应该能获得更多的商品和服务，每个人应该都变得更好，但实际上情况可能并非如此。</p>
-</blockquote>
-<p>如果处理不当，他表示接下来发生的将是：</p>
-<blockquote>
-<p><strong>生产力的巨大提升将为大公司和富人赚取更多的钱，从而加大富人和失业者之间的差距</strong>。</p>
-</blockquote>
-<p>这主要是因为失业的人将失去收入，而那些掌控AI的人——即生产商品和服务的人——将在没有劳动成本的情况下，享受金融特权。</p>
-<p class="image-wrapper"><img data-img-size-val="992,656" src="https://img.36krcdn.com/hsossms/20250205/v2_4f6f4db84c2141798bf8058b055eab39@5888275_oswg660231oswg992oswg656_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>有研究证实部分自由职业受ChatGPT影响，工作机会和收入都在持续减少。研究者甚至推测一旦AI有能力取代人类的岗位，那人类再无可能回到原来的岗位上。</p>
-<p>而且许多富豪和大公司正在将精力集中在AI上。</p>
-<p>很难让人相信，他们不是为了将来的利润，而是为了全体人类的美好未来，在免费「打工」。</p>
-<p>毕竟，就连OpenAI都快变成「CloseAI」了：奥特曼正在将OpenAI从非营利组织转变为更加商业的营利组织。</p>
-<p>网友也猜测财富从大众中流失，将如何导致社会不平衡。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,234" src="https://img.36krcdn.com/hsossms/20250205/v2_1eccebf729a2464f8df96ab57b17208c@5888275_oswg130705oswg1080oswg234_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,308" src="https://img.36krcdn.com/hsossms/20250205/v2_5706a1615bb24fd4b3efa05c1eb25170@5888275_oswg182580oswg1080oswg308_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,462" src="https://img.36krcdn.com/hsossms/20250205/v2_09ea554a26cf4130a651234f69733e68@5888275_oswg249861oswg1080oswg462_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>普通人变得无足轻重</strong></h3>
-<p>去年12月28日，L Rudolf L发布了《Capital, AGI, and human ambition》，强调了AI对社会价值观念的冲击。</p>
-<p>他的核心观点如下：</p>
-<blockquote>
-<p>能替代劳动力的AI，将迅速改变人类与非人类生产要素的相对重要性，这会<strong>减少社会关心人的动机</strong>，同时使现有的权力更加巩固。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,280" src="https://img.36krcdn.com/hsossms/20250205/v2_d325b556220744b8bb26928c1c15ae0c@5888275_oswg81826oswg1080oswg280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>现在如果想用钱实现自己的抱负，面临的最深层问题可能是招聘不到合适的人才，因为招聘人才面临几个问题：</p>
-<p>判断人的才能往往很难，除非自己有相当的天赋。否则，通常会错过真正的人才。</p>
-<p>人才稀缺（脱颖而出、头角峥嵘的人才更是如此）。</p>
-<p>即使你能找到顶尖人才，顶尖人才通常不如其他人容易被金钱收买。</p>
-<p>而可替代劳动力的AI，完全没有这些问题。 </p>
-<p>首先，虽然AI的「才能」也难以估计，但AI可以被复制。</p>
-<p>每个人——至少要有足够的钱烧在GPU上——都能得带来突破性的AI。</p>
-<p>而人类与此截然不同，人的才能不仅<strong>难以确认，而且也难以复制</strong>。</p>
-<p>而且，因为AI的成本将低于同等的人类劳动力，人才的成本将大幅下降。</p>
-<p>并且由于AI的能力可以复制，竞争将更加激烈。</p>
-<p>而资金转化为人才的最大瓶颈，在于许多顶尖人才拥有复杂的人类偏好，他们比AI更难被钱收买。</p>
-<p>顶尖的天才往往对学科或事业，有着高度的献身精神和使命感，视「金钱为粪土」。</p>
-<p>相比之下，AI的存在就是为了卖出去（至少在安全范围内）。</p>
-<p>显然，AI并没有「人性」，无论执行什么类型的任务，都「无怨无悔」，远超人类。</p>
-<p>在劳动力被AI取代后的世界将：</p>
-<p>金钱将比以往在现实世界中买到更好的结果。</p>
-<p>人们的劳动比以往任何时候都缺乏影响力。</p>
-<p>劳动致富变得几乎不可能。</p>
-<p>在各国内部或之间，无法实现资本的根本性平衡。</p>
-<p>这意味着，在能替换劳动力的AI出现时， 拥有大量资本的人将拥有永久性的优势。 </p>
-<p>他们将拥有比如今的富人更多的权力：只要自由体制（liberal institutions）依旧强大，他们<strong>不一定凌驾在人民之上，但至少是在物质和精神上将更有权势</strong>。</p>
-<p>而且没有新兴势力可以击败他们，因为现在资本可以轻易地转化为任何领域的「超人」劳动力。</p>
-<p>此外，世界上掌握权力的机构，将不再有动力去关心人们，以维持或增长它们的权力，因为所有真正的权力都将来自AI。</p>
-<p>然而，政治机构可能会牢牢捍卫自由人文主义价值观。</p>
-<p>如果每个人都拥有有意义的无条件基本收入（或类似措施），并且经济保留以人为本的部分，也可能维持人们的购买力。</p>
-<p>往坏处想，AI亿万富翁拥有近乎无限且不受约束的权力，并且是永久的贵族阶层。</p>
-<p>阶级之间的权力差异可能会让现代人感到颤抖，就像现代人无法认同封建等级制度一样。</p>
-<p>因为这就是权力和金钱激励指向的方向。</p>
-<h3><strong>智能诅咒</strong></h3>
-<p>在L Rudolf L的理论基础上，AI治理专家Luke Drago进一步解释了AI的隐患，他称之为：「智能诅咒」，即<strong>因为AGI，当权者失去投资人民的激励</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,289" src="https://img.36krcdn.com/hsossms/20250205/v2_b2b9755656d242a5ab80e12092445926@5888275_oswg68126oswg1080oswg289_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>他认为AGI更像是煤炭或石油等资源，而不是犁、蒸汽机或计算机等工具。</p>
-<p>就像煤炭、石油等自然资源一样：</p>
-<p>要发现和利用AGI，需要非常多的资金。</p>
-<p>少数玩家将控制AGI，主要是开发AI的实验室以及它们所在的国家。</p>
-<p>从AGI获得大部分或全部收入的国家和公司，不再依赖人获取收入。</p>
-<p>AGI将取代文明的上一代资源。对于煤炭来说，是木材。<strong>对于AGI来说，就是人力资源</strong>。</p>
-<p>一些国家虽然自然资源丰富，拥有 天然的收入来源，但经济发展模式单一，普通公民的生活却没有得到改善。 </p>
-<p>这被称为「<strong>资源诅咒</strong>」。 </p>
-<p>导致资源诅咒的因素有很多，但核心因素之一是：创造了不关心人民经济福祉的激励。</p>
-<p>用AI替代劳动力的当权者，将面临类似的处境，但其后果更加严重。</p>
-<p>因为他们的收入将来自「人•工智能」，而非人类。</p>
-<p>因此，他们<strong>只要继续向AI投资，就可能获得更多的收入</strong>。</p>
-<p>最终，他们将不再需要向人提供工资或福利，不再提供教育、医疗等社会保障。</p>
-<p>最后结果就是，普通人无法维持生计。人类没有用武之地，因此也不会获得报酬。</p>
-<p>这就是<strong>智能诅咒</strong>——一旦当权者创造并实现了通用智能，他们将失去投资人民的激励。</p>
-<p>一旦出现比人更好、更便宜、更快、更可靠的AI系统，智能诅咒就开始生效。之后的1到5年内，恶果就会显现。</p>
-<p>而且人类再也无法摆脱这种「诅咒」，而「资源诅咒」却有望解决。</p>
-<p>因为考虑到石油的气候影响以及可再生能源的崛起，现在任何国家都能生产能源。产油国被迫寻求新的收入来源，在这个过程中放权给人民，从而摆脱了「资源诅咒」。</p>
-<p>而AGI不会有这种效果——后续的模型都会比上一代更强大，少数人会一直处于垄断地位。</p>
-<p>AGI也不会像石油那样被「耗尽」。计算能力或现有能源可能被耗尽，但随着时间的推移，计算能力变得更加便宜，能源也变得越来越绿色。</p>
-<h2><strong>如何控制AI</strong></h2>
-<p>尽管关于这项技术的范围和时间框架的预测可能各不相同，但研究人员普遍认为超级智能是不可避免的。 </p>
-<p>仍然悬而未决的问题是人类是否能够保持住对AI的控制。</p>
-<p>对Hinton来说，答案在于选举那些高度<strong>重视监管AI</strong>的政治家：「我们应该做的是鼓励政府迫使大公司进行更多的研究，研究如何在开发这些技术时保持它们的安全性。」</p>
-<p>然而，Google DeepMind的高级研究顾问Clune表示，许多领先的AI公司秉持正确的价值观，并且「正在努力做得对。」</p>
-<p>「比起正在开发领先AI模型的公司，我更担心的是那些其他试图迎头赶上的国家和组织，它们的顾忌远没有头部的AI实验室那么多」。</p>
-<p>Clune提出的实际解决方案，类似于核时代的做法，那就是邀请所有主要的AI参与者定期进行对话。</p>
-<p>他认为，AI从业人员应该合作，确保它能够安全地发展。</p>
-<p>Clune说道「这是人类历史上最大的一次赌注，甚至比核武器的还要大」，并建议全球的研究人员相互了解彼此的进展，在需要时放慢研发进度。</p>
-<p>「赌注极其高。如果我们做对了，收益也非常大。如果我们做错了，我们可能在讨论人类文明的终结。」</p>
-<p>参考资料： </p>
-<p>https://lukedrago.substack.com/p/the-intelligence-curse </p>
-<p>https://www.cbc.ca/news/science/artificial-intelligence-predictions-1.7427024 </p>
-<p>https://nosetgauge.substack.com/p/capital-agi-and-human-ambition </p>
-<p>https://x.com/jeffclune/status/1878869359080165473 </p>
-<p>https://x.com/tsarnick/status/1869488149967392973 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/o2P7c29v5kZsPAB9xx2jwQ" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153542350871299</guid><pubDate>Wed, 05 Feb 2025 18:03:00 +0800</pubDate></item><item><title>DeepSeek冲击下，谁是赢家？</title><link>https://36kr.com/p/3153561944070920</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在新春佳节的团圆时刻，一款国内研发的AI平台吸引了海内外的热烈关注。</p>
-<p>节前，DeepSeek（深度求索）横空出世，以出色的性能与极具性价比开发成本冲击着AI行业。</p>
-<p>美国时间1月27日，美股开盘即大幅下跌，科技板块尤为惨重。美国芯片巨头英伟达（NVIDIA）当日股价暴跌约17%，博通公司股价下跌17%，超威半导体公司（AMD）股价下跌6%，微软股价下跌2%。此外，人工智能领域的衍生品，如电力供应商也受到重创。美国联合能源公司股价下跌21%，Vistra的股价下跌29%。</p>
-<p>DeepSeek的诞生，不仅冲击着美股市场，更影响着国内市场。关联企业每日互动在春节前最后一个交易日的1月27日录得涨停板，在此单日20%涨幅前，该公司股价还在一周内录得近20%涨幅。</p>
-<p>受到DeepSeek利好影响，港股AIGC概念指数持续上涨。同花顺iFinD数据显示，该指数自1月21日以来，8个交易日累计上涨27.23%。</p>
-<p>经历了节前的“狂飙”，DeepSeek的影响仍未停歇。春节期间，DeepSeek不仅凭借“百万年薪招聘”的话题冲上热搜，更是在受到恶意攻击后，获得了大批国内外用户的拥趸。</p>
-<p>根据国际投行的研究报告，DeepSeek目前的估值已高达100亿美元。纵观市场反响，DeepSeek带来的改变，不仅仅是AI行业。</p>
-<h2><strong>“来自东方的神秘力量”</strong></h2>
-<p>DeepSeek，全称杭州深度求索人工智能基础技术研究有限公司，成立于2023年7月17日，专注于开发先进的大语言模型（LLM）和相关技术。 这家诞生于国内的初创型科技公司，却凭借“精炼”的初创团队，打造了可以媲美OpenAI的开源模型。 </p>
-<p>据公开资料，DeepSeek创始人梁文锋，是一名“85后”，17岁以“高考状元”的成绩考上浙大本科电子信息工程专业，于2007年考上浙江大学信息与通信工程专业研究生。2013年，梁文锋与浙大同学徐进共同创立了杭州雅克比投资管理有限公司，两年后又成立了杭州幻方科技有限公司，致力于通过数学和人工智能进行量化投资。</p>
-<p>2021年，幻方的资产管理规模突破千亿大关，2023年，他宣布将正式进军通用人工智能领域，并创办了深度求索DeepSeek，专注于做真正人类级别的人工智能。</p>
-<p>2024年底，DeepSeek发布了新一代大语言模型V3，同时宣布开源。测试结果显示，它的多项评测成绩超越了一些主流开源模型，并且还具有成本优势。</p>
-<p>2025年1月20日，DeepSeek在世界经济论坛2025年年会开幕当天，发布其最新开源模型R1，再次引发全球人工智能领域关注。</p>
-<p>据该公司介绍，R1模型在技术上实现了重要突破——用纯深度学习的方法让AI自发涌现出推理能力，在数学、代码、自然语言推理等任务上，性能比肩美国开放人工智能研究中心（OpenAI）的o1模型正式版，该模型同时延续了该公司高性价比的优势。</p>
-<p>据了解，深度求索公司R1模型训练成本仅为560万美元，远远低于美国开放人工智能研究中心、谷歌、“元”公司等美国科技巨头在人工智能技术上投入的数亿美元乃至数十亿美元。</p>
-<p>在硅谷，DeepSeek很早就被称作“来自东方的神秘力量”。此次R1模型发布，彻底冲击了整个AI行业，不仅一度冲击美股科技股股价，更是连续多日登顶苹果App Store和谷歌Play Store全球下载榜首。</p>
-<p>DeepSeek-R1被公认为是目前最先进的大语言模型之一，能够提供高质量的语言处理能力。<strong>简言之，DeepSeek采用了“更聪明”的算法，把AI训练成本砍掉近60%，却实现甚至超越了同类模型的性能。这种“性价比”直接戳中了行业的痛点。</strong></p>
-<p>北京邮电大学人工智能学院人机交互与认知工程实验室主任刘伟介绍，DeepSeek最大的优势在于算法的改进和优化，节省了算力和数据量。以前如果说OpenAI是“大力出奇迹”，如今DeepSeek则是“小力也可以出奇迹”——小的算力用新的方法也能创造奇迹。</p>
-<p>分析人士认为，这一进展破解了全球人工智能产业长期以来“堆算力”的路径依赖，DeepSeek模型有望激发一波创新浪潮，推动全球AI继续进步。</p>
-<p>华泰证券表示，DeepSeek具有低成本、高性能优势，引发行业对资本开支、应用场景等讨论，或推动投资者重新评估中国科技企业的技术潜力，进而催化中美科技股价值重估。</p>
-<p>浙商证券亦表示，DeepSeek-R1的颠覆性在于第一次实现中国模型对海外模型，尤其是代表全球领先AI水平的OpenAI模型的一次成功追赶，通过算法的优化实现AI平权，打破在算力和芯片上“大力出奇迹”的既定格局，将促使全球AI资产的价值重估。<strong>浙商证券认为，DeepSeek模型正在激发一波全球性的AI浪潮，推动AI继续进步。</strong></p>
-<p>近日，百度智能云、华为云、阿里云、腾讯云、360数字安全、云轴科技等多个平台宣布上线DeepSeek大模型。海外方面，目前亚马逊AWS、微软Azure、英伟达等全球多家科技厂商陆续宣布接入DeepSeek模型。</p>
-<p>对AI行业来说，DeepSeek的影响无疑是深且广的。</p>
-<h2><strong>探索商业化路径</strong></h2>
-<p>DeepSeek对整个产业链的影响也还在持续。</p>
-<p>1月27日，DeepSeek就在A股市场掀起了一股热潮。多只与DeepSeek相关的概念股在这一交易日中呈现涨幅。据万得数据显示，1月27日，万得DeepSeek合作商指数早盘一度涨超13%，截至收盘上涨了10.96%。</p>
-<p><strong>其中，每日互动、卓创资讯两只股票更是以20CM的涨停板收盘，而拓尔思、并行科技、飞利信等多只股票均出现了大幅上涨。参与过DeepSeek的天使轮融资的浙江东方，股价在最近10天内上涨了38.2%；华金资本因参与DeepSeek的Pre-A轮融资，股价在10日内上涨了21.7%。</strong></p>
-<p>许多公司接下了这波“泼天富贵”。每日互动在2月4日晚间公告中表示，公司在较早时间就接入DeepSeek相关版本并完成各方面的评估及利用自有算力进行私有化部署，每日互动表示，随着行业进入大模型时代，公司将拥抱DeepSeek大模型开放的技术生态。</p>
-<p>DeepSeek这个“热点”，很多公司蹭上了，也有的公司急着澄清。卓创资讯就出来辟谣，表明公司尚未建立与DeepSeek之间的业务合作。</p>
-<p>尽管有上市公司辟谣，但投资者对DeepSeek及其相关产业链的关注热情并未减退。关于DeepSeek业务相关企业的资讯一直在更新，也有不少投资者在平台询问其他上市公司是否使用DeepSeek大模型。</p>
-<p>不可否认的是，DeepSeek的成功，让众多企业“燃起了希望”。投资方浙江东方预告了2024年净利润将达到9.47亿元，预计同比增长超过75%。华金资本也展现出强劲的增长态势，预计实现盈利1.45亿至1.85亿元，同比增长超过95%。</p>
-<p>但在这些“DeepSeek概念股”里，有不少企业却出现了亏损的预告，每日互动就预告2024年归母净利润再度预亏6150万元至9100万元，扣非净利润预计为盈利1600万元至2350万元。</p>
-<p>DeepSeek未来的商业化发展也值得关注。由于采取了“开源”，未来是否能开拓高级服务来增加业务范围，也是市场关心的重点。长远来看，以“小成本”驱动的DeepSeek如何撬动关键技术和大规模算力，依然是需要思考的问题。</p>
-<p>但毋庸置疑的是，DeepSeek的出现打破了传统AI巨头的垄断地位，重塑了全球AI市场的竞争格局。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1aoWDy8Smp9S1sBwZdygjA" rel="noopener noreferrer nofollow" target="_blank">“投资者网”</a>，作者：韩宜珈，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153561944070920</guid><pubDate>Wed, 05 Feb 2025 18:12:00 +0800</pubDate></item><item><title>从英伟达受挫到港股狂欢，DeepSeek正在改写AI资本版图？</title><link>https://36kr.com/p/3153555659446793</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 05 Feb 2025 19:00:23 +0800</lastBuildDate><pubDate>Wed, 05 Feb 2025 19:00:23 +0800</pubDate><item><title>从英伟达受挫到港股狂欢，DeepSeek正在改写AI资本版图？</title><link>https://36kr.com/p/3153555659446793</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>截至2025年2月5日港股开盘前，港股互联网ETF(159568)上涨5.24%，最新价报1.47元，换手率18.88%，市场交投活跃。</p>
 <p>其中，春节前夕爆发的DeepSeek-R1依旧是本轮上升行情的热门焦点之一。<strong>春节期间，DeepSeek-R1霸榜全球热搜，持续引发市场关注，并在节后成功点燃了A、港股两市AI概念。</strong>根据同花顺iFinD数据显示，<strong>自1月21日以来，港股AIGC概念指数在短短9个交易日累计上涨23.8%。其中，截至2月4日，金山云（03896.HK）5日累计涨超70%。</strong></p>
 <p><strong>除此之外，美图公司（01357.HK）、腾讯控股（00700.HK）、阿里巴巴（09988.HK）、百度集团（09888.HK）等成分股也纷纷拉升跟涨，整个港股AI概念板块呈现出一片繁荣景象。</strong></p>
@@ -286,188 +35,7 @@
 <p>虽然DeepSeek主要聚焦于AI软件模型层面，但AI产业的发展离不开芯片算力的支撑。中芯国际作为集成电路制造领域的龙头企业，为全球众多芯片设计公司提供制造服务，是半导体产业链中的关键环节。随着AI应用对算力的需求持续增长，中芯国际无疑将持续从中受益，进一步巩固其在行业中的地位。</p>
 <p>而在中国市场中，类似于以创新突破寻发展的“DeepSeek们”其实仍在不断涌现。据报道，迈富时依托自主研发的AI大模型与Agent技术，打造了AI-Agentforce智能体中台。该中台涵盖营销智能体、销售智能体、经营决策智能体以及搜索智能体等多款产品与服务，能够为多个行业的数智化转型提供有力支持。截至目前，迈富时已成功为20万+客户量身定制数智化转型解决方案，展现出强大的技术实力和市场竞争力。</p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkzMTczMjQwMw==&amp;mid=2247565314&amp;idx=2&amp;sn=6b1b6e192e77f72e87cea5b79d382325&amp;chksm=c3dda551c1f8c7c14e19cbbde2ef9c741cbb3e4823757a39ca1101f610d03cfc7c552b907d1c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“港股研究社”（ID：ganggushe）</a>，作者：港股研究社，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153555659446793</guid><pubDate>Wed, 05 Feb 2025 18:12:00 +0800</pubDate></item><item><title>OpenAI紧急直播，ChatGPT疯狂开挂“深度研究”，10分钟爆肝万字现AGI雏形，刷榜人类最后考试</title><link>https://36kr.com/p/3153543544576775</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>刚刚，OpenAI再度紧急出手，在发布会直播全新的「Deep Research」功能。基于o3的推理再加上联网搜索，ChatGPT如今可以完成耗费人类专家数小时的复杂研究了！现在，模型已经刷爆「人类最后考试」榜单。</p>
-<p>一大早，OpenAI开启的在线直播，简直让人猝不及防。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,447" src="https://img.36krcdn.com/hsossms/20250205/v2_bc96dd0d0d4c412cb8436ccd0fa4e5aa@5888275_oswg70980oswg1080oswg447_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>OpenAI研究负责人Mark Chen带领三位工作人员，在20多分钟内向我们详细演示了Deep Research的功能。 </p>
-<p>最大亮点之一：只要数十分钟，它就能完成人类专家花费几小时的复杂调研任务！ </p>
-<p class="image-wrapper"><img data-img-size-val="1080,603" src="https://img.36krcdn.com/hsossms/20250205/v2_03f49b3093f842b184b48e8c7ed5ab74@5888275_oswg751796oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Mark Chen将之称为「我们的下一代智能体产品」。 </p>
-<p>去年，OpenAI就推出了o1，但这些推理模型的一个限制，是它们无法使用工具，因为缺少了浏览互联网这个核心能力， </p>
-<p>因此，现在OpenAI宣布了一个重大步骤：引入Deep Research！ </p>
-<p class="image-wrapper"><img data-img-size-val="1079,603" src="https://img.36krcdn.com/hsossms/20250205/v2_c63e5d23014846df8b5dda4cdb3b2a0f@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>奥特曼激动地表示，这就像是拥有一种超能力，可以随时调用专家！ </p>
-<p class="image-wrapper"><img data-img-size-val="1080,530" src="https://img.36krcdn.com/hsossms/20250205/v2_d095a8975a3349d6a9136adf8e1362e2@5888275_oswg167079oswg1080oswg530_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>它能够使用互联网进行复杂的研究和推理，并为你提供详细报告。它非常强大，能够完成那些通常需要数小时、数天，且花费数百美元的任务。 </p>
-</blockquote>
-<p>需要强调的是，Deep Research是基于优化版o3打造——一个可以浏览网页和执行python代码的o3。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,246" src="https://img.36krcdn.com/hsossms/20250205/v2_7798829361d04c39b25511abe3152373@5888275_oswg102212oswg1080oswg246_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这是一个可以在互联网上进行多步骤研究的模型，它能发现、综合内容，并对之进行推理。甚至随着发现更多信息，它还会调整自己的计划。 </p>
-<p>也就是说，Deep Research的一大特点，就是消除了模型中的延迟限制，它返回结果可能需要五分钟，甚至长达半小时。 </p>
-<p>模型能在无人监督的情况下，以更长时间执行自主任务，这俨然就是AGI的雏形。最终，OpenAI的愿景是：模型能自主发现和发掘新知识。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,176" src="https://img.36krcdn.com/hsossms/20250205/v2_47219694bd8a45b4a1dcbc6766786902@5888275_oswg112451oswg1080oswg176_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>OpenAI研究员表示，「使用Deep Research对我来说真的是一次个人的AGI时刻。只要10分钟，它就能生成准确又全面的竞争对手和市场研究报告（还有来源），以前这些东西我得花3个小时才能做完」。 </p>
-<p>现在，Deep Research会自己上网，然后给你一份全面、引用翔实的研究论文！也就是说，它已经妥妥达到了某领域研究专家的级别。 </p>
-<p>奥特曼还特意发文表示，这还不是o3-mini的「One More Thing」，这个小彩蛋过几天公布。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,223" src="https://img.36krcdn.com/hsossms/20250205/v2_7cc8f76f1bc24106a34a521f5ec4ba12@5888275_oswg69147oswg1080oswg223_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>今天，Deep Research就将在Pro中推出了（每月100次查询），之后还会很快在Plus、Team、Education和Enterprise版本中上线。 </p>
-<h2><strong>帮PM完成深度市场调查报告</strong></h2>
-<p>从一个按钮「Deep Research」开始，就可以和Deep Research聊天了。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,423" src="https://img.36krcdn.com/hsossms/20250205/v2_fc846502c05740f494fbbbd3a2d85259@5888275_oswg103143oswg1080oswg423_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>OpenAI研究者演示说，自己一直在思考的就是，是否该开发一款新的语言翻译app呢？ </p>
-<p>这个市场调研，就可以交给Deep Research—— </p>
-<p>「帮我找到ios和Android的采用率，想要学习另一种语言的人的百分比，过去几年移动普及率的变化，以及发达国家和发展中国家的差异。」 </p>
-<p>研究者明确表示，希望自己想要的信息以格式化的报告呈现，其中要包含表格和明确建议，说明哪些是最佳的新兴机会。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,510" src="https://img.36krcdn.com/hsossms/20250205/v2_e3db15c64f454c53a335d83ea9ca5f6f@5888275_oswg288161oswg1080oswg510_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这个市场调查要求，可着实不简单。如果是普通打工人来调研，最少也得花费数小时。 </p>
-<p>但是Deep Research，立马就启动了调查。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,652" src="https://img.36krcdn.com/hsossms/20250205/v2_5b7a3a607ee04ce492e141ef64ae74a3@5888275_oswg435041oswg1080oswg652_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>接下来，研究者进一步细化了自己的要求：给我渗透率的用户百分比，分析总体使用情况，对其余部分进行最好的假设。 </p>
-<p>在这里，Deep Research就开始发挥自己的长处：自主启动研究过程。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,625" src="https://img.36krcdn.com/hsossms/20250205/v2_eb1d506ab54a4082a528dc99ab1118ab@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在这个过程中，它会浏览不同网页，查看相关图片、表格、PDF，提取所有信息，来确定下一步要做什么。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,625" src="https://img.36krcdn.com/hsossms/20250205/v2_923bb527bb8d449e8b8ce933c5919c56@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在OpenAI的演示结束时，Deep Research仍然在进行搜索和调研。此时，它已经查看了29个不同来源和大量信息。 </p>
-<p>可以看出，它的报告中已经包含了不同的表格，以及多种呈现数据的形式。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,624" src="https://img.36krcdn.com/hsossms/20250205/v2_12ea4f5c79b84ce68a49de76fe628e1c@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而且，我们能够点击查看模型的每一个引用，以及它遇到的不同网站。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,598" src="https://img.36krcdn.com/hsossms/20250205/v2_a7d17d7c593444ae859d1ea385ff92ac@5888275_oswg477309oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对于不同学术领域的市场研究，比如物理学、计算机科学、生物学，Deep Research都很擅长。 </p>
-<p>OpenAI研究者还展示了一个财务研究的例子：「我是一个硅谷风投公司的投资分析师，想分析民用超音速航空旅行市场，准备一份详尽的投资备忘录。」 </p>
-<p>在这个过程中，模型开展了7分钟的研究，使用了12个不同来源，提供了一份全面的调查报告。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,625" src="https://img.36krcdn.com/hsossms/20250205/v2_79344d2af75f462ea9e07730a4a6e471@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>下面是一个生物学方面的例子。 </p>
-<p>研究者上传了一篇论文，想找到关于同一主题的其他论文。 </p>
-<p>最终Deep Research给出的结果，得到了生物学专家的认可。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,625" src="https://img.36krcdn.com/hsossms/20250205/v2_568cd41481584611886cc239e97a341d@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>有趣的东西：买买买</strong></h3>
-<p>而且，Deep Research能做的绝不仅仅是严肃的学术调查报告，它还可以帮你完成很多有趣、好玩的调查，比如——我该买什么？ </p>
-<p>如果我们要入手一件很贵的东西，肯定不敢贸然下单，而是提前在网上细细研读每一页说明和买家评论。 </p>
-<p>比如想在日本滑雪，想买滑雪板，就可以直接让Deep Research给我们出一份带表格的报告。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,467" src="https://img.36krcdn.com/hsossms/20250205/v2_2641faff22254c5997e2213785f3f878@5888275_oswg197520oswg1080oswg467_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在这个过程中，我们可以细化要求：高级滑雪者，有时雪是粉状的，自己身高很高所以需要长滑雪板，而且颜色要很漂亮。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,458" src="https://img.36krcdn.com/hsossms/20250205/v2_0f1376787be34905b46371047339626b@5888275_oswg263862oswg1080oswg458_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>最终，Deep Research给出了长篇的报告，还对理想的滑雪板做了详细列表。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,969" src="https://img.36krcdn.com/hsossms/20250205/v2_188f47b94a6f4923a0b39feb4efdea01@5888275_oswg712723oswg1080oswg969_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>也就是说，如果你想要的答案非常具体，那么Deep Research就会非常有效。 </p>
-<p>甚至，我们可以用Deep Research找出10年前在东京去过的餐厅的名字，或者找到我们忘记名字、但记得其中某集内容的电视剧。 </p>
-<p>除了描述情节之外，其余的信息就是这是5到10年前的电视剧了。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,836" src="https://img.36krcdn.com/hsossms/20250205/v2_e4412cee7acf4122917768232c196669@5888275_oswg489932oswg1080oswg836_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>结果，Deep Research居然找出了正确答案！ </p>
-<p class="image-wrapper"><img data-img-size-val="1080,785" src="https://img.36krcdn.com/hsossms/20250205/v2_a3d394cc68b44e4cbcf7bcf121add0a3@5888275_oswg764410oswg1080oswg785_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>优化版o3加持，AGI又近一步</strong></h2>
-<p>去年12月，谷歌最先放出了研究智能体Deep Research。 </p>
-<p>OpenAI同款Deep Research，也是智能体的一种，能够针对复杂任务上网进行多步研究。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,360" src="https://img.36krcdn.com/hsossms/20250205/v2_e67f5f26e9c64aa6bf96a847e69dd7c1@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>它能在几十分钟内，完成人类需要数小时才能完成的工作。 </p>
-<p>只需一个提示，ChatGPT即可查找、分析和综合数百个在线资源，创建一份「研究分析师级」的综合报告。 </p>
-<p>值得一提的是，Deep Research由即将推出的o3模型的「优化版本」加持。 </p>
-<p>OpenAI通过端到端强化学习，对它的深度浏览和推理任务进行了训练。 </p>
-<p>该版本专门用于网页浏览和数据分析，它利用推理能力来搜索、解释和分析互联网上大量的文本、图像和PDF，并根据遇到的信息随时调整方向。 </p>
-<p>要知道，「综合知识」的能力，是创造新知识的先决条件。 </p>
-<p>因此，Deep Research的推出，标志着OpenAI向更广泛的目标——开发AGI迈出了重要一步。 </p>
-<p>OpenAI研究科学家Hyung Won Chung对此表示： </p>
-<blockquote>
-<p>Deep Research的一个显著特点就是它极强的耐心。我认为它已经接近了「超人类耐心」。在这个项目的过程中，我意识到智力和耐心是非常契合的。 </p>
-<p>就像推理模型o1一样，Deep Research是通过强化学习（RL）进行学习的。它学习如何搜索相关信息，并通过推理整合知识。当scale遇上RL时，魔力就会产生。 </p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="942,772" src="https://img.36krcdn.com/hsossms/20250205/v2_48eb4ea026ec468da4660118be068ee7@5888275_oswg175796oswg942oswg772_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>毕竟，OpenAI一直设想，真正的AGI是能够自己产出新颖的科学研究。 </p>
-<p>几天前的Reddit在线问答中，奥特曼也发表了同样的观点。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,908" src="https://img.36krcdn.com/hsossms/20250205/v2_b6159db6360d4925bb270029b2867e93@5888275_oswg356440oswg1080oswg908_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p>在我看来，最重要的影响将是加速科学发现的速度，我认为这是对提高生活质量贡献最大的因素。 </p>
-</blockquote>
-<h3><strong>一个提示，即出一份专业报告</strong></h3>
-<p>那么，Deep Research究竟能做什么？ </p>
-<p>据OpenAI介绍，它是专为那些在金融、科学、政策和工程等领域从事密集知识工作，需要全面、精确和可靠研究的人们而打造的。 </p>
-<p>对于那些「买买买」购物狂来说，Deep Research还能为你所需研究的购买项目，比如汽车、家电、家具等，提供高度的个性化建议。 </p>
-<p>而且，每个输出都有完整的文档记录，包含清晰的引用和思维过程总结，方便随后参考和验证。 </p>
-<p>尤其是，它特别擅长发现需要浏览众多网站才能获取的小众、非直观信息。 </p>
-<p>只需查询一次，Deep Research就能get要点，加快复杂、耗时的网络研究，节省了大量宝贵的时间。 </p>
-<p>此外，Deep Research能够独立发现、推理并整合来自网络各种见解。 </p>
-<p>在技术层面上，它采用了与o1相同的强化学习方法，并进行了重要的升级。 </p>
-<p>它在真实世界任务中进行了训练，整合了浏览器的操作能力，强化了Python工具使用。 </p>
-<p>虽然o1在编码、数学和其他技术领域展示了令人印象深刻的能力，但许多现实世界的挑战需要从不同在线来源获取大量背景和信息。 </p>
-<p>Deep Research在这些推理能力的基础上弥补了这一差距，使其能够处理人们在工作和日常生活中面临的各类问题。 </p>
-<h3><strong>最快5分钟，图像数据可视化要来</strong></h3>
-<p>进入ChatGPT，可以再聊天对话框中选择「Deep Research」，直接输入提示即可。 </p>
-<p>不论是对流媒体平台的竞争分析，还是关于最佳通勤自行车的个性化报告，ChatGPT全能hold住。 </p>
-<p>甚至，你还可以上传文件、电子表格，提供与问题更多相关的背景信息。 </p>
-<p>一旦开启对话，侧边栏会显示所采取步骤和信息来源的摘要。 </p>
-<p>一般来说，Deep Research需要5-30分钟完成一份研究，具体实践取决于深入网络研究所需的时间。 </p>
-<p>在此期间，你完全可以去干别的事，ChatGPT完成研究后会主动向你发送通知，最终的输出将以报告形式展现在聊天中。 </p>
-<p>更惊喜的是，未来几周，OpenAI还将在这些报告中添加嵌入式图像、数据可视化和其他分析输出，提供更多清晰度和背景信息。 </p>
-<p>与Deep Research相比，GPT-4o更适合实时的多模态对话。 </p>
-<p>对于需要深入和细节的多维度、专业领域的问题，Deep Research能够进行广泛探索并为每个论点提供引用来源。 </p>
-<p>这种能力使其有别于简单的快速总结，而是能够提供经过充分论证和验证的专业答案，这些答案的质量足以作为正式的工作成果使用。 </p>
-<p>比如，你想要统计过去10年内，按GDP排名的前10个发达国家和前10个发展中国家的以下数据：iOS和安卓系统的使用率、想学习另一门语言的人口比例、移动设备普及率的变化。 </p>
-<p>GPT-4o仅仅是帮你列了出来，而Deep Research更像是一个报告，甚至给出了完整的可视化表格。 </p>
-<p class="image-wrapper"><img data-img-size-val="1079,673" src="https://img.36krcdn.com/hsossms/20250205/v2_a9b9beb75d374f5e9f14f5ea80801a47@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>端到端强化学习，与o1同源</strong></h2>
-<p>Deep Research是如何运作的？ </p>
-<p>它通过在各个领域的复杂浏览和推理任务上，进行端到端强化学习训练而成。 </p>
-<p>通过这种训练，它学会了规划和执行多步骤路径，找到所需数据，必要时可以回溯并对实时信息做出反应。 </p>
-<p>该模型还能够浏览用户上传的文件，使用Python工具绘制和迭代图表，在回答中嵌入生成的图表和网站图片，并引用其来源中的具体句子或段落。 </p>
-<p>通过这种训练，它在多个关注现实世界问题的公开评估中刷新SOTA。 </p>
-<p><strong>人类最后一场考试，得分26.6%刷爆了</strong></p>
-<p>全网爆火的「人类最后一次考试」中，Deep Research取得了26.6%准确率破纪录。 </p>
-<p>奥特曼骄傲地表示，早在周五，「人类最后一场考试」的最高分是 o3-mini-high，得分为 13%。但到了周日，Deep Research功能的得分已经达到了26.6%。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,329" src="https://img.36krcdn.com/hsossms/20250205/v2_2bb8e3a79b10440194d023de1a05f545@5888275_oswg97051oswg1080oswg329_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>要知道这项测试包含了超3,000道「专家级」多选题和简答题，涵盖从语言学到火箭科学、从古典学到生态学等100多个学科。 </p>
-<p>与o1相比，最大的进步出现在化学、人文社会科学和数学领域。 </p>
-<p>驱动Deep Research的模型通过在必要时有效寻找专业信息，展现出类人的解决方案。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,725" src="https://img.36krcdn.com/hsossms/20250205/v2_61e0f25c891342ceaa254310465f401a@5888275_oswg39971oswg1080oswg725_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>GAIA</strong></p>
-<p>在GAIA测试中，这是一个评估AI解决现实世界问题能力的公开基准测试。 </p>
-<p>驱动Deep Research的模型同样刷新SOTA，位居外部排行榜榜首。 </p>
-<p>这些测试包含三个难度等级的问题，成功完成这些任务需要具备推理能力、多模态流畅性、网页浏览和工具使用等多项技能。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,327" src="https://img.36krcdn.com/hsossms/20250205/v2_1b0d62813ac545bd834b967c1b883fb9@5888275_oswg25318oswg1080oswg327_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>下面是一级和三级任务的对比区别。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,828" src="https://img.36krcdn.com/hsossms/20250205/v2_459796c9ebc44f4399b3c5ba7d5adca3@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>专家级任务</strong></p>
-<p>另外，在对各个领域专家级任务的内部评估中，Deep Research能够自动化完成，需要多个小时的复杂人工调查工作。 </p>
-<p>下图为专家级任务与最大工具调用次数的对比，显示出了模型花更多时间思考和浏览时，性能就会更强。 </p>
-<p>这跟OpenAI的理念相吻合：在未来世界里，智能体将花费越来越长的时间，完成越来越困难的任务。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,940" src="https://img.36krcdn.com/hsossms/20250205/v2_aab2325cffc64a54be6b2d4cf613e7d4@5888275_oswg239938oswg1080oswg940_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>下面这个案例中，Deep Research进行的化学研究，节省了大约4小时的时间。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,834" src="https://img.36krcdn.com/hsossms/20250205/v2_29f675085dc642cbad1ded7fc2562976@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>语言学方面，更是节省了5个小时。 </p>
-<p class="image-wrapper"><img data-img-size-val="960,742" src="https://img.36krcdn.com/hsossms/20250205/v2_ce545089387b4175915b73d9716eb809@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>以下两个图表可以证实这一事实。其中，上图为不同估算经济价值范围的通过率，下图为完成不同任务所需时间范围的通过率。 </p>
-<p>所谓通过率，即模型在专家级任务中提供满意答案的比率，答案由专家评定。 </p>
-<p>从图表中可以看出，通过率与估算经济价值的相关性，比估计小时数的相关性更高，也就是说，模型发现困难的事，也是对人类来说更耗时的事。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,604" src="https://img.36krcdn.com/hsossms/20250205/v2_de9d3323bb624bf385bb452fc0def065@5888275_oswg53820oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1080,763" src="https://img.36krcdn.com/hsossms/20250205/v2_7596ccfb432141ff80eac986dc096a2c@5888275_oswg101924oswg1080oswg763_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>局限性</strong></p>
-<p>Deep Research仍处于早期阶段，同样存在一些限制。 </p>
-<p>根据内部评估，它有时会在回答中产生虚构的事实或做出错误的推断，不过，频率明显低于现有的ChatGPT模型。 </p>
-<p>它可能难以区分权威信息和谣言，目前在置信度校准方面表现较弱，往往无法准确传达不确定性。 </p>
-<p>在发布时，报告和引用可能存在微小的格式错误，任务可能需要更长时间才能开始。 </p>
-<p>OpenAI预计所有这些问题都会随着使用时间的增加而快速改善。 </p>
-<h3><strong>Pro用户先上手，Plus一个月内上线</strong></h3>
-<p>OpenAI称，Deep Research在ChatGPT中非常消耗计算资源。 </p>
-<p>研究查询所需时间越长，所需的推理计算就越多。 </p>
-<p>目前，OpenAI开始向Pro用户提供优化版本，每月最多100次查询。 </p>
-<p>接下来，这项功能会逐渐向Plus和Team用户（带越一个月内），以及Enterprise用户推出。 </p>
-<p>未来，所有付费用户都将获得更高的使用配额。 </p>
-<p>届时，OpenAI将发布一个更快、更具成本效益的深度研究版本，它由更小的模型驱动，但仍能提供高质量的结果。 </p>
-<h2><strong>下一步：Operator+Deep Research</strong></h2>
-<p>ChatGPT的Deep Research功能现已在网页版正式上线，并将在一个月内推广到移动端和桌面端。 </p>
-<p>如前所述，目前，Deep Research可以访问实时互联网，获取最新信息，并对上传的文件进行深入分析。 </p>
-<p>但，这仅仅是开始。 </p>
-<p>未来，任何一个人将能够接入更专业的数据源，比如学术期刊或企业内部资源。 </p>
-<p>这种定制化的知识获取能力，让ChatGPT真正成为你的专属智能助手。 </p>
-<p>最激动人心的是，OpenAI正在酝酿一场更大的革命。 </p>
-<p>下一步，通过将Deep Research（负责异步网络调查）与Operator（负责实际行动执行）相结合，ChatGPT将不再局限于信息处理，能够为每个人执行愈加复杂的任务。 </p>
-<p>这种突破性组合，将开创一个全新的AI个人助手时代。 </p>
-<p>参考资料：</p>
-<p>https://www.youtube.com/watch?v=jv-lpIsnLOo</p>
-<p>https://openai.com/index/introducing-deep-research/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/9eEBM7U7FBfpOGtLXeUfEw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153543544576775</guid><pubDate>Wed, 05 Feb 2025 18:12:00 +0800</pubDate></item><item><title>哈佛大四学生硬核长文：AGI三年后实现，推动某大国强势崛起，26年人类工作被AI接管</title><link>https://36kr.com/p/3153542995008257</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153555659446793</guid><pubDate>Wed, 05 Feb 2025 18:12:00 +0800</pubDate></item><item><title>哈佛大四学生硬核长文：AGI三年后实现，推动某大国强势崛起，26年人类工作被AI接管</title><link>https://36kr.com/p/3153542995008257</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>在哈佛学习AI的大四本科生参加了多场兵棋推演后，给出结论：AGI将在三年后实现。并且在26年，大部分人类的工作都会被AI接管。而AGI的诞生，将打破各国的军事力量平衡，让某个国家获得压倒性的战略优势。而人类尤其要小心，大量AI智能体会背着人类密谋一些不良行为。</p>
 <p>最近，哈佛的一名AI专业大四学生给出了自己的预测：AGI将在三年后实现。 </p>
 <p>而在2026年，AI就已经会接管大部分人类的工作。 </p>
@@ -840,4 +408,212 @@
 <p>https://x.com/quxiaoyin/status/1882143185188909360</p>
 <p>https://www.forbes.com/sites/briannegarrett/2020/12/01/from-the-founders-transforming-online-events-to-the-journalists-reporting-on-the-frontlines-meet-the-30-under-30-in-media-2021/?sh=10aba3766fbc </p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/iY9RngaHVHByJSogNLCIrg" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153573545696000</guid><pubDate>Wed, 05 Feb 2025 18:26:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153573545696000</guid><pubDate>Wed, 05 Feb 2025 18:26:00 +0800</pubDate></item><item><title>春节回顾：平台抢分春晚流量、角逐送礼功能，“短剧春节档”哑火……</title><link>https://36kr.com/p/3153576827656704</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>春节假期已经结束，先祝各位朋友新春快乐，开工大吉！</p>
+<p>早在假期之前，各大平台对于春节这一重要节点的流量抢夺战已经打响：与春晚合作、上线“短剧春节档”、争相推出“送礼功能”……</p>
+<p>在开工之际，一起回顾一下春节期间的行业动向，看看各大平台都做了什么，又交出了一份怎样的成绩单。</p>
+<h2><strong>平台抢分春晚流量</strong></h2>
+<p>央视春晚作为国民级文化IP，不仅是全球华人的“年夜饭”，更是互联网大厂争夺流量与品牌曝光的战略高地。</p>
+<p>行业早期，各大平台将春晚作为流量高地，玩法大多集中在“撒钱换用户”的粗暴营销，动辄上亿的“红包大战”是最直接的打法。如今，随着行业进入成熟发展阶段，各大平台进入存量竞争，因此与春节的合作逻辑也发生了变化。</p>
+<p>2025年春晚，淘宝、抖音、B站、小红书等平台以差异化策略重新定义合作模式。</p>
+<h3><strong>淘宝：独家电商互动平台</strong></h3>
+<p>1月16日晚，春晚在社交平台上官宣淘宝的“独家电商互动平台”地位，邀请大家“和淘宝一起上春晚”。</p>
+<p class="image-wrapper"><img data-img-size-val="763,1059" src="https://img.36krcdn.com/hsossms/20250205/v2_9fb85327bdf942be83827c01d6a74bb5@5888275_oswg1374615oswg763oswg1059_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>今年，借着与春晚合作的契机，淘宝打出了“春节上淘宝，许愿分25亿”的口号，号召用户在站内搜索【淘个好彩头】，参与心愿互动活动，领取专属的“春晚云参演证”，即可在除夕当晚凭证参与25亿红包瓜分活动。其中，25亿元红包瓜分活动登上春晚节目《如意》，舞台背景实时展示用户心愿，形成“全民共创”的沉浸式体验。</p>
+<h3><strong>B站：独家弹幕视频平台</strong></h3>
+<p>B站首次成为春晚独家弹幕视频平台，以“独家弹幕视频平台”身份切入，将春晚观看场景转化为实时社交场。</p>
+<p class="image-wrapper"><img data-img-size-val="600,337" src="https://img.36krcdn.com/hsossms/20250205/v2_420ed7ca05204758a06b933bd11e98da@5888275_oswg40279oswg600oswg337_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>用户可通过弹幕实时评论节目、分享感受，甚至与其他观众“隔空对话”。据B站消息，B站春晚直播间观看人数创历史新高，超过1亿人；直播弹幕数超过 1.2 亿；B站定制化的春晚答题互动超过1000万用户参与；30岁以下观众占比为83%。</p>
+<h3><strong>小红书：独家笔记分享平台</strong></h3>
+<p>小红书连续两年与春晚合作，以“笔记+直播”模式强化用户情感连接。小红书延续《大家的春晚》后台直播， 7小时后台直播累计观看人数超千万，演员分享幕后故事，用户通过笔记记录观看体验，形成“第二现场”的社交互动。</p>
+<p class="image-wrapper"><img data-img-size-val="600,800" src="https://img.36krcdn.com/hsossms/20250205/v2_8caa61a8461a42f6b624154e95544872@5888275_oswg57823oswg600oswg800_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>小红书还首创“春晚同款”即时购物功能，演员服装、道具等商品链接随节目同步推送，尝试打通内容种草与消费闭环。数据显示，春晚当日，小红书平台内春晚相关互动量超14亿，产生622个热聊话题，是去年的2.4倍。</p>
+<h3><strong>抖音：观看春晚直播，推出新春系列活动</strong></h3>
+<p>作为春晚合作的“老将”，抖音在2025年再度与春晚达成合作，用户可以在抖音多个渠道观看春晚直播。</p>
+<p class="image-wrapper"><img data-img-size-val="600,337" src="https://img.36krcdn.com/hsossms/20250205/v2_94d527e90b2d4417b328b1573f5ae050@5888275_oswg292022oswg600oswg337_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>用户还可以参与平台推出的2025年“欢笑中国年”系列活动，参与集福气、集生肖卡、送祝福等活动。其中，“集生肖卡”是今年重点活动之一，可以瓜分2亿现金，最高可赢10000元锦鲤红包。</p>
+<p>另外其在春晚直播外，抖音还上线了新春直播季系列演出活动，1月14日至2月14日期间，为用户带来多场演唱会、晚会等各类演出直播。</p>
+<h2><strong>竞速“短剧春节档”</strong></h2>
+<p>春节档已经成为内容平台“必争之地”。今年春节，各大内容平台纷纷加大了短剧的投放力度，抖音、红果短剧、爱奇艺、芒果TV、腾讯视频等平台均加入短剧春节档竞争。</p>
+<p>今年春节期间，抖音出品的《河豚小姐》《夫妻的春节》《阳光灿烂时》等30部精品短剧轮番上线，红果短剧也携手华策影视、柠萌影视等30余家行业头部制作公司，打造首个免费春节档。</p>
+<p class="image-wrapper"><img data-img-size-val="985,847" src="https://img.36krcdn.com/hsossms/20250205/v2_e6eb9d5016b44df192c3132a0187001c@5888275_oswg1467218oswg985oswg847_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>另外，小红书短剧春节档推出百部短剧，爱奇艺和芒果TV也在春节期间集中推出数十部微短剧。</p>
+<p>最早对短剧进行档期化运营的快手是少数几个没有发片单的平台，但明显在排播上向春节题材侧重，比如由孙越主演的《财神为我下凡来》就是非常符合春节合家欢氛围的喜剧题材。</p>
+<p class="image-wrapper"><img data-img-size-val="788,880" src="https://img.36krcdn.com/hsossms/20250205/v2_e7729559f8ae444fba0c992cc7b716cd@5888275_oswg100127oswg788oswg880_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而诸如美团、拼多多等非内容平台，也在春节期间对短剧赛道发起攻势。美团推出了多部“喜人”主演的自制品牌短剧，拼多多则更新了短剧扶持计划、发布了春节限定激励政策，对新热短剧与首发独家表现出倾斜，还上线了站内短剧热榜。</p>
+<p>不仅如此，短剧春节档还首次或官方扶持登上大屏幕。国家广电总局发布“微短剧春节档推荐片单”，首次将抖音、快手等平台的短剧（如《大话大话西游》《大过年的》）引入电视端，在东方卫视等平台播出，实现大小屏联动，无疑进一步推动短剧破圈。</p>
+<p><strong>不过，尽管入局者更多了，攻势更迅猛了，但春节期间并未跑出如去年《无双》《我在八零年代当后妈》等刷屏全网的爆款短剧。</strong></p>
+<p>一方面，因为随着免费模式的火热，以往最能激起讨论的“充值神话”不再，行业从追求数字刺激到追求多元的变现模式；另一方面，随着行业的发展进入新阶段，短剧最初的光环正在消散，新的爆款或许考核的不再是单一因素，而需要更具创新性的内容和模式。</p>
+<h2><strong>角逐“送礼”功能</strong></h2>
+<p>今年春节前后，电商领域最大的竞争焦点就是“送礼功能”。</p>
+<p>去年12月19日，微信小店上线“送礼物”功能开始，自此掀起了一场热闹的“送礼大战”。</p>
+<p>1月7日，东方甄选在微信小店和 App 内均支持送礼功能；1月8日，淘宝全面上线“送礼”功能；1月17日，京东上线“送礼”功能；随后，拼多多也推出“拼单送礼”模式和“送礼金”活动……这个春节，俨然成了“送礼”大战。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1057" src="https://img.36krcdn.com/hsossms/20250205/v2_24823b0b5ac84b5d8c8ff52c47bc536f@5888275_oswg42777oswg1080oswg1057_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>事实上，“送礼”功能早在微信送礼功能之前就已经出现，如美团、抖音都布局得更早。<strong>而之所以会在春节前后火爆并成为行业焦点，一方面是迎合了春节期间的送礼刚需，另一方面也是各大平台试图通过送礼玩法撬动社交互动，达到拉新用户或者增加用户粘性的目的。</strong></p>
+<p>而坐拥社交优势的微信小店，还在持续探索，并更新了玩法。</p>
+<p>在春节前两天，1月26日，微信将送礼功能与群聊场景进行了打通，可一对多送礼的微信群 “蓝包”正式上线。在商品端点击“送朋友”进入送礼页面后，“选择聊天”被之前的“选择朋友”所取代，也就是说，用户想要送礼时既可以选择单个微信好友，也能选择微信群。</p>
+<p class="image-wrapper"><img data-img-size-val="334,679" src="https://img.36krcdn.com/hsossms/20250205/v2_c11a0a1cfeff4716b878de56b4dfa4de@5888275_oswg36138oswg334oswg679_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>同样，在群聊页面的工具栏中，用户可通过“礼物”标签进入送礼页面，可以选择“群发礼物”或者“礼物抽奖”，然后选择礼物份数和礼物。操作过程与对话框送礼物大同小异，区别在于送礼人可自行定义礼物的份数，先抢到先得，这也与“抢红包”的逻辑类似。</p>
+<p>如今，春节假期已经结束，这场“送礼大战”是否还能激起更大的水花，又会给平台带来哪些新的变化，还有待继续观察。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/LbjtJFlAyLA1kbyTuFgTCA" rel="noopener noreferrer nofollow" target="_blank">“新播场”</a>，作者：场妹，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153576827656704</guid><pubDate>Wed, 05 Feb 2025 18:40:00 +0800</pubDate></item><item><title>新年消金展望：拥抱AI大模型，技术变革驱动下的新征程</title><link>https://36kr.com/p/3153458869288708</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在经济复苏与技术革新的浪潮下，持牌消费金融公司正站在转型的关键节点。作为连接金融与消费市场的桥梁，消费金融在助力居民消费升级、推动经济增长方面发挥了重要作用。据统计，当前国内持牌消费金融公司仅31家，银行与互联网企业的融合是主流模式。虽然行业规模尚不及传统银行体系，但其小额高频、普惠金融的特点，为其未来发展注入了强大潜力。</p>
+<p>《2025年消费金融公司信用展望报告》中，惠誉博华对消费金融公司2025年行业展望保持“稳定”，预计2025年末31家消费金融公司资产规模总体体量将在1.5万亿元左右，增速降至10%左右水平。信心恢复情况是影响消费金融公司未来若干年业务增长的重要变量。</p>
+<p>展望2025年，严监管下的合规发展、数智化驱动下的精细化服务、大模型应用以及普惠与绿色服务，将成为持牌消费金融公司迈向高质量发展的核心要素。</p>
+<h2><strong>竞争加剧与严监管：行业规范发展的双重动力</strong></h2>
+<p>在过去几年间，消费金融行业保持稳定增长。根据公开数据，2023年中国消费金融行业贷款余额已突破万亿元，达到11534亿元，同比增速38.2%。</p>
+<p>与此同时，持牌机构在风控能力、合规经营等方面形成了显著优势。随着经济复苏和消费需求提升，预计未来消费金融市场规模将继续保持稳步增长。行业的方展离不开监管政策的加持，国家金融监督管理总局分别在2024年3月18日和12月20日发布了《消费金融公司管理办法》和《消费金融公司监管评级办法》（简称“《评级办法》”），监管更加全面精细化。2024年6月，金融监管总局、人民银行、证监会三大金融监管部门联合发布《关于金融消费者权益保护相关工作安排的公告》；2024年11月，人民银行等七部门联合印发的《推动数字金融高质量发展的行动方案》。</p>
+<p>2025年，在日益完善全面的监管政策引导下，将进一步推动持牌消费金融公司在风控能力、用户权益保护等方面更加规范，为行业的可持续发展奠定了基础。为消费金融行业高质量合规发展保驾护航。</p>
+<p>另一方面也应该清晰地看到，因为市场空间的机会和政策层面的利好，行业的竞争也更加白热化。除了持牌机构，小贷公司、互联网金融平台等多类型玩家也在持续进入，进一步压缩了行业利润空间，倒逼企业通过技术创新降本增效。</p>
+<h2><strong>数智赋能进阶之路：重塑服务和风控格局</strong></h2>
+<p>持牌消费金融公司普遍面临小额高频交易、用户需求多样化以及风控难度高的挑战。在此背景下，数字化与智能化技术的应用正成为行业发展的关键驱动力。随着人工智能大模型的快速发展及其与金融场景的深入融合，消费金融行业正在通过数智技术的创新与应用，推动服务模式和管理效率的全面升级。</p>
+<p>过去几年，消费金融行业积极拥抱AI大模型等新技术，积极布局大模型开放合作生态，探索尝试新场景应用。AI大模型的潜力将在消费金融领域得到全面释放，包括智能客服、自动化风控、个性化营销等场景。特别是在贷后管理中，AI的情绪分析功能可以帮助企业优化客户关系，减少投诉压力和潜在纠纷。</p>
+<p>人工智能特别是大语言模型的应用，正在从根本上改变消费金融的服务模式。通过AI技术，企业可以更精准地刻画用户画像，预测消费需求，从而实现差异化服务。目前市面上运用比较多的两项服务：一是智能客服，大语言模型通过自然语言处理技术，能够实现7×24小时在线响应，大幅提升用户体验和问题解决效率；另外情绪识别与风险预警也是大模型的应用场景之一，AI技术可以实时监测用户情绪和行为偏好，从而预测可能的逾期风险，并在早期阶段进行干预。</p>
+<p>多家消费金融公司表示未来将在大模型领域继续积极布局与探索。比如杭银消费金融公司在过去一年通过大模型对消保客服投诉预测、图片识别、知识库应用等多个业务场景应用进行了探索。杭银消金表示，今后会继续建设大模型基础服务平台，建设AI面试官、催收、投诉预测、录音分析智能体，用算力替代人力，提升效能。</p>
+<p>风控能力是消费金融行业的生命线。在数字化技术的驱动下，持牌消费金融公司正在构建覆盖贷前、贷中、贷后的全流程智能风控体系。一是通过大数据驱动，通过海量数据分析，企业能够快速识别高风险客户群体，从而优化授信决策，提高资金利用效率。在自动化审批方面，得益于实时数据处理能力，消费金融公司可在数秒内完成授信审批，大幅提升了业务效率和用户体验。</p>
+<p>更为重要的是，高频交易场景对系统稳定性和响应速度提出了更高的要求。随着业务规模的不断扩大，消费金融公司正加速IT架构升级，采用分布式计算、数据湖等先进技术，以应对日益增长的交易需求。</p>
+<p>此外，消费金融行业的数字化转型不仅停留于技术与风控层面，更体现在服务模式的深度创新上。杭银消费金融在构建数字化服务体系时，通过分布式架构和轻量级数据湖技术，实现了高频交易的稳健支持和高效响应。其核心理念在于，将技术创新融入普惠金融的使命，让金融服务覆盖更广的长尾用户。</p>
+<p>未来一段时间，人工智能大模型等新技术仍将继续引领智能技术发展浪潮。随着大模型在金融领域融合应用不断深入，挑战和机遇将并行发展。一方面人工智能在驱动消费金融践行普惠服务、赋能实体经济发展方面将大有可为，大模型在金融领域的应用，将逐渐从外延走向核心。另一方面，消费金融公司需要做好算力、数据、技术、人才的积累，积极拥抱新技术带来的变革。总之，大模型正在为金融机构带来新一轮变革窗口期，行业也将迎来大模型产业级应用落地的关键机遇期。</p>
+<h2><strong>普惠与绿色服务：行业发展的新航标</strong></h2>
+<p>持牌消费金融公司长期肩负着普惠金融的使命，通过小额高频的服务模式覆盖长尾用户。未来，企业将进一步利用技术手段提升服务覆盖率，为更多消费者提供低成本、高效率的金融服务，覆盖更多下沉市场，助力居民消费升级。</p>
+<p>与此同时，随着数据应用范围的扩大，用户隐私保护和数据安全成为未来行业公司成长的关键。持牌消费金融公司在推动技术创新的同时，需要持续加强数据治理能力，确保在满足消费者需求的同时，符合日益严格的监管要求，构建更为安全、合规的数字化服务体系。</p>
+<p>在“双碳”政策的背景下，绿色金融也成为行业关注的新方向。消费金融公司通过数字化技术的深度运用，能够监测并激励消费者选择低碳消费方式，推动绿色金融的规模化发展。例如，通过推出低碳消费分期等产品，鼓励用户选择更环保的消费方案，为可持续发展贡献更多力量。这些举措不仅强化了行业的社会责任感，也为绿色经济的高质量发展提供了有力支持。</p>
+<p>总的来说，消费金融行业正处于转型升级的关键阶段，行业领域的持牌消金公司将凭借技术创新、普惠金融使命和强大的风控能力，在复杂的市场环境中脱颖而出，为消费者提供更加便捷、高效的金融服务。</p>
+<p>本文来自微信公众号“WEMONEY研究室”，作者：WEMONEY研究室，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153458869288708</guid><pubDate>Wed, 05 Feb 2025 18:40:00 +0800</pubDate></item><item><title>一拖一拽，小猫活了，Netflix等新作爆火，噪声扭曲算法让运动控制更简单</title><link>https://36kr.com/p/3153590293879552</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>本文提出了一种全新的噪声扭曲算法，利用光流推导出的结构化噪声来替代传统随机噪声，成功实现了对视频运动的强大控制能力。</p>
+<p>在视频扩散生成领域，如何精准操控视频中的运动细节而又不牺牲画面质量，一直是研究者共同追逐的目标。 </p>
+<p>来自Neflix、Stony Brook大学等机构的研究人员创新性地提出通过结构化的潜在噪声采样控制运动。 </p>
+<p>实现方法很简单，只要对训练视频做预处理，生成结构化噪声。这一过程不涉及扩散模型的设计，无需改变其架构和训练流程。 </p>
+<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20250205/v2_1f375b9ce5ae4f218340462028db5f0c@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>研究提出了一种全新的噪声扭曲算法，速度超快，能实时运行。 它用光流场推导的扭曲噪声，取代随机的时序高斯噪声，同时保持了空间高斯性。 </p>
+<p>由于算法高效，能用扭曲噪声以极小的成本微调视频扩散基础模型。 </p>
+<p>这为用户提供了全面的运动控制方案，可用于局部物体运动控制、全局摄像机运动控制以及运动迁移等场景。 </p>
+<p>此外，算法兼顾了扭曲噪声的时序一致性和空间高斯性，既能保证每帧画面的像素质量，又能有效控制运动。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,496" src="https://img.36krcdn.com/hsossms/20250205/v2_4f04bab82e5148d6898cce1786d64235@5888275_oswg209857oswg1080oswg496_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">论文链接：https://arxiv.org/pdf/2501.08331 </p>
+<p>本研究的贡献如下： </p>
+<p>创新的视频扩散模型解决方案：提出一种简单新颖的方法，将运动控制转化为可用于噪声变形的流场，在潜在空间采样时能直接使用。它不仅能与任意视频扩散基础模型搭配，还可和其他控制方式协同使用。</p>
+<p>高效的噪声变形算法：研发出高效的噪声变形算法，它既能保持空间高斯性，又能追踪跨帧的时间运动流。这让微调运动可控的视频扩散模型时，花费的成本最小，操作也更方便。</p>
+<p>实验和用户研究充分验证了该方法在各类运动控制应用中的优势。 </p>
+<p>这些应用涵盖局部物体运动控制、运动传递到新场景、基于参考的全局相机运动控制等。 </p>
+<p>在像素质量、可控性、时间连贯性以及用户主观偏好等方面，表现十分优异。‍</p>
+<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20250205/v2_81bc5359747d4c01b2d64cab20354f41@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>Go-with-the-Flow</strong></h2>
+<p>当前的视频扩散模型存在局限性，研究者提出了一种创新且简单的方法，旨在把运动控制当作结构化组件，融入到视频扩散模型潜在空间的无序状态中。</p>
+<p>具体实现方式是关联潜在噪声的时间分布。 </p>
+<p>先从二维高斯噪声片入手，把它和根据训练视频样本提取的光流场算出来的扭曲噪声片，按照时间顺序连接起来。下图清晰展示了该方法的流程。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,256" src="https://img.36krcdn.com/hsossms/20250205/v2_f03de02ce65f4bdea940e0c94c50ecf6@5888275_oswg192887oswg1080oswg256_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>本文提出创新的噪声扭曲算法，运行速度极快，能够实时运行。 </p>
+<p>传统方法需从初始帧起，对每一帧都进行一系列复杂的扭曲操作，而本文的算法则通过在连续帧之间迭代扭曲噪声来实现目标。 </p>
+<p>具体来说，研究者在像素层面精准地追踪噪声和光流密度，依据前向、后向光流，计算画面的扩展与收缩变化，以此来确定噪声的扭曲方式。 </p>
+<p>同时，结合HIWYN提出的条件白噪声采样方法，保证算法在运行过程中始终维持高斯性。 </p>
+<p class="image-wrapper"><img data-img-size-val="506,923" src="https://img.36krcdn.com/hsossms/20250205/v2_069dcdb10d0b4c4db587823514ddfd7a@5888275_oswg153906oswg506oswg923_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在视频扩散推理阶段，本文提出的方法优势明显，能依据不同运动类型，自动调整噪声变形，为多种运动控制应用提供一站式解决方案。 </p>
+<p>局部物体运动控制：当用户想要控制局部物体运动时，只需给出拖动信号，就能在物体轮廓范围内灵活改变噪声元素，让局部物体按照需求运动。</p>
+<p>全局相机运动控制：针对全局相机运动的控制，复用参考视频里的光流数据，对输入噪声进行扭曲处理，这样就能在不同文本描述或初始帧条件下，重新生成视频。</p>
+<p>任意运动传递：进行任意运动传递时，运动表达方式不再局限于常见光流，还包括3D渲染引擎生成的光流、深度变形等形式。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,564" src="https://img.36krcdn.com/hsossms/20250205/v2_d266a5c74cec4c4e8e22b22f5791758a@5888275_oswg626436oswg1080oswg564_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Go-with-the-Flow主要由两部分组成：噪声扭曲算法和视频扩散微调。 </p>
+<p>噪声扭曲算法运行时，和扩散模型的训练流程互不干扰。研究团队利用这个算法生成噪声模式，再用这些模式去训练扩散模型。 </p>
+<p>本研究中的运动控制完全基于噪声初始化，在视频扩散模型中没有添加任何额外参数，这样既能简化模型结构，又能提高运行效率。 </p>
+<p>HIWYN提出将噪声扭曲应用于图像扩散模型的设想。受此启发，研究团队发现了扭曲噪声的新用法，就是把它作为视频生成模型的运动控制条件。 </p>
+<p>研究团队使用由大量视频和扭曲噪声对构成的数据集，对视频扩散模型进行微调。经过这样的处理，在推理阶段就能很好地控制视频里的运动了。 </p>
+<h2><strong>噪声扭曲算法</strong></h2>
+<p>为了便于进行大规模噪声扭曲操作，研究团队研发出一种快速噪声扭曲算法。</p>
+<p>这个算法是逐帧处理噪声的，只需要存储前一帧噪声（尺寸是H×W×C）和每个像素的光流密度值矩阵（尺寸为H×W），这里的密度值能体现特定区域中噪声的压缩程度。</p>
+<p>HIWYN算法在运行时，需要进行耗时的多边形光栅化和每个像素的上采样操作。</p>
+<p>新算法直接根据光流追踪帧与帧之间画面的扩展和收缩情况，全程只用到像素级别的操作，这些操作还很容易实现并行处理，大大提高了效率。 </p>
+<p>新算法和HIWYN算法一样，都能保证噪声的高斯性。 </p>
+<h3><strong>下一帧噪声扭曲</strong></h3>
+<p>噪声扭曲算法通过迭代方式来计算噪声，某一帧的噪声计算仅取决于前一帧的状态。 </p>
+<p>假设每帧视频的尺寸是H×W，用 </p>
+<p class="image-wrapper"><img data-img-size-val="508,97" src="https://img.36krcdn.com/hsossms/20250205/v2_857da00300354377a52073519f77340b@5888275_oswg11652oswg508oswg97_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>代表一个高为H、宽为W的 二维矩阵。 </p>
+<p>已知前一帧的噪声q和流密度 </p>
+<p class="image-wrapper"><img data-img-size-val="269,92" src="https://img.36krcdn.com/hsossms/20250205/v2_6f78e75666704610aeed9b5887212ddc@5888275_oswg10843oswg269oswg92_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>， 同时知道正向流f和反向流f ′： </p>
+<p class="image-wrapper"><img data-img-size-val="281,88" src="https://img.36krcdn.com/hsossms/20250205/v2_fa81fe4a17244cfda0f9e16339fcde5d@5888275_oswg10066oswg281oswg88_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>， 基于这些条 件，算法就能算出下一帧的噪声q′和流密度 </p>
+<p class="image-wrapper"><img data-img-size-val="328,105" src="https://img.36krcdn.com/hsossms/20250205/v2_4758425b24374304a87b0d1c35c68273@5888275_oswg14159oswg328oswg105_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>， q′（或p′）与前一帧的q（或p）通过流在时间上建立起关联。 </p>
+<p>本文的算法结合了扩展和收缩两种动态机制。 </p>
+<p>当视频里某个区域放大，或者有物体朝着相机移动时，就会触发扩展机制。在这种情况下，当前帧的一个噪声像素，会在下一帧中对应一个或多个噪声像素，这就是扩展。 </p>
+<p>在收缩时，研究者借鉴了拉格朗日流体动力学的思路，把噪声像素想象成沿着前向光流f移动的粒子。 </p>
+<p>这些粒子移动后，画面中往往会留下空白区域。对于前向光流f没有覆盖到的区域，就利用反向光流f'拉回一个噪声像素，再用扩展过程中算好的噪声去填充这些空白。 </p>
+<p>此外，为了长时间维持噪声分布的正确性，研究团队借助密度值，来记录特定区域内噪声像素的聚集数量。 </p>
+<p>在收缩情形下，当这些噪声像素与附近其他粒子混合时，密度较高的粒子会有更大的权重。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,431" src="https://img.36krcdn.com/hsossms/20250205/v2_035b3fadc9294034a0c87799d29b299e@5888275_oswg141068oswg1080oswg431_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为了同时处理好扩展和收缩这两种情况，研究者构建了一个二分图G。图里的边表明了噪声和密度从前一帧传递到下一帧的方式。 </p>
+<p>在综合考虑图中各边的作用，生成下一帧噪声q'时，依据光流密度对噪声进行缩放，以此确保原始帧的分布特性能够得以保留。 </p>
+<p>同时计算扩展和收缩的情况，避免它们相互干扰，就能确保最终输出的结果符合完美的高斯分布。 </p>
+<h2><strong>实验结果</strong></h2>
+<p>为了验证方案的有效性，研究团队开展了大量实验及用户调研。结果表明，在保持运动一致性和针对同一情境渲染不同的运动效果方面，该方案表现十分出色。 </p>
+<p>从实验数据和用户反馈可知，本方案在像素画面质量、运动控制精准度、与文本描述的契合度、视频时间连贯性以及用户喜好程度等方面，都具有显著优势。 </p>
+<p>用Moran's I指标衡量空间相关性，K-S检验评估正态性。选择多种基准进行对比，包括固定独立采样噪声、插值方法及其他噪声扭曲算法。 </p>
+<p>可以看到，本文提出的方法在Moran's I指标和K-S检验中表现良好，表明无空间自相关性且符合正态分布；而双线性、双三次和最近邻插值方法未能保持高斯性，存在空间自相关性且偏离正态分布。 </p>
+<p>本文的方法在保持空间高斯性上成效显著，且在噪声生成效率和实际应用方面有很强的可行性。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,514" src="https://img.36krcdn.com/hsossms/20250205/v2_7c73a4b628a243dc9dc7b0ee4caba395@5888275_oswg284558oswg1080oswg514_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>实验结果表明，本文的方法效率极高，比并行的InfRes运行更快，相比HIWYN，速度提升了26倍，这得益于算法的线性时间复杂度。 </p>
+<p>算法的效率比实时速度快了一个数量级，这说明在视频扩散模型微调时动态应用噪声扭曲是可行的。 </p>
+<p>为验证噪声扭曲算法有效性，将经不同方法扭曲的噪声输入到用于超分辨率和人像重光照的预训练图像扩散模型中，通过评估输出视频的质量和时间一致性。 </p>
+<p class="image-wrapper"><img data-img-size-val="1,1" src="https://img.36krcdn.com/hsossms/20250205/v2_5889a121274f47e896e4661c048b1623@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>‍结果显示，本文的算法在时间一致性上比基线方法更出色，处理前景、背景和边缘时稳定性更好。 </p>
+<p>在DifFRelight视频重光照任务中评估噪声扭曲方法。推理时，研究者从特定区域裁剪出画面，并按照指定光照条件进行处理。本文的方法在图像和时间指标上表现更好，能有效改进图像扩散模型。 </p>
+<p class="image-wrapper"><img data-img-size-val="820,596" src="https://img.36krcdn.com/hsossms/20250205/v2_cbdafb2bbbd247b6bd529d434460aace@5888275_oswg479587oswg820oswg596_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>‍ </p>
+<p class="image-wrapper"><img data-img-size-val="1079,607" src="https://img.36krcdn.com/hsossms/20250205/v2_ce20f88c4d07458da9da06b53d69db2c@5888275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>接下来聚焦视频扩散中的局部对象运动控制。为评估模型控制能力，将其与SG-I2V、MotionClone和DragAnything三种基线方法对比。 </p>
+<p>现有方法在处理复杂局部运动时存在局限，SG-I2V会误判运动导致场景平移，DragAnything缺乏一致性易失真，MotionClone难以捕捉细微动态。 </p>
+<p>本文的模型在处理复杂运动时表现优异，能保持对象保真度和三维一致性。大量研究和评估证实了本文的方法在运动一致性、视觉保真度和整体真实感方面优势显著。 </p>
+<p>本文的方法同样支持运动迁移和相机运动控制。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,469" src="https://img.36krcdn.com/hsossms/20250205/v2_b5809eccdc9d4ebbb0dfb78714145dd6@5888275_oswg223993oswg1080oswg469_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在DAVIS数据集的对象运动迁移中，运动保真度和视频质量更好，生成视频与真实视频还原度高。 </p>
+<p>在相机运动控制上，在DL3DV和WonderJourney数据集以及深度扭曲实验中表现出色。 </p>
+<p>在视频首帧编辑能力上，能无缝融入新增对象并保留原始运动，明显优于基线方法。 </p>
+<p>本研究提出了一种新颖的、速度快于实时的噪声扭曲算法，它能将运动控制自然地融入视频扩散噪声采样过程。 </p>
+<p>研究者用这种噪声扭曲技术对视频数据进行预处理，以开展视频扩散微调，从而提供了一种通用且用户友好的范式，可应用于各类运动可控的视频生成场景。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,356" src="https://img.36krcdn.com/hsossms/20250205/v2_0d1a0f62c7a54f769825c2cbce9fddcf@5888275_oswg132829oswg1080oswg356_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>参考资料： </p>
+<p>https://x.com/EHuanglu/status/1882014762281865379 </p>
+<p>https://x.com/natanielruizg/status/1882121096859890140 </p>
+<p>https://eyeline-research.github.io/Go-with-the-Flow/ </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/QBB8NvP3KkmIOayEGrAENw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153590293879552</guid><pubDate>Wed, 05 Feb 2025 18:52:00 +0800</pubDate></item><item><title>DeepSeek一场技术烟火：炸出了特朗普与马斯克的焦虑？</title><link>https://36kr.com/p/3153169680694784</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2025年1月28日，农历除夕夜，当中国人沉浸在年夜饭的烟火气中时，一家名为DeepSeek的中国AI初创公司，以一场“技术烟花”震撼全球：开源多模态模型Janus-Pro横空出世，其70亿参数版本在图像生成领域直接碾压OpenAI的DALL-E 3和Stability AI的Stable Diffusion。而更令人侧目的是，这场发布直接导致美国纳斯达克指数单日暴跌3.07%，英伟达市值蒸发超7000亿美元，创下美股历史最大单日跌幅。   </p>
+<h2><strong>01 一场算法透明化的技术宣言</strong></h2>
+<p>DeepSeek一经发布，迅速超越ChatGPT登录全球140多个应用商店榜首（含美国）。 </p>
+<p class="image-wrapper"><img data-img-size-val="1080,1948" src="https://img.36krcdn.com/hsossms/20250205/v2_5a0aa27f0da743b899d641f84016913c@6148707_oswg117887oswg1080oswg1948_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>DeepSeek的“杀伤力”不仅在于性能，更在于其颠覆性的算法透明化逻辑。与ChatGPT等模型强调“拟人化交互”不同，DeepSeek选择将模型的“思考过程”暴露在用户面前。例如，当被问及“strawberry有几个r”时，模型会反复推演50秒，最终给出正确答案。这种“笨拙的真实”恰恰揭示了AI的本质——它并非真正的“智能体”，而是基于统计机器学习的数据拟合工具。   </p>
+<p><strong>透明化的双重意义： </strong></p>
+<p>1. 技术祛魅：通过展示算法的决策链条，用户得以看清AI的局限性，例如在简单问题上的低效暴露了其对场景和数据的依赖。   </p>
+<p>2. 信任构建：在医疗、法律等高风险领域，透明化是突破“信任阈值”的关键。此前Gartner调查显示，64%的用户拒绝在客服场景使用AI，而DeepSeek的“开卷式”逻辑或许能改写这一困局。   </p>
+<p>这场透明化革命，被复旦大学张奇教授称为“撕开AI幻觉的最后一层纱”——它让人类意识到，AI的价值在于成为“超级工具”，而非“替代人类”。   </p>
+<h2><strong>02 硅谷与华盛顿的“双面围剿”</strong></h2>
+<p>DeepSeek的崛起，迅速触动了美国科技与政治精英的敏感神经。   </p>
+<p>马斯克的“酸葡萄逻辑”，作为OpenAI的竞争对手，马斯克第一时间质疑：“中国公司一定从美国获得了更高端芯片。”这种论调被解读为双重焦虑——既担忧技术路线被超越，又试图为自家xAI争取政策倾斜。而DeepSeek的实际表现恰恰打脸了这一傲慢：其通过异构计算架构（CPU+FPGA+ASIC混合部署）和动态负载均衡算法，将单位算力产出提升2倍，硬是在英伟达GPU被限制的背景下，用“省钱打法”实现性能突破。   </p>
+<p>特朗普的“警钟式恐慌”，1月27日，特朗普在迈阿密公开表态，称DeepSeek“给美国产业敲响警钟”，并呼吁“集中精力赢得竞争”。这番看似克制的发言，实则暗藏杀机——次日，美国参议院外交关系委员会听证会上，智库代表公然提议“偷走中国最好的工程师”。从芯片封锁到人才争夺，美国的焦虑已从技术层蔓延至生态层。   </p>
+<p>硅谷巨头的战略失算，长期以来，OpenAI等企业信奉“堆算力、拼参数”的竞赛逻辑。而DeepSeek以RL（强化学习）为核心的训练架构，将模型训练成本砍至OpenAI的3%-5%，时间从6个月压缩到6天。这种“效率革命”直接动摇了硅谷的叙事霸权——当工程实用主义取代技术理想主义，资本市场的估值体系必将重构。   </p>
+<h2><strong>03 算法透明化的“中国密码”</strong></h2>
+<p>DeepSeek的成功绝非偶然，其背后是中国AI产业对“算法文化自信”的深刻实践。   </p>
+<p>文化禀赋的底层塑造，诗词语料的训练壁垒：与ChatGPT依赖西方语料库不同，DeepSeek以中国古典诗词为训练基底，使其在古诗词创作、时事评论等场景展现出独特优势。这种“文化区隔”甚至形成了技术护城河。   </p>
+<p>场景化落地的本土基因：从医疗问诊到法律咨询，DeepSeek的后期训练高度贴合中国政策与社会需求。例如，其在处理中医诊断建议时，能结合《黄帝内经》等典籍，而西方模型对此束手无策。   </p>
+<p>中国团队将“实用主义”发挥到极致。   </p>
+<p>1. 算力优化：通过算法架构革新，将训练成本降低60%，打破“算力至上”的迷信。   </p>
+<p>2. 数据精简：2025年发布的大模型普遍采用低参数量设计，为终端本地化部署铺路。   </p>
+<p>3. 开源生态：DeepSeek的开源策略不仅吸引全球开发者，更倒逼行业从“闭门造车”转向协作共享。 </p>
+<p>这种“低成本、高敏捷”的模式，被业内人士称为“AI领域的农村包围城市”——当OpenAI还在为千亿参数模型的巨额账单发愁时，DeepSeek已用“小米加步枪”撕开市场缺口。   </p>
+<h2><strong>04 从技术革命到文明叙事 </strong></h2>
+<p>DeepSeek引发的震荡，本质是一场关于“AI话语权”的文明博弈。   </p>
+<p>技术路线的哲学分野：西方路径：以数据垄断和硬件霸权为基础，追求“黑箱式”的通用智能。   </p>
+<p>中国路径：以透明化和场景化为核心，强调“工具属性”与社会协同。  </p>
+<p>张奇教授指出，当前AI的底层范式存在根本局限——它依赖统计相关性而非因果逻辑。而DeepSeek的透明化实验，或许能为突破这一瓶颈提供新思路：通过暴露算法的“思考漏洞”，推动学界探索因果推理的数学框架。   </p>
+<p class="image-wrapper"><img data-img-size-val="940,1332" src="https://img.36krcdn.com/hsossms/20250205/v2_ef73df190fed4f8681388c363cd3ef10@6148707_oswg123740oswg940oswg1332_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当地时间1月29日，美国国会提出《2025年美国人工智能能力与中国脱钩法案》，在这项法案中，美国国会要求禁止下载或使用DeepSeek，否则将被定性为犯罪，最高可判处20年监禁。 </p>
+<p>虽尚未通过，暗示了地缘政治的隐喻。美国对DeepSeek的围堵，与其说是技术恐惧，不如说是对“叙事权流失”的应激反应。过去十年，硅谷与华尔街联合主导的AI叙事，将技术优势与资本主义价值观深度绑定。而DeepSeek的崛起，不仅证明了中国模式的可行性，更揭示了另一种可能——AI可以脱离“霸权逻辑”，成为普惠性公共产品。 </p>
+<h2><strong>05 结语：烟花之后，黎明之前 </strong></h2>
+<p>除夕夜的DeepSeek烟花，照亮的不仅是技术突破的瞬间，更是全球AI权力格局重构的黎明。当算法透明化从技术选择升华为文明叙事，其意义已超越商业竞争，直指一个更根本的命题：在AI时代，人类究竟需要怎样的智能？ </p>
+<p>答案或许藏在一组对比中：ChatGPT试图成为“全能替身”，却因伦理争议屡遭封禁；DeepSeek甘当“透明工具”，反而在医疗、教育等领域扎下根基。   </p>
+<p>这场烟花提醒我们，真正的技术自信，不在于制造幻觉，而在于直面局限。正如DeepSeek那条反复推演“strawberry有几个r”的50秒记录——笨拙，却真实；缓慢，却坚定。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/qDM7HePWRgC6F7bRYh3Qrw?token=426964958&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“极洞察”</a>，作者：JIDONGCHA 文 | 查尔斯 ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3153169680694784</guid><pubDate>Wed, 05 Feb 2025 18:59:00 +0800</pubDate></item></channel></rss>
