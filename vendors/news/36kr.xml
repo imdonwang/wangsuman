@@ -1,5 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 06 Feb 2025 12:00:29 +0800</lastBuildDate><pubDate>Thu, 06 Feb 2025 12:00:29 +0800</pubDate><item><title>雷克萨斯摸着特斯拉过河</title><link>https://36kr.com/p/3154508926491142</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 06 Feb 2025 12:30:24 +0800</lastBuildDate><pubDate>Thu, 06 Feb 2025 12:30:24 +0800</pubDate><item><title>Figure和OpenAI分道扬镳，下一个离开OpenAI的就是微软？</title><link>https://36kr.com/p/3154516736285442</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>硅谷的明星机器人公司 Figure和OpenAI彻底掰了。</p>
+<p>昨日，Figure 创始人兼 CEO Brett Adcock 在 X 上发文，宣布终止与 OpenAI 的合作关系，转而专注于开发自己的 AI 系统。他透露这一决定源于“公司在完全自主研发的端到端机器人 AI上取得重大突破”，并承诺将在未来 30 天内展示“前所未有的人形机器人技术”。</p>
+<p class="image-wrapper"><img data-img-size-val="750,636" src="https://img.36krcdn.com/hsossms/20250206/v2_35a2d1dc74be4937a98e7326cb1514b0@5091053_oswg213449oswg750oswg636_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>OpenAI 一直是 Figure 的长期投资者。去年2 月，Figure从OpenAI、英伟达、微软和亚马逊创始人杰夫·贝索斯手里获得6.75 亿美元B轮融资，估值高达26 亿美元。紧接着3月就靠整合 GPT-4打造能与人自然交流、完成家务的Figure 01一炮而红。8月继续与 OpenAI 联手训练定制模型，推出号称“地表最强 AI 硬件”的Figure 02，进驻宝马工厂上岗打工。</p>
+<p>一对曾经最亲密的合作伙伴忽然分道扬镳，过去有多你侬我侬，现在就多情断义绝。</p>
+<p class="image-wrapper"><img data-img-size-val="750,247" src="https://img.36krcdn.com/hsossms/20250206/v2_ae4a440ce59b41b18899800a09c1d208@5091053_oswg70097oswg750oswg247_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>1 诀别OpenAI，Figure 要“单飞”</strong></h2>
+<p>然而对于 Figure 与 OpenAI 的“分手”，人们却并不感到意外。有评论认为，Figure早晚还是要依赖NVIDIA的 Jetson平台。</p>
+<p class="image-wrapper"><img data-img-size-val="749,216" src="https://img.36krcdn.com/hsossms/20250206/v2_cc7df13837774d829e311e9651d6a059@5091053_oswg79944oswg749oswg216_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>也有人猜测这是受到了DeepSeek的冲击。与 OpenAI 昂贵的付费模型相比，DeepSeek 强大的开源技术和高性价比显然更具吸引力。</p>
+<p class="image-wrapper"><img data-img-size-val="738,615" src="https://img.36krcdn.com/hsossms/20250206/v2_2c87889ddd5a44698166e7dd6d33476b@5091053_oswg453210oswg738oswg615_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Brett Adcock很快做出了自己的回应。他在接受TechCrunch采访时表示，合作的主要问题在于技术整合。虽然 OpenAI 是一家规模庞大、业务广泛的公司，拥有非常强大的智能模型，但将这些技术引入机器人等物理对象并非其主要关注点。</p>
+<p>Adcock指出，正确的解决方案是开发能够专注于特定硬件的端到端AI模型。为了在现实世界中实现大规模的具身智能，Figure必须对机器人AI进行垂直整合。“<strong>我们不能外包AI，就像我们不能外包硬件一样</strong>”。公司必须从依赖外部AI能力，转向完全自主可控的技术路线，因为“与外部AI的合作不仅繁琐，而且最终与我们的成功无关”。</p>
+<p class="image-wrapper"><img data-img-size-val="750,1027" src="https://img.36krcdn.com/hsossms/20250206/v2_71cacd40f2414e87bae9c0cea041f454@5091053_oswg461448oswg750oswg1027_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>四个月前，Figure宣布其第二代人形机器人Figure 02在宝马生产线上取得了显著的性能提升——操作速度提高400%，任务成功率提升七倍。几周前，Adcock又宣布，继宝马之后，公司成功签下全美最大企业之一作为新商业客户，并在其用例中成功运行了端到端神经网络。未来四年，这两家客户将助力Figure交付10万台机器人，推动机器人技术的大规模应用。</p>
+<p>与此同时，Figure 累计15亿美元的融资额也为其团队扩张提供了充足保障。据硅星人从硅谷一线机器人创业者口中了解到，虽然研发人形机器人的确烧钱，但与特斯拉将Optimus投入自家工厂实操的路径不同，Figure属于典型的“只管生不管养”：机器人制造完成并售出后，部署和使用主要是客户端的事。因此它的实际开销与账面资金相比只是“洒洒水”。</p>
+<p>最近，Figure 搬入了硅谷一处更大的办公室，以容纳日益壮大的员工队伍。Adcock 也借官宣与 OpenAI 告别之际，明面上为软件团队招兵买马，实际狠狠PR了一番。</p>
+<p class="image-wrapper"><img data-img-size-val="750,541" src="https://img.36krcdn.com/hsossms/20250206/v2_7323946b994b4d8cb517839cc37edc24@5091053_oswg178955oswg750oswg541_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>2 OpenAI也要造自己的人形机器人</strong></h2>
+<p>值得注意的是，除了曾投资Figure和挪威机器人公司1X 外，OpenAI也在规划自己的人形机器人业务。</p>
+<p>上周五，OpenAI向美国专利商标局提交了一份意味深长的商标申请，显示OpenAI 计划开发一系列硬件产品。包括耳机、眼镜、遥控器、笔记本电脑和手机保护壳、智能手表、智能珠宝，以及用于“人工智能辅助交互、模拟和训练”的VR和AR头显设备（默默感叹一句，真得好多…）。</p>
+<p>其中特别提到了"用户可编程的人形机器人"以及"具有沟通和学习功能、用于辅助和娱乐人类的人形机器人"。</p>
+<p>这一方向与 OpenAI 近期的招聘动态相呼应。其实早在 2017 至 2020 年间，OpenAI 就曾致力于研发通用机器人技术，推出过机械手操作、机器人解魔方等项目。但受限于当时的训练数据和资金状况，公司在 2020 年解散了机器人团队，将资源转向了后来大获成功的 ChatGPT。</p>
+<p>而今随着公司实力壮大， OpenAI 决定重启机器人项目，由去年 11 月加入的前 Meta AR 眼镜硬件主管 Caitlin Kalinowski 领军。已放出的招聘职位包括电子感知工程师、机器人机械设计工程师、技术项目经理，年薪区间在36-44万美元之间。</p>
+<p>据 The Information 报道，OpenAI 计划采取全栈式开发策略，除提供AI模型外，自主研发从传感器系统到计算组件，再到专用 芯片的完整技术链条。这一思路与 Figure 不谋而合 —— 两家公司都认为，要在机器人领域取得实质性突破，必须打通硬件与软件的边界，实现从数据采集、实时计算到物理操作的完整闭环。</p>
+<p>如此看来，OpenAI与Figure的分道扬镳，说有好点是基于“技术整合”的战略考量，真实原因则很可能是利益分歧和主导权之争。既然双方都不想为他人做嫁衣裳，不如各自单干。</p>
+<p class="image-wrapper"><img data-img-size-val="750,320" src="https://img.36krcdn.com/hsossms/20250206/v2_e1e8ff765682491fbd23d239757fbe7d@5091053_oswg190356oswg750oswg320_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>3 原来的配方，熟悉的味道，下一个是微软？</strong></h2>
+<p>实际上，"与 OpenAI 分道扬镳" 似乎已经成为科技圈的常见剧本。大家非但不陌生，甚至听过太多次了。</p>
+<p>且不论这些年成群结离职的技术骨干、部门高管和GPT元老们，公司最大的投资者微软在几番交手下，也已经与OpenAI渐行渐远。</p>
+<p>自 2019 年起，微软就对 OpenAI 投入了包括云计算资源在内的 140 亿美元投资。这种合作本意是双赢：OpenAI 获得了发展所需的关键资源，微软则可以将领先的生成式 AI 技术快速整合进 Bing、Office 和 GitHub Copilot 等产品中。</p>
+<p>然而随着 ChatGPT 的爆红，双方关系出现了裂痕。OpenAI 对计算资源的需求激增，微软的 Azure 平台有时难以满足，使得 OpenAI 转向 Oracle 等其他供应商寻求支持。就在上个月，OpenAI 宣布与软银、甲骨文联合启动 "星际之门" 计划，未来四年内计划投资 5000 亿美元建设 AI 基础设施，而曾经并肩的微软，这次的角色却被“降格”为“初始技术合作伙伴”。</p>
+<p>此外，微软与 OpenAI 之间的一项 特殊的AGI条款也成为潜在导火索。根据双方协议，一旦 OpenAI 实现 AGI，便可终止与微软的部分合作。而值得玩味的是，双方在 2023 对 AGI 设定了一个秘密标准：并非传统意义上的“超越人类智能”，而是“开发出能够产生至少 1000 亿美元利润的 AI 系统”。</p>
+<p>这一基于商业而非技术的定义看似为双方合作设定了清晰的目标，实际上却成为束缚 OpenAI 发展的枷锁。以 OpenAI 去年约 40 亿美元的年收入来看，实现 1000 亿美元利润仍遥遥无期。意味着在达到这个门槛之前，OpenAI 仍需与微软共享技术与收益，不仅限制了 OpenAI 的发展空间，也削弱了其吸引新投资者和谈判更优条件的能力。而 OpenAI 转型为公共利益公司（PBC），更加剧了与微软的摩擦。</p>
+<p>另有媒体披露，微软部分团队对 OpenAI 模型的使用权限和技术访问权限感到不满。同时，微软与 OpenAI 的销售团队有时会向同一批客户推销类似产品，导致双方在市场上出现竞争迹象。</p>
+<p>不过，OpenAI 似乎已经很快找好了它的“下一个微软”。公司近期与软银展开深度合作，成立合资企业 "SB OpenAI Japan"，共同开发并推广企业级 AI 系统 Cristal Intelligence。此外，软银还承诺每年向 OpenAI 解决方案投资 30 亿美元，在集团内部大规模部署ChatGPT Enterprise技术。</p>
+<p>而尽管OpenAI与微软在产品授权、API 访问等核心合作上仍然联系紧密，但财务压力、战略资源分配，以及 AGI 条款等因素，使得这段关系的未来充满着并不乐观的未知意味。</p>
+<h2><strong>4 Figure扬言惊艳所有人，网友：又一个demo而已</strong></h2>
+<p>说回 Figure，当 Adcock 信誓旦旦地宣称将在 30 天内用"机器人 AI 技术惊艳所有人"时，社区却并未买账。不少网友一针见血地指出，这不过又是一次"酷炫demo 秀”，视觉效果到位了，却没有任何实质意义。</p>
+<p class="image-wrapper"><img data-img-size-val="750,186" src="https://img.36krcdn.com/hsossms/20250206/v2_aa153c8f3b384160b923d1f119c04fda@5091053_oswg70891oswg750oswg186_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>也有人觉得，这场分手戏的真相可能恰恰相反 —— 是 OpenAI 想远离 Figure，而 Adcock 的高调宣言不过是在挽回面子。</p>
+<p class="image-wrapper"><img data-img-size-val="750,342" src="https://img.36krcdn.com/hsossms/20250206/v2_71a7cda5b57046339c71b40c663d8cb4@5091053_oswg177867oswg750oswg342_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不得不说，在制造话题和营造声势这一项上，Figure 的 CEO 确实与奥特曼所见略同。只是跟微软一样，无论双方此前描绘了多么美好的合作愿景，到头来仍逃不过骨感的商业现实：所有理想主义，归根结底，都抵不过一桩生意。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/_m1V61SUgcy0ya7LoiWidw" rel="noopener noreferrer nofollow" target="_blank">“硅星人Pro”</a>，作者：Jessica，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154516736285442</guid><pubDate>Thu, 06 Feb 2025 10:50:00 +0800</pubDate></item><item><title>雷克萨斯摸着特斯拉过河</title><link>https://36kr.com/p/3154508926491142</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>面对中国新能源汽车市场大蛋糕，雷克萨斯终于坐不住了，官宣在上海独资建厂。特斯拉上海超级工厂成功在前，如今雷克萨斯要摸着特斯拉过河了，能形成“特斯拉式”冲击波吗？</p>
 <h2><strong>01 雷克萨斯坐不住了，官宣在上海独资建厂</strong></h2>
 <p>传言已久，如今靴子落地，全球最大车企决定在中国独资建厂。</p>
@@ -404,36 +449,7 @@
 <p>短期看数据（库存周转率、毛利率），中期看趋势（品类生命周期），长期看关系（品牌方是否靠谱）。</p>
 <p>同时在首次代理新品的时候，经销商可以采用小批量试销+阶梯式采购模式，从而降低产品滞销的风险。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/bgE_47UXxoKvunf_Td6Zpw" rel="noopener noreferrer nofollow" target="_blank">“全食在线”</a>，作者：全食在线，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154560154966784</guid><pubDate>Thu, 06 Feb 2025 11:30:00 +0800</pubDate></item><item><title>收购铃空游戏股权并推出$SHOWA代币，Oneness想用Web3重塑《昭和米国物语》的价值</title><link>https://36kr.com/p/3154590416837120</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>‍‍文 | 刘士武 </p>
-<p>自《黑神话：悟空》引爆2024年中国主机游戏市场后，部分在研游戏大作也纷纷走到了台前。其中，由中国厂商铃空游戏开发的开放世界冒险游戏《昭和米国物语》便是最受期待的作品之一。 </p>
-<p>这款游戏的独特之处在于，将日本对美国文化的想象与误解巧妙结合，创造出一个充满霓虹灯、怪异建筑和复古元素的虚构世界，同时搭配荒诞幽默的剧情和丰富的文化梗，营造出一种极具讽刺和娱乐性的游戏体验。自公布以来，游戏预报片播放量已突破5亿次。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20250206/v2_77cd2cdc3e38462fb6b8c044ac51170f@242988687_oswg1001093oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：《昭和米国物语》</p>
-<p>而就在《昭和米国物语》紧张开发的同时，<strong>2025 年 2 月 5 日，成立仅不到一年的初创企业「Oneness Labs」宣布对《昭和米国物语》开发商铃空游戏进行股权收购，并推出与之相关的加密货币 $SHOWA。</strong></p>
-<p>Oneness Labs 是一家专注于利用区块链技术推动传统游戏行业金融化的公司。创始人兼CEO Kathy Gong告诉36氪游戏，此次收购股权并发行与《昭和米国物语》相关的 $SHOWA代币，是其在游戏金融领域的一次重要尝试。自上线20多天以来，$SHOWA代币市值增长至 3600 万美元，这一成绩不仅展示了该游戏的市场热度，也体现了 Oneness Labs 模式的初步成功。 </p>
-<p>Oneness Labs 的核心创新在于将 $SHOWA 打造成由真实世界资产（RWA）支持的代币，这意味着代币的价值与股东收益和股东在游戏公司未来的IP 增长红利直接挂钩，而非仅仅依赖于游戏内的经济循环。 </p>
-<p><strong>简单来说，每个持有 $SHOWA 代币的用户，都有机会和产品一起成长，分享其未来发展的红利。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="933,347" src="https://img.36krcdn.com/hsossms/20250206/v2_9005745f81b24fd9993aaea34fdd0d81@242988687_oswg18505oswg933oswg347_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Oneness Labs</p>
-<p>在Web2时代，游戏行业虽然拥有庞大的用户群体和良好的现金流，但其金融化程度一直较低。游戏开发通常依赖于传统的融资渠道，如风险投资、银行贷款等，这些渠道往往对游戏项目的评估较为保守，导致许多有潜力的游戏项目难以获得足够的资金支持，这也是常年困扰中国主机游戏行业发展的问题之一。 </p>
-<p>此外，游戏开发者在融资过程中往往需要放弃部分内容的控制权，这在一定程度上限制了他们的创作自由，很多优秀独立游戏制作人或工作室也因此被埋没。 </p>
-<p>Web3 技术的出现为游戏行业带来了新的机遇。通过区块链技术，游戏可以发行自己的加密货币，从而为游戏开发筹集资金，这种模式不仅为游戏开发者提供了新的融资渠道，还能够增强玩家与游戏之间的互动和归属感。 </p>
-<p>当然，Web3与游戏的结合并非新鲜事，过去失败的案例也有很多。 </p>
-<p>除开不同国家市场政策的不统一性，一方面，许多Web3游戏的经济模型较为脆弱，代币价值往往依赖于游戏内的经济循环，一旦游戏热度下降，代币价值可能会迅速崩盘。另一方面，Web3 游戏的用户群体相对较小，主要集中在加密货币爱好者和早期技术尝鲜者中，难以吸引主流游戏玩家。 </p>
-<p>更重要的是，这些早期的Web3游戏大多是将代币体系“暴力”接入游戏过程本身，导致很多玩家玩的不是游戏内容，而是“炒股”带来的刺激感，这与游戏本身的理念有所冲突。 </p>
-<p>Oneness Labs 的模式在一定程度上解决了 Web2 和 Web3 游戏市场所面临的困境。通过将 $SHOWA 代币与Oneness Labs 在铃空游戏的股权绑定，Oneness Labs 为代币提供了真实世界资产的支持，使其价值更加稳定。 </p>
-<p>这种模式不仅能够吸引更多投资者的关注，还能够增强玩家对代币的信心，也避免了代币与游戏内容挂钩带来的不确定性——开发者的工作就是把游戏做得更好，代币的成长趋势不会影响游戏的实际内容；玩家不再仅仅是游戏的消费者，还可能成为游戏的投资人。通过持有游戏相关的加密货币，玩家能够直接参与游戏 IP 的成长和收益分配。这种模式将增强玩家与游戏之间的互动和归属感，使玩家更加关注游戏的长期发展。 </p>
-<p>当然，从项目初期来看，Oneness Labs的模式也存在一些潜在的局限。 </p>
-<p>首先，这种模式的成功高度依赖于《昭和米国物语》的市场表现，如果游戏的热度无法持续，或者游戏开发过程中出现重大问题，$SHOWA 代币的价值可能会受到严重影响。其次，Oneness Labs 的模式在合规性方面可能面临挑战。加密货币市场的监管环境仍然较为复杂，Oneness Labs 需要确保其模式符合各国的法律法规，否则可能会面临法律风险。 </p>
-<p>对此Kathy Gong表示，团队在开放与优秀游戏合作的同时，也会谨慎对待每一款确定合作的游戏。“除了团队内部拥有大量游戏投资人才以外，我们也在积极与更多专业的游戏投资顾问合作，提升对新游戏项目的质量把控能力。” </p>
-<p class="image-wrapper"><img data-img-size-val="1080,468" src="https://img.36krcdn.com/hsossms/20250206/v2_913e180e814d4eac9f36a8fe53f6c681@242988687_oswg824557oswg1080oswg468_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：《昭和米国物语》</p>
-<p>一切才刚刚开始，从现阶段铃空游戏和$SHOWA的发展来看，这种方式可能为铃空游戏带来了更多的资金渠道和支持。 </p>
-<p>未来，我们可能会看到更多的游戏公司尝试通过发行加密货币来筹集资金，或者通过与区块链技术公司合作，将游戏 IP 资产化。这种趋势将推动游戏行业与金融市场的深度融合，为游戏开发者和投资者创造更多的机会。 </p>
-<p>无论接下来的发展如何，Oneness Labs 的这次尝试都为游戏金融领域的发展提供了借鉴和启示。 ‍ </p>
-<p class="editor-note">本文首发自<a href="https://mp.weixin.qq.com/s/77_xOvxtVnfGKmbGPAkj7A" rel="noopener noreferrer nofollow" target="_blank">“36氪游戏”。</a></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154590416837120</guid><pubDate>Thu, 06 Feb 2025 11:38:00 +0800</pubDate></item><item><title>春节5大酒店“热搜”，传递哪些信号？</title><link>https://36kr.com/p/3154605363740416</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154560154966784</guid><pubDate>Thu, 06 Feb 2025 11:30:00 +0800</pubDate></item><item><title>春节5大酒店“热搜”，传递哪些信号？</title><link>https://36kr.com/p/3154605363740416</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>今年春节，旅游大住宿市场相对以往出现了一些新变化。空间秘探遴选春节假期5大热搜新闻，剖析预测2025年旅游大住宿业整体走势。</p>
 <h3><strong>持续升温 老外住到中国乡镇</strong></h3>
 <p>随着春节申遗成功和中国免签政策不断优化和放宽，越来越多的外国人来到中国“沉浸式”体验年俗，感受热气腾腾的中国年味。春节期间，在民宿里过年成为越来越多外国游客旅行的新选择。</p>
