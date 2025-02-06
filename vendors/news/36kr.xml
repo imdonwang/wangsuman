@@ -1,34 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 06 Feb 2025 14:30:20 +0800</lastBuildDate><pubDate>Thu, 06 Feb 2025 14:30:20 +0800</pubDate><item><title>60倍PS的超级独角兽来了</title><link>https://36kr.com/p/3154567494785540</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2024年，在冰火两重天的融资环境下，OpenAI和马斯克的xAI都筹集了超过100亿美元。如无意外，2025年，巨额融资和昂贵估值的造富神话，仍然将尽数来自于生成式AI赛道。</p>
-<p>这不，前一阵《金融时报》披露，谷歌向OpenAI竞争对手Anthropic追加10亿美元投资。前不久，这家AI独角兽刚被多家媒体曝出正在商讨以600亿美元（约合人民币4366亿元）的投后估值筹集20亿美元的新资金。数据提供商CB Insights称，这笔交易将使Anthropic成为继SpaceX、OpenAI、Stripe和Databricks之后第五大最有价值的美国初创企业。</p>
-<p>20亿美元那轮交易条款已经达成，但尚未最终确定。牵头方是风险投资机构Lightspeed Venture Partners，该机构还支持过Mistral、Stability AI和Cartesia等一批AI初创企业。</p>
-<p>和融资动态一同披露的还有收入情况。Anthropic最近实现了10亿美元的年化收入（也有媒体给出的数字是8.75亿美元），较上年增长约10倍。Lightspeed牵头的这轮融资将使Anthropic估值和收入的比例达到60倍。60倍市销率，这个估值只能说，光速美国是极度看好Anthropic。</p>
-<p>有人拿Anthropic的市销率（P/S）和另外几家当红炸子鸡做了一番比较。相比之下，AI数据分析公司Databricks去年12月以类似的估值筹集了资金，其年化收入却是Anthropic的3倍，有望超过30亿美元。当然，Databricks和Anthropic的商业模式不同，增长速度要慢得多，而且存在的时间也更长。</p>
-<p>再看这个赛道的领导者OpenAI，考虑到OpenAI在一年前创造了16亿美元的年化收入时，其估值是预期收入的54倍，Anthropic的估值仍然显得非常高。最近，OpenAI获得了超过1500亿美元的估值，同时预计2025年的收入将达到120亿美元，这意味着估值占预期收入的倍数已经降到13倍。</p>
-<p>依我看，能与Anthropic的高估值匹敌的，可能只有国内的大模型独角兽了。上个月我分析过智谱的融资BP，当时智谱披露的年收入是3.5亿，估值已经达到200亿，接近60倍的市销率和Anthropic倒是不相上下。</p>
-<h2><strong>从OpenAI出走</strong></h2>
-<p>先简单讲讲Anthropic的故事。这家公司成立于2021年，由OpenAI的前研究副总裁达里奥·阿莫迪和安全政策副总裁丹妮拉·阿莫迪等人联合创立。那时OpenAI还是一家非营利组织，达里奥·阿莫迪和丹妮拉·阿莫迪这对兄妹曾参与GPT-2和GPT-3的开发。出于对OpenAI未来发展方向的担忧（微软投资可能导致的商业化倾向和对AI安全性研究的忽视），他们决定离开并创立Anthropic。</p>
-<p>在成立的新公司里，达里奥·阿莫迪担任首席执行官，妹妹丹妮拉·阿莫迪担任总裁。团队中还包括了GPT-3模型的主要开发者汤姆·布朗等多位安全研究人员。这些成员通过Google、OpenAI等公司相互结识，在AI领域都有着深厚的背景和丰富的经验，为Anthropic的技术发展和产品创新奠定了基础。</p>
-<p>还得是风口。不过三年时间，创始团队早已是身价倍增。根据Anthropic的最新估值，创始团队的7位成员（首席执行官达里奥·阿莫迪、总裁丹妮拉·阿莫迪以及联合创始人汤姆·布朗、杰克·克拉克、贾里德·卡普兰、萨姆·麦坎德利什和克里斯托弗·奥拉）都将成为亿万富翁。《福布斯》估计，每个人将继续持有Anthropic超过2%的股权，这意味着他们的净资产至少为12亿美元。</p>
-<p>既然是怀着追求安全性的目标从OpenAI出走，Anthropic自身在安全性上自然有着较高的要求。</p>
-<p>这既体现在行为规范上。比如，模型训练方面，Anthropic郑重承诺，除非用户明确授权，否则绝不会将用户提交的数据用于模型训练，切实保障用户的数据主权。此外，Anthropic还建立了严格的内部访问控制机制，只有经过授权的极少数专业人员在特定业务需求下，才能访问用户数据，并且所有的数据访问操作都被严格记录与监控，确保任何异常行为都能及时被发现与追溯。</p>
-<p>也体现在模型研发的理念中。Anthropic自成立以来，一直致力于开发可靠、可解释和可控的AI系统。2023年7月，Anthropic发布了Claude 2，这是一个类似于ChatGPT的AI助手，标志着其在大型语言模型领域的初步成果。2024年3月，Anthropic又发布了Claude 3，并开发了旨在使AI系统与人类价值观保持一致的“宪法式人工智能”（Constitutional AI）框架。简单来说，这个框架是通过一系列原则来引导AI模型的行为，使其输出更加符合人类的道德和伦理标准，从而提高AI模型的安全性和可控性。</p>
-<p>Anthropic主要采用to B的商业模式，其10亿美元的年化收入主要来自企业销售。因为许多早期企业用户希望模型的行为可预测，不会随意编造事实。而与OpenAI的ChatGPT和谷歌的Gemini等产品相比，Anthropic的Claude在安全性和可控性方面具有显著优势。这让Anthropic更受B端客户青睐。</p>
-<p>今年早些时候，Anthropic推出的Claude 3.5 Sonnet在AI编程领域展现出了强大的实力，能够支持整个软件开发生命周期，使其收入增长了十倍。虽然目前Anthropic的销售数字仍低于OpenAI，但Claude 3.5 Sonnet的推出显然加速了其收入增长，这种潜力或许是投资人愿意以高估值加注这家公司的原因。</p>
-<h2><strong>相爱相杀</strong></h2>
-<p>含着金钥匙出生，被视为OpenAI最大对手，Anthropic的融资历程可谓一路顺风顺水，获得了亚马逊、谷歌等科技巨头以及知名风险投资的大量资金支持。</p>
-<p>2021年成立不久后，Anthropic获得了1.24亿美元的A轮融资。</p>
-<p>2022年，获得了由FTX前首席执行官Sam Bankman-Fried领投的5.8亿美元的B轮融资。</p>
-<p>2023年，Anthropic的融资变得更加密集：2月，获得谷歌5.5亿美元投资，谷歌持股10%，获得一份有关云业务的合同，并表达了进一步追加最高20亿美元投资的意愿；5月，完成4.5亿美元的C轮融资；8月，韩国电信运营商SK电讯向其投资1亿美元；9月，获得亚马逊约12.5亿美元投资，后来又追加27.5亿美元投资，合计40亿美元，并持有其部分股权。</p>
-<p>2024年11月，亚马逊宣布将向Anthropic再次追加投资40亿美元，使其总投资额达到80亿美元。</p>
-<p>值得一提的是，投资Anthropic是这家电商巨头有史以来最大的一笔出资。谷歌虽然在资金上给予Anthropic重要支持，但其合作更多体现在技术开发和市场拓展上。亚马逊与Anthropic的关系无疑更为密切。</p>
-<p>就在拿到亚马逊最新一笔投资那个月，亚马逊的云部门成为Anthropic在云业务方面的首要训练合作伙伴。Anthropic还将使用亚马逊网络服务（AWS）的Trainium和Inferentia芯片来训练和部署其最大的AI模型。Anthropic向亚马逊支付云服务器费用，而亚马逊将Anthropic的模型转售给其客户，并从此类销售中抽取一定比例的收入。</p>
-<p>Anthropic曾向媒体确认，亚马逊仍然是少数股东，没有董事会席位。不过，拿巨头的钱确实没那么容易，相爱相杀在所难免。OpenAI和最大投资者微软之间的关系便是前车之鉴。一方面，双方通过深度合作实现了技术共享、收入分成和基础设施建设；另一方面，随着市场的竞争加剧，双方在某些领域也出现了潜在的竞争关系。2024年8月，微软在提交给美国证券交易委员会（SEC）的文件中，正式将OpenAI列为人工智能及搜索领域的竞争对手。</p>
-<p>巨头还在伺机而动，等待年轻的公司犯错。要知道，在收编Inflection AI之前，微软最想收归己用的还是风头无两的OpenAI创始人Sam Altman。OpenAI内讧时期，纳德拉曾提出聘请Sam Altman和Greg Brockman。不过后来OpenAI内斗平息，微软只能作罢。</p>
-<p>过去一年，Anthropic在企业级AI领域的市场份额从12%增至24%，成为市场领导者之一。随着Anthropic在企业级市场的发力，它和亚马逊之间或许也将面临OpenAI与微软之间类似争夺客户、不愿开放技术细节等潜在竞争问题。毕竟，这场人工智能军备竞赛，不只是Anthropic和OpenAI这样的初创公司参与，也关乎谷歌、亚马逊、微软和Meta这些成熟的科技巨头。因此，这批创始人想财务自由容易，但能否长久地把住公司的控制权，倒是个有待观察的问题。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/qgkIKBAkVO6Vq6ObGzhayA" rel="noopener noreferrer nofollow" target="_blank">“投中网”</a>，作者：刘燕秋，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154567494785540</guid><pubDate>Thu, 06 Feb 2025 13:36:00 +0800</pubDate></item><item><title>本田和日产统合破裂是缺乏互信的连锁</title><link>https://36kr.com/p/3154592215096067</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 06 Feb 2025 15:00:26 +0800</lastBuildDate><pubDate>Thu, 06 Feb 2025 15:00:26 +0800</pubDate><item><title>本田和日产统合破裂是缺乏互信的连锁</title><link>https://36kr.com/p/3154592215096067</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_090f2d86cd68469db981ed81aa3262c3@000000_oswg18242oswg600oswg376_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p class="img-desc">2024年12月召开记者会的日产社长内田诚（左）和本田社长三部敏宏（右）</p>
 <blockquote>
@@ -387,11 +358,12 @@
 <p>「涌现」也发生在现实世界——硅基文明一触即发，AI领域的创业者、创造者，正在用他们的智慧与头脑，点亮实现AGI的漫漫征途。</p>
 <p>在新旧生产力交替之际，《智能涌现》推出新栏目「涌现36人」，我们将通过与业界关键人物的对话，记录这一阶段的新思考。</p>
 </blockquote>
+<p> </p>
 <p><strong>文｜邓咏仪</strong></p>
 <p><strong>编辑｜苏建勋</strong></p>
 <p>把一家公司的GMV做到超百亿元，要花多长时间？</p>
-<p>今年27岁的郭人杰，只用了三年做到了这件事。2021年，他在宝洁做管培生11个月后，便加入了刚成立4年的创业公司追觅。</p>
-<p>郭人杰是幸运的，但他也具备抓住运气的能力。当时的追觅刚开始转型，从代工转向主攻自有品牌。加入追觅三年后，郭人杰帮助追觅实现国内全年销售额超百亿元，他也成为了消费电子圈里的知名操盘手。</p>
+<p>今年27岁的郭人杰，只用了三年做到了这件事。2021年，他在宝洁做管培生11个月后，便加入了刚成立4年的清洁电器创业公司追觅。</p>
+<p>郭人杰是幸运的，但他也具备抓住运气的能力。当时的追觅刚开始转型，从代工转向主攻自有品牌，并且开始拓展全球市场。加入追觅三年后，郭人杰帮助追觅实现国内全年销售额超百亿元，他也成为了消费电子圈里的知名操盘手。</p>
 <p>在外人看来，这是一条顺遂的“卷王”之路：15岁上大学，21岁研究生毕业，23岁年薪百万，26岁就已经做到一家知名新消费品牌的中国区执行总裁。</p>
 <p>但在2024年12月，郭人杰做出决定：要终结这场少年成名的故事，推倒一切重来。</p>
 <p>“我现在27岁，所谓的中国区执行总裁，但这之后呢？29岁要成为谁，31岁要成为谁？但如果我出来创业，今天这个故事就结束了，由自己定义了重新开始。”</p>
@@ -540,4 +512,54 @@
 <p class="img-desc">欢迎交流</p>
 <p> </p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/F7r2ZTut67k8B1AZ8OBUBQ" rel="noopener noreferrer nofollow" target="_blank">“智能涌现”</a>，作者：邓咏仪，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154755638106631</guid><pubDate>Thu, 06 Feb 2025 14:24:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154755638106631</guid><pubDate>Thu, 06 Feb 2025 14:24:00 +0800</pubDate></item><item><title>36氪出海·中东｜IFZA洞察：2025年阿联酋电商营销策略指南</title><link>https://36kr.com/p/3154499818068739</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>访问36氪出海网站 </strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1464,724" src="https://img.36krcdn.com/hsossms/20250206/v2_fcf5b0affce242cb9192010081793c7a@11918142_oswg892334oswg1464oswg724_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1"/></p>
+<p>全球电商市场预计到2027年将超过8万亿美元，未来几年增长达到39%，但这也意味着电商竞争会日益激烈。</p>
+<p>在阿联酋市场也是如此。想在阿联酋成功开拓电商业务，不仅需要提供优质产品，更要实施高效的营销策略，提升网站流量并推动转化。以下来自迪拜 IFZA 自由区的电商营销策略建议，希望能帮助您在阿联酋市场取得成功。</p>
+<h2><strong>善用客座文章的力量</strong></h2>
+<p>建立忠实受众需要时间，但客座文章（guest post）可以帮您快速扩大影响力。与迪拜已拥有活跃受众的博主或网红合作，既可以为您的网站带来流量，又能提升搜索引擎优化（SEO）效果。</p>
+<p>首先，寻找符合您目标群体的博主或网站，其次，邀约他们发布产品或服务相关的内容。这种合作可以让双方受益，并帮助您在细分市场建立声誉。</p>
+<h2><strong>社交媒体营销制胜</strong></h2>
+<p>73%的营销人员认为他们通过社交媒体所做的努力对业务“有一定效果”或“非常有效”。Instagram、Facebook、TikTok 和 YouTube 等社交平台帮助商家以成本相对较低的方式提升品牌知名度、建立忠实客户群。那么，如何提升社交媒体影响力？以下是一些具体建议：</p>
+<ul class="list-paddingleft-2">
+<li><p>使用相关话题标签：帮助新用户看到您的内容。</p></li>
+<li><p>保持一致性：在所有平台保持统一的品牌形象。</p></li>
+<li><p>创作优质内容：用视频、图表和故事丰富您的内容，但避免数量过多让受众产生视觉疲劳，质量更重要。</p></li>
+<li><p>与粉丝互动：回答问题、回复评论并建立联系，表现您对用户的重视。</p></li>
+</ul>
+<h2><strong>改进电子邮件营销</strong></h2>
+<p>电子邮件营销仍然是培养客户关系最有效的方式之一。假设邮件点击率有20%，换算一下，就相当于每10个客户中有2个会打开您的邮件，这就创造了直接机会带来更多转化。以下列举了一些充分利用电子邮件营销的方法：</p>
+<ul class="list-paddingleft-2">
+<li><p>收集网站访客和过往客户的电子邮件地址。</p></li>
+<li><p>发送个性化的新闻通讯、特别优惠和产品更新。</p></li>
+<li><p>积累起期待收到您邮件的客户群体。</p></li>
+</ul>
+<h2><strong>产品评论建立信任</strong></h2>
+<p>口碑的力量不容忽视，一个正面的评价能显著影响潜在买家的决定。联系博主或网红，用产品换取诚实的评价。当人们在信誉良好的平台或博客上看到您的产品时，他们更可能信任您的品牌。</p>
+<h2><strong>付费广告</strong></h2>
+<p>想要更快的结果？或许可以采用每次点击付费（PPC）广告。谷歌广告和社交媒体平台提供了一种经济有效的方式，让您的产品展现在潜在客户面前。使用 PPC，只需在有人点击广告时付费，这是在预算有限的情况下扩大影响力的绝佳选择。</p>
+<h2><strong>IFZA 期待成为您的市场伙伴</strong></h2>
+<p>电商领域一直在快速发展，尤其是在阿联酋。要保持竞争力，需要企业密切关注市场趋势、评估营销活动效果，并定期完善策略，因而也需要携手合作伙伴、获取深入本土信息。</p>
+<p><strong>作为深耕阿联酋市场的自由区，IFZA 不仅提供专业的企业落地服务，更致力于为创业者提供产业洞察和资源对接。具体优势包括：</strong></p>
+<ul class="list-paddingleft-2">
+<li><p>注册费用透明且相对低廉，尤其适合贸易、咨询、服务等领域相关的中小微企业。</p></li>
+<li><p>注册流程简洁，支持远程注册公司，5-7个工作日即可注册一家公司。</p></li>
+<li><p>经营许可范围宽广。在 IFZA 自由区，每张经营许可证可涵盖3项跨行业的商业活动，且无需支付额外费用。</p></li>
+<li><p>提供专业的咨询服务，涵盖银行开户、执照类型、财税法务等必备知识。</p></li>
+<li><p>无租赁实体办公室要求，可向初创企业免费提供共享办公室、虚拟办公室。</p></li>
+<li><p>拥有专业的中国工作人员，为中国企业提供全面支持。</p></li>
+</ul>
+<p>如果您是希望在迪拜创业或发展业务的企业家，IFZA 希望成为您的行业洞察和市场落地伙伴，让您的阿联酋电商业务在2025年再创新高。</p>
+<p><strong>欢迎扫描下方二维码，或点击</strong><a href="https://asia-innovation-resource-programme.mikecrm.com/cNLsFmx" rel="noopener noreferrer nofollow" target="_blank"><strong>此处</strong></a><strong>，用30秒填写表单，工作人员将带您进一步了解迪拜 IFZA 自由区。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="200,200" src="https://img.36krcdn.com/hsossms/20250206/v2_c893f8ea939840a1b99be7b923a84faa@11918142_oswg25773oswg200oswg200_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
+<p>图｜Pixabay</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Aq1DASU9Wdte94JxwezG6g" rel="noopener noreferrer nofollow" target="_blank" textvalue="“迪拜IFZA”">“迪拜IFZA”</a>，作者：迪拜IFZA，36氪经授权发布。</p>
+<h3>加入 Let’s 出海中东社群</h3>
+<p>36氪出海持续关注中东市场机遇并推出“出海中东社群”，组织出海中东系列讲座，帮助企业了解出海中东相关信息并创建开放的交流平台。我们诚挚邀请对中东市场感兴趣的出海企业加入社群，在未来参与交流活动并与我们互动。欢迎扫描下方二维码，填写表单申请加入。</p>
+<p class="image-wrapper"><img data-img-size-val="1016,850" src="https://img.36krcdn.com/hsossms/20241122/v2_395cbdab0a254cc180a27ba691018c2d@5490952_oswg127178oswg1016oswg850_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>加入36氪出海学习交流群</strong></h2>
+<p>目前，36氪出海学习交流群已经吸引超过16,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
+<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p> </p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154499818068739</guid><pubDate>Thu, 06 Feb 2025 14:48:00 +0800</pubDate></item></channel></rss>
