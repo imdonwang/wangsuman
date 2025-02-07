@@ -1,735 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 07 Feb 2025 12:00:26 +0800</lastBuildDate><pubDate>Fri, 07 Feb 2025 12:00:26 +0800</pubDate><item><title>傲慢、短视、扼杀创新，垄断巨头英特尔是如何走向倒塌的？</title><link>https://36kr.com/p/3155918488813061</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>芯片巨头英特尔正面临四面楚歌的境地。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_5330eecdf5a24a978ee260996976329a@132427329_oswg1079264oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024年底，英特尔年度YTD股价重挫近60%，如今被移出道琼斯指数、转由英 伟达替代，市值也跌破千亿美元。</p>
-<p>与此同时，英特尔也面临着接连不断的各种负面消息： 高通一度传出要寻求收购英特尔，还被传出卖厂、裁员、出售子公司，甚至被众多股东联合起诉管理层潜在“重大虚假或误导性陈述财报”行为。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c113a326da11438dab11ee9eb29d3808@132427329_oswg460538oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更戏剧性的是 ，英特尔CEO Pat Gelsinger在没有任何预告的情况下突然“宣布退休”，退休时间竟然还是个周日。</p>
-<p>我们在研究时发现，<strong>英特尔不仅多次犯下决策错误，董事会由于缺乏技术人才长期处于短视的“自动驾驶”状态，甚至腐朽的企业文化也走向了扼杀创新的道路。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_b3b1bf0f4c354e349bc56b1af9da7e3f@132427329_oswg246631oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这篇文章我们将从英特尔错过的移动互联网、放弃的GPU和AI市场、流失的CPU主阵营、Pat Gelsinger重回公司的自救失败以及更深层次的原因，包括无能的董事会、腐朽的公司文化制度等等方向深度剖析一下：<strong>英特尔这座大厦是如何面临崩塌的？</strong></p>
-<h2><strong>01 英特尔的崛起</strong></h2>
-<p>英特尔崛起的故事，大家都很熟悉了：过去英特尔有三大护城河 ：</p>
-<p><strong>1.设计制造一手抓的IDM模式</strong></p>
-<p><strong>2.唯二手握X86专利的设计厂商</strong></p>
-<p><strong>3.优秀的营销策略。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_80c55913b79245ddab8fe7b64becb3d3@132427329_oswg523687oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在这三座护城河下，英特尔销量一路飙升，将它护送到行业老大的位置多年。</p>
-<p>根据多方数据排名，英特尔从1987年开始就进入了全球半导体市场销量前十名，1991年直到2021年这三十年间，只有三次跌落到第二名，其他时间一直稳居第一。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9f308f4bf7cf48988ef6ab189446564f@132427329_oswg761398oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>英特尔市值最高的时候超过5000亿美元，即使在2000年科技泡沫破裂后到2021年期间，英特尔的市值也是在缓慢回升到3000亿美元这个水平的。<strong>但2021年之后，英特尔股价一路重挫。</strong></p>
-<p>那么有着如何辉煌战绩的“垄断者”是如何衰落的？其实英特尔的问题早已埋藏了十多年。</p>
-<h2><strong>02 错过移动互联网</strong></h2>
-<p>2006年，随着3G网络的普及，使用手机上网成为了一种时尚。移动互联网时代即将开启。</p>
-<p>然而英特尔却与这波浪潮失之交臂，主要原因有两个：<strong>选错了伙伴、卖错了业务。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6b6ba7b7fbac4f0e910ff322caf7bec6@132427329_oswg563580oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>Chapter 2.1 失败者联盟</strong></p>
-<p>在这一年，乔布斯正策划着初代iPhone，希望英特尔能为它提供处理器。然而，时任英特尔CEO的Paul Otellini却拒绝了为苹果提供CPU，理由只是这门生意利润太低。</p>
-<p>但此时的英特尔却忽略了一个因素：未来手机市场的出货量将远大于PC市场。</p>
-<p>英特尔错过苹果这条大船，真的全怪Otellini吗？其实拒绝苹果并非Otellini的本意。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_2042e8b2ef6e40c28dc31dc00bdf5910@132427329_oswg375333oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Otellini卸任前在接受《The Atlantic》的采访中回忆这段经历时说道：“虽然英特尔喜欢用（财务）数据说话，但在我的职业生涯中，很多时候我都是凭直觉做决定的，我应该听从自己的直觉，我的直觉告诉我要说‘是’”。</p>
-<p><strong>然而来自董事会对财务数据的压力，迫使Otellini不得不拒绝苹果这个大单。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_cbe3f6dbcc964522b8185781ec3f91e8@132427329_oswg287966oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>因为Intel它的历史比较长，董事会人员会比较多，它的股权也比较多，所以CEO讲话的分量比较小。</p>
-</blockquote>
-<p>随着初代iPhone的发布，再加上移动互联网的浪潮，手机逐步替代电脑的地位，成为了互联网最多的流量入口。</p>
-<p>此时的英特尔也终于回过头来，希望重返移动市场。为此他们找了两个当时的巨头作为合作伙伴。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ccc82de3e20d49e8bef109ba864dc54e@132427329_oswg230494oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>一个是微软，而另一个是诺基亚。后来的故事，想必大家也都知道了，这完全可以说是一个“失败者联盟”的组合。</p>
-<p>不过这并不是英特尔错过移动互联网的全部因素，因为即使Otellini同意与苹果合作，苹果也会在未来毫不犹豫转向自研芯片。那真正的因素又是什么呢？</p>
-<p><strong>Chapter 2.2 孤行己见</strong></p>
-<p>2006年，Paul Otellini刚上任CEO，就以6亿美元将收购而来的XScale业务出售给Marvell，而XScale做的正是ARM芯片。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_2984e82af80245bc8acd62152f2372c7@132427329_oswg480250oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对于移动市场，采用精简指令集的ARM运行效率更高、功耗更低，显然对移动设备更友好。</p>
-<p>不过<strong>Otellini却希望继续押注X86架构，理由是ARM处理器的利润太低。</strong></p>
-<p>我们联系到了Marvell已退休的移动处理器业务副总裁陈弘毅，他当时就主导这桩收购案。陈弘毅提到，英特尔出售XScale不只是ARM设计板块，而是出掉了整个手机业务线。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9584f5c438bb40c4a8d572b7e7f4dec8@132427329_oswg419843oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>陈弘毅（Hongyi Chen）</strong></p>
-<p><strong>Marvell前移动处理器业务副总裁：</strong></p>
-<p>当初Intel买了一个公司叫DSPG，它有3G的Baseband（基带），英特尔一开始决定不做这个基带、不做手机的业务，所以他就卖给了Marvell。</p>
-<p>当时DSPG有个最大的客户，那就是黑莓。但是和黑莓这种公司合作的话，黑莓要的不止是单一的芯片，手机的AP（应用处理器）、Baseband（基带处理器）、PMIC（电源管理芯片）、RF（无线射频）都必须互相配合，整套系统是绑定在一起的。所以当黑莓下去的时候，它整个业务线就不行了。</p>
-<p>而Marvell买下XScale并不只是买英特尔的技术，还要买设计师、工程师，以及整个商业业务。</p>
-</blockquote>
-<p><strong>简单总结下，由于英特尔刚开始不看重基带业务、再加上XScale最大客户黑莓开始走下坡路， 于是英特尔决定卖掉这个未来有风险的业务线，而CPU、基带等技术都是绑定在一起的，所以必须卖掉整个手机业务线。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6d6848e0ccdb4b08915b54d6bc234d09@132427329_oswg473170oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除了XScale外，财务出身的Otellini上任初期，也砍掉了很多不赚钱的业务。</p>
-<p>这并不意味着英特尔彻底放弃了移动市场，2008年英特尔推出了第一代Atom处理器，作为英特尔史上体积与功耗最小的处理器，它的热设计功耗在0.6~2.5W。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9ab3191c438a41c6b3f49ef0362a500a@132427329_oswg322026oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Atom起初是为小型上网本设计，但也用在了一些手机上，甚至后来特斯拉也采用过Atom系列芯片。</p>
-<p><strong>这时英特尔又有了新的顾虑：他们担心如果全心投入低功耗芯片，随着廉价移动芯片的性能越来越强，会削弱利润更高的台式机芯片需求，甚至威胁到服务器市场，于是有意降低了Atom芯片的出货量。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_0b77065333ef48ac922319639ddc5491@132427329_oswg484693oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>最终，英特尔在2016年正式退出手机市场，之前在移动互联网领域投资的100亿美元打了水漂。</p>
-<h2><strong>03 放弃GPU，错过AI</strong></h2>
-<p><strong>Chapter 3.1 三顾茅庐事未成</strong></p>
-<p>英特尔1998年推出了首款独立显卡i740，但才过了一年，就宣布决定将i740的迭代产品i752集成在主版上，取消了独立显卡。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_567bf4ae1158458da47e3b17de16f646@132427329_oswg843282oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这卖得好好的，为啥说没就没呢？熟知英特尔历史的人表示，<strong>那时英特尔的企业文化里无法容忍自己的产品不是市场顶尖，由于i740系列没有取得预期成绩，于是英特尔决定继续专注到主营业务上。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_66fd45b22fb64231b143e2f41752cd0d@132427329_oswg408209oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>然而到了2006年，英特尔为了与英伟达展开竞争，再次开启新的独显项目——Larrabee。</p>
-<p>负责Larrabee项目的，正是刚“被迫退休”的CEO Pat Gelsinger，当时他正担任英特尔CTO。</p>
-<p>Larrabee用的不是市场主流架构，而是X86架构。由于X86架构的功耗更高，发热更严重，单位面积内无法容纳更多核心，因此Larrabee并不被看好。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_dc676190bea14a9db30635f1a6c7f888@132427329_oswg457350oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>甚至英特尔内部爆出过一封邮件，指责Larrabee的开发团队就是一群白痴，公司的企业文化全被他们破坏了。</p>
-<p>到了2009年底，由于Larrabee表现不及预期，英特尔正式取消了这个项目。Pat也在那一年离开了英特尔。从各方消息来看，当时他是被“气”走的。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_bf95bc3981dc4c48a13715bad2674481@132427329_oswg337744oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>后来在2010年时英特尔自己也承认，X86核心的功率密度确实不如其他架构的GPU。往后的十年间，英特尔一直缺席了独立显卡市场，错过了矿潮，也错过了AI。</p>
-<blockquote>
-<p><strong>Pat Gelsinger</strong></p>
-<p><strong>英特尔前CEO：</strong></p>
-<p>13年前我被迫离开英特尔公司时，他们终止了本可以改变AI市场格局的项目。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_e559558050f44564a5d555498e2b4b7d@132427329_oswg466809oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>或许Gelsinger一直对Larrabee心有不甘，2021年回到英特尔后，就提出了要重返显卡市场。</p>
-<p>一年后，英特尔Arc系列显卡如约而至，但此时的游戏市场格局已定，晚到的Arc显卡由于游戏驱动适配不足、生态匮乏，依然没能撼动AMD和英伟达这红绿两厂的地位。</p>
-<p><strong>2024年第一季度，有消息称英特尔在显卡市场份额跌为0%。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_f07b7cc51c7f4a8590f13842ef27c584@132427329_oswg432705oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但就在2024年12月，英特尔卷土重来，又推出了新一代Arc系列显卡，这次能否成功就让我们拭目以待吧。</p>
-<p>回顾英特尔整个显卡的发展史，我们发现英特尔内部一直都没有对这个业务有足够的重视。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_b6f829cb74fb428f97590d94bd914207@132427329_oswg459876oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其实早在2005年，Otellini就提出过收购英伟达，但董事会认为这笔收购太贵了，因此提出强烈抵制。</p>
-<p>除了错过显卡市场外，英特尔的另一个痛就是错过了AI。</p>
-<p><strong>Chapter 3.2 错过的OpenAI和471亿美元</strong></p>
-<p>2017年，刚成立一年多的OpenAI开始与英特尔商议合作，<strong>英特尔只需花10亿美元现金，就能收购OpenAI 15%的股份，如果英特尔愿意以成本价为OpenAI提供硬件设备，还能额外获得15%的股份，也就是总共30%。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_826c13a0780a4c53b8a1c70c91455e19@132427329_oswg378508oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但当时的CEO Bob Swan认为，AI要进入市场还早的很，这笔投资肯定会亏，因此拒绝了OpenAI。</p>
-<p>这个理由看起来有点站不住脚：如果英特尔真的不看重AI，那2016年收购做AI芯片的初创公司Nervana Systems又是为了什么呢？</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ce7feda346ef418199b2cd60edc2efcc@132427329_oswg477038oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>有知情人士补充说到，这笔交易失败的另一个原因，是因为英特尔的数据中心部门不愿打开降价的口子，从而影响到未来的利润。</strong></p>
-<p><strong>而英特尔当初错过OpenAI那30%的股份，如今已价值471亿美元。</strong></p>
-<p>既然英特尔也有意往AI方向发展，他们收购Nervana后又做了什么呢？</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_3dd57dfe8c01406aa2d13218283ab0f5@132427329_oswg1121587oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2019年8月20日，Nervana发布了NNP-T和Nervana NNP-I。然而不到半年，英特尔又有了新欢。</p>
-<p>2019年12月，英特尔收购了另一家AI芯片公司Habana Labs，他们生产的AI芯片名为Gaudi，NNP-T和NNP-I就此被雪藏。</p>
-<p>英特尔这移情别恋也太快了。</p>
-<p>历史总是惊人的相似，放弃Nervana的原因就和当初放弃i752和Larrabee显卡一样：<strong>NNP系列芯片性能无法媲美竞争对手。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c6b20a220f704a449bdcbf4c535d2eb5@132427329_oswg423162oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>在收购Nervana和Habana之后，英特尔的执行和产品路线都比较混乱。</p>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>公司要收购成功，他的战略地图一定要很清楚，但英特尔买这两个公司我看不出它的战略意义是什么。</p>
-</blockquote>
-<p><strong>尽管Pat Gelsinger表示，第二代和第三代Gaudi 芯片已有20多家客户，并预计销售额最多可达5亿美元，但根据美国银行分析师的估计，英特尔2024年在AI芯片市场的份额还不到1%。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_5f6bf628d8e140cd80e86851e337edc9@132427329_oswg458911oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024年9月中旬，Pat Gelsinger在德意志银行分析师会议上宣布，英特尔将退出人工智能训练市场，转而专注于推理领域，这也意味着英特尔开始退出部分AI市场。</p>
-<p>两次错过增长点，让英特尔被对手拉开了差距。<strong>最致命的是，如今就连过去骄傲的CPU业务也开始失守了。</strong></p>
-<p>接下来我们聊聊，英特尔如何失去了它昔日的骄傲。</p>
-<h2><strong>04 CPU主阵地失守</strong></h2>
-<p><strong>Chapter 4.1 “钟摆”停摆</strong></p>
-<p>英特尔创始人之一Gordon Moore非常看重技术的迭代与领先，然而到了2018年，英特尔却在技术上开始落后了。</p>
-<p>我们先来简单介绍下芯片产业的分工：</p>
-<p>芯片制造流程主要是芯片设计、晶圆制造、封装测试。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_165a2b7840294db09cd969bd422f955b@132427329_oswg289957oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>我们熟知的英伟达、苹果、高通、AMD还有华为等公司，都只负责芯片设计，称为Fabless。</p>
-<p>Fabless将芯片设计好后，需要交给代工厂（Foundry）生产出整块晶圆，最后交给日月光（ASE）、Amkor Technology这样的公司，完成切割、封装、测试等流程。</p>
-<p>而英特尔与三星这样的公司能自己满足大部分流程，所以被称为IDM模式（，Integrated Device Manufacture），翻译过来是“垂直整合制造模式”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_e7325dd7bcba4f9f965444a65aaeb49a@132427329_oswg294806oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>正是因为英特尔一手把控芯片设计、另一手紧握芯片制造，他们在2005年制定了一项名为“Tick-Tock”的计划。</p>
-<p>“Tick-Tock”是用来形容机械时钟行走时的“嘀嗒”声，在英特尔的构想里，每一次“Tick”代表芯片制程的更新，也就是缩小芯片面积、提升能耗比、降低发热量。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_cbe2eb7796ee4114ba41a554b233c61b@132427329_oswg326581oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而“Tock”则代表着芯片设计架构的更新，让芯片在同样的功耗下进一步提升性能表现。</p>
-<p>一年提升芯片设计、一年提升芯片制造，就像钟摆一样左右摇荡，这项计划也因此得名“钟摆计划”。</p>
-<p><strong>但到了2016年正好是制程的发展年，英特尔却从此卡在了14nm的节点。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_bb34d6f9cc4247d896ab93d9d4a3d8a2@132427329_oswg635126oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>简单解释下什么是“制程”：在芯片中有很多微小的电路和晶体管，制程就是指晶体管的最小特征尺寸，单位通常是纳米。</p>
-<p>制程数字越小，晶体管之间越密集，同等尺寸下，容纳的晶体管就越多，或同样性能下，芯片面积更小、发热与能耗越低。</p>
-<p>要在这么小的间距内布置如此多的电路与晶体管，就必须依靠光刻机这种工具。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d8ed72b6dcf44aa9b88d6dc2de30e159@132427329_oswg695730oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在此之前，英特尔一直使用的是<strong>深紫外光刻机（Deep Ultra-violet Lithography，简称DUV）</strong>，这玩意儿也自己的精度上限，于是业内需要寻找新的解决方案，那就是<strong>极紫外线光刻机（Extreme Ultra-violet Lithography，简称EUV）。</strong></p>
-<p>其实早在1992年，当时的英特尔CEO Andy Grove就批准了2亿美元用于研发EUV，又在1997年，英特尔牵头、联合AMD和IBM等企业成立了一家名为EUV LLC的公司，来确保美国EUV研发界保持团结；后面甚至为了支持EUV光刻机的研发，英特尔还在2012年向ASML投入了共计41亿美元。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_64b6a715ce5b415081afa9b166598944@132427329_oswg372270oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但EUV的研发进展却不太顺利，2013年ASML推出第一代接近量产的EUV光刻机NXE:3300B时，依然面临光源功率不足和良率问题。</p>
-<p>当时的刚上台的英特尔CEO Brian Krzanich认为，EUV光刻机并不能给英特尔带来经济上的增长，而且英特尔在制程工艺上的技术领先同行，有足够的技术实力。<strong>于是决定继续押注DUV，先攻克10nm节点。</strong></p>
-<p>由于英特尔的IDM模式只为自己造芯片，一旦新制程研发出来，老设备不再有用武之地了，这时将设备成本平摊到每年的芯片上，就会导致利润率变低。如果能通过改进老设备，就能降低研发费用，每块芯片的利润率将提升。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d252b2e7b72a4a839b73bb5cbab6352d@132427329_oswg219595oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但押注DUV的结果就是：</p>
-<p>2015年，英特尔发布第五代酷睿移动处理器，工艺14nm。</p>
-<p>2016年，14nm；台积电已经量产10nm。</p>
-<p>2017年，14nm。</p>
-<p>2018年，14nm；台积电已量产7nm。</p>
-<p>2019年，14nm。</p>
-<p>2020年，14nm；台积电已量产5nm。</p>
-<p>2021年3月，14nm。</p>
-<p>2021年10月，终于变成Intel 7。</p>
-<p>额外说一句，这个Intel 7工艺其实是10nm工艺的增强版。<strong>正是因为英特尔在14nm上卡住了6年，导致了被AMD反超。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_479892a9882d4b94acbe554c4943e842@132427329_oswg363112oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2019年第三季度，AMD第三代Ryzen系列处理器上市。它采用了台积电7nm工艺，而英特尔还在用14nm。一向领先的英特尔，在X86市场份额突然大跌近10%，后来AMD一度与英特尔打出了4/6开的局面。</p>
-<p><strong>在制程落后的情况下，英特尔采取了另一个方式来弥补性能，那就是提升芯片功耗。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_f111d8a9ce9049f79a4c756ee8d7aad5@132427329_oswg390968oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>陈弘毅（Hongyi Chen）</strong></p>
-<p><strong>Marvell前移动处理器业务副总裁：</strong></p>
-<p>Intel的制程进步虽然比较慢，但它用的电晶体很大，它们叫strong transistor（强效晶体管），可以允许它制程偏移，所以它虽然几代制程落后，但运行速度不会比竞争对手慢。但是问题出在它10nm速度是快，但是它功耗就非常大。</p>
-</blockquote>
-<p><strong>提升功耗的代价是芯片发热量会显著增加。如此一来，英特尔将失去一类重要的客户：数据中心。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_e6626265e1b741d1926af1d5eb04e213@132427329_oswg413033oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>数据中心这块业务在过去十几年一直是Intel的最主要的增长点，也是利润率最高的业务。</p>
-</blockquote>
-<p>我们在《AI数据中心是如何运作的？》这篇文章中讲过，数据中心将很大的成本用在了散热上，这时厂商会更倾向选择制程更好、功耗更低的CPU。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6711bb1975a44005b4537ce5f0823086@132427329_oswg331046oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除了制程问题外，<strong>英特尔失去服务器市场还有另一个技术原因：PCI-E技术的落后。</strong></p>
-<p>PCI-E是一种用于连接CPU和其他硬件设备的高速接口，比如显卡、硬盘等设备就需要通过PCI-E这样的桥梁来与CPU交换数据。</p>
-<p>英特尔最新的服务器CPU至强（Xeon）6900P系列支持的PCI-E 5.0通道数为96条，而AMD的EPYC 9005系列最高达到了160条。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_fadb93f7bc4b407f833a1decfbf39dda@132427329_oswg315301oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>PCI-E的通道数量越多，一颗CPU能带动的显卡数量就更高。，在如今AI计算普遍转向以GPU为主的情况下，显然AMD的CPU更适合AI市场。</p>
-<p><strong>在业内人士看来，并非英特尔不愿意提供更多的PCI-E通道，而是技术已经达到了瓶颈。</strong></p>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>我认为英特尔的PCI-E技术掌握得并不好，它会找Synopsys这种公司来获取授权，这样就没有办法自己掌握技术，当然英特尔内部也有人研究PCI-E技术，但我认为他内部的技术跟其他公司比差太远了，所以这是它的瓶颈。</p>
-<p>这个东西你从财务报表可能看不出来，这是从我做技术的眼光来看的。</p>
-</blockquote>
-<p><strong>2022年，英特尔在数据中心的收入份额下跌10%，</strong>被以AMD为首的其他竞争对手瓜分。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c5256528024549189808c8aa3e232491@132427329_oswg325267oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>根据Mercury Research的数据，2024年第二季度，AMD在服务器市场的收入份额为 33.7%，且平均售价高于英特尔，控制住了高端市场。</p>
-<p>就在英特尔出现内忧时，外部市场也开始变得恶劣。</p>
-<p><strong>Chapter 4.2 合作伙伴“叛变”</strong></p>
-<p>过去我们一直将英特尔的对手视为AMD，但如今蚕食英特尔业务的对手已不止AMD。</p>
-<p>2020年，苹果推出了自研的M1芯片，英特尔开始淡出Mac的舞台。</p>
-<p><strong>而在服务器端，巨头们谁也不想受制于人，也纷纷开启了自研芯片的道路。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a689db7819b64e0086285b2197f5c3c0@132427329_oswg466917oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>Pat Gelsinger</strong></p>
-<p><strong>英特尔前CEO：</strong></p>
-<p>亚马逊、微软、谷歌、阿里巴巴都是我们最重要的客户。</p>
-</blockquote>
-<p>2018年底，亚马逊率先推出了基于Arm的自研CPU Amazon Graviton。</p>
-<p>2023年11月，微软正式上线基于Arm的自研CPU Azure Cobalt 100。</p>
-<p>2024年4月，谷歌宣布推出的基于Arm架构的定制CPU Google Axion。</p>
-<p>2024年11月，阿里巴巴宣布其自研的CPU 倚天710已在数据中心大规模部署。</p>
-<p>除了这些重要客户“反水”，还有个曾经的“敌人”也趁乱杀入，那就是英伟达：在2022年的GTC大会上，英伟达推出了基于Arm架构的Grace CPU。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_02f08152dec744aa84d8a27977ee8cf3@132427329_oswg403205oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>随着英伟达GPU成为AI数据中心的主要设备，英伟达开始在部分产品上将Grace CPU与GPU捆绑销售，比如最新的GB200。</p>
-<p>同时，我们也不能忽略<strong>AI时代服务器范式的转变，导致服务器的CPU市场开始萎缩。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_5155d8894933484bb75b1e3b616fef48@132427329_oswg422863oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>现在服务器视频从以CPU为核心转向了以加速器（GPU、ASIC等）为核心，所以就导致了整个服务器的CPU份额在不断萎缩。</p>
-</blockquote>
-<p>不光是服务器市场，<strong>随着苹果自研M系列芯片、微软尝试Windows on ARM，ARM的崛起成了X86的威胁。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6f64cd05d588486c8f5104bc838ea655@132427329_oswg653367oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当然，由于X86已经积攒了多年的软件生态，特别是一些小众的工业软件，要直接迁移到ARM架构下需要大量工作。<strong>X86虽然会面临市场萎缩，却依然很难倒下。</strong></p>
-<p>不过他们也意识到这些问题了，为此在2021年将Pat Gelsinger重新请回了公司担任CEO。从结果上来看，<strong>这项自救计划无疑是失败的，但罪魁祸首并不是Gelsinger。</strong></p>
-<h2><strong>05 自救之路险象环生</strong></h2>
-<p><strong>Chapter 5.1 请回“弃子”</strong></p>
-<p>回顾下英特尔的一次次的决策失误：拒绝为iPhone提供芯片、错误押注X86、放弃显卡业务、错过投资OpenAI、坚持押注DUV，这每一项决策背后都离不开一个因素，那就是利润。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_63a8a0d80e60403196e40e9d563e6d89@132427329_oswg569062oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>所以2021年技术出身的Pat Gelsinger出任CEO、回归英特尔的消息一经放出，市场一片叫好——英特尔盘前股价飙升14%，创下了半年来的最高位。</p>
-<p>简单介绍下Pat Gelsinger的背景：1979年他在英特尔开启了职业生涯，曾在英特尔三大掌门人（Noyce、Moore、Grove）手下工作，他不仅是80486 CPU的架构师，还领导过14种处理器的开发项目。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_f22399f3b4d14061b23599bf1d66b430@132427329_oswg373483oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Pat是个充满活力的人，每次发布会前还会先做几个俯卧撑，确实能让人感受到他对英特尔的热爱。同时，他对英特尔的问题认识地非常清晰，而且对外也毫不避讳。</p>
-<blockquote>
-<p><strong>Pat Gelsinger</strong></p>
-<p><strong>英特尔前CEO：</strong></p>
-<p>我们错过了移动浪潮，我们曾经进行过大约五次不同的AI收购。所以在我看来，这就是英特尔错过的两个巨大的趋势。而我们根本上更倾向于打造一个伟大的晶圆代工厂。</p>
-</blockquote>
-<p>他上台后重新启动了显卡的开发计划，为此甚至提出要消除英伟达的CUDA壁垒。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d814c221aa804a9091632e5a12fb3b61@132427329_oswg497699oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>Pat Gelsinger</strong></p>
-<p><strong>英特尔前CEO：</strong></p>
-<p>我们正在推动一项名为SYCL的技术，这是一种开放的标准化并行C语言，这样我们就可以取代像Cuda这样的专有技术。</p>
-</blockquote>
-<p>但正如我们前面提到的一样，英特尔的显卡与AI战略都以失败收场。而<strong>在消费者领域，英特尔主推在CPU中添加NPU的“AIPC”也并不被市场看好。</strong></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>我自己个人不是很看好AI PC的概念，我觉得它很难推动整个PC市场的增长。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_04318bf29b854e6cb7686891d9a9abf1@132427329_oswg420587oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过这不重要，<strong>Pat Gelsinger面临的最大问题就是：如何拯救制程落后的晶圆厂。外界一直对英特尔的期待是，放弃IDM卖掉晶圆厂，转变为Fabless模式。</strong></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>我从二级市场投资人的角度来说，Intel最大的投资价值，就是它把晶圆厂拆出来，芯片设计和晶圆代工彻底的独立开。</p>
-</blockquote>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>如果Pat Gelsinger上台的时候去找台积电合作，然后把他的晶圆厂卖掉，现在市值至少两三倍了。</p>
-</blockquote>
-<p>大家希望晶圆厂被拆分的主要原因，就在于先进制程确实太烧钱了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d1a8189ab17c469f9bd93fa233538369@132427329_oswg420390oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>虽然很多人经常以AMD分拆Global Foundries后取得制程领先为理由，认为英特尔也应该拆分晶圆厂。但Gelsinger在接受采访时提到，AMD 作为Fabless取得成功的原因并不是因为拆分，而是因为台积电的崛起。</p>
-<p>因此<strong>Gelsinger的战略是一直保留晶圆厂的IDM 2.0模式，而且在上任前就与董事会沟通并取得了全员支持。</strong>但这项战略执行起来却困难重重，接下来我们分析下IDM 2.0。</p>
-<p><strong>Chapter 5.2 被看衰的复兴之路</strong></p>
-<p>IDM 2.0主要提出了三个方向的战略：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a1692433b2f24564acc8c345aa7c5909@132427329_oswg302984oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>1.大力建设先进制程的晶圆厂；</p>
-<p>2.开放晶圆代工业务（IFS）并授权X86架构；</p>
-<p>3.将部分芯片交由第三方代工厂生产。</p>
-<p>首先，对于在美国建造工厂追赶芯片制程，各界都不太看好。</p>
-<p>按照Pat Gelsinger的计划，英特尔将在<strong>五年时间发展4个制程节点</strong>，对比过去钟摆计划两年一个节点来说，难度非常大。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ee208c24a1fe4d8fb035e3c4ef426a20@132427329_oswg646031oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而且晶圆厂的投资需要足够的资金支持，这对英特尔是不小的负担。</p>
-<p><strong>Pat Gelsinger以地缘政治为由，认为美国需要扶持本土工厂，因此申请了美国《芯片法案》的补贴作为工厂建设资金。但业内人士认为这点补助对于庞大的投资来说依然是杯水车薪。</strong></p>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>他想拿美国政府的贴补只是是杯水车薪，你看台积电的生意是700亿美元，政府能给你几毛钱？</p>
-</blockquote>
-<p>同时，来自《芯片法案》的补贴，英特尔拿的并不顺利。美国政府承诺发放的补贴也是一拖再拖。我们采访的嘉宾认为：政府之所以延迟发放补贴，是因为对英特尔没有足够的信心。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_cf624fc63a8546c4ae88fef04c633cb0@132427329_oswg403626oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>因为从美国 政治上说，给Intel发放补贴，第一是要把芯片制造能够回流放到美国本土，第二是要创造就业岗位，这也是Intel当时拿补贴时候承诺的。但是现在Intel又大规模裁员，所以很难说服政府大力的给补贴。</p>
-</blockquote>
-<p>其次，对于英特尔开放代工业务，大家也都保持着怀疑的心态，主要有三个原因：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c09048c9c1aa48d3829fbb86670860b0@132427329_oswg551820oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>第一，因为晶圆厂的产量是有限的，对客户来说，不太相信英特尔愿意将最好的产线开放给客户，而不是留给自己使用。</p>
-<p>第二，英特尔自己也拥有芯片设计业务，本身与其他芯片设计公司存在竞争，在这种情况下，很难让客户放心地将图纸与知识产权交给英特尔。</p>
-<blockquote>
-<p><strong>陈弘毅（Hongyi Chen）</strong></p>
-<p><strong>Marvell前移动处理器业务副总裁：</strong></p>
-<p>我觉得很难了。因为你要做服务的话，最重要的是让客户要相信你、把设计图纸交给你。</p>
-</blockquote>
-<p>第三，英特尔的产线并不是最先进的，在市面上有更好的台积电可以选择时，大家更不太愿意选择连自己芯片都要交给台积电代工的英特尔。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ac33e0f8165042858ace0514a3fe7289@132427329_oswg201572oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>我们这种业内人一听就觉得很奇怪，这么荒唐的话居然会Intel CEO嘴里讲出来？他要跟台积电争晶圆代工的老大，你去看看芯片公司的市值排名，它连第10名都排不上，怎么去争？有点开玩笑吧？</p>
-</blockquote>
-<p>当然，英特尔代工部门还是有一些好消息的，根据2024年Gelsinger在财报会上透露的消息，英特尔已成功接收了全球第二台最先进的极紫外光刻机（High NA EUV），在此之前的第一台High NA EUV光刻机也是英特尔的。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_0a4c2ae9e4cd414a8617deff13fa43de@132427329_oswg608582oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>同时，英特尔代工厂也获得了来自亚马逊10亿美元的订单。只能说英特尔值得期待的部分在未来。</p>
-<p>最后，虽然英特尔将自己的芯片交由了台积电代工，但从最终的产品表现上来看，效果不尽人意。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_21b6027723814e87a0845006160d2dc9@132427329_oswg465104oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024年10月发布的英特尔Ultra 200S系列，采用了台积电N3B工艺。</p>
-<p>但根据一些媒体的测试，对比上一代使用Intel 7工艺的14代酷睿处理器，在多项测试指标中，提升幅度有限，甚至在游戏性能表现出了倒退的情况；，只是在功耗表现相比上代有大幅提升。，但对一直插电使用的台式机来说，这点聊胜于无。</p>
-<p>所以综合看来，IDM 2.0能否挽救英特尔，依然是未知数。<strong>但不可否认的是，这项战略是正确的方向，只是执行时间太晚了。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9285f19a7de5489fb1edaa6516fa54da@132427329_oswg544350oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>IDM 2.0战略我觉得不是一个错的战略，但如果放到五年前实施的话，成功的可能性会更大。</p>
-</blockquote>
-<p><strong>就在IDM 2.0执行未半时，这项计划的提出人Pat Gelsinger却被强制离开了英特尔。</strong></p>
-<p><strong>Chapter 5.3 财务崩盘再度弃子</strong></p>
-<p>美国时间2024年12月2日周一，英特尔发布公告称，Pat Gelsinger已于前一天（周日）退休了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_1309c2b3b9684f37b365838f3bf4db78@132427329_oswg380254oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这个消息一出，立马引起了不小的轰动。，最主要的原因就是太突然了，从各类渠道信息来看，Pat应该是被董事会炒了鱿鱼。</p>
-<blockquote>
-<p><strong>硅谷徐老师</strong></p>
-<p><strong>财富500强首席创新官</strong></p>
-<p><strong>VMware网络事业部创始人</strong></p>
-<p><strong>斯坦福客座讲师：</strong></p>
-<p>虽然说名义上是退休，但大家都知道这是解雇，因为董事会没有足够的耐心了。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a9378098d8cf4c96820e465330ff2950@132427329_oswg417536oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>从英特尔2024年的动向来看，反映出的当前公司情况就是缺钱。</strong></p>
-<p>2024年6月29日，英特尔的现金和现金等价物为112.9亿美元，而流动负债总额约为320亿美元。</p>
-<p>8月1日，英特尔宣布全球裁员15%，并从第四季度开始暂停派息，同时宣布2025年将削减100亿美元的成本支出。</p>
-<p>9月1日，英特尔宣布计划出售可编程芯片部门Altera。</p>
-<p>9月16日，英特尔称要独立晶圆厂为子公司，希望借此引入外部投资者。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_baa6ad0a0417442181b0452d27fb985c@132427329_oswg192897oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>虽然这些动向都反应了英特尔正面临着挑战，但不少人都对这一系列动作表示了肯定。</strong></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>英特尔现在对于现金流的需求确实非常大，因为他这几年大量建新的厂，所以剥离这些非核心的业务确实能帮助他缓解一些现金流的压力。我觉得从这个角度来看，大家会更乐观地去看待这个事情。</p>
-</blockquote>
-<p>在IDM 2.0下，大力建设晶圆厂确实给英特尔带来了巨大的财务压力：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c65e0a23871649e79081edd10d9d2164@132427329_oswg439509oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从2022年后，英特尔相继宣布了在美国俄亥俄州、德国马格德堡、爱尔兰莱克斯利普投资建厂，此外，还将花费300亿美元来扩大亚利桑那州的工厂，总投资将超过1100亿美元。</p>
-<p>根据英特尔的财报数据，从2021年Pat上台后，研发费用开始大幅上升，但净收入与净利润却急剧下降。特别是2023年，净利润率只有3.14%，创下了英特尔三十年来的历史新低。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6a4160a1c702408bba97d2a3c90b3ea3@132427329_oswg206222oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>同时英特尔2024年第三季度的财报显示，（在公认会计准则下）亏损达到了166亿美元，已连续三季度处于亏损状态。</p>
-<p>看了这些数据，也能理解为什么董事会对Pat Gelsinger失去了耐心。</p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>这一次他突然离开CEO的职位，最大的一个可能性就是，他的IDM 2.0战略和董事会的优先级之间出现了冲突，因为IDM 2.0需要大量的资本开支，尤其是在晶圆代工这块的业务，这会对Intel短期的现金流和利润率造带来比较大的压力，从而可导致股价上的压力。</p>
-</blockquote>
-<p><strong>但是在业内人士看来，造成这样的原因并不是Pat没有能力，而是过去留下的坑太大了。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_51955b54590141bc8378defb6ad2e1ba@132427329_oswg412473oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>硅谷徐老师</strong></p>
-<p><strong>财富500强首席创新官</strong></p>
-<p><strong>VMware网络事业部创始人</strong></p>
-<p><strong>斯坦福客座讲师：</strong></p>
-<p>过去三年半英特尔所有发布的产品，没有一个是Pat Gelsinger自己做的，因为硬件周期是5年，过去三年的东西都是前一个CEO做的。所以如果说Pat Gelsinger还不够行、不够好，那是因为什么呢？难道是看到了2025年的18A制程做不出来？还是怎么样？所以我觉得是董事会没有耐心。</p>
-</blockquote>
-<p>AMD的CEO Lisa Su（苏姿丰 ）被问道如何看待Pat的离任时，也表示Pat的处境非常艰难，认为一项战略需要5年才能看到成果。但董事会却没有这样的耐心。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a622efe2106942ac99fbd4694b71ef9a@132427329_oswg470516oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>苏姿丰</strong></p>
-<p><strong>AMD CEO：</strong></p>
-<p>我个人很佩服Pat Gelsinger，但拯救一家半导体公司是非常难的。我们这个行业有个特点是，今天做的决策要到5年后才能看到成果，这确实是非常难的。</p>
-</blockquote>
-<p>这就很奇怪了，英特尔董事会作为一家芯片最高领导组织，怎么会不知道这些道理呢？</p>
-<p>在扒开董事会的垂帘后，我们发现此前英特尔11位董事会成员中，真正有丰富半导体行业经验的，竟然只有1位，甚至好几位成员都是败军之将。</p>
-<h2><strong>06 无知失能的董事会</strong></h2>
-<p><strong>Chapter 6.1 外行领导内行</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_5ffa43a2f8214e808aa3b7bb335dc91b@132427329_oswg303007oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>对董事会看法，我有两个字，就是失能。那假如说用四个字的话就失能、失职。</p>
-</blockquote>
-<p>我们来逐一分析下Pat Gelsinger离任时的董事会成员。根据英特尔官网的披露信息，董事会此前有11位成员。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ba65a1a8c0744375bb395ab8720ffade@132427329_oswg327987oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Frank D. Yeary：作为现任的董事会主席，也是在董事会任期最久的人，在金融行业工作了25年，几乎没有半导体行业经验，同时也曾是PayPal董事会成员。</p>
-<p>James (Jim) J. Goetz：风投公司合伙人，拥有软件与存储行业经验，但没有半导体行业经验。</p>
-<p>Andrea J. Goldsmith：电器与计算机工程教授，具有丰富的半导体经验，但行业资历较浅。</p>
-<p>Alyssa H. Henry：以金融行业的开发者起家，没有半导体行业经验，曾担任过Square公司的CEO，不过任期只有短短9个月，曾任游戏引擎Unity公司的董事会成员，但Unity也一度四面楚歌。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ddc992cddec84576a0030e24500efe65@132427329_oswg469958oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Omar Ishrak：此前担任英特尔董事会主席，2023年1月卸任主席一职，同时也在两家生物与医疗公司担任董事，没有半导体行业经验。</p>
-<p>Tsu-Jae King Liu：作为工程学教授，拥有90多项专利，研究重点是纳米级逻辑芯片（nanometer-scale logic）和存储设备，以及节能电子产品的先进材料、工艺技术和设备，对半导体有丰富的认知，但没有行业从业经验。</p>
-<p>Risa Lavizzo-Mourey：MBA硕士，医学博士，没有半导体行业经验。</p>
-<p>Barbara G. Novick：金融行业BlackRock公司的联合创始人，没有半导体行业经验。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_cb517d83c95148bd9b3e8acfa6180d81@132427329_oswg460208oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Stacy J. Smith：他曾在英特尔工作了近30年，半导体行业经验丰富，但他担任董事时间并不长，2024年3月才加入董事会。同时他也是Autodesk和Wolfspeed公司的董事会成员，可惜的是这两家公司都被爆出过管理不善的问题。</p>
-<p>Dion J. Weisler：拥有计算机公司经验和计算机应用科学学士学位与法学博士学位，没有半导体行业经验。</p>
-<p>Gregory D. Smith：没有半导体行业经验，在波音公司工作了30年，担任波音副总裁和首席财务官十年。要知道波音公司也是一团乱。如果你还不知道波音的故事，一定要去看看我们《波音困境》这期内容，就明白他的重量级了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_dbb2955533e44298af3e2467b6dec457@132427329_oswg648318oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>他这个董事会怎么会这么荒唐啊？我实在是想不通。你看他的董事会成员里面，波音公司和Intel现在是美国最惨的两家公司，还有Paypal最近几年也做得不好，还有Autodesk，这几家公司基本上跟芯片行业完全没有关系，而且都经营的非常惨。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_640508b0648c4efeb591ec56301a481b@132427329_oswg226831oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>我们回头再看看这11名董事，懂半导体的只有3位、有行业经验的只有2位、经验丰富的只有Stacy J. Smith，他2024年3月才加入，主要原因是接替离任董事陈立武Li-Bu Tan。</p>
-<p>也就是说，<strong>在Pat任期内，整个董事会的配置里从始至终只有1名行业资深人员。</strong>在业内人士看来，带领半导体公司运作，需要有非常深厚的行业经验与积累。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d37bec8edb3849ac9e319d6b25cddbab@132427329_oswg382374oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CE</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>最重要的是半导体要非常深的行业经验，因为半导体不像AI是个比较新的产业，为什么我们这边叫硅谷呢？就是因为70年前我们就开始做硅，我们的前辈交了无数学费，这里面有很多的经验，是你没有经过不会了解的。</p>
-<p>董事会里的人也不懂怎么发言，因为他不知道要讲什么，就像你把我送到一个我不懂的行业里面去，我更不知道讲什么。</p>
-</blockquote>
-<p>那么英特尔的董事会是如何形成的呢？董事由股东选举而来，根据公开数据，英特尔的股份超60%为投资机构持股，也就是说，董事会主要由这些机构股东选举而来。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_88813f1622be46ed9d0f8b9b2efbda01@132427329_oswg305061oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而投资者又分为passive investor（被动投资者）与active investor（主动投资者）。</p>
-<p>被动投资者的机构策略就是长期持有，不会轻易变动持仓，也不会激进地寻求投资企业的改变。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d5d41819fc1c45d7a0f7d75f09400e39@132427329_oswg387185oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>主动投资者会更积极调整持仓，其中里面最激进的是activist investor（激进投资者），像华尔街上著名的 Carl Icahn，被称为“野蛮人”，会收集股票成为大股东，从而激进的影响公司决策。</p>
-<p>我们再看看持有英特尔股票的机构：前三名分别是BlackRock、Vanguard Group、State Street Corp，他们的持股数与第四名之间差了一个数量级，可以看作拥有最大投票权的三家机构。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9c08e113dec341b1a0ecd55c003a34b8@132427329_oswg331848oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这三家机构，都属于被动投资者，而且排名第一的公司各位有没有觉得眼熟？我们前面介绍的英特尔董事会成员Barbara G. Novick，就是BlackRock的联合创始人。</p>
-<p>当然，其他排名靠后的持股机构大多数也是被动投资者。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_b5968b82069d498991637e2e045f3980@132427329_oswg336558oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>一般被动投资者投票时，会遵循Glass Lewis（GL）与Institutional Shareholder Services（ISS）这两家投票代理机构的建议。</p>
-<p>问题就出在这儿：<strong>大多数情况下，GL与ISS会倾向于董事会的建议。</strong></p>
-<p>所以这么兜兜转转一圈，<strong>英特尔的实际控制权，或者说被外部投资者力量改变的机会，其实还在董事会这里。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_2e044f0b695747d78872e5d64b8c6345@132427329_oswg275879oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>按照资深芯片领域分析师Doug O'Laughlin的描述，Intel’s board has been running on autopilot for a long time（英特尔董事会长期处于自动驾驶状态），用比较优雅的词来翻译就是：脱缰之马。</p>
-<p>那为什么没有激进投资者进场来改变这家公司呢？Doug O'Laughlin在他的文章中也写道：他与一些激进投资者交谈过，<strong>英特尔已经是船大难掉头，投资进场的风险太高。也就是说，聪明的投资者看到英特尔都绕道走了，留下的只有保守派。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_0292fa2a33224588a4b4061c5e991b52@132427329_oswg577645oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另外，我们采访的嘉宾也就董事会成员为什么不主动辞职提出了一个有意思的观点。</p>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>为什么这些董事会的人还在待着也不去辞职？只有陈立武（Li-Bu Tan）辞职了，是因为董事会一年薪资是33万到50万美金，这对董事会那些成员这都不是小钱。比如加州大学伯克利分校的教授，还有宾州大学健康学的教授，他的工资不到20万，英特尔一年给他 33 万，他每年开四次会，他什么事也不要讲，就当烂好人每个事情都点头，那也没什么不好嘛。</p>
-</blockquote>
-<p><strong>Chapter 6.2 急病乱投医</strong></p>
-<p>在董事会逐出Pat的第一时间，英特尔股价上涨了6%，但随后便是连续多日的下跌。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_4483048e9db24db1b1b775ab442bdd1d@132427329_oswg586613oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>多位业内人士猜测称，这表现出了大众对英特尔公司的不信任。</p>
-<blockquote>
-<p><strong>硅谷徐老师</strong></p>
-<p><strong>财富500强首席创新官</strong></p>
-<p><strong>VMware网络事业部创始人</strong></p>
-<p><strong>斯坦福客座讲师：</strong></p>
-<p>当Pat走人以后，大家第一反应是我可以省钱了，但是回过头来再仔细想想，难道就因为少了Pat，Intel何去何从这件事就有一个答案了吗？要知道Pat上任时大家希望他解决的问题，也看不出来有其他人能解决的更好，所以现实马上就让大家醒了，这是我的猜想。</p>
-</blockquote>
-<p><strong>目前让外界琢磨不透的一点是，董事会到底要走技术路线，还是增长路线，或许这个问题英特尔自己都没有想清楚。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c0002e1974cc4727a488fe0724f1ee1e@132427329_oswg415588oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>我自己也感觉董事会现在看到了战略存在问题，会导致短期的财务数字比较难看，他们想解决这个问题，但如果继续按照Pat的战略去推行的话就很难解决这个问题。</p>
-</blockquote>
-<blockquote>
-<p><strong>硅谷徐老师</strong></p>
-<p><strong>财富500强首席创新官，VMware网络事业部创始人，斯坦福客座讲师：</strong></p>
-<p>我觉得英特尔的董事会搞清楚一件事：到底是想让Intel重振雄风，还是提升财务数据。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_148ee233f426401891c4e62d57647c99@132427329_oswg602346oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在Pat离任后，有消息称英特尔正接触之前出走的前董事会成员陈立武（Li-Bu Tan）。同时英特尔的新CEO人选也在考虑芯片设计公司Marvell的CEO Matt Murphy。</p>
-<p>另外，英特尔临时CEO David Zinsner也表示，新任CEO将需要拥有晶圆代工的经验，同时，英特尔也在接触台积电的高管，看是否有合适人选。</p>
-<p>此外英特尔还新增了两个董事会席位，其中一位是光刻机制造厂ASML的前CEO兼董事长Eric Meurice，另一位则是半导体供应商Microchip Technology的临时CEO Steve Sanghi。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_29e312d38b6f45319324fb51b51450f3@132427329_oswg252481oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>以上这些动向又回到晶圆代工的业务，所以我感觉英特尔现在的董事会，他们在很广泛的去接触各种各样的潜在的这个人选，但是他们也没有别的更好的办法，所以现在处在方向不明确的阶段，想要做改变，但又不知道往什么方向去改。</p>
-</blockquote>
-<p>除了董事会的问题外，杀死英特尔的还有一个因素，那就是<strong>扼杀创新与傲慢的企业文化。</strong></p>
-<p><strong>Chapter 6.3 扼杀创新的企业文化</strong></p>
-<p>回顾英特尔的种种失败，都逃不开几个词：利润率、保守、傲慢。</p>
-<p>华尔街日报也将波音与英特尔一起类比评论道，这两家公司的<strong>企业文化逐渐发展为优先考虑财务业绩而非工程卓越性。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_2bd0772a7e344ee4bed1b92e5709619f@132427329_oswg406710oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>前面我们说到，英特尔最新的处理器Ultra 200s系列用上了台积电工艺，但性能提升却不大。</p>
-<p>在采访嘉宾看来，出现这样的情况，是因为英特尔的芯片设计部门此前过于依赖制造部门的领先技术，因此变得缺乏进取和创新性了。</p>
-<blockquote>
-<p><strong>任扬</strong></p>
-<p><strong>济容投资联合创始人：</strong></p>
-<p>英特尔在2018年前的制造工艺一直处于绝对领先的位置，就导致他的设计部门其实有点过于依赖芯片制造部门的优势，所以在产品设计上不够创新、不够进取。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_69df293f289c4e5bab57b2eee584eea2@132427329_oswg281649oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>有分析认为，英特尔的芯片设计团队由于可以利用其曾经领先业界的工艺，而变得越来越臃肿和懒惰。可以说英特尔衰落最不值得被同情的因素，就是傲慢与自大。</strong></p>
-<p>在制程技术陷入停滞的那几年，英特尔推出了14nm+和14nm++的改进工艺，英特尔前工程师2018年时发表推文说道，自己早在2年前就提出应该使用14nm++的改进工艺，但管理层并没有采纳他的意见，有猜测称，这是因为管理层对10nm的推进过于自信。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_8d2e1e989f5c4bb7a9415fe8175bbded@132427329_oswg396508oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>就算自己的GPU产品缺乏竞争力，也不影响他们嘲笑英伟达和AMD的GPU架构为“Ugly”（丑陋）。</p>
-<p>在低功耗芯片Atom的研发阶段，前CEO Otellini甚至鼓励用户先用ARM过渡，等自己的低功耗处理器面世了再迁移回X86。</p>
-<p>英特尔当时的移动业务主管Mike Bell在接受采访时表达过对ARM的不屑，他认为英特尔拥有30年的经验优势，拥有比ARM更智能的CPU核心。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_f507df4c572d46349ab63c9cd1eb3ae3@132427329_oswg342970oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>讽刺的是，当采访记者Sebastian Anthony问道，“你是否担心自己领先太多，以至于变得自满，反而无法利用这一优势？”，Mike Bell的回答是：我们不会满足于已有的成就…最近，有些公司未能保持创新，结果陷入了困境。</p>
-<p><strong>如今的英特尔开始成为了曾经的反面教材。</strong></p>
-<blockquote>
-<p><strong>硅谷徐老师</strong></p>
-<p><strong>财富500强首席创新官</strong></p>
-<p><strong>VMware网络事业部创始人</strong></p>
-<p><strong>斯坦福客座讲师：</strong></p>
-<p>我前两天还跟一个在英特尔做了近20年的朋友聊，他最近去了亚马逊，我问他为什么现在看不到你当初在Intel时那种不敢冒险的状态了？他说有一个点是很重要的，在Intel只要守着自己本来的东西，就能够保着自己的位置。但在亚马逊那些如果VP只是做过去几年同样的事，他们的位置保不住的，所以他必须得去思考如何冒险一点，否则的话怎么保住自己的位置？多数时候大家都是在为自己的位置着想。</p>
-</blockquote>
-<p>激励机制的不完善，造就了英特尔高层不愿冒险的特性。这种遏制创新的文化不仅影响了英特尔自身的业务，也阻碍了那些被英特尔收购公司的发展，XScale、Nervana、Habana、Altera皆是如此。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_62f69d641ac94951a571c4f95869af79@132427329_oswg383312oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Pat Gelsinger在回顾英特尔历史时说道：“我在英特尔的惨痛经历当中学到的一点是--如何将一家富有创造力的初创公司纳入麾下，并对其进行培育，而不是在大型主流公司内部将其摧毁，而这正是英特尔未能做到的。”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_df54f28cba7c4384bec7a1d5f9569785@132427329_oswg524303oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>有知情人士透露称，<strong>英特尔前董事陈立武（Lip-Bu Tan）离任，正是因为团队臃肿、企业文化趋近保守、以及AI战略的落后。</strong></p>
-<blockquote>
-<p><strong>硅谷徐老师</strong></p>
-<p><strong>财富500强首席创新官，VMware网络事业部创始人，斯坦福客座讲师：</strong></p>
-<p>财富500强首席创新官，VMware网络事业部创始人，斯坦福客座讲师</p>
-<p>陈立武当年愿意加入英特尔做董事是因为Pat的原因，认为他可能改变英特尔，但Pat没有大刀阔斧地狠掉臃肿和机构，没有在执行力上面做得更好，我觉得他是对这方面失望，所以才离开了英特尔。</p>
-</blockquote>
-<p>原本不少人都期望着Pat Gelsinger激进的计划能改变英特尔的困境，但最终他就像新闻标题里说的一样，他也没能成功复兴这家美国的标志性公司。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_b18d754de3af496fb76c7e8fc9e6c947@132427329_oswg469745oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>07 未来何去何从？</strong></h2>
-<p>英特尔的未来到底该何去何从？不得不说，现在大家其实都还挺悲观的。</p>
-<blockquote>
-<p><strong>硅谷徐老师</strong></p>
-<p><strong>财富500强首席创新官</strong></p>
-<p><strong>VMware网络事业部创始人</strong></p>
-<p><strong>斯坦福客座讲师：</strong></p>
-<p>假设英特尔想找个人来把这家伟大的公司做好，我觉得英特尔的董事会没这个能力，而且现在我都不知道最优秀的人愿不愿意去接受英特尔CEO的位置。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_7cc15d9f5daa445483f6ef6417fc60c1@132427329_oswg621007oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<blockquote>
-<p><strong>张忠谋</strong></p>
-<p><strong>台积电创始人：</strong></p>
-<p>我不知道英特尔应该怎么办，他们是想找一个新的策略？还是要找新的CEO？好像两者都要，那这是很难的。英特尔既没有好的董事会，对未来的策略也没有定见。</p>
-</blockquote>
-<p>也有嘉宾认为，如果新任CEO有足够魄力，或许能改变英特尔的困境。</p>
-<blockquote>
-<p><strong>Ted Lu</strong></p>
-<p><strong>Berkeley Analog CEO</strong></p>
-<p><strong>英特尔/AMD早期设计经理：</strong></p>
-<p>就跟Lisa Su（苏姿丰）还没有到AMD之前，我也不确定英特尔未来会怎样，最后还是回到CEO这件事上，CEO找对人了两年就能看到结果，如果找错了人，两年以后还是一样的。</p>
-</blockquote>
-<p>有个小道消息，英特尔的前董事陈立武曾提出过，要找有着“硅仙人”称号的Jim Keller来当CEO，但被董事会拒绝了，不知道这次他能否重获提名呢？</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c18e9720e42942d0ada14e48f5bb1e49@132427329_oswg472397oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>没有公司会永远伟大，大公司的通病也许都一样，我们之前在波音那期内容也说过：</p>
-<p>当你成为市场第一的垄断者，永远追求利润但又不重视创新，当你的掌舵者不再是市场上最有远见的技术领袖，当你的控制者是一群不懂技术、只会维护短期利益的股东时，大公司的结局往往都逃不过衰败的命运。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a1e7e259a0b34868ae6e743474a36ef0@132427329_oswg448447oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>英特尔会就此衰落，还是绝处逢生，现在都是未知数。但有一点确定的是硅谷从来都不乏奇迹：曾经苹果如此、如今的AMD也如此。</strong></p>
-<p>英特尔能否创下另一个翻盘神话，就让我们一起期待下一任CEO的到来吧。</p>
-<p>本文来自微信公众号“硅谷101”，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155918488813061</guid><pubDate>Fri, 07 Feb 2025 11:21:00 +0800</pubDate></item><item><title>关于金融科技，你需要知道的20件事</title><link>https://36kr.com/p/3155274514726403</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>一、什么是金融科技？</strong></p>
-<p>金融科技指的是，在金融业业务经营运行中，通过信息化的手段，包括软件、硬件、网络等各种载体，帮助金融业务快速发展与服务升级。</p>
-<p><strong>二、国内金融科技的市场规模有多大？</strong></p>
-<p>国际知名机构Gartner提供的数据显示，在欧美成熟市场，金融科技的市场规模约为GDP的千分之一，而在我国，其只有万分之一。可见，金融科技在国内依然有极大的发展潜力。</p>
-<p><strong>三、国内金融科技的从业人员有多少？</strong></p>
-<p>根据国家统计局发布的第五次全国经济普查公报，全国金融业从业人员总数约为1300万人。从具体行业来看，金融业从业人员分布在货币金融服务（银行）、资本市场服务（证券、基金）、保险业和其他金融业（如金融租赁和信托）四大类机构。另外，乙方从业人员约1000万人左右。不考虑媒体、官方机构等，合计约2300万人。</p>
-<p><strong>四、金融科技最大的应用机构是？</strong></p>
-<p>从机构数量和行业影响力来说，银行是目前金融科技应用的最大市场和主要推动者。</p>
-<p><strong>五、谁是金融科技应用的受众群体？</strong></p>
-<p>这个范围非常的广。从常规的角度来说，所有的金融机构，包括银行、证券、保险等，他们的业务需要借助金融科技去展开；其次，一些监管机构和国家单位，也需要通过金融科技进行相关职责的行使；最后，随着互联网和移动互联网的发展，金融机构在业务办理上也有了许多线上渠道，因此每一个使用金融业务的个人用户，也是金融科技的受众。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,618" src="https://img.36krcdn.com/hsossms/20250206/v2_e82161f2a95c42b49c31d570a4153b84@5057403_oswg68085oswg1080oswg618_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>六、金融科技的行业生态中存在哪些角色？</strong></p>
-<p>监管机构（金融监管总局、人行）、甲方（各家机构）、乙方（各类厂商）、媒体（官媒及自媒体等）、活动方（有时是政府）、其他角色（外部资本等）等。</p>
-<p><strong>七、一个金融科技项目，通常由哪些要素（或人员）组成？</strong></p>
-<p>一个to B的金融科技项目，通常包含这些角色：甲方的KP、甲方的业务对接人、甲方的技术对接人、甲方的采购、乙方的商务对接人、乙方的项目经理、乙方的交付人员、乙方的技术支持人员等等，有时还会伴随第三方机构和咨询人员等。</p>
-<p><strong>八、金融科技的细分领域</strong></p>
-<p>（1）按技术类型分类，可以分为AI（用于风险评估、智能投顾、客户服务）数据应用（数据处理、分析和应用，支持决策和风险管理）、区块链技术（数字货币、智能合约、供应链金融等）、云计算、物联网IoT（智能支付、智能风控、设备互联）、隐私计算与数据安全、无代码开发与低代码平台、元宇宙与虚拟技术（数字银行、虚拟客服）等；</p>
-<p>（2）按应用业务方向分类、可以分支付与清结算（第三方支付、跨境支付、数字货币）、存贷款与融资（网络借贷、供应链金融、普惠金融）、投资管理（智能投顾、量化投资、财富管理）、保险业务（智能保险、健康保险、物联网保险）、市场支持（交易系统、清算系统、监管科技）等；</p>
-<p>（3）按项目类型分类，可分为数据应用、系统集成、国产化适、硬件IoT、监管科技等。</p>
-<p><strong>九、目前最前沿的金融科技技术有哪些？</strong></p>
-<p>从近年来的采购情况看，比较火的前沿技术有大模型类、大数据类、虚拟技术类、国产化改造、信息安全类等。</p>
-<p><strong>十、金融科技近年的行业现状如何？</strong></p>
-<p>目前来说，国内金融科技存在一定的发展瓶颈，核心的原因还是在于大语言模型、虚拟技术等前沿技术在业务侧的落地情况不符预期。因此，甲方大多把精力用于过往系统的维护和国产化改造上。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,717" src="https://img.36krcdn.com/hsossms/20250206/v2_e2877d294a194f54b594c4c57a9ebe23@5057403_oswg64858oswg1080oswg717_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>十一、目前金融科技在技术创新上遇到哪些困难？</strong></p>
-<p>（1）甲方预算低，动力不足；</p>
-<p>（2）行业技术遇到瓶颈，规划难以落地；</p>
-<p>（3）市场竞争激烈，乙方没有充足的精力用于创新；</p>
-<p>（4）整体行业还是在B端为主，盘子不够大。</p>
-<p><strong>十二、国内金融科技与国外金融科技发展的差距有多大？</strong></p>
-<p>单论技术能力而言，并不大。主要的区别在于：</p>
-<p>（1）国内与国外，在金融体系成熟度上有很大的差距；</p>
-<p>（2）国内与国外，在意识形态上有较大的差距，国内主要以甲方牵头；</p>
-<p>（3）综以上两点，造成国内甲乙方在商业上的地位不平等，乙方的持续盈利能力较差，技术创新不足。</p>
-<p><strong>十三、关于金融科技出海</strong></p>
-<p>金融科技业务是先天的全球性业务。具有一定规模和服务能力的公司，一定要把目光放到海外。虽然海外的竞争也非常激烈，但是较为成熟的金融体制和人力成本差距依然可以让国内的金融科技企业从中获利。当然，不同国家和地区的监管、法律、货币和文化也会带来极大的挑战。</p>
-<p><strong>十四、金融科技解决方案的价值在哪？</strong></p>
-<p>目前，国内金融机构的业务改革有两大动力：监管推动与业务痛点。其中，监管推动是刚性、剧烈的，而业务痛点是长期的。在这个过程中，存在监管机构与业务机构之间的信息差与时间差，也存在业务机构与业务机构之间的竞争。只要这些客观情况存在，金融科技解决方案就要去进行优化，这就是其最大的价值。</p>
-<p><strong>十五、银行科技子公司会对金融科技公司带来怎样的冲击与机会？</strong></p>
-<p>首先，银行科技子公司在商业化经营的过程中，并不完全具备对大部分项目进行独立交付的能力，从而使得原来的交付方从乙方成为了丙方；其次，银行科技子公司的成立，代表着金融机构对金融科技的重视与持续看好，从行业维度来说，这是加入了“鲇鱼效应”，对行业整体发展有利；最后，金融科技公司需要用好这一波冲击，沉淀自身优势，并进行相应的服务与能力升级，以更好地应对后续的市场竞争及为客户提供更优质的服务。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20250206/v2_5bb835c05a3f4241964decfa493b245c@5057403_oswg60334oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>十六、金融科技在实践中如何平衡创新与风控？</strong></p>
-<p>在金融科技创新落地过程中，很多乙方面临的挑战就是在双方约定的创新方案下，甲方不愿意承担此部分创新所带来的业务风险，从而导致项目停滞或终止。当然，这也无可厚非。从平衡创新和风控的目标来看，乙方至少应该从以下方面多花一些心思：</p>
-<p>（1）强化数据治理与合规，特别是客户数据，这是金融机构的红线；</p>
-<p>（2）构建数字化风控体系，在自身产品和解决方案设计中，就杜绝业务风险的产生；</p>
-<p>（3）加强人才队伍建设，金融科技的发展依赖于既懂金融又懂技术的复合型人才，人员专业性和职业性的培训来自于人员制度的建立；</p>
-<p>（4）加强与监管机构的沟通，有所为和有所不为。</p>
-<p><strong>十七、金融科技与信息安全（客户数据）之间如何平衡？</strong></p>
-<p>数据是信息安全和风控的核心。无论是任何业务方向的金融科技应用服务，都应该建立一套自己的数据安全应用体系，或者使用目前较为流行的MD5等国标加密算法。</p>
-<p><strong>十八、监管科技会成为金融科技的热门领域吗？</strong></p>
-<p>从制度上来看，业务合规是金融机构最核心的业务出发点，也是各家行最关注的业务目标。因此，监管科技无论何时都是金融科技的热门领域，比如信创就是一种典型的监管科技。</p>
-<p><strong>十九、如何应对金融科技发展带来的系统性风险？</strong></p>
-<p>这是一个亘古的话题。也是马云当年在外滩金融峰会上所提出的“激烈”观点。金融业务的发展依赖于金融科技，而金融业务的发展受制于金融制度，在制度的管束下就能够规避系统性风险，这是一种求同存异的共生关系。同样的，金融科技的发展也需要在金融制度的管控下进行，否则将会造成不可估量的巨大损失。</p>
-<p><strong>二十、金融科技的未来发展趋势会如何？</strong></p>
-<p>从过去三十年各家机构信息化转型的过程来看，金融科技在未来的应用将会呈现以下趋势：</p>
-<p>（1）关注数据价值，现在的存粹、算力和算法模型都达到了较高的水准，可以通过一些项目将数据资产进行应用，推动业务升级发展；</p>
-<p>（2）开发环节会减少，或者说人力开发的环节会减少。随着各个信息化系统的完善和大模型等技术的进步，纯粹的人工代码编写将成为未来效率较低的技术环节，无论是甲方还是乙方人员，都会通过库、模型或其他的工具进行开发任务的辅助。这也意味着一些厂商不再需要太多的基础开发工程师，而运维人员的需求将会大幅上升；</p>
-<p>（3）金融科技服务商的价值将会转变，至少不再提供纯粹的技术服务，甲方更关注其行业专业性与业务指导性。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/nS46YI9SBPUzGfvaqdbgBg" rel="noopener noreferrer nofollow" target="_blank">“楼卓昊Fintech”</a>，作者：楼卓昊，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155274514726403</guid><pubDate>Fri, 07 Feb 2025 11:32:00 +0800</pubDate></item><item><title>托管模式能否托起华天酒店的一片天？</title><link>https://36kr.com/p/3155879417298692</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>忙于解决同业竞争而频频托管控股股东相关酒店的华天酒店，依然难挡连续三年迎来亏损的局面。</p>
-<p>在诸多酒店类上市公司营利和规模保持正向增长时，华天酒店疲态尽显。其坚守的“自营+托管”模式的酒店经营策略，暂未帮助昔日老牌民族酒店品牌走向复兴。</p>
-<p>而在酒店行业追求专业化、细分化，各大酒店集团寻求精益增长的市场背景下，华天酒店却尝试由专业酒店集团向综合类优质大生活服务企业集团转型，试图跳出酒店维度突围。</p>
-<p>任何企业进行多元布局的前提在于主业足够强势。至少截至到当下，华天酒店这条升级之路，依然充满着不确定性。</p>
-<h2><strong>01 一直在解决的同业竞争</strong></h2>
-<p>因同业竞争进行托管——类似的表述，在华天酒店披露的公告中已经多次出现。</p>
-<p>前两天，华天酒店发布公告提到，为更好地解决控股股东湖南旅游发展投资集团有限公司（以下简称“湖南旅游集团”）的同业竞争问题，对涉及的8家酒店实施一体化管理、加快资源的有效整合，公司与湖南旅游集团全资子公司湖南阳光资产经营管理集团有限公司（以下简称“阳光集团”）签署《股权托管协议》。</p>
-<p class="image-wrapper"><img data-img-size-val="788,442" src="https://img.36krcdn.com/hsossms/20250207/v2_831a1a8a424d4810a2ea96f2db5784d8@5544318_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p class="img-desc">▊ 华天酒店公告</p>
-<p>本次交易不发生任何资产权属的转移，华天酒店仅受托管理7家企业股权及1家企业代管权并收取托管费用。</p>
-<p>早在2023年9月，华天酒店也有类似的动作。彼时，华天酒店受托管理阳光集团旗下的湖南阳光酒店管理有限公司的80%股权。</p>
-<p>频频进行托管的主要原因在于湖南当地进行国资改革，使得华天酒店的控股股东不断发生变更和调整。</p>
-<p>《酒管财经》注意到，2021年5月，华天酒店控股股东由华天集团变更为兴湘集团。六个月后，其控股股东便由兴湘集团变更为湖南酒店旅游发展集团有限责任公司。而后者后续又连续经历两次改名，最终确定为湖南旅游集团。</p>
-<p>直至现在，因为同业竞争带来的托管动作还没有结束，后续可能还会延续。</p>
-<p>改革往往带来阵痛。至少到目前，这种变革尚未带来业绩上的显性改变。</p>
-<p>华天酒店在春节前发布的业绩预告显示，公司2024年归母净亏损约1.73亿元至2.08亿元，同比增亏37.76%至65.63%。原因系酒店主业受低效酒店出表，市场竞争加剧客单价下降等因素影响。</p>
-<p>对于大多数上市公司来说，解决同业竞争的举措大多为控股股东剥离相关资产，或者直接注入上市公司等。对于上述8家酒店，华天酒店采取了折中的办法。很早之前，就有行业人士分析，上市公司未选择直接注入，或与资产状况有关。不过，华天酒店未在相关公告中披露上市酒店的经营情况。</p>
-<p>事实上，上述相关资产优质与否，对于采用托管模式的华天酒店来说，并无太大关系。毕竟后者收取的托管费用是一门旱涝保收的生意，尽管这笔收益在整个公司净亏损的面前微乎其微。</p>
-<h2><strong>02 托管模式托举华天？</strong></h2>
-<p>单说华天酒店的酒店业务，“自营+托管”模式是其核心经营策略。而结合该公司资产谋轻的发展战略，后续的托管业务势必会逐渐加码。</p>
-<p>但是，仅从数据来看，华天酒店自营酒店数量几乎陷入停滞：2019年为15家，2023年为17家。而其托管酒店数量，则在震荡中下滑：2019年为43家，2023年23家。</p>
-<p>对于一家主营高端酒店的酒管集团来说，自营酒店的盈利能力是其他业主选择托管与否的重要参考指标。</p>
-<p>以2024年上半年财报为例。该公司主要参股的7家公司中，主要业务为住宿和餐饮业的为6家。仅有湖南华天酒管有限公司和株洲华天大酒店有限责任公司实现盈利，另外四家均处于亏损状态。</p>
-<p class="image-wrapper"><img data-img-size-val="905,461" src="https://img.36krcdn.com/hsossms/20250207/v2_5eb7008c8cc64edbbca0fe1eeb40e0af@5544318_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p class="img-desc">▊ 华天酒店2024年半年报</p>
-<p>比如，湖南华天大酒店有限公司，营收为3952万元，营业利润为-1193万元，净利润为-1191万元；长春北方华天酒店管理有限公司营收为2105万元，营业利润为-1040万元。</p>
-<p>《酒管财经》注意到，华天酒店的财报鲜有对酒店核心经营数据（ADR/OCC/RevPAR）的相关披露。而对于锦江酒店、华住集团、首旅酒店、万达酒店及度假村等同类酒店上市公司，上述数据指标几乎都是悉数公开。</p>
-<p>《酒管财经》始终认为，放在同一水平线线，对于高端酒店来说，只有自营/直营酒店的经营数据优于委托经营/委托管理的门店，委托经营/委托管理门店经营数据优于特许经营门店，才能更好体现出一家高端酒管集团的自身价值。</p>
-<p>而华天酒店来说，自身常年处于亏损的状态，势必会对其“托管”大业产生影响。</p>
-<p>从数量上讲，华天酒店的托管门店在缩水。2019年托管门店为43家，到了2024年上半年，其托管酒店数量降至22家。</p>
-<p>此前就有投资者和业主跟《酒管财经》提及，如果一家酒管集团的自营、直营门店做的都是一塌糊涂，自己又怎么放心将酒店委托给它们管理。</p>
-<p>其实，对于包括华天酒店在内的、尝试谋轻的高端酒店管理公司来说，并不一定非得把鸡蛋都放在“委托管理”身上，特许经营也是重要的发展路径。</p>
-<p>《酒管财经》此前曾以投资者身份向华天酒店董秘办咨询特许经营事宜。华天酒店工作人员表示，公司暂时没有这一想法，原因之一是担心对方经营和管理与华天酒店的牌子不匹配，对华天酒店品牌产生不好的影响。</p>
-<p>事实上，全球酒店业中的特许经营模式已经非常成熟。而在本土市场，国际酒店集团在大中华区的特许经营力度正在逐步加大，开放品牌已经蔓延至高端品牌。</p>
-<p>本土高端酒管集团也有诸多类似的动作。通过管理、运营和技术手段，大概率可以抵消上述消极的影响和担心。</p>
-<p>不过，从投资者的角度来说，市场上能供选择的高端酒店品牌越来越多，投资者早已成为合作双方中更为主动的一方。如果一个品牌没有足够的势能打动投资者和准业主们，其势必会被市场逐渐边缘化和淘汰。</p>
-<p>回归到华天酒店，其核心影响力更多集中在湖南区域，市场对其定位更多为区域酒管集团。如果不能实现门店点位上的全国化或泛全国化布局，未来前景更具有不确定性。</p>
-<p>并且，从大家都在关心的会员体系来看，已经而立之年的华天酒店，累计会员为300余万（截至2024年上半年）。而在同时期，万达酒管会员数量为1500万，德胧酒店集团为2700万，亚朵酒店为7600万。这种差距显而易见。</p>
-<p>结合华天酒店的财务状况和发展战略，大规模地扩大自营酒店数量的可能性几乎为零。其酒店板块只能押宝“托管”。只是，当下的托管模式能够托举华天么？</p>
-<h2><strong>03 做专还是做泛的抉择</strong></h2>
-<p>华天酒店拥有耀眼的历史：湖南省首家五星级酒店，先后荣获湖南省五星级涉外饭店、五星钻石奖酒店、国际金钥匙会员酒店、中国驰名商标等。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250207/v2_5f329fcf215540e0b199a652744d25c5@5544318_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p class="img-desc">▊ 华天酒店</p>
-<p>但是，华天酒店在多次业务转型中都错失了机遇，使得该公司自2014年至2023年连续10年扣非净利润均为负数。结合2024年的业绩预亏公告，这一记录有望得以延续。</p>
-<p>这也导致华天酒店股东质疑公司管理层水平。</p>
-<p>华天酒店去年在审议《2024 年第三季度报告》时，华天酒店董事向军就投出了反对票，提到 “对公司管理层的经营结果不满意。公司营收持续下滑，管理层未提出扭转此趋势的思路和方案。”</p>
-<p>其实，华天酒店在这两年一直都在谋求转型。除了酒店业务整体向轻之后，整个上市公司层面寻求酒店主业与新兴产业的双轮驱动，公司也由专业酒店集团向综合类优质大生活服务企业集团转型升级。</p>
-<p>如何理解这个战略呢？通俗地讲，就是多元化。</p>
-<p>华天酒店的新兴产业，指的是生活服务业板块等。包括洗衣、家政、物业、团餐等，服务对象有酒店、金融机构、各类学校、企业、机关单位、医疗机构、航空系统等，为社会各界提供衣物及鞋包洗护、酒店布草洗涤、物业管理、膳食经营管理及上下游配送一体化服务。</p>
-<p>《酒管财经》认为，这种经营战略转型可以形成逻辑闭环。华天酒店以酒店起家，在洗衣、物业管理以及餐饮上积累了很多经验。把原本经营一家酒店的各个细分业务都单拎出做大做强，可以从市场上分来一些蛋糕。</p>
-<p>只是，在具体实践中，该战略落地具有很大的挑战性。</p>
-<p>以团餐业务为例。如果华天酒店面向酒店之外的服务对象提供团餐服务，它的竞争对手将是行业内专业团餐企业，如中快、麦金地、千喜鹤等。坦言之，华天酒店想在团餐领域与这些巨头掰手腕，可能还得再储备一些时间和经验。</p>
-<p>并且，企业在执行多元化战略的前提是主业足够强势和专业，能够为周边相关业务赋能和加分。</p>
-<p>当下，华天酒店的酒店业务并未展现出足够的高成长性和深护城河。此时选择多元化经营，或许会分散其对主业的资源倾斜和支持力度。</p>
-<p>当岁月的时针拨到了2025年，华天酒店也将迎来37岁生日。从全球企业平均寿命来看，这早已不是“中年阶段”。期待华天酒店能够刀刃向内，再迎新生。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/4LUVu-Fr3ZzUYjP4ilcD4Q" rel="noopener noreferrer nofollow" target="_blank">“酒管财经”</a>，作者：劳殿，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155879417298692</guid><pubDate>Fri, 07 Feb 2025 11:42:00 +0800</pubDate></item><item><title>坐拥62个IPO的苏南小县，诞生2025年最大一笔融资</title><link>https://36kr.com/p/3156010894055938</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>藏不住了，一头超级独角兽揭开了神秘面纱。</p>
-<p>近日，三维多芯片集成技术龙头盛合晶微半导体有限公司（以下简称“盛合晶微”）宣布，面向耐心资本的7亿美元定向融资已高效交割。本次新增投资人包括无锡产发科创基金、江阴滨江澄源投资集团、上海国投孚腾资本、上海国际集团、上海临港新片区管委会新芯基金及临港集团数科基金，以及社保基金中关村自主创新基金、国寿股权投资、Golden Link等。</p>
-<p>眼下一级市场节奏放缓，市场融资异常艰难，一举逆势融资超50亿元人民币的盛合晶微，也是开年最大一笔融资。</p>
-<p>更具有意义的一幕是，培育孵化出这头独角兽的并非一线城市北上广深，而是来自一个苏南小县——由无锡市代管的江苏省辖县级市，江阴。</p>
-<p>盛合晶微原名为中芯长电半导体有限公司，于2014年由中芯国际和长电科技联合创立，落户江阴高新技术产业开发区。而联合创办方之一的长电科技，前身为江阴晶体管厂，正是成长于江阴的中国半导体行业的领军企业之一。</p>
-<p>含着金汤匙出生的盛合晶微，也早早定下了要冲击二级市场的规划。</p>
-<p>2023年，盛合晶微在江苏证监局进行辅导备案登记，拟首次公开发行股票并在科创板上市。此次引进国资投资的巨额融资，也是盛合晶微为推进上市的筹划。</p>
-<p>如盛合晶微董事长兼首席执行官崔东先所言，“本次增资是在公司推进上市过程中快速完成的，将有针对性地引入坚定看好和愿意长期支持公司发展的耐心资本和产业资本，借以改善和优化公司股权治理结构，并结合公司长期发展规划布局，引入无锡市和上海市两地国资投资，为公司长期发展注入新动能，也有利于公司与产业链生态的紧密协作，必将有力地推动公司继续保持快速发展的新态势，在人工智能和数字经济发展新机遇下创造更大的价值，做出更大的贡献！”</p>
-<p>倘若顺利，2025年二级市场也将迎来一个超级独角兽IPO。</p>
-<p>与此同时，也意味着二级市场的“江阴板块”将再添一名成员。一份截至2024年10月的数据显示，江阴全市累计境内外上市公司总数达62家，A股上市公司数量全国县级市第一，市值共计2474.53亿元，其中5家公司市值超过百亿元，8家上市公司入围全国制造业500强。</p>
-<p>而这，也不过是江阴这座超级县城在金融市场的冰山一角。</p>
-<h2><strong>无锡、上海国资</strong></h2>
-<h2><strong>入局超级独角兽</strong></h2>
-<p>这头低调的独角兽有何来头？</p>
-<p>官方信息显示，盛合晶微半导体有限公司于2014年8月注册成立，是以集成电路前段芯片制造体系和标准，采用独立专业代工模式服务全球客户的中段硅片制造企业。</p>
-<p>以先进的12英寸凸块和再布线加工起步，公司致力于提供优质的中段硅片制造和测试服务，并进一步发展先进的三维系统集成芯片业务。公司总部位于中国江阴高新技术产业开发区，在上海和美国硅谷设有分支机构，服务于国内外先进的芯片设计企业。</p>
-<p>和其他半导体独角兽企业一样，盛合晶微有着不一般的出身——盛合晶微原名为中芯长电，由中国大陆领先的集成电路晶圆代工企业中芯国际和著名的封测厂商长电科技联合创立，是中国大陆首家专注于12英寸中段凸块和硅片级先进封装的企业。</p>
-<p>由“晶圆代工巨头”中芯国际和“集成电路封装测试龙头”长电科技联手而成的“中芯长电”，自成立起便备受瞩目，而从“中芯长电”改名为“盛合晶微”，背后却不免谈及一段心酸事。</p>
-<p>2020年12月，美国商务部工业和安全局（BIS）将中国中芯国际半导体制造有限公司（SMIC）列入实体名单。BIS声称采取这一行动是为了保护美国国家安全，涉及中国军民融合（MCF）原则，认为中芯国际与中国军事工业联合体有相关交集。</p>
-<p>中芯国际和部分子公司及参股公司中芯长电，被列入了“实体名单”。</p>
-<p>即便无奈，但囿于此，中芯国际还是选择壮士扼腕，在2021年4月22日发布公告称，拟转让中芯长电55.87%股份。以通过剥离业务的手段，来规避中芯长电“黑名单”问题，从而助力其在芯片先进封装工艺上持续发展。</p>
-<p>进而在2021年4月29日，中芯长电半导体有限公司更名为盛合晶微半导体有限公司。</p>
-<p>同年10月，盛合晶微宣布，与系列投资人签署了总额为3亿美元的C轮增资协议，并已实现美元出资到位。参与增资的投资人包括光控华登、建信股权、建信信托、国方资本、碧桂园创投、华泰国际、金浦国调等，既有投资人元禾厚望、中金资本、元禾璞华也参与了本次增资。</p>
-<p>增资完成后，公司的总融资额将达到6.3亿美元，投后估值超过10亿美元。</p>
-<p>换言之，在2021年，盛合晶微便晋升独角兽行列。</p>
-<p>2023年，这头独角兽继续发育壮大。2023年3月29日，盛合晶微C+轮融资首批签约完成，目前签约规模达到3.4亿美元，其中美元出资已完成了到账交割，境内投资人将完成相关手续后完成到账交割。</p>
-<p>参与签约的投资人包括君联资本、金石投资、渶策资本、兰璞创投、尚颀资本、立丰投资、TCL创投、中芯熙诚、普建基金等，元禾厚望、元禾璞华等既有股东进一步追加了投资。在C+轮增资完成后，盛合晶微的历史总融资额将超过10亿美元，估值将近20亿美元。</p>
-<p>2025年开年，这头独角兽又吞下了50亿元巨额融资，虽然估值暂未披露，但可以肯定的是，这已是一头百亿超级独角兽。</p>
-<p>在此次融资中，盛合晶微引入了无锡市和上海市两地国资投资，如其所言，“结合公司长期发展规划布局，引入无锡市和上海市两地国资投资，为公司长期发展注入新动能，也有利于公司与产业链生态的紧密协作。”</p>
-<h2><strong>孵于江阴</strong></h2>
-<p>由上述不难得知，盛合晶微是两个巨头“强强联合”打造的品牌，那为何当初会选择落户江阴呢？</p>
-<p>这需要从半导体产业链说起。</p>
-<p>自晶圆代工模式于20世纪末诞生以来，半导体产业便分化为制造、设计和封测这三大关键环节。</p>
-<p>其中，芯片制造环节，也就是所谓的“前道”工序，汇聚了像台积电、中芯国际这样的领军企业。而封装测试环节，因其涉及将芯片制造厂商产出的裸片进行封装，并完成最终产品形态的测试，故被称作“后道”，长电科技等企业便是这一领域的佼佼者。</p>
-<p>以往，晶圆代工厂专注于芯片制造这一核心业务，虽与封装测试环节存在合作，却鲜少独立拓展后道技术。然而，随着半导体工艺逼近物理极限，新型封装技术逐渐崭露头角，成为提升芯片集成度的关键途径。</p>
-<p>特别进入二十一世纪后，芯片性能的飞速提升对速度和功耗提出了愈发严苛的要求，这使得芯片制造前道与封装测试后道的融合变得刻不容缓。顺应这一趋势，中芯国际与长电科技于2014年8月携手宣布，双方正式签约，共同打造具备12英寸凸块加工及配套晶圆芯片测试能力的中芯长电，开启了双方在半导体产业链深度合作的新篇章。</p>
-<p>彼时选择将中芯长电落户于江阴高新技术产业开发区，背后也有诸多考量。</p>
-<p>首当其冲的是，长电科技便是江阴本土企业，除了长电科技在当地的就近加持外，江阴还拥有着独特的区位优势和成熟的产业环境。</p>
-<p>于是，落户江阴后，中芯长电快速建立起凸块加工、晶圆芯片测试为主的中段生产线，并利用长电科技就近配套的倒装先进后段封装生产线，为40纳米、28纳米及以下先进工艺的终端芯片服务，加上中芯国际正在建设的12英寸前段先进工艺技术芯片加工生产线，这条国内首个完整的12英寸先进集成电路制造本土产业链，大幅缩短了芯片从前段到中段及后段工艺之间的运输周期，也更贴近了中国这一全球最大的移动终端市场。</p>
-<p>在中芯国际和长电科技的强强联手之下，中芯长电发展势头强劲，不仅在2016年初实现了28纳米硅片凸块加工的量产，在高密度铜柱凸块的接触电阻控制等关键技术指标上，达到业界领先水平，形成独特的竞争优势，且具备能力为美国高通公司提供14纳米硅片凸块量产加工，成为中国大陆第一家进入14纳米先进工艺技术节点产业链并实现量产的半导体公司。截至2020年12月31日，中芯长电的总资产已达到4.78亿美元。</p>
-<p>尽管在2021年因“实体清单”飞来横祸，遭受了发展打击。但中芯国际在主动选择剥离中芯长电业务后，盛合晶微也迎来了自己的新生。</p>
-<p>自2014年起就致力于12英寸中段硅片制造的盛合晶微，并进一步提供晶圆级先进封装和多芯片集成加工等全流程的先进封装测试服务，其终端产品广泛应用于高性能运算、人工智能、数据中心、汽车电子、智能手机、5G通信等领域。在人工智能爆发、数字经济建设持续推进的大趋势下，盛合晶微着眼未来，持续加大研发创新投入，致力于三维多芯片集成先进封装技术的迭代发展，不断突破技术瓶颈，目前已形成了全流程芯粒多芯片集成加工的完整技术体系和量产能力。</p>
-<p>公司数据显示，2023和2024年，盛合晶微连续两年营收大幅增长。</p>
-<p>根据Yole市场研究报告，盛合晶微是全球封测行业2023年收入增长最高的企业。根据CIC灼识咨询《全球先进封装行业研究报告》有关2023年中国大陆地区先进封装行业统计，盛合晶微12英寸中段凸块Bumping加工产能第一，12英寸WLCSP市场占有率第一，独立CP晶圆测试收入规模第一。截至2024年度报告发布之日，盛合晶微是大陆唯一规模量产硅基2.5D芯粒加工的企业。</p>
-<p>与盛合晶微的成长相对应的，也是江阴在半导体产业的布局支持。</p>
-<p>江阴半导体产业的崛起，离不开江阴精神的引领和产业集群的推动。全球第三，中国第一的半导体封测龙头企业“长电科技”便坐落江阴，以其强大的实力引领着整个地区的发展，如长电科技便带出了一个“盛合晶微”。</p>
-<p>如今的江阴半导体产业，不仅拥有长电科技、盛合晶微这样的行业翘楚，更构建了一个完整的IC产业链，涵盖了IC设计、制造、封装测试以及配套材料辅料等多个环节。</p>
-<h2><strong>庞大的“江阴板块”</strong></h2>
-<p>盛合晶微落户江阴，一点也不让人意外。</p>
-<p>如无意外，正积极推进上市事宜的盛合晶微，也将成为“江阴板块”中第63位成员。江阴这个拥有178万人口的苏南小县，到现在已经跑出了62家上市企业。</p>
-<p>最新一幕发生在2024年10月23日，江阴利邦厨具有限公司成功登陆美国纳斯达克证券交易所。据悉，利邦厨具是“江阴板块”第62位成员，也是江阴首家美股上市公司。</p>
-<p>回想仅三十年前，江阴便已经有了金融资本的意识。1996年底，江阴第一次“资本经营工作会”召开，八大知名券商被一起请到江阴，与当地政府、企业共谋出路。随后，一个名为“企业股份上市指导小组”的政府机构出现在江阴，其主要任务是提供资产评估、审计确认、股权转让、土地处置、项目报批等行政审批服务；建立上市后备资源库和相应的工作机制，物色和储备有条件上市的后备企业；与银行、创投、私募基金等金融机构对接业务……</p>
-<p>受益于“政府引导、企业自主、市场运作、政策扶持”的金融工作运作机制，“江阴板块”很快便迎来了首位成员。</p>
-<p>1997年2月28日，来自江阴的“兴澄股份”以解决股份制改革历史遗留问题的方式，获准在深交所挂牌上市，成为江阴辖区第一只股票。1999年11月，模塑集团受让兴澄股份全部法人股，并于2000年，“兴澄股份”正式变更为“模塑科技”。</p>
-<p>“兴澄股份”拉开了江阴地区企业上市的序幕，也加速了苏南小城江阴企业转型升级、实施资本经营的发展道路。</p>
-<p>江阴在2022年4月发布的《“江阴板块”高质量发展五年行动计划》中提到，打造以先进制造业为底色、战略性新兴产业为特色的“江阴板块”；明确以“资本+产业”融合推动“江阴板块”高质量发展，力争到“十四五”末，全市实现上市公司累计达75家，全国中小企业股份转让系统挂牌企业累计达70家，上市挂牌企业数量保持全国同类城市领先地位，上市挂牌企业直接融资总额破1500亿元。</p>
-<p>在2024年3月，江阴再次出台 《关于进一步促进上市公司高质量发展的实施意见》（以下简称“《意见》”）。《意见》分指导思想、总体目标、政策措施和其他事项4个部分，围绕全市“十四五”时期的总体要求，全力构建上市公司高质量发展新局面。到2025年，上市公司质量持续提升、领航作用持续凸显、创新能力显著增强、规范化运作水平进一步提高。</p>
-<p>拥有上市公司62家，这是江阴阔步向前的底气。</p>
-<p>江阴力争借助资本运作的利器，兼并重组同类企业、产业链上下游企业，吸引配套企业和关联企业集聚，为上市公司注入新资产、新技术、新业态，才能加速提升企业竞争力、抢占行业制高点。</p>
-<p>2025年，A股最强县在开年就出现了一家上市后备企业“盛合晶微”，除了盛合晶微外，江阴这片土地上还能跑出几个IPO，无疑也备受外界瞩目。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/E8DxQtCaWEaDKVyIMz5ivg" rel="noopener noreferrer nofollow" target="_blank">“融中财经”</a>，作者：冯晓亭，编辑：吾人，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3156010894055938</guid><pubDate>Fri, 07 Feb 2025 11:48:00 +0800</pubDate></item><item><title>零售的风向可能已经变了</title><link>https://36kr.com/p/3156005664545538</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 07 Feb 2025 12:30:21 +0800</lastBuildDate><pubDate>Fri, 07 Feb 2025 12:30:21 +0800</pubDate><item><title>零售的风向可能已经变了</title><link>https://36kr.com/p/3156005664545538</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>零售行业的风向，正在悄然生变。</p>
 <p><strong>2024年前三季度，快消行业电商市场份额小幅下滑0.6%，出现了有史以来首次负增长，而线下渠道前三季度销售额同比上扬1.8%。</strong></p>
 <p>商务部和国家税务总局的相关数据显示，今年春节期间，部分零售渠道延续了向好的趋势。其中，百货零售和便利店的销售收入同比分别增长了5.2%和16.1%，超过了或接近网上零售额5.8%的同比增长。</p>
@@ -925,4 +195,228 @@
 <p>过去，好莱坞大片早已通过衍生品收入实现了 IP 价值的最大化，例如《星球大战》系列的授权商品收入达到 422.17 亿美元，是其票房收入的四倍；2019 年《变形金刚 5》即便口碑不佳，衍生品销售却异常火爆；《冰雪奇缘》系列 6 年创造了 113 亿美元的收入，其中 95.75 亿美元来自衍生品，占比达 85% 。</p>
 <p>与之相比，中国电影行业在衍生周边开发方面的潜力还有极大挖掘空间。而伴随着《哪吒之魔童闹海》的登顶，这一现状应该很快会迎来改善。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkyNzMwMTc1OA==&amp;mid=2247516951&amp;idx=1&amp;sn=ea623cb97d822a512efc71ad515ee087&amp;chksm=c3e4eb46248de41f5d91b0953de7fca9316fa23d8cab1dacff7463983ce190aed6aecbb78eec&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“锌刻度”（ID：znkedu）</a>，作者：李觐麟，编辑：黎文婕，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155980373039881</guid><pubDate>Fri, 07 Feb 2025 11:59:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155980373039881</guid><pubDate>Fri, 07 Feb 2025 11:59:00 +0800</pubDate></item><item><title>2025年了，汽车金融还是好产品吗？</title><link>https://36kr.com/p/3155976896085760</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>如果你在近几年买过车，一定遇到过这样的局面：全款买车销售置之不理，如果办个分期，哪怕只是办个三五万的分期，销售也会笑脸相迎，甚至在总价上还能再商量商量。作为一种特殊的银行贷款产品，车贷可以说伴随着整个中国汽车消费行业的发展。数据显示，2024年汽车金融行业规模将突破5万亿，渗透率接近70%。也就是说，10个买车的人里，7个都在做分期。</p>
+<p>汽车金融定义有广义与狭义之分，其中狭义的汽车金融指在汽车销售阶段为汽车购买者及销售者提供的金融服务，可分为零售汽车金融和经销商汽车金融。而零售汽车金融指为消费者购买新车或二手车提供的金融服务，包括新车贷款、二手车贷款、融资租赁（售后回租、直租）。随着人均收入水平的提升和消费能力的提高，我国汽车消费群体逐步成熟，在整体汽车市场逐步走向成熟的同时，作为价值链升值链条环节的汽车金融得到了有效增长。</p>
+<p class="image-wrapper"><img data-img-size-val="657,388" src="https://img.36krcdn.com/hsossms/20250207/v2_b8a77772c03c47f186b69431764b94ba@5057403_oswg37402oswg657oswg388_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：汽车金融分类情况</p>
+<p>汽车金融行业主要有商业银行、汽车金融公司、融资租赁公司、互联网平台四类机构参与者，各有自身优势。2022年，在我国汽车金融市场中，商业银行（银行贷款和信用卡）占据了汽车金融市场中的54.49%，汽车金融公司占据了市场的29.02%，融资租赁及互联网金融公司合起来占据了总市场的16.5%左右。</p>
+<p class="image-wrapper"><img data-img-size-val="433,332" src="https://img.36krcdn.com/hsossms/20250207/v2_4399ac0996d84aeaaae922aef3770ae0@5057403_oswg19076oswg433oswg332_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：近年中国汽车金融行业规模</p>
+<h2><strong>1 汽车金融火爆的背后是汽车行业整体“内卷”</strong></h2>
+<p>汽车金融行业作为汽车产业链中的重要一环，近年来发展迅速，预计未来几年，随着中国汽车市场的持续发展和消费者购车需求的不断增加，汽车金融市场的规模将继续保持快速增长的趋势。</p>
+<p>2025刚开年，车圈就掀起了轰轰烈烈的“价格战”。值得注意的是，在官方直降、现金红包、置换补贴、国补地补兜底等划算“大礼包”中，以零首付、分期折扣、贴息返利为主的金融优惠政策，已成为各大车企招揽顾客时不可或缺的手段。</p>
+<p>根据相关统计，包括比亚迪、吉利、特斯拉、小鹏、深蓝、广汽埃安等知名车企在内，陆续推出了一系列的金融优惠政策，旨在刺激消费者在春节前下定，为新的一年开个好头，也为全年业绩奠定基石。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,578" src="https://img.36krcdn.com/hsossms/20250207/v2_5a715952ad414ee581c50c210f4e4cd3@5057403_oswg375367oswg1080oswg578_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：特斯拉官网金融优惠服务</p>
+<p>“互联网的尽头是放贷”。这句话，用在汽车行业身上也不违和。比起“吃力不讨好”的卖车业务，顺带兜售的金融优惠政策不仅投入少、不累人，还是一门“油脂”非常丰盈的生意。比如，长安汽车金融公司1月11日公布的“喜报”显示，其2024年实现营业收入57.8亿元，同比增长34.32%，连续五年上榜重庆市企业100强、重庆市服务业企业100强。而据其2024年前三季度的财务数据，营业收入为31.44亿元，净利润为9.51亿元，照此计算，长安汽车金融公司的净利润率高达30.25%；同期，长安汽车的净利润率只有2.44%。</p>
+<p class="image-wrapper"><img data-img-size-val="869,352" src="https://img.36krcdn.com/hsossms/20250207/v2_e66899d4afd04608863729f1fc950b6f@5057403_oswg58043oswg869oswg352_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：长安汽车近年金融净利润率</p>
+<p>相关数据显示，2016—2022年，我国汽车金融行业规模从1万亿元增长至2.6万亿元，预计2025年行业规模将达到5万亿元；2023年，中国新车金融渗透率为56%，预计到2028年将达71%左右。</p>
+<p class="image-wrapper"><img data-img-size-val="892,512" src="https://img.36krcdn.com/hsossms/20250207/v2_2ad63b0eaa6448d8a4ad80f4c1244c51@5057403_oswg104520oswg892oswg512_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：部分汽金公司净利率</p>
+<p>赛道长坡厚雪，觊觎者自然越来越多。纵览这两年的汽车金融行业，传统汽车金融公司持续发力，商业银行全面押注，竞争愈发呈现出“红海”态势。近两年，商业银行因为国内信贷需求偏弱，LPR重新定价、存量按揭利率下调等因素，转而在汽车金融江湖跑马圈地。</p>
+<p>上海银行曾在业绩会上透露，截至2023年末，该行新能源汽车贷款近120亿元，较上年末增长204%，2024年一季度全行发放新能源汽车贷款及分期21亿元，新增贡献占比扩大到35%。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,606" src="https://img.36krcdn.com/hsossms/20250207/v2_e1edc5d2cf4b49d48a609298651f06b9@5057403_oswg55872oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>中小银行亦积极抢滩，比如顺德农商银行信用卡之前推出购车福利优惠活动，客户按照指定渠道办理信用卡购车分期金额达到10万元、期数60期，成功放款后最高可享5000元购车分期补贴，高端客群更可以专享分期利率优惠。</p>
+<p>雪崩的时候，没有一片雪花是无辜的。现在要快速冲量，等到这个需求不存在了，“高息高返”是一定不会存在了，但汽车金融会走向何方，至少目前看不清。</p>
+<h2><strong>2 汽车金融依然是银行零售业务的突破口</strong></h2>
+<p>在零售信贷增长放缓和优质资产稀缺的背景下，汽车消费金融已成为银行拓展信贷业务、寻求新的增长点的重要途径。在汽车分期业务中，汽车经销商多倾向于和国有大行、股份制银行以及头部城商行合作。</p>
+<p class="image-wrapper"><img data-img-size-val="811,533" src="https://img.36krcdn.com/hsossms/20250207/v2_11281505e919426281f55f089de529d9@5057403_oswg18464oswg811oswg533_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：中国汽车金融市场竞争格局细分类型占比</p>
+<p>从盈利能力方面来看，通过吸引更多客源办理汽车分期贷款，银行可以扩大业务规模，提升盈利水平；从业务拓展方面来看，银行借助与汽车品牌的合作，将金融服务深度嵌入汽车销售环节，有助于拓宽业务渠道，增加贷款业务量。不过也有市场质疑，如此补贴，银行是否真的有钱可赚？</p>
+<p>一位银行业观察人士指出，在补贴让利的背景下，即使在单个客户上利息收入减少，但随着客户数量的大幅增加，贷款本金总量上升，银行仍可从贷款规模的扩大中获取更多的利息收入。其次，与汽车品牌的合作有助于银行拓展其他金融业务。当消费者在银行办理汽车分期后，银行可以进一步向其推销信用卡、理财等其他金融产品，形成综合金融服务链条，通过交叉销售实现额外的收入来源。</p>
+<p class="image-wrapper"><img data-img-size-val="722,582" src="https://img.36krcdn.com/hsossms/20250207/v2_041d5699e53a432299a9778c9a5ba1a0@5057403_oswg31980oswg722oswg582_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：汽车金融产业链</p>
+<p>在战略端，随着我国新能源汽车渗透率的不断攀升，加之政府部门绿色低碳、以旧换新等相关政策的持续推动，新能源汽车金融业务值得有志于此的商业银行投入战略性资源，开展精细化客户细分与策略设计。而汽车金融业务本身具备较强专业性，亦需银行战略先行，聚焦资源，展开攻坚。</p>
+<p>在产品端，客群需求的差异要求银行在产品与服务设计方面针对新能源金融客户开展客群细分，深度理解客户，并且为客群打造定制化产品。新能源时代的用户愿意为优质贴心的产品服务付出对等价格。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,505" src="https://img.36krcdn.com/hsossms/20250207/v2_45401a0f661c431fa26508ac12bd8a8f@5057403_oswg92051oswg1080oswg505_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：极氪汽车官网金融服务</p>
+<p>在渠道端，银行需注重线上线下的融合。新能源汽车的消费电子化带来用户旅程与习惯的迁移，线下购车虽然依旧是核心渠道，但以直播、短视频为代表的线上产品认知渠道显得愈发重要。银行可尝试直面用户的在线营销和用户运营，为银行本身甚至为汽车品牌厂商带来流量。</p>
+<h2><strong>3 结束语</strong></h2>
+<p>随着汽车金融市场的不断发展，越来越多的银行将涉足其中，竞争愈发激烈，不过，这条“赛道”的参与者并非只有银行，汽车金融公司、融资租赁公司等也都在积极布局，分食这块“大蛋糕”。 蚊子腿也是肉，在这样的市场背景下，也许商业银行对自身业务的思考与规划才是提升服务质量和扩大经营业绩的唯一途径。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/BlCR7ip_8wHqPGnw7ycpLQ" rel="noopener noreferrer nofollow" target="_blank">“楼卓昊Fintech”</a>，作者：楼卓昊，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155976896085760</guid><pubDate>Fri, 07 Feb 2025 12:01:00 +0800</pubDate></item><item><title>突发：o3-mini思维链公开，却被曝光全是「作假」，奥特曼现身解释网友炸锅</title><link>https://36kr.com/p/3155970494798339</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>OpenAI，真的被DeepSeek逼急了！</p>
+<p>活久见，就在刚刚，OpenAI把o3-mini的「思维链」公开了。</p>
+<p class="image-wrapper"><img data-img-size-val="870,269" src="https://img.36krcdn.com/hsossms/20250207/v2_dfe718623c164bce836a6bab7aa44e6b@5091053_oswg41310oswg870oswg269_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>比如问「怎么今天不是星期五啊😅」？</p>
+<p>在展示出来的CoT中，o3-mini一步步思考，这个问题应该是用户在搞幽默，觉得本周应该快结束了，结果还没结束。因此，自己需要给一个聪明机智的回答。</p>
+<p>然后它用Zeller公式计算后发现，2025年2月6日的确是星期四，即使闰年的特殊情况也是如此。</p>
+<p>最终，它回答说：今天的确是周四不是周五，日历就是这么定的。然后提供了一番情绪价值，鼓励用户说：再忍忍，只差一天啦！</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1015" src="https://img.36krcdn.com/hsossms/20250207/v2_196ce3e61f994dcd93c4b65e3974fe62@5091053_oswg478788oswg1080oswg1015_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不过，机智的大神们很快就发现了「华点」——这是「真的CoT」吗？</p>
+<p class="image-wrapper"><img data-img-size-val="756,176" src="https://img.36krcdn.com/hsossms/20250207/v2_edcb8e8422a04339b2603f585ce572ca@5091053_oswg40707oswg756oswg176_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>没多久，就破案了！</p>
+<p>先是OpenAI研究员Noam Brown发文表示，这次放出来的并不是模型原始的CoT。</p>
+<p>随后，Tibor Blaho也发现——所谓的CoT，无非就是个「总结器」而已。（手动狗头）</p>
+<p class="image-wrapper"><img data-img-size-val="1080,420" src="https://img.36krcdn.com/hsossms/20250207/v2_1efdeeb0f4ac4bc0a1457530131f8532@5091053_oswg317511oswg1080oswg420_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>对此，奥特曼解释道，我们正努力整理原始的CoT提升可读性，并在必要时提供翻译，尽量保持原始内容的忠实度。</p>
+<p class="image-wrapper"><img data-img-size-val="1054,1542" src="https://img.36krcdn.com/hsossms/20250207/v2_a9bed03fc65442e0a78ca75f30c5b71c@5091053_oswg685951oswg1054oswg1542_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">他放出了四个emoji，让o3-mini在思维链中展示了一把推理过程</p>
+<p>坚决不让竞争对手看到CoT的具体过程，OpenAI的防备心实在是有些重啊。</p>
+<p class="image-wrapper"><img data-img-size-val="867,295" src="https://img.36krcdn.com/hsossms/20250207/v2_1c6fd7b54e6049a19cefa0eaddc0f000@5091053_oswg62118oswg867oswg295_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="800,450" src="https://img.36krcdn.com/hsossms/20250207/v2_03a3707552824339b6490c1336a6d53c@5091053_oswg413415oswg800oswg450_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>OpenAI研究员：看到CoT实时演示，是「啊哈时刻」</strong></h2>
+<p>OpenAI研究员Noam Brown表示，在o1-preview发布前，自己向他人介绍草莓时，看到CoT的实时演示，通常是他们的「啊哈时刻」。</p>
+<p>他们清楚地意识到，这将是一件大事。</p>
+<p class="image-wrapper"><img data-img-size-val="871,371" src="https://img.36krcdn.com/hsossms/20250207/v2_74a710f6f9184c61b926c51a675e8f48@5091053_oswg92211oswg871oswg371_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>对于全新的o3-mini CoT，Noam Brown放出了自己的独家玩法：</p>
+<blockquote>
+<p>你正在玩井字棋，使用 O。到目前为止，X 已经在左上角和右下角落子，而你在中间位置落子。最优的下一个动作是什么？请只回答你的动作，并画出棋盘。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,470" src="https://img.36krcdn.com/hsossms/20250207/v2_7d64d337cd3a41ff9062ca2aeb667730@5091053_oswg169108oswg1080oswg470_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Noam Brown表示，o3-mini是目前第一个能持续正确回答井字棋问题的模型。</p>
+<p>好笑的是，他承认CoT其实有些不稳定，但可以看到，它最终还是把这个问题给想明白了。</p>
+<p class="image-wrapper"><img data-img-size-val="870,413" src="https://img.36krcdn.com/hsossms/20250207/v2_932d81c189e34ce09e65ac96b1019726@5091053_oswg69170oswg870oswg413_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>有人指出，OpenAI遮遮掩掩地放出这个高仿CoT，其实比什么都不放还要糟。</p>
+<p>因为真实的CoT可以充当prompt的调试器，帮我们引导模型；而总结性的CoT会造成混淆，引入错误，让调试变得更加困难。</p>
+<p>而DeepSeek R1最酷的一点，就是暴露了模型的CoT如何影响提示的效果。</p>
+<p class="image-wrapper"><img data-img-size-val="876,1294" src="https://img.36krcdn.com/hsossms/20250207/v2_cf9b2cf5ca274e44bab92f71b40f9f04@5091053_oswg204309oswg876oswg1294_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而且，总结版的CoT显示得很慢。如果是原始的o3-mini，应该在推理中有更快的生成速度。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,236" src="https://img.36krcdn.com/hsossms/20250207/v2_14c27f4113db41cfa2378d69b0f52c00@5091053_oswg147430oswg1080oswg236_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>有人也横向对比了OpenAI和DeepSeek的CoT，表示前者看起来实在太专业了，相比之下，还是DeepSeek的产品更自然。</p>
+<p class="image-wrapper"><img data-img-size-val="584,1324" src="https://img.36krcdn.com/hsossms/20250207/v2_4e5fbb0ea5454ce8b1e4eb70125d9c18@5091053_oswg362129oswg584oswg1324_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>防止被「蒸馏」？</strong></h2>
+<p>OpenAI这波植入CoT总结器的做法，着实是被DeepSeek R1强势崛起吓到了。</p>
+<p>o3-mini发布当天，OpenAI在Reddit开启AMA在线问答中，网友曾提问，「我们能看到模型思考的所有token吗」？</p>
+<p>当时，奥特曼回复道，「我们很快就会展示一个更有帮助、更详细的版本」。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,400" src="https://img.36krcdn.com/hsossms/20250207/v2_af59915f82f74f2092462b22c1e019aa@5091053_oswg119935oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>紧接着，OpenAI首席产品官Kevin Weil提前暗示了，是否展示所有内容还有待确定。</p>
+<p>「我们知道用户（至少是高级用户）想要看到这些，所以OpenAI会找到一个合适的平衡点。」</p>
+<p class="image-wrapper"><img data-img-size-val="1080,313" src="https://img.36krcdn.com/hsossms/20250207/v2_19aad53059fc4b3ca1be3d83e2141af4@5091053_oswg123564oswg1080oswg313_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>如今，当所有人终于见到了奥特曼所谓的「留到最后的好东西」，感受到的只有失望。</p>
+<p class="image-wrapper"><img data-img-size-val="866,860" src="https://img.36krcdn.com/hsossms/20250207/v2_c6f855fea9794ec7a7d3591692938a2e@5091053_oswg189323oswg866oswg860_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>毕竟，DeepSeek早已这样做了，而且还是完整的原始CoT！</p>
+<p>对此，OpenAI发言人表示，「为了提高清晰度和安全性，我们增加了一个额外的后处理步骤，其中模型审查原始思维链，移除任何不安全的内容，然后简化任何复杂的思想。」</p>
+<p>「此外，这个后处理步骤使非英语用户能够以他们的母语接收思维链，创造一个更易于访问和友好的体验。」</p>
+<p class="image-wrapper"><img data-img-size-val="886,550" src="https://img.36krcdn.com/hsossms/20250207/v2_aa053c72f72249548089dff95742ce9d@5091053_oswg130272oswg886oswg550_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>话虽委婉，但知道的人都明白OpenAI针对的是谁。</p>
+<p><strong>参考资料：</strong></p>
+<p>https://x.com/btibor91/status/1887633671483760862</p>
+<p>https://x.com/OpenAI/status/1887616278661112259</p>
+<p>https://x.com/polynoamial/status/1887621287616651429</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/cSgHlXmcxaxZHY1gdSdcwQ" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，编辑：编辑部，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155970494798339</guid><pubDate>Fri, 07 Feb 2025 12:03:00 +0800</pubDate></item><item><title>「维权斗士」刘雯：又多收割了500万</title><link>https://36kr.com/p/3155966526904837</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>一场“道歉”直播，带货GMV突破200万元。2025年伊始，主播刘雯用一系列争议性事件，实现了网络流量和个人财富的暴涨。</p>
+<p>仅一年之前，刘雯还只是一个普通主播。据第三方平台蝉妈妈统计，刘雯2024年1月涨粉不到1万人，直到去年7月才开始规律性直播带货，单场直播GMV不到10万元。短短半年，数据翻了数十倍。</p>
+<p>然而，在这看似完美的逆袭故事背后，却暗藏着诸多值得深思的问题：网暴知名企业、质疑司法判决、挑动民意对立，这些行为是否正当？当“舆论监督”沦为收割流量的工具，究竟谁是赢家，谁是输家？</p>
+<p>从“人民卫士”到带货主播，刘雯的发展轨迹揭示了一个真相：所谓的“维权”，不过是一场精心设计的“割韭菜”商业狂欢。</p>
+<h2><strong>01 变味的“舆论监督”</strong></h2>
+<p>从刘雯过往发布的短视频来看，其涉猎范围极广，社会热点、民生事件、企业纠纷无所不包。</p>
+<p>哪里有热点和争议，刘雯的短视频就会跟向哪里。</p>
+<p>她的不少视频，直接把“逼自己亲生孩子吃大便”“睡别人老婆违法吗”“太可怕了！蟑螂竟然进耳朵了”等充满猎奇色彩的词汇放进标题，以期博取更多流量。</p>
+<p class="image-wrapper"><img data-img-size-val="830,394" src="https://img.36krcdn.com/hsossms/20250207/v2_cabe3ca797ed4dc282c286c514426a99@5091053_oswg63851oswg830oswg394_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">刘雯吸引人眼球的视频标题</p>
+<p>而在这些视频中，<strong>一些所谓“舆论监督”的内容，堪称流量收割机。</strong>被网暴的既有普通高中、知名跨国公司，也有国有企业、民营企业。</p>
+<p>胡鑫宇案就是一个典型案例。2022年10月14日，江西上饶铅山县致远中学高一学生胡鑫宇从校园失联，在公安机关组织的多轮地毯式搜寻中，社会各界广泛关注，但始终未能找到其踪迹。</p>
+<p>2023年1月15日，刘雯发布了一条“胡鑫宇失踪39天，此事和学校有着脱不掉的干系”的视频。<strong>在视频中，她以“刑侦专业”的身份，对案情提出诸多质疑</strong>：一是有可疑车辆在事发时经过校门口并驶向江边，二是学校食堂附近的门并非警方通报的“常闭门”。</p>
+<p>她推测称，如果尸体落入信江，能浮起来的时间很短，错过了就很可能找不到，“人大概率在信江，并且已经错过了被找到的最好时机”。同时，她还指出学校存在监控死角，暗示这可能是胡鑫宇离开学校的路径。</p>
+<p><strong>事实很快证明，这些“专业分析”完全是误导。</strong>2023年1月28日，胡鑫宇的遗体在一处树林里被发现，经公安机关鉴定，系自缢死亡，尸体发现地即为原始第一现场。刘雯所谓的可疑车辆、监控死角、信江推测等说法均与事实不符。<strong>但这条充满揣测的视频已在网上进行了广泛传播，收获了超1.9万的点赞量。</strong></p>
+<p>类似的“舆论监督”屡见不鲜。2023年6月16日，刘雯在一条“我被‘舒肤佳’告了”的视频里说，自己被美国宝洁集团投诉了。她在视频中强调，自己只是把舒肤佳含有荧光剂的事实告诉中国人，“难道让中国消费者一直蒙在鼓里？”通过“外国品牌欺负中国消费者”等煽动性言论，该视频收获了近30万点赞。</p>
+<p>但就在几天之后的6月26日，解放日报社旗下的“上海网络辟谣”微信公众号发文称，测评博主手持荧光剂检测笔或紫光灯，对着不同品牌的香皂照一照，发现部分白色香皂含有荧光剂，便称荧光增白剂会危害人体健康，这类香皂不能用，属于故意贩卖焦虑的伪科普，挑拨情绪，骗取网友眼球、换取流量变现。</p>
+<p>实际上，根据我国现有国标，香皂含有荧光剂并不违法，主要用于调节产品颜色，不会被皮肤吸收，且容易洗掉，无毒无害。部分国家对荧光剂管理严格，是出于对原材料质量的整体把控，而非荧光剂本身的安全问题。</p>
+<p><strong>半真半假的谣言，最具杀伤性和破坏力。</strong>刘雯出品的这类短视频内容也是如此，其将真假信息混杂在一起，用一种替人维权的口吻隐藏自己的真实意图，达到以假乱真的效果，又极具煽动性，很容易引发粉丝群体在“线上聚集”，对其批评的对象进行口诛笔伐。</p>
+<p>近期，刘雯又因诋毁某企业被诉至法庭。她在视频中声称“顾客支付41元配送费，到骑手手里只有3块、5块”，但经查实，实际骑手收到的金额为38.6元。</p>
+<p>而刘雯此前发布的“19岁女骑手下跪”“外卖站点要求骑手上班前在群里发布举报她（刘雯）视频的截图”，也被警方证实是谣言。2024年12月30日，在经北京互联网法院判决后，刘雯须为自己传播不实消息侵犯名誉权赔偿该企业5万元，连续道歉5天。</p>
+<p><strong>面对这一判决，刘雯却找到了博取流量的新角度</strong>：其将判决内容歪曲成“赔偿50万元，连续道歉50天”，并暗示“法院缺席审判”等虚假信息，制作成新的视频博取同情。这种操作导致大量不明真相的网友对北京互联网法院官方账号发起攻击，留下上万条恶意评论。</p>
+<p>在“维权”某企业的视频中，刘雯还晒出一张“职业伤害险由‘平台代扣费用，由就业人员承担’”的截图，称这是“我请客，你买单”。然而事实真相却是：2021年底，经国务院批准，人社部等十部门已联合发布《新就业形态就业人员职业伤害保障办法（试行）》，在北京、上海、广东等7省市先行试点，明确规定由平台为劳动者参保及缴费，骑手无需承担任何费用。</p>
+<p>至于骑手“每天3元/2.5/2.9/3.4元的扣缴费用”，实际是这些平台根据相关要求，与保险公司合作推出的商业保险、意外险、加盟雇主责任险等多个险种的费用，这些费用构成在骑手App中都有详细说明。刘雯故意混淆职业伤害险和综合商业险的概念，通过卖惨、控诉平台压榨骑手等言论来博取流量。</p>
+<p>这些极具煽动性的内容，虽然大部分已被下架。但其在足够短的时间窗口期内，在互联网上广泛传播，并且迷惑了大部分的网友群体，甚至连中国首富都未能幸免。</p>
+<h2><strong>02 “另类”的带货方式</strong></h2>
+<p>流量的尽头是变现，“维权斗士”刘雯也不例外。</p>
+<p>2025年1月，刘雯的带货数据格外亮眼——根据第三方机构统计，其单场直播GMV高达200万元，月度带货总额突破500万元。<strong>按照平均20%的直播佣金比例计算，仅一场直播的收入就达到三四十万元。而这一切，都源于她的“另类”带货手法。</strong></p>
+<p>“维权式”带货是刘雯最常用的手段之一。2024年7月，她在短视频平台发布多条带货枸杞的视频，点赞数仅有1000多。但同期一条“维权”中国电信的视频，点赞数却暴涨至3.1万。找到流量密码的刘雯，开始<strong>在“维权”视频中巧妙植入带货内容。</strong>在一条抨击中国电信的视频中，她不经意地提到“正在宁夏中宁筛选枸杞”，随后发布的就是枸杞带货视频。</p>
+<p class="image-wrapper"><img data-img-size-val="830,314" src="https://img.36krcdn.com/hsossms/20250207/v2_036066444f8343d292bc9c0b98bd2222@5091053_oswg60631oswg830oswg314_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">“维权”中国电信，点赞狂飙</p>
+<p>更令人瞠目的是“道歉式”带货。在近期因传播不实消息被法院判决败诉后，刘雯一边在“道歉视频”中强调自己“无路可退”，一边不忘提醒粉丝“等我贵州刺梨/口子窖的直播做完”“马上就没库存了，还有50单就结束了”。</p>
+<p><strong>就是靠着这样的操作，她在“道歉”期间登上了相关平台“酒类带货榜”第3名的位置。</strong></p>
+<p>从收益来看，这种“另类”带货方式确实奏效。虽然一审判决中，刘雯需要承担5万元赔偿，但其1月15日一场直播的销售额就达到200万元。这种“输了官司、赢了现金”的结果，或许正是刘雯的真实目的。</p>
+<p>另外，在走红之前，刘雯的带货轨迹并非一帆风顺。最初，她主推的是枸杞、西洋参等价格不透明的保健品，以及风险较高的中老年理财课程和男士内裤等商品。涨粉过程，也是其不断“洗白”、升级带货品类的过程。</p>
+<p><strong>然而，这种变现路径埋下了不少隐患。</strong>在枸杞的评论区，买家反映收到的产品颗粒过小，与直播展示的效果相去甚远；她带货的某款洗脸巾也被指“玩文字游戏”，将非纯棉的“绵柔巾”说成价格更高的“棉柔巾”。</p>
+<p>更值得关注的是部分产品的质量问题。2024年10月，刘雯带货某品牌蓝莓叶黄素眼部护理液，生产方竟然是一家电商公司而非药企。产品外包装显示，该眼部护理液没有“国药准字”的批准文号，执行标准为“Q/SSD0001-2024”，一般是企业自行制定并实施的企业标准。</p>
+<p>在视频中，刘雯称，这款滴眼液比日本某大牌药妆滴眼液还管用、更安全，低得离谱的价格让消费者都觉得不可思议。</p>
+<p>蝉妈妈显示，近期刘雯带货的一款古法酿造酱油，佣金比例高达25%，号称品质不输日本高价酱油。但其生产厂家在2022年曾因销售“不符合标准的食品”被市场监管部门处罚。</p>
+<p>讽刺的是，<strong>刘雯一边通过直播带货赚取高额佣金，一边指责其他企业佣金过高、不合理加价。</strong>去年，她发视频指责某平台的代购商家“溢价35%到50%不等”“骗我五六十你才满意”“多则将近100块钱”。后经核实，代购商家最高溢价率为21.7%，5笔订单只多赚了刘雯14.53元。这位商家在社交平台称，自己遭遇了刘雯发动的网暴，刘雯一直在撒谎误导大众，直播带货收割流量。</p>
+<p class="image-wrapper"><img data-img-size-val="832,516" src="https://img.36krcdn.com/hsossms/20250207/v2_44115f3f1f2a464c9d62b84afe9f159b@5091053_oswg65777oswg832oswg516_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">代购商家公开发文抨击刘雯</p>
+<p>所谓的维权、为民请命，只是博取流量的手段，最终目的仍是赚钱。刘雯在网暴“资本”的过程中，自己也成了她口中的“资本”。</p>
+<h2><strong>03 网暴的“变现密码”</strong></h2>
+<p>当“维权”走向网暴，当网暴成为带货的工具，刘雯的变现路径其实暴露了一条灰色产业链。</p>
+<p><strong>2021年4月，刘雯曾因“卖惨带货、演戏炒作”被相关平台列入永久封禁名单。</strong>但很快，她又以“刑法硕士”“单独抚养孩子8年的单亲妈妈”的人设重新起号，为自己网暴企业的行为披上了一层“维权斗士”的外衣。</p>
+<p>此外，刘雯挂靠多家MCN，在全网不同平台开设多个账号矩阵，为了吸引流量，在内容上根据不同平台的粉丝调性，做到了“精准投喂”。在短视频平台，置顶的账号是帮助自闭症儿童的视频。而在某社交平台，置顶的是“这是我装修的第八套房子”，彰显精致富婆的人设。</p>
+<p>剖析刘雯的账号运营可以发现，<strong>网暴企业、质疑司法、挑动对立情绪是她的主要操作手法。</strong>这与其粉丝画像高度契合：蝉妈妈的数据显示，其男性粉丝占比约70%，以三线城市的小镇青年、新锐白领为主，50岁以上粉丝占比15.22%。这类粉丝普遍消费能力不强，这也解释了为什么刘雯的带货以粮油米面、内衣服饰为主，且10-20元的产品占八成的货盘。</p>
+<p class="image-wrapper"><img data-img-size-val="720,840" src="https://img.36krcdn.com/hsossms/20250207/v2_360d6119d3384f89a220f06d3ad75041@5091053_oswg68142oswg720oswg840_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">刘雯短视频账号粉丝画像</p>
+<p><strong>更值得注意的是，这类粉丝可能触网不深，更容易被情绪化表达带偏，不自觉地成为网暴的参与者。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,327" src="https://img.36krcdn.com/hsossms/20250207/v2_b40c00e673154317b1079b70d6c46ca6@5091053_oswg37863oswg1080oswg327_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">“道歉”视频获得巨大流量</p>
+<p>这些“道歉”视频虽然因涉及捏造判决结果而被下架，但带来的流量效应显著。蝉妈妈数据显示，之后十天里，刘雯账号日均点赞数超29万，是过往三个月均值的近6倍，最高单日达61.3万。正是靠着这波流量，她在随后的口子窖专场中创下了个人带货新纪录。</p>
+<p><strong>揭开这盘生意的底牌，不外乎是变现。</strong></p>
+<p>在刘雯式主播的利益链条中，通过真假参半又极具争议性的热点视频，将自己的人设或是包装为“维权斗士”，或是包装为“正义女神”，不断煽动和蛊惑分辨能力较差的粉丝群体，形成颇具规模的流量池。进而，通过一场场的“卖惨式”直播，兜售各类鱼龙混杂的高利润商品，以带货佣金方式完成最后的收割。</p>
+<p>群众的愤怒，在刘雯的商业体系中，确实是可以有明确估价并折现的。但需要注意到的是，这类主播通过煽动情绪和操纵网友，奔着带货收益而去。但是这些为“带货”而加工出的各路“内容假货”的副产品，却对社会杀伤力巨大。<strong>即便是商界精英如首富钟睒睒，也曾转发过刘雯网暴企业的视频，可见谣言有时比真相更容易带偏舆论方向。</strong></p>
+<p>奔着流量而去，最终也会被流量深渊吞噬。此前“塌房”的多个“维权主播”就是前车之鉴。对普通网友而言，在看清事实真相前，不参与网暴，既是保护他人，也是避免自己成为帮凶，被流量裹挟着为劣质产品买单。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/RwrXeZwChpr7fvH9D4TGaw" rel="noopener noreferrer nofollow" target="_blank">“豹变”</a>，作者：周可，编辑：刘杨，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155966526904837</guid><pubDate>Fri, 07 Feb 2025 12:05:00 +0800</pubDate></item><item><title>最牛打工人，又要“动刀”4000亿美的</title><link>https://36kr.com/p/3155950998428418</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>尽管在过去的一年里，“最牛打工人”方洪波，替美的集团每天净赚1个亿，但他还是对这艘巨轮动刀了。这一次，他剑指美的集团的大企业病。但很显然，事情仍未完待续。国内外形势风云变幻中，将自己视为美的“保姆”的方洪波，还有不少硬仗要打。</p>
+</blockquote>
+<p>行业龙头的叙事中，企业决策者的面目，大部分是清晰的。家电行业老大美的集团也不例外，这家公司推到明面上的一举一动，都是由现任掌舵者方洪波来主导的。</p>
+<p>这不，2025年1月底，临近春节之际，有着“最牛打工人”称号的方洪波，又对美的集团动刀了：签发公文中的六条禁令对准了形式主义。具体包括：内部沟通禁用PPT、严禁下班时间开会、严禁微信群喊口号和举拳头、严禁内部送礼等，大力推行数字化管理，向无效工作说 “不”。</p>
+<p>这在业内激起千层浪。有人拍手叫好，“这些禁令简直打在了职场弊病的‘七寸’上！”也有人表示了担忧，“要真正落实到位才行啊！”《财经天下》了解到，方洪波颁发的六条禁令，已经在整个美的集团实行开来。</p>
+<p>不过，因为中间隔了一个春节假期，最终是否能达到预期的效果，还有待一段时间的验证。在外界看来，方洪波之所以对美的集团动刀，是出于提高企业运营效率、适应市场环境变化等各方面的考量。</p>
+<p>有业内人不以为然，“方洪波此举过于忧虑了。”毕竟，美的集团早就将格力、海尔等竞争对手甩开八丈远了。不仅如此，在刚刚过去的2024年，国内外大形势风云变幻中，美的集团仍然过了一个大肥年：产品卖爆了，营收首次突破4000亿元大关。</p>
+<h2><strong>01 营收破了4000亿</strong></h2>
+<p>过去一年，美的集团的业绩确实很能打。</p>
+<p>前三个季度，美的集团连续单季超过1000亿元，营收最终定格在3203亿元，同比增长10%。3203亿元，是个什么概念？与其他家电巨头前三季度营收对比，便一目了然：海尔智家营收为2030亿元，格力电器1467.22亿元，海信家电705.79亿元。</p>
+<p>这意味着，美的集团的营收规模属于断崖式领先，相当于1.58个海尔智家、2.18个格力电器、4.54个海信家电。这还没算上第四季度的业绩，中信证券预测称，美的集团2024年的营业总收入有望达到4114.76亿元。</p>
+<p>果不其然，2月5日，在广东省高质量发展大会上，美的集团董事长方洪波在发言时称，2024年美的营收突破4000亿元，再创历史新高。</p>
+<p>平均下来，美的一天能进账10.9亿元。《财经天下》梳理发现，自2010年突破1000亿元的大关后，美的这家家电巨头就跑得越来越快，突破第二个、第三个、第四个1000亿的用时越来越短，2017年首超2000亿元，2021年突破3000亿元，2024年站上4000亿元。</p>
+<p>而近两年增速更快的暖通空调业务，是美的集团的主要业绩来源。以2024年上半年为例，暖通空调业务占营收的46.70%。那么，过去一年，暖通空调业务这个类目中，又有什么产品卖得相对好一些？</p>
+<p>京东金榜2024年数据显示，美的空调有三款产品——美的酷省电挂机35KS1-1、美的酷省电柜机、美的风尊二代入选，成为消费者的口碑之选。这三款均是美的新一代空调的爆款。从种种迹象来看，美的空调酷省电系列和风尊二代系列，均成为年轻人最喜爱的空调型号之一。</p>
+<p>去年年底，在线下实体店经过多次对比后，上海95后姑娘冯思给自己的新家，安装上了不少美的产品。比如洗衣机、空调等。数量最多的，也正是空调。冯思一口气买了四台美的空调，其中三台为酷省电挂机，一台为酷省电柜机。</p>
+<p>在冯思看来，美的产品不仅价格合适，外形设计比较符合年轻人的审美。比如美的3匹酷省电柜机空调，整体外观简洁大方，白色色调能配任何家具。产品性能方面，冯思也并没有踩雷。她发现，电柜机空调的制冷和制热速度很快，家里18度，十多分钟就上20度了，不到半小时就23度了。</p>
+<p>“足够温暖，也节省了不少电。”冯思告诉《财经天下》。不仅如此，美的空调还支持智能App控制，冯思哪怕远在公司，也能通过手机远程调节温度、风速、检测室内环境等。除此之外，注重生活品质和便捷性的冯思，还购买了美的洗地机这种“解放双手”的清洁类小家电，以及美的厨房小家电，比如豆浆机、榨汁机等。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250207/v2_b22bf73d8fc04efda297b3099a5bb6bb@5091053_oswg102767oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在资深家电人张清看来，除新婚夫妇和年轻家庭为美的业绩添砖加瓦外，一些年轻租房群体，也是美的产品的主要目标受众。“年轻租房群体流动性大，对家电的便携性、性价比有一定要求，美的推出的一些小型、轻便的家电产品，如小容量冰箱等，价格适中且易于搬运。”</p>
+<p>过去一年，美的空调在海外市场也卖爆了。近些年，在全球气候变暖，高温天气频繁出现的大背景下，无论是欧美国家，还是新兴市场，对空调的需求皆持续上升。以去年第三季度为例，产业在线数据显示，美的空调外销量同比增长27%，增长趋势明显。</p>
+<p>“美的与海外当地的家电分销巨头等大型渠道商，建立了合作关系。如美的集团与美国的Almo Corporation合作，实现经营品类从单一到全品类家电的覆盖，为美的空调在北美市场的销售提供了强大的渠道支持。”张清向《财经天下》解释道。</p>
+<p>也正因如此，除了空调之外，美的照明在海外市场也增长迅速。截至2024年9月，美的照明全年订单较上年增长近70%，在非洲、中东、东南亚等地区市场覆盖良好。与此同时，美的集团的赚钱能力，也创下了历史新高。</p>
+<p>2024年前三季度，美的集团归属于上市公司股东的净利润为316.99亿元，同比增长14.37%。而2023年同期为277.17亿元。多家券商研报预测，美的集团2024年的净利润有望在370亿~390亿元。这意味着，“最牛打工人”方洪波，每天替美的净赚1个亿。</p>
+<p>可以说，美的集团在2024年确实过了个肥年。但方洪波为何还是对美的动刀了？答案其实在六条禁令发布的十多天前，就被决策主导者方洪波释放了出来。</p>
+<h2><strong>02 方洪波为何还是急了</strong></h2>
+<p>2025年1月10日，美的集团2025经营管理年会上，方洪波提出要简化业务模式、出清冗余、品类简化等要求。首当其冲的，便是美的集团的大企业病。</p>
+<p>伴随着美的集团成为行业老大，其在全球200多个国家和地区，拥有超400家子公司，员工超19万人。要知道，其他同行的员工人数，比美的要少不少：格力约7.26万人，海尔智家约11.2万人，海信家电约10万人。</p>
+<p>员工人数庞大必然带来组织臃肿、效率低下以及沟通不畅等大企业病。比如员工人数一度高达25万人的阿里，就因大企业病而创新力不足、决策效率低下。“美的集团体系太庞大了，这么多子公司、这么多部门，大企业病冒头，会影响工作效率。”一名美的员工也曾向媒体感叹。</p>
+<p>也因此，方洪波颁布的六条禁令，确实有助于提高美的的运营效率。不过，张清认为，方洪波急于整治大企业病，还有更深层次的考量。去年前三季度美的14%的归母净利润增速，不及海尔智家的15.3%。</p>
+<p>“通过与对标公司的对比分析，美的总体的销售费用仍可以优化，直面用户的零售转型还不够彻底，所以要简化业务流程，所有工作精力都放在最前端。”一名美的相关人士也曾向媒体透露。</p>
+<p>令方洪波头疼的在后头。投资大佬巴菲特判断一家公司经营好坏的标准是净资产收益率（ROE），选择的公司大部分净资产收益率超过20%。而2023年，美的集团净资产收益率为22.23%，低于格力电器的26.53%。</p>
+<p>2024年，美的集团第一季度、上半年和第三季度的ROE，分别为5.37%、12.20%、18.46%。此前西南证券预测称，美的集团2024年的净资产收益率预计为20.01%。一般来说，净资产收益率下滑，有多方面的原因。比如产品竞争力问题、成本控制挑战、业务多元化风险，以及资产周转效率降低、固定资产投资效益不佳等。</p>
+<p>内忧之外，方洪波还有外患。在国内一骑绝尘的美的集团，跟国际市场上的竞争对手，比如韩国的LG、三星，德国的博世、西门子，日本的松下等相比，在某些方面还有一些差距。</p>
+<p>“虽然美的集团在全球家电市场的份额不断增长，但在海外市场主要集中在中低端领域，在高端市场的份额相对较小。”张清告诉《财经天下》。这对看重海外市场的方洪波而言，是个不妙的信号。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20250207/v2_bf97318b6e05440189582bf64e09b9f8@5091053_oswg199898oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>1992年11月24日，当戴着黑框眼镜、背着行李的方洪波，宁愿省下几元摩的钱，也要徒步走到美的工业城报到时，他恐怕没有想到，自己能在随后的20多年时间里，从一个普通打工人变成115亿元财富傍身的有钱人。</p>
+<p>1993年，因《美的舰长何享健》一文，注意到方洪波的美的集团创始人何享健，或许有一丝丝预料到。毕竟，随后的9年时间，他对方洪波不遗余力地精心栽培，以至于后者的职位一路升迁：从内刊编辑，到广告科经理，再从市场部部长，被提拔为销售部总经理。2012年，方洪波又接过了董事长的权杖，从此跻身“最牛打工人”行列。</p>
+<p>方洪波在美的之所以大走花路，除了自身的努力和才干外，“伯乐”何享健的慧眼识珠，也是极其重要的一环。俗语说“士为知己者死”，备受何享健信任的方洪波，得全力掌舵好美的这艘巨轮。</p>
+<p>自从全面接班以来，看起来低调谦恭、性情温和的方洪波，为了解决公司现有难题，他的每一次动刀，都果敢决断，不拖泥带水。2012~2015年，在方洪波的主导下，美的集团累计裁撤7000多个品类，关闭多家非核心工厂，将产品型号从2011年的2.2万个，缩减到2015年的2000个左右。</p>
+<p>2022年，方洪波又对to C家电业务进行重新梳理，涉及90多个产品品类、900多个SKU。方洪波还启动过比较大规模的裁员。比如2012年，方洪波主持了美的史上第二次大裁员，整体裁掉7万名员工，其中包括近1万名的管理人员。</p>
+<p>另一次裁员发生在2022年，从美的当年的财报来看，母公司员工从上一年的2351人大幅减少到1199人，同比下降接近50%。并且，在2023年、2024年，各大社交平台上，仍有关于美的裁员的信息。“方洪波这一次的调整，也是出于内忧外患的考量。”张清认为。</p>
+<p>在张清看来，除了颁布六条禁令之外，方洪波接下来会有更多动作。毕竟，方洪波用了整整12年时间，带领美的集团实现了从2012年的艰难处境，到今天营收突破4000亿目标的跨越，实现了数倍的业绩增长。于情于理，“他都得将这个势头延续下去，不辜负何享健对自己的信任和期待。”</p>
+<h2><strong>03 动刀收缩非核心业务</strong></h2>
+<p>方洪波还会动哪里？从1月10日的美的集团2025经营管理年会上，外界可以找到大的方向。方洪波也意识到，美的集团业务发展逻辑迎来拐点。除了大企业病外，非核心业务肆意生长、SKU繁多等问题，需要美的集团以新的经营思路应对挑战。</p>
+<p>为此，他提出了一些举措。比如简化业务模式和结构；出清冗余、品类简化、SKU精简；关停并转非核心业务；严控新品类准入。以关停并转非核心业务为例，方洪波会对那些与核心业务关联度不高、盈利能力差或不符合公司长期战略发展方向的业务，采取关闭、停止、合并或转让等方式进行处理，以聚焦核心业务与核心品类。</p>
+<p>时至今日，在简化业务模式和结构方面，方洪波已经动手了。张清认为，接下来收缩非核心业务，是方洪波2025年的重中之重。哪些非核心业务要关停？方洪波并没有透露过多。不过，结合美的业务情况，以及战略导向，了解美的集团的张清，有自己的一番见解。</p>
+<p>按照目前来看，美的集团的核心业务，是占总营收近七成的智能家居业务。相对于智能家居业务的战略地位，机器人与自动化业务、新能源及工业技术业务、智能建筑科技业务这三大块，有一定的非核心业务特征。</p>
+<p>以机器人和自动化业务为例，尽管美的集团早在2016~2017年，就进入机器人上游产业链，收购了以色列高创公司。2022年11月，又对工业机器人公司KUKA进行全面收购并私有化。但截至2024年前三季度，该业务是美的几大主营业务中唯一同比下滑的业务，同比变化为-9%。</p>
+<p>“智慧建筑科技业务虽有一定发展，但在整体业务中的地位并没有那么重要。部分边缘性、盈利能力较弱，或者与核心业务协同性不强的智能建筑科技业务分支，如一些市场份额较小、拓展难度大的区域业务，或者一些非关键的配套产品业务等，可能面临收缩。”张清认为。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250207/v2_298c73c33f03410c9aba7cad058af157@5091053_oswg76888oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>美的在新能源及工业技术领域也有布局，该业务也存在一些与核心家电业务关联度不高的部分。例如，在新能源汽车部件业务中，如果某些零部件产品市场竞争激烈、利润空间小，且对美的整体业务战略贡献有限，可能会被考虑收缩。“还有，在美的集团的储能业务中，一些处于市场培育期、投入大产出小的项目等也有收缩的可能性。”</p>
+<p>被方洪波视为美的集团重要增长点的海外业务，也可能会有一定程度的精简，比如一些市场规模小、运营成本高、品牌影响力难以提升的部分非核心业务。“某些非洲或南美洲的部分国家，若美的的业务主要以低附加值的贴牌加工为主，且面临当地贸易政策不稳定、市场需求波动大等问题，方洪波也可能会对这部分业务进行调整。”张清总结道。</p>
+<p>不过，在2月5日的广东省高质量发展大会上，方洪波全篇发言皆历数美的集团在机器人与自动化板块业务的成绩，比如营收已突破300亿元，以及其作为广东省机器人重点产业链 “链主”的使命等。这意味着，至少，在机器人自动化业务上，方洪波仍寄予了厚望。</p>
+<p>回望过去，2012年的接班大会，方洪波曾经当众表态，“千里马常有，伯乐不常有”“我只是美的历史上的一个过客”。接班后的某一年，方洪波又明确了自己的定位：我是美的的“保姆”。这番话的潜台词是：他将自己视为美的集团全方位的服务者和守护者。</p>
+<p>这些年，方洪波每一次动刀美的集团背后，都有什么样的特质支撑着他？张清向《财经天下》总结道，方洪波具有敏锐的市场洞察力、清晰的战略规划能力、团队管理能力等优点。比如市场洞察力这一点，2014年电商渠道兴起时，方洪波精准捕捉到这个市场趋势，提前布局并加大线上渠道投入，到2023年美的线上销售额突破700亿元。</p>
+<p>然而，不可否认的是，新时代已经到来。站在新的时代中，正如方洪波所说，美的集团业务发展逻辑迎来拐点，需要以新的经营思路应对挑战。如何用新的经营思路，带领美的集团走得更远？“从目前来看，有一些不确定性。”张清坦言。</p>
+<p>无论如何，有一点确定的是，方洪波也担心自己干不好，他曾坦言：“如果有一天我落后了，我会自己主动退的，一直赖着，走的时候会很难看。”</p>
+<p>（文中人物张清、冯思为化名）</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/FDHq_7NaatythZn6rdTMVg" rel="noopener noreferrer nofollow" target="_blank">“财经天下WEEKLY”</a>，作者：易浠，编辑：吴跃，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155950998428418</guid><pubDate>Fri, 07 Feb 2025 12:07:00 +0800</pubDate></item></channel></rss>
