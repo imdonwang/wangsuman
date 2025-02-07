@@ -1,186 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 07 Feb 2025 11:00:20 +0800</lastBuildDate><pubDate>Fri, 07 Feb 2025 11:00:20 +0800</pubDate><item><title>让数据说话：2024年银行在大模型上花了多少钱</title><link>https://36kr.com/p/3155330850799108</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>今天，我想用一些数据，来盘点2024年各家银行的大模型项目招标结果。</p>
-<p>金融行业被视为大模型应用落地的最优场景之一。相比其他行业，金融是数字化最为领先的行业，同时也是对新技术的接受度最高的行业之一。在数字化浪潮席卷下，金融行业正经历着深刻变革，人工智能大模型作为其中的关键驱动力，其应用广度和深度正在日益加深。从客户服务到风险管理，从产品创新到运营优化，大模型技术正逐步渗透到金融业务的各个环节，带来前所未有的效率提升和创新突破。</p>
-<p>2024年，从公开的大模型招投标市场数据来看，国内的银行、保险、证券、以及监管类金融机构等都在积极进行布局。从中，我们可以一窥大模型技术在金融行业的落地进展。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,579" src="https://img.36krcdn.com/hsossms/20250207/v2_347cbd81b21940acae879cebdfd8e383@5057403_oswg96173oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图：2024年金融大模型中标领域分布）</p>
-<h2><strong>（一）大行在创新的方向上持续投入</strong></h2>
-<p>由于业务的复杂性和特殊性，再加上自身资金和技术储备的差异，各类金融机构在大模型应用上采取的策略存在极大的不同。</p>
-<p>根据公开显示的招标信息来看，大行在2024年可以说是在创新的方向上持续投入。</p>
-<p>在国有银行中，邮储银行有5个标的，包括大模型智能研发测试辅助系统关联的三个子项目，分别由华为、阿里云和智谱华章中标，以及智能语音辅助客服、智能抽取写作平台两个项目。</p>
-<p class="image-wrapper"><img data-img-size-val="907,466" src="https://img.36krcdn.com/hsossms/20250207/v2_7186411915324eebb44b29416a9a4655@5057403_oswg108485oswg907oswg466_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>建设银行有1个标的，其中北京产品创新实验室专项任务“金融代码大模型”以单一来源方式进行采购，中标人为其金融科技子公司建信金科；另外有一个大模型赋能产业之大模型+金融论坛活动。而建信金科作为招采单位，发布了金融市场AI资金交易技术研究与应用项目对话大模型数据标注服务项目，海天瑞声中标。</p>
-<p>交通银行陕西分行作为招采人资助了西安石油大学财务人工智能大模型训练平台项目，中标人为陕西数盾慧安数据科技有限公司。</p>
-<p>值得注意的是，这三家国有大行与大模型相关的招标均为边缘或外围项目，或者通过金科子消化母公司的需求，其余国有大行未见大模型招标中标信息。</p>
-<p>在国有大行中，邮储银行的大模型推出相对较晚，其在2023年首次公布自有大模型——“邮智”，典型应用场景包括小邮助手、云柜数字员工、信贷大模型和信息科技大模型。</p>
-<p>全国股份制银行中，民生银行、光大银行、招商银行、广发银行和浙商银行均有大模型需求中标。</p>
-<p>其中，民生银行的需求为深度学习大模型训练与推理平台交换机采购，涉及的厂家为华为和新华三；招商银行的需求在于NLP预训练大模型H800GPU公有云资源采购；广发银行的需求是珠海分行珠海社保掌上办大模型社保数智人软件系统服务，而浙商银行则是向原供应商对安全运营平台进行迭代升级，包括1套安全大模型模块。</p>
-<p>浦发银行的需求与2024年大模型应用体系建设项目有关，包括算力采购（鲲鹏芯片服务器）和高性能网络设备，中标人均为华讯网络；北京银行的需求为大模型智能应用项目的智能会议和智能报告2个子项目；上海银行的需求则包括个人手机银行鸿蒙版的大模型智能体、企业级知识问答及在线客服辅助。</p>
-<h2><strong>（二）中小行加速数智化转型</strong></h2>
-<p>对于银行来说，数字化转型并不同步。总体而言，起步较早的国有银行、股份制银行，数字化转型目前进入深水区，而大多数中小银行，进展较慢。</p>
-<p>不过，似乎有更多中小银行想要加速数字化转型。比如对于大模型，国有银行和股份制银行已在多个场景进行探索应用。而中小银行进展较慢，不过目前也有越来越多机构行动起来。</p>
-<p>从2024年中旬以来，多家城、农商行发布大模型项目招标公告，以采购大模型相关平台、产品等，其中部分项目要求有一定的实施经验。</p>
-<p>2024年7月，中原银行大模型信贷助手项目中标结果公布。中标单位为北京融汇金信信息技术有限公司，中标金额51万元。该项目招标公告发布于6月18日，该行需要建设大模型信贷助手，基于生成式AI大模型，结合内外部有效数据，实现尽职调查、合规审查等信贷业务报告的智能生成以及相关信息的智能问答，促进提升信贷业务办理效率。</p>
-<p>2024年8月，上海银行个人手机银行鸿蒙版本升级项目之大模型智能体采购公告发布。采购内容显示，为全面适配鸿蒙生态系统，构建与华为新鸿蒙生态系统（HarmonyOS NEXT）全面兼容的个人手机银行应用。投标人资格要求包括：2021年1月1日以来，具有大模型对话场景相关实施案例至少1例；只接受拥有智能体相关产品著作权的供应商参与等。</p>
-<p>2024年9月，吉林银行发布大模型知识引擎（一期）建设项目招标公告，拟选择1家厂商为该行建设大模型知识引擎系统软件一套，项目资金343万元。其中一项投标人资格要求为，具有丰富的国内同类项目实施和服务经验，在近3年投标人或原厂大模型厂商成功实施过大模型项目至少2个，其中实施2个大模型项目里必须包括金融领域大模型项目1个。</p>
-<p>2024年9月，徽商银行采购AI大模型综合服务平台。招标内容显示，为提升智能化水平和金融服务能力，赋能远程银行建设，提高行内办公和面客服务效率，该行建设AI大模型综合服务平台，基于大模型的通用能力，完成一系列面向业务场景的应用建设，解决工作痛点，创造新的价值增长点。该项目预算金额584.31万元。其也要求投标人具有相关经验，具体为，2023年1月1日后，投标人至少应具有一例银行业大模型相关项目的成功实施案例。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,761" src="https://img.36krcdn.com/hsossms/20250207/v2_187a505134a04a9db959d04bb7751629@5057403_oswg59462oswg1080oswg761_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024年9月，江苏江南农商银行OCR通用大模型采购中标结果公布。中标单位为北京易道博识科技有限公司，中标金额45万元。该项目招标公告发布于7月29日，预算金额48万元。该行拟搭建一套OCR通用大模型，能迅速响应内部各类场景OCR应用需求，未来应用于信贷、营销、运营、办公、研发等多个方面，释放银行数字生产力，提高工作效率。</p>
-<p>更早前，还有北京银行、上海农商银行、广西北部湾银行等中小银行就大模型相关项目进行招标。</p>
-<p>在这些项目中，既包括为推进大模型研究与应用而采购基础硬件，也包括面向具体应用场景采购大模型等。大模型时代，中小银行在金融科技上的“马太效应”会得到强化还是弱化，这个问题值得思考。</p>
-<h2><strong>（三）大模型算力采购值得关注</strong></h2>
-<p>目前围绕大模型相关的招投标项目类型非常丰富，但整体上我们将其划归为4个大类：算力（运行大模型所需要的计算资源）、数据（大模型相关数据标注或者数据资源等）、大模型（各类垂直大模型、AI中台或者大模型基座，可能包含算力）、应用（大模型在明确场景中的融合落地，可能包含算力、AI大模型平台、应用软件等）。</p>
-<p>2024年全年，统计到金融行业大模型采购项目类别如下：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,199" src="https://img.36krcdn.com/hsossms/20250207/v2_4ed86ae8abcf4b17abd303c6cff09744@5057403_oswg100716oswg1080oswg199_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从项目类型来看，应用类项目 （其中可能包含算力、大模型等）数量最多（82个），占比62%；算力类项目次之，数量（27个）占比20%；大模型类项目（23个）数量占比17%，数据类项目占比最少。</p>
-<p>从金额分布来看，应用类项目披露的金额占比排名第一，算力类项目金额占比排名第二，大模型类项目金额占比排名第三，数据类项目的金额占比最低。</p>
-<p>应用类项目数量和金额占比最多，表明金融机构比较关注大模型技术在具体业务场景中的落地。但是从项目金额的中位数来看，金融机构可能仍处在拿少部分业务场景进行试验的阶段。而随着大模型研究应用不断深入，银行加大大模型相关算力资源的采购力度。</p>
-<p>如：2024年11月，光大银行智能运营中心大模型GPU算力资源采购项目中标候选人公示。第一中标候选人为广州南天电脑系统有限公司，投标报价1808.5万元；第二中标候选人为上海华讯网络系统有限公司，投标报价1833.4561万元。</p>
-<p class="image-wrapper"><img data-img-size-val="1050,640" src="https://img.36krcdn.com/hsossms/20250207/v2_57dbbe85ddca432296bac3077d48d818@5057403_oswg95242oswg1050oswg640_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据了解，光大银行早在2024年9月就发布了智能运营中心大模型GPU算力资源采购项目招标公告。公告显示，为满足智能运营中心在授信调查、辅助审批场景应用大模型提升客户经理作业质效的需求，金融科技部会同智能运营中心对上述大模型算力需求进行了详细评估，拟采购10台大模型算力服务器资源及1个算力组网配件。</p>
-<p>在大模型应用落地效果尚不明确的今天，把主要的预算和成本投入到“基础建设”上，也是一种稳妥且明智的选择。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/JwhXlLpRHqQzQeZgWETzDQ" rel="noopener noreferrer nofollow" target="_blank">“楼卓昊Fintech”</a>，作者：楼卓昊，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155330850799108</guid><pubDate>Fri, 07 Feb 2025 09:42:00 +0800</pubDate></item><item><title>喜新厌旧风潮席卷基金行业，新生代扛起主动权益这面大旗</title><link>https://36kr.com/p/3154804767588103</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>自去年四季度以来，主动权益基金的配置价值正逐渐回升，一批主动权益基金经理带着优异业绩重回投资者视野，其中不乏一些从业年限相对较短、风格鲜明的新锐基金经理。</p>
-</blockquote>
-<p>近年来，基金行业正经历一场深刻的变革，“去明星化”趋势日益凸显。</p>
-<p>在这场行业转型中，曾经风光无限的明星基金经理们首当其冲，成为受影响最为显著的群体。</p>
-<p>几年前，个人管理规模超500亿元的主动权益基金经理接近10人；如今，“500亿俱乐部”仅剩易方达张坤一人。</p>
-<p>规模缩水叠加业绩低迷，令公募基金主动权益的整体实力遭受质疑。</p>
-<p>然而，周期轮回是市场常识。有迹象表明，自去年四季度以来，主动权益基金的配置价值正逐渐回升，一批主动权益基金经理带着优异业绩重回投资者视野，其中不乏一些从业年限相对较短、风格鲜明的新锐基金经理。</p>
-<h2><strong>01 喜新厌旧</strong></h2>
-<p>据wind统计，截至去年四季度末，规模超过25亿元的280只基金（不同份额分开统计，下同）中，共47只在四季度份额出现增长，占比为16.79%。</p>
-<p>份额增长靠前的基金中，有不少是由新人基金经理管理的。</p>
-<p class="image-wrapper"><img data-img-size-val="865,608" src="https://img.36krcdn.com/hsossms/20250206/v2_52f52b70e5b4405a87539f31cbf411ac@5754848_oswg290177oswg865oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源：wind</p>
-<p>例如，景顺长城研究精选A在四季度份额增长了10.57亿份，排在主动型基金首位，其基金经理为张雪薇，截至去年底任职基金经理仅2.70年。</p>
-<p>季报显示，景顺长城研究精选A自2024年以来重点围绕AI产业链展开配置，除了芯片、算力等上游，也包括机械制造、汽车等下游应用。2024年，该基金取得26.36%的收益率，大幅跑赢同期业绩比较基准（14.32%）。</p>
-<p>此外，汇添富医疗服务A的张韡、招商优势企业C的翟相栋、中欧明睿新常态A的刘伟伟、南方军工改革A的邹承原、汇丰晋信新动力A的闵良超等，也是在管基金份额增长较多、任职年限不超过4年的基金经理。</p>
-<p>值得一提的是，翟相栋凭借其唯一管理的招商优势企业，在四季度末一跃成为百亿级基金经理，三季度末时其管理规模还仅有66.87亿元。Wind数据显示，招商优势企业A在2023、2024年收益率分别为27.25%、30.16%。截至1月27日，今年以来收益率也达到了7.99%。</p>
-<p>与此同时，份额缩水较多的基金中，不乏昔日知名基金经理管理的产品。</p>
-<p class="image-wrapper"><img data-img-size-val="864,584" src="https://img.36krcdn.com/hsossms/20250206/v2_5b3456ded82745618a70937144dd471a@5754848_oswg280431oswg864oswg584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源：wind</p>
-<p>例如，兴证全球基金旗下规模第二的权益产品——兴全趋势投资，在四季度缩水14.83亿份。该基金由董理管理，其任职基金经理超过8年。</p>
-<p>2024年，兴全趋势投资取得了8.15%的正收益，不过未能跑赢同期业绩比较基准（12.33%），也远比不上2019、2020年双双超过40%的收益率。</p>
-<p>此外，华商基金的周海栋、易方达基金的张坤、景顺长城基金的杨锐文、易方达基金的萧楠、广发基金的刘格菘等，这些任职10年以上的业内“顶流”管理的部分基金，也遭遇了基民的赎回。</p>
-<p>基金行业正掀起一场“革新风暴”，“喜新厌旧”俨然成为投资新风向。</p>
-<h2><strong>02 逆袭</strong></h2>
-<p>与新锐基金经理一同受到关注的还有主动权益基金的业绩表现。</p>
-<p>回顾过去，主动权益基金已连续两年跑输指数基金。</p>
-<p>Wind数据显示，2023、2024年，代表主动权益基金表现的万得偏股混合基金指数涨幅分别为-13.52%、3.45%，而同期沪深300指数的表现为-11.38%、14.68%，中证A500指数的表现为-11.42%、12.98%。</p>
-<p>但这一情况，在今年发生了变化。</p>
-<p>截至1月27日，万得偏股混合基金指数年内上涨0.15%，而同期沪深300、中证A500分别下跌2.99%、2.83%。新年首月，万得偏股混合基金指数相对于宽基指数的超额收益已达3%。</p>
-<p>1月份的震荡行情中，不乏部分主动权益基金通过把握结构性机会，重仓AI板块实现了超过30%的正收益。例如，闫思倩管理的鹏华碳中和主题A收益率为33.35%，张璐管理的永赢先进制造智选A收益率为32.06%。</p>
-<p>此外，中航趋势领航A、前海开源盛鑫A、平安先进制造主题A、前海开源嘉鑫A、富国新材料新能源A在1月份的收益率也都超过20%。</p>
-<p>相比之下，指数基金的表现则差强人意。</p>
-<p>事实上，自去年9月底以来，随着市场水涨船高，主动权益基金收益反转迅猛，结束了近几年的“颓势”。2024年，公募基金业绩前20榜单中，主动权益基金包揽了16席，其中雷志勇管理的大摩数字经济A更是以69.23%的年内业绩一举夺魁。</p>
-<h2><strong>03 尾声</strong></h2>
-<p>主动权益基金是否已迎来春天暂无法下定论，但 放眼长期，历史上主动权益基金重仓股相对于宽基指数依然创造了较多超额收益，不能单纯因为过去几年的阶段性跑输就被全盘否认 。</p>
-<p>中金财富在近期的研报中指出，目前整体超额出清时间较长、幅度较深，后续能否走出困境，取决于宏观高增长行业能否有更多超预期表现；另外，被动指数蓬勃发展给主动基金经理带来的压力也倒逼着基金经理“穷则思变”，不断反思和精进投资方法，持续迭代、与时俱进。</p>
-<p class="image-wrapper"><img data-img-size-val="865,553" src="https://img.36krcdn.com/hsossms/20250206/v2_e99d814b33f74639b20b9f4145a92a4c@5754848_oswg290444oswg865oswg553_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>近几年存量甚至减量市场中，主动权益基金份额持续缩水。因此，这场主动基金经理的“新老交替”背后，或许正是公募基金行业破浪前行的必经之路。</p>
-<p>资金不再盲目追随历史光环，而是用真金白银投票给那些敢于打破常规、聚焦前沿的“新锐势力”。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Y1gq5vvj43-tk7ERFDKM1Q" rel="noopener noreferrer nofollow" target="_blank">“阿尔法工场DeepFund”</a>，作者：基哥，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154804767588103</guid><pubDate>Fri, 07 Feb 2025 09:44:00 +0800</pubDate></item><item><title>2024年中国并购重组市场复盘</title><link>https://36kr.com/p/3154677330369031</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2><strong>01 2024年中国并购重组整体市场复盘</strong></h2>
-<p><strong>1. 中国并购市场规模统计</strong></p>
-<p>根据iFind并购库数据，<strong>2024年全年中国并购市场共发生4,553起并购事件，同比下降17.88%；已披露的交易规模约13,830亿元，同比下降18.57%。</strong></p>
-<p>分季度来看，<strong>2024年各季度并购交易数量逐季度上升，</strong>各季度分别为854件、1,063件、1,149件、1487件。2024年下半年并购交易规模也有明显上升，分别为2,154亿元、2,417亿元、4,698亿元、4,561亿元。</p>
-<p>（注：以上事件均以首次公告日为准，剔除失败事件，包含境内并购、出境并购、入境并购）</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_cf3c02ee85a741d0b4a4b03c6e78e91a@000000_oswg176098oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>2.交易体量统计</strong></p>
-<p>整体并购市场中约有 80% 的并购交易披露了交易规模。<strong>从交易规模的角度看，&lt;1亿、1~5亿、5~10亿的交易的数量占比分别约58%、28%、7%。整体市场以小于10亿的小规模交易为主。</strong>若计算平均单笔金额，可见小于 1 亿、 1~5 亿、 5~10 亿的交易的平均单笔金额分别为 2,633 万、 23,203 万、 68,857 万。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_f09b6a8015bc467ca4604305e762ace6@000000_oswg150269oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>3. 买卖方所处行业统计</strong></p>
-<p>从并购参与方所属行业分布来看：2024年机械设备、电子、计算机、医药生物等领域的并购标的最受买方青睐。机械设备、医药生物、基础化工、电子等行业的并购买方出手次数最多。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_13a4962aadc04c34b0606ba50e133521@000000_oswg142615oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>4.买卖方所处地区统计</strong></p>
-<p>从并购参与方所属地区分布来看，2024年长三角及周边、珠三角、北京、山东、四川等地区并购重组市场相对活跃。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_c2aff2098cf64135a471196af1b97562@000000_oswg127586oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>02 2024年A股上市公司并购交易情况</strong></h2>
-<p><strong>1.主板并购重组最为活跃，第三方产业并购、大股东资产注入、收购子公司为最主要类型</strong></p>
-<p>根据上市公司公告统计，2024年A股上市公司披露并购重组预案或草案的并购交易共计135单（其中2024年首次披露方案的共123单），主动披露的交易金额合计约4,693.10亿元。上年同期，以相同口径统计的并购重组交易数量和金额分别为134单、约2,180亿元；<strong>相比之下，2024年并购重组交易的数量较2023年基本持平，但并购重组交易规模在2023年基础上明显提升。</strong></p>
-<p><strong>2024年已披露的135单并购重组交易中，主板上市公司有94单</strong>（包含赛力斯、哈森股份各披露了2次重组），占年度披露交易数量的比例约70%。2024年披露交易金额的重组案例中，超过100亿元的8例超大型交易中有7例为主板上市公司，使得主板交易规模占比超过90%、明显高于其他版块。</p>
-<p><strong>按重组类型来看，2024年上市公司并购重组交易主要集中在第三方产业并购、大股东资产注入和收购子公司少数股权3种类型，</strong>合计超过总数85%。2024年市场化并购交易占比达40.74%，相比2023年市场化并购交易占比35.82%略有提升。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_c92124683bbd437bbd97522bd72978cd@000000_oswg238941oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>2.上市公司并购重组20亿规模以下占主流，支付工具以发行股份为主，定向可转债支付案例增多</strong></p>
-<p>2024年披露的135单上市公司并购重组交易中，披露交易规模的仅78单，占比57.78%。</p>
-<p><strong>2024年已披露交易规模的78个并购案例中，</strong>交易作价5亿元以下的有26单，占比达到33%，5-20亿元的有21单，占比达27%。<strong>20亿元及以下的并购重组交易合计占比60.26%。</strong></p>
-<p>已披露交易规模的并购案例中，采用发行股份作为支付方式之一的案例为38单，占比为49%，相同统计口径下，2023年采用发行股份作为支付方式之一的案例占比为50%；<strong>发行股份仍是最成熟、最受市场欢迎的重组支付方式。</strong></p>
-<p><strong>监管部门持续鼓励探索多元化重组支付方式。</strong>2024共有6个并购重组案例将定向可转债作为重组交易支付方式之一（思瑞浦、富乐德、晶丰明源、中国动力、华海诚科、领益智造），较2023年的1例（富瀚微）数量有明显提升。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_0e97f674835d4cf0b2496cb3b43c902c@000000_oswg250914oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>3.第四季度上市公司并购重组动作最为活跃，但全年大部分交易仍处于预案发布阶段</strong></p>
-<p><strong>根据公司公告整理，2024年共有77家上市公司发布发行股份购买资产的预案，3家上市公司拟换股吸收合并（国泰君安、中国船舶、海联讯）。</strong></p>
-<p>从预案发布时间上看，在9月底发布的“并购六条”等鼓励并购重组的法规激励下，<strong>2024年第四季度共有47家上市公司发布拟发行股份购买资产/换股吸收合并的预案，</strong>占全年总数的59%，这类公司几乎都仍处于预案阶段。</p>
-<p>从交易进度上看，<strong>2024年已发发行股份购买资产或换股吸收合并预案的公司大部分仍处于已发预案阶段，</strong>有12家处于已发草案阶段，8家审核通过（赛力斯、国联证券、三友医疗、甘肃能源、中钨高新、普源精电、国泰君安），4家已终止（交建股份、新天药业、*ST同洲、四川九洲，四家均于草案发布前终止）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_011852d5c76d4212aad8b3f474c1d351@000000_oswg206148oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>4.2024年行政审批类并购重组通过单数进一步缩减，项目实际过会率有所下滑仅为47%</strong></p>
-<p><strong>2024年审核注册类并购重组审核完成审核15单，通过14单。</strong>涉及收购的标的资产共计17家，其中，10家使用了收益法进行定价、4家使用资产基础法进行定价、3家使用市场法进行定价。</p>
-<p>行政审批类的并购重组审核通过率自2020年度的81%持续提升至2023年的96%，2024年通过率保持在93%。但22-24年在证监会或交易所反馈后撤回申请材料的案例分别为21单、8单、15单，<strong>因此实际上受理后项目成功率分别为63%、73%和47%，实际过会率进一步下滑。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_d6e68e7c299840d3a5e7614e1fda96d2@000000_oswg171977oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>5.行政审批类的交易在各个阶段均有可能终止</strong></p>
-<p>根据公司公告整理，2024年共有37家上市公司发布公告终止筹划发行股份购买资产等相关事宜。</p>
-<p>分终止阶段梳理上述事项，<strong>可见有5家在停牌/提示性公告后即终止（占比13%），14家在发布预案后终止（38%），3家在草案发出后终止（8%），15家在审核受理后终止（41%）。在筹划的各个阶段均有一定比例的交易终止。</strong></p>
-<p>分筹划时间梳理上述事项，<strong>可见有5家在1个月内即终止（占比13%），4家在半年内终止（11%），11家在半年~1年间终止（30%），17家在1年后才终止（46%）。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_0cf8d9de41bf4e78a1a62116199364c7@000000_oswg245490oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024年有5家筹划跨界并购的上市公司在停牌后半个月内即宣告终止，有1家换股吸收合并的案例亦在停牌后不久即终止。事件梳理如下：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_47878c6638e2468896bbd373e81dd31e@000000_oswg234160oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>03 2024年收购A股上市公司控制权的情况</strong></h2>
-<p><strong>1.协议转让为上市公司控制权变更的主流方式，约六成的新进实控人为民营资本</strong></p>
-<p>以权益变动报告口径统计，<strong>2024年共有161家A股上市公司发生控制权变更，</strong>较2023年活跃度（155家）略有回升。其中，因无偿划转、继承、资产分配及一致行动关系变更等非交易行为变更的案例共有63单，约占总数的39.13%；<strong>因协议转让、破产重整、定增等交易行为变更的案例共有98单，占比为60.87%。</strong></p>
-<p>从获得控制权的方式看，2024年，除因无偿划转、继承、资产分配及一致行动关系变更等非交易行为案例，<strong>协议转让仍是上市公司控制权变更的主流方式，</strong>其中43.18%为通过协议转让单一方式，56.82%为通过协议转让与其他途径组合的方式取得上市公司控制权。</p>
-<p>剔除因无偿划转、继承、资产分配及一致行动关系变更、表决权变更等非交易行为以及部分无明确实际控制人性质披露的案例（ST吉药、*ST步高、*ST傲农），<strong>2024年度上市公司控制权变更案例中，民营资本的上市公司买家占多数，约61.46%新进实际控制人为民营资本。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_1adcbc398d31409bbe95c3fea372cd23@000000_oswg238286oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>2.创业板、主板公司控制权转让相对活跃，15~45亿中小规模市值公司最受买方青睐</strong></p>
-<p><strong>按板块分布看，各版块交易数量分别为主板96单、创业板48单、科创板8单、北交所9单，创业板、主板的控制权变更相对活跃，科创板活跃度最低，</strong>仅有1.41%的科创板公司发生了控制权变更。北交所本年度实现控制权协议转让交易零突破，恒拓开源和润农节水两家公司分别完成控制权转让交易，此外本年度北交所控制权变更公司占比较高，主要系全部公司数量基数较少，且多数因一致行动关系变更、继承、家庭内部资产分配等非主动交易原因。</p>
-<p><strong>中小规模上市公司仍是控制权变更的主流目标：</strong>以首次披露日前一交易日的数据看，2024年控制权变更的上市公司市值平均数为59.70亿元，中位数为38.07亿元。其中，<strong>15-45亿元规模的中小规模上市公司最受买方青睐，合计占全年控制权变更交易数量的45.34%。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_b1aaa397a6564f48b810875380d94b50@000000_oswg207397oswg1080oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024年，并购重组市场支持政策全面推出，中国并购重组市场朝气蓬勃。虽然在探索的初期阶段，企业并购重组仍在战略、方案、合规等方面存在诸多挑战。但我们相信，随着市场的进一步优化和完善，2025年并购重组市场将进一步迸发活力，带来诸多发展机遇。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg2MTk3MDg3OA==&amp;mid=2247502660&amp;idx=1&amp;sn=8ffc35c6385146828a0dab9014ea2401&amp;chksm=cf7a7f8bc81a3170714a4f7e8f9dfa4f7ad432c463b36ff407087e2c39dc2896cd4a7e305ab8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“云岫资本”（ID：winsoulcapital）</a>，作者：云岫资本并购部，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154677330369031</guid><pubDate>Fri, 07 Feb 2025 09:46:00 +0800</pubDate></item><item><title>OpenAI联创Schulman闪电跳槽，从Anthropic转投Murati新公司</title><link>https://36kr.com/p/3155842264062472</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>跑去隔壁Anthropic的OpenAI联创<strong>John Schulman</strong>，又又又跳槽了。</p>
-<p>《财富》爆料，Schulman新的去向，是加入原OpenAI首席技术官<strong>Mira Murati的新创业公司</strong>。</p>
-<p>此时距离他转投Anthropic，仅仅不到半年。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,441" src="https://img.36krcdn.com/hsossms/20250207/v2_20c8f2d5584b4951ac4bbd02f3678448@5091053_oswg86068oswg1080oswg441_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对此，Mira公司方面拒绝置评，Schulman也尚未给出回应。</p>
-<p>但《财富》表示，两名透露此事的消息人士是通过与相关方面的第一手对话得知Schulman的动向的。</p>
-<h2><strong>Schulman是谁？</strong></h2>
-<p>即使跳槽去了隔壁的Anthropic，Schulman最为人熟知的身份，依然是OpenAI联合创始人。</p>
-<p>离开OpenAI之前，Schulman已经在那里工作了9年，并且当时这是他除了实习之外做过的的唯一一份工作。</p>
-<p>甚至加入OpenAI的时候，Schulman还是一名在读博士，师从强化学习大牛、曾经吴恩达的第一批博士生<strong>Pieter Abbeel</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="767,1034" src="https://img.36krcdn.com/hsossms/20250207/v2_30e2001bb1e742099b4f59641ec33f27@5091053_oswg773752oswg767oswg1034_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>他的代表作、也是最高引论文PPO发表于2017年，这是ChatGPT核心技术RLHF中选用的强化学习算法。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,634" src="https://img.36krcdn.com/hsossms/20250207/v2_bbad10f7ff784a82bb1732d5f884427b@5091053_oswg159321oswg1080oswg634_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Schulman长年领导OpenAI强化学习团队，被誉为<strong>ChatGPT架构师</strong>。</p>
-<p>后来在从GPT-3.5、GPT-4到GPT-4o的一系列工作中都领导了对齐/后训练团队。</p>
-<p>OpenAI前首席科学家Ilya离职后，Schulman还接手了超级对齐团队。</p>
-<p>去年8月，Schulman宣布离职并加入隔壁Anthropic，原因是想更深入地关注AI对齐，并重返技术工作。</p>
-<p>当时Schulman还专门解释，OpenAI对安全对齐工作并不是缺乏支持。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,641" src="https://img.36krcdn.com/hsossms/20250207/v2_a72be4ee9e664fc3b61d93c8123d0bbf@5091053_oswg356956oswg1080oswg641_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Schulman的这则消息发布后仅20分钟，奥特曼就在回复中感谢了他的贡献，顺带回忆了两人2015年一家咖啡馆里初次见面时的情景。</p>
-<p>并且平时发推只用小写的奥特曼，特意用上了大写字母以表正式。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,718" src="https://img.36krcdn.com/hsossms/20250207/v2_9bc116bc4b5e40edb0b9e0bd60c52514@5091053_oswg343561oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另外，Schulman离职信中除了提及奥特曼和总裁Brockman，<strong>还cue到了Mira</strong>。</p>
-<p>当时Schulman说，Mira和Bob对他十分信任，给了他很多机会并且帮他找到了面对很多困难的办法。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,371" src="https://img.36krcdn.com/hsossms/20250207/v2_062e94ec3d1241e8a1568668ed406010@5091053_oswg251785oswg1080oswg371_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>Mira神秘创业公司众星云集</strong></h2>
-<p>Mira离开OpenAI是在去年9月，给出的解释是“为了给自己创造时间和空间，进行一些个人探索”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,980" src="https://img.36krcdn.com/hsossms/20250207/v2_27d2b40963ab4b9294a64ba66139241d@5091053_oswg581604oswg1080oswg980_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在此之前，Mira在OpenAI负责监督公司的技术战略和产品开发，包括DALL-E、Sora和ChatGPT平台的推出和改进，同时还领导研究和安全团队。</p>
-<p>到了10月，Mira就被曝正在筹备新公司/AI实验室，吸金超过1亿美元（约7亿多人民币）。</p>
-<p>时至今日，Mira新公司的名字和具体工作内容依然处于未公开状态，只知道是和AGI相关。</p>
-<p>但这种神秘并不妨碍Mira的公司吸引大量人才，已经有10余位顶尖研究员和工程师投奔。</p>
-<p>而且各个来头不小，分别来自OpenAI、谷歌、Anthropic等AI巨头。</p>
-<p>比如OpenAI特别项目负责人<strong>Jonathan Lachman</strong>，工作内容包括支持各种全公司范围的计划、战略合作伙伴关系和特别项目，直接向奥特曼汇报。</p>
-<p>最新消息依然来自《财富》，消息人士透露，OpenAI超级计算团队的<strong>Christian Gibson</strong>，以及IT经理<strong>Mario Saltarelli</strong>，也被挖到了Mira的公司。</p>
-<p>不过目前，两人的领英资料仍然显示为OpenAI。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,427" src="https://img.36krcdn.com/hsossms/20250207/v2_1492a92e4dce4ebba6d1ccbe81f013a6@5091053_oswg127177oswg1080oswg427_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>参考链接</strong>：</p>
-<p>https://fortune.com/2025/02/06/openai-john-schulman-mira-muratis-startup-anthropic/</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/03_KJeOUsl308EoqhfOpBQ" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：克雷西，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155842264062472</guid><pubDate>Fri, 07 Feb 2025 09:47:00 +0800</pubDate></item><item><title>极致设计，灾难体验？10 年前的 The New MacBook 为何让人「又爱又恨」</title><link>https://36kr.com/p/3154641946106624</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 07 Feb 2025 11:30:21 +0800</lastBuildDate><pubDate>Fri, 07 Feb 2025 11:30:21 +0800</pubDate><item><title>极致设计，灾难体验？10 年前的 The New MacBook 为何让人「又爱又恨」</title><link>https://36kr.com/p/3154641946106624</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>2015 年 3 月 9 日，苹果在旧金山的芳草地艺术中心召开了 Spring Forward 主题发布会。「迎春前行」，一语双关——时令上的春日已经来到，美国夏令时即将开始，人们需要把钟表向前拨一小时；乔布斯离世之后的苹果又将在何处寻找春天？</p>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250206/v2_8b1c5f80bc4541239de2653bc5212508@000000_oswg39272oswg1080oswg625_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p>2014 年发布的「违背祖宗」的 iPhone 6 收获了 iPhone 历史上，乃至整个智能手机历史上最高的单品销量——约 2.2 亿部。苹果给它的 slogan 是「岂止于大」，但恰恰是表象上的「大」造就了这款产品的火爆销量。同台发布的 Apple Watch 是第一款没有乔布斯参与的苹果产品，即使发布之初略显稚嫩、迷茫，如今也已成长为一款现象级产品，赢得了大家的认可与喜爱。</p>
@@ -508,4 +327,698 @@
 <p>乐摩物联指出，智能按摩服务行业的领先智能按摩服务供应商正在加快国际扩张步伐，尤其是在东南亚等经济增长强劲且智能经济模式广泛接受的地区。传统的按摩文化加上较低的劳动力和运营成本，为进入这些市场的智能按摩服务供应商提供了战略优势。</p>
 <p>此次IPO，乐摩物联便表示，将募集资金用于扩展亚洲海外市场，尤其是泰国及其他东南亚城市。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Dx4U78ftUnkbGzTqMGnl8A" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”</a>，作者：林琬斯，编辑：李晓萱，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155905738627841</guid><pubDate>Fri, 07 Feb 2025 10:47:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155905738627841</guid><pubDate>Fri, 07 Feb 2025 10:47:00 +0800</pubDate></item><item><title>2025，让消费股站在舞台中央</title><link>https://36kr.com/p/3155932072762114</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="5376,3360" src="https://img.36krcdn.com/hsossms/20250207/v2_0aae5342a7ef4370a02f928b22e7b78c@216719_oswg2563476oswg5376oswg3360_img_jpg?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在DeepSeek光环的强势照耀下，A股开年以后完全陷入了AI科技的狂欢。</p>
+<p>然而，如果冷静下来仔细思考今年的经济发展，会发现消费其实才最应该站在舞台的中央。</p>
+<h2><strong>【产业有潜力】</strong></h2>
+<p>2024年12月，中央经济工作会议将扩大内需提升到重点工作的首位，旗帜鲜明的提出要大力提振消费。与此同时，2025年的地方政府两会纷纷响应中央号召，在新一年工作规划中对消费浓墨重彩。</p>
+<p>把消费摆在突出位置，这并非一拍脑门的主观决策，而是完全符合当下客观发展规律的必由之路。</p>
+<p>国内经济向来有投资、出口、消费三驾马车，目前出口因关税卷土重来而高悬达摩克利斯之剑，投资和消费我方虽都能掌握战略主动，但对比下来，投资对经济的拉动效率要远逊于消费。</p>
+<p>中国经历了连续几十年的高强度固定资产投资，其结果是基建投资的回报率和边际经济效应均不断走低，在《政府基建投资的财政乘数：基于DSGE模型的分析》一文中，作者明确指出政府基建投资的财政乘数已显著低于1，也就是政府用于基建的投资增加1元，短期对GDP的拉动小于1元。</p>
+<p>消费则完全不同。</p>
+<p>中泰证券基于2024年9-12月的社会消费零售额分项和以旧换新财政补贴金额做过测算，发现财政用于以旧换新的补贴每增加1元，可带动相关销售增加约2.5-2.8元，按照社零到GDP最终消费支出0.75的系数折算，以旧换新的GDP平均乘数大约是2，也就是投入1元用于“以旧换新”最终可拉动2元GDP。</p>
+<p>家电市场的表现最能反映这种刺激效果，根据奥维云网的统计，在2024年9月以旧换新政策出台前（2024年年初至8月25日），彩电、空调、冰箱冷柜、洗（干）衣机、热水器、油烟机、燃气灶等七大品类线上和线下的零售量同比分别增长5.0%和-10.0%，而在以旧换新政策落地后的第35周到第52周（8月26日-12月29日），这个数据分别飙升到19.1%和49.1%。</p>
+<p>理解了这些，也就理解了为什么政策对消费格外关照和重视。</p>
+<p>2025年1月8日，国家发改委和财政部公布《关于2025年加力扩围实施大规模设备更新和消费品以旧换新政策的通知》，国新办新闻发布会随即对相关内容进行解读，消费补贴政策迎来了历史最大篇章。</p>
+<p>根据平安证券的计算，2024年全年中央和地方以旧换新的投入总规模在1700亿元左右，而中央财政最新部署的2025年首批政策资金已下达810亿，假设这些钱按时间进度对应1.5-3个月的资金消耗，那么2025年全年中央财政最终可能安排3240到6480亿元的以旧换新补贴规模，预计拉动2025年社零同比增速1.3-2.7个百分点，这个数据相比2024年明显上了一个大台阶。</p>
+<p>把时间线拉长看，2025年甚至完全可能超过2010年，成为史上消费品补贴强度最大的一年。</p>
+<p>2008-2011年政策补贴家电汽车等耐用品消费，两大行业的基本面和股价均实现上行；2020-2021年发放消费券支持餐饮零售消费，白酒、家电龙头和处在成长期的新能源车全部表现亮眼。</p>
+<p>2025年，时代的钟摆又一次指向了消费股。</p>
+<h2><strong>【企业有价值】</strong></h2>
+<p>2021-2024年，A股消费板块连续四年走熊，长时间、宽范围、大幅度的调整使得整个消费板块的估值得到充分消化，跌出了价值，也跌出了拉升空间。</p>
+<p>以消费80指数（聚焦从消费板块中精选出来的80家龙头企业）为例，截至2024年Q3末，该指数整体ROE为11.38%，远高于A股平均水平，可以说很有竞争力；其当前近五年PE（TTM）只有20倍左右，位于5%分位点上下，可以说又相当低估。具体到微观企业层面，像格力电器这种企业的股息率已高达7.4%，秒杀以高股息著称的银行股。</p>
+<p>随着今年消费刺激继续加码，消费股的价值势必还会抬升，其中家电、汽车和消费电子等受益补贴的产业是重中之重。</p>
+<p>具体来看，考虑到汽车赛道的竞争烈度实在太大，短时间内恐难以有效释放利润，可以放在次要位置。家电应该重点关注，按照中金的测算，中性预期下2025年将有800-1000亿的家电补贴，或许能保证家电零售大盘实现10%左右的增长。如果真能如此，龙头家电企业可以轻松实现两位数增长。</p>
+<p>消费电子同样有机可寻，在AI手机、智能穿戴等新品类贡献下，2024年以来全球消费电子出货量明显回暖。根据IDC的数据，2023Q3、2023Q4、2024Q1、2024Q2、2024Q3、2024Q4全球智能手机销量分别同比增长-0.1%、8.5%、7.8%、6.5%、4.0%、2.4%，同期全球PC销量分别同比增长-7.6%、-2.7%、1.5%、3.0%、-2.4%、1.8%，中国的数据变化基本与全球一致。最新的补贴政策已将手机、平板、智能手表手环等消费品纳入到支持品类，这无疑会对消费电子的复苏提供进一步支撑。</p>
+<p>还有一点值得注意，就是家电和消费电子领域的一些头部公司过去几年本身也在进化和进击。比如家电产业的美的和海尔，前者成功开辟了商业及工业解决方案、新能源及工业技术、智能建筑科技、机器人与自动化等B端新增长曲线，后者则在医疗和工业互联网领域长驱直入；再比如消费电子产业是立讯和歌尔，分别将触角伸进了新能源车和AR/VR，持续拓展业务增量。</p>
+<p>总之，A股已经有一批具备性价比和吸引力的消费公司，这些标的在被冷落数年后很可能重新得到市场青睐，投资者理应对此有所准备。</p>
+<p>对于想要均衡配置的投资者而言，也可以选择一些有代表性的基金来间接参与，<strong>比如A500ETF基金（512050）就是一个不错的选择，其中既包括了成长性的新兴科技公司，又有家电和食品饮料等稳健的消费公司。</strong>这里需要多说一句，A500对标的是标普500，是目前为止最能反映A股全貌的指数，也是有史以来国内所有指数中最快达到千亿规模的，备受市场关注和青睐，<strong>A500ETF基金（512050）更是异常火爆，截止到2月6日，该基金规模已高达202亿以上，成交额持续位居同类第一。</strong></p>
+<p>一段时间以来，以AI为核心的科技公司不仅在资本市场风头无两，在整个社会也是集万千宠爱于一身。人工智能代表未来，再怎么重视也不为过，这一点无可争议。但是，仅就眼下的经济而言，消费无疑是最应该被重视的，像家电和汽车分别都是万亿、10万亿级别的产业，其对宏观经济的牵动不是目前AI能比的。消费股站起来了，经济也就拉起来了。</p>
+<p>中泰证券的数据显示，2020年-2022年中国公共消费率平均比全球水平低大约0.8个百分点，相比发达国家的差距还要更大，如果中国公共消费率能达到全球平均水平，那么每年的公共消费将有万亿规模的提升空间。</p>
+<p>2025，既要有科技革命宏大叙事，也要有柴米油盐的人间烟火气。</p>
+<p><strong>免责声明</strong></p>
+<p>本文涉及有关上市公司的内容，为作者依据上市公司根据其法定义务公开披露的信息（包括但不限于临时公告、定期报告和官方互动平台等）作出的个人分析与判断；文中的信息或意见不构成任何投资或其他商业建议，市值观察不对因采纳本文而产生的任何行动承担任何责任。</p>
+<p>——END——</p>
+<p><strong>作者：文雨，编辑：小市妹</strong></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155932072762114</guid><pubDate>Fri, 07 Feb 2025 11:00:00 +0800</pubDate></item><item><title>GPT-4o多模态核心大佬离职OpenAI，联创Schulman跳槽前CTO初创</title><link>https://36kr.com/p/3155886207556352</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>刚刚， OpenAI多模态团队负责人Alexander Kirillov官宣离职。</p>
+<p class="image-wrapper"><img data-img-size-val="870,326" src="https://img.36krcdn.com/hsossms/20250207/v2_f7a7d4a9cbde497b9621574874170fb0@5091053_oswg61943oswg870oswg326_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>更劲爆的是，昨天刚被曝出离职Anthropic的OpenAI联创John Schulman，反身就加入了前CTO Mira Murati创业公司。</p>
+<p class="image-wrapper"><img data-img-size-val="1022,408" src="https://img.36krcdn.com/hsossms/20250207/v2_0738c0ce2b854f2f800139b816c61747@5091053_oswg70587oswg1022oswg408_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>一位GPT-4o多模态核心leader离职，一位加入前CTO阵营，对OpenAI来说简直是双重打击。</p>
+<h2><strong>GPT-4o多模态关键大佬</strong></h2>
+<p>在OpenAI，Alexander Kirillov带领团队致力于多模态模型的研发工作，推动模型不仅能够处理文本，还能同时理解和生成图像、音频等多种数据。</p>
+<p>他参与并主导了备受瞩目的「Segment Anything」项目，该项目不仅推出了一个交互式演示系统，还发布了包含11亿个mask的大规模数据集及相关代码。</p>
+<p>在OpenAI，他领导了GPT-4o的训练后多模态工作，负责将GPT-4o的文本、图像、音频和视频处理能力整合到一个统一的模型中，并优化其性能。</p>
+<p class="image-wrapper"><img data-img-size-val="562,333" src="https://img.36krcdn.com/hsossms/20250207/v2_9e482dde16174553a04131ec856c190f@5091053_oswg27541oswg562oswg333_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">论文地址：https://arxiv.org/pdf/2410.21276</p>
+<p>GPT-4o是一种自回归全能模型，可以接受文本、音频、图像和视频的任意组合作为输入，并生成文本、音频和图像的任意组合作为输出。</p>
+<p>它在英语文本和代码方面的性能与GPT-4 Turbo相当，但在非英语语言文本方面有显著改进，同时在API中速度更快，成本降低了50%。</p>
+<p>Kirillov的工作对于GPT-4o实现多模态理解和生成至关重要，使得GPT-4o能够更好地理解和处理多种类型的信息，并以更自然、更直观的方式与用户交互。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,715" src="https://img.36krcdn.com/hsossms/20250207/v2_3ebe8b92d0174beab636e7de8ea208f8@5091053_oswg289041oswg1080oswg715_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>SAM一作，多次与何恺明、谢赛宁联手</strong></h2>
+<p>在Meta任职期间，Alexander Kirillov曾与何恺明、谢赛宁等大佬一起合作了多篇论文。</p>
+<p>在爆火论文「分割一切」（Segment Anything）中，他是项目负责人。</p>
+<p>Segment Anything构建了一个用于图像分割的基础模型，它包含三个相互关联的组件：可提示的分割任务、分割模型 (SAM) 和数据引擎。</p>
+<p>此外，团队还使用数据引擎构建了当时最大的分割数据集SA-1B，其中包含1100万张图像和超过10亿个掩码。</p>
+<p class="image-wrapper"><img data-img-size-val="935,171" src="https://img.36krcdn.com/hsossms/20250207/v2_9ec22c0978bb45fc989c182112fc9e46@5091053_oswg57957oswg935oswg171_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">论文地址：https://arxiv.org/pdf/2304.02643</p>
+<p class="image-wrapper"><img data-img-size-val="1080,208" src="https://img.36krcdn.com/hsossms/20250207/v2_07b2310cb8cb4e2a9f3da123f16aab05@5091053_oswg102416oswg1080oswg208_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,380" src="https://img.36krcdn.com/hsossms/20250207/v2_f878107a7c5c4890a0ea6f8f3809f29d@5091053_oswg115241oswg1080oswg380_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="916,231" src="https://img.36krcdn.com/hsossms/20250207/v2_6be1cca0718b42919d14f158f2267ebf@5091053_oswg49550oswg916oswg231_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,198" src="https://img.36krcdn.com/hsossms/20250207/v2_8d6059bee390488190728dbd2e2625fd@5091053_oswg86057oswg1080oswg198_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1003,221" src="https://img.36krcdn.com/hsossms/20250207/v2_0083278a74484e1482d92b6d501564ee@5091053_oswg55103oswg1003oswg221_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,208" src="https://img.36krcdn.com/hsossms/20250207/v2_9456bb33d7b0484b9bee1b9fdf37a51d@5091053_oswg79133oswg1080oswg208_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Alexander Kirillov于2023年8月加入OpenAI。</p>
+<p>在此之前，他曾担任Facebook AI研究院（FAIR）的研究科学家，专注于计算机视觉研究。</p>
+<p>2018年，他在德国海德堡大学获得计算机科学博士学位，导师是Carsten Rother。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,326" src="https://img.36krcdn.com/hsossms/20250207/v2_d8b2a0aae046463cb86589163eb205bf@5091053_oswg178816oswg1080oswg326_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>他的研究兴趣集中在视觉推理和结构化计算机视觉问题。研究成果多次发表于CVPR、ICCV、NIPS和ICRA等国际顶级学术会议。</p>
+<p>2017年，他作为主要成员，赢得了COCO Stuff分割挑战赛。2018年，他在ECCV组织了COCO全景分割挑战赛。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,4943" src="https://img.36krcdn.com/hsossms/20250207/v2_4860f45fcc8d428d85320a9a9a8f5370@5091053_oswg1947736oswg1080oswg4943_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>截至目前，Alexander总被引数高达4万。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,601" src="https://img.36krcdn.com/hsossms/20250207/v2_2396110947bb46a79c91d89e539741d2@5091053_oswg217029oswg1080oswg601_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>OpenAI联创火速入职前CTO初创</strong></h2>
+<p>昨天，OpenAI联合创始人John Schulman才刚刚官宣离职Anthropic；今天又被曝出加入了 由前OpenAI首席技术官Mira Murati创立的Thinking Machines Lab 。</p>
+<p>作为一位资深AI研究员，Schulman曾带领OpenAI团队开发了多项创新技术，为ChatGPT的成功做出了重要贡献。</p>
+<p>在去年秋季OpenAI高层出现动荡期间，包括Murati在内的多位高管相继离职。当时Schulman也选择加入了竞争对手Anthropic。</p>
+<p>如今，在短短的半年之后，两位老同事再次重聚。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,420" src="https://img.36krcdn.com/hsossms/20250207/v2_4a7c012bec3c4a55a0baad20cdada704@5091053_oswg403306oswg1080oswg420_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>Thinking Machines Lab</strong></h3>
+<p>Schulman并不是Mira Murati唯一的「前同事」。</p>
+<p>初创企业Thinking Machines Lab，已经成功从OpenAI挖来多位重量级研究人员，其中包括：</p>
+<p>前后训练负责人Barret Zoph：致力于对齐、工具使用、评估、ChatGPT、搜索、多模态等等。</p>
+<p>前高级研究员Luke Metz：OpenAI初始团队的一员，参与了ChatGPT的前身「低调的研究预览」产品</p>
+<p>前研究员Sam Schoenholz：专研机器学习和统计物理</p>
+<p>据了解，Murati在与潜在投资者沟通时表示，公司的目标是开发能够执行复杂任务的AI系统。</p>
+<p>2024年，OpenAI进行新一轮股权融资时，Mira Murati突然辞去首席技术官一职。</p>
+<p>随后，她迅速开始招募原来的同事，筹备创立自己的AI初创公司，并已完成逾10亿美元融资。</p>
+<p>Murati计划将新公司命名为Thinking Machines Lab，可能是向科幻小说《沙丘》里的智能「思考机器」致敬。</p>
+<p>特拉华州的注册文件显示，Thinking Machines Lab是一家公益公司。</p>
+<p>这种架构允许企业在追求利润的同时兼顾社会影响，能在一定程度上防范激进投资者的干预。</p>
+<p>这与OpenAI正在寻求的转型不同，采用公益公司结构的初创企业，如Anthropic和xAI，在决策时必须声明其公共效益目标，并在股东利润之间寻求平衡。</p>
+<p>目前，公司具体的业务方向还未明朗。但根据她对潜在投资者的说法，公司致力于开发AI智能体。</p>
+<p>至少有一点是确定的：Thinking Machines Lab正在重点从OpenAI挖人。</p>
+<p><strong>参考资料：</strong></p>
+<p>https://x.com/_alex_kirillov_/status/1887642706408841503</p>
+<p>https://www.theinformation.com/briefings/openai-co-founder-john-schulman-is-joining-mira-muratis-startup?rc=epv9gi</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/2wMBKGsJ9S11sst6P_NjQA" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，作者：新智元，编辑：编辑部，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155886207556352</guid><pubDate>Fri, 07 Feb 2025 11:01:00 +0800</pubDate></item><item><title>春节上海73场快闪：谁是IP长线运营的下一个“试验田”？</title><link>https://36kr.com/p/3155931871533575</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近年来，商业体快闪活动持续走红，成为吸引消费者、激活商圈流量的核心手段。火爆的背后，是多方需求的交汇与商业模式的创新迭代。</p>
+<p>一定程度上，业界看好的是“二次元”IP商业的爆发性、商品化能力以及成长潜力；同时，很多IP还有“潮汐式”的特点，火得快凉得也快，对想入局的品牌、商业体提出了更多要求。因此，“快闪”的即时性可以有效规避相关问题，如今的商业体除了引入谷子店、潮玩店等固定业态外，IP快闪这类短周期、高灵活度的临时性业态也逐渐成为主流。</p>
+<p>除了一般意义上的IP快闪外，限时展览、联名主题店、主题餐厅、主题咖啡、音乐会、限定集市等都属于快闪活动的一种。这类活动本身非常依托于地区市场，还有IP社群的流量，自身属性也决定了“快闪”将成为一个IP消费者线下链接的平台。商业体在此基础上进行布局发展，已经不再仅仅局限于物质空间，而是在培育一个促进内容衍生、包容开放的商业土壤，营造的是更为年轻化、充满活力的商圈社区文化。</p>
+<p>以二次元浓度最高的上海市为例，据雷报不完全统计，2024年内上海的主要商场举办的IP快闪、特展、主题餐厅、主题咖啡店等快闪活动至少有193场（人工统计存在误差）。时间来到2025年春节，短短一周的假期时间，百联ZX创趣场、百联ZX造趣场、新世界城、静安大悦城、五角场合生汇等上海主要的二次元商业体就举办了近30场快闪；加上其他商业体正在或即将举办的快闪类活动，上海地区2025年前两个月就将推出共计73场线下活动。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,692" src="https://img.36krcdn.com/hsossms/20250207/v2_0b38403cc3bd4db088848c9a76412d71@5091053_oswg161250oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1391" src="https://img.36krcdn.com/hsossms/20250207/v2_08a329e604de4b989bee6f29582efbee@5091053_oswg326249oswg1080oswg1391_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>随着快闪模式的发展成熟以及“谷子经济”的崛起，“快闪”活动的最终目的也不再局限于品牌曝光和营销推广的层面，行业开始更加关注快闪的实际销售转化。</p>
+<p>对于大悦城这样的头部商业体而言，数百万销售额的快闪似乎并不难，其2024年与“线条小狗”联合推出的线条大作战主题快闪活动的销售金额更到了千万级。官方数据显示，上海静安大悦城在7-9月举办的14场快闪活动中，有8场快闪销售金额突破500万元，14场快闪的累计销售金额约8000万元，场均销售额约570万元。</p>
+<p class="image-wrapper"><img data-img-size-val="830,325" src="https://img.36krcdn.com/hsossms/20250207/v2_d4f487c891b94751ba45e134f1210280@5091053_oswg141585oswg830oswg325_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而，放眼更多“快闪”活动种类，雷报亦发现，部分快闪业态仍处在IP粉丝“为爱发现”的“灰区”。在下文，雷报将以春节期间上海重点商业体的快闪活动为例，剖析国内快闪活动的发展现状及未来趋势。</p>
+<h2><strong>市场重构与流量焦虑：消费者、品牌、商业体的“三角关系”</strong></h2>
+<p>想要理解“快闪”模式为什么能高速发展，需要先理解消费者、品牌、商业体的“三角关系”。</p>
+<p>对消费者而言，快闪活动是从“购物”到“社交”的沉浸式场景重构。这意味着消费者不再满足于单纯的商品交易，更追求情感共鸣与社交价值。例如今年春节，“王者福梯”新春主题快闪装置亮相TX淮海、百联ZX造趣场、上海百联又一城购物中心三大商业体，通过打造圈层社交的需求。</p>
+<p>对品牌而言，试水市场与流量收割的双重驱动下，“快闪”模式成为品牌营销需求升级的理想落点。快闪店通过“限时+限量”的稀缺性策略，成功迎合了品牌对市场测试和精准营销的需求。例如，静安大悦城在2025跨年迎新购物季期间推出的“数码宝贝主题限定快闪店全国首站”，以25周年纪念商品和手游互动场景吸引核心粉丝，既试水了IP衍生产品的市场接受度，又通过沉浸式体验强化品牌记忆。此外，快闪店的低成本属性（短期租赁、轻资产运营）降低了品牌的试错风险，尤其适合新兴IP或小众品牌快速积累声量。</p>
+<p>对商业地产而言，商业体的流量焦虑与业态焕新需求使得“快闪”模式进一步飞速发展。面对电商冲击，实体商业体亟需通过高频次、多样化的活动维持吸引力，上海静安大悦城为例，2024年该单个商业体的年内快闪活动多达62场，而2023年同期的快闪活动仅有24场。商业体每月数场快闪活动持续刷新消费者认知，可以形成“常来常新”的消费黏性，延长消费者停留时间，提升商圈综合收益。</p>
+<p>百联ZX团队就曾在接受雷报采访时表示，“现在的很多商场都引进了二次元业态，但要看商场真正的消费转化，其实大多数还是靠餐饮业的，商场本身不是靠二次元业态来挣钱的。”“商场本身只是希望二次元业态承担引流的工作而非销售转化。”</p>
+<p>不久前，百联股份旗下第二座二次元商业体“百联ZX造趣场”于2024年12月28日正式开业，在《造趣场盛大开业，创趣场销售额破4亿，百联ZX下一步将“卷”向何方？｜雷报》一文中，雷报也与百联ZX团队就“商业体+二次元业态”进行了深入探讨。</p>
+<p>在百联ZX团队看来，商业虽然本质上强调复制，但每一个商业体都需要有自己的个性化所在。在打造造趣场的过程中，百联ZX并不是在做简单的复制，也不希望呈现一个标准化的内容。据悉，创趣场作为中国首家定位二次元主题的商业体，是业界领先的“二次元文化圣殿”，是“涨知识、开眼界”的前沿阵地。而造趣场则定位于中国首家二次元生活方式集聚地，强调“找同好、好有爱”的社交体验。</p>
+<p>那么，做“二次元业态”成功的商业体到底有多火爆呢？百联ZX团队向雷报透露，2024年1-11月，百联ZX创趣场共举办近700场活动，全网曝光超2.7亿次，其间销售同比上升76%，客流同比上升40%。与创趣场转型前日均6000人次左右的客流相比，转型后的平日客流达2-3万，单日最高客流达9万+，节假日客流达5-6万，增加了3-8倍。</p>
+<h2><strong>73场快闪，ONLY展、主题餐厅会是下一个“试验田”吗？</strong></h2>
+<p>2025年伊始，国内的线下快闪活动又有怎样的特点和趋势呢？雷报将以上海地区春节期间的73场活动为样本（人工统计存在误差）进行观察。</p>
+<p>先从IP类型来看，漫展、吃谷集市等二次元IP综合类活动很受欢迎；游戏IP、动漫IP快闪活动贡献大头，分别共计开展20次、14次；以艺术家、插画家、乐队等个人/团体类型的IP活动也有7次。从IP国别来看，中国、日本IP最受欢迎，春节期间分别各自拥有24次快闪活动；二次元IP综合类活动则有19场；韩国IP有3场，美国IP有2场。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,391" src="https://img.36krcdn.com/hsossms/20250207/v2_131b2791adc548fab0b05fd1e0ffd993@5091053_oswg36961oswg1080oswg391_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>具体到国产IP方面，小说、动漫IP表现稳定，基本都在做头部IP的快闪活动，例如天官赐福、喜羊羊与灰太狼、罗小黑、诡秘之主、盗墓笔记等IP。国产游戏IP依旧在各类IP线下快闪中占据绝对优势。20场游戏IP活动中，国产游戏占了13场，以乙游、二游为主，包括代号鸢、时空中的绘旅人、明日方舟、重返未来1999等；另外，近年越来越火的国风武侠类游戏也在其中，包括剑网三、逆水寒等。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,327" src="https://img.36krcdn.com/hsossms/20250207/v2_6ea3956bec8e4555828fbc0c8c22b5cf@5091053_oswg97358oswg1080oswg327_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了传统IP快闪之外，商业体内还在持续展开一些更广义上的“快闪”活动。相比常规的漫展、演出和展览，雷报重点关注近年新兴的ONLY展、主题餐厅模式。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1391" src="https://img.36krcdn.com/hsossms/20250207/v2_763d8a6a24324fa3bed9f880cf3d4028@5091053_oswg326249oswg1080oswg1391_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>首先，来讨论漫展的分支“ONLY展”。我们看到，传统漫展（如ChinaJoy）依赖头部IP和厂商资源，以展销结合为核心，但存在活动同质化、观众体验碎片化的问题。例如，大型展会中消费者往往需排队数小时参与单一活动，社交属性弱化。</p>
+<p>新兴的ONLY展则主打垂直化与圈层深度，以绑定单一IP或细分领域为核心，通过个人或工作室策划实现高度定制化。其优势在于能精准触达核心用户，进一步“筛选”出社交文化符号相同、圈层凝聚力更强、消费意愿更突出的IP粉丝人群。</p>
+<p>另一方面，ONLY展具有“低成本高互动”的特点。依托社群运营（如Z世代线上应援群、同好交流群）实现前期预热，活动现场设置个人场贩区、简易舞台等轻量化互动区域，降低参与门槛。同时，ONLY展会得益于策划者基本都是IP“死忠粉”，并在同好中具有充分的话题敏感度，可以实现灵活的快闪内容迭代。具体来说，就是能快速响应粉丝反馈，如根据观众偏好调整商品SKU或增设限定活动等。</p>
+<p>而回到商业人关心的业态方面，二次元商业销售的核心之一是“纯零售”。ONLY展区别于传统漫展，可以通过不断提升展会现场的文化浓度、促进IP原生内容和线下场景互补，从而全面增加IP消费场景，例如餐饮、娱乐、演出、coser经济等等。最终，既可以避免小商品市场一样的单一杂乱业态，也能够显著延长IP消费者的停留时间。</p>
+<p>然而，以“为爱发电”为前提的展会，对主办方的能力会提出极大的考验。雷报从曾策划过WHCA同人展、武汉FF14ONLY等活动的主办组处了解得知，市面上的大部分ONLY展只能做到盈亏持平，甚至有些活动是亏本在做，“我们觉得这也与整个展子的规划有关，大钱办小事和小钱办大事都是有的，就是取决于主办的能力。但粉丝们对于‘无脑圈钱’的行为还是非常抵制的，只有让好的主办赚到钱，才能纠正良莠不齐的市场。”</p>
+<p>未来，ONLY展会或许会走与传统漫展相类似的路径，即从“个人策划”到跨区域ONLY展策划的“专业化联盟”，整合IP方、场地供应商和社群KOL资源，提升活动规模与稳定性；另一方面，ONLY展发展到一定规模后，或将成为IP长线运营的下一个“试验田”，成为特定IP衍生内容（如动画番外篇、游戏支线剧情等）的首发平台，通过粉丝反馈反哺IP开发。</p>
+<p>以2024年6月举办的电影《排球少年!!垃圾场决战》ONLY为例，这快闪就是电影官方推出的ONLY展会，作为动画播出十年、大电影正式上映的衍生，该活动在上海东方体育中心开展，一度引发粉丝的热情探讨，微博话题#上海要办万人排球少年ONLY# 热度攀升，预售票更是开售即罄，进一步证明了单一IP消费者的可观购买力。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20250207/v2_8dd5cd4bf4d14939929b14597bd77fca@5091053_oswg346281oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了ONLY展，IP主题餐厅模式也在近年越发兴起，主要得益于情感消费与场景经济的双重红利。雷报统计上海限时快闪时发现，2024年全年总共有51场IP主题店活动，并以主题餐厅和主题咖啡为主；2025年春节以来，也有至少17个主题餐厅已经开业。</p>
+<p>从运营方来看，目前的入局者主要包括中国品牌潮玩星球、次元波板糖、奇谷米、三月兽、happy zoo、PrismLand、萌果酱主题café、COMIPLUS OFFICIAL，以及来自日本的animate café和shonen jump cafe等等。具体可参考：《一年快闪活动数千场，有人盆满钵满，有人赚个吆喝？｜雷报》。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1000" src="https://img.36krcdn.com/hsossms/20250207/v2_c2eebec65021432abe882b0c1db02c43@5091053_oswg248362oswg1080oswg1000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>IP主题餐厅持续火热，是因为其对粉丝经济进行了深度挖掘，通过角色形象植入、限定餐品等形式将用餐转化为“为爱付费”的仪式，以沉浸式场景的社交价值来实现客单价提升。</p>
+<p>然而，内容同质化的情形也十分严重，多数餐厅依赖IP形象复刻，缺乏差异化体验，这方面可借鉴“观夏”香氛店模式，将IP与在地文化结合，例如创作城市限定菜品等，进一步提升体验感；另一方面，主题餐厅的运营成本门槛更高，主题装潢与IP授权费用导致运营方的回本周期较长。因此，更广泛地采用“快闪”模式并与商业体分成合作，成为市面上多数IP主题餐厅的首选。</p>
+<p>值得欣慰的是，随着入局者的不断努力，IP主题店也逐渐从单纯的“打卡地”向“生活方式入口”发展。例如，潮玩星球就采用了“1+1”模式，即一家主题餐厅附近必有一家零售集合店，两者在产品、服务和展陈空间设计上各有特色，共同构成了独特的消费体验。据悉，部分店铺的商品零售甚至能占到营业额的7成以上。“主题餐厅+零售+粉丝社群”的闭环模式，能有效延长IP主题店的消费链路。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,616" src="https://img.36krcdn.com/hsossms/20250207/v2_38a2838a5ff24f689b2ee8066b927ddf@5091053_oswg125700oswg1080oswg616_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>总的来说，IP线下快闪，本质上是消费升级背景下“体验经济”的具象化呈现。在Z世代的语境下，IP经济对线下商业体的影响愈加深刻，“二次元”是一门不错的生意，同时也是一种文化投射，要求优秀的主办方们能利用优质的活动内容、成功的口碑运营、稳定的品牌打造等，完成对相关市场的教育。</p>
+<p>期待在未来，随着技术迭代与用户需求分化，零售店、潮玩店等固定业态与IP快闪等临时性业态还将进一步融合，在商圈内部形成“内容——场景——社群”的生态闭环，推动更多商业体从“卖货场”向“生活方式策源地”转型。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/DURcjIiHmNL6UvV-6x7Xgw" rel="noopener noreferrer nofollow" target="_blank">“雷报”</a>，作者：段轻，编辑：努尔哈哈赤，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155931871533575</guid><pubDate>Fri, 07 Feb 2025 11:10:00 +0800</pubDate></item><item><title>傲慢、短视、扼杀创新，垄断巨头英特尔是如何走向倒塌的？</title><link>https://36kr.com/p/3155918488813061</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>芯片巨头英特尔正面临四面楚歌的境地。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_5330eecdf5a24a978ee260996976329a@132427329_oswg1079264oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2024年底，英特尔年度YTD股价重挫近60%，如今被移出道琼斯指数、转由英 伟达替代，市值也跌破千亿美元。</p>
+<p>与此同时，英特尔也面临着接连不断的各种负面消息： 高通一度传出要寻求收购英特尔，还被传出卖厂、裁员、出售子公司，甚至被众多股东联合起诉管理层潜在“重大虚假或误导性陈述财报”行为。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c113a326da11438dab11ee9eb29d3808@132427329_oswg460538oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>更戏剧性的是 ，英特尔CEO Pat Gelsinger在没有任何预告的情况下突然“宣布退休”，退休时间竟然还是个周日。</p>
+<p>我们在研究时发现，<strong>英特尔不仅多次犯下决策错误，董事会由于缺乏技术人才长期处于短视的“自动驾驶”状态，甚至腐朽的企业文化也走向了扼杀创新的道路。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_b3b1bf0f4c354e349bc56b1af9da7e3f@132427329_oswg246631oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这篇文章我们将从英特尔错过的移动互联网、放弃的GPU和AI市场、流失的CPU主阵营、Pat Gelsinger重回公司的自救失败以及更深层次的原因，包括无能的董事会、腐朽的公司文化制度等等方向深度剖析一下：<strong>英特尔这座大厦是如何面临崩塌的？</strong></p>
+<h2><strong>01 英特尔的崛起</strong></h2>
+<p>英特尔崛起的故事，大家都很熟悉了：过去英特尔有三大护城河 ：</p>
+<p><strong>1.设计制造一手抓的IDM模式</strong></p>
+<p><strong>2.唯二手握X86专利的设计厂商</strong></p>
+<p><strong>3.优秀的营销策略。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_80c55913b79245ddab8fe7b64becb3d3@132427329_oswg523687oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在这三座护城河下，英特尔销量一路飙升，将它护送到行业老大的位置多年。</p>
+<p>根据多方数据排名，英特尔从1987年开始就进入了全球半导体市场销量前十名，1991年直到2021年这三十年间，只有三次跌落到第二名，其他时间一直稳居第一。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9f308f4bf7cf48988ef6ab189446564f@132427329_oswg761398oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>英特尔市值最高的时候超过5000亿美元，即使在2000年科技泡沫破裂后到2021年期间，英特尔的市值也是在缓慢回升到3000亿美元这个水平的。<strong>但2021年之后，英特尔股价一路重挫。</strong></p>
+<p>那么有着如何辉煌战绩的“垄断者”是如何衰落的？其实英特尔的问题早已埋藏了十多年。</p>
+<h2><strong>02 错过移动互联网</strong></h2>
+<p>2006年，随着3G网络的普及，使用手机上网成为了一种时尚。移动互联网时代即将开启。</p>
+<p>然而英特尔却与这波浪潮失之交臂，主要原因有两个：<strong>选错了伙伴、卖错了业务。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6b6ba7b7fbac4f0e910ff322caf7bec6@132427329_oswg563580oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>Chapter 2.1 失败者联盟</strong></p>
+<p>在这一年，乔布斯正策划着初代iPhone，希望英特尔能为它提供处理器。然而，时任英特尔CEO的Paul Otellini却拒绝了为苹果提供CPU，理由只是这门生意利润太低。</p>
+<p>但此时的英特尔却忽略了一个因素：未来手机市场的出货量将远大于PC市场。</p>
+<p>英特尔错过苹果这条大船，真的全怪Otellini吗？其实拒绝苹果并非Otellini的本意。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_2042e8b2ef6e40c28dc31dc00bdf5910@132427329_oswg375333oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Otellini卸任前在接受《The Atlantic》的采访中回忆这段经历时说道：“虽然英特尔喜欢用（财务）数据说话，但在我的职业生涯中，很多时候我都是凭直觉做决定的，我应该听从自己的直觉，我的直觉告诉我要说‘是’”。</p>
+<p><strong>然而来自董事会对财务数据的压力，迫使Otellini不得不拒绝苹果这个大单。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_cbe3f6dbcc964522b8185781ec3f91e8@132427329_oswg287966oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>因为Intel它的历史比较长，董事会人员会比较多，它的股权也比较多，所以CEO讲话的分量比较小。</p>
+</blockquote>
+<p>随着初代iPhone的发布，再加上移动互联网的浪潮，手机逐步替代电脑的地位，成为了互联网最多的流量入口。</p>
+<p>此时的英特尔也终于回过头来，希望重返移动市场。为此他们找了两个当时的巨头作为合作伙伴。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ccc82de3e20d49e8bef109ba864dc54e@132427329_oswg230494oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>一个是微软，而另一个是诺基亚。后来的故事，想必大家也都知道了，这完全可以说是一个“失败者联盟”的组合。</p>
+<p>不过这并不是英特尔错过移动互联网的全部因素，因为即使Otellini同意与苹果合作，苹果也会在未来毫不犹豫转向自研芯片。那真正的因素又是什么呢？</p>
+<p><strong>Chapter 2.2 孤行己见</strong></p>
+<p>2006年，Paul Otellini刚上任CEO，就以6亿美元将收购而来的XScale业务出售给Marvell，而XScale做的正是ARM芯片。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_2984e82af80245bc8acd62152f2372c7@132427329_oswg480250oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>对于移动市场，采用精简指令集的ARM运行效率更高、功耗更低，显然对移动设备更友好。</p>
+<p>不过<strong>Otellini却希望继续押注X86架构，理由是ARM处理器的利润太低。</strong></p>
+<p>我们联系到了Marvell已退休的移动处理器业务副总裁陈弘毅，他当时就主导这桩收购案。陈弘毅提到，英特尔出售XScale不只是ARM设计板块，而是出掉了整个手机业务线。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9584f5c438bb40c4a8d572b7e7f4dec8@132427329_oswg419843oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>陈弘毅（Hongyi Chen）</strong></p>
+<p><strong>Marvell前移动处理器业务副总裁：</strong></p>
+<p>当初Intel买了一个公司叫DSPG，它有3G的Baseband（基带），英特尔一开始决定不做这个基带、不做手机的业务，所以他就卖给了Marvell。</p>
+<p>当时DSPG有个最大的客户，那就是黑莓。但是和黑莓这种公司合作的话，黑莓要的不止是单一的芯片，手机的AP（应用处理器）、Baseband（基带处理器）、PMIC（电源管理芯片）、RF（无线射频）都必须互相配合，整套系统是绑定在一起的。所以当黑莓下去的时候，它整个业务线就不行了。</p>
+<p>而Marvell买下XScale并不只是买英特尔的技术，还要买设计师、工程师，以及整个商业业务。</p>
+</blockquote>
+<p><strong>简单总结下，由于英特尔刚开始不看重基带业务、再加上XScale最大客户黑莓开始走下坡路， 于是英特尔决定卖掉这个未来有风险的业务线，而CPU、基带等技术都是绑定在一起的，所以必须卖掉整个手机业务线。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6d6848e0ccdb4b08915b54d6bc234d09@132427329_oswg473170oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了XScale外，财务出身的Otellini上任初期，也砍掉了很多不赚钱的业务。</p>
+<p>这并不意味着英特尔彻底放弃了移动市场，2008年英特尔推出了第一代Atom处理器，作为英特尔史上体积与功耗最小的处理器，它的热设计功耗在0.6~2.5W。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9ab3191c438a41c6b3f49ef0362a500a@132427329_oswg322026oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Atom起初是为小型上网本设计，但也用在了一些手机上，甚至后来特斯拉也采用过Atom系列芯片。</p>
+<p><strong>这时英特尔又有了新的顾虑：他们担心如果全心投入低功耗芯片，随着廉价移动芯片的性能越来越强，会削弱利润更高的台式机芯片需求，甚至威胁到服务器市场，于是有意降低了Atom芯片的出货量。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_0b77065333ef48ac922319639ddc5491@132427329_oswg484693oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>最终，英特尔在2016年正式退出手机市场，之前在移动互联网领域投资的100亿美元打了水漂。</p>
+<h2><strong>03 放弃GPU，错过AI</strong></h2>
+<p><strong>Chapter 3.1 三顾茅庐事未成</strong></p>
+<p>英特尔1998年推出了首款独立显卡i740，但才过了一年，就宣布决定将i740的迭代产品i752集成在主版上，取消了独立显卡。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_567bf4ae1158458da47e3b17de16f646@132427329_oswg843282oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这卖得好好的，为啥说没就没呢？熟知英特尔历史的人表示，<strong>那时英特尔的企业文化里无法容忍自己的产品不是市场顶尖，由于i740系列没有取得预期成绩，于是英特尔决定继续专注到主营业务上。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_66fd45b22fb64231b143e2f41752cd0d@132427329_oswg408209oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而到了2006年，英特尔为了与英伟达展开竞争，再次开启新的独显项目——Larrabee。</p>
+<p>负责Larrabee项目的，正是刚“被迫退休”的CEO Pat Gelsinger，当时他正担任英特尔CTO。</p>
+<p>Larrabee用的不是市场主流架构，而是X86架构。由于X86架构的功耗更高，发热更严重，单位面积内无法容纳更多核心，因此Larrabee并不被看好。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_dc676190bea14a9db30635f1a6c7f888@132427329_oswg457350oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>甚至英特尔内部爆出过一封邮件，指责Larrabee的开发团队就是一群白痴，公司的企业文化全被他们破坏了。</p>
+<p>到了2009年底，由于Larrabee表现不及预期，英特尔正式取消了这个项目。Pat也在那一年离开了英特尔。从各方消息来看，当时他是被“气”走的。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_bf95bc3981dc4c48a13715bad2674481@132427329_oswg337744oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>后来在2010年时英特尔自己也承认，X86核心的功率密度确实不如其他架构的GPU。往后的十年间，英特尔一直缺席了独立显卡市场，错过了矿潮，也错过了AI。</p>
+<blockquote>
+<p><strong>Pat Gelsinger</strong></p>
+<p><strong>英特尔前CEO：</strong></p>
+<p>13年前我被迫离开英特尔公司时，他们终止了本可以改变AI市场格局的项目。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_e559558050f44564a5d555498e2b4b7d@132427329_oswg466809oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>或许Gelsinger一直对Larrabee心有不甘，2021年回到英特尔后，就提出了要重返显卡市场。</p>
+<p>一年后，英特尔Arc系列显卡如约而至，但此时的游戏市场格局已定，晚到的Arc显卡由于游戏驱动适配不足、生态匮乏，依然没能撼动AMD和英伟达这红绿两厂的地位。</p>
+<p><strong>2024年第一季度，有消息称英特尔在显卡市场份额跌为0%。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_f07b7cc51c7f4a8590f13842ef27c584@132427329_oswg432705oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但就在2024年12月，英特尔卷土重来，又推出了新一代Arc系列显卡，这次能否成功就让我们拭目以待吧。</p>
+<p>回顾英特尔整个显卡的发展史，我们发现英特尔内部一直都没有对这个业务有足够的重视。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_b6f829cb74fb428f97590d94bd914207@132427329_oswg459876oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其实早在2005年，Otellini就提出过收购英伟达，但董事会认为这笔收购太贵了，因此提出强烈抵制。</p>
+<p>除了错过显卡市场外，英特尔的另一个痛就是错过了AI。</p>
+<p><strong>Chapter 3.2 错过的OpenAI和471亿美元</strong></p>
+<p>2017年，刚成立一年多的OpenAI开始与英特尔商议合作，<strong>英特尔只需花10亿美元现金，就能收购OpenAI 15%的股份，如果英特尔愿意以成本价为OpenAI提供硬件设备，还能额外获得15%的股份，也就是总共30%。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_826c13a0780a4c53b8a1c70c91455e19@132427329_oswg378508oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但当时的CEO Bob Swan认为，AI要进入市场还早的很，这笔投资肯定会亏，因此拒绝了OpenAI。</p>
+<p>这个理由看起来有点站不住脚：如果英特尔真的不看重AI，那2016年收购做AI芯片的初创公司Nervana Systems又是为了什么呢？</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ce7feda346ef418199b2cd60edc2efcc@132427329_oswg477038oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>有知情人士补充说到，这笔交易失败的另一个原因，是因为英特尔的数据中心部门不愿打开降价的口子，从而影响到未来的利润。</strong></p>
+<p><strong>而英特尔当初错过OpenAI那30%的股份，如今已价值471亿美元。</strong></p>
+<p>既然英特尔也有意往AI方向发展，他们收购Nervana后又做了什么呢？</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_3dd57dfe8c01406aa2d13218283ab0f5@132427329_oswg1121587oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2019年8月20日，Nervana发布了NNP-T和Nervana NNP-I。然而不到半年，英特尔又有了新欢。</p>
+<p>2019年12月，英特尔收购了另一家AI芯片公司Habana Labs，他们生产的AI芯片名为Gaudi，NNP-T和NNP-I就此被雪藏。</p>
+<p>英特尔这移情别恋也太快了。</p>
+<p>历史总是惊人的相似，放弃Nervana的原因就和当初放弃i752和Larrabee显卡一样：<strong>NNP系列芯片性能无法媲美竞争对手。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c6b20a220f704a449bdcbf4c535d2eb5@132427329_oswg423162oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>在收购Nervana和Habana之后，英特尔的执行和产品路线都比较混乱。</p>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>公司要收购成功，他的战略地图一定要很清楚，但英特尔买这两个公司我看不出它的战略意义是什么。</p>
+</blockquote>
+<p><strong>尽管Pat Gelsinger表示，第二代和第三代Gaudi 芯片已有20多家客户，并预计销售额最多可达5亿美元，但根据美国银行分析师的估计，英特尔2024年在AI芯片市场的份额还不到1%。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_5f6bf628d8e140cd80e86851e337edc9@132427329_oswg458911oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2024年9月中旬，Pat Gelsinger在德意志银行分析师会议上宣布，英特尔将退出人工智能训练市场，转而专注于推理领域，这也意味着英特尔开始退出部分AI市场。</p>
+<p>两次错过增长点，让英特尔被对手拉开了差距。<strong>最致命的是，如今就连过去骄傲的CPU业务也开始失守了。</strong></p>
+<p>接下来我们聊聊，英特尔如何失去了它昔日的骄傲。</p>
+<h2><strong>04 CPU主阵地失守</strong></h2>
+<p><strong>Chapter 4.1 “钟摆”停摆</strong></p>
+<p>英特尔创始人之一Gordon Moore非常看重技术的迭代与领先，然而到了2018年，英特尔却在技术上开始落后了。</p>
+<p>我们先来简单介绍下芯片产业的分工：</p>
+<p>芯片制造流程主要是芯片设计、晶圆制造、封装测试。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_165a2b7840294db09cd969bd422f955b@132427329_oswg289957oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>我们熟知的英伟达、苹果、高通、AMD还有华为等公司，都只负责芯片设计，称为Fabless。</p>
+<p>Fabless将芯片设计好后，需要交给代工厂（Foundry）生产出整块晶圆，最后交给日月光（ASE）、Amkor Technology这样的公司，完成切割、封装、测试等流程。</p>
+<p>而英特尔与三星这样的公司能自己满足大部分流程，所以被称为IDM模式（，Integrated Device Manufacture），翻译过来是“垂直整合制造模式”。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_e7325dd7bcba4f9f965444a65aaeb49a@132427329_oswg294806oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>正是因为英特尔一手把控芯片设计、另一手紧握芯片制造，他们在2005年制定了一项名为“Tick-Tock”的计划。</p>
+<p>“Tick-Tock”是用来形容机械时钟行走时的“嘀嗒”声，在英特尔的构想里，每一次“Tick”代表芯片制程的更新，也就是缩小芯片面积、提升能耗比、降低发热量。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_cbe2eb7796ee4114ba41a554b233c61b@132427329_oswg326581oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而“Tock”则代表着芯片设计架构的更新，让芯片在同样的功耗下进一步提升性能表现。</p>
+<p>一年提升芯片设计、一年提升芯片制造，就像钟摆一样左右摇荡，这项计划也因此得名“钟摆计划”。</p>
+<p><strong>但到了2016年正好是制程的发展年，英特尔却从此卡在了14nm的节点。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_bb34d6f9cc4247d896ab93d9d4a3d8a2@132427329_oswg635126oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>简单解释下什么是“制程”：在芯片中有很多微小的电路和晶体管，制程就是指晶体管的最小特征尺寸，单位通常是纳米。</p>
+<p>制程数字越小，晶体管之间越密集，同等尺寸下，容纳的晶体管就越多，或同样性能下，芯片面积更小、发热与能耗越低。</p>
+<p>要在这么小的间距内布置如此多的电路与晶体管，就必须依靠光刻机这种工具。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d8ed72b6dcf44aa9b88d6dc2de30e159@132427329_oswg695730oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在此之前，英特尔一直使用的是<strong>深紫外光刻机（Deep Ultra-violet Lithography，简称DUV）</strong>，这玩意儿也自己的精度上限，于是业内需要寻找新的解决方案，那就是<strong>极紫外线光刻机（Extreme Ultra-violet Lithography，简称EUV）。</strong></p>
+<p>其实早在1992年，当时的英特尔CEO Andy Grove就批准了2亿美元用于研发EUV，又在1997年，英特尔牵头、联合AMD和IBM等企业成立了一家名为EUV LLC的公司，来确保美国EUV研发界保持团结；后面甚至为了支持EUV光刻机的研发，英特尔还在2012年向ASML投入了共计41亿美元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_64b6a715ce5b415081afa9b166598944@132427329_oswg372270oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但EUV的研发进展却不太顺利，2013年ASML推出第一代接近量产的EUV光刻机NXE:3300B时，依然面临光源功率不足和良率问题。</p>
+<p>当时的刚上台的英特尔CEO Brian Krzanich认为，EUV光刻机并不能给英特尔带来经济上的增长，而且英特尔在制程工艺上的技术领先同行，有足够的技术实力。<strong>于是决定继续押注DUV，先攻克10nm节点。</strong></p>
+<p>由于英特尔的IDM模式只为自己造芯片，一旦新制程研发出来，老设备不再有用武之地了，这时将设备成本平摊到每年的芯片上，就会导致利润率变低。如果能通过改进老设备，就能降低研发费用，每块芯片的利润率将提升。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d252b2e7b72a4a839b73bb5cbab6352d@132427329_oswg219595oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但押注DUV的结果就是：</p>
+<p>2015年，英特尔发布第五代酷睿移动处理器，工艺14nm。</p>
+<p>2016年，14nm；台积电已经量产10nm。</p>
+<p>2017年，14nm。</p>
+<p>2018年，14nm；台积电已量产7nm。</p>
+<p>2019年，14nm。</p>
+<p>2020年，14nm；台积电已量产5nm。</p>
+<p>2021年3月，14nm。</p>
+<p>2021年10月，终于变成Intel 7。</p>
+<p>额外说一句，这个Intel 7工艺其实是10nm工艺的增强版。<strong>正是因为英特尔在14nm上卡住了6年，导致了被AMD反超。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_479892a9882d4b94acbe554c4943e842@132427329_oswg363112oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2019年第三季度，AMD第三代Ryzen系列处理器上市。它采用了台积电7nm工艺，而英特尔还在用14nm。一向领先的英特尔，在X86市场份额突然大跌近10%，后来AMD一度与英特尔打出了4/6开的局面。</p>
+<p><strong>在制程落后的情况下，英特尔采取了另一个方式来弥补性能，那就是提升芯片功耗。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_f111d8a9ce9049f79a4c756ee8d7aad5@132427329_oswg390968oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>陈弘毅（Hongyi Chen）</strong></p>
+<p><strong>Marvell前移动处理器业务副总裁：</strong></p>
+<p>Intel的制程进步虽然比较慢，但它用的电晶体很大，它们叫strong transistor（强效晶体管），可以允许它制程偏移，所以它虽然几代制程落后，但运行速度不会比竞争对手慢。但是问题出在它10nm速度是快，但是它功耗就非常大。</p>
+</blockquote>
+<p><strong>提升功耗的代价是芯片发热量会显著增加。如此一来，英特尔将失去一类重要的客户：数据中心。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_e6626265e1b741d1926af1d5eb04e213@132427329_oswg413033oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>数据中心这块业务在过去十几年一直是Intel的最主要的增长点，也是利润率最高的业务。</p>
+</blockquote>
+<p>我们在《AI数据中心是如何运作的？》这篇文章中讲过，数据中心将很大的成本用在了散热上，这时厂商会更倾向选择制程更好、功耗更低的CPU。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6711bb1975a44005b4537ce5f0823086@132427329_oswg331046oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了制程问题外，<strong>英特尔失去服务器市场还有另一个技术原因：PCI-E技术的落后。</strong></p>
+<p>PCI-E是一种用于连接CPU和其他硬件设备的高速接口，比如显卡、硬盘等设备就需要通过PCI-E这样的桥梁来与CPU交换数据。</p>
+<p>英特尔最新的服务器CPU至强（Xeon）6900P系列支持的PCI-E 5.0通道数为96条，而AMD的EPYC 9005系列最高达到了160条。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_fadb93f7bc4b407f833a1decfbf39dda@132427329_oswg315301oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>PCI-E的通道数量越多，一颗CPU能带动的显卡数量就更高。，在如今AI计算普遍转向以GPU为主的情况下，显然AMD的CPU更适合AI市场。</p>
+<p><strong>在业内人士看来，并非英特尔不愿意提供更多的PCI-E通道，而是技术已经达到了瓶颈。</strong></p>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>我认为英特尔的PCI-E技术掌握得并不好，它会找Synopsys这种公司来获取授权，这样就没有办法自己掌握技术，当然英特尔内部也有人研究PCI-E技术，但我认为他内部的技术跟其他公司比差太远了，所以这是它的瓶颈。</p>
+<p>这个东西你从财务报表可能看不出来，这是从我做技术的眼光来看的。</p>
+</blockquote>
+<p><strong>2022年，英特尔在数据中心的收入份额下跌10%，</strong>被以AMD为首的其他竞争对手瓜分。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c5256528024549189808c8aa3e232491@132427329_oswg325267oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>根据Mercury Research的数据，2024年第二季度，AMD在服务器市场的收入份额为 33.7%，且平均售价高于英特尔，控制住了高端市场。</p>
+<p>就在英特尔出现内忧时，外部市场也开始变得恶劣。</p>
+<p><strong>Chapter 4.2 合作伙伴“叛变”</strong></p>
+<p>过去我们一直将英特尔的对手视为AMD，但如今蚕食英特尔业务的对手已不止AMD。</p>
+<p>2020年，苹果推出了自研的M1芯片，英特尔开始淡出Mac的舞台。</p>
+<p><strong>而在服务器端，巨头们谁也不想受制于人，也纷纷开启了自研芯片的道路。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a689db7819b64e0086285b2197f5c3c0@132427329_oswg466917oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>Pat Gelsinger</strong></p>
+<p><strong>英特尔前CEO：</strong></p>
+<p>亚马逊、微软、谷歌、阿里巴巴都是我们最重要的客户。</p>
+</blockquote>
+<p>2018年底，亚马逊率先推出了基于Arm的自研CPU Amazon Graviton。</p>
+<p>2023年11月，微软正式上线基于Arm的自研CPU Azure Cobalt 100。</p>
+<p>2024年4月，谷歌宣布推出的基于Arm架构的定制CPU Google Axion。</p>
+<p>2024年11月，阿里巴巴宣布其自研的CPU 倚天710已在数据中心大规模部署。</p>
+<p>除了这些重要客户“反水”，还有个曾经的“敌人”也趁乱杀入，那就是英伟达：在2022年的GTC大会上，英伟达推出了基于Arm架构的Grace CPU。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_02f08152dec744aa84d8a27977ee8cf3@132427329_oswg403205oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>随着英伟达GPU成为AI数据中心的主要设备，英伟达开始在部分产品上将Grace CPU与GPU捆绑销售，比如最新的GB200。</p>
+<p>同时，我们也不能忽略<strong>AI时代服务器范式的转变，导致服务器的CPU市场开始萎缩。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_5155d8894933484bb75b1e3b616fef48@132427329_oswg422863oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>现在服务器视频从以CPU为核心转向了以加速器（GPU、ASIC等）为核心，所以就导致了整个服务器的CPU份额在不断萎缩。</p>
+</blockquote>
+<p>不光是服务器市场，<strong>随着苹果自研M系列芯片、微软尝试Windows on ARM，ARM的崛起成了X86的威胁。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6f64cd05d588486c8f5104bc838ea655@132427329_oswg653367oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当然，由于X86已经积攒了多年的软件生态，特别是一些小众的工业软件，要直接迁移到ARM架构下需要大量工作。<strong>X86虽然会面临市场萎缩，却依然很难倒下。</strong></p>
+<p>不过他们也意识到这些问题了，为此在2021年将Pat Gelsinger重新请回了公司担任CEO。从结果上来看，<strong>这项自救计划无疑是失败的，但罪魁祸首并不是Gelsinger。</strong></p>
+<h2><strong>05 自救之路险象环生</strong></h2>
+<p><strong>Chapter 5.1 请回“弃子”</strong></p>
+<p>回顾下英特尔的一次次的决策失误：拒绝为iPhone提供芯片、错误押注X86、放弃显卡业务、错过投资OpenAI、坚持押注DUV，这每一项决策背后都离不开一个因素，那就是利润。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_63a8a0d80e60403196e40e9d563e6d89@132427329_oswg569062oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>所以2021年技术出身的Pat Gelsinger出任CEO、回归英特尔的消息一经放出，市场一片叫好——英特尔盘前股价飙升14%，创下了半年来的最高位。</p>
+<p>简单介绍下Pat Gelsinger的背景：1979年他在英特尔开启了职业生涯，曾在英特尔三大掌门人（Noyce、Moore、Grove）手下工作，他不仅是80486 CPU的架构师，还领导过14种处理器的开发项目。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_f22399f3b4d14061b23599bf1d66b430@132427329_oswg373483oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Pat是个充满活力的人，每次发布会前还会先做几个俯卧撑，确实能让人感受到他对英特尔的热爱。同时，他对英特尔的问题认识地非常清晰，而且对外也毫不避讳。</p>
+<blockquote>
+<p><strong>Pat Gelsinger</strong></p>
+<p><strong>英特尔前CEO：</strong></p>
+<p>我们错过了移动浪潮，我们曾经进行过大约五次不同的AI收购。所以在我看来，这就是英特尔错过的两个巨大的趋势。而我们根本上更倾向于打造一个伟大的晶圆代工厂。</p>
+</blockquote>
+<p>他上台后重新启动了显卡的开发计划，为此甚至提出要消除英伟达的CUDA壁垒。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d814c221aa804a9091632e5a12fb3b61@132427329_oswg497699oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>Pat Gelsinger</strong></p>
+<p><strong>英特尔前CEO：</strong></p>
+<p>我们正在推动一项名为SYCL的技术，这是一种开放的标准化并行C语言，这样我们就可以取代像Cuda这样的专有技术。</p>
+</blockquote>
+<p>但正如我们前面提到的一样，英特尔的显卡与AI战略都以失败收场。而<strong>在消费者领域，英特尔主推在CPU中添加NPU的“AIPC”也并不被市场看好。</strong></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>我自己个人不是很看好AI PC的概念，我觉得它很难推动整个PC市场的增长。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_04318bf29b854e6cb7686891d9a9abf1@132427329_oswg420587oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不过这不重要，<strong>Pat Gelsinger面临的最大问题就是：如何拯救制程落后的晶圆厂。外界一直对英特尔的期待是，放弃IDM卖掉晶圆厂，转变为Fabless模式。</strong></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>我从二级市场投资人的角度来说，Intel最大的投资价值，就是它把晶圆厂拆出来，芯片设计和晶圆代工彻底的独立开。</p>
+</blockquote>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>如果Pat Gelsinger上台的时候去找台积电合作，然后把他的晶圆厂卖掉，现在市值至少两三倍了。</p>
+</blockquote>
+<p>大家希望晶圆厂被拆分的主要原因，就在于先进制程确实太烧钱了。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d1a8189ab17c469f9bd93fa233538369@132427329_oswg420390oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>虽然很多人经常以AMD分拆Global Foundries后取得制程领先为理由，认为英特尔也应该拆分晶圆厂。但Gelsinger在接受采访时提到，AMD 作为Fabless取得成功的原因并不是因为拆分，而是因为台积电的崛起。</p>
+<p>因此<strong>Gelsinger的战略是一直保留晶圆厂的IDM 2.0模式，而且在上任前就与董事会沟通并取得了全员支持。</strong>但这项战略执行起来却困难重重，接下来我们分析下IDM 2.0。</p>
+<p><strong>Chapter 5.2 被看衰的复兴之路</strong></p>
+<p>IDM 2.0主要提出了三个方向的战略：</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a1692433b2f24564acc8c345aa7c5909@132427329_oswg302984oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>1.大力建设先进制程的晶圆厂；</p>
+<p>2.开放晶圆代工业务（IFS）并授权X86架构；</p>
+<p>3.将部分芯片交由第三方代工厂生产。</p>
+<p>首先，对于在美国建造工厂追赶芯片制程，各界都不太看好。</p>
+<p>按照Pat Gelsinger的计划，英特尔将在<strong>五年时间发展4个制程节点</strong>，对比过去钟摆计划两年一个节点来说，难度非常大。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ee208c24a1fe4d8fb035e3c4ef426a20@132427329_oswg646031oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而且晶圆厂的投资需要足够的资金支持，这对英特尔是不小的负担。</p>
+<p><strong>Pat Gelsinger以地缘政治为由，认为美国需要扶持本土工厂，因此申请了美国《芯片法案》的补贴作为工厂建设资金。但业内人士认为这点补助对于庞大的投资来说依然是杯水车薪。</strong></p>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>他想拿美国政府的贴补只是是杯水车薪，你看台积电的生意是700亿美元，政府能给你几毛钱？</p>
+</blockquote>
+<p>同时，来自《芯片法案》的补贴，英特尔拿的并不顺利。美国政府承诺发放的补贴也是一拖再拖。我们采访的嘉宾认为：政府之所以延迟发放补贴，是因为对英特尔没有足够的信心。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_cf624fc63a8546c4ae88fef04c633cb0@132427329_oswg403626oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>因为从美国 政治上说，给Intel发放补贴，第一是要把芯片制造能够回流放到美国本土，第二是要创造就业岗位，这也是Intel当时拿补贴时候承诺的。但是现在Intel又大规模裁员，所以很难说服政府大力的给补贴。</p>
+</blockquote>
+<p>其次，对于英特尔开放代工业务，大家也都保持着怀疑的心态，主要有三个原因：</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c09048c9c1aa48d3829fbb86670860b0@132427329_oswg551820oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>第一，因为晶圆厂的产量是有限的，对客户来说，不太相信英特尔愿意将最好的产线开放给客户，而不是留给自己使用。</p>
+<p>第二，英特尔自己也拥有芯片设计业务，本身与其他芯片设计公司存在竞争，在这种情况下，很难让客户放心地将图纸与知识产权交给英特尔。</p>
+<blockquote>
+<p><strong>陈弘毅（Hongyi Chen）</strong></p>
+<p><strong>Marvell前移动处理器业务副总裁：</strong></p>
+<p>我觉得很难了。因为你要做服务的话，最重要的是让客户要相信你、把设计图纸交给你。</p>
+</blockquote>
+<p>第三，英特尔的产线并不是最先进的，在市面上有更好的台积电可以选择时，大家更不太愿意选择连自己芯片都要交给台积电代工的英特尔。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ac33e0f8165042858ace0514a3fe7289@132427329_oswg201572oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>我们这种业内人一听就觉得很奇怪，这么荒唐的话居然会Intel CEO嘴里讲出来？他要跟台积电争晶圆代工的老大，你去看看芯片公司的市值排名，它连第10名都排不上，怎么去争？有点开玩笑吧？</p>
+</blockquote>
+<p>当然，英特尔代工部门还是有一些好消息的，根据2024年Gelsinger在财报会上透露的消息，英特尔已成功接收了全球第二台最先进的极紫外光刻机（High NA EUV），在此之前的第一台High NA EUV光刻机也是英特尔的。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_0a4c2ae9e4cd414a8617deff13fa43de@132427329_oswg608582oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>同时，英特尔代工厂也获得了来自亚马逊10亿美元的订单。只能说英特尔值得期待的部分在未来。</p>
+<p>最后，虽然英特尔将自己的芯片交由了台积电代工，但从最终的产品表现上来看，效果不尽人意。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_21b6027723814e87a0845006160d2dc9@132427329_oswg465104oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2024年10月发布的英特尔Ultra 200S系列，采用了台积电N3B工艺。</p>
+<p>但根据一些媒体的测试，对比上一代使用Intel 7工艺的14代酷睿处理器，在多项测试指标中，提升幅度有限，甚至在游戏性能表现出了倒退的情况；，只是在功耗表现相比上代有大幅提升。，但对一直插电使用的台式机来说，这点聊胜于无。</p>
+<p>所以综合看来，IDM 2.0能否挽救英特尔，依然是未知数。<strong>但不可否认的是，这项战略是正确的方向，只是执行时间太晚了。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9285f19a7de5489fb1edaa6516fa54da@132427329_oswg544350oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>IDM 2.0战略我觉得不是一个错的战略，但如果放到五年前实施的话，成功的可能性会更大。</p>
+</blockquote>
+<p><strong>就在IDM 2.0执行未半时，这项计划的提出人Pat Gelsinger却被强制离开了英特尔。</strong></p>
+<p><strong>Chapter 5.3 财务崩盘再度弃子</strong></p>
+<p>美国时间2024年12月2日周一，英特尔发布公告称，Pat Gelsinger已于前一天（周日）退休了。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_1309c2b3b9684f37b365838f3bf4db78@132427329_oswg380254oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这个消息一出，立马引起了不小的轰动。，最主要的原因就是太突然了，从各类渠道信息来看，Pat应该是被董事会炒了鱿鱼。</p>
+<blockquote>
+<p><strong>硅谷徐老师</strong></p>
+<p><strong>财富500强首席创新官</strong></p>
+<p><strong>VMware网络事业部创始人</strong></p>
+<p><strong>斯坦福客座讲师：</strong></p>
+<p>虽然说名义上是退休，但大家都知道这是解雇，因为董事会没有足够的耐心了。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a9378098d8cf4c96820e465330ff2950@132427329_oswg417536oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>从英特尔2024年的动向来看，反映出的当前公司情况就是缺钱。</strong></p>
+<p>2024年6月29日，英特尔的现金和现金等价物为112.9亿美元，而流动负债总额约为320亿美元。</p>
+<p>8月1日，英特尔宣布全球裁员15%，并从第四季度开始暂停派息，同时宣布2025年将削减100亿美元的成本支出。</p>
+<p>9月1日，英特尔宣布计划出售可编程芯片部门Altera。</p>
+<p>9月16日，英特尔称要独立晶圆厂为子公司，希望借此引入外部投资者。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_baa6ad0a0417442181b0452d27fb985c@132427329_oswg192897oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>虽然这些动向都反应了英特尔正面临着挑战，但不少人都对这一系列动作表示了肯定。</strong></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>英特尔现在对于现金流的需求确实非常大，因为他这几年大量建新的厂，所以剥离这些非核心的业务确实能帮助他缓解一些现金流的压力。我觉得从这个角度来看，大家会更乐观地去看待这个事情。</p>
+</blockquote>
+<p>在IDM 2.0下，大力建设晶圆厂确实给英特尔带来了巨大的财务压力：</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c65e0a23871649e79081edd10d9d2164@132427329_oswg439509oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>从2022年后，英特尔相继宣布了在美国俄亥俄州、德国马格德堡、爱尔兰莱克斯利普投资建厂，此外，还将花费300亿美元来扩大亚利桑那州的工厂，总投资将超过1100亿美元。</p>
+<p>根据英特尔的财报数据，从2021年Pat上台后，研发费用开始大幅上升，但净收入与净利润却急剧下降。特别是2023年，净利润率只有3.14%，创下了英特尔三十年来的历史新低。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_6a4160a1c702408bba97d2a3c90b3ea3@132427329_oswg206222oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>同时英特尔2024年第三季度的财报显示，（在公认会计准则下）亏损达到了166亿美元，已连续三季度处于亏损状态。</p>
+<p>看了这些数据，也能理解为什么董事会对Pat Gelsinger失去了耐心。</p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>这一次他突然离开CEO的职位，最大的一个可能性就是，他的IDM 2.0战略和董事会的优先级之间出现了冲突，因为IDM 2.0需要大量的资本开支，尤其是在晶圆代工这块的业务，这会对Intel短期的现金流和利润率造带来比较大的压力，从而可导致股价上的压力。</p>
+</blockquote>
+<p><strong>但是在业内人士看来，造成这样的原因并不是Pat没有能力，而是过去留下的坑太大了。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_51955b54590141bc8378defb6ad2e1ba@132427329_oswg412473oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>硅谷徐老师</strong></p>
+<p><strong>财富500强首席创新官</strong></p>
+<p><strong>VMware网络事业部创始人</strong></p>
+<p><strong>斯坦福客座讲师：</strong></p>
+<p>过去三年半英特尔所有发布的产品，没有一个是Pat Gelsinger自己做的，因为硬件周期是5年，过去三年的东西都是前一个CEO做的。所以如果说Pat Gelsinger还不够行、不够好，那是因为什么呢？难道是看到了2025年的18A制程做不出来？还是怎么样？所以我觉得是董事会没有耐心。</p>
+</blockquote>
+<p>AMD的CEO Lisa Su（苏姿丰 ）被问道如何看待Pat的离任时，也表示Pat的处境非常艰难，认为一项战略需要5年才能看到成果。但董事会却没有这样的耐心。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a622efe2106942ac99fbd4694b71ef9a@132427329_oswg470516oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>苏姿丰</strong></p>
+<p><strong>AMD CEO：</strong></p>
+<p>我个人很佩服Pat Gelsinger，但拯救一家半导体公司是非常难的。我们这个行业有个特点是，今天做的决策要到5年后才能看到成果，这确实是非常难的。</p>
+</blockquote>
+<p>这就很奇怪了，英特尔董事会作为一家芯片最高领导组织，怎么会不知道这些道理呢？</p>
+<p>在扒开董事会的垂帘后，我们发现此前英特尔11位董事会成员中，真正有丰富半导体行业经验的，竟然只有1位，甚至好几位成员都是败军之将。</p>
+<h2><strong>06 无知失能的董事会</strong></h2>
+<p><strong>Chapter 6.1 外行领导内行</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_5ffa43a2f8214e808aa3b7bb335dc91b@132427329_oswg303007oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>对董事会看法，我有两个字，就是失能。那假如说用四个字的话就失能、失职。</p>
+</blockquote>
+<p>我们来逐一分析下Pat Gelsinger离任时的董事会成员。根据英特尔官网的披露信息，董事会此前有11位成员。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ba65a1a8c0744375bb395ab8720ffade@132427329_oswg327987oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Frank D. Yeary：作为现任的董事会主席，也是在董事会任期最久的人，在金融行业工作了25年，几乎没有半导体行业经验，同时也曾是PayPal董事会成员。</p>
+<p>James (Jim) J. Goetz：风投公司合伙人，拥有软件与存储行业经验，但没有半导体行业经验。</p>
+<p>Andrea J. Goldsmith：电器与计算机工程教授，具有丰富的半导体经验，但行业资历较浅。</p>
+<p>Alyssa H. Henry：以金融行业的开发者起家，没有半导体行业经验，曾担任过Square公司的CEO，不过任期只有短短9个月，曾任游戏引擎Unity公司的董事会成员，但Unity也一度四面楚歌。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_ddc992cddec84576a0030e24500efe65@132427329_oswg469958oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Omar Ishrak：此前担任英特尔董事会主席，2023年1月卸任主席一职，同时也在两家生物与医疗公司担任董事，没有半导体行业经验。</p>
+<p>Tsu-Jae King Liu：作为工程学教授，拥有90多项专利，研究重点是纳米级逻辑芯片（nanometer-scale logic）和存储设备，以及节能电子产品的先进材料、工艺技术和设备，对半导体有丰富的认知，但没有行业从业经验。</p>
+<p>Risa Lavizzo-Mourey：MBA硕士，医学博士，没有半导体行业经验。</p>
+<p>Barbara G. Novick：金融行业BlackRock公司的联合创始人，没有半导体行业经验。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_cb517d83c95148bd9b3e8acfa6180d81@132427329_oswg460208oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Stacy J. Smith：他曾在英特尔工作了近30年，半导体行业经验丰富，但他担任董事时间并不长，2024年3月才加入董事会。同时他也是Autodesk和Wolfspeed公司的董事会成员，可惜的是这两家公司都被爆出过管理不善的问题。</p>
+<p>Dion J. Weisler：拥有计算机公司经验和计算机应用科学学士学位与法学博士学位，没有半导体行业经验。</p>
+<p>Gregory D. Smith：没有半导体行业经验，在波音公司工作了30年，担任波音副总裁和首席财务官十年。要知道波音公司也是一团乱。如果你还不知道波音的故事，一定要去看看我们《波音困境》这期内容，就明白他的重量级了。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_dbb2955533e44298af3e2467b6dec457@132427329_oswg648318oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>他这个董事会怎么会这么荒唐啊？我实在是想不通。你看他的董事会成员里面，波音公司和Intel现在是美国最惨的两家公司，还有Paypal最近几年也做得不好，还有Autodesk，这几家公司基本上跟芯片行业完全没有关系，而且都经营的非常惨。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_640508b0648c4efeb591ec56301a481b@132427329_oswg226831oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>我们回头再看看这11名董事，懂半导体的只有3位、有行业经验的只有2位、经验丰富的只有Stacy J. Smith，他2024年3月才加入，主要原因是接替离任董事陈立武Li-Bu Tan。</p>
+<p>也就是说，<strong>在Pat任期内，整个董事会的配置里从始至终只有1名行业资深人员。</strong>在业内人士看来，带领半导体公司运作，需要有非常深厚的行业经验与积累。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d37bec8edb3849ac9e319d6b25cddbab@132427329_oswg382374oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CE</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>最重要的是半导体要非常深的行业经验，因为半导体不像AI是个比较新的产业，为什么我们这边叫硅谷呢？就是因为70年前我们就开始做硅，我们的前辈交了无数学费，这里面有很多的经验，是你没有经过不会了解的。</p>
+<p>董事会里的人也不懂怎么发言，因为他不知道要讲什么，就像你把我送到一个我不懂的行业里面去，我更不知道讲什么。</p>
+</blockquote>
+<p>那么英特尔的董事会是如何形成的呢？董事由股东选举而来，根据公开数据，英特尔的股份超60%为投资机构持股，也就是说，董事会主要由这些机构股东选举而来。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_88813f1622be46ed9d0f8b9b2efbda01@132427329_oswg305061oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而投资者又分为passive investor（被动投资者）与active investor（主动投资者）。</p>
+<p>被动投资者的机构策略就是长期持有，不会轻易变动持仓，也不会激进地寻求投资企业的改变。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_d5d41819fc1c45d7a0f7d75f09400e39@132427329_oswg387185oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>主动投资者会更积极调整持仓，其中里面最激进的是activist investor（激进投资者），像华尔街上著名的 Carl Icahn，被称为“野蛮人”，会收集股票成为大股东，从而激进的影响公司决策。</p>
+<p>我们再看看持有英特尔股票的机构：前三名分别是BlackRock、Vanguard Group、State Street Corp，他们的持股数与第四名之间差了一个数量级，可以看作拥有最大投票权的三家机构。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_9c08e113dec341b1a0ecd55c003a34b8@132427329_oswg331848oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这三家机构，都属于被动投资者，而且排名第一的公司各位有没有觉得眼熟？我们前面介绍的英特尔董事会成员Barbara G. Novick，就是BlackRock的联合创始人。</p>
+<p>当然，其他排名靠后的持股机构大多数也是被动投资者。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_b5968b82069d498991637e2e045f3980@132427329_oswg336558oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>一般被动投资者投票时，会遵循Glass Lewis（GL）与Institutional Shareholder Services（ISS）这两家投票代理机构的建议。</p>
+<p>问题就出在这儿：<strong>大多数情况下，GL与ISS会倾向于董事会的建议。</strong></p>
+<p>所以这么兜兜转转一圈，<strong>英特尔的实际控制权，或者说被外部投资者力量改变的机会，其实还在董事会这里。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_2e044f0b695747d78872e5d64b8c6345@132427329_oswg275879oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>按照资深芯片领域分析师Doug O'Laughlin的描述，Intel’s board has been running on autopilot for a long time（英特尔董事会长期处于自动驾驶状态），用比较优雅的词来翻译就是：脱缰之马。</p>
+<p>那为什么没有激进投资者进场来改变这家公司呢？Doug O'Laughlin在他的文章中也写道：他与一些激进投资者交谈过，<strong>英特尔已经是船大难掉头，投资进场的风险太高。也就是说，聪明的投资者看到英特尔都绕道走了，留下的只有保守派。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_0292fa2a33224588a4b4061c5e991b52@132427329_oswg577645oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>另外，我们采访的嘉宾也就董事会成员为什么不主动辞职提出了一个有意思的观点。</p>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>为什么这些董事会的人还在待着也不去辞职？只有陈立武（Li-Bu Tan）辞职了，是因为董事会一年薪资是33万到50万美金，这对董事会那些成员这都不是小钱。比如加州大学伯克利分校的教授，还有宾州大学健康学的教授，他的工资不到20万，英特尔一年给他 33 万，他每年开四次会，他什么事也不要讲，就当烂好人每个事情都点头，那也没什么不好嘛。</p>
+</blockquote>
+<p><strong>Chapter 6.2 急病乱投医</strong></p>
+<p>在董事会逐出Pat的第一时间，英特尔股价上涨了6%，但随后便是连续多日的下跌。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_4483048e9db24db1b1b775ab442bdd1d@132427329_oswg586613oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>多位业内人士猜测称，这表现出了大众对英特尔公司的不信任。</p>
+<blockquote>
+<p><strong>硅谷徐老师</strong></p>
+<p><strong>财富500强首席创新官</strong></p>
+<p><strong>VMware网络事业部创始人</strong></p>
+<p><strong>斯坦福客座讲师：</strong></p>
+<p>当Pat走人以后，大家第一反应是我可以省钱了，但是回过头来再仔细想想，难道就因为少了Pat，Intel何去何从这件事就有一个答案了吗？要知道Pat上任时大家希望他解决的问题，也看不出来有其他人能解决的更好，所以现实马上就让大家醒了，这是我的猜想。</p>
+</blockquote>
+<p><strong>目前让外界琢磨不透的一点是，董事会到底要走技术路线，还是增长路线，或许这个问题英特尔自己都没有想清楚。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c0002e1974cc4727a488fe0724f1ee1e@132427329_oswg415588oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>我自己也感觉董事会现在看到了战略存在问题，会导致短期的财务数字比较难看，他们想解决这个问题，但如果继续按照Pat的战略去推行的话就很难解决这个问题。</p>
+</blockquote>
+<blockquote>
+<p><strong>硅谷徐老师</strong></p>
+<p><strong>财富500强首席创新官，VMware网络事业部创始人，斯坦福客座讲师：</strong></p>
+<p>我觉得英特尔的董事会搞清楚一件事：到底是想让Intel重振雄风，还是提升财务数据。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_148ee233f426401891c4e62d57647c99@132427329_oswg602346oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在Pat离任后，有消息称英特尔正接触之前出走的前董事会成员陈立武（Li-Bu Tan）。同时英特尔的新CEO人选也在考虑芯片设计公司Marvell的CEO Matt Murphy。</p>
+<p>另外，英特尔临时CEO David Zinsner也表示，新任CEO将需要拥有晶圆代工的经验，同时，英特尔也在接触台积电的高管，看是否有合适人选。</p>
+<p>此外英特尔还新增了两个董事会席位，其中一位是光刻机制造厂ASML的前CEO兼董事长Eric Meurice，另一位则是半导体供应商Microchip Technology的临时CEO Steve Sanghi。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_29e312d38b6f45319324fb51b51450f3@132427329_oswg252481oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>以上这些动向又回到晶圆代工的业务，所以我感觉英特尔现在的董事会，他们在很广泛的去接触各种各样的潜在的这个人选，但是他们也没有别的更好的办法，所以现在处在方向不明确的阶段，想要做改变，但又不知道往什么方向去改。</p>
+</blockquote>
+<p>除了董事会的问题外，杀死英特尔的还有一个因素，那就是<strong>扼杀创新与傲慢的企业文化。</strong></p>
+<p><strong>Chapter 6.3 扼杀创新的企业文化</strong></p>
+<p>回顾英特尔的种种失败，都逃不开几个词：利润率、保守、傲慢。</p>
+<p>华尔街日报也将波音与英特尔一起类比评论道，这两家公司的<strong>企业文化逐渐发展为优先考虑财务业绩而非工程卓越性。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_2bd0772a7e344ee4bed1b92e5709619f@132427329_oswg406710oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>前面我们说到，英特尔最新的处理器Ultra 200s系列用上了台积电工艺，但性能提升却不大。</p>
+<p>在采访嘉宾看来，出现这样的情况，是因为英特尔的芯片设计部门此前过于依赖制造部门的领先技术，因此变得缺乏进取和创新性了。</p>
+<blockquote>
+<p><strong>任扬</strong></p>
+<p><strong>济容投资联合创始人：</strong></p>
+<p>英特尔在2018年前的制造工艺一直处于绝对领先的位置，就导致他的设计部门其实有点过于依赖芯片制造部门的优势，所以在产品设计上不够创新、不够进取。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_69df293f289c4e5bab57b2eee584eea2@132427329_oswg281649oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>有分析认为，英特尔的芯片设计团队由于可以利用其曾经领先业界的工艺，而变得越来越臃肿和懒惰。可以说英特尔衰落最不值得被同情的因素，就是傲慢与自大。</strong></p>
+<p>在制程技术陷入停滞的那几年，英特尔推出了14nm+和14nm++的改进工艺，英特尔前工程师2018年时发表推文说道，自己早在2年前就提出应该使用14nm++的改进工艺，但管理层并没有采纳他的意见，有猜测称，这是因为管理层对10nm的推进过于自信。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_8d2e1e989f5c4bb7a9415fe8175bbded@132427329_oswg396508oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>就算自己的GPU产品缺乏竞争力，也不影响他们嘲笑英伟达和AMD的GPU架构为“Ugly”（丑陋）。</p>
+<p>在低功耗芯片Atom的研发阶段，前CEO Otellini甚至鼓励用户先用ARM过渡，等自己的低功耗处理器面世了再迁移回X86。</p>
+<p>英特尔当时的移动业务主管Mike Bell在接受采访时表达过对ARM的不屑，他认为英特尔拥有30年的经验优势，拥有比ARM更智能的CPU核心。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_f507df4c572d46349ab63c9cd1eb3ae3@132427329_oswg342970oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>讽刺的是，当采访记者Sebastian Anthony问道，“你是否担心自己领先太多，以至于变得自满，反而无法利用这一优势？”，Mike Bell的回答是：我们不会满足于已有的成就…最近，有些公司未能保持创新，结果陷入了困境。</p>
+<p><strong>如今的英特尔开始成为了曾经的反面教材。</strong></p>
+<blockquote>
+<p><strong>硅谷徐老师</strong></p>
+<p><strong>财富500强首席创新官</strong></p>
+<p><strong>VMware网络事业部创始人</strong></p>
+<p><strong>斯坦福客座讲师：</strong></p>
+<p>我前两天还跟一个在英特尔做了近20年的朋友聊，他最近去了亚马逊，我问他为什么现在看不到你当初在Intel时那种不敢冒险的状态了？他说有一个点是很重要的，在Intel只要守着自己本来的东西，就能够保着自己的位置。但在亚马逊那些如果VP只是做过去几年同样的事，他们的位置保不住的，所以他必须得去思考如何冒险一点，否则的话怎么保住自己的位置？多数时候大家都是在为自己的位置着想。</p>
+</blockquote>
+<p>激励机制的不完善，造就了英特尔高层不愿冒险的特性。这种遏制创新的文化不仅影响了英特尔自身的业务，也阻碍了那些被英特尔收购公司的发展，XScale、Nervana、Habana、Altera皆是如此。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_62f69d641ac94951a571c4f95869af79@132427329_oswg383312oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Pat Gelsinger在回顾英特尔历史时说道：“我在英特尔的惨痛经历当中学到的一点是--如何将一家富有创造力的初创公司纳入麾下，并对其进行培育，而不是在大型主流公司内部将其摧毁，而这正是英特尔未能做到的。”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_df54f28cba7c4384bec7a1d5f9569785@132427329_oswg524303oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>有知情人士透露称，<strong>英特尔前董事陈立武（Lip-Bu Tan）离任，正是因为团队臃肿、企业文化趋近保守、以及AI战略的落后。</strong></p>
+<blockquote>
+<p><strong>硅谷徐老师</strong></p>
+<p><strong>财富500强首席创新官，VMware网络事业部创始人，斯坦福客座讲师：</strong></p>
+<p>财富500强首席创新官，VMware网络事业部创始人，斯坦福客座讲师</p>
+<p>陈立武当年愿意加入英特尔做董事是因为Pat的原因，认为他可能改变英特尔，但Pat没有大刀阔斧地狠掉臃肿和机构，没有在执行力上面做得更好，我觉得他是对这方面失望，所以才离开了英特尔。</p>
+</blockquote>
+<p>原本不少人都期望着Pat Gelsinger激进的计划能改变英特尔的困境，但最终他就像新闻标题里说的一样，他也没能成功复兴这家美国的标志性公司。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_b18d754de3af496fb76c7e8fc9e6c947@132427329_oswg469745oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>07 未来何去何从？</strong></h2>
+<p>英特尔的未来到底该何去何从？不得不说，现在大家其实都还挺悲观的。</p>
+<blockquote>
+<p><strong>硅谷徐老师</strong></p>
+<p><strong>财富500强首席创新官</strong></p>
+<p><strong>VMware网络事业部创始人</strong></p>
+<p><strong>斯坦福客座讲师：</strong></p>
+<p>假设英特尔想找个人来把这家伟大的公司做好，我觉得英特尔的董事会没这个能力，而且现在我都不知道最优秀的人愿不愿意去接受英特尔CEO的位置。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_7cc15d9f5daa445483f6ef6417fc60c1@132427329_oswg621007oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<blockquote>
+<p><strong>张忠谋</strong></p>
+<p><strong>台积电创始人：</strong></p>
+<p>我不知道英特尔应该怎么办，他们是想找一个新的策略？还是要找新的CEO？好像两者都要，那这是很难的。英特尔既没有好的董事会，对未来的策略也没有定见。</p>
+</blockquote>
+<p>也有嘉宾认为，如果新任CEO有足够魄力，或许能改变英特尔的困境。</p>
+<blockquote>
+<p><strong>Ted Lu</strong></p>
+<p><strong>Berkeley Analog CEO</strong></p>
+<p><strong>英特尔/AMD早期设计经理：</strong></p>
+<p>就跟Lisa Su（苏姿丰）还没有到AMD之前，我也不确定英特尔未来会怎样，最后还是回到CEO这件事上，CEO找对人了两年就能看到结果，如果找错了人，两年以后还是一样的。</p>
+</blockquote>
+<p>有个小道消息，英特尔的前董事陈立武曾提出过，要找有着“硅仙人”称号的Jim Keller来当CEO，但被董事会拒绝了，不知道这次他能否重获提名呢？</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_c18e9720e42942d0ada14e48f5bb1e49@132427329_oswg472397oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>没有公司会永远伟大，大公司的通病也许都一样，我们之前在波音那期内容也说过：</p>
+<p>当你成为市场第一的垄断者，永远追求利润但又不重视创新，当你的掌舵者不再是市场上最有远见的技术领袖，当你的控制者是一群不懂技术、只会维护短期利益的股东时，大公司的结局往往都逃不过衰败的命运。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250207/v2_a1e7e259a0b34868ae6e743474a36ef0@132427329_oswg448447oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>英特尔会就此衰落，还是绝处逢生，现在都是未知数。但有一点确定的是硅谷从来都不乏奇迹：曾经苹果如此、如今的AMD也如此。</strong></p>
+<p>英特尔能否创下另一个翻盘神话，就让我们一起期待下一任CEO的到来吧。</p>
+<p>本文来自微信公众号“硅谷101”，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3155918488813061</guid><pubDate>Fri, 07 Feb 2025 11:21:00 +0800</pubDate></item></channel></rss>
