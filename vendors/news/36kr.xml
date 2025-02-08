@@ -1,571 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 09 Feb 2025 07:00:21 +0800</lastBuildDate><pubDate>Sun, 09 Feb 2025 07:00:21 +0800</pubDate><item><title>DeepSeek技术解析：如何冲击英伟达两大壁垒？</title><link>https://36kr.com/p/3157337452953352</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>DeepSeek的V3模型仅用557.6万的训练成本，实现了与OpenAI O1推理模型相近的性能，这在全球范围内引发连锁反应。由于不用那么先进的英伟达芯片就能实现AI能力的飞跃，英伟达在1月27日一天跌幅高达17%，市值一度蒸发6000亿美元。一部分投资人担心这会减少市场对先进芯片的需求，但科技圈也普遍存在另一种相反的观点：一个高性能、低成本和开源的大模型会带来整个应用生态的繁荣，反而会利好英伟达的长期发展。 </p>
-<p>这两种矛盾的观点正左右博弈。但如果从技术层面分析，DeepSeek对英伟达、芯片甚至是整个科技行业的影响并不是如此简单。比如本期嘉宾Inference.ai创始人兼CEO John Yue认为，DeepSeek冲击了英伟达两大壁垒——NVLink与CUDA，这在某种程度上打掉了英伟达的溢价，但也并未冲垮壁垒。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,509" src="https://img.36krcdn.com/hsossms/20250208/v2_7f6a4f6214804bd4bb87b2393730c47d@132427329_oswg248141oswg1080oswg509_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>本期内容，主理人泓君邀请到加州大学戴维斯分校电子计算机工程系助理教授、AIZip的联合创始人陈羽北，以及Inference.ai创始人兼CEO John Yue，详细解读DeepSeek核心的技术创新以及对芯片市场的影响。<strong>以下是部分访谈精选</strong></p>
-<p> </p>
-<p><strong>01 DeepSeek 的核心创新是基础模型能力</strong></p>
-<p><strong>泓君：</strong>能不能先从技术上分析一下DeepSeek比较让人惊艳的地方？</p>
-<p><strong>陈羽北：</strong>从DeepSeek这次的进展来看，虽然强化学习在其中占据重要地位，<strong>但我认为基础模型DeepSeek V3本身的能力才是关键。</strong>这一点从DeepSeek的论文数据中可以得到印证——在R1 Zero未经过强化学习时，每生成100条内容就有约10%的成功率，这已经是非常显著的提升。</p>
-<p>DeepSeek这次采用的是GRPO（分组相对策略优化）的方法，有人提出使用PPO（近端策略优化）等其他强化学习方法也能达到类似效果。</p>
-<p>这告诉我们一个重要信息：<strong>当基础模型的能力达到一定水平后，如果能找到合适的奖励函数，就可以通过类似search的方法实现自我提升。</strong>所以这次进展传递了一个积极的信号，但强化学习在其中反而起到次要作用，基础模型的能力才是根本。</p>
-<p><strong>泓君：</strong>总结你的观点，DeepSeek之所以好本质上还是因为V3的表现非常惊艳，因为用比如MoE等各种方式，去让这个基础模型性能更好。R1只是在这个基础模型之上的一次升级，但是你觉得V3比R1-Zero更加重要？</p>
-<p><strong>陈羽北：</strong>我觉得他们都有一些重要的点。从V3来看，主要集中在模型架构效率的提升上，其中有两个重要的工作：<strong>一个是混合专家网络（MoE）</strong>。以前不同专家（expert）的负载均衡（load balance）做得不太好，在分散到不同节点时的时候，它的Load Balance会有问题，，所以他们对负载均衡做了优化。</p>
-<p>其次，它在Attention Layer上，他要节省键值缓存（KV Cache），其实这也是在提高架构的效率。这两点作为它的核心创新，使得它在600多B的大模型上，使得基础模型的能力表现已经挺不错的了。在DeepSeek R1 Zero中，他们首先设计了一个简单直观的基于规则（rule-based）的奖励函数。基本要求是确保数学题的答案和回答格式都完全正确。他们采用了DeepSeek V3的方法：对每个问题生成100条回答，然后从中筛选出正确答案来增强正确回答的比重。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,599" src="https://img.36krcdn.com/hsossms/20250208/v2_a10309ef657f4ec08c77c5fcefa05718@132427329_oswg322106oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：ndtv.com</p>
-<p>这种方法实际上绕过了强化学习（reinforcement learning）中最难处理的稀疏奖励问题——如果我回答100条、回答1万条它都不对，那我其实就没有办法去提升了。但如果任务已经有一定成功率，就可以着重强化这些成功的部分，这样就把稀疏奖励转变为相对稠密的奖励，也就不需要去搭桥、去建模、去构建中间的奖励函数了。借助V3的基础能力，R1 Zero告诉我们，如果这个模型的基础能力已经不错了，那么我是有可能通过这个模型自我来进行提升的。其实这种思路和Model Predictive Control和世界模型，是有很多的相似之处的。</p>
-<p><strong>第二个是让大模型训练小模型</strong>，看似是一个显而易见但是这次也产生了重大影响力的一个结果。他们先训练了一个600 多B的大模型，通过自启发式回答100个问题，然后用自我引导（Bootstrap）方法逐渐提高这个能力，将成功率从10%提升到70-80%。这个大模型还可以用来教导小模型。</p>
-<p>他们做了一个有意思的实验，在Qwen上做了从1.5B一直到30几B的各种大小的蒸馏学习，用大模型学到的推理和计划能力来提升小模型在相关问题上的表现。这是一个相对容易想到的方向，因为在所有的自我增强、模型预测控制（model predictive control）和基于模型的强化学习（model-based reinforcement learning）中，如果模型本身不够好，通过搜索方法来提升效果都不会很理想。但如果用一个搜索能力强、表现好的大模型，直接把学到的能力传授给小模型，这种方法是可行的。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,774" src="https://img.36krcdn.com/hsossms/20250208/v2_d573f5c635e24533bf8768e20645be7d@132427329_oswg215513oswg1080oswg774_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：ABB</p>
-<p><strong>泓君：</strong>所以从整体上看，DeepSeek采用的是一个组合拳策略，从V3到R1-Zero再到R1的每一步演进，在方向选择上都有其可取之处。那么在硅谷的公司中，像OpenAI、Gemini、Claude以及LlaMA，他们是否也采用了类似的模型训练方法呢？</p>
-<p><strong>陈羽北：</strong>我觉得很多这样的想法在之前的研究工作中就已经出现过。</p>
-<p>比如DeepSeek V3模型中使用的多头潜在注意力机制（Multihead Latent Attention），Meta之前就发表过一篇关于多令牌层（Multi-Token Layer）的研究，效果也很相似。另外，在推理和规划（Reasoning and Planning）方面，之前也有过很多相关研究，还有在奖励机制和基于模型的方法（Model-Based Method）等这些方面。</p>
-<p>其实我恰恰觉得这次DeepSeek R1 Zero的命名在一定程度上和AlphaZero有点像。</p>
-<p> </p>
-<p><strong>02 对英伟达利好与利空：冲击溢价但并未冲垮壁垒</strong></p>
-<p><strong>泓君：</strong>想问一下John，因为你是GPU行业的，你觉得DeepSeek R1对英伟达，它到底是利好还是利空？为什么英伟达的股价会跌？</p>
-<p><strong>John Yue</strong>：这应该是一把双刃剑，既有利好也有利空。</p>
-<p>利好方面很明显，DeepSeek的出现给了人们很多想象空间。以前很多人已经放弃做AI模型，现在它给了大家信心，让更多初创企业出来探索应用层面的可能性。如果有更多人做应用，这其实是英伟达最希望看到的局面，因为整个AI行业被盘活后，大家都需要购买更多的卡。所以从这个角度看，这对英伟达更有利。</p>
-<p>而不利的一面是英伟达的溢价确实受到了一些冲击。很多人一开始认为它的壁垒被冲倒了，导致股价大跌。但我感觉实际情况并没有那么严重。</p>
-<p><strong>泓君：</strong>壁垒是什么？</p>
-<p><strong>John Yue: </strong>英伟达有两个最大的壁垒：一个是Infiniband（芯片互联技术）；另一个是CUDA（图形计算统一架构），它那整套调用GPU的系统，与AMD等其他芯片公司已经不在同一层面竞争了。其他公司都在争单张显卡的性能，而英伟达比拼的是芯片互联技术以及软件调用和生态系统的维护。对于这两个壁垒，DeepSeek确实都稍微冲击到了它的溢价，但并没有把壁垒完全冲垮。</p>
-<p>具体来说，对英伟达溢价的冲击体现在：</p>
-<p>MOE的优化实际上在一定程度上削弱了英伟达互联的这一部分重要性。现在的情况是，我可以把不同的expert放在不同的计算卡上，使得卡与卡之间的互联不再那么关键。而且，一些暂时不需要工作的expert可以进入休眠状态，这对于英伟达互联技术的需求确实带来了一定冲击。 </p>
-<p>另一方面，在CUDA方面，这其实是在告诉大家，现在存在一种新的可能性。以前大家可能都认为绕不开CUDA，而现在我们的（指DeepSeek）团队已经证明，确实可以“绕开”CUDA，直接使用PTX进行优化，这并不意味着所有团队以后都具备这样的能力，但至少，它提供了一种可行的方案——也就是说，现在有可能做到这件事。而这种可能性会导致，未来我不一定非要购买英伟达的显卡，或者说，不需要最先进的英伟达显卡，或者可以使用更小型的英伟达显卡来运行模型。</p>
-<p><strong>泓君：</strong>什么叫做绕过CUDA，它是真的绕过CUDA了吗？我听到的说法是说，它用的不是CUDA比较高层的API，但还是用了比较底层的API。</p>
-<p><strong>John Yue：</strong>对，我用词不太准确，准确地说并没有完全绕过CUDA的生态，而是可以直接调用更底层的库，不是使用高层API，而是直接调用PTX（并行线程执行）——这是一个指令集上面一层的指令集层级，然后在这一层直接进行优化。不过这也是一个很大的工程，并不是任何一个小公司都有能力去做这件事情。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,698" src="https://img.36krcdn.com/hsossms/20250208/v2_54234fecc6a4473eb9e3933619432113@132427329_oswg239127oswg1080oswg698_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：medium </p>
-<p><strong>泓君：</strong>如果DeepSeek具备了这种能力，其他公司是否也能获得类似能力？假设现在买不到英伟达的GPU，转而使用AMD的GPU，那你刚才提到NVIDIA的两个核心壁垒：NVLink和CUDA，在某种程度上受到冲击，这对AMD这样的公司来说是否是一个利好？</p>
-<p><strong>John Yue: </strong>短期来看对AMD是个利好，因为AMD最近已经宣布将DeepSeek给移植过去了。但长期来看，可能还是英伟达占优势。这毕竟只是DeepSeek这一个模型，而CUDA厉害的地方在于它是通用的GPU调用系统，任何软件都可以用CUDA。DeepSeek这种做法只支持DeepSeek自己，如果有新的模型出现，还要重新适配一次。</p>
-<p>我们就是在赌DeepSeek是否真的能成为业界标准，成为下一个OpenAI，让所有初创企业都在它的基础上构建。如果是这样，对AMD来说确实不错，因为它已经完成了DeepSeek的移植。但如果不是DeepSeek呢？DeepSeek的优势主要在于对强化学习和GRPO这些方法的改进。如果后面出现更多使用其他方法的模型，那又要重新适配，比起直接用CUDA要麻烦得多，还不如直接用Cuda。</p>
-<p class="image-wrapper"><img data-img-size-val="914,518" src="https://img.36krcdn.com/hsossms/20250208/v2_82bb91f13f8449cfb3d7ff69f38c0e33@132427329_oswg328713oswg914oswg518_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：NVlDIA </p>
-<p><strong>泓君：</strong>所以你的核心观点是它动摇了英伟达的两大核心壁垒NVLink和Cuda，那从GPU的需求上来看呢？</p>
-<p><strong>John Yue: 我没觉得动摇了这两个壁垒, </strong>目前英伟达的两个壁垒还是很坚挺的，<strong>只是对溢价有冲击，可能你收不了那么高的价格了，但这不意味着其他竞品能突然就进来。</strong></p>
-<p><strong>泓君：</strong>它是一个非常漫长的过程？</p>
-<p><strong>John Yue：</strong>其他竞品做的跟这两个壁垒不太一样。可以针对单个模型绕过CUDA，但还没人能做出通用的替代方案。所以实际上没有撼动英伟达的壁垒。就像一堵墙，大家以前都觉得翻不过去，现在DeepSeek跳过去了。那其他人能不能过来呢？它只是提供了一个精神上的鼓励。</p>
-<p><strong>泓君：</strong>对GPU的需求会减少吗？因为DeepSeek这次训练成本低，从某种程度上来说，股价下跌也意味着，是不是用更少的GPU就能训练出更好的模型了？</p>
-<p><strong>John Yue：</strong>如果只看训练这一个模型的话，确实是这样。但DeepSeek真正的重大意义在于重新激发了AI从业者的热情。这样看的话，应该会有更多的公司进入市场，他们会购买更多的芯片。所以这件事可能会导致溢价降低但销售量增加。至于最终市值是增加还是减少，要看这个比例关系。</p>
-<p><strong>泓君：</strong>你怎么看？</p>
-<p><strong>John Yue：</strong>这个不好说，关键还是要看应用。到2025年，大家能开发出什么样的应用。如果之前应用发展的主要阻力是GPU价格的话，那随着价格降到十分之一甚至更低，这个阻力就消除了，市值应该会上涨。但如果主要阻力在其他方面，那就很难说了。</p>
-<p><strong>泓君：</strong>其实就是说，随着AI应用的增多，DeepSeek降低了门槛，从GPU需求来看，整体上反而对英伟达更有利。</p>
-<p><strong>John Yue：</strong>对。因为这些应用开发者不会自己组建团队去重复DeepSeek的工作，比如绕过Cuda去调用PTX。一些小公司他们需要开箱即用的解决方案。所以这对英伟达有利，英伟达最希望看到的就是更多AI公司的出现。</p>
-<p><strong>泓君：</strong>更多的AI公司出来，他们需要的是训练模型的GPU，还是更多的推理？</p>
-<p><strong>John Yue：</strong>我个人觉得，推理芯片领域未来也会是英伟达，我不觉得这些小公司长期有一些优势，它短期大家都有优势。长期我觉得推理是英伟达，训练也是英伟达。</p>
-<p><strong>泓君：为什么推理也是英伟达？</strong></p>
-<p><strong>John Yue：</strong>因为它还是CUDA，还是这个行业的龙头。刚才提到的两个壁垒也没有被动摇。</p>
-<p><strong>现在的ASIC（专用集成电路）公司主要面临两个问题：软件支持不足，硬件缺乏壁垒。</strong>在硬件上，我没看到很强的壁垒，大家基本趋于同质化。</p>
-<p class="image-wrapper"><img data-img-size-val="600,372" src="https://img.36krcdn.com/hsossms/20250208/v2_d7881168c11e42eb87420d01ab8ca5e4@132427329_oswg335426oswg600oswg372_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：领英</p>
-<p>软件则是另一个大问题。这些ASIC公司在软件维护方面做得都不够好，连PTX层面的维护都不够完善。这两个因素导致英伟达还是一直占有龙头地位。</p>
-<p><strong>泓君：</strong>推理芯片对软件的要求也同样高吗？在整个GPU跟训练的这个芯片上，英伟达有绝对的垄断地位，因为你是离不开或者很难绕过这一套系统的，但是推理训练上，方便绕过去吗？</p>
-<p><strong>John Yue：</strong>推理对软件要求也很高，还是需要调用GPU的底层指令。Grok在软件方面比英伟达差距还很大。你看他们现在的模式越来越重，从最初只做芯片，到现在自建数据中心，再到做自己的云服务。等于是在构建一个完整的垂直产业链。但它的资金跟英伟达相比差距很大，凭什么能做得更好？</p>
-<p><strong>泓君：</strong>现在市场上有值得关注的芯片公司吗？</p>
-<p><strong>John Yue</strong>：我觉得AMD有一定机会，但其他的ASIC公司可能还差一些。即便是AMD，与英伟达相比也还有很长一段距离。</p>
-<p>我个人觉得，<strong>如果要在芯片领域创新，可能更应该聚焦在芯片的软件维护上，而不是在硬件上做改变</strong>。比如在DDR（双倍数据速率）、Tensor Core（张量计算核心）、CUDA Core（通用计算核心）之间调整比例，这其实意义不大。这样做等于是在帮英伟达当大头兵，看看这种比例的产品是否有市场，但你建立不了什么壁垒。</p>
-<p>但是在软件这块还有很大的优化空间，比如开发一套比CUDA更优秀的软件系统。这可能会有很大的机会，但也不是一件容易的事情。</p>
-<p> </p>
-<p><strong>03 开源生态：降低AI应用的准入门槛</strong></p>
-<p><strong>泓君：</strong>你们觉得DeepSeek选择开源的这条路，对行业的生态具体会有哪些影响？最近在美国的reddit上，很多人已经开始去部署DeepSeek的模型了。它选了开源以后，这个开源到底是怎么去帮助DeepSeek把模型做得更好的？ </p>
-<p><strong>John Yue：</strong>最近我们也部署了一些DeepSeek的模型在我们平台上面，我觉得他开源是一件对整个AI行业非常好的事情。因为去年下半年以后，大家会感觉有一点失落，因为AI应用看起来都起不来。起不来有一大原因就是很多人觉得Open AI把所有应用的壁垒都能打掉了个百分之八九十，大家都是比较惶恐的。就是我做一个什么东西，明年OpenAI出个o4，就把我东西全部覆盖了。 </p>
-<p>那我如果做这个东西建立在OpenAI上的话，它出一个新的模型，把我的应用完全包含进去了；我在价格上也没法跟他争，我在功能上没法跟他争，这就导致很多公司不太敢去做，VC也不太敢进来。 </p>
-<p>这次DeepSeek开源，对整个行业的一个好处：我现在用的是一个开源做得非常好的一个模型，那这样的话我有一定的这种连续性，我就有更大的更多的信心去做更多的应用。 </p>
-<p>DeepSeek如果有能力去超过OpenAI的话，那对整个行业就更好了。就等于说是有一条恶龙现在它不存在了，大家发展的就能更好一些。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,495" src="https://img.36krcdn.com/hsossms/20250208/v2_bbb8a98d8cab47468e5d08f67bf645eb@132427329_oswg126592oswg1080oswg495_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：Lago </p>
-<p>更多人用它，它就跟LlaMA的逻辑是一样的，有更多人用，有更多反馈，所以它的模型能做得更好。DeepSeek也是这样，如果有更多的应用开发者，它收集数据的速度肯定是比其他模型快很多。 </p>
-<p><strong>泓君：</strong>现在我们能看到一个开源的模型，它在整个的性能上已经跟OpenAI的o1，基本上是一个量级的。那可以预期OpenAI它发了o3 mini之后，开源模型可能也会升级，也会有下一个版本再来超过这些闭源模型的。我在想当一个开源模型它的性能足够好的时候，OpenAI这些闭源模型它存在的意义是什么？因为大家就直接可以拿到最好的开源模型的底座去用了。 </p>
-<p><strong>John Yue：DeepSeek的意义在于它的价格降了很多，它是开源的</strong>。 </p>
-<p>不是说比OpenAI已经好了。闭源模型还会是领先的一个趋势。开源的意义可能就在于它会像安卓一样，谁都可以用，然后非常便宜。这样它降低了进入行业的门槛，所以它才是真正让这个行业蓬勃的一个因素。 </p>
-<p>这些闭源的模型它有可能是一直领先的。闭源如果还不如开源，那可能就没有意义，但它应该是有管理上面的优势，可以超过开源模型。 </p>
-<p><strong>泓君：</strong>那现在看起来确实是有一批闭源不如开源的。 </p>
-<p><strong>John Yue：</strong>那就自求多福，如果闭源还不如开源，我也不知道这公司在干什么，你还不如免费好。 </p>
-<p><strong>陈羽北：</strong>我觉得开源的生态是非常重要的。因为我除了在实验室以外，我之前参与一家公司叫AIZip，也做很多的全栈的这种AI应用。然后你会发现一件事情，很多这种开源的模型你直接是无法使用的，就是产品级的东西你无法直接使用这些开源的模型。但是如果有这样的开源的模型，可能会大大提高你生产出一个这种产品级的模型的能力，大大提高你的效率。 </p>
-<p>所以你像DeepSeek也好，LlaMA也好，我觉得这种开源的这种生态对于整个的社区来讲是至关重要的一件事情。因为它降低了所有的AI应用准入门槛<strong>。</strong>那见到更多的AI的应用，它有更多的触及这件事情是对于每一个做AI的人是一个非常利好的消息。 </p>
-<p>所以我认为Meta在做的这件事情很重要，LlaMA一直在坚持开源构建，这样让所有的AI的开发者都可以做自己的应用，虽然LlaMA并没有把这个应用直接给你做完，他给你提供了一个Foundation。Foundation顾名思义它就是一个地板，对吧？你可以在这个地板之上，你可以构建你所想要构建的这种应用，但是他把90%的任务给你做好了。 </p>
-<p>我认为更好的Foundation对于整个生态是非常重要的。OpenAI下大功夫来优化的一些能力的话，它依然会有这样的优势。但是我们也不希望这个市场上只有OpenAI，那对于所有的人来讲可能都是一个不利的消息。 </p>
-<p> </p>
-<p><strong>04 API价格下降与小模型的想象空间</strong></p>
-<p><strong>泓君：</strong>DeepSeek是怎么把API接口的价格给降下来的？因为我看了一下它的这个R1官网写的是，每百万输入的Token，缓存命中的是1块钱，缓存未命中的是4块钱，每百万输出的Token是16块钱。o1的价格我整体算了一下，差不多每个档位都是他们的26到27倍之高。它是怎么把这个API的成本给降下来的？</p>
-<p><strong>John Yue：</strong> 它等于是从上到下做了整个的一套优化。从PTX这块怎么调用，底下的GPU到MOE的架构，到Low Balance，它都做了一套优化。 </p>
-<p>这里面可能最重要的一点，就是它可以降低了对芯片的要求。你本来非得在H100上，A100上跑，你现在可以用稍微低端一些（的芯片），或者你甚至可以用Grok。你可以用国内的那些严格版的H800这些卡去跑。那这样，它其实就已经大幅度地降低了每个Token的成本。 </p>
-<p class="image-wrapper"><img data-img-size-val="868,590" src="https://img.36krcdn.com/hsossms/20250208/v2_e61d10527f744c19bc01d27ef9454e23@132427329_oswg345252oswg868oswg590_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源: NVIDIA </p>
-<p>它里头如果再做优化，比如切分GPU，它其实可以降下来很多。而且OpenAI内部其实也说不定人家早都降下来了，它只是不想降Retail的价格，这也不确定。 </p>
-<p>我觉得主要就是这两个吧，一个是架构上，一个是芯片，可以降级了。 </p>
-<p><strong>泓君：</strong>芯片降级未来会成为行业的普遍现象吗？ </p>
-<p><strong>John Yue：</strong>我觉得不会，因为英伟达已经停产了所有老芯片，市面上数量有限。比如说虽然可以在V100上运行，但V100早就停产了。而且每年都要计算折旧，可能过两年市面上就找不到V100了。英伟达只会生产最新的芯片。 </p>
-<p><strong>泓君：</strong>那它的成本还是低的吗？ </p>
-<p><strong>John Yue：</strong>如果在新芯片上做一些优化，比如我们这种GPU切分方案，成本是可能降低的。因为模型变小了。我们最近运行它的7B模型，只需要大约20GB。我们可以把一张H100切成三份来运行DeepSeek，这样成本直接降低三分之一。 </p>
-<p>我觉得未来可能会更多地使用虚拟化GPU来降低成本。仅仅依靠老卡和游戏卡是不现实的，原因有几个，一是英伟达有黑名单机制，不允许用游戏卡正式部署这些模型；老卡除了停产问题，还有很多维护方面的问题。所以我不认为芯片降级会成为主流现象。 </p>
-<p><strong>泓君：</strong>所以现在你们是在为客户提供芯片优化，帮助节省成本。那你最近客户应该是暴增，你觉得这个是受益于DeepSeek，还是说你们一直在做这件事情？ </p>
-<p><strong>John Yue：</strong>我们从去年就开始做这件事，一直在赌未来会有更多的小模型。DeepSeek出来后，就像刚才说的，它带来了一个趋势，会蒸馏出更多的小模型。如果大家要运行更多小模型，就需要不同型号的芯片，每次都用物理芯片可能比较困难。 </p>
-<p><strong>泓君：</strong>DeepSeek降低了整个API成本，你刚才也分析了它的研究方法。你觉得这套研究方法未来有可能用在更多场景中吗，比如你们在做GPU分片和客户模型时？会不会引发整个行业对GPU成本的节省？ </p>
-<p class="image-wrapper"><img data-img-size-val="1080,547" src="https://img.36krcdn.com/hsossms/20250208/v2_fe66791325574d9a991960555aa03c67@132427329_oswg42226oswg1080oswg547_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：DeepSeek Platform </p>
-<p><strong>John Yue:</strong> 应该可以。DeepSeek的出现向行业证明了现在有更优的强化学习方法。我觉得后面肯定会有很多人采用相同的方法。在调用CUDA这块，以前可能没人敢尝试，他们证明了几个博士毕业生也能很快绕过CUDA，后面可能很多模型公司都会效仿，这样大家都这么做的话，成本肯定会下降。 </p>
-<p><strong>泓君：</strong>所以我理解现在训练成本降低了，推理成本也大幅下降了，那你们现在帮客户去部署这种GPU的时候，客户的主要需求是什么？ </p>
-<p><strong>John Yue：</strong>简单便捷、快速部署和低价格。我们能解决部署成本问题，因为确实存在很多浪费。比如一张A100或H100都是80GB，但如果你要蒸馏出一些小模型，或者使用现有的Snowflake、Databricks那种模型，可能只需要10GB，有的更小。在80GB的GPU上部署10GB的内容，就等于大部分GPU都浪费了，但你还是要支付整个GPU的费用。 </p>
-<p>另外，推理（Inference）时工作负载是弹性的，有时客户增多，有时减少。如果每张卡上都有浪费的空间，扩展时每张卡都会有这样的浪费。我们现在做的是将其虚拟化，这样就完全没有浪费，就等于比较简单粗暴地解决了很多GPU部署成本的问题。 </p>
-<p><strong>陈羽北：</strong>这个领域其实还有一个有意思的方向，小模型在过去6到8个月的进展非常快，这可能带来一个变革。之前全世界99%的算力对大家是不可见的，人们不会意识到ARM芯片或高通芯片里具备AI能力。未来如果有大量小语言模型、视觉语言模型（VLM）、音频智能等能力，可能会越来越多地出现在曾经不会被用到的平台上，比如特斯拉的车上已经用到了很多。 </p>
-<p>你会发现越来越多的设备，比如手机、耳机、智能眼镜，现在是一个火爆品类，很多公司都在做，都会搭载设备端On-Device AI。这对降低成本、提高AI可用性有巨大机会。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,563" src="https://img.36krcdn.com/hsossms/20250208/v2_c0d526187a91426d9ab391f97fe81956@132427329_oswg223000oswg1080oswg563_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：Medium </p>
-<p><strong>泓君：</strong>小模型好用吗？ </p>
-<p><strong>陈羽北：</strong>小模型其实在很多的领域有很多的基本的应用。当你把小模型给到足够的训练以后，它最终和大模型的性能差不多。 </p>
-<p><strong>泓君：</strong>说一个具体的应用场景。 </p>
-<p><strong>陈羽北：</strong>比如说，我们用到这个话筒，里面有降噪功能，可以用一个极小的神经网络实现，这个神经网络可以放在话筒里。即使把模型放大10倍、100倍，性能差异也不会很大。 </p>
-<p>这样的功能会越来越多地被集成进来，比如小语言模型可以放在智能手表上，做一些基本的问答、调用API，完成基本工作。更复杂的任务可以转移到云端，形成分层的智能系统。现在一个智能手表就能做非常复杂的推理了。手机上的高通芯片，推理能力可以达到50TOPS（每秒万亿次操作），这是一个很大的算力，与A100相差不大。很多小模型可以胜任大模型已经在做的事情，这对降低成本、提高AI的普及程度有很大帮助。 </p>
-<p><strong>泓君：</strong> 小模型是本地的还是联网的？ </p>
-<p><strong>陈羽北：</strong>本地的。 </p>
-<p><strong>泓君：</strong>所以未来我们整个世界里面可能会有各种各样的小模型。当这个小模型不够用的时候，它再去调动这种大模型，这样就可以极大地节省这一部分的推理成本？ </p>
-<p><strong>陈羽北: </strong>对，我认为未来AI的基础设施应该是分层的。最小的可以到终端设备，在传感器里做一些基本的运算。在边缘端会有更多的AI功能，再到云端，形成端-边-云的完整体系。 </p>
-<p>我之前提到过一个数字，如果做个简单计算，把全世界终端和边缘端的算力加起来，会是全球HPC（高性能计算）中GPU算力的100倍。这是个非常可怕的一件事，因为体量太大了。高性能GPU的出货量可能在百万片级别，但手机和边缘端设备可能达到百亿级别，到传感器这个级别可能还要再大一两个数量级。当体量上去后，加起来的算力是极其庞大的。 </p>
-<p><strong>泓君：</strong>那芯片够用吗？比如说高通的芯片。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,600" src="https://img.36krcdn.com/hsossms/20250208/v2_939f206c2a38490080eed998d1d0d00c@132427329_oswg1008896oswg1080oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：mobile europe </p>
-<p><strong>陈羽北：</strong>它可以做很多很复杂的功能。从小语言模型到VLM（视觉语言模型），再到音频的ASR（自动语音识别）等。对于这些我称之为"初级AI功能"的任务，无论是代理型还是感知型，在边缘平台和终端设备上都能完成。最复杂的任务则会转移到云端处理。 </p>
-<p>另一个是全球90%到99%的数据其实都在终端和边缘端。但现在大多数情况下是“用掉就丢”（use it or lose it）。比如，你不可能把摄像头的所有视频都传到云端。如果在终端和边缘端有AI功能，就可以筛选出最有价值的数据上传，这的价值是巨大的。目前这些数据都还没有被充分利用。 </p>
-<p>未来当初级AI功能增多后，这些初级AI模型反而可以作为大模型的一种数据压缩工具。 </p>
-<p><strong>泓君：</strong>现在大家部署的是DeepSeek的小模型吗，还是LlaMA的？ </p>
-<p><strong>陈羽北：</strong>其实可能都不是。整个生态里有Qwen，LlaMa，还有DeepSeek，也有很多自研的，所以我觉得整个生态里面，只能说是越来越多的这样的小模型在涌现，而且它们的能力在快速提高。 </p>
-<p><strong>泓君：</strong>选模型看重什么关键点？ </p>
-<p><strong>陈羽北：</strong>首先是效率问题：模型必须运行快速，体积要小。 </p>
-<p>但更重要的是质量要求：没有人会为一个又快又小但不好用的模型付费。模型必须能够胜任它要处理的任务。这就是我所说的AI鲁棒性，这一点非常重要。比如说话筒的降噪功能，它必须能保证音质。如果处理后的声音很粗糙，没人会使用它，大家还是会选择用后期处理软件。 </p>
-<p><strong>泓君：</strong>所以在应用端的话，大家看的并不是说最前沿的模型是什么，而是说最适合我的模型是什么，然后选成本最低的就可以了。 </p>
-<p> </p>
-<p><strong>05 提问DeepSeek：数据与持续创新能力</strong></p>
-<p><strong>泓君：</strong>因为现在关于DeepSeek很多的信息都已经公开出来了，你们对这家公司还有没有非常好奇的问题？ </p>
-<p><strong>陈羽北：</strong>在他们发表的文章中，具体的数据构成并没有被详细披露，很多训练细节也只是在宏观层面提及。当然，我理解不是所有内容都应该公开，这个要求不合理。但如果能提供更多细节，让其他人更容易复现这项工作，可能会更好。所有前沿研究实验室都有这样的趋势，在涉及数据这块时都比较含糊。 </p>
-<p><strong>泓君：</strong>有些连OpenAI都不敢写，所有的大模型公司问到数据他们都是不敢答的。 </p>
-<p><strong>陈羽北：</strong>连数据是如何平衡的、时长以及具体的处理流程这些都没有写出来。我理解不写具体的数据组成，但至少可以写一下数据是如何整理的。但很多时候这些细节大家都不写，而我觉得这些恰恰是最关键的部分。其他一些方法反而很容易想到，比如用搜索方法来做推理规划，或者当模型够好时，用自举方法提高性能，再或者用大模型直接自举出结果给小模型。 </p>
-<p><strong>真正难想到的是两个方面：数据的具体构成和架构中的底层创新。</strong>我觉得这些才是最关键的内容。 </p>
-<p><strong>John Yue：</strong>我比较关注DeepSeek这家公司是否能持续给大家惊喜，继续挑战OpenAI。如果它能不断给我们带来惊喜，让大家最终都在DeepSeek上开发应用，那对整个芯片和基础设施领域的格局确实会带来较大改变。 </p>
-<p>就像我刚才说的，DeepSeek已经绕过CUDA去适配很多东西，如果它能继续保持这个位置，其他芯片厂商可能也会有机会，这对英伟达的生态系统也会构成一定挑战，溢价肯定会下降。但如果下一个模型，比如Llama 4出来，假如它比DeepSeek好很多，那可能又要重新回到起点。 </p>
-<p><span style="letter-spacing: 0px;">本文来自微信公众号</span><a href="https://mp.weixin.qq.com/s/raRa1zaFUWU-atfRNcl2NQ" rel="noopener noreferrer nofollow" style="letter-spacing: 0px;" target="_blank">“硅谷101”</a><span style="letter-spacing: 0px;">，作者：硅谷101，36氪经授权发布。</span></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157337452953352</guid><pubDate>Sat, 08 Feb 2025 10:44:00 +0800</pubDate></item><item><title>不务正业，成就日本半导体？</title><link>https://36kr.com/p/3157320564300544</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<section data-mpa-powered-by="yiban.io">
-<section>
-<section>
-<section>
-<section style="">
-<section style="text-align: left;justify-content: flex-start;display: flex;flex-flow: row;margin-top: 16px;margin-bottom: 10px;">
-<section style="display: inline-block;width: auto;vertical-align: middle;align-self: center;flex: 100 100 0%;border-style: solid;border-width: 1px;border-background-height: auto;">
-<section style="text-align: center;justify-content: center;display: flex;flex-flow: row;transform: translate3d(3px, 0px, 0px);margin-top: -4px;margin-bottom: 3px;">
-<section style="display: inline-block;width: 100%;vertical-align: top;align-self: flex-start;flex: 0 0 auto;border-style: solid;border-width: 1px;border-background-padding-bottom: 8px;">
-<section style="text-align: justify;letter-spacing: 1.5px;">
-<p>作为全球半导体产业的重要一环，日本最擅长的就是材料与设备领域，整个半导体生产制造环节，都少不了日本企业的身影。</p>
-<p>但让人感到惊讶的是，在那些专门从事半导体行业的企业之外，还有许多原本并不直接参与半导体行业的日本企业悄悄开启了自己的跨界，在主业之外涉足半导体生产制造。</p>
-<p>为什么它们要进入与其主业看似不相关的半导体领域？它们又是如何利用自身资源与技术积累取得突破的呢？让我们来详细了解一下。</p>
-</section>
-</section>
-</section>
-</section>
-</section>
-<section style="text-align: center;justify-content: center;display: flex;flex-flow: row;margin-top: 10px;margin-bottom: 10px;">
-<section style="display: inline-block;vertical-align: bottom;width: auto;align-self: flex-end;flex: 0 0 auto;background-min-width: 5%;height: auto;">
-<section style="text-align: justify;letter-spacing: 1px;">
-<p><strong>巨头的“不务正业”</strong></p>
-</section>
-</section>
-</section>
-<section style="letter-spacing: 1.5px;">
-<p>相信许多人对TOTO这个名字不会感到陌生，作为日本最大马桶制造商，其马桶相关产品畅销全球，截至2022年8月，TOTO推出的卫洗丽(包括智能马桶一体机和智能马桶盖)全球出货量突破6000万台，是马桶界当之无愧的霸主。</p>
-<p>但许多人并不了解的是，这位马桶霸主在半导体行业同样拥有着广阔业务，其在陶瓷上积累的技术同样可以应用于芯片之中。</p>
-<p>TOTO与半导体的渊源可以追溯到 1980 年代，当时它为半导体行业开发了高性能精细陶瓷，虽然这类陶瓷坚硬但易脆，但TOTO凭借着从马桶制造中积累的成型和烧制等技术能力，能够非常轻松地生产具有抗裂性的均匀材料。</p>
-<p>这一材料最终成为了如今TOTO为芯片制造设备提供的主要产品——静电卡盘（e-chucks），这种装置用于在电路蚀刻过程中固定硅片，同时保持硅片的温度分布均匀。</p>
-</section>
-<section style="text-align: center;margin-top: 10px;margin-bottom: 10px;">
-<section style="vertical-align: middle;display: inline-block;">
-<img class="rich_pages wxw-img" data-imgfileid="100288731" data-ratio="0.7853025936599424" data-s="300,640" data-type="png" data-w="694" src="https://img.36krcdn.com/hsossms/20250208/v2_223c407e34f745ea9d28cf0ef98f4e65@000000_oswg232743oswg694oswg545_img_000?x-oss-process=image/format,jpg/interlace,1" style="vertical-align: middle;width: 100%;"/>
-</section>
-</section>
-<section style="letter-spacing: 1.5px;">
-<p>制造先进存储器芯片可能需要在单个芯片上堆叠超过100层存储单元。“随着工艺环境变得更加苛刻，静电卡盘需要更加耐用，”名古屋大学低温等离子科学中心教授关根诚（Makoto Sekine）表示。</p>
-<p>据了解，TOTO是从卫浴业务中找到问题答案的，其曾使用高精度显微镜检查马桶表面的小缺陷，以减少污垢附着，当这一技术应用于静电卡盘时，可以更容易发现零部件上的化妆粉等异物颗粒。</p>
-<p>不过，TOTO这一业务此前一直处于亏损状态，直到 2022 财年才实现了利润的大幅增长。</p>
-<p>为了提高竞争力，TOTO在2020年斥资约118亿日元，在日本大分县的生产中心建造了一座生产设施。从2020年4月到2024年4月，其将陶瓷生产相关人员增加了约20%，并计划进一步扩充。</p>
-<p>其预计，2024 财年陶瓷部门的营业利润将达到 200 亿日元（1.3 亿美元），营业利润率接近 40%，远高于公司整体预计的 7%。该公司的目标是在 2026 财年达到 250 亿日元，并扩大其投资组合，以帮助稳定业务。</p>
-<p>让人感到惊讶的是，TOTO并未局限于静电卡盘这一种产品，随着半导体3D堆叠技术的发展，对基底工艺提出了新的需求，这家日本公司也开始将目光投向下游工艺，例如切割和封装等。</p>
-<p>“未来，陶瓷将在更多的下游加工设备中得到应用，”TOTO陶瓷业务规划部经理龟岛淳司（Junji Kameshima）表示。</p>
-<p>与TOTO类似的还有鼎鼎大名的日本味之素，作为以调味品起家的公司，其产品却在半导体行业中获得了近乎垄断的地位。</p>
-<p>在几年前的新冠疫情来临之际，餐饮业受到了巨大打击，味之素的香料和酱料业务陷入困境，但它作为芯片行业的薄膜供应商的意外副业却迎来了高速发展。</p>
-<p>“人们使用的大多数台式机和笔记本电脑内都含有 ABF，”该公司化学产品负责人表示，他指的是“味之素累积膜”。ABF 是一种薄复合材料，用于将处理器连接到称为基板的基层，形成芯片封装的一部分，将芯片连接到主板并保护芯片免受损坏。</p>
-<p>一百多年来，味之素一直致力于生产调味品、汤底、干汤和冷冻食品等产品，尽管如今味之素通常使用甘蔗和木薯等天然原料来制作调味品，但在历史上，味之素曾通过化学合成生产产品，从而实现更精确的批量生产，这也为它涉足半导体行业埋下了伏笔。</p>
-<p>味之素和ABF的故事始于1970年代，当时味之素停止了化学生产，转而开始研究一些副产品的应用，而在同一时间，半导体行业正在进入下一个发展阶段，墨水是当时首选的载板基材，但将其涂布和干燥会减慢生产速度，吸引杂质并产生对环境有害的副产物，因而印刷电路板制造商亟需寻找更好的绝缘材料。</p>
-</section>
-<section style="text-align: center;margin-top: 10px;margin-bottom: 10px;">
-<section style="vertical-align: middle;display: inline-block;">
-<img class="rich_pages wxw-img" data-imgfileid="100288733" data-ratio="0.562962962962963" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20250208/v2_b06cdc6b17014a268fa6870cf8dabb96@000000_oswg1074819oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" style="vertical-align: middle;width: 100%;"/>
-</section>
-</section>
-<section style="letter-spacing: 1.5px;">
-<p>这种材料需要满足许多要求，例如良好的附着力和耐热性以及不导电性，它还必须价格低廉且易于处理。在对蛋白质和氨基酸（关键调味料成分）进行研究时，味之素研发团队发现副产物可以做出拥有极高绝缘性的树脂类合成材料，于是创造出了一种具有高耐用性，低热膨胀性，易于加工和其他重要特征的热固性薄膜，该膜被命名为ABF。</p>
-<p>1996年，英特尔与味之素联系，寻求使用氨基酸技术开发薄膜型绝缘子，这两家企业合作研发出了FC-BGA（Flip Chip Ball Grid Array），最终让ABF成为了CPU FC-BGA产品的主要方案。</p>
-<p>2008 年至 2016 年间，ABF 的销量一度处于停滞状态，部分原因是智能手机芯片并未使用 ABF，但随着疫情推动个人电脑的需求激增，以及云计算数据中心和 5G 网络基站的建设热潮，ABF膜再度迎来了高速发展。</p>
-<p>根据调研机构的数据，2023年全球ABF市场价值为4.825 亿美元，预计到2030年将达到8.454亿美元，在2024-2030年预测期内复合年增长率为 7.8%，其中味之素占据了近99%的市场份额。</p>
-<p>对于TOTO和味之素这样的大型企业来说，通过主营业务发展得到的半导体业务正在推动着它们的多元化发展，不把鸡蛋放进一个篮子里，是这些大型企业的经营智慧。</p>
-</section>
-<section style="text-align: center;justify-content: center;display: flex;flex-flow: row;margin-top: 10px;margin-bottom: 10px;">
-<section style="display: inline-block;vertical-align: bottom;width: auto;align-self: flex-end;flex: 0 0 auto;background-min-width: 5%;height: auto;">
-<section style="text-align: justify;letter-spacing: 1px;">
-<p><strong>造纸企业的生存之道</strong></p>
-</section>
-</section>
-</section>
-<section style="letter-spacing: 1.5px;">
-<p>而在早期就已涉足半导体的企业之外，一部分传统企业同样把注意力放在了利润颇丰的半导体行业上，凭着过往技术积累，尝试开拓新业务。</p>
-<p>日本的造纸行业就有不少这样的例子。日本作为全球第四大纸张生产国，2019年产量达2600万吨，占全球总产量的近10%，其造纸业居第三，产业链覆盖林业、木材加工、造纸及印刷等环节，尤其在特种纸和高端文化用纸领域具有显著优势。</p>
-<p>但近年来，传统绘图纸、新闻纸等因电子化趋势需求持续萎缩，以及中国等新兴市场在产能和技术上的快速追赶，开始让日本造纸企业谋求新的出路。</p>
-<p>成立于1893年的造纸巨头王子控股，就在近日宣布开展面向2纳米以下芯片的材料业务，其开发出了使用木质成分的光刻胶（感光材料），目标是到2028年实现商业化。</p>
-<p>“王子控股的根基是森林资源，但传统造纸业务呈现出下滑态势。将向造纸以外的业务转型”。社长矶野裕之在2024年12月召开的投资者关系（IR）说明会上如此表示。王子控股开发出了以木质中提取的成分为原料的“生物质光刻胶”。目标是到2030年代实现100亿日元的年销售额。</p>
-<p>据了解，目前主流的“化学放大型”光刻胶被认为在形成微细电路上存在局限性。而王子控股开发出了来源于木质的光刻胶，并已确认达到了2纳米以下半导体工艺所要求的性能，其还具有环境负荷小的优点。</p>
-<p>此前要将来源于木质的素材用于半导体材料，需要解决去除杂质的课题，植物中含有的金属成分能导电，是半导体制造方面的大敌。王子控股在研究把生物质应用于医药品和食品领域的过程中积累了经验，通过改进去除杂质的提炼技术克服了这一难题。</p>
-<p>无独有偶，另一家日本造纸巨头大王制纸也宣布了进军半导体行业的决定。</p>
-<p>作为一家传统的纸制品生产商，大王制纸成立于1943年，长期以来主要专注于生产纸张、纸制品、包装材料等产品。然而，随着市场环境的变化和对新业务增长机会的需求，大王制纸开始了逐步的转型，逐步从传统的纸制品制造商转型为多元化产业集团。</p>
-<p>据了解，大王制纸通过其在纸张、薄膜技术领域的积累，逐步开发出半导体制造所需的特种材料。例如，光刻胶支持膜、电子功能膜和封装材料等。这些产品广泛应用于全球半导体制造商和封装测试企业，特别是在精密封装、高端集成电路(IC)和功率半导体领域。</p>
-</section>
-<section style="text-align: center;margin-top: 10px;margin-bottom: 10px;">
-<section style="vertical-align: middle;display: inline-block;">
-<img class="rich_pages wxw-img" data-imgfileid="100288734" data-ratio="0.562037037037037" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20250208/v2_c7c6bf1268da42aea5d3e875cd5df737@000000_oswg881843oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1" style="vertical-align: middle;width: 100%;"/>
-</section>
-</section>
-<section style="letter-spacing: 1.5px;direction: ltr;">
-<p>需要注意的是，2023年6月21日，大王制纸宣布将与东北大学、东京大学、产业技术总合研究所(AIST)合作，开始开发使用纤维素纳米纤维（CNF）的半导体材料。以东北大学研究小组对CNF半导体特性的研究成果为基础，目标是将新型生物基半导体商业化。</p>
-<p>CNF 是一种将木材和其他来源的植物纤维分解并细磨至纳米尺寸（十亿分之一纳米）制成的材料，它重量轻、强度高、保水性优良，其用途正在扩大到各种应用，包括汽车零件和日常用品。</p>
-<p>东北大学的研究显示，CNF具有适合于控制电力系统的特性，例如直流/交流、开关效应、整流特性，而大王制纸能够利用旗下以机械解纤法制造的CNF水分散体「ELLEX-S」与AIST共同展开薄膜、片材加工等方面的应用开发。</p>
-<p>除了以上两家外，还有成立于20世纪初的巴川制纸，也已加入到了半导体市场之中。巴川制纸此前利用其电性能评估技术、造纸技术、粉末技术、涂料技术和粘合剂/粘合技术创造了众多产品，但近年来，巴川制纸因原有事业利润低迷，增长陷入停滞，因此不断精进造纸、粉体、涂料、粘合剂/粘接技术，扩充控制热、电、电磁波的iCas产品群，并开发符合以环境为主的SDGs的Green Chip品牌产品，将事业范围扩展至高功能材料领域，追求企业转型。</p>
-<p>据了解，目前，巴川生产的一些纸质材料被用作光刻过程中需要的特殊材料。例如，巴川纸业研发的光刻胶（photoresist）相关的膜材料用于微型化的半导体芯片制造。这些材料帮助制造高精度的芯片图案，并确保芯片的微小结构得以精确复制。</p>
-<p>此外，巴川在半导体封装领域也有布局，其专门生产的材料可用于封装过程中的防护、散热和绝缘，其开发了适用于半导体制造的膜材料，这些材料被广泛应用于各类电子产品的制造中，值得一提的是，它还提供了用于半导体测试过程的材料，如测试探针、电气连接板等，这些材料在半导体芯片的质量控制、验证和测试过程中非常关键。</p>
-<p>对于日本造纸行业来说，不断的内卷促使它们寻找新的出路，而近年来高速发展的半导体行业无疑是一个最佳选择，通过对造纸技术的改造，生产出适合先进半导体的材料，让这些老牌造纸企业获得了新的活力。</p>
-</section>
-<section style="text-align: center;justify-content: center;display: flex;flex-flow: row;margin-top: 10px;margin-bottom: 10px;">
-<section style="display: inline-block;vertical-align: bottom;width: auto;align-self: flex-end;flex: 0 0 auto;background-min-width: 5%;height: auto;">
-<section style="text-align: justify;letter-spacing: 1px;">
-<p><strong>更多新兴半导体企业？</strong></p>
-</section>
-</section>
-</section>
-<section style="letter-spacing: 1.5px;direction: ltr;">
-<p>从TOTO到味之素，再到王子控股，愈来愈多的日本企业参与到了半导体发展之中，上述的例子只是这股风潮中的冰山一角。</p>
-<p>成立于1900年的日本知名印刷企业凸版印刷，主要业务包括印刷、包装、出版等。然而近年来，凸版印刷通过积极转型，逐步进入了更为高端和多元化的业务领域，尤其是在半导体、电子材料和功能性膜等领域的布局。</p>
-<p>据了解，凸版印刷通过其强大的薄膜技术，开发了多种功能性膜材料，广泛应用于半导体和电子产业，这些材料具有高精度的表面处理和高耐热性，能够满足半导体、显示器、太阳能电池等领域的需求。</p>
-<p>除了功能性膜材料外，凸版印刷还积极涉足半导体封装领域，为了符合环保法规，凸版印刷开发了不含铅的封装材料，符合全球对环保材料的需求，此外，凸版印刷的高密度封装材料也能满足精密度和可靠性的需求，应用于移动设备、汽车电子、医疗电子等领域。</p>
-<p>靠化妆品和个护家护出名的花王成立于上个世纪，最早以肥皂起家，在这几年里也参与到了半导体行业之中，其推出了包括半导体清洗剂和键合材料的多款产品。</p>
-<p>半导体生产过程中，晶圆需要经过多次清洗，以确保电路的高精度和低误差率，花王此前推出了一系列高效的半导体清洗剂，这些清洗剂能够有效去除晶圆表面的微小污染物和杂质，保证半导体器件的良品率。</p>
-</section>
-<section style="text-align: center;margin-top: 10px;margin-bottom: 10px;">
-<section style="vertical-align: middle;display: inline-block;">
-<img class="rich_pages wxw-img" data-imgfileid="100288732" data-ratio="0.562962962962963" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20250208/v2_d8e01f56915d4466953979ed9dd2c477@000000_oswg492528oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1" style="vertical-align: middle;width: 100%;"/>
-</section>
-</section>
-<section style="letter-spacing: 1.5px;">
-<p>除了清洗剂之外，今年1月，花王还开发出了用于下一代功率半导体的键合材料“亚微米铜粒子” ，并正在致力于量产。</p>
-<p>据了解，银和铜具有较高的熔点，作为需要高耐热性的功率半导体的键合材料而备受关注。铜比银便宜，且键合层具有较高的热稳定性。而花王开发的铜颗粒与溶剂混合制成铜膏，用于连接半导体和电路板，它可以与从亲水性到疏水性的多种溶剂一起使用，即使在与银粘合材料类似的条件下加压和烘烤（10兆帕、260摄氏度）也能表现出较高的粘合强度。</p>
-<p>目前花王已成功实现铜粒子的量产合成及精炼，并会根据未来的努力进一步扩大规模，其正正考虑以干粉或分散在溶剂中的浆料的形式提供该材料。</p>
-<p>有意思的是，部分日本企业甚至开始向老牌半导体材料巨头发起了挑战，日本大型胶带特殊用纸生产企业LINTEC（琳得科）近年开始涉足制造先进半导体所需要的保护膜领域，而另一家日本材料企业AGC则开发出了用于制作精细电子电路的绝缘薄膜。</p>
-<p>据了解，LINTEC开发出了保护半导体电路底版（光掩模）的“Pellicle（防护膜）”使用的新材料。Pellicle起到的作用是在半导体晶圆上绘制电路时，防止底版留下伤痕和附着灰尘。是提高该工序的生产效率不可缺少的构件。极紫外光（EUV）曝光设备用于制造电路线宽较为精细的半导体。要提高生产效率和实现精细化，需要提高光的输出功率，产生更高热量，因此需要提高Pellicle的耐热性。</p>
-<p>而LINTEC通过使用在高温下不易发生化学变化和强度不易降低的碳纳米管（CNT），将耐热性提高到了使用多晶硅的传统产品的两倍以上。将在2025年度之前投资约50亿日元确立量产体制，与周边材料合计计算，争取几年内实现300亿日元的销售额。</p>
-<p>AGC正在讨论涉足的是绝缘薄膜领域，其开发出了不使用传统环氧树脂材料的薄膜。绝缘薄膜是在多层化的半导体基板中细致通电所需要的材料。据称，AGC开发的产品提高传输性能，易于通电，可以降低面向通信标准“5G”等的高性能半导体的传输损失。该公司正与客户企业进行商谈，目标是2026～2027年左右实现商业化。</p>
-<p>除了以上两家企业外，日本的东洋油墨SC控股也向半导体部件保护材料领域的美国大型化学企业陶氏(DOW)及德国大型日用品企业汉高(Henkel)发起了挑战。</p>
-<p>与其他采用液体保护材料不同，东洋油墨的产品做成了薄膜状，其借鉴了以往积累的技术。这一技术以往用于折叠手机铰链部的薄膜，可以防止电磁波泄露。用液状保护材料进行加工时，需要在整个基板上涂布，而如果是薄膜，可以对每个部件进行保护。</p>
-<p>随着台积电和Rapidus等企业开始投资设厂，日本在半导体材料领域迎来了更多新玩家，尽管过去并未直接参与到半导体行业之中，但它们凭着优异的技术积累，已然在这一市场中占据一席之地。</p>
-</section>
-<section style="text-align: center;justify-content: center;display: flex;flex-flow: row;margin-top: 10px;margin-bottom: 10px;">
-<section style="display: inline-block;vertical-align: bottom;width: auto;align-self: flex-end;flex: 0 0 auto;background-min-width: 5%;height: auto;">
-<section style="text-align: justify;letter-spacing: 1px;">
-<p><strong>来自“不务正业”的成功</strong></p>
-</section>
-</section>
-</section>
-<section style="letter-spacing: 1.5px;">
-<p>对于日本来说，“不务正业”的企业似乎正在创造半导体行业的另一种成功。</p>
-<p>在全球半导体产业中，日本一直拥有着强大的技术积累和制造能力，尤其是在材料与封装领域，早已占据重要地位。随着全球半导体产业竞争的加剧，前文中所述的大量日本企业开始通过聚焦细分市场、利用自身的独特制造能力，实现了在跨界布局中的“杀手锏”。</p>
-<p>不少日本企业涉足于材料市场，在这一领域中，它们能够运用其在制造工艺和精密控制上的优势，开发出在市场上具备竞争力的新产品，与传统行业的竞争相比，专注于新兴的利基市场，不仅降低了竞争压力，也能不断提升盈利能力。</p>
-<p>它们的到来，也为日本的半导体产业注入了更多新鲜的技术力量，尤其是在特定材料的开发与应用上，能够确保未来日本在半导体制造中依旧具备独特的技术优势。</p>
-<p>而于日本企业而言，专注于细分市场并利用自身的独特技术优势，早已成为保持行业竞争力的关键。在全球半导体产业竞争日益激烈的今天，那些“不务正业”的企业的积极参与，正为半导体产业带来更多的可能性与发展潜力。</p>
-<p><span style="letter-spacing: 0px;">本文来自微信公众号</span><a href="https://mp.weixin.qq.com/s?__biz=Mzg2NDgzNTQ4MA==&amp;mid=2247772403&amp;idx=1&amp;sn=cbe9a1e4806d5664cf811d67f8b1fe26&amp;chksm=cf07e932b317db8f3b65bcb262f03d1293b28b45a8a00e71b1bcb0ca7f8e54c5af589aed0fdf&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" style="letter-spacing: 0px;  border- border-image: none; padding-bottom: 1px; overflow-wrap: break-word;">“半导体行业观察”（ID：icbank）</a><span style="letter-spacing: 0px;">，作者：邵逸琦，36氪经授权发布。</span></p>
-</section>
-</section>
-</section>
-</section>
-</section>
-</section>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157320564300544</guid><pubDate>Sat, 08 Feb 2025 10:45:00 +0800</pubDate></item><item><title>占全球90%市场，人工关节陶瓷国产新秀何时替代这一霸主</title><link>https://36kr.com/p/3157219205503745</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p></p>
-<section data-mpa-powered-by="yiban.io" data-role="outer" label="Powered by 135editor.com">
-<p style="text-align:justify;outline: 0px;vertical-align: inherit;letter-spacing: 1px;"></p>
-<section data-role="outer" style="">
-<section data-role="paragraph">
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">作为隐形冠军的赛琅泰克（CeramTec GmbH），其存在感一度在国内带量采购的深入进行、国内骨科行业迎来一轮大洗牌时达到顶峰。</span></p>
-</section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">“隐形冠军”的概念由德国管理学家赫尔曼·西蒙提出。它的定义是“销售额不超过50亿欧元，在某个细分市场上品牌位于世界前三名”，同时这些企业又非常低调，往往只服务于非常细分的市场，不为人们所熟知。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">在骨科，医用陶瓷、PEEK、钴铬钼、超高分子量聚乙烯等材料都尚没有合格的国内供应商，几家海外企业主导市场，在这些细分市场也催生了多家隐形冠军。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">在《隐形冠军：全球化先锋》一书中，赛琅泰克作为供应陶瓷人工关节的德国企业登场，被评价为名副其实的隐形冠军。提供陶瓷人工髋关节元器件，赛琅泰克是强生、捷迈邦美、史赛克、威高、春立等全球主要人工关节企业的陶瓷关节元件唯一供应商。每年依靠陶瓷人工髋关节业务，赛琅泰克收入超过数亿欧元。</span></p>
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-color="#ef7060" data-id="86516" data-tools="135编辑器" mpa-from-tpl="t">
-<section mpa-from-tpl="t" style="border-bottom: 1px solid rgb(221, 221, 221);margin-bottom: 10px;">
-<p data-brushtype="text" hm_fix="216:699" style="padding-bottom: 6px;border-bottom: 2px solid rgb(250, 90, 0);display: inline-block;margin-bottom: -1px;"><strong mpa-from-tpl="t"><span style="">01</span></strong></p>
-</section>
-</section>
-<section data-role="paragraph" mpa-from-tpl="t">
-<p style=""><span style=""><strong mpa-from-tpl="t"><span style="letter-spacing: 1px;">为什么是陶瓷？</span></strong></span></p>
-</section>
-</section>
-</section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">首先，选材是高值医用耗材开发的重要一环。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">在人工关节领域，传统的金属球头会导致骨溶解，在患者植入7-10年左右就要考虑二次手术翻修；相较之下，陶瓷作为无机非金属的生物惰性更佳，不会和人体产生复杂电化学反应，安全性更高，同时，陶瓷十分坚硬，经特殊抛光打磨后的摩擦系数更低，产品使用寿命更长，这也使得陶瓷替代金属成为全球范围内的技术迭代趋势。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">而人工关节置换术是一种治疗终末期严重骨关节炎及膝关节晚期疾病的非常成熟及有效的手术，包括人工全髋关节置换术（THA）、人工全膝关节置换术（TKA）、膝关节单间室置换术（UKA）、髌股关节置换术（PFJ）等，视病变部位、下肢力线畸形程度与手术医生经验而定。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">人工关节置换术针对的，正是随着世界人口老龄化程度的加剧，而随之增加的老年退行性骨关节病变群体。由于各种原因导致关节发生了结构上的改变后，单纯使用药物治疗只能部分缓解疼痛症状，难以改善关节功能。而人工关节置换可以达到缓解疼痛、稳定关节、矫正畸形、改善关节功能等目的，逐步成为一大刚需。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">因而，赛琅泰克正是这一刚需市场关键命脉的绝对主导者。</span></p>
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-color="#ef7060" data-id="86516" data-tools="135编辑器" mpa-from-tpl="t">
-<section mpa-from-tpl="t" style="border-bottom: 1px solid rgb(221, 221, 221);margin-bottom: 10px;">
-<p data-brushtype="text" hm_fix="216:699" style="padding-bottom: 6px;border-bottom: 2px solid rgb(250, 90, 0);display: inline-block;margin-bottom: -1px;"><strong mpa-from-tpl="t"><span style="">02</span></strong></p>
-</section>
-</section>
-<section data-role="paragraph" mpa-from-tpl="t">
-<p style=""><span style=""><strong mpa-from-tpl="t"><span style="letter-spacing: 1px;">从工厂到第四代陶瓷材料的诞生</span></strong></span></p>
-</section>
-</section>
-</section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">赛琅泰克的一切要从1903年说起。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">在德国马克特雷德维茨，Thomas工厂（Thomas Werke）诞生，这便是赛琅泰克的前身。1908年，它被Philipp Rosenthal &amp; Co. ag收购，并找到了新的成长养分。1921年，与AEG的合作，让工厂正式开启了工业用技术陶瓷的开发之旅。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">此后，在不断的合作与重组中，工厂与公司的名称和架构虽几经变化，但始终朝着技术陶瓷的高峰攀登。从Rosenthal Isolatoren GmbH到Rosenthal Technik ag，再到Hoechst CeramTec ag，每一次重组，都让公司一次次革新发展。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">在业务拓展与重组的过程中，赛琅泰克也在不断吸收新的力量。Südplastik Gummi-und Kunststoffverarbeitung GmbH的加入，以及后续一系列的收购与整合，让其业务版图不断扩大。1996年，Ceras IV GmbH收购Hoechst CeramTec ag，正式成立了CeramTec ag，当今更为世人所知的赛琅泰克正式亮相，标志着一个全新发展阶段的开始。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">与此同时，赛琅泰克并未满足于国内的发展，它将目光投向了全球。在被不同的企业收购与整合的过程中，它也在不断地进行全球化的布局。收购Ideal Standard的滤芯业务、Emil Müller GmbH、ETEC Gesellschaft für Technische Keramik mbh等。对于赛琅泰克而言，每一次收购都像是在编织一张更大的全球网络，让产品和技术走向世界的每一个角落。</span></p>
-<p style="text-align: center;"><img class="rich_pages wxw-img js_insertlocalimg" data-backh="1096" data-backw="546" data-imgfileid="503177655" data-ratio="2.0064814814814813" data-s="300,640" data-type="webp" data-w="1080" src="https://img.36krcdn.com/hsossms/20250208/v2_fb2b7c32c6df4099ba84c117710e81d3@000000_oswg174347oswg1080oswg2167_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">而赛琅泰克在人工关节领域的探索始于20世纪70年代。1970年，法国外科医生Pierre Boutin首次植入了陶瓷髋关节，标志着陶瓷材料在人工关节领域的初步应用。随后，赛琅泰克开始专注于氧化铝陶瓷的研发和生产。1972年，Boutin报告了氧化铝陶瓷髋关节的临床应用，这种材料以其优异的生物相容性和耐磨性获得了初步认可。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">赛琅泰克的技术突破与市场拓展由此开始，并一发不可收拾。1974年，首例 Biolox<sup>®</sup>氧化铝关节面的推出，宣告了生物陶瓷在人体中应用的新时代的来临。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">进入20世纪80年代，赛琅泰克在陶瓷材料的性能提升方面取得了显著进展。1982年，FDA批准了由氧化铝陶瓷球头、髋臼和钴铬钼合金柄组成的全髋关节假体用于临床。这一时期，赛琅泰克通过优化烧结工艺和添加增韧剂，进一步提高了氧化铝陶瓷的韧性和抗断裂强度。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">20世纪90年代，复合陶瓷材料的崛起。赛琅泰克推出了氧化铝-氧化锆复合陶瓷材料（Zirconia-Toughened Alumina，简称ZTA）。这种材料结合了氧化铝的低降解敏感性和氧化锆的增韧能力，显著提高了陶瓷关节的强度和抗断裂性能。1994年，赛琅泰克推出了Biolox<sup>®</sup>forte陶瓷材料，这种材料在临床应用中表现出卓越的耐磨性和生物相容性。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">2004年，赛琅泰克推出了第四代陶瓷材料Biolox<sup>®</sup>delta。这种材料进一步优化了氧化铝和氧化锆的复合结构，具有更高的强度和断裂韧性。Biolox<sup>®</sup>delta的推出标志着赛琅泰克在人工关节陶瓷领域达到了新的高度。目前，赛琅泰克在全球陶瓷髋关节球头市场的份额已超90%，其产品被广泛应用于全球范围内的骨科手术。</span></p>
-<p style="text-align:justify;"><img class="rich_pages wxw-img" data-backh="241" data-backw="546" data-imgfileid="503177653" data-ratio="0.44166666666666665" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20250208/v2_673e59d7bba8410c9ffaae8da1bd61b9@000000_oswg155378oswg1080oswg477_img_000?x-oss-process=image/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">此后，Biolox<sup>®</sup>陶瓷球头和臼衬作为髋关节部件，被供应给全球百余家骨科公司。2003年，第四代Biolox<sup>®</sup> delta（氧化铝复合氧化锆陶瓷）问世，这一新型材料，进一步提升了产品的性能，为医疗健康领域带来了更优质的解决方案。2006年，赛琅泰克研发出Biolox<sup>®</sup> delta陶瓷膝，2015年为过敏患者开发、生产并测试了陶瓷肱骨头，2021年带有陶瓷部件的人工椎间盘获得FDA批准。如今，赛琅泰克的医疗业务拥有Biolox<sup>®</sup>、Densilox<sup>®</sup>和Verilox三个产品系列品牌，涵盖髋关节、膝关节、肩关节、脊柱植入物、齿科种植体和兽用植入物等。</span></p>
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-color="#ef7060" data-id="86516" data-tools="135编辑器" mpa-from-tpl="t">
-<section mpa-from-tpl="t" style="border-bottom: 1px solid rgb(221, 221, 221);margin-bottom: 10px;">
-<p data-brushtype="text" hm_fix="216:699" style="padding-bottom: 6px;border-bottom: 2px solid rgb(250, 90, 0);display: inline-block;margin-bottom: -1px;"><strong mpa-from-tpl="t"><span style="">03</span></strong></p>
-</section>
-</section>
-<section data-role="paragraph" mpa-from-tpl="t">
-<p style=""><span style=""><strong mpa-from-tpl="t"><span style="letter-spacing: 1px;">行业金标准制定者</span></strong></span></p>
-</section>
-</section>
-</section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">陶瓷材料在人工关节中的应用需要具备极高的生物相容性、耐磨性、抗疲劳性和抗碎裂性。赛琅泰克的Biolox<sup>®</sup>系列陶瓷材料，尤其是第四代Biolox<sup>®</sup>delta，通过氧化锆增韧氧化铝的复合结构，实现了高强度、高韧性和低磨损的完美结合。这种材料的制备工艺复杂，需要高精度的烧结和加工技术，而赛琅泰克凭借其百年技术积累，在材料配方和工艺控制上形成了极高的技术壁垒。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">赛琅泰克的核心产品是Biolox<sup>®</sup>系列陶瓷材料，包括Biolox<sup>®</sup>forte和Biolox<sup>®</sup>delta。这些材料广泛应用于人工髋关节和膝关节的球头和内衬部件。</span></p>
-<p style="text-align:justify;"><img class="rich_pages wxw-img" data-backh="170" data-backw="546" data-imgfileid="503177651" data-ratio="0.31203703703703706" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20250208/v2_f5efed67dc794149afc3e36ec7285ccc@000000_oswg86800oswg1080oswg337_img_000?x-oss-process=image/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">陶瓷材料的脆性使其加工难度极高，赛琅泰克通过优化加工工艺，确保了产品的高精度和高可靠性。这种技术难度使得其他企业难以在短时间内复制其产品，从而巩固了赛琅泰克的市场地位。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">其中，Biolox<sup>®</sup>delta材料的耐磨性比传统金属材料高出数倍，能够显著降低磨损颗粒的产生，从而减少假体周围骨溶解和松动的风险。这种材料的生物相容性极高，几乎不会引起人体的免疫反应。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">总体而言，赛琅泰克的Biolox<sup>®</sup>系列核心产品具有以下极为突出的特点：</span></p>
-<section style="margin-top: 10px;margin-bottom: 10px;">
-<section style="display: inline-block;width: 100%;border-width: 2px;border-style: dashed;border-background-border-radius: 0.7em;">
-<p style=""><span style=""><strong><span style="letter-spacing: 1px;caret-">● 耐磨性</span></strong></span></p>
-<p style=""><span style="letter-spacing: 1px;caret-">Biolox<sup>®</sup>系列陶瓷材料的硬度极高，能够显著减少磨损颗粒的产生。例如，Biolox<sup>®</sup>delta的硬度和耐磨性使其在极端条件下仍能保持优异的性能。这种特性使得赛琅泰克的产品在长期使用中表现出色，减少了因磨损导致的假体松动和骨溶解的风险。</span></p>
-<p style=""><span style=""><strong><span style="letter-spacing: 1px;caret-">● 高精度加工</span></strong></span></p>
-<p style=""><span style="letter-spacing: 1px;caret-">赛琅泰克的陶瓷球头和内衬部件加工精度极高，球头的最大偏差仅为5微米，内衬的最大偏差为7微米。这种高精度加工确保了关节的运动设计能够最大程度地减少磨损，延长假体的使用寿命。</span></p>
-<p style=""><span style=""><strong><span style="letter-spacing: 1px;caret-">● 生物相容性</span></strong></span></p>
-<p style=""><span style="letter-spacing: 1px;caret-">Biolox<sup>®</sup>系列陶瓷材料具有优异的生物相容性，化学性质稳定，不会释放金属离子，避免了金属过敏等问题。这种特性使得赛琅泰克的产品特别适合对金属敏感的患者。</span></p>
-<p style=""><span style=""><strong><span style="letter-spacing: 1px;caret-">● 创新的复合材料</span></strong></span></p>
-<p style=""><span style="letter-spacing: 1px;caret-">Biolox<sup>®</sup>delta通过优化氧化铝和氧化锆的复合结构，实现了高强度和高韧性的完美结合。这种复合材料不仅继承了氧化铝的低降解敏感性，还通过氧化锆的增韧能力显著提高了材料的强度和断裂韧性。</span></p>
-<p style=""><span style=""><strong><span style="letter-spacing: 1px;caret-">● 临床验证与市场信任</span></strong></span></p>
-<p style=""><span style="letter-spacing: 1px;caret-">赛琅泰克的产品经过了超过45年的临床验证，积累了大量的成功案例。其Biolox<sup>®</sup>系列陶瓷材料在全球范围内的广泛使用和高度认可，进一步巩固了其市场地位。</span></p>
-</section>
-</section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">值得一提的是，第四代Biolox<sup>®</sup>delta材料自2004年推出以来，已经在全球范围内广泛应用于人工髋关节置换手术，积累了大量的临床数据，证明了安全性和有效性。这种经过验证的性能使得全球主要的人工关节制造商，如强生、施乐辉、史赛克等，均选择赛琅泰克作为其陶瓷材料的唯一供应商。</span></p>
-<p style="text-align:justify;"><img class="rich_pages wxw-img" data-backh="202" data-backw="546" data-imgfileid="503177654" data-ratio="0.37037037037037035" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20250208/v2_1cb8156010554fb29cb971a09d3bcb27@000000_oswg92607oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">此外，赛琅泰克始终保持高额的研发投入，不断探索新技术和新材料。公司不仅在传统的氧化铝和氧化锆复合陶瓷上持续改进，还积极探索3D打印技术在人工关节领域的应用。这种创新精神使得赛琅泰克能够不断推出更先进的产品，满足市场对高性能人工关节的需求，并能够根据客户需求提供定制化的解决方案。这种灵活性使得其产品能够更好地满足不同患者的个性化需求，进一步提升了其市场竞争力。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">而这种垄断地位，使得赛琅泰克能够控制原材料的供应和价格，从而在成本和利润上占据优势。在全球人工关节市场中，赛琅泰克的陶瓷球头和内衬逐步成为几乎是所有主流厂商的唯一选择。这种依赖关系使得赛琅泰克能够对市场进行有效的控制，进一步巩固其垄断地位。</span></p>
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-color="#ef7060" data-id="86516" data-tools="135编辑器" mpa-from-tpl="t">
-<section mpa-from-tpl="t" style="border-bottom: 1px solid rgb(221, 221, 221);margin-bottom: 10px;">
-<p data-brushtype="text" hm_fix="216:699" style="padding-bottom: 6px;border-bottom: 2px solid rgb(250, 90, 0);display: inline-block;margin-bottom: -1px;"><strong mpa-from-tpl="t"><span style="">04</span></strong></p>
-</section>
-</section>
-<section data-role="paragraph" mpa-from-tpl="t">
-<p style=""><span style=""><strong mpa-from-tpl="t"><span style="letter-spacing: 1px;">国产替代，迈出一大步</span></strong></span></p>
-</section>
-</section>
-</section>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">长期以来，进入人工关节陶瓷领域需要克服诸多行业壁垒。首先，研发和生产高性能陶瓷材料需要大量的资金投入和长时间的技术积累。其次，产品需要经过严格的临床试验和监管审批，这一过程不仅耗时长，而且成本高昂。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">而赛琅泰克不仅有长期积累而成的技术优势，同时还是行业标准的制定者，下游的强生、捷迈、施乐辉都必须遵守其制定标准。而新产品则必须经过它的“放行”——经历数次对标和审视，以及深入的市场教育，才能上市。简而言之，赛琅泰克长期积累的护城河太深，乃至其他企业难以迈过“高成本+长周期的市场准入”的行业壁垒挑战其金标准。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">另一方面，则是国内的旺盛需求和日益响亮的国产替代呼声。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">2022年国家带量采购政策出台后，陶瓷髋关节成为市场主导，国家人工关节带量采购统计数据显示，陶瓷关节使用比例达到89%。但在中国，不论是哪一类厂家，其关节核心部件陶瓷股骨头及内衬均依赖进口。中国陶瓷髋关节假体还出处于被“卡脖子”的境地。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">国家带量采购政策大幅减低了关节市场终端价格，所有关节厂家均大幅降价，对于中国的关节厂商，采购国外进口陶瓷股骨头和内衬的费用已经占到了总生产成本的50-70%，承受着巨大的成本压力。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">而陶瓷耗材从研发环节到制造，至少需要产品结构设计、材料学、机械加工三个专业团队合力完成。国内企业要往国产替代方向发力，就必须从现在起重新向上游延伸，甚至要从材料端开始摸索，难度较高。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">与此同时，行业领头羊仍然在发力。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">2024年9月中旬，赛琅泰克位于马克特雷德维茨的医疗技术陶瓷生产车间在奠基开工建设一年后封顶，预计2026年正式完工并投入使用。生物陶瓷的特点是其卓越的生物相容性和口腔中的美观外观。由于其牢固的结合力和材料的高纯度，用于关节和牙齿替代物的生物陶瓷在生理环境（例如人体）中化学稳定。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">针对此种情况，工业和信息化部、国家药监局在2023年联合开展生物医用材料创新任务“揭榜挂帅”工作，从政策、融资、商业化等多维度支持生物医用材料的研发及应用。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">近期，安颂宣布其研发的氧化锆陶瓷股骨头产品于2025年1月8日获得了国家药品监督管理局（NMPA）的认证，注册证编号为国械注准20243132300。这标志着安颂科技在高端医用陶瓷材料领域的创新成果正式获得国内市场的认可，填补了国内在高性能陶瓷股骨头生产上的空白，并在多个性能指标上超越了国际竞品。</span></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">更早之前，即截至2024年8月，宸泰新材的粉陶材料已经完成在药监局的主文档备案，具备了下游厂商备案登记的条件，宸泰新材也是国内第一批完成主文档备案的材料厂商。从价格方面考虑，由于全部国产的生产化流程，价格仅为国外企业同类产品的50%以下，具有巨大的价格优势。宸泰新材可以为下游厂商提供更具性价比的材料产品。</span></p>
-<p style="text-align:justify;"><img class="rich_pages wxw-img" data-backh="190" data-backw="546" data-imgfileid="503177652" data-ratio="0.34814814814814815" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20250208/v2_87527012f6844609b20c38c413b6821c@000000_oswg77335oswg1080oswg376_img_000?x-oss-process=image/format,jpg/interlace,1" style="vertical-align: baseline;width: 100%;height: auto;"/></p>
-<p style="text-align:justify;"><span style="letter-spacing: 1px;">攀登者前仆后继，并已经拿出了初步成果。</span><strong style="letter-spacing: 1px;caret-outline-style: initial;text-align: center;"><strong style="outline-style: initial;caret-"><strong style="outline-style: initial;"><strong style="outline-style: initial;"><strong style="outline-style: initial;"><strong style="outline-style: initial;letter-spacing: 1.5px;"></strong></strong></strong></strong></strong></strong></p>
-</section>
-</section>
-<p>本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MjM5MTMyMDg0Ng==&amp;mid=2650661354&amp;idx=3&amp;sn=b894af1fc200f87956513935aa3b0e8d&amp;chksm=bf14a7ccffb4c6d6d8a3bf6f4fd701e29e088293f177eefc2758ef822c26c7b3fca3beacfe29&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" style="border:solid #999;border-width:0 0 1px;word-wrap:break-word;">“动脉网”（ID：vcbeat）</a>，作者：宁晨，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157219205503745</guid><pubDate>Sat, 08 Feb 2025 10:47:00 +0800</pubDate></item><item><title>刚开年，好多国资就忍不住投资上海了</title><link>https://36kr.com/p/3157335605271044</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>返工第一周，各位差不多已经找回魔都的节奏了吧？</p>
-<p>但比起咱打工人，今年有一类群体却更早地涌向了上海这块宝地，就是各路资本和企业。</p>
-<p>这件事不奇怪，毕竟如今的上海已然是一座5万亿规模的经济体，少不了厮杀抢夺。</p>
-<p>这两年我们也写过很多这样的画面，无论企业总部落户、还是巨量外资涌入，上海都是那个兵家必争之地。</p>
-<p>今年这座城市背后还有一股更大的力量浮出水面——来自一个常年低调的群体，<strong>国资。</strong></p>
-<p>直接给各位看2组数据吧：</p>
-<p>第一组：2024年上海地方国有企业实现营业收入3.5万亿元，利润总额2693.5亿元，资产总额首次突破30万亿元。</p>
-<p>这个数字意味着到去年底，上海国资委超额完成了3年改革主体任务的年度目标，且比预计时间提前了一整年。</p>
-<p class="image-wrapper"><img data-img-size-val="1046,530" src="https://img.36krcdn.com/hsossms/20250208/v2_3c07bd13cd194abbbfa17f3e0f3a4a87@6164552_oswg163548oswg1046oswg530_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：《上海市国资国企发展“十四五”规划》</p>
-<p>包括第二个数据：去年三季度，上海上市国企资产总规模20.1万亿元，也已经来到了全国第一。</p>
-<p>很多人对上海的定义就是擅长玩转资本和金融，这当然没错，但上海的实力远不止于此。</p>
-<p>这两组数字就非常好的说明，上海这座城市本身的家底足够丰厚，一直是不容忽视的地方国资重镇。</p>
-<p>事实上，国资，早已成为上海经济压舱石一样的力量。</p>
-<h2><strong>01</strong></h2>
-<h2><strong>巨量国资基金，正在涌入上海</strong></h2>
-<p>从去年到今年，上海几乎成为国资基金最集中的地方之一， 很多中小基金都盯紧上海的风吹草动。因为这些国资企业一般不轻易出手，但凡出手就是绝对的大手笔。</p>
-<p>比如很多入场基金的规模都是<strong>百亿级。</strong></p>
-<p>我简单整理了下，最夸张的是开年不满一个月，就有4笔百亿及以上规模的资金在上海落地。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,595" src="https://img.36krcdn.com/hsossms/20250208/v2_eeb3d335e9cc4a8a8d5084374a05a70b@6164552_oswg181310oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据整理自公开平台</p>
-<p>不仅数字很吓人，各位注意到发起人或管理平台了么，都是实打实的顶级大佬啊。</p>
-<p>甚至大佬们过年也不放假。1月28日除夕当天，很多人应该还在放炮竹，但上实集团设立的一只百亿规模医药基金就悄悄发了公告，首期落地规模是50.1亿元。</p>
-<p>包括1月8号到17号，仅仅10天之内，三只基金集体落地上海。最少的规模100亿，最大的达到600亿级。</p>
-<p>整个1月份，上海国资大佬们在千亿级赛道挥斥方遒。这一切还要追溯到去年那个国内创投圈热搜第一的事件。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,402" src="https://img.36krcdn.com/hsossms/20250208/v2_dd18bb5e0fe140a9a77fe3c50205aa02@6164552_oswg171277oswg1080oswg402_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024年7月上海正式发布三大先导产业母基金 （集成电路、生物医药、人工智能） 及未来产业基金，总规模达到1000亿元。这个 国家级母基金的体量，自然也吸引了<strong>各地资本入局。</strong></p>
-<p>我查了下几只基金的出资人， 发现很多是上海国资主导，但也有各地其他国资的参与。</p>
-<p>比如三大先导产业基金的背后，就是一场浩浩荡荡的资本抵沪运动会。</p>
-<p>从<strong>母基金</strong>的出资情况来看，不少外来国资甚至能站到股东队伍的前排。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,617" src="https://img.36krcdn.com/hsossms/20250208/v2_1223829f23494f3e932371c4a36d18b9@6164552_oswg219550oswg1080oswg617_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>比较特别的，是除夕夜落地的这只生物医药基金。</p>
-<p>出资人名单里一溜儿的上海企业，但往下滑，赫然出现了“成都交子”的身影。查了下这个企业的股权穿透，发现它背后的大佬是中国银行。</p>
-<p class="image-wrapper"><img data-img-size-val="736,760" src="https://img.36krcdn.com/hsossms/20250208/v2_f9af3ce4f71a470fbcb1e5dbc4436327@6164552_oswg209324oswg736oswg760_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：东富龙公告</p>
-<p>更夸张的是国家集成电路产业投资基金三期，也叫“大基金三期”。股权穿透后，站在第一位的大股东是国家财政部。</p>
-<p>包括其余18位股东全部都是国资国企，还有<strong>子基金</strong>，更是英雄不问出处。</p>
-<p>从去年7月份子基金遴选公告 发布后，就有全国各地156家机构选手申报。</p>
-<p>但说实话想拿到名次也不容易，到去年12月底第一批子基金仅9家中选，其中4家外来机构。</p>
-<p class="image-wrapper"><img data-img-size-val="1071,732" src="https://img.36krcdn.com/hsossms/20250208/v2_fbc7205d5ca84e5995ed33a73b9d8a7b@6164552_oswg66449oswg1071oswg732_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：上海国投官网</p>
-<p>这里面，很多子基金都是第一次走进上海，比如元禾璞华、中科创星等， 都是 首次在上海发起设立基金。</p>
-<p>甚至礼来亚洲基金、正心谷本来是要扎根外地的， 因为三大先导产业母基金的吸引力，也掉头来了上海。</p>
-<p>其中，号称半导体公司“收割 机”的元禾璞华，也是一名实打实的国资选手，背后是苏州工业园区和江苏政府。</p>
-<p class="image-wrapper"><img data-img-size-val="915,592" src="https://img.36krcdn.com/hsossms/20250208/v2_6ccb880484ba41c881fd522adf11a7c0@6164552_oswg95866oswg915oswg592_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：企查查</p>
-<p>包括中科创星，看名字就知道背靠的是中科院（西安），不仅有钱有底气，还是纯技术流。</p>
-<p>而这些各行各业的佼佼者，如今都用真金白银投票，砸中了上海这片创投热土。</p>
-<h2><strong>02</strong></h2>
-<h2><strong>不只基金，如今上海还是北京央企外迁的最大受益者</strong></h2>
-<p>之前我们跟各位讨论过很多次，各大企业一直热衷于把总部搬来上海。比如早年的大虹桥，一杆子砸下去全是地产总部。</p>
-<p>近几年的互联网总部也越来越多，华为去了青浦、网易也在徐汇滨江占了一个席位。去年上半年还新增了45家外资跨国总部。</p>
-<p>但没想到，这一年频繁出现在我们视野里的，竟然是一些<strong>央企总部。</strong></p>
-<p>我大致统计了下，这一年就有5个央企总部陆续在上海建成或敲定。</p>
-<p class="image-wrapper"><img data-img-size-val="933,612" src="https://img.36krcdn.com/hsossms/20250208/v2_e162b5a8232f47288e12512e5c2e95cd@6164552_oswg39917oswg933oswg612_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">整理自公开平台</p>
-<p>比如2024年12月，中国数联物流在上海正式揭牌，也是全国第一家数据科技央企。包括中交集团、中节能、中能建这3家央企， 也在上海设立了 总部基地。</p>
-<p>尤其此前中交、中节能在杨浦滨江设立的总部，这两年也陆续来到了竣工交付期。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250208/v2_6a6169c7ab03467784ee9bf3549ea80c@6164552_oswg162682oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：中交集团</p>
-<p>至于中能建，虽然是综合地块，不过根据公示的招标文件，未来上海总部也会在这里落地。想必到时候，员工回一趟总部开会大概会方便很多吧。</p>
-<p>所以为什么这么多央企更愿意来上海呢？</p>
-<p>除了首都疏解外迁这个基本因素，本质上也是上海这座城市<strong>不可替代</strong>的自身优势。</p>
-<p>一个就是<strong>够主动。</strong></p>
-<p>说个典型案例吧，拿航母级别的央企中国电气来说，早在2021年就落户上海了。</p>
-<p class="image-wrapper"><img data-img-size-val="929,549" src="https://img.36krcdn.com/hsossms/20250208/v2_70d2009513af40e4a3f2e9f0b6b9f49a@6164552_oswg420332oswg929oswg549_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：新民网</p>
-<p>这里面的故事也刚好集齐了天时地利人和，少 一个都不行。</p>
-<p>2020年进博会时期，正好遇上中国西电集团面临重组。本来是采购商的静安区，一听说消息直接快速出击、主动提供服务，最终迎来中国电气的设立和落户，摇身一变成了这家央企的投资商。</p>
-<p>前两天的1月9日，双方联姻第五年，中国电气又把自己的全资子公司总部落在了静安的康宁路，注册资本5个亿。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,243" src="https://img.36krcdn.com/hsossms/20250208/v2_3191313569e940d686a5f0988cf6cbd1@6164552_oswg71385oswg1080oswg243_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：上海静安</p>
-<p>看得出来已经磨合出感情了。这也是上海一直很擅长的一件事，加深自己和企业之间的羁绊。</p>
-<p>除此之外还有另一个优势：<strong>长板足够长。</strong></p>
-<p>比如去年12月19日，就 有央企直接把总部设在了上海。也是国内第一家数据科技央企，中国数联物流。</p>
-<p>这家央企的主要领域是大数据分析、人工智能、物联网及区块链。巧的是，这也是上海这10多年来的一个发展核心。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,513" src="https://img.36krcdn.com/hsossms/20250208/v2_3ec644aa572041e4a8660caee791a9c6@6164552_oswg132814oswg1080oswg513_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：政府网</p>
-<p>一家企业和一座城市，几乎拥有百分百的匹配度。</p>
-<p>这个路径和中国船舶、商飞、远洋海运等差不多，都看中了上海足够优质的产业资源。</p>
-<p>当然，目光盯着上海的也不只国资基金和央企。</p>
-<h2><strong>03</strong></h2>
-<h2><strong>越来越多国企，也纷纷抄底上海楼市</strong></h2>
-<p>尤其有这么一支队伍想忽视都难，就是最显眼的<strong>国有险资。</strong></p>
-<p>险资抄底上海，前两年一直是公认的一股潮流。只是大家都忽略了这只队伍里国资的存在感，其实也很强。</p>
-<p>随手整理下近两年的交易记录，就有这么多。</p>
-<p class="image-wrapper"><img data-img-size-val="1015,529" src="https://img.36krcdn.com/hsossms/20250208/v2_22154640cd374be397b718e27319fb45@6164552_oswg39021oswg1015oswg529_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>远的不说，就看上海最近的一次大宗交易。</p>
-<p>时间是1月16号，农历 年前， 很多公司都准备封账的时候，它还在异常活跃，规模更是直接超过了100亿。交易主角就是<strong>中邮保险，</strong>一家由中国邮政控股的寿险公司。</p>
-<p>受到业内关注的原因有几个，首先标的位置就足够特殊。这块地之前有个名号叫做上海最后一块黄金地，一听就知道是真核心， 非常抢手。</p>
-<p class="image-wrapper"><img data-img-size-val="974,688" src="https://img.36krcdn.com/hsossms/20250208/v2_fee6bb6c34b245dfa91018a760552a0f@6164552_oswg482600oswg974oswg688_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其次，这次交易涉及了中邮、美国 汉斯、阿布扎比投资局三 方资本博弈。</p>
-<p>之前对外报价在130亿元， 中邮保险领投 ，和中东主权投资机构合作。最终对价108亿元。也为2025年大宗交易打下了一个开门红。</p>
-<p>包括很多<strong>地方国家队</strong>也在不断入沪拿地。</p>
-<p>不知道各位还记不记得去年的上海第一拍。来的不是地方国企，就是基建系国企，直接包场了。</p>
-<p>而且这种氛围从年头一直持续到年尾。</p>
-<p>按比例来看，数字非常夸张。这86%里，华润、招商之类的不用想肯定是积极型选手，每年都能看到它们的身影。</p>
-<p class="image-wrapper"><img data-img-size-val="897,618" src="https://img.36krcdn.com/hsossms/20250208/v2_5664f2c93a6345ae9310e40e813e6aa8@6164552_oswg47257oswg897oswg618_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但去年最意外的就是中字头和地方国企的集中入局。</p>
-<p>我统计了一部分成交情况，可以看到，中字头和地方国企含量很高，而且竞争非常激烈。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,657" src="https://img.36krcdn.com/hsossms/20250208/v2_31ddc6ca0f204bff9df69f65589161b4@6164552_oswg268273oswg1080oswg657_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">仅为去年部分土拍统计</p>
-<p>一批次的七宝地块，就引起了12家企业报名争夺；二批次的浦东上钢街道地块，也有8家企业参拍。</p>
-<p>去年年底的几个批次，拿出的更是核心地块，竞争直接白热化。像中建七局，去年还是首次进入上海土拍市场。但来势汹汹，抢 到了宝山南大的一幅热门地块。</p>
-<p>这也说明虽然去年行业波动较大，但优质资产还是有强大的吸引力。</p>
-<h2><strong>04</strong></h2>
-<h2><strong>结语</strong></h2>
-<p>上海对抢企业的魄力，比我们想象中要多得多。</p>
-<p>从国资基金的大量灌入、到央企总部入驻，再到保险、城建行业的国企纷纷进场。你会发现上海这座城市是看不到上限的， 甚至有足够的底气去接住这些力量。</p>
-<p>这个底气来自于哪里？</p>
-<p>跟各位分享一个画面，也今年我看到最直观的画面。</p>
-<p class="image-wrapper"><img data-img-size-val="1039,711" src="https://img.36krcdn.com/hsossms/20250208/v2_1e0a625e52814586b4a9d48c08f24cbe@6164552_oswg124745oswg1039oswg711_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：中国发展网</p>
-<p>连续8年的“新春第一会”，一直在自己卷自己。每年绞尽脑汁地优化营商环境。</p>
-<p>甚至有一个文件的标题是这样的： 《上海市聚焦<strong>提升企业感受</strong>持续打造国际一流营商环境行动方案》。</p>
-<p>各位有见过直接把“提升企业感受”放在大标题里的城市吗？好像很少，对于一份红头文件来说，也显得过于通俗，但这恰恰是上海的底气。用最直白的话和字眼，告诉所有人“我要为你做到什么”。</p>
-<p>所以你说为什么越来越多的企业、越来越大的资金量会毅然下水，不断加热整个池子。</p>
-<p>我想答案就能说明所有：因为这里是<strong>上海。</strong></p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/t1caU3ZjVRs4M6ljrhzVEw" rel="noopener noreferrer nofollow" target="_blank">“真叫卢俊”</a>，作者：余奔雷，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157335605271044</guid><pubDate>Sat, 08 Feb 2025 11:30:00 +0800</pubDate></item><item><title>大生意！中交城投首进上海的最大旧改项目开工了</title><link>https://36kr.com/p/3157333911968512</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2月7日，中交城投发布项目动工倒计时，将于2月8日举行上海市青浦区凤溪“城中村”改造项目开工仪式。</p>
-<p>据了解，凤溪“城中村”改造项目是上海规模最大的城中村改造项目，项目总投资规模约360亿元，改造范围约1273亩。</p>
-<p>项目所在的青浦区华新镇凤溪社区紧邻大虹桥主城区，毗邻国家会展中心，涉及新木桥村、坚强村及凤溪居委三个村居委。</p>
-<h2><strong>01</strong></h2>
-<h2><strong>上海最大旧改</strong></h2>
-<p>在2020年上海启动新一轮“城中村”改造后，华新镇政府向青浦区上报了《华新镇人民政府关于申请将凤溪社区新木桥村等地块认定为城中村改造项目的请示》。 </p>
-<p>《请示》获批后，于2021年9月凤溪城中村改造项目获上海市政府批准认定，被列入全市第二轮项目清单。 </p>
-<p>项目正式上马，青浦区与华新镇政府开始寻找项目的合作方。 </p>
-<p>彼时尚未进入上海市场的中交城投也希望能够寻找到合适的项目闯入上海滩，于是在2022年底双方一拍即合，2023年1月9日??凤溪“城中村”改造项目正式启动。 </p>
-<p>通常城中村改造有两大难题，一是原住民的动迁，二是项目启动资金的筹集。不过回看凤溪项目进度，似乎并没有受到两大难题的困扰。 </p>
-<p>2023年3月动员土地征收，9月之后进入腾房、拆房阶段。根据青浦区人民政府网2023年10月18日公告，项目已累计腾房1804户，累计腾房率达82.87%，累计拆房753户，累计拆除面积92641.21平方米；随后在11月22日，凤溪“城中村”改造项目的房屋征收签约率已达98.81%，腾房数达2140户，腾房率99.49%，拆房数为2062户，拆房面积达434781.93平方米。 </p>
-<p>彼时青浦区华新镇房屋土地征收补偿管理办公室负责人对媒体时表示：“在首轮集中签约前，指挥部设定的目标是今年完成征收任务的80%，争取到90%。” </p>
-<p>从动员结果来看，动迁进程可谓是顺利。 </p>
-<p>能够如此顺利也必然少不了背后大资金的支持，而凤溪项目这种投资规模大，开发周期长达12年的项目，必然要依靠政府以及国有资本的支持。 </p>
-<p>政府的支持保证了项目顺利启动，后续开发资金则要依靠中交城投去融资。 </p>
-<p>得益于中交集团的影响力，凤溪城中村项目融资推进得也很快。 </p>
-<p>2023年6月28日，中国交建举行了中交城投凤溪城中村项目银团签约仪式，由中国农业银行、中国银行、中国工商银行、中国建设银行、浦发银行、中国农业发展银行组成的银团为项目提供了220亿元融资。 </p>
-<p>中交城投党委书记、董事长丁仁军彼时表示：“此次220亿元融资的落地，将为凤溪城中村改造项目注入资金动力，为项目整体开发提供了有力支撑。” </p>
-<h2><strong>02</strong></h2>
-<h2><strong>中交城更生意</strong></h2>
-<p>最早于2014年，中交城投作为中交集团的城市综合开发运营专业投资平台，参与了广州南沙灵山岛尖区域城市综合开发项目，并成为中交城投城市综合开发的起点。 </p>
-<p>南沙灵山岛尖项目案名为“中交汇通中心”，占地面积9.4万平方米，建筑面积33.2万平方米，拟建设现代化办公、会议中心，高端商务中心、高级公寓等为主的粤港澳总部示范基地。 </p>
-<p>2015年，中交城投又接手了顺德高新区项目，项目位于顺德高新区西部启动区核心区，总占地面积约3.8万平方米，总建筑面积约10.5万平方米，目的是优化高新区的城市空间格局，将单纯工业园区改造为产业新城。 </p>
-<p>在华南的业务蒸蒸日上，中交集团又将发展目光投向了长三角。 </p>
-<p>2022年1月26日，中交城投暨中交城投长三角经营中心在南京举行揭牌仪式，以加快长三角区域市场实现由经营项目向经营城市的模式转变。 </p>
-<p>同年10月，中交城投摘得凤溪社区“城中村”改造项目，由此进入上海市场。 </p>
-<p>2023年7月，中交城投凤溪城中村项目在获得银团的资金支持后，迅速推出示范项目——中交·凤启虹桥。 </p>
-<p>该项目首开当天共计销售175套，揽金约7亿。这个成绩在整个上海的楼盘中可能微不足道，但对于所处的板块，已是近三年开盘认购率及认购套数的第一。 </p>
-<p>2024年11月，凤溪城改子项目之一华新·中交数字智造港一期项目规划、质检、消防均验收通过，具备交付条件，标志项目进入竣备交付阶段。 </p>
-<p>该项目规划用地面积2.1万平方米，建筑面积4.2万平方米，包含8栋工业厂房，重点导入智能装备制造、新一代信息技术为主的数字智造产业。同时，二期90亩项目中的19A-02地块已完成方案批复，进入规划公示阶段。 </p>
-<p>除去青浦凤溪，中交集团还在松江布局了新项目——中交·松香源著。松香源著定位“三轨交汇”的交通枢纽住宅，该项目首开当日2小时销售106套，揽金3.5亿。 </p>
-<p class="editor-note">本文来自“观点网”，作者：高远，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157333911968512</guid><pubDate>Sat, 08 Feb 2025 11:32:00 +0800</pubDate></item><item><title>《昭和米国物语》开发商铃空游戏辟谣：没有授权任何机构或个人推出加密货币</title><link>https://36kr.com/p/3156265237863173</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 09 Feb 2025 07:30:25 +0800</lastBuildDate><pubDate>Sun, 09 Feb 2025 07:30:25 +0800</pubDate><item><title>《昭和米国物语》开发商铃空游戏辟谣：没有授权任何机构或个人推出加密货币</title><link>https://36kr.com/p/3156265237863173</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>文 | 刘士武 </p>
 <p>2月6日，国产游戏《昭和米国物语》的开发商铃空游戏发布官方声明，针对近期网络上流传的“Oneness Labs收购铃空游戏股权并推出$SHOWA加密货币”的消息进行了辟谣。 </p>
 <p><strong>铃空游戏表示，公司从未与Oneness Labs进行过任何商业合作，也未授权任何机构或个人发行与《昭和米国物语》相关的虚拟货币或金融产品。</strong></p>
@@ -851,4 +285,583 @@
 <h3><strong>加入36氪出海学习交流群</strong></h3>
 <p>目前，36氪出海学习交流群已经吸引超过15,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
 <p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157712449116935</guid><pubDate>Sat, 08 Feb 2025 18:44:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157712449116935</guid><pubDate>Sat, 08 Feb 2025 18:44:00 +0800</pubDate></item><item><title>瑞·达利欧最新采访，谈及DeepSeek、黄金、AI、美国债务危机等</title><link>https://36kr.com/p/3154909292337925</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>翻译整理｜聪明投资者（ID: Capital-nature ）</strong></p>
+<p><strong>“投资那些不会因货币贬值而受损的资产，甚至能够从中获益的资产。黄金就是其中之一。”</strong></p>
+<p><strong>“AI竞争比企业盈利更重要。这不仅仅是商业竞争，而是一场 ‘国家级战争’，中国和美国都输不起，因为AI影响的不只是经济，而是全球竞争格局。”</strong></p>
+<p><strong>“我觉得中国在芯片方面可能有些落后，但在应用方面却会领先。”</strong></p>
+<p><strong>“今年，美国政府预计将支付超过1万亿美元的债务利息，而政府的总收入（税收）不到5万亿美元。换句话说，联邦政府收入的四分之一都用于支付债务利息。”</strong></p>
+<p><strong>“我的解决方案是‘3%方案’，意思是必须将财政赤字削减到GDP的3%。”</strong></p>
+<p>瑞·达利欧（Ray Dalio）最近在“All-In”播客的访谈中分享了他对全球经济形势的深刻见解。这场访谈的背景正值他的新书《国家如何破产》即将出版。</p>
+<p class="image-wrapper"><img data-img-size-val="994,1500" src="https://img.36krcdn.com/hsossms/20250206/v2_8235c70d52fc4b73a8da04a0095551d5@5667365_oswg91847oswg994oswg1500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这本书分享了达利欧对美国债务市场的深刻忧虑，并回答了当前市场和经济领域最关键的问题：<strong>债务增长是否存在极限？像美国这样的重要储备货币国家真的可能破产吗？是否存在一种“大债务周期”，能够帮助我们判断何时应当担忧债务问题，以及该如何应对？</strong></p>
+<p>达利欧警示：“美国的债务水平已经进入了一个极具挑战性的阶段，我们正在接近财政失控的临界点。”</p>
+<p>在这样的背景下，达利欧再次强调了<strong>配置黄金的重要性</strong>，因为这是多元组合中必需的“低相关性资产”，是<strong>“最纯粹的财富存储方式”</strong>。</p>
+<p>他坦言自己“持有一些比特币，但远不及黄金”。</p>
+<p>谈到股市时，达利欧说，目前AI相关的资产价格贵且叠加利率高企的环境，正如1998、1999年科技泡沫时的情形，这种状况下市场风险不容忽视。</p>
+<p>他还着重强调投资者必须关注资产的<strong>实际购买力</strong>，而不是仅仅看市场指数的表现。</p>
+<p><strong>这场80分钟的交流提到了国内顶流话题主角——DeepSeek。</strong></p>
+<p>当被问到有否关注到DeepSeek时，达利欧表示已经留意一段时间。他认为，大家会看到中国的策略是生产非常便宜的芯片，将其嵌入到制造产品中，而机器人技术会大量普及。</p>
+<p>在他看来，科技竞争远比盈利更重要。</p>
+<p>与他对谈的是大卫·弗里德伯格（David Friedberg），一位成功的企业家、投资人，并以其对科技、经济和金融市场的深刻理解而闻名。在这次对话中，他精准把握了全球经济的关键问题，并提出了多个具有挑战性的问题，让达利欧对自己的观点阐述更加深入。</p>
+<p><strong>许多人并不真正理解债务的运作机制</strong></p>
+<p>弗里德伯格：为什么写这本书，以及选择在此时出版？你如何看待当前局势的紧迫性？ </p>
+<p><strong>达利欧 ：</strong>在过去50年的全球宏观投资生涯中，我一直在思考这些问题。现在，我75岁了，希望能够把帮助过我的经验传承下去。</p>
+<p>我长期参与全球债券市场和金融体系的运行，但我发现，许多人并不真正理解债务的运作机制。</p>
+<p>人们常常问：“多少债务才算过多？”“债务的临界点在哪里？”“国家如何处理债务？”</p>
+<p>这些都是有其内在逻辑和机械运作方式的，而这正是我希望向大家解释的内容。</p>
+<p>弗里德伯格：这本书的分析，主要基于你在桥水基金的研究成果，以及你在桥水之外的观察，对吗？你在这本书中汇总了大量历史数据，能否简单介绍一下研究数据来源，以及如何进行这些研究的？ </p>
+<p><strong> 达利欧：</strong>我和桥水之间的关系，可以说一直是密不可分的，直到大约一年多前，我正式交接了公司管理权。</p>
+<p>在这漫长的时间里，我们始终深度参与市场，我个人也一直在思考这些问题。</p>
+<p>我们所用的数据基本上都是公开数据，任何人都可以获取。我们只是从不同渠道收集数据，并回溯历史。</p>
+<p>例如，在《原则：应对变化中的世界秩序》一书中，我们研究了上百年的数据，甚至需要查阅档案馆的资料，以获取更久远的历史数据。</p>
+<p>这些数据对所有人都是公开的，所以我认为这一点非常重要——这本书不仅仅是个人观点的表达，而是基于大量可验证的实证数据。</p>
+<p>任何人都可以查阅这些数据，你只需观察它们，就能发现其中的模式和趋势。</p>
+<p>这些趋势在历史上不断重复出现。</p>
+<p class="image-wrapper"><img data-img-size-val="800,800" src="https://img.36krcdn.com/hsossms/20250206/v2_ad7001402b9a4952a86bb472df9b5ad0@5667365_oswg53555oswg800oswg800_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>《原则：应对变化中的世界秩序》 </p>
+<p>中信出版集团 </p>
+<p>2022年1月 </p>
+<p>弗里德伯格：在书的开篇部分，你提出了一个非常重要的观点——自1700年以来，全球750个货币-债务市场中，只有约20%仍然存在。而所有存续至今的市场，无一例外地都经历了书中所描述的机械化贬值过程。</p>
+<p>这点值得注意，因为很多人都认为，美国的情况与众不同，这次不会重蹈覆辙。然而，你强调了一个历史规律：每当人们自认为处于安全的位置时，周期往往会再次上演。</p>
+<p>你在书中提到了“大债务周期”，并指出这种周期通常持续约80年。相比之下，短期债务周期更加容易被人们察觉，其平均持续时间大约为6年，上下浮动3年。</p>
+<p>按照你的计算，自1945年以来，我们已经经历了12.5个短期债务周期，这意味着美国的大债务周期已经持续了大约80年。</p>
+<p>那么，我们先从短期债务周期谈起吧。</p>
+<p>你在书中提到，短期债务周期构成了长期债务周期，能不能先给大家介绍一下短期债务周期的特点？ </p>
+<p><strong> 达利欧 ：</strong>我想先强调一点——这些周期是机械性的，可以通过数据观察，也可以进行计算验证。如果你阅读这本书，就会发现它的逻辑是符合常识的，而且所有计算都是可追溯的。</p>
+<p>我把信贷体系比作人体的循环系统。在我看来，信用就像是血液，为整个经济体系输送养分，而金融系统则像是动脉。</p>
+<p>信用催生债务，而关键问题是——债务是否能够带来足够的收入，以偿还这笔债务？</p>
+<p>如果答案是肯定的，那就是一个健康的过程，就像是我们保持健康饮食一样。但如果答案是否定的，那么债务会不断累积，就像是动脉中形成的斑块，逐渐阻塞整个系统。</p>
+<p>这一点是可以衡量的，就像医生可以测量动脉健康一样。</p>
+<p>随着信用扩张，债务偿还成本上升，最终会挤压消费能力。你可以看到，美国政府正经历这个过程——利息支出越来越高，债务偿还成本吞噬了财政预算。</p>
+<p>然后，我们就会看到经济体系的“心脏病发作”。经济危机就像心脏病，通常是由供需失衡引发的。</p>
+<p>当债务水平过高时，市场上就会出现大量债务供应，而这些债务需要有人去购买。</p>
+<p>问题在于，当市场信心下降时，不仅需要发行新债，还可能会有大量现有债务被抛售。</p>
+<p>一旦市场上债务供应量远超需求，问题就来了。对于政府来说，这一问题的本质和个人或企业负债过高是相同的，唯一的区别是，政府可以印钞票。</p>
+<p>当债务偿还的负担上升，或者债务市场供需失衡时，如果政府（尤其是央行）不印钞购买债务，那么债务的价格就必须上升，从而抑制借贷。</p>
+<p>而借贷受限，意味着信用缩减，市场上原本应流动的资金减少，经济就会走弱，导致不良的经济状况。</p>
+<p>政府可以让这种情况发生，或者它可以选择印钞购买债务，即货币化债务。而一旦印钞购买债务，就会引发通胀，使债务贬值。</p>
+<p>无论哪种情况，都不利于持有这些债务。如果不印钞，利息负担变重，违约风险上升；如果印钞购买，货币贬值，债务持有人拿到的钱缩水。</p>
+<p>这就是整个机制的运行方式。</p>
+<p>这是一种可衡量、可观察的经济规律，适用于所有国家。</p>
+<p>就像看医生一样，我们可以测量这些数据，分析它们，并预测接下来的走势。</p>
+<p>弗里德伯格：当你提到 “货币化债务”，意思就是央行用“凭空创造出来”的钱去购买政府债务，对吧？ </p>
+<p><strong>达利欧 ：</strong>没错。他们基本上是在“创造”货币，然后用它来买债。</p>
+<p>弗里德伯格：在美国，涉及到的主要玩家是我们的美联储和联邦政府： 政府发行债务（借钱）； 美联储“印钞”购买这些债务（提供资金）。 </p>
+<p>这种情况在历史上反复发生，比如2008 年金融危机和新冠疫情。</p>
+<p><strong>达利欧 ：</strong>一个很好的例子就是新冠疫情期间。</p>
+<p>疫情爆发后，政府向个人和企业发放了大量资金，导致财政赤字急剧扩大。那么，这些钱从哪儿来？</p>
+<p>政府只能借钱，而美联储就是主要的借款人——它通过购买债务，把资金注入市场。</p>
+<p>疫情时期，我们经历了两波大规模财政刺激：</p>
+<p>第一波，政府直接向个人和企业提供现金援助，以弥补疫情带来的收入损失。这笔钱主要靠发债融资，然后由美联储购买。</p>
+<p>第二波，拜登政府上台后，推出了新一轮财政刺激计划，类似于全民基本收入政策，直接给人们发钱，期望通过增加消费来刺激经济增长。</p>
+<p>这些钱最终流入银行，人们存入账户，然后用于消费。货币供应量猛增，通胀飙升。</p>
+<p>与此同时，银行也大量购买政府债券。</p>
+<p>但随着利率上升，债券价格下跌，银行因此蒙受巨大损失，引发了一系列金融问题。</p>
+<p>这就是债务货币化的运行机制。</p>
+<p><strong>最终决定财富的，是你的实际购买力</strong></p>
+<p>弗里德伯格：我们先整体回顾一下你在书中提到的大债务周期。 </p>
+<p>在经济扩张和收缩的过程中，债务会推动生产力增长。但当债务累积到一定程度后，它反而会阻碍生产力的进一步提升。最终，政府只能货币化债务，导致货币贬值，一切资产随之被重新定价。 </p>
+<p>表面上看，指数在上涨，纳斯达克在涨，道琼斯指数在涨——但真正的问题是：你的购买力真的上升了吗？你的实际财富是否真正增加了？ </p>
+<p>就像我们用贝壳作为货币交易，最初市场上只有 100 个贝壳，可以买 5 件商品。 </p>
+<p>但如果市场上突然有了 500 个贝壳，那么商品价格也会上涨，因为每个人的“货币”都变多了。 </p>
+<p>这其实就是货币供应增加带来的后果——通胀侵蚀了所有人的购买力。</p>
+<p><strong> 达利欧 ：</strong>说得很好，大卫。</p>
+<p><strong>你不能仅仅通过印钞让自己变得更富有。最终决定财富的，是你的实际购买力——也就是你的钱到底能买多少东西。</strong></p>
+<p>货币的两大核心功能：一是交换，二是储蓄。</p>
+<p>储蓄至关重要。如果货币不能有效地存储财富，人们就不会愿意持有现金，也不会愿意购买债券。如果债券不再具备吸引力，整个长期信用市场就会崩溃。</p>
+<p>债券市场的运行，必须要有买方和卖方，市场需要平衡。</p>
+<p>但如果政府不断印钱，大量购买债务，就会破坏这种市场机制，最终导致极端的负实际利率。</p>
+<p>当政府成为债市的最大买家，并人为压低利率时，市场就会疯狂加杠杆，最终导致债务失控。</p>
+<p><strong>这正是我们现在面临的问题：杠杆率过高，风险加剧。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1246" src="https://img.36krcdn.com/hsossms/20250206/v2_069af427660f4935b1e771beb43fa63a@5667365_oswg76014oswg1080oswg1246_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">《原则》 中信出版集团</p>
+<p><strong>红色警告是“长期利率上升，而短期利率却停滞不前甚至下降”</strong></p>
+<p>弗里德伯格：这不仅仅是美国的问题，也是全球性问题。不过，我们稍后会讨论美国在全球体系中的相对实力。 </p>
+<p>在你的书中，你把大债务周期分为五个阶段： </p>
+<p>稳健货币阶段（Sound Money Stage）——债务水平低，货币稳定，国家竞争力强。 </p>
+<p>债务泡沫阶段（Debt Bubble Stage）——债务和投资增长超过实际收入所能支撑的水平。 </p>
+<p>市场见顶阶段（Top Stage）——泡沫破裂，信贷收缩，市场下跌。 </p>
+<p>去杠杆化阶段（Deleveraging Stage）——央行介入，购买债务，注入货币，导致通胀上升，货币贬值。 </p>
+<p>债务危机消退阶段（Big Debt Crisis Recedes）——市场重新调整，经济复苏，周期重新开始。 </p>
+<p>在市场见顶阶段，你提到了债务危机。能不能详细描述一下，什么是债务危机？它是如何发生的？美国目前处于债务周期的哪个阶段？我们应该警惕哪些风险信号？</p>
+<p><strong>达利欧：</strong>当一个经济体的债务规模过高，导致必须借新债来偿还旧债时，就会进入所谓的“债务死亡螺旋（Debt Spiral）”。</p>
+<p>这种情况不仅会发生在企业，也会发生在政府身上。</p>
+<p>当债务规模过大时，政府不得不继续借新债来偿还旧债；投资者开始意识到风险，债务评级下降；融资成本上升，市场要求更高的利率；高利率进一步增加债务负担，形成恶性循环。</p>
+<p>最糟糕的情况是什么？</p>
+<p>对一个高度负债的政府或企业来说，利率上升是最致命的打击。</p>
+<p>如果利率飙升，政府的债务偿还成本将大幅增加。最终，政府要么被迫削减开支，要么只能依赖央行印钞购买债务，导致货币贬值和通胀失控。</p>
+<p>这正是我们目前在美国看到的状况。</p>
+<p>政府债务占GDP的比例已超过120%；财政赤字持续扩大，每年新增债务超过 2 万亿美元；利息支出已成为政府预算中最大的单项开支之一。</p>
+<p>如果这种情况持续下去，美国最终将面临严重的债务危机。</p>
+<p><strong>真正的关键节点，或者说最大的红色警告信号，是当市场上不仅有新的债务供应，还出现了现有债务的抛售。</strong></p>
+<p>怎么观察到这一点呢？</p>
+<p>你可以通过市场走势看到：<strong>长期利率上升，而短期利率却停滞不前甚至下降。</strong></p>
+<p>这意味着市场对长期债务的需求正在减弱，债券价格下跌。</p>
+<p>这是市场内部出现供需失衡的信号——自由市场已经不愿意接手这些债务。</p>
+<p>接下来，你通常会看到货币贬值，特别是相对于黄金、比特币或其他实物资产。</p>
+<p>有时候，相较于其他货币，某个国家的货币也会下跌，但更普遍的情况是，所有法定货币都在贬值，而黄金、比特币或其他硬资产相对升值。</p>
+<p>然后会发生什么？</p>
+<p>央行要么迅速出手购买债务，压低利率；要么任由市场自由运作，让利率继续上升，最终拖累经济。</p>
+<p>就好比日本。如果你是日本国债的持有者，相对于黄金，你已经亏损80%；相对于美国国债，你亏损了约60%，因为日本债券的利率比美国债券低3%左右；而美国国债的利率在大部分时间里，实际上也低于通胀率，持有美债的投资者同样遭受了损失。</p>
+<p>这意味着，如果你持有日本国债，你不仅得到了较低的利息回报，还因为日元贬值而损失了大量财富。</p>
+<p>这就是央行印钞购买债务所带来的后果——债务持有者损失惨重。</p>
+<p>这并不是一个复杂的经济原理，归根结底只是一个供需问题：当市场上的债务供应超过了需求，价格就会下跌，利率就会上升。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1151" src="https://img.36krcdn.com/hsossms/20250206/v2_1cf6f2553e2249b49c34ac64dad84382@5667365_oswg131374oswg1080oswg1151_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>《债务危机》</p>
+<p>中信出版集团</p>
+<p>2019年3月 </p>
+<p>弗里德伯格：那么，我们现在在美国看到的情况是否符合这一模式？ </p>
+<p>美联储几个月前开始降息。按理说，当利率下降时，债券价格应该上涨，但市场上发生的情况却相反。投资者并没有买入美债，反而在抛售它们。 </p>
+<p>结果是，市场上的长期利率反而在上升，这与美联储的降息政策形成了矛盾。 </p>
+<p>这是否是一个危险信号？ </p>
+<p>与此同时，我们看到黄金价格在上涨，比特币价格也在上涨。 </p>
+<p>这正是你描述的市场动态，对吧？</p>
+<p><strong> 达利欧：</strong>是的，这正是市场在发生的事情。</p>
+<p>类似的情况，我们已经在英国看到了：英镑在贬值，英国国债的利率却在上升，而英国央行的政策基本上没有变动。</p>
+<p>这种情况表明市场正在发生供需变化，我们还可以通过债券持有者的行为来观察：各国央行和主权财富基金正在减少债券持有量，同时增持黄金和其他硬资产。</p>
+<p>事实上，黄金已经成为全球第三大储备货币，仅次于美元和欧元，超过了日元。</p>
+<p>这表明，各国对传统债券市场的信心正在下降，黄金正逐渐成为更重要的避险资产。</p>
+<p>这不仅仅是经济因素的影响，地缘政治风险也是重要原因之一。</p>
+<p>包括一些国家担心西方的经济制裁，因此减少了美元债务的持有量。</p>
+<p>日本长期以来一直是美国国债的主要买家，他们在全球债券市场上的持仓占比相当大。</p>
+<p>美国国债和美国债务已经成为全球投资组合中的一个巨量资产，即使从资产配置的角度来看，这种集中度也已经过高了。</p>
+<p>这正是为什么我强调，<strong>必须关注债券市场的供需关系。</strong></p>
+<p><strong>真正具有长期储值功能的，仍然是黄金</strong></p>
+<p>弗里德伯格：你的书中有一张表格，对比了主要经济体的政府债务水平和财政赤字占 GDP的比例。 </p>
+<p>各国政府都在疯狂支出，债务水平持续上升，甚至通过借新债来支付旧债的利息，并刺激经济增长。在这样的大环境下，美元仍然是最强势的货币。 </p>
+<p>既然所有国家都有类似的问题，为什么投资者会放弃美元？ </p>
+<p>从市场角度来看，瑞，你认为全球投资者还有什么更好的选择？如果不是美元，他们还能把资产转移到哪里？</p>
+<p><strong> 达利欧 ；</strong>首先，美国和中国、日本等国家的情况都反映了同一个问题：债券正在变成“坏资产”。</p>
+<p>那么，面对货币贬值和债务货币化，人们会选择将财富存放在哪里呢？</p>
+<p><strong>答案是：那些不会因货币贬值而受损的资产，甚至能够从中获益的资产。</strong></p>
+<p><strong>黄金就是其中之一。</strong></p>
+<p>这也是为什么黄金长期以来一直是国际货币体系中的重要组成部分。</p>
+<p>至于比特币或其他数字资产，它们也是值得讨论的话题。</p>
+<p>理想的财富储存方式应该具备以下几个特点：国际化，不依赖于某个国家的货币体系；可流动，易于跨境转移；相对私密，能在一定程度上保护资产安全。</p>
+<p>此外，还有一个需要考虑的因素：政府的“没收”风险。</p>
+<p>历史告诉我们，财富的存放不仅要考虑价值稳定性，还要考虑免受政府干预的可能性。</p>
+<p>政府的“没收”并不一定是直接的征用，它可能以税收的形式出现，比如对持有特定资产征收高额税款。</p>
+<p>举个例子，房地产虽然是资产，但也是最容易被政府征税的资产：它无法移动，价值透明，政府可以随时提高房产税或出台新税收政策，对持有者施加压力。</p>
+<p>所以，我们必须认识到，税收和没收本质上是同一回事。</p>
+<p>弗里德伯格：这让我想到，你在书中提到，当债务危机爆发时，政府通常有四种应对措施：加税，紧缩，债务重组和货币化债务。</p>
+<p>税收在债务危机时期往往扮演关键角色，政府会通过不同的方式向富人和资产持有者征税，甚至直接没收部分财富。</p>
+<p>那除了黄金、比特币，还有其他资产可以作为避险选择吗？比如大宗商品？</p>
+<p>不同种类的大宗商品（硬商品 vs 软商品）在这种环境下的表现是否不同？</p>
+<p><strong> 达利欧 ：</strong>这个问题很有趣。</p>
+<p>大宗商品市场的表现取决于供需关系和宏观经济环境。</p>
+<p>硬商品（Hard Commodities），如石油、金属（铜、铝等），通常在通胀上升时期表现较好，因为它们是生产资料，受供需影响较大。</p>
+<p>软商品（Soft Commodities），如农产品（小麦、大豆等），价格波动较大，通常受天气、全球粮食供应等因素影响。</p>
+<p>但需要注意的是，大宗商品虽然可以对冲通胀，但它们不具备储值功能。</p>
+<p>你不能像持有黄金或比特币那样，长期持有石油或小麦作为财富储存工具。这些商品大多需要运输、存储，并且价格受全球供应链影响较大。</p>
+<p>所以，<strong>从历史经验来看，真正具有长期储值功能的，仍然是黄金，而非一般的大宗商品。</strong></p>
+<p>我研究过历史，也经历过多次类似的周期，比如70年代的大宗商品通胀周期。</p>
+<p>在通胀环境下，人们会寻找可以保值的资产。你不太想持有那些对经济高度敏感的大宗商品，但某些时候，经济状况可能仍然不错，这就使得某些商品仍然具有吸引力。</p>
+<p>在魏玛共和国时期，有一个有趣的例子，石块曾被用作财富储存手段。听起来很荒谬，但当时石块是建筑材料，因此被认为是“有价值”的资产。</p>
+<p>换句话说，人们用石块来存放财富，因为它们在经济中具有实际用途。</p>
+<p>弗里德伯格：那我是不是该在车库里囤积一堆英伟达H100 GPU芯片？</p>
+<p><strong>达利欧 ：</strong>哈哈，问题是科技会让这些资产贬值。新的技术一出现，旧的科技产品就会贬值，这是关键区别。</p>
+<p><strong>那么，什么资产不会贬值？</strong></p>
+<p><strong>答案是：那些不会因为生产力提升而变得廉价的资产。</strong></p>
+<p>长期来看，所有大宗商品的实际价格都会下降，因为生产力的提高会降低成本。</p>
+<p>过去几十年，每种大宗商品的实际价格都有所下降，这是因为科技进步让人类可以更高效地生产和开采这些资源。</p>
+<p>所以，理想的财富存储方式是什么？它应该是能创造生产力的资产；应该能在全球自由流动，不易被征税。</p>
+<p>这就是为什么某些类型的股票在货币贬值时期表现良好。</p>
+<p>当货币贬值时，你会看到股市上涨，但这并不意味着资产在“真实价值”上升——在70年代，股市名义是上升的，但实际购买力却下降。</p>
+<p><strong>那么，最纯粹的财富存储方式是什么？黄金。</strong></p>
+<p>黄金有几个独特的优势：它可以在国家之间自由流动；各国央行将其作为储备资产；它比比特币更难监管，可以更“私密”地持有；政府无法轻易地对黄金征税，但比特币则不同——政府知道比特币的交易路径，很容易对其进行监管和征税。</p>
+<p>弗里德伯格：你持有比特币吗？</p>
+<p><strong> 达利欧 ：</strong>是的，我持有一些比特币，但远不及黄金。比特币是我的多元化投资之一，但我更倾向于黄金。</p>
+<p><strong>中国以极其低廉的成本进行制造方面做得非常出色</strong></p>
+<p>弗里德伯格：我更喜欢持有能创造生产力的资产，比如企业。 </p>
+<p>那么，在当前的通胀和债务危机环境下，什么是最好的生产性资产？是矿业公司？是大宗商品交易公司？还是其他类型的企业？ </p>
+<p><strong> 达利欧 ：</strong>我们在开始时展示的图表显示生产力在上升，而且这种趋势往往会自我复合增强。</p>
+<p>所以，理想的投资应该是那些能够利用生产力增长、同时避免过度税收的资产。</p>
+<p>我认为 AI确实能极大地推动生产力增长，但关键在于你指的AI具体是什么？</p>
+<p>超级科技巨头确实存在风险，AI的真正影响力在于谁在应用它，以及如何颠覆行业。</p>
+<p>在未来，会有颠覆者，也会有被颠覆者。重要的不是谁在制造这些技术，而是谁能最有效地应用这些技术，并由此带来变革。</p>
+<p><strong>AI竞争比企业盈利更重要。这不仅仅是商业竞争，而是一场 “国家级战争”，中国和美国都输不起，因为AI影响的不只是经济，而是全球竞争格局。</strong></p>
+<p>类似的情况已经发生在电动车市场。</p>
+<p>所以我觉得中国在芯片方面可能有些落后，但在应用方面却会领先。</p>
+<p>弗里德伯格：你看到上周末DeepSeek的公告了吗？</p>
+<p><strong> 达利欧：</strong>是的，市场显然已有所反应。这个消息其实已经知道了一段时间。</p>
+<p>所以我认为，大家会看到中国的策略将会是生产非常便宜的芯片，将其嵌入到制造产品中，会看到机器人技术的大量普及。</p>
+<p>我们已经看到中国以极其低廉的成本制造东西方面做得非常出色。他们生产了全球33%的制造产品，比美国、德国和日本所有制造的总和还多。</p>
+<p>所以，你会看到这种竞争，也许是像太阳能面板这种领域，利润不重要（市场占有率才是）。</p>
+<p>没错，你必须去那些有生产力和创新的地方，关注那些在变革中受益的公司，或者是创造应用程序并产生巨大影响的公司。</p>
+<p>当然你也得看看不同的国家、地方和事物，<strong>最重要的是价格。</strong></p>
+<p>许多投资者常常犯一个错误，那就是他们认为自己要买好的公司。但好公司变贵时，远不如一家非常便宜的差公司。</p>
+<p>所以，你得关注定价，这也是周期的一部分。</p>
+<p>大家都说，AI很棒，将对未来产生伟大影响，就像互联网和.com一样。但是我们必须关注价格，特别是那些当红炸子鸡。</p>
+<p>我们处于一个高利率的环境中，换句话说，这有点像1998、1999年，那时新兴的热点事物、推动生产力提升的明星行业炙手可热。资产价格很高，同时你还处在一个上升的利率环境。</p>
+<p>这是一个经典问题：<strong>当资产价格很高而利率开始上升时，市场会变得危险。</strong></p>
+<p>所以我们必须关注利率和这些资产的定价，并且你要思考下一步在哪里。</p>
+<p>此外，我认为多样化是非常非常重要的。</p>
+<p>现在的市场，每个人都在加杠杆做多，都以为资产价格会继续上涨，但市场并不会一直按照大家的预期走……整个世界都处于高杠杆状态，如果你要做多，你至少需要同样关注资产之间的相关性。</p>
+<p>这就是为什么我会看黄金或者其他低相关性的资产。</p>
+<p>当你把这些资产加入投资组合时，它实际上降低了整体风险。在这样的环境下，低相关性的资产是必须关注的。</p>
+<p>而这些资产可以从地理角度来看待，也可以从资产类别来看待，这就是投资组合构建的一部分。</p>
+<p>弗里德伯格：你在书中提到，投资组合中应该始终持有10到15个相互之间低相关的资产。 </p>
+<p>你所说的“真正的低相关性”，和大多数投资者的理解并不一样。很多人买入不同板块的美股，以为他们已经实现了分散投资，但实际上，美股板块之间高度相关，市场周期变化时，它们的走势往往趋于一致。 </p>
+<p>更重要的是，很多人只关注股价，而忽视了通胀的影响。你必须始终关注资产的实际购买力。 </p>
+<p>在历史上，股票市场在通胀调整后的价格曾下跌60%至70%，虽然名义上市场指数在上涨，但实际购买力却严重缩水。换句话说，1966年到1984年这段时间，美股在通胀调整后的实际回报率是负的。 </p>
+<p>这确实是超级重要的。</p>
+<p><strong> 达利欧 ：</strong>很高兴你提到这点，这超级重要。</p>
+<p>我要再次强调，必须关注你以实际美元计算的回报。你能买到什么？你能得到什么？很多人误以为市场上涨就意味着财富增长，但如果你用这些钱去换取实际商品，结果可能让人大跌眼镜。</p>
+<p>这就像你在一艘不断起伏的船上，看着远方的陆地，你可能会觉得陆地在剧烈晃动。但实际上，是你的参照物出了问题。这种视角上的扭曲，往往会让投资者误判市场形势。</p>
+<p><strong>美国必须将财政赤字削减到GDP的3%</strong></p>
+<p>弗里德伯格：说到这里，我想回到美国目前的债务状况。你曾经多次提到“美丽的去杠杆化”这个概念。那么你认为，美国目前最需要采取哪些措施，才能避免更剧烈的债务危机？ </p>
+<p>在回答这个问题之前，我想先谈谈你的风险衡量指标。你在书中提出了一种风险评估体系，用于衡量美国长期国债的风险。 </p>
+<p>在你的风险衡量体系中，短期来看，美国政府债务的风险为0%，也就是说，短期内不会出现违约或严重问题。但长期来看，风险上升至100%，这是历史最高水平。 </p>
+<p>此外，你还分析了央行的风险水平：短期来看，美联储的风险为0%，说明市场短期仍然稳定。但长期来看，美联储的风险已经上升到46%，接近历史最高水平。 </p>
+<p>你能具体讲讲这些“风险衡量指标”是如何构成的？它们能告诉我们什么信号？</p>
+<p><strong> 达利欧 ：</strong>首先，我要澄清一点，100%并不意味着发生的概率是100%，而是指风险达到了历史最高水平。这意味着风险达到了极限，但并不一定会发生。</p>
+<p>至于如何计算长期风险水平，它是基于现有债务总量，并预测了之前提到的两个关键因素：债务市场的供需关系以及债务偿付压力。</p>
+<p>这两者结合起来，会导致财政状况受到挤压。</p>
+<p>你可以把这看作是去看医生，他给你做检查并告诉你，你的动脉里有多少斑块，看看你的压力测试结果如何，你的血管状况怎么样，你的整体健康状况如何。这就是第一个风险测量指标的作用。</p>
+<p>第二个指标则意味着你已经进入了“病发”阶段。换句话说，债务市场开始出现明显的危机信号，你会看到资产被抛售，利差扩大，长期利率上升而短期利率没有跟上，美联储被迫介入，开始不得不做出一个艰难的选择——要不要全面货币化债务。</p>
+<p>在这个阶段，信用问题和债务货币化已经实质性发生了，这就是右侧的风险指标的含义。</p>
+<p>如果我在对政府决策者讲话，我会说，你们的状况很糟糕，虽然现在危机还没有全面爆发，但如果不做出调整，问题只会恶化。</p>
+<p>换句话说，你们必须改变“饮食习惯”，就像健康检查发现动脉堵塞后，病人需要调整饮食，甚至可能需要放支架一样。</p>
+<p>弗里德伯格：国会预算办公室的预测数据显示，美国政府的债务规模将在未来10年达到其年收入的7倍。 你在书中提出了一系列措施来稳定这个比例，书的核心内容之一就是提出这些建议。 </p>
+<p>你强调，政府有四种应对方案： </p>
+<p>一是增加税收，意味着公民的资产和收入会减少，这是对公民的直接损失； </p>
+<p>二是削减政府支出（紧缩政策），政府提供的服务减少，公民将失去原有的福利和公共服务； </p>
+<p>三是央行购买债务，通常会导致通胀上升，因为市场上的货币供应增加，物价随之上涨。这本质上是一种隐形税，货币购买力下降，相当于财富被稀释； </p>
+<p>四是债务重组，即货币贬值，所有人的资产都会受到损失。 </p>
+<p>我想让你对此进行一个整体概述，如何理解这个问题？</p>
+<p><strong> 达利欧 ：</strong>你可以把它想象成你身体里的“斑块”——即债务偿还负担，你可以计算出所有的关键数字，从而得出整体经济的稳定性情况。</p>
+<p><strong>我的解决方案是“3%方案”，意思是必须将财政赤字削减到GDP的3%。</strong>目前预计这一比例将达到7.5%，所以必须进行削减。</p>
+<p>不同的人对如何削减赤字有不同的看法，但关键不是选择哪种方案，而是政府必须达成统一共识，国会、总统等各方都应该承诺做到这一点。</p>
+<p>关键的问题是如何做到这一点，但他们首先应该明确这个目标数字。大约是<strong>每年9000 亿美元</strong>，换句话说，要将财政赤字削减一半以上。</p>
+<p>弗里德伯格：是的，如果继续延续当前的税收政策，赤字将维持在 GDP的7.5%，而你的目标是把它降到3%。这听起来很严苛，但其实我们在1991年到1997年期间做到了类似的调整。</p>
+<p><strong> 达利欧  </strong>这里有三个关键点：第一，尽快行动；第二，行动要快；第三，要在经济状况良好时行动。换句话说，就是现在。</p>
+<p>很多人的倾向是说：“我们会逐步调整，三年内达成目标。”</p>
+<p>但如果经济状况恶化，你根本没有调整的空间。最糟糕的情况是，在经济衰退时被迫削减赤字，那将非常困难。</p>
+<p>所以，“3%方案”必须立即执行，并且要认识到去杠杆化是不可避免的。如果政府决定削减开支，他们必须承诺并且执行到底。</p>
+<p>所有政策制定者都必须共同承诺：“如果赤字无法降到3%，那就让我们下台。”这必须是一个明确的责任承诺，而不是空谈。</p>
+<p>如果削减开支，问题不是2万亿美元、1万亿美元还是5000亿美元，而是要确保最终目标是3%。<strong>不能只盯着某个单一的削减措施，而是要综合考虑各个方面的调整。</strong></p>
+<p>我在书中详细分析了这些数字。（顺便说一句，这本书是在线免费的，大家都可以获取。）</p>
+<p>核心问题是，你可以从哪些地方削减，或者有哪些收入来源可以填补赤字？</p>
+<p>弗里德伯格：但政府的支出中，大约70%的支出是难以削减的。所以真正可以调整的部分其实很小。</p>
+<p><strong> 达利欧  </strong>没错。根据我的计算，如果利率下降100个基点（1%），其影响相当于大幅削减政府支出。</p>
+<p>所以总统是对的，降息确实有利于财政状况，但如果只是单方面依赖降息，而不搭配财政调整，那会带来新的问题，最终会让债券变得更不具吸引力。</p>
+<p>只有财政和货币政策配合进行，才能真正起到稳定经济的作用。</p>
+<p>弗里德伯格：瑞，更重要的是，我们拖得越久，利息负担就会越高，债务总额也会持续增加。 </p>
+<p>削减赤字并不是线性的，而是非线性的，也就是说，行动越快，最终需要削减的总量就越少。 </p>
+<p>我觉得这一点太重要了，我要再强调一遍：对于任何政府官员来说，削减赤字越快，未来需要削减的幅度就越小。</p>
+<p><strong> 达利欧  </strong>没错，而且如果采取合理的方式，可以让这个过程更可控。一点一点削减，这些小调整最终会累积成巨大的影响。</p>
+<p>但如果不及时采取行动，就会进入复利增长的恶性循环，赤字只会越来越大，最终形成难以控制的局面。</p>
+<p>弗里德伯格：那么从政治角度来看，单靠DOGE(注：Department of Government Efficiency，即马斯克率领的政府效率执法部门）是否足够，还是必须采取立法行动？以及在选举周期下，立法行动的可行性。</p>
+<p><strong> 达利欧 ： </strong>这还涉及更广泛的监管减少、生产力变化，尤其是AI可能带来的效率提升。</p>
+<p>这些增长可能会转化为企业利润，比如资本利得或者企业盈利，但很难精准预测有多少增长会直接影响财政收入。</p>
+<p>此外，还有关税收入，这也是政府的潜在收入来源。</p>
+<p>不过，很多人没有意识到，税收本质上也是一种通胀。当你增加税收时，实质上就是提高了企业和个人的成本，这和通胀的影响类似。</p>
+<p>因此，在计算财政调整方案时，很难准确衡量AI和技术进步带来的生产力提升会在多大程度上弥补赤字。我们无法精确预测，但我们知道不能把未来增长当作赌注。</p>
+<p>关键是，不要靠侥幸，而是要有一个清晰的路径，把赤字降到3%。不能寄希望于某种不可预测的未来技术红利，而必须采取明确的措施。</p>
+<p>弗里德伯格：在当前的财政状况下，特朗普当选，是否比拜登继续执政更有利？</p>
+<p><strong> 达利欧  </strong>我确实认为特朗普执政的情况下，可能更有利于盈利能力的恢复，也更可能推动财政削减。</p>
+<p>共和党更倾向于削减赤字，而民主党通常更倾向于增加社会支出。</p>
+<p>但必须考虑到社会影响——削减财政赤字不仅仅是经济问题，还涉及社会稳定。</p>
+<p>我们当前正处于国内的“内战”状态，同时又处于国际博弈之中，这些都是次级影响因素。因此，最核心的问题还是要确保赤字目标是3%，而不是依赖不确定的经济增长。</p>
+<p><strong>AI带来的冲击会有两个层面</strong></p>
+<p>弗里德伯格：你是否担心AI可能带来的就业冲击？ 如果AI大规模普及，可能会导致数百万个岗位消失，比如呼叫中心、汽车装配线等岗位都会受到冲击 。 </p>
+<p>在AI产生新的经济增长点之前，我们可能会面临一个大规模失业的阶段，而届时政府势必会介入，推出新的刺激计划和社会保障措施。这会不会进一步加剧财政赤字？</p>
+<p><strong> 达利欧  </strong>是的，这一点非常重要。AI带来的冲击有两个层面：</p>
+<p>短期来看，AI产生的利润和生产力增长，远远不够弥补当前的供需失衡。</p>
+<p>这就像一个人即将心脏病发作，而医生却告诉他：“别担心，未来我们会有新的疗法。”即使AI能带来生产力增长，它的影响不会立刻显现，但财政赤字的危机却是迫在眉睫的。</p>
+<p>第二个层面是，如何分配这块“新蛋糕”，这将成为一个极具政治争议的问题。</p>
+<p>AI带来的颠覆效应将非常巨大，而我们对它的影响范围还只能猜测。因此，政府应该在财政政策上采取更加稳健的措施，而不能仅仅依赖技术进步来填补财政缺口。</p>
+<p>弗里德伯格：所以，我们的挑战不仅是财政调整，还包括如何平衡技术变革带来的社会冲击。</p>
+<p><strong> 达利欧 ：</strong>完全正确。这正是为什么必须采取一个系统性的、多层次的应对策略，而不能仅仅寄希望于市场或技术自然解决问题。</p>
+<p>AI和技术变革带来的冲击将会极其巨大，而我们目前只能猜测这些冲击会如何展开。</p>
+<p>它的不确定性太大了，但你说的完全正确。未来大量工作岗位将会消失，社会也会经历巨大的动荡。</p>
+<p>我们是否有一个应对方案？我们甚至能否就此达成共识？<strong>我认为，在我们有生之年，这种共识都不会容易达成。</strong></p>
+<p>我预计，不仅仅是美国，全球范围内都会出现国家与中央政府之间的分裂加剧。各国无法就大多数问题达成一致，碎片化将成为全球趋势。</p>
+<p>我对时间表并不乐观。</p>
+<p>目前执政的时间线大约会是这样的：新政府上任的前100天，处于“蜜月期”，这是推进立法改革的最佳窗口期；接下来两年的中期选举周期，18个月后，现实可能会和预期出现巨大偏差。</p>
+<p>想想我们的周期，我提到过，平均周期大约是6年，差不多3年。所以我们现在已经接近周期的后期。</p>
+<p>那么，事情会在中期选举之前保持良好吗？那时的选举授权又会怎么样？</p>
+<p>我认为中期选举可能会有很多争斗。</p>
+<p>弗里德伯格：那么，我有两个问题。第一，如果我们进行大规模财政削减，会导致大量失业。如果AI技术快速发展，也会带来大量失业。那么，社会失业率的大幅上升，是否会进一步推动社会主义思潮在美国的崛起？</p>
+<p><strong> 达利欧  </strong>当我谈论 “3%方案” 时，我相信我们可以通过一系列调整，将赤字削减到可控范围，而不会造成严重的社会冲击。</p>
+<p>我们可以在不引发剧烈动荡的情况下，完成财政调整，而市场利率的下降将为这一过程提供支持。因此，第一点，我们必须做到这一点。如果我们不这么做，那么美国的内部冲突将会升级。</p>
+<p>美国现在并不是走向“天堂”的道路，而是处在一个充满挑战的时刻。未来可能会有法律挑战，某些州或政党之间的对抗会加剧，甚至在州内部也会有严重的动荡和不满，核心问题仍然是金钱和权力之争。</p>
+<p>弗里德伯格：这将演变成更严重的党派斗争？</p>
+<p><strong> 达利欧  </strong>是的，左翼社会主义势力的崛起将是这一趋势的一部分。这也是为什么我们可能会经历一场 “内部战争” 或极端社会冲突。这不会是一条直线走向繁荣的道路，而是充满摩擦和对抗。</p>
+<p>与此同时，我们还面临五大力量：包括债务和货币问题、内部冲突、国际竞争（全球不再有“合作性秩序”，各国越来越倾向于“强权即公理”）、科技战争和气候问题。</p>
+<p>弗里德伯格；所以，我们正进入一个更冲突、更动荡的时代，政府的财政负担也会因此进一步加重？接下来的10年里，美国会发生什么？</p>
+<p><strong> 达利欧  </strong>有两个关键问题：</p>
+<p>第一，法律体系是否仍然有效？最高法院能否发挥作用？就像你问我的央行独立性一样，核心问题是法律是否仍然能够有效运行。</p>
+<p>我不是说法律体系一定会崩溃，而是说这是一个未知数，而且会在各州之间、以及各州与联邦政府之间引发大量冲突。</p>
+<p>州权与联邦权力的对抗将成为一个焦点，比如庇护城市等问题，法律的执行究竟是基于权力，还是仍然能维持法治？</p>
+<p>第二，在经济压力加剧的情况下，政府和社会能否承受住挑战？</p>
+<p>目前来看，情况还算不错，但未来会恶化。当事情变得更糟时，美国国内的问题将更加突出，同时，全球冲突也会加剧。</p>
+<p>你可以看到欧洲也在经历类似的局面。不仅仅是美国，整个世界都在经历越来越严重的政治极化——左派和右派的对抗在加剧，经济问题也让社会矛盾更加激烈。</p>
+<p>因此，我们正在进入一个长期冲突的环境，虽然不一定立刻爆发，但在未来10年的某个时点，局势可能会变得极端动荡。</p>
+<p><strong>我们正处于一个全球冲突与资源短缺交织的动荡时期</strong></p>
+<p>弗里德伯格：你在《原则：变化中的世界秩序》一书中谈到，外部冲突往往与财政问题的周期同步。 那么，外部战争是否会成为解决财政危机的一种方式？ </p>
+<p>在当前美国的财政状况下，你是否认为，当国内问题加剧时，政府会更倾向于诉诸战争？你如何看待未来10年美国与中国的关系？</p>
+<p><strong> 达利欧：</strong>这背后有一套历史周期。</p>
+<p>当财政状况恶化时，政府需要资金来维持国际冲突，同时也需要资金来维持国内社会稳定。</p>
+<p>当财政资源不足时，国家治理能力下降，国际裁决体系失效，比如联合国和世界卫生组织基本不起作用，世界贸易组织也被边缘化。</p>
+<p>在缺乏国际仲裁系统的情况下，“强权即公理”的逻辑开始占据主导地位。</p>
+<p>贫富差距的加大导致全球范围内的社会动荡，而技术变革和战争往往成为新的权力再分配工具。</p>
+<p>这一切都在全球范围内发生，而不仅仅是美国。</p>
+<p>当全球格局陷入动荡，战争成为各国确保自身竞争力的手段，尤其是在技术战争上，谁赢得AI战争，谁就能主导军事竞争。</p>
+<p>如果你在技术战中失败，你就会在军事竞争中失败。</p>
+<p>弗里德伯格：所以，我们不仅仅是在讨论财政赤字或社会动荡，而是整个世界秩序的结构性变化？</p>
+<p><strong> 达利欧：</strong>完全正确。<strong>我们正处于一个全球冲突与资源短缺交织的动荡时期</strong>，这一局势的复杂性使其变得极具风险。</p>
+<p>当然，生产力的提升是有帮助的，但必须把它放在一个更广阔的背景中去理解。1920 年代的美国，在股市泡沫破裂之前，我们见证了历史上最活跃的发明、专利、创新和生产力增长，但与此同时，债务也在大幅增加，社会的贫富差距和价值观分歧也在扩大。</p>
+<p>这将是一个充满紧张的时代，各方很难合作。</p>
+<p>在战争问题上，历史告诉我们，有军事战争，也有非军事战争。我无法确定我们是否会进入军事战争。但就像苏联和美国之间的冷战一样，由于大规模毁灭性武器的威胁，我们可能会设法避免直接冲突。然而，未来仍将是一个非常艰难的时期。</p>
+<p>弗里德伯格：你在书中描述过美国和中国在战争方式上的不同。如果我没理解错的话，你的观点是：美国的战争方式是“正面冲突”，喜欢直接对抗；而中国更倾向于《孙子兵法》的策略，他们更加隐秘、更加谨慎，不会轻易暴露自己的意图。这样描述准确吗？</p>
+<p><strong> 达利欧  </strong>是的，中国的战争观一直以来都是这样的，直到今天依然如此。</p>
+<p>他们的核心理念是：如果你被迫进行一场真正的战争，那说明你不够聪明，不能在不战的情况下取得胜利。</p>
+<p>孙子兵法的核心思想是通过欺敌、操控、战略布局来赢得战争，而不是直接进入战斗。因为战争会带来巨大损失，而他们的目标是达到自己的目的，而不是卷入一场可能导致自己受损的冲突。</p>
+<p>不仅仅是战争，他们的国际关系模式也是如此。这种模式被称为 “朝贡体系”，其核心逻辑是：权力决定你的国际地位。</p>
+<p>在这个体系下，权力更强的国家处于更高的层级，较弱的国家应当向更强者朝贡。更强的国家则应给予相应的尊重和保护，以维护和谐，而不是制造冲突。</p>
+<p>他们的目标是实现和谐与繁荣，而不是通过战争制造破坏。</p>
+<p>弗里德伯格：所以，美国的对抗方式源于另一种传统？</p>
+<p><strong> 达利欧  </strong>是的，这可以被称为“地中海模式”。</p>
+<p>美国的战略逻辑，源于欧洲历史上的长期战争传统，在这个体系中，没有固定的边界，人们不断地为了利益和权力进行战争。</p>
+<p>实际上，在17世纪的《威斯特伐利亚和约》签署之前，国家的概念并不像今天这样清晰。在这之前，欧洲列强之间没有固定国界，他们习惯于相互交战。</p>
+<p>弗里德伯格：这意味着西方世界更擅长战争？</p>
+<p><strong> 达利欧  </strong>顺便说一下，这也是历史上中国和日本失败的原因之一。他们经历了所谓的“百年国耻”，当外国列强在19世纪30年代末进入时，他们不得不迎战，鸦片战争便是其中的一部分。</p>
+<p>西方列强之所以在战争中占据优势，是因为他们更擅长战斗。他们在长期的冲突中积累了丰富的战争经验，而中国和日本在这方面则缺乏相应的实践。</p>
+<p>弗里德伯格：这不仅仅是军事技术的差距，更是战争文化上的差距？</p>
+<p><strong> 达利欧  </strong>没错，这两种模式——<strong>西方的直接对抗和中国的长期谋略</strong>——一直延续到今天，影响着全球的地缘政治格局。</p>
+<p>然后中国进入了所谓“百年国耻”。</p>
+<p>不过，我讲太多历史了，但我想说的是，面对竞争，不同的国家有着完全不同的策略和态度。</p>
+<p>这也正是我们现在在芯片战争中看到的情况，看看今天的新闻——形势已经摆在眼前了。</p>
+<p>弗里德伯格：在本周的国会听证会上听到参议员们说：“我为我的选民争取到了这笔资金。” 他们的目标是站出来告诉大家：“看，我给你们争取到了这些福利。” 他们进入国会，拨款给选民，长此以往，政府开支不断膨胀，却没有任何动力去削减支出。 </p>
+<p>如今，我们正站在一个严峻危机的边缘。我真心希望政客们能有勇气站出来，说‘我们必须做出艰难的决定’，因为如果我们现在不行动，10年、20年后，后果将不堪设想。 </p>
+<p>我希望你的声音能被听到。 </p>
+<p>瑞，我真的很感谢你写这本书，并愿意与我们分享这些见解。我希望人们能听到你的声音，因为这真的太重要了。</p>
+<p><strong> 达利欧  </strong>我们可以做到的。如果我们不这么做，美国的全球影响力将大幅削弱，不仅仅是国内的问题，国际地位也会受损。</p>
+<p>所以，我也很感激你们，我们能坐在这里进行这样的对话。只希望大家能理性行事——虽然也许这要求太高了（笑）。</p>
+<p>弗里德伯格：我真心希望在华盛顿听我们节目的那些人能听到这些讨论。 </p>
+<p>我无法形容当我参加总统就职典礼的那个周末的感受，我见到了许多国会议员，见到了新内阁的大多数成员，但他们根本没有意识到问题的严重性。这让我感到非常沮丧和失望。 </p>
+<p>但不管怎样，我认为我们必须继续强调这些问题，我们不会停下来。我会继续讨论这些事情，也非常感谢你的努力。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/7XbAa48tYp25jBVVSyHuew" rel="noopener noreferrer nofollow" target="_blank">“梁明月”</a>，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3154909292337925</guid><pubDate>Sun, 09 Feb 2025 07:00:00 +0800</pubDate></item><item><title>美国新造车，正排队破产</title><link>https://36kr.com/p/3157749165890050</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_44cc8dc77e074e5583394b5c6c3ef8e7@000000_oswg651715oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>继Canoo破产后，美国又一家造车新选手即将走向破败。</p>
+<p>曾被誉为卡车界“特斯拉”的<strong>Nikola</strong>（尼古拉）。</p>
+<p>根据华尔街日报，Nikola正与一家名为Pillsbury Winthrop Shaw Pittman律师事务所合作，讨论比如<strong>出售核心资产、全面重组甚至破产保护</strong>等在内的多个战略转型方案。</p>
+<p>原因显而易见，就是没钱了。</p>
+<p>早在去年10月，Nikola就承认公司资金即将耗尽，且若无法筹集到新资金，将无法继续运营至<strong>2025年第一季度之后</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_d4326e47ffcf493b82e0f3cc9f63d05b@000000_oswg631770oswg980oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>受到可能破产的影响，股价也创下了54周以来的最低水平，在盘后交易中暴跌超40%，截至发稿，股价仅为0.44美元，市值为3743万。</p>
+<p>自2020年上市以来，Nikola的股价就已经缩水99%以上，Nikola股票曾多次跌破 1 美元大关，但其采取了多次反向股票分割，就是为了遵守纳斯达克的上市规则，不然早就退市了。</p>
+<p>曾经的市值高达240亿美元，如今黄粱一梦，在创始人锒铛入狱一年多后，即便是卡车界的特斯拉，也不得不迎接自己的终局。</p>
+<h2><strong>01 市值蒸发千亿</strong></h2>
+<p>Nikola的辉煌时刻，定格在了2020年6月。</p>
+<p>当时的Nikola以120亿美元的估值成功登陆纳斯达克，在没交付一辆车的情况下，筹集到了7亿美元资金，成为<strong>全球首个IPO的氢燃料整车制造企业</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_48c9e5bc5a674a3aa844466c621c4112@000000_oswg423761oswg980oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>创始人Trevor Milton，彼时宣布开始接受旗下氢能源皮卡车型Badger的预订，在资本的推波助澜下，Nikola股价一度飙升104%，市值达到263亿美元，赶超福特和通用这样的行业老牌巨头。</p>
+<p>但辉煌只是暂时的，随后Nikola就遭遇一系列变故和质疑，如今Nikola的股价已经跌去99%，其现金储备“仅够维持到今年4月”。</p>
+<p>导致Nikola破产的原因有很多，但最核心因素还是太烧钱了，Nikola自上市后<strong>一直在亏损</strong>。</p>
+<p>根据最新财报数据，Nikola在2024年前9个月，营收为6400万美元，上年同期为2431万美元，虽然同比增长显著，但其运营亏损高达4.55亿美元，上年同期的运营亏损为5.22亿美元；净亏损为4.81亿美元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_2de45f8f98404844add82c6a1b63070c@000000_oswg54002oswg1080oswg557_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>特别是在2024年第三季度，Nikola的营收仅为2518万美元，运营亏损1.79亿美元，净亏损2亿美元，去年同期的净亏损为4.26亿美元。</p>
+<p>截至2024年9月30日，Nikola公司公布的自身持有现金及现金等价物也降到了1.883亿元，而在2023年底这一数额还是4.647亿美元，首席财务官Thomas Okray也承认，公司每月的资金消耗为3000万至4000万美元。</p>
+<p>以Nikola当前的烧钱速度，这些资金根本不能支撑公司运营半年之久。</p>
+<p>在致美国证券交易委员会的强制性警告信中，Nikola坦言：“<strong>我们现有的财务资源仅能覆盖预测的运营成本，并在2025年第一季度前履行相关义务</strong>。”</p>
+<p>为了缓解财务上的压力，Nikola在去年10月解雇了<strong>15%的员工</strong>，大约153名，这个月还将有进一步的裁员计划以缩减规模。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_f15328d9288c4ae7887764b7929663ad@000000_oswg807911oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>值得注意的是，其最近的一轮裁员，已经将其有争议的氢燃料电池半卡车的生产线给停掉了。</p>
+<p>同时，Nikola也展开了不少自救的措施，比如通过与票据持有人的交易筹集资金，但目前仅获得6500万美元，以Nikola当前的烧钱速度，这笔资金也就能维持一个月左右。</p>
+<p>此外，Nikola还宣布计划通过出售更多股票来筹集1亿美元资金，但是以目前的Nikola股价水平来看，显然不是一件容易的事。</p>
+<p>尤其是距Nikola公司去年6月25日完成1比30的股票反向拆分，还不到七个月的时间，<strong>短时间再拆分合股也不可能实现</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_d5339fb5648949ab88984e8857572109@000000_oswg310527oswg720oswg518_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>截至目前，Nikola的市值仅为3743万美元，这意味着公司更难执行通过出售股票筹集1亿美元资金的计划。</p>
+<p>更何况，美国市场对Nikola这一类烧钱，且迟迟无法进行有效商业化的企业，已经失去了耐心，Nikola很难在资本市场获得融资。</p>
+<p>似乎是面对已经无力回天的局面，Nikola向美国证券交易委员会提交的最新文件中，态度已经相当坦诚，“如果我们在需要时无法筹集到足够的资金，我们可能会被迫进一步缩减或停止运营，这将对我们的财务状况、经营业绩、业务和前景产生重大不利影响，并可能导致您的投资损失”。</p>
+<h2><strong>02 虚假、诈骗与做局</strong></h2>
+<p>资本不会无缘无故对一家企业失去信任，Nikola走到今天企业本身也存在不少问题。</p>
+<p>这家企业曾被称为卡车界的特斯拉，Nikola和Tesla合起来是美国发明家尼古拉·特斯拉——Nikola Tesla的名字。</p>
+<p>公司创始人兼CEO还是特斯拉的前高级工程师Trevor Milton（特雷弗·米尔顿），米尔顿给自己的卡车公司取名尼古拉，把特斯拉当作竞争对手，火药味就差写到脸上了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_93b4293332dd4b799455035c4980f52f@000000_oswg551616oswg1080oswg525_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不过现在这位立志“超越马斯克”的创始人，已经锒铛入狱了，罪名是<strong>欺诈投资者</strong>，2023年底被判处<strong>4年监禁</strong>，这在当时新造车中还是首例。</p>
+<p>而且Nikola的成与败都和这位创始人有极大的关系。</p>
+<p>2014年，在特雷弗·米尔顿的主导下，定位氢能源重卡的新势力尼古拉成立，2016年，成立2年的尼古拉推出了<strong>首个氢能源卡车尼古拉一号</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_db01125fd2d242d1a5c34e7528fb0985@000000_oswg503865oswg1080oswg679_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>美国已经有特斯拉这样一个成功案例，对氢能源汽车这个更冷门的领域，如果 Nikola 真的像Tesla那样壮大，投资人们确实能够获得很大的收益。</p>
+<p>但他们没想到的是，等待他们的居然是一个惊天骗局。</p>
+<p>2016年6月，Nikola对外表示尼古拉一号开启预订一个月后，收到共计7000辆卡车订单，但事实上是，从2015年尼古拉成立以来，到2020年顶着全球氢能重卡第一股的称号，以120亿美元估值实现上市的时候，<strong>尼古拉还没有卖出去一台车</strong>。</p>
+<p>2020年，Nikola还与<strong>通用汽车公司达成了价值20亿美元的合作协议</strong>，通用获得了尼古拉发行的20亿美元普通股，拥有其11%的股权。此外，通用还宣布将在2022年前，为尼古拉生产氢燃料电池电动皮卡Badger。</p>
+<p>但没想到，几乎同一时间，美国做空机构Hindenburg Research（海登堡研究）公司发布的一份重磅报告，犹如一颗重磅炸弹，彻底炸碎了 Nikola 的发展美梦。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_38264b5646c143f68a5517e69d54d36e@000000_oswg182122oswg1080oswg309_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>报告中毫不留情地直指 Nikola 所谓的氢燃料汽车技术，不过是精心编织的骗局，称<strong>尼古拉从车到氢能源技术全部是假的</strong>，新车订单数据、电池技术突破等内容均为子虚乌有的虚假谎言。“我们从没有在一个上市公司中见过规模如此大的骗局。”</p>
+<p>Hindenburg Research主要控诉的有两点：</p>
+<p>2020年7月Milton曾声称在德国乌尔姆有5辆Nikola Tre下线，然而负责生产这款卡车的合作伙伴博世却证实，没有完整地生产任何Nikola产品。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_9079016319554a64b5f23df25828ec90@000000_oswg230319oswg1080oswg574_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2018年，尼古拉发布了一个宣传视频，名字为《尼古拉1号在驾驶中》，称这辆氢燃料电池卡车Nikola One的原型车，行驶了500-1000英里。但事实是，尼古拉1号当时是从较为平坦的山顶上滑下来的，只不过尼古拉是<strong>故意倾斜摄像机的角度，让卡车看起来是自己在行驶</strong>。</p>
+<p>这个造假视频则是彻底改变了尼古拉公司的发展走向，而且有意思的是，尼古拉还大方地承认了造假，创始人米尔顿还发了声明，称“<strong>它就是自己滑下来的</strong>”。</p>
+<p>这样的一份做空报告一出，引起了轩然大波，通用随后中断了与尼古拉的交易，尼古拉的股价也随之大跳水，较高峰期缩水近一半，此后就开启了“跌跌不休”的态势。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_4ca7d1e2bf824ce4861b1662d0de1672@000000_oswg622554oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在“造假”带来的舆论压力以及投资人的诉讼后<strong>，Milton也“引咎辞职”</strong>，同时也带走了价值31亿美元（约人民币220亿元）的公司股票。随着 Milton 的离职，各种相关的负面新闻也出现得越来越多，包括 Nikola 最初的设计图纸是Milton以几千美金的价格买来的等等。</p>
+<p>此后，通用汽车取消入股Nikola，博世减持股份、大额订单跑票。美国司法部展开调查，Milton还因欺诈指控遭到起诉。最终，Nikola创始人Trevor Milton在2023年12月18日，欺诈罪做实，被判处4年监禁。</p>
+<p>其实Nikola的凄惨处境在美国也不是个例，最近面临破产不仅是Nikola，前不久，同样是美国新造车的<strong>Canoo公司</strong>，已经向特拉华州美国破产法院提交自愿请愿书，根据美国破产法第7章寻求救济。</p>
+<p>更早之前，Fisker以及Lordstown Motors等美国新造车，也都早早递交了<strong>破产保护</strong>程序。</p>
+<p>事实上，在美国除了特斯拉一家独大，其它新势力车企也都身处水深火热之中，国内汽车行业的洗牌已经进入白热化，而海外，同样是先活下来再说。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg5MTc3NjgxNQ==&amp;mid=2247541442&amp;idx=1&amp;sn=3b7b6d3ee1c8c1379f66ccc59d960231&amp;chksm=ce296434bff4dfb7d5527889ddce63e27f5a66422813282ce62b6694f50a3f62547fa9df7b90&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“超电实验室”（ID：SuperEV-Lab）</a>，作者：王磊，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157749165890050</guid><pubDate>Sun, 09 Feb 2025 07:00:00 +0800</pubDate></item><item><title>终于！小米首款AI眼镜来了，“百镜大战”高潮将至？</title><link>https://36kr.com/p/3156608448200201</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>新的领域，小米要向苹果、Meta发起挑战？</p>
+<p>2月6日有网友发文表示，小米眼镜官微上线，预示着小米AI眼镜即将到来。随后小米公关部总经理王化辟谣，小米眼镜官微多年前就已注册，并非最近上线。</p>
+<p class="image-wrapper"><img data-img-size-val="1268,878" src="https://img.36krcdn.com/hsossms/20250207/v2_ec52d1ae8dc04e0386eb2a67ef9a8a39@1547419282_oswg145986oswg1268oswg878_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>（图源：微博截图） </p>
+<p>尽管王化对小米官微一事进行了辟谣，但并未对小米AI眼镜发布时间发表意见。此前《科创板日报》报道称，XR研究院透露，小米AI眼镜原定2025年3月到4月发布，现计划将发布时间提前至2月，与小米15 Ultra一同面世。</p>
+<p>数码博主@智慧皮卡丘则爆料称，小米AI眼镜已经入网，型号为“M2442G1”。由此来看，小米AI眼镜依然有可能2月发布，借助小米15 Ultra的热度，获得更高的曝光量。</p>
+<p>作为手机、互联网行业霸主，小米的产品已经给消费者留下了价格低、配置高的印象。每当一类产品爆火时，就会有许多网友期盼小米入场，推出低价高配的产品，将价格打下来。<strong>但“百镜大战”逐渐拉开帷幕，国内的雷鸟、PICO、XREAL、Rokid，国外的苹果、索尼、Meta等诸多企业加入战团，小米AI眼镜突出重围并非易事。</strong></p>
+<h2>以AI为根基，小米再度发力智能眼镜</h2>
+<p>在这款AI眼镜之前，小米已经向智能眼镜领域发起多次试水行动，并在2022年和2023年分别推出了MIJIA眼镜相机、MIJIA智能音频眼镜。遗憾的是，因技术、供应链不成熟，再加上缺乏吸引消费者的功能，这两款眼镜并未掀起太大波澜。</p>
+<p>缺乏杀手级应用一直是智能眼镜的痛点，即便强如苹果，Vision Pro也落得个停产的下场。<strong>好在AI时代的到来，为智能眼镜带来了无限可能。</strong>前段时间闪极推出的AI拍拍镜加入了AI记忆系统、AI云盘等功能，并且云端AI中心接入了数十个大模型，用户可通过语音指令调用AI助手，实现导航、学习、听音乐，使其实用价值大幅提高。</p>
+<p>小米推出的MIJIA眼镜相机，同样融入了小爱同学的部分功能，可以实现实时翻译、动植物识别等功能。在AI大模型渗透进各行各业的今天，小米AI眼镜接入AI大模型板上钉钉。早前小米被曝将打造万卡集群，并挖走了DeepSeek工程师罗福莉，大力推动AI技术研发，小米AI眼镜所具备的AI功能，值得广大米粉期待。</p>
+<p class="image-wrapper"><img data-img-size-val="2950,1412" src="https://img.36krcdn.com/hsossms/20250207/v2_aa6a330c57b14e68999c27e4a25e5b91@1547419282_oswg2851234oswg2950oswg1412_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>（图源：小米） </p>
+<p>据《科创板日报》报道，2024年小米与供应链企业歌尔股份达成合作，首款AI眼镜对标Meta Ray-ban，预期出货量30万台以上。Meta Ray-ban首款产品Stories于2021年推出，2023年又推出了支持AI功能的第二代产品，2024年销量超过100万台。</p>
+<p>需要注意的是，与闪极AI拍拍镜相同，Meta Ray-ban的两款产品均搭载普通镜片，不能显示画面，而小米的试水之作MIJIA眼镜相机的屏幕却可以显示内容。</p>
+<p>若镜片不能显示信息，用户的交互便捷度和实用性难免会大打折扣，Meta和闪极的方案优势在于成本更低，且能够增加续航时间。<strong>素以堆配置闻名的小米，在AI眼镜领域大概率也将承担起打破“科技霸权”的责任，为AI眼镜配备可显示画面的镜片。</strong></p>
+<p><strong>小米AI眼镜与MIJIA眼镜相机大概率较为相似，会配备独立芯片、电池，可脱离手机运行，通过AI大模型丰富设备的功能和提高交互体验，并且支持镜片显示信息，用于导航、文字翻译，甚至观影。</strong>至于价格，参考MIJIA眼镜相机当前官网售价2099元，小雷推测小米AI眼镜的首发价格大概率在3000元左右起步。</p>
+<p class="image-wrapper"><img data-img-size-val="2540,1268" src="https://img.36krcdn.com/hsossms/20250207/v2_16dc80c4210d481fb87bb76cb2472227@1547419282_oswg394036oswg2540oswg1268_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>（图源：小米官网） </p>
+<p>单纯看产品，小米AI眼镜依然极具诚意，但小米公司对其的销量期望却仅为30万台，可见在小米眼中，这款产品恐难以取得太好的成绩。其中的原因倒不是小米的影响力不足，而是AI眼镜至今仍属于小众需求。</p>
+<p>维深信息在《AI智能眼镜销量跟踪报告2024年度》中指出，去年国内AI眼镜（不包括未接入AI大模型的蓝牙音频眼镜/智能眼镜，以及投屏观影类AR眼镜）销量约为5万台，同比增加2%。<strong>一个市场规模如此之小的行业，甚至让人怀疑小米是否有入场的必要。</strong></p>
+<h2>AI重新定义XR，行业大洗牌将至？</h2>
+<p>根据维深信息统计的数据，2024全球AI眼镜总销量为234万台，2025年有望增加至550万台，到2030年之前都将保持大约100%的增长率，行业发展迅猛。从产品分类来看，销售的AI眼镜中96%是AI拍摄眼镜，仅有3%为AR+AI眼镜，1%为AI音频眼镜。国内AI眼镜销量不佳，原因在于界环、李未可等品牌虽发布了不少AI拍摄眼镜，但大多产品在2025年上市交付，2024年消费者可选的产品太少，同时AR+AI技术不够成熟，AI音频眼镜则功能太少，难以扛起大梁。</p>
+<p class="image-wrapper"><img data-img-size-val="3462,1020" src="https://img.36krcdn.com/hsossms/20250207/v2_43d5a7b90d3645d4a3fe13f1abae0273@1547419282_oswg1238163oswg3462oswg1020_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>（图源：维深信息） </p>
+<p>2025年大量产品上市，在AI和其他新功能的刺激下，国内AI眼镜销量很可能连翻数倍，进入销量高速增长阶段。拥有成长为下一代计算平台潜力的XR设备，未来前景无限。<strong>AI眼镜定义方面虽与XR存在一定的差异，但将AI与AR结合以提升实用性，无疑是AI眼镜的未来趋势。</strong>360集团创始人周鸿祎在谈及AI硬件时直言，每个互联网公司都可能会研发自己的智能眼镜。</p>
+<p>首款XR设备销量不达预期的苹果，不愿放弃XR市场，计划在2025年推出价格更低的头显设备。Meta的XR部门Reality Labs在2024年第四季度营收10.8亿美元，支出60.5亿美元的情况下，依然坚持开发XR设备。即便2020年第四季度至今，Reality Labs累计亏损已达600亿美元，Meta首席财务官Susan Li仍表示，这些投资对于开发下一代计算平台是必要的。</p>
+<p>扭亏为盈的关键在于打造符合消费者需求的产品，现阶段能够解放双手、第一视角拍摄、通过AI提升功能丰富性的AI拍摄眼镜无疑是消费者最需要的产品。闪极AI拍拍镜共创版上线就被抢购一空，原因也在于此。</p>
+<p><strong>未来随着芯片、电池、显示技术的进步，AI眼镜将陆续加入AR功能，进一步提高产品的价值。</strong>2024年全球AI眼镜销量之王Meta，便计划2024年推出Ray-ban第三代AI眼镜，高配版配备可以显示画面的镜片，2027年推出旗下第一款真正的AR眼镜。</p>
+<p>当前国内在售的AR眼镜，功能大多以投屏观影为主。相较于VR和MR，真正的AR眼镜的功能更加复杂，需要大量技术积累。Meta在VR、AI眼镜独霸全球半数以上市场的情况下，依然步步为营，稳扎稳打探索AR发展路线。</p>
+<p class="image-wrapper"><img data-img-size-val="1226,874" src="https://img.36krcdn.com/hsossms/20250207/v2_a4d92ce8d8704b308611857cc625a61c@1547419282_oswg46372oswg1226oswg874_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>（图源：小米） </p>
+<p><strong>XR行业属于蓝海市场，AI与AR结合的产品更是拥有成为下一代计算平台的潜力。即便现阶段该行业市场规模较小，正如周鸿祎所言，为了争取到先发优势，每个互联网公司都可能会研发自己的智能眼镜。</strong></p>
+<p>小米在手机行业成绩斐然，财力充足的情况下，自然也要向XR行业探索。MIJIA眼镜相机产品成熟度不足，可从设计理念到功能特性，放到今天来看无疑是超前的，换个芯片再加个AI大模型后，都要比许多在售的AI眼镜更具竞争力。<strong>小米新一代产品加入更多功能后，有望改变当前AI眼镜，乃至整个XR行业的格局。</strong></p>
+<h2>小米入场，AI眼镜行业会大爆发吗？</h2>
+<p>2021年，小米CEO雷军表示，汽车是他这一辈子最后一次重大创业项目。然而雷军可能要食言了，AI+XR潜力不输手机，称得上重大创业项目。当初小米进军汽车行业，许多业内人士认为，手机行业已成为红海市场，位列全球销量第三的小米难以超越三星或苹果，才会开拓新业务以寻求突破。</p>
+<p>小米汽车上市首年累计交付超过13.5万辆，巨大的成功无疑给了小米更多信心。引得苹果、Meta等科技巨头入场的XR行业，将成为小米开拓业务的下一个重点领域。</p>
+<p>不过“价格屠夫”小米能否在AI+XR行业再次挥起屠龙刀，将产品价格打下来，目前无法确定。从小米汽车的定位不难看出，小米急于摆脱“性价比”形象，新产品普遍定位高端。而且从高端向低端发展下沉市场容易，定位低端的品牌冲击高端却极为困难。</p>
+<p class="image-wrapper"><img data-img-size-val="2926,1404" src="https://img.36krcdn.com/hsossms/20250207/v2_f478b0c77b7548288c8d11c60794cb4f@1547419282_oswg3632951oswg2926oswg1404_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>（图源：小米） </p>
+<p><strong>全球XR行业入局者甚多，主打中低端市场的品牌也不少，小米很难肩负起价格屠夫的重任。</strong>好在，引领行业进步不能只看价格，堆配置、丰富功能具有同样的效果。不再追求性价比的小米SU7，硬件配置和智能生态仍是同价位的佼佼者。</p>
+<p>MIJIA眼镜相机证明了小米在AI眼镜设计方面的超前性，融入AI大模型和部分AR功能后，MIJIA眼镜相机的体验和大概率能够跻身第一梯队。同时，小米拥有大多数XR企业难以企及的品牌影响力，能够快速聚拢感兴趣的网友，并吸引有需求的消费者下单。</p>
+<p>XR行业仍处于起步阶段，如同新能源汽车行业，发展过程中难免会有大量企业倒在路上，但当前任何企业都有机会。也正因如此，未来数年我们将看到更多企业进军XR行业，开发支持AI大模型的AR、VR、MR，或者研发纯粹的AI眼镜。<strong>但这场竞争并不完全公平，小米、苹果、Meta等财力雄厚、影响力强大的企业更有机会笑到最后，甚至改变整个行业的格局，引领产品的设计思路与发展路线。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1468,2602" src="https://img.36krcdn.com/hsossms/20250207/v2_6ea5bdf150e845719276f46bec57805f@1547419282_oswg414493oswg1468oswg2602_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3156608448200201</guid><pubDate>Sun, 09 Feb 2025 07:06:00 +0800</pubDate></item><item><title>马斯克的增长梦，谁来买单？</title><link>https://36kr.com/p/3157246632155655</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_809fbffdd66747118608f9fb21f49230@000000_oswg920554oswg1024oswg576_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>作者丨陈胜</strong></p>
+<p>2025年伊始，特斯拉以一场全球范围的“降价潮”开启了新一年的竞争。然而，2024年全年交付量罕见同比下降的现实，揭示了这家电动车巨头在增长之路上的深层焦虑。</p>
+<p>尽管马斯克在财报电话会上提出2025年销量增长20%~30%的目标，但这一目标的实现需要跨越至少四重障碍：<strong>主力车型老化、价格战侵蚀利润、全球市场分化、自动驾驶商业化难题。</strong></p>
+<p>2024年，特斯拉全年交付178.9万辆，同比下降1.1%，这是自2015年以来首次年度销量下滑。虽然仅是小幅波动，但背后潜藏的危机却难以被忽视。</p>
+<p>车型迭代停滞：Model 3和Model Y两款主力车型分别于2016年和2019年推出，消费者审美疲劳导致需求疲软。</p>
+<p>利润空间压缩：2024年的净利润同比腰斩，汽车业务毛利率从2023年的15.7%骤降至7.3%。</p>
+<p>竞争格局剧变：比亚迪以177万辆的全球销量逼近特斯拉，而中国本土车企的“围剿”进一步挤压了特斯拉的市场空间。  </p>
+<p>尽管特斯拉通过频繁降价（如中国市场Model Y降价超3万元、5年0息金融方案），暂时稳住了部分销量，但“以价换量”的策略或已触顶。</p>
+<p>马斯克将增长希望寄托于2025年的新车周期与自动驾驶技术突破，但这一叙事能否被市场买单，仍需分区域拆解。  </p>
+<p><strong>1) 中国：销量新高背后的隐忧  </strong></p>
+<p>2024年，特斯拉在中国市场交付65.7万辆，同比增长8.8%，创历史新高。不过，这一成绩的含金量值得警惕。</p>
+<p>价格战有透支需求的危险，降价政策虽刺激了短期销量，但也导致品牌溢价流失。比亚迪、吉利、蔚来等车企以更低价格和更快迭代速度抢占20万~30万元市场，密集推出对标Model Y的车型。</p>
+<p>与此同时，特斯拉的上海超级工厂本土化率已超95%，成本压缩空间有限，而Model 2/Q的推出仍需直面15万元级市场的激烈竞争。  </p>
+<p>中国汽车市场的增长潜力已从增量扩张渐渐转向存量博弈，特斯拉若无法在智能化（如FSD本土化）和性价比（Model 2/Q）上实现突破，其份额有被进一步蚕食的风险。  </p>
+<p><strong>2) 美国：政策与需求的双重不确定性 </strong></p>
+<p>美国是特斯拉的第二大市场，但其需求增速也正在放缓。2024年前三季度，美国电动车销量同比仅增长7.2%，远低于2023年的47%，主流消费者对续航和充电便利性的疑虑仍未消除。政策层面上，特朗普重返白宫后有可能削减电动车补贴。  </p>
+<p>不过，特斯拉在美国的叙事重心已转向技术驱动。FSD（完全自动驾驶）和Robotaxi（无人出租车）被马斯克视为“万亿美元机遇”，其进展可能受特朗普政府监管松绑的利好。</p>
+<p>若FSD V13能在2025年6月通过奥斯汀试点验证，或将成为股价的强心剂，但技术成熟度与法规风险仍是悬顶之剑。  </p>
+<p><strong>3) 欧洲：补贴退潮与本土品牌反攻  </strong></p>
+<p>欧洲市场2024年的表现堪称特斯拉的滑铁卢。德国、法国等主要国家削减电动车购车补贴，消费者转向混合动力车型，导致特斯拉交付量承压。企业层面，大众、宝马等车企加速电动化转型，凭借更贴近欧洲用户的设计与渠道优势抢夺市场。</p>
+<p>特斯拉在欧洲的应对策略包括延长Model Y的贷款折扣和免费超充服务，但效果有限。未来，柏林工厂的产能优化与Cybertruck的差异化定位或是关键变量。  </p>
+<p><strong>马斯克为特斯拉规划的2025年增长路径包含两条主线：低价车型放量与自动驾驶商业化。</strong>然而，这两大战略均面临现实挑战。</p>
+<p>特斯拉计划于2025年上半年推出定价14万元左右的Model 2/Q，目标是通过下沉市场拉动销量。尽管Model 2/Q的制造成本比Model 3低50%，但中国本土品牌已在该价格段占据先发优势，且利润率极低。</p>
+<p>特斯拉长期以高端形象示人，低价车型可能稀释品牌价值，进而影响高毛利车型的销售。而一旦Model 2/Q无法在2025年底前实现规模化交付，特斯拉增长目标的兑现将极具挑战。  </p>
+<p>另一面，FSD与Robotaxi的商业化远水难解近渴。马斯克宣称FSD技术将在2025年迎来“质变”，并计划推动Robotaxi试点。</p>
+<p>但实际上，市场对FSD技术的成熟度仍存疑。资本市场对自动驾驶的乐观预期（如Wedbush将目标股价上调至515美元）更多基于叙事而非现实业绩。</p>
+<p>FSD V13虽在测试中表现提升，但复杂路况下的安全冗余仍未解决，全球监管审批进度缓慢。在商业模式上，FSD订阅收入仅占整车销售收入的1.6%，短期内难以支撑估值。</p>
+<p>最后，让我们回到本文标题里的问题：马斯克的增长梦，究竟谁来买单？  </p>
+<p><strong>消费者也许可以被低价吸引购买新车，但品牌忠诚度可能因价格波动而削弱；投资者也许可以接受高估值泡沫，押注自动驾驶的长期红利，但需承受短期业绩波动的风险；供应链伙伴也许可以通过深度绑定特斯拉获得订单，但也需应对其压价策略。  </strong></p>
+<p>特斯拉的2025年增长目标是一场“小赌”，赌注将是技术突破与市场耐心的双重兑现。</p>
+<p>封面来源丨AI制图</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTY3Njk1Ng==&amp;mid=2247511060&amp;idx=1&amp;sn=d3b1e3b69757e3e4fca4472d6e50b34b&amp;chksm=cfdab8b56cfb68aa42b8d51be9f6f199c4ada30d57a744f7cb338ecc00bf2140961b940fb1f2&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“雪豹财经社”（ID：xuebaocaijingshe）</a>，作者：陈胜，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157246632155655</guid><pubDate>Sun, 09 Feb 2025 07:14:00 +0800</pubDate></item><item><title>体验苹果新应用两天后，我开始期待微信「抄作业」</title><link>https://36kr.com/p/3157449408059912</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_2a2da93f0e594f8ba29e3a61fcbfa038@000000_oswg1124572oswg1063oswg1223_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了发产品、搞系统，苹果这几年还在发力「果产应用」赛道：前几年的「翻译」，去年的「密码」和「体育」，本周又推出了全新的「活动邀请（Apple Invites）」，推出一天已火速登上美国 App Store 排行第一。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_8bbd34164be54e10b2ae79feda0ff75b@000000_oswg66544oswg1024oswg914_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">两大热门 AI 都不是对手</p>
+<p>使用这个应用还有一点「门槛」：还没上架国区，需要一个外区苹果账户；仅限 iCloud+ 订阅用户使用。</p>
+<h2><strong>一封精美的电子请柬</strong></h2>
+<p>先来看看 Apple Invites 的图标：一个信封，装着充满彩色斑点的白色卡片，初看让人有点摸不着头脑，但结合应用名字和用途，就能发现是在象征一封色彩纷呈的派对邀请函。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_8d447ced81434390bf8a64bb646be60a@000000_oswg8475oswg640oswg336_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>和「日历」里面那种干巴巴的白底黑字邀请不同，Apple Invites 的邀请函采用「卡片」形式，效果类似 iOS 联系人的大图海报。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_a4fb14e209bc4f078d40d6cc48829a94@000000_oswg94632oswg1024oswg740_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了自选的照片，苹果很贴心提供了表情符号、摄影以及色彩三个主题的背景图。如果是支持 Apple 智能的机型，还能现场按需生成适合的图片。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_b465ab56de6941ea84f21b7af009dcf4@000000_oswg150592oswg945oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">有点像 iOS 选壁纸的界面</p>
+<p>Apple Invites 不是只能生成仅供观赏的美丽海报，它更强的功能在于「RSVP」（管理回复）以及与苹果生态的联动。</p>
+<p>用户可以选择用 iMessage、邮件或者复制链接的形式发给联系人，如果对方没有下载这个应用，或者是 Android 用户，则会直接打开一个网页。在活动当天，邀请函还会提供一个二维码，扫描就能显示活动的详细信息。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_de42ae17db734a579e40a1a35ab8cfa0@000000_oswg72284oswg1024oswg603_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>邀请函有三个应答的选项：<strong>参加、不参加、可能</strong>，受邀者可以随时更改自己的应答，而发起者能够及时收到变更的回复，统一管理参与人员。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_88bf0c587f7240eab15cc3790ca6e2e7@000000_oswg63173oswg472oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>很贴心的是，如果发起者一起附上了活动地址，<strong>邀请函除了会显示定位，还会显示当天、当地的天气情况供参考。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_d79482e5a9e741eebf9eb5a12c02c101@000000_oswg63330oswg925oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>比起这些基础信息，Apple Invites 的最大优势，<strong>就是能直接接入 iCloud 共享相册。</strong></p>
+<p>发起者可以直接在其中快速新建一个专门的 iCloud 共享相册，参加者也能在活动页面直接快速选取照片上传。在 iOS 18 相册变得不太方便的情况下，通过 Invites 上传、查看活动照片就显得非常方便了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_907d6da08d034af8809e213de7d0b630@000000_oswg85989oswg1024oswg802_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除此之外，如果发起者有 Apple Music 账户，还能把派对 BGM 歌单贴上去，不过没有联动 Apple Music「共享歌单」功能，参加者只能看歌单而不能加歌。</p>
+<p>Apple Invites 最让我惊喜的，其实不是这些功能，而是它不仅限于苹果用户圈地自萌，<strong>这次 Android 用户也被「邀请」了。</strong></p>
+<p>比起一个应用，Apple Invites 更像是一个「服务」，有网页版本。Android 用户收到邀请的链接，可以直接用浏览器打开对应的页面，如果没有 Apple 账户，可以留下邮箱、名字、头像等个人信息，对邀请进行回应。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_93a5064d666747d1bed82f60d8863ad5@000000_oswg377994oswg1024oswg550_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：9to5Google</p>
+<p><strong>而如果登录了 iCloud+ 账户，就能解锁 Apple Invites 几乎全部功能，可以在网页上直接创建邀请分发，甚至能从 Android 手机本地图库中上传照片至活动共享相册，无需提前将这些照片备份到 iCloud 上。</strong>活动日程的安排也能下载到本地日历当中。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_1c5a1ea99ed04c639079262382b19b6c@000000_oswg500004oswg1024oswg550_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源： 9to5Google</p>
+<p>由于刚刚起步，Apple Invites 的功能还比较局限，例如即使双方都安装了应用，邀请却无法通过应用本身推送通知，还是需要 iMessage 等渠道。活动页面可以张贴的内容也还比较少，像是外国人比较重视的着装、礼物等等礼仪细节都没有专门的板块。</p>
+<h2><strong>在国内也有用武之地</strong></h2>
+<p>即使没在国内上架，功能也比较陌生，自带流量的 Apple Invites 还是立马引发了大量的关注，不少符合条件的用户也纷纷下载把玩。</p>
+<p>而对于这个服务会不会在国内有用武之地，更多人不太看好：更像是美国的「派对」文化延伸，不适合中国人体质。</p>
+<p>但真是如此吗？难道我们中国人，就不需要聚会了？大大小小的聚餐先不提，这几年很火的「围炉煮茶」「Citywalk」「屋顶夜话」等等的聚会活动，完全称得上是中国特色「派对」形式。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_066fdeec3e6045f690951342203df6b6@000000_oswg64128oswg1024oswg686_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>就我自己的经历而言，Apple Invites 这种应用真能解决不少痛点。</p>
+<p>如果想在一个十几二十余人，而且还很活跃的微信亲友群里发起聚会，将会是一个非常耗时耗力的任务。即使把相关的时间、地点、活动安排都设置成 @所有人的群公告，还是要一个一个确认群友是否到场；有的人不爱翻群消息，不停询问时间地点的信息；活动结束后，照片就发上群聊里，不仅找起来不方便，不记得及时接收还会过期。</p>
+<p>即使进入国内，Apple Invites 的下场恐怕也会和 iMessage、FaceTime 一样成为少数用户的选择，但「活动组织」的场景对国人来说根本不陌生，<strong>微信「群接龙」不也是一种「RSVP」吗？</strong></p>
+<p>而「遥遥领先微信」的 QQ，其实早在十年前就已经有了<strong>「群活动」</strong>的功能，和 Apple Invites 功能基本一致，甚至一样能放海报。微信本身虽然没有类似的功能，但不少小程序其实已经能够代劳。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_2e10a3499e8043ceb8027071f387719a@000000_oswg102340oswg773oswg569_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：CSDN @iamlaosong</p>
+<p>虽然都是「电子邀请函」，Apple Invites 和上述这些功能却不太是同一个路子：前者除了用来通知和报名，更重要的是通过亮眼设计的邀请函，<strong>提前把聚会的氛围渲染到位，让参加者先感受到组织者的用心。</strong>而即使在中国，我们也能时不时收到亲朋好友制作非常精美的 H5 请柬，只是不像 Apple Invites 这么低门槛。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_cadbcc71aa5142fb9cbf9c9134f9a211@000000_oswg557031oswg1024oswg435_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">H5 请柬模版，图源：易企秀</p>
+<p>现在微信已经能发多样封面的红包，「包装」精美的群礼物，风格同样美轮美奂的「活动邀请」说不定在明年春节上线，瞄准大大小小的亲朋好友聚餐。</p>
+<p>毕竟，我们搞的是聚会不是「应酬」，主打的就是一个<strong>情绪价值</strong>，全世界皆是如此，也是 Apple Invites 为何成立的重要原因。</p>
+<h2><strong>我们需要有意义的社交体验</strong></h2>
+<p>在海的那边，Apple Invites 其实是一个晚到的「挑战者」，类似的电子活动邀请服务已经火了有一段时间。</p>
+<p>Google Play Store 去年评选的年度应用「<strong>Partiful</strong>」，就是一款与 Apple Invites 极其相似的派对邀请服务。二者不管是功能还是界面都十分雷同，就是 Partiful 的设计要更偏 TikTok 一点，功能也更丰富。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_9305f807ba45417499209e09168c721b@000000_oswg132827oswg958oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">Partiful 的邀请函，图源：The New York Times</p>
+<p>在 Apple Invites 推出之后，Partiful 开发者公开表达了不满，认为苹果抄袭了自己的应用。</p>
+<p>虽然 Partiful 的跨平台体验更好，也无需订阅，但 iPhone 用户可能会更倾向于使用第一方的 Apple Invites，并且后者还有支持 iCloud 共享相册的独家优势。</p>
+<p>Partiful 这种平台能火起来，其实也出乎了外国人的预料。毕竟在当下，人们已经厌倦了「App 泛滥」：用一个耳机需要下一个 App，点杯咖啡需要下一个 App，而明明看起来完全不需要单独 App 来完成的「聚会邀请」，却成就了 Google 的年度应用，成为苹果的全新业务。</p>
+<p>背后当然有一定的时代原因：在前几年的居家隔离结束后，美国青少年无比渴望线下见面，Partiful 的开发者开始向周围的朋友介绍这个平台，很快就传遍了整个城市，甚至走出国门。</p>
+<p>对比 Evite、Facebook Events 这些功能类似的老平台，Partiful 采用的设计语言更潮流，提供的聚会主题都是时下网络流行的话题。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_78e53281dfc443b3bda7d7bd590da355@000000_oswg726062oswg1080oswg1119_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">Partiful 上的海报素材</p>
+<p>即使没那么时尚的 Apple Invites，也有久经验证的苹果设计加持，简约好看的风格已经征服了国内小红书用户。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_9d0c3465cec94495b0f3557979c045b5@000000_oswg57737oswg567oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>更深层的原因，或许是<strong>年轻一代内心对线下社交的渴望</strong>。</p>
+<p>根据美国精神病学协会研究，美国成年人至少每周会有一次感到孤独，而对于 18 至 34 岁的青年群体，这个情况会更严重，每天和每周都会多次孤独。</p>
+<p>根据盖洛普对全球 22 个国家和地区的调查，<strong>总体而言，有超过 30% 的成年人表示自己「感到孤独」，中国虽然低于平均水平，但比例也有 23%，可以说四个中国人里就有一个被孤独感伴随。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_d844b680bdf04d49ae1245e24e02ad33@000000_oswg421357oswg1024oswg805_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：盖洛普</p>
+<p>社交网络让人与人之间的连接更加紧密，但大家还是更渴望情绪价值更高的「奔现」。美国西北大学研究消费者行为的学者 Michelle Weinberger 认为，Partiful 这样的平台，为那些社恐的「I 人」创造了一个更好的社交互动入门。</p>
+<p>Partiful 的开发团队发现，看似最随性最讨厌规则的 Z 世代，<strong>反而会严肃对待搞聚会搞派对这样的事情</strong>，即使聚会主题像「聊聊闺蜜的前男友」这般轻松无厘头，而派发邀请函就是一个充满仪式感的开始，直接先把派对的氛围感拉满。</p>
+<p>而「能不能带朋友」「有没有着装需求」「需不需要自带酒水」等看起来有点小麻烦的细节要求，反而是保证一次大型聚会能不能好玩的重要前提，因此也会被年轻人们重视，而 Partiful 能够很方便地管理这些选项。</p>
+<p>Partiful 成功走红，创始人 Shreya Murthy 感到非常满足，因为她创造 Partiful 的一个目的就是想为「派对」正名：</p>
+<p><strong>我希望派对不仅仅被视为轻佻的象征，而是一种有意义的社交体验。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_787fa04cefe14c54a1ead1a88467c5db@000000_oswg71842oswg1024oswg682_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">Shreya Murthy</p>
+<p>事实上，严肃又活泼的「电子邀请」平台，场景已经不局限在私人派对。不少初创公司已经将 Partiful 当成非正式行业聚会或者线下活动的联络平台，还有公司直接用 Partiful 通知召开季度会议，都为这个还没有找到盈利方式的平台提供了一种商业化的可能性。</p>
+<p>至于 Apple Invites，我们已经可以期待今年的 WWDC 和 iPhone 17 发布会，会不会转用这个平台向媒体和开发者发出邀请函了。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjgzMTAwODI0MA==&amp;mid=2652396244&amp;idx=1&amp;sn=a6f486c36dd7f4382719e0250728a217&amp;chksm=9a236f854ee20f86019801e4fddc9072f9674498d871f4b14474793cec145ab1520f90e2589e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“爱范儿”（ID：ifanr）</a>，作者：<strong>苏伟鸿</strong>，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157449408059912</guid><pubDate>Sun, 09 Feb 2025 07:24:00 +0800</pubDate></item></channel></rss>
