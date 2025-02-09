@@ -1,38 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 09 Feb 2025 18:30:26 +0800</lastBuildDate><pubDate>Sun, 09 Feb 2025 18:30:26 +0800</pubDate><item><title>DeepSeek概念股疯涨背后：谁在蹭热点？</title><link>https://36kr.com/p/3157780536990211</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2025年初，DeepSeek凭借其高效能、低成本的开源特性迅速引爆市场。自1月20日发布以来，DeepSeek日活跃用户（DAU）在短短21天内突破2215万，成为全球AI领域的现象级产品。</p>
-<p>这股热潮不仅限于技术领域，更在资本市场引发了连锁反应。2月7日，A股市场掀起了一波DeepSeek概念股涨停潮：美格智能（002881.SZ）5连板，青云科技（688316.SH）、优刻得（688158.SH）、杭钢股份3连板（600126.SH），安凯微（688620.SH）、航锦科技（000818.SZ）、熙菱信息（300588.SZ）高开超5%。</p>
-<p>这场资本狂欢的背后，这些概念股是否真正受益于DeepSeek的技术突破，还是仅仅在蹭热点？</p>
-<p>从AI产业链来看，目前，DeepSeek概念股主要集中在上游基础层与中游技术层，但部分公司是否具备真正的技术实力和业务协同，仍需投资者深入甄别。</p>
-<h2><strong>美格智能五连板</strong></h2>
-<h2><strong>通信模组业务撑起营收</strong></h2>
-<p>在上游基础层，美格智能的股价尤为亮眼。截至2月7日收盘，美格智能涨10%，全天成交2812.0万元，近5个交易日累计涨61.08%，近30个交易日累计涨92.45%。</p>
-<p>1月26日，美格智能在其官方微信公众号发文称，公司凭借强大的AI算力模组矩阵和端侧大模型部署经验，结合最新发布的AIMO智能体产品，正在加速开发DeepSeek-R1模型在端侧的落地应用，并着力于端云结合的整体解决方案。此外，2025年美格智能将推出单颗模组算力达到100Tops的高阶AI硬件，远期规划AI模组算力超过200Tops。</p>
-<p>尽管公司在公众号上高调展示其技术布局，但市场对相关信息的透明度仍存疑。</p>
-<p>在深交所互动易平台上，针对投资者关于“与DeepSeek的具体合作内容”的提问，截至发稿美格智能仍未予以回应。2月7日，记者致电美格智能，公司工作人员表示对具体合作细节“不清楚”。</p>
-<p>目前，美格智能在高算力AI模组上部署了LLaMA-2、通义千问Qwen、ChatGLM2等多个大模型，验证了从模型压缩（如量化、剪枝）到框架适配（ONNX/TFLite）的全流程能力。</p>
-<p>不过，美格智能主营业务仍以无线通信模组和物联网解决方案为主。半年报显示，2024年1至6月份，无线通信模组及解决方案业务营收为12.36亿元，占营业收入比重为94.64%；其他业务收入为6995万元，占营业收入比重为5.36%。</p>
-<p>美格智能在其官方微信公众号中还透露，基于高通骁龙高性能计算平台打造的AIMO智能体产品，集成了48TOPS的AI算力，能够高效承载7B参数级大模型的端侧推理需求。然而，对于该智能体的具体情况，前述工作人员在接受时代周报记者采访时表示“并不清楚”。</p>
-<p>头豹研究院AI行业高级分析师常乔雨在接受时代周报记者采访时表示，从Gartner给出的市场数据来看，全球AI芯片市场到2027年预计突破1200亿美元，年均复合增长率接近30%。尤其是中国市场，随着国产算力芯片的加速推进，如寒武纪、壁仞科技、登临科技等企业正积极布局AI推理芯片市场，而华为昇腾、阿里的含光、百度的昆仑芯也在不断优化推理侧的性价比解决方案。</p>
-<p>华泰证券认为，DeepSeek对算力需求的影响呈现出短期抑制、长期增长的复杂趋势。短期内，DeepSeek的低成本高效训练方法可能导致训练需求下降。然而，从长远来看，随着模型的普及和应用场景的扩展，推理需求将显著增长。这种趋势类似于蒸汽机降低煤耗但提升煤炭总用量的历史现象。</p>
-<h2><strong>多个概念股与DeepSeek无实质合作</strong></h2>
-<p>在中游技术层，DeepSeek大热利好高质量数据处理、存储与传输领域。</p>
-<p>2月6日，青云科技在其官方微信公众号发文称，旗下 AI 算力云服务——基石智算CoresHub 正式上线 DeepSeek Janus-Pro-7B WebUI 版文生图模型，支持Multimodal Understanding 和 Text-to-Image Generation 两种服务，可通过基石智算 AI 算力云服务的容器实例进行直接使用。</p>
-<p>青云科技是一家企业级云服务商与数字化方案提供商，布局混合云市场，无缝打通公有云和私有云，交付一致功能与体验的混合云。公司的盈利主要来自于云产品、云服务的销售收入与成本、费用之间的差额。</p>
-<p>关于股票交易异常波动情形，青云科技2月6日晚间公告显示，DeepSeek系开源大语言模型，任何用户皆可免费基于该模型开展训练工作，进而进行个性化开发或模型优化，以满足不同用户在多元场景下的特定需求。公司旗下部分产品也进行了DeepSeek的接入，但目前相关业务情况及对公司未来业绩贡献存在重大不确定性。</p>
-<p>2月5日到6日，优刻得云计算公众号内容显示，优刻得基于壁仞科技国产芯片，全面开展包括R1在内的DeepSeek全系列模型适配工作，同时优刻得私有云平台 UCloudStack 已全面提供在本地私有化环境安全、合规地落地使用 DeepSeek 系列模型的方案。</p>
-<p>优刻得通过公有云、私有云、混合云三种模式为用户提供服务。人工智能方面，公司打造了三款AIGC细分领域产品——智能算力平台“孔明”、模型服务平台UModelverse和UPFS并行文件存储产品。</p>
-<p>与青云科技类似，优刻得并没有与DeepSeek达成深度合作。2月6日晚间公告显示，DeepSeek为开源大模型，公司近期也与DeepSeek进行了全系列模型适配工作，目前相关业务效果及对公司未来业绩贡献存在重大不确定性。</p>
-<p>此外，并行科技2月5日公告称，公司尚未就算力服务与深度求索（DeepSeek）建立业务合作关系。目前公司智算云平台已部署智谱清言、DeepSeek-R1等主流模型。</p>
-<p>2月6日，杭钢股份公告称，相关媒体报道中涉及的 DeepSeek 部署适配是指，在上述业务模式下，公司在合作伙伴的系统中安装DeepSeek软件，安装后将算力设备对外提供租赁服务。公司与DeepSeek系统的开发、应用等核心技术无关，且与杭州深度求索人工智能基础技术研究有限公司无任何业务往来。</p>
-<p>从上述公告内容来看，相关的DeepSeek概念股与DeepSeek并未建立实质性合作关系。对于投资者而言，需要通过价值判断，深入挖掘上市公司与“DeepSeek”概念的实际关联度，从而更准确地评估其潜在价值。</p>
-<p>关于AI产业链中游技术层，常乔雨认为，随着AI推理和AIGC应用的爆发，数据存储方案也在向更高效、更低延迟的架构演进，分布式存储、数据库优化等技术的需求正大幅提升。像华为的GaussDB、阿里云PolarDB等云数据库企业，以及紫光存储、浪潮存储等专注智能存储优化的国内厂商都可能从中受益。</p>
-<p>此外，随着AI模型的应用越来越依赖云计算和分布式架构，高带宽低延迟的数据传输需求大幅增长，算力网络和高效AI数据传输方案等技术方向正快速升温。例如，中科曙光、鹏城实验室等机构正在探索新型算力网络架构，以匹配大模型的发展需求。</p>
-<p>记者丨朱成呈</p>
-<p>编辑丨史成超</p>
-<p>值班丨森   深</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653324018&amp;idx=2&amp;sn=23f6ba5ba742842d2d116d9caf895fbe&amp;chksm=bc790f86eeaccf7d64f886845048537f614ddee6730fd99605e48c56ed8a40971e7b8e7acfa9&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：朱成呈，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157780536990211</guid><pubDate>Sun, 09 Feb 2025 13:00:00 +0800</pubDate></item><item><title>管理混乱劝退零售商，白象如何讲新“国货故事”？</title><link>https://36kr.com/p/3157761673124612</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 09 Feb 2025 19:00:34 +0800</lastBuildDate><pubDate>Sun, 09 Feb 2025 19:00:34 +0800</pubDate><item><title>管理混乱劝退零售商，白象如何讲新“国货故事”？</title><link>https://36kr.com/p/3157761673124612</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_195636993a7f42629602e60ef431699e@000000_oswg129307oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p class="img-desc">题图 | IC Photo</p>
 <p>撰文 | 曹双涛编辑 | 杨博丞</p>
@@ -557,4 +524,55 @@
 <p>新出海研究学者黄渊普认为，任何政策都不是均匀地影响所有玩家，过去几年，低价电商带来的冲击让各方怨声载道，是时候改了。驱逐劣币后，良币可能会活得更好。中国企业出海，需要更多受人尊敬的品牌，而不是一味倾销低价的商品。 </p>
 <p>毫无疑问，当关税、小额豁免等政策收紧，可以预见跨境电商平台的低价倾销模式走入穷巷。与其一味寻找治标的方法，不如借此契机从根本上调整战略方向。 </p>
 <p>正如《知否》电视剧中的一句经典台词所述——既入穷巷，就该及时掉头，不可等一世消磨，悔之晚矣。 </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157957238570752</guid><pubDate>Sun, 09 Feb 2025 18:00:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157957238570752</guid><pubDate>Sun, 09 Feb 2025 18:00:00 +0800</pubDate></item><item><title>止疼药革命，还需要保险公司掏钱</title><link>https://36kr.com/p/3157951759276550</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>作者 | 郑晓</p>
+<p>过去30年，止疼药市场让医药巨头又爱又恨。</p>
+<p>爱在于，从患者规模来看，镇痛药物患者群体庞大，尤其是在美国。2022年全球疼痛管理药物市场规模为770亿美元，而在2032年这一数字预计将达到1162亿美元。</p>
+<p>目前，由于该市场主要由阿片类药物主导，很容易上瘾，过量使用阿片类药物，会导致包括呼吸减慢在内的副作用，严重的甚至危及生命，因此非阿片类药物抢跑者拥有极大的想象空间。</p>
+<p>然而，止疼机制的特殊性，让药企攻下这一市场十分困难。从辉瑞到再生元，在过去20年时间里，过去药企们针对新型镇痛药物的研发，一直是在黑暗中匍匐前行，败绩连连。</p>
+<p>直到2025年，胜利的曙光才显现。1月30日，FDA宣布批准一款来自Vertex公司的新药 Suzetrigine，用于治疗成人中度至重度急性疼痛。</p>
+<p>作为全球首款获批上市的新型非阿片类止痛药，Suzetrigine有机会来“扭转阿片类药物流行的曲线”。</p>
+<p>但前提是，逾越下一座大山：价格。</p>
+<p>Suzetrigine日用药费用是传统阿片类药物的十几倍，这让其在后续商业化是否能够获得保险公司足够支持，从而顺利推进，还有待商榷。至少，目前来看可能会充满荆棘。</p>
+<p>而一定程度上来说，Suzetrigine能否顺利上岸，又将影响整个医药产业对于止疼药的研发热情。</p>
+<h2><strong>/ 01 /</strong></h2>
+<h2><strong>率先上岸的替代品</strong></h2>
+<p>Suzetrigine最大的卖点，是“目前没有证据表明它具有成瘾性”。这，与其机制有关。</p>
+<p>作为一款针对痛觉神经钠通道研发的药物，其瞄准的是Nav1.8的特定通道，这一通道仅存在于疼痛感知神经元上。</p>
+<p>这意味着它可以广泛作用于全身的神经元，而不会阻碍心脏或大脑的功能。因为作用机制是阻断这条外周通路，所以不会像阿片类药物那样，使大脑产生欣快感或兴奋感。</p>
+<p>本次获FDA批准，Suzetrigine的疗效验证主要基于两项针对急性手术疼痛的随机、双盲、安慰剂和活性的对照试验。一项试验是在腹部整形术后，另一项是在拇囊切除术后。</p>
+<p>两项试验的都表明，与安慰剂相比，高剂量的Suzetrigine可在48小时内有效减轻疼痛；与安慰剂相比，两组SPID48（48 小时内疼痛强度差异的时间加权总和评分）的平均差异分别为 48.4 和 29.3。</p>
+<p>当然，是否在疗效层面具有显著的优势，目前并没有有效结论。</p>
+<p>数据显示，在患者接受腹部除皱术和拇囊炎切除术后48小时内，Suzetrigine治疗组的疼痛强度，显著优于安慰剂组。</p>
+<p>虽然Suzetrigine的3期临床，主要终点Suzetrigine与安慰剂进行了比较，但福泰制药在两项试验中，也加入了阿片类药物，最终的结果并不乐观。</p>
+<p>首先，在腹壁整形术中，Suzetrigine展现了比阿片类药物HB/APAP更强的效果，但差异却没有统计学意义。也就是说，Suzetrigine效果是否真得优于阿片类药物，还有待商榷。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_1185970cfc6546cf902d84edd3ca731c@000000_oswg70134oswg755oswg156_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而在拇囊炎切除术中，结果显示HB/APAP的效果，要略微优于Suzetrigine。尴尬的是，这一数字的p值为0.0016，具有统计学意义。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250208/v2_58d84a87a1ef4c3284844d5f63e269f8@000000_oswg72778oswg755oswg159_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当然，不管怎么说，作为20年来首款非阿片类急性疼痛药物，Suzetrigine的成功具有里程碑意义。</p>
+<p>Vertex公司总裁表示：“随着Suzetrigine的获批，我们有机会改变急性疼痛管理的模式并建立新的治疗标准。”</p>
+<h2><strong>/ 02 /</strong></h2>
+<h2><strong>仍需跨越的大山</strong></h2>
+<p>对于Vertex而言，Suzetrigine上岸后，其通往千亿市场的大门被撬开了一道门缝，但要想打开这扇大门，还需跨越另一座大山——支付。</p>
+<p>核心在于，医生只有在“容易获得” 的情况下才会使用Suzetrigine，而这取决于保险公司是否能承受这种药物的价格。在海外市场看来，“这可能主要归结为财务问题。”</p>
+<p>在美国，每年有数百万张急性疼痛处方开出，因此，从付款人的角度来看，不可避免担心预算问题。</p>
+<p>比如OHSU的疼痛诊所医生Mauer表示，其团队很少在新药上市后的几个月内使用新药，因为保险公司尚未决定承保计划，而自付费用对大多数患者来说太高了。10 次中有9次等待是 “相当长的”。</p>
+<p>价格也是Vertex的商业团队讨论Suzetrigine时，提出的迄今为止提出的最大问题。</p>
+<p>Suzetrigine的定价，目前是每天31美元。疼痛有大量的仿制药治疗方法，氢可酮等仿制药阿片类药物每天的费用不到2美元，其它药物更便宜。换句话说，Suzetrigine的每日用药费用，是常规药物的15倍以上。</p>
+<p>这个价格高到，足以引起保险公司的仔细检查。</p>
+<p>对于Suzetrigine来说，其能否顺利开展商业化，需要看保险的接纳程度。是否能够受到更多机构的接纳，并且没有“限制”。从常规来看，保险公司可能在接纳的情况下，会设置“阶梯疗法”的障碍，要求患者在尝试更新、更昂贵的药物之前“失败”服用更便宜的药物。</p>
+<p>因此，能否顺利搞定保险机构，使得Suzetrigin全面的支持，成了接下来Vertex最重要的话题。</p>
+<h2><strong>/ 03 /</strong></h2>
+<h2><strong>在谨慎中乐观</strong></h2>
+<p>从外部环境来看，Vertex可能是幸运的。</p>
+<p>当前，美国对阿片类药物开启大清算，联邦和州立法者也在采取行动。两项国会法案——一项于本月颁布，另一项于去年在参议院提出——旨在修改医疗保险，以便美国老年人可以更轻松地获得和负担得起某些非阿片类止痛药清单。</p>
+<p>诸如此类政策，可以帮助药企在疼痛市场中“创造公平的竞争环境”，而这些政策的到来代表着“潮流的转折”。</p>
+<p>Vertex也坚信自己，可以充分利用这一势头。从公司的口径来看，他们已经为周四的批准准备了很多年”，并已经积累了150名员工来出售 Suzetrigine。</p>
+<p>只是，一切还需要用成绩去证明自己。至少从外界来看，还是谨慎乐观。</p>
+<p>RBC Capital Markets分析师Brian Abrahams认为，其他分析师预测的Suzetrigine在2025年销售额9000万美元的数字是“乐观的”。</p>
+<p>几乎所有分析师都指出，要让Suzetrigine达到9000万美元的大关，数十万患者需要服用这种药物。这让他们感叹，“没有人知道如何建模”。</p>
+<p>回到行业层面，Suzetrigine能否成功，又无疑是具有风向标的意义。毕竟，作为过去20多年的唯一破局者，其能否在商业化层面的成功破局，将为成为左右市场信心的关键。</p>
+<p>在海外，就有市场人士担心，如果Vertex没有提出足够有力的理由，它可能会削弱人们对Suzetrigine甚至更广泛的疼痛研究的热情。</p>
+<p>那么，Suzetrigine能否成功？阿片类药物的口子，又能否被持续撕开呢？让我们拭目以待。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIwMjU5Njk5NA==&amp;mid=2247505489&amp;idx=1&amp;sn=7e56576d2b10714663909e1d51c10693&amp;chksm=9715d063971d404503804f736b26b37896f1157e3cf485a8ec8233c6de6432f6aac54d18570e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“氨基观察”（ID：anjiguancha）</a>，作者：氨基君，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3157951759276550</guid><pubDate>Sun, 09 Feb 2025 18:30:00 +0800</pubDate></item></channel></rss>
