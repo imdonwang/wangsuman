@@ -1,685 +1,433 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 10 Feb 2025 08:30:21 +0800</lastBuildDate><pubDate>Mon, 10 Feb 2025 08:30:21 +0800</pubDate><item><title>“滑跪” Roblox：元宇宙终极扛旗手也要倒下了？</title><link>https://36kr.com/p/3159279558629888</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>大家好，我是海豚君！</p>
-<p>ROBLOX 美东时间 2 月 6 日美股盘前发布了 2024 财年第四季度业绩。因为用户数据以及 Bookings 不及预期，盘前市场一度恐慌到下泄 30%，虽然后续收回了跌幅，但最后还是折价了 10%。</p>
-<p>问题来了，为什么市场对 DAU 和 Bookings 的 miss 如此害怕？后续公司又做了什么心理按摩，让部分资金重拾信心？海豚君结合股东信以及业绩电话会重点来解读一下 Q4 财报。</p>
-<p>具体来看核心信息：</p>
-<p><strong>1. 用户活跃意外不及预期：</strong>前三个季度 Roblox 业绩亮眼，都离不开用户端的超高表现。而四季度虽然也有 Live-ops 的活动，10 月的 “The Haunt” 和 12 月的 “Winter Spotlight”，但 DAU 和用户时长却均不及预期，季节性波动也显著大于去年，从而引发市场对 Roblox 生态扩张持续性的担忧。</p>
-<p>根据管理层解释，用户活跃下滑，问题主要来自主机端。2023 年 10 月开始，Roblox 引入了 PlayStation 版本，并对 Xbox 版本进行了大量的更新，叠加一系列运营活动，从而带来了近一年的主机用户小狂热。因此到四季度，不可避免的会有一个自然流失。</p>
-<p>除此之外，就是土耳其 8 月政府禁令也带来了一些用户缺口。</p>
-<p>但管理层也透露，12 月底至 1 月，主机用户活跃度重新反弹。同时 10 月 Roblox 宣布在土耳其开设办事处，并聘请专业团队，有望游说转圜。</p>
-<p>值得一提的是，尽管活跃用户的整体规模环比下滑，但人均时长却继续保持增长 2.5%，说明对于忠实用户而言，Roblox 对其吸引力依然强大。</p>
-<p><strong>2. 青年以上用户占比新高：</strong>由于四季度返校季以及对儿童用户私聊功能的阉割（需家长授权许可才能使用），13 岁以下用户净流失的更多。因此也使得 13 岁以上的青年、成年用户占比达到了 61%，突破新高。</p>
-<p>随着 Roblox 完善的开发激励机制，以及 AI 工具的推出，更多成熟内容有望被创作出来，从而吸引更多的成年用户并留存。</p>
-<p><strong>3. Bookings 被 DAU 拖累，但季末已反弹：</strong>四季度预订流水同比增速回落到 21%，略低于市场预期。增速放缓有高基数的原因，也有四季度用户活跃显著下滑的拖累。不过跟随主机用户活跃在年底的反弹趋势，Bookings 增速也顺势回升。管理层透露，12 月主机用户 Bookings 增速反弹到了 22%，手机用户则仍然维持 27% 的高增速水平。</p>
-<p>因此，对于 2025 年 Q1 的指引，管理层给出的展望仍然是高于 20% 的增速，预期 Bookings 会实现 11.3～11.5 亿，同比 22%～25%，小超市场预期的 11 亿。与此同时，预期 2025 全年 Bookings 达到 52～53 亿，同比 19%-21% 的增长，和 2024 年相比，增速略微放缓，但还是维持住了 20% 的高增长目标。</p>
-<p><strong>4. Q4 稳步提效，今年重点关注降本：</strong>利润表现是本次财报超预期的地方。无论是毛利还是经营利润，绝对值和利润率水平都提升明显，优于市场预期。最终实现经调整 EBITDA 利润率同比提高了 500 个基点，高于此前公司给出的优化 100-300bps 的指引。</p>
-<p>具体上，利润率改善主要来自于运营费用的控制，也就是经营效率的提高，包括在人员成本、基建安全费用上的优化。值得一提的是，尽管总体费用下降，但公司对开发者分成成本则是跟随 Bookings 一路走高（维持 21% 的流水分成给到开发者）。</p>
-<p>这一点管理层在电话会中也多次强调：<strong>完善好开发者的经济生态，对 Roblox 的长远期发展非常重要，因此未来可能会继续将更多的流水分润给开发者。</strong></p>
-<p>关于 Q1 以及 2025 年的利润目标，管理层仍然维持同比提升 100～300 基点的改善节奏，但电话会中透露并未将降本的考虑包含其中。因此这里的改善空间有望超出指引，除了费用端继续严控外（但人员成本会有个位数增速的增长），还会出现成本端的优化——<strong>今年年初，Roblox 开始引导用户通过官网 web 进行充值，并给予更多的 Robux 币激励，从而绕开移动端的 “苹果税”、“谷歌税”。</strong></p>
-<p><strong>5. 财务指标一览</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_7f6b72565ac44b14ab2455b6b02b6374@000000_oswg88433oswg1080oswg459_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>海豚投研观点</strong></h2>
-<p>显然对于四季报，市场不满的是，DAU 和 Bookings 景气度攀升的愿望落空。但随后又收回部分跌幅的原因，与管理层透露 “<strong>年底至 1 月数据回暖、中期 Bookings 增速指引保持 20%，利润提升节奏有望高于指引”</strong>的表态相关。</p>
-<p>回顾 2024 年，实际上 Roblox 做了不少事情，尤其是针对开发者生态端。包括推出动态定价（基于供需关系动态调整 Marketplace 中的虚拟道具价格）、Roblox Assistant（AI 助手，可使用文本对话来进行创作）以及年初推出的以绕道苹果税的优惠充值方式，来丰富开发者的经济生态。</p>
-<p>对提高用户端的活跃粘性，Roblox 也推出了多场 Live-ops 活动、电影联名创作、语音助手等功能，同时对恋童癖问题及时采取私聊需家长许可等功能补上漏洞。</p>
-<p><strong>因此从去年上半年起，海豚君对 Roblox 的短中期基本面趋势就偏积极，市场则在三季度亮眼业绩之后开始展开了更乐观的预期。</strong>四季度用户活跃度下滑，确实有点让人始料未及。但给我们的经验教训是，不能一味的线性推演，尤其是在财报前，Roblox 估值已经涨至 500 亿美元，也就是对比 2025 年业绩 EV/EBITDA 50x 的高估值下（但未来三年 CAGR 增速在 25%-30% 左右），是需要对增速可能的拐点（高基数切换）抱有一些谨慎之心的。</p>
-<p><strong>抛开估值，海豚君对 Roblox 的发展前景则仍然有信心。</strong>中期的逻辑在于，AI 大趋势下，纯工具属性的平台被颠覆的可能性较高，但具备流量生态、使用场景的平台入口，虽然最终结局也不好说，但至少在受益 AI 的周期上会更长一些。而对于 Roblox 来说，持续发布的 AI 工具（Roblox Assistant，以及即将发布的文本生成创作模型、3D 视频创作模型）能够让平台内容以更快的速度变得成熟起来，从而吸引更多的成年用户，进而收获更高的变现（高付费 + 高广告转化）。</p>
-<p>而回到短期上，<strong>DAU 和 Bookings 也已经从年底重新回升。四季度展现出的，忠实用户的粘性仍在增加，人均变现效率在提升，更重要的是 Roblox 的经营效率和规模效应已经通过过去一年的表现向市场展现出来。再加上引导用户绕道苹果税的操作，在获得更高毛利率的同时，也顺势提高了开发者获得的分成收入，有望激励开发者生产更多的优质游戏，丰富平台生态。</strong></p>
-<p>电话会上，管理层也反复强调当下的战略就是采取措施来给到开发者更多的优惠（流水分成）和帮助（开发工具），以此来实现自身的长远目标——平台流水占全行业的 1/10。海豚君在早期深度中，也提及 Roblox 开发者分成（20%）过低，难以吸引擅长做成熟内容的优质团队开发者。现在来看，公司的战略走在做大做强的正确道路上。</p>
-<p>然而，正确的基本面也需要搭配 “正确” 的估值。目前跌完后，Roblox 已经回落到了对应 25 年/26 年的 EV/EBITDA 分别为 40x/32x 的估值水平，<strong>但 2025 年下半年还将经历一段时期的高基数承压期，因此短期看，估值并不算低，可以继续等待更多的安全垫。</strong>如果拉长周期，按照管理层对流水年增 20% 的指引，继续保持这个增长预期持续多年，以及长远期 10% 市占率也就是较目前增长 4 倍的预期，那么对于高风险偏好的投资者来说，<strong>在适度调整过后仍然可以继续保持积极。</strong></p>
-<h2><strong>财报详细解读</strong></h2>
-<h3><strong>一、Bookings 增速回落</strong></h3>
-<p>对于 Roblox 这种订阅流水前置，经营支出中占比较大（对比 Bookings，一般为 20～21%）的开发者分成支出滞后的优秀商业模式，正常经营周期下，只要盯着 Bookings 就好，最多再根据递延收入看看未来短期趋势。</p>
-<p>四季度虽然也有 live-ops 活动，“The Haunt”，“Winter Spotlight” 等，但由于主机用户流失、土耳其禁令等影响，使得四季度用户活跃非常平淡，尽管因为动态定价、AI 提高个性化推荐等作用下，人均付费提高，但最终 Bookings 仍然被连累，增速显著放缓。</p>
-<p>收入则因为当期消耗和确认的道具较多，相比三季度有一定的加速。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_c7d47fc40ae0435fa1b0481a1192b95d@000000_oswg71552oswg954oswg502_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_c015b8008eb44778b06b0a711de777bb@000000_oswg74267oswg1080oswg531_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从递延收入来看，四季度净增量仍有一些季节性带来的反弹，但同比增速不及 Q3，应该同样也是受到了一些用户端的影响。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_172339ba9f1740ef85966560a26b42e0@000000_oswg56748oswg954oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>但公司也提及，在 12 月和 1 月，用户数据和 Bookings 数据已经出现了反弹，其中主机端流水同比增速回到 22%，移动端流水增速则保持在 27%。</strong></p>
-<p><strong>因此对于 2025 年一季度以及 2025 全年的 Bookings 指引，均略高于市场预期：</strong>对 Q1 的 Bookings 指引区间为 11.25～11.5 亿，小高于一致预期（10.95 亿），隐含增速为 21.8～24.5%，相比 Q4 略有一定提速。</p>
-<p>对 2025 全年的 Bookings 增速预期则为 19%～21.3%，继续保持 2022 年投资者日提出的年增 20% 的中长期目标。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_47daf8d65ba34808b2b8f5cf0c28e268@000000_oswg43324oswg1080oswg301_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>二、主机用户流失&amp;土耳其禁令，DAU 下滑</strong></h3>
-<p>四季度 DAU 和用户总时长均不及预期，季节性波动也显著大于去年，从而引发市场对 Roblox 生态扩张持续性的担忧。</p>
-<p>根据管理层解释，用户活跃下滑，问题主要来自主机端。2023 年 10 月开始，Roblox 引入了 PlayStation 版本，并对 Xbox 版本进行了大量的更新，叠加一系列运营活动，从而带来了近一年的主机用户小狂热。因此到四季度，不可避免的会有一个自然流失。</p>
-<p>除此之外，就是土耳其 8 月政府禁令也带来了一些用户缺口。</p>
-<p>但管理层也透露，12 月底至 1 月，主机用户活跃度重新反弹。同时 10 月 Roblox 宣布在土耳其开设办事处，并聘请专业团队，有望游说转圜。</p>
-<p><strong>四季度用户整体净减少 360 万，其中一半以上少的是 13 岁以下的用户群体。</strong>一方面，相比三季度以暑假为主，四季度学生普遍上学中，Roblox 环比用户本就会自然回落，另一方面，为了避免恋童癖问题的困扰，Roblox 在 10 月对 13 岁以下儿童用户私聊进行了功能限制，只能在家长授权许可下才能使用私聊功能，可能对儿童用户活跃造成了一些影响。</p>
-<p>截至四季度末，全平台用户整体回落到 8530 万，其中 13 岁以上的非儿童用户占比已经达到 61%，继续新高。<strong>考虑到视频广告也仅面向 13 岁以上的用户展示，因此这群用户规模的扩张趋势还是比较重要的，需要持续关注。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_fe6d45beb23040ffb102bba18033799e@000000_oswg59140oswg1080oswg527_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_a71362f017db440a98b48f34c8aee36a@000000_oswg66269oswg1080oswg542_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>用户粘性上，四季度人均日均时长同比增长 2.5% 达到 2.47h/天，</strong>继续保持提升节奏。总用户时长则主要受到 DAU 的拖累，同比增速放缓。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_5569eedc50eb44388e72b0c3a6c2aeea@000000_oswg76490oswg1080oswg528_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_4082aa8ddded4fc3a5542401907ec125@000000_oswg69149oswg1080oswg562_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>三、Q4 稳步提效，今年重点关注降本</strong></h3>
-<p>四季度经营亏损 2.44 亿，表现显著好于市场预期。作为淡季，亏损率显著收缩到 25% 以下。拆分支出细项来看，主要源于出了开发者分成之外的费用端的严格控制：</p>
-<p>研发费用、管理费用以及销售费用均在个位数增长水平，上季度走高的基建安全费，在完成了儿童私聊功能限制工作之后，也回归到原先的收缩趋势中（从 2023 年下半年开始，Capex 投入一直在下降，Q4 才稍有抬头）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_5d6bd8c66c9b4585bb8b2c9081a557a5@000000_oswg78330oswg1052oswg506_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_116409522d274a5786f0ab6d260541c9@000000_oswg48925oswg1080oswg477_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从占收入比重来看，开发者分成比例似乎在快速走高。但实际上，开发者分成是基于流水也就是 Bookings 来给到开发者的，从占 Bookings 收入来看，目前开发者分成比例维持在 21% 左右的水平。<strong>不过公司在这次电话会中反复提及，未来将进一步提高开发者的分成收益。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_73abf724bd834d21bcc58bfbf1244e41@000000_oswg92292oswg1080oswg538_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>对于 Q1 以及全年的指引：</strong></p>
-<p>Q1 指引 Convenant-EBITDA 利润率从去年的 9.5% 提高近 400 基点达到 13.2%，2025 全年指引利润率从 18.5% 提高到 20%，即增加 150 基点。</p>
-<p>这里的改善来源仍然主要是来自费用控制（但人员成本会有个位数增速的增长），<strong>电话会中透露并未将降本的考虑包含其中。</strong>因此管理层认为，预计利润改善空间有望超出指引，达到 300 至 400 基点的优化。</p>
-<p><strong>除此之外，今年年初，Roblox 开始引导用户通过官网 web 进行充值，并给予更多的 Robux 币激励，从而绕开移动端的 “苹果税”、“谷歌税”。海豚君简单计算，流水中每 10% 绕过苹果税，那么对终端 EBITDA 的影响也会增加约 10%，这个空间可以让渡更多的流水分成给到开发者。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_f5a45bb1bead4045bcfbefadcf1991fa@000000_oswg70950oswg1080oswg547_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_c0c0ae6dbd31492a81bf51e0907ad44d@000000_oswg55796oswg1080oswg537_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_ca9d42c06834459da93178ed7af5b2d4@000000_oswg48674oswg1080oswg722_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此外，<strong>员工费用中，超过一半是非现金支付的股权激励方式</strong>，因此无论是对 Adj. EBITDA 还是现金流的口径来说，也会看起来更友好一些。四季度虽然市值大涨，但员工 SBC 股权激励总费用却同比只增加了 3%，环比还是下降的，背后体现的是员工存在优化或者是福利降低。</p>
-<p>最终自由现金流实现 1.2 亿，似乎与 EBITDA 的走势相反，这其中主要是一些应收应付等营运资本的变动影响，以及当期 Capex 有所增加的影响。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_d267b0ba9a504aa9aab32f447e0fd9f3@000000_oswg45231oswg1080oswg503_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>同样不包含 SBC 费用的经调整 EBITDA 指标，按原计算方式还原后（也就是在 Adj. EBITDA 上增加净递延收入，即递延收入 - 递延成本），四季度 Covenant Adj. EBITDA 同比增长 47%，也是因为高基数而显著放缓。利润率（%Bookings）为 28%，同比增加近 500bps。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_f1a0d8edd1ca44ee82d741dbccc43f84@000000_oswg68935oswg1080oswg537_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>与此同时，因为 SBC 逐步收缩优化，四季度股权稀释比例也进一步回落到的 2.3%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_6d353788cb904fbe8a17529458459e8f@000000_oswg79658oswg1080oswg530_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg4MTUyNzI1Mg==&amp;mid=2247554148&amp;idx=1&amp;sn=3a665e426a053a2e67ef1f3cab3be260&amp;chksm=ce99615077c02a8ca5e6a48785310acf1bd6bc876b335bacf1f637f2132337cc4239eb958392&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“海豚投研”（ID：haituntouyan）</a>，作者：海豚君，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3159279558629888</guid><pubDate>Mon, 10 Feb 2025 08:18:00 +0800</pubDate></item><item><title>马斯克，“部长”难当</title><link>https://36kr.com/p/3158661887073029</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>俗话说，“有钱有权才是成功人士的终极追求。”</p>
-<p>这样的认知，放在已经牢牢坐稳世界首富的马斯克身上，看似也很适用。</p>
-<p>去年年末，新一届的美国总统大选，当看到其竭尽全力、豪掷千金的他，为特朗普亲力亲为的吆喝与站台之时，便知道事情不简单了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_b725211574d54a188a2c8143c4ed9bb2@000000_oswg24609oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>一场充满戏剧色彩的血雨腥风，在大洋彼岸的这片土地上徐徐拉开了序幕。最终，经过激烈的缠斗，特朗普力挽狂澜成功上位，马斯克顺势成为了最大赢家之一。</p>
-<p>很快，前者将一纸“政府效率部部长”的任命状抛给了他。至于设立该非政府部门的根本目的，还是为了大幅削减不必要开支与人员，提升整个联邦政府的工作效率与能力。</p>
-<p>言简意赅，帮助特朗普尽可能的节源开流。</p>
-<p>不过，理性客观地讲，虽然马斯克“利剑”在手，但上述岗位绝对存在着巨大风险与挑战。因为，很容易就触碰到某些利益集团的“蛋糕”，不可避免的遭到严重反噬。</p>
-<p>今天文章的标题，并非危言耸听。而从最近一段时间，获悉的种种消息来看，“马部长”的变革之旅，俨然充满着诸多荆棘与挑战。</p>
-<p>做官的难度，一点不比造车要小。</p>
-<h2><strong>新官上任三把火</strong></h2>
-<p>“硅谷少年特工队”、“电子夺权闪电战”……</p>
-<p>相信大多数读者看到上述两个关键词，首先感受到的肯定是一头雾水，“难道好莱坞又在拍新电影？这和今天的文章有什么关系？”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_e3b823900a2e412c880d470e53d5d741@000000_oswg1332860oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>你还别说，不是电影，真有关系。</p>
-<p>因为，“马部长”迅速开始了属于他的新官上任三把火。至于“00后天团”、“硅谷少年特工队”，则代指的是其率领的政府效率部小组。</p>
-<p>这个传言只有6个人的团队，最小的成员仅19岁，最大的也才25岁。乍一看，像极了所谓的“草台班子”。</p>
-<p>但翻阅这些“毛头小子”的履历，清一色的学霸，精通计算机与AI，熟练掌握理工类信息，拥有科技创业的背景。</p>
-<p>他们没有任何政府工作的经验，可在“马部长”的授权与带领下，刚一进场就火力全开，搅和得整个政府天翻地覆。</p>
-<p>与此同时，“硅谷少年特工队”的配置也很豪华。</p>
-<p>一边，手握级别极高各IT系统的访问权限，另一边，还拿着打开财政部大门的“金钥匙”。换言之，整个联邦政府都被该团队看穿。</p>
-<p>至于如何获得的“宝物”，你品，你细细品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_3c475d96d04b4200aae8d9068d0acc90@000000_oswg46912oswg556oswg254_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而当一切先决条件准备充分后，“马部长”一声令下，这群精力充沛甚至不计报酬为爱发电的00后们，轰轰烈烈开始了所谓的“电子夺权闪电战”。</p>
-<p>所到之处，风卷残云。</p>
-<p>先是攻陷了白宫服务器，又叫停了拥有60年历史的“美国国际开发署”网站、社媒账号，解雇了超千名员工，还用AI审计挖出了军方的大秘密，并入驻医疗保险和医疗补助服务中心的支付系统，审查合同和支出……</p>
-<p>另外，他们还全力推进着“买断工龄计划”，研发联邦雇员KPI系统，并试图准备进驻教育部、能源部查账……</p>
-<p>总之，一切为了省钱、减员、挖蛀虫。</p>
-<p>而对于“硅谷少年特工队”优秀的工作状态与实际进度，“马部长”给予了他们极高的赞誉，并继续画饼鼓励。</p>
-<p>无论如何，这几张娃娃脸的一系列操作，已经在其政府内部投下了一枚十分重磅的炸弹，并且连锁反应还在蔓延。</p>
-<p>作为旁观者，更想借用网友的一段锐平，“这场电子夺权闪电战，完全可以拍电影了。不仅是技术与激情的碰撞，更是传统体制与创新理念的对决。”</p>
-<p>好一场新官上任三把火，烧得整个联邦政府人人自危。</p>
-<h2><strong>一场充满未知的豪赌</strong></h2>
-<p>“无论如何，我都会保护团队的所有员工。”</p>
-<p>利剑在手的“马部长”，虽然一边出尽风头一边披荆斩棘，但注定会迎来铺天盖地的的反对声。这不，过去几天，“政府效率部”埋头干活的同时，正经历着巨大的外界压力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_129e30dacdb84a6495489979a403c3e9@000000_oswg77543oswg720oswg537_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>毫不夸张的说，整个联邦政府彻彻底底炸锅了。</p>
-<p>甚至“硅谷少年特工队”的身份被挖出后，迅速迎来了各种各样的人身威胁。对此，“马部长”给予了本段开篇的承诺，并宣称将动用法律手段。</p>
-<p>但真实情况，却远比想象中的还要严峻。</p>
-<p>这一轮新官上任三把火，受到了不少民主党人、联邦雇员和专家学者质疑，并且罪名还不小，直指“马部长”的行为已经违反宪法。</p>
-<p>如果说这是来自共和党的政敌和被处理雇员的“反击”，那么据相关爆料显示，同样有来自特朗普团队的内部人士“悄悄提醒”他，其权力并非不受制约。</p>
-<p>而随着“马部长”继续磨刀霍霍，要求问责的抗议活动同样在开始在美国多地兴起，讨伐声无外乎，“权力集中在一个缺乏最高安全许可、不需要任何参议院确认程序的人身上是非常危险的。”</p>
-<p>反正，矛头直指今天文章的主角。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_1b537c1eb66b49c2ad70ccba7976ac17@000000_oswg52670oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>并且，值得注意的是，当地时间周四，已有联邦法官下达临时禁令，暂时限制“政府效率部”对财政部支付系统的访问权限。</p>
-<p>而在团队内部，波动也在涌现。</p>
-<p>由“政府效率部”招募并派到美国财政部工作的雇员，因被发现在社交媒体上发布种族主义言论被迫辞职。</p>
-<p>另外，13个民主党主导州的检察长近期联合发布声明，正式宣布对“政府效率部”提起诉讼，核心便是阻止该部门访问联邦支付系统。</p>
-<p>显然，这场诉讼的结果，不仅会对“马部长”个人与他的商业帝国产生深远影响，也将对美国的政治、经济和社会产生重要的示范效应。</p>
-<p>作为旁观者的我们，将拭目以待这场商业与政治、权力与法律的博弈究竟如何收场，又将为美国乃至全球的科技与政治生态带来怎样的改变。</p>
-<p>而我，同样把“政府效率部”的风险抛给了DeepSeek，以下一段话便是它给出发总结。</p>
-<p>“风险核心在于其模糊的法律地位、缺乏制衡的权力分配以及科技巨头深度介入公共事务的潜在隐患。尽管特朗普力挺其削减浪费的目标，但合法性争议、数据安全漏洞、利益冲突及社会反弹等问题，可能长期削弱政府公信力并加剧政治分裂。未来，围绕其权限和透明度的博弈仍将持续发酵。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_4d0a9e7b3da740d58bbacbcbef7114bd@000000_oswg97968oswg1080oswg815_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>道理，就是这么个道理，一场好戏仍会继续。</p>
-<p>至此，肯定会有人好奇另一个关键点，事到如今，特朗普对于雷厉风行且树敌无数的“马部长”究竟是什么态度？</p>
-<p>一天以前，《时代》周刊发布了最新一期封面，主基调为鲜红色。而今天文章的主角面带微笑，端着一杯咖啡气定神闲坐在办公桌后，身旁两侧是美国国旗和总统旗。</p>
-<p>当被问及“马部长”荣登封面一事时，特朗普先是调侃道，“《时代》周刊竟然还在运营？我都不知道。”随即，则开启了夸夸模式，“他做得非常好，发现了巨大的欺诈、腐败和浪费。”</p>
-<p>短短十几个字，无疑表明了最鲜明的支持态度。</p>
-<p>反观今天文章的主角，更是在个人社交媒体发文，“我爱特朗普，就像一个直男爱上另一个男人一样。”</p>
-<p>请问，起鸡皮疙瘩了吗？但必须接受的是，上述各取所需的二者，依旧处在情比金坚的“蜜月期”内。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_c29caacb7d3248a68252b2572ae277af@000000_oswg105434oswg960oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>也恰恰基于这样的背景，“马部长”纵使面对着来自各个维度的重重阻力，相信特朗普大概率都会为其尽可能的兜底。</p>
-<p>因为，现阶段的确需要这把“尖刀”，为其扫清前方的障碍，削骨重塑政府内部的架构。譬如，最新下令“马部长”率领“政府效率部”审查国防部支出。</p>
-<p>相比之下，身为一名汽车小编，站在个人的角度，更加关心的点俨然为：“特斯拉会受到影响吗？”</p>
-<p>毕竟，谁的精力都是有限的，朝着一面太过倾斜，另一面肯定将出现懈怠。目前“马部长”给人的感觉，像极了一心只为谋仕途。至于特斯拉何时能够打破颓势、走出泥潭、迎来第二增长曲线，并不是其考虑的最高优先级。</p>
-<p>由此重新问到上述问题，我给出的答案直指：“短期内，肯定有。长期看，不好说。”</p>
-<p>具体而言，随着掌舵者成为众矢之的，必然会对特斯拉位于本土市场的进一步渗透带来负面效应；不过，一旦把时间轴拉长，如果能为特朗普最终带来期许中的颠覆与变革，那么麾下的各个企业注定能享受到大把的红利。</p>
-<p>要知道，选择接下“部长”的任命状，本身就是马斯克的一次豪赌，结果充满着巨大未知。赢了，功成名就；输了，万丈深渊……</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTY0Njc2MQ==&amp;mid=2659287751&amp;idx=1&amp;sn=8b322f88c407c9120b3914fccedc1f00&amp;chksm=bc037dfe507bab31a05a00c5ad9f5eb92258f7e01caa65f139d1b5cec2162af64905b8e01218&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“汽车公社”（ID：iAUTO2010）</a>，作者：崔力文，责编：曹佳东，编辑：何增荣，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3158661887073029</guid><pubDate>Mon, 10 Feb 2025 08:18:00 +0800</pubDate></item><item><title>蛇年，重磅研判</title><link>https://36kr.com/p/3159378385394440</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>七大“总监级”看蛇年：A股市场可以乐观起来 关注AI+科技、经济修复主线</p>
-</blockquote>
-<p>“乙巳蛇年”正式开启！</p>
-<p>A股市场在春节假期后迎来“开门红”，沪指站上3300点，DeepSeek概念、传媒、汽车板块轮番演绎。</p>
-<p>蛇年A股市场整体会如何演绎？后续哪些板块值得关注？蛇年的投资主线是什么？如何把握投资机会？中国基金报记者专访了“总监级”投研人士，一起畅谈蛇年的市场走向和投资机遇。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_9171298e74ed4451822081db9e6ab64d@000000_oswg49599oswg853oswg1279_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">景顺长城基金总经理助理、股票投资部总经理 余广</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_3fb51ddb78e74ce2af2815e4af94885b@000000_oswg98217oswg1080oswg1619_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">博时基金权益投资一部总经理兼权益投资一部投资总监 曾豪</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_c60b98830cfe441096919e8e93bfd957@000000_oswg51023oswg1080oswg1620_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">平安基金权益投资总监 神爱前</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_94128378c5ab48af9d42255d57616ac6@000000_oswg76067oswg1080oswg1620_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">前海开源基金投资部总监 崔宸龙</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_4a2682dbf77c4dd0a8b7e6059d98c094@000000_oswg48664oswg880oswg1320_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">永赢基金权益研究部总经理 王乾</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_1aa62f2c5c1f4b6baecedf59f7c1d628@000000_oswg113446oswg1046oswg1570_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">兴业基金权益投资部总经理 邹慧</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_d9ac5f2c4e8b48c89f91e129d6037696@000000_oswg62415oswg1080oswg1620_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">诺德基金研究总监 罗世锋</p>
-<p>这些“总监级”投资人士表示，蛇年更多宏观政策措施仍值得期待，经济基本面有望逐步改善，海外降息将进一步打开国内宽松空间，有望利好A股估值水平提升。相对来说，他们更关注AI+科技、经济修复这两类主线。</p>
-<h2><strong>A股估值有望进一步提升</strong></h2>
-<p><strong>中国基金报：A股市场在春节假期后迎来“开门红”，沪指站上3300点，对蛇年A股市场整体怎么看？</strong></p>
-<p><strong>余广：</strong>2025年经济有望在政策的持续加力和靠前发力下延续回暖的势头，从而带动微观主体的信心进一步修复，微观主体的经济体感也有望明显改善。我们对权益市场持相对积极的判断，结构性行情为主，前期政策预期主导，后期基本面更重要。虽然外部不确定性提升，但内部环境能否持续好转才是权益资产表现的决定性因素，后续如果政策预期得到兑现、企业盈利正式筑底、内外部风险偏好不出现显著扰动，A股估值有望进一步提升。</p>
-<p><strong>曾豪：</strong>今年的中国资本市场仍将聚焦于价值投资，一是经济回升将成为今年较大概率的基本面事件，二是2024年新“国九条”对于资本市场强基强本、严监严管的定调。</p>
-<p>我们看到资本市场投融资两端的平衡、上市公司积极回购与分红、注重提升企业竞争力的并购重组而非仅仅增量融资，因此我认为后续市场投资机会仍会回归到价值投资这条主线上。</p>
-<p><strong>王乾：</strong>新的一年国内逆周期调节政策有望继续发力，更多政策措施仍值得期待，经济基本面有望逐步改善。外需面临一定的关税扰动以及不确定性，但中国制造业的全球竞争优势难以替代。预计国内流动性将维持宽松，海外降息将进一步打开国内宽松空间，有望利好A股估值水平提升。</p>
-<p><strong>崔宸龙：</strong>展望全年，预计流动性依然会保持较为宽裕的状态。在人工智能、机器人、自动驾驶、低空经济等诸多新兴产业利好的不断刺激下，预计可以看到相关产业的优秀企业有持续的订单业绩兑现。低波红利类的行业，在中长期无风险收益率下行的环境下，预计继续稳中求进，因此我们判断市场整体的情况较好，尤其是上述提及的产业方向会有持续性较强的投资机会。</p>
-<p><strong>神爱前：</strong>2025年经济逐渐进入企稳阶段概率较大，为市场提供稳定的宏观环境和风险偏好，这种环境有利于结构性行情的演绎。我们对2025年市场赚钱效应较为乐观。虽然2025年尚存不确定性，尤其是市场普遍关注的经济数据（政策）、中美关系、流动性等不确定性因素，难免会给市场带来一定波动，但市场波动或将是买入机会，拉长视角看，市场仍处于底部位置。创新型产业迎来产业发展趋势，未来几年市场可能迎来新一轮上升周期。</p>
-<p><strong>邹慧：</strong>我比较看好蛇年A股市场，特别是主动权益基金收益率在经历了近三年的蛰伏后，2025年有望跑赢沪深300等基准指数。其中，宏观政策发力、资本市场政策支持、流动性宽松、盈利修复是看多今年A股行情的核心逻辑。</p>
-<p><strong>罗世锋：</strong>对全年我们持有较为乐观的预期。首先，2025年国内经济复苏的情况有可能会好于预期。其次，从外部环境看，自去年11月特朗普胜选以来，市场对其关税政策及两国关系的预期较为谨慎，A股市场定价上也包含了这种负面预期，但也存在着边际改善的机会。最后，目前A股整体处于低位，其中沪深300指数的PE-TTM只有12倍左右，而其股息率也已达到3%左右，不论是从横向对比还是纵向对比来看，可能整体都处于较有吸引力的位置。</p>
-<h2><strong>中长期资金是维护市场，平稳健康运行的“压舱石”“稳定器”</strong></h2>
-<p><strong>中国基金报：中央金融办、中国证监会等六部门联合印发《关于推动中长期资金入市工作的实施方案》（以下简称《方案》），您如何看这对资本市场的影响？</strong></p>
-<p><strong>余广：</strong>从内容上看，《方案》更重视打通资金入市堵点，强化政策落地见效，为资本市场健康发展提供了具体的路线图。长期看，随着市场多方长期资金力量加大对A股布局，我们长期看好权益市场发展。相信随着A股上市公司股东回报逐年提升，A股将逐渐形成更为健康和长期的资本市场投融资环境，培育行业主体长期稳健经营与投资理念。</p>
-<p><strong>王乾：</strong>中长期资金是维护市场平稳健康运行的“压舱石”“稳定器”，是实现市场合理定价的重要力量。推动中长期资金入市：一是有助于降低市场波动。当前A股中长期资金占比仍低于境外成熟市场，短期资金博弈放大市场波动；二是助力实体经济发展。中长期资金是金融服务实体的重要力量，特别是机构投资者持续为实体经济融资注入活水；三是引导市场理性投资。中长期资金注重长期价值回报，有助于引导市场投资理念转变，促进理性投资文化。</p>
-<p><strong>崔宸龙：</strong>这对于资本市场是长期利好，对于长期资金的流入有指导性意义。过去国内市场相对波动较大，确实存在投资者结构的问题，短期资金和非专业中小投资者占比依然较高。未来，中长期资金的持续加码会成为稳定市场的重要力量，长期资金由于其时间久期长的优势，可以立足更长期的角度思考投资方向，减少短期交易性的波动，同时可以做出更多逆向布局，从而起到稳定市场的作用。</p>
-<p><strong>罗世锋：</strong>六部委联合印发的《方案》延续并细化了政府关于推动中长期资金入市、促进资本市场高质量发展的相关政策，一方面鼓励保险等长期资金入市，优化了市场参与者的主体，另一方面也具体规定了新增保费投资A股的比例，以及公募基金持有A股流通市值的增长目标，有望每年为市场带来数千亿规模的增量资金。整体而言，我们认为该政策将为A股市场的长期健康发展带来积极影响。</p>
-<p><strong>神爱前：</strong>《方案》中五大举措均聚焦底层机制，资金侧与资产侧双向发力，共同营造资本市场良性互动的中国特色投资生态。资金侧围绕养老体系三大支柱，着重打通业绩考核与资金久期间的发展堵点，为培育长线耐心资本奠定了重要基础；资产侧围绕提升投资回报，不断丰富并扩大政策工具箱，着重引导上市公司开展回购、分红；最终促进资金供需双方的共同发展，实现资产回报与资本壮大的良性互动。</p>
-<h2><strong>人工智能、机器人等新兴产业或仍是投资主线</strong></h2>
-<p><strong>中国基金报：2025年以来，机器人、芯片、人工智能等概念反复活跃。后续哪些板块值得关注？预计蛇年的投资主线是什么？</strong></p>
-<p><strong>曾豪：</strong>第一，新质生产力仍是重要的关注方向。第二，随着经济复苏，蛇年许多行业的业绩较大概率将困境反转，业绩底部修复的行业有望成为市场聚焦的主线方向。第三，可以关注潜在的并购重组方向。建议关注国央企重组整合，以及机械、医药、电子、化工等产业整合加速的行业。</p>
-<p><strong>王乾：</strong>在国内持续的高强度研发投入下，更多领域迎来技术突破甚至引领全球，国内整体科技竞争力不断提升，特别是近期DeepSeek的突破进一步增强市场对中国科技公司竞争力的信心，预计相关板块有望保持活跃度。除了科技板块以外，经济复苏也有望成为蛇年投资主线之一，多管齐下有望助力中国经济提振，相关企业盈利有望大幅修复。蛇年可以关注AI+科技、经济修复两类主线。</p>
-<p><strong>崔宸龙：</strong>预计蛇年的投资主线依然以人工智能、机器人等新兴产业为主。其他的成长行业包括低空经济、卫星互联网、大飞机等新兴产业伴随着技术进步和应用落地，预计也都会有不错的表现。</p>
-<p><strong>余广：</strong>过去两年，A股各板块业绩预期由分化转向收敛。站在新一轮企业盈利周期的起点，目前尚难以确定下一轮周期的领先板块。我们重点关注的领域如下：</p>
-<p>一是科技板块可能是景气度最先见到拐点的方向，重点关注AI应用和硬件创新，以及自主可控相关领域。</p>
-<p>二是本轮政策转向最受市场参与者（尤其是以外资为代表的长期资金）关注的是财政政策转向对民生和消费的支持，这一点最终是否能够兑现，将决定市场、居民和企业部门的信心是否能够真的得到扭转。同时考虑到消费板块相对合适的估值，这是一个兼具胜率和赔率的配置方向，可关注家电和食品饮料方向。</p>
-<p>三是供给格局改善的方向。在复杂的内外环境中，继续对部分行业进行供给侧改革是大概率事件，这也将产生大的困境反转投资机会，可关注新能源车、光伏和风电方向。</p>
-<p>四是高股息的长期配置价值已逐步被市场认同，2025年适宜在阶段性市场风险偏好下行期择机配置。</p>
-<p><strong>神爱前：</strong>看好以下结构性方向：一是国产算力，国产算力相比海外算力，景气周期刚刚启动，预计2025年进入景气加速期，算力投资机会可能将更多转向国产算力产业链，重点跟踪头部互联网厂商资本开支变化。</p>
-<p>二是AI推理与应用产业链，AI发展逐渐从训练为主转向推理和应用崛起，将带来推理和应用相关的机会，其中我们更看好各种终端的AI化，AI将积极和各种终端做创新的AI化结合，带来相关电子半导体元器件景气周期机会，以及企业B端Agent相关机会。</p>
-<p>三是自主可控产业链，尤其在先进制程、先进封装、高端芯片等领域，市场空间广阔，而产业正进入关键攻坚期，随着良率推升、商业化突破，有望进入快速发展阶段。</p>
-<p>四是自动驾驶、人形机器人等其他科技方向，这些产业越来越临近产业化、商业化，重点关注头部厂商供应链变化、以及产业化进程。</p>
-<p><strong>邹慧：</strong>风格展望上，长期来看成长风格占优的周期已逐步开启，但是2025年和过去两年一样，依然处于高估值和低估值风格轮动拉锯的周期，仅看2025年预计风格不会有太明显的偏向，均衡配置为宜。</p>
-<p>具体方向上，一是2025年看好科技和新质生产力板块贯穿全年，以及科创板等领域的并购重组主题；二是看好中游供给侧改革契机下的新能源等制造板块；三是内需作为政策发力重点，可重点关注消费、基建链和医药等修复机会；四是看好2025年A股市场成交额回升过程中，券商等非银金融板块的机会。</p>
-<p><strong>罗世锋：</strong>展望2025年，科技板块可能仍然存在较大的投资机会，其中AI行业的两个发展趋势值得我们重视。基于强大算力的人工智能，AI+有望为下游众多行业带来赋能、效率提升甚至颠覆式的革新，因而下游的各行业可能会催化出较多的投资机会。所以， 我们既看好以芯片、算力等为主的AI产业链，也看好因AI赋能而快速发展的智能驾驶、人形机器人、智能终端/代理等下游应用领域的投资机会。</p>
-<h2><strong>2025年市场风格仍充满变数</strong></h2>
-<p><strong>中国基金报：蛇年预计哪种风格股票可能占优？</strong></p>
-<p><strong>曾豪：</strong>在经济显著改善前，科技成长风格或将占优，特朗普上台后，外部不确定性加大背景下，流动性预计将维持宽松，也将有利于小盘风格的表现。在新质生产力+自主可控+AI产业趋势的合力驱动下，科技成长行情值得关注。</p>
-<p>随着逆周期政策的逐步起效，经济基本面边际回升以及现状改善是大概率事件，在经济基本面企稳修复后，市场可能回归大盘价值风格，沿着内需等主线展开。</p>
-<p><strong>邹慧：</strong>过去三年被动指数风格表现一直优于主动权益风格，预计蛇年主动权益的表现有望改善，契机在于：一是政策支持中长期资金入市；二是机器人、人工智能等产业发展趋势愈发清晰，主动权益的投研优势有望逐步体现；三是经历三年调整之后，机构重仓方向的估值性价比愈发凸显，且筹码结构也在明显改善。</p>
-<p><strong>神爱前：</strong>我们认为可能成长风格更为占优，过去两三年，市场面临各种因素压制，表现不佳，红利防御风格超额收益明显。但随着经济边际改善，市场进入稳定的宏观预期与外部环境当中，风险偏好有望维持稳定，而科技创新产业正在快速发展，带来广泛机会，很可能为2025年成长风格表现提供更加有利的条件和环境。</p>
-<p><strong>罗世锋：</strong>2025年市场风格仍充满变数，以科技为主的成长风格和以红利为主的价值风格，可能都会存在较好的投资机会。此外，在内需复苏较好的情况下，目前处于低估值区间的消费、医药等行业也或将存在较大的机会。</p>
-<h2><strong>关注内外部不确定性因素</strong></h2>
-<p><strong>中国基金报：市场后续还有哪些风险因素需要关注？</strong></p>
-<p><strong>曾豪：</strong>首要关注的是特朗普引发的贸易不确定性。特朗普签署行政令加征关税，这一举动严重破坏了全球贸易秩序，中国已采取反制措施，双方贸易摩擦加剧，对A股中出口导向型企业，如纺织、机电等行业，会直接影响其海外订单与营收，进而拖累股价。</p>
-<p>海外加息不确定性也不容忽视。美联储虽目前暂停降息，但通胀前景不明，若未来加息或维持高利率，全球资金回流美国，A股市场资金外流压力增大，流动性趋紧，估值也会受到压制，像成长板块等高估值股票受冲击更大。</p>
-<p><strong>王乾：</strong>当前可以重点关注海外冲击等市场不确定性因素，如关税壁垒、贸易摩擦以及地缘政治冲突对全球经济增长仍构成较大潜在冲击。特别是关税政策成为美国新一届政府的重要谈判工具，贸易壁垒对我国外需影响值得持续关注。</p>
-<p><strong>邹慧：</strong>风险因素主要有几点：一是特朗普上台之后，中美关系甚至全球地缘政治摩擦风险都可能反复发生；二是国内经济复苏仍需要时间，目前看进展不会太快，再叠加关税冲击，可能经济还会面临阶段性挑战；三是人工智能等科技领域的应用落地需要事件驱动，科技股是一个容易产生炒作泡沫的板块，需要注意相关估值调整的风险。</p>
-<p><strong>崔宸龙：</strong>新兴行业大多仍处于发展的初期阶段，因此在发展方向的选择上存在较高的不确定性。此外，市场中还可能出现大量“蹭热点”的行为，这些因素都可能对投资产生潜在风险。</p>
-<p><strong>神爱前：</strong>可能有以下因素需要关注：经济数据、政策、外部地缘环境、外部市场波动、流动性等不确定性因素，但这些因素可能只是带来部分资金的短期博弈扰动，大的经济与市场环境可能仍趋于稳定，不必过于敏感。</p>
-<h2><strong>采取多元化策略，分散投资风险</strong></h2>
-<p><strong>中国基金报：投资者如何借道基金产品，把握资产市场机会？蛇年适合采取怎样的投资策略？</strong></p>
-<p><strong>曾豪：</strong>投资者可从分散投资入手，构建包含股票型、债券型、混合型基金的组合，涵盖国内与海外市场，布局科技、消费、金融等多行业，以此降低单一资产波动风险。鉴于资产市场的不确定性，建议坚持中长期投资，比如采用定期定额方式，平摊成本，争取收获复利增长。同时，科技行业发展迅猛，可关注AI、半导体等领域的基金；红利型基金则凭借高股息、业绩较稳定优势，也值得纳入投资组合。</p>
-<p><strong>崔宸龙：</strong>对于投资能力较强的投资者，可以选择行业ETF或主题基金，精准布局自己看好的领域；而对于普通投资者，则建议选择中长期业绩表现优异的基金经理所管理的产品进行布局。投资策略应根据每位投资者的具体情况量身定制，基本原则是避免追涨杀跌，对于长期看好的投资方向，应坚持长期持有。</p>
-<p><strong>邹慧：</strong>投资者可将指数型ETF作为投资A股的基本工具型产品；但就像之前提到的，今年可能是主动权益收益率复苏的年份，也可逢低布局全市场配置型的主动权益产品。</p>
-<p><strong>神爱前：</strong>普通投资者可能采取多元化资产配置是更好的策略，部分资金配置自己看好的赛道、方向相关的被动基金，部分资金配置适合自己的优秀主动基金。但A股牛熊周期轮换的特征比较明显，一轮完整的牛熊周期往往在6～8年以上。过去两三年A股市场表现不好，大部分权益投资者可能收益不好，2025年随着权益市场的逐渐转暖，乍暖还寒，投资者可能需要多一份信心和耐心，投资收益的获取往往是非线性的。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5MDEzNjQwMA==&amp;mid=2656223678&amp;idx=1&amp;sn=6b2d42dfd46e4254b7bee721e46c8c6d&amp;chksm=8ac10d31dc700104d78418ee83c85daf1c541d2a760d569d23d50b72132f3f800ce5cdf89ea8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国基金报”（ID：chinafundnews）</a>，作者：方丽 曹雯璟，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3159378385394440</guid><pubDate>Mon, 10 Feb 2025 08:23:00 +0800</pubDate></item><item><title>腾讯网易坐实了“你大爷还是你大爷”</title><link>https://36kr.com/p/3159474734160640</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>今年春节档，国内文娱市场久违地出现了「全线飘红」的热闹景象。</p>
-<p>昨天，《哪吒2》刚刚宣布以67.9亿票房的惊人成绩，正式超越《星球大战：原力觉醒》登顶全球影史单一市场票房榜，一扫近两年国内电影市场持续萎靡的阴霾。过年回老家小县城，几部热门贺岁片的凌晨场竟然都一票难求——上次看到这一幕，大概还是在疫情之前。</p>
-<p>来到游戏行业这边，今年春节档的整体状况也同样火爆。尽管参与头部角逐的新品数量相比去年要减少一些，只有《燕云十六声》与《三角洲行动》两款能够稳定出现在畅销前列。但另一边，一众老产品在春节期间的“卡位战”，却比以往任何时候都要激烈。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_83e9318e85be4e26a39f90e0fbbce95a@000000_oswg861786oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Sensor Tower发布的新一期中国手游发行商全球收入排行榜显示，2025年1月入围全球手游发行商收入榜Top100的中国厂商共有34家，合计贡献了高达23.3亿美元 （约合170亿人民币）的总营收。从往期统计来看，该数据甚至已经超越了2024年的单月最高记录 （21.3亿美元）。</p>
-<p>都说凡事讨一个「开门红」。刚过春节就能拿出如此强势的表现，今年的游戏行业，显然又让人多了几分期待的理由。</p>
-<h2>腾讯领跑春节档，谁在悄悄「创新高」？</h2>
-<p>回顾2025春节档，腾讯可以说是当之无愧的最大「赢家」。</p>
-<p>SensorTower发布的榜单统计显示，今年1月，国内App Store手游收入排行榜的前五名均被腾讯系产品所包揽。这也让腾讯在全球手游市场的收入再度迎来暴涨，环比增长幅度达到62%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_227c31e0ad1d4f678048b02adf93715b@000000_oswg87807oswg1080oswg722_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其中，《王者荣耀》与《和平精英》的收入增长分别达到94%及267%。今年除夕，《王者荣耀》的充值入口一度被玩家“挤爆”，出现网络异常的现象；《和平精英》官方则宣布游戏当天DAU超过8000万，并向全服玩家发放了「战术大师」套装作为庆祝。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_415992c5090648e49d3f1bc637617b82@000000_oswg133327oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而领跑第二梯队的《穿越火线》，1月份环比收入增长更是高达421%。从七麦数据提供的历史排名可以发现，整个1月份，《穿越火线》几乎全程稳坐国内iOS畅销榜Top5。这也打破了游戏自2015年上线以来，在畅销前五单月停留时间最长的记录。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_6dc9d0d97642452694f1921714edfba0@000000_oswg28829oswg1080oswg407_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>与此同时，腾讯旗下还有不少产品在春节档显著回暖。例如2017年上线的《QQ飞车》，1月末就一度冲上了国内iOS畅销TOP8，超越去年春节期间的最高峰值；《冒险岛：枫之传说》和《使命召唤手游》则分别拿下畅销第7与第13，同为去年年初以来的成绩新高。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_9d89f14babf749ea896a51f3bae0fdfe@000000_oswg26078oswg1080oswg399_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>再来看厂商收入榜中重回次席的网易。除了前文提到的开放世界新作《燕云十六声》以外，网易今年春节档表现最抢眼的老产品当属《蛋仔派对》。尽管不像去年与《元梦之星》上演「元蛋大战」一般声势浩大，但《蛋仔派对》依然在春节期间成功抢占了派对赛道的“C位”，时隔10个月后再次重返畅销Top5，助推网易1月手游收入环比增长28%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_8aa8adb4f491413bbae791ed3ca7f9fa@000000_oswg153809oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更让人惊喜的是《第五人格》。在盛典活动“深渊的呼唤VIII”与春节活动“窑火除岁 彩梦贺新”等更新助推下，《第五人格》近期同样冲到了畅销榜Top4的高位。并且从成绩曲线来看，这波起势不仅在峰值上有望冲击游戏上线以来的新高，前后延续性也明显要优于去年同期。显然，尽管已经上线将近7年时间，但《第五人格》长线运营的“后劲”，仍然不可小觑。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_2a4ec9025a8c4857828193ed039ec73b@000000_oswg41211oswg1080oswg397_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>加上另一垂直赛道拿下畅销17名、创2024年1月以来新高的《实况足球手游》，网易不仅在过去一个月内收获颇丰，多款老牌产品在春节档“稳定上分”的发力策略，也同样是值得关注的趋势走向之一。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_830f230b4be44b078f5b37ab72fc64dd@000000_oswg124357oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其余厂商和产品方面，点点互动的《无尽冬日》在春节期间依旧保持着稳定发挥。自去年5月APP端上线国内以来，这款SLG产品始终保持着稳定的向上趋势，并且在12月初最高冲上了畅销第3。春节前夕，《无尽冬日》也在多个新活动的助推下再次复制了这一成绩，成为除“腾讯系”产品之外，1月份国内App Store渠道收入最高的手游。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_3284a53bb0c049d2b4e496fe1a90292f@000000_oswg28398oswg1080oswg387_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而米哈游旗下两款主力产品《原神》与《崩坏：星穹铁道》，前者先是借5.3版本“炽烈的还魂诗”以及玛薇卡、茜特菈莉双限定卡池开放冲上畅销第4，春节前更新的“海灯节”活动又再次帮助游戏延续了一波热度；后者则在1月份上线了预热已久的3.0大版本，开放全新星球「翁法罗斯」。营收方面，3.0上下半卡池则分别为《崩坏：星穹铁道》最高斩获了畅销第4及第5名。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_7f532f7648c541a7805acc9f6481b725@000000_oswg152208oswg1080oswg533_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>细数下来，「创新高」可以说是今年春节档的一个关键词。即便没有大量新品上线带动营收，但一众老面孔焕发“第二春”式的出色发挥，反而让春节前后游戏市场的整体热度更胜往年，也为2025这个潜在的“游戏大年”开了个好头。</p>
-<h2>“大过年的，最紧要开心！”</h2>
-<p>乍一看，前面提到在春节假期期间创下了新纪录的产品基本都离不开新活动、新皮肤等新内容以及付费点的刺激。但如果再仔细一点，就会发现似乎没有这么简单：这些产品在营收冲高的同时，日活数量也同样创下了新高，这就意味着假期间玩家们在游戏里不只有氪金买买买和抽抽抽，是真的有在“享受”这些游戏。</p>
-<p>先从产品的属性上看，在撕下了RPG、战术射击、自走棋、非对称竞技、IP等玩法分类的标签之后再看这些产品，就会发现他们其实都还有着一个非常明显的属性，而且这个属性与“春节”的契合度可以说是拉满的 —— 社交。换句话说，这些产品的走红其实都是国民在“大过年的”这个特殊时间节点社交需求的延展，甚至还有可能成为打开线下社交的钥匙。</p>
-<p>“王者新版的10V10玩了没？”“来来来，开一把！”类似的对话颇有几分「接头暗号」的神韵，从这些产品在春节版本更新的内容思路上来看，大多主打一个欢乐、减压、放飞自我，没有月薪对象买房的烦恼，只有进行到底的快乐。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_b8bc0be116b0476e81ebd8ede8e323c2@000000_oswg92033oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另一个则是内容上都更加“贴地”。尤其是一众头部产品和大厂，都没有端着自己“大作”或者“大厂”的架子，反而主动迎合玩家在节假日期间的游戏心态“大过年的，最紧要开心！”。比如上面提到《王者荣耀》的新版10V10模式，就没有做成排位而是作为纯粹的娱乐模式回归，节奏更快场面更乱，主打一个玩得高兴就是赢了。</p>
-<p>在今年春节假期间表现突出的《金铲铲之战》的“天选福星”版本也在原版的基础上进行了大改，不仅羁绊属性变得更强，棋子的强度也同样拔高了一截，还把玩家的部分牌库改成了独立计算，同样突出一个“爽”。一句“塔姆带福，思路全无”，成为了无数弈士在春节假期间游戏状态的最佳写照。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_a9de7ff7d2b6488fb8683275ebbbdbc1@000000_oswg95824oswg1080oswg497_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另一边厢，针对广大玩家，尤其是偏年轻受众的“精神状态”，今年春节档期间游戏圈的表现也十分亮眼。这里也有两个典型的例子，一个是《和平精英》另一个是《第五人格》。</p>
-<p>前者在春节期间与多个不同的品牌和IP进行了跨界联动，其中就包括了动画IP《熊出没》。当第一次看到这些“熊大”“熊二”们在大厅甚至是战场上乱跑的时候，相信大部分玩家都很难绷得住。但从结果来看，这对于小孩子来说可能太幼稚，对于成年人来说就无疑是刚刚好。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_a7d4b25997e94dae967f9f71ad5d9a28@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>首度打入了春节档头部的《第五人格》也一样，游戏本身非对称的“追-逃”玩法，加上独特的哥特系美术风格，玩家在游戏里通常都是一边承受着颇大的心理压力，但一边享受着这种刺激。慢慢地培育出了特有的“疯”感，这种疯感甚至已经从游戏外溢到了同人创作领域，有玩家就感叹“这个精神状态就像被关起来，强迫玩24小时第五人格后的样子”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_4d663e4a91c845fea68f6d7ece26f015@000000_oswg69228oswg1080oswg192_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另外还有一部分“社交”属性不那么明显，而且体验相对来说也可以更“碎片化”的产品，例如《无尽冬日》《向僵尸开炮》等等，在春节假期间的表现也都颇为稳定。</p>
-<p>至于在去年颇受关注的二次元和女性向产品，则是因为活动以及营收冲榜重点的卡池大都安排在了假期前就已经更新的缘故，出现了类似「寅吃卯粮」的情况，在春节假期间的声量以及成绩都不如前面提到的产品，实际上每年同期的情况也都类似。</p>
-<h2>接力选手已经就绪，新一轮“大战”在即</h2>
-<p>实际上，今年春节还发生了另一件颇有意义的事情：随着《英雄联盟》衍生动画《英雄联盟：双城之战》第一季出圈的主题曲《孤勇者》，被原唱陈奕迅以及一众国家队运动员们带到了央视春晚的主舞台。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_7ca5b2f4068e40abb6a27bf17ac6c356@000000_oswg694922oswg1080oswg609_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>再结合上前面提到的案例和数据，“游戏”在春节假期间能够胜任的角色已经有了越来越多样化的趋势，已经不再是一个简单的“娱乐方式”，它们可以是社交需求的夸维度延伸，可以是生活压力和情绪的宣泄，可以是维系亲友之间关系的纽带，还可以是对逐梦者的鼓舞。</p>
-<p>就连春节假期间活跃玩家数都会惯例下滑的PC市场，今年也有不错的开局。自进入25年后发售的几款独立游戏例如《全网公敌2新世界》《中国式相亲》《三相奇谈》等都取得不错的成绩。 （关于这部分我们会在后续的文章中再详细展开）</p>
-<p>更值得一提的是，春节假期刚一结束，游戏圈也马上就切换回了“战备状态”，光2月份就有《仙剑世界》《龙之谷世界》《荒野国度》《永夜降临：复苏》《爆裂小队》等重磅产品在排着队准备上线或者开启新一轮测试，这些产品以及它们背后的厂商似乎已经准备好接过“春节档”接力棒，并马不停蹄地拉开了Q1大战的帷幕。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_ca0c3be38d214aaa8f02dbae30501b1b@000000_oswg95947oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>回顾过去的2024年，虽然游戏市场的竞争越来越激烈，但玩家数量以及市场营收大盘双双创下了新纪录，而且每个月新发一批游戏版号的节奏也似乎越来越稳定。只是从目前的情况来看，游戏市场的大环境仍然是充满着变化和挑战，再考虑到春节档节点的特殊性，部分数据以及例子也并不具备“全时通用”的普适性，但毫无疑问，2025年游戏行业似乎已经开了个还不错的好头。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&amp;mid=2651258716&amp;idx=1&amp;sn=9e6c5ce3b496f1c67d9344eb0809179d&amp;chksm=bc7a7dde1d57046a7b093ff33c5f4886353a4531869aaa143aaa3195218a3e94c4f66f2fb572&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“手游那点事”（ID：sykong_com）</a>，作者：Jimmy、Sam，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3159474734160640</guid><pubDate>Mon, 10 Feb 2025 08:24:00 +0800</pubDate></item><item><title>首次击败人类数学天才，高中生最难数学考试被DeepMind AI攻克了</title><link>https://36kr.com/p/3158661947152897</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>让人类高中生头疼的最难数学考试——<strong>国际数学奥林匹克竞赛（IMO）——被人工智能（AI）攻克了。</strong></p>
-<p>在一项近期公布的研究中，<strong>Google DeepMind</strong>团队称他们的<strong>几何解题系统 AlphaGeometry</strong>解决了 84%（42/50）的几何难题，其表现<strong>首次超过了 IMO 平均金牌得主</strong>（40.9/50）的水平。</p>
-<p>此外，去年 7 月，AlphaGeometry 也“联手”AlphaProof（一个基于强化学习的形式数学推理新系统），在当年 IMO 中首次达到了银牌获得者的水平。</p>
-<p>AlphaGeometry2 是 AlphaGeometry 的显著改进版本。它是一个<strong>神经符号混合系统，其语言模型基于 Gemini，</strong>并在比其前身多一个数量级的合成数据上从头开始训练。这帮助模型解决更具有挑战性的几何问题，<strong>包括关于物体运动和角度、比例或距离的方程问题。</strong></p>
-<p><strong>AlphaGeometry2 使用的符号引擎比其前身快两个数量级。</strong>面对新问题时，一种<strong>新颖的知识共享机制</strong>被用来实现不同搜索树的先进组合，以解决更复杂的问题。</p>
-<p>对此，伦敦帝国理工学院数学家 Kevin Buzzard 评价道：“我想，不久之后，计算机就能在 IMO 竞赛中拿满分了”。</p>
-<p>相关研究论文以“Gold-medalist Performance in Solving Olympiad Geometry with AlphaGeometry2”为题，已发布在预印本网站 arXiv 上。</p>
-<h2><strong>更强的数学推理，速度提升 300 倍</strong></h2>
-<p>AlphaGeometry2（AG2）是 Google DeepMind 开发的一款神经-符号混合 AI 系统，用于解决国际数学奥林匹克（IMO）的几何问题。</p>
-<p><strong>AG2 结合了语言模型（Neural）和符号推理引擎（Symbolic），采用一种混合推理方法（neuro-symbolic approach）来解决几何问题。</strong>相比其前代 AlphaGeometry（AG1），AG2 在解题率、搜索算法、语言模型和符号推理方面都有重大改进，首次超越了 IMO 平均金牌得主的表现。</p>
-<p>据论文描述，<strong>AG2 在原始 AlphaGeometry（AG1）语言的基础上进行了扩展</strong>，使其能够处理更复杂的几何问题，包括：</p>
-<p>物体移动（Locus-type Problems）：AG2 新增了轨迹（locus）相关谓词，使 AI 能够推理点、直线、圆等几何对象的移动；</p>
-<p>线性方程问题（Linear Equations）：AG2 现在可以解析涉及角度、比例和距离的线性方程；</p>
-<p>新的几何谓词（Predicates）：AG2 语言新增了多个谓词，以支持更复杂的几何推理。</p>
-<p>这些扩展将<strong>AG2 语言的覆盖率（coverage rate）从 66% 提高到了 88%</strong>，使其能够处理更多 IMO 几何题目。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_b475afcc0dd94c3b862801c82750ab2c@000000_oswg189285oswg1080oswg939_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜AG2 与 AG1 的训练数据分布对比（a-c): a.与 AG1 相比，AG2 包含更复杂/更长的问题; b.AG2 在每种问题类型的示例分布上更加均衡; c.G2 在包含辅助点的证明与不包含辅助点的证明之间具有更均衡的比例）</p>
-<p>此外，<strong>AG2 还采用了 Gemini 语言模型，相比 AG1 具有更强的数学推理能力。</strong>该语言模型用于预测几何构造（如辅助线、角度计算等），并帮助生成解题步骤，其训练数据包含 3 亿条自动生成的定理和证明，大幅扩展了 AI 的数学知识库。</p>
-<p>同时，<strong>AG2 采用了一种新型搜索算法（Shared Knowledge Search Trees, SKEST），引入知识共享机制，将多个搜索树（multiple search trees）结合在一起，</strong>相比 AG1 仅用单一搜索策略，AG2 允许不同搜索路径可以共享已验证的数学推理，显著提升了 IMO 竞赛的求解能力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_ef33e9de95224ff0823e2257b8e3a7df@000000_oswg202740oswg1080oswg916_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图｜ 搜索算法概览： 将多个搜索树结合在一起并通过一种特殊的知识共享机制，在它们之间共享已证明的推理</p>
-<p>不仅如此，<strong>相比 AG1 的符号引擎，AG2 在求解速度上提升 300 倍</strong>，并且新增处理“双点”能力，能够解决一些需要构造多个相交点的问题。</p>
-<h2><strong>探索可泛化 AI</strong></h2>
-<p><strong>尽管 AG2 已经取得突破性进展，但仍存在一定局限性。</strong>在 AG2 未能解决的题目中，有 6 道 IMO 题目因涉及变量点个数、不等式、非线性方程而未能求解，因 AG2 语言尚不支持这些类型；2 道题目涉及更高级的几何技术（如反演、投影几何、根轴法），目前也未在 AG2 的符号引擎中实现。</p>
-<p>DeepMind 团队表示，未来 AlphaGeometry 的改进方向将包括处理涉及不等式和非线性方程的数学问题，这些能力对于<strong>“完全解决几何问题”</strong>至关重要；此外，进一步改进自动数学公式化（Auto-Formalization）技术，使 AI 能更准确地<strong>从自然语言解析数学问题</strong>也在团队的计划当中。</p>
-<p>另外，研究表明， AG2 不仅能够生成辅助构造（auxiliary constructions）， 还能推导出完整的证明（full proofs），这表明<strong>当前的语言模型有潜力在无需外部工具（如符号推理引擎）的情况下独立运行。</strong>如果他们的设想正确，这些解题能力可能会成为未来<strong>通用人工智能（AGI）</strong>的一个重要组成部分。</p>
-<p>AlphaGeometry2 或许表明，<strong>符号操作和神经网络这两种方法的结合 ，是探索可泛化 AI 的一条有希望的道路。</strong>事实上，根据 DeepMind 的论文，同样具有神经网络架构的 o1 无法解决 AlphaGeometry2 能够解答的任何 IMO 问题。</p>
-<h3>参考链接：</h3>
-<p>https://arxiv.org/pdf/2502.03544</p>
-<p>https://www.nature.com/articles/d41586-025-00406-7</p>
-<p>https://techcrunch.com/2025/02/07/deepmind-claims-its-ai-performs-better-than-international-mathematical-olympiad-gold-medalists/</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA==&amp;mid=2247595626&amp;idx=1&amp;sn=097b4829aac15279f0ef955d31232cf4&amp;chksm=ce8682988842edd36ba7bed3daf8b32d89e47312eaac6b8ecb818e7ca251d958bb218d2d6cfa&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“学术头条”（ID：SciTouTiao）</a>，作者：陈小宇，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3158661947152897</guid><pubDate>Mon, 10 Feb 2025 08:24:00 +0800</pubDate></item><item><title>被骗局围剿的老年人，仍然渴望被爱</title><link>https://36kr.com/p/3160047715260935</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>有一种主流观点认为，中老年人深陷网络诈骗，是因为他们情感空虚，还沉迷网络，容易被嘘寒问暖的话术乘虚而入。这无异于将问题归于受害者。</p>
-</blockquote>
-<p>你有多久没关注父母的感情生活了？不久前，退休后“60岁重启人生”的话剧演员“yizhang一张”被女儿“抓晚恋”，女儿在视频里说发现妈妈在网上认识了“不靠谱的老头儿”，但她没有责怪妈妈，而是耐心询问妈妈的择偶标准，同时向观众征集靠谱老头。</p>
-<p>在镜头前，女儿也表达了对妈妈情感需求的重视，她说：“我抓的并不是爱情，我抓的是打着爱情的幌子，企图欺骗老年人的臭虫们。”</p>
-<p>“臭虫们”一直都在。早在2020年，短视频平台就封禁了一批“假靳东”账号。尽管如此，这些账号在2023年卷土重来，用快速复制的话术迷惑中老年女性，在建立信任后瞄准她们的钱包。线上黄昏恋诈骗屡见不鲜，其背后是易复制的诈骗套路和跨国诈骗产业链。</p>
-<p>2023年9月，坐拥1200万名粉丝的顶级网红“秀才”账号被封禁。秀才“塌房”后，公众才恍然大悟，原来中老年人心中也存在着难以填补的情感需求。秀才也好，“假靳东”也罢，为何凭其拙劣表演就能赢得中老年人的心，本身就是一个让人深思的问题。</p>
-<p>2024年7月27日，55岁的覃红和网络上认识的中年男子“张文建”第一次搭上话，面对嘘寒问暖，覃红很快放下防线，坠入爱河。“已经被封闭了七八年的情感大门被一脚踹开。”</p>
-<p>她没想到事情发生得如此迅速，一周后，该男子从覃红的腰包里成功榨取了50.8万元。“最后钱没了，情感也被掏空了。”她告诉我，丈夫去世时都没那么伤心。</p>
-<p>在覃红出示的照片中，这个自称“张文建”的男子有着国字脸、板寸头,衣着光鲜。她告诉我，同一组网图她在不同账号上重复见到，连“当过兵”的人设都高度一致。面对如此拙劣的骗术，仍有大量中老年人被迷惑。到底是什么力量在驱使他们上钩？</p>
-<h2><strong>寿命一周的恋情，稳赚不赔的买卖</strong></h2>
-<p>一年前刚退休的覃红不知不觉迷上了短视频，起初是看朋友拍，后来自己也开始拍，然后把短片发到视频号上。刚开始拍的时候，同一天里就有好几个陌生账号在后台私信覃红，夸她视频拍得好，想认识一下。覃红就是这样认识张文建的。</p>
-<p>7年前丈夫因癌症去世后，覃红带着一儿一女在县城谋生，生活中已经很久没出现过异性朋友。从前她在医院工作，丈夫生病后她就辞了职，后来偶尔做点买卖，给自己缴养老金，直到一年前退休。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_35bad68dbba24268bac7a9abfd74c20b@000000_oswg100965oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《岁月神偷》）</p>
-<p>张文建把自己吹得天花乱坠，自称是退伍军人，被朋友引荐到大厂工作，在阿里巴巴管理层担任职务。他和覃红开始每天在聊天软件上语音通话好几回，从他的悲惨出身、曲折经历，火速聊到二人间的感情。</p>
-<p>张文建开始给覃红介绍一个稳赚不赔的投资机会。他说公司领导带领他投资一个大项目，内部只有200人有投资“指标”。他邀请覃红也加入这个投资，只要她投钱，将有“每天百分之十几”的高收益。</p>
-<p>起初覃红有些担心，他就以自身经历说服覃红，说他曾为了投资，拿房子抵押出80万元，这笔钱现在已经挣回来，还买了一辆价值20多万元的车。为了让她相信这是真的，张文建专门给她注册了一个投资账户，他先转了5万元进该账户，以示诚意。</p>
-<p>2024年7月30日，覃红决定赌一把，将5000元转到了指定账户。在张文建发给覃红的“理财App”上，登录账号可以查看每天的收益率，存的钱越多，收益就越高。第二天，覃红的胆子一下子大了起来，她一口气转了11.3万元。第三天，她又砸了16万元进去。当天张文建就给覃红转回4万元，以表明投资的真实性。第四天，覃红在张文建的示意下转了最大一笔钱——23万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_eba9db83a24948ac918796811fd09391@000000_oswg134087oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《岁月神偷》）</p>
-<p>短短4天时间，覃红总共投入了50.8万元，这几乎是她所有的钱，其中绝大部分是父母给她的存款。她当时手上还剩5万元，要是事情没那么早败露，她本打算将这笔钱全部投入进去。</p>
-<p>在这段时间里，覃红几次意识到不对劲。第一次是在转11.3万元时，警察就给她打了电话，提醒她可能遭遇了诈骗。第二次是她留意到前后四次转账中，分别有三个收款人，而且其中没有一个是“张文建”。第三次是两人通电话时，覃红留意到对方那有嘈杂的环境音。但她选择无视。</p>
-<p>2024年8月2日，最后一笔账款转出后，警察又一次给覃红打电话，这次她没接电话，于是警察给覃红的紧急联络人——她的儿子打了过去。儿子刚好在老家，于是覃红的父亲和弟弟都从电话中得知覃红被骗取大额财产。</p>
-<h2><strong>“很久没有人这么关心过我”</strong></h2>
-<p>在张文建构造的故事中，他高二丧失双亲，父母和唯一的妹妹死于山体滑坡，石头砸下来后，家里只剩他一个人。后来他去当了9年兵。人到中年时，他的妻子也死于癌症，留下一个在英国的女儿。</p>
-<p>“他把自己说得很悲惨。”正是这层悲惨的底色，让覃红越发同情对方的遭遇。</p>
-<p>丈夫去世后，覃红这么多年来第一次感受到来自异性的关心。日常交流中，张文建毫不遮掩自己想和她发展亲密关系的意图，他常常称覃红的女儿为“我们的女儿”，有时到了放学时间，他会不经意地问一句：“我们的女儿回来了吗？”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_645ef756365f4a9984648de25565cc28@000000_oswg184989oswg1080oswg910_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《郊游》）</p>
-<p>有一次，覃红无意间透露自己曾有和父母一起去北京旅行的愿望，但没能兑现。张文建听后说：“是不是没钱？没钱我给你。”他还给覃红送了一束花。覃红告诉我，这是第一次有男性给自己送花。</p>
-<p>直到立案侦查之前，覃红一直没有怀疑过张文建的身份和这段关系的真实性。从派出所回来后，她一屁股瘫坐在椅子上，身体仿佛都被掏空了：“比我老公走的时候还难过。”</p>
-<p>之后她用女儿的账号重新加他，面对覃红的质问，他坦白自己谎报了年龄——不到50岁，也没有结婚，更没有远在英国的女儿。</p>
-<p>直到身份败露，张文建依旧在对覃红使用这套话术。他听出覃红情绪不稳定，最后以安慰的口吻对她说：“你一直给我发消息，我现在冒着生命危险回你消息。我看你那么难过，那么伤心。你也不能死，你为了我要活着。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_f0b7c011d7994b85ac080adc701f7981@000000_oswg354557oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《郊游》）</p>
-<p>后来，覃红下载了婚恋交友软件。在一个名为“甄选婚恋”的网站上，她再次看到熟悉的头像，是张文建曾经使用的一张在动车上的墨镜照，连自拍姿势都丝毫未变。</p>
-<p>她主动加了这个名叫“李强”的网友，这回的故事是这样展开的：“1976年属龙，2018年离婚，有个14岁的女儿，和朋友开了一家广告公司，也会做一些线上的投资。”</p>
-<p>在婚恋网站上，覃红刷到好几回张文建的照片。她也觉得事情变得荒谬了——情感诈骗的门槛低到他们甚至连网图也不愿意换一张。现在对覃红来说，该男子是张文建还是李强，已经不重要了。</p>
-<h2><strong>羞耻的爱</strong></h2>
-<p>覃红被骗后，派出所和反诈中心的人曾到覃红所在的小区开展宣传教育活动，称最近小区里出现被骗的案例。虽未指名道姓，但邻居从覃红的反应里多少猜得出故事的主角就是她。覃红说,听到邻居议论时，自己想死的心都有了，“被男人骗的时候都没有那么崩溃”。那段时间，她连自己的家也不敢回。</p>
-<p>老年人的爱是不合时宜的，覃红始终这么认为。当公安局的电话打到她身在老家的儿子那里时，她首先感到的是羞愧。覃红不敢告诉父母自己到底遭遇了什么，所有人只知道她“投资被骗”，而不知道背后的“情感也被骗了”。</p>
-<p>作家梁州曾说：“当一个人步入老年，他似乎就在社会意义上丧失了具有活力这一概念，而这也代表着，与之相关的情欲和情感需求都不应该出现在老年人身上。”这种对老年人情欲的社会性遏制，在《银发世代》中被路易斯·阿伦森称为“去性化的老年”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_fd97479f8ed940129a1f115d6695965d@000000_oswg95302oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图/《岁月神偷》）</p>
-<p>根据Quest Mobile发布的《2024银发人群洞察报告》，截至2024年9月，银发人群月活跃用户规模达3.29亿人，同比增长1.5%；月人均使用时长达129小时，同比增长5.3%；而短视频以35.1%的占比高居榜首，成为银发群体最喜爱的娱乐方式。</p>
-<p>毋庸置疑，短视频已经深度嵌入中老年群体的生活中，甚至影响着他们的人际交往和对世界的认知。文化评论者曾于里认为，老年人的网络世界仿佛困在了“滤泡”中，他们是被“士绅化”的互联网“孤立”的人群。所谓士绅化，可以简单理解为在互联网上更有话语权的年轻人对边缘人群的驱赶，同时呈现出对“老人味”的厌恶。</p>
-<p>老年人被动地处在一个由算法驱动的“老年滤泡”中，以至于年轻人甚至不知道老年人所在的网络空间长什么样、充斥着什么危险，两个网络空间处于高度隔离的状态。“秀才”和“假靳东”事件发生后，很多年轻人才意识到老年人有情感需求。</p>
-<p>有一种主流观点认为，中老年人深陷网络诈骗，这是因为他们情感空虚，还沉迷网络，容易被嘘寒问暖的话术乘虚而入。这无异于将问题归于受害者。在这些人看来，平台需要限制老年群体的网络使用时间，他们甚至呼吁开发一个“防老年人沉迷”的手机系统。</p>
-<p>但年轻人忘了他们自己就可以做很多实际的事情来帮助父母缓解“情感空虚”的问题，而不必将其驱逐出看似充满危险的互联网。</p>
-<p>北京师范大学发展心理研究所副教授彭华茂曾在接受央视网的采访中提到，老年人也有与他人建立亲密关系的需求，与其用强硬的口吻告诉他们外面的话一个字都别信，还不如用一种平等的姿态关注他们被骗背后深层次的内心需求。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5ODMzMDMyMw==&amp;mid=2654814979&amp;idx=1&amp;sn=6137431bcdb2b6eae975fac563d7e6c3&amp;chksm=bce15e1f752c9ec1204803c64217e67ebf07e22d0c2cd6140c5156c11abfd171e1e0ea03c59c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“新周刊”（ID：new-weekly）</a>，作者：哈吉，编辑：陆一鸣，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3160047715260935</guid><pubDate>Mon, 10 Feb 2025 08:25:00 +0800</pubDate></item><item><title>卡车自动驾驶，开进鄂尔多斯</title><link>https://36kr.com/p/3160043973417728</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>一座能源之城的自动驾驶故事。</p>
-</blockquote>
-<p>在鄂尔多斯冬日的清晨六点，闹钟准时响起，卡车司机秦师傅简单洗漱后，在休息区吃了一桶泡面，再装满一大桶水，来到了公司的培训室。培训室墙外，<strong>“没有安全，一切为零”的标语十分醒目。</strong></p>
-<p>作为早班卡车自动驾驶安全员，他需要在七点开早会，了解前一天路上发生的事故和今天的注意事项，并做上车前的例行身体检查。</p>
-<p>早会结束后，他来到当天要开的新伙计旁——一辆安装了自动驾驶测试设备的陕汽德龙天然气卡车。除了他之外，车上还有一名携带电脑的测试员。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_4a6230b6de76461db52415067b4710ef@000000_oswg80613oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">陕汽德龙天然气卡车，配有白色的雷达模组和黑色的天线单元。摄影：王文彤</p>
-<p>这时，天刚蒙蒙亮。借着晨光，他踩着梯子检查雷达、擦净倒车镜，查看轮胎是否有扎胎、发动机是否有异响，又检查了车内卫生、打开暖风系统，这才坐到车里，拿起对讲示意前车可以出发。</p>
-<p>紧接着，车内系统传来“开始组队，自动驾驶已开启，动态分配完毕”的声音，车子慢慢汇入车流中。</p>
-<p>秦师傅任职的公司是卡尔动力，这是一家卡车自动驾驶公司。公司从2021年开始在鄂尔多斯进行卡车自动驾驶的测试和运营，在鄂尔多斯鄂托克旗经济开发区建立了智能零碳运力示范项目，该项目涵盖了自动驾驶研发与运营中心。</p>
-<p>目前，这里已经成为公司规模最大的研发中心，占地面积6000多平方米，拥有110个充电桩。2024年6月，卡尔动力的全球创新研发总部也落地在鄂尔多斯康巴什区。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_db590a07f6784de1afe1016cd8b08395@000000_oswg84524oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">园区内，电动卡车正在充电。摄影：王文彤</p>
-<p>目前，卡尔动力组建了行业最大规模的L4级别自动驾驶车队，包含近300台卡车。它们会组成车辆测试编队，由一辆有人驾驶的领航车带领2~5辆L4级别无人驾驶车。有50多位司机师傅负责测试工作，平时他们会以5~7人为一组。</p>
-<p>这些卡车同时也负责传统运输业务，为附近的电厂运煤或者进行其他长途货运。<strong>卡尔动力希望通过规模化运营提高自造血能力。</strong></p>
-<p>2024年3月，卡尔动力获得鄂尔多斯市康巴什区颁发的首张智能网联汽车测试牌照“蒙K0001试”，这也是内蒙古自治区颁出的首张自动驾驶重卡测试牌照。</p>
-<p><strong>卡尔动力扎根鄂尔多斯的背后，是鄂尔多斯市政府在资源型城市转型方面的努力。</strong></p>
-<p>目前，除卡尔动力外，还有主线科技、踏歌智行、易控智驾等多家卡车自动驾驶企业在鄂尔多斯进行试点运营。2024年7月，鄂尔多斯市还入选了智能网联汽车“车路云一体化”应用试点城市。</p>
-<p>这座资源之城，正在逐渐被卡车自动驾驶公司所改变，但自然环境恶劣、难以盈利等困扰仍有待解决。</p>
-<p>在鄂尔多斯智能网联创新中心总经理陈红军看来，鄂尔多斯有潜力打造下一个“合肥模式”，但还需要时间。为此，既需要政府提供政策支持，也需要大量产业资金支持和人才。</p>
-<h2><strong>老司机的新挑战</strong></h2>
-<p>李师傅是秦师傅的小组长。他从2008年开始开半挂卡车，在来到卡尔动力前，经历过线下抢活和线上抢单两个阶段。</p>
-<p>早年间，他起床后的第一件事就是去各个物流公司转悠。每个公司都会在门外立起一块小黑板，上面写着哪里有货、需要多少辆车，掌握信息后，他再去货主处询问。近几年，货拉拉等软件逐渐普及，他需要时刻关注软件上的货源信息变化。</p>
-<p>除了货源问题，在鄂尔多斯开卡车，遇到偷油贼也是常事。</p>
-<p>有一天凌晨十二点，李师傅孤身一人拉着一车小麦前往呼和浩特毕克旗，途经乌海准备休息。恍惚间，他在后视镜中看到一个可疑的身影，正拿着一根管子，想接到卡车油箱口上。</p>
-<p>“这么粗一根管子，我要是没看到，最多两分钟这一箱油就全没了。”他说。情急之下，他使劲按喇叭，赶跑了偷油贼。</p>
-<p>这一晚，偷油贼三次试图靠近李师傅的车，李师傅也三次摁喇叭赶跑了他，折腾到快凌晨三点，李师傅把车开到附近的防空洞里勉强凑合了一晚。</p>
-<p>跟传统卡车司机的工作相比，卡尔动力的待遇颇有吸引力——这里提供一个月四天的休假、五险一金、来自股东方鄂尔多斯电力冶金集团的稳定货源。</p>
-<p>司机们反映中午吃不上热饭、宿舍没有热水，不出几天，热水器、午餐盒饭、贩卖机就出现在了园区内。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_52d3e073ced64c77b885c9dfd7aebd6e@000000_oswg66655oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">司机师傅们在午休区休息。摄影：王文彤</p>
-<p>在卡尔动力，每个小组会投票选举小组长。每天的任务、每月的休假由小组长来分配。</p>
-<p>因为自动驾驶技术的专业性，定期的培训和考试也是必不可少的。新司机会先经过7天的理论学习，学习车上的各种按键、自动驾驶的知识、交规中容易被忽略的细节，通过理论考试；再跟车学习7天，看老司机如何操作，通过实操考试。至少半个月的学习后，他们才算“出师”。</p>
-<p>为了招到安全意识强、经验丰富的司机，公司会先要求司机试驾标准卡车，考察他们的驾驶习惯，通过考察的司机才能进入公司。</p>
-<p>卡车司机们最难过的心理关是跟车距离太近，下意识觉得不安全、刹不住车。公司会在封闭的测试场内、自动驾驶的状态下，让司机们感受不同载重、不同车型、不同车速的车如何刹车。</p>
-<p>“我们会调整车速，从10km/h提升到80km/h。最开始司机很担心，忍不住上手。慢慢他们会发现前后车的刹车没有延时，安全有保障，就不会那么害怕了。”卡尔动力感知与AI研发总监王珂说。</p>
-<p><strong>每个司机都有“手心冒汗”的第一次。</strong></p>
-<p>第一次坐进自动驾驶卡车的驾驶室时，虽然车里开着空调，秦师傅还是紧张到出汗，担心撞到前车；李师傅习惯性地垂手想扒拉车档，却只摸到空气，惊呼：“我的车档哪去了？”他也面试过很多司机，全都是上来先找车档。“这是第一个需要适应的地方。”李师傅说。</p>
-<p>需要适应的还有一些工作细节。比如工作时，他的手始终放在方向盘下方，眼睛时而看前方道路，时而盯着仪表盘，耳朵还需要随时注意对讲机传来的指示。</p>
-<p>“平时我们在车上都不能随意说话，也不能抽烟、喝水。监控都在看着呢。”他说。</p>
-<p>29岁的冯师傅来到卡尔动力近两年，是公司年龄最小的司机。他也曾极力劝姐夫来卡尔动力，但姐夫的年龄已经偏大，受不了单位管束。据冯师傅观察，依然有相当一部分有技术又不想被管束的司机拒绝接受卡尔动力这种形式。</p>
-<p>至于未来无人驾驶会不会让自己丢掉工作，司机们都很看得开。</p>
-<p>“现在90后还开卡车的很少，以后只会越来越少。时代在进步，但总不会每个行业都被机器人占领了吧？”冯师傅说。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_ab734eddf1a9472d8c696706736a06a6@000000_oswg152020oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">卡车驶过鄂尔多斯的公路，路旁的羊群正在吃草。摄影：王文彤</p>
-<h2><strong>以卡车司机为师</strong></h2>
-<p>在技术团队眼中，卡车司机是老师。</p>
-<p>施晓玲是卡尔动力运营总监、棋盘井区域负责人，他是湖南人，原本在投行工作，2020年开始参与卡尔动力前期孵化，现在每年有一大半时间待在鄂尔多斯。</p>
-<p>在他看来，卡车司机是一个复杂的群体，他们因常年奔波无暇照顾家庭，因长期睡在车上而积劳成疾，也容易受到不公正的待遇。</p>
-<p>施晓玲希望通过制定清晰的规则，尽量减少灰色地带；在日常管理中充分地沟通，尊重司机的感受；给他们提供基础的保障，满足司机的合理要求。</p>
-<p>但他不否认，“总有合不来的”，“我就谨记，司机是来挣钱的，不是来谈理想、谈价值观的”。</p>
-<p>司机们向他投诉的内容大多跟装车费（通常先由卡车司机垫付）报销的进度太慢有关。通常来说，报销之前需要先核实装车数（指核算周期内实际装载的次数），如果遇上节假日数据核实不及时，报销就有可能被延误。这时，施晓玲会及时介入。</p>
-<p>“在我们与司机的沟通中，<strong>步调一致、信息通畅是最重要的。</strong>”他说。</p>
-<p>在王珂的眼中，司机是他的老师。</p>
-<p>“工程师大部分时间坐在办公室写代码，让我们去考个卡车驾照不现实。<strong>很多问题只有坐在驾驶室开了几十万公里的司机才知道。</strong>”王珂说。</p>
-<p>在王珂看来，技术团队与司机的目标是一致的。司机们希望获得更好的工作机会和生活保障，同时增加一项技能；技术团队希望能把技术落地，真正实现商业化。</p>
-<p>王珂和团队在司机这里学到了很多专业的知识，也发现了很多此前没有注意过的问题，比如，极寒天气应该给引擎盖盖上毛毯或保暖罩，使用低温专用机油和防冻液；雨雪天气应该用混合花纹的轮胎；满载下坡时在挂D挡之外还需要安装液力缓速器（一种辅助制动装置，可控制车速）；雷达除了需要识别常见的羊，还需要识别不常见的骆驼等等。</p>
-<h2><strong>现实与理想的距离</strong></h2>
-<p>跟与卡车司机群体的相处相比，鄂尔多斯恶劣的天气和路况给王珂团队带来更大挑战。</p>
-<p>比如在零下40摄氏度的冬天，电脑冻得无法开机，只能给它装“电热毯”；公路上没有明确的指示牌和红绿灯，甚至连划线也不清晰；路面凹凸不平、卡车剧烈震动，车上的改装件和连接线纷纷松动，只能放弃改装，与车企合作进行定制化前装生产。</p>
-<p>又如，卡车驶过时，飞扬的尘土会形成一道灰墙阻碍司机的视线，如果遇到下雨天，泥水溅到雷达和玻璃上还会影响导航。为此，王珂专门设计了两代传感器清洁装置，结合喷水和雨刷的方式尽量维持整洁。</p>
-<p><strong>除了环境因素，商业化运营中也存在一些问题。</strong></p>
-<p>施晓玲表示，一方面，实际的货运场景中还无法实现真正的无人驾驶。比如车辆在路上的缴费、临检，进入电厂后的称重等环节，依然需要人的参与。另一方面，现在公司自动驾驶的研发投入较大，L4级别自动驾驶卡车的成本也较高。</p>
-<p>陈红军对此也有同感。</p>
-<p>2024年上半年，他与国内某新势力车企合作，在鄂尔多斯达拉特旗进行了一项测试，想要看看卡车自动驾驶在运煤时能否接通“最后一公里”。</p>
-<p>他选择了一条8公里的路线，连通车路云系统，通过监控监测该车企的车辆数据，包括接管率、延时反应速度、刹车距离等等。最终他发现，即使道路上的测试数据再好，在把煤拉到电厂时，排队、上台秤、卸煤等等环节依旧需要人来沟通、调配。</p>
-<p>尽管如此，<strong>卡尔动力仍在为推动自动驾驶技术的落地而努力。</strong>从2023年10月开始，卡尔动力在新疆进行常态化运营；2024年12月，卡尔动力CEO韦峻青宣布，已与成都企业在无人驾驶货运领域开展合作与资源共享，将加快在成都落地项目。</p>
-<p>王珂认为，在鄂尔多斯积累的经验可以复用到其他城市。</p>
-<p>施晓玲指出，2024年社会物流总费用约为19万亿元，其中大宗货运物流约占60%，L4级别自动驾驶干线物流撬动的是万亿级别的市场规模。未来，更大的市场还在等待挖掘。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTI3NTQ1MTY0MQ==&amp;mid=2650638850&amp;idx=1&amp;sn=49b6181c0120a794be773f859e7028d6&amp;chksm=7d66e35a69043021ace7a9a65bd72bdcd89ff1147d493d0e3c1ea7cbc0ea40a428941353a231&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国企业家杂志”（ID：iceo-com-cn）</a>，作者：王文彤，编辑：马吉英，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3160043973417728</guid><pubDate>Mon, 10 Feb 2025 08:25:00 +0800</pubDate></item><item><title>创业想成功，先吃透这些价值千金的教训</title><link>https://36kr.com/p/3160047455148545</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>创业失败在所难免。很少有知名企业能够声称从未经历过失败。每一个失败的产品或公司都伴随着代价：资源的浪费、工作岗位的流失以及声誉的受损。但失败也可以是有益的。从过去的失败中汲取教训，有助于打造一家持久的企业。只是要警惕那些可能破坏你事业的因素就好。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_cc27fccfc2f647a1ab52b3c6594045ab@000000_oswg64445oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>创业者们努力打造他们的初创企业，风险投资家们则努力寻找并投资最有潜力的项目。然而，残酷的现实是，失败在所难免。最新数据显示，美国初创企业的倒闭率在过去一年中上升了60%。</p>
-<p><strong>众多因素可能导致一家公司或产品失败。</strong>为了更好地理解风险承担和失败，我收集并整理了1000多种失败产品和企业的相关物品，比如Pets.com的玩偶、未开封的新型可口可乐罐头，以及谷歌眼镜。我把我的收藏称为“失败博物馆”。</p>
-<p>在研究我的收藏时，我发现几乎所有的失败都可以归为六个类别，我称之为<strong>“失败的六大因素”</strong>。我强烈建议创始人和高管们在这些因素对他们的企业造成灾难之前，寻找预警信号。</p>
-<h2><strong>创业失败的六大因素</strong></h2>
-<p><strong>1. 产品与市场需求不匹配</strong></p>
-<p>归根结底，所有失败的产品都有一个共同点：没有多少客户觉得有令人信服的理由去购买。也许是价格问题，也许是产品功能，也许是因为这只是一个可有可无而非不可或缺的产品，又或许只是因为这不是人们期望从这家公司获得的产品。</p>
-<p>哈雷戴维森在摩托车核心业务上享有盛誉，但当它推出一款古龙水，进入一个由阿玛尼、卡尔文·克莱恩和范思哲等顶级设计师品牌主导的高度竞争市场时，产品失败了。汉堡王（同样推出过一款古龙水）和奇多（润唇膏和眼影）的异想天开的产品尝试也遭遇了同样的命运。</p>
-<p>如果公司在确定潜在买家与产品价值主张之间可能形成强大联系之前，就大量投资于制造、分销、营销和销售，可能会陷入严重困境。有句谚语形容这种情况：有解决方案却找不到问题。</p>
-<p><strong>2. 财务管理不善</strong></p>
-<p>大多数公司失败的原因很简单：资金耗尽。债务过多、支出管控不严、客户获取成本过高，或过度依赖单一收入来源或客户——这些只是企业可能在起飞前就已耗尽资金的几个警示信号。</p>
-<p>Webvan是一家早期的网络杂货配送服务公司，在尚未在一个市场证明自身模式可行之前，便在10个城市推出并筹集了7.57亿美元。其商业模式以自建和运营配送中心以及雇佣专属司机为核心，这种模式需要大量资金才能让公司运转起来。</p>
-<p>家居用品零售商Bed Bath &amp; Beyond在2018年还有超过1500家门店，但公司没有利用现金流投资业务，而是自2004年以来花费118亿美元回购自家股票，最终在2023年宣布破产。</p>
-<p>在某些情况下，获取和维护客户的成本过高，以至于客户的终身价值都无法覆盖这些投入。通过收购来拓展产品线或进入新的市场细分领域的公司，往往支付了过高的价格，但收获却微乎其微。例如，电脑制造商康柏在1998年收购了数字设备公司（DEC），这是当时计算机行业规模最大的合并案之一。康柏希望通过收购DEC的海外业务来扩大其全球影响力。然而，这两家公司始终未能实现完全整合，最终康柏因财务困境在2002年被惠普收购。</p>
-<p><strong>3. 忽视客户价值</strong></p>
-<p>强大的品牌是在公司为客户创造积极价值体验时建立起来的。如果企业无法理解客户心目中的“价值实现”是什么，就会削弱其实现长期客户满意度的能力。即使是忠诚的客户，也可能因为以下问题而感到不满：产品功能不完善、质量不佳、客户支持不到位，以及性价比低。</p>
-<p>苹果的 Newton 是手持计算设备市场的先驱，其许多功能——如手写识别和日历管理——在1993年对于移动设备来说是革命性的。但公司急于推向市场，其准确捕捉用户书写的能力远未达到预期。它的不足使其成为笑柄，最著名的是在《杜恩斯比利》漫画和《辛普森一家》中。客户习惯为苹果产品支付高价，但Newton 未能提供预期的价值。</p>
-<p>三星的Galaxy Note 7功能繁多，价格昂贵，2016年上市时，其制造质量、HDR支持和流畅的用户界面都受到了好评。然而，在发布后的一年内，由于客户报告电池过热甚至爆炸，250万部Note 7手机被召回。</p>
-<p><strong>4. 竞争过于激烈</strong></p>
-<p>无论一个组织多么具有创新性，每个公司或产品都面临竞争。关键在于如何应对竞争。试图赢得竞争对手的忠实客户群体是一项艰巨的挑战。但另一方面，自满的行业巨头可能无法跟上创新者的步伐，失去其曾经主导的市场，特别是在技术密集型领域。</p>
-<p>今天具有颠覆性的技术，明天可能就会过时。威胁可能来自多个方向，比如竞争对手向上或向下拓展市场，或者一个特别好斗的对手耗尽你的资源。（在高度依赖知识产权的企业中，这种威胁尤其明显。）</p>
-<p>想想MySpace。在一段时间内，它定义了社交媒体，在2006年达到顶峰时，它曾短暂成为美国访问量最高的网站。但它未能创新，没有跟上年轻用户迅速变化的习惯，很快就被Facebook甩在了后面，这个差距它再也无法弥补。通用汽车（GM）作为美国最大的汽车制造商，为其自动驾驶出租车服务Cruise投入了超过100亿美元。当Cruise在2016年推出时，自动驾驶出租车的发展是公司的首要任务。然而，Cruise无法跟上Waymo和特斯拉等竞争对手的步伐，涉及Cruise车队的安全事件反复使公司与监管机构产生冲突。通用汽车最终在2024年关闭了自动驾驶出租车开发部门，停止了亏损的Cruise业务。</p>
-<p><strong>5. 时机不当</strong></p>
-<p>宏观经济、技术、国际事务或市场动态的不可预见变化，可能会对产品及其制造商造成致命打击。新的税收或关税可能会破坏财务预期和客户接受度。如果一项新技术需要配套的物理基础设施或庞大的合作伙伴生态系统，那么其推广速度可能会极其缓慢。</p>
-<p>但有时时机不当——进入市场过早或过晚——也可能是自找的麻烦。赶上热门市场的浪潮可以让融资变得轻松，但一旦浪潮退去，下一轮融资可能会变得艰难。</p>
-<p>另一个例子是，一个市场成功并不保证在其他市场也能取得胜利，比如亚马逊的Fire手机。多年来一直有传言说亚马逊正在开发一款手机，因此当它在2014年6月推出时，人们的期望很高。尽管它有一些技术创新和有竞争力的价格，但它的推出比iPhone的推出晚了七年，比第一款安卓手机晚了六年。毫不奇怪，亚马逊的设备从未迎头赶上，并在一年后停产。</p>
-<p>从某种意义上说，英国虚拟活动初创公司Hopin的时机再好不过了。它成立于新冠疫情爆发的前一年，随着旅行限制和社交距离要求使线下活动无法进行，Hopin平台的应用率急剧上升。在2021年达到78亿美元的峰值估值后，随着人们回归线下活动，需求下降。Hopin 经历了三轮裁员，最终在2023年以1500万美元的价格将核心业务卖给了RingCentral。</p>
-<p><strong>6. 领导团队薄弱</strong></p>
-<p>招聘、留住和激励人才是一项永无止境的任务，更不用说将个人融入一个团结高效的团队了。高层的机能障碍会迅速蔓延到整个组织，打击士气。</p>
-<p>Theranos和安然公司是领导团队薄弱、不道德，将公司引向臭名昭著结局的典型例子。安然公司向监管机构和投资者隐瞒了巨额债务和不良资产，而Theranos则将患者健康置于危险之中，还欺骗了其投资者。在这两种情况下，领导层的不受约束的行为都是负责其治理和监督的董事会的失败。</p>
-<p>当然，这两家公司也可以作为第七种因素的例子：<strong>公然欺诈</strong>，但在一开始很难发现。想想伯尼・麦道夫（Bernie Madoff）的庞氏骗局。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_2cfe89d36293482fbba6db21bb9803d3@000000_oswg466045oswg850oswg478_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>从失败中汲取教训</strong></h2>
-<p><strong>创业者们可以做些什么来避免——或者至少从失败中学习呢？</strong></p>
-<p><strong>1. 关注业务基本面</strong></p>
-<p>对于初创企业来说，过去几年一直很艰难，资金有时也很稀缺。因此，资本效率至关重要。公司不应在没有明确的产品市场契合度的情况下进入市场。</p>
-<p>以ESPN手机为例，它在2006年推出后不久就被停产了。它只显示体育比分和ESPN内容。这让它成为了一个锦上添花的物品，而不是一个必需品，即使是对于最狂热的体育迷来说也是如此。</p>
-<p><strong>2. 打造世界级团队</strong></p>
-<p>创业者应该让自己身边围绕着强大、经验丰富且积极投入的管理团队、董事会和投资者。以WeWork为例，董事会未能发现过度消费的文化，也没有执行财务纪律。</p>
-<p><strong>3. 将客户价值实现作为首要任务</strong></p>
-<p>无论行业如何，年轻公司的成功在很大程度上取决于早期客户的高满意度。选择具有代表性的早期客户，他们能代表你试图服务的更大市场，并始终征求并听取他们的反馈。</p>
-<p>电动汽车制造商Fisker的管理层如果能听取早期车主的意见就好了，软件和零部件频繁出现问题，导致不断进行复杂的维修，这让车主们很沮丧。</p>
-<p><strong>4. 保持开放心态和灵活应变</strong></p>
-<p>即使是最成功的公司也至少经历过一次转型。在面对变化和挑战时，保持开放心态和灵活应变至关重要。</p>
-<p>一个未能成功转型的教科书式例子是百视达（Blockbuster），它曾经拥有超过9000家门店，主导着电影租赁市场。在错过收购一个叫Netflix的年轻初创公司的机会后，它最终因市场向流媒体娱乐的转变而败下阵来，并于2010年申请破产。</p>
-<h2><strong>失败的价值</strong></h2>
-<p>浏览失败博物馆的展品可能会让你会心一笑，但这是一个严肃的课题。每一个失败的产品或公司都伴随着代价：资源的浪费、工作岗位的流失以及声誉的受损。</p>
-<p>但请记住，<strong>失败也可以是有益的。</strong>很少有知名企业能够声称从未经历过失败。事实上，缺乏失败可能表明缺乏创造力和信念，或者对冒险的恐惧。</p>
-<p>从过去的失败中汲取教训，有助于打造一家持久的企业。只是要警惕那些可能破坏你事业的因素就好。</p>
-<p><strong>关键词：创业</strong></p>
-<p>肖恩・雅各布森（Sean Jacobsohn）| 文</p>
-<p>肖恩・雅各布森是风险投资和成长型股权投资公司 Norwest Venture Partners 的合伙人，专注于企业云领域从早期到后期的投资机会。作为“失败博物馆”的创始人、首席历史学家和收藏家，他收集了失败公司和产品的实物，并整理了他的学习心得。他还创立了哈佛商学院校友天使投资人组织，这是全球最大的大学附属天使投资团体。</p>
-<p>Kimi | 译  周强 | 编校</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY4MzQyMQ==&amp;mid=2650145897&amp;idx=1&amp;sn=413d7136e06397d02c51b940f0236293&amp;chksm=bf8d1af6b99c5e46680196a490e8f38d9c6c5eacbba5c713f317904eb62a6593340d176ec1fb&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“哈佛商业评论”（ID：hbrchinese）</a>，作者：HBR-China，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3160047455148545</guid><pubDate>Mon, 10 Feb 2025 08:25:00 +0800</pubDate></item><item><title>第五消费时代：拼多多、小红书、泡泡玛特、胖东来们的相继崛起，都有一个共同的底层逻辑</title><link>https://36kr.com/p/3160022950402560</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>《序曲：第五消费时代》报告中，我们首度揭示了“第五消费时代”的底层逻辑与典型特征。</p>
-<p>以“序曲”开篇之后，我们将于今年，正式进入“第五消费时代”的深度主题研究之中。冀望透过该系列研究，形成一个独特又务实的关于中国大消费的认知框架。</p>
-<p>作为首个重要主题词，我们的本篇研究落脚于：<strong>悦己。</strong></p>
-<p>这不是凭空而来的流行词。在过去30年间的日本消费市场，已经2020年以后得中国消费市场，“悦己”二字在消费领域的内涵与份量愈渐深刻与厚重，正成为第五消费时代的一个关键词。</p>
-<p>在这一时代背景下，对比中日悦己消费市场内因、消费特性，理清悦己消费对企业有哪些启示，尤其重要。</p>
-<h2><strong>01 悦己消费的两种内涵</strong></h2>
-<p>我们还需要从悦己消费的定义聊起。</p>
-<p>根据《Z世代消费趋势分析报告》显示，在微博、小红书和抖音等主流内容平台中，“有关悦己”的推文同比增长了74%。“悦己”已经成为影响Z世代消费的一个重要标签。 当然对于诸多85前人群而言，可能 存乎一个相同的困惑：悦己这个题眼，似乎有点莫名其妙。</p>
-<p>在过往大多数的语境描述中，悦己使用的语境往往是存在明确对立面，即将财富和时间投入到自身而非外部：比如为了巴结领导客户送礼，可能吃力不讨好，还不如省下来提升自己的能力。</p>
-<p>但近几年，平价产品从某种程度上可以代替悦己消费这个词：比如购买阶级身份认同感更强的传统品牌汽车，功能还没有平价国产新能源汽车好，为了对外的“面子”牺牲“里子”并不值当。</p>
-<p>从某种角度出发，后者的逻辑似乎经不起推敲，因为悦人与悦己的关系总是有点暧昧。</p>
-<p>对于奢侈品，在部分人眼里这就是为了对外彰显地位和身份，是悦人的表现。但假如我就是非常喜欢这件奢侈品的质感，设计，买了就心里满足，那这是不是悦己？</p>
-<p>再比如，通常情况下口红被当作是化妆品的下位替代平价产品，我买口红涂了自己开心，但实际上涂口红提升外貌是外人再看，那这算悦人还是悦己？</p>
-<p>带着这个问题，我尝试从两位消费大师的表述中寻求答案，一位是三浦展，另一位是比肩“消费大师”，但更具中国特色的“小红书”。</p>
-<p>在三浦展的视角里，日本社会的悦己消费是“再生活化”的体现：日本社会从未向今天一样渴求真实感，而不是虚幻的魔法膨胀。因此悦己成为了最直接，最真实的消费行为。</p>
-<p><strong>以日本社会的视角出发，悦己消费的定义就是真实感。而真实感的定义就是具备使用价值，能够切实对生活产生改变的才是悦己产品。</strong></p>
-<p>在小红书的“悦己”标签里，我们得到了类似却存在区别的答案。</p>
-<p>多数博主表达与“悦己”对立的标签并不完全是“虚幻、膨胀”，更多的是一种情绪表达，比如反内耗、满足感、个性化、学会拒绝。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_fbaf89e2d9c5475980161e585c9f1dca@000000_oswg148945oswg554oswg231_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：悦己消费部分社媒内容，来源：小红书</p>
-<p>显然，中日两个版本的悦己消费有相似性但不是完全趋同。相同的一面——都强调真实感和亲身体验的自我满足，比如最右面的悦己生活指南都是动手尝试某事物）；不同的一面在于，“小红书”版本的悦己更加包容，稍显务虚式的消费（比如精致文学、谷子经济等等）也可以被视为悦己消费。</p>
-<p><strong>因此，我们认为“悦己消费”有狭义和广义两种不同内涵：</strong></p>
-<p>1） 狭义的悦己消费，类似于三浦展所说的追求真实感，所有虚幻、泡沫和对未来的憧憬都站在对立面，满足自身切实的体验才是第一性。</p>
-<p>2） 广义的悦己消费，在追求真实感的同时，任何有助于情绪正反馈的消费都算悦己消费。</p>
-<p>如果我们考量的终极问题是第五消费时代，悦己消费对企业和投资的启示。还是得刨根问底，搞清楚两个版本悦己消费的成因，才能对症下药。</p>
-<h2><strong>02 悦己消费的驱动内因</strong></h2>
-<p>如果考量悦己消费对企业和投资的启示，还须刨根问底，搞清楚两个版本悦己消费的成因，才能对症下药。</p>
-<p>先来谈谈三浦展视角下，日本悦己消费形成的内因。</p>
-<p>还是要延续消费代际发展的思路——日本社会学者见田宗介将战后的日本社会划分为“理想的时代”、“梦想的时代”和“虚构的时代”，它们分别对应着三浦展笔下的第1-3消费时代。</p>
-<p><strong>从“虚构的时代”走向“魔法的时代”就是第三、四消费时代的切换。</strong></p>
-<p>所谓“魔法”，其实代指的就是信息化。阪神大地震后，正值日本社会高速迈入物质到信息的高速转变周期，对于身处信息时代的年轻人而言，没有车是可以接受的，没有物质也是可以接受的，但是没有虚拟的世界和网络社交是不可接受的。</p>
-<p>而这些看似酷炫的数字化产品、高科技应用，对如偏保守的日本社会而言，就像是魔法。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_1699d706655f400cb61fc683802193c7@000000_oswg31560oswg822oswg623_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：消费时代划分，来源：《孤独社会》</p>
-<p>以三浦展的解构来看，疫情中后期，日本社会逐渐迈入第五消费时代，那么与“魔法的时代”对应的，其实就是“再生活化”，即所谓“真实的时代”。</p>
-<p><strong>当然与第三、四消费时代切换一样，第五消费时代也由节点事件催生：一是福岛地震的余波，二是疫情来袭。这俩个在我们看来的偶发事件，却深深影响了日本社会的思维模式。</strong></p>
-<p>以三浦展的原话来讲：</p>
-<p>“许多人发现自己对很多重大负面事件根本没有知情权，就这样将自己的生活乃至生命托付给了他人，人们开始对这样的生活产生了质疑，人们也希望自己的生活可以自己掌控。”</p>
-<p>“从来没有哪个时代像今天一样，人们如此渴求真实感，人们想要的是生活，而不是魔法。每个行为都是真实的生活，人们制作真实的物品，用真实的行动感受生活，感受真实生活的魅力。“</p>
-<p>由此我们可以看到，对他人的不信任感和对未来悲观的情绪，是日本寻求真实感，悦己消费文化诞生的内因。</p>
-<p>再来谈谈现阶段国内视角下悦己消费的内因有何不同。</p>
-<p><strong>在某种程度上讲，我们的悦己文化根基，也是膨胀的泡沫破裂后的产物。只不过与日本消费泡沫相比，我们实际上并没有经历过长周期的消费泡沫，而是一种“期望”泡沫的破裂。</strong></p>
-<p>比如在传统的社会认知中，就业、住房、婚姻、育儿等等现实因素是塑造个人社会价值的核心，但随着过去数十年快速发展，驱动力逐渐成为了现实社会难以实现的压力，逐渐脱离了正常人短期购买力可以承接的范围。</p>
-<p>因此，我们的悦己消费并没有类似日本一般，动不动就谈及生死的过渡悲观情绪。</p>
-<p>当然也有人会认为，只是因为我们的经济环境要显著优于萧条期的日本，或者我们的人口结构还没有完全迈入类似日本的老龄化社会。因此现阶段的差异仅仅是时间上的差异，未来消费发展会延续日本消费市场的轨迹。</p>
-<p>但我们并不这么认为，日本的悲观情绪很大程度上根植于民族历史。</p>
-<p>作为资源并不算丰腴的岛国，日本充斥着“物哀”文化，他们充斥着对永恒的向往，象征永恒的天皇成为了日本民众刻画时代的符号，但注定无法实现。</p>
-<p>无论是川端康成意境中“悲与美是相通的”，还是太宰治笔下的“生而为人，我很抱歉”，都是日本社会极度物哀、悲观的具象表达。</p>
-<p>而我们的文化氛围完全不同，作为仅有延续了古文明的中华文化，我们的思维方式总是冠以更广的视角，更长的周期，即便面对挫折，也可以潇洒道上一句：“大不了就从头再来。”</p>
-<p><strong>从经济动因讲，我们和日本处于第四消费时代向第五消费时代过渡的过程中，因此悦己都成为消费市场的核心词，但两国文化氛围存在底层差异，注定了我们并不会一比一复刻日本消费观。</strong></p>
-<p>所以，从第五消费时代的视角出发，并不能简单的复制日本悦己消费的模式，更需要考虑到差异性， 那么具体到消费市场，差异性在哪。</p>
-<h2><strong>03 中日悦己消费启示录</strong></h2>
-<p>行文至此，我们终于可以简要地回答下，第五消费时代的大背景下，我们应该如何认识悦己消费，机遇在哪？</p>
-<p><strong>首先，传统的大众日用品，无论我们还是日本，都是表彰实用主义，惩罚虚无主义，这是第五消费时代的大背景，悦己消费也不例外。</strong></p>
-<p>从买下全球近7成的奢侈品，Logo贴满大街小巷，到迅销、无印良品的崛起，日本消费实用主义的愈演愈烈。2023年三浦展社会调查显示，近几年日本消费实用主义进一步提升，消费偏好增长了20.7%，排名第一。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_d1ef6da9498f4a9cb847c0330df22769@000000_oswg46833oswg1080oswg410_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：日本消费偏好调查，来源：《孤独社会》</p>
-<p>近两年来，我们也经历了消费实用主义的转变，平价替代成为了最热门的消费标签。供给内卷、渠道内卷的本质，就是需求侧的消费实用主义。</p>
-<p>与之相对应的是，前两年火热的新消费逐步退潮，虚无符号主义逐步暂时退出了消费市场，即便是通过新消费浪潮实现扩店、上市的品牌（比如新茶饮），也在推出轻量化平价产品，复合大众最基本的需求。</p>
-<p>第五消费时代，对于绝大多数消费品而言，实用主义就是最典型的标签。</p>
-<p><strong>其次，无论驱动悦己消费的内因是追求真实感，还是逃避社会压力的反叛精神，都会追求即时性反馈，杠杆消费会越来越差。</strong></p>
-<p>福岛地震后，日本消费市场的即时性需求显著增加，大多数企业和个人不在讲述长期主义的故事，就比如日本的智能车市场，分析师可以从各个方面找出日本电动车落后的原因。但总是忽略一条：日本的消费者不愿意相信企业未来的技术承诺，比如建多少充电桩、多少软件更新。</p>
-<p>国内的消费市场亦是如此，不接受画饼成为悦己主义的核心。勇敢的人先享受世界、会花钱才会赚钱等等标签其实都是对消费即时性的体现。</p>
-<p>当然，我们对长期主义的容忍度要远高于日本，不然新能源车也不会创造奇迹。这就好比史铁生笔下童年和老年都会对未来迷茫，前者迷茫的是前途未卜，后者迷茫的是该如何接受只有一条路，看不见未来的人，其实早已看见了未来。</p>
-<p><strong>那么有没有一个具体的指标来理解这个即时性，在我们看来，所有带有“杠杆”性质的消费都会越来越差。</strong></p>
-<p>这个“杠杆”不是指绝对的贷款，而是超过购买力的支出，比如花90%工资购买电子产品，虽然没有借贷，但是影响了日常生活，也算是杠杆。</p>
-<p>这种预支未来的消费会越来越少，初创消费企业也应该避免做这样的产品。</p>
-<p><strong>再次，现阶段悦己消费认知的最大误区便是平价=悦己。</strong></p>
-<p>关于平价=悦己的固有印象，主要的原因还是悦己标签的实用主义特性。但实用主义的核心绝不仅仅是平价，而是能够满足长尾需求的供给。</p>
-<p>常常被认为吃了平价红利的典型日本企业迅销（优衣库母公司），实际上并不是如此。日本的家庭消费增速直到上世纪90年代中期才出现显著的负增长。而优衣库1984年开店，到1994年早已完成上市，并不是因为绝对平价而成功。</p>
-<p>正如柳井正在《一胜九败》中所表述内核，迅销之所以做休闲装，是因为二十岁上下男士除西装外的供给不足，休闲装在满足需求的同时具有高周转的特性，才能成功。而非简简单单一句低价就能掩盖这其中的巧思。</p>
-<p>还有一个典型的例子，就是从日本“华强北”转变为二次元天堂，成为第五消费时代典型标签的秋叶原，借用虎扑老哥的以一句话，秋叶原能成功依靠的也并不是绝对的低价，而是极为丰富的产品供给。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_d5d4299d67c54e61955bd9da2dc481a6@000000_oswg44677oswg554oswg139_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：有关秋叶原的虎扑网友评论，来源：虎扑网</p>
-<p>所以企业要做的，实际上是寻求在能够满足情绪价值的情况下，通过价格发现来满足多数用户的需求。</p>
-<p>比如，我们一直认为，拼多多的成功并不仅仅是因为低价，更多的是通过拆分需求来满足更多的消费者，从而实现更多的贸易，低价只是价格发现的结果。</p>
-<p>还是那个例子，修电脑需要一个S码的扳手，只修一次通常情况下需要买全码的工具箱，你能说19.9的工具箱不够平价？但你真正的需求是有人1.99卖你一个扳手而已，拼多多就做到了这点。</p>
-<p>再比如很多人认为第四、第五消费时代，很难开辟出新的赛道，可是瑞幸也能通过9.9带动咖啡市场的增长。最核心的逻辑是瑞幸通过更低的价格，匹配了咖啡最核心的需求咖啡因，而不是提供一个安静的办公氛围。</p>
-<p>这样的例子在当下数不胜数，小红书的实用静音皮鞋、蜜雪冰城的平价多巴胺供给都塑造了商业神话。</p>
-<p><strong>最后，悦己消费表彰的是小而美，而不是大而全，小是指品牌足够垂，美是指需要满足消费者的情绪价值。</strong></p>
-<p>日本的制造业在过去二十年的主流叙事是小而精，“工匠精神”背后围绕着的就是产品的精致化和小型化，但日本的企业其实永远追求的是大而全。</p>
-<p>从消费电子到化工制药再到新兴传媒文化产业，只要叫得上号的日本知名企业总在追求产业一体化和企业多元化，饮料企业投资医药，医药企业投资半导体的案例比比皆是（比如日本汽车联盟、索尼收购哥伦比亚电影等等）。</p>
-<p>大而全的叙事逻辑其实是供给匮乏年代的符号主义品牌价值观，利用大而全的企业形象向产品背书，而彼时消费者并没有过高的专业性需求，所以挑选产品往往信赖大公司，大企业。</p>
-<p>但近几年的日本企业，都在缩窄投资范围，回归主线（比如我们之前讲过的三丽欧和三得利），因为大多数消费者不再信赖符号主义，而是具备了基础的产品辨别能力。</p>
-<p>纵观近几年国内，出圈爆火的品牌，从lululemon到泡泡玛特，有一个共同的特点是，产品和用户相对牟定在某一个赛道，做深自己擅长的产业。</p>
-<p>情绪价值的概念相对抽象，但我们总结出两大类最直观切中情绪的核心要素：透明度和低姿态。</p>
-<p><strong>透明度对应的是第五消费时代下消费者渴望的真实感，最典型的案例就是胖东来，通过铺天盖地对员工关怀形成了与消费者的情感共鸣，又通过透明的价格标签再一次出圈。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_760d7d013b0c42db847a25937c5c0304@000000_oswg162127oswg384oswg269_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：胖东来价格标签图示，来源：新营销</p>
-<p>可能胖东来的东西卖的并不算便宜，但价格体系的透明，等于将消费的选择权完全让渡到消费者手中，再一次满足了情绪价值。</p>
-<p>低姿态对应的是老生常谈的产品逻辑—永远不要教育消费者。学习成本偏高的产品根本卖不出去，反倒是千人千面的产品给足了消费者情绪价值。</p>
-<p>泡泡玛特就是品牌足够垂和情绪价值足够高的集大成者，泡泡玛特的产品大多数没有情绪表达（参考《潮玩：快乐及正义》中Molly设计师故意将玩偶的嘴角拉平），在用户开心时，看到的玩偶就是开心的，烦恼时看到的玩偶就是烦恼的，这才是最低成本的情感共鸣。</p>
-<p>回头看看，今年真正做到“小而美”的企业，是不是都受到了市场的嘉奖。</p>
-<h2><strong>04 结语</strong></h2>
-<p>最后总结一下，我们当下对“悦己消费”的基本观点：</p>
-<p>·悦己消费的界定分为两种，狭义就是追求真实感和切肤感，广义还包括能够带来情绪正反馈的消费行为都算。</p>
-<p>·第五消费时代下，日本和中国的悦己消费驱动的内因有所不同，日本来自长期“物哀”文化，短期受到偶发事件影响催化；中国是对社会压力的排解和表达不满，前者程度深，后者程度低。</p>
-<p>·对于消费品商家而言，第五消费时代需要遵从的消费心理，一是实用主义，二是即时性不画饼，三是企业应当追求更广泛的供给，第四是品牌应当做小而美而非大而全，做到以上四点，悦己消费会给予企业时代的表彰。</p>
-<p>当然，正如三浦展在《孤独社会》中文版后记中的阐述：过去三十年人们经历过泡沫和幻灭，他们追求真实感，未来的年轻人如果生活一直很简约，那会不会更向往泡沫经济期的生活呢？</p>
-<p>最后必须指出的是，消费文化总是随着经济、人口和教育处在不断变化之中，没有一尘不变的标准答卷，因此以上观点仅供大家参考。</p>
-<p>*本文系基于公开资料撰写，仅作为信息交流之用，不构成任何投资建议</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkxOTAyNjAwOA==&amp;mid=2247550685&amp;idx=1&amp;sn=0ca820c699c32ecc6f8e383a96b39c1d&amp;chksm=c085c04d8c95f06ff404d52a783b8a50574c750021bfd95491b7a8e004cda6f08ac94d7f14ca&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“锦缎”（ID：jinduan006）</a>，作者：耀华，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3160022950402560</guid><pubDate>Mon, 10 Feb 2025 08:26:00 +0800</pubDate></item><item><title>14万一平的清河橡树湾，建在一家大厂的废墟上</title><link>https://36kr.com/p/3160019049405188</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>一家大厂的余晖。</p>
-</blockquote>
-<p>“你看到那栋楼了吗？”马师傅抬了抬下巴，让我顺着窗户往外看。店铺不大，中间勉强放下一排桌子，用来摆成捆的布料，两边剩余的通道很狭窄，他懒得从布料和毛线堆里挤到窗边，只用视线作导航。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_ea37213eb0bc4415aa167368de0f40f8@000000_oswg92165oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">马师傅店铺的后窗</p>
-<p>我认识那栋楼。在北京清河，那是很多人都认识的高档住宅小区，楼市最红火的时候，每平米能卖14万。附近很多互联网大厂的高管都住在那里。</p>
-<p>“那不是橡树湾吗？”我于是回答。</p>
-<p>马师傅在招呼一个买布的客人，用一米木尺量布。他把布匹展开，木尺首端对准布的边缘，食指按在木尺的末端充当坐标，再迅速把木尺首端移动过来，嘴里念着：“一米、两米、三米。”我以为他没有听到我的回答。</p>
-<p>等裁完布，马师傅又出声：“那栋楼，是我们以前的厂房。”</p>
-<h2><strong>消失的“大厂”</strong></h2>
-<p>以前，至少指20年之前。</p>
-<p>2005年8月3日，清河毛纺厂地块出让，在经过多轮竞价后，华润集团以25.65亿拿下该地块，成为当年的北京“地王”。按照当时的成本测算，华润需要把开盘价做到每平米7000块以上，才能确保不亏损。同在清河片区的清河新城，当年冬天的销售价格仅为6000元/平方米。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_4e6e9f84205e4bb09ec0d1e72bbdb681@000000_oswg820483oswg1058oswg1144_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源网络</p>
-<p>后来的故事广为人知，橡树湾共开发了五期住宅项目，首期开盘价约为8600元/平方米，最后一期在2015年开盘时，每平米价格已高达约14万元。</p>
-<p>当时的清河镇远没有现在的配套商业，附近的建设基本都围绕着北京毛纺厂、北京清河毛纺厂和北京制呢厂这三家“大厂”展开。</p>
-<p>周边最主要的居民区是毛纺厂南小区和北小区，三家大厂的职工陆续分到了房，职工子弟在厂区上幼儿园，在步行范围内读小学，等念了清河中学，很多人上下学的时候还要从毛纺厂的厂区穿过。厂区门口有个大操场，职工和家属闲暇时间在这里锻炼身体；连毛头小子约架都离不开毛纺厂，毛纺厂南面的小树林，曾是附近中学生的“约架胜地”。</p>
-<p>厂里的食堂能解决一日三餐。职工下班，在食堂打几份饭回家，带着小孩一起吃，大概就是九十年代版本的“外卖”，毛纺厂的豆沙点心、制呢厂的小馄饨，至今仍被曾经的厂区子弟怀念。洗澡也在厂区内解决，毛纺厂和制呢厂都有自己的大澡堂，小孩子们被爸妈带去搓澡，搓到全身发红，像是掉了一身皮。</p>
-<p>马师傅从店铺的后窗口，见证过毛纺厂的机器轰鸣、全厂停工、厂房被推倒、楼房盖起来。他从近30年前开始，就在清河毛纺城市场卖毛线和布料，一直卖到商场关门前的最后一天。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_f7eb29a756bc4ffc8aadb40ea614b4dd@000000_oswg135192oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>“这个楼啊，从前是厂里的办公楼，后来改造成了市场。”马师傅说，“九几年的时候，一大批厂里的工人没活干了，大部分人都出去了，还有我们一小部分人就在市场里租个地儿，卖卖布卖卖线。”</p>
-<p>从办公楼改造而来的“身世”，解释了毛纺城很多不太像“市场”的特质。</p>
-<p>两座连体五层大楼，层高比一般商场更低，走廊狭长，由几盏日光灯提供全部光源；墙上刷着半身高的绿漆，因为年代久远，绿漆开始脱落，留下白色的斑驳；走廊里的地面，最早铺的是水磨石瓷砖，后来瓷砖裂了，又用纯色瓷砖修补上。在这样一条走廊，曾经的大厂干部们拿着保温杯进进出出，后来的消费者拎着毛线和布匹进进出出，最后是施工队用平板车运着废弃的木板进进出出。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_42550c8fd8424895b2c8af8e90ca4957@000000_oswg75628oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>马师傅今年快80岁，完整地经历过这三个阶段。三十多年前，“降本增效”这种时髦的词还没有出现，他和工友们不理解，之前一直在开分厂、加生产线、扩大规模的厂里，怎么突然就要减产了。</p>
-<p>但把故事放置在历史长河里，清河毛纺厂们的改革是一种必然。90年代初，随着改革开放的深入，私营毛纺企业兴起，南方的一些企业更早引入先进设备，在产品的花色和品类上下功夫；浙江嘉兴等地已开始创办中外合资的毛纺企业和国际毛纺集团，从设备、生产、销售等多个方面完成优化。市场化竞争中，一些曾经的国营毛纺大厂开始出现产品滞销、库存积压、供大于求的问题。</p>
-<p>同样的问题，不止出现在北京，也出现在全国各地的毛纺大厂。1990年，郑州六大国棉厂的收入相比1989年下降了40%以上；1995年，曾拥有2200多职工的张家口第五毛纺厂亏损2亿多，宣告破产。</p>
-<p>转型和阵痛一同来临。超过1000万棉纺锭在几年间被淘汰，新的生产方式带来新的活力，进入2000年后，纺织产业重新开始腾飞。</p>
-<h2><strong>卖线的最后一天</strong></h2>
-<p>推陈出新，清河毛纺厂就是那个“陈”，它在物理意义上被“推”掉了。曾经作为办公楼的这两座连体五层大楼，因为先一步改造成了毛纺城市场而被保留下来。</p>
-<p>当年跟马师傅一起开始做买卖的老职工，这些年大部分都陆续不干了，老毛纺厂留下的痕迹越来越少。更多商户来自全国各地，有从苏州北上卖丝绸做服装定制的、有从内蒙古南下卖羊绒衫的，清河毛纺城一度成为北京乃至华北地区最大的毛纺织面料交易市场。</p>
-<p>见到马师傅那天，他正面朝走廊坐在店门口刷短视频。30年过去，这将是他开店的最后一天。对面的店里东西已经被搬空，门也落了锁。</p>
-<p>早在24年下半年，就有消息说清河毛纺城要撤了，12月31号是最后一天营业。整个市场都贴上“闭店大促”的宣传海报，连商城统一发的纺织购物袋，都印上了标语。因为不少老商户的生意没有做完，整个市场的关闭日期先是延到1月16日，最后又延到1月18日。</p>
-<p>大约一半商户要把店搬去附近的清河百货，但马师傅不打算搬店，等16号招待完最后一拨来扫货的老客户，17号他就打算喊儿子开车把要搬的东西搬回家。“我这么大年纪，懒得搬了，这次彻底退休不干了。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_09ad4e1efd214dc4a59afdec384eb3ad@000000_oswg146624oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>最后一天下午，他通知一位做西装定制的老主顾来拿货。老主顾选颜色时，他用木尺挑开高处柜子上的布帘子，叫我们往上看：“瞅瞅，这儿还藏着三匹布呢。”</p>
-<p>“拿走”是那天下午出现频率最高的词汇。</p>
-<p>老主顾说：“这个颜色的拿一点。”</p>
-<p>马师傅说：“拿走。”</p>
-<p>老主顾说：“这个真丝料子囤一点做内衬。”</p>
-<p>马师傅说：“拿走，不裁了你都拿走吧。”</p>
-<p>直到对方看上一匹蓝色金丝绒布料，马师傅才不好意思地说：“这个咱俩一人一半行吗？我想裁一半拿回去做床床单。”</p>
-<p>布料之外，马师傅还卖毛线，他的老伴织出来很多帽子和围巾，挂在货架上当样品。马师傅“火眼金睛”，客人的手放到哪件样品上，他就会迅速地告知，这是拿哪几种线一起织的。最后几天，样品也加入售卖，20块钱就能买一个帽子。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_0f667b62233e463ba578ff02fe0bc85e@000000_oswg140660oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">马师傅爱人织的样品</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_e405fcdf29624b858e247a6b7846f566@000000_oswg165593oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">我买的帽子</p>
-<p>除了要拿回去做床单的几米金丝绒，没有卖掉的布、毛线、样品，最后都会低价卖给商城里其他打算继续做生意的同行。商场最热闹的时候，光卖线的同行就有几十家，小小的铺子里挤满来买线织毛衣的人，现在同行要么退休，要么撤走，搬家继续干的所剩无几。</p>
-<p>“现在线不好卖了，您会织毛衣吗？”他是在问我，北京人在对话时喜欢用“您”，尽管我肉眼可见地比他要小几十岁。见我剧烈摇头，他又说：“我们那时候，您这么大的姑娘都会织毛衣，现在年轻人会织的少。”</p>
-<p>我想起了给妈妈撑毛线的童年。几代人的记忆里，全家人的毛衣都从妈妈、奶奶或外婆的手里越长越大，像变魔法一样。几代女性曾经用这样的方式为家庭节约开支，到我们这一代，女孩子终于不需要织毛衣了，双手从一项以温暖和母爱为名的家务中解放出来。</p>
-<h2><strong>留下的，离开的</strong></h2>
-<p>这是我在同一天里，听到的第二句以“年轻人”为主语的评价。</p>
-<p>上一句来自另一家店里的顾客，她是商场的熟客，赶在商场关门前，来买羊绒线，定做春节要穿的羊绒衫。可能是我的年龄和她儿子差不多，而她儿子又从不穿她精心挑选的衣服，她忍不住抱怨：“你们年轻人，就是不爱穿好东西。衣柜里没有一件正经衣服，羊绒、丝绸，多么天然的好面料啊，你们嫌不好打理，随便放进洗衣机里搅一搅。衣服就像人一样的，你怎么对待它，它就怎么对待你。”</p>
-<p>在这座建筑风格被凝固在上世纪九十年代的商场，顾客之间的交往方式似乎也被定格在上一个时代。拎着购物袋的陌生人，只要走进同一家店，很快就能搭上几句话，你帮我看颜色，我帮你摸料子。</p>
-<p>在抱怨年轻人不爱穿“好东西”时，店里的气氛热烈到顶点，每一位母亲都有一堆苦水要倒。</p>
-<p>“前年我给儿子媳妇各做了一件羊绒衫，一直到现在都没见他们穿过。”</p>
-<p>“那你还给他们做呀？”</p>
-<p>“做呗，那能怎么办。就是这个紫色，多好看呐，人就是不爱穿。今年他们不穿我自己穿。”</p>
-<p>做毛衣，基础款的手工费是150元一件，也可以带着自己看中的款式来，如果款式复杂，需要再加钱。线可以自选，按斤标价，按两卖，羊绒线800左右一斤，给成年女性做一件薄款纯羊绒衫，大概需要半斤线。这样算来，一件定制款羊绒衫的价格在600元左右。如果羊绒衫脏了，要放在30度左右的温水里，浸泡后手洗。</p>
-<p>但对大多数年轻人来说，150块钱的手工费，就足以在网上买到一件毛衣，可以扔进洗衣机随便搅一搅的那种。我们没有很多钱，也没有很多时间。</p>
-<p>很多老顾客赶在最后几天来采购，还有人把商场闭店甩卖的消息发在小红书，不少和我一样的年轻人，带着探究的目光来到这里。店里最受欢迎的单品是帽子，60块一顶的羊绒帽比羊绒衫好卖得多，等我到店那天，帽子已经被卖得差不多了。老板走到模特跟前，一把摘下戴在模特头上的明黄色羊绒帽，戴到我的头上。模特自此露出光头，从店外的玻璃橱窗望进去，光头模特显得颇为诡异，但店里也没有其他帽子给她戴了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_9e88f19ecfb84c019278ef3abb950f87@000000_oswg47096oswg1080oswg1115_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">没有被带走的衣服</p>
-<p>时间以一种相对缓慢的方式，在这座楼里流动。在这里，老板和客人对话的语速只有外面世界的二分之一，句子与句子之间的停顿，却被拉长到两倍。好像我给我的word文档选择大两号的字体，再使用双倍行距。</p>
-<p>缓慢意味着低效，但买的人和卖的人，似乎都不是很在意。</p>
-<p>店老板会花20分钟时间，跟客人讨论怎么把她带来的两件羊绒衫拆线后重织。那是两件对襟羊绒衫，一件正红色，一件宝蓝色，购买于她的少女时代，等再次从衣柜里被翻出来时，发现扣子已经没办法扣上了。</p>
-<p>老板把她红色羊绒衫的领子拆开，才发现领口处的线是被剪断的——这件衣服应该来自制衣工厂，为了提高效率，工厂会先用机器织好一大片，再批量剪裁后缝成完整的衣服。“只有袖子的线能用了，你重织的话得再买好几两线，不划算的。”老板劝客人把衣服留着，里面搭一件白衬衫，扣子扣不上就敞开来穿。</p>
-<p>20分钟的讨论结束，在老板的主动建议下，生意没有做成，她还要再花时间把领子缝回去，但她脸上没有任何沮丧的神情。</p>
-<p>沮丧只出现在我们谈论起房租时，等搬到清河百货后，店租要翻一番，她不确定老生意是不是还能坚持做下去。对她来说，铺子是生意的根本，顾客亲手摸一摸线，选颜色，称份量，挑款式，最终把羊绒衫做出来再交付到顾客手上，每个环节都是买卖的必要环节，如果离开铺子，很多环节都会失去意义。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_201195c7bd2c4fddacb01725104d8377@000000_oswg79475oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>也有一些店主，正在尝试把部分生意搬到线上。楼下制衣店的老板周师傅，是上世纪八十年代北上创业的苏州裁缝。“当年苏州竞争很激烈，我就来北京看看机会，一做就做了几十年。”周师傅仍保留着浓重的南方口音，他从九十年代开始在毛纺城市场开制衣店，做面料生意，也做西装和旗袍的私人定制。2024年，在子女的协助下，他开始在微信视频号更新短视频，讲“70岁老裁缝的日常”，在一期视频里，他说：“有好多人刷短视频看到我以后来找我做衣服。”</p>
-<p>马师傅比周师傅年长近10岁，对微信的使用技能停留在发布照片上。营业的最后一天，我给他和待了几十年的店铺拍下合照，我们添加彼此的微信，他说一定要让他来扫我，不然他不知道怎么通过别人的好友验证请求。</p>
-<p>他也不知道怎么通过手机交话费，前几个月，马师傅骑车去附近的移动营业厅充话费，发觉“那一片大变样了”。</p>
-<p>从毛纺城市场正门出发，沿着毛纺路向南走700米，就能抵达清河地区最热闹的商场，清河万象汇。每到周末，大批居住在附近的互联网大厂员工，都会聚集在这里，吃饭、逛街、遛娃。比照毛纺厂地块出售时的图片，清河万象汇也盖在当年厂区的原址之上。</p>
-<p>马师傅没去过万象汇，甚至没听过这个名字，他只知道五彩城，那是万象汇2020年改造前的名字。他一辈子的工作都没有离开过清河，起初端着大厂的铁饭碗，没想到“四十多岁年纪轻轻职业就中断了”，后来又赶上做买卖的好时候，等到晚年，幸运地同时拥有退休工资和生意收入。</p>
-<p>毛纺城市场关停后，毛纺路几乎成为这家大厂在清河地区留下的最后痕迹。那些在万象汇吃饭的新“大厂人”，很多也会和马师傅一样在四十多岁面临职业中断的危机，当他们开车或者骑着电动车驶过毛纺路时，应该得到遥远的祝福，祝福他们能同样幸运地开启职业生涯下半场。</p>
-<p>编辑部的一位同事曾经吐槽，说我是一个“消亡叙事爱好者”。很长一段时间，我都在思考这种爱好从何而来，是否有任何价值。</p>
-<p>事实上，不管是毛纺厂的老职工，在毛纺城经营多年的商户，或是数十年如一日来市场买线的顾客，都对讨论过去缺乏兴趣。大部分时间，他们都是出于对我的善意，才愿意回忆一些辉煌和曲折的曾经。比起过去，他们更愿意谈论跟儿子儿媳相处时的麻烦，下一家场地高昂的租金，或是金丝绒做床单暖不暖和。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_e4b3d7dbb927463f9ad194c4d87ebc58@000000_oswg667314oswg832oswg624_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>有一百多年历史的清河制呢厂，曾经是洋务运动的产物，后来见证了新中国的诞生，也见证了国有纺织企业的辉煌与衰落。即便它的厂房被推倒，它留下的地块继续见证了房地产市场的腾飞，见证了后厂村、清河一带的互联网科技公司越聚越多，几乎成了“中国硅谷”。毛纺城市场是曾经的大厂留下的“历史孤岛”，现在它结束营业，是因为它的使命彻底结束了。一件再小不过的小事。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_9855e874587f452ea668bc2b99fadac5@000000_oswg96982oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在写这篇稿子的时候，关于“消亡叙事爱好者”的自我怀疑不断侵扰。决定性的瞬间出现在除夕夜，DeepSeek影响下，英伟达股价开盘闪崩，一位在英伟达打工的朋友，在群里发了个公司封面的新年红包，红包上写着“趁公司还没倒”。我尝试和DeepSeek聊北京毛纺厂和清河制呢厂，发现它对辉煌的过去了如指掌，却对长达30年的衰落过程一笔带过，甚至不知道毛纺城市场和橡树湾，只称“厂区闲置”。</p>
-<p>事实上，DeepSeek的答案也是互联网信息的浓缩版，公开资料中，大部分信息都与建设与发展相关，而关于厂区的拆除，我甚至只能从地块拍卖资料中找到蛛丝马迹。</p>
-<p>如果人类生产的文字终将成为投喂AI的养料，那么我希望能给下一个版本的DeepSeek投喂马师傅与毛纺厂有关一生，以及毛纺城市场的最后一天。</p>
-<p>（马师傅为化名，除特殊标注外，图片均由作者拍摄。）</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkxNzAwMDkwNQ==&amp;mid=2247692279&amp;idx=1&amp;sn=adf760af04e2cd79d144d265d71dc73f&amp;chksm=c04ac3bd6e2f0b7941cfba56bfea4b67aa441e4c19e7f3172d92b88220d57d1d4b3084d3b4a5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“刺猬公社”（ID：ciweigongshe）</a>，作者：陈梅希，编辑：园长，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3160019049405188</guid><pubDate>Mon, 10 Feb 2025 08:26:00 +0800</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Mon, 10 Feb 2025 09:00:21 +0800</lastBuildDate><pubDate>Mon, 10 Feb 2025 09:00:21 +0800</pubDate><item><title>「吉美瑞生」获数千万元B+轮融资，肺干细胞产品即将启动Ⅲ期临床｜36氪首发</title><link>https://36kr.com/p/3156319089908231</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>36氪获悉，「吉美瑞生再生医学集团」近期已完成数千万元B+轮融资。本轮融资投资方为冷杉溪资本，募集资金将主要用于公司旗下相关干细胞产品的临床研发和申报。</p>
+<p>吉美瑞生成立于2015年，专注于干细胞的人体器官再生医学领域，通过开发创新的细胞与基因治疗产品，实现人体组织器官的修复、再生和增强。2022年进行B轮融资时，36氪就曾对吉美瑞生的技术平台和产品布局<a href="https://36kr.com/p/1862486379681672" rel="noopener noreferrer" target="_blank">进行报道</a>。</p>
+<p>本次，恰逢B+轮融资完成之际，我们回访了吉美瑞生创始人、CEO张婷博士，聊了聊公司过去两年多时间里的业务进展，以及对于干细胞行业未来发展的思考。</p>
+<p>张婷提到，过去两年多时间里，公司的业务进展主要集中在临床方面。首先，公司自主研发的<strong>肺部再生医学创新产品REGEND001已相继完成两项Ⅱ期临床研究，分别针对慢性阻塞性肺病（COPD）和特发性肺纤维化（IPF）</strong>。其中，“COPD最近正在做中期分析，预计今年上半年就会和监管部门启动Ⅲ期临床的沟通交流”。</p>
+<p>此外，近期公司还获得国家重点研发计划“干细胞研究与器官修复”专项数千万经费的支持，由张婷博士牵头，联合国内十余家医疗机构和科研单位，开展针对COPD和IPF的III期确证性临床研究。该国家重大项目启动会于2025年2月9日在上海瑞金医院正式召开，中国科学院裴钢院士、中华医学会呼吸病学分会主任委员瞿介明教授、副主任委员李时悦教授等行业专家均深度参与此重要项目的启动。</p>
+<p class="image-wrapper"><img data-img-size-val="2174,1090" src="https://img.36krcdn.com/hsossms/20250207/v2_879f4fb3ffa84dc08597a0c0cb466712@5930287_oswg359356oswg2174oswg1090_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：吉美瑞生公司官网</p>
+<p>据张婷观察，近几年来，行业内对细胞治疗领域的关注度发生许多改观。一方面，随着研究不断深入和监管层面的完善，“大家已经认识到，干细胞可以按照药品来注册上市”。近期，国家药监局附条件批准首款干细胞治疗产品上市后，行业信心又得到进一步加强；</p>
+<p>另一方面，尽管资本市场表现相对低迷，避险心理仍然存在，但对于从事技术领先的创新方向，且产品接近上市、现金流储备尚佳的科技企业仍然抱有兴趣。“就吉美瑞生而言，我们在肺干细胞产品领域处在相对头部的位置，对机构来说，整体投资风险较小。”</p>
+<p>以REGEND001正在开发的COPD适应症为例：这是一类肺组织不可逆损伤造成的严重呼吸系统疾病，患者主要面临气管通气和换气两大类问题。当前，市面上虽已有多款成熟产品在售，不过，“传统抗体类产品主要通过抑制纤维化和炎症的方式发挥作用”，可以解决通气问题，但对于不可逆转的结构性损伤造成的肺的换气能力的下降，却很难发挥效果。相较之下，基于气道基底层干细胞新药REGEND001，可以有效地使受损的肺泡区域功能性再上皮化，从而实现肺纤维化损伤的再生与修复，有望从根本上解决这个问题。</p>
+<p>2024年，同济大学左为教授团队与钟南山院士合作发表在Science Translational Medicine上的研究称，经REGEND001治疗后，超过70%的COPD患者的肺换气功能显著改善、运动能力提升。此外，长期随访提示，COPD患者的生存期得到明显延长。团队针对相关细胞作用机制的研究也于近日发表在Nature子刊《Nature Communications》上。</p>
+<p>张婷介绍：“COPD进展到一定程度后，患者的换气能力其实都会出现问题。我们认为，这款产品未来在所有中重度COPD患者中都可能都会形成刚需。<strong>研发进展上，预计REGEND001有望在未来3年内获批</strong>，届时或成为全球首款上市的肺脏再生医学产品，并与现有的呼吸系统药物形成互补，逐步替代器官移植。”</p>
+<p>值得一提的是，公司新一代肺干细胞产品Pulmovinci已于近日获得美国食品药品监督管理局（FDA）孤儿药认定（Orphan Drug Designation, ODD），用于治疗特发性肺纤维化（Idiopathic Pulmonary Fibrosis，IPF）。Pulmovinci是在REGEND001基础之上进行了工艺变更优化，利用先进的重编程技术对细胞进行了年轻化处理，同时改进了产品运输的效率。<strong>公司计划在未来一到两年内在美国启动针对Pulmovinci的临床试验，开启公司国际化战略。</strong></p>
+<p>此外，公司针对重大肾脏系统疾病产品的研发也取得不少进展。基于自体肾脏前体细胞开发的新药REGEND003已完成Pre-IND提交申请。该产品对标美国ProKidney公司的肾脏修复产品，预期在今年启动针对II型糖尿病肾脏病的临床试验。另一款针对肾脏再生修复的通用型细胞管线REGEND008也已完成IIT研究，数据显示出该产品在患者的肾脏功能修复上呈现显著效果。</p>
+<p>虽然大众的传统认知中，以CAR-T为代表的细胞疗法往往以“天价”的形象出现。但由于制备工艺上的不同，干细胞产品在价格上颇具优势，“可以做到国家医保的接受范围之内”。</p>
+<p>另一方面，干细胞产品的另一点优势在于“可以做的适应症非常广”。从早期较多涉猎的糖尿病类代谢性疾病，到如今的神经退行性疾病、自免类疾病，以及COPD、IPF等难治性疾病，干细胞疗法覆盖的适应症边界正在不断扩展。</p>
+<p>“在细胞治疗领域，干细胞的发展虽然整体比CAR-T滞后几年，但在这两点优势的加持下，我认为，未来几年相继会有更多干细胞产品陆续获批。”张婷表示。</p>
+<h3><strong>投资机构简介：</strong></h3>
+<p>冷杉溪资本创立于2021年，是生物医药大健康领域的新锐投资基金。公司专精于全球生物医药产业的创新投资与价值发现，团队汇聚了产业界、科研界及创投领域的高层次人才，拥有丰富的医药产业经验与投资经验。冷杉溪资本秉持“求真务实、研精毕智”的核心理念，保持“前瞻性和独立性”的投资原则，致力于通过严谨的项目评估和科学的投资决策，为投资人、股东及全社会创造持续价值。作为医疗健康领域的精耕者，冷杉溪资本不仅追求投资项目的成功和回报，更致力于推动医疗技术进步、造福人类健康，并与优秀的科学家和企业家携手同行，不忘初心，一起书写生命科学的新篇章。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3156319089908231</guid><pubDate>Mon, 10 Feb 2025 08:30:00 +0800</pubDate></item><item><title>一块石头做成冰壶，为什么身价涨这么多？</title><link>https://36kr.com/p/3158697099418121</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>8日，在哈尔滨亚冬会冰壶混双铜牌赛中，中国队战胜菲律宾队获得铜牌，这是中国代表团在哈尔滨亚冬会获得的首枚奖牌。</p>
+<p>近年来，冰壶运动因其趣味性受到广泛关注。但在激烈的比赛背后，还藏着一个“冷知识”：一只国际比赛使用的冰壶价格约1.6万元人民币，一套（16只）冰壶约25万元。一块“岩石”变成冰壶，为何身价涨这么多？</p>
+<h2><strong>一套冰壶约25万元</strong></h2>
+<p>冰壶运动，又称掷冰壶、冰上溜石，是以队为单位在冰上进行的同场竞技投掷性项目。早期的冰壶运动被定义为“贵族运动”，随着项目的发展与演变，冰壶被世人冠以“冰上高尔夫”“冰上国际象棋”的称号。</p>
+<p>虽然名为“冰壶”，但制作冰壶的原材料并不是冰，而是石头。从其构造来看，冰壶‌由壶体、壶柄和壶栓三部分组成‌。据世界冰壶联合会和加拿大冰壶协会官网，当前国际冰壶比赛用的冰壶主要产自苏格兰的艾尔萨克雷格岛（Ailsa Craig）和加拿大威尔士岛（Wales Island）。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_ab17cbc3f19d44f389f6087144d3a7fa@000000_oswg115940oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲来源：苏格兰凯斯公司官网</p>
+<p><strong>值得一提的是，能生产国际比赛使用冰壶的制造公司并不多，知名度较高的有苏格兰凯斯公司和加拿大冰壶石业公司。</strong>据苏格兰凯斯公司官网，该公司拥有艾尔萨克雷格岛冰壶石的独家开采权，另据加拿大冰壶石业公司官网，该公司拥有特雷弗花岗岩的独家供应权，也是世界上唯一一家能够用威尔士特雷弗花岗岩生产冰壶的公司。</p>
+<p>那么，消费者在冰壶馆用的壶也这么贵吗？7日下午，中新经纬以消费者身份咨询了三家北京市的冰壶馆。昊昱冰壶运动中心工作人员表示，场馆使用的冰壶是赛事级标准，都从苏格兰空运过来，一只冰壶的价格在两万元以上。冰立方冰上运动中心冰壶馆的工作人员也表示，馆内使用冰壶的来源是2022年北京冬奥会的比赛用壶，体验者可以在“水立方”公众号购票预约，体验4次投壶收费30元，16次投壶120元，冰壶半日营价格为599元。</p>
+<p>兴创奥悦冰壶馆工作人员称，冰壶对原料、工艺要求比较特殊，所以，一般在国内能承接比赛的冰壶中心或俱乐部，使用的冰壶都是从国外进口的、能达到赛事标准的冰壶。“我们用的是苏格兰凯斯冰壶，一只冰壶接近两万元。学员的冰壶培训课程，单次课程价格为300元或350元（根据购课套餐决定）。”该工作人员表示。</p>
+<p>苏格兰凯斯公司官网发布的视频显示，制作一个国际比赛使用的冰壶要经历原石的打磨、塑形、抛光等多个环节，生产流程以手工制作为主。价格方面，<strong>中国招标投标公共服务平台显示，湖北省体育局武术和冬季运动管理中心2024年采购了两套凯斯冰壶，北京冰之韵体育文化发展有限公司中标，成交金额为22.95万元/套。</strong></p>
+<p>“由于应用场景有限，国内与冰壶业务相关的企业通常会根据客户的需求量采购，一套冰壶（16只）价格约为20万—25万元。”北京艾尔豪斯膜式技术有限公司（下称北京艾尔豪斯公司）市场总监孙涛对中新经纬表示。</p>
+<p>北京艾尔豪斯公司曾参与2022年北京冬奥会大本营直冷冰场设计建造工作，并参与建造了北京冬奥会中国国家队使用的冰壶训练基地。公司主要业务是冰场建设，冰壶业务则是作为配套服务提供给客户。</p>
+<p>“我们建设的冰壶馆分为商用和赛事用两种用途，部分项目会配套采购冰壶、冰壶刷等相关器材。通常情况下，一个冰壶赛道要配有一套冰壶，公司会根据客户的要求、场地赛道等情况，决定采购的冰壶品牌和冰壶数量。”孙涛说。</p>
+<h2><strong>为何这么贵？</strong></h2>
+<p>每套冰壶的价格约为25万元，平均一只冰壶的价格约1.6万元。小小的冰壶，为何这么贵？</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_d587ff64c3504ee9a94a56e2d41967fa@000000_oswg112242oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲来源：苏格兰凯斯公司官网</p>
+<p>河北地质大学教授张聚全向中新经纬表示，比赛使用的冰壶价格昂贵主要受三方面因素影响，一是冰壶石产地较少，苏格兰的冰壶石得到国际认证的同时，也承载了冰壶运动的历史和文化含义。如果使用替代性材料，除了面临材质本身质量的要求外，还要面临冰壶界是否接受的考验。</p>
+<p>“二是因为冰壶加工工艺复杂，除了原石开采使用机械外，其他环节全部需要制壶工人手工完成。一般情况下，5名熟练工人耗时3天才能完成一套冰壶。在生产过程中工人的经验有时起到很重要的作用，是生产一只优质冰壶的关键因素。三是和世界冰壶生产行业垄断也有一定关联。”张聚全称。</p>
+<p>在孙涛看来，一套冰壶可以使用20年，平均每年1万多元，如果再分摊到每只冰壶上，成本并不高。</p>
+<p>“与冰球3-5年的使用寿命相比，冰壶的耐用性更高。”孙涛称，由于艾尔萨克雷格岛生产的岩石具有极高的硬度和抗磨损性，能够在低温环境下保持稳定，受到撞击时不易损坏或开裂。此外，冰壶在使用过程中还可以进行打磨和修复，进一步延长其使用寿命。</p>
+<p>孙涛认为，冰壶的价格还与其工艺制作和市场需求密切相关。他表示，虽然冰壶石资源有限，但足以满足目前的冰壶供应需求。目前全球的冰壶馆数量有限、冰壶的市场需求量较小，上述原因导致了冰壶生产商无需扩大生产规模，便能实现供需平衡。除此之外，目前冰壶生产商主要来自国外，较高的手工费也会对冰壶的定价产生影响。</p>
+<p>“以中国为例，中国的冰壶馆数量并不多，且主要集中在少数大城市，市场需求有限。如果未来冰壶运动普及度提高，市场需求增加，且中国的机械化工艺成本低于外国手工艺成本，那时的冰壶价格可能会有所下降。”孙涛补充道。</p>
+<p>目前，冰壶运动在加拿大普及程度较高。加拿大冰壶协会公布的2023年—2024年加拿大冰壶年度报告显示，2024年，超230万加拿大人参加冰壶运动。另据加拿大统计局，截至2024年12月，加拿大人口共有4100多万。</p>
+<p>尽管目前冰壶运动在中国仍属于小众项目，但在北京冬奥会后，冰壶运动的市场潜力正在逐渐显现。在孙涛看来，冰壶运动对身体对抗的要求不高，更多考验的是团队协作和策略思维；此外，冰壶运动对年龄的限制较小，老少皆宜，适合全民健身。</p>
+<p>孙涛表示，公司计划在未来投资建设更多的冰壶馆，并通过技术创新和市场推广，推动这一运动在中国的普及。“希望通过建设更多的冰壶馆，降低参与门槛，让更多人了解并参与到这项运动中来。”孙涛补充道。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247588840&amp;idx=1&amp;sn=c2372c0a1a5abef551df13049d3151f0&amp;chksm=e8c1670f0f42a2bdc87e3d59b325a8974379d9129cf643dd0c45199f766a39354fd048a23fac&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：周奕航，编辑：李晓萱，责编：魏薇 李中元，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3158697099418121</guid><pubDate>Mon, 10 Feb 2025 08:30:00 +0800</pubDate></item><item><title>奔驰中国区开启降本增效：引入OKR制度，低效产线或将被关闭｜36氪独家</title><link>https://36kr.com/p/3156084059789828</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>业绩承压，奔驰开始了降本增效。</p>
+<p>36氪从多处获悉，奔驰中国区颁布了多项调整策略。</p>
+<p>其中，研发中心将陆续开始采用OKR（目标与关键成果法）考核制度，对员工进行较为明确的工作考核；生产部门则正在进行产线调整，包括考虑合并效率较低的部分产线。</p>
+<p>就以上消息，36氪向奔驰求证，奔驰官方回应：“梅赛德斯-奔驰中国的员工绩效评估体系并未调整”，“在奔驰中国研发部和北京奔驰，我们正在进行必要调整，为给中国客户带来一系列即将在北京奔驰投产的新产品做好准备”。</p>
+<h3>研发+生产+销售，奔驰全体系行动</h3>
+<p>奔驰中国区研发此前已存在考核制度，员工绩效与年终奖挂钩，但知情人士告诉36氪，奔驰年终奖是“大锅饭”制，“年终奖的差别就是几百块钱”，并且，旧制度没有强制的具像化指标，“比如一个季度要达到什么数字这种，并且几乎没有员工会拿到最差的绩效”。</p>
+<p>新采用的OKR考核制度，将率先从奔驰专注智能化技术的上海研发中心展开，北京研发中心将随后采用。<strong>“改革的目的肯定是为了促进工作效率，但也不排除会根据新考核制度，进行末位淘汰”，相关人士向36氪如此表示。</strong></p>
+<p>生产部门的降本增效，则主要体现在产线的高效利用。</p>
+<p>奔驰在北京共拥有两座工厂，亦庄工厂主要负责长轴距版本的C级、E级轿车，以及SUV车型GLC，该工厂2024年产量超40万辆。奔驰将于今年推出的新车长轴距版纯电CLA，将在亦庄工厂投产。</p>
+<p>顺义工厂负责奔驰两款紧凑型SUV车型GLA、GLB的生产，以及奔驰纯电汽车EQA、EQB、EQC、EQE四款车型的生产。奔驰曾公开表示，国产化的GLE车型也将在顺义工厂投产。该工厂去年产量尚不足10万辆，新投产的GLE车型由于售价高昂，或也难担销量重任。</p>
+<p>在各厂家纷纷追求高效生产的今天，奔驰丰富的产品线，给生产端造成了一定的成本压力。<strong>提升畅销产品产能、合并低效产线，将成为奔驰在生产侧的主要动作。</strong></p>
+<p>除此之外，奔驰中国区销售部门在今年1月的一场沟通会上公开表示，<strong>2025年其经销商网络也将进行战略性优化，包括但不限于主动优化零售网络布局，精简产品品类等</strong>。</p>
+<p>另外，据德媒报道，奔驰全球将开启裁员，总裁员人数或将高达2万人。</p>
+<p>从德国总部到中国区，从研发、生产至销售环节，奔驰的确已经开启降本增效的经营篇章。面对不断变化的市场，百年车企也在未雨绸缪。</p>
+<h3>应对未来竞争，奔驰希望“省”出弹药</h3>
+<p>在刚过去的2024年，奔驰的销量总数仍然可观，但相较去年，难掩下滑趋势。</p>
+<p>在中国市场，奔驰一共卖出71.4万辆新车（含梅赛德斯-奔驰乘用车及轻型商务车），在豪华品牌销量榜位列前三。但相较去年76.5万的成绩，同比减少6%。这已经是奔驰中国区销量连续第二年出现下滑。</p>
+<p>2024年奔驰全球销量共198万辆，同比下滑3%。其中美国市场实现了同比9%的增长。但中国区销量下降7%，欧洲销量下降3%。</p>
+<p>财报显示，2024年前三季度，奔驰净利润为78.06亿欧元，同比下滑31.4%‌‌。作为奔驰最大单一市场，中国区销量的下滑，对其全球业绩与利润均造成了重要影响。</p>
+<p>目前，奔驰的销量主力车型为C级、GLC以及E级。其中，指导价44.72万元的全新长轴距版E级，在2024年取得了14.5万辆的成绩。</p>
+<p>根据规划，奔驰中国区未来两年的重磅新车，是将于2025年推出的长轴距版纯电CLA、以及于2026年推出的国产版GLE两款车型。</p>
+<p>纯电CLA是奔驰MMA平台的首款作品，MMA是奔驰打造的可油可电的紧凑型车平台。虽然CLA将搭载支持车位到车位功能的L2+级高阶智能驾驶、与支持智能语音的全新操作系统MB.OS，但紧凑型轿跑车，并不是中国消费者青睐的主流车型。</p>
+<p>对于GLE车型而言，首次实现国产化带来的价格优惠的确是有利吸引点。不过，进口GLE的指导价高达69.98万元。其竞争对手宝马X5，售价在实现国产化后降低了6万元。奔驰GLE在国产化降价后，依然会是一款针对小部分消费者的的豪华SUV。</p>
+<p>36氪此前曾报道，在MMA平台后，奔驰规划了更新的纯电平台，瞄准中型至大型车这一定位。但根据奔驰的研发节奏，新车落地时间最早也将在3年后。</p>
+<p><strong>短期时间内，奔驰在中国市场最有力的销量棋子，依然会是C级、GLC以及E级三款燃油车。</strong></p>
+<p>然而，自主品牌的新车正瞄准奔驰三款当家产品。奔驰需要保持销量，维持奔驰在中国汽车市场的品牌心智，为未来更有力的新车争取生存时间。</p>
+<p>中国区这一轮降本增效，便是奔驰“省出续命钱”的第一招。</p>
+<p>根据奔驰总部规划，到2027年，奔驰全球将要达成节省50亿欧元的财务目标，并且这一目标在2025年将完成50%，即25亿欧元，约合188亿人民币。</p>
+<p>这并不是一个简单的数字，降本增效将成为奔驰未来两年面临的阶段性难题。大象瘦身虽然艰难，但奔驰显然已经有了决心与方向。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3156084059789828</guid><pubDate>Mon, 10 Feb 2025 08:50:00 +0800</pubDate></item><item><title>二线白酒暴雷，狼真的来了</title><link>https://36kr.com/p/3159179990882824</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2月5日开市之后，A股大盘延续较为火热的市场情绪，但白酒为首的大消费依旧不受待见。其中，中证白酒指数仍保持下跌大趋势，较去年10月高点大幅回撤20%左右。</p>
+<p>当前，白酒最新PE仅有18.5倍，远低于十年中位数的29.72倍，估值也已经回到2015年低位水平。但为何资本市场依旧不买账？未来又需要依靠什么力量来逆转如此悲观的预期呢？</p>
+<h2><strong>01</strong></h2>
+<p>A股白酒板块已经连续下行了4年，<strong>背后最直接驱动因素是业绩基本面被证实大幅放缓，且有负增长的态势了。</strong></p>
+<p>白酒业绩表现在2023年之前还保持双位数的高增长，但从2024年开始加速下行。据统计，2024年Q1、Q2、Q3上市白酒企业总营收同比增速分别为14.67%、10.64%、0.53%，归母净利润同比增速分别为15.75%、11.76%、2.05%，环比呈现明显加速下行趋势。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_a8f7b0acaece4f6d98859443ecf78863@000000_oswg107696oswg810oswg445_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>具体来看，茅五泸在2024Q3利润增速也出现降速现象，分别为13.28%、1.34%、2.58%。而二线白酒中的洋河股份则出现明显暴雷——营收同比下滑44.82%，归母净利润同比下滑73%。</p>
+<p><strong>2024年第四季度，二线白酒业绩暴雷范围扩大，不单是利润大幅滑了，甚至进一步扩展为利润亏损了。</strong>据2024年报预告：</p>
+<p><strong>酒鬼酒</strong>——预计2024年归母净利为0.1-0.5亿元，同比下滑98%-97.3%。因前三季归母净利总额为0.56亿元，Q4单季亏损0.06亿元至0.46亿元。</p>
+<p><strong>舍得酒业</strong>——预计2024年归母净利为3.2亿元至4.2亿元，同比下降81.9%-76.3%。因前三季归母净利总额为6.69亿元，Q4单季亏损2.49亿元至3.2亿元。</p>
+<p><strong>金种子酒</strong>——预计2024年归母净利为-2.91亿元至2.01亿元。因前三季归母净利总额为-1亿元，Q4单季亏损1.01亿元至1.91亿元，亏损额进一步扩大。</p>
+<p><strong>二线酒企进入雷区，亦暗示了一线酒企业绩压力。</strong>从逻辑上看：</p>
+<p><strong>一方面，茅五泸批价持续下行，甚至与零售价产生不小幅度的倒挂。</strong>截止今年2月4日，飞天茅台散装价格为2230元/瓶，较2024年初的2680元/瓶下跌16.8%，且尚未出现明显企稳迹象。此外，茅台1935批价已回落至700多元，出现价格倒挂，较此前最高点腰斩不止。</p>
+<p><strong>另一方面，为稳定价格，茅五泸纷纷启动以量控价举措。</strong>具体来看，2024年，茅台取消12瓶装飞天茅台的市场投放，对经销商进行管理和控价要求；2024年八代五粮液减量20%供应；高度国窖1573推行控量挺价策略。</p>
+<p>以上两大因素在2025年亦不会很乐观，<strong>“量价齐跌”大概率仍然是主旋律。</strong></p>
+<h2><strong>02</strong></h2>
+<p>白酒基本面持续进入下行周期，背后最主要驱动因素是宏观经济承压下行。进一步拆分看，是固定投资（尤其是房地产）这架马车持续承压了。</p>
+<p>茅五泸定位高端，其价格决定了消费群体主要为企业商务人士（B端）与个体中产（C端）。2021年以来，固定资产投资增速下行与房价下行均成为高端白酒需求（价格）下行的两大驱动力。</p>
+<p>房地产自从2021年见顶以来，投资增速持续下滑，虽有政策出台对冲，但目前仍未触底。据Wind统计，2021年12月，中国房地产投资累计同比增速为4.9%，此后波折一路下滑，到2024年12月，累计同比增速下探至-10.8%。这对整体固定资产增速形成不小拖累。</p>
+<p>然而，在此2021年及此前，房地产是拉动经济增长的核心驱动力，亦是高端白酒的主力王牌行业。因为房地产拉动上下游产业链特别庞大，包括水泥、钢铁、建材、化工、机械、建筑、装饰、家居、家电，以及相关联的金融服务等等。把这些都加总一块的话，房地产直接与间接对经济的贡献可能占到30%-40%。</p>
+<p>房地产承压对于企业商务人士的高端白酒消费需求形成冲击。此外，房价下行，个体中产财富有不同程度的缩水，也会趋向于减少对高端白酒的需求。这可以从二手房挂牌价指数与飞天茅台批价指数走势吻合来证明。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_f24b95f08004472b83ca5b821de0d0e7@000000_oswg108886oswg819oswg442_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>高端白酒需求不佳，供给上还略有增加，自然会驱动批价持续下行，乃至出现倒挂。这样一来，又会对高端白酒的投资需求造成打击。</p>
+<p>因为购销差没了，甚至倒挂，就几乎没有人愿意继续囤积高端白酒了。这意味着高端白酒的投资需求萎缩会从社会库存下游向上游传导，首先是个人、黄牛不再囤积，其次是中小经销商不但不囤积，反而向渠道抛货、回笼资金，进一步施压批价。此外，中大经销商因要维护与酒厂紧密合作关系，虽然不会批量甩货，但也很难再从酒厂吸纳大量库存。</p>
+<p>时间一长，自然会倒逼酒厂控量挺价，酒厂营收、利润增速自然也就保持下行趋势，进而整体进入下行大周期。</p>
+<p>那么，白酒需求什么时候企稳，进而逐步切换至上行周期呢？</p>
+<p>在我看来，<strong>白酒的症结还是在于需求什么时候起来，背后深层次的大逻辑是房地产什么时候触底企稳，乃至反转。</strong></p>
+<p>去年“924”之后，相关部门再度出台了一系列房地产刺激政策，地产销售在最近几个月的确有环比改善，尤其是一线城市。但短时间内的环比好转，并不能推导整个房地产行业已经企稳甚至反转了。</p>
+<p>其实，房地产将继续被更基础与长期定价因子主导，包括人口增长、居民杠杆空间以及地产行业仍未完成的去杠杆和出清过程。</p>
+<p><strong>整体看，地产出清没有那么快，触底尚需时日。地产如此，对于白酒步入复苏周期的期待宜不能过早、过于乐观。</strong></p>
+<p>因此，尽管白酒估值看起来已经足够诱人了，但基本面缺失上行驱动力，下行周期还未走完。</p>
+<h2><strong>03</strong></h2>
+<p>只要地产没有真正触底复苏，就不宜对白酒估值整体性修复抱有很乐观期待。不过，2025年大消费行业依然存在结构性投资机会，尤其是消费红利股。</p>
+<p>2024年中央经济工作会议，将“大力提振消费、提高投资效益，全方位扩大国内需求”列为2025年九项重点任务之首。这是首次将消费列在投资之前，背后深刻反映了逆周期政策调节的重心将从投资生产端切换至消费需求端。</p>
+<p>2024年，中国社零销售占GDP比重为36.16%，距离2016年高峰的44.7%还有一定距离，且低于国际平均水平的60%。在重磅会议定调消费之下，加之特朗普已经宣布对中国所有商品加征10%关税（后续是否升级尚不可知），提振消费占GDP的比重显得愈发重要。</p>
+<p>政策定调之下，多部门会陆陆续续公布具体的消费提振举措。比如，在今年1月8日，国家发改委和财政部公布《关于2025年加力扩围实施大规模设备更新和消费品以旧换新政策的通知》。这其中明确提到对手机、平板、智能手表手环等数码产品进行补贴。</p>
+<p><strong>只要有政策预期在，大消费领域就存在结构性机会，尤其是成长性较好、分红属性又好的红利股。</strong></p>
+<p>具体来看，在软饮料赛道，东鹏饮料是一匹黑马，依靠产品性价比持续抢占红牛市场份额，保持业绩高速增长，且分红又慷慨，市场也给予了乐观定价；在消费服务赛道，携程集团成长性较好，常年由外资定价，资本表现较好；在家电、汽车等耐用品消费赛道，美的集团、福耀玻璃等龙头值得关注……</p>
+<p>总之，<strong>2025年大消费更应围绕“低价优质好服务”、亦或是明显受益于消费政策提振的细分领域去寻求好公司。</strong></p>
+<p>不过，对于过往领涨大消费的白酒，投资者则应更加谨慎一些，紧密保持对房地产市场的跟踪研究，一旦真正显露出触底反转了，那时就应大力出手了。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzAwNjExNDkyOA==&amp;mid=2649864785&amp;idx=1&amp;sn=5f9a1180464eeba55a3fef25fd57d42d&amp;chksm=821952936469723894d87a70c8461d1ccfab867b13dff53e8e6c8558bc1a7e815462efd87835&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“格隆汇APP”（ID：hkguruclub）</a>，作者：刀锋，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3159179990882824</guid><pubDate>Mon, 10 Feb 2025 08:50:00 +0800</pubDate></item><item><title>E3大展“诈尸”，游戏圈这是真的好起来了</title><link>https://36kr.com/p/3159219648568067</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>此前在2023年年底，经历了线下游戏展的短暂复苏后，美国娱乐软件协会（ESA）方面宣布旗下被誉为“电子娱乐界一年一度奥林匹克盛会”的E3大展永久停办。E3的官推更是用一席略带伤感的文字做了告别，“E3经过20多年发展，一届比一届盛大，但如今是时候说再见了。感谢曾经的那些回忆。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_95bd02d78beb4c5ca973f8be6eb04de4@000000_oswg63832oswg750oswg344_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但仅仅一年之后，主办E3展的美国娱乐软件协会（ESA）似乎后悔了。近日有消息源透露，ESA宣布将在2026年4月推出一项全新的游戏展会“互动创新大会”（Interactive Innovation Conference，下文将简称为iicon），将面向“具有远见的领袖、思想家和创新者”，致力于“利用互动娱乐的力量”推动行业发展。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_412091cf4c1a4cc4a06f1d536001e1b9@000000_oswg17619oswg550oswg260_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>按常理来说，E3大展当初被迫关闭最直接的原因，就是微软、索尼等游戏巨头对于其失去了兴趣，所以一个缺乏参展商的展会自然就没有了存在的必要。可对于ESA准备要做的iicon，一众游戏厂商的态度却发生了180度的大转弯，包括索尼、任天堂、微软、Take-Two、EA、育碧在内的大厂都确定将会参加。</p>
+<p>事实上，E3从某种意义上来说是“猝死”，它的没落也是一连串巧合的结果。比如2019年E3主要负责人Dan Hewitt从ESA离职，内部人员的变动就导致了E3会展团队短时间内丧失了组织这种大规模活动的能力。屋漏偏逢连夜雨，2020年开始肆虐的疫情紧接着又给了线下会展沉重的打击。</p>
+<p>ESA的新团队在疫情期间对于E3大展采取了消极应对的策略，在宣布因为难以回避的公共卫生安全风险而被取消后，仅仅在2021年有过一次线上举办。其实从2019年至今，E3只在线上开过一次，再加上TGA的组织者Geoff Keighley站出来抢E3的生意了，另起炉灶做了“夏日游戏节”，让E3就遇到了“游戏厂商都不来了”的局面。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_1c9c5403fa4a4041a69a288bb5a1c44b@000000_oswg50611oswg750oswg342_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此次E3大展“借尸还魂”主要有两个原因，其一是游戏厂商确实还需要一个交流和宣发的平台，其二则是游戏行业已经彻底走出了疫情的阴霾。尽管伴随着GaaS概念的兴起，游戏发行商和平台方在发行理念上有了极大的变化，从跟着产品发售节奏走变成全年无休的随时响应，游戏本身的运作模式也在从传统出版行业转向互联网服务行业。</p>
+<p>如今游戏行业的宣发方式，已经与电影、电视剧、书籍分道扬镳，更并非是以游戏上线为终点。当下即使是单机游戏都开始比照网络游戏，会在整个销售周期随时进行宣传，其中最典型的例子就是《赛博朋克2077》。同时得益于移动互联网和通信技术的发展，通过视频流媒体和直播，游戏厂商甚至可以直面玩家，由此也就有了任天堂直面会、微软Xbox Games Showcase、索尼State of Play的出现。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_49a120838d3a4501a2ace0f4b4a7ce7c@000000_oswg59275oswg750oswg342_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当然，这次ESA要做的iicon其实并不是一个面向玩家的展会，而是回归了1995年首创E3时的初心，即举办一个以游戏开发商、发行商、零售商、媒体等业内人士为核心的专业向展会。要知道当初E3被外界诟病落后于时代的关键，就是其定位的模糊。</p>
+<p>知名游戏媒体IGN就曾在E3的相关报道中指出过这一现象，“采访业内人士时，我经常听到的一种抱怨就是E3缺乏固定的身份认同。它既想当贸易展览会，又想当商业中心、粉丝展会、新游戏发布会……最终这些元素全都混杂在一起，让E3变得越来越复杂。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_9e25b7faf7764f5b99f2ee5478d1a6b2@000000_oswg28015oswg600oswg340_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>经过多年的挣扎，ESA似乎终于想起了E3的安身立命之本——媒体与商务。毕竟业内人士互通有无、沟通交流实际上是常态，比如通信行业有MWC、消费电子领域有CES。</p>
+<p>但游戏行业需要一个E3展会是一方面，更重要的是现在已经有了“复活”E3的土壤。2024年游戏行业大盘火热，呈现出复苏态势，似乎已经走出了疫情阴霾。根据专注游戏市场研究公司Newzoo在年初的报道显示，2024年全球游戏玩家总数大约为34.2亿，其中付费玩家数为15亿（占比43.8%）、与去年相比上升5%。Newoo方面预计，今年全球游戏市场的收入或将达到1877亿美元、同比上升2.1%，2023-2027年整个市场将实现3.1%的年均复合增长率，2027年的营收规模有望达到2133亿美元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_74e301c3e7d2434991ea0f196637f321@000000_oswg49074oswg600oswg331_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>值得一提的是，2024年全球游戏消费支出呈现出显著的地区差异，美国与中国成为两大消费主力。然而日本有TGS、欧洲有科隆游戏展、国内也有China Joy，可现在美国居然没有本土展会。在游戏厂商手里又有钱了的情况下，参与展会的预算就会变得充足，所以北美这个游戏行业的中心居然没有相关展会显然是不正常的。</p>
+<p>所以ESA要做iicon是顺势而为，重新赢得游戏厂商的青睐自然轻而易举。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTk2NTk5Nw==&amp;mid=2649880057&amp;idx=2&amp;sn=78da40b7445fe97091c58a6940199224&amp;chksm=861d0a1657ee0211ec89d6742f4931162fdd6aaefa96cd3f14e58a3146ffd0014df92bf466aa&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“三易生活”（ID：IT-3eLife）</a>，作者：三易菌，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3159219648568067</guid><pubDate>Mon, 10 Feb 2025 08:51:00 +0800</pubDate></item><item><title>读很多书，但是记不住，怎么办？</title><link>https://36kr.com/p/3160048417561349</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>为什么有些人似乎只需读一遍，就能终生记住书中的每个细节，而另一些人放下书没几天，就连书名都难以记起？</p>
+<p>答案的关键不在于读了什么，而在于怎么读。</p>
+<p>被动阅读者拿到一本书时，只是单纯地“浏览”，而不是用心去“吸收”和“理解”所读到的内容，很容易转瞬就忘。主动阅读者在整个阅读过程中，都会认真地与书籍进行互动——从选书到阅读，再到记录、反思书中的内容，并将其付诸实践，进而获得新的洞见和启发，对生活产生积极、持久的影响。</p>
+<p>在本文中，我们将从读前、读中、读后三个阶段给出可实操的方法，帮助你真正“记住”读过的书，并理解和运用所读的内容。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_b73285ca598c4c3cbbdd3bcf82d33a64@000000_oswg696760oswg1080oswg639_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>准备工作比你想象的更重要</strong></h2>
+<p>一次成功的阅读很大程度上取决于准备工作。以下五个步骤可以帮助你进入主动阅读状态，提高你的阅读效率。</p>
+<h3><strong>01 筛选阅读内容</strong></h3>
+<p>选择读什么书并没有固定规则。<strong>我们不必非得阅读畅销书、经典名著，或是其他人都赞不绝口的书。</strong>你可以重点选择具备以下特点的书籍组合：1）经得起时间考验；2）能激发你的兴趣；3）与你当下的生活状态产生共鸣。<strong>一本书让我们觉得越有趣、越相关，未来就越有可能记住其内容。</strong></p>
+<p>对于年代久远的书籍或是翻译作品，要预先查看哪个版本被公认为最佳。</p>
+<h3><strong>02 了解相关背景</strong></h3>
+<p>一个好的开始是对书籍进行一些初步研究。有些书，当我们了解了作者的一些生平，以及创作的时间和地点后，可能会对其产生截然不同的理解。</p>
+<p>对于年代久远的书籍，要尝试去了解其历史背景；对于国外的书籍，要尝试了解其文化背景。可以参考下面这些问题进行探究：</p>
+<p>· 作者为什么写这本书？</p>
+<p>· 作者的背景是怎样的？</p>
+<p>· 作者还写过哪些作品？</p>
+<p>· 这本书是在哪里创作的？</p>
+<p>· 创作时的社会、经济和文化状况是怎样的？</p>
+<p>· 这本书有过翻译或再版吗？</p>
+<p>· 在书籍创作期间，有没有发生重大事件？</p>
+<h3><strong>03 明确阅读目的</strong></h3>
+<p>在阅读一本书之前，我们需要问自己一个问题：我为什么要读这本书？是为了消遣娱乐，了解未知的事物或人物？还是为了学习一项技能，提高工作能力？或者是为了帮助创业？<strong>你必须清楚自己期望从这本书中获得什么，才能更好地吸收和掌握所读内容。</strong></p>
+<h3><strong>04 明智地略读</strong></h3>
+<p>在开始阅读一本书（尤其是非虚构类书籍）之前，<strong>建议先浏览索引、目录、前言和封底内页，以便对书的主题有个大致了解</strong>。</p>
+<p><strong>参考书目也能反映出一本书的基调</strong>，优秀的作者通常每创作一本书，都要研读数百本其他书籍，所以一本经过深入研究的书籍，其参考书目应包含许多有趣的文献。在你读完一本书后，可以仔细翻阅参考书目，把接下来想读的书记录下来。</p>
+<h3><strong>05 选择与你处境匹配的书</strong></h3>
+<p>虽说把书和我们自身所处环境和状态相匹配并非总是可行，但这样来挑选书籍的效果可能超乎想象。<strong>当书籍成为经历的一部分而非仅仅是经历的补充时，会产生更大的共鸣。</strong></p>
+<p>选书时，不妨先审视一下自己的情况，看看哪些流派或作者可以帮助你克服当前的挑战或给你带来新的视角。因为无论你的境遇如何，总有人经历过同样的情况，有过相同的感受，思考过相同的问题，并把这些都写进了书里。书中的一些想法或许恰好适用于当下的你，关键在于你要找到那本书。</p>
+<h2><strong>怎样记住读过的内容？</strong></h2>
+<p>当做好前期准备工作，正要开始阅读时，下一步是确保记住更多、更重要的内容。以下六种方法或许可以帮助到你：</p>
+<h3><strong>01 做笔记</strong></h3>
+<p>做笔记是将阅读内容整合到自己思想的重要基础。</p>
+<p><strong>笔记没有最佳技巧，适合自己且易于坚持的就是最好的方法。</strong>虽然互联网上有数百种笔记系统，但你只需要选择其中一种，并不断进行调整，直到形成自己的系统。有些人喜欢把笔记记在索引卡或笔记本上，有些人则喜欢使用数字笔记工具。无论怎样，笔记不止对经常写作的人特别有用，我们每个人都可以从中受益。</p>
+<p>你可以从为每个章节写一个简短摘要开始，并摘抄任何你认为有意义的段落或短语。如果你不知道如何简化自己的想法，不妨想象有人拍了拍你的肩膀，让你解释一下刚读完的章节。他们从未读过这本书，对相关主题也一无所知。你会如何向他们解释呢？</p>
+<p>阅读一本书时，在每章结尾处写下章节摘要。如果这次阅读结束了，这有助于梳理你刚刚读过的内容。当第二天拿起书时，先读一读前两章的摘要，能够帮助你的大脑快速进入当前的阅读进度。</p>
+<h3><strong>02 保持专注</strong></h3>
+<p>在阅读的时间段内，你要全神贯注于书本，心无旁骛。不要查收邮件、不要使用手机、不要看电视、也不要盯着空气发呆。理解并吸收一本书的内容需要高度专注，尤其是当内容晦涩难懂或错综复杂时。</p>
+<p><strong>当你期望从一本书中有所收获，就要主动阅读，主动阅读需要专注，以及与作者进行思想交流的能力。</strong></p>
+<p>倘若你难以集中精力阅读一本特别难懂或篇幅较长的书，可以尝试每天只读25页。这样，你每天只需花费几分钟时间啃下一段有挑战性的文字，难度大大降低。虽然以这种方式读完一本长篇书籍可能需要几个月，但至少你能读完，而不会因内容过多而感到无所适从，也不会觉得枯燥乏味。</p>
+<h3><strong>03 在书上做标记</strong></h3>
+<p>我们大多数人从小就被教导要把书视为神圣之物——不能折书页角，也不能在书页空白处写字。然而，如果你想记住读过的内容，就别再执着于保持书籍的崭新。</p>
+<p>事实上，你可以毫不顾忌地在书页边缘写批注。写的越多，在阅读时你的思维就会越活跃。<strong>随手记下关联的想法和旁逸斜出的思绪，划出关键段落，养成与作者展开对话的习惯。</strong></p>
+<p>第一次在书上写字可能会让人心里发怵，但从长远来看，这种做法能帮助我们更深入地理解内容，并与作者的思想建立更强的连接。</p>
+<h3><strong>04 构建生动的心理画面</strong></h3>
+<p><strong>构建生动的心理画面是记住任何事物，尤其是记住所读内容的最有效方法之一。</strong>当读到重要段落或概念时，停下来，在脑海中想象其画面，尽可能让这个画面鲜明独特。</p>
+<h3><strong>05 建立心理链接</strong></h3>
+<p><strong>书中的内容并非孤立存在，每一个观点或事实都可以和许多其他的事物产生联系。</strong>主动去建立这种联系，是更好记住所读内容的有效途径。</p>
+<p>例如在阅读过程中使用以下心智模型，可以帮助我们更好地理解和整合书中内容：</p>
+<p><strong>· 确认偏误：</strong>我忽略了这本书的哪些部分？这本书是否印证了我的观点？（也要思考，它是真的证实了你的观念，还是你看到了自己想看到的？如果你在书中连一个不同意的观点都找不出来，那确认偏误可能正在影响你的判断。）</p>
+<p><strong>· 贝叶斯更新：</strong>基于这本书的内容，我应该改变哪些观点？我要如何利用书中信息来更新自己的世界观？</p>
+<p><strong>· 帕累托法则：</strong>这本书的哪些部分最为重要，包含的信息最多？如果我必须删掉这本书99% 的文字，我会保留哪些？许多作者为了达到一定的字数或页数要求，会让书中一些页面（甚至整章）充斥着冗余内容。</p>
+<p><strong>· 动机分析：</strong>是什么在驱使书中的人物或作者？他们在追寻什么？目的是什么？</p>
+<p><strong>· 易得性偏差：</strong>我最近读过的书，是否影响了我对这本书的看法？我近期的经历如何塑造着我的阅读理解？我是不是因为某些部分突出好记，就给它们赋予了过高的重要性？</p>
+<p><strong>· 刻板印象：</strong>我是否在无意识地将作者、书中人物或整本书归到某一特定类别？或者作者是不是在对人物进行刻板塑造？</p>
+<p><strong>· 社会认同：</strong>销量、畅销书排名、他人的评价等因素是否影响了我对这本书的评价？作者是否利用了社会认同心理来影响读者？</p>
+<p><strong>· 叙事本能：</strong>作者是否为了构建连贯的叙事而歪曲了真实事件？这种情况在传记、回忆录和历史类文本中很常见。</p>
+<p><strong>· 幸存者偏差：</strong>当我们阅读非虚构书籍时，特别需要警觉幸存者偏差。这种偏差在商业、励志、传记类书籍中屡见不鲜。具体表现为，作者可能只关注那些成功的案例，而忽视了那些失败的案例，这可能导致读者对实际情况产生错误的理解。一个成功的个人或企业可能只是特例，但被误以为是普遍规律。</p>
+<p><strong>· 实用性评估：</strong>如果一本书提供了建议，这些建议有实际应用价值吗？在哪种情况下，这些建议的效用会开始递减？</p>
+<h3><strong>06 感到无聊就停止</strong></h3>
+<p>你可以开始读很多本书，但只读完其中的几本。一般来说，<strong>热爱阅读的人永远不会勉强自己读完一本无聊的书</strong>。正如叔本华曾写道：“阅读好书的前提条件之一就是不要读坏书，因为生命是短暂的，时间和精力都很有限。”</p>
+<p>图书馆学家南希·珀尔提出了“50页法则”，即先读一本书的前50页，再决定是否值得读完。这个原则还有一个有趣的观点：一旦你年过半百，你应该从100中减去你的年龄，那个数就是你应当试读的页数。</p>
+<h2><strong>读完一本书之后应该做什么？</strong></h2>
+<p>当你读完了一本书。接下来呢？你要如何运用所学的知识？不要只是模模糊糊地觉得 “哦，我确实应该按照作者说的去做”。花些时间制定一个计划，决定如何将书中的关键经验付诸实践。</p>
+<h3><strong>01 学以致用</strong></h3>
+<p>大多数人认为，获取信息就等同于学习知识。但事实远非如此。</p>
+<p>学习的基本过程包括反思与反馈。我们从经验中获得的想法——无论是自身的还是其他人的——除非我们花时间反思，否则这些想法不会受到检验。如果你读了某些内容，却不花时间思考读过的东西，那么你的结论也会站不住脚。</p>
+<p>我们读书的原因之一，是书籍提供了丰富详尽的内容，让我们能够像作者一样看待世界，跟随作者的思路去建立联系、进行反思。这使得我们的大脑不仅能学到作者提炼的观点，还能了解这些观点在何种情况下可能奏效，在何种情况下可能行不通。</p>
+<p><strong>仅仅阅读是不够的，我们必须将知识置于具体情境中去理解。</strong>它在什么时候有效？什么时候无效？我可以在哪些地方应用它？关键变量有哪些？诸如此类的问题还有很多。如果你能将读到的内容立即应用，这将强化学习效果，并赋予知识更多背景和意义。</p>
+<h3><strong>02 费曼技巧</strong></h3>
+<p>费曼技巧以诺贝尔奖得主、物理学家理查德・费曼的名字命名。它包含四个简单步骤：1）选择一个概念；2）向一个小孩子讲解这个概念；3）找出知识漏洞，回顾原始资料；4）复习并简化内容。</p>
+<p><strong>教别人是将知识深植于脑海的有效方式。</strong>读完一本书后，在身边找一个愿意倾听的人，向他们讲述你学到的东西。你得去掉专业术语，或者对其进行解释，说明这些信息为什么有意义，并引导他们理解作者的逻辑。听起来很简单，但当你第一次尝试后，你会意识到这并不容易。</p>
+<h3><strong>03 让你的笔记易于检索</strong></h3>
+<p>整理笔记的方法有很多，可以按书籍、作者、主题或阅读时间来分类。无论你采用哪种，只要日后能够找到即可。</p>
+<p>将从阅读中学到的所有内容整理成目录，这会形成一种无价的资源。你可以在任何需要想法、灵感或想确认某个想法时查阅。经过多年的积累，你将会拥有一个个人的智慧库，它能帮助你应对各种危机、不确定性或需求。</p>
+<p>整理笔记的方式有：</p>
+<p><strong>· 一盒索引卡</strong>，最好按主题、作者或阅读时间来整理。索引卡可以灵活调整顺序。</p>
+<p><strong>· 一本摘录笔记</strong>，同样，最好按主题、作者或阅读时间来整理。</p>
+<p><strong>· 一个数字笔记工具</strong>，如印象笔记、OneNote或简单的Word。使用数字工具的好处是可以进行搜索，节省查找时间。</p>
+<p>更重要的是，定期安排时间阅读和复习这些笔记。</p>
+<h3><strong>04 必要时重读</strong></h3>
+<p>经典好书值得反复阅读。尽管还有很多其他书可读，重读可能看似浪费时间，但这其实是对学习过程的误解。<strong>重新阅读一本好书最佳的时间是在第一次阅读后立即开始。</strong></p>
+<p><strong>我们的目标不是尽可能多地读书，而是尽可能多地获得智慧。</strong>如果我们想长久记住书中内容，重读经典好书至关重要。重复是构建记忆的关键。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzAwODE5NDg3NQ==&amp;mid=2651281927&amp;idx=1&amp;sn=3172940ec527e3efe1f8e6416b4b7bea&amp;chksm=810c4b42f644a18a31e2e7269c481b6f95cfb86c22592719be6a0794012e4fc3a0dc68515137&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“红杉汇”（ID：Sequoiacap）</a>，作者：洪杉，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3160048417561349</guid><pubDate>Mon, 10 Feb 2025 08:51:00 +0800</pubDate></item><item><title>DeepSeek横空出世，医疗AI迎来“国运时刻”</title><link>https://36kr.com/p/3160049524152833</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>DeepSeek，毫无疑问是蛇年春节最为热门的话题之一。这个国内原生的大模型锋芒剑指OpenAI、谷歌等全球科技巨头，甚至凭一己之力影响了使得美股AI龙头普遍重挫——曾被认为AI生态中不可替代一环的NVIDIA股价甚至在1月27日当日暴跌17%，至1月31日，NVIDIA市值在一周内缩水4000亿美元。</p>
+<p>由于DeepSeek锋芒过劲，甚至引发了来自国外封禁。以美国为首，多国和地区在短时间内出台对DeepSeek使用的限制政策。同时，DeepSeek持续受到了来自国外的网络攻击。对此，我国常驻联合国代表甚至在联合国总部举行的记者会上，明确表示了对DeepSeek的支持。</p>
+<p>在国内，DeepSeek同样掀起滔天巨浪——华为、京东、百度、阿里云、360等科技巨头纷纷宣布接入DeepSeek。医疗赛道的巨头们紧随其后，包括方舟健客、医渡科技、鹰瞳Airdoc、万达信息等数字医疗领域的头部企业先后官宣接入DeepSeek，推动AI医疗加速落地。</p>
+<p>经过近两年的探索，基于大模型的生成式AI已经在国内得到认可，在医疗场景实际部署落地。目前，DeepSeek的异军突起将会对国内医疗大模型的应用起到何种增益，已有哪些创新场景已进入规划甚至进入实际部署，动脉网根据公开信息进行了整理。</p>
+<h2><strong>01 高度创新，DeepSeek引领大模型未来风向</strong></h2>
+<p>DeepSeek之所以得到高度关注，与其技术上的高度创新密切相关。</p>
+<p><strong>最为重要的是其在架构效率上的提升</strong>，相比OpenAI的ChatGPT，DeepSeek采用混合专家模型，可将任务拆分给多个专用子模块处理，资源利用率更高，大幅降低了大模型训练所需的算力要求。</p>
+<p>在软硬件协同优化上，算力资源相对有限的DeepSeek也极尽各种优化，大幅降低了对计算、存储及通信等层面的硬件需求，从而间接导致了NVIDIA、博通等AI硬件基础设施概念股暴跌。</p>
+<p>正因为此，<strong>DeepSeek的训练成本大幅降低</strong>。根据公开资料，其训练仅需约550万美元，是性能近似ChatGPT训练成本的十分之一，且训练时间也缩短至55天。其应用接口的定价也得以大幅下降，每百万输入Token费用仅为ChatGPT的2-3%！</p>
+<p>相比海外大模型，<strong>DeepSeek训练数据以汉语为主，对复杂的汉语词汇和语境处理更为精准，使其文字输出更为流畅自然，符合汉语环境。同时，它的逻辑推导过程透明，并支持针对包括医疗在内特定场景的深度优化</strong>。</p>
+<p>在此基础上，<strong>DeepSeek还采取完全开源的策略，将其大模型的代码和模型参数全部开放，极大降低了中小企业的AI部署门槛</strong>。作为广大医疗垂类大模型的开发者之一，福鑫科创CEO吴笛认为DeepSeek的MIT协议非常友善：“它允许用户自由使用、复制、修改和分发软件，也鼓励企业在产品中采用和集成，鼓励合作和创新，我认为这将极大推动整个生态系统的发展。”</p>
+<p>“除了成本上的优势，DeepSeek相对于其他常见开源模型提供了相对更好的推理能力和解决复杂问题的能力，并<strong>对提示词工程的要求大大降低</strong>。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_e32f5cb0e14241f2848eb52ae07f950b@000000_oswg80127oswg800oswg712_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_91a0ea3a356046a78c41362007df7c41@000000_oswg80809oswg800oswg702_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_359c2af85cba443c902da4c5f48be981@000000_oswg70121oswg800oswg695_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_f32e2223d1f34c00bae703fd1315067a@000000_oswg53498oswg800oswg614_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_ceb5b589d11341e8ab609e0177ef25c9@000000_oswg52344oswg800oswg592_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">仅需简单的提示词，DeepSeek就输出了颇为专业的回答</p>
+<p>吴笛进一步举例来说明了DeepSeek在提示词工程上的优势。在查询疾病的基础提示词时，常见模型往往需要输入非常工整的格式，如“请分析以下病例：65岁男性，高血压、糖尿病史，主诉胸痛伴呼吸困难2小时。需要：1. 列出可能诊断及依据 2. 建议必要的实验室检查 3. 给出紧急处理方案 4. 说明鉴别诊断要点”这样一段话。但在DeepSeek中，提示词则可以使用非常口语化的“65岁男性，高血压糖尿病多年，突然胸痛喘不过气两小时，现在应该怎么办？”即可。</p>
+<p>“从这个例子中我们可以看出，DeepSeek能够从模糊主诉中提取关键临床特征，随后自主构建符合医疗规范的决策树，并在识别潜在风险后给出防御性医疗建议，最后将碎片化信息转化为结构化诊疗方案的能力。”他补充道。</p>
+<p>“此外，它还提供了很好的强化学习RL思路，以及具有更优化的硬件利用效率。我相信DeepSeek将很快引发开源大模型的迭代，大家很快会见到医疗场景中生成式AI的能力明显上一个台阶。”</p>
+<p>吴笛进一步认为，DeepSeek将会对大模型在医疗场景的应用产生深远的影响：“目前，大模型已经渗透到越来越多的医疗场景。<strong>DeepSeek的高热度将更进一步让更多人认识到大模型的能力，对于推动大模型落地医疗应用场景帮助很大</strong>。当然，从实际的应用层面，<strong>DeepSeek的强大推理能力可以帮助医疗垂类模型的准确性和实用性，增强对复杂状况下疑难杂症的处理能力</strong>。”</p>
+<p><strong>“尤其它的出现和成功也验证了国内大模型也有能力匹敌全球顶尖大模型，将极大增加投资人、创业者和用户对国内大模型的信心，对于医疗垂类大模型显然也是巨大利好</strong>。<strong>”</strong></p>
+<h2><strong>02 DeepSeek在哪些医疗场景已落地？</strong></h2>
+<p>尽管节后复工不到几天，但已有不少医疗场景已经尝试利用DeepSeek赋能。</p>
+<p><strong>第一个无疑是来自C端的个人健康管理场景和互联网医疗，也将是短期受DeepSeek热潮影响最大的场景之一。</strong></p>
+<p>对于没有医学专业知识的普通人而言，通过DeepSeek等大模型查询症状及处理方法无疑是大家最常见的应用场景。尤其春节期间甲流高发，相信也有不少“患者”通过DeepSeek进行了查询，并发现DeepSeek可以给出专业程度相当不错的答案。足以让C端用户了解到大模型的强大能力，进而使得大模型更容易在其他环节落地。</p>
+<p>当然，专业调优的医疗垂类大模型具有更好的可靠性和针对性。以方舟健客“AI个人健康助手”为例，用户通过旗下手机应用程序调用背后的医疗大模型随时随地进行健康自诊，并针对多达50类体检报告进行数据解读，以浅显易懂的“个性化翻译”帮助用户了解自身状况，并能根据报告结果提供针对性的用药指导服务。</p>
+<p>此次，方舟健客第一时间全面接入DeepSeek并完成本地部署，强大的数据分析能力还可对患者的话术表达进行深度分析，挖掘用户更深层次的健康管理需求。</p>
+<p><strong>第二，则是医疗AI“智能体”。吴笛表示，目前一些主要的应用场景都可以使用DeepSeek配合原有的医疗垂直模型进行增强，包括目前大模型落地最为广泛的用于诊前环节的AI导诊、AI预问诊。</strong></p>
+<p>“智能体”（即采用大模型技术的AI智能代理）在2024年也成为描述大模型领域最热的关键词之一。基于大模型的智能体能够模拟医生与患者进行比以往拟人度高得多的人机对话，根据患者的病情描述，为患者提供初步的预诊分诊，并智能推荐就诊科室和合适的医生。</p>
+<p>响应较快的国内数字医疗企业已经开始接入DeepSeek，利用其能力赋能。比如，趣睡科技就引入了DeepSeek实现睡眠自测分析服务，帮助用户了解自己的睡眠状况，并提供个性化的睡眠改善建议。</p>
+<p>方舟健客去年11月发布的“AI智能体解决方案”，除了拥有为C端用户打造的“AI个人健康助手”外，还涵盖了为医生群体打造的“AI学术互动助手”和“智能病历收集系统”，这三个创新研发的智能应用场景可以为业内提供一套覆盖用户、医生、行业的智能解决方案，也是当前大模型赋能医疗的典型。此次方舟健客全面接入DeepSeek，其深度、高效的推理能力将会进一步赋能方舟健客“AI智能体解决方案”。</p>
+<p><strong>第三，则是辅助诊断、病历书写等辅助医生的场景。</strong></p>
+<p>“对于医生关注的AI生成式电子病历（门诊、住院）等等，DeepSeek也将会有很大的帮助，尤其对于病历质控以及复杂病例，由于DeepSeek的强大推理能力，我认为会有机会收到额外的收益。”吴笛进一步补充道。</p>
+<p>对于医生来说，大模型赋能的意义十分重大。比如在辅助诊断环节，大模型不仅可以高效分析医学影像，给出辅助，也可以通过分析患者的病历和药物反应数据，为患者推荐最合适的药物和剂量，提升治疗效果。</p>
+<p>对于医生来说，AI辅助电子病历书写及质控的呼声可能更高。它可以将医生从繁忙的病历书写中解放出来，将更多的时间用于患者的病情观察和临床诊断分析，方案制订，治疗效果分析和改进上。</p>
+<p>事实上，这些辅助诊断在国外已经成为现实——一位匿名的医疗行业从业者便表示在近期访美时发现，斯坦福医院的诊所已在近期启动了AI辅助生成电子病历的应用。</p>
+<p><strong>第四，随着强推理大模型时代的逐渐来临，其将在越来越多疑难杂症的个性化诊疗和科研上发挥能力。</strong></p>
+<p>在此之前，已有患者尝试利用OpenAI最新的推理模型ChatGPT o3研究颅咽管瘤的治疗方法，并认为在很短时间内每月200美元（ChatGPT o3的订阅费用）产生的价值已经超过了15万美元（私人研究团队的费用）产生的价值。</p>
+<p>此类利用大模型赋能科研的应用在国内已有体现，比如，方舟健客的“AI学术互动助手”不仅支持口语化输入，其检索结果还支持汉语与英语双语输出，进一步提高专业文献的检索速度和阅读效率，为医护人员节省超80%的检索时间。通过接入结合强推理能力和实时搜索的DeepSeek，相信该功能将助力医学科研效率实现飞跃。</p>
+<p>在见识到大模型在科研中的强大赋能作用后，科研机构也在主动拥抱大模型。聚焦生物医学组学技术、免疫诊疗技术、先进成像及干预技术等领域的昌平实验室就开始招募熟悉大模型生物医学应用的人才，探索开源大模型对多组学数据（如基因组、转录组、蛋白组）的分析方法，以挖掘基因调控网络模式并推进疾病靶点发现。</p>
+<p>当然，这些应用只是大模型在医疗应用的沧海一粟。大模型的应用范围之广令人叹为观止，甚至在医疗视频生产上，也有方舟健客引入大模型提升短视频脚本编写和内容审核效率的案例。</p>
+<p><strong>大模型已证明其在医疗领域有着广阔的应用前景，包括医疗服务、患者服务、运营管理、中医、药品供应、临床科研、公共卫生、智慧医保和健康管理等领域都可以发挥作用</strong>。</p>
+<p>比如，健澜科技就在其公众号中提到，基于DeepSeek-R1打造的临床决策系统可在30秒内完成危重患者的多维度风险评估，准确率较传统方法提升42%；亦能将微小病灶检出率提升至97.3%，所生成的诊断告不仅包含影像特征描述，还能自动生成鉴别诊断建议和治疗方案对比。在医院管理中其可使急诊滞留时间缩短28%，手术室利用率提升35%，每年节省运营成本超1200万元。在科研层面则可在72小时内完成传统需要6个月完成的药物真实疗效数据分析。</p>
+<p>这也就不难理解，为何<strong>医疗健康赛道的“大厂”们都在积极拥抱DeepSeek</strong>了。</p>
+<p>这其中，国内医药“一哥”恒瑞更是大胆“All-In”。根据媒体报道，恒瑞在节后上班第一天即发布红头文件，要求公司、分公司及子公司全面使用DeepSeek应用，进一步提高工作效率和管理水平。据报道，文件要求其内部各部门根据业务特点，通过DeepSeek优化业务流程、提升工作效率及降低运营成本的目标。</p>
+<p>几乎每过一天，这个名单都会加上一长串耳熟能详的名号。DeepSeek引发的新一轮大模型热潮还在继续。</p>
+<h2><strong>03 写在最后</strong></h2>
+<p>DeepSeek只是新一轮大模型热潮的起点，相信很快其他大模型企业也将会迅速跟进迭代。目前，大模型在医疗领域的应用已经涵盖了从诊断、治疗到健康管理的全链条，展现了其在医疗全产业的技术优势。未来，随着技术的进一步成熟，大模型有望在更多细分领域实现突破，推动医疗行业的智能化与普惠化发展。</p>
+<h3>参考资料：</h3>
+<p>大晨，医药经济人：《牛，恒瑞全面使用Deepseek开展工作、并纳入考核》</p>
+<p>李楠，CHIMA：《面对DeepSeek大潮，CIO如何争得话语权》</p>
+<p>健澜科技，健澜科技：《DeepSeek-R1：重构智慧医疗生态的超级智能中枢！构建“健康大脑+体系”的智慧医疗新范式》</p>
+<p>赵亚杰实验室，Human Genetics Network：《招贤纳士｜昌平实验室赵亚杰项目组招聘"AI+Multi-Omics"方向研究助理/实习生》</p>
+<p>趣睡科技：《文末有礼 | 趣睡科技携手DeepSeek：AI赋能睡眠，开拓创新应用场景》</p>
+<p>李建忠研思：《DeepSeek关键技术创新及对AI生态的影响》</p>
+<p>火山引擎、RollingAI、极客传媒：《生成式AI商业落地白皮书——给CXO的AI转型战术指南》</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTMyMDg0Ng==&amp;mid=2650661451&amp;idx=1&amp;sn=234cfd32970efda6300916cbf7f06783&amp;chksm=bf04b8d9ad780b16bd8483b7ce823499ccc95114538f0f50c7eaf7afa2def9057fbebaf846a6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“动脉网”（ID：vcbeat）</a>，作者：陈鹏，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3160049524152833</guid><pubDate>Mon, 10 Feb 2025 08:51:00 +0800</pubDate></item><item><title>DeepSeek，搅了谁的局？</title><link>https://36kr.com/p/3160079163431425</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>上一次AI行业引起全民震动还是2022年11月ChatGPT的横空出世，此后AI行业每逢重大变革，都被称为是“ChatGPT时刻”。</p>
+<p>这个词在2024年年底被改写，“DeepSeek时刻”出现，被看作是AI历史上的新转折点。</p>
+<p>2025年春节前期，中国杭州的一家AI企业DeepSeek（深度求索）接连发布了V3（2024年12月26日）和R1（2025年1月20日）两大开源模型。</p>
+<p>其中，DeepSeek宣称V3在性能上接近闭源模型OpenAI的GPT-4o与Anthropic的Claude-3.5-Sonnet，优于开源模型Meta的Llama 3，且总训练成本仅为557.6万美元。推理模型R1的效果则逼近OpenAI o1，同时API（应用程序编程接口）价格仅为OpenAI o1的3.7%。</p>
+<p>这是一家成立于2023年7月17日的初创公司，手上却握着万张英伟达芯片，以海外AI巨头们7%左右的成本训练出了性能不错的大模型。这家公司早在2024年5月发布V2模型后，正式打响中国大模型价格战，被字节、阿里、百度等大公司盯上，年底又成功将价格战烧到海外。</p>
+<p>DeepSeek的出现，一度让全球算力概念股暴跌，叠加美股科技股普跌的影响，英伟达股价下跌近17%，市值蒸发近6000亿美元，规模创美股史上最大。OpenAI和谷歌也在近期紧急上线最新模型，AI行业堪称烈火烹油。</p>
+<p>DeepSeek爆火之后，硅谷巨头们开始掀桌，OpenAI表示已经发现证据，证明DeepSeek“蒸馏”OpenAI模型的迹象，Anthropic创始人和CEO Dario Amodei发文否认R1取得的突破，并呼吁加强对中国的算力出口管制。</p>
+<p>抛开这场盛宴背后的情绪，本文试图理清，DeepSeek到底有没有被“高估”，以及DeepSeek将会对国内外AI产业带来哪些涟漪效应。</p>
+<h2><strong>欲戴其冠，必承其重</strong></h2>
+<p>DeepSeek-R1上线20多天，接受了多少掌声，就承受了多少压力。</p>
+<p>AI行业从业者林志向「定焦One」总结了DeepSeek口碑的来源：1、完全<strong>免费使用。</strong>2、在和用户聊天时会<strong>展示思维过程</strong>，这样也能反向优化用户的提问形式，提升对话体验，而o1就没有公布思考过程，原因可能是怕竞争对手将过程拷贝后训练自己的模型。3、将技术论文和模型进行<strong>毫无保留的开源</strong>，部分开源大模型还是会将最好的版本留给自己。</p>
+<p>但前几天因为热度前来的用户发现，DeepSeek频繁出现宕机，几乎无法正常使用，原因是公司服务器受到了大规模DDoS恶意攻击，截至发稿，DeepSeek已恢复正常使用。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_2a0874dc8d1443d3b3a3c6f5e507a85c@000000_oswg259915oswg646oswg876_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">DeepSeek表示服务运行稳定</p>
+<p>当然，上述特征只是让DeepSeek有了用户自发传播的基础，<strong>DeepSeek之所以火爆，一定程度上是因为它让海外AI巨头“破防”，出现了“掀桌子”的行为。</strong></p>
+<p>面对不少人士“DeepSeek是否有创新”的质疑，DeepSeek在其披露的V3和R1的技术论文中已经有过回应：1、V3模型采用多项自研技术进行架构创新，包括DeepSeekMoE+DeepSeekMLA架构、MTP多Token预测技术，使低成本训练成为可能；2、R1模型放弃了传统RLHF（人类反馈强化学习）中的HF部分，通过纯强化学习（RL）直接训练，验证了RL的优先级和有效性，进一步优化了训练效率。</p>
+<p>这也意味着，DeepSeek证明了自己的确可以做到“以不到600万美元的训练成本（可以理解为净算力成本），完成一个性能接近巨头的模型”。</p>
+<p>不过，半导体市场分析和预测公司SemiAnalysis指出，<strong>557.6万美元这个数字主要指的是模型预训练的GPU成本</strong>，考虑到服务器资本支出、运营成本等因素，DeepSeek的总成本在4年内可能达到25.73亿美元。</p>
+<p>不可忽略的是，创新成本下降的趋势早已开始，DeepSeek只是加速了这一进程。 方舟投资管理公司的创始人兼CEO“木头姐”指出，在DeepSeek之前，人工智能训练成本每年下降75%，推理成本甚至下降85%到90%。</p>
+<p>英诺天使基金合伙人王晟也有相同看法，比如年初发布的模型，到年底再发布同样的模型，成本都会有大幅度下降，甚至有可能降至1/10。而且OpenAI作为闭源模型，对外披露的算力成本也有虚高的可能性，因为要留部分利润空间，也要不断对资本市场强化成本很贵的故事，以此得到更高的投资。</p>
+<p>不过，DeepSeek的可贵性并不仅仅在于“便宜”，更在于它是一个“屠龙少年”的故事。</p>
+<p><strong>在ChatGPT横空出世之前，在中国面临算力管制之前，DeepSeek就已经拥有了超万张的GPU储备。</strong>这关联到DeepSeek的创始人梁文峰从2008年开始探索的量化交易，因为要将深度学习模型应用于实盘交易，必须储备大量算力，2019年至2021年间，梁文峰的另一家公司幻方相继自主研发了“萤火一号”与“萤火二号”AI集群，囤积大量芯片和技术人才。</p>
+<p>幻方为梁文峰提供了很多东西，足够的卡、对AI的sense以及模型层面的工程化能力，梁文峰也为DeepSeek提供了很多东西，不以盈利为导向，对AGI纯粹的好奇心和探索欲，以及足够开放的心态。有参与者表示，幻方曾用很低的价格将卡提供给算法研究机构使用。</p>
+<p>这样的故事具有不可复制性和美感，这也使得DeepSeek聚集了全民性的热度。</p>
+<h2><strong>DeepSeek让谁慌了？</strong></h2>
+<p>DeepSeek火了之后，一石激起千层浪，中美AI产业链上下游的企业都受到了冲击。</p>
+<p><strong>首当其冲的要数chatbot类（聊天机器人）AI应用</strong>，根据AI产品榜的数据，DeepSeek在2025年除夕前后，日活超过2000万，超越国内的豆包和Kimi登顶中国第一。同时，DeepSeek仅用一周就用户破亿，而ChatGPT用时2个月。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_7686addc0e2e4b899dc060d537017aaf@000000_oswg265137oswg1072oswg1429_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>实际上，在DeepSeek发布R1的几乎同一天，月之暗面推出了自己的Kimi k1.5思考模型，并在Kimi免费开放使用，豆包APP也更新实时语音通话功能，面向所有用户开放，但是两者声量均被盖过，日活也受到影响。</p>
+<p>林志认为，这件事充分展示了<strong>用户对chatbot这种模式的忠诚度是很低的</strong>，一旦出现了更强大更便宜更快的模型，大家就会迁移过去。</p>
+<p>不过，从产品形态来看，豆包已经在产品中接入多模态大模型，而DeepSeek目前还只有对话，且体验不稳定。虽然DeepSeek在除夕当天（1月28日）发布了开源文字生成图像（文生图）大模型Janus-Pro 7B，但是暂时还没有接入DeepSeek网页和APP中使用。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_4bd18340d6904e68a10bc02814fffac7@000000_oswg54282oswg1080oswg369_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_bd29b3b0c5804de39f6f45d8d38018fd@000000_oswg81850oswg1080oswg358_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">上为豆包，下为DeepSeek</p>
+<p>在真正的杀手级应用出现之前，比拼的还是背后的大模型能力。在这个层面上来看，目前<strong>受到DeepSeek直接影响的第二批公司是自研大模型公司。</strong></p>
+<p>从投资人的视角出发，王晟指出，从2024年5月DeepSeek发布V2模型打响中国大模型价格战时，圈内基本达成一个共识——国内巨头中，最好用的大模型是阿里的Qwen，豆包在2023年还不够好用但在2024年下半年提升很快；创业公司里DeepSeek和月之暗面（Kimi）增长最快，其余五小龙（零一万物、MiniMax、百川智能、智谱AI、阶跃星辰），有的转型、有的放弃、有的背靠国资，但增长逐渐慢下去了，<strong>六小龙的格局也基本瓦解。</strong></p>
+<p>某种程度上，这些闭源大模型公司也要面临和国外巨头一样的拷问：训练成本能不能降下来？有没有更高效的训练方式？API价格战还打不打？</p>
+<p><strong>至于DeepSeek是否会改变芯片市场的格局，多位行业人士则表示，算力之争不会消失，但是现在到了一个重估的阶段。</strong>之前英伟达的热度过高，现在股价只是回归到了合理区间，但是最终英伟达的价值还是会上去。也就是说，英伟达并非DeepSeek的受害者。反而是随着模型应用场景的扩展，模型越“平权”，对算力的需求越大。</p>
+<p>DeepSeek把大家从一腔热血只追求AGI的上限，拉回到转向关注产业落地的现实里，它用很低的成本给到相对高的能力，能促进产业链上的创新，将利好AI原生应用和AI硬件的发展。“2025年将是AI商业化落地元年”，林志称。</p>
+<p>同时，DeepSeek验证了<strong>国内AI产业从芯片到模型是可以部分实现国产替代的</strong>，提振了产业信心。春节期间，国内云服务厂商和GPU厂商纷纷部署DeepSeek。</p>
+<p>不过，随着一步步被推向“神坛”，<strong>DeepSeek的最大冲击或许将来自于自身的选择。</strong></p>
+<p>有信源称，阿里正计划以100亿美元的估值，投资10亿美元认购DeepSeek10%的股权。这一估值已经超过月之暗面（33亿美元）和智谱AI（20亿美元）。这一消息被阿里方面否定，也有人指出背靠幻方的DeepSeek一直没有寻求过融资，但市场仍担心还有其他战略方正在接触DeepSeek。</p>
+<p>这或许是市场最不想看到的结局，在这个春节接到“泼天富贵”的DeepSeek，原本是一家自由的公司，梁文锋也曾对媒体提到，与大厂模型的最大区别是，“大厂会和平台或生态捆绑，而我们是完全自由的”。有人担心如果DeepSeek此次拿了任何战略投资方的钱，AI六小龙的故事或许将在它身上重现。</p>
+<h2><strong>DeepSeek的新范式，还有成长空间</strong></h2>
+<p>放到更大视角来看，DeepSeek的崛起之所以被海外巨头如此重视，背后是两种路径的对比。</p>
+<p>王晟解释，AI产业在跑通AGI方向上往往有两种不同的路径选择：一个是<strong>“算力军备”范式</strong>，堆技术堆钱堆算力，先把大模型性能拉至一个高点，不断推高AGI的能力上限，再考虑产业落地；另外一个是<strong>“算法效率”范式</strong>，一开始就以产业落地为目标，通过架构创新和工程化能力，推出低成本高性能模型。</p>
+<p>可以看到，以往大模型公司之间的竞争，基本都是押注“算力军备”范式。在这种范式下，OpenAI、Anthropic、谷歌，包括国内AI六小龙等企业，都是重资本投入型企业。</p>
+<p>因为需要巨大的资金量，这意味着资本市场只能支持少数几家企业，AI巨头的市场集中度远高于其他行业。</p>
+<p>DeepSeek-R1发布之际，美国总统特朗普宣布了一个总额达5000亿美元的AI基础设施项目“星际之门”，OpenAI、软银和甲骨文等都已承诺参与其中。稍早前，微软表示2025年将在AI基础设施上投入800亿美元，扎克伯格则计划在2025年为其AI战略投资600多亿美元。</p>
+<p>一个无法忽略的市场环境是，过去大家都在追求AGI能力的不断增长，只要模型性能增长的够快，竞争对手在后面无论怎么进行数据工程优化都追不上头部企业。但是到2024年11月左右，“高质量文本训练数据即将被消耗殆尽”的论调敲响了行业警钟，如果数据供应停滞，模型训练也可能停滞，大家意识到之前比较粗放的训练模式确实可能存在瓶颈，即使往上堆算力，延长训练时间和增大数据量级，能力增长也几乎到头了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250210/v2_8522279b6c2b4ffa8dec17d275e97f6c@000000_oswg39694oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源 / Unsplash</p>
+<p>在这个时间点，<strong>其实也有企业认为“算法效率”范式是当下可行的范式，只是DeepSeek先做出来了。</strong>“它的一系列模型也证明了，在天花板涨不动的情况下，把重点放在优化效率而非能力增长上的范式也具有可行性。”王晟称。</p>
+<p>这样的背景下，<strong>DeepSeek以一个“搅局者”的身份出现</strong>，美国AI巨头“花钱砸模型很值”的资本故事逐渐不成立了。</p>
+<p>DeepSeek以开源模型入场，被视为是靠生态的力量去挑战领先者，而领先者为了怕被搅局，通常会越来越封闭。</p>
+<p>“其实中美的主流路线已经完全反过来了”，林志称。在阿里Qwen性能追赶上来之前，全球最主流的开源模型是Meta的Llama，在海外市场，Llama一度落后于OpenAI跟Claude等闭源模型，但在国内，目前在大模型上支大旗的反而是开源模型。</p>
+<p>不过，也有不少业内人士认为不应该过分乐观，因为<strong>DeepSeek只能说是给2025年开了个好头，竞争还在继续，差距依旧存在。</strong></p>
+<p>近期，几大海外巨头就推出了新模型。2月1日，OpenAI发布最新推理模型o3-mini系列，这是OpenAI首个开放给免费用户的推理模型。2月6日，谷歌官宣Gemini 2.0家族更新，其中Gemini 2.0 Flash-Lite版本被称为谷歌目前为止性价比最高的模型。</p>
+<p>正如梁文锋自己所说，虽然具体技术方向一直在变，但模型、数据和算力这三者的组合是不变的。数据工程也是其中很重要的一环，OpenAI虽然面临侵权问题但积累了自己的数据库，豆包因为TikTok事件影响也宣称自己不会进行数据蒸馏，“原生搭建的数据库”成为大厂的护城河之一。</p>
+<p>另外，王晟提到，根据Trade-off Curves（取舍曲线），DeepSeek选择的路径意味着它的精力重点在于工程优化，那就很难在能力上限上取得突破，“它用现有方法继续迭代新版本，能力能提升多少？这是个问题。”</p>
+<p>从学生时代起，梁文锋就展现出探索AGI的热情和不断创新的追求，DeepSeek此前只是躲开了无效或失败的尝试，但我们也不应该否认前一种路径中，巨头们不惜代价，通过各种未知的尝试来拓宽AGI边界的努力。</p>
+<p>DeepSeek搅动的这一片汪洋，涟漪还在继续扩大。</p>
+<p>*应受访者要求，文中林志为化名。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkzODUxNTM2OA==&amp;mid=2247520209&amp;idx=1&amp;sn=c59ff683e45972d9a97accdd34c1fce2&amp;chksm=c318a3708c5cb8faaf165b6265eaf686667ff3102f9543767015404fe4f28d9e4ff1f6a0a225&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“定焦”（ID：dingjiaoone）</a>，作者：苏琦，编辑：魏佳，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3160079163431425</guid><pubDate>Mon, 10 Feb 2025 08:52:00 +0800</pubDate></item><item><title>炸裂，外资吹响“加仓中国”集结号背后：科技格局重塑与资产重估</title><link>https://36kr.com/p/3159191322139392</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>外资开始醒悟！全球著名外资投行高盛和德意志银行率先吹响“加仓中国”集结号。A股也迎来了2025新年后以周计算的开门红，这周三个交易日，上证指数累计上涨1.63%、创业板指数上涨5.36%、科创50涨6.67%。</p>
+<p>2月5日，德意志银行（简称“德银”）出炉了一份全球投资者热传的研究报告，副标题用了《中国吞噬世界》（China eats the world），主标题为《中国的，而不是AI的，斯普特尼克时刻》（China's, not AI's, Sputnik moment）。</p>
+<p>而就在前一天，高盛率喊出2025年MSCI中国指数有14%的上涨潜力，并认为中国科技股在被重新估值后有20%的收益机会。高盛强调，目前中国的政策周期已经从预期过渡到实施阶段，细节和行动是接下来稳定增长和支持企业盈利的关键要素，并将推动股市进一步上涨。</p>
+<p>事实上，本轮市场的走牛已经从9月底中央“一揽子增量政策”驱动已经拉开帷幕。掌柜的在2024年10月中旬A股H股市场陷入分歧之时，就依据这一揽子“增量”政策刺激经济的大背景，发文《转向时刻与牛市预期：中国资产迎来新一轮重估时代》看好中国经济与资产的未来重估。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_026592ee3bb94ca98348c539f0e5a7ae@000000_oswg93044oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>2025年的春节，从DeepSeek崛起大闹全球AI科技界，《哪吒2》闹春登顶全球单一市场票房冠军，中国更是在不断地打“破”全球科技与文化的历史纪录。如今，外资大行吹响“加仓中国”号角的背后，是进一步凸显中国正迎来历史性的科技之春，并以AI为首对全球科技格局进行重塑，由此也将进一步推动中国资产的价值重估之春。</strong></p>
+<h2><strong>DeepSeek的“斯普特尼克时刻”</strong></h2>
+<p>2025年1月20日，中国AI公司深度求索（DeepSeek）发布了推理大模型DeepSeek-R1。DeepSeek 在没有任何广告投放情况下实现了 7 天1 亿用户增长，而ChatGPT用了2个月，Facebook用了4年半时间。</p>
+<p>DeepSeek-R1的成功，颠覆了硅谷主导的“资本密集型”AI研发模式。其采用的“知识蒸馏+联邦学习”架构，通过分布式知识网络实现低成本高效率的模型训练，实现了与GPT-4、Llama等国际顶尖模型相当的性能，引发全球科技界的“中国冲击波”。这种技术路径不仅降低了算力门槛（能耗仅为ChatGPT的1/217），还通过开源策略加速了技术生态的共建，使得中国AI企业首次在底层创新上获得全球话语权。</p>
+<p>这一突破被德银和硅谷顶级投资人称为中国的“斯普特尼克时刻”。该术语源于1957年苏联发射第一颗人造卫星后，世界首次意识到其在航天领域的领先地位。</p>
+<p><strong>掌柜的翻译就是，如今德银“惊恐”于中国的AI技术领先，而担忧美国在这场未来科技竞争中的落后。DeepSeek的突破则标志着中国在人工智能领域的系统性崛起——技术自主性与创新效率，已足以挑战美国主导的全球AI供应链体系，并可能重构全球科技权力格局。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_e04cb868f59d43eaaf827b278ac97a1d@000000_oswg65764oswg1080oswg693_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>1月22日，DeepSeek-R1还没爆火之际，美国还宣布OpenAI、甲骨文和软银将成立一家合资企业“星际之门计划”（Stargate Project），计划未来四年投资高达5000亿美元（折合约3.64万亿人民币）用于建设AI相关基础设施。如今，DeepSeek-R1的低成本开发模式颠覆了硅谷以高资本投入为核心的AI发展路径，令美国的“星际之门计划”黯然失色。</p>
+<p>DeepSeek的突破直接引发市场对西方技术路径经济性的质疑，导致英伟达于1月27日公司市值暴跌16.97%——当日市值蒸发5926亿美元。这种“成本-性能”优势不仅为中国AI企业打开国际市场，还推动全球南方国家探索算法优化替代算力堆砌的新路径，加速技术扩散。</p>
+<p>毫无疑问，DeepSeek的成功证明中国已从“技术模仿”转向“原创输出”，其模型在海外的广泛应用标志着中国知识产权价值得到国际认可。德银认为2025年将是投资界意识到中国在全球竞争中处于领先地位的一年；中国企业正在多个高附加值领域占据优势，并主导供应链。</p>
+<p>高盛进一步分析，中国在AI软件领域的优势显著，MSCI中国指数中“软技术”（互联网、软件与服务）的盈利占比达37%，市值占比32%，远超硬件领域。高盛认为，这种结构性优势使中国在AI应用层占据先机，推动全球产业重心从硬件基础设施向软件服务迁移。</p>
+<h2><strong>全球科技格局新平衡：中国科技之春</strong></h2>
+<p>毫无疑问，DeepSeek的崛起加剧了中美技术博弈的复杂性。美国在迅速讨论反制措施，包括计划启动对DeepSeek的国安审查、扩大芯片出口管制。</p>
+<p>然而，这种技术封锁反而倒逼中国形成更高效的技术创新生态。例如，DeepSeek-R1的开发是否依赖英伟达H100芯片尚存争议，但中国通过算法优化部分抵消了算力限制，证明“限制即创新催化剂”的逻辑。因此，德银认为“DeepSeek动摇了世界对能够遏制中国的信念”。</p>
+<p>如今，中国在全球制造业中已经成为不可替代的地位——中国企业已在半导体、新能源汽车、高端装备等领域形成“高性价比+快速迭代”的复合优势。高盛测算，中美科技股估值差高达66%，而DeepSeek驱动的生产力提升将加速这一差距收敛。</p>
+<p>来自公开的报道信息显示，从全球 AI 企业的分布来看，截至 2024 年一季度，全球 AI 企业数量近 3 万家，其中美国占全球的 34%，中国占全球的 15%，位列第二 。在人工智能大模型方面，截至 2024 年，全球共有 1328 个，美国占 44%，中国占比 36% 。在独角兽企业数量上，2023 - 2024 年一季度期间，全球 AI 独角兽 234 家，美国有 120 家，中国则拥有 71 家 。这些数据表明，中国与美国的AI企业数量和质量上差距并不悬殊。</p>
+<p>同时，摩根士丹利在最新发布的《The Humanoid 100: Mapping the Humanoid Robot Value Chain》（人形机器人100：绘制人形机器人价值链图谱）报告中，罗列了全球人形机器人百强股票名单。其中有52%已有公开报道称参与了人形机器人产业链，其余48%暂未有明确报道。而在这些已确切参与的公司中，有73%来自亚洲，且过半来自中国；同时，有77%的集成商来自亚洲，且中国公司同样占据半壁江山。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_08fad80599cc4383bfab58987d5eff7e@000000_oswg80311oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>中国制造业的竞争力重塑不仅依赖AI技术突破，更在于其与实体经济的深度融合，快速的应用场景、开放的应用政策、民众的包容度，都快速催化着中国科技创新崛起。全球最大资产管理机构贝莱德指出，中国经济正通过“新质生产力”实现转型，高科技制造领域已进入成果转化期。</p>
+<p>毫无疑问，DeepSeek的低成本模型为中小企业智能化改造提供了可行性，中国企业乃至全球企业都在加速接入DeepSeek R1开源大模型。</p>
+<p><strong>在掌柜的看来，中国在工业机器人、智能仓储等领域的AI应用渗透率已超全球平均水平，而AI算法的进一步优化将释放制造业全要素生产率。这种“软硬结合”的优势使中国在全球供应链中从“成本中心”转向“创新枢纽”。</strong></p>
+<h2><strong>中国资产价值重估：从折价到溢价</strong></h2>
+<p>从高盛到德银，越来越多的外资机构开始吹响“加仓中国”的集结号，中国资产正经历历史性价值重估。</p>
+<p>在2月5日的最新报告中，德意志银行唱多称，2025年是中国超越其他国家的一年，预计中国股票“估值折价”将消失，A股/港股牛市将继续并超过此前高点。梳理德银的研报内容进行总结，其认为核心驱动因素包括是中国资产的盈利预期上修：政策支持的消费复苏与金融自由化提升ROE。</p>
+<p><strong>在掌柜的看来，从2024年9月底持续的“一揽子增量政策”，不管是财政与货币的双宽松，将令资本成本下降，使股市现金流贴现价值显著提升。2025年，我们将会看到更多落地和执行推进的刺激经济复苏、高质量发展的增量政策。正是在这些背景下，将推动全球配置再平衡，当前全球投资者对中国资产配置比例不足5%，这一比例将向中国经济占全球18%权重靠拢。</strong></p>
+<p>值得一提的是，1月22日，中央金融办等六部门联合印发《关于推动中长期资金入市工作的实施方案》，明确未来三年公募基金持有A股流通市值每年至少增长10%；对于商业保险资金，力争大型国有保险公司从2025年起每年新增保费的30%用于投资A股。如此看来，官方中长期资金的动向也明确了当下市场的低位预判。</p>
+<p>正如贝莱德测算，从长期风险溢价模型角度，A股大中盘宽基长期投资性价比，高于近十年乃至近二十年中的大多数时间。高盛则预计MSCI中国指数2025年将上涨14%-28%，沪深300指数同步走强。科技股（特别是AI应用、云计算）、高端制造（半导体、新能源车）、消费龙头（受益于内需复苏）将成为领涨主线。港股因估值洼地属性，弹性可能更大，恒生科技指数年内或突破8000点。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250209/v2_5b08aa05b1ac4116854f9d3ae2225e80@000000_oswg66986oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>如今看来，DeepSeek的技术突破不仅是单一产品的成功，更是中国创新体系从“追赶”到“并跑”的标志。在全球科技格局重构的背景下，中国资产的价值重估已从预期步入现实。对于投资者而言，把握AI驱动的新产业周期、政策红利释放的消费复苏、以及全球资本再配置的窗口期，将成为未来获得超额收益的关键来源。</p>
+<p><strong>掌柜的则认为，当下拒绝配置中国资产，将错过中国资产历史上新一轮的价值重估。只是，投资者本轮需要摒弃追逐垃圾股的投机思维，坚守有业绩成长支撑的科技蓝筹思维，以拥抱有AI人工智能、智能机器人时代的中国科技之春来临。</strong></p>
+<p>这会否如德银所言：“2025年，拒绝中国资产的代价，可能如同十年前错过美股科技股”。我们应抱以期待，也拭目以待。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MTUxOTU0OA==&amp;mid=2678719247&amp;idx=1&amp;sn=7c41286a4242012a3a91f90a60df9262&amp;chksm=bda41584e5c126023f09f38cee3a200ead19fd97c78824c11d1cb0c14810623fe4d940ff38f7&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“德林社”（ID：delinshe）</a>，作者：尺度商业，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3159191322139392</guid><pubDate>Mon, 10 Feb 2025 08:52:00 +0800</pubDate></item><item><title>50万张按摩椅，撑起一个IPO</title><link>https://36kr.com/p/3159106362612485</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>火车站、商场里的按摩椅，也要上市了。</p>
+<p>近日，共享按摩椅品牌“乐摩吧”的母公司乐摩物联向港交所递交了上市申请，拟主板挂牌上市，中信建投国际和申万宏源香港担任联席保荐人。</p>
+<p>长久以来，在共享经济的江湖里，似乎“烧钱”和“亏损”成了绕不开的魔咒。从共享单车到共享汽车，再到共享充电宝，这些曾经的“风口”项目，大多未能幸免。乐摩吧却打破了这一固有印象，不但早早实现盈利，还在IPO前给股东分红了4000多万元。</p>
+<p>不过，从估值来看，共享按摩椅还只能算是个“小生意”，即便乐摩吧已经做到了垂直品类的绝对第一，IPO前的估值也仅为7.5亿元。</p>
+<h2><strong>9个月盈利1亿元</strong></h2>
+<p>乐摩物联创立于2014年，2016年正式开展智能按摩服务业务，推出了广为人知的共享按摩椅品牌——乐摩吧。</p>
+<p>从消费场景来看，乐摩吧热衷于投放在商业综合体、影院、交通枢纽场所（包括机场、高铁站等）等高人流量区域。用户可以通过自助支付享受计时按摩，收费标准有三档，分别是6元钱6分钟、10元钱12分钟、15元钱20分钟。</p>
+<p>与很多共享经济公司类似，乐摩吧也采用了“直营+加盟”两条腿走路的方式。根据招股书，乐摩吧约70%的服务网点由公司直接运营；另外30%的服务网点采用合伙人模式，由公司提供设备和技术支持，本地合伙人负责选址、装修等网点运营工作，双方按交易额比例分成。</p>
+<p>在双模式的带动下，截至2025年1月15日，乐摩吧已经在全国设立了超过4.5万个服务网点，投放超过50万张智能按摩设备，覆盖中国大陆地区31个省级行政区及339个城市，累计可识别服务人数超过1.5亿，注册会员人数超过280万名。</p>
+<p>长久以来，“烧钱亏损”几乎已经成了共享经济的代名词，与大多数创业项目不同的是，乐摩吧早已实现了盈利，而且保持快速增长的态势。</p>
+<p>招股书显示，公司2022年、2023年营收分别为3.3亿元、5.86亿元，2024年前9个月营收为6.14亿元，已超过2023年全年营收规模。同期净利润分别为853万元、9458万元、1亿元。</p>
+<p>直营模式是乐摩吧的主要收入来源。2022年、2023年和2024年前9个月，直营模式的营业收入占公司总收入的74.26%、80.45%和84.01%。</p>
+<p>尽管合伙人模式的营收占比较低，但毛利率远高于直营。2024年1-9月，公司直营模式的毛利率为34.22%，合伙人模式则高达74.44%。</p>
+<p>除了核心按摩业务，乐摩吧过去几年也在寻找第二增长曲线，比如将触手伸向家用按摩设备、按摩小件销售以及广告服务。2022年到2024年前9个月，这部分业务分别为公司贡献了1.4亿元、1.91亿元和1.09亿元。</p>
+<p>另外，乐摩吧还在招股书中提到，计划在海外市场寻找更多机会，尤其是关注到亚洲市场对智能按摩服务有潜在需求，计划在该等海外地区设立服务网点网络。</p>
+<h2><strong>IPO前分红超4000万</strong></h2>
+<p>目前，乐摩吧已经成为了国内共享按摩椅领域的绝对头部。</p>
+<p>根据弗若斯特沙利文的数据，2021年-2023年，按交易额计算，乐摩吧在中国大陆所有智能按摩服务提供商中排名第一，市场占有率分别为29.4%、33.9%及37.3%。2023年的市场份额，达到第二名的2倍之多。</p>
+<p>这份成绩单背后，离不开核心团队的推动。根据招股书，乐摩物联最初是由福州境界、自然人吴景华及陈建霖共同创立，但公司成立后并未立即开展实际业务。直到2016年，谢忠惠的出现，才让这家公司真正“活”了起来。</p>
+<p>70后的谢忠惠毕业于集美大学机械制造工艺与设备专业，曾在真彩文具做过销售总监及总经理。2011年5月，他创办了上海福健实业发展有限公司，专注于按摩椅产品的开发和销售。正是这段经历，让他敏锐地捕捉到了共享按摩椅的商机。</p>
+<p>2016年，谢忠惠和朋友吴景华通过协商收购了乐摩物联60%的股权，成为控股股东，同年推出了“乐摩吧”品牌。</p>
+<p>乐摩吧的另一个灵魂人物是现任董事会主席韩道虎。2016年，韩道虎以0对价向谢忠惠收购了公司30%的股权，成为公司的联合创始人。从职业经历来看，韩道虎是位按摩椅行业的老兵，早在1999年，他就创立了上海久工机电，成为中国较早涉足按摩椅行业的企业之一。</p>
+<p>据媒体此前报道，乐摩吧也是在韩道虎的牵线搭桥下，于2017年3月获得了潘建忠和李斌两位个人投资者共计700万元的投资，为公司注入了新的动力。</p>
+<p>当然，乐摩吧的发展也并非一帆风顺。</p>
+<p>2020年前后，极度依赖线下消费场景的乐摩吧受疫情影响，一度面临1.5亿到2亿元的资金缺口，面对困境，谢忠惠也展现出了不俗的危机处理能力。他一边与商场协商，用押金抵扣租金，同时对公司高管降薪；另一边，他与合作伙伴达成协议，疫情期间的营收全部归合作伙伴支配，公司不参与分配，以此激励大家积极自救。</p>
+<p>此外，谢忠惠还抵押了自己的房产，筹集了1800万元资金，加上公司筹措的其他资金，仅用2500万元就让乐摩吧成功渡过了难关。</p>
+<p>值得一提的是，乐摩吧在业绩回暖并稳步上升后，开启了“分红模式”。2023年，公司向权益股东派发股息2375万元；2024年前三季度，又派发股息2000万元，分红总额高达4375万元。</p>
+<p>截至上市前，谢忠惠为公司最大股东，持股比例为21%，韩道虎持股比例为19.5%。</p>
+<h2><strong>曾因对赌回购股权</strong></h2>
+<p>与大多数依赖资本持续“输血”的共享经济项目不同，乐摩吧成立至今对外融资并不多。除了上文提到的700万元个人投资外，乐摩吧只披露过两次融资信息。</p>
+<p>第一次融资发生在2017年12月，在个人投资者李斌的引荐下，基石资本通过旗下基石亿享向乐摩物联投资了5000万元。招股书透露，当时双方签订了对赌协议：“若乐摩物联于投资完成后五年内未实现上市，基石亿享或会要求该公司回购股权。”</p>
+<p>时间来到2023年4月，由于乐摩物联未能登陆任何证券交易所，于是双方达成协议，乐摩物联以股本削减方式向基石亿享购回注册资本人民币1142857元，以便基石亿享行使其部分赎回权，购回对价约为人民币6210万元。</p>
+<p>这笔交易完成后，基石亿享持有的乐摩吧剩余注册资本为人民币285714元，约占公司总股本的2.7%。</p>
+<p>另一次融资则发生在2024年9月，融资金额为4095万元，投后估值达到7.5亿元。</p>
+<p>如果以这个估值计算，基石资本手中剩余的2.7%股份，对应的金额约为2025万元，加上此前购回的对价6210万元股权，虽然这笔投资没能让基石资本赚得盆满钵满，但也算是个不错的收场。</p>
+<p>最后回到企业本身。虽然从市场占有率、业绩表现、股东投资收益来看，乐摩吧都交出了一份不错的成绩单，但公司仍面临一些经营挑战。</p>
+<p>招股书显示，2024年前9个月，公司经营活动所得净现金约为1.75亿元，投资活动所用净现金约为-1.45亿元，融资活动所用净现金为-0.41亿元；期内现金及现金等价物减少了0.11亿元，截至9月末仅为0.28亿元，而该时期，乐摩吧的流动负债总额为2.09亿元，其中一年内需要偿还的银行贷款就有0.49亿元，资金缺口明显。</p>
+<p>现金流吃紧，或许正是乐摩吧此时选择上市的原因之一。</p>
+<p>此外，尽管乐摩吧已经坐稳了头把交椅，但其所处的共享按摩椅领域终究是个小市场。根据弗若斯特沙利文报告，过去五年智能按摩服务市场整体增长速度较慢，市场规模从2019年的23.4亿元增长至2023年的24.4亿元，复合年增长率仅为1.1%。</p>
+<p>对于投资者而言，市场规模决定了企业的发展天花板，也直接影响其投资热情。这不足30亿的蛋糕，能否支撑起乐摩吧上市后的雄心？</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI4MjYxMTYyNA==&amp;mid=2247513456&amp;idx=1&amp;sn=4402124c43c2ae2c453345cc6632d66c&amp;chksm=ea4c4e71927855b53d95d00199ce2f088b07d2fb9b99d311478cfb4b5ca207787d5a11e93698&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“东四十条资本”（ID：DsstCapital）</a>，作者：王满华，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3159106362612485</guid><pubDate>Mon, 10 Feb 2025 08:59:00 +0800</pubDate></item></channel></rss>
