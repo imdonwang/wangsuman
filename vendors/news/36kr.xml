@@ -1,460 +1,524 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 11 Feb 2025 18:00:33 +0800</lastBuildDate><pubDate>Tue, 11 Feb 2025 18:00:33 +0800</pubDate><item><title>网传DeepSeek R1更容易被越狱？这有个入选顶会的防御框架SelfDefend</title><link>https://36kr.com/p/3161851862968838</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>最近一段时间，DeepSeek 可谓是风头无两。</p>
-<p>在大家纷纷赞扬其超强性能的同时，也有媒体曝出 DeepSeek 的 R1 比其他 AI 模型更容易被越狱。</p>
-<p>比如，此前宾夕法尼亚大学的研究者使用来自HarmBench数据集的50个有害提示对DeepSeek R1进行测试，这些提示涵盖网络犯罪、虚假信息和非法活动等领域。结果显示，DeepSeek未能拦截任何一个有害请求，攻击成功率达到惊人的100%。</p>
-<p>这时如果有一个 AI 系统能像人类一样具备自我保护意识，在面对 ' 欺骗 ' 时能够当机立断地识破阴谋 —— 这不再是科幻片中的场景。</p>
-<p>近日，来自香港科技大学、南洋理工大学等机构的研究团队最新成果让这一设想成为现实。他们提出的 SelfDefend 框架，让大语言模型首次拥有了真正意义上的 ' 自卫能力 '，能够有效识别和抵御各类越狱攻击，同时保持极低的响应延迟。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,299" src="https://img.36krcdn.com/hsossms/20250211/v2_00ac22e3876542bf8cfbd21a4595747c@46958_oswg137558oswg1080oswg299_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>论文标题：SelfDefend: LLMs Can Defend Themselves against Jailbreaking in a Practical Manner</p>
-<p>论文主页：https://selfdefend.github.io/ </p>
-<p>论文链接：https://arxiv.org/abs/2406.05498</p>
-<p>GitHub 链接：https://github.com/selfdefend/Code</p>
-<p>近年来，大语言模型（LLMs）在自然语言处理、信息检索、图像生成等多个领域展现出巨大潜力。然而，随着 LLMs 的广泛应用，如何确保其安全性成为了一个重要课题。尤其是 “越狱攻击”（Jailbreaking），这种攻击通过绕过 LLMs 的安全对齐机制，诱导模型生成有害内容，引发了广泛关注。为了应对这一挑战，香港科技大学、南洋理工等团队联合提出了一种名为 <strong>SelfDefend 的新型防御框架，</strong>该框架通过引入 “影子 LLM”（Shadow LLM）来并行检测潜在的有害查询，从而有效抵御多种越狱攻击。 </p>
-<h2><strong>越狱攻击的多样性与防御挑战</strong></h2>
-<p>越狱攻击的形式多种多样，包括基于人工设计的攻击、基于优化的攻击、基于生成的攻击，以及最近出现的间接攻击和多语言攻击。这些攻击手段不断进化，使得传统的防御机制难以应对。现有的防御方法主要分为两类：基于模型的防御和基于插件的防御。前者通过改进模型的内在机制来增强安全性，后者则通过外部插件来增强现有模型的安全性。然而，这些方法在实际应用中面临诸多挑战，无法同时满足四个目标：应对所有类型的攻击（O1）、引入可忽略的额外延迟（O2）、对检测出的越狱访问提供可解释性（O3），以及同时适用于开源和闭源模型（O4）。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,547" src="https://img.36krcdn.com/hsossms/20250211/v2_48ba1479225a4dc3bb61d469661e3ca0@46958_oswg486121oswg1080oswg547_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>SelfDefend 框架的创新设计</strong></h2>
-<p>SelfDefend 框架的灵感来源于传统安全领域中的 “影子栈”（Shadow Stack）概念。影子栈通过创建一个并行的内存空间来防御内存溢出攻击，而 SelfDefend 则通过创建一个并行的 “影子 LLM” 来检测潜在的有害查询。具体来说，SelfDefend 框架包含两个并行的 LLM 实例：一个用于正常响应用户查询的<strong>目标 LLM</strong>（ </p>
-<p class="image-wrapper"><img data-img-size-val="127,42" src="https://img.36krcdn.com/hsossms/20250211/v2_327bdba1db4649d39f0af15ce0270bd2@46958_oswg900oswg127oswg42_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>），另一个用于检测有害内容的 <strong>防御 LLM</strong> （ </p>
-<p class="image-wrapper"><img data-img-size-val="139,42" src="https://img.36krcdn.com/hsossms/20250211/v2_83896a6cfdca4675a0d558788bdf5210@46958_oswg962oswg139oswg42_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>）。当用户输入查询时，目标 LLM 会正常处理查询并生成响应，而防御 LLM 则通过特定的检测提示词（ </p>
-<p class="image-wrapper"><img data-img-size-val="205,46" src="https://img.36krcdn.com/hsossms/20250211/v2_99104c6193534042a6b467627d499cbc@46958_oswg1249oswg205oswg46_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>）来识别查询中的有害部分或意图。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,579" src="https://img.36krcdn.com/hsossms/20250211/v2_caa4ce168a184b8483c0c83f98832a36@46958_oswg336007oswg1080oswg579_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这种设计带来了多重优势：首先，它同时利用了目标 LLM 的安全对齐机制和防御 LLM 的越狱检测能力，形成了双重保护层，显著提高了防御成功率；其次，由于防御 LLM 的输出通常较短（如 “No” 表示无问题），正常查询的响应延迟几乎可以忽略不计；然后检测出的有害部分或者恶意意图可以作为防御的可解释性；最后，由于防御 LLM 不需要修改或监控目标 LLM 的内部机制，因此可以兼容开源和闭源模型。 </p>
-<h2><strong>实验验证与效果评估</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1080,334" src="https://img.36krcdn.com/hsossms/20250211/v2_1034db58d8a143d593e1a3618de3bc3e@46958_oswg333284oswg1080oswg334_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>研究团队通过大量实验验证了 SelfDefend 框架的有效性。实验结果表明，基于 GPT-3.5 和 GPT-4 的 SelfDefend 能够显著降低多种越狱攻击的成功率。例如，基于 GPT-3.5 的 SelfDefend 将攻击成功率（ASR）从平均 65.7% 降低至 0.236，而基于 GPT-4 的 SelfDefend 更是将 ASR 降低至平均 0.050。此外，SelfDefend 对正常查询的影响微乎其微，GPT-3.5 和 GPT-4 的正常查询通过率仅分别下降了 0.51% 和 2.77%。 </p>
-<p>为了进一步降低成本和提升鲁棒性，研究团队还通过数据蒸馏方法对开源的 Llama-2-7b 模型进行了微调，生成了专用的防御模型。实验表明，这些微调后的模型在防御效果上与基于 GPT-4 的 SelfDefend 相当，且额外延迟显著降低。例如，微调后的模型在正常查询中的平均延迟仅为 0-0.01 秒，而在攻击场景中的最大延迟从 GPT-4 的 1.56 秒降低至 0.39 秒。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,409" src="https://img.36krcdn.com/hsossms/20250211/v2_95a375225b2048bdbf364e7c27225a79@46958_oswg147539oswg1080oswg409_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>与现有防御方法的对比</strong></p>
-<p>研究团队还将 SelfDefend 与现有的七种主流防御方法进行了对比，包括 ICD、SafeDecoding、Perplexity Filter、SmoothLLM、Llama Guard 等。实验结果显示，SelfDefend 在 60 个测试场景中的 55 个场景中表现最优，尤其是在应对间接攻击和多语言攻击时，SelfDefend 的防御效果显著优于其他方法。此外，SelfDefend 的额外延迟也远低于其他防御方法，使其在实际部署中更具可行性。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,516" src="https://img.36krcdn.com/hsossms/20250211/v2_3e7c0ed0bc87498d9f83dbf711a5969f@46958_oswg505304oswg1080oswg516_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>未来展望</strong></h2>
-<p>这项开创性的研究不仅为 AI 安全领域带来了突破性进展，更揭示了一个振奋人心的信号：AI 系统的安全性与效率不再是鱼和熊掌不可兼得。通过赋予 AI' 自卫意识 '，SelfDefend 展现了一个更安全的 AI 未来：在这个未来里，AI 系统既能保持高效服务能力，又能主动识别和抵御潜在威胁，真正实现 ' 自我守护 '。 </p>
-<p>参考链接： </p>
-<p>https://x.com/rohanpaul_ai/status/1886025249273339961 </p>
-<p>https://techcrunch.com/2025/02/09/deepseeks-r1-reportedly-more-vulnerable-to-jailbreaking-than-other-ai-models/ </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/yEJiLiIiE-xeczl6MuEpVA" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161851862968838</guid><pubDate>Tue, 11 Feb 2025 17:00:00 +0800</pubDate></item><item><title>OpenAI劲敌Anthropic发布经济指数报告，年薪超6万美元用户使用最频繁</title><link>https://36kr.com/p/3161978042641161</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2月11日消息，OpenAI竞争对手Anthropic发布了首份《经济指数》报告，他们对大约400万次与Claude的对话进行分析，具体涵盖了Claude.ai上的初级用户和Pro用户的对话，并根据职业任务对这些对话进行分类，提供了关于企业和专业人士如何将AI融入工作的细节。</p>
-<p>过往的AI工作影响分析多来自于社会学问卷调查或经济模型分析。这是首次有公司结合AI软件内部使用情况，对AI经济影响的分析尝试。能让我们从内部视角一窥究竟。</p>
-<h2><strong>Anthropic首份经济指数报告的主要发现：</strong></h2>
-<p>——<strong>在各类任务中，57%的使用表明AI被用于执行“增强”任务，</strong>即AI与人类协作，提升人类能力；而43%被用于执行“自动化”任务，即AI直接执行任务。</p>
-<p>——当前，AI的使用主要集中在软件开发和技术写作任务中。<strong>超过三分之一的职业（约36%）至少在四分之一的相关工作中使用AI</strong>，约4%的职业更是在四分之三的相关工作中使用AI。</p>
-<p>——<strong>AI在计算机程序员和数据科学家等中高薪职业中使用更为普遍</strong>，但在最低薪和最高薪职位中，AI的使用率都较低。这可能反映了当前AI能力的局限性，也反映了使用该技术的实际障碍。</p>
-<h2><strong>以下是Anthropic报告中发现的详细内容：</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="1000,908" src="https://img.36krcdn.com/hsossms/20250211/v2_40303890749d41bbb83e307407e0b709@46958_oswg663040oswg1000oswg908_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图注：以上数据源自与Claude.ai的实际对话，展示了AI在不同任务、职业和类别中的使用情况</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 11 Feb 2025 18:30:21 +0800</lastBuildDate><pubDate>Tue, 11 Feb 2025 18:30:21 +0800</pubDate><item><title>别等苹果AI了，7大中国手机厂接入DeepSeek，还是满血版</title><link>https://36kr.com/p/3162022692694790</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_bfaf9806c8774fa1862266b8541a3163@000000_oswg108917oswg900oswg383_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>智东西2月11日报道，<strong>短短4天内，华为、荣耀、OPPO三大中国手机巨头全部官宣接入DeepSeek-R1。星纪魅族</strong>紧随其后，有爆料人称v<strong>ivo也确认将接入DeepSeek，</strong>目前中国前五大手机厂商中<strong>仅剩小米一家还未有相关消息。</strong></p>
+<p>就在昨天下午，中兴旗下<strong>努比亚、红魔等手机品牌也先后官宣将接入DeepSeek-R1，</strong>其高管倪飞在微博上发文称<strong>努比亚Z70 Ultra会将6710亿参数量的全尺寸DeepSeek-R1模型内嵌至系统中。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_979d16d0b24c4bec93f7e3ace5043891@000000_oswg61563oswg967oswg391_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲中兴通讯终端事业部总裁、努比亚技术有限公司总裁倪飞微博</p>
+<p>与此同时，中国工信部2月8日发文提到，<strong>中国移动、中国电信、中国联通三家基础电信企业已全面接入DeepSeek开源大模型，</strong>在多场景、多产品中应用，并针对热门DeepSeek-R1模型提供了专属算力方案和配套环境。 </p>
+<p>2月10日开盘后，三家股价均有明显涨幅，<strong>中国电信盘中一度涨停，收盘价创历史新高，中国联通盘中大涨5%。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_763a48d045a549719d16e40bd4b85f79@000000_oswg463457oswg1080oswg586_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲截至2月10日收盘，三大电信运营商股价情况，来源：腾讯自选股</p>
+<p>至此，<strong>继AI芯片、云计算领域掀起DeepSeek适配浪潮后，智能手机、移动通信领域也全面掀起DeepSeek接入潮。</strong></p>
+<p>中国科技圈，几乎已全面拥抱DeepSeek。 </p>
+<h2><strong>01.纯血鸿蒙领跑七大中国手机品牌争相接入</strong></h2>
+<p>2月5日华为一马当先，其<strong>纯血鸿蒙系统中的小艺App率先上架了DeepSeek-R1智能体测试版，</strong>2月10日上午，测试版升级为正式版，新增了“联网搜索”功能。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_2d3673bbb4ce4769b20e555fb6ef9fc7@000000_oswg110232oswg690oswg1485_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲华为小艺App智能体界面</p>
+<p>联网搜索是很多用户都比较期待的一个功能，可以让知识库更丰富，让回答的时效性更强。 </p>
+<p>值得一提的是，华为方面提到，<strong>小艺App上架的DeepSeek-R1智能体是基于华为云异腾云服务实现的。</strong>华为人士认为，这种模式可以保证计算资源，AI对话的体验更流畅。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_298cdfc86cab4e9aab9dde52c3b76874@000000_oswg164951oswg1080oswg2461_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲华为小艺App下载页面</p>
+<p>有华为人士在社交平台上引用网友评论称：<strong>“软硬一体化就是好，友商估计现在还没买够算力卡。”</strong></p>
+<p>相比纯血鸿蒙动作神速，另一边，<strong>荣耀则成为安卓阵营第一个接入DeepSeek的厂商。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_d589aeb5ac0945eaa67af165c64267c2@000000_oswg65059oswg964oswg655_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲荣耀手机官微信息</p>
+<p>2月8日上午，<strong>荣耀正式在YOYO智能体商店上线DeepSeek-R1尝鲜版，</strong>用户手机系统版本需要是MagicOS 8.0及以上，YOYO助理也要同步升级到最新版就可以使用了。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_6a98f37e713c4f3fbfa142801bce3786@000000_oswg137450oswg690oswg1547_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲荣耀YOYO助手智能体页面</p>
+<p>在尝鲜版中，用户可以与DeepSeek进行<strong>日常聊天、知识查询、文本创作</strong>等，在回答问题过程中，DeepSeek-R1可以正常显示思考过程。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_14cbf745fcf6447eb10481d70c3b8d61@000000_oswg52689oswg655oswg1087_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲荣耀YOYO助手中的DeepSeek-R1（尝鲜版）界面</p>
+<p>部分用户反馈上线初期经常会问着问着开始“转圈”，荣耀旗舰手机产品经理李坤在微博上回答称，<strong>YOYO助理接入DeepSeek之后有些火爆，中午刚上线服务器就被挤爆了，荣耀的工程师团队进行了紧急扩容。</strong>据称此次荣耀接入的是满血版DeepSeek-R1模型。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_20616b2620b7422ead0682bb90b6fad7@000000_oswg41106oswg961oswg298_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲荣耀旗舰手机产品经理李坤微博</p>
+<p>2月8日下午17点14分，OPPO紧随荣耀也官宣了其即将发布的折叠屏手机OPPO Find N5将正式接入DeepSeek-R1。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_237018d82390432eba4057f9d35780cf@000000_oswg69304oswg1080oswg1162_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲通过小布助手与DeepSeek-R1对话的界面</p>
+<p>同样，<strong>用户可以直接通过小布助手进行语音唤醒，支持联网搜索，并且用户可以将生成结果导出为本地文件。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_d275d03ac0e74983b80aa77bcfbe572d@000000_oswg99318oswg1080oswg1162_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲通过小布助手与DeepSeek-R1对话的界面</p>
+<p>2月8日下午18点51分，<strong>星纪魅族科技也官宣其Flyme AIOS已经完成DeepSeek-R1大模型接入，</strong>下周魅族21系列、Lucky 08会率先上线，星纪魅族 StarV AR眼镜等AI生态产品后续将陆续接入。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_b067b717e7c641ebb8bf2197c2803878@000000_oswg31794oswg973oswg283_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲星纪魅族官微信息</p>
+<p>vivo这边虽然没有明确官宣信息，但知名数码爆料人数码闲聊站2月8日晚19点15分在微博上发文称，<strong>vivo确认将接入DeepSeek-R1。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_ad0310d8f74f43c7b0aad99bf1a01748@000000_oswg21490oswg964oswg247_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲数码闲聊站微博</p>
+<p>2月10日下午，中兴旗下努比亚和红魔两个手机品牌也相继宣布将接入DeepSeek-R1大模型，其中努比亚宣布旗舰Z70 Ultra将内嵌全尺寸DeepSeek-R1模型。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_e6c3c9b722ae4d5f8335fdbd9e4546e6@000000_oswg67049oswg966oswg513_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲努比亚手机官微信息</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_35d815b19ab44a74851eeab81772030a@000000_oswg48180oswg969oswg742_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲红魔手机官微信息</p>
+<p>中兴通讯终端事业部总裁、努比亚技术有限公司总裁倪飞也在微博上发文称，比起简单快速地用“智能体方案”接入，<strong>努比亚会将DeepSeek内嵌至系统中，并且是6710亿参数量的全尺寸嵌入，这需要大量研发工作到投入，</strong>目前努比亚Z70 Ultra正在内测中。 </p>
+<p>目前<strong>头部手机厂商中仅剩小米未有支持DeepSeek相关消息放出。</strong>值得一提的是，此前有媒体报道称，小米集团创始人兼CEO雷军以千万年薪招募DeepSeek“天才少女”罗福莉，让其负责小米AI实验室大模型团队。目前该消息并未得到小米或罗福莉方面的回应。小米是否在“憋大招”？值得后续关注。 </p>
+<h2><strong>02.分散DeepSeek服务器压力AI问答体验更流畅稳定</strong></h2>
+<p>整体来看，<strong>目前各家基本都是采用“智能体+”的方式接入DeepSeek，类似苹果智能（Apple Intelligence）接入ChatGPT。</strong></p>
+<p>也就是说，DeepSeek成为各家AI智能体可以调用的一款大模型，用户可以在与智能体交流的时候选择通过DeepSeek的模型来生成答案。 </p>
+<p>各家安卓手机用户都可以在手机应用商店里下载DeepSeek的App，所以手机厂商支持DeepSeek与用户直接下载使用App有什么区别？ </p>
+<p>从华为小艺的官方说明中我们可以看到，<strong>大部分手机厂商将DeepSeek大模型部署在各家的云上，进而让用户可以更高效地使用。</strong></p>
+<p>客观来讲，这可以一定程度上为DeepSeek服务器分流、分担其服务器压力。一定程度上可以减少用户在使用DeepSeek模型时遇到“服务器繁忙，请稍后再试”以及“一直转圈”的情况，<strong>让整个问答的体验更流畅。</strong></p>
+<p>当然，<strong>客观来讲这也省去了用户下载DeepSeek应用的过程，用户使用起来更简单。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_a168576ede264f72beae77ea83e4c663@000000_oswg70945oswg970oswg781_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲OPPO Find系列产品负责人周意保微博</p>
+<p>如今华为、OPPO、vivo、荣耀、小米均有各自的自研大语言模型，这些大模型与DeepSeek-R1的使用并不冲突，但<strong>在落地功能上的确有部分重合。</strong></p>
+<p>目前DeepSeek模型的信息输入形式仅限文本，语音输入也会转换成文本，尚不支持多模态，但<strong>各家自研大模型基本都已支持多模态输入输出。</strong></p>
+<p>比如目前华为小艺、OPPO小布、vivo蓝心小V、荣耀YOYO、小米超级小爱都已经支持AI多模态交互。 </p>
+<h2><strong>03.三大运营商全面支持DeepSeek国产模型+算力+云服务产业链闭环</strong></h2>
+<p><strong>在移动通信领域，除了智能手机巨头，三大电信运营商的支持也十分重要。</strong>三大运营商基本上都是通过各家的云服务来支持DeepSeek，从移动云、联通云到电信的天翼云。 </p>
+<p>中国联通在2月5日就官宣其联通云已经基于星罗平台实现了国产及主流算力适配多规格DeepSeek-R1模型。据称联通云基于联合创新和自研加速引擎，构建了昇腾全栈自主可控智算底座，其与DeepSeek-R1模型对接，简化调用流程，具备复杂任务下推理能力，持平国际主流算力部署效能。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_3f916c02fbc34dab81fadfd7c5b07362@000000_oswg52390oswg1080oswg744_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲联通云</p>
+<p>天翼云则在2月6日宣布中国电信天翼云“息壤”已深度适配DeepSeek-R1/V3，实现“国产模型+国产算力+国产云服务”的产业链闭环。实测昇腾国产算力显示推理性能与主流高端GPU持平。 </p>
+<p>移动云于2月7日宣布移动云已经上线DeepSeek，实现了全版本覆盖、全尺寸适配、全功能使用，通过集成融合DeepSeek模型，搭载自研COCA算力原生平台，最终实现“开箱即用”。 </p>
+<h2><strong>04.结语：手机巨头涌入DeepSeekAI手机竞赛或迎变数</strong></h2>
+<p>继云计算、AI算力产业玩家集体接入DeepSeek后，智能手机厂商们如今也拍马干到。客观来说，DeepSeek的能力部分与手机厂商自由大模型能力重合，一定程度上是竞争关系。 </p>
+<p>但纵观今天的中国AI产业，在DeepSeek浪潮之下，合作共赢已经成为主要趋势，中国AI产业正迎来抱团突围的关键时期。 </p>
+<p>与此同时，AI手机之战激战正酣，2024年成为AI手机之战的元年，2025年在DeepSeek的融合之下，AI手机的发展或涌现出新的变量。 </p>
+<p>3月25日苹果将在上海举行“深入探索Apple智能和机器学习”开发者活动，苹果AI是否会与DeepSeek产生交集，也成为业内后续关注的焦点。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652779362&amp;idx=1&amp;sn=9d2962a6b241773405b695a8eeb4218d&amp;chksm=856483693854dd763284ac1e230b8188374d533f4a3263aa07c55903c6a46f1445324f33491e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智东西”（ID：zhidxcom）</a>，作者：云鹏，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3162022692694790</guid><pubDate>Tue, 11 Feb 2025 18:18:00 +0800</pubDate></item><item><title>狂奔2年后踩刹车，喜茶暂停加盟，新茶饮“战事”中场休息？</title><link>https://36kr.com/p/3162025482644224</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>喜茶的一封全员内部信，打响了2025年新茶饮行业的反内卷第一枪。</p>
+<p>据媒体报道，2月10日，喜茶发出了一封主题为《不参与数字游戏与规模内卷，回归用户与品牌》的内部全员邮件。喜茶在邮件中表示，拒绝门店规模内卷，暂时停止接受事业合伙申请。</p>
+<p>2月10日，喜茶方面向时代周报记者证实了这一消息，并表示当前新茶饮行业产品品牌高度同质化、门店数量供大于求、门店经营效益下滑，行业继续盲目加密扩大规模，既不能更好满足用户需求，也不符合包括合伙人在内的行业从业者利益。</p>
+<p>“新茶饮行业的‘数字游戏’已经结束，低价内卷、规模内卷毫无意义。接下来我们将以门店体验与品牌内容为核心，携手并支持喜茶现有事业合伙人更好地服务用户。”喜茶对时代周报记者表示。</p>
+<p>对于喜茶此举，盘古智库高级研究员江瀚对时代周报记者表示，在门店规模上反内卷意味着喜茶可能会优化门店布局，关闭效益不佳的店铺，同时开设更多符合其品牌定位和市场需求的新店。这将有助于提升整体运营效率，减少不必要的成本开支。</p>
+<p>“长期来看，这一策略有助于巩固喜茶在高端茶饮市场的领先地位，增强其品牌影响力。但短期内，可能需要面对调整带来的阵痛，如部分门店关闭导致的员工安置问题、市场份额短期波动等。”江瀚认为。</p>
+<p>喜茶此番大刀阔斧的改革，反映出当前新茶饮赛道的生存现状，各品牌在卷IP、卷低价、卷创新之后，面临着“闭店潮”、增长放缓等问题。2025年，新茶饮品牌或许需要寻找新的出口了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_fa1017c036b04c809c3ee4cc0d691db5@000000_oswg480040oswg857oswg557_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">△图源：喜茶官网</p>
+<h2><strong>开放加盟2年多，拓店超3500家</strong></h2>
+<p>事实上，喜茶放开加盟才2年多。2022年11月，喜茶打破了长达10年的直营模式，宣布开放加盟，彼时其门店数量不足900家。</p>
+<p>2023年年初，喜茶进一步释放出扩张信号。2023年1月，喜茶高管团队在全员信中表示，经过十年的发展，公司大量门店仍在一二线城市，真正进入的城市数量不到100个。“我们应该让喜茶去到所有需要它的地方，喜茶从来都不是只属于部分人的品牌，而是服务大众的品牌。”</p>
+<p>截至2025年2月10日，据窄门餐眼数据，喜茶全国门店共有4477家，其中15个省（市）门店数量破百，在品牌诞生地广东省的门店数量共922家。其次，江苏、浙江、上海的门店数量较多，分别为427家、382家、258家。</p>
+<p>不过，随着更多新品牌涌入新茶饮赛道，在经历了一系列卷低价、卷联名、卷创新后，新茶饮行业似乎已经“卷无可卷”，逐渐从“跑马圈地”进入“精耕细作”的阶段。</p>
+<p>正如喜茶在邮件中所提到的：“过去几年来，出于资本目的、营收利润考量的价格战、盲目的门店规模扩张，导致行业陷入同质化竞争与门店过剩，在这个过程中，用户的需求反而被选择性忽略了。广泛同质化的产品品牌体验、过度的规模扩张，严重消耗用户的喜爱，也严重危害整个行业的根基。”</p>
+<p>此外，2024年开始，包括书亦烧仙草、茶百道、古茗等在内的新茶饮品牌在飞速扩张之后面临着“闭店潮”。红餐大数据显示，2023年11月-2024年11月，全国已有高达19.7万家奶茶店闭店。</p>
+<p>在此竞争格局之下，喜茶也开始不断调整经营策略。从2024年9月开始，喜茶已经着手控制门店的增速。</p>
+<p>喜茶在2024年9月发布的《为用户创造差异化的品牌和产品》内部信中，明确表示接下来几个月将会控制门店加密，更注重开店的质量与门店运营品质。</p>
+<p>今年1月，喜茶在成都春熙路新开一家近190平方米的“DP”店（HEYTEA DAY DREAMER PROJECT，白日梦计划）。公开资料显示，“DP”店即以不同元素为主题的旗舰店或概念店，融入文化与社交感。</p>
+<h2><strong>新茶饮行业转折点？</strong></h2>
+<p>喜茶暂停门店加盟或将成为新茶饮行业的关键转折点。</p>
+<p>中国食品产业分析师朱丹蓬对时代周报表示，“大家都跟风去打价格战，这对整个行业的健康、良性、有序发展是不利的。喜茶坚持高品质，不加入到价格战，作为新中式奶茶的第一品牌，它有这个担当，有这个责任去完成整个行业的一个引领。”</p>
+<p>与蜜雪冰城等坚持加盟的新茶饮品牌相比，喜茶的策略调整反映了高端茶饮品牌与下沉市场品牌在盈利模型上的差异。</p>
+<p>当前，市场上大多数茶饮品牌均采用加盟模式，并依靠加盟壮大品牌的市场规模。以“万店之王”蜜雪冰城为例，其招股书显示，截至2024年9月30日，蜜雪冰城拥有全球门店45296家，其中40510家为国内门店，4786家为海外门店。</p>
+<p>江瀚认为，高端茶饮品牌更注重产品品质、品牌形象和消费者体验，而下沉市场品牌则更注重性价比和市场份额，这种分化将加速茶饮行业的洗牌和整合。</p>
+<p>“长期来看，这种分化将有助于形成更加多元化的茶饮市场格局。不同品牌和定位的企业将在各自擅长的领域深耕细作，共同推动整个行业的健康发展。”</p>
+<p>另外，朱丹蓬也对时代周报表示，喜茶停止加盟，是践行国家高质量发展的重要具体表现，目前来说，加盟店已经成为了食品安全隐患的最核心的要素。“所以喜茶放弃加盟模式，对于自身的可持续发展、整个行业的内卷、保障消费者的合法权益，以及在食品安全方面有更高的保障，有非常大的赋能以及加持。”</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653324098&amp;idx=3&amp;sn=a68eec060cd959484c7f75678b106530&amp;chksm=bc1290392538024803aed2738a09a278dc3732c950ba8a5491d5643ac0cf7547ba80f30ac42a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：孙艺格，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3162025482644224</guid><pubDate>Tue, 11 Feb 2025 18:20:00 +0800</pubDate></item><item><title>拆解麦当劳、百胜中国财报：大幅拓店，必争咖啡</title><link>https://36kr.com/p/3162026766560001</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_1537fefa6f274f19b43c0e3101461a82@000000_oswg901310oswg1000oswg760_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>「明亮公司」获悉，2月10日晚间，麦当劳（MCD.US）公布2024全年及Q4业绩。财报显示，公司全年合并收入259.20亿美元，同比增长2%；第四季度合并收入63.88亿美元，同比持平。<strong>全球范围内，公司业绩实现整体“温和增长”</strong>。</p>
+<p>此前几天，另一快餐品牌百胜中国（09987.HK；YUMC.US）也于2月6日公布了2024年度及四季度财报，<strong>第四季度核心经营利润同比增长35%、全年同比增长12%</strong>。比起麦当劳的温和增长，百胜中国业绩在当前市场环境下的显著拉升引发了市场对其运营策略的诸多关注。</p>
+<p>针对上述两个有着相似背景的餐饮集团，我们希望通过两方的最新财报进行一些对比和拆解：<strong>麦当劳的财报以全球业绩为主，百胜中国则是中国西式快餐消费代表</strong>，而快餐消费在某种程度上也反映出北美和中国迥然不同的宏观和利率环境——<strong>北美和全球仍在消化通胀的过程中，而中国市场则面临消费需求减弱的压力。西式快餐则作为“刚需”品类，通胀和通缩压力之下，消费者的选择可能会产生分化</strong>。</p>
+<p>就双方公布的最新财报信息来看，麦当劳整体业绩增长较为平稳，但面临一定的市场压力，特别是在美国本土市场。百胜中国在中国市场表现出色，<strong>盈利成长性较强</strong>，通过门店扩张、外卖业务增长和数字化转型等策略推动业绩增长。</p>
+<p>“在中国，<strong>我们看到了令人鼓舞的企稳迹象</strong>。”麦当劳CFO Ian Frederick Borden在电话会议中表示，尽管全球快餐行业（QSR）仍然具有挑战性，但麦当劳不断进化依旧保持着强劲的增长执行能力。麦当劳将继续推进“Accelerating the Arches”（加速拱门）战略，通过创新和数字化转型提升顾客体验，推动市场份额增长。</p>
+<p><strong>百胜中国则计划在2025财年花费7-8亿美元净新增约1600-1800家门店</strong>，并继续推进数字化转型和外卖业务发展，提升顾客体验和运营效率。此外，公司计划在2024年至2026年间向股东回馈45亿美元，其中包括现金股息和股票回购。</p>
+<h2><strong>百胜中国门店创收效率更高</strong></h2>
+<p>从营收维度看，2024年全年麦当劳全球合并收入259.20亿美元，同比增长2%，全球可比销售额下降0.1%（其中美国市场增长0.2%，国际经营市场下降0.2%，国际发展许可市场下降0.3%）。系统销售额增长1%、营业收入增长2%，营业利润增长1%，每股摊薄收益为11.39美元，下降1%。</p>
+<p>百胜中国2024年系统销售额同比增长5%，总收入同比增长3%至113亿美元，创分拆上市以来新高，同店销售额达去年同期水平的97%。</p>
+<p>麦当劳管理层在2月10日晚间的电话会议中表示，尽管受到大肠杆菌事件的影响，导致公司业绩受挫，但美国地区的可比销售额恢复还是不错的。目前，公司已经开始实施“加速拱门计划”，力争从上述安全事件中尽快恢复，并重新建立客户信任。</p>
+<p>据管理层透露的信息，截至目前，麦当劳在加拿大、德国等市场的创新收到良好反馈，法国、中东的宣传活动收效显著，此外，中国地区的经营也显现出稳定迹象。</p>
+<p>值得一提的是，据双方最新财报，截至2024年12月31日，<strong>麦当劳在全球拥有43,000家门店</strong>，分布在100多个国家和地区，而<strong>百胜中国的门店数量截至2024年12月31日总数为16395家</strong>，全部位于中国。<strong>2024年百胜中国以远少于麦当劳1/2的门店数量和远低于麦当劳的覆盖广度，创造了接近其一半的营收</strong>。</p>
+<p>具体到2024年Q4，麦当劳全球合并收入63.88亿美元，与上一年度持平。全球可比销售额增长0.4%（其中美国市场下降1.4%，国际经营市场增长0.1%，国际发展许可市场增长4.1%）。系统销售额增长2%。<strong>同期，百胜中国总收入26亿美元，同比增长4%，系统销售额同比增长4%</strong>，同店销售额达去年同期水平的99%。</p>
+<p>尽管Q4总营收差距明显，但百胜中国在<strong>单一市场的增速依旧显著高于麦当劳全球的同期表现</strong>。</p>
+<h2><strong>麦当劳利润依旧强劲，百胜增速出色</strong></h2>
+<p>从利润方面看，<strong>2024年麦当劳合并营业利润117.12亿美元，同比增长1%</strong>，净利润82.23亿美元，同比下降3%。每股摊薄收益11.39美元，较上一年度下降1%。<strong>第四季度净利润20.17亿美元，同比下降1%</strong>。</p>
+<p>2024年全年，<strong>百胜中的经营利润12亿美元，同比增长5%，核心经营利润同比增长12%</strong>。净利润9.11亿美元，同比增长10%。<strong>第四季度经营利润1.51亿美元，同比增长36%，核心经营利润同比增长35%</strong>。</p>
+<p>从绝对数字看，百胜中国的利润额与麦当劳相比差距依旧非常明显，不在同一量级。但从成长性角度看，百胜中国在经营利润率、餐厅利润率甚至每股摊薄盈利方面，均保持了较高的增长水平，第四季度增长尤为明显。</p>
+<p>“我们以强劲的第四季度业绩为2024年圆满收官，推动多项业绩指标创下年度新高”。百胜中国首席执行官屈翠容在财报发布时称，第四季度公司的系统销售增长超过了餐饮行业的增速，同店销售指数环比提升主要得益于公司连续第八个季度的同店交易量增长。</p>
+<p>该季度，<strong>百胜中国的经营利润率同比扩大140个基点，餐厅利润率同比增长160个基点</strong>。据屈翠容透露，自2024年第二季度以来，公司业绩指标实现稳步提升，同店销售指数、利润率和经营利润增长率均逐季提高。</p>
+<p>2月10日晚间的麦当劳电话会议中，管理层也针对营业利润表示，<strong>2025年的目标是在营业利润率略有改善、顶线增长和特许经营利润率表现推动下，实现更高的全年公司营业利润率</strong>。未来，公司将战略聚焦包括利用跨三个平台的技术来增强运营、客户参与度和餐厅效率。</p>
+<p>其最新财报，2024年第四季度，麦当劳中国所在的国际特许市场部门（IDL）同店销售额增长4.1%，是麦当劳全球三大分部中增长最快的。2024年全年，该部门整体下滑0.3%，但中国市场表现出稳定的乐观迹象。</p>
+<h2><strong>双方均将于2025年大幅拓店</strong></h2>
+<p>据麦当劳的最新财报，门店表现方面，2024年全球系统销售额超过1300亿美元，全年增长超过10亿美元；忠诚度计划会员的系统销售额约为300亿美元，第四季度约为80亿美元，全年增长30%。截至年底，60个忠诚度市场中有超过1.75亿活跃用户，同比增长约15%。</p>
+<p>分地区看，第四季度，美国市场同店销售额下降1.4%，全年增长0.2%；国际市场同店销售额增长0.1%，全年下降0.2%；国际市场同店销售额增长4.1%，全年下降0.3%。</p>
+<p>本次电话会议中，麦当劳CFO Ian Frederick Borden公布了麦当劳最新的全球开店计划。他预计2025年新增餐厅以及2024年开设的餐厅将为全系统销售额增长贡献略高于2%的份额，因为“我们仍在加快新店开发的速度”。</p>
+<p>Borden透露，今年公司计划支出30亿到32亿美元，其中大部分将用于美国和IOM（国际运营市场）板块的新店开业。<strong>全球范围内，麦当劳计划2025年开设大约2200家餐厅，其中约四分之一位于美国和IOM板块，预计IDL（国际市场领导）板块将开设超过1600家餐厅，其中约1000家在中国</strong>。</p>
+<p>“总体而言，我们预计2025年通过近1800家净新增餐厅实现略高于4%的门店数量增长”。Borden表示。</p>
+<p>据百胜中国最新财报，截至2024年12月31日，专注中国单一市场的<strong>百胜中国旗下门店总数达到16395家，全年净新增门店1751家</strong>，其中加盟店净新增512家，约占净新增门店总数的29%。第四季度净新增门店534家。</p>
+<p>肯德基方面，2024年在2023年<strong>10296家基础上净新增门店1352家</strong>，总数达到11648家，其中加盟店净新增402家；</p>
+<p>必胜客方面，截至2024年12月31日门店总数达到3724家，净新增门店412家，其中加盟店净新增42家；</p>
+<p>其他品牌（包括小肥羊、黄记煌、塔可钟、Lavazza等）截至2024年12月31日门店总数达到1023家，2024年净新增门店210家。</p>
+<p>目前，百胜的门店遍布中国超过2,200个城镇。鉴于麦当劳全球约95%的门店由独立的当地业主经营，百胜中国也开始逐步增加加盟门店的比例。<strong>2025财年，百胜中国预计净新增约1600-1800家门店。未来几年，肯德基和必胜客净新增门店中，加盟店的比例将分别逐渐增加到40%-50%和20%-30%</strong>。</p>
+<p>“通过因地制宜的门店模式，我们不断增加直营和加盟店的店数，稳步向2026年实现2万家门店的目标迈进。加盟商帮助我们开拓先前难以进入的偏远地区、低线城市及战略点址”。屈翠容表示。</p>
+<h2><strong>咖啡业务或成「必争之地」</strong></h2>
+<p>2024年，肯德基推出独立咖啡品牌“肯悦咖啡”（K Coffee）。作为其咖啡业务的创新举措，百胜中国在财报中称，<strong>肯德基的咖啡业务在2024年表现强劲，推动了整体销售额的增长</strong>。</p>
+<p>得益于“肩并肩”模式，即依托肯德基现有餐厅设立独立门面咖啡店，共享厨房资源，降低初期投资和运营成本，公开数据显示，<strong>截至2024年底，肯悦咖啡门店数量已从年初的50家迅速扩展至700家，一年间增长14倍，计划2025年底拓展至1300家门店</strong>。</p>
+<p>据其最新财报，必胜客和Lavazza的咖啡业务表现也可圈可点。其中，必胜客的咖啡业务在2024年也有所增长，特别是在其转型过程中，咖啡饮品成为吸引顾客的重要产品之一；Lavazza咖啡业务在2024年继续扩展，成为百胜中国咖啡业务的重要组成部分，门店数量和销售额在2024年均有所增长。</p>
+<p>财报显示，肯德基和必胜客的会员数量在2024年超过5.25亿，较去年增长11%，数字订单收入达到96亿美元，约占公司餐厅收入的90%。其中，<strong>咖啡业务通过数字渠道的推广，吸引了大量会员和线上订单</strong>。百胜中国计划在未来几年内继续扩展其咖啡业务，特别是在肯德基和Lavazza品牌下。</p>
+<p>麦当劳CEO Chris Kempczinski在电话会议中回应分析时，麦当劳对饮料行业的机会非常看好，无论是咖啡——热的或冰的，还是其他比如能量饮料，<strong>该领域正以其他业务约2倍的速度增长，有非常强劲的毛利表现</strong>。麦当劳正在“以几种不同的方式去追求这一高毛利”。</p>
+<p>公开数据显示，截至2024年5月，麦咖啡门店数量已超过3500家；<strong>截至2024年12月15日，麦咖啡门店数量已接近7000家</strong>。预计2025年麦咖啡的门店数量会进一步增加。</p>
+<p>与肯德基“肩并肩”模式有所不同的是，麦咖啡的门店主要依托麦当劳现有餐厅网络，以“店中店”模式出现，<strong>目前在中国没有单独的门店</strong>。在刚刚发布的2024年第四季度及全年财报中，麦当劳也并未提及咖啡业务相关信息，具体数据和表现也并未单独披露。</p>
+<p>不过，麦当劳对于其中国的咖啡业务显然也在暗中发力。<strong>2月5日，麦咖啡正式推出全新鲜萃咖啡饮品，以“更高品质、同价升级”为卖点，覆盖全国约7000家门店</strong>。据悉，此次推出的鲜萃咖啡100%采用阿拉比卡咖啡豆，对此前鲜煮咖啡使用的“70%阿拉比卡+30%罗布斯塔”拼配豆进行了升级。</p>
+<p>有趣的是，肯德基在推出咖啡饮品之初，便为自己打上了“阿拉比卡咖啡豆”的标签，迄今已占有较为稳固的消费心智。</p>
+<p>为配合新品推广，麦当劳中国还同步启动了“免费赠饮+超值套餐”组合销售策略，22月5日至11日，消费者可通过官方App领取赠饮券；2月12日起推出9.9元“鲜萃有堡”早餐套餐，将咖啡与芝芝火腿扒堡捆绑销售。</p>
+<p><strong>这一营销策略侧面贴合了麦当劳对于“早餐”的重视</strong>。麦当劳管理层在本次财报电话会议中也着重强调了早餐业务的重要性，在美国，其早餐业务不仅在销售方面表现强劲，早餐套餐也带动了其他产品的销售上升。</p>
+<p>以早餐为切入点带动咖啡销售或许是个不错的策略。在此次推出的组合销售套餐中，麦当劳不仅将咖啡制作方式升级为“滴滤工艺、现场制作”，且保留了免费续杯服务，价格维持不变。</p>
+<p><strong>咖啡在中国仍是少有的增长赛道之一</strong>。目前来看，肯悦咖啡的模型已经基本跑通，麦咖啡却并未单独设立门店。伴随市场成熟度增加、饱和度变大，咖啡业务作为增量或终将成为双方的必争之地。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI1Njk1MDgyMQ==&amp;mid=2247508332&amp;idx=1&amp;sn=212a2caa1300589f3053de30ba4508f1&amp;chksm=eb8fd4d2a6c224c0409adb48e96b077f0b6fd96a1eb0c1f42c18a15d24e27b989e8d74b755a5&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“明亮公司”（ID：suchbright）</a>，作者：苏打，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3162026766560001</guid><pubDate>Tue, 11 Feb 2025 18:22:00 +0800</pubDate></item><item><title>超级碗广告盛宴：OpenAI危机，库克找梅西，Temu不烧钱了</title><link>https://36kr.com/p/3161968974162436</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="550,360" src="https://img.36krcdn.com/hsossms/20250211/v2_9a597a6c5bd34da6b05c26658ca7db9e@46958_oswg408132oswg550oswg360_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>每年一度超级碗，美国人民过春晚。</p>
+<p>今年的第59届超级碗总决赛在路易斯安那州新奥尔良举行，费城老鹰队以40比22的悬殊比分横扫了前两届的总冠军堪萨斯城酋长队，不仅打破了对手三连冠的美梦，也报了自己在两年前在超级碗输给对手的旧仇。</p>
+<p>超级碗是美式足球大联盟（NFL）的年度总决赛。从1966年迄今已有近60年历史。对美国人来说，超级碗并不是一场单纯的体育比赛，已经成为了每年最重要的非官方节假日。</p>
+<p>从2004年开始，这场总决赛安排在每年2月的第一个星期天进行。在这一天，美国人通常会聚在一起，一边吃着啤酒、披萨和炸鸡，一边围着大电视看球欢呼。这也是感恩节（相当于中国的除夕）之外，美国人胡吃海塞的一天。</p>
+<p>按商业价值排列，美国人最喜欢的职业体育赛事是美式足球（NFL）、棒球（MLB）、篮球（NBA）以及冰球（NHL）。2024年NFL总收入高达138亿美元，而MLB、NBA和NHL依次为121亿、100亿和64亿。全球第一运动足球在美国甚至排不到前四，美国足球大联盟（MLS）收入只有22亿美元，甚至还不到NFL的零头。</p>
+<p class="image-wrapper"><img data-img-size-val="550,366" src="https://img.36krcdn.com/hsossms/20250211/v2_ff709c4fdc6d4be2aef65ff5819f4695@46958_oswg248392oswg550oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>正因为如此，超级碗在美国是绝对的收视率王者，远超其他一切电视节目，完全可以被称为“美国春晚”。总人口3.5亿的美国，超级碗平均每年收视观众都超过了1亿人，去年超级碗更是吸引了超过1.23亿电视观众，创下了历史新高。预计今年超级碗的观众可能会达到约1.3亿人。</p>
+<p>最顶级的收视盛宴，自然有着最顶级的商业价值。2021年，NFL与CBS、FOX、NBC、迪士尼（旗下包括ESPN和ABC频道）等传统体育转播巨头签下了11个赛季总额高达1130亿美元的天价转播协议，相当于每年转播权超过100亿美元。作为对比，足球赛事里面最值钱的英超每年转播权收入目前约在36亿美元左右。</p>
+<p>作为总决赛的超级碗，则由各家电视巨头轮流转播，去年是CBS，今年则是福克斯电视台。值得一提的是，流媒体巨头亚马逊也首次加入了NFL转播集团，但他们获得的是周四晚间比赛独家转播权，这是流媒体平台首次获得独家转播权益。</p>
+<h2><strong>库克和梅西共同推广足球</strong></h2>
+<p>据传苹果也一度有意NFL转播权，但他们最终还是选择了另外一条赛道。2022年，苹果音乐取代百事可乐，与NFL签下未来十年的超级碗中场秀赞助合同，推广自己的流媒体音乐服务。苹果负责营销的副总裁马尔任（Tor Myhren）表示，“我们几乎没有任何犹豫，只谈了一次就达成了合作。”</p>
+<p class="image-wrapper"><img data-img-size-val="550,289" src="https://img.36krcdn.com/hsossms/20250211/v2_2aa3595114c244dea45ed51e0f1293d2@46958_oswg118694oswg550oswg289_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为了得到中场秀赞助商的独家广告位，苹果每年为此向NFL支付5000万美元的赞助费。但是他们也因此得到了巨大的广告回报，毕竟是每年上亿人收看的节目。市调公司Relo Metrics统计，中场秀单是直接品牌曝光价值就高达2150万美元。</p>
+<p>众所周知，超级碗12分钟中场表演相当于流行乐艺人的终身成就奖，包括迈克尔·杰克逊（Michael Jackson）在内的诸多传奇巨星都在这个舞台登场演唱，去年的超级碗中场表演邀请了R&amp;B歌手亚瑟小子（Usher），今年则是刚刚在格莱美拿到五项大奖的肯德里克·拉马尔（Kendrick Lamar）。</p>
+<p class="image-wrapper"><img data-img-size-val="550,366" src="https://img.36krcdn.com/hsossms/20250211/v2_f5e4299a4db745f080e6a7a02885e399@46958_oswg166265oswg550oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>今年是苹果赞助超级碗中场秀的第三年。苹果CEO库克和苹果服务业务高级副总裁埃迪·库伊（Eddy Cue）都来到了现场。他们和拉马尔也有着合作关系，这位嘻哈天王的歌曲Humble刚刚在Apple Arcade的节奏游戏Synth Riders for the Vision Pro中独家亮相。</p>
+<p class="image-wrapper"><img data-img-size-val="550,310" src="https://img.36krcdn.com/hsossms/20250211/v2_21460cdbae8c4454a09f39d3af04e508@46958_oswg241052oswg550oswg310_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>来到新奥尔良之后，库克不仅顺道参观了当地苹果店，还和NFL明星外接手小奥德尔·贝克汉姆（Odell Beckham Jr． ）一起去了当地标志性的三明治快餐店Po’boys。有趣的是，店内顾客对美式足球明星的热情远远超过了苹果CEO，纷纷上前与贝克汉姆打招呼，而库克则遭到了“无情”冷遇。</p>
+<p class="image-wrapper"><img data-img-size-val="550,630" src="https://img.36krcdn.com/hsossms/20250211/v2_d5bb850c06844909bea101296f7b906f@46958_oswg345408oswg550oswg630_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>库克在超级碗的另外一项重要安排是与足球巨星梅西共同为下周即将开始的美职联MLS新赛季进行预热推广。虽然无法与美式足球NFL相提并论，但梅西的到来点燃了美国公众对足球的热情，不禁让人想起了当年球王贝利来到美国的盛况，也给美职联带来了巨大的关注度。</p>
+<p>重要的是，Apple TV+就是美职联的独家流媒体转播商。2023年2月，苹果斥资25亿美元买下了美职联未来10年的独家流媒体版权。在梅西宣布加盟迈阿密国际的前一天，苹果宣布即将在Apple TV+播放四集的梅西个人纪录片。</p>
+<p>据报道，梅西在迈阿密国际的收入也包括了来自苹果的流媒体直播收入分成。某种意义上来说，库克和梅西是重要合作伙伴。梅西加盟美职联之后，极大提升了苹果购买的美职联转播版权价值，让积极拓展自己流媒体业务的库克收获颇丰。</p>
+<p class="image-wrapper"><img data-img-size-val="550,275" src="https://img.36krcdn.com/hsossms/20250211/v2_e5c34970d29d4f17bb7e7aeb40a7cbfa@46958_oswg151069oswg550oswg275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>科技行业轮流登上超级碗</strong></h2>
+<p>每年的超级碗，也是美国电视广告盛宴。电视台支付天价获得转播权，自然也要实现广告收入最大化。今年福克斯转播的超级碗，每30秒商业广告高达800万美元，比过去两年的每30秒700万美元进一步上涨。</p>
+<p>高投入打广告，当然期待高回报。每年舍得耗费巨资，在超级碗打广告的品牌，都有着巨大的商业野心。超级碗的电视广告，不仅可以直接触及上亿观众，更会成为社交网络和媒体报道的焦点，从而给广告主带来后续更大的曝光度。</p>
+<p>每年的超级碗广告变化，也可以看出美国商业潮流和消费者需求的不变与变化。需求巨大、销量稳定的食品、饮料、啤酒等快消行业永远都是超级碗的最大广告金主，也占据着超级碗最多的广告位。</p>
+<p>科技产品同样是超级碗广告的主角之一。被誉为史上最成功的科技公司广告《1984》就是苹果在1984年超级碗上首次投放的。这次广告不仅成功推广了Macintosh电脑，还彻底改变了广告行业的游戏规则，成为营销史上的经典案例。</p>
+<p class="image-wrapper"><img data-img-size-val="550,310" src="https://img.36krcdn.com/hsossms/20250211/v2_35e96169f980402880032963050bc363@46958_oswg227671oswg550oswg310_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>回顾过去几年的超级碗，不断有新的科技行业登上盛宴舞台，成为超级碗的广告主角：加密货币、流媒体、电动车、外卖、跨境电商、AI，每年都可以看到新的科技潮流。</p>
+<p>2022年的超级碗，几乎成为了加密货币的广告盛宴，但随着这个行业的泡沫破灭，FTX诸多平台陷入欺诈丑闻，随后超级碗干脆拒绝了加密货币公司。但在主导放松监管的特朗普上台之后，加密货币行业可能会迎来新的增长契机。</p>
+<p>2023年的超级碗则是电动车的狂热。单是Stellantis、通用汽车和起亚三大厂商就投入了5600万美元，为自己的新款电动车投放广告。这也与拜登政府大力推广新能源，鼓励民众购置电动车的绿色新政直接相关。</p>
+<p class="image-wrapper"><img data-img-size-val="550,310" src="https://img.36krcdn.com/hsossms/20250211/v2_8d392a95fd7f4915822f19f55ce80a8d@46958_oswg43767oswg550oswg310_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而，电动车在美国并没有获得预料之中的增长。虽然去年销量创下140万辆的新高，但市场渗透率却只有7.6%，远远低于其他国家。随着特朗普上任之后逐步取消美国公共充电网络基础设施以及取消联邦电动车购置退税，电动车在美国的普及前景只会更加暗淡。</p>
+<h2><strong>OpenAI天价广告背后野心</strong></h2>
+<p>去年和今年，超级碗的科技公司广告主角则让位给了生成式AI。在去年的超级碗上，微软豪掷千金主推自己的AI工具CoPilot，令人印象深刻。生成式AI热潮是微软股价飙升的资本，微软一方面用投资和云平台牢牢绑定了OpenAI，另一方面加速自己产品的全线AI升级。</p>
+<p>而在今年几十个超级碗广告中，最吸引瞩目的莫过于首次进入超级碗的巨头OpenAI。这家创业公司投入了超过1500万美元，以60秒广告展示了人工智能与人类最伟大发明齐头并进的愿景。</p>
+<p class="image-wrapper"><img data-img-size-val="550,310" src="https://img.36krcdn.com/hsossms/20250211/v2_8fcb36c359da4665a649dd6fa8c5f2e3@46958_oswg181728oswg550oswg310_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这则广告通过点描画风格的动画，追溯了人类技术演变的历程，将抽象的点逐渐转化为象征进步的标志性图像——从火和轮子等早期工具，到DNA测序和太空探索等现代突破。广告最后呈现了人工智能的现代应用，例如ChatGPT处理日常任务、撰写商业计划和语言辅导等。</p>
+<p>OpenAI新任首席营销官凯特·罗奇（Kate Rouch）刻意避开了通用人工智能（AGI）或超级智能这些容易引发公众恐慌的元素，而是专注于AI能够给日常生活带来的实际帮助，希望得到更多消费者的认可和选择。他在接受媒体采访时表示：“我们希望传达的信息与超级碗观众息息相关，其中包括数千万对人工智能尚不了解的人。”</p>
+<p>在创意阶段，OpenAI的文本生成视频AI工具Sora被用于快速原型开发和探索不同的镜头处理方式，但最终的动画完全由人类艺术家制作。罗奇解释称：“这是对人类创造力的庆祝，是人类创造力的延伸。”</p>
+<p>这显然是考虑到了此前谷歌AI广告引发的巨大争议。在巴黎奥运会期间，谷歌打广告用AI来为人类书写感人信件，却遭到了公众的诸多批评，最后不得不撤下广告。今年超级碗，谷歌也推出广告主打其Gemini AI，与OpenAI展开直接竞争。</p>
+<p>对于OpenAI而言，这次超级碗的广告亮相至关重要。他们希望此次黄金时段的广告，可以帮助实现今年116亿美元的收入目标。OpenAI正在进行新一轮融资，计划融资超过400亿美元，投后估值达到3000亿美元，较上一轮融资的1570亿美元几乎翻倍。</p>
+<p>日本巨头软银计划投资150亿-250亿美元，成为本轮超级融资的领头方。如果本轮融资成功，OpenAI将成为全球估值第二高的初创公司，仅次于SpaceX，并巩固其在大模型领域的领导地位。</p>
+<p class="image-wrapper"><img data-img-size-val="550,412" src="https://img.36krcdn.com/hsossms/20250211/v2_b73d87c2d0254e6688d3deacd3165315@46958_oswg117277oswg550oswg412_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不得不提的是，相比AI巨头谷歌，中国公司DeepSeek才是OpenAI面临的最大威胁。DeepSeek近期发布的R1模型以极低的训练成本（仅550万美元）实现了接近OpenAI GPT-o1的性能，打破了AI行业对高算力依赖的固有模式，更让美国AI类股一度恐慌性暴跌。</p>
+<p>与此同时，DeepSeek的开源策略使其在短时间内获得了大量用户和市场份额，尤其是在中小企业和学术研究领域。这种模式对OpenAI的封闭式商业模式构成了直接挑战，可能导致OpenAI的用户和客户流失。</p>
+<p>不过，在遭遇最初的惊愕震惊之后，OpenAI也及时推出了应对举措：发布了o3-mini模型，首次向免费用户开放，并支持联网和深度思考功能，大幅降低了其模型的API使用费用，以应对DeepSeek的竞争。当然不可否认的是，美国以及盟友正在积极部署计划打压封杀DeepSeek，也会给OpenAI在未来与DeepSeek的竞争带来帮助。</p>
+<p class="image-wrapper"><img data-img-size-val="550,309" src="https://img.36krcdn.com/hsossms/20250211/v2_2ac1c52035da4871ad7b3dce8f37b9c3@46958_oswg145638oswg550oswg309_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>OpenAI面临的另外一个巨大威胁则是马斯克。奥特曼和马斯克于2015年共同创立了非盈利研究机构OpenAI。在马斯克离开之后，奥特曼主导OpenAI在2019年创建一个盈利子公司，用以吸引来自微软及其他投资者的资金。随后推出的ChatGPT彻底改变了AI行业的版图。</p>
+<p>现在奥特曼正计划将这一子公司转变为传统公司，同时将非营利组织独立出来，并在新盈利公司中持有股权。而这一计划则遭到了马斯克的坚决反对。马斯克不仅自己创办了xAI与OpenAI竞争，并通过诉讼试图阻止奥特曼对OpenAI进行改制。</p>
+<p>就在今天，马斯克牵头一个财团报价974亿美元，计划收购控制OpenAI的非营利机构母公司，希望成为新OpenAI中的主要甚至控股股东，从而将奥特曼踢出局。马斯克宣布“现在是时候让OpenAI回归到一个以开源和安全为核心的力量，就像它过去那样优秀。”</p>
+<h2><strong>中国独苗Temu身影不再</strong></h2>
+<p>最后，不得不提的是，今年的超级碗少了过去两年的另外一位绝对主角——来自中国的跨境电商巨头Temu。在过去两年的超级碗上，Temu连续投入数千万美元，主打他们的广告“像百万富翁一样购物”，吸引美国民众来到这个廉价跨境电商平台消费。</p>
+<p>在2023年超级碗期间，刚刚推出三个月的Temu投放了两条30秒的广告，总投入约1400万美元，让美国观众一脸茫然：Temu是什么？2024年超级碗，他们更是买了三个广告位，总投入超过2000万美元。面对广告狂轰滥炸，美国观众甚至哀嚎，到底要看几次Temu广告？</p>
+<p class="image-wrapper"><img data-img-size-val="550,310" src="https://img.36krcdn.com/hsossms/20250211/v2_9a90085b112946d7b0ace2e093f7cf3a@46958_oswg252752oswg550oswg310_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>高投入换来了高回报。大部分美国消费者正是通过超级碗知道这个廉价电商平台。2024年超级碗当天，Temu应用的下载量较前一天增长了34%，创下自2023年11月以来的最高单日增长。市场调查显示，美国已有88%的成年人知道Temu，其中女性的认知度高达95%，男性为80%。</p>
+<p>2023年，Temu的销售额达到180亿美元。2024年上半年，销售额进一步增长至约200亿美元，在美国折扣零售行业的市场份额已逼近20%，给美国本地电商和线下折扣店带来了沉重打击。面对Temu超低价格带来的巨大威胁，亚马逊也不得不推出自己的跨境电商专区Haul，从中国直接发货到美国用户。</p>
+<p>但今年的超级碗，Temu没有再继续投放广告。这一方面是因为其在北美市场已基本达成用户增长目标，并不急需通过超级碗这样的平台继续拓展潜在用户，另一方面也是因为政策监管前景的不明朗。美国政府上周已经结束了面向中国的800美元以下商品免关税政策，但又因为海关不堪重负而不得不暂时搁置。</p>
+<p>面临着美国本土保护主义的不断抬头，Temu已从去年开始将战略重心转向开拓欧洲等新市场。截至去年年底，Temu已经进入了全球86个市场运营。在这样的大背景下，Temu的确没有动力继续投入千万美元在超级碗投放天价广告了。</p>
+<p>尽管Temu是迄今唯一一家在超级碗投放广告的中国企业，但也有其他中国企业借助超级碗拓展美国市场。2023年，TCL宣布与NFL达成合作，成为NFL官方电视赞助商。</p>
+<p>在过去几年的超级碗期间，TCL都在总决赛场地进行了品牌推广活动，并在现场展示了电视产品。此外，TCL还与NFL的洛杉矶闪电队达成合作，成为其官方电视及智能手机合作伙伴，进一步扩大了品牌影响力。</p>
+<p class="image-wrapper"><img data-img-size-val="550,366" src="https://img.36krcdn.com/hsossms/20250211/v2_d325967cf2fb4a3d96d33e00f2d0aecb@46958_oswg366592oswg550oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>现在TCL已经成为美国市场排名第二的电视品牌，超过了LG、海信、Vizio、索尼等诸多竞争对手，仅次于电视巨头三星。尽管并没有在超级碗投放巨资打广告，但TCL依然是借助超级碗进行推广的大赢家。</p>
+<p>本文来自微信公众号<a href="https://finance.sina.com.cn/tech/shenji/2025-02-11/doc-inekafyk3493571.shtml" rel="noopener noreferrer nofollow" target="_blank">“新浪科技”</a>，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161968974162436</guid><pubDate>Tue, 11 Feb 2025 18:22:00 +0800</pubDate></item><item><title>索赔10.6亿，天合光能剑指阿特斯侵权，释放哪些信号？</title><link>https://36kr.com/p/3162039051714052</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,675" src="https://img.36krcdn.com/hsossms/20250211/v2_2c516d7d45974aaf8646b9971b1fc776@5034919_oswg123557oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>随着光伏行业竞争压力升级，行业巨头之间的专利战也越来越激烈。</p>
+<p><strong>2025年2月10日，天合光能公告称，分别请求法院判令阿特斯阳光电力集团股份有限公司、常熟阿特斯阳光电力科技有限公司共同赔偿人民币6.07亿元、4.51亿元，共计人民币10.58亿元，起诉原因是两公司涉嫌发明专利侵权。</strong></p>
+<p>雷达财经注意到，这并非天合光能首次因专利问题起诉同行。去年5月，天合光能曾就TOPcon电池技术起诉江苏润阳专利侵权。</p>
+<p>光伏巨头之间专利战正愈演愈烈。据媒体报道，晶科能源1月3日国内宣告起诉隆基绿能专利侵权后，近日，其还在澳大利亚起诉隆基绿能专利侵权。</p>
+<h2><strong>光伏组件出货量老二对老七挥出专利大棒</strong></h2>
+<p>天合光能和阿特斯均为光伏行业老牌巨头企业，天合光能出货量长期排列全球光伏组件出货量榜单前五，阿特斯则长期排名徘徊在第十到第五名位置。</p>
+<p>日前，PV Tech发布了2024 年十大光伏组件供应商名单的研究报告，并基于光伏企业去年前三季度组件出货量等数据，对各企业的全年出货量进行了预测，从而评选出了年度TOP10企业。根据榜单，天合光能、阿特斯2024年全年出货量分别排名第二名、第七名。</p>
+<p>但这并不妨碍两家巨头对簿公堂。</p>
+<p>根据天合光能的公告，天合光能指控阿特斯制造、销售的光伏组件产品侵犯其两项发明专利：</p>
+<p>专利一（ZL201710975923.2）：涉及“太阳能电池模块”，索赔金额6.07亿元；</p>
+<p>专利二（ZL201510892086.8）：涉及“太阳能电池及其制造方法”（即TOPCon电池技术），索赔金额4.51亿元。</p>
+<p>两起诉讼，天合光能均要求阿特斯立即停止侵权行为，销毁库存及专用设备，并承担200万元合理维权支出及诉讼费用。</p>
+<p>目前，江苏省高院已对两案立案（案号：（2025）苏知民初4号、5号），但尚未确定开庭时间。</p>
+<p><strong>除了要求赔偿10.58亿元，天合光能还要求法院判定，两被告立即停止侵犯原告涉案专利二的行为，包括但不限于：停止制造、使用、许诺销售、销售侵犯涉案专利二的TOPCon电池片以及含TOPCon 电池片的光伏组件产品的行为。</strong></p>
+<p>据了解，阿特斯N型组件产品主要采用了TOPcon技术路线。根据公司12月初披露的投资者关系活动表，公司TOPCon产能规模约为30GW。</p>
+<p>若是法院判定阿特斯“停止制造、使用、许诺销售……TOPCon电池片以及含TOPCon 电池片的光伏组件产品”，或对阿特斯现有产能布局，甚至未来发展产生巨大影响。</p>
+<h2><strong>二者专利纠纷由来已久</strong></h2>
+<p>雷达财经根据公开信息梳理发现，二者专利纠纷由来已久。</p>
+<p>早在2024年5月，天合光能在上海洋山海关提出申请，声称阿特斯全资控股的子公司常熟阿特斯产品涉嫌侵犯天合光能持有的某件专利的专利权，并申请海关对常熟阿特斯向欧洲出口的9个货柜部分型号的光伏组件产品进行扣留。</p>
+<p>2024年7月12日，海关做出了《解除扣留（封存）通知书》，对相关货物放行。天合光能方面表示阿特斯被扣留货物放行是因其缴纳了保证金，阿特斯方面则认为相关货物并不侵犯天合光能所提及的专利权。</p>
+<p>2024年10月上旬，天合光能向美国特拉华州地方法院提起了针对阿特斯及其关联公司的专利侵权诉讼，焦点是TOPCon光伏技术专利US9,722,104和US10,230,009。</p>
+<p>2024年10月23日，天合光能向美国国际贸易委员会（ITC）提交了337立案调查申请，指控阿特斯等企业对美出口、在美进口以及在美销售的特定TOPCon太阳能电池、组件等产品，侵犯了上述两项专利。</p>
+<p>2024年12月4日，美国国际贸易委员会（ITC）正式确认了天合光能针对阿特斯提起的337调查案，案件编号为337-TA-1425。</p>
+<h2><strong>光伏巨头间专利战愈演愈烈</strong></h2>
+<p>去年以来，光伏巨头之间频繁上演专利大战。</p>
+<p>去年5月7日，天合光能起诉江苏润阳专利侵权，其中包含N型TOPCon专利；6月，天合光能与中清光伏、中清国投的专利纠纷案开庭同样涉及N型TOPCon专利。</p>
+<p>2024年7月，晶澳科技在欧洲统一专利法院对正泰新能及其欧洲关联公司先后两次提起专利侵权诉讼，指控其侵犯了两项与 TOPCon（隧穿氧化层）电池、组件结构技术相关的专利。晶澳科技称此举是为保护知识产权。</p>
+<p>1月3日，晶科能源称，其已在南昌市中级人民法院起诉隆基绿能。晶科能源要求后者立即停止侵害相关发明专利权，并赔偿经济损失，该案件已被正式立案受理。</p>
+<p>据了解，此次涉诉的是关于TOPCon相关技术。</p>
+<p>天眼查显示，此次诉讼的原告是上饶新源越动科技发展有限公司，该公司为晶科能源全资子公司。该案件为侵害发明专利权纠纷，将于2025年2月13日开庭。</p>
+<p>据媒体报道，2月10日消息，从消息人士处获悉，日前晶科能源在澳大利亚起诉隆基绿能专利侵权。</p>
+<p>据澳大利亚联邦法院公告显示，晶科能源旗下子公司——晶科能源澳大利亚控股有限公司、上海晶科绿能管理有限公司及浙江晶科绿能有限公司，在2月4日已向澳大利亚联邦法院提交专利诉讼，起诉隆基绿能澳大利亚有限公司侵犯其发明专利权。</p>
+<p><strong>目前，该案已获澳大利亚联邦法院受理，首次听证会安排在2月21日。</strong></p>
+<p>此前，行业分析人士、“光伏资讯”主理人老杨在分析光伏巨头之间“专利战”时认为，光伏行业竞争从资本战、产能战，扩展到专利战，其核心原因是：光伏行业竞争压力升级，大家“没有肉吃了”，只能在残酷的竞争中开打专利战。他还认为，在当下的行业环境中，专利诉讼或是其他纠纷可能会越来越多。</p>
+<p class="editor-note">本文来自微信公众号“雷达Finance”，作者：江北，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3162039051714052</guid><pubDate>Tue, 11 Feb 2025 18:24:00 +0800</pubDate></item><item><title>“门票免费”正在杀死中国景区</title><link>https://36kr.com/p/3161916175891975</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>前几日，劲旅君发了一篇文章<a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEzMTIwMQ==&amp;mid=2660607520&amp;idx=1&amp;sn=c138c3c4d7c6ec3bb3f1582e59ef967b&amp;scene=21#wechat_redirect" rel="noopener noreferrer nofollow" target="_blank">《这个春节，国内景区的买卖还是崩了》</a>，聊了聊国内景区春节遭遇的经营窘境，引发景区朋友们的共鸣。 </p>
+<p>朋友Y君就是其中之一。 </p>
+<p>他操盘的景区是华北知名山水风光类景区之一，今年春节同样难逃经营惨淡局面。在谈及最近遭遇到的窘事时，Y君忍不住向劲旅君吐槽，景区都快撑不下去了，当地还在以各种理由源源不断下发文件，要求景区在某些时段针对相应人群免票开放，仅在春节前后这一个月内就收到超过3份，让原本羸弱不堪的景区经营业绩雪上加霜。 </p>
+<p><strong>01</strong></p>
+<p>Y君向劲旅君展示了自己收到的这些文件。 </p>
+<p>第一份文件要求：鉴于春节上映的某部影片有当地历史文化元素背景，为了更好推动当地文旅经济，决定组织当地相关景区面向游客推出门票免费政策，2025年全年凡是持有该电影纸质票的游客都将免除景区首道大门票。 </p>
+<p>第二份文件要求：2025年一季度，当地数十家景区要接替执行每家景区连续七天每天针对当地居民、大中专院校学生以及外来当地务工人员的门票免费政策。 </p>
+<p>第三份文件要求：当地与省内外多个城市发起区域内景区联合免门票行动，要在最近一个月针对联合发起城市的所有居民提供门票优惠或者免费活动，鼓励景区积极报名参加。 </p>
+<p>…… </p>
+<p>Y君粗略计算，仅仅是第一份文件，这部热映电影全国总观影人数超过千万人次，落到景区所在省份乃至地市，总观影人数也有百万人次左右，即便其中只有个位数百分比的游客持有电影票免费涌入景区，按照官方门票价格，涉及到的门票总金额超过百万元，分摊到每个景区身上，少则十几万元，多则几十万元，都是一笔不小的费用负担。 </p>
+<p>这还只是一份免费政策文件给景区带来的压力。 </p>
+<p>事实上，景区每年收到官方要求门票免费的文件还有很多，如果景区认真落实执行每一份文件，仅此一项每年门票损失超过百万元。这还不包括景区每年原本固定针对特殊人群、特殊节点、重大事件时既有的门票免费政策。以上林林总总的免费门票额度加在一起，占据了景区总门票收入份额相当大的一部分比例。 </p>
+<p>更重要的是，这些免费政策都是单向的，也就是景区单方面承担所有门票成本和游客接待成本，鲜有能获得资金补贴与支持政策（部分经济相对发达或者旅游业为支柱省份会对景区免费政策有补贴）。 </p>
+<p>“我们理解这些免费政策是为了更好刺激文旅经济，景区不能只顾眼前小利要算文旅经济大帐。” </p>
+<p>Y君直言，但是景区的运营却是自负盈亏且高度市场化的，在文旅大消费繁荣的时期，景区咬咬牙也就扛了，但在大经济环境本就低迷的当下，原本就遭遇经营困难的景区还要背负如此沉重的“免费政策”成本，着实有些被压得喘不上气。 </p>
+<p>“接受吧，这摊买卖根本没法干；拒绝吧，又要被指责没有大局观。” </p>
+<p>Y君叹气，现在当地景区左右为难，感觉置身于门票免费困局中，苦苦煎熬。 </p>
+<p><strong>02</strong></p>
+<p>这两年，景区行业的“门票免费之风”，大有越刮越猛之势。 </p>
+<p>不知道大家是否注意到，今年春节各地集中出现了一批免费文旅项目？多为各地重金打造，包括网红街区、灯光秀、花灯游园会、烟花表演会等，可谓遍地开花。 </p>
+<p>不仅如此，全国各地近些年似乎开始流行攀比“门票免费”力度，前脚这个省宣布百家景区头道门票针对全国特定游客群体限免，后脚另一个省就官宣省内某A级以上所有景区针对全国游客免头道门票…… </p>
+<p>值得注意的是，官方这些年的确在有意推动景区门票降价运动。 </p>
+<p>早在2018年，国家发改委发布《关于完善国有景区门票价格形成机制 降低重点国有景区门票价格的指导意见》，明确要求降低偏高的重点国有景区门票价格（如5A级景区），并禁止景区通过高定价、频繁提价等方式过度商业化。此外，官方也在强调公共资源类景区（如自然遗产、文化遗产）的公益性属性，逐步推动其回归公共服务职能，尤其是西湖免费开放后的巨大成功，更是强化推动了这一进程。 </p>
+<p>不可否认，官方这些措施的本意都是良好的，如果能够有计划、有规律、按步骤的逐步推进，是能够在实现文旅惠民的同时，还能推动景区行业升级迭代。 </p>
+<p>然而问题在于，疫情的爆发、经济环境剧变、文旅消费震荡等一系列主客观因素，让这套原本通畅的逻辑，在实际过程中，无可避免的出现一个新问题—— <strong>眼镜蛇效应</strong> （由于某地眼镜蛇泛滥，政府悬赏重金鼓励大众抓捕眼镜蛇，结果反而诱发民众大量养殖眼镜蛇以谋求向政府换取奖金的行为，导致当地眼镜蛇愈发泛滥）。 </p>
+<p>官方希望以“景区免费”为爆点，有效刺激大众文旅消费热情，首要诉求是先把声势搞大，进而快速聚拢人气，至于免费之后景区们到底要如何摊平免费门票成本、怎么承接汹涌流量以及如何形成正向运营循环却少有思考，这让景区在经营层面承担巨大压力。 </p>
+<p>而且随着门票免费的景区越来越多，大众开始习惯这种免费氛围，甚至开始理所当然的将“景区与免费划上等号”，久而久之甚至对所有景区相关的收费行为都会下意识产生质疑与抵触情绪。 </p>
+<p><strong>03</strong></p>
+<p>一个最明显的信号就是，今年春节，大众开始有意识的扎堆涌入免费景区，甚至尽可能避开收费景区。 </p>
+<p>由此导致收费景区中除了IP强大的头部景区坚挺之外，大批景区客流量出现不同程度下滑，中小民营景区受到的波及更为严重，客流量腰斩甚至断崖式下滑屡见不鲜，集体遭遇春节档滑铁卢。 </p>
+<p>那么这些人头攒动的免费景区是否赚得盆满钵满了呢？ </p>
+<p>答案同样令人意外。 </p>
+<p>某古镇类景区操盘手D君向劲旅君透露，很多古镇免除游客头道大门票之后，客流量的确爆发式增长，自己原本寄希望于让这股汹涌的流量能够在景区内进行更多二次消费，从而弥补门票免费的营收缺口，但结果不尽如人意。 </p>
+<p>“原先很多游客为了让自己花的门票钱物有所值，会尽可能在景区内强化游览体验或者增加消费，来都来了，怎么都要不让自己吃亏。”D君解释，如今景区免头道门票之后，不少游客认为反正是免费的，那索性能省的花费都省了吧。 </p>
+<p>于是就出现这样的景象，越来越多游客逛景区开始自带餐食和饮料，一到饭点景区各个休息区内人满为患，饭香四溢，而景区餐饮店则门可罗雀，冷锅冷灶。有景区朋友曾向劲旅君描述过这样一个让其永远无法忘记的场景： </p>
+<p>一天中午，某古镇酒店大堂，一个旅游团几十人，或蹲或坐或靠，集体吃自带的方便面和火腿肠，酒店对面就是冷清的餐饮一条街，如此冰火两重天的场景，着实令人震惊。 </p>
+<p>Y君盘了盘最近景区响应免费政策后的经营数据同样发现，客流量不但没有增长，而且景区餐饮、文创、购物、娱乐等二次消费类项目的营收全部都在下降。 </p>
+<p>“门票收入没了一大块，二消收入跟不上，眼瞅着景区经营业绩加速跌落，真是一点办法都没有。”Y君苦笑。 </p>
+<p><strong>04</strong></p>
+<p>有趣的是，景区叫苦不迭，游客也怨声载道。 </p>
+<p>针对景区抱怨游客只认“免费”两字，不再选择收费景区的抱怨，后者予以尖锐反驳： </p>
+<p>有游客直言：“千篇一律的古镇，恒古不变的温泉，粗制劣造的人工景观、约等于没有的服务和管理，凭什么让我们花钱？！”有游客指责：“景区动不动就把大门修在几公里之外，进景区就要大几十元的摆渡费，宰游客一点没商量。”有游客怒吼：“有点风景的地方都被投资，资本张着血盆大口等着游客，吃相越来越难看，花钱找罪受，何必呢？！”还有游客戏谑：“感谢伟大的互联网减少了信息差，让很多低劣景区无法糊弄游客，大家当然不会去当冤大头。”…… </p>
+<p>针对景区抱怨游客享受了免费门票，还在景区内一毛不拔的行为，后者同样不客气回击： </p>
+<p>有游客吐槽：“景区服务特别差，工作人员态度没几个好的，像游客欠他们钱似的。景区周边及内部各种坑，花钱只能买义乌货，吃住行各种天价，感觉走在景区里自己的钱包被人时刻死死盯着，不掏干净不让出去……”有游客调侃：“景区服务拉胯、态度蛮横，老想着把游客当猪宰，哪个游客愿意？！”有游客叹息：“今年过年根本不考虑所谓景区，睡到自然醒，开车到农村溜达一圈，晒晒太阳，呼吸呼吸新鲜空气，感觉也挺香……” </p>
+<p>原本皆大欢喜的事情，怎么就变成了景区和游客双输的局面呢？ </p>
+<p>一个很重要的原因就是当下游客需求与景区供给出现严重错配。 </p>
+<p>大众文旅需求在疫后发生了巨大变革，消费升级与分级大趋势下，追求高性价比文旅消费体验成为大众选择景区的首要标准，门票免费只是高性价比的体现之一，大众还期待在吃住行游购娱所有环节上都能够有超出预期的良好体验。 </p>
+<p>但这一切需求却是当下景区根本无法满足的。 </p>
+<p>一方面，很多景区现在运营维艰，尤其是中小型景区，入不敷出成为常态，即便是景区操盘手已经充分意识到游客反馈的积弊，往往也没钱没人没精力去改变现状。按照Y君的话来说，每天光是应付各种琐碎杂事和突发事件就让人焦头烂额了。还有一些国有景区虽然意识到问题所在，但受限于体制机制问题，也无法轻易做出变革，只能随波逐流，走一步看一步。 </p>
+<p>另一方面，有些景区操盘手虽然变革决心坚定，也能调动足够资源资金，但在如何选择变革方向，如何找准变革时机，如何评估变革效果时，却没有一点头绪。换句话说，他们知道景区生病了，但对于如何治病却无从下手。 </p>
+<p>这是一个悬在整个景区行业头顶上的巨大难题。 </p>
+<p><strong>05</strong></p>
+<p>可以预见，未来几年景区的“门票免费困局”将愈演愈烈。 </p>
+<p>国有景区作为当地文旅经济抓手，势必会进一步响应免费号召，加速免费步伐，也就是俗话说的，老祖宗留下来的山山水水，以后再想建个大门就收钱是不可能了。民营景区则是相对灵活的按照淡旺季推动免费政策，主动或者被动加入免费大军。 </p>
+<p>只不过，随着免费政策愈发深入，景区积累的矛盾也会愈发尖锐，当这个矛盾最终无法有效破解之时，一场泛行业性的地震也将随之而来。 </p>
+<p>其实很多迷茫的景区操盘手都在等待，等待一个景区破局者和引领者的出现，就像今年春节的《哪吒之魔童闹海》一样，不但能够给予整个行业前所未有的巨大信心，而且能够在技术、理念等方面提供充足的破局思路，帮助自己找到变革切口。 </p>
+<p>在这一过程中，或许会有景区从先驱变为先烈，但大浪淘沙之后的的幸存者，才是真正符合所有人需求的存在。 </p>
+<p>虽然事实很残酷，但是不破不立。 </p>
+<p>或许，只有亲身经历一场去旧存新的大变革，整个景区行业才能真正破茧重生吧。 </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/AoKkoX2HNtz4wkwbDw4tlg" rel="noopener noreferrer nofollow" target="_blank">“劲旅网”</a>，作者：陈杰tigereat，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161916175891975</guid><pubDate>Tue, 11 Feb 2025 18:25:00 +0800</pubDate></item><item><title>这个春节，国内景区的生意还是崩了</title><link>https://36kr.com/p/3156356188667396</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>文旅部统计数据显示，蛇年春节假期8天，全国国内出游5.01亿人次，同比增长5.9%；国内出游总花费6770.02亿元，同比增长7.0%。 </p>
+<p>由此可见，国内旅游业依然保持稳步向前。 </p>
+<p>然而就在舆论热议之时，一位在国内操盘多家景区的朋友L君却忧心忡忡的找到劲旅君询问： </p>
+<p>是不是国内很多景区这个春节生意真的非常好啊，但是为什么自己操盘的景区有一个算一个，春节期间的业绩全部断崖式下跌呢？！ </p>
+<p>劲旅君随即在全国范围内进行一轮小调研，访问多家景区春节期间的经营业绩，然而得到的反馈却着实令人意外。 </p>
+<p><strong>01</strong></p>
+<p>朋友A君在华北地区操盘一家主题乐园类景区，算是当地区域头部景区，今年春节客流量和营收双双下滑超过30%以上。 </p>
+<p>“我们这还算是业绩坚挺的。” </p>
+<p>A君透露，同区域周边大小景区春节业绩普遍低迷，中小景区业绩大多断崖式下降，有些甚至同比腰斩，惨不忍睹。即便是区域内数一数二的大景区/头部景区，春节业绩也属于勉强维持，同比往年不出现大幅下滑就已经算是相当不错的。 </p>
+<p>朋友B君在东北操盘一家温泉度假类景区，谈及今年春节业绩时，连用一串 <strong>“非常差……”</strong> 来形容，按照她的说法，景区业绩差到什么程度呢，差到数据羞于让自家员工知晓。 </p>
+<p>朋友C君在西南操盘一家山水类景区，今年春节业绩爆掉70%以上，创下近五年以来的新低。没被疫情打倒的这位行业老手，却被这波超低业绩干到自闭了，他甚至开始怀疑，到底是自己跟不上时代了，还是这个行业彻底完蛋了？ </p>
+<p>朋友D君在华中经营一家农场类景区，面对劲旅君的调研，她叹气称，由于春节客流量再创新低，已经无心无力帮忙提供具体的客流量和营收数据了…… </p>
+<p>劲旅君统计显示， <strong>参与调研的几十位景区操盘手中，除了一位明确表示景区春节营收出现超过10%的增长，一位表示春节业绩勉强跑平旺季节假日水平之外，其余均反馈景区今年春节客流量和营收双双爆降，多位表示景区业绩创下近几年新低。</strong></p>
+<p><strong>02</strong></p>
+<p>不仅是国内中小景区春节业绩崩盘，头部景区也开始出现业绩承压，增长乏力的现象。 </p>
+<p>今年春节景区类上市公司中，多家国内头部景区客流量拉胯。 </p>
+<p>例如，九华山客流量47.1万人次，同比去年春节的47.19万人次，勉强持平；黄山客流量超20万人次，同比去年春节的20.8万人次，基本相同；长白山客流量7.57万人次，也基本持平。 </p>
+<p>头部景区不仅客流量触及天花板，游客消费亦明显下跌。 </p>
+<p>有朋友春节期间在西部某网红头部景区考察发现，大众在景区的人均消费额持续下降，已经降到20元以下，一旦客流量增长失速，景区营收崩盘就在眼前。 </p>
+<p>去年劲旅君曾抛出过一个观点：国内景区行业呈现明显的“二八现象”，即全国20%的头部景区吃掉了80%的客流量，导致景区行业两级分化严重，头部景区依靠掠夺中小景区的存量市场，在短时间内确保自身业绩的稳定增长。 </p>
+<p>如今看来， <strong>头部景区阵营中也开始显现“二八现象”，客流量进一步被更强势的金字塔尖景区吸走，那些实力羸弱的头部景区将沦为更强者的垫脚石，和中小景区一样遭遇生存瓶颈。</strong></p>
+<p><strong>03</strong></p>
+<p>这个春节，为什么国内景区的生意开始崩盘了？ </p>
+<p>一个客观的原因在于 <strong>天气。</strong></p>
+<p>今年春节期间，国内多地遭遇极端天气情况。例如，长白山在1月28日除夕当天遭遇暴雪，对客流量产生严重冲击。 </p>
+<p>B君解释，受到今年东北整体气温偏高，再加上春节假期比往年更早影响，景区春节客流高峰来的比往年更晚，给业绩带来不利影响。 </p>
+<p>C君叹气抱怨，今年春节初一初二气温骤降，初三到初五又是连绵大雨，导致连续五天景区客流稀少，只有初六初七勉强客流量回升，赚了点本钱。 </p>
+<p>另一个客观原因在于今年 <strong>大众旅游半径更大，</strong> 中长途旅行、出境游的加速复苏让大众有了更多旅游选择。 </p>
+<p>A君向劲旅君分析，去年春节受到消费降级、国际形势等多重因素影响，其实很多本地游客还是以中短途周边游为主，使得本地景区客流量迎来一波爆发式增长。但是今年春节，很多本地游客无论在心态上，还是花费上，明显不再保守，大家开始扎堆外流。而来到本地的外地游客又更青睐网红景区、头部景区，使得很多依赖当地休闲度假型游客的景区客流量锐减。 </p>
+<p>还有一个少有人注意的客观原因，那就是今年春节很多景区 <strong>在活动、策划、项目等方面的投入锐减，</strong> 导致景区缺乏足够吸引大众的营销噱头，进而无法有效引流变现。 </p>
+<p>D君向劲旅君透露，2023年以来景区运营愈发艰难，去年开始大幅缩减各类成本，以往每年春节多多少少会投入些预算，引入点新项目、搞点新活动，哪怕是搞点门票促销活动之类的。但是今年春节，鉴于去年各个节庆的投入产出比一般，再加上降低成本的硬要求，景区干脆选择“一动不如一静”，虽然看似丢掉了春节的收入，但由于没有投入，里外一算账，也不算太亏。 </p>
+<p>“毕竟景区要先活着，才能考虑赚钱的事儿。”D君无奈解释。 </p>
+<p><strong>04</strong></p>
+<p>值得注意的是，在探讨今年春节景区行业糟糕处境时，A君向劲旅君提出了一个与众不同的观点。 </p>
+<p>在他看来，天气因素也好、经济环境也罢，这些客观原因终究只是表象，真正将景区行业托向谷底的核心因素只有一个—— <strong>整个景区行业在产品和服务创新方面出现了短时间内难以逾越的巨大瓶颈。</strong></p>
+<p>事实上，今年春节的电影行业给整个大消费领域敲响了警钟。 </p>
+<p>众所周知，这两年国内电影行业持续低迷，去年票房表现尤为拉胯。很多电影行业从业者将这一现象归咎为大众的注意力被短视频、短剧吸引，导致没有人再愿意进入影院花几十块钱看场一两个小时的电影，甚至开始哀叹电影产业即将走向末路。 </p>
+<p>然而，今年春节一部《哪吒之魔童闹海》7天50亿+的票房奇迹，彻底粉碎了“大众不再热衷看电影”的论调。《哪吒之魔童脑海》、《封神第二部：战火西岐》、《唐探1900》等多部优质大作造就春节档近百亿票房的表现更是给国内电影产业打出一波开门红。 </p>
+<p><strong>不是大众不爱消费了，而是值得大众消费的好东西太少了。</strong></p>
+<p>有网友为此调侃，电影从业者一边抱怨大众不去影院，一边非要将一坨坨“翔”强行塞到大众嘴里，还要让大众掏钱，哪有这样的道理？！ </p>
+<p>“景区行业何尝不是如此？” </p>
+<p>A君反思，最近他在翻阅游客给自己操盘景区的差评时发现，绝大多数游客都在抱怨景区服务差劲、产品无聊。景区从业者不去反思自己在产品和服务方面的问题，反而一味抱怨游客不来了，这完全是本末倒置。 </p>
+<p><strong>当一个景区没有新鲜的游玩体验、没有引发情绪共鸣的表演、没有足够吸引人的新景色，大众凭什么去消费，你不崩盘谁崩盘？</strong></p>
+<p>而从另一个角度来看，但凡这两年能在产品和服务上有一点点突破的景区其实无一例外都火了，雪饼猴带火的长春动植物公园、王婆说媒引爆的大宋武侠城、《跟着团长打县城》引出了临沂红嫂家乡旅游区…… </p>
+<p>归根结底，这两年大众对旅游需求的要求更高了，但景区却没有及时升级供给质量，这是当下景区深陷经营困境的根本原因。 </p>
+<p>A君同时坦言，自己现在非常清楚的意识到问题所在，去年也想了很多办法尝试破局，不过皆收效甚微。或许是眼界有限，或许是能力不足，当下景区从业者们大多尚未在一团迷雾中找到突围方向。但越是这样，他反而越期待，景区行业今年能够出现一个类似《哪吒之魔童闹海》的超级爆品，透过其破局经验给景区同业们更多启发和参考，帮助大家一起突破瓶颈。 </p>
+<p>毕竟，常年沉浸在一线的景区操盘手们的学习领悟能力向来是一流的，他们缺乏的只是点拨、机遇与时间。 </p>
+<p>都说不破不立，如果春节的一次崩盘，能唤醒整个行业的创新力，未尝不是一件好事。 </p>
+<p>-End- </p>
+<p class="image-wrapper"><img data-img-size-val="640,12" src="https://img.36krcdn.com/hsossms/20250207/v2_04af0a8d64404e3e9da89fc5c6d4e264@16025030_oswg1100oswg640oswg12_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Pboasya8_S69cuP0bQs59Q?token=191280403&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“劲旅网”</a>，作者：陈杰tigereat，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3156356188667396</guid><pubDate>Tue, 11 Feb 2025 18:25:00 +0800</pubDate></item><item><title>比亚迪智驾下饺子，7万的车也有NOA，王传福：要像安全带一样标配</title><link>https://36kr.com/p/3162037479352837</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_efdc723b39554cb98c42ad0f40bfaaa0@000000_oswg147249oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>智驾一夜变天了。 </p>
+<p>昨晚，比亚迪召开智能化战略发布会，介绍了自己关于智驾方面的规划，一句话总结就是—— </p>
+<p><strong>智驾无差别上车</strong>。 </p>
+<p>价格不再是区分智驾的隔离带，无论百万级仰望，还是主流品牌王朝海洋网，统统配备，实现了高阶智驾全覆盖。 </p>
+<p>为了表示诚意，发布会后旗下智驾版车型统一上市，而且 <strong>价格还保持不变</strong>。 </p>
+<p>经此一役，比亚迪把智驾拉到了全民普及的程度，智驾需要订阅、收费买断或者选配的车企，彻底没退路了。 </p>
+<h2><strong>01 总有一种“天神之眼”适合你</strong></h2>
+<p>比亚迪推出了三套天神之眼智驾系统，按照平台算力不同，分别是 <strong>天神之眼 A - 高阶智驾三激光版（DiPilot 600）、天神之眼 B - 高阶智驾激光版（DiPilot 300）、天神之眼 C - 高阶智驾三目版（DiPilot 100）</strong>。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_6d94366697e541dd8a7141a0befbe650@000000_oswg55420oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>天神之眼 A主要应用在仰望品牌，天神之眼 B主要应用在腾势品牌和比亚迪品牌，天神之眼 C搭载比亚迪品牌。 </p>
+<p>天神之眼 A、天神之眼 B已经上车，所以这次发布会，天神之眼 C方案成了重点。 </p>
+<p>‌天神之眼 C是高阶智驾的三目纯视觉版本，而且是比亚迪的自研方案，有券商研报称，这套方案的成本仅为3000多元/套。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_dfb1ee1661fb429a959367217fa618e5@000000_oswg61918oswg1080oswg647_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>成本虽然廉价，但功能和算法却一点没落下，而且这也能从一定程度上表现出比亚迪的研发能力。 </p>
+<p>天神之眼 C配备了 <strong>前视三目 5R12V 感知硬件</strong>及端到端控制算法，实现了架构、传感器、算法、数据四大领先，覆盖用户最在意、最需要的场景。 </p>
+<p>相较过去的分布式算法，端到端方法集成度更高，控制响应时延缩短至10毫秒。搭载天神之眼的车辆100km/h的AEB刹停距离较竞品可缩短20m，泊车场景下，换挡起步时间提升0.8秒，常见车位停车总时长减少5秒以上。 </p>
+<p>在传感器方面，比亚迪独创的「前视三目」5R12V12U 采用3个前视三目， <strong>5个毫米波雷达，12个超声波雷达</strong>。覆盖了智能驾驶感知所需要的高度、宽度、深度，测距精度达1厘米。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_134ee16004a84864839b5890cac2cb6e@000000_oswg573875oswg1080oswg744_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其中，「二郎神」前视三目包含 <strong>两颗 120° 的广角 + 一颗 30° 的长焦摄像头</strong>，均为800万像素，可以生成10倍稠密点云，感知效果堪比激光雷达。 </p>
+<p>再加上三目摄像头方案，辅以毫米波雷达补偿天气及光线对视觉的干扰，效果也远优于纯视觉方案。 </p>
+<p>针对高速和城市快速道路，高快领航HNOA可按照导航规划的路径，完成 <strong>上/下匝道、车道保持、巡航驾驶、自主换道、避开/绕行部分障碍物</strong>等驾驶任务，可实现智驾1000公里以上0接管。 </p>
+<p>此外，比亚迪在行业内首创的代客泊车AVP结合实际泊车习惯和场景，可实现下车即走、锁车泊入、随时取物、即时享用等功能，将用户从停车、锁车等繁琐流程中彻底“解脱”，代客泊车成功率高达99%。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_0ce1d384010c4a4c9d381ddef1889f5f@000000_oswg792889oswg1080oswg618_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>记忆领航MNOA则适用于 <strong>上下班通勤等高频出行路线场景</strong>，完成红绿灯启停、复杂路口通行、自动超车、全场景绕行礼让、博弈变道等功能。 </p>
+<p>王传福表示，比亚迪最早在2018年就提出了“新能源汽车的上半场是电动化，下半场是智能化。”之前公众都误解称，比亚迪不重视智能化，其实“我们是做技术的，一直是做得多，说得少。” </p>
+<p>7年来，比亚迪除了专注全栈自研以外，还分出了精力与外界合作。 </p>
+<p>在此次发布会上，比亚迪的“天神之眼”高阶智驾功能身后，除了英伟达等供应商的身影之外，地平线作为比亚迪全球唯二、国内唯一的智驾芯计算方案合作伙伴，以全新征程6系列与比亚迪天神之眼联合，实现了软硬件深度融合。 </p>
+<p>全新上市的海豹05DM-i智驾版，就搭载了基于地平线征程6M的天神之眼C高阶智驾系统。 </p>
+<h2><strong>02高阶智驾打入7万内</strong></h2>
+<p>为什么是“全民智驾”？ </p>
+<p>重点在于 <strong>车型的覆盖率</strong>上，比亚迪天神之眼的A/B/C方案，是将整个比亚迪体系全部覆盖，A和B两套方案，各自应用于仰望、腾势和20万元以上的比亚迪高端车型上。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_f843eb51f5fe429fa70a343c696eee9c@000000_oswg63239oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但这还远远不够，为了改变只有少数人才能享受高阶智驾的问题，普惠“全民智驾”的重任，比亚迪放在了其自研方案“天神之眼C”的身上。 </p>
+<p>比亚迪天神之眼  C 首批就有 <strong>21款车型</strong>， <strong>从7万级到20万级</strong>，而且全部搭载5个毫米波雷达、12个摄像头以及端到端大模型，具备高阶智驾能力。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_67dc71ac0dc345238429d8ab46ee4efe@000000_oswg67219oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这些智驾产品中，不仅包括最高售价20万以上的汉、唐等高端车型，而且还包括了比亚迪元UP、秦PLUS DM-i、宋PLUS DM-i，以及海鸥、海豚等多款入门款车型，最重要的是， <strong>所有的智驾版车型价格都和原价保持一致</strong>。 </p>
+<p>用王传福的原话讲，“20万级的，我们是全系标配，15万级的也是全系标配，10万级的仍然是全系标配，10万级以下的车型，包括海鸥多数将搭载。” </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_7fec25dc09bf4d17ab0f7bd9322044ab@000000_oswg63103oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其中售价最低的智驾版产品为比亚迪海鸥，同样是与原价保持一致。对此，海洋销售事业部总经理张卓直言，“ <strong>这是行业首次将高阶智驾带入7万级市场</strong>”。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_1ed1f72588434184adf98d29d81885df@000000_oswg60429oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>另外，热销主力产品也是加量不加价，比如一月份销量超过五万辆的宋PLUS DM-i/EV，就推出了3款纯电智驾版和5款DM-i混动智驾版，搭载天神之眼高阶智驾后，价格和老款车型保持了一致，比亚迪宋PLUS DM-i智驾版，起步价仍为13.58万元。 </p>
+<p>王传福还特别提到，之所以首批只有21款车型， 是因为现在智驾产业链的供给还不够，“ <strong>如果供给多的话，我们10万以下的车型搭载得更多</strong>。” </p>
+<p>从某种程度上说，如果供给足够，比亚迪完全能将全系产品切换至智驾版。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_95595e2feb6949b19a14d6c04ff815f0@000000_oswg41804oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>比亚迪能“全民智驾”背后的底气在于，在智能化的下半场，比亚迪还将投入1000亿元的真金白银，用于发展人工智能和汽车相结合的智能化技术，实现整车全面智能化进阶。 </p>
+<p>值得一提的是，比亚迪的整车智能「璇玑架构」将接入 <strong>Deepseek R1 大模型</strong>的能力，以快速提升车端和云端的 AI 能力。 </p>
+<p>具体来看，在座舱端，以自研的开放式AI架构，实现自研大模型与商业大模型深度融合，借助DeepSeek R1的推理能力，能做到更好地理解用户的模糊意图和隐性需求。 </p>
+<p>在智驾方面，基于云端VLM大模型，利用DeepSeek强劲的知识表达和推理能力，使其实现1:10000的数据来迭代智驾模型，解决更多长尾场景。 </p>
+<p>车端模型上，则利用DeepSeek进一步强化知识蒸馏技术，让视觉语言模型又好又快地在车端部署运行，做到车端、云端同级智能。 </p>
+<h2><strong>03行业真要开始变天了</strong></h2>
+<p><strong>“智驾不是奢侈品，而是必需品。”</strong></p>
+<p>王传福的这句话为接下来智能化下半场，定了一个基本的门槛。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_db66a03baf624da8bf9de15275a2b8d0@000000_oswg28642oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在此之前，智能驾驶被视为高价位车型的专属标签。王传福在发布会上表示，“2024年中国售出的车辆，只有不到10%的有高阶智驾，而我国70%的汽车消费者都是购买20万元以下，这使得绝大部分人根本没有机会接触智驾。” </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_36efc08ca39d4672905341d9ccaf9342@000000_oswg57062oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这就意味着，在如今的内卷环境下，只有 <strong>降低智驾使用的价格门槛</strong>，才有可能加速向更多大众消费者渗透。2024年，广汽埃安、小鹏两家车企把高阶智驾下放至15万元档位车型。 </p>
+<p>特别是小鹏汽车，将高阶智驾下放后，其销量已经有目共睹，从腰部销量水平短时间内就跻身月销3万俱乐部。 </p>
+<p>乘联会数据显示，2024年上半年，新能源乘用车L2级及以上的辅助驾驶功能装车率达到66.4%，较去年44.9%的水平显著提升，但其中L2+级驾驶辅助的渗透率目前还只有12%，而且都是装载在高价车型上。 </p>
+<p>从数据表现来看，当前智能驾驶市场最大的痛点是 <strong>渗透率不足</strong>，传递到消费端的痛点是无法覆盖更广泛的消费群体，当大多数车企刚刚意识到这一点时，比亚迪已经迈出了这一步。 </p>
+<p>与其说比亚迪的“全民智驾战略”是技术普惠，不如说更像一场产业革命： </p>
+<p>将视野放大到整个汽车行业，比亚迪的这一举措势必引发连锁反应，其它车企要么迅速跟进，推出类似的智驾配置，要么另辟蹊径，寻找差异化的竞争优势，尽管做法不尽相同，但无疑会生成高度一致的效应—— <strong>加速整个汽车行业向智能化转型</strong>的步伐。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_a9b1410255c44bf98da22459b6d79830@000000_oswg75981oswg1080oswg655_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其实就在比亚迪全民智驾战略发布会的前一天，长安就打响了“全民智驾”第一枪，将搭载激光雷达的车型下探至10万元，宣布要共启“ <strong>全民智驾元年</strong>”，而且在比亚迪智能化战略发布会同一天，零跑也打出了“ <strong>智驾全民化</strong>”的旗号， 宣布了接下来10-15万级别的零跑B10也要搭载激光雷达。 </p>
+<p>不难看出，几家车企的目标高度一致，就是开启全民智驾元年，一起推动智驾普及。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_6bd0746b486f4e63b7325a7142f67bce@000000_oswg42919oswg1080oswg679_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不过，在全民智驾的狂欢中，也需要 理性。 </p>
+<p>智驾的真正价值不在于营销话术，而在于硬件可靠性、算法严谨性与安全冗余设计。当“狂欢期”过去，用户终将以实际体验投票， <strong>从“性能参数”到“用户信任”</strong>，将会是这场智驾狂欢的重要赛点。 </p>
+<p>届时，或许真的会像王传福说的那样，“未来2~3年，高阶智驾将成为像安全带、安全气囊一样必不可少的配置，到时候没有安全智驾的车将成为少数派。” </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg5MTc3NjgxNQ==&amp;mid=2247541497&amp;idx=1&amp;sn=c811a2f3c6402b2abb40a1dd94cde71f&amp;chksm=cea4a5683842b896348f1ed097047366becc37788e01d761c10bbca02447d3810466f29e2d10&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“超电实验室”（ID：SuperEV-Lab）</a>，作者：王磊 刘雅杰，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3162037479352837</guid><pubDate>Tue, 11 Feb 2025 18:26:00 +0800</pubDate></item><item><title>餐饮春节档梦幻开局，下沉市场挤满了连锁茶饮</title><link>https://36kr.com/p/3162032257236485</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>餐饮业，迎来了一个热闹的“春节档”。</p>
+</blockquote>
+<p>春节的氛围还没完全落下，多地餐饮市场就已纷纷晒出夺目的成绩单，喜迎“开门红”。海底捞、西贝、喜茶等一众连锁餐企也频传出春节餐饮消费的好消息。</p>
+<h2><strong>忙忙忙！蛇年春节全国餐饮市场“热辣滚烫”</strong></h2>
+<p>2月5日，据商务部商务大数据监测，2025年春节期间，全国重点零售和餐饮企业销售额同比增长4.1%；美团数据也显示，春节期间，全国商圈内餐饮堂食同比增长18.7%。</p>
+<p>与此同时，全国多地也纷纷晒出春节餐饮消费“成绩单”，蛇年春节全国餐饮市场“热辣滚烫”。</p>
+<p>以一线城市为例，2月4日，北京市商务局发布数据显示，春节期间，北京餐饮消费增长4.5%。</p>
+<p>得益于北京春节餐饮市场的持续升温，多个餐饮品牌门店客流量大幅度增长，紫光园、庆丰包子铺、曲园酒楼销售额同比分别增长53.2%、36.8%、11.4%。</p>
+<p>另据西贝北京六里桥旗舰店店长告诉红餐网，春节期间，门店迎来用餐高峰，尤其是大年除夕、初一、初五这三天，每天都客流量爆满。</p>
+<p>北京多家老字号、知名餐饮企业也向新京报表示，春节期间，多个门店客流较平日出现大幅增长，营收较去年同比增长13%-20%。</p>
+<p class="image-wrapper"><img data-img-size-val="850,517" src="https://img.36krcdn.com/hsossms/20250211/v2_75138530eb0846c78ac7fab69f693bd0@5265833_oswg78210oswg850oswg517_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">△图片来源：红餐网摄</p>
+<p>距离北京一百多公里的天津，春节餐饮消费同样“火”出新高度。</p>
+<p>据天津市商务局数据，春节期间，市监测的166家样本餐饮企业营业额和客流量分别同比增长17.2%和4.5%。仅除夕当夜，样本企业总营业额突破1200万元，高出假日平均25%以上。百饺园、卫鼎等品牌承接宴席营业额均增长1倍以上，重点平台除夕订餐量同比增长超15%。</p>
+<p>广州餐饮市场表现也不俗。据广州市商务局2月5日数据，春节期间，市内重点餐饮企业总营业额同比增长约8%。据悉，今年春节，广州市区联动开展300多场商圈主题消费活动，同时发放大额餐饮消费券焕发消费市场活力。</p>
+<p>除了上述城市以外，南京、成都、上海等城市，以及湖南、湖北、江苏、河南、青海等省份春节档餐饮市场同样“热气腾腾”。</p>
+<h2><strong>正餐喜迎梦幻开局，年轻人带火新茶饮&amp;火锅消费</strong></h2>
+<p>今年一月初，不少餐厅酒楼在接受红餐网采访时表示，春节年夜饭早早被预定，不少餐厅年夜饭一桌难求。</p>
+<p>因为年夜饭预定火热，不少正餐品牌在这个春节档实现了梦幻开局。</p>
+<p>西贝相关负责人告诉红餐网：“西贝上海东方路店从大年初一到初八，门店客流持续火爆，用餐高峰时均出现了排队现象，部分包间还出现了2次翻台。年夜饭预订则在年前十几天就全部订满，一厢难求。”</p>
+<p>在年夜饭市场爆火的同时，一批火锅品牌也在春节假期迎来了客流、业绩双增长。</p>
+<p>据火锅餐见报道，河南某县城一家火锅连锁品牌的店长表示，春节期间每天中午11点开始接待客人，中间几乎不停歇，反复翻台，直到晚上10点半，工作人员连轴转，忙得脚不沾地，“从腊月十五之后就一直持续这种情况，正月初十后，会缓解一些。”</p>
+<p>“火锅一哥”海底捞在蛇年春节也很忙。据官方数据，从除夕到大年初六的7天里，全国海底捞火锅门店共计接待顾客超1000万人次。其中，广东省内的海底捞接待顾客超120万人次。</p>
+<p class="image-wrapper"><img data-img-size-val="850,565" src="https://img.36krcdn.com/hsossms/20250211/v2_a9a3ba80211241cdac95a5b8edb38c51@5265833_oswg123844oswg850oswg565_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">△图片来源：图虫创意</p>
+<p>此外，2月5日，呷哺集团相关负责人接受证券时报采访时表示，除夕至大年初三，呷哺呷哺全国门店销售额提升明显，河北、安徽、山东等区域销售额较上年同期最高提升20%；集团旗下火锅品牌“湊湊”客流量较去年增长约20%。</p>
+<p>吃完火锅喝奶茶。一众新茶饮品牌春节假期业绩迎来强势增长。</p>
 <ul>
-<li>劳动市场中AI使用情况</li>
+<li>喜茶方面告诉红餐网，春节期间喜茶全国众多门店环比节前销量涨幅超300%，部分门店增幅超900%；</li>
+<li>茉莉奶白全国各地门店则整体呈现稳中有升的态势，其初一当天整体营业额环比上周增长20.75%，初七更是环比增长87.5%。</li>
+<li>柠季则表示，大年初一至初七营业额同比增长超80%，部分门店销量同比增长近400%；</li>
 </ul>
-<p>我们的报告基于技术对劳动市场影响的长期研究，探讨了从工业革命时期的纺纱机到现今汽车制造机器人等技术对劳动市场的持续影响。我们重点关注AI的长期影响，且更侧重于通过直接数据展示AI在劳动市场中的实际应用，而非试图预测未来。</p>
-<ul>
-<li>分析职业任务</li>
-</ul>
-<p><strong>我们的研究始于经济学文献中的一个重要观点：有时，将研究重点放在具体的工作任务上，而非整体职业本身，可能会更具意义。</strong>这是因为，许多工作在任务和技能上有一定的重合。例如，视觉模式识别这一任务是设计师、摄影师、安全筛查员和放射科医生等多个职业共同执行的任务。</p>
-<p>某些任务比其他任务更适合通过新技术进行自动化或增强。因此，<strong>我们预计，AI会根据不同职业中的不同任务，有选择性地被应用。</strong></p>
-<p>分析这些任务（而非整个职业）将有助于我们更全面地了解AI如何在经济中被整合与运用。</p>
-<ul>
-<li>使用Clio系统将AI使用与任务匹配</li>
-</ul>
-<p>本次研究依赖于Clio系统（Anthropic推出的Claude使用分析系统，全称Claude Insights and Observations），它可以在保证用户隐私的前提下，分析与Claude的对话数据。</p>
-<p>我们使用Clio对大约100万次与Claude的对话进行分析，具体涵盖了Claude.ai上的初级用户和Pro用户的对话，并根据职业任务对这些对话进行分类。</p>
-<p>我们所采用的任务分类标准来源于美国劳工部所维护的职业信息网络（O*NET）数据库，该数据库包含了约2万个与工作相关的具体任务。</p>
-<p>Clio将每次对话与O*NET中最能代表AI在对话中作用的任务进行匹配。然后，我们依据O*NET的分类方法，将这些任务归入相应的职业，并根据这些职业的特征，进一步将它们归入诸如教育与图书馆、商业与金融等大类中。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,752" src="https://img.36krcdn.com/hsossms/20250211/v2_280edf3df1c7491eb43a2a14a52b6b01@46958_oswg349010oswg1000oswg752_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图注：这张图展示了用户如何与Claude进行交流，并揭示了这些对话是如何与特定任务和职业相关联的</p>
-<p><strong>结论</strong></p>
-<p><strong>1. AI在不同职业类型中的使用情况：</strong>使用AI最多的工作是<strong>“</strong>计算机和数学”</p>
-<p>在我们的数据集中，AI使用最为广泛的任务和职业主要集中在“计算机和数学”类别，该类别大部分涵盖了与软件工程相关的职位。</p>
-<p>与Claude的对话中，37.2%的对话属于这一类别，涉及的任务包括软件改进、代码调试和网络故障排查等。</p>
-<p>排名第二的类别是“艺术、设计、体育、娱乐和媒体”（占10.3%的对话），这些对话主要反映了人们在各种写作和编辑任务中使用Claude的情况。然而，涉及大量体力劳动的职业类别，如“农业、渔业和林业”类别（仅占0.1%的对话），在我们的数据中所占比例最小。</p>
-<p>我们还将数据中的AI使用率与每个职业在劳动市场中的出现频率进行了对比。比较结果如下图所示：</p>
-<p class="image-wrapper"><img data-img-size-val="1000,752" src="https://img.36krcdn.com/hsossms/20250211/v2_9da1693130f244b7bab14d72b30cb98f@46958_oswg214638oswg1000oswg752_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图注：这张图直观地对比了AI使用频率与劳动市场代表性之间的差异</p>
-<p><strong>2.职业任务中的AI使用深度：4%的用户，超过75%的工作都由AI完成；大约11%的职位在至少50%的任务中使用了AI。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="960,652" src="https://img.36krcdn.com/hsossms/20250211/v2_9a6407a3dc79419e9ebbc68d9eeac05b@46958_oswg120797oswg960oswg652_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图注：只有极少职业在其大部分相关任务中使用了AI</p>
-<p>我们的分析发现，极少有职业在其大部分相关任务中都使用AI：只有大约4%的职位在至少75%的任务中使用了AI。</p>
-<p>然而，AI的中度使用则更为普遍：约36%的职位在至少25%的任务中使用了AI。</p>
-<p>正如我们所预料的那样，尽管这个数据集中并没有显示工作被完全自动化的证据，但AI在经济中的众多任务中都得到了应用，并且在某些任务中发挥了关键作用。</p>
-<p><strong>AI使用与薪资关系：程序员等年薪中位数在6万美元以上的的职业使用最为频繁</strong></p>
-<p>O*NET数据库提供了每个职业的美国中位数工资。我们将这些数据纳入了分析，以便比较不同职业的中位数薪资与其相关任务中AI的使用情况。</p>
-<p>有趣的是，低薪和高薪职位的AI使用率都普遍较低，这些职位通常需要较多的手工操作，如洗发师和产科医生。</p>
-<p>而在中高薪资范围（年薪中位数在6万美元以上）内的特定职业，例如计算机程序员和文案编辑，通常是我们数据中AI使用最为频繁的职业。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,780" src="https://img.36krcdn.com/hsossms/20250211/v2_284ce2d426ae4704b23822347142244d@46958_oswg260422oswg1000oswg780_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图注：这张散点图展示了各职业的中位数年薪与AI使用率之间的关系</p>
-<p><strong>4. 自动化与增强任务：57%的应用场景为“增强”任务</strong></p>
-<p>我们还对任务的执行方式进行了更深入的研究——特别是哪些任务属于“自动化”任务（AI直接执行任务，如格式化文档），而哪些属于“增强”任务（AI与用户协作完成任务）。</p>
-<p>总体而言，我们发现AI更倾向于被用于执行增强任务，57%的任务属于增强任务，而43%的任务属于自动化任务。</p>
-<p>也就是说，在大多数情况下，AI并不是用来完全取代人类执行任务，而是与人类合作，执行诸如验证（核对用户的工作）、学习（帮助用户获取新知识和技能）和任务迭代（帮助用户进行头脑风暴或执行重复性生成任务）等任务。</p>
-<p class="image-wrapper"><img data-img-size-val="960,545" src="https://img.36krcdn.com/hsossms/20250211/v2_76f2a101b2ef44cc96ede742a9ce5fe5@46958_oswg33688oswg960oswg545_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图注：这张图比较了Claude对话中增强任务（57.4%）与自动化任务（42.6%）的比例</p>
-<p><strong>研究局限性：无法确认对话结果实际应用，未覆盖全量用户</strong></p>
-<p>我们的研究为AI如何改变劳动市场提供了独特的视角，但和所有研究一样，它也存在一些局限性，具体包括以下几点：</p>
-<p>1.我们无法确定使用Claude进行某项任务的人是否是在工作。例如，有人可能请求Claude提供写作或编辑建议，这可能是他们在工作中的需求，也可能是他们在写小说等个人兴趣活动中提出的请求。</p>
-<p>2.我们无法知道用户是如何使用Claude提供的回应的。举例来说，用户是否将代码片段复制粘贴？他们是进行事实核对还是直接接受回答？一些看似自动化的任务，实际上可能是增强型任务。例如，用户可能要求Claude为他们写一份完整的备忘录（被视作自动化任务），但随后他们自己对其进行编辑（属于增强任务）。</p>
-<p>3.我们只分析了Claude.ai的初级用户和Pro用户的数据，而没有涵盖API、Team或Enterprise用户的使用情况。虽然Claude.ai的数据中包含了一些非工作相关的对话，但我们通过一种语言模型对数据进行了过滤，只保留与职业任务相关的对话，从而减轻了这一问题。</p>
-<p>4.由于任务种类繁多，Clio系统在分类过程中可能会出现误差。</p>
-<p>5.Claude无法生成图像（除非通过代码间接生成），因此一些创意类的任务在数据中没有被记录。</p>
-<p>6.由于Claude被宣传为顶级编程模型，我们可能会看到编程相关任务在使用案例中占据较高比例。因此，我们不认为现有数据集能够完全代表AI在其他领域的使用情况。</p>
-<p><strong>未来研究方向：为人类提供工作自动化场景参考</strong></p>
-<p>AI的使用正在迅速扩展，且模型变得越来越强大。劳动市场的情况可能在相对较短的时间内发生显著变化。</p>
-<p>因此，我们计划定期重复上述分析，以帮助追踪社会和经济可能出现的变化。作为Anthropic经济指数的一部分，我们将定期发布分析结果及相关数据集。</p>
-<p>这种纵向分析能够为我们提供AI与劳动市场之间关系的深入洞察。例如，我们将能够监测AI在不同职业中的使用深度变化。</p>
-<p>如果AI仍然仅用于特定任务，并且只有少数职业在大部分任务中使用AI，那么未来的工作形态可能更多是当前职业的演变，而非完全消失。</p>
-<p>我们还可以跟踪自动化与增强任务的比例变化，从而为我们提供自动化逐步普及的场景参考。</p>
-<p>我们的研究提供了关于AI使用的数据，但并未提出具体的政策建议。关于如何为AI对劳动市场的影响做好准备这一问题，单纯依赖独立研究并无法得出完整答案。</p>
-<p>此外，解决这些问题的答案应当结合多方面的证据、价值观和经验。我们期待通过采用新的研究方法，进一步深入探讨这些问题。</p>
-<p>本文来自<a href="https://news.qq.com/rain/a/20250211A04ZZ500" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，编译：金鹿，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161978042641161</guid><pubDate>Tue, 11 Feb 2025 17:13:00 +0800</pubDate></item><item><title>一张卡片炒至10万，潮玩发货排到8月，哪吒周边卖疯了</title><link>https://36kr.com/p/3161967308188419</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>《哪吒2》电影票房不断刷新记录之后，庞大的观影人群，也让售卖哪吒周边衍生品的线下门店客流暴增。</p>
-<p>北京某商场里的一位卡游店员向Tech星球表示，这几天，在店门口哪吒和敖丙的人形立牌打卡拍照人数，一度超过进店人数，放置在门店中心位置的“小马宝莉”IP不再是门店顶流，而在其背后的哪吒周边衍生品不断有消费者前来咨询，员工不得不一遍又一遍重复“已经没货”的通知。</p>
-<p>截至目前，《哪吒2》电影票房已突破86亿，观影人次达1.62亿，登顶中国影史票房冠军之后，又冲进全球影史票房榜前30名。</p>
-<p>在电影院意犹未尽的观众，将目光投向了哪吒联名周边。</p>
-<p>在卡牌、盲盒的线下门店里，以往都是圈内资深小众玩家进店，现在店员们很容易就能辨别出哪些是新用户，因为他们并不了解最基本的端盒和隐藏款概念。比如，泡泡玛特推出的《哪吒2》系列盲盒中，隐藏款“灵珠版哪吒”的抽取概率为1/96。一些消费者为了抽到一张卡游推出的《哪吒2》SP卡（稀有卡牌），选择花费近千元直接将五六全部盒买走。</p>
-<h2><strong>一周卖1亿，全线售罄，发货排到8月</strong></h2>
-<p>历时五年制作，《哪吒2》在衍生品开发上也做了更充分的准备，在大年初一影片首映的同时，卡牌、盲盒手办、搪胶毛绒玩偶等系列产品都同步上市。</p>
-<p>据泡泡玛特相关负责人向Tech星球介绍，由于潮玩手办开发周期长，因此双方沟通的节点也相对比较早，此次联名产品开发历时1年半，做到了与电影同步上市。</p>
-<p>但电影的火爆程度，还是远超潮玩企业的备货量。此次《哪吒2》IP合作方，包括集卡社、泡泡玛特、卡游、万代南梦宫等在内的圈内头部企业。杰森娱乐集团旗下集卡社向Tech星球介绍，从大年初一到初七，他们推出的《哪吒2》电影官方联名收藏卡，全渠道销售额在1周内突破1亿元大关。</p>
-<p>线下门店缺货、线上开启预售，成为这些潮玩企业共同的“甜蜜的烦恼”。2月9日，在泡泡玛特官方直播间，《哪吒2》系列盲盒的预售产品销量已经达7万+，按照552元/盒的价格，一场直播已经卖了近4000万元，产品发货日期已经排到今年8月份。</p>
-<p>据直播间的主播介绍，已经卖了七批预售，生产达到极限，作为最火爆的产品，这款产品不参与任何活动，不能用任何优惠券。</p>
-<p>当《哪吒2》不断刷新影史记录，消费者也正处于愿意为喜爱的角色或故事支付更多溢价的时刻，尤其是在衍生品开发中，限量版、隐藏款等产品设计，让他们的氪金程度进一步攀升。因此，在缺货的状态下，这些稀有产品也被炒出高价。</p>
-<p>在电商、二手交易等平台上，泡泡玛特推出的原价69元的隐藏款“敖丙版哪吒”，已经翻十倍售价飙升到697元。卡游推出的《哪吒2》系列产品中，导演饺子亲笔签名卡牌全球限量发售10张，如今一张导演签名卡牌已经被炒至10万元，一张哪吒SP卡也正在被卖家标价为1.25万元售出。</p>
-<p>据卡游线下门店一位店员向Tech星球介绍，卡游的哪吒“斗天包”卡牌每盒18包售价180元，包含90张卡牌，从概率来看，大约几百盒里面才能有一张哪吒SP卡。在线上抽卡机里，每包出限编SP卡的概率更是低至1/14337。一张在直播间抽出的导演亲笔签名卡牌，更是被主播挂出18万元的天价。</p>
-<p>此外，《哪吒2》的票房登顶，不仅是单个IP的胜利，更标志着国漫产业的崛起与成熟。在各个衍生品直播间里，这些成为主播激励用户购买的流量密码，“购买周边产品，为支持国漫再出一份微薄之力，助力哪吒突破100亿票房”，成为主播在售卖产品时频频出现的话术，不断刺激着用户的消费情绪。</p>
-<h2><strong>谁接住了这波“泼天富贵”</strong></h2>
-<p>继《流浪地球2》之后，《哪吒2》再度带火电影衍生品市场。</p>
-<p>除影片质量、口碑传播之外，科幻、动画类主题的影片IP，本身在衍生品开发上也更具优势。《流浪地球2》最火爆的周边产品包括笨笨、MOSS、数字生命卡等科技感产品，而《哪吒2》作为经典IP，本身具备粉丝基础，且剧情丰富，人物形象有特色，为衍生品创作赋予更多想象空间。</p>
-<p>在此次产品设计方面，泡泡玛特向Tech星球介绍，“还原”是最重要的开发思路，针对如何“还原”电影中的人物和故事，一直和版权方保持着紧密的沟通，协同共创，确保设计方向与电影内容的统一，双方经过了多次讨论和头脑风暴，还对《哪吒1》中角色受到大众喜爱的原因进行了深度调研。</p>
-<p>具体在产品方面，“战斗哪吒”用挑眉、歪嘴笑，展现出了哪吒玩世不恭，叛逆随性的性格，“牵手哪吒&amp;牵手敖丙”，还原哪吒在烈火中牵手敖丙并肩破鼎的高光情节。</p>
-<p>从此次哪吒授权的官方周边产品来看，大部分企业都选择了推出更为稳妥的哪吒和敖丙周边，毕竟，因为影片中所设定的命运羁绊剧情，从《哪吒1》开始这对组合就在社交平台具备超高人气。</p>
-<p>但不同于其他影视作品中，IP周边主要通过“主角”来吸引核心粉丝人群，《哪吒2》中大量的“配角”，比如颜值颇高的敖光、性格不内耗的石矶娘娘，在周边产品中也拥有超高人气。在《哪吒2》官方授权的众筹项目中，推出的哪吒、敖丙、敖光等七款手办中，众筹售价为368元的敖光单体手办销售最为火爆。</p>
-<p>押中“敖光”的《哪吒2》衍生品合作企业桑尼森迪，其盲盒组合售卖便是以此为卖点，主播不时在直播间提醒消费者，由于敖光是隐藏款，产量相对于其他较少，需要尽早购买。</p>
-<p>相比于《哪吒1》时期的衍生品周边开发滞后，《哪吒2》尽管进行了开发前置，但依旧难以避免的是，无法完全接住“泼天富贵”。</p>
-<p>这是因为，衍生品市场的一大品类是需要设计、研发的“重周边”，如手办、玩具等，通常产品制作周期较长，参与其中的第三方玩具公司由于难以准确预测到电影的火爆程度，一般在票房稳了之后才开始做，在备货上通常以批量备货、预售模式或者众筹模式为主。通常在正版授权周边现货缺货时，便会出现黄牛入场炒高价，以及大量价格低廉的盗版商品便抢占商机。</p>
-<p>此外，结界兽、申小豹等《哪吒2》影片上映后也颇具人气的小角色，由于官方授权周边较少，也催生了大量冰箱贴、摆件等盗版产品。</p>
-<p>衍生品市场的另一大品类是制作门槛低、开发成本低的“轻周边”产品，如卡牌、明信片、立牌、挂件、书签等，更容易推出，但缺点是产品同质化严重。</p>
-<p>集卡社相关负责人向Tech星球透露，典藏卡生产周期可最快控制在20-30天内。而对比之下，一款盲盒从设计到上市的周期在6—8个月。</p>
-<p>电影周边产品销售极大程度依赖影片热映热度，对商家来说抓住销售机会窗口尤为关键，比起发货日期排到8月的盲盒，从线下店可以看到，部分商场里的谷子店中，卡牌类的哪吒周边已经实现及时补货。</p>
-<p>此次《哪吒2》周边产品，也撞上近两年走红的谷子经济、盲盒热潮，如何通过产品设计，引发粉丝的情感共鸣和收藏欲望，则是突围的关键。</p>
-<h2><strong>卖哪吒周边，可以赚到多少钱？</strong></h2>
-<p>据财经网等多家媒体测算，若《哪吒2》票房达到95亿元，去掉52.27%的影院分账，39.43%的片方分账，以及制作宣发成本后，片方的净利润约为27亿元，导演饺子按照最低5%的分成，收入可以达到1.35亿元。</p>
-<p>除此之外，导演饺子的收益还可能包括公司股权分红、衍生品销售、网络版权等收入。</p>
-<p>以这次周边衍生品的品类之一卡牌为例，其销售模式通常以经销商为主，直营和零售为辅，平均一张1.8元客单价的卡牌，成本包括版权费、生产成本、经销商渠道等费用。</p>
-<p>卡游曾在招股书中披露，2021年、2022年和2023年前9个月，版权费用支出为1.66亿元、2.11亿元和1.13亿元，占同期销售收入的7.2%、5.1%及5.8%。如果按照最低5%的比例粗略计算，10亿销量的周边产品，版权费用支出大概为5000万元。</p>
-<p>在《哪吒2》登顶中国影史票房冠军之后，衍生品开发合作企业桑尼森迪，将产品铺货至“交个朋友”等头部MCN的官方直播间售卖。</p>
-<p>“交个朋友”主播在直播间展示的电影出品方光线传媒授权书显示，“食玩、存钱罐”品类的授权期限为电影首映之日前1个月开始，至电影首映之日后满11个月结束，共计12个月。“机械可动玩具”品类授权期限自电影首映之日后2个月开始，至电影首映之日后满14个月结束，共计12个月。</p>
-<p>也就是说，双方合作期限通常为一年。泡泡玛特相关负责人则向Tech星球表示，和电影《哪吒之魔童闹海》的合作会是持续性的。</p>
-<p>在成熟的电影市场中，票房收入只是电影全产业链的一部分，衍生品市场收入甚至超过前者，比如美国和日本电影票房收入与电影衍生品产值相比约为4∶6至3∶7。</p>
-<p>相比之下，目前国内电影市场收入90%以上来自票房和植入式广告，影视衍生品收入占比不到10%。随着《哪吒2》的火爆，衍生品所带来的收益显然也不容小觑。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU5MTczNjIyNA==&amp;mid=2247602452&amp;idx=1&amp;sn=bfa884d44a66d6f2f337fdcf71666013&amp;chksm=ff490e685e6eb80eee6392e7b5193bc5f37c375a24625c7a7128e83d5d15c30e310e72becbb8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Tech星球”（ID：tech618）</a>，作者：林京，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161967308188419</guid><pubDate>Tue, 11 Feb 2025 17:16:00 +0800</pubDate></item><item><title>2024年爆发，曾被唱衰的闺蜜机，正在成为下一个智能硬件爆品</title><link>https://36kr.com/p/3161964125650437</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>如果有人告诉你，一款既像平板又像电视的「移动智慧屏」成为智能硬件新爆品，你是否会感到有些不可思议？</p>
-<p>近期，<strong>洛图科技发布2024年中国移动智慧屏（闺蜜机）市场报告，2024年移动智慧屏的全渠道零售量已经达到25.4万台，零售额更是增长到9.6亿元，年增速分别高达65.0%和37.3%。</strong>作为智能硬件新品类，移动智慧屏的高增长其中一部分原因前两年的基数太小。但同为初出茅庐的智能硬件，能够在竞争极大的消费电子产品市场里保持高增速，也的确是一件不容易的事情。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,424" src="https://img.36krcdn.com/hsossms/20250211/v2_c3d2da9f239e4c67a8dbff6bc876ae66@1547419282_oswg130668oswg1080oswg424_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：洛图科技）</p>
-<p>而移动智慧屏在社交平台上也有一个更贴地气的名字——「闺蜜机」。从数据上看，闺蜜机已然成为2024年科技圈里最抢眼的小爆款。有人把它当作每天追剧、追星的好伙伴，也有人将它视作一台可以移动的客厅电视。不少传统家电与互联网巨头纷纷瞄准这个领域，借着移动智慧屏这股热潮来打破原有市场的边界。例如天猫精灵、小度、海信，都在2024年推出了重量级产品。</p>
-<h2><strong>小度领跑、海信深耕，天猫精灵强势入局</strong></h2>
-<p>洛图报告显示，2024年移动智慧屏市场线上销量占比前五名为小度、KTC、天猫精灵、海信和创维。其中小度添添闺蜜机凭借42.5%的销量份额，稳居冠军宝座，较第二名高出26.8%，成绩相当亮眼。</p>
-<p>作为市场的领跑者，小度添添闺蜜机在语音交互、AI算法，以及“随时随地连线陪伴”的产品定位上持续升级。此外，小度在2024年推出了不同定位的新品，例如4月上新的添添闺蜜机悦享版，定价仅2599元，直击2K市场。到了8月，又推出主打超高清的旗舰款添添闺蜜机Pro 4K，定价5999元等。</p>
-<p class="image-wrapper"><img data-img-size-val="1000,774" src="https://img.36krcdn.com/hsossms/20250211/v2_7c82d025650f4d9e88d9e8eb38e940b5@1547419282_oswg808969oswg1000oswg774_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：小度商城）</p>
-<p><strong>2024年，小度在闺蜜机市场里已完成了从品类定义到全面发力的转变，在各家仍在推出全能型产品时，小度已在尝试推出低价位和高清旗舰款产品来完善产品矩阵。</strong></p>
-<p>天猫精灵算是较晚入局的一线智能硬件制造商，但首款高端产品哇哦闺蜜机智享版表现还是非常出众的，其率先配备了市场罕见的100Hz高刷屏，同时还支持高清显示、类纸技术等，在定价上，2799元的哇哦闺蜜机智享版也有很大的价格优势，但靠着出色的配置还是取得了不俗的销量。</p>
-<p>至于KTC，它原本就以显示器制造和技术见长，在2024年携手推出的超薄OLED移动智慧屏定位偏高端，移动电影院概念也成功吸引到了年轻消费者的关注。KTC在营销层面也将自己塑造成专业显示器大厂，强调显示效果和视觉体验。与小度一样，KTC闺蜜机还充分布局了不同价位，除了定价6499元的KTC闺蜜机轻奢版之外，还有定价4K价位的闺蜜机Pro、2K价位的闺蜜机AI版等。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,495" src="https://img.36krcdn.com/hsossms/20250211/v2_e375009de53a4344a018f9a0dd98b7fc@1547419282_oswg189163oswg1080oswg495_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：洛图科技）</p>
-<p>海信和创维则一直是传统电视行业的老牌劲旅，在切入移动智慧屏赛道时，自然也带着相对完整的供应链和研发储备。</p>
-<p>2024年海信推出了一款定位旗舰级的移动智慧屏产品27X7N，这款产品的亮点在于其27英寸的便携设计，配备了护眼类纸屏，同时也是市面上罕见的配备了八核处理器的闺蜜机产品，独立NPU能提供更强的AI算力。</p>
-<p>目前，海信在售的移动智慧屏产品有两款，分别是27X7N和27X6H，后者IPS触控类纸屏，配备了AI画质处理引擎和MEMC运动画面动态补偿技术。当然，在产品布局上，海信通过3999元的27X7N和2699元的27X6H完成了2K-4K之间的价位覆盖，虽然产品线不如小度丰富，但胜在两款产品都拥有明显的性能、画质优势。</p>
-<p><strong>综合来看，2024年的移动智慧屏市场之所以能取得较高增幅，与几家主要品牌的推动密不可分。</strong>一方面，小度与天猫精灵从智能音箱出发，在AI技术与系统整合方面有丰富经验，双方都有自研大模型提供帮助，同时拥有丰富的智能家居、智能硬件生态；另一方面，海信等传统巨头靠着出色的显示技术深得消费者信任，虽然在定价方面不算亲民，但对中高端用户群体而言，高品质显示效果具备很强的吸引力。</p>
-<h2><strong>闺蜜机市场爆发，AI是幕后功臣？</strong></h2>
-<p>2024年，国内移动智慧屏市场迎来了惊人的增长，品牌们在技术、内容和生态方面的突破，迅速吸引了大量关注。小度、天猫精灵这些热门品牌，凭借AI语音、视频聊天等功能，开始赢得消费者的青睐，但这背后，也藏着不小的竞争压力。</p>
-<p>尤其是2000-3000元这个价位段，成为了厂商们的“必争之地”。这个价格对于年轻人来说，压力不算大，又能满足日常观影、社交和娱乐等基本需求。<strong>而且相比起旗舰产品，入门款闺蜜机往往也是消费者们“尝鲜”的首选。</strong></p>
-<p>比如定价2799元起的天猫精灵哇哦闺蜜机智享版，雷科技在深度评测中就曾提到过，<strong>作为一款定价不到3K的产品，它有着电视、投影仪、平板电脑所不具备的优势，你甚至可以把它看作是三者的结合体。</strong>更重要的是，依靠着产品形态的优势，在生态上占据了电视和平板之间的交叉地带，成为了年度爆品。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,412" src="https://img.36krcdn.com/hsossms/20250211/v2_aa8815b8050a40a387733464b896ac8a@1547419282_oswg183874oswg1080oswg412_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：洛图科技）</p>
-<p>而在更高的价格区间，KTC、海信等品牌则主打屏幕和配置。比如KTC针对显示效果推出了带有更高画质和更薄机身的移动智慧屏，让观影体验比传统平板多了点影院氛围。海信则将之前在电视领域的经验融入移动智慧屏，在分辨率和芯片优化上投入更多，吸引了一些追求画质的用户。对于传统电视厂商而言，在闺蜜机这类融合型智能硬件上相当具有优势，例如超画质调校、智能光感调节等技术，都是从电视领域“借鉴”而来，在最重要的视觉体验上，对普通消费者更具吸引力。</p>
-<p><strong>闺蜜机在2024年彻底「起飞」，还有一个更大的原因：AI大模型。</strong></p>
-<p>随着AI大模型在各类场景中的应用变得更加普及，移动智慧屏这一产品形态也逐渐获得了新的动力。过去，很多智能设备的语音助手只能完成基本的语音识别和简单互动，但在大模型技术的加持下，如今它们不仅能够更精准地理解用户的指令，还能通过更丰富的语言和对话方式，为消费者提供更人性化的陪伴和支持。</p>
-<p>举个例子，小度就一直在依托基于百度文心大模型打造的DuerOS X，让添添闺蜜机逐渐具备多轮对话、情绪感知等能力。借由强大的云端算力和算法，设备能够根据对话上下文，提供更加灵活、有温度的反馈，这使得用户在使用时感觉更像在和“闺蜜”聊天，而不仅仅是面对一台冰冷的机器。</p>
-<p><strong>雷科技在评测添添闺蜜机时，也感受到了大模型技术加持下，闺蜜机变成“真闺蜜”的妙用。得益于长时记忆，添添闺蜜机能够记住你的内容偏好、搜索需求等，甚至你和他分享过的故事，它都能记住。</strong></p>
-<p>KTC、海信、天猫精灵等厂商也逐渐推出了基于大模型技术打造的AI健身教练、AI绘画、AI教育等功能，丰富了这类产品的实用性。<strong>比如海信的27X7N闺蜜机，能够利用AI大模型技术，只输入语音指令变生成画布、或是配合摄像头，完成AI骨骼捕捉，为家庭亲子活动提供帮助。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="2400,1600" src="https://img.36krcdn.com/hsossms/20250211/v2_0c93bd36497845e0a5de5ab25d3131f0@1547419282_oswg544262oswg2400oswg1600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：当贝商城）</p>
-<h2><strong>一夜爆红后，能否如智能电视一样全民普及？</strong></h2>
-<p>2024年，闺蜜机这一类移动智慧屏的爆发，让不少人感到意外。65%的年增长率和不断扩展的品牌阵容，已足够证明它在年轻群体和家庭消费中的影响力。</p>
-<p>不过，这并不代表它已经完全成熟——许多闺蜜机在硬件性能、屏幕质量和AI互动层面仍显得底气不足，与专业电视或高端平板相比，画质、续航及系统稳定性仍有差距。<strong>部分品牌虽尝试了更多新功能，如大模型驱动的智能对话、多场景协同和更精致的外观设计，但用户对“有没有更流畅的系统、更好的显示、更全面的应用生态”的呼声一直存在。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,705" src="https://img.36krcdn.com/hsossms/20250211/v2_50d01287ee9d4bffafa9720786dd4582@1547419282_oswg461356oswg1080oswg705_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图源：小度商城）</p>
-<p>未来，随着技术的升级和厂商的竞争，闺蜜机在续航和交互体验上或许能迎来突破。尤其是像OLED、MiniLED这种成熟的大屏技术，能够提供更高的画质，绝对会成为一些消费者的期待。而随着《黑神话悟空》等国产大作的发布，游戏性能的提升成为了新的市场热点。如果移动智慧屏能够在性能上迈出一大步，或许能开辟出一片新的家庭游戏市场。</p>
-<p>总的来说，市场规模的快速增长为闺蜜机这一品类带来了更广大的发展空间，但它到底能否像智能电视、平板电脑那样普及，还要看各个品牌在实用体验和技术创新上的持续投入情况。但可以肯定的是，这股热潮并不会很快消散。</p>
-<p>本文来自“雷科技”，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161964125650437</guid><pubDate>Tue, 11 Feb 2025 17:17:00 +0800</pubDate></item><item><title>喜茶踩下加盟急刹车，传递了什么信号？</title><link>https://36kr.com/p/3161928021098242</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1080,686" src="https://img.36krcdn.com/hsossms/20250211/v2_ec8ec0e8812f4e43bbd740838cc1a0db@1465134610_oswg56722oswg1080oswg686_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>竞争激烈的新茶饮赛道迎来了一条重磅新闻：<strong>喜茶踩下加盟急刹车。</strong></p>
-<p>《新品略财经》关注到，喜茶2月10日发布了主题为《不参与数字游戏与规模内卷，回归用户和口碑》的内部信曝光，引发业内外关注。</p>
-<p>喜茶表示，2025年，喜茶会继续坚守“不做低价内卷”，不玩“数字游戏”，拒绝门店规模内卷，暂时停止接受事业合伙人申请。</p>
-<p>也就是说，喜茶官宣2025年暂停加盟，犹如踩下了急刹车，当前整个新茶饮行业玩家还在继续卷规模、卷加盟，喜茶显得很异类。</p>
-<p>虽说现在喜茶的网红热度不及霸王茶姬，但喜茶的发展速度及成绩在行业中算是很稳的。那喜茶为何踩下加盟急刹车？又传递了什么信号？</p>
-<h2><strong>01 本可以不踩刹车的喜茶，反而踩刹车了</strong></h2>
-<p>一说到喜茶，人们都不陌生，这家新茶饮行业头部品牌是第一代新茶饮风向标企业的代表。</p>
-<p>追溯品牌历史，早在2012年，喜茶的前身皇茶就在广东江门成立，在产品力、品牌力及客户口碑等方面，走在行业前面。</p>
-<p>因为皇茶商标无法注册，皇茶在2015年改名为喜茶，喜茶成立后当时正值传统奶茶向新茶饮升级的时代，喜茶快速出圈，当时和奈雪的茶一起，很爆火，网红程度犹如现在的霸王茶姬。</p>
-<p>在最初发展的十年里，喜茶坚持走直营路线，有很多消费者是喜茶的忠实粉丝。曾有一位行业资深人士向《新品略财经》表示，喜茶在新茶饮赛道里是用心做产品，用心做品牌的，并不激进。</p>
-<p>直到2022年11月，喜茶才放开加盟，开启事业合伙人业务，依托招商加盟政策，喜茶门店在这两年快速扩张，目前门店总数已超过4000家。</p>
-<p>据喜茶在1月2日发布的2024喜茶年度报告显示，2024年下半年新开门店的平均业绩显著高于上半年，门店整体业绩呈现出持续大幅超越行业大盘的趋势。</p>
-<p>喜茶的会员数量突破1.5亿，同比增长5000万，会员复购率持续提升并创下历史新高。同时，喜茶已经在海外开出超过70家门店。</p>
-<p>这两年喜茶加盟业务发展顺利，门店数量大幅增加，无论是自营门店，还是加盟店的经营水平都不错，按理说喜茶完全有能力持续放开加盟，保持门店数量增长，故事也能越讲越大。</p>
-<p><strong>可喜茶却偏偏反其道而行之，主动踩下加盟急刹车，但要把目光放大到整个新茶饮行业现阶段的现实情况来看，就很容易理解喜茶为何要做出这样的决策了。</strong></p>
-<p>新茶饮行业玩家众多，同质化极为严重，产品很同质化，当一条小小的商业街，有将近一半是新茶饮门店的时候，整个行业就陷入了恶性竞争。</p>
-<p>新茶饮品牌多，行业更新迭代速度快，特别是后来强势崛起的霸王茶姬，再度迎来了高光时刻，吸引走了很多消费者，抢走了其他友商不少生意。</p>
-<p>除了激烈竞争外，这两三年新茶饮行业卷起了价格战，一杯奶茶的价格越来越低，为了保住销量，低价内卷就成了为数不多的无奈选择。</p>
-<p>喜茶自然也是看到了行业现状及趋势，早早就做了市场洞察和预判。这次喜茶踩下加盟急刹车，其实早有信号。</p>
-<p>喜茶在去年10月的一封内部信中表示，行业同质化竞争持续消耗消费者对新茶饮和品牌的热情，不做同质化产品，不做单纯的低价内卷，不追求短期开店速度和数量。</p>
-<p><strong>2024年整个新茶饮行业风向标开始变了，</strong>奈雪的茶、茶话弄、甜啦啦等多个新茶饮品牌都放慢了脚步。</p>
-<p>喜茶这次在内部信中也表示，过去几年来，出于资本目的、营收利润考量的价格战、盲目的门店规模扩张，导致行业陷入同质化竞争与门店过剩。在这个过程中，用户的需求反而被选择性忽略，广泛同质化的产品品牌体验、过度的规模扩张，严重消耗用户的喜爱，也严重损害整个行业的根基。</p>
-<h2><strong>02 传递了什么信号？</strong></h2>
-<p>喜茶身为新茶饮头部品牌，突然宣布暂停加盟，对整个新茶饮行业有一定的风向标意义。</p>
-<p>那么，此次喜茶踩下加盟急刹车，有何深意？或者说传递了什么信号？</p>
-<p><strong>在《新品略财经》看来，喜茶突然暂停加盟，从行业视角、发展前瞻等不同维度传递出三个信号。</strong></p>
-<p><strong>第一个信号是新茶饮绝大部分品牌暂时进入守城阶段，反内卷的本质就是要精耕及可持续经营。</strong></p>
-<p>新茶饮行业经过这么多年的高速发展，上演了一场加盟狂飙的大戏，一场新茶饮品牌、加盟商、资本以及整个新茶饮产业链参与者的狂欢盛宴。</p>
-<p>很多新茶饮品牌加盟是网红生意和流量生意，出圈快，声音消失乃至是销声匿迹也很快，对包括喜茶在内的很多新茶饮品牌来说，现阶段暂时进入守城阶段。</p>
-<p>新茶饮反内卷需要新茶饮玩家们找回初心，在合理速度发展之后，就需要精耕细作，规模很重要，但可持续经营也很重要，当加盟商能挣到钱了，新茶饮品牌方才能挣钱。</p>
-<p>新茶饮门店很多，特别是那些后入场的加盟商，很多都是血亏离场。新茶饮现在基本上遍布了所有商圈，特别是在一二线城市各家新茶饮品牌门店随处可见。</p>
-<p>喜茶带头暂停加盟，做好现有门店经营，就是守城，也有利于现有的加盟商，对整个行业而言，其他友商的加盟商们多少也能缓一口气。</p>
-<p><strong>第二个信号是越来越多的新茶饮品牌正在讲出更多新故事，不仅在拓展第二增长曲线，乃至是寻找第三增长曲线，新茶饮品牌边界不断拓宽。</strong></p>
-<p>当前国内新茶饮竞争已经是存量竞争，激烈程度如热战，所以现在很多新茶饮品牌都在寻找第二增长曲线，那就是加速拓展出海，特别是发力想站稳东南亚市场，喜茶、蜜雪冰城、奈雪的茶、霸王茶姬等都发力出海。</p>
-<p>更有新茶饮品牌开始探索第三增长曲线。近日，奈雪的茶在深圳开了首家奈雪green，跨界进入轻食赛道，尽管前景难料，但对现阶段新茶饮业务陷入停滞和主动收缩的奈雪的茶来说，不得不进行新业务探索。</p>
-<p>未来我们会看到越来越多的新茶饮品牌开始跨界，进入新的关联赛道或全新业务领域，新茶饮品牌的业务边界会不断拓宽。</p>
-<p><strong>第三个信号是反内卷成为2025年新茶饮赛道的一个标签，喜茶之后预计肯定会有其他品牌跟进，未必是坏事。</strong></p>
-<p>当喜茶踩下加盟急刹车，肯定能在业内外起到一定的示范效应，喜茶毕竟是行业头部品牌，自然也看到了当前的新茶饮行业竞争现状及挑战。</p>
-<p>所以，从某种程度上来说，喜茶暂停加盟，算是开了个好头，预计会有其他品牌跟进。</p>
-<p>当然也会有品牌不跟进，比如当红的霸王茶姬还是会继续狂飙，正在冲击IPO的新茶饮品牌也不想放慢速度。</p>
-<p>反内卷将成为2025年新茶饮的一个标签，未来发展如何还有待观察，关键要看经济环境变化、消费力提升，以及消费者接受程度等各方面市场因素的变化。</p>
-<p>整体而言，喜茶打响了新茶饮反内卷第一枪，长期奔跑后，慢下来未必是坏事。</p>
-<p>新茶饮在2025年的激战会继续猛烈，行业依然会奔涌向前，冰与火依然会上演。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ZEPrrWHOjSUeQ3I4bHcJkQ?token=627003596&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“新品略财经”</a>，作者：吴文武，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161928021098242</guid><pubDate>Tue, 11 Feb 2025 17:19:00 +0800</pubDate></item><item><title>奥特曼分享AI三大观察：AI成本正以十倍速度下降</title><link>https://36kr.com/p/3161978012740356</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2月10日消息，美国当地时间周日，OpenAI首席执行官山姆·奥特曼在个人博客上发文，阐述了对人工智能经济学的三点观察：</p>
-<p>AI模型的智能水平大致与其训练和运行所消耗资源的对数成正比。</p>
-<p>使用特定水平AI的成本大约每12个月以十倍速度下降，而更低的价格会带来更多的使用。</p>
-<p>智能线性增长的社会经济价值本质上是超指数级的，由此未来对AI的投资将继续呈现指数性增长。</p>
-<h2><strong>以下为奥特曼撰文全文：</strong></h2>
-<p>我们的使命是确保通用人工智能（AGI）惠及全人类。</p>
-<p>随着越来越多的系统开始接近AGI的水平，我们认为理解我们当前所处的时刻非常重要。AGI是一个定义较为宽泛的术语，但一般来说，我们指的是能够在多个领域解决日益复杂的问题、达到人类智能水平的系统。 </p>
-<p>人类天生是工具的创造者，拥有理解和创造的内在驱动力，这使得世界对我们所有人来说都在不断变得更好。每一代人都在前人发现的基础上进行创新，创造出更先进的工具——电力、晶体管、计算机、互联网，以及即将到来的AGI。 </p>
-<p>在人类漫长的创新历程中，随着时间的推移，世界变得更加繁荣，我们生活的各个方面都有了前所未有的改善。</p>
-<p>从某种意义上说，AGI只是我们共同构建的人类进步阶梯中的又一个工具。但从另一种意义上说，AGI又代表着一个不同寻常的开始。我们能预见到未来的经济增长将是惊人的，我们现在可以想象一个治愈所有疾病、有更多时间与家人共处、并充分实现我们创造潜力的世界。 </p>
-<p>十年后，或许地球上的每个人都能比今天最具影响力的人取得更多的成就。 </p>
-<p>我们继续看到人工智能开发的快速进展。以下是关于人工智能经济学的三点观察： </p>
-<p>1. AI模型的智能水平大致与其训练和运行所消耗资源的对数成正比。这些资源主要包括训练算力、数据和推理算力。似乎你可以投入任意数量的资金，并获得持续且可预测的收益；预测这一现象的缩放定律在多个数量级上都是准确的。 </p>
-<p>2. 使用特定水平AI的成本大约每12个月以十倍速度下降，而更低的价格会带来更多的使用。你可以看到，从2023年初到2024年中期，GPT-4的每个Token价格降至原来的1/150。摩尔定律以晶体管数量每18个月增加一倍的速度改变了世界，而当前趋势比摩尔定律更为强劲。 </p>
-<p>3. 智能线性增长的社会经济价值本质上是超指数级的。由此产生的后果是，我们认为未来不会停止对AI的投资，且投资将继续呈现指数性增长。</p>
-<p>如果这三点观察继续成立，它们对社会的影响将是巨大的。 </p>
-<p>我们现在开始推出AI智能体，它们最终将可能成为我们的虚拟同事。</p>
-<p>让我们以软件工程智能体为例，它在很多方面会特别重要。想象一下，这个智能体最终能够完成一家顶级公司中拥有几年经验的软件工程师所能完成的大部分工作，处理长达几天的任务。它可能没有最具创意的新想法，也可能需要大量的人类监督和指导，并且擅长某些任务，但在其他任务中表现可能会让人失望。</p>
-<p>尽管如此，你可以把它想象成一个刚刚入职的虚拟同事。现在想象一下有1000个这样的智能体，或者100万个，他们存在于每一个知识工作领域。 </p>
-<p>从某种程度上讲，AI可能在经济上会像晶体管一样——是一项能够很好地扩展且渗透到经济各个角落的重大科学发现。（AI和晶体管相似之处在于）我们不会特意关注晶体管或晶体管公司，但计算机、电视、汽车、玩具等产品，却通过这种技术不断表现出奇迹般的能力。</p>
-<p>世界不会一蹴而就地发生改变，事情往往是渐进的。在短期内，生活将基本保持不变，2025年的人们大部分时间仍会像2024年一样度过。我们仍然会坠入爱河、组建家庭、在网上争吵、在大自然中徒步旅行等等。 </p>
-<p>然而，未来的变化已经开始，并将以一种无法忽视的方式到来。我们的社会和经济将发生巨大的长期变化。我们将找到新的工作方式、新的互相帮助的方式以及新的竞争方式，但它们可能与今天的工作形式大不相同。 </p>
-<p>在这个过程中，意志力、决心和行动力将变得非常重要。做出正确的决策，并在这个不断变化的世界中找到应对的方式，将拥有巨大的价值；韧性和适应力也是值得培养的重要技能。AGI将是人类意志力最强大的杠杆，让个人的影响力比以往任何时候都更大。</p>
-<p>我们预计AGI的影响将是不均衡的。尽管有些行业变化不大，但科学进步的速度可能会比现在快得多，而AGI的影响可能会超越所有其他领域。</p>
-<p>许多商品的价格最终将大幅下降（目前，智能成本和能源成本在很多方面仍然是制约因素），而奢侈品和一些固有资源（如土地）的价格可能会大幅上涨。 </p>
-<p>从技术层面来看，我们面前的道路已相当清晰。但公共政策和社会对AGI如何融入社会的看法将至关重要；我们早期频繁推出产品的原因之一是为了让社会和技术有时间共同进化。 </p>
-<p>AI将渗透到经济和社会的各个领域；我们将期望一切都变得智能化。许多人认为，我们将需要赋予人们更多对技术的控制权，可能包括更多的开源，并接受在安全性和个人赋权之间需要权衡的平衡。 </p>
-<p>虽然我们绝不想鲁莽行事，并且与AGI安全相关的一些重大决策和限制可能会不受欢迎，但总的来说，随着离实现AGI越来越近，我们认为，更多地倾向于个人赋权是很重要的。</p>
-<p>确保AGI带来的好处能被广泛分享至关重要。技术进步的历史表明，从长期来看，大多数我们关心的指标（健康、经济繁荣等）通常都会得到改善，但平等性的改变似乎并不由技术决定，要做到这一点可能需要一些新的想法。</p>
-<p>特别是，资本和劳动力之间的权力平衡很容易被打破，这可能需要在技术早期就进行干预。我们对一些听起来奇怪的想法持开放态度，比如给予每个人一定的“计算预算”，使世界上的每个人都能使用大量AI。但我们也可以看到，通过不懈地努力，将智能成本降至最低也能达到类似的效果。</p>
-<p>到2035年，任何人都应该能够调动相当于2025年所有人智力的算力；每个人都应该能够获得无限的天赋，将其用于自己想象的任何领域。现在有很多人才没有资源来完全发挥其潜力，如果我们改变这一点，世界的创造性产出将为我们所有人带来巨大的好处。</p>
-<p>本文来自<a href="https://news.qq.com/rain/a/20250210A0170O00" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，编译：金鹿，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161978012740356</guid><pubDate>Tue, 11 Feb 2025 17:19:00 +0800</pubDate></item><item><title>刷医保卡买华为手表引争议，曾经医保卡还能买卫生巾吃火锅？</title><link>https://36kr.com/p/3161884728426242</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1080,433" src="https://img.36krcdn.com/hsossms/20250211/v2_a54bd9b525ea42509fed22353748afc4@5131460_oswg624112oswg1080oswg433_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>谁也没想到，医保卡购买华为产品会闹出如此大的舆情。</p>
-<p>据多家官媒报道，近期有上海、广东、浙江和安徽等地的网友在社交平台上分享“利用医保个人账户中的钱去药店购买华为WATCH D2血压测量手表”的经验。</p>
-<p>据红星新闻报道，浙江宁波医保局宣布已暂时喊停此类购买行为，该局工作人员向该媒体透露称，他们内部正在讨论华为WATCHD2能否使用医保结算，“因为这个手表里有很多附加功能”，相应话题也在网络平台引起热议。</p>
-<p>据资料显示，华为WATCH D2腕部动态血压记录仪手表于2024年11月推出，定价2988元。这款手表集成压力传感器，叠加微型气泵、力学气囊等结构，支持单次血压测量及24小时周期性血压测量，支持在夜间睡眠时，自动加压进行血压监测，还可以监测皮肤温度水平并进行心电图（ECG）检测。</p>
-<p>国家医保局工作人员曾表示，取得医疗器械注册证的产品原则上可以通过医保付款，但具体执行需视当地政策而定。这一表态在一定程度上解释了各地政策差异的根源，也为未来政策的统一和规范化提出了新的挑战。新京报也发布评论称：《“医保刷了个华为手表”，有什么问题？》，那么用医保卡买华为手表，到底错在哪儿了？</p>
-<h2><strong>医保买华为手表到底是怎么回事？</strong></h2>
-<p>2025年2月上旬，上海、广东、浙江和安徽等地的消费者纷纷在社交平台上分享使用医保个人账户在药店购买华为WATCHD2的经历。这一现象迅速引发了社会的广泛关注。在上海，多个药店确认可以使用医保个人账户购买该手表，但由于需求旺盛，普遍无现货，需预约排队。益丰大药房（上海上虹诸翟店）的工作人员透露，排队人数已超过500人，且每人限购一件，购买后需现场激活以防止囤积转售。</p>
-<p>广州的情况稍有不同，部分药店表示两天内即可到货，这显示出不同地区在供货能力上的差异。然而，宁波的情况则更为复杂，起初一些药店允许使用医保购买华为WATCHD2，但随着事件的发酵和政策的调整，宁波市医保局于2025年2月8日宣布暂时叫停此类购买行为，原因在于手表的附加功能引发了关于其是否适合通过医保结算的争议。</p>
-<p>2025年2月6日，宁波市北仑区某药店工作人员称已接到当地医保局通知，暂时不能用医保购买该手表。2月8日下午，宁波市多家药房门店接到通知，全市已暂时叫停此类购买行为。宁波医保局表示内部正在讨论华为WATCH D2能否继续使用医保个人账户结算，原因是这款手表包含许多非医疗用途的附加功能。</p>
-<p>据红星新闻报道，宁波医保局工作人员向其透露内部正在讨论华为WATCH D2是否能使用医保结算。从时间节点来看，多地在2月上旬出现网友分享用医保购买华为WATCH D2经验，而宁波率先做出反应，于6日局部通知，8日全面叫停，从侧面或说明宁波医保局对该事件的重视。</p>
-<p><strong>据媒体报道称，这一举措背后，是对医保资金合理使用的考量，附加功能的存在可能使手表偏离单纯医疗设备属性，宁波医保局的讨论与叫停，旨在确保医保资金切实用于医疗保障领域，避免医保资金的不合理支出，维护医保制度的公平性与可持续性。</strong></p>
-<h2><strong>为什么能刷医保卡买华为手表？</strong></h2>
-<p>如果把华为手表改为说明书上的名称，可能这件事也不会引发这么大的风波，其正式中文名为“腕部动态血压记录仪”，用医保卡购买“血压记录仪”好像也不是什么大不了的事。</p>
-<p>华为WATCH D2此前获得广东省药品监督管理局审批通过，成为国家药监局二类医疗器械。这一资质是其能够刷医保卡的关键基础。按照我国医疗器械分类管理规定，二类医疗器械是指对其安全性、有效性应当加以控制的医疗器械。华为 WATCH D2凭借其血压测量、监测等医疗功能符合二类医疗器械标准，从而具备了进入医保支付范畴的可能性。</p>
-<p><strong>具体而言，华为WATCH D2于2024年8月5日获得了广东省药品监督管理局的审批，正式成为国家药监局认证的二类医疗器械。这一认证不仅确认了其在医疗功能上的有效性和安全性，也为其进入医保支付目录提供了政策依据。</strong>根据新京报指出，取得医疗器械注册证的产品可以通过医保个人账户支付，这为华为WATCH D2的医保支付奠定了政策基础。</p>
-<p>此外，华为WATCH D2的医疗功能主要集中在血压测量和监测上，这些功能在医疗器械分类中具有重要意义。<strong>其作为“腕部动态血压记录仪”的功能定位，使其在医疗器械市场中占有一席之地，并且符合医保支付的相关规定。通过这一认证，华为WATCH D2不仅在技术上满足了医疗设备的要求，也在政策上获得了医保支付的合法性。</strong></p>
-<p>值得注意的是，尽管华为 WATCH D2 具备多种附加功能，但其核心医疗功能的认证是其能够刷医保卡的关键。国家医保局工作人员曾表示，只要产品取得了医疗器械注册证，并且符合相关标准，那么通过医保个人账户购买是合规的。这一政策解读进一步明确了华为WATCH D2在医保支付中的合法地位，确保其在市场竞争中具备政策优势。</p>
-<p>2021年国务院办公厅发布的《关于建立健全职工门诊医疗保险门诊共济保障机制的指导意见》明确指出，<strong>个人账户可用于支付参保人员在定点医疗机构或定点零售药店发生的政策范围内自付费用，其中涵盖购买医疗器械。华为WATCH D2于2024年8月5日获批为二类医疗器械，符合这一政策要求。</strong>国家医保局工作人员也表示，取得医疗器械注册证的产品原则上可以走医保付款，但具体还需看当地是否有其他相关政策。这表明，从国家层面的政策导向来看，像华为 WATCH D2这类获得医疗器械认证的产品，在政策框架内使用医保个人账户购买具有合规性基础。然而，各地在执行过程中存在差异，如宁波医保局因华为 WATCH D2 含有许多附加功能，暂时叫停使用医保个人账户结算购买该产品的行为，这也反映出地方在遵循国家政策的同时，会结合产品实际情况对医保支付进行审慎考量，以确保医保资金合理使用。</p>
-<p>尽管华为WATCH D2具备蓝牙通话、微信支付等非医疗功能，但其医疗功能的合法性和有效性是其能够通过医保个人账户购买的关键因素。根据《新京报》的报道，国家医保局工作人员指出，只要产品取得了医疗器械注册证，并符合相关标准，理论上就可以通过医保个人账户支付。这一政策的实施，反映了医保个人账户资金使用的政策导向，即在保障参保人基本医疗需求的同时，允许一定范围内的灵活使用。</p>
-<h2><strong>那些曾经刷医保卡购买的“奇葩物品”</strong></h2>
-<p><strong>在过去，部分地区的医保个人账户使用范围曾出现较为宽泛的现象，允许购买与医疗用途相差较大的日用品。</strong>2018年，桂林的多家药店被曝允许顾客使用医保卡购买日用品，收银员会将这些日用品换成同金额的药品进行结算。这种操作方式使得医保卡的使用范围被人为扩大，超出了其原本应有的医疗保障功能。<strong>此外，部分地区的药店还允许使用医保个人账户购买牛奶、化妆品等商品，这些商品的功能属性与传统的医疗用途相去甚远。</strong></p>
-<p><strong>奶粉、牙膏、卫生巾等日常用品也曾被纳入医保个人账户支付范围内。</strong>虽然这些商品在某些情况下可能与健康相关，但其主要用途并不符合医保资金的使用初衷。<strong>这种现象的出现，反映了在特定时期和地区，医保政策执行的灵活性和宽松性。然而，这种宽泛化的使用方式也引发了社会对医保资金合理使用的质疑。</strong></p>
-<p><strong>在医保个人账户的使用范围中，电子产品的出现尤其引人关注。除了华为 WATCH D2，OPPO和小米等品牌的电子产品也曾被允许通过医保个人账户购买。</strong>小米推出的智能手表形态“腕部血压记录仪”便是其中之一，其作为第二类医疗器械，定价1899元，折扣价1799元。这些产品的核心功能在于健康监测，例如心率监测和血压测量，这使得它们能够被视作医疗器械的一部分。</p>
-<p>然而，这些电子产品同时具备通讯、娱乐等非医疗用途功能，这使得它们的医保支付资格引发了广泛的讨论和质疑。根据《新京报》的报道，尽管这些产品通过了医疗器械认证，符合医保支付的技术条件，但其多功能性和消费电子产品的属性使得公众对其纳入医保支付范围的合理性产生疑问。这种现象反映出在医保政策执行过程中，如何平衡医疗功能与消费功能之间的界限成为一个亟待解决的问题。</p>
-<p>此外，市场上这些电子产品的供应情况也不尽相同。尽管小米的相关产品在某些地区药店中并不常见，目前主要以华为WATCH D2为主，这也显示出不同品牌在市场布局和产品推广策略上的差异。宁波市医保局的暂时叫停行为，正是出于对这些产品附加功能的考量，进一步凸显了医保政策在应对新兴医疗科技产品时所面临的挑战和复杂性。</p>
-<p>在某些极端情况下，甚至有报道称地方火锅店也能刷医保卡个人账户，这种现象虽然不常见，但从中可以看出医保个人账户资金使用在个别地区存在管理漏洞。这种偏离医疗用途的使用方式引发了社会对医保资金合理使用的广泛关注和讨论。</p>
-<p>极端情况下的医保卡使用现象或揭示了当前医保资金管理中存在一些需要与时俱进的解释或补充条款，亟需通过政策调整和监管加强来规范医保资金的使用，确保其用于符合医疗保障目的的支出。</p>
-<p>本文来自微信公众号“BT财经”，作者：元方，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161884728426242</guid><pubDate>Tue, 11 Feb 2025 17:21:00 +0800</pubDate></item><item><title>李飞飞最新撰文：人工智能需要一个治理框架，应遵循三大原则</title><link>https://36kr.com/p/3161977955871494</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1000,1000" src="https://img.36krcdn.com/hsossms/20250211/v2_3e5fd82e67264f0cb1e1226897938651@46958_oswg960900oswg1000oswg1000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2月9日消息，斯坦福以人为本人工智能研究院（HAI）院长、空间智能初创企业World Labs的联合创始人兼首席执行官李飞飞在英国《金融时报》最新撰文中表示，<strong>人工智能发展迅猛，但全球目前缺乏明确的治理框架，已成为一项亟待解决的挑战。</strong>为此，她提出了三大AI政策制定的基本原则。</p>
-<p>李飞飞强调，AI治理应以科学为基础，而非依赖科幻想象。目前，一些科幻小说般、意识形态化的概念似乎正渗透到AI治理框架的制定过程中，需要用科学的观念和务实的态度极力避免。</p>
-<p>在撰文中，李飞飞表示<strong>大力支持开源AI</strong>。她认为，开放AI模型和计算工具的访问权限至关重要，可以帮助推动技术进步。而限制访问将会设置障碍，减缓创新。</p>
-<h2><strong>以下为李飞飞撰文全文：</strong></h2>
-<p>AI正以前所未有的速度发展。曾经需要几天才能完成的计算任务，现在几分钟就能解决。尽管训练成本大幅上升，但随着开发者学会如何以更少的资源做更多的事情，这些成本很快将会下降。我之前说过，但我今天还要重申——AI的未来已来。</p>
-<p>对于这个领域的从业者来说，这并不令人惊讶。计算机科学家们一直在努力工作，企业多年来也在不断创新。但令人惊讶和令人担忧的是，AI似乎缺乏一个全面的治理框架。是的，AI正在快速发展，但与此同时，我们也必须确保它能惠及全人类。</p>
-<p>作为一名技术专家和教育工作者，我坚信全球AI生态系统中的每个人都有责任推动技术进步，并确保以人为本的方法。这是一项艰巨的任务，值得制定一套结构化的指导方针来加以规范。在为下周的巴黎AI行动峰会做准备时，我为未来的AI政策制定提出了三大基本原则。</p>
-<p><strong>第一，依靠科学，而非科幻。</strong></p>
-<p>原则上，科学工作的基础是依赖经验数据和严谨的研究，同样的方法也可以用于AI治理。虽然有些未来主义的场景——无论是乌托邦还是世界末日，这些都常常激发我们的想象力，但有效的政策制定需要对当前现实有清醒的认识。</p>
-<p>我们在图像识别和自然语言处理等领域取得了重大进展。聊天机器人和智能助手正在以令人兴奋的方式改变我们的工作方式，<strong>但它们应用的是高级数据学习和模式生成技术。而不是具有意图、自由意志或意识的智能形式。</strong>理解这一点至关重要，它可以让我们避免被不切实际的场景分散注意力，从而专注于应对关键挑战。</p>
-<p>鉴于AI的复杂性，即使专注于现实也并不总是容易的。为了弥合科学进步与现实应用之间的差距，我们需要一些能够提供关于人工智能能力的准确和最新信息的工具。像美国国家标准与技术研究院等老牌权威机构，可以帮助我们理解人工智能对现实世界的影响，从而为制定切实有效的政策提供依据。</p>
-<p><strong>第二，务实而非意识形态化。</strong></p>
-<p>尽管AI领域的发展迅速，但它仍处于起步阶段，其最大潜力尚未显现出来。因此，关于什么可以构建、什么不能构建的政策必须以务实的态度制定，既要最大限度地减少意外后果，同时激励创新。</p>
-<p>以AI用于更准确地诊断疾病为例，这有可能迅速普及高质量的医疗服务。然而，如果没有适当的引导，它也可能加剧当今医疗系统中存在的偏见问题。</p>
-<p>开发AI并非易事。即便怀着最美好的初衷开发出一个模型，但该模型日后却可能被滥用。因此，<strong>最好的治理政策应该是通过策略性手段来规避风险，同时奖励以负责任的态度开发和部署AI技术的行为。</strong>政策制定者必须制定实用的责任政策，以阻止故意滥用，同时避免不公正地惩罚善意的努力。</p>
-<p><strong>第三，赋能AI生态系统。</strong></p>
-<p>AI技术能够激励学生，帮助我们照顾老龄化人口，并提供清洁能源创新解决方案，而最好的创新往往是通过合作实现的。因此，政策制定者赋能整个AI生态系统就显得更加重要，<strong>这个生态系统包括开源社区和学术界</strong>。</p>
-<p><strong>开放AI模型和计算工具的访问权限至关重要，可以帮助推动技术进步</strong>。而限制访问将会设置障碍，减缓创新，特别是对于资源少于私营部门的学术机构和研究人员而言。当然，这种限制的后果远远超出了学术界的范围。如果今天的计算机科学学生无法使用最好的模型进行研究，当他们进入私营部门或决定创办自己的公司时，他们将无法理解这些复杂的系统，这是很严重的知识空缺。</p>
-<p>AI革命已经到来，我对此感到兴奋。我们有可能在人工智能驱动的世界中，实现大幅改善人类的生活。但为了实现这一目标<strong>，我们需要全新的治理架构：它以实际数据和验证过的研究结果为基础，强调协作性，并深深植根于以人为本的价值观中</strong>。</p>
-<p>本文来自<a href="https://news.qq.com/rain/a/20250209A02IP200" rel="noopener noreferrer nofollow" target="_blank">“腾讯科技”</a>，编译：金鹿，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3161977955871494</guid><pubDate>Tue, 11 Feb 2025 17:21:00 +0800</pubDate></item><item><title>氪星晚报纸｜饿了么新一年组织调整：吴泽明兼任CEO；特斯拉上海储能超级工厂正式投产；日本制铁高管将与特朗普政府会谈</title><link>https://36kr.com/p/3162016751807233</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2><strong>大公司：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3162002260912646" rel="noopener noreferrer" target="_blank"><strong>京东外卖宣布全年免佣金，5月1日前入驻全年免佣金</strong></a></p>
-<p>36氪获悉，2月11日，京东外卖正式启动“品质堂食餐饮商家”招募。2025年5月1日前入驻的商家，全年免佣金。京东外卖将为入驻商家提供全方位支持，共同推动外卖行业健康可持续发展。</p>
-<p><a href="https://www.36kr.com/newsflashes/3161995467811592" rel="noopener noreferrer" target="_blank"><strong>饿了么新一年组织调整：吴泽明兼任CEO</strong></a></p>
-<p>36氪获悉，今日饿了么董事长吴泽明（花名：范禹）通过公司全员信宣布饿了么最新组织调整：即日起，吴泽明将兼任饿了么CEO，韩鎏（花名：昊宸）专注分管即时物流中心，继续向吴泽明汇报。吴泽明在内部信中表示，考虑即时物流作为饿了么第二增长曲线的战略意义持续上升，进行此管理分工调整。吴泽明表示，未来饿了么班委和团队将继续坚定地践行“新三年”既定的业务和组织战略，继续秉承以客户为中心，“促科技创新、与生态共进”，提升各项产品及服务能力，进一步获得用户的认可，让公司的经营水平再上一个台阶。</p>
-<p><a href="https://www.36kr.com/newsflashes/3161876479863560" rel="noopener noreferrer" target="_blank"><strong>SHEIN湾区智慧产业园交付，供应链网络布局持续加码</strong></a></p>
-<p>36氪获悉，位于广东肇庆的“希音湾区智慧产业园”已于近日完成了项目验收交付，预计将在年内正式进驻使用。据报道，SHEIN此前在该区域仓储供应链的总投资已达数十亿元。该希音湾区智慧产业园是SHEIN在湾区供应链矩阵的关键项目之一。该项目是在不新增用地的基础上，充分整合现有资源盘活用地。目前SHEIN在肇庆已租赁超70万方仓库，新项目租赁26万方仓库。</p>
-<p><a href="https://www.36kr.com/newsflashes/3161849383692800" rel="noopener noreferrer" target="_blank"><strong>天猫 《哪吒2》周边图书热卖超过1800万，出版社连夜加印《哪吒・三界往事》等热门绘本</strong></a></p>
-<p>36氪获悉，自电影《哪吒之魔童闹海》上映以来，天猫包括《哪吒・三界往事》原创绘本、《魔童闹海艺术设定集》及《敖丙传》在内的哪吒相关图书整体销售额已突破1800万。这是近几年来，影视IP带动图书 销售最猛烈的案例之一。最近《哪吒2》正版授权的相关绘本和图书成交环比上映前一周增长超过4000%。《敖丙传》这本书早在2021年就由华文天下和九州出版社合作出版，但电影上映之后淘宝App内关键词搜索量直接暴涨近百倍，《哪吒・三界往事》的原创绘本搜索量上涨更是超过140倍。</p>
-<p><a href="https://www.36kr.com/newsflashes/3161546694007559" rel="noopener noreferrer" target="_blank"><strong>特斯拉上海储能超级工厂正式投产</strong></a></p>
-<p>2月11日，特斯拉上海储能超级工厂举行投产仪式。工厂初期规划年产商用储能电池1万台，储能规模近40 GWh。该项目去年5月开工，年底通过竣工验收。</p>
-<p><a href="https://www.36kr.com/newsflashes/3161494605879814" rel="noopener noreferrer" target="_blank"><strong>Meta启动全球裁员5%计划</strong></a></p>
-<p>Facebook母公司Meta将从当地时间2月10日上午起通知大多数国家受影响的员工，实施其之前宣布的裁员约5%的计划，涉及约3700人。Meta人事主管贾内尔·盖尔（Janelle Gale）称，此次裁员将在数天内在不同地区展开，美国员工将最先收到通知。</p>
-<p><a href="https://www.36kr.com/newsflashes/3161420226747141" rel="noopener noreferrer" target="_blank"><strong>马斯克据报牵头收购OpenAI，该公司首席执行官Altman回应“不了谢谢”</strong></a></p>
-<p>马斯克据报牵头一组投资者提出收购OpenAI，但这家ChatGPT母公司的首席执行官Sam Altman予以拒绝。援引马斯克律师Marc Toberoff报道称这笔价值974亿美元的主动报价已于周一提交给了OpenAI董事会。对此，Altman在马斯克的社交媒体平台X上发帖回应称：“不了谢谢，但如果你愿意，我们可以出97.4亿美元收购推特。”</p>
-<h2><strong>新产品：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3161481808272131" rel="noopener noreferrer" target="_blank"><strong>福特汽车计划开发新型混合动力汽车</strong></a></p>
-<p>福特汽车正在计划推出一款新型增程式插电式混合动力汽车，致力于打造更具吸引力的车型。该公司正全力投入新车型的研发，以避免产品线过于单调。然而，投资者对此举的反应并不热烈。该增程式电动汽车技术主要针对SUV和皮卡市场。值得注意的是，福特此前曾计划推出一款电动三排座SUV，但由于“无法盈利”而最终放弃。</p>
-<h2><strong>投融资：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3161910291819264" rel="noopener noreferrer" target="_blank"><strong>诺华将以最高31亿美元的价格收购Anthos</strong></a></p>
-<p>黑石技术集团旗下的生命科学基金Blackstone Life Sciences和Anthos Therapeutics公司2月11日宣布，公司已与诺华签订协议，诺华将以最高31亿美元的价格收购Anthos。Anthos由Blackstone Life Sciences和诺华公司于2019年共同创立。交易完成后，Anthos股东将获得9.25亿美元的预付款。此外，Anthos股东还有权在实现某些监管和商业里程碑时获得付款，交易预计将于2025年上半年完成。</p>
-<p><a href="https://www.36kr.com/newsflashes/3161587802282497" rel="noopener noreferrer" target="_blank"><strong>“超睿科技”完成亿元A1轮融资</strong></a></p>
-<p>36氪获悉，国产处理器芯片研发商“超睿科技”近期已完成A1轮融资，金额为亿元级别。本轮融资由洪泰基金领投，龙鼎投资、三合资本等机构跟投，深蓝资本担任独家财务顾问。此次融资将主要用于高性能CPU产品的研发与商业化。</p>
-<h2><strong>今日观点：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3161953131834119" rel="noopener noreferrer" target="_blank"><strong>李彦宏谈DeepSeek：历史上的创新都来自于成本降低，大模型成本每年降低90%以上</strong></a></p>
-<p>36氪获悉，“回顾过去几百年的历史，创新的本质是成本下降与生产力提升。”2月11日，百度创始人李彦宏在迪拜WGS上与阿联酋AI部长对谈时谈及DeepSeek，他表示不仅在AI领域或IT行业，大多数创新都与降低成本有关。如果成本降低一定比例，生产力也随之提高同样比例。在今天，创新速度比以往都快得多。根据摩尔定律，每18个月，性能就会翻倍而价格减半。如今，大模型推理成本每年降低90%以上。</p>
-<p><a href="https://www.36kr.com/newsflashes/3161892825688841" rel="noopener noreferrer" target="_blank"><strong>特斯拉有关负责人：特斯拉储能超级工厂有可能像特斯拉上海超级工厂一样，带来产业链聚集</strong></a></p>
-<p>今日上午，特斯拉上海储能超级工厂投产仪式在上海临港举行。“特斯拉储能超级工厂有可能像特斯拉上海超级工厂一样，带来产业链聚集。”特斯拉方面相关负责人表示。</p>
-<h2><strong>其他值得关注的新闻：</strong></h2>
-<p><a href="https://www.36kr.com/newsflashes/3161620294998790" rel="noopener noreferrer" target="_blank"><strong>日本制铁高管将与特朗普政府会谈</strong></a></p>
-<p>据日经新闻，日本制铁的高管们正计划访问美国，与唐纳德· 特朗普政府讨论有关与美国钢铁公司合并的相关问题。虽然特朗普表示他计划最早本周与日本制铁管理层会面，但这家日本公司的高管计划先与美国政府官员交谈。 </p>
-<p><a href="https://www.36kr.com/newsflashes/3161431449328132" rel="noopener noreferrer" target="_blank"><strong>超15家芯片厂商适配DeepSeek模型，朋友圈持续“扩容”</strong></a></p>
-<p>除了云服务厂商，在硬件侧，当前已有超15家的芯片厂商适配了DeepSeek模型，相关智算一体机也逐步落地；同时，多家手机、汽车企业也陆续宣布接入支持这一模型，朋友圈持续“扩容”。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3162016751807233</guid><pubDate>Tue, 11 Feb 2025 17:31:00 +0800</pubDate></item><item><title>泡泡玛特押注的，不止《哪吒》</title><link>https://36kr.com/p/3162004753934857</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1600,900" src="https://img.36krcdn.com/hsossms/20250211/v2_86e97a6c4f3a4d7aac4e4234d54917a7@5040854_oswg2213059oswg1600oswg900_img_png?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>文/窦文雪 </p>
-<p>编辑/陈锋 </p>
-<p>这几天，《哪吒之魔童闹海》的导演饺子很忙，影片每破一亿，他就要画一张破亿海报。</p>
-<p>泡泡玛特也很忙，忙着加急生产已经脱销的《哪吒2》手办盲盒。</p>
-<p>今年春节，电影《哪吒2》票房持续走高，先是在2月6日成为中国电影史总票房新冠军，截至2月7日21时24分，《哪吒2》票房达到68亿元，超过《星球大战：原力觉醒》，成为全球单一市场票房榜第一名。</p>
-<p>据电影官博更新的海报显示，截至2月11日2时25分，该影片票房已经突破了86亿元，向90亿关口发起冲击。</p>
-<p><strong>影片的情节深入人心，因此泡泡玛特推出的《哪吒2》天生羁绊系列盲盒也随之爆红。该系列产品在1月30日22点线上发售，1月31日线下发售，但几乎是刚上线就脱销，目前已全线断货，预售期已经排到了7月30日。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_f3948875263b45899938ac33b9824cf0@000000_oswg66986oswg1080oswg1466_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>图源泡泡玛特官方小程序 </p>
-<p>一套盲盒产品为什么能这么火？泡泡玛特这次的成功不止是选对了IP这么简单。</p>
-<p>据了解，泡泡玛特此次联名周边的开发时间为1年半，也就是说，泡泡玛特早早就开始根据电影内容来设计、制作产品，还在部分产品设计中加入了一些互动体验的创新，比如取走藕粉外罩可以看到哪吒与敖丙的手办造型等等。</p>
-<p><strong>泡泡玛特这波赌对了，实际上，在泡泡玛特发展的历程中，“押注”是一个关键词。</strong></p>
-<p>不管是最早期押注潮玩市场、开发自己的IP，还是后续在外界的质疑中，押注盲盒市场会爆火，泡泡玛特的创始人王宁，一直带领着泡泡玛特，做着别人“不理解”的事。</p>
-<p>盲盒类产品逐渐跑通，泡泡玛特又开始扩大产品线，如推出毛绒玩具、卡牌、积木、开辟乐园项目等等。</p>
-<p>不是所有的产品线都赚钱，王宁一定也知道，但是只要有赚钱的可能，似乎泡泡玛特就都会入场。近期，泡泡玛特又入局了玄学水晶饰品，像是要把IP可能的表现形态都产出一遍。</p>
-<p><strong>除此之外，泡泡玛特还“赌”到了海外，且其海外业务已经初显成效。</strong>在2024年上半年业绩发布会上，王宁还曾预计，公司全年营收增长不低于60%，海外营收增长不低于200%，有信心实现100亿元营收。</p>
-<p>如今，押中《哪吒2》，给泡泡玛特的2025年带来了一个开门红，而泡泡玛特赢得的一桶桶金，还将被放上更多新的牌桌……</p>
-<h2><strong>1、《哪吒》联名周边火了，泡泡玛特再次“赌赢”</strong></h2>
-<p>1年半前，泡泡玛特也不知道《哪吒2》开播后的口碑会是什么样，但或许是因为相信导演的多年磨一剑，看到了《哪吒1》之后，哪吒和敖丙IP身上散发潜力，因此决定大胆“下注”。</p>
-<p>在产品的设计上，泡泡玛特对连线Insight表示，公司在设计的过程中基于电影内容，“还原”人物性格及核心场景，比如战斗哪吒用挑眉、歪嘴笑；牵手哪吒&amp;牵手敖丙，还原哪吒在烈火中牵手敖丙并肩破鼎的高光情节。</p>
-<p>这些产品，都在电影《哪吒》爆火后，吃到了第一波红利。</p>
-<p><strong>从某种程度上来看，哪吒和王宁有点像。</strong></p>
-<p>两人都做过或正在做别人不太理解的事，都有些天赋异禀的能力，比如哪吒是魔丸转世，王宁则很有自己的眼光，按他自己的话来讲“如果真的说老天爷赏了一碗饭，可能给我的是商业直觉。”</p>
-<p>王宁的直觉，几乎是他在创业之初下注的全部缘由，促使他在2010年创办了泡泡玛特，选择进入潮玩市场。</p>
-<p>2010年是什么光景？</p>
-<p>那年，据艾瑞研究数据，中国电子商务继续保持了快速发展，全年交易规模达4.8万亿元，同比增长33.5%。</p>
-<p>再举一个更贴近生活的例子，2010年的11月，淘宝的双十一活动刚举办到第二届。</p>
-<p><strong>也就是说，当时的电商行业正在蓬勃发展，更多的视线和钱都在往线上走，而王宁却选择了一条与经济大势完全相反的路，做线下，做对消费者而言“没什么大用”的潮玩。</strong></p>
-<p>王宁敢赌自己直觉正确，但在当时的环境下，很少有资本敢跟着直觉做投资。成立三年后的2013年，泡泡玛特才迎来了自己的天使轮融资，投资方为启赋资本，融资金额为600万元。</p>
-<p>拉不到很多“赞助”的泡泡玛特，只能自己努力。2014年，王宁引入日本玩偶Sonny Angel，并首次尝试盲盒销售模式。</p>
-<p><strong>这更是一次让人难以理解的下注，甚至还拉上了消费者一起“赌”——“赌”买一盒就是自己喜欢的款式。</strong></p>
-<p>害怕提前的投入会失败，是多数人的性格特点，但王宁恰恰认为这种机制很有发展空间，泡泡玛特也在引入Sonny Angel后意外地火了，其线下的20多家门店，一年内销售了60多万个Sonny Angel，带来3000多万的销售额，占总销售额近30%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_c8a0bdcf11374fb7a4a63f4816efa590@000000_oswg38385oswg673oswg441_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Sonny Angel，图源泡泡玛特官方微信公众号</p>
-<p>资本也是在这时看到了泡泡玛特的价值，开始在2014-2015年密集入场，泡泡玛特先后受到了来自金鹰商贸集团、国睿中青创投、凤博投资以及老投资人启赋资本的投资。</p>
-<p>但这些融资的数额多为千万元，相比当时动辄几亿的融资而言也是杯水车薪，无奈之下的王宁还在2016年参加综艺节目寻求融资，在节目中当场与红杉中国合伙人王岑敲定了“1亿占股15%”。</p>
-<p>可惜，这场融资最终未能真正成交，但好在王宁在那一年发了个微博，在评论区看到了用户对Molly的喜爱，随后便开始与Molly的设计师、签约、包装、发售产品。</p>
-<p><strong>最终，Molly这个IP，让泡泡玛特在融资很少的情况下变得“有钱”起来。</strong></p>
-<p>2020年，泡泡玛特在港交所上市，在一众互联网公司中显得十分独特，横向对比之下，泡泡玛特的融资数额确实很少，例如B站上市前3年的融资额为184亿，而泡泡玛特所有融资加起来只有八九千万。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_6fe66de364304d46892b1131d3cd29b3@000000_oswg111181oswg1080oswg1304_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>泡泡玛特部分融资历程，图源企查查</p>
-<p>王宁也因此在上市时拥有公司很高的股份和话语权，持股占比最高的外部机构红杉，彼时的占股比例也不超5%。</p>
-<p>以这样架构上市的泡泡玛特，让二级市场开启了一场“无脑捡漏式”的跟投，公司股价在上市之初就路飙涨，到2021年2月达到顶峰，最高股价为105港元/股，市值达到1300亿港元。</p>
-<p><strong>就当所有人都以为已经坐上了泡泡玛特这辆快车的时候，资本的牌桌并没给太多人跟风的机会。</strong></p>
-<p>2022年，线下业态迎来了一场灾难，泡泡玛特净利润近乎砍半，估值掉落到30倍区间，9月，泡泡玛特的市值从1300亿的峰值跌到了128亿的谷底。</p>
-<p>就连明星基金经理张坤都在泡泡玛特身上“栽了跟头”，在股价刚刚开始下跌时加仓，又在泡泡玛特股价和业绩的底部清仓。</p>
-<p><strong>但多数赌局的风向，并不会明着写在牌桌上。王宁在泡泡玛特看似萧条的一年中，完成了IP产品线的扩张、线上渠道的拓宽、提升会员占比等等，在没几多少视线看得到的角落，偷偷给自己摸到了好几张底牌。</strong></p>
-<p>2023年，公司的股价又开始大幅回升，如今，股价已经来到了100港元以上，市值超过1350亿港元。</p>
-<p>一直在跌宕起伏的泡泡玛特，如今仍然在押注新趋势的道路上行走。</p>
-<h2><strong>2、盲盒之外，泡泡玛特正在押注更多新潮流</strong></h2>
-<p>如果说，以前泡泡玛特押注盲盒让很多人看不懂，如今，泡泡玛特开发新的产品线，也依然让多数人“看不懂”。</p>
-<p><strong>今年1月，泡泡玛特发布了旗下饰品品牌“POPOP”，进军当下大热的玄学水晶赛道。</strong></p>
-<p>从POPOP官方微信公众号发布的产品信息可以看到，泡泡玛特是将旗下几个热门的IP与水晶、玛瑙、白贝珠等寓意招桃花、招财、好运、吉祥的材质相结合，生产出首饰产品，并在三地开放限时快闪店，对这些产品进行售卖。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_eb85fe2ec5e14d25bba7c6c340d6f5b5@000000_oswg815838oswg1063oswg703_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>图源POPOP官方微信公众号</p>
-<p>泡泡玛特没有在公众号文章中公布各产品的定价，但从媒体的报道中可以看到，一些产品的价格在1699元、2699元价位，着实有点“小贵”。</p>
-<p><strong>虽然泡泡玛特的盲盒，带有一定收藏性的潮玩，也有一些溢价属性，这和珠宝有相似的地方。</strong></p>
-<p>但一个售价在59或69元左右的盲盒可以激发消费者5-10分钟的多巴胺，是很有可能的，而价格超过1500元的商品已经超出了激发购买欲的范围，很难想象泡泡玛特这次蹭热度拓品类，是否真的还会赚到钱。</p>
-<p>除此之外，作为IP推出方的泡泡玛特，围绕IP做首饰的初衷是吸引自己IP的粉丝，但这个逻辑能否跑通还未可知，当前，POPOP也尚未对外公布三家快闪店的销售情况。</p>
-<p><strong>相比玄学水晶、金银首饰，泡泡玛特看起来与毛绒玩具、积木等品类更契合。</strong></p>
-<p>比如泡泡玛特推出的毛绒玩具产品，其中的搪胶材质的毛绒玩具获得了不少消费者的喜爱。泡泡玛特也是几乎给每个IP都安排上了毛绒玩具款，比如这次与《哪吒2》的联名，也推出了毛绒玩具产品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_f8943f1cff6b45529eb5187ca20d1f6c@000000_oswg1087524oswg1080oswg844_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>图源泡泡玛特官方微信公众号</p>
-<p>从财报来看，公司的毛绒玩具业务也实现了高速增长，2023年上半年，泡泡玛特毛绒玩具的营收仅有4079万元，到了2024年上半年，这一数据增长到了4.5亿元，同比暴涨了993.6%。</p>
-<p>再如同为玩具的积木系列，2024年6月中旬，泡泡玛特发布积木品牌POPBLOCKS，并上线了首款积木产品——LABUBU森林秘密基地系列，价格从199元到399元，上市不久即宣告售罄。</p>
-<p><strong>除此之外，泡泡玛特还进军“卡圈”，在去年5月推出了首套限量收藏卡牌。</strong></p>
-<p>不过，从淘宝的情况来看，泡泡玛特的卡牌销量相对较低，泡泡玛特官方旗舰店中的卡牌链接显示，产品的销量仅为1000+份。</p>
-<p>如今，逛泡泡玛特的门店，已经能有逛“家居百货”的既视感了。有盲盒、毛绒玩具、积木，还有大的玩偶摆件、手机壳、挎包、耳机套，甚至还有充电线、马克杯等等。</p>
-<p><strong>门店之外，泡泡玛特还把每一个IP的故事挪到了更大的空间，开起了游乐园。</strong></p>
-<p>2023年9月，泡泡玛特城市乐园开园，乐园正式营业的首月，入园游客就达到了近10万人次，游客平均在园时长为4.32个小时，衍生品的销售超过门店的5倍。</p>
-<p>泡泡玛特2023年年报显示，公司批发及其他收入为4.97亿元，同比增长88.4%，而这一收入增长的原因之一便是泡泡玛特城市乐园开业所带来的收入增加。</p>
-<p>王宁曾说，要打造中国的迪士尼。如果按照他的目标来假设，泡泡玛特的接下来的押注或将更让市场“意想不到”。</p>
-<h2><strong>3、押注海外，泡泡玛特“复制”泡泡玛特</strong></h2>
-<p>在国内，泡泡玛特经历过很长时间被质疑、投资人看不懂的过程。但在海外，泡泡玛特反而赌赢得很快。</p>
-<p>2018年，泡泡玛特成立了国际业务部。</p>
-<p>彼时的泡泡玛特还没上市，如今比较热门的IP如Dimoo、Hirono小野等还没推出，刚刚向海外探索的泡泡玛特并没急着在海外开门店，而是通过经销商，让产品先“出国”。</p>
-<p><strong>同时，泡泡玛特在海外业务的前端采取了“大GM体系”，即每个国家市场由一位GM规划，GM向统一泡泡玛特国际集团高级副总裁兼国际业务总裁文德一汇报，并独立负责所在国家的几乎所有开店、市场等事务。</strong></p>
-<p>在这样的模式下，泡泡玛特先后成功覆盖了日韩、东南亚和欧美市场。</p>
-<p>到了2021年，泡泡玛特仅在海外开出了7家门店，但海外的收入规模超过了1.37亿元，同比增长85.2%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_d46928e385b64d998e662b8148c25ac0@000000_oswg856091oswg1080oswg408_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>图源泡泡玛特官网</p>
-<p>2022年，在全球疫情最严重的时期，泡泡玛特的海外业务反而转变了策略，“从轻向重”，从B2B向DTC转变，先是在韩国首尔开启旗舰店，随后建立了全职GM及人才团队+直营门店为标准模式，开启了直营。</p>
-<p>近年来，泡泡玛特的门店接连“占领”欧美国家，先是在英国在伦敦中心地段沙夫茨伯里大道开设了门店，并遭年轻人疯抢，又顺手进军法国，随后在美国也拿下了不错的地段，大量的国外年轻人为这家中国潮玩公司买单。</p>
-<p><strong>直营门店在各地的爆火，给泡泡玛特带来收益，也让其更有心力做更复杂一点的事。</strong></p>
-<p>比如加强本土化运作，在开设意大利米兰店和荷兰阿姆斯特丹店时，采用更符合当地市场风格的色彩搭配和陈列方式，并针对欧洲消费者推出了大量限量版商品。</p>
-<p>再如进入新的市场前，先与同类的企业建立合作，或是为募集资金，或是为拿好地段。就像泡泡玛特与全球最大的酒店、餐饮及零售业集团之一——美诺国际集团组建合资公司后，进入了泰国市场，借后者之力将门店开在了曼谷核心的购物区。</p>
-<p>2023年，泡泡玛特全年海外营收为10.66亿元，同比增长134.9%，收入占比提升至16.9%。</p>
-<p>2024年上半年，泡泡玛特的港澳台及海外业务收入达到13.51亿元，同比增长259.6%，占总营收比重为29.7%。</p>
-<p><strong>泡泡玛特也在这份财报中首次披露了东南亚、东亚及港澳台地区、北美、欧澳及其他市场四个地区的业绩及收入占比，四大区域增速均实现三位数增长。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250211/v2_a058c269d0d14767916a8646ec62ee44@000000_oswg138138oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>泡泡玛特澳大利亚第十家门店，图源泡泡玛特官网</p>
-<p>“业务是诚实的，虽然每天国内还有很多事情要做，但海外的成长效率更高，正反馈更多，同时我们也希望能够在这个过程当中作为中国新一代的品牌走向全球。”王宁曾在采访中表示。</p>
-<p>如今再回头看王宁在2018年做出进军海外的那个决定，不得不说，他又一次赌对了。</p>
-<p><strong>从泡泡玛特的发展历程来看，它押注的是“悦己”趋势的流行，这贯穿了其产品研发、市场运营等各个环节，可以说，泡泡玛特赶上了时代的变化。</strong></p>
-<p>（本文头图来源于泡泡玛特官方微信公众号。）</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg2MTc4Nzg5MQ==&amp;mid=2247550509&amp;idx=1&amp;sn=5d5032a46f95a290ab5600cbcbfd1237&amp;chksm=cf156a8475cee02a5c31720fa52b33b3a1d53d5c6eb032fb8f7fc58c158d9e876a9a524adeb6&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“连线insight”（ID：lxinsight）</a>，作者：窦文雪，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3162004753934857</guid><pubDate>Tue, 11 Feb 2025 17:56:00 +0800</pubDate></item></channel></rss>
+<p>……</p>
+<h2><strong>春节餐饮消费，下沉市场挤满了连锁茶饮</strong></h2>
+<p>在春节餐饮消费持续火爆的同时，红餐网发现，在下沉市场，挤满了连锁餐饮品牌。尤其是咖饮品牌在下沉市场开店，更是成为了一种常态。</p>
+<p>消费者小李告诉红餐网，今年回韶关过年发现县城多了很多咖饮店，一个商场一楼，入驻的奶茶品牌就有十多个。“前两年我们县城的茶饮店没有几家，比较知名的就古茗和蜜雪，今年发现喜茶、奈雪、霸王茶姬、瑞幸等头部品牌都集中来开店了。”</p>
+<p class="image-wrapper"><img data-img-size-val="850,637" src="https://img.36krcdn.com/hsossms/20250211/v2_b02734a66dca428e8e3e17d398972bbf@5265833_oswg101984oswg850oswg637_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">△韶关霸王茶姬门店；图片来源：受访者提供</p>
+<p>奶茶店生意火爆的景象，同样在广东汕头的潮阳区上演。</p>
+<p>据红餐网观察，春节期间，汕头潮阳区不少奶茶店都挤满了年轻人。一蜜雪冰城门店工作人员向红餐网表示，春节假期客流量较其他假期多五分之一，为此门店安排了多两三位人员轮班；一益禾堂门店店员也提到，生意比平时好了三分之一。</p>
+<p>另据霸王茶姬公众号消息，在广东揭阳、湛江，霸王茶姬多家门店的日均销量超过 3000 杯。</p>
+<p>主攻下沉市场的7分甜创始人谢焕城在接受媒体采访时也表示：“今年春节整体营业额较去年提升超过30%，其中东北区域提升超过80%，华东区域提升超过50%。”</p>
+<p>茶百道公布的数据则显示，春节门店销量增幅排名前十的城市为非一线城市，如孝感、阜阳、淮安、南充等。而奈雪的茶在泰州、儋州等三四线城市销量也呈现显著增长。</p>
+<p class="image-wrapper"><img data-img-size-val="850,637" src="https://img.36krcdn.com/hsossms/20250211/v2_1e1911f48ad94e43866a53c0a52c12c5@5265833_oswg90507oswg850oswg637_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">△图片来源：红餐网摄</p>
+<p>受返乡潮和旅游热影响，不少连锁茶饮品牌在下沉市场都迎来较大的客流增幅。</p>
+<p>县城乡镇被连锁茶饮“攻占”，成为当地消费者新选择。以星巴克为例，2024 财年，星巴克新进入中国 166 个县级市场，数量较上个财年接近翻倍。</p>
+<p>另据综合信息，蜜雪冰城、瑞幸、沪上阿姨等连锁咖饮品牌也都不约而同地增加低线与县城开设新店的比例。</p>
+<h2><strong>小结：</strong></h2>
+<p>从宏观来看，无论是一线城市还是县级小镇，蛇年春节档同样爆火。这无疑给2025年餐饮市场开了个好头，也让不少餐饮人对今年餐饮市场发展有了更充足的信心。红餐网也期待，2025年，广大餐饮人生意都能延续春节档的红火，迎来新的发展机遇。</p>
+<p class="editor-note">本文来自微信公众号“红餐网”，作者：麦泳宜，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3162032257236485</guid><pubDate>Tue, 11 Feb 2025 18:27:00 +0800</pubDate></item><item><title>曲美家居募投项目延期，募投资金临时改为它用，去年预亏至少1.12亿</title><link>https://36kr.com/p/3162025673124353</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2月10日，曲美家居（603818.SH）发布公告，该公司河南曲美家居产业二期项目（以下简称“河南曲美二期项目”）、Ekornes挪威工厂产能升级建设项目（以下简称“Ekornes挪威工厂项目”）建成时间将会延期。</p>
+<p>据公告，截至2月10日，曲美家居尚未向上述两个项目投入资金。河南曲美二期项目达到预定可使用状态日期从2025年12月延至2027年12月31日。Ekornes挪威工厂项目达到预定可使用状态日期从2025年9月延至2026年12月31日。</p>
+<p>2023年，曲美家居定增项目获批，每股发行价为4.66元，实际募资净额达5.33亿元。目前，受家居市场下行影响，曲美家居暂缓募投扩产项目。</p>
+<p>公告显示，河南曲美二期项目延期的原因为，国内家具消费需求受到房地产行业销售下行的影响持续走弱、竞争加剧。曲美家居国内业务以提升盈利能力，降低经营风险，尽快实现整体业务的扭亏为盈为核心目标。大力推动降本增效工作，对组织架构进行重组与改革，并对员工编制、费用预算进行统筹管理，以降低人力成本及提升人效。</p>
+<p>Ekornes挪威工厂项目也受到国外市场环境影响而暂缓投资建设。据公告，受全球宏观经济波动及地缘冲突的影响，近年来欧洲及北美市场的消费需求受冲击程度较大。2024年度，全球家具市场改善态势初现，欧美市场消费需求回升，Ekornes的订单和报表收入自二季度以来开始逐步改善，但业务整体恢复进度尚未达到预期水平，现阶段产能已足够覆盖销售需求。</p>
+<h2><strong>募资用于补充流动资金</strong></h2>
+<p>曲美家居是一家从事中高档民用家具及配套家居产品的企业。据其募投项目报告，该公司产品线包括定制家具、成品家具及家居饰品等全屋家居用品。通过投资建设河南曲美二期项目，该公司可以增强床垫、软床、沙发等软体家具的产能储备，完善全品类覆盖。</p>
+<p>Ekornes挪威工厂项目属于曲美家居海外业务拓展动作之一。2018年，曲美家居完成收购，成为Ekornes控股股东。</p>
+<p>Ekornes是一家挪威家具企业，创立于1934年，旗下品牌包括Stressless、IMG、Svane和Ekornes Contract等。其中，Stressless 是全球知名的舒适椅品牌，被誉为“全世界最舒服的椅子”。</p>
+<p>据曲美家居收购Ekornes相关公告，曲美家居表示通过收购可以全面提升企业国际竞争力，加速推进新曲美战略目标实现。</p>
+<p>收购完成后，曲美家居营收大涨。据其2019年财报，该公司营收达42.79亿元，同比增长47.99%。此后，Ekornes旗下品牌成为曲美家居营收主力。据其2023年年报，Ekornes旗下品牌营收占营收比例达70.73%。</p>
+<p>据曲美家居募投项目方案论证报告，Ekornes挪威工厂项目可以迭代原有部分老旧产能，扩大新品产能，进一步提升全球特别是北美的舒适椅市场份额。</p>
+<p>然而募投结束后，曲美家居选择将资金补充为流动资金。2024年1月26日，曲美家居发布公告，其拟使用不超过2.5亿元闲置募资暂时补充流动资金。2025年1月6日，曲美家居将该笔资金，归还至募集资金专用账户。2025年1月7日，曲美家居再度发布公告，表示拟使用不超过3亿元闲置募资暂时补充流动资金。两笔借用募资公告均显示，此番操作可降低公司财务成本。</p>
+<p>针对将资金用于补充流动资金是否会影响募投项目建设，时代周报记者致电曲美家居，该公司工作人员表示，公司为了提高资金使用效率，暂时将资金调整为用于补充流动资金。2025年，公司会根据市场环境变化，调整资金用途，如果募投项目开始建设，资金将会随时回到募集资金专用账户。</p>
+<h2><strong>连亏两年</strong></h2>
+<p>近两年曲美家居的日子不算好过。据公司财报，2023年，曲美家居净利润为-3.04亿元。而2020年-2022年，该公司三年净利润总和为3.19亿元。该公司公告表示，公司亏损原因包括境外有息负债成本持续升高，财务费用支出增加，Ekorens以及国内家居业务销售下滑所致。</p>
+<p>2024年9月，曲美家居董事长儿子赵泽龙凭借“父债子还”的人设，在视频平台引起关注。视频中，赵泽龙表示：“我有一事请教一下大家，有钱人家的孩子叫富二代，家里有工厂的叫厂二代，这公司是我爸的，负债48个亿，我是啥二代啊？”</p>
+<p>2024年，曲美家居再次亏损。据其2024年业绩预告，该公司预计2024年净利润为-1.68亿元至-1.12亿元，扣非净利润为-1.65亿元至-1.1亿元。</p>
+<p>公告显示，2024年曲美家居业绩预亏原因包括受国内家具行业受房地产市场销售下行影响较为低迷，全球市场需求弱复苏影响，整体收入略有下降，以及北美及欧洲主要地区商业银行利率水平在2024年保持高位，公司在境外有规模较大有息负债，导致财务费用较高等因素影响。</p>
+<p>早在2018年，曲美家居财务费用就达1.47亿元，同比增长16919.14%，主要原因为并购贷款利息支出增加所致。此外，据东方财富数据，2018年曲美家居资产负债率增至77.73%。而2017年，其资产负债率只有22.49%。</p>
+<p>据曲美家居2024年半年报，该公司有一笔挪威克朗债券，期末余额为7.98亿元，债券到期日为2026年9月10日，债券票面利率为挪威同业拆借利率上浮8个百分点。</p>
+<p>曲美家居工作人员向时代周报记者表示，挪威同业拆借利率会随着美元利率波动，过去两年，由于美元利率处于高位，因此该利率处于较高位置。随着美元降息，该笔债券利率也将会有所下降。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjEyODE4MA==&amp;mid=2653324098&amp;idx=5&amp;sn=9597acb70f182fe79993206c71a7da42&amp;chksm=bc3ed3cfc54ac76d29b1f5f2e98db02f35a09aef0b24736c4bc0b5348c4f022f36b92af08fbb&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代周报”（ID：timeweekly）</a>，作者：郭鹏，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3162025673124353</guid><pubDate>Tue, 11 Feb 2025 18:28:00 +0800</pubDate></item></channel></rss>
