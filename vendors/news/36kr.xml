@@ -1,670 +1,752 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 12 Feb 2025 16:30:22 +0800</lastBuildDate><pubDate>Wed, 12 Feb 2025 16:30:22 +0800</pubDate><item><title>Meta视频AI王者登场，打爆Sora，体操运动终于不再鬼畜</title><link>https://36kr.com/p/3163271998646786</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1068,416" src="https://img.36krcdn.com/hsossms/20250212/v2_b0313aacf96b4c738c773b0a2380334d@46958_oswg219733oswg1068oswg416_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
-<p><strong>【导读】</strong>刚刚，Meta重磅发布了VideoJAM，在运功连贯性上刷新SOTA，Sora完全被按在地上摩擦。</p>
-<p>我们都知道，几乎所有视频模型都有一个老大难：无法正确生成运动。 </p>
-<p>原因就在于，AI视频的训练目标更偏向外观，而非动态表现。 </p>
-<p>就在刚刚，来自Meta和特拉维夫大学的研究人员发布了一个用于改进运动生成的全新框架——VideoJAM。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,661" src="https://img.36krcdn.com/hsossms/20250212/v2_ef67ddc79cea4c9a9314bcdb193ce10d@46958_oswg634729oswg1080oswg661_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>论文地址：https://arxiv.org/pdf/2502.02492 </p>
-<p>这个新框架，直接攻克了这个传统难题，无需任何额外数据或scaling。 </p>
-<p>结果显示，它生成的视频已通过体操图灵测试，结果碾压Sora！ </p>
-<p>左边Sora生成的这个怪异的体操动作，直接被VideoJAM吊打。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,318" src="https://img.36krcdn.com/hsossms/20250212/v2_4a55fe75112548169e9ccbdccf147ffb@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Sora生成的男子抛球的视频，可谓是爆笑如雷了；而VideoJAM生成的效果，真实又自然，完全符合物理规律。</p>
-<p class="image-wrapper"><img data-img-size-val="640,318" src="https://img.36krcdn.com/hsossms/20250212/v2_c7c0ac33ec1c422a85a199440e6c5ec3@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从Sora生成的转呼啦圈动作看，它完全没理解这项运动的原理，而VideoJAM已经手拿把掐。</p>
-<p class="image-wrapper"><img data-img-size-val="640,318" src="https://img.36krcdn.com/hsossms/20250212/v2_5f7fd4767478410494ba8937c3a34811@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>AI视频为何难以捕捉现实动作</strong></h2>
-<p>为什么视频生成模型在处理运动方面如此困难？现实世界的运动、动态和物理现象，它们经常难以捕捉。 </p>
-<p>Meta的研究团队发现，当视频帧被打乱时，基于像素的损失几乎不变，这表明，它几乎「对时间不一致性保持不变」。</p>
-<p>也就是说，这种局限性源于传统的像素重建目标，它会使模型过度关注外观保真度，而忽视了运动的连贯性。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,670" src="https://img.36krcdn.com/hsossms/20250212/v2_3125b325f406437cb5622237a37944b1@46958_oswg283605oswg1080oswg670_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Meta的解决方案，就是VideoJAM。</p>
-<p>它通过修改目标函数，来引入显式的运动先验：模型从<strong>单一的学习表征</strong>中同时预测外观和运动。</p>
-<p>这种方法，就能迫使模型同时捕捉视觉信息和动态变化，从而提升对运动的理解能力。</p>
-<p>具体来说，VideoJAM通过鼓励模型学习外观与运动的联合表征，为视频生成器注入有效的运动预测。</p>
-<p>VideoJAM由两个互补的模块组成。</p>
-<p>在训练阶段，研究人员将目标扩展为基于单一的学习表征，同时预测生成的像素及其对应的运动。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,572" src="https://img.36krcdn.com/hsossms/20250212/v2_4cd22d2dd047430f96001f9664e08201@46958_oswg318864oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在推理阶段，他们引入了「Inner-Guidance」机制，通过利用模型自身不断演化的运动预测作为动态引导信号，引导生成连贯、逼真的动作。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1010" src="https://img.36krcdn.com/hsossms/20250212/v2_d78259bfab8945f99ddd33f2c3f1e85b@46958_oswg1169200oswg1080oswg1010_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>值得注意的是，VideoJAM框架几乎无需额外改动即可应用于任何视频模型，无需修改训练数据或扩大模型规模。</p>
-<p>结果令人惊喜！</p>
-<p>VideoJAM在仅使用其自身训练集中的300万个样本对预训练视频生成模型（DiT）进行微调后，仍实现了卓越的运动连贯性。</p>
-<p>在运动连贯性方面，它已经达到了SOTA；在运动质量上，它甚至超越了Sora等专有模型。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,659" src="https://img.36krcdn.com/hsossms/20250212/v2_d2d23971e2904311aef2ba78951da3fb@46958_oswg91203oswg1080oswg659_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Meta团队的研究结果表明，外观与运动之间并非对立，而是相辅相成；当二者得到有效融合时，能够同时提升视频生成的视觉质量与运动连贯性。</p>
-<h2><strong>复杂运动无比真实</strong></h2>
-<p>以下视频由VideoJAM-30B在高难度提示（需生成复杂运动类型）下生成的结果。 </p>
-<p>「一位滑板运动员进行跳跃。」</p>
-<p>可以看出运动员与滑板在空中的动作结合的十分协调，甚至在踏上滑板时，滑板还有轻微的震动，可谓是十分真实了。</p>
-<p class="image-wrapper"><img data-img-size-val="480,480" src="https://img.36krcdn.com/hsossms/20250212/v2_ba83878324e74656b8d6c46db34bb22f@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「手指压进一个闪烁的粘液球。」</p>
-<p>视频清晰展现了手指与粘液球的粘连状态，生动体现了其粘性。</p>
-<p class="image-wrapper"><img data-img-size-val="480,480" src="https://img.36krcdn.com/hsossms/20250212/v2_98d4dd05cc9f43999b1cb7d869639b7f@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「一位花样滑冰运动员完成了一个有力的跳跃，她的金色服装闪闪发光。」 </p>
-<p>视频中可以看出运动员在空中的旋转十分协调，在快速移动中还生成了模糊的效果。 </p>
-<p class="image-wrapper"><img data-img-size-val="480,480" src="https://img.36krcdn.com/hsossms/20250212/v2_1d25d4d8a5d24235b842efbcc3a97fd8@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「一只山羊在山顶一个旋转的球上保持平衡。」</p>
-<p>视频中的山羊努力在球上保持平衡，其动作也符合物理法则。</p>
-<p class="image-wrapper"><img data-img-size-val="480,480" src="https://img.36krcdn.com/hsossms/20250212/v2_6034f1fd577b478586a9572546c98757@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「慢动作特写，厨师切番茄。」</p>
-<p>视频中对手指的处理没有明显瑕疵，实属不易。切下的西红柿之间也有着自然的差异。</p>
-<p class="image-wrapper"><img data-img-size-val="480,480" src="https://img.36krcdn.com/hsossms/20250212/v2_0fceebdb07de4809abd6d9cde1f489e7@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「一个男孩在生日蛋糕上吹蜡烛。」</p>
-<p>下面这个视频需要模型理解小男孩吹气与蜡烛火苗间的逻辑关系。VideoJAM-30B显然处理得还不错。</p>
-<p class="image-wrapper"><img data-img-size-val="480,480" src="https://img.36krcdn.com/hsossms/20250212/v2_6288009800cc46339765ba33f4f01163@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「一个花瓶在安静的古董店木地板上摔碎。」</p>
-<p>这种碎裂的场景十分考验模型对细节的处理，VideoJAM-30B看来也不在话下。</p>
-<p class="image-wrapper"><img data-img-size-val="512,512" src="https://img.36krcdn.com/hsossms/20250212/v2_b2acb900f5cf484bb398519988dbb9a5@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>视频AI大PK</strong></h2>
-<p>接下来，为了证明VideoJAM具备最优的运动连贯性，研究人员进行了定性和定量实验。（从左到右为Runway Gen3、Sora、DiT和VideoJAM） </p>
-<h3><strong>定性实验</strong></h3>
-<p>定性评估涵盖了多种运动类型，是当前AI视频模型面临的挑战难题，比如体操动作（空中劈叉、跳跃）、需要物理理解的情境（手指按压黏液、篮球落入篮网）等等。 </p>
-<p>如下比较中，直观地展现出当前领先AI视频模型的局限性。 </p>
-<p>即使是简单的运动，例如长颈鹿奔跑，也会出现问题，例如「反向运动」（Sora）或不自然的动作（DiT-30B）。 </p>
-<p>更复杂的运动，如引体向上或头倒立，会导致视频静态不变，或有的出现身体变形。基线模型甚至还会违背物理规律，比如物体消失或突然出现。 </p>
-<p>相比之下，VideoJAM始终能够生成连贯的运动。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,174" src="https://img.36krcdn.com/hsossms/20250212/v2_8494b1bdf84249a5a65eff4949f78350@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,174" src="https://img.36krcdn.com/hsossms/20250212/v2_b21f5b4057d04ef384062de22db1dbfe@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,174" src="https://img.36krcdn.com/hsossms/20250212/v2_b84b3cec3f9b4f908fe1a800d7421a8f@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,174" src="https://img.36krcdn.com/hsossms/20250212/v2_c2000fa950524ba396388acff8bcf2cc@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,174" src="https://img.36krcdn.com/hsossms/20250212/v2_07081c36900245119dfe9bcb49d93d0f@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,159" src="https://img.36krcdn.com/hsossms/20250212/v2_4fdf5a9bd6a244e6af49faa9ad64a2ed@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="640,159" src="https://img.36krcdn.com/hsossms/20250212/v2_c40fe8edc4d04e05bd2e4f06aca0ef49@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过，在下面这组「转动的指尖陀螺」中，所有模型都无法正确地遵循物理学定律。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,174" src="https://img.36krcdn.com/hsossms/20250212/v2_28b009f1ea7d49558b7740a510e054af@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更进一步的，研究团队还展示了VideoJAM与DiT-30B在同等条件下的定性比较。 </p>
-<p>「一位芭蕾舞者在黎明时分在草地上优雅地旋转，他们的动作柔和流畅，如同晨风。」 </p>
-<p>可以看出，对比基础模型DiT-30B，微调后的VideoJAM生成的视频主体人物更大、明暗对比更加强烈。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,320" src="https://img.36krcdn.com/hsossms/20250212/v2_7f6eccb73df549e791a3c8df9f3a2423@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「运动员在雨中奔跑的特写，他们的鞋子在积水中溅起水花，坚定地向前推进。」 </p>
-<p>下图中，同样VideoJAM生成的视频中主体更大，同时跑步姿势也显得更加自然一些。</p>
-<p class="image-wrapper"><img data-img-size-val="640,320" src="https://img.36krcdn.com/hsossms/20250212/v2_9789e1ea84d14bbba002f499aefd92b2@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「一只狗跳过木栅栏。慢动作。」 </p>
-<p>下图中DiT-30B（左）生成的视频中狗在空中直接穿过了栏杆，而VideoJAM则没有出现这种问题。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,320" src="https://img.36krcdn.com/hsossms/20250212/v2_2e5e848dc0214bf796996a21fd332eb2@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「特写镜头，寿司师傅用故意、流畅的动作切生鱼片。」 </p>
-<p>下图中VideoJAM生成的视频中主体离镜头更近，而DiT-30B生成的视频中，厨师根本就没有切到寿司。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,320" src="https://img.36krcdn.com/hsossms/20250212/v2_d1c1b6fc16c946a99b5bd924d081ad90@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>「女性在公园日落时，围绕腰部旋转呼啦圈。」 </p>
-<p>下面这个对比视频同样可以看出，VideoJAM生成的视频中女人旋转呼啦圈明显更加真实，而DiT-30B生成的视频中的女人则同呼啦圈一同旋转。 </p>
-<p class="image-wrapper"><img data-img-size-val="640,320" src="https://img.36krcdn.com/hsossms/20250212/v2_c4809c75e40a44339b10954b6c582732@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>定量实验</strong></h3>
-<p>在定量评估中，研究人员就外观质量、运动质量以及提示词一致性，采用了自动指标（automatic metrics）和人工评估相结合的方式。 </p>
-<p><strong>自动指标</strong></p>
-<p>这里，作者使用了VBench基准——能够从多个解耦维度评估视频生成模型。评估指标包括逐帧画面质量、美学评分、主体一致性、生成的运动量以及运动连贯性。 </p>
-<p>如下表4、表5所示，分别展示了4B模型和30B模型在运动基准测试上的自动指标的结果。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,711" src="https://img.36krcdn.com/hsossms/20250212/v2_02d5968a71d5405c9e7f1f936a0608e1@46958_oswg110621oswg1080oswg711_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>人工评估</strong></p>
-<p>在人工评估方面，研究人员遵循二选一强制选择（2AFC） 协议，即评估者在每次比较中观看两段视频（一段来自 VideoJAM，一段来自基线模型），并根据画面质量、运动表现和文本对齐度选择更优者。 </p>
-<p>每组比较由5位不同的评估者进行评分，每个基线模型在每个基准测试中至少收集640次评价。 </p>
-<p>评估结果，如下表1、表2所示。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,1262" src="https://img.36krcdn.com/hsossms/20250212/v2_f46d5688556344c9805077c212773d2e@46958_oswg200672oswg1080oswg1262_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>消融实验</strong></h2>
-<p>如表3所示，所有消融实验都会显著降低运动连贯性，其中去除运动引导的影响比去除文本引导更大，这表明运动引导组件，确实能够引导模型生成时间上连贯的视频。 </p>
-<p>此外，在推理阶段移除光流预测的影响最大，这进一步证明了联合输出结构对于确保合理运动的优势。 </p>
-<p>同时，与InstructPix2Pix引导进行对比，也进一步证明了Inner-Guidance公式更适合VideoJAM框架，因为InstructPix2Pix在运动方面的得分为倒数第二低，再次验证了新方法在提升运动连贯性方面的有效性。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,556" src="https://img.36krcdn.com/hsossms/20250212/v2_33488b23715141fd96b6eceb4152810c@46958_oswg98336oswg1080oswg556_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>局限性</strong></h2>
-<p>尽管VideoJAM显著提升了时间连贯性，但仍面临一些挑战，如下图7所示。 </p>
-<p>首先，由于计算资源的限制，作者依赖于有限的训练分辨率和RGB运动表示，这使得模型在「远景」场景下难以捕捉运动信息，当运动物体仅占画面的一小部分时，该问题尤为明显。 </p>
-<p>在图7(a) 中，降落伞未能展开，运动显得不连贯。 </p>
-<p>其次，尽管运动与物理规律密切相关，提升了物理一致性，但VideoJAM运动表示缺乏显式的物理编码，从而限制了模型在复杂物理交互中的表现。 </p>
-<p>在图7(b) 中，球员的脚尚未接触足球，球的运动轨迹却已经发生变化，这表明模型在模拟物理交互时仍存在不足。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,531" src="https://img.36krcdn.com/hsossms/20250212/v2_f044105b867c405f9246717c62bbee18@46958_oswg461559oswg1080oswg531_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>结论</strong></h2>
-<p>视频生成是一项独特的挑战，需要同时建模空间交互和时间动态。 </p>
-<p>尽管该领域已经取得了显著进展，但视频模型在时间连贯性方面仍存在困难。即使对那些在训练数据集中已经充分表示的基本运动也是如此。 </p>
-<p>Meta团队的研究指出，训练目标是关键因素之一：以往目标通常偏向于外观保真度，而牺牲了运动连贯性。 </p>
-<p>为此，他们提出了VideoJAM——一个能够为视频模型显式注入运动先验的框架。 </p>
-<p>其核心思路直观且自然：由单一的潜在表示<strong>同时捕捉外观与运动</strong>。 </p>
-<p>只需增加两个线性层且不需要任何额外训练数据，VideoJAM就能显著提升运动连贯性，甚至可与强大的专有模型竞争。 </p>
-<p>VideoJAM具有通用性，为未来在视频模型中注入更复杂的现实世界先验（如复杂物理规律）提供了广阔的可能，为整体建模真实世界交互开辟了新方向。 </p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 12 Feb 2025 17:00:23 +0800</lastBuildDate><pubDate>Wed, 12 Feb 2025 17:00:23 +0800</pubDate><item><title>罚款百万、赔付1亿：辛选渡劫</title><link>https://36kr.com/p/3163320795540231</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>最近，头部直播电商机构“辛选”连续被举报，陷入了信任危机。</p>
+<p>2月5日晚，此前实名举报辛巴的博主@桃白白style 发视频称，收到市场监管部门出具的《举报处理答复书》。答复书显示，<strong>1月底，广州辛选网络信息科技有限公司因虚假宣传问题被重罚175万元。</strong></p>
+<p>屋漏偏逢连夜雨，2024年12月，打假博主@蛙哥出击 发布视频称，主播蛋蛋在直播间推荐的仓野农夫静腌菲力牛排涉嫌虚假宣传。2月6日，经视直播报道，<strong>海南省三亚市综合行政执法局工作人员透露，对主播蛋蛋直播售卖的牛排涉嫌虚假宣传的问题，已立案调查。</strong></p>
+<p>质疑的雪球越滚越大，辛选能否在接二连三的负面舆情中平稳落地？2025年，辛巴又将指挥着辛选往何处去？</p>
+<h2><strong>罚款175万，辛选做好了心理建设</strong></h2>
+<p>近期辛选接受的巨额罚款，要追溯至2024年10月19日的一场带货直播。</p>
+<p>@蛋蛋 带货“HomePro合普诺爱毕可免疫球乳铁蛋白”调制乳粉时，多次提到其可有效缓解鼻炎、发烧、脚气等症状，并声称能两小时内提升免疫力，还建议家长可以将其当作感冒药常备。她还提到，“家里小孩有鼻炎的、发烧的，不用去给他吃感冒药，你给他们上两条爱毕可，他那个烧应该就发不起来了。” @辛巴 也在讲解时提到该产品能显著提升免疫力，长期喝可以预防口腔溃疡、鼻炎发作。“鼻炎、总流鼻涕，吃完两三个小时鼻涕没了。”</p>
+<p>事实上，乳铁蛋白虽被证实有一定免疫调节作用，但效果相对温和，远未达到直播中的“速效”描述，故而被质疑涉嫌虚假宣传和误导消费者。</p>
+<p>今年2月，广州市白云区市场监管局给博主@桃白白style 的答复书显示，辛选主播在直播间为合作方推广“合普诺爱毕可”“爱樂倍佳艾必可”“九芝堂艾草三伏贴”等产品，在直播带货过程中存在夸大宣传、虚构商品功能和性能等欺骗、误导消费者的违法行为。这些行为违反了《中华人民共和国反不正当竞争法》第八条第一款的规定。根据《中华人民共和国反不正当竞争法》第二十条第一款的规定，已对当事人处罚如下：<strong>1、责令停止虚假或引人误解的商业宣传违法行为；2、罚款175万元。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_59eca7018d87431c988fdd8fae0d036f@000000_oswg901741oswg900oswg1200_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：微博</p>
+<p>实际上，在监管部门发布处理结果之前，在行业浸淫已久、危机意识很强的辛选就选择了提前“滑跪”。</p>
+<p>2024年11月25日，辛选集团发布了《关于启动“守卫者1号计划”及相关消费者权益保护的公告》。其中提到，公司于2024年9月成立了“自查自纠特别专项小组”，并<strong>出资1亿元人民币，为消费者在辛选直播间遇到售后问题时提供先行赔付。</strong></p>
+<p>公告提到，去年10月19日带货的“合普诺 Epicor 爱毕可酵母调制乳粉”，<strong>主播在讲解产品过程中存在措辞不当，辛选对当天销售的产品做退款处理。同时，已发货和被动退款的用户，如有疑虑，支持申请退一赔三。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_d5ccdc40e8bd4b9f8bb2b5014145e138@000000_oswg426380oswg1080oswg2519_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：辛选</p>
+<p><strong>职业道德和商业利益之间的冲突、取舍，是每一个主播和直播机构需要直面的拷问。</strong>高处不胜寒，“闭眼夸”或许一时能换来更好的转化效果，但长期来看，就像走钢丝，总有一刻会不小心跌进深渊，被众人唾弃。</p>
+<h2><strong>被举报的蛋蛋，“走钢丝”的辛选</strong></h2>
+<p><strong>因涉嫌虚假宣传引发争议、被举报、被监管部门处罚，并非辛选首次经历的事件，大概也不是最后一次。</strong></p>
+<p>成立至今，辛选遭遇的最大的重创之一是“糖水燕窝”事件。</p>
+<p>2020年10月，辛选主播@时大漂亮 在直播间销售“茗挚碗装风味即食燕窝”，被职业打假人王海质疑为“糖水”，检测显示燕窝含量不足2g。辛巴起初否认，最终承认夸大宣传并承诺“退一赔三”。</p>
+<p>2020年12月23日，广州市市场监督管理局认定辛选旗下公司（和翊公司）存在误导性商业宣传，违反《反不正当竞争法》第八条，罚款90万元。品牌方融昱公司因提供虚假资料被罚款200万元。</p>
+<p>当天，快手也宣布对辛有志团队做出惩罚，其中对涉事主播@时大漂亮 追加封停60天，对和翊公司负责人辛有志账号封停60天，对公司旗下其他27名主播封停账号15天。</p>
+<p>直到2021年3月底，辛巴才正式复播。复播后，其个人风格有所改变，言辞也比较谨慎。停播期间，辛选沉寂良久，进行了一番大刀阔斧的整改。</p>
+<p><strong>为了表现“知错就改”的决心，辛选宣布了一系列举措“重建口碑”</strong>：比如，成立质量专家委员会，邀请行业专家、技术人员加入选品团队，推动建立政府检测部门、第三方机构联合检测的机制，把控产品标准关和质量关；针对供应商提供的产品信息与卖点信息，通过建立三级审核机制、进行产品技术分析、成立内部检察团队、培训主播等措施，以确保产品能够被真实准确地展现给消费者。</p>
+<p>2021年7月，广州仲裁委员会裁定融昱公司需赔偿辛选3035万元，因其故意误导辛选进行虚假宣传。但少有人关注辛选是否被商家误导才带错了货。</p>
+<p>从后来的事实来看，辛选的选品和检测流程，有了明显的改进，至少在后来的两年里，辛选没有发生同等严重的舆论危机。</p>
+<p><strong>但直播间作为一个瞬时反应的舆论场，具备强大的流量集聚效应，加之辛巴“本性难移”，总要或直率或刻薄地点评平台、头部主播、品牌，似乎难以规避舆论危机和账号安全问题。</strong>比如，在2021年-2024年间，辛巴个人账号因多次怒怼平台、言语粗俗等问题，遭遇了至少3次短期封禁。</p>
+<p><strong>同时，直播间中的部分品类（比如：生鲜水果）本身具备特殊性，似乎也更容易“翻车”。</strong></p>
+<p>在食品领域，辛选已栽过多次跟头，近期蛋蛋又被举报牛排涉嫌虚假宣传。</p>
+<p>去年主播蛋蛋在直播间宣传自己带货的某款牛排配料表非常干净，并在配料表明确标注了牛排为速冻调制食品的情况下，宣称其为原切、现切产品。之后，打假博主@蛙哥出击 称，他在蛋蛋直播间购买的牛排中检出了焦磷酸钠、D—异抗坏血酸、柠檬酸钠等添加剂成分，但配料表中没有标注。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_b032e7d6fe96498a8ec8329ba01d8028@000000_oswg127765oswg1080oswg936_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：微博</p>
+<p>2024年12月5日，曹县市场监督管理局对山东卓跃食品有限公司生产的静腌菲力牛排进行立案调查。今年2月7日，因违反《食品安全法》，牛排生产方山东卓跃食品有限公司被罚款247680元。目前，针对蛋蛋直播间的牛排涉嫌虚假宣传的问题，海南三亚执法团队仍在调查中，具体的结果需等待公布。</p>
+<p>2025年春节期间，辛选直播间销售的海鲜大礼包出现质量问题。有消费者反映，螃蟹解冻后全是黑水，根本无法食用。<strong>对此，辛巴回应称，一定会负责到底。</strong></p>
+<p>海鲜礼包来自辛选自营品牌尖锋食客，该品牌和供货方沟通后表示，蟹肉解冻轻微氧化不影响食用，属于正常现象。部分用户发黑情况比较严重，原因可能是：1.快递在运输过程中失温氧化导致；2.常温自然解冻时间太长导致(建议流水解冻)，氧化时间过长。因事发春节假期，各方都处于放假状态，调查还需一些时间。<strong>对于受此次情况影响的用户，尖锋食客将赠送一瓶采购含税价920元的五粮液(普五)作为补偿。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_dc542015cb89427abcb8258f0d6a4257@000000_oswg295462oswg960oswg2358_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：快手</p>
+<p>由于辛选直播间主要满足用户日常生活需求，食品生鲜往往是其带货的核心品类，也是其不可放弃的版块。<strong>以2024年1月6日至1月29日的辛选年货节为例，总GMV超过66.37亿元，同比增长66.74%，销量1.31亿件，其中食品生鲜类销售额35.5亿，占比53.5%。</strong></p>
+<p>相比大部分品类，生鲜产品运输和保存过程都更为不易，想必类似的质量问题，还会不断出现。如何及时、妥当地处理好售后流程、规避舆论危机，就成了辛选的挑战。</p>
+<h2><strong>“后辛巴时代”，辛选往何处去？</strong></h2>
+<p>在虚假宣传争议外，辛选在过去一年仍是直播电商行业带货能力最强、最赚钱的MCN机构之一。</p>
+<p>以2024年“双11”上半场，辛选的销售额就已超过120亿元，超额完成平台传达的销售目标。上文中提及的争议产品，正是出自辛巴“双11”首播，彼时开播仅一分钟，直播间观看人数就达到100万，8小时累计观看人数超6900万。最终整场直播的GMV超64.1亿元，打破了辛巴个人的单日带货纪录。此前，他单场GMV最高的一天，是2023年10月21日，超过37亿元。</p>
+<p>至于2024全年带货数据，辛选尚未披露，但想来不会低于2023年的成绩。辛巴曾对外公布，<strong>2023年辛选逆势增长，累计GMV超500亿。</strong>从辛巴到头部主播矩阵，辛选达人拥有超6亿粉丝。从2019年到2023年，@辛巴818 共创作过3000多个视频，点击量超3000亿。辛巴共播了148场直播，单场销售额最高超过37亿；<strong>辛选共销售了24亿件商品，五年总销售额超过2000亿元。辛巴表示，“辛选用户是地表最强消费者。”</strong></p>
+<p>近两年来，创始人辛巴越来越少地出现在镜头前，而是承担了幕后的职能，其徒弟蛋蛋接过师父的大旗，成为快手带货一姐。在常规直播外，蛋蛋也承担了助农等社会责任，帮助辛选树立良好的社会形象。比如，2024年9月10日，蛋蛋带货吉林特产，主推长白山人参等农产品，销售额破1.6亿元，售出256万单。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_7b983b6014624cccab613928ea547e06@000000_oswg137490oswg1080oswg667_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：快手</p>
+<p>辛选也在持续培养和打造新主播，补充人才。自从2020年以来，辛巴旗下的辛选陆续孵化了十余位亿级主播。2024年新签约的主播中，最受关注的当属@刘小啦 。</p>
+<p>2024年7月，辛选签约了快手粉丝量超千万的娱乐主播@刘小啦。<strong>今年1月，在加入辛选后的带货首秀中，@刘小啦 的GMV破1亿元，主播本人也直播间感谢了蛋蛋和辛巴的帮助，</strong>“我身后的那个男人，我的参天大树我的老板，所有的事一直在后边托举着我”。第三方数据显示，2025年1月6日到2025年1月12日期间，@刘小啦 位列涨粉榜第三位，一周涨粉超267万。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_6dc2dc93871e4bcb8d794215c5d4ca27@000000_oswg121037oswg1080oswg629_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：快手</p>
+<p>辛选还开拓了切片带货等新业务。2024年3月，辛选成立短视频切片带货公司，作为子公司负责全流程业务。</p>
+<p>2023年，辛选开启出海战略，在泰国开启榴莲直播，共带货162万颗榴莲，总销售额破8.3亿元。2024年，辛选表示进一步扩展国际化布局，但具体数据未知。</p>
+<p>线上业务之外，辛选也在谋划开展线下业务。2024年国庆节期间，辛巴带领辛选团队奔赴许昌胖东来时代广场店，向胖东来董事长于东来学习取经。今年1月，辛巴在直播中透露要花15亿开超市，“正常开超市1-2亿就能开，<strong>我为第一家超市准备了15个亿现金，我就是敢整。”辛巴还说：“它是我人生中最后一个作品，现场的场地一定是我自己建的，建设过程会亲自参与。”</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_11b8334dbeca4c629b2cf5a2e52c4457@000000_oswg307408oswg582oswg436_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：网络</p>
+<p>不论是带新人、做切片、出海，还是开超市，都是辛选开拓更大商业版图的尝试，也都需要建立在粉丝信任的基础之上。<strong>眼下，对辛选而言，赚更多钱固然重要，如何相对安全地度过危机、平稳地发展，才是重中之重。</strong>高举高打的时代过去了，即使是曾经口无遮拦、怼天怼地的辛巴，也要及时“认怂”。</p>
+<p>作为员工超4000人的直播电商龙头企业，辛选不得不承担更多的社会责任，在自身的增长需求和消费者的权益之间做出必要的平衡。接受《封面新闻》采访时，辛巴提到，“2024深感责任重大。<strong>老百姓的信任，不敢辜负</strong>。在辛选直播间背后，是千千万万个会过小日子的老百姓，他们要的是简简单单、朴朴实实的幸福。”</p>
+<p>超级主播时代的落幕是必然的，如何优雅地谢幕则是一门艺术。</p>
+<p>参考文献</p>
+<p>5、数据 | 深挖2024涨粉最多的1000个抖音账号，我们总结了3大内容趋势 </p>
+<p>4、从涨粉最快的500个账号，我们看到了小红书2025年的“起飞”密码 </p>
+<p>3、挂榜卖货的老把戏，在抖音“死灰复燃” </p>
+<p>2、2025年，短剧换种方式“收钱” </p>
+<p>1、一条视频狂揽两亿订单，2025年企业增长潜力何在？ </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzUzMjI1MzkyNw==&amp;mid=2247540634&amp;idx=1&amp;sn=d43fa03a5940c39f9f6510ad5435ffb2&amp;chksm=fbfef62e615a1b0269cbaff02f3443bd6bbbbdd87d13e4f83f6b2975c45b7d1050da61433916&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“卡思数据”（ID：caasdata6）</a>，作者：毕十三，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163320795540231</guid><pubDate>Wed, 12 Feb 2025 16:30:00 +0800</pubDate></item><item><title>古茗上市，新茶饮改命？</title><link>https://36kr.com/p/3163125554080256</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_3d8ab7e19c8243309402c7c9928e9949@000000_oswg63440oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>新茶饮行业第三股古茗，终于上市了。虽说是第三股，它身上聚集的目光并不比前两位少。 </p>
+<p>在2025年开年上市，古茗被赋予“行业转折点”的期待。在它之前登陆港股的两家新茶饮公司，表现并不尽如人意。 </p>
+<p>截至2月11日收盘，“新茶饮第一股”奈雪的茶报收1.25港元/股，较19.8港元的发行价下滑了93.68%，其市值一度接近300亿港元，目前已仅剩21亿港元；另一家茶百道报收9.60港元/股，较17.5港元/股的发行价跌去45.14%，总市值约142亿港元。 </p>
+<p>市场都在观望，古茗能否成功扭转第一股奈雪的茶和第二股茶百道“上市即破发”的“诅咒”，改写资本市场对新茶饮的消极判断。同时，能否为还在排队的蜜雪冰城、沪上阿姨，以及传出计划赴美上市消息的霸王茶姬和茶颜悦色，开个好头。 </p>
+<p>古茗的上市表现没有让人失望。2月12日，古茗在港交所上市，发行价为9.94港元/股，截至午市休盘，股价为9.98港元/股，市值约233亿港元。 </p>
+<p>虽然没有开进一二线城市，但在古茗的大本营浙江、福建及江西三大南方省份，这些区域的地级市，密布着近万家门店（9778家），且密度超过蜜雪冰城。 </p>
+<p>门店多收入就高，2023年，古茗收入76.76亿元，净利润10.96亿元‌‌。这一年，它卖了近12亿杯奶茶，相当于每卖一杯茶净赚约1元。到2024年前三季度，古茗营收和利润继续双增长，稳住了在10-20元价格带的领先地位。 </p>
+<p>但是上市并不是万能解药，茶百道上市前也有着不错的业绩表现——连续三年盈利，结果上市后的第一份财报变脸，2024年上半年营收和净利润双降。和茶百道处在同一价格带且同靠加盟商赚钱的古茗，也需要在上市后证明自己的稳定性和成长性。 </p>
+<h2><strong>新茶饮第三股，表现如何？</strong></h2>
+<p>古茗已经是新茶饮第三股，但鉴于奈雪的茶和百道的表现，很多投资者感叹，“当年奈雪的茶有多热，现在整个新茶饮行业就有多冷”。 </p>
+<p>2021年，奈雪的茶在市场情绪高涨时上市，彼时奈雪的茶还是高端新茶饮（用料高端、门店高端、价格也高端）的代表，IPO时获得了432倍的超额认购，结果上市首日开盘即破发，较发行价下滑13.54%。 </p>
+<p>这一仗之后，<strong>港股对于新茶饮品牌的热情逐渐冷却，此后三年都几乎无人敢交表。</strong> 直到2024年，蜜雪冰城、茶百道、古茗和沪上阿姨等，才重启上市之路。 </p>
+<p>与奈雪的茶亏损上市不同，茶百道在2024年IPO之际，已经连续三年（2020年-2022年）净利润维持在10亿元上下。但是因为募资金额太大，加上“第一股”的业绩和股票表现影响仍在，茶百道公开发售只获得了0.5倍认购，不足额，同样上市首日即破发，盘中股价一度跌超37%。 </p>
+<p>长期关注新茶饮行业的投资人杰森解释，除了第一股、第二股的战绩不佳以外，新茶饮企业的加盟模式有合规难度和品控难度（食品安全问题），市场的激烈竞争也带来了价格战等问题，这些都会影响资本市场对新茶饮行业的态度。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_409abacade134836a2dc98a4cc07da04@000000_oswg67090oswg1080oswg575_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源 / 古茗官网 </p>
+<p>古茗会继续受到低迷情绪的影响，还是能让茶饮市场重新燃起希望？ </p>
+<p>先前从古茗招股的结果来看，情况已经出现了一些变化。 </p>
+<p>和市场预期不同，<strong>古茗最终选择顶部定价。</strong>古茗最终的IPO发行价定于招股区间的上限9.94港元，同时发行量在1.59亿股的基础上增加2379万股，最终通过此次发行筹资约18.2亿港元。但这一发行价依旧低于茶百道的17.5港元。 </p>
+<p>顶部定价表明市场对公司前景认可度较高，公开认购部分反应相对热烈，古茗因此调整了配售比例，<strong>加大了散户比例。</strong>IPO股份中，原本90%留给机构投资者，但该比例已降至56.5%，散户投资者则从10%增至43.5%。 </p>
+<p>不过，消费行业投资人陈林表示，<strong>顶部定价需承担市场情绪逆转之后的破发风险，也更加依赖后续表现来维持市场信心。</strong></p>
+<p>或许是为了给投资人和资本市场更多信心，相较于茶百道的“无基石裸奔”，古茗引入5名基石投资者，包括腾讯、美团龙珠、正心谷资本（投资案例包括网易云音乐、B站及泡泡玛特）、Duckling Fund和元生资本，认购总额约7100万美元（约5.53亿港元）。 </p>
+<p>同时，<strong>古茗的IPO估值虽略低于茶百道，却相对合理。</strong>当时，茶百道IPO发行价为17.5港元/股，总股本为14.78亿股，估值达到259亿港元，是2023年净利润的22.5倍PE。而古茗此次发行价为9.94港元/股，总股本约23.55亿股，估值约234亿港元，是2024年前三季度净利润的20倍PE，如果按照全年数据对比，估值将更合理。 </p>
+<p>另外，古茗在招股书中承诺给老股东17.4亿分红（2年内付完），同时承诺上市后向新老股东分派不少于20亿元的特别股息，降低抛售压力，缓冲破发风险。“这个相当于给市场一颗定心丸”，有投资者向「定焦One」解释。 </p>
+<p>仅从首日表现来看，古茗没有让人失望，其发行价为9.94港元/股，截至午市休盘，股价为9.98港元/股，市值约233亿港元。 </p>
+<p>陈林观察到，今年港股本身比较活跃，古茗的IPO发行结果和上市表现，对后续蜜雪冰城及沪上阿姨的赴港上市，将产生积极拉动效应。 </p>
+<h2><strong>老二老三的成绩和烦恼</strong></h2>
+<p>目前新茶饮行业的前三股，奈雪的茶基本都是直营且价格带较高，同处10元-20元价格带、都是加盟为主的茶百道，将与后上市的古茗形成直接竞争，两者也难免常被放在一起比较。 </p>
+<p>茶百道与古茗都是典型的加盟模式，拆分收入情况，会发现它们的大头收入是向加盟商卖耗材和原材料，<strong>做中间商赚个差价</strong>，另外提供培训和管理等软性服务补充收入。 </p>
+<p>加盟模式能够快速起量，<strong>让茶百道和古茗在规模上迅速跻身业内前三。</strong>根据窄门餐眼的数据，截至发稿，中国现制茶饮门店数量的TOP3分别是蜜雪冰城、古茗和茶百道，对应门店数量分别为3.33万家、9735家和8301家。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_591fb957952b450b8c035ad247d3d9d4@000000_oswg42522oswg672oswg336_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源 / 窄门餐眼</p>
+<p>近万家加盟商，撑起了茶百道和古茗的主要营收和利润，<strong>不过随着奶茶行业的激烈竞争和价格战的打响，茶百道的业绩在2024年出现了下滑趋势。</strong></p>
+<p>茶百道上市的招股书非常漂亮，2021年至2023年，收入从36.44亿元涨到57.04亿元，同时三年合计净利润约29亿元。但是上市后的首份财报显示，茶百道2024年上半年营收同比下降9.96%，净利润同比减少59.9%，“业绩变脸”加重了投资者对其增长可持续性的担忧。 </p>
+<p>杰森解释，茶百道的利润下滑，受到外卖订单平台扣点的影响，以及鲜果、鲜奶配送损耗的影响。“尤其对加盟商来说，鲜果占总成本的三成左右，鲜果的损耗直接影响加盟商的盈利情况，同时增加门店人员的处理成本。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_ea03caef5d7345bebbace8671f2620d5@000000_oswg141254oswg1080oswg537_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">2021-2023年，茶百道外卖订单GMV和销量占到6成左右</p>
+<p>古茗的表现相对较稳，保持两位数的增速。2021年至2023年，古茗的营收从43.84亿元涨到76.76亿元，净利润从0.24亿元增长至10.96亿元；2024年前三季度，古茗收入为64.42亿元，同比增长15.6%，净利润为11.20亿元，同比增长11.78%。 </p>
+<p>古茗的门店更多，收入自然更高，<strong>同时由于其地域加密策略</strong>，在下沉市场搭建起冷链物流和仓储优势，在短保质期的水果和鲜奶的仓储和配送上，做到成本比同行低。 </p>
+<p>招股书显示，截至2024年9月30日，古茗能向约97%的门店提供两日一配的冷链配送服务，而其他现制茶饮店品牌通常四日一配，且不提供冷链配送。同时，业绩期内古茗“仓到店”的平均配送成本占GMV的比例不足1%，远低于行业2%的平均水平。 </p>
+<p>不过，依赖加盟商的茶百道和古茗，<strong>最大的共同焦虑在于如何吸引更多的加盟商进来，同时依靠加盟商持续赚钱。</strong></p>
+<p>很明显，从加盟商最为关注的单店指标来看，古茗的老店经营数据下滑，新入局者也难赚钱，好的点位越来越少，加盟商的流失率变高。 </p>
+<p>招股书中的经营数据显示，2024年前三季度，现有加盟店（包含老店）的单店日均GMV下滑4.4%；同期新开加盟店的单店日均GMV降幅为10.3%。2021年、2022年、2023年及2024年前三季度，古茗的加盟商流失率分别为6.2%、6.7%、8.3%及11.7%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_98feeccd49314597b2299d59de4b0509@000000_oswg215442oswg1080oswg689_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">古茗加盟店的经营数据</p>
+<p>茶百道也面临一样的情况，2021年、2022年、2023年及2024年前上半年，茶百道的加盟商流失率分别为0.17%、1.14%、10.69%及8.19%。同时，茶百道的单店日均GMV也呈现下滑趋势，从2021年的7414元下降到2023年的6887元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_71a210b55d0340beb949bbb89ea34005@000000_oswg270424oswg1080oswg662_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">茶百道加盟店的经营数据</p>
+<p>此外，它们还面临区域加密之后的存量竞争问题、新市场的开拓问题，以及产品上新节奏和SKU丰富度的问题。 </p>
+<p>两家的的扩张逻辑其实不同，茶百道属于先“铺面”后“加密”，虽然门店数量不如古茗多，但是覆盖省份和城市比古茗多，需要补足的是仓配能力。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_01db78f5d4ac4333beb2cbbed0bd3da9@000000_oswg42947oswg640oswg322_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">茶百道擅长“铺面”  图源 / 窄门餐眼</p>
+<p>而古茗属于先打“关键规模”再往北方扩张，在浙江、福建和广东三大省份有绝对优势，但是古茗地域加密策略的负面效果之一就是老店的同店GMV（已经开业一定时间以上的门店的GMV）下滑。为了不让新老加盟商互相蚕食，古茗需要向北扩张，<strong>而北方才是奶茶的试金石市场，在对手占据优势点位的情况下，突围有一定难度。</strong></p>
+<p>在品类上，两者的打法也不一样，茶百道重爆款，2023年，茶百道杨枝甘露销量约9240万杯，单品卖出近18亿元；同年售出约6870万杯招牌芋圆奶茶及1.11亿杯茉莉奶绿；古茗注重快速上新，2023年古茗上新了130款新品，相当于每2.8天就有一款新品。 </p>
+<p><strong>“低客单产品需要高复购来保证收入</strong> ，爆款和上新都是拉动复购的手段，但也都有局限性。”杰森解释，爆品有流量、让人时不时想起，但需要面对生命力周期下滑后流量断崖式下跌的危机；快速上新能盘活用户，但考验供应链的匹配度和团队的研发能力。 </p>
+<p>根据财报，古茗2023年平均季度复购率达53%，茶百道2023年Q4的会员复购率达35%，均高于行业平均水平。 </p>
+<h2><strong>2025年，奶茶行业四大趋势</strong></h2>
+<p>古茗上市之后，蜜雪冰城传出了2月底之前开启招股的消息，计划募资约5亿美元；目前仍在排队的还有沪上阿姨，霸王茶姬和茶颜悦色也传出了赴美上市的消息。 </p>
+<p>其实上市并不是这些新茶饮企业发展的必经之路，有些新茶饮品牌的体量和运营逻辑其实没有上市的必要性，陈林分析，但是出于品牌背后的投资人的退出需求、打响品牌的需求、多一个融资渠道的需求，纷纷开启上市，“就是拿钱继续卷”。另外，不管是<strong>价格战还是万店扩张，都需要加盟商的助力</strong>，企业们抢着上市，也是为了给加盟商信心。 </p>
+<p>中国的新茶饮行业太卷，这一点从古茗的招股书就能看出。 </p>
+<p>它将中国的现制茶饮店的市场格局按GMV进行了排序，根据推算，2023年的前五名分别是蜜雪冰城、古茗、茶百道、霸王茶姬与沪上阿姨。 </p>
+<p>但是很多人只关注到了排名，没关注到前五名的市场份额一共只占了46.8%，<strong>还剩一半的市场份额留给新老玩家们继续卷。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_43a3cdebf1584db2ae61babbeee2fa8a@000000_oswg43317oswg1080oswg553_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>10元-20元的价格更带是红海市场，门店数量前十的品牌几乎都在这个价格带，包含茶百道、古茗、一点点和霸王茶姬等。激烈竞争之下，2025年的新茶饮行业，会有哪些变化？ </p>
+<p>其中一大趋势是，<strong>继续抢加盟商，但是暂停粗放加盟，转向高质量开店。</strong></p>
+<p>以前新茶饮都想拼万店，是因为茶饮行业的消费者品牌忠诚度较低，尤其在10元-20元价格带，因此规模某种程度上约等于品牌影响力。但是现在新茶饮行业的逻辑变了，规模不再是唯一的胜出点，有的拼供应链、有的拼营销、有的拼新品类，行业玩家各有奇招。 </p>
+<p>这个时候过度追求万店目标，反而出现“门店过剩”的现象，加盟商越多越赚钱的故事不再成立。有加盟商表示，“当开店保护距离从1千米变成50米，对加盟商和品牌来说是双输”。 </p>
+<p>与其堆数量不如求质量，一批品牌已经对此作出反应：2月10日，喜茶发布内部全员邮件，拒绝无意义的门店规模内卷，暂停接受事业合伙申请，其2022年11月推出事业合伙业务暂告一段落。去年8月，奈雪的茶董事长也在业绩会上表示，“公司会非常理性谨慎的，缓慢地开展加盟店和直营店。” </p>
+<p>为了稳住现有加盟商的运营数据，古茗也开始控制新加盟店的增长速度，今年前三季度平均每月净增86.33家，远低于去年的月均194.33家。 </p>
+<p>其二，<strong>价格战将告一段落，再打下去，大家的利润都打没了。</strong></p>
+<p>2025年开年，停打价格战的咖啡茶饮品牌越来越多，蜜雪冰城部分饮品、甜品价格上涨1元，瑞幸部分产品价格涨价3元；喜茶和星巴克，纷纷喊出“放弃价格战”的口号。 </p>
+<p>其三，<strong>新茶饮市场是典型的“一类味型一个神”</strong>，珍珠奶茶时代有一点点和CoCo，鲜果茶时代先有喜茶、奈雪的茶，后有茶百道和古茗，原叶鲜奶茶又出了茶颜悦色和霸王茶姬，柠檬茶有柠季和林里。 </p>
+<p>到2025年，有从业者告诉「定焦One」，新茶饮行业或许会有更加功能化的产品，比如清热、助眠（低咖啡因）等，当产品研发方向变化，供应链端也会随之变化。“每当新的味型和品类出现，都会诞生新的行业霸主”。 </p>
+<p>同时，<strong>咖啡和新茶饮行业在2025年也终有一战。</strong></p>
+<p>在过去的2024年，无论是茶饮品牌做咖啡，比如古茗咖啡饮品SKU占到了12%；还是咖啡品牌做茶饮，比如瑞幸上新了轻乳茶系列并且不断增加SKU，更多的目的还是在原有供应链支撑的基础上，拉动用户复购，填充门店运营效率。 </p>
+<p>但杰森指出，2025年发力下沉市场的瑞幸，在12元左右的价格带将面临奶茶品牌们的围攻，同时霸王茶姬等新茶饮品牌的高含量茶多酚和咖啡因一样自带成瘾性，也有进一步替代咖啡，抢夺打工人群体的空间。 </p>
+<p>2025年，咖啡和新茶饮行业的混战将会进一步白热化，留给玩家们上市的时间不多了。 </p>
+<p>*题图来源于古茗茶饮官方微博。应受访者要求，文中杰森、陈林为化名。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkzODUxNTM2OA==&amp;mid=2247521345&amp;idx=1&amp;sn=7bebf27c8dbdb33453c2dc09eb14e25e&amp;chksm=c349e042bf26df5362eca3a5d40ea96df89f20e0b791a63c1d94226fee28b3bbc881bb520e52&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“定焦”（ID：dingjiaoone）</a>，作者：苏琦，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163125554080256</guid><pubDate>Wed, 12 Feb 2025 16:30:00 +0800</pubDate></item><item><title>DeepSeek上车，高端智驾进入10万元车型？</title><link>https://36kr.com/p/3163291590617865</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_fd473d76bba1412cbfbdb8db51e765ac@000000_oswg38942oswg553oswg800_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2025年被视为智能化汽车的爆发拐点，而AI正作为未来汽车市场竞争的核心变量。DeepSeek以低算力、低成本的创新性大模型切入车圈，在成本优化和智驾座舱落地上展现颠覆潜力。与车企的合作加速智能化普及，DeepSeek或重塑车企在AI时代的竞争格局。</p>
+<p>汽车在变得更聪明，不用再生硬地反复呼唤车机的名字，彼此对话越来越像真人，像有个智能助理。不仅如此，自动驾驶也越发顺滑、可靠，更重要的是这些体验不再专属于高端豪华汽车，而逐渐下探到普惠车型。 </p>
+<p>如上这些场景，距今并不遥远，越来越多的汽车产业界人士寄希望于AI技术。2025年春节，DeepSeek这股风吹到汽车行业，让上述畅想离现实更近一步。 </p>
+<p>2月10日，比亚迪董事长王传福就公开表示，全系新车全系搭载智驾，接入DeepSeek，高阶智驾开始覆盖10万元以下车型。 </p>
+<p>越来越多的车企宣布接入DeepSeek大模型。从2月8日至2月10日的短短三天内，吉利、岚图、东风、智己、长安，这样的名单正越来越长，近20家车企已在智舱端或AI运营领域深度融合DeepSeek。 </p>
+<p>在当前汽车行业中，头部车企在智能化领域的竞争已趋同化，难以凸显差异或维持领先优势。面对这一现状，整个行业都在热切期盼更高级别的智能化技术涌现，为汽车行业带来更为显著和可观的变革。在这样的背景下，像DeepSeek这样的AI技术逐渐成为车企眼中的“宠儿”。 </p>
+<p>长期以来，车企在智能化布局中面临高昂成本，主要源于对高算力芯片及算法资源的依赖。而以DeepSeek为代表的低算力方案，通过优化算法结构，大幅降低了成本，为汽车智能化的普及提供了突破口。 </p>
+<h2><strong>突破交互瓶颈：汽车终于能听懂“人话”</strong></h2>
+<p>汽车里的按键越来越少了，按照车厂的美好畅想，汽车能听懂乘员指令，不但能够调温度、座椅角度、设定路线，还能辅助决策、理顺日程，成为一个聪明的车载助理。 现实并没那么美好，现有车机系统需要逐一呼叫车辆小名，回答内容简单机械，既不方便也不智能，甚至不如挂在支架上的手机。 </p>
+<p>为了打破如上瓶颈，车企将宝押在DeepSeek等新技术上，希望借此更好地理解乘员提出的模糊指令，进而优化车辆控制、人车交流、售后等各种体验。不只是优化既有功能体验，车企更有意借助DeepSeek完善自己的人工智能系统，以便展开联合训练。 </p>
+<p>更懂乘员，能够听懂并说人话的智能座舱，这恰恰是DeepSeek“上车”的抓手。目前，DeepSeek尚处于开发阶段，作为纯语言模型，其主要作用体现在智能座舱的语言训练中。 </p>
+<p>开源证券研报认为，座舱是智能业务助理的载体，车企纷纷探索有关应用落地。R1模型有望带来更优的座舱交互体验，座舱智能业务助理将实现前所未有的功能提升，并有望孕育全新应用场景。同时其对算力的节约也让模型更容易在座舱端本地化部署，实现更优的体验。 </p>
+<p>结合最近各大车企公布的DeepSeek大模型融合情况，可以看到对于智能座舱的颠覆具体表现为以下几点：对话更丝滑，更像人与人交流，而不再机械和呆板，突破以往一问一答模式；同时，更懂车和乘员，能够基于地理位置、气象信息、用户过往习惯等，更聪明地控制车辆、建议售后维保等。 </p>
+<h2><strong>小摆脱“算力霸权”：低算力能否撼动英伟达芯片地位？</strong></h2>
+<p>DeepSeek所采用的“蒸馏法”，允许在非安全领域内减少对高算力芯片的依赖，用国产工规或消费级芯片实现替代，进一步降低整体成本。 </p>
+<p>数据蒸馏是一种业内常见的技术做法，是指通过一系列算法和策略，将原始的、复杂的数据进行去噪、降维、提炼等操作，从而得到更为精炼、有用的数据。数据蒸馏的目的是将复杂模型的知识提炼到简单模型。 </p>
+<p>试举一例，以前的大模型训练相当于使用题海战术，在大量的数据中训练。而蒸馏就相当于让在题海战术里磨炼过的优秀大模型充当新模型的老师，筛选出有效题目，再让新的大模型训练。 </p>
+<p>与传统AI训练方法不同，DeepSeek降低成本的关键在于采用了全新的强化学习（RL）方式进行训练，而非依赖于监督微调（SFT）或人工标注数据。这一模式不仅优化了训练效率，更降低了对高端AI芯片的依赖，颠覆了算力市场一贯的发展逻辑。 </p>
+<p>高性能、低成本是DeepSeek模型开发的准则。其推理模型R1通过采用了一种名为“动态蒸馏”的技术，在已有的通用大模型V3基础之上浓缩为精华版的小模型。由此一来，在没有超强算力的情况下也能实施部署。 </p>
+<p>也就是说，DeepSeek向行业证明了一件事：不用堆叠算力也可以搞好大模型，AI芯片霸权或就此终结。 </p>
+<p>回看2024年，国产智驾集体进入“端到端”时代，有头部智驾解决方案企业CEO表示，其应用深度的差异仿佛代表了技术领先性。当时，面对AI的高门槛和复杂性，国内的智驾玩家普遍以特斯拉为范式，囤算力、囤数据，不断训练、不断迭代。 </p>
+<p>在此之前，不少车企有意投入巨资、大量购买乃至囤积算力卡。理想智驾研发副总裁郎咸朋曾表示，伴随着智驾参数量的持续扩大，以及未来智驾向 L4 级的深入，理想每年单在算力集群上的花销就达到 10 亿美元左右（折合人民币72.8亿元）。 </p>
+<p>如今，把钱砸向算力不再是唯一的解题思路，许多AI转型计划因受限于算力、算法和成本而面临困境，DeepSeek的方案则为这些企业提供了本地化部署大模型的机会，自动驾驶领域同样如此。有分析认为，DeepSeek开源、低成本、低算力的模型，有可能成为新能源汽车和自动驾驶行业智能化跃迁的催化剂。 </p>
+<p>DeepSeek作为多模态大模型的代表，其核心价值在于通过端侧高效推理能力，推动智能驾驶系统从“感知驱动”向“认知驱动”升级。在黑芝麻智能首席市场营销官杨宇欣看来，有助于降低开发门槛：黑芝麻智能专为下一代AI模型设计的 A2000芯片，已支持当前主流大模型的部署，通过软硬件协同优化，帮助车企减少算法适配成本，加速功能迭代。 </p>
+<p>DeepSeek的算法为低成本训练提供了解题思路，不过短期内要用DeepSeek+国产芯片的方案去替代英伟达芯片难度不低。罗兰贝格全球合伙人时帅就向《财经》指出，目前全球80%以上的大模型是基于英伟达芯片训练的。 </p>
+<h2><strong>10万元智能车的钥匙：智能驾驶向主流车下沉</strong></h2>
+<p><strong>自动驾驶行业虽然尚未提出结合Deepseek的相关技术应用，不过低成本、低算力、高性能模式，与当下高阶智驾技术，逐渐向10万元级车型普及的方向相一致。</strong></p>
+<p>显而易见，这是Deepseek带来的积极意义。何小鹏认为，DeepSeek有两个技术细节和小鹏的判断吻合，一是蒸馏是有效保存模型能力的方法，二是巨大模型的蒸馏后效果强于小模型的强化学习。 </p>
+<p>开源证券2月5日研报指出，DeepSeek-R1模型的诸多优化方法有望为智驾行业所借鉴。目前自动驾驶玩家推动大语言模型甚至视觉语言动作模型（VLA）上车提升智驾算法的认知能力，DeepSeek-R1有望作为优秀的教师模型，将其性能蒸馏给车端模型，进一步提升车端模型的能力。 </p>
+<p>2024年，中国高阶智驾的渗透率突破了10%。按照中国电动汽车百人会的预测，这一数字将在2025年达到20%，提升近一倍。 </p>
+<p><strong>而低成本、高性能的开源模型，将加速自动驾驶的迭代周期。传统车企训练自动驾驶模型需3—6个月，相比之下，DeepSeek的MoE（混合专家）架构可将训练周期压缩至45天。</strong></p>
+<p>与DeepSeek的融合，有望受益于DeepSeek R1的算法优化和算力节约，全面提升自动驾驶系统的性能和用户体验，实现科技创新与市场价值的双赢。 </p>
+<p>可见， <strong>在AI技术的驱动下，当下自动驾驶技术已告别硬件堆叠、比拼算力的时代，一场锚定AI融合的高阶智驾、智能座舱“新竞赛”即将拉开帷幕。</strong></p>
+<h2><strong>DeepSeek不是万能药：大模型落地的挑战</strong></h2>
+<p>尽管DeepSeek具备颠覆性特点，但它也并非万能解药。 </p>
+<p>一位国内领先智能驾驶公司技术专家告诉《财经》，目前公司尝试在一些项目中使用DeepSeek-R1。相较于ChatGPT4o模型来说，DeepSeek目前不稳定，对高并发情况（通过设计保证系统能够同时并行处理很多请求）处理不如ChatGPT稳定。 </p>
+<p>纯语言模型专注于文本数据的处理和生成。而现实物理世界还有图像、视频和音频等多模态，多模态模型可以理解和处理除了文本以外的各种模态。因此，纯语言模型应用场景不如多模态模型广泛。 </p>
+<p>DeepSeek也曾推出过Janus Pro多模态模型，可以将文字生成图片，但应用范围在娱乐领域。上述人士表示，在自动驾驶这种严谨性高、安全系数高的场景中，目前的应用还颇为受限，但是其对自动驾驶研发具有借鉴意义。 </p>
+<p>不过，能看得出DeepSeek本身也在进化和迭代当中，为此智驾公司对其抱有不小的期待。在杨宇欣看来，DeepSeek有助于显著提升智驾技术中的场景理解能力，具体来说DeepSeek可融合视觉、语音、环境等多维度数据，实现更拟人化的驾驶决策，例如在复杂路口动态调整路径规划，或在突发状况中快速生成安全策略。 </p>
+<p>除却技术难题待解外，如何真正体现技术价值，而不是停留在纸面乃至营销上，这是对于汽车在内诸多应用级玩家的挑战。 </p>
+<p>当前车企对包括DeepSeek在内的诸多AI技术的理解和开发还处于初级阶段，技术深度和实际应用仍有很大提升空间。例如部分车企追求营销噱头，将AI功能生硬地堆砌到产品中，不仅未能提升用户体验，反而使消费者对产品的实用性产生怀疑。 </p>
+<p>当一个又一个大模型在各行各业落地应用，大模型落地似乎没有想象中的那么难，难的是，落地后真正体现出价值。 </p>
+<p>对于所有车企来说，要持续思考三个问题：<strong>对于车主而言，是否真正提升了用车体验？对于车企而言，是否真正提升了经营业绩？对于生态而言，是否真正获得了稳定利润？</strong></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njc4NTAzMg==&amp;mid=2247511827&amp;idx=1&amp;sn=226f1627c4e4d252232b1c942c04c2cd&amp;chksm=fc81ef1087b393f030ab7939e4df79c147f3d4ad8dd2d8cbc832e0b974027268e6d8a3d62dbc&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“vampirejo”（ID：carcaijing）</a>，作者：包校千 晏玉婷 陈亮 李皙寅，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163291590617865</guid><pubDate>Wed, 12 Feb 2025 16:31:00 +0800</pubDate></item><item><title>中国最“壕”大酒店，被平替捅了一刀</title><link>https://36kr.com/p/3163327070448137</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_b61afee23764415785b406b43fbeac93@000000_oswg65775oswg1076oswg628_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>如何救活一个濒死的影院？一部《哪吒2》就够了。 </p>
+<p>今年刚开年，《哪吒2》高开疯涨。有媒体报道一影院靠着春节7天直接赚到半年的钱。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_0e84a4bfe98f419ca883ba17f25c78be@000000_oswg151436oswg771oswg371_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>吃到这股“绝地反弹”红利的巨头不仅是影院。还有做哪吒周边的实体企业、股价大涨的光线、泡泡玛特等等。 </p>
+<p>但可惜的是，这份泼天的好运，目前还没有降临到另一个巨头—— <strong>星级大酒店</strong> 身上。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_f951e9340b6d440bb9c62f4348ee6921@000000_oswg642425oswg881oswg518_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在很多人的心里，星级酒店尤其是五星级几乎就是吸金王的存在。毕竟作为有钱人聚集地， 论逼格 ，五星酒店几乎是各行各业想要对标的对象；论赚钱能力， 五星大酒店以几千甚至上万的客单价更是数一数二的佼佼者。 </p>
+<p>然而谁也想不到，这两年，五星大酒店却不约而同地走下神坛。 </p>
+<p>去年6月，北京瑜舍酒店关门；去年年底，山东蓝海酒店被法院裁定破产重整，更早之 前，南京金奥费尔蒙酒 店、重庆解放碑威斯汀酒店等也是纷纷卖身。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_91ea2fd1660f4e56a076f20d4b704d39@000000_oswg173628oswg1055oswg665_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>曾经被视为印钞机的五星级酒店，为何沦落到挥泪大甩卖？ </p>
+<h2><strong>一年倒闭上百家，靠“卖剩菜”回血</strong></h2>
+<p>现在被当成拖油瓶的五星大酒店，几十年前可是“最香”的赚钱方式。 </p>
+<p>毕竟，五星大酒店从诞生开始就太懂人性了。 </p>
+<p>1983年广州白天鹅宾馆开业，作为中国第一家五星级酒店，与普通的酒店形成明显对比，一时之间无数人慕名而来。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_06cf4fc41e274e44a3ee44bca67c1f71@000000_oswg422776oswg863oswg355_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>开售就人流量爆满，也就此拉开五星大酒店潮流。此后霍金、贝克汉姆等大佬来中国，五星大酒店都是标配。 </p>
+<p>从第一个五星级酒店到变成大佬聚集地，大酒店用行动证明什么叫扎扎实实的含金量。 </p>
+<p>此后十几年来，五星级酒店算是一路开挂， 到了2019年，在中国经营的五星级酒店数量达到了巅峰，据统计共计822家。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_b1b897ce9b1142829cc6502b1358cca1@000000_oswg509883oswg745oswg490_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>自然也被更多的外国富豪巨头圈盯上。2000年前后，上海出现了一批包括波特曼丽思卡尔顿、浦东香格里拉、浦西四季等国际大牌五星级酒店。 </p>
+<p>外资的加入更是给五星大酒店添了一把火，入住的人越来越复杂：从大佬外宾，逐渐变成500强年会团建、互联网大厂发布会、名媛摆拍的神地。某一年甚至因为40位名媛共拼一套外滩观景房而一夜出圈。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_7cf1a2e675844ee2a689d69e486384aa@000000_oswg103410oswg807oswg224_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>调侃归调侃，体验的人越来越多，也自然发现了它独一份的爽点： </p>
+<p>跟一般酒店比起来，五星级酒店能有多壕？ </p>
+<p>吃饭米其林、浴缸全木制、所有家具都是全球顶级家居品牌还是基操。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_680168291a49485bb9660d299e465bc8@000000_oswg104284oswg1068oswg777_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>有的豪华酒店斥巨资建出全球最高的厅、整面墙的鱼缸，甚至光装修就花了6年，总之只有住客想不到，没有他们干不了。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_fd1c483a02264cb990811cb9916c7d74@000000_oswg65120oswg1080oswg641_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>逼格拉满了，价格自然也是水涨船高，根本不是普通人轻易够得着的。 </p>
+<p>住一晚上动辄六七千元，三亚最贵的皇家套房一晚更是高达18万，更形象点说就是连呼吸都要收费。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_0e0eeb87f5cc4eb383eca0b01ff8b80e@000000_oswg168203oswg1070oswg1007_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>哪怕投入高，但在彼时巨大的暴利以及地理优势下，大酒店还是被人当成香饽饽。就算 经营不下去，都不愁没人接盘。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_efd67d64d6354b9483ecd59973a5077c@000000_oswg495301oswg692oswg478_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而谁也想不到，大酒店们曾经多风光现在就有多憋屈。 </p>
+<p>据第三方机构迈点研究院 统计，2023年，拍卖价格在亿元以上的酒店数量共124起，上海虹口三至喜来登酒店、南京金奥费尔蒙酒店等纷纷开始挂牌卖身。 </p>
+<p>还没找到新金主的酒店，则是纷纷找起了其他的赚钱路子。 </p>
+<p>先是卖年卡。北京、上海、苏州等地的知名酒店都推出了6888元、8888元的早餐年卡。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_f1002cc6374f4186b19e7b660156f31d@000000_oswg79686oswg1063oswg729_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>再疯狂大降价，有的豪华酒店旺季三晚售价不到3000元。 </p>
+<p>此外连剩菜的算盘也没放过，推出剩菜盲盒也要“苍蝇腿”的肉来吃。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_20f17d8d27f043a182501cb0d15830e4@000000_oswg102294oswg1067oswg660_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>一个个拼命整活的大酒店，再也没了当年的傲气。 </p>
+<h2><strong>被平替洗牌，彻底躺进ICU</strong></h2>
+<p>实际上，早在甩卖之前，大酒店就被年轻人狠狠上了一课。 </p>
+<p>这些年，不少奢华酒店的大堂直接被年轻人玩成了“开光圣地”。他们不会去前台花几千块入住，却会买一杯咖啡一坐就是一天。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_a25c57ea74b440b3a77484a78d51b6e2@000000_oswg97091oswg1067oswg947_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>被当成自习室失去逼格只是开始，在网上一搜“五星大酒店”，紧接着就是关键词“避雷”等。 </p>
+<p>有人吐槽“所有的大酒店好像都一样”“下次不会再去了”。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_09a550e4b44c4b1796f2e87eb13fad9a@000000_oswg95752oswg904oswg852_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>看似是现在的年轻人活得更清醒，其实大酒店跌下神坛早有注定。 </p>
+<h3><strong>1.啥都想要，却被成本大山“压垮”</strong></h3>
+<p>早在 多年前，华住集团创始人季琦就曾一针见血：“酒店的设计不是根据市场实际情况，而是根据星级标准规定，不管客人需不需要，一股脑都整上”。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_752b0de8b49a44568e37f9fb47c7b9b4@000000_oswg106224oswg1075oswg644_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>高大上的大堂、门童行李员、气派地毯都得有，一方面造成很多星级酒店基本一个样，被人诟病“同质化”。 </p>
+<p>但另一方面更是致命伤。 </p>
+<p>随着人气消散，酒店的高成本这座大山也逐渐凸显，对于背后的资本来说压力与日俱增，连自己人都在诉苦。 </p>
+<p>有业内人士袒露，相比于每天硬件、人工的数万元投入，什么自助年卡、下午茶营收简直是九牛一毛。甚至很多配套设施都不挣钱，铺张投资就是白白浪费。 </p>
+<p>有财报数据显示，近十年来，某地产巨头的酒店板块仅在2014年盈利3000万港元，其余时间均在亏损，每年亏损3亿至5亿港元。 </p>
+<p>更多的大酒店还没赚钱就败在检查上。光是在2011年，全国取消星级饭店806家，其中五星14家、四星54家、三星286家。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_f7a61539c01b475691a13d64d0124eff@000000_oswg49504oswg1036oswg588_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>2.平替层出不穷，被小弟们打进ICU</strong></h3>
+<p>如果说暗访取消星级是重拳出击，那么各种平替小弟的围攻则更是防不胜防。 </p>
+<p>这些年，反向消费成为主流，人们对客单价高的产品祛魅，随之而来的就是各种“五星级酒店”的替代层出不穷，追求的就是“花小钱干大体验”。 </p>
+<p>在这个思路下，国宾馆、驻京办大酒店个个活成了年轻人的心头好。花费几百就能住进敦煌宾馆，又能享受当地特色又能打卡，还满足了很多人对五星级的想象。这些年在网上火成了流量密码。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_9b6d778543cb45d99b8173df0e41e009@000000_oswg272049oswg1062oswg1229_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_e34d17a9067c4052b27bb2fb77616e01@000000_oswg27981oswg1013oswg286_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>被戏称为“服务天花板”的亚朵，则是靠着卖枕头赚得盆满钵满。服务不输五星酒店，价格却只有一半。 </p>
+<p>大酒店们不会想到，连不是同行的对手都能来抢生意。号称“行走的五星酒店”的移动太空舱，条件设施堪比豪华民宿，还能随便搬家。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_29c60e20ec814b6c945135494cd5feb8@000000_oswg951983oswg1079oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>哪怕退一步，几乎与五星酒店同样价格的邮轮，在居住的基础上还多加了各种娱乐项目，都在抢夺大酒店的用户。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_a660c84a4fbb41bfacfe7e0cd3825f58@000000_oswg1325258oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这些小弟的出现，让很多人逐渐意识到，并非五星级酒店才有五星级体验。<strong>即使是星级大酒店，也无法再躺赚了。</strong></p>
+<p>还有一件事，更加击溃了五星酒店的心理防线。 </p>
+<p>2023年3月，合肥一希尔顿酒店建筑物以6.13亿元的价格起拍，最终因无人出价而流拍。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_f7648027854a4cb384df287500b9bb7c@000000_oswg183346oswg692oswg275_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>过去业内“好项目总有接盘者”的认知被彻底打破。 </p>
+<p>与此同时，是更多焦虑的星级大酒店纷纷贱卖给煤老板，贱卖也比没人要好。 </p>
+<h2><strong>星级大酒店的出路，不能纯靠天吃饭</strong></h2>
+<p>从众人捧到贱卖，五星酒店自己也很委屈。 </p>
+<p>知乎上曾有个扎心问题，“五星酒店为何跌下神坛？” </p>
+<p>甚至几年前还曾有丑闻曝光。有博主发布视频吐槽有的四五千一晚的五星酒店，卫生状况这么差，抹布擦完马桶擦杯子、浴巾马桶刷堆一起等。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_ae7e7c817a0d400b8141c5d2a1fd16d3@000000_oswg462550oswg805oswg580_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>卫生情况毕竟是个例， 大酒店之所以跌下神坛的根源，刀哥认为，跟不上时代需求的发展，自然也只能被淘汰。行业真正想翻盘， 显然不光是简单把最基础的卫生、服务意识做到五星该有的水平，关键还要来一场真正的刮骨疗毒。 </p>
+<p><strong>一方面，是星级大酒店关于“豪华”的定义，该重新改写了。</strong></p>
+<p>中国人不是拒绝豪华，而是拒绝不必要的浪费。 </p>
+<p>过去，很多大酒店的惯性思维是只要大堂 装修够有排场、客人有专属接送服务以及一些服务设施做到位就可以。 </p>
+<p>但豪华是体验而不是噱头，在这一点上，大酒店可以跟自己的平替小弟们学习。接地气、文化营销一向是不少国宾馆的亮点。 </p>
+<p>比如东湖宾馆直接躺在酒店就能观景，还向游客提供泛舟品茗等buff。 </p>
+<p>有的国宾馆甚至还贴心提供旅拍、导游服务，将当地特色文化变成自己的独家优势。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_b8ec9bcc495248429aa7446cf5d659dd@000000_oswg112895oswg916oswg1236_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>把钱砸在消费者在乎的刀刃上，而不是纯纯为了排场显阔气。</strong></p>
+<p>已经有大酒店玩家开始尝试，比如上海巴塞罗那国际度假酒店，春节期间开始承接老年人吃住旅聚一条龙业务，在服务细节上满足老年人的 痛点，甚至被人称为“老年人反向拯救大酒店”。 </p>
+<p>天津的利顺德大酒店，也在积极打好城市文旅牌。酒店拥有博物馆，展现出天津地方特色文化，还推出相关衣服拍照服务、文创用品等可以让游客边住边逛，被官方认定为“最具代表性的历史文化主题酒店” 。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_2623746fbadd4aa2973ea9a8483505d4@000000_oswg59751oswg915oswg680_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>另一方面，也是迎合年轻人风口，有的放矢的“改头换面”。</strong></p>
+<p>年轻人的消费爆发力依然不容小觑。北京瑜舍酒店背后的太古地产，就曾公告表示将改成商铺等创新零售地标。昔日大酒店的位置处在繁华商圈，在风格上变得更加现代年轻，也有翻盘的机会。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_dcb8292d49d4421181fe4522debe16b2@000000_oswg777079oswg814oswg492_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>过去被诟病“同质化”问题，很多酒店也争取走上更有特色的路。 </p>
+<p>比如有酒店就会与各种年轻人喜欢的IP如HelloKitty、迪士尼等联动，或者打造购物广场等配套设施，打造差异化体验也能拉回人们的心。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_bc95c33bdb2b4dc68fa88d5cfa58e14d@000000_oswg49195oswg1067oswg665_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>现实证明，没有一成不变的躺赚巨头，只有一直与时俱进的企业。 </p>
+<p>就像曾经的KTV、酒吧、台球厅等，跟随现代人的需求积极“整容”自救都获得了转机。还是那句话，“你本身没有错，跟不上时代，就是最大的错。” </p>
+<p><strong>一切等靠要，再大的巨头也会被毁掉。</strong></p>
+<p>图片来源于网络，侵权请联系删除</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzUzNDY0NzQwMQ==&amp;mid=2248103866&amp;idx=1&amp;sn=209dd11212c4c20300c0078556eb11ee&amp;chksm=fb0db4324e1b09fc360e49bfde2872be5c92a67cda9e41aa737fc689a90d4b824d5178403627&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“金错刀”（ID：ijincuodao）</a>，作者：江源，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163327070448137</guid><pubDate>Wed, 12 Feb 2025 16:34:00 +0800</pubDate></item><item><title>太火爆：投资金条卖断货，银行紧急调整</title><link>https://36kr.com/p/3163328836807177</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近日，黄金市场热度居高不下，黄金价格持续上涨。11日，伦敦现货黄金盘中一度突破2940美元/盎司，沪金主力合约一度突破690元/克，再创新高。中新经纬12日查询多家银行手机App发现，有银行投资金条出现断货，部分规格已售罄。</p>
+<p>与此同时，中国银行、招商银行等多家银行对积存金业务进行了调整，上调起购金额或下调利率。上海黄金交易所及多家银行也发布风险提示，提醒投资者理性投资，防范市场波动风险。</p>
+<h2><strong>有银行金条卖断货</strong></h2>
+<p>2月12日上午9时左右，工商银行手机App显示，工银金行家品牌的如意金条“无货”。根据产品页面，如意金条是中国工商银行发行的实物黄金产品，共有多个规格可供选择，满足投资者的投资、馈赠、收藏等需求。该金条成色为Au999.9，重量分为5克、10克、20克、50克、100克、200克、500克和1000克，价格约696元/克。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_c42d0d49748047c6963f18216b68196d@000000_oswg117126oswg910oswg1808_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲来源：工商银行手机App</p>
+<p>“近两天金价疯涨，客户买得确实比较多。补货的时间目前没有具体的通知，之前说12号，今天可能会补一批。您可以关注一下，但是因为全国各地买的人太多了，您得及时关注。”2月12日，中新经纬以客户身份咨询时，一位工商银行的客服人员表示。</p>
+<p>该客服人员进一步介绍，如意金条上面有工行的Logo，其他还有筑梦中华金条、十二生肖金条等都属于工艺金条，是工行定制的，价格会偏贵一些。</p>
+<p>中新经纬还以客户身份拨打了工行在北京的多家支行电话，工行西城区某支行工作人员表示，现在要黄金的人比较多，库存比较少，只能试着预约一下。另一支行的工作人员称，只剩下100克和200克的金条，其余都卖完了，<strong>“小克重的金条，比如10克、20克和50克的，都没了。”</strong></p>
+<p>民生银行手机App显示，该行普通投资金条有10克、50克、100克、200克、500克规格，其中10克金条售价为6988.6元，前三种规格均显示“售罄”。</p>
+<p>不过，仍有一些银行的投资金条有货。建设银行手机App显示，该行投资金条有50克和100克规格，价格为695.10元/克。建设银行北京某支行工作人员表示，在手机银行上只有50克和100克规格的投资金条，网点有小克重浇铸椭圆形的金条，价格和投资金条一样，可以当天购买，次日提货。</p>
+<p>农业银行手机App显示，该行传世之宝标准压制金条克重有10克、20克、50克、100克、200克、500克和1000克。截至发稿时，上述规格的金条均有库存，价格约703.77元/克，高于工商银行和建设银行。</p>
+<h2><strong>积存金业务迎调整</strong></h2>
+<p>除了实物黄金业务，银行还有积存金业务。积存金是指投资者在一定时间段内，按不定期的约定金额或克数购买黄金，并在银行进行存储和管理，投资者可以根据需要提取实物黄金或者兑换现金。</p>
+<p>近日，中国银行、中信银行、招商银行、兴业银行对积存金业务进行了调整。中国银行公告称，参考当前市场情况，自2月10日起调整积存金产品的购买条件。按金额购买积存金产品或创建积存定投计划时，最小购买金额由650元调整为700元，追加购买金额维持200元整数倍不变，已在执行中的定投计划不受影响；按克重购买积存金产品或创建积存定投计划时，最小购买克重维持为1克不变，追加克重维持为1克整数倍不变。</p>
+<p>中信银行公告指出，将于2月15日对个人积存金定/活期利率进行更新。活期、一个月期、三个月期、六个月期、一年期的年化利率分别由0.35%、0.48%、0.87%、1.18%和1.38%下调至0.15%、0.25%、0.40%、0.60%和1.00%。对于2025年2月14日（含）前已生效在途的一个月、三个月、六个月、一年期积存金定存业务利率到期前无影响，到期后如续存参照调整后利率执行。活期利率自2月15日起生效。</p>
+<p>招商银行公告显示，自2月12日起调整黄金账户业务相关的利率。黄金账户活期年化利率调整为0.01%，三个月期产品年化利率调整为0.1%，六个月期产品年化利率调整为0.1%，九个月期产品年化利率调整为0.2%，一年期产品年化利率调整为0.3%。在此之前，上述各个期限的利率分别为0.1%、0.3%、0.4%、0.5%和0.6%。</p>
+<p>招商银行客服介绍，黄金账户也叫积存金，是用于记录黄金份额相关交易的账户。对于本次调整利率的原因，招行客服人员介绍，<strong>黄金账户的利率调整是跟随市场化利率，由于黄金拆借市场低迷，拆解利率不断下行，银行根据市场利率情况进行了调整。该人士进一步表示，一方面近期金价快速上行，压抑了黄金首饰的消费需求，导致黄金库存增加，增加了现货黄金的仓储管理成本；另一方面人民币资金利率逐年下降，因此跟随市场利率对黄金账户相关利率进行了调整。</strong></p>
+<p>兴业银行也公告称，将于3月1日起，对添利金条及积存金普通定期产品进行调整。其中，添利金条E款产品届时将暂停销售，F款产品开放销售。添利金条F款1000克、5000克、10000克三年期到期收益分别为50克、250克、500克，较E款到期收益分别减少10克、50克和100克。积存金普通定期产品年化利率也将下调，调整后3月期、6月期、12月期、24月期的年化利率分别为0.4%、0.6%、0.8%、1%，分别下调0.1个百分点、0.15个百分点、0.20个百分点和0.50个百分点。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_704050b11be74b4bba4aa7c8e4eb978a@000000_oswg33013oswg1080oswg446_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲来源：兴业银行官网</p>
+<h2><strong>上金所、银行发布风险提示</strong></h2>
+<p>2月10日，上海黄金交易所（下称上金所）发布《关于做好近期市场风险控制工作的通知》，称<strong>近期影响市场运行的不确定性因素较多，贵金属价格持续大幅波动，市场风险加剧。请各会员单位做好风险应急预案，维护市场平稳运行，提示投资者做好风险防范工作，合理控制仓位，理性投资。</strong></p>
+<p>2月11日，上金所发布《关于调整部分合约保证金水平和涨跌停板的通知》，自2025年2月12日（星期三）收盘清算时起，Au（T+D）、mAu（T+D）、Au（T+N1）、Au（T+N2）、NYAuTN06、NYAuTN12等合约的保证金水平从10%调整为11%，下一交易日起涨跌幅度限制从9%调整为10%；CAu99.99合约保证金每手65000元调整至每手70000元。</p>
+<p>同日，农业银行也发布公告，对金市通（金交所代理）业务合约涨跌停板进行调整，自2025年2月12日（星期三）收盘清算时起，Au(T+D)、mAu(T+D)合约下一交易日起涨跌幅度限制从9%调整为10%。农行还提示投资者，近期贵金属价格持续大幅波动，市场风险上升，请投资者关注持仓风险，合理控制持仓规模。</p>
+<p>另外，中国银行、平安银行也发布了关于上金所代理业务合约的交易保证金比例、涨跌幅度限制调整通知，并进行相关风险提示。</p>
+<p>中信银行2月8日发布《关于近期黄金价格波动或加剧的风险提示》，称春节期间境外贵金属市场大幅波动，黄金价格大幅上涨。国际政治经济风险加剧，黄金出现价格大幅波动的可能性增加。建议投资者根据自身的风险承受能力和资金使用需求，做好风险预防，以资产配置角度合理配置黄金资产，理性购买积存金和实物金产品。</p>
+<p>展望后市，民生银行研究院温彬、李鑫团队2月11日发布的研究报告表示，第一，实际美债收益率延续下行态势，支撑金价上涨行情。第二，避险需求或将较长时间存在，也将对金价有所支撑。第三，舆论对“去美元化”的关注或会对金价上涨推波助澜。</p>
+<p>该团队预计，综合来看，2025年黄金价格仍将延续上涨行情，大概率突破3000美元/盎司关口，甚至不排除出现与去年相仿的涨幅。全年波动区间或在2600-3200美元/盎司之间。</p>
+<p>( 文中观点仅供参考，不构成投资建议，投资有风险，入市需谨慎。) </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247588930&amp;idx=1&amp;sn=30145346381c044855947132cf8c406f&amp;chksm=e81f11f35260f241b085abfabedd998978acbe4afef331782d1d7e07800bf4e6c2dab980923a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：魏薇，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163328836807177</guid><pubDate>Wed, 12 Feb 2025 16:35:00 +0800</pubDate></item><item><title>“抗流感神药”被抢断货：贵过黄金，一次见效？</title><link>https://36kr.com/p/3163129926543878</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_59ba412af5124909be12b32ea24ced1c@000000_oswg909805oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>今年春节期间，流感肆虐全球，女明星大S因感染流感离世的消息，更让人们对流感多了一份担忧。</p>
+<p>如何备好药物、有效预防流感再次成为大众关心的焦点，许多人开始积极囤备药物以备不时之需。</p>
+<p>此时，一款名为速福达（又称玛巴洛沙韦）的治流感神药开始热销。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_0b4b4a9bf4c04cf6bba5e3f499c1b0a8@000000_oswg197557oswg600oswg399_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>京东健康的数据显示，速福达在该平台的纯进口流感药热卖榜上稳居榜首，这一位置它已保持了200多天之久。</p>
+<p>笔者通过美团买药平台查询发现，不少药店的速福达库存已经十分紧张，产品页面频频出现“仅剩几件”的提示。</p>
+<p>线下市场同样火爆，多地出现了速福达一药难求的情况，一些地方的价格甚至被炒到了近400元，但仍供不应求。许多消费者表示，由于买不到药，他们不得不求助于代购。</p>
+<p>有网友在小红书上吐槽：“速福达的价格涨得比股票还快，简直比黄金还贵。”那么，速福达是如何跻身神药行列的？</p>
+<p><strong>令人惊讶的是，相比于国内的价格飙升、供不应求，速福达在国际市场上却冷淡表现，这又是为何呢？</strong></p>
+<h2><strong>吃一次就好？“抗流感神药”速福达是何来头？</strong></h2>
+<p>在春运的匆忙旅途中，苏成（化名）不幸感染了流感。在高铁上他就开始发高烧，到家后体温一直徘徊在39度左右，伴随着剧烈的头痛，仿佛脑袋随时要裂开，同时还有流鼻涕、嗓子痛和四肢酸痛的症状。</p>
+<p>回想起去年应对流感的经历，苏成本想再次依赖奥司他韦来缓解症状。但在浏览社交媒体时，他注意到一款名为速福达的药物被众多网友誉为“流感神药”，声称只需一次服用就能见效。</p>
+<p>出于好奇和迫切想要缓解症状的心情，苏成决定尝试速福达。令他惊喜的是，仅仅一天之后，他的高热和乏力症状就有了明显的缓解。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_ad61e09186b84298b2142de75e273cf0@000000_oswg66689oswg1024oswg697_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>与此同时，江源（化名）也遭遇了甲流的侵袭，连续三晚高烧不退，浑身酸痛，尤其是背部疼痛难忍。他选择了奥司他韦进行治疗，连续服用了五天才逐渐好转。</p>
+<p>在小红书、微博等社交媒体平台上，关于速福达的讨论热度居高不下，许多网友详细描述了自己的服药经历，纷纷称赞其神奇效果。</p>
+<h2><strong>速福达，何以成神？</strong></h2>
+<p>首先，速福达的最大亮点在于其独特的用药方式——<strong>全病程只需服药一次。</strong></p>
+<p>作为目前唯一获批治疗流感的单剂量口服药物，速福达的活性代谢产物在人体内的半衰期长达99.7小时，这意味着患者服用一次后，药物可以在四到五天内持续发挥药效。</p>
+<p>速福达之所以能做到这一点，是因为它是一种前体药物，口服后在体内迅速转化为活性代谢产物巴洛沙韦。这种活性代谢产物能够直接抑制流感病毒RNA的复制，从而打断病毒的生命周期。</p>
+<p>速福达全疗程只需服用1次，相比需要吃5天的奥司他韦，一天搞定。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_fdabaf4e1dbd466495739b6745dff119@000000_oswg98347oswg960oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此外，速福达的药效还同时覆盖了甲流和乙流，能够有效降低流感并发症的发生，一箭双雕预防流感。</p>
+<p>更重要的是，速福达能更快地降低病毒载量，缩短病毒脱落时间，从而在减少流感在家庭内传播、降低人群流感发病率方面展现出更大的优势。毕竟，谁也不想，过年期间将病毒传染给家人。</p>
+<h2><strong>新理财产品，贵过黄金？</strong></h2>
+<p><strong>“吃一次就见效”的速福达确实好用，但价格也是真贵。</strong></p>
+<p>这款由罗氏制药与日本盐野义制药联手打造的新型抗病毒药物，自2021年4月在中国获批上市以来，便因其独特的疗效而备受瞩目，同年被纳入新版医保目录。</p>
+<p>然而，新药研发从来都不是一件容易的事。行业内流传着“研发周期10年，耗资10亿美元，成功率不足10%”的定律，这足以说明原研药的研发成本之高、时间之长。</p>
+<p>因此，当一款新药上市时，其定价往往涵盖了高昂的研发成本，以及那些未能成功上市的失败药物的研发成本。速福达自然也不例外，它的价格相对较高，也就不难理解了。</p>
+<p>更何况，<strong>速福达目前还处于专利保护期内，国内并无仿制药与之竞争。</strong>这使得它在市场上拥有了一定的独占权，价格自然更难以轻易下调。</p>
+<p>与奥司他韦相比，速福达的价格确实高出了不少。在医药平台和线下药店，2片装的速福达价格通常在230元至298元之间，而奥司他韦的价格仅为速福达的1/4。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_e8ecf0b1e4234c34a2e8a0ec2e988afd@000000_oswg263563oswg776oswg1097_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>若以速福达的医保支付价222.36元/盒（20毫克*2片）来计算，其1克的价格竟然高达5559元，远高于黄金的价格。</p>
+<p>贵就算了，还供不应求。速福达在流感高发季仍可能出现供应紧张，部分渠道价格被炒作至400元/盒以上。虽然速福达与奥司他韦都是处方药，需医生开具处方才能购买。但因为实在火爆，很多人做起了代购生意，社交平台上也有不少软文安利购买速福达。</p>
+<p>但是，在网上直接宣传药品的行为可能涉嫌违反相关法律法规。</p>
+<p>根据《中华人民共和国广告法》的规定，处方药只能在指定的医学、药学专业刊物上发布广告。因此，那些打着“测评”“个人体验”旗号的软文广告很可能面临法律风险。</p>
+<p>而<strong>罗氏制药凭借速福达这款神药，更是大赚特赚。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_09b67b2a3e384bdf821c7a9a61e55fb3@000000_oswg73907oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>根据财报数据，2024年上半年，玛巴洛沙韦（速福达的通用名）在全球的销售额达到了6800万瑞士法郎（约合5.5亿元人民币）。</p>
+<p>其中，中国市场就贡献了5.1亿元人民币，占全球销售额的约93%。</p>
+<p>中国已经成为速福达的第一大市场，这与其在医保政策上的支持密不可分。虽然速福达价格依旧不低，但医保可报销，具体报销条件和比例因地区和药品剂型有所不同，不过会降低患者的自付费用。速福达干混悬剂（儿童专用）是2025年新增医保品种，2025年1月1日起正式执行医保价格，专为儿童设计的草莓味剂型，解决了儿童用药精准剂量问题，并覆盖全国多地药店及线上平台。</p>
+<p>那么，<strong>速福达的供不应求情况会有所改善吗？答案是肯定的。</strong></p>
+<p>2024年10月，罗氏制药宣布速福达片剂将在中国上海进行本地化生产。这意味着速福达的生产供应链将得到有效缩短，有助于缓解市场供应压力。</p>
+<p>同时，罗氏制药也表示高度重视2024-2025流感季速福达在中国市场的保供工作。目前，速福达的全球产能都在向中国市场倾斜。公司还提到，现阶段速福达在中国市场供应充足，已在全国约7000家医院实现准入，并与合作伙伴一起稳定向各大线下连锁药店供货。</p>
+<p>另外根据腾讯网南风窗报道，<strong>国产替代也来了，张文宏团队研发的ZX-7101A（与速福达同机制药物）已进入临床试验，未来可能降低对进口药的依赖。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_29d5f4e2394749b5915bda28bb728bf0@000000_oswg48266oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>神药并非万能，速成背后风险不小</strong></h2>
+<p><strong>理性的人都知道，世上没有所谓的神药，速福达也并非万能。</strong></p>
+<p>速福达之所以能做到仅服用一次，关键在于其较长的药物半衰期。相比之下，传统的流感治疗药物奥司他韦的半衰期仅为6—10小时，而速福达在中国受试者中的半衰期则长达99.7小时。</p>
+<p>然而，这种长半衰期也带来了隐忧。一旦服用过量，药物难以快速排出体外，若发生药物过敏，可能引发休克等风险。</p>
+<p>实际上，速福达上市后，已报告了包括速发过敏性休克在内的多种过敏反应，而一旦发生药物过敏，抗过敏治疗的过程可能长达20余天。</p>
+<p>除了过敏风险，速福达的耐药性也是一个不容忽视的问题。速福达药品说明书显示，在儿童患者中，甲型/H1N1和甲型/H3N2病毒感染后，发生与玛巴洛沙韦敏感性下降相关的给药后氨基酸突变的总发生率分别高达24%和65%。</p>
+<p><strong>美国版速福达的说明书明确指出，5岁以下儿童不应使用此药</strong>，因为该年龄段儿童的耐药率高达40%，5至12岁儿童的耐药率也达到了16%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_135b9c66458842c19aec6874d1921b65@000000_oswg1150768oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>除了耐药性和过敏反应，速福达的使用还受到年龄限制。在最新版《儿童流感诊疗及预防指南》中，速福达被限定为5岁以上儿童才能使用。相比之下，奥司他韦则被推荐为2岁以上年龄段可用的药物，每天需服用两次，持续5天。</p>
+<p>当然，速福达也有其特定的使用注意事项。例如，它应避免与牛奶或钙强化饮料同服，以免影响药效。同时，速福达也不应与含有多价阳离子泻药、抗酸药或含有铁、锌、硒、钙、镁的口服补充剂一起使用。对于有吃保健品习惯的患者来说，这一点需要格外注意。</p>
+<p>所以，<strong>流感患者也不一定要盯着速福达买，特别是对于孕妇与重症患者来说，奥司他韦是更安全的选择。</strong>因为奥司他韦已临床应用超过20年，积累了大量临床研究数据和用药经验，而速福达上市时间较晚，安全性数据与治疗重症患者方面的数据不足。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_ea1e9b34ca1540608c1e51951211a78c@000000_oswg64985oswg898oswg640_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此外，速福达在流感症状出现后的48小时内服用效果最佳，一旦超过这个时间窗，奥司他韦则成为更为推荐的选择。</p>
+<p>所以在国外，速福达并不像国内一样受欢迎。在日本，速福达2018年上市后次年达到销售高峰，约1亿美金，但随后便迅速下滑。</p>
+<p>在美国市场，2024年上半年速福达锐减至400万瑞士法郎（约合3200万元人民币）。在欧盟市场，速福达的年销售额更是始终未能达到100万瑞士法郎。</p>
+<p>其实，有很多人不知道的是，相对吃神药，注射疫苗仍然是预防流感的最佳策略。中国的流感疫苗接种率与欧美国家相比存在较大差距，数据显示，中国的接种率大约在3%，而欧美国家每年的接种率超过46%。</p>
+<p>流感疫苗虽不能保证100%预防流感，但它能在感染后显著减轻症状，降低重症和死亡风险。</p>
+<p>值得注意的是，特效药和疫苗不能同时进行，需要错开一定时间。根据《中国流感疫苗预防接种技术指南（2023-2024）》，如果接种者在过去17天内使用过速福达（玛巴洛沙韦），则应避免接种减毒活疫苗；而服用奥司他韦或扎那米韦的患者，在停药48小时后即可安全接种。</p>
+<p><strong>最后药物的价值在于科学验证，而非市场炒作，没有所谓的“万能药”。无论是速福达，还是奥司他韦，都是处方药，一定要谨遵医嘱，合理用药。</strong></p>
+<p>参考资料：</p>
+<p>1、《最高300元一盒！这种“流感神药”需求暴涨》南方日报</p>
+<p>2、《速福达：网红药的中国热与海外冷遇》子弹财经</p>
+<p>3、《这款药，被炒成理财产品》投资界</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjE5ODA4MA==&amp;mid=2651796133&amp;idx=2&amp;sn=ddfba647e9ee14bf3870bd13089b9870&amp;chksm=bc03a566a607f825a064a5e9ce48c0d04eac0793bcfd34d0de519b6551db40014f9b5123b3d4&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“首席商业评论”（ID：CHReview）</a>，作者：宁缺，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163129926543878</guid><pubDate>Wed, 12 Feb 2025 16:38:00 +0800</pubDate></item><item><title>华为“第五界”来了，余承东未必开心</title><link>https://36kr.com/p/3163338263707144</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,607" src="https://img.36krcdn.com/hsossms/20250212/v2_9fd20a7301934a4c892615296735ab30@5317423_oswg59924oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>曾经最激烈反对与华为合作的车企，还是“投华”了。</p>
+<p>最新消息，上汽将成为华为鸿蒙智行新的合作方，从注册商标来看，新品牌名为 “尚界”，成为继问界、智界、享界、尊界之后的“第五界”。</p>
+<p>这出乎市场的预料。尽管双方合作的消息很早就在流传，<strong>但没想到上汽竟然选择鸿蒙智行智选车模式——华为话语权最大的合作方式</strong>，外界一直以为，上汽会选择华为参与深度相对较浅的车BU引望所代表的供应商模式，要知道当初反对与华为合作的“灵魂论”一说，正是出自上汽前任董事长之口。</p>
+<p>这也打破了余承东的承诺。就在一年前，余承东在中国电动汽车百人会2024高层论坛上回应称，由于资源和人力有限，华为鸿蒙智行不会推出“第五界”。</p>
+<p>“第五界”的到来，也势必将对现有“四界”、合作车企、竞对友商产生强烈冲击。尚界首款车型基于上汽飞凡原有产品开发，产品定位年轻化市场，售价在17万-25万元之间，新车预计今年四季度上市，到时候大概率又将掀起一场“遥遥领先”的风暴。</p>
+<p>而更大的信号意义在于，至此，<strong>华为基本已经收服了车企里面的全部国家队</strong>，无论是央企还是地方国企，都已经投入华为的怀抱。</p>
+<h2><strong>上汽彻底“投华”</strong></h2>
+<p>三年多的时间，足以让中国最大的汽车巨头原地掉头。</p>
+<p>2021年6月30日，在上汽股东大会上，有股民提问上汽是否会考虑在自动驾驶方面与华为等第三方公司合作，时任上汽董事长陈虹表示不能接受与华为这样的第三方公司合作自动驾驶。因为他认为<strong>若采用华为的全套解决方案，华为就成了灵魂，而上汽就成了躯体，上汽要把灵魂掌握在自己手中。</strong></p>
+<p>一时间，“灵魂论”广为流传。当时唯一被认为把灵魂交给华为的车企，是重庆小康（后改名赛力斯），日子确实不太好过。</p>
+<p>半年后，赛力斯联合华为才推出全新品牌问界 ，并在同月推出首款车型问界 M5，从外观设计、产品定义、功能定型到后期营销都有华为团队深度参与，可以说是华为主导灵魂的第一界的第一款车，但彼时还处于发布和市场预热阶段，尚未产生大量交付数据。</p>
+<p>命运的齿轮自此开始转动，3年之后，上汽与赛力斯的境遇，可以说是冰火两重天。<strong>从市值来看，上汽集团艰难守住2000亿元，而赛力斯从150亿元猛涨逼近2000亿；从销量来看，上汽整体减少了上百万辆，而赛力斯整体销量逼近50万辆，其中与华为合作的问界贡献了绝大部分销量。</strong></p>
+<p>随着前任董事长退休，销量输给比亚迪失守18年的“车企一哥”宝座，以及新能源自主品牌迟迟不见起色，“灵魂论”的说法很久没有再出现，而上汽与华为的合作开始流传起来。</p>
+<p><strong>但与华为合作推出“第五界”，多少出乎市场的预料。</strong>此前传闻上汽与华为的合作中，为会深度参与整车定义、产品设计和渠道销售各环节，虽然无限接近鸿蒙智行模式，但名义上不是鸿蒙智行模式。</p>
+<p>之所以如此推测，至少有两方面的佐证：</p>
+<p>一是在更早之前，华为也与广汽再度牵手合作，对于外界猜测广汽要与华为合作推出“第五界”，双方均公开辟谣。尤其是余承东曾公开回应称，由于资源和人力有限，华为鸿蒙智行不会推出“第五界”。</p>
+<p>二是华为车BU独立为引望后，打造成为超级供应商模式，与鸿蒙智行模式并行，给前者公开站台的是华为副董事长、轮值董事长徐直军，比掌管鸿蒙智行的余承东位置更高，<strong>并且引望广邀车企入股也是为了解决“灵魂论”的争议</strong>，不光是长安阿维塔，就连不是同一阵营的赛力斯也耗资115亿元入股，被看作是接下来华为与外部车企合作的主流模式。</p>
+<p>甚至在刚刚过去的1月份，华为车BU还与上汽一直在针对合作进行谈判，上汽方面甚至为此多次派人前往深圳。彼时双方的谈判方向与华为、广汽之间的模式近似，但细节有所不同。</p>
+<p>如果最终证实上汽是选择了牵手余承东，投向鸿蒙智行智选车模式，只能说上汽已经彻底放弃了“灵魂论”，可能也是想通了一个道理，就像汽车业内广为流传的那个段子：<strong>投华不彻底，等于彻底不投华。</strong></p>
+<h2><strong>国家队会师华为</strong></h2>
+<p>美团创始人王兴曾对未来能存活下来的车企做出过 “3+3+3+3” 的预言，具体包括3家央企：一汽、东风、长安，3家地方国企：上汽、广汽、北汽，3家民企：比亚迪、吉利、长城，3家新势力：理想、蔚来、小鹏。</p>
+<p>如今回看，这个预言虽然并不完全符合现实情况，但其中掉队最严重的无疑是3家央企和3家地方国企。此前有数据显示，新能源汽车市场上，三家央企存在感很弱，一汽集团、东风集团、长安汽车的占有率分别仅为2.5%、5.5%和5.1%。</p>
+<p>如何从合资时代跟上新能源时代，车界央国企们共同的解决思路就是与华为合作。</p>
+<p><strong>央企与华为合作的步子更快一些。</strong>早在2023年10月24日，一汽解放就与华为在华为深圳坂田基地签署全面深化合作协议，涉及AI、智能驾驶及智能座舱等领域；2024年初，一汽解放在互动平台上透露，公司与华为合作的自动驾驶产品将应用于L4低速场景，目前产品开发正处于概念设计阶段，预计该产品将于2025年年底量产。</p>
+<p>2023年11月，长安汽车与华为签署了《投资合作备忘录》。根据备忘录，华为拟将智能汽车解决方案业务的核心技术和资源整合至一家新成立公司中，长安汽车及关联方将投资该公司，并与华为共同支持该公司的未来发展。这一新的合资公司即为如今的引望公司，而与华为合作的新能源自主品牌即是阿维塔。</p>
+<p>2024年3月，东风汽车集团有限公司党委常委、副总经理尤峥回答记者提问表示，正联合一汽集团积极推进参股华为车BU事宜，并表示不会放弃走智选车路线。如今与华为合作最深的车型是岚图梦想家，号称全球首款搭载华为乾崑智驾和鸿蒙座舱的MPV车型。</p>
+<p>至此，<strong>三大汽车央企会师华为，主要合作方式是选了华为引望代表的超级供应商模式。</strong></p>
+<p><strong>相比央企的步伐一致，地方汽车国企与华为的合作显得一波三折。</strong>而且最早合作的其实并不是以上三家车企，而是来自安徽的奇瑞，一开始走的就是鸿蒙智行的智选车模式，2023年推出问界之后的“第二界”品牌——智界，如今已先后发布智界S7和智界R7两款车型，其中智界R7成为“四界”中纯电车型的顶梁柱。</p>
+<p>随后北汽加入，同样是走鸿蒙智行智选车的路子，与华为合作推出“第三界”品牌——享界，被余承东称赞强过迈巴赫，“自己以前坐司机开的迈巴赫，根本没法睡觉；而在享界S9上，睡觉特别享受。”</p>
+<p>再之后，又是来自安徽的江淮汽车，与华为合作推出“第四界”品牌——尊界，首款车型尊界S800，售价超百万，号称中国人自己的劳斯莱斯。</p>
+<p>四界之后，原先摇摆不定的广汽急了。其实早在2021年，广汽埃安选择了AH8车型进行华为HI模式试点，但到了2023年3月，广汽又宣布该项目转为自主开发，终止与华为的合作；</p>
+<p>半年之后，广汽重新与华为签署了数字化战略合作备忘录，再一年之后2024年9月，广汽传祺全新概念车1 Concept正式发布，新车搭载华为鸿蒙座舱和乾崑智驾系统，预计将于2025年第一季度发布量产车型。</p>
+<p><strong>不得不再次感慨2021年真是众多车企命运的转折，有没有彻底“投华”，结果真的大不同，敢第一个献身的赛力斯成了眼下最大的赢家。</strong></p>
+<p>不过相比其余几个地方兄弟，广汽并没有追随鸿蒙智行智选车模式，但也不得不承认的是，广汽的日子更为艰难，销量创下近5年新低，与上汽堪称“难兄难弟”，而其他几家已经量产“华为车”，像智界、岚图梦想家的成绩都还不错。</p>
+<p><strong>汽车央企不选择鸿蒙智行的智选车模式或是入股引望，把主导权放在自己手中，很可能是由于国有属性更强烈一些，而地方国企显然在业绩增长、贡献税收和就业上的动机更为强烈，而选择智选车模式带来的收益显然更大，这可能也是上汽最终选择把灵魂交给华为的关键。</strong></p>
+<p>不管怎么说，随着上汽彻底“投华”，可以说汽车行业的国家队已经集体会师华为，国家队的未来表现如何，华为扮演着最为重要的角色。</p>
+<h2><strong>谁最害怕</strong></h2>
+<p>面对年底到来的尚界，最害怕的是谁。</p>
+<p>首先值得注意的是，上汽此次与华为合作的车型来自旗下子品牌非凡，这算是之前被上汽废掉的“太子”。</p>
+<p>当初发力新能源自主品牌，上汽有两个选择。一个是从上汽荣威独立出来的“非凡”，另一个是喊着金钥匙出生，背后站着阿里、张江高科等一众金主爸爸的“智己”。</p>
+<p>原本智己定位高端豪华，非凡做主流走量，结果在销量压力下，智己大降价，导致非凡销量崩盘。2024年1月，飞凡汽车被传“智驾团队或全员被裁”，并入上汽集团旗下的零束科技，随后地位继续降级，回归荣威“一体化运作”，最新的消息是上汽荣威飞凡官宣与DeepSeek达成深度技术融合。</p>
+<p>照理说，上汽既然已经彻底“投华”，必然是想要搏一把，为什么没有选择门面担当智己呢？</p>
+<p>可能是智己本身太不争气了。2024 年，智己累计销售 65505 台，和自己比是上涨了71%，但不足10万的销量放在如今行业的激烈竞争中根本不够看，而月均销量不到5500，距离业内共识的月销1万“生死线”，实在是差得太远。</p>
+<p>所以，<strong>如果非凡与华为合作成功了，恐怕第一个感到后怕的就是智己。</strong></p>
+<p>向外看，或许有人会说，这华为第五界会不会是用来阻击小米的？</p>
+<p>如果以小米SU7为参考，从车型和定价来看，原本还是智界担任了这个任务，结果当然是没有成功，这还是余承东一而再再而三亲自站台的情况下，才有如今的体面。</p>
+<p>今年小米将发布中大型SUV车型YU7，市场传言雷军曾表示小米YU7的起售价格在25万元左右，但也有多方信源透露，小米YU7标准版起售价或锁定 22.98万，顶配车型不超过30万。</p>
+<p>而且小米YU7预计年中发布，而尚界年底才发布，后来者还怎么阻击，更何况之前有车企在小米SU7发布前连发好几款车，也未能阻击成功。<strong>尚界对小米，目前来看胜率不可能乐观。</strong></p>
+<p>最后来看看尚界对原先华为四界的冲击，尚界定位年轻化市场，售价在17万-25万元之间，售价上限贴近的是智界和问界M5，考虑到问界M5并不是问界的主力销售车型，那么智界是最有可能被尚界拉下马的。</p>
+<p>从这个角度来看，<strong>上汽加入华为四界，可能未必是余承东主导的。</strong>因为余承东曾为智界S7的发布站过三次台，尤其是新智界S7发布后，余承东现身首批新车交付现场，猛夸此车“拥有极高的性价比”；对于智界R7同样不吝赞美，称智界R7对新Model Y依然保持领先优势。</p>
+<p>鸿蒙智行官方战报显示，智界R7上市100天大定累积已突破58000台，好不容易站稳了脚跟，余承东会再给智界找个对手，再给自己上难度吗？这么一想的话，<strong>或许余承东自己也没想到第五界来的如此之快，“四界”已经够多，再继续扩大朋友圈，确实很容易陷入同质化的陷阱。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,386" src="https://img.36krcdn.com/hsossms/20250212/v2_b088b61b32844ad4bcbf9b34598afc91@5317423_oswg51815oswg1080oswg386_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>早在此之前，根据财新报道，车BU独立为引望后，就意味着车BU与鸿蒙智行（上述“四界”）变成了真正意义上的供应商与客户的关系。随之而变的还有职位，徐直军有可能担任董事长，靳玉志会继续担任CEO。这意味着余承东会失去对车BU的控制权。</p>
+<p>同时也意味着华为汽车业务将以鸿蒙智行和引望两大主体进行运作。接近华为终端的人士透露，华为内部有意见认为，如果车BU拆分出去，随着其深度合作客户增多，鸿蒙智行产品可能会失去差异化优势。</p>
+<p>原以为引望会加速吸引车企，谁能想得到，鸿蒙智行也会被强行扩界，余承东打造的四界含金量注定在走下神坛。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/5n0L67aD5o6cmEi0npWoag" rel="noopener noreferrer nofollow" target="_blank">“金角财经”</a>，作者：角爷，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163338263707144</guid><pubDate>Wed, 12 Feb 2025 16:55:00 +0800</pubDate></item><item><title>31省份1月CPI出炉</title><link>https://36kr.com/p/3163328851929862</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>日前，国家统计局公布了31省份2025年1月居民消费价格指数(CPI)。中新经纬梳理发现，1月，27省份CPI同比上涨。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_12abe8a189664fe18dc5c3788517c4dd@000000_oswg44009oswg1080oswg619_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲ 图片来源： 国家统计局网站 </p>
+<h2><strong>27省份CPI同比上涨 宁夏“11连降”</strong></h2>
+<p>国家统计局数据显示，2025年1月，全国CPI环比上涨0.7%，同比上涨0.5%，同比连续12个月上涨。 </p>
+<p>中新经纬梳理发现，2025年1月31省份CPI同比上涨省份在连续五个月减少后大幅增加。其中27省份同比上涨，4省份同比下降，上月“涨平跌”省份分别为13个、8个和10个。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_26422f1ba70f46d0be3052e839ec7d66@000000_oswg195490oswg802oswg1285_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>具体来看，福建、上海、浙江、四川、陕西、天津、安徽、贵州等8省份涨幅超过全国水平；山西、湖北、湖南、广东、重庆涨幅与全国水平持平；江西、广西、云南、青海、新疆、北京、辽宁、江苏、河南、山东、海南、甘肃、黑龙江、西藏、河北、吉林、内蒙古、宁夏等18省份涨幅不及全国水平，其中宁夏连续第11个月同比下降。 </p>
+<p>另外，从增减幅来看，2025年1月，仅有西藏同比数据较2024年12月减少；上海、广东同比数据增幅最大为0.8个百分点。 </p>
+<p>财通宏观陈兴团队分析称，服务和食品价格涨幅合计占CPI环比的八到九成。服务方面，受春节影响，一方面，出行和文娱消费需求大幅增加，另一方面，务工人员返乡，服务业用工价格也有所上涨。食品方面，春节因素叠加气温下降，鲜菜、鲜果和水产品价格大幅上行。 </p>
+<h2><strong>未来CPI怎么走？</strong></h2>
+<p>展望下阶段物价走势，机构普遍预计2月CPI同比或下行，后期温和回升。 </p>
+<p>陈兴团队表示，从高频数据来看，随着春节结束，食品价格环比预期有所下降，同时原油价格也已经有所下行。考虑到还有春节错月的影响，预计2月CPI环比和同比均将下行。 </p>
+<p>中信证券首席经济学家明明等表示，核心CPI实现连续第4个月回升，预计核心CPI在2月可能短暂受到春节错位效应的扰动而面临阶段性下行压力，3月之后核心CPI有望迎来持续修复。 </p>
+<p>光大证券研究所所长高瑞东表示，伴随节后服务需求回落和春节错月效应的影响，预计2月CPI同比涨幅或将边际放缓，一季度呈现温和波动。随着后续政策在消费端加码，加大对居民部门转移支付力度，有望推动消费需求继续扩大，对核心CPI持续改善形成支撑。 </p>
+<p>北大国民经济研究中心报告称，受“稳增长、促消费”政策影响，叠加2024年低基数效应，或推动2025年CPI增速上行，但外部趋紧的国际环境依然没有改变，居民有效需求不足问题掣肘等，使得未来居民消费价格难以快速大幅上涨，2025年CPI增速或小幅上涨，但仍处于历史相对低位。 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247588930&amp;idx=2&amp;sn=997dca930831470e4ab5ed6b9dc61a17&amp;chksm=e894bc2cc342d8612d15339509a1d2a70c9145cfc845a63a20e7d60422fc53bd17751a89ab06&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：王永乐，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163328851929862</guid><pubDate>Wed, 12 Feb 2025 16:55:00 +0800</pubDate></item><item><title>清华一作1B暴打405B巨无霸，7B逆袭DeepSeek R1，测试时Scaling封神</title><link>https://36kr.com/p/3163272166648577</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>【导读】</strong>仅凭测试时Scaling，1B模型竟完胜405B！多机构联手巧妙应用计算最优TTS策略，不仅0.5B模型在数学任务上碾压GPT-4o，7B模型更是力压o1、DeepSeek R1这样的顶尖选手。</p>
+<p>今天，一篇多机构联合发表的论文，在AI圈引起轰动。</p>
+<p>凭借重新思考计算最优的测试时Scaling，1B模型竟然超越了405B？</p>
+<p class="image-wrapper"><img data-img-size-val="1080,503" src="https://img.36krcdn.com/hsossms/20250212/v2_e70ef2f6c41b4c85be2640191ba3c0da@46958_oswg197560oswg1080oswg503_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>随着OpenAI o1证明了测试时扩展（TTS）可以通过在推理时分配额外算力，大幅增强LLM的推理能力。 测试时计算，也成为了当前提升大模型性能的最新范式。 </p>
+<p>那么，问题来了：</p>
+<p>在不同的策略模型、过程奖励模型和问题难度级别下，如何最优地扩展测试时计算？</p>
+<p>扩展计算在多大程度上可以提高大语言模型在复杂任务上的表现，较小的语言模型能否通过这种方法实现对大型模型的超越？</p>
+<p>对此，来自清华、哈工大、北邮等机构的研究人员发现，使用计算最优TTS策略，极小的策略模型也可以超越更大的模型——</p>
+<p>在MATH-500和AIME24上，0.5B模型的表现优于GPT-4o；3B模型超越了405B模型；7B模型直接胜过o1和DeepSeek-R1，还具有更高的推理性能。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,221" src="https://img.36krcdn.com/hsossms/20250212/v2_07132ec4adec48b98c604835bfe30a28@46958_oswg37544oswg1080oswg221_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>论文地址：https://arxiv.org/abs/2502.06703</p>
+<p>这就表明，TTS是增强LLM推理能力的一种极有前途的方法。</p>
+<p>同时，这也体现了研究真正的「弱到强」方法，而非当前的「强到弱」监督，对策略优化的重要性。</p>
+<h2><strong>重新思考「计算最优」的测试时Scaling</strong></h2>
+<h3><strong>计算最优的扩展策略应当是奖励感知的</strong></h3>
+<p>计算最优的测试时Scaling，旨在为每个问题分配最优计算资源。</p>
+<p>根据此前的研究，一种方法是使用单一的PRM作为验证器在策略模型的响应上训练PRM并将其用作验证器，以对同一策略模型进行TTS；另一种方法则是使用在不同策略模型上训练的PRM来进行TTS。</p>
+<p>从强化学习（RL）的角度来看，前者获得的是在线PRM，后者则是离线PRM。</p>
+<p>在线PRM能为策略模型的响应产生更准确的奖励，而离线PRM由于分布外（OOD）问题往往会产生不准确的奖励。</p>
+<p>对于计算最优TTS的实际应用而言，为每个策略模型训练一个用于防止OOD问题的PRM在计算上是昂贵的。</p>
+<p>因此，研究人员在更一般的设置下研究计算最优的TTS策略，即PRM可能是在与用于TTS的策略模型不同的模型上训练的。</p>
+<p>对于基于搜索的方法，PRM指导每个响应步骤的选择，而对于基于采样的方法，PRM在生成后评估响应。</p>
+<p>这表明：（1）奖励影响所有方法的响应选择；（2）对于基于搜索的方法，奖励还会影响搜索过程。</p>
+<p>为分析这些要点，团队使用Llama-3.1-8BInstruct作为策略模型，RLHFlow-PRM-Mistral-8B和RLHFlow-PRM-Deepseek-8B作为PRM，进行了一项初步的案例研究。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1533" src="https://img.36krcdn.com/hsossms/20250212/v2_5060a4dda38f48cfb25c0714e8dbfb3c@46958_oswg973446oswg1080oswg1533_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">奖励会显著影响生成的过程和结果</p>
+<p>RLHFlow-PRM-Mistral-8B对短响应给予高奖励，却产生了错误的答案；而使用RLHFlow-Deepseek-PRM-8B进行搜索虽然产生正确答案，但使用了更多token。</p>
+<p>基于以上发现，研究人员提出奖励应该被整合到计算最优的TTS策略中。将奖励函数表示为ℛ，奖励感知计算最优TTS策略表述如下：</p>
+<p class="image-wrapper"><img data-img-size-val="1080,49" src="https://img.36krcdn.com/hsossms/20250212/v2_2e4cdbcf056c459a82fac3e83b22dbca@46958_oswg20001oswg1080oswg49_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>其中Target(𝜃, 𝑁, 𝑥, ℛ)表示在计算预算𝑁和提示词𝑥条件下，由奖励函数ℛ调整的策略模型𝜃输出分布。对于基于采样的扩展方法，Target(𝜃, 𝑁, 𝑥, ℛ) = Target(𝜃, 𝑁, 𝑥)。</p>
+<p>这种奖励感知策略确保计算最优扩展能够适应策略模型、提示词和奖励函数，从而为实际的TTS提供了一个更具普适性的框架。</p>
+<h3><strong>绝对问题难度标准比分位数更有效</strong></h3>
+<p>团队发现，使用来自MATH的难度等级或基于Pass@1准确率分位数的oracle标签并不有效，这是因为不同的策略模型存在不同的推理能力。</p>
+<p>如下图所示，Qwen2.5-72B-Instruct在76.2%的MATH-500问题上实现了超过80%的Pass@1准确率。</p>
+<p>因此，团队选择使用绝对阈值，而不是分位数来衡量问题难度。即基于Pass@1准确率，定义三个难度等级：简单（50%~100%）、中等（10%~50%）和困难（0%~10%）。</p>
+<p class="image-wrapper"><img data-img-size-val="669,521" src="https://img.36krcdn.com/hsossms/20250212/v2_725649c53ea5430eb49275a3d28573b8@46958_oswg28704oswg669oswg521_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>如何最优地Scaling测试时计算？</strong></h2>
+<h3><strong>Q1：如何通过不同的策略模型和PRM来提升TTS？</strong></h3>
+<p>对于Llama-3.1-8B-Instruct模型，研究团队使用Skywork和Qwen2.5-Math PRM的搜索方法在计算预算增加时性能显著提升，而使用Math-Shepherd和RLHFlow PRM的搜索方法则效果较差。</p>
+<p>对于Qwen2.5-7B-Instruct模型，使用Skywork-PRM-7B和Qwen2.5-Math PRM的搜索方法性能随计算预算增加而提升，而使用其他的PRM性能仍然较差。</p>
+<p>在AIME24数据集上，虽然两个策略模型的Pass@k准确率随着计算预算的增加而提高，但TTS的性能改进仍然有限。这表明PRM在不同策略模型和任务间的泛化能力是一个挑战，尤其是在更复杂的任务上。</p>
+<p>研究团队发现当使用Math-Shepherd和RLHFlow PRM时，Best-of-N (BoN) 方法通常优于其他策略。而当使用Skywork和Qwen2.5-Math PRM时，基于搜索的方法表现更好。</p>
+<p>这种差异可能源于PRM在处理OOD（超出分布）策略响应时效果不佳，因为PRM在不同策略模型间的泛化能力有限。使用OOD PRM进行每一步的选择时可能会导致答案陷入局部最优，从而降低性能。</p>
+<p>不过，PRM的基础模型也可能是一个影响因素，例如，使用Qwen2.5-Math-7B-Instruct训练的PRM比使用Mistral和Llama作为基础模型的PRM泛化能力更好。</p>
+<p>下图4和5说明了PRM的选择对于TTS的效果至关重要，并且最佳的TTS策略会随着使用的PRM的不同而改变，同时验证了PRM在不同策略模型和数据集之间的泛化能力也是一个挑战。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,820" src="https://img.36krcdn.com/hsossms/20250212/v2_51a69cf693904cae864e759d7b216d2d@46958_oswg387082oswg1080oswg820_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>研究团队发现，TTS的性能与PRM的过程监督能力之间存在正相关。具体来说，PRM的过程监督能力越强，其在TTS中通常能带来更好的性能。</p>
+<p>团队拟合了一个函数来描述这种关系，结果说明了 PRM 的过程监督能力对TTS性能的重要性。</p>
+<p>下图6表明，PRM的过程监督能力是决定其在TTS中性能的关键因素。这为开发更有效的PRM提供了方向：应该注重提高PRM的过程监督能力，而不仅仅是增加参数量。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,482" src="https://img.36krcdn.com/hsossms/20250212/v2_6785f2ca79024ee69315578791f87a2c@46958_oswg48381oswg1080oswg482_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为了得到最优的TTS方法，研究中使用了Qwen2.5系列的不同大小LLM（从0.5B到72B）进行实验。</p>
+<p>结果显示，对于小型策略模型，基于搜索的方法优于BoN3。而对于大型策略模型，BoN比基于搜索的方法更有效。</p>
+<p>这可能是因为大型模型具有更强的推理能力，不需要验证器逐步选择。而小型模型则依赖于验证器来选择每一步，以确保中间步骤的正确性。</p>
+<p>下图7表明最优的TTS方法依赖于策略模型的大小，在选择TTS方法时需要考虑模型的推理能力。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,263" src="https://img.36krcdn.com/hsossms/20250212/v2_6184bd5a043b44ab9e300702c5bddbe5@46958_oswg45508oswg1080oswg263_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>Q2：TTS在不同难度问题上的改进情况如何？</strong></h3>
+<p>如前所述，团队基于Pass@1准确率的绝对值将难度级别分为三组：简单（50%~100%）、中等（10%~50%）和困难（0%~10%）。</p>
+<p>最优的TTS方法随难度级别的不同而变化，结果如下图所示。</p>
+<ul>
+<li>对于小规模策略模型（参数少于7B），BoN在简单问题上表现更优，而束搜索在较难问题上效果更好。</li>
+<li>对于参数在7B到32B之间的策略模型，DVTS在简单和中等问题上表现出色，而束搜索更适合困难问题。</li>
+<li>对于具有72B参数的策略模型，BoN是适用于所有难度级别的最佳方法。</li>
+</ul>
+<p class="image-wrapper"><img data-img-size-val="1080,657" src="https://img.36krcdn.com/hsossms/20250212/v2_9be036aa29704c08adda82d773ad9938@46958_oswg188836oswg1080oswg657_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="538,1717" src="https://img.36krcdn.com/hsossms/20250212/v2_fb691db134c141b4a0e1a677bffa7bda@46958_oswg281618oswg538oswg1717_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>Q3：偏好奖励模型PRM是否对特定响应长度存在偏差或对投票方法敏感？</strong></h3>
+<h4><strong>PRM对步骤长度存在偏差</strong></h4>
+<p>研究团队发现，即使在实验中使用相同的计算预算进行TTS，使用不同PRM在推理中产生的token数量差异显著。</p>
+<p>例如，在相同预算和相同策略模型的情况下，使用RLHFlow-PRM-Deepseek-8B进行扩展的推理token数量始终比使用RLHFlow-PRM-Mistral-8B多近2倍。</p>
+<p>这种差异与 PRM 的训练数据有关。RLHFlow系列PRM的训练数据来自不同的大语言模型，这可能导致它对输出长度产生偏差。</p>
+<p>为了验证这一观点，研究团队分析了RLHFlow-PRM-Mistral-8B3和RLHFlow-PRM-Deepseek-8B4训练数据的几个特性。</p>
+<p>如表1所示，DeepSeek-PRM-Data的每个响应平均token数和每个步骤平均token数都大于Mistral-PRM-Data，这表明RLHFlow-PRM-Deepseek-8B的训练数据比RLHFlow-PRM-Mistral-8B的更长。这可能导致对输出长度的偏差。</p>
+<p>研究团队还发现，使用Qwen2.5-Math-7B进行扩展的推理token数量大于使用Skywork-PRM-7B的数量，但性能非常接近，这表明使用Skywork-PRM-7B进行搜索更有效率。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,169" src="https://img.36krcdn.com/hsossms/20250212/v2_a09456ed04d047a396626df7373782e8@46958_oswg56754oswg1080oswg169_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h4><strong>PRM对投票方法具有敏感性</strong></h4>
+<p>从表2的结果可以看出，Skywork-PRM-7B使用PRM-Vote比使用PRM-Max效果更好，而Qwen2.5-Math-PRM-7B对投票方法不太敏感。</p>
+<p>这主要是因为Qwen2.5-Math PRM的训练数据经过了LLM-as-a-judge（将大语言模型作为判断器）处理，该处理移除了训练数据中被标记为正样本的错误中间步骤，使得输出的高奖励值更可能是正确的。</p>
+<p>这表明PRM的训练数据对提升其在搜索过程中发现错误的能力具有重要意义。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,297" src="https://img.36krcdn.com/hsossms/20250212/v2_c1f9fadf2e6a452da383ffd3aed5b86e@46958_oswg94006oswg1080oswg297_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>「计算最优」的测试时Sclaing</strong></h2>
+<p>在计算最优TTS策略下，研究人员就另外三大问题，进行了实验评估。</p>
+<h3><strong>Q4：较小的策略模型，能否在计算最优TTS策略下优于较大的模型？</strong></h3>
+<p>对小型策略模型进行测试时计算的扩展，对提升LLM的推理性能至关重要。</p>
+<p>那么，较小的策略模型能否通过计算最优的TTS策略，超越更大的模型，如GPT-4o、o1、DeepSeek-R1？</p>
+<p>如下表3所示，研究人员得出了4点关键的洞察：</p>
+<p class="image-wrapper"><img data-img-size-val="1080,692" src="https://img.36krcdn.com/hsossms/20250212/v2_b9c9d77002ea45dba3e609a7182b9d98@46958_oswg80423oswg1080oswg692_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>1. 采用计算最优TTS策略后，在两大数学基准MATH-500和AIME24上，Llama-3.2-3B-Instruct性能碾压Llama-3.1-405B-Instruct。</p>
+<p>从这点可以看出，较小模型通过计算最优TTS策略，可超越大135倍的模型。</p>
+<p>与此前谷歌Charlie Snell团队等TTS相关研究相比，新方法将结果提升了487.0%（23倍→135倍）。</p>
+<p>2. 将计算预算增加到N=512，同样采用计算最优TTS的Llama-3.2-1B-Instruct，在MATH-500基准上击败了Llama-3.1-405B-Instruct。</p>
+<p>奇怪的是，在AIME24上，它的性能又不如Llama-3.1-405B-Instruct。</p>
+<p>3. 采用计算最优TTS，Qwen2.5-0.5B-Instruct、Llama-3.2-3B-Instruct均超越了GPT-4o。</p>
+<p>这表明，小模型可以通过计算最优TTS策略，也能一举超越GPT级别的大模型。</p>
+<p>4. 在同样策略和基准下，DeepSeek-R1-Distill-Qwen-1.5B竟能碾压o1-preview、o1-mini。</p>
+<p>同时，DeepSeek-R1-Distill-Qwen-7B还能击败o1和DeepSeek-R1。</p>
+<p>以上这些结果表明，经过推理增强的小模型可以，通过计算最优TTS策略超越前沿推理大模型。</p>
+<p>再来看下这些模型FLOPS比较，如下表4所示，小型策略模型即使在使用更少推理FLOPS的情况下，也能超越大型模型，并将总FLOPS减少了100-1000倍。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,273" src="https://img.36krcdn.com/hsossms/20250212/v2_eaf1c2fe121245fe91099e9321b881d9@46958_oswg40395oswg1080oswg273_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>Q5：计算最优TTS与CoT和多数投票相比有何改进？</strong></h3>
+<p>如下表5展示了，每个策略模型在MATH-500上的计算最优TTS结果。</p>
+<p>结果发现，计算最优TTS的效率可以比多数投票高256倍，并且相比CoT提升了154.6%的推理性能。</p>
+<p>这些结果表明，计算最优TTS显著增强了LLM的推理能力。</p>
+<p>然而，随着策略模型参数数量的增加，TTS的改进效果逐渐减小。这表明,TTS的有效性与策略模型的推理能力直接相关。</p>
+<p>具体来说，对于推理能力较弱的模型，Scaling测试时计算会带来显著改进；而对于推理能力较强的模型，提升效果则较为有限。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,400" src="https://img.36krcdn.com/hsossms/20250212/v2_b58aac81fde84fb9893735c662f63f25@46958_oswg63061oswg1080oswg400_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h3><strong>Q6：TTS是否比基于长CoT的方法更有效？</strong></h3>
+<p>如下表6所示，研究人员发现，在MATH-500和AIME24基准上，使用Qwen2.5-7B-Instruct的TTS都优于rStar-Math、Eurus-2、SimpleRL和Satori。</p>
+<p>然而，虽然TTS在MATH-500上的表现，接近DeepSeek-R1-Distill-Qwen-7B，但在AIME24上表现出明显下降。</p>
+<p>这些结果表明，TTS比直接在MCTS生成数据上，应用RL或SFT的方法更有效，但不如从强大的推理模型中进行蒸馏的方法有效。</p>
+<p>另外，TTS在较简单的任务上，比在更复杂的任务上更有效。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,527" src="https://img.36krcdn.com/hsossms/20250212/v2_f036e96c28a24438926930adbefae1f7@46958_oswg63632oswg1080oswg527_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>作者介绍</strong></h2>
+<p><strong>Runze Liu</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20250212/v2_3778abc6494c4c5a8052c04911964be3@46958_oswg693071oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>Runze Liu是清华大学深圳国际研究生院的二年级硕士生，导师是Xiu Li教授。他曾于2023年6月获得山东大学的荣誉学士学位。 </p>
+<p>目前，他也在上海AI Lab大模型中心担任研究实习生，由Biqing Qi博士指导。 </p>
+<p>Runze Liu的研究重点是大模型和强化学习（RL）。目前，他对提高大模型的推理和泛化能力特别感兴趣，同时也在探索将大模型整合以增强RL算法的潜力，特别是在人类/AI反馈强化学习（RLHF/RLAIF）情况下。 </p>
 <p>参考资料： </p>
-<p>http://https//arxiv.org/abs/2502.02492 </p>
-<p>https://hila-chefer.github.io/videojam-paper.github.io/ </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Pw8M1XvtUPtcpy7eEh6-Gg" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：编辑部 HNYZ ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163271998646786</guid><pubDate>Wed, 12 Feb 2025 15:22:00 +0800</pubDate></item><item><title>国际金价涨至2968.5美元，连续3天创新高</title><link>https://36kr.com/p/3163175327492864</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p><strong>金价上涨仍未停止</strong></p>
-</blockquote>
-<p>专家指出：“在央行等之间，即使在最高价位也不惜买进的态度非常明显”。各国央行和国际货币基金组织（IMF）等的黄金净买入量2024年10～12月为333吨，同比增长5成……</p>
-<p>2月11日，作为黄金价格国际指标的纽约期货（交易最活跃的结算月）比前一天上涨34.1美元（1.2%），达到2968.5美元/盎司，连续3个交易日刷新最高点。受美国贸易政策的影响，贸易摩擦的隐忧和不确定性扩大，资金流入了被视为安全资产的黄金。</p>
-<p>此后受到获利抛售影响，收盘价小幅下跌至2932.6美元，但仍徘徊在接近3000美元的历史高点附近。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_983f5cbf641e46a3897a10ae485274f4@000000_oswg22382oswg600oswg336_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>美国总统特朗普2月10日签署了以钢铁和铝制品为对象征收25%进口关税的总统令，市场上对贸易摩擦的担忧加剧。美国彭博社报道称，在黄金的主要消费国中国，首次允许保险公司投资黄金的试点于2月7日启动，这也是导致金价上涨的因素之一。大型保险公司等10家公司最多可将资产的1%投资于黄金。</p>
-<p>日本Market Strategy Institute公司的代表龟井幸一郎认为，“在央行等之间，即使在最高价位也不惜买进的态度非常明显。随着政治和经济的不确定性加大，很难选择卖出黄金的状况将持续下去，金价或将维持在高位”。</p>
-<p>此外，地缘政治风险和央行购买也在支撑市场。国际调查机构世界黄金协会（WGC）的数据显示，各国央行和国际货币基金组织（IMF）等的净买入量（买入量减去卖出量）2024年10～12月为333吨，同比增长5成。</p>
-<p>海外黄金行情的上升也波及到了日本国内。日本最大的黄金销售商田中贵金属工业2月12日公布的售价为每克1万5719日元（约合人民币748.15元），比前一天上涨277日元（1.8%）。刷新了1周以来的最高价。回购价格也同比上涨276日元（1.8%），达到1万5549日元（约合人民币740.05元）。大阪交易所的黄金期货（交易最活跃的结算月）在12日的交易中，一度创出每克1万4379日元（约合人民币684.37元）的最高价。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI3Mzc0MA==&amp;mid=2651933233&amp;idx=1&amp;sn=f4dc02ef59bf37be346e559aaac7c055&amp;chksm=bcf364c77bdbd7f3dfa63d25f747ad0bbb4aec627377dfcc1fc67cf826eb40d710e943a9dc31&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“日经中文网”（ID：rijingzhongwenwang）</a>，作者：日经中文网，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163175327492864</guid><pubDate>Wed, 12 Feb 2025 15:23:00 +0800</pubDate></item><item><title>新能源车险没那么好卖，车主喊贵、险企喊亏，比亚迪财险首年亏损1.69亿</title><link>https://36kr.com/p/3163148418034176</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>比亚迪财险的首年答卷，揭开了车企跨界新能源汽车保险的残酷底色。</p>
-<p>近期，比亚迪财险披露了2024年第四季度偿付能力报告。数据显示，2024年其保险业务收入13.51亿元，全年净利润亏损1.69亿元；其中，综合成本率高达308.81%，高于行业平均水平。</p>
-<p>时代财经咨询比亚迪财险客服，相关人员表示，公司2024年产生亏损的原因，包括2024年上半年历史原易安财险业务尚有赔付成本，且当期已赚保费为负数，使得综合赔付率较高等。</p>
-<p>作为新能源车企跨界保险业的标杆案例，比亚迪财险的这份成绩单，也折射出新能源汽车保险市场的集体困境与车企转型的深层挑战。当下，新能源车险存在保费高、出险率高、赔付率高等问题，陷入“车主喊贵、险企喊亏”的怪圈，市场呼吁加快优化新能源车保险费率。</p>
-<p>中国企业资本联盟副理事长柏文喜向时代财表示，新能源汽车保险续保难、续保贵，以及财险公司承保亏损，与新能源车出险率和赔付成本高等有关。目前保险公司可能对新能源车长期性能和维修成本缺乏足够的数据，这也可能影响到保险产品费率的设定。</p>
-<h2><strong>综合成本率高达308.81%</strong></h2>
-<p>比亚迪财险自去年5月正式开展新能源汽车保险业务后，保费规模快速增长。数据显示，比亚迪财险2024年第二季度签单保费0.67亿元，第三季度猛增至4.85亿元，第四季度更是达到8.43亿元，全年签单保费达13.98亿元（全部为车险业务）。</p>
-<p>然而，比亚迪财险业务扩张并未带来盈利，反而陷入持续亏损。2024年二季度尚盈利0.18亿元，三季度即转为亏损0.88亿元，全年累计亏损1.69亿元。</p>
-<p>业绩亏损的背后，过高的赔付压力或是主要拖累因素。2024年，比亚迪财险综合成本率达308.81%，其中综合赔付率233.92%，叠加74.88%的综合费用率，凸显经营成本控制难题。</p>
-<p>比亚迪财险的综合成本率达到308.81%，意味着每收取100元保费，需支出308元成本，这一成本率数据高于同行。金融监管总局数据显示，2023年全行业新能源汽车保险综合成本率达109%、赔付率达84%，较燃油车均高出10个百分点。</p>
-<p>某财险公司精算人员向时代财经表示，财险行业具有显著的规模效应，一般需累计保费规模达30亿-50亿元才能实现运营成本摊薄，新财险公司初期需承担较高的渠道费用和固定成本，前3年的综合成本率普遍超105%，多数财险公司在成立4年左右才会实现扭亏，而控制费用率是缩短周期的核心。</p>
-<p>值得关注的是，新能源车企对售后体系的控制权成为影响财险公司费用率等指标的关键变量。比亚迪在全国布局的授权专修网络虽能保障服务质量，但也可能形成零配件价格垄断。上述精算人员对时代财经透露，新能源车型专用配件价格普遍高于传统车型，且大部分存在技术封锁，这种封闭式售后体系直接推高出险后的维修成本。</p>
-<p>为此，比亚迪财险正推动与母公司售后体系的深度协同，通过集中采购、标准化维修流程降低赔付成本。</p>
-<p>1月22日，比亚迪财险连续发布三份重大关联交易披露公告，2024年末，比亚迪财险与比亚迪汽车工业以及深圳仰望汽车销售有限公司签订《保险事故车辆维修采购服务协议》，合计交易金额为不超过30亿元每年。</p>
-<h2><strong>新能源汽车保险仍待破局</strong></h2>
-<p>目前，新能源车主承受着较高的保费，还出现续保难、续保贵等现象。而由于新能源汽车出险率高、赔付率高，保险机构的新能源车险业务面临较大的经营压力。</p>
-<p>日前，中国精算师协会与中国银保信发布的新能源汽车保险2024年有关赔付信息显示，2024年，新能源汽车保险承保亏损57亿元，呈现连续亏损。保险业共承保车系2795个，赔付率超过100%的高赔付率车系有137个。</p>
-<p>针对新能源汽车保险的高赔付率，多位业内人士向时代财经表示，主要原因包括维修成本高、风险评估难、零配件依赖性强以及保值率不稳定等因素。</p>
-<p>盘古智能高级研究员江瀚向时代财经表示，新能源汽车保险面临的主要问题是风险评估难度较大。由于新能源汽车相较于传统燃油车拥有更多独特技术和构造，如电池系统和电力驱动系统，这些因素使得事故发生后的损失评估变得复杂。再者，目前缺乏足够的历史数据来准确预测新能源汽车的维修频率和严重程度。因此，险企在为新能源车险定价时往往面临较大的不确定性，这直接影响到保费费率制定和风险覆盖。</p>
-<p>“新能源汽车保险的赔付黑洞主要来自三电系统，动力电池事故导致的理赔金额占比普遍较高。此外，车身一体化设计导致事故后需整体更换，加上部件授权专修网点少、零部件渠道垄断等共同推高了维修成本。”上述精算人员向时代财经表示。</p>
-<p>此前，比亚迪董事长兼总裁王传福在股东大会上表示，新能源汽车和新能源汽车保险能够互相促进。新能源汽车保险现在基本上处于亏损状态，里面有多种原因，例如设计与售后服务有脱节。比如说一个电池坏了，要换整个电池包，不能拆件去修。如果在设计上做到拆件维修，就能大幅降低保险赔险成本。</p>
-<p>面对行业困境，监管机构支招。1月24日，金融监管总局等四部委联合下发的《关于深化改革加强监管促进新能源汽车保险高质量发展的指导意见》针对性提出：合理降低新能源汽车维修使用成本，提升动力电池维修经济性，支持其自营或授权网络向社会销售“三电系统”配件；丰富商业车险产品，研究推出“基本+变动”新能源汽车保险组合产品；主动顺应智能驾驶趋势，提高对新能源汽车的风险识别和精算定价能力等。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NzQ4OTIyMQ==&amp;mid=2247539474&amp;idx=2&amp;sn=68e82123f91b8afc9367545326a389ea&amp;chksm=e81033eaece83e674f6c3da0abefb6f9c4f8f6cae1d52ac237111a3616ec761fddf5bd78b6bf&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“时代财经APP”（ID：tf-app）</a>，作者：何秀兰，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163148418034176</guid><pubDate>Wed, 12 Feb 2025 15:24:00 +0800</pubDate></item><item><title>年产800万套，广东小镇，顶起中国智能锁“半边天”</title><link>https://36kr.com/p/3163161945844488</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>上世纪80年代，新华社刊发过一篇流传很广的新闻报道《广东跃起四小虎》。 </p>
-<p>文章提到，相比深圳、珠海这些拥有特殊政策的经济特区，东莞、中山、顺德、南海四个珠三角小城更具创造力和活力。 </p>
-<p>因为这些小城，多数是由农民群体直接进入制造业，并迸发出巨大力量。 </p>
-<p>中山是其中的佼佼者，被国家统计局列为全国第一批跨入小康水平的城市。 </p>
-<p>中山制造看小榄，小榄制造看制锁。 </p>
-<p>今天，让我们一起走进小榄镇，走进大名鼎鼎的“南方锁城”。 </p>
-<h2><strong>产业集群</strong></h2>
-<p>上世纪70年代，我国农村广泛使用一种名为“铁皮挂锁”的门锁。 </p>
-<p>锁体主要由铁皮冲压而成，内部容纳了锁芯、锁舌等关键部件。 </p>
-<p>这种锁，价格实惠，安装方便，便携性好，广受欢迎。 </p>
-<p>彼时，小榄镇生产的“钻石牌”铁皮挂锁，不仅行销全国，还卖到了海外。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_dfa1a3444b0346f5b7dff4562ab20873@000000_oswg83876oswg1024oswg768_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">“钻石牌”铁皮挂锁 </p>
-<p>曾经，美国、联邦德国、中东及东南亚各地商户都是小榄的客户，小榄锁芯更是销售到50多个国家和地区。 </p>
-<p>高峰时期，全国70%以上的锁具都由小榄制造，被誉为“南方锁城”。 </p>
-<p>从最初的铁皮弹珠门锁、铁闸锁到机械锁、智能锁，几乎都可以在小榄找到制造厂家。 </p>
-<p>可以说，哪里卖锁具，哪里就有小榄的身影。 </p>
-<p>小榄镇制造业底蕴深厚，不仅走出多家上市公司，如木林森、中顺洁柔、华帝、长青等。 </p>
-<p>中小型制造企业更是多达1.3万多家，其中绝大部分是锁企。 </p>
-<p>尽管锁具产业分散、附加值低，很难有超大规模的企业出现，但小榄锁企却不乏“隐形冠军”。 </p>
-<p>他们专注细分领域几十年，仅凭一把锁卖出数亿元营收，成为行业龙头企业。 </p>
-<p>比如，樱花智能年产能达300万把，整体出货量位于行业前列，在全国有1万多家销售网点，基本覆盖全国95%以上的省份和地区。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_e773ddfacb434584b454e89386118e1e@000000_oswg350527oswg732oswg559_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">樱花智能门锁 </p>
-<p>又如，杨格锁业专注为酒店锁提供系统解决方案，服务全国超过25万家星级酒店，占据全国酒店智能锁市场一半份额。 </p>
-<p>再如，基信是锁芯领域的省级制造业单项冠军企业，拥有超4000多款锁芯产品，型号种类在全球同行业遥遥领先。 </p>
-<p>2024年，工业与信息化部公布年度中小企业特色产业集群名单，全广东仅8家入选。 </p>
-<p>小榄镇智能锁具产业集群就位列其中，成为中山市首个国家级中小企业特色产业集群。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_1af5a80aac3745efbd722f6087933d2e@000000_oswg196654oswg1080oswg467_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小榄镇智能锁具产业集群 </p>
-<p>目前，小榄镇锁具产值已超百亿元，智能锁生产企业超过200家，配套企业超5300家。 </p>
-<p>除此之外，小榄还是“中国锁具出口基地”，锁具出口量占全国近三成。 </p>
-<p>完善的智能锁产业集群，让小榄成为全国锁业的“黄埔军校”。 </p>
-<p>2022年，“中国智能锁具产教融合人才培训中心”在小榄成立。 </p>
-<p>中心将依托小榄镇成熟的智能锁产业链作为基础，为全国智能锁产业培育优秀的创新型技术人才，推动整个智能锁产业实现高质量发展。 </p>
-<p>一个小镇，做出了大事业。 </p>
-<h2><strong>一跺脚的“勇气”</strong></h2>
-<p>小榄的锁业，是如何发展起来的？ </p>
-<p>小榄镇是珠江三角洲上一块冲积平原，地处中山市北部。古时小榄是珠江口的小岛屿，因境内小山丘形似橄榄而得名。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_3f0f11aa4cf742f9b90737ad70cd7157@000000_oswg257852oswg916oswg486_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小榄镇区域位置 </p>
-<p>明清两朝，依托水陆交通，小榄的桑蚕业、果蔬业以及商贾贸易无比繁茂，仅桑蚕市场一项就“岁入百余万两”，富庶一方。 </p>
-<p>与此同时，一些刀、锄之类的手工业也逐渐发展起来。 </p>
-<p>到改革开放前夕，小榄镇的工商业涵盖了手工业、工业在内的30多个行业，如电机、机械、五金利器等。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_26227107d281440f9c91c87167c4a962@000000_oswg71952oswg640oswg699_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小榄早期的手工业 </p>
-<p>尽管如此，被时代折叠的小榄和全国其他地区一样，直至上世纪70年代中期，仍然是以农业生活为主的乡镇，工业也只进展到手工作坊阶段。 </p>
-<p>千年来的农耕经验已经告诫过后来者，手工业如果不能进入工业化，依旧是小农经济，依然无法摆脱贫穷。 </p>
-<p>当改革开放的春雷响起，小榄人的商贸基因立刻觉醒。 </p>
-<p>小榄有工业基础，擅长小五金产品加工，开始主动地探索工业致富之路。 </p>
-<p>小榄镇中山半导体五厂是当时的主力军，用高音喇叭的原材料—铸铝，探索生产门锁业务。因安全性高且耐用，广受欢迎。 </p>
-<p>不久，制锁业务被独立出来成为小榄制锁二厂。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_945221d8d25546ae9edcbea59353e193@000000_oswg51682oswg530oswg623_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小榄镇中山半导体五厂 </p>
-<p>小榄人一看制锁，开始跟着小榄制锁二厂学习制锁。 </p>
-<p>一来二去，十人学艺、百人制锁，最终做出名扬四海的制锁基地。 </p>
-<p>1978年，国务院批准《开展对外加工装配业务试行办法》，“三来一补”的贸易方式就在广东先行。 </p>
-<p>位处珠江三角洲的小榄感知灵敏，纷纷“洗脚上田”办企业。 </p>
-<p>毫不夸张地说，在小榄镇，只要凑上3个人就能做起锁的生意。 </p>
-<p>小榄人有想法，还会借时势。 </p>
-<p>1979年，小榄重启菊花会盛典，国内媒体争相报道，众多海外人士也越洋过海来参观。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_d6d4c71b71e241b5b7cbf33e6e2a2374@000000_oswg1154547oswg867oswg577_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小榄菊花会 </p>
-<p>借助这一契机，小榄镇政府充分展示小榄的工业改革之风。 </p>
-<p>华侨、港澳同胞亲眼目睹小榄新变化后，既有人回乡兴办工业，也有人拿着钱袋子来投资。由此奠定小榄制锁的外贸基础。 </p>
-<p>搞定了外资，小榄制锁业又将心思放在技术上。 </p>
-<p>此前，小榄制锁二厂首创国内“YALE”匙槽，让小榄锁具的质量和市场竞争力都迈上新台阶。 </p>
-<p>为了改变作坊生产、小打小闹等技术生产落后的局面，小榄制锁二厂联合小榄镇政府、工业总公司投资建设占地8万平方米、配备现代化水准的“门锁生产基地”，后续每年都投入巨额资金到基础建设中。 </p>
-<p>不仅如此，小榄制锁二厂还大胆购进与进口性能一致，但价格只有进口几分之一的生产设备，在降低成本的同时，用高质量生产取胜，其产品后来行销世界60多个国家和地区。 </p>
-<p>这样的例子在小榄不是一家。 </p>
-<p>早年间，基信的车床、钻床、刀具等都是工人的手工作品，技术跟不上，产品在客户那里就不过关。 </p>
-<p>为此基信花费数年时间，将生产线全部进行自动化改造。设备“大换血”终于使得基信锁芯广受欧洲客商认可，拉开长达数十年的合作序幕。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_66f7908d35b8457eb6d14c5bc5bc150e@000000_oswg16886oswg500oswg320_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">基信生产的锁芯 </p>
-<p>现在，基信公司已年产锁芯1500万套，产品远销海外。 </p>
-<p>小榄镇锁业的发展，离不开地方政府的鼎力支持。 </p>
-<p>产业起步阶段，企业参加展会的锁具样品需要模具来做。 </p>
-<p>买模具设备要两千万，这笔投资投入高且风险大，如果接不到订单，钱就打水漂。小榄镇的企业没钱买，也不敢买。 </p>
-<p>模具又非常重要，质量和性能直接影响产品最终的市场竞争力。 </p>
-<p>最终，小榄政府主动出面，从德国和日本引进专业生产线，等实现规模效应后又转给企业运营。 </p>
-<p>就是这样，小榄才走出华锋、固力等“锁王”企业，并超越温州、浙江等停留在贴牌代工阶段的锁具产业带，成为中高端锁具代表。 </p>
-<p>至1986年时，小榄已经是全国闻名的“南方锁城”。 </p>
-<p>上世纪90年代中期，随着小榄港建成，模具、五金工具、压铸等配套措施逐渐完善，小榄制锁业发展迈向新里程碑。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_3d910a7dbcc64bcdaef49915a5bc90e8@000000_oswg97160oswg886oswg619_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小榄港 </p>
-<p>现在再看，当时构成小榄制锁产业腾飞的因素很多，天时、地利、人和都有。 </p>
-<p>那年，港澳商人带着五金制品来珠三角找代工，大部分地方都没经验不敢出头，唯一一个伸手接订单的是小榄人。 </p>
-<p>那年，小榄镇的企业没钱买模具，是小镇政府主动出面引进了生产线。 </p>
-<p>要没有这一跺脚的“勇气”，事情就成不了。 </p>
-<h2><strong>从中国制造到中国智造</strong></h2>
-<p>制锁产业，是小榄镇当之无愧的支柱产业。 </p>
-<p>2015年，小榄镇GDP为274.42亿元，五金企业产值占全镇工业总产值的60%，制锁企业就占到其中20%。 </p>
-<p>好风凭借力，产业驱动经济发展。 </p>
-<p>2021年，用地紧缺的小榄镇得以将周边东升镇“吞并”，合成新小榄镇，常住人口飙升至78万人，区域面积高达144.6万平方米。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_6dbc6e32c9284559bfbb767e607ddd22@000000_oswg50255oswg434oswg672_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小榄镇与东升镇合并 </p>
-<p>靠产业，小榄实现了规模升级。 </p>
-<p>小榄制锁产业的步子迈得又快又准，但在产业转型面前曾经也束手无策。 </p>
-<p>2008年以前，小榄制锁企业大多走贴牌生产路线，有技术就不愁订单，根本不用考虑市场和销售。 </p>
-<p>金融危机的到来打破了这一局面，订单量断崖式下滑。 </p>
-<p>出口无利可图，只能转内销。制锁业长期以来技术门槛低、创新弱等问题又使得锁企苦陷价格战当中。 </p>
-<p>小榄小锁厂很快就撑不住，要么半停工，要么全停产。 </p>
-<p>小榄镇公布的一份统计数据显示，2011年该镇五金行业增长仅为5.41%，远低于LED、食品行业的增速。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_c4aa3bf6d8f647f2ac325fd9214dda01@000000_oswg30712oswg445oswg398_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小榄锁企生产车间 </p>
-<p>工业重镇，正在失去昔日的骄傲。 </p>
-<p>小榄制锁人意识到，内卷没有出路，必须向上寻找生机。 </p>
-<p>在其他地区锁企低价竞争时，小榄制锁业已经开始走品牌化、技术化运营路线。 </p>
-<p>小榄镇政府率先站出来引领小榄镇制锁业由内向外进行工业改革。 </p>
-<p>小榄政府通过注册“小榄锁具”区域品牌，塑造起整体高端形象，规范山寨效仿、恶意竞争。 </p>
-<p>2017年，中国质量认证中心评估“小榄锁具”品牌价值达到18.5亿元。 </p>
-<p>高端形象倒逼产品改革，制锁协会制定“联盟标准”，给企业生产指南。 </p>
-<p>企业上阵引进先进的生产线和管理办法，政府则组织成立质量检测中心。 </p>
-<p>生产效率提高，产品标准化，“小榄模式”走出了自己的样子。 </p>
-<p>但是，仅此复现小榄的辉煌显然不够。 </p>
-<p>智能家居时代，小榄竞逐智能门锁浪潮。 </p>
-<p>上世纪90年代，第一代智能锁在欧美及“亚洲四小龙”等发达地区普及。 </p>
-<p>21世纪初进入中国市场，主要使用场所是酒店，到我国能自主生产以及向家用普及是2010年后。 </p>
-<p>早在2000年，杨格锁业开始涉足电子锁领域。 </p>
-<p>2011年，樱花开始组建智能锁研发团队。 </p>
-<p>日后再来看，小榄锁业能转型成功，当地锁企超强市场洞察力并果断出击是关键。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_895b9129123f43fda843fd44b18cee07@000000_oswg91237oswg640oswg366_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">全球智能锁行业市场规模 </p>
-<p>2016年，智能门锁在国内全面兴起，小榄锁企已占得先机。 </p>
-<p>此时，小榄几十年建立的供应链起到关键作用。 </p>
-<p>除去部分电子元件，智能锁需要的所有配件都可以在镇内自主生产出来，小榄智能锁因而有了快人一步的优势。 </p>
-<p>杨格锁业在电子锁赛道浸淫多年，只要开发与传统电子锁相结合的系统解决方案，就能很快将“车头”调转到智能锁。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_416ad461777040b9a3d81d40d62a59eb@000000_oswg211425oswg682oswg442_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">杨格锁业早期生产的电子锁 </p>
-<p>樱花智能则经过调整改进，成为小榄锁企最早实现制造成熟智能锁产品的企业之一。 </p>
-<p>这时候，政府扶上马再送一程。 </p>
-<p>从2016年起，小榄财政连续三年拿出不低于5000万元作为智能制造专项发展基金，以补贴的形式鼓励企业升级转型。 </p>
-<p>企业审时度势，政府关键时刻用资金做引导，小榄智能锁产业乘风而起。 </p>
-<p>2018年，小榄镇获得“中国智能锁产业基地”称号。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_d272992f4b0d4398a7f561a0541192dc@000000_oswg486485oswg666oswg474_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小榄镇绩东二智能锁具产业基地</p>
-<p>小榄制锁全面转型升级为“智能锁具产业”，又向周边镇区辐射，形成了以智能锁具为主导、上下游产品和应用齐全的产业集群。 </p>
-<p>2024年上半年，中国智能锁市场产销量是1055万套，而小榄全年的产量预计是800万套。 </p>
-<p>一个小榄镇，顶起中国智能锁“半边天”。 </p>
-<p>从制造到智造，生生不息。 </p>
-<p>小榄制锁业，成为中国制造转型升级的精彩写照。 </p>
-<p>● 参考资料： </p>
-<p>《早起的小榄追赶朝阳》，南方日报 </p>
-<p>《中国经济样本观察·“镇”了不起｜“铁将军”升帐“锁联网”：“锁”住百亿元大产业》，新华社 </p>
-<p>《一代人的记忆的无线电五厂》，中山市小榄镇融媒体中心 </p>
-<p>《小镇大追求 中山小榄镇的强力进阶路》，时代周报 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MTU3Mzk2OA==&amp;mid=2654903426&amp;idx=1&amp;sn=0e3a14732c101e5bfff034fe86706411&amp;chksm=bc163c90f2541e1035035600f904d686f53ec1a6b977c42b07f3cdd4990db480153e8b991318&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“正解局”（ID：zhengjieclub）</a>，作者：正解局，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163161945844488</guid><pubDate>Wed, 12 Feb 2025 15:27:00 +0800</pubDate></item><item><title>开年最大茶饮IPO敲钟了</title><link>https://36kr.com/p/3163032617052931</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="764,386" src="https://img.36krcdn.com/hsossms/20250212/v2_7b92e4d1ce3740d6a59dad52890b217f@46958_oswg196725oswg764oswg386_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
-<p>新春伊始，港交所消费赛道迎来一个标志性IPO。古茗控股有限公司于今日正式登陆港交所，开盘上涨，市值一度达240亿港元，成为开年最大新茶饮IPO。</p>
-<p>2010年，王云安与同学联手创办了古茗。此次港股敲钟，也拉开了2025茶饮消费的上市序幕。其间关于投资的故事，则要追溯到5年前。</p>
-<p>“最早是2019年的夏天，我们和云安第一次见了面。那一年年底他想要融资了，我们很快就确定了领投。”美团龙珠董事总经理黄垚鑫回忆。</p>
-<p>而在登陆港股前，古茗也仅开放了这唯一一次外部融资——2020年，美团龙珠以领投方的身份入局。此次古茗IPO，美团龙珠也是基石投资方之一。</p>
-<p>“当时古茗只有不到3000家门店，现在规模已经到小10000家。回过头看，消费赛道的潜力是惊人的，这与我们最初的判断一致。”美团龙珠合伙人朱拥华感叹。</p>
-<p>追踪茶饮消费投资背后的故事，我们发现，龙珠多轮坚定出手背后，除了团队与被投企业长期沟通建立的互信默契，也源于<strong>他们历来笃信——中国的消费投资永远有机会。</strong></p>
-<h2><strong>同学联手，开出近万家店，市值240亿</strong></h2>
-<p>古茗是一个典型的大学生创业故事——</p>
-<p>创始人王云安，1986年出生于云南省安宁市，父母从事百货生意，他从小耳濡目染，2006年考入浙江理工大学。2010年，在浙江省台州市温岭市大溪镇，即将毕业的王云安与大学同学戚侠、高中同学阮修迪等人创办“古茗茶饮”。</p>
-<p>几个年轻人很快感受到了创业初期的艰苦，也经历了早期的摸索、挣扎和突破。从2011年起，古茗开启加盟模式，在当地站稳了脚跟，开始从台州铺向了其他地区。</p>
-<p>大约2015年，察觉到市场趋势的王云安用茶叶取代香精茶，布局新水果茶，这一年门店数量来到了300家。两年后，古茗建立起冷链配送模式，全国门店数量突破了1000家。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_68ee41153ca24cc29c68d52dd1b6aa05@000000_oswg41722oswg800oswg449_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>至此，曾名不见经传的古茗渐渐被外界熟知。彼时已经投资了喜茶的美团龙珠团队，也早早地开始对这家公司的追踪。</p>
-<p>几番接触，王云安给朱拥华留下深刻印象：一、非常有企图心，目标周期拉到终身制，上市绝不是终点；二、有后发制人的能力；三、勤奋且学习能力强，无论是管理、战略高度还是经营细节都进步飞快。</p>
-<p>2019年，古茗开出2000家店，这年年底王云安公开自述创业历程，提出古茗的根基是“利他主义”。</p>
-<p>在母校的一场演讲中，王云安分享：“创业是一条不归路，我们必须认清自己的重要性，只有认清自己的定位，才能更好的面对困难，享受成果。”</p>
-<p>2024年1月，王云安带领古茗茶饮向港交所递交上市招股书。透过招股书可见，古茗产品价格通常在10-18元之间，主打高性价比果茶，截至2024年9月30日，门店增加至9778家。</p>
-<p>根据招股书，古茗董事长兼CEO王云安、总裁戚侠、阮修迪及潘萍萍为一致行动人，合计持有公司79.5%的股份；此外，股东美团龙珠持股8%，红杉中国持股4%。此次古茗IPO，共有腾讯、元生资本Genesis Capital、美团龙珠、Duckling Fund、正心谷资本等5名基石投资者，合计认购7100万美元，占本次发行37.46%。</p>
-<p>昔日同学联手创业，今天最终收获人生第一家上市公司。</p>
-<h2><strong>揭秘投资故事，为何龙珠率先押中？</strong></h2>
-<p>“现制茶饮这个品类，我们认为是‘时代品类’，我们也愿意在这样的品类上重仓。”黄垚鑫表示。</p>
-<p>时间回到更早的2018年，在古茗之前，美团龙珠投资了喜茶，那一年茶饮行业展现出了前所未有的增长速度，团队愈发相信这个赛道的巨大机会。</p>
-<p>按价格区间，奶茶可分为0-10元、10-20元、20-30元三个价格带，已押注了高端茶饮的龙珠把目光放在0-10元，梳理一番就看到了蜜雪冰城。</p>
-<p>从2019年起，龙珠团队开始接触蜜雪冰城，当时尚未有任何融资计划的蜜雪并未松口，但蜜雪冰城创始人却给龙珠<strong>介绍了另一家他很认可的品牌——古茗</strong>。“竞品间互相推荐是一个非常强的信号。”黄垚鑫回忆。</p>
-<p>2019年初，龙珠积极推进茶饮赛道的项目研究，所有龙珠消费组成员分几条线去四五线城市，实地考察。</p>
-<p>后来，黄垚鑫内部汇报时的推荐项目也是古茗。事情很快推进，2019年5月，黄垚鑫及朱拥华见了王云安第一面，当时古茗还没有想好要不要开放外部融资，龙珠依旧保持着与王云安的频繁交流，等待投资机会。“云安很开放，学习能力很强，而且我们发现，每一次的交流，他都会有新的认知迭代。”</p>
-<p>最终，当王云安下定决心融资，龙珠很快确定并推进了领投。2020年，古茗完成上市前唯一一次融资，投资方包括美团龙珠、红杉中国、Coatue等，累计融资金额约6.74亿。其中，美团龙珠为领投方。</p>
-<p>这无疑是一笔典型的消费投资——因为机会稍纵即逝。</p>
-<p>在黄垚鑫看来，<strong>优秀的消费公司可能只有一次投资机会</strong>，“一旦过了一定阶段，现金流充裕，也就不需要融资了。”朱拥华则认为，纵观这类公司成长生涯，<strong>投资窗口期可能只有一个月</strong>，想在如此短的时间内撬动投资，一定是提前一年或几年就在接触，彼此建立长久信任。</p>
-<p>相似的还有蜜雪冰城。2021年初，蜜雪冰城宣布迄今唯一一轮外部融资，跟踪了两年的美团龙珠坚定投入。所以在茶饮赛道，喜茶、古茗、蜜雪冰城这三家品牌，龙珠均完成了坚定布局。</p>
-<p>透过这些新茶饮头部品牌，可以一窥美团龙珠的消费投资版图和风格。</p>
-<p>2017年，美团龙珠正式设立。作为一家专业的、完全市场化运作的基金，龙珠至今管理着3只人民币基金和1只美元基金，<strong>聚焦消费和科技领域的投资机会，目标是挖掘和支持中国未来的消费和科技领域的领先企业。</strong></p>
-<p>在消费投资风起云涌的时代里，龙珠5年时间里投出了超70亿，捕获了诸如喜茶、蜜雪冰城、古茗、Manner咖啡、薛记炒货、认养一头牛、理想汽车等二十多个项目，数量不多，但每个项目投入金额大。其中，理想汽车是一笔极为重要的投资——2019年8月，龙珠参与理想汽车的C轮融资，一年后理想汽车登陆纳斯达克，成为龙珠投出的首个上市公司。</p>
-<p>投资项目是最好的名片，这些年在投资圈内，龙珠也成为消费投资赛道的风向标之一。</p>
-<h2><strong>坚定看好中国消费，“永远有机会”</strong></h2>
-<p>回望2021年之前，消费投资“黄金五年”里，几乎所有的投资机构都在找好吃的、好喝的、好用的，VC/PE们对动辄百亿、几百亿估值的热门消费公司也都见怪不怪。</p>
-<p>而消费赛道，最不缺的就是变化。朱拥华认为，消费整个行业的魅力就是在于变化。</p>
-<p>“经历多轮起伏，最大的感受在于：<strong>无论何种经济环境，消费的生命力和内在价值都非常大</strong>。”朱拥华感慨，宏观向好时，消费升级的投资机会很多，宏观承压，有性价比的消费就是对应的投资机会。</p>
-<p>他认为，宏观、社会、人口、经济的不断变化，终将带来新的业态、新的产品、新的品牌，它们又将满足新一批不同年龄段的消费需求。</p>
-<p>“到今天，我们依然坚定看好消费赛道的潜力。例如，我们觉得中国的线下连锁化依然还有很大的机会，尤其在基础设施数字化以及连锁人才能力越来越普及的情况下，今天的连锁化速度比10年前、20年前快太多了。”黄垚鑫分析道。</p>
-<p>正如一个普遍的观点，消费行业历来被认为是具备刚性、抗周期属性的行业，因而在经济波动时期反而更受资本欢迎。</p>
-<p>“投资就是要在低周期投入。现在回过头看，那些我们投资的公司，很多都取得了5年前想象不到的成绩。<strong>消费这个赛道里，仍有很多优秀的公司，仍在不断地创造时代奇迹</strong>。我觉得这是很令人振奋的事情。”黄垚鑫认为，今天的消费投资人，反而能够更加从容地、以更合理的估值来深度研究消费行业的趋势和公司。</p>
-<p>站在当下，龙珠捕捉到的消费投资机会在于：中国的线下连锁化，包括现制茶饮、快餐、零食折扣；满足情绪价值的消费品牌，如潮玩、谷子经济；消费科技类产品，包括中国消费硬件出海；银发经济等。<strong>中国消费市场如此大，很多品类依然能够诞生增长奇迹。</strong></p>
-<p>此时此刻，蜜雪冰城的IPO脚步越来越近，霸王茶姬也在赶来路上。</p>
-<p>中国消费投资的精彩故事，也仍在不断上演。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247676231&amp;idx=1&amp;sn=cb1da46f18b90ba8e4974f53c8cce1ce&amp;chksm=eda4b810f11e9e02eb963173358c8e31c7e1188c426774b5462504bcab1b41cf4a937b15548a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：杨继云，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163032617052931</guid><pubDate>Wed, 12 Feb 2025 15:32:00 +0800</pubDate></item><item><title>加码外卖，刘强东“开杠”</title><link>https://36kr.com/p/3163125295884806</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="1023,716" src="https://img.36krcdn.com/hsossms/20250212/v2_506094878f2542d18033137060260d42@46958_oswg289997oswg1023oswg716_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
-<p class="img-desc">头条摄影｜邓攀</p>
-<p>“即刻入驻，全年0佣金。” </p>
-<p>据“京东黑板报”消息，2月11日，京东外卖正式启动“品质堂食餐饮商家”招募。<strong>其称，2025年5月1日前入驻的商家，全年免佣金。该消息还提到，招募对象只限“品质堂食餐厅”。</strong></p>
-<p>这是京东官方层面首次披露“外卖”业务进展。商家普遍关注，商品配送费如何确定？一位接近京东人士告诉《中国企业家》，配送服务费由配送距离、订单价格、时段、天气等因素综合决定。此外，已签约商家佣金从2月11日0点起，也按照全年免佣的政策调整。 </p>
-<p>有知情人士对《中国企业家》透露，<strong>此次招募，京东主要面向部分头部餐饮商家，“0佣金”非普遍情况，配送费仍正常收取，与美团、饿了么逻辑一致。</strong>多位知情人士称，“0佣金”目前正在部分城市施行，主要在北京。非北京地区商家需先提交入驻申请，和平台签约，且待对应城市开通后上线。 </p>
-<p>业界用“搅局”来形容京东这一互联网电商巨头的入场，而外卖江湖一直不乏入局者。中国互联网络信息中心数据显示，我国网上外卖用户规模已达 5.45 亿人，占网民整体约五成。<strong>过去10年，百度、滴滴、阿里、顺丰和抖音等重量级玩家都做过尝试，但未曾撼动美团的统治地位。</strong></p>
-<p>多位行业人士称，京东入局外卖的意图，或不在“外卖”本身，而是进一步深入即时零售领域，拓展自身物流业务的场景和盈利空间。电商流量红利见顶的今天，拥有万亿体量和双位数增速的本地生活服务赛道还是一块儿大蛋糕。不过，即时配送市场快速发展，对手亦在加强物流等基础建设。 </p>
-<p><strong>“短期内京东能否破局，关键要看商家的反应，他们有没有接到来自京东的单。”</strong> 一位不具名的电商平台人士称。佣金一直是商家接入外卖平台的敏感点，商家也希望平台之间多些竞争，但这个行业发展多年，“马太效应”很强，新加入者的突围之战并不容易，“美团布局多年，壁垒确实太高了”。 </p>
-<h2><strong>加码外卖，押注即时零售</strong></h2>
-<p>外卖平台从商户收取的费用，主要包括平台佣金和配送服务费。比如，目前美团外卖实际商户佣金率为6%～8%，履约服务费只在商家选择美团配送时才会产生。 </p>
-<p>“佣金”也就是外界惯称的平台技术服务费，一般涵盖商家通过外卖平台经营所享受的信息展示服务、交易服务、商服及客服服务、IT运维服务、研发成本、客服成本等费用。 </p>
-<p>看到京东外卖“0佣金”的消息后，一位外卖平台方人士表达了他的困惑：品质堂食餐饮商家的“品质”界定标准是什么？京东如何审核、确保商家有堂食，甄别“幽灵外卖”？ </p>
-<p><strong>据前述接近京东人士解释，当前京东外卖只限“品质堂食餐厅”入驻，通过审核营业执照、审核门店照片、销售人员线下拜访核验等方式确保品质，后续也会不断提升全方位审核能力。</strong></p>
-<p>今年以来，“京东下场干外卖”的消息备受关注。春节后不久，有传闻称，京东外卖号称“只抽取5%的佣金，而美团准备降低佣金应对”。另有媒体援引知情人士透露，京东外卖在2024年已经上线，其佣金率费用比美团外卖略低或者持平。对此消息，截至发稿，京东、美团官方层面未予回应。 </p>
-<p><strong>在多位业内人士看来，“京东干外卖”只是表象，背后是这一老牌儿电商巨头对于即时零售市场的流量焦虑和场景争夺。</strong> 一边是美团、饿了么等对手的步步紧逼——从“到家”着眼于“到店”，进一步蚕食京东原有舒适区；另一边，对于即时配送领域中的“到家”业务，京东也布局已久。 </p>
-<p>早在2015年，京东就成立了“京东到家”，以O2O模式杀入本地生活市场。2016年，京东到家与达达合并为达达-京东到家。2019年，达达-京东到家正式更名为达达集团。2020年，达达集团在美股上市，成为“即时零售第一股”。 </p>
-<p><strong>2022年6月，时任京东零售CEO辛利军曾公开表示：“京东已经考虑做外卖业务，至于什么时候开始做，这将取决于我们的能力，以及我们什么时候能够建立起一个人才团队。”2023年，京东即时零售服务统一更名为“京东小时达”，实现全国4000个仓储网点与550万零售终端的数据贯通。</strong></p>
-<p>2024年，京东零售把即时零售设为三大“必赢之战”之一。同时，达达全面融入京东生态，即时零售品牌“京东小时达”“京东到家”也整合为统一的“京东秒送”品牌。<strong>自此，“秒送” 成为京东布局即时零售领域的一把利刃。</strong></p>
-<p>2024年9月，京东APP设置“秒送”单独入口，上线了咖啡奶茶和快餐专区，开始打入餐饮外卖市场。同年12月底，京东秒送新上线了几个新频道：吃喝玩乐团购频道（以下简称团购频道），外卖和酒店机票频道。在酒旅业务上，京东与携程进行合作，直接嫁接现成的酒旅履约服务。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_cf83b08e550c43bfbbeafcab222af894@000000_oswg134072oswg1080oswg1273_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：京东APP“秒送”频道外卖界面截图 </p>
-<p>如今，打开京东APP，进入左上角的“秒送”频道，“外卖”入口就显示在二级页面中。以北京市场为例。不同于美团和饿了么将“外卖”作为第一入口的布局权重，京东外卖被安置在类目第二排，“奶茶咖啡”则独立于“外卖”，两者共同构成“秒送”里面的平级单元。 </p>
-<p>从“秒送”频道过去两个月的界面变化来看，“外卖”版块涉及的餐饮商家有所增多，近期还增加了正餐品牌。除了餐饮配送，还有药物、生鲜、急用数码、浪漫鲜花、生活用品等类目。配送方面，京东秒送有“商家自送”和“达达秒送”两种配送方式。从目前来看，大部分商家由“达达秒送”负责。 </p>
-<h2><strong>局面焦灼</strong></h2>
-<p>2月11日，家住北京市朝阳区的田雨（化名）对比了美团和京东平台上“鱼你在一起”某家门店的外卖价格。 </p>
-<p>她发现，同一家门店的同一外卖商品，叠加打包费、配送费和补贴后，整体价格的差异个人体感不大。“一份番茄巴沙鱼米饭叠加鱼豆腐，京东平台外卖价格便宜近2块钱”。不同的是，拆分来看，美团平台上，该餐品本身价格较高，而京东外卖的配送价格较高，“前后相差近6块钱”。 </p>
-<p>在她看来，这样的差异，还不足以改变她的消费习惯，<strong>“除非京东有更大力度的补贴”。</strong></p>
-<p>商家层面，目前京东APP“外卖”专区的入驻商家以连锁餐饮品牌为主。一位餐饮投资人表示，目前入驻京东外卖的商家数量相对较少，“可以看出规模还在起步阶段，接下来的挑战就是如何上量。”<strong>在他看来，加强商家的补贴力度也非常重要，而商家也会关注京东接下来是否会发起“价格战”。</strong></p>
-<p>资深电商行业观察者、海豚智库创始人李成东对《中国企业家》表示，短期内，餐饮行业微利背景下，京东外卖“0佣金”政策能对部分商家产生一定吸引力；但对用户而言，除非平台进行大量补贴，“一些消费者可能会在意这种低价”。<strong>他强调，从长远来看，京东入局外卖，将是一场难打的硬仗。</strong></p>
-<p>外卖行业早已不局限于餐饮场景，而是扩展到生鲜、药品、3C数码、日用品等本地生活服务的多个方面。而巨头之间的“倾轧”也已进入贴身肉搏阶段——2022年“双11”，美团就曾对京东专攻的3C领域出击。美团还与苏宁合作，在数码3C领域，美团闪购新覆盖商品近3000个SKU。 </p>
-<p>“美团饿了么打了这么些年，市场格局只是‘八二’分。阿里长期投入大量补贴，入局还是很难，这意味着，外卖市场网络效应已经形成。”李成东说，商家选择哪个平台入驻，还是要看平台订单量，用户也希望有更多选择空间，“如果只有履约能力，商品丰富度不够，他也不会在你这儿买东西。” </p>
-<p>多位行业人士谈到，平台持续补贴对于培养用户习惯的重要。仅从目前来看，用户习惯很难被改变，因为他们对其他外卖平台的依赖度形成更早、且粘性更高。而从财务投入来看，如果平台未来坚持长期、持续补贴外卖，短期内又看不到业务盈利的可能，经营层面也将面临压力。 </p>
-<p>有业内人士认为，京东入场外卖属于“顺势而为”。一直以来，3C都是京东平台上的优势品类，从近年动作来看，美团不断培养用户对大件3C电子产品的心智，或许京东也察觉到了危机。 </p>
-<p>伴随着传统电商平台流量见顶，本地生活服务赛道备受关注，各大巨头的渗透程度也在加深。除了早已占据强势地位的美团，近年来，包括抖音等互联网视频平台、顺丰这样的传统快递平台，甚至传统饮料巨头娃哈哈等巨头，纷纷上线外卖业务，试图在这片市场分得一杯羹。 </p>
-<p>拥有强大流量优势的抖音，入局过程多有波折。有消息称，早在2021年，抖音就内测了“心动外卖”小程序。但几个月后，小程序下架，抖音也选择和饿了么合作。后来，经过一系列变化，原“团购配送”业务向“随心团”业务迁移，这一调整被业内视为抖音对外卖业务的“战略性放手”。 </p>
-<p>抖音在外卖市场上的折戟，让许多市场从业者意识到，消费者点外卖属于刚需行为，需要消耗时间的兴趣电商和外卖消费场景不符。而今，外界存疑的是，京东有何胜算？如果京东入局仅是给商家增加了一个配送渠道选择，又能从多大程度上改写行业格局？ </p>
-<p>技术、流量和物流能力是京东积累已久的基础能力。有业内人士称，京东本身构建了强大的物流网络，入局做外卖是对其即时配送能力的进一步延伸，同时也可帮助自身的物流业务创收。未来，即时零售入口带来的流量还可引导至电商、支付等其他业务场景，形成业务协同。 </p>
-<p><strong>即时配送领域，达达是京东的一个重要抓手。</strong> 目前达达的即时配送能力可以帮助京东补齐即时零售配送板块，加速进入本地生活服务市场。据公告，2025年1月27日，京东拟溢价42%私有化达达集团，估值约5.2亿美元。若该提案生效，“即时零售第一股”将被京东私有化直至退市。 </p>
-<p>京东“0佣金”消息公布同日，饿了么董事长吴泽明发内部信。该内部信中称，他将兼任饿了么CEO，原CEO韩鎏专注分管即时物流中心。饿了么是阿里本地生活服务领域的关键布局。去年底以来，在保证到家业务稳定增长前提下，即时零售以及背后即时物流网络被饿了么推至前台，担起第二增长曲线角色。 </p>
-<p><strong>外卖市场永无宁日，零售扩张模式没有边界。</strong> 无论阿里、美团还是抖音、京东，围绕本地生活展开的试验和竞争远未到终局。受制于履约配送能力、商家入驻等多重因素影响，市场还在等待下一个玩家，京东也许不是最后一个入局者。但未来，谁能拥抱更多商家和用户，谁就能笑到最后。 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MTI3NTQ1MTY0MQ==&amp;mid=2650639021&amp;idx=1&amp;sn=06211518d19248ae744596e14ba6b468&amp;chksm=7da3d9556f4536044c47f540d61e3f41e957f8e30566d9d1e927d9686b81e5fe9ead90af0b6e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国企业家杂志”（ID：iceo-com-cn）</a>，作者：李艳艳，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163125295884806</guid><pubDate>Wed, 12 Feb 2025 15:50:00 +0800</pubDate></item><item><title>DeepSeek被曝估值1500亿达OpenAI一半？巴黎地铁70岁老人都在聊</title><link>https://36kr.com/p/3163274405112325</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>【导读】</strong>最近，外媒Bloomberg曝出了惊人消息：DeepSeek的估值竟已飙至1500亿美元，已经达到OpenAI的一半？在巴黎AI峰会现场，DeepSeek已经如同房间里的大象。甚至巴黎地铁里的70岁老人也开始讨论DeepSeek！</p>
-<p>DeepSeek的估值，被曝已达1500亿美元，达到了OpenAI的一半？</p>
-<p>最近，Bloomberg的这个数据，引起了轩然大波。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20250212/v2_40b1f4183fb5478fb7d101434b9710b9@46958_oswg1011939oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>所有人都在问：真的假的？</p>
-<p class="image-wrapper"><img data-img-size-val="1080,216" src="https://img.36krcdn.com/hsossms/20250212/v2_beae36476a2f4d239d4f6f03e4295581@46958_oswg69337oswg1080oswg216_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此前，外媒福布斯也曾给出一个估值，当时的数字是10亿美元。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,265" src="https://img.36krcdn.com/hsossms/20250212/v2_3194c114a2384588acaf93261ce19a0f@46958_oswg174343oswg1080oswg265_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>短短几天，估值却已经涨到了150倍？</p>
-<h2><strong>外媒曝光，DeepSeek估值或高达1500亿</strong></h2>
-<p>Bloomberg是这么说的。</p>
-<p>根据七位初创公司创始人和AI专家的说法，DeepSeek的市值大约在10亿美元到超过1500亿美元不等。</p>
-<p>根据彭博亿万富翁指数（Bloomberg Billionaires Index），DeepSeek市值在20亿至300亿美元之间。</p>
-<p>波士顿风投公司Glasswing Ventures的创始人表示，如果参考Anthropic和 OpenAI等同行的情况，DeepSeek的价值至少为10亿美元。</p>
-<p>「即使保持保守，该公司也可以轻松地在现有收入只有几百万的情况下，获得数十亿美元的估值——更不用说考虑到未来的增长了。」</p>
-<p>而有人的估计就更大胆了。</p>
-<p>电信公司Sweat Free Telecom的创始人Chanakya Ramdev认为，DeepSeek的估值已经达到了OpenAI 3000亿美元估值的一半！</p>
-<p class="image-wrapper"><img data-img-size-val="1080,732" src="https://img.36krcdn.com/hsossms/20250212/v2_ca0f148100ee4efaa66fe996d29fca7d@46958_oswg179464oswg1080oswg732_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Bloomberg做出的图，注意：估值还会不断变化，取决于融资进度</p>
-<p>之所以如此估值，是因为借鉴了世界上最知名的AI初创公司。</p>
-<p>除了OpenAI以外，Anthropic的估值为600亿美元，Mistral AI的估值为60亿美元。</p>
-<p>另外，本周马斯克为首的投资者曾提出以974亿美元收购OpenAI。</p>
-<p>在下表中，Bloomberg总结了对各位AI专家、初创公司创始人的调查情况。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,893" src="https://img.36krcdn.com/hsossms/20250212/v2_bc388aa3fa0a4bb3bf11d435a540ff43@46958_oswg372213oswg1080oswg893_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>总之，一夜之间，DeepSeek颠覆了硅谷内部关于构建AI技术最佳方法的假设，也打破了美国领先中国对手很多的幻想。</p>
-<p>但Arm首席执行官Rene Haas在采访时表示，他并不担心DeepSeek。</p>
-<p>他承认：「DeepSeek的开源模型在理论上已经赶上了一些最先进的闭源推理工具」。</p>
-<p>在接受采访时坦言，DeepSeek横空出世确实令人意外，但认为其训练成本仅560万美元的说法是「谣言」。</p>
-<p>然而他并不害怕DeepSeek，他对媒体表示：</p>
-<blockquote>
-<p>DeepSeek会被美国「封杀」。华盛顿正在忙于考虑如何处理这件事。想想看……如果不允许TikTok，为什么会允许DeepSeek？</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="800,800" src="https://img.36krcdn.com/hsossms/20250212/v2_3595971644cd4ce6b254b6cc9a2ad40d@46958_oswg826797oswg800oswg800_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>地铁上70岁老人，开始讨论DeepSeek</strong></h2>
-<p>DeepSeek俨然已成为巴黎AI峰会上「房间里的大象」，在这里，人们对AI的讨论此起彼伏，却鲜有直接提及「DeepSeek」。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,241" src="https://img.36krcdn.com/hsossms/20250212/v2_cd65e309142f4a3e93871612db47258f@46958_oswg60202oswg1080oswg241_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>外媒这样写道：DeepSeek的阴影，已经笼罩在巴黎AI峰会 </p>
-<p>但在巴黎街头，会时常听到这样的讨论：DeepSeek就是中国的Mistral（欧洲人全村的希望）。</p>
-<p>更有甚者，在1月份的巴黎地铁上，有网友听到70岁的老人正在谈论DeepSeek！</p>
-<p class="image-wrapper"><img data-img-size-val="440,330" src="https://img.36krcdn.com/hsossms/20250212/v2_2e0d1862b0a84c88a78233004628269a@46958_oswg76903oswg440oswg330_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>一位牛津博士发帖称，在自己参加的英国文学节上，大家忽然气氛欢快地开始讨论起了DeepSeek。</p>
-<p class="image-wrapper"><img data-img-size-val="1075,353" src="https://img.36krcdn.com/hsossms/20250212/v2_c85401f600ce4cbd90b529f648324ea1@46958_oswg114150oswg1075oswg353_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1071,462" src="https://img.36krcdn.com/hsossms/20250212/v2_291e8e2b16c642aabe088c71a94a5669@46958_oswg94042oswg1071oswg462_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不难看出，就如同两年前那一波讨论ChatGPT的狂潮一样，现在，全世界都在讨论DeepSeek。</p>
-<h2><strong>巴黎AI峰会前，各国都在行动了</strong></h2>
-<p>两周前，DeepSeek让全世界大吃一惊，许多人担心的是，这是否意味着中国在AI方面已经超越了美国。</p>
-<p>更令开发者和政策专家担忧的是，公众或许会将此室外不再需要对AI基础设施进行大规模投资的证明。</p>
-<p class="image-wrapper"><img data-img-size-val="1018,780" src="https://img.36krcdn.com/hsossms/20250212/v2_49e6b6f0286d4541b6547e53b730fbec@46958_oswg250620oswg1018oswg780_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如果更便宜的AI平台同样有效，为何还要投入这么多资金，来训练昂贵的前沿模型呢？</p>
-<p>不过现在，外媒放心地表示，「在本周，所有迹象都表明，这些担忧被夸大了」。</p>
-<p>原因在于，巴黎AI峰会之前，各国政府就已经加倍实施本国的AI战略，公开支持本国的「AI国家冠军」，并且优先考虑实施领先战略，来对冲对其他国家的技术依赖。</p>
-<p>现在，美国各大科技公司已经在敦促华盛顿支持他们的快速计算和能源基础设施建设了。</p>
-<p>可以说，DeepSeek为他们的行动更添了一层紧迫感。</p>
-<p>硅谷巨头们，还在拼命追加投资。</p>
-<p>Meta、亚马逊、谷歌和微软是数据中心支出最大的四家公司，在今年，他们计划继续增加支出，比起2024年总共增长45%以上。</p>
-<p>与此同时，OpenAI CEO奥特曼特意发出长篇博文，给投资者们打强心剂。</p>
-<p>他为Scaling Law辩护道：「你可以花任意数量的钱，获得持续且可预测的收益。」</p>
-<p class="image-wrapper"><img data-img-size-val="1080,742" src="https://img.36krcdn.com/hsossms/20250212/v2_4d9b903ac79942fdb5b0e23ee4798672@46958_oswg191153oswg1080oswg742_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>诺奖获得者、谷歌DeepMind负责人Demis Hassabis也表示，尽管DeepSeek没有什么技术上的创新，成本效益也被夸大了，但它的确展示了非常出色的工程成就，也刺激全球AI发展局势发生了一些改变。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,968" src="https://img.36krcdn.com/hsossms/20250212/v2_ae85a0578a694863a8ec8d83cfa4ae66@46958_oswg839317oswg1080oswg968_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3><strong>DeepSeek，让欧洲燃起新希望</strong></h3>
-<p>耐人寻味的是，欧洲人看到DeepSeek后，反而开始重燃希望。</p>
-<p>DeepSeek的速度如此之快，让他们也将其视为自己最终取得突破的希望灯塔。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,431" src="https://img.36krcdn.com/hsossms/20250212/v2_4a5aaf7652034d5aa4a8b3acf2208fe8@46958_oswg839318oswg1080oswg431_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">2025年2月10日和11日，法国在Grand Palais举办AI行动峰会</p>
-<p>DeepSeek证明了：通过采用更高效的训练技术和巧妙的工程技术来构建模型，要在AI的前沿保持竞争力，可能只需要数千万美元，而不是数百亿美元。</p>
-<p>AI公司Hugging Face的法国裔联创兼CEO Clément Delangue表示：「DeepSeek证明了所有国家都可以参与AI，这在以前并不显而易见。现在，全世界都在追赶。」</p>
-<p class="image-wrapper"><img data-img-size-val="800,800" src="https://img.36krcdn.com/hsossms/20250212/v2_44398cf970aa416586c905ff3c3d2dbe@46958_oswg711612oswg800oswg800_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>甚至法国AI最大的希望Mistral AI的联合创始人对媒体，表示DeepSeek的成功给欧洲在AI领域带了「灵感」。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,349" src="https://img.36krcdn.com/hsossms/20250212/v2_f1f758f8eaed436798593a23679973f9@46958_oswg104269oswg1080oswg349_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不久前，Mistral AI旗下的AI应用Le Chat在法国App Store超越ChatGPT。</p>
-<p>或许是受此鼓舞，马克龙宣布投入1090亿欧元，开启欧洲版「星际之门」。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,249" src="https://img.36krcdn.com/hsossms/20250212/v2_41d2a1dd0a99427fa071b3b15f6d41b2@46958_oswg187411oswg1080oswg249_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>马克龙认为，在美国和中国的竞赛中，目前尚未走在前列但夹在二者之间的国家（比如法国和印度），可能会找到成为AI强国的「第三条路」。</p>
-<p>马克龙还提议：建立一个新的国家联盟，创造AI发展的第三种吸引力，以平衡美中之间的竞争。</p>
-<p>美国副总统万斯出席此次AI峰会，或许就是他与欧洲方面接触的一个机会，好让欧洲更贴近美国。</p>
-<p>不过有马克龙的提议，却有一个潜在的尴尬之处——欧洲各国是否愿意投资该计划呢？毕竟，许多成员国的预算已经相当紧张。</p>
-<h2><strong>开源才是未来</strong></h2>
-<p>在文学节上的对DeepSeek的欢快讨论，引起了剑桥博士、Andurance Ventures联合创始人Nicolas Granatino的深思。</p>
-<p>他认为DeepSeek将是AI的领域的「Linux」：逐渐成为全球领先的开源AI基础设施项目，造福全人类。而OpenAI等闭源AI模型是「UNIX」：虽然暂时领先，但最终被历史抛弃，沦为小众的产品。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,351" src="https://img.36krcdn.com/hsossms/20250212/v2_31c88d210652414ca2b76dc609d77b22@46958_oswg85732oswg1080oswg351_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在合作中蕴藏着巨大的能量与速度，而软件代码尤其适合这一模式。</p>
-<p>随着DeepSeek R1的发布，Meta旗下的FAIR团队开源LLaMa，Mistral的迅速崛起，证明了程序员和科学家为何选择开源。</p>
-<p>这也不能理解为何奥特曼等人选择「OpenAI」这个名字来创办公司并吸引人才。</p>
-<p>如果这些前沿实验室的团队选择闭源而非开源，他们能否在短时间内获得如此轰动的宣传？或者在AI社区中建立如此强大的个人品牌？</p>
-<p>答案是显然不可能。</p>
-<p>过去的UNIX的发展轨迹为今天人工智能（AI）领域所发生的事情提供了一个有力的类比。</p>
-<p>最初，AT&amp;T的贝尔实验室在1960至70年代推广并免费分发UNIX，这种免费分发促进了创新与采用。然而，在1970年代末，AT&amp;T决定实施限制访问的专有许可，这直接导致了伯克利大学推出了BSD Unix作为开源替代品，并最终由Linus Torvalds在欧洲发起了Linux的开发。UNIX的开源运动从美国移到了欧洲，而LINUX的出现标志着这一转变。</p>
-<p>类似的情况在人工智能领域正在重演。OpenAI在接受微软10亿美元投资后将其转向了盈利模式，而DeepSeek等公司则代表了全球开源AI的兴起，特别是在欧洲、中东、印度和中国等地区。</p>
-<p>巴黎人工智能行动峰会（AI Action Summit）提供了一个重要的机会，可以借鉴人类基因组计划（HGP）的模式，发起一个全球性的「人类AI计划」来推动开源AI的发展。</p>
-<p>在这个计划中，巴黎原则可以发挥作用，推动各国和地区之间的协调合作。国际性的、基于开源AI的合作平台将有助于缩小全球AI技术差距，推动全球开源AI的迅速发展。</p>
-<p>眼前的机会巨大。</p>
-<p>DeepSeek、Mistral AI等新兴企业为公众提供了希望，证明了合作模式能够与垄断的AICs抗衡。</p>
-<p>AI行动峰会应成为促进全球合作创新的契机，为全球AI的发展开辟一个更加开放、协作和伦理的未来。</p>
-<p>参考资料： </p>
-<p>https://substack.com/inbox/post/156588081?r=44hcrd&amp;</p>
-<p>https://www.ft.com/content/794d62b6-30c9-47d3-9d17-80f5e86c867f</p>
-<p>https://x.com/jefflijun/status/1889339249146663371</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/B5SH263N9dBI_d3NP7BvYw" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：Aeneas KingHZ ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163274405112325</guid><pubDate>Wed, 12 Feb 2025 16:00:00 +0800</pubDate></item><item><title>谁是2025开年爆款短剧？新榜发布1月&amp;春节档短剧热榜</title><link>https://36kr.com/p/3163297579150087</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>春节过后，“短剧春节档是伪命题吗”、“短剧春节档为什么没爆”等话题在业内引起诸多讨论。依托新榜大数据分析与定向调研能力，新榜联合中国广告协会推出1月&amp;春节档在播短剧热度榜，及抖音、快手平台短剧创作者影响力榜、短剧创作者商业价值榜、在播短剧热度榜，每月一期，本期为第十一期（第十期点此浏览）。 </p>
-<p>我们来从数据角度，看看2025年1月与春节档期间，短剧创作者们和热播短剧有哪些变化？这届短剧春节档战况如何，谁最突出？谁是2025开年爆款短剧？榜单覆盖抖音、快手平台短剧创作者与内容多个关键维度，包括但不限于点赞量、评论量、分享量、粉丝数等基础数据指标，旨在帮助从业者梳理两大平台短剧创作者与内容现状，为行业内外提供数据参考与洞察。 </p>
-<h2><strong>春节热播短剧榜单</strong></h2>
-<h3><strong>抖音春节在播短剧热度榜</strong></h3>
-<p>《夫妻的春节》位居榜首 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_a7c716b5e5774647a9be6edfa0629d91@000000_oswg248151oswg1080oswg2549_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>春节档期，短剧市场呈现出跨年、团圆为主题的创作趋势，创作者们在传统短剧主题的基础上进行延伸，推出了一系列“节味”浓厚的作品。 </p>
-<p>《蛇来运转，回家过年》便是一个典型例子。该剧虽选择了“侮辱+身份反转”这一短剧常规主线，但巧妙地将故事场景设定在年夜饭中，与用户即将回家过年的节点相契合。作为付费短剧，累计播放数达到1亿，证明了“老套路+新节点”模式依然具有市场潜力。 </p>
-<p>《夫妻的春节》以4亿的播放量位居榜首。这是一部由倪虹洁监制并主演的家庭情感短剧，讲述了女主角陆遥在多年婚姻中无私付出，却长期被忽视、被安排、被通知，最终在春节期间爆发的故事。该剧受欢迎，一方面是因为其贴近生活的剧情和对现实婚姻问题的精准捕捉，展现了婚姻中的鸡毛蒜皮、家庭分工不均、婆媳关系、子女教育等现实问题，引发了用户的强烈共鸣，从评论区来看，不少女性观众表示剧中情节与自己的生活类似；另一方面，该剧在制作上十分精良，启用了电视剧级的班底，主创来自《与晋长安》团队，演员们的出色表现也为剧情增色不少。 </p>
-<p>《河豚小姐》位列第二。该剧属于家庭情感类短剧，该剧由张大鹏执导，李嘉琦、韩童生等人担纲主演，与前述短剧不同，这部剧讲述了代际间的沟通矛盾。千万级顶流主播女儿闪闪在社交平台上风光无限，但背后却隐藏着对父爱的渴望和内心的迷失。剧中细腻地描绘了父女之间的亲情，引发观众对家庭关系的反思。 </p>
-<p>这两部短剧选择在阖家团圆之际，以家庭小事为切入口，以小见大，深入挖掘家庭关系背后的情感与沟通方式，引发国人对家庭关系的深刻思考，为春节档短剧市场增添了深度与内涵，也为未来短剧创作提供了有益的借鉴与启示。 </p>
-<h3><strong>快手春节在播短剧热度榜</strong></h3>
-<p>孙越短剧《财神为我下凡来》位居第一 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_b727e424a502498083278e4b88752770@000000_oswg240619oswg1080oswg2549_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>与抖音平台类似，快手平台在春节这一特殊节点下，其榜单也展现出浓厚的“迎新年”氛围，“大年夜”“财神”“新年”等关键词成为平台热播短剧的关键标签。 </p>
-<p>《财神为我下凡来》以1.7亿的播放量在快手春节在播短剧热度榜中拔得头筹。 该剧由相声演员孙越出演，由快手短剧、美团团购、北京十二升肖影视传媒有限公司共同出品。这是一部融合了治愈、情感、喜剧元素的短剧。该剧讲述了自卑女孩金萌萌（姜杉饰）因性格问题难以留住财富，财神（孙越饰）为了保住自己的职位下凡帮助金萌萌，过程中发生了一系列搞笑又奇幻的故事。剧中财神形象与中国传统文化习俗相契合，同时，剧中丰富的搞笑和奇幻元素为用户带来了诸多笑料，这也是孙越继《爱在胡同黄昏时》之后与快手合作的又一力作。 </p>
-<p>《太阳雨》以1.1亿的播放量排名第二。该剧讲述了新人歌手男主因撞破娱乐圈潜规则而被雪藏，人生跌入谷底，女主的善良和坚持让男主重新燃起希望，走出阴霾，期间两人在相互扶持中逐渐产生深厚情感的故事。该剧属于典型的校园甜宠类短剧，通过展现青春活力与情感故事，唤起了观众对美好恋爱的回忆和共鸣，从而获得了较高的播放量。此外，该剧的豪华演员阵容也是其大受欢迎的重要原因，两位主角在快手平台的总粉丝数超800万，且快手平台为其上线了专属宣传海报，提升了该剧的知名度和影响力。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_d01e5d2ba2ec4c07ac7689674762c35e@000000_oswg1505291oswg1080oswg1866_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>2025年1月抖音榜单</strong></h2>
-<h3><strong>1. 抖音短剧创作者影响力榜</strong></h3>
-<p>“ 脱缰凯✨”位居抖音短剧创作者影响力榜首 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_2c9d9bdc130c43e5a45328fbbc09662d@000000_oswg274988oswg1080oswg2584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>本月抖音影响力榜单中，“脱缰凯✨”位居第一。创作者依旧在围绕“上学时经历的生死时刻”创作内容，1月累计发布内容14条，累计获赞超2000万次，传播效果优异。 </p>
-<p>“刘一朵”位列榜单第二名，该账号定位与“脱缰凯✨”类似，围绕学生群体创作内容。其1月第一条作品《抖音春晚来了，留着过年看！》联动了包括刘一朵、周小闹、脱缰凯、二阳砸在内的十余位抖音头部剧情类创作者，熟悉的“顶流”面孔为其视频增色不少，内容总点赞量超240万次。 </p>
-<p>“小三金”位列榜单第三，创作者更新了多条“唱跳才艺”类视频，获得不错传播。 </p>
-<h3><strong>抖音短剧创作者商业价值榜</strong></h3>
-<p>“大肚子油油”为抖音最具商业价值短剧创作者 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_ed3139151bcb4c55a9e67478037bf9f2@000000_oswg249365oswg1080oswg2584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>观察1月短剧榜单，有了更多短剧新人上榜。“大肚子油油”、“温仙女”均为第一次发布短剧作品。其中，创作者“温仙女”剧集《再次重生》，获得了超7500万次的播放。 </p>
-<p>“大肚子油油”位居1月抖音短剧创作者商业价值榜第一。该创作者为美妆博主，同时也是一名电商主播，据新抖数据，创作者1月累计销售额在1000万-2500万间。1月，该创作者在常规的美妆商单内容基础上，与气垫品牌Passional Lover合作推出了短剧《看不见的爱人》，并通过联合共创与品牌话题词的方式，为品牌直播间引流。 </p>
-<p>“脱缰凯”位居榜单第二名，创作者与奥利奥、趣多多、三只松鼠在内的多个食饮品牌展开合作，合作方式以单条独立视频为主。合作内容传播出色，据新榜不完全统计，其商业合作作品平均播放量超5000万次。 </p>
-<p>“姜十七”位列第三。当月，创作者与丸美合作了短剧《不愧是顶级女保镖》，据抖音数据，该剧集总播放了超7000万次，助其登上商业价值前三宝座。 </p>
-<h3><strong>抖音在播短剧热度榜</strong></h3>
-<p>《夫妻的春节》位列在播短剧热度榜首位 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_8a241efe164b40029e0bde96cf6640e2@000000_oswg191519oswg1080oswg2549_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>1月，短剧《夫妻的春节》位列抖音在播短剧热度榜第一。该剧通过对生活场景的“再现”和对现实婚姻问题的精准捕捉，展现了婚姻中的琐碎事务、家庭分工不均、婆媳关系、子女教育等现实问题，引发了用户的强烈共鸣，获得不俗的传播。 </p>
-<p>《以爱之名》位列榜单第二。该剧讲述了高中生李小小在16岁时与父亲、后妈以及后妈的侄子凌夏组成一个特殊的重组家庭。在这个没有血缘关系的家庭中，李小小用乐观的态度化解生活中的烦恼，成为全家人的“团宠”，同时收获了温暖且浪漫的爱情故事。剧中以轻松治愈的风格，描绘了家庭温暖以及爱情的甜蜜，满足了过年期间观众对温暖与治愈内容的需求。 </p>
-<h2><strong>2025年1月快手榜单</strong></h2>
-<h3><strong>快手短剧创作者影响力榜</strong></h3>
-<p>“高箐鸿🍐”位居快手短剧创作者影响力榜单首位 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_8d37521ab7774ea69dd8c1c61ba42265@000000_oswg270518oswg1080oswg2584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在快手影响力榜单中，“高箐鸿🍐”排名第一，其作品月播放量超1.8亿次。1月，创作者发布了其首条短剧《太阳雨》，截止目前，剧集总播放量超1.4亿次。《太阳雨》的成功也为其带来不俗的关注度，单月涨粉近60万，数倍于12月水平。 </p>
-<p>“桃六六”位居第二，1月创作者发布了14条作品，主要围绕大学宿舍场景，更新单集剧情类内容。包括校园霸凌、舍友生活习惯矛盾、宿舍故事会等场景。 </p>
-<p>排名第三的创作者为“一只璐”，1月，该创作者发布了140余条作品，主要是对其电商直播进行切片，并挂载了小黄车，引导二次转化。 </p>
-<h3><strong>快手短剧创作者商业价值榜</strong></h3>
-<p>“彦儿”为1月快手短剧榜单中商业价值最高创作者 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_32066f567437422f951f6c6f6cb68aa3@000000_oswg253457oswg1080oswg2584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>“彦儿”位列快手短剧商业价值榜单首位。1月，该创作者与美团团购合作了品牌冠名短剧《今年把我妈嫁出去》，截至目前，剧集总播放量达2亿次。创作者挂载了美团APP下载链接，以低价团购劵引导用户下载。 </p>
-<p>“破产姐弟”在榜单中排名第二。该创作者与淘宝合作推出了3集的系列单元短剧《妈妈的新年》。 </p>
-<p>“会变身的九九”在榜单中位居第三。商业合作内容主要分为两部分，一是延续上月与乳业品牌A2合作的短剧《白月光归来成顶流》。二是创作者与华为合作的单条商业内容。 </p>
-<h3><strong>快手在播短剧热度榜</strong></h3>
-<p>《互换人生的我们》为快手在播热度最高短剧 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_7322dea8da1840b9ad54459ec49809c3@000000_oswg187052oswg1080oswg2584_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>1月，快手在播短剧热度最高的作品为《互换人生的我们》。作品讲述了80年代出生的村花苏连翘（王格格饰）和21世纪的苏氏集团大小姐苏连翘（同样由王格格饰）因相貌相同而互换身份的故事。剧中跨越时空的身份互换自带一定的戏剧性，这为剧情增添了趣味性。同时，女主角出色的表演，也成功实现一人分饰两角，为观众提供了超强代入感。 </p>
-<p>榜单中排名第二的短剧为《今年把我妈嫁出去》。作品讲述了年轻女主事业有成但需常年奔波在外，年关将至，女主联系红娘公司为50岁以上离异或丧偶的老年男性物色相亲候选人，希望母亲能收获一段银发恋情，这期间发生的一系列跌宕起伏的故事。剧中女儿替妈妈相亲的独特视角呈现出了代际关系与众不同的表述方法。此外，该短剧剧情紧凑，从画面到音乐，都展现出较高的制作水平，也为其出色的传播打下了坚实的基础。 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzAwMjE1NjcxMg==&amp;mid=2654825011&amp;idx=1&amp;sn=afc1e8c045600e9ecd1fc86eeb45f6ff&amp;chksm=8083922f5650b8c453ea5bbf525187a67fba62f766aed0984b711589eab81c6faa2361fc763f&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“新榜”（ID：newrankcn）</a>，作者：新榜编辑部，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163297579150087</guid><pubDate>Wed, 12 Feb 2025 16:17:00 +0800</pubDate></item><item><title>美元式微：交易量仅占市场3%</title><link>https://36kr.com/p/3163195172022788</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>以下内容节选自 IT 桔子《2024-2025 年中国新经济创投数据报告：潮涌新兴，寒袭旧路》。 </p>
-<p>人们的体感和数据，都在一遍遍的证明「美元式微」。 </p>
-<p>从交易事件数量来看，人民币交易是国内一级市场的主流交易币种。一直以来，市场上超过 9 成的交易币种都是人民币。2024 年，市场中有 5530 起人民币交易事件，占比 97%；美元融资事件数量仅有 150 起，占比 3%，连续四年下滑。 </p>
-<p>从交易金额来看，美元融资的总金额在前 7 年的占比在 32%-43% 之间，在市场有着举足轻重的影响力。但近几年来，人民币融资金额占比与美元融资金额差距逐渐增大。到 2024 年，人民币融资额占融资总金额 89%，而美元仅占 11%。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_5886d557ee674f98b610a33d989ae8c4@000000_oswg267751oswg1080oswg777_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>洞悉数据</strong></p>
-<p>中国创投市场的美元投资规模近年来显著缩水，这一现象是多重因素叠加的结果，涉及地缘政治、市场环境、政策调整以及资本结构变化等多方面原因。 </p>
-<p><strong>1. 地缘政治与美元 LP 的谨慎态度</strong></p>
-<p>中美关系紧张：中美在科技、贸易等领域的博弈加剧，导致美国 LP 对投资中国市场的风险偏好下降。例如，美国私募股权和风险资本 2022 年对华投资额较 2021 年减少 76%，项目数量下降 40%。 </p>
-<p>LP 结构「去美国化」：为规避政策风险，中国头部美元基金主动调整 LP 结构，降低美国资金比例，转而引入中东、欧洲、东南亚等地区的资金。例如，红杉中国新募资中美国 LP 占比从 30% 降至 15%。 </p>
-<p>美国国内压力：美国养老金、州立基金等大型 LP 因声誉风险对中国市场持保守态度，而富豪家族办公室等财务型 LP 虽仍有兴趣，但整体出资规模受限。 </p>
-<p><strong>2. 募资端受阻与美元基金转型困境</strong></p>
-<p>美元募资冰封：2023 年第一季度外币基金募资规模同比下降 41.5%，美元基金募资周期延长，部分机构甚至因募资失败而注销，如中东基金 G42 Expansion Fund 成立仅 18 个月即退出中国市场。 </p>
-<p>转向人民币基金的挑战：美元基金试图募集人民币基金以延续生存，但难以适应政府引导基金的「返投」要求（如要求投资本地产业或完成招商目标），导致合作受阻。例如，山东某引导基金直言美元基金「思维模式未转变」，难以满足地方诉求。 </p>
-<p><strong>3. 退出渠道受限与估值倒挂</strong></p>
-<p>IPO 退出难度加大：中国证监会阶段性收紧 IPO 审核，A 股上市门槛提高，导致美元基金依赖的 IPO 退出路径受阻。2024 年上半年 A 股 IPO 终止企业数量同比增长超 80%。 </p>
-<p>估值倒挂风险：一级市场高估值项目在二级市场表现不佳，加剧 LP 对美元基金回报能力的质疑。 </p>
-<p>替代退出方式不足：并购、S 基金等替代退出渠道尚未成熟，美元基金被迫长期持有资产，流动性压力陡增。 </p>
-<p><strong>4. 政策导向与资本结构转型</strong></p>
-<p>国资主导市场：政府引导基金、地方产业基金等政策型 LP 占比超过 50%，投资方向聚焦硬科技、新能源等国家战略领域，而美元基金在资源整合和产业协同上缺乏优势。例如，2024 年上半年 90% 以上的大额融资由国资背景基金主导。 </p>
-<p>美元基金投资赛道边缘化：互联网、消费等美元基金传统优势领域热度消退，硬科技、先进制造等领域更依赖政府资金支持，美元基金难以适应这一转变。 </p>
-<p><strong>5. 行业周期与市场信心变化</strong></p>
-<p>资本泡沫出清：过去十年美元基金推动的高估值项目面临调整，市场回归理性。例如，2021 年后未融资的独角兽中，超 50% 估值虚高，实际价值不足 10 亿美元。 </p>
-<p>美元基金「长期主义」失效：人民币基金更注重短期收益（如 DPI 考核），而美元基金的长周期模式（通常 10 年）在退出受阻和 LP 信心不足的背景下难以为继。 </p>
-<p>美元基金在中国市场的式微，本质上是全球资本流动格局重构、中国本土资本崛起以及政策导向共同作用的结果。短期内，美元基金可能通过调整 LP 结构（如引入中东资本）或转型双币种基金维持生存，但长期来看，其在中国创投市场的影响力将持续弱化。未来，国资与产业资本主导的「中国特色 VC 生态」将进一步强化，而美元基金需在专业性和资源整合能力上寻求突破，方能在细分领域保留一席之地。 </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjQ2NzA2Mg==&amp;mid=2649619995&amp;idx=1&amp;sn=0ae8dacd124c18855a6e9214e2004dcb&amp;chksm=bfd4047bb8e5bd0cdb87a84648d4198e3bc866020e018ba304042422c912efc580f7e729707d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“IT桔子”（ID：itjuzi521）</a>，作者：Judy 霍英贤，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163195172022788</guid><pubDate>Wed, 12 Feb 2025 16:26:00 +0800</pubDate></item><item><title>奥特曼公开回怼马斯克，OpenAI董事会成员：说要收购，没收到报价啊？</title><link>https://36kr.com/p/3163271856204549</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>奥特曼马斯克互怼继续！</strong></p>
-<p>继两人因“收购OpenAI”在𝕏平台爆发口水大战后，OpenAI CEO奥特曼在随后的巴黎AI峰会上，对马斯克予以公开回击。</p>
-<blockquote>
-<p>马斯克此举只是压制竞争的小伎俩，我希望他能通过打造更好的产品来竞争；</p>
-<p>可能他的一生都处于不安全状态，我为这个人感到难过…我不认为他是个快乐的人。</p>
-<p><strong>OpenAI不打算出售</strong>。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="994,550" src="https://img.36krcdn.com/hsossms/20250212/v2_3cad530234c2493ab1a6081c35ce4301@46958_oswg461156oswg994oswg550_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而且，就在马斯克律师宣布，已经向OpenAI董事会提交了对该非营利组织所有资产的出价之后，OpenAI董事会这边有成员出来“打假”了。</p>
-<blockquote>
-<p><strong>除了媒体报道未收到正式报价</strong></p>
-</blockquote>
-<p>嗯，这究竟咋回事儿？？</p>
-<p class="image-wrapper"><img data-img-size-val="212,184" src="https://img.36krcdn.com/hsossms/20250212/v2_6bd7ae74748f4a29b7a2bba907ef3a67@46958_oswg67916oswg212oswg184_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>马斯克出价974亿美元“让OpenAI回归开源”</strong></h2>
-<p>事情还要回到当地时间2月10日。</p>
-<p>华尔街日报爆料称，以马斯克为首的财团出价974亿美元（约7118.43亿元人民币），要收购OpenAI。</p>
-<p>而且马斯克的律师表示，<strong>他已经于周一向OpenAI董事会提交了收购要约</strong>。</p>
-<p>甚至，这还不是马斯克给出的最终一口价，律师表示，“马斯克的投资者团体，准备匹配或超过任何高于OpenAI自己的出价。”</p>
-<p>在律师提供的一份声明中，可以看到马斯克喊出的口号：</p>
-<blockquote>
-<p><strong>是时候让OpenAI回归其曾经的开源、以安全为核心的公益使命了，我们将确保这一目标实现。</strong></p>
-</blockquote>
-<p>消息公布后，OpenAI CEO奥特曼火速上线，开始了第一波回击：</p>
-<blockquote>
-<p>谢谢，但婉拒了哈！</p>
-<p><strong>不过如果你愿意的话，我们愿意以97.4亿美元的价格收购Twitter</strong>。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1079,365" src="https://img.36krcdn.com/hsossms/20250212/v2_0227c6232edc484f9e4ee61d19370c7d@46958_oswg63280oswg1079oswg365_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不仅直接称𝕏为Twitter，而且故意只将马斯克的出价挪了下小数点。（甚至远低于老马收购推特的440亿美元）</p>
-<p class="image-wrapper"><img data-img-size-val="180,192" src="https://img.36krcdn.com/hsossms/20250212/v2_f95af05524e8410087fc9330276d3045@46958_oswg43319oswg180oswg192_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而马斯克也是不甘示弱，不仅在上述推文下留言“骗子”，面对面battle。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,251" src="https://img.36krcdn.com/hsossms/20250212/v2_1145700bff234d78a76cb8d3daa97c7c@46958_oswg55626oswg1080oswg251_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而且单独发了一条奥特曼的20s短视频，并同样赤裸裸配文：</p>
-<blockquote>
-<p><strong>奥特曼，大骗子！</strong>（视频中，奥特曼表示自己没从OpenAI拿到股权）</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,1053" src="https://img.36krcdn.com/hsossms/20250212/v2_84a98be6e01945e096ce2124e5cb6a95@46958_oswg524210oswg1080oswg1053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>明面上看，双方此次争议焦点在于<strong>OpenAI的非营利部分</strong>。</p>
-<p>从去年年底开始，OpenAI表示为确保实现AGI造福全人类这一使命，董事会正在评估公司结构。</p>
-<p>简单说，OpenAI未来将保持「非营利性组织」和「营利性组织」兼而有之的状态。</p>
-<p>而马斯克这一次的报价，正是<strong>“对OpenAI非营利组织所有资产的出价”</strong>。</p>
-<p>在老马的立场看来，此举有助于恢复OpenAI对“开源”和“安全”的初心；但在奥特曼眼中，这明显是一种竞争伎俩。</p>
-<blockquote>
-<p>我认为他可能只是想让我们慢下来，他显然是一个竞争对手。（马斯克旗下有xAI这样的人工智能初创公司）</p>
-</blockquote>
-<p>奥特曼之所以这样说，<strong>原因可能在于两点</strong>：</p>
-<p>一是正如华尔街日报的看法，这个不请自来的报价，大大增加了OpenAI转为“非营利+营利”计划的复杂性。</p>
-<p>因为在转型过程中，当前最难的工作之一恰好是给非营利性的这部分准确估值。</p>
-<blockquote>
-<p>马斯克的出价设定了一个很高的标准，可能意味着他或经营这家非营利组织的任何人，最终将获得新OpenAI的大量且可能具有控制权的股份。</p>
-</blockquote>
-<p>另一方面，这一举措<strong>很可能扰乱OpenAI当前正在推进的新融资</strong>。</p>
-<p>此前多方爆料称，今年1月底，奥特曼正带领OpenAI筹集新一轮400亿美元融资额。</p>
-<p>横插一脚的马斯克，显然将给这轮融资带来新的巨大不确定性。</p>
-<p>更有网友爆料称，虽然明面上这笔新融资的用途是为了弥补过往亏损，以及实现OpenAI对“星际之门（Stargate）”项目的承诺。</p>
-<p>但实际上，奥特曼是想用这笔钱购买“非营利性资产”？？（这要是真的，那归根结底还是对公司控股权的争夺）</p>
-<p class="image-wrapper"><img data-img-size-val="1080,282" src="https://img.36krcdn.com/hsossms/20250212/v2_07bf9f6b423e4458895e331b2f4ed6e2@46958_oswg98892oswg1080oswg282_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>OpenAI董事会成员纷纷辟谣</strong></h2>
-<p>然而，就在马斯克相关计划曝出后，OpenAI董事会这边有人出来“辟谣”了。</p>
-<p>OpenAI总监Larry Summers向媒体表示：</p>
-<blockquote>
-<p>作为董事会成员，除了媒体报道，我未收到任何形式的正式沟通。</p>
-</blockquote>
-<p>而且针对马斯克此举是否可能让公司转型更复杂的观点，他也公开透露：</p>
-<blockquote>
-<p>如果董事会实际上收到报价，公司将适当地就此事发表评论。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="177,184" src="https://img.36krcdn.com/hsossms/20250212/v2_75a1de6781b149079fbb34873fad2db6@46958_oswg63366oswg177oswg184_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另外，作为OpenAI董事会主席的Bret Taylor，也在媒体采访中明确表示：</p>
-<blockquote>
-<p><strong>OpenAI不会出售</strong>，因为它有确保通用人工智能（AGI）造福人类的使命……</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="1080,1325" src="https://img.36krcdn.com/hsossms/20250212/v2_fcfd8b5cff504192ae373769e05cff19@46958_oswg675978oswg1080oswg1325_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>所以，接下来搬好小板凳，坐等老马回应hhh。</p>
-<p>参考链接：</p>
-<p>[1]https://x.com/tsarnick/status/1889412799660786126</p>
-<p>[2]https://x.com/business/status/1889263983250620478</p>
-<p>[3]https://www.axios.com/2025/02/11/openai-altman-musk-offer</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/dWCcQ_91IU6c5g7vq8HB_A" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：一水，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163271856204549</guid><pubDate>Wed, 12 Feb 2025 16:27:00 +0800</pubDate></item></channel></rss>
+<p>https://arxiv.org/abs/2502.06703 </p>
+<p>https://ryanliu112.github.io/compute-optimal-tts/ </p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/ygv_CIcVJcRsgr98fdKc_g" rel="noopener noreferrer nofollow" target="_blank">“新智元”</a>，编辑：编辑部 HNYZ ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163272166648577</guid><pubDate>Wed, 12 Feb 2025 16:56:00 +0800</pubDate></item><item><title>怎样提高你的深度思考力？从这3点做起</title><link>https://36kr.com/p/3163171423939074</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>如何提升自己的深度思考能力？从改正3个思维陷阱开始做起： </p>
+<p><strong>1. 逆推谬误：先有结论，再有过程</strong> </p>
+<p>很早以前我在做咨询行业的时候，老板告诉我一条铁则： </p>
+<p><strong>“过程比结论更重要。”</strong> </p>
+<p>怎么去理解这句话？ </p>
+<p>举个例子。 </p>
+<p>比如现在你是一个电商营销经理，公司最近新推了一个口红出去，营销费用花了不少，打了很多广告，可用户增长一直做不上去，销售额也平平无奇。 </p>
+<p>这个时候你会怎么做？ </p>
+<p>找原因，做分析，对吧。 </p>
+<p>那最容易想到的原因有哪些呢？ </p>
+<p>脑子里很快蹦出来几个选项，比如产品本身的卖点不突出不吸睛；或者竞争对手是金主爸爸，砸的营销费用是我们的N倍；也可能是消费者的品味发生了变化，不再喜欢这种风格的口红设计。 </p>
+<p>以上这些，是最容易想到的3个原因。 </p>
+<p>那为了证明这些假设的原因，接下来会去做什么呢？ </p>
+<p>找支撑点, 也就是我们常说的论据。 </p>
+<p>产品本身卖点不突出，那就来看看具体有哪些卖点，再和同类的竞品对比一下，看看是不是足够吸睛； </p>
+<p>竞争对手花的营销费用更多，那就来看看他们把钱都投在了哪些渠道，估算一下整体的媒介预算花费有多少； </p>
+<p>消费者品味发生了变化，这个更简单，去扒拉一下产品主页的评论区留言，看看用户们都是怎么评价咱们产品的。 </p>
+<p>到目前为止，这个思路似乎没什么问题，最后洋洋洒洒写出一个分析报告PPT，提给老板交差，大功告成。 </p>
+<p>但是大家有没有发现一个bug? </p>
+<p>以上这套思考路径，是按照先有结论（假设3个销量不佳的可能原因），再去论证（找资料和数据）的逆推逻辑来操作的。 </p>
+<p>但这么做是正确的吗？真能找到问题的症结吗？ </p>
+<p>并不能。 </p>
+<p>这是一个真实发生过的故事，所以我才拿出来举例，这件事最后真正的原因是： </p>
+<p><strong>电商平台的算法规则改了。</strong> </p>
+<p>因为以往的营销流量打法，并不适用于现在的新规则，所以才导致用户增长和销售额上不去。 </p>
+<p>通俗来讲，就是过去你可以100块钱全部梭哈买流量，可现在你要把100块拆成20块、30块、50块分别去花，去操盘不同的版块内容，最后形成营销组合拳，这样才会有效果。 </p>
+<p>而之前设想的3个原因，没有一个说到点子上。 </p>
+<p>这就是逆推型的逻辑谬误： </p>
+<p><strong>只有结论，再有过程。</strong> </p>
+<p>仅凭经验主义总结出几个可能的原因出来，导致后面所有的论证都在潜意识里向这些方向去靠拢，而忽略了意想不到的新可能。 </p>
+<p>这和警察探案很像。 </p>
+<p>当警察带着主观意识去锁定一个犯罪嫌疑人的时候，在找证据的过程中，就会不自觉朝着能证明TA有罪的方向去寻找，而忽略了能证明TA无罪的信息。 </p>
+<p>如果没有及时意识到这个思维谬误，最后很容易导致冤假错案的发生。 </p>
+<p>在工作中也是如此。 </p>
+<p>遇到问题了，我们往往会根据个人经验先提出假设，再去做论证。这个方法虽然能够帮助我们聚焦思考方向，但同时也屏蔽了其他更多的可能。 </p>
+<p>有一个词专门描绘这种现象，叫： </p>
+<p><strong>懒惰的真相。</strong> </p>
+<p>在大众传播的语境里，人们更倾向于别人告诉他们真相，而不愿意自己动手去挖掘真相。 </p>
+<p>因为从无到有找寻一个真相，投入的成本太高。可如果事先已经有一个假设的真相存在，我们只用去证明它的对错，反而更容易。 </p>
+<p>面对简单的问题还好，一旦问题的复杂系数变高，这么做往往会离真正的真相越来越远。 </p>
+<p>那么正确的做法是什么呢？ </p>
+<p>很简单，把顺序倒过来。 </p>
+<p>过去是先有结论，再去证明。现在我们先找证据，再推理结论。 </p>
+<p>还是文章开头那个例子，销售额和用户增长上不去，这是问题。那么基于这个问题，我们不要急着提出假设，而是去搜寻事实。 </p>
+<p>怎么搜寻？ </p>
+<p><strong>三个字，找异常。</strong> </p>
+<p>既然按照以往的经验操作，得出了完全不一样的结果，那过程中一定发生了异于平常的事情，你要把它们全部找出来。 </p>
+<p>当时我们事后复盘就找出了很多异常，比如媒体预算投入的ROI显著降低，追踪消费者的行为发现路径明显拉长，该出现我们产品广告的地方却出现了别的内容。 </p>
+<p>所有这些异常现象拼接在一起，推理出一个我们在过去怎么也不会想到的结论： </p>
+<p><strong>平台的规则改了。</strong> </p>
+<p>然而当我们带着这个结论去问电商平台的小二时，对方表示确实如此。并且一个月前就告知了我们此事，可当时谁也没有引起重视。 </p>
+<p>虽然蒙受了损失，但大家吃一堑长一智，以后分析问题的时候，再也没有掉入这样的逻辑陷阱中去。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_99a6a971a65e4df494710b7086ff87b8@000000_oswg54005oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>2. 断层谬误：我以为你知道</strong> </p>
+<p>大家一定玩过一个游戏： </p>
+<p>你画我猜。 </p>
+<p>一个人在画板上画画，另一个人根据画板上的图案来猜对方画的是什么。 </p>
+<p>听起来很简单对吧，但玩起来总让人啼笑皆非。 </p>
+<p>比如有次我和朋友玩，我抽中了一句诗： </p>
+<p><strong>“锄禾日当午。”</strong> </p>
+<p>于是我画了一个人弯着腰在锄地，头上再画个太阳，很好猜对吧？ </p>
+<p>但我那个朋友楞是猜了四五个都不对，急得我手舞足蹈跟他比划，而我又不能说话，最后时间到了只能含恨作罢。 </p>
+<p>事后我吐槽我的朋友，你搞什么飞机，这都猜不出来。 </p>
+<p>可他满脸无辜地望着我，表示这一幅图有很多种可能啊！ </p>
+<p>在这个例子中，其实我和我的朋友都没有错，错的是什么呢？ </p>
+<p><strong>信息认知的不对等。</strong> </p>
+<p>我拿到题目的时候，脑子里第一反应的画面是一个人在烈日下锄地，这没有任何错误。 </p>
+<p>但我的朋友他不知道我拿的题目是一首诗，而且还是一句中文诗。 </p>
+<p>所以当他看到一个人在锄地的画面，会想到很多种可能。比如梵高有一幅画也是一个人在太阳下锄地，他当时猜的就是这个。 </p>
+<p>这种情况，在《让创意更有粘性》这本书里面，有一个专门的概念来描述它： </p>
+<p><strong>知识的诅咒。</strong> </p>
+<p>当你知道一件事情的时候，你就无法想象自己不知道它的时候是什么样子。 </p>
+<p>这里的知识，不一定是真正的“知识”，它也可以是信息，事实，情报等。 </p>
+<p>而这就导致了我今天要说的第二个逻辑谬误，沟通断层。 </p>
+<p>你以为对方都知道，可对方并不知道。你以为对方能对你感同身受，可对方与你的悲喜并不相通。 </p>
+<p>这种现象在日常工作中，简直太常见了。 </p>
+<p>比如你在工作的时候，突然被叫入参加一个会议。 </p>
+<p>会上坐了七八个人，大家你一言我一语讨论地热火朝天，你完全不知道前因后果，不知道发生了什么事情，心里着急想着手头还有别的工作亟待完成。 </p>
+<p>会议结束，你的老大突然跟你说，刚才大家说的你都记下来了吧。这个新项目需要你来协助，你先把接下来的工作内容规划整理一下。 </p>
+<p>而你听完不知所措一脸懵逼地呆在那里，发出灵魂三问： </p>
+<p>“我是谁？我在哪儿？我要干嘛？” </p>
+<p>这就是知识的诅咒，你的老大和你处于信息层级的两个维度： </p>
+<p>他以为你对项目都知道，都理解。而你脑子里一片空白，连这个项目的前因后果都不晓得。 </p>
+<p>这时，你们的沟通就发生了断层。 </p>
+<p>类似的情况还有很多。 </p>
+<p>再比如，产品经理和程序员之间的沟通。 </p>
+<p>产品经理是市场导向思维，关注的是用户体验，是商业转化，是deadline。而程序员是理工科思维，关注的是可实现性，是因果转化，是问题聚焦。 </p>
+<p>一个是现实主义，一个是理想主义，两者的认知角度不同，就会导致日常沟通上的障碍发生。 </p>
+<p>产品经理说明天这个功能一定要上线，用户非常喜欢。可程序员拒绝，说实现这个功能等于要把之前的产品框架全部大改，不可能这么快做好。 </p>
+<p>于是矛盾就这么产生了。 </p>
+<p>那如何解决这个问题？ </p>
+<p>很简单，在沟通之前，先弄清楚自己和对方处于信息认知的哪个阶段。这里有个NPA原则，大家可以记一下。 </p>
+<p>所谓的NPA，分别指代三个单词： </p>
+<p><strong>Nothing/Part of it/All.</strong> </p>
+<p>它们分别代表了信息沟通的三个不同阶段。 </p>
+<p>Know nothing，是最初的阶段，对方对你要沟通的信息一无所知。 </p>
+<p>这个时候你就要从事情最初的起因背景开始讲起，按照事情发展的时间顺序，将重点信息摘录出来告诉对方。 </p>
+<p>Know part of it，对方对你要讲的信息知晓一部分。 </p>
+<p>这个阶段，在沟通时我们可以做一个简单的前情概要，一般不超过一分钟。 </p>
+<p>简单回顾事件之前的重要信息，然后开始说对方不知道的信息，做好承上启下。 </p>
+<p>比如：“上次不是说到......，现在有了新变化.....”, “之前有提到......事情后来有了发展......” </p>
+<p>最后，Know it all, 对方对你要说什么完全了解。 </p>
+<p>此刻你要做的就不是告知信息，而是要基于信息进行讨论。这时就不需要前情回顾，而是针对未来会发生的事情商量对策。 </p>
+<p>事先了解对方对信息的接受阶段，能够大大提高我们的沟通效率，避免“知识的诅咒”产生。 </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_7bbebaf6cd594543975d46bd8aed5e3d@000000_oswg101115oswg1080oswg852_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>3. 滑坡谬误：粗暴的因果推理</strong></p>
+<p>所谓滑坡谬误，就是使用一连串单线程的因果推论，来强行达到自己的目的。但在这个过程中夸大了每个因果链的关系强度，最终导致逻辑谬误的产生。</p>
+<p>在滑坡谬误中有一个经典句式：</p>
+<p>“如果发生A，就会发生B，如果发生B，就会发生C。所以为了避免C的发生，我们要阻止A.”</p>
+<p>这里的A到B，B到C，就是一个个的“坡”，最后从A推论到C的整个过程就是一个滑坡。</p>
+<p>比如，大家小时候一定听过长辈这样教训过：</p>
+<p>“考不上好初中，你就考不上好高中。考不上好高中，你就上不了好大学。上不了好大学，就找不到好工作。所以考不上好初中，以后就找不到好工作。”</p>
+<p>乍一看好像没毛病，但仔细思考就会发现问题。</p>
+<p>考不上好高中，就一定上不了好大学吗？</p>
+<p>上不了好大学，就一定找不到好工作吗？</p>
+<p>再往深一点想，身边有没有人没考上好高中，但依然上了好大学的呢？</p>
+<p>有没有人没上过好大学，但依靠自己的不懈努力最后也获得了好工作呢？</p>
+<p>显然是有的，我就是其中之一。</p>
+<p>那这一连串推论的逻辑漏洞在哪里？</p>
+<p>答案是，把每一个环节的可能性当做了必然性。</p>
+<p>考上了好高中，只是增加了考上好大学的可能性。而考上了好大学，也只是增加了找到好工作的概率，后面依然要靠你的专业技能、工作经验等综合实力。</p>
+<p>用前面那个句式来解释，就是发生了A，也不一定就会发生C.</p>
+<p>而相对应的，如果要证实这个滑坡确实存在，就要有充足证据证明每个“坡”都有合理且强烈的因果关联。</p>
+<p>比如你若能够证明，考上好高中是考上好大学的唯一途径，考上好大学是找到好工作的唯一途径，那么这个滑坡推论就是成立的。</p>
+<p>但很显然不能。</p>
+<p>那说了这么多，这个理论对我们的日常生活和工作有什么作用呢？</p>
+<p>有，培养我们的思辨能力，不被轻易带节奏。</p>
+<p>当我们看到一个现象，发现一个问题，不要一下子去想根本原因，而是去找关联事实。</p>
+<p>还是前面这个例子，如果“没有找到好工作”是一个问题，那么和这个问题所相关的事实有哪些？</p>
+<p>比如，很多企业缩减招聘名额，同一个岗位竞争激烈，市场薪酬行情下降等等。</p>
+<p>然后围绕这些事实，去做相应的拆解和对策分析。</p>
+<p>同一个岗位竞争激烈，那么接下来可以有3个选择：</p>
+<p>第一，降低自己的薪资要求，提升自己的性价比；</p>
+<p>第二，给自己的能力做加码，面试的时候突出自己更丰富的项目案例经验，给面试官留下深刻印象，或者请公司的同事做内推；</p>
+<p>第三，换个岗位应聘。</p>
+<p>围绕每个事实层层向下做拆解，你就会找到相应的办法。而不是简单粗暴地把原因归结为：</p>
+<p>当年没有考上好学校，所以现在没办法了。</p>
+<p>说白了，打破滑坡谬误的关键就在于，不要只盯着一开始的因，和最后的果，而是把中间的每一个环节都拿出来，思考它们之间的必然性。</p>
+<p>只要一个环节出现了问题，整个推导过程就不成立。</p>
+<p>以上就是今天的内容，最后简单总结一下，3个常见的逻辑陷阱，请你一定要避免：</p>
+<p>1. 逆推谬误：先有结论，再有过程；</p>
+<p>2. 断层谬误：我以为你知道；</p>
+<p>3. 滑坡谬误：粗暴的因果推理。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIyMzE4NjIzNA==&amp;mid=2649986357&amp;idx=1&amp;sn=14a84316579869637e23e0e01321dd85&amp;chksm=f11854997207948dd9342128487341f66dd542a1787faef5768fe49e93c30a466617ae313168&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“张良计”（ID：zhang_liangj）</a>，作者：张良计，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163171423939074</guid><pubDate>Wed, 12 Feb 2025 16:59:00 +0800</pubDate></item></channel></rss>
