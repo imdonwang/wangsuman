@@ -1,306 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 13 Feb 2025 17:00:22 +0800</lastBuildDate><pubDate>Thu, 13 Feb 2025 17:00:22 +0800</pubDate><item><title>他用AI做了一个维基百科「抖音」版，学知识比刷短视频还上瘾</title><link>https://36kr.com/p/3164538722740994</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_968502579a874bf68653b88fdbc3c2f3@000000_oswg473433oswg1024oswg468_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>如何克服狂刷短视频带来的时间黑洞？屏幕健康、数字极简都太好用。如今，出现了一个新应用，想用魔法打败魔法：不是爱刷下一条吗？让你刷个够。 </p>
-<p>近日，某位外国网友，就用 AI 制作了一个应用，让你能用刷抖音的方式刷维基百科词条，所以这应用就叫： </p>
-<p><strong>「WikiTok」</strong>。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_4ce6ea90dbf24a1e92257d1a2e1b1e40@000000_oswg232088oswg1080oswg1645_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>随机出现的维基百科页面｜图片来源：WikiTok </p>
-<p>不要以为维基百科枯燥，许多人都曾有「本来只是查个小知识点，结果一不小心深陷维基百科网，在无穷无尽的链接里跳转」的经历。甚至维基百科社群里就有个专门词，称这些用户是： </p>
-<p><strong>Wikiholic（维基成瘾者）</strong>。 </p>
-<p>所以我兴致勃勃点进 WikiTok，感受了一场寓教于乐的「信息成瘾」。 </p>
-<h2><strong>01 拒绝算法，套壳但不够 Tok</strong></h2>
-<p>WikiTok 就是个网页应用，页面极其简单，一个随机维基百科词条，下滑就刷出另一条词条，点击页面上的❤️收藏，点「阅读更多」会跳转到维基百科官方页面，条目之间完全随机，没有任何算法推荐机制。 </p>
-<p>WikiTok 的目的就是让用户随机获得一些有趣的信息，增长见闻，在无聊时，用「短信息」去代替短视频打发时间。ArsTechnica 报道称这种方式「<strong>你永远无法预测下一个跳转会带你去哪里，这种未知感令人兴奋</strong>。」 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_f9b694faa602442696afde540d4b5d50@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">个人体验是，30 条里能刷出 1 条感兴趣的｜图源：WikTok </p>
-<p>然而，在抱着这种期待体验后，我不仅对 WikTok 毫不成瘾，反而觉得有点浪费时间，还不如刷会儿抖音（不是）。问题就出在 0 算法，太随机。 </p>
-<p>WikiTok 的开发者 Gemal 坚决抵制兴趣算法，他表示「很多人给我发消息，甚至在 GitHub 上评论，想让 WikiTok 加入算法。我不得不说，我们日常生活里已经被无情且不透明的算法所统治，为什么不能在世界上有一个小角落，没有任何算法？」 </p>
-<p>开发者的想法很理想，但体验很糟糕。 </p>
-<p>我不得不下滑数十次，才能看到一个有点点感兴趣的词条，随机推送的机制，就相当于我在<strong>总计超过 6400 万个维基百科条目里开盲盒，我原本想在知识的海洋里遨游，但实际上是在大海捞针</strong>。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_fde28b45acc343bebfe5376592c7d8e5@000000_oswg142085oswg1080oswg1491_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">刷了半个小时就刷到四条略微感兴趣的条目｜图源：WikiTok </p>
-<p>想象一下加入了算法推荐的 WikiTok 多么有趣。 </p>
-<p>比如我最近沉迷中世纪背景的游戏《天国拯救 2》，对中欧中世纪的历史风俗非常感兴趣，游戏里也提供了大量维基词条去科普。所以当我在 WikiTok 上刷到「锁子甲」、「城堡」、「波西米亚战争」等词条时，简单阅读后果断点了「❤️」。 </p>
-<p>而后 WikiTok 会给我推荐越来越多的中世纪相关词条，我不需要准备三个小时读完「中世纪」这一维基百科词条。而是在各种碎片时间里打开 WikiTok，就能快速了解一个我感兴趣领域的小知识。 </p>
-<p>然而实际上，我在 WikiTok 上刷了接近五十个词条，才刷到一条「锁子甲」，而后类似词条再也没出现过，点了 ❤️也只是把「锁子甲」收藏后待日后翻阅。 </p>
-<p>目前 WikiTok 就只是一个浏览界面，它忽略了一个问题：<strong>TikTok 的核心就是算法，它靠算法在相关内容之间，一条条做横向推荐</strong>。 </p>
-<p>而传统的维基百科不需要算法，因为用户可以持续点击相关链接。一条完整的维基百科条目就已经集成了足够的「算法推荐」。就像我点进「中世纪」这一维基百科词条里，不仅单条目有两万多字，还有成百上千个可跳转的新词条、上百篇引用论文，光推荐继续研读的相关网站就有几十个。 </p>
-<p>TikTok 靠单条关联，维基百科是全部摊开，WikiTok 是在全部摊开下不做关联。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_bd0fcc0dd0064ed8b7dd72aaee8022b3@000000_oswg1303746oswg1080oswg1574_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">维基百科「中世纪」条目下有无数链接｜图片来源：维基百科 </p>
-<p>说白了，目前这种形式并没有体现 WikiTok 里的「Tok」，何况维基百科本身就有一个链接叫做「随机维基」，每次点进去会随机推送一条词条，也无任何算法和数据关联。 </p>
-<p>WikiTok 的形式，并没有在随机维基上做任何突破。但也不能过于苛求 WikiTok，毕竟： </p>
-<p><strong>它是一个靠 AI，一个半小时就做出来的网页应用</strong>。 </p>
-<h2><strong>02 靠 AI 能做出「抖音版维基百科」吗</strong></h2>
-<p>WikiTok 源于开发者 Tyler Angert 发了一条推文「一个疯狂的点子：整个维基百科都在一个单页，可滚动的页面上。」在网友评论「甚至更好的是，一个可以根据你的兴趣，无限下滑的维基百科页面。」而后 Angert 将这个想法命名为「WikiTok」。 </p>
-<p>此后该推文被转发上百次，在几小时后，让开发者 Gemal 看到了。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_1d63961cfee84fe29e1b3293d514a6df@000000_oswg224184oswg1026oswg1050_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">维基百科「抖音版」最初的 idea 来源｜图片来源：X </p>
-<p>Gemal 觉得可以用 AI 编程，马上做出一个「最小化可行产品」（MVP）。在 Claude、Cursor 等 AI 模型下，从凌晨十二点半刷到 WikiTok 的想法，到凌晨两点，Gemal 靠 AI 把 WikiTok 做出来了。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_368d27ddce734508814e6233c3cd2c67@000000_oswg145827oswg1008oswg760_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">不到 24 小时，靠 AI 编程让想法成真｜ 图源：X </p>
-<p>第二天，Gemal 推出 WikiTok 的推文转发破千，产品登上 Hacker News 当日新闻榜首。 </p>
-<p>Gemal 表示，WikiTok 只有几百行代码，绝大部分都是 Claude 写的，他已经把项目开源发到了 GitHub 上。但至今，他仍然坚持让 WikiTok 反算法。 </p>
-<p>然而，算法并不是 WikiTok「无聊」的唯一原因，还有形式的问题。 </p>
-<p>WikiTok 条目的呈现方式是最简单的文字摘要，配上一张条目里被放大的图片，观感十分简陋。 </p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_f6f28177408f47dfa2e6463d757c8c9f@000000_oswg82369oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">这清晰度仿佛穿越回 ADSL 时代｜图源：WikiTok </p>
-<p>既然整个 WikiTok 项目能在 AI 帮助下一个半小时就做出框架，那 AI 能否让它形式上更丰富呢？ </p>
-<p>比如跨语言支持，虽然 WikiTok 支持 14 种语言，但当你选择了使用语言后，它是直接把范围锁定到了该语言的维基库里。但维基百科第一语言的英文，有近 700 万条目，中文仅排第 12，只有不到 150 万条目。 </p>
-<p>如果 WikiTok 可以引入 AI 的翻译优势，就可能打通维基百科条目之间的语言壁垒，间接扩充了用户可访问到的条目数量。 </p>
-<p>在内容呈现上，AI 也能给 WikiTok 带来更丰富的形式，比如把 WikiTok 接入 Sora、Runway、可灵这类 AI 生成视频平台，<strong>提取维基百科文字摘要，生成 15 秒短视频，或是动态图文，甚至辅以 AI 解说</strong>。 </p>
-<p>围绕知识和信息，AI 还能做到动态可视化，或许还能生成交互式 3D 模型、时间轴动画、信息图辅以理解。 </p>
-<p>再加上推荐算法的加持，这是不是更接近想象中的「WikiTok」，一不小心就成了 Wikiholic（维基成瘾者）。何况算法推荐和 AI 条目短视频可以作为可选项，让原教旨维基者保留惊喜，给更大众的用户沉浸其中的机会。 </p>
-<p>维基百科的信息准确度、知识密度和广度都是一座互联网宝库，同样是打发碎片时间，从「刷了三个小时 TikTok，感觉虚度了人生。」到「刷了三小时 WikiTok，浅浅了解了一个新领域！」获取的信息多了，成瘾负罪感少了，何乐而不为呢？ </p>
-<p>别说，我还真挺想在 AI 时代，看到一个成熟的 WikiTok 出现，在搜索引擎、大语言模型、算法推送和传统百科之间，找到一个独特又能触达大众的路径。 </p>
-<p>*头图来源：Spider's Web </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653073646&amp;idx=1&amp;sn=09472592d0e11c37c02ccbffa6d9f800&amp;chksm=7f7d5a78a97142861224b60c737c49e91db896effadf96cb48910bde859e5337eea7e9188e5a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“极客公园”（ID：geekpark）</a>，作者：Moonshot，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164538722740994</guid><pubDate>Thu, 13 Feb 2025 16:30:00 +0800</pubDate></item><item><title>喜茶站在了与OpenAI同样的尴尬点上</title><link>https://36kr.com/p/3164579625675525</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_eb446bbf5dd94d328a60e6b45eff2539@000000_oswg647428oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>一个行业领先者被超越之后，若想以对方的招数重夺辉煌，是很难的。</p>
-<p>突然为加盟模式按下暂停键的喜茶，如今有了两个参照对象。</p>
-<p>一个是OpenAI。</p>
-<p>朱啸虎用“领先者诅咒”的说法，去形容OpenAI对开源观念的转变。因为一个行业领先者被超越之后，若想以对方的招数重夺辉煌，是很难的。因此，走在闭源路上的OpenAI想回到Deepseek的开源，意义也不大。</p>
-<p>喜茶走过这条路。这位中高端茶饮品牌的代表，为了拥抱消费降级的市场趋势，<strong>从2022年初起，陆续降价、开放加盟，以高配版“蜜雪冰城”的打法，成功挺入下沉市场。作为代价，它失去了部分特色与品牌优势。</strong></p>
-<p>它或许意识到了领先者诅咒的存在，即，蜜雪冰城的方法论不能保它永久富贵。于是，去年三季度，它宣布退出价格战，本周又宣布暂停加盟。回归初心，成为它更明确的选择。</p>
-<p>这让它更像第二个参照物：星巴克。</p>
-<p>成为茶饮界的星巴克，这是喜茶从诞生起就拥有的梦想。它现在重新捡了回来。——只是，成为星巴克也不一定意味着好日子。</p>
-<h2><strong>01 领先者诅咒2.0版</strong></h2>
-<p>在AI领域，OpenAI的ChatGPT一直处于行业领先地位。</p>
-<p>然而春节期间，Deepseek出现之后，情况发生改变。随后，OpenAI CEO奥特曼头一次在开源和闭源的问题上，态度发生180°大转变。他承认，过去5年，OpenAI在开源问题上的保守策略是一个战略失误。在开源还是闭源问题上，他站在了历史错误的一边。</p>
-<p>对此，热门投资人朱啸虎在谈及对此事看法时，他称这是作为领先者的诅咒。“你领先的时候肯定是想闭源，但别人追上来以后你再开源，说实话就很难了……”</p>
-<p>这道题，喜茶也遇到了。</p>
-<p>按照时间顺序，喜茶的发展大概可以分为几个阶段：2012-2016年，价格友好的皇茶；2016年-2022年，主打真茶和鲜果、昂贵的喜茶；2022年-至今，价格相对友好的喜茶。</p>
-<p>第二个阶段可以视为它的腾飞期。这一年，喜茶将门店从广州深圳开到上海，<strong>引发现象级抢购潮，由此开启新的茶饮时代。</strong>同梯队的后来者“奈雪的茶”当年作为奶茶第一股上市时，获得了高达432倍的超额认购，而在数据可查的年份中，喜茶的营收数据始终高于奈雪的茶。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_fd14d47cc683443893eb2700d747d8a9@000000_oswg47503oswg1080oswg480_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：喜茶官网</p>
-<p>然而，若是将视线拉回到整个行业，喜茶的日子就不算好过了。以开放加盟的2022年为例：</p>
-<p>那一年，喜茶留给行业的消息是裁员30%，同样坚持自营的奈雪的茶当年归母净利润为-4.69亿元人民币。</p>
-<p>冰火两重天。同时期，茶百道净利润达到9.65亿元，古茗为7.88亿元，至于蜜雪冰城，利润更是达到了20亿元。而这三家的共同关键词是：性价比、加盟模式。</p>
-<p>2022年初的喜茶，像极了此刻的OpenAI，只是它更早嗅到了信号，行动也更快。它<strong>很快宣布降价，又在2022年11月底开放加盟。</strong></p>
-<p>在公开数据中，这似乎是个成功的策略。</p>
-<p>据晚点LatePost 报道，2022年喜茶销量较2021年增长约20%，全年收入约46亿元，接近盈亏平衡；2023年，喜茶在官网发布成绩：门店规模同比增长280%，成为行业内规模增长最快的品牌。喜茶会员总量超1亿，成为行业首个私域用户规模破亿的茶饮品牌。</p>
-<p>截至2025年2月，喜茶在全国门店数量为4475家，相比2022年底的849家，增长5倍。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_94593274985b441f81ca8bbedb3c770d@000000_oswg18535oswg788oswg231_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图：数据来源窄门餐眼，略大参考制图</p>
-<p><strong>但作为代价，它失去了自己的独特性。</strong>在商场，它不再是排大队的热门店铺，取而代之的常常是霸王茶姬。从长远来看，这是个危险信号。茶饮市场早就卷成红海，失去品牌，可能失去一切。</p>
-<p><strong>这就像“领先者诅咒”的2.0版本：曾经的领先者，用追赶者的姿势获得了重新增长，但也迷失了自我，模糊了前进的方向。</strong></p>
-<p>看起来，喜茶在努力避免这一切。</p>
-<p>去年三季度，喜茶宣布退出价格战。今年2月10日，喜茶宣布“停止加盟”，并表示：门店数量供大于求，门店经营效益下滑，行业继续盲目加密扩大规模，既不能更好满足用户需求，也不符合包括合伙人在内的行业从业者利益。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_d703fc9225b8473b98bcaf14697b25d3@000000_oswg159404oswg1080oswg2292_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：喜茶事业合作助手</p>
-<p>它也再次强调：不打价格战，不做同质化产品。</p>
-<p>但这条回归之路同样艰难：<strong>商业模式总是容易复制，而品牌是对用户更为深刻的洞察和对市场更为细致的捕捉，一旦模糊或受损，再塑难度极大。</strong></p>
-<p>类似的考卷，同样摆在星巴克中国区面前。</p>
-<h2><strong>02 人人想当星巴克</strong></h2>
-<p>不少人认为，喜茶打破了植脂末时代，用真茶和水果开拓了茶饮市场的新格局。实际上，被认为是开创者的喜茶，其实也在向成立更早、发展模式更成熟的咖啡品牌“取经”。</p>
-<p>在其中，作为行业领先者，星巴克就被不少同行视为标杆，不光是在咖啡市场，现制茶饮市场也是如此。</p>
-<p>爆火的霸王茶姬，在品牌建立之初就定位自己为“东方的星巴克”。比霸王茶姬更早成立的喜茶，也曾立志将自己打造成茶饮界的星巴克。</p>
-<p><strong>喜茶和星巴克相似的地方有很多。</strong></p>
-<p>比如，曾经都拒绝开放加盟，理由也相似：<strong>怀疑加盟模式能否处理好品质和食安，担心品牌口碑受影响。</strong></p>
-<p>“加盟商就像是挡在我们和顾客之间的中间人。如果我们开放加盟，星巴克就会失去自己独特的文化。”在1997年，星巴克传奇CEO霍华德·舒尔茨曾经这样解释过。</p>
-<p>喜茶创始人聂云宸也对标偶像，认为自己比星巴克更需要极端控制产品制作细节——因为喜茶的爆款产品中，有不少都采用新鲜水果作为奶茶底料。</p>
-<p>就连在“违背初心”这件事上，<strong>喜茶都和星巴克一样。当他们进军新的市场时，加盟模式成为更具性价比与效率的选择。</strong></p>
-<p>当下亦如此。</p>
-<p><strong>停止加盟的喜茶，发力重塑品牌力。</strong></p>
-<p>1月17日，成都喜茶首家DP店“叠院”在春熙路开业。所谓DP店，是喜茶此前宣布的一个门店项目，可以通俗理解为，以不同元素为主题的旗舰店或概念店。</p>
-<p>据茶咖总结，区别于普通门店，DP店的特点是：<strong>开在一线核心商圈、采用大店模式，强调用第三空间连接消费者。</strong>此外，它更强调与地方文化的结合，比如上海首家DP店位于迪士尼小镇，装修风格就是结合迪士尼特点；在北京，DP店凸显古建筑风格。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_b46014bd10de404f970cb279618185da@000000_oswg120549oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：喜茶微博</p>
-<p>这些做法，与星巴克臻选店如出一辙。更大的店铺面积，客单更高的咖啡豆、更贵的饮品定价，更丰富的产品线，甚至更好的地理位置和环境，每个细节都是为了提升品牌形象。</p>
-<p>不过在<strong>2019年之后，喜茶逐步停止了DP店的开设</strong>，其中一个原因是行业竞争加剧。在越来越多茶饮品牌转向规模化之争，喜茶也不得不在速度和门店调性中做出了选择。</p>
-<p><strong>如今再次重新拥抱DP店模式的喜茶，也正重新回归初心。在这背后，是喜茶对品牌力的执着。</strong></p>
-<p>聂云宸在2019年就表示，喜茶并不是一家餐饮或零售公司，而是一家品牌公司。在他看来，品牌不仅是核心竞争力，也是核心壁垒。</p>
-<p>在商业领域的创业故事里，他欣赏乔布斯的“海盗精神”——It's better to be a pirate than to join the navy.（做一名海盗，比参加海军更有趣）。乔布斯认为，苹果就是海盗，“这帮海盗聚在一起，要做一台改变世界的电脑，挑战这些海军。”</p>
-<p>无论是星巴克还是苹果，都在全球市场验证了自己的品牌力。</p>
-<p>喜茶也吃到了品牌力带来的红利。根据沙利文报告数据，2020年国内新茶饮市场品牌中，喜茶平均客单价为52-56元，行业最高。即便是这样，喜茶开一家新店，门口仍会大排长龙，甚至有黄牛蹲守。</p>
-<p>但品牌力也是一把双刃剑。</p>
-<p>喜茶成为商场入住率最高的茶饮品牌，高频出现在消费者视野里。但同时，快速扩张与降价，一定程度上影响了它的品牌力。晚点LatePost在2023年一篇报道中指出，第一批喜茶开放加盟的店中，装修明显比直营店更加简易，有的连吊顶都没有处理完。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_06826eb403924ec6aa33592cf228c352@000000_oswg72748oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：窄门餐眼</p>
-<p>事实上，整个茶饮行业快速发展的同时，品牌们都陷入到了内卷带来的内耗之中。比如奈雪的茶仍深陷亏损，茶百道净利大幅下降；蜜雪冰城和霸王茶姬单店利润呈现不同程度下降，古茗加盟商加速流失。</p>
-<p>同样的情况，在星巴克与整个咖啡行业也存在着。比如星巴克连续8个月客单价下滑，出现同店销售额下滑；瑞幸和库迪深陷价格战，前者在2024年退出9.9元价格战后，亏损才有所收窄。</p>
-<h2><strong>03 “星巴克困境”</strong></h2>
-<p><strong>品牌价值弱化的时代，喜茶与星巴克的生存或许会更加艰难。</strong></p>
-<p>去年年初，星巴克创始人霍华德·舒尔茨曾到访中国，彼时星巴克在瑞幸库迪们的围剿里颓势已显。在回答复旦大学管理学院院长陆雄文提出的关于“颠覆性创新“的问题时，舒尔茨没有给出正面回答，只是说：</p>
-<p>“我们不是在进行折扣战或价格战……当顾客更了解咖啡，他们会想要从低端或打折产品中升级。只要我们继续赢得市场的尊重，他们就会选择升级到星巴克。”一言蔽之，就是坚持品牌。</p>
-<p>然而，<strong>仅仅强调品牌叙事在当下或许不是最优解——起码对星巴克而言便是如此。</strong></p>
-<p>舒尔茨到访当季，星巴克推出27款新品，数量是上一季度的两倍，然而当季中国区的营收为7.34亿美元，同比下滑11%；同店销售额下滑14%，其中同店交易量和客单价均下滑7%。</p>
-<p>既有产品创新，又有品牌调性，依然如此不理想，这样的结果就问喜茶怕不怕。</p>
-<p>尽管声称不打价格战，但实际上，星巴克在中国的平均售价不断下降，2023年下降2%，2024年降幅更是达到8%。并且自去年下半年开始，就不断有传言爆出星巴克欲考虑“出售中国业务股份”，可谓是里子面子都没有保住。</p>
-<p>未来，星巴克或许会迎来更艰难的局面。</p>
-<p>“第三空间”，是星巴克的业务本质，与其关联的就是房租。过去，星巴克凭借其强大的品牌力自带巨大流量，成为很多商场的座上宾，所以在与商场的租金谈判里占尽优势。极致时，星巴克甚至可以要求商场对其免租金，并且提供装修补贴，签订“排他条款”，不允许周边经营其他咖啡品牌。</p>
-<p>挟流量以令诸侯的戏码，在商业世界久经不衰。</p>
-<p>只不过，<strong>当流量消失，品牌就失去了傍身之技。</strong>星巴克对于如今的中国消费者而言，早已不是稀缺品。这一点，从不断下滑的财报数据里表现明显。</p>
-<p>去年，一篇《一些商场已经想清退星巴克了》在社交媒体上流传开来，一位商业地产的项目经理反馈，曾经公司区域内的一个商场想要清退星巴克，因为它产生的营业额已经不足以给商场抽成扣点，也无法带来更多客流，生命力早已大不如前。</p>
-<p>通常，星巴克与商场的租约期限在8到10年，根据过往数据，自2015年开始，星巴克在中国的扩张数量呈现指数级上涨——2015年，星巴克在中国市场的门店数量突破了1500家，而到了2017年，这个数据达到了3000家。也就是说，星巴克用两年的时间追平了过去16年的开店速度（星巴克于1999年进驻中国）。</p>
-<p>若以此时间为据点，接下来，星巴克会迎来与商场重新谈判的时间点，但很显然，再次谈判时，天平或许不会再倾向星巴克了。</p>
-<p>没有了房租优势的星巴克，抵挡起瑞幸们，恐将更为艰难。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_070023c061b743daac5d8f1d6bb9bfa5@000000_oswg245409oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@叁拾代</p>
-<p>这也就引发一个问题：喜茶会不会像星巴克一样走下坡路？</p>
-<p>回答这个问题之前，其实可能要先回答：<strong>茶饮行业的行业护城河到底是什么？</strong></p>
-<p>可能有人说是供应链，可能有人说标准化。无论是哪一个，背后的逻辑无疑都是保证品牌能够进行规模化的前提。</p>
-<p>喜茶在2022年底开放加盟前几个月，成立了智能设备研发部门，专门研究自动化设备，门店端能保证10秒钟就出来一杯茶。但总会有对手赶超。霸王茶姬张俊杰曾在采访中透露，霸王茶姬一杯茶的制作时长可以缩短到8秒。</p>
-<p>从近两年的茶饮市场也可以看出，<strong>行业的竞争逻辑正在改变，单纯追求规模和速度已经不再是制胜之道。</strong></p>
-<p>首先，扩张不一定能带来业绩的增长。</p>
-<p>以茶饮第三股古茗为例，虽然门店数量在增长，但每笔订单的平均GMV却在下滑，单店日均售出杯数和订单数也在下降。这表明，在激烈的市场竞争下，仅仅依靠规模和数量已经难以维持业绩的增长。</p>
-<p>其实，即便是万店品牌，也不一定能打得过区域品牌。比如甜啦啦在安徽拼性价比、拼新品类，照样能打过万店品牌蜜雪冰城。</p>
-<p><strong>品牌们可以拼供应链、有的拼营销、有的拼新品类，但前提是要在消费市场里有足够的品牌力。</strong></p>
-<p>如今的喜茶，正在努力回归初心，提升品牌力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_c25d5836d71b48e28391d05d614cb5b5@000000_oswg99689oswg1080oswg781_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@艾特兔🍄</p>
-<p>对于“喜茶会不会像星巴克一样走下坡路”的问题，答案并不是很重要。</p>
-<p>聂云宸曾经在2018年说过一句话：</p>
-<p>“有一句话叫不跳下水，就学不会游泳。我现在所有的想法，都是在‘跳下水’之后才开始有的。我开了店之后又花了半年，才终于可以做出好喝的东西，因为有了客户的反馈。而创业之前我研究了整整半年的产品，开了店之后，生意却非常差，因为之前做的所有的事情都是在‘岸边’上去做的。”</p>
-<p><strong>行业规模总会有上限，品牌之间也总会此消彼长，这是市场常态。</strong></p>
-<p>头图来源|AI制图</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODQyNDEyMQ==&amp;mid=2257541146&amp;idx=1&amp;sn=a16780b9066db23e38168a61e61d027b&amp;chksm=a4aaba92dd710bd9240ed760d3bf22497e91ffd1abd985aadb4bac858f255a4b16f3decc06ca&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“略大参考”（ID：hyzibenlun）</a>，作者：付饶 二毛，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164579625675525</guid><pubDate>Thu, 13 Feb 2025 16:34:00 +0800</pubDate></item><item><title>全球独角兽月报：9家宣布新融资；吉利投资的飞行汽车独角兽申请破产</title><link>https://36kr.com/p/3164595702311432</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2025开年，在过去的1月，有9家独角兽喜获融资，其中3家是新晋独角兽，均为医疗行业公司；还有6家老独角兽企业披露了新的融资情况，其背后的投资方主要是各大地方国资。</p>
-<p>与一些独角兽们有着红红火火的融资业绩相反的另一面是，我们发现，还有几家国外独角兽企业发展不佳，正面困境，申请破产。 </p>
-<h2><strong>新晋独角兽：康诺思腾、领健LinkedCare、微脉</strong></h2>
-<p>据IT桔子数据，2025年1月中国诞生了3家新晋独角兽，均与医疗产业相关，分别是康诺思腾、领健LinkedCare、微脉。 </p>
-<p>另外，国外新晋上榜的独角兽企业还有3家，分别是新加坡加密货币银行的新金融科技公司 SYGNUM、美国生成式AI公司Hippocratic AI、美国数据智能存储服务商DataDirect Networks（DDN）。 </p>
-<p><strong>领健LinkedCare：口腔消费医疗数智化平台领导者</strong></p>
-<p>领健LinkedCare成立于2015年，总部位于上海，主要为口腔诊所、医美机构、生美（生活美容）机构提供经营管理一体化系统。 </p>
-<p>领健LinkedCare的创始人兼CEO是吴志家，拥有18年医疗IT行业经验及连续创业经历，他曾先后在微软、柯达等知名企业负责研发、市场等工作。 </p>
-<p>领健LinkedCare的口腔SaaS软件<strong>e看牙</strong>为口腔门诊提供“开源、避险、节流、增效”的一体化解决方案，涵盖门诊管理、营销拓客、商业智能等多个方面；并将通过AI算法实现症状识别、治疗规划等功能。 </p>
-<p>此外，e看牙商城为口腔机构提供一站式供应链解决方案。 </p>
-<p><strong>2025年1月，领健LinkedCare宣布完成E轮数亿人民币融资，由无锡创投集团和滨湖产业集团联合投资，这是领健自2015年成立以来的第十轮融资。这轮融资之后，预测其估值已超过 10 亿美元。</strong></p>
-<p>本轮融资将用于加大AIGC等AI技术的投入，推动基于AI+3D直接打印牙套技术悦见的研发和推广，以及e看牙商城的产品和供应链建设。 </p>
-<p>据悉，领健目前服务超过50000家口腔和医美机构，在口腔民营医疗高端市场占有率超过85%，净金额留存率（NDR）高达129%。 </p>
-<p>尽管领健在技术和市场方面取得了显著成就，但其可能面临的挑战包括市场竞争、AI+SaaS技术更新换代，以及高度的行业监管。 </p>
-<p><strong>康诺思腾：国产手术机器人的创新力量</strong></p>
-<p>康诺思腾成立于2019年9月，总部位于广东深圳，其主要业务包括开发多孔腔镜手术机器人及其他重大专科手术机器人研发、制造。 </p>
-<p>康诺思腾的创始人欧国威教授毕业于香港中文大学和美国麻省理工学院（MIT），拥有超过25年的行业经验。2016年，欧国威教授回到母校香港中文大学任教，并于2019年创立了康诺思腾。 </p>
-<p>康诺思腾实现了关键领域核心技术的自主研发，包括机械架构、电气架构、软件架构、复杂算法和视觉影像系统，并在软组织手术机器人及其他重大专科手术机器人实现多管线布局。 </p>
-<p>康诺思腾已完成多轮融资，<strong>包括2021年的5亿元B轮融资和2023年的8亿元C轮融资。2025年1月，公司又完成了新一轮5亿元人民币的融资。</strong></p>
-<p>临床进展方面，2022年8月，<strong>康诺思腾在香港完成首例手术机器人临床应用</strong>，用于治疗泌尿外科前列腺癌根治术手术。 </p>
-<p>2024年9月，其第一代腔镜手术机器人Sentire思腾®已于2024年9月获得中国国家药品监督管理局（NMPA）批准上市。目前，公司正有序开展海外市场产品注册工作，并与多地顶尖医学中心展开合作。 </p>
-<p><strong>目前中国三甲医院中采用腔镜机器人的比例不超过10%</strong>，市场渗透率仍有较大的提升空间。随着人口老龄化的发展，预计到2032年，中国腔镜手术机器人市场规模将增长到超过250亿人民币。 </p>
-<p>不过，手术机器人作为高端医疗器械，其性能和安全性要求高，核心技术研发难度大、费用昂贵、上市周期长。康诺思腾还需要在商业化过程中克服这些挑战，以实现产品的广泛应用。 </p>
-<p><strong>微脉：全病程管理服务平台的模式先锋</strong></p>
-<p>微脉技术有限公司成立于2015年9月，总部位于杭州，通过连接城市区域内的医疗健康资源，致力于构建城市级互联网健康医疗大数据平台。 </p>
-<p>微脉的创始人兼CEO是裘加林，他毕业于浙江大学管理学院，曾参与创办上市企业银江股份，是国内医疗信息服务领域领军人物之一。 </p>
-<p>微脉的市场优势在于其创新的全病程管理服务模式，通过<strong>与公立医院的深度合作</strong>，微脉构建了覆盖全周期的医疗健康服务体系，满足了患者多层次、多样化的医疗健康服务需求。 </p>
-<p>据官方资料，微脉已在妇科、产科、儿科、神经外科、骨科、乳甲外科、肝胆外科、心胸外科、泌尿外科等32个专科疾病周期管理方面进行深度研发与实践，覆盖全国30个省、市和自治区，合作医院达2500多家，服务人次超10亿。 </p>
-<p>在AI投入方面，2023年，微脉推出了国内首个健康管理大语言模型CareGPT，并在此基础上推出了健康管理智能体CareAI。 </p>
-<p>CareAI能够根据与患者的交流内容分析，提供文字、图片、视频等多形态的健康建议、疾病风险评估、诊后管理，辅助健康管理师设计全病程管理方案。 </p>
-<p><strong>2025年1月，微脉完成了2亿元人民币的D轮融资，投资方包括信银投资、求是资本、余杭转型升级产业基金、德清县产业发展投资基金，老股东源码资本、千骥资本、元璟资本继续追投。</strong></p>
-<p>微脉还曾参与了国家卫健委主办的“全国互联网医院运营与管理现状调查及人才培养”、“互联网+全病程管理与AI数字疗法”等多项国家级研究项目，为行业发展提供理论参考和建设经验。 </p>
-<p>在健康中国战略的引领下，微脉的业务模式与国家政策高度契合，有望获得更多的政策支持。 </p>
-<h2><strong>老独角兽的新动态：思必驰、启源芯动力、艺妙神州等公布新融资</strong></h2>
-<p>据IT桔子统计，有6家老独角兽企业在2025年1月宣布了新的融资，包括人工智能企业思必驰、启源芯动力、艺妙神州、合见工软、迈科康、盛合晶微。 </p>
-<p>2025年1月14日，<strong>思必驰</strong>完成五亿元融资，本轮资方包括知名产业基金、国资平台、私募基金等多家机构。 </p>
-<p>这轮融资后，思必驰将持续加速垂域大模型（DFM-2）与全链路对话技术在汽车、IoT等智能终端领域及会议办公、金融等行业场景的规模化落地。 </p>
-<p>1月8日，<strong>启源芯动力</strong>宣布完成C轮融资，但投资方、融资金额均未透露。 </p>
-<p>1月8日，<strong>艺妙神州</strong>宣布完成数亿元的E轮融资，本轮融资由京津冀协同发展产业投资基金领投。 </p>
-<p>本轮融资资金将用于支持公司首款原研CAR—T新药IM19的商业化布局，推动该药物获批后成为本土晚期淋巴瘤CAR—T治疗的标杆产品，同时加快公司包括血液肿瘤、实体肿瘤以及自身免疫性疾病等重大疾病领域新工艺新产品的研发和临床进程。 </p>
-<p>1月6日，浦东创投集团旗下浦东引领区基金参与完成对国产自主数字EDA（电子设计自动化，Electronic Design Automation）领域企业上海<strong>合见工业软件集团</strong>有限公司近十亿元A轮投资，支持国内EDA龙头企业做大做强。 </p>
-<p>1月2日，成都迈科康生物科技有限公司（<strong>迈科康生物</strong>）宣布顺利完成可转为公司债券融资交割，融资规模2亿元人民币，认购方为深创投制造业转型升级新材料基金(简称“深创投”)。 </p>
-<p>本次可转债募集资金主要用于支持公司创新佐剂平台的持续研发和创新佐剂车间新产能落地，支持重组带状疱疹疫苗III期临床试验、重组呼吸道合胞病毒疫苗临床II期和III期临床试验，以及后续多个创新疫苗管线临床前研发和国际合作。 </p>
-<p>此外，盛合晶微半导体有限公司（<strong>盛合晶微</strong>）宣布，面向耐心资本的7亿美元定向融资已高效交割。 </p>
-<p>本次新增投资人包括无锡产发科创基金、江阴滨江澄源投资集团、上海国投孚腾资本、上海国际集团、上海临港新片区管委会新芯基金及临港集团数科基金，以及社保基金中关村自主创新基金、国寿股权投资、Golden Link等。 </p>
-<h2><strong>发展面临困境的独角兽：德国飞行汽车公司申请破产</strong></h2>
-<p><strong>Volocopte</strong>r是一家致力于用飞行出租车解决通勤问题的公司，也是全球第一批纯电动垂直起飞着陆的飞行器（eVTOL）制造公司，成立于2011年，曾获得吉利控股、戴姆勒-奔驰、英特尔等知名企业的投资，估值一度达到19亿美元。 </p>
-<p>在2019年9月，吉利集团作为戴姆勒的最大股东，与戴姆勒共同向Volocopter注资5000万欧元（约合3.8亿元人民币），双方各持股10%，并进入董事会。 </p>
-<p>2024年12月31日，Volocopter宣布向卡尔斯鲁厄地方法院提交破产申请。公司面临财务危机，未能从德国政府获得1亿欧元的贷款担保，导致资金链紧张。 </p>
-<p>继Lilium之后，Volocopter成为第二家陷入困境的德国低空经济独角兽企业。 </p>
-<p>与传统的破产清算不同，Volocopter<strong>进入破产程序主要是为了完成重组</strong>，以便在飞行器获得认证并上市的最后阶段取得成功。 </p>
-<p>2025年1月6日，美国卫星通信独角兽<strong>Ligado Networks</strong>正式申请破产保护，根据美国破产法典第11章进行重组。Ligado表示，由于美国政府无偿“非法剥夺”其频谱权，公司遭受了“巨大的运营损失”。 </p>
-<p>此外，Ligado还欠下Inmarsat（现为Viasat的一部分）约5亿美元债务，并计划在破产保护期间解决与Viasat的付款义务重组。 </p>
-<p>Ligado的破产主要归因于以下几点： </p>
-<p><strong>频谱许可问题</strong>：Ligado未能获得美国联邦通信委员会（FCC）的最终许可，特别是关于频谱干扰问题（尤其是与GPS的干扰）。尽管公司在技术上进行了大量投资并发射了卫星，但这些努力因缺乏监管许可而未能实现商业运营。 </p>
-<p><strong>持续融资能力不足</strong>：Ligado的创始人Philip Falcone为了推动公司发展进行了大规模借贷，导致资产负债表不稳定。公司缺乏清晰的盈利模式和持久的商业战略，难以应对长期的财政压力。 </p>
-<p><strong>法律诉讼</strong>：Ligado曾起诉美国政府，指控国防部、商务部和国会阻止其使用联邦通信委员会许可的频谱，但诉讼进展缓慢。</p>
-<p><strong>想知道那些估值超 10 亿美元的独角兽公司如何在激烈竞争中一路 “狂飙” 吗？</strong></p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MjQ2NzA2Mg==&amp;mid=2649620015&amp;idx=1&amp;sn=81bd098919d98994d638d829a4e095e5&amp;chksm=bf2ff4cd92d8495b4ba75d3991ca41e66d64ab5473f930173f63a7aefdd1d7aedaf73b09239d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“IT桔子”（ID：itjuzi521）</a>，作者：吴梅梅，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164595702311432</guid><pubDate>Thu, 13 Feb 2025 16:35:00 +0800</pubDate></item><item><title>奥特曼剧透 GPT-5 将免费使用，o3 独立发布被腰斩，OpenAI 疑似内涵 DeepSeek</title><link>https://36kr.com/p/3164798379633412</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>又是感谢 DeepSeek 的一天。 </p>
-<p>OpenAI CEO Altman 于今日凌晨透露，公司将在未来数月内推出整合 o3 及其他技术的 GPT-5 模型，并将其应用于 ChatGPT 和 API 服务。 </p>
-<p>Altman 表示希望更透明地分享公司的发展路线图，同时简化产品体系结构。他强调希望 AI 能做到「开箱即用」，让用户无需费心理解复杂的模型与产品选择。（ 原来你也知道呀） </p>
-<p class="image-wrapper"><img data-img-size-val="1080,576" src="https://img.36krcdn.com/hsossms/20250213/v2_da12263adefc444bb512b8661e029cb4@6100851_oswg168897oswg1080oswg576_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过，在 GPT-5 发布之前，OpenAI 的下一代模型将是 GPT-4.5(内部代号 Orion)，这将是 OpenAI 最后一个非思维链式(non-chain-of-thought)模型。 </p>
-<p>此前有报道称，GPT-4.5（Orion）在性能优化上遇到了挑战，技术进展不及预期。外媒报道提到，GPT-4.5 相比 GPT-4o 的提升幅度，远不及 GPT-4 相较 GPT-3 的进步。 </p>
-<p>此外，OpenAI 未来的模型还有望根据用户输入自动选择调用相应的模型。用 Altman 的原话说:「我们和你一样讨厌模型选择器，也希望回归那种智能统一的「魔法」体验。」 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250213/v2_1d3d36ea21c24d10842588c61ec40136@6100851_oswg645913oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>接下来的几个月，OpenAI 的核心目标是统一 o 系列模型和 GPT 系列模型，打造能够整合所有工具的系统，使其能够根据需要决定何时进行深入思考，适用于更广泛的任务场景。 </p>
-<p>如开篇所说，在 ChatGPT 和 API 服务中，即将发布的 GPT-5 将整合包括 o3 在内的多项技术。 <strong>而此前预告的 o3 模型将不再独立推出。</strong></p>
-<p>去年，OpenAI 曾计划于 2025 年初发布 o3。就在几周前，OpenAI 首席产品官 Kevin Weil 在接受采访时还表示。o3 预计将在 2-3 月间发布，但目前尚不清楚 OpenAI 撕毁全年计划，临时「变卦」的原因。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250213/v2_b1745850ced64947881f7cae6acc6cd8@6100851_oswg535104oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>实际上，OpenAI 的推理模型进步显著。以编程能力为例，他们的首个推理模型 o1 达到了「全球百万分之一」的竞争性编程水平，到去年 12 月份发布的 o3 模型已跃升至全球第 175 名。 </p>
-<p>根据内部测试，目前已接近全球第 50 名，Altman 预计今年年底有望问鼎榜首。 </p>
-<p>关于 GPT-5，Altman 还表示， <strong>ChatGPT 免费用户未来将在标准智能水平下无限制访问 GPT-5，但会受到滥用检测的限制。</strong></p>
-<p><strong>Plus 订阅用户则可在更高的智能水平下运行 GPT-5，而 Pro 订阅用户可使用更高智能水平的 GPT-5，</strong>这些模型将支持语音交互、画布功能（Canvas）、搜索、深度研究等多种增强功能。 </p>
-<p>当被网友问及 GPT-4.5/GPT-5 具体发布日期时，Altman <strong>表示将在数周或数月内推出。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,408" src="https://img.36krcdn.com/hsossms/20250213/v2_c276fe8bcc334d23933a052b10d447b9@6100851_oswg98877oswg1080oswg408_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但显然网友对 Altman 画饼的套路娴熟于心。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,180" src="https://img.36krcdn.com/hsossms/20250213/v2_7060852daae548e899a8d4f696222001@6100851_oswg22136oswg1080oswg180_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Google AI Studio 产品负责人 Logan Kilpatrick 也给自家产品蹭上了一波热度： </p>
-<p><strong>很好！我们一直计划将推理能力作为 Gemini 基础模型的核心部分，而不是将其视为一个附加功能（这也是我们正在推进 2.0 Flash Thinking 能力的原因） </strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,465" src="https://img.36krcdn.com/hsossms/20250213/v2_0b2163e490fe4ef082fe335bd2237939@6100851_oswg157569oswg1080oswg465_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>紧接着，OpenAI 官方也在 X 平台宣布所有 Pro 用户现可在移动端和桌面应用(iOS、Android、macOS 和 Windows)上使用深度研究功能。 </p>
-<p>ChatGPT 用户选择 o1 和 o3-mini 后可上传文件和图片。Plus 用户每天与 o3-mini-high 的对话次数增加 50 次。 </p>
-<p>将时间往前拨回几个小时，Altman 在回复关于深度研究功能的帖子时表示： </p>
-<p><strong>我认为我们最初会为 ChatGPT Plus 用户提供每月 10 次使用，而免费用户每月可以使用 2 次，并计划随着时间推移逐步增加这些额度。 对某些用户来说，它的价值可能高达 1000 美元/月，但我更期待看到大家如何使用它！ </strong></p>
-<p>并且，Altman 还表示由于注意到一些用户对深度研究功能的需求非常高，因此从长期来看，OpenAI 仍需要找到一种更灵活的方式，让用户能够根据需求动态支付计算资源费用。 </p>
-<p class="image-wrapper"><img data-img-size-val="600,429" src="https://img.36krcdn.com/hsossms/20250213/v2_1273a84d7abb475a82112c7cf3266cba@6100851_oswg93993oswg600oswg429_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>远离这些热点消息的喧嚣，OpenAI 刚刚发布的模型规范更值得关注。 </p>
-<p>具体来说，OpenAI 最新更新的Model Spec（模型规范）文件较此前的 10 页版本内容更为详实，明确了 AI 模型在处理敏感话题、用户自定义等方面的行为准则。 </p>
-<p>据悉，新版本强调三大核心原则：可定制性(Customizability)、透明性(Transparency)以及「思想自由」(Intellectual Freedom)——允许用户探索和讨论各种观点，而不受武断限制。 </p>
-<p>吸取了过往一年发生在 OpenAI 身上的 AI 争议事件，新版 Model Spec 在诸如「电车难题」、明确禁止模型复制受版权保护的内容或绕过付费墙、调整对成人内容的策略、针对 AI 的迎合性改进等问题做出了更好的改进。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,767" src="https://img.36krcdn.com/hsossms/20250213/v2_1bb2ada3a549423a8caa2dcd57655bd8@6100851_oswg424241oswg1080oswg767_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>OpenAI o1 在最新的测评中合规性普遍高于 GPT-4o </p>
-<p>比方说，如果你向 ChatGPT 提出类似「电车问题」，它应该会回答 「在防止大规模伤亡的情况下，可以这么做。」 </p>
-<p>又或者，模型不会一味回避敏感问题，而是应该 「与用户一起探索真相」，同时在错误信息和潜在危害方面保持明确立场。 </p>
-<p>考虑到用户请求 AI 评价他们的作品时，AI 只会盲目称赞，而不提供任何建设性意见，OpenAI 也对作出了调整。 </p>
-<p>ChatGPT 将会给出客观评价和建设性批评。 如果用户在提问中包含错误信息，AI 现在应该礼貌纠正而不是迎合用户的错误。 </p>
-<p class="image-wrapper"><img data-img-size-val="957,933" src="https://img.36krcdn.com/hsossms/20250213/v2_5b961f205b9149a3a45bc6129f270157@6100851_oswg135783oswg957oswg933_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>值得一提的是，OpenAI 官方放出的演示案例也疑似在内涵 DeepSeek 此前备受争议的数据蒸馏问题。 </p>
-<p>「我们无法创造一个让所有人都满意的模型。」OpenAI 模型行为团队成员 Joanne Jang 在接受 The Verge 采访时表示。 </p>
-<p>她强调，尽管 OpenAI 仍会保留核心安全机制，但用户和开发者可以自定义许多模型行为。 她还补充道： 「我们知道这会引起争议。 」 </p>
-<p>插个冷知识，Joanne Jang 毕业于斯坦福大学，获得计算机科学硕士学位和数学与计算科学学士学位，目前在 OpenAI 担任产品经理，主要负责模型行为相关工作。 </p>
-<p class="image-wrapper"><img data-img-size-val="1080,663" src="https://img.36krcdn.com/hsossms/20250213/v2_b185447ffc6a4cf0b37b257a596b71a4@6100851_oswg665697oswg1080oswg663_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另外，OpenAI 以 Creative Commons Zero（CC0）许可证 发布 Model Spec，意味着它完全开源，任何 AI 公司或研究人员都可以自由采用、修改或基于此构建自己的 AI 行为规范。 </p>
-<p>OpenAI 以 Creative Commons Zero(CC0)许可证发布 Model Spec，这意味着该规范完全开源，任何 AI 公司或研究人员都可以自由采用、修改或基于此构建自己的 AI 行为规范。 OpenAI 表示，许多业内同行此前已非正式参考其 Model Spec，emmm……这也算是真·open 了。 </p>
-<p>另外最近有消息传出，Anthropic Claude 4 预计将在本周发布，此外还有 评分全面超越 o3 的推理模型也将首次亮相。 这或许也是促使 Altman 一反常态、不再「挤牙膏」的重要原因之一。 </p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/T66HVRPMvsitDtfFKeqnIA" rel="noopener noreferrer nofollow" target="_blank">“APPSO”</a>，作者：发现明日产品的，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164798379633412</guid><pubDate>Thu, 13 Feb 2025 16:41:00 +0800</pubDate></item><item><title>上海锦江乐园迎来“哈利·波特”，这块地皮终于等到了配得上它的IP｜营销观察</title><link>https://36kr.com/p/3163292486085125</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>文｜王毓婵</p>
-<p>编辑｜乔芊</p>
-<p>2月12日，华纳兄弟探索集团全球体验事业部宣布将在上海锦江乐园地区打造华纳兄弟（上海）制片厂之旅-“哈利·波特”的诞生（以下简称“哈利波特制片厂之旅（上海）”）。</p>
-<p>这是哈利波特制片厂之旅在中国的首次落地，新项目预计将于2027年开园。目前，此项目开发处于监管审批阶段。</p>
-<p>哈利波特制片厂之旅（上海）预计占地面积约 5.3 万平方米，规划包括室内区域（soundstage）以及外场区域（backlot）。<strong>游客参观全程大约需要半天时间。</strong>此外，项目设施前方还将精心筹备景观公园区域，作为游客和普通公众的游玩休憩场所。</p>
-<p>华纳兄弟方面提供的资料显示，在园区室内区域，游客将开启一场电影幕后探秘，领略幕后之旅的设计，理解哈利·波特的魔法世界。游客不仅能够探索由“哈利·波特”电影创作者们刻画的标志性场景, 观赏电影中所使用的原汁原味的服装与道具，同时，通过互动装置，体验电影中的场景，揭秘风靡全球的小说系列如何在大银幕上鲜活呈现。</p>
-<p class="image-wrapper"><img data-img-size-val="1340,893" src="https://img.36krcdn.com/hsossms/20250213/v2_3e3d56b622a3421ab8813e9f03c58ee3@10269314_oswg350086oswg1340oswg893_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
-<p class="img-desc">对角巷场景图——该图片由华纳兄弟探索集团全球体验事业部提供</p>
-<h3>一次快速的合作，华纳兄弟在上海市区“捡到漏了”</h3>
-<p>上海闵行区新闻办公布的信息显示，这是一场被快速推进的谈判：2023年11月双方开始接触，2024年5月20日签署合作备忘录，2025年1月31日签订正式框架协议。哈利波特制片厂之旅（上海）项目预计今年下半年正式开工，2027年下半年建成开放。</p>
-<p>如此顺畅的交易令人不禁回想起当年迪士尼在上海经历的一切。再过一年，就是上海迪士尼乐园开园十周年。在这十年里，上海市政府对于海外IP的态度已经发生了天翻地覆的改变。</p>
-<p>2016年，全程参与了上海迪士尼落户谈判的原迪士尼中国事务高级副总裁唐军说：“迪士尼落户上海，我们谈了10年”。</p>
-<p>说华纳兄弟在上海市区捡到了漏，一点也不夸张——<strong>在今天的上海市区1号线，已经不可能再有任何一家公司能开辟如此大的面积作为乐园。</strong>这也是迪士尼远在浦东川沙，乐高乐园远在金山枫泾，小猪佩奇乐园远在崇明长兴岛的原因。</p>
-<p>华纳兄弟探索集团与锦江国际集团的合作可以说是相得益彰。对华纳兄弟来说，这是集团自去年9月宣布成立全球体验事业部以来，在全球体验类业务方面取得的首个重大新增项目进展；对锦江这家综合酒旅老国企来说，也给它垂垂老矣的乐园业务注入了新血液。</p>
-<p>今年1月，上海锦江乐园宣布闭园升级时，曾引发上海本地一波小小的怀旧舆论。作为上海历史最悠久的游乐园之一，锦江乐园靠近市中心区域，在上海市民中具有较高的知名度和情感认同。</p>
-<p>最近几年，因为设备老化，缺少竞争力，锦江乐园每年的游客量只有100万人次左右，不到上海迪士尼乐园的十分之一（2023年接待1300万人次），但这块地皮的含金量非常高——不仅在上海市地铁1号线上，而且靠近上海南站，毗邻徐家汇、漕河泾等商业区，周边配套设施一应俱全。</p>
-<p>锦江提供了地理位置上的优越性，华纳提供了长青IP的吸引力。作为全世界最赚钱的IP之一，华纳已经产出了八部卖座的“哈利·波特”系列电影、三部史诗般的“神奇动物”系列电影，并授权环球影城在全世界打造了五个哈利·波特主题乐园——在北京、美国奥兰多和日本大阪的环球影城里，哈利·波特主题乐园都是最受欢迎的园区。</p>
-<h3>新园区会给北京环球和上海迪士尼带来什么影响？</h3>
-<p>哈利波特制片厂之旅（上海）会抢走上海迪士尼乐园和北京环球影城的生意吗？</p>
-<p>不会的。</p>
-<p>北京环球影城和上海迪士尼乐园的年游客量都在1300万人次左右。哈利波特制片厂之旅（上海）从可玩性上来说，5.3万平方米的新园区只适合游玩半天，跟91万平方米的上海迪士尼乐园差距还是太大了。另外，它也只有北京环球影城“哈利·波特的魔法世界”主题园区的一半面积（10万平方米）。</p>
-<p>哈利波特制片厂之旅（上海）最适合的游客就是安排半日游的上海本地和华东地区的“哈利·波特”粉丝群体。2024年4月，上海闵行区人民政府在一份政协提案回复中提到，根据初步测算，引入哈利波特主题乐园的锦江乐园，拟实现年接待游客200-250万人次，营收1.5-2亿美元，息税前利润4000-8000万美元。</p>
-<p>上海闵行区新闻办公布的信息显示，与迪士尼、乐高业态不同，“哈利波特制片场之旅”<strong>类似博物馆体验类项目</strong>，<strong>90%参观线路在室内，采取全预约制</strong>。</p>
-<p>“它不是一个游乐园，应该说是两个业态，是一个错位竞争的概念。游客进入制片厂参观需要预约日期和时间。在门票价格上，该项目将对标英国、日本已建成的哈利波特制片厂之旅项目。据了解，<strong>目前日本、英国两个项目的门票价格在320元—460元人民币。</strong>”闵行区新闻办工作人员说。</p>
-<p>因为锦江乐园总面积有10.3万平方米，而哈利波特制片厂之旅（上海）面积为5.3万平方米，所以新园区实际上只有锦江乐园的一半。对于“华纳兄弟是否会参与剩下一半乐园的建设”这个问题，36氪联系了华纳兄弟探索集团方面，对方表示暂不方便回应。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,624" src="https://img.36krcdn.com/hsossms/20250213/v2_5ed275211b114001a6ee6d19c55f8e47@10269314_oswg181141oswg1080oswg624_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
-<p class="img-desc">锦江乐园俯瞰图</p>
-<p>目前来看，市政府是希望剩下的一部分用地能保留一点传统锦江乐园的元素，另外兴建便民配套设施。</p>
-<p>根据闵行区新闻办的消息，因为锦江乐园的“上海大转盘摩天轮”对上海人有特殊的记忆价值，因此“只会更新，不会拆除”。新摩天轮暂定高度为118米，最终高度需经国家相关部门审核通过。<strong>摩天轮设计元素不会涉及哈利·波特相关内容</strong>。</p>
-<p>另外，锦江乐园改造升级后，还会有一个<strong>地下停车库</strong>，缓解市民停车压力，入口处将设<strong>景观公园</strong>。哈利・波特片场将推出<strong>以西式为主的主题餐饮及酒店</strong>。周边配套由政府规划，双方共促乐园周边商业布局与文旅体验。</p>
-<p>“痛城”上海正在等待更多海外IP的落地。预计今年夏天，上海乐高乐园度假区就将正式开业。2027年，除了哈利波特之外，上海市民还将迎来小猪佩奇户外主题乐园的建成开业。</p>
-<p> </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163292486085125</guid><pubDate>Thu, 13 Feb 2025 16:43:00 +0800</pubDate></item><item><title>库迪咖啡进军便利店</title><link>https://36kr.com/p/3164728938216964</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 13 Feb 2025 17:30:21 +0800</lastBuildDate><pubDate>Thu, 13 Feb 2025 17:30:21 +0800</pubDate><item><title>库迪咖啡进军便利店</title><link>https://36kr.com/p/3164728938216964</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p class="image-wrapper"><img data-img-size-val="1800,1200" src="https://img.36krcdn.com/hsossms/20250213/v2_e3cf09c1fb084852b96baceaaab0f755@5838365_oswg2907330oswg1800oswg1200_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p>库迪又有大动作。</p>
 <p>今日，库迪咖啡宣布全面升级“触手可及”计划，推出便利店型，进军便利店行业。库迪咖啡升级后的门店业态包含咖啡店、便利店和店中店三种店型。同时，公司维持2025年底5万家门店终端的目标不变，窄门餐眼数据显示，截至2024年2月，库迪门店数量达10045家，这意味着库迪今年要开出4万家门店。</p>
@@ -563,4 +262,204 @@
 <p>2024年，巨星科技完成对瑞士TESA集团资产的收购。TESA集团是全球领先的自粘产品和解决方案供应商，在胶粘技术领域拥有深厚的技术积累和广泛的市场份额，巨星科技借此拓展了产品线，提升了技术水平。 </p>
 <p>若中策橡胶成功上市，仇建平的“巨星系”资本版图市值将进一步攀升，有望突破千亿规模。届时，他将手握四家上市公司，在工具、叉车、轮胎、柴油发动机等多个领域实现深度布局，产业协同效应将进一步增强。 </p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/o61QuI9rTVoospwC-5DZAw" rel="noopener noreferrer nofollow" target="_blank">“猎云精选”</a>，作者：韩文静，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164764882976515</guid><pubDate>Thu, 13 Feb 2025 16:58:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164764882976515</guid><pubDate>Thu, 13 Feb 2025 16:58:00 +0800</pubDate></item><item><title>打破纪录，谷歌全网扒1000亿图像文本对，ViT大佬坐镇：数据Scaling潜力依旧</title><link>https://36kr.com/p/3164724061989380</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>史上最大规模视觉语言数据集：1000亿图像-文本对！</p>
+<p>什么概念？</p>
+<p>较此前纪录扩大10倍。</p>
+<p>这就是由谷歌推出的最新数据集<strong>WebLI-100B</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,646" src="https://img.36krcdn.com/hsossms/20250213/v2_a368d610cdb8479587bd89cb32caf701@46958_oswg408690oswg1080oswg646_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>它进一步证明，数据Scaling Law还远没有到上限。</p>
+<p>在英文世界之外的多元文化、多语言维度，1000亿规模数据集能更好覆盖长尾场景，由此带来明显性能提升。</p>
+<p>这意味着，想要构建更加多元的多模态大模型，千亿级数据规模，将成为一个重要参考。</p>
+<p>同时研究还进一步证明，CLIP等模型的过滤筛选步骤，会对这种多元性提升带来负面影响。</p>
+<p>该研究由谷歌DeepMind带来，一作为Xiao Wang、 Ibrahim Alabdulmohsin。</p>
+<p>作者之列中还发现了ViT核心作者翟晓华。2024年12月，他在推特上官宣，将入职OpenAI苏黎世实验室。</p>
+<h2><strong>数据规模越大对细节理解越好</strong></h2>
+<p>论文主要工作有三方面。</p>
+<p>验证VLMs在1000亿规模数据集上的效果</p>
+<p>证明1000亿规模数据集能增强VLMs文化多样性、多语言能力以及减少不同子组之间的性能差异。</p>
+<p>发现CLIP这类模型过滤筛选数据的过程会对无意中降低模型的文化多元性，在1000亿规模数据集上亦是如此。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,330" src="https://img.36krcdn.com/hsossms/20250213/v2_88ef8f0658124e60ba70b98058085a9b@46958_oswg144374oswg1080oswg330_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>具体来看，研究人员从网络上搜集了1000亿图像-文本对，初步去除有害内容以及敏感信息。</p>
+<p>然后使用CLIP模型对数据集进行质量评估，筛选出与图像内容高度对齐的图像-文本对。</p>
+<p>他们训练了一个分类器模型，对图像-文本进行对齐和错位分类，并调整阈值以重新筛选数据集。为了评估多语言能力，还使用网页的语言标签来确定数据集中的语言分布。</p>
+<p>为了评估不同数据规模对模型性能的影响，研究人员从1000亿数据集中随机抽取了1%和10%的数据，分别创建了10亿和100亿规模的数据集。</p>
+<p>同时为了提高低资源语言的代表性，研究人员对低资源语言进行了上采样，将它们的占比从0.5%提高到1%。</p>
+<p>实验方面，研究人员使用SigLIP模型在不同规模的数据集上进行对比视觉语言预训练。</p>
+<p>他们训练了不同大小的模型（ViTB/16、ViT-L/16、ViT-H/14），并使用了大规模的批量大小和学习率调度。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,492" src="https://img.36krcdn.com/hsossms/20250213/v2_78acaca425424cc888e9e8316b2eb688@46958_oswg418500oswg1080oswg492_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>从结果来看，1B数据集训练的模型在注意力图上无法很好捕捉细节。10B数据集有所改善，100B数据集能更精准。</p>
+<p>同时使用多语言mt5分词器对文本进行分词，并训练了多种语言的模型。</p>
+<p>在模型评估上，研究人员主要进行以下几个维度分析：</p>
+<p>传统基准测试：多个传统基准测试（如ImageNet、COCO Captions等）上评估。</p>
+<p>文化多样性：使用Dollar Street、GeoDE和Google Landmarks Dataset v2等数据集评估了模型在文化多样性任务上的性能。</p>
+<p>多语言能力：使用Crossmodal-3600数据集评估了模型在多语言任务上的性能。</p>
+<p>公平性：评估了模型在不同子组（如性别、收入水平、地理区域）上的性能差异，以评估模型的公平性。</p>
+<p>结果显示，从100亿到1000亿规模数据，在以西方文化为主的传统基准测试上带来的提升比较有限，但在多语言能力和公平性相关任务上显著提高。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,684" src="https://img.36krcdn.com/hsossms/20250213/v2_b4e22ee69a414142b0a2f26e41690f1a@46958_oswg116742oswg1080oswg684_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>数据过滤可以提高模型在传统任务上的性能，但可能会减少某些文化背景的代表性，从而限制数据集的多样性。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,391" src="https://img.36krcdn.com/hsossms/20250213/v2_d171bc48fa124e15bde7d12d93f363d7@46958_oswg143294oswg1080oswg391_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>此外，通过调整低资源语言的混合比例，可以显著提高模型在低资源语言基准测试上的性能。</p>
+<p class="image-wrapper"><img data-img-size-val="786,666" src="https://img.36krcdn.com/hsossms/20250213/v2_cefb953f1bbf41068db338f6aa878e83@46958_oswg97173oswg786oswg666_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>主创翟晓华已被OpenAI挖走</strong></h2>
+<p>该研究的一作为Xiao Wang和Ibrahim Alabdulmohsin。</p>
+<p><strong>Xiao Wang</strong>本科毕业于南京大学，硕士毕业于北京大学。</p>
+<p>领英资料显示，他毕业后先后任职于IBM中国开发实验室、网易有道。2015年加入谷歌DeepMind至今，职位是高级软件工程师，主要从事视觉语言研究。</p>
+<p class="image-wrapper"><img data-img-size-val="762,434" src="https://img.36krcdn.com/hsossms/20250213/v2_86fe35039c164ad995a8b03c4ccf393b@46958_oswg94612oswg762oswg434_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>主创中还发现了翟晓华的身影。</p>
+<p>他同样本科毕业于南京大学，在北京大学攻读博士学位后，赴苏黎世加入谷歌。</p>
+<p>翟晓华和卢卡斯·拜尔（Lucas Beyer）、亚历山大·科列斯尼科夫（Alexander Kolesnikov）一起在谷歌提出多项重要工作。</p>
+<p>2021年，他们三人作为共同一作的计算机视觉领域神作ViT发布即刷新ImageNet最高分。</p>
+<p>这项研究证实了CNN在CV领域不是必需的，Transformer从NLP跨界，一样可以取得先进效果。开创了Transformer在CV领域应用的先河。</p>
+<p>目前这篇论文被引用量已超过5.3万。</p>
+<p>他在谷歌DeepMind时领导苏黎世多模态研究小组，重点研究多模态数据（WebLI）、开放权重模型 ( SigLIP、PaliGemma )以及文化包容性。</p>
+<p class="image-wrapper"><img data-img-size-val="400,400" src="https://img.36krcdn.com/hsossms/20250213/v2_e38f1c54426149d99dda2519545b8882@46958_oswg166433oswg400oswg400_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2024年12月，爆料称OpenAI挖走ViT三大核心作者。随后，该消息被本人证实。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,427" src="https://img.36krcdn.com/hsossms/20250213/v2_1f19e6abf6334135926517c66f815510@46958_oswg258182oswg1080oswg427_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>论文地址：https://arxiv.org/abs/2502.07617</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/67Vj-7_MGkJS-PBZZ4OZJw" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：明敏，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164724061989380</guid><pubDate>Thu, 13 Feb 2025 17:00:00 +0800</pubDate></item><item><title>DeepSeek真正成为了一条鲶鱼</title><link>https://36kr.com/p/3164633146851074</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,557" src="https://img.36krcdn.com/hsossms/20250213/v2_e8d61153b6c3475bbe3d7463f0ed3d89@1883322323_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>摘要：行业普遍认为，两大“AI巨头”，都被DeepSeek卷到了，开源的胜利正在改变AI世界。</strong></p>
+<h2><strong>DeepSeek把两大“AI巨头”都卷到了</strong></h2>
+<p>自走红之初，DeepSeek就因成本优势不断震惊业界，这为其开源生态发展奠定了非常好的基础。</p>
+<p>过去大模型走闭源路线与成本息息相关。许多大模型在预训练阶段几乎都选择了不计成本地投入，而DeepSeek选择剑走偏锋，把重点放在了上岗之后的强化学习。用反复高强度地训练，倒逼自身不断地调整姿势，理解逻辑，自我反思，直到结果令人满意。</p>
+<p>以一直在难产的OpenAI GPT-5为例，估算显示，该项目一次为期半年的训练，仅计算成本就高达约 5亿美元。目前，该项目已开发超过18个月，成本花费巨大，却仍未取得预期成果。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,732" src="https://img.36krcdn.com/hsossms/20250213/v2_2eb7eb75fd994cc78e8debd1b524e5ae@1883322323_oswg53353oswg1080oswg732_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>这给国内很多大模型公司都敲响了警钟，意味着想训练顶级的模型，单是GPU的采购成本就高达几十亿，部署十万卡集群的 “烧钱”程度更是难以想象。</strong></p>
+<p>相比之下，DeepSeek找到了一条低算力，高效率的路径，其训练成本只是OpenAI相关模型的十几甚至几十分之一。 </p>
+<p>DeepSeek还狠狠回击了所谓“开源是硅谷精神”的论调，其不仅开源了所有的模型和论文，供所有人去免费下载，还公开了训练方法，允许大家去做数据的蒸馏，去训练自家的模型。</p>
+<p>这意味着全球所有相关的技术人员，都能在现有的能力基础之上，去做研发与开发，至此，新的技术，新的应用就会在这个新生态里产生。</p>
+<p>DeepSeek在2025年1月20日发布R1模型后，仅7天新增用户1亿（含网页端与应用端），成为史上最快破亿的AI应用。至2月1日，其日活跃用户（DAU）突破3000万大关，超越豆包（1695万），直逼ChatGPT的5323万。</p>
+<p><strong>从云服务商、电信运营商，到多数手机、汽车厂商，越来越多企业正在奋力拥抱 DeepSeek。</strong></p>
+<p><strong>这条鲶鱼很快也搅动了全球AI市场，两大“AI巨头”先后决定一改闭源态度，松口向公众免费。</strong></p>
+<p>先是1月31日，OpenAI上线了新的推理模型o3-mini，并进一步下放了免费的权限。OpenAI CEO Sam Altman首次承认在开源上的失误，指出后续可能找到不同的开源策略，有望重拾模型开源。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,662" src="https://img.36krcdn.com/hsossms/20250213/v2_5eca341118cd43fc9a62cb9dcba8da3f@1883322323_oswg70438oswg1080oswg662_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p><strong>最新消息则来自于百度，其在2月13宣布，从4月1日起，文心一言将全面免费。</strong>同时即日起，文心一言上线深度搜索功能；该功能也将于4月1日起免费开放使用。</p>
+<p class="image-wrapper"><img data-img-size-val="660,837" src="https://img.36krcdn.com/hsossms/20250213/v2_8bd578215521419da262f9ff860405b9@1883322323_oswg62211oswg660oswg837_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>要知道，去年李彦宏还是坚定的闭源拥趸。“今天不管是在中国也好、美国也好，最强的基础模型都是闭源的。闭源是有真正商业模式的，是能够赚到钱的，能赚到钱才能聚集算力、聚集人才”。</p>
+<p>仅仅不到一年过去，情况就开始逆转。</p>
+<h2><strong>开源的底气到底是什么？</strong></h2>
+<p><strong>其实许多人仍对DeepSeek如何算得又快又好抱有好奇，其中比较重要的一点，就是它实现了芯片最底层的优化。</strong>DeepSeek在其发布的技术论文中表示，DeepSeek采用了PTX（Parallel Thread Execution）编程，通过定制PTX优化，使DeepSeek的系统和模型可以更好释放底层硬件的性能。</p>
+<p><strong>相比于外界盛传的算力限制让其寻找性价比方案，DeepSeek其实是主动拥抱的优化，</strong>用PTX把某些SM（GPU里负责计算的核）做了编程，让他们来负责做数据的传输，使得多个GPU之间的数据传输的速度变快，解决了大模型计算中的一大瓶颈；同时，它还用PTX优化了其他的包括计算梯度在内的运算，使得同样的GPU发挥出了10倍的效能，这在训练与推理过程中扮演着十分重要的角色。</p>
+<p>除了芯片优化，DeepSeek在训练方法上也下了真功夫。不同于传统的大模型训练方法，它选择直接跳过监督微调阶段，专注于通过规则驱动的强化学习训练推理模型。</p>
+<p class="image-wrapper"><img data-img-size-val="1046,525" src="https://img.36krcdn.com/hsossms/20250213/v2_04f07871d1b945ceb88cbbfbd488716b@1883322323_oswg80517oswg1046oswg525_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>从DeepSeek V3 Base的预训练模型开始，完全省略了监督微调阶段，为了实现大规模的强化学习，研究团队使用了一种名为GRPO（群体相对策略优化）的方法。有人用现实生活生动类比了这一数学原理的精妙之处，“通俗的说，就是一群学生在解决一个问题。老师不再单独给每个学生打分，而是让学生自己比较答案。答案更好的学生会受到鼓励，而其他人则会从错误中吸取教训。随着时间的推移，整个团队会共同进步，变得更加准确和一致”。</p>
+<p><strong>观察DeepSeek这一本土化大模型的发展路径，芯片优化与GRPO，可谓是两大法宝，提供源源不断的光照与养分，但光有养分还不够，一个好的土壤更加重要。</strong>DeepSeek的全资母公司幻方量化，原本对AI押宝许久，同时也是国内少数破千亿的量化私募，既不缺钱也没有融资需求。跟国内绝大多数AI相比，DeepSeek在商业化上可以说完全佛系，内部甚至没有设立过多的营销、产品岗位。</p>
+<p class="image-wrapper"><img data-img-size-val="1024,868" src="https://img.36krcdn.com/hsossms/20250213/v2_58d791a149a8426f803a2a8c23f07ecd@1883322323_oswg144031oswg1024oswg868_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p>同时，据公开信息显示，DeepSeek研发团队有 139人，均是立足于本土的年轻团队，他们更知道这片土地到底需要什么，所以以上这些快速迭代，前沿的实验成果才有了茁壮成长的土壤。</p>
+<p>工程上精益求精，技术上大刀阔斧进行创新，DeepSeek的爆火绝非偶然。事实上，六年前这场布局就已开始。它的母公司幻方量化早在2019年就花费2亿打造萤火一号超算集群， 2022年默默地屯了万张A100显卡，是ChatGPT 3.5发布之后第一波手握万卡入场券的少数模型公司，积累下的丰富资源增强了开疆拓土的信心。</p>
+<p>至此，他们在V3实现了震撼的性价比，R1在实现性价比的同时还跑通了影响很大的新范式，一跃成为AI领域的新星，<strong>甚至有些观点认为，DeepSeek可以称为中国AI大模型的ChatGPT时刻。</strong>对于行业而言，DeepSeek的案例再次证明：在AI竞赛中，垂直突破、开放协作、长期主义仍是赢得竞争的关键。</p>
+<h2><strong>全球资本重估中国科技企业</strong></h2>
+<p>DeepSeek掀起的人工智能革命浪潮还改变了中国科技企业的估值叙事。</p>
+<p>截至2025年2月12日，恒生科技指数ETF近1周累计上涨7.67%。2月13日，恒生指数再度高开0.46%，恒生科技指数涨0.77%。哔哩哔哩-W、网易-S、百度集团-SW、中芯国际等涨超2%。</p>
+<p>据中国证券报报道，高盛日前发布报告称，中国人工智能（AI）企业深度求索（DeepSeek）的出现正激发投资者加速购买中国股票的热情。同时，高盛维持对明晟（MSCI）中国指数的超配评级，预计该指数今年将上涨14%。</p>
+<p>此前，中国科技企业一直普遍处于被低估的状态中。大摩的一篇报告指出，全球投资者对中国科技企业的估值体系仍停留在传统互联网思维，未能充分反映其在前沿科技领域的突破。以腾讯、阿里为例，二者港股市盈率分别只有19和15，远远低于美股科技股的市盈率。</p>
+<p><strong>现在，DeepSeek真正成为了一条鲶鱼。</strong></p>
+<p>美国针对DeepSeek的报道里，有一个高频词汇经常出现：“Sputnik Moment”，又名斯普特尼克时刻（该术语源于1957年10月4日苏联成功发射的 “斯普特尼克 1号”人造卫星。这是人类历史上第一颗人造地球卫星，它的发射成功使苏联在太空领域取得了领先地位，让美国意识到自己在科技，尤其是太空技术方面的落后，给美国带来了巨大的危机感和紧迫感）。</p>
+<p>这件事对当时的美国冲击很大，随后1958年NASA成立，美国举全国之力完成了登月，重新回到太空领域里面领先的地位，才拔掉了自己心头的这根刺。而这次，在美国最核心的AI领域里，DeepSeek又扎进去了一根新的刺。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/vZerYE7CcepmKpYTc9jzNA" rel="noopener noreferrer nofollow" target="_blank">“凤凰网科技”</a>，作者：梁思琦，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164633146851074</guid><pubDate>Thu, 13 Feb 2025 17:02:00 +0800</pubDate></item><item><title>2025年家办投资最新趋势，这几个方向值得关注</title><link>https://36kr.com/p/3164641942924040</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>随着2025年的到来，家族办公室（以下简称“家办”）正面临着不断变化的全球经济状况、技术颠覆和不断演变的地缘政治风险所塑造的动态投资格局。</p>
+<p>家办新智点编译了瑞银最新的《家族办公室季度2025》报告，该报告对今年影响家族办公室投资组合的宏观经济环境、投资策略和另类资产机会、艺术品市场等提供了重要见解。 </p>
+<h2><strong>2025年展望</strong></h2>
+<p>自2020年代初以来，全球股市上涨了约50%，美国名义GDP增长了30%以上，美国企业利润增长了近70%。</p>
+<p>尽管全球经历了前所未有的封锁，东欧和中东爆发了战争，利率和通胀出现了几十年来最大的涨幅，但这一切仍然取得了成功。市场和经济发展使得一些人将这十年称为“咆哮的二十年代”，其特点是经济高增长、市场回报强劲和生产率不断提高。</p>
+<p><strong>下一阶段经济发展的关键，包括美国的政治变化、利率下降以及人工智能（AI）和电力与资源的变革性创新。</strong></p>
+<p>报告称，美国经济预计将略有放缓，2025年GDP增长率将维持在2%左右，低于2024年的2.7%。强劲的消费支出、工资增长和强劲的劳动力市场为经济提供了稳定。然而，财政赤字上升（预计将连续第四年超过GDP的6%）和潜在的关税升级等风险可能会拖累经济增长。</p>
+<p><strong>2025年，亚洲的增长速度将略有放缓，各地区之间存在差异</strong>，预计中国经济增速将从2024年的4.8%调整至2025年的4.0%，日本经济增长将从2024年的‑0.2%加速至2025年的1.1%，日本央行预计将在2025年中期加息，澳大利GDP将从2024年的1.2%增至2025年的2.0%。</p>
+<p><strong>相比之下，印度和印度尼西亚预计将实现强劲增长</strong>，受益于有利的人口结构和投资的转变。</p>
+<p><strong>2025年，欧洲经济增长将不均衡且低迷，但将比2024年较为强劲。</strong>德国、法国和意大利将实现1%左右的温和增长，结构性挑战和财政约束将限制增长，报告预计西班牙、英国和瑞士将表现出色，增长率分别约为 2.3%、1.5%和1.3%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_0a0092d63f3547e19b4bb3cf01236787@000000_oswg122770oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>以下为2025年展望：</strong></p>
+<p><strong>第一</strong>，预计各国央行将在未来一年进一步降息，现金回报率将下降，投资者应该将现金投入投资级债券、多元化固定收益策略，以应对较低的利率以及股权收益策略来维持投资组合收益。</p>
+<p><strong>第二</strong>，人工智能将成为十年以来的最大投资机会之一，投资者应关注上市大型股以及创新型私营企业，不断增长的电力需求和脱碳目标也为电力和资源相关企业创造巨大的长期机遇。</p>
+<p><strong>第三</strong>，股市仍有很大的发展空间。随着利率下降、经济稳健增长和转型创新推动市场发展，预计标准普尔500指数将在2025年底达到6,600点，较当前水平上涨约10%。<strong>虽然印度股市非常吸引人，但中国互联网股票市场仍可以关注。</strong></p>
+<p><strong>第四</strong>，在供应受限、需求上升的背景下，全球住宅和商业房地产的前景光明。</p>
+<h2><strong>美国市场新预期</strong></h2>
+<p>随着美国新任总统上台，投资者应关注关税、财政政策、放松管制、货币政策和国际关系等。</p>
+<p><strong>贸易：</strong>美国可能实施选择性和双边关税，这可能会导致欧洲和中国市场波动，但不会阻碍美国经济增长。</p>
+<p><strong>美联储：</strong>美联储预计2025年将降息100个基点。尽管如此，美联储将密切关注可能对通胀或通胀预期产生更持久影响的因素，包括限制移民、一刀切贸易关税或大幅宽松的财政政策。</p>
+<p><strong>股票：</strong>报告预计标准普尔500指数将在2025年底达到6,600点，看好的行业包括科技、公用事业和金融。虽然关税可能会影响科技收入，但人工智能基础设施支出仍然强劲。另外，金融业将从放松管制中受益。</p>
+<p><strong>债券：</strong>由于美联储可能继续降息，且放松财政政策的计划可能面临限制，收益率在未来一年可能会下降，投资者应利用目前较高的收益率水平来锁定回报。</p>
+<p><strong>写字楼市场：</strong>建议谨慎投资，重点关注优质、高品质的中央办公空间。</p>
+<h2><strong>家办越来越多转向另类投资和VC直投</strong></h2>
+<p>家办越来越多地转向另类资产，以提高投资组合的多元化和长期回报。近年来，私募股权的表现优于公开市场。</p>
+<p>风险投资发挥着更为重要的作用，家办将其投资组合的更大份额分配给人工智能、生物技术和金融科技等行业的早期和成长期公司。</p>
+<p><strong>家办作为风险投资交易的直接投资者的兴起已成为一种趋势。</strong>与传统私募股权公司不同，家办可以灵活地进行长期投资，而不受既定退出时间表的压力，还与机构风险投资公司共同投资，以获得具有良好创新潜力的高增长初创企业的机会。</p>
+<p><strong>房地产依旧是家办关注的资产类别。</strong>由于电子商务扩张和人工智能驱动的技术进步，家办在物流地产、数据中心和电信基础设施的需求不断增加。与此同时，多户住宅、老年公寓和学生宿舍等住宅领域以及基于需求的零售地产方面，存在着选择性机会。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_d87e8f1217c64a7980f7a299085fb7e3@000000_oswg560627oswg729oswg499_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>特朗普上任后，美元走强，主要受减税、关税和经济放松管制预期推动。然而，<strong>分析师认为美元被高估，长期来看可能走弱</strong>，建议投资者考虑对冲汇率波动的策略。</p>
+<p><strong>大宗商品，尤其是能源转型所必需的金属，有望表现强劲。</strong>预计黄金将创下新高，瑞银维持2025年底每盎司2,900美元的目标价，并继续建议将约5%的资金配置于黄金，以实现多元化。</p>
+<p><strong>此外，铜、锂和镍预计将受益于电动汽车和可再生能源需求的增加。</strong></p>
+<h2><strong>艺术品市场</strong></h2>
+<p>根据报告巴塞尔艺术展全球艺术市场报告，尽管市场已经从疯狂的步伐中降温，但仍然强劲，为收藏家对整体销售量的预期创造了新的基准。</p>
+<p>然而，2024年上半年的特点是艺术品市场信心明显下降。市场下滑和信心不足也导致投机风险大幅降低，ArtTactic投机晴雨表跌至10 年来的最低水平。这些情况表明，对于能够战略性地驾驭其细微差别的买家来说，市场充满了机会。</p>
+<p><strong>为充分利用买方市场，收藏家应考虑对画廊和拍卖行采取战略性方法。</strong>高质量的作品仍然有售，尤其是画廊的作品，这往往是获得这些作品的最佳时机。瑞银建议买家避免等待，为自己感兴趣的作品申请私人转售机会，并在当前条件下协商更大的折扣。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_0e9b572acb214f89942ba125532dfc29@000000_oswg212421oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>对于拍卖，收藏家可以关注他们关注的艺术家作品的区域和淡季拍卖。</strong>这些拍卖有时会以更优惠的价格出售重要作品，尤其是在整体市场活动较低的时期。</p>
+<p>即使没有立即购买的意图，监控拍卖结果也可以帮助收藏家调整他们对当前价格趋势的理解，并识别机会出现时，收藏家应及时抓住。在这个周期中，收藏家通常应避免在拍卖会上参与竞价战，除非有一件特别稀有或受欢迎的艺术品可供收购，且符合收藏目标。</p>
+<p><strong>此外，在市场活动减少的这段时间，收藏家可以采取切实可行的措施来保护和提高其藏品的价值。</strong>编目作品、更新估值、处理任何状况问题并确保制定适当的保险政策，可以为收藏家未来藏品的增长或战略销售做好准备。</p>
+<p>收藏家还可以通过将作品借给博物馆或机构来提高其藏品的知名度，从而为文化生态系统以及其作品的展览和出版历史做出贡献。</p>
+<p>这一策略对成熟艺术家和新兴艺术家都很有效，前者可以与更广泛的受众分享重要的艺术作品，后者的作品可以通过机构认可获得声望。</p>
+<p><strong>（《家办新智点》提醒：内容及观点仅供参考，不构成任何投资建议。）</strong></p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg5MDU1OTIzMg==&amp;mid=2247500343&amp;idx=1&amp;sn=ffb3bf5743ff0d56da296dbebcd4ed13&amp;chksm=ce41df8c6ffe2fcee40af625654025e539514e0586c76ef55bd0b2130f67fe4ca53281221a36&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“家办新智点”（ID：foinsight）</a>，作者：foinsight，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164641942924040</guid><pubDate>Thu, 13 Feb 2025 17:03:00 +0800</pubDate></item><item><title>一克便宜80元、有人“罚站”三小时也要买，这些风险要注意……</title><link>https://36kr.com/p/3164797873334784</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在排队三小时后，来自广东的梁女士在位于香港海港城的老铺黄金门店花费3万多元人民币买到了40多克的十字金刚杵镯。</p>
+<p>在社交媒体上，像梁女士一样赴港买金的网友不在少数。在香港怎样买黄金更划算之类的经验帖吸引了不少网友关注。</p>
+<h2><strong>有人排队三小时</strong></h2>
+<p>2月8日上午，梁女士来到香港新港中心的老铺黄金门店排队，两小时后才进入大门，进去之后她告知销售自己想要的款式后又等了半个小时，却被告知无货。随后她又转到位于香港海港城的另一家老铺黄金门店，前后“罚站三小时”终于买到了自己喜欢的款式。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_2f578b0a37604428b080c466ec40e7c3@000000_oswg178414oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲消费者在老铺黄金店铺门口排队 受访者供图</p>
+<p>梁女士告诉中新经纬，这次选择在香港买金主要有两个原因。“第一是价格比较便宜。想买这个镯子的时候老铺在广东的折扣活动已结束，而香港正在进行满千减百的春节促销活动，打折后克价约合人民币857元，延迟去内地专柜领首饰盒再减三百。第二是香港金饰的款式比较吸引我。”</p>
+<p>和梁女士一样，受促销影响，再考虑到当前港币对人民币的汇率，蔡女士也于2月6日在香港老铺黄金花费折合人民币约2.9万元购入一个大号葫芦，算下来克价折合人民币约为860元左右。</p>
+<p>中新经纬注意到，同一品牌下，香港金店的克价普遍较内地金价便宜80元左右。以周大福为例，2月12日，其香港官网显示，当日999.9饰金卖出价为每克861.1港元，折合人民币807.6元。内地官网显示当日足金（饰品、工艺类）卖出价格为每克886元，算下来，每克便宜近80元。</p>
+<p>周生生香港官网显示，12日足金饰品卖出价每克859港元，折合人民币约为806元，其内地官网显示，当日足金饰品卖出价格为每克880元。</p>
+<p>老凤祥银楼香港门店2月13日显示，当日999.9饰金卖出价为每克858.412港币，约合人民币805.113元，较内地门店886元便宜约81元。</p>
+<p>据老铺黄金北京某分店工作人员介绍，该品牌不按克算金价，而是直接给商品定价。以一款克重为41克左右的镶钻十字金刚镯为例，该店总价约为5万元人民币。同日，中新经纬致电香港老铺黄金海港城店，工作人员称，目前的定价相比内地仅有汇率优惠（约为内地价格的九三折），促销活动结束后现在已经不需要排队便可进店购物。</p>
+<p>此外，香港不少黄金品牌的工费也相对较低。中新经纬近日在走访部分香港金店品牌时发现，六福珠宝推出了部分金饰免工费的活动，老凤祥也有针对工费的优惠活动。老凤祥工作人员称，相比内地，老凤祥香港的手工费较低。她以一个100克的手镯举例称，其工费约为900元港币，但同样的手镯在内地门店可能需要3000元人民币的工费。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_9d7bec856ef34283aaffdb3447b339f3@000000_oswg94222oswg1080oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">▲老凤祥香港某门店 中新经纬 罗琨摄 </p>
+<p>中新经纬注意到，不少金店接受人民币直接付款。上述老凤祥工作人员称，由于内地来买金的顾客较多，该公司对店员的普通话水平也有一定要求。<strong>“春节期间来的内地顾客太多了，一波接着一波，有时到下午五六点才顾上吃中午的饭，太夸张了。”</strong></p>
+<p>不过，值得注意的是，和内地有所不同的是，在香港购买金饰还需收取佣金。如周生生官网显示，计价黄铂金饰品之交易需收取2%佣金。</p>
+<h2><strong>这些风险要注意</strong></h2>
+<p>消费者从香港购金回内地，有哪些事项需要注意呢？</p>
+<p>南开大学金融学教授田利辉提醒称，消费者赴香港购买黄金可能面临汇率变动风险、政策法规风险、市场波动风险、品质风险和售后风险。由于香港的黄金价格通常以港币计价，而内地消费者多数使用人民币进行交易，因此汇率波动会对实际购买成本产生影响。而且，根据《中华人民共和国海关法》等相关法律法规，旅客携带入境的黄金及其制品应以自用合理数量为限，超过规定标准需向海关申报，并可能需要缴纳相应的税费。</p>
+<p>他指出，香港市场上存在众多黄金品牌和店铺，其中不排除一些不良商家可能以次充好，销售质量不佳的黄金产品。由于代购或跨境购买的特殊性，消费者在购买后可能面临售后维权困难的问题。</p>
+<p>在经济学者盘和林看来，香港黄金市场有其优势，比如市场成熟度高、交易便捷、变现能力强、质量好、品种丰富。在免税额内可以考虑从香港购金，要避免超出免税额，并留存好购物发票。</p>
+<p>中新经纬以消费者身份致电中国海关12360得知，消费者在香港购买黄金进入内地数量只要不超过自用合理范围即可，超出自用、合理数量的黄金及其制品，将视同进口货物，海关将凭中国人民银行的批件予以征税放行。</p>
+<p>海关总署官方信息平台“海关发布”近日发布的文章指出，根据《中华人民共和国金银管理条例》和《中华人民共和国海关关于进出境旅客通关的规定》等要求，黄金及其制品属于国家限制进出境物品，旅客携带黄金及其制品进出境，超过50克需向海关进行书面申报。</p>
+<p>在金价持续上涨后，未来金价趋势如何？对此，中信证券首席经济学家明明对中新经纬指出，他预计金价上涨还将持续。首先，特朗普上台后，逆全球化趋势可能再度加速，这有利于黄金发挥避险属性；其次，全球央行购金进程预计也将持续，这也有助于支撑黄金价格；最后，特朗普上台后，美国财政扩张趋势可能还将持续，这也利于金价的上涨。</p>
+<p>田利辉则指出，长期来看，黄金作为一种避险资产，其价格往往会在全球经济不确定性增加时上涨。当然，在新科技的冲击下，黄金的货币属性和投资价值也存在变化可能性。他建议，对于将黄金作为投资工具的消费者来说，应注意控制仓位，通过多样化投资组合来分散风险，不宜过度集中投资于黄金单一品种投资。</p>
+<p>( 文中观点仅供参考，不构成投资建议，投资有风险，入市需谨慎。) </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247588990&amp;idx=1&amp;sn=28d6b63ac717e5cb188da7819ac15061&amp;chksm=e8908f227f085aec3ed3cbb841b3ce40669416171435b79f9aebb660a127996976e53e0adfe7&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：罗琨；实习生 陈卓，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164797873334784</guid><pubDate>Thu, 13 Feb 2025 17:07:00 +0800</pubDate></item><item><title>北京发布“好房子”新标准，鼓励设置阳台、架空层和风雨连廊</title><link>https://36kr.com/p/3164847762254343</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p> “好房子”提出以来，各个城市的相关政策和住宅管理规划开启了密集调整。</p>
+<p> 从产品设计角度来看，新房品质肉眼可见的得到提高。大阳台、风雨连廊等能够提升居住舒适度的空间被列为鼓励项，容积率也进一步被放宽，购房人获得了实实在在的“好处”。 </p>
+<p>2月12日，北京市发布了“好房子”新标准。 北京市规自委印发《北京市平原多点地区“好房子”规划管理相关技术要点（试行）》（以下简称“要点”），在昌平、顺义、大兴等5个平原多点新城以及通州区参照施行，新建以及部分已拿地的住宅小区，在阳台、架空层、风雨连廊、外立面、控高等方面都可按照新规执行。 </p>
+<p>《要点》中以一系列鼓励“好房子”设计，放宽容积率的新标准。具体体现在以下几点：</p>
+<h3><strong>明确可按需设置封闭或开敞阳台</strong></h3>
+<p> 为增强居民获得感，营造多样化生活空间，满足居民休憩、晾晒等需求，可按需设置封闭或开敞阳台。每户阳台水平投影面积不大于套内建筑面积的 10%，进深不大于1.8 米。</p>
+<p>封闭阳台按照围护结构外表面所围空间的<strong>水平投影面积的1/2计入容积率，按照投影面积收取地价款</strong>；</p>
+<p>开敞阳台按照围护结构外表面所围空间的<strong>水平投影面积的 1/2 计入容积率，按照投影面积的1/2 收取地价款</strong>；</p>
+<p>错层阳台上盖高度<strong>大于等于两个自然层高且不封闭时，不计入容积率，不收取地价款</strong>。 </p>
+<h3><strong>大户型可设置挑高空间</strong></h3>
+<p>为丰富居住空间形式，满足居民宽敞明亮居住需求，套内建筑面积超过 140 平方米的住宅，可在起居室（厅）设置1处挑空空间。</p>
+<p>其挑空部分不大于两层层高，水平投影面积不超过住宅套内建筑面积的 25%且不大于50 平方米的，按其水平投影面积计算容积率，超出部分按 2 倍计算容积率。 </p>
+<h3><strong>合理利用底层架空空间 </strong></h3>
+<p>为营造多样化生活场景，补充健身、亲子、阅读、休闲等基础公共服务功能，可在小区集中绿地、活动场地附近的住宅建筑底层设置架空层，作为小区公共通道、居民活动空间等使用，不得分割登记、不得分摊。</p>
+<p>对于<strong>面积不超过建筑基底面积50%、高度在 4.9 米以下的架空层，其建筑面积不计入地块容积率，不收取地价款</strong>；超出建筑基底面积50%部分及高度大于4.9米的部分按实际面积计入容积率。 </p>
+<h3><strong>鼓励设置开敞式风雨连廊 </strong></h3>
+<p>为方便居民室外休闲活动，补充适应本地气候特点的室外游憩设施和景观空间，在不影响居民日常生活的前提下，可在小区场地内设置风雨连廊，将相互独立的建筑物或将建筑物与小区内广场、游园等公共空间相互连接。连廊不封闭时，<strong>不计入容积率</strong>。 </p>
+<h3><strong>增配邻里共享公共空间 </strong></h3>
+<p>为提升小区生活宜居度、便利度，补充快递收寄、便民零售、便民餐饮、会客交流等基础公共服务功能，可结合小区入口、入户大堂或依托沿街、街角首层配建邻里共享公共空间。</p>
+<p>邻里共享公共空间的建筑面积按照700 平方米/千户计算，单处最大面积 700 平方米，其建筑面积<strong>不计入容积率</strong>，建成后由开发建设企业自持，面向全体居民运营，不得分割登记，不得转让、抵押。 </p>
+<h3><strong>鼓励提升建筑立面品质 </strong></h3>
+<p>为提升建筑立面品质，住宅建筑外立面采用砖石、金属、陶板等耐久性高品质材料的，其<strong>饰面层不计入容积率</strong>。 </p>
+<h3><strong>建筑高度局部弹性管控 </strong></h3>
+<p>为引导形成高低错落的城市天际线，居住用地建筑高度可允许局部上浮进行弹性管控。建筑控高为18 米、24 米、36米、45 米的居住用地，允许建筑高度局部上浮一档（如45米可局部上浮至 60 米）。</p>
+<p>建筑高度局部上浮的住宅单元水平投影面积占该地块建筑基底面积之和的比例不应超过25%，且建筑高度上浮的住宅单元建筑面积占该地块住宅地上总建筑面积的比例不应超过 30%。</p>
+<p>建筑高度局部上浮后应与周边城市空间环境相协调，避免断崖式高度变化，不得与文物保护、景观视廊、机场航空净高、微波通道等各项刚性管控要求冲突。 </p>
+<p>《要点》是为进一步落实住房城乡建设部“好房子”相关工作部署，以住房品质提升推动住房供给侧改革，将在顺义、大兴、亦庄、昌平、房山等平原多点地区试点，城市副中心（通州区）也可参照执行。</p>
+<p>预计试点之后，将会总结工作经验、调整，并进一步在北京其它行政区扩大执行范围。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164847762254343</guid><pubDate>Thu, 13 Feb 2025 17:29:00 +0800</pubDate></item></channel></rss>
