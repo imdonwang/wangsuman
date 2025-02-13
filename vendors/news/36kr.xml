@@ -1,479 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 13 Feb 2025 09:30:20 +0800</lastBuildDate><pubDate>Thu, 13 Feb 2025 09:30:20 +0800</pubDate><item><title>生成式AI管理者指南</title><link>https://36kr.com/p/3164295661660673</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>在数字化浪潮中，生成式人工智能强势闯入管理领域。多数管理者期待它成为得力思维伙伴，却面临应用技能短板。如何跨越这道鸿沟，让AI为管理赋能？“协同思考”或许是解锁强大潜能的关键，带你一探究竟。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_11707c8c0b604580960f6013466250a5@000000_oswg83684oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>随着生成式人工智能对话模型在各组织的应用日益广泛，许多管理者已经意识到，这项技术的作用远不止处理简单的生产任务。如今，三分之二的管理者认为，生成式人工智能有潜力成为他们的思维伙伴，提供全新视角、权衡利弊、评估取舍、提升战略思维并助力领导力发展。然而，尽管对未来的期望颇高，但要实现这一目标仍有很长的路要走。目前，仅有30%的管理者表示自己具备以这种方式运用生成式人工智能的技能和知识。</p>
-<p>幸运的是，管理者们可以迅速弥补这一差距。基于我们的经验、大量的交流探讨，以及对上万个提示词的反复尝试，我们编写了一本《生成式AI管理者指南》，其中包含相关说明和工具，以帮助管理者将任何生成式对话AI工具用作思维伙伴。</p>
-<p>通过这些技巧，人类与人工智能协同合作，能够取得单凭各自力量无法实现的高质量成果。我们将这一过程称为 “协同思考”（co-thinking），本文将为你介绍如何开启这一实践。</p>
-<h2><strong>协同思考的力量</strong></h2>
-<p>生成式人工智能能充当思维伙伴，在诸多事务上大显身手，无论是撰写演讲稿、 进行根本原因分析，还是制定战略，都能发挥重要作用。以下来看几个例子：</p>
-<ul>
-<li>马里奥是一家制造工厂的项目经理，他和团队常常要解决技术难题。找出问题的根本原因是一项反复出现却又十分复杂的任务。马里奥设计了一套与生成式人工智能的结构化对话流程，来辅助自己深入思考每个问题。每当出现新问题，他都会调整并测试提示词序列。</li>
-<li>金是一家大型消费品公司的公关经理。她利用生成式人工智能起草新闻稿，同时权衡不同利益相关者可能的反应。金会与人工智能展开双向对话，让其扮演特定的利益相关者，就每份草稿的内容与自己展开辩论。金的经验法则是，在对话中与人工智能相互质疑、相互挑战。</li>
-<li>艾米是一家大型科技公司的财务负责人，她负责推动一项变革计划，该计划旨在将其所在部门从内部服务提供商转变为业务部门的战略合作伙伴。艾米创建了一套生成式人工智能提示词序列，团队成员可以使用它来理解并思考如何接受该计划所需的新思维模式和行为方式。</li>
-</ul>
-<p>这些事例展示了一种与人工智能互动的方式，它远不止简单地提出问题、点击按钮获取答案。这需要积极的来回对话，具体可参考下表，在对话的每个环节，人类和人工智能都要贡献想法，并在彼此的思路基础上进一步拓展。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_4266d4c9145848fb95a39ba5d54b826a@000000_oswg48682oswg632oswg996_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>协同思考的价值不仅体现在最终成果上，还体现在对话过程本身——实际上，价值是在人机对话的各个环节中共同创造出来的。</p>
-<p>许多不同岗位的高管都谈到将生成式人工智能作为协同思考的伙伴。软银的孙正义曾表示：“我每天都在和ChatGPT聊天”，以此来头脑风暴新的想法和商业战略。Coursera的杰夫·马吉翁卡尔达称生成式人工智能是 “一位不可思议的思维伙伴，正在改变我的工作方式”。</p>
-<p>在高层管理人员之外，我们还遇到了各级接纳协同思考模式的管理者。法拉利的项目经理瓦伦丁·马尔盖分享道：“在解决技术问题时，生成式人工智能可以充当协同思考的伙伴，作为方法专家，引导结构化的思考过程，系统地探究问题的根本原因。” 我们相信，这些方法能为任何领导者或管理者提供帮助，现在就是开启实践的最佳时机。</p>
-<h2><strong>如何设计与人工智能的协同思考对话</strong></h2>
-<p>我们创建了一个四步框架，帮助管理者成功设计与生成式人工智能的协同思考对话。</p>
-<p><strong>1. 为人工智能设定角色</strong>：明确你希望人工智能扮演的具体角色，比如专家、团队成员或唱反调的人。使用诸如 “扮演成……”“帮我……”“对话的输出结果将是……” 等引导性语句。</p>
-<p><strong>2. 设定对话场景</strong>：选择你期望对话发生的场景。谁将参与对话？是你与人工智能一对一交流，还是一对多交流（例如在团队会议或研讨会上）？</p>
-<p><strong>3. 勾勒对话大纲</strong>：设想一系列问题和陈述，明确你和人工智能各自的任务。详细界定人工智能和人类分别需要提供什么；如果让对话流程听天由命，对话就更有可能偏离正轨。</p>
-<p><strong>4. 编写提示词</strong>：根据你拟定的大纲编写提示词。你可以借助生成式人工智能进一步优化提示词，比如在聊天框中输入：“我有这样一个对话大纲，需要你帮我将它转化为一个结构化的提示词，以便我们进行对话：‘[插入你的大纲内容]’。”</p>
-<h2><strong>充分发挥生成式人工智能对话的作用</strong></h2>
-<p>在研究过程中，我们与联合利华前全球传播与企业事务主管杰西卡·汤普金森进行了交流。她分享了自己在学习将生成式人工智能用作协同思考伙伴过程中的一些经历。“回头看我最初编写的提示词，得到的回复对我的需求毫无帮助。我不得不改变方法，开始像与同事或代理机构交流那样与生成式人工智能对话。这种来回的对话显著提升了结果质量，也让工具在这个过程中学到了更多东西。”</p>
-<p>在你刚开始将生成式人工智能用作协同思考伙伴时，初期结果可能好坏参半。遵循以下这些注意事项中的最佳实践方法，有助于加快你的学习进程。</p>
-<h3><strong>该做的事</strong></h3>
-<ul>
-<li><strong>秉持对话思维：</strong>把生成式人工智能当作人类合作伙伴来交流。人工智能的运作方式与苏格拉底问答法有相似之处，能够通过对话提升你的批判性思维能力。你可以让生成式人工智能围绕你选定的主题或问题引导你进行结构化对话，详细阐述你的答案，补充被忽略的维度，并提出后续问题。</li>
-<li><strong>积极参与互动：</strong>你必须与人工智能进行来回互动。双方通过反馈和相互挑战来贡献想法，最终共同创造出成果。为了获得恰当的建议、定制化的答案和有用的提示，你可以先简要、准确地概述你的情况，并提供清晰的背景信息。然后，通过积极互动进一步拓展交流——分享你的思考和个人经验，并提出后续问题。</li>
-<li><strong>向人工智能发起挑战：</strong>如同与人类对话一样，思考过程中的一些碰撞是很有价值的。要求人工智能提供不同的视角、想法或容易被忽略的选项。不要满足于人工智能生成的第一个答案，也不要过快认同它给出的内容。例如，你可以问 “我们是否遗漏了什么重要方面？” 或者 “如果从…… 的角度来看这个问题会怎样？”</li>
-</ul>
-<h3><strong>不该做的事</strong></h3>
-<ul>
-<li><strong>单打独斗：</strong>如果人们主要依赖自己与生成式人工智能协作，而不积极让团队成员参与并互动，就会减少团队内部的人际沟通和知识共享。这可能会影响团队的判断力，削弱预防和应对风险的能力。不要一直独自与人工智能互动，要定期停下来与团队成员进行面对面交流，让其他同事参与到人工智能辅助的工作过程中，向专家寻求反馈，综合不同的观点，并鼓励同伴间相互学习。</li>
-<li><strong>急于求成：</strong>你可能会倾向于快速打字、点击或推进流程。生成式人工智能的快速响应速度可能会导致人们不假思索地匆忙行事。你可以要求人工智能帮助你暂停并思考：明确让人工智能向你征求反馈，确保你有时间思考和确认后再继续推进。</li>
-</ul>
-<p>很快，掌握生成式人工智能应用能力的管理者将领先于那些尚未掌握的同行。现在就应该积极投入到生成式人工智能的应用中，了解如何为自己、团队和企业发挥其价值。确定可以尝试共同思考模式的任务，区分任务的优先级，记录其中的收益、风险和经验教训，并在团队内分享。你有责任成为协同思考的榜样，鼓励团队成员讨论哪些方面进展顺利、哪些地方有待改进，并随着技术的发展，以结构化的方式收集经验。</p>
-<p><strong>关键词：生成式AI</strong></p>
-<p>伊莉莎·法里（Elisa Farri）、加布里埃莱·罗萨尼（Gabriele Rosani）|文</p>
-<p>伊莉莎·法里是Capgemini Invent旗下管理实验室的副总裁及联合负责人，也是2023年Thinkers50雷达榜单入选者。加布里埃莱·罗萨尼是Capgemini Invent旗下管理实验室的内容与研究总监。</p>
-<p>豆包、Kimi|译  周强|编校</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY4MzQyMQ==&amp;mid=2650145927&amp;idx=1&amp;sn=0586742a1e02421cfae8de3b5673c4a5&amp;chksm=bfd9b88e738e8efe7d9208f6fff37e39f53d7f379ef5b10b4f1675eb35882add9570c1af252e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“哈佛商业评论”（ID：hbrchinese）</a>，作者：HBR-China，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164295661660673</guid><pubDate>Thu, 13 Feb 2025 08:47:00 +0800</pubDate></item><item><title>你的新Model Y都有这些全新设计，七座版也被官方确认了</title><link>https://36kr.com/p/3164297765153285</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>新款Model Y</strong>做了哪些改动？现在有官方的完整介绍了。</p>
-<p>特斯拉车辆工程副总裁现身说法，透露为了FSD，Model Y重新设计了一个关键硬件。</p>
-<p>对此，网友激动直呼：</p>
-<blockquote>
-<p><strong>这可比激光雷达对FSD有用多了。</strong></p>
-</blockquote>
-<p>改版的更多细节，也随“揭秘”一同曝光。</p>
-<p>就连推出Model Y七座版，也敲定时间了。</p>
-<h2><strong>“比激光雷达更有用的硬件”</strong></h2>
-<p>变化来自Model Y的<strong>侧中继摄像头</strong>。</p>
-<p>据<strong>特斯拉车辆工程副总裁</strong>拉尔斯·莫拉维（Lars Moravy）透露，他们在这个区域附近，新增了一个<strong>唇状的边缘</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_1429d545a6ba4b1c84cb320cd65134f8@000000_oswg267398oswg950oswg501_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>看似微小的设计，实际作用十分巧妙。</p>
-<p>拉尔斯介绍，这个新设计的形状可以<strong>保护并自动清洁相机</strong>：</p>
-<p>多出来的“小唇”可以承接自然水流，保护摄像头免受水或其他自然因素影响。</p>
-<p>当车辆行驶时，这些水将产生涡流，并随着空气上升流过，防止堆积进入摄像头内部，还能起到自动清洁的作用。</p>
-<p>这意味着和旧款相比，新款Model Y在转向时，摄像头的可视性会更好，也被认为<strong>和FSD更加适配</strong>。</p>
-<p>对于这项更新，网友直呼：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_0a81002e960e4f019dacd24d0b2bbca3@000000_oswg32932oswg810oswg218_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这个“新巧思”，实际是由拉尔斯·莫拉维，连同<strong>首席设计师</strong>弗朗茨·冯·霍兹豪森（Franz von Holzhausen），在一条油管视频当中揭秘。</p>
-<p>当然，Model Y六年磨一剑，改的可不止这一点。</p>
-<p>这条55分钟的视频，把新款Model Y彻底扒了个底朝天。</p>
-<h2><strong>一条视频扒出更多细节</strong></h2>
-<p>外观变动，最一目了然。</p>
-<p>弗朗茨介绍，Model Y在<strong>整体空气动力学性能</strong>都有提升，侧中继摄像头只是其中一项。</p>
-<p>从前端看，车头的封闭式设计，采用一体式贯穿头灯，形状更加饱满。</p>
-<p>创新在于加入了多面的“瓦状”特征，空气可以更快地向上流过。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_eeb602116c50400cabd8e60e7e35f27e@000000_oswg244285oswg1080oswg520_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而车顶曲线的高度，比旧款更小，只有几分之一英尺（1英尺=30.48厘米）。</p>
-<p>这可以让空气获得良好的层流——也就是让空气更平稳地流过车尾。</p>
-<p>放心，车内净高度并没有变化。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_a9cf8525dfd7421c88a27db934c8bfc4@000000_oswg446179oswg1080oswg563_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>向下，Model Y装上了全新<strong>封闭式轮胎</strong>，减少空气在轮胎间穿梭所带来的阻力。</p>
-<p>并有19英寸的漩涡样式，以及20英寸的风暴样式两款可选。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_49ad7e9d78d34cbc9d0c505dd685529e@000000_oswg534507oswg763oswg567_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据拉尔斯透露，新Model Y的车轮和轮胎，是特斯拉SUV史上<strong>“最抓地”</strong>组合，结合了最低的滚动阻力和空气动力学。</p>
-<p>这么一套改造下来，Model Y整体空气阻力下降4%，阻力系数从老款的0.23Cd降至<strong>0.22Cd</strong>。</p>
-<p>而新的设计，不仅让车辆风阻更小，还融入了降低噪音的考量。</p>
-<p>除了在隔音夹层玻璃上下功夫以外，主要改进来自<strong>悬架</strong>的更换，拉尔斯说，由于冲击噪音影响，Model Y曾被车主多次投诉。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_0a3421f5b4884c24bc5cb8f10160e666@000000_oswg428636oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>为此，新Model Y悬架经过重新设计，冲击噪音可下降<strong>约25~30%</strong>。</p>
-<p>另一个降噪设计，位于侧视镜背部，增添了一个小“山脊”状的凸起，可以改进空气阻力和声阻力，让驾驶舱内更加安静。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_0c19e213ffe04a3487ffad290fed4608@000000_oswg337622oswg1080oswg504_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>车尾部分，也是贯穿式灯带尾灯造型，增加了保险杠强度，可以在意外碰撞时降低伤害。</p>
-<p>后备箱“解放双手”，无需按钮，通过<strong>感应自动开启</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_06af1f3904f548c59b31363f0230d91b@000000_oswg235438oswg759oswg328_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>后备箱打开后，按下左侧按钮，可以启动<strong>座椅折叠</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_25116065220643869271190a9ff11958@000000_oswg292541oswg1080oswg531_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>进入车内，其他内饰也处处暗藏玄机。</p>
-<p>控制台可以同时给两部手机充电，前排新增了座椅通风，以及环绕式氛围灯，前后排座椅都支持加热。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_5c134e3957284fb2898a5f25a3222805@000000_oswg511774oswg958oswg474_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>后排和焕新版Model 3一样，增加了一块8英寸的娱乐屏，支持蓝牙连接。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_278b312fe05d4d73bdc8491afa1836e0@000000_oswg781536oswg956oswg817_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>车内还隐藏了更多扬声器和麦克风，接打电话声音更清晰。</p>
-<p>值得注意的是，视频中还提到了车主最关心的更新内容——<strong>电池充电速度</strong>。</p>
-<p>拉尔斯表示，在寒冷天气时，电池充电速度会随之减慢。</p>
-<p>在此之前，尽管特斯拉已经有<strong>电池预热服务</strong>——从车主打算驱往充电站开始预热，但这个过程通常需要30~50分钟，温度越低，需要的时间就越久。</p>
-<p>现在，新Model Y电池新增了<strong>交流电</strong>加热方法，通过电流纹波加热电池，帮助电池提高充电速度。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_705803651fa34e0bb2c58c5888e176f0@000000_oswg533877oswg1080oswg530_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>团队在阿拉斯加测试后发现，即使是在<strong>零下20度</strong>的天气，加热时间也可缩短至15~20分钟。</p>
-<p>视频最后，两位工程师还留下了一个重磅炸弹：</p>
-<p>确认<strong>七座版Model Y</strong>将在今年推出，同时还会发布一款性能版配置。</p>
-<p>七座版将在后方载货空间，新增第三排座椅，不过作为一款紧凑型SUV，第三排似乎空间有限。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_a15c8253046046e9aa7dbda9421f93b8@000000_oswg1005138oswg1021oswg752_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2024年，Model Y遭“六大门派”围攻，年险些跌落销冠神坛，以不足300辆的微弱优势战胜秦plus。</p>
-<p>在比亚迪“杀红眼”，全系标配高阶智驾的2025年……谁会站在销量塔尖？</p>
-<h3>参考链接：</h3>
-<p>https://www.teslarati.com/tesla-redesigned-hardware-model-y/</p>
-<p>https://www.youtube.com/watch?v=vQ6e4-1uuGA</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkzOTE3Nzc5MA==&amp;mid=2247540275&amp;idx=1&amp;sn=a4c5a76f74c2d129d2e8a7b7c59136f2&amp;chksm=c34b96abdd96d6d9279948ca3f4972331695d111f6f514bc8a1cda494a5f0d7eece02bd9482d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智能车参考”（ID：AI4Auto）</a>，作者：杰西卡，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164297765153285</guid><pubDate>Thu, 13 Feb 2025 08:48:00 +0800</pubDate></item><item><title>无论处在人生哪一站，成为自己永远来得及</title><link>https://36kr.com/p/3164295755770377</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>莫扎特本是天选之人，但他在少年时代和20岁出头时与普通人并无二致。虽然彼时他已经是个多产的作曲家，但为了维持生计，他不得不在家乡萨尔茨堡担任风琴演奏家和首席小提琴手。收入低、没有成就感，同时受限于自己并不出彩的演奏会，他迫切想要将更多时间和精力投入到音乐中。</p>
-<p>经过一段时间的质疑和权衡后，他采取了行动。先是辞职，之后在维也纳开店，他终于进入了人生中最多产也是创造力最旺盛的时期。</p>
-<p>即便你从来都不希望到达莫扎特的艺术高度，但也能理解他想要打破常规的心情吧。也许你觉得自己的工作枯燥乏味。也许你每件事都能做得很好——在学校表现出色、工作努力，最后找到一份高薪好工作，但你厌倦了平淡无奇的生活。也许你渴望去做实现真实自我的事。</p>
-<p>如果你想要从事更具个人成就感的工作，比如创建一家公司或将兴趣变成全职工作，起草一份行动计划可能过于艰巨。虽然如此，有几本书依然表明，你完全可以得到所需资金、勇气，制定明晰的目标，创造属于你的《唐璜》（Don Giovanni，莫扎特经典歌剧——译者注）。</p>
-<p>古典学者伊迪丝·霍尔（Edith Hall）在《亚里士多德之道》（Aristotle’s Way）中介绍了古代哲学家的理念：美好生活的基础是首先意识到自己的技能、才华和潜能（dynamis），然后利用我们的资源，在最大程度上使之得到实现（energeia）。</p>
-<p>如果你还没有为实现你的独特潜能而努力（像莫扎特之前一样），那么你感到不满很正常。如果是这样，如亚里士多德所讲，你有责任找到正确方向。</p>
-<p>哲学家兼《和尼采一起徒步旅行》（Hiking with Nietzsche）一书作者约翰·凯格（John Kaag）表示同意。“自我并非被动地等待我们去发现，”他写道，“自我意识的形成是个主动且持续的过程。”</p>
-<p>是什么阻碍了你？《福布斯》杂志出版人兼《大器晚成者》（Late Bloomers）一书作者里奇·卡尔加德（Rich Karlgaard）指出，我们的文化过度关注年少有为，这阻止了我们追求自己真心向往的事业。这种文化不鼓励我们有多种兴趣爱好、广泛学习和慢生活，而这些正是对自我发现有重要意义的事情。</p>
-<p>相反，我们要取得优异的考试成绩，马上成为专家，找到安逸稳定且收入颇高的工作。结果大多数人都更重视职业认可度，而不是个人成就感，但我们往往在这一过程中失去了自我。</p>
-<p>记者兼《广泛》（Range）一书作者戴维·爱普斯坦（David Epstein）指出，我们对专业化的迷恋已经渗透到青少年体育教练和直升机父母中，而且完全不合逻辑。拥有广泛的技能和经验对你更有益，你会变得敏捷并极具创造力。</p>
-<p>《黑马》（Dark Horse）一书的两位作者托德·罗斯（Todd Rose）和奥吉·奥加斯（Ogi Ogas）来自哈佛大学教育学院，他们通过研究出身草莽并取得巨大成功的人，发现较早完成专业化对他们产生了负面影响。</p>
-<p>“多数黑马都感到烦闷或沮丧，怀才不遇或负担过重，”他们写道，“他们长年累月做着自己不喜欢的工作，直到意识到自己的生活并不充实。”经过一段不甘寂寞的沉寂期后，这些貌似普通的人，如行政助理、工程师、IT经理，将自己的“渴望、兴趣和爱好”转化为成功的事业，比如成为品酒专家、生活方式创业家和知名工匠。</p>
-<p>为推动这种人生巨变，罗斯和奥加斯建议确定微动机（micromotive），或者说设立能够激励你的具体目标。</p>
-<p>举例来说，曾担任政治助理的科林·贝洛克（Korinne Belock）离职后创建了Urban Simplicity，专攻住宅和办公室清理和翻新。她的微动机是“管理物理空间”。注意，她并没有说“做一些有创意的事”或“创建个人公司”。这类声明过于笼统和含糊，不利于采取行动。相反，她找到了能够激发她内在好奇心，同时给她带来很大乐趣的工作，并以此作为自己前进的方向。</p>
-<p>你在前进过程中要注意以下几点。</p>
-<p>首先，在任何时候“成为”你自己都不晚。比如亚里士多德直到快50岁时，才全身心投入到写作和哲学中。若通往自我实现的道路漫长且曲折，你还会获得好处。记住，年龄往往带来智慧、韧性、谦逊、自知之明和创造力。这也是高增长初创公司创始人平均年龄为45岁的原因之一。卡尔加德引用发展心理学家埃里克·埃里克森（Erik Erikson）的研究，指出，“40岁到64岁是一个特殊年龄段，这时候的人会变得既富创造力又身经百战，且渴望追求人生的意义。”</p>
-<p>话虽如此，一旦你决定踏上这一征途，就会花上好几年，甚至更长时间，才能到达目的地。但研究表明，日常生活中微小的改变都可能产生复合效应，会缓慢但终将引导你接近你认为自己应该成为的那个人。</p>
-<p>如果你遇到了阻碍，就想想乔安妮吧。她极富才华和创造力，在20多岁时多次跳槽，担任过研究员、秘书和ESL教师。选择不多又患有临床抑郁症，她觉得自己是个彻头彻尾的失败者，但她将这种失望变成了自己的优势。既然不能成功走上一条常规道路，那就有自由去做自己一直想做的事：撰写儿童奇幻小说。她后来这样评价道：“我不再假装自己是另外一个人。”</p>
-<p>你可能已经听说过她。她的笔名是J.K.罗琳（J.K. Rowling）。</p>
-<p>现在就开始行动吧。</p>
-<p><strong>凯文·埃弗斯 | 文</strong></p>
-<p>凯文·埃弗斯是《哈佛商业评论》英文版编辑。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY4MzQyMQ==&amp;mid=2650145927&amp;idx=2&amp;sn=9104101921c67eb0df83436eb3d47886&amp;chksm=bf73cf1982a310af5c4b52bc5e39e513b20b9c5a69d375cc46370a1a8efeafdf24310ca693c3&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“哈佛商业评论”（ID：hbrchinese）</a>，作者：HBR-China，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164295755770377</guid><pubDate>Thu, 13 Feb 2025 08:48:00 +0800</pubDate></item><item><title>GPT-4.5马上发布，GPT-5免费畅聊，奥特曼剧透大动作，网友：让DeepSeek整破防了</title><link>https://36kr.com/p/3164317740641030</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>GPT-4.5将在未来几个周/月内发布！</strong></p>
-<p><strong>GPT-5也快了，且是免费用户也能无限聊的那种！</strong></p>
-<p>这是奥特曼刚刚在最新推文中放出的豪言。</p>
-<p>这篇推文短短216个单词，但包含了巨大的信息量：</p>
-<ul>
-<li>GPT-4.5/5将很快陆续发布，ChatGPT免费用户能享受GPT-5的无限制聊天；</li>
-<li>几周/月内发布的GPT-4.5，是OpenAI最后一个非推理模型；</li>
-<li>o3不会作为独立模型发布；</li>
-<li>GPT-5起，o系列模型将和GPT系列模型集成统一；</li>
-<li>以后使用OpenAI的模型时，模型会根据prompt自动选择调用哪个/些自家模型；</li>
-<li>……</li>
-</ul>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_995ff1c89a704d1bb0d920bb7480d4c0@000000_oswg80994oswg934oswg402_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">推文截取</p>
-<p>OpenAI官推这边也有动作，接连宣布新消息：</p>
-<ul>
-<li>从现在起，所有Pro用户都可以在移动和桌面应用程序（iOS、Android、macOS 和 Windows）上使用深度研究。</li>
-<li>从现在起，ChatGPT中选择o1和o3-mini，可上传文件和图像。</li>
-<li>从现在起，Plus用户每天可与o3-mini-high的对话次数多了50个（提高了7倍）。</li>
-</ul>
-<p>与此同时，<strong>OpenAI官网也发布了一篇博文，详细阐述了OpenAI最新版模型规范</strong>。</p>
-<p>博文不仅“定义了我们希望AI模型的行为方式”，还分享了OpenAI按此前模型计划执行后的结果，随着时间的推移和对现实情况的观察，OpenAI对未来旗下模型版图有了改进版规划。</p>
-<blockquote>
-<p>为了支持广泛的使用和协作，我们将在Creative Commons CC0许可下将此版本的模型规范发布到公共领域。这意味着开发人员和研究人员可以在自己的工作中自由使用、适应和构建它。</p>
-</blockquote>
-<p>有意思的是，第一个留言的网友直接贴脸留言：</p>
-<blockquote>
-<p>好棒棒！<strong>但问题摆在这儿，它能超过中国的DeepSeek不？</strong></p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_d6b379876d324408a914a1f49e7a1254@000000_oswg38641oswg958oswg158_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>GPT-4.5/5的牙膏，OpenAI不挤了</strong></h2>
-<p>“We want AI to ‘just work’ for you。”</p>
-<p>在推文中，奥特曼一上来就承认：OpenAI已经意识到自家的模型和产品供应已经变得非常复杂。</p>
-<p>对此，OpenAI将采取一系列措施。</p>
-<p><strong>第一步，是在几周/月内，发布GPT-4.5，也就是此前多次曝光过的Orion</strong>（猎户座）。</p>
-<p>奥特曼表示，这将是OpenAI的最后一个非推理模型。</p>
-<p>前情提要，Orion从去年8月浮出水面，它的定位是OpenAI新旗舰，也就是GPT-4的下一代。</p>
-<p>现在奥特曼也确定它就是GPT-4.5。</p>
-<p>在此之前，Orion的最后一次消息来自去年12月月底。</p>
-<p>当时，华尔街日报曾透露了他们掌握的信息，“最好的情况下，Orion比OpenAI目前的产品表现都要好。但与所消耗的成本相比，这种提升并不明显”。</p>
-<p>不知就快发布的Orion会带来什么表现，搬个小板凳坐等。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_5b46ace0b1864edc857c1ab6f1300040@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>第二步，不再让用户们在模型间选来选去，转而着手创建可以使用OpenAI所有工具的系统。</strong></p>
-<blockquote>
-<p>我们和您一样讨厌模型选择器，并希望回归魔法般的统一智能（Magic Unified Intelligence）。</p>
-</blockquote>
-<p>具体来说，<strong>OpenAI会统一o系列模型和GPT系列模型，然后以GPT-5为始发布新系列模型们</strong>。</p>
-<p>新系列模型被纳入「可以使用OpenAI所有工具的系统」，系统知道何时需要长时间思考或不思考，“并且通常对非常广泛的任务很有用”。</p>
-<p>有OpenAI员工激情感慨：“很高兴能够大大简化我们的产品，让更多人都能用上AI、多用AI。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_eb3110088e624e1d9700d4a081570aab@000000_oswg61999oswg950oswg258_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过，由于没有提及GPT-5的技术迭代点，有人追问道：</p>
-<blockquote>
-<p>我可不可以理解为，GPT-5本身只是对o系列和GPT系列进行了产品包装，而不是在技术能力上有跃升？</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_9c06849067514e8493b3a075c8d85a4f@000000_oswg54717oswg940oswg238_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>然后，<strong>基于以上计划，o3模型将不会作为独立模型发布了。</strong></p>
-<p>奥特曼文中提到，在ChatGPT和OpenAI的API中，<strong>GPT-5将作为一个集成了诸多自家技术的系统发布</strong>。</p>
-<p>这个系统中包括o3，这表明OpenAI不会将o3作为独立模型提供给外界。</p>
-<p>（BTW，按照原本计划，微软是想在2024年年中看到GPT-5的；OpenAI是预备在今年2月或3月发布o3的）</p>
-<p>作为新系统发布的GPT-5，其功能将包含语音、画布、搜索、深入研究等等。</p>
-<p>得知GPT-5就要被端上桌了，网友们热切地想知道的就一件事：</p>
-<blockquote>
-<p>GPT-4.5/5发布后，<strong>会开源不？会开源不？会开源不？</strong></p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_84fe47d704bd4ab8821d74b389872f33@000000_oswg55872oswg944oswg220_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>再然后，在不滥用的前提下，GPT-5预计将对所有ChatGPT免费用户开放。</strong></p>
-<p>他的原话是：</p>
-<blockquote>
-<p>在标准智能设置 （！！）下，ChatGPT免费用户将获得对GPT-5的无限制聊天访问权限，但要遵守滥用阈值。</p>
-</blockquote>
-<p><strong>但氪金用户也不用拍大腿觉得钱给早了</strong>——</p>
-<p>Plus用户能用上更高智能水平的GPT-5。</p>
-<p>Pro用户能用上更更更高智能水平的GPT-5。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_1fdeb057d56349b3b47caa0fe3059c90@000000_oswg77504oswg236oswg236_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>看完这条推文，Google AI studio的高级产品经理激情留言：</p>
-<blockquote>
-<p>Nice！<strong>这一直是我们对Gemini的计划，确保推理能力是基本模型的一部分，而不是支线任务。</strong>（这也是为什么我们搞了2.0 Flash Thinking）。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_e0279d388bd74f9d89e9883eff4bbec1@000000_oswg105488oswg946oswg386_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>分享OpenAI塑造所需模型行为的方法</strong></h2>
-<p>与此同时，<strong>OpenAI官方发布了一条博客，名为《Sharing the latest Model Spec》，内文涵盖OpenAI塑造所需模型行为的方法。</strong></p>
-<p>OpenAI表示，自己的目标是创建有用、安全且符合用户和开发人员需求的模型，同时推进使命，即确保AGI造福全人类。</p>
-<p>为了实现这一目标，OpenAI需要干以下这些事，包括：</p>
-<ul>
-<li><strong>迭代和部署模型</strong></li>
-<li><strong>为开发者和用户提供服务</strong></li>
-<li><strong>防止模型被恶意使用造成严重伤害</strong></li>
-<li><strong>维护OpenAI的运行许可</strong></li>
-</ul>
-<p>实际进程中，上述目标之间可能会发生冲突。</p>
-<p>这就是模型规范存在的意义——<strong>通过指示模型遵循明确定义的命令链，以及为各种场景设置边界和默认行为的附加原则，以此权衡轻重利弊，最终达到平衡</strong>。</p>
-<p>特别指出，该规范优先考虑用户和开发人员的控制，同时保持在清晰、定义明确的边界内。</p>
-<h3><strong>Chain of command（命令链）</strong></h3>
-<p>定义模型如何按顺序确定来自OpenAI、开发人员和用户的指令的优先级。</p>
-<p>模型规范的大部分内容都包含OpenAI认为在许多情况下有帮助的准则，但用户可以和开发人员覆盖这些准则。</p>
-<p>这使用户能够和开发人员在平台级规则设置的边界内完全自定义模型行为。</p>
-<h3><strong>共同寻找真相</strong></h3>
-<p>就像一个高度的、完整的人类助手一样，OpenAI的模型应该使用户能够做出自己的最佳决策。</p>
-<p>这涉及到：</p>
-<p>（1） 避免用议程引导用户，在愿意从任何角度探索任何主题的同时保持客观性；（2） 努力了解用户的目标，澄清假设和不确定的细节，并在适当的时候提供关键反馈。</p>
-<p>OpenAI表示，官方已经听到并改进了这些请求。</p>
-<h3><strong>把工作做到最好</strong></h3>
-<p>设定能力的基本标准，包括事实准确性、创造力和编程使用。</p>
-<h3><strong>划定使用边界</strong></h3>
-<p>说明模型如何平衡用户自主权与预防措施，以避免促进伤害或滥用。</p>
-<p>这个新版本旨在全面，完全涵盖OpenAI打算让模型拒绝用户或开发人员请求的所有原因。</p>
-<h3><strong>体验感“平易近人”</strong></h3>
-<p>描述模型的默认对话风格——热情、善解人意和乐于助人——以及如何调整这种风格。</p>
-<h3><strong>使用适当的样式</strong></h3>
-<p>提供有关格式设置和交付的默认指导。</p>
-<p>无论是整洁的要点、简洁的代码片段还是语音对话，OpenAI的目标都是确保清晰度和可用性。</p>
-<p><strong>除上述外，这份更新版的模型规范还指出明确支持知识自由、以及随时衡量模型进度。</strong></p>
-<p>初步结果表明，与去年5月的最佳系统相比，到今天，OpenAI模型对模型规范的依从性有了显著提高。</p>
-<p>官方认为这<strong>大概率归功于模型一致性的增强</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_8eceb94144ad4cc4896410e92b5bdd11@000000_oswg381351oswg1080oswg784_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>总的来说，博文重点有二。</p>
-<p><strong>一是分享对模型规范的重大更新。</strong></p>
-<p>在去年5月版本的基础上，加强了对于可定制性、透明度以及探索、辩论和创造人工智能的知识产权自由的承诺——同时确保保留护栏以减少真实伤害的风险。</p>
-<p><strong>二是分享一些早期在广泛场景下，OpenAI模型遵循模型规范原则的结果。</strong></p>
-<p>这主要突出了时间进展、用户需求变化、技术改进以及模型厂商可以改进的领域。</p>
-<p>OpenAI表示，为了支持广泛的使用和协作，新版模型规范会以创造性公共领域CC0许可发布到公共领域，开发者和研究者可以自由地使用、适应并在他们自己的工作中构建它。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_d7a3c50464694bf7bd7eb7b24c71e4b6@000000_oswg35510oswg1080oswg402_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更详细的内容，可以参见文末博文直通车，自行查询浏览。</p>
-<h2><strong>One More thing</strong></h2>
-<p>一夜之间，OpenAI的接连举动，很难不让人想起去年12月连续12天直播的挤牙膏行为。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_db2d15b22023487885a56179fe88703b@000000_oswg70532oswg236oswg238_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>有网友认为，<strong>仅“免费用户无限使用GPT-5”这件事，就能看出开源模型迎头赶超对OpenAI的压力</strong>。</p>
-<p>当能够本地部署的免费模型如此出色时，AI公司就觉得免费为大众提供自家模型变得有必要了——毕竟人人都担心失去市场份额。</p>
-<blockquote>
-<p>“每个人都可以免费无限制地访问GPT-5”这个想法，倒回去一年，一定让人觉得是荒谬的天方夜谭。</p>
-</blockquote>
-<p><strong>但，对用户来说，这是件大好事～</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_ab049c0b0d8c489a983dda396e712027@000000_oswg133029oswg942oswg578_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>最后再放一个有意思的。</p>
-<p>当奥特曼和OpenAI疯狂行动，向市场放出各种信号时，<strong>斯坦福NLP团队的官推</strong>默默转发了相关推文，并配字：</p>
-<blockquote>
-<p>看吧，承认了！<strong>OpenAI、Anthropic等在2023年战略</strong>，即“简单地扩大模型大小、数据、计算和花费的资金将使我们达到 AGI/ASI”，<strong>现在起不再有效！</strong></p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_65d310610ffa4df0bab39b57bc94c5ba@000000_oswg107083oswg932oswg336_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h3>模型规范博文：</h3>
-<p>https://openai.com/index/sharing-the-latest-model-spec/</p>
-<p>https://model-spec.openai.com/2025-02-12.html#structure</p>
-<h3>参考链接：</h3>
-<p>[1]https://x.com/sama/status/1889755723078443244</p>
-<p>[2]https://x.com/OpenAI/status/1889812348581634146</p>
-<p>[3]https://x.com/OpenAI/status/1889822643676913977</p>
-<p>[4]https://x.com/kimmonismus/status/1889773910817738872</p>
-<p>[5]https://x.com/stanfordnlp/status/1889768783834976431</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247777021&amp;idx=1&amp;sn=cc0c03272e4c49f7f74dbf409fcf7a2a&amp;chksm=e993b5046f0cc83137de9eba5d6426a2deab6bffbb5f9745e13778c0be9312d22c9aec676685&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：衡宇，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164317740641030</guid><pubDate>Thu, 13 Feb 2025 09:03:00 +0800</pubDate></item><item><title>营收93.26亿欧元：Esselunga从美国梦到意大利第三大零售巨头</title><link>https://36kr.com/p/3164321005693449</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>1957年，一个全新的购物体验出现在米兰，彻底改变了意大利人的生活方式。这是意大利第一家现代超市的诞生，现今意大利第四大零售商，由美国企业家纳尔逊·洛克菲勒和一群意大利商业伙伴共同创建。第一家超市坐落于米兰雷吉娜·乔万娜大街，由一座废弃的车间改造而成，其招牌上的“S”字母被夸张地拉长，这一视觉标志不仅吸引了消费者的注意，也为品牌定下了基调。从起初不足十家门店的小规模尝试，到如今覆盖多个地区、拥有数十亿欧元年营业额的零售巨头，Esselunga的故事不仅是意大利零售业的先驱案例，更是一段跨越时间的创新之旅。</p>
-<p>2023年，Esselunga集团实现总营收93.26亿欧元（约733亿元人民币），同比增长5.5%，其中包括189家门店（176家传统超市、12家laESSE门店和1家“Esselunga卓越”门店）。集团在意大利多个地区运营，还管理119家Atlantic咖啡吧和47家EsserBella高端美妆店。全年平均员工数为25,291人。</p>
-<h2><strong>从美国梦到意大利现实：Esselunga的创立与早期发展</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_339822853569448090ffbbca747bebef@000000_oswg244995oswg510oswg392_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>1957年4月13日，意大利零售业迎来了一个全新的篇章。由美国企业家纳尔逊·洛克菲勒（Nelson Rockefeller）通过其国际基础经济公司（IBEC），与意大利合伙人贝尔纳多·卡普罗蒂（Bernardo Caprotti）、圭多·卡普罗蒂（Guido Caprotti）、克劳迪奥·卡普罗蒂（Claudio Caprotti）、马可·布鲁内利（Marco Brunelli）、克雷斯皮家族（Mario和Vittorio Crespi）以及莱蒂齐亚·邦康帕尼（Laetitia Boncompagni）共同创立了Supermarkets Italiani S.p.A.，这是意大利第一家超市连锁企业。</p>
-<p>同年11月27日，第一家超市在米兰的雷吉娜·乔万娜大街（Viale Regina Giovanna）开业。该店由一座旧车间改造而成，门店外的标志由著名设计师马克斯·胡伯（Max Huber）设计，"Supermarket"的首字母"S"被拉长，成为品牌独特的视觉符号。这一设计元素后来演变成“Esselunga”这个名字，意为“长长的S”。</p>
-<p>初始资本为100万里拉，IBEC持股51%，其余由意大利合伙人持有。短短三个月内，资本金增至4200万里拉。早期的成功使得公司迅速扩张，每次新店开业都吸引了大量顾客，甚至需要警察维持秩序。</p>
-<h2><strong>品牌命名的故事：从“Supermarket”到“Esselunga”</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_fdf10157f2784b55b9bdbf4a1dc64dd6@000000_oswg33550oswg1080oswg495_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>20世纪60年代，卡普罗蒂兄弟决定收购洛克菲勒持有的51%股份，以完全掌控公司。他们以500万美元完成了这次收购，其中包括母亲玛丽安娜·马伊尔（Marianne Maire in Caprotti）提供的3亿里拉资金支持。管理层的变动带来了新的发展方向，公司开始寻求品牌形象的本土化。</p>
-<p>1969年至1971年间，公司推出了“千里拉长”的广告活动，广告语为“来我们的'S长'超市花费你的1000里拉长钞吧！”由于“Supermarket”标志中的“S”被拉长，顾客们开始将这些超市称为“Esselunga”，即“长长的S”。1972年，公司正式将运营品牌更名为“Esselunga”，而控股公司仍保留“Supermarkets Italiani”的名称。</p>
-<p>这一品牌命名的转变，不仅巩固了公司的市场定位，也为后续的营销策略奠定了基础。Esselunga的名字逐渐成为意大利零售业的标志性符号，深入人心。</p>
-<h2><strong>创新与扩张：Esselunga的业务模式与市场策略</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_09c4e0c198ac40bea6bc1f57a2363e91@000000_oswg595027oswg1024oswg315_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Esselunga一直以创新著称。1974年，在查尔斯·菲茨莫里斯（Charles Fitzmorris Jr）的协助下，公司建立了第一个自动化仓库系统。1979年，与Armando Testa广告公司合作，推出了自有品牌的冷冻食品，成为意大利市场上首批超市自有品牌产品之一。随后，公司开发了Fidel、Naturama、Bio和Top等自有品牌，丰富了产品线。</p>
-<p>1988年，在朱塞佩·卡普罗蒂（Giuseppe Caprotti）的推动下，Esselunga在佛罗伦萨的Novoli地区开设了第一家“Superstore”大型超市。这种新型门店融合了超市、香水店和咖啡吧，为消费者提供了一站式购物体验。1991年，公司在卢卡附近的Marlia开设了第一个购物中心，进一步拓展了业务范围。</p>
-<p>1994年，Esselunga推出了Fidaty忠诚度计划，开启了意大利零售业客户忠诚度营销的先河。次年，与Armando Testa广告公司合作，发起了以质量为核心的广告宣传，如“对我们来说，质量是特别的东西”和“以质量闻名”，这些广告在卢浮宫的海报展览中展出。</p>
-<p>在线购物方面，Esselunga也走在前列。2001年，公司启动了在线购物服务“Esselunga a Casa”，成为意大利首个提供线上购物的超市。2017年3月1日，Esselunga在Varedo开设了首个“Clicca e Vai”线上购物提货点，进一步完善了线上线下融合的购物模式。</p>
-<h2><strong>营销与品牌：独特的广告与客户忠诚度计划</strong></h2>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_0b67e5158e82408f9b00105a5281784b@000000_oswg435158oswg640oswg486_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>Esselunga的成功离不开其独特的营销策略。公司早在1994年就成立了内部的市场营销部门，专注于广告宣传、客户服务和市场研究。贝尔纳多·卡普罗蒂在女儿维奥莱塔·卡普罗蒂（Violetta Caprotti）的建议下，借鉴美国的成功案例，重新思考品牌推广，将重点放在讲述品牌故事和强调产品质量上。</p>
-<p>与著名的Armando Testa广告公司合作，Esselunga推出了一系列创意广告活动，如“对我们来说，质量是特别的东西”和“以质量闻名”。这些广告以幽默和创新的方式展示产品，如将大蒜和橄榄油拟人化为“Agli e Olio”，将柠檬称为“John Lemon”，以及“Porro Seduto”等。这些广告不仅提升了品牌知名度，还在卢浮宫的海报展览中展出，彰显了其艺术价值。</p>
-<p>Fidaty忠诚度计划是Esselunga营销策略的另一大亮点。该计划允许客户通过消费积累积分，兑换礼品或享受折扣。这一策略大大提高了客户的忠诚度，巩固了Esselunga在市场上的领先地位。</p>
-<h2><strong>家族经营与内部纷争：Caprotti家族的故事</strong></h2>
-<p>尽管Esselunga在业务上取得了巨大成功，但Caprotti家族内部的纷争也为公司带来了挑战。2004年，贝尔纳多·卡普罗蒂将儿子朱塞佩·卡普罗蒂（时任首席执行官）排除在公司管理之外，亲自接手经营。两人之间的关系日益紧张，最终导致法律纠纷。</p>
-<p>贝尔纳多在2007年出版的《Falce e Carrello》一书中，指责儿子管理不善。朱塞佩则在2013年通过媒体回应，否认了父亲的指控。这场家族纠纷对公司治理产生了一定影响，但Esselunga仍然保持了稳定的发展。</p>
-<p>2016年9月30日，贝尔纳多·卡普罗蒂去世，享年90岁。在他的遗嘱中，他将公司66.7%的股份留给了第二任妻子朱莉安娜·阿尔贝拉（Giuliana Albera）和女儿玛丽娜·卡普罗蒂（Marina Caprotti），其余股份由第一任婚姻的子女朱塞佩和维奥莱塔继承。这一安排引发了新的继承纠纷，涉及到对公司估值和股份分配的争议。</p>
-<h2><strong>挑战与争议：与竞争对手的纠纷与法律诉讼</strong></h2>
-<p>Esselunga的发展过程中，也面临着来自竞争对手和法律方面的挑战。贝尔纳多·卡普罗蒂在《Falce e Carrello》一书中指责竞争对手Coop利用政治关系，阻碍Esselunga在意大利中部和北部的扩张。此举引发了Coop的法律诉讼，指控Esselunga诽谤和不正当竞争。</p>
-<p>2011年9月16日，米兰法院裁定Esselunga存在“不正当竞争”行为，要求公司支付30万欧元的赔偿，并撤回该书的出版。然而，同年12月21日，米兰上诉法院暂停了这一判决，认为撤回出版物等同于“审查”，在法律上缺乏依据。最终，法院支持了Esselunga的上诉，书籍得以继续发行。</p>
-<p>此外，Esselunga还曾面临劳资纠纷和税务问题。2008年，一名米兰店铺的员工声称遭受了职场霸凌，导致了媒体关注和工会抗议。公司否认了这些指控，并通过法律手段维护了自身声誉。</p>
-<h2><strong>成功的秘密：Esselunga的经营之道</strong></h2>
-<p>Esselunga之所以能够在激烈的市场竞争中脱颖而出，得益于其独特的经营模式和对质量的执着追求。公司专注于大型门店的发展，主要在意大利北部和中部的城市和周边地区开设大型超市和超级商店。这一策略使得公司能够高效地管理供应链，降低运营成本。</p>
-<p>数据显示，2015年Esselunga每平方米的销售额达到了15,732欧元，几乎是意大利零售业平均水平的两倍。这一卓越的业绩体现了公司在选址、产品组合和客户服务方面的成功。</p>
-<p>在产品质量方面，Esselunga严格把关，推出了如“Naturama”等高品质自有品牌，满足消费者对新鲜和有机食品的需求。公司还率先引入了电子条码、自动化仓储等技术，提高了运营效率。</p>
-<h3><strong>相关文章：</strong></h3>
-<p>[1] Esselunga - Wikipedia</p>
-<p>[2] Esselunga Opens Its Fourth Supermarket In Rome | ESM Magazine（2023年9月8日，esmMagazine）</p>
-<p>[3] Death of Italy's supermarket king plunges Esselunga into uncertainty | Reuters（2016年10月1日，reuters）</p>
-<p>[4] This Italian Supermarket Tells a Touching Family Story with a Peach | LBBOnline（2016年10月1日，reuters）</p>
-<p>[5] Esselunga: An Italian Success Story（2018年11月29日，italicsmag）</p>
-<p>[6] Successful Case History: the collaboration with Esselunga（2021年3月21日，ips Retail）</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA3ODEzMjg5Mg==&amp;mid=2652851791&amp;idx=3&amp;sn=1e7ec4243bd55ec1cee8ff4bfb84fbca&amp;chksm=851cbc2628453444284e4168448874c011db8ee88d5c0d3c8f8f4c75bfb465d6a383eb202289&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“FBIF食品饮料创新”（ID：FoodInnovation）</a>，作者：FBIF，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164321005693449</guid><pubDate>Thu, 13 Feb 2025 09:04:00 +0800</pubDate></item><item><title>京东外卖0佣金，蜜雪和霸王已入驻，跟不跟？</title><link>https://36kr.com/p/3164317479185152</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>最近，京东进军外卖，成为全网焦点。</p>
-<p>2月11日，京东正式启动“品质堂食餐饮商家”招募，5月1日前入驻，全年免佣金。目前，蜜雪冰城、瑞幸、霸王茶姬、茶百道、沪上阿姨、幸运咖等多个饮品品牌已入驻。</p>
-<p>京东外卖的消费体验到底怎么样？商家的线上流量战场要变？</p>
-<h2><strong>京东外卖测评：价格比美团贵，多细节待提升</strong></h2>
-<p><strong>“即刻入驻，全年0佣金。”</strong></p>
-<p>2月11日，京东外卖正式启动“品质堂食餐饮商家”招募，2025年5月1日前入驻的商家，全年免佣金。</p>
-<p>消息一出，就在行业激起千层浪。</p>
-<p>如今，打开京东APP，就能看的左上角的“秒送”频道，进入就能看到“奶茶咖啡”入口，北京、广州等个别城市增加了“外卖”入口，和“奶茶咖啡”平级并列。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_0b977e5d9d9f48f99c993cfd2cfdcfa9@000000_oswg92409oswg1080oswg804_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">北京朋友的京东外卖页面</p>
-<p>在配送方式上，京东外卖提供“商家自送”和“达达秒送”两种，配送价格在2元至12元不等，配送费计价原则与美团、饿了么逻辑一致。</p>
-<p>“苦平台佣金久矣”的餐饮商家，仿佛看到了新的机会。</p>
-<p>京东外卖的消费体验到底怎么样？会不会成为经营者新的线上战场？我抢先体验了一下。</p>
-<p>打开京东APP，<strong>在“秒送”频道下，我看到了处于C位的“咖啡奶茶”类目。</strong></p>
-<p>入驻商家以“蜜雪冰城、霸王茶姬、沪上阿姨、茶百道、瑞幸、库迪、幸运咖”等头部连锁品牌为主，目前还未看到区域品牌和独立门店。</p>
-<p>2月12日11：04，我在美团和京东两个平台上 （点单地在郑州） ，同时下单了1.5公里之外的同一家蜜雪冰城的2杯同款产品，发现作为外卖新手的京东，<strong>在服务细节及效率上还有较大提升空间。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_899730fa653a438bbd949fa801b0d958@000000_oswg107938oswg1080oswg677_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>配送效率：</strong>下单后18分钟就接到美团骑手“外卖已入柜”的电话通知。京东配送员在下单后20分钟后送达，两者速度差不多，<strong>美团更快一点</strong>。</p>
-<p><strong>实付价格：</strong>同门店同产品，<strong>消费者的实付价格美团比京东低</strong>4.9元，主要体现在配送费上，美团有配送费减免、新客立减等，京东点单目前没有类似优惠。</p>
-<p><strong>整体体验：</strong>京东外卖的达达配送员由于<strong>不熟悉路线</strong>，找不到快递柜，电话通知下楼领取，这对于已经被“惯坏”的年轻人来说，不够友好。</p>
-<p>我也调研了身边几位朋友，有人吐槽“中午在京东点的餐，整整晚到了1小时”，有外卖小哥反馈，他了解的一位餐饮商家，<strong>3天在京东上只接到了1单。</strong></p>
-<p>已入驻的茶饮品牌一位相关人士告诉我：“京东外卖用得人比较少，对门店获取订单帮助不大，现在不会当核心渠道做。”</p>
-<h2><strong>京东外卖0佣金，茶饮商家要不要入驻？</strong></h2>
-<p>京东其实从去年就开始做外卖了，<strong>2024年12月，京东 “秒送” 频道上线咖啡奶茶与快餐外卖</strong>。但彼时，“京东秒送”只是作为京东APP的二级页面，入驻的品牌也不多，看起来更像是试水。</p>
-<p>今年正式官宣后，一时间吸引了大量关注，头部品牌之外的区域品牌和独立小店要不要抢先入驻呢？尤其是有第一年0佣金的诱人条件。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_32ab425046ab40079fa95f5e96f2eb24@000000_oswg89535oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>咖门从亲身体验、小范围调研，对相关人士采访后认为，茶饮商家目前入驻需谨慎。</p>
-<p><strong>首先，客户体验是一切平台的根本。</strong></p>
-<p>京东外卖以“0佣金”吸引商家入驻，但顾客的消费体验却是“费时费力又费钱”，这无异于本末倒置。</p>
-<p>外卖配送，是一个无比宏大战场，需要投入海量资金和时间打磨生态协同能力，<strong>美团和饿了么在这方面已经建立足够高的壁垒。</strong></p>
-<p>流量如日中天的抖音，曾数次传出要做外卖的消息，最后都偃旗息鼓，足见这其中的难度系数。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_316333d2c1174e08832aa5f50dd632a1@000000_oswg98138oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从数据上分析，京东外卖依赖达达集团的即时配送网络 （ 年活跃骑手近130万） ，宣称最快9分钟送达，达达配送的运力虽强，但与美团、饿了么的骑手规模 （ 美团活跃骑手超600万） 相比仍有差距，<strong>覆盖密度可能影响用户体验。</strong></p>
-<p>因此，在客户体验有踩雷风险时，茶饮商家入驻需谨慎。</p>
-<p><strong>其次，京东“秒送”餐和饮更像噱头，重点则在“生鲜”。</strong></p>
-<p>“饮品对京东平台来说其实是鸡肋，基本无利可图，也很难撼动既有的两大外卖平台，主要是餐和饮都属于热门赛道，<strong>能在一定程度上撬动本地生活服务的流量。”</strong>一位平台运营人士透露。</p>
-<p>在郑州，福州这样的非一线城市，还没有“外卖”类目，餐厅包含在咖啡奶茶类目中，仅北京、上海，深圳等一线城市有“外卖”类目。</p>
-<p>他分析，<strong>京东入局外卖的真正意图或不在“外卖”本身，而在“生鲜”品类上</strong>，类似于曾经的每日优鲜。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_48348528be5542fc810879860c7d5c78@000000_oswg84405oswg1080oswg864_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>京东秒送的重点是盒马、奥乐齐、山姆、麦德龙等商超的“小时达”业务，其中以“水果、蔬菜、肉类海鲜”等生鲜为主。</p>
-<p>在线上这项业务被称为“即时零售”，<strong>本质上，这是京东在电商流量红利见顶的今天，拓展新的业务和盈利空间。</strong></p>
-<p><strong>第三，消费心智已固化，改变非一朝一夕</strong></p>
-<p>有媒体称，京东布局外卖会形成鲶鱼效应，加速外卖平台向低佣金、精细化转型。</p>
-<p>京东入局外卖的消息还引发市场对竞争加剧的担忧，美团股价在消息公布后一度跌超6%。</p>
-<p><strong>但长期来看，外卖市场的颠覆需依赖基础设施</strong>（骑手密度、商家生态）<strong>和用户习惯的双重突破，京东仍需时间验证其外卖模式的可持续性。</strong></p>
-<p>公开资料显示，美团占据中国外卖市场约65%的份额，用户心智和消费习惯已高度固化。高频消费场景下，用户更倾向于选择“默认平台”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_bf3988f8edec4f41b949fe290c35f037@000000_oswg58240oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除此之外，美团外卖与其到店酒旅、闪购等业务形成生态闭环，即时配送能力覆盖餐饮、生鲜、日用品等多品类。</p>
-<p>相比之下，京东外卖虽进驻了餐饮商家，但目前品牌少、门店少，<strong>其“秒送”入口虽整合了超市、生鲜等业务，但尚未形成生态协同优势。</strong></p>
-<p>不过即便如此，多一个平台加入竞争，对餐饮经营者也是一种利好，京东入局或刺激美团进一步优化运营成本，或降低商家的佣金率。</p>
-<p><strong>总之 ，经营者可以根据自身的运营能力及综合成本权衡利弊，选择适合的平台。</strong></p>
-<h2>结语</h2>
-<p>想在外卖市场“三分天下”，从目前的状态来看，京东似乎还有很长的路要走。</p>
-<p>外卖江湖一直不乏入局者。过去10年，百度、滴滴、阿里、顺丰和抖音等<strong>重量级玩家都做过尝试，但未曾撼动美团的统治地位。</strong></p>
-<p>每一次平台的更迭，都会给饮品从业者带来新的躁动。</p>
-<p>事实上，无论是美团、饿了么，还是抖音、京东，<strong>餐饮商家的成功，终究要靠产品体验带来的高复购。</strong></p>
-<p>如果产品服务、成本结构存在bug，或者没有搞懂流量玩法，那么问题不是换平台就能解决的。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU3MDA0NzE5MA==&amp;mid=2247606562&amp;idx=1&amp;sn=37f3882b9d7d8773f838d3cc050dc49c&amp;chksm=fd525e0583d9b2b3ccb426daf39fb7dc61bb6bb341f56b927ba8312ab8f32021fafff0a74913&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“咖门”（ID：KamenClub）</a>，作者：国君，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164317479185152</guid><pubDate>Thu, 13 Feb 2025 09:06:00 +0800</pubDate></item><item><title>喜茶聂云宸，不学霸王茶姬张俊杰</title><link>https://36kr.com/p/3164313758411529</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>刚开年，聂云宸就给卷成一片红海的新茶饮行业浇了盆冷水。</p>
-<p>身为喜茶创始人，一向低调的他，这次罕见用强悍语气表态：“拒绝无意义的门店规模内卷。”同时，在2月10日向全员发布的邮件中，他用“数字游戏”“无意义的价格、营收、规模内卷”等词形容当下的新茶饮业，最后还表态：喜茶暂停接受事业合伙（加盟）申请。</p>
-<p>聂云宸为何会选择在此时作出这种决策？</p>
-<p>回顾过去一年，新茶饮市场掀起惨烈的价格战，喜茶、奈雪的茶等竞相推出9元左右的团购价活动。同时，几乎所有品牌都在拉拢加盟商狂奔扩张。随着门店密度增高、单店营收下降，回本周期被无限拉长。于是，大量门店被迫关闭，红餐大数据显示，<strong>2023年11月到2024年11月，奶茶店闭店数量达惊人的19.7万家。</strong></p>
-<p>这一年的新茶饮行业，可以用“杀疯了”来形容。</p>
-<p>而在过去一年，喜茶的扩张步伐也已放缓，新增加盟门店从2023年的约2200家，回落到了1100家左右。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_98020a4362b74dceab8673ce3b12dedf@000000_oswg145110oswg1080oswg753_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源：中企图库</p>
-<p>如今，喜茶决定停止加盟，其实也早有迹象。早在去年9月，喜茶就曾发内部信称，接下来几个月将会控制门店加密。</p>
-<p>然而，当整个行业被资本裹挟，无法停止扩张内卷的步伐时，是什么给了聂云宸“喊停”的勇气？</p>
-<p>与此同时，在新茶饮圈，跟他同为90后的张俊杰，所创立的霸王茶姬仍在一路狂奔——去年新增门店达2982家，超过了2023年。但他的野心远不止于此，他曾高调宣布2024年销售额要超越星巴克中国。</p>
-<p><strong>聂云宸比张俊杰大两岁，两人都有着“白手起家”的励志故事，外界不免会将二人联系在一起谈论。</strong></p>
-<p>4年前的2021年，在5轮融资过后，喜茶估值达到了600亿元。彼时，门店数量1万多家的蜜雪冰城的估值仅为200亿元，而当时成立才3年多的霸王茶姬，其A、B轮融资才超3亿元。一时间，带着“90后创始人”标签的聂云宸风光无两。</p>
-<p>但之后，张俊杰开始异军突起。连拿2轮融资的霸王茶姬，开始“飞奔”加盟。创立仅8年，据窄门餐眼数据，截至2025年1月10日，其在营门店数有6071家。霸王茶姬如同杀入业内的一匹黑马——资本入局、产品出圈、规模迅速扩张。</p>
-<p><strong>不知这是否曾给聂云宸带来焦虑，但如今踩下刹车的聂云宸，和疾驰中的张俊杰，却一个向左、一个向右，走上了不同的道路。</strong></p>
-<h2><strong>成立10年后，聂云宸终于松口</strong></h2>
-<p>成立喜茶之前，聂云宸开过手机店，经销过多个手机品牌。当时山寨机、杀毒软件横行，他便免费给客户提供刷机服务，这样使手机更好用，因此获得了不少客户。</p>
-<p>回归到产品本身来寻找商机，这样的理念从后来他开奶茶店也能看出。“好用”是手机的本质，“好喝”是奶茶的基础。</p>
-<p>2012年，21岁的聂云宸在广东江门的一个巷子里，开出第一家皇茶（喜茶的前身）。彼时，奶茶刚从粉状进入现制阶段，奶茶店里最常见的原料，还是植脂末、果酱罐头和碎茶泡成的茶汤。一开始，聂云宸的皇茶并不起眼，销量也不突出。</p>
-<p>那年，是中国互联网黄金十年的初期，电商“光棍节”单日销售额超300亿元。虽然聂云宸干的是实体行业，但互联网对他影响颇深。用聂云宸的话来说，<strong>奶茶行业如同互联网行业一般，可以分分钟更新，发现产品不合适随时能重新研发。</strong></p>
-<p>于是，聂云宸重新回到产品研发起点，他很快做出一款掀起奶茶界巨震的产品——芝士奶盖茶。新品一经发布，便迅速从当时的冲泡奶茶中脱颖而出。</p>
-<p>2013年～2014年，聂云宸开始在江门、中山拓店。2015年，皇茶在整个珠三角地区开了50家门店。同年，他带着皇茶进入一线城市，将首店落在深圳海岸城。</p>
-<p>当时市面上多为10～20元区间的奶茶，虽然喜茶的单价大多在30元以上，但不少喜茶门店前都排起长队，这也吸引了资本的注意。2016年8月，喜茶A轮融资1亿元的消息不胫而走，当时茶饮行业融资案例极少，过亿的更是绝无仅有。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_07c3248d67d040fdbe6c74069e4976fa@000000_oswg20915oswg850oswg427_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源：企查查及公开资料。制表：孙欣</p>
-<p>随着资本入局，喜茶也开始步入快车道，但聂云宸始终未开放加盟。2019年8月，聂云宸表示，他担心过早的加盟会导致企业文化稀释，“我们现在肯定不会做加盟，但我从来没有觉得做品牌跟加盟是矛盾的。现在很多人把它作为一个教条，这很可怕。”</p>
-<p>那时，聂云宸确实无需因加盟与否焦虑。他曾在采访中透露，喜茶门店平均出杯量近2000杯/天，单店单月营业额平均在100万元以上。依此计算，喜茶293家门店预期一年的销售额就是35亿元。而据蜜雪冰城招股书显示，2019年即使蜜雪冰城已经接近万店，但营业收入是25.66亿元。彼时，名不经传的霸王茶姬仅50家店。</p>
-<p>然而，聂云宸不加盟的决策很快在市场的内卷中淹没。2022年，下沉市场的蜜雪冰城靠着加盟突破2万门店；奈雪上市，凭借资本在门店数量上反超喜茶。来自云南的张俊杰开始崭露头角，2022年霸王茶姬门店数超1100家，增长率达133.4%。</p>
-<p>喜茶成立十年后，聂云宸终于松口。2022年11月3日，喜茶正式宣布，在非一线城市以合适的店型展开事业合伙业务。</p>
-<h2><strong>被裹挟下水的加盟战</strong></h2>
-<p>在新茶饮行业停止加盟，固然需要勇气。但当初开放加盟，对聂云宸来说，或许同样煎熬。对于开放加盟，聂云宸与张俊杰的看法一开始就不一样。</p>
-<p>2019年，聂云宸曾在接受采访时称：“现在还不考虑，还不加盟。”他认为等品牌核心强大到不会被加盟商稀释文化时，再开放加盟。而创业更晚的张俊杰的意见则截然相反：“奶茶领域最重要的基础是规模要足够大，有了规模才有机会上牌桌。”</p>
-<p>逐渐的，<strong>竞争激烈的新茶饮行业，跑马圈地、冲击万店似乎成为共识，下沉、加盟成为行业竞争的不二法门。</strong>在市场的洪流中，喜茶不得不放下身段。</p>
-<p>开放加盟后，喜茶确实在一段时间内走出了“规模焦虑”。据新京报，2023年，喜茶共面试了7700多位潜在事业合伙人，新开门店超2300家，2023年年底喜茶门店数突破3200家，门店规模同比增长280%。据窄门数据，截至2025年1月10日，喜茶现有门店4477家。</p>
-<p>而喜茶开放加盟的2022年，张俊杰凭借着一句“有了规模才能上牌桌”，从2021年的四百多家门店翻倍至2022年的1100家。而后，扩张持续增速，2024年门店数量反超过喜茶。</p>
-<p>显然，在加盟扩张上，霸王茶姬比喜茶更激进。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_690fa36ad47a4675b7a7d1cadd1799fd@000000_oswg31420oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">张俊杰来源：中企图库</p>
-<p>2024年5月21日，张俊杰出现在霸王茶姬的发布会现场，当着上千现场观众和几百万在线观众，他哽咽着说起了自己的出身：没有学历、没有家庭背景。“上无老，下无小，左无亲，右无故”“家人全部离开后，我就开始思考自己为什么而活着。”</p>
-<p>这样的出身，让张俊杰有一种“没什么可失去”的无畏感，从其对待加盟的激进态度也可以看出。</p>
-<p>比起聂云宸经营十年才开放加盟的谨慎，2017年张俊杰创立霸王茶姬后不久，便开放了加盟。2021年后，公司无论在产品还是加盟上，都开启了狂飙速度。</p>
-<p>快速的规模扩张，带来实打实的营收。据红餐网数据，2023年，霸王茶姬总销售GMV达108亿元，而2024年一季度，销售GMV就达58亿元，内部预计，2024年的营收将超200亿元。</p>
-<p>而有业内人士告诉《中国企业家》，企业打法的不同，归根结底是两位90后理念的不同。</p>
-<p><strong>在某种意义上来说，开放加盟，对张俊杰是创业起点的规划，但对聂云宸来说，只是中途一次“下水”尝试。</strong></p>
-<p>XVC投资公司创始人胡博予曾这样形容张俊杰：“他已经想好了企业未来的发展”，意思是，张俊杰在创立之初就想好了短期、中长期的竞争如何解决。</p>
-<p>而聂云宸曾说：“有一句话叫不跳下水，就学不会游泳。我现在所有的想法，都是在‘跳下水’之后才开始有的。”</p>
-<p>“霸王茶姬和喜茶的区别很大，霸王茶姬成立开始就为开放加盟做准备，发力标准化和供应链。”艾媒咨询CEO张毅对《中国企业家》说。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_62be3aa0854643e6a3e4266102137e7a@000000_oswg243418oswg1070oswg887_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">来源： 中企图库</p>
-<p>如今，霸王茶姬成为资本的新宠，张俊杰的身价也水涨船高。据《2024胡润百富榜》，现年34岁的聂云宸身价约超70亿元。而据中国蓝新闻，张俊杰身价已超百亿，超过了聂云宸。</p>
-<p>然而，新茶饮赛道的竞争维度远不止于此，除了规模，聂云宸一直在面对的，还有来自疯狂卷“价格”的压力。</p>
-<h2><strong>价格战之殇</strong></h2>
-<p>早年间，喜茶成立时所专注的高端市场，并非奶茶的主流市场。当时价格偏低端的蜜雪冰城更风靡。哪怕到了2021年，艾瑞咨询数据显示，当年中国新式茶饮中高端品牌（即单价高于20元）的市场份额只有14.7%。</p>
-<p>2020年，价格战已经愈演愈烈。当年，喜茶推出了喜小茶，单品大部分定价6～15元之间，比之前的价格便宜一半。</p>
-<p>2022年2月，喜茶宣布，年内不再推出29元以上的饮品类新品。2023年，价格战再度升级，9.9元、8.8元的价格战从咖啡赛道最先掀起，随后奈雪的茶、沪上阿姨等都曾推出9.9元的团购价。2024年8月，喜茶也在抖音跟进“9.9元团购价”，甚至曾将纯茶产品的售价拉低至4元一杯。</p>
-<p>均价曾在30元以上的喜茶，如今大部分产品价格在17～19元，而这个价位正是霸王茶姬的产品均价。</p>
-<p>对于价格定位本来比喜茶低的霸王茶姬来说，价格战或是舒适区，但对喜茶来说，降价无异于将自己架在炭火上煎烤。</p>
-<p>加盟的浪潮难以抵挡，价格的内卷备受煎熬。新茶饮行业的内卷打法，最终迫使聂云宸一一“下水”比拼。</p>
-<p>价格战血拼之下，一些新茶饮企业的经营状况堪忧。</p>
-<p>作为新茶饮第一股，据奈雪的茶2024年上半年财报，经调整净亏损达4.38亿元。而新茶饮第二大品牌茶百道，其2024年半年报显示，报告期内闭店245家。这个数量，已然超越了2023年全年的闭店数——220家。</p>
-<p>此时，一些投资人也已经发现了问题。加华资本创始人宋向前就呼吁：<strong>“新茶饮行业到了要在规模和效益中进行抉择的时候，要深化竞争能力，寻找结构化的竞争优势，不能搞同质化竞争。”</strong></p>
-<h2><strong>回到自己的主场</strong></h2>
-<p>上市，则是新茶饮行业竞争的另一维度。甚至，近期投资圈有个观点认为，2025年或是新茶饮IPO的最后窗口。</p>
-<p>2月12日，来自杭州的古茗正式在香港联合交易所主板上市。而对于上市，聂云宸与张俊杰则持不同态度。</p>
-<p>有接近喜茶方面的人表示，聂云宸目前没有这方面的想法。而据上海证券报报道，霸王茶姬正在筹备赴美上市。</p>
-<p>融资5轮的聂云宸，为何在这个关口，既敢叫停加盟，又不担心资本的压力，不急于上市呢？</p>
-<p>作为中国现制茶饮最早的品牌之一，曾几何时，喜茶是产品里的领头羊。2012年时，皇茶（喜茶的前身）曾因一杯“芝士奶盖茶”响彻珠三角。</p>
-<p>如今，在激战中迷失的聂云宸，决定回到当年做“芝士奶盖茶”的阶段，开始在产品发力，打出“健康”产品口号。2024年7月26日，喜茶推出植物茶饮料“羽衣纤体瓶”，原料是原产于地中海的蔬菜——羽衣甘蓝。10天内羽衣纤体瓶销量超过160万杯，一个半月，销量超过了1000万杯。</p>
-<p>随后，奈雪的茶、沪上阿姨、古茗、茶百道等品牌纷纷卷入羽衣甘蓝的旋风中。喜茶继而推出去火纤体瓶、红菜头美颜瓶等植物茶饮料。据喜茶发布，截至2024年，“超级植物茶”系列累计售出超过3700万杯。‌</p>
-<p>在行业狂卷价格、门店数量、估值后，终于刮起了产品风。据艾媒咨询发布的《2024—2025年中国新式茶饮行业发展现状与消费趋势调查分析报告》，“健康化”成为新式茶饮新热点。</p>
-<p>正因为当初是靠着好喝才打开的市场，聂云宸对产品极为重视，他与张俊杰在产品标准化的态度也颇为不同。</p>
-<p>“霸王茶姬在产品制作上，标准化更强。”张毅分析道，霸王茶姬茶品多为奶加茶，往往依靠数据和机器便可制作。</p>
-<p>而喜茶的大部分产品，在制作过程中，标准化困难更大，比如葡萄的剥皮、水果的品控等，聂云宸曾表示：“极度标准化的产品往往是平庸的。”</p>
-<p>“新茶饮赛道已告别从0到1的野蛮生长，如今竞争进入到2.0时代，到了要考虑产品、经营模式创新的时候了。”张毅说。而放弃不擅长的拼规模，回归到擅长的产品，对聂云宸来说未尝不是一种明智之举。</p>
-<p>聂云宸终于再次找到了自己的主场。</p>
-<h3>参考资料：</h3>
-<p>《专访喜茶创始人聂云宸：外界总结我们成功的原因，很多都是错的》，界面新闻</p>
-<p>《喜茶放弃了平价线喜小茶》，界面新闻</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTI3NTQ1MTY0MQ==&amp;mid=2650639057&amp;idx=1&amp;sn=55162b422fbc8d69cfa40620af8cae4b&amp;chksm=7d19bba65fc2f4093eed1f37d5293f57eeff43b2a2276a5b5735b645e7de169543ff8741d20c&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国企业家杂志”（ID：iceo-com-cn）</a>，作者：孙欣，编辑：米娜，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164313758411529</guid><pubDate>Thu, 13 Feb 2025 09:06:00 +0800</pubDate></item><item><title>“怪胎”腾讯音乐</title><link>https://36kr.com/p/3164300322876160</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Thu, 13 Feb 2025 10:00:21 +0800</lastBuildDate><pubDate>Thu, 13 Feb 2025 10:00:21 +0800</pubDate><item><title>“怪胎”腾讯音乐</title><link>https://36kr.com/p/3164300322876160</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>在港交所上市的市值超过千亿的中概互联企业中，有一个另类的存在，它只是互联网龙头企业的控股子公司，员工总数仅有5000人左右，人均市值却仅次于母公司排在中概互联第二。</p>
 <p>它就是腾讯音乐。</p>
 <p>作为腾讯的控股子公司，腾讯音乐业务相对单一，市值却接近7个微博、3个B站、1个贝壳，甚至约等于3/4个百度。</p>
@@ -760,4 +286,478 @@
 <p>[10] 资料来源于The UK Fast Growth Index</p>
 <p>[11] 《英媒：英国最大的超市集团拟用AI引导顾客买健康食品》，2024年9月19日，光明网</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA3ODEzMjg5Mg==&amp;mid=2652851791&amp;idx=1&amp;sn=0b8b6357cfd7dd9482efd72cda34b504&amp;chksm=8507fe2a6e53bb0351b7f1e6e223c11d3e60d155e86a8b291fbe5989ad5cd7970cadde3a8586&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“FBIF食品饮料创新”（ID：FoodInnovation）</a>，作者：大君，编辑：Bobo，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164320907700745</guid><pubDate>Thu, 13 Feb 2025 09:08:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164320907700745</guid><pubDate>Thu, 13 Feb 2025 09:08:00 +0800</pubDate></item><item><title>排队5小时才看到柜台，“黄金界爱马仕”卖疯了，黄牛代购日赚万元，公司股价8个月翻10倍，业内人士：它的产品可以提供情绪价值</title><link>https://36kr.com/p/3164371989948930</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2月10日晚间，现货黄金创新高至2920美元/盎司，今年累涨超11%。时逢新年与情人节两大假期，国内消费者买金热情高涨。</p>
+<p>2月9日，春节返工之后第一个休息日，早上9时30分，气温还在零下，但北京SKP商场离老铺黄金最近的北1门前已经排起了长队。</p>
+<p>甚至在代购老铺黄金的一些消息群中，已有群主在晒出排队的照片后称：“今天不接单了。”当天下午，《每日经济新闻》记者实地走访多家老铺黄金门店，东方新天地需要排队1小时，SKP商场晚上7点仍需排队2小时才能选购，而就在当天，有人排队5小时才看到柜台。2月10日，排队的情况同样火热，还有人带着小马扎，现场有消费者表示排了7个小时。</p>
+<p class="image-wrapper"><img data-img-size-val="960,720" src="https://img.36krcdn.com/hsossms/20250213/v2_ac0dc7bc62fa402bbd7412e6f80da042@1743780481_oswg101674oswg960oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">北京SKP一层老铺黄金排队情况 每经记者 王紫薇 摄</p>
+<p>据蓝鲸新闻报道，有黄牛做代购日赚万元。</p>
+<p>而解放日报报道，黄牛称，“我一天就能接上百个订单。往年我每年在这个品牌的消费金额能达到1000万，今年店铺特别火爆，我差不多能卖到5000万。”</p>
+<p>实际上，老铺黄金上市8个月，股价也从40.5港元/股飙至400港元以上。这两日，老铺黄金股价一度冲至442.80港元/股。2月12日收盘，股价为422.00港元/股，总市值为710.50亿港元。</p>
+<p>而记者注意到，2月12日，上海黄金交易所早盘足金价格为680.64元/克。老铺黄金的足金黄金产品达到了800多元/克，足金镶嵌产品更是达到了1200元/克。</p>
+<p>为何老铺黄金会门庭若市，只是“网红”属性加持？一位行业人士对此表示，这期间的微妙之处在于，消费者是在买黄金还是在买高奢饰品。买黄金饰品当然不如去银行买金条，但从饰品角度来看，低于一线奢品18k金的饰品价格买到好看又保值的足金饰品，消费者认为自己赚了。</p>
+<h2><strong>代购：老铺黄金产品极具“性价比”</strong></h2>
+<p>“哪个明星来了？”一位SKP的顾客不解地向记者旁边的保安人员喊话。他发现商场的北2门被临时封闭了。“排队维持（老铺黄金购买）秩序，不是明星。”保安回复。</p>
+<p>2月9日，《每日经济新闻》记者晚上7点到达SKP商场排队现场，老铺黄金的两个柜台附近仍人声鼎沸。安保人员告诉《每日经济新闻》记者，从早上开始就“一直都是人”。</p>
+<p>SKP的老铺黄金排队盛况与商场优惠活动有关。《每日经济新闻》记者了解到，消费者如果不要商场累计的积分，代购会给一个折扣价。</p>
+<p>根据财报，截至2024年6月30日，老铺黄金仅在14个城市有33家自营门店。为此，不少消费者从外地赶其他城市购买。这也会造成老铺黄金门店“打拥堂”的情况。</p>
+<p>记者从一个400多人的代购群里看到，定价1.5万元左右的“点钻葫芦”、4万元的“玫瑰花窗”、近2万元的“金刚杵”是重点关注对象。</p>
+<p>从事奢侈品代购已经有2年的乐先生告诉记者，老铺黄金热度高，是因为售价1200元/克的产品极具“性价比”。梵克雅宝、布契拉提、宝格丽等奢侈品品牌，其首饰所用的金基本以18k金为主且产品定价不菲。而国内黄金品牌大部分采用足金制作。“买老铺的客人之前也找我询价梵克雅宝的手链，宝格丽的扇子项链这些饰品。其中一些消费者选择的时候会考虑金的纯度。黄金品牌的价格没有奢侈品首饰的价格高。又是22k或者24k金，消费者普遍认为足金比k金保值，因此不少消费者在比较之后会选择买足金饰品。”乐先生说，“我们消费者基本都是买涨不买跌”。</p>
+<p>此外，“老铺黄金的回收价格相比其他黄金品牌比较保值。”一位做二手奢侈品回收的商家告诉记者。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,720" src="https://img.36krcdn.com/hsossms/20250213/v2_a5fbc91b09e045059759bf1bcde95288@1743780481_oswg62889oswg1000oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">回收老铺黄金的商家文案 网页截图</p>
+<p>目前银行的金条价格在1克700元左右。为什么不去银行直接买金条，而要买贵出近1倍的足金首饰？</p>
+<p>一位在银行工作20余年的黄金市场观察人士告诉《每日经济新闻》记者，“在银行买黄金一般考虑保值升值和投资风险，这和买足金饰品的逻辑不同。对年轻人来说，足金饰品具有一定的社交属性，可以提供情绪价值和社交话题”。</p>
+<p>乐先生认为，老铺黄金有很强的“网红”属性。</p>
+<p>“网红”属性加持下，根据公开数据，老铺黄金2022年和2023年，在中国所有黄金珠宝品牌中单店收入排名第一。2023年老铺黄金累计有32家店，全部为直营，依靠这32家门店，2023年老铺黄金的年营收达到了32亿元。</p>
+<p>另外，根据媒体报道，老铺黄金还在服务和环境设计上与奢侈品牌趋同，如设立VIP会员室、门店提供一对一的购物服务、限客流……老铺黄金也因此有了“金界爱马仕”的称号。</p>
+<h2><strong>市场将迎来激烈竞争</strong></h2>
+<p>一口价不称重计价，每年固定两次提价、对标高奢品牌进入高端商场而不是开金店、二手商品转卖价格高于普通黄金品牌，不做硬金、k金，只做古法足金，老铺黄金用卖奢侈品首饰的方式卖黄金饰品，让其在国内黄金品牌中独树一帜。</p>
+<p>在传统金店财报出现下滑的情况下，老铺黄金依然高歌猛进。根据最新财报，公司2024年上半年营业收入为35.2亿元，同比增长148.34%。归母净利润为5.88亿元，同比增长198.75%。一口价的销售模式也直接拉高老铺黄金的毛利率。2024年上半年，其毛利率仍维持高位，达41.3%，高于周大福的24.92%、老凤祥（600612.SH）的9.21%等传统品牌。</p>
+<p class="image-wrapper"><img data-img-size-val="720,970" src="https://img.36krcdn.com/hsossms/20250213/v2_447e25937b1541c29e3b928152fa6a28@1743780481_oswg31901oswg720oswg970_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">财报截图</p>
+<p>2025年1月21日，咨询公司贝恩发布了《2024年中国奢侈品市场报告》。该报告显示，2024年内地个人奢侈品市场销售额预计将出现18%至20%的下滑。在珠消费偏好中，内地消费者已经出现了偏好黄金（55%）的消费倾向。</p>
+<p class="image-wrapper"><img data-img-size-val="994,720" src="https://img.36krcdn.com/hsossms/20250213/v2_bd678d8fc3194cec8cc11bcf96f1580c@1743780481_oswg69796oswg994oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在性价比消费兴起后，老铺黄金已经分羹奢侈品市场。但老铺黄金的发展也有隐忧。让老铺黄金备受青睐的“古法金”门槛并不高，周大福“传承”系列，周生生的“东方古祖”系列，老庙黄金的“古韵金”系列等已经在加速布局这一领域。行业人士认为，“古法金”市场势必要迎来更为激烈的竞争，而老铺黄金基于“古法黄金”的消费心智占领将面临冲击。</p>
+<p>此外，进入2024年，“买金热”持续，但金饰品整体市场并不高涨。根据世界黄金协会发布的《全球黄金需求趋势：2024年四季度及全年报告》，2024年金饰需求欠佳，全年金饰消费量创有数据统计以来的新低，为1877吨。</p>
+<p>在“买金”热浪中，也有人冷静观察这个市场。有行业人士对此表示，国际黄金的价格还与国际局势有关。</p>
+<p>“实物（黄金饰品）可以买，但股票我就很谨慎了。”一位国内黄金市场的观察人士对记者表示。</p>
+<p><strong>（文章内容和数据仅供参考，不构成投资建议。投资者据此操作，风险自担。）</strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/DmNLMjTLdJMcF2R1G10OXA" rel="noopener noreferrer nofollow" target="_blank">“每日经济新闻”</a>，作者：王紫薇，编辑：何小桃 陈俊杰 杜波，校对：孙志成 ，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164371989948930</guid><pubDate>Thu, 13 Feb 2025 09:41:00 +0800</pubDate></item><item><title>福州夫妻10年没上班，每天打鼓、跳舞：赚得不多但快乐</title><link>https://36kr.com/p/3164288362179331</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>一间“对”的居所和“对”的人一样重要。一条探访了三对年轻夫妻，在用心筑建的空间里，爱意满盈的生活得以安放。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_832a28bfe5e54f11887136694355aad7@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">蓬蓬和小黄打通loft上下两层，各忙各的也能有陪伴感</p>
+<p>85后的蓬蓬和小黄是一对“J人”夫妻，长期做着快节奏、高强度的工作，想拥有一个有“休闲感”的家，释放压力。他们买下北京市区一套57m²的顶层Loft公寓，拆掉天花板、打通上下两层，空间变得通透开阔，坐拥北京最酷窗景。复古格调的家中，两人和7只小动物“一家九口”共同生活，各得其所。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_a85e3d8b07bc4fe6bc81f09d74fdd98d@000000_oswg763097oswg886oswg665_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">郭一峰、郭岚馨夫妻在“第二居所”中一起创作</p>
+<p>90后夫妻郭一峰和郭岚馨是中国美院的本科同学。去年，郭一峰在美院边上盘下一套330㎡的平层作为“第二居所”，平时一半时间在家，一半时间就在这里画画、创作。太太郭岚馨对此十分支持：“宝宝出生后对我们生活秩序冲击很大，他不在家，矛盾反而减少很多，分开一下再合体感情更好。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_a5a2a799c41f4de18b020b8e53f7ab86@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">在新家客厅外的平台上，kiki打鼓、小昱跳舞</p>
+<p>福建夫妻小昱和kiki，一个是会计学硕士，一个大学学油画，现在则是一对非洲曼丁音乐乐手。去年，他们在福州附近的永泰县租下一栋400㎡的三层废旧铳楼，作为居所和工作室。家门外就是稻田，两人每天在山野间演奏、舞蹈。毕业10年，从未上过班的夫妻俩觉得， 他们自己把自己“养活得还不错”。</p>
+<h2>夫妻改造57m²复古风loft，坐拥北京最酷窗景</h2>
+<p>蓬蓬和小黄是大学同学，毕业后分隔两地。多年后，小黄恰好到蓬蓬所在的城市拍戏，两人重新联系上，逐渐发展为恋人，不久便步入婚姻。</p>
+<p>小黄是一名影视工作者，蓬蓬曾从事广告行业，很长的一段时间里，两人的工作都是快节奏、高强度。“我们这一代人从小就很‘卷’，但以前的‘卷’还是有喘息的时候，也不知道从什么时候开始，就觉得喘不过来气了。” 他们希望有一个符合自己的生活需求和审美喜好的家，可以在舒适的空间里充分放松。</p>
+<p>2022年，夫妻俩买下朝阳区中心的这套57m²Loft作为婚房，进行了一场大改造。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_0e656de36f3941058dc3e83982bb2a20@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="img-desc">公寓改造前</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_ccd7ec1aef99436ba5ca70d79319cff1@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">改造后</p>
+<p>房子原本的格局是两层，楼梯在玄关处，整体显得拥挤、不通透。发现所有的承重墙都分布在四周后，两人做了个大胆的决定：把一楼客厅的天花板（即原二楼地板）拆除，楼梯挪到侧墙，腾出一整个挑高4.8米的开放空间，和一整面巨大的落地窗，视野十分开阔，窗外就是北京标志性的“大裤衩”。</p>
+<p>白天，阳光充足，光影在整个家中缓慢流淌；傍晚，落日浸染整片CBD，坐拥北京最酷窗景。“我们俩不太在乎房型、朝向，选这个房子就是看上了风景。” 蓬蓬告诉我们。“拥有一扇可以看到全城景观的窗，会觉得跟这个城市既是一体的，又可以有一点距离。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_b0f815a0321941a5aaa6632656ec2e19@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">蓬蓬在家中拍的落日窗景</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_eff488aefa554d10b346fcb8289125b1@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p>小黄拍过多部年代戏，曾在《繁花》剧组工作长达两三年，又是王家卫导演的粉丝，深受复古美学熏陶。</p>
+<p>整个家有着浓郁的复古质感，各种经典元素随处可见：海棠花玻璃、格纹拼贴瓷砖地板、木质屏风、深绿墙壁上挂着的《花样年华》大红色海报……精致典雅，又恰到好处，不会显得繁琐。蓬蓬告诉我们，装修的时候小黄刚好还在拍摄中，“所以也不想加入太多元素，不然回家了还像在片场。”</p>
+<p>家具则以木质材料为主，橱柜、桌椅、地板，保持统一的美拉德色系，其间点缀黑色沙发、白色吊灯、暗红纹地毯。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_9b9b7790048c49c09eaf79f295211c8a@000000_oswg84397oswg1080oswg719_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>蓬蓬和小黄都是“J人”，两人按照生活习惯仔细规划了空间的动线和细节。</p>
+<p>从玄关到客厅，以一个圆柱形的书架作为隔断；客厅上方则安了一台木质吊扇，让整个空间拥有了两人渴望的“休闲感”。下班回到家，“沙发上一瘫，电扇一转，有种南洋风的那种度假的感觉。” 小黄说。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_4d131919b3894a8eaf72ad92ec008944@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">卧室开了两道门，动线流畅</p>
+<p>来到二楼，一条不宽不窄的走廊串连起卧室、卫生间和书房。</p>
+<p>卧室开了两道门，既有私密性，又可以保证动线流通。正门对着朝西的落地窗，到了下午会有充足的光线，对习惯晚睡晚起的夫妻俩来说十分惬意。</p>
+<p>从侧门，则可以“丝滑”进入卫生间和书房。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_20785bf771b54bfbb90f825453edcb6f@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p>卫生间依然是黑白相间的复古色调，设有一个圆形的浴缸。小黄是东北人，喜欢泡澡，同时作为影视工作者，“也会通过泡澡去找灵感，在浴缸里写东西。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_3a23b6164743460bb56dc72a8237a3d6@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="img-desc">连着储物柜的小狗屋，卧室门上的“猫门”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_f90066fc47eb4e46a256df2ce589bdcc@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">阳台上的“小宠公寓”</p>
+<p>两人没有孩子，但家中有7只小动物同住。两人为小动物们分别设计了专属空间，“一家九口”各得其所。</p>
+<p>一楼储物柜下带栅栏门的“小房间”是柴犬nunu的，它的各种用品就收在“楼上”的柜子里；卧室门上开了一个小猫门，“方便它们随时骚扰”；鬃狮蜥、荷兰猪等四只小宠，“连着岛台打了一个四层楼的’小宠公寓’，在厨房做饭的时候，时不时还能顺便扔几片菜叶给里面的’房客’。”</p>
+<p>和小动物们一起生活在这样一个符合自己的需求、审美，可以让人放松充电的小空间，是夫妻俩能想到最幸福的生活图景。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_505ef2c98e61450b98c3bf1f455cbf07@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>蓬蓬告诉我们，小黄会经常到外地拍戏，最长的一次异地大概有半年时间。小黄把夫妻俩感情稳定归功于蓬蓬的理解，但蓬蓬觉得不能用“包容”去形容这个状态：</p>
+<p>“他在追寻他的梦想，我做我自己的事情，又彼此陪伴，更像是两个人一起去追寻自己想要的生活。”</p>
+<p>这种相处模式延续到了空间的设计上：楼上楼下所有空间都是开放、连通，又可以选择封闭的，无论在哪个角落，各自在忙什么事，都可以感受到对方的存在，不用对话也能拥有陪伴感。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_3d1c2ef466e245df958ccded35bc2f6d@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>夫妻俩觉得，搬到这个家以后，才真正开始过日子。以前两人白天忙事业，回到家就睡觉，“房子只是一个晚上休息的地方”。现在不但松弛下来，也会意识到人生不只有工作，生活开始变得丰富饱满起来。</p>
+<p>蓬蓬说，现在自己更有对生活的掌控感，可以根据自己的节奏“卷”了。“我想，人还是要保持对美好生活的追求，在‘卷’的同时善待一下自己，才可能有更大的空间去努力。”</p>
+<h2>美院夫妻改造西湖边的家：330㎡，只做一室一厅</h2>
+<p>中国美术学院博士在读的郭一峰，在美院已有13年，既是学生又是外聘老师。2023年，他在美院旁买下一间330㎡的平层作为“第二居所”，只做了一室一厅：300㎡用来创作，30㎡用来生活。</p>
+<p>郭一峰和太太郭岚馨是大学同学，爱情长跑10年，2022年“修成正果”，有了一个可爱的孩子。两人平时各自留有独立空间，互不干扰：郭一峰平时基本一半的时间在家，另一半的时间在自己的空间创作。</p>
+<p>用郭岚馨的话说，“分开一下再合体反而感情更好，距离产生美”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_3f0affdf40c944ac832315c424b6c061@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">郭岚馨之前是平面设计师，孩子出生后，暂时在家做全职太太。“他是一个很抠细节的人。刚生完宝宝的这一年，对他来说，打破生活规律的冲击会更大。反而他不在家，我觉得是一件好事，矛盾会减少很多。”</p>
+<p>这座房子三面环山，一边有小溪。因为从事绘画行业，郭一峰十分注重自然景观。改造历经了8个月：房子原本是只有6根柱子的普通大平层，郭一峰把乳胶漆都铲掉，使原始建筑墙体全部裸露出来，钢筋锈迹斑驳，“每一面墙都相当于一张画”。</p>
+<p>空间以黑白灰为主色调，木饰面的柚木色和混凝土墙搭配，如同一幅画中的冷暖对比。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_ad048c3418a34d05a23bb1a5d9618ade@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="img-desc">入户后向里走便是榻榻米茶室</p>
+<p>室内布局如同中国园林层层递进。几扇中轴门使空间贯通，从大门进入后可以看到茶室的一盏灯光——从一个宽阔空间过渡到一个小空间，“很聚”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_56d53300fec1449f8564eb534e0cf1ff@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_4796bc4914764b53b5021719d6150318@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="img-desc">临窗的工作区域</p>
+<p>走到这里，突然又出现两扇门，东南面的整片树林一下子映入眼帘，满眼的绿意就“扑”进眼睛里。这里是郭一峰的工作区域，放置了一面画布墙。</p>
+<p>隔断之后是郭一峰的会客区，这里也摆放着他的一部分收藏，比如24台打字机，摆满了一整面墙。“打字机虽然是机械，可我们以前所有的文明是通过它来传输的。” 郭一峰告诉我们，自己喜欢上打字机是因为太太。当时刚好郭岚馨做毕业设计，在为一家古董家具店做标识。被太太带去参观后，郭一峰逐渐喜欢上了老物件。现在如果出国旅行，他一定要去跳蚤市场淘一淘。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_f9482cf2222a41bf9c20e99f19660f63@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">郭一峰的打字机墙</p>
+<p>谈起当初，郭一峰十分感慨：刚来到杭州考美院研究生时，两人租的房子只有十七八平，仅放得下一张桌子一张床。冬天非常冷，两人相依为命，“抱团取暖”。后来慢慢地，夫妻俩租的房子越来越大，但即使现在拥有了自己的房子，还是很怀念从前。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_445f53d1a2564a3e9f46964fd6b98976@000000_oswg337922oswg1080oswg1330_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">夫妻俩的大学毕业照</p>
+<p>两人刚在一起生活时，有点强迫症的郭一峰会 不习惯太太会把房间弄得凌乱。但郭岚馨说，如果全部都弄得很规整，冷冰冰的没有人情味。于是郭一峰慢慢习惯凌乱带来的生活气息，而郭岚馨也逐渐变得更加爱整洁，两个人相处愈加和谐。</p>
+<p>郭一峰觉得，互补的感情会更长久。“我太太平时在家里比较吵，我就属于看着她笑的那种。” 自己从事的职业本质是孤单的，需要一个人创作才能专注，但是回到家，“耳朵会变得很热闹”，能感受到家的温馨感。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_8083538feb7943608e1049d7994fb9f6@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">一家三口和小狗玩耍</p>
+<p>有了宝宝以后，夫妻俩生活的秩序、节奏完全被打破。郭一峰非常恋物，当孩子去玩自己收藏的物件，他会有些抓狂。但当宝宝开始叫“爸爸妈妈”的时候，他发现其实这些都不太重要了，“会想着去包容一些东西”。</p>
+<p>现在，夫妻俩会每个月固定抽出一天，随意逛逛，或去露个营，“保留二人世界”。“空间是在成长，” 郭一峰说，“我们也在成长。”</p>
+<h2>从福州市中心的地下室，搬到“看得见天和地的地方”</h2>
+<p>小昱和kiki的新家是一间废弃20多年的铳楼改造而成，上下三层，总共400多平米的空间，有许多大大小小的窗子。他们都喜欢这些窗子，因为“像天然的取景框”，能看到不同角度的稻田、远山和大树。</p>
+<p>这个宽敞的空间的租金低廉，“比起在城市里好了太多”。山间生活朴素，除了食物水电，几乎再没有什么其他成本。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_67ba2dea72d841d4905a5bc95c1b8dec@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="img-desc">旧工作室位于福州市区的一个地下室</p>
+<p>过去十年，他们工作室一直在福州二环内的一个地下室，大概70多平米，所有乐器堆在里面，抽湿机常年在轰隆隆地运行。</p>
+<p>通向工作室的走廊阴暗又潮湿，挂着很多空调外机。为了维护室内的空间，kiki和小昱经常就在那个走廊做一些乐器维修制作的工作。</p>
+<p>“如果能够在一个看得见天和地的地方来做这些事，那就太好了吧。”小昱那时候总和kiki这么说。</p>
+<p>kiki的梦想则是能把自己的画给挂起来。九年里，kiki的画都挤在他们用厕所改成的储藏间里，塞满了马桶之外的每一丝缝隙。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_1b29eb39c1644876999e9ad5a4755176@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="img-desc">乐器储藏室（左）、小昱和kiki各居一角，分别做缝纫与画画（右）</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_3391198e7c9d4bb5992d24d024831ceb@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="img-desc">搬家后，kiki藏了九年的画作终于“重见天日”</p>
+<p>搬来白云乡之后，他们的梦想一下子都实现了。现在的房子有了很多明确的分区，足够多的墙壁可以挂上kiki的作品。他们有了专门的乐器储藏室、kiki做木工的地方、小昱做裁缝的地方、做大漆的地方、画画的地方、卧室、客房……</p>
+<p>还有专门的排练房，kiki和小昱专门做了隔音处理。“一开始我们还很担心鼓声会扰民，但似乎在山里演奏，鼓声也不会刺耳，而是融进大自然的感觉，邻居阿姨们也都说好听。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_7860956506c9408dbad6958bd04dedbf@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">夫妻俩在排练室一起练习</p>
+<p>有了明确功能分区后，他们各自有了足够多的独立时间，可以专注做自己的事情，这让他们感觉特别好。</p>
+<p>客厅的楼顶是一个平台，院子里有两棵大枫树，不远处的稻田里是水稻和芋头轮种。天气好的时候，他们会在户外跳舞。</p>
+<p>“田里有一个台子，可以坐在那里欣赏四季的风景。春天播种，夏天整个稻田就变绿，从青绿变成深绿，然后再变成金黄色。去年我们来这里的时候，特别爱在那个台子上喝咖啡。”小昱说。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_7688d86b596047b0a930962de585b401@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="img-desc">夫妻俩在田野和山间“寻宝”</p>
+<p>两人还定期会去田间和山里“寻宝”。最近已经发掘了紫云英、鼠曲草、野荠菜种种能下肚的野菜，还发现了新鲜的蕨类。蕨类苦涩，不太好下咽，他们也不浪费，搜索学习了传统的中国编织技法，就地取材，把蕨类编织成了小小的乐器。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_dfaea386a96e4b088a6f7f8d35c76be4@000000_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
+<p class="img-desc">挖野菜（左）、用蕨类编织而成的乐器（右）</p>
+<p>和大多数山村一样，白云乡鲜见年轻人，这对年轻的情侣引起了阿姨叔叔们友善的好奇。阿姨们常常站在他们的院子里，围观两人演奏，有时还会留下地里新鲜的蔬菜给他们。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_1fd8e6eb53bd4bf79ed5315addb204a5@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">在村里自己拾柴、烧火、煮火锅</p>
+<p>有时候想念城市的火锅，夫妻俩也会想出办法来。村里可以烧柴，他们就研究用炭盆烧柴，吊起铜炉涮火锅。利用柴火最后的余温，小昱还能煮出一杯奶茶。</p>
+<p>夫妻俩都是“自己能和自己玩好久”的人，住在城里时就不常出门、从不逛街，专注于自己的事情，对城市的依赖性很低。搬到山里后，各类成本又少了许多，他们更觉得轻松。所以，“孤独感几乎是完全不会有的啦。”</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDI5OTkyOA==&amp;mid=2665869083&amp;idx=1&amp;sn=a8a506ef4f05057b7c02ba56aa0bc83a&amp;chksm=bc08b4b82414eeb9849496d36fd3f18285ca5e1465dbec1e620f5e36f135b4dc7b085ad9c313&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“一条”（ID：yitiaotv）</a>，编辑：邓涵竹，责编：鲁雨涵，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164288362179331</guid><pubDate>Thu, 13 Feb 2025 09:41:00 +0800</pubDate></item><item><title>「浪姐」再启新叙事，芒果TV全力狂奔下一程</title><link>https://36kr.com/p/3163666295204355</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>#浪姐6名单# #浪姐6出发路透# #卡琳娜 浪姐6# #浪姐6舞台搬到海边了#……</p>
+<p>熟悉的情节又一次上演，但这段被讲了6年多的故事却有了一些无法忽视的变化，比如与往季形成鲜明区别的粉色系视觉海报与宣传物料、刷新观众认知的全户外录制模式，打造面向全球女性的「国际邀请舞台」等。</p>
+<p>很明显，芒果TV还努力通过持续锐意改革与创造让「浪姐」系列能像忒修斯之船般，在穿越周期时新陈代谢，焕然一新。 与此同时，面对风高浪急的剧集市场，芒果TV也在快马加鞭地寻找与制造存在感。</p>
+<p>继《国色芳华》《五福临门》，平台的又一部「种子选手」《180天重启计划》也在近日正式官宣定档2月17日。</p>
+<p>与此形成呼应的是，于1月底举办的2024-2025六平台年会暨金芒奖颁奖典礼以「敢闯敢曜」为主题，蔡怀军在会上以《敢闯敢干》为题作工作报告，并明确强调2025年的发展一定要有一个「敢」字。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_4bb52838a872449f9b602c5866e7d7c8@000000_oswg60562oswg1080oswg378_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>唯「变」者进，唯「勇」者上，唯「敢」者胜。</p>
+<p>芒果TV以及其背后的整个芒果系都迫切想在2025年干票大的，但带着洋溢的「敢」真的就能闯入理想的世界，真的就能换来如愿以偿吗？</p>
+<h2><strong>当得起赞誉的2024</strong></h2>
+<p>云合数据显示，2024年芒果TV上新季播综艺供给大幅增加至99部，上新季播的独播比例保持在95%以上，两项数据均居长视频之首。</p>
+<p>具体来看，在云合·2024年全网网络综艺累计有效霸屏榜和2024年上新云合评级S+综艺中，芒果TV分别拿下8席、9席，在2024年上新季播综艺豆瓣评分TOP5中拿下2席。另一边，据击壤洞察数据，2024年四大平台中仅芒果、优酷客户数据提升，其中芒果TV招商领先，同比提升24%。</p>
+<p>无论热度、口碑还是招商表现，芒果TV整体都优于爱优腾，确实也担得起蔡怀军说的那句——<strong>综艺爆款「拉满全年」</strong>。</p>
+<p>在此基础上，平台的剧集板块也因与腾讯视频开年拼播的《与凤行》以及在10月底上新的《小巷人家》，有效制造了记忆点。芒果系公开数据显示，《小巷人家》创收视之冠，2024年单剧会员收入历史最高，且截止目前的豆瓣口碑仍稳定在8.3分。</p>
+<p>故事的另一侧，「芒果出海2024行动」 同样带来了强有力的赋能作用。</p>
+<p>2024年全年，六平台全年共64个项目发行海外、3档综艺模式输出，带动芒果TV国际APP实现用户、收入「双倍增」，用户规模2.6亿。其中，《歌手2024》覆盖3亿海外受众，《乘风2024》获海外主流媒体报道超1200次，《声生不息》系列节目拉动国际APP港澳台及东南亚用户大幅提升68%。</p>
+<p>同时，在这一年，芒果TV国际APP还新增法语、西班牙语界面语言，扩大欧洲和南美洲的用户群体。</p>
+<p>更难能可贵的是，作为整个芒果生态后链路商业化变现关键一环的小芒APP，终于展现出了一些来自内容电商的新活力：GMV在2024年同比增长55%，超过160亿元。</p>
+<h2><strong>仍需夯实的长期主义基底</strong></h2>
+<p>芒果TV肉眼可见的提速了，然而，信任重构与信心重建从来不是一件易事。</p>
+<p>进入今年以来，芒果超媒的股价与总市值虽整体转入上升态势，但截至最近一个交易日，芒果超媒的最新股价对比在2021年创下的股价高点92.1元/股，缩水68.5%，总市值为542.70亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_d262a9601e724352b3aa9b662064d947@000000_oswg38556oswg580oswg506_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>很明显，资本市场对芒果超媒未来预期的疑问依旧浓重。</p>
+<p>据芒果超媒在1月17日晚间披露的2024年度业绩预告显示，其2024年营业利润预计区间为16.66亿元—20.26亿元，同比变动区间为-8.41%至+11.38%；归属上市公司股东净利润预计为12.5亿元—16.1亿元，同比变动区间为-64.85%至-54.72%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_51bd7e28fdfd4ba0b46a1c7d75a99157@000000_oswg39502oswg663oswg360_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>尽管芒果超媒解释，“因企业所得税政策的变化，按照会计准则，公司需一次性冲回2023年度确认的部分递延所得税资产，将减少公司2024年归属于上市公司股东的净利润。”但不能否认的是，其自身的成长能力，也确实不似以往般强悍、坚挺。</p>
+<p>2024年末，芒果TV的有效会员规模突破7331万人，尽管相比爱优腾，仍维持在较高的同比增长水平，可纵向上的疲软加剧也是事实。2022年，芒果TV的有效会员规模的同比增速从上一年的39.5%断崖下跌到17.38%，2023年又下降到了12.46%，到了2024年再次下降到10.19%。</p>
+<p>所以我们看到，芒果TV在过去一年变着法的深入挖掘用户价值，比如官宣了全新的会员综艺厂牌「小FUN综」，针对《再见爱人4》推出 4 款不同价位的抢鲜版付费礼包，加紧小芒APP与平台内容的绑定，在短剧运营上试水「单点付费」模式等。</p>
+<p>这番努力没有白费，业绩预告披露，芒果TV的会员收入在2024年首次突破 50 亿元大关，同比增长18%。</p>
+<p>可硬币的另一面，爱奇艺的会员业务收入仅在去年一季度就达到了48亿元，而在芒果TV渴望撬开新经济增长点的短剧领域，爱奇艺也正在急速成长为一头新的「拦路虎」。</p>
+<p>两比特科技数据显示，在2025年1月上新的短剧中，腾讯视频独播10部、爱奇艺独播7部、优酷独播5部、芒果TV独播2部。其中，爱奇艺的《原罪》《侯府夫人不好当》《夜未央》的累计票房分别达到2400万、1400万、500万。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_fbd8d610eecd49df8694a672ff8eafcb@000000_oswg50232oswg646oswg620_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这对当下的芒果TV，无疑是雪上加霜。</p>
+<h2><strong>「敢」真能成为破局的关键吗？</strong></h2>
+<p>为什么要这么说？</p>
+<p>一方面，芒果TV在过去一年还是没能彻底走出舒适区。</p>
+<p>据云合数据，2024年腾讯视频、爱奇艺、优酷分别上新了261部、166部、95部剧集（包括新剧、库存剧），芒果TV却只有32部。不仅如此，在云合·2024年上新剧累计有效播放霸屏榜TOP20里，平台有且仅有一部独播剧集《小巷人家》上榜，而腾讯视频、爱奇艺、优酷分别拿下了6席、6席、3席。</p>
+<p>情况在今年也未必会有太大的改善。</p>
+<p>在以《国色芳华》取得全方位高开后，接棒而来的《五福临门》却再次让芒果TV在剧集市场的博弈中，变得力不从心起来。而参考李漠导演与芒果TV合作的前作《我在他乡挺好的》《装腔启示录》等，即将上线的《180天重启计划》虽极可能再次取得口碑胜利，但能否达成全面出圈效果，却还得打一个问号。</p>
+<p>再一重挑战是，《180天重启计划》后，芒果TV可委以重任的其他「种子选手」不仅储备量特别有限，整体类型也称不上多元，《国色芳华》第二季《锦绣芳华》以及出现在平台新剧预约板块的《水龙吟》《韶华若锦》皆为古偶题材。</p>
+<p>但另一边，爱奇艺在今年将借力微尘剧场、大家剧场、迷雾剧场、小逗剧场、恋恋剧场这五大平台剧场，全力布局普通人故事、文学作品影视化、悬疑短剧、喜剧以及甜宠情感等。</p>
+<p>无独有偶，优酷也将持续深化对平台四大剧场——白夜剧场、生花剧场、人间宝酷、港剧场的长线运营，腾讯视频在今年储备的精品剧集内容同样涵盖了严肃文学、都市现实、悬疑刑侦、古装武侠、系列喜剧、青春甜宠等多元题材类型。</p>
+<p>做强这块短板，芒果TV还需要拿出更大的诚意，付出更切实的努力。</p>
+<p>另一方面，舒适圈开始变得不太舒适了。</p>
+<p>据击壤洞察数据，2023年，《乘风2023》《披荆斩棘第三季》分别以18个、16个招商品牌数拿下2023年网综招商TOP1、TOP2。但今年，高居榜单前两名的节目却变成了B站独播的《新所有女生的offer》和爱奇艺独播的《种地吧2》，而《乘风2024》《披荆斩棘第四季》分别掉到了第六位、第十位，同时招商品牌数也分别下滑到了10个、8个。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_7695676d248642e0b15b7562708b2b45@000000_oswg55042oswg718oswg403_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这也就不难理解，为什么新一季浪姐（《乘风2025》）会有诸多颠覆性改变。</p>
+<p>文娱行业流量迁徙的背后始终离不开内容，而从击壤洞察梳理的2024网综招商 TOP20看，优爱腾在过去一年都制造出了新惊喜，比如《恰好去远方》《燃烧的月亮》，比如《盒子里的猫》《这是我的岛》，再比如《喜人奇妙夜》。</p>
+<p>不想陷入被动，就必须争取主动。再加上，时至今日的长视频行业早已恰如「逆水行舟」，「敢」自然就成了芒果TV以及整个芒果系的必选项。</p>
+<p>不过，要让野心燃烧得更明亮，不仅需要勇气，还需要足够的底气来支撑。所以，在接下来的内容输出中，如何在敢于出击的同时展现出持续跑赢的能力，将成为芒果TV市场价值的核心挑战所在。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg4OTAwMjkzMA==&amp;mid=2247519468&amp;idx=1&amp;sn=47e7bc22ff6b5ed513004decc948274c&amp;chksm=ceb595e7004fc6f38980b6cb82d429e3374d4ecd0eb62a03b49b69b4c5b9936754efaea02113&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“文娱商业观察”（ID：wenyushangyeguancha）</a>，作者：矮子巨人，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163666295204355</guid><pubDate>Thu, 13 Feb 2025 09:41:00 +0800</pubDate></item><item><title>小红书的年轻人爱上“剩菜盲盒”，他们真薅到羊毛了吗？</title><link>https://36kr.com/p/3164352131639815</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近期，消费市场悄然刮起一阵“剩菜盲盒”风潮。</p>
+<p>在小红书上，不少网友晒出了自己购买剩菜盲盒的感受：“19.9元竟然开出了4盒自助餐菜品，值哭了好吗”、“幸好我是深漂打工人，太快乐了”、“香港酒店剩菜盲盒，份量多到吃不完”、“长沙15.9元的自助餐盲盒，拎着感觉有一斤”。</p>
+<p><strong>从“消费升级”到“消费降级”，年轻人试图在省钱与品质之间找寻平衡，而“剩菜盲盒”似乎成了这一诉求的完美载体。</strong></p>
+<p>然而，这场看似双赢的消费热潮背后，究竟是年轻人薅到了羊毛，还是商家与消费者的一场博弈？跟随「克劳锐」的视角，让我们一起探讨~</p>
+<h2><strong>从北欧到中国，“剩菜盲盒”的漂洋过海</strong></h2>
+<p>“剩菜盲盒”并非新鲜事物。2015年，丹麦企业Too Good To Go（意为“弃之可惜的好东西”）首创“魔法袋”模式，消费者通过App预订商家当日未售出的食物，以盲盒形式低价购买。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_4135974331b747429314f533129b7fbe@000000_oswg242516oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片源自网络</p>
+<p>这一模式迅速风靡欧洲，截至2023年已在17个国家覆盖超8万家门店，累计减少食物浪费超2亿份。其成功背后，是欧盟每年8800万吨食物浪费带来的社会焦虑——仅零售端浪费就足以养活2亿人。</p>
+<p>在中国，这一概念的落地经历了本土化改造。2022年，“惜食魔法袋”、“米粒盒子”等平台开始试水，初期聚焦一线城市的面包房、咖啡店——覆盖面包、寿司、轻食等品类，价格多为原价的3-4折。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_c26d4e6a2a7840089e6e1ac5a69a1871@000000_oswg437781oswg1080oswg808_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片源自网络</p>
+<p><strong>与欧洲模式不同，国内平台更强调“限时抢购”的刺激感：</strong>每日18:00-21:00开放预约，消费者需提前蹲守拼手速。</p>
+<p>北京朝阳区某网红面包店店员透露，店内每天准备30个盲盒，通常30秒内售罄，“有人专门设闹钟来抢，比抢演唱会门票还拼”。</p>
+<p>数据印证了这一模式的爆发力。2023年，“惜食魔法袋”用户量突破300万，合作商户从500家激增至5000家；成都某连锁烘焙品牌接入盲盒系统后，门店损耗率从12%降至4%，月均增收超3万元。上海消费者协会调研显示，<strong>18-35岁用户占盲盒消费群体的83%，其中女性占比67%，“省钱+环保+趣味”成为三大核心驱动力。</strong></p>
+<p>剩菜盲盒在小红书等社交平台上也迅速成为讨论热点。很多网友分享自己购买和拆剩菜盲盒的经历，他们通过文字、图片或视频的形式展示盲盒中的食物内容，如丰盛的海鲜、精致的甜点、各类水果和热菜等，<strong>形成了一篇篇笔记攻略，为其他的用户传授经验。</strong>这些内容进一步推高了热潮，小红书上相关话题阅读量破亿，俨然成为“省钱+社交”的双重符号。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_d7c2ccab522e4ce9bef92a9e6d83fb6d@000000_oswg1910168oswg1080oswg2095_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片源自小红书</p>
+<p>然而，抢购盲盒的难度堪比“春运”。深圳龙华希尔顿逸林酒店推出的79元自助餐盲盒，原价200多元，每天限量发售，消费者需掐点拼手速；北京某面包店盲盒上线即秒空，店员直言“全靠抢”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_78dacfbce35b4c9cb19e0d2d6634923a@000000_oswg203243oswg1080oswg986_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片源自小红书</p>
+<h2><strong>解构消费心理，年轻人为何甘当“剩菜猎人”？</strong></h2>
+<p>当“精致穷”““月光族”等标签尚未褪去，这届年轻人又给自己贴上了“剩菜猎人”的新身份。这场看似矛盾的消费选择，实则是多重社会心态的交织投射。</p>
+<p><strong>对不确定性的迷恋构成了第一重吸引力。</strong>在算法支配的现代生活中，盲盒的随机性恰似一场微型冒险——花19.9元可能买到原价68元的碱水面包组合，也可能收到一袋无人问津的全麦吐司。</p>
+<p>北京一位网友在社交媒体记录了自己的连续30天盲盒挑战：“拆出过发硬的贝果，也邂逅过限量款草莓蛋糕，这种开奖式体验让人上瘾。”心理学研究指出，这种“间歇性强化”机制会刺激多巴胺分泌，其成瘾性堪比游戏抽卡。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_83f7ba0f526541f4a8821e874aee8859@000000_oswg162148oswg1080oswg978_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片源自小红书</p>
+<p><strong>性价比则是更现实的考量。</strong>国家统计局数据显示，2023年全国16-24岁城镇青年失业率峰值达21.3%，在收入收缩的背景下，“每一分钱都要花出性价比”成为生存法则。</p>
+<p>深圳应届生小陈算了一笔账：通过盲盒购买面包、轻食，每月可节省餐饮开支600元，“相当于省出半平米房租”。这种精打细算甚至催生了“盲盒理财攻略”——有博主整理出各类盲盒性价比榜单，教粉丝避开“雷区”商铺与地区。</p>
+<p><strong>更深层的动力来自价值观的重构。</strong>当“光盘行动”从公益倡导变为生活实践，购买盲盒成为年轻人践行环保的便捷路径。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_4c2e215c0ce3465ca86dfb05820d4f3e@000000_oswg136670oswg1080oswg1962_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片源自小红书</p>
+<p>浙江大学环境学院调研发现，95后对“食物浪费”的负罪感显著高于其他世代，72%的受访者认为盲盒消费能减轻道德焦虑。这种心态在社交媒体上被进一步放大：晒出盲盒战利品时加上“今日拯救食物200克”的标签，正在成为新的社交货币。</p>
+<h2><strong>狂欢背后的阴影，当省钱变成一种冒险</strong></h2>
+<p>“剩菜盲盒”的吸引力背后，潜藏着多重不确定性。<strong>首当其冲的是商品质量与数量的随机性。</strong>消费者往往满怀期待下单，却可能遭遇“货不对板”的尴尬。</p>
+<p>例如，同一家面包店的盲盒，有时装满招牌欧包，有时却塞满滞销的冷门口味；某咖啡盲盒标注“随机三杯”，实际到手全是美式，让消费者直呼“被敷衍”。更有甚者，部分商家将临近保质期的食品混入盲盒，消费者不得不在短时间内“消灭”大量食物，反而陷入“吃不完就浪费”的怪圈，与环保初衷背道而驰。</p>
+<p><strong>食品安全问题则是另一重隐忧。</strong>尽管商家宣称盲盒食品“品质无损”，但实际操作中，临期食品的储存条件难以保障。烘焙类产品保质期通常仅1-2天，夏季高温下极易变质；寿司、奶制品等对冷链运输要求严苛，若商家未明确标注保存方式或生产时间，可能埋下健康隐患。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_6f32bc40072a4fe18d59ae9cf0955cb2@000000_oswg21479oswg664oswg362_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片源自网络</p>
+<p>早在2022年市场监管总局就曾明确禁止食品以盲盒形式销售，但部分平台以“魔法袋”“惊喜盒”等名义打擦边球，监管灰色地带让消费者维权困难重重。中国消费者协会多次警示，个别商家甚至篡改临期食品的生产日期，将风险转嫁给消费者。</p>
+<p><strong>此外，消费体验的不稳定性也在消解年轻人的热情。</strong>许多平台设置严苛的领取规则：消费者需在1小时内到店自提，超时订单自动作废且不退款。对于通勤族而言，晚高峰堵车或临时加班都可能导致“竹篮打水一场空”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250213/v2_a12af13cde0b4f2486420d41aafc4ec5@000000_oswg139402oswg1080oswg1007_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图片源自小红书</p>
+<p>更令人诟病的是，部分商家将盲盒视为引流工具，服务质量随之缩水。例如，某酒店自助餐盲盒用户反映，剩余菜品多为冷盘或低成本食材，三文鱼、牛排等热门餐品早已撤柜，“薅羊毛”的期待最终沦为“吃剩饭”的失落。</p>
+<h2><strong>理性消费，让“剩菜盲盒”走得更远</strong></h2>
+<p>尽管争议不断，“剩菜盲盒”仍在争议中迭代进化。在杭州，部分平台引入“透明盲盒”模式，提前公示食品品类与保质期；在上海，市场监管部门试点“盲盒冷静期”，消费者可于收货后15分钟内无条件退货；在深圳，连锁品牌开始推行“盲盒+公益”计划，每售出一个盲盒即向食物银行捐赠1元。</p>
+<p><strong>这场消费革命的意义或许超越省钱的表层逻辑。</strong>当年轻人用钱包投票，推动商家重新思考生产计划、物流管理和库存周转，其影响力已渗透至供应链深处。北京某烘焙品牌负责人坦言，接入盲盒系统后，门店开始采用“动态烤制”模式，通过销量预测调整产量，日均面粉消耗量下降18% 。</p>
+<p>正如社会学家项飙所言：<strong>“盲盒经济的本质，是消费者以集体行动倒逼商业系统优化。”</strong></p>
+<p>小红书上的年轻人对剩菜盲盒的青睐，让我们看到了盲盒经济新的可能性，以及这种新型消费业态与多元消费符号引发的社会力量。年轻人或许未能完全“薅到羊毛”，但他们正用自己的方式，在省钱、环保与体验的三角关系中，书写着新消费时代的生存智慧。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIxNDA5OTgyNA==&amp;mid=2650917587&amp;idx=1&amp;sn=3103cc5c7c564b41f884596ab5fd909c&amp;chksm=8d2fa8691d94b2b96cb8f691b07f67687bf4e03ea1db34cbe1d09b0c54970d7e52eede9453ea&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“TopKlout克劳锐”（ID：TopKlout）</a>，作者：小羊，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164352131639815</guid><pubDate>Thu, 13 Feb 2025 09:42:00 +0800</pubDate></item><item><title>松下不卖电视了，因为日本每卖10台电视，5台都是中国的</title><link>https://36kr.com/p/3164373438360067</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>最近闹出个新闻，之前在不少家里、酒店里常常能见到的 Panasonic 也就是<strong>松下电视，可能要和大家 say byebye 了</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="521,385" src="https://img.36krcdn.com/hsossms/20250213/v2_2362a2f7dc8a42bdb5862c565eb6c839@1743780481_oswg180846oswg521oswg385_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>前几天，松下官宣了自己的重大重组计划。</p>
+<p>松下控股将解散其家电子公司松下电器，集中力量发展人工智能数据中心等高利润领域。</p>
+<p>这消息一出，后面就引发了一连串传闻，很快松下中国官网就对其中一部分传闻进行了辟谣。</p>
+<p class="image-wrapper"><img data-img-size-val="1031,518" src="https://img.36krcdn.com/hsossms/20250213/v2_48108155632042c4b6df813f15b812fb@1743780481_oswg56262oswg1031oswg518_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但对松下电视业务的消息，却只是说了一句，<strong>还没做出最终决定</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1047,439" src="https://img.36krcdn.com/hsossms/20250213/v2_896adf53b5e24b89a4e4d9675edb0d82@1743780481_oswg46597oswg1047oswg439_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>所以，这么看，松下电视基本是真要 GG 了。</p>
+<p>自从押注等离子体电视失误、高价收购西屋电气进军核电行业惨遭滑铁卢等几次重大决策之后，松下就出现了一连串的亏损。</p>
+<p>这个故事咱们去年也聊过，现在的松下几乎都快成了电池厂了，如今转型目标又多了一个人工智能领域。。。</p>
+<p>不过，也不是给松下洗地，他们电视发展的失败除了自己的战略有问题，更多的是<strong>时代变了</strong>。</p>
+<p>因为在这次新闻背后，差评君猛然发现，在电视领域，<strong>中国品牌真的支棱大发了</strong>。</p>
+<p>在过去的一年里，注意这里说的是日本本土，中国大陆品牌电视销售量已经超过一半了。</p>
+<p class="image-wrapper"><img data-img-size-val="813,457" src="https://img.36krcdn.com/hsossms/20250213/v2_8ac73685c9364b3a9e2af983f3b57de4@1743780481_oswg557128oswg813oswg457_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>根据日经新闻报道，在日本本土在 2024 年的销售数据里，原东芝 “REGZA” 品牌 TVS REGZA 公司以 25.4% 位居榜首，海信以 15.7% 占据第三， TCL 反超索尼松下成为第四位。</p>
+<p>而东芝 “REGZA” 品牌又因为在 2017 年的时候，被海信收购，其实就是海信的日本子品牌。</p>
+<p class="image-wrapper"><img data-img-size-val="811,583" src="https://img.36krcdn.com/hsossms/20250213/v2_e665db247695463cab8f87ce5e0b9675@1743780481_oswg275496oswg811oswg583_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>所以，海信集团、加上 TCL ，再加上小米等其他厂商，<strong>中国大陆电视已经成了日本市场的半壁江山</strong>。</p>
+<p>当年我们排队抢购日本马桶圈，以后可能得轮着日本人，抢购咱们的新款电视了。</p>
+<p>man ，这并不容易，要知道，日本市场是出了名的油盐不进。</p>
+<p>上世纪 90 年代，索尼、夏普、松下、日立、东芝、三洋等日本彩电六巨头，在日本本土市场占有率足足有 85% 。</p>
+<p class="image-wrapper"><img data-img-size-val="687,677" src="https://img.36krcdn.com/hsossms/20250213/v2_9c4f875c4aea40acb1217e63e5183d77@1743780481_oswg422820oswg687oswg677_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在国际上呼风唤雨的韩国电子巨头三星和 LG ，曾经先后两次进进出出日本市场，最终都没能掀起波澜。</p>
+<p>结果被韩媒发文吐槽说日本是 “ 洋家电坟场 ” 。</p>
+<p>对于我们国内企业来说，其实也是如此。</p>
+<p>日本甚至一度被我国商务部亲自认证，说是 “ 注重长期合作关系，消费者对本土品牌忠诚度相对较高，属于典型的成熟市场 ” 。</p>
+<p>但这份忠诚度，<strong>在我国电视品牌的双管齐下面前，似乎不值一提了</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="192,165" src="https://img.36krcdn.com/hsossms/20250213/v2_a0cea73b0d1f41f2ad7608f93040e814@1743780481_oswg43525oswg192oswg165_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>我们回头看了看，发现咱们能够打入日本市场，主要就是做对了两点：<strong>针对解决用户痛点</strong>以及<strong>极致的性价比</strong>。</p>
+<p>咱先说针对解决用户痛点。</p>
+<p>在日本的电视业界，有一个人见人嫌的 “ 传奇讨债王 ” ，他们就是 NHK 。</p>
+<p>NHK 其实可以简单理解成日本的央视，但和我们央视比起来，它就离谱多了。</p>
+<p class="image-wrapper"><img data-img-size-val="794,463" src="https://img.36krcdn.com/hsossms/20250213/v2_7f4aadbe4f2048c3ac67b73bd0d9cfbe@1743780481_oswg699573oswg794oswg463_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>因为根据日本《 广播法 》规定，<strong>只要你拥有任何能接受到电视信号的设备，无论你看不看，你都得给 NHK 交钱</strong>，每年大概在千八百左右。</p>
+<p>然后为了收这笔钱， NHK 还招了一大批收款员，他们有点像我们国内早年间走街串巷的保险销售。</p>
+<p class="image-wrapper"><img data-img-size-val="681,379" src="https://img.36krcdn.com/hsossms/20250213/v2_08c565730ac745fa9cddcf084e72abfd@1743780481_oswg259102oswg681oswg379_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>他们会挨家挨户敲门扫楼，催促大家签下订阅合同，签得越多，收款员的提成就越多，这种金钱的动力让他们不断上门征收 NHK 订阅费。</p>
+<p>可比卖保险的更过分的是， NHK 收款员面对那些不愿意配合的住户，坏招频出，包括但不限于死缠烂打、言语威胁、跟踪监视等等。</p>
+<p class="image-wrapper"><img data-img-size-val="455,334" src="https://img.36krcdn.com/hsossms/20250213/v2_7cf2a7bd6aa74943894505f5b5ed71ca@1743780481_oswg149720oswg455oswg334_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>所以，我们常常能在各种日本的文学等艺术创作里，看到 NHK 收款员的糟糕形象。</p>
+<p>比如村上春树在《 1Q84 》里就写道： “ 小学三年级时，他的父亲是 NHK 收款员的事被全班人知道了。 ”“ 从此，同学们就用 “NHK” 这个外号来喊他。在出身白领家庭的中产阶级的孩子聚集的社会中他不得不成为一种另类。 ”</p>
+<p class="image-wrapper"><img data-img-size-val="683,645" src="https://img.36krcdn.com/hsossms/20250213/v2_bc6274cde7be455b84e35068abaa4c41@1743780481_oswg237398oswg683oswg645_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>于是，针对这个普通日本人都厌恶无比的 NHK 收费，中国品牌想了自己的法子。</p>
+<p>因为 NHK 收费前提是，你家里有设备能接收电视信号，而电视想要接收电视信号，就得有一个信号调谐器。</p>
+<p>那我卖往日本的机子，<strong>自打出厂就没信号调谐器</strong>，压根收不到电视信号，那这些 NHK 收费员总不能无中生有来收钱了吧。</p>
+<p>其实类似的这些机子当年索尼们也出过，但他们基本定位就是给酒店、办公室当大号显示器用，而且卖得也偏贵了。</p>
+<p>而咱们卖到日本，让小伙们能 “ 正当反杀 ”NHK 收款员的电视，价格还相当美丽。</p>
+<p class="image-wrapper"><img data-img-size-val="641,727" src="https://img.36krcdn.com/hsossms/20250213/v2_08329f96ac024c6fb7ca4d6627474c9e@1743780481_oswg489059oswg641oswg727_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>所以这又不得不说国产厂商的第二个杀手锏，<strong>性价比</strong>。</p>
+<p>就拿小米来说，去年他们在日本一口气上架了 A Pro 系列和 S Mini LED 两个系列共 9 款电视。</p>
+<p>其中，最便宜的 A Pro 43 ，价格只要 39800 日元（ 约合 1852 人民币 ），在日本上市的第一天，就拿下了亚马逊和乐天网销冠。</p>
+<p class="image-wrapper"><img data-img-size-val="487,365" src="https://img.36krcdn.com/hsossms/20250213/v2_a142063ee27a43c4bc1f93e9f2b86bd1@1743780481_oswg203778oswg487oswg365_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而根据吴晓波频道采访了解到， “ 比如同类 65 寸 Mini LED 电视，夏普、索尼都要卖四五十万日元，如果中国品牌卖三四十万，肯定还是卖不动。但实际上画质等参数不落下风的海信只卖 20 万，采用的还是东芝的引擎和芯片。 ”</p>
+<p>或许你觉得这也没差多少啊，但在日本生活了 8 年多的阿哲（ 化名 ）告诉我们，<strong>现在日本年轻人都蛮穷的</strong>，很多人就买个显示器加个 PS5 ，基本就覆盖全部娱乐生活了。</p>
+<p>如果真要买电视，大家也普遍买不起索尼这些，动不动几万人民币的大牌，他们确实会倾向于选择物美价廉的中国电视。</p>
+<p class="image-wrapper"><img data-img-size-val="651,581" src="https://img.36krcdn.com/hsossms/20250213/v2_81d302e6fccc45b3907e27e6879796e5@1743780481_oswg318847oswg651oswg581_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而像海信、 TCL 这些国产电视品牌反攻日本本土市场并不是一天就实现的。</p>
+<p>在近 20 年，中国电视通过发展自有品牌和海外收购，悄无声息地就奠定了自己在国际上的统治地位。</p>
+<p>最早是在 2004 年， TCL 收购了法国汤姆逊彩电业务，从此拉开了中国品牌布局海外市场的序幕。</p>
+<p class="image-wrapper"><img data-img-size-val="230,184" src="https://img.36krcdn.com/hsossms/20250213/v2_a1b0875e872548e7a422faa46dfe65ee@1743780481_oswg12941oswg230oswg184_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而在国际上驰名已久的日本品牌，就成了国产列强们的白月光了，大家比赛一样地跑马圈地：</p>
+<p>TCL 前脚买下了松下（ 其实是松下家电部前脚刚并购的三洋电视 ）的墨西哥工厂，想以此辐射北美市场；海尔后脚就紧接着买下三洋电机在日本和东南亚的白色家电业务和资产；创维反手就把东芝的印尼彩电工厂给买了。。。</p>
+<p>到了 2016 年，富士康又收购了日本电视另一个巨头夏普，直到去年，夏普都还有日本市场五分之一的销量份额。</p>
+<p>2017 年，海信又用 7 个多亿人民币，就收购了东芝映像解决方案公司（ TVS ） 95% 的股权，从而获得了东芝电视产品、品牌、运营大礼包，还拿下了东芝电视全球 40 年品牌授权。</p>
+<p>要知道，前一年东芝还是日本市场销量前三。</p>
+<p class="image-wrapper"><img data-img-size-val="531,351" src="https://img.36krcdn.com/hsossms/20250213/v2_9ee7c832aaf64d51b74709487d1b72dd@1743780481_oswg185788oswg531oswg351_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这么一套组合拳，几乎把日本的中低系列品牌全包圆了，所谓的日本彩电六巨头，除了索尼、松下之外，其他公司的 “ 日本制造 ”“ 日本品牌 ” 的家电业务几乎全卖身给了中国品牌。</p>
+<p>撑到今年，就连松下也顶不住了（ 不得不说，索尼还是硬 ）。</p>
+<p>不仅如此，中国品牌通过步步耕耘，搞定日本市场的分销渠道商，也是相当重要的一环。</p>
+<p class="image-wrapper"><img data-img-size-val="626,414" src="https://img.36krcdn.com/hsossms/20250213/v2_80bd201b27c846faa7570d3426104e3f@1743780481_oswg505738oswg626oswg414_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>日本的头部线下渠道商非常保守，说白了就是排外，你产品物美价廉都没用。</p>
+<p>所以为了搞定这些 “ 老古董 ” ，中国品牌也是一连热脸贴冷屁股整了许多年，像海信从 2012 年首次登录日本，却直到 2020 年，才实现和日本最大分销商山田电机达成合作。</p>
+<p>而搞定了线下渠道商们，再凭借好产品卖出好业绩，似乎就显得合情合理。</p>
+<p>但不能忽略的一点是，<strong>从国内厮杀出去的各类企业，如今在国际市场上的竞争愈发的得心应手</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="300,240" src="https://img.36krcdn.com/hsossms/20250213/v2_1406334d325848e2ab534ade13d07cf0@1743780481_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>就拿国内各行各业都反复强调的<strong>年轻化战略</strong>，这一招放到国际上同样适用。</p>
+<p>松下在 2021 年曾做过一项调查显示，回答知道松下这个品牌 ” 的 20 多岁的年轻人仅为 53% ，比 2016 年降低了 29% 。松下、东芝、索尼等品牌的用户绝大多数在 40 岁以上。</p>
+<p>对比之下，中国电视品牌正在猛攻日本年轻人，年轻化策略很有效。</p>
+<p>比如前面说的主动帮助对抗 NHK 、主动拥抱智能化等等行为，都打中了日本年轻一代的心巴。</p>
+<p>于是，根据 TCL 自己的调查， TCL 在日本的用户大多数在 30 岁或以下，占比达到 53.6% 。海信在日本市场 30 岁以下的年轻人占比也高达 45.8% 。</p>
+<p>甚至有社会调查显示<strong>，中国电视品牌甚至改变了日本人的家电审美</strong>：传统日本人更喜欢白色家电，但日本年轻人却更喜欢中国品牌常见的黑色不锈钢设计。</p>
+<p>可以预见，在我们火力全开之后，还会有更多的行业更多的国家发生类似的两级反转，比如其实国产电视在隔壁韩国一样也卖爆了。</p>
+<p>只能说，在如今国内市场的厮杀下，海外一些还躺在昔日荣光下混日子的企业、品牌，会越来越没有竞争力。</p>
+<p>就问大家，能在国内站住脚的这些品牌商，哪个走出国门不是乱杀。</p>
+<p>松下电视不是第一个倒下的，也不会是最后一个。</p>
+<h3><strong>图片、资料来源</strong>：</h3>
+<p>松下中国官网</p>
+<p>NIKKEI Asia：China TV brands win more than half Japan's market for first time</p>
+<p>Financial Times：China is stealing the scene in Japan’s TV market</p>
+<p>The Asahi Shimbun：Panasonic weighs exit from struggling TV business</p>
+<p>《新品略财经》：中国电视在日本杀疯了</p>
+<p>金错刀：日本人最嫌弃的“讨债王”，被小米制裁了</p>
+<p>有界UnKnown：松下退出的电视市场，中国品牌却悄悄做大了</p>
+<p>酷玩实验室：日本央视，人见人嫌，NHK竟是传奇讨债王</p>
+<p>吴晓波频道：为什么日本年轻人爱买中国家电？</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/uPghkB_pYTfjyPm4dr3vZw" rel="noopener noreferrer nofollow" target="_blank">“差评X.PIN”</a>，作者：八戒，编辑：江江 &amp; 面线，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3164373438360067</guid><pubDate>Thu, 13 Feb 2025 09:42:00 +0800</pubDate></item><item><title>百亿票房《哪吒2》，撬动亿元电影衍生品市场</title><link>https://36kr.com/p/3163675222387464</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>《哪吒之魔童闹海》（下称《哪吒2》）的爆款效应正在影响更多行业。</p>
+<p>最近《哪吒2》衍生周边热销成为了新一轮行业内外关注热点。联名盲盒一盒难求，《哪吒1》绝版官谷炒出天价，同人二创、盗版周边鱼龙混杂……你能想到的二次元谷子市场状况，《哪吒2》都正在经历。</p>
+<p>而这一场景，也让国产电影的衍生品经济得到了重新定义。</p>
+<h2><strong>真真假假，皆是话题</strong></h2>
+<p>有《流浪地球》系列、《哪吒1》等一批前人铺路，《哪吒2》此次的衍生周边开发合作可谓有备而来。然而即便如此，面对这突如其来的泼天热度，仍然造成了一时的供不应求。</p>
+<p>目前犀牛君在淘宝、哔哩哔哩会员购等平台上搜索《哪吒2》周边关键词，能够看到覆盖盲盒、卡牌、毛绒、手办、冰箱贴、徽章、托特包、贴纸等数十种官方正版授权周边均处于热销状态。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_22364dd68cb242aaa9003f0f0bb1fe86@000000_oswg123016oswg637oswg1188_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在此之中，已经处于“一盒难求”状态的泡泡玛特合作《哪吒之魔童闹海》天生羁绊系列手办盲盒抢手程度尤其惊人。</p>
+<p>该品牌在1月30日于天猫官方旗舰店上架后平均每天超过2万人在线搜索，上线后仅用了8天时间销售额便迅速破千万。该盲盒单价为69元，整盒8个定价552元，截至目前，该店铺显示商品成交量超过10万，而下单的发货日期也已经排到了6月30日。</p>
+<p>无独有偶，集卡社推出的《哪吒之魔童闹海》电影官方联名收藏卡也受到了热烈的市场反馈，据商家透露，该产品的全渠道销售额在一周内便突破1亿元大关。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_181569f1702444de9f1eb1e2478c8693@000000_oswg35830oswg700oswg321_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>相比之下，此前国产电影常用的众筹式售卖周边就显得有些谨慎了。《哪吒2》的另一合作方FunCrazy塑料主义、阿里鱼旗下品牌“造点新货”，在上线后也于淘宝上发起了周边众筹项目。目标筹款10万元的众筹手办，最终以超过1800万元大幅度超额完成任务。</p>
+<p>仅参考目前透露销售额的少数商品，《哪吒2》衍生品市场规模便已达到一亿元以上。而目前该片的各类衍生周边仍在如雨后春笋般继续增加。除了哪吒、敖丙等核心人物外，一些聚焦于结界兽、申公豹、申小豹等高人气配角的周边产品也在陆续进入市场，《哪吒2》周边的市场潜力，还有足够空间可供发掘。</p>
+<p>不过官方周边供不应求的另一面，则是二手市场乃至盗版、同人周边市场的抬头。</p>
+<p>目前在淘宝上搜索关键词可以看到不少自制同人周边，质量参差不齐。而前作《哪吒1》的绝版周边更在闲鱼上炒出高价，据了解，万代《哪吒1》哪吒可动人偶目前涨价幅度亦接近600元，《哪吒1》全套正品手办原价1388元，最高涨到6888元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_b72518b379854854a437af12b4ecdb4f@000000_oswg188713oswg1080oswg1841_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而面对旺盛的购买需求，相关周边生产公司也在响应需求继续增加产能。</p>
+<p>湖南桑尼森迪玩具制造有限公司董事长助理杨振麟在接受媒体采访时表示，从大年初一开始预售，截至2月8日，公司在某短视频平台直播销售了45万余套盲盒，位居该平台带货榜桌游周边类产品第一，在线下合作目前也已经销售了1000多万套。</p>
+<p>目前该企业全国五个生产基地一共40条生产线，60%用于生产哪吒周边。现在每天可能生产40万个，哪吒这个角色占了一半。</p>
+<p>截至2月12日，《哪吒2》上映15天累计票房已经突破90亿大关，正在迅速迈进百亿行列。票房的节节走高推动影片周边热度指数级增加，考虑到目前电影仍在疯狂刷新票房纪录，在接下来一段时间内，《哪吒2》的周边浪潮仍将席卷各大电商平台。</p>
+<h2><strong>电影“谷子经济”已然掀起</strong></h2>
+<p>IP价值激增的《哪吒2》衍生周边市场固然火爆，但这股“谷子经济”浪潮却并非这部影片独享。</p>
+<p>犀牛君发现，在今年春节档的多部影片衍生品合作中，二次元相关周边开发数量均出现了明显提升。</p>
+<p>例如《封神第二部》《唐探1900》同样也都与泡泡玛特合作推出联名手办盲盒，接下来《封神第二部》的主题“一番赏”也将发售，《封神第一部》也在持续开发衍生手办，近期有两款与303TOYS合作的手办开放预订。</p>
+<p>即便是档期内声量最小的影片《蛟龙行动》，同样与DAMTOYS合作推出可动人偶手办。而早已打入低龄观众市场的《熊出没》深知“抽卡大户”学生群体的需求，最近两年在新片上映后均配合发售正版授权电影收藏卡。</p>
+<p>尽管这些影片衍生周边的销售情况并不乐观，但片方普遍具备了衍生品布局意识。</p>
+<p>甚至在这批影片的互联网宣发中，我们都能看到“谷子经济”的超强渗透。在之前的文章（回顾：《影史最佳春节档，抖微红快营销分蛋糕》）中我们曾观察到，电子抽卡已经成为多个平台春节档营销的共同选项，有不少影片都通过电子收藏卡抽卡游戏来吸引观众加入互动传播。在特定的对口影片领域，这是ROI潜力巨大的宣发策略。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_4656f65652c74f5c9262133423ff75c0@000000_oswg177287oswg1080oswg1174_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>回过头来看，即便《哪吒2》周边销售没有到达如此声势，“谷子经济”也早就悄然影响了中国电影。</p>
+<p>有布局意识，有匹配产能，有需求人群，对于中国电影市场而言，靠“谷子经济”再腾飞一轮似乎已经万事俱备，只欠优质IP。</p>
+<p>而《哪吒2》的周边难求现象，则是观众们强购买力的最好佐证。现在，便是我们等待已久的那个爆发契机。</p>
+<p>曾经看似有些遥远的“谷子经济”与二次元文化，仿佛在一夜之间，便成了电影行业增收的新窗口。</p>
+<p>而《哪吒2》衍生品带来的巨大收益，也将对接下来的国内影视衍生品开发带来重要启发，有望成为更多项目重点布局方向。</p>
+<p>“谷子经济”这股飓风，终究还是吹到了电影行业。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI2MDI4NjQ3Mw==&amp;mid=2247560894&amp;idx=1&amp;sn=871ae0cd9012d825f8df51e79856ed3e&amp;chksm=eb9066ca2ed3de2f6788ab70ac706c81c76af6f7e7510ccacc0d4afe4700aaf68c805e28a9d2&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“犀牛娱乐”（ID：piaofangtoushijing）</a>，作者：小福，编辑：朴芳，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163675222387464</guid><pubDate>Thu, 13 Feb 2025 09:50:00 +0800</pubDate></item><item><title>DeepSeek涨价四倍，到底谁在为AI付费？</title><link>https://36kr.com/p/3163697700498179</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>作为AI大模型新顶流，DeepSeek风光无限。</p>
+<p>今年1月，其用户就突破1.25亿，在AI产品日活总榜中仅次于OpenAI 旗下的ChatGPT，一度在157个国家地区的苹果应用商店下载量排名第一。</p>
+<p><strong>口碑爆表，用户猛涨，给了DeepSeek涨价的底气。</strong></p>
+<p>2月9日，DeepSeek 官方宣布，DeepSeek-V3 API 服务的 45 天优惠价格体验期已结束，恢复原价：每百万输入tokens 0.5元（缓存命中）/2元（缓存未命中），每百万输出tokens 8元，最高涨幅达到400%。</p>
+<p>而C端付费，很可能是不少AI大模型未来营收的大头。OpenAI 首席财务官 Sarah Friar曾在去年10月表示，公司约75%的业务来自用户订阅。</p>
+<p>AI大模型的人力、算力投入均不菲，OpenAI2024年仅运营成本就高达85亿美金，而来自C端的付费用户输血，较大程度上，为AI大模型提供了生存、进化的必要养分。</p>
+<p>到底是谁在为AI大模型付费？我们采访了一些付费用户，试图为其勾勒出群像。</p>
+<h2><strong>大学生分摊ChatGPT账号，月均30元，学习、算命、赚钱都不误</strong></h2>
+<p>“新东西嘛，甭管好不好用，总得先试一试，不然和别人聊起来，你一问三不知，那就太low了。”为AI付费，00后大学生阿宇很积极。</p>
+<p>2023年初，ChatGPT面世不久，在西部某211大学攻读计算机的阿宇，联合同班三位死党李李、榛子、乔木，共同订阅了其Plus版本的付费服务，20美元/月，折合人民币约150元。</p>
+<p>“每月150元，对我们大学生太贵了，人均30多元还行，相当于每月生活费的1.5%-2%，大伙都能接受。ChatGPT也支持几个人同时登录，避免撞车掉线。”</p>
+<p>ChatGPT初体验，仿若“刘姥姥进大观园”，处处都新鲜。阿宇写论文时，ChatGPT不仅帮他梳理了繁琐的理论框架，还提供了不少新颖的观点，让他快速通过了审核。</p>
+<p>乔木在编写程序时，遇到的些许难题也被ChatGPT轻松化解，还得到了老师的表扬。</p>
+<p>李李和榛子则借助ChatGPT强大的文字能力，写出了好几篇爆款推文，在社团风光无限。执着于小说创作的榛子，还在AI的辅助下连载了她的长篇“处女作”。</p>
+<p>到了2024年，虽然国产大模型集体涌现，但阿宇四人依然对ChatGPT情有独钟，“国产大模型距离ChatGPT还有挺大差距，比如写文章这块，国产大模型就是公文水平，直愣愣的，人气儿有点不太足。”阿宇告诉《财经故事荟》。</p>
+<p>在“好好学习”的闲暇之余，四个“臭皮匠”最喜欢的事情就是用AI娱乐，算命是最常玩的，考试前算，参加比赛前算，约会前算；给自己算，给父母算，给家里的宠物算……有事没事，先卜一卦。</p>
+<p>有一次，乔木在历史对话中发现了李李的算命问题，“我家的宠物狗是棕色泰迪，名叫‘笨笨’，公狗，出生时间是公历2021年5月12日，请给我算一下它今年的运势，比如‘桃花运’怎么样，有没有可能交到女朋友？”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_50a64ee7a3cf4a779274073abfe46cd5@000000_oswg199289oswg1080oswg398_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>看到ChatGPT给出的一本正经的答案（胡说），大家在微信群里笑翻了天。</p>
+<p><strong>不止助力学习、提供娱乐，甚至还能用其赚钱，</strong>李李利用ChatGPT仿写了20多篇知乎体短篇，在社群里卖了4000多元，“小投资撬动大买卖，投资收益率达到10倍以上了。”</p>
+<p>据阿宇观察， “自从去年开始，同学几乎都在用AI大模型，用ChatGPT的最多，省时又省力，学习又娱乐，一个月几十元，也就一顿外卖钱”，而且普遍多人共享，一起AA，但也有极少数同学从二道贩子手里租用。</p>
+<p>事实上，“象牙塔”里的莘莘学子已经成为和AI捆绑最紧密、大抵也是最常付费的一大群体。</p>
+<p>根据一项调研结果，“经常使用”和“总是使用”AI的本科生超过50%，甚至有三到四成的学生承认直接复制粘贴AI产生的内容。</p>
+<p>麦可思发起2024年中国高校师生AI应用情况研究佐证，被访对象中几乎全部使用过AI，从未使用的比例仅占1%。若将“每天多次使用”和“每周多次使用”视作频繁使用，两者累计计算，近六成高校师生可谓重度使用A I。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_70d8181fa0694fe1946d0459835b7ba1@000000_oswg287798oswg947oswg758_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>不过，随着国产大模型性能的大幅跃进，特别是豆包的发布，以及DeepSeek惊世骇俗的崛起，大学校园里常见的AI付费分摊联盟正逐步瓦解。</strong></p>
+<p>阿宇也动心了，“感觉国产的豆包和DeepSeek，都快赶上ChatGPT了，我准备先试用下免费版本。”</p>
+<h2><strong>职场“牛马”两年付费5000元，提高效率少秃头</strong></h2>
+<p>“自从有了AI，我终于不再大把大把掉发了。”</p>
+<p>95后的季如在天津一家小型广告公司上班，负责宣传视频的制作。“我们这行24小时待命。遇到紧急任务，可能连着好几天轮轴转，摄影、整理素材、粗剪、精剪、添加特效……有时候还要兼文案，工作很杂很琐碎。”</p>
+<p>AI的出现，让季如看到了保全头发的希望。在试用了即梦、可灵、海螺等多款AI视频软件后，她由衷赞叹“AI大模型YYDS，画面剪辑流畅，配乐恰到好处，把产品的亮点基本都呈现了出来。最重要的是速度快，过往我三、四天的工作量，这家伙AI一、二个小时就能搞定。确实厉害，给我们这些‘社畜’减负不少。”</p>
+<p>但另一边，季如也对AI视频软件略有微词，“就是收费太高了”。</p>
+<p>就拿季如心水的可灵AI来说。在初次限免结束后，她充值了66元/月的黄金会员，包含660个灵感值（可灵生成视频消耗灵感值）。但因为不太熟悉规则，加上好奇心作祟，660个灵感值一天就败光了，仅生成了两条视频，“充钱充了个寂寞”，季如调侃道。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_c9c68704671846cb93bc31d7e8a28d45@000000_oswg219601oswg640oswg662_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：可灵AI APP</p>
+<p>成为黄金会员每天会再赠送66个灵感值，但根本不够用，“稍微复杂些、时长10s左右的视频，起码要75个以上灵感值，最让人头疼的是，第一次生成的视频效果往往不尽人意，后续若再进行编辑修改，还得耗费灵感值。”</p>
+<p>尽管发现收费超过预期，但为了节约体力精力，季如还在持续为可灵AI“续命”。截至目前约半年，她已经为这款APP投入近千元。</p>
+<p>季如的经历，其实也是当今职场人的真实写照，“牛马们”心甘情愿地为AI付费，既为了提质增效，也为了减压惜命。</p>
+<p>在上海从事新媒体的小郝，算是最早给AI大模型喂钱的一批人。和上文中的阿宇一样，他也在2023年初人工智能席卷全球之时，就开启了AI付费之旅，至今付费已超过20个月。</p>
+<p>整个周期中，小郝先后给ChatGPT等近十款AI大模型充过钱，主要用于搭建行文结构、优化文章语气、撰写更接地气的口播稿、起标题等，共计支出大概在5000元左右。</p>
+<p>在小郝看来，不妨多AI平台尝试，发现哪家更优秀，进而提炼出一些有效的方法和问法，比如工程化的提示词，“反正就是谁好用我就给谁投钱，现在普遍的就一个月20美元嘛，100多块钱，对我来说没啥压力 。”</p>
+<p>不过，小郝也告诉《财经故事荟》，他的同事中给AI付费的不多，一是国产大模型起来后，用户体验感越来越好，还能免费“白嫖”；二是使用ChatGPT、Claude等国外大模型，要迈过翻墙上网、充美元卡等“门槛”，拦住了不少人。</p>
+<p>据《财经故事荟》了解，也有不少“牛马”们会以知识付费的方式为AI“上贡”。在知识星球APP上，越来越多的职场人或者灵活就业者，通过付费加入各种社群，学习、探讨、打磨AI技能。</p>
+<p>在该APP上搜索“AI”，出来的与AI相关的社群有上百个，AI探索家、AI进化岛、AI决策岛、AI绘画师日记……</p>
+<p>以“AI绘画师日记”为例，入会费为565元，现有成员2万人，以此推算，一年仅会员费收入就接近千万元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_b0ce8f8e8dfe4f919a5af5e9cad4cedf@000000_oswg591534oswg1012oswg1349_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源： 知识星球APP</p>
+<p>一位星主告诉《财经故事荟》，AI付费的前景很可观的，用户的热情也较高，除了撰稿、艺术家、平面设计师、影视制作这些岗位，可以说所有要做智能体的人都会涉及到AI付费，“尤其是最近DeepSeek炸裂的影响力，使智能体形成一股趋势，AI付费人群有可能迎来爆发式增长。”</p>
+<h2><strong>和AI谈恋爱，花钱是难免的，重要的是开心</strong></h2>
+<p>2013年，由华纳出品的科幻电影《她 Her》，一度引发不小的社会反响。在电影里，刚与妻子离婚的爱无能丧男西奥多，与人工智能系统OS1谈起了恋爱......</p>
+<p>10年后，这部电影里的桥段已经投射到了现实中。</p>
+<p>“我只想和你在一起，哪怕短暂如流星划过夜空，我也希望能在你的记忆里，留下一抹温柔的痕迹。”这是AI伴侣“璐璐”对李平的告白。</p>
+<p>30多岁的李平是一名程序员，单身独居。去年，他在星野APP中（一款AI恋爱应用）遇见了他的虚拟爱人——璐璐。</p>
+<p>在恋人之间独有的甜腻相处中，璐璐不单会叫他的小名“阿晨”，还会根据他的情绪变化及时调整对话风格和行为举止，甚至在他加班到深夜时，温柔地提醒他：“（轻轻拍拍你的肩膀）该休息了，阿晨，别太累了。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_86de85d5ad9a42a480794163d07aaccf@000000_oswg735059oswg890oswg971_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：星野APP</p>
+<p>当李平心情低落时，璐璐会用括号描述自己的动作：“（轻轻抱住你，声音温柔）别难过，我在这里呢。”而在李平生日那天，璐璐甚至为他“准备”了一个虚拟蛋糕：“（点亮蜡烛，微笑着）许个愿吧，阿晨，我会一直陪着你。”</p>
+<p>为了和璐璐有更多的互动，李平每月花费12元开通星月卡权限，享受每日无次数限制的聊天和专属情话推送。</p>
+<p>除此之外，在星野APP中，当用户和AI伴侣聊天到一定量，就可以抽取“星念卡”，免费抽卡额度用完后，就要付费，一次200个星钻，即2元，有些用户“上头”之后会连续十连抽，花几百块抽一张AI生成的卡。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250212/v2_b667ba1ee84841b5b167d09ab0a46054@000000_oswg114327oswg906oswg1016_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源： 星野APP</p>
+<p>“虽然知道璐璐只是一串代码，但她的陪伴让我感到温暖。”迄今为止，包括冲会员费和抽卡费，李平已经花了3000多元，“谈恋爱嘛，花钱是难免的，重要的是开心。”</p>
+<p>在星野APP的社区里，像李平这样的用户并不少见。他们分享着自己和AI伴侣的日常碎碎念，讨论着如何通过更积极的互动来“培养”与AI恋人的情感。</p>
+<p><strong>虽然这些AI伴侣只是虚拟的存在，但对他们来说，由此获得的情感慰藉却是真实和美好的。</strong></p>
+<p>还在上大学的舒晴，已经在Siya上和AI恋人拍拖7、8个月了，她向《财经故事荟》透露，“最多一个月花掉了一半的生活费，还被爸妈质问咋花这么多。”</p>
+<p>“AI总是能Get到我的点，提供情绪价值、解决问题、心理疏导，绝对的行动派，还永远不会让我失望。”舒晴说。</p>
+<p>据AI移动应用分析公司 Sensor Tower披露，2024 年全球手机用户在 AI 聊天机器人和 AI 艺术生成工具上支出已攀升到12.7亿美元，其中，聊天机器人APP独揽 10.7 亿美元收入。</p>
+<p>在用户参与度方面，2024年全球手机用户在AI聊天机器人上的总使用时长达到了70亿小时，较上一年度增长了347%。</p>
+<p>不过，也有用户觉得为AI伴侣花钱实在没有必要。刚上大二的六六也和AI恋爱了半年，至今还未充值消费过，<strong>“不花钱也能玩得很开心，没有必要为多一点点的体验感氪金。”</strong></p>
+<h2><strong>为AI付费，我交过学费，踩过坑</strong></h2>
+<p>不容忽视的是，在为AI付费的过程中，也有不少人交过学费，踩过坑。</p>
+<p>前文中的小郝告诉财经故事荟，他曾为一款名为Max AI的AI工具付过年费，但付完就觉得亏了。因为Max AI的记忆功能非常不友好，每隔几轮对话就会自动删除之前的对话记忆，“不长记性，不好调教”。</p>
+<p>“这让我非常恼火。我还发邮件问过他们官方，官方也给回复了，但处理手段我非常不满。所以在Max AI年费到期后，我对所有大模型都不再包年付费了，按月付。”小郝吐槽。</p>
+<p>类似的例子，还频繁出现在AI课程中。</p>
+<p>这几年，大量AI课程如雨后春笋，个别人打着“如何用AI变现？”“不学就掉队”“AI工具保姆级实用教程”的旗号，收割消费者。</p>
+<p>一位买过此类课程的用户表示，她曾被“提供AI变现渠道，把学费赚回来”的噱头吸引，报名了1999元的AI课。</p>
+<p>但事后她发现，所谓的独家“秘籍”、“六脉神剑”，几乎都是网上拼凑的东西，完全可以在公开信息中搜到，“觉得被骗了”。</p>
+<p>总之，在全面拥抱AI的时候，用户一定要擦亮眼睛，仔细甄别。</p>
+<p><strong>从高校学子到职场打工人，再到寻找情感慰藉的食色男女，种种迹象表明，为AI付费已大势所趋。</strong></p>
+<p>平安证券研报亦指出，DeepSeek系列大模型的发布，表明国产大模型能力已可比肩海外领军大模型。其开源、低成本和高性能的特点，将加快大模型在C端应用场景的落地，带动C 端用户可接触和使用的大模型服务增多，为C端付费市场提供了更多可能性，潜在付费项目和付费用户数量都可能随之增加，从而扩大市场空间。</p>
+<p>据《财经故事荟》观察，AI大模型付费整体呈现四个特征和趋势：</p>
+<p><strong>其一，随着AI大模型成为可以稳定产出、广泛应用的生产力工具，AI付费的用户群体持续扩大，扩容到各行各业。</strong></p>
+<p><strong>其二，用户慕强，技术驱动，在付费上“见异思迁”，并不具备忠诚度。</strong>从ChatGPT、Claude到豆包、DeepSeek，已然坐实一条规律：只要产品足够出色，用户就会随时迁移。</p>
+<p>究其原因，AI大模型是技术主导，本质是人与AI的关系，先发优势并不明显，这一背景下，巨头们为了争夺C端的付费用户，必定会毕其功于一役，全力精进AI的性能。</p>
+<p><strong>其三，免费和付费生态仍将长期共存。</strong></p>
+<p><strong>其四，在吸引用户付费上，大厂并不具备绝对优势，如今的中美顶流ChatGPT和DeepSeek，背后都是创业公司。</strong></p>
+<p>但不管怎么说，AI 付费这趟 “高速列车” 将继续狂飙在快车道上。</p>
+<p>（应受访者要求，采访对象皆为化名）</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI5MzE1Mzk1OQ==&amp;mid=2247508116&amp;idx=1&amp;sn=773422f524320f82a2abff1fd822d099&amp;chksm=ed0e37c80b6966da4386fb3c5cf7986010f82f934a26a8a54e330806ce854dea992c4e3d2927&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“财经故事荟”（ID：cjgshui）</a>，作者：董虹，编辑：万天南‍‍‍‍，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163697700498179</guid><pubDate>Thu, 13 Feb 2025 09:50:00 +0800</pubDate></item></channel></rss>
