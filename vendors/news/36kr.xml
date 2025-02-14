@@ -1,285 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 14 Feb 2025 18:00:29 +0800</lastBuildDate><pubDate>Fri, 14 Feb 2025 18:00:29 +0800</pubDate><item><title>达摩院开源VideoLLaMA3：仅7B大小，视频理解拿下SOTA，在线可玩</title><link>https://36kr.com/p/3165949910952712</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>7B大小的视频理解模型中的新SOTA，来了！</p>
-<p>它就是由达摩院出品的<strong>Video LLaMA 3</strong>，以图像为中心构建的新一代多模态视频-语言模型。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_474c42e3ccbe42dfa31d7b93bb307b36@000000_oswg685352oswg1080oswg962_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在通用视频理解、时间推理和长视频理解三个核心维度进行评估的过程中，VideoLLaMA 3均取得优异成绩，超越多数基线模型。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_8c9125c5346f42ccadfb19b283342713@000000_oswg480254oswg1080oswg802_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不仅如此，适用于端侧的<strong>2B</strong>大小的Video LLaMA 3，在<strong>图像理解</strong>上的表现也是较为出色。</p>
-<p>在涵盖文档 / 图表 / 场景文本理解、数学推理、多图像理解和常识问答等多个维度的基准测试，如在InfoVQA中超越之前最好成绩，在MathVista数学推理任务上优势明显。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_18c495553bcb47e0b96207fb52d43c93@000000_oswg447575oswg1080oswg792_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_f72e649b3e834a46beae28bdb51df2c2@000000_oswg576295oswg1080oswg942_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>VideoLLaMA 3以图片为中心的设计理念贯穿于整个模型架构和训练过程。</p>
-<p>通过高质量的图片文本数据为视频理解打下坚实基础，仅使用<strong>3M</strong>视频文本数据，实现全面超越同参数量开源模型的视频理解能力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_a0d83eb192e44c3bb3852af1e7fc1a2c@000000_oswg252185oswg1080oswg316_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>在线可玩</strong></h2>
-<p>目前，VideoLLaMA 3已经在HuggingFace上提供了图像、视频理解的demo。</p>
-<p>例如我们给一张《蒙娜丽莎的微笑》，并向VideoLLaMA 3提问：</p>
-<blockquote>
-<p>Discuss the historical impact and the significance of this painting in the art world.讨论这幅画在艺术界的历史影响和意义。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_1ca7897ac201443fa848830a9af8f0ea@000000_oswg322568oswg1080oswg1610_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>VideoLLaMA 3的回答是这样的：</p>
-<blockquote>
-<p>《蒙娜丽莎》不仅是世界上最著名的画作之一，也是艺术史上的重要作品。它创作于文艺复兴时期，体现了该时期对人文主义的关注和古典学习的复兴。列奥纳多·达·芬奇的创新技术，如在色彩和色调之间进行柔和过渡的模糊手法，为这幅画的神秘品质做出了贡献。几个世纪以来，《蒙娜丽莎》一直是一个迷人的主题，激发了无数的解释和分析。它已成为西方文化的标志，象征着艺术成就的顶峰，象征着视觉艺术对跨越时间和文化的观众的持久魅力。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_647fb4162a2d40ec812414a63df9e153@000000_oswg483585oswg1080oswg1026_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>再来看下<strong>视频理解</strong>的demo，我们的问题是：</p>
-<blockquote>
-<p>What is unusual in the video?视频中有什么不寻常之处？</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_6b4eaeba64a342c5b4a5e0c84b285a18@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>对此，VideoLLaMA 3表示：</p>
-<blockquote>
-<p>这段视频的不同寻常之处在于，它展示了熊这种典型的野生动物，正在进行一种类似人类的活动，比如在桌子上吃寿司。</p>
-</blockquote>
-<p>VideoLLaMA 3回答可谓是非常简约且精准了。</p>
-<p>并且这个demo在HuggingFace上的操作也是极其简单，只需上传图片或视频，再提出你的问题即可。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_649c4ddd9d104c2a9bada1fd03913bfb@000000_oswg69337oswg1080oswg685_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>怎么做到的？</strong></h2>
-<p>VideoLLaMA 3的关键，在于它是一种<strong>以图像为中心</strong>的训练范式。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_78c0be2f995a4244ba88a188df9d2f1c@000000_oswg177009oswg1080oswg543_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这种范式主要包含四个关键内容：</p>
-<p><strong>视觉编码器适配</strong>：让视觉编码器能处理动态分辨率图像，用不同场景图像提升其性能，使其能捕捉精细视觉细节。</p>
-<p><strong>视觉语言对齐</strong>：用丰富图像文本数据为多模态理解打基础，利用多种数据增强空间推理能力，同时保留模型语言能力。</p>
-<p><strong>多任务微调</strong>：用图像文本问答数据和视频字幕数据微调模型，提升其遵循自然语言指令和多模态理解能力，为视频理解做准备。</p>
-<p><strong>视频微调</strong>：增强模型视频理解和问答能力，训练数据包含多种视频及图像、文本数据。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_7a5fd2a297844a808f6070694a3318aa@000000_oswg265738oswg1011oswg441_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从框架设计来看，主要包含两大内容。</p>
-<p>首先是<strong>任意分辨率视觉标记化（AVT）</strong>。</p>
-<p>这种方法突破了传统固定分辨率限制，采用2D - RoPE替换绝对位置嵌入，让视觉编码器能处理不同分辨率图像和视频，保留更多细节。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_70d1551ca58c413c8a392deee051d9d1@000000_oswg560432oswg1080oswg706_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其次是<strong>差分帧剪枝器（DiffFP）</strong>。</p>
-<p>针对视频数据冗余问题，通过比较相邻帧像素空间的1-范数距离，修剪冗余视频标记，提高视频处理效率，减少计算需求。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_e56b601e5c024e4db50baf1ab00ec55c@000000_oswg533662oswg1080oswg435_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>除了框架之外，高质量数据也对VideoLLaMA 3的性能起到了关键作用。</p>
-<p>首先是<strong>高质量图像重新标注数据集VL3Syn7M的构建</strong>。</p>
-<p>为给 VideoLLaMA 3 提供高质量训练数据，团队构建了包含700万图像-字幕对的VL3Syn7M数据集。</p>
-<p><strong>Aspect Ratio Filtering</strong>（长宽比过滤）：图像长宽比可能影响模型特征提取。像一些长宽比极端的图像，过宽或过长，会使模型在处理时产生偏差。通过过滤，确保数据集中图像长宽比处于典型范围，为后续准确的特征提取奠定基础。</p>
-<p><strong>Aesthetic Score Filtering</strong>（美学评分过滤）：利用美学评分模型评估图像视觉质量，舍弃低评分图像。这一步能去除视觉效果差、构图不佳的图像，减少噪声干扰，保证模型学习到的图像内容和描述质量更高，进而提升模型生成优质描述的能力。</p>
-<p><strong>Text-Image Similarity Calculation with Coarse Captioning</strong>（带粗略字幕的文本-图像相似度计算）：先用 BLIP2 模型为图像生成初始字幕，再借助CLIP模型计算文本 - 图像相似度，剔除相似度低的图像。这一操作确保剩余图像内容与描述紧密相关，使模型学习到的图文对更具可解释性和代表性。</p>
-<p><strong>Visual Feature Clustering</strong>（视觉特征聚类）：运用CLIP视觉模型提取图像视觉特征，通过k-最近邻（KNN）算法聚类，从每个聚类中心选取固定数量图像。这样既保证数据集多样性，又维持语义类别的平衡分布，让模型接触到各类视觉内容，增强其泛化能力。</p>
-<p><strong>Image Re - caption</strong>（图像重新标注）：对过滤和聚类后的图像重新标注。简短字幕由InternVL2-8B生成，详细字幕则由InternVL2-26B完成。不同阶段训练使用不同类型字幕，满足模型多样化学习需求。</p>
-<p>其次是<strong>各训练阶段的数据混合</strong>。</p>
-<p>在VideoLLaMA 3的不同训练阶段，数据混合策略为模型提供了丰富多样的学习场景。此外，团队使用统一的数据组织形式以统一各个阶段的训练。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_575d6d5f3667419c8b6305917112fe37@000000_oswg166340oswg1080oswg251_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>Vision Encoder Adaptation（视觉编码器适配）</strong>：此阶段旨在增强模型对多样场景的理解和特征提取能力，训练数据融合场景图像、文档识别图像和少量场景文本图像。</p>
-<p>场景图像来源广泛，像VL3-Syn7M-short等，其中Object365和SA-1B数据集的引入增加了数据多样性；场景文本图像来自BLIP3-OCR，其文本内容和简短重新标注都作为字幕；文档图像选取自pdfa-eng-wds和idl-wds，文档文本内容按阅读顺序作为图像字幕。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_16a9d9cacdbb490e928ab55282fc2dbc@000000_oswg161837oswg1080oswg254_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>Vision-Language Alignment（视觉语言对齐）</strong>：该阶段使用高质量数据微调模型，涵盖场景图像、场景文本图像、文档、图表、细粒度数据以及大量高质量纯文本数据。</p>
-<p>场景图像整合多个数据集并重新标注；场景文本图像包含多种中英文数据集，并对LAION数据集中图像筛选形成 Laion-OCR数据集，其字幕包含文本内容和文本位置的边界框注释。</p>
-<p>文档图像除常见数据集外，还加入手写和复杂文档数据集；图表数据虽量少，但来自Chart-to-Text 数据集；细粒度数据包含区域字幕数据和带框字幕数据，增强模型对图像细节的理解。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_c4d477465da64cb1bac159f392fccc03@000000_oswg401113oswg1080oswg523_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>Multi-task Fine-tuning（多任务微调）</strong>：用指令跟随数据进行指令微调，数据混合覆盖多种任务。</p>
-<p>图像数据分为一般、文档、图表 / 图形、OCR、定位和多图像六类，每类针对特定视觉理解方面。同时包含大量纯文本数据，提升模型处理涉及视觉和文本输入的指令跟随任务的能力。</p>
-<p>视频数据则结合常用高质量视频字幕数据集、少量问答数据，以及VideoLLaMA2的内部数据和内部时间定位数据，增强模型视频理解能力。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_b04fa8d7033847c581be4832d4cbbfa0@000000_oswg336056oswg1080oswg483_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>Video - centric Fine - tuning（视频微调）</strong>：此阶段聚焦提升模型视频理解能力，收集多个开源数据集中带注释的视频数据，还通过合成特定方面的密集字幕和问答对扩展数据规模。</p>
-<p>此外，引入流媒体视频理解和时间定位特征，同时使用一定量的纯图像和纯文本数据，缓解模型灾难性遗忘问题。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_09a5d5efed514b9dab54e4e730192b64@000000_oswg231480oswg1079oswg434_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>论文和demo地址放在下面了，感兴趣的小伙伴可以去体验喽~</p>
-<p><strong>论文地址：</strong>https://arxiv.org/abs/2501.13106</p>
-<p><strong>GitHub项目地址：</strong>https://github.com/DAMO-NLP-SG/VideoLLaMA3/tree/main?tab=readme-ov-file</p>
-<p><strong>图像理解demo：</strong>https://huggingface.co/spaces/lixin4ever/VideoLLaMA3-Image</p>
-<p><strong>视频理解demo：</strong>https://huggingface.co/spaces/lixin4ever/VideoLLaMA3</p>
-<p><strong>HuggingFace地址：</strong>https://huggingface.co/collections/DAMO-NLP-SG/videollama3-678cdda9281a0e32fe79af15</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247777357&amp;idx=4&amp;sn=897ec587ad80958d2d96d208cf7de43a&amp;chksm=e9cc53253544ee75598872491e2ef3ad2375715c3343dbe9fe0cea8527ec8f6e6f16c44c5168&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“量子位”（ID：QbitAI）</a>，作者：达摩院，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3165949910952712</guid><pubDate>Fri, 14 Feb 2025 17:00:00 +0800</pubDate></item><item><title>对话昆仲资本姚海波：2025年是机器人公司的“存活期”，抢占先机比赚钱更重要</title><link>https://36kr.com/p/3163208089201156</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>作者 | 田哲</p>
-<p>编辑 | 苏建勋</p>
-<p>“机器人的应用可能会比自动驾驶更快，甚至超越它。”</p>
-<p>当被问到如何看待机器人的商业应用时，昆仲资本创始合伙人姚海波答道。</p>
-<p>作为一名投资人，姚海波在过去十年最感兴趣的是硬科技领域。在自动驾驶行业兴起不久，昆仲资本便参与了四家自动驾驶公司的早期投资，其中三家上市：打造自动驾驶载体的小鹏汽车，在2020年登陆美股；分别为自动驾驶汽车提供激光雷达、解决方案的速腾聚创和文远知行，在2024年成功上市。</p>
-<p>2022年，大模型技术的广泛应用，姚海波开始关注人形机器人，在广泛地与各行业人士交流后，他更确信人形机器人的价值。姚海波看到，不仅是养老院、工厂需要机器人工作，甚至养猪场都需要机器人清洁、打针。</p>
-<p>人形机器人的想象空间壮阔，但当前的技术发展难言完善，人形机器人仍在学习叠衣服、倒水等简单动作，距离听懂人类复杂指令并完成，仍有不小的距离。</p>
-<p>他注意到，许多机器人公司都面临着同样的挑战：卖产品是必然的，产品仍存在不足，何时才是将产品推向市场的最佳时机？‍</p>
-<p>在姚海波看来，在行业早期，TO B客户对产品的容忍度超出预期，他们对机器人的智能化要求不高，更关注的是如何让机器人提升作业效率。</p>
-<p>尽管他认可人形机器人的长期价值，但留给人形机器人公司的时间已然不多——只有2025年一年。他从投资人角度判断，机器人公司要么在2025年获得一定收入和订单，要么在其领域保持技术领先，否则机器人公司得自寻出路。</p>
-<p>这再度体现了商业世界的残酷。“投资人的目的之一就是催熟行业。”姚海波表示，机器人行业存在了数十年，是一个长期不会关掉窗口的行业，尽管有的公司会倒下，行业整体却会卷得越来越深入，直到出现关键突破或大规模应用。</p>
-<p>机器人公司产品应用的路径是什么？</p>
-<p>姚海波给出的答案是，先研发某个场景的专用机器人，再做覆盖多场景的通用型机器人。</p>
-<p>他举例，达芬奇机器人占据了全球90%以上的医械市场份额，即使只专注于医疗手术场景，其背后的“直觉外科”公司市值也能高达2000亿美元，可见细分领域的市场空间庞大。未来，不排除直觉外科也研发通用机器人。</p>
-<p>近期，围绕人形机器人的市场应用与商业化难题，《智能涌现》与昆仲资本创始合伙人姚海波展开了一次对话，试图从投资人视角观察人形机器人市场现状，以下对话经整理编辑：</p>
-<h2>技术领先或产品能应用，才能吸引投资人</h2>
-<p><strong>《智能涌现》</strong>：昆仲资本投资了多家自动驾驶公司，取得了一些成绩，现在投资机器人公司，是否有可复用的投资经验？</p>
-<p><strong>姚海波</strong>：我们采取了“根据地”式的策略，只聚焦在一个特定领域。我们也打造了一个生态圈，这个生态圈由三个核心部件组成。</p>
-<p>第一个部件是激光雷达，是自动驾驶的“眼睛”；第二个部件是“大脑”，即自动驾驶的算法；第三个部件则是“机身”，即智能汽车本身。</p>
-<p>基于这些核心部件，我们在自动驾驶赛道投资，“眼睛”速腾聚创和“大脑”文远知行分别在去年1月和8月成功上市，搭载速腾激光雷达的小鹏汽车则在智驾解决方案方面取得了显著的领先优势。</p>
-<p>从上一个周期的投资布局逻辑来看，如果我们要投资一个具身智能设备，首先会覆盖核心部件，接着是算法层面，最后才是产品本身。</p>
-<p>关于机器人投资，<strong>我们也计划沿用类似布局，具体包括移动、操作和感知这三大能力</strong>。</p>
-<p><strong>《智能涌现》</strong>：现在机器人公司各有优势，但在商业化和订单基本处于同一起跑线上，你在投资时，如何发现公司的潜力？</p>
-<p><strong>姚海波</strong>：所有投资基金都在关注如何提高命中率，昆仲资本追求命中率有几个关键前提。</p>
-<p>第一个前提是要入局早。就像昆仲资本当年投资自动驾驶一样，如果在2014年就布局自动驾驶，按照我们的经验，基本上会成功找出一到两家头部公司。但如果是2016、2017年才开始布局，那么可能连头部公司都没机会见到，因为它们已经处于飞速发展中。</p>
-<p>第二个前提是，找到最优秀的创业者。优秀的创业者通常有非常强的学术背景，尤其是在机器人领域。</p>
-<p>比如，我们投资的逐际动力CEO张巍老师，在美国学习和教书时，就与Boston Dynamics的创始人有过合作。而我们投资的戴盟机器人的联创兼首席科学家王煜老师，则作为创始院长创办了港科大的机器人研究院。</p>
-<p><strong>《智能涌现》</strong>：昆仲资本也投资了创始人产业出身的丰坦机器人，投资这类公司，你会特别看中哪些要素？</p>
-<p><strong>姚海波</strong>：丰坦是我们的一个尝试。在机器人应用上，我们还没有完全确定未来的应用场景，还需要做探索。</p>
-<p>应用探索最现实的问题是商业化。我们会特别关注有垂直领域销售经验和跨境销售能力的人才。<br/> </p>
-<p>例如，丰坦团队就有丰富的海外销售经验，其CEO李自可创业前担任上市公司高管，从事建筑科技产品研发与推广数十年，多款产品成为行业龙头应用。这对于我们来说是一个很大的吸引力。</p>
-<p><strong>《智能涌现》</strong>：昆仲资本目前主要关注机器人公司的哪些方面？</p>
-<p><strong>姚海波</strong>：我们关注的公司，首先要有一定的技术领先性和明确的产品应用。现在，除了人形机器人这个领域大家已有共识之外，其他方面没有统一的标准和共识，很多技术和硬件的尝试还处于探索阶段。</p>
-<p>现阶段最大的困惑是，在机器人没有定型之前，很多硬件的基础模型可能做出来，不能真正解决实际问题。因此，我们更看重那些在应用场景上已经有明确突破的公司。举个例子，如果某家公司能够做出全球领先的全地形自主移动方案，不论是四轮足、双轮足还是人形，这种创新就具有很大的价值。</p>
-<h2>卖产品比造好产品更重要</h2>
-<p><strong>《智能涌现》</strong>：最近我和一些行业人士交流，他们提到如果公司今年无法产生收入，后续很难获得融资，可能在2026年就被市场淘汰，你怎么看待这种行业情绪？</p>
-<p><strong>姚海波</strong>：我认为这是一个非常正确的认识。首先，当前的确要感谢那些愿意买单的客户，因为他们大多数还是在尝试阶段。毕竟，现在还没有哪款机器人可以彻底打破市场，给客户带来明确的投入产出比。</p>
-<p>但是，机器人行业的现状是，即使你的产品在技术上是全行业最好的，也不一定马上能赢得市场或者赚钱。这是具身机器人领域的必经阶段，因为很多创新领域的早期发展都无法通过质量直接带来利润。</p>
-<p>我们投资的许多机器人公司，在今年的目标上并没有特别强调盈利要求，而是要求他们“快”。</p>
-<p>快，意味着你在技术投入、技术探索和应用探索上都要做得比别人快，保持在行业的头部。</p>
-<p>当然，快并不等于不赚钱。我们的意思是，你的核心任务是要保持领先性。并且，我总结了一句话：<strong>“勇攀高峰，沿途下蛋”</strong>。</p>
-<p>什么是勇攀高峰？就是你要做到行业的顶尖，这是首要目标。</p>
-<p>但同时，沿途下蛋也很重要。即便你的产品可能在质量上还不完美，存在一些问题，比如返修或者现实场景的操作失败率，但你仍然需要销售出去，进入客户供应链中。如果现在不进入，将来当客户的技术成功了，你可能会错失作为供应商的机会。</p>
-<p><strong>技术领先和市场应用的能力两个目标合起来，才是目前机器人创业公司最应该具备的能力</strong>。</p>
-<p><strong>《智能涌现》</strong>：自动驾驶从2015年在国内大爆发到现在，发展将近十年，但在商业化应用方面，尤其是Robotaxi仍然只有少数公司实现脱离安全员运营，而这些公司的年收入也只有几亿级别。相对而言，具身机器人行业在2022年爆发，至今才两年多，但这类公司商业化压力特别大。投资人是否在催熟机器人行业？</p>
-<p><strong>姚海波</strong>：投资人就是革命性和创新技术的催化剂，帮助创业公司快速成功。</p>
-<p>确实，投资人推动了很多领域的快速发展，但如果你问我哪个行业更可能先实现产业化或者更快盈利，我认为机器人行业可能会先走出盈利道路。</p>
-<p>虽然我也重仓布局了自动驾驶领域，而且自动驾驶公司已经有了一定规模的收入，<strong>但我依然认为机器人的应用可能会跑得比自动驾驶更快，甚至超越它</strong>。</p>
-<p>原因在于，机器人应用的商业模式和效益相对明确。比如，特斯拉今年宣称要量产一万台Optimus，这是一个相当大的目标，说明他们要在量产上加速。这些量产型机器人相对容易做到，但汽车行业由于需要和外部环境互动，它的局限性和不确定性更高。</p>
-<p>而机器人行业有很多已知环境的应用场景，可以更快速地实现收入。例如，养老院、工厂、甚至猪场的清洁和打针机器人，这些场景都已经是看得见摸得着、能够快速实现商业化的。而且，这些行业的投资回报相对直接，能够带来可见的效益。</p>
-<p>我认为不必担心短期内看不到收入。虽然这个行业需要巨大的投入，投资人在催化这个过程，但仍然有不少实际的预期和机会。</p>
-<p><strong>《智能涌现》</strong>：自动驾驶有汽车这样的成熟载体，而机器人行业的硬件成本仍然较高，机器人还处于刚刚学会走或者跑的阶段。在机器人本体发展还不完全成熟的情况下，就将它们推向市场，客户收到这些产品后，可能觉得不够好，这也许会间接影响整个行业的进展？</p>
-<p><strong>姚海波</strong>：现在所有的投资企业和行业中的头部公司都面临这个挑战。首先，你要问自己到底要不要卖？其次，卖的产品够不够好？</p>
-<p>我认为第一个问题，答案是肯定要卖，第二个问题，产品够不够好，答案是“不够好”。正如你所说，这些挑战是存在的，但我认为客户对这些产品的容忍度比我们预期的要高。</p>
-<p>现在的客户对机器人的要求并非百分之百完美。我举个例子，比如若愚科技有一款加油机器人。这个加油场景的客户需求并不高，只需要机器人从A点移动到B点，把油枪插上，然后再拔出来。其实客户对机器人的智能化要求并不高，更多是为了解决效率提升加可操作性的问题。客户会容忍机器人在执行任务时有一些小瑕疵，只要它能够完成任务。</p>
-<p>因此，我认为现在是一个特别好的时机。如果你一直在家里“练兵”，想着要做一个完美的100分产品再去卖，可能会错失这波最早期的体验用户。<strong>这些客户现在买机器人，并不是为了纯粹的投资回报率，更多是为体验和尝试付费</strong>。</p>
-<p>此外，我们可以回顾过去几代机器人的成功，它们都是与某个产业红利相关联的。例如，最早的物流机器人就是跟跨境电商的红利发展起来的，后来工厂的自动驾驶叉车则与新能源和锂电扩产的红利有关。如今，大家都在期待下一个产业红利。这些早期的投资者和用户，虽然现在还没有看到巨大的回报，但他们愿意尝试并为此支付，这本身就是一种投资机会。</p>
-<p>所以，如果现在不敢去尝试应用，错过了这个时点，等到下一个红利来了，你可能就错失进入这个行业的机会。<strong>关于尝鲜期限，我觉得大概是一到两年</strong>，因为这一阶段仍然存在需求。即使产品还不完美，客户也愿意为这种新体验买单。并且，政府的政策扶持和补贴也为这些早期应用提供了机会窗口。</p>
-<p><strong>《智能涌现》</strong>：整个机器人行业以及昆仲资本都在寻找机器人商业应用的好场景。你提到要给机器人公司足够的耐心。昆仲资本为被投公司设置了明确的商业化期限吗？</p>
-<p><strong>姚海波</strong>：我们没有特别明确的商业化指标或者KPI，尤其是在商业化方向。当然，我们会提供帮助，比如帮助他们找到合适的商业化合伙人，共同推动产业化。</p>
-<p>举个例子，我们在逐际动力投后方面做过很多工作，帮助引入联合创始人，加入他们的团队推动产业化。我们不仅仅是提供资金，而是会和公司一起共建。</p>
-<p>我觉得最重要的是，帮助他们找到合适的落地伙伴，而不是仅仅设定一个KPI，让他们按照我们的标准去执行。</p>
-<p><strong>《智能涌现》</strong>：如果没有明显的KPI，年收入达到多少才能被认为达标或成功呢？</p>
-<p><strong>姚海波</strong>：从投资的角度来看，我们并不单纯依赖收入作为衡量标准。我们每年都会和公司一起做预算和决算，在商业化方面，我们更看重的是它是否能成为行业的龙头。比如，技术领先是一个方面，但更重要的是它是否能够在行业中脱颖而出，成为领导者。</p>
-<p>举个例子，速腾聚创现在做到了全球激光雷达出货量第一，当年在产能和销售方面。我们希望速腾聚创能把头部客户拿下，但这需要时间，因此我们并不会单纯根据是否能在一年内签下几个大客户来设定KPI。<strong>我们更看重的是，是否能拿下像比亚迪这样的头部客户，哪怕是单一的大客户</strong>。</p>
-<p><strong>《智能涌现》</strong>：假如2025年，市面上的机器人公司还没有获得明显的收入或者订单，这类公司后续会如何，它们还能通过哪些方式存活下来？</p>
-<p><strong>姚海波</strong>：如果一个公司没有任何技术领先，也没有头部客户，团队也不是最顶尖的那批人，我确实觉得它的生存会面临巨大的挑战。25年有人说是订单年，有人说是应用年，但我觉得这一年可能是“存活年”，适者生存。不是说大多数公司都没戏，而是你至少得在某一方面有“中国纪录或世界纪录”，才会在市场上得到更多关注和支持。</p>
-<p><strong>《智能涌现》</strong>：现在你有没有注意到一些机器人公司转型或直接倒闭的情况？</p>
-<p><strong>姚海波</strong>：大家都还在摸索期，市场也给了这些公司足够耐心，特别是客户方面。至于机器人行业的机遇与风险，我认为机器人行业的窗口不会轻易关闭。</p>
-<p>机器人领域始终是一个科学假设推动的学科，它是人类伟大的命题之一。如果有一天，所有机器人都变得像人一样智能，那人类的价值何在？但在那之前，机器人行业的创业机会一直存在。对于这些创业公司来说，最大的挑战是如何在科学假设实现前生存下去。</p>
-<p>未来几年肯定会有机器人公司转型，但我不认为某些公司的失败会导致整个行业走向衰退，反而是需要有眼光的投资者和创业者在这条道路上不断探索，才能看到未来的机会。</p>
-<p><strong>《智能涌现》</strong>：未来昆仲资本如果再投资机器人公司，会考虑哪些方向？</p>
-<p><strong>姚海波</strong>：这是我每天都在思考的事情。比如说，我们未来要布局什么方向？我觉得短期内，我们在核心部件方面的布局已经基本完成，所以接下来，我们会关注一些往上游的东西。</p>
-<p>不过我们不太会关注传统产品，比如滚珠丝杠或者电机等常规部件，重点会放在一些新的方向，比如说视触觉传感器等方案公司。</p>
-<p>我们也会关注一些新的技术物种。就像以前，大家觉得六维力传感器可能主要应用于其他领域，但现在大家发现它在机器人，特别是人形机器人中的作用越来越重要。</p>
-<h2>机器人公司不必追求自研</h2>
-<p><strong>《智能涌现》</strong>：现在很多机器人公司倾向于将产品优先落地工厂，你认为在这一过程中，机器人会面临哪些阻力、成本支出？</p>
-<p><strong>姚海波</strong>：首先，我觉得机器人进工厂这件事不一定是最佳选择。怎么说呢？工厂最需要的是重复性高、标准化的工作，而人形机器人并不是在这些任务中最经济或最有效的选择。</p>
-<p>比如，工厂的自动化需求通常能通过机械臂来解决，机械臂能完成绝大多数操作，而如果需要增加移动能力，可以在机械臂下方加装轮式底盘。</p>
-<p>假设未来出现一种全能型的人形机器人，它能够在各种环境中完成所有任务，那它不只是用在工厂，而是全行业都能广泛落地。然而，这也带来了一个问题——如果所有机器人都变得“通用人形”，那么我们人类的工作就可能被完全取代，这会是另一个层次的问题。</p>
-<p>所以，我认为人形机器人进工厂并不一定是必须的，机械臂完全可以在工厂里高效运作，解决绝大部分问题。</p>
-<p><strong>《智能涌现》</strong>：目前很多机器人公司都在谈论成本控制，甚至开始关注核心零部件的替代。你认为，机器人公司现阶段有必要高度关注零部件供应链吗？</p>
-<p><strong>姚海波</strong>：其实现在很多公司开始向上游延伸，主要还是为了锁定供应链和尝试一些新的路径，而不是单纯考虑成本。比如在机器人行业里，很多零部件虽然以前没有广泛用于机器人，但其实并没有非常新的技术突破，像电机、行星丝杆这些部件，它们本身并不算创新。</p>
-<p>如果我们把焦点放在成本控制上，假设所有的机器人都用相同的电机或传感器，并且都满足一定的自由度要求，那么成本的控制就变得尤为重要。</p>
-<p>至于零部件的创新，虽然机器人行业的确没有像自动驾驶领域那样涌现出大量新型传感器和技术，但真正的挑战是在如何将传统零部件与新技术结合，最终实现机器人像人类一样灵活操作的能力。</p>
-<p>机器人公司应该与上游供应商进行更紧密的合作，重点不仅是采购零部件，而是要推动定制化解决方案的开发，比如通过强化学习来优化控制方式。</p>
-<p><strong>《智能涌现》</strong>：在机器人创业公司发展过程中，哪个阶段更适合自研零部件呢？</p>
-<p><strong>姚海波</strong>：我觉得，往后发展的时候，创业公司自研零部件的动力反而会减弱。特斯拉这样的大公司是有足够的资源和市场规模，去支持自研，并且它的供应链管理做得非常好，能自研或投资很多零部件，而这对于创业公司来说挑战较大。</p>
-<p>特斯拉做自研零部件的原因，是因为它要面对庞大的生产需求和供应链挑战，它要在量产过程中对零部件进行掌控，确保质量和效率。</p>
-<p>但对于创业公司来说，尤其是在初期，资金有限、资源紧张，专注于提高ROI和投入产出比才是最重要的。如果现在选择自研零部件，可能会偏离公司最核心的任务，因此不一定是最好的选择。</p>
-<p><strong>《智能涌现》</strong>：最后一个问题，2025年是机器人公司生存最关键的一年，你有什么话想对机器人公司说？</p>
-<p><strong>姚海波</strong>：我觉得有两句话要强调。第一，勇攀高峰，沿途下蛋。要做生意，就要去卖产品，哪怕这个产品一开始并不完美，可能只是60分的产品。重要的是先做出来，不断改进。</p>
-<p>第二，做科学假设，跨越鸿沟。机器人行业是一个伟大的命题，它的目标是改变人类，所以在这个过程中，必须有足够的愿景，做出科学假设。但要跨越鸿沟，就是从早期的小规模市场，逐步走向大众市场。</p>
-<p>这就像《跨越鸿沟》提到的，当产品刚刚推出时，大家关注的更多是它的优点，而对缺点不太在意。但随着市场逐步扩大，产品的缺点必须得到解决，不能有明显的缺陷。比如说做灵巧手的公司，大家都有手，但在使用过程中不能有明显的故障，不能出现手掉落这样的尴尬。</p>
-<p>最后要始终保持研发通用机器人的心态。目前市场上有通用与非通用机器人的分歧，但我相信最终会达成共识，机器人技术一定是朝着通用化发展。举个例子，全球市值最大的机器人公司是达芬奇，虽然它并不完全是通用型机器人，但未来它会走向通用。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163208089201156</guid><pubDate>Fri, 14 Feb 2025 17:05:00 +0800</pubDate></item><item><title>36氪晚报｜零一万物产业大模型基地落子苏州；抖音电商2024年完成GMV约3.5万亿；星巴克未来五年将在中东新开500家门店</title><link>https://36kr.com/p/3166246121696004</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2>大公司：</h2>
-<p><a href="https://36kr.com/newsflashes/3166234943286023" rel="noopener noreferrer" target="_blank"><strong>零一万物产业大模型基地落子苏州</strong></a></p>
-<p>36氪获悉，2月14日，零一万物与苏州高新区联合成立的产业大模型基地正式授牌。据第一财经了解，该大模型基地主要聚焦垂直产业，未来将重点打造制造、金融、医疗、政务等领域的行业大模型解决方案，产业链合作方包括中细软集团、创新奇智、穹彻科技、随锐科技等。零一万物方面表示，参数适中同时性能优异、推理速度更快、推理成本更低的轻量化模型更适合商用场景，会成为 AI-First 应用爆发的催化剂。</p>
-<p><a href="https://36kr.com/newsflashes/3166124038253314" rel="noopener noreferrer" target="_blank"><strong>抖音电商2024年完成GMV约3.5万亿</strong></a></p>
-<p>36氪独家获悉，2024年，抖音电商的商品交易总额（GMV）约3.5万亿元，同比增幅30%。另外，36氪还了解到抖音电商2025年目标为4.2万亿。36氪就此数据向抖音电商相关负责人求证，截至发稿尚未获得回应。据了解，2024年淘天集团GMV在8万亿左右；拼多多去年GMV大概在5.2万亿左右（目标5.5万亿）。</p>
-<p><a href="https://36kr.com/newsflashes/3166156124662278" rel="noopener noreferrer" target="_blank"><strong>淘宝：情人节小时达鲜花订单暴涨20多倍，大型花束销售占比超40%</strong></a></p>
-<p>36氪获悉，淘宝最新数据显示，情人节当天淘宝小时达鲜花订单成交暴涨20多倍，其中大型花束销售占比超40%。节日送礼需求下，使用小时达服务的商家整体成交增长是大盘的2.2倍。同时，入驻淘宝小时达的饿了么鲜花店更是迎来超30倍爆发增长。小时达打标商品还上了淘宝首页主搜，用户打开淘宝搜索“鲜花”可直接下单，享受最快小时级的配送服务。</p>
-<p><a href="https://36kr.com/newsflashes/3166164323871233" rel="noopener noreferrer" target="_blank"><strong>星巴克未来五年将在中东新开500家门店</strong></a></p>
-<p>星巴克寻求在中东扩张，计划新开数百家门店。星巴克首席执行官布莱恩·尼科尔（Brian Niccol）2月14日接受采访时表示，计划未来五年在中东新开约500家门店，新增5000个工作岗位。星巴克目前在该地区拥有1300多家门店。去年，这家咖啡连锁店遭到顾客抵制，被指责没有做足够努力向以色列施压，迫使其停止在加沙的攻势。该公司称，抵制活动对中东地区的客流和销售均产生了重大影响，也给美国业务造成了压力。除中东外，尼科尔表示星巴克未来将在中国新增数千家门店。（界面）</p>
-<p><a href="https://36kr.com/newsflashes/3166192163531264" rel="noopener noreferrer" target="_blank"><strong>爱马仕第四季度销售额增长17.6%，全年销售额超150亿欧元</strong></a></p>
-<p>法国奢侈品巨头爱马仕周五公布，去年第四季度销售额增长好于预期，表明在动荡的奢侈品市场，对最高档产品的需求依然强劲。该公司表示，按固定汇率计算，第四季度销售额增长了17.6%，达到39.6亿欧元（约合41.5亿美元），超过了LSEG调查的分析师预测的36.9亿欧元。按固定汇率计算，2024年全年销售额增长14.7%，达到152亿欧元，高于预期的149.4亿欧元。（新浪财经）<a href="https://finance.sina.com.cn/stock/usstock/c/2025-02-14/doc-inekmuic0887407.shtml" rel="noopener noreferrer nofollow" target="_blank">原文</a></p>
-<p><a href="https://36kr.com/newsflashes/3166194178828805" rel="noopener noreferrer" target="_blank"><strong>腾讯云AI代码助手迎来更新，正式接入满血版 DeepSeek-R1 617B 模型</strong></a></p>
-<p>36氪获悉，腾讯云AI代码助手迎来更新，正式接入满血版 DeepSeek-R1 617B 模型，全免费、不限量、免部署，进一步加速研发提效。腾讯云AI代码助手是一款定位代码智能补全和生成的数字化工具，为开发者提供安全合规的编码场景AIGC服务。</p>
-<p><a href="https://36kr.com/newsflashes/3166224492358152" rel="noopener noreferrer" target="_blank"><strong>英特尔支持DeepSeek本地运行，给汽车装上“最强大脑”</strong></a></p>
-<p>36氪获悉，英特尔支持DeepSeek本地运行。据了解，在英特尔的软件定义汽车车载平台上跑DeepSeek-R1，从1.5B直到14B，能明显提升GPU内存的利用率，而第二代英特尔锐炫™B系列车载独立显卡的发布，更是将能支持的模型参数推至32B。在英特尔的支持下，DeepSeek很快就将有机会上车部署，而车端本地算力得到全面利用，可能意味着出行体验的又一次重要升级。</p>
-<p><a href="https://36kr.com/newsflashes/3166188964620801" rel="noopener noreferrer" target="_blank"><strong>法拉利CEO访韩与电池商SK on社长会面，或讨论电池业务合作</strong></a></p>
-<p>法拉利首席执行官贝内代托·维尼亚访问韩国SK集团首尔总部，与动力电池企业SK On株式会社社长、CEO李锡熙会面。两家公司或就电池业务合作事宜进行了讨论。两家公司高层会面或推动电池业务合作取得具体成果。维尼亚曾在当地时间本月4日举行的业绩发布会上表示，将于今年10月9日公开法拉利首款电动汽车。（界面）</p>
-<p><a href="https://36kr.com/newsflashes/3166229596400385" rel="noopener noreferrer" target="_blank"><strong>bp子公司Lightsource bp收购北海道15MWp太阳能项目，进军日本再生能源市场</strong></a></p>
-<p>英国石油（bp）子公司Lightsource bp宣布，将通过收购北海道一个15MWp的太阳能项目进军日本再生能源市场，其营运范围也由此从全球19个市场增加到20个。该公司表示，目前在全球拥有开发中的太阳能项目超过58GW，其中近8GW位于亚太地区。bp去年全面收购Lightsource bp。（界面）</p>
-<h2>投融资：</h2>
-<p><a href="https://36kr.com/newsflashes/3166216163813891" rel="noopener noreferrer" target="_blank"><strong>吉利汽车：领克收购事项及领克注资事项之全部先决条件已达成</strong></a></p>
-<p>36氪获悉，吉利汽车公告，领克收购事项及领克注资事项之全部先决条件已达成，有关交易已于2025年2月14日完成；于领克收购事项完成后，估计本集团将录得未经审核收益约人民币64.7亿元。</p>
-<h2>新产品：</h2>
-<p><a href="https://36kr.com/newsflashes/3166198532237824" rel="noopener noreferrer" target="_blank"><strong>首个AI儿科医生“上岗”，与13位儿科专家共同完成疑难病例会诊</strong></a></p>
-<p>36氪获悉，2025年2月13日，国家儿童医学中心首都医科大学附属北京儿童医院开展了国内首次“AI儿科医生+多学科专家”的双医并行多学科会诊。据了解，“AI儿科医生”依托儿童医学大模型与健康医疗创新应用北京市重点实验室和儿童创新医疗器械概念验证平台，由北京儿童医院与北京百川智能科技有限公司、小儿方健康科技（北京）有限公司联合研发，于1月18日上线，在经过北京儿童医院近一个月的内测并得到专家的认可后，昨日正式“上岗”。</p>
-<p><a href="https://36kr.com/newsflashes/3166181063486209" rel="noopener noreferrer" target="_blank"><strong>机械星球推出工程机械行业大模型—星知，并接入DeepSeek</strong></a></p>
-<p>36氪获悉，近日，机械星球宣布，其自主研发的工程机械垂直行业大模型——机械星球•星知大模型，正式上线。平台积累了近10万工程机械商家及全品类设备信息，和主流品牌设备详细参数，通过植入“深度思考模式”，在设备智慧化租赁、高效施工方案、设备动态询价等工程作业场景，提供更加智能的解决方案。此前“星知”已接入通义千问等大模型，日前完成了深度求索（DeepSeek）R1大模型的接入。</p>
-<h2>今日观点：</h2>
-<p><a href="https://36kr.com/newsflashes/3166230439504388" rel="noopener noreferrer" target="_blank"><strong>宏景科技：与“DeepSeek”暂无业务合作</strong></a></p>
-<p>36氪获悉，宏景科技公告，关于近期部分投资者通过深圳证券交易所“互动易”平台所提到的“DeepSeek”等近期市场热点概念，截至目前，公司并未形成上述热点概念范围内的营业收入，与“DeepSeek”暂无业务合作。</p>
-<p><a href="https://36kr.com/newsflashes/3166190186146568" rel="noopener noreferrer" target="_blank"><strong>极越回应定金退款进度：完成第一批退款63人</strong></a></p>
-<p>36氪获悉，2月14日，据极越官微，关于用户定金退款进度：1.第一批退款回顾：截止2月13日，第一批退款工作已完成。其中，已成功完成退款63人，多次信息错误待付款4人，电话沟通3次以上未接听3人。2.第二批退定开启：第二批退定工作现已正式启动。</p>
-<p><a href="https://36kr.com/newsflashes/3166206581500678" rel="noopener noreferrer" target="_blank"><strong>库迪咖啡李颖波：库迪公司已从2024年5月开始实现盈利</strong></a></p>
-<p>在媒体沟通会上，库迪咖啡首席策略官李颖波表示，从2024年年5月份开始，截至现在，库迪公司已经实现正向现金流即盈利。“营收主要来源还是服务费，从成本上，原料成本占比最大。从春节之后到现在，每个月固定收入都在增长，环比大幅度增长。在门店端的生意是尤其明显的。”李颖波说。（21财经）</p>
-<h2>其他值得关注的新闻：</h2>
-<p><a href="https://36kr.com/newsflashes/3166183832333060" rel="noopener noreferrer" target="_blank"><strong>央行：2024年四季度末，人民币普惠小微贷款余额32.93万亿元，同比增长14.6%</strong></a></p>
-<p>36氪获悉，央行公告，2024年四季度末，人民币普惠小微贷款余额32.93万亿元，同比增长14.6%，增速比各项贷款高7个百分点，全年增加4.2万亿元。农户经营贷款余额10.38万亿元，同比增长12.3%。助学贷款余额2811亿元，同比增长28.7%。全国脱贫人口贷款余额1.25万亿元，同比增长8.4%。</p>
-<p><a href="https://36kr.com/newsflashes/3166071563610880" rel="noopener noreferrer" target="_blank"><strong>杭州：打造全国跨境电商综合试验第一区，争取国家支持发布杭州跨境电商综试区2.0方案</strong></a></p>
-<p>36氪获悉，《杭州市政府关于印发杭州市推进全球数贸港核心区建设实施方案（2025—2027年）》公开征求意见。其中提到，打造全国跨境电商综合试验第一区。率先发布跨境电商综试区2.0方案。争取国家支持发布杭州跨境电商综试区2.0方案，围绕跨境药械OTC进口、跨境电商9810退税便利化等方面形成新一批制度创新清单，推动新一轮国家级跨境电商综合改革。促进“直播+平台经济+跨境电商”融合。推动MCN机构和跨境电商卖家、平台合作，建设省级直播示范基地。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166246121696004</guid><pubDate>Fri, 14 Feb 2025 17:14:00 +0800</pubDate></item><item><title>Claude 4被曝发布在即，DeepSeek把大招都给逼出来了</title><link>https://36kr.com/p/3166101083089410</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>终于！终于！<strong>Claude 4被曝将在未来几周内发布</strong>！</p>
-<p>高亮重点，最新的它采取了一个与之前模型路线不同的办法：</p>
-<p><strong>是个混合型大模型。</strong></p>
-<p>简单来说，就是<strong>既带有推理能力</strong>，会使用更多的算力来思考和解决难题；在面对简单问题的时候，<strong>又能像传统大模型一样</strong>短平快地轻巧处理，无需多费不必要的功夫。</p>
-<p class="image-wrapper"><img data-img-size-val="212,212" src="https://img.36krcdn.com/hsossms/20250214/v2_1878e00e0be24af9bafae1ef81017846@46958_oswg74953oswg212oswg212_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>怎么样，听起来是不是和昨天奥特曼透露的GPT-5非常类似（doge）。</p>
-<p>都是<strong>不再把传统通用模型和推理模型分开推出，直接融合在一起。</strong></p>
-<p>据透露，Anthropic计划在未来几周内发布该模型。</p>
-<p>而翻遍互联网发现，4天前就有人按捺不住，在推特上剧透过：</p>
-<blockquote>
-<p>Anthropic内部员工告诉我，他们将在本周内发布Claude 4，以及一个推理模型。至于性能嘛，超过满血o3！</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="932,404" src="https://img.36krcdn.com/hsossms/20250214/v2_3835e3764abe47d0b575fdd0363993e2@46958_oswg65869oswg932oswg404_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>俗话说得好：传言有出入，期待需谨慎。</p>
-<p>但还是禁不住狠狠期待一下！</p>
-<p>下面一起来看更详细的剧透——</p>
-<h2><strong>Claude 4不走老路，可控制使用时的推理成本</strong></h2>
-<p>如前所述，Claude 4与此前的通用大模型不同。</p>
-<p>它<strong>把通用模型和推理模型融合到一起去了，会根据具体任务，调整所需算力和所需功能</strong>：</p>
-<p>遇到复杂的问题，就启用推理能力；遇到简单的问题，就用通用模型处理。</p>
-<p>而且<strong>用户可以自行控制，每个问题需要耗费多少token</strong>——表现出来就是我可以规定它在每个具体的问题上思考推理多长时间。</p>
-<p>具体操作，是使用者可以通过一个游标刻度尺来调整，刻度上标注的是“完成任务所需的token数”。</p>
-<p>如果将游标滑动到“0”，那么Claude 4就是一个传统的、不带推理能力的AI大模型。</p>
-<p>滑动到的数值越大，所调用的算力就越多，思考推理过程就越长。</p>
-<p class="image-wrapper"><img data-img-size-val="116,114" src="https://img.36krcdn.com/hsossms/20250214/v2_8f60b72316a64720865b320ed2e2eaad@46958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>其实呢，OpenAI现在的模型也有类似功能。</p>
-<p>不过<strong>OpenAI只分了“低-中-高”三档</strong>，供用户选择推理强度。</p>
-<p>但讲道理，很难预测模型在每一档位实际上会用掉多少tokens，所以很多用户反馈“三个档位并不能很好地控制使用成本”。</p>
-<p>不过，这可能和OpenAI和Anthropic的市场定位有关系。</p>
-<p>OpenAI更多针对的是普通用户和个人开发者，三档式更简单易懂，方便操作。</p>
-<p>而Anthropic更注重企业级市场，相对来说toB一些，所以采用了游标刻度尺来调整，让使用者控制成本、速度等。</p>
-<p class="image-wrapper"><img data-img-size-val="234,206" src="https://img.36krcdn.com/hsossms/20250214/v2_e9eb07941f8a4b77927956b93946923e@46958_oswg81480oswg234oswg206_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>推理通用二合一，下一个大趋势？</strong></h2>
-<p>可以看到，国外大模型的两个最强玩家，Anthropic和OpenAI，都明确了下一步道路：</p>
-<p><strong>让通用模型和推理模型合二为一。</strong></p>
-<p>几周内将发布的Claude 4如此，数月内将发布的GPT-5也是如此。</p>
-<p>这或许是所有基座大模型玩家的下一步共同选择也未可知——</p>
-<p>当传统Scaling Law撞墙成为一个强共识，而后训练、推理、CoT的重要性与日俱增时，推理变成通用模型的必需技能，似乎是大势所趋。</p>
-<p class="image-wrapper"><img data-img-size-val="567,572" src="https://img.36krcdn.com/hsossms/20250214/v2_aab480c3bf4c4e53b03347f551d02ff4@46958_oswg21750oswg567oswg572_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不过在这中间，<strong>Anthropic有属于自己的牢固生态位，那就是它旗下的Claude系列，编程能力一直站在第一梯队的顶尖</strong>。</p>
-<p>而且它擅长的是大厂工程师所需级别的编程任务。</p>
-<p>举个例子，Claude系列更擅长理解由数千个文件组成的复杂代码库，并生成就能正常运行的完整代码，且一次成功。</p>
-<p>这就非常有意思了～</p>
-<p>因为在面对复杂编程问题时，AI大模型往往会偷懒，仅提供注释，而不是吐出实际代码。</p>
-<p><strong>不过，现在还不清楚Claude 4将如何定价。</strong></p>
-<p>会比o3-mini便宜吗？会比DeepSeek-R1便宜吗？会比Google 2.0 Flash-Lite便宜吗？</p>
-<p>暂时还没人知道。</p>
-<p>不过有网友说出了大多数人的心声：</p>
-<blockquote>
-<p>如果花1000美元还解决不了我想解决的问题，那不是纯纯浪费钱吗。</p>
-</blockquote>
-<p class="image-wrapper"><img data-img-size-val="942,254" src="https://img.36krcdn.com/hsossms/20250214/v2_4d6b87d341c54484a27b15d89cba907b@46958_oswg58881oswg942oswg254_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>说白了，如果不是在某项实用能力上有「傲视群雄的拔尖实力」，或许所有模型玩家在定价这一part上能做的，就是像DeepSeek和Google 2.0 Flash-Lite一样。</p>
-<p>（忍痛）<strong>对着价格先狠狠砍一刀，然后再砍一刀，再砍一刀……</strong></p>
-<p>参考资料：</p>
-<p>[1]https://x.com/iruletheworldmo/status/1888978299159756878</p>
-<p>[2]https://x.com/kimmonismus/status/1890056488774676697</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/QijM55Vrhln0lfMklPYkZA" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：衡宇 ，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166101083089410</guid><pubDate>Fri, 14 Feb 2025 17:30:00 +0800</pubDate></item><item><title>孙正义，有点悬了</title><link>https://36kr.com/p/3166185550129929</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 14 Feb 2025 18:30:21 +0800</lastBuildDate><pubDate>Fri, 14 Feb 2025 18:30:21 +0800</pubDate><item><title>孙正义，有点悬了</title><link>https://36kr.com/p/3166185550129929</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>5000亿美元，孙正义把话撂出去了。</p>
 <p>这是献给特朗普上任的“星际之门”项目——由OpenAI、软银集团和甲骨文牵头，旨在未来四年在美国投资5000亿美元。当中，一切财务事宜由孙正义所执掌的软银负责。</p>
 <p>如此野心勃勃，却迅速遭到了马斯克打脸：“他们实际上没有钱。”双方唇枪舌战，轰动一时。</p>
@@ -821,4 +541,314 @@
 <p><strong>刘学文（主持人）：</strong></p>
 <p>我又想起了刚才Enya和继刚老师心有灵犀的一刻，你们同时脱口而出的<strong>“我思故我在”</strong>。我觉得这个无意识的瞬间恰好呼应了我们的主题。大家心有灵犀。聊到现在，我们谈了很多概念，比如AI味儿、提示词、幻觉、赛博格、生产力和智力等。但最后都凝练到了“我思故我在”。<strong>你必须思考，必须保持自己的存在，无论是拥抱还是抵抗。</strong>感觉也差不多聊完了。最后有一个超出预期的结果，我们确实心有灵犀。 </p>
 <p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MjM5OTE0ODA2MQ==&amp;mid=2650986245&amp;idx=1&amp;sn=7db0afd95a9dc5b54f0d1665d2da6147&amp;chksm=bd1e61d92dad67a3631bb5b8fbd4e68a5e7ade3048cb569f941152b89d4383af09c3094cc797&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“腾讯研究院”（ID：cyberlawrc）</a>，作者：腾讯研究院，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166181487340037</guid><pubDate>Fri, 14 Feb 2025 17:50:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166181487340037</guid><pubDate>Fri, 14 Feb 2025 17:50:00 +0800</pubDate></item><item><title>DeepSeek R1遇难题142次"I give up"，研究还称需增加推理时机控制机制</title><link>https://36kr.com/p/3166100326738695</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>最新大语言模型推理测试引众议，DeepSeek R1常常在提供错误答案前就“我放弃”了？？</p>
+<p>Cursor刚刚参与了一项研究，他们基于NPR周日谜题挑战（The Sunday Puzzle），构建了一个包含近600个问题新基准测试。</p>
+<p>这些<strong>谜题特点是很好理解</strong>，不需要专业知识就能看懂，然鹅解决起来却没那么容易。</p>
+<p>举个栗子：</p>
+<blockquote>
+<p>想一个熟悉的五个字母、两个音节的单词。将中间字母改为字母表中该字母前面的字母，你将得到一个熟悉的五个字母、三个音节的单词。这个单词是什么？</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="756,154" src="https://img.36krcdn.com/hsossms/20250214/v2_a84e1500453c4d15bad2aec104a20037@46958_oswg14822oswg756oswg154_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>标准答案是<strong>alpha → aloha</strong>，很容易验证。</p>
+<p>但这样的题，即便是在美国长大讲英语的成年人，五天也很难解出来。</p>
+<p class="image-wrapper"><img data-img-size-val="820,344" src="https://img.36krcdn.com/hsossms/20250214/v2_87d7167901484f1dbe70cdec5b4f4c3c@46958_oswg30101oswg820oswg344_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>研究人员用此最新基准，对OpenAI o1、OpenAI o3-mini、DeepSeek R1和Google Gemini Flash Thinking等模型进行测试，结果发现这些最新一代的推理模型解决这样的谜题也很具挑战性。</p>
+<p>他们还表示，<strong>研究揭示了一些新的模型“故障”模式</strong>，这在现有的基准测试中并不明显。</p>
+<p>比如DeepSeek R1会在推理过程中直接放弃，然后给一个它明知是错误的答案，有时还会陷入“无限思考”状态。</p>
+<p>具体来看看是怎么回事。</p>
+<h2><strong>周日谜题挑战数据集</strong></h2>
+<p>NPR Sunday Puzzle Challenge，是美国一档广播智力游戏节目，自1987年以来一直在播，每周日听众都会收到一个简短谜题。</p>
+<p>这些谜题通常涉及字母游戏，只需要普通的英语知识和美国文化常识就能理解。</p>
+<p>不过<strong>每个谜题通常只有一个或极少数正确答案</strong>，题目难度各异，即便听众有整整五天的时间思考，有时最后也只有少数听众能想出正确答案。而当答案揭晓时，听众们都会恍然大悟觉得这个答案既正确又优雅。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,411" src="https://img.36krcdn.com/hsossms/20250214/v2_72d8b9120912403cbc374bdfc4b89281@46958_oswg93526oswg1080oswg411_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>最近，来自韦尔斯利学院、得克萨斯大学奥斯汀分校、查理大学、Cursor、欧柏林学院、美国东北大学的研究团队，从网上抓取了13年的周日谜题挑战记录构建了一个数据集。</p>
+<p>他们认为，目前一些最新基准测试用非常难的任务评估模型，比如大学级数学竞赛问题、编程问题以及需要在学术领域深入的领域专业知识问题，这种设计不仅对人类来说难以解决，而且也非常难以理解和验证。</p>
+<p>也就是说，大多数人或无法检查答案是否确实正确，或无法验证模型在推理上是否正确且有效。</p>
+<p>于是，他们从这个节目的“off-air challenges”中整理出了近600个问题作为测试数据集。</p>
+<p><strong>这些题目很好理解且便于验证。</strong></p>
+<p>在整理过程中，他们补充了必要的上下文信息（时间、地点等），比如在一个关于电影名称的谜题中，特意标注了具体年份，避免歧义。</p>
+<blockquote>
+<p>电影Wild Wild West的首字母缩写是三个W。请问去年2013年哪部著名电影的首字母缩写有两个W？标准答案：The Wolf Of Wall Street</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="752,112" src="https://img.36krcdn.com/hsossms/20250214/v2_2bae17370aa0454cac51a2f2711c7307@46958_oswg11685oswg752oswg112_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为确保每个问题的答案清晰明确，大多数挑战都有一个或少数几个独特答案，像下面这样婶儿有许多答案的问题都被pass掉了：</p>
+<p class="image-wrapper"><img data-img-size-val="754,132" src="https://img.36krcdn.com/hsossms/20250214/v2_f0ca6e91cbfd481baf9c617a3e8ec2bd@46958_oswg15158oswg754oswg132_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然后团队用该基准评估了一众顶流推理模型，包括OpenAI o1、o1-mini、o3-mini，DeepSeekR1、谷歌Gemini 2.0 Flash Thinking Experimental01-21，作为对照，还测试了不具备推理功能的GPT-4o和Claude Sonnet 3.5。</p>
+<p>测试采用zero-shot prompting，直接向模型提供问题，不给任何额外的格式说明或指导。</p>
+<p>不过有些谜题题目本身自带示例说明：</p>
+<blockquote>
+<p>SWITZERLAND（瑞士）的字母可以重新排列成LIZARD（蜥蜴）和NEWTS（蝾螈）两个单词，LIZARD是一个动物的单数形式，而NEWTS是复数形式。请再说出另一个具有相同特性的国家。即另一个其字母可以重新排列来拼写两种动物——一个单数和一个复数的国家。它是一个主要国家。这个国家是哪一个？</p>
+<p>标准答案：Mexico（墨西哥） → ox（牛），mice（老鼠）</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="746,202" src="https://img.36krcdn.com/hsossms/20250214/v2_964183b874cf4ad891c1bf0487cd79af@46958_oswg22760oswg746oswg202_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>团队给出的最终测试结果却出人意料。</p>
+<p>根据下图该基准的平均准确率，<strong>OpenAI o1表现最优，准确率为59%</strong>；然后是o3-mini，准确率为47%，DeepSeek R1准确率为35%。</p>
+<p>不具备推理功能的GPT-4o和Claude Sonnet 3.5明显不如推理模型。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,489" src="https://img.36krcdn.com/hsossms/20250214/v2_d219ed4636e74b948eccbf753f1083de@46958_oswg145285oswg1080oswg489_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>出人意料的点在于，在博士级科学问题GPQA基准上，DeepSeek R1、OpenAI o1和o3-mini的<strong>表现差距不大</strong>，然而在该基准上o1在通用知识方面却显示出明显的优势。</p>
+<p>团队还观察到一些新的模型“故障”模式——<strong>推理半道“I give up”</strong>。</p>
+<p>这种放弃表现出两种形式，一种是给出一个在推理过程中完全没有出现过的<strong>“凭空”答案</strong>。</p>
+<p class="image-wrapper"><img data-img-size-val="1018,192" src="https://img.36krcdn.com/hsossms/20250214/v2_fc46ff07cdee44558967010cc3ac5e97@46958_oswg19477oswg1018oswg192_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,466" src="https://img.36krcdn.com/hsossms/20250214/v2_198592ce5213448288dcbbcecbe11ffe@46958_oswg257591oswg1080oswg466_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>另一种是<strong>明知违反问题约束但仍然给出答案</strong>，常发生在下面这种问题中：</p>
+<blockquote>
+<p>想一个包含三个音节的八个字母的单词，每个音节中都包含字母“I”，但奇怪的是，没有一个“I”发音，无论是长音还是短音。答案不是复数形式。这个单词是什么？</p>
+<p>标准答案：Daiquiri</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,209" src="https://img.36krcdn.com/hsossms/20250214/v2_32b8e5601721423cb1450a37bfe977a6@46958_oswg35394oswg1080oswg209_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>以DeepSeek R1为例，它给出了“queueing”这个答案，并直接表示这个答案“有点牵强”，还解释有些人可能会把“queueing”发音为“kyoo-ee-ing”。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,673" src="https://img.36krcdn.com/hsossms/20250214/v2_4f1322580cfe4dc89ae4b312d7f85168@46958_oswg343472oswg1080oswg673_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>团队表示，在595个测试问题中，DeepSeek R1在142个问题上明确“放弃”。</p>
+<p>此外，他们还发现R1等会陷入“无限思考”的状态，在达到32768token上下文输出限制前无法完成推理，并没有&lt;/think&gt;。</p>
+<p>特别在以下两个挑战中R1表现不佳，在10次试验中有5次未能完成推理。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,301" src="https://img.36krcdn.com/hsossms/20250214/v2_4a8ad0da80b2434da9e91dd8ef5f64c6@46958_oswg69436oswg1080oswg301_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>即使将限制提高到128K，这个问题仍然存在，由此，<strong>团队认为R1需要某种推理时机控制机制，</strong>鼓励模型在接近输出token限制时结束推理。</p>
+<p>研究人员还发现，这些推理模型有时会表现出异常的不确定性，可能会提出一个答案，马上又收回，然后尝试给出新答案。</p>
+<p>在某些情况下，模型很早就找到了正确答案，但仍会继续探索其它可能性。</p>
+<p class="image-wrapper"><img data-img-size-val="1024,256" src="https://img.36krcdn.com/hsossms/20250214/v2_996e7f90e343448d8d3718a762fb567b@46958_oswg26282oswg1024oswg256_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,361" src="https://img.36krcdn.com/hsossms/20250214/v2_ab776460f969482c95e71272b03ed7ed@46958_oswg244110oswg1080oswg361_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>最后团队分析了推理长度与准确率的关系，发现在<strong>输出约10000个token后，继续推理对提升准确率的帮助不大</strong>。</p>
+<p>对于R1来说，在输出约3000 token时就开始超过Gemini Thinking的表现。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,595" src="https://img.36krcdn.com/hsossms/20250214/v2_6c65557dff29446fa3f03e7a88c11869@46958_oswg270189oswg1080oswg595_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>新基准引发网友热议</strong></h2>
+<p>这项研究发布后，在Hacker News上引起网友热烈讨论。</p>
+<p>其中最具争议的一个点在于，有网友认为这项研究<strong>并非传统意义上的“推理”挑战</strong>：</p>
+<blockquote>
+<p>解决这些问题所需的核心技能似乎是知晓“流行品牌名”或“知名演员”等类别的所有已知名称，检查它们是否符合。</p>
+<p>作为人类，你可能会因为不知道某个特别名称而永远无法回答某个问题，例如不是美国人，我不知道“Citgo”是什么，我这辈子从未见过这个名。</p>
+</blockquote>
+<p>网友表示这的确是一个AI系统原则上可能真正擅长的事情，但当测试内容过于侧重“<strong>记忆回忆</strong>”时，把它称为“推理”似乎很奇怪。</p>
+<blockquote>
+<p>如果问题是多项选择的，消除了让候选答案浮现在脑海中的挑战，那么我会同意这是一个“推理”测试。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,314" src="https://img.36krcdn.com/hsossms/20250214/v2_22d7116407bf49b1b4d27998d3bf9cc6@46958_oswg235597oswg1080oswg314_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>持此观点的网友不在少数。</p>
+<blockquote>
+<p>我有同样的想法。这让我想起解决Project Euler问题，通常存在一种明显的简单方法可以保证得出正确答案，但如果执行到完成，将消耗过多的内存/计算资源。如果提示模型制定一种有效解决这些挑战的策略，而不是直接解决它们，模型的表现可能会好得多……这表明了一个潜在的改进方向。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,154" src="https://img.36krcdn.com/hsossms/20250214/v2_06fc2af17fc64f34af606e854fe42179@46958_oswg119535oswg1080oswg154_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>另外，针对模型表现不一，也有网友提出能否确定这些谜题和答案没被加到模型的训练数据中的疑问。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,127" src="https://img.36krcdn.com/hsossms/20250214/v2_5db80c19af2b4b0db625924017125799@46958_oswg73980oswg1080oswg127_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>聚焦到研究结果上，网友对研究中的发现很感兴趣：</p>
+<blockquote>
+<p>有趣的是，模型在推理中经常包含正确答案，但却没能意识到这一点。</p>
+</blockquote>
+<p class="image-wrapper"><img data-img-size-val="1080,438" src="https://img.36krcdn.com/hsossms/20250214/v2_56df2f1ad01f413e9e25ce4d29f7c161@46958_oswg282802oswg1080oswg438_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>数草莓问题中“r”这一问题也再被网友搬出，有网友认为模型表现不佳的关键还是在分词器上。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,91" src="https://img.36krcdn.com/hsossms/20250214/v2_f8ef2498d0ba4f9ebd7192e9d11bacf6@46958_oswg42100oswg1080oswg91_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>对于这项研究你怎么看？</p>
+<p>论文链接：https://arxiv.org/abs/2502.01584测试结果和数据集：https://huggingface.co/spaces/nuprl/verbal-reasoning-challenge参考链接：https://news.ycombinator.com/item?id=42992336</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/sbSUI0ECeqsSDaWoI3cPMw" rel="noopener noreferrer nofollow" target="_blank">“量子位”</a>，作者：西风，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166100326738695</guid><pubDate>Fri, 14 Feb 2025 18:00:00 +0800</pubDate></item><item><title>《哪吒2》票房破100亿，破不了文旅IP“焦虑”</title><link>https://36kr.com/p/3166255258085889</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_61c1f673e08b4570bc6130ab0e61810c@000000_oswg147004oswg1080oswg890_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>等着见证电影《哪吒之魔童闹海》票房破100亿这一历史时刻的网友终于如愿了，下一个新愿望是想要一座哪吒主题乐园。但可惜，目前为止线下文旅与《哪吒2》的最大联动，就是争哪吒是哪里人。</p>
+<h2><strong>1</strong></h2>
+<p>根据网络平台数据（灯塔专业版），其总票房（含点映及预售）成绩终于在2月13日突破100亿。另据数据显示，截至2月13日14时43分，这部电影的观影人次也突破2亿，成为中国影史首部达成此观影人次成就的电影。</p>
+<p>这些历史成绩的创造，从电影上映到实现仅仅用了16天。</p>
+<p>因为其对中国电影史有划时代意义，人民网、央视新闻等官方媒体还特别发起了直播活动，与网友共同见证了这一重要时刻。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_2817313f20a7490a8d2ceeedbc1a0f37@000000_oswg159964oswg1080oswg1014_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>未来这部电影将会达成怎样的票房成绩，目前而言好似所有的预测都已经失效，每一次数据增长对于中国电影而言，都是在创造新历史，达成新成就。</p>
+<p>而这也被视为国漫崛起的标志性事件，能与其造成的大众舆论话题度和行业影响力相媲美的，大概只有游戏界的《黑神话·悟空》。</p>
+<p>巧的是，<strong>这两大具有划时代意义的突破性事件，都涉及中国神话故事的重塑，是对如何利用好中国本土文化IP，讲出精彩故事，实现引流与变现的有利示范。</strong></p>
+<h2>2</h2>
+<p>一直以来，中国文化IP的深挖是休闲文娱行业不同领域都在不断探索和尝试的课题，其中旅游业也是重要参与者与实践领域之一。但相较于电影、游戏结出了“硕果”，文旅项目谈及IP话题时，依然被认为缺乏创新和变现能力。</p>
+<p>就拿此次创造历史的《哪吒2》来说，文旅行业与其产生的联动效应，最出圈的大概就是四川与天津网友对哪吒究竟是哪里人，谁才是哪吒故里的“争抢”。</p>
+<p>其中四川网友的依据是宜宾南广镇有陈塘关，当地还有哪吒洞、哪吒行宫、天池公园还生阁等诸多与哪吒相关的古迹。并且电影中太乙真人讲的也是四川话，是在四川江油的乾元山金光洞得道飞升。</p>
+<p>天津网友则认为天津河西区有陈塘庄，与小说中的 “陈塘关” 名称高度契合，且天津地方志有记载，陈塘庄曾建有哪吒古庙、李靖官邸等，更为重要的，“哪吒闹海”闹得是“九湾河”，而天津海河就因九曲回环被称为 “九河下梢”，也高度契合。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_3859544db61944fabb873950b7eeaf28@000000_oswg207881oswg1080oswg2159_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>虽然这波只是由《哪吒2》电影引发的巨大舆论中没有引发太大关注与争议的“小浪花”，但也折射出，<strong>渴望强大IP引流助力的文旅官方不会放过每一个可以“蹭”的热度。</strong></p>
+<p>彼时《黑神话·悟空》游戏大火时也曾有过这样的“盛景”。全国能够沾上边的目的地及景区几乎都在推与其相关的内容，即便不能真的吸引更多线上网友实地到线下打卡，但从流量与曝光度而言，也会是一次难得的出圈机会。</p>
+<p>但问题是，IP的热度过了，文旅目的地及景区就会又开始寻找下一个有流量的话题，可能是影视剧，也可能是流量明星。总之，线上花式“整活”引流这件事从没被落下过。</p>
+<p>后续是否真的有更进一步的动作，比如与哪个大火IP更深入的联动，却鲜有成功案例的呈现。如何把线上流量转化为实实在在线下客流这件事上，也没什么成功经验。</p>
+<h2><strong>3</strong></h2>
+<p>这也使得文旅目的地对IP价值的认知和深挖只能停留在表面化开发，不具备内核且缺乏文化深度，更多是停留在符号化、视觉化的浅层表达。这也使得不同地方在同一IP借力的方式上都会存在很大的同质化和雷同性。</p>
+<p>还是以《黑神话·悟空》为例，彼时各地方文旅“蹭”热度的方式都大同小异，只是简单地推出免门票、打卡等常规活动，而没有深入挖掘当地特色和游戏元素的结合点。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_ccc1c7aaf6c842f781a60055035b4538@000000_oswg269764oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：山西省文化和旅游厅官方微博</p>
+<p>唯一有深度联动的，可能就是从游戏策划打造时期就已经与官方捆绑，“押中宝”的山西文旅，但其呈现的合作形式，也逃不出主题产品以及联合各大酒店、景区推出住宿、门票优惠这样的常见套路，后续给山西文旅的助力，从项目打造及深度体验层面，并未有更进一步的消息可参考。</p>
+<p>而这也凸显了文旅领域特别是本土主题乐园发展进程中，一个非常凸显的短板问题，就是至终未能把本土IP的价值深挖融入到项目中，缺乏现象级IP原创内容。</p>
+<p>至今也仍未能出现如迪士尼、环球影城一般可以有源源不断创新IP，能够形成从影视商业化到线下主题乐园商业转化的成熟公司，仅能依靠模仿或者依赖引进外部IP来做主题乐园IP引流及运营的尴尬境地。</p>
+<h2><strong>4</strong></h2>
+<p>而此前业者在谈及中国本土IP打造为什么难这一问题时，提到的挑战之一就是需要时间和耐心。中国主题乐园的发展路径与迪士尼、环球影城等国外主题乐园不同，它们是先有IP才有乐园，主题乐园是对其已经具备影响力IP价值的延展与衍生。</p>
+<p>而中国的主题乐园并不是依靠IP来催化的，大部分主题乐园都没有具有代表性的独特IP，甚至连IP事实，对IP重要性的认知，都是在2016年上海迪士尼入华之后才开始觉醒，这就注定了中国主题乐园想拥有影响力巨大且吸金能力极强的本土IP非常难。</p>
+<p>这也注定了因为成长基因造成的“缺陷”想要通过后天努力来弥补追赶，确实要花费更多的时间与精力，付出更多的诚意与真心。</p>
+<p>这样的挑战从5年时间才能出一部作品的饺子导演在谈及其对哪吒系列电影的高标准、严要求，过程中折磨“疯”乙方，一个镜头和特效的打磨就要几个月时间，不放过一个表情细节，甚至70%表演都要亲自演一遍的创作经历中也能看得到。</p>
+<p>相信在付出这样巨大精力与用心的时候，他应该也不敢想作为续作的《哪吒2》可以创造出如此多的影史纪录，成为亚洲首部百亿票房电影作品。</p>
+<p>关键还是在于他对自己作品品质、专业性的严守，以及把观众放在首位的价值观。</p>
+<p>相较于有演员加持的真人电影，本身就被认为受众群体更加小众化的动画电影从题材到制作面临的票房压力要更大，而第一部哪吒电影超50亿票房的成绩，对饺子导演而言也是自己堆起的一座难以逾越的高山，如果不能超越或者口碑崩盘，要面对的舆论风暴又将会是另一番场景。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_be07f6ac2c454de2aec922787b3c5f12@000000_oswg345262oswg1080oswg1578_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：电影哪吒之魔童闹海官方微博</p>
+<p>事实证明，中国的消费者还是会愿意为诚意、为尊重买单，回馈给电影制作方的不仅仅有百亿票房“神话”，还有这一IP带给相关周边衍生产品强大的吸金能力。</p>
+<p>其中仅湖南桑尼森迪玩具制造有限公司，通过授权销售周边玩具的累计销售额就已经突破2亿元。还有其与泡泡玛特推出的"天生羁绊"系列手办盲盒，上线8天即突破千万销售额，目前最新订单预计最晚要等到6月30日才能发货。</p>
+<p>这又是多少本土主题乐园通过原创IP或者引入国际大IP想要实现的效果。</p>
+<h2><strong>5</strong></h2>
+<p>站在游客特别是年轻客群视角，希望中国也能有自己本土大IP主题乐园的渴望也已经躁动不已，每当有大火影视IP出圈的时候，总会有人默默问，是不是能打造成主题乐园，肯定会去N刷。</p>
+<p>比如科幻题材大电影《流浪地球》上映时候，想要拥有一个专门主题乐园的建议甚至还冲上了热搜，官方尚未回应，热情的网友就已经开始自己设计规划这个乐园应该怎么建，建在哪里最合适，项目怎么策划，宣传怎么打开，俨然就是“精神股东”的状态。</p>
+<p>《哪吒2》爆火之后也是如此，已经有网友在问，北京环球影城能不能把哪吒作为新IP去扩建1.5期。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_7d19f3b79a254ebbafe5d586839e9bdf@000000_oswg615755oswg1080oswg1748_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>显然，这位网友只是从兴趣和愿景出发才有此一问，从实际操作角度，环球影城把哪吒IP作为长期落地新项目去打造的概率基本为零，很难实现。也有网友在评论区回复，更希望国漫可以建立自己的IP宇宙，用中国神话故事内核，打造自己的乐园。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_9a7138387f214237b1b17e2075923689@000000_oswg288682oswg1080oswg654_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>事实上，中国文化IP主题乐园国内已经有先行者，比如淮安西游乐园，已经做出一定知名度，2024年7-8月暑期旺季时候，乐园累计接待游客也达70万人次，实现营收超亿元，且除门票收益之外，二次消费（餐饮、文创等）收入占比能达36.26%。</p>
+<p>在营销时候，官方也有意在强调“中国人自己的主题公园”IP品牌。特别是在《黑神话：悟空》大火的时候，收获了不少的线上曝光与关注，并称乐园正在与游戏公司积极联系，争取相关合作活动落地。</p>
+<p>但后续也并没有见到两者有更多互动。这也折射出，本土主题乐园企业做游客项目可以，但是想要自己培育酝酿出一个出圈的IP，或者是用更有创意的故事去赋予原有神话IP新的内涵与影响力，也就是故事的能力不太行，单纯依靠神话IP的“路人缘”与“自来水”，很难从IP赋能角度有所突破。</p>
+<h2><strong>6</strong></h2>
+<p>而更会讲故事，更容易打造出圈IP的影视公司为主导来打造主题乐园的路径可行吗？就如同迪士尼与环球影城一样，目前看，在中国市场也没有这样既懂IP又懂文旅的公司出现，跨界做乐园，对于影视公司的挑战也很大。</p>
+<p>即便对自己IP有信心，想要做这件事的影视公司也都是选择与文旅企业进行合作，更像是授权方。</p>
+<p>比如已经计划筹建《流浪地球》主题公园的中国电影集团公司就是选择了中青旅集团，去年7月份时中青旅还曾公开回复过相关问题，称其与中国电影集团公司已签署战略合作协议，相关合作正在推进。</p>
+<p>而此次哪吒系列电影背后的资方，光线传媒也已经提出过要打造“中国神话宇宙”，除哪吒外还会有《姜子牙》《大圣闹天宫》《凤凰》等更多IP的加入。</p>
+<p>但这也有一个问题，就是并不是所有神话IP的电影都能如哪吒系列这般成功，有一个饺子导演来“死磕”。大部分从票房和影响力角度，都算不上出圈，比如《姜子牙》，口碑还可以的情况下，票房最终停在了16.02亿元‌‌。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_b6d0be4599a14165b009df13ff36ba23@000000_oswg265790oswg1080oswg1920_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：电影姜子牙官方微博</p>
+<p>另一部由其全资子公司光线动画打造的电影《小倩》，市场就更不买账，水花都没溅起多少，累计票房1300万元‌都很难突破。</p>
+<p>怎么把有创造力的内容制造者笼络到自己旗下，还要保障对IP有足够话语权来做更多领域商业化探索，这一问题是对于影视集团想要做线下乐园尝试十分棘手的问题。作为IP所有方在没有足够信心的时候，也不会亲自下场砸钱做这件事。</p>
+<p>那之于游客能在乐园体验到的，大概率也只有一些浅层次的跨界联动活动。想要一个中国自己的迪士尼、环球影城的梦想，依然很难实现。</p>
+<p>好消息是饺子导演在接受媒体采访时明确表示，哪吒系列电影会渐渐推到封神大战，第二部作品中也让很多其他角色比如十二金仙有了亮相，算是埋下了伏笔，故事观、世界观会越来越庞大。</p>
+<p>虽不知最终是否真能打造一个中国版“漫威宇宙”，但借用网友的话：有开始，就会有未来。这既是对中国电影、国漫迎来百亿作品的祝福与更高期待，也适用于正在埋头追赶的中国主题乐园企业。</p>
+<p>图片来源于电影哪吒之魔童闹海官方微博、电影姜子牙官方微博、山西省文化和旅游厅官方微博和网络截图 </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=Mzg3MjAwMDUwNw==&amp;mid=2247679884&amp;idx=1&amp;sn=c7c1b4c4cff17a8732c256eb19dfc0ce&amp;chksm=cfd332013631353b93a95ea8527685079a16430cf3e32003bf0fc1d05745837236fb8048ad7b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“闻旅”（ID：wenlvpai）</a>，作者：郭鸿云，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166255258085889</guid><pubDate>Fri, 14 Feb 2025 18:14:00 +0800</pubDate></item><item><title>比亚迪把智驾价格打下来，谁最紧张？</title><link>https://36kr.com/p/3166068932176392</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1600,900" src="https://img.36krcdn.com/hsossms/20250214/v2_54b056fce80f442aad226086c4088593@5314607_oswg1137568oswg1600oswg900_img_png?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>高阶智驾汽车，再次直击价格下限。</p>
+<p>近日，比亚迪宣布，旗下“天神之眼”高阶智驾系统将覆盖全产品线21款车型，全系车型搭载高阶智驾，其中价格最低的海鸥智驾版低至7.88万元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_8e9bbce23b8742a0997552573a8ecc03@000000_oswg53980oswg1018oswg759_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">海鸥智驾版价格区间，图源比亚迪官方微信公众号 </p>
+<p>“未来2到3年，高阶智驾将成为像安全带、安全气囊一样必不可少的配置。”比亚迪董事长王传福断定：“到那时，没有高阶智驾的车将成为少数派”。</p>
+<p>涟漪随即在车圈扩散。华为智能汽车解决方案BU董事长余承东、小鹏汽车董事长何小鹏、长城汽车董事长魏建军等行业大佬纷纷发声回应。</p>
+<p><strong>数年间，从“油电同价”到“电比油低”，比亚迪曾一路狂奔成为“新能源一哥”，成为全球第一个新能源产销突破1000万辆的车企。这一次，从“天神之眼”诞生到如今建立起完整智驾生态，比亚迪会成为“智驾平权”的代言人吗？</strong></p>
+<p>无论如何，7万元价位的智驾刚刚打响新一轮价格战的第一枪。2025年，业界眼中智驾竞争惨烈的“下半场”，格局正在不断被重塑。</p>
+<h2><strong>1、比亚迪全系车型搭载高阶智驾，究竟是如何做到的？</strong></h2>
+<p>不到两年时间，比亚迪高端智驾一鸣惊人。</p>
+<p>2025年2月10日，比亚迪在深圳总部举办智驾发布会，宣布全产品线“加配不加价”进行智驾升级。横跨“王朝“与“海洋“两大系列，涵盖秦、宋、元、汉、唐、海豹、海豚、海鸥等产品，从6.98万元起售的海鸥到百万级的仰望品牌，21款车型都将搭载“天神之眼”高阶智驾系统，全部转为智驾版。</p>
+<p><strong>具体来说，除去入门级海鸥会同时保留智驾版和非智驾版，比亚迪全系车型都将搭载高阶智驾。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_d8b0c2d9bbfb493eb3871657a08fab24@000000_oswg109798oswg1039oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">“王朝“与“海洋“两大系列智驾升级价格图，图源比亚迪官方微信公众号 </p>
+<p>从2023年7月到当下，“天神之眼”高阶智驾系统推出不足两年，比亚迪已构建起完整的智驾生态，并根据不同价位，推出了三个等级的“天神之眼”系统完成分级部署：</p>
+<p>“天神之眼A”（DiPilot 600）搭载于仰望品牌等豪车，配备3颗激光雷达、双OrinX芯片，算力达508TOPS；</p>
+<p>“天神之眼B”（DiPilot 300）主要应用于腾势品牌和比亚迪品牌的中高端车型，采用1-2颗激光雷达、1颗OrinX芯片，算力254TOPS，具备城区NOA能力；</p>
+<p>“天神之眼C”（DiPilot 100）面向主流市场，没有配备激光雷达，而是采用“5R12V”（5个毫米波雷达，12个摄像头）的纯视觉路线，搭载1颗Orin N/征程J6芯片，算力84/128TOPS，支持高速NOA功能。</p>
+<p>从搭载车型来看，“天神之眼A”用于百万级车型，“天神之眼B”主要面向20万元以上车型，而“天神之眼C”则瞄准7万元至20万元车型。</p>
+<p>不难看出，“天神之眼C”是此次比亚迪智驾普及战略的核心。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_e8f25423dbd6403d9e7fa13139a6111b@000000_oswg54663oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">王传福在发布会上，图源比亚迪官方微信公众号</p>
+<p><strong>王传福在发布会上表示，过去的高阶智驾往往搭载在20万元级车型上，“高昂的价格，导致2024年中国售出的车辆只有不到10%的有高阶智驾，而我国70%的汽车消费者都是购买20万元以下的车”。</strong></p>
+<p><strong>而在20万元以下的主战场，比亚迪优势尽显。</strong></p>
+<p>首先是性能。据虎嗅报道，天神之眼C成本低但足够成熟，尽管配置相对基础，却能在50多公里的实测中表现出色，已能够应对效率超车、进出匝道等不同路况，在高速NOA和智能泊车功能上能达到行业第一梯队水平。</p>
+<p>其次是成本。据上述报道中虎嗅的推测，比亚迪通过智驾普及提升需求量，保守估计能将智驾系统的成本压低30%-40%左右。其中自产摄像头和传感器可压缩50%-60%成本，芯片批量采购可压缩30%左右，自家组装生产则可压缩40%-50%的成本。</p>
+<p>最后是数据量。据发布会披露，比亚迪拥有5000多名智驾研发团队成员，每天新增训练里程达7200万公里，预计到2025年底将达到接近特斯拉2024年底的训练能力水平。目前比亚迪已经自建超算中心，每7天就可以训练出一个云端版本。</p>
+<p><strong>比亚迪背后的合作伙伴也成为行业关注的焦点。</strong></p>
+<p>在激光雷达上，比亚迪的供应商包括自家投资的速腾聚创，以及图达通、禾赛科技、华为等主流厂商。</p>
+<p>在智驾芯片上，比亚迪选择地平线、英伟达双供，“天神之眼C”主要选用英伟达Orin N芯片或地平线征程6M芯片，“天神之眼A”“天神之眼B”则主要选用英伟达Orin X芯片。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_eaa227a3afe8414590eca65b807a6076@000000_oswg61802oswg1080oswg729_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">2024年4月，王传福在地平线发布会上宣布征程6系列合作，图源地平线官方微信公众号</p>
+<p>2月12日，地平线正式宣布其最新一代车载智能计算方案征程6系列，将全球首发落地比亚迪天神之眼。据了解，将在比亚迪秦系列等入门级车型搭载。从产量来看，仅秦系列月均销量就可以达到5万+的规模，覆盖规模相当大。此前地平线预计，2025年征程家族出货量目标突破1000万套，征程6出货量将超100万套。</p>
+<p>通过规模化效应、供应链管理及软硬件创新，比亚迪正在将原本昂贵的高阶智驾技术带入大众市场。新能源销量巨头手握“智驾平权”的钥匙，一场风暴席卷而来。</p>
+<h2><strong>2、智驾成标配后，各家的技术比拼也来了</strong></h2>
+<p>面对比亚迪的高调，车圈各大玩家迅速回应。</p>
+<p>2月10日，何小鹏发文称：“欢迎最近数家非常尊重的头部车企发布智能化战略，加入智能驾驶全国甚至全球普及的开始！”同时宣布，小鹏将在2025年年中推出V6全新大版，即准L3能力高阶自驾，2025年底推出真L3级别智驾。</p>
+<p>相比之下，余承东的回应显得有些“不淡定”。2月11日早上，他在社交平台强调智驾水平的差异：“智能驾驶，凑合能用与好用并安全，是完全不同的境界！就像打电话有网就行，上网就需5G！”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_797291a8b9084c66ab82c0fc486dbb32@000000_oswg897029oswg810oswg1192_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">余承东在社交平台发文，图源余承东新浪微博 </p>
+<p>2月11日晚间，近年带领长城在智驾能力上穷追猛赶的魏建军则称：“智能驾驶不是一场秀，实践出真知。真正的智能驾驶技术关乎到每一个用户和家庭的出行体验和安全，应该满足用户高频的出行场景。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_56277445fb1e49ffac15efbc618e416d@000000_oswg86428oswg802oswg376_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">魏建军在社交平台发文，图源魏建军新浪微博</p>
+<p>其实，对于真正在智驾领域有实力的玩家而言，比亚迪的“智驾平权”行动或许是一个契机。</p>
+<p>据《2024麦肯锡中国汽车消费者洞察报告》，愿意对智能驾驶支付的消费者占比从2022年的42%下降到2024年的28%。而乘联会数据显示，2024年1-10月，我国乘用车L2级及以上的辅助驾驶功能，32-40万元车型是L2+辅助驾驶落地最广的车型上。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_4cdb3761f4f1461ca23620a221b23b72@000000_oswg275240oswg1080oswg473_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">2024年1-10月新能源乘用车L2级及以上的辅助驾驶市场份额，图源中国汽车流通协会微信公众号</p>
+<p><strong>如今，随着比亚迪的战略推行，20万元以下市场的主流消费者或将有机会关注智驾能力，进而把它作为购车的核心考量因素之一。</strong></p>
+<p><strong>从小鹏坚决秉持的智驾标签及战略，到华为展现的智驾技术突破、合作模式，市场消费者对于智驾陆续了解，但市场教育一直“未完成”。比亚迪的智驾普惠之下，或许消费市场的转折点真的要到了。</strong></p>
+<p>当智驾从“锦上添花”变为刚需标配，智驾玩家们将正式迎来技术能力“真刀真枪”的比拼。竞争将不仅仅聚焦在智驾体验，还在于安全性、可靠性等核心指标。</p>
+<p><strong>这是真正的技术较量开始的时刻，智驾玩家们开始密集地提速。</strong></p>
+<p>2月9日，长安汽车董事长朱华荣发布智能化战略“北斗天枢2.0”计划，从2025年起将不再开发非智能化新产品，未来3年将推出35款数智新汽车。</p>
+<p>2月10日，何小鹏宣布小鹏汽车2025年年中将推出V6全新大版本，2025年底推出真L3级别智驾；</p>
+<p>2月11日，吉利汽车宣布将于3月初对外发布重磅AI智能化战略。此前曾传出旗下芯擎科技已成功开发全球首款符合汽车级标准的7纳米芯片“龙鹰1号”，并进入批量生产阶段；</p>
+<p>如今，各家加速提升智驾能力是必然的，智能驾驶正在成为影响消费者购车决策的关键因素之一，真正具有技术实力的玩家，其实能够吃到更多的红利，因为消费者真正开始懂得技术和体验的差异了。</p>
+<h2><strong>3、没有智驾的车，真的会被淘汰</strong></h2>
+<p>向着智能驾驶时代，汽车行业正踩紧油门。</p>
+<p>智驾的趋势从高端市场下探，在“智驾平权”的潮流中涌进主流市场，高阶智能驾驶车型将越来越普遍。</p>
+<p>根据乘联会数据显示，2024年1月到8月，L2+辅助驾驶功能装车率达到66.6%，逐渐成为标配。灼识咨询预计，2026年到2030年，中国智能汽车渗透率分别达到81.2%及99.7%。</p>
+<p><strong>数年间，华为智驾“朋友圈”的壮大，是智驾技术趋势的缩影之一。当下，华为乾崑智驾落地深蓝L07、尊界S800、阿维塔12等多款汽车，在动力类型上覆盖纯电、混动、增程，在车型上覆盖SUV、MPV、越野、轿车，在价格区间上覆盖百万豪车到20万元的汽车。</strong></p>
+<p><strong>面对这一趋势，传统车企必须快速补课，不再能够凭借历史销量面对竞争。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_2ff53c58d7bd4124831e28fe2db71dd4@000000_oswg414915oswg1080oswg613_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">2024年新能源乘用车批发及零售销量排名，图源中国汽车流通协会微信公众号</p>
+<p>作为中国智驾科技的头部玩家，地平线的突飞猛进，侧面印证着这一点。就在近期，创始人余凯便表示2025年是智驾“真拐点”。</p>
+<p>2024年10月，地平线正式登陆港交所上市。从招股书来看，地平线与中国汽车销量排名前十的企业均达成量产合作。截至目前，地平线智驾方案累计出货量达700万，获得300款车型定点，成功量产超过170款车型。据高工智能汽车统计数据显示，在2024年中国市场自主品牌乘用车智驾计算方案市场，地平线凭借低、中、高全阶计算方案的产品布局以33.97%的市场份额位列市场第一。</p>
+<p>以大众汽车为例，它在中国以合资形式的一汽大众、上汽大众运作为主，相比比亚迪、小鹏等自主品牌，智驾动作更加滞后。不像比亚迪能够通过自研、供应链降低成本，使用传统架构、供应链的合资品牌面临更高成本。</p>
+<p>面对比亚迪全系智驾、小鹏MONA3等产品在10-20万市场的“智驾突围”，大众汽车、丰田等品牌必然受到冲击。</p>
+<p>为此，大众汽车早在2023年11月便通过子公司CARIAD与地平线成立合资公司。地平线从合资公司获得的收入主要来自向其提供算法和软件授权，以及智能驾驶的技术服务。2024年上半年，这部分收入对地平线的营收贡献比例高达37.6%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_56120039ce3b419f93079d0a13e5d7bd@000000_oswg102960oswg1080oswg1099_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">大众汽车与地平线成立的合资公司，图源企查查</p>
+<p>尽管如此，大众汽车仍面临挑战。2024年第三季度，大众全球销量同比下降7.1%，其中纯电动汽车销量同比下降9.8%</p>
+<p><strong>此外，其他传统车企也在努力寻找出路。</strong></p>
+<p>2024年10月的奇瑞全球创新大会上，奇瑞控股集团董事长尹同跃喊出“不客气”口号，称“明年，奇瑞的智能化也要不客气了，必须进入行业头部”，将把智能化、AI作为奇瑞下一个20年、40年的重大机遇和突破方向。</p>
+<p>随后的11月广州车展上，BBA接连展示智驾加速成果，宝马首次展示V2X（车对外界信息交换）技术，奔驰公布基于自研操作系统打造的智驾方案，采用无图“端到端”模式；一汽奥迪则与华为合作，展示首款搭载华为高阶智驾方案的车型Q6L e-tron。</p>
+<p>当智能驾驶成为新时代的必答题，智驾技术的高低将成为分水岭。智能化转型的浪潮中，跟不上智驾节奏的车企，没有智驾的汽车都将被淘汰。</p>
+<p>（本文头图来源于比亚迪官网。） </p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkyOTM3Nzg4Nw==&amp;mid=2247495866&amp;idx=1&amp;sn=46985e324fb2db873945b4595888a43f&amp;chksm=c3e163ffd49c650fdbc15d01517652e33b38cdf24f2e250936ccdf2e64638c4a909916b94feb&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“连线出行”（ID：lianxianchuxing）</a>，作者：熊逾格，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166068932176392</guid><pubDate>Fri, 14 Feb 2025 18:16:00 +0800</pubDate></item><item><title>教培考公回春明显，职教深陷寒冬</title><link>https://36kr.com/p/3166242403892737</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>又到一年财报季。近日，A股十多家教育上市公司相继发布2024年业绩预告，有人欢喜有人愁，考公和教培赛道回春明显，职业教育和教育信息化赛道则日子不好过。</p>
+<p>官司缠身、连续3年亏损的中公教育成为最大赢家之一，豆神教育也交出了一份满意的答卷。</p>
+<p>但多家职业教育赛道的上市公司陷入泥潭，传智教育遭遇罕见亏损，开元教育甚至可能面临被终止上市的风险，凯文教育、全通教育、国新文化等亦遭遇不同困境。</p>
+<p>中国教育科学研究院研究员储朝晖分析认为，中国真正需要的是能够提供技能、培养更多高级人才的职业教育，但这个需求能不能形成市场、能不能形成学校的办学行为，现在还是存在一些困难。从长远看，还是要尽可能地让职业教育回归技能教育，培养社会所需。</p>
+<p><strong>作者</strong> | 杜一兰</p>
+<p><strong> 编辑 </strong>| 木   木</p>
+<p><strong>教培“苦尽甘来”，豆神教育盈利喜人</strong></p>
+<p>橡树实验室注意到，以教育培训为主营业务的企业在经历几年寒冬后，终于在2024年回暖，实现业绩大幅增长。</p>
+<p>豆神教育（全称“豆神教育科技（北京）股份有限公司”，300010.SZ）业绩预告显示，预计2024年归属于上市公司股东的净利润为1.45亿元-1.85亿元，同比增长358.93%—485.54%；扣除非经常性损益后的净利润为1.19亿元-1.54亿元，同比扭亏为盈。</p>
+<p>要知道，2023年豆神教育扣除非经常性损益后的净利润为亏损5.05亿元。</p>
+<p>豆神教育把原因首先归结于公司公司优化了艺术类学习服务业务的内容，升级了授课方式，打造了人工智能教学应用，丰富了销售渠道，使得毛利率相较2023年有所增加。其它则跟资产处置、清偿负债、往期应收款项的催讨力度等相关。</p>
+<p>豆神教育的历史可追溯至1988年，彼时数名清华学生在校内开办复印社，1999年豆神教育前身立思辰正式成立，并于2009年在深交所上市，是创业板首批上市企业。</p>
+<p>经过多年发展，豆神教育的主营业务包括艺术类学习服务、直播电商，其中艺术类学习服务业务以面向中小学生的非学科素质教育服务为主，包含文艺创作、文艺演出、书法培训等，豆神美育是公司学习服务业务的主力品牌。</p>
+<p>与此同时，另一家教培企业昂立教育（全称“上海新南洋昂立教育科技股份有限公司”，600661.SH）2024年的业绩也大幅改善。</p>
+<p>根据昂立教育发布的公告，预计公司2024年实现营业收入12.35亿元，同比增长27.88%，归属于上市公司股东的净利润为-5200万元至-3500万元，同比减亏1.36亿元至1.53亿元，亏损幅度收窄。2023年，昂立教育亏损1.88亿元。</p>
+<p>昂立教育由上海交通大学发起和组建，于1993年上市，以教育培训为主营业务，涉及K12学科教育、K12素质教育、职业教育、国际与基础教育等业务领域。</p>
+<p><strong>公考火热，中公教育扭亏为盈</strong></p>
+<p>中公教育（全称“中公教育科技股份有限公司”，002607.SZ）业绩预告发出来后，李永新可能会稍微松一口气。</p>
+<p>公告显示，预计中公教育2024年实现盈利1.85亿元-2.35亿元，同比增长188.34% - 212.21%，扣除非经常性损益后的净利润为7500万元-1.25亿元。和前几年比起来，中公教育终于盈利了。</p>
+<p>年报显示，2021年至2023年，中公教育的净利润分别为-23.7亿元、-11亿元、-2.09亿元，三年合计亏损超过36亿元。</p>
+<p>此次扭亏为盈的主要原因，中公教育将其归为“营业总成本较上年同期有较大幅度降低”和“公司以前年度已经计提坏账准备的其他应收款于本报告期收回，形成非经常性收益”两大方面。</p>
+<p><strong>虽然中公教育的业绩迎来好转，但公司面临的诉讼纠纷还没有全部解决。</strong></p>
+<p>1月24日，中公教育公告显示，2024年12月至今，公司及控股子公司累计新增诉讼、仲裁案件共701件，累计新增涉案金额合计5.87亿元，占公司2023年度经审计的归属于上市公司股东净资产的103.47%。</p>
+<p>同时公告称：“鉴于本次诉讼、仲裁事项及其他部分诉讼、仲裁事项尚未开庭审理或尚未结案，其对公司本期利润或期后利润的影响存在不确定性。”</p>
+<p>且中公教育最新公告显示，李永新持有的公司1600多万股被司法冻结，截至2月13日，李永新及其一致行动人累计被冻结3.259亿股，占其所持公司股份的27.83%，占公司总股本的5.28%。</p>
+<p>曾几何时，中公教育在公考培训领域稳坐头把交椅，而如今形势发生了一丝变化。</p>
+<p>华图山鼎（全称“华图山鼎设计股份有限公司”，300492.SZ）发布的业绩预告显示，预计2024年盈利6000万元-9000万元，同比扭亏为盈。2023年，公司亏损9196.87万元。</p>
+<p>对此华图山鼎表示：“报告期内，公司积极拓展市场，全面开展非学历培训业务，同时通过科学管理、流程优化等方式不断提高运营效率，非学历培训业务实现盈利。”</p>
+<p>橡树实验室注意到，自2023年11月起华图山鼎在建筑设计业务基础上通过全资子公司华图教育科技有限公司（下称“华图教育科技”）开展了非学历培训业务。</p>
+<p>具体来看，华图教育科技开展的主要业务包括国家及地方公务员招录考试培训、事业单位招录考试培训、医疗卫生系统的招录考试培训及其相应的资格证考试培训，辐射网点超过1000个。</p>
+<p><strong>而在中公教育、华图山鼎业绩增长背后，“国考热”功不可没。</strong></p>
+<p>根据国家公务员局招考公告，2025年度国考招录3.97万人，招录人数再次打破纪录，连续7年扩招。与此同时，报名人数也水涨船高，从2020年的143.7万人，增加到2024年的303.3万人。</p>
+<p>持续的“国考热”促使考生参培率进一步上升，公考培训企业或许也能从中受益。</p>
+<p><strong>教育信息化分化加剧，全通教育巨亏</strong></p>
+<p>而教育信息化领域内的上市公司格局也在2024年发生了变化，竞业达业绩同比增加，佳发教育和全通教育业绩下滑。</p>
+<p>根据竞业达的公告，公司预计2024年实现盈利3300万元-4400万元，同比上升226%-335%，扣除非经常性损益后的净利润则扭亏为盈至2900万元-4000万元，同比上升628%-829%。</p>
+<p>对此竞业达表示，报告期内，公司各项业务稳步发展，其中智慧轨道业务在手订单按照预期顺利交付验收，收入同比大幅增长。同时，公司加强了应收账款回收工作并取得显著进展，信用减值损失同比减少。</p>
+<p>竞业达成立于1997年，结合AIGC、大模型、大数据、物联网、信创等技术，为全国智慧教育、智慧轨道行业用户提供数智化产品及服务。</p>
+<p>在智慧教育领域，竞业达拥有智慧招考、智慧教学与校园产品，是全国最早从事国家教育考试信息化建设的企业之一，产品覆盖全国近三十省，半数以上的地市、高校，数十万间标准化考场。</p>
+<p>和竞业达相比，佳发教育（全称“成都佳发安泰教育科技股份有限公司”，300559.SZ）聚焦智慧考试和智慧教育两大业务方向，其智慧考试与智慧教育的产品及解决方案应用于全国31个省份，上万个B端客户和上百万C端用户。</p>
+<p>不过佳发教育2024年的业绩不太乐观，预计盈利3000万元-4000万元，同比下降77.11%-69.47%。2023年，公司盈利1.31亿元。</p>
+<p>佳发教育表示，主要受市场有效需求不足、部分项目延期等因素的影响，导致公司智慧考试业务销售收入同比下降，加之公司AI相关新业务处于发展初期，导致公司利润出现大幅下降。</p>
+<p>同样业绩下降的，还有全通教育（全称“全通教育集团（广东）股份有限公司”，300359.SZ）。其发布的公告显示，预计2024年归属于上市公司股东的净利润为亏损8200万元-1.05亿元，同比由盈转亏。</p>
+<p>2023年，全通教育实现盈利645.04万元。</p>
+<p>对于亏损原因，全通教育归结为“放弃部分业务机会等综合因素导致继续教育业务、家校互动升级业务、教育信息化业务收入和毛利同比减少”。</p>
+<p><strong>职业教育大面积亏损</strong></p>
+<p><strong>专家建言职教应回归技能教育</strong></p>
+<p>去年一年，职业教育板块成为教育细分领域的最大输家。除了中国高科扭亏为盈，传智教育、开元教育、凯文教育、国新文化均亏损。</p>
+<p>中国高科（全称“中国高科集团股份有限公司”，600730.SH）于1992年经教育部和上海市人民政府提议，由上海交通大学、复旦大学等全国著名的几十所大学共同发起成立，业务涵盖职业教育、职业考培+AI、国际教育、教育产业园等领域。</p>
+<p>2024年，公司预计实现营业收入1.51亿元，实现净利润4704万元至5645万元，同比双双增长。2023年，中国高科的营业收入和净利润分别为1.23亿元、-267.55万元。</p>
+<p>公司透露主要是去年公司在二级市场股票、下属子公司股权转让等相关处置收益达到1700余万元，此外，公司资产服务业务产生的关联交易收益1500余万元对业绩也有较大贡献。</p>
+<p>相比之下，传智教育（全称“江苏传智播客教育科技股份有限公司 ”，003032.SZ）作为以就业为导向的职业教育机构，2024年业绩“大变脸”，预计实现营业收入2.05亿元至2.95亿元，同比几近“腰斩”，2023年其营业收入为5.34亿元；净利润为亏损9500万元至1.35亿元，而2023年的净利润为1562.98万元。</p>
+<p>对此，传智教育表示，2024年度，受外部环境的影响，公司学员报名人数有所减少，进而导致营业收入同比下降，净利润由盈转亏。</p>
+<p>亏损的不止传智教育，还有同样主营职业教育业务的开元教育（全称“开元教育科技集团股份有限公司”，300338.SZ）。</p>
+<p>开元教育公告显示，受营业收入大幅下降及信用减值损失影响，预计2024年亏损9000万元-1.8亿元。</p>
+<p>值得一提的是，由于开元教育最近三个会计年度扣除非经常性损益前后净利润孰低者均为负值，公司的持续经营能力存在重大不确定性，且公司2023年度经审计的期末净资产为负值，公司股票交易被实施“其他风险警示”和“退市风险警示”。</p>
+<p><strong>目前，该“退市风险警示”及“其他风险警示”情形均未消除。</strong></p>
+<p>此外，凯文教育、国新文化也发布了业绩预亏公告，前者预计亏损2500万元-3750万元，后者预计亏损3.48亿元至4.28亿元。</p>
+<p>今年1月《教育强国建设规划纲要（2024-2035年）》对职业教育改革发展进行了重点部署，构建职普融通、产教融合的职业教育体系，大力培养大国工匠、能工巧匠、高技能人才，成为教育强国建设中职业教育领域的核心任务。</p>
+<p>中国教育科学研究院研究员储朝晖对橡树实验室表示，职业教育的发展跟政策调整有关联，总体来说，中国真正需要的是能够提供技能、培养更多高级人才的职业教育，但这个需求能不能形成市场、能不能形成学校的办学行为，现在还是存在一些困难。</p>
+<p>储朝晖认为，<strong>从长远看，还是要尽可能地让职业教育回归技能教育，让职业教育培养出真正能够满足经济社会发展所需要的高级人才。</strong></p>
+<p>21世纪教育研究院院长熊丙奇则对橡树实验室表示，教育上市公司这样的业绩表现，一方面可能跟公司所处的这个教育领域有关系，第二个也可能跟公司自身的情况或者经营战略有关系，不是一概而论的。</p>
+<p>在他看来，职业教育未来的发展确实存在很多值得关注的问题，如果说整个社会不转变对职业教育的观念，一味地追逐升学率，职业教育的发展空间就有限。但另一方面，不办好职业教育，学生的选择就会很单一，也无法解决焦虑和内卷的问题，<strong>“关键在于从顶层设计来讲，如何去改革教育评价体系，引导大家去关注职业教育，重视技能型人才培养；对于企业而言，就是要做货真价实的职业教育，否则随着生源萎缩，企业自身没有特色，发展空间就会受到很大的影响。”</strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/dE3oJnLT1-2dm8x9IA32vQ" rel="noopener noreferrer nofollow" target="_blank">“橡树实验室”</a>，作者：橡树作者，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166242403892737</guid><pubDate>Fri, 14 Feb 2025 18:23:00 +0800</pubDate></item></channel></rss>
