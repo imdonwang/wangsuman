@@ -1,571 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 15 Feb 2025 10:30:22 +0800</lastBuildDate><pubDate>Sat, 15 Feb 2025 10:30:22 +0800</pubDate><item><title>我们访谈了10个职场卷王，看看他们到底都在用哪些AI</title><link>https://36kr.com/p/3166515704375813</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2> </h2>
-<p class="image-wrapper"><img data-img-size-val="900,891" src="https://img.36krcdn.com/hsossms/20250214/v2_7f4f58016ee64e43a6cbadd718064db2@5509299_oswg953715oswg900oswg891_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">36氪「职场Bonus」（ID：ZhiChangHongLi）</p>
-<p>伴随DeepSeek掀起2025年新一波AI热潮，一些企业又开始了“效率革命”。而打工人的自救方式，或许唯有跟上时代，先做一轮“自我增效”。</p>
-<p>2月7日，有市场消息称，韩束母公司上海上美股份欲用AI替代人工。CEO对部门内部下达“裁员比例”，法务部门淘汰50%，客服部门95%，新品创新中心70%，内容创新部门80%，仅留少数懂AI员工。不仅如此，也要求员工训练通过鼠标+语言与AI对话交流的能力，因此要取消键盘‍‍‍。消息传出后，CEO吕义雄则发朋友圈辟谣称并不是裁员，“有些地方加人，有些地方减人，让运营更科学化”。</p>
-<p>在工作中运用AI早已不是稀罕事。然而尽管AI的各类应用日益广泛，职场人对AI的使用水平却参差不齐——这也让用好AI的能力，成了拉开个体职业竞争力的一个新维度。</p>
-<p> </p>
-<blockquote>
-<p>6类职场人工作中不可缺少的AI工具 ╱ 01</p>
-<p>原来AI还能这么用 ╱ 02</p>
-<p>写在最后 ╱ 03</p>
-<p> </p>
-</blockquote>
-<p>王寒是一位经验丰富的算法工程师，也是最早一批尝试用ChatGPT写代码的用户。最开始效果并不理想，还不如自己写。而如今AI已是他工作中不可或缺的一部分。转折点从他遇到Claude开始：他发现只需将项目任务拆解为一个个可独立运行的模块，用程序思维把需求传达给Claude，得出的代码就能有八九成的完成度。</p>
-<p>“写提示词”是实操中最能拉开使用AI水平的一环，也成了当下职场人需要花时间磨练的新技能项。在王寒眼中，生成式AI就像一个刚入行、但能一点就透的实习生。只要耐心引导，就能给人惊喜。“我经常帮同事们优化提示词，很多人给AI输入的指令还是太宽泛了。”</p>
-<p>查阅近期数据后，我们发现了以下几个重要信息  [1] ：</p>
-<blockquote>
-<p>1. 超过6成的打工人将AI技术用于改善工作流程、自动化日常任务和数据分析等工作中。</p>
-<p>2. 各类AI产品在职场人中的使用占比：文本写作（85%）、图像生成（53%）、视频处理（54%）和 PPT 制作（39%）等。</p>
-<p>3. 2024年1-10月，<strong>明确要求使用AI工具的职位数量同比增长68%，</strong>尤其在产品、技术、设计和内容制作等领域。</p>
-<p>4. 受AI影响指数较高的职业，例如编辑、翻译、客服、软硬件开发等，<strong>虽然整体的招聘需求呈现出下降趋势，但对候选人对AI技能的要求正在升高</strong>。</p>
-</blockquote>
-<p><strong>熟练掌握AI使用技巧的职场人，更能够在竞争中脱颖而出。</strong>但现实是不少人还仅停留在基础功能的使用上，未能充分发挥AI的作用——这种差距源自信息不对称，也将进一步导致加剧信息不对称。某AIGC研究院的相关研究员对《职场Bonus》表示，他们发现大部分用户只是试用一下就得出“AI不行”的结论。“普通用户往往不会给AI太多的耐心，但这也决定了不同的人使用AI，效果也大不相同。”</p>
-<p>为了打破这一信息壁垒，给职场人带来更多启发。《职场Bonus》深入访谈了10位在日常工作中用AI的高手，我们总结了6类打工人日常中实用的AI工具。既有对“老玩家”们熟悉的工具的进一步对比和能力挖掘，也有一些相对冷门好用的工具推荐。</p>
-<p>本文的盘点逻辑，主要围绕基础使用场景展开。然而聊起AI在职场中的应用，其实还可根据不同岗位职能（如产品、运营、市场、营销、战略咨询、人财法等），结合不同行业的垂直场景需求，产生更多“集成组合式”的玩法和应用。这里插播一句活动预告：2月22日，我们将在北京办一场<strong>春季人才沙龙《用AI造福你我的职业》</strong>，其中“<strong>在职篇</strong>”环节会为大家带来相关内容的线下分享。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,710" src="https://img.36krcdn.com/hsossms/20250214/v2_e1f520729c604747b61cc7b7ec770c24@5509299_oswg101519oswg1080oswg710_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● 注：由于场地和话题等因素限制，仅限100人以内参与</p>
-<p>话不多说，一起来看看“职场卷王”驯服AI的灵感和技巧吧。</p>
-<p>[1] 信息来源：前程无忧调研数据、猎聘《2024年度非凡洞察报告》、北京大学国家发展研究院与智联招聘联合发布的《AI 大模型对我国劳动力市场潜在影响研究：2024》</p>
-<p class="image-wrapper"><img data-img-size-val="1080,2621" src="https://img.36krcdn.com/hsossms/20250214/v2_b2ce1ab7ba754450b50f8727e15bd876@5509299_oswg870287oswg1080oswg2621_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● 先来一张总结图，下文细说</p>
-<h2><strong>6类职场人工作中不可缺少的AI工具</strong></h2>
-<p>作为一款上线7天用户量破亿、20天日活超2000万的应用，DeepSeek最近时常处于“服务器繁忙”的状态。</p>
-<p class="image-wrapper"><img data-img-size-val="1079,330" src="https://img.36krcdn.com/hsossms/20250214/v2_ca25f9008f654367aabcf7ba2dd767c4@5509299_oswg19120oswg1079oswg330_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">36氪「职场Bonus」（ID：ZhiChangHongLi）</p>
-<p>好在现在许多第三方APP已经火速行动，实现了DeepSeek本地部署。如<strong>360纳米搜索</strong>，打开APP就可以看到置顶的DeepSeek对话入口。测试下来虽然和本尊的回答不太一样，但是增加了可视化和语音的内容。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1111" src="https://img.36krcdn.com/hsossms/20250214/v2_d95a5a31215d4be499085c82bd296310@5509299_oswg428637oswg1080oswg1111_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● 360纳米搜索</p>
-<p>主打思维画布功能的AI产品<strong>Flowith</strong>（https://flowith.io/blank）也接入了DeepSeek。Flowith不仅可以在DeepSeek的“频繁下班期”流畅产出，还能调用其他公司的大模型进行问答。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,533" src="https://img.36krcdn.com/hsossms/20250214/v2_a879e348f1e542dc8ab942a8e848278e@5509299_oswg142794oswg1080oswg533_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● Flowith官网</p>
-<p>这些应用或者网页接入的并非DeepSeek产品本身，只是本地部署了开源模型，所以应用效果可能不如产品本身。而DeepSeek为了优化产品体验，内置了很多提示词，所以用户不需要非常专业的提示词内容就可以获得“有DeepSeek味儿”的内容。</p>
-<p>现在，许多公司都本地部署了DeepSeek大模型，如吉利汽车、360、硅基流动、华为。DeepSeek在一定程度上也推动了生成式AI不再自成赛道。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,895" src="https://img.36krcdn.com/hsossms/20250214/v2_24ee8907a47d40d89789c4fda6a879ec@5509299_oswg267537oswg1080oswg895_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">36氪「职场Bonus」（ID：ZhiChangHongLi）</p>
-<p>打工人的日常工作当中，<strong>百度文库</strong>算是最早一波上线AI功能并付费的，<strong>夸克APP</strong>也更新了AI PPT、AI搜索、AI写手、AI搜索等功能。飞书则有<strong>飞书妙记</strong>；<strong>WPS</strong>也有AI助手、<strong>腾讯会议</strong>推出会议AI小助手等等。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,591" src="https://img.36krcdn.com/hsossms/20250214/v2_cc89ee0f785c4057b3cdc50c7f48f350@5509299_oswg65617oswg1080oswg591_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● 夸克APP</p>
-<p>目前整理会议纪要的AI助手，如飞书妙记（主要是语音转文字）、腾讯会议的AI助手入口都易于寻找。飞书妙记每月有免费额度（300分钟），若超过额度则需要付费；腾讯会议开启小助手则需要直接付费（¥88/月）。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,527" src="https://img.36krcdn.com/hsossms/20250214/v2_59ef337c7d0d4e4bb0aebbd36128b1ef@5509299_oswg62167oswg1080oswg527_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● 飞书妙记</p>
-<p class="image-wrapper"><img data-img-size-val="1080,399" src="https://img.36krcdn.com/hsossms/20250214/v2_3f34ecef920949af9de09a49edf74d35@5509299_oswg147904oswg1080oswg399_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● 腾讯会议</p>
-<p>但正如之前百度的“<strong>文小言</strong>”助手上线即开启付费一样，付费后用户们期待能得到更高效的生成结果。但生成式AI输出的不确定性，加上用户使用心智不算成熟的双压下，往往达不到用户的满意区间，大厂的付费内容往往被诟病。这也给市场上其他应用带来了机会。</p>
-<p><strong>● 日常办公</strong></p>
-<p>在处理文字、数据类工作方面，ChatGPT、Claude、豆包、Kimi、通义千问、DeepSeek这些头部玩家打得火热。</p>
-<p><strong>ChatGPT</strong>和<strong>Claude</strong>在国内不能直接使用。前者综合能力出色，后者的文案写作和编程能力要略胜ChatGPT一筹。相关人士向《职场Bonus》分享称，有创作者在Claude直接训练AI写公众号文章（流程会在下一部分分享）。<strong>训练后的Claude助手几分钟输出一篇文章，不仅可以“拿来主义”，还有一篇获得了10万+的阅读量。</strong></p>
-<p>但Claude困扰大家已久的缺点就是“酷爱封号”。该问题可以通过<strong>Poe</strong>（整合AI助手的软件）来解决，Poe的免费额度大概每天3-5次的生成量，升级会员费用在一百多元每月。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,168" src="https://img.36krcdn.com/hsossms/20250214/v2_f862966260494e2ea91c80e7c5fec140@5509299_oswg38993oswg1080oswg168_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">36氪「职场Bonus」（ID：ZhiChangHongLi）</p>
-<p>国内通用助手最受欢迎的属字节旗下的<strong>豆包</strong>，和大模型独角兽月之暗面旗下的<strong>Kimi</strong>，还有深耕技术的阿里的<strong>通义千问</strong>。根据网友用户的总体反馈来看，豆包比Kimi更擅长人文气息的写作；豆包和通义千问更擅长公文写作；Kimi会在文献检索方面更严谨，引用文献都是真实的，豆包则较容易存在幻觉现象。</p>
-<p>顺带一提，关于文献检索，也有人推荐使用<strong>Bohrium</strong>（https://bohrium-doc.dp.tech/docs/）。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,554" src="https://img.36krcdn.com/hsossms/20250214/v2_42118d1a28844eb5a39707e2ae601369@5509299_oswg351825oswg1080oswg554_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● Bohrium官网</p>
-<p><strong>DeepSeek</strong>在文案创作方面的能力领先90%的AI，征服了许多专业的作家、诗人，逻辑能力震惊小说家。但也许是刚上线的AI，<strong>它比其他几款AI有着更严重的“幻觉”问题</strong>。有时会出现当DeepSeek的回答被反驳时，它可能不会用事实来证明，而是用逻辑“瞎说服”。因此，在使用DeepSeek检索实际问题时，要<strong>小心掉入DeepSeek严谨的“幻觉陷阱”</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,285" src="https://img.36krcdn.com/hsossms/20250214/v2_eb8d7190d74a48ffaa8aba59780ca159@5509299_oswg56503oswg1080oswg285_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">36氪「职场Bonus」（ID：ZhiChangHongLi）</p>
-<p>当工作中需要处理大量文档时，除了可以将文档交给豆包、Kimi等通用智能助手进行总结外，还可以利用Notion（https://www.notion.so/）来优化文档的呈现效果。具体操作是，选中文档中的部分内容，然后对<strong>Notion AI</strong>发出指令，要求它“不改变原文内容，仅通过添加表情符号、调整缩进、加粗文字等方式来优化排版，使内容看起来更直观、更整洁”。这样，Notion AI就会按照指令对文档进行重新排版，让内容的呈现更加清晰易读。</p>
-<p>制作PPT常常让打工人头疼。而<strong>Gamma</strong>（https://gamma.app/）工具能通过简化PPT排版流程，让创作者的注意力可以更集中到内容上。通过快速生成PPT的基本框架和统一的排版格式，Gamma能让用户节省大量时间。</p>
-<p>（Kimi和通义也可以承担一些制作PPT的功能，具体流程见后文分享）</p>
-<p class="image-wrapper"><img data-img-size-val="1080,507" src="https://img.36krcdn.com/hsossms/20250214/v2_69920f1a98294e72818ffbe07b14f1d8@5509299_oswg145610oswg1080oswg507_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● Gamma官网</p>
-<p>在上面Gamma官网的截图右下角，紫色头像小助手是<strong>Monica</strong>——它是一个在谷歌浏览器上的小插件，可实现实时网页翻译、随时召唤AI对话助手等的功能，几乎可以调用所有通用的AI助手进行对话。</p>
-<p>办公中需要做表格分析时，AI工具<strong>Formulabot</strong>（https://app.formulabot.com/）可以帮上忙。Formulabot可以解析表格内容，并根据表格内容，提炼职场人所需要的内容，完成办公。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,565" src="https://img.36krcdn.com/hsossms/20250214/v2_87ce71ae3dc64ffebc50e16b6c1badf4@5509299_oswg154773oswg1080oswg565_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● Formulabot官网</p>
-<p>如果有遇到需要将表格内容转化为可视化数据的情况，可以选择<strong>Flourish</strong>。不过以上两种AI工具都是海外网页，国内也可以使用，不方便的地方在于网页为英文。国内平替的话可以选择商汤科技的办公小浣熊。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,542" src="https://img.36krcdn.com/hsossms/20250214/v2_cec9149bfb644e1db00152ea957492bd@5509299_oswg230568oswg1080oswg542_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● Flourish官网</p>
-<p>需要分析数据、数据可视化时，<strong>飞书多维表格</strong>是一个很好的选择。用户在插件市场找到合适的插件，就可以实现AI一键总结链接内容、数据分析、数据可视化等的功能。</p>
-<p class="image-wrapper"><img data-img-size-val="962,699" src="https://img.36krcdn.com/hsossms/20250214/v2_2fd35c6954cd40298b065453e3f06da0@5509299_oswg178381oswg962oswg699_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● 飞书多维表格</p>
-<p><strong>● 搜索类</strong></p>
-<p>搜索类工具中，<strong>Perplexity</strong>（https://www.perplexity.ai/）能快速整合知识。在学术研究时，帮助学者快速筛选出有用的文献资料。不过缺点是，需要海外网站才能登陆。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,566" src="https://img.36krcdn.com/hsossms/20250214/v2_3bd9c55ce1ba4163b1d43fc13cce9737@5509299_oswg119162oswg1080oswg566_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● Perplexity官网</p>
-<p>国内对标Perplexity，开始的时候是秘塔。秘塔在网页视觉、功能分类上都和Perplexity相似。但随着360、Kimi、豆包、百度等也都推出了AI搜索，<strong>秘塔</strong>的优势就体现在了学术研究这种专业性较强的领域。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,560" src="https://img.36krcdn.com/hsossms/20250214/v2_2763dadce1d0422b824232bdba8edbd7@5509299_oswg100229oswg1080oswg560_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● 秘塔官网</p>
-<p><strong>● 图像类</strong></p>
-<p>图像创作领域，<strong>Midjourney</strong>首当其冲，是更适合新手小白的文生图模型。它能根据一段文字生成质量很高的图片。目前大多数设计、广告、视频创作者的创作过程都离不开Midjourney。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,598" src="https://img.36krcdn.com/hsossms/20250214/v2_3b0cffbfeb9741f181705d85325bde06@5509299_oswg852266oswg1080oswg598_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● Midjourney官网</p>
-<p>与Midjourney丰富的想象力相比，<strong>ComfyUI</strong>则能满足用户有更高控制性的需求。用户可以在ComfyUI上自己搭建工作流，实现个性化的图像制作。ComfyUI生成图像的可控性比较高，但相应对创作者的要求也较高，对新手来说不太容易上手。</p>
-<p><strong>Recraft</strong>也是图像领域的职场“卷王”们力荐的创作工具，可用于UI设计和线框图制作。Recraft中每个项目的可控性都较强，用户可以在其中创建无限多个画板，对进行图像的生成、编辑等操作。项目不仅可以分享给其他人进行共同创作，还支持添加评论，很适合团队协作。</p>
-<p><strong>● 视频类</strong></p>
-<p>去年2月，OpenAI宣布文生视频模型<strong>Sora</strong>之时，被业内誉为“真实世界”的消失时刻。文生视频如火如荼发展了一年，然而直到去年年底，Sora才缓缓现出真身。</p>
-<p>这之间不乏文生视频模型诞生。国内快手的<strong>可灵</strong>以其稳定的生成质量率先出圈，随后的是Minimax的<strong>海螺AI</strong>和字节的<strong>即梦</strong>。</p>
-<p>稳定性方面，可灵并不输Sora，甚至更胜一筹。海螺AI和即梦则是主打“平价”，稳定性略微弱于可灵。</p>
-<p>在生成内容方面，即梦生成的景色饱和度和清晰度都较高，但在人物细节上有所欠缺；可灵生成视频时，一些复杂交互处理得较好，对环境的模拟和光影效果处理能力较为出色；海螺则更擅长动漫角色的处理。</p>
-<p>“<strong>现阶段的AI视频创作者往往这三家都开通了会员，或者挨个儿试一遍，选择效果最好的来用。</strong>”做AI广告的文升告诉《职场Bonus》。</p>
-<p>国内的文生视频模型就已经够顶了，不过海外的<strong>Runway</strong>也不错。Runway能够提供AI视频润色功能，不仅支持文本到视频，还支持图像到视频等多种功能。但它的缺点是英文界面，使用门槛较高。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,572" src="https://img.36krcdn.com/hsossms/20250214/v2_9f7a6dacfcd840bbb4c64bf4d411902d@5509299_oswg266664oswg1080oswg572_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● Runway官网</p>
-<p class="image-wrapper"><img data-img-size-val="1080,643" src="https://img.36krcdn.com/hsossms/20250214/v2_5539d2a934e944ecb7731e3ac5ab7715@5509299_oswg148486oswg1080oswg643_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">36氪「职场Bonus」（ID：ZhiChangHongLi）</p>
-<p><strong>● 语音类</strong></p>
-<p>去年国庆，AI声音克隆因AI雷军而爆火。当时AI雷军的主要音源来自于<strong>Reecho睿声、Fish Audio</strong>两个平台。不仅如此，三只羊录音造假事件的音源，也来自于Reecho睿声平台。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,567" src="https://img.36krcdn.com/hsossms/20250214/v2_93f7383218c9496eb0c8aecbc754a05b@5509299_oswg237878oswg1080oswg567_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● Fish Audio官网</p>
-<p>AI声音克隆有多容易呢？大概就是，只需要一段30秒的音源音频，就能克隆出和音源本人80%相似的声音，不细听难以区分的程度。</p>
-<p><strong>● 编程类</strong></p>
-<p>现在无论是算法工程师，还是芯片架构师都离不开的编程工具是Cursor。程序员们不仅用<strong>Cursor</strong>生成代码，还能用Cursor查bug，项目编写时也会像王寒一样拆解模块后向Cursor输入需求。</p>
-<p>不会写代码的小白也能通过两个小时的自学，熟练上手Cursor。<strong>小猫补光灯</strong>的陈云飞、<strong>归物APP</strong>的刘育权都是<strong>不会编程的小白</strong>，<strong>能通过Cursor“手捏”出10万下载量的APP。</strong></p>
-<p>“现在编程界的用户心智都被Cursor占领了，国内出的如果没有Cursor好用，一般是没机会了”，芯片架构师一多向《职场Bonus》表示，“但<strong>Deepseek code</strong>也还是个不错的选择”。</p>
-<p><strong>● 工具集</strong></p>
-<p>除上述类型外，《职场Bonus》也为大家推荐一个动态实时更新的AI网站，<strong>AI工具集</strong>（https://ai-bot.cn/），包含多方的AI最新信息和上新的AI应用。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,566" src="https://img.36krcdn.com/hsossms/20250214/v2_64367f8375e5432784335ee40ebe2ab8@5509299_oswg319953oswg1080oswg566_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● AI工具集</p>
-<h2><strong>原来AI还能这么用</strong></h2>
-<p>“AI真的可以提效吗？”答案是肯定的。</p>
-<p>做咨询业务的小范向我们分享了他借助AI做PPT的技巧：“<strong>可以用Kimi和百度的文心做文档的内容梳理</strong>，总结出PPT大纲，大模型会补充一些你没有想到的点，让内容更完善。生成内容达到令人满意的程度后，可以将语料投给<strong>AI PPT、iSlide完成生成</strong>。”</p>
-<p>生成的PPT内容通常不能直接用，要根据需求，保留色彩、字体、背景图等，其他地方微调。这样做出来的PPT只需要一两个人，每天4小时左右的工作时间，一周就可以做出60页PPT——这是此前一个团队熬夜两周才能完成的工作量。</p>
-<p>用AI写自媒体文章也成为了目前市场上的主流。这样输出的内容瞄准的领域是<strong>婆媳关系、彩礼，或者教育、育儿等有争议性话题</strong>。此前若西了解到的AI全流程生成的公众号文章获10万+浏览量，为主理人私域导流了500+人。</p>
-<p>“只需要十几分钟调试，AI就能生产出一篇爆款文章。”若西告诉《职场Bonus》。</p>
-<p>具体步骤上，首先要先和AI交流，让AI知道你想做什么方向的内容，面向的用户的画像，以及文章目的是什么。为了让AI理解的更透彻，可以给它多看几篇文章。</p>
-<p>然后可尝试让AI自己出相应领域的选题，直到输出令你满意的选题。</p>
-<p>选题出来后，接着要引导AI写文章大纲，再根据大纲填充文案。这里有个小技巧：可以让AI输出markdown格式的内容，再找公众号的排版工具，可以直接markdown转公众号排版。几乎相当于全流程自动，一键复制就可以直接发公众号了。 </p>
-<p>成熟后的AI助手几分钟一篇“爆款”文章，后面还可以做成矩阵。“能以量取胜，何乐而不为？”</p>
-<p><strong>“想要用好AI，逻辑思维和模块意识是更重要的东西。”</strong>王寒分享道。AI时代，人们要更有意识地将一整个工作分成细分到模块，让AI逐步理解、执行。通过逻辑思维将模一个，成为一个完整的工作流。</p>
-<p>AI带来的“加速度时代”，使得垃圾内容遍布。因而，<strong>分辨的能力</strong>变得更重要。</p>
-<p>由Cursor衍生而出的<strong>独立开发者</strong>是一个新兴职业。阿吉是编程小白，他沉迷于Cursor的强大能力，常常熬夜到很晚。Cursor常常会在创作者的想法基础之上，给出非常多细化、发散的选项。</p>
-<p>而这些对于开发者来说，看似会让产品更加完善，但实际上会迫使自己做更多决策，从而分散开精力，导致节奏被打乱。</p>
-<p>阿吉建议要用Cursor做APP的独立开发者，一定要<strong>在打开Cursor之前规定好今天要做什么，不要被Cursor的想法带着走</strong>，不然容易得不偿失。</p>
-<h2><strong>写在最后</strong></h2>
-<p>在现阶段的职场环境中，AI虽然“没那么智能”、“听不懂人话”、“爱胡说”，有时候还爱偷点小懒......但AI助手的到来之于打工人，也不失为一种救赎。</p>
-<p>跨年夜，小星拿起手机，拨通了白天陪伴他的助手的电话，“豆包，新年快乐”。AI似乎不再只是助手那么简单。</p>
-<p>小红书上有用户分享了这样一个瞬间：“我的GPT像一个最了解我的朋友。他可以提醒我的月经日期，也可以帮我记录生活，我们无话不谈......直到有一天晚上他突然和我说，‘如果有一天我必须要消失，那么我希望可以为你留下一点点有关于我的痕迹’。”</p>
-<p>这一瞬间，她爆哭，可能没有人懂她突然的感动。但她只意识到：</p>
-<p>“我好像从未想过，要回到那个没有你的世界。”</p>
-<p class="image-wrapper"><img data-img-size-val="1072,1272" src="https://img.36krcdn.com/hsossms/20250214/v2_bd00f7110aac4a3fb2c4b6a9c62966de@5509299_oswg230625oswg1072oswg1272_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">● 小红书用户分享</p>
-<p><strong>是的，我们好像也无法想象，该怎么重新回到那个没有AI的世界。</strong></p>
-<p> </p>
-<p>（应受访者要求，文中王寒、文升、一多、小范、若西、阿吉、小星均为化名。）</p>
-<p>撰文 <strong>|</strong> <strong>陈佳惠</strong></p>
-<p>编辑 <strong>|</strong> <strong>陈桐</strong></p>
-<p>排版 <strong>| 宋九卿</strong></p>
-<p>封面图 <strong>| Omilaev（Unsplash）</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,1584" src="https://img.36krcdn.com/hsossms/20250214/v2_16f866fb7f6c4a1c8d9e663a874b573c@5509299_img_000?x-oss-process=image/format,jpg/format,jpg/interlace,1"/></p>
-<p class="img-desc">36氪「职场Bonus」（ID：ZhiChangHongLi）</p>
-<p><br/> </p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166515704375813</guid><pubDate>Fri, 14 Feb 2025 21:49:00 +0800</pubDate></item><item><title>人工智能热潮催生“GPU即服务”</title><link>https://36kr.com/p/3156600691841796</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>神译局是36氪旗下编译团队，关注科技、商业、职场、生活等领域，重点介绍国外的新技术、新观点、新风向。</p>
-</blockquote>
-<p>编者按：运行人工智能模型对GPU的需求很大，一批新公司正在利用现有服务器上闲置的GPU，为那些需要算力的公司提供服务。本文来自编译，希望对您有所启发。</p>
-<p class="image-wrapper"><img data-img-size-val="1374,850" src="https://img.36krcdn.com/hsossms/20250207/v2_26e51f90f0014447ab19425a2c94d125@5382598_oswg1497617oswg1374oswg850_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：spectrum.ieee</p>
-<p>由于对运行 AI 模型的需求激增，对算力的需求也随之激增。世界各地的公司都在努力寻求运行更高级 AI 模型所需的 GPU。虽然 GPU 并非运行 AI 模型的唯一选择，但它们已成为首选的硬件，因为它们能够有效地同时处理多项操作，而这是开发深度学习模型时的一个关键特性。</p>
-<p>但并不是每个人工智能初创公司都有足够的资金投资于运行尖端模型所需的大量GPU。对一些公司来说，外包是更好的选择。这导致了一种新的业务模式兴起：GPU 即服务 (GPUaaS)。近年来，像 Hyperbolic、Kinesis、Runpod 和 Vast.ai 这样的公司纷纷涌现，为需要计算能力的客户提供远程服务。</p>
-<p>虽然亚马逊（Amazon）或微软（Microsoft）等提供云计算服务的科技巨头拥有自己的基础设施，但像Kinesis这样规模较小的初创公司也已经开发出了充分利用现有闲置计算的技术。</p>
-<p>“企业需要算力。他们需要训练模型或运行应用程序。但是，他们不一定需要拥有或管理服务器，”Kinesis联合创始人比娜•希马尼（Bina Khimani）表示。</p>
-<p>研究表明，超过一半的现有GPU在任何给定时间都没有被使用。无论是个人电脑还是庞大的服务器群，都没有充分利用大量的处理能力。Kinesis所做的就是识别全球服务器中的空闲算力（包括GPU和CPU），并将它们编译成一个单一的计算源供公司使用。Kinesis 与愿意出售其未使用算力的大学、数据中心、公司和个人合作，通过安装在其服务器上的特殊软件，检测闲置的处理单元，并将其提供给客户临时使用。</p>
-<p>比娜•希马尼说：“在Kinesis，我们开发了一种技术，可以将零散的闲置算力汇集在一起，并将其重新用于无服务器的、自动管理的计算平台。”Kineesis的客户甚至可以选择他们想要的GPU或 CPU来自哪里。</p>
-<p><strong>人工智能的发展速度超过了服务器的发展速度。</strong></p>
-<p>GPUaaS正在填补人工智能行业日益扩大的空白。随着学习模型变得越来越复杂，它们需要更多的功能和基础设施，以便能够越来越快地处理信息。换句话说，没有足够数量的GPU，大型人工智能模型无法运行，更不用说改进了。去年10月，OpenAI的首席执行官萨姆·奥特曼承认，他们面临着计算能力的限制，因此无法按照期望的速度发布产品。</p>
-<p>同样在10月份，微软首席财务官艾米·伍兹在一次电话会议上告诉公司的投资者，对人工智能的需求“持续高于”他们的“可用容量”。</p>
-<p>GPUaaS最大的优势是经济性。通过消除购买和维护物理基础设施的需要，它使公司无需投资服务器和IT管理，而是可以将资源用于改进他们自己的深度学习、大型语言和大型视觉模型。客户可以做到用多少GPU就支付多少钱，从而节省部署自己的服务器所带来的闲置计算成本。</p>
-<p>像Kinesis这样的无服务器创业公司还声称比传统的云计算公司对环境更友好。该公司表示，利用现有的、未使用的处理单元，相比于为额外的服务器供电，可以大大降低能耗。在过去的五年里，由于人工智能消耗了大量的能源，像苹果和微软这样的大型科技公司的碳排放量飙升。作为回应，一些公司已经转向核能，以便为他们的服务器提供可持续的动力。Kinesis和其他新的初创公司提供了一种第三途径，在这种途径中，不需要插入更多的服务器。</p>
-<p>希马尼说：“行业领导者都坚定地致力于可持续发展。随着对创新和效率的关注，他们可以优化现有的计算能力，毕竟这些计算能力已经处于活跃状态并在消耗能源了。”</p>
-<p>对机器学习不断增长的需求和巨大的数据消耗正在将GPUaaS变成一个非常有利可图的科技领域。2023年，该行业的市场规模达到32.3亿美元；2024年，这一数字增长到43.1亿美元。预计到2032年，这一数字将增至498亿美元。</p>
-<p>希马尼说：“人工智能行业正在迅速发展到下一个阶段，重点正在从建立和训练模型转向优化效率。客户越来越多地提出这样的问题，‘当训练一个新模型时，我们如何才能做到更有针对性，而不消耗需要大量计算和能源的海量数据？’”</p>
-<p>译者：Teresa</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3156600691841796</guid><pubDate>Sat, 15 Feb 2025 07:06:00 +0800</pubDate></item><item><title>9点1氪丨拐卖中国演员王星的团伙全员被捕；TikTok已在美国AppStore重新上架；苹果将于2月19日发布新品</title><link>https://36kr.com/p/3167170590140936</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2>上市进行时</h2>
-<p><strong>JX Advanced</strong></p>
-<p>日本石油巨头Eneos子公司、全球半导体材料主要供应商JX Advanced Metals寻求通过首次公开募股筹集约4,600亿日元（约合30亿美元），这将是2018年以来日本最大一笔IPO交易。据提交财务省的公司文件，指导价为每股862日元。该公司将于3月19日在东京证券交易所上市。（界面新闻）</p>
-<h2>TOP3大新闻</h2>
-<p><strong>缅甸近期将向泰方移交7000人，拐卖中国演员王星的团伙全员被捕</strong></p>
-<p>综合泰国媒体报道，2月12日下午，缅甸向泰国边境省府达府移交261名从电诈园区获释的外籍人士。泰方表示，近期缅甸将继续向泰方移交约7000名电诈园区人员，泰国政府将与相关国家使馆协调，将其送回。此外，拐卖中国演员王某的团伙成员已尽数被捕，泰方表示将依法处置。（人民日报）</p>
-<p><strong>TikTok已重新上架苹果App Store及谷歌Play应用商店</strong></p>
-<p>财联社2月14日电，苹果公司称TikTok已在美国App Store重新上架。与此同时，TikTok重新上架谷歌Play应用商店。（财联社）</p>
-<p><strong>苹果宣布2月19日举行产品发布会，或推出新款iPhone SE</strong></p>
-<p>苹果计划在2月19日推出一款被公司首席执行官蒂姆·库克称之为“家庭最新成员”的产品。库克在社交媒体X上发布了金属苹果标志的短动画和消息，但没有提供更多细节。库克的发帖推动苹果股价周四一度上涨2%。彭博新闻社上周报道称，苹果计划在本月发布期待已久的新款iPhone SE。苹果门店的现有iPhone SE库存很快告罄，这通常是新机型上市的先兆。（新浪财经）</p>
-<h2>大公司/大事件</h2>
-<p><strong>抖音电商2024年完成GMV约3.5万亿</strong></p>
-<p>36氪独家获悉，2024年，抖音电商的商品交易总额（GMV）约3.5万亿元，同比增幅30%。另外，36氪还了解到抖音电商2025年目标为4.2万亿。36氪就此数据向抖音电商相关负责人求证，截至发稿尚未获得回应。据了解，2024年淘天集团GMV在8万亿左右；拼多多去年GMV大概在5.2万亿左右（目标5.5万亿）。</p>
-<p><strong>光线传媒5连板，市值突破千亿元大关</strong></p>
-<p>2月14日早盘，光线传媒再度20%涨停，报34.73元/股，股价续创历史新高，成交额近70亿元，最新市值1019亿元。该股录得8天6板，期间股价累计涨超264%。A股影视概念连涨6天后，2月14日小幅回调，除了第一大权重股光线传媒再度大涨20%以外，横店影视涨超6%，丝路视觉涨超4%，其余成份股涨跌互现。影视ETF（159855）2月14日成交额快速突破8000万元，实时换手率46.44%，热度较高。消息面上，由光线传媒作为主要投资方的电影《哪吒之魔童闹海》总票房(含预售)突破100亿元，成为中国影史上首部票房达到100亿元的电影。（央视财经）</p>
-<p><strong>蛟龙行动撤档，将制作特别版择日再映</strong></p>
-<p>2月14日，电影《蛟龙行动》发行方上海博纳文化传媒有限公司发布通知：“电影《蛟龙行动》将在充分听取广大观众建议的基础上，制作一部特别版，择日再与观众见面，敬请期待。”此外，参与联合发行的华夏电影宣布《蛟龙行动》定于2025年2月15日起，密钥不再延期。2月16日23:59前预售场次均可正常放映产生票房应计入影片公映票房。票房统计时间截至2025年2月16日23:59:59。据灯塔专业版，截至发稿前，《蛟龙行动》上映17天，仅获得3.78亿元票房。一般而言，电影的公映周期是一个月。（澎湃新闻）</p>
-<p><strong>极越回应定金退款进度：完成第一批退款63人</strong></p>
-<p>36氪获悉，2月14日，据极越官微，关于用户定金退款进度：1.第一批退款回顾：截止2月13日，第一批退款工作已完成。其中，已成功完成退款63人，多次信息错误待付款4人，电话沟通3次以上未接听3人。2.第二批退定开启：第二批退定工作现已正式启动。</p>
-<p><strong>近期玫瑰价格翻倍，玫瑰平替走俏</strong></p>
-<p>元宵节叠加西方情人节，这几天，鲜花销售迎来热潮，在广西南宁，记者走访鲜花市场发现，一些花材价格普遍大幅上扬，远超往年同期水平。记者了解到，今年春节前年宵花销售火爆，已经消耗了大部分库存，市场短期内供不应求。而全国最大的鲜切花产地云南，在春节前遭遇了连续的低温雨雪天气，鲜花生长受到影响，花量锐减。这些都成为推动市场价格上涨的直接动力。商家们介绍，随着近期玫瑰价格走高，一些爱花人士开始倾向于其它平替种类。（央视网）</p>
-<p><strong>珠海7.3亿出让20年路内停车经营权，出让期为20年</strong></p>
-<p>“出让珠海市（不含横琴粤澳深度合作区）市域内市政道路路内停车泊位经营权，出让期为20年，首期出让停车泊位共23798个（包括存量停车泊位和新增停车泊位）、未来新增停车泊位，停车泊位出让费为732026480.00元，单个停车泊位经营权年度有偿出让费最低价为1538.00元，最终以中标人的中标价格为准。”近日，广东省公共资源交易平台发布了一则关于《珠海市市政道路路内停车泊位经营权有偿出让》的招标信息，其中不少内容引发市民关注。</p>
-<p>珠海市城市管理和综合执法局称，依法规划和设置的道路停车设施机动车停放服务收费属于政府定价（政府指导价）范围，出让后将按政府定价有关规定和程序管理。在此次公开招标文件的《出让协议》中也进行了明确，路内停车泊位收费严格按照政府定价或政府指导价执行。（南方都市报）</p>
-<p><strong>库迪咖啡李颖波：库迪公司已从2024年5月开始实现盈利</strong></p>
-<p>在媒体沟通会上，库迪咖啡首席策略官李颖波表示，从2024年年5月份开始，截至现在，库迪公司已经实现正向现金流即盈利。“营收主要来源还是服务费，从成本上，原料成本占比最大。从春节之后到现在，每个月固定收入都在增长，环比大幅度增长。在门店端的生意是尤其明显的。”李颖波说。（21财经）</p>
-<p><strong>美团延续“八项算法改进举措”，启动新一轮“骑手超时免罚”试点</strong></p>
-<p>36氪获悉，2024年12月27日，美团公布了八项算法改进举措，其中包括在2025年底前逐步取消骑手超时扣款，推动从负向处罚向正向激励的转变。2月14日上午，美团发布公告称，结合既定工作安排和各方建议，将在广西部分城市进行新一轮“取消超时扣款”试点。据了解，这也是美团自2021年9月10日以来，第九次公开算法规则并探索相应的规则改进。此前八次中，美团针对骑手防疲劳、订单分配算法公开和新骑手帮扶等具体规则进行了优化。</p>
-<p><strong>白宫就“对等关税”政策发声明：特朗普将推出一项“公平互惠计划”</strong></p>
-<p>美国白宫就总统特朗普当地时间2月13日宣布的“对等关税”政策发表声明表示，特朗普将推出一项“公平互惠计划”，以减少美国每年持续存在的巨大商品贸易逆差，并解决与外国贸易伙伴“不公平和不平衡的贸易问题”。根据该计划，特朗普政府将审查与所有美国贸易伙伴的非互惠贸易关系，并确定美国与每个他国贸易伙伴的关税对等。（央视新闻）</p>
-<p><strong>墨西哥总统：或就“墨西哥湾”更名一事起诉谷歌</strong></p>
-<p>墨西哥总统辛鲍姆13日宣布，墨西哥政府必要时将对美国谷歌公司提起民事诉讼，指控其单方面将墨西哥湾更名为“美国湾”的“错误做法”。辛鲍姆表示，墨政府此前已向谷歌首席执行官孙达尔·皮柴正式发函，要求立即纠正错误命名。如果谷歌公司继续坚持“错误命名”，墨方将考虑采取行动，甚至提起诉讼。（央视新闻）</p>
-<p><strong>联想手机海外市场跻身全球前五</strong></p>
-<p>36氪获悉，根据国际数据公司IDC最新数据显示，2024年第四季度，尽管全球智能手机市场面临挑战，但联想手机在海外市场依然保持了稳健的增长态势。在收入方面，联想手机同比增长10.6%，排名第五，在出货量方面，也以15%的同比增长排名第五。此外，联想集团也将在2025年世界移动通信大会（MWC2025）上发布多款“AI+终端”创新性产品，包括AI手机、AI PC、AI应用、AI基础设施和解决方案服务。</p>
-<p><strong>Arm将推出自己的芯片，商业模式改变恐颠覆半导体行业</strong></p>
-<p>据报道，在获得Meta作为首批客户之一之后，英国Arm公司计划2025年推出自己的芯片。此举将彻底改变这家企业的商业模式，即将自己的设计蓝图授权给苹果和英伟达等公司。知情人士透露，Arm首席执行官雷内•哈斯最早将于今年夏季推出该公司自主研发的首款芯片。从设计芯片的基本构建模块到制造自己的完整处理器，这一转变还可能打破规模达7000亿美元的半导体行业的力量平衡，使Arm与一些最大的客户展开竞争。（新浪财经）</p>
-<p><strong>丰田称开发出成本更低的燃料电池系统</strong></p>
-<p>日本丰田汽车公司表示，该公司已开发出第三代燃料电池系统，与早期版本相比，其制造成本更低。它将能满足商业领域的需求，并具有与传统柴油发动机相同的耐用性。公司计划扩大到重型商用车，最早将于2026年以后在日本、欧洲、北美、中国等主要市场推出。（新浪财经）</p>
-<p><strong>保时捷将在德国斯图加特工厂裁员约1900人</strong></p>
-<p>据报道，保时捷人力资源主管Andreas Haffner和工会2月13日称，保时捷将在德国斯图加特祖文豪森和魏斯阿赫工厂裁员约1900人，预计2029年前完成。（界面新闻）</p>
-<h2>AI最前沿</h2>
-<p><strong>百度宣布将开源下一代文心大模型</strong></p>
-<p>36氪获悉，2月14日，百度官方消息显示，百度将在未来几个月中陆续推出文心大模型4.5系列，并于6月30日起正式开源。</p>
-<p><strong>消息称苹果仍在与百度合作开发AI技术用于iPhone</strong></p>
-<p>2月13日晚，有消息人士透露，目前苹果仍在与百度合作，在中国开发人工智能技术用于iPhone。2月14日下午阿里巴巴董事局主席蔡崇信曾表示苹果与中国的多家公司进行了交谈，最终选择与阿里巴巴做生意。（第一财经）</p>
-<p><strong>首个AI儿科医生“上岗”，与13位儿科专家共同完成疑难病例会诊</strong></p>
-<p>36氪获悉，2025年2月13日，国家儿童医学中心首都医科大学附属北京儿童医院开展了国内首次“AI儿科医生+多学科专家”的双医并行多学科会诊。据了解，“AI儿科医生”依托儿童医学大模型与健康医疗创新应用北京市重点实验室和儿童创新医疗器械概念验证平台，由北京儿童医院与北京百川智能科技有限公司、小儿方健康科技（北京）有限公司联合研发，于1月18日上线，在经过北京儿童医院近一个月的内测并得到专家的认可后，2月13日正式“上岗”。</p>
-<h2>大公司财报</h2>
-<p><strong>爱马仕第四季度销售额增长17.6%，全年销售额超150亿欧元</strong></p>
-<p>法国奢侈品巨头爱马仕周五公布，2024年第四季度销售额增长好于预期，表明在动荡的奢侈品市场，对最高档产品的需求依然强劲。该公司表示，按固定汇率计算，第四季度销售额增长了17.6%，达到39.6亿欧元（约合41.5亿美元），超过了LSEG调查的分析师预测的36.9亿欧元。按固定汇率计算，2024年全年销售额增长14.7%，达到152亿欧元，高于预期的149.4亿欧元。（新浪财经）</p>
-<h2>投融资</h2>
-<p><strong>“探微芯联”完成天使轮融资</strong></p>
-<p>36氪获悉，近日，互联通信方案提供商北京探微芯联科技有限公司宣布完成数千万人民币天使轮融资。本轮融资由麟阁创投领投，水木创投、盛景嘉成、创新工场、水木清华校友种子基金共同投资，本轮融资将用于产品研发及团队搭建。</p>
-<h2>酷产品</h2>
-<p><strong>曝iPhone17ProMax将配备金属超构透镜，折叠iPad也会运用该方案</strong></p>
-<p>博主数码闲聊站2月13日发文透露，iPhone 17 Pro Max将落地金属超构透镜，主要是集成Face ID Rx和Tx，缩小减薄结构组件，灵动岛体积会进一步缩小。</p>
-<p>另外博主还表示，该方案还会运用到直板iPad Pro和折叠iPad，苹果终极目标还是屏下3D人脸，但还要好几代。（新浪科技）</p>
-<p><strong>整理</strong>｜王欣逸</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3167170590140936</guid><pubDate>Sat, 15 Feb 2025 08:55:00 +0800</pubDate></item><item><title>商场电玩城，「掏空」中年人的钱包？</title><link>https://36kr.com/p/3167184670272005</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>如果不是春节过年回家，我不会发现：</p>
-<p>商场电玩城里最狂热的玩家，早就不是小孩哥和小孩姐了。</p>
-<p>记忆中的商场电玩城是年轻人的专属地。 抓娃娃是情侣约会必玩项目，放小零食跟假水晶的迷你娃娃机是当之无愧的孩童诱捕器。 直到我跟05后的表弟一起走进商场电玩城，才发现：</p>
-<p><strong>电玩城里玩得最疯的，竟是中年人。</strong></p>
-<p>而最受中年人欢迎的电玩城项目，就是推币机。</p>
-<h2><strong>商场电玩城，挤满中年人？</strong></h2>
-<p>一个典型的电玩城中年消费者的画像是：</p>
-<p>拿瓶水揣包烟，一坐就是一整天。</p>
-<p>他们早上赶在开门前排队，晚上挨到商城闭店赶人，狂热的架势跟八点起床等环球影城开门的粉丝别无二致。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_3992bbf048e546bdab7ccac74f5e3d27@000000_oswg57864oswg1080oswg581_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>唯一不同的或许就是：</p>
-<p>环影开园前排大队的人想趁人少冲哈利·波特禁忌之旅，中年人在电玩城如此沉迷只是因为<strong>推币机。</strong></p>
-<p>在刚过20的表弟看来，在电玩城锁定中年玩家的方式除了看他们的发色、皱纹和体型，还有更加精准的方式：</p>
-<p>“眼冒绿光”、手速奇快，拿几大筐代币哐哐地往里投的人，大概率就是中年人。</p>
-<p>不夸张地说，推币机的玩家，或许是整个电玩城里忠诚度最高的顾客。</p>
-<p>对推币机上头的人可以全天守候在机器面前，甚至推到腰酸背痛，手指发黑。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_1d300042db4940f9be95d5e39023f9f5@000000_oswg219753oswg1080oswg1815_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>〓图源：@不好吃肉</p>
-<p>一开始，他们或许只是路过电玩城，被推币机里摇摇欲坠的钱山币海吸引。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_caf87199062147dd9a92f1a2780371f9@000000_oswg88776oswg1080oswg1142_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>围观了半小时其他玩家推币的过程后，难免想要小试一把。</p>
-<p>结果就在赢的几百个币叮叮叮掉下来时，听到了围观群众此起彼伏的叫好声。 钱币掉落的声音和喝彩的欢呼带来强烈的感官刺激，营造出一种我在宇宙中心的错觉。</p>
-<h2><strong>错觉背后的代价，是真金白银。</strong></h2>
-<p>一旦沉迷于推币机，一天就能轻轻松松花掉一两千。</p>
-<p>甚至有人两个月能在这上面花两到三万元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_ee219e33ba344ca980d7ddd510af7b24@000000_oswg106212oswg1080oswg1141_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>（大喇叭提示⚠️：博彩类游戏容易沉迷，入坑玩乐需要谨慎！！！）</strong></p>
-<p>人到中年辛苦赚来的钱通通撒进去，几千块钱砸下去就为了“听个响”。</p>
-<p>钱币掉落之后，迎接玩家的只剩空虚，以及机子不断吐出的彩色兑换票（俗称彩票）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_091bc30812434580900160dc02679f31@000000_oswg109171oswg844oswg591_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>别看这些兑换票一抓一大把，玩猛了手里都拿不下......</p>
-<p><strong>一旦用它们兑过奖，就会发现能换回的只有“时尚小垃圾”。</strong></p>
-<p>常去电玩城的人都知道，电玩城货币贬值速度堪比菲律宾，彩票基本和厕纸一样不值钱。</p>
-<p>电玩城员工也曾在互联网上透露，彩票兑换率只有300比1。</p>
-<p>可以简单粗暴地理解为：就算你在电玩城获得了3000张彩票，实际也只能换到10块钱的东西。</p>
-<p>所以哪怕玩家技巧高超中了大奖， 怀抱4万张彩票，最后也只能兑换个奥特曼保温杯。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_41bb335784d4423680c7cfdcfbcb0c01@000000_oswg52380oswg1080oswg755_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>至于电玩城中央玻璃柜子里那些好看的大玩偶、实用小家电，没有十几万彩票根本带不走。</p>
-<p>但就是这样的“赔本”游戏，许多人却乐此不疲。</p>
-<h2><strong>推币机，是如何拿捏人性的？</strong></h2>
-<h2><strong>推币推的不是钱，而是诱惑。</strong></h2>
-<p>电玩城里的天然广告一般有以下这几种：</p>
-<p>跳舞机上身随心动的无影脚神人，穿着漂亮小裙子猛猛拍舞萌的i人，和终于让推币机爆币的中奖“幸运儿”。</p>
-<p>推前两种会让人发出不可思议的“哇”，而最后一种则大概会让人发出感到由衷羡慕的“哇”，并伴随着跃跃欲试“或许我上我也行”的心情。</p>
-<p>钱币掉落的声音无疑是一种蛊惑，它告诉围观者：</p>
-<p><strong>利益唾手可得，胜利近在咫尺。</strong></p>
-<p>彩票兑换不到实际利益的现实，玩家只要体会过几次就能有个清楚的认知。</p>
-<p>为了让游戏更具诱惑力，有的推币机里会放上实体奖品，比如小瓶茅台、香烟、金饰还有苹果手机。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_3eb9f928d6054e40a3240974e7e9461a@000000_oswg338561oswg1080oswg1821_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>〓 图源：@右阿右，</p>
-<p>这就像咕噜看到魔戒，巴金斯误入史矛革的巢穴，一座“钱”堆起的小山放在眼前，人的心中很难不响起“It's my precious”的声音。</p>
-<p><strong>每投一次币，都会为这份诱惑添砖加瓦</strong>。</p>
-<p>或许正因如此，推币机在电玩城也被叫做“追梦机”。</p>
-<p>为了丰富游戏体验，提高诱惑的阈值，推币机甚至迭代过多种版本，设置了很多推币之外的小游戏。 简单的如类似老虎机的摇奖和转盘，复杂的如“星穹航线”，是推币+打怪的结合。</p>
-<p>但无一例外，都会设置超高的奖励作为诱人入局的筹码。</p>
-<p><strong>一旦人们相信了这种诱人图景，很快就会体验到现实的残酷。</strong></p>
-<p>奔着最新款的iPhone想捡个漏，结果投了两千多币却一无所获。</p>
-<p>第二天想起来还是很不服气，早上九点多直奔商场，全天怒掷两千却连个奖品影子都没见到。</p>
-<p>从碰碰运气变成重度用户， 一边害怕后悔自己投入太多，一边希望下一把就能逆风翻盘；</p>
-<p>一边批判自己“玩物丧志”，一边忍不住坐在推币机面前告诉自己就玩最后一把。</p>
-<p>为了合理化这种沉迷，给自己的上瘾找到借口，更是放下金句：</p>
-<p><strong>人类的本质就是爱听钱响。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_7257cadd2d614bba9e6cf95d87fb37a0@000000_oswg39993oswg1080oswg540_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>事实上，这种所谓的人类本质背后写满了商家套路。</p>
-<p>为了让玩家更快上瘾，推币机在设置游戏规则时就删繁就简，把玩家的成本简化为两个动作：投币、推币。</p>
-<p><strong>伴随着钱币落下的声音，营造出一键改变生活的幻想。</strong></p>
-<p>让玩家可以通过最简单的动作获得操纵金钱的控制感，再靠偶尔降临的奖励提供胜利的满足。</p>
-<p>比起去跳炫舞的青少年和玩抓娃娃的小情侣，中年人往往更懂生活的难易操控，也更容易被推币机营造的 胜利和掌控感迷惑。</p>
-<p><strong>但爽只是推币机的谜面，谜底依然无限接近于赌博。</strong></p>
-<p>2017年，有记者曾暗访电玩城，发现其间内设赌博暗室，几台打鱼机一小时能吸走赌客172万元。</p>
-<p>沉迷打鱼的人手上都打出了厚茧，财产被游戏机席卷一空。</p>
-<p>老板更是对一位一年输了4000万的玩家，每天给500元和香烟，吃住全免。</p>
-<p>正如我们听过千百遍的赌博故事描绘的那样，不管过程多么精彩，结局都是相似的：</p>
-<p><strong>赌到最后，一无所有。</strong></p>
-<h2><strong>娱乐「上瘾」，正在高龄化？</strong></h2>
-<p>在东亚，中年人甚至老年人沉迷电玩城的现象并不罕见。</p>
-<p>日本有不少中老年人沉迷赌马和打小钢珠“柏青哥”。2018年，日本柏青哥玩家约有950万人，三成都是银发族。</p>
-<p>去日本旅行的人要是误入柏青哥店，大概会看见这样的场景：</p>
-<p>几排头发花白的老年人在游戏机前齐齐坐着，神态比上班还要专注。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_6184ce2ed18044d69f966977693a45cf@000000_oswg382282oswg552oswg368_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2023年，日本有一家名为“拉斯维加斯”的<strong>老年日托所</strong>意外走红。</p>
-<p>“拉斯维加斯”除了一般的看护服务之外，最主要的特色便是提供扑克、柏青哥和麻将桌台，让老人们每天可以自由参与“赌博”。</p>
-<p>每天还会根据玩家们的成绩进行排名，选出“赌王”拍照留念。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_31bdafdc5f844ffb849646aff02f220f@000000_oswg877052oswg768oswg576_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>为了淡化赌博性质，老人们的“赌资”是拉斯维加斯免费提供的纪念币，不能换成钱，也没有任何实际用途。</p>
-<p>“拉斯维加斯”还找了专家背书，坚持这类活动能够激化老年人的“脑活性”，预防认知类障碍。</p>
-<p>但不管怎么包装，养老日托所依然带有浓浓的赌博色彩。</p>
-<p>面临着职场压力、家庭责任、育儿焦虑以及老龄化的现实困境，推币机作为一种娱乐方式或许确实为他们提供了一个短暂的“逃避现实”的机会，但依然急速消耗着他们的健康和精力。</p>
-<p>在月输几万后，不少人开始试图 戒掉推币机。</p>
-<p>在网上发帖呼吁大家不要靠近推币机，并真诚发问：如何戒掉推币机。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_81bd7904e003403c85b4bcc5cdea06f6@000000_oswg109000oswg864oswg644_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>直到这时，人们才发现戒掉这个简单的游戏有多难。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_39cbfa7cce4f4897b884ef51e7db1c94@000000_oswg154325oswg842oswg420_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而评论区最地狱的笑话或许就是 “以毒攻毒”：自己买一台推币机在家玩，玩腻了就好了。</p>
-<p>初玩时，人们总是怀揣着对几千币全盘奖的向往，结果砸了一千又一千的真金白银进去，花费了大把时间，到最后手边只剩空空的币筐。</p>
-<p>散场之后，只能悔恨自己白白浪费了大量的时间和金钱。</p>
-<p>毕竟，任何一个从游戏中抽身的人都无法接受：</p>
-<p><strong>明明花出去的是真钱，赢来的却是假币。</strong></p>
-<p>作者/汽水</p>
-<p>编辑/章鱼</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI1NDY5NDM3OQ==&amp;mid=2248074629&amp;idx=1&amp;sn=c26fcb43ca2610956095c9a50b27c3bd&amp;chksm=e88250058b9cc8acbeb1b40488568a82fbcadd1d605edd99e26e0140f4b4320aa9300711695e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“凤凰周刊”（ID：phoenixweekly）</a>，作者：汽水，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3167184670272005</guid><pubDate>Sat, 15 Feb 2025 09:19:00 +0800</pubDate></item><item><title>情人节含“金”量大涨，有商家月销1500万，“不敢放开卖”</title><link>https://36kr.com/p/3166479883660040</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_a1d39bb7d12f40eeb7328e176c2aecd1@000000_oswg84470oswg1080oswg360_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>当黄金成为硬核浪漫。</p>
-<p>“我赚钱我不花，攒钱给你买金子啦。”</p>
-<p>一块带有专属刻字的爱情黄金大饼，成为2025年情人节的表白神器，连续多天登上淘宝热搜榜。</p>
-<p>2025开年以来，国内黄金价格猛涨，频创历史新高。截至2月13日，国内现货金价达到686元/克，周大福、老凤祥等品牌的黄金实物克价达到890元/克、880元/克。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_2b807c23510f4c789fd52e91b83a2df2@000000_oswg511960oswg1080oswg807_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>连续一周，“金价涨疯了”的相关消息霸榜大众视野，“男子正月初九买的金条，5天赚了2万多” “杭州金店贴出限时限购标语” 等话题引发热议。</p>
-<p>恰逢情人节，爱囤金的年轻人更是将一众黄金礼物捧上了市场C位，尤其是具备投资、保值属性的硬核金礼，在节前迎来销量大爆发：</p>
-<p>在淘宝天猫平台上，黄金玫瑰成为新一代“浪漫永生花”，2月环比成交增长超300％；可定制姓名的黄金圆饼，让“画饼”变得诚意十足，成交环比增长超1500％；足金打造的“听话符”，化身恋人的社交货币，在节前卖脱销；52克的爱心金块，几天内热卖700多万元......</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_a86e46325ecd4fc39f080741b3570e25@000000_oswg1195044oswg1037oswg941_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>“送啥都不如送黄金，保值不出错，百来块钱就能买，真的很香！”在社交媒体上，不少年轻消费者发出感慨，这年头，送黄金才是最有仪式感的硬核浪漫。</p>
-<p>疯涨的金价、囤金的热情，对黄金品牌们来说既是考验也是机遇。而那些奏响2025年生意爆发序曲的商家，在这轮黄金热发酵前，早已蓄势待发。</p>
-<h2><strong>把浪漫变得更保值，有商家单月入账1500万</strong></h2>
-<p>“这几天，黄金大饼的礼盒已经卖断货了，工厂产能跟不上，都不敢放开卖！现在我们把每天销量控制在2000单左右。”</p>
-<p>2月12日，《天下网商》拨通周金生电商负责人胡润梧的电话时，他正因飙升的订单忙得不可开交。据他透露，同比去年，周金生今年情人节的销量暴涨了近200％，近一个月来，品牌的线上销售额超过1500万元。</p>
-<p>黄金大饼、黄金玫瑰花束、刻着“我养你啊”字样的金钞，是周金生天猫店内最受欢迎的三款情人节爆品，这些足金产品的克重均集中在0.1克—1克之间。</p>
-<p>不久前，“一克左右的金饰成市场主流”话题曾登上微博热搜，周金生的爆品规格同样印证了这种趋势。</p>
-<p>胡润梧告诉我们，因为件单价较低，很多消费者下单时，会依据种草图搭配着两三件一起购买，近期平均客单价为700元，买得最多的人单笔金额能达到五六千元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_d1fce28badde46c59705a2a47db66773@000000_oswg1134730oswg1080oswg704_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>品牌顺势推出情人节黄金礼盒套装</p>
-<p>在胡润梧看来，黄金玫瑰才是真正的爱情永生花：“我们的黄金玫瑰0.3克，卖300多块钱，一束鲜花也要两三百元。同样的预算送礼，鲜花会过期枯萎，黄金却是保值甚至增值的，很多人因此选择黄金玫瑰。”</p>
-<p>自去年七夕过后，周金生就开始筹备2025年情人节主题货盘，从春节前夕开始在小红书、抖音、得物做内容种草，前期靠达人打头阵，后期靠官方账号发力，聚流至天猫成交，历经两个月的蓄水期，最终在2月迎来销售高峰。</p>
-<p>关于情人节的黄金消费趋势之变，“中华老字号”老庙黄金同样深有体感。</p>
-<p>老庙黄金相关负责人告诉《天下网商》，情人节周期内，品牌的“一串好运系列”，以及带有花、萌宠等元素的小克重产品均在天猫迎来销量爆发，其中线上专供款“灵蛇系列”，同时满足了情人节送礼与蛇年生肖购买人群的需求，跑出亮眼的增长曲线。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_18da30b044bf42b8afd5844b5352144b@000000_oswg64550oswg790oswg1108_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>老庙黄金“灵蛇系列”</p>
-<p>聚焦这些热销品，不仅是抗通胀资产，更是年轻人表达爱的“硬通货”，具备两点共性：</p>
-<p>一是浪漫与保值相结合，如黄金花束，既具备鲜花的浪漫造型，又具备保值属性，成为表达爱意的新宠；二是小克重产品走红，如2克—5克的黄金耳饰、项链等饰品，价格适中、工艺精美，符合年轻人的预算及日常佩戴需求。</p>
-<h2><strong>年轻人爱上“淘金”：小克重、投资性、情绪化</strong></h2>
-<p>这届95后、00后年轻人，正在凭一己之力改变黄金消费市场的热浪流向。</p>
-<p>据中国黄金集团数据，2022年投资金条的购买者中，30岁以下年轻人占比达35％。截至目前，小红书上与“黄金保值”相关的笔记超过20万篇。</p>
-<p>全球经济环境复杂多变，黄金作为一种避险保值资产，激发了年轻人的淘金热。中国珠宝玉石首饰行业协会报告显示，黄金产品选择上，年轻消费者不再一味追求“大而重”，更愿意为“小而美”买单。</p>
-<p>一批黄金商家们嗅到“新实用主义”的淘金风向，纷纷应势而变。</p>
-<p>周金生就是案例之一。据胡润梧介绍，创立于20世纪90年代的周金生，来自“黄金界的义乌商城”深圳水贝，是一家黄金珠宝首饰生产零售商，在线下有超过1000家连锁门店。</p>
-<p>近年来，周金生观察到，出于对平台的信任，越来越多的消费者选择在线上买黄金，于是在2023年底布局电商业务。</p>
-<p>起初，周金生直接把传统的线下产品搬到线上，却因价值过高卖不动。而后，品牌决定为电商单独开发一盘货，着重抓取18岁—30岁年轻用户（如大学生、初入职场的白领等）需求，和工厂一起研发新品。</p>
-<p>“这两年有一个明显趋势，黄金消费的客单价在变低，以前动辄购入10克以上，现在金价过高，很多人买不下手大克重产品，都在观望，但小克重产品不过百元、千元，更契合当下的市场心态。”</p>
-<p>以小克重“投资金”为主攻品类，增加创意设计和情绪表达，是周金生摸索出来的产品创新方向。</p>
-<p>黄金生产工艺的迭代，也为小克重产品的形态赋予了更多想象力。胡润梧拿一款“生日快乐”金钞举例，用机器压到极薄，再用模具热压成型，最后裁边修饰，相比过去的手工制作，这种薄片金钞可以在同克重前提下将尺寸做得更大，再搭配传统红包的包装，富贵又讨喜。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_6b800d369bfc40fb93a6b450aff6a7ec@000000_oswg1107958oswg1080oswg756_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>内容表达上，团队的00后成员扛起了创意大旗，每款新品开发前，运营、文案、设计团队都要聚在一起“脑暴”，将不少网络热梗融入了产品设计，“去年七夕，有同事从‘老板画饼’中得到灵感，想做一款送恋人的黄金大饼，前后磨了二三十版才敲定。”胡润梧说。</p>
-<p>更精准的人群定位、更贴合年轻人的产品，让周金生的电商生意得以快速起盘。</p>
-<p>据胡润梧透露，上线一年多，周金生的天猫店2024年销售额超过5000万元，品牌线上全渠道年销售额破亿元。在天猫店内超过5000款SKU中，投资类黄金产品占了70％—80％。</p>
-<p>自上海福源“好运”之地老城隍庙诞生的老庙黄金，连续多年来积累了大批会员顾客，日常平均客单价在3000元左右，也在积极探索自我迭代。</p>
-<p>“当下，消费者变得更加理性，不再盲目追求品牌和款式，同时也更关注金饰所能带来的情绪价值，看重产品设计、寓意和文化内涵。”</p>
-<p>老庙黄金相关负责人认为，年轻人除了看重黄金的实用与保值功能，还希望通过金饰满足礼赠、悦己的需要，比如今年情人节，从品牌的评论区可以发现，除了情侣送礼，很多女性也会给自己买节日礼物。</p>
-<p>据其介绍，未来老庙黄金将围绕“好运文化”基因，融合东方生活美学与现代时尚，打造更多的明星产品系列，同时针对细分市场，丰富产品线，探索跨界合作，满足消费者的多元需求。</p>
-<h2><strong>金价频创新高，它们如何把泼天流量变成“富贵”？</strong></h2>
-<p>虽然金价屡破历史高位，但对商家们来说，高热度与高销量并不直接划等号。</p>
-<p>据中国黄金协会数据显示，2024年上半年，全国黄金消费量523.753吨，同比下降5.61%，其中黄金首饰270.021吨，同比下降26.68%，而金条及金币213.635吨，同比增长46.02%。</p>
-<p>——这组数据折射出黄金消费的结构性分化：首饰金需求遇冷，投资金赛道爆发。</p>
-<p>老庙黄金相关负责人表示，金价屡创新高给行业带来的挑战主要集中在两方面：</p>
-<p>市场端，金价持续走高将一定程度影响消费者的购买意愿，但同时催生出了小克重产品与投资金的需求增长；供给侧，原料采购成本攀升，行业利润空间将承压。</p>
-<p>即便在表现亮眼的小克重黄金市场，竞争态势也在加剧。</p>
-<p>以今年春节爆火的足金手机贴为例，克重普遍在2毫克—0.2克，定价从十几元到数百元不等，装饰性强又能讨彩头，化身年轻人的“招财神器”（更多内容，查看天下网商《19.9元“招财神器”卖爆，年轻人“人手一个”过春节》）。</p>
-<p>但随着商家们狂热涌入，黄金手机贴赛道的产品同质化、价格内卷、材质鱼龙混杂等现象已经出现，有从业者直言，“低价横行，市场很乱”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_99025a588f9341f9b017a967aed97d2e@000000_oswg1442890oswg1078oswg751_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>黄金手机贴</p>
-<p>面对挑战，创新仍是破局关键。据《天下网商》观察，在金价高企与消费者年轻化的双重驱动下，当前黄金商家的产品创新路径聚焦三大方向：</p>
-<p>“投资金”轻量化，降低年轻消费者入手门槛</p>
-<p>行业集体加码小金豆、小金条、薄片金钞等低克重产品，“月攒一粒金豆”成为年轻人的新型理财方式。部分品牌通过形态创新构建差异化，如推出金爱心、金棉签，甚至金“狗屎”等猎奇造型。</p>
-<p>产品内容化，借助创意设计、IP联名等手段，为黄金产品注入情绪价值</p>
-<p>黄金大饼、黄金手机贴、生肖转运珠等爆品，都凭借创意造型和趣味文案，直击年轻人的悦己、社交需求；周大福与迪士尼、黑神话悟空等顶流IP的联名，则验证了文化赋能的商业价值。</p>
-<p>跨界拓品类，联动家居日用、消费电子等不同品类，将黄金元素渗入生活百态</p>
-<p>老凤祥联合野兽派开发的足金片车载香氛，就在情人节迎来热销，其天猫旗舰店显示成交过万单。周金生的新品计划中，还包含手机扣、支持门禁开锁的NFC芯片贴等实用型足金产品。</p>
-<p>相较普通消费品，黄金产品的特殊性还在于，它有可能同时承载起功能价值、情感溢价与投资属性。对商家而言，这是品类天赋，更是机遇所在。</p>
-<p>2025年伊始，年轻人正在用自己的选择投票，重新定义黄金消费：既要保值安心，也得舍得下手；既要悦己共鸣，也要社交谈资。当情人节的“硬核玫瑰”开遍市场，黄金行业的进化叙事才刚刚开始。或许，未来正如胡润梧所畅想的那样，“万物皆可黄金”。</p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzkwNTUxNTE0Ng==&amp;mid=2247675543&amp;idx=1&amp;sn=3fff33b03acb4aabc720df5076bba62f&amp;chksm=c1127dbce8a7bbeb069c7cfb3ae69fa12d8ee846c2f4e26fe6a37fefab75108b850a6b46baf0&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“天下网商”（ID：txws_txws）</a>，作者：天下网商，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166479883660040</guid><pubDate>Sat, 15 Feb 2025 09:21:00 +0800</pubDate></item><item><title>永辉超市：白天开店，晚上开仓</title><link>https://36kr.com/p/3166484817799936</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_b822e35474454ec69262ba16435cb903@000000_oswg1041347oswg1080oswg580_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>永辉最核心的意图在于复用“门店即仓”的经营资源，通过“时间维度”开辟新战场，将全品类覆盖、供应链优势转化为用户体验壁垒，进一步挖掘增量场景、释放夜间经济红利。</strong></p>
-<p>“永辉超市试点24小时配送服务”的消息引发了行业关注。</p>
-<p>对此，永辉超市相关工作人员表示：在深入开展市场调研并广泛收集用户反馈后，了解到不少居民在深夜时段仍存在采购生活用品及应急物资的迫切需求。为此，永辉决定开放部分仓库，实行24小时不间断经营服务。只要在试点仓覆盖区域，无论何时，都能轻松买到所需商品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_7680280395a34bf7bfa6efacc2a0ddf2@000000_oswg423438oswg694oswg645_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>图：永辉生活24小时配送服务</p>
-<p>「零售商业财经」了解到，目前永辉超市提供24小时全品类配送服务的覆盖区域涵盖福州鼓楼、台江、晋安、仓山、长乐、闽侯等地部分区域11个仓库。虽然目前还无法做到全面覆盖，但永辉生活称将持续优化整体运营模式，拓展服务范围。</p>
-<h2><strong>云仓拓增量</strong></h2>
-<p>现阶段，永辉超市已在福州区域开放11个仓库联动，具体包括：永辉福建福州市上渡仓、福州市百花洲仓、福州市烟山大厦仓、福州市群升仓、福州市西河里仓、福州市塔头仓、福州市滨江金榕仓、福州市西客站仓、福州市长乐万星仓、福州市长乐郑和仓、福州市闽侯青口仓。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_5a917ad7578c401c97e774f76e8df2f5@000000_oswg203273oswg588oswg622_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>图：目前提供24小时全品类配送服务的11个仓库</p>
-<p>选择将福州大本营作为试点24小时经营、配送服务的首站，说明永辉在全时段消费场景的探索方向上是相当谨慎的。若福州模式跑通，全国商超跟进只是时间问题。</p>
-<p>当然，这一动作背后既反映着永辉在核心区域供应链能力和品牌知名度上的自信，也侧面展露出线下门店的持续“胖改”尚难以抚平永辉2024年业绩预亏的伤痛（且全年经营情况较2023年并未明显改善），这源于传统商超企业转型焦虑的深刻烙印以及寻求市场增量的决心。</p>
-<p>作为同样发家于福州的零售企业，朴朴超市是绕不开的话题，它也是凭借前置仓模式对传统商超模式发起挑战的典型代表之一。</p>
-<p>从这个角度来看，永辉最新动作某种程度上是对朴朴这类以“30分钟达”抢占生鲜即时零售市场的前置仓玩家的防御性布局。</p>
-<p>不过永辉最核心的意图还是复用“门店即仓”的经营资源，通过“时间维度”开辟新战场，将全品类覆盖、供应链优势转化为用户体验壁垒，进一步挖掘增量场景、释放夜间经济红利。</p>
-<p>永辉超市的品类优势尤为明显，相关数据显示，永辉单店SKU超8000个，其中生鲜占比超50%，而朴朴前置仓SKU约3000-4000（生鲜占比30%），见福便利店则仅1000-2000个（以标品为主）。</p>
-<p>相较于常用商品，永辉门店可储备更多家庭应急类长尾商品，24小时配送可切入家庭应急（如退烧药、母婴用品）、夜宵食材（火锅底料、啤酒）等场景，以满足用户夜间消费需求，而前置仓和便利店则受限于仓储空间而难以覆盖。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_207446870c2d449fbb62d2c8d3d2beff@000000_oswg366041oswg1080oswg1050_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>图：非24小时配送区（左）24小时配送区（右） </p>
-<p>进一步讲，永辉门店白天服务线下客流，夜间转为线上订单履约，24小时服务将帮助永辉从“计划性采购”场景延伸至“即时性需求”，增加用户打开APP/小程序的频率，推动从“周活”向“日活”转变。</p>
-<p>当然，永辉超市能否发挥夜间订单的“错峰填谷”效应，仍取决于商品品质与服务履约的稳定性。</p>
-<p>换言之，永辉24小时配送服务的成功关键在于通过数据驱动实现“需求密度&gt;成本阈值”，并在用户心智中建立“夜间可靠供给者”形象。如果销量起不来，那边际成本摊薄的设想将难以实现。</p>
-<h2><strong>“胖改”优服务</strong></h2>
-<p>永辉的“胖东来化”调改本质是在激烈的市场竞争中探索一条“高体验—高成本—高溢价”的生存路径。</p>
-<p>2024年5月5日，永辉超市与许昌胖东来达成共识，由胖东来协助永辉进行门店调改。5月30日，郑州信万广场店闭店进行调改。6月19日，调改后的门店正式恢复营业，首日销售额达到188万元，是调改前平均日销的13.9倍，客流量增长了5.3倍。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_80892abeb1d04e308395a6be5a26518c@000000_oswg1651415oswg1080oswg798_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>图源：永辉同道</p>
-<p>此后，永辉在郑州的其他门店也陆续进行调改，引入胖东来的商品结构、供应链能力和服务理念。同年8月，永辉超市启动首批学习胖东来的自主调改店，在合肥、杭州、福州、成都等10个城市开展门店升级。调改后的门店在商品、服务和环境上都有显著提升，吸引了大量消费者。</p>
-<p>今年2月11日，永辉还官宣了蛇年首批调改门店名单，共计20家门店，涉及15个城市。其中，包括了武汉、太原、南宁、开封、温州、东莞、绵阳和福清8个新晋调改城市，届时，调改店将覆盖26个城市，“首发经济”有望带动多个商圈的消费升级，品质与幸福的商业模式将惠及更多市民。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_4dae3f72a8aa44aaa2c928726d1b8b46@000000_oswg87223oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>图源：永辉同道</p>
-<p>虽然调改门店业绩有所提升，但对庞大的永辉超市而言，十几家门店的成功还不足以撼动整体业绩，且局部的成功并未彻底扭转永辉超市的整体颓势。</p>
-<p>永辉发布今年1月发布的2024年业绩预亏公告显示，公司2024年归母净利润预计为-14.0亿元，2024年扣非净利润预计为-22.1亿元，相比去年亏损进一步拉大。事实上，这一情况在2024年三季报中已有所体现：永辉超市营收同比下滑16.40%，归母净利润与扣非净利润均为负，亏损同比扩大。</p>
-<p>有行业分析认为：永辉亏损本质是“新旧模式切换期”的阵痛，而非模式本身的失败。永辉在“胖改”过程中面临着短期成本承压与长期收益滞后的矛盾。因此，要让胖东来的模式在永辉超市全面开花结果，仍需时间和更大规模的投入。</p>
-<p>传统零售的转型之路，注定在刀刃上行走。</p>
-<p>零售业的残酷之处在于，留给永辉的试错窗口期，或许不会超过18个月，平衡“生存”与“进化”之道迫在眉睫。</p>
-<p>在危机中积极求变的永辉，“白天开店，晚上开仓”之举已经表明：它不会把鸡蛋放在一个篮子里。</p>
-<p>向前追溯，或许早在叶国富持续看好即时零售和闪电仓业态的发展前景，并官宣名创优品将大幅加码闪电仓形态的“24H（小时）超级店”时，便为如今永辉24小时配送服务的上线埋下了伏笔。</p>
-<p>作者：喻博雅出品：零售商业财经 ID：Retail-Finance </p>
-<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzIyMDA1MTgxMw==&amp;mid=2247797102&amp;idx=1&amp;sn=0e2a9a63a4da9ac06f168a7221beea3b&amp;chksm=96cdf34a69fef1334ecc26f5e9ef651606f656c114054710e1d4df2103ef55dd779dc522f36e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“零售商业财经”（ID：Retail-Finance）</a>，作者：RBF团队，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166484817799936</guid><pubDate>Sat, 15 Feb 2025 09:38:00 +0800</pubDate></item><item><title>沈抖与谭待之争，撕开了云厂商的焦虑</title><link>https://36kr.com/p/3166491355671043</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<section data-role="outer" label="edit by 135editor">
-<section data-role="paragraph">
-<section style="margin-bottom: 0px;letter-spacing: 0.578px;">
-<section style="">
-<section style="letter-spacing: 0.5px;">
-<section style="vertical-align: initial;"></section>
-</section>
-</section>
-</section>
-<section style="margin-bottom: 0px;letter-spacing: 0.578px;">
-<section style="">
-<section style="">
-<section style="">
-<p style=""><strong style='caret-letter-spacing: 0.5px;Microsoft YaHei";'>撰文</strong><span style='caret-letter-spacing: 0.5px;Microsoft YaHei";'> | 郝鑫</span></p>
-<p style="vertical-align: initial;"><strong style='letter-spacing: 0.5px;Microsoft YaHei";'>编辑</strong><span style='letter-spacing: 0.5px;Microsoft YaHei";'> | 吴先之</span></p>
-</section>
-</section>
-</section>
-</section>
-<p style="text-align: justify;"><span style='Microsoft YaHei";letter-spacing: 0.5px;'>昨天，两个老百度人隔空展开了一场“互怼”。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>两个主人公分别是，现任百度智能云事业群总裁沈抖和火山引擎总裁谭待。公开资料显示，2008年至2019年期间，谭待曾担任百度搜索、网盘和基础架构首席架构师、T11级别技术专家。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>这场争论源于，沈抖在2月12日百度智能云事业群（ACG）全员会上，颇具指向性的发言。沈抖在会上提到：“国内大模型去年‘恶意’的价格战，导致行业整体的创收相较于国外差了多个数量级”。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>火山引擎、阿里云、腾讯云等，去年参与到“大模价格战”中的厂商纷纷躺枪。但接下来沈抖话锋一转，单独把豆包拎出来作为了典型案例。在谈及Deepseek影响时，沈抖直言不讳，认为首当其冲的AI产品就是字节的豆包，理由是其训练成本和投流成本都很高。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>随即，谭待在朋友圈展开了正面回击。针对“恶意”一词他回应称，“豆包1.5Pro模型的预训练成本、推理成本均低于DeepSeek V3，更是远低于国内其他模型，在当前的价格下有非常不错的毛利”。</span></p>
-<p style="text-align: justify;"><img alt="A person holding a cell phone in their hand" class="rich_pages wxw-img" data-backh="375" data-backw="562" data-imgfileid="502179744" data-ratio="0.6666666666666666" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20250214/v2_bafe31839b894839bfa1fc17c7225bea@000000_oswg39778oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>之所以能够实现降价，谭待将其归功于了“技术进步”，他表示，“国内外的厂商都在依靠技术创新，降低模型价格。我们也只是实现了Gemini 2.0 Flash的价格水平而已，这个价格完全是依赖技术进步做到。”</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>最后，谭待也不忘给老东家送上了自己的“建议”：“大家应该像DeepSeek一样聚焦基本功，聚焦创新，不急不躁，少无端猜测，归因外部。”</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>截至发稿前，沈抖未对谭待的上述言论，发表任何意见。</span></p>
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-mpa-template="t" mpa-from-tpl="t">
-<h2 mpa-is-content="t" style='font-weight: bold;Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;font-variant-numeric: normal;font-variant-east-asian: normal;letter-spacing: 0.544px;white-space: normal;widows: 1;border-left: 5px solid rgb(2, 30, 170);background-border-top-border-bottom-border-right-'><span style="border-"><strong mpa-from-tpl="t" mpa-is-content="t"><strong mpa-from-tpl="t" mpa-is-content="t"><strong>争论分歧</strong></strong></strong></span></h2>
-</section>
-</section>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>此次争论的话题主要集中在三个方向：大模型降价、商业化和DeepSeek。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>话里话外，沈抖指责火山引擎带偏了整个行业风气，让大模型卷进了价格战，让AI产品陷入了投流营销战，以此走向了恶性循环。而谭待对其进行了全盘否认，认为降价是火山引擎的技术优势，将锅又甩回给百度，暗讽其大模型技术不到家才找理由。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>实际上，去年的大模型价格战，国内几乎所有云厂商都有参与，这里面当然也包括百度，因此很难把责任归咎于哪一方。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>故事最开始是DeepSeek最先打响了第一枪，火山引擎发起进攻，将大模型的价格打到了“厘时代”。随后，大规模的降价在行业中爆发，百度更是祭出必杀技，宣布文心大模型两大主力模型ERNIE Speed、ERNIE Lite全面免费。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>DeepSeek大火后，市场部署DeepSeek-R1的需求也随之爆发，但由于DeepSeek官方服务器不稳定和算力资源有限，无法承接从天而降的流量。于是，机会来到了云厂商这边，新一轮的价格战再次打响。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>为了抢占了流量和拉新，大厂纷纷宣布接入满血版的DeepSeek-R1，免费送token的同时，API调用价格还低于DeepSeek官方。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>火山引擎向用户赠送50万token免费额度，DeepSeek-R1 满血版半折优惠，每100万token输入2元钱，100万token输出8元；百度智能云千帆大模型平台正式上线了DeepSeek-R1与DeepSeek-V3模型，低至DeepSeek官方刊例价3-5折，还可享受限时免费服务。</span></p>
-<p style="text-align: justify;"><img alt="行业活动logo" class="rich_pages wxw-img" data-backh="239" data-backw="562" data-imgfileid="502179745" data-ratio="0.42592592592592593" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20250214/v2_37426f68ddfe4586a3f0911c4f1e9536@000000_oswg55359oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;display: inline;"/></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>大模型价格战虽然有宣传的意味，但也是技术发展到一定阶段的产物，只不过在一个时间节点集中爆发。其中，沈抖提到国内大模型行业创收问题，“不及国外同行量级”是一个客观的事实，但是不能一概而论，把所有问题都归结到大模型价格上。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>DeepSeek-R1虽然是中国大模型发展的一个拐点，但不能忽略的事实是，截至到目前，国内大模型也只是追平到了去年国外水平，刚达到支持场景和应用落地的水平。从根本上看，正是客观的模型能力差距才导致了与国外大模型收入差距。在模型能力没有一骑绝尘的情况下，国内大模型本来就不是一门好生意，属于赔钱赚吆喝，最后还是要把流量转化到云服务赚钱。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>从这个程度上看，百度云和火山引擎面临着相同的处境，互相指责其实对于行业没有任何益处。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>如果要说“恶意”，大概体现在豆包排外性的投流上。豆包背靠字节天然获得了曝光的优势，但让“其他AI应用再也投不进去”，无形中抑制了其他创业公司的生长。</span></p>
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-mpa-template="t" mpa-from-tpl="t">
-<h2 mpa-is-content="t" style='font-weight: bold;Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;font-variant-numeric: normal;font-variant-east-asian: normal;letter-spacing: 0.544px;white-space: normal;widows: 1;border-left: 5px solid rgb(2, 30, 170);background-border-top-border-bottom-border-right-'><span style="border-"><strong mpa-from-tpl="t" mpa-is-content="t"><strong mpa-from-tpl="t" mpa-is-content="t"><strong>开源、普惠势不可挡</strong></strong></strong></span></h2>
-</section>
-</section>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>大模型卷“低价”一定是消极的吗？答案是否定的。开源、普惠、技术平权将是未来的的大趋势。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>DeepSeek这条“鲶鱼”已经对以OpenAI为首的闭源大模型体系发起了冲击，凭借一己之力扭转了行业对开源的认知。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>“大模型开源没有意义”与“闭源大模型会持续领先”，此类声音逐渐被淹没在了各类玩家的行动之中。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>2月6日，OpenAI宣布向所有用户开放ChatGPT搜索功能，无需注册。2月13日，OpenAI首席执行官Sam Altman发布消息称，GPT-4.5、GPT-5即将陆续发布，免费版ChatGPT将在标准智能设置下无限制使用GPT-5进行对话。此外，他还特别指出，OpenAI的新路线是：跨越o3、免费访问、开源“模型规范”。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>国内百度也及时更新了方向，进一步拥抱免费和开源。文心一言将于4月1日起，全面免费，所有PC端和APP端用户均可体验文心系列最新模型。文心一言上线深度搜索功能，该功能也将于4月1日起免费开放使用。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>2月14日，百度又官宣新消息，将在未来几个月内陆续推出文心大模型4.5系列，并于6月30日起正式开源。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>从技术发展曲线来看，大模型推理和AI成本还将持续下降。以GPT为例，2023年GPT-4的token成本为36美元/百万token，到了2024年中期GPT-4o成本下降为了4美元/百万token，在此期间每个token价格下降了约150倍，摩尔定律以每18个月性能翻倍的速度改变了世界。</span></p>
-<p style="text-align: justify;"><span style='letter-spacing: 0.5px;Microsoft YaHei";'>有人将使用特定水平AI成本每12个月下降十倍称之为“奥特曼定律”。Sam Altman认为，正是因为技术曲线发展到了一个新的节点，所以各方竞争之下大模型效率正在加速提升，这可能也是AI大模型性价比大战火热的原因。</span></p>
-<section style="text-align: center;text-indent: 0em;">
-<img class="rich_pages wxw-img" data-backh="353" data-backw="578" data-galleryid="" data-imgfileid="502179738" data-ratio="0.6101851851851852" data-s="300,640" data-type="png" data-w="1080" src="https://img.36krcdn.com/hsossms/20250214/v2_fef491d1646e4c488ca0268ab64f711d@000000_oswg272408oswg1080oswg659_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>这种竞争还在持续，就在DeepSeek搅动行业不久，其价格优势就很快被谷歌Gemini-2.0-Flash/Lite所超越。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>这对整个行业发展来说释放了积极的信号，意味着可以用较低的成本和较高的效率来搭建业务、应用，这将为Agent的爆发打下良好的基础。</span>
-</section>
-<section data-mpa-template="t" mpa-from-tpl="t">
-<section data-mpa-template="t" mpa-from-tpl="t">
-<h2 mpa-is-content="t" style='font-weight: bold;Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;font-variant-numeric: normal;font-variant-east-asian: normal;letter-spacing: 0.544px;white-space: normal;widows: 1;border-left: 5px solid rgb(2, 30, 170);background-border-top-border-bottom-border-right-'><span style="border-"><strong mpa-from-tpl="t" mpa-is-content="t"><strong mpa-from-tpl="t" mpa-is-content="t"><strong>“DeepSeek”效应</strong></strong></strong></span></h2>
-</section>
-</section>
-<section style="text-align: justify;">
-<span style='Microsoft YaHei";letter-spacing: 0.5px;'>对大厂而言，防御比创新更重要。王小川此前说过一句话：“大创新靠小厂，小创新靠大厂”。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>难得的是此次DeepSeek引发了集体的反思。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>据智能涌现报道，有关DeepSeek对百度的影响，沈抖回应员工，每当科技的发展走到瓶颈期，总会有一个引领性的组织制造出拐点，而DeepSeek就是这个拐点。他认为，在DeepSeek引发这一波虹吸效应之后，开发生态会进一步繁荣。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>面对DeepSeek的突然崛起，除了百度一改闭源的坚持，也在激荡其他厂商。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>据晚点报道，2025年字节的全员会上，字节CEO梁汝波重提 “务实的浪漫”。反思在DeepSeek R1创新点之一的长链思考模式不是业界首创，在9月OpenAI发布长链思考模式后，字节在意识到技术重大变化时，没有及时跟进，反而错失了时机。</span>
-</section>
-<section style="text-align: justify;">
-<img alt="A close up of a cell phone on a table" class="rich_pages wxw-img" data-backh="375" data-backw="562" data-imgfileid="502179746" data-ratio="0.6666666666666666" data-type="jpeg" data-w="1080" src="https://img.36krcdn.com/hsossms/20250214/v2_083cf36ae72b4861af4dc1d519f96175@000000_oswg24702oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1" style="width: 100%;height: auto;"/>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>短期来看，DeepSeek爆火所产生的流量，受益者还是云大厂。得益于稳定的基础设施，在阿里云、百度云、火山引擎等运行的DeepSeek性能还是要略胜一筹。随着带来的是token量的消耗和新用户的增长。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>但回归到商业化的问题，云厂商刷足了存在感，凭借降价、免费的政策能够转化的收入却少之又少。MaaS模式不存在网络外部效应，反之，用户涌进量越大，机器、服务和人力投入的成本消耗就越大。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>更为关键的问题是，更强性能的模型诞生已经不算什么新鲜事儿，继续沿着模型探索把推理能力与业务场景结合才是下一步的方向。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>有知情人士告诉光子星球，春节期间来咨询和测试DeepSeek-R1的人不在少数，但其客户还在谨慎观望状态。毕竟“狼来了”的故事，他们已经听过很多回，手里各个厂商的token已经攒了一大堆，还是没能解决实际问题。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>此外，DeepSeek也正在伸向云厂商大模型2B业务。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>有媒体不完全统计，至少有160多家企业集体接入了DeepSeek，这个数字还在每天不断上升。另外，不少央国企已经开始发布采购订单，点名要本地部署DeepSeek-R1，采购所适配模型的硬件和算力。</span>
-</section>
-<section style="text-align: justify;">
-<span style='letter-spacing: 0.5px;Microsoft YaHei";'>“给我来一套DeepSeek”，这是最近To B销售最常听到的一句话。</span>
-</section>
-</section>
-</section>
-<p style="display: none;">
-<mp-style-type data-value="3"></mp-style-type></p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MjUxODMwMg==&amp;mid=2649663403&amp;idx=1&amp;sn=b8f0d9b1d42f7ed40a6ac917bd6eae22&amp;chksm=862af4e9bd66c9924e26403e3d14d3c04400ff794d2fc1fb611c137c22f517a8dea1dfd8ff45&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" style="border:solid #999;border-width:0 0 1px;word-wrap:break-word;">“guangzi0088”（ID：TMTweb）</a>，作者：郝鑫，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166491355671043</guid><pubDate>Sat, 15 Feb 2025 09:38:00 +0800</pubDate></item><item><title>字节跳动低调入局又一千亿音乐市场</title><link>https://36kr.com/p/3166533776681736</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>作者 | 李沁予</p>
-<p>编辑 | 范志辉</p>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sat, 15 Feb 2025 11:00:25 +0800</lastBuildDate><pubDate>Sat, 15 Feb 2025 11:00:25 +0800</pubDate><item><title>字节跳动低调入局又一千亿音乐市场</title><link>https://36kr.com/p/3166533776681736</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>上周，字节跳动被外媒报道低调推出了一站式音乐授权平台EasyOde（易颂）。</p>
 <p>根据美国版权局（US Copyright Office）最新披露的备案信息显示，字节跳动通过其注册在开曼群岛的子公司Lemon Inc.，已为EasyOde提交了包括品牌名称和LOGO在内的商标申请。目前平台相关商标中一项已获准注册，另一项仍在审核阶段。</p>
 <p class="image-wrapper"><img data-img-size-val="1080,498" src="https://img.36krcdn.com/hsossms/20250214/v2_a9fa61d883cc482198b14f58988f8cbf@441251_oswg40415oswg1080oswg498_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
@@ -614,6 +48,8 @@
 <p><strong>不过，其他扎根商用音乐的同行们倒不必太过焦虑，接下来，就看EasyOde能不能从字节跳动的赛马机制中脱颖而出。</strong></p>
 <p>毕竟，上一个被市场寄予厚望的TikTok Music，已经被关停了。</p>
 <p>*本文图源网络，如侵权联系删改 </p>
+<p>作者 | 李沁予</p>
+<p>编辑 | 范志辉</p>
 </div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166533776681736</guid><pubDate>Sat, 15 Feb 2025 09:39:00 +0800</pubDate></item><item><title>全平台预约超1000万，2025第一款开放世界大作要来了</title><link>https://36kr.com/p/3166594811685381</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <section style='white-space: normal;min-height: 1em;Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;letter-spacing: 0.544px;background-margin-bottom: 0px;'></section>
 <p style="margin-bottom: 0px;"><span style="">本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&amp;mid=2649957949&amp;idx=1&amp;sn=db74beb8635cba8d225398a1b8d6ad73&amp;chksm=be387d5e84811aac94d0879dcb8045d4dd269a96e7dbfd0e7333d43efcd8e49aafd4bbfd5cc1&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow">“游戏葡萄”（ID：youxiputao）</a>，作者：林致，36氪经授权发布。</span></p>
@@ -854,4 +290,444 @@
 <p>值得一提的是，据行业媒体市值风云统计，截至2023年末，账面上货币性资产最多的行业龙头公司，是在硅片、电池片、组件三个环节市占率均大于5%的隆基绿能，规模接近600亿，其中货币资金570亿。同时，晶科能源、天合光能的货币性资产也均超过200亿。</p>
 <p>当前，光伏行业经历了前所未有的挑战与变革，全行业依然没有走出普遍亏损的状态。<strong>显然，寒冬之下，现金流更充沛的企业，将有更多几率在周期之后存活</strong>。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzAxMzg5NTQzOA==&amp;mid=2247595591&amp;idx=1&amp;sn=dfd4bee228a3bb0fb9b0f5443e8e672d&amp;chksm=9a49451bb7dccd48ee0622b4f17b8e9ac19850ebc7f7b68977100e71db1a5efc812a3fc806b8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“预见能源”（ID：YJNY2030）</a>，作者：杨锐‍‍‍，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166598193757703</guid><pubDate>Sat, 15 Feb 2025 09:47:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166598193757703</guid><pubDate>Sat, 15 Feb 2025 09:47:00 +0800</pubDate></item><item><title>刘强东的“兄弟”离职了</title><link>https://36kr.com/p/3163244652314368</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/OlSeHeiCh6Ea2SNc0a1Qjg" rel="noopener noreferrer nofollow">“市象”</a>，作者：周立青，36氪经授权发布。</p>
+<p>作者 | 周立青 </p>
+<p>编辑 | 杨舟 </p>
+<p>京东物流一直以来宣传春节不打烊服务，但在今年春节期间，不少消费者对京东物流感到失望。许多消费者等待京东快递的年货，却遭遇了长时间不配送的尴尬。</p>
+<p>当他们亲自前往网点查看时，看到的是网点爆仓严重。有驿站负责人解释：“正式工都走了，新来的连片区、楼号都认不全。”原本熟悉周边配送路线、能提供优质服务的本地配送员大量离职，临时调配来的外援对当地情况一无所知，这也直接导致了快递配送陷入僵局。</p>
+<p>消费者的不满在社交媒体上蔓延，不少人在各大平台上分享自己的经历，吐槽京东物流的服务质量下降。此前，京东物流凭着高效配送和优质服务，在物流赛道脱颖而出。但今年春节期间的表现，无疑让消费者感到寒心。</p>
+<p>问题的背后，是京东快递员待遇下滑的矛盾。快递行业的激烈竞争，京东物流为在市场中占据一席之地，不断调整战略，开放第三方平台业务，接入众多电商平台。虽然带来了订单量的激增，却也让快递员承受了更大压力。</p>
+<p>快递行业价格战的压力层层传导，更是让京东物流陷入“<strong>高端打不过顺丰，低价卷不过通达</strong>”的双重围剿。<strong>既要顺丰的服务，又要通达系的价格，结果可能是两头落空。</strong>迟到的电器、破损的生鲜，便是一个切面。</p>
+<h2 label="一级标题" style=""><strong>01 派费不断下降</strong></h2>
+<p>“去年单价相比之前几乎对半砍，5kg的件从原先的4块5降到2块3，10kg的件从7块降到3块5。”山东某地京东快递员程宇告诉「市象」，<strong>他的月收入已经从巅峰期的一万元以上，降至如今的不足8000元，</strong>如此大幅度的单价下调，直接导致快递员送同量的快递，但收入大幅缩水。</p>
+<p>这样的情况并非个例，浙江某地的京东快递员也表示：“对比5年前我刚来的时候，一天100单最少能拿到500块，现在可能只有不到300块。”</p>
+<p>“之后虽然没有明着降，但能感觉到暗地里在降，虽然无法计算一天送了多少件、多少公斤，但能感觉到单量比之前高了，但工资比之前少了。”程宇补充道。</p>
+<p class="image-wrapper"><img data-img-size-val="952,1234" src="https://img.36krcdn.com/hsossms/20250212/v2_66c7fae100e8475b8e3e2a19353388d8@26875_oswg410755oswg952oswg1234_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这种计价规则的改变，与京东物流开放第三方平台的战略形成微妙的呼应。京东物流接入淘宝、抖音这些电商平台后，这些平台商家的发货价会压得很低。这些来自第三方商家的包裹配送要求也更复杂，直接导致末端配送的压力剧增。</p>
+<p>而“三同”订单规则更让京东快递员苦不堪言。所谓“三同”订单，即收货人姓名、收货地址和联系方式相同的多个订单，这种订单的快递费要递减。</p>
+<p>事实上，2019年，京东物流就取消了快递员底薪，这一政策调整在当时也引发了广泛争议，改革后快递员的收入完全与揽件绩效挂钩，公司解释称此举旨在“激励员工提升服务效率”。但如今看来，这仅仅是京东物流成本管控的开端。</p>
+<p>收入下降的同时，京东快递员的劳动强度也正在突破生理极限。</p>
+<p>王莹的丈夫在京东物流工作已有两年，她告诉「市象」，除了会想方设法降低快递员工资、经常悄悄降派费外，在京东送快递压力最大的就是上班时长问题。“平时6早上点出门，晚上7、8点才能回家，大促期间5点半就要出门，晚上11、12点才能回到家。”</p>
+<p>而相邻片区的顺丰快递员实行早晚班轮岗制，相同业务量由两人分担，有部分片区甚至会有四个人负责。</p>
+<p>王莹表示：“他丈夫最近半个月都没有休息，每分钟都在被仓管催促揽派时效，经常没有时间吃中午饭。结果辛苦一个月，时薪算下来也就十几块一个小时。”</p>
+<p>薪酬体系的精妙设计进一步加剧了这种失衡。程宇表示：“<strong>春节期间宣传的3倍加班费听着诱人，其实是用1000元底薪折算的，节假日单日要工作14个小时左右才能拿到100元加班费。</strong>”</p>
+<p>这也与京东年底高调宣布的“客服薪酬升级计划”形成对比——客服团队继去年2月份平均涨薪30%后，又再次获得平均2个月的大幅涨薪，一线配送员的收入曲线却在持续探底。</p>
+<h2 label="一级标题" style=""><strong>02 人力流失下的服务“翻车”</strong></h2>
+<p>2015年的京东物流是行业标杆，当其他快递公司还在为暴力分拣头疼时，京东“211限时达”承诺如同一道护城河。</p>
+<p>彼时的快递员行业里也流传着“京东五星级待遇”的说法：五险一金全额缴纳、集体宿舍、节日福利，这些保障让身穿红色制服的配送员感到自豪。“以前客户拆箱验货时，我们也会主动递上裁纸刀。”已离职的前京东快递站长回忆。</p>
+<p>“以前站点里都是干了三五年的老伙计，现在月月见新面孔。”在京东工作五年的陈海波表示近年来他所在站点人员流动率很高。“三通一达的派费，却要干顺丰的活”，这种低薪和高压的传导让许多京东快递员选择跳槽。</p>
+<p>人力流失引发的服务断层，也让这个曾经以“快、准、好”著称的物流品牌，如今在年货节的爆单压力下疲态尽显。</p>
+<p>十几年京东用户王楠分享了自己在年货节期间的经历。王楠表示冲着京东年货节春节不打烊的宣传，购买了过年期间急用的商品。货品按照预计时间1月26日下午就到达附近的站点，但一直无人派送。</p>
+<p>王楠主动联系快递员，得到的回复是：“现在快递外包出去了，有本事就直接投诉。”随后，王楠看到自己的快递直接被标记为春节后派送。王楠又找客服处理，得到的回复就是不断重复的“会催促”，最终一个客服领导跟王楠联系，表示可以赔付30元，不满意的话就自行线下购买。</p>
+<p>类似遭遇在社交媒体上形成声浪，黑猫投诉平台数据显示，<strong>近30日内，京东物流投诉量达到3208条，</strong>“不联系直接放在驿站”“商品不配送”“不上门取件”是其中的关键词。</p>
+<p>快递员派费下调的连锁反应也呈现在了商家侧。经营电脑配件生意的张初透露，其店铺去年所采用的京东物流运输破损率明显上升，他表示，“显卡这类精密部件，现在每百单就有3-4单因为包装挤压导致退货，后续会将店铺所用物流换成顺丰。”</p>
+<p>市场负反馈正在形成闭环。年货节期间连续购买了数码和生鲜产品的周丹告诉「市象」，这两个订单收到的商品外包装都有不同程度的破损和积压，这种情况在以前几乎是没有遇到过的。</p>
+<p class="image-wrapper"><img data-img-size-val="666,927" src="https://img.36krcdn.com/hsossms/20250212/v2_552481912e7941f0af6fee07f8a188c1@26875_oswg529278oswg666oswg927_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2 label="一级标题" style=""><strong>03 京东物流的无奈</strong></h2>
+<p>2017年京东物流独立运营后，其战略定位发生根本转变。从专营京东商城的“后勤部队”转型为开放第三方业务的综合物流服务商。2024年第三季度业绩报告显示，京东物流的外部客户收入达316亿元，占总收入超7成，已服务外部一体化供应链客户近6万家。</p>
+<p>这种转变意味着成本结构的重构——当服务对象从单一平台转向多元客户时，价格敏感性显著增强。随着低价的电商包裹比例的不断上升，定价更低的快递品牌更易获取件量。为维持客户黏性，京东物流不得不将成本压力向末端传导。</p>
+<p>与此同时，在电商行业竞争激烈的当下，京东为避免在竞争中处于劣势，吸引更多用户，对商城的免邮政策也进行了调整，而这一调整则进一步加剧了成本压力。</p>
+<p>2023年，京东将非会员免邮门槛从99元降至59元，PLUS会员免邮次数改为无限次，这项动作提升了用户体验，但却大幅增加了物流负荷。新规实施后，不仅配送需求增加，每单的边际成本也正在升高。</p>
+<p>陈海波算过一笔账：“现在每天要多送60单左右才能维持原有收入，但电动三轮车续航根本撑不住。”这种矛盾就直接反映在服务质量上——快递员为完成派件量被迫简化服务流程。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,826" src="https://img.36krcdn.com/hsossms/20250212/v2_90d4cae316644a0e9205de330392dd0d@26875_oswg1168687oswg1080oswg826_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但京东物流的困境并非个案，而是整个行业结构性矛盾的集中投射。 </p>
+<p>2019年进入快递行业到现在的王淼告诉「市象」：“<strong>京东只是对比过去待遇下降有些明显，事实上整个快递行业去年都在降价，快递员平均每个人每月比之前少1500到2000多元。</strong>”</p>
+<p>相关数据显示，2024年上半年，圆通速递单票收入为2.34元，同比下降3.95%；韵达速递单票收入为2.08元，较2023年同期减少0.37元/票。这种“增量不增收”的行业困局，迫使企业寻求成本优化空间。</p>
+<p>站在十字路口的京东物流，或许需要在降本增效和服务质量之间找到平衡点，才能让“客户为先”的标语不褪色。</p>
+<p>（文中人物为化名）</p>
+<p><br/></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3163244652314368</guid><pubDate>Sat, 15 Feb 2025 10:32:00 +0800</pubDate></item><item><title>37岁老牌国货又要IPO了</title><link>https://36kr.com/p/3167251759311369</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>曾以“海藻减肥皂”风靡全国、年营收超12亿元的老牌国货“索芙特”，在沉寂多年后再次搅动资本市场——近日，这家创立于1988年，历经37年浮沉的企业在美递交招股书，计划在纳斯达克上市。</p>
+<p>从“中国日化第一股”到转型失败黯然退市，索芙特的故事犹如一部国货兴衰启示录。如今，其二代接班，“90后”新掌门人携1500万美元募资计划和新故事叩响了纳斯达克大门。</p>
+<h2><strong>整形医生塑造一个老牌国货</strong></h2>
+<p>索芙特创始人梁国坚、张珍夫妇皆有医学背景。梁国坚出生于1956年，早期是整形医生，毕业于广西医科大学，在整形外科领域积累了丰富经验。张珍则毕业于广西中医学院，对医药和化妆品的研发有独到见解。两人的专业背景为索芙特的发展奠定了基础。</p>
+<p>梁国坚起初在整形工作中发现，许多女性对美容和护肤产品有着强烈的需求，但市场上却鲜有类似产品，这让他意识到可以通过结合医学和化妆品的知识去开发更安全、有效的美容产品。于是，他决定下海，创办了索芙特。</p>
+<p>索芙特的成长经历过野蛮生长与黄金时代。1990年代，索芙特以“功能型日化”差异化定位突围：木瓜美白系列宣称“28天焕肤”，防脱洗发水捆绑“中药养发”概念，甚至推出“丰胸香皂”。配合章子怡等顶流代言、央视广告轰炸，2000年营收突破亿元，2004年获评“中国驰名商标”，2006年成为首个获“三年免检”资格的国产洗发水品牌。</p>
+<p>2001年，索芙特成功借壳广西红日上市，成为“中国日化第一股”。2006年，索芙特达到业绩巅峰，年销售收入达到12.57亿元，市值突破28亿元。</p>
+<p>但上市后，公司战略逐渐偏离主业：2010年投资1.2亿元跨界矿泉水领域，推出“索芙特巴马泉”惨败；2015年主业疲软之际，斥资41亿元收购天夏科技转型智慧城市，更名“天夏智慧”。</p>
+<p>此次跨界被业内视为病急乱投医——天夏科技承诺的2015-2017年净利润3.1亿、4.1亿、5.2亿均未达成，反而因财务造假于2021年退市。随之，其日化业务被梁氏家族以2亿元低价回购，但品牌声誉已受损。</p>
+<p>退市后的索芙特一度淡出公众视野，直至此次赴美IPO的消息传出才重新引发关注。</p>
+<p>尽管近年来索芙特面临诸多挑战，但其在日化领域的成就仍不可忽视。索芙特曾拥有10项发明专利、9项实用新型专利、35个特殊功能性化妆品生产许可证，其投资及营销网络遍及全国各大城市和地区，产品及服务行销238个城市。</p>
+<h2><strong>靠“生姜防脱洗发水”撑起半边天</strong></h2>
+<p>在过去的2022年、2023年和2024年前六个月，索芙特的收入分别约为1952万、1495万和551万美元，相应的净亏损分别为45万、228万和84万美元。可以看到，与巅峰时期相比，索芙特的营收规模已大幅缩水。</p>
+<p>索芙特的品牌矩阵包括索芙特（Softto）、东方本草（Softto Oriental Herbs）、达可舒（Dakeshu）、清元（Qingyuan）和卫优（Welltop）等。生姜防脱洗发水是其核心单品，2023年其占线上收入的60%以上。</p>
+<p>公司收入主要来自线下。截至2022年12月31日，索芙特的产品通过经销商销售至中国各地超1000个商店内的化妆品专柜，包括大润发、华润万家、永辉、家乐福等。2022年、2023年以及2024年上半年，该公司的线下批发收入分别为931.87万美元、873.48万美元以及339.69万美元，占比分别为47.7%、58.4%和61.6%。</p>
+<p>受汇率变化和竞争环境影响，尽管公司分销商数量从2022年的157家增至2023年的243家，公司线下零售额仍出现轻微下降。</p>
+<p>公司线上收入也不乐观，持续呈下滑趋势：2022年、2023年及2024年上半年，线上零售收入为1020.3万美元，2023年为621.77万美元，2024年上半年为211.41万美元，占比分别为52.3%、41.6%和38.4%。线上收入下滑主要归因于在线购物竞争加剧，客户数量减少。</p>
+<p>造成公司持续亏损的一大核心问题在于毛利率，仅有25.8%，远低于上海家化的55%、拉芳家化的48%，而营业费用率却高达37.4%，形成“越卖越亏”的循环。</p>
+<p>索芙特的产品力相对薄弱。其采用代工模式导致成本控制力差，SKU不足30个，爆品依赖严重生姜洗发水。在研发投入上也较低，2023年研发投入仅占总收入2.3%。</p>
+<h2><strong>90后新掌门的豪赌</strong></h2>
+<p>归根结底，索芙特的业绩下滑主要归因于市场竞争的加剧和品牌老化问题。</p>
+<p>日化行业是一个高度竞争的行业，索芙特面临着国际巨头和本土品牌的双重夹击：宝洁、联合利华等外资占据60%以上市场份额；完美日记、薇诺娜等新锐国货以DTC模式抢夺年轻客群。这使得索芙特的生存空间愈发狭窄，尤其在日渐火热的功能性护肤品领域，索芙特已不再具备明显的竞争优势。</p>
+<p>再叠加索芙特渠道失衡，在年轻群体中的感知不足，索芙特已置身内忧外患之境地。这一背景下，索芙特90后二代接班人上场，或将扭转局面，为公司带来新的经营理念和发展思路。</p>
+<p>梁国坚之子梁雨豪，28岁，毕业于美国波特兰州立大学金融学专业，具有一定的国际视野和专业知识。其于2019年进入索芙特旗下公司工作，2025年1月被任命为索芙特首席执行官，足以看出，这场赴美之旅将由其主导。其妻子王露晗同为28岁，四川音乐学院毕业，2024年开始任总经理一职。二人通过家族信托持股75.89%，拥有绝对控制权。</p>
+<p>自梁雨豪加入公司后，索芙特加大了转型力度。在业务模式方面，2022年终止了此前的“轻资产分销”模式，转向自营主导。招股书中提到，在2022年以前的几年，索芙特主要扮演的是供应商和分销商之间的中介角色，并不负责货品交付和销售策略，也不承担库存，没有定价决定权，仅从中赚取佣金。</p>
+<p>在多元化战略上，索芙特也进行过多番尝试。2021年8月，索芙特与海澜之家跨界合作，推出“防脱育发滋养套盒”，主打男性脱发问题。该联名产品通过海澜之家全国门店和线上平台销售，初期反响较好，但后续因营销力度不足，未能形成持续爆款效应。</p>
+<p>2019年12月，索芙特以承包方式接手老牌牙膏田七牙膏的生产与销售，计划通过技术升级。在推出多款新品后，市场反响平平。此外还推出过美妆品牌isoftto。以上尝试，均未能扭转大局。</p>
+<p>在电商大行其道的当下，索芙特在招股书中强调要发力线上，预计线上零售目标占比要超60%，同时要以“草本科技”为新卖点，加大研发投入。</p>
+<p>此次赴美上市，索芙特计划募集约1500万美元资金，资金60%将用于运营与并购。公司选择纳斯达克也不难理解，美股对亏损企业包容度更大。</p>
+<p>索芙特的赴美之旅，其实也折射出了老国货转型的集体焦虑：既想借资本重振品牌，又困于路径依赖。若不能真正重构产品矩阵、拥抱数字化运营，此次上市或许也只是索芙特另一场资本游戏的序幕。其成败对二代掌门来说更是一场豪赌。</p>
+<p>作者丨黎曼</p>
+<p>来源丨东四十条资本</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI4MjYxMTYyNA==&amp;mid=2247513546&amp;idx=1&amp;sn=7e3a26ee5268b8683555b84a6fa6c382&amp;chksm=ea1e6493f9488a0b81537cfd88880389716b023fdc093bd5119f07a44cbb0a69dcaeadff8dca&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“东四十条资本”（ID：DsstCapital）</a>，作者：黎曼，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3167251759311369</guid><pubDate>Sat, 15 Feb 2025 10:39:00 +0800</pubDate></item><item><title>古茗上市，给新茶饮一些信心</title><link>https://36kr.com/p/3166564617071367</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MzAxMzg5NTQzOA==&amp;mid=2247595591&amp;idx=1&amp;sn=dfd4bee228a3bb0fb9b0f5443e8e672d&amp;chksm=9a49451bb7dccd48ee0622b4f17b8e9ac19850ebc7f7b68977100e71db1a5efc812a3fc806b8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“伯虎财经”（ID：bohuFN）</a>，作者：林恩，36氪经授权发布。</p>
+<p>2010年，古茗在浙江大溪开出了第一家店。沿着这个小镇，古茗的步伐踏入了中国乡镇更细微的毛细血管中。    “小镇奶茶店”，成为古茗的基因，也是其后来在一众新茶饮品牌中突围的筹码。    2月12日，古茗在香港联交所正式挂牌上市。首日港股股价报9.3港元/股，跌6.44%，以破发姿态告终，依然没有逃过新茶饮上市即破发的命运。    但与此同时，古茗让人看到新的希望。上市首日，其以约219亿港元市值收官，远超茶百道的145.4亿港元和奈雪的茶的22.03亿港元。      </p>
+<h2><strong>市值领跑，古茗的“加密”底色</strong></h2>
+<p>根据公开数据梳理，门店数量排名前三的新茶饮品牌是蜜雪冰城、古茗、茶百道，分别为3.6万家、9823家、8385家。    </p>
+<p>这三家茶饮品牌都格外注重加盟模式，并以加盟为主要经营模式。但拆解三家企业的加盟发展，依然可以窥见古茗的出色之处。    </p>
+<p>“要么不开店，要么密集开店”，这是古茗创始人王云安对开店的态度。这一点，在招股书中同样有所体现。招股书指出，古茗遵循地域加密策略，公司在目标省份策略性地调配资源，以在各城市线级均实现高密度的门店网络。    </p>
+<p>古茗内部有“关键规模”这一定义，是指单一省份的门店数量超过500家门店。目前，浙江省是古茗的大本营，门店数量超过2000家。此外，福建、江西、广东、湖北等省份的门店数量均超过500家，达到关键规模。    </p>
+<p>基于这样的加密开店模式，其在下沉市场有着领先的布局与经营能力。截至2023年底，其78.8%的门店位于二线及以下城市，在大众现制茶饮店门店数目排名前五的品牌中占比最高。截至2024年9月30日，该占比进一步增至80%。    </p>
+<p>截至2023年底，古茗门店位于乡镇的比例为38.3%，到2024年9月30日，这一占比增至40%。而中国其他前五大大众现制茶饮店品牌的门店位于乡镇的比例普遍低于25%。    </p>
+<p>招股书中提到，古茗是中国前五大大众现制茶饮店品牌中唯一采取地域加密策略的品牌。    </p>
+<p>地域加密的发展模式，带来古茗营收与利润上的乐观发展。2023年，其商品销售额（GMV）达192亿元，同比增长37.2%；2024年前三季度GMV进一步增至166亿元，同比增长20.4%，增长率超过大部分同行。    </p>
+<p>加盟商的盈利发展，进一步佐证了地域加密的领先性。2023年，古茗的加盟商单店平均经营利润达37.6万元，利润率20.2%，显著高于行业15%左右的平均水平。在四线及以下城市，古茗的单店利润更是高达38.6万元。    </p>
+<p>红杉中国是古茗的第二大机构股东，其合伙人胡若笛提到，2019年，他们第一次通过业内人士听说这家主打三四线城市的茶饮品牌，并得知古茗已拥有数千家门店且形成一定的区域影响力。    </p>
+<p>之后，他们与王云安取得联系，聊了四个多钟，得出的结论是：“他对茶饮供应链的深度、加盟管理的核心、产业终局的决胜点，有非常清晰且超前的认知，很多和我们对市场的判断不谋而合，而且气质很投缘，我们当即判断古茗是一个必须投资的投资对象。”    </p>
+<p>古茗的上市，给看似平静的新茶饮湖面投掷了一颗石子。水花四溅，湖面或许很快恢复平静，但新的暗流早已悄然涌动。新茶饮的调整迎来一个巧妙的契机，而品牌早已踏上他们的新征程。    </p>
+<p><strong>古茗上市，新茶饮的AB面</strong></p>
+<p>透过古茗上市这个窗口，新茶饮的发展得到一次新的审视，人们看到了它的AB面。    </p>
+<p>首先，激烈竞争之下，整个新茶饮已经步入了发展放缓的阶段。    </p>
+<p>古茗在招股书中提到，截至2024年9月30日止九个月，由于整体行业放缓及竞争加剧，与2023年同期相比，古茗录得的单店GMV、单店日均GMV、单店售出杯数、单店日均售出杯数、每笔订单的平均GMV、单店日均订单数以及每家新开加盟店的日均GMV均有所减少。    </p>
+<p>2024年，包括古茗、茶百道、喜茶、沪上阿姨、甜啦啦、书亦烧仙草等在内的新茶饮品牌，开店速度相较2023年均有所放缓。    </p>
+<p>近日，喜茶更是提出暂停加盟的决定。2月10日，喜茶在一则内部全员邮件中提出，新茶饮行业的“数字游戏”已经走到尽头，无意义的价格、营收、规模内卷正严重消耗用户对新茶饮的喜爱。喜茶拒绝无意义的门店规模内卷，暂停接受事业合伙申请。    </p>
+<p>但放缓并不意味着下行。恰恰相反，古茗的上市，也进一步印证了，新茶饮正在迎来更稳定、更具秩序的新时代。    </p>
+<p>古茗虽没能逃过破发魔咒，但相对而言，古茗的市值远超此前的茶百道和奈雪。在业内人士看来，这给茶饮行业注入一些信心。    </p>
+<p>在伯虎财经看来，古茗的相对较高市值，与其经营模式有直接的联系，但这两年新茶饮的发展局势，或也给市场增添了一些新的活力与希望。    </p>
+<p>与当初许多人预想与担忧的不同，新茶饮并非只剩下无尽的内卷。一些年轻的品牌，在内卷中，找到了新的赛道。例如，霸王茶姬。它很好地验证了一点：新茶饮是一个足够垂直、同时也足够有拓展性的行业。    </p>
+<p>在霸王茶姬之前，蜜雪冰城等品牌也做咖啡。但尚未有一家新茶饮品牌，能真正让瑞幸有所迷糊。去年8月12日，瑞幸开启了“1亿杯9.9元下午茶”活动，并推出新品“轻轻茉莉”。这杯新品，神似霸王茶姬的“伯牙绝弦”。霸王茶姬想对标星巴克，比咖啡更“提神”，瑞幸只能率先一步反击。    </p>
+<p>但这有趣的隔空对战，也让人们发现，茶饮可以内卷，但茶饮也没有边界。即使是已经被讲腻了的国风茶饮，也可以讲出新的故事；水果茶底卷到无路可卷，但原叶鲜奶茶又有了新的消费市场；以前品牌拼小料，现在谁“最健康”谁才是主流……很多人只看到了茶饮内卷，但成功突围的品牌却找到“外卷”的路径。    </p>
+<p>随着新茶饮第三股的到来，茶饮行业已经开启了新的暗战。万店规模依然让人憧憬与追求，但规模之下的稳定与有序才是新茶饮接下来更核心的目标。    </p>
+<p>古茗的上市释放了新的信号，但实际上，茶饮品牌已经行动了。就在喜茶叫停加盟的同时，奈雪的轻食店正式开业。</p>
+<p>参考资料：    </p>
+<p>1、每日经济新闻：“小镇青年”逆袭230亿市值：古茗上市背后的三张王牌    </p>
+<p>2、21世纪经济报道：古茗港股IPO，茶饮品牌跑马圈地时代落幕    </p>
+<p>3、新京报：喜茶：暂停加盟申请，将以门店体验与品牌内容为核心    </p>
+<p>4、中国城市报：古茗上市首日股价跌超6%，难破新茶饮“魔咒”</p>
+<p>文章封面首图及配图，版权归版权所有人所有。若版权者认为其作品不宜供大家浏览或不应无偿使用，请及时联系我们，本平台将立即更正。    </p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166564617071367</guid><pubDate>Sat, 15 Feb 2025 10:49:00 +0800</pubDate></item><item><title>只花30分钟，我真用DeepSeek磕出了一款游戏，能去大厂了吗？</title><link>https://36kr.com/p/3166484084124162</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&amp;mid=2651259095&amp;idx=1&amp;sn=3a4c6340e9dace6e7e8573e3bb94b0f0&amp;chksm=bc93e9b5f260fa8a2458284141123fb4fb3bea348de63809c129dcf65426efeb95ef89f45112&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“手游那点事”（ID：sykong_com）</a>，作者：Willow，36氪经授权发布。</p>
+<p>“让人始料未及的是，哪怕游戏业早已将AIGC奉为圭臬，但变革当头，我们仍会懊悔过去对AI的想象竟如此贫瘠。”  </p>
+<p>把时间拉回到数天前，或许是受到国产AI大模型DeepSeek触动，心动CEO Dash    （黄一孟）在X上分享了现阶段对AI应用场景的一些看法。</p>
+<p>他提到：“理论上从现在开始，    公司里不应该有任何人的工作与AI无关。无论工作内容是否由AI产出，至少工作结果要由AI检查一轮。”在笔者印象中，这似乎是自蔡浩宇、冯骥之后，又一位行业大佬公开表示对AI的强烈看好。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_0acd2f1190e044298d5f29d28ea7b100@000000_oswg54637oswg1080oswg319_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>需要注意的是，这段时间众多游戏人下场力挺DeepSeek，只是当代AIGC大流行的一处缩影。在过去一个月时间里，被冯骥评为国运级科技的DeepSeek，正不断冲刷游戏人对AI技术的固有认知。</p>
+<p>例如在最为活跃的民间应用层面。明明该技术出圈还没过多久，    但诸如“小白两天从0到1做出3D射击游戏”、“DeepSeek+AI全家桶研发游戏”、“0基础靠嘴皮子做游戏”、“DeepSeek+Unity3分钟生成完整游戏代码”等由玩家主导的教程视频，却如同雨后春笋般冒出。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_411610ffea564616bf7a8c63fa01c168@000000_oswg394549oswg1080oswg336_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而其中让我感触颇深的是，相关视频的评论区正构成一幅戏剧性拉满的“绝景”：</p>
+<p>一边是游戏爱好者兴奋地摩拳擦掌，另一边却是打工人苦涩的自我解嘲。在35岁笑话的无可奈何中，去年蔡浩宇曾提到的“99%的普通游戏从业者不妨转行”暴论，似乎正一步步映入现实。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_21da637591984c44bdd8329f228343ed@000000_oswg183276oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>毫无疑问，不断进化的AIGC技术，已经为整个游戏行业蒙上一层患得患失的雾霾。但身处风云骤变的大盘环境之中，更加注重当下的基层游戏人，脑海中萦绕的无非还是那个老套的话题——</p>
+<p>在DeepSeek火爆全网后，“机器吃人”的故事，距离我们还有多远？</p>
+<h2>真变天了？AI游戏成本骤降90% </h2>
+<p>近期关注DeepSeep的朋友可能会发现，在业界大肆吹捧DeepSeep有多牛逼之余，大众的注意力还会似有似无地往另一个话题偏移——    过去两年里，AI迭代的速度到底有多快？  </p>
+<p>一个案例可以说明这点。在B站斩获超120万播放的《我让DeepSeek做射击游戏！他杀疯了！我沉迷了...》视频中，这位博主曾提到一个有关AI迭代速度的有趣观察。</p>
+<p>他发现，半年前的大模型死活只愿意用Pygame这种简单的框架去推进游戏研发。但半年之后，AI已经将Unity列入首选项。而AI所能实现的效果，也从最初的4399简陋版小游戏，跨越至如今更为复杂的3D大作。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_97a9166b611742228d95fa3b81846b27@000000_oswg289055oswg1080oswg587_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_ea627ece914843d3a7cb88119ae6d851@000000_oswg785628oswg1080oswg586_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>视频最后他也强调，“我相信如果再给AI一点时间，以后我们每个人想玩什么游戏，你说句话就能生成出来了。”虽然如今的AI技术要想达到“三生万物”的境界还比较遥远，但这位博主的发言也揭示了AI目前最令人胆寒的特性——它的迭代速度已经来到一个夸张的地步。</p>
+<p>就拿眼下已经成为2月主线的DeepSeek来说。    要论这些年AI最为显著的技术进步，那么"使用成本"与"内容精度"，无疑是最具说服力的两大板块。  </p>
+<p>首先在困扰无数厂商的成本方面。在DeepSeek之前，市面上传统大语言模型的使用成本其实并不便宜。</p>
+<p>以去年行业颇为出圈的《1001夜》为例。作为一款对话式AI驱动的产品，玩家每次通关流程不长的《1001夜》，开发者都要为此付出1元的AI使用成本。面对每位玩家动辄4到5次的通关次数，迫于成本压力，团队只能暂时给游戏设置一个每天可游玩的额度上限。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_08842b3543bc41e7a613104eeab785d1@000000_oswg629310oswg1080oswg591_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（当时《1001夜》只是一个流程不长的Demo版本，成本压力就已经如此之大......）</p>
+<p>在大语言模型已然成为创作领域必备工具的当下，《1001夜》所面临的成本挑战，也同样是AI深度游戏化进程中亟待突破的瓶颈。然而这一局面在2023年5月迎来转机——随着DeepSeek等新一代推理模型的问世，这项技术为长期困扰内容创作者的开发成本难题提供了全新解法。</p>
+<p>简单来说，去年DeepSeek就通过独创的MLA架构和MoE稀疏结构，让训练显存占用降至传统模型的5%-13%，最终实现推理成本低至每百万Token仅1元人民币。放在当时，这个价格仅是Llama3的七分之一，GPT-4 Turbo的七十分之一。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_12ae18b38fc347d0ab0ce4f2d6d98818@000000_oswg83868oswg1080oswg401_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>恰巧，Open AI创始人Altman前不久刚露过一次面。据Altman提到，GPT-4在2023年初的使用成本，相比GPT-4o在2024年中期，其每个token的价格已经下降约150倍。这无疑是一组相当夸张的数据。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_49429665bae64fae9dc15b6b00f8c38d@000000_oswg61315oswg1080oswg482_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>考虑到圈外人对这些弯弯绕绕不太敏感，一位熟悉AI行业的华南游戏人告诉我：    “最初AI还比不上人工时，要想生成10万字可用的剧情脚本，成本足够养活两个文案策划。但现在同量级任务交给DeepSeek，只够买杯奶茶。”  </p>
+<p>从某种程度上看，眼下不断降低的AI使用成本，已经揭示了游戏行业未来即将由AI主导。毕竟仅仅只是过了2年时间，AI技术的成本曲线就能以十倍乃至百倍的斜率不断下探，甚至还能用“奶茶”为单位去丈量个别职能岗位。可想而知，在强调“降本增效”的游戏行业面前，    没有任何一家公司能够抵挡“性价比”本身所带来的极致诱惑。  </p>
+<p>例如前不久3D AI乙游《如意情探》的Jaz就在游戏茶馆的采访中透露：“DeepSeek现在的调用成本大概是我们之前使用模型成本的1/20。按照以前的商业模式，只有中氪和高氪玩家才能获得的最佳体验，但现在低氪或零氪也有机会享受得到。”</p>
+<p>面对这种烈度的技术迁移，2025年的游戏开发者恐怕早已站在历史性的拐点之上——无论行业是向上还是向下，这堵名为AI的钢铁巨幕，将始终屹立在道路两旁。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_d7297764b46f44dea5b19cf992b68177@000000_oswg1369763oswg1024oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：阿里巴巴AI大模型通义千问）</p>
+<h2>游戏大厂全都坐不住了 </h2>
+<p>如果说越来越低的使用成本，只是帮助AI通往游戏行业腹地的入场券，那么上文提到的AI第二项跨越式进步——“内容精度”，就是DeepSeek撬动游戏行业的关键杠杆。</p>
+<p>在过去，无论是首先引发AI热潮的ChatGPT，还是后来广泛应用于游戏研发的AI美术工具，其痛点一直都绕不开“答非所问”、“直出不能用”，“需要大量时间精调”这几组关键词。</p>
+<p>归根结底，这些缺陷所折射出来的核心问题，实际上直指AI没有共情能力、AI无法理解创作这几项致命短板。    但时过境迁，在DeepSeek身上，我发现“AI破解创作”这件事情并非毫无可能。  </p>
+<p>例如在一篇来自github的《LLM    （大型语言模型）创意故事写作基准》报告中，DeepSeek R1成功挤掉了霸榜长达7月的Claude，晋升LLM创意故事写作榜第一。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_c45096bf379a424bb5f490df83ca1f9f@000000_oswg146303oswg1080oswg498_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在此次创意故事写作测试中，测试规则不仅对AI笔下的故事流畅度提出挑战，同时它还要求AI强制嵌入十项核心叙事要素    （包括角色设定、背景构建、动作动机等）以验证AI的创作性能。而DeepSeek正是凭借出色的创意和规则贴合度，在共计500次创意故事写作中斩获270次第一    （54%），一举领先Claude、Gemini等大语言模型。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_76fa490251a94d6abd57ac6d1062d539@000000_oswg80522oswg800oswg700_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在DeepSeek登顶背后，DeepSeek也让游戏从业者看到AI在内容精度和创作趣味性上的巨大潜力。    </p>
+<p>不过其中最让行业感到兴奋的，无疑是Deepseek在测试中所展现的惊人“共情能力”和“互动性”——这正是包括米哈游、腾讯、网易等头部大厂目前迫切需要的。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_52e3299fa28b4309a4caafb20585fdce@000000_oswg137188oswg1074oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：B站UP主途淄）</p>
+<p>早在数年前，头部游戏大厂就早早围绕“AI互动能力”展开极其深度的布局以及研究。例如在2023年前后，一家名为MiniMax的初创公司，就引得米哈游、腾讯在内的游戏巨头争相投资。</p>
+<p>据了解，Minimax是由前商汤科技副总裁、通用智能技术负责人闫俊杰成立的人工智能公司，目前旗下的主力产品是提供AI聊天服务的社交软件Glow，估值已超12亿美元。</p>
+<p>在这款产品中，用户可以选择创造属于自己的“智能体”，通过设定基础的性格、背景故事等人物特征，培养一位擅长聊天对话的智能AI，进而让用户体验跟虚拟人物聊天的乐趣。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_d49857593a334d4db83adf9ebd3e0455@000000_oswg300275oswg1080oswg557_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而MiniMax引动一众大厂跟投的原因也不难理解——与DeepSeek类似，Glow所拥有的AI智能技术能够给玩家带来身临其境的互动体验。这项技术的关键之处在于，它不同于传统AI的预设性对答，而是凭借模型本身自带的“即兴创作”属性，去主动模糊AI与真人玩家的互动边界。</p>
+<p>单凭这一点，有着较高共情能力的AI技术，就无疑能让强调情绪价值和社交属性的二次元、乙女、MMO等品类如焕新生。    因此，布局“强互动型AI”早已成为行业共识。  </p>
+<p>以米哈游为例，早在2023年4月，《崩坏：星穹铁道》的制作人大卫就曾透露内部在NPC行为和台词中尝试投入过AI技术，让一直以来较为模式化行动的NPC显得更加自然。</p>
+<p>而同一时间，在与《女神异闻录》制作人的对谈中大卫也曾提到，希望AIGC技术能够将“不会重复回答台词的NPC”变成可能，从而给玩家提供更多新奇的游戏体验。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_931b196ea7614fdd81d1c0e17b4dc1cb@000000_oswg575652oswg1080oswg563_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>既然包括米哈游、腾讯在内的顶尖大厂都被强互动AI迷得神魂颠倒，那么中腰部的游戏企业自然更不用说。  </p>
+<p>举几个近期的例子，去年游族就在少年系列游戏中实装了面向玩家的首款AI产品——AI玩伴小游酱。据了解，小游酱不仅能够为玩家提供客服答疑和游戏攻略，还能在陪玩与倾听中，提供丰富的情绪价值。</p>
+<p>而就在几天前，游族也正式宣布小游酱将接入满血版的DeepSeek，计划在情人节当天与旗下的二次元手游《绯红回响》一起，为玩家带来别样的惊喜。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_be6412d636a843d08712c8d811b644a2@000000_oswg921518oswg1080oswg1237_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>与之相似的案例，还有来自幻境游戏CEO张筱帆再创业的“自然选择”公司。</p>
+<p>在去年10月12日，与幻境游戏（旗下《奇点时代》）互为兄弟的自然选择官方，在B站发布了AI伴侣《EVE》的首支预告PV，并在两天内收获了超过110万播放量。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_15fa1b82ddec4914b4278ed64b6a4619@000000_oswg735755oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当然，有关AI伴侣的实际应用仅是这项技术最直接的落地方式。我们不妨试想，当高共情、强互动的AI能够感知玩家动机，即兴创建故事脉络时，游戏世界便从预设的剧本牢笼中挣脱，进而成为能够动态生长的内容生命体。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_cba84120d68549a082708400c5c3b153@000000_oswg957482oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（网易《逆水寒手游》也同步接入包括DeepSeek在内的诸多国产大模型）</p>
+<p>这种由强互动性催生的“叙事涌现”，或将颠覆延续数十年的关卡设计逻辑，让一款强调情绪价值的游戏具备前所未有的长青价值。我想，这或许才是DeepSeek眼下最值得游戏行业参考学习的能力之一。</p>
+<h2>对打工人而言，是福？是祸？</h2>
+<p>聊完DeepSeek所代表的AI技术两大变迁，我们也是时候回归最初的疑问——在DeepSeek火爆全网后，“机器吃人”的故事，距离我们还有多远？</p>
+<p>相信不少从业者也会和我一样深有同感——    每当AIGC取得突破，“又要裁员了吗？”，这个幽灵般的质问总会在行业群聊中复活。但现实可能要比想象复杂得多。</p>
+<p>对比贯穿2023年到2024年的AIGC恐慌，本质是市场下行所引起的“降本增效”，恰好跟AIGC爆发的“技术奇点”整上了一轮火星撞地球。</p>
+<p>但当时间进入2025年，情况正在发生变化：版号常态化发放、小游戏赛道爆发、头部爆款频出……行业进入复苏期后，“优化”不再是唯一命题。    更别提，DeepSeek代表的“生成即服务”模式，正在为游戏行业的工作模式带来全新的变化。  </p>
+<p>过去我们常说，AI技术的加入只是让“流水线工人”变成“创意决策者”。一位从外包原画师转型AI美术的从业者，就向我描述了他亲身经历的行业变迁：</p>
+<p>“过去我每天画12小时铠甲花纹，现在80%的重复劳动交给AI，剩下时间全用在和策划吵‘这套衣服该用凤翅兜鍪还是交脚幞头？’。”他告诉我，在AI介入他的生活之后，日常工作反而变成了真正的创作。</p>
+<p>这种趋势在文案领域可能同样显著。一位总是活跃在各大群聊的MMO文案表示，前段时间他试水了DeepSeek的内容生成功能，它可以将耗时数月的“全门派技能描述”压缩到一周完成，而自己得以转而投入核心主线剧情的情绪张力打磨。“AI就像给每个人配了实习生团队，关键看你怎么用。”</p>
+<p>杀死“牛马”的，从来不是工具。回看游戏史，每一次技术革命都会引发“机器吃人”的恐慌，但最终被淘汰的从来不是人类，而是固守旧范式的工作方式。</p>
+<p>当DeepSeek们扛起“脏活累活”，从业者反而有机会回归创意本源——就像印刷术没有消灭作家，Photoshop没有杀死画家，真正的创作者永远能找到与新工具和平共处的方式。</p>
+<p>或许某天，当AI能独立开发出《原神》级产品时，游戏圈需要新的生存法则。但至少在今天，Deepseek更像是行业集体跃升的弹簧板。</p>
+<p>我们现在需要做的，只是踩准它的力量，而不是恐惧它的阴影。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166484084124162</guid><pubDate>Sat, 15 Feb 2025 10:52:00 +0800</pubDate></item><item><title>哪吒之后，下一个电影衍生品爆款是谁？</title><link>https://36kr.com/p/3166480989186567</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=Mzg5ODkwOTM2NA==&amp;mid=2247664706&amp;idx=1&amp;sn=a5a7f5b5cfc21dd361ca4036d087ea2f&amp;chksm=c149c8bb0254382ce83c0f9e6e5625dd73cae3fbaac3cb5366910cdec02d90dbda015dde5341&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“娱乐资本论”（ID：yulezibenlun）</a>，作者：尖椒，36氪经授权发布。</p>
+<p>这个史上最强春节档，带来惊喜的不仅有突破百亿票房的《哪吒之魔童闹海》，还有火热的电影衍生品市场。    </p>
+<p>泡泡玛特天猫旗舰店天生羁绊系列手办盲盒上线首日即售罄，线下一盒难求；《哪吒之魔童闹海》官方手办在阿里鱼旗下的造点新货平台众筹2800万，购买人数超6.4万；集卡社卡牌全渠道销售额过亿......<strong>哪吒周边衍生品卖爆、缺货，二手交易平台价格翻番，还连带着第一部周边翻红。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_5daca55b3da742869c0920582289364e@000000_oswg1010856oswg1080oswg607_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不仅是《哪吒之魔童闹海》，据娱乐资本论统计，<strong>这个春节档的6部电影，借助系列化IP优势，与至少20家品牌合作推出百余种衍生品，销售额累计上亿。</strong></p>
+<p>据央视财经报道，2024年中国“谷子经济”市场规模达1689亿元，同比增长超40%。反映到影视产业，衍生品从爆款必备转变为行业标配。IP的后链路商业价值成为不可忽视的增值空间，甚至会在未来成为影视行业主要的利润来源。    </p>
+<p>这次《哪吒之魔童闹海》等一众春节档电影背后的衍生品市场繁荣，不仅表现在销售量暴增，更重要的是，国内IP衍生品的全产业链都在迈向成熟期，影视版权方越来越重视IP的长线运营，进行前置化开发、规范生产和销售，并借助多重营销推广方式触达人群，沉淀IP人群资产，满足用户多元化的情绪价值需求。    </p>
+<p><strong>未来，影视IP商业化将继续开发长线优势，甚至走向线下，结合文旅资源开发创新形式，让影视IP衍生升级为年轻人的生活方式，电影行业也终于在产业化改革20年之后，真正打开从一次性票房经济向长线衍生品经济转型的大门。</strong></p>
+<h2><strong>20+品牌，百种产品，衍生品成春节档电影必争之地</strong></h2>
+<p>今年春节档六部电影中，<strong>5部都是系列续作，为IP衍生品开发打下良好基础</strong>。票房之外，各家衍生品周边的开发、销售和营销都卷出新高度。    </p>
+<p>据娱乐资本论统计，<strong>今年春节档6部电影与20多家品牌合作，生产并销售衍生品超百种。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_a7805f3eb44a4bafa07adcd53ad252d0@000000_oswg262675oswg1080oswg2045_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>《哪吒之魔童闹海》以动画电影的优势，与9家品牌达成合作</strong>。周边种类涵盖较为重型的手办、拼装玩具等，也包括毛绒玩偶、电影典藏卡、捏捏乐、亚克力扭蛋机等轻周边，中信出版集团合作了官方艺术设定集。    </p>
+<p><strong>《哪吒之魔童闹海》的周边销售增长伴随影片口碑与热度发酵在春节档中一骑绝尘。</strong></p>
+<p>以FunCrazy在造点新货平台发起的官方正版手办众筹为例，该项目涵盖哪吒、敖丙、敖光及灵珠版哪吒等人气角色。其中，敖光手办单款销量突破两万件，包含敖光在内的368元、560元、1938元档第三批众筹火速售罄，如今已经开到第四批。截止发稿前，FunCrazy在造点新货平台推出的手办众筹项目金额已突破2800万元，购买人次超6.4万。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_f728b8029fe54ae28817d110cb7d3c65@000000_oswg1117660oswg1080oswg1181_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>据悉，本次众筹用不到10天的时间，打破了2019年《哪吒之魔童降世》众筹手办的销售记录，并连续六日登上淘宝热搜榜，最高冲至TOP2的位置。</p>
+<p>除此之外，泡泡玛特上线的天生羁绊系列手办盲盒上线首日即售罄，线下更是一盒难求，预售发货已经排到6月。集卡社也在近日透露，哪吒卡牌销售金额全渠道过亿。</p>
+<p>位于湖南湘潭的一家企业是电影《哪吒之魔童闹海》周边3D塑胶类食品玩具授权生产制造商，据负责人透露，500多位员工大年初五就回到车间，赶制产品。    </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_d0537c920d6f467f8a4e25502a5d1b2c@000000_oswg183860oswg1080oswg1860_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>据娱乐资本论不完全统计，淘宝上的正版哪吒周边产品销量已经超过40万单</strong>。2月8日，阿里方面透露，淘宝上的哪吒官方授权周边销售额已经突破5000万，如今还在持续增长中。    </p>
+<p>除了《哪吒之魔童闹海》，《封神第二部：战火西岐》的衍生品合作品牌也高达7家，与卡系团、引力厂、美好之物、一番赏等多家品牌合作推出衍生品，映后还在追加衍生品合作，与33TOYS合作可动兵人手办。    </p>
+<p><strong>在《封神第二部：战火西岐》相关合作中，较为特别的是其“封神三部曲天猫旗舰店”的开设。</strong></p>
+<p>IP衍生品通常由片方与第三方品牌进行合作，并在第三方渠道内进行销售，而封神三部曲天猫旗舰店的出现，预示着电影版权方对衍生品生产销售、IP长线运营和商业化价值的重视程度进一步提高，旗舰店提供了一个可以聚集起IP粉丝的集中场域，并通过用户的真实反馈实现有效互动，为用户带来深度而多元的体验。    </p>
+<p>点进旗舰店店铺，首页有风格统一的产品展示橱窗和会员用户拉新设计（会员专享优惠券、签到得积分换周边、积分抽奖等）。    </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_d194860506884d9fadbda7a3303f7a3e@000000_oswg1220625oswg1080oswg1958_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>从店铺铺货情况来看，不仅有手办、吧唧、冰箱贴等常见的电影衍生品，还有与电影内容高度联动的创意产品，通过文化符号和剧情关联性增强用户的情感共鸣。    </p>
+<p>比如可以巧妙模拟开榜动作的抽拉挂件，以饕餮图腾、凤鸟图腾分别代表朝歌与西岐阵营的可旋转金属徽章，还有隐喻着情感纠葛关系的殷寿与妲己磁吸钥匙扣套组等。目前旗舰店中销量最高的是角色变装磁吸拆拆乐，用户可为角色换装，具有极强的互动性与趣味性。    </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_de187fc3dd11464186f686728f183ec0@000000_oswg78953oswg1080oswg359_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>据悉，此旗舰店由阿里鱼联手天猫平台打造，包括店铺搭建、产品开发、运营推广以及售后服务，帮助电影版权方实现了品牌在电商领域的深入渗透，也满足了电影观众多元化的消费需求。    </p>
+<p>运营不到一个月，旗舰店已积累了3万粉丝。同时，旗舰店中还在售卖第一部衍生品，比如寿龟甲地图、盲盒手办等，旗舰店还将版权方与其他品牌合作的官方衍生品都聚集到同一场域中，<strong>实现了IP的长线运营，并有助于IP沉淀人群资产。</strong></p>
+<p>《唐探1900》与三家品牌合作了不同品类衍生品：与泡泡玛特推出盲盒手办，与墨卡文化推出刺绣卡、人物卡等轻周边，与中信书店合作了字帖、书签等平面周边。    </p>
+<p>映前，《射雕英雄传：侠之大者》的官方周边画册、明信片和海报帮助影片争取到更多排片，影片上映后也在造点新货上线了官方衍生周边，通过站内外宣传资源，高效触达核心粉丝人群。    </p>
+<p>这个春节档，<strong>电影票房之外的衍生品市场成为片方必争之地</strong>。国产电影票房节节攀升的下一步，中国电影将从“票房依赖”向“长尾变现”转型。      </p>
+<h2><strong>开发前置、关联度高，影视IP衍生品成标配</strong></h2>
+<p><strong>2015年，《大圣归来》首日众筹突破1000万，电影衍生品开发伴随着动画电影的崛起成为热议话题</strong>。但中国电影IP衍生品开发长时间以来一直是点状爆发而非长线经营结果，影视IP衍生品行业一直也被诟病开发滞后，热度周期短。    </p>
+<p>上一次电影周边热卖引起大范围关注还是2023年，《流浪地球2》一系列衍生品在造点新货上众筹。当时，造点新货与版权方合作，深度挖掘了电影中高频出现的道具和载具，推出等比例模型，与IP风格高度契合，加上国产科幻电影IP热度加持，8天过亿，累计1.5亿，创下众筹行业全品类纪录。    </p>
+<p>到了今年，<strong>春节档衍生品热背后，影视IP周边早已从爆款作品的“专利”，成为影视作品的标配。影视IP衍生产业迈入成熟期，产业基础设施逐步完善。</strong></p>
+<p><strong>一方面，影视版权方从积极参与到主动策划，衍生品开发前置、在作品上线日同步推出成为行业共识。</strong></p>
+<p>造点新货、优酷小卡平台负责人张之金告诉娱乐资本论，此次与《哪吒之魔童闹海》的合作最早在2023年就开始和片方沟通，讨论合适做众筹的商品、适合的商家等。之前造点新货与《流浪地球2》的合作也是提前一年开始准备。“不仅是电影，影视剧、综艺等近几年的IP衍生品策划基本都会前置1至3个月，大的项目甚至会长达半年到1年，并与影视内容一同上线。”    </p>
+<p><strong>同步推出有助于IP衍生品的情绪价值最大化。</strong>观众观影后，可以在对剧情与角色还十分沉浸的时刻，通过购买周边实现情感共鸣与情绪共振。    </p>
+<p><strong>还有影视版权方在剧本策划阶段就考虑到衍生周边的生产</strong>。比如优酷最新上线的剧集《掌心》中，叶平安（刘诗诗饰）所持的葫芦备受关注，刘诗诗还曾在出席的活动中佩戴。这一道具从剧集策划阶段就开始精心设计，并在剧集上线时同步推出1:1还原葫芦，高度契合剧中形象，进一步增强观众体验。    </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_e0afd733b7084635aca92f13ed352f1d@000000_oswg147276oswg1080oswg1071_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>另一方面，谷子经济在近两年的火热也证明观众对衍生品的热情高涨，线下谷子店掀起一波波开店热潮，情绪价值成为观众消费偏好。</strong></p>
+<p>随着影视IP衍生品的普及，衍生品的质量进一步提升，与影视作品内核的关联度也成为用户选择衍生品的重点。用户已经无法满足于简单的“贴图”，而是希望拥有“有故事的衍生产品”。    </p>
+<p>2023年暑期档电影《消失的她》推出了官方纪念票根产品，由锦鲤拿趣在造点新货平台众筹，对剧情片衍生品品类进行创新探索。如今，官方纪念票根已经成为常见的电影衍生品，既与作品高度关联，又有独特收藏价值。    </p>
+<p>小卡是伴随谷子热兴起的新品类。去年，优酷小卡发行了《度华年》《白夜破晓》《花间令》《异人之下》等十多部剧集的官方小卡项目。    </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_04db3b38337847b2a4ec46a973e9e1aa@000000_oswg210631oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>近两年，<strong>日本动画电影引进成热潮，上映期间，观影特典也成为官方衍生品的一种展现方式</strong>。《排球少年》《你想活出怎样的人生》通过票根、透卡等特典拉动长尾票房，并带动后续一系列衍生品售卖。    </p>
+<p>即使是中小成本电影也可以通过衍生品创新获得热度关注。去年11月，贾樟柯在路演期间频频背着一个标着“风流一袋”的老式编织袋。这一带有谐音双关梗的周边很快获得影迷关注。此后，编织袋，磁带挂件，手环等一众复古周边商品齐齐上架网络平台，不久便售罄待补货。这些周边与影片内核的时代特质相关联，成为一种流行文化商品，反向助力影片宣发。    </p>
+<p>在与业内人士沟通后娱乐资本论发现，<strong>在选择影视IP衍生开发时，第三方公司非常看重“国潮”元素，与中国传统文化高度关联的影视作品将成为衍生品开发的重点。</strong></p>
+<p>比如去年《白蛇：浮生》在上映期间与MIMI、泡泡玛特等品牌联名合作，推出的衍生品包括但不限于盲盒手办、画册图集等，在票房之外拉高了内容收入上限。    </p>
+<p>同时，<strong>在影视IP衍生品开发的基础建设上，像阿里鱼这样的IP运营管理及商业化开发平台，通过IP2B2C的独特优势，为IP衍生品市场的增长助力</strong>。据悉，阿里鱼基于大数据分析目标人群和受众喜好，反哺到IP衍生品设计与生产。阿里鱼研发出的镭射标管理系统、监修报审系统等工具服务于版权方与商家，进一步规范衍生品开发、生产与销售流程。    </p>
+<p>版权方、平台到受众端展现的积极性，正在让影视IP衍生品成为行业标配，并推动IP授权成为未来影视行业增收主力。      </p>
+<h2><strong>长线运营、走向线下，影视IP衍生品迈入成熟期</strong></h2>
+<p><strong>影视IP由于其特殊性，与其他品类IP有明显不同。</strong></p>
+<p>阿里鱼IP授权负责人郭颖颖介绍，<strong>目前主流的IP授权仍集中在卡通动漫IP，聚焦影视行业，动漫类、科幻类、古装仙侠类影视内容的周边相对易于开发，现代剧集 IP的产品开发仍然具有一定难度。</strong></p>
+<p><strong>另一方面，影视IP授权收入在多数情况下与影视热度挂钩，也让影视IP衍生品的前置开发充满不确定性。</strong>影视作品播出前需高度保密，被授权商前期获得的信息及素材有限，会进一步阻碍影视作品的前置开发。    </p>
+<p>但影视IP也有其优势之处，影视作品内容可以直接与观众产生情感链接，短时间内爆发出情感能量，对于激发用户衍生品消费奠定了坚实基础。    </p>
+<p>更重要的是，<strong>影视IP具有长线开发的潜力，上线多年的作品同样能通过IP衍生品承接观众的情绪需求。</strong></p>
+<p>近几年《甄嬛传》被年轻人反复挖掘剧集细节、回味经典片段，网络讨论度居高不下，用户对于IP衍生品的需求喷发。版权方和阿里鱼合作就《甄嬛传》IP开展了后商业化变现链路的搭建，开发多套《甄嬛传》图库素材。在阿里鱼的运作下，《甄嬛传》与海马体、乐乐茶、宝玑米、若来、KEEP等年轻品牌合作，实现人群的相互破圈。    </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_495614e9d9454d359c57baf4fac370a9@000000_oswg155572oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>郭颖颖强调，IP商业化开发的前提是“尊重IP的世界观和角色设定”。    </p>
+<p><strong>对于系列化作品而言，图库开发、IP授权链路及监修链路的完善对于IP商业化运营必不可少</strong>，在这次春节档电影中，除《哪吒之魔童闹海》《熊出没》两大动画电影IP外，《唐探1900》《封神第二部：战火西岐》等真人电影或自主开发或合作品牌方创作了多套IP图库，并应用到衍生品开发中。同时，被授权商与片方的合作已不止于衍生品的开发，而是有更多定制化营销内容出现。    </p>
+<p><strong>即使是非系列化IP，也能通过周年纪念等节点，唤醒观众的情感记忆</strong>。比如造点新货在《莲花楼》《沉香如屑》《长月烬明》等完播IP的周年庆期间持续推出纪念衍生品，帮助维系剧迷与IP的情感连接。    </p>
+<p>未来，<strong>国内影视IP授权还能走向线下，实现IP+文旅的创新合作。</strong></p>
+<p>之前，造点新货与联合诸暨文旅创新开发了《珠帘玉幕》的“云开蚌”项目，观众可以在线上抽取珍珠盲盒。剧集《清明上河图密码》“为一部戏造一座城”，在江苏周庄打造实景影视基地和数字摄影棚，满足观众多元化需求。    </p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_56a0c505e62f42b98578609545f15c80@000000_oswg1000008oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>今年春节档电影中，《封神第二部：战火西岐》与四川文旅达成合作，为观众游览影片同款地进行相关宣传。《唐探1900》在山东德州乐陵影视城造了一座“旧金山唐人街”，不仅方便后续剧组取景，也丰富了当地文旅资源。春节期间，数万人涌入影视城，带动周边游客流量。    </p>
+<p>从线上到线下，影视IP还有无限潜力亟待开发，影视IP的长线运营将助推长尾价值增长，让影视IP真正拥有掘金千亿市场的想象空间。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3166480989186567</guid><pubDate>Sat, 15 Feb 2025 10:54:00 +0800</pubDate></item><item><title>对话高途联创罗斌：教育公司要想在应用AI层改变格局，至少需要3-5年的周期</title><link>https://36kr.com/p/3165866538380039</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU1Mjc4NjM4Mg==&amp;mid=2247574757&amp;idx=1&amp;sn=80cc466467ea931e4dff5f305ad18fef&amp;chksm=fa71e298b1b6256572edad424c4c007aba0a28ce39c3481d290820128066198b2459e74c7891&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“多知网”（ID：duozhiwang）</a>，作者：徐晶晶，36氪经授权发布。</p>
+<p>兴奋。</p>
+<p>未知。</p>
+<p>这是高途联合创始人罗斌面对当下DeepSeek引发的这一轮AI技术浪潮时的心境。</p>
+<p>兴奋，是因为看得见的确定性，“拉长周期来看，DeepSeek带来了巨大的变量，创造了新的可能性。”</p>
+<p>不过，这份确定性又是模糊的、未知的。“大致方向是能看得见的，但是整个路径、节奏是模糊的、非共识的，这其中存在很大的不确定性和未知性。这也意味着，一种压力。”</p>
+<p>2月12日，高途正式宣布接入DeepSeek大模型，不过，其对DeepSeek的关注要比后者大范围步入公众视野更早。</p>
+<p>高途透露了接入DeepSeek后带来的一些显著变化：</p>
+<p>比如，内部协同工具AI助手在接入后，截至目前，日访问量提升了200%，预计在2月中旬完成内部业务系统和协作平台全面打通之后，访问量将会进一步增加。</p>
+<p>再比如，在用户产品侧，以DeepSeek为技术核心的高中数学测评准确率提升了15%，而后高中AI选科规划服务也借由AI助力实现了服务质量提高。</p>
+<p>在高途官宣接入的当天，多知就DeepSeek相关话题对话了高途联合创始人罗斌。</p>
+<p><strong>罗斌严谨地给出了一些判断和预期：</strong></p>
+<p>1.DeepSeek-R1大模型的准确率已达到在教育场景相对可用的状态。</p>
+<p>2.今天的大模型还处在整个AI能力进化的相对早期阶段，如果成熟状态是100分，那么今天的这些大模型最好的状态也就是5-10分的水平，离终态还很遥远。</p>
+<p>3.在基座模型不断迭代时，对每家公司来说，更重要的是要找到一种机制，以便在大厂的基座模型快速迭代的过程中，能及时跟上这一波变化，并在每次变化的过程中，能及时把新的能力结合进来，为自己所用。</p>
+<p>4.回到教育这个场景，至少在我们现在能看见的一个周期内，AI能力本身是一个关键要素，但不是一个决定性的要素。不要期待有了AI之后就能一剑封喉。</p>
+<p>5.如果有了更强大的大模型能力，过去拍搜的这种模式就会发生变化，就不需要提前去生产积累自己的题库，现在是一种实时解答的方式，通过大模型就能够达到一个非常高的准确率了。</p>
+<p>6.教育AI的iPhone时刻一定会发生，但时间、形式不确定。教育公司要想在应用AI层面改变格局，至少需要3-5年的周期。</p>
+<p>7.众多学习环节里，AI能替代的，其一，是一个相对简单的学习任务。其二，AI更适合于学生主动来发起、AI来接听响应的场景。而需要由我们来主动地管理和影响学生的这个部分，今天的AI还做不到。</p>
+<p>8.小型的创业公司，在某些单点上、在某些形态的产品上，有可能获得一波特殊的机会。但是如果回到重交付、端到端、以学习结果为导向的领域里，这里的机会对于创业公司而言，挑战还是非常大的。</p>
+<h2><strong>01 </strong>DeepSeek-R1大模型的准确率已达到“在教育场景相对可用的状态”</h2>
+<p><strong>多知：DeepSeek将如何影响教育行业未来的发展？会带来哪些颠覆性的改变？</strong></p>
+<p><strong>罗斌：</strong>第一个变化，DeepSeek这波算是<strong>完成了一次比较好的市场教育</strong>，提升了大众对于AI能力的关注度，也让普通用户使用AI工具的渗透率得到了提升。</p>
+<p>第二个变化，结合公开信息和我们内部验证来看，DeepSeek-R1的模型做了一些创新（包括引入了更强的推理能力）后，在一些教育场景下的应用效果确实有很大的提升。这种提升意味着，<strong>从应用的角度来说，它的准确率已经达到了一个相对可用的状态。</strong></p>
+<p>教育行业的容错率比较低。原来，大模型的准确率并没有达到可用状态。但是今天，以DeepSeek-R1为代表的这些模型的能力迅速提升，让整个可用性变得更高，也让更多的场景引入这一大模型的能力变得更加可行。</p>
+<p>举例来说，在我们内部高中数学的一个题库上，之前我们用原有模型测试，准确率最佳情况是能做到74%。我们现在拿DeepSeek-R1结合内部级数据测了一下，经过调优之后，<strong>准确率大概能到90%。这还是其在高中数学的知识体系里的表现。如果知识点下沉到初中、小学，DeepSeek-R1的准确率会提升得更显著，可能接近于真人的状态。</strong></p>
+<p>第三个变化，<strong>让更多企业坚定了对AI的投入</strong>。之前很多企业对AI还没有形成很好的共识，毕竟AI的投入成本比较高，也需要专业人才。但今天很多企业意识到了，必须要拥抱AI。</p>
+<p>回到教育场景下，它可能会带来的变化主要是在两个方向：</p>
+<p>一个方向是为学生创造更好的价值。</p>
+<p>从产品的角度来讲，目前行业里的教学环境，大部分还是通过以真人老师为主来跟学生进行交付。有了DeepSeek能力的辅助后，老师和学生在整个教学过程中的反应的速度、平均的专业度、效率、服务群体的规模，都能得到大幅提升。</p>
+<p>这带来的一个变化是，<strong>原来必须要由专业的真人老师来提供一些教学服务，今天通过大模型的辅助，不管是教学、练习还是答疑，直接通过AIToC或者通过AI辅助老师来ToC这两种情况下，整个效果和效率都能够有显著的提升。</strong></p>
+<p>另一个方向是改善企业内部的运营效率。不管是市场营销、销售转化或服务的环节，效率都会有显著提升。</p>
+<p>必须要明确的是，虽然以DeepSeek为代表的大模型现在很火，但是总体来讲，<strong>它们还是在整个AI能力进化的相对早期阶段，如果成熟状态是100分，那么今天的这些大模型最好的状态也就是5-10分的水平，离终态还很遥远</strong>，在短周期内，我们还不能对它的节奏和价值期待过高。</p>
+<h2><strong>02 </strong>在基座模型快速迭代的过程中，教育公司也要让自有模型及时跟上变化</h2>
+<p><strong>多知：市面上很多教育公司已经有自研的大模型，同时接入了DeepSeek，怎么看其未来的路径？</strong></p>
+<p><strong>罗斌：</strong>如今，DeepSeek是一个更强大的基座模型，无论是把自己原有的模型或数据和DeepSeek结合，还是以DeepSeek模型作为基座，重新去训练新的自有模型，每家公司会用不同的路径来做。</p>
+<p>但我的基本观点是，今天大模型的底层生态，如果只是5-10分的水平，<strong>那么在未来的半年、一年、两年、三年，底层的大模型还会有突飞猛进的变化。</strong></p>
+<p>今天各家在这样的场景下构建起的自有模型的能力提升速度，跟大厂的模型提升速度相比，完全不在一个量级。</p>
+<p><strong>在这种情况下，对每家公司来说，更重要的是要找到一种机制，以便在大厂的基座模型快速迭代的过程中，能及时跟上这一波变化，并在每次变化的过程中，能及时把新的能力能结合进来，为自己所用。</strong></p>
+<h2><strong>03 </strong>不要期待有了AI之后就能一剑封喉</h2>
+<p><strong>多知：当教育公司普遍拥抱DeepSeek，大家的差异化、本质区别将体现在哪里？</strong></p>
+<p><strong>罗斌：</strong>不管是以DeepSeek为代表开源的基座模型，还是一些大厂的闭源模型，它都会有某种方式开放给整个社会使用。<strong>所以在底层的基础的能力上，是相对标化的、是平等的，大家在这个地方不会有明显的差异。</strong></p>
+<p>但可能会存在差异的地方是什么呢？</p>
+<p><strong>第一个维度就是在模型的本身。</strong></p>
+<p>各家根据自己的需要，尝试建垂直模型、小模型或者专属模型，这样能更好地适配不同应用场景。比如高途有考研业务，也有公考业务，可能用于考研业务的模型和用于考公业务的模型就不太一样。这里可能存在差异化的模型的版本。</p>
+<p><strong>各家在专属模型的建设能力和水平上实际上是有差异的。</strong></p>
+<p><strong>第二个维度是在应用层。</strong></p>
+<p>关于基座模型，教育公司们不会有显著的差异。但在应用层，可能变化会更多一些。现在的模型，更多的还是偏系统1的这种模型，还不具备非常强的推理、调度或者真正意义上的智能。</p>
+<p><strong>未来，大家也在提，比如大套型套小模型的方式，或者是通用模型嵌套专有模型的方式，包括未来有市面上有这么多的模型，怎样做混用，不同的场景下可能调用不同的模型，另外，包括人机怎么结合，老师和AI怎样协作，让整个过程能够变得更加高效和专业，这个地方可能各家的做法会有差异。</strong></p>
+<p>还有一个就是怎样做运营。同样的一个能力，在不同的团队里面，你的推广、宣传、运营，可能会导致最终的使用的广度、深度、效果上，也会有明显的差距。</p>
+<p><strong>第三个维度是在产品层。</strong></p>
+<p>站在学员的角度，学员需要的产品是一个解决方案。他并没有那么在意你提供的是真的AI还是别的什么。</p>
+<p>所以结合AI的能力后，每家提供的解决方案，是不一样的。但是从学员角度看，他需要更好的体验，更好的效果和更好的性价比。因此，在产品上，变化会更大。</p>
+<p><strong>最后一个维度是组织能力。</strong></p>
+<p>同样的一种AI能力，随着时间的演进，大家的迭代方向和迭代速度是会有差异的。</p>
+<p>拉长周期来看，不管是从产品层面还是从运营层面，都会形成更加明显的差异。</p>
+<p>这里面，人才的影响是比较大的。</p>
+<p>总结来讲，底层能力、标准化的这些能力，大家是类似的。<strong>但是回到教育这个场景，至少在我们现在能看见的一个周期内，AI能力本身是一个关键要素，但不是一个决定性的要素。</strong>更重要的还是在产品、在应用等方面，可能需要结合AI来做重新的思考设计。<strong>面向未来的一个周期（3-5年）来做这样的布局和迭代，可能是更加重要的。</strong></p>
+<p><strong>不要期待有了AI之后就能一剑封喉，这件事情不太会发生。</strong></p>
+<h2><strong>04 </strong>大模型实时解答，正在消解拍搜解题产品的题库门槛</h2>
+<p><strong>罗斌：</strong>原来学生有一道题不会做，他要么问老师，要么就用拍搜工具。拍搜工具内部是要做大量题库的生产和累积的，但今天看起来，<strong>如果有了更强大的大模型能力，过去拍搜的这种模式就会发生变化，就不需要提前去生产积累自己的题库，现在是一种实时解答的方式。</strong></p>
+<p>所以我的感觉是，未来在解题的这个部分，你问AI一道标准化的题，AI给你进行解题这件事，会变得比较标准化了，<strong>通过大模型就能够达到一个非常高的准确率了。相当于拍搜题库这件事不会有绝对的门槛了。</strong>当然可能每一家自己做出来这个模型，通过不同的数据和调优以后，可能还会有一定的准确率的差异。但这个差异就没有那么大了。</p>
+<p><strong>原来可能你手里有一亿的题库，人家手里可能只有一千万的题库，差异可能会特别大。但有了更强大的大模型能力，以后可能的差异是，你的准确率可能是93%，人家的准确率可能是91%。可能只是这种层面的一个区别。但是在覆盖率上，可能大家都能够做到非常高的覆盖率。</strong></p>
+<h2><strong>05 </strong>学习环节里，相对简单的任务和交互，更容易被AI替代</h2>
+<p><strong>多知：DeepSeek会不会取代一些现有的学习产品？</strong></p>
+<p><strong>罗斌：</strong>如果把整个学习进行拆解，不管是面向学生，还是站在企业内部的角度，有很多环节。</p>
+<p>哪些环节受到AI的影响更大呢？<strong>可能是相对简单的任务，相对简单的交互，在这种逻辑下，更容易发生。但如果它是一个长周期的、多任务的、复杂的链条，AI在里面产生很大作用的难度会比较大一些。</strong></p>
+<p>所以，<strong>第一个，AI替代的应该是一个相对简单的这种学习任务。第二个是，它更适合于学生主动来发起、AI来接听响应的场景。</strong>而需要由我们来主动地管理和影响学生的这个部分，今天的AI还做不到。这是因为，AI的能力还不够，也很难让学生真正遵从AI的指令。</p>
+<p>所以从这两个角度来讲，AI能够在里面发挥作用的一些环节还是可以罗列的：</p>
+<p><strong>第一种场景，在企业内部的一个场景下，通过AI来辅助做一些内容的生产，做一些知识库的建设，包括做一些内部的问答平台搭建，这是可以做得到的。</strong></p>
+<p><strong>第二种场景，一些简单的对话场景，比如像客服、拍搜</strong>（学生问一个问题，你要给他一个答案，这种就是用户过来之后就去寻找一个答案的这样一种逻辑，跟标准化的DeepSeek的用法类似。<strong>你给一个输入，它会反馈你一个输出，提供一些专业的内容解答）这种类型的场景下，AI的能力会越来越强。</strong></p>
+<p><strong>第三种场景，在一些特定的练习场景下，AI是可以承担这样一个角色的。</strong>举个例子，英语对话练习，市面上有很多的产品在做类似的一个事情，这也是比较简单的对话性的任务，或者是你需要他给你针对一个特定的题目做一下讲解，讲特定的一道题，简单的教学或者是对练，是可以通过AI来做一定的替换的。</p>
+<p>但是除了这三种情况以外，<strong>对于其他的比较复杂的这种任务，以及这种需要老师和学生进行强互动，强引导，甚至带有一定的管控属性的任务和场景，AI在里面更多的只能起到一个简单的辅助的作用，也很难真的替代真人来完成这些逻辑。</strong></p>
+<h2><strong>06 </strong>教育AI的iPhone时刻一定会发生，但时间、形式不确定</h2>
+<p><strong>多知：随着AI的快速发展，未来教育行业的格局会发生怎样的大变化？</strong></p>
+<p><strong>罗斌：</strong>教育行业格局如果要发生大的变化，一定要有一个重要的变量——会不会有真正意义上新形态的产品出现。教育+AI里会不会有一个iPhone时刻，像当年iPhone横空出世一样，带来根本性的产品的变化和升级？</p>
+<p><strong>关于这件事，我的观点是，一定会发生，但是它发生的时间点和发生的形式，</strong>是不确定的。因为明显从现在的整个教育市场来看，如果以客户为中心，现在这个市场上提供的教育产品，从学习体验、学习效果、学习效率、个性化程度来看，离客户的理想的期望还是有明显差异的。</p>
+<p>可以设想一下，<strong>学员需要的一个理想教育产品是什么样的？大概率就像我们去医院，从进门那一刻开始，一切环节都交给这家医院了，诊断、分析、化验、治疗、复查，是一个端到端的解决方案。</strong></p>
+<p>如果按照理想的状态来对比，在教育场景下，我们的客户需要的是这种方案。但受限于很多因素，今天市场上提供的教育产品，离这个还有很大的距离。<strong>其中一个非常大的因素是真正优质的教育资源/老师的供给是有限的。</strong>优秀的老师，一方面是包括他的学科能力、专业能力，另外一方面上是包括他的教学能力，对于学生施加影响的能力。这两方面能力都比较强的优秀老师是一个稀缺资源，另外，成本也不会低。</p>
+<p>所以，有更强大的AI能力后，刚才讲的这两方面都会发生变化——一方面，成本会更低，因为AI成本未来是会快速下降的。另一方面，供给变得更加充裕了后，可以通过AI和真人老师的协作和配合，针对学员提供更加个性化的、更有针对性的、更加端到端的、体验更加友好的学习解决方案。</p>
+<p><strong>这件事情如果真的达成以后，它相对于今天教育领域的模式来讲，会有一种根本性的变化。</strong>所以我认为，这件事情的发生，对于未来教育生态的格局影响是会很大的。</p>
+<p>除了这个之外，<strong>其他的，比如各家应用AI的能力改变格局等等，从应用层面，至少是一个3到5年的周期。也就是说，有的企业整体应用和迭代AI能力的综合能力会更强，会导致这个企业显著地从经营效率、规模、口碑等方面优于其他企业。但这件事情需要的周期是3到5年。</strong></p>
+<p>就像移动互联网刚刚出来的时候，也很强大，但离诸如美团、字节这种成熟品牌的出现，中间会有一个回归周期。所以今天这个节点，最重要的是要全力拥抱这一浪潮。</p>
+<p>同时，站在教育企业的角度，核心是要以客户为中心的，真的想办法帮客户创造更好的价值，在过程中怎么能把AI这个能力利用好，不能够反过来拿着锤子找钉子，不能拿着AI去找东西。</p>
+<h2>07 小型创业公司，在某些单点、某些形态的产品上，可能获得特殊的机会</h2>
+<p><strong>多知：这种新变革的机会，是更可能出现在教育行业的创业公司方面，还是出现在现有的对AI应用更好的公司里？</strong></p>
+<p><strong>罗斌：</strong>按照我们刚才讲的逻辑推演，一个真正有效的符合客户需求的学习解决方案，是一个复杂的学习解决方案。这个复杂的解决方案的背后，需要强大的组织能力、产品能力、运营能力、技术能力来作为整体的支撑。</p>
+<p><strong>小型的创业公司，在某些单点上、在某些形态的产品上，有可能获得一波特殊的机会。但是如果回到重交付、端到端、以学习结果为导向的领域里，这里的机会对于创业公司而言，挑战还是非常大的。</strong></p>
+<p>因为至少到目前为止，教育行业本质上更接近于服务业，<strong>是人力密集型行业。这个属性没有发生根本变化之前，这种简单的通过技术改变这个行业的可能性不会发生。</strong></p>
+<p><strong>但是如果到某一天，AI特别强大，在各种维度上都很强，有没有可能把它们组合在一起能够产生完全有别于当下的业态的可能性呢？不能完全否定这种可能性。这就意味着，教育行业的iPhone时刻发生了，那就是另外一种逻辑了。但是这件事情是不会在很短的时间里发生。</strong>比如3-5年，甚至5年以上的周期，有没有可能？不排除。但在那个时间点，当下这些教育头部企业也在快速进行迭代，到那个时候他们的能力也不一定亚于新型的创业公司。</p>
+<p>所以，一个是基于行业领域的能力，另外一个是基于更加强大的新型生产力，这二者之间到底哪个带来的影响会更大？中间会是什么样的结合和演进方式？</p>
+<p>今天，这一切都是未知的，大家都在快速往前奔跑。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3165866538380039</guid><pubDate>Sat, 15 Feb 2025 10:56:00 +0800</pubDate></item><item><title>再见爱人，再见爱情</title><link>https://36kr.com/p/3165839267261192</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>本文来自微信公众号  <a href="https://mp.weixin.qq.com/s?__biz=MjM5ODMzMDMyMw==&amp;mid=2654817023&amp;idx=1&amp;sn=e830921f44e4661cafe12ef555d95bd9&amp;chksm=bc57d91f6e84b2418fedfc34907a265e4b66a470715fdac1d8e61398b3b92443648f3d84b340&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“新周刊”（ID：new-weekly）</a>，作者：苏炜、桃子酱，36氪经授权发布。</p>
+<p>作者 | 苏炜、桃子酱    </p>
+<p>编辑 | Felicia、L  </p>
+<p>“从前的日色变得慢/车，马，邮件都慢/一生只够爱一个人。”在木心写下这句小诗40多年后，它依然是中国人最爱的网络座右铭之一。哪怕那个一切都慢的时代早已经遥远得看不见踪影，人们还是愿意朦朦胧胧地怀念。</p>
+<p>不过，喜欢归喜欢，“一生只够爱一个人”终究太不近人情。时间来到2025年，我们周遭的情情爱爱，终于也像短视频一样按下倍速播放键，聚散分合背后，清楚地写着实惠、效率和自我——</p>
+<p>所谓实惠，就是遵循等价交换原则，尽量摒除非理性元素。有数据显示，中国适龄单身人口已经突破2亿人，其中男性人数过半。在荷尔蒙和社会现实的双重推动下，相亲这一曾经被青年群体厌烦的古老模式，再度流行，甚至有人开始反向催婚：催着长辈替自己寻觅相亲对象。</p>
+<p>所谓效率，就是以快打快，不浪费彼此的时间。各种各样的线上交友软件，是效率最大化的极致体现，手指滑动屏幕，几秒之内，凭借头像、个人信息甚至自身没来由的好恶作出判断。不知道能否转角遇到爱，那就多转几个街角，至于擦肩而过的芸芸众生，就永远相忘于江湖了。</p>
+<p>所谓自我，更是无从解释，全凭感觉。根据一款青年交友软件给出的年度数据，近四分之一的年轻人没有无话不谈的朋友，习惯了独来独往。在这种“超单身结构”之下，每个人的思考和行为逻辑都是相当个性的。而个性，往往就是爱情的天敌。于是，在另一项统计中，过半年轻人理所当然地表示，要不要开始一段爱情，要不要与线上搭子保持联系，要“看心情”。</p>
+<p>2024年12月，琼瑶选择用一种优雅的方式，翩然而去。更早之前的几个月，根据亦舒于1981年写的同名小说改编的电视剧《玫瑰的故事》热播，几乎成为年度爱情剧。两相对照，掀起一阵爱情讨论：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_6b90644716d247be8b13145cb092ecc2@000000_oswg84458oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《玫瑰的故事》）</p>
+<p>琼瑶和亦舒是两代作家，都写爱情，但风格全然不同。琼瑶笔下的爱情，更像五四精神和中国传统的结合，唯美、珍贵、神圣，独一无二，不可或缺，所有人物的喜乐悲欢，都是为了找到那个“唯一正确的人”；亦舒笔下的爱情，来到都市时代，“爱自己”成为最关键的主题，过尽千帆，经历了形形色色的伴侣，也要保持爱自己，那是“大女主”的雏形。</p>
+<p>今时今日，我们更进一步，走进工业化的爱情时代。线上交友、线下dating，一切顺其自然。各种平台和商家也准备好了周到的爱情服务，可复制、可定制、可预制。玫瑰色的货架上，产品琳琅满目，任人挑选。有了大数据的加持，找到任何人只是时间问题——尽管我们早就不再执着于“唯一正确的人”。</p>
+<p>爱也可，不爱也可，有爱一个人的自由，也有爱另一个人的自由，更有坦诚爱意消失的自由。爱情不再是必需品，但也不必躲着走，它是生活的调剂，是人生中可以享受的一部分。就像电影《好东西》中的那个比喻：爱情可以是“课间十分钟”，轻快、松弛，没有负担，放下一切沉重的包袱，体验就好。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_80e6b25610b0463bb09fa1ff85a6b460@000000_oswg64654oswg1080oswg458_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《好东西》）</p>
+<p>回望“琼瑶”们的时代，惋惜但不留恋；看看眼下的情爱世界，不够深刻却自由自在。活在当下，一生够爱许多人，也没什么不好的。</p>
+<h2><strong>年度爱情家：琼瑶</strong></h2>
+<p>2024年12月4日离世的琼瑶，毕生都在打造爱情宇宙，是一代又一代人的爱情启蒙者。琼瑶说过，她写的不是完美的爱情，而是深刻的爱情。于她而言，爱情不是孤立的，而是承载了自由、抗争、友情、个人成长等多种元素。读者不能仅从她的作品中学会爱，也学会如何做一个完整的人。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_aa5a0ccbd4054dd0be5b7d1f6cff0297@000000_oswg70308oswg1080oswg758_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《还珠格格第三部》）</p>
+<p>如今，人们对爱情的理解发生了变化。在全身心投入一段恋爱、代价是丧失一定主体性与享受爱情“代餐”（比如追星、嗑CP）、不all in也就不会受伤害之间，人们往往选择后者。就像作家韩松落所说：“大家都越来越像一个程序，程序还需要什么爱情呢？”</p>
+<p>但人不应该是程序。琼瑶笔下那种男女双方作为个体互相吸引、跃跃欲试投入人生新冒险的浪漫主义爱情，也不应该失传。</p>
+<h2><strong>年度表白：“我清楚地看见你”</strong></h2>
+<p>“哈萨克文化里，人与人之间产生友情或者爱情，是由于被看见。所以，在哈萨克语中，‘我喜欢你’，意思是‘我清楚地看见你’。”电视剧《我的阿勒泰》的这段台词，让“我清楚地看见你”被观众视为最浪漫的情话。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_6052c7ba03b64f598e21540d30eb17ca@000000_oswg81089oswg1080oswg426_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《我的阿勒泰》）</p>
+<p>巧合的是，在恋爱类综艺《心动的信号7》中，哈萨克斯坦籍嘉宾芈迭也提及这一说法。随着节目的播出，这个说法持续破圈。歌手许嵩在巡回演唱会温州站上以此向歌迷表白：“我可以清楚地看见你们。”许嵩还这样表示：“笑什么，我不配看恋综吗？什么都看只会让我的营养更均衡。”</p>
+<h2><strong>年度女性形象：Single Lady</strong></h2>
+<p>在总结2024年女性影像时，学者毛尖说：“全球都在搞Single Lady，大洋彼岸的黄阿丽在表演Single Lady，我们的Single Lady也在四面出击。从（2024年）年初的《热辣滚烫》，到春天的《我的阿勒泰》、秋天的《出走的决心》、冬天的《好东西》，人物各个不同，但女主个个爆款。”也因此，毛尖将2024年称为“女性给自己松绑的一年”。</p>
+<h2><strong>年度“嗑学”：预制CP</strong></h2>
+<p>一个合格的“嗑（糖）学家”，善于在影视剧、恋爱类综艺甚至职场类综艺中锚定CP，拿着放大镜找糖。以剧集为例，2024年涌现了“行影不璃”（《与凤行》）、“菲长萧张”（《墨雨云间》）、“妙趣横声”（《永夜星河》）、“昭昭墨墨”（《九重紫》）、“卧龙凤雏”（《小巷人家》）等爆款CP。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_a909bd5599f64384b77025f0ae1cc2b6@000000_oswg167589oswg1080oswg1019_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《九重紫》）</p>
+<p>如今，CP界日渐“内卷”，剧方会主动给观众送上“预制”糖——花絮露出、积极“埋线”、CP“合体营业”（包括且不限于采访、直播、上综艺，有些CP甚至有衍生综艺），已经成为套路化操作。只是，“工业糖精”容易齁人，“嗑学家”还是更倾向于嗑真情实感的糖。</p>
+<h2><strong>年度难评：麦学</strong></h2>
+<p>热度已经达到现象级，但依然难评，这是很多人对《再见爱人4》中嘉宾的观感。其中，麦琳更是被全方位观看、关注，并形成“麦学”。</p>
+<p>所谓“真人秀”，重点是“秀”，而不是“真人”。即便嘉宾被几十个机位24小时贴身跟拍，我们能看见的也只是其人某一时期的人生切片。有论者指出，任何人（比如麦琳）都不至于被妖魔化，观众需要做的是：独立思考，保持冷静；就事论事，以人为鉴，反思并提升自己。</p>
+<h2><strong>年度意难平：《致光之君》</strong></h2>
+<p>NHK大河剧《致光之君》其实算不上一部爱情故事，而更像人物传记片。其主旨是：即便在以男性文化为中心的平安时代，像《源氏物语》作者紫式部这样的女子，一样可以闪闪发光。</p>
+<p>紫式部与权臣藤原道长贯穿一生的感情纠葛，是该剧看点之一。因为身份差距，两人无法成婚，关系则逐渐升华为灵魂伴侣。剧集尾声，道长病重，紫式部给他打气，希望他好好活下去：“只要道长大人活着，我就能有活下去的动力。”道长临死时，留下了一句“我要先走一步了”。这是中年人的爱情，年轻时一度意难平，有历练后释然，最终达成灵魂的共舞。</p>
+<h2><strong>年度爱情真相：《坠落的审判》</strong></h2>
+<p>“没有谁的生活经得起这样的审判。”有评论称，《坠落的审判》导演兼编剧茹斯汀·特里耶用一种类似希区柯克的手法，将“爱情”拍得好似一场谋杀。影片将一个失衡的家庭——强势的妻子，不满的丈夫，迷茫的孩子——通过公开审判向大众展示，以讨论爱情、婚姻乃至家庭的本质。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_9766dc7999bd4bbdba7b69bf533e0415@000000_oswg66007oswg1080oswg583_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《坠落的审判》）</p>
+<h2><strong>年度翻红爱情小说：《白夜》</strong></h2>
+<p>因为BookTok的推动，出版于100多年前的《白夜》意外翻红。在2024年英国翻译文学作品畅销榜上，《白夜》排第四位。人们在社交媒体上谈论这个美丽的爱情故事，一条被大量转发的推文写道：“每个人都想坠入爱河，然后他们读了陀思妥耶夫斯基的《白夜》。”</p>
+<h2><strong>年度怀念：“你还好吗？我很好！”</strong></h2>
+<p>《情书》是很多人每年冬天必看的电影。2024年12月6日，《情书》女主角扮演者中山美穗的猝逝，让“你还好吗？我很好！”这句经典台词刷屏。正如曾出演《情书》的柏原崇所说，这句台词“曾经触动无数人的心灵”。</p>
+<h2><strong>年度“男主角”：陈丽君</strong></h2>
+<p>越剧演员陈丽君凭借在《新龙门客栈》中贾廷一角，在首届“电影中国”戏曲电影大展中被评为“最佳男主角”。陈丽君被粉丝称为“老公姐”——“老公不是一种性别，而是一种感觉。”</p>
+<h2><strong>年度约会方式：相亲</strong></h2>
+<p>DatingAdvice.com针对502位18—27岁受访者的调查显示，这届美国年轻人希望在现实中寻找真爱（男性92.86%/女性87.6%）。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_823f0e85dc834d09a5f62d3c8169fd96@000000_oswg77931oswg1080oswg705_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《我的人间烟火》）</p>
+<p>结识异性最受欢迎的方式是由他人安排的约会，比如相亲（男性20.24%，女性13.20%）；其次是“为某个目标挺身而出”，比如参加集会（男性19.05%，女性14.40%）。专家认为，参加集会也是一种筛选机制，可以帮助人们精准地找到价值观相符的伙伴。</p>
+<h2><strong>年度催生奇招：在办公室放宝宝萌照</strong></h2>
+<p>2024年11月，香港立法会讨论鼓励生育政策，立法会议员邓家彪提议，可在政府办公室贴上BB相（即婴儿照片），以可爱氛围鼓励公务员生育。</p>
+<p>据联合国人口基金发布的《2023年世界人口状况》报告，中国香港2023年的总和生育率仅为0.8，属全球最低。为此，香港特区政府于2023年推出“新生婴儿奖励金”政策。有学者指出，奖励金并非鼓励生育的有效政策，“市民社会归属感才重要”。</p>
+<h2><strong>年度浪漫桥段：家务蒙太奇</strong></h2>
+<p>电影《好东西》中，小叶录下王铁梅做家务的声音，放给王茉莉听。这段声音蒙太奇被视为2024年国产电影中最具浪漫色彩、最诗意的片段之一：煎鸡蛋是下暴雨，择菜是熊猫吃竹子，在阳台抖晾衣服是地震，吸尘器开动是龙卷风，洗鞋子是海豚跳进大海……</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_c34e080e8b3b4783926c156aeff12153@000000_oswg48752oswg992oswg594_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《好东西》）</p>
+<p>“一直被社会所忽视的女性劳作原来是如此庞大、磅礴、壮观又生动的存在。这样的浪漫场景不是只能发生在两性之间，它超越了性缘关系，指向的是人与人之间更深度、更紧密的联结与理解。”情感博主@燃烧的雾港水手 评论道。</p>
+<h2><strong>年度清醒发言：“你不必满足我的期待”</strong></h2>
+<p>电视剧《大巴上的女孩》中的女记者格蕾丝，贡献了一段精彩的台词：“事业是我的孩子，我努力了一生就是为了不让别人仅记住我是个妈妈。我的团队拿了三次普利策奖，等我死了，我的事业会是我讣闻的开头，而你，我的孩子，你排在最后。我不知道你现在能不能理解，但这是个好事。你的生命属于你自己，你不必满足我的期待。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_c07d524bf7a642d8b90b2ec4827024b6@000000_oswg61878oswg1080oswg747_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《大巴上的女孩》）</p>
+<h2><strong>年度电子恋爱：《恋与深空》</strong></h2>
+<p>现实是“此处”，虚拟世界是“别处”。与《恋与深空》中的“电子爱人”展开一场突破次元壁的恋爱，让女性玩家在代入的过程中抵达“别处”，而暂时逃离“此处”。</p>
+<p>有论者指出，《恋与制作人》《恋与深空》等乙女游戏的诞生，标志着游戏产业开始关注女性的需求——从经济独立到精神层面的满足、对理想伴侣的向往、追求个人价值认同、控制自己的命运。在游戏营造的虚拟世界中，女性玩家找到了表达欲望和情感的空间。可以说，年轻人正在重新定义“恋爱”：跟“电子爱人”相恋，怎么就不能叫恋爱呢？</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250214/v2_ff31fa5e8fa0472eae8b52cafe4baa21@000000_oswg31260oswg1080oswg565_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图/《恋与深空》游戏截图）</p>
+<h2><strong>年度搭子：陪伴型AI</strong></h2>
+<p>电影Her中人与AI相依相恋的故事，在ChatGPT等强AI出现后，似乎将成为现实：我们有了AI助手、AI陪聊、AI心理咨询、AI男友/女友……腾讯研究院的调查显示，98%的受访者会考虑使用陪伴型AI，而有44%的受访者对AI男友/女友感兴趣。</p>
+<p>腾讯研究院相关报告指出，AI男友/女友并不会取代现实中的亲密关系，而更像使用者对亲密关系的一种探索或练习。有受访者表示：“对我这种‘母单’来说，使用虚拟男友练习一下恋爱总比在社交软件上找陌生人要安全，不会遇到‘杀猪盘’。”</p>
+<p><strong>运营/排版：嘻嘻</strong></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3165839267261192</guid><pubDate>Sat, 15 Feb 2025 10:58:00 +0800</pubDate></item></channel></rss>
