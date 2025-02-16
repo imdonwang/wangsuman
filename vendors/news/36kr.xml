@@ -1,51 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 16 Feb 2025 10:00:21 +0800</lastBuildDate><pubDate>Sun, 16 Feb 2025 10:00:21 +0800</pubDate><item><title>测试过微信官方支持的 DeepSeek R1 后，我搞明白腾讯要怎么押注 AI 应用了</title><link>https://36kr.com/p/3168345528494857</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>作者 | 张勇毅</strong></p>
-<p>微信自 2011 年推出以来，一直以创始人张小龙的「克制」而闻名，不会为了「风口」而改变微信本身。甚至今天你刷朋友圈的体验，都与十年前朋友圈刚刚诞生时没有本质的区别。</p>
-<p><strong>「张小龙觉得对这个功能自己最满意的地方之一，就是一经发布几乎没有改进余地而稳定运行了十年。」</strong>极客公园创始人张鹏在与张小龙对话后，这样总结微信的产品逻辑。这一点在微信成为真正意义上的「国民社交 App」之后，也没有发生改变。</p>
-<p>而在 DeepSeek R1 发布后，这些标签就像面具一样，被微信团队自己猛然撕下：北京时间 2 月 15 日晚间，陆续有用户发现，在自己的微信搜索中，出现了整合了 DeepSeek R1 的「AI 搜索」功能——<strong>此时距离在 1 月 20 日 DeepSeek 正式发布并开源 R1，还不到一个月时间。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250216/v2_8d305ec8a08041028102a82f70e2d41c@000000_oswg17082oswg1080oswg926_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">在微信搜索界面中，就能看到 AI 搜索按钮 | 图片来源：极客公园</p>
-<p>对于收到本次更新的用户，在微信主页顶部的搜索栏中点进去，就能在搜索记录下方看到一个「AI 搜索」的按钮，点击进去，其中就能看到这个功能提供的两个回答模型能力选项。第一个名为「快速回答」，第二个就是由开源的 DeepSeek R1 驱动的「深度思考」模式。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250216/v2_c97e9f6f510a4d61b9b2cfb8395face6@000000_oswg30568oswg1080oswg932_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">共有两个模型选项，其中第二个才是由 DeepSeek R1 驱动的版本 | 图片来源：极客公园</p>
-<p>值得一提的是，虽然本次为只有部分用户收到的灰度更新，但从推送范围以及收到的更新的用户分布广度来看，本次更新的推送速度相比近期微信的 Callkit 等同样经历过灰度的功能更新，推广速度要快许多。从最早的爆料出现，到首批收到推送的用户大规模出现，仅用了不到六个小时。彻底颠覆了过去数年微信功能更新给人「保守」的印象。</p>
-<p>本次更新并不绑定软件本身的版本号，因此无需你从 App Store 或其他应用商店更新微信版本，笔者自己则是在手动清除掉手机的微信后台、重新启动后，就发现了这个入口。</p>
-<p>换言之，如果你手机上的微信当前还没有收到这个更新，也不用太着急——你微信中的 DeepSeek R1 入口其实已经隐藏在代码之中，测试资格或许马上就到。</p>
-<p>从功能附带的开源与鸣谢声明能看出，微信中内置的 DeepSeek R1 基于开源版本构建而来，但<strong>其中并未明确提及其使用的模型体积，是否是 671B 的「满血」R1 版本。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250216/v2_fa0ca86711f040fdbb173f09013a704e@000000_oswg128165oswg1080oswg1065_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">微信「AI 搜索」功能的开源声明页 | 图片来源：极客公园</p>
-<p>众所周知，包括公众号/视频号在内的微信内容生态长期以来一直是独立于各大搜索引擎的一个「孤岛」，这个情况在 ChatGPT4o 等联网语言模式问世之后也没有得到相关的改善，因此测试上微信内置的 R1，我最兴奋的就是它是不是终于可以，在微信内容平台的海洋中，使用大模型的能力自由翱翔了？</p>
-<p>很遗憾，在目前的实际的测试中，答案是否定的。</p>
-<p>例如，我尝试了将公众号的微信推文链接喂给它，它也无法检索微信平台中的相关信息，只能根据链接中相关的字段在微信公众平台之外的互联网上搜索相关的内容，甚至有些时候它都无法识别到这是一篇来自微信公众号文章的链接。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250216/v2_6f27e55551cf446681f63e6491c91668@000000_oswg218564oswg1080oswg2341_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">当前版本的 AI 搜索，还不能识别微信内容的链接 | 图片来源：极客公园</p>
-<p>在其他涉及到微信公众号相关的问题中，虽然 AI 搜索能够依据文章搜索以及 R1 的推理能力给出相对准确的回复，但其内容的来源更接近微信公众号在其他平台分发得出的结果，而非对微信内容平台自身结果的引用。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250216/v2_252b5407994040628bae7affb6100917@000000_oswg271375oswg1080oswg1897_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">针对微信平台内容的回答，更多是基于互联网现有内容整合而来 | 图片来源：极客公园</p>
-<p>目前来看，<strong>微信内置的 R1 并未针对微信平台内的内容进行检索增强生成（RAG），对输出结果进行优化。</strong></p>
-<p>这既是当前阶段内测版本微信 AI 搜索的明显短板，也是短期内微信整合 AI 功能显而易见的重要更新方向之一。</p>
-<p>总体体验来讲，目前的微信 AI 搜索体验也非常轻量级。不仅不支持连续对话，也不支持上传各种文件内容辅助提问与搜索，甚至在你退出聊天界面后，当前的对话记忆内容也会被直接销毁，不支持保留。</p>
-<p>作为「国民应用」的微信，在 DeepSeek R1 正式发布并开源的不到一个月时间内，就在应用内整合了入口，这无疑是一件让人振奋的事。</p>
-<p>之所以让人振奋，是因为微信在做的事，只有少数厂商能做到。</p>
-<p>在对话生成式模型拥有手机端 App 之后，抢占智能手机桌面的入口，已经是包括 ChatGPT、Perplexity 等很多 AI 应用在做的事情，通过设置其成为默认语音助理的方式，将「入口控制权」尽可能从手机品牌那里抢夺。</p>
-<p>但对于微信这样相对封闭的平台来讲，能依托微信现有的庞大中文内容生态，做并且能做好这件事的，目前看来似乎只有微信团队自己。</p>
-<p>从「极端保守」到如今成为了率先加入 DeepSeek 的聊天应用。这样的明显的改变，只有一种合理解释：微信团队认识到了 DeepSeek R1 所代表的推理模型在微信平台中应用的巨大潜力，并决定快速下场，来成为这场改变浪潮的主导者，确保微信的使用体验不落于其他竞争者。</p>
-<p>这已经不是微信团队第一次在 AI 大模型领域出手，微信输入法曾在去年六月加入「一键 AI 问答」功能，用于让用户在微信输入法内实现语言大模型的内容回答。</p>
-<p>但彼时这个功能是基于腾讯自家的混元 AI 大模型实现，并不能充当文本生成工具。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250216/v2_cf8c11f68ffd45c0a7fbf8be209bb2db@000000_oswg24907oswg1080oswg956_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">微信输入法中现有的「问 AI」功能 | 图片来源：极客公园</p>
-<p>从体验上来讲，微信输入法适合各种聊天中的「灵光一现」问题，微信本体的 AI 搜索，有很大可能将会聚焦在微信现有内容生态内，借助用户聊天内容以及微信公众号等平台，深度挖掘其中的应用场景。</p>
-<p>这样的「分布式」的 AI 能力体验，倒是与 Apple Intelligence 的产品思路有异曲同工之妙：在去年苹果发布的 Apple Intelligence 能力中，苹果并没有颠覆性的拿出另一个能力震惊世界的模型，而是选择借助 ChatGPT 这样现有的模型，将模型能力嵌入在包括笔记、照片以及输入法等手机生态的各个角落。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250216/v2_2c14641a132a45aeb4a1e9c4fc032d04@000000_oswg59323oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">苹果 Apple Intelligence「散落」在各个应用中的 AI 能力 | 图片来源：极客公园</p>
-<p>表面上，Apple Intelligence 似乎不如同期 Google、OPPO 这样同样在发力手机 AI 应用的厂商来的更加聪慧，但苹果实际上在做的，却让 AI 尽可能「悄无声息」地加入用户生活，并借助能力给用户更多的使用场景带来改变。</p>
-<p>从这一点上来看，虽然没有手机操作系统的腾讯，在移动互联网时代错失了最重要的入口之一，但微信作为如今重要的沟通平台，却成为了「让 AI 真正普及」过程中不可或缺的重要一环。</p>
-<p>在中国，上至百岁老人、下至刚刚学会用智能手机的孩童，都已经对微信有了最基础的使用概念，这些功能中，同样也是最适合 AI 能力去进一步做「润滑」、降低 AI 学习成本的关键所在。</p>
-<p>对于已经走过爆发点的生成式 AI 来讲，如今通过探索 AI 应用的普及，从而让 AI 能力在更多用户的长期使用中「产生质变」，才是微信 AI 真正值得我们期待的未来。</p>
-<p>甚至当下我们就已经可以下定论：<strong>微信中的 AI 能力，或许不会是最让人兴奋的那个，但它却有最大的机会真正去「改变世界」。</strong></p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653073845&amp;idx=1&amp;sn=c121fceda50da70f013b98004f543dba&amp;chksm=7fe74f3bb8c285029b67196c27d49fa21d349123ad8088ac441b373ab5226b559524928f221e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“极客公园”（ID：geekpark）</a>，作者：张勇毅，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3168345528494857</guid><pubDate>Sun, 16 Feb 2025 09:05:00 +0800</pubDate></item><item><title>抖音“罪人”，涌入视频号</title><link>https://36kr.com/p/3167338663357188</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Sun, 16 Feb 2025 10:30:21 +0800</lastBuildDate><pubDate>Sun, 16 Feb 2025 10:30:21 +0800</pubDate><item><title>抖音“罪人”，涌入视频号</title><link>https://36kr.com/p/3167338663357188</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>被抖音驱逐后，视频号成了张兰们的避难所。</p>
 <p>2月8日，被抖音封禁账号当晚，张兰紧急转战视频号直播，不过该直播间很快被关闭。自被抖音封禁以来，张兰暂停运营全平台的个人账号——除了视频号。情人节当天，她还在视频号“张兰俏江南创始人”上发布了一条唱歌视频：“好想见一面，哪怕只一眼。”</p>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250215/v2_35724c317ba84ce8a83298141bafef22@000000_oswg154851oswg1080oswg1752_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
@@ -663,4 +617,90 @@
 <p>不过我现在觉得，即便赌失败了也没什么，大不了回家一个人做独立游戏。而当我想通到这一点的时候，我就再也不焦虑了。</p>
 <p>现在《铸仙之境》已经运营了一个多月了，从结果来看，我们是亏了钱，也吃了很多苦，但是我却感到了前所未有的安心。因为越来越稳定的数据也好，触底反弹的玩家评价也罢，都让我意识到我们走在一条正确的路上，只是在这条路上犯了一些低级的错误。这就足够了，不用考虑放弃了，整装再出发吧。</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5OTc2ODUxMw==&amp;mid=2649957968&amp;idx=1&amp;sn=8c8190983d2cc38bb7c80fd0df91772e&amp;chksm=bee9f72fa9e0d1ebd648a41d577c450786ba177e01390a43902d3d2da7602ed5773b0ccf1893&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“游戏葡萄”（ID：youxiputao）</a>，作者：游戏葡萄君，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3167655783262977</guid><pubDate>Sun, 16 Feb 2025 09:52:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3167655783262977</guid><pubDate>Sun, 16 Feb 2025 09:52:00 +0800</pubDate></item><item><title>在情人节排队7小时抢老铺黄金，值吗？</title><link>https://36kr.com/p/3168650636962565</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<h2><strong>排队7小时，选购20分钟</strong></h2>
+<p>我从未想过我会为了买什么东西排队整整7个小时，只比8小时工作时长少1小时，却比工作累多了。</p>
+<p>2月14日的情人节早上，我早起来到了位于北京大望路上的SKP——中国最高端的商场，<strong>目标是最近消费圈的顶流，老铺黄金。</strong></p>
+<p>从春节到情人节，成立于2016年的黄金品牌老铺黄金，频频因为夸张的排队和抢购热潮，登上社交媒体头条。人们一边称赞它的工艺精美，款式独特，一边诟病它的昂贵，<strong>“一口价”的定价方式远高于周大福、周生生等老牌金饰品牌。</strong></p>
+<p><strong>另一个背景是，2024年一整年金价持续上涨。</strong>到2025年春节，2月金价再次大幅上涨，2月10日国内足金饰品价格突破每克873元，较1月1日的799元上涨74元，涨幅超过9%。<strong>而到2月14日情人节当天，黄金饰品的价格已经达到每克890元。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,586" src="https://img.36krcdn.com/hsossms/20250216/v2_09eabd5ef4414679aa6d21be89f6d767@576620215_oswg88585oswg1080oswg586_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在原本就“买涨不买跌”的普遍情绪里，偏偏SKP商场和老铺黄金的优惠活动撞到了一起，SKP推出品牌日10倍积分活动，2月7日-2月14日在SKP品牌专柜消费，享受10倍积分（积分可以兑换成礼金再次消费时使用），且老铺黄金本身可以消费1000返50。<strong>精明的消费者一算，两种优惠叠加可以低到8.75折，购买热情瞬间被点燃。</strong></p>
+<p>我是在情人节当天10:10到达SKP商场的，只比开门时间晚了10分钟。杀到一楼的老铺黄金专柜，发现已经乌泱泱围满了人，身穿黑色制服的工作人员和保安用围挡把顾客圈在了西门入口处，人群被来回折叠成N个S型，<strong>我数了下足足有8排，每排10-12个人，店内已经聚集了将近100人排队。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,809" src="https://img.36krcdn.com/hsossms/20250216/v2_e9ea417b2b83465c8a63319c7cc5b35c@576620215_oswg113420oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 2月14日早上10:10，一楼老铺黄金的排队情况</p>
+<p>据传有人凌晨四点就来排队了。小红书上有人调侃：<strong>“消费100万的和消费1万的同等待遇：都得等。”</strong>有不少“排队老手”自带省力小板凳，排到哪坐到哪，而一位姐姐甚至还在嘈杂中看起了书。</p>
+<p class="image-wrapper"><img data-img-size-val="959,1280" src="https://img.36krcdn.com/hsossms/20250216/v2_c128534f24c743c29ee1f2894b5cd414@576620215_oswg149213oswg959oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="959,1280" src="https://img.36krcdn.com/hsossms/20250216/v2_ca2531eb767642d28abde71d1b0443f1@576620215_oswg254412oswg959oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 左图：一位女士自带板凳，在队伍中看起了书。右图：我在SKP室外开始排队，前面有100多人等候。每五个人为一组进入柜台，平均每组选购时间20分钟。</p>
+<p>我因为晚到了10分钟，只能排到了SKP店外，在4°C的北京早晨，等待一个进店的机会。</p>
+<p>在我所在队伍的几步之遥，是另一处长队，排的是SKP负一层的另一家老铺黄金。虽然叫“老铺”，但其实老铺黄金成立时间并不长。<strong>2016年正式成立公司，2024年6月成功在香港上市。截至目前共有38家门店，全部直营。</strong></p>
+<p>在北京SKP的两家门店，负一层看着比较像正式店面，有一个写着“老铺黄金”的门头，能看出中式书房的设计元素，纯黑色调透着一股“中式老钱风”。但一楼的店面单纯由几个专柜组成，简单得似乎是个快闪店，<strong>无形中也在push着每一个顾客：赶紧买，买完赶紧闪。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="959,1280" src="https://img.36krcdn.com/hsossms/20250216/v2_ac47a5e66b2a4895863a6988940e4081@576620215_oswg186546oswg959oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● SKP一楼的老铺黄金店面</p>
+<p class="image-wrapper"><img data-img-size-val="1080,685" src="https://img.36krcdn.com/hsossms/20250216/v2_d5e370c6ee9f4e049f1df3a4c419e05c@576620215_oswg800680oswg1080oswg685_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● SKP负一层拥有门头的老铺黄金</p>
+<h2><strong>到底谁在排队买老铺黄金？</strong></h2>
+<p>决定来老铺黄金排队，除了好奇为什么这么火爆，<strong>还有一个问题是，到底谁在买？</strong></p>
+<p>排进SKP店内的队伍之后，我仔细观察了周边一起排队的“队友”们，<strong>100人中有差不多三分之二是女性，年龄看上去大多30+。</strong>打眼望去男性也并不少，多是陪伴侣或者直接替伴侣来排队的。</p>
+<p>用美女如云来形容队伍里的女人们并不过分，美且贵气。<strong>几乎有一半都佩戴着金饰，仔细一看，正是老铺黄金的经典吊坠。</strong>色泽莹润的点钻葫芦，镶满细碎钻石的十字金刚杵（藏传佛教密宗中的一种重要法器），还有象征真爱永恒的玫瑰花窗。<strong>再看她们的包包，LV、DIOR、GUCCI等大牌包多不胜数。</strong></p>
+<p>很多人是在活动期间第二次来买了。排在我前面的一位长卷发女士告诉我，几天前她刚刚在SKP的老铺黄金买了满减后6.8万的首饰（原价约71550元），其中包括一只素金的手镯。<strong>支付后她又私下找了黄牛，把SKP的积分换给黄牛后，她实际只花了6.3万。相比于最初的原价打了8.8折。</strong>因为消费超过5万元，她还得到了一条老铺赠送的羊绒围巾。二战老铺黄金的她这次想看看其他款式，尤其想买手串。</p>
+<p class="image-wrapper"><img data-img-size-val="445,430" src="https://img.36krcdn.com/hsossms/20250216/v2_4b73cadeda984c02a338fc737bc4ff77@576620215_oswg75796oswg445oswg430_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="425,414" src="https://img.36krcdn.com/hsossms/20250216/v2_4f7c1305be5549b0a68f7e8035a0813d@576620215_oswg36609oswg425oswg414_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="441,432" src="https://img.36krcdn.com/hsossms/20250216/v2_07effd726b834bc9a34fbfcaa5a47bda@576620215_oswg38061oswg441oswg432_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 玫瑰花窗、点钻葫芦、点钻手链都是老铺黄金热门款式</p>
+<p>她前面的女孩正好买了她手上镯子的同款加钻款，她看对方晃了晃镯子，“好闪啊！”她情不自禁地说，“不过素金不带钻的更划算。”加钻款要比纯金款贵一万多。</p>
+<p><strong>眼看着排队已经超过三小时，老铺黄金开始发放面包午餐和橙汁，还有持续不断的夹心巧克力。</strong>情人节的午餐，我居然是站着和100多位黄金信徒们一起吃完的，边吃女人们边凑在一块聊起来，话题当然离不开怎么买老铺才划算的问题。</p>
+<p class="image-wrapper"><img data-img-size-val="960,1280" src="https://img.36krcdn.com/hsossms/20250216/v2_cb37c9ef2f03493c91daf011135fb9c6@576620215_oswg236242oswg960oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 老铺工作人员开始给排队的人送午餐</p>
+<p><strong>女人们的一个共识是，买素金的比镶钻的要更保值。</strong>以老铺黄金热销款式的葫芦为例，素金款葫芦按这次SKP的最大优惠来算，克价在886元。而钻石款葫芦克价达到1339元。这意味着，如果有一天按照金价回收，钻石款是不划算的。</p>
+<p>但谁又能拒绝闪闪耀眼带来的诱惑呢？在大多数老铺黄金的种草贴里，提到最多的就是“太闪了，想拥有”。老铺黄金这次的设计出圈，一方面是大力宣传的“古法金”传统技术，所谓古法黄金，指的是一系列传统金饰加工技术的总称，包括镂空、花丝、镶嵌和烧蓝等等。<strong>过去纯金的饰品总给人土气暴发户的感觉，而加了钻石的金饰，仿佛重新开了光，变成了女人们心中新的时尚。</strong></p>
+<p>“你要买老铺肯定冲着它的工艺来的对吧，那肯定买它最彰显工艺的款，买的就是自己喜欢。”<strong>讨论到后面，女人们承认，愿意为自己的喜欢多付出一点溢价。</strong></p>
+<h2><strong>被追捧的“一口价”浪潮</strong></h2>
+<p>排队的间隙借着上厕所的机会，我去逛了下负一层的周大福和潮宏基。排队的人挤在周大福门口，我问保安，周大福也要排队？“<strong>不用，那是排老铺黄金的，周大福随便进。”</strong></p>
+<p class="image-wrapper"><img data-img-size-val="959,1280" src="https://img.36krcdn.com/hsossms/20250216/v2_87f0b41f6c3c472ea4ab42d5b5639fc3@576620215_oswg147254oswg959oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 周大福在老铺黄金的对比之下，冷冷清清</p>
+<p>店里明晃晃摆着今日金价的牌子：黄金饰品890元每克（工费另计）。<strong>但有趣的是，周大福和潮宏基的大部分金饰也都开始一口价售卖了。</strong>周大福的柜姐拿出一条罗盘型的足金钻石项链给我看，原价32600元，属于周大福工艺广受称赞的传承系列。店内现在的优惠是九五折，柜姐直言不讳，“找黄牛换积分可以再打个92折。”</p>
+<p>按她的最终算法，这条克重18.05的项链最后的价格是28492元。<strong>打眼看上去，工艺和老铺黄金一样精美，但价格也并没有比老铺便宜。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="959,1280" src="https://img.36krcdn.com/hsossms/20250216/v2_e708996b4f1d4021b8331db96bfc3ff0@576620215_oswg180947oswg959oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 我在周大福看的这款足金钻石项链</p>
+<p><strong>这似乎是一个新趋势，传统金饰行业论斤卖货的模式正在改变</strong>，过去消费者购买金饰往往都会参考金价加工本费，如果加价多了会觉得不划算。但镶钻金饰的单克价格往往远超金价，让计算单克价格变得失去了意义。<strong>这对行业的影响是，品牌不再只是赚个工本费，产品设计和工艺带来的溢价空间大大提升了品牌的毛利率。</strong>据悉老铺黄金的毛利率远高于同行，达到了40%以上。</p>
+<h2><strong>让价格敏感者们下单的动力</strong></h2>
+<p>回到队伍里，女人们已经在讨论找黄牛兑换积分的具体流程。一位排得靠前的大哥直接在队伍里开价，“可以交换排队位置，并给到9折。”“队友”们面面相觑，没人回应。<strong>在这个寸步不让的消费战场上，9折还远算不上一个有利条件，都已经奔着排队七小时来了，肯定要拿到最低价。</strong>对于那些大额消费者，哪怕只是0.1的折扣，都可以差出上千块钱。</p>
+<p>于是我听到了位于水下的隐秘交易：<strong>老铺的柜台边和女人们的手机里，都潜伏着不少“投机的人”，</strong>只要结账时你把这笔消费的SKP积分和老铺积分填报在他们的账户名下，就可以按照8.75折拿到它们的返现。</p>
+<p>俗称“拿积分换钱”，对于许多从外地赶来的人，没人想要SKP的积分，“还不知道下一次消费是啥时候，”当然是直接换钱划算。</p>
+<p>所以回到那个问题，到底是谁在抢购老铺黄金？<strong>单说春节以来由品牌活动所刺激的这波消费者，他们更接近小富阶层中的价格敏感者。</strong>想要追求奢华，但绝不会放弃实惠，在有限资源内让收益达到极致，就像买东西如果忘记用劵他们会无比心疼，出去旅行住酒店，花了钱就最好把酒店里的设施都体验一遍。</p>
+<p>而拉长时间来看，老铺的消费者分为两种。在社交平台提到老铺黄金有个很有意思的现象，消费者评价两极，有人说贵有人说便宜，其中重点在于消费者原本的消费水平。</p>
+<p><strong>老铺黄金的一部分消费者原本消费的是卡地亚、梵克雅宝、宝格丽这样的高珠品牌，</strong>相比于卡地亚动辄几十万的镶钻手镯，购买老铺黄金的素金手镯相当于“消费降级”。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,1911" src="https://img.36krcdn.com/hsossms/20250216/v2_53baebd4d2c64ed3ab5ab477d3ac5429@576620215_oswg88386oswg1080oswg1911_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1946" src="https://img.36krcdn.com/hsossms/20250216/v2_b6b96bcd7e6e4e8ca428e4525b0a3b4b@576620215_oswg81246oswg1080oswg1946_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 卡地亚的经典手镯和项链</p>
+<p>这也解答了排队时我的另一个疑问，<strong>为什么都说经济环境不好，但从老铺黄金的火爆却完全看不出来。</strong>因为老铺黄金相当于一部分有钱人的奢牌替代品，在趋于消费保守的当下，买老铺黄金既能满足他们的消费欲望也能最大程度地保值。</p>
+<p><strong>第二类消费者则相反，在跳跳脚能够到的情况下“消费升级”。</strong>老铺黄金有个特点，因为是古法金“一口价”，价格不会按照黄金的涨跌而实时变动，但每年固定有几次调价。随着黄金价格的上涨，人们发现原本的“一口价”和按克重+工本费计算的普通金饰的差额正在变小，而确实更好看的工艺和款式又给了他们最终下单的动力。</p>
+<p>SKP的这轮抢购很大程度上也是因为老铺黄金马上要涨价的传言，<strong>我在排队人群中抓住了老铺的店铺经理询问，得到的答案是“暂时没有调价通知”。</strong></p>
+<p>排在我前面的美丽女人zhimin算是集这两种心态于一身的人。她过去买过梵克雅宝的首饰，但觉得“不保值”已经退坑了。活动的前几天她已经来排过一次队，当时还没有情人节当天这么夸张。她买了一个小号和中号的点钻葫芦，以及经典的大号玫瑰花窗吊坠。总共三件下来花了7.3万，她觉得很值，活动的最后一天再次前来排队。</p>
+<p>她当天身穿红色的中式改良上衣，黑色裙子，又国风又现代，确实也很搭配老铺黄金所呈现的品牌风格。她最初种草这个品牌是在网红韦雪的直播间，<strong>和很多人一样，看到韦雪将貔貅吊坠和金刚杵吊坠叠戴，她觉得太美了，这次购买的小号和中号葫芦也是用来叠戴的。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="960,1280" src="https://img.36krcdn.com/hsossms/20250216/v2_852437a86af04ea4bbf08a008b5c7300@576620215_oswg99796oswg960oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 韦雪叠戴的老铺黄金，图片来源：韦雪直播截图</p>
+<p>现在在小红书搜韦雪，跳出来的首个关键词还是“韦雪同款老铺黄金”，而如果单搜“老铺黄金”，已经有133万的讨论和4.1亿浏览。</p>
+<h2><strong>这波风也刮到了二级市场</strong></h2>
+<p>这波老铺黄金抢购潮的另一个原因就是，<strong>社交媒体上风太大了，不排除老铺黄金自己下场的营销行为，导致很多人跟风购买。</strong>我的朋友李尔就直爽地说，就是受别人影响，“看到别人有了自己也想拥有。”</p>
+<p>情人节前一天她已经在SKP九折入手了一个热门款十字金刚杵吊坠，当时一时冲动没有试戴就下单了，回家佩戴后却发现并不喜欢，再加之她本身是马克思理论博士，突然反应过来，<strong>“带宗教元素的项链好像不合适，很多学术会议都没法佩戴”</strong>，于是情人节当天她来SKP顺利9折出手了金刚杵吊坠，一点没亏，据她说入手的黄牛转手92折就又卖出了，速度非常快。</p>
+<p class="image-wrapper"><img data-img-size-val="958,428" src="https://img.36krcdn.com/hsossms/20250216/v2_295894bc689041b79997127bdfa397fc@576620215_oswg102203oswg958oswg428_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 十字金刚杵项链</p>
+<p><strong>很多人判断老铺黄金具有奢侈品属性的一个原因是，它已经发展出了自己的二级市场。</strong>据小红书上的回收帖，老铺黄金的产品并非按传统金价回收的逻辑，产品在票据证书和盒子都保存完好的情况下，可以8折回收。且三万元上下的带钻产品更容易出手。<strong>这个回收价在我跟多位老铺买家聊完后也依然无法验证，因为显然大家买了并不是为了卖掉。</strong></p>
+<p>超高的二手溢价依赖于老铺黄金当下的抢手，但长期稳定的回收价却要靠一个品牌长期的价值。成立仅9年的老铺黄金要往奢侈品发展，显然还有很长的路要走，当下真正的奢侈品行业都已经进入寒冬了，品牌价值严重缩水，<strong>而年轻的老铺只是暂时处在了微妙的位置，既是奢侈品又是黄金——跟奢侈品相比它有黄金金价托底，跟一般黄金品牌相比，它又有奢侈品的精美和身份彰显。</strong></p>
+<h2><strong>慌乱的20分钟后，发现另外两家店的“落寞”</strong></h2>
+<p>眼看着我离柜台已经越来越近，排在我前面的男生已经开始频繁给女朋友电话，催促她多选几个样式，担心想买的已经缺货。旁边的女生说，“即使喜欢的没货了也要硬买一个，不然对不起自己这么长的排队时间。”</p>
+<p>当真正排到我的时候，对于到底要买点什么我已经有些茫然，看了看手机，已经下午五点多，距离开始排队过去了整整7个小时。</p>
+<p><strong>在每个人限时20分钟，每人限购5件的情况下，一切都变得慌乱起来。</strong>我询问的热门款葫芦吊坠和金刚杵吊坠都已经是缺货状态。</p>
+<p>朋友李尔拜托我帮忙买一个太阳图腾的钻石款锁骨链，原价13970元，一通优惠下来便宜了1800多，正好在她的预算之内。我帮她顺利拿下，而我自己最终却什么都没买，就又匆匆退出了柜台。</p>
+<p class="image-wrapper"><img data-img-size-val="431,398" src="https://img.36krcdn.com/hsossms/20250216/v2_a6342a9b02df43f19867d5b3a8890854@576620215_oswg36584oswg431oswg398_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="1080,809" src="https://img.36krcdn.com/hsossms/20250216/v2_8c2403e7c5f24339a043d3f6a3a13f5a@576620215_oswg285334oswg1080oswg809_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>● 左图：太阳花锁骨链；右图：最终拿到的太阳花项链，只有简单的包装。因为不要盒子，便宜300元。</p>
+<p>排了7小时队之后我才发现，老铺黄金的王府井东方新天地店和DT51店压根就不用排队，原因当然是活动力度小。这让我对这波活动之后的老铺黄金还能火爆多久也多少产生了些疑问。</p>
+<p>消费领域的涓滴效应已经反复证明一个事实：<strong>物品的流行轨迹都是相似的，一件消费品被创造出来，一部分人迅速沉迷，然后通过越来越便宜的复制技术把它大众化，最后遭到精英阶级的嫌弃。</strong></p>
+<p>一个直接的例证是，小红书“退坑老铺黄金”的帖子逐渐多起来，而老铺的水贝款也越来越精细。</p>
+<p><strong>但这都不妨碍我们当下买到喜欢东西的真实快乐。</strong>李尔拿到她的太阳图腾锁骨链立刻戴上了脖子，神采奕奕。原本因为是情人节，她的男友说要帮她付这条项链，她拒绝了，她要自己买这条送给自己的新年礼物。</p>
+<p>回家后她还顺手发了一条抖音，几个老铺黄金给排队者送午餐的动图火了，除了金饰，“又喜提一个爆款”。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/EE7TQWcC3N_bS_GfoIUj0g" rel="noopener noreferrer nofollow" target="_blank">“潮生TIDE”</a>，作者：杨柳，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3168650636962565</guid><pubDate>Sun, 16 Feb 2025 10:10:00 +0800</pubDate></item></channel></rss>
