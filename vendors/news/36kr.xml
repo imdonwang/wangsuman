@@ -1,553 +1,624 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 18 Feb 2025 09:00:25 +0800</lastBuildDate><pubDate>Tue, 18 Feb 2025 09:00:25 +0800</pubDate><item><title>数了数老家亲朋手机里的AI应用，我震惊了</title><link>https://36kr.com/p/3170791184706306</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 18 Feb 2025 09:30:38 +0800</lastBuildDate><pubDate>Tue, 18 Feb 2025 09:30:38 +0800</pubDate><item><title>刚刚，Ilya被曝正筹资超10亿美元、估值超300亿美元，知名创投Greenoaks牵头</title><link>https://36kr.com/p/3171353879030273</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>一觉醒来，Ilya Sutskever 及其创业公司 Safe SuperIntelligence（SSI）又有了新消息！而在几天前，这家公司刚被传出正以 200 亿美元估值洽谈融资。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,611" src="https://img.36krcdn.com/hsossms/20250218/v2_c83104c3296f4fd3a3c79df7c8ca3e29@5091053_oswg671948oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>据彭博社援引知情人士的消息，<strong>Ilya Sutskever 正在为其创业公司 SSI 筹集 超过 10 亿美元资金，估值将超过 300 亿美元</strong>。</p>
+<p>如果新融资成真，这家新兴企业将跻身全球最有价值私营科技公司之列。</p>
+<p>这位不愿透露个人信息的知情人士表示，<strong>总部位于旧金山的风险投资公司 Greenoaks Capital Partners 正在牵头对 SSI 的交易，并计划投资 5 亿美元</strong>。</p>
+<p>值得关注的是，Greenoaks 还是人工智能创企 Scale AI 和 Databricks Inc. 的投资者。</p>
+<p>此轮融资也标志着 SSI 的估值较去年九月上一轮融资的 50 亿美元估值有了大幅度提升，当时该公司从 Andreessen Horowitz、Sequoia Capital、DST Global、SV Angel 以及 NFDG 五家投资公司获得了 10 亿美元资金。</p>
+<p>目前，融资谈判正在进行中，细节仍有可能发生变化。不过，Greenoaks 拒绝置评，Ilya Sutskever 的代表也没有立即回应置评请求。</p>
+<h2><strong>SSI：神秘的创业公司</strong></h2>
+<p>SSI 成立于去年 6 月，另外两位联合创始人分别为前苹果 AI 高管、Y-Combinator 的合伙人 Daniel Gross 和前 OpenAI 技术团队成员 Daniel Levy，参阅机器之心报道《突发！Ilya Sutskever 成立新公司 SSI，安全超级智能是唯一目标与产品》。</p>
+<p>除了该公司在安全 AI 方面的目标简要说明外，我们目前对这家神秘创业公司及其工作的了解并不多。吸引投资者兴趣的，是 Sutskever 的声望以及他所提到的团队正在进行的创新方法。</p>
+<p>在 AI 圈子里，Sutskever 因其在生成式 AI 的突破性进展中作出的卓越贡献，而被视为传奇人物。这些突破为蜂拥而来的投资狂潮提供了支撑。他是早期 「Scaling」理念的倡导者之一，即通过投入大量计算能力和数据来优化 AI 模型。</p>
+<p>这一概念为生成式 AI 的进展奠定了基础，比如 OpenAI 的 ChatGPT，推动了数百亿美元的投资狂潮，并且涵盖了芯片、数据中心和能源等领域。</p>
+<p>Sutskever 早期便意识到这种训练方法可能面临的瓶颈，尤其是在可用数据池逐渐减少的情况下。他意识到了在推理阶段投入资源的重要性 —— 即 AI 模型训练完成后进行推理和得出结论的阶段。</p>
+<p>正是基于这一洞察，他创建了一个团队，致力于开发后来成为 OpenAI 最新的一系列推理模型的技术，开启了一个被广泛跟随的研究新方向。</p>
+<p>为了让投资者明白不要期待短期内的暴利，SSI 表示其计划 「平稳扩展」，通过将其进展与短期商业压力隔离开来，从而避免短期目标的干扰。</p>
+<p>这一做法使得 SSI 与其他 AI 实验室有所不同，尤其是 OpenAI。OpenAI 最初是一个非营利组织，但在 2022 年 ChatGPT 走红后，迅速转向商业化产品。去年，OpenAI 的收入接近 40 亿美元，并预测今年的收入将达到 116 亿美元。</p>
+<p>关于 SSI 的具体做法的公开资料不多。去年在接受路透社采访时，38 岁的 Sutskever 表示，SSI 正在追寻一种新的研究方向，称之为 「新的山峰要攀登」，但他并未透露其他更多细节。</p>
+<p>迄今为止，<strong>Ilya Sutskever 及其创业公司 SSI 没有任何实际的研究成果或产品，也没有收入，只有一个公开的愿景说要开发与人类利益对齐的并且超过人类的「安全人工智能」</strong>。</p>
+<p>对此，既有人好奇，这家创业公司值这么多钱的秘诀到底是什么。也有人笃定地表示，这家创业公司一定隐藏着一些真正的超能力。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,385" src="https://img.36krcdn.com/hsossms/20250218/v2_bea04be2e9674215807da46011b68a19@5091053_oswg128317oswg1080oswg385_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>还有人@了奥特曼，表示比赛开始了。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,164" src="https://img.36krcdn.com/hsossms/20250218/v2_f0ec5a6371a74a1fae625e48657f28f3@5091053_oswg44609oswg1080oswg164_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>参考链接：</strong></p>
+<p>https://www.bloomberg.com/news/articles/2025-02-17/openai-co-founder-s-startup-is-fundraising-at-a-30-billion-plus-valuation?srnd=phx-technology</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/0uIHDVMz2TkfUaKlMSNR3w" rel="noopener noreferrer nofollow" target="_blank">“机器之心”</a>，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171353879030273</guid><pubDate>Tue, 18 Feb 2025 09:03:00 +0800</pubDate></item><item><title>酷派手机，没有奇迹</title><link>https://36kr.com/p/3171352388823815</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在日前同时刊发 2023 年、 2024 年中期业绩及独立调查报告后，酷派集团复牌已经稳了，很多人想知道的是，酷派手机在京基系手里究竟会走向何处？</p>
+<p><strong>2023年，公司手机及配件收入规模不到2亿港元</strong>，酷派这一昔日叱咤江湖的手机品牌，早已脱离主流市场，只能在下沉市场里左支右绌。</p>
+<p>如果品牌创始人郭德英回头，应该不会对酷派有任何留恋。自2021年消失在酷派集团股东名单中后，这个本土技术派的传说就已黯然落幕。</p>
+<p>郭德英是行业里难得的科班生，曾一度引领国内手机行业发展。如今平常不过的双卡双待模式，正是他及酷派发明并首度推上市场。<strong>在中华酷联时代，酷派曾是手机市场强悍的存在。</strong></p>
+<p>退隐手机江湖后，郭德英低调入局农业、康养等领域，而他一手带大的酷派，却阴雨连绵。</p>
+<p>酷派早年通过合约机模式在手机市场迅速崛起，红利结束，<strong>先后易主乐视和京基系，</strong>在华为、小米、OV的攻势下，酷派逐步游走在市场边缘。</p>
+<p>只有郭德英是幸运的，尽管没有完成吊打三星的奢梦，但及早套现离场，也算是平稳落地。事了拂衣去，深藏功与名。</p>
+<h2><strong>技术派</strong></h2>
+<p>退隐手机江湖多年，郭德英的传奇仍时不时会被外界提及，他科班出身，是<strong>中国通信技术升级迭代的重要推动者之一。</strong></p>
+<p>郭德英生于河南南阳，上学就是学霸，上世纪80年代考入西安电子科技大学通信工程系，本科毕业进入上海交大读研，1988年获得通信与电子系工程学硕士学位。毕业之后，南下任教于深圳大学。</p>
+<p>1993年，春风吹拂深圳这座改开桥头堡，万物勃发之际，郭德英放弃教职下海，创办宇龙通信，即酷派集团前身。</p>
+<p>公司创立之初，传呼机（BP机）还是通信市场的主流，一度出现排队抢购的火爆局面。</p>
+<p>宇龙通信以传呼机、寻呼台以及无线固话等产品为核心开展业务，这些业务不可避免地得和电信运营商合作，也为后来公司启动手机业务奠定了基础。</p>
+<p>1999年，郭德英在国外高价买到黑莓推出的邮件收发器，通信专业出身的他萌发了做中国黑莓的想法。经过几年酝酿，2002年，它的<strong>“中国黑莓”计划</strong>正式启动。</p>
+<p>2003年，借助早期铺垫的人脉，郭德英与中国联通合作，第一部手机CECT酷派688横空出世，彩屏电阻触屏的卖点一出，整个手机市场为之震动。</p>
+<p>2005年，郭德英凭借研发优势乘胜追击，一举解决GSM、CDMA双模手机存在的射频干扰难题，推出了双卡双待手机酷派828。一个手机可以同时插上两张手机卡，同时在线两家电信运营商信号，是当时市场绝无仅有。因为产品稀缺，收获一众拥趸。<strong>郭德英也因此斩获2007年国家科技进步二等奖，并获得1997-2007年中国手机行业最具创新人物称号。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_d34b6e41c1ab48c6a32a9363fc7e5368@000000_oswg1118436oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>酷派因为死磕技术，成为手机行业里的一股清流，品牌得到广泛认可，在政企、商务消费群体中获得较好的口碑。</p>
+<p>经次一役，酷派获得中国联通大量订单，作为定制手机供应商，公司尝到了合约定制机时代的红利。2007年，销售规模首次突破10亿港元，为12.88亿港元。</p>
+<p><strong>张德英领导的酷派，和华为、中兴、联想并称“中华酷联”</strong>，为当时四大主流国产手机品牌。2012年酷派国内市占率11%，2014年5月升至23.10%，位列榜单首位，三星、苹果分别以18.80%、15.70%位列第二、第三位。</p>
+<h2><strong>两次易主</strong></h2>
+<p>合约定制机时代，电信运营商在手机产业链条上十分强势，手机厂商只要绑定运营商就能吃饱。酷派也是如此，在与电信运营商合作之后，收入规模逐年攀升。</p>
+<p>2004年，酷派集团（02369.HK）登陆港股，年收入规模2.46亿港元，到2014年攀至249.00亿港元。郭德英曾对外表示，<strong>公司销售9成依赖于电信运营商。</strong></p>
+<p>不过，这个格局很快被打乱了。2014年中，电信运营商被上级要求压缩销售成本和相关补贴，郭德英打好的算盘一下子乱套。</p>
+<p>随着4G时代的到来，酷派计划冲击6000万部年销量，提前大量备货。随着上游电信运营商的政策调整，导致公司存货高企。</p>
+<p>2014年上半年末，公司存货规模高达49.98亿港元，同比增长88.95%，其占总资产的35%以上，由于难以及时出货，经营遭遇严峻考验。</p>
+<p>2015年，公司录得收入146.68亿港元，同比下降41.09%。2016年-2017年录得收入76.69亿港元、33.78亿港元，同比分别下降45.67%和57.61%，同期，归母净利润分别亏损43.80亿港元和26.74亿港元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_682a468c96804e1b9e276e0f690e6fe9@000000_oswg445244oswg1080oswg566_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为应对流动性危机，郭德英提前引进投资者。2015年6月，控股股东Data（郭德英控制）将所持公司近18%股权转让给乐视集团旗下的乐视移动，次年6月郭德英再次将Data所持11%股权转让给乐视移动。<strong>经过两次转让，郭德英合计套现超30亿元</strong>（人民币），Data所持公司股权比例降至9.23%。之后，郭德英离开，酷派进入贾跃亭时代。</p>
+<p>在乐视与酷派的蜜月期里，双方曾计划双线作战，再次挺进国内手机第一阵营。未曾想，相关战略还未大举铺开，乐视债务危机爆发。</p>
+<p>2017年底，已远遁美国的贾跃亭辞任酷派集团董事长，乐视方面在2018年1月清仓所持酷派所有股份。</p>
+<p>接盘方是伟晖投资，系90后陈家俊经多家企业间接控股。陈家俊为深圳京基集团董事长陈华的次子，毕业于南加州大学金融硕士，在入主酷派集团前，曾在深圳京基百纳商管公司担任总裁。</p>
+<p>至此，酷派这一老牌手机品牌，正式进入京基时代。</p>
+<h2><strong>拯救酷派</strong></h2>
+<p>陈家俊入主酷派前后，国内手机市场新的市场格局基本形成，外资品牌三星、苹果以及本土品牌华为、小米、OV各占山头，<strong>市场逐渐进入存量时代</strong>，酷派想要冲出重围并不容易。</p>
+<p>摆在陈家俊面前的是人员、产品和渠道的全面调整和定位。在人员上，公司先后引进宋九亚、秦涛、李宇靖以及胡行等小米前高管；产品则主打高性价比攻占低端市场，千元机乃至百元机型陆续进入下沉市场；另外，在渠道上选择区域直供模式。</p>
+<p>为了咸鱼翻身，酷派集团2019年、2021年先后多次募资，意欲重返牌桌。陈家俊高调喊出3年重返第一梯队的口号。</p>
+<p>在这些细化调整之后，酷派陆续推出手机产品，但没有实现翻身的愿望。</p>
+<p>2021年，公司先后推出COOL 20和COOL 20 Pro两款手机产品，分别主打百元机和千元机市场。据统计当年出货合计约12万台，不及小米等头部品牌一天的出货量。</p>
+<p>公司的手机业务逐年萎缩，数据显示，2019年至2023年，公司销售移动电话及相关配件收入规模由12.77亿港元降至1.81亿港元，2024年上半年，仅录得1.55亿港元。</p>
+<p>在酷派推新的同时，乐视、魅族以及中兴也加速对新产品的推出，集体上阵也难撼动头部品牌。和酷派一样，在复杂且已固化的手机消费市场，它们已难有重回巅峰的可能。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_89e1cbd3fd21489ba7e9df744d7db4df@000000_oswg623874oswg1080oswg531_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在这一过程中，手机市场持续巨变，魅族卖身吉利、波导股份（600130.SH）转型手机和物联网模块的代工商，联想手机并入智能设备集团等等，<strong>中华酷联F4中，仅华为通过自主品牌再度崛起。</strong></p>
+<p>陈家俊明白，酷派的手机业务已难以突围，2023年以来，集团向多元化领域拓展，计划由传统手机制造企业转型智能科技综合企业。手机业务之外，公司业务拓展至地产物业租赁领域，在2023年下半年加码数字货币业务。</p>
+<p>截至2024年上半年，公司加密货币业务收入、租金收入分别为4124万港元、4340万港元，分别占公司收入的16.3%和17.2%。</p>
+<p>值得注意的是，中华酷联这4家手机厂商已不再依赖手机业务，统一的动作是将5G、大数据及物联网等作为业务发展重点，这是必须抓住的最后一根稻草。</p>
+<p>联想发力智能终端、酷派押注加密货币、华为在产品上全面发力、中兴推动5G新基建，中华酷联F4的新故事仍在延续。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0MDY2ODM2MQ==&amp;mid=2247514981&amp;idx=1&amp;sn=0f5d163b61bce48df906a00f244275e9&amp;chksm=e8f4e3f85d2c2b30bcf7bbb11995140ba3bc2419971d1f77ff561180b9dfde9b03113181c6db&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“斑马消费”（ID：banmaxiaofei）</a>，作者：任建新，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171352388823815</guid><pubDate>Tue, 18 Feb 2025 09:04:00 +0800</pubDate></item><item><title>瑞幸辗压下，库迪活成了“便利店”</title><link>https://36kr.com/p/3171348320086791</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>在2025年咖啡行业竞争趋于<strong>白热化之际</strong>，库迪咖啡凭借“便利店化”战略激起行业<strong>惊涛骇浪</strong>！ 这个由瑞幸原班人马精心打造的品牌，正以“三管齐下”的凌厉策略对商业模式进行重构。</p>
+<p>一方面，<strong>“店中店”模式闪亮登场</strong>，精准嵌入美宜佳等便利店体系，凭借6 - 12平米的微型店型，以轻盈之姿实现轻资产扩张。</p>
+<p>另一方面，<strong>快餐产品强势推出</strong>，13.9元狮子头套餐横空出世，以“碾压沙县小吃”的超高性价比，毅然切入便利店快餐这片广阔市场。</p>
+<p>最后，更在2025年2月，<strong>直接推出自有便利店店型</strong>，精心打造以咖啡为核心的“零售综合体”。</p>
+<p>这般跨界转型，不仅是应对瑞幸2万家门店那如同泰山压顶般碾压式竞争的<strong>巧妙战略突围</strong>，更是精准折射出<strong>餐饮与便利店业态深度融合</strong>的行业大势。</p>
+<h2><strong>01 2025年，库迪正在加速“便利店化”</strong></h2>
+<p>在2025年中国咖啡行业竞争白热化的背景下，<strong>库迪咖啡以"便利店化"战略开辟新战场</strong>，通过业态融合重构商业模式。其战略可拆解为三大核心路径，形成从依附到自主的渐进式渗透。</p>
+<p><strong>1、一方面，积极与便利店携手合作，以店中店的形式入驻其中，成功打造出便利店的“咖啡销售区”。</strong></p>
+<p>去年 5 月，库迪为优化加盟业务，推出<strong>“COTTI Express”便捷式店型</strong>，面积仅 6 - 12 平米，前期投资 5 - 10 万（不含房租和水电等），店内仅含咖啡机和收银台。</p>
+<p>其主要目的之一就是与便利店合作，将门店嵌入其中，成为当地传统便利店的“咖啡销售区”，以此扩大市场覆盖，提升购买便利性，与原有常规店型互补。</p>
+<p>为此，2024 年 10 月 22 日，库迪启动“触手可及”计划，率先与美宜佳等便利店龙头合作，计划<strong>将常规店和便捷店置入美宜佳门店</strong>。</p>
+<p>这一举措引发不少吐槽：“库迪正朝便利店的‘咖啡区业务’转化”。</p>
+<p class="image-wrapper"><img data-img-size-val="660,880" src="https://img.36krcdn.com/hsossms/20250218/v2_d758608e405f45d19ffa7c66e4aa819e@5091053_oswg809431oswg660oswg880_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>2、另一方面，库迪咖啡正以“咖啡+快餐”组合拳强势切入便利店快餐市场。</strong></p>
+<p>根据公开信息，库迪将北京佳境天城店作为试点，上线“热食便当”和“早餐面点”两大系列产品，涵盖狮子头饭套餐（13.9元）、鸡腿饭套餐（14.9元）、卤鸡腿（7.5元）、鲜肉包（2.5元）等近20个SKU，价格带集中在1.2−20.9元，<strong>精准对标便利店快餐价格带。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="660,832" src="https://img.36krcdn.com/hsossms/20250218/v2_7d5f2d327d9c4218916f541392d34f1e@5091053_oswg296146oswg660oswg832_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这一策略的核心在于全时段覆盖高频刚需场景：<strong>早餐面点覆盖上午时段，热食便当瞄准午晚餐需求，与咖啡消费形成互补。</strong></p>
+<p>例如，2.5元的鲜肉包、13.9元的狮子头套餐等产品，以“碾压沙县小吃”的性价比吸引消费者。</p>
+<p>不过，目前部分门店的便当产品已在小程序下架，推测仍处于内部试水阶段，尚未大规模推广。库迪此举被视为从咖啡赛道向零售业态延伸的关键一步。</p>
+<p><strong>3、再者，力推便利店新店型，直接开展零售业务，全面向“便利店”业务渗透。</strong></p>
+<p>或许是在与便利店合作中，“便利式咖啡和快餐”销售成绩斐然，让其尝到甜头，库迪开始直接推出自有便利店新店型，全面涉足便利店业务。</p>
+<p>于是，2025年2月，其升级“触手可及”计划，正式推出便利店店型。</p>
+<p>其中<strong>便利店模式为新推店型，直接复用便利店货架模式与业务构成，打造全新典型。</strong></p>
+<p>唯一区别在于，<strong>“库迪便利店</strong>”仍以咖啡为核心业务，同时涵盖常规便利店产品的“咖啡主题便利店”。</p>
+<p>从北京市中关村正在装修的便利店来看，店内新增不少便利店常用冰柜和货架。</p>
+<p class="image-wrapper"><img data-img-size-val="660,371" src="https://img.36krcdn.com/hsossms/20250218/v2_e7a15654a9e74b4ca32fcf1d7f7c1b2b@5091053_oswg301757oswg660oswg371_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <blockquote>
-<p><strong>家乡：山西祁县</strong></p>
-<p><strong>故乡印象：</strong></p>
-<p>“全球同此凉热”，返乡记写了十几年，这是今年回家后最常蹦到我嘴边的一句话。</p>
-<p>我的家乡祁县，坐落在晋中盆地的腹地，这里是晋商文化的发祥地，更是一座活着的“茶商博物馆”。漫步晋商老街，明清时期的晋商大院鳞次栉比，飞檐翘角间依稀可见当年的繁华。1994年，祁县获批成为第三批国家历史文化名城。</p>
-<p>与隔壁同为“晋商三兄弟”的平遥和太谷相比，新世纪的祁县，日子过得有点慢吞吞。记得有几年回家，我曾深深困惑于县域经济的落寞。</p>
-<p>从去年开始，这座千年古城明显“活”过来了，看大院、逛庙会、放烟花……独有的北方年味吸引了不少游客；超市里，新鲜的红颜草莓、价格触底的智利车厘子、支持即食的餐桌……一座五线小县城与上海零售业差距大概只剩下一个山姆；瑞幸、沪上阿姨、蜜雪冰城也都在县城最好的地段完成了“下沉”。</p>
-<p>而今年，“下沉”的风越刮越烈，现实世界的差距进一步缩小，这次的主角是AI。</p>
+<p>在产品布局方面，“库迪便利店”颇为讲究。咖啡业务依旧是主营咖啡品类。</p>
+<p>其次是热销引流品类，如冰淇淋、西式现制蛋挞、西式烤肠等。</p>
+<p>再者是热食品类，如中式面点、热食便当等。最后是常规便利店商品。</p>
 </blockquote>
-<h2><strong>1 “数数手机里有几个AI？”</strong></h2>
-<p>“用我的手机，你用AI查一下。”正月初二，万万没想到在一辆开往太原的包车上，我听到AI这个词。</p>
-<p>我们此行的目的地是晋祠博物馆，根据规定，60岁以上老人免门票，而妈妈忘了带身份证。当我正准备用百度搜索如何申领电子身份证时，开车的师傅递来他的手机。同样令我惊讶的是年过七旬的妈妈，她熟练地打开师傅手机里的豆包App，打字询问，然后按图索骥在自己手机上操作，几分钟后，一切搞定。</p>
-<p>再深的数字鸿沟，随着时间的推移、应用的普及，也会被慢慢填平。</p>
-<p>很快，AI会再次出现在我的春节假期里，不止一次。</p>
-<p>“姑姑，你觉得DeepSeek为什么会让英伟达股票大跌？”正月初三，亲戚全家来拜年，正在上大四的侄女刚坐下，便迫不及待地开始提问。</p>
-<p>原本以为侄女只是看了新闻感到好奇，可接过她的手机一看，里面至少装了四五款AI App，“之前常用Kimi和豆包，最近一直在试用DeepSeek，我觉得就像不同人有不同的性格，不同AI的调性也不同，而且会根据提问者的方式，呈现出不同的个性”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_9bf1d44f368b4284aca3e17a78b3f6fa@000000_oswg102382oswg1080oswg1632_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>正说着，旁边的堂哥递过了他的手机，“我也装了不少AI”。屏幕上，一个名为“人工智能”的文件夹里，夸克、Kimi、紫东太初、豆包、腾讯元宝、AI翻译、DeepSeek、讯飞晓医……比他闺女手机里的人工智能App多，甚至也比我多。</p>
-<p>我彻底震惊了。这是进入移动互联网时代后，小城与大城市接轨最快的一次。对于我的“大惊小怪”，堂哥却觉得有点好笑，“现在短视频天天各种推送，我身边的人多多少少都会下几个AI，而且的确挺好用”。</p>
-<p>尽管我一直深信人工智能终将彻底改变人类社会，但直到此时，我才确定，这一刻将比预想来得更早。</p>
-<h2><strong>2 “你用AI做什么？”</strong></h2>
-<p>于是，“你用AI干什么？”成为我春节期间最常问的一个问题。</p>
-<p>“可以做搜索工具。”司机师傅回答，他觉得答案比搜索引擎更精准。</p>
-<p>“可以自动做表格。”一位在社区工作的朋友回答，将一堆文字和数据输进去，便可以迅速生成表格，年底再不用像以前那样天天做“表哥”。</p>
-<p>“可以编程。”一位做财务的亲戚回答，以前合并报表，都是自己一张张手动完成，现在将需求告诉AI，它会自动给出一段VBA（Excel、Word等的编程语言，可创建自动任务）代码，简单配置一下便可以完成合并，比以前节约了大量时间。</p>
-<p>“可以给我一些灵感。”一位企业高管回答，每年年底都要写新年规划，很难不落窠臼，可AI给出的一些方案，会让他有眼前一亮的感觉，“毕竟我一个人的阅历有限，而AI几乎学习了所有的人类知识”。</p>
-<p>“可以聊天。”对于这个问题，侄女的回答更为丰富，她常常会和多个AI聊几个小时，天马行空，无所不聊，“我觉得没有一个人类朋友可以和它一样，耐心地听我东拉西扯，甚至有时候抱怨时，它也会认真地倾听并安抚我，这点比很多人类都强，因为大部分人会突然打断你说话，然后说，啊！你怎么会这么想？”</p>
-<p>侄女甚至和AI合作写了一篇短篇小说，讲述一个濒死人类与AI的“爱情故事”，“某种程度上，小说中的人物和我有点像，有一种后现代主义的个体孤独感，而我的AI助手比很多真人朋友都了解我”。</p>
-<p>在这些回答中，AI不再是科技新闻里的遥远概念，而是每个人生活中的真实存在。这让我思考AI存在的真正意义：不在于它有多强大，而在于它如何被普通人使用，如何融入日常生活，让每个人都能从中受益，哪怕是身在一座北方小城，人们同样也能和全球同步享受技术的红利。</p>
-<p>只是，写到最后，新的忧虑出现：当人们过度依赖AI时，幻觉会带来什么？当人们默认它比搜索引擎更准确时，如何辨识AI给出的虚假答案？尤其是当它以专业口吻给出“胡编乱造”的答案时。</p>
-<p>那位社区工作的朋友便曾因为AI生成的报告闹过笑话。报告中引用了一段“权威数据”，后来发现完全是AI杜撰的，幸好发现得早，否则后果不堪设想。“AI就像个聪明的孩子，有时候会为了讨好你而编故事。”他总结道。</p>
-<p>显然，AI的“下沉”并非一帆风顺。当AI成为普通人生活中的一部分时，创造者将担负更重要的使命，它不仅仅能让更多人触摸到未来的脉搏，更有可能“误导”和改变未来，而对于这种力量，我们要心怀敬畏，拥有它，雕琢它，控制它。</p>
-<h2><strong>返乡感想：被短视频完成的AI普及教育</strong></h2>
-<p>在和亲戚朋友完成一系列关于AI的调查后，我突然发现，有一个AI出现在每个人的手机中——豆包。</p>
-<p>为什么不是文心一言？对于这个灵魂拷问，答案更简单：（豆包是）抖音上刷到的。</p>
-<p>短视频平台完成了对“下沉”市场的AI普及，同属字节跳动的豆包自然是最大获益者，这对其他AI工具而言并不是个好消息，而对于传统搜索引擎，更是个糟糕的消息。</p>
-<p>格陵兰岩壁上一块5亿年前的三叶虫化石证明，视觉识别能力是推动生物智力快速发展的重要因素，这种生物身体上的视神经，是迄今为止发现的最古老的大脑。同理，现代社会的视频是人们大脑接受事物的最快方式，所见即所得，而能否“被看见”便是成功与否的重要指证。</p>
-<p>不难理解，腾讯为何对视频号如此寄予厚望。如果说日活9亿的微信是腾讯的移动互联网船票，那么，在通往AI时代的大船上，尽管谁会拿到船票还是个未知数，但正大举建设AI基础设施的字节跳动，无疑是腾讯最大的对手。</p>
-<p>事实上，在我的访谈中，小城中大部分中老年人接触AI，都是从2024年下半年开始，从豆包开始，而那也正是豆包能力大幅提升的开始，抖音大幅推荐豆包的开始。</p>
-<p>短视频正在深刻影响这个北方小城。餐馆、游乐场、旅拍店……越来越多的生活服务类店家放弃了美团，将自己的优惠活动放到抖音上，因为“转化率更高”；信息获取的渠道不再是电视、微博、微信公众号，事实上，这些平台原本便有一定门槛，并不普及，对很多人来说，现在信息来源有且只有短视频平台；更重要的是，对于本地信息的获取，短视频平台可以更快、更精准地推送到本地人身边，这让他们更加依赖这种方式。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_bb0917768ad3495ab5c50cd2eac4e0e5@000000_oswg155624oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>同样，短视频平台“议题设置”能力变得前所未有的强大。今年是中国春节申请非遗成功的第一年，我随手拍的一条喷火非遗表演，点击率超过10万，原因或许只是因为添加了一条“非遗过年dou来播”的标签。</p>
-<p>显而易见的是，如果没有一个AI工具能够以绝对强大的实力和创新，赢得市场，那么巨头的产品将在获得下一张船票时拥有天然优势，尤其在一个新蓝海刚被打开时。</p>
-<p>豆包会是字节跳动的“船票”吗？至少在TO C市场，我感受到了来自BAT的焦虑。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MjM2MzEyNQ==&amp;mid=2651594885&amp;idx=2&amp;sn=ed1fd60349eed29f303e0546c54ae13c&amp;chksm=bccc9818edf47056b0963b41e7cc75430df928243f0366c751fce24b87abad098e944b07c23d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“IT时报”（ID：vittimes）</a>，作者：郝俊慧，编辑：钱立富、孙妍，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170791184706306</guid><pubDate>Tue, 18 Feb 2025 08:15:00 +0800</pubDate></item><item><title>换个名字获客成本降到不足1美金，“大神”又推火了一个AI App？</title><link>https://36kr.com/p/3170786261707272</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>大量创业者涌入 AI 创业时，有一个典型特征，虽然早已经进入移动互联网时代，但更容易出现新气象的平台，却是在 web 端，这体现在教育、图片&amp;视频等多个领域。</p>
-<p>原因主要有 2 个：</p>
-<p>一是大多数的 AI 产品，并不直接 toC，最多也就是个人生产力工具，更多在 PC 场景，所以在 web 端会更方便一些；</p>
-<p>另一个则主要是增长成本，AI 早期，多数产品都不知道自己有没有找到真正的用户需求，App 端的增长，除非走大运，否则自然量占比极少，需要真金白银去投放广告，风险太大。</p>
-<p>这也就导致如果谁能把 AI App 的低成本增长做好，就拥有更多试错机会、也就有更大概率走向成功。这也是为什么我们一个 toB 的账号，之前一篇关于 17 岁高中生做 AI App 入账百万美元的稿子能有 10w+ 阅读量的原因，更详细的信息可参阅之前的选题《17 岁高中生做 AI App，不到 4 个月入账百万美元，独立开发者迎来春天？》。</p>
-<p>而如果说年轻创业者还是主要在走社媒上发现趋势+借助网红分发产品的“常规”路子，老一辈创业者的操作则要更骚气一些。</p>
-<h2><strong>一、Nikita Bier又来了，</strong></h2>
-<h2><strong>把一款AI健康App的CAC降到不足1美元</strong></h2>
-<p>之前，编辑部同事报产品异动的时候，有一款 App 很会搞噱头，叫做 Death Clock，用 AI 预测死亡时间，但当时我们也没多做他想。后来产品最高到了美国健康类 iOS 下载榜第 6，也不是什么了不得的成绩。直到最近，我们刷到产品背后顾问 Nikita Bier 的一些分享，经过他一系列骚操作之后，这款产品的 CAC（用户获取成本）降到了 1 美元以下，这对健康类 App 来说还是很有难度的，根据行业信息，健康类 App 的获客成本在几美元到几十美元之间。从这个角度，Death Clock 具备了一定的观察价值。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_a6d240eaf6054aa18a610716ad61c09d@000000_oswg73077oswg783oswg1091_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Death Clock 最高排名，iOS 美国健康分类榜下载榜第 6 位，前后都是月流水百万美元、甚至大几百万美元的产品 | 图片来源：Nikita Bier X分享</p>
-<p><strong>“死期预测”撬动自发传播，</strong></p>
-<p><strong>AI 健康产品的社交式增长</strong></p>
-<p>如果是社交领域的创业者，多少应该有些熟悉 Nikita Bier，他的经历也算成功吧，创业做的2 个青少年匿名社交产品 tbh 和 Gas，先后被 Meta 和Discord 收购，tbh 在七八年前就卖了 1 亿美元，但确实 2 款产品因为方向比较敏感，被收购后也都以关闭收场。</p>
-<p>但结局不论如何，这些经历让 Nikita Bier 对 toC 社交产品构建及增长积累了不少经验，甚至在 2024 年以 AI 健康产品 Death Clock 顾问的角色，将社交产品的增长经验复用到了增长难度非常高的健康赛道。</p>
-<p>在 Nikita 看来，健康类产品是非常难做增长的，因为这类产品的<strong>使用场景偏向于个人私下使用、而且偏向年长一些的用户</strong>（这里应该是和他之前一直做的产品面向青少年受众对比），这两点特征导致健康类产品很难形成口碑传播，也就是说，每个用户都需要真金白银买来。</p>
-<p>而根据我们对于健康类产品的观察，另一个难做的点在于，<strong>用户使用这类产品的前提是需要建立很强的信任感。</strong>例如我们之前去关注冥想类产品的时候发现，在美国这样的成熟市场，健康类产品的推广，已经上升到品牌向，例如 Calm 请的是詹姆斯来做营销活动，比拼的是高大上。当然，这些高成本对应的是获取用户信任后实现高流水，<strong>美国 iOS 健康分榜畅销第 18 名左右的产品全球月流水都在百万美元级别</strong>，这在非游戏 App 里绝对是吸金品类。</p>
-<p>而 Nikita 这回则通过一些简单的骚操作，<strong>给用户闷头使用的健康类产品赋予了社交互动的体验、引发用户口碑传播，并且借此进入了主流媒体视野实现品牌传播。</strong></p>
-<p>具体操作上，首先 Nikita 先把 App 名字改了，之前叫做 Most Days，Nikita 大手一挥改成了 Death Clock。在功能上，对应 App 名字，加入了一个基于调研问卷预测死亡日期的功能。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_aac65cc1908b4e9fa146047c407668f9@000000_oswg61367oswg549oswg931_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">调研问卷之后，产品给到的死亡日期预测 | 图片来源：Nikita Bier X</p>
-<p>我们去测试了下产品，预测死亡日期，主要是通过年龄、性别、饮食和运动习惯、社会关系、身体检查、和几个常规的身体指标，例如胆固醇、血压等等来进行寿命预测，为了有足够的噱头，预测的死亡日期精准到日，但给用户用来分享的卡片虽然整体色调暗淡、但画风诙谐幽默，对冲了压抑感，在社媒上形成了一波与朋友比拼谁活得更久的“竞赛”。</p>
-<p>用 Nikita 自己的话来说，<strong>这是一波将 personal data 变成 shared story 的典型操作。</strong></p>
-<p>从增长层面，我们结合广大大的投放数据（渠道、展示估值）、以及点点的下载数据，Death Clock 的整体路径大概是先启动 ASA 投放，然后在社媒上（先 TikTok、后 Instagram）推热死亡日期预测的视频，同时继续投放 ASA 拿到下载，两波操作下来拿到一定成绩和一定社媒热度之后，在 2024 年 11 月 30 日被 Bloomberg 最先报道，然后各家媒体跟上。1 月份 Nikita 又用个人 IP 再造一波声量。一套组合拳下来，App 从上线至今一共拿下 60w 的下载。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_23ad4954e4d34429aec8c29282085620@000000_oswg89115oswg1080oswg480_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">娱乐化带来的流量、没能完成商业化落地</p>
-<p>经过大半年的运营（产品在 2024 年中上线），Death Clock 在进入 2025 年之后，DAU 均值维持在 1.2 万左右的水平。上线至今总计产生了 13 万美元的收入，RPD 在 0.22 美元左右，这个数据在健康类 App 里面是相对较低的，例如前些日子比较火的 Cal AI，RPD 在 1.6 美元左右的水平、之前一直关注的一些睡眠类产品如华人团队做的 Shut Eye，RPD 也在 1.75 美元。对于健康类 App 来说，RPD 的理想数据应该在 1 美元以上。</p>
-<p>结合其 IAP 以及美国用户的评分详情来看，产品存在不少问题。</p>
-<p>我们从点点数据导出了 117 条来自美国用户的评价，<strong>评分非常两极化</strong>，1 星评价和 5 星评价分别占比 44% 和 39%，占比八成半。1 星评价的主要吐槽在于付费陷阱（3 天免费使用但即刻收取年费）、App 崩溃，5 星评价则主要在夸和朋友比较死亡日期的娱乐玩法、以及 UI。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_e0f18ae26eab4582af91daef5ca3a565@000000_oswg62418oswg1080oswg484_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">Death Clock 内购项目情况 | 图片来源：点点数据</p>
-<p>这些问题也反映在 IAP 项目上，Death Clock 的前几个内购项目都是年费或者打折年费，对于订阅 App 来说是比较少见的。</p>
-<p>观察产品的话，我们发现 Death Clock 做得好的地方在于，注册到付费转化的环节，Death Clock 的设计是做好调查问卷等待死亡日期预测结果，同时给到现有习惯和更好生活习惯的预期寿命对比、以及预测用户变老的样子，来给用户多重“心里震撼”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_72fa20012b70463d86f9ba84fd2d618f@000000_oswg175330oswg997oswg1773_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在心理上，其实是能够把用户向付费边缘狠狠推一把的，但稍微回到理性，在最后一个转化页面，App 提供的改善计划，<strong>价值明显不足，全但不精准</strong>（促使用户付费转化的最终一步是提供的“长寿计划”，分别涉及到的是营养补充剂、疾病筛选、就医建议、健康设备建议、以及行为习惯目标等等改善点）。IAP 项目以年费为主，或许真的与订阅页面的一些不当操作有关。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_2646a9a2aac14a0490bd9a26528710c9@000000_oswg321130oswg728oswg1575_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">很难让用户感受到价值的“长寿计划” | 产品截图</p>
-<p><strong>而在两极化的用户评价之外，一些更“冷静”的用户，也反映了不少产品力的问题。</strong>大量用户反馈 App 崩溃、还有用户反映在自己没有糖尿病信息输入的前提下，App 给到了用户关于血糖的建议，这对于用户信任都是致命问题。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_58d7a424f59e40738febcd852bab4d69@000000_oswg70246oswg1080oswg189_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">用户反映自己并没有输入糖尿病的相关信息，但却得到了购买血糖检测仪的建议 | 图片来源：点点数据</p>
-<p>整体来看，Death Clock 的增长可圈可点，其中也能看到 Nikita 做了 10 年 toC 社交产品总结经验的实际落地，如他之前提到实现“逃逸速度”的关键经验，一次 App 会话触发 7 位新用户打开产品，又如果激活率足够高、注册流程较长也可以接受（接近 30 个问题的调研问卷来预测死亡日期已经给了用户足够高的离开成本），但是 App 本身的技术和能力貌似并不能让用户心甘情愿付费（这可能与创始人之前做了多年心理健康没能跑通市场，之后才转到生理健康方向有关）。</p>
-<p>健康是一个太过于庞杂的问题，受到的影响因素太多，也许是选择了死亡日期预测的引子，导致解决方案大而全、但不够深，也导致了用户觉得“不值”。</p>
-<p>在火了一阵之后，Death Clock 又到了健康分榜下载榜 200 名开外的状态，截至发稿前又投广杀回了 22 名，在成本足够低之后，收入所依靠的产品价值可能也需要再精准定位。</p>
-<h2><strong>写在最后</strong></h2>
-<p>其实，AI 来了之火，toC 类产品里面，<strong>健康方向算是有所斩获的。</strong>之前我们报道过 4 个月拿到百万美元的 Cal AI，如今已经到了接近于月流水百万美元的水平（从 2024 年 7 月的 20 万美元月流水到 2025 年 1 月的 90 万美元月流水，翻了两番不止），又如国内团队做的 Stress Watch，每个月也有几百万人民币入账。而这 2 个 App 切入的问题都更细，计算食物的卡路里、监测人的压力水平，与视图以猎奇概念覆盖泛健康领域的 Death Clock 相比较，它们通过锚定更垂直的场景、提供更详细解决方案，也更容易给到用户一定的价值感。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_85aa3629b68343fdaa9d8a55552c440c@000000_oswg69897oswg1080oswg411_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">2024年年初至今 Cal AI的全球日流水变化 | 图片来源：点点数据</p>
-<p>如 Nikita 自己所说，初始锚定的用户群要足够精准、小不是问题。擅长增长的 Nikita 可以帮助产品起步，但可能无法帮助产品走得更远。概念创新距离商业成功，还有很长一段距离。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA3NTQ4NjczNw==&amp;mid=2650667873&amp;idx=1&amp;sn=ca0a9dd6f4f95e95116bdd4935712591&amp;chksm=86b53e08ec5d493726110c2a0abc22f12987625c7b2f3c3d64383de70676ba720d05e84f70af&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“白鲸出海”（ID：baijingapp）</a>，作者：殷观晓，编辑：李爽，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170786261707272</guid><pubDate>Tue, 18 Feb 2025 08:18:00 +0800</pubDate></item><item><title>元宝上线深度思考，微信却把C位给了“别人家的小孩”</title><link>https://36kr.com/p/3170832916971264</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2025年开年，中国的ChatGPT时代，从All in AI，变成All in DeepSeek。</p>
-<p>其中腾讯动作最大。</p>
-<p>截至2月17日，包括元宝、微信、腾讯文档、QQ浏览器、QQ音乐、腾讯地图等应用在内，腾讯旗下至少15款产品已经宣布接入DeepSeek大模型。</p>
-<p>从2月13日腾讯元宝悄咪咪更新，宣布接入DeepSeek R1，腾讯正式踏进DeepSeek的朋友圈。2天后，微信搜一搜内测“AI搜索”新功能，其中“接入DeepSeek”再度成为一大爆点。</p>
-<p>这是国内第一家有自己大模型的互联网大厂宣布接入DeepSeek，也是第一家选择在自家当家产品里接入其他大模型的大厂。</p>
-<p>紧接着16日晚间，百度搜索和文心智能体平台也宣布将全面接入DeepSeek。</p>
-<p>自此BAT（百度、阿里、腾讯）和新BAT的字节跳动（Bytedance），已经全部接入DeepSeek大模型。</p>
-<h2>不是舍己芸人，而是借力打力</h2>
-<p>2月17日，腾讯元宝开始上线自研的深度思考大模型HunyuanT1。</p>
-<p class="image-wrapper"><img data-img-size-val="739,654" src="https://file.36krcdn.com/hsossms/20250217/v2_485b82aa8da34e8bb0aa128ba6d331b9@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>虽然目前仍在灰度测试，但在元宝APP最新的更新日志中，混元T1已经开始被着重提及，被腾讯自称为“混元最强推理模型”，更强也更快。</p>
-<p class="image-wrapper"><img data-img-size-val="1010,585" src="https://file.36krcdn.com/hsossms/20250217/v2_0583522ef74448bbb0205457e7e99b4c@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>目前，有被内测到的用户只需要在元宝APP首页最上方的模型选择栏，便可自助切换三大模型。</p>
-<p>据APPSO测试发现，在处理复杂问题时，混元T1确实比元宝版的DeepSeek R1更快，日常任务思考时间稳定在10秒左右，不崩不卡。</p>
-<p>混元T1的信息源同样主要来自腾讯生态系统，毕竟手握“微信公众号”独家信息源一直是腾讯做AI搜索的核心竞争力。</p>
-<p>但值得注意的是，就在混元T1推出的2天前，微信可才刚刚宣布接入DeepSeek。同样主攻深度思考，腾讯为什么会把微信这么大一个流量入口“拱手相让”给其他大模型？</p>
-<p>某种意义上，DeepSeek能在发布5天后日活用户就超过GPT，在没有任何广告投放的情况下，7天就完成了1亿用户的增长，成为全球增速最快 AI 应用。要知道，作为前用户量最高的AI产品，豆包用户规模突破1亿，花了5个月。</p>
-<p class="image-wrapper"><img data-img-size-val="763,1017" src="https://file.36krcdn.com/hsossms/20250217/v2_a6ce8b44ac6b4a398a8e259a6135f380@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>DeepSeek爆火背后，其实是国内用户第一次真正大规模地接触并了解何为“深度思考”。</p>
-<p>在DeepSeek之后，月之暗面发布Kimi k1.5长思考模型，文心大模型也在前不久刚刚上线深度搜索功能。</p>
-<p>更别说元宝T1仍处于内测阶段，其推理能力和场景适配性可能尚未达到微信生态的高标准要求，想在第一时间跟上市场的节奏，先通过接入DeepSeek R1建立用户对AI能力的评判标准，再推出自研模型混元T1进行对比验证。</p>
-<p>这种“借力打力”的策略，既可以快速填补能力缺口，同时观察市场需求和技术路线，为自研模型争取优化时间。</p>
-<p>毕竟，AI竞争不是百米冲刺，而是需要精准配速的马拉松。</p>
-<h2>不着急 场景很多</h2>
-<p>在元宝变成“元宝DeepSeek版本”后，PConline这两天在公众号和朋友圈开始疯狂刷到元宝的广告。</p>
-<p class="image-wrapper"><img data-img-size-val="1269,612" src="https://file.36krcdn.com/hsossms/20250217/v2_43ab84813bfe4b1e93a66415e7ad2acf@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从一定意义上来说，虽然也有自研大模型，但区别于Kimi、DeepSeek这种创业公司，腾讯的核心竞争力一直在于其庞大的生态系统，如社交、游戏、内容、支付，而非单一技术能力。</p>
-<p>简单来说，相比说腾讯是技术主导者，更准确来说，腾讯是生态整合者。</p>
-<p>All in AI时代，随着百度、阿里、字节跳动等互联网大厂在AI领域地快速推进，腾讯的混元大模型虽有一定技术积累，但在技术优势和推理能力上可能尚未达到行业领先水平，腾讯随时面临“掉队”风险。</p>
-<p>通过接入DeepSeek，腾讯除了能够以较低成本快速补齐AI能力，同时还能将资源集中在自身优势领域，如生态整合、场景落地等等。</p>
-<p>将外部技术与自身场景深度融合，也让我们看到了微信AI搜索+DeepSeek 这对“王炸”组合的诞生。</p>
-<p>某种程度上来说，腾讯拥有微信这一超级入口，就已经覆盖了社交、支付、内容、游戏等多个场景。这种生态优势使其无需急于推出自研大模型，而是可以通过外部合作快速验证AI技术的实用性。</p>
-<p>此前腾讯也曾在当家产品中植入AI产品，但不管是当初第一次将AI搜索结果植入“搜一搜”搜索结果页面，还是在微信输入法推出“AI问答”功能，但没有引起多大水花。</p>
-<p>这次选择在应用内整合了入口，讨论热度却远超当初的两场革新。</p>
-<p>作为国内用户量最大的应用，从推出以来，微信内置的AI搜索功能相较于其他专业搜索引擎稍显力不从心。特别是此前在搜索结果页直接展现“AI搜索”回答，用户直接浏览就好也不用点击，这更像是一种无缝集成的内容服务，而非独立的流量入口。</p>
-<p class="image-wrapper"><img data-img-size-val="738,844" src="https://file.36krcdn.com/hsossms/20250217/v2_cda9c5bd40a841f5819696cde90e06a3@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>虽然这种轻量化设计能够快速响应用户需求，也符合“用完即走”的产品理念，但在AI时代对微信建立AI搜索的认知帮助并不大。</p>
-<p>对微信来说，接入DeepSeek更多是一种“过渡策略”，既满足了当下用户对AI能力的需求，又显著提升了微信用户对AI搜索的粘性。相当于引进一个网红奶茶品牌，丰富自家商场的人气。</p>
-<p>而对DeepSeek来说，相当于把产品放进腾讯的“大商场”卖，虽然要“分钱”，但不用自己盖商场。</p>
-<p>再者，从早期卷参数、卷算力，再从卷大模型变成卷应用，AI是一场马拉松，以生态优势对冲技术代差，选择接入已验证的优质模型，也能避免陷入“技术军备竞赛”，让AI普惠真正看到曙光。</p>
-<h2>写在最后</h2>
-<p>去年接受暗涌专访时，梁文锋曾说道：“无论API，还是AI，都应该是普惠的、人人可以用得起的东西。”</p>
-<p>一直以来在中国互联网生态中，作为社交巨头的微信的生态一直都是相对封闭的，微信内容在公众号、视频号、朋友圈自然流转，一个超级APP的诞生既构建了其商业护城河，也带来生态割裂的隐忧。</p>
-<p>这种生态闭环就像互联网生态中的“第四堵墙”，而如今“超级应用+开源模型”组合，将模型层商品化，入口级应用的开放似乎让我们看到中国AI普及的“安卓时刻”。</p>
-<p class="image-wrapper"><img data-img-size-val="669,539" src="https://file.36krcdn.com/hsossms/20250217/v2_8e7eec21100844fe9d2048eb1d3f2797@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>正如如今大多数人还不知道的，在DeepSeek服务器时常报错的今天，在元宝里使用DeepSeek是真的不崩不卡。</p>
-<p class="image-wrapper"><img data-img-size-val="461,195" src="https://file.36krcdn.com/hsossms/20250217/v2_dd9156bf098c4b53b10ab6c2280ab55f@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>据上海证券报报道，有业内人士认为，对于微信来说，接入Deepseek难度不大，尤其是腾讯有充足的算力支撑，可以承担更大的访问量。“近段时间Deepseek自身因为访问量过大，经常出现服务器繁忙的问题，而微信此举给了消费者一个替代方案。”</p>
-<p>大家各自做着各自擅长的事情，让更多地人用上AI，这才是实现AI普惠的确定性路径。</p>
-<p>本文来自微信公众号“PConline太平洋科技”，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170832916971264</guid><pubDate>Tue, 18 Feb 2025 08:20:00 +0800</pubDate></item><item><title>台积电要“吞掉”英特尔？我咋觉得是好事</title><link>https://36kr.com/p/3171252025715458</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>不是差友们，想当年市场份额接近垄断，电视上各种投放 “ 噔 ~ 噔蹬蹬噔 ” 魔性广告的英特尔，这就要被友商收购了？并且还是曾经被自己遥遥领先的友商？</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250218/v2_545a643386d8436ab159342a71d9076a@5091053_oswg537560oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>就在前两天，有媒体爆料英特尔可能会被芯片代工巨头台积电和芯片设计巨头博通所 “ 瓜分 ” ，其中台积电想要买下英子的芯片代工部门，而博通则是想要买下芯片设计和营销部门。</p>
-<p>如果这消息属实的话，那么英特尔的历史确实是要画上一个句号了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,252" src="https://img.36krcdn.com/hsossms/20250218/v2_8f273d78ff2f4a9685a945b2d867723d@5091053_oswg138809oswg1080oswg252_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>虽然咱们之前都知道英子这两年实在是支棱不起来，但说实话我听到这样的消息还是有点意外，毕竟英子再怎么拉也是瘦死的骆驼，以前积攒下的家底再怎么霍霍也够猥琐发育个好几年。</p>
-<p>但问题来了：英特尔芯片业务，怎么就突然被传要被拆开卖了？</p>
-<p>一方面是咱们之前聊过的<strong>英特尔被前任CEO 搞成了牙膏厂</strong>（ 指路 ）<strong>，另一方面，则是它可能要被川普政府 2.0 给釜底抽薪了。。。</strong></p>
-<p>是这么回事儿，你们可能不知道英特尔过去一年到底亏了多少钱。<strong>过去的 2024 财年里，英子的净亏损是 188 亿美元，相比而言， 2023 财年英子还能净赚 17 亿美元。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,250" src="https://img.36krcdn.com/hsossms/20250218/v2_9c75ae2e5607475c85cc79f50a5ad285@5091053_oswg146595oswg1080oswg250_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>也就是说，过去英子虽说赚得不多吧，但至少不亏，而现在的英子纯纯就是个 “ 赔钱货 ” ——看到这样的业绩，估计股东们都要吃速效救心丸了。</p>
-<p><strong>如果说业绩拉胯是股东和投资者们看空英子的理由，那么芯片补贴法案的变数则是增强了大家看空的信心。</strong></p>
-<p>是这样的， 2022 年的时候美国政府为了支持本土芯片产业的发展，出台了美国半导体产业的百亿补贴法案。</p>
-<p>根据外媒的统计，英特尔将会获得最大份额的补贴，包括 85 亿美元的赠款以及 110 亿美元的政府贷款。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,378" src="https://img.36krcdn.com/hsossms/20250218/v2_f6da91447d0a46baaa9cc7f9be4e0170@5091053_oswg89896oswg1080oswg378_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">数据来源：voronoi</p>
-<p>正是这个补贴，让英子有底气决定花 1000 亿美元去重振自家的芯片制造业务。</p>
-<p><strong>但那个男人特朗普的重新归来，给这个芯片百亿补贴法案带了很大的变数</strong>——根据路透社的说法，特朗普政府打算把之前吃到补贴的那几家芯片企业拉一起谈一谈：</p>
-<p>“之前说好要发放的补贴，咱们先缓一缓。”</p>
-<p>“不妨先来说说，为啥之前吃到补贴的芯片企业，还跑去海的对岸投资？”</p>
-<p class="image-wrapper"><img data-img-size-val="1080,209" src="https://img.36krcdn.com/hsossms/20250218/v2_443b5fb807a747bda36ee149a44bdfa3@5091053_oswg100829oswg1080oswg209_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>有一说一，这种说法还蛮符合特朗普的风格的。</p>
-<p>但不管咋说，英子后续能不能吃到政策补贴，肯定是要打一个问号的。</p>
-<p><strong>假如以后没了补贴给英子输血，那么英子很有可能就在 ICU 里出不来了。</strong></p>
-<p>图片来源：PAUL SAKUMA/ASSOCIATED PRESS</p>
-<p class="image-wrapper"><img data-img-size-val="1080,721" src="https://img.36krcdn.com/hsossms/20250218/v2_99a85d6f42544fadbab489683635eff2@5091053_oswg572805oswg1080oswg721_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>那你说，这个时候股东和高管们寻求把英子出手，是不是一个很合理的选择？</p>
-<p>聊完了关于英子的芯片业务为啥会被拆分收购的可能原因，咱们再来聊聊，为什么想要收购英特尔会是台积电和博通这两家？</p>
-<p>台积电咱们都知道，全球芯片制造行业的扛把子，原本跟英特尔就算是友商的关系，吃下去英特尔的代工业务，一来有利于进一步巩固自身在行业的地位。</p>
-<p>二来，相当于响应美国政府的政策需求，帮美国本土把先进芯片的生产制造搞好——前阵子才刚看到有消息说，台积电之前盖好的美国工厂已经开始生产 4nm 芯片，这下好了，还有可能吃下英特尔现成的工厂，美国制造的 buff 叠满了，之后川普也不好拿它开涮吧。</p>
-<p>图片来源：David Paul Morris/Bloomberg News</p>
-<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20250218/v2_298ceabca2654496ba13e870af2790a6@5091053_oswg628725oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而博通呢可能大家不太熟悉，简单来说，它跟英伟达和台积电这些企业一样，都属于是万亿美元半导体企业俱乐部的成员，主要的业务就是帮助其他企业设计芯片，比如谷歌之前的 AI 处理单元 TPU ，就是在博通的帮助下整出来的。</p>
-<p>对于博通来说，把英特尔的芯片设计部门收入囊中，肯定有利于自己的业务拓展。之前博通的客户主要都是通信、数据中心、云计算等领域的基建供应商，而英子在 PC 高性能处理器这块的设计经验，算是之前博通缺少的。</p>
-<p>另外，差评君猜测哈，博通的这手操作也有点像 LOL 比赛里 “ 以抢代 ban” 的意思——英特尔再拉，也是目前行业唯二能设计出高性能 X86 处理器的企业，与其让它有可能落入竞争对手的手里，对自己造成威胁，还不如自己买下来补充实力。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,724" src="https://img.36krcdn.com/hsossms/20250218/v2_8f4b7e54054a4365a2d2ca7afddd3561@5091053_oswg968583oswg1080oswg724_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：Shutterstock</p>
-<p><strong>当然无论是博通还是台积电，前面这一切有利条件的前提还是在于，英特尔能不能被拆成。</strong></p>
-<p>而关于这点，那就要看美国政府放不放行了。</p>
-<p>首先是芯片代工业务这块，之前英子拿补贴的时候，跟美国商务部达成过一个附加条件，那就是即便拆分芯片代工业务，<strong>英子也要保留 50.1% 的股权，维持控制权。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1080,268" src="https://img.36krcdn.com/hsossms/20250218/v2_766d7b10f9f448f69ce9b230cfdcd836@5091053_oswg163867oswg1080oswg268_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：slashdot</p>
-<p>但特朗普的班子上来之后，对此的态度又有点 “ 头尖尖的 ” 。</p>
-<p>根据外媒的说法，特朗普政府可能会鼓励台积电和英特尔达成交易。</p>
-<p>但台积电和英特尔达成交易又有点不太可能，因为特朗普可能不支持外国企业拥有英特尔的工厂。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,431" src="https://img.36krcdn.com/hsossms/20250218/v2_cc5e2fdd1895448dbf5af72e1a89f9b4@5091053_oswg198541oswg1080oswg431_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>而在芯片设计业务这块，据外媒报道，博通的态度是： “ 要是别人不把英特尔芯片制造业务买了，那我也不买芯片设计业务了。 ”</p>
-<p>其实不难理解，博通本身就是 Fabless （ 无晶圆厂 ）半导体公司，一心只想搞设计，不想搞制造；再者，如果博通把英特尔整个吞下，那么反垄断法大概率就要找上门了。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,233" src="https://img.36krcdn.com/hsossms/20250218/v2_69432eae7b524ef9992c22d77ba0acc2@5091053_oswg131141oswg1080oswg233_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>得，这下子怎么看，这笔交易都有点陷入僵局的意思了。</p>
-<p>虽然如此，但不妨碍咱们大胆想象一下，如果英特尔真被拆分出售，会变成什么样子？</p>
-<p>大概率就是，英特尔这个品牌依旧保留，但由于没有芯片代工业务拖后腿，会变得像 AMD 那样把所有精力集中到设计上，并且芯片代工也会由过去的英特尔工艺变成台积电工艺。</p>
-<p>嗯。。。等下，我这咋越幻想越感觉这个未来挺美好的捏（ 狗头 ）。</p>
-<p class="image-wrapper"><img data-img-size-val="225,225" src="https://img.36krcdn.com/hsossms/20250218/v2_7eec00e546bf45d2a6896586e1908738@5091053_oswg60609oswg225oswg225_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>总之，关于台积电和博通打算 “ 瓜分 ” 英特尔这事，原本差评君单纯只是想给大家吃个瓜，但就这么吃着吃着，突然觉得这对于咱们消费者来说，可能还真不是一件坏事，甚至是好事。</p>
-<p>就目前英特尔现在这个半死不活的样子，还不如破而后立来一个浴火重生，万一以后把精力全放芯片设计上后，处理器给你来一个 “ 炸裂提升 ” 呢？</p>
-<p>当然这些都是差评君的《 幻想时间 》，但不管英子最后活成啥样，是否被出售，咱都希望以后能够继续买到更好、更有性价比的英特尔处理器。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,604" src="https://img.36krcdn.com/hsossms/20250218/v2_af610b1b492c48f9b41c2eb22c5a7b2e@5091053_oswg722427oswg1080oswg604_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>那句话咋说来着，没了英特尔的市场， AMD 可能会从 “ 屠龙少年 ” 最终变成 “ 恶龙 ” ，良性的市场竞争才是对咱们消费者最有利的。</p>
-<p><strong>图片、资料来源</strong>：</p>
-<p>华尔街见闻：台积电、博通“分了”英特尔？</p>
-<p>新浪财经：英特尔2024年总营收531亿美元净亏损达到188亿美元</p>
-<p>Reuters：Exclusive: Trump prepares to change US CHIPS Act conditions, sources say</p>
-<p>CRN：Intel Becomes Potential Takeover Target Of Broadcom, TSMC: Reports</p>
-<p>voronoi：All of the Grants Given by the U.S. CHIPS Act (Updated)</p>
-<p>英特尔</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/u422y2jaJKtz4iLqi75_Gw" rel="noopener noreferrer nofollow" target="_blank">“差评X.PIN”</a>，作者：粿条，编辑：米罗&amp;面线，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171252025715458</guid><pubDate>Tue, 18 Feb 2025 08:22:00 +0800</pubDate></item><item><title>李彦宏和马化腾，都想通了</title><link>https://36kr.com/p/3170676213656323</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>时隔多年，马云和马化腾再次出现在同一张照片之中——尽管是两个相距甚远、连AI都差点没认出来的背影。</p>
-<p>两人同时参加的这场会议，囊括了中国互联网和科技产业的大部分顶级精英——他们之中既包括任正非、雷军、王兴等熟面孔，也包括新近名声大振的年轻人：DeepSeek创始人梁文锋；即使有几位企业家缺席，也难以遮蔽这张照片所展现的，在新技术加持下，作为一个整体的中国互联网产业的提振和向好趋势。这种趋势，早在会议前，就已经体现在了各家大厂纷纷暴涨的股价上。</p>
-<p>那张满是背影的照片构成了一种令人振奋的隐喻：之所以看到的是背影，正因为他们在加速前行。</p>
-<p>企业家人聚在了一起，而各家公司业务上的连接已经抢先一步展开，连接器则是DeepSeek。</p>
-<p><strong>在完成云平台接入DeepSeek的第一阶段动作之后，部分科技大厂开始深入到第二阶段，即在自家超级APP中接入DeepSeek。</strong>百度搜索，成了继微信之后的第二家。2月16日晚，百度旗下超级APP百度搜索，宣布将接入DeepSeek。</p>
-<p>不同于马化腾在大模型自研领域推进相对缓慢的现状，李彦宏一开始就展现出了All in姿态，但随着百度搜索接入DeepSeek，百度在大模型自研路线上的战略定力，无疑也开始迎来更多的质疑和审视。</p>
-<p>上述举措也使得百度搜索接入DeepSeek的举动，在内外部引发的争议比微信还要更大一分。不过，反过来看，<strong>连投入力度更大、更高调坚持自研的百度，都开始在自家超级APP中接入外部大模型，这就更意味着，中国互联网从超级APP自给自足的“孤岛生态”，正在转向连接越来越紧密的“技术共同体”，百度的选择正强烈体现了这种趋势。</strong></p>
-<p>自2013年前后，中国科技大厂在日益升级的对抗中互相竖起封锁高墙——淘宝断链百度，微信隔绝淘宝、抖音链接……十余年过去，因技术进步筑起的栅栏，正同样有望由新的技术创新推倒。</p>
-<p>DeepSeek的爆火出圈，以及由此带来的微信和百度搜索对DeepSeek的相继接入，正使得<strong>中国互联网开始以前所未有的姿态，紧密连接在了一起，并向着“技术共同体”的新互联互通迈进。</strong></p>
-<p>在解释接入DeepSeek的原因上，百度和微信都给出了“满足用户多元化搜索体验”的理由，但相比微信的灰度内测，<strong>百度暂时还未向普通用户正式上线DeepSeek模型服务。</strong>根据百度官方介绍，目前平台正在小流量内测中，预计本周内面向更多用户开放使用。</p>
-<p>选择在自家主力APP中接入第三方大模型服务，成了李彦宏在大模型策略上的又一次转变。</p>
-<p>此前，百度曾在DeepSeek压力之下，一改闭源策略，开始拥抱开源路线，宣布未来几个月内推出的文心大模型4.5系列，将走向开源。</p>
-<p>如今，想通了的李彦宏，决定更进一步：为了守住搜索这一基本盘，从而保证百度自身现金牛业务的稳定，在坚持用自家大模型产品和应对用户流失压力的抉择中，选择了后者。</p>
-<p>尤其不容忽视的是，抢先百度选择接入DeepSeek的微信，无疑使得李彦宏在固守搜索市场基本盘上，压力又大了一分，这也可能成为促成百度在尚未部署好DeepSeek对外服务能力之际，不得不率先对外发布了将要在百度搜索中为用户提供DeepSeek模型的动作出现。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_e343a22ab5af4df7b73a51892c356eb7@000000_oswg80342oswg828oswg399_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>自1月20日DeepSeek-R1模型发布至今，其掀起的涟漪效应还在持续扩大。蜂拥而入的用户群，导致DeepSeek在2月6日即宣布暂停API服务充值，近半个月过去，截至2月17日，DeepSeek开放平台的API充值服务仍未恢复正常。</p>
-<p>为了尽可能增强自家主力APP的用户粘性，拉升用户时长，在DeepSeek这一流量密码面前，马化腾、李彦宏纷纷对DeepSeek张开怀抱。面对暂未接入的阿里和字节系主力APP，压力留给了马云和张一鸣。</p>
-<h2><strong>A</strong></h2>
-<p>过去十余年，陷入存量竞争阶段的中国互联网企业，一面筑高封锁之墙，一面加速流量在超级APP中的内循环。科技大厂们都希望增强产品粘性，把用户永远留在自家APP里。</p>
-<p>主导国内搜索市场的百度，则成了这些超级APP流量分割之下的直接受害者。越来越多的信息，不需要靠百度搜索即可触达。</p>
-<p>当时，为避免全网搜索最终沦为百度的站内搜索，百度给自己找到了一套解决方案：确立搜索+信息流双引擎，和百家号+小程序双生态的移动内容生态系统。</p>
-<p>2017年11月，李彦宏亲自下场，带队信息流业务，一直持续到2018年5月。彼时执掌百度移动生态事业群组的沈抖，讲过一个细节，“那段时间，每天早上八点半，Robin（李彦宏）都会跟核心团队开晨会，整整半年里，Robin从来没有一次迟到过”。至2019年，百度信息流月活终于做到可以与头条打平。</p>
-<p>但在百度追平今日头条的时候，短视频带来的新竞争来了，紧接着，影响更为直接的大模型竞赛，也来了。</p>
-<p><strong>在接入DeepSeek这件事上，百度或许才是更为着急的一家。</strong>毕竟，AI搜索直接冲击着传统搜索市场的份额，坐拥国内用户量第一的搜索APP的百度，其受到的影响要比其他科技大厂大得多。</p>
-<p>大模型火热之后，搜索已成为所有AI玩家抢占的入口高地。国外的ChatGPT、Perplexity，国内的豆包、kimi，乃至融合ChatGPT后的微软新Bing，纷纷盯上了传统搜索市场的蛋糕。</p>
-<p>但好在，<strong>过去两年间，AI搜索的到来，并未能改写搜索市场竞争格局。</strong></p>
-<p>2023年ChatGPT爆火之初，谷歌搜索在全球市场份额约九成，微软Bing市场份额在3%。两年过去，到2024年底，微软新Bing的市场份额也只是徘徊在4%左右。</p>
-<p>除了这些AI搜索产品给出的答案不够准确之外，用户使用时长的差距，也是导致它们难以撼动谷歌和百度搜索地位的重要原因。</p>
-<p>近期李彦宏在对外采访中就提到一组数据，“ChatBot的平均用户使用时间大约是10分钟，而社交媒体则是100分钟或120分钟。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_f9ca1cdaf363415aabadfa5d110d612c@000000_oswg347867oswg830oswg627_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但DeepSeek改变了这一切，无论是其20天狂揽3000万月活的陡峭用户增速，还是以约398万下载量，位居Huggingface官网模型排名第一的成绩，都向外界展示着其受欢迎的程度。</p>
-<p>这时，比百度搜索用户量和用户粘性都要更强的微信，率先与DeepSeek结合，既是微信向搜索市场发起进攻的新计划，又是对百度等传统搜索巨头的一次新威胁。</p>
-<p>对于百度和李彦宏而言，选择跟进接入DeepSeek，几乎已经变成了一个必选项。</p>
-<h2><strong>B</strong></h2>
-<p>这不是百度在DeepSeek压力之下的首次改变。更早之前，百度一改闭源策略，宣布在即将发布的文心4.5模型上，拥抱开源路线，以此来增强外界对百度在技术体验上的信任度和开发者对其生态的认可度。</p>
-<p>为了应对B端开发者流失的压力，与百度搜索接入DeepSeek同时宣布的，还有文心智能体平台将全面接入DeepSeek的消息。</p>
-<p>在争夺开发者群体方面，这并非百度第一次借力DeepSeek。在此之前，百度智能云千帆大模型平台便上线了DeepSeek-R1与DeepSeek-V3模型，并在旗下客悦、曦灵、一见、甄知等大模型应用产品中，接入了DeepSeek-R1。</p>
-<p><strong>在爆火DeepSeek压力下，想通未来大模型竞争策略的，除了李彦宏，还有OpenAI CEO奥特曼。</strong></p>
-<p>近期，在被问及是否担心OpenAI会成为AI界的Napster（首个P2P音乐共享平台，后因商业压力以失败告终）时，奥特曼表示，自己认为这种事不会发生在OpenAI内部，原因就是“我们一直都在为此感到压力”。</p>
-<p>在2月初上新o3-mini推理模型时，奥特曼就曾罕见承认错误，表示自己站在了开源错误的一边，反思过后的调整紧随而至：OpenAI即将发布的GPT-5，届时将向所有用户免费开放，并在开源上做出新的计划。</p>
-<p>过去两年中，大模型给传统应用带来的体验升级，让越来越多人开始认同一种观点，即所有应用都值得用大模型重做一遍。</p>
-<p><strong>基于上述共识，在自研大模型之余，科技大厂都相继发布了自家的大模型服务平台，既做淘金者，又争当卖铲子的人，都向着成为AIGC时代的安卓梦想发起冲锋。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_61ae954a0c4c41dba37b189a20423722@000000_oswg66502oswg900oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这场面向AIGC时代应用生态开发标准的抢位战，比拼的标准，一度是看谁能跑得更快，谁能拿下更多的企业客户，谁能建立更多的应用落地优势，从而拿到更多的反馈数据，最终凭借“滚雪球效应”脱颖而出。</p>
-<p>如今，DeepSeek的异军突起，正在打乱科技大厂原有的“滚雪球效应”，其生态建设之路开始平添变数。</p>
-<h2><strong>C</strong></h2>
-<p><strong>从微信到百度搜索，超级APP+DeepSeek的组合，再次向外界展示着某种“技术共同体”的构建可能性，即AI可能更有利于现有应用厂商，尤其是头部应用厂商。</strong>如金沙江创投主管合伙人朱啸虎所说，在现有应用基础上，融入AI能力，是当下AI落地更实际的选择。</p>
-<p>相比创业公司重构新的场景，大模型无疑更加利好每个行业中的头部玩家。在朱啸虎看来，已经拥有使用场景的玩家，通过大模型很容易就能为自己的产品加上AI的功能。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_9e1df42e783841e79ff021cda5fc6ed4@000000_oswg41322oswg1026oswg435_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>未来，甚至不排除由DeepSeek输出技术，由科技大厂输出应用和场景的新模式出现。</strong>目前来看，马化腾和李彦宏，都已经为这一“技术共同体”的前景，各自先添了一把火。</p>
-<p>而且，腾讯对DeepSeek的拥抱还在加深。继腾讯元宝、微信之后，截至目前，腾讯文档、QQ浏览器、QQ音乐、腾讯地图等也正式接入了DeepSeek。</p>
-<p>那么，同为超级APP的淘宝、抖音们，何时会接入DeepSeek？压力传导给了马云和张一鸣们。</p>
-<p><strong>在近期的对外讲话中，包括阿里董事长蔡崇信和字节CEO梁汝波在内，都未提及在主力产品中接入DeepSeek的计划。</strong></p>
-<p><strong>选择暂时不接入DeepSeek，或许也跟两家大厂的AI发展策略相关。</strong></p>
-<p>在抖音的全系流量灌溉之下，加入投流之战的豆包，一度是DeepSeek爆火前用户量增速最快的AI产品，并最终拿下国内月活用户数第一的宝座。</p>
-<p>去年12月底，眼看着AI应用爆发在即，阿里也随之调整策略，开始将通义应用从阿里云分拆，并入阿里智能信息事业群。这被视为阿里加码“AI to C”的重要信号。</p>
-<p>但随着字节、阿里纷纷重注自家AI助手，硬币的反面弊端也开始凸显——它们在接入第三方大模型上变得更加纠结和有压力。</p>
-<p>尽管在云平台部署侧，阿里云和火山引擎都跟进选择接入DeepSeek，但它们均尚未在自家主力APP中延续这一行为。</p>
-<p><strong>通过发力C端应用，字节和阿里，都在去年定下了软硬件协同的AI发展策略，自研大模型成为这一策略的重中之重。</strong></p>
-<p>2023年11月推出自研大模型后，夸克超越通义，成了阿里争夺C端AI应用的桥头堡。到2024年底，据虎嗅报道，夸克月活均值超过8000万，几乎与豆包持平。随着去年通义并入阿里智能信息事业群，阿里高层还提升集团副总裁吴嘉为阿里“AI to C”的负责人，让其推动阿里大模型在应用（软）和智能硬件（硬）两大维度上的新突破。</p>
-<p>字节更是在豆包助力之下，于去年推出了首款AI硬件——Ola Friend耳机，并被爆出将要进军AI眼镜的新计划。</p>
-<p>在近期举办的新一期All Hands全员会上，字节CEO梁汝波更是提到，2025年的重点目标，包括探索新的交互（去年上线的Ola Friend只是初步尝试），以及加强规模效应（做大豆包用户群）。字节软硬件结合的AI策略，尽显无遗。</p>
-<p>借助自家大模型产品，来驱动硬件智能化变革，这既可以免去科技大厂对失去数据掌控的担忧，也能够通过在数据处理和业务协同上更好的软硬件配合，提升公司的整体运营效率，从而降低成本开支。</p>
-<p>但在开源的DeepSeek面前，上述担忧正逐渐失去足够强的说服力。现在，就看马云和张一鸣们，什么时候能想通了。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI2NjU1MTcwMA==&amp;mid=2247544817&amp;idx=1&amp;sn=578a5a28c2c56975247546585855b608&amp;chksm=eb801f375d9705682d82225c4ca652b4c965b060b60fc3a110ebf5bd6ea692e11466fe3fc02a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“字母榜”（ID：wujicaijing）</a>，作者：赵晋杰，编辑：王靖，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170676213656323</guid><pubDate>Tue, 18 Feb 2025 08:27:00 +0800</pubDate></item><item><title>喜欢拉踩同行的汉堡王，快被同行干翻了</title><link>https://36kr.com/p/3170693247139335</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>新年开工后第一个周一，汉堡王在微博上闪电官宣“1+1省薪套餐”的升级套餐，推出“小熊酥cp”新品，并在开工宣传的海报上赫然标注——“不用13元”。</p>
-<p>在此之前，海报的同一位置写的是：“仅需12.9元”。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,610" src="https://img.36krcdn.com/hsossms/20250217/v2_41b1a06ca6a848179a8409baa19b2908@5576336_oswg76920oswg1080oswg610_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="image-wrapper"><img data-img-size-val="1078,1704" src="https://img.36krcdn.com/hsossms/20250217/v2_059aee3bb8104df0be2fb2388c72ad3c@5576336_oswg241285oswg1078oswg1704_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">汉堡王的标语变化</p>
-<p>尽管价格标签上的数字仅相差0.1元，但其中透露出的微妙情绪却足足升级了两个档次。</p>
-<p>要知道，麦当劳自推出便一直风靡的“1+1随心配”，此刻正售价13.9元。一时间，开年营销战硝烟四起。</p>
-<h2>蹭同行流量</h2>
-<h2>“麦肯瑞”一家都没落下</h2>
-<p>回溯这场价格战火：麦当劳于2019年首创「1+1随心配」模式，以12.9元的极致性价比被消费者戏称为“穷鬼套餐”，迅速成为引流利器。然而「1+1随心配」套餐涨价1元的决策，引发了社交媒体上“麦当劳背叛穷鬼”的声浪。</p>
-<p>汉堡王立马捕捉这一情绪缺口，火速祭出“1+1=-1”“收留隔壁伤心人”等极具挑衅意味的标语，宣布推出“1+1”工作日套餐，定价为涨价前的12.9元，上演一场堪称“麦难饭”的营销狙击。</p>
-<p class="image-wrapper"><img data-img-size-val="1078,1702" src="https://img.36krcdn.com/hsossms/20250217/v2_7642f2cb04da445aa947219cec333920@5576336_oswg205533oswg1078oswg1702_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">汉堡王“1+1=-1”的宣传海报</p>
-<p>拉踩同行一直是汉堡王的营销法则。从麦当劳、肯德基到瑞幸，汉堡王属实是一家都没放过。</p>
-<p>2024年10月，汉堡王启动“周四国王疯”活动，每周四推出8.8元鸡条套餐、8.8元鸡腿组合、对暗号领0元薯霸王券等促销活动。</p>
-<p>这一策略明显借势肯德基“疯四”的流量红利。不过，肯德基“疯四”已通过多年“梗文化”渗透，不断更新的“V我50”段子，形成“周四=肯德基”的强绑定认知，汉堡王短期内难以撼动。</p>
-<p class="image-wrapper"><img data-img-size-val="850,1137" src="https://img.36krcdn.com/hsossms/20250217/v2_fcd14eaca787435fba62b870273c20d4@5576336_oswg155908oswg850oswg1137_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">汉堡王“周四国王疯”的促销活动</p>
-<p>此前，汉堡王还宣布进入“9.9元时代”，推出“招牌汉堡周周9.9元”活动，将小皇堡等核心产品价格降至9.9元，覆盖堂食、外卖及电商全渠道，且无会员或消费门槛。这一策略对标瑞幸咖啡的“9.9元常态化促销”，试图以低价撬动消费决策。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,638" src="https://img.36krcdn.com/hsossms/20250217/v2_836421b32e9a43549e07a800bdef8f93@5576336_oswg451003oswg1080oswg638_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">汉堡王宣布自己进入9.9元时代</p>
-<p>这是汉堡王针对当前消费态势精心制定的定价策略与促销方案。据汉堡王方公开表示：“未来，我们将致力于在更优质产品力的基础上，用比友商更低一点的价格，更多的‘会员狂欢节日’，来赋予粉丝更多的情绪价值。”</p>
-<p>然而，实施效果却未能尽如人意。目前汉堡王在中国的门店数量还很难跟麦当劳和肯德基抗衡，单店经营效率也并不十分稳定。截至2024年年末，汉堡王在国内有约1400+门店，但当年闭店超过300家，同比2023年不增反降。这一市场表现本身就说明，比起品牌热度，汉堡王有更重要的事情亟待解决。</p>
-<h2>本土化失利</h2>
-<h2>从专业汉堡沦为促销符号</h2>
-<p>在全球范围内，汉堡王一直以“冒犯大王”的品牌形象闻名，但在中国市场这一形象有其水土不服的一面。</p>
-<p>无论是麦当劳的早餐，还是肯德基的疯狂星期四，都是其本地化运作成功的结果。这些结果不是通过一比一复制就能实现的，而是要在产品和文化层面，深入到本地消费者的胃口和心智中。</p>
-<p>相比之下，汉堡王的本土化探索显得较为肤浅，例如其与游戏《恋与制作人》的短暂联名，虽一时吸引眼球，却未能有效构筑差异化竞争优势。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,811" src="https://img.36krcdn.com/hsossms/20250217/v2_afab7e025ca8407b99f54d3e6d8667ef@5576336_oswg99595oswg1080oswg811_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">汉堡王和游戏联名时餐厅会做相应的布置</p>
-<p>“见风使舵”的营销策略，短期内确实能快速吸引消费者关注并提升销量，但也会导致品牌传达失焦。</p>
-<p>一方面，它可能导致品牌形象变得复杂混乱。汉堡王在追逐热点的过程中，未能有效展现出自身的差异化特色。“火烤”作为汉堡王的核心优势，参与热点营销时，本应借此机会强化这一品牌印象，突出其产品独特的口感与健康属性，而非仅仅聚焦于低价策略。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,1440" src="https://img.36krcdn.com/hsossms/20250217/v2_f5088eccb722483dbb09e4caee1493a8@5576336_oswg246936oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">汉堡王的核心特色——“火烤”</p>
-<p>另一方面，汉堡王的消费者中存在一部分的高质偏好型用户——本身就是汉堡爱好者，认可汉堡王的火烤工艺和牛肉品质。频繁的促销策略可能会导致这类用户因为过度迎合低价客群，不满客流激增导致的排队久、品控不稳等体验而流失。</p>
-<p>据艾瑞数据发布的《2024中国汉堡行业白皮书》显示，中国消费者对“烤制”内馅的偏好显著，其中烤制牛肉的喜好率高达71%，这本是汉堡王得天独厚的优势所在。</p>
-<p class="image-wrapper"><img data-img-size-val="920,500" src="https://img.36krcdn.com/hsossms/20250217/v2_5b466ba5a1ae48819f4b3d3ed3a6d730@5576336_oswg98700oswg920oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">截图来自《2024中国汉堡行业白皮书》</p>
-<p>然而，频繁的低价促销活动却掩盖了其火烤工艺的独特魅力，导致品牌形象由“品质汉堡”逐渐转变为“促销标签”。</p>
-<p>尴尬的是，在高端领域，汉堡王难以撼动麦当劳与肯德基的稳固地位；而在低端市场，其食材成本占销售额40%-50%的高成本运营模式，又难以与华莱士、塔斯汀等等擅长极致成本控制的本土品牌相抗衡。</p>
-<p>若汉堡王无法打破门店规模的增长瓶颈，或构建清晰的品质认知，恐怕将面临逐步沦为“促销依赖型品牌”的风险。艾瑞数据的调研结果进一步印证了这一点：在中国消费者心中，汉堡王的“高端”形象认知度仅为12%，而“促销频繁”的印象却高达67%。</p>
-<h2>结语</h2>
-<p>汉堡王的困境也揭示了当下的现实：拉踩可以博取眼球、低价可以吸引流量，但如果汉堡王持续采取“跟进式营销”和“以价换量”的策略，或许最终结果只有沦为快餐市场的边缘角色。</p>
-<p>2024年8月，汉堡王母公司RBI毅然决定向中国市场追加数亿投资。这笔钱——是继续投入价格战的无底洞，还是转向产品创新与体验升级，或将决定汉堡王的命运。</p>
-<p>同年年末，RBI全球高层主动对外披露，已向汉堡王在华主特许经营商发出“终止合作通知”，双方正步入争议解决阶段。此举或许正是汉堡王“求新求变”的信号，表明其正在积极探索在华的长期可持续发展路径。</p>
-<p>毕竟，消费者心中最终铭记的，从不是价格最低的品牌，而是最不可替代的那一个。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/PjaxzSAaEHvZ4RkX7OVTUg" rel="noopener noreferrer nofollow" target="_blank">“胖鲸头条”</a>，作者：王琛，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170693247139335</guid><pubDate>Tue, 18 Feb 2025 08:32:00 +0800</pubDate></item><item><title>腾讯再战电商</title><link>https://36kr.com/p/3170732491926024</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>微信送礼功能的推出，让各大电商平台过了一个提心吊胆的春节。</p>
-<p>年前，“微信蓝包”登录微信聊天界面，用户在微信小店购买商品后，可以一键转发至对话或群聊，对方可填写地址接受或原路退回。</p>
-<p>新功能内测之际，“微信蓝包概念股”就已喜提大涨，媒体喊出“第二次偷袭珍珠港”的口号，替腾讯半场开香槟，搞得公关总监张军亲自出面灭火，恳请各大文豪“不要给我们定商业计划”。</p>
-<p>面对马化腾“不要对这个功能过度吹捧[1]”的呼吁，友商的反应却出奇一致——赶在年夜饭前，抖音、淘宝、美团、京东全员跟进，接连推出送礼功能。</p>
-<p>电商平台如临大敌不难理解。十年前的春节，微信红包横空出世，九天时间圈走800万用户；随后两年，支付宝丢掉了移动支付市场的三成份额[2]。</p>
-<p>腾讯苦战电商多年，微信是最后一片应许之地。2020年上线的视频号是这一轮进攻的主力，微信蓝包背后的微信小店，就是由视频号小店升级而来。</p>
-<p>尽管从各方口径来看，送礼功能的效应远不如当年微信红包轰动，但前车之鉴不远，没有人会放下对微信电商的警惕。</p>
-<h2><strong>一个疗程，两种疗效</strong></h2>
-<p>2022年，马化腾在腾讯内部大会上演两幅面孔，对一众老业务狠话连连，却亲切地称刚出新手村的视频号为“全场的希望”[3]。</p>
-<p>不怪Pony寄予厚望，视频号自2020年诞生，就奔着腾讯的两大难题而来：<strong>一是电商，二是短视频。</strong></p>
-<p>以2006年的拍拍网为起点，腾讯的电商业务以四年为一个单位表演仰卧起坐，旗下产品致敬一圈友商，在场选手却无人伤亡。</p>
-<p>对标淘宝的拍拍网被京东收购一年后停服；独享流量池的QQ网购被小学生购买力拖了后腿；2012年腾讯成立单独的电商控股公司，隔年电商业务就亏出8个亿，还是刨除仓储成本的结果[4]。</p>
-<p>2012年后，腾讯整体战略转向开放，电商业务被撤销，腾讯成为京东第三大股东，开始“把半条命交给合作伙伴”。</p>
-<p>后来微信扶摇直上，MAU赶超QQ后一路狂奔突破10亿大关，圆微商暴富梦想，送有赞微盟（第三方服务商）上市，自家电商业务却一直在小规模试水，微信小店开了又关，小鹅拼拼也无疾而终。</p>
-<p>反倒是借道微信的拼多多创造奇迹，黄峥顺手捡了个反面素材：“腾讯有全中国最大的流量，投了一堆垂直电商，如果按照这个（流量）逻辑腾讯早成了[5]。”</p>
-<p>电商业务头顶“没有基因”的判词，短视频业务同样曲折，前后近20款产品中，最具代表性的莫过于微视。</p>
-<p>2013年，微视含着金汤匙出生。腾讯倾举家之力为其导流，不仅斥巨资请范冰冰、李敏镐等明星站台宣传，马化腾也亲自下场，连发四条视频吆喝；微视在手的腾讯，还一度婉拒投资快手的机会[6]。</p>
-<p>奈何微视的表现始终差口气，腾讯最终在2016年转身投资快手，微视宣告关停。后来腾讯也曾经不信邪地重启微视以截击抖音，但直到2019年的夏天，微视和抖音的DAU分别是1000万和3.2亿[7]。</p>
-<p>眼看同行踩在内容电商爆发前夜，腾讯在财报中委婉表示：短视频业务“目前正处于起步阶段”。</p>
-<p>一片风雨飘摇之际，微信视频号如救星登场。上线仅五个月，视频号DAU突破2亿，2022年，视频号达成历史性壮举——<strong>月活达到8.13亿，拳打抖音（6.8亿）脚踢快手（3.9亿）[8]。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_1c0620efb6854567b077c3f3f340cde7@000000_oswg144417oswg1080oswg1033_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>电商业务也不负Pony所托。2022年视频号直播带货GMV同比翻了八倍，次年同比翻了三倍*，据方正证券估算，去年微信小店全年GMV约为3000亿左右[9]。</p>
-<p>形势一片大好——这还是在视频号运营思路相对克制的情况下。</p>
-<h2><strong>短暂的克制</strong></h2>
-<p>今年年初，在抖音停播百余天、掉粉近千万的小杨哥悄悄挪窝，一边此地无银地强调“并非转移阵地”，旗下账号“小杨臻选”一边在视频号低调复播。</p>
-<p>达人主播与背后的MCN机构是互联网的游牧民族，本应追逐流量水草而居，但视频号诞生至今，类似的顶流主播却鲜少踏足。去年东方甄选视频号首秀，放的还是录播内容。</p>
-<p>按理来说，视频号不仅是新的流量池，其用户结构也和抖音、快手有明显的差异性：</p>
-<p><strong>一是广阔的下沉空间。</strong>抖音和快手轮着将短视频的用户池洗了一遍后，视频号依然找到自己的一席之地——过半的用户在36岁以上，近1/5的用户分布在五线城市及以下[10]，渗透率比老铁文化发源地快手还高。</p>
-<p>这也造就了“低配靳东，高配秀才”遍地走的奇景。着装发型统一的“成熟男人”一边批发情感金句，朱泳腾、任重、迟帅等中年男星一边前赴后继。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_509827a9b9f9416c90a9e356caea251e@000000_oswg120042oswg1080oswg1033_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>二是不俗的消费能力。</strong>视频号大盘20%-40%的退货率，放眼业内其实是优等生队伍；直播间超过200元的客单价*，也远高于抖音的100-120元[11]。</p>
-<p>但对顶流主播和广大MCN机构来说，视频号诞生之初，一直运行着一套陌生的游戏规则。</p>
-<p>在抖音与快手，平台与机构原本默契地遵循着同一种活法：<strong>流量分配强者恒强，商业变现大水漫灌。</strong></p>
-<p><strong>前者指少数头部掌握大多数流量，形成金字塔式的分布结构。</strong>极端情境下，一个李佳琦或是辛巴就能撬动三分天下；</p>
-<p><strong>后者则是利用投流玩法，把短视频和直播带货做成计算ROI的数学题。</strong>抖音上曾红极一时的单品直播，就是全场主推一款商品，靠着不断买流量怼出亿级GMV。</p>
-<p>这套极具效率的玩法以公域流量为前提，平台与创作者一个愿卖，一个愿买，各取所需，共同富裕。早年私域打天下的快手，也在商业化提速时削藩六大家族、增加单列“精选”频道来做大公域。</p>
-<p>但视频号的流量分配规则似乎对超级大V有种天然的排斥，由此奠定了松弛底色：</p>
-<p>励志宝妈和夫妻创业的热门赛道上人山人海，从郭亿易、年糕妈妈到宝哥宝嫂夫妇，出了平台就查无此人；40万粉丝的KOL在视频号大胆认领“一姐”标签，同一个人在隔壁抖音，粉丝量再加20万，论资排辈连“中腰部”都算不上。</p>
-<p>基于这种流量分配机制，松弛感自然也蔓延到了电商生态：</p>
-<p>去年618，钟丽缇贡献了视频号首个破千万观看的带货场，但当场GMV不到600万[12]；原生达人妍伊夫妇今年5月母亲节专场，带货4小时GMV2000万，战报不吝“里程碑”、“现象级”等词汇，单方面宣布打破视频号多个历史纪录[13]。</p>
-<p><strong>微信铁了心要纪律不要效率，不扶超头，不兴买量，于是视频号在“关注”和“推荐”之间横插一栏“朋友”，巅峰时期，社交推荐（即朋友点赞）的流量分配权重超过六成。</strong></p>
-<p>视频号的投流机制也一度被戏称为“玄学”，商家“想花钱都花不出去”[14]；当友商的广告加载率“克制”到10%左右时，视频号只有3%[15]。</p>
-<p>高举去中心化大旗的视频号，最终呈现出一种“眼高手低”的假象：</p>
-<p>论广告收入仅为快手的1/5，论每日新增视频数也只有抖音的1/5[16]；当抖快野蛮生长到万亿规模时，视频号还在为千亿小目标而庆祝。</p>
-<p>然而没有人会因此对视频号放松警惕，毕竟微信上一次青史留名，就是因为一场号称“偷袭珍珠港”的绝地反攻。</p>
-<h2><strong>内循环模式</strong></h2>
-<p>“腾讯没有电商基因”总会跟着下半句“但有电商土壤”，电商部门那些年的失败史，映衬着隔壁战投部门的成功学。</p>
-<p>2012年后，在“流量+资本”的开放战略指引下，腾讯化对手为盟友，微信则是最重要的流量吞吐节点。</p>
-<p>微信不仅流量富裕，而且粘性够强。同样是月活迈过7亿大关，高德地图、支付宝都苦于用后即走的工具属性，淘宝为了留住用户大搞千人千面和内容化，微信却凭借社交属性自带高留存和使用时长。</p>
-<p>小到微商头子，大到行业巨擘，人人熟谙“分享到微信”的恐怖之处，让腾讯怒赚800多亿的拼多多就是最好的例子。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_0a180711b1794659a22d6744f3e116eb@000000_oswg246981oswg1046oswg1000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但视频号出现后，腾讯也开始有序搭建自身的电商闭环，原因恐怕在于“内循环”模式在市场的充分验证。</p>
-<p>一般来说，短视频平台负责生产流量，电商平台从前者手里购买流量。但在与六大家族斗智斗勇的过程中，快手摸索出了一套名为“内循环”的模式：</p>
-<p><strong>借助电商业务在平台内部创造一批“甲方”，后者也在平台内购买流量变现。</strong>内容平台的流量自产自销，不靠外部客户就能自给自足。商家为了获取更多曝光，就会投放广告，那么同一笔交易，平台能赚佣金和广告两份收入。</p>
-<p>相比看天吃饭的外循环广告，内循环自给自足、旱涝保收。2022/23两年，快手连续两年在财报里划重点：广告业务的增长“尤其来自我们电商商家的投放”。</p>
-<p>此后，“内循环”模式成为内容平台的参考答案，抖音是最成功的跟随者。视频号一度剑走偏锋，但身负集团的殷切期望，也开始摸着前人过河。</p>
-<p>平台收入由此直接与两个指标挂钩：<strong>一是平台掌握的流量有多大，二是商家达人的预算有多高。</strong></p>
-<p>在流量侧，视频号早已开始向公域倾斜。</p>
-<p>据国海证券测算，2021-2023年期间，视频号的机器推荐分发权重已经一路提升至五成以上，超过了视频号一度推崇的“朋友推荐”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_693e0eafb48a49bb80c097ed25d68bc2@000000_oswg152745oswg1080oswg959_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在商家侧，视频号则打起了钱包更鼓的品牌的主意。</p>
-<p>2023年，视频号的三大高频交易类目分别是服饰、食品和家清日用，与之相对，平台85%的GMV都由白牌商家贡献[20]。即使是白牌起家的拼多多，也早已将品牌GMV占比拉到50%以上[21]。</p>
-<p>去年6月，视频号发布了一项品牌引入激励计划，其中就包含搜索优先露出、品牌专属流量池等扶持举措。</p>
-<p>同时，升级后的微信小店打通了从公众号到支付页面的各种入口，没有实体，又无处不在。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_77e3ef66853041a4863a5f40bba86799@000000_oswg247425oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>今年春节上线的微信蓝包（送礼功能），一方面让许多微信用户第一次在写下收货地址，另一方面也撬动了一批品牌进场，母婴品牌孩子王火线开店，三天成交6.5万单[22]。</p>
-<p>腾讯显然看到了内循环模式的潜力。2023年Q2，财报单独提及视频号广告收入为30亿元，Q3再次强调，微信“泛内循环广告收入”贡献了微信广告大盘的一半。</p>
-<p>2022年后，互联网公司整齐划一的前赴后继做电商，原因就在于快手摸索的这套内循环模式过于诱人，电商市场稳固的格局重新开始分散。</p>
-<p>另一方面，今日的互联网已经没有一丝缝隙，再微小的流量也被瓜分殆尽。套用黄峥早年的一句话： 桌上的人不愿意你上来，桌下的人也不愿意你上去[5]。</p>
-<p>而隔壁桌上的商家，又要开始适应全新的游戏规则。</p>
-<p><strong>参考资料</strong></p>
-<p>[1] 马化腾：希望外界不要对微信小店“送礼物”功能过度吹捧，界面新闻</p>
-<p>[2] 腾讯控股：超级APP构筑核心竞争优势，产业互联网驱动公司成长，东北证券</p>
-<p>[3] 马化腾对内讲话：留给某些业务的时间不多了，不要再跟我说买量的事，界面新闻</p>
-<p>[4] 沸腾新十年：移动互联网丛林里的勇敢穿越者（下），林军、胡喆</p>
-<p>[5] 对话拼多多黄峥：他们建帝国、争地盘 我要错位竞争，财经</p>
-<p>[6] 快手融资故事：还原 2021 年中国互联网第一场资本盛宴，晚点Late Post</p>
-<p>[7] 最前线 | 抖音发布2019年度报告，日活跃用户数超4亿，36氪</p>
-<p>[8] 2022中国移动互联网半年大报告，QuestMobile</p>
-<p>[9] 腾讯控股：微信电商的历史、现状及空间测算，方正证券</p>
-<p>[10] 2024年新媒体生态盘点，QuestMobile</p>
-<p>[11] 抖音电商上半年GMV未达预期，客单价、动销商家留存率双下滑，36氪</p>
-<p>[12] 钟丽缇贡献首个千万场观直播间 为何视频号的“618”还是“静悄悄”？每日经济新闻</p>
-<p>[13] 单场直播破6大纪录，4小时GMV超2000万！现象级视频号直播打法揭秘，微盟</p>
-<p>[14] 视频号到赚钱的时候了吗？有人月GMV3000万，有人看不懂要放弃，新榜</p>
-<p>[15] 视频号与抖音殊途同归：直播电商成短视频赛道终点，21世纪经济报道</p>
-<p>[16] 微信吃不饱，视频号发力，虎嗅</p>
-<p>[17] 腾讯阿里不得不说的7次掐架，新熵</p>
-<p>[18] 马云：微信起来的时候，我每天都挠头发，凤凰科技</p>
-<p>[19] 腾讯传，吴晓波</p>
-<p>[20] 2024年视频号商业化趋势洞察研究报告，微盟</p>
-<p>[21] 拼多多的好日子，是我们的苦日子，有数DataVision</p>
-<p>[22] 微信“送礼物”功能上线 能否撬开社交电商新空间，江苏经济报</p>
-<p>*来源于微信公开课</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwMDY2NTgwMA==&amp;mid=2247522154&amp;idx=1&amp;sn=fdaa7aee4a47835463e89e9b93d520d0&amp;chksm=97c4cd1263939068ea2cb41459ab2cc7feb16adfba6f1004bb44fe0195d3dfd259be35083af8&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“远川研究所”（ID：caijingyanjiu）</a>，作者：罗雪妍，编辑：黎铮，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170732491926024</guid><pubDate>Tue, 18 Feb 2025 08:35:00 +0800</pubDate></item><item><title>多线崩盘，谁「杀」死了新能源黑马？</title><link>https://36kr.com/p/3171385039251973</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>广汽集团，开年不利。</p>
-<p>数据显示，在今年一月份，广汽集团整体销量同比下降25.41%，广汽本田、广汽传祺、广汽埃安三大品牌的销量更是均迎来了同比暴跌。从新能源汽车销量来看，同比下降47.22%，销量渗透率仅为8.5%，在一众传统车企中处于落后地位。</p>
-<p>情势危急，广汽集团选择再次抱紧华为大腿，双方将联合打造一个全新的汽车品牌，首款产品定位30万级豪华智能新能源车。但目前鸿蒙智行已经集齐四界，还有消息称上汽也将与华为推出尚界，留给广汽集团的资源已经不多了。</p>
-<p>近日，广汽集团原董事长曾庆洪到龄退休，由冯兴亚继任。面对合资和自主品牌均萎靡不振的危局，他能否带领广汽集团自救？</p>
-<h2><strong>1月惨淡</strong></h2>
-<p>近日，广汽集团公布了2025年1月产销数据，交出了一份惨淡的答卷。今年1月，广汽集团汽车产量为116345辆，同比下降26.13%；1月汽车销量为98437 辆，同比下降25.41%。</p>
-<p>具体来看，广汽本田销量为15123辆，去年同期35282辆，同比下降57.14%；广汽传祺18327辆，去年同期33799辆，同比下降45.78%；广汽埃安7965辆，去年同期11005辆，同比下降27.62%；仅有广汽丰田实现了正增长，1月为57000辆，去年同期51030辆，同比增长11.7%。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,406" src="https://img.36krcdn.com/hsossms/20250218/v2_f2887dafbcaf4c03abb5e7a45af375ba@5091053_oswg91233oswg1080oswg406_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>值得注意的是，广汽集团的新能源汽车销量也表现不佳。今年1月为9905辆，而去年同期18766辆，同比下降47.22%；以此计算，今年1月广汽集团的新能源汽车销量渗透率仅为8.5%左右，在一众传统车企中处于落后地位。</p>
-<p>目前，广汽集团的新能源汽车主要依靠广汽埃安支撑，但2024年的广汽埃安可谓是遭遇了滑铁卢。</p>
-<p>数据显示，2023年，广汽埃安的销量达到了48万辆，同比增幅高达77%，在国内新能源汽车品牌中处于第一梯队。广汽埃安也喊出了“2024年至少70万辆，冲击80万辆年销量”的目标。</p>
-<p>但尴尬的是，进入2024年之后，由于多重因素的影响，广汽埃安的销量开始遭遇连续暴跌。广汽集团发布的数据显示，从2024年2月份开始，一直到10月份，广汽埃安的销量一直呈现出同比下滑的态势。2024年1-12月份，广汽埃安的累计销量仅为374884台，相比2023年同期下滑了21.9%。2024年至少70万辆的年度目标完成度也仅为53%左右。</p>
-<p>自主品牌不给力，广汽集团旗下的合资品牌也在尝试开启新能源转型。</p>
-<p class="image-wrapper"><img data-img-size-val="765,846" src="https://img.36krcdn.com/hsossms/20250218/v2_38e45206f3e24448b8ff882d34cdc534@5091053_oswg55860oswg765oswg846_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>以广汽本田为例，2024年，广汽本田发布了“烨P”全新电动品牌。按照广汽本田的官方解读，“烨”寓意“闪耀与璀璨”；“P”为Prime，代表“独特与唯一”“烨P让每一位用户都能享受驾驶的乐趣，并为他们带来不可替代的体验。”但尴尬的是，网友们对此并不买账。他们吐槽，“烨P”品牌不仅拗口难记，字体设计也特别像“诈尸”二字，相当不吉利。</p>
-<p>有消息称，在近期的宣传海报中，广汽本田原定名“烨P7”的纯电SUV把“烨”字去掉，只留下“P7”。出师未捷的这款车型，想要拯救销量暴跌的广汽本田，恐怕难度巨大。</p>
-<h2><strong>换帅自救？</strong></h2>
-<p>不只是销量萎靡，广汽集团的财务状况也不太理想。</p>
-<p>在燃油车时代，凭着丰田、本田两大合资业务，广汽集团一度赚得盆满钵满。但在新能源汽车时代，由于销量持续下滑，广汽集团的财务状况也持续恶化。</p>
-<p>今年1月，广汽集团披露了2024年度业绩预告，预计2024年归母净利润8亿元至12亿元，同比下降72.91%～81.94%；扣非净利润亏损33亿元至47亿元，上年同期盈利35.73亿元。</p>
-<p>广汽集团在公告表示，公司业绩变动原因为，受汽车行业价格内卷、竞争格局剧变等因素影响，汽车销量减少；同时为应对市场竞争，公司及投资企业追加销售补贴等商务政策的投入约180亿元，综合导致本报告期归属于母公司所有者净利润同比下降。</p>
-<p>实际上，这一局面在2024年第三季度就已显现。财报显示，广汽集团2024年前三季度营收为740.4亿元，同比下降24%；净利为1.2亿元，同比下降97.34%；扣非后净亏损为18.7亿元。</p>
-<p>销量、营收和利润暴跌之下，广汽集团今年2月发布公告，曾庆洪因到龄退休，辞去公司董事长、董事等一系列职务。资料显示，曾庆洪在广汽集团工作长达28年，担任一把手近9年，其卸任更让外界对广汽集团的发展状况产生担忧。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,730" src="https://img.36krcdn.com/hsossms/20250218/v2_c771c6f6d6b0439ba6991f8c17ee8a6e@5091053_oswg61460oswg1080oswg730_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在曾庆洪卸任的同时，广汽集团选举冯兴亚为新任董事长。资料显示，冯兴亚自2004年起就在广汽集团任职，也是行业老兵，不过曾庆洪给他留下的却是一个烂摊子。曾庆洪曾把广汽集团带到了燃油车时代的巅峰，而继任的冯兴亚又能否让广汽集团在新能源时代重回辉煌？仍需拭目以待。</p>
-<h2><strong>华为能成救命稻草？</strong></h2>
-<p>实际上，在曾庆洪卸任之前，广汽集团就已经意识到了危机，开启了三年“番禺行动”的改革计划。整体的策略是一方面稳住合资品牌，同时重点发展自主品牌上。</p>
-<p>三年“番禺行动”的目标是，到2027年使自主品牌占集团总销量的60%及以上，挑战自主品牌销量200万辆。但如果从2024年的销量情况来看，这一目标挑战巨大。数据显示，2024年，广汽传祺累计销量41.46万辆，同比增长1.99%；广汽埃安累计销量37.49万辆，同比下滑21.90%。</p>
-<p>也就是说广汽传祺和广汽埃安这两大自主品牌2024年的合计销量不到80万辆，占广汽集团总销量比重不到40%。更何况，广汽埃安目前还处于销量暴跌的下行阶段。</p>
-<p>在此背景下，广汽集团将目标瞄向了华为。</p>
-<p class="image-wrapper"><img data-img-size-val="958,610" src="https://img.36krcdn.com/hsossms/20250218/v2_57be6123c01c43028415dde941ec9fdf@5091053_oswg168489oswg958oswg610_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>今年1月，冯兴亚在微博上透露了与华为合作的新进展。他表示，广汽集团第六届董事会第78次会议审议通过了《关于GH项目的议案》，同意公司投资设立GH项目公司，注册资本为15亿元。冯兴亚透露，广汽集团将以本项目公司为载体，与华为深度融合各自优势，通过联合定义和设计，在产品开发、营销策略以及生态服务等多个领域展开全面合作，打造基于全新架构、技术领先的新汽车品牌。目前双方已经开始联合办公，致力于推出一系列智能化新车型产品，首款产品将定位于30万级豪华智能新能源车。</p>
-<p>有意思的是，早在2021年，广汽集团与华为就拟合作共同开发一款初步命名为AH8的纯电大型SUV车型，广汽负责车辆工程，华为提供全栈智能汽车解决方案，但2023年该合作计划最终转变为广汽自主开发。如今广汽集团面临销量困境，选择再次拥抱华为。</p>
-<p>不过，与2023年时的情况相比，如今华为在汽车领域的布局已经大为不同。</p>
-<p>从鸿蒙智行来看，问界、智界、享界、尊界四大品牌已经集齐；从华为智能汽车解决方案BU来看，其已经单独分拆，并且获得长安汽车旗下阿维塔和赛力斯的入股；近日还有媒体消息称，华为与上汽的合作模式已确定将使用智选车模式，从上汽注册的商标来看，该品牌名初步为“尚界”。</p>
-<p>这时，华为还能够为广汽集团的新品牌提供多少资源支持和流量加持，恐怕不容乐观。更何况，新品牌30万级的定位，也与问界、智界存在着一定的价格段重合，如何打出差异化，也是广汽集团面临的巨大挑战。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/SwU39EJIyms9FIXADjjIAA" rel="noopener noreferrer nofollow" target="_blank">“新浪科技”</a>，作者：张俊，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171385039251973</guid><pubDate>Tue, 18 Feb 2025 08:57:00 +0800</pubDate></item><item><title>饱受诟病的动态定价，如何赢得客户青睐？</title><link>https://36kr.com/p/3171372609858312</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>动态定价，即根据市场状况的变化灵活调整价格的做法，近年来屡屡成为新闻热点，但大多因负面事件而引发关注。从英国连锁酒吧Stonegate、快餐品牌温蒂汉堡（Wendy’s），到捷蓝航空（JetBlue），这些企业因计划根据需求波动调整部分产品的价格而引发了公众的强烈批评。2024年4月中旬，经营乐高乐园和杜莎夫人蜡像馆的默林娱乐集团也宣布了类似的定价策略，这种模式通常被媒体称为<strong>“峰时价格”（surge pricing）</strong>或<strong>“优步式”定价（“Uber-style” pricing）</strong>。</p>
-<p>当商品因供不应求导致价格上涨时，人们往往颇有微词——无论是暴风雪后雪铲价格飙升，还是泰勒·斯威夫特演唱会门票的涨价，都令消费者不满。然而，随着通货膨胀的冲击，已经疲惫不堪的消费者如今发现，各类商品的价格波动频率前所未有地高涨。多数情况下，他们将动态定价视为大企业为了追求更高利润而设计的精明商业手段，因而感到愤怒和反感。</p>
-<p>因此，无论是管理者、学生还是记者，越来越多的人开始向我们提出一个问题：<strong>是否值得冒着得罪消费者的风险，去追求额外的利润？对此，我们的回答是“值得”，但前提是需要满足一些关键条件。</strong>以下是企业在实施动态定价策略时必须关注的几个要点。</p>
-<h2><strong>固定价格不一定是最优选择</strong></h2>
-<p>尽管动态定价饱受诟病，但替代方案并非万全之策。固定价格将所有消费者和每次购买情境视为一致，但现实中差异无处不在。当价格过高，顾客难以承受，或价格过低，导致排长队或缺货时，固定价格往往会让消费者感到沮丧。美国的私营医疗系统和加拿大的公共医疗体系便是典型案例。反之，固定价格还可能带来库存积压或货架空缺，这同样让企业苦恼。如果网约车服务坚持固定价格，例如在高峰时段或重大活动结束后，司机缺乏接单的动力，导致供给不足，许多潜在乘客只能在路边无奈等待。尽管消费者对动态定价颇有怨言，但这种定价模式的存在有其清晰而合理的依据。</p>
-<p>事实上，在当今市场环境下，若企业无法根据市场状况灵活调整价格，几乎难以应对通货膨胀、经济衰退、全球疫情等重大冲击。通过改变价格，企业不仅能够更好地满足更多消费者的需求，还能提升客户体验、优化运营，实现更高的利润，同时平抑需求波动。季节性促销、清仓打折、欢乐时光、非高峰时段优惠等定价方式显然更能为消费者带来便利。此外，在购买日常用品时，消费者通常“自动”购物，意想不到的价格变化可以吸引他们的注意，帮助他们做出更理性的选择。</p>
-<p>问题在于，企业是否可能滥用这一原则？虽然消费者都经历过价格变化，但如果这种波动变得无法预测，甚至迫使顾客在选择酒吧、餐厅或度假安排时需要过度规划，就可能出现问题。价格的不确定性增加，会让消费者感到失去对购买决策的掌控，并对企业的动机产生怀疑，甚至引发不信任。此外，频繁的价格变化还可能让顾客对花钱更敏感。</p>
-<p>我们认为，动态定价要想真正成功，必须兼顾企业与消费者的长期利益。要实现这一点，需要满足两个重要条件：<strong>首先，动态定价必须优于固定价格；第二，企业需要将动态定价视为以客户为中心战略的重要组成部分，而非与客户利益对立的工具。</strong>在满足这两个条件的情况下，动态定价才能成为企业与顾客共同创造价值的有效手段——是促进商业良性发展的润滑剂，而非阻碍其运转的沙粒。</p>
-<p>为了实现这一目标，企业必须意识到，<strong>实施动态定价计划不仅是一个数学难题，还涉及到庞大的沟通工作。</strong>虽然算法会寻找到能够平衡供需的价格，但管理层必须控制话语权，向消费者解释价格变动的原因，并让他们明白，价格变化有助于促进公司与消费者的关系。动态定价应当被理解为市场双方协调行为的工具，而非任何一方“拥有”的工具。的确，价格由企业制定，但顾客同样拥有选择接受或拒绝的权利。</p>
-<h2><strong>消费者何时会反感？</strong></h2>
-<p>我们发现，许多公司在实施动态定价时忽视了沟通工作，导致消费者产生困惑，从而使不满的声音占据主流。一个常见的问题是，企业经常会收到类似“确保价格被认为是公平的”这样的建议，但却往往不清楚应该在何时以及如何回应。实际上，公平是一个模糊且主观的概念。</p>
-<p>企业在实施动态定价策略的过程中，应充分认识到“公平”包含两个方面：<strong>结果公平（分配公平）和过程公平（程序公平）</strong>。在不同的情境下，这两者的判断标准各不相同。为更好地把握动态定价所带来的机遇，我们建议企业依次思考以下四个问题：</p>
-<p><strong>1、价格是你唯一的选择吗？</strong></p>
-<p>虽然市场失衡通常由供需波动引起，但企业频繁调价往往是为了应对需求变化。相比之下，供应端往往相对稳定，而价格调整见效更快。然而，这并非适用于所有情况。当供需失衡导致价格上涨时，企业应优先考虑从供应端寻找解决方案。如果能够通过增加库存来稳定价格，消费者往往会对此有所期待，更重要的是，这种做法能让企业赢得消费者的信任与好感。如果供应端无计可施，再考虑其他方案。</p>
-<p><strong>2、消费者能否察觉到价格波动？</strong></p>
-<p>价格变动越透明，企业就越需要帮助消费者理解价格变化的原因及其带来的好处。这一原则看似显而易见，但实际操作中至少会遇到三大挑战：首先，尽管公司可以努力使价格不公开（例如通过在移动应用程序上提供定制优惠），但他们无法完全掌控价格是否会被曝光。随着社交媒体的发展，人们更容易发现并分享他们认为不公平的定价行为。</p>
-<p>其次，消费者对价格变化的感知至关重要。例如，一家零售商可能在实体店和线上商店为同一产品设定不同的固定价格，但消费者通过比价可能会发现价格波动。</p>
-<p>第三，即使企业实施了动态定价，某些商品的购买性质可能导致大多数顾客在同一时间只会看到一个价格。如果企业能够确保顾客无法察觉动态定价，那么就可以尝试推进实施。如果做不到这一点，那么需要考虑下一个问题。</p>
-<p><strong>3、购买动机是什么？</strong></p>
-<p>消费者对价格波动的接受程度，往往取决于他们如何看待购买动机。例如，顾客对于他们“想要”的和“需要”的商品的价格变动反应不同。对于“想要”的商品，消费者对价格波动的容忍度通常较高；而对于那些“需要”的商品和服务，价格波动则更容易被认为是剥削行为。因此，当购买决定源自顾客的个人意愿时，动态定价往往更容易被接受。如果购买受到外部影响较大，则企业需要进一步考虑下一个问题。</p>
-<p><strong>4、消费者是否有其他替代选择？</strong></p>
-<p>当消费者认为自己的选择权越小，他们的抱怨就越多。例如，一品脱啤酒在傍晚因需求增加而涨价，顾客可能会觉得不公平，但他们是否可以选择在非高峰时间饮用呢？若该酒吧是少数在高峰时段实施动态定价的酒吧，顾客可能会去其他酒吧，但这可能会带来不便。</p>
-<h2><strong>给企业的三点建议</strong></h2>
-<p>对于能够更清晰识别动态定价机会的公司，下一步需要重点关注实施策略。公司可以通过公开解释价格变动的理由、引导客户做出更好的选择，以及在价格上涨时更加清晰地展示动态价格，来提升动态定价的成功率。</p>
-<p><strong>1、公开解释价格变动的理由</strong></p>
-<p>对于公司来说，透明地解释价格何时以及为何会变动，是说服消费者接受动态定价、并认为此举对双方都有益的关键条件。当动态定价被视为公司分享其创造的价值的更好方式时，组织应毫无保留地向客户说明这些变动的背景和机会。</p>
-<p>但仅有透明度远不够。消费者需要理解并认同你的理由。例如，Stonegate公司主动披露了采用动态定价背后的动机，并列出了一些价格上涨所覆盖的成本。但消费者没有看到这些价格上涨给他们带来的直接好处。</p>
-<p>然而，隐瞒价格变动可能会引发更为强烈的反弹。当消费者发现公司暗中实施动态定价时，他们可能会通过社交媒体或其他平台分享这一发现。一旦这种情况发生，公司将难以控制公众舆论。医疗诊断公司Cepheid因其结核病诊断技术定价过高而受到批评，无国界医生组织（Médicines Sans Frontières）通过对其生产成本进行“拆解”后，进一步揭示了这一问题。</p>
-<p><strong>2、帮助客户利用你的系统</strong></p>
-<p>如前所述，当消费者意识到自己可以通过自身行动改变现状时，他们的投诉几率会显著降低。企业越能向顾客展示具体的实现方式，消费者就越能在更少精心规划的情况下，更自信地调整自己的行为。这可以包括，提前告知消费者动态定价何时可能带来更低的价格，或通过提供提示与激励措施，引导他们在价格较低的时段进行购买。例如，迪士尼乐园实施动态定价后，游客了解到可以将假期安排在人流较少的时段，从而享受更低的门票价格。加入会员俱乐部或忠诚度计划是常客减少价格波动影响的另一种选择。</p>
-<p><strong>3、价格上涨时，强调给消费者带来的好处</strong></p>
-<p>在价格上涨的情况下，公司需要为消费者提供充分且令人信服的理由，引导他们关注产品或服务的价值而非价格。这不仅是展示公司差异化价值主张的绝佳机会，也是强化动态定价在提升产品或服务的可获得性，从而惠及更多顾客，尤其是经济条件较差的群体方面的作用。同时，动态定价也可以被用来改善顾客体验。例如，通过动态定价，企业能够更有效地平衡需求，从而减少顾客的等待时间并提供更快捷的服务。对于公司而言，这种需求调节还能够降低长期的劳动力成本，实现更高的运营效率。</p>
-<p>此外，选择合适的术语能够有效转移消费者对价格上涨的关注。“动态定价”可能让人联想到算法主导的不透明决策，而“峰时价格”几乎不可能赋予积极含义。相比之下，如果将不同时间段的价格定义为不同的产品或服务类型，并赋予每种选择独特的价值主张和好处，消费者更容易接受。</p>
-<p>企业在实施动态定价时所犯的核心错误，往往与其在定价策略上的整体问题如出一辙：为了促成交易，他们总是试图弱化价格的重要性。然而，在企业与消费者建立长期关系的过程中，这种策略往往适得其反，因为顾客会通过细节和潜在信息“读懂”企业的真正意图和价值观。动态定价不仅是一种定价策略，更是一场更长期的博弈。</p>
-<p><strong>动态定价的理论依据非常强大，即使从客户的角度来看也是如此。</strong>毕竟，很少有像可口可乐这样的产品，其价格能保持在5美分长达70年之久！但实际上，动态定价的实践依据往往较为薄弱，并且对客户不太友好。动态定价有潜力为企业带来更多收入，同时还能扩大消费群体并提升客户满意度。然而，当企业仅仅传递片面的信息，甚至完全不作说明时，就会削弱这一机会，因为这会促使消费者和媒体只关注那些令人不适的价格上涨。</p>
-<p><strong>作者：马可·贝尔蒂尼（Marco Bertini）奥德·柯尼斯堡（Oded Koenigsberg）</strong></p>
-<p>马可·贝尔蒂尼是西班牙巴塞罗那拉蒙·卢尔大学ESADE商学院市场营销学教授。他还是Globalpraxis公司的高级顾问，该公司是一家专门从事加速有机增长的咨询公司。奥德·柯尼斯堡是伦敦商学院营销学教授兼副院长。他与马可·贝尔蒂尼合著《终结游戏：聪明的公司如何停止销售产品并开始提供价值》（The Ends Game: How Smart Companies Stop Selling Products and Start Delivering Value，麻省理工学院出版社，2020年）一书。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NzY4MzQyMQ==&amp;mid=2650145972&amp;idx=2&amp;sn=408c49560b6f8644684e307e56f7bd40&amp;chksm=bfb13fcb625ed61f7146d67db00af8c02841d23afd06d17c08656c5cf0b92c99c50a114840c2&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“哈佛商业评论”（ID：hbrchinese）</a>，作者：HBR-China，译校：吴卿雅，编辑：腾跃，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171372609858312</guid><pubDate>Tue, 18 Feb 2025 08:58:00 +0800</pubDate></item><item><title>百果园跌落神坛，高端水果为何失宠？</title><link>https://36kr.com/p/3171372345060103</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>消费降级之下，高端品牌几乎都经历了一波品牌降级。咖啡、奶茶、冰淇淋、火锅餐饮等多个行业高端品牌被拉下神坛，他们或主动降价促销，或被动变相降价，从过往的高端市场转而发力下沉市场。</p>
-<p>水果市场同样也不例外。</p>
-<p>日前，“中国水果连锁零售第一股”百果园发布2024年业绩预警公告，称公司2024年净亏损约人民币 3.5 亿元至4亿元。由盈转亏的同时，营收下滑近15%，2024年收入较2023年的113.91亿元收入减少15%左右。</p>
-<p>此外，业绩预报还透露，百果园过去一年加盟门店数量从2023年底的6081家减少至5116家，一年减少965家。其中，半年关闭近900家，日均关闭近5家。</p>
-<p>百果园营收主要来自加盟店，99%门店为加盟店。其2024年半年报显示，百果园6025家门店中，加盟门店和自营门店分别为6011家和14家。近1000家门店闭店，意味着百果园2024年关店率高达15.9%。</p>
-<p>高端水果失宠。水果连锁零售第一股的发展轨迹，成为高端水果市场起伏的注脚，整个行业进入下行通道。自2023年1月在港股上市至今，百果园市值距离最高点时缩水80多亿。上市第二年扭盈为亏，营收下滑、门店大幅收缩。</p>
-<p>对于百果园而言，更大的挑战在于，加盟商赚难到钱，品牌对加盟商的吸引力会越来越弱。</p>
-<h2><strong>01 高端水果跌落神坛</strong></h2>
-<p>高端水果也曾风头无两。</p>
-<p>2022年，“水果第一股”洪九果品在港交所上市。次年，与洪九比肩，被称为“南百果，北鲜丰，西洪九”水果三足鼎立中的百果园也在港股上市。</p>
-<p>百果园的企业成长历程，几乎就是一个行业垂类的上升史。2001年底，百果园在深圳成立。2021年，成立20年的百果园突破百亿元营收大关。两年之后，2023年1月，百果园在香港上市，业内称其为“中国水果零售连锁第一股”。</p>
-<p>2023年，百果园达到规模最高峰。其2023年年报中提到，公司是“中国最大的水果零售经销商”，且连续十年（2014—2023年）居“全国水果连锁门店销售额第一”。百果园的加盟门店数量也达到最高峰，6081家。</p>
-<p>2024年之前，百果园业绩一直处于增长态势。公开数据显示，2019年-2023年，百果园近5年营收分别为：89.76亿元、88.54亿元、102.9亿元、113.1亿元以及113.9亿元，净利润分别为：2.495亿元、4906万元、2.303亿元、3.233亿元以及3.617亿元。</p>
-<p>然而上市次年，百果园开始跌落神坛。首次出现营收利润双下降局面，并且净利润首次出现亏损。</p>
-<p>百果园2024年业绩大变脸，其实背后撑起百果园业绩版图的加盟商早已开始滑坡。</p>
-<p>一些加盟商倒在了2024年。加盟商Jessica向Tech星球透露，加盟百果园一年，亏损几万块，为了及时止损，已选择闭店。另一位加盟百果园近5年的加盟商小豆同样表示，开店不到五年，亏了三十多万元，最终她在2024年11月底闭店。</p>
-<p>虽然门店经营受多方面因素影响，选址、商圈租金、人力成本等各个环节成本，都有可能影响最终能否盈利，应该一店一议。但不少加盟商表示，赚不到钱，回本周期、营业额、毛利，都不太能达到百果园对外官宣的水平。</p>
-<p>按照百果园加盟经理的口径，在不包括房租的情况下，加盟一家百果园投资额在40万元左右，回本周期要看具体门店情况，一般在一年半左右的时间。营业额方面，一线城市平均销售额一天在8000-9000元左右。最好的标杆店，一天营业额能达到2-3万元，差一点的一天在4000-5000元。在开门店亏损占比10%左右，毛利率一般在27%-28%左右。</p>
-<p>如果门店日营业额能做到平均值8000元，成本控制在2万元一个月，毛利达到30%，便能盈利。但从加盟商实际经营情况来看，很少有人能达到盈利线。</p>
-<p>不少加盟商表示，实际上一线城市日均营业额在5000-6000元。一个月成本2万元根本覆盖不了，毛利达不到30%，能达到20%已经算不错的水平。</p>
-<p>百果园财报显示，2021年至2024年上半年，其综合毛利率均在11%左右，净利率均不到3%。</p>
-<h2><strong>02 加盟商流失</strong></h2>
-<p>高端水果在消费升级浪潮大势下，曾一度所向披靡。但如今，红利不再，行业高速增长期已过。</p>
-<p>这一点上市公司财报中也有所体现。百果园虽然市场规模逐渐增长，但营收和净利润增速已明显放缓。从2021 年至 2023 年，百果园营收增速分别为 16.22%、9.94% 和 0.7%，归母净利润增速分别为 369.49%、40.35% 和 11.9%。</p>
-<p>2024年甚至出现明显的闭店潮。数据显示，2019-2024年，百果园的加盟门店数量分别为4210、4646、5134、5631、6081、5116家。</p>
-<p>对应到一个个加盟商个体，他们对业绩下滑的体感最为明显。</p>
-<p>深圳加盟商何久向Tech星球表示，加盟百果园5年，明显感知到现在门店的业绩在腰斩。以前一天营业额可以达到一万多元，疫情那几年，生意最好，一年做多能赚三十万。现在缩水严重，一天只有几千块。</p>
-<p>何久跟朋友三人合伙开了两家百果园，总投入155万元。其中，第一家门店投入55万元，从其他加盟商那里转让来的，生意还可以，何久便跟朋友决定加大投入，100万元开了第二家。但两家门店都没回本，何久称，去年将那个55万买的店转出去了，卖了22万元。投资100万的门店，目前看起来很难回本，毛利都达不到30%。</p>
-<p>除了价格高，购买人群减少，门店亏损的很大原因被归结为压货。按照百果园的加盟政策，加盟商需要统一从百果园集团订货，然后公司按照订单每天给加盟门店免费送货一次。加盟经理称，每天送货就是为了降低加盟商成本，他们不需要囤货，降低水果损耗，此外，公司还配置了督导经理，不会让加盟商盲目订货。</p>
-<p>看起来很合理的配货策略，实际上却成了加盟商诟病吐槽最多的地方。不少加盟商表示，最大的套路就在于压货，配货权在公司。</p>
-<p>一位前百果园员工称，百果园实行分货制度，不是门店缺什么补什么，不是什么畅销就配送什么，而是公司分给门店什么就必须要什么。这样一来便会造成压货。</p>
-<p>何久称，压货多耗损就大，耗损大就亏损，水果最怕的就是损耗。以前百果园加盟店是坏果多少都可以报损，现在门槛变高了，坏果要超过30%才能报损，30%的坏果定义权掌握在公司手里，有时候明明超过30%，但会被公司各种理由拒绝报损。很多报损不了，最后只能加盟商自己承担。</p>
-<p>能否报损，报损多少直接关乎着加盟商的盈利。何久称，一年赚几万块很难的，以前赚钱很大部分是因为可以报损，那不是一笔小数目，一年坏果报损能报好几万元。现在一个月报损只有几百块，直接影响了盈利空间。</p>
-<p>不过，针对压货争议，百果园方面向Tech星球解释称，百果园有“坏货确认机制”，这是符合水果属性的基础机制。压货、分货容易混淆。水果品质原本到店有问题集团会解决，但是如果在门店因为销售时间过长，水果保质期短，这个就要门店承担了。百果园优先考虑保障顾客体验、加盟商业绩，举例来讲，如果顾客进入一家门店，只有某单一类产品，而且陈列零星（不饱满），顾客的商品与服务体验不理想，最终加盟商业绩也没有保障。</p>
-<h2><strong>03 高端水果生意难做</strong></h2>
-<p>连锁品牌企业似乎都有一个万店梦，百果园也不例外。</p>
-<p>2024年1月5日，百果园发布十年战略规划时，创始人、董事长余惠勇曾展望，“在下一个10年，百果园目标是实现门店数量超万家，以百亿营收为起点，向千亿目标奋进。并将探索大型店、微型店、机场店、商场店等多元店态，同时积极开拓国际市场，品牌出海将首选东南亚。”</p>
-<p>不过，一年之后的今天，百果园距离万店梦更远了。加盟门店从6000多家减少至5116家。</p>
-<p>更糟的是，百果园对加盟商的吸引力还在下降。</p>
-<p>百果园前员工称，百果园亏损率太高了，水果这个行业主要是看经营者本人，品牌只是加持，如果老板对水果这个行业有概念的话，有没有品牌都能做好，百果园的优势就是管理体系完善。但是，掣肘也多，而且目前大行情不好，百果园的水果售价比较贵，水果本身损耗特别大，如果不能自己守店不建议加盟。</p>
-<p>一些盈利的门店也在公开转让。加盟商小e称，她的门店经营不到5年，大概一年半左右时回本。门店生意分淡旺季，平均4000-5000元左右，每年12月至次年6月属于旺季，去年一年营业额是一百多万，纯利到手22万元。当初她开店投了33万元，现在转让25万（不包括给百果园的押金以及房租押金）。</p>
-<p>一些加盟商甚至开始劝退其他有加盟百果园意向的人。何久称，如果有其他好项目，个人建议不考虑，百果园投资回本慢，甚至回不了本。另一位加盟商则直言，已经劝退了好几个想要加盟的人。</p>
-<p>水果红利逐渐消退。不止百果园，“水果第一股”洪九果品近几年发展同样陷入困境，公司陷入资金链困境，为了缓解现金流压力，洪九果品不得不寻求银行贷款。此外，因为未及时公布2023年财报，洪九果品甚至一度被港交所停牌。目前，洪九果品总市值为27.95亿港元，较巅峰时期的近600亿港元蒸发500多亿。</p>
-<p>业绩承压，高端水果不得不主动求变。2024年初，百果园开启品牌焕新、推广招牌果和水果礼盒三大战略，但营销开支也因此大大增加。从短期业绩结果来看，战略并不奏效。</p>
-<p>百果园从过去精品水果路线，改为开始强调性价比，启动“高品质高性价比口碑战役”行动。</p>
-<p>百果园也在主动降低加盟商投入成本，百果园加盟经理称，以前公司有两种加盟模式，今年取消了其中一种，只留下一种模式。放弃了装修+设备权，不再收取对应的5%费用，公司暂停收取特许权使用费。此外，新店开业，百果园还会按照进货额度第一年会给加盟商补贴4%，补贴一年，第二年按照销售额补贴2%。</p>
-<p>一系列动作，不难看出百果园调整的决心与力度，但最终是否见效还有待时间验证。毕竟，百果园面临的竞争环境越来越激烈。新零售、综合性商超、全国或区域性的同业态水果连锁企业，以及线上电商平台和生鲜电商超市等玩家都是竞争对手。如何保证水果品质的同时打出性价比，对于现在留在牌桌上的玩家来说，都不容易。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU5MTczNjIyNA==&amp;mid=2247602547&amp;idx=1&amp;sn=b9ac6a6b35cc7f917aaabd3b206f460a&amp;chksm=ff47cd1a1c4f2a83984bfb622e77e0207e2c1b32d3922c078c49cb82e1654ae9815e59622a6a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Tech星球”（ID：tech618）</a>，作者：翟元元，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171372345060103</guid><pubDate>Tue, 18 Feb 2025 08:59:00 +0800</pubDate></item></channel></rss>
+<p>据网友透露，北京中关村正在装修便利店的货架上，摆放着啤酒、方便面等便利店常规品类。</p>
+<p>从产品构成看，“库迪便利店”和常规便利店在功能划分上大致相同，都覆盖咖啡制作区、热食区、冷藏区以及货架陈列区等区域。</p>
+<h2><strong>02 突围OR增长？库迪咖啡“便利店化”的野心</strong></h2>
+<p>库迪咖啡的 “ 便利店化 ” 战略是其在咖啡行业竞争白热化背景下，为突破增长瓶颈、重构商业模式而做出的关键决策。 这一战略背后既有主动突围的野心，也有被动转型的无奈。</p>
+<p><strong>1、规模角度：借便利店店中店轻资产破局瑞幸压制，拓规模触达高频场景。</strong></p>
+<p>2024 年，中国现制咖啡行业呈现出<strong>“一超一追”</strong>的鲜明格局。</p>
+<p>瑞幸咖啡凭借突破 2 万家门店的傲人成绩，在市场中独占鳌头，其门店规模不断攀升，品牌综合竞争力愈发强劲，已然成为行业的领军者。</p>
+<p>与之形成鲜明对比的是，库迪咖啡在 2023 年 12 月至 2024 年 5 月期间，门店数量竟净减少 567 家，传统加盟模式的增长瓶颈暴露无遗。</p>
+<p><strong>面对瑞幸的碾压式扩张，库迪急需找到一条破局之路</strong>。</p>
+<p>此时，与便利店合作的<strong>“店中店” 模式</strong>，成为其冲击 “2025 年 5 万家店” 目标的关键所在。为何库迪将目光聚焦便利店？</p>
+<blockquote>
+<p>其一，借助便利店广泛的分布，库迪的产品能迅速渗透到原本难以触及的区域，有效扩大品牌知名度，进而提升市场占有率；</p>
+<p>其二，便利店已具备成熟的店面设施与运营体系，库迪无需承担高额的前期开店成本，仅需将自身产品巧妙融入其中；</p>
+<p>其三，与美宜佳、罗森等区域龙头便利店合作，将咖啡业务植入便利店场景，可直接触达早餐、午间简餐、夜间零食这三大高频消费时段。</p>
+</blockquote>
+<p>基于这些显著优势，库迪与众多便利店巨头展开合作，<strong>将门店嵌入便利店的特定区域</strong>。以面积不足 20 平米的小店，售卖 “便利店咖啡”，以此突破门店增长困境。</p>
+<p class="image-wrapper"><img data-img-size-val="750,1000" src="https://img.36krcdn.com/hsossms/20250218/v2_4adb39fa8f604208a8e1d74f2826b8f7@5091053_oswg943973oswg750oswg1000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>对咖啡品牌而言</strong>，便利店是突破租金、人力、流量三重成本困局的 “轻资产” 解决方案；<strong>而对便利店来说</strong>，与咖啡品牌合作则是从 “卖货场” 升级为 “生活服务站” 的关键跳板。</p>
+<p>在这场合作中，库迪有望借便利店之力，实现规模的快速扩张，在激烈的市场竞争中抢占一席之地。</p>
+<p><strong>2、从基因角度：库迪咖啡以瑞幸系"零售基因"为底牌，以啡作流量入口，借便利店式多元业态突破咖啡行业边界。</strong></p>
+<p>库迪咖啡的核心团队，脱胎于陆正耀打造的瑞幸原班人马，这一出身使得其商业基因中，<strong>深植着 “以咖啡为入口，构建零售平台” 的宏大野心</strong>。</p>
+<p>回溯瑞幸创立初期，该团队便不满足于单一咖啡业态，积极谋划在门店引入文具、办公用品以及轻食等多元商品，试图将咖啡店打造成融合 “星巴克 + 7-Eleven” 优势的创新混合体，<strong>大胆探索 “咖啡便利店化” 的商业模式</strong>。</p>
+<p>这种极具前瞻性的底层逻辑，在库迪诞生之初便被完整继承。库迪巧妙地以高频刚需的咖啡作为引流利器，再通过丰富多元的商品组合，<strong>实现客单价与复购率的双提升</strong>，一步步践行着<strong>“咖啡 + 零售”</strong>的发展路径。</p>
+<p>在低线城市，库迪部分门店已显露出与上岛咖啡、两岸咖啡相似的运营逻辑。在这些地方，咖啡不再是唯一主角，而仅仅作为流量入口，<strong>多元业态</strong>才是支撑门店持续盈利的核心所在。</p>
+<p>尤其从库迪将拿铁价格压至 9.9 元这一极具冲击力的举措便能看出，其商业模型已无限趋近便利店 ——<strong>用极致性价比获取海量流量，再依靠多元化商品组合实现盈利。</strong></p>
+<p>如今，咖啡行业逐步迈入 “存量绞杀” 阶段，竞争愈发白热化。或许，库迪这种植根于零售基因的跨界打法，有望重新定义现制饮品的商业边界，为行业发展开辟出一条全新的道路，引领行业走向新的发展方向。</p>
+<p><strong>3、趋势角度，跨界融合催生新零售生态，库迪借便利店化构建全渠道闭环，拓增量市场。</strong></p>
+<p>在当下的商业环境中，餐饮与便利店正以破竹之势打破彼此间的业态壁垒，相互渗透、抢占业务，开启了一场激烈而又充满机遇的跨界角逐。</p>
+<p><strong>4、从餐饮行业来看，创新转型的案例比比皆是。</strong></p>
+<p><strong>锅圈</strong>凭借 “火锅便利店” 的独特模式，成功覆盖家庭餐桌场景；<strong>麻六记</strong>大胆将 300㎡的门店改造为 “酸辣粉便利店”，为传统餐饮注入新活力；<strong>奶茶店</strong>开启 “24 小时经营”，突破了时间限制；许多<strong>烧烤店</strong>开启 “自选模式”，提升顾客的自主体验。</p>
+<p>便利店同样也在积极向 “餐饮业务” 靠拢。<strong>711 便利店在店内专门开辟 “食堂区”</strong>，探索 “便利店 + 食堂” 模式；<strong>全家推出 5.0 版本的新店</strong>，增设现做区域，现场制作新鲜美食；<strong>中石化易捷与 Tims 天好咖啡携手合作</strong>，开辟饮品区，将咖啡与便利店的消费场景巧妙融合。</p>
+<p>从这样的行业趋势来看，<strong>库迪咖啡的 “便利店化” 转型可谓水到渠成</strong>。</p>
+<blockquote>
+<p>其一，拓展便利店业务，有助于库迪探索线下便利店模式，构建线上线下融合的零售闭环，实现全渠道营销，提升品牌竞争力。</p>
+<p>其二，将零售业务单独由便利店门店承载，能通过丰富的商品种类，满足消费者多样化的需求，进而增加营业收入，提升客单价。</p>
+<p>其三，不同店型针对不同场景，常规店满足追求咖啡体验的消费者，店中店实现便捷的咖啡外带，便利店则提供一站式生活服务，这样多元的店型选择更能吸引加盟商，助力品牌迅速扩张。</p>
+</blockquote>
+<h2><strong>03 库迪“便利店化”的隐忧和弊端</strong></h2>
+<p>库迪咖啡当下深陷战略困境，集中体现在<strong>品牌定位失焦、供应链承压、加盟体系失控</strong>这三大维度，这既是其激进扩张的代价，也是商业模式内在矛盾的集中爆发。</p>
+<p><strong>1、品牌定位从 “专业咖啡” 滑向 “快餐杂货铺”。</strong></p>
+<p>许多用户将库迪类比为 “咖啡界的沙县小吃”。原因在于，库迪推出的 6.9 美式与 2.5 鲜肉包的组合销售，模糊了咖啡原本的休闲属性与快餐的功能性需求，<strong>使得消费者对其品牌价值的认知陷入混乱。</strong></p>
+<p>从运营角度来看，咖啡师<strong>既要操作咖啡机制作咖啡，又要兼顾用微波炉复热便当</strong>，这不仅导致单杯咖啡制作时间延长 ，严重拖累出餐效率，更让库迪原本可能塑造的专业咖啡形象大打折扣。</p>
+<p><strong>2、供应链超载，矛盾凸显。</strong></p>
+<p>库迪<strong>在供应链管理上存在严重问题</strong>。例如，咖啡豆常温存储的要求与便当需在−18℃冷链保存的物理区隔，使得门店冰柜容量频频告急，在高峰期便当缺货成为常态。</p>
+<p>加盟商为了应对原料短缺的困境，<strong>可能私自替换</strong>牛奶品牌、使用临期物料等违规操作频繁发生。</p>
+<p>并且，<strong>咖啡与快餐供应链尚未打通</strong>，像北京试点店就曾出现 “咖啡满柜、便当售罄” 的运营割裂情况。</p>
+<p>追根溯源，其本质矛盾在于库迪<strong>试图用便利店逻辑改造咖啡业态，却并未构建起与之匹配的运营体系。</strong></p>
+<p>当 “低价扩张” 策略触及临界点，品牌就不得不面临<strong>在专业化坚守与多元化生存之间做出艰难的战略抉择</strong>。</p>
+<p><strong>3、便利店逻辑与咖啡基因的业态排异</strong>。</p>
+<p>便利店运营需管理超 3000 个 SKU，而库迪现有的系统却仅支持咖啡单品运营，导致鲜食库存周转率不足。</p>
+<p>另外，7-Eleven 等便利店巨头早已在现磨咖啡市场占据一席之地，库迪与之相比，既无价格优势，又缺乏鲜食供应链的积累。</p>
+<p><strong>这种便利店逻辑与咖啡基因的业态排异反应，严重阻碍了库迪的发展。</strong></p>
+<p><strong>库迪咖啡若想突破当下的战略困境，必须正视这些问题，重新审视自身的品牌定位，优化供应链管理，调整加盟体系，找到适合自身发展的道路，否则在激烈的市场竞争中，前景将不容乐观。</strong></p>
+<h2><strong>小结：</strong></h2>
+<p>库迪的“便利店化”策略，既是应对咖啡市场激烈竞争的无奈选择，也是抢占业态融合浪潮的前瞻布局。</p>
+<p>这场实验的意义已远远超出单个品牌的成败，其核心在于验证：<strong>结合咖啡因的成瘾性消费与便利店的即时性需求，是否能催生出具有中国特色的“咖啡便利店”新形态。</strong></p>
+<p>这一答案或将深刻影响2025年后中国零售业的竞争格局。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/E9p8qEZpQbmZ8lEoOYcD3Q" rel="noopener noreferrer nofollow" target="_blank">“餐饮O2O”</a>，作者：小贝，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171348320086791</guid><pubDate>Tue, 18 Feb 2025 09:05:00 +0800</pubDate></item><item><title>老铺黄金的本质，是一场对抗经济周期的人性游戏</title><link>https://36kr.com/p/3171347617835524</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<blockquote>
+<p>本文系基于公开资料撰写，仅作为信息交流之用，不构成任何投资建议。</p>
+</blockquote>
+<p>2025年春节的上海豫园，游客们排队的姿势悄然进化：过去为小笼包弯折的腰杆，如今在黄金店门前挺得笔直。</p>
+<p>老铺黄金的橱窗前，年轻人举着手机直播开箱，阿姨们攥着存款单等待“接货”，韩国游客用翻译软件询问“福禄葫芦”的寓意。四个小时的等待，只为把一块刻着非遗工艺的黄金挂上脖颈，这画面堪称魔幻现实主义。</p>
+<p>当黄金摘下“土味”标签，披上文化认同的铠甲与奢侈品话语权的暗战时，老铺黄金成为这场变革的领航者，用那根在老铺黄金工匠指尖跳跃的金丝，编制出一张大网：一头连着紫禁城的玻璃瓦，一头网住元宇宙的数字化身。</p>
+<p>让市场百思不得其解的老铺黄金半年股价十倍的密码，或许就藏在历史褶皱与消费心理的共振中。</p>
+<h2><strong>01 大宗商品遇上老工匠</strong></h2>
+<p>从殷墟出土的黄金面罩，到故宫库房里的累丝凤冠，再到SKP橱窗中的玫瑰花窗项链，黄金始终是人们理解美、权力与永恒的介质。</p>
+<p>时至今日，龙的传人对黄金的热爱只增不减：中国连续多年位居全球最大黄金生产国和消费国。生产端，我国主要企业紫金矿业、山东黄金等掌控着全球矿山资源；消费端，光是2024年我国黄金消费量就高达985.31吨（中国黄金协会）。</p>
+<p>巨大的黄金消费市场，聚集了一众创业者前来掘金。</p>
+<p>来自香港的周大福、周生生、六福珠宝等，以产品设计时尚新颖盘踞一、二线市场；老凤祥、潮宏基、周大福等内资品牌，以加盟/经销的模式全面渗透仅一线至四线城市；而Tiffany、卡地亚、梵克雅宝、宝格丽等国际奢侈品牌，则借由奢华定位以K金产品分割高端市场份额。</p>
+<p>目前，黄金消费市场已经初步呈现出二八效应，头部品牌掌握着主要市场份额，2022年内资、港资及外资品牌CR3分别为15%、13%及4%。</p>
+<p><strong>高度标准化的黄金消费市场竟然也呈现出品牌效应，这多少有点反常识。</strong></p>
+<p>不过，其中最让人意外的还数老铺黄金，周大福们还在用3D技术批量改造黄金时，老铺黄金借由老工匠的手已经重构了黄金的符号：古法黄金价值=（文化熵×工艺复杂度）/大众化程度，当黄金从大宗商品转化为文化艺术品，溢价空间瞬间打开。</p>
+<p>老铺黄金长期维持在40%以上的毛利率，比传统金店高出15个百分点还不止，产品工费与金价近乎一比一的一口价，相当于把每克黄金塞进景德镇的瓷器里售卖。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,546" src="https://img.36krcdn.com/hsossms/20250218/v2_c5972f84a7424629bb9ed33bb4c09ef3@5091053_oswg292770oswg1080oswg546_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：浙商证券</p>
+<p>在大众认知中，黄金交易的投资与消费属性是跷跷板的两端，但老铺黄金却在金价飙升时逆势涌入，2024年，金价突破600元/克，起门店收入暴涨150%到35.2亿元，净利润更是暴涨近200%到了5.88亿元，单店平均营收超过了1亿元且仍有上涨趋势。</p>
+<p>别人的成功固然可怕，赢得轻描淡写更让人心塞。<strong>相比于重资产all in内卷的黄金工匠前辈们，主打宫廷秘技的老铺黄金借用的还是别人的“老铺”——委托生产的比例达到四成。</strong></p>
+<p>老铺黄金之所以能打破同质化内卷，全应了那句老话： 选择大于努力。</p>
+<h2><strong>02 中产天选经济周期缓冲剂</strong></h2>
+<p>说到底，九十年代经坐镇岳阳市水产局、二十一世纪走进景区和寺庙，专做富人生意的徐高明（老铺黄金创始人）是最懂中产人群深层次焦虑的人——</p>
+<p><strong>面对逆经济周期，越富有的人群越焦虑，资产越高的人越有保值需求。</strong></p>
+<p>《2024年中国财富报告》显示，超70%的中产家庭担忧资产缩水。在中国的社会结构话题中，被反复提及的词是“中产衰落”。</p>
+<p>当股市跌宕、房市冻结、黄金成为中产最直白的财富容器，而老铺黄金的差序格局（来自《乡土中国》，这里主要指通过渠道逆向筛选人群）营销精准切中这一需求：</p>
+<p>首先，老铺黄金与周大福们扎堆的黄金楼层切割，直接对标爱马仕的独立门店进驻SKP、万象城，用场景过滤高端客群；其次，3000万单店投入中，老铺黄金花费60%用于营造“博物馆式体验”，为消费者攒足了氛围；最后，小红书上的打卡照里，金饰永远搭配汉服或搞定西装，为中产身份递上一份投名状。</p>
+<p><strong>更为核心的是，老铺黄金每件产品都穿着两件外衣：一件是足金的物理属性，另一件是五千年文明的精神袈裟。</strong>消费者看似在为后者付费时，本质上是在购买对抗不确定性的护身符。</p>
+<p>浙商证券显示，老铺黄金的消费者画像为年收入高于10万元的25-45岁的女性和30-55岁的男士，这一人群普遍面临的职场与婚恋市场问题，老铺黄金一一给出参考答案：</p>
+<p>当职场晋升通道收窄，身上每克黄金都是可视化的“人生进度条”；当不婚主义大旗升起，三金从彩礼工具升级为大女主审美和财商的最佳证明。</p>
+<p>由老铺黄金策划的这场对抗经济周期游戏的吊诡之处在于，披上消费主义的糖衣，帮助年轻人正在用最隐蔽的方式，完成对父辈理财观的隔空致敬。</p>
+<p><strong>当经济周期如黄浦江潮水般起落，总有人选择攥紧黄金，就像攥紧最后一根浮木。</strong></p>
+<h2><strong>03 暗战未来</strong></h2>
+<p>老铺黄金的火爆，终于惊醒了沉睡的巨头。</p>
+<p>这场精准切中中产痛点的营销浪潮，正在黄金行业掀起一场无声的“文艺复兴”——传统品牌被迫撕下“标准化”标签，仓促披上非遗工艺的外衣，试图在年轻消费者的心智中重新夺回一席之地。</p>
+<p>2024年末，周大福率先亮剑，宣布启动“非遗复兴计划”，联合故宫文化推出“金瓯永固”系列，并重金招募近百名花丝镶嵌传承人；六福珠宝则尝试将AR试戴技术与传统金饰结合，用户扫描产品即可观看匠人制作全流程。</p>
+<p>面对新旧两股力量的冲击，老铺黄金的未来要面临的挑战并不算小。</p>
+<p>一方面，如果采用高度自动化的工业手段加工，那么黄金工艺本身更偏向于珠宝加工行业的β禀赋，特定厂商或品牌方想要通过某种工艺形成垄断性优势并不容易，老铺黄金也不例外。</p>
+<p>另一方面，奢侈品研究机构Luxury Institute在《2025中国黄金消费白皮书》中指出：“文化溢价本质是时间货币。Tiffany用183年讲透一颗蓝盒子，LVMH集团是由76个平均年龄超过40岁的品牌构建起奢侈品帝国，2016年才独立起来的老铺黄金要讲清品牌故事还有很长的路要走。</p>
+<p>最后，当下老铺黄金将的稀缺故事主要在手工工艺上，但根据招股书，老铺黄金上市募集资金主要用于扩展营销网络，当销路扩张、产量扩大，老铺黄金的手工品控能否保持，恐怕还要画一个问号。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/6zN9rZXFpfH11bhY2-YZWg" rel="noopener noreferrer nofollow" target="_blank">“卿照”</a>，作者：李偏偏，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171347617835524</guid><pubDate>Tue, 18 Feb 2025 09:07:00 +0800</pubDate></item><item><title>一度暴力拉涨7.8%，股价创40个月新高，你永远可以相信腾讯？</title><link>https://36kr.com/p/3170863375231488</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2月17日，受微信搜一搜灰度测试接入DeepSeek影响，腾讯控股高开近7%，股价一度大涨7.83%，打破510港元，并创下自2021年10月21日以来的新高。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_0f1bc6aa26a742068aa7c4a0879fec88@000000_oswg74790oswg1051oswg399_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>截至发稿前，哪怕腾讯股价暂时回落到493港元左右，但按照一个月前 （1月17日）的每股380港币计算， 腾讯在过去这一个月里依旧实现了近30%的暴涨，创下2025年开年以来的最大月涨幅。</p>
+<p>至于促成此次腾讯大涨的原因也不难理解。2月16日，腾讯确认微信搜一搜在调用混元大模型AI搜索的同时，还正式官宣灰度测试将接入DeepSeek。灰度测试用户可在微信上免费使用DeepSeek满血版模型，进行由DeepSeek-R1提供的深度推理问答。</p>
+<p>值得一提的是，除微信之外， 今日腾讯还官宣腾讯元宝、微信、ima、腾讯文档、QQ浏览器、QQ音乐等多款腾讯产品，在使用混元大模型的同时，还将接入DeepSeek-R1模型。换句话说，目前腾讯全家桶已全面拥抱DeepSeek，并为上亿用户提供时下热门的“深度思考”AI服务。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_15e0b1250516426fb86bd11a910c426a@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>事实上，面对此次由DeepSeek掀起的AIGC技术浪潮，不只有腾讯做出反应动作。在短短一周时间内，三大基础运营商，超过15家芯片厂家，还有包括云服务、网络科技、金融在内的200多家企业，都先后宣布接入DeepSeek。甚至连带着三七互娱、游族、吉比特等涉足AI领域的游戏上市公司，股价也都经历了一轮普涨。</p>
+<p>如此盛况，再结合腾讯CEO马化腾曾在腾讯股东大会上的发言—— “AI是互联网几百年不遇、类似工业革命一样的机遇。”</p>
+<p>或许正如马化腾所言，2025年，一场变革已经悄然降临。</p>
+<h2><strong>01 微信+DeepSeek，两大顶流的威力</strong></h2>
+<p>回顾今天股价大涨的腾讯本身。虽然此次腾讯在2025年的AI爆发潮中受益颇深，但实际上，这并非是他们首次尝试将AI与产品进行深度结合。</p>
+<p>早在2024年年中，自腾讯推出自研混元AI大模型之后，微信输入法便迅速跟进“一键AI问答”功能。</p>
+<p>在使用微信输入法的前提下，用户只需要在聊天框输入问题后添加一个等号，输入法随即会给出基于混元AI大模型的回答。 据微信用户反馈，这一功能在查询天气、新闻、亦或是其他常识问题等应用场景下，都能够得到正确且及时的答复。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_8025e97380734313ab3947c8276b8adc@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：截评）</p>
+<p>当然，局限在输入法维度的小打小闹，显然不能满足腾讯在AI应用方面的胃口。</p>
+<p>当时间来到2024年下半年，基于混元大模型的微信AI搜索服务突然闯入大众视野。当微信用户在搜一搜界面提出问题时，微信除了会正常返回公众号文章、视频号等讯息之外，还会在搜索栏顶部显示由AI整合生成的结果。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_71b3ad2bda4a4ea68fc1656b151487fb@000000_oswg111000oswg1080oswg729_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>或许正是得益于腾讯在上述“微信+AI”早期探索所积累下来的经验，此次微信接入DeepSeek的业务逻辑，要比以往任何一次试水都要来的成熟。</p>
+<p>例如此次收到微信版DeepSeek灰测资格的微信用户，就能够在微信顶部的搜索栏下方看到一个“AI搜索”的入口。点击进去，我们能够看到微信提供的两个回答模型选项。前者是基于腾讯混元大模型的“快速回答”，而后者则是由DeepSeek-R1驱动的“深度思考”模式。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_0eb2f8ab5be44f12a374e94cb5b9b6bd@000000_oswg124804oswg1080oswg1136_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>对此开源证券也指出，两种问答模式背后的DeepSeek-R1与腾讯混元具有较强技术互补性—— DeepSeek-R1在长文本推理和复杂逻辑推演上有优势，能弥补混元模型在即时性问答之外的短板，在处理“对比分析类”问题时，可整合微信公众号、视频号及全网信息源，生成结构化答案。</p>
+<p>而最关键的是，结合各方对微信版DeepSeek的有关报道来看，DeepSeek在微信得天独厚的优势，是能够在微信公众号、视频号、小程序中抓取相关资料，并调用官方小程序的服务接口。</p>
+<p>这种只属于“微信”的独家资源，让其他平台在羡慕的同时，却只能干瞪眼。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_9cd21f3fe7ed4757ac9b09686247997d@000000_oswg263546oswg1060oswg1280_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（在微信问及“如何看待微信接入DeepSeek这件事？”）</p>
+<p>可话虽如此，由于此次“微信+DeepSeek”的梦幻联动尚且处在灰度测试阶段，所以功能整体体验下来，仍不可避免的存在一定的优化空间。例如目前微信版DeepSeek仅支持手机端的搜索，同时被网友玩得最欢的结果分享功能，也无法在电脑端进行查看。</p>
+<p>另外，相比DeepSeek-R1完整版的对答服务，微信版DeepSeek可能更加侧重为用户提供“短平快”的基础问答。在这一点上，虽然微信版DeepSeek做到了问答迅速，但目前版本并不支持上传图片或文档辅助提问与搜索，也不支持上下文连接与记忆历史对话记录。</p>
+<p>但无论如何，此次“微信+DeepSeek”的联谊，也向行业揭示了AI技术在C端大规模应用的一种可能。但现在可能更值得我们关注的是，前沿科技的技术红利在利好大厂基础设施的同时，是否也能与游戏碰撞出别样的火花？</p>
+<h2><strong>02 当万物皆可AI，游戏厂商们赢麻了</strong></h2>
+<p>众所周知，2025年APP接入AI大模型也并非什么新鲜事。在AI技术爆发的当下，不仅是腾讯、百度等头部企业正积极拥抱AI，就连游戏行业也迅速乘上了这股东风。</p>
+<p>据笔者了解，在2025年这场浩浩荡荡的AI游戏革命中，要属网易做得最为激进彻底。</p>
+<p>还记得在数天前，网易旗下开放世界MMO《逆水寒手游》发布更新公告称，2月21日，以官方版本DeepSeek驱动的智能NPC“沈秋索”，即将在游戏中上线。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_eb4fdaf13d7945e0b1a0f6ad93d68a15@000000_oswg615275oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>为此公告还特地强调了《逆水寒手游》创下的三个“首次”—— 这将是DeepSeek首次进入游戏、首次拥有虚拟形象、首次成为虚拟智慧生命体。甚至官方还夸下海口，“逆水寒会帮助DeepSeek在懂梗、懂玩家、懂年轻国人这一领域里，断层式地远远甩掉国外所有竞争对手。”</p>
+<p>而在此之前，《逆水寒手游》也早已和其他5个国产AI大模型达成联动合作。其中包括阿里-通义大模型、百度-文心大模型、MiniMax-abab大模型、月之暗面-Kimi大模型、字节跳动-豆包大模型。上述五大模型将与网易联手组成大模型女团，并以智能NPC的形式存在于游戏世界当中。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_bf237636e27a4a1fbf53dc526aa3adbf@000000_oswg906032oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>难以想象，在大部分游戏厂商还在斟酌AI技术的利弊时，网易《逆水寒手游》就已经率先执行大跃步式的跨进。而在此之后，不少大厂或许是受到“同行”刺激，纷纷下场跟注“AI+游戏”风口。</p>
+<p>例如在前不久游族网络就发布公告称，游族旗下游戏内置AI玩伴“小游酱”将全面接入满血DeepSeek模型。</p>
+<p>在原有的模型基础上，升级后的“小游酱”将具备更强的逻辑思维能力， 它不仅能够给玩家提供特定场景的专属攻略，更能用朋友的语气与玩家进行日常风格的对话，为用户提供充分的情绪价值。</p>
+<p>另外，游族旗下二次元卡牌游戏《绯色回响》，也在2月14日情人节宣布同步接入“满血版DeepSeek模型”。在未来的两周时间里，包括刻耳柏洛斯、莫德雷德、伊童、玖莳、卡萝琳、尼罗在内的游戏角色，将在DeepSeek的加持下与玩家进行互动。在笔者的印象中，这似乎是二次元品类与DeepSeek深度结合的首个案例。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_b65a2b37500c43c284b0904a125609e9@000000_oswg962659oswg1080oswg506_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而在此期间，游族更是为《绯红回响》DeepSeek情人节互动场景定制了专属内容。例如玩家不仅能和NPC进行轻松俏皮的日常对话，还有可能触发各种甜蜜事件。诸如机车女骑俯身为你系上头盔；和风恋人在樱花屏风后藏起告白信；兔子女郎递来命运卡牌等待破解等......从相关社区的玩家反馈来看，用户对此次活动也是好评如潮。</p>
+<p>毫无疑问，在本就强调情绪价值的二次元品类下，此次《绯红回响》接入DeepSeek将为众多游戏厂商打开“二次元+NPC互动”的更多应用场景。 或许在二次元品类日渐颓靡的当下，具备丰富可玩性和强大交互能力的AGI，能够让包括米哈游、库洛在内的二游大厂焕发第二春。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_c6269954ad9e442f85226f98cfbc94dd@000000_oswg146471oswg1080oswg718_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（例如米哈游亦在放出AI智能体相关岗位）</p>
+<p>事实上，游戏行业在AI领域的探索收获还远不止上述这些。就在DeepSeek大行其道的当下，盛天网络在《密语炸弹》小游戏上接入DeepSeek，并计划年末推出社交陪伴型机器人，增强用户沉浸感和真实性；再比方说嗅觉向来敏锐的三七互娱，则是积极将Al融入到产品立项、内容生产、发行运营、资产沉淀等环节；另一边，昆仑万维在大模型研发方面与DeekSeep展开深度合作，并积极反哺公司各项主力业务......</p>
+<p>不难看出，游戏行业与AI的深度融合已不再停留于简单的试水尝鲜阶段，而是进入规模化落地的新节点。如果从这样的视角再去看待游戏行业未来发展，可以想象，谁能率先吃透AI热潮所带来的技术红利，谁就能在2025年之后的产业变革中迅速抢占市场，快人一步。</p>
+<h2><strong>03AI方面：腾讯还没出招，就已经强得可怕</strong></h2>
+<p>聊了这么多游戏行业在AI方面的变革，可能大家会问，为什么今天股价涨得最多的腾讯，反而在“游戏+AI”的大战中缺席了？</p>
+<p>事实上，腾讯对于AIGC技术的探索早已来到行业一线的位置，好比如腾讯目前在研的AI大模型“混元”，旗下AI Lab工作室推出的“AI绝悟”、“AI开悟”、“AI绝艺”等AIGC项目，都已经在国内多次亮相。</p>
+<p>如果觉得这些成果还不具说服力，那么在DeepSeek热潮兴起之前，腾讯魔方工作室群就曾对外发布过全新AI技术F.A.C.U.L.。</p>
+<p>简单来说，这是国内“首个能理解人类语言的AI伙伴”，能根据指挥执行丰富的战术指令。据了解，该技术是由魔方工作室群技术团队联合暗区突围项目团队共同打造的智能AI技术，能够被运行在魔方端游《暗区突围：无限》中。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_a9d4518367b84114af680c446a1f9cd1@000000_oswg332356oswg1080oswg698_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>因此，哪怕腾讯今年在“游戏+AI”领域还尚未出招，但过往的积累就已经让其处在行业领先的地位。 而实际上，今年腾讯游戏之所以能够在AI巨潮面前不慌不忙，主要还是在游戏业务上有着不少利好。</p>
+<p>回头来看，腾讯这两年可谓是铆足了劲。年前马化腾在年会上夸奖IEG，称赞IEG精气神好了起来，国内和国际业务都在稳步发展，按照现在这个表现来看，去年的这股势头，依旧会延续到今年上来。</p>
+<p>腾讯一直以来都是一家很热衷于投资的企业，在游戏行业当中，腾讯过往在各个品类下都有所投资，其中也涌现出了一批为腾讯带来了不少收益的公司以及产品。</p>
+<p>在前段时间，腾讯在海外投资的子公司Supercell才刚刚上演了一场“超级大翻盘”，去年的Supercell自从推出《爆裂小队》以来，外界对他们的质疑声从来没有少过，很多人一度认为Supercell已经没有在全球市场叱咤风云的能力了。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_e78de5cf4f814f13a1fb3303d508a4e8@000000_oswg49405oswg1080oswg503_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>但随着前段时间Supercell发布的营收数据引发了游戏行业的关注后，这些质疑很快就不攻自破了，根据数据显示，公司24年全年营收数据达30亿美元，同比增长77%，甚至还打破了《皇室战争》为Supercell创下的23亿美元记录，成为了公司历史上营收最高的一年。</p>
+<p>而在国内，上周一家腾讯旗下的工作室，又在游戏行业内投下了一颗重磅炸弹。一个来自成都的工作室，打造了一个令所有人都意想不到的西式题材传统ACT——《湮灭之潮》。</p>
+<p>短短两天之内，该产品就完成了在索尼State of Play上惊艳亮相，第二天也是一口气就放出近12分钟的实机演示内容，截至目前，《湮灭之潮》的两条视频在B站累计已经超过千万播放，成为了最近游戏圈内关注度最高的话题之一。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_75b6401280784408a2a327fbb9ea6361@000000_oswg182700oswg631oswg396_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这一回腾讯可谓是打了个“措手不及”，估计很多人都没有想到，腾讯能够以这么快的步伐，拿出一个质量看上去相当不错的单机产品去冲击这片已经被打开了的“国产3A蓝海”。并且该产品不仅是在国内得到了广泛关注，在海外随着近年国产游戏接连打响名声之后，《湮灭之潮》同样也因为其Made in China的标签受到了不少海外玩家的青睐。</p>
+<p>对于腾讯旗下的移动端产品来说，近期也是展现出了强劲的实力。如果我们往iOS畅销榜上看过去的话，在撰写本文时，腾讯的产品还是和往常一样，牢牢地占据了头部的位置。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_9aca69248f5a49c4a50e8ff082ffdeb8@000000_oswg56161oswg509oswg760_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>iOS游戏畅销榜前10里，有6款都是来自腾讯的游戏，其中《王者荣耀》以及《和平精英》，更是分列畅销总榜的头两名。腾讯旗下的老产品，在过了7年甚至10年之后，在当下的手游市场中依然能够屡屡冲击高峰，焕发出充沛的活力。</p>
+<p>在刚过去没多久的春节期间，《王者荣耀》在中国iOS市场就实现了96%的收入涨幅，使得其月收入创下了近两年内的新高；《和平精英》同样也在除夕当天，创下了超8000万日活的记录，其单月收入涨幅也达到了267%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_ca50b26a99074d1c91ecfbfeb7c2eff3@000000_oswg364406oswg1080oswg722_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>春节期间，除了上述两款游戏之外，腾讯还有其它的新老产品，也都顺势迎来一波大涨，根据SensorTower数据显示，1月份在国内iOS平台手游当中，收入排行前20里腾讯有8个上榜，其中前10就有7个，而考虑到《三角洲行动》有大量玩家使用PC端游玩，其流水数据无法完全体现于移动端排名上，因此它的移动端收入能够位居15也是十分可观。</p>
+<p>在新的一年当中，腾讯手握了35款产品，其中有24个版号已经到手了。这当中也不乏像《王者荣耀世界》《异人之下》《胜利女神：新的希望》等在各自品类下都受到大量关注的新产品。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_eb4f3bdc60884b2ba29eca7dcca61b81@000000_oswg152682oswg769oswg1024_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>随着腾讯游戏在战略层面愈发强调“长青化”之后，我们能看到腾讯的这一思路也逐渐体现在其产品上，总体上来说，这一变化可以笼统地概括为“数量更少，规模更大，品质更优”。</p>
+<p>因此在这一批储备产品当中，我们能看到不少已经得到过市场验证的产品，同时也能看到腾讯在各个品类下的积极布局，同时每个产品之间也各有自己的差异化属性在。</p>
+<p>在未来的推动下，这一批产品储备当中同样有很大机会像去年的腾讯那样，催生出像《地下城与勇士：起源》以及《三角洲行动》这种，具备有长青潜质的产品。</p>
+<p>随着今天腾讯一大批产品全面接入DeepSeek带来的股价上涨，我们已经能够感受到AI带来的变革，以及给企业带来的效益。而在游戏行业内，面对各种C端APP的AI接入，许多产品也是毫不示弱，相继宣布接入最新的AI功能来为游戏创造不一样的体验。</p>
+<p>在今年的CES2025上，我们甚至还见到了AI在游戏行业内更进一步的应用，可以说现在无论是大厂还是小厂，都纷纷开始了对AI的探索。对于腾讯来说，不止于旗下的APP，在游戏产品上也有过接入AI的尝试。凭借着腾讯在游戏业务上足够稳固的表现，对于“AI+游戏”的拓展，腾讯也能够以一种更为舒适的节奏去探索更好的AI应用方式。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5MDEwMTk2MA==&amp;mid=2651259194&amp;idx=1&amp;sn=d080df55a3d4aa6bb0bc6ddd2c34e6ab&amp;chksm=bc9826807a54edcece99c6d963f088af382adadc68a975e869220d005288dc357534df46f2ea&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“手游那点事”（ID：sykong_com）</a>，作者：willow、斯蒂芬，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170863375231488</guid><pubDate>Tue, 18 Feb 2025 09:10:00 +0800</pubDate></item><item><title>DeepSeek 冲击下的高考志愿填报行业：共识、分野与未来战场</title><link>https://36kr.com/p/3170841135213063</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>「不要嘴硬，Deep Seek 已对高报师形成负面冲击。」</p>
+<p>「任何一个行业都会被 AI 重塑，志愿填报行业没有人能固步自封。」</p>
+<p>「家长需要的是一个能承担决策风险的人，而非无法追责的 AI。」</p>
+<p>......</p>
+<p>Deep Seek 用户七天破亿，众多公司纷纷宣布接入。</p>
+<p>它在实际应用侧真的有那么大的提升吗？</p>
+<p>这是一场表演秀，还是基于业务场景的升级迭代？</p>
+<p>是一场人类狂欢幻觉，还是智能已来的真实号角？</p>
+<h2>1</h2>
+<p>「过去家长总抱怨 AI 回答‘一股机器味’，但 Deep Seek 让行业第一次意识到——AI 可以比人更像人。」靠谱 AI 创始人刘建华用「深度把玩」一词，来形容对 Deep Seek 语言能力的震撼。</p>
+<p>它能用哲学思辨解析升学路径选择，也能用网络热梗调侃「小镇做题家」的困境，甚至会在对话中流露情绪波动。<strong>「它既像一位渊博的学者，又像一位懂世故的老友，这种矛盾感恰恰击中了中国家长的心理需求。」</strong></p>
+<p>与传统模型直接输出结论不同，Deep Seek-R1 的「思维裸奔」模式彻底改变了交互逻辑，当家长亲眼见证 AI 如何权衡院校、专业、城市三大要素，如何交叉分析历年数据，决策参与感会转化为初步信任，这是传统咨询难以企及的。刘建华强调，<strong>「Deep Seek 已经在 C 端形成口碑倒逼，一定对行业形成了负面冲击，这点上不用嘴硬。</strong>当用户都愿意先先跟 Deep Seek 聊了，第一时间跟你聊的欲望自然降低。」</p>
+<p>高考志愿填报分两个服务阶段。第一个在高考出分前，业内叫咨询阶段。每年过了正月热度渐起，家长越来越上心，恨不得天天有人陪聊。</p>
+<p>此前需要找高报师、规划师付费了解，或者去达人直播点刷礼物蹲点连麦，但现在，Deep Seek 7*24 小时完全免费。</p>
+<p>「所有高报师得认清现实——如果你的专业度超不过 AI，就别指望家长掏钱。」刘建华说得直白，他亲自测试发现，在解析志愿填报的灵魂三问「院校、专业、城市哪个优先」时，AI 的高精准度让普通规划师难以招架，直播间里照本宣科讲「冲稳保」的达人，正在被家长用脚投票。</p>
+<p>不过到了第二个阶段——出分填报，AI 就显露出局限性。新高考背景下，同分考生可能因选科组合产生上百人的位次差，这需要实时更新的专业组数据库支撑。</p>
+<p>此外，在咨询阶段，生成式 AI（通用大模型属于此类）足以完成其使命，但在决策阶段，目前的志愿填报系统依旧采用的是判别式AI。</p>
+<p>「未来完整的流程由三者构成——模仿者：生成式AI，决策者：判别式 AI ，表达者：填报专家/高报师。」优志愿创始人耿忠诚进一步指出，<strong>「AI 解决的是‘信息翻译’问题，而专家解决的是‘决策共识’问题。」</strong></p>
+<h2>2</h2>
+<p>正如 AI 医疗，有人分享自己通过 AI 诊断的经历，有人用 AI 开中药，甚至有人用它看核磁片出手术建议报告。但是，有谁敢将自己的安全交给 AI ？答案显而易见，因为责任主体和信任感无法转移。</p>
+<p>「家长需要的是一个能承担决策风险的人，而非无法追责的 AI。」耿忠诚认为当前社会对 Deep Seek 的「颠覆性想象」掺杂了过多市场情绪的推波助澜。</p>
+<p>「 AI 推荐的‘冲稳保’策略，可能连新高考规则都没吃透。」耿忠诚展示了一个典型案例：某山东考生用大模型生成的志愿表中，竟出现「理科生填报汉语言文学保底」的规则性错误。</p>
+<p>这暴露出通用大模型的三大硬伤：</p>
+<p>其一，政策理解碎片化。新高考省份的「专业组」规则、强基计划动态调整的校测比例、艺术类招生的文化课折算公式……这些需要持续跟踪的政策细节，在大模型的回答中常出现逻辑断裂。</p>
+<p>其二，数据更新滞后性。有些院校计划招生数据和往年参考分数是不公开的。相关机构需要从省招办 800 多页的书里，进行 OCR 识别，再结构化入库。这些机构不公开的数据是大模型无法抓取到的。</p>
+<p>其三，多轮对话后细节信息丢失，家长因此可能丧失耐心。</p>
+<p>如早年「慕课」曾被认为将取代传统教师，甚至有言论说「只需要几个最优秀的老师就行」。但最终证明教育是双向认知传递的过程，技术仅能解决信息分发的效率问题，却无法替代师生间的互动与个性化适配。</p>
+<p>「最好的老师教 50 个学生，有人上清北，也有人不及格。这不是老师的问题，而是学生认知差异导致的。」耿忠诚强调，AI 的局限性在于无法因人而异地调整解释方式。当家长询问「什么是平行志愿」时，AI 的回答可能包含「分数优先、遵循志愿」等专业术语，但许多家长并不理解「分数优先」的具体含义，需要咨询师用更生活化类比才能打通认知。</p>
+<p>「技术日新月异，但它的本质是服务于人，而非取代人。一种技术的革命主要是用于提升行业效率的，颠覆的仅仅是低效率的工序或工种，但不会颠覆需求，甚至还会创造各种新的需求。」在耿忠诚看来，<strong>高考志愿填报的本质是「认知传递+风险决策」的结合体。</strong></p>
+<p>同时尽管技术普惠化，但志愿填报的核心壁垒——数据，目前仍掌握在头部企业手中。没有实时数据，AI 只是空中楼阁。「我们始终清醒：AI 是工具，不是产品。优志愿的核心壁垒在于数据沉淀与场景理解。十年数据积累，覆盖全国高校的录取数据、招生章程、专业组设置规则，构建结构化知识图谱。以及针对浙江‘80 志愿’、山东‘96 志愿’等新高考模式，开发的复杂场景解析的差异化算法模型。」</p>
+<p>耿忠诚进一步补充道，「有些招生政策不会写在官网，只会在实体手册中呈现。这些数据是通用大模型难以覆盖的。」</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_0149a97ef31940d69ffff5b669aec734@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（Deep Seek 回复是否可抓取报考数据）</p>
+<h2>3</h2>
+<p>「任何一个行业都会被 AI 重塑，志愿填报行业没有人能固步自封。」</p>
+<p>2014 年，当志愿填报行业仍停留在 Excel 表格时代，三名大学生在宿舍熬出第一版系统软件，拉开了蜻蜓生涯的创业序幕。</p>
+<p>「我们最初的资金只有十万块。」操着一口东北口音，伏全皓回忆道。彼时，优志愿、完美志愿等 C 端产品开始崭露头角，而身处东北的蜻蜓面临双重困境：既缺乏一线城市的运营资源，又难以在技术层面与头部企业硬碰硬。</p>
+<p>「另辟蹊径，做 saas 定制。我们赶上了 14、15 年的创业黄金期，那是一个生态位重构的时代。」智能手机普及催生了公众号开发、大数据应用等新场景，蜻蜓生涯与优志愿等企业共同开辟了志愿填报的数字化路径。</p>
+<p>这场「技术+场景」的突围，让蜻蜓生涯在十年后仍稳居 B 端市占率榜首，也印证了伏全皓的判断：<strong>「抓住时代浪潮的企业，本质是在解决行业效率问题。」</strong></p>
+<p>「互联网时代，我们要用大数据颠覆掉所有的咨询老师。」同年耿忠诚成立优志愿，立下这样的豪言壮语，「后来自己打脸了，我们和老师成为了合作伙伴，时代永远留存的是迭代自己知识和认知的这批人。<strong>没有颠覆者，只有工序和效率的优化。</strong>」</p>
+<h2>4</h2>
+<p>每个时代都有搅局者，也都有时代企业的应对。</p>
+<p>从宏观视角看，整个高考志愿填报行业属于教育咨询服务业，核心是通过数据分析、政策解读和职业规划帮助考生优化志愿选择。</p>
+<p>据伏全皓观察，当下，每年约 300 万人购买志愿填报服务，主要是志愿数据卡产品。目前虽有新玩家进入，但志愿卡市场已趋饱和，整体市场规模在 10 亿以内。当下选择一对一个性化指导的学生可能不超过 20 万人。</p>
+<p>此外，行业变革周期仅为 3-5 年，受政策、技术、需求三重驱动，纵观高考志愿填报近 20 年的行业流变，从无序的经验主义走向技术驱动的规范化服务：</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_d9eb578fabf7474cbede49c1afe301e9@000000_oswg164247oswg1080oswg303_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当下传统技术派（优志愿、蜻蜓生涯、百年育才等）与新兴流量派（峰学蔚来、百度、夸克）交相辉映，借助大模型力量「双减」后转型或其他行业入局者逐步涌现（靠谱 AI 等），政策规范化下（教育部免费公益「阳光志愿」系统）挤压低质高价服务空间，技术普惠下行业分化加剧。</p>
+<p>在伏全皓看来，随着经济社会的发展和家长规划意识的觉醒，未来行业的主要增长点一定在一对一个性化咨询服务，即从选科到高薪就业的全链条的生涯规划服务。</p>
+<p>「蜻蜓也好用，优志愿也好，在网红老师出现之前，前端大规模售卖数据卡的业务模型都活得很难，为什么？因为根本就卖不出去这个 C 端产品。」伏全皓进一步透露了高考志愿填报行业各生态位的互补关系。</p>
+<p>此前网络热议「张雪峰失业话题」，但在从业者看来，张雪峰的本质是网红经济，其核心竞争力不完全是知识储备，更多在于替家长扛下决策压力的情绪劳动。</p>
+<p>AI 解决的是「认知差」，张雪峰吃透的是「焦虑差」——当家长深夜纠结「985 天坑专业 vs 双非计算机」时，他们要的不是数据罗列，而是一个替自己承担决策风险的情绪出口。</p>
+<p>对此，DeepSeek 自己这么看：现阶段张雪峰≈教育界的「戒赌吧老哥」——人们付费不是买信息，而是买一场治愈焦虑的情绪蹦迪。</p>
+<p>除非 AI 能对着镜头吼出：「你让娃读生化环材？你是在等着给他将来填坑吗！」否则他的失业风险，可能还不如政策禁止「制造教育焦虑」来得大。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_b51801bfd06b46a5810b2b00facd5624@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（Deep Seek锐评张雪峰失业）</p>
+<h2>5</h2>
+<p>关于未来，于规划师个体来讲，耿忠诚认为「专家未来拼的不是知识储备，而是将复杂决策转化为用户认知的能力。就像《哪吒 2》电影，有人看到娱乐，有人看到阶级跃迁——咨询师要做的，是用对方的语言解释专业。」</p>
+<p>从行业整体演进出发，伏全皓并不认为数据是志愿填报企业长远的护城河。「AI 是这个时代必须顺应的技术革新的浪潮，志愿填报行业同样需要被 AI 重塑，静态数据未来一定是开放化的，向整个行业开放，未来的护城河应该是基于和合共生关系下的，新业务场景所产生的巨大过程化数据。」</p>
+<p>伏全皓判断，未来在前端市场将会涌现更多像夸克浏览器一样免费的产品，并且拥有更加精准的静态数据源，共同构建行业的新生态。因此，蜻蜓生涯尝试「平台化」，「我们要做升学规划领域的‘贝壳’。」伏全皓描绘了蜻蜓的终极蓝图——构建行业协作平台，打通资源、服务、成交全链条。 在全国高考一盘棋的背景下，「赌」未来一对一志愿填报的付费率越来越高。</p>
+<p>杀死行业的从来不是技术，在 1920 年汽车替代马车的浪潮中，真正消亡的并非马车夫，而是固守「更舒适鞍具」的制造商。今天的高考服务行业正站在同样的十字路口：</p>
+<p>「技术淘汰的从不是行业，而是低效的商业模式。」优志愿耿忠诚的这句话，或许是对这场变革的最佳注脚。</p>
+<p>在这里，没有稳坐钓鱼台的玩家。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg2ODA0ODkwNA==&amp;mid=2247535985&amp;idx=1&amp;sn=e6e9155dd17de25cf97d3a4c834ff405&amp;chksm=cf8b4e28df8d8c43fef3457887e13967f299771ae436abcf2792e6a8a03e6d566948d25b4344&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“多鲸”（ID：DJEDUINNO）</a>，作者：郁离子，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170841135213063</guid><pubDate>Tue, 18 Feb 2025 09:15:00 +0800</pubDate></item><item><title>2025新一轮国产单机井喷，只是开始的一小步</title><link>https://36kr.com/p/3170816161819136</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>对于2024年，我们之前的总结是游戏行业新一轮变革的起点，扬名海内外的《黑神话悟空》本身是PC市场发展的一个突出典型，从更加底层的平台发展来看，PC已经成为新一轮的头部企业必争之地。</p>
+<p>2025年开春，国产高品质单机井喷式的新一轮曝光，春节期间小品级单机的上扬，也让玩家、媒体、从业者都为之振奋，国产单机市场似乎离集体阳春越来越近。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_074b8881a7074d72b8db98c65c5fcace@000000_oswg255140oswg553oswg325_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而从客观的基本情况来看，国产单机目前依然处于道路明确的初级发展阶段，厂商的战略选择具有强烈的垂直性和方向性，以动作元素为核心，以剧情、题材为突破点，结合跨端发展的中国特色方式，逐鹿全球市场。</p>
+<p>备受鼓舞之余，这样的国产单机现状，是欣欣向荣的开始，也存在明显的短板。</p>
+<h2><strong>以动作元素为核心</strong></h2>
+<p>2025开始新年新气象，<strong>包括腾讯网易多个的单机产品进行了新一轮曝光</strong>，如腾讯IEG《剑来》IP单机项目以及投资子公司蛇夫座研发的《湮灭之潮》引发国内外广泛关注;网易《万民长歌：三国》《剑心雕龙》;万维猫动画携手原力数字科技《凡人修仙传》单机，包括多年磨一剑《失落之魂》定档，以及灵泽科技《明末：渊虚之羽》确定年内发售。</p>
+<p>这些产品有个明确的特点，<strong>大多以动作玩法为核心特色展开的RPG类型。</strong></p>
+<p>有的观点会认为，黑猴的成功让国内厂商过度聚焦在动作玩法赛道。其实不然，大型单机产品开发动辄几年，如果以20年分界线，黑神话前后一些小有名气的产品也都选择了这条路。</p>
+<p>ARPG、3D/横板ACT、带有战斗元素的开放世界，可以说以动作元素为核心就是这一轮国产单机起步的明确方向。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_d027e916b4bb483a8d74922987e535ba@000000_oswg301344oswg553oswg306_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>以索尼中国之星计划为例，自2016年公布以来，「中国之星计划」已经扶持和帮助了多个本土游戏开发团队，不乏《暗影火炬城》《硬核机甲》这样的口碑佳作(也都是动作冒险为主)。从第一期到2022年开始的第三期，ARPG和类魂元素的比例都在上升。</p>
+<p>甚至在B站等渠道也可以看到一些独立团队都以boss rush为核心，来尝试产出一些作品的曝光。</p>
+<p>究其原因，除了黑猴指明方向，验证市场潜力的背景，更关键的因素在于，<strong>传统文化带来的国人对于动作的喜好和擅长。</strong></p>
+<p>这一点可以参考<strong>影视领域，从武侠到功夫、动作片，国内团队和受众对于通过设计打的好看、打得爽的追求历史悠久，衍生出不同的细分赛道。</strong></p>
+<p>而站在市场的角度，动作元素带来视觉和操作体验更直观的游戏反馈，是全球市场的通行核心大类。通过题材选择的差异化竞争，多管齐下的国际化也提供了收支平衡的更多可能。</p>
+<h2><strong>以剧情、题材为买点</strong></h2>
+<p>国产单机发展的另一条长线，是<strong>以剧情和题材以小博大。</strong></p>
+<p>春节期间，模拟RPG《中国式相亲》、剧情解谜《三相奇谈》和《全网公敌2新世界》在Steam平台和国内社交平台都收获不错的评价。</p>
+<p>如果把时间线再往起来，过去一些激起浪花的国产中低成本单机，能引起传播的并不是玩法做得多么惊世骇俗，而是剧情内容和题材选择让玩家大呼过瘾。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_110db80f313b4007b71bade0e6694ce9@000000_oswg238461oswg554oswg304_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>中国式系列、修仙题材的各种模拟，再到过去的N把剑，均是如此。</p>
+<p>细细想来，这个选择与动作元素的选择具有协同性，都涉及开发成本的关机问题。</p>
+<p>我们之前聊过，<strong>技术升级、生产工具的迭代带来生产效率的提升，让研发能够回归内容本身，这是市场发展的趋势。</strong></p>
+<p>Unity开发者报告指出，2022年62%的独立游戏和58%的中型工作室立项研发到发行不超过一年的时间内，制作游戏对于小型工作室而言，五年耕耘的日子已经成为过去式。与此同时，独立开发者、中等规模和中低工作室的开发者实际上的工作时间减少了1.2%。独立开发者不再从零开始开发每个项目。相反，他们将转向使用第三方资源快速进行原型设计和测试，62%的独立开发者在游戏中使用了5到14个资源包(assets)。46%的独立游戏原型设计阶段不超过一个月。</p>
+<p>简而言之，<strong>随着引擎工具、资源包包括现在AI+快速发展，让开发者可以把更多精力放大内容设计上。</strong>那么专注于动作和关卡设计，专注内容题材的搭建，成为团队相对聚焦的集体选择，也就是打的好看、打得爽，有自己美术特色的同时做自己擅长的事情就可以满足相当一部分玩家的需求。</p>
+<h2><strong>跨端、服务IP的特色道路</strong></h2>
+<p>得益于中国游戏在手游浪潮中的成功，反哺PC/主机市场的发展我们也形成了一条自己的特色道路，以跨端/IP衍生为核心的平台变革。</p>
+<p>2024年PC市场的高速发展具备全球性。甚至连日本这样过去被视作PC荒漠的市场都引来了高速增长，根据日本知名游戏杂志FAMI通公布的《2024日本游戏白皮书》，去年日本PC游戏软件销售额由2022年的1892亿日元大涨至2364亿日元，增长率高达24.9%，日本PC游戏市场已连续4年保持高速增长。</p>
+<p>全球范围内的增长意味着国产游戏出海也从手游进化到手游、PC(以及未来主机游戏)多管齐下。</p>
+<p>下半年两个最直接的例子，腾讯《三角洲行动》以及叠纸《无限暖暖》大家耳熟能详，据外媒eurogamer报道，叠纸游戏在2024年的收入接近10亿美元。</p>
+<p>这个方向上，除了动作冒险，包括射击、开放世界、对战等更多类型会从手游向PC迁移形成一部分的补足。本质上是一种手游优势反哺PC/主机市场的体现。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_fc922efc6832443b912e5a368e31b9b0@000000_oswg286751oswg554oswg311_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>值得注意的是，无论是腾讯《剑来》、网易《万民长歌：三国》都是基于IP衍生的目的进行市场拓展，未来IP本身题材是否会对玩法赛道选择产生更多积极的影响有待观察。</p>
+<h2><strong>仅仅只是起步</strong></h2>
+<p>显然，作为新一轮发展起步阶段的国产单机远没有百花齐放的程度，而是从垂直方向慢慢发育的阶段。感受黎明曙光的同时也必须深刻认识到，<strong>从垂直化到百花齐放还有很长的路要走。</strong></p>
+<p>特别是能够得到玩家认可的玩法创新本身极度困难。</p>
+<p>2024年，Steam上线新游超过1.9万个，增长超过33%。同时在线峰值增长至约3932万人，即将突破4000万大关。结合公开数据测算，Steam 2024年的月活用户约为1.89亿，相较去年增长了3900万左右。</p>
+<p>然而Twitch游戏部门的掌舵人Bill Young表示，<strong>在这些新上架的游戏中，高达79%的作品被归类为“受限制游戏”。</strong>这类游戏通常销量低迷，内容空洞，且缺乏必要的社区互动功能，被视为低质量作品的代表。这一比例不仅远高于去年同期的73%，更是自2018年以来持续攀升的结果，当年这一比例仅为33%。</p>
+<p>换而言之，<strong>随着技术提升带来游戏生产门槛降低、生产效率提升必然带来泥沙俱下的两极分化。</strong></p>
+<p>此外游戏数量和用户大幅增长的同时，但玩家群体新游的游戏时长仅占总量的15%，过去1-7年发行的游戏占比47%，而发行超过8年的游戏则占比37%，单机市场存在明显的长尾效应。</p>
+<p>警惕但无需畏惧竞争，靠高个打开局面只是市场发展的初级阶段，<strong>从“活下来”到探寻各自的道路，头腰尾兼具的爆发向前才是我们追求的未来国产单机游戏市场的良性发展。</strong></p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg2OTU0MTcyMg==&amp;mid=2247505648&amp;idx=1&amp;sn=f91852a3fe1dfa8867238fd95699bbb2&amp;chksm=cf12e3d2b41a50cc07d6771dff08bcf82395c8ada7f6aa6f9a6eceeb2e83a3697191151ba221&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“游戏价值论”（ID：gamewower）</a>，作者：李亚倢，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170816161819136</guid><pubDate>Tue, 18 Feb 2025 09:16:00 +0800</pubDate></item><item><title>当行业只需要2000人，综艺人的下一站在哪？</title><link>https://36kr.com/p/3170810919512580</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“综艺人靠什么活着？”</p>
+<p>这是过去一年综艺导演李轩最常想到的问题，也是她与同行们讨论最多的问题。在去年3月从上一家综艺公司离开后，她一直没有找到新的工作。</p>
+<p><strong>最致命的焦虑来源于市场上项目缩水严重，没有这么多项目给到待业的导演们。</strong></p>
+<p><strong>“综艺的弊病之一就是节目太过于依赖明星了。很多节目能存续不是因为模式好，就是因为艺人。”李轩告诉娱乐资本论。</strong>但近两年综艺招商式微，能为综艺站台的头部艺人越来越少，不少综N代项目就此夭折。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_886a4747a6ff4a8ea9ecf0a0b9c01b41@000000_oswg114961oswg1080oswg587_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>一位综艺从业者告诉娱乐资本论，整个传统综艺节目行业里编导不超过2000人，这2000人创造的产能已经足够覆盖市场现有的项目。</strong></p>
+<p>同时，李轩还焦虑于自身能力的不足。95后的她入行于国内综艺黄金年代末期，在国内头部综艺公司工作了4年，做的都是同一个工种，“以前电视台逻辑是师父带徒弟，新人进台会轮岗，培养的是全能的电视人，但我们这代人太细分了，只会做一个工口的事情。”</p>
+<p>在李轩看来，<strong>出身于电视台的黄金一代与他们这代综艺人之间，能力和名气都彻底断代。</strong>打开boss直聘，正在招人的综艺公司空缺的大多是5年经验以上的制片人、总导演。与她一样的年轻导演们，都夹在够不上“总导演”，又不愿意做实习生的尴尬之中。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_6c83402e914e422ea34eb7ffd7897075@000000_oswg386030oswg1080oswg701_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>如何与焦虑同行？焦虑之下如何转型？已经成为了综艺人绕不开的命题。<strong>同时，一部分黄金一代的综艺人已经跳出了焦虑，投身于团播之中，我们也会在后续的稿件中与他们一同拆解“团播”如何让他们找到新的转型之路。</strong></p>
+<h2><strong>1 当大导演、大团队光环褪去</strong></h2>
+<p><strong>第一个无法回避的问题是，综艺团队正在缩水。</strong></p>
+<p><strong>“2025年可能是一个转折点，市场对大导演的认可度减弱，一些小而精的编导团队会有更多机会。”</strong>欣喜文化CEO、综艺导演岑俊义告诉娱乐资本论。而现在，则是85后综艺人硬控市场。</p>
+<p>与岑俊义一样，当下综艺市场上的明星导演、明星制作人都出自10年前国内综艺的黄金年代。提起《爸爸去哪儿》会联系到谢涤葵，提起《极限挑战》就会想到严敏，《我是歌手》的洪涛喝水则成为热梗经久不衰……每一档国民综艺IP背后，都有被观众熟知，被市场争抢的综艺导演。在那个综艺市场火热，IP具有全民影响力、综艺团队逐渐成体系的时代，综艺IP与导演团队的绑定成为常态。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_72d5a5d99ce44c71bf7fdd67fcc3ac88@000000_oswg154861oswg1080oswg1013_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>那时的综艺市场仍然相信，知名导演与他们的成功经验能够赋予项目“爆款”可能性。无论是电视台还是长视频平台都愿意为综艺团队砸钱。平台为争夺大导演团队甚至能够预付全年制作费。在那个时代，明星导演的话语权也足够大，“平台抢团队就像抢独家版权，合同里写‘零干预’条款是基本操作。”一位卫视制片人向小娱透露。</p>
+<p>当然，彼时综艺尚有“热钱”，头部综艺招商以“亿”为单位，不少项目的招商总量要高于剧集招商。<strong>“有钱”便能“有人”。当时，一个头部综艺组养百人团队是常态。</strong></p>
+<p><strong>李轩曾参与过国内一档知名选秀节目的录制，她回忆在这档综艺IP的巅峰期，光是团队给出的舞美预算就能cover掉两三部网剧的成本。“当时有知名度的综艺团队，包下整个节目，制作费几千万是常态，一个项目足够一个20人团队吃几年的。”</strong></p>
+<p>但当下，综艺行业已经没有热钱了。综艺招商规模整体缩减，“降本增效”在综艺领域的影响尤为明显。<strong>为了更好的控成本，近两年平台倾向于收归自制。“现在立项先砍预算，还要用自制团队和制片管理或者采购人员控盘。”岑俊义说。</strong></p>
+<p>优酷从2023年开始自建大量综艺工作室，副总裁沈严也向娱乐资本论表示过，未来会提高平台自制综艺的比例，曾经⅓自制、⅓监制、⅓合制的比例不复存在。爱奇艺、腾讯也在吸纳更多的综艺团队进入平台内部，2024年爱奇艺热度最高的《喜剧之王单口季》就由从笑果跳到爱奇艺的“小意思工作室”操盘自制。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_4e86b09d869140018619b99f0c7819ce@000000_oswg853148oswg1080oswg570_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>“一个综艺规模看上去很大，但多数时候综艺工作室的核心团队很多时候也只有6-7个人。”李轩告诉娱乐资本论。这部分团队往往负责一个项目的核心内容产出，即节目策划、赛制推演、剧本框架编写等，而节目录制期间的其他工种则由平台来临时搭建。</p>
+<p><strong>平台选择了直签的方式来组建综艺团队：制片人从不同公司找来编导团队、执行团队、舞台导演团队、后期团队，像搭积木一样组局。制作团队很少再像曾经一样全盘制作节目，“现在能够整体包盘的团队太少了，市场上不到10家，有些平台连几百万的单子都要三家。”岑俊义说。</strong></p>
+<p><strong>在平台与卫视转换“烧钱”的固有模式之后，近几年的头部项目也在逐渐减少，低成本小体量的节目越来越多。腾讯视频《毛雪汪》、爱奇艺《闪亮的日子》等“小微综艺”崛起，单集成本压至50万内，整个导演组仅3—5人的项目不在少数。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_4e0bb785686942caa070b474f73dd205@000000_oswg235328oswg1080oswg2175_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>这也意味着市场上能够容纳大导演、大团队的综艺正在减少，“原来要求电影镜头、高审美什么的，用大量人力堆出来的经验在这种项目里用不上了，很多时候导演自己带一个osmo或者手机就能给艺人拍外景，哪里还需要这么多人呢？”李轩说道。</strong></p>
+<p>这类项目很多时候都不需要找到制作团队，他们的做法往往是先找到核心导演，由导演牵头找到几个项目聘导演，组建起来一个导演组，承接项目制作。李轩表示从之前的团队离职之后，她会通过接这样一些小项目来维持收入，因为市场上几乎已经没有太多大项目还在吸纳导演进去。</p>
+<p>这样的趋势倒逼了不少综艺团队在组织架构上“改革”。仍然坚守综艺内容的团队选择了将团队拆成多个工作室/小团队的方式。每个团队有自己擅长的领域，接自己能接的项目，有时一个公司可以同时进好几个组。</p>
+<p>鱼子酱文化联合创始人陈刚就将团队拆分为5个垂直的小团队，有打造了《我们民谣2022》《中国音乐公告牌》《爆裂舞台》《爱唱歌的大学生》《奔赴万人现场》等项目，垂直于音乐综艺的团队，也有打造了《青春有你》《快乐男声》擅长于捕捉人物关系，做群像的节目团队；同时，在人文类节目、潮流生活等领域深耕的小团队。打造了《一起露营吧》《青春的花路》《请吃饭的姐姐》《奋斗吧主播》等节目。“5个团队各自在擅长的赛道上接项目，有大的项目需要足够大的团队时会临时合作。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_336c2ce54e204523aa7f58f3b1473264@000000_oswg69821oswg922oswg512_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>岑俊义的欣喜文化同样如此，他刚带着公司的一部分导演完成了央视一个节目的录制，而另一部分导演同步驻扎在别的项目里。重点项目岑俊义一般会跟组，或者成为项目的导演、制片人，“我会根据项目带不同的导演接单，大项目我们就全员进，小项目大家就拆散成小团队。”</p>
+<p><strong>在陈刚看来，正如鱼子酱一样，综艺团队当下架构变革的核心点就在于不再过分追求抱团取暖。相比起以往的全员进组，拆分出来的小团队，或是本身就只有几个人的团队显得更为灵活，而这样的灵活、低成本成为他们在这个市场上的优势。</strong></p>
+<p><strong>由大到小的过程中，那些被缩水的大团队被“削减”的人，只能尝试寻找新出路。</strong></p>
+<h2><strong>2 综艺人的下一站：短与直？</strong></h2>
+<p>大团队拆散、缩编的情况下，综艺行业的岗位空缺越来越少，薪资水准也在逐年变低。</p>
+<p>刚入行综艺不满一年的导演小林告诉娱乐资本论，去年冬天她参与了一个只有十几人团队的小项目，一个月收入只有3-4000元，相当于实习生收入。“现在想要找到一个价格还不错的项目简直是难上加难，很多项目的执行组就是一个导演带着十几个实习生，正职导演都没什么选择余地。”</p>
+<p>相比之下，直播、短视频正在提供大量的就业岗位。根据《抖音就业价值报告（2023）》，直播、短视频及电商业务衍生了超7000万个就业岗位，包括创作者、主播、MCN机构员工、直播基地运营人员等。</p>
+<p>在去年离职后，李轩点开求职软件，发现查看她简历的HR大部分来自MCN、直播工会，综艺团队寥寥无几。“我一开始很排斥的，还是不想做短视频、直播，但后来发现认识的部分平台制片人不是去了无忧传媒，就是入职遥望，所以也想着试试。”谈起这件事，她显得有些无奈。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_50833a8aa9a345cd9df4ae1ad5c6998a@000000_oswg168957oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>这是综艺人面临的求职现实，当长视频综艺萎缩时，直播与短视频正成为综艺人的下一站。</strong></p>
+<p>真正进入短视频、直播之前，李轩对于转型的预期是乐观的。在她看来，短视频、直播尤其是涉及娱乐内容的策划，应该是综艺导演、编剧的拿手好戏。</p>
+<p><strong>去年年底，她合作过的一个卫视导演找到她，邀她一起为一个网红策划一档直播综艺，综艺模式偏向于曾经的《达人秀》。</strong>类似模式的直播选秀近两年在抖音上热度极高，其中最头部的“木森大舞台”（深度探访稿件请点击），一旦开播，在线人数就能超过100w，从去年9月开始，木森单日GMV最高能达到5000w~7500w。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_f2da34e5abef4823aa9302223743220b@000000_oswg189931oswg1080oswg716_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>李轩服务的这位网红在抖音的粉丝量超过500w，每次直播的基础在线人数都在1w以上。在李轩看来，这位网红找到综艺导演的初衷应该是将直播内容变得更综艺，“有些短视频创作者还是会认为综艺导演更专业一点，但其实大家没想通的是，直播和综艺本身是两种内容。”</p>
+<p><strong>“综艺人转型做直播，就像秀才遇到兵。”李轩这样总结短暂的直播经验。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_1477bcc2247f452489e5852a33444a8d@000000_oswg1238361oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">AI作图 by娱乐资本论</p>
+<p>他们以综艺导演的经验策划了这次直播。前期租了小摄像棚、搭建灯光；通过网红预热，在报名的粉丝中找到了才艺表演者，在直播中设置了具体的表演环节与流程，预埋了选手走位、节目的“抽象”笑点，以电视台排播逻辑把直播定在周六晚上“黄金档”。然而，这样精心策划的直播内容，以惨败告终。</p>
+<p><strong>当晚直播间人数从初始的1.4w跌至3000人。每一个导演能够实时看到直播间人数的下降，担任主持人的主播在确认直播人数一降再降后，紧急叫停了直播。“综艺导演总想控场，但直播的魅力恰恰在于失控，</strong>观众根本不在乎你埋了什么反转，他们只想看主播下一秒会不会翻车。”李轩苦笑着对娱乐资本论说。</p>
+<p>正如李轩的经历，综艺人涌入直播、短视频、MCN生态后，往往面临的是两种内容模式之间的壁垒，而作为综艺导演的他们一时间难以转换身份。</p>
+<p><strong>一方面，综艺导演并不熟悉短视频、直播的内容调性与用户需求，在电视台、长综艺内容培养出的制作思路与短、直生态水土不服。另一方面，短视频、直播生态中低成本、小素材量的制作模式是限制综艺内容无缝转化的最大因素。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_c88d22db635146e6ab9913fafa4c35ce@000000_oswg132062oswg1080oswg648_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>导演小林入职过一家头部MCN公司，这家公司找到她的理由在于想要从0策划一档短视频综艺节目。但小林进去后发现，短视频的制作逻辑与综艺的逻辑有很大区别。综艺拍摄模式下的素材量大大超出短视频需要的体量，后期处理起来相当困难。“几个T的素材在综艺里面根本不够看，但在短视频后期组里一个星期也剪不出来。”</p>
+<p>后期的速度又跟不上短视频对于更新频率的高要求，“一个星期要更新2-3个正片，哪怕时长短，也是来不及拍摄和后期处理的，而这个更新量在短视频领域已经算不达标了。”</p>
+<p>曾在阿里担任优酷副总裁，负责综艺、商业化和内容产业化业务的蔺志强认为，综艺与直播对于公司员工的能力要求有所不同——<strong>综艺以内容生产为核心，直播侧重于运营。两者在需求侧的内容产出上有所不同，综艺更多基于导演策划的内容产品，而直播运营相当于制片人、总导演、选管、财务等多角色的集合，要负责与用户更好地对话，刺激用户付费。</strong></p>
+<p>“未来综艺导演会越来越少，懂内容、运营、算法的全能创作者会越来越多。”李轩下了这样的判断。</p>
+<h2><strong>3 跨过阵痛的黄金一代，做了什么？</strong></h2>
+<p>值得庆幸的是，当一批人仍拿着旧地图摸索转型之路时，综艺行业已经出现了找到新大陆的人。<strong>这批转型的先行者，大多也都“发家”于综艺的黄金年代，如同10年前一样，他们仍然是改写这个行业规则的人。</strong></p>
+<p>曾担任优酷、抖音综艺负责人的宋秉华就是其中之一。他2013年加入优酷，曾经创作了《火星情报局》等综艺节目，担任《天猫双11狂欢夜》总监制。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_887a70b356f1483fbeff3d6f166d51f3@000000_oswg288102oswg553oswg312_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>在他看来，未来以账号为基础的个人创作者、低成本、非明星化且 ToC 收益的商业模式会成为主流。“团播目前是增速最快的，但未来可能会有新的形式出现。只要符合低成本、能让创作者获得收益的标准，就可能有发展。”</strong></p>
+<p>离开平台后，宋秉华在长沙创办了白鸟文澜文化，定位为经纪公司。团播是白鸟文澜第一个基地的第一个业务。</p>
+<p>白鸟文澜运营着5人男团BN 海王星和6人女团 BN-Venus，每天两场以上的直播为主，与个人账号内容切片同步运营。目前公司仍在拓展更多的团，今年预计会增加到20个团播左右。“像我们公司做团播，注重的是让有才艺但并非天生条件优越的年轻人也能参与进来，通过啦啦队效应和舞台化的手段，让他们现在就能养活自己，为未来争取机会。”</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_26ef3d106a48460c8b4acce4c44f54d6@000000_oswg241279oswg1080oswg2011_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>蔺志强则从2023年开始创业之后探索多个新的内容形态和商业模式，已经建构了触飞瑞拓的国内精品短剧+海外短剧平台（筹建中）+综艺+团播+线下的复合业务。目前综艺已经不是公司最核心的业务板块，更多的精力投注在中国和海外双市场的短剧和团播业务。</p>
+<p>蔺志强做团播的逻辑不同于市场上依靠“打赏”转化的固有模式。他们与风华秋实合作，打造了国内首个偶像传播项目——univu5女团，在抖音平台进行偶像化传播，区别于传统的打赏变现，以To b和粉丝经济To c转化为主要商业模式，强调偶像生态内容呈现。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_bf705dd56dc14fe09e7e5e9f2b9abfe1@000000_oswg64130oswg1080oswg707_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>当然，综艺的转型脚步不会停留在团播这里，“我们现在做团播是为了先稳定公司收益，培养人才，但不意味着团播会一直是主导，它只是一个阶段的选择。而且行业会不断变化，可能会有新的技术或平台出现，改变现有的格局。”宋秉华表示。</strong></p>
+<p><strong>转型偶像团播等业务之外，综艺团队也开始拓展线上、线下的IP运营的新业务。</strong></p>
+<p>鱼子酱文化凭借在综艺制作中积累的内容创作、艺人挖掘与培养等经验，进军短视频领域，打造了一个MCN厂牌，转型运营起了艺人的短视频账号，通过账号进行粉丝经济的运作。</p>
+<p>他们目前运营七八位艺人，包括男团成员等，都在自己的账号上尝试制作并规划类似综艺的内容。不同于随意随手记录的生活片段，这些内容以主题直播、vlog或纪录片形式为主，更具规划性。</p>
+<p>“目前业内很少有艺人短视频账号实现真正意义上的破圈，大多数还在通过账号进行粉丝经济的运作，但长远来看，所有平台都在寻求最大化的国民度，内容创作也在向短视频和直播平台迁移。”陈刚告诉娱乐资本论。</p>
+<p>制作《盒子里的猫》《开始推理吧》等多个节目的侦侦日上，在持续深耕综艺的同时，也拓宽了“内容+”赛道，做内容拓展和线下文旅IP建设。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_627a8a53477e452da0475f98ec147d88@000000_oswg189831oswg1020oswg1489_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>文旅项目显然更考验一个团队的长期能力，从前期的市场调研、产品定位开始，逐步推进到整个项目的策划、内容设计以及预算分析等，每个环节都需要长期投入，才能最终完成大型文旅项目的落地。</p>
+<p>目前他们已经参与了多个投资过亿的线下项目，比如与某政府合作的一个文化综合体项目。</p>
+<p>于是回到最初的问题：综艺人究竟靠什么活着？我们仍然难以寻觅一个标准答案。但至少在这个冬天将被更替的当下，我们发现转型之路仍旧宽阔着。我们会在下一篇文章中聚焦综艺人向团播转型的努力，试着与他们一同找到新的地图。</p>
+<p>（李轩、小林均为化名）</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg5ODkwOTM2NA==&amp;mid=2247664834&amp;idx=1&amp;sn=30bf1b90391e91001a649178961e2bf3&amp;chksm=c1a441bc24fe59a88335ba22ace0b8d8b5904a2348bc580a91606fc76ee4778a908de7e4844b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“娱乐资本论”（ID：yulezibenlun）</a>，作者：莉拉，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170810919512580</guid><pubDate>Tue, 18 Feb 2025 09:22:00 +0800</pubDate></item><item><title>《哪吒2》北美拿到国产片十年新高</title><link>https://36kr.com/p/3170758454356484</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>当下，电影行业最为火热的依然当属《哪吒2》，尽管寒假已经彻底过去，但影片继续启动着刷屏模式。</p>
+<p>其实关于《哪吒2》，虽然目前内地市场已经来到了120亿+的关口，但在如此惊人的刷纪录面前，在每天不断推出各种破纪录信息之后，反倒有些审美疲劳，毕竟大家已经提前预期到了它最终将落在150亿的关口上。于犀牛娱乐来讲，或许海外市场，尤其是北美市场，可能才是接下来更为关心的方向。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_3e8e9074c3bc47899b70d7e8b57804af@000000_oswg343571oswg1080oswg452_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>《哪吒2》北美拿到国产片十年新高</strong></h2>
+<p>伴随着寒假的结束，《哪吒2》的“狂轰滥炸”多少有些开始收敛，影片早已载入了史册，伟大无需多言，而伴随着影片登陆海外多个市场，它所面临的其他考验也随之而来。尽管我们无需太过关心海外市场的反馈，不在乎别人会怎么说，更不会因影片的海外失利而担心，但至少《哪吒2》作为国产近年来最强种子，它的海外表现还是能够当做一个风向标来看。</p>
+<p>从目前来看，影片在海外多个市场的表现可谓炸裂，尤其是北美市场，上一次能够成功攻占北美市场的国产片还得回到2006年李连杰主演的《霍元甲》上，影片曾在北美拿到2400多万美元的成绩。在近20年国产片难有斩获的情况下，《哪吒2》北美首周末拿到了721万美元的优异成绩，相对来说，这无疑是一大壮举，亦是一大突破。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_345e8079f3fe49428fbe7e2800d2c3cd@000000_oswg46829oswg666oswg258_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（国产电影在北美市场的表现）</p>
+<p>于曾经的国产片来说，如何攻占北美市场、如何斩获美国的奥斯卡大奖，曾是令无数中国电影人所努力的方向，我们也曾在新千年初期有不错的斩获，李安的《卧虎藏龙》曾拿到奥斯卡最佳外语片，更是在北美拿到了惊人的1.28亿美元成绩，这也是非英语电影在北美的票房纪录。</p>
+<p>后面张艺谋的《英雄》在内地开启大年时代，内地豪取2.5亿，自此之后内地市场来到了单片破亿的时代，它在北美市场亦是不遑多让，曾连续拿到两周的票房冠军，最终斩获5371万美元。包括后面周星驰的《功夫》、李连杰主演的《霍元甲》以及《少年黄飞鸿之铁马骝》等，这些均在北美市场占有一席之地。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_7207d2ce7e3749979e56d0866f3c1a60@000000_oswg89061oswg1080oswg368_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>可以很明显的发现，这些所有上榜的国产电影都有一个特点，即它们全部都是功夫、武侠类中国特有影片，其他类型方面，不论是爱情、喜剧、科幻、剧情等都未能上榜。这一类电影之所以能够持续在北美市场卖座，确实是因为它在全世界都独树一帜的类型风格，让北美观众拥有强大的猎奇心理，但后续并没有一个很好的延续性。</p>
+<p>哪怕是放眼过去十余年，国产电影再也没有一部能够在北美市场突破1000万美元的电影了，其中王家卫2013年推出的《一代宗师》成为最后一部在北美大规模上映的国产电影，取得了600多万美元的成绩，自此之后，再无真正大规模发行影片。哪怕《流浪地球》也仅是斩获597万美元而已，这几乎是国产电影的极限位置了。</p>
+<p>以上种种，再来看现在《哪吒2》的表现，便能够看出其强大的含金量，影片并非属于北美WIDE规模放映，上映馆数仅有700多家，在如此小规模的基础上，首周末便拿到了700多万美元，轻松打破了《霍元甲》之后的国产电影在北美市场的票房纪录。从目前的趋势来看，影片预计最终将落在1500万美元的水准，有望跟曾经那些“武侠前辈”看齐，进入前五的行列。</p>
+<h2><strong>为何国产电影出海那么难？</strong></h2>
+<p>尽管北美以及海外市场表现已经非常不错，但相对内地市场的火热，或许很多人都在遗憾，为何内地横扫千军的《哪吒2》不能在海外取得进一步的突破，尤其是北美市场，何时才能够重现当年武侠片的风采，再次完成国产电影出海，其实这里还是存在着很大的难度。</p>
+<p>拿《哪吒2》来说，倘若它真的在北美市场落在1500万美元，那毫无疑问已经是重大突破了，毕竟《哪吒2》没有任何合拍属性、国际电影属性，而是完全属于中国电影的范畴，纯粹的中国神话故事改编，这对于海外观众存在着很大的理解门槛，更为重要的是此次《哪吒2》并没有英语翻译版，发行工作面临着很大的压力和困难。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_66dd0af7ced34883bb40fef9227e8905@000000_oswg64824oswg768oswg432_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>犀牛娱乐认为，三点的制约影响着国产电影的出海。首先便是语境，中国电影，尤其是内地电影，它的语境首先得服务于内地市场，或许国内没有一家公司最初的设想是全球发行影片，国产电影是严重依赖于内地市场，甚至是唯一依赖内地市场，这是在项目开发期初的语境和方向所决定的，因此注定难以在海外市场有所斩获，或者说压根就从未打算卖过内地以外的市场。</p>
+<p>其次是发行，可以说发行是真正阻断内地爆款变成全球爆款的因素，尤其是北美市场，其成熟的发行机制，不止是阻断了国产片，任何小语种电影进入北美几乎都存在着巨大的难度。但凡不是真正主流大发行WIDE模式，其他都注定沦为炮灰，因此《哪吒2》的成绩弥足珍贵。</p>
+<p>最后，能卖海外市场的明星已经不多。不论是北美市场，还是海外其他市场，都是非常认明星的，尤其是国际明星。于国内来讲，成龙、李连杰、李安、周润发等都曾混迹于好莱坞，这些国际明星的电影才能真正实现全球发行，伴随着国际明星的老去，海外影响力的下滑，因此国产电影出海变得越发困难。</p>
+<p>基于此也能够轻易得出，为何我们内地市场大卖的电影，总是在海外吃瘪的原因了，比如现象级爆款《战狼2》北美仅拿到272万美元、前票房纪录持有者《长津湖》仅有34万美元等等，表现最好的也仅有《流浪地球》的597万而已。国产爆款的出海工作还任重而道远，而《哪吒2》这一小步，其实已经是一大步了。</p>
+<p>在此刻，《哪吒2》站在了内地120亿的节点，全球票房来到了历史TOP10的行列，虽然最终的海外市场不足以影响它的地位，但已经来到了历史里程碑的位置，且看后续它的最终落点如何。</p>
+<p>本文来自微信公众号 <a href="https://mp.weixin.qq.com/s?__biz=MzI2MDI4NjQ3Mw==&amp;mid=2247560953&amp;idx=1&amp;sn=56c5dd60c8c0701e941eb1602adc8b9d&amp;chksm=ebba810d2b92f7688239a0bd1a56a85f07c11574c0ba1e8254c511776a4725a09e3f1c2074d7&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“犀牛娱乐”（ID：piaofangtoushijing）</a>，作者：南如珉，编辑：朴芳，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170758454356484</guid><pubDate>Tue, 18 Feb 2025 09:22:00 +0800</pubDate></item><item><title>短期高估、长期低估——微信接入DeepSeek的冷思考</title><link>https://36kr.com/p/3170756915276552</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>微信搜索接入DeepSeek后，我看到了太多DeepSeek生成的水文，也看到了太多“王炸”、“里程碑”、“深水炸弹”、“重构AI搜索”、“游戏终结”等虎狼之词。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_ee2ba7fd4f4b45fe81102609a1eb1ac1@000000_oswg173808oswg1080oswg1374_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">比如这篇，直接把DeepSeek幻觉搬上来了</p>
+<p>实在忍不住了，决定出来基于事实和逻辑来一版的冷静分析。</p>
+<p>本文纯古法酿造，古典自媒体人卫夕用纯机械键盘手打，真正的“人工”智能——</p>
+<h2><strong>1</strong></h2>
+<p>一个事实是，这次DeepSeek的接入微信搜索，从产品层面准备之仓促，就好像是<strong>“用透明胶将DeepSeek粘到了微信搜索上”</strong>——</p>
+<p>没有历史记录、没有上下文联动、没有文件上传功能、没有接入个人数据、没有融入关系链、没有和其他功能联动，甚至结果中偶尔还有明晃晃的&lt;think&gt; 标签。</p>
+<p>唯一能体现产品经理存在感的两个feature：一是搜索结果支持分享、二是输出结果之后有“推荐问题”。</p>
+<p><strong>而这两个feature，从技术的角度，核心逻辑不超过10行代码。</strong></p>
+<p>如果拿出来让业内同学盲猜，我相信至少五成的从业者不会相信这是微信的推出的产品。</p>
+<h2><strong>2</strong></h2>
+<p>那么问题来了，为什么要这么匆忙上线？</p>
+<p>投资人戴雨森说过一个三字策略——“快、猛、糙”。</p>
+<p><strong>微信这次接入DeepSeek可以称之为“快、糙”，但并不“猛”。</strong></p>
+<p>我们先分析“快”和“糙”，事实上，“糙”是“快”的结果，而“快”是“糙”的原因，这次的操作很显然很不“微信Style”。</p>
+<p>我不认为微信这次这么快上是为了“卡位”、“先上牌桌”、“建立心智”、“立AI人设”，这100%不在龙哥的产品哲学之内。</p>
+<p><strong>而最大的可能性是团队想低调地快速练兵以获得反馈，甚至可能没有考虑过外界的反响。</strong></p>
+<p>我不成熟地猜测，微信产品团队内心的OS可能是——“我们去年也推过AI问一问、公众号AI语音、公众号AI回复、输入法AI、微信读书AI总结，也没见大伙这么热情啊”</p>
+<p><strong>而前台呈现的所谓“糙”，我理解是一个工程上的优先级的问题——</strong></p>
+<p>对于DeepSeek的接入，第一优先级肯定是“能用、不崩”（事实上，这两天还是有崩了的情况），第二优先级是基础索引、RAG、Embedding等工程质量，至于前端体验细节，以微信的产品功力，后续可以分分钟根据反馈快速优化。</p>
+<p>为什么谈不上“猛”？</p>
+<p>注意，微信这次接入并不是整个搜索都由DeepSeek接管了，而是在微信搜索框的下方给了一个独立的入口。</p>
+<p>这二者有本质区别，后者只是嫁接在搜索框的入口之下，是纸糊上去的，并没有和微信的核心功能深度打通。</p>
+<p><strong>“深入口、浅体验”的设计在很大程度上证明微信团队有意缩小影响范围，从相对边缘的场景切入，并不想大张旗鼓。</strong></p>
+<p>龙哥治下的微信向来“敢为天下后”，支付、短视频、电商莫不如此，节奏不急不缓，心态四平八稳。</p>
+<p>客观地讲，微信此次的接入在PR上相当低调、在产品上略显粗糙，初衷是试水，完全没有搞一个大新闻的任何意思。</p>
+<p>但微信本身“超级App”的地位决定了它的任何一个动作都会被媒体捕捉放大，更何况是DeepSeek这种热搜圣体加持。</p>
+<h2><strong>3</strong></h2>
+<p>为什么选择搜索切入？</p>
+<p>之所以选择搜索场景，原因在于相比于对话型的Chatbot产品，搜索在心智上本身就属于“短平快”，用户更倾向于搜完即走，这从成本的角度可以节省Token。</p>
+<p>此外，DeepSeek R1这种推理模型，一个重要特征在于其推理是需要时间的，无论微信内部技术性能如何优化，这个思考时间没办法大幅缩减的，而相比于其他场景，主动点击AI搜索用户等待接受度更高。</p>
+<p>我个人猜测，后续微信的节奏，大概率还是会从公众号对话、小程序客服等长尾场景继续切入，在打磨成熟之后才会切入聊天框等核心场景。</p>
+<h2><strong>4</strong></h2>
+<p>微信搜索的接入DeepSeek这类推理模型的真实体验增量在一定程度上被夸大了。</p>
+<p>实际上，对于绝大部分人而言，被动型的高级AI搜索在需求上本身是一个很小的子集。</p>
+<p>和输入一两个关键词的普通搜索相比，要输入提示词的门槛本身就会挡住绝大多数人，后者在操作成本上比前者高一个数量级，而用户规模则会低一个数量级。</p>
+<p><strong>复杂高级的AI搜索，本质上是一个生产行为，而非消费行为。</strong></p>
+<p>这也是为什么率先接入GPT4的微软Bing，并没有从谷歌抢到什么市场份额的核心原因。</p>
+<p>那些分析微信接入DeepSeek“搜索游戏终结”的论调对行业的基本常识缺乏尊重。</p>
+<h2><strong>5</strong></h2>
+<p>和很多国内早早宣布接入DeepSeek的产品不同，无论是360的纳米搜索、百度还是知乎、元宝，无论是手机厂商华为、OPPO还是车企吉利、零跑，本质上都是用DeepSeek给自己带货。</p>
+<p>而微信则不同，它在其实是给DeepSeek带货。</p>
+<p><strong>某种意义上，微信是大模型最大的一个货架。</strong></p>
+<p>由于遵循MIT开源协议这种宽松的自由软件许可标准，微信的私有化部署本身并不给DeepSeek公司带来直接受益，但13.8亿用户国民应用的接入对DeepSeek进一步基础设施化、成为阶段性的智能“水电煤”是一个重要的示范。</p>
+<p>腾讯其实也投资了“AI六小龙”中的多家，而如此迅速地接入DeepSeek，除了性能，另一个更重要的前提是DeepSeek开源开的彻底，腾讯部署完全不用关心数据安全问题。</p>
+<h2><strong>6</strong></h2>
+<p>必须指出的的是，尽管微信接入DeepSeek被媒体和自媒体高估，但另一个极端论调同样不客观，该论调认为微信接DeepSeek“是一种套壳行为”。</p>
+<p><strong>在我看来，判断一个产品是否套壳只有一个标准，那就是有没有提供体验增量。</strong></p>
+<p>很显然，尽管微信的接入很仓促、很简陋，但仅凭接入公众号海量联网数据这一点，其体验增量就已经和那种接API的真套壳产品有本质区别了。</p>
+<p>DeepSeek本身作为一个独立App的一个杀手锏核心是<strong>“深度思考”+“联网搜索”。</strong></p>
+<p>如今，任何接入DeepSeek的App在“深度思考”思考上没有能力差距，和体验层的核心差异在于“联网搜索”，而“联网搜索”也得拆分成“联网”和“搜索”两个点独立分析。</p>
+<p><strong>先看“联网”。</strong></p>
+<p>“联网”的背后对应的是数据，除了爬虫能爬到的公共数据，核心差异其实是App孤岛背后私有数据。</p>
+<p>很显然，知乎接DeepSeek、雪球接DeepSeek、小红书接DeepSeek和微信接DeepSeek，同样一个问题，由于数据源不同，答案是不一样的。</p>
+<p>而公众号的数据，总体而言高于头条等通俗媒体，但同样有类别上的差异和偏好。</p>
+<p>比如对于偏生活类的信息，其不一定有小红书那么多元，比如对于财经信息，其不一定有雪球那么深入。</p>
+<p><strong>再看“搜索”。</strong></p>
+<p>“搜索”其实是上一代互联网的技术皇冠。</p>
+<p>同样的数据源，一个搜索引擎如何建立高效的索引，如何算结果质量分，如何粗排、精排，如何反作弊，其搜索结果千差万别。</p>
+<p>这个搜索基建对于AI搜索同样重要，AI搜索核心逻辑是先根据问题智能地生产关键词进行搜索，然后再根据搜索结果智能地组织信息、呈现结果。</p>
+<p>而这个过程需要大量的工程上的优化，比如，AI根据多少条搜索结果来组织答案就是其中一个典型多要素复杂问题——</p>
+<p><strong>选的结果太多成本高、冗余度大，选的结果太少质量低、不全面。</strong></p>
+<p>从我个人的体验看，有一些问答，同属腾讯流量的元宝和微信AI搜索的答案，呈现出很大的不同，背后的原因其实就涉及了两个产品在工程层面的差异。</p>
+<p>这正是Perplexity、秘塔这类专门的AI搜索产品存在的价值。</p>
+<p>从这个意义上，微信搜索接入DeepSeek，只是迈出了第一步，其任重道远的体验进化之路必然漫长。</p>
+<h2><strong>7</strong></h2>
+<p>微信和DeepSeek这类推理模型结合的想象空间大概率还埋在冰山底下。</p>
+<p>我举一个很小的例子，微信其实很早就推出了“微信对话开放平台”，支持一分钟构建对话机器人，但这个服务至今只局限在“公众号”、“企业微信”、“小程序”这些客服类的垂直场景。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_5ba68ba8432e4a85a355c96f8fcf3bb2@000000_oswg47885oswg1080oswg896_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>我们简单开一个脑洞——如果这个AI对话机器人直接向个人通讯录开放，让不同的AI智能体变成你随时聊天的好友，体验增量会比现在的纸糊产品提升一个数量级。</p>
+<p>我赌5毛钱，以龙哥的野心和节奏，一定会在两年内推出微信版的Agent平台，它不同于现有的任何Agent，有微信独有的产品气质，而它的能量不会小于今天的小程序。</p>
+<p>PS：微信对话开放平台的域名是：openai.weixin.qq.com（现在输入这个地址还能打开），去年改成了chatbot.weixin.qq.com，十分有趣。</p>
+<h2><strong>8</strong></h2>
+<p>微信和其他腾讯接入DeepSeek，并不意味着DeepSeek成为小甜甜的同时腾讯自研的基座模型混元就成了牛夫人。</p>
+<p>事实上，混元在MoE架构上的探索是相对早的，也相继开源了旗下文生文、文生图、3D 生成和视频大模型。</p>
+<p>而腾讯复杂而庞大的产品生态需要混元的多模态能力（比如广告创意生成），而多模态恰恰现阶段还是DeepSeek的短板。</p>
+<p>这周混元也开始小范围公测自己的长思考模型Hunyuan T1，作为业务庞大的巨头，我谨慎地认为腾讯不会减少对自研基座模型的投入力度，而更多是鞭策他们在资源充裕的支持下，以更高的效率拿出更多指标领先的“硬货”。</p>
+<h2><strong>9</strong></h2>
+<p>业界对腾讯AI战略的一个担忧是腾讯AI团队过于分散，涉及AI lab、腾讯云、微信AI团队、其他应用等多个AI相关团队，</p>
+<p>目前看，腾讯内部也意识到并且在改善这个问题。</p>
+<p>一个证据是，今年初，“元宝”产品团队从 TEG 事业群（技术工程事业群）调整至CSIG（云与智慧产业事业群）</p>
+<p>“元宝”在应用层将由腾讯会议负责人吴祖榕负责，这其实反映了腾讯在有意梳理模型层和应用层的分工。</p>
+<p>吴祖榕在B端和C端经验丰富，他会如何主导数据上落后的元宝与业界先发者竞争，值得观察。</p>
+<p><strong>腾讯的生态太复杂、太庞大，也并不见得每一个产品都适合R1这样的推理模型，但DeepSeek无疑加速了腾讯在应用层的AI落地。</strong></p>
+<p>而我最期待的是QQ这款活化石产品能否跟上AI节奏，在我看来，作为腾讯的试验田，QQ其实可以更激进地尝试AI。</p>
+<h2><strong>10</strong></h2>
+<p>去年马化腾在财报会上谈到“对于工业革命来讲，早一个月把电灯泡拿出来不那么重要的”，当时不少业内人士还评论其在AI投入上不够激进。</p>
+<p>如今看，随着DeepSeek陆续被接入腾讯云、腾讯IMA、腾讯元宝、腾讯会议、QQ音乐、微信搜索......腾讯在应用层的板凳深度开始浮出水面，而这还只是场景层面切入的开始。</p>
+<p><strong>事实证明，“场景+数据”在很大够成了除模型性能之外的另一个重要护城河。</strong></p>
+<p>从另一个角度，昆仑万维周亚辉评价字节2023年的AI战略“不及格”，而24年则是“满分表现”。</p>
+<p>很显然，这个评价还是过早了。</p>
+<p>这不，梁汝波在最新的字节全员会上开始反思“相比追求某个具体产品，比如豆包的DAU，把智能本身作为最重要的目标可以激发更多尝试、不忽略关键技术节点。”</p>
+<p>这句话的潜台词是字节错过了一些关键技术节点。</p>
+<p><strong>所以，AI时代，不要轻易提前下任何结论。</strong></p>
+<p>以现在AI一日千里的进化速度，任何局中人唯一值得推崇的策略就是用“贝叶斯公式”随时用新的事实校准自己的认知。</p>
+<p>你说李彦宏的脸疼吗？不重要，重要的是公司能不能继续在牌桌上。</p>
+<h2><strong>11</strong></h2>
+<p><strong>“微信+AI”最大的想象力在于输入带宽提升带来的智能升维。</strong></p>
+<p>这句有点上价值了，但我确实找不到更好的词来形容。</p>
+<p>什么意思？</p>
+<p>我们现在和包括DeepSeek在内的一切AI沟通，输入带宽是很低的，AI只能从你只言片语的提示词中捕捉有限的信息，总信息量很低。</p>
+<p><strong>输入决定输出，AI智能程度再高，从技术的角度它回应的上限也十分有限。</strong></p>
+<p>人是什么？</p>
+<p>马克斯韦伯说“人是社会关系的总和”，而微信则是这种关系总和的赛博载体，储存和个人最高度相关、最多元的信息。</p>
+<p>如果你无法理解这一点，只要做一个简单的思想实验：如果手机上只能装一个App，你会装什么？</p>
+<p>所以，如果用户主动授权通过微信提升对AI的输入带宽（前提是有优雅的隐私解决方案），AI不仅知道你对它提了什么问题，它更立体、细致地了解你这个人和你的社交关系。</p>
+<p>当你闺蜜连续两天发加班朋友圈，AI会用红点贴心礼貌地弱提示——“XX最近工作压力指数高，要不要用微信送礼发给她发一张奶茶劵表达关心？”</p>
+<p>别笑，我只是举了一个最没有想象力的例子，想要更多案例请将我这段论述输入DeepSeek，它绘的蓝图一定更精彩。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250217/v2_2b3c7421dbf24bd0868a318467de62f6@000000_oswg276746oswg1080oswg2013_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">简单感受一下</p>
+<h2><strong>12</strong></h2>
+<p>总结一下，很显然，和微信礼物一样，业界的虎狼之词显然高估了微信搜索接入DeepSeek的短期影响，但低估了微信作为第一国民应用的长期AI潜力。</p>
+<p>而我的结论是，无论从哪个角度看，微信搜索接入DeepSeek只是一道前菜。</p>
+<p><strong>两年前，我们说“所有的App都值得用AI重做一遍”，今天，业界变成了“所有的App都值得接DeepSeek重做一遍”。</strong></p>
+<p>许多年后，当我们回复这一轮AI大潮，微信的接入DeepSeek绝对只是演出微不足道的暖场片段。</p>
+<p>很显然，场子已经热了，而作为观众，没必要在真正的大戏还没上演之前就一惊一乍。</p>
+<h2><strong>结语</strong></h2>
+<p>最近恒生科技指数上涨的厉害，腾讯、阿里等标杆涨幅喜人，从宏观的视角，DeepSeek以一己之力推动了中国资产的价值重估，这个事实，怎么吹都不过分。</p>
+<p>2025，AI还会继续狂奔，让我们搬好小板凳。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzU1NjEzNjk1Mw==&amp;mid=2247487584&amp;idx=1&amp;sn=c12d3e341a0fc37c2198d8d51ef85be3&amp;chksm=fa44b997dceb4335dce736e253c51dcd5ecfae25c2bde097cad28c24ca04095dd4a367e4ea75&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“卫夕指北”（ID：weixizhibei）</a>，作者：卫夕，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3170756915276552</guid><pubDate>Tue, 18 Feb 2025 09:24:00 +0800</pubDate></item></channel></rss>
