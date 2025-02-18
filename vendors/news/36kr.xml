@@ -1,525 +1,522 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 18 Feb 2025 16:30:24 +0800</lastBuildDate><pubDate>Tue, 18 Feb 2025 16:30:24 +0800</pubDate><item><title>刚刚，马斯克发布 Grok3，推理能力远超 o3 mini(high) 和 DeepSeek-R1</title><link>https://36kr.com/p/3171723221549961</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>在试图以 974 亿美元收购 OpenAI 的提议被拒绝后，<strong>世界首富马斯克又搞了一个大动作</strong>——</p>
-<p>刚刚，他发布了<strong>号称“地球最聪明的 AI”</strong>，Grok3，其由一个包含约 20 万个 GPU 的数据中心训练，计算能力是上一代模型 Grok 2 的“10 倍”，且使用了扩大的训练数据集。</p>
-<p>据此前介绍，Grok 3 是在合成数据的基础上进行训练的，它能够通过重读数据来反思所犯的错误，从而达到逻辑上的一致性。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_2263f031116a4d2c8aa00e567dc61a15@000000_oswg318514oswg1054oswg808_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>评测结果方面</strong>，Grok3 在 AIME'24（美国数学竞赛）、GPQA（研究生水平科学知识问答能力的基准测试）等测试中均取得了比 Gemini-2 pro、DeepSeek-v3、Claude 3.5 Sonnet 和 GPT-4o 更好的效果。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_f52fd239dcd944c3a917f619e44f9b26@000000_oswg114476oswg1080oswg622_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>尤其在推理方面</strong>，Grok 3 Reasoning 和 Grok 3 mini Reasoning 在 AIME'24、GPQA 等测试中取得了压倒性的优势，最高分达到 96 分，超过了 o3 mini(high)、o1 和 DeepSeek-R1 等前沿模型。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_763601e67b044b6ea3911be81f84cde7@000000_oswg132602oswg1080oswg632_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>甚至，<strong>在最新的 AIME 2025 评测中</strong>，Grok3 推理系列模型更是达到了 90 及以上的分数，稍微领先 o3 mini(high) 的 87 分。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_1f9cf38d3ca94182ad56d71f3cf617df@000000_oswg96888oswg1080oswg585_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>基于 Grok3 推理模型，Grok app 上线了 DeepSearch 功能，DeepSearch 可以表达其理解查询的过程以及计划响应的方式，会扫描互联网和 X，分析信息，并针对问题提供摘要。据现场演示 ，DeepSearch 包括研究、头脑风暴和数据分析等选项。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_f260507bd9504bfc877a003b3fbfba49@000000_oswg259863oswg1080oswg614_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此外，在 Chatbot Arena 评估中，Grok-3 的得分达到了 1400 分，同样超过了 Gemini 系列和 chatgpt-4o 和 DeepSeek-R1。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_533fba722089471c84d8012a3e3cf93c@000000_oswg124830oswg1080oswg675_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>此外，马斯克在直播中透露，未来——最快一周后——Grok 应用程序将具备“语音模式”，这将为 Grok 模型提供合成语音。几个月后，xAI 将开源上一代模型 Grok 2。“我们的一般做法是，当下一个版本完全推出时，我们将开源上一个版本（Grok）。”</p>
-<p>马斯克曾多次警告说，人工智能会给人类文明带来风险，但他仍在极力推动加大对这一领域的投资。</p>
-<p>xAI 于 12 月表示，它在新一轮融资中筹集了 60 亿美元，投资者包括美国风险资本家、芯片制造商英伟达和 AMD，以及沙特阿拉伯和卡塔尔的投资基金等。去年 5 月，该公司首次融资便获得了高达 60 亿美元的资金。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=Mzg4MDE3OTA5NA==&amp;mid=2247595752&amp;idx=1&amp;sn=52b72eca3edaee8a909a155f940ff409&amp;chksm=ce41df6a27f8a384981ad9046fbc8ec87356df25c16456132a8c271fe4ffe651fae4532c8a12&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“学术头条”（ID：SciTouTiao）</a>，作者：学术头条，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171723221549961</guid><pubDate>Tue, 18 Feb 2025 16:05:00 +0800</pubDate></item><item><title>业绩预喜之际，470万股权面临折价拍卖，青岛银行如何回应</title><link>https://36kr.com/p/3171721207120259</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Tue, 18 Feb 2025 17:00:32 +0800</lastBuildDate><pubDate>Tue, 18 Feb 2025 17:00:32 +0800</pubDate><item><title>落袋为安，超140亿“跑了”</title><link>https://36kr.com/p/3171752950497673</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>昨日（2月17日），沪深两市双双上涨，当日股票ETF（含跨境ETF，下同）市场净流出资金超140亿元。其中，宽基ETF净流出居前。</p>
+<h2><strong>股票ETF单日净流出144亿元</strong></h2>
+<p>Wind数据显示，截至2月17日，全市场1005只股票ETF总规模达3.39万亿元。当日股票ETF市场总份额减少76亿份，按照成交均价测算，当日净流出资金约为143.96亿元。</p>
+<p>细分品类中，宽基ETF净流出居前，净流出152.91亿元。规模变化方面，宽基ETF规模减少53.36亿元。具体到指数维度，沪深300指数单日净流出居前，达40.41亿元。</p>
+<p>根据易方达基金统计，资金净流出的板块中，沪深300指数净流出40.5亿元，中证1000指数净流出36.1亿元，中证A500指数净流出25.0亿元，科创板指数净流出19.3亿元，上证50指数净流出15.5亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_c4c3c8e8d9de4c43be75f880d9512398@000000_oswg6172oswg544oswg260_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>从单只基金看，与指数资金变动方向一致，沪深300ETF、上证50ETF、科创50ETF净流出资金较多。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_519f1e4216e3448a86f93d5273a00867@000000_oswg59038oswg564oswg532_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>主题ETF净流入居前</strong></h2>
+<p>在股票ETF整体资金净流出的同时，仍有部分指数逆势吸金。</p>
+<p>据华夏基金统计，昨日主题ETF净流入居前，达到16.45亿元。具体到指数维度，2月17日，港股创新药单日净流入7.53亿元。从5日角度观测，中证A500指数累计净流入56.25亿元。</p>
+<p>具体到各类ETF昨日资金净流入情况看，据易方达基金统计，昨日流入前五板块分别为黄金（净流入12.6亿元）、港股医药（净流入6.2亿元）、计算机（净流入5.0亿元）、新能源（净流入4.3亿元）、人工智能（净流入3.6亿元）。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_c18f1221cb094b6a96a557300f404ddd@000000_oswg8718oswg552oswg260_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>头部基金公司旗下部分ETF持续吸引资金净流入。数据显示，易方达基金的ETF产品中，A500ETF易方达净流入5.6亿元，人工智能ETF净流入2.6亿元，云计算ETF净流入1.8亿元，医药ETF净流入1.0亿元，港股通互联网ETF净流入0.7亿元。</p>
+<p>华夏基金旗下ETF产品中，2月17日，机器人ETF和信创ETF单日净流入居前，分别净流入3.15亿元和0.76亿元，最新规模分别达72.33亿元和3.58亿元，对应跟踪指数近一月日均成交额分别为8.72亿元和0.31亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_5c5f693cc0ce40b5aafe51d27ec9aa5f@000000_oswg60511oswg564oswg560_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>华夏基金表示，昨日市场延续活跃上涨态势。消息面上，1月份社融数据超预期好转，显示中国经济复苏信号，以及腾讯接入DeepSeek，产业层面的催化提振了港股科技股及A股AI赛道；另一方面，市场处于较高活跃区间，连续的上涨、近2万亿元的成交额以及多只持续暴涨的热门个股，背后是较高的风险偏好。</p>
+<p>但也应该看到，恒生科技及A股计算机板块等近期领涨板块，已然具有较大涨幅，且部分板块成交额达到历史高位，这意味着风险会逐渐提升，往后看风险偏好的退潮是一个逐渐走弱的过程，因此，短期依然处于做多区间，较好的方式是通过仓位管理来应对，或者根据市场反馈来应对，做好风险收益平衡，防范局部热门股回调风险。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA5MDEzNjQwMA==&amp;mid=2656228953&amp;idx=1&amp;sn=1df7c7eb787e6619e279d563627f975d&amp;chksm=8a5729bebc602d6ca9ff47109e122b6751f17a291063801c0141cebcdb80397dec60e977c2f1&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中国基金报”（ID：chinafundnews）</a>，作者：张燕北，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171752950497673</guid><pubDate>Tue, 18 Feb 2025 16:40:00 +0800</pubDate></item><item><title>10 万GPU烧出 AI 怪物，马斯克 Grok-3 硬刚 DeepSeek</title><link>https://36kr.com/p/3171751361085191</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>“10 万张 H100 GPU 训练”、“证明黎曼猜想”、“最聪明的 AI”。</p>
+<p>Grok-3 未发布就赚足了眼球，今天中午，一如既往的迟到后，被马斯克称为“Smartest AI on Earth”的 Grok-3 终于来到了我们面前。</p>
+<p>注意，Grok-3 并不是一个对话助手，而是为了完成 xAI 的使命：“Our mission is to understand universe（我们的使命是了解宇宙）”</p>
+<p class="image-wrapper"><img data-img-size-val="1650,979" src="https://file.36krcdn.com/hsossms/20250218/v2_2b01e647b4434dc6bc47c499c8ebbf87@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>超越 GPT4o，最强 AI 初见端倪</strong></h2>
+<p>这次发布会，马斯克发布了两套模型一个工具，即 Grok-3、Grok-3 Reasoning，以及 Agent 工具 Grok DeepSearch。</p>
+<p class="image-wrapper"><img data-img-size-val="697,348" src="https://file.36krcdn.com/hsossms/20250218/v2_ea80b761926548e3b09d0573a1984b5d@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>马斯克表示，Grok-3 在多项 Benchmark 的测试中均取得了比 DeepSeek-V3、GPT-4o、Gemini-2 Pro 更优的效果，Grok-3 已经在 xAI 内部运行了两个星期。</p>
+<p class="image-wrapper"><img data-img-size-val="1742,919" src="https://file.36krcdn.com/hsossms/20250218/v2_1380a97974c34913afb1e29eae827a4d@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在现场演示中，工作人员用 Grok-3 寻找去火星的时间窗口，在一定程度上展示了 Grok-3 的信息搜索、真假信息判断以及推理能力。</p>
+<p class="image-wrapper"><img data-img-size-val="1892,1030" src="https://file.36krcdn.com/hsossms/20250218/v2_b95bd00b21f647f4b7744202a52d4ae1@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>另一个演示是制作一款融合俄罗斯方块和宝石迷阵的二合一游戏，展示了 Grok-3 的编程及创意能力。</p>
+<p class="image-wrapper"><img data-img-size-val="1280,1026" src="https://file.36krcdn.com/hsossms/20250218/v2_15c48429cf884be5a36474c94a18250f@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>从现场展示来看，Grok-3 的编程、推理、计算能力确实很突出。而在最新的 AIME 竞赛中也是断层领先。这里有亮点需要注意，第一个亮点是它这项对比的不是 V3 版本的 DeepSeek，而是最新的 DeepSeek R1；另一个亮点是 Grok-3 mini 的性能也非常突出。</p>
+<p class="image-wrapper"><img data-img-size-val="1609,894" src="https://file.36krcdn.com/hsossms/20250218/v2_66e14144035248ec800c5ebdf5834352@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在 Chatbot 竞技场之称的 LMSYS 盲测中，Grok 3 在代码、指令响应等各个方面排名第一。</p>
+<p class="image-wrapper"><img data-img-size-val="1378,1050" src="https://file.36krcdn.com/hsossms/20250218/v2_1e971de27f4c48da924edda2a5933768@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>马斯克式的 AI 哲学</strong></h2>
+<p>如果说 ChatGPT 是学校里的模范生，那 Grok 就是试遍各种方法的取巧派。</p>
+<p>在迪拜世界政府峰会上，马斯克表示，我们可以把人工智能看作一个超级天才的孩子，如果 AI 有好奇心并且追求真理，它将促进人类发展。</p>
+<p>为了让这个“孩子”可以被更多人看到，半个小时左右的发布会上，马斯克拿出了五六分钟的时间来教大家如何在 X 平台上预约 Grok-3、推出不计算力的 SuperGrok、推荐大家使用网页版，以避免 App Store 审核导致的效果落后。</p>
+<p class="image-wrapper"><img data-img-size-val="1824,990" src="https://file.36krcdn.com/hsossms/20250218/v2_a1bdad14907d43fa9102a5989cd9f7fd@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>一周之后，语音版的 Grok 就会上线；几周之后，Grok-3 的 API 会上线；几个月之后，Grok-3 会开源，同时下一代 Grok 开始研发。</p>
+<p>作为一个暂时闭源的模型，Grok 并没有太多限制，它不用和 DeepSeek 竞争、不用追求性价比，只要能打赢 OpenAI，它可以不计成本。</p>
+<p class="image-wrapper"><img data-img-size-val="1920,1920" src="https://file.36krcdn.com/hsossms/20250218/v2_053b44116e0949368ca3409dca9a067a@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在发布会的结尾，Grok-3 非常激动地和大家用语音交流：我非常激动终于见到了你，我们终于可以互相学习了。</p>
+<p>这如同赛博世界一般的宣言，也展示了马斯克的 AI 哲学：真实，好奇，热爱人类。</p>
+<p class="image-wrapper"><img data-img-size-val="1481,630" src="https://file.36krcdn.com/hsossms/20250218/v2_3f85472ee5d34bbc999472a5ef96a247@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而这个可能是男性的声音，似乎也回答了 Q&amp;A 阶段观众关于 Grok-3 性别的提问。</p>
+<h2><strong>大洋此岸，是来自 DeepSeek 的“中国式突围”</strong></h2>
+<p>那对比 DeepSeek，谁更强呢？</p>
+<p>与 Grok-3 重资产投入形成鲜明对比，DeepSeek R1 开源版本仅用了行业 1/50 的训练成本就实现了顶级性能，API 调用价格更是低至 0.001 元/千 Tokens，手机语音助手、国民应用微信等一众软件接入，让 DeepSeek 的“本土化场景”成为了几乎绝对的护城河。</p>
+<p>有报道称，深圳福田区政务系统通过 DeepSeek 大模型，将办事流程压缩60%，微信 AI 搜索的灰度测试也显示，DeepSeek 在中文语义理解的准确性上超过了 Grok-2。</p>
+<p class="image-wrapper"><img data-img-size-val="739,654" src="https://file.36krcdn.com/hsossms/20250218/v2_85926deb4fcd4c29b964348341bcffc3@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>虽然我们现在还没有用到 Grok-3，但即便他更聪明，DeepSeek 也更懂中国市场的刚需。</p>
+<p>同时就在今早，OpenAI 突然宣布开源，并在 X 平台发起投票，让用户选择更想开源哪个模型，如今短策模型投票大幅领先。而在月初，Altman 曾表示，OpenAI 闭源“站在了历史错误的一边”。</p>
+<p class="image-wrapper"><img data-img-size-val="586,250" src="https://file.36krcdn.com/hsossms/20250218/v2_6d444f218df646bfb9d4ce0f209fab15@5688845_file_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不论是希望通过 X 平台渗透到 C 端用户的 Grok-3，还是在金融、教育、制造等多个领域落地的 DeepSeek，还是宣布开源，即将发布 GPT-5 的 OpenAI。AI 行业即将进入技术与应用闭环反哺、互相促进的阶段。算力、人才、数据……竞争才刚刚开始。</p>
+<p>本文来自微信公众号“PConline太平洋科技”，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171751361085191</guid><pubDate>Tue, 18 Feb 2025 16:40:00 +0800</pubDate></item><item><title>马斯克成点头机器人，Grok-3发布会坐C位的两个华人是谁？</title><link>https://36kr.com/p/3171805128900352</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <blockquote>
-<p>青岛银行即将被拍卖的470万股权，每股均价为3.42元，较最新收盘价折价17.37%。</p>
+<p>在发布环节里，更加引人注目的其实是坐在C位的两位华人面孔，据介绍，这二人都是xAI的创始团队成员，主要负责模型研究，相比之下，有行业人士总结马斯克更像是个“点头机器”。</p>
 </blockquote>
-<p>近日，据阿里资产司法拍卖平台显示，青岛银行470万股股权将于2月20日分两笔公开拍卖，起拍价合计为1607.4万元，每股均价为3.42元，较2月14日收盘价，折价0.72元。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_3bf35a2dc8fc4223ae0109c04da91c10@000000_oswg277353oswg1080oswg587_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图片来源：阿里资产司法拍卖平台</p>
-<p>本次拍卖的股权是山东三利源经贸有限公司（下称山东三利源）的无限售流通股，属于青岛市崂山区人民法院的司法拍卖。而据WEMONEY研究室了解，这已经是山东三利源持有青岛银行股票被第三次司法拍卖了。</p>
-<h2><strong>470万股将被司法拍卖青岛银行回应</strong></h2>
-<p>山东三利源，成立于2002年，位于山东省青岛市，是一家以零售为主的企业（熟食起家，后又投资钢铁贸易和投资）。在2023年末，曾位列青岛银行第九大股东，实控人为葛守蛟。</p>
-<p>2021年2月，山东三利源向青岛银行借款7100万元，抵押物为两处房产，分别为青岛市市南区东海西路31号保时捷大厦9层，建筑面积709.01平方米；青岛市市南区香港西路25号12号楼101户（复式）海信清泉墅，建筑面积420.84平方米。</p>
-<p>但仅仅过了一年半，公司就因经营不善暴雷，表示无力偿还贷款。随即，三利源被青岛银行起诉，法院判决青岛银行胜诉。2024年9月，青岛银行福州路支行公开转让山东三利源8020.53万元债权，包括借款本金7100万元，利息797.10万元，罚息57.47万元，代垫费用65.96万元。上述债权起拍价为7554.90万元，第一次因无人出价而流拍。</p>
-<p>2024年10月，上述债权第二次拍卖，起拍价降至6043.92万元，再次流拍。2024年11月，上述债权第三次拍卖，起拍价降至5288.43万元，同样因无人出价而流拍。</p>
-<p>而值得一提的是，山东三利源不仅涉及青岛银行的贷款纠纷，还在农业银行青岛支行，有4.29亿元的贷款纠纷。据了解，2024年以来，该公司已被6次强制执行，执行总金额6.93亿元。目前，该公司已经被列为经营异常名录，且被法院列为失信被执行人。</p>
-<p>随着债务的不断暴雷，山东三利源抵押的上市银行股权被拍卖。据阿里资产司法拍卖平台显示，目前，山东三利源持有的青岛银行股权已经经过两次拍卖，第一次在2023年12月20日，5370万股青岛银行股权分两笔拍卖，起拍价合计为1.68亿元，合计每股3.13元。由唯一报名者青岛西海岸金融发展有限公司拍得。</p>
-<p>第二次在2024年10月29日，3200万股青岛银行股权，起拍价为1.1584亿元，成交价为1.1584亿元，合计每股3.62元，由唯一出价人吴二永拍得。</p>
-<p>而即将在2025年2月20日拍卖的470万股青岛银行股权属于第三次，分两笔公开拍卖，起拍价合计为1607.4万元，每股均价为3.42元。</p>
-<p>截至2月14日收盘，青岛银行的收盘价为4.14元/股，明显高于以上三次的每股竞拍成交均价，较2月20日的拍卖均价高21.05%。</p>
-<p>针对此类股东变动对银行股权结构及战略稳定性的潜在影响，青岛银行回应称，近年来由于经济环境、股东自身经营等多种因素影响，银行股股份被拍卖情况较为普遍。本次三利源被司法拍卖的股份合计470万股，仅占青岛银行股份总额的0.08%，占比较低，不会对青岛银行股权结构及战略稳定性产生影响。</p>
-<h2><strong>营收净利双增分红比例走低</strong></h2>
-<p>青岛银行成立于1996年11月，为山东省首家主板上市银行、全国第二家“A+H”股上市城商行。</p>
-<p>2022年—2024年，青岛银行实现营业收入116.44亿元、124.72亿元和134.98亿元，同比增长4.56%、7.11%和8.22%；实现归母净利润30.83亿元、35.49亿元和42.64亿元，同比增长5.48%、15.11%和20.16%。</p>
-<p>从以上数据来看，过去三年，青岛银行的营收和归母净利润增速一直在持续攀升。</p>
-<p>从资产质量来看，2022年—2024年，青岛银行的不良贷款率为1.21%、1.18%和1.14%；拨备覆盖率分别为219.77%、225.96%和241.32%。整体资产质量保持稳定。</p>
-<p>从资本充足率来看，截至2024年三季度末，青岛银行资本充足率为13.15%，一级资本充足率为10.49%，核心一级资本充足率为8.90%。虽然较上年末都有所上升，但8.90%的核心一级资本充足率仍低于行业平均。</p>
-<p>而同期，齐鲁银行的资本充足率为15.37%，一级资本充足率为12.52%，核心一级资本充足率为10.26%。明显高于青岛银行。</p>
-<p>此外，值得一提的是，2021年—2024年，青岛银行的现金分红比率分别为33.91%、31.86%、30.21%、26.24%，持续走低，</p>
-<p>对此，青岛银行表示，公司始终高度重视股东回报，近年来在确保资本充足、风险可控的前提下，统筹平衡经营的可持续发展和股东回报等。未来，我行将积极响应国家政策导向，坚持高质量发展，持续优化经营质效，结合战略规划、盈利水平、股东诉求及监管要求，科学制定分红方案，致力于为股东创造长期价值。</p>
-<p>截至2024年末，青岛银行的资产总额为6899.63亿元，同比增长13.48%。客户贷款总额3406.90亿元，同比增长13.53%；客户存款总额4320.24亿元，同比增长11.91%。</p>
-<p>综合发展战略看，2025年是青岛银行新三年战略规划收官之年。对于2025年布局重点，青岛银行对WEMONEY研究室表示，将稳步加大信贷投放力度，积极响应国家政策，聚焦山东省内各地市重点项目，围绕“科技金融、绿色金融、普惠金融、养老金融、数字金融”五篇 大文章，布局“八大新赛道”，对项目资产优质、综合收 益好、风险可控、有长远发展前景的项目和企业给予信贷支持，助力实体经济发展。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzOTU2MzE0Mg==&amp;mid=2247496621&amp;idx=1&amp;sn=73f868da38417378b6c94203364dd1d8&amp;chksm=e810f17cabb8e933e4c202c33732e3728d9e04270954a52099d62899cb69655f4cc2ce6cfeef&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“WEMONEY研究室”（ID：wemoney1）</a>，作者：王彦强，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171721207120259</guid><pubDate>Tue, 18 Feb 2025 16:05:00 +0800</pubDate></item><item><title>“不爽对着同事来一枪”，在苹果手表下个空气手枪成打工人“花得最值8块钱”？</title><link>https://36kr.com/p/3171699134366082</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>买 Apple Watch 的理由又更新了一条：可以打空气枪。</strong></p>
-<p>空气枪，顾名思义，只需要抬起手腕比手枪，Apple Watch 就会贴心地帮你配枪声。注意，配音不是普通又敷衍地“砰”一声，你可以选择手枪、自动步枪、霰弹枪、狙击枪等等款式。</p>
-<p>以前没玩够玩具枪，没想到长大还要花8块钱玩个空气版本的。不仅能砰砰砰打枪，看谁不爽还能直接扔手榴弹。</p>
-<p>“一套军训下来甩得膀子疼，感觉能顺便瘦手臂”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_d7f43b7fc3ec4e4c8f4b4c24fc25f724@000000_oswg68032oswg1080oswg1028_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>显然，“空气玩具”的商家精准地抓住了像我这类走路不老实、手上八百个假动作的人群。</p>
-<p>也有人重新回味了童年的愉快，“现在和朋友见面就是对狙”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_6d1b1ac0633541a0a390d6dd6d4f944a@000000_oswg317953oswg1080oswg774_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@一颗抽象的鸡蛋</p>
-<p>有一把能够伪装特工的空气枪固然不错，但对小时候的我而言，假装变身迪迦奥特曼才是最经典的童年记忆，能发出声音的奥特曼变身器更是横扫天下无敌手。</p>
-<p>没想到真有人研发出了<strong>Apple Watch 版的变身器，翻动手腕就有变身音效，全自动化身为光。</strong>除了奥特曼，还有美少女战士等版本，体贴地照顾了童年差异。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_df5692564daa4f9dbe6fe3e77ab7a05f@000000_oswg295063oswg440oswg440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>你可能没办法理解为什么有人走着走着会突然用手比手枪，<strong>但你能肯定的是，一定有人走在路上会突然假装投篮。</strong>假装投篮甚至被判为全国统一的男生迷惑行为，在某些情景下可判为死刑。</p>
-<p>基于此，《空气投篮》横空出世，拯救男人于水火之中。</p>
-<p>Apple Watch 会捕捉你的投篮动作，配合发出皮球入网的声音。与此同时，手机端 app 页面也会显示相应的进球画面以及计数。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_7b2ac20d30b044d68e5faeb0efd2b28c@000000_oswg107579oswg1079oswg1149_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这款标价8元的《空气投篮》由国内一家名为 66 STUDIOS 的工作室推出。除了空气篮球，还有空气摩托：模仿拧油门的手势，就会发出机车加速的轰鸣声。</p>
-<p>还能随便扔空气飞盘，手腕得到了锻炼，也不必担心找不到人一起玩、自己捡飞盘太累等种种因素。</p>
-<p><strong>不爽了再给空气一巴掌，Apple Watch 还能给你配上“清脆巴掌音”，成功破解一个巴掌拍不响的历史性难题。</strong></p>
-<p>但上班的时候还是建议静音：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_3cc6dd0876114cb59802b75abd6b9311@000000_oswg24570oswg623oswg377_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这边空气产品层出不穷，<strong>除了能在过年禁燃烟花爆竹的时候放点赛博烟花，还能在10平的出租屋练习空气高尔夫和空气钓鱼，主打一个谁都能穿得起的皇帝的新衣。</strong></p>
-<p>那边玄学产品也是脑洞大开，除了能随时随地敲电子木鱼，还能模拟佛珠串。</p>
-<p>用法就跟盘佛珠一样，往下划拉就能听到拨弄佛珠的咔哒声。解决了现代手表不能盘串的遗憾，拨一次佛珠还能长一次功德。</p>
-<p>现代典型年轻人科技与信仰并存：<strong>“用科技定闹钟上班，用信仰给上班的自己消消火”</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_c22e7b411e13471b936ada653a0d28a6@000000_oswg64014oswg1079oswg1161_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>你甚至能在 Apple Watch 里给自己点一柱香，互动性体现在点击即可加速燃烧，烧完显示你已为梦想助力成功。</p>
-<p><strong>原来现在烧香求佛都有 kpi，烧香助力加一，也不知道烧多少柱才能实现无痛暴富的梦想。</strong>没有明码标价带来的遥遥无期感，还不如每天打卡拼多多砍一刀。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_bd2c9c7afb6f4340ba14399feafaa6f0@000000_oswg72289oswg1010oswg764_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但你不要小看这几块钱应用的赚钱能力。</p>
-<p>七麦数据显示，2024年12月以来，<strong>《BiuBiuBiu-空气枪》在iOS平台预估下载量达到了1.72万次</strong>，当时还未涨价，按照售价6元估算，该应用近12月的预估销售额高达10万元人民币左右。</p>
-<p>而《空气篮球》也在2024年12月跻身 iOS 平台付费总榜 TOP3，体育类付费TOP1，<strong>12月在 iOS 平台的下载量为2.09万次，预估销售额高达16万元人民币</strong>。</p>
-<p>总有人质疑，花这6块钱买个音效库，还不如自己用嘴配音。你也不要小看现代打工人为哄自己开心的投资，有的人甚至“专门为这6块钱的应用买了一个Apple Watch”。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_8251ebdea6044e4baf3d19001434efc1@000000_oswg1590461oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>“手表应用盘活手表”这种说法虽然夸张，也并非不可能。</p>
-<p>毕竟 Apple Watch 常年被人称为美丽废物，该有的附加功能手机都有，续航一天一充也不比手机方便多少，下点应用都要嫌屏幕太小看不方便，最后还是回归简朴的看时间计时功能。</p>
-<p>非要说健康监测，其实普通人哪里有那么多需要时时刻刻在意的指标。</p>
-<p><strong>“一上班就压力过载，一下班就状态优秀。”</strong>“每天上班都看苹果手表说我压力大，请假去看医生，医生让我别戴了，看了心理压力更大。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_1ccece39d1ef4e4fb10efd4465143647@000000_oswg472058oswg1080oswg626_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@DLDLDL</p>
-<p>再说急救功能，Apple Watch 比较出名的是“摔倒检测”，检测你是否摔倒，如果你无法响应，将自动发起紧急联络，呼叫救护车等等操作。</p>
-<p>被救的体验很好，<strong>但更多的人“打球就被警告了3次”，甚至有人真的摔倒昏迷一小时后“还是自己爬起来用手机打的电话”，</strong>只因触发条件复杂，评论区指挥了一路都没个说得清楚的。</p>
-<p>为此，网友特地为摔倒检测页面换了一个皮肤：</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_93ed5afa40f24f7e886cccbd3755168d@000000_oswg399921oswg1080oswg611_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@归海旌曦.</p>
-<p>于是乎，一群买完 Apple Watch 却苦于没有用武之地的人们围坐一圈，苦思冥想，甚至有人提出了“在手表上玩可以减少玩手机的时间”的优点。</p>
-<p>处于尴尬位置的 Apple Watch，就是靠着这些“更适合在手表上随手玩”的应用重获关注。</p>
-<p><strong>至于这6块钱么，“买得起 Apple Watch 还当闲置的人，会在乎吗？”</strong></p>
-<p><strong>参考资料：</strong></p>
-<p>01、TRASHGUN运动生活，为了这6块钱的游戏，我买了一块apple watch丨这个好玩，2022.07</p>
-<p>02.、游戏客栈x爆款时代，6款比游戏还畅销的付费APP 把玩家的付费需求研究明白了，2024.12</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwMDQ2NTA4MQ==&amp;mid=2247648432&amp;idx=2&amp;sn=e56b8ff20f75958bab394070c8c09345&amp;chksm=97b175cfad9a9f8b7fdc955a13788e4c1a24b5f9ed31ef4725f153b2dece3d5991c928711fdb&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Vista氢商业”（ID：Qingshangye666）</a>，作者：骨头，编辑：橘总，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171699134366082</guid><pubDate>Tue, 18 Feb 2025 16:06:00 +0800</pubDate></item><item><title>Model Q谍照首曝，起步价或在16万，特斯拉销量新担当？</title><link>https://36kr.com/p/3171733742534404</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>谁也没想到，2025年开局不久，长安、比亚迪便火速开启“智驾平权”大战，智能驾驶的竞争格局从技术突破的“高冷”阶段，直接往规模化普及狂飙。</p>
-<p>作为投入智驾领域的元老级选手，特斯拉面对这股智驾平权的新浪潮也终于有所动作。据博主Joe Tegtmeyer透露，<strong>在特斯拉得州超级工厂的航拍视频中，拍摄到一辆伪装测试车，很有可能就是特斯拉最便宜的车型Model Q（代号Project Redwood），这也是Model Q谍照的首次曝光。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1274,710" src="https://img.36krcdn.com/hsossms/20250218/v2_cb68edd43858438baa5dbb722503115c@5687509_oswg935214oswg1274oswg710_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：X@Joe Tegtmeyer</p>
-<p>根据曝光图片来看，按照车身线条走向，Model Q给电车通的感觉是一款“缩小版Model Y”。</p>
-<p>网传特斯拉Model Q最快会在今年第一季度上市，作为特斯拉价格最亲民的产品，特斯拉Model Q进入国内市场后是否还具备竞争力，带动特斯拉销量走向下一个高潮吗？</p>
-<h2><strong>16万起的国产Model Q要来了？</strong></h2>
-<p>2024年，特斯拉在全球范围内交付178.92万辆汽车，旗下的Model 3和Model Y占据总销量的95.24%。两款车型依然很畅销，但要注意的是，相比2023年180.8万辆，特斯拉去年的交付量下降了约2万辆，这也是特斯拉从2015年开始首次出现年度交付量同比下滑的现象。</p>
-<p><strong>归根到底，还是国内纯电动车市太卷了。</strong></p>
-<p>特斯拉Model Y的市场地位依然稳固，但Model 3的纯电动轿车市场销冠席位已经被小米SU7抢占，为了抑制销量下滑的趋势，特斯拉势必会加快入门级SUV——Model Q的推出速度。</p>
-<p>在特斯拉投资者关系负责人Travis Axelrod的投资者会议上，官方表示Model Q补贴后价格将低于3万美元（折合人民币约21.78万元），起售价可能会在2.5万美元左右（折合人民币约18.15万元）。</p>
-<p>此前独立投资银行Evercore分析师透露，Model Q属于紧凑型SUV，将搭载52kWh或75kWh两种不同容量的磷酸铁锂电池，并提供单电机和双电机两种驱动形式，整车的纯电续航里程约为402km。</p>
-<p class="image-wrapper"><img data-img-size-val="2800,1750" src="https://img.36krcdn.com/hsossms/20250218/v2_4ff6cd6c2be64bdcb5e679bec2dedf38@5687509_oswg1404494oswg2800oswg1750_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：特斯拉汽车官网</p>
-<p>电车通目前暂未得知这一续航里程的测试工况是什么，但要想在国内市场畅销，纯电续航里程达到500km以上才具备竞争力。不过想入手的消费者无需担心，参考搭载52kWh左右电池组的国产纯电动SUV，国产版Model Q的CLTC纯电续航里程应该会超过500km。</p>
-<p>分析师此前预测，为了让材料成本降至2万美元，新车将不会配备玻璃天幕车顶，但从曝光图片来看，<strong>这一预测并不准确，玻璃天幕车顶依然没有缺席。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1274,713" src="https://img.36krcdn.com/hsossms/20250218/v2_1d0c5c2458e146d792e78dcae86cb57a@5687509_oswg963502oswg1274oswg713_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：X@Joe Tegtmeyer</p>
-<p><strong>另外，特斯拉国产版车型在售价方面已经是全球最低水平，国产版Model 3的起售价会比美国市场便宜2.3万元左右，算下来国产版Model Q的起售价很有可能会在16万元-17万元这一区间内。</strong></p>
-<p>较低的价格区间，使得特斯拉Model Q更容易征服欧洲、北美市场等海外市场，但这招放在中国市场似乎行不通，极氪X、第二代AION V、大众ID.4等纯电动紧凑型SUV都会是Model Q的竞争对手，而且在相近的价格下，国内消费者可选的好产品并不少，比如领克08 EM-P、比亚迪宋PLUS EV等等。</p>
-<p>国内的车市竞争环境可没有海外市场那么好，Model Q要想复制Model Y的国内市场成绩，至少需要克服两个问题。</p>
-<h2><strong>Model Q价格真香，但产品平庸</strong></h2>
-<p>对于这款入门级SUV，马斯克的观点是降低成本来拉低产品售价，但不得不说，国内市场同价位的领克08 EM-P、深蓝S07等产品中，在用料配置上都要比定位更高的Model Y出色。</p>
-<p>为了降低设计成本，Model Q的配置表现更有可能与Model Y一致，我们不难猜出Model Q的配置水平很难与主流国产新能源SUV竞争。</p>
-<p>或许你会问，Model Y的配置水平也比其他竞品差，为什么Model Y就能畅销而Model Q不行？</p>
-<p><strong>这一问题的核心在于，25万级纯电动SUV的受众群体在购车需求上与15万级受众有明显不同。</strong></p>
-<p>从国内市场销量榜单来看，15万级的畅销新能源SUV都具备高配置、低补能成本的特点，比如说比亚迪宋PLUS DM-i、乐道L60、深蓝S07等等，受众群体更希望以更低的价格获得更好的出行体验，而25万级受众群体其实更愿意为品牌影响力买单。</p>
-<p>另外，特斯拉的看家本领——完全自动驾驶技术FSD可能不会全系标配。</p>
-<p>据Evercore分析师表示，FSD加入之后会让整车的成本至少提高2000美元。按照Model Y智驾版的算法，用户想在Model Y体验FSD，就需要加价6.4万元，就连增强版自动辅助驾驶功能也需要加价3.2万元。</p>
-<p class="image-wrapper"><img data-img-size-val="2408,804" src="https://img.36krcdn.com/hsossms/20250218/v2_4d33cad1fb4c493d8f9830e969ef487e@5687509_oswg426030oswg2408oswg804_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">截图：特斯拉汽车官网</p>
-<p>Model Q如果继续采用Model Y同款的辅助系统，消费者所花费的价格完全可能会超出20万元，甚至为了拉低购车门槛，入门版Model Y还有可能不提供FSD的选装。</p>
-<p><strong>从去年开始，小鹏、广汽埃安、广汽丰田、长安、比亚迪等车企已经尝试将高阶智驾的购车门槛下放到15万级别甚至更低，如果从“智价比”的角度来看，消费者其实还不如选择搭载高阶智驾的竞品，或者咬咬牙选择空间更大的Model Y。</strong></p>
-<p>换而言之，Model Q的主要竞争力就只剩下品牌知名度了。</p>
-<h2><strong>特斯拉要靠Model Q撑业绩？</strong></h2>
-<p>马斯克对自动驾驶的态度，远比汽车产品本身更激进。</p>
-<p>在去年10月份举办的“WE，ROBOT”发布会中，马斯克发布了完全无人化驾驶的特斯拉Cybercab和特斯拉Robovan；今年1月30日，马斯克在2024年财报电话会议中宣布，特斯拉将在今年6月份推出全自动驾驶版本，并计划在2027年推广至北美市场。</p>
-<p>至于汽车产品本身，特斯拉车型的硬件更新速度无疑是业内倒数的水平，Model 3和Model Y诞生这么多年都没有大刀阔斧的迭代升级，升级点主要集中在车机系统、智驾系统等软件层面。</p>
-<p class="image-wrapper"><img data-img-size-val="1844,803" src="https://img.36krcdn.com/hsossms/20250218/v2_42d9fca189cd48cba9fa3a69de71c6d6@5687509_oswg1178413oswg1844oswg803_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：特斯拉汽车官网</p>
-<p>就技术来说，特斯拉的智驾能力被认为是业内第一梯队的水准，然而FSD还没有得到进入国内市场的允许，而且马斯克的所说的完全无人驾驶和Robotaxi商业模式还没有落地的迹象。</p>
-<p>最新智驾技术还没有得到实质性的应用，再加上其他国产品牌的技术深入，Model 3和Model Y其实很难继续利用品牌的知名度优势，而特斯拉的2024年销量下滑就足以证明这一点。</p>
-<p><strong>所以，价格更亲民的Model Q会成为特斯拉今年的销量抓手。</strong></p>
-<p>36氪在2023年曾透露，特斯拉正在为Model Q构建一个高达400万辆的年产能计划，其中北美的超级工厂将承担200万辆，柏林和上海分别承担100万辆的产能。</p>
-<p>当然，时间过去这么久，其信息准确性没有那么高，但我们可以从销量目标略知一二：<strong>特斯拉宣布今年的销量目标是增长20%～30%，相当于今年的销量要比去年高出36万辆-54万辆，这应该就是官方对Model Q的销量期望。</strong></p>
-<p>现阶段，国产新老品牌在加速转型，比亚迪、小鹏、问界等新能源品牌在持续发力，面对竞争更激烈的新能源市场，特斯拉此前还能通过降价来吸引用户，但对于配置和硬实力可能没有那么强的Model Q而言，在国内市场的竞争压力可能要超出想象。</p>
-<p>本文来自“电车通”，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171733742534404</guid><pubDate>Tue, 18 Feb 2025 16:06:00 +0800</pubDate></item><item><title>骁龙6Gen 4来了，高通破局入门芯市场，千元机的白马骑士？</title><link>https://36kr.com/p/3171728837869059</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>终于，高通想起来自己还有一条6系芯片产品线了。</p>
-<p><strong>2月12日，高通发布全新骁龙6Gen 4移动平台，官方中文名为「第四代骁龙6」，从官方给出的定位来看，它是一款主打入门市场的全新处理器。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1440,805" src="https://img.36krcdn.com/hsossms/20250218/v2_58f219aea8994277848b19cc90af7b88@1547419282_oswg436087oswg1440oswg805_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源：高通官方）</p>
-<p><strong>这也让小雷意识到，千元级平台很久没有迎来一款真正的「杀手级」处理器了，全新的骁龙6Gen 4能否成功补位呢？</strong></p>
-<h2><strong>千元级平台的新标杆？</strong></h2>
-<p>根据官方提供的信息来看，骁龙6Gen 4使用了台积电4nm工艺，这个工艺并不是最先进的制程，但之前的中低端处理器使用的都是台积电6nm工艺或三星4nm工艺（约等于台积电6nm），看得出来高通对骁龙6Gen 4报以厚望。</p>
-<p><strong>芯片架构方面，骁龙6Gen 4也迎来了史诗级升级，从ARM v8架构更换成v9架构，包括1个Cortex-A720(2.3GHz)超大核、3个Cortex-A720(2.2GHz)大核和4个 Cortex-A520(1.8GHz)小核。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="1190,608" src="https://img.36krcdn.com/hsossms/20250218/v2_05dd5571c3404a38b102bdbe0a554c0d@1547419282_oswg154868oswg1190oswg608_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源：高通官方）</p>
-<p>制程工艺和架构升级带来的好处是提升性能的同时降低功耗，高通官方表示骁龙6 Gen 4的CPU性能提升11%、GPU性能提升29%、功耗降低12%。</p>
-<p><strong>这个提升比起旗舰平台动辄30%的提升有些小巫见大巫，但要知道这可是千元级平台，之前的同类产品基本就是换个名字就拿出来当新款卖，主打一个“既然对手摆烂，那我也没有必要努力”的姿态。</strong></p>
-<p>在日常生活中，购买千元入门机型的消费者数量要更多一些。哪怕骁龙6Gen 4只是老款中高端平台的技术下放，高通这波也将以一己之力改变市场格局。</p>
-<p>如果单看目前给出的性能参数，小雷认为它的水平已非常接近自己的大哥骁龙7s Gen 3，又是一次华丽的越级挑战。</p>
-<p class="image-wrapper"><img data-img-size-val="1176,1306" src="https://img.36krcdn.com/hsossms/20250218/v2_bff0eaf6b46a40bca8b485655d812618@1547419282_oswg993606oswg1176oswg1306_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源：高通官方）</p>
-<p>其他参数方面，骁龙6Gen 4最高支持1080p+分辨率、144Hz刷新率屏幕、2亿像素传感器、4K30帧FPS视频、HDR10和HLG格式以及H.265和VP9硬件加速，这部分大家可以忽视，毕竟千元机的影像表现没什么可期待的。</p>
-<p><strong>只要高通定价合理，那么骁龙6Gen 4很有可能成为2025年千元机市场的标配处理器之一。</strong>可能有些读者会认为，同样的价格说不定都能买到去年的中端入门产品了，凭什么要买这款入门级产品呢？这就涉及到骁龙6Gen 4的另一大升级点——AI。</p>
-<h2><strong>千元机，凭什么不能上AI？</strong></h2>
-<p>高通官方表示，骁龙6Gen 4支持INT4格式，这是骁龙6系首次支持该格式，它能像旗舰芯片一样内置运行各种AI应用和相关代码。</p>
-<p>谁能想到这么快千元机也能用上AI了呢？可能有些读者会认为，千元机很多目标群体可能都不懂AI到底是什么。但这无疑是一种偏见，千元机一直是手机市场中出货量占比最大、用户群体数量最高的，<strong>这群用户不求拥有像旗舰和中端机型一样的生成式AI功能和AI运算能力，但AI的用处可不仅于此。</strong></p>
-<p>简单举个例子，如今市面上的大部分手游都融入了大量的AI技术，例如通过AI给玩家推荐当下最合适的装备、生成一个更聪明的「人机」队友以及增加NPC对话之间的互动性，更重要的是，很多游戏引擎都内置有AI来提供画质增强和加速功能。</p>
-<p class="image-wrapper"><img data-img-size-val="1146,764" src="https://img.36krcdn.com/hsossms/20250218/v2_fc50c7d1ab344e1bbfcefbc528982f86@1547419282_oswg2237681oswg1146oswg764_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">(图片来源：高通官方）</p>
-<p><strong>在开发者的角度看，一款高质量手游的体验上限确实是由旗舰机型决定，但它的功能以及代码优化的「下限」，则取决于千元级产品。</strong></p>
-<p>倘若千元机也能支持AI代码和功能，开发者可以毫无顾忌的大展拳脚，例如进一步推广当今只有少部分游戏才会使用的GPU原生超分插帧功能，或是给更多的APP加入本地大模型功能。</p>
-<p><strong>更别说当高通的高中低端芯片都用上AI后，它就可以打造一套属于自己的AI计算生态，帮助软硬件开发者一同打造更多能解决用户痛点的新功能。</strong>这也有利于夯实“护城河”，进一步扩大高通产品的体验优势。</p>
-<p class="image-wrapper"><img data-img-size-val="1820,1262" src="https://img.36krcdn.com/hsossms/20250218/v2_0713d7f9ad3a4d5b9b36228fe370ea9b@1547419282_oswg1377090oswg1820oswg1262_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">(图片来源：高通官方）</p>
-<p>因此可以说，骁龙6Gen 4的发布不但提升了千元级市场的性能下限，还能更好地解决如今手机市场在AI技术层面愈发「两极分化」的现象，给AI普惠奠定算力层面的基础，小雷个人认为它的意义比去年发布的骁龙8至尊版还要重大。</p>
-<h2><strong>高通要啃下低端市场了</strong></h2>
-<p>目前已经确认首发搭载骁龙6Gen 4的机型是真我GT7x，它的一些基本配置也已经被曝光：6.67英寸120Hz刷新率屏幕、前置1600万像素、后置5000万像素+200万像素双摄组合、电池容量5860mAh。<strong>单看配置可能不算亮眼，但结合真我一贯以来的定价以及骁龙6Gen 4的定位来看，它的最终售价可能在1100元左右，这性价比又要“杀疯”的节奏。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="2160,3840" src="https://img.36krcdn.com/hsossms/20250218/v2_d90c552339404b139703700fd2955fed@1547419282_oswg2119584oswg2160oswg3840_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-<p class="img-desc">（图片来源：真我官方）</p>
-<p>除了真我，OPPO、荣耀、vivo、Redmi也大概率会推出相应机型，定价应该也都在1000-1300元上下。1000元出头的预算，能买到一台性能已经偏中等的新手机，这在以往是我们想都不敢想的。</p>
-<p>高通为何突然发力入门芯片？最直接的原因，可能是对手给的压力实在太大。虽说高通在名声和品牌效应上要大于其他所有手机芯片厂商，但市场的龙头却是宿敌联发科。</p>
-<p><strong>联发科早期凭借入门和低端芯片取得了非常不错的市场份额，但在高端市场一直被高通压一头，这也就导致联发科早期的名声并不好。如今的联发科在稳固中低端产品线的同时上攻，最新的天玑9400系列已在各方面和高通骁龙8至尊版硬碰硬，高通引以为傲的高端市场地位可能也会受到动摇。</strong></p>
-<p>在旗舰芯片短时间内难以和对手拉开差距的情况下，想要取得更多市场份额的机会只剩下「给低端芯片来一波大升级」。有意思的是，随着联发科高端化的成功，<strong>其在低端市场的芯片表现并不强势，这给高通留下了机会，骁龙6Gen 4很可能成为其在低端市场的开山之作。</strong></p>
-<h2><strong>高通要拯救千元机市场？</strong></h2>
-<p>千元级手机不同于其他价位产品，需求量极大，目标群体往往也不太了解配置参数，在一定程度上导致这个价位市场的混乱现象，装饰摄像头、硬件虚标的产品不少，甚至还有多年前的老款甚至是功能机改装的山寨机在市场售卖。</p>
-<p><strong>如今在某电商平台上就能见到不少把自己包装成国际大牌的“豪华旗舰”产品，实则就是一台东拼西凑的山寨机，卖500块都能狠狠地赚上一大笔。</strong></p>
-<p>小雷建议仍在做千元机产品的厂商，需要发挥自己最擅长的“堆料”能力，而不是说利用这部分消费者的“无知”，在某些关键点上偷工减料，甚至是虚假宣传。</p>
-<p>确实，如今的千元机市场确实存在利润低、换机周期长的问题，但随着高通等芯片厂商拿出更有诚意的芯片，千元机也可以展开技术创新，提升性能、续航、影像等表现，甚至给到消费者AI手机能力。好的科技，应该让更多人受益，让我们期待千元机可以在高通们的加持下大放异彩。</p>
-<p>本文来自“雷科技”，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171728837869059</guid><pubDate>Tue, 18 Feb 2025 16:06:00 +0800</pubDate></item><item><title>第一“黄金刺客”，赚了中产30亿</title><link>https://36kr.com/p/3171669719237504</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>过去的2024年，被许多人称为“奢侈品寒冬”，LV收入创新低，Gucci、Burberry业绩也大幅下跌。</p>
-<p>如此趋势下不乏有人放话：<strong>奢侈消费不行了，消费者不买账了。</strong></p>
-<p>不过其中也并非没例外，倘若你走进所在城市的高端商场，会发现<strong>老铺黄金</strong>金店门口仍大排长龙。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_087dbb3777bf4e9bb6963ca4e1c4bd71@000000_oswg113712oswg1080oswg599_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">北京DT51老铺黄金门店/图源：@AAA土豆炖茄子，已获授权</p>
-<p><strong>“上次看这场面，好像还是超市门口发免费鸡蛋。”</strong></p>
-<p><strong>排队4小时起步，黄牛价翻倍，感觉自己不是在买黄金，而是在参加马拉松</strong>。</p>
-<p>排到商场外的长队，更让路过的打工人只想阴暗怒吼：“有钱有闲的人多我一个怎么了！”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_3be965e7bec64c448a15db66335d222d@000000_oswg119656oswg1053oswg204_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">有人建议：不行老铺黄金出个优速通吧。</p>
-<p>“最近谁想要入手老铺，队是要排的，款是要抢的，排了还不一定能抢得到的。”</p>
-<p>怎么说呢？<strong>“黄金中的爱马仕”，已经把这届都市丽人钓成翘嘴了。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_17a74452e6c0470da5c97b72dc875c41@000000_oswg240546oswg1080oswg1798_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">全国各地都不缺排队抢黄金的人</p>
-<h2>逛一趟老铺黄金，才懂了富贵逼人</h2>
-<p>说起如今的金价， 经常上网的人都知道，<strong>贵，最近尤其贵。</strong></p>
-<p>2025春节过后，金价给了无数理财人以重创：<strong>原本适用的节后金价下跌定律，居然失灵了。</strong></p>
-<p>品牌金价一路从去年底的630元/克左右涨到800元/克以上，创下历史新高。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_63ca81217cb24284a01e8fa638cfd448@000000_oswg16549oswg394oswg42_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">近日，周大福等品牌金店的足金饰品报价达每克873元，今年以来的累计涨幅超过9%</p>
-<p>说起爱马仕，纵使再自嘲穷鬼的打工人，也知道：<strong>很贵，一直很贵。</strong></p>
-<p>《抓娃娃》里女主春兰再生气都舍不得摔的Kelly橘色荔枝纹，是它；</p>
-<p>黄子韬从“易燃白磷”到“爱妻人夫”的转型作《一滴眼泪200万》的“白房子包”，也是它。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_71d4fa5e049043148d31f39c2030f386@000000_oswg45262oswg748oswg416_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：《抓娃娃》</p>
-<p>只是未想过有一天，黄金和爱马仕会结合在一起，掀起一股“中国人自己的老钱风”的抢购热潮。</p>
-<p><strong>起初看到这个话题，有人嗤之以鼻：黄金哪买不一样？还奢侈品，还抢？</strong></p>
-<p>但听闻类似疑问，亲自到达过老铺黄金的人总会告诉你：“不一样，真的不一样。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_51a1b7185c324bcb82dfd574b577d6de@000000_oswg927571oswg1013oswg613_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">北京SKP还没开门，买老铺黄金的人们就在商场外排起了长队/图源：WildestBites，已获授权</p>
-<p>老铺黄金自出道起，志不在做周大福们的“贵替”，而是定位于<strong>“黄金界的爱马仕”。</strong></p>
-<p><strong>品牌调性是媲美奢侈品大牌的</strong>，限流排队、专人讲解、金价分析、年节会员礼无不在抬高身价。</p>
-<p>目标受众是<strong>锁定高净值人群</strong>的：到去年6月底，老铺黄金在全国前十的高端购物中心入驻覆盖率已达到80%，谁看了不说句<strong>“那确实高级”。</strong></p>
-<p>店铺服务是细致入微的，光是到店免费提供依云矿泉水和巧克力这点，就很难不让人自我攻略<strong>“情绪价值拉满”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_0d225ec308354eb58eb0d4fff8ba8f7d@000000_oswg186087oswg1080oswg1318_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">老铺黄金送给会员用户的羊绒围巾新年礼/图源：阿登ADENG，已获授权</p>
-<p><strong>都说稳定保持高贵姿态，是奢侈品必不可少的自我修养，老铺黄金也做到了。</strong></p>
-<p>其他品牌往往因短期打折、黄金降价火爆一阵，但老铺几乎不会有大幅折扣。</p>
-<p>为什么？按照老铺的说法，大概是<strong>“比起原材料，老铺黄金更贵的是手艺”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_b221d4e40884456592b4811c8692cfa3@000000_oswg632182oswg832oswg1079_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：老铺黄金</p>
-<p>据介绍，其<strong>制金技艺源自北京工美花丝厂制金老匠师，由原清宫廷造办处金匠一脉传承而来。</strong></p>
-<p>体现在价格上，是一套要素齐全的工艺叙事后，老铺黄金的工费一度飙升至<strong>300元/克。</strong></p>
-<p>作为对比，周大福古法金工费是<strong>80/克。</strong></p>
-<p>且因老铺黄金单品克重较大，加上古法手作、钻石镶嵌加持，<strong>最便宜的足金项链也在万元。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_3d60e61407bc4e16b8c92948d03656c6@000000_oswg321677oswg1080oswg1888_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">产品不止黄金饰品，还有黄金古法黄金（足金）钻石饰品、古法黄金金器</p>
-<p>第一次听说价格的人总会望而却步：<strong>不是，这工费是认真的？</strong></p>
-<p>但在老铺黄金，这些都不是问题，毕竟奢侈品本身卖点就不会是低廉的价格和性价比。</p>
-<p>“仅此一家”的非遗款，关键词是<strong>大气优雅、低调内敛、极致传世，打造老钱风必不可少。</strong></p>
-<p>最新爆款“故宫款”，兼具时尚和复古的同时，又代表着主人不落下乘的审美。</p>
-<p>从表象到内里<strong>“又贵又不易被模仿”</strong>，奢侈品的核心卖点，算是让老铺黄金玩明白了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_e7696403545f4feca2c96a24231d0205@000000_oswg17747oswg1080oswg327_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>马斯克带着“地球上最聪明的AI”来了，2月18日中午，xAI发布了全新的推理模型Grok-3，马斯克称其较前一代模型提升了一个数量级。</p>
+<p>在benchmark测试中，Grok-3在数学、科学逻辑推理、代码写作方面，取得了比Gemini-2 pro、GPT-4o以及DeepSeek-V3更优的效果。</p>
+<p>不过在发布环节里，更加引人注目的其实是坐在C位的两位华人面孔，据介绍，<strong>这二人都是xAI的创始团队成员，主要负责模型研究，相比之下，有行业人士总结马斯克更像是个“点头机器”。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,749" src="https://img.36krcdn.com/hsossms/20250218/v2_722ad2abead044c5a088e098161ee62f@1883322323_oswg54788oswg1080oswg749_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>据凤凰网科技综合公开信息了解，<strong>坐在左三的Tony，本名Yuhuai Wu（吴宇怀）</strong>，2021年博士毕业于多伦多大学机器学习专业，博士期间曾在 Deepmind和 OpenAI实习，同时也在斯坦福做博士后研究。此前，其还曾就职于谷歌的研发小组N2Formal，致力于做AI数学家。吴宇怀的个人主页信息还显示，其为xAI的联合创始人。</p>
+<p>坐在<strong>左二的则是多伦多大学计算机科学助理教授 Jimmy Ba</strong>，师从“AI教父”Geoffrey Hinton，博士毕业于多伦多大学，同时他也是吴宇怀的老师。研究兴趣集中于深度神经网络的高效学习算法的开发。</p>
+<p><strong>其实自x.AI成立之初，华人就一直在扮演重要角色。</strong></p>
+<p>2023年7月，马斯克宣布xAI成立，以一句“理解宇宙的真正本质”正式加入全球AGI的竞争。此后，xAI便以大手笔囤卡闻名，xAI科学家Ross曾在社交网络透露，<strong>xAI已经构建世界上最大的GPU 10万卡集群Colossus，并且很快将翻至20万卡。</strong>2024年底，xAI宣布完成60亿美元融资，估值直接飙升至400亿美元，投资人名单中包括了英伟达、AMD、摩根士丹利及红杉资本等。</p>
+<p class="image-wrapper"><img data-img-size-val="832,136" src="https://img.36krcdn.com/hsossms/20250218/v2_ff5faafb8a1549ca82f75c7f5792b043@1883322323_oswg22137oswg832oswg136_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>在当时首发亮相的12个初始成员中，有三分之一是土生土长的华人科学家。</strong></p>
+<p>据公开报道显示，<strong>xAI的联合创始人Greg Yang（杨格），出生于湖南，初中开始前往美国学习，本科和硕士学位都在哈佛大学数学系攻读。</strong>杨格的履历十分丰富，与苹果、谷歌、高通、英伟达都曾有过关联。2018年，Greg Yang获得了本科生数学领域的最高荣誉Morgan Prize，之后加入了微软雷蒙德研究院，任高级研究员。</p>
+<p>当时，xAI官宣后，杨格还迅速发布推文称，数学与AI天然相融，“Math for AI andAI for math!”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,521" src="https://img.36krcdn.com/hsossms/20250218/v2_2fc5f6d5ac494162b4e997d292ffe63b@1883322323_oswg42035oswg1080oswg521_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>另外两位华人成员张国栋和戴子航，都是在国内完成本科教育后前往美国深造。</p>
+<p>其中，张国栋本科毕业于浙江大学信息工程专业，硕士与博士均就读于多伦多大学计算机科学系。2022年毕业后，他加入了DeepMind。而戴子航本科毕业于清华大学，2020年博士毕业于卡内基梅隆大学计算机系，之后加入了谷歌任研究员。此外，戴子航还在网易以及百度（美区）实习过。</p>
+<p>值得一提的是，华人一直在全球AI研究中占据重要位置。</p>
+<p>2024年中，OpenAI发布GPT-4o后，GPT-4o关键团队成员就被解析。<strong>据报道，17位团队成员中，有6人是华人，本科分别来自清华、北大、上交、中科大等。</strong></p>
+<p><strong>现如今，随着全球AI竞争迈入白热化时期，人才竞争也成为其中的关键因素。</strong>据《全球AI人才追踪报告》显示，2022年，在美国的机构中，来自美国和中国的人工智能研究人员（基于本科学位）占顶尖人工智能人才（前20%）的75%，在各自比例中，二者平分秋色。</p>
+<p>对于大模型研究而言，人才就是最核心的竞争力。近期走红的DeepSeek，也因齐聚天才而闻名，这家中国本土AI企业，采用了完完全全的本土人才策略，且多数符合天才的描述。</p>
+<p>“DeepSeek从一开始团队就是百人左右规模，但个个都很抗打”，一位AI行业猎头对凤凰网科技表示。“只招1%的天才，去做99%中国公司做不到的事情。”面试过DeepSeek的应届生这样评价其招聘风格。</p>
+<p>（梁思琦对本文亦有贡献）</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1puinMimb0Wipi-C8UdKgw" rel="noopener noreferrer nofollow" target="_blank">“凤凰网科技”</a>，作者：董雨晴，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171805128900352</guid><pubDate>Tue, 18 Feb 2025 16:54:00 +0800</pubDate></item><item><title>52岁接手百亿广州银行，李大龙开打翻身仗</title><link>https://36kr.com/p/3171783091732870</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p><strong>广州银行怀揣多年上市梦想终未能如愿。</strong></p>
+<p>2025年1月17日，深交所发布公告称，因广州银行及其保荐人撤回发行上市申请，根据相关规定决定终止其发行上市审核。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_2a44bd15bef34c01b0b3b67fb046cc44@000000_oswg83407oswg864oswg462_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：深交所公告）</p>
+<p><strong>【天眼查】</strong>信息显示，广州银行成立于1996年9月，前身为广州城市合作银行。2009年9月，获准更名为广州银行股份有限公司。2020年6月，广州银行向证监会递交上市申请。2023年A股实行全面注册制，广州银行IPO似乎看到了希望。</p>
+<p>然而，广州银行的IPO进程一直处于受理未问询状态。期间因财务资料过期、更换申报会计师等因素，曾先后三次中止IPO申请。</p>
+<p>IPO“梦碎”后，这家广东省内规模最大的城市商业银行，不得不再度面对业绩下滑、不良贷款率高企、资产质量面临挑战、合规问题频发等诸多待解难题。新任董事长李大龙能否带领广州银行实现逆转？</p>
+<h2><strong>1、盈利能力连年下降</strong></h2>
+<p>广州银行自身的经营情况难言乐观。</p>
+<p><strong>首先是盈利能力连年下降。</strong></p>
+<p>招股书显示，2021年到2023年，广州银行各期分别实现营业收入165.64亿元、171.53亿元、160.03亿元，呈连续下滑态势。同期净利润分别为41.01亿元、33.39亿元、30.17元，与2020年净利润44.55亿元相比，出现“三连降”。2023年首次出现营利双降的局面。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_d6bd1a8340d049ebb5e2b67ad569895f@000000_oswg96457oswg864oswg327_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：招股书）</p>
+<p><strong>作为银行主要收入来源之一的利息净收入表现并不尽如人意。</strong></p>
+<p>招股书显示，广州银行2021年利息净收入为126.66亿元，2023年这一数据下降为117.93亿元，对银行的整体营收造成了拖累。意味着广州银行在贷款业务和资产配置方面尚有需要改进的地方。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_f5f526ef7b2d49be80ef9a85ad61ba97@000000_oswg53960oswg864oswg208_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：招股书）</p>
+<p>2024年，广州银行仍面临着较大的业绩压力。根据该行发布的2024年前三季度信息披露报告，2024年1-9月实现营业收入107.63亿元，同比下降约12.55%。</p>
+<p><strong>其次是广州银行资产质量方面也面临着一定的挑战。</strong></p>
+<p>截至2024年9月末，该行资产总额为8320.83亿元，与6月末的8380.07亿元相比，略有下降。因为该行并未上市，无法知道详细的资产信息情况。我们试图通过分析该行贷款方面的数据来发现一些端倪。</p>
+<p>根据招股书，2021年到2023年，该行各期放贷款和垫款总额分别为3881.38亿元、4485.34亿元和4650.59亿元；各期增长率分别为17.37%、15.56%和3.68%。可以看出，2023年该数据出现了“急刹车”，此前两位数的增长速度骤然下降至个位数。</p>
+<p>究其原因，该行的公司贷款和个贷增速均出现了大幅下滑。其中，该行报告期内各期公司贷款和垫款总额分别为1718.27亿元、1823.74亿元和1833.59亿元，对应的增速分别为14.59%、6.14%和0.54%，2023年该数据已经跌破1%；同样的，该行个人贷款总额也呈现出类似的增长放缓态势，报告期内各期分别为1775.22亿元、1842.86亿元和1846.38亿元；各期对应的增长率分别为15.23%、3.81%和0.19%，也在2023年失守了1%“关口”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_bf774468961a4ccdabfef46a7be60994@000000_oswg178604oswg860oswg706_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：招股书）</p>
+<p>广州银行在招股书中表示，我国已于近年逐步放开存贷款利率管制，利率市场化改革导致市场竞争进一步加剧，可能致使本行出现存贷款平均利差收窄，净利息收入减少的情形。</p>
+<p>同时，在短期存贷款利差波动幅度与长期存贷款利差波动幅度不一致的情况下，可能存在由于该类情形致使银行资产负债结构不协调而导致利息净收入减少的风险。</p>
+<h2><strong>2、资产质量承压难题</strong></h2>
+<p>尽管2024年数据没有相关披露，我们依稀可以看出广州银行资产质量承压严重。</p>
+<p><strong>不良贷款率高企是广州银行当前面临的一大难题。</strong>招股书显，2021年至2023年，该行各期不良贷款余额分别为60.84亿元、97.1亿元、95.11亿元；对应的各期不良贷款率分别为别为1.57%、2.16%、2.05%。2023年国家金融监管总局公布的数据显示，国内银行业金融机构的整体不良率1.59%和城商行不良率1.75%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_da622b85d9bc488a8e5dc138924dc087@000000_oswg63669oswg866oswg210_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：招股书）</p>
+<p><strong>广州银行的大量不良贷款或与前些年大量投放房地产贷款有关。</strong>根据据招股书，截至2023年末，该行尚未终结的重大诉讼和仲裁案件共95件。在这些案件中，广州银行及分支机构均为原告方，涉案件金额总计约为97.58亿元，其中涉及了华夏幸福、恒大地产、宝能系等陷入风险的房地产企业，进一步加剧了该行的贷款减值风险。</p>
+<p>招股书显示，2021年至2023年，广州银行各期贷款减值准备余额为115.24亿元、150.81亿元、152.25亿元，贷款减值准备占发放贷款和垫款总额比为2.96%、3.35%、3.26%，拨备覆盖率为189.43%、155.32%、160.08%。</p>
+<p><strong>同时，个人不良贷款率较高也值得重视。</strong>招股书显示，2021年至2023年，该行各期个人不良贷款总额为27.33亿元、47.48亿元、67.07亿元，占不良贷款总额的比例分别为44.93%、48.89%和65.75%。呈现出快速增长态势。此外，信用卡不良贷款的情况也值得关注，各期信用卡不良贷款余额分别为15.95亿元、29.35亿元和42亿元，不良贷款率分别为1.79%、2.89%和4.88%。</p>
+<p>尽管广州银行在努力处置不良资产，但从其不良贷款率仍维持在较高水平可以看出，情况的复杂性超过一般的想象。</p>
+<p>广州银行在招股书中表示，本行贷款质量受经济周期、经济结构转型、行业政策调整、房地产行业整体流动性危机等一系列本行无法控制的外部因素影响，本行部分借款人受上述因素影响，可能面临经营、财务状况和资金流动性恶化的情形，导致其信用评级下降、履约能力降低或违约。</p>
+<p>若出现上述情形，将致使本行贷款组合质量下降、不良贷款率上升，并导致本行计提的减值损失准备增加，进而对本行财务状况和经营业绩造成不利影响。</p>
+<h2><strong>3、“新掌门”需面对的考题</strong></h2>
+<p>在撤回IPO申请前，广州银行迎来了“新掌门”。2024年11月，广州市人社局官网披露的市政府任免工作人员通知显示，李大龙被任命为广州银行董事长。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_1d5977649da14b2680f8f6bc8f7dcf42@000000_oswg131945oswg864oswg502_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：广州市人社局官网）</p>
+<p><strong>在IPO关键时期“换帅”</strong>，广州银行可能面临更多考验。</p>
+<p>从履历上看，李大龙有着丰富的一线经营管理经验。其长期在农行系统工作，先后出任了任农业银行前海分行行长、澳门分行副行长。在2021年10月获准任职农业银行广东省分行副行长，同时其还兼任农行广州市分行行长。</p>
+<p>实际上，李大龙要打一场漂亮的“翻身仗”，解决广州银行当前面临的问题确实不轻松。除了上面提到的情况，该行还面临补充资本、合规性与内部治理以及股权结构等方面存在待处理的问题。</p>
+<p>数据显示，2021年至2023年，广州银行的资本充足率分别为13.26%、14.00%和13.96%，一级资本充足率为10.16%、10.09%和10.13%，核心一级资本充足率为9.16%、9.13%和9.21%，后两项数据在2022年一度出现下滑。</p>
+<p>根据据金融监管总局公布数据，截至2023年末我国商业银行资本充足率、一级资本充足率、核心一级资本充足率分别为15.06%、12.12%、10.54%。广州银行三数值均低于行业均值。</p>
+<p>广州银行原本计划IPO募资规模接近百亿元，全部用于补充本行核心一级资本，提高本行资本充足水平。此番IPO撤单后，未来将通过何种途径补充资本是一个待解的难题。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_a0efc43dbde443ccb542635261394a2d@000000_oswg65428oswg864oswg179_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：招股书）</p>
+<p>对当下的广州银行而言，还需投入充足的时间和精力来强化其内部治理工作。</p>
+<p>2024年广州银行及其分支机构多次因违规行为被罚款，如南京分行因多项贷款管理不到位被罚款225万元；信用卡中心因信用卡授信额度管理严重违反审慎经营规则、风险监测机制存在缺陷被罚没合计350.71万元；2025年1月3日，广州银行因“贷款业务严重违反审慎经营规则，违规收费”，被罚款220万。</p>
+<p>根据招股书披露的数据，该行在2021年至2023年共计收到26张罚单，合计罚款金额近5000万元。</p>
+<p>广州银行的信用卡业务合规度也值得审视。根据黑猫投诉平台。截至2025年2月16日，广州银行累计相关投诉共有1211条。多数与信用卡业务相关，主要投诉涉及不合理收费、暴力催收、年费不合理扣款等质疑。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_07ec2f7b8a5145ae94569b301515bfb2@000000_oswg40135oswg864oswg312_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_83b6229d814944079e794bc0d2b24091@000000_oswg339195oswg841oswg1170_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">（来源：黑猫投诉平台）</p>
+<p><strong>此外，广州银行的股权结构问题也是一项长期存在隐患。</strong></p>
+<p>广州市国资企业广州金控一度持股超92%。尽管近几年来通过增资扩股优化了股权结构，但截至2023年12月31日，广州银行尚有296户非自然人股东和1100户自然人股东因无法联系或股东资格存在瑕疵而未完成确权，所持股份数合计6174.85万 股，占本行发行前总股本的0.52%。</p>
+<p>这一情况或对其未来的融资构成不利影响。</p>
+<p>在此次IPO过程中，证监会反馈意见中，<strong>要求广州银行对尚有股东未确权事实是否</strong>构成股权不清晰、是否符合首发办法的相关规定进行说明。</p>
+<p>至此，除了面对政策监管审核外，广州银行还要急需解决盈利能力减弱、不良贷款比例高企、资产质量承压以及合规性问题等一系列问题，李大龙接下来的每一步决策和行动都将受到关注。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI4NDEyNDAyOA==&amp;mid=2648676992&amp;idx=1&amp;sn=ec2c33bb739acd33236723ad98117a5e&amp;chksm=f2a4e0d79703cd2a998314aad1c713a7db08a83156c6ea4bb4002638537dfb220822de34be9a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“牛刀财经”（ID：niudaocaijing）</a>，作者：杜亮，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171783091732870</guid><pubDate>Tue, 18 Feb 2025 16:55:00 +0800</pubDate></item><item><title>动不动就“最全”“建议收藏”，DeepSeek概念股怎么选定的？</title><link>https://36kr.com/p/3171801985925512</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>近期，DeepSeek概念股掀起一波行情。Wind数据显示，截至2月17日收盘，DeepSeek概念指数近一个月涨幅为72.91%，其中3只个股近一个月上涨超过200%，2只超过100%。同花顺数据显示，截至2月17日收盘，5日内共有80只DeepSeek概念股涨幅超过10%。截至发稿时，同花顺DeepSeek概念较前一交易日下跌3.85%，Wind DeepSeek指数下跌4.18%。</p>
+<p>那么，那些在社交媒体、股吧出现的“最全”“建议收藏”的“xx概念股”是如何编制的？编制标准是什么？</p>
+<h2><strong>概念股编制无官方标准</strong></h2>
+<p>所谓概念股，是指因某一热点事件或概念而受到资金追捧的股票。从过往情况看，这些概念既可能来自政策驱动（如“碳中和”“低空经济”）、技术突破（如AI、人形机器人），也可能来自某种消费潮流（如“悦己经济”“谷子经济”）等。</p>
+<p>根据Wind发布的《万得概念指数编制方案》（下称方案），<strong>概念指数是具有共性受益逻辑的一系列股票的集合，其成份样本通常包含一个或一个以上的行业的相关公司，并且二级市场上的股价具有明显的联动性。</strong></p>
+<p>方案称，指数成份的维护遵循三个原则：一是以主营相关性作为核心，评估上市公司的主营业务收入与指数的相关性，值高者优先入选，该值30%以上定义为强相关；二是以综合评分作为客观依据，根据指数的定义方式，会选用包括不限于总市值、动量、主营收入、一致评级、成交额、行情相关性等指标进行综合分值计算，评分高者优先入选，由主观分析进行最终样本确认；三是选取代表性标的入选，基于综合评分会选取一定数量的代表性标的进入指数，通常不包含全部样本。</p>
+<p>南开大学金融发展研究院院长田利辉在接受中新经纬采访时指出，<strong>概念股的划分通常基于业务关联性、市场热点、财务指标关联度和投资者认知四个维度，目前尚无官方标准，主要依赖市场自发形成，编制主体通常包括券商与投研机构、数据服务商和第三方咨询机构等。</strong>他举例说，券商与投研机构可以根据行业研究或市场热点，将相关企业归类为某一概念股，用于投资策略报告或客户服务；数据服务商可以通过算法或人工筛选，将涉及特定技术、政策或事件的企业纳入概念板块，供投资者参考。</p>
+<p>中国人民大学中国资本市场研究院联席院长赵锡军对中新经纬指出，除了受现有、已掌握的科学知识和理论的影响外，投资还受其他一些因素影响，如某种市场情绪等，所谓概念股很多时候就是后者影响下的产物。</p>
+<p>九圜青泉科技首席投资官陈嘉禾认为，大量所谓概念股只是有一点“概念”，关联性不强，“投资者能从中获益多少，很多时候都是不太清楚的”。</p>
+<h2><strong>不同机构收录概念股数量不一</strong></h2>
+<p>2025年春节前后，DeepSeek的全新开源推理模型在全球范围内迅速走红。1月27日，苹果App Store中国区免费榜显示，DeepSeek成为中国区第一。</p>
+<p>中新经纬注意到，Wind自1月26日新增“万得DeepSeek概念指数”（简称DeepSeek指数）以来，至2月17日共收录相关个股42只，最新加入的个股为美年健康，加入日期是2月13日。Wind介绍，DeepSeek指数主要包含与DeepSeek有合作关系，或者受益于AI应用及产品化探索的相关公司。Wind客服工作人员告诉中新经纬，Wind在选取“xx概念股”时，一般由相关技术人员依据该平台制定的评价标准，决定是否要将一些个股纳入某一概念当中。</p>
+<p>同花顺自2月5日新增“DeepSeek概念”以来，至2月17日共收录相关个股249只。2月17日，同花顺共新增健康元、通达海、亚康股份、华孚时尚、传化智联、汤姆猫、兴通股份、江苏有线、超图软件9只DeepSeek概念股。对于收录流程，同花顺客服表示，一般会结合近期上市公司公告、投资者关系互动平台以及官微等发布信息，“如果有明确提到涉及DeepSeek相关业务、合作的，经工作人员审核后，会添加到相应概念股里，后续也会根据实时披露的信息，进行一些个股的剔除”。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_2d60d5ae0db84a7bb6ee4ed167469503@000000_oswg146396oswg1080oswg2046_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：同花顺</p>
+<p>从券商的统计情况看，华创证券策略团队至2月11日共筛选DeepSeek概念股151只，对于选股标准，该团队称是通过从WindDeepSeek指数、Choice DeepSeek指数、同花顺DeepSeek指数取并集，并结合近期上市公司公告、投资者关系互动平台以及官微等平台发布信息。国海证券计算机研究团队在2月14日发布的研报中，从AI应用和算力两个维度，共筛选出DeepSeek相关上市公司71家。</p>
+<h2><strong>有个股兼具60个概念题材</strong></h2>
+<p>多家上市公司近日公告称，依托DeepSeek大模型开展的业务对业绩影响存在不确定性，或是与DeepSeek无业务合作或股权投资。</p>
+<p>例如每日互动2月4日发布公告称，虽其创始核心骨干成员曾为深度求索关联公司浙江九章资产管理有限公司（曾用名杭州幻方科技有限公司，下称幻方科技）的重要股东，但截至公告披露日，每日互动未持有深度求索和幻方科技的股权。青云科技、优刻得、并行科技、杭钢股份等公司近期均在公告中披露，其与DeepSeek的合作目前相关业务情况及对公司未来业绩贡献存在重大不确定性，或尚未与DeepSeek建立业务合作关系。中新经纬注意到，截至发稿时，每日互动、青云科技、优刻得、并行科技、杭钢股份5只个股仍都在同花顺的DeepSeek概念股名单中，Wind的DeepSeek概念股名单目前不包含杭钢股份。</p>
+<p>值得一提的是，不少个股除具有DeepSeek概念外，还兼具其他众多概念。中新经纬通过梳理同花顺的相关信息发现，在截至2月17日的249只DeepSeek概念股里，四川长虹同时具有60个概念题材，紧随其后的软通动力、大华股份，分别兼具58个、54个概念题材。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_2e57beb448b64131b20de7c424f25d93@000000_oswg33367oswg1050oswg558_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">来源：同花顺</p>
+<p>田利辉认为，可采取强化信息披露监管、建立概念股编制标准、严惩恶意炒作主体和投资者教育等措施。如要求上市公司及时澄清市场传闻，明确业务关联性的具体细节；由行业协会或监管部门制定分类指引，限制过度泛化；对编造虚假概念的机构或个人，要依据《中华人民共和国证券法》第五十六条追究“操纵市场”责任，提高违法成本；应通过案例警示投资者理性看待概念炒作，避免盲目跟风。</p>
+<p>( 文中观点仅供参考，不构成投资建议，投资有风险，入市需谨慎。)</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI0NDU5OTAzMA==&amp;mid=2247589107&amp;idx=1&amp;sn=00a64b25fe34df5e9cffed8788e83dad&amp;chksm=e84d06618ba88358e9f066618deba992e3151aa302503217db9fb1e83b3936e0c9e80166fb7b&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“中新经纬”（ID：jwview）</a>，作者：丁丹，编辑：李晓萱，责编：魏薇 李中元，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171801985925512</guid><pubDate>Tue, 18 Feb 2025 16:55:00 +0800</pubDate></item><item><title>疯狂的机票“价格战”，要停止了</title><link>https://36kr.com/p/3171806641062787</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>最近，一则机票限价不得低于200元的坊间传闻刷屏社交平台。</p>
+<p>尽管各方说辞不一，但早在2023年2月，就已经出现过机票限价的消息。</p>
+<p>细究这两年的航空市场，机票的价格也的确一年比一年低。</p>
+<p>2024年三季度，国内航线经济舱平均票价（不含税）为745.5元，相比去年同期下降了15.9%。国庆期间，经济舱平均票价（不含税）为845元，相比去年同期下降了15.1%。这些数字反映到各大航空公司身上，尤为刺眼。</p>
+<p>2024年上半年，国航、东航、南航的半年财报营收分别为795.2亿元、641.99亿元和847.9亿元，净亏损27.82亿元、27.68亿元和12.28亿元。频繁的机票打折已经让国内的客公里收益大幅度下降，去年上半年，国航的客公里收益由上年同期的0.7107元降至0.5369元，降幅高达12.08%。</p>
+<p>一些小型航空公司更是接近危险边缘。2023年底，包括深圳航空、上海航空、祥鹏航空、重庆航空资不抵债。那么，2025年，消费者还能薅到航司羊毛吗？</p>
+<h2><strong>航空公司“没赶上”出行风口</strong></h2>
+<p>1月24日，三大航发布2024年全年财报。数据显示，去年一年里，成功跨过三年寒冬的三大航迎着当前火热的出行风口，仍然没有实现扭亏为盈，2024年三大航预计共亏损47.1亿元至64.1亿元。</p>
+<p>对比另外一组数字：文化和旅游部数据显示，2024年前三季度，国内出游人次42.37亿，同比增长15.3%；国内游客出游总花费4.35万亿元，同比增长17.9%。高密度的出行大潮下，三大航空公司的亏损似乎有些说不过去。</p>
+<p>航空公司为什么没有赶上出行风口？</p>
+<p>首先，尽管被封印了三年的消费者正在疯狂上演“报复性旅游”，但去年国内旅客的运输增长率与航空运力增长率严重不协调。一方面，国内运力供给同比增长23%，另外一方面，旅客运输量仅增长17.9%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_8b36fe95488a4b7eac9b16aa265f71a4@000000_oswg55619oswg669oswg519_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>更有意思的是，当前各大城市都心怀网红梦，无数小众城市吸引一波又一波的游客打卡，甘南夏河机场、吐鲁番交河机场、六盘水月照机场的客流量一度同比涨幅100%，国内航班量虽明显增加，但架不住“狼多肉少”。</p>
+<p>从 2024 年 11 月至2025年 3 月的新航季显示，共有37家航空公司在新开的654条国内独飞航线上每周共安排6102个航班运营，新开独飞航线数量同比增加26.7%。<strong>也就是说，一窝蜂出门的消费者根本“喂不饱”饿了三年的航空公司。</strong></p>
+<p>更何况，高铁也来抢生意。</p>
+<p>高铁对飞机的冲击有多大？据悉，“八纵八横”高铁网络在2025年覆盖95%的50万人口以上城市，这导致800公里内航线客源流失率超过40%。京沪高铁日均开行68对列车，直接导致京沪航线票价较2019年下降28%。</p>
+<p>还有一点需要注意，当民航票价超过高铁二等座1.5倍时，60%商务旅客会转向高铁。原本在一些航空公司的业务结构中，商务出行的占比就是大头，nvestopedia一则报道显示，正常年份下，商务旅客占航空公司旅客总量的12%，贡献利润却是普通旅客的2倍，达到航空公司利润总额的75%，国际长航线的差异更为明显。</p>
+<p>2024年，国航商务舱客座率同比下降9.3%，但经济舱超售率达200%。</p>
+<p>另外，出行市场如火如荼，OTA平台自然也想分一杯羹，去年飞猪、携程、美团等头部OTA平台的“机票、酒店、景点”一体打包的产品深受消费者欢迎，这直接截断了航司的直销客源，2024年，航司官网预订量占比从35%降至22%，预计每张机票佣金损失达47元。</p>
+<p>当然，国际航线的恢复节奏也是航空公司持续亏损的一大原因。去年，国际航线仅恢复到2019年的77.8%。据悉，中美航线的运力投放远超过实际需求，大概超了43%，美联航在2024年第三季度的中美航线客座率仅有68%。</p>
+<p>2025年虽有进一步恢复的趋势，但大部分航司更倾向于利润更高的国际航线恢复。新航季中东南亚航班占比47.5%，平均周量进一步提升；海外旅游热地如埃及、沙特阿拉伯、卡塔尔、土耳其计划航班量超过2019年同期。</p>
+<p>无论是国内航线，还是国际航线，航空市场的供需错配时代已经来临，即便出行风口正兴，但这红利层层盘剥，分给航空公司的或许不多了。</p>
+<h2><strong>“成本黑洞”还能填上吗？</strong></h2>
+<p>当然，多数航空公司亏损与这个行业居高不下的成本有关。一架飞机完成一次航行需要花多少钱？每飞一次，航司需要向机场支付维护、运营经费、偶尔还有停机费，据悉，厦门机场的停机费大约高达每晚1万至2万元。</p>
+<p>有些航司还有飞机的租金以及人力成本与最为大头的燃油成本。一般来说，油费在航司的总成本中占比颇高，2023年，国航油费支出467亿元，占总成本的34.87%；东航为411亿元，占总成本的36.55%；南航为520亿元，占总成本的35.27%。</p>
+<p>林林总总加起来，这笔数字不容小觑。</p>
+<p>在当前运力与需求失衡的背景下，如果不能在短时间内增加乘机需求，只能另寻出路，降低成本。事实上，在航空行业里有通过“减衣缩食”来实现盈利的例子， 典型的如“空中绿皮”春秋航空。</p>
+<p>这也是一度凭一己之力掀开整个航空圈价格战的“鲶鱼”企业。据悉，春秋航空以低价、抠门著称，在节约成本方面更是经验老道，其降本方式包括统一航队机型、增加客座、取消航餐、甚至减轻杂志重量、调整飞行高度来省油……</p>
+<p>从春秋航空这几年的财报来看，降本模式确实行得通。2024年上半年，当三大航集体亏损时，春秋航空营业收入为98.75亿元，同比增长22.97%；归母净利润13.61亿元，较上年同期增长62.28%。</p>
+<p>如此亮眼的财报让各大航司纷纷跟进，但航空领域的“成本黑洞”根深蒂固，这就导致一场降本大战的结果参差不齐。</p>
+<p>算起来，航餐成本的压缩已经算为数不多的成功之处，以南航为例，过去四年，南航的飞机餐成本一降再降，2019年到2022年，分别为39.75亿元、17.65亿元、15.77亿元、13.32亿元，占总成本比重从2.93%降至1.26%。</p>
+<p>这一点唯一的后果就是会被乘客疯狂吐槽，而其他降本方面基本还处在“阵痛期”。</p>
+<p>比如有些航司想通过更新机型来降本，A220、A320neo、A330neo、A350等新一代飞机相较于上一代机型更高效、更环保、更低油耗。但整个飞机制造供应的延迟问题一直存在，据悉，波音737 MAX交付周期甚至延长至18个月。</p>
+<p>2024年，东航原定接收的12架A320neo仅到位5架，被迫延长老旧A320ceo机型服役年限，这让单位ASK成本又增加7%。何况换机的成本高得令人咋舌，之前，三大航合计采购A320NEO系列飞机共292架，合计购置金额高达372.57亿美元。</p>
+<p>与更新机型思维相同的还有可持续航空燃料（SAF）的使用，原本使用生物航煤的目的是降低燃油成本，但由于当前技术限制，这一变革在短期内却反向增加了成本。</p>
+<p>中国石化曾算过一笔账：原料收集、生产、运输等一系列成本叠加，现阶段生物航煤的总生产成本其实是传统航油的3至4倍。2023年，欧洲地区在有补贴的情况下，SAF价格也能达到普通航煤价格的2倍。</p>
+<p>而强制使用SAF可能会导致航司成本增加8%～12%，国泰航空也测算过，2024年当SAF使用量达5%时，额外支出会超过3.2亿港元。春秋航空的省钱大法，显然又无法惠及所有航空公司，毕竟不是每架飞机都想成为空中绿皮。</p>
+<p>既跨不过成本的门槛，又想“抠”出盈利的各大航司，仿佛再度迷茫了。</p>
+<h2><strong>廉价机票正成为“消费入口”</strong></h2>
+<p>机票限价的消息一出，无数穷游党纷纷心碎。但目前为止，关于“是否能继续售卖200元以下的机票”依旧众说纷纭。经过查询，相比去年，今年200元以下的廉价机票的确大幅度减少，但也不是完全没有。</p>
+<p>例如，2月11日，华夏航空从天津飞往山东东营的机票只有140元、2月10日，新疆天缘航空从喀什飞往叶城的机票售价99元。主流平台上，200元以下的机票虽少之又少，但219、229、239……这类仍然与性价比挂钩的机票依旧存在。</p>
+<p>没办法，机票价格战在2025年或许不会如此前那般疯狂，但一时半刻就结束也并不现实。</p>
+<p>毕竟国内消费者对机票价格的敏感度还在持续上升，CADAS发布的民航报告显示，2024年二季度民航市场结构转变，公商务占比下滑且价格敏感化，休闲旅游群体占比提高，旅客对机票价格敏感度上升。</p>
+<p>公开资料还显示：我国航空旅客中价格敏感型群体占比从2019年的43%升至2024年的61%。这也在意料之中，毕竟2024年全年，居民消费价格指数（CPI）同比上涨只有0.2%，游客一边赶往下一个网红城市，一边捂住自己的口袋，这也是整个文旅市场不争的事实。</p>
+<p>根据亚太航空中心的统计数据，从2014年到2023年的十年间，全球低成本航空的区域内航线市场份额从30.3%提高至31.8%，亚太地区的增长尤为显著，国内航线市场份额从25.7%攀升至28.3%，廉价航空似乎正成为大众出行的主流选择。</p>
+<p><strong>然而，抛开消费者的角度，单纯从航空公司的立场出发，廉价机票也不会在短期内消失。</strong>值得一提的是，当前机票在整个航空消费链上逐渐成了一个“消费入口”，典型的例子如春秋航空，2024年上半年，春秋航空在国内航线的市占率仅为3.7%，但已占据了国内廉航市场的约30%。</p>
+<p>事实上，乘坐春秋航空的消费者未必能占到“便宜”。</p>
+<p>一方面，春秋航空无免费餐食、无免费毯子、严格的行李托运要求令一众旅游特种兵哭笑不得，据悉，春秋航空的行李托运、选座、客舱餐饮等辅助收入能达9亿元，占总营收的5%；另一方面，春秋航空的机上零售SKU达120种，同时将机票与租车、酒店等场景绑定。</p>
+<p>无独有偶，将机票设为“消费入口”的不止春秋航空一家，只不过，春秋航空走的是空中“拼多多”路线。而在整个航空消费市场上，趁着消费寒冬巧妙“升级”的玩法也不少，例如：吉祥航空“888元无限升舱卡”；深圳航空发售升舱套卡，999元包含五次升舱；国航推出电子升舱券、一价双座等产品。</p>
+<p>因为一部分年轻人的消费观始终都与取悦自我相关联，国际航空运输协会一份研究显示，有些经济舱旅客正进入商务舱，高端舱位的客源也从商务乘客转向休闲旅客。一张便宜机票背后，往往藏着消费众生相。</p>
+<p>但无论是哪种模式，机票引发的空中消费已成必然，有些航司甚至斥资开始整改。去年，国泰航空就宣布了一项投资计划，将花费高达1000亿港元，对机队、客舱产品、贵宾室、数码设施进行升级。</p>
+<p>往后再坐飞机，恐怕机票只是花钱的第一个环节而已。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI3MjExNTM5Mw==&amp;mid=2247500642&amp;idx=1&amp;sn=c7290739a350db98ac3f70f1c91ad568&amp;chksm=ea41880a3548e842fcc09d7a62822a0501566fbb910819cbdc25c8c6d42a0b7050485df1c37a&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“道总有理”（ID：daotmt）</a>，作者：道总，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171806641062787</guid><pubDate>Tue, 18 Feb 2025 16:55:00 +0800</pubDate></item><item><title>金价暴涨，金饰品牌却要另寻出路？</title><link>https://36kr.com/p/3171811746513282</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>春节后，黄金的热度仍然不减。</p>
+<p>此前金价一路高歌猛进，连涨七周创下历史高位；国内各大品牌的足金饰品价格都在刷新历史同期纪录，一度逼近900元/克。近日金价又出现高位震荡，但消费者的购金热情却越发高涨。</p>
+<p>春节期间，老铺黄金西安SKP门店动辄排队3-6个小时，网友调侃“超市派鸡蛋都没见那么多人”；情人节时，北京SKP商场排队进老铺黄金的人流从凌晨四点就已开始。消费者一边吐槽难以负担的高价、一边又不想错过追涨机会，赶着涌进金店“扫货”，从常规的金镯子、金项链到有新意的黄金贴、小金豆，都被捧成了爆款。</p>
+<p>消费热潮下，黄金品牌似乎是躺平就能迎接一波“泼天富贵”，几家主要上市黄金品牌的股价在春节期间得到提振，周大福节后一度录得“五连涨”。</p>
+<p>而现实情况，其实远比想象中要复杂得多——<strong>黄金市场迎来牛市，但不少黄金品牌却处于业绩承压状态。</strong>市场热度越高，竞争压力也会越大，怎么把短期热度转化成长期的盈利成为对黄金品牌的真正考验。</p>
+<h2><strong>金价飙升，金饰品牌实则不好过</strong></h2>
+<p>首先我们要明确的是，黄金不等于黄金饰品。</p>
+<p><strong>金价上涨，金饰的售价自然随之提升，这会直接挫伤消费者对于黄金饰品的日常购买意愿。</strong>据中国黄金协会最新统计数据显示，去年，我国金条及金币需求在373.13吨，同比增长24.54%。与此形成反差的是，我国黄金首饰消费需求为532.02吨，同比下降24.69%。</p>
+<p>同时，<strong>金价上涨还意味着金饰品牌拿到原料的价格更高，首先是直接带来了更大的成本压力。</strong></p>
+<p>为此，金饰品牌一方面必须要优化和调整主要售卖的核心产品，另一方面就得在门店入手，改变过去通过扩大门店规模来提升自身盈利能力，试图在三四线城市博取更大增长空间的思路，转而减缓门店扩张速度，关停那些营业效益不佳、拖累了整体利润的门店。比如周大福和六福集团分别在2024年三季度关闭了145家和76家门店，周生生在2024年上半年则净关店22家。</p>
+<p>消费需求下降，产品成本抬升，自然也就直接影响了品牌们的业绩。</p>
+<p>根据周大福2025财政年度上半年（截至2024年9月30日六个月）财报数据，当期周大福总营收、归母净利润同比分别下滑20%和44%。财报中指出，内地部分消费者对购买黄金首饰持观望态度，导致中国内地市场营业额同比下跌18.8%。同时中国香港、中国澳门及其他市场也因市民外游及内地旅客消费模式和喜好转变而受到影响，营业额同比下跌了27.9%。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_e3981bffb5364f1aba1147d97a73f31c@000000_oswg148006oswg1080oswg525_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：周大福财报</p>
+<p>周大生2024年前三个季度的营业收入同比下降13.49%，净利润则同比下降21.95%。从单季度来看，公司三季度的营业收入和净利润，也分别同比下降了40.91%、28.7%。同样，老凤祥在2024年前三个季度的营业收入与净利润也都呈现出同比下滑趋势；周生生去年上半年的营业收入与净利润也经历了双位数的同比降幅。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_59c709b691b54519b7838b07510f09b1@000000_oswg107338oswg1080oswg230_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：周大生财报</p>
+<p>金价对日常购买意愿产生负面影响，但为何春节和情人节期间，大家却在排长队购金？</p>
+<p>首先，这肯定是有节庆效应的影响。大家在节日期间本身有更强的礼赠需求和自我奖励的消费意愿，而且节日期间金饰品牌也有不少优惠活动，这也进一步放大了吸引力。比如春节和情人节期间老铺黄金曾推出“满千减百”活动，位于北京SKP商场的门店还参与了商场的活动，折扣、积分优惠诱人。</p>
+<p>其次，还有一大核心原因是在于金价出现了长周期持续大幅上涨的态势。回顾2024年，国际金价全年累计涨超27%，创14年来最大年度涨幅。黄金的投资价值愈发凸显，<strong>越来越多的消费者不再单纯地将购买黄金饰品视为一种消费行为，而是将其看作一种投资手段。</strong>尤其在通货膨胀等经济变化背景下，黄金作为硬通货的属性得到了进一步强化。<strong>此时购买黄金饰品就不再被视为单纯的消费支出，而是成为了一种资产保值方式。</strong></p>
+<p>对于金价未来的走势，包括是否会出现大幅波动或下滑，以及这些变化，将如何影响消费者投资于金饰的热情和意愿，任谁都难以准确预测。因此，当前的这股购买金饰热潮能够为金饰品牌带来多少业绩提振，以及这种提振能够持续多久，还有业务基本面何时会显著改善，都仍然是不确定的。</p>
+<p>不过可以确定的是，金饰品牌已在产品、门店、营销和运营等多个方面进行了调整和优化。这些调整并非一次性或短期的行为，而是旨在长期提升品牌影响力、增强市场竞争力，在未来持续发挥效用，为品牌的长期发展所用。</p>
+<h2><strong>年轻化、差异化、兼顾性价比，三条创新路</strong></h2>
+<p>在深入观察后，我们发现，无论是近来凭借独特风格爆红出圈的老铺黄金，还是股价涨幅最为迅猛的周大福，亦或是其他众多黄金品牌，都有了新思路和新路线。</p>
+<p><strong>第一条路线就是年轻化。</strong></p>
+<p>过去很长一段时间里，黄金饰品更多是中老年人的偏爱，或是极高额但标准化的礼品，作为“配饰”的这一属性并不突出，如此一来消费人群也始终很局限。而如今，黄金市场上早已满是年轻人，大家带着既显贵又能升值的认知，纷纷将目光投向了金饰。据世界黄金协会的《2024中国金饰零售市场洞察》指出，18-35岁年轻人贡献中国黄金珠宝超三分之一的销售额，不断缩小和中老年消费者之间的差距。</p>
+<p>当年轻人成为高潜力的可拓展客群，年轻化自然就成为了黄金品牌必须学习的课题。</p>
+<p><strong>首先，品牌们都在结合年轻人的喜好、加入年轻人喜爱的流行元素去焕新产品系列。</strong></p>
+<p>如周生生CharmeXL系列黄金转运珠和福袋手串，莱绅通灵打出“滴水成财”噱头的“传世金·锦上花”系列吊坠、手镯等。这些品牌产品贴近玄学概念，向消费者灌输的是花点小钱买金饰可以“改运势”、“接福气”的心理安慰。</p>
+<p>也有品牌打传统文化牌，满足年轻人追求文化自信的风潮，如潮宏基采用花丝非遗工艺的“花丝·风雨桥”系列，借鉴古代山水画风格的老凤祥“玲珑碧波”系列耳饰、“风韵秀逸”系列项链，以及周大生的“千里江山”系列圆珠套链等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_9863ab0467af4aae8d35b5c6fad38e4d@000000_oswg46662oswg1034oswg592_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图源：潮宏基官网</p>
+<p><strong>其次，通过更高频次地IP联名，品牌们既更新了产品设计，也有了新的营销玩法。</strong></p>
+<p>联名是近些年来消费领域的热门玩法，对黄金饰品这样的长期由中老年消费者占主导的品类来说，通过和IP合作，能够在最短时间内打开知名度，拉近和消费者的距离。</p>
+<p>经过几年摸索，黄金品牌的联名营销也越来越得心应手——比如老庙黄金和今年春节档电影《封神第二部：战火西岐》联名，借片中角色妆造包装设计理念的“衔尾凤鸟纹”黄金挂坠、“饕餮纹”手绳；周生生和动漫IP《魔卡少女樱》联名的“足金小樱挂坠”，老凤祥和迪士尼联名的“米奇足金项链”等，都赢得了不少年轻人喜爱。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_4040a5f98b4b47d9b32ab0c6b8357372@000000_oswg76189oswg1080oswg544_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">黄金品牌频繁和热门IP联名，图源：微博</p>
+<p>此外，福袋、手串、联名金饰等新潮产品能在年轻人之中迅速火起来，少不了利用社交媒体来推波助澜。</p>
+<p><strong>品牌并非是一味只介绍产品材质、造价，而是更多讲了设计寓意、日常搭配技巧等等，以及跟随着流行趋势来创造话题，带动产品热度。</strong>比如周生生的DIMOO系列礼盒主打概念是“陪伴”，强调适合和闺蜜一起戴上许愿。周大福蛇骨项链和小金条，潮宏基的素金饰品叠戴穿搭攻略等笔记内容，在小红书上也都有不少点赞和评论量。周大福的蝴蝶结项链则是跟上了“在逃公主风”的流行趋势，强调着要为每一个有“公主梦”的女孩定制。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_291c01f190684b58a68422aab0c91fe7@000000_oswg78650oswg934oswg647_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
 <p class="img-desc">图源：小红书</p>
-<p>在社交平台上搜索老铺黄金，锤纹耳钉、随身佛、十字金刚杵灯款式总能吸引都市丽人大喊——</p>
-<p><strong>“治好了我的黄金羞耻症！”</strong></p>
-<p>彰显重工艺的古法金器系列，更让人看一眼就懂了什么叫“富贵逼人”。</p>
-<p><strong>“北京一套房全款拿下”</strong>的配图是老铺黄金两斤的大金如意；</p>
-<p><strong>“手握黄金勾践剑是什么体验”</strong>的分享里，勾践剑只是产品款式之一。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_6da394096e204cfa950390229f46b3ae@000000_oswg124359oswg1080oswg774_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">小黑屋一角，号称1:1还原的越王勾践宝剑售价80多万/图源：小红书@尤奇，已获授权</p>
-<p>最新的都市传说里，老铺黄金的“小黑屋”已经占有一席之地。</p>
-<p>你可以理解为，它是专门用于招待VIP客户的神秘书房。</p>
-<p><strong>“消费了10万元，有幸被带到小黑屋看平时看不到的藏品。”</strong></p>
-<p>比如它的镇店之宝，一尊8000多克的佛像，售价高达1000万元，也是店内最贵的黄金单品。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_3f2443aa4cf24d568beff1f925929401@000000_oswg140449oswg1080oswg1769_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">老铺黄金线上门店部分商品/图源：淘宝</p>
-<p><strong>谁能想到，零售市场由盛转衰，风水轮流转居然是轮到了老铺黄金。</strong></p>
-<p>不论是北京SKP、杭州万象城、成都 SKP亦 或是南京德基、郑州大卫城 。</p>
-<p>从9点商场放人开始便排起长队，直到23点打烊顾客依旧络绎不绝，壮观程度堪比春运火车站。</p>
-<p><strong>曾经热闹的香马驴雕古卡，也与大排蛇阵，成了香饽饽的老铺黄金形成了鲜明对比。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_7c4f982df4774130852d03aebc661242@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">老铺黄金一度靠32家店创造出近32亿的年收入，</p>
-<p><strong>线下排队难，线上更是“秒光”。</strong></p>
-<p>此前新品上线即“已售罄”，全程不到10秒；某款热门手镯，1分钟内销量破千，3分钟后全线售罄。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_d79cd6d3df9240859448be68eb57792c@000000_oswg20515oswg646oswg104_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>另有数据显示，<strong>双十一期间，老铺古法手工足金葫芦超过40000人加购。</strong></p>
-<p>评论区满是跃跃欲试的网友留言“黄金血脉觉醒以后，真的很难不爱”。</p>
-<p>能做到如此“现象级爆火”，只想问一句：<strong>把黄金做成奢侈品，这玩意谁研究的呢？</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_dd7176c5e26f427f8112bd5ac67d8156@000000_oswg211417oswg1080oswg1789_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">如此景象，黄牛们也闻风而动</p>
-<h2>老铺黄金的营销方式，谁研究的呢?</h2>
-<p>关于老铺黄金，坊间还流传着两个传说。</p>
-<p>在品牌历史上，价格<strong>只涨不降</strong>，2024年就两度涨价 ； 2023年财报 上 ，其会员<strong>客单价达到3.4万元。</strong></p>
-<p><strong>“第一个想到把黄金做成奢侈品的人，一定是天才”</strong>，有人这样感叹。</p>
-<p>始创于2009年，公司正式成立于2016年，上市于2024年6月，对比其他动辄创立于20世纪甚至更早的品牌，老铺黄金，不算资深。</p>
-<p><strong>但成立后短短8年便成了“黄金的尽头”，全方位的“营销手段”加持必不可少。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_391dd50ac7ed4fbb9eea9cc5c9fe61ae@000000_oswg47679oswg1080oswg141_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>回看老铺黄金的爆火历程，不难对照奢侈品牌们的基础操作。</p>
-<p>门店限流、产品限定、穿着新中式的店员人均故宫解说员，是<strong>营造高端氛围感，把奢侈体验拉满。</strong></p>
-<p>不卖硬金K金专做古法足金，不按克卖只做一口价又把自己和其他同行区分开来。</p>
-<p>不做加盟，只做直营，更是将那句<strong>“物以稀为贵”</strong>贯彻到底。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_cf54b5fd587745448ba7a78f6dcb6e37@000000_oswg96932oswg1080oswg808_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">品牌溢价高，但因黄金保值性一定程度上弥补了这一点。/图源：小红书@ Ricky，已获授权</p>
-<p><strong>不过这还远远不够，“你以为它是黄金和奢侈品一加一，其实人家是三合一，怎么买都有面。”</strong></p>
-<p><strong>黄金奢侈品化之外，将门店证券化也必不可少。</strong></p>
-<p><strong>有人在消费后由衷感叹：“进一趟老铺黄金，感觉比纽交所都刺激。”</strong></p>
-<p>店员根据实时金价调整话术，是推首饰，也是推看涨潜力股。<strong>顾客要考虑的不是“我需要吗”，而是“不买就亏了”。</strong></p>
-<p>宣传中强调耗时、不可复制和稀缺性，是把工匠耗时换算成时间货币——</p>
-<p><strong>流行说法是为产品“赋能”，更直白点是“提升品牌溢价”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_b7b6c90cd09b406aa56825f45d4be286@000000_oswg215656oswg1080oswg1440_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">如传世无忧换款服务，是发行永续债，今天多付30%工费，购买未来无限次免费改款期权。</p>
-<p><strong>“周大福们还在卖克重，老铺黄金已经发明黄金元宇宙入场券，对圈层消费者全方位击破。”</strong></p>
-<p>在中产圈层，金条太俗，奢侈品易过气，非遗黄金低调又不是失贵气，还能满足抗通胀焦虑。</p>
-<p>在县城贵妇眼里，三万八的掐丝珐琅镯子=爱马仕配货平替，富贵又保值。</p>
-<p>财富层次再高一点，它又能成为可穿戴的传世家族信托，“买的不是首饰，是文化资产包。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_3498bd9d2d6e47369e4776f88c6dc1b8@000000_oswg54567oswg1080oswg676_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">“传世”的概念让多少中国消费者血脉觉醒</p>
-<p><strong>连“尚未觉醒黄金喜好”的Z世代，都手拿把掐赋予“玄学”含义。</strong></p>
-<p>古法金貔貅手链，防BOSS直聘已读不回，又“避免不慎漏财”。</p>
-<p>金葫芦内藏一颗小金豆，通勤路上叮当作响也能安慰自己是在享福（响葫）。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_8c83fca154924f2e912e8d570e363440@000000_oswg28364oswg1080oswg209_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">打工人很难不动心</p>
-<p>最后再上点购买难度，从控制门店数量，到限制产品供应，再到各种预约和排队等程序，都能拿捏人们的抢购欲。</p>
-<p><strong>如此全方位围堵，再看它的人气和销量，似乎也不再奇怪。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_ec502edd460d435faeb6d1d03a5f748f@000000_oswg89766oswg1080oswg587_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>2023上半年，老铺黄金收入达14.18亿元，毛利率高达41.7%，远超同行23%的平均毛利率。</p>
-<p>“人气有了，实绩又赚的盆满钵满，所以<strong>这样的老铺黄金，还会有什么烦恼吗？”</strong></p>
-<h2>黄金奢侈品，一种很新的“焦虑税”?</h2>
-<p>一夜暴富的故事总有隐忧，半年猛涨500亿港元市值的老铺黄金，也有它的弱点。</p>
-<p>“看着最近老铺黄金那么热，说是使用古法制作。</p>
-<p><strong>古法两个字在我看来=手工、标准不统一、提纯度低、制作时间长、噱头…… ”</strong></p>
-<p>关于老铺黄金，网上有一则评论这样说。</p>
-<p>话最直白，却也道出了老铺黄金火热背后的困境。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_e44b8f4aa1de431e80584b4d2f5e37cd@000000_oswg304616oswg643oswg397_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">老铺黄金典藏系列/图源：老铺黄金官网</p>
-<p><strong>“低端说价格，中端说档次，高端说文化”</strong>，品牌市场不外如是。</p>
-<p>老铺黄金的高端路线，注定要将“文化”进行到底。</p>
-<p><strong>讲好文化故事，需要时间和金钱，而消费市场，最易出问题的莫过于这两样。</strong></p>
-<p>于老铺黄金，金钱方面，是如今的营销费用，大大超过研发费用。</p>
-<p>据相关数据，2023年老铺黄金研发费用率低至0.4%，而营销费用正在成倍增加，前者一度不及后者的一个零头。</p>
-<p>时间方面，是不足10年的品牌史，要撑起奢侈品叙事还是单薄，只能转向古法工艺上挖掘厚重感。</p>
-<p>古法工艺，属于高难度工作，非功底深厚的工匠难以驾驭，而老铺黄金<strong>居高不下的人气，让供给侧受限问题愈发明显。</strong></p>
-<p><strong>基于此，老铺黄金新产品设计也趋于简单化，还喊了外包来凑数，埋下了质量隐忧。</strong></p>
-<p>有消费者购买老铺黄金项链检测后反映其“含金量只有99.4%，并非其宣传的≥99.9%。”</p>
-<p>广东质检院也曾抽检发现，老铺黄金古法产品焊接点强度均值低于国标，佩戴3个月变形率超30%。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_8966ff9fc529433fac32feacc378ddce@000000_oswg78166oswg1080oswg808_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>抢购的新鲜劲终会散去，并不舒适的购物体验，难免让人产生逆反心理。</p>
-<p>尤其当商场金柜开始出现“配货现象”，长达几个小时的排队，还要和黄牛斗智斗勇。</p>
-<p><strong>热度越高，离退热可能就越近的说法，未必只是“遥远的隐忧”。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_ea397086347f49f0b9b57d386f47fc54@000000_oswg16009oswg643oswg114_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>至于老铺黄金，还能火多久？</p>
-<p>事实上，<strong>老铺黄金爆火，只是这些年黄金消费热潮的冰山一角。</strong></p>
-<p>往前是各大银行积存金条爆火，网上不乏博主因为每日播报更新价格累积一波流量。</p>
-<p>再前一点，是攒金豆成为新型投资项目，金豆每颗1克，虽然价格和饰品金一样，但定期强制储蓄的特点，还是吸引无数年轻人加入。</p>
-<p><strong>人们为什么愈发重视黄金投资？</strong></p>
-<p>不论是过去现在，低端、中端还是高端，人们选择黄金的根本原因，始终少不了一个关键词：<strong>保值。</strong></p>
-<p><strong>买金，与其说是时尚流行，或是老钱风，不如说是人们用黄金对抗经济的不确定性。</strong></p>
-<p>眼下老铺黄金的火热仍在进行着，还是大排长队，还是一号难求。</p>
-<p>有人说<strong>“买金无技巧，全靠买得早”</strong>，也有人说<strong>“投资有风险，理财需谨慎”。</strong></p>
-<p>不过至少现在，对于将目光投向黄金的人们来说，都并无什么大影响。</p>
-<p><strong>你去菜百，我去水贝，他去老铺黄金，我们都有各自的黄金赛道。</strong></p>
-<p>买是要买的，观望也是要观望的，明天的黄金是涨是跌，那都是明天的事。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIzNDAxNjkxOA==&amp;mid=2650942814&amp;idx=1&amp;sn=dbdf2e29ada5043d92d0597aa8ae39ea&amp;chksm=f2a8f6e0a730870105b1d4ce6dc517f5971c53ec655b231f91f7acff504a92ed40f6a4727944&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“槽值”（ID：caozhi163）</a>，作者：槽值小妹，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171669719237504</guid><pubDate>Tue, 18 Feb 2025 16:08:00 +0800</pubDate></item><item><title>6个让你人生极简的良心建议</title><link>https://36kr.com/p/3171665818304899</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2><strong>1. 不要过度分析自己和他人。</strong></h2>
-<p>因为过度分析是一个既损自己也损他人的行为。</p>
-<p>很多时候我们与人交往并不需要分析背后的目的和意义，只用维持表面的信息传递即可。</p>
-<p>你如果一开始就打定主意不和对方深交，那就让事情维持它表面的样子，这是最好的状态。</p>
-<p>别期盼自己能得到完全理解，这世上人与人的悲欢本来就不相通，有时候得到误解也是可以的，只要你的目的达到了，其他都可以忍让妥协。</p>
-<p><strong>放下“所有事情都必须有深刻意义”这个执念，用更加宽容开放的心态接纳与你不同的人，不同的观点，不同的行为，把自己当做一个观察者，而非入局者。</strong></p>
-<p>然后转身即忘，忘得一干二净。</p>
-<h2><strong>2.不管在哪个领域，都要锻炼自己的持续输出能力。</strong></h2>
-<p>只有不断输出，才能刺激大脑不断活化，细胞不断运转，老了才不会变笨。</p>
-<p>这个输出不一定是写文章，拍视频这么麻烦。你随手记下来的一个小点子，想到的一句话，内心突发奇想的一个感悟，都可以是输出。</p>
-<p><strong>有输出，代表你有在思考，你在拒绝被现有的认知灌输，你在和这个世界积极地交互。人生很多有启发的灵感，都是在不断输出的过程中，像化学反应一样突然被激发出来的。</strong></p>
-<p>所以我强烈建议大家，养成随时记录的小习惯，用手机，笔记本，APP都可以。这是一个聚沙成塔的过程，时间久了，你输出的只言片语多了，把它们整理起来就会发现，互相之间是可以串联成线，组成系统的，原来自己是一个这么有思想的人。</p>
-<p>这是专属于你的个人思想财富，甚至以后都能传承下去。</p>
-<h2><strong>3. 赚钱的方法都不在书里。</strong></h2>
-<p>能被写出来的东西，都是案例复盘，是马后炮，忽略了当时当下的时代环境客观背景等各种因素，且均不可复制。</p>
-<p>就像你去问很多赚了大钱的人，让他们重新复盘一下自己走过的路，找一下关键原因，他们自己都说不清楚。</p>
-<p>真实情况是，他们赚钱的过程是被很多客观因素裹挟，半推半就之下做成的。在这个过程里，主观掌控起到的作用非常有限。</p>
-<p>赚钱不是一个“我想要这样做，我就一定能做到”的逻辑，而是一个“我想这样做”，然后看“这样做符不符合规律，符不符合条件”，再不断调整的过程。</p>
-<p>很多时候都是想了一个大概的方向，然后进去小成本试验试错，行了就继续，不行就重来。想，干，再想，再干，就这么简单质朴。</p>
-<p><strong>这中间比拼的是深度思考能力，是分析判断信息的能力，是落地执行力，还有一点点意志力。这些统称为一个人的赚钱元能力，不管放在哪个赛道都可以起作用。</strong></p>
-<p>而这些全都是在过程中慢慢形成的，你在过程之外，还没有开始这个过程，那就始终是场外人，与你无关。</p>
-<h2><strong>4. 在拒绝这件事上，记住要快准狠。</strong></h2>
-<p>你越拖泥带水，对方觉得你意志不坚定，还在摇摆，反而给了对方希望继续努力，但实际上你就是不愿意，最后大家都拖累，两败俱伤。</p>
-<p>人类最大的劣根性，就是总喜欢美化自己不曾走的路。</p>
-<p>虽然你知道那条路凶险，但自己没有走过，就会抱有一丝美好的幻想，于是接下来会产生一个匪夷所思的想法：</p>
-<p><strong>把自己走在正确道路上的不顺利，归因于没有选择那条错误道路的惩罚。</strong></p>
-<p>我知道这看上去毫无逻辑，但现实里这种情况比比皆是：</p>
-<p>现在的婚姻不幸福，是因为当初没有选择那个追自己的舔狗，然而事实是，选择了舔狗可能现在更不幸福；</p>
-<p>现在的工作很糟糕，于是后悔当时拒绝了另一家公司的offer，可事实是，你去了另一家公司不会比现在好多少。</p>
-<p>我们总会高估自己的风险承受力，低估未知环境的影响力。而这一切的根源，是对自我理解的不深刻，不充分，自己都没搞清楚自己究竟是怎样一个人。</p>
-<p><strong>所以在这之前，如果你不知道该怎么选，一旦察觉出味道不对，就果断拒绝，不要拖拖拉拉。宁愿损失潜在的收益，也不要在自己风险承担能力还不够的时候，随随便便冒险。</strong></p>
-<p>在理性还没有弄出头绪来时，请相信直觉。</p>
-<h2><strong>5. 重视健康，趁一切还来得及的时候。</strong></h2>
-<p>健康是一切的根本，这句话不到一定年龄是感受不到的。</p>
-<p>没关系，年轻的时候可以肆意挥霍，想爱谁爱谁，想怎么折腾就怎么折腾，但一定要有一个限度。‍‍‍‍‍‍‍‍‍</p>
-<p>过了那个顶点，当你突然感到不舒适，或者身体出现某些危险信号的时候，千万不要忽视，更不要拖沓，不要拒绝看医生。‍‍‍‍‍‍‍‍</p>
-<p>尤其是最近发生的一连串事件，足够引起我们的警醒。</p>
-<p>如果你想轰轰烈烈过完一生，不在乎它的长度，只在乎它够不够刺激潇洒，那势必会损耗你的元气；可如果你想活得久一点，活得质量高一点，就不要忽视对身体的保养。</p>
-<p>健康就像一个银行，它并不是取之不尽的。你年轻的时候存多少，老了以后才能取多少，年轻的时候一毛不存，老了自然就捉襟见肘。</p>
-<p>打游戏都知道，只有血厚站得住才有DPS。反过来攻击输出全场第一，但命比纸还薄，等于然并卵。</p>
-<p>人生何尝不是如此。‍‍‍‍‍‍‍‍‍</p>
-<h2><strong>6. 别轻易陷入情情爱爱的纠缠里。</strong></h2>
-<p>感情是这世上最消耗一个人气力的行为，没有之一。并且感情和赚钱不一样，你投入的多，并不代表最后收获的就一定多。</p>
-<p>所以从投资的角度来看，这是一项周期不确定，回报不确定，风险也不确定的标的。</p>
-<p><strong>有这个时间，如果你去干点别的事情，能不能让你的生活质量，人生财富有确定的，显而易见的提升？</strong></p>
-<p>这个问题值得反复思考，尤其是年轻的时候。</p>
-<p>我不是说感情不重要，而是当你还一无所有，没有实力能力的时候盲目去追求感情，很有可能陷入被动，被对方玩弄于股掌之间。</p>
-<p>要知道我们最终选择的那个人，一定是和我们段位匹配的人。青铜不会配上王者，屌丝不会配上白富美。</p>
-<p><strong>这个世界就是一个巨大的匹配游戏，稳定良好的关系一定是表面上郎才女貌琴瑟和鸣，背地里互相牵制势均力敌。</strong></p>
-<p>陷入情爱可以，但也讲究一个先后顺序。如果你的生活现在还过得一团糟，工作也不顺心，原生家庭也混乱，就别再分精力出去。</p>
-<p>专注先把自己收拾整理好了，才有资格匹配到更好的人。</p>
-<p>千万不要期盼有什么好的感情能够拯救自己，那是影视剧小说。现实情况是，别人没有这个义务，只有你才能拯救自己。</p>
-<p>以上，我是良计，与君共勉 =）</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIyMzE4NjIzNA==&amp;mid=2649986369&amp;idx=1&amp;sn=690a11cdf741ffd961bf5f4b8722efa7&amp;chksm=f141f4c53c0a665ce9e1ef88450026033c3b3a71197107c225ff108ae3f70c32aaf928b53e73&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“张良计”（ID：zhang_liangj）</a>，作者：张良计，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171665818304899</guid><pubDate>Tue, 18 Feb 2025 16:09:00 +0800</pubDate></item><item><title>DeepSeek搅动金融圈</title><link>https://36kr.com/p/3171664932356480</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>横空出世的DeepSeek在资本市场卷起巨浪，让一级市场深感遗憾，让二级市场交易火热，券商、基金等机构也抓住机会加快数字化转型</p>
-</blockquote>
-<p>来自中国的DeepSeek以迅雷不及掩耳之势席卷了整个AI界，同时也在资本市场掀起AI巨浪。</p>
-<p>值得注意的是，DeepSeek过去并无任何融资历史，这让一级市场投资人深感遗憾。截至目前，尚未有消息显示DeepSeek有开放融资的迹象。</p>
-<p>而在二级市场上，DeepSeek成为A股春季躁动的催化剂，多只DeepSeek概念股出现大幅上涨，相关基金亦实现不错收益。</p>
-<p><strong>“DeepSeek推出的模型在性价比、开源及推理能力等方面均展现出显著优势。它代表了AI产业的技术革新和突破，重塑了产业的技术标准和竞争格局，有助于提振国内科技领域的信心，带动整个AI产业链的发展。”</strong>泰信基金的基金经理董季周告诉《财经》。</p>
-<p>此外，DeepSeek正以迅猛之势向各个行业渗透，越来越多的企业开启了对DeepSeek系列模型的应用探索。在金融领域，券商、基金、银行、保险等一众机构均陆续部署了Deepseek大模型。</p>
-<p>DeepSeek将助力整个金融行业的AI变革。以证券行业为例，DeepSeek可提供更高效、精准的数据分析能力，帮助券商更快地识别市场趋势、优化投资策略，并提升风控能力，从而增强决策支持和智能化服务水平。</p>
-<p>“DeepSeek为人工智能在金融领域的创新与应用提供了更多可能性，助力行业探索新业务模式、开发创新型金融服务，为行业增长带来新的动力。”国金证券相关负责人表示。</p>
-<p><strong>但是，金融机构在使用DeepSeek中依然面临诸多挑战。包括对DeepSeek模型的本地化部署以及适配性测试，需要不断对模型进行优化更新；在使用模型处理大量数据时，要确保数据的安全性与隐私性，防止数据的泄露与滥用；需要建立有效的模型风险管理体系，更好地应对“幻觉”问题（即生成不准确或误导性信息）。</strong></p>
-<p>“大模型的幻觉问题是固有缺陷，目前没有特别完美的解决方案。所以在使用模型时，必须谨慎对待其生成的信息。”中泰证券人士告诉《财经》。</p>
-<h2><strong>DeepSeek掀起AI投资热潮</strong></h2>
-<p>横空出世的DeepSeek，在资本市场如鲶鱼般搅动风云，让一级市场投资人深感遗憾，同时在二级市场上受到追捧，成为A股春季躁动的催化剂。</p>
-<p>企查查显示，DeepSeek大模型由深度求索公司开发。深度求索公司成立于2023年7月17日，注册资本1000万元，作为一家成立不到两年的大模型公司，深度求索公司此前无论在融资、技术进展还是舆论层面都相对低调，过往并未有过任何融资历史。</p>
-<p>DeepSeek走红后，一级市场创投机构集体反思，“为什么没有投到DeepSeek这只超级独角兽”？有业内人士遗憾道，中国的风险资本错过并忽略了DeepSeek很是不应该。</p>
-<p>“DeepSeek爆火之前其实在一级市场创投圈就已经有被关注到，只是没有投资机会。”一位一级市场投资人对《财经》表示。</p>
-<p>DeepSeek此前并未开放外部融资的原因，深度求索实控人梁文锋在之前的一次访谈中曾提及，其在决定做大模型之后，也曾接触过投资机构，但由于自身技术理想主义与资方商业化诉求不相符，最终没有达成一致，因此并没有一家创投机构投进DeepSeek。</p>
-<p>然而，在DeepSeek春节假期爆火之后，DeepSeek开始被一级市场投资机构包围。有业内人士表示，<strong>仅春节期间，就有近百家投资机构试图接触DeepSeek，看后续有没有机会进行投资。</strong></p>
-<p>2月7日，曾有消息称阿里计划以100亿美元估值，投资10亿美元认购DeepSeek10%的股权，引发市场关注，不过随后这一消息被阿里否认。曾经一度对AGI持怀疑态度的知名投资人金沙江创投董事总经理朱啸虎在今年2月的一次访谈中也表示，如果DeepSeek开放融资，他肯定会投，价格已经不太重要了，关键是参与在这里面。不过，《财经》了解到，截至目前尚未有消息显示DeepSeek有开放融资的迹象。</p>
-<p>“以现在Deepseek的影响力和流量，如果开放融资，完全可以谈到非常好的条件，创始团队可以很低的资金成本及条件，保持对公司的控制力。同时DeepSeek未来进一步发展还是有一定的融资必要性，如果后续开放融资也并不会感到意外。”前述一级市场投资人对《财经》表示。</p>
-<p>二级市场上，DeepSeek成为投资者不可错过的投资主题。春节之后A股明显升温，除了《哪吒2》的票房不断走高带来影视行业的轮番大涨，DeepSeek更是如魔童闹海，点燃了A股各个AI细分赛道。</p>
-<p>多只与DeepSeek相关的上市公司股价出现了大幅上涨。Wind（万得）数据显示，截至2月13日，今年以来每日互动上涨281.38%，青云科技-U、优刻得-W、美格智能上涨幅度均超过100%。</p>
-<p>二级市场上的相关主题基金也实现不错收益。根据Wind数据，2月5日以来，已有32只基金收益超过20%，排名居前的基金主要聚集在信息技术、动漫游戏、软件服务等AI相关主题ETF中。今年以来收益超20%的基金更是多达143只，其中有不少是主动权益类基金。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_3e5b00f3ea1e481cb7a8c10480679200@000000_oswg159524oswg1080oswg986_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>从投资视角看，基金经理们主要关注哪些AI投资机会？</p>
-<p>首先是AI基础设施（算力）。中欧基金刘伟伟认为，从产业发展逻辑看，大模型的持续迭代，以及AI应用端爆发后新增的推理侧需求，是AI算力需求持续增长的重要支撑。近期海外云厂商公布的最新资本开支超出预期，显示推理侧需求推动AI基础设施持续增长，国内企业在光模块、PCB等细分领域占据全球主要份额，将深度受益。此外，国产算力芯片取得显著进展，从上游代工到下游芯片设计企业也将涌现出很多重要的投资机会。</p>
-<p>其次是AI软件应用。在海外，AI教育、AI广告、AI办公、AI安全领域等AI应用普遍迎来爆发期，并驱动上市公司取得良好业绩；在国内，AI搜索、AI办公、AI文生视频等垂直领域应用也正进入市场。</p>
-<p>汇丰晋信基金经理周宗舟认为，头部互联网大厂产业链原本有场景和壁垒的应用将诞生较多AI升级提价的机会。</p>
-<p>第三个方向是AI硬件。刘伟伟看好AI端侧硬件（AI手机、智能化可穿戴设备）、自动驾驶以及人形机器人三大应用载体的投资潜力。其中全球人形机器人龙头的供应链与汽车供应链有较高的重叠度，中国制造业深度参与人形机器人的研发、设计、量产，将充分享受该行业爆发的历史性机遇。</p>
-<p>鹏华基金权益投资三部总经理闫思倩也强调，人工智能的核心领域是机器人。华为等科技巨头的机器人业务以及DeepSeek等技术的赋能，将推动机器人行业快速发展。“2025年有望成为机器人的元年，从技术进步到商业应用，万亿空间刚刚起步。”</p>
-<p>“当前处于AI的时代机遇下，是全球共振，也是中国科技蓬勃发展的机遇。”闫思倩总结，“从云端到端侧眼镜手机，从B端到C端，工业到消费、到医疗、到智驾，从科技巨头投资到街边店接入DeepSeek，AI+百花齐放。”</p>
-<p><strong>行业应用方面，AI医疗被认为是除了汽车行业之外，目前全球资本愿意投入且终端成果会比较明显的一个行业。</strong>邵洁分析，AI医疗影像、AI辅助诊断等技术的快速发展，为医疗行业带来了新的变革。“目前医药行业已回调近四年，不少公司的现金价值和业务成长价值已经凸显，保守预测未来三年收入端会有较为可观的增长，利润端也会随着费率的改善有所提高。有点类似于2022年底的半导体行业。”</p>
-<p>在AI的叙事热潮中，部分资金且战且退。2月12日，华夏中证动漫游戏ETF、华夏国证半导体芯片ETF、华安创业板50ETF等呈现净流出。2月5日至今，净流出份额最多的是华夏恒生互联网科技业ETF、华夏上证科创板50ETF，流出份额超过60亿份。</p>
-<p>“目前AI应用仍然处于比较早期的试错阶段，很难左侧预判具体哪个方向会在何时出现爆款，短期在事件带动下应用和端侧呈现普涨，但考虑短期内应用的方向无法得到来自财报的持续验证，后续随着情绪退潮可能也会有相应股价回落，然后随着各公司业务进展的推进而呈现股价走势分化。”万家基金的基金经理耿嘉洲分析。</p>
-<p>“我们对持仓进行了相应调整，对算力特别是英伟达链条算力品种进行了一定减持，但我们此前配置就相对均衡，在应用和端侧方面也有一定布局，本次并不打算在情绪推动下追高，特别是短期市场由活跃资金定价，个股涨幅并不由基本面主导。更倾向于保留一部分现金，并在后续分化中选择长期看好、有较强技术能力和行业壁垒的标的进行配置。”上海一位人工智能主题基金的基金经理表示。</p>
-<h2><strong>券商基金竞相部署</strong></h2>
-<p>诞生于头部量化基金的DeepSeek，不仅点燃了资本市场的投资热情，也成为券商、基金等机构推动数字化转型的机遇。</p>
-<p>春节前后，越来越多的金融机构发布完成DeepSeek本地化部署的消息。</p>
-<p><strong>2月10日，国泰君安表示，春节前已完成DeepSeek R1模型的本地化部署。该模型的引入，将赋能和拓展“君弘灵犀”在智能问答、智投服务、行业研究、市场分析、合规风控等多个核心业务场景的应用。</strong></p>
-<p>同日，广发证券宣布其机构客户综合服务平台“广发智汇”正式上线DeepSeek客户服务模型。其在春节前已完成DeepSeek-V3和DeepSeek-R1的接入。</p>
-<p>中泰证券相关负责人介绍，DeepSeek R1推出后，中泰证券本地化部署DeepSeek R1多个模型，正在进行问答、文档、投顾、投研、代码生成等场景的测试研究，计划未来应用于财富管理、投行业务、投研分析、研发辅助等方面。</p>
-<p><strong>根据《财经》不完全统计，目前已有国泰君安、国金证券、兴业证券、光大证券、华福证券、中泰证券、国元证券、华安证券、广发证券等超过15家券商推进DeepSeek接入或完成本地化部署。</strong></p>
-<p>与此同时，基金公司也在积极行动。《财经》了解到，包括易方达、汇添富、招商基金、永赢基金等在内的十余家机构已通过私有化部署、模型优化与技术融合，推动行业迈向“AI+金融”的新时代。</p>
-<p>例如，目前，招商基金已完成系列开源模型的本地化部署，新增部署R1量化版本，相对于全参数版本降低部分算力成本，后续将持续优化模型与业务场景的深度融合，重点探索其在投研逻辑链推理、合规文本自动化审核、智能问答等领域的落地。</p>
-<p>相比之下，私募行业的接入动作较少。“对于我们中小私募来说，太贵了。”一位私募人士告诉《财经》。</p>
-<p>《财经》了解到，各家金融机构接入的版本或各有不同，因而成本也各异。“参数越高，对算力要求也越高，因此成本也更贵。”一位券商人士表示，“大券商算力比较充足，因此选用的版本相对较高，有的中小券商选择的是精简些的。”</p>
-<p>目前，DeepSeek基本上发挥辅助功能，更多功能仍在探索中。此外，值得注意的是，DeepSeek目前主要集中在赋能员工、提高员工工作效率等方面，并没有对个人投资者开放使用。</p>
-<p><strong>实际上，金融机构在使用DeepSeek时也面临着诸多挑战。“券商在合规性与准确性方面有严格要求，但DeepSeek是个语言大模型，有很多发散性的文字，对数据的准确性有很大挑战。尤其是在投顾环节，如果使用DeepSeek导致出现投资失误，谁承担责任？”一位券商人士表示。</strong></p>
-<p>尽管DeepSeek模型具有强大的性能，但是仍存在模型风险，如模型预测结果不准确或存在偏差。因此券商需要建立有效的模型风险管理体系，对输出结果进行验证和监控。“大模型的‘幻觉’问题是固有缺陷，目前没有特别完美的解决方案，券商在使用模型时，需要谨慎对待生成的信息。”中泰证券人士表示。</p>
-<p>据多家基金公司人士反馈，DeepSeek带来的难点主要包括噪音数据的精准提取、隐私泄露风险、模型与业务场景适配性、算力资源与实时性冲突、合规与可解释性要求等。</p>
-<p>此外，监管对AI决策透明度的严苛要求与模型“黑箱”特性矛盾，DeepSeek的链式推理（CoT）能力虽部分缓解此问题，但复杂场景仍需人工介入验证。</p>
-<p>不过，随着DeepSeek的逐渐完善，其在应用场景的巨大影响也会逐步显现。广发证券认为，DeepSeek大模型的技术革新给整体AI行业带来的影响是积极且深远的。DeepSeek将赋能证券、基金、银行等金融行业的业务发展，推动整个金融行业的数字化转型、智能升级，助力行业的AI变革。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzkwNzY5NDI0Mw==&amp;mid=2247523463&amp;idx=1&amp;sn=2c88be960e556f3f3d4967e4070929dd&amp;chksm=c10eceffd07e72f0ae9614a020d69d6f46f99a9753a6e73a02cd1fbd3c5d7d5464a574b13459&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“读数一帜”（ID：dushuyizhi007）</a>，作者：张欣培 黄慧玲 康国亮，编辑：陆玲，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171664932356480</guid><pubDate>Tue, 18 Feb 2025 16:09:00 +0800</pubDate></item><item><title>DeepSeek开源后，酒店业的迎来了“尚小美”</title><link>https://36kr.com/p/3171663533637123</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>“场景越垂直的AI，越适合做人设”？</p>
-</blockquote>
-<p>2025年2月14日，尚美数智酒店集团宣布接入DeepSeek大模型，其虚拟数字人“尚小美”一夜之间成为行业焦点。据了解，此次将率先接入酒店行业的首个虚拟数字人“尚小美”，以“尚小美”身份与用户进行交互，全方位提升酒店数智化软硬件水平。与此同时，支付宝的“支小宝”在金融领域默默处理着千万级用户的理财咨询，百度的“文小言”则化身写作助手，在学生和职场人的文档里游刃有余。</p>
-<p>这并非AI第一次拥有“人名”，但却是第一次如此密集地以“人设”身份侵入垂直领域。人们不禁要问：当技术足够强大，为什么AI还需要一个具象的“人格”？</p>
-<h2><strong>从工具到“伙伴”</strong></h2>
-<p>如果回顾AI的进化史，从ChatGPT的对话框到“尚小美”的虚拟形象，本质上是一场从“功能满足”到“情感连接”的迁移。早期的通用大模型如同瑞士军刀，功能齐全却冰冷抽象，用户与之对话像是在操作一台精密仪器。而如今的“尚小美”们，则试图用名字、形象甚至性格，将技术封装成“可对话的对象”。</p>
-<p>这种转变的背后，是用户留存率的残酷现实。据某社交平台数据显示，国内主流AI应用的30天留存率不足1%。当技术效果趋同，谁能抢占用户心智，谁就能在流量池中多分一杯羹。尚美数智选择“尚小美”而非“酒店AI系统”，正是看中了人格化IP的亲和力——它让冷冰冰的算法变成了一个“随时待命的管家”，甚至可以通过不断交互形成情感依赖。</p>
-<p>这种策略在C端早已被验证。支付宝的“支小宝”之所以淡化“大模型”标签，转而强调“生活助手”身份，正是为了融入支付宝已有的生态——用户不会关心它背后是百灵大模型还是DeepSeek，只在乎能否用一句话完成水电费缴纳。当AI被赋予“人设”，它便从技术产品变成了服务生态的延伸。</p>
-<h2><strong>“场景越垂直，人设越重要”</strong></h2>
-<p>通用大模型的困境在于“全能即无能”。OpenAI烧钱数十亿美元训练出的GPT-4o，面对酒店客户投诉时，可能还不如一个深耕行业的“尚小美”懂得如何安抚情绪。垂直领域的AI人设，本质上是对场景的极致适配：名字、语气、知识库乃至交互逻辑，都必须与行业特性严丝合缝。</p>
-<p>酒店行业是最典型的试验场。一个优秀的酒店AI需要具备三重人格：专业度（熟悉客房管理流程）、共情力（理解旅客的疲惫或兴奋）、边界感（不过度打扰）。尚美数智通过对“尚小美”的人设，是为了模拟真人服务的节奏感。与之对比，金融领域的“支小宝”则强调简洁高效，甚至会在用户犹豫时主动提示风险，这种“冷静顾问”的形象恰恰符合人们对理财工具的期待。</p>
-<p>更深层的逻辑在于，垂直人设降低了用户的学习成本。如果一位旅客对“尚小美”说出“房间太冷”，系统会自动联动空调调节，而非机械地反问“您需要什么服务？”——这种无缝衔接的体验，依赖的是对酒店场景的深度训练。正如DeepSeek-R1模型的设计逻辑：通过混合专家模型（MoE），将任务拆分给专用子模块处理，垂直AI的人设本质上是一个“行业专家模块”的外显。</p>
-<h2><strong>DeepSeek开源是催化剂</strong></h2>
-<p>尚美数智的选择并非偶然。再加上其早在2022年就发布了酒店业首个虚拟数字人，专注酒店数智化和智慧酒店的创新型应用。DeepSeek的爆红，大大加速了垂直领域应用的可能性。揭示了AI人设爆发的技术前提：低成本、开源化、中文原生。相较于OpenAI动辄上亿美元的训练成本，DeepSeek-R1仅用557万美元便实现了可比性能，这让中小企业在定制AI人设时不必望而却步。更关键的是，其完全开源的策略允许企业根据自身需求调整模型——尚美数智或许不需要把重心放在大模型的底层架构，但可以通过接口让“尚小美”熟练掌握客房服务的500种话术。</p>
-<p>中文市场的特殊性也加速了这一进程。DeepSeek以汉语为主的训练数据，使其对“帮我找一家适合情侣约会的餐厅”这类模糊需求的解析准确度远超国际竞品。这种语言优势在塑造人设时尤为关键：当“文小言”写出符合中学生口吻的作文，或是“尚小美”用带方言口音的普通话接待客人时，用户的代入感会指数级提升。</p>
-<p>开源生态的另一个副产品是“人设工业化”。在DeepSeek的开发者社区，已有团队推出“人设生成器”，输入行业、目标用户、服务场景等参数，即可自动生成配套的AI名称、对话风格甚至虚拟形象。这种模块化生产，让AI人设从技术奇迹变成了可批量复制的产品。</p>
-<h2><strong>从“模应一体”到“寄生式创新”</strong></h2>
-<p>如果深入观察，AI人设的兴起反映了一场商业逻辑的嬗变。过去两年，大模型厂商执着于“模应一体”——如同OpenAI与ChatGPT的关系，从模型到应用全链条掌控。但这种模式在国内遭遇水土不服：百度的“文心一言”改名“文小言”，蚂蚁的“支小宝”寄生支付宝生态，均暴露出通用型AI应用的乏力。</p>
-<p>垂直人设的本质是“寄生式创新”。它不追求取代微信或支付宝，而是嵌入现有生态，成为超级App中的一个功能模块。支付宝需要“支小宝”来激活沉默用户，尚美数智需要“尚小美”来提升客单价，而DeepSeek则通过赋能这些场景，将自己变成“AI时代的自来水管道”——无处不在，却不必直接面对消费者。</p>
-<p>这种模式的优势在于避开了烧钱换增长的陷阱。训练一个通用大模型需要持续投入天量资金，而定制一个“尚小美”的成本可能只需百万级——对于酒店集团，这笔钱甚至低于一场营销活动的预算。当DeepSeek通过开源降低技术门槛，AI人设便从奢侈品变成了快消品。</p>
-<h2><strong>市野TALK：AI拥有“人设”会成为新常态？</strong></h2>
-<p>尚小美的上线引发了两种极端情绪：酒店从业者担心自己被取代，而用户则惊喜于“服务居然可以如此贴心”。这种撕裂感揭示了一个本质问题——AI人设越是逼真，人类越容易陷入“恐怖谷效应”。</p>
-<p>更深层的挑战或许在于身份认同。当“文小言”写出比90%学生更优秀的作文，当“支小宝”的投资建议比理财经理更理性，人类在专业领域的权威性正在被解构。而那些选择为AI赋予人设的企业，或许早已参透一个真相：在技术平权的时代，唯一能让人安心的，恰恰是让AI看起来“像人一样不完美”。</p>
-<p>尚小美们不会停下脚步。据传某医院正在测试“护士小暖”，而律所即将上线“律师老张”。未来的某一天，当人们回忆起2025年，或许会将其称为“AI人格觉醒元年”——只不过觉醒的并非AI，而是人类对技术的驯化方式。</p>
-<p>当AI开始给自己取名字，当AI的“人设”成为新常态，你会喜欢更有亲切感的AI智能体？</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/a17r8SPdC3_V0HutWSmj6w?token=523775401&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“市野TALK”</a>，作者：小野，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171663533637123</guid><pubDate>Tue, 18 Feb 2025 16:09:00 +0800</pubDate></item><item><title>氪星晚报 ｜百度搜索全量上线DeepSeek满血版；特斯拉焕新版Model Y在上海超级工厂正式量产；马斯克正式发布AI模型Grok 3</title><link>https://36kr.com/p/3171750153929094</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<h2>大公司：</h2>
-<p><strong>奇瑞汽车申请磁悬浮商标</strong><br/>36氪获悉，天眼查知识产权信息显示，近日，奇瑞汽车股份有限公司申请注册“磁悬浮”“奇瑞磁悬浮”商标，国际分类均为运输工具，当前商标状态均为等待实质审查。公开信息显示，奇瑞瑞虎9的CDC磁悬浮悬架系统是一种利用电磁力调节悬架刚度和阻尼的技术。它能够在极短时间内根据路况和驾驶模式进行智能调节，提高行驶的平稳性和稳定性。</p>
-<p><strong>耀百岁A﻿p﻿p利用AI构建动态健康分析系统，生成个性化养生方案</strong><br/>36氪获悉，耀百岁A﻿p﻿p宣布以AI驱动中医数字化，构建动态健康分析系统（自我问诊查健康等）和普通人易懂的中医辨证知识结构数据显示，生成个性化养生方案。据介绍，依托物联网技术，平台实现了远程中医干预和调理产品供应链等支持，用户足不出户即可享受辨证和调养服务。</p>
-<p><strong>搜狐2024年营收5.98亿美元 Q4总收入1.35亿美元</strong></p>
-<p>2月18日，搜狐公布2024年第四季度及2024年度财务报告。财报显示，2024年第四季度，搜狐总收入1.35亿美元。其中，品牌广告收入1900万美元，在线游戏收入1.10亿美元。2024年全年，搜狐总收入5.98亿美元，较2023年持平。其中，品牌广告收入7300万美元，在线游戏收入5.02亿美元。搜狐创始人、董事局主席兼首席执行官张朝阳指出，2024年第四季度，公司品牌广告收入达到此前预期高线，在线游戏收入及集团净亏损均大幅优于预期，在线游戏业务同样表现出色。</p>
-<p><strong>百度搜索全量上线DeepSeek满血版</strong></p>
-<p>36氪获悉，目前百度搜索已全量上线DeepSeek满血版。用户可在百度App输入任意搜索词，完成一轮搜索后，在搜索结果页点击“AI+”进入AI搜索，再点击下方去试试“满血版”即可与DeepSeek对话。据了解，百度搜索和文心智能体平台于2月16日宣布将全面接入DeepSeek和文心大模型最新的深度搜索功能。</p>
-<p><strong>将被海尔集团收购？汽车之家回应：不了解此信息</strong></p>
-<p>有报道称，海尔集团将收购汽车之家，目前双方已确认谈拢条件，预计近期正式官宣。海尔集团回应媒体称，“目前还没有得到消息”。汽车之家工作人员回应记者称，不了解此信息。（21财经）</p>
-<p><strong>周大生：1月新增44家自营门店</strong></p>
-<p>36氪获悉，周大生公告，公司在2025年1月份新增44家自营门店。这些新门店分布在华北、华南、华东等多个地区，经营形式包括专卖店和联营专柜。</p>
-<p><strong>阿里云：大数据开发治理平台DataWorks接入DeepSeek两款模型</strong></p>
-<p>36氪获悉，据阿里云官微，其一站式智能大数据开发治理平台DataWorks正式接入DeepSeek-R1（671B）模型与DeepSeek-R1-Distill-Qwen-32B模型。</p>
-<h2>投融资：</h2>
-<p><strong>“海纳AI”再获5000万融资，德同资本领投</strong></p>
-<p>36氪获悉，近日，“海纳AI”宣布再获5000万元融资，本轮融资由德同资本领投、求是资本跟投。融资资金将用于AI技术研发、市场拓展、生态建设等方面。据介绍，海纳AI目前已为近百家500强集团面试超1200万人，海纳AI面试官2024年全年面试量达800多万人次，相比前年增长超3倍。</p>
-<h2>新产品：</h2>
-<p><strong>特斯拉焕新版Model Y在上海超级工厂正式量产</strong></p>
-<p>36氪获悉，特斯拉宣布，焕新版Model Y在上海超级工厂正式量产。稍早时候，焕新版Model Y车型交付时间更新，该车将于2月下旬开始交付。据了解，首发版车型将限时销售至2月28日，后轮驱动版售价26.35万元，长续航全轮驱动版售价30.35万元。</p>
-<p><strong>马斯克正式发布AI模型Grok 3</strong></p>
-<p>36氪获悉，马斯克旗下人工智能初创公司xAI正式发布新一代聊天机器人Grok 3。此前马斯克称其为“地球上最聪明的人工智能”。</p>
-<h2>今日观点：</h2>
-<p><strong>机构：预计今年2月电视面板价格全线上涨</strong></p>
-<p>36氪获悉，CINNO Research报告显示，春节期间，国内补贴政策持续释放效能，市场需求在短期内维持旺盛，推动大尺寸电视面板价格在今年1月持续上涨，进入2月，美对华上调10%关税政策落地，对墨西哥等地增加关税的不确定性风险增加，品牌方或加大采购需求，面板厂仅小幅上调稼动率以应对，预计今年2月面板价格全线上涨。</p>
-<p><strong>机构：预计小米YU7首发依然能取得不俗销量，强力挑战销冠Model Y</strong></p>
-<p>工信部公布《减免车辆购置税的新能源汽车车型目录》（第十四批），小米YU7也在其中。数据显示，YU7将提供两种不同电池容量版，分别为96.3度和101.7度，续航里程最远可达820公里。 机构认为，展望2025年，小米YU7将强力挑战销冠Model Y。优秀的营销能力叠加过硬的产品力，预计首发SUV依然能取得不俗销量，预计小米汽车2025年销量为30万辆，同比增长119%。 （证券时报）</p>
-<h2>其他值得关注的新闻：</h2>
-<p><strong>香港调升最低工资标准，有望5月1日实施</strong></p>
-<p>今日，香港特区行政长官会同行政会议已接纳最低工资委员会的建议，将香港法定最低工资水平由现行每小时40港元调升至42.1港元，增幅为2.1港元或5.25%。特区政府将于周五（21日）在宪报刊登《2025年最低工资条例（修订附表3）公告》，并于2月26日提交立法会。如获立法会通过，经修订的最低工资水平将于今年5月1日实施。（大湾区之声）</p>
-<p><strong>《哪吒2》22日起在港澳地区上映</strong></p>
-<p>在国家电影局指导下，经中央政府驻港联络办和香港特区政府相关部门的大力协调，《哪吒之魔童闹海》将于今日在香港举行首映仪式。经中央政府驻澳联络办和澳门特区政府相关部门的大力协调，《哪吒之魔童闹海》将于2月19日在澳门举行首映仪式。2月22日起，该影片将在港澳地区全面上映。（央视新闻）</p>
-<p><strong>中国科学家发现常压下镍氧化物具高温超导电性</strong></p>
-<p>由国家最高科学技术奖获得者薛其坤院士领衔的南方科技大学、粤港澳大湾区量子科学中心与清华大学联合研究团队于北京时间2月18日在国际学术期刊《自然》线上发表研究成果，发现常压下镍氧化物的高温超导电性，为解决高温超导机理的科学难题提供了新突破口。该研究成果在常压环境下实现了镍氧化物材料的高温超导电性，这一发现使镍基材料成为继铜基、铁基之后，第三类在常压下突破40K“麦克米兰极限”的高温超导材料体系。（新华社）</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171750153929094</guid><pubDate>Tue, 18 Feb 2025 16:27:00 +0800</pubDate></item></channel></rss>
+<p><strong>第二条路线，是打出差异化。</strong></p>
+<p>事实上不论是过去的传统饰品风格还是现在年轻化，几个金饰品牌论从产品设计、定价还是品牌形象的层面看都没有太多差别。为了突破同质化竞争，不少金饰品牌们的思路是在相似的高端定位中更高端，凸显自身的奢侈品质感。</p>
+<p><strong>其中最有效的捷径之一，就是绑定家喻户晓的顶级奢侈品牌，以此来打出差异化。</strong></p>
+<p>“瑜伽服中的爱马仕”Lululemon、“冲锋衣中的爱马仕”始祖鸟等等其实都是如此。金饰品牌中，老铺黄金目前看来是最成功的一个。自从老铺黄金门店开始出现排队热潮，品牌就有了“黄金届的爱马仕”、“黄金界的新茅台”等标签。和国内外公认的顶奢品牌强绑定，就使其在一众金饰品牌中显得更为特别、突出。</p>
+<p>当然差异化也不只是在名头上。老铺黄金特别强调“中国宫廷古法制金”工艺，表达自家产品在制作工艺上的难度和独特性，如花丝镶嵌技艺可确保较软材质黄金的无损制作，在雕刻上做得更加精细；传统的烧蓝工艺可充分保留黄金表面的丰富色泽，提升成品质感等等。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_655890fa5d1e43a4a544b4b55d3d417a@000000_oswg55134oswg1080oswg522_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">黄金品牌都在努力宣传古法工艺，图源：老铺黄金官网</p>
+<p><strong>还有一有效途径，是对让消费者直接接触、认识和体验到品牌及产品差异的“门店”做文章。</strong></p>
+<p>此前国内黄金品牌大多从步行街街边店起步，开店策略是跟着人流和租金走，门店装修简单且趋同。而老铺黄金最早对门店进行高端化包装，从成立起品牌门店选址就始终瞄准万象系、太古系、SKP、IFC等高端购物中心，比如2017年和2019年在北京SKP连开两家门店。在门店装修上，老铺黄金也没有采用传统的红、黄、金主色调，而是采用以黑金为主的简约设计，营造低调奢华形象。</p>
+<p>周大福、周生生、老凤祥等也陆续加入了这个行列。周大福在去年宣布，计划于未来五年内翻新旗下近8000家门店，位于香港中环皇后大道和上海南京东路的两家旗舰店预计将在今年率先揭幕。据悉，周大福上海旗舰店占地面积超过8600平方英尺，上下共五层，将成为其规模最大的门店之一。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_8f4d5d23f463483a9c9bfe5559ac107a@000000_oswg78841oswg1080oswg634_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">走奢华装修风格的老铺黄金深圳万象天地门店，图源：老铺黄金官方微博</p>
+<p><strong>第三条路线，是在走高端奢侈风格的同时，也通过丰富产品去兼顾“性价比”。</strong></p>
+<p>金价一路狂飙，大件的金镯子、金项链价格不菲，让不少消费者望而却步。但大家的兴趣不减，转而将目光投向轻便、小克重的黄金产品，这些产品既能满足拥有黄金饰品的愿望，又不会带来太大的经济压力。</p>
+<p>黄金手机贴、福袋、黄金豆等高性价比又有好彩头的产品，也正是因此而走红。例如各大品牌推出的黄金贴纸，重量基本在0.01克-0.2克之间，售价最低不足百元，高的也不过300-500元左右，消费者能轻松购入。周大生的“公主请发财”、“泼天的富贵”系列黄金贴纸，在天猫、抖音等电商平台已合计卖出超2万单。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_e124c63d1a5f4bba98302f2fdcb454aa@000000_oswg116395oswg889oswg627_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">预算有限的年轻人捧红黄金手机贴、小金豆等小克重产品，图源：小红书</p>
+<p>值得一提的是，这些小克重、高性价比的金饰，也发挥着拉新引流的重要作用。</p>
+<p>据蝉妈妈统计，自2022年以来抖音黄金珠宝饰品GMV呈高速增长趋势，中国黄金、周大福、老凤祥、周大生等品牌也都集体发力店播。在直播过程中，价格亲民的小克重产品格外引人注目，成为吸引消费者的关键所在。如周大福推出的均价 700 元左右的小金豆，周六福均价 400 元上下的黄金转运珠，还有周生生价格低至百元以下的串珠绳等配饰，均成为销量排行榜上的佼佼者。</p>
+<p>当低价爆款成功引流后，品牌就会顺势推出价格更高的主力产品，像均价 3000 元以上的小方糖黄金项链，以及价格在 1500 - 2000 元区间的足金戒指等等。通过这种循序渐进的产品推广策略，品牌不仅能够满足不同消费层次的需求，还能有效提升整体销售业绩。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_982517d3217c413d89354f1b963e3bbc@000000_oswg137357oswg955oswg636_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">黄金品牌深谙爆品引流、主力产品赚利润的经营之道，图源：天猫</p>
+<p>黄金市场向来存在 “买涨不买跌” 的特性。如金价继续攀升，消费者购买黄金的热情大概率还是会持续高涨。在这样的大环境下，那些能够敏锐捕捉消费者心态与喜好变化，紧跟新兴消费潮流，并及时在产品研发与营销策略上做出调整优化的品牌，无疑将更有机会抢占市场先机，收获丰厚的市场回报 。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzUzOTc4NDQxMQ==&amp;mid=2247547314&amp;idx=1&amp;sn=5fec76a3440d0261a831814aebd4912c&amp;chksm=fb478791e4ae0b7c58612ed46a8677df5f4824164bafc44c9429781e5985e239442ff80ce9de&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“深响”（ID：deep-echo）</a>，作者：深响，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171811746513282</guid><pubDate>Tue, 18 Feb 2025 16:56:00 +0800</pubDate></item><item><title>马云想干啥？</title><link>https://36kr.com/p/3171813810291593</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2019年9月10日，杭州奥体中心。</p>
+<p>在《追梦赤子心》的歌声中，55岁的马云卸任阿里巴巴董事局主席，当舞台灯光渐熄，许多员工已在台下抹泪。</p>
+<h2>01</h2>
+<p>2018年，马云以一封公开信，开启了退休倒计时。</p>
+<p>在远东经济论坛上，当被俄罗斯总统普京问到：“你这么年轻为何退休”时，马云的回答是：</p>
+<p><strong>“我创业19年，做了一些事，但还有更多热爱的事要做，比如教育和公益。”</strong></p>
+<p>卸任阿里董事局主席不久，马云的微博名字，悄悄变成了“乡村教师代言人—马云”。</p>
+<p>关注乡村教育，是他长久以来的夙愿。</p>
+<p>2003年的一个冬日清晨，在浙江临安出差的马云，匆忙爬上了一辆长途客车，冰冷昏暗中，车灯照见了一个小女孩，她穿着棉衣、背着书包饭盒，在寒风中前行。</p>
+<p>汽车转瞬而过，但小女孩寒冬上学的一幕，却刻进了马云心头。多年后，马云说，这是他关切乡村教育的一个起点。</p>
+<p><strong>乡村教育的关键，是300多万乡村教师。</strong></p>
+<p>于是，2015年，马云启动了“乡村教师计划”：每年评选100位乡村教师，给予每人10万元资助和3年专业发展支持。</p>
+<p>他说，这些钱微不足道，但他“下半辈子都希望作为乡村教师的代言人，唤起社会对乡村教师的重视。”</p>
+<p>2016年1月17日，首届“马云乡村教师奖”举办颁奖典礼，他力排众议，将三亚定为永久会址。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_3094dfe7d1d842dcb59c46ce047392f0@000000_oswg88982oswg800oswg533_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这个决定招来了反对之声：乡村教育的公益活动，为什么要选在地远价高的三亚？这些钱，用在教育上不是更好吗？</p>
+<p>马云的回答是：不好！</p>
+<p>因为很多乡村教师，一生没有走出过大山、没坐过飞机、没住过五星级酒店，甚至没见过大海，没有体验，如何启发孩子的想象力？</p>
+<p><strong>重视教师，重建师道尊严，就体现在这些细节中。</strong></p>
+<p>一个优秀的乡村教师，一生可以影响500个学生；一个乡村学校的校长，可能会影响100个老师。</p>
+<p>2017年，马云又启动了“乡村校长计划”：每年评选20位优秀乡村校长，为每位校长提供50万元经费和国际交流机会。</p>
+<p>2018年，15位乡村校长远赴美国，与美国教育家探讨学校设计、教学艺术、考察乡村教育，甚至还在马云的安排下，参观了联合国安理会会场。</p>
+<p>对此，马云极其得意：“校长们回去，至少吹牛三年。”</p>
+<p>这一过程中，马云还进一步发现乡村教育缺少新鲜血液，于是在2018年，“乡村师范生计划”启动，以10年投3亿元，鼓励青年教师下乡。</p>
+<p>在发现许多乡村小学路途远、缺宿舍、没校车，马云还请来了80多位企业家朋友，极力推销自己的乡村寄宿学校公益计划。</p>
+<p>于是，教育，成了马云退休生活的一条主线。</p>
+<p>每一年的腊八节，马云都会飞往三亚，参加“马云乡村教师奖”的颁奖典礼，与教师们共赴“腊八之约”。</p>
+<p>2025年1月7日，又是一年腊八节，马云再次现身“腊八之约”。在活动当日，新一届100位乡村教师计划的入选名单揭晓，马云公益基金会资助的乡村教师数量也增至1001位。在这个特殊的节点，马云继续着他的鼓励：</p>
+<p><strong>“入选的1001位老师，代表了千千万万的乡村老师，希望通过这1001位老师的经历，让所有的乡村教师被尊重，让乡村教师变成一个许多人希望去从事的职业。”</strong></p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_f17abe54b0ea4da08802502381a08858@000000_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>目前，马云公益基金会已累计支出教育资金17.8亿元，实地走访1500多个乡村，覆盖全国26个省份，成为我国乡村教育的重要支持力量。</p>
+<h2>02</h2>
+<p>2020年1月22日，武汉疫情的最紧要关头，马云发布了这样一条微博：</p>
+<p>“总有这样一批人，他们敢于担当责任！总有这样一批人，他们的勇气让大家感受到世界的希望与美好！向一线医护人员致敬，武汉加油！”</p>
+<p>此后3个来月，马云一共发布了22条微博，全部和疫情有关，而2019年全年，他才发了5条微博。</p>
+<p>那期间，马云所做的，远远不只是发声。</p>
+<p>1月29日，马云公益基金会宣布，捐赠1亿元，用于支持新型冠状病毒的疫苗研发。与此同时，一场争分夺秒的战斗悄然打响。</p>
+<p>那一年的除夕前后，阿里巴巴的一位高管，几次接到马云的电话，有时甚至是午夜1点，而电话的内容总是<strong>“我又找到了资源”</strong>。</p>
+<p>在各种防疫物资紧缺的关口，马云“全球无时差”地动用私人关系与资源，为国内协调防疫物资与援助。</p>
+<p>整个阿里巴巴，也都被调动起来。多位项目负责人接到的指令是——必须以最快速度对接资源、响应需求，<strong>“24小时内必须见到结果”</strong>。</p>
+<p>2月1日，运载了100万份口罩的俄航SU208次班机抵达中国，由菜鸟物流车转运直抵疫区。之后，由马云亲自联系的物资，从俄罗斯、韩国、日本等多个国家纷至沓来。</p>
+<p>一位阿里员工曾经回忆过那段紧张的岁月——如同打仗。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_8601d9d25b124e989743f2e301d0ea90@000000_oswg97992oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2月初，他们从南非筹集到一批医疗物资，但需要协调十二个过境国家的领空航权。马云因此每隔几个小时就要过问，截止2月底，马云与阿里基金会，已将价值6.88亿元的海外防疫物资，无偿运往武汉以及湖北各地医院。</p>
+<p>在物资与捐助之外，还有同样宝贵的情感支援。</p>
+<p>2月27日，武汉的外卖小哥殷志斌骑车奔往武昌区中山路、武珞路，给江苏、河北援鄂医疗队送去了下午茶、必胜客快餐各172份。3天内，38021份下午茶，被送到了140多个医疗队驻地。每份慰问，都附赠了一张心意卡：</p>
+<p><strong>医之大者，亦士亦侠。落款“马云敬上”。</strong></p>
+<p>一位年轻护士回忆说，所有的辛苦都在一杯奶茶里治愈了。</p>
+<h2>03</h2>
+<p>自2021年开始，马云的退休生活中，多出了一条“隐秘”的轨迹。</p>
+<p>这一年的9月，有网友晒出照片，马云来到了浙江嘉兴平湖，参观了好几个农业大棚。</p>
+<p>10月，他和云锋基金主席虞锋、融创中国创始人孙宏斌一起，在山东济南、德州参观调研了当地的智慧农业项目。</p>
+<p>几天后，马云出现在西班牙，打了一场高尔夫球后，他去考察了当地的农业与农产品种植。大约一周后，他又出现在荷兰的一家农业研究机构，专门考察了当地温室大棚的技术内容。</p>
+<p>进入2022年，马云再赴荷兰瓦赫宁根大学，根据校方信息显示，他深入了解了可持续畜牧业与渔业，特别是戈壁沙漠地区的农业，以及粮食生产的可持续性。</p>
+<p>下半年里，马云又连续考察了日本的水产养殖业，包括参观位于日本和歌山县的近畿大学水产养殖所，日本海洋大学。</p>
+<p>2023年年初，马云飞往泰国，与正大国际集团董事长谢国民会晤，作为泰国最大的商业集团，正大依靠农业起家，是全球最大的农业集团，也是中国农业用地最大的外国承租商。</p>
+<p>5月，马云成为了东京大学东京学院的特聘客座教授，研究方向为可持续农业与粮食生产。</p>
+<p>与教育，公益一样，农业也是马云长期关注、极富热情的领域。</p>
+<p>早在2019年的阿里巴巴技术脱贫大会上，马云就表达过自己对农业的关注与见解：</p>
+<p><strong>“过去，农民们都是靠老天爷赏饭吃，雨水太多或是有地区干旱，都会给收成带来影响。如果靠数据吃饭，由大数据来判断，那么中国农业在未来会有更大的机会。”</strong></p>
+<p>当年的达沃斯论坛上，被问到“如果现在创业会做什么公司”时，马云直接回答道：“我会选择农业。”</p>
+<p>2023年8月，一米八食品科技有限公司正式成立。持有一米八10%的第二大股东为杭州大井头贰拾贰号文化艺术有限公司，马云正是这家公司99.9%的控股股东。</p>
+<p>在“一米八”的对外介绍中，公司之所以起这样一个有点怪的名字，完全源于马云本人参与农业的初心——天底下所有的妈妈，都希望自己的孩子能够健康成长，身高超过一米八。</p>
+<p>随着一米八品牌的正式亮相，两款新品也随之发布：舟山嵊泗列岛贻贝和温州南麂岛大黄鱼。而源头追溯、保鲜、数字养殖等技术的应用，成为了这两款新品有别于同类产品的最大卖点。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_20ebe918ebd54cf89e6e5ce9a7e7fd4b@000000_oswg1053572oswg1065oswg921_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>全世界参观考察后，马云说：<strong>“农业做得好的地方，不一定是资源很好的地方，而是往往有独特思考的地方、有想象力的人。”</strong></p>
+<p>做出独特、想象力，或许也是他对自己做农业的要求和期待。</p>
+<h2>04</h2>
+<p>从乡村教师到抗疫公益，从游历各国到投资农业，马云似乎离阿里越来越远。</p>
+<p>但他又仿佛从未离开，只是换了一种方式，来继续关注、指引与他早已密不可分的阿里巴巴。</p>
+<p>2021年3月底，一位阿里员工在阿里内网发布了一条《火车见闻有感》的帖子。</p>
+<p>这位员工在火车上，看到了一位同事长时间高声打电话，影响到周围乘客，并且在电话中极力吐槽公司的各种弊病。最终，这位发帖的员工忍耐不住，上前制止了同事的喧哗。</p>
+<p>在这个帖子下面，马云站出来做了回复：</p>
+<p>“我们更感动的是，那些看到问题并在寻找和发现公司希望的地方努力的同事，靠自己的努力去完善公司，哪怕点滴小事，即便是在火车上的一个对同事的提醒，都是真正的了不起的大事。”</p>
+<p>一则小小的内网帖子，马云尚且留意，更何况整个阿里巴巴的发展进程。</p>
+<p>马云退休的五年多时间，也是电商行业格局变化最大的五年。竞争对手的崛起，围绕市值、用户、市场策略的争夺战，业务板块高管的上课与下课，在具体业务上出现的增长放缓甚至暂时劣势，都让外界产生了“阿里下坡”的疑虑。</p>
+<p>甚至，连一贯低调温和，讲话严谨的蔡崇信，都公开坦诚：</p>
+<p>“我们知道阿里落后了，因为我们忘记了我们真正的客户是谁。我们的客户是使用我们的App进行购物的人，而我们没有给他们最好的体验。”</p>
+<p>这一切，马云并没有袖手旁观。</p>
+<p>2023年5月开始的近一年里，也是最关键与焦灼的时刻，一直尽量淡出公众视野的马云，用三次内部表态的方式，来深度参与阿里的治理，并且一次比一次公开，身份也一次比一次更重。</p>
+<p>2023年5月，在只有少数几位高管参与的沟通会上，马云为淘天集团勾勒了未来：<strong>回归淘宝、回归用户、回归互联网。</strong></p>
+<p>半年之后，拼多多市值一度超越阿里，马云又在内网回帖“阿里会变，阿里会改”，并用一百多字强调了必须付出任何代价和牺牲来推进改革。</p>
+<p>这一次，他落款“合伙人马云”。</p>
+<p>在这之后，阿里宣布菜鸟暂缓上市，阿里云放弃了完全分拆。</p>
+<p>2024年4月10日，在阿里重组一周年之际，马云干脆发布了一封千余字的全员信，提到“要承认纠正昨天的问题，更要面向未来改革”，在这封信的最后，马云署上了他在创业时代的阿里花名：风清扬。</p>
+<p>在这封信全网传播的一个月后，阿里三个业务的CEO走马换将。</p>
+<p>整个过程，马云都高度重视与强调AI，而阿里在AI也是动作频频。尤其是阿里云的发展，以及对新兴AI公司的投资。</p>
+<p>2024年12月8日，在蚂蚁集团成立20周年的活动上，马云公开现身演讲，那是他时隔4年后，第一次公开演讲。重点强调的，还是AI。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250218/v2_b4cc5f4f1f1044fd893cf004039e24e9@000000_oswg56965oswg1000oswg684_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>“从今天来看，未来20年的AI时代能带来的改变，会超出所有人的想象，因为AI会是一个更加伟大的时代。”</strong></p>
+<p>两个月后的2月10日，阿里巴巴旗下的1688宣布，所有面向商家的AI产品全部免费，并已接入DeepSeek，将会在2月陆续向商家开放。</p>
+<p>而就在1688宣布消息的4天前，全球顶尖人工智能科学家许主洪教授正式加入阿里巴巴，负责AI to C业务的多模态基础模型及Agents相关基础研究与应用解决方案。</p>
+<p><strong>很多人因此相信，阿里巴巴已真正走出过去，走向未来。</strong></p>
+<p>2025年2月11日，穿着印有集团标识的黑马甲，马云出现在了阿里巴巴西溪园区。里三层外三层的员工，用手机记录下了面色红润、嘴角带笑的他。</p>
+<p>当日，港股开盘后阿里股价冲到108.6港元，两天后，阿里巴巴与苹果的合作达成，阿里将为苹果的用户创建一个可分析和修改苹果人工智能模型的设备系统。</p>
+<p>2月17日，备受瞩目的顶级会议，马云再次现身。诸多业内人士都在感叹，阿里真的回来了。</p>
+<p>对于这家年成交额超8万亿元的公司而言，无论身处阿里的办公室，还是三尺讲台、深海鱼塘，马云都仍然是那个举足轻重的人。</p>
+<p>五年里，西溪园区的春来春去花谢花开，而2025春天，那里的风景或许会格外美丽。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MjM5NDA0NDkzOQ==&amp;mid=2650779678&amp;idx=1&amp;sn=26b6c73e24beaf6f434048d36f3a37b3&amp;chksm=bfb37d4d234b4b9dcb246bd16950c9d8c3007a91d9d62b2ddcfbad420bf8bba65f191043e15d&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“华商韬略”（ID：hstl8888）</a>，作者：华商韬略，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171813810291593</guid><pubDate>Tue, 18 Feb 2025 16:56:00 +0800</pubDate></item><item><title>流量超34G欠费8700元，中国联通为何不提醒也不停机？</title><link>https://36kr.com/p/3171789599784454</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>天天消费讯，据经视直播消息，2月14日，山东省潍坊市，有网友发帖称，自己2024年11月当月手机话费达到8700多元，加上违约金，截至目前欠费已经逾万元。</p>
+<p>该网友称，她今年刚上大二，这个手机号自己已使用近十年，由于这张卡没有流量，平时她会用另一张卡来上网。“前段时间换了台双卡双待新手机，可能是设置错了，没想到才用了几天，这张卡的流量已经超过34G，资费达8700多元，期间也没有收到欠费短信，折合下来，每1G流量费高达258元。”网友质疑，欠费这么多，运营商为什么不提醒也不停机。网友投诉后，有联通工作人员联系上她，表示可以减免一部分欠费，但自己还需承担1800多元的费用。网友不服，将此情况反映给了工信部门。很快，一名自称联通工作人员的人通过微信联系上网友，对方要求提供银行卡号，称会把欠费汇至网友账户用于缴费。但网友认为这不是简单的转账问题，便拒绝了这一方案，她的诉求是运营商能够直接消除欠费。潍坊当地一家联通营业厅工作人员表示，一般用户流量超出套餐配额都会有短信提醒，但为何没有收到短信她也不清楚。工作人员表示，确实查询到了欠费信息，他们正在处理当中。</p>
+<h2><strong>中国联通屡次被投诉乱扣费等问题</strong></h2>
+<p>实际上，关于中国联通流量扣费问题，有不少消费者“怨声载道”。</p>
+<p>在黑猫投诉平台上，有消费者称，“我在中国联通有4张卡，两张流量卡几百个G，其中一张卡流量少，中国联通在我不知道的情况下超出流量没有及时关闭流量，扣我话费，2年超出290多元流量费，投诉后，联通只同意退我近半年的超出流量费，我不同意，要求必须退近两年的超出流量费”。</p>
+<p>还有消费者表示：“2024年10月和12月，在不知情的情况下用超了流量，扣除费用558元和175元，中国联通没有及时告知提醒我，没有第一时间在流量用超的情况给我电话，或者及时停机。中国联通说是已发短信提醒，但是现在基本上不看短信，联通明明有电话提醒的业务，为什么不第一时间电话提醒，或者是停机，而是让用户在不知情的情况还在用流量上网。中国联通客服称不能全部退还，只能退还一半，我不同意。”</p>
+<p>不仅如此，有消费者称，中国联通收取高额流量费545.2MB流量费高达59.2元；还有流量包业务，月底没有自动取消。</p>
+<p>在黑猫投诉平台上，截至发稿，关于中国联通的投诉有341003条，其中有涉及私自扣费、售后服务、宽带网络问题、乱扣费、隐藏消费、套餐问题、流量等问题。</p>
+<p class="image-wrapper"><img data-img-size-val="1464,678" src="https://img.36krcdn.com/hsossms/20250218/v2_0b6fde02b8584baf99b78a4a5f4d8bdf@5867564_oswg81664oswg1464oswg678_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>2024年3月份，据央广网报道，黑龙江省佳木斯市的一消费者表示，2023年8月，孩子拿着他的手机玩，中国联通客服人员突然打来电话，询问是否要办理彩铃业务，孩子听到是广告推销就挂断了电话。随后在11月，自己在查询话费账单后发现，联通从9月开始，每月都扣一个9.9元的增值服务费，客服人员称是其办理了彩铃业务。可该消费者表示自己根本没办过这个业务，而客服人员说可以查询通话记录，后经调取录音后证实，其确实没有同意办理这个业务。最终经过沟通，中国联通同意给他赔偿590元通信费。</p>
+<p>其实，运营商乱扣费早已成为消费者投诉的“重灾区”。不止是中国联通，中国移动和中国电信也出现过类似问题。</p>
+<p>2018年8月24日，工业和信息化部发布《关于进一步规范电信资费营销行为的通知》（工信部通信函〔2018〕276号）明确规定，在宣传推广资费方案时，应当全面、准确、通俗易懂，对资费方案限制性条件以及有效期限、计费原则等需引起用户注意的事项应当履行提醒义务。</p>
+<h2><strong>半个月股价涨超30%</strong></h2>
+<p>在国内三大运营商的竞争格局中，中国联通（600050）无论是在营收规模、盈利能力还是在用户规模方面均不及中国移动（600941）和中国电信（601728），排名垫底。</p>
+<p>根据中国联通发布的最新财报显示，2023年前三季度，中国联通实现营业收入2901.23亿元，同比增长3%；实现净利润83.38亿元，同比增长10%；经营活动产生的现金流量净额为582.51亿元，同比下降14%。</p>
+<p>具体来看，截至今年三季度末，中国联通移动用户为3.45亿户，全年累计净增1123万户，创近6年同期新高；其中5G套餐用户为2.86亿户，5G套餐渗透率达到83%；物联网连接数为5.94亿个，净增近亿个；固网宽带用户为1.21亿户，全年累计净增712万户。</p>
+<p>据C114通信网统计，截至2024年9月底，中国移动的移动用户总数达到10.04亿户，中国电信移动用户数累计4.23亿户，中国联通移动用户数达3.45亿户。对比来看，中国联通移动用户数规模最小。</p>
+<p>二级市场方面，近日，中国联通股价出现了不小的涨幅，自2月5日到2月18日，中国联通累计涨超30%。</p>
+<p>消息面上，2月5日，联通云已基于星罗平台实现国产及主流算力适配多规格DeepSeek-R1模型，兼顾私有化和公有化场景。</p>
+<p>此前工信部运行监测协调局发布的2025年春节通信业务相关情况显示，基础电信企业积极利用AI开展创新服务，融合5G、云平台、大数据等方面能力，拓展AI应用场景。</p>
+<p>开源证券认为，DeepSeek的接入将显著提升运营商的算力需求，进而带动云计算与智算业务的快速发展，推动运营商在AI大模型和AI应用领域的布局。</p>
+<p>本文来自微信公众号“天天财经116”，作者：天天财经116，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171789599784454</guid><pubDate>Tue, 18 Feb 2025 16:56:00 +0800</pubDate></item><item><title>三年蒸发1500亿，用友“换将止血”真是良药？</title><link>https://36kr.com/p/3171784306605575</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>这个冬天不算冷，但对用友来说，过得却异常艰难。</p>
+<p><strong>2025年的第二天，用友网络官方宣布，自2025年1月起聘任黄陈宏博士担任总裁，前总裁陈强兵卸任，继续担任下属子公司新道科技董事长兼总裁。</strong></p>
+<p>这是不到一年的时间内，用友第二次更换主帅。</p>
+<p><strong>短时间频繁更换主帅的背后，是三年市值蒸发近1500亿的焦虑与挣扎。</strong></p>
+<p>春风得意马蹄疾。曾经红极一时的用友，带着中国企业云服务市场占有率第一、中国企业SaaS市场占有率第一、中国企业级应用软件市场占有率第一、中国企业财务云市场占有率第一的标签迅速攻占市场。</p>
+<p>而如今，净利润逐年下滑，从2023年至今，连续两年亏损近30亿，并且暂时没有出现刹车的迹象。</p>
+<p><strong>市场萎缩、转型阵痛、产品单薄、营收增长乏力、组织架构混乱、人事频繁调整……危机四伏的用友，又能否借助黄陈宏的上任，解除危机、悬崖勒马？</strong></p>
+<h2><strong>危机四伏</strong></h2>
+<p>从最初的财务软件，到后来的ERP管理软件，再到新时期的商业创新平台（BIP）……用友网络，这家成立于1988年、伴随国内企业软件发展起来的软件服务公司，不断刷新着外界对他的认知。营收从1998年的1.28亿元，增长到2023年的98亿，这样的发展速度，在市场中也是凤毛麟角。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,421" src="https://img.36krcdn.com/hsossms/20250218/v2_6863e4f7aa484f8e95560c0fb9a62518@5070940_oswg73524oswg1080oswg421_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>用友在发展过程中，曾经历过两次关键性的改革。</strong></p>
+<p>1996年开始，随着SAP、Oracle等国际软件巨擘的涌入，ERP（企业资源计划）概念开始在中国市场普及，国内厂商被迫转型“应战”。<strong>1998年，用友发布首款ERP产品U8，开启向ERP厂商的全面转型，之后推出高端管理软件NC系列产品，定位于集团大型企业。</strong></p>
+<p>正是得益于这一转型，2001年用友登陆上交所，2002年已稳坐中国ERP市场头把交椅。</p>
+<p>而自2011年开始，万物互联、云技术崛起的时代浪潮到来，与国际管理软件巨头SAP、Oracle相继推出云ERP产品类似，用友开始向云端转型。</p>
+<p><strong>2016年，用友正式启动了3.0战略，核心为云服务。</strong></p>
+<p>云服务的战略定位成功让用友构建了市场领先优势。据赛迪顾问数据显示，2019年用友网络在中国企业云服务市场占有率第一、中国企业SaaS市场占有率第一、中国企业级应用软件市场占有率第一、中国企业财务云市场占有率第一。</p>
+<p>然而，软件行业变革风起云涌，危机不期而遇。AI、大模型的技术发展以及信创的政策需求，推动着整个SaaS行业面临新一轮的转型挑战。</p>
+<p><strong>2020年，用友宣布进入3.0-Ⅱ战略阶段，并推出商业创新平台“YonBIP”。</strong>按照用友的设计，YonBIP可以集工具、能力和资源服务为一体，在其引领下，用友打造出针对不同规模和类型企业的YonBIP、YonSuite、U9cloud、U8cloud、畅捷通等产品，这无疑是对3.0战略一次系统性的升级。</p>
+<p><strong>升级完成后，用友的股价也冲上历史巅峰，总市值接近1800亿元。用友掌门人王文京一时间风光无限，其在2020年还以630亿元财富跻身胡润百富榜第63位。</strong></p>
+<p>但这次，命运似乎不再对用友友好。</p>
+<p>二十年来，用友网络的整体业绩表现趋于增长，特别是在营收规模方面，2020年之前基本保持了两位数的增长，仅有个别年度增速较低。<strong>但近年来，用友网络的营收增速却在明显放缓，2020年营收比重出现断崖式下跌，2023年营收仅实现了5.9%的增长，2024年前三季度仅为0.53%。</strong></p>
+<p>2023年更是首次出现亏损情况。根据2023年财报分析，用友2023年营收97.96亿元，同期增长5.8%，2024年前三个季度收为57.38亿元，同比增长0.5%；净亏损为14.55亿元，扣非后净亏损为14.84亿元，同比下降30.71%；毛利率为48.83%，同比下降0.86个百分点；净利率为-25.79%，同比下降6.80个百分点。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,443" src="https://img.36krcdn.com/hsossms/20250218/v2_e4f42605bdac452181e3a8610f6c0e17@5070940_oswg104328oswg1080oswg443_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>一直以来用友网络的净利润表现也并不稳定，同比忽高忽低。2020年之后，归母净利润规模则开始持续下滑，2020-2022年，用友网络实现归母净利润分别为9.89亿元、7.08亿元、2.19亿元，同比下滑幅度分别为16.43%、28.18%、69.03%。</p>
+<p><strong>2023年，公司突发巨亏9.67亿元，同比大减541.28%。而2024年前三季度，用友网络继续亏损14.55亿元，已经超过了去年全年的亏损规模。</strong>从2019年的11.83亿元归母净利润，到近几年增速持续下滑，直至2024年前三季度出现14.55亿元的归母净亏损，同比扩大41.24%。</p>
+<p><strong>从2019年至2024年第三季度，用友网络的净利率从15.53%一路下滑至-25.79%，与行业整体下滑趋势相比，用友网络的表现更为糟糕，已经完全背离了行业情况。</strong></p>
+<p>营业表现不好直接冲击用友股市表现。用友网络的股价自2021年初创出51.82元/股（不复权）的新高后，一直处于震荡走跌的行情中，2024年8月底更是跌至近年来新低的8.03元/股，跌幅高达84.5%。当年，用友网络市值一度接近2000亿元，但公司股价在近三年已累计下跌超七成。<strong>到2025年，其股价报收曾跌至10元/股之下，总市值长期在300-500亿期间徘徊，和三年前相比，已蒸发近1500亿。</strong></p>
+<p><strong>当前，用友网络的资金也出现了问题。</strong>2022年用友网络通过定增募资53亿元，2022年底货币资金余额高达83.04亿元，而2023年底则为80.45亿元。但到了2024年三季度末，用友网络的货币资金却骤降至36.07亿元，不到一年超40亿“蒸发”。同时，近两年用友网络的经营性现金流也不同以往稳定，分别净流出0.91亿元、20.46亿元。</p>
+<p><strong>机构也在不断跑路。</strong>2020年中期，持有用友的基金高达151只，到了2024年中期，只剩32只。</p>
+<p><strong>公司业绩进入死胡同、股价急剧下跌，市场信任出现危机……如今惨淡的市值只是表象，跌落神坛的用友网络，核心问题到底出在哪里？</strong></p>
+<h2><strong>陷增收不增利困境：产品单一、组织混乱或是罪魁祸首</strong></h2>
+<p><strong>三十而不惑。将满37岁的用友，却越加迷雾丛生、前路未卜。</strong></p>
+<p>1月23日晚间，昔日“千亿市值大牛股”用友网络发布业绩预告称，公司预计2024年度实现归属于母公司所有者的净亏损为17.20亿元到19.20亿元；实现归属于母公司所有者的扣除非经常性损益后的净亏损为17.20亿元到19.20亿元。</p>
+<p>尽管用友网络业绩持续溃败早已在预料之中，但几乎翻倍于2023年的亏损金额还是让市场震动。</p>
+<p>财报也公布了业绩预亏的主要原因，有受外部宏观环境影响，公司部分客户需求阶段性延后，导致公司全年签约金额同比下降。公司预计实现营业收入91亿元到92亿元，同比下降6.1%-7.1%。此外，公司研发投入形成的无形资产摊销金额同比增加约3亿元；公司控制人员规模，离职补偿金同比增加约1.40亿元。</p>
+<p><strong>细究用友近几年的财务状况及市场表现，由盈转亏、陷入增收不增利的状况，其背后的原因远不止财报坦露那么简单。</strong></p>
+<p><strong>产品跟不上：云产品及其他产品转型，收入不及预期。</strong></p>
+<p>SAAS的服务核心竞争力在产品。作为财务软件起家的用友，曾经借助专业的ERP横扫世界，又凭借云服务战略转型，一跃成为行业龙头。</p>
+<p>但一招鲜的方式早已不吃香，信息化步入深水区但不能成为中小企业信息化的驱动，产品的捆绑销售犹如鸡肋，“食之无味、弃之可惜”。</p>
+<p><strong>“用友的产品交付能力有问题，项目周期长，人效不高问题是导致亏损的重要原因。”行业资深人士对第一新声说道。</strong></p>
+<p>用友在云服务成功之后，并无新的产品战略得以验证成功，YonGPT也处在开发中，投入研发重但并没有令人期待的成果转化。用户交付感差、大型客户服务能力不足、组织架构混乱反而成为市场对用友越来越统一的印象。</p>
+<p><strong>行业模式：服务也跟不上，由于战略调整导致的营销人员急剧扩张。</strong></p>
+<p>公开资料显示，用友网络在2020年宣布进入3.0-II战略阶段后，将业务重心从中小微企业转向了大型企业。2023年，用友累计签约了37家一级央企，其当年云服务业务收入为63.40亿元，占当期各类企业用户合计收入的比重为72.78%。</p>
+<p><strong>不过，当下用友网络在云服务领域的投入尚未完全转化为实际收益，转型带来的长期阵痛仍在持续。</strong>自2020年云服务营收占比突破40%后，用友网络的归母净利润增速开始转负。2020年至2023年，公司归母净利润分别为9.87亿元、7.08亿元、2.19亿元和-9.67亿元。2024年前三季度，亏损额已达14.55亿元，扣非净利润亏损额更是接近15亿元。</p>
+<p>“用友网络亏损这么多，除了子公司IPO失败，云服务转型成本高也是个大原因，传统企业转型难啊。”用友的探索也是行业的缩影。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,648" src="https://img.36krcdn.com/hsossms/20250218/v2_1304e7a04c3f4a07a650fcc43f053038@5070940_oswg73905oswg1080oswg648_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>2023年用友启动的历史上最大一次组织模式升级，大企业客户业务由原来的以地区为主的组织模式升级为行业为主，这次变革直接对业绩产生影响，直接导致三大成本大幅增加。</strong></p>
+<p><strong>一是研发成本剧增。</strong></p>
+<p>伴随用友网络的战略转型和产品升级，业务重心转向大型企业，随之而来的是员工数量猛增。</p>
+<p><strong>2020年至2023年，用友的员工数量由1.81万人飙升至2.49万人。</strong>其中，技术人员由6247人增至8951人，运维服人员由1461人增至2602人，实施运营人员由6636人增至8005人，研发人员人力成本居高不下。</p>
+<p>技术研发投入也出现了明显攀升。整个2023年，用友网络研发投入21.0亿元，同比增长20.1%；<strong>2024年前三季度，用友网络也投入了15.63亿元的研发。</strong></p>
+<p><strong>二是营销成本剧增。</strong></p>
+<p>用友大型企业客户业务由原来以地区为主的组织模式升级为以行业为主的组织模式，中型企业客户业务继续按照区域但全国统一、垂直组织开展。</p>
+<p>这一组织架构调整虽然是适应用友网络的业务转型，但是也导致员工需要跨区域与客户接洽，这是导致活动广告赞助、组织活动成本、差旅费、市场费用增加较多的重要原因，在成本支出上用友出现了“一发不可收拾”的迹象。</p>
+<p><strong>2023年，用友销售费用为27.43亿元，大增了22.7%左右，2024年前三季度，销售费用高达17.68亿元。2021年至2023年，其销售费用同比分别增长31.95%、10.26%、22.70%。</strong></p>
+<p><strong>三是实施成本居高不下。</strong></p>
+<p>将业务重心转向中大型央国企后，实施运维成本也居高不下。2020年至2023年，用友技术人员由6247人增至8951人，运维服人员由1461人增至2602人，实施运营人员由6636人增至8005人。2023年，用友“实施运维人员成本”达47.33亿元，占总成本的98.10%。2021年至2023年，用友网络的收入增速远低于成本增速，导致公司毛利率大幅下滑。</p>
+<p><strong>但此次改革的结果却不尽人意，高昂的成本成为用友加速滑向亏损的推手。</strong></p>
+<p>2024年，用友又开始大刀阔斧裁员。2023年全年，用友网络员工总数减少434。2024年减员数差不多是2023年9倍。</p>
+<p>2024年的业绩预告中，用友网络表示员工数量较2024年初减少约3700人，离职补偿金支出增加了1.4亿元。</p>
+<p>这对于用友来说，是旧疾未愈，又添新伤。</p>
+<p><strong>关于用友的亏损，官方有官方的表述，但市场却有不一样的反馈。</strong></p>
+<p>根据第一新声调研，业内资深人士却指出，组织架构是用友亟需解决的困难。</p>
+<p>“云转型后，对企业和产品的服务能力、运维能力要求更高，销售的作用减小。用友的高层有很多是销售出身，但目前销售在用友的地位比较尴尬，甲方不太愿意和销售聊，更多的是前期的销售顾问对接，销售员对技术不完全懂，有江湖气息。”</p>
+<p>据公开资料显示，多位用友员工在社交平台上吐槽公司裁员、绩效管理、晋升等问题，“邮件不断收到任命通知，还收到绩效管理办法”“部门缩编、拆分，裁员是今年用友人深深的体会”“晋升太难了，用友的晋升更拼关系”。</p>
+<p><strong>在软件赛道竞争越来越激励的今天，合理的人才配置是公司战略目标完成的基石，这一点，用友上下自然清楚。</strong></p>
+<p><strong>但用友现在面临一个根本性问题：SaaS这门生意，在中国越来越难做了。</strong></p>
+<p>国内SaaS创投浪潮始于2015年，2021年达到高峰，这年行业融资585起，此后急剧下滑，到2024年已经仅195起。</p>
+<p>资本退潮的背后是行业全面溃败。</p>
+<p>据《中国企业服务云图》，2022年以来，倒闭或停服务的SaaS厂商已经超过40家，包括Invison、喔趣、今目标、e成科技……等昔日明星企业。</p>
+<p>拥有“北用友、南金蝶“名号的行业两大巨头，用友2020年以来利润连年下滑，金蝶则是2020年以来持续亏损。</p>
+<p>逆水行舟，不进则退。<strong>对于用友而言，不仅要突破行业消减的阻力，更要警惕金蝶、浪潮的市场瓜分，产品跟不上、客户体验不佳、组织架构混乱，用友的发展道阻且长。</strong></p>
+<p>问题显现，如何纾困？</p>
+<h2><strong>一年两度换帅，能否“翻越山丘”？</strong></h2>
+<p>“当市场出现新机会的时候，要去抓住它，如果没有抓住，新机会就没有了，原来的市场也掉下去了。”</p>
+<p><strong>每次危机之际，王文京和陈强兵用经验论证了，换帅曾经是颇有成效的举措。</strong></p>
+<p><strong>2015年—2019年，</strong>王文京经过5年转型，用友网络营收从44.5亿增长到85亿元，业绩翻番用友重回高速增长，他功成身退。</p>
+<p><strong>2019年1月1日起，</strong>王文京辞任用友网络CEO，专任用友网络董事长，陈强兵接任用友网络CEO。王文京致同事的信中称，自己侧重公司发展战略方面的工作，继续为用友事业发展奋斗和服务。陈强兵全面负责公司的经营管理工作。</p>
+<p>但据财报显示，用友网络2020年营收为85.3亿元，增长仅0.2%。</p>
+<p><strong>两年之后，2021年初，</strong>王文京便重回一线。用友网络发布公告称，用友网络原总裁陈强兵转任重要子公司董事长兼总裁，董事长王文京将兼任用友网络总裁。并称此次人事调整，是为抢抓企业与公共组织云服务业务发展的战略机遇。此后，他主导了分拆上市、云业务升级等多项业务变革。首先分拆了旗下用友汽车信息科技（上海）股份有限公司（简称“友车科技”）至科创板上市；然后将支付等资产剥离，纳入旗下用友金融，同时将子公司推向了IPO之路。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,651" src="https://img.36krcdn.com/hsossms/20250218/v2_400277cebedc46fbba724aa25faf4c0c@5070940_oswg54991oswg1080oswg651_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">用友网络董事长兼CEO王文京</p>
+<p><strong>王文京任上还打出了一套组合拳。用友启动了历史上最大的一次业务组织模式升级，大型企业客户业务由原来以地区为主的组织模式升级为以行业为主的组织模式，中型企业客户业务继续按照区域但全国统一、垂直组织开展。</strong></p>
+<p>但效果并未如之前一样达到改革预期。2021年用友营收为89.32亿元，增长4.7%，增速再次回落。2022年营收为92.62亿，增长3.69%。2023年用友网络实现营业收入同比增长5.8%至97.96亿元，归母净亏损为9.67亿元，扣非后净亏损更是达到11亿元。</p>
+<p><strong>2024年1月，</strong>陈强兵再次以用友网络总裁的身份重回大众视野。不过他也未能力挽狂澜，带领用友网络摆脱亏损的泥潭。</p>
+<p><strong>温和改良早已不是良药，内部的换帅似乎不能解决用友发展的关键性问题。刀刃向内重新“洗牌”，对于遭遇“中年危机”的用友来说，成为摆脱亏损的救命稻草。</strong></p>
+<p><strong>黄陈宏的任命，似乎是用友向外界传递的讯号。</strong></p>
+<p>黄陈宏拥有一个漂亮的履历。</p>
+<p>拥有复旦大学学士和硕士、美国德克萨斯州农工大学电子工程博士学位，曾在多个知名企业担任高管，例如担任SAP SE 全球执行副总裁，SAP 大中华区总裁，戴尔公司大中华区总裁，施耐德电气旗下APC大中华区总裁，Tellabs 公司中国区总裁，北电网络公司中国区运营商总裁等职。</p>
+<p>SAP长期在中国ERP软件高端市场占据主导地位，与用友网络、金蝶国际等国产ERP软件竞争激烈。</p>
+<p><strong>据首席信息官最先披露，黄陈宏已经携其原SAP团队中的四位精英骨干加盟用友，包括曾负责中小企业业务的郭慧敏、专注能源业务的石凤华以及渠道领域的麦考李等。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,654" src="https://img.36krcdn.com/hsossms/20250218/v2_f5cdeab1186d43e28aa94c630dc29449@5070940_oswg50517oswg1080oswg654_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">用友网络总裁黄陈宏</p>
+<p>在此背景下，市场颇为关心的是，临危受命的黄陈宏能否带领这家已有30余年历史的老牌软件企业翻越转型的大山？</p>
+<p><strong>用友在黄陈宏出任总裁的官方声明中强调，全球化市场是用友新阶段的重要发展战略之一，已在海外累计服务了1000多个企业客户，服务遍及全球40多个国家和地区，其中60%是当地客户，40%是中企出海企业。</strong>2025年公司将进一步加速全球化2.0战略的推进，让中国软件服务全球更多企业的数智化升级与创新发展。</p>
+<p>用友是否要通过黄陈宏打开海外市场，抓住新一轮的出海浪潮，一切都还是未知。</p>
+<p>纯外企履历掌权本土企业是否会产生水土不服，“高龄”空降的老兵，由能否带领中年企业重塑往日辉煌，恐怕不是能轻易解决的难题。</p>
+<p>而作为用友的内部员工，更是对此持谨慎和保留态度。“了解国际化大公司通行运作模式，以及背后的底层机理，避免公司走很多弯路。这也可能是聘请黄博士的价值吧。”</p>
+<p>技术变迁浪潮汹涌，用友如何“翻越山丘”？</p>
+<p>资本和市场也在寻找答案。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/g3uz7hCHMsb65l-8SrCshA" rel="noopener noreferrer nofollow" target="_blank">“第一新声”</a>，作者：竹心，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3171784306605575</guid><pubDate>Tue, 18 Feb 2025 16:57:00 +0800</pubDate></item></channel></rss>
