@@ -1,0 +1,45 @@
+{
+    "code":0,
+    "msg":"success!",
+    "data":{
+        "result":{
+            "options":[
+                {
+                    "id":"options_1_id_1",
+                    "value":"@i18n@options_1_name_1",
+                    "isDefault":true
+                },
+                {
+                    "id":"options_1_id_2",
+                    "value":"@i18n@options_1_name_2"
+                },
+                {
+                    "id":"options_1_id_3",
+                    "value":"@i18n@options_1_name_3"
+                }
+            ],
+            "i18nResources":[
+                {
+                    "locale":"zh_cn",
+                    "isDefault":true,
+                    "texts":{
+                        "@i18n@options_1_name_1":"值1",
+                        "@i18n@options_1_name_2":"值2",
+                        "@i18n@options_1_name_3":"值3"
+                    }
+                },
+                {
+                    "locale":"en_us",
+                    "isDefault":false,
+                    "texts":{
+                        "@i18n@options_1_name_1":"value1",
+                        "@i18n@options_1_name_2":"value2",
+                        "@i18n@options_1_name_3":"value3"
+                    }
+                }
+            ],
+            "hasMore":false,
+            "nextPageToken": ""
+        }
+    }
+}
