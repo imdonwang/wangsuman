@@ -2,44 +2,6 @@
     "code":0,
     "msg":"success!",
     "data":{
-        "result":{
-            "options":[
-                {
-                    "id":"options_1_id_1",
-                    "value":"@i18n@options_1_name_1",
-                    "isDefault":true
-                },
-                {
-                    "id":"options_1_id_2",
-                    "value":"@i18n@options_1_name_2"
-                },
-                {
-                    "id":"options_1_id_3",
-                    "value":"@i18n@options_1_name_3"
-                }
-            ],
-            "i18nResources":[
-                {
-                    "locale":"zh_cn",
-                    "isDefault":true,
-                    "texts":{
-                        "@i18n@options_1_name_1":"值1",
-                        "@i18n@options_1_name_2":"值2",
-                        "@i18n@options_1_name_3":"值3"
-                    }
-                },
-                {
-                    "locale":"en_us",
-                    "isDefault":false,
-                    "texts":{
-                        "@i18n@options_1_name_1":"value1",
-                        "@i18n@options_1_name_2":"value2",
-                        "@i18n@options_1_name_3":"value3"
-                    }
-                }
-            ],
-            "hasMore":false,
-            "nextPageToken": ""
-        }
+        "result":"tKqgkBNFEzakJAeS/ySKS7j7YoX2rKVuzLJbG44xHsz0eHaqLx6ZLsAQ/ljfK9mDi0F/32UVXM3gUQaczHbR2upD/EStb+O26FApdvNKm0yvKG0WrhFIe7UCMkrxPnegBqqgqcMHLCZQZ2uh/2k5dDlhReT6fxm/bAR4ZwgyvvshqudakKigshSK0Aq25IQ0H65PS/5iRHgk2b06sahZuvH6b9yrfBXJqHdhztvPkPW2FkipbvLMrzQdXz+deBm2DTJ5W53f2QKOxk7szaXKOr1+u1MyCIkjldPcAHqPYRiOzx6iXQPJ6hMj7MHex08amm44d5T3Z2jzCoinkGSrhpusTcmhHmQnjDjl51a2LqBlty1L9yHuMaED+al2lTUhlzGHqhITCQBJLZraOkXYcR6oOXAV3gP4towZw5G/zeeEtXYZvWUvTZ9F3UAXM4jP"
     }
 }
