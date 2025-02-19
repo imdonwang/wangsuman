@@ -1,392 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 19 Feb 2025 16:00:30 +0800</lastBuildDate><pubDate>Wed, 19 Feb 2025 16:00:30 +0800</pubDate><item><title>杨植麟跟梁文锋，论文撞车</title><link>https://36kr.com/p/3173168097051528</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>智东西2月19日报道，在DeepSeek公布最新稀疏注意力框架NSA论文的5小时后，“大模型六小虎”之一、月之暗面Kimi团队公布了一篇类似主题的MoBA论文，并声称在长文本上下文中实现了高效、动态的注意力选择，提升了大模型在处理超长序列任务时的效率和性能，同时保持了与全注意力机制相当的效果。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_a3a99dd57d6e4ed6ac7c3cd40cc306db@000000_oswg75032oswg1000oswg357_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲DeepSeek与月之暗面相隔5小时官宣论文（图源：X）</p>
-<p>和NSA类似，MoBA也是一个稀疏注意力框架，旨在提高长文本处理效率。MoBA上下文长度最大可扩展到10M，而NSA最长是64k（刚刚，DeepSeek发新成果！梁文锋亲自参与，实习生挑大梁，显著加速AI训练推理）。值得关注的是，DeepSeek创始人梁文锋是NSA论文共同作者之一，MoBA论文的共同作者中也出现了月之暗面联合创始人杨植麟、周昕宇的名字。</p>
-<p>月之暗面MoBA架构的主要特点包括对长上下文任务的适配，例如，在处理长达100万tokens的序列时，其速度比全注意力架构快6.5倍。在扩展到1000万tokens时，MoBA的计算时间与标准Flash Attention相比，实现16倍的加速比。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_27e0b90c466a4fddbb6a40f1e3ceb0c0@000000_oswg153413oswg1000oswg594_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲MoBA论文截图（图源：月之暗面）</p>
-<p>此外，这一架构没有参数门控机制，模型能在全注意力与MoBA间自由切换，与现有的Transformer预训练模型兼容度也较高。</p>
-<p>采用MoBA架构的模型在多个长上下文基准测试中，与全注意力模型相当。特别是在RULER基准测试中，MoBA的稀疏度高达62.5%，但性能与全注意力模型几乎匹配。</p>
-<p>昨天，Kimi还面向开发者发布了一款最新的模型Kimi Latest，对标Kimi智能助手当前使用的模型，随智能助手产品更新而同步升级。这款模型支持自动上下文缓存，缓存命中的Tokens费用仅为1元/百万tokens。</p>
-<p><strong>项目链接：</strong></p>
-<p>https://github.com/MoonshotAI/MoBA</p>
-<p><strong>论文链接：</strong></p>
-<p>https://github.com/MoonshotAI/MoBA/blob/master/MoBA_Tech_Report.pdf</p>
-<h2><strong>01.长文本是AGI关键能力，现有方案可扩展性、成本效益不佳</strong></h2>
-<p>月之暗面团队认为，实现AGI的关键能力之一是处理、理解和生成长序列的能力，这种对长序列处理的需求不仅体现在对长输入提示词的理解，还体现在对思维链（CoT）输出能力的探索中。</p>
-<p>扩展大模型的序列长度并非易事，因为传统的注意力机制会导致计算复杂度呈二次方增长。研究者们需要一种能提高效率，而不会牺牲性能的方法。受到生物学意义上人脑中稀疏连接的启发，研究者们试图利用注意力分数的稀疏性，来提升计算效率。</p>
-<p>不过，现有的稀疏注意力框架存在一些问题。</p>
-<p>部分方法依赖于预定义的结构约束，如基于sink的注意力或滑动窗口注意力。这些方法的有效性已经得到验证，但仅适用于特定类型的任务，可能会限制模型的整体泛化能力。</p>
-<p>另一种方法是动态稀疏注意力机制，如Quest、Minference和RetrievalAttention，这些方法在推理时选择子集，虽然可以减少长序列的计算量，但未能显著降低长序列模型的训练成本，使得LLMs难以高效扩展到百万级的上下文长度。</p>
-<p>此外，线性注意力模型（如Mamba、RWKV和RetNet）通过用线性近似替代传统的softmax注意力，降低了计算开销。但线性注意力与传统注意力存在显著差异，在适应现有的Transformer模型时通常需要高昂的转换成本，甚至需要从头开始训练新模型。更重要的是，这些方法在复杂推理任务中的有效性尚未得到充分验证。</p>
-<p>月之暗面团队希望在保留原始Transformer框架的前提下，打造一款遵循“少结构（less structure）”原则、稳健且适应性强的注意力架构，让模型自主决定关注点，而不是引入人工干预的偏差。</p>
-<p>理想情况下，这种架构能够在全注意力和稀疏注意力模式之间无缝切换，从而最大化与现有预训练模型的兼容性，并在不牺牲性能的情况下实现高效的推理和训练加速。</p>
-<h2><strong>02.设计灵感源自MoE与稀疏注意力，可与全注意力无缝切换</strong></h2>
-<p>月之暗面的MoBA架构能通过动态选择历史片段（块）来提高Transformer模型处理长序列的效率。其设计灵感来源于混合专家（MoE）和稀疏注意力技术。他们创新性地将MoE原则应用于注意力机制本身，从而实现更高效和有效的长序列处理。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_fc43aaae6abb40a3a670d0a078fb4007@000000_oswg110793oswg1000oswg500_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲MoBA注意力机制架构图（图源：月之暗面）</p>
-<p>MoBA的核心创新在于其块划分和选择策略。它将长序列分割成多个固定大小的块（block），并通过门控机制动态选择与每个查询token最相关的块，从而实现稀疏注意力。</p>
-<p>块划分方面，MoBA将将长度为N的上下文划分为n个块，每个块包含B=N/n个连续token。这种方式能够将注意力集中在局部区域，从而减少计算量，使得模型可以高效地处理长序列，而不需要对整个序列进行全局计算。</p>
-<p>门控机制通过计算查询token与每个块的相关性得分si，并应用top-k选择机制，动态地为每个查询token选择最相关的k个块。这种机制允许模型动态地关注最有信息量的块，而不是整个上下文，还增强了模型对长序列的理解能力。</p>
-<p>因果性是自回归语言模型的核心特性，确保模型只能基于之前的上下文生成下一个token。MoBA通过限制查询token不能关注未来的块，并在当前块内应用因果掩码，避免了信息泄露，确保了生成过程的顺序性和逻辑性，这使得模型在处理长序列时能够保持一致性和准确性。</p>
-<p>此外，MoBA借鉴了MoE中细粒度划分的思想，通过增加块的数量和减小块的大小，模型能更精准地捕捉局部信息，同时减少不必要的计算。</p>
-<p>由于全注意力与稀疏注意力各有优势，MoBA被设计为全注意力的替代品，可以在训练和推理过程中无缝切换。这种灵活性使得MoBA能够与现有的预训练模型兼容，从而在效率和性能之间取得平衡。</p>
-<p>具体实现过程中，MoBA通过结合FlashAttention和MoE的优化技术，打造了高效的计算流程，具体步骤如下:</p>
-<p>1、块分配：根据门控网络和因果掩码，确定每个查询token与哪些KV块相关联。</p>
-<p>2、顺序调整：按照块分配关系重新排列查询token的顺序，以便按块进行计算。</p>
-<p>3、块级注意力计算：对每个KV块及其对应的查询token分别计算注意力输出，这一步可通过FlashAttention优化，显著提升计算效率。</p>
-<p>4、输出重组：将计算完成的注意力输出重新排列回原始顺序。</p>
-<p>5、在线Softmax组合：使用在线Softmax将不同块的输出进行整合，确保最终结果的连贯性。</p>
-<h2><strong>03.处理百万token时快6.5倍，混合训练效果与全注意力无异</strong></h2>
-<p>月之暗面团队主要通过扩展法则实验和消融研究来验证MoBA的一些关键设计选择。</p>
-<p>训练方面，他们比较了使用全注意力和MoBA训练的语言模型验证损失，来进行扩展法则实验。MoBA作为全注意力的替代方案，没有引入新的参数或移除现有参数，实验中唯一的区别在于注意力模块，而所有其他超参数（包括学习率和批量大小）保持不变。</p>
-<p>MoBA和全注意力的验证损失曲线显示出非常相似的扩展趋势。具体而言，这两种注意力机制之间的验证损失差异始终保持在1e-3的范围内。这表明，尽管MoBA的稀疏注意力模式稀疏度高达75%，但其扩展性能与全注意力相当。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_30ea42e574cf4feaae0edc79f5d281f9@000000_oswg181813oswg1000oswg797_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲MoBA和全注意力的验证损失曲线非常相似（图源：月之暗面）</p>
-<p>语言模型损失还会受到数据长度分布的偏差影响。为了全面评估MoBA的长上下文能力，月之暗面团队评估了尾部token的语言模型损失（trailing LM loss）。这些指标能帮助人们了解模型生成序列最后部分的能力，在长上下文理解任务中具有重要意义</p>
-<p>测试中，尽管MoBA在所有五个实验中与全注意力相比，尾部块的语言模型损失略高，但损失差距逐渐缩小。这一实验表明了MoBA的长上下文可扩展性。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_4203a70d033a4b33bfa4cdc9a5541b40@000000_oswg214168oswg1000oswg797_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲MoBA与全注意力模型间的损失差距逐渐缩小（图源：月之暗面）</p>
-<p>研究人员还通过调整块大小和top-k参数，研究块粒度对性能的影响。实验发现，细粒度分割显著提升了MoBA的性能。</p>
-<p>他们还在尝试了混合训练策略，先用MoBA训练90%的数据，再用全注意力训练剩余10%的数据。结果显示，混合训练策略在保持高效训练的同时，几乎达到了全注意力的性能水平。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_20efb259ac2b442bb48c538cdb826894@000000_oswg142481oswg1000oswg851_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲混合训练策略（绿线）与全注意力策略（红线）的性能差异较小（图源：月之暗面）</p>
-<p>在多个长上下文基准测试中，MoBA的性能与全注意力模型相当。特别是在RULER基准测试中，MoBA的稀疏度高达62.5%，但性能与全注意力模型几乎匹配，还在近半数的测验中实现了更好的表现。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_f4b4f948139342ea9789d78985a8f3cc@000000_oswg62302oswg1000oswg468_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲MoBA模型在基准测试上的表现（图源：月之暗面）</p>
-<p>MoBA模型在长上下文理解任务上的也具有不错的表现，于3200-100万tokens上下文长度的“大海捞针（Needle in a Haystack）”测试中获得了令人满意的表现。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_d08e5e3346e940c68e8433e789e092f4@000000_oswg102410oswg1000oswg499_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">▲采用MoBA注意力机制的模型在“大海捞针”测试中的表现（图源：月之暗面）</p>
-<p>MoBA在计算效率方面表现出显著优势。其前向传播时间远低于传统的全注意力机制，展现出亚二次复杂度，这意味着随着序列长度的增加，MoBA的计算开销增长速度远低于传统方法。例如，在处理长达100万tokens的序列时，MoBA的速度比全注意力快6.5倍。</p>
-<p>此外，MoBA的效率优势在处理更长序列时愈发明显：在扩展到1000万tokens时，MoBA的计算时间与标准Flash Attention相比，实现16倍的加速比。</p>
-<p>这种高效性主要得益于MoBA的块稀疏注意力机制，以及其结合了MoE和Flash Attention的优化实现。这些技术有效解决了传统注意力机制的二次复杂度问题，显著提升了模型的计算效率，使其能够高效处理极长序列。</p>
-<h2><strong>04.同日发布新模型，将与最新版Kimi保持同步</strong></h2>
-<p>月之暗面昨天还发布了一个新模型Kimi Latest，这款模型主要是为了弥合Kimi智能助手和开放平台之间模型的差异。</p>
-<p>在过去，当开发团队优先满足智能助手的情绪化回复需求时，开放平台用户可能遭遇提示词失效等“破坏性变动”，不符合其对模型效果稳定性的要求。</p>
-<p>另一方面，智能助手的快速迭代特性导致部分试验性特性虽在某些方面出色，但在其他场景下存在缺陷（如重复输出），不适合第一时间应用于开放平台，造成开放平台与智能助手所用模型存在差异，引发用户对同一提示词在网页版和API调用时回复不同的疑问。</p>
-<p>新模型Kimi Latest对标Kimi智能助手当前使用的模型，并随产品更新同步升级（模型名称始终为kimi-latest）。开放平台用户体验可以体验最新模型的效果（包括试验性特性），又能保持原有模型的稳定性。</p>
-<p>Kimi Latest模型有五大特点：</p>
-<p>1、使用Kimi智能助手最新的大模型，可能包含尚未稳定的特性。</p>
-<p>2、上下文长度为128k，会根据上下文长度自动选择8k/32k/128k模型作为计费模型。</p>
-<p>3、是视觉模型，支持图片理解。</p>
-<p>4、支持自动上下文缓存，缓存命中的Tokens费用为￥1/M Tokens（暂不支持手动上下文缓存）。</p>
-<p>5、其余功能与moonshot-v1系列模型一致，包括ToolCalls、JSON Mode、Partial Mode、联网搜索功能等。</p>
-<p>月之暗面建议，如果开发者是为了获取与Kimi智能助手类似的体验，或是要开发AI智能助手或客服，推荐使用Kimi Latest模型；但如果是要进行意图识别或结构化数据提取，或是已经使用moonshot-v1系列模型且提示词效果稳定，还是推荐使用原有的moonshot-v1系列模型。</p>
-<h2><strong>05.结语：国产开源AI竞赛升级</strong></h2>
-<p>在DeepSeek以现象级开源姿态引爆行业后，国内大模型赛道掀起了一场开源军备竞赛——厂商们不仅争相开源自家模型，也将内部技术成果以论文形式推向开发者社区。这一举措有望撬动开发者生态，扩大技术影响力。</p>
-<p>不过，在这场竞赛中，月之暗面已然不是那个最耀眼的玩家：发布v1.5撞同款推理模型DeepSeek R1，势头完全被DeepSeek盖过；发新模型和稀疏注意力机制，又撞上阶跃星辰新模型开源、马斯克Grok 3发布、DeepSeek NSA轮番吸走高关注度。曾经的顶流，被网友戏称是“大模型圈的汪峰”，如今似乎很难再抢到大模型圈的“头条”。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTQ4NjQzMw==&amp;mid=2652779765&amp;idx=1&amp;sn=46ba714dcfb73cd44ef9e722f7aecc05&amp;chksm=8520767105172828e3c7bf8836f72f024ceb4ff2142d0d26ba4e087d3b9b16326c91daf144db&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“智东西”（ID：zhidxcom）</a>，编译：陈骏达，编辑：Panken，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173168097051528</guid><pubDate>Wed, 19 Feb 2025 15:25:00 +0800</pubDate></item><item><title>麦当劳自称CFC对KFC贴脸开大，这对「炸鸡纯恨CP」贡献多少商战乐子？</title><link>https://36kr.com/p/3173127786742661</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>最近，不少网友在路边等车时都看到了巨大的海报广告——<strong>CFC</strong>。</p>
-<p><strong>红底白字、斜体字体、熟悉的字母组合，乍一看很像KFC，以为是肯德基趁着吮指原味鸡85周年又在搞营销，近一看还是很像</strong>，只是一旁的半个M和小白鸡在告诉你：此鸡非彼鸡，真正的正主是肯德基亲爱的好伙伴之麦当劳。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_b7eab5b22ec74062b11a04617a10fa14@000000_oswg205561oswg724oswg441_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@冰箱里的小橘子</p>
-<p>想肯德基的风还是吹到了麦当劳，据网友的不完全观察，CFC的广告还特别喜欢打在肯德基门店附近。<strong>用你的形式，写我的活动，炸鸡们平日里撕头花绝不手软，没想到偶尔也会遇到“以你的名字呼唤我”的温情画面</strong>。</p>
-<p>看到这麦当劳新广告的乐子人苦了自己不能苦了肯德基，不顾正主心情地连夜把图发给KFC，“是夜跑路过也要倒回来拍的程度”。如今不知这大名都被他人学去的肯德基是何种心情，但乐子人从不偏向任何一方，安慰肯德基“别怕，CFC大抵要失去广东市场”，因为CFC一旁还有4个大字<strong>【无笼好鸡】</strong>，“这在广东话里意味着没有一笼是好的。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_eff12a826d3548da8d00bbc94bb56d7c@000000_oswg565510oswg506oswg604_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：芒果妈妈</p>
-<p>所以这对着肯德基贴脸开大的CFC到底是啥？</p>
-<p>英文名为<strong>Cage Free Chicken</strong>，到了中国就是无笼鸡，再通俗一点，就是你一定知道的走地鸡。别的懒惰小鸡每天都在笼子里吃饭下单等待被吃，走地鸡热爱运动满山溜达，把鸡肉变成了“肌肉”，据说入口皆是活力的味道，肉质结实更有嚼劲。</p>
-<p>根据统计，<strong>以非笼养方式养殖的白羽鸡，平均每天行走的步数超过1000步</strong>。如果把CFC比作打工人，大抵就是那群下班去健身房，周末去户外，浑身散发着健康味道的人类，但你知道的，走地鸡再健美最终也要上餐桌，所有打工人到底也会殊途同归。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_3dd93a82efd74a8cae1c3ce01076cdfa@000000_oswg663901oswg838oswg826_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>这么看来，走地鸡的培养圣手应该是在农村养一院小鸡的你太奶。如今为了和太奶争夺圣手title，麦当劳也是下了一些功夫：</p>
-<p>比如走地鸡的<strong>“大别墅”选址</strong>要安静远离世俗喧闹，周边水源和土壤必须没有受到污染，每一间<strong>“别墅”的设计</strong>需要注意采光和通风，平层“要开阔”，以保证每位鸡主人生活快乐不受干扰。总之，CFC就是一群比人活得还舒坦的走地鸡。</p>
-<p>麦当劳从2024年6月开始，把CFC的标识放在自家鸡肉类产品上，如麦辣鸡腿堡、麦麦脆汁鸡等，还在全国6000多家门店里投放了相关餐盘垫纸。</p>
-<p><strong>今年是麦当劳无笼养殖白羽鸡的第35年</strong>，恨不得把CFC的广告贴进肯德基门店里，大抵是想借着“Call CFC By KFC”（电影：Call me by your name）的东风，给自家小鸡做一场盛大的营销。除了线下投广，麦当劳也发起了相关兑换活动：<strong>2月22日下午2点-5点，带任意【CFC】元素到店，即可免费领取麦麦脆汁鸡一份</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_f60c022a143045d6a4f688a01ec76155@000000_oswg392002oswg602oswg628_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>KFC会不会“应战”、KFC和CFC到底哪个是正统已经没有那么重要，这几年光看这2家快餐巨头或明或暗的商战，已经足够吃瓜的乐子人嗑出满地瓜子。“没想到百事可乐和可口可乐的爱情故事告一段落后，搞鸡的高光时刻来了。”</p>
-<p>2023年年底曾有网友发现<strong>麦当劳炸鸡没有鳞片，“失去鳞片的麦乐炸鸡就好像西方没有了耶路撒冷”</strong>，感到被伤害的打工人连夜把麦当劳骂上热搜#麦辣鸡翅 不裹粉#。彼时麦当劳还没来得及修改配方，肯德基就连夜推出广告“好炸鸡有鳞片”，并在小程序、各种鸡类产品上大写特写。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_429b4c48ad1548e7bb511dd19e430c87@000000_oswg653425oswg1080oswg742_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>不少肯德基兼职人员指出“炸鸡裹粉制作更麻烦”，有没有鳞片的炸鸡味道到底差多少你很难量化，后续的麦乐鸡也“长”回了鳞片。但经此一“役”，肯德基已经悄悄成为炸鸡鳞片最忠诚的守护者。</p>
-<p>要在产品上比个高低，两位炸鸡老玩家也没有“任何战场”。</p>
-<p>比如线上社群，曾有网友于2021年在<strong>麦当劳社群</strong>调侃“肯德基没有麦当劳好吃”，本是对麦麦小助手的奉承，没想到对家大名早已被社群机器人写进了黑名单，立即回复“违规信息，要求撤回”。不信邪的网友10天后再次在社群发言：“现在发肯德基还会被警告吗？”</p>
-<p>会的，麦麦小助手直接把他踢出群聊，并把此仇记了整整四年。直到现在，该网友依旧无法加入任何麦当劳社群，“<strong>被麦当劳拉黑的四年，每天都想他</strong>。”谁说AI没有情感，麦麦小助手的脾气比哪吒都大。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_e17ab4dcf3314c5db6636e56f607cfe5@000000_oswg34107oswg459oswg664_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>再比如直接去对家门口撕头花，<strong>今天麦当劳把营销活动广告贴到了肯德基门口，明天肯德基就把线下活动办在麦当劳门前</strong>。肯德基在门口放了易拉宝写“在此为您服务”，一旁的麦当劳立马放出“离您更近”。</p>
-<p>相爱相杀，越杀越爱，至此，肯麦两家成为<strong>真正的纯恨CP</strong>，这商战他们越打，打工人越嗑得起劲儿。</p>
-<p>不过纯恨CP的场场商战一般只在国内进行，因为放眼全球就不再是一个level上的对家。</p>
-<p>麦当劳是响当当的全球500强之一，截至2024年，全球门店数量为4.35万家，2024年实现收入259.2亿美元，中国为全球大二大市场。肯德基全球门店超1.5万家，中国门店有11648家，占据全球门店7成以上，所属公司百胜中国2024年总收入达到113亿美元。</p>
-<p>再往前看肯德基的和麦当劳的主营业务也并不是完全一致，一个卖炸鸡一个卖汉堡，但这些到了中国都有了一个统一的名称：<strong>洋快餐</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_44b3e882040e44aeb03dd8fb73411b5d@000000_oswg179062oswg607oswg678_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>肯德基在国内更早地进行本土化和下沉开店，生意越做越红火，硬生生把中国业务拆分上市成立百胜中国。看着对家赚得盆满钵满，麦当劳紧跟其上，门店贴着肯德基开，本土化越来越清晰。</p>
-<p>于是两大快餐巨头或主动或被动成为<strong>【中国限定版纯恨CP】</strong>，这些年越杀越亲密。</p>
-<p>所以你哪里能说CFC之于KFC是商战，“这明明是明晃晃的爱的示意，懂的都懂”。</p>
-<p><strong>参考资料：</strong></p>
-<p>01、中国江苏网,《麦当劳中国首推“无笼好鸡”标识，日行千步，来自麦麦农场》,2024.06</p>
-<p>02、IC实验室,《全是套路？肯德基vs麦当劳30年中国商业暗战》,2021.02</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwMDQ2NTA4MQ==&amp;mid=2247648522&amp;idx=2&amp;sn=b65ecf7ea25bccfefe4044387c98e6e0&amp;chksm=976cee35c60df6c39e24d75ab31da791d5d0c6c2f7d911360c27fa5f767e9714c7d302612adc&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Vista氢商业”（ID：Qingshangye666）</a>，作者：嘴嘴，编辑：橘总，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173127786742661</guid><pubDate>Wed, 19 Feb 2025 15:32:00 +0800</pubDate></item><item><title>36氪出海·中东｜卡塔尔的战略转型：立足优势，布局未来</title><link>https://36kr.com/p/3173038730625415</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p><strong>访问36氪出海网站 </strong><a href="https://letschuhai.com/?utm_source=36kr&amp;utm_medium=sayhi&amp;utm_campaign=link" rel="noopener noreferrer nofollow" target="_blank"><strong>letschuhai.com</strong></a><strong>，获取更多全球商业相关资讯。</strong></p>
-<p class="image-wrapper"><img data-img-size-val="990,488" src="https://img.36krcdn.com/hsossms/20250219/v2_f21db12e14a34fa6acf3733783d86b31@11918142_oswg882831oswg990oswg488_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1"/></p>
-<p>达沃斯世界经济论坛汇聚了全球最具影响力的领袖，共同探讨全球重大挑战议题。在瑞士的雪山之间，一场由《华尔街日报》组织的对话却将目光投向了千里之外，一个正在经历雄心勃勃变革的国家——卡塔尔。卡塔尔投资促进局（Invest Qatar）的首席执行官 Sheikh Ali Alwaleed Al-Thani 与施耐德电气（Schneider Electric）中东及非洲区域总裁 Caspar Herzberg、德科集团（Adecco Group）董事长 Christophe Catoir 共同探讨了卡塔尔如何为未来布局。</p>
-<p>这个海湾地区小国正将重心转向其最宝贵的资产——人才，以应对加速增长的需求。Al-Thani 提到：“卡塔尔早在2008年就推出了《卡塔尔2030国家愿景》。此后，我们启动了一系列国家发展战略，旨在推动经济从依赖自然资源转向以人力资源为核心。”</p>
-<h2><strong>战略优势：多元化布局未来 </strong></h2>
-<p>这一转型是卡塔尔推动经济摆脱碳氢能源依赖的基础。Al-Thani 强调了 Invest Qatar 在助力教育、数字基础设施建设等关键领域保持竞争力中的作用：“我们与企业合作，助其发掘机遇、对接本土资源并弥补政策缺口，以支持长期增长。”</p>
-<p>科技发挥的作用至关重要。“信息通信技术（ICT）并非一个独立行业，它起到的作用是跨领域赋能。” Al-Thani 指出。从教育到医疗，科技是卡塔尔产业升级的支柱。该国正将数字基础设施融入经济各个环节，确保人工智能、互联互通与智能技术惠及所有行业。“为未来世界构建基础设施至关重要。”他补充道。</p>
-<h2><strong>物流优势：联通全球市场 </strong></h2>
-<p>卡塔尔的地理位置是其重要优势之一。Al-Thani 表示：“中东乃至 GCC 国家在地图上宛如地球中心，连接欧洲、非洲与亚洲。”这一地理位置使卡塔尔成为全球贸易的理想枢纽。卡塔尔正大力投资港口、机场与交通网络，打造跨三大洲的商品和服务门户。</p>
-<p>“以卡塔尔为中心3000公里半径内的 GDP 总和约达8.5万亿美元，这为物流业发展提供了独特机遇。物流业已是卡塔尔增长最快的非碳氢经济行业之一。”Al-Thani 补充道。凭借优越地理位置与一流基础设施，卡塔尔正为制造、科技与金融等关键行业创造增长机会，增强经济韧性。</p>
-<h2><strong>人才优势：汇聚全球精英 </strong></h2>
-<p>吸引与培育人才是转型成功的关键。德科集团董事长 Christophe Catoir 指出：“从长远来看，你需要知道哪些产业及专业领域需要布局。”他指出卡塔尔需要大量技能型人才支持医疗、物流以及其他行业发展。</p>
-<p>施耐德电气的 Caspar Herzberg 则强调该地区作为创新中心和吸引具有前瞻思维专业人才的潜力：“这里非常具有创新力。这里的创新精神与为了拥抱新技术而承担风险的意愿远超全球其他地区。”</p>
-<p>Al-Thani 进一步阐释，卡塔尔的战略不仅是吸引人才，更是构建繁荣的生态系统：“我们既培养本土人才，也引入外国高校与专业人士助力经济多元化。”通过教育投入、创新支持与民生保障，叠加全球战略定位，卡塔尔为人才提供了蓬勃发展的环境，推动国家迈入增长新阶段。</p>
-<h2><strong>面向未来的创新增长 </strong></h2>
-<p>卡塔尔的多元化战略让其经济长期具有韧性。Al-Thani 表示，通过多领域投资，该国正在打造人力资本、创新与技术交织驱动的增长生态：“我们为未来10-15年布局，确保卡塔尔在不断变化的全球经济中保持竞争力与适应性。”</p>
-<p>文章来自WSJ，标题“QATAR’S STRATEGIC SHIFT: BUILDING ON ITS ADVANTAGES”</p>
-<p>文章来自微信公众号“<a href="https://mp.weixin.qq.com/s/uzzQJs6bVrikeSPFfQqwZg" rel="noopener noreferrer nofollow" target="_blank">投资卡塔尔 Invest Qatar</a>”，作者：Invest Qatar，36氪经授权发布。</p>
-<p class="image-wrapper"><img data-img-size-val="2143,1007" src="https://img.36krcdn.com/hsossms/20250219/v2_942d22e6202e49d28b2ce51feb029586@11918142_oswg1331300oswg2143oswg1007_img_jpg?x-oss-process=image/quality,q_90/format,jpg/interlace,1"/></p>
-<h3><strong>加入 Let’s 出海中东社群</strong></h3>
-<p>36氪出海持续关注中东市场机遇并推出“出海中东社群”，组织出海中东系列讲座，帮助企业了解出海中东相关信息并创建开放的交流平台。我们诚挚邀请对中东市场感兴趣的出海企业加入社群，在未来参与交流活动并与我们互动。欢迎扫描下方二维码，填写表单申请加入。</p>
-<p class="image-wrapper"><img data-img-size-val="1016,850" src="https://img.36krcdn.com/hsossms/20241122/v2_395cbdab0a254cc180a27ba691018c2d@5490952_oswg127178oswg1016oswg850_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<h2><strong>加入36氪出海学习交流群</strong></h2>
-<p>目前，36氪出海学习交流群已经吸引超过16,000位出海人加入，他们来自国内外初创企业、行业巨头、投资机构等。在出海社群里，我们为成员挑选整理每日全球跨境资讯，帮助出海人把握最新动态；定期组织出海交流活动，链接出海生态圈，寻找潜在合作伙伴。欢迎添加36氪出海小助手微信（ID：wow36krchuhai-xzs2）申请入群，一同出海！</p>
-<p class="image-wrapper"><img data-img-size-val="16518,10313" src="https://img.36krcdn.com/hsossms/20240807/v2_f52db430543641d8a09efb8dcea3b06f@11918142_oswg15715968oswg16518oswg10313_img_jpg?x-oss-process=image/quality,q_80/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173038730625415</guid><pubDate>Wed, 19 Feb 2025 15:34:00 +0800</pubDate></item><item><title>“穿去上班甲方不敢来犯”，仿佛随时开弓射雕的蒙古袍成打工人最新通勤战袍？</title><link>https://36kr.com/p/3173127905723272</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>2月的北京没有穿搭。</p>
-<p>只有<strong>裹在纯黑羽绒服下与7级狂风抗争的生存渴望。</strong></p>
-<p>当我以为五彩缤纷的冬季是独属于南方人的特权，互联网则用<strong>“蒙古袍通勤ootd”</strong>证明了“时尚”和“保暖”绝不是二元对立。</p>
-<p>蒙古袍被穿成打工人新的设计感实用通勤战袍，游牧民族的图腾和马蹄袖给简单的混羊毛大衣蒙上了一种<strong>草原之上或深宫之内的王霸之气</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_ba750d522362459cb2db96f664258155@000000_oswg127240oswg1080oswg1348_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@乐意李</p>
-<p>“在地铁上穿蒙古袍，邻座问我是不是出了地铁口得换乘自家汗血宝马。”</p>
-<p>打工人靠工位上的蒙古袍无声地宣告自己桀骜不驯的自由灵魂。<strong>“穿蒙古袍上班，想必老板也会因为我的气势不敢轻易来犯。”</strong></p>
-<h2><strong>01 扛住零下三十度的蒙古服，最适合通勤的战袍？</strong></h2>
-<p>潮人穿搭的核心是“出其不意”。</p>
-<p>比如上海潮人会用一件民族色彩浓厚的新式蒙古袍混搭黑色鸭舌帽、Barbour棉外套和Marieclarie皮靴，“上海初冬的温度穿刚刚好。”</p>
-<p>单穿以上每一样，你也不过是满街潮人中泯然众人的一个，但配上草原风情的立领马扣束腰，都市穿搭就有了一种<strong>“特别的疏离感”</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_461d93c0dc0e4816806952c0ebdcb15f@000000_oswg129851oswg1080oswg1517_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@罗宾酱</p>
-<p>潮流的归宿是被打工人穿进办公室。经常需要出席会议又放不下时尚情结的打工人已经开始询问，“有没有蒙古风格的西装套装？”</p>
-<p>蒙古袍同样入侵了辣妹界，<strong>“可汗当年也想不到自家的袍子原来可盐可甜”</strong>。</p>
-<p>有人问第一次穿蒙古袍，建议尝试哪些品牌，底下内蒙古IP回复：日常穿不要买长袍，过于隆重，建议先从<strong>蒙古辣妹短袖</strong>开始。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_8203625d61d24ba0afb4dc3aa2c13a0a@000000_oswg10683oswg386oswg119_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>在抖音涌现的大量或华丽贵气或精致干练的蒙古服饰潮牌中，沃德勒民族服饰另辟蹊径，找到了少女感蒙古袍这个市场，硬生生开拓出<strong>“蒙古辣妹袍”</strong>这个冷门品类。</p>
-<p>蒙古袍改良无非是改短，改薄，去除繁复的花纹，加入现代的色彩搭配。于是沃德勒改良后的“新蒙古袍”在用色和裁剪上都洋溢着青春气息：桃花粉配海藻绿腰带生动活泼，仿羊毛翻领带着一丝千金娇俏，文案是<strong>“这一生何为自由，要去做草原上策马奔腾的姑娘”</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_d512ec7b60684fd29ab6104a61238400@000000_oswg793256oswg1080oswg564_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>没有新中式动不动露肩、镂空、超短裙，蒙古袍即使走辣妹路线，也给你一种<strong>“精致的厚重感”</strong>。</p>
-<p>销量证明蒙古辣妹风自有广阔市场：一套398块的青花瓷配色蒙古袍短裙上榜抖音民族服饰爆款榜第三。汉服、Jk、洛丽塔之后，蒙古袍有望成为“第四坑”。</p>
-<p>当辣妹风成为新蒙式的流行思路，蒙古袍拆成上下两部分，摇身成为“时尚牛油果牛仔短裙套装”也变得合理了起来。从此短剧里“清宫穿越后在时尚公司掀起腥风血雨的公主”有了独家妆造。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_0573c545c538478fa6e8a1224327f30a@000000_oswg290469oswg372oswg598_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@都澜民族小众服饰设</p>
-<p>蒙古袍改良的另一个思路是把功能性发挥到极致。</p>
-<p>比如<strong>蒙古袍滑雪服</strong>的出现让民族服饰在运动届大放异彩。虽然你困惑这么长的袍子到底怎么能在站上雪板的时候确保双腿灵活不摔个狗啃泥，但不重要，身着草原长袍的你已经是滑雪场上一面亮眼的旗帜了。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_391a205cd03047f1adc4577d2cd16c06@000000_oswg390107oswg449oswg709_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>“新蒙式”穿搭的最高境界是毛绒格子大衣和皮草内搭。蒙古人只在重大节日里才穿的长袍，北上广白领们配上冷帽、皮草、通勤包，<strong>就把旷野的风不经意带进了工位。</strong></p>
-<p>毕竟是“专为冰天雪地里打猎放牧而设计”，蒙古袍在抗寒上让为了版型修身而偷工减料的冬季女装自惭形秽。地道的穿法，<strong>是蒙古皮袍配上一双蒙古玛拉沁（马毛靴）</strong>。有人第一次在海拉尔穿到这种马毛做的靴子惊为天人，“花大几千穿UGG的时候从来没有这么暖和过。”</p>
-<p>“这鞋出了东北就穿不了，辽宁都不能穿，太热。”</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_5dfb48193fff45c39de84c0798eff389@000000_oswg461017oswg1079oswg345_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@嗯古的日常</p>
-<p>内蒙人鑫鑫介绍，蒙古袍一般不只一层，而是里外夹层共同穿着，所以比普通外套保暖的多。蒙古袍分为皮袍、夹袍、绵袍和单袍，最正宗的传统袍子会用羊皮、旱獭皮、毛料、棉布等等天然材料制作，防水且保暖的动物皮尤其适用牧民在漫长的冬季野外骑马放牧。</p>
-<p>蒙古袍也不只有厚的冬皮袍。春夏穿丝绸短袍，基本辨识特征是<strong>蒙古领、皮扣装饰、袖口接马蹄袖</strong>，和腰间狂放不羁的粗皮带。即使没有以上这些，只需要在穿搭中加入简单的毛毡帽或毛茸靴，也可以让你瞬间拥有“蒙古”感。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_41d9c7c3724d455f99a3e4778b20374e@000000_oswg210588oswg1080oswg1407_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@土狗子inpeking</p>
-<p>所以只要略微调整袍子的面料，蒙古袍还可以爆改成“草原最出片的防晒衣”。</p>
-<p>更重要的是，看起来设计感十足，<strong>改良蒙古袍的价格却十分美丽</strong>：在抖音平台上，一件改良蒙古上衣的价格大概在200-600元左右，一套扎实到可以cos《熊出没》的毛绒外套在微信小店里也只卖你699元，只是材料不能细究。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_7621d766ec9844b893eecb4814de6381@000000_oswg190829oswg1080oswg1673_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>但蒙古袍作为日常穿着还不像汉服，互联网文献充足，你穿的是魏制汉制都有人告诉你如何符合礼仪规范，以及“不要混搭”。不少第一次穿蒙古袍的打工人担心自己穿法不正宗，闹出类似汉服左衽右衽的笑话。</p>
-<p>传统蒙古袍包罗万象，按照部落划分，有巴尔虎服饰、阿巴嘎服饰、巴林服饰等等种六种不同的风格，<strong>有的部落风格华丽</strong>，比如阿巴嘎部落的德勒（皮袍）领子、前襟、袖边都用粉红或白色绸缎镶边，根据年龄有单层镶边和多层镶边之别；<strong>有的则走简约风</strong>，比如苏尼特服饰大多采用青色、蓝色、褐色绸缎或布料缝制。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_424fe09bdc254188ab4c52136e13e47a@000000_oswg844332oswg805oswg526_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>蒙古袍也不是一成不变的“历史服饰”。清末民国以来蒙古服饰向窄瘦、轻便、简单变化，比如以前接马蹄袖，现在除了隆重集会庆典，平时的蒙袍已经不接。</p>
-<p>这么看，<strong>滑雪服和辣妹装也不过是蒙古袍改良的历史里的又一次小小革新。</strong></p>
-<p>迷上改良蒙袍的打工人“全网求蒙古袍的正确穿法”，结果内蒙人摆摆手告诉你完全不用担心，<strong>“爱怎么穿都行，我们自己也经常蒙元素和正经蒙古袍混搭”</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_f08e70bbb6384d0cbb4e5817992f4efa@000000_oswg29539oswg402oswg107_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>生活在呼和浩特的蒙古族人卡卡发现，“新蒙式”这两年的确在本地年轻人中间越来越流行。</p>
-<p>她自己就偶尔会在抖音、淘宝上买几件蒙式马甲、外套，但“穿得不多，对日常来说还是太隆重”。去年过年，她就穿了一件缎面新蒙式马甲，里面自己配了一件白衬衫，去各家拜年，以及参加“每次都要烤一只全羊”的家庭聚餐。</p>
-<p><strong>“神奇的是穿的话一定会全妆，把自己收拾得利利索索的，不然感觉自己配不上衣服。”</strong></p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_d45195d8c9674d1e858722a77ebd42f6@000000_oswg135468oswg1080oswg1629_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>更多本地人会选择找熟悉的蒙古袍店量身定制。呼和浩特本地有不少蒙古袍定制的店铺，原来定制传统袍，如今也做起了改良款。</p>
-<p>一方面，蒙古袍上下摆宽大，身材包容度足够高。宽松和中性的特点在各种改良外套、改良卫衣的裁剪中保留；</p>
-<p>另一方面，毛皮用料、民族纹样和印花、立领盘扣等等齐全的新中式要素，<strong>则让自然主义者、极繁主义者和新中式爱好者们通通找到了自己的时尚归宿</strong>。</p>
-<p>那木拉则品牌创始人阿木告诉我，定制一件蒙袍的要素很多，会根据你所在地方的气候选择面料、款式，还要看你的肤色和需求选择颜色和剪裁。一些明星在演出前也会找他们定制舞台蒙袍，这时定制还要考虑舞台效果和与歌曲的匹配程度，价格根据你所选择的面料和做工难度，<strong>可以从一两千到上万不等</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_fdd5123dcd9747d09904a585a59279f5@000000_oswg277620oswg505oswg702_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>抖音是新蒙式等等满足设计师店铺的主要阵地。</strong>民族变装视频这两年异常火爆，这些民族服饰店铺也常常能在平台上收获意外的流量。同时，抖音上以直播、视频为主的销售方式能让顾客看到更多衣服的面料细节和做工、质感，还能实时解答顾客问题，退货率可能比在淘宝上更低，阿木说。</p>
-<p>“新蒙式穿搭”同样也带火了<strong>“新蒙古生活方式”</strong>，卡卡上周去逛了一家新蒙式服装店，一楼卖各种蒙古元素衣服，二楼开了一家蒙式咖啡店，装修是土墙配木桌，到处摆上蒙古包毛毡，拿铁里加奶皮子和牛肉干。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_d776517917074409873272ad758df7c1@000000_oswg721179oswg625oswg686_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@张jump</p>
-<p><strong>“蒙古公主的下午茶：穿缎面祥云纹蒙古机车套装，喝马奶酒Dirty。”</strong></p>
-<h2><strong>02 蒙古地母系，藏式巴恩风，“游牧审美领先全球”</strong></h2>
-<p>时尚嗅觉敏锐的人会从去年每个草原打卡点上人脚一双的尖头高筒皮靴捕捉到“游牧风”的泛滥。</p>
-<p><strong>蒙古袍不是这股“游牧风”里的唯一代表选手。</strong></p>
-<p>比起铺满花卉祥云纹样、更为隆重具有压迫感的蒙古袍，藏袍低饱和度的灰、粽、黑，似乎更能无痛融入冬季的写字楼电梯。</p>
-<p><strong>巴恩风穿搭的真谛，原来被藏袍们参透了。</strong></p>
-<p>于是有商家开发出“藏式西装”、“藏式衬衫”等等牛马专属时尚方案。或者将传统藏袍斜穿，里面颇为刻意地露出充满班味的白衬衫和领带。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_aff875bde0b54b4ea51b149d858fd09f@000000_oswg445168oswg494oswg595_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@Jamyang藏服饰</p>
-<p>所谓的“藏式”可以应用得更广泛，有人就发现<strong>只露出半边袖子的藏式穿衣法很适合冬季的北京地铁和任何空调不足的北方室内</strong>，“室内穿羽绒服热，但是脱了又冷，只脱半边袖子既保证了后背不冷，也不用一路抱着衣服。”</p>
-<p>据刚从西藏回来的编辑大稚说，“本地人走热了的时候，穿冲锋衣、羽绒服也会露出半条膀子”。</p>
-<p>蒙藏“游牧系”大多走厚重朴实的路子，新疆却凭借鲜亮明快的艾德莱斯绸在<strong>“轻游牧”</strong>上自成一系。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_f2ab1bf6936141c99b8b85d968a62512@000000_oswg836508oswg603oswg747_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@是玲玲耶</p>
-<p>潮牌店里的经典款式有流苏外套和牛仔坎肩，艾德莱斯裙排满两列衣架，领子上绣着玫瑰的丝绸衬衫和麂皮外套出现在同一个季节。走进店里，穿着刚买的长裙踏着尖头皮靴的“伪牧民”们进进出出，<strong>《我的阿勒泰》又演了一集</strong>。</p>
-<p>你能在几乎每一家新疆民族潮牌店里见到“艾德莱斯”：作为一种在新疆延续了三千多年的传统手工艺织品，艾德莱斯绸至今仍然是本地现代服装的重要材料。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_8654691b231940e3ac03c3c3ff3c06c4@000000_oswg760899oswg489oswg667_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>要不是摆在乌鲁木齐的民族潮牌“黑眼睛姑娘”的店里，印满艾德莱斯绸纹样的<strong>抹胸、海岛衬衫和吊带连衣裙</strong>，你怎么也不会把它们和“游牧风”联想到一起。</p>
-<p>最“游牧”的环节可能是：在店里买一件麂皮绒短外套，店主会帮你包装成买买提的藏宝箱。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_64d11d688b864875aa524b437bb468fa@000000_oswg901348oswg634oswg721_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">图源：小红书@小黄紫</p>
-<p>同样是“民族元素”，原来是景区次抛衣，如今被打工人穿成日常高频基本款，一大区别在于如今的民族潮牌设计师店铺开始抛弃廉价的聚酯纤维，采用更加耐磨耐久的天然面料。</p>
-<p>新蒙式服饰设计师发发说，他们在设计蒙古元素上衣时很多时候会选择<strong>天然纤维成分的未处理面料作为载体</strong>，因此从面料上就与大批量生产的“淘宝民族风”区别开。</p>
-<p>天然面料会随着穿着时间和每个人的生活方式不同，而<strong>形成不同程度和部位的褪色、磨损</strong>，而这恰恰是“新游牧”穿搭的灵魂，“为穿衣服的人留下独一无二的印记，打造属于每个人自己的一件衣服。”发发说。</p>
-<p>“民族游牧风”，越来越被国外各大时尚奢牌们当成灵感来源和秀场点缀：</p>
-<p>Lemaire2024的春夏秀场受到设计师越南之旅的启发，将多口袋、可拆卸兜帽等等户外实用元素和城市穿搭融合，被形容为<strong>“安静的现代游牧民族风”</strong>。</p>
-<p>2011年，拉夫劳伦推出“城市游牧”秀场系列，“流苏、麂皮、钉珠和极其浪漫的白色、蕾丝、印花元素交织，摇曳的长裙搭配宽腰封，书写晚宴上洒脱帅气又古典的西部女孩。”时尚评论者Sodaray写道。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_7f050d012e2742c6ad47c0a6e6c91f25@000000_oswg707958oswg858oswg679_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>总结起来，<strong>“地母系大女主该穿的衣服。”</strong></p>
-<p>2024年的巴黎奥运会则再一次证明了<strong>“游牧审美领先全球”</strong>。</p>
-<p>奥运会开幕式上，蒙古国国家队穿着新晋时尚品牌Michel&amp;Amazonka设计的队服出场。队服以那达慕大会的传统服饰德勒长袍为原型，绣上那达慕大会的“九白旗”、天空、山峦、飞鸟与神鹿纹样，”每套手工缝制超过20个小时”。时尚杂志《Vogue》将其评为最佳奥运制服，《GQ》则称其为<strong>“最迷人的奥运队服”</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_f896694492b049f3bf834fbcc8fba4ea@000000_oswg469334oswg756oswg456_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>象征自由的游牧想象太迷人，打工人力求在衣食住行上证明自己“足够游牧”。</p>
-<p>游牧生活方式品牌于是从景区商业街开进北上广的各大商圈，打上“民族手艺人”、”羊毛编织”、“天然植物染”的标签，299元的毛毡钥匙扣立刻肩负起“可持续”与“民族文化传承”的宏伟使命。</p>
-<p>2023年，游牧风生活方式品牌店shardaa开进上海最时髦的生活街区新所，毛毡地毯和羊毛包摆在充满藏式风情的木炕上，打卡的年轻人边用芦苇吸管喝着藏式奶茶，<strong>一边感叹“繁华大城市里竟然还有如此原生态的波西米亚精神角落”</strong>。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_409b96cec8c844658a433a520b208db8@000000_oswg535169oswg635oswg421_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>于是城市游牧者们穿着充满历史厚重感的牛皮制成的蒙式机车外套，走进堆满粗棉毛毡的“游牧文创集合地”，<strong>在朝九晚九的写字楼牛马生活里放牧自己。</strong></p>
-<p>如果要细究为啥游牧穿搭永远与“自由”和“旷野”深度绑定，那么除了色彩自然原生、材质耐磨，最终为“城市游牧”风定调的，依旧是那种“无用的功能性”。</p>
-<p><strong>“选择那些带有多口袋设计，或者挡风片毛领设计的风衣，这些应对自然天气的功能设计，虽然到了城市用处并不大，却能再现游牧生活的灵魂。”</strong>时尚媒体《时尚临风》写道。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_3c6253032d6048d899cb2cbcb7682c40@000000_oswg380211oswg523oswg778_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>于是穿着两万的始祖鸟冲锋衣上班通勤也就有了合理解释：把对抗自然天气的功能元素挪到城市穿搭上，始祖鸟又何尝不是一种高喊着“自由”理想的城市游牧风？</p>
-<p><strong>于是穿着两斤重的游牧大衣挤地铁也成了打工人的自我救赎：毕竟在PPT里冲锋和在山野冲锋，总得选一个。</strong></p>
-<p><strong>参考资料：</strong></p>
-<p>1. 内蒙古非物质文化遗产平台，《 蒙古族服饰（巴尔虎服饰、察哈尔服饰、阿巴嘎服饰、苏尼特服饰、乌拉特服饰、巴林服饰） 》</p>
-<p>2. 时尚临风，《城市游牧风太火了，它才是今年最时髦的风格！》，2024.09</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzIwMDQ2NTA4MQ==&amp;mid=2247648522&amp;idx=1&amp;sn=9026fcab951e98a2e574db4ed11bf870&amp;chksm=97aedfb2bf726b52a060b3acecba769146acd7857debb5b62a64659f9530ba1e679bbcc0e530&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“Vista氢商业”（ID：Qingshangye666）</a>，作者：肘子，编辑：橘总，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173127905723272</guid><pubDate>Wed, 19 Feb 2025 15:41:00 +0800</pubDate></item><item><title>黑石完成一笔罕见退出</title><link>https://36kr.com/p/3173217541505925</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>近日，诺华宣布以31亿美元交易总价收购Anthos Therapeutics，背后大股东黑石实现退出。据悉，该交易预计将于 2025 年上半年完成。</p>
-<p>不同于传统并购案例，Anthos Therapeutics在2019年由交易的两位主角——诺华、黑石共同创立。如今6年过去，双方合作将心血管重磅药物推向全球，而股东之一黑石成功退出，通过早期2.5亿美元的投入撬动数倍回报，功成身退。</p>
-<p>一个出钱、一个出力，药企和投资机构共同分担风险，也共同迎接收益——眼下，这一被称作NewCo的模式，悄然在医药创投圈流行，为投资人和Biotech指出一条特殊的生存之路。</p>
-<h2><strong>黑石大赚一笔</strong></h2>
-<p>先从一场合作说起。</p>
-<p>2019年2月，MNC诺华牵手Blackstone Life Sciences，宣布将共同成立一家新生物制药公司Anthos Therapeutics，以开发治疗心血管疾病的创新药物——其中，Blackstone Life Sciences是黑石旗下生命科学投资平台，专注于投资新药和医疗技术，目前管理着 120 亿美元的资产。</p>
-<p>彼时双方约定，公司成立后，黑石作为资本方将提供2.5亿美金的A轮启动资金，并主导产品的开发；而诺华则将旗下FXI抗体MAA868（abelacimab）的全球权益装入Anthos，并保留少数股权——这一模式被称作“NewCo”，即“Newly Created Company”，一般由资本、团队、管线三部分组成：围绕特定创新药管线成立新公司，通过资本注入加速研发，最终以并购或上市实现退出。</p>
-<p>据悉，这款被称作abelacimab的单抗药物，是一种新型凝血因子 XI 抑制剂，旨在预防心房颤动患者的中风和全身性栓塞，以及防止癌症患者血栓复发，是Anthos Therapeutics管线中的唯一一款产品。</p>
-<p>此后六年，Anthos Therapeutics进行了紧锣密鼓的研发，直到今年1月公布的临床试验中，abelacimab亮眼的表现引发围观：与全球畅销抗凝药物利伐沙班相比，其大出血风险降低67%，胃肠道出血风险减少89%。此外，abelacimab还曾获得FDA两项“快速通道”资格，并进入多项三期临床试验，市场潜力巨大。</p>
-<p>回想当年，诺华为了将资源集中于快速发展的另一款心血管药物，选择剥离优先级较低的abelacimab。如今随着其专利到期压力临近，诺华选择高价将abelacimab收回以补充后期资产，当属情理之中。</p>
-<p>另一边，通过这次NewCo退出，黑石也如愿赚了一笔：根据公告，Anthos Therapeutics股东将获得 9.25 亿美元的预付款。此外，如果实现某些监管和商业里程碑，Anthos Therapeutics股东还有权获得超20亿美元的长期兑付。对比当年仅2.5亿美元的初始投入，这样的回报实属丰厚。</p>
-<p>值得一提的是，这也是Blackstone Life Sciences对旗下控股公司的最大一笔退出。Anthos Therapeutics主席兼Blackstone Life Sciences全球负责人表示，该交易是对资产管理公司所有权战略的“肯定”——“我们在寻求寻找创新产品并围绕它们建立公司，以满足未满足的患者需求。”</p>
-<p>而NewCo的模式也被黑石延续了下来：2021年，Blackstone Life Sciences再度联合两家生物医药公司，成立CAR-T新势力公司AvenCell Therapeutics，针对难治性血液肿瘤疾病进行技术研发。如若公司未来数据积极，或许也将成为黑石退出案例中难忘的一笔。</p>
-<h2><strong>Biotech艰难，NewCo火了</strong></h2>
-<p>回望2024年，Biotech的生存之困有目共睹。</p>
-<p>IPO市场持续低迷，压力传导至一级市场。寒冬中的投资人出手愈发谨慎，“缺钱”成为行业主旋律。去年一位从业者表示，由于现金流断裂的情况愈演愈烈，行业不少公司已暂停研发或解散，名存实亡。</p>
-<p>另一边，并购承载了Biotech更多退出期待，却并不如想象般简单：据统计，2024 年A股整体并购数量较上一年增长2%，但医药生物行业的并购数量却呈下降趋势，全球生命科学并购交易数量更是相比下降了8%。阿斯利康收购亘喜生物、诺华收购信瑞诺等明星案例背后，初创Biotech依然困在估值低、定价难、成交难等困境中。</p>
-<p>退出困难，融资受阻，Biotech急需一味良药——已在国际市场上成熟运作的NewCo模式映入眼帘。此前招银国际资本总经理周可祥就曾解释称，NewCo其实是在医保支付、投资退出的双重困境下选择的一种变现方式，因为它同时兼顾了BD和融资。</p>
-<p>去年以来，恒瑞医药授权管线给贝恩资本获最高60亿美元收益，点燃国内NewCo热潮。从康诺亚、嘉和生物等上市公司，到岸迈生物、维立志博等临床阶段Biotech，纷纷拿出管线与海外基金合作，拿到一笔笔资金。君实生物更是联手幂方健康基金，成立国产NewCo安领科生物，实现这一模式的本土化创新。</p>
-<p>既能打开融资路径，又能在大药企背书下推进商业化，还能在退出上获得先机，不少手握创新药资产的Biotech跃跃欲试。2025开年，创新药就开启“一天一个NewCo”的盛况，映恩生物、康诺亚、和铂医药等纷纷完成交易，打开局面。</p>
-<p>水面之下，投资人们也纷纷开始盘算，被投企业有哪些可以通过NewCo出售的项目，尤其是那些IPO受阻、融资困难的高估值Biotech们，它们曾经在宽松时期大规模铺张管线、囤积人才、建厂研发，手握丰富管线而不愿贱卖项目或资产，急需新的资金血液和退出路径。</p>
-<p>不过，这条道路仍然遍布荆棘。一方面，NewCo的一大本质仍是融资，能促成交易者终究是少数，交易难度不比BD或并购要小，需要平衡创新各投资方获益的方式；另一方面，对于管线较少的Biotech而言，每各资产都牵扯着估值和投资人的利益，难以抉择。</p>
-<p>这是一条崭新的探索之路。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/nXY25E9fU8Y-aBgvd_VB6A" rel="noopener noreferrer nofollow" target="_blank">“并购最前线”</a>，作者：岳笑笑，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173217541505925</guid><pubDate>Wed, 19 Feb 2025 15:41:00 +0800</pubDate></item><item><title>月活快追上优酷的红果短剧，能不能成为字节的下一个「抖音」？</title><link>https://36kr.com/p/3173144727257990</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>兴起不到六年的短剧，马上就要追上长视频平台。</p>
-<p>QuestMobile 数据显示，红果免费短剧 App（以下简称红果短剧 App）在 12 月的月活用户规模已飙升至 1.58 亿，同比暴增 551%，与优酷的差距只剩不到 3000 万。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_e5ef4ab87cea49f583b5005bc58bb2fe@000000_oswg57063oswg960oswg644_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">红果短剧 App 用户规模已飙升至 1.58 亿｜图片来源：QuestMobile</p>
-<p>从去年 3 月的日活 2000 万到如今单月逼近 1.6 亿用户，这款诞生不到两年的 App 正超速完成对传统长视频平台的弯道超车。</p>
-<p>一个更深刻的行业变革正在发生——短剧生态重构影视产业格局。</p>
-<h2><strong>01 红果短剧，火箭式增长</strong></h2>
-<p>红果短剧 App 的一骑绝尘，其实在去年就开始了。</p>
-<p>根据 QuestMobile 的数据，2024 年 3 月，红果短剧 App 月人均单日使用时长高达到约 1.38 小时，优爱腾芒均已落下风，同时，日活用户突破 2000 万大关——此时距离抖音集团正式推出红果短剧刚过去一年多。</p>
-<p>时间再往后推 7 个月，有消息称，红果短剧 App 的日活已经超过 3000 万。</p>
-<p>观研报告显示，在 2024 年中国互联网价值榜中，红果短剧高居 App 用户规模增长 TOP 榜（亿级）榜首，同比增长 1046%，近乎 10 倍。根据行业估计，2025 年上半年红果短剧将大概率实现 DAU 破亿。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_9818b5d86f9e4a3c8202f4e1f5b5b25b@000000_oswg78264oswg960oswg606_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">红果短剧 App 月人均单日使用时长超过优爱腾｜图片来源：QuestMobile</p>
-<p>短剧行业正在疯狂增长，红果短剧 App 应该很快会成为字节跳动下一个 DAU 过亿的产品，成为一个新的共识。</p>
-<p>短剧的兴起可追溯到 2018 年前后，伴随抖音、快手等短视频平台的兴起，一批创作者开始尝试以幽默、搞笑、反转为题材的剧情类短视频，这被视为微短剧的雏形。</p>
-<p>到 2021 年，微短剧创作从「草根」走向「正规军」，专业工作室和各大平台如抖快、爱优腾纷纷入局，行业进入疯狂增长期。这一爆发式增长背后有两大关键因素：</p>
-<p>第一是内容形式契合用户需求，短视频平台的兴起催生了电影、电视剧解说等短平快内容需求的热潮，但二次创作绕不开版权问题，原创（也就是短剧）成为这类需求的正解。</p>
-<p>第二是短视频引流的高 ROI 效应，抖快崛起以后，国内效果类广告的盘子飞速增长，高 ROI 的品类可以借助平台的力量快速增长。而短剧天然是最适合短视频平台引流的品类，早期投流 ROI（投资回报率）更是一度高达 2，远超行业平均水平（1.2）。高 ROI 吸引大量投流公司从小说转向短剧，推动行业快速扩张。</p>
-<p>随着短剧用户的快速增长，免费模式逐渐成为行业趋势。红果短剧 App 的免费模式不仅吸引了大量用户，还通过广告收入为内容出品方提供了可观的收益。</p>
-<p>去年 12 月，红果短剧 App 版权合作负责人袁子超对外透露，2024 年 6 月，红果短剧实现首次分账过亿，9 月超过 2 亿，11 月分账超过 3 亿。</p>
-<p>袁子超称，过去一年尤其是过去半年，短剧变现模式有一个趋势变化，即从传统的用户付费，变成目前付费和广告变现并存的形式，红果短剧一开始就选择商业投放和自然推荐之路，并将受益于这种变化。</p>
-<p>此外，虽然是短剧 App，但除了短剧，红果上还有电影、电视剧、听书、小说、漫画等各种形式的内容。同时，红果短剧推出了精品短剧合作计划，在覆盖大量免费短剧的同时，也对精品短剧下注，这个发展态势，有点会让人联想到拼多多的成长路径。</p>
-<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_5ce194770b1f4f388c5cba552a34d5be@000000_oswg210453oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p class="img-desc">红果短剧上内容品类众多｜图片来源：极客公园</p>
-<p>回顾过往，拼多多曾经在被认为大局已定的电商市场，迅速崛起——从「砍一刀」、「拼单」牵引对社交流量的利用，也从符合人性的低价和下沉市场切入，并充分利用了中国过剩的制造资源，后来形成规模升级品质，再拓展到全品类，渗透到全人群。而红果的发展路径也遵循了类似的轨迹：初期免费吸引用户，随后引入精品内容，与传统影视公司合作，提升内容质量，试图覆盖更广泛的用户群体。</p>
-<p>视频领域看起来正在重演「拼多多式崛起」的故事。</p>
-<h2><strong>02 短剧生态重构</strong></h2>
-<p>刚过去的 2025 年短剧春节档，免费短剧占据了主流。但短剧行业爆发的特点，决定了短剧早期的商业模式是付费为主。通常前几集是免费的，之后需要付费几十元不等解锁，出品方利用信息流广告进行推广，引导用户通过点击广告跳转到小程序观看短剧付费。</p>
-<p>随着行业的发展，一些新的商业模式也开始出现，比如分账剧和定制剧。其中，分账剧由平台按评级*流量（会员拉新、充值）分账；定制剧由客户全额投资，植入广告。这两种模式为行业提供了更多元化的变现手段，推动了短剧市场的发展。</p>
-<p>而随着用户量级进一步提升，就像当年的网络小说一样，免费模式的时机已经到来。2023 年 5 月，抖音推出「红果免费短剧」，并在三个月后上线独立 App，到 2024 年 11 月，其日活已经超过 5000 万。</p>
-<p>伴随着红果短剧 App 用户的飞速增长，免费短剧模式进一步被验证。在刚过去的 2025 年春节档，短剧虽然并没有像去年一样出现爆款扎堆的现象，但不同于前一年春节档付费短剧占据市场，2025 年春节档则出现了大量免费短剧，同时短剧的商业模式与生态业已发生改变。</p>
-<p>首先，有了一定的用户基数和高效的广告等商业化系统，红果短剧这样的免费平台可以不用向用户直接收费，而是通过免费吸引用户，进而吸引广告主和创作者，形成飞轮效应快速增长。</p>
-<p>并且在付费模式下，制作方的收益率只有 3%，分成天花板低，而红果短剧的免费短剧模式分成天花板更高，对行业发展更友好。</p>
-<p>不同于付费买断模式下，收入主要依赖于前一周甚至前三天的付费。免费模式下，一部短剧的首月分账仅占全生命周期收入的 20% 到 30%。</p>
-<p>而随着时间推移和新用户的不断涌入，其累计分账收入会大幅增长，甚至超过传统付费市场的爆款短剧，红果短剧的长期分账机制为创作者提供了持续稳定的收入，这种模式不仅延长了短剧的生命周期，还提升了爆款率和收入天花板，可以激励创作者投入更多资源创作优质内容。</p>
-<p>同时，红果的高速增长也为短剧提供了持续的市场空间。一方面，新用户不断涌入，使得老剧对新用户而言仍然是「新剧」，从而延长了内容的生命周期，进一步优化了分发效率；另一方面，免费模式能够有效挖掘短剧的长尾价值。付费模式下，短剧的生命周期较短，而免费模式则能够持续吸引那些不愿意付费但愿意观看广告的用户，延长内容的价值周期。</p>
-<p>这种模式不仅推动了短剧行业的发展，还改变了内容预算的分配格局。袁子超称，以红果为代表的免费模式给整个内容行业提供的预算已经超过了传统渠道给行业提供的内容预算，而且差距会不断扩大，这为创作者和制作团队提供了更多资金支持，也推动了短剧整个行业的向前发展。</p>
-<p>红果短剧的崛起，本质上是字节跳动依托流量生态与算法优势，对视频消费场景的又一次精准狙击。免费模式通过广告分账机制和长尾内容价值挖掘，不仅颠覆了传统付费短剧的「速生速死」逻辑，更以日均 1.38 小时的用户时长反超长视频平台，力推短剧从「碎片化补充」升级为「主流娱乐选项」。</p>
-<p>狂飙背后也有隐忧浮现：2025 年春节档超 400 部短剧却无破圈爆款，热度仅 6000 万左右，暴露出内容同质化（大多为「直白欲求」题材）与精品供给不足的瓶颈。</p>
-<p>在短剧市场规模持续增长的同时，用户对短剧内容的需求也在进一步提升，精品短剧已经是行业升级的必然选择。</p>
-<p>当免费模式解决了用户触达问题后，精品化将成为撬动广告溢价和用户付费意愿的核心杠杆。</p>
-<p>短剧行业接下来的竞争，终究要回归「内容价值」的本质——只有精品化，才能让短剧从流量快消品升级为可持续的文化消费品，而也这正是内容品类从野蛮生长迈向成熟升级的必经之路。</p>
-<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653074025&amp;idx=1&amp;sn=17e75393a7856350656ecabfbdacbdc9&amp;chksm=7f7ada745d390b901d15ed7ff8faca7a9c365baf49ad0ab3698a96cde358222cbf963ddd6268&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“极客公园”（ID：geekpark）</a>，作者：连冉，编辑：郑玄，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173144727257990</guid><pubDate>Wed, 19 Feb 2025 15:42:00 +0800</pubDate></item><item><title>从溃败到起飞，中国最大餐饮公司做对了什么</title><link>https://36kr.com/p/3173223505789832</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>中国最大餐饮公司百胜中国背后，站着一个叫作屈翠容的女掌门。自2014年进入百胜中国以来，屈翠容两次带领这家公司，从溃败走向起飞。刚刚过去的2024年，她更是带领百胜中国一年狂入822亿元，创下了历史新高。她到底做对了什么？</p>
-</blockquote>
-<p>中国最大的餐饮公司是谁？</p>
-<p>运营着肯德基、必胜客等知名餐饮品牌的百胜中国，摘得此头衔。这家公司拥有大约40万名员工，每年服务近20亿人次，在全国开了16000多家门店。</p>
-<p>百胜中国背后，站着两个大功臣。一个是百胜中国的奠基人，有着“中国快餐教父”的前主席兼CEO苏敬轼。另一个则是百胜中国现任CEO，有着“中国餐饮大姐大”之称的屈翠容。</p>
-<p>作为百胜中国的女掌门，屈翠容自2018年全面掌权以来，做了不少事。她不仅抚平了大环境波动给百胜中国带来的创伤，还将这个“庞然大物”送到了梅花桩上起舞。</p>
-<p>在52岁屈翠容的带领下，2024年百胜中国狂入822亿元，创下历史新高。她是怎么做到的？</p>
-<h2><strong>01 靠两大王牌一年狂入820亿</strong></h2>
-<p>北京00后张清现在也能经常吃必胜客了。要知道，作为中国人西餐启蒙的必胜客，其客单价在很长一段时间里，比其他竞争对手要高一些。以披萨市场为例，大众点评数据显示，达美乐披萨客单价为55元上下，而必胜客的客单价为90元以上。</p>
-<p>这一度让喜欢吃必胜客，但收入不大稳定的张清很不开心。不过，从去年开始，张清“必胜客价格打下来就好了”的愿望成了真。2024年4月，必胜客推出一人食单品“比萨堡”，定价19.9元起，这比一些区域平价品牌，如尊宝比萨等单品价格更低。</p>
-<p>6月的“外卖披萨买一送一”促销活动后，时间来到了12月，张清又发现，必胜客祭出“一价到底”菜单。这份菜单在推出近40个新品的同时，30个标志性产品价格降低了。其中，披萨价格降至36.9元起，意面降至19.9元起，有7款产品价格低至9.9元。</p>
-<p>也因此，张清在过去一年，妥妥地实现“必胜客自由”了。不仅如此，令张清感到高兴的是，另一洋快餐肯德基的价格，也被百胜中国打下来了。同样是在去年4月，肯德基推出“9.9元汉堡券”限时活动，包括原味鸡汉堡、香辣鸡腿堡等4款产品，价格拉到10元以下。</p>
-<p>6月，肯德基还推出了“疯狂星期四”系列。张清尤其喜欢吃果汁风味锅包肉，其味道不仅可口，价格还实惠，只需要9.9元。“小龙虾堡”和经典“肉霸堡”回归的同时，肯德基还打出“限时2堡29.9元”的促销优惠。</p>
-<p>这让过去一年的张清，光顾肯德基的次数，变得多了起来，“省了不少饭钱的同时，还能吃到一些新美食”。也正是在这样的大背景下，过去一年，主攻性价比路线、不断创新菜品的百胜中国，靠必胜客和肯德基两大王牌，将营收干到了113亿美元，折合人民币822亿元。</p>
-<p>其中，净利润由2023年的8.27亿美元增长10% ，至2024年的9.11亿美元。营收和净利润均创下了历史新高。对于旗下两大王牌的打法，屈翠容有自己的理解：“肯德基扩大了价格范围，降低了配送费。”以2024年第四季度为例，其客单价为38元，比去年同期低4%。</p>
-<p>至于必胜客，“是通过创新保持了利润平衡，并观察到了非常不错的交易量增长。”但要说必胜客过去一年最大的“创新”，莫过于强调极具性价比、对标萨莉亚的“必胜客WOW”新店型了。</p>
-<p>与必胜客常规店定位为休闲西餐厅不同的是，必胜客WOW店定位更偏向于高性价比、便捷快餐模式，其目标客群主要是追求实惠、快捷的年轻消费者，如学生群体、上班族等，以及对价格较为敏感的家庭客群。</p>
-<p>这些门店一般开在写字楼附近、社区集中地、超市内或附近，面积相对较小，装修风格简约，整体价格相对较低。如北京首家必胜客WOW店菜单显示，夏威夷风味披萨25元，芝香和牛披萨普通装为55元。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,706" src="https://img.36krcdn.com/hsossms/20250219/v2_8de1033f3b7e47f49680d3babcc0cf04@5091053_oswg163538oswg1080oswg706_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>由此可见，在必胜客WOW店，有很多50元以下的披萨可供选择。过去一年，必胜客WOW门店数量已超过200家，售价低于50元的披萨销售额按年增长50%。这也使得必胜客的一些数据，比肯德基更为好看。</p>
-<p>2024年，必胜客不仅连续八个季度增长，同店交易同比增长率也表现良好。以增长最高的第四季度为例：必胜客同店交易同比增长9%，肯德基同店交易增长3%。不过，即便如此，肯德基仍然是百胜中国当之无愧的顶梁柱。</p>
-<p>过去一年，肯德基营收85.09亿美元，必胜客营收22.6亿美元，肯德基的营收规模约是必胜客的3.77倍，且3.3%的增速也高于必胜客的0.6%。肯德基为何发展势头凶猛？肯德基外卖销售，占据不小的比重，约为肯德基公司餐厅收入的40%。</p>
-<p>肯悦咖啡也为肯德基的业绩添砖加瓦。肯悦咖啡面向年轻消费者，以及对高性价比咖啡有需求的家庭客群，主要紧邻肯德基餐厅开设门店，与肯德基共享厨房、供应链与客流量。目前，肯悦咖啡80%的门店，分布在安徽、河南、辽宁等省的二、三线城市。</p>
-<p>《财经天下》梳理发现，肯悦咖啡以9.9元为主打价格，覆盖美式、拿铁、气泡咖啡等基础品类，还推出了6.6元蛋挞dirty等促销单品，以及“吮指原味鸡风味拿铁”等跨界创新产品。从百胜中国公布的信息来看，2024年肯悦咖啡共卖出2.5亿杯咖啡，同比上升30%。</p>
-<p>这跟2014年，屈翠容进入百胜中国时，所面对的处境截然不同。</p>
-<h2><strong>02 从溃败到起飞，她做对了什么？</strong></h2>
-<p>将时间的指针拨至百胜中国还没有独立分拆出来，尚是百胜餐饮集团中国事业部的时代。</p>
-<p>自1998年正式被任命为百胜大中国区总裁后，苏敬轼凭借着“能理解消费者的需求，从而厘定策略来建立消费者的信任和忠诚度”“懂得如何掌管和发展业务，也会吸引顶尖的人才”的特质，不仅将肯德基从4家开到了4000家，还让中国事业部的营收，给集团业务贡献了半壁江山。</p>
-<p>然而，自2013年以来，百胜中国陷入了内忧外患的境地：受到“白羽鸡使用激素”“福喜肉”风波冲击的同时，又遭到中国本土快餐品牌比如真功夫，长期竞争对手国际快餐巨头麦当劳的多面夹击。</p>
-<p>苏敬轼带领百胜中国收购的小肥羊，创立的自有品牌东方既白等，也存在多品牌管理上的困难。例如小肥羊被收购后门店下滑严重。2009年收购小肥羊之后，苏敬轼也想对这个中餐品牌实行标准化管理，但最终并没有达到预期效果。</p>
-<p>也正是在百胜中国风雨交加的这个时间节点，苏敬轼公布了退休计划。接任苏敬轼担任百胜中国首席执行官的，是曾负责塔可贝尔这个快餐连锁国际市场开拓的潘伟奇。几乎是同一时间，担任肯德基中国总裁已经快一年的屈翠容，晋升为肯德基中国首席执行官。</p>
-<p>上任之后的那一年，屈翠容带领肯德基打了个翻身仗：以超过40多亿美元的营收，占百胜中国营收的70%左右。百胜中国也因此结束了连续三年同店销售周转率为负的尴尬局面。在随后的一年时间里，屈翠容的职位连跳两级。</p>
-<p>她先是在2017年2月，担任百胜中国总裁兼首席运营官，后是在2018年3月，成为百胜中国首席执行官。此时，完成百胜中国独立分拆和上市使命的潘伟奇，宣布离职。至此，女掌门屈翠容的百胜中国时代正式到来。</p>
-<p>尽管受大环境的影响，百胜中国的业绩又一次出现了下滑，2020年和2022年营收分别同比下降6%、3%，但随着大环境的好转，屈翠容及时调整战略，百胜中国不仅从2023年开始复苏，还在2024年创下了营收和利润的双新高。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250219/v2_c1519d9747254bf591471c39d5760da0@5091053_oswg109978oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>百胜中国为何能两次对冲风险，实现命运大反转？在资深餐饮人士王枫看来，有几步，屈翠容走对了。比如百胜中国紧贴中国本土化，进行菜单的创新。首先，对于餐厅汉堡、炸鸡以及披萨等传统大单品，屈翠容结合国内消费者口味偏好，先后推出小龙虾烤鸡堡、藤椒烤鸡披萨、海苔薯片脆皮鸡等单品。</p>
-<p>这些年来，肯德基还推出了不少中式早餐产品，如粥品、大饼、饭团等。2021年1月，肯德基还在武汉推出热干面，在杭州推出小笼包。2024年6月，“疯狂星期四”系列上新的果汁锅包肉，是将中国东北传统名菜进行创新，使其更符合快餐消费场景。</p>
-<p>至于必胜客，考虑到中国消费者对榴莲的喜爱，其将榴莲作为主要馅料推出榴莲披萨。与此同时，必胜客还推出了多种符合中国消费者口味的小龙虾披萨，如麻辣小龙虾披萨、十三香小龙虾披萨等。这些本地化的食物，对上了中国人的口味。</p>
-<p>数字化和外卖业务，是屈翠容打开困局的关键原因。这些年，百胜中国不断优化线上点餐系统和流程，提高了数字订单收入占比。与此同时，百胜中国还推出弹性商圈，按附近门店运营时间，为每家餐厅在不同用餐时段动态调整外送范围，最大化提升外送的效率。</p>
-<p>张清工作忙的时候，懒得下楼都靠点外卖度日。每次下单后，通常不到30分钟，肯德基 “宅急送”配送员，就会将食物送到张清家门口。</p>
-<p>从去年开始，张清还发现，肯德基的配送费用，从9元降到6元了。“这更省钱了，回购率也会变高。”不仅如此，自2023年开始，屈翠容加大百胜中国的开放加盟力度。</p>
-<p>在很长一段时间里，百胜中国大多数餐厅为直营模式，这能保证百胜中国标准化管理的贯彻实施。不过，加盟模式的放开，在一定程度上，对百胜中国冲规模更有帮助。规模上来了，总营收也上来了。2024年百胜中国门店净新增1751家：肯德基净新增门店1352家，必胜客净新增门店412家。</p>
-<p>即便是加盟，百胜中国也颇为谨慎。以肯德基为例，“其主打不从零开始的加盟模式，只将经营较为成熟的餐厅转让给加盟商。”王枫解释道，这避免了加盟商开店失败的风险。但这并不意味着“中国餐饮大姐大”屈翠容就没有烦恼。</p>
-<h2><strong>03 “中国餐饮大姐大”也有烦恼</strong></h2>
-<p>屈翠容手握一个大女主剧本。她出生于中国福建农家，中国香港长大，美国上学，英国工作，回到中国。最终，屈翠容接手国内最大餐饮公司——百胜中国。</p>
-<p>从她的人生轨迹来看，屈翠容从不会向命运低头。同行是这样评价她的：“达成优异业绩方面一直表现卓越”“能将愿景和战略转化为世界一流运营的非凡能力”。也正是这些特质，屈翠容成功改造了不少企业。</p>
-<p>比如在加入百胜中国之前，屈翠容在英国屈臣氏接手过两个老品牌，一是创办于1966年、屈臣氏旗下的美容保健老字号Superdrug；二是它的姊妹品牌，曾亏损高达4000万英镑的Savers。这两个品牌，在屈翠容的运营下，重新扭亏为盈。</p>
-<p>从目前来看，屈翠容改造肯德基、必胜客，取得的效果还不错，但她也有一些烦恼。在中国的下沉市场和快餐领域，新兴品牌如华莱士、塔斯汀等发展迅速，这些品牌在产品定位、营销方式等方面有其独特之处，给屈翠容和百胜中国带来了竞争压力。</p>
-<p>以塔斯汀为例，其以“中国汉堡”为特色，推出了如麻婆豆腐汉堡、辣椒炒肉汉堡、小龙虾汉堡等具有中式风味的产品，更符合中国消费者的口味偏好。塔斯汀约70%的门店分布在二到五线城市，在下沉市场的布局较为深入，更能满足三、四线城市及以下地区消费者的需求，与百胜中国在一、二线城市的竞争形成差异化。</p>
-<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250219/v2_d50feb470fda4871b1f29c12e361419b@5091053_oswg54308oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p>塔斯汀的人均消费相对较低，通常在15~20元。一些套餐组合价格实惠，如9.9元的套餐，量大管饱。不仅如此，塔斯汀还经常推出各种优惠活动，周二会有“穷鬼套餐”，这对价格敏感的消费者具有较大吸引力。</p>
-<p>这意味着，屈翠容领导下的百胜中国，在应对这些新兴品牌竞争时，需要在下沉市场进行策略调整，以及创新速度等方面，更灵活和及时、快速有效地推出针对性的竞争策略。</p>
-<p>令屈翠容头疼的，恐怕还有百胜中国旗下的一些中餐品牌。它们要么宣布停止运营，比如快餐品牌东方既白；要么近几年的盈利状况并不乐观，比如以焖锅为主打的餐饮品牌黄记煌。</p>
-<p>东方既白这个中式快餐品牌，由百胜中国创立于2005年，曾有过快速扩张阶段，门店数最高达100多家。但2012年以后，东方既白颓势明显，逐渐撤离广州、杭州等市场。</p>
-<p>2020年，东方既白进行全新升级，改为“包子铺”，但最终未能扭转局面。2021年3月1日，百胜中国发布2021年度报告，宣布终止运营东方既白，关闭所有门店。</p>
-<p>“定位模糊、口味与品质缺乏特色、选址局限、标准化难题、创新与升级不足等，都是东方既白关门大吉的重要原因。”王枫向《财经天下》分析称，归根结底，百胜中国是西式快餐的基因，在中式快餐上显得水土不服。</p>
-<p>至于小肥羊，屈翠容自2018年全面掌舵以后，针对这个蒙式火锅品牌，也进行了一系列的改革。比如转变选址策略，将1000平方米左右的街边店，调整为300平方米的商场店。门店装修风格也走向年轻化。</p>
-<p>以北京凯德MALL大峡谷店为例，采用原木色和绿色两种主色，以暖黄灯光为主色调，还多用漫画等年轻人喜欢的元素进行呈现。但只可惜，最终效果仍不尽如人意。究其原因，“小肥羊的商业模式，限制了它的发展。并且，船大掉头难”。</p>
-<p>王枫曾在百胜中国一家代理公司任职。这家代理公司最高峰期，一度运营着百胜中国旗下几十家品牌店，其中就有小肥羊。“小肥羊的店型太重了，因定位为家庭聚餐的缘故，小肥羊每家店都有包间，即便从1000平方米改成300平方米，还是太大了，且后厨基本能占到70~80平方米，坪效太低了。”</p>
-<p>在王枫看来，小肥羊的味道也淡，很多爱吃川味火锅的人，并不喜欢吃小肥羊。尽管小肥羊也曾推出了一些川式单人锅，“但小肥羊的秘制底料，是中药食材熬出来的，有一种孜然的味道，很多人不喜欢这个味道”。</p>
-<p>不过，自2023年开始，在屈翠容的主导下，百胜中国瞄准单身经济，开启了回转火锅的模式，陆续将门店开进了上海、南京、成都、乌鲁木齐等城市的商场里。最新数据显示，2024年上半年，小肥羊被百胜中国收购以来，首次实现了门店数量正增长。</p>
-<p>小肥羊开了个好头的大背景下，百胜中国未来能否如屈翠容所期待那样“多品牌协同拓展市场？”“得看她的‘投石问路’，探下的是深是浅了。”末了，王枫抛出了这么一句话。</p>
-<p>（文中人物张清、王枫为化名）</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1dGG7tWYG-jS7KB3PVVdOQ" rel="noopener noreferrer nofollow" target="_blank">“财经天下WEEKLY”</a>，作者：易浠，编辑：吴跃，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173223505789832</guid><pubDate>Wed, 19 Feb 2025 15:45:00 +0800</pubDate></item><item><title>255亿报价，网传这款曾“火遍全球”的游戏将要被卖掉</title><link>https://36kr.com/p/3173141476000645</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 19 Feb 2025 16:30:29 +0800</lastBuildDate><pubDate>Wed, 19 Feb 2025 16:30:29 +0800</pubDate><item><title>255亿报价，网传这款曾“火遍全球”的游戏将要被卖掉</title><link>https://36kr.com/p/3173141476000645</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>彭博社报道，据知情人士透露，《Pokémon Go》（精灵宝可梦Go）的开发商Niantic Inc.正在与沙特阿拉伯拥有的Scopely Inc.洽谈出售其视频游戏业务。</p>
 <p>交易可能会在未来几周内宣布。其中一位知情人士称，双方讨论的价格约为35亿美元（约合人民币255亿）。另一位知情人士表示，任何协议都将涉及《Pokémon Go》以及其他移动游戏——由于讨论是保密的，这些人士要求匿名。目前尚不能保证双方会达成协议，彭博社为此联系了Niantic和Scopely的代表，但均拒绝置评。</p>
 <p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_e05fd80aaef84b2ab2bd91e3f64c2f56@000000_oswg25856oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
@@ -549,4 +162,338 @@
 <p>笔者认为，文和友最大的特色标签是“长沙”，莫不如在扩张的过程中坚持这一特色。而至为重要的是，文和友是以体验+餐饮存在的商业体，体验是其最大的核心优势。怀旧的场景空间只是静态体验的一方面，在日常经营中，文和友在体验上需要保持一定的“焕新”频率，增加更为生动的具有特色文化的体验进入，譬如传统的相声、演艺等等，真正让文和友更加具有丰富的可观赏性。另外，在餐饮品类上，打造“新时代的湘菜”，根据当地口味将湘菜进行适当的改良，充分发挥湘菜中最经典最具影响力的品类。</p>
 <p>走出长沙是文和友必然的使命，但到底是保持鲜明的地方特色还是千城千面地融入地方，文和友需要充分审视自身的能力优势并在经营过程中坚持核心定位、发挥优势的同时灵活变通，及时调整。</p>
 <p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/8aZkRTkwAguX6R5Xxin9dg" rel="noopener noreferrer nofollow" target="_blank">“新零售”</a>，作者：和二，编辑：蔡建桢，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173191710735874</guid><pubDate>Wed, 19 Feb 2025 15:53:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173191710735874</guid><pubDate>Wed, 19 Feb 2025 15:53:00 +0800</pubDate></item><item><title>62岁女老板，卖纸杯给霸王茶姬，年入20亿</title><link>https://36kr.com/p/3172895019024136</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>当新茶饮品牌们还在资本市场门口排队时，背后的供应商已陆续上市。</p>
+<p>2021年，为蜜雪冰城、奈雪的茶提供餐饮具的家联科技登陆深交所创业板；2023年，为茶百道、奈雪的茶、一点点提供果蔬原料的田野股份在北交所上市，成为北交所第167家上市公司。为喜茶、星巴克提供杯子的南王环保科技和恒鑫生活，也在排队IPO中。</p>
+<p>今年1月23日，富岭股份登陆深交所主板市场。上市首日，富岭股份开盘大涨，发行价5.3元，盘中最高涨至30元，收盘23.28元，涨幅高达339%。截至2月18日收盘，富岭股价回调至13.87元，总市值为81.7亿元。</p>
+<p>作为一家纸制与塑料餐饮具供应商，富岭股份的主要客户有霸王茶姬、茶百道等消费市场中耳熟能详的新式茶饮品牌，以及肯德基、赛百味、温迪汉堡等国际巨型快餐连锁企业。</p>
+<p>招股书显示，富岭股份2021~2023年营收持续上涨，2022年营收高达21.54亿元，当年净利润更是达到2.55亿元。</p>
+<p>当霸王茶姬、茶百道们还在用“买一送一”“9.9元价格战”争夺用户时，富岭股份已将上游利润装进腰包。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,732" src="https://img.36krcdn.com/hsossms/20250219/v2_3f0c691d2b414608b1bc52c6d7b516ee@1407167623_oswg165861oswg1080oswg732_img_jpg?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>卖纸杯给霸王茶姬，年入20亿</strong></h2>
+<p>1992年，时年29岁的江桂兰与丈夫在浙江台州温岭租下三间平房开始生产塑料盆等日用品。33年后，这对夫妻一手创立的富岭股份成为新茶饮行业的主要供应商之一。</p>
+<p>在那个千家万户离不开塑料制品的年代，台州作为“塑料制品的王国和模具之乡”，是塑料企业的聚集地，市场竞争异常激烈，富岭股份可以说是在红海中艰难求生。</p>
+<p>1995年，是富岭股份具有转折意义的一年。当年，江桂兰参加了广交会，并成功拿到了两笔来自中国香港和欧洲的订单，为客户提供一次性塑料刀叉。虽然订单金额不大，但这两笔订单让富岭股份打开了新的市场。此后，江桂兰将业务重心转向境外，积极拓展境外客户。</p>
+<p>到了2002年，富岭股份凭借免除模具费等优惠策略，成功获得了为肯德基中国市场供应刀、叉等产品的试产邀请。要知道，肯德基对产品卫生和规格标准有着近乎苛刻的要求，例如塑料餐具的厚度要精准控制在0.3毫米的误差范围内，还必须通过 FDA （美国食品药品监管局）认证，满足严格的验厂标准，并按照其管理程序进行生产。</p>
+<p>但彼时，富岭股份远未达到肯德基的要求。为了拿下这个重要客户，江桂兰远赴美国考察市场，回国后还筹措资金引进了50多台先进的注塑机，并对工厂进行全面升级改造。最终，富岭股份通过了肯德基的严格考核，并成为当时肯德基在中国大陆唯一指定的刀、叉类供应商。</p>
+<p>自此之后，富岭股份一跃成为当地塑料模具行业龙头。招股书显示，2021~2023年，公司营收分别为14.58亿元、21.54亿元、18.89亿元，归母净利润为1.16亿元、2.55亿元、2.16亿元，毛利率也逐年提升，分别为18.07%、22.30%、24.92%。2024年1~9月，富岭股份营收17.06亿元，同比上升27.71%，归母净利1.64亿元。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,259" src="https://img.36krcdn.com/hsossms/20250219/v2_4a1a51144d684ebebf3eb5ccab38f8a1@1407167623_oswg47595oswg1080oswg259_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">富岭股份营业收入情况，图源招股书</p>
+<p>值得注意的是，2023年，富岭股份成为霸王茶姬的供应商，为其提供纸杯产品。从历年产能利用率来看，2021~2024年1~6月，富岭股份纸质品（纸杯和纸吸管等产品）产能利用率分别为42.5%、57.28%、78.43%和81.73%。</p>
+<p>在招股书中，富岭股份特别提到，2023年以来，霸王茶姬成为公司纸杯的主要客户，其纸杯销量占比较高，且销售给霸王茶姬的纸杯主要就两种型号，使得成型机的利用率提升，从而使得纸制品的产能利用率提升。</p>
+<p>2023年，霸王茶姬为富岭股份带来1.72亿元收入，占总营收的比例为9.11%，霸王茶姬也一跃成为富岭股份第一大客户。</p>
+<h2><strong>变化是危机，也是机遇</strong></h2>
+<p>早在2020年，国家发展改革委、生态环境部印发《关于进一步加强塑料污染治理的意见》，提出“到2025年，地级以上城市餐饮外卖领域不可降解一次性塑料餐具消耗强度下降30%。”</p>
+<p>在富岭股份的产品结构中，塑料餐饮具是公司最主要的产品。招股书显示，2021年到2024年上半年，塑料餐饮具占总营收比例分别达到80.57%、84.58%、76.35%和70.36%，是公司营收支柱。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,335" src="https://img.36krcdn.com/hsossms/20250219/v2_ed6f32e5b0f448998e3c98ac55866865@1407167623_oswg61709oswg1080oswg335_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">主营业务收入按产品分类构成情况，图源招股书</p>
+<p>如今，在“限塑令”的倒计时下，不可降解塑料制品的市场空间被大幅压缩。此外，随着富岭股份拿下霸王茶姬、茶百道等国内茶饮大客户纸杯、纸吸管的订单，富岭股份要想在国内市场获得增量，势必要大力开发可降解材料的生产。</p>
+<p>从短期来看，“限塑令”的政策不会对富岭股份造成太大影响，因为富岭股份的主要销售地区为美国，主要出口产品为塑料餐饮具，比如刀叉勺、水杯、吸管、打包盒和打包碗等。</p>
+<p>不过也存在经营不确定性。目前，美国有5个州通过了限制一次性塑料吸管使用的法案，不排除未来对塑料制品的收紧，例如2024年美国曾宣布将到2027年逐步淘汰政府餐饮服务、活动和包装中使用的一次性塑料，但该计划并未在2025年执行。</p>
+<p>富岭股份也意识到了这些变化，也在提升可降解产品的销售额，拓展更多国内客户。从招股书可以看到，2024年上半年，富岭股份纸质品及其他业务的营收占比已经提升到23.75%。</p>
+<p>在招股书中，富岭股份还明确提到上市募集资金拟投入年产2万吨可循环塑料制品、2万吨生物降解塑料制品技改项目，主要目的就是为了增加可降解产品的生产和销售。</p>
+<h2><strong>海外市场占比七成，为新茶饮供货是把“双刃剑”</strong></h2>
+<p>在富岭股份的营收版图中，海外市场占据着举足轻重的地位。</p>
+<p>招股书显示，2021年到2024年上半年，海外市场销售收入占主营业务收入的比例分别为81.57%、85.5%、73.76%和71.33%。虽然这些年呈下降趋势，但还是稳定在70%以上。</p>
+<p>值得注意的是，美国市场是富岭股份最大销售市场，从2021年到2024年上半年，美国市场占据总营收比例分别为71.31%、76.45%、65.73%和 65.74%。</p>
+<p>富岭股份能扎根在美国市场，离不开2002年成功拿下肯德基的订单。当时，肯德基不仅为富岭股份带来了稳定的营收，还间接帮助富岭股份升级了产品线、产能和品控。这些产业基础让富岭股份陆续拿到了麦当劳、赛百味、温迪、汉堡王等跨国大型餐饮连锁品牌的订单。</p>
+<p>以塑料吸管产品为例，从2021年到2023年，富岭股份在美国市场的吸管销售额分别为1.4亿元、2.2亿元、1.8亿元，成为海外市场的明星产品之一。</p>
+<p class="image-wrapper"><img data-img-size-val="750,551" src="https://img.36krcdn.com/hsossms/20250219/v2_79e6011ce86842d6a287c6e1446c9101@1407167623_oswg43089oswg750oswg551_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">富岭股份旗下吸管产品，图源富岭股份官网</p>
+<p>然而，过度依赖美国市场也埋下了诸多不确定性，富岭股份在招股书中也提到，2019年5月之前，公司要产品塑料吸管、杯盖和纸杯等纸制品关税为3.1%、5.3%和0%，但在2019年5月之后关税分别为28.1%、30.3%和25%，这无疑会降低富岭股份的利润。</p>
+<p>为此，富岭股份将大部分塑料吸管产能和小部分杯盖产能转移至美国、墨西哥和印尼三个生产基地，以此降低关税影响。</p>
+<p>富岭股份海外市场的风险主要来自对塑料制品的管控以及贸易影响，而国内市场的风险则是可能来自大客户的流失。</p>
+<p>2022年，蜜雪冰城也曾是富岭股份客户，甚至跻身当年前十大客户。但2023年，蜜雪冰城就终止了与富岭股份的合作，直接导致富岭股份失去了上千万的营收。这背后原因或许在于蜜雪冰城自建的供应链体系。</p>
+<p>从蜜雪冰城最新招股书可以看到，2024年前三季度，蜜雪冰城销售商品的收入达176亿元，约占公司营业收入的94%，其中包括向加盟商销售的食材、包材等。例如杯子业务，2021年就为蜜雪冰城贡献了10.5亿营收。</p>
+<p>对富岭股份来说，现在的新茶饮大客户茶百道和霸王茶姬，也可能像蜜雪冰城一样自建供应链。2023年底，茶百道与霸王茶姬合资成立了四川容尚佳合科技有限公司、四川茶本元新材料科技有限公司，这两家公司生产的正是可降解包装材料等配套产品。</p>
+<p>新茶饮企业的这些动作无疑表明正在向供应链上游延伸，未来很可能会减少对富岭股份等外部供应商的依赖，甚至与富岭股份形成直接的竞争关系。</p>
+<p>从客户变对手，这是“富岭股份们”集体的危机。作为供应商，拥有核心技术或者独家产品，是其能在市场上持续立足的关键。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1_6y4bzvScRAMiiYOhHy2w?token=1977231068&amp;lang=zh_CN" rel="noopener noreferrer nofollow" target="_blank">“当代企业”</a>，作者：当代企业，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3172895019024136</guid><pubDate>Wed, 19 Feb 2025 16:12:00 +0800</pubDate></item><item><title>商业银行打响“黄金大劫案”</title><link>https://36kr.com/p/3172946320932353</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>你知道吗？现在买金饰不光可以去珠宝店，去银行也可以买各种克重、各种款式的金饰了！</p>
+<p>2024年，国际金价屡次突破历史新高，一度上涨至2800美元/盎司，并成为全球市场表现最为亮眼的大类资产之一。受国际形势影响，黄金及黄金产品价格水涨船高，一时间，“打金热”纷纷兴起。然而，已经处在高价的黄金也让不少消费者“望而却步”，因而关注起性价比更高的购买途径。</p>
+<p>近期，消费者们就发现了“新大陆”，一些银行不仅提供传统的金条，现在也直接卖起了黄金首饰，免去了消费者再加工的麻烦，价格竟比传统金店更亲民。</p>
+<h2><strong>1 为拓客不断出“新招”</strong></h2>
+<p>春节前后，工商银行、建设银行、中国银行等多家国有大行均上新了“生肖金”“蛇年金钞”“黄金压岁钱”等特色产品，主要形式是将黄金制成压岁钞、红包信封等形式，克重在1g左右，售价在几百至千元不等。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,547" src="https://img.36krcdn.com/hsossms/20250219/v2_787172875574476f99739cc3f22ce035@5057403_oswg86284oswg1080oswg547_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：建设银行“黄金压岁钱”</p>
+<p>工商银行推出“黄金年货节”活动，活动期间通过工行手机银行购买该行指定贵金属产品，即有机会享最高达400元的微信立减金。</p>
+<p>邮储银行同样推出贵金属贺岁活动，在指定交易时段内，通过邮储银行手机银行、个人网银、网点柜面等渠道购买指定邮储金新品，每克可立减4元。</p>
+<p>随着黄金消费和投资热情的提高，商业银行也加大了贵金属产品推广、营销力度。</p>
+<p>而除了春节特色的生肖金币、金钞产品外，不少银行今年拓宽了产品样式，上线吊坠、手镯、戒指、金锁、手串、转运珠等黄金饰品。其中不少产品成了“网红”，受到年轻人喜爱。</p>
+<p class="image-wrapper"><img data-img-size-val="1029,600" src="https://img.36krcdn.com/hsossms/20250219/v2_ade64c461b5448189b4ca934dd217a60@5057403_oswg744913oswg1029oswg600_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：招商银行“招福传家古法手镯”</p>
+<p>“买卖黄金，就到工行”，工商银行手机APP设置实物贵金属销售专区，其中爆款小金蛇吊坠一度显示缺货。与此同时，招商银行上线了整套“婚嫁”系列金饰，黄金打造的结婚证、三金套装、对戒、对杯、龙凤佩、红装九宝等。而民生银行北京地区某支行近期上线了“福气圆满”素圈手镯，手镯材质为足金9999，圈口固定为58mm，客户在购买前需要确认好尺寸。</p>
+<p>此外，黄金积存产品也是银行主力销售的重点。工商银行、中国银行、民生银行、兴业银行、招商银行、上海农商银行、广州农商银行等都推出与黄金积存有关的营销活动。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,2066" src="https://img.36krcdn.com/hsossms/20250219/v2_3ac7589c5d934eb199dc30d614ba30b6@5057403_oswg201369oswg1080oswg2066_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：“小红书”平台上用户对于在银行买金的看法</p>
+<p>如，招商银行产品介绍中显示，购买金生利2代，并根据约定持有一定期限后可获得黄金克重收益，即投资者认购后按约定延期提货可提取更大克重的实物金条。</p>
+<p>另外，还有多家银行通过优惠折扣等方式吸引投资者的目光。比如，民生银行的“缴费抽积存金兑换券”活动。上海农商银行客户每月成功申购积存金满2笔可获得30元微信立减金，每月成功申购积存金满4笔，则可获得60元微信立减金。</p>
+<p class="image-wrapper"><img data-img-size-val="709,565" src="https://img.36krcdn.com/hsossms/20250219/v2_2011246e43074ef79165220faee2886a@5057403_oswg250411oswg709oswg565_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：招商银行、建设银行APP产品界面</p>
+<p>火爆的市场表明，消费者对银行黄金产品的认可度正在上升，同时也反映出黄金作为投资和保值工具的吸引力。据了解，市场上小克重、新款式、精美外形的黄金首饰备受消费者青睐，大大促进了黄金首饰消费的提升。此外，部分消费者进店选购时会出示小红书等社交平台的种草款式，线上社交平台也在助力品牌扩大声量。</p>
+<p>数据统计显示，2022年中国内地金店消费市场最大群体为25-34岁年轻人，占比55%。可见，到银行购买贵金属的用户群体，可能真还是年轻人更多。</p>
+<h2><strong>2 到银行买金成为新潮流</strong></h2>
+<p>目前，银行的黄金产品销售势头强劲，部分产品甚至出现断货现象。</p>
+<p>背后的玄机是，有消费者发现，相较于传统金店，银行出售的金手镯等黄金饰品性价比更高，不仅价格更亲民，银行的背书让其纯度标准同样值得信赖。</p>
+<p>2025年以来，国际金价或将延续上涨行情，金饰价格水涨船高。2月初，周大福、六福珠宝足金饰品报869元/克，周生生足金饰品报872元/克。</p>
+<p class="image-wrapper"><img data-img-size-val="1000,560" src="https://img.36krcdn.com/hsossms/20250219/v2_570e8ac09ac148da82aa665ed9fa76da@5057403_oswg81527oswg1000oswg560_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：国际金价日益上涨</p>
+<p>为吸引消费者，不少银行推出的专属黄金产品在样式方面也不断拓宽。也有银行推出了金豆豆、金元宝等小克重黄金产品。银行加大贵金属营销力度的背后，与黄金市场消费热情高涨有关。春节期间，全国黄金珠宝类消费表现突出。国内黄金消费需求热贯穿全年。中国黄金协会数据显示，2024年全国黄金消费量1089.69吨，与2023年同期相比增长8.78%。</p>
+<p>据了解，银行所售饰品往往一口价中包含了基础金价和工艺费，且总价随着市场实时金价的变化浮动。而在实体金店中，虽然不少推出了优惠或折扣，但类似的黄金饰品，若算上工费，单价普遍在630元/克以上。</p>
+<p class="image-wrapper"><img data-img-size-val="627,340" src="https://img.36krcdn.com/hsossms/20250219/v2_4b2bf1904eff4dadaed3b66db84c7703@5057403_oswg50172oswg627oswg340_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：网友热议银行“干掉”珠宝店</p>
+<p>若以目前的趋势，单价会更高。值得一提的是，旺盛需求下，不少银行也乐意顺势而为。比如，除了加大线上实物品类供应，也有银行办起了以黄金为主的贵金属展会。</p>
+<p>相比传统金店的价格，再加上工艺费，对大多数消费者来说，银行的产品无疑更具吸引力。这种价格优势，加上银行品牌的信誉保障，使得黄金手镯成为消费者的新选择。</p>
+<p class="image-wrapper"><img data-img-size-val="637,327" src="https://img.36krcdn.com/hsossms/20250219/v2_9344788b4b7b4e79a3772565c754e007@5057403_oswg32541oswg637oswg327_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：某行客户经理接受采访</p>
+<p>某银行北京市分行公主坟支行客户经理 孟静：近三个月网点金饰品成交金额与去年同期相比，同比增幅达到30%以上。仅转运龙珠手串这一个贵金属小件，春节期间我们网点的销量超过600套。</p>
+<p class="image-wrapper"><img data-img-size-val="634,325" src="https://img.36krcdn.com/hsossms/20250219/v2_27835001bfef4b7d8c178c725c57746a@5057403_oswg35710oswg634oswg325_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：某行客户经理接受采访</p>
+<p>某银行东莞分行营业部个人金融业务负责人 吴武荣：我们分行今年以来吉祥金条销量同比增幅近50%，金条有“吉”“祥”两个图样，价格相对于各类品牌金店来说，优惠6%左右。</p>
+<h2><strong>3 为什么银行开始“不务正业”</strong></h2>
+<p>银行金饰品热销，看似“不务正业”的背后，是银行打响中收“硬仗”</p>
+<p>近年来，随着净息差的持续收窄，银行愈加重视通过提升中间业务收入改善经营业绩，但从披露数据来看，银行中收业务普遍承压。</p>
+<p class="image-wrapper"><img data-img-size-val="931,641" src="https://img.36krcdn.com/hsossms/20250219/v2_4188682ae66a408da0d8dd0d07fc31f7@5057403_oswg84399oswg931oswg641_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：商业银行近年净息差趋势</p>
+<p>Wind数据显示，2024年前三季度，上市银行获取的手续费及佣金净收入为5527亿元，较去年同期的6193亿元下滑约10.75%，降幅较上半年减少125BP。42家上市银行中，有32家上市银行的手续费及佣金净收入同比下滑，其中3家银行下滑幅度达到20%以上。</p>
+<p>目前，商业银行从理财、基金、保险、贵金属等多方位加大力度，以稳住中间业务收入。在黄金消费热下，银行顺势加大贵金属业务推广。</p>
+<p>除了增加销售品类，注重产品设计外，春节前夕，不少银行还推出黄金系列贺岁产品和促销活动。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,810" src="https://img.36krcdn.com/hsossms/20250219/v2_9d0b73ab652f426798c819f52d357929@5057403_oswg89137oswg1080oswg810_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：各类黄金饰品</p>
+<p>例如，建设银行广东省分行在广州、佛山、东莞三城同时举办第三届全民黄金节，推出“建行金”生肖系列产品、熊猫金币等产品。</p>
+<p>在中小银行里，常熟银行推出买车送黄金活动，3月31日前，购买汽车办理该行大额分期的客户，分期本金大于10万元（含）的，前100位可获得金条或金豆。</p>
+<p>此前，有国有大行山西某支行工作人员曾透露，该支行高度重视实物贵金属的营销工作，把其作为创造中收的利器来抓。动员全行员工发挥各自优势，强力营销，完成旺季实物贵金属销售任务。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,725" src="https://img.36krcdn.com/hsossms/20250219/v2_c61ebb03561749db8a7d8ef259cf2c7a@5057403_oswg225335oswg1080oswg725_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">图：银行常见的营销渠道</p>
+<p>“中收指标不好的时候，理财经理要卖保险、卖基金、卖纪念钞、卖黄金。”某业内人士表示，大型银行的黄金产品做工精美，销量较好，但一些小银行贵金属销售仍存在一定难度。</p>
+<h2><strong>4 结束语</strong></h2>
+<p>银行热销黄金产品，在渠道拓宽的同时，消费场景亦有所变化。</p>
+<p>黄金首饰由婚嫁刚需向悦己消费转型，市场持续扩容。加之年轻化趋势明显，各种产品创新伴随着消费群体的迭代层出不穷，黄金消费本身不再只是高高在上的大宗消费，更多的消费者开始把黄金消费当作一种情绪价值消费。</p>
+<p>对银行来说，售卖黄金是一种“无奈之举”，但也有机会成为悬崖边缘生长出的一丝“生机”。毕竟，得年轻人者得天下，放之任何消费行业都适用。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/w9DAoMlLBeULuQEiCMBkkA" rel="noopener noreferrer nofollow" target="_blank">“楼卓昊Fintech”</a>，作者：楼卓昊，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3172946320932353</guid><pubDate>Wed, 19 Feb 2025 16:13:00 +0800</pubDate></item><item><title>《演员请就位3》，开年第一颠综</title><link>https://36kr.com/p/3173084923297540</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>能坚持把《演员请就位3》第一期节目看完的人，不管做什么都会成功的。</p>
+<p>作为开年第一“颠综”，《演员请就位3》火力全开，嘉宾在节目里“群魔乱舞”，观众边看边用脚趾抠出三室一厅，没有对演技的渴望，都是对乐子的追求。</p>
+<p>从公布名单开始，《演员请就位3》走的就是“黑红”路线，请来一众有争议的嘉宾，比如深陷男女负面新闻的姚笛、徐开骋，油腻而不自知的杨子，跟演员完全没关系的“蛇精网红”刘梓晨等。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,597" src="https://img.36krcdn.com/hsossms/20250219/v2_440d3bc925994106a0d3f579120205f8@5409015_oswg855488oswg1080oswg597_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>第一期节目里，大部分嘉宾的表现都很抽象，导师们的reaction成了表情包新素材，要素过多，节目播出当晚就横扫微博热搜榜。</p>
+<p>近几年演技综艺里大家讨论最多的不是演员的演技，演技综艺也成为流量刷脸、争议艺人洗白的跳板。从2017年的《演员的诞生》开始，走到第八年的演技综艺应该思考接下来该怎么“演”。</p>
+<h2>01、<strong>没有演技，全是争议</strong></h2>
+<p>《演员请就位3》刚官宣嘉宾阵容的时候，有一条微博热搜是#演员请就位疯了#，这个热搜词条高度概括了《演员请就位3》的选人逻辑：没有演技，全是争议。</p>
+<p><strong>除了流量爱豆、转型艺人、资深戏骨之外，不管是“劣迹”艺人还是封号网红，只要有流量，有话题，节目组通通来者不拒。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1128" src="https://img.36krcdn.com/hsossms/20250219/v2_436fe6ae803e4d5ea8adb4e29f3f3501@5409015_oswg697688oswg1080oswg1128_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>不仅在嘉宾选择上流量至上，《演员请就位3》在节目的设置环节也加大难度，让嘉宾们出尽洋相，演综秒变抽象喜综。</p>
+<p>与前两季的导演选角模式不同的是，《演员请就位3》设置了“表演之城”，让 46位演员在64个场景里进行实景表演，在短时间内自行完成场景设定和角色演出，飙升的难度也让嘉宾们贡献不少笑料。</p>
+<p>杨子戴着朵大花演西门庆，虽然语言不通，但抓马的演绎让外国导师于佩尔不自觉把衣领子收了起来；接着他又跑到章子怡面前演纨绔，得到章子怡一句“太吓人了”的评语。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,909" src="https://img.36krcdn.com/hsossms/20250219/v2_0a8e2e635a98433dae7571a62fb631c6@5409015_oswg1064393oswg1080oswg909_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>上古网红刘梓晨饰演《长相思》里的相柳，先插剑，然后不带感情说台词，之后拔剑倒下，又爬起来继续说台词，饶是见多识广的吴镇宇和章子怡也难以给出评价，弹幕也被吐槽刷满：“相柳到底做错了什么要被这样对待！”</p>
+<p>先抑后扬的剧本，这次给到了张嘉元。</p>
+<p>他先是因为外貌和性格让导师们第一印象很好，接着靠烂演技被质疑，最后因为过于看重自己爱豆的身份，想述说爱豆生涯和演员初心，直接被章子怡轰了下去，吴镇宇也发出疑问：“为什么有人自称是偶像呢？”</p>
+<p class="image-wrapper"><img data-img-size-val="1080,691" src="https://img.36krcdn.com/hsossms/20250219/v2_ef56cf384f2c427b8d99d6f6cbab7f7d@5409015_oswg518969oswg1080oswg691_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>后面代高政深受短剧启发，声嘶力竭，歇斯底里，直接向章子怡下跪，章子怡直接被吓出了表情包；富察贵人也贴脸开大，逼问于佩尔，“冷宫的滋味你懂吗”；还有许佳琪直接跨物种演的是晒太阳的猫，可以说没有最抽象只有更抽象。</p>
+<p class="image-wrapper"><img data-img-size-val="986,822" src="https://img.36krcdn.com/hsossms/20250219/v2_e18bd009936f43c6986f1906f53126c3@5409015_oswg580160oswg986oswg822_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>当然，节目里也有张百乔、宋伊人这类让导师眼前一亮的演员，只不过绞尽脑汁的演技，在搞抽象的天赋选手面前也就不值一提了。</p>
+<h2>02、<strong>流量为王，黑红也是红</strong></h2>
+<p>2017年的《演员的诞生》算是演技类综艺的鼻祖。</p>
+<p>那时候，演技综艺还是聚焦在演技上，节目一方面是挖掘出被市场埋没的好演员，一方面也把剧组演员的运作模式放在台面上讨论，<strong>比如演员职业精神，在舞台上不准笑场、剧组的选拔机制、头部演员待遇等。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,594" src="https://img.36krcdn.com/hsossms/20250219/v2_feb78049abdb478fa24d1a9c843581db@5409015_oswg338104oswg1080oswg594_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>之后，演技综艺也不仅聚焦于演员，也把目光放到了幕后团队。2021年底，《导演请指教》和《开拍吧》两档节目将视角从演员转向导演，让观众对作品幕后过程有更深入了解。</p>
+<p><strong>但经过几年演变，演技综艺更加看中演技之外的流量。</strong>比如在嘉宾的选择上更趋向于话题度，像近几年的演技综艺，出圈的戏剧片段不多，但出圈的八卦话题却不少，比如向佐聊父母、金沙聊姐弟恋、朱梓骁聊直播带货等等。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,901" src="https://img.36krcdn.com/hsossms/20250219/v2_f6c821eb16764f0f9ee313bb1368ba10@5409015_oswg680754oswg1080oswg901_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在导师的选择上，演技综艺也开始向追求话题度转变，黑红也是红。</p>
+<p>最先坐阵演技综艺导师席的基本都是德高望重的演员，像章子怡、刘烨、宋丹丹、张国立都是专业出众的“学院派”，他们的评论相对温和，更多的是演技上的讨论。</p>
+<p class="image-wrapper"><img data-img-size-val="828,568" src="https://img.36krcdn.com/hsossms/20250219/v2_98cda64ab1af420a97bd49af54e6515c@5409015_oswg81946oswg828oswg568_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>随着李诚儒在《演员请就位》第一季里的“如鲠在喉，如芒刺背，如坐针毡”，被观众们总结为“三如”，导师们逐渐向“毒舌”靠拢。</p>
+<p>导师们也成了话题度的重要一环，像吴镇宇、尔冬升、宁静等导师最重要的特点就是敢说，他们做导师毫不留情，化身观众嘴替，也为节目贡献了不少热搜话题。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,605" src="https://img.36krcdn.com/hsossms/20250219/v2_c0ad2615009f4b8593b3571aba4bf103@5409015_oswg714038oswg1080oswg605_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在表演片段的选择上，大多也都选择戏剧性强、情绪起伏较大的内容，让演员情绪冲击力更强，甚至会节选一些有争议的片段，为的就是得到更多的话题度和流量。</p>
+<p>节目收获了流量，争议性更大的演员也更容易出圈，这也在一定程度上压缩认真演戏的演员的关注度。</p>
+<p><strong>不过，当槽点和话题度成为了节目的最大卖点，本身就是节目失去了一开始的价值立意。</strong></p>
+<h2>03、<strong>演技综艺怎么“演”？</strong></h2>
+<p>演技类节目最初能够一播即红，重要原因之一在于题材的开创性。一方面为观众带来新的综艺题材，另一方面也给演员市场注入新的活力。</p>
+<p>演技综艺初始也曾为行业输送蓝盈莹、彭昱畅、牛骏峰等新生代实力演员，也挖掘出了周一围、辛芷蕾、温峥嵘这样被蒙尘的实力派演员。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,608" src="https://img.36krcdn.com/hsossms/20250219/v2_f20d0d296c9b4692ae085ac1a88b3c68@5409015_oswg703509oswg1080oswg608_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>今年是演综的第八年，即使节目也在试图创新，在赛制上不断精进，也聚焦更多垂直的演艺群体，但同质化仍然难以避免，观众的好感度也在持续降低。</p>
+<p>在阵容选择上相对固化，嘉宾除了固有的几种类型，今年的《演员请就位3》更是颠开疯走，导师的选择上也审美疲劳。“章子怡发飙”成了每个节目的固定话题，吴镇宇的毒舌从一开始的观众“嘴替”，逐渐被网友质疑是不是养孩子太费钱。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,957" src="https://img.36krcdn.com/hsossms/20250219/v2_ee80a9d58c5d481bb922eb2b4fa12c15@5409015_oswg1063630oswg1080oswg957_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>情节设置上剧本更加明显，皇族、暗皇、炮灰、祭天……综艺的剧本比戏剧的剧本还要抓马。</p>
+<p>像《演员请就位3》里，#卜冠今耿直#这类预制热搜已经无法吸引观众的兴趣，节目里她表示“大家怎么都装起来了”，不管是她特意表现耿直还是节目组拿她祭天，都很难得到观众的共情，剧本过于抓马已经脱离了现实。</p>
+<p class="image-wrapper"><img data-img-size-val="988,719" src="https://img.36krcdn.com/hsossms/20250219/v2_2cbae156b99f4129ab294470d13cb2b2@5409015_oswg50732oswg988oswg719_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而洗白的套路更是明显，只要套用“导师为难学员”的套路，就能轻松地完成洗白的流程，还有粉丝冲锋陷阵，话题度和流量自然来得容易。</p>
+<p>其实演技综艺想要创新难度确实不小，既要展现市场生态，又要兼顾流量和克服审美疲劳。但如今，以流量为重也把演技综艺带入了另一个极端，节目流量越高，但能为市场输送的好演员却没有等比增长。</p>
+<p class="image-wrapper"><img data-img-size-val="1064,844" src="https://img.36krcdn.com/hsossms/20250219/v2_6d64ad9626b9435e8e1cf1e04459c57c@5409015_oswg951525oswg1064oswg844_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>这是演技综艺面临的困境，也是接下来要思考解决的难题，即如何通过新的方式去筛选或者培养市场需要的演员，而不是单纯的吸引流量。</p>
+<p>不论如何，演技综艺始终还是要回归到演员的演技上，回归到初心，演技综艺才能“演”得更好。</p>
+<p>*本文图源网络，如侵权联系删改</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/arvgzu2ItznY3UH-44Fx8Q" rel="noopener noreferrer nofollow" target="_blank">“文娱先声”</a>，作者：花花，编辑：先声编辑部，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173084923297540</guid><pubDate>Wed, 19 Feb 2025 16:13:00 +0800</pubDate></item><item><title>腾讯，刚捐5个亿</title><link>https://36kr.com/p/3173245806822273</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>这是一则颇为低调的官宣。</p>
+<p>昨日（2月18日），国家自然科学基金委员会宣布，已与腾讯公司正式签约，腾讯公司向国家自然科学基金委员会无偿捐赠人民币5亿元——</p>
+<p><strong>用于资助青年学生基础研究项目（博士研究生项目），重点支持其中女性、西部、粤港澳大湾区获资助者开展基础研究。</strong></p>
+<p>中国科技界苦基础研究久矣。两个关键词——青年学生，基础研究，此次捐赠某种程度也被视为风向标。</p>
+<h2><strong>腾讯出5亿</strong></h2>
+<h2><strong>做了一笔意外「投资」</strong></h2>
+<p>这一次，腾讯将资金投向基础研究。</p>
+<p>众所周知，基础研究并非易事，没有现成的方法和模式可以照搬，研究过程充满不确定性和层层挑战。在全球范围内，众多的研究人员和团队都在从事基础研究，竞争异常激烈，很难脱颖而出。而每一个研究项目立项背后，都需要大量资金的支持。</p>
+<p>成立于20世纪80年代的国家自然科学基金，则是中国基础研究最主要的资助渠道之一，形成了由研究项目、人才项目和环境条件项目三大系列组成的资助格局。</p>
+<p>2024年4月，首批国家自然科学基金青年学生基础研究项目（博士研究生）获批名单出炉，包括北京大学、清华大学、西安交通大学、北京航空航天大学、华中科技大学等在内脱颖而出的博士生们。</p>
+<p>这些入选课题涉及方方面面，例如心脏病治疗、外卖服务优化、大语言模型智能体进化等，但他们无一例外都是年轻后浪，其中不乏“00后”“准00后”博士生的身影。</p>
+<p>让年轻人可以安静地投身到科研事业中，加速国家重大需求原创成果的产出，这是一场基于国家科技战略体系之下的选才。</p>
+<p>于是，腾讯做了一笔特殊意义的「投资」。</p>
+<p>其实早在2018年，腾讯就联手多位科学家设立“科学探索奖”，鼓励青年科学家在基础科学和前沿技术领域勇敢探索，截至2024年底已资助297位青年科学家。科学探索奖突破了传统科研资金单一的来源，无疑也提高了基础研究整体竞争力。</p>
+<p>此外，2022年腾讯创立新基石科学基金会，预计10年内出资100亿人民币。该计划为中国科学家提供前所未有的资金自由，让他们能摆脱传统科研资金申请框架束缚，根据自己的兴趣和专长自由选择研究方向，为科研的多样性和创新性提供广阔空间。</p>
+<p>科学研究浩瀚无垠，一位获得国家自然科学基金资助的学生曾表示，他研究的项目可能几年都完不成，但如果一年做不完就两年、三年甚至更久——</p>
+<p>“因为这个耀眼的问题就像房间里的大象，无法被忽视。我会一直探索下去，直到漫天星斗映入眼帘。”显然，有了资金的支持，才能让青年学生毫无后顾之忧地笃行于此。</p>
+<h2><strong>为何是基础研究？</strong></h2>
+<p>这几年，从创投圈到政府部门、科研界渐渐形成一个共识：中国基础科学依旧薄弱，迫在眉睫。正因如此，我们在原创性创新上依然显得落后。</p>
+<p>这意味着什么？没有原创性的创新，那么我们在应用端的创新永远存在着受制于人的风险，也难以看到颠覆性的创新诞生。</p>
+<p>想起过去一个月，两位年轻面孔让中国科技圈备受鼓舞。</p>
+<p>2025第一个现象级中国企业无疑是DeepSeek，创始人梁文锋带着一群中国本土AI人才登上世界舞台。《黑神话：悟空》制作人冯骥一度激动评价“这可能是个国运级别的科技成果”。</p>
+<p>而在过往为数不多的露面中，梁文锋多次聊起技术创新的“原创性”，中国AI不能永远做“跟随者”，必须在核心技术领域实现突破，“AI竞争的本质是原创与模仿的代差，而非表面性能的追赶。”模仿只能追赶，原创才能超越。</p>
+<p>第二位则是宇树科技创始人王兴兴。登上春晚的宇树科技，在四足机器人领域全球市场份额已超60%。这背后，宇树科技累计提交国内外专利申请200余件，其中授权专利180余件。</p>
+<p>然而将视野拉回现实，我们依然需要清醒地看到：国内在某些高精尖领域的技术常常受制于人，基础科学研究相对薄弱便是根源之一。</p>
+<p>对此，任正非曾语重心长地建议：</p>
+<p>“修桥、修路、修房子只要砸钱就行了，但芯片砸钱不行的，得砸数学家、物理学家、化学家。中国要踏踏实实做数学，物理、化学、神经学、脑科学等基础科学研究，各个方面努力去改变，我们才可能在这个世界上站得起来。”</p>
+<h2><strong>翻滚吧，年轻人</strong></h2>
+<p>所谓全球科技竞赛，说到底比的其实是一位位年轻创业者。</p>
+<p>本周的民营企业座谈会上，央视报道当中一个画面为人津津乐道：腾讯创始人马化腾与DeepSeek创始人梁文锋并肩而坐。</p>
+<p class="image-wrapper"><img data-img-size-val="" src="https://img.36krcdn.com/hsossms/20250219/v2_9f8df7297bf547578b51850f3bf15786@000000_oswg81430oswg1080oswg603_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在外界的遐想中，这一幕颇有传承的意味。</p>
+<p>正如座谈会上，既有动力电池龙头宁德时代、新能源汽车巨头比亚迪、互联网巨头腾讯，也有我们熟悉的梁文锋、王兴兴等年轻面孔。从60后、70后，到80后、90后，既是一场接力赛，也是一缕中国产业变迁缩影。</p>
+<p>40多年来，中国第一代创业者经历奋斗，企业资产积累到一定规模，同时他们也是技术创新不可或缺的主体，是不断突破技术瓶颈和封锁的前行者。</p>
+<p>而今，新老交替的时刻慢慢到来，尤其是60后与90后之间的“交棒”，见证中国科技产业突围之路。</p>
+<p>老同志披荆斩棘久经考验，新一辈正迎头赶上。毫无疑问，中国民营经济的舞台正迎来越来越多新面孔，而新崛起的年轻创业者，用热爱和专注投入科技研究与发展，创造一个又一个令世界惊叹的故事。</p>
+<p>有人评价，“今天中国最了不起的民营企业家，是一群学霸、科学家、工程师，他们正在用科技和工程的力量重塑这个世界。”</p>
+<p>一万年太久，只争朝夕。世界终究属于年轻人。</p>
+<p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s?__biz=MzI5ODk1NjY1MA==&amp;mid=2247676956&amp;idx=1&amp;sn=492fcfab48435bd58e987a0b8c81096b&amp;chksm=edd4e0878e7584b25428668fea89adda426acae353067248c09b39c2ad1e7f93494bfcc9312e&amp;scene=0&amp;xtrack=1#rd" rel="noopener noreferrer nofollow" target="_blank">“投资界”（ID：pedaily2012）</a>，作者：杨继云，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173245806822273</guid><pubDate>Wed, 19 Feb 2025 16:14:00 +0800</pubDate></item><item><title>宇树老股彻底火了</title><link>https://36kr.com/p/3173273826575240</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>2024年，宇树正进行着C轮融资。杭州某机构的投资人John在看过宇树BP之后，一边挑剔着“机器人做C端怎么可能跑得通”，随手把材料丢在一边。被他一同丢弃的还有宇树的投资机会，而且大概率是最后一次上车机会。</p>
+<p>现下，John正承受着投资人最不愿面对的精神酷刑——踏空。就在这个诞生“AI六小龙”的标杆城市，某高档写字楼的投委会上又多了条拍烂的大腿。</p>
+<p>其实John们不必过分自责，错过是投资必须面对的一课。而且宇树今天的起势之迅猛，大概是所有人都没预料到的，甚至包括已经投资宇树的投资人。</p>
+<p>肉眼可见的转折就发生在过去三个月。</p>
+<p>去年12月，宇树发布四足机器人震惊行业，同月亮相CES展大杀四方，并得到英伟达黄仁勋的盖章合作。1月DeepSeek爆火连带宇树在内的杭州“AI六小龙”走红，2月宇树机器人登上蛇年春晚，转手绢扭秧歌爆火出圈，收获了一波国民级人缘。</p>
+<p>节后第一个交易日，二级率先给出反应，一波“宇树概念股”迎来涨停。位于杭州滨江区峰达创意园的宇树总部展厅迎来了一批又一批调研打卡，日日人满为患。大家开始好奇宇树和创始人王兴兴的一切，包括他的偏科。连宇树“90万年薪招算法工程师”的招聘都成了媒体的选题文章。</p>
+<p>本以为这都够“顶”了，更意想不到的发生在本周一，90年的王兴兴出现在第一排。至此，宇树科技的份量，未来的可能性，就已超越了一家C轮机器人明星企业的范畴，未来变得不可限量。</p>
+<p>资金永远是最敏锐的。宇树的起势折射到一级市场的具象之一，就是老股被抢疯了。只是John们踏空宇树的遗憾很可能无法弥补了。</p>
+<p>因为宇树的老股，抢不到。</p>
+<h2><strong>“合伙人已经被问烦了”</strong></h2>
+<p>在机器人登上春晚之前，宇树的老股已经火得一塌糊涂了。一位老股交易人士透露。</p>
+<p>“大几千万的老股份额， 不到3天就被抢空了”。</p>
+<p>事实上，作为一家明星机器人企业，宇树的老股在市面流转了至少半年以上。一个关键节点是去年12月下旬，宇树发布了一则B2-W四足机器人的视频，展示了宇树机器人在各种复杂地形灵活的行走、爬坡、后空翻、载物等等。惊人的技术表现瞬间让宇树火出了圈，网友直呼“强到可怕”。</p>
+<p>不到2分钟的视频直接改写了业内对宇树的定位。之后，投资人对宇树机器人的评价不止是机器人赛道头部，变成了“吊打特斯拉和波士顿动力”，预言宇树将是下一个大疆。</p>
+<p>宇树的老股成了真正的抢手货。有老股FA表示，自宇树发布B2-W到春节之前的一个月时间，前后共有数十家投资方来打听宇树的老股份额，资方背景基本涵盖各个类型，除了美元基金、人民币基金，还有上市公司、市场化母基金、家族办公室等等。</p>
+<p>值得玩味的是，这些资方普遍对老股“价格不敏感”。有决心者直接开出100亿的溢价估值，而宇树去年8月完成的C轮融资，投后估值还是80亿元。先前成交的一批老股估值据说在60亿左右。</p>
+<p>在一个充分的卖方市场，有价无市是个常态，宇树让买方感到了深深的挫败。</p>
+<p>一位知情人士透露，宇树的老股目前一票难求，有点“奇货可居”的意思。老股交易人士问遍了已投机构，“没一个肯卖”，合伙人已被问得不厌其烦。有不死心的买方甚至备好了居间费用，主动找上操盘过宇树融资的FA，结果依旧一无所获。</p>
+<p>个别号称“有货”的中间人士，交易条件开得十分苛刻，比如估值直接叫到120亿，而且必须先全款到账，或者明里暗里表达了“想要份额可以，但要先出资做LP”的置换条件。</p>
+<p>宇树的上车机会越来越稀缺，是个大概率事件。</p>
+<p>就在上周，宇树对“完成新一轮C+融资”的传闻做了“消息不实，只是老股转让”的回应。但有据接近宇树的人士透露，公司正在筹备新一轮融资，投前估值80亿，只是门槛足以劝退绝大多数潜在资方：要么big name，或者带来业务。而且80亿估值是春节前的口径，估值是否水涨船高，暂未可知。</p>
+<p>参照当年的优必选。2015年，优必选完成B轮估值，估值在1亿美金左右，仅过去半年，优必选B1轮的融资估值就跳到了10亿美元。根据招股说明书披露的重大事件推断，期间的最大变量，就是优必选出动数百台机器人登上了2016年春晚，获得了极大的品牌溢价。</p>
+<p>宇树在蛇年春晚的出圈势头甚至比当年的优必选强势、全面得多。最直观的一个市场反应，二级市场形成了“宇树概念股”，间接持股宇树的上市公司和合作方都吃到了一波红利。典型如关节轴承供应商长盛轴承，自去年9月下旬至今涨幅超400%，春节之后连拉几个10cm涨幅超50%。</p>
+<p>总之，不论拼阶段，拼估值，拼资源禀赋，小资金都难再有“上车”的机会。</p>
+<h2><strong>奇货可居</strong></h2>
+<p>宇树老股的爆火，其实是有点反常的现象。这几年的老股市场，主要是字节、大疆、SheIn、小红书几位老选手，画像是成立时间久（均超十年），估值过千亿，有一定上市预期的绝对巨头。</p>
+<p>宇树和不久前“风很大”的摩尔线程是另一套画像。摩尔线程很年轻，成立于2020年，老股受捧的原因主要有两点：一是流动性，公司已经递表，有明确的上市和退出预期；二是卡位的稀缺，技术封锁背景下的“中国英伟达”国替标签。估值虽只有250亿元，但前有市值一度突破3000亿的寒武纪打样，发展和回报空间都有想象。</p>
+<p>宇树就更另类了，一家成立于2017年、刚刚迈入独角兽的C轮企业，而且尚无明确上市预期的成长期企业，老股抢疯只能从供需的角度去理解——机会足够稀缺。</p>
+<p>不止在中国市场，宇树目前在全球人形机器人赛道都数得上号，技术表现可以和波士顿、特斯拉掰手腕。在2025年CES展上，宇树连样机都被销售一空，并进入“黄仁勋严选”——在英伟达公布的全球人形机器人合作厂商中，宇树H1位列其一。</p>
+<p>在大国博弈的语境之下，机器人成了紧扣“国运”的兵家必争之地。</p>
+<p>一个现象值得玩味。按外媒口径，美国正在担忧他们曾在无人机领域的失利可能在机器人重演，宇树之于波士顿动力，就好比当年的大疆之于3D Robotics，失利的重要原因是“中间的缺失”——热衷于押注颠覆性的遥远技术，或成熟技术的规模收益，却忽视了从实验室通往市场过程，成熟完整的供应链体系和漫长的规模化制造的迭代过程。</p>
+<p>这一点显然是中国企业擅长的。深圳已经跑出了大疆，凭低成本占领全球八成消费无人机市场份额。宇树如今的画风高度相似，一个业内流传的数字是，宇树四足机器人在全球的市场份额已经达到60-70%。</p>
+<p>虽然不乏一些质疑声音，比如宇树面向大学和科研院所的销售占比过高，但这掩盖不了宇树压倒性的竞争力——惊人的成本控制。波士顿动力狗的售价在5-10万美元，而宇树四足机器人起步价只要1500美元。有“硅谷预言家”称号的A16Z创始人联合创始人Marc Andreessen在最近一次访谈评价宇树：这将是一个真正的拉锯战...如果中国愿意以1万或2万美元的价格制造机器人，我们可以购买十亿个。</p>
+<p>目前看来，理想和现实离得并不远。宇树Go2四足机器人售价9997元起，人形机器人G1是只要9.9万起。</p>
+<p>2023年只用3个全职员工花半年就做出H1机器人的宇树，目前已经实现了自主量产并跑通了商业化和盈利，业内独一份，直接与尚在研发烧钱的同行拉开了赛程。</p>
+<p>接近宇树老股的人士透露了一组惊人的数字，2023年、2024年，宇树的营收分别在2亿和4亿左右，净利润则分别在1000万到7000万左右。</p>
+<p>假设信息属实，宇树离科创板的申报标准不远，报A或港股IPO指日可待。</p>
+<p>这在很大程度解释了投资人对宇树老股的“估值不敏感”。目前投资人对100亿老股估值普遍接受，对宇树未来的预测是“300亿到500亿不算过分，800亿甚至更高”。暂且拿“人形机器人第一股”优必选做个参照，年初受股东减持和管理层波动影响，优必选的市值目前回落至340亿港元左右，高点一度突破过1000亿港元。</p>
+<p>不管出于FOMO情绪、流动性的考虑，还是机器人赛道的卡位策略，头部的宇树是最值得押注的企业之一。新股老股只是手段，上车才是目标。</p>
+<p>当这一切再叠加上春晚带来的国民级品牌影响力，“杭州六小龙”的舆论势能，以及2月17日王兴兴的出席并发言，这波势能和江湖地位已经远超一家C轮科技初创企业的想象。</p>
+<h2><strong>“看上哪个随便挑”</strong></h2>
+<p>最后简单谈谈老股。</p>
+<p>宇树老股的爆火，拓宽了一些过往老股交易的边界。背后可能还藏着一个趋势，接下来一级市场的老股成交可能会迎来一个小高峰。</p>
+<p>依据是，买卖双方的意愿都在大幅提升。这里暂不谈字节、大疆、小红书以及宇树这类明星老股，这是长期稳定的卖方市场。GP的退出压力是逐年累积的，一组业内流传的数字是，VC/PE基金积压的待退出资产有13万个项目，1.4万家公司——这是个买方市场。</p>
+<p>投资机构对S基金、老股退出的指望这几年就没断过，只是S基金的成交量堪忧。不止一位S基金投资人透露，过去一年，出于资产普遍缩水、估值难以弥合、买卖方难以匹配等因素，S基金二手份额的实际成交量“惨淡”，很可能只有2023年一半左右。</p>
+<p>老股成交的动力反而更大。一个好项目往往是，早期投资人打个三折很可能还有两三倍DPI。在LP逼GP退出的节点，“拿到上市”不再是长期主义的普遍审美。</p>
+<p>一位投老股的投资人透露，目前一线基金对老股交易的姿态前所未有的主动：他们会直接给到一个portfolio列表，每家数百个项目，直言“看上哪个随便挑”。</p>
+<p>创始人对于老股交易的态度也比并购卖身更有动力。如今资产价格正在回落到合理水平，老股交易有机会实现三赢：老投资人获得DPI、创始人免除回购责任、新投资人获得折扣。</p>
+<p>但在买方市场，买方的变化才构成真正的变量。目前一级机构正面临出手的压力，一个市场共识是，25年整个市场出手会比24年更活跃。在资产荒的存量背景下，消解出手压力的出口之一就是老股。</p>
+<p>GP普遍表示在看老股，也有把老股作为策略一环的。旗帜鲜明的比如江远投资，2024年完成4亿美元十年期的基金募资 ，不久前公开发布了“摘星计划”，接手医疗和科技的老股项目，合伙人透露“瞬间收到了海量项目”。这一策略的考量不全然是出手压力，而是手握长钱，有“拿时间换空间”的价值。</p>
+<p>一位家族办公室负责人透露，自去年不再加码做LP，转向二级和海外投资，国内只看老股，这一策略在家办圈“很有普遍性”。还有某大型外资母基金，曾投过数十家GP，25年的规划是只加码表现好的存量GP，以及优质老股，不再新投项目。</p>
+<p>但为什么说小高峰只是“可能”。一方面掣肘于买卖方匹配、定价等成交难度，关键在于，可成交老股的比例并不高，前提你得是个优质项目。按业内人士评估，这一比例很可能只占整体portfolio的10%左右——与符合并购的项目比例大致相同，只是局部的机会策略。</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/K2TzXoPC06mf2xiddyH07Q" rel="noopener noreferrer nofollow" target="_blank">“投中网”</a>，作者：曹玮钰，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173273826575240</guid><pubDate>Wed, 19 Feb 2025 16:24:00 +0800</pubDate></item><item><title>广州百人游戏团队解散，图森未来转型之路再陷泥沼</title><link>https://36kr.com/p/3173266758583176</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>曾经的智驾公司图森未来转型游戏之路再陷泥沼，旗下广州游戏公司传出破产清算消息。</p>
+<p>2月18日，广州图森未来员工李立向界面新闻记者表示，他在2月17日收到了团队解散、公司破产清算的通知，理由是“业务无法开展”。李立主要负责项目研发，入职约3个月。</p>
+<p>“公司最新的接洽是，让我们尽快签离职协议拿回工资，暂时没有别的协商方案。”李立提到，相关安排很突然，2月13日接到通知需要“调查资产”、公司将电脑搬走，员工从那天起就处于停工状态。</p>
+<p>天眼查数据显示，广州图森未来互动科技有限公司成立于2024年7月，法人为图森未来原中国区CEO郝佳男，由北京图森未来科技有限公司和广州大者软件科技有限公司分别持股70%和30%。</p>
+<p>公司约有110名员工，主要负责两款金庸IP游戏的研发，其中一款是去年12月公开的3A项目《金庸群侠传》。</p>
+<p>广州图森下发的通知显示，近期对公司管理层的例行审查中发现若干问题，介入调查过程中广州管理层拒不配合，“有部分员工到办公室私自拷贝材料疑似窃取公司机密文件，甚至出现了办公室大门被锁的情况。该行为性质恶劣、严重侵占公司资产和限碍公司正常经营，直接导致公司业务无法继续开展，准备进入解散清算流程。”</p>
+<p class="image-wrapper"><img data-img-size-val="700,675" src="https://img.36krcdn.com/hsossms/20250219/v2_4afa030f54394199b7d7a2354c53d0ed@5091053_oswg302504oswg700oswg675_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>界面新闻于2月18日下午走访广州图森未来办公室，这家公司在黄埔区的一个园区包下了一栋两层的办公楼，目前办公楼已经上锁，没有人员办公。</p>
+<p>图森未来人力资源部方面向界面新闻表示，目前还在“深度调查期”，相关情况不方便透露，针对广州团队解散情况，该人员表示，“都在走正规的程序。”</p>
+<p class="image-wrapper"><img data-img-size-val="700,567" src="https://img.36krcdn.com/hsossms/20250219/v2_c35a88f4fbd24b2fb27ece29c2f7d817@5091053_oswg65671oswg700oswg567_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">广州图森已停止办公 拍摄：张熹珑</p>
+<p>图森未来曾是风头无两的“全球自动驾驶第一股”，这家创立于2015年的公司最初主攻L4级别自动驾驶卡车，2021年4月登陆纳斯达克，市值一度高达160亿美元。</p>
+<p>但图森未来的营收规模并不如人意，在2024年1月宣布从美股退市。退市前最后一份财报显示，2023年三季度，图森未来的营业收入为2653万美元，净亏损为1.13亿美元，而流动负债和长期负债总计高达11.98亿美元。</p>
+<p>“烧钱快、盈利难、亏损久”是自动驾驶行业的通病，加上经历了美国海外投资委员会（CFIUS）调查、高层纷争、董事和CEO多次“换血”等事件后，图森未来急速掉头，大幅削减在美业务。</p>
+<p>从美股退市后的同一年，图森未来开始转型进军游戏界：8月，公司宣布与上海三体动漫有限公司共同开发《三体》系列动画电影和视频游戏；12月，宣布启用全新品牌CreateAI，获武侠IP《金庸群侠传》正版授权，将开发一款大型武侠开放世界RPG游戏。</p>
+<p class="image-wrapper"><img data-img-size-val="700,371" src="https://img.36krcdn.com/hsossms/20250219/v2_09712de50f5d405baeeeda20fcdc1868@5091053_oswg69602oswg700oswg371_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p class="img-desc">《金庸群侠传》原画</p>
+<p>《金庸群侠传》的研发主力就是广州团队。李立提到，广州团队人员比重有八、九成左右，公司在上海和北京也有办公室，但人员很少，主要是给没来广州的人员设立的工作室。</p>
+<p>从自动驾驶转型动漫游戏，两个行业重合度几乎为零，而图森未来仰仗的是自动驾驶领域的大模型技术和生成式AI应用。公司此前发布了图生视频大模型Ruyi，不过Ruyi仍然存在手部畸形、多人时面部细节崩坏、不可控转场等问题。也有行业观点认为，视频模型和自动驾驶从技术复用角度上不存在联系。</p>
+<p>根据陈默的设想，大模型技术可以对游戏和动画制作降本增效。但具体到实际投入中，AI的作用并未展现。截至2024年末，《金庸群侠传》前期投资已经消耗了约1.8亿，预计整体开发成本会在8亿至12亿区间。可供对比的是，《黑神话：悟空》开发成本为3至4亿元。</p>
+<p>公开资料显示，《金庸群侠传》是一款纯买断的单机ARPG开放世界游戏，采用UE5虚幻引擎制作。虚幻引擎同样被用于《黑神话：悟空》、《荣誉勋章》、《耻辱》和《绝地求生》等海内外知名大作中，意味着更长的开发周期和更高的成本。</p>
+<p>“采用UE5门槛更高，一方面是虚幻引擎本身的优化问题，另一方面由于国内缺少做UE的技术人才，因为之前国内游戏主要采用UN，培养的人才也多是这个方面。”一名游戏行业人士向界面新闻分析指。</p>
+<p>据游戏媒体“游戏葡萄”，《金庸群侠传》的开发历程并不顺利，《金庸群侠传》从首曝至今仍处于早期阶段，动画还没做出来。图森未来方面表示，广州团队达不到3A游戏质量标准，会启用其他团队进行后续开发。</p>
+<p>实际上，广州图森的解散已有征兆。李立透露道，员工自1月开始就被欠薪，公司以春节为借口表示延后发薪，后来将发薪日延迟至2月14日，但在2月13日，员工就接到了内部调查、停工的邮件。</p>
+<p>戏剧化的是，2024年底陈默还在公开信中表示，“新业务确实有不小的不确定因素，但是我愿用我毕生的热爱和梦想《金庸群侠传》去拯救图森未来。这将是我一生最后的公司和最后的项目。”</p>
+<p>李立认为，公司没有放弃《金庸群侠传》IP的迹象，此前总部在IP上花了很大的成本投入；而从市场潜力来看，这个IP也具备一定前景，“现在手游市场已经到非常卷的程度，而在端游，《黑神话：悟空》给市场看到新的机会。加上金庸本身是一个很成熟的IP，受众在三四十岁的年龄区间，这批人也更容易掏钱消费。”</p>
+<p>按照规划，图森未来要借助《金庸群侠传》把公司带回80亿美元市值，目标是在2026年实现收支平衡。</p>
+<p>陈默曾在采访中透露，后续计划游戏核心开发规模要增加至300人，预计《金庸群侠传》在2月进入美术量产外包的阶段，7月底可以呈现战斗模块。</p>
+<p>不过，随着广州团队的解散，《金庸群侠传》能否顺利开发、如期回本，目前都要打上一个问号。</p>
+<p>（应受访者要求，李立为化名）</p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/Cb-dW4ZWeSmLvii9xsA5QA" rel="noopener noreferrer nofollow" target="_blank">“界面新闻”</a>，作者：张熹珑，编辑：林腾，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173266758583176</guid><pubDate>Wed, 19 Feb 2025 16:25:00 +0800</pubDate></item><item><title>稚晖君发布开源灵犀X1，智元机器人要摸着宇树科技过河？</title><link>https://36kr.com/p/3173167730425603</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>随着“灵犀”项目正式独立，华为“天才少年”稚晖君的创业项目智元机器人三大产品线架构完成重新调整。</p>
+<p>此前，智元机器人发布了灵犀X1具身智能机器人，其搭载的操作系统面向全世界开源。开放的平台包括一系列软硬件技术资源，甚至包含全套团硬件设计图和代码。<strong>在调整业务架构后，灵犀正式成为智元机器人的第三条产品线，由稚晖君（彭志辉）亲自带领，事业部落地深圳。</strong></p>
+<p>机器人是时下最流行的智能硬件之一，蛇年春晚上，宇树科技的通用机器人H1和G1在张艺谋导演的《秧bot》上大放异彩，凭借灵活的舞姿，「机器人跳舞」成为当晚微博热搜话题之一。春晚结束后，这两款机器人上架京东自营旗舰店，定价9.9万元起，迅速被抢空。</p>
+<p class="image-wrapper"><img data-img-size-val="1200,675" src="https://img.36krcdn.com/hsossms/20250219/v2_96c25292ffea47edae5cddb55e894c15@1547419282_oswg965533oswg1200oswg675_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：央视频）</p>
+<p>同为机器人行业里备受关注的新星，稚晖君已经带着自己的智元机器人，迈出了独立创业的第一步。不过，起步较晚的智元机器人，能否在完成此次产品架构重整后，成为下一个宇树？</p>
+<h2>华为“天才少年”打造“机器人宇宙”</h2>
+<p>稚晖君和其他同样入选华为天才计划的人才不同，他本身就是B站上的人气Up主，在2020年入职华为后，就已在更新作品。在稚晖君早期上传的视频里，早就显露出他对机器人的浓厚兴趣。</p>
+<p>比如，在他一次雨天骑车不慎滑倒后，便萌生了将爱车改造成自动驾驶智能自行车的冲动。改造后的自行车，甚至配备了特斯拉都没有的激光雷达。除了自行车外，他还动手造出了仿生机械臂、模块化机械键盘等。</p>
+<p>2022年12月，稚晖君在微博上公开离开华为的消息，一时间引起外界猜测。有人认为稚晖君作为网红，不适合在华为工作，离开华为是要专心做科技博主。就在官宣离职后不久，稚晖君投身智能机器人行业的消息传出。</p>
+<p>次年2月，由稚晖君带领的机器人初创公司“智元机器人”公开亮相。<strong>断更半年后，智元机器人发布首款机器人产品——远征A1。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="839,370" src="https://img.36krcdn.com/hsossms/20250219/v2_ec8a39c5bc3842309e319198f22b869b@1547419282_oswg493591oswg839oswg370_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：智元机器人）</p>
+<p>作为智元机器人的首款产品，远征A1的完成度超预期。</p>
+<p>首先，远征A1是一款专为工业设计的人形机器人，它拥有超过49个自由度，模拟人体关节的灵活性，使得它在执行各种任务时能够灵活自如。远征A1的关节电机采用了高性能的谐波一体关节和直线推杆，并配备了先进的无刷行星伺服电机，峰值扭矩高达350Nm，能够高效传递力量，支持它执行一些高负荷的工作。</p>
+<p>其次，它在感知系统上搭载了RGBD相机、激光雷达和惯性测量单元，使它具备了强大的环境感知能力，能够实时识别和避开障碍物，确保安全运行。它的AI算力高达200TOPS，能够处理复杂的感知数据，并支持多模态学习和决策，执行更复杂的任务。</p>
+<p><strong>最后，作为通用人形机器人，远征A1搭载的WorkGPT能够让它理解自然语言指令，进行任务编排和执行闭环，在多种复杂场景下自主完成移动和操作任务。</strong>不难看出，对于智元机器人而言，AI大模型是带领机器人走向下一个时代的关键技术。</p>
+<p>去年8月，智元机器人一口气发布了5款商用机器人，包括远征A2、远征A2-W、远征A2-Max、灵犀X1和灵犀X1-W。其中，英伟达CEO黄仁勋在主题演讲中描述AI在具身智能上的应用时，着重点名的十款智能机器人就包括了远征A2。</p>
+<p class="image-wrapper"><img data-img-size-val="1938,1152" src="https://img.36krcdn.com/hsossms/20250219/v2_82baab205f4b408e895ecff1f123074b@1547419282_oswg956226oswg1938oswg1152_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：智元机器人）</p>
+<p>实际上，作为初创公司，智元机器人能够在短时间内取得这样的成绩，算得上是相当亮眼的。它不仅在技术上取得了突破，还在市场上成功吸引了投资者和行业的目光。据报道，智元机器人成立初期便拿下红杉、百度、上汽在内的6轮融资，估值超过70亿。<strong>但从商业化的角度来看，初创公司的道路仍然充满挑战，与今年在春晚上大放异彩的宇树相比，智元机器人可能还是欠缺了点东风。</strong></p>
+<h2>机器人元年，智元会是下一个宇树吗？</h2>
+<p>2025年，被业界广泛认为是“机器人元年”，这一年注定会成为机器人技术和产业发展的重要里程碑。</p>
+<p>一个关键的原因是，多个机器人企业在2025年进入了量产阶段。这意味着，机器人不再只是高科技公司的实验品，而是开始大规模投入实际使用。比如，特斯拉计划在2025年生产1万台Optimus人形机器人，并预计在2026年将这些机器人交付给其他公司。智元机器人也宣布，旗下第1000台通用具身机器人已经量产，其中包括了731台双足人形机器人，这些机器人可以应用到多个工业场景。</p>
+<p>而从C端来看，春晚上宇树带来的表演更是将“具身机器人”的概念从实验室走出去，走到普通消费者的脑海里。<strong>极目新闻曾报道，宇树一夜成名后，旗下通用型机器人H1和G1快速卖断货，不仅如此，目前还有第三方店铺设计了相关的租赁服务，订单已经排到次月。</strong></p>
+<p>第一个跑出的企业是宇树，不过广袤的机器人蓝海，绝不是宇树科技一家能吃掉的。在宇树后面，还有许许多多机器人佼佼者团队，智元机器人位列其中。</p>
+<p class="image-wrapper"><img data-img-size-val="1100,619" src="https://img.36krcdn.com/hsossms/20250219/v2_dedde9d18df3477c954abf34039947c5@1547419282_oswg396568oswg1100oswg619_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：宇树科技）</p>
+<p>宇树科技之所以能够被快速关注，除了春晚上的表演之外，与其本身的产品定位与市场方向都脱不开关系。宇树既关注工业应用，也非常重视消费级市场，尤其是在家庭和教育领域。其推出的Go2四足机器人就是一个典型的面向消费市场的产品，专为家庭娱乐和简单的智能助理任务设计。</p>
+<p><strong>而春晚上大火到卖断货的宇树通用机器人G1，随着算法的升级，如今已经可以做到学习任意舞蹈，这为其在娱乐、服务领域提供了更广阔的发展空间。</strong>据报道，宇树H1就曾因趣味化的舞蹈特性而被广泛应用于各来大小型活动，用于娱乐表演、问询服务等。而相信算法更强的G1将会进一步占领娱乐市场。</p>
+<p>智元机器人的战略重心主要放在B端市场，尤其是工业应用。通过推出像远征A1这样的产品，智元机器人力图在机器人制造、柔性生产、物料搬运等工业场景中占领一席之地。<strong>而在工业领域里，智元机器人推出的远征A2-W具备了双臂协作和全域可达，适用于柔性生产线，而远征A2-Max则设计为重载特种机器人，能够搬运高达40kg的物品。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,720" src="https://img.36krcdn.com/hsossms/20250219/v2_8f0999245f65449f94871c21a1386bc9@1547419282_oswg777822oswg1080oswg720_img_000?x-oss-process=image/format,jpg/interlace,1/format,jpg/interlace,1"/></p>
+<p class="img-desc">（图源：智元机器人）</p>
+<p>而推出开源的灵犀X1，无疑是智元向C端市场进发的潜在信号。</p>
+<h2>开源灵犀X1，智元要实现机器人“人人造”</h2>
+<p>通过开源，灵犀X1能够让更多的开发者、科研机构和教育单位参与到机器人的技术创新和应用中。另一方面，开源的策略使得开发者可以自由地修改、定制和优化灵犀X1的硬件和软件，提升机器人的适用性和灵活性。这种开放的平台不仅能增强用户粘性，还能形成一个活跃的技术社区，从而促进智元机器人的技术创新和迭代。</p>
+<p>稚晖君在接受媒体采访时也曾表示，将灵犀X1定位为开源机器人，目的就是向通过其开源的特性，引领市场进入到“人形机器人人造”的新时代”，也就是每个人都能打造属于自己的机器人。<strong>不难发现，虽然智元机器人并未真正推出面向C端的产品，但灵犀X1已经为部分有动手能力的爱好者铺好了路。</strong></p>
+<p>智元机器人具备成为下一个宇树的潜力，尤其是在技术创新和产品研发方面。但目前智元机器人还没有布局C端产品，这不利于其品牌形象的推广，且智元机器人目前推出可玩性最高的灵犀X1，似乎只是定位“极客”群体和专业开发者，普通消费者依然较难上手，购买需求几乎没有。</p>
+<p>在机器人量产的过程中，技术难题层出不穷，尤其是在传感器的精度和机械臂的控制方面。传感器在机器人操作中的作用至关重要，尤其是力/力矩传感器，它们对机器人执行任务的精度和稳定性有着直接影响。此外，机械臂的精确控制也是关键，特别是在工业制造中，像汽车抛光等复杂任务需要极高的精度。所有这些技术难题的突破，正是当前机器人量产进程的核心。</p>
+<p>尽管如此，2025年仍然是机器人行业的一个重要分水岭，随着技术逐步成熟，越来越多的公司宣布进入量产阶段。智元机器人、宇树科技、优必选、众擎、乐聚等机器人初创公司都在加速推进其产品的商业化：<strong>智元机器人通过开源灵犀X1，推动技术的普及并为未来进军C端市场奠定基础；宇树科技凭借春晚的曝光量成功实现品牌的快速传播，成为机器人行业的焦点；优必选、众擎和乐聚也相继实现了人形机器人产品的批量交付等等。</strong></p>
+<p>2025年，机器人爆发元年，宇树科技已经在公众视野中占据了重要位置，谁能成为下一个“宇树”，尚需时间的检验。</p>
+<p>本文来自“雷科技”，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173167730425603</guid><pubDate>Wed, 19 Feb 2025 16:25:00 +0800</pubDate></item></channel></rss>
