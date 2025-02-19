@@ -1,72 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 19 Feb 2025 20:00:24 +0800</lastBuildDate><pubDate>Wed, 19 Feb 2025 20:00:24 +0800</pubDate><item><title>最低售价仅1600刀，拆解宇树科技机器人帝国：用小米模式吊打波士顿动力</title><link>https://36kr.com/p/3173457433936770</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<blockquote>
-<p>除了DeepSeek外，最火的初创科技公司恐怕要数宇树科技了。</p>
-<p>当杭州宇树科技的人形机器人穿着东北大花袄，跳着扭秧歌登上央视蛇年春晚时，对于喜欢热闹的中国人而言，最大的惊喜莫过于收到了一个意外的科技红包。</p>
-<p>虽然获得了足够高的关注度，但作为一家非上市公司，大众仍然对宇树科技知之甚少。</p>
-<p>最近，摩根士丹利发布了一则关于宇树科技的研究报告。这个报告信息量极大，不仅回顾了王兴兴创办宇树科技的始末，还详细披露了宇树科技三大产品线，还总结了高效工程化、自研组件、可定制化、AI/Autonomy（自主能力）四大核心竞争策略。</p>
-<p>其中，最大的特点莫过于其惊人的成本控制能力。波士顿动力狗的售价在5-10万美元，而宇树四足机器人起步价只要1600美元。</p>
-<p>透过这份报告，我们将能够全面地了解宇树科技。以下是乌鸦君这份研究报告的整理：</p>
-</blockquote>
-<h2><strong>01 产品体系拆解：从四足机器人到人形机器人，最高售价9万美元起</strong></h2>
-<p>根据大摩研报，宇树科技的产品体系主要有三类，分别是四足机器人、人形机器人和机器人组件。具体如下：</p>
-<p class="image-wrapper"><img data-img-size-val="1080,534" src="https://img.36krcdn.com/hsossms/20250219/v2_6e75666f91ed4a6983e8d431201a5484@5091053_oswg248727oswg1080oswg534_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
-<p><strong>第一，四足机器人</strong>：</p>
-<p>到目前为止，四足机器人是宇树科技最核心的产品。宇树科技面向消费者的四足机器人分别Go系列和B系列。</p>
-<p>其中，起价10万美元的B系列具有显著更高的性能、电池容量和计算能力。每个四足机器人都提供了一系列先进的传感器，支持先进的自主性和机器视觉功能，从英特尔RealSense深度摄像头到足部力传感器和4D LiDAR。而Go系列比B系列更小巧、更实惠（起价1600美元）。</p>
-<p>许多型号还可以升级为配备附加轮子以提高机动性并添加机械臂。管理层声称，到2024年，其全球四足机器人市场份额将超过60%。</p>
-<p><strong>第二，人形机器人</strong>：</p>
-<p>宇树科技的人形机器人模型主要有两个：H1（23年8月发布）和G1（24年5月发布），市场定位是通用型机器人，可用于家庭、商业或研究目的。然而，到目前为止，宇树科技人形机器人的主要客户仍然是研究导向型客户，例如大学和AI初创公司。</p>
-<p>其中，H1是一款全尺寸的人形机器人，身高5英尺11英寸，配备更大的电池、更大的自由度和更大的计算能力。</p>
-<p>相比之下，G1更小（4英尺4英寸），价格更实惠，起价为16,000美元，而H1起价为90,000美元。这两种人形机器人都可以升级，改进双手以提高灵活性，并配备NVIDIA Jetson Orin SoC模块以提高计算能力。</p>
-<p><strong>第三，机器人组件</strong>：</p>
-<p>除了提供整个机器人外，宇树科技还制造专有机器人组件，如关节电机、摄像头和LiDAR传感器，以支持第三方机器人开发人员。</p>
-<h2><strong>02 窥探宇树科技4大核心优势，从高效工程化到自主能力</strong></h2>
-<p>在这份报告里，大摩将宇树科技的商业竞争策略归结为4点，分别是高效工程化、自研组件、可定制化、AI/Autonomy（自主能力）。具体如下：</p>
-<p><strong>第一，高效工程化</strong>：</p>
-<p>成本效益一直是宇树机器人的核心价值主张之一。</p>
-<p>在2016年成立之前，首席执行官王兴兴在上海大学读研究生时创造了XDog四足动物机器人。当时，XDog因其独特的低成本但高性能设计而迅速引起关注，最终导致王兴兴辞去无人机制造商DJI的工作并创办了宇树科技。</p>
-<p>宇树科技没有依赖昂贵的组件，而是选择高效工程（最大限度地减少组件数量）并尽可能回收现有技术。例如，为了降低人形机器人的成本，宇树科技利用为其四足机器人开发的现有技术，同时加快了上市速度。</p>
-<p>对比特斯拉的Optimus，Optimus拥有14个线性执行器+14个旋转执行器；而宇树科技售价16,000美元的G1人形机器人只有23个关节模块/旋转执行器。在一次采访中，王兴兴（Unitree创始人）表示，他们的路径更适合大规模生产。</p>
-<p><strong>第二，自研组件</strong>：</p>
-<p>宇树科技设计了其机器人中使用的大部分硬件，包括执行器中使用的电机和减速器。这能够让其在提高机器人的整体性能的基础上，最大程度地降低成本。</p>
-<p>在接受《机器人报告》采访时，宇树科技营销总监Duke Huang表示：</p>
-<p>“为了提高性能并降低成本，每个细节都至关重要。例如，减少电线和电缆的数量，减少芯片数量，减少螺丝等工作。这些工作看似微小，但实际上非常关键和重要。除了芯片，我们机器人的几乎所有硬件都是我们自己设计的。”</p>
-<p><strong>第三，可定制化</strong>：</p>
-<p>大多数宇树机器人都可以定制和升级，以满足特定客户的需求。每个机器人通常提供不同的“层级”，具有不同级别的传感器、计算和物理能力。</p>
-<p>此外，机器人可以配备各种附加装置，从人形机器人的改进手到四足动物的轮子和机械臂。宇树科技能够提供技术精简的模型，仅包含客户所需的内容，这是提高整体成本效率的另一种方法。</p>
-<p><strong>第四，AI/Autonomy（自主能力）</strong>：</p>
-<p>宇树科技是NVIDIA Project Gr00t的官方合作伙伴，这是英伟达推出的人形机器人通用基础模型。</p>
-<p>据大摩透露，宇树科技的许多机器人还具有（或可以升级为包含）NVIDIA Jetson Orin AGX模块，以实现板载生成AI功能。</p>
-<p>凭借其机器人上的板载计算和综合传感器套件，许多AI机器人初创公司（包括Skild AI和Field AI）已将Unitree机器人用作其最新基础模型的试验台。大摩注意到，宇树科技的几乎所有机器人都具有自主导航能力，这不需要高级的gen-AI功能。</p>
-<h2><strong>03 三大目标市场：消费级、工业、教育科研</strong></h2>
-<p>根据大摩报告，宇树科技机器人产品的客群群体目前主要覆盖消费、工业、科研教育等领域。</p>
-<p>在消费领域，宇树科技推出向Go2、Go1和A1系列四足机器人。这些机器人可以通过宇树官网直接购买，也可以在亚马逊和AliExpress等电商渠道购买。</p>
-<p>面向消费者的机器人可以通过遥控器或通过iPhone和Android上的Unitree Go应用程序进行控制。尽管面向C端市场销售，但这些机器人通常配备高端传感器（例如4D LiDAR）和计算功能（Go2可以升级为使用NVIDIA Jetson Orin）。</p>
-<p>在工业领域，宇树科技将其高端四足机器人推向工业应用，用于检查、物料搬运、安全和救援等场景。目前，宇树科技已推出专门针对自动检查和搜索和救援的定制解决方案，机器人可以完成在灾难现场搜寻潜在受害者或自动进行重复但关键的检查操作，从而限制潜在的人为错误并最大限度地提高安全性。</p>
-<p>在科研教育，由于某些型号的成本相对较低，宇树科技机器人经常用于机器人研究和教育。已知客户包括哈佛大学、耶鲁大学、卡内基梅隆大学、斯坦福大学和麻省理工学院。</p>
-<p>此外，包括Field AI、Skild AI在内的AI基础模型初创公司已确认将在Unitree机器人上进行测试。</p>
-<h2><strong>04 宇树科技创业始末回顾</strong></h2>
-<p>宇树科技由上海大学前研究生王兴兴创立，他在2013年至2016年的学习期间开发了一款高性能四足机器狗，名为“XDog”。</p>
-<p>基于低成本外部无刷电机，XDog因其实惠的物料清单(BoM)和高性能而获得认可。在XDog视频走红之前，王兴兴曾在无人机公司DJI工作过一段时间，这段工作经历帮助王兴兴在创办宇树早期就拿到了天使投资。</p>
-<p>根据最新信息，宇树科技估值80亿元人民币，相当于约11亿美元，公司最大的股东是美团旗下汉海信息技术（上海）有限公司，其他投资者包括Hexagon AB、红杉资本中国基金、祥峰中国基金、经纬创投、中信证券和北京机器人产业投资基金（政府支持的机器人基金）。</p>
-<p>宇树科技的竞争对手包括：优必选科技(9880.HK)、傅氏智能、小鹏机器人、RobotEra和Agibot。在全球的竞争对手有特斯拉、波士顿动力、1X Technologies和Figure AI等。</p>
-<p>在四足机器人领域，宇树科技的主要竞争对手是波士顿动力和Deeprobotics，后者为中国26个省的100多家企业提供服务。Deeprobotics的全地形模型Lynx，展示了其克服各种极端环境的能力，其主要客户包括国家电网、联想、宝钢、中国五矿和几所知名大学。</p>
-<p><strong>宇树科技的发展时间表:</strong></p>
-<p>2013-2016：王兴兴在上海大学攻读硕士学位期间开发了四足机器狗XDog。该机器人以低成本物料清单(BoM)和高性能而闻名。</p>
-<p>2016年6月：在XDog视频在互联网上疯传后，王兴兴在当地天使投资者的支持下正式创立了Unitree。</p>
-<p>2017年9月：发布了一款改进的四足机器人，称为“Laikago”，具有专有的电机、驱动装置和控制器。</p>
-<p>2020年1月：发布了A1四足机器人，旨在成为一种经济高效的教育和研究工具。在发布时，Unitree声称它是中国速度最快、最稳定的小型四足机器人。</p>
-<p>2021年6月：发布了Go1四足机器人，以超低价格和增强的感知能力而闻名。它还配备了16核CPU+GPU AI计算机，提高了计算能力。</p>
-<p>2021年8月：在顺为资本领投的A轮融资中筹集了“数千万美元”，经纬创投、Hexagon AB等参投。</p>
-<p>2022年4月：在经纬创投和敦鸿资本管理领投的B轮融资轮中筹集了1亿元人民币（约数千万美元），Hexagon AB参投。Hexagon还成为Unitree的官方合作伙伴，计划将Hexagon传感器整合到Unitree机器人中。</p>
-<p>2023年7月：发布Go2四足机器人，配备4D广角激光雷达，由专有AI基础模型控制。起价为1.6万美元。</p>
-<p>2023年8月：Unitree发布H1，推出其首款人形机器人。该公司声称这是“中国第一款全尺寸通用人形机器人”。</p>
-<p>2024年2月：在美团、源码资本和中信证券参与的B2轮融资中筹集了10亿元人民币（1.39亿美元）。</p>
-<p>2024年5月：发布G1人形机器人，因其价格（起价1.6万美元）和灵活性的提高而立即引起关注。</p>
-<p>2024年9月：在北京机器人产业投资基金领投的C轮融资中筹集了“数十亿元”人民币，美团、琥珀资本、上海科技创新基金、红杉资本中国（红杉）等也参与其中。</p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1WAl27LIElGWs7o68lDK0A" rel="noopener noreferrer nofollow" target="_blank">“乌鸦智能说”</a>，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173457433936770</guid><pubDate>Wed, 19 Feb 2025 19:34:00 +0800</pubDate></item><item><title>短剧行业沉浮录：从“月赚4亿”暴富神话到盗版泛滥，谁在赚钱，谁在亏钱？</title><link>https://36kr.com/p/3173456004366728</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Wed, 19 Feb 2025 20:30:24 +0800</lastBuildDate><pubDate>Wed, 19 Feb 2025 20:30:24 +0800</pubDate><item><title>短剧行业沉浮录：从“月赚4亿”暴富神话到盗版泛滥，谁在赚钱，谁在亏钱？</title><link>https://36kr.com/p/3173456004366728</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>今年春节，《哪吒2》无疑成为文娱行业最火爆的话题。大银幕火热，微短剧市场的竞争也日趋激烈。</p>
 <p>倪虹洁监制和主演的《夫妻的春节》成为2025年首部观看用户破亿的短剧；《蛇年大吉之小青渡劫》‌由舒畅主演，题材新颖，上线十几个小时播放量突破105万；抖音、红果、芒果TV等平台春节期间争相上线多达数千部微短剧，部分短剧甚至免费观看，在业内看来堪称“史上最卷”。</p>
 <p>过去两年，竖屏微短剧席卷网络，令众多网民“上头”。“爆款短剧编剧月入超10万”“一对夫妇做短剧每月进账4亿多”等相关话题也多次登上微博热搜。</p>
@@ -632,4 +565,64 @@
 <p>晚上11点林丛还躺在出租屋的沙发上，在意识到自己回家后连衣服都没换的时候，也惊讶发觉，他不知道怎么又玩了3个钟头的小游戏。</p>
 <p>注：本文人物均为化名</p>
 <p>本文来自微信公众号<a href="https://mp.weixin.qq.com/s/1GDntlYXrW4Wv2ats4PSBg" rel="noopener noreferrer nofollow" target="_blank">“温度纪”</a>，作者：肆夕，编辑：路子甲，氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173449860709891</guid><pubDate>Wed, 19 Feb 2025 19:56:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173449860709891</guid><pubDate>Wed, 19 Feb 2025 19:56:00 +0800</pubDate></item><item><title>单月全网涨粉近百万，90岁高能量老人vlog硬控年轻人</title><link>https://36kr.com/p/3173487419769224</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p>90后“自律女生”高能量的一天是如何度过的？</p>
+<p>早上6点半先给院子里的花花草草浇水，7点炒菜熬粥给一家人做早饭，10点准备午饭，10点半腌酸菜，11点晾衣服熬中药，一小时能干100件事，甚至到了凌晨一点，她还没休息还在发面蒸馒头，为第二天的主食做准备。</p>
+<p><strong>但此“90”后非彼“90后”，这可是一位实打实有90岁高龄的博主“梅英阿嬷”。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="330,712" src="https://img.36krcdn.com/hsossms/20250219/v2_8e597eb3320d4e71a924b6c7272473e5@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>“梅英阿嬷”每天两眼一睁就是干，像打了鸡血一样停不下来，前脚刚忙活完家务，后脚就去陪曾孙打球了，完全闲不下来。</strong>不少年轻人自愧不如，在评论区直呼“果然90岁正是闯的年纪”。</p>
+<p class="image-wrapper"><img data-img-size-val="330,712" src="https://img.36krcdn.com/hsossms/20250219/v2_5400f13ef4674b2fbaaee413bdbfe826@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>凭借一系列“高能量vlog”，“梅英阿嬷”在各大平台迅速起号，<strong>从1月份开始更新视频至今，短短一个月的时间，“梅英阿嬷”在抖音的粉丝量从0涨到了71.2万，三条视频点赞量超百万，小红书粉丝量也超过16万。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,1080" src="https://img.36krcdn.com/hsossms/20250219/v2_1cad662d97924b4da9be103c410e4f46@5091053_oswg208557oswg1080oswg1080_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>我们看到，最近网上涌现出了越来越多的高能量老人vlog，他们走路带风，手脚麻利，每天有使不完的劲儿，日子过得红红火火，多条视频的点赞量上万。</p>
+<p><strong>为什么现在的年轻人爱上了爷爷奶奶们的高能量vlog？这类中老年账号的商业化情况如何？</strong></p>
+<h2><strong>01 全网吸粉近百万，年轻人追更爷爷奶奶们的高能量vlog</strong></h2>
+<p>“梅英阿嬷”的勤快，给了躺在床上刷手机的年轻人亿点点震撼。</p>
+<p>在“梅英阿嬷”发布的视频中，她总是充满干劲，一刻不停地干活像是进入了家务循环，最长待机时间达到了19个小时，不禁让人怀疑：“难道长寿的秘诀是早起晚睡吗？”</p>
+<p>尤其是在1月13日发布的视频中，“梅英阿嬷”早上六点半就开始整理碗具，直到半夜12点半“梅英阿嬷”还没休息，开始抢救下午没发酵好的面团准备二次发酵。</p>
+<p class="image-wrapper"><img data-img-size-val="330,712" src="https://img.36krcdn.com/hsossms/20250219/v2_b00fd6a9e0bb41ada01ac04829dc4d9f@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>连跟拍的摄影师都开始喊累劝阿嬷停一停，“梅英阿嬷”一脸淡定，默默盖好面团后，又去吃完了晚上的剩饭，还不忘煮上第二天早上要喝的粥，一看时间，已经是凌晨1点15分了。</p>
+<p><strong>转天早上六点多，“梅英阿嬷”依旧准时出现了镜头前，开启新一天的家务循环。</strong></p>
+<p>跟拍10天后，身为90后的摄影师都熬不住了，头晕倒在了床上，还是“梅英阿嬷”放下手中的活儿，照顾累倒的摄影师。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,2140" src="https://img.36krcdn.com/hsossms/20250219/v2_499c20a9ed644ad9b161a37c0a12c54f@5091053_oswg153063oswg1080oswg2140_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在这之后，“梅英阿嬷”vlog的拍摄时间再没有早于7点，2月7日的视频从中午11点才开始拍摄，网友纷纷在评论区建议博主再找一个摄影师两班倒来拍摄。</p>
+<p>干劲足只是“梅英阿嬷”的一个优点，作为一名有着90年生活经验的老人，阿嬷总有一些生活小妙招值得广大网友逐帧学习，比如把牛奶盒当切菜板，用加碱的水煮洗碗布去污渍等等。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,2127" src="https://img.36krcdn.com/hsossms/20250219/v2_c87429cb5dd7450f9a8d6984a627d3af@5091053_oswg224879oswg1080oswg2127_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>而且，90岁的“梅英阿嬷”还紧跟热点，会在除夕时给粉丝们拍摄祝福视频，配合摄影师单手捂眼睛翻拍网络梗“阿玛特拉斯”。</p>
+<p><strong>目前，“梅英阿嬷”在抖音已更新了40条视频，账号内容十分垂直，绝大部分都是快节奏剪辑“梅英阿嬷”的一天。</strong></p>
+<p>“梅英阿嬷”高能量的状态，吸引到了一大波年轻人的关注。</p>
+<p>在“梅英阿嬷”抖音账号的评论区，排名靠前的留言大部分是玩梗的年轻人，比如“三旬老人躺床上看着九十岁青春少女自律的一天”“我说我怎么这么懒，原来是岁数没到”“老年人像打了鸡血，我像得了鸡瘟”等。</p>
+<p><strong>新榜旗下抖音数据工具新抖显示，“梅英阿嬷”的粉丝画像中，24-30岁年龄段粉丝居多，占比35.56%，从城市分布来看，新一线城市粉丝居多，占比22.35%。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,466" src="https://img.36krcdn.com/hsossms/20250219/v2_8a3f3f7963014bac9da209f682c19224@5091053_oswg101534oswg1080oswg466_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>在一条条高能量vlog和网友玩梗的共同作用下，“梅英阿嬷”全平台账号的粉丝量都开始上涨。截至目前，“梅英阿嬷”在全网的粉丝量超过了90万。</p>
+<p>“梅英阿嬷”出现后，一些中老年博主像是发现了流量密码，也开始学起了“梅英阿嬷”的剪辑方式，清一色地用《bad guy》当配乐，拍摄同款高能量老人的一天。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,752" src="https://img.36krcdn.com/hsossms/20250219/v2_9296f6a93a7c4d2b841465346e3680ab@5091053_oswg168071oswg1080oswg752_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>在这条赛道上，同样的一天，既能看到85岁的绍兴奶奶一人做完一大家子的年夜饭，又能看到八旬银发夫妇在农村相互扶持边干活边秀恩爱。</strong></p>
+<p>还有一位在上海当环卫工人的60岁大爷“郭叔”，凌晨4点便起床出门干活， 直到晚上八点钟，大爷还在街上收拾垃圾，九点钟才下班。除去吃饭，一天的工作时间就达到了14小时。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,2113" src="https://img.36krcdn.com/hsossms/20250219/v2_819b46d2159e427a8afc1d0f92eabb0a@5091053_oswg165346oswg1080oswg2113_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>截止目前，话题#90岁爷爷奶奶的日常#播放量达到了5.6亿次，新抖显示，近30天，该话题新增播放量超过4亿次。</p>
+<p class="image-wrapper"><img data-img-size-val="780,598" src="https://img.36krcdn.com/hsossms/20250219/v2_dc20d12ba2004984b9913b36a50b2369@5091053_oswg63338oswg780oswg598_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<h2><strong>02 中老年博主涌入自律vlog赛道背后：起号快、商业价值高</strong></h2>
+<p>事实上，自律vlog在互联网上流行已久。</p>
+<p>此前，便有不少年轻人在网上追更博主们自律又高能量的生活，像是“5点钟早起能做多少事？”“四点半早起，沉浸体验31岁不婚主义的一天”“大厂精致打工人自律的一天”等。</p>
+<p>自律vlog一度成为年轻人的电子鸡汤，似乎观看别人高效自律的生活，自己也能成为类似的人。<strong>自律vlog也成了博主们的流量密码，一条视频在小红书、抖音等平台能获得几万到几十万的点赞。</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,2178" src="https://img.36krcdn.com/hsossms/20250219/v2_b4bf3f797d6f4bb8b65c91e261117296@5091053_oswg273723oswg1080oswg2178_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>然而，当看多了博主们的自律vlog后，网友发觉这类内容同质化严重，几乎所有博主都要四五点早起，再流水线式地喝咖啡健身读书，所谓精致自律的生活可能是重复多机位的摆拍，营造氛围感的咖啡机、香薰等产品也是为了后期广告植入做准备。</p>
+<p>渐渐地， 自律vlog风评不佳，“打假”博主们的自律vlog成为了新的流量密码。</p>
+<p><strong>如今“梅英阿嬷”等高能量自律老人的加入，可以称得上是自律vlog赛道的一次内容创新</strong>，而且闯入这条赛道的中年老博主还不在少数，还有全网拥有超两千万粉丝的博主“周大爷不服老！”</p>
+<p>从去年11月，“周大爷不服老！”开始发布“1959年退休男生独居vlog”，展现自己充满活力又自律的生活，而此前该博主的内容主要以与家人的搞笑互动为主。</p>
+<p>视频中的周大爷，早起要先喝一杯泡满枸杞和人参的冷泡茶，再去公园健身锻炼，骑上摩托和朋友们打牌。有时，65岁的周大爷会回父母家住一晚，结果天不亮就被老父亲叫起床吃早饭晨跑，晚上七点被劝说上床睡觉，还不让玩手机，反差感拉满。</p>
+<p class="image-wrapper"><img data-img-size-val="330,712" src="https://img.36krcdn.com/hsossms/20250219/v2_7841adb8c05442d19326030650aa7b4e@5091053_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>截至目前，“周大爷不服老！”独居vlog在抖音最高的点赞量达到了127万，转发量达168万。</p>
+<p>在大众的传统观念中，老年人往往与“保守”、“迟缓”等标签挂钩，而这些老年博主们在网上展现出的活力、自律和积极生活态度，打破了这种刻板印象，强烈的反差感和新鲜感让网友们看得津津有味，持续追更。</p>
+<p>方片新媒体联合创始人阿鹏对新榜编辑部表示：<strong>“用中老年的人设做一些快节奏、年轻态的事情，符合主流流量的同时更反认知，所以他们能得到更多关注。”</strong>在他看来，相比于年轻人，老年人做自媒体起号更快，点赞涨粉等数据也会更好。</p>
+<p>而且，阿鹏提到，与同粉丝量级账号相比，中老年账号的商业价值会更高。</p>
+<p>以“周大爷不服老！”抖音账号为例，新抖后台显示，目前该博主21-60秒视频报价为30万，高于60%的同级达人。</p>
+<p class="image-wrapper"><img data-img-size-val="1080,784" src="https://img.36krcdn.com/hsossms/20250219/v2_5d269e8db6a44845b1d89153babd8b57@5091053_oswg222369oswg1080oswg784_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong>“中老年账号粉丝的年龄普遍在25岁-34岁或者35岁-44岁这两个区间，这类粉丝的购买力更强，便于博主通过直播带货或广告投放变现。”</strong>阿鹏说到。</p>
+<p>不过，MCN想要挖掘到合适的中老年博主，并不容易。中老年人接触互联网相对较少，很难找到找到第二个像“周大爷不服老！”或是“梅英阿嬷”这样有特点能持续拍摄的博主。</p>
+<p>此外，中老年博主的身体状况和配合度也可能会进一步限制账号的运营，阿鹏提到方片签约的博主，在全网拥有上千万粉丝的“潘姥姥”，有段时间便因为身体原因不得不短暂停更。</p>
+<p>不过，从内容角度来说，部分老年博主接触新鲜事物较慢，创作内容也容易陷入同质化。“梅英阿嬷”们凭借高能量vlog出圈，但看久后用户也会产生审美疲劳，不再对他们的一天感到好奇。</p>
+<p><strong>高能量自律vlog外，爷爷奶奶们能否持续产出新鲜内容，或将成为决定他们闯荡互联网成功与否的关键。</strong></p>
+<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/yECHTU3KnO1_pz5DNLjLOQ" rel="noopener noreferrer nofollow" target="_blank">“新榜”</a>，作者：晓雅，编辑：松露，36氪经授权发布。</p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3173487419769224</guid><pubDate>Wed, 19 Feb 2025 20:11:00 +0800</pubDate></item></channel></rss>
