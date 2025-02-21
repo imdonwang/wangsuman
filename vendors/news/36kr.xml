@@ -1,31 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 21 Feb 2025 23:00:24 +0800</lastBuildDate><pubDate>Fri, 21 Feb 2025 23:00:24 +0800</pubDate><item><title>DeepSeek倒逼，大模型资源再分配</title><link>https://36kr.com/p/3176292302049927</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
-<p>编者按：DeepSeek的爆火不仅掀起技术狂欢，更将中国大模型创业圈推入价值重估的十字路口。当行业开始追问“为什么大模型六小虎没有成为DeepSeek”时，更深层的行业洗牌暗流已然涌动。</p>
-<p>近日，月之暗面被爆大幅收缩产品投放预算的消息，再次引发市场关注，“AI‘六小虎’何去何从”的话题也被深思。</p>
-<p>最新消息显示，另一AI大模型独角兽MiniMax（稀宇科技）合伙人、公司副总裁、开放平台负责人魏伟，已经于近期离职。</p>
-<p>一位AI产业链人士对创投日报记者表示，DeepSeek的横空出世，让基础大模型赛道的竞争变得更加白热化。原本包括百度、阿里、字节、三大运营商，以及AI“六小虎”等在内的企业积极布局，但随着DeepSeek的出现，市场的天平开始倾斜。</p>
-<p><strong>其判断：“未来基础大模型赛道将进一步整合，最终可能只剩下不到‘10家基础大模型’公司。”</strong></p>
-<p>在该位产业链人士看来，“模型的技术能力就是产品力”。以前，许多基础大模型公司都存在资源分配不合理的现象。<strong>“一家融资规模达10亿元的基础大模型公司，其中6-7亿元都可能投在算力上，而用于语料的资金仅有1-2亿元，最后剩下的资金才用于公司运营。”</strong></p>
-<p>“但DeepSeek打破了这种传统的资源分配模式，由于算力消耗预期的下降，将彻底倒逼基础大模型公司在模型技术上创新。”该产业链人士继续说道，<strong>这也再次证明了“产品力是模型的技术能力”的核心逻辑，不是投流，也不是算力的堆砌。</strong></p>
-<h2><strong>01</strong></h2>
-<p>创投日报记者注意到，过去一年，B站上曾出现过一波基础大模型的“投流潮”，多个UP主均表示接到过来自Kimi、智谱、MiniMax等在内大模型玩家的投流。此外，字节的豆包也加入营销大战，在抖音、B站上投流。</p>
-<blockquote>
-<p>一份数据显示，去年10月，Kimi的广告投放金额达到2.2亿元。彼时，Kimi还曾因“20天烧钱1个亿”登上热搜。对此，上述AI产业链人士表示，“只能说，企业和投资人再一次被市场教育。”</p>
-</blockquote>
-<p>另一位算法工程师则对创投日报记者表示，<strong>尽管DeepSeek强大，但技术还没有在多模态上走通，仅仅是基于大语言模型，因此“差异化”一定是未来大模型要走的路。</strong></p>
-<p>在这一点上，创投日报记者注意到，大模型“六小虎”中的智谱、百川智能坚持走TO B路线，MiniMax和阶跃星辰虽然定位C端，但除了大语言模型，还有视频生成和视觉多模态等技术应用。</p>
-<p>比如，近日阶跃星辰发布了两款多模态大模型Step-Video-T2V视频生成模型和Step-Audio语音模型；MiniMax也有视觉多模态大模型MiniMax-VL-01等，这与DeepSeek目前聚焦的深度思考和逻辑推导，形成差异。</p>
-<p>月之暗面方面，其在定位C端之余，旗下产品Kimi也涉及多模态，但与DeepSeek一样都关注长上下文处理，且都是开源代码，以及免费的试用策略。“其中，Kimi是开放免费长文本处理，DeepSeek是提供API免费额度，以此降低使用门槛，促进社交传播裂变。”上述一位算法工程师表示。</p>
-<p>这意味着在很大程度上，Kimi面临的来自DeepSeek的直接竞争强度更大。由此，月之暗面表示，公司近期受到“外部因素和内部战略调整影响”。</p>
-<h2><strong>02</strong></h2>
-<p>截至目前，创投日报记者注意到，除了零一万物放弃训练超大模型外，智谱、百川智能、MiniMax和阶跃星辰等似乎都没有战略上的调整，而是聚焦在战术上的调整，比如选择开源。</p>
-<p>近日，阶跃星辰与吉利汽车集团联合宣布，将双方合作的阶跃两款Step系列多模态大模型向全球开发者开源。</p>
-<p>1月15日，MiniMax发布的新一代01系列模型同样采用开源模式，并且MiniMax方面表示，未来也会继续开源。</p>
-<p>“小虎”之外，昆仑万维近日表示，开源国内首个面向AI短剧创作的视频生成模型SkyReels-V1。</p>
-<p>更早前，字节发布的视频生成实验模型VideoWorld，也选择了开源。</p>
-<p>接受创投日报记者采访的多位业内人士认为，今年是AI应用大爆发的一年，大模型们在各个细分领域找到各自的生态位才是最关键所在，而金融、医疗、零售、制造等领域都有非常多的应用机会。<strong>“此外，DeepSeek的强化学习、算力调配，也是大模型公司们值得学习的地方。”</strong></p>
-<p class="editor-note">本文来自微信公众号<a href="https://mp.weixin.qq.com/s/er-tAdIEQmlwZZeb2X11IQ" rel="noopener noreferrer nofollow" target="_blank">“创投日报”</a>，作者：陈美，36氪经授权发布。</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3176292302049927</guid><pubDate>Fri, 21 Feb 2025 19:45:00 +0800</pubDate></item><item><title>抖音试水AI分身，背后透露了什么信号？</title><link>https://36kr.com/p/3176246306574729</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>36Kr</title><link>https://36kr.com/</link><description>36Kr</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://img.36krcdn.com/20191024/v2_1571894049839_img_jpg</url><title>36Kr</title><link>https://36kr.com/</link></image><lastBuildDate>Fri, 21 Feb 2025 23:30:25 +0800</lastBuildDate><pubDate>Fri, 21 Feb 2025 23:30:25 +0800</pubDate><item><title>抖音试水AI分身，背后透露了什么信号？</title><link>https://36kr.com/p/3176246306574729</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
 <p>抖音正在为它的内容生态注入新的技术变量。 </p>
 <p>据最新消息，近日字节旗下的AI智能体开发平台子(Coze)与抖音打通，与早期豆包App的简单问答功能不同，Coze允许创作者构建具备复杂逻辑的AI分身。通过接入文档数据库、工作流引擎及大语言模型，这些数字助手不仅能完成基础客服应答，还可执行旅行路线规划、数据分析报告生成等进阶任务。 </p>
 <p>AI分身是基于创作者在抖音的已有内容，通过大模型生成的AI智能体，它能够复刻创作者的对话风格和知识库，面向群聊、私信、评论 、直播、搜索等场景与用户进行24小时的随时互动。Coze的加入，提供了更复杂、灵活的AI分身设定，使创作者的AI分身能够运用到更多的场景。 </p>
@@ -505,4 +479,40 @@
 <p class="img-desc">欢迎交流！</p>
 <p class="image-wrapper"><img data-img-size-val="900,296" src="https://img.36krcdn.com/hsossms/20250221/v2_b004e10c802e4a57aeab9fd6e7cd370e@5783683_oswg141209oswg900oswg296_img_jpg?x-oss-process=image/quality,q_100/format,jpg/interlace,1"/></p>
 <p class="img-desc">欢迎关注！</p>
-</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3176064522375557</guid><pubDate>Fri, 21 Feb 2025 21:04:00 +0800</pubDate></item></channel></rss>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3176064522375557</guid><pubDate>Fri, 21 Feb 2025 21:04:00 +0800</pubDate></item><item><title>前江西首富李良彬斥资2亿跨界光伏</title><link>https://36kr.com/p/3176393300578437</link><description><![CDATA[<div class="common-width content articleDetailContent kr-rich-text-wrapper">
+<p class="image-wrapper"><img data-img-size-val="1080,1304" src="https://img.36krcdn.com/hsossms/20250221/v2_3cb60e029f9f4e98a4597237cd2deb29@6117095_oswg561006oswg1080oswg1304_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p><strong> 作者 | 柯阳明</strong></p>
+<p><strong>排版校对 | 甘惠淇</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,235" src="https://img.36krcdn.com/hsossms/20250221/v2_aa3d17e21525459381a347bbe6a188ab@6117095_oswg6130oswg1080oswg235_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>近日，赣锋锂业发布公告称，控股子公司赣锋锂电宣布出资2亿元，联合专业机构成立总规模20亿元的新能源股权投资基金，重点投向工商业分布式光伏、风电及海外储能项目。</p>
+<p>另外，公告还提到杭州保碧新能源科技有限公司将尽最大商业努力促成赣锋锂电在沙特阿拉伯的储能采购项目合作，促成赣锋锂电储能产品出海。</p>
+<p>值得注意的是，这一动作恰逢赣锋锂业上市14年来首次年度亏损之际。</p>
+<p>数据显示，2024年赣锋锂业预亏14至21亿元，同比去年下滑128.30%至142.45%，而去年赣锋锂业同期还盈利49.46亿元。</p>
+<p><strong>要知道曾经的赣锋锂业业绩是可以和宁德时代比一比的</strong>。</p>
+<p>数据显示，2022年赣锋锂业营业收入高达418.23亿元，净利润为205.04亿元。而同期的宁德时代营业收入为3285.9亿元，净利润才307.29亿元，营收是赣锋锂业的7.85倍，但净利润只是赣锋锂业1.5倍，换句话说，赣锋锂业以远低于宁德时代的营收，达到了宁德时代近66.72%的净利润。</p>
+<p>然而今非昔比。据悉，2024年宁德时代净利润为490亿至530亿元，同比增长11%至20%，不仅净利润没亏，而且还增长了（详情可见预见能源此前文章<a href="https://mp.weixin.qq.com/s?__biz=Mzg4NDc2OTYyMg==&amp;mid=2247491635&amp;idx=1&amp;sn=a7b07d9d4896a789929162ff7a546778&amp;scene=21#wechat_redirect" rel="noopener noreferrer nofollow" target="_blank">《宁德时代2024年业绩预报：增利不增收》</a>）。</p>
+<p>对此于本次业绩下降，赣锋锂业在公告中表示，<strong>主要是锂产品市场价格波动导致</strong>。</p>
+<p>自2024年起，碳酸锂的价格开始一路下跌，仅在过去的数月间，就相继跌破了每吨10万元、9万元以及8万元的价位节点。据公众号SMM储能最新消息显示，2月21日SMM电池级碳酸锂指数价格76141元/吨；其中电池级碳酸锂7.54-7.69万元/吨，均价7.615万元/吨，工业级碳酸锂价格则为7.315-7.415万元/吨。</p>
+<p>在这个背景下，持有的锂电相关金融资产的赣锋锂业受到明显冲击，特别是锂电企业股价下降对公司造成了巨大损失，另外还有锂盐及锂电池产品销售价格下跌，虽然出货量增加却未提升经营业绩，反而因存货的资产减值准备导致净利润同比大幅下降。</p>
+<p>另外，据统计，过去三年间，赣锋锂业累计投资超50亿元用于海外锂矿并购及固态电池研发。此前，赣锋锂业就曾发布公告称，计划为马里Safo的50MWc太阳能光伏发电及25MWh储能电站一期项目提供不超过5000万美元的融资。</p>
+<p>而如今在公司业绩巨幅下降，锂电产品价格处于行业周期底部之际，是什么让赣锋锂业还继续保持对外扩张的趋势呢？</p>
+<p><strong>这背后与创始人前江西首富李良彬的创业风格密不可分。</strong></p>
+<p>身价325亿的李良彬曾讲过这么一句话，<strong>“颠覆别人，而不要等着别人去颠覆你。”</strong></p>
+<p class="image-wrapper"><img data-img-size-val="1080,222" src="https://img.36krcdn.com/hsossms/20250221/v2_2842ccb4cc8c44219711a1de210e5c01@6117095_oswg28477oswg1080oswg222_img_000?x-oss-process=image/format,jpg/interlace,1"/></p>
+<p>时间拨回1997年，时任江西锂盐厂技术科长的李良彬做出人生最大胆的决定——<strong>放弃国企铁饭碗，带着114万元债务接手濒临破产的河下金属锂厂</strong>。这个选择源于他对行业的敏锐嗅觉，那就是智利SQM公司突破卤水提锂技术，将颠覆中国传统的矿石提锂体系。</p>
+<p>“良彬，你太痴了！” 河下金属锂厂原股东看着这个背着债务、身兼技术员和销售员的年轻人摇头叹息道。</p>
+<p>接过河下金属锂厂后，李良彬身兼数职，又当技术员，又当采购员、销售人员等，带领企业起死回生。</p>
+<p>李良彬有着“痴劲”不说，同样也有着大局观。在2007年，赣锋锂业为了获得SQM的原料供应，不得不签下一份“屈辱”合约——“<strong>未来10年内，不能进入电池级碳酸锂领域</strong>”。</p>
+<p>随后获得了稳定的原材料供应后，李良彬亲自带领研发团队，历经两个月的攻克，于2008年12月成功建成国内第一条半自动化“低温真空蒸馏工艺制备电池级金属锂”中试生产线，并于2009年4月投产。</p>
+<p>而此时SQM正被2008年金融危机重创，李良彬因此借势解除与SQM的“不平等条约”，从此撕开高端锂产品市场缺口。</p>
+<p>此后接着这劲头一路发展，赣锋锂业于2010年在深交所成功上市。并且为了解决原材料从国外进口、下游加工问题，李良彬采用了上游锂矿资源开采、下游锂电产业进军，打造上下游一体化产业的方法。并不断通过上市公司平台融资，从而来收购上游资源企业进行版图扩张。</p>
+<p>就这样一步一步，让赣锋锂业实现原材料自给自足，成功打造上下游一体化产业链。</p>
+<p>但显然李良彬并不局限于此，<strong>据业内专家称，此次跨界光伏，实为赣锋锂业构建“锂-储-光”铁三角的关键落子。</strong></p>
+<p>早在2023年，赣锋已在阿根廷Mariana盐湖配套建设120MW光伏电站，使提锂度电成本下降27%；并正在通过与保碧新能源的战略合作，从而锁定沙特市场储能项目15%的毛利率，也就是文中开头提到的储能项目；此外，在浙江某工业园区“光伏+固态电池储能”示范项目中已实现24小时绿电供应，储能系统度电成本降至0.28元。 </p>
+<p><strong>这种“锂矿-光伏-储能”闭环模式，既对冲锂价波动风险，又为固态电池提供测试场景</strong>——在内蒙古某风光基地项目中，其储能系统循环效率达94%，较传统方案提升9个百分点。行业数据显示，2025年中国新型储能装机量将突破160GWh，其中光储融合项目占比超70%，而赣锋的垂直整合能力（锂资源自给率40%+固态电池技术+海外布局）正形成独特优势。 </p>
+<p>数据显示，2024年全球新型储能新增装机109.8GWh，其中光储一体化项目占比超60%。未来光储一体化只会越来越多，并且我们也可以看到除了赣锋锂业外，业内还有锂电龙头在谋划着储能和光伏一同发展——此前锂电龙头“宁王”就有意收购光伏黑马一道新能源。</p>
+<p>因此，<strong>本次赣锋锂业进军光伏并非一时兴起，而是布局已久。</strong></p>
+<p>但今时不比往日，之前赣锋锂业在扩张版图时正处于公司蓄势待发之际，而现如今碳酸锂市场早已破10万价格，并且还在逐渐走低，因此本次赣锋锂业的布局虽好，但也要有足够的实力才能将这个布局走下去。</p>
+<p>赣锋锂业这种激进策略也引发专家的分歧。有看空者指出其负债率已从33%攀升至42.95%，2024年存货减值计提同比增加270%，未来资金压力会很大；但也有看多者关注到赣锋锂业2024第三季度净利润环比增长137.32%，赣锋锂业的布局以及沙特储能订单锁定的15%毛利率空间，认为未来赣锋锂业还是有很大成长空间。</p>
+<p>对此，某券商新能源分析师指出，<strong>“赣锋锂业在赌两个未来：一是碳酸锂价格触底回升，二是固态电池颠覆现有格局。”</strong></p>
+</div>]]></description><guid isPermaLink="false">https://36kr.com/p/3176393300578437</guid><pubDate>Fri, 21 Feb 2025 23:00:00 +0800</pubDate></item></channel></rss>
