@@ -1,5 +1,7 @@
 #EXTM3U x-tvg-url="https://gh.llkk.cc/raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz"
-#EXTINF:-1 tvg-id="1" tvg-name="CCTV-1 综合" tvg-logo="https://gh.llkk.cc/raw.githubusercontent.com/sumingyd/IPTV-Scanner-Editor-Pro/main/logo/CCTV/CCTV1.png" group-title="📺 央视频道" tvg-chno="1" tvg-shift="0" resolution="1920x1080" ,CCTV-1 综合
+
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV-1 综合" tvg-logo="https://gh.llkk.cc/raw.githubusercontent.com/sumingyd/IPTV-Scanner-Editor-Pro/main/logo/CCTV/CCTV1.png" group-title="📺 央视频道" tvg-chno="1",CCTV-1 综合
 http://150.138.8.143/00/SNM/CHANNEL00000311/index.m3u8
-#EXTINF:-1 tvg-id="2" tvg-name="CCTV-1 综合" tvg-logo="https://gh.llkk.cc/raw.githubusercontent.com/sumingyd/IPTV-Scanner-Editor-Pro/main/logo/CCTV/CCTV1.png" group-title="📺 央视频道" tvg-chno="2" tvg-shift="0" resolution="1920x1080" ,CCTV-1 综合
+
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV-1 综合" tvg-logo="https://gh.llkk.cc/raw.githubusercontent.com/sumingyd/IPTV-Scanner-Editor-Pro/main/logo/CCTV/CCTV1.png" group-title="📺 央视频道" tvg-chno="2",CCTV-1 综合
 http://150.138.8.143/00/SNM/CHANNEL00004003/index.m3u8
