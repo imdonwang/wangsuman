@@ -1,7 +1,5 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb/CCTV/HD/1HD.png" tvg-name="CCTV1",CCTV1
-http://150.138.8.143/00/SNM/CHANNEL00000311/index.m3u8 
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb/CCTV/HD/2HD.png" tvg-name="CCTV2",CCTV2
-http://150.138.8.143/00/SNM/CHANNEL00000317/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb/CCTV/HD/3HD.png" tvg-name="CCTV3",CCTV3
-http://150.138.8.143/00/SNM/CHANNEL00000003/index.m3u8
+#EXTM3U x-tvg-url="https://gh.llkk.cc/https://raw.githubusercontent.com/sggc/SD-EPG/refs/heads/main/EPG/sggc-desc.xml.gz"
+#EXTINF:-1 tvg-id="1" tvg-name="CCTV-1 综合" tvg-logo="https://gh.llkk.cc/https://raw.githubusercontent.com/sumingyd/IPTV-Scanner-Editor-Pro/main/logo/CCTV/CCTV1.png" group-title="📺 央视频道" tvg-chno="1" tvg-shift="0" catchup="default" catchup-days="7" catchup-source="rtsp://150.138.8.132/PLTV/88888888/224/3221226103/10000100000000060000000002902003_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" resolution="1920x1080" ,CCTV-1 综合
+http://150.138.8.143/00/SNM/CHANNEL00000311/index.m3u8
+#EXTINF:-1 tvg-id="2" tvg-name="CCTV-1 综合" tvg-logo="https://gh.llkk.cc/https://raw.githubusercontent.com/sumingyd/IPTV-Scanner-Editor-Pro/main/logo/CCTV/CCTV1.png" group-title="📺 央视频道" tvg-chno="2" tvg-shift="0" catchup="default" catchup-days="7" catchup-source="rtsp://150.138.8.132/PLTV/88888888/224/3221226103/10000100000000060000000002902003_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}" resolution="1920x1080" ,CCTV-1 综合
+http://150.138.8.143/00/SNM/CHANNEL00004003/index.m3u8
